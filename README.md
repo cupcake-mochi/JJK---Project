@@ -102,6 +102,16 @@ Se a mensagem for longa, o assistente deixa ela pronta em `mensagem-de-commit.tx
 
 > **O assistente não consegue commitar nesta pasta, e isso não tem conserto.** Ele lê, edita e roda os validadores normalmente, mas o `git commit` falha: o git finaliza cada objeto com *escreve temporário → `chmod` → `rename`*, e o mount pelo qual a pasta é exposta ao sandbox força permissão fixa e **rejeita o `chmod`** (`unable to set permission`). O objeto fica no disco pela metade — aparece no `ls` e não abre. Não é configuração do git; é como a pasta é montada. O commit é sempre seu.
 
+## O ciclo completo, quando o trabalho vem de um Project
+
+O repositório é a fonte da verdade, e o Project do Claude lê dele. **A sincronização é manual**, então a ordem importa:
+
+1. Trabalhar (aqui, no Cowork, ou onde for)
+2. `./subir.sh "o que mudou"`
+3. **No Project, clicar em "Sync now"** na fonte do GitHub
+
+Pular o passo 3 é o jeito mais fácil de acabar com duas versões do projeto: o Project continua lendo o commit anterior e passa a discutir regra que já mudou. Se uma conversa começar a citar número que você sabe que não é mais o atual, sincronize antes de qualquer outra coisa.
+
 ## Regerar o manual
 
 O `.docx` **não é editado à mão** — ele é gerado.
