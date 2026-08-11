@@ -1,6 +1,6 @@
 # Estado atual do projeto
 
-Atualizado em 11/08/2026. Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo.
+Atualizado em 11/08/2026. Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
 **Versão v0.32.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **doze peças escritas** e **dez validadores**. Manual do Fundamento na **v7.8**, com a Expansão de Domínio escrita, e o catálogo de aptidões com **dez das catorze entradas fechadas**. **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas** — por seis das nove rotas de Origem, e agora sem nenhum buraco de regra que morda nessa faixa.
 
@@ -507,9 +507,18 @@ A ordem de construção do `arquitetura.md` acabou. O que falta agora, na ordem 
 | # | peça | quando ela trava o jogo |
 |---|---|---|
 | ~~1~~ | ~~Descanso e recuperação~~ | **fechada na v0.23** (peça 10) |
-| 2 | **Aptidões e degraus de refino** | **nível 6, o primeiro marco.** Você escolhe refino e ganha uma aptidão — e elas não existem. É também o teto da segunda economia de poder, que o `arquitetura.md` chama de *"o risco maior da estrutura inteira"* |
-| 3 | **Trilhas com número** | **depois do nível 2.** O Caminho para de significar alguma coisa. Resolve também a dúvida aberta do Guia contra a Vanguarda |
-| 4 | **Equipamento** | **sessão 2.** `Defesa = 10 + Destreza + proteção`, e proteção não tem número |
+| ~~2~~ | ~~Aptidões e degraus de refino~~ | **fechada na v0.27** (peça 11), e as quatro anti-domínio na v0.29 |
+| ~~3~~ | ~~Tabela de XP~~ | **fechada na v0.31 e v0.32** (peça 12) — era a trava nº 1 de mundo compartilhado |
+| 4 | **Trilhas com número** | **depois do nível 2.** O Caminho para de significar alguma coisa. Resolve também a dúvida aberta do Guia contra a Vanguarda |
+| 5 | **Equipamento** | **sessão 2.** `Defesa = 10 + Destreza + proteção`, e proteção não tem número |
+
+> **Mas a fila mudou de natureza na v0.32, e vale ler isto antes de pegar a próxima peça.**
+>
+> **Não existe mais peça de regra bloqueando alguém de jogar.** Uma missão de nível 2 roda inteira: cria, joga, recupera, sobe de nível. As duas acima travam a **segunda sessão** e a **primeira subida**, não a primeira mesa.
+>
+> O que falta para alguém sentar na mesa não é regra — é **material**: `05-material/` está vazia, não existe ficha de personagem nem quick-start, e as doze peças são argumento de design e não texto de mesa. **`04-playtest/` está vazia há 32 versões, e todo número do sistema continua sendo previsão.**
+>
+> A rota decidida com o Mizuki foi: v7.7 → anti-domínio → XP → **validação e polimento** → ficha e quick-start. Os três primeiros saíram.
 
 **Depois dessas quatro**, e não antes:
 

@@ -8,11 +8,11 @@ Esta é a **trava nº 1 de mundo compartilhado** — *"XP tabelado, nunca marco 
 
 Ela também é a primeira peça deste projeto escrita a partir de **dado de gente real**: catorze opiniões da Guilda sobre quanto tempo a subida deve levar. O que não muda o fato de tudo aqui continuar sendo previsão até alguém jogar — mas a previsão agora tem de onde sair.
 
-> **O levantamento inteiro está em `01-pesquisa/levantamento-ritmo-de-progressao.md`**, com as catorze respostas como vieram. Quando o playtest contradisser algum número daqui, é lá que se confere o que foi perguntado e quem respondeu o quê.
+> **O levantamento inteiro está em `01-pesquisa/levantamento-ritmo-de-progressao.md`**, com as catorze respostas como vieram, a mediana medida e o glossário do *gap*. Quando o playtest contradisser algum número daqui, é lá que se confere o que foi perguntado e quem respondeu o quê.
 
 ---
 
-## 1. A regra, em quatro linhas
+## 1. A regra, em cinco linhas
 
 > **Cada nível custa um número inteiro de missões, e ele sobe uma missão a cada três níveis.**
 > **Uma missão padrão paga 100 XP, e paga o mesmo para todo mundo na mesa.**
@@ -37,9 +37,9 @@ Dois personagens começam juntos. Um perde dez sessões — viagem, prova, sumi�
 | 60 sessões | 2 | 4 |
 | 90 sessões | **1** | 0 |
 
-**Com XP fixo a distância só encolhe, e chega a zero em 160 sessões — depois do fim de uma campanha, o que na prática quer dizer um nível de folga.** O motivo é aritmético e não precisa de regra nenhuma: cada nível custa mais que o anterior, então a mesma missão vale uma fatia menor para quem está na frente. Quem está atrás sobe mais rápido sem receber nada de especial.
+**Com XP fixo a distância só encolhe**, e chega a zero em 160 sessões — depois do fim de uma campanha, o que na prática quer dizer que ela termina em um nível de folga. O motivo é aritmético e não precisa de regra nenhuma: cada nível custa mais que o anterior, então a mesma missão vale uma fatia menor para quem está na frente. Quem está atrás sobe mais rápido sem receber nada de especial.
 
-**Com XP escalado ela aumenta antes de fechar**, e só fecha porque o nível 30 é teto. Enquanto ninguém encosta no teto, o abismo cresce.
+**Com XP escalado ela trava**, e só fecha porque o nível 30 é teto. Enquanto ninguém encosta no teto, o abismo não se move.
 
 E isso tem nome na Guilda: é o **gap** que o Kekka descreveu — *"final da mansão tiveram players literalmente bloqueados de ganhar gap de tão mutantes que eram"*. Um personagem que se descola tanto que não cabe mais em mesa nenhuma.
 
@@ -151,17 +151,17 @@ Dez níveis lendários custam **mais XP** que dezoito mundanos — 8.200 contra 
 
 **O que ele resolve.** O levantamento trouxe o sintoma pronto, do Mega: *"muita gente só mestra pelo XP e isso vira cúmulo."* Quando a terceira mesa da semana vale metade, moer mesa para de compensar sozinho — sem proibir nada e sem ninguém precisar fiscalizar.
 
-**E ele é o que faz os três perfis existirem.** Sem ele, quem joga quatro vezes por semana chega ao nível 20 em 3,4 meses:
+**E ele é o que faz os três perfis existirem:**
 
-| perfil | mesas/semana | equivalente | 2 → 20 |
-|---|---|---|---|
-| joga pouco | 1 | 1,00 | **14,5 meses** |
-| mediano | 1,5 | 1,50 | **9,7 meses** |
-| joga muito | 4 | 2,75 | **5,3 meses** |
+| perfil | mesas/semana | equivalente | 2 → 20 | o alvo |
+|---|---|---|---|---|
+| joga pouco | 1 | 1,00 | **14,5 meses** | 14 |
+| mediano | 1,5 | 1,50 | **9,7 meses** | 9 |
+| joga muito | 4 | 2,75 | **5,3 meses** | 6,5 |
 
-Contra os alvos de 14 · 9 · 6,5, os dois primeiros batem quase exato.
+Os dois primeiros batem quase exato. **Sem o retorno decrescente, quem joga quatro vezes por semana chegaria ao nível 20 em 3,4 meses** — e aí acontece o que o Zeuk temia: *"30 nego lvl 16 em 4 meses"*.
 
-**O terceiro fica um mês e meio na frente, e isso é registrado e não consertado.** Puxar ele para trás exigiria dar cheio só na primeira missão da semana — e aí quem joga uma vez por semana perde metade do que ganha hoje, que é exatamente quem não se quer punir. Cinco meses e pouco continua dentro do que o Mahi e o Pedro pediram.
+**O terceiro fica um mês e pouco na frente do alvo, e isso é registrado e não consertado.** Puxar ele para trás exigiria dar cheio só na primeira missão da semana — e aí quem joga uma vez por semana perde metade do que ganha hoje, que é exatamente quem não se quer punir. Cinco meses e pouco continua dentro do que o Mahi e o Pedro pediram.
 
 ## 6. Mestrar não dá XP
 
@@ -205,7 +205,7 @@ Uma faixa e não um número, porque as duas pontas existem: uma missão perdida 
 2. **A mesa acontece.**
 3. **No fim, o mestre paga o valor declarado**, cheio no sucesso, metade ou nada na falha.
 4. **O jogador anota na ficha**, e aplica o desconto da semana se já for a terceira missão.
-5. **Chegou ao XP do próximo nível, sobe.** Não precisa de aprovação, exceto no limiar do 20.
+5. **Chegou ao XP do próximo nível, sobe** — no máximo um nível, e o resto fica acumulado. Não precisa de aprovação, exceto no limiar do 20.
 
 **Uma linha de missões paga por missão, e não no fim.** Quem entra no meio de uma linha recebe pelo que jogou — é o que permite mesa aberta funcionar.
 
@@ -217,4 +217,4 @@ Uma faixa e não um número, porque as duas pontas existem: uma missão perdida 
 - **A forma da conversão de mestragem** — um bônus por marca, sem virar pagamento por mesa.
 - **Se dois mestres pagam parecido pela mesma falha.** Marcado para o playtest.
 - **Se a semana é o relógio certo** para o retorno decrescente, ou se ele devia acompanhar o descanso longo, como o resto do sistema.
-- **Se o "joga muito" um mês e meio na frente incomoda na prática.** Registrado, não consertado.
+- **Se o "joga muito" um mês e pouco na frente incomoda na prática.** Registrado, não consertado.
