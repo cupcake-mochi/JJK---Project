@@ -90,6 +90,18 @@ python3 conferir-nomes.py --candidatos Vulto Matilha Bigorna
 
 Ela já matou mais de dez nomes que pareciam livres.
 
+## Commitar
+
+```bash
+./subir.sh "o que mudou"
+```
+
+Ele roda **os dez validadores**, mostra o que mudou, commita e dá push — e **se recusa a commitar se algum falhar**. Um commit que registra regra quebrada é pior que nenhum commit: daqui a três versões ninguém sabe em qual commit ela entrou.
+
+Se a mensagem for longa, o assistente deixa ela pronta em `mensagem-de-commit.txt` e você roda `./subir.sh` sem argumento — ele usa o arquivo e apaga depois.
+
+> **O assistente não consegue commitar nesta pasta, e isso não tem conserto.** Ele lê, edita e roda os validadores normalmente, mas o `git commit` falha: o git finaliza cada objeto com *escreve temporário → `chmod` → `rename`*, e o mount pelo qual a pasta é exposta ao sandbox força permissão fixa e **rejeita o `chmod`** (`unable to set permission`). O objeto fica no disco pela metade — aparece no `ls` e não abre. Não é configuração do git; é como a pasta é montada. O commit é sempre seu.
+
 ## Regerar o manual
 
 O `.docx` **não é editado à mão** — ele é gerado.

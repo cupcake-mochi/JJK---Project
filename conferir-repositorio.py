@@ -109,7 +109,10 @@ IGNORAR = re.compile(
     r'^(https?:|npm |pip |python3 |node |cd |git )|'
     r'^(and/or|e/ou|N/A)$|'
     r'[<>{}*]|'
-    r'^\d+/\d+$'
+    r'^\d+/\d+$|'
+    # arquivo que existe so' as vezes, de proposito: o assistente cria quando
+    # deixa uma mensagem de commit pronta, e o subir.sh apaga depois de usar
+    r'^mensagem-de-commit\.txt$'
 )
 
 # todo nome de arquivo que existe na arvore, para resolver citacao solta em prosa
