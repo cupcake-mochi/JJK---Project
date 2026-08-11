@@ -18,7 +18,7 @@ Uma ficha de feiticeiro de **nível 2**, pronta para jogar. Ela cabe numa págin
 - **Oito perícias e três ofícios** treinados — ou nove e dois, você escolhe
 - **Dois Testes de Resistência** treinados, de quatro
 - **Um Legado**, que veio da sua Origem e é o único que você vai ter
-- **Quatro feitiços**: dois pequenos e grátis, dois de verdade
+- **Cinco feitiços**: dois pequenos e grátis, três de verdade
 - Os números que caem sozinhos: vida, energia, Defesa, iniciativa
 
 Leva de vinte a quarenta minutos, e a parte longa é uma só — **escrever a técnica**. O resto é rápido de propósito.
@@ -130,7 +130,7 @@ Você já tem a Regra. Falta:
 2. **Famílias** — duas **Livres** (as Melhorias delas custam metade da Classe a menos) e três **Fechadas** (você nunca compra nada delas). É aqui que duas técnicas com a mesma Regra viram personagens diferentes.
 3. **Selo** — o gesto, a condição ou o objeto que a sua técnica exige. Não custa nem devolve ponto; ele é identidade, mais uma trava: Restrição que o Selo já obriga não devolve ponto.
 4. **Passiva Livre** — uma, de graça, para todo mundo. Ela não rola dado, não muda número e não faz ninguém rolar.
-5. **Os feitiços.** No nível 2 você tem **Classe 1**, dois feitiços de **Classe 0** (grátis, não ocupam espaço) e **dois feitiços conhecidos**, montados pelo orçamento da Classe 1.
+5. **Os feitiços.** No nível 2 você tem **Classe 1**, dois feitiços de **Classe 0** (grátis, não ocupam espaço) e **três feitiços conhecidos**, montados pelo orçamento da Classe 1. Três é o que a fórmula `2 + (nível ÷ 2)` dá no nível 2 — dois de toda ficha, mais o do próprio nível 2.
 
 **A Regra da técnica é lida por outra pessoa antes de entrar em jogo.** É uma das travas de mundo compartilhado, e existe porque quem escreveu sabe o que quis dizer — quem vai arbitrar, não.
 
@@ -244,7 +244,7 @@ Sete perguntas, e todas têm resposta objetiva:
 4. **São dois Testes de Resistência treinados**, um da Origem e um do Caminho?
 5. **A Regra da técnica cabe em uma frase**, é verificável pela mesa e não tem número?
 6. **Alguém que não seja o dono leu a técnica?**
-7. **Os dois feitiços conhecidos fecham no orçamento da Classe 1?** Três pontos cada.
+7. **Os três feitiços conhecidos fecham no orçamento da Classe 1?** Três pontos cada.
 
 E a que sustenta as sete: **o mestre pode recusar mesmo quando passa em tudo.** O checklist existe para tornar o "sim" barato, não o "não" impossível.
 

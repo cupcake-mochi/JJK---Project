@@ -119,7 +119,89 @@ const maxima = [
   ]),
   GAP(100),
   P('**Expansão de Domínio não é a Técnica Máxima.** As duas são coisas diferentes: a Técnica Máxima é o topo da sua técnica inata, e o domínio é a mesma técnica estendida sobre o território em volta. Uma técnica feita de domínio continua tendo Técnica Máxima como qualquer outra.'),
-  P('Expansão ainda não tem regra escrita. Quando tiver, ela não sai daqui: vai morar na criação de personagem, presa a um mínimo de **refino** e de nível, e comprada trocando espaços de feitiço conhecido. O teto do feitiço não muda por causa dela.'),
+
+  H2('Expansão de Domínio'),
+  P('Estender a sua técnica sobre o terreno: por alguns instantes, o lugar em volta deixa de obedecer ao mundo e passa a obedecer a você. É o topo do que um feiticeiro faz, e quase nenhum chega lá.'),
+  P('Ela **não é montada com pontos** como um feitiço, e **não é dada pelo nível** como a Técnica Máxima. Ela é **comprada**, com espaços de feitiço conhecido, e só abre quando o seu nível e o seu **refino** alcançam os dois mínimos.'),
+  BOX('REFINO, EM UMA LINHA', [
+    'O **refino** é o eixo de controle da sua ficha — quanto da sua energia você não desperdiça. Ele não é do Fundamento: ele mora no sistema em volta, sobe com os seus marcos e vai de 1 a 10. Aqui ele é lido em três lugares e nada mais: **o requisito**, **o desconto lá dentro** e **quanto tempo o domínio fica de pé.**',
+  ]),
+  GAP(100),
+
+  H3('Os dois degraus'),
+  TBL(['Degrau', 'Custa', 'Abre em', 'O Acerto dela'],
+    [
+      ['Incompleta', '2 espaços', 'nível 10 e refino 4', 'resolve por rolagem, como um feitiço'],
+      ['Completa', '3 espaços (+1)', 'nível 14 e refino 5', '**acontece.** Sem rolagem e sem Teste de Resistência'],
+    ],
+    [16, 16, 24, 44], { boldCols: [0] }
+  ),
+  GAP(120),
+  BUL('**A completa exige ter a incompleta**, e paga só a diferença — um espaço a mais, no molde da Regra Própria.'),
+  BUL('**Só a completa fecha barreira.** A incompleta é a técnica derramada no terreno, sem parede em volta.'),
+  BUL('O teto do feitiço não muda por causa dela, e as duas ficam **fora** da conta de Liberações Máximas.'),
+  GAP(100),
+
+  H3('O que você escreve: o Acerto e o Efeito'),
+  P('Um domínio tem duas peças, e elas fazem coisas diferentes. Escreva as duas com o mestre antes da campanha, uma frase cada, e as duas precisam caber na **Regra** da sua técnica.'),
+  TBL(['Peça', 'A pergunta que ela responde'],
+    [
+      ['**Acerto**', 'O que o domínio *garante que acontece* com quem está lá dentro.'],
+      ['**Efeito**', 'O que o domínio *permite você fazer* lá dentro que você não faria fora.'],
+    ],
+    [16, 84]
+  ),
+  GAP(120),
+  P('**O Acerto vem em três formas, e a sua é uma delas:** o que a sua técnica já faz passa a acertar · todos no ambiente recebem alguma coisa · ninguém no ambiente pode fazer alguma coisa.'),
+  GAP(80),
+  BOX('DUAS RÉGUAS PARA O ACERTO, E ELAS JÁ EXISTEM NESTE MANUAL', [
+    '**Se o seu Acerto é dano que sempre acerta**, a régua é a Melhoria **Inescapável**: ela custa uma Média e proíbe o feitiço de ter qualquer outra peça. Um Acerto que entrega dano garantido paga o mesmo tipo de preço — ele é o feitiço inteiro, e não sobra orçamento para mais nada em cima.',
+    '**Se o seu Acerto é uma regra sobre o ambiente**, a régua são os requisitos da **Regra Própria** (seção 1): uma frase, verificável, sem número solto. O mestre aponta o momento em que ela vale, e ela vale igual para todo mundo lá dentro — inclusive para você.',
+    'A diferença entre as duas não é de tamanho. É de que máquina o mestre usa para dizer sim ou não.',
+  ]),
+  GAP(100),
+
+  H3('Abrir, e o que muda lá dentro'),
+  BUL('**Custa a rodada inteira.** A incompleta cobra **6 × a sua maior Classe** de PE; a completa, **8 ×**.'),
+  BUL('**O Acerto acontece no momento em que você abre**, e de novo no começo de cada turno seu. O relógio é o seu, e não o de quem está lá dentro.'),
+  BUL('**Lá dentro os seus feitiços ficam mais baratos:** −⅓ do refino de PE na incompleta, **−metade do refino** na completa. **Nenhum feitiço custa menos de 1 PE.**'),
+  BUL('**Você pode arrastar o domínio.** Se estiver com os pés no chão, gaste o seu deslocamento e a expansão inteira vai junto — e quem está lá dentro não percebe que se mexeu.'),
+  BUL('**Dura metade do refino em rodadas**, no mínimo uma.'),
+  GAP(100),
+  BOX('A EXPANSÃO CONTA COMO FEITIÇO PARA A REGRA DE OURO Nº 6', [
+    'Se alguma coisa algum dia baixar o custo de abrir para **Ação Bônus**, a regra nº 6 passa a valer sozinha: *feitiço em Ação Bônus ou Reação só permite mais um de Classe 0 no turno.* Ou seja, quem abrir domínio em Ação Bônus não lança mais nada de peso naquele turno. Não é regra nova; é a que já está lá, e ela existe exatamente para este caso.',
+  ]),
+  GAP(100),
+
+  H3('A barreira, e o Rescaldo'),
+  P('Só a completa levanta barreira. Por dentro ela **não quebra** — quem está lá dentro está lá dentro. Por fora ela tem `50 × metade do refino` de vida, e cair antes da hora é o único jeito de alguém encurtar o seu domínio.'),
+  P('*O mestre pode declarar que uma barreira cede fora dessa conta* — três domínios se atravessando, uma fraqueza que a ficção já estabeleceu, uma cena que pede. É exceção declarada, e não a régua.'),
+  GAP(80),
+  BOX('RESCALDO', [
+    '**Quando o domínio acaba — de qualquer jeito — a sua técnica queima.** Você desfez por vontade, o tempo correu, ou estilhaçaram a barreira: dá no mesmo. Pelo resto da cena a sua técnica não responde, e você fica com o Classe 0, com o corpo e com o que não for técnica.',
+    'Isso é **preço, e não risco** — acontece em todo uso, e você já sabia disso quando abriu. É o que impede o domínio de ser mais uma linha da rotação.',
+    'Rescaldo **não é a exaustão do descanso**, e as duas não somam. São escadas diferentes, e esta aqui tem um degrau só.',
+  ]),
+  GAP(100),
+
+  H3('Nove domínios da obra, lidos nas duas peças'),
+  TBL(['Quem', 'Acerto', 'Efeito'],
+    [
+      ['Megumi *(incompleta)*', 'todas as invocações dele ganham reforço', 'invocar todas elas de uma vez'],
+      ['Sukuna', 'clivar e desmantelar acertam', 'alcança todos no ambiente'],
+      ['Mahito', 'ninguém desvia do toque dele', 'alcança todos no ambiente'],
+      ['Jogo', 'queima todos no ambiente', 'amplifica a técnica'],
+      ['Dagon', 'os shikigami dele acertam', 'amplifica a técnica'],
+      ['Yuta', 'os feitiços das espadas acertam', 'todas as técnicas copiadas, em forma de espada'],
+      ['Gojo', 'a enxurrada de informação', 'tocar em alguém para poupá-lo do Acerto'],
+      ['Hakari', 'todos recebem a informação do domínio', 'o pachinko, e a regeneração que ele paga'],
+      ['Higuruma', 'ninguém no ambiente pode causar dano', 'o julgamento, e as punições que ele libera'],
+    ],
+    [22, 38, 40], { boldCols: [0] }
+  ),
+  GAP(100),
+  P('**Repare no que a tabela mostra sobre os dois degraus.** O Megumi é o único incompleto da lista, e o Acerto dele *reforça* em vez de *atingir* — é o que dá para fazer quando o Acerto ainda rola. Os oito completos entregam coisas que não falham, e é isso que o terceiro espaço compra.'),
+  P('E repare também que **Efeito quase nunca é dano**. Alcance, repertório, amplificação, uma mecânica nova, controle sobre quem o Acerto pega. O dano, quando existe, mora no Acerto.'),
 ];
 
 const ouro = [
@@ -146,16 +228,15 @@ const progressao = [
   H1('9 · Progressão'),
   TBL(['Nível', 'O que ganha'],
     [
-      ['1', 'Fundamento com três Famílias Fechadas. Dois feitiços de Classe 0 (grátis) e dois conhecidos. Classe 1. Passiva Livre.'],
-      ['ímpares', 'Mais um feitiço conhecido.'],
+      ['1', 'Fundamento com três Famílias Fechadas. Dois feitiços de Classe 0 (grátis). Classe 1. Passiva Livre.'],
       ['5', 'Classe 2. Um feitiço de Classe 0 a mais.'],
       ['7', 'Libera Passiva de Classe 2.'],
       ['9', 'Classe 3.'],
-      ['10', 'Um feitiço extra. **A primeira Liberação Máxima.**'],
+      ['10', '**A primeira Liberação Máxima.**'],
       ['11', 'Um feitiço de Classe 0 a mais.'],
       ['13', 'Classe 4. Libera Passiva de Classe 3.'],
       ['17', 'Classe 5. Técnica Máxima. Um feitiço de Classe 0 a mais.'],
-      ['20', 'Um feitiço extra. **A segunda Liberação Máxima.**'],
+      ['20', '**A segunda Liberação Máxima.**'],
       ['21', 'Classe 6.'],
       ['26', 'Classe 7.'],
       ['30', '**A terceira Liberação Máxima.**'],
@@ -163,7 +244,9 @@ const progressao = [
     [16, 84], { boldCols: [0] }
   ),
   GAP(120),
-  P('A conta fecha em treze feitiços conhecidos no nível 20, menos os espaços que você trocou por Passiva. As Liberações Máximas ficam fora dessa conta.'),
+  P('**Quantos feitiços você conhece não é conta deste manual.** O Fundamento manda na Classe, na Liberação Máxima e em quando cada Classe de Passiva abre — a tabela acima é sobre isso. O tamanho da lista vem do sistema em volta, que é quem sabe quantos marcos você já passou, e é lá que ele deve ser consultado.'),
+  P('*Até a v7.6 esta seção trazia a própria contagem — dois no nível 1, mais um a cada ímpar, treze no nível 20. Ela era coerente consigo mesma e discordava do sistema em volta em três feitiços no nível 20 e seis no 30, e os dois davam um feitiço extra no nível 10, que somados contavam duas vezes. Uma contagem, um dono.*'),
+  P('O que continua valendo aqui: **Passiva é paga com espaços dessa lista**, a **Expansão de Domínio** também, e as **Liberações Máximas ficam de fora** — elas não ocupam espaço.'),
   P('Ao subir de nível você pode reescrever um feitiço que já conhece, do zero. Uma Liberação Máxima conta como feitiço pra isso.'),
   P('Se um feitiço que você conhece deixar de ser legal — por regra nova ou revisão da mesa — você o reescreve de graça na hora, sem gastar a troca de nível.'),
 

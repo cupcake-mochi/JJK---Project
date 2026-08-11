@@ -23,3 +23,7 @@ desktop.ini
 *~
 *.swp
 .~lock.*#
+
+# A mensagem de commit que o assistente deixa pronta. O subir.sh usa e apaga —
+# ela e passagem, nao material do repositorio.
+mensagem-de-commit.txt

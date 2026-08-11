@@ -148,6 +148,12 @@ const numeros = [
     ],
     [12, 15, 17, 12, 44], { centerCols: [0,1,2,3,4], boldCols: [0] }
   ),
+  GAP(100),
+  BOX('ESSA ÚLTIMA COLUNA É UM TETO, E NÃO UM DIA', [
+    'Ela responde *"quantas vezes cabe se você não fizer mais nada com o seu PE"*. Um dia de verdade tem outras despesas ao mesmo tempo — o sistema em volta tem coisas que cobram **por rodada** enquanto estão ligadas, e a Integridade encarece todo feitiço quando o seu segundo degrau acende.',
+    'Na prática, um conjurador gasta PE em cerca de **metade das rodadas de luta do dia** e passa a outra metade no Classe 0, no golpe simples e no que for de graça. Isso não é aperto: é o desenho.',
+    'Leia esta coluna como o limite superior. Quem trata ela como orçamento de dia acaba precificando peça nova contra um personagem que só faz uma coisa — e esse erro já custou três versões do sistema em volta.',
+  ]),
 
   H2('Classe 0'),
   P('Feitiços de Classe 0 não gastam PE, não ocupam espaço na lista e não se montam: escolha uma Forma e pronto. São o golpe de todo turno em que o PE precisa ser poupado.'),

@@ -6,6 +6,528 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.32] — 2026-08-11
+
+O Mizuki olhou a curva da v0.31 e disse duas coisas: que ela não fazia **progressão nível a nível**, e que subir três níveis numa missão *"não traz uma metodologia de jogo bom"*. Pediu pesquisa em fórum e em sistema de guilda de verdade.
+
+**Ele estava certo, e o precedente é mais forte do que a intuição dele.**
+
+### Achado — o defeito que derrubou o XP na maior campanha compartilhada do mundo
+
+A **D&D Adventurers League**, com cerca de 100 mil membros, abandonou experiência na temporada 8, em 2018. O motivo documentado é literalmente o caso que o Mizuki descreveu:
+
+> *"Uma aventura de quatro horas levava um personagem novo do nível 1 ao 3 — mais rápido do que os designers pretendiam."*
+
+E o defeito espelho junto: *"jogadores ficavam presos no nível 4 por muito tempo, porque o XP era fixo por faixa e não ajustado ao nível."*
+
+**A nossa curva tinha exatamente o primeiro.** Medido: um final de arco jogado por um personagem de nível 2 entregava **três níveis de uma vez**.
+
+### Achado — os dois grandes sistemas de jogo organizado convergem numa coisa que a nossa curva não tinha
+
+| | como conta |
+|---|---|
+| **Adventurers League** | 4 checkpoints por nível até o 4, 8 dali em diante · 1 checkpoint por hora |
+| **Pathfinder Society 2e** | 12 XP por nível, cenário paga 4 — **três cenários por nível**, sempre |
+
+**Os dois compram a mesma propriedade: o custo de um nível é um número inteiro pequeno de sessões, legível sem tabela.** *"Estou no nível 12, cada nível são quatro missões, joguei duas."*
+
+A reta da v0.31 — `100 + 30 × (nível − 2)` — dava 1,3 missão no nível 3, 1,6 no 4, 2,8 no 8. **Só o nível 2 caía redondo.** Todo o resto pedia conta.
+
+### Decidido — a curva vira degrau, e ele sobe a cada três níveis
+
+> **Um nível custa um número inteiro de missões padrão, e o número sobe uma a cada três níveis.**
+
+| níveis | custa | | níveis | custa |
+|---|---|---|---|---|
+| 2 a 4 | 1 missão | | 17 a 19 | 6 |
+| 5 a 7 | 2 | | 20 a 22 | 7 |
+| 8 a 10 | 3 | | 23 a 25 | 8 |
+| 11 a 13 | 4 | | 26 a 28 | 9 |
+| 14 a 16 | 5 | | 29 | 10 |
+
+**Ela mantém as duas propriedades da v0.31 e ganha a terceira.** Continua crescendo — que é o que fecha o abismo entre quem jogou e quem sumiu, e é a razão do XP ser fixo. E agora é legível de cabeça.
+
+*Por que não a curva plana da Pathfinder Society:* com custo plano **ninguém alcança ninguém**, porque todos sobem no mesmo ritmo para sempre. A PFS resolve isso com faixas de nível por cenário — mesa aberta de guilda não tem esse luxo. Perturbei o validador para plano e ele acende.
+
+### Decidido — nenhuma missão dá mais de um nível
+
+> **Você sobe no máximo um nível por missão. O XP que sobrar fica acumulado e sai na próxima.**
+
+**O excedente não some**, e isso é o que faz o teto não tirar nada de ninguém — ele só espalha. Quem levou um final de arco no nível 2 sobe na hora e entra na missão seguinte com 200 XP no bolso.
+
+**E ele quase não atrasa nada.** Simulado com missão padrão, com teto e sem teto dão o mesmo nível em 10, 20, 40, 60 e 80 missões — porque com missão padrão o teto nunca chega a morder. Ele é rede de segurança para o caso grande.
+
+### Os números novos
+
+| | v0.31 | v0.32 | alvo |
+|---|---|---|---|
+| 2 → 20 | 6.390 XP · 60 missões | 6.300 XP · 59 | 60 |
+| 20 → 30 | 7.750 XP · 32 | **8.200 XP** · 34 | 32 |
+| joga pouco | 13,9 meses | 14,5 | 14 |
+| mediano | 9,3 | 9,7 | 9 |
+| joga muito | 5,1 | 5,3 | 6,5 |
+
+### Corrigido de método — a mesma cegueira pela terceira vez em três versões
+
+A checagem do teto comparava o resultado contra `TETO_NIVEIS_POR_MISSAO` — a **própria constante que ela deveria vigiar**. Subir a constante subia a régua junto, e a perturbação saía verde.
+
+É o terceiro exemplar da mesma espécie em três versões seguidas:
+
+| versão | onde | o que a checagem não via |
+|---|---|---|
+| v0.28 | dominância das três rotas | o eixo dos feitiços, que era o da pergunta |
+| v0.30 | upkeep das anti-domínio | a constante, porque `1.0` estava escrito na mão |
+| **v0.32** | teto de níveis por missão | a própria constante, por auto-referência |
+
+**O conserto é sempre o mesmo:** separar *a regra aplicada* do *limite de design*. Agora `MAXIMO_DE_DESIGN = 1` é declarado à parte, e a checagem falha se a regra passar dele **ou** se o resultado passar.
+
+**Nove perturbações conferidas** no `conferir-xp.py`, três delas novas: teto removido, custo deixando de ser inteiro, e curva plana.
+
+### Em aberto
+
+- **A lista de feitos do limiar do nível 20.**
+- **A forma da conversão de mestragem.**
+- **Energia Reversa, Barreira Simples, Cortina** e a régua da Aptidão Própria.
+- **Qual modelo de clash vale.**
+- **Nome do sistema.**
+
+---
+
+## [0.31] — 2026-08-11
+
+**A tabela de XP.** A trava nº 1 de mundo compartilhado — *"XP tabelado, nunca marco narrativo"* — ficou aberta por trinta versões, e é a última coisa que separava o sistema de ser jogável de ponta a ponta.
+
+E é a **primeira peça deste projeto escrita a partir de dado de gente real**: catorze opiniões da Guilda sobre quanto tempo a subida deve levar. **Décimo validador**, e ele confere uma coisa que nenhum outro confere — que a regra continua produzindo o *tempo* que as pessoas pediram.
+
+### O levantamento, medido
+
+Mediana de **10,25 meses** para o 2→20 e **4,1** para o 20→30, razão **0,45**. O Mizuki punha o mediano em 9 meses e a razão em 0,61 — um pouco mais rápido que o grupo, com o "joga pouco" dele batendo no teto de quase todo mundo.
+
+**Todas as catorze concordaram numa coisa só:** a faixa lendária é mais curta em tempo, apesar de ter dez níveis contra dezoito.
+
+### Decidido — XP fixo por missão, e a razão é uma propriedade de guilda
+
+> **A missão paga o mesmo para todo mundo na mesa, independente do nível de quem recebe.**
+
+Numa guilda, mesa aberta junta nível 8 com nível 14 — não é exceção, é terça-feira. Simulado: dois personagens começam juntos, um perde dez sessões, depois jogam tudo junto.
+
+| depois de | XP fixo | XP escalado pelo nível |
+|---|---|---|
+| 20 sessões | 4 níveis | 4 |
+| 40 | 2 | **4** |
+| 90 | **1** | 0 |
+
+**Com XP fixo a distância só encolhe**, e é aritmética pura: cada nível custa mais que o anterior, então a mesma missão vale uma fatia menor para quem está na frente. Ninguém recebe nada de especial — o atrasado só precisa de menos.
+
+**Com XP escalado ela trava**, e só fecha quando alguém encosta no teto de nível. É o **gap** que o Kekka descreveu: *"tiveram players literalmente bloqueados de ganhar gap de tão mutantes que eram."*
+
+### Decidido — "Grau dá mais XP" bate numa decisão de arquitetura
+
+A proposta que apareceu no levantamento foi a de D&D: inimigo de grau mais alto paga mais. **A intuição está certa e o alvo está errado** — missão difícil já vale mais, pelo tamanho dela.
+
+E se o **Grau** desse XP, ele quebraria uma separação que o `arquitetura.md` fez de propósito: *"todo personagem começa Grau 4, e a patente sobe por **feito**"*, *"o Yuta é Grau especial, Nível baixo"*. Grau é reconhecimento; nível é poder. Juntar os dois vira espiral fechada — sobe de patente, sobe de nível mais rápido, ganha patente por feito.
+
+### A curva, e o tamanho da missão
+
+> **XP para subir = `100 + 30 × (nível − 2)`** — 100 no nível 2, 640 no 20, 910 no 29.
+
+Reta de propósito: um mestre confere de cabeça que *"o próximo custa trinta a mais"*. Exponencial daria o mesmo efeito e uma tabela consultada toda vez.
+
+| missão | paga |
+|---|---|
+| curta / roleplay | 50 |
+| padrão | 100 |
+| longa | 200 |
+| final de arco | 300 |
+
+**Uma curva só, e quem varia é a missão** — e é isso que faz a faixa lendária ser mais rápida sem nenhuma regra de exceção:
+
+| faixa | XP | missões |
+|---|---|---|
+| 2 → 20 (18 níveis) | 6.390 | ~60 |
+| 20 → 30 (10 níveis) | **7.750** | **~32** |
+
+Dez níveis lendários custam **mais XP** que dezoito mundanos e levam **metade das missões**, porque lá em cima a Guilda roda final de arco.
+
+**E missão de roleplay paga.** Uma guilda que só dá XP para quem mata perde metade do que a faz ser guilda.
+
+### Decidido — retorno decrescente, e não teto
+
+> **As duas primeiras missões da semana pagam cheio. A terceira paga metade, a quarta metade disso, e assim por diante.**
+
+100% · 100% · 50% · 25% · 12% · 6%.
+
+**Ninguém sai com zero, e essa é a razão de ser decrescente.** A escolha entre teto duro e decrescente foi do Mizuki, e o argumento é de mesa e não de planilha: *"por mais que o foco deveria ser jogar e ter história, é garantido que reclamariam de acabar tendo XP zero."* Um teto produziria a sessão de seis horas que termina em nada.
+
+**O que ele resolve** veio pronto do levantamento, do Mega: *"muita gente só mestra pelo XP e isso vira cúmulo."* Quando a terceira mesa da semana vale metade, moer mesa para de compensar sozinho, sem proibição e sem fiscal.
+
+| perfil | mesas/semana | 2 → 20 | o alvo |
+|---|---|---|---|
+| joga pouco | 1 | 13,9 meses | 14 |
+| mediano | 1,5 | 9,3 | 9 |
+| joga muito | 4 | **5,1** | 6,5 |
+
+**O terceiro fica um mês e meio na frente, e isso está registrado e não consertado.** Puxá-lo para trás exigiria dar cheio só na primeira missão da semana — e aí quem joga uma vez por semana perde metade, que é exatamente quem não se quer punir. Sem o decrescente ele chegaria em 3,5 meses.
+
+### Decidido — mestrar não dá XP
+
+> **Mestrar paga na moeda que o sistema já tem separada: patente, contato, favor, acesso.**
+
+A decisão mais impopular da peça e a de argumento mais curto: se mestrar paga XP, mestrar vira a rota ótima de subir, e quem mais dirige o mundo é quem menos joga nele.
+
+*Fica em aberto:* uma conversão pontual depois de muitas mesas mestradas — **um bônus por marca, nunca por sessão**.
+
+### Decidido — o limiar do nível 20
+
+> **Você chega ao 20 por XP. Você passa dele por feito.**
+
+Pedido pelo Zeuk e pelo Soler, e o argumento não é de balanceamento: *"tirar a ilusão do 'cheguei no lvl 20 pro 21 em 4 meses enquanto fulano upou 7 níveis'."*
+
+Ele encaixa numa coisa que o sistema já tinha — a patente sobe por feito — e é **o único lugar onde o eixo social e o de poder se tocam**, uma vez só, na fronteira do mundano com o lendário. O XP continua acumulando e nada se perde.
+
+**A lista de feitos fica em aberto**, e ela precisa ser fechada no molde do ambiente propício: entradas escritas, palavra final do mestre em cima delas.
+
+### Decidido — falhar paga metade ou nada, e o mestre escolhe
+
+Faixa e não número, porque azar de dado não é a mesma coisa que abandono. **O piso é metade e não zero** — seis horas que terminam em nada fazem a pessoa não voltar; **o teto é metade e não cheio** — senão o sucesso deixa de significar. Discricionariedade assumida, no molde do *"o mestre declara o que foi uma luta"*.
+
+### Adicionado — `conferir-xp.py`, o décimo validador
+
+Cinco checagens, e uma delas é inédita no projeto: **ele confere que a regra ainda produz o tempo que a Guilda pediu**, com tolerância declarada por perfil. Se alguém mexer na curva ou no tamanho das missões, ele diz de quanto o alvo saiu.
+
+**Seis perturbações conferidas**: curva plana, curva decrescente, decrescente virando teto duro, missão padrão dobrada, faixa lendária ficando mais longa que a mundana, e o decrescente frouxo demais.
+
+**E ele pegou um critério errado meu antes de fechar:** eu exigi distância **zero** entre o atrasado e o líder em 120 sessões, e 120 sessões não alcançam o teto de nível. O invariante certo é a distância **encolher sempre e terminar pequena** — ela zera em 160 sessões, depois do fim de uma campanha, o que na prática quer dizer um nível de folga.
+
+### Em aberto
+
+- **A lista de feitos do limiar do nível 20.**
+- **A forma da conversão de mestragem.**
+- **Energia Reversa, Barreira Simples, Cortina** e a régua da Aptidão Própria.
+- **Qual modelo de clash vale**, e os seis números do push.
+- **Nome do sistema.**
+- E a fila mudou: com a XP escrita, **o que falta para alguém jogar é ficha e quick-start.**
+
+---
+
+## [0.30] — 2026-08-11 · *manual v7.8*
+
+O Mizuki notou uma coisa e ela derrubou o método de três versões seguidas: **todo cálculo de custo em PE deste projeto mediu uma peça sozinha contra o bolso inteiro.** Uma ficha de verdade gasta tudo ao mesmo tempo.
+
+**Nono validador**, e ele é o primeiro que responde *"cabe tudo junto?"*.
+
+### Achado — o erro não era de conta, era de modelo
+
+Quando a v0.29 escreveu *"1 × Classe por rodada cabe em 3 a 4 lutas"*, o personagem dessa conta segura uma postura defensiva e **não conjura nada**. Isso não é um personagem: é uma estátua. O mesmo vício está nas contas de PE da v0.28 e da v0.27.
+
+**E ele era invisível para os onze validadores**, porque cada um mede uma peça contra a régua dela. Nenhum somava. É a maior das três cegueiras achadas nesta semana — as outras foram a checagem de dominância que não via o eixo dos feitiços e o `1.0` escrito na mão dentro do laço.
+
+### Corrigido de método — e a correção corrigiu a correção
+
+A primeira soma que eu apresentei dizia que segurar uma anti-dominío e conjurar custava **136% do dia** de um Bastião no nível 22, ou seja, era impossível. **Esse número também estava errado**, e pelo lado oposto: ele supunha conjurar **toda rodada**.
+
+> **Conjurar toda rodada nunca coube, com ou sem upkeep.** O bolso só dá para conjurar em **38% a 48%** das rodadas do dia num Bastião, e 57% a 76% num Emanador.
+
+O upkeep é 20% do custo de uma rodada; o feitiço é 80%. Eu culpei o upkeep por um estouro que já existia sem ele. **Segurar durante um domínio inteiro sempre coube: 1 a 1,7 feitiços, 21% a 34% do dia.**
+
+E a economia já pressupõe essa folga de propósito — o resto das rodadas vai para Classe 0, golpe simples e projetar energia, que não custam nada. Isso não é aperto: é o desenho.
+
+### Decidido — o preço das anti-domínio fica como estava
+
+O Mizuki pediu para reduzir o upkeep pela metade e reavaliar. A reavaliação achou uma coisa que ninguém tinha visto: **são duas travas diferentes, e elas puxam para lados opostos.**
+
+| | o que ela faz |
+|---|---|
+| **custo de ativar** | pune ligar sem precisar — é afundado, some se a luta não vem |
+| **upkeep** | limita quanto tempo você segura — **quanto menor, mais tempo ligado** |
+
+Baixar só o upkeep **alarga** a janela de pré-ligamento, que era exatamente o que ele queria fechar: de 2,4 para 4,9 min.
+
+Seis candidatos foram medidos no somatório:
+
+| | um domínio (nv22) | do dia | feitiços que sobram | pré-ligado |
+|---|---|---|---|---|
+| **A** `0×` ativar · `1×` upkeep | 30 | 34% | 3 | **2,4 min** |
+| B `0×` · `0,5×` | 15 | 17% | 4 | 4,9 min |
+| C `2×` · `0,5×` | 27 | 31% | 3 | 4,2 min |
+| E `2×` · `0,75×` | 37 | 42% | **2** | 3,1 min |
+| F `1×` · `1×` | 36 | 41% | **2** | 2,7 min |
+
+**A e C passam nos três invariantes; E e F falham** — deixam dois feitiços para o resto do dia, e aí uma luta de domínio come o dia inteiro. A escolha ficou no **A**: nada muda, porque o somatório absolveu o preço que já estava lá.
+
+### Achado — um preço sem número, desde a v0.27
+
+> **Cobrir-se de energia, a Reação: `1,5 × refino` de Redução de Dano por 2 PE.**
+
+Estava escrito só *"gastando PE"*. É a lição nº 6 pelo avesso: ali o termo existia e o **número** não. O `conferir-orcamento.py` procura essa forma agora, e a busca varreu as onze peças.
+
+**E os 2 são fixos porque o limitador dela não é PE** — é a Reação, uma por rodada, e a proteção perdida por um turno. Medido contra o que um PE compra atacando, só o valor fixo mantém defender não sendo estritamente pior que atacar: `+0,0` no nível 14 e `+0,9` no 30, contra `−2,0` e `−4,1` se ela custasse `1 × Classe`.
+
+### Adicionado — `conferir-orcamento.py`, o nono validador
+
+Cinco checagens, e nenhuma delas existe em outro lugar: a linha de base cabe; um compromisso não pode calar o personagem pelo resto do dia; pré-ligar não pode compensar; o dano de alma empilha por baixo sem falir ninguém numa rodada; e **todo preço em PE tem número**.
+
+**Seis perturbações conferidas**, todas rodadas de `03-mecanica/`: bolso pela metade, upkeep em `3×`, upkeep zerado, upkeep em `0,1×`, Integridade quadruplicada, e o preço sem número voltando para a peça 11.
+
+**E ele deu dois falsos positivos antes de ficar de pé**, os dois registrados no código: `custa Pesada` casava com `custa PE` por falta de um `\b`, e a nota que *explica* o preço antigo citando *"gastando PE"* era acusada como se fosse regra. Citação não é regra.
+
+### Alterado — a coluna de PE do manual ganhou uma caixa (v7.8)
+
+O Mizuki pediu para refazer os cálculos dela agora que existem aptidões. **A conta estava certa** — ela é PE total dividido pelo custo, e bate em todas as seis linhas. O que faltava não era número: era dizer o que ela **não** conta.
+
+Medido: segurar uma anti-domínio durante um domínio inimigo tira **uma** conjuração do dia, duas no nível 20. A tabela não precisou mudar.
+
+> **A caixa nova diz que a coluna é um teto, e não um orçamento de dia** — e diz por quê, porque foi tratar teto como orçamento que produziu esta versão inteira.
+
+### Em aberto
+
+- **Energia Reversa, Barreira Simples, Cortina** e a régua da Aptidão Própria.
+- **Qual modelo de clash vale**, e os seis números do push.
+- **Tabela de XP**, a próxima da fila.
+- **Nome do sistema.**
+
+---
+
+## [0.29] — 2026-08-11
+
+As quatro anti-domínio, destravadas pela v7.7. A pesquisa na obra **inverteu uma decisão** que estava escrita em três documentos, e a inversão mudou quem é a resposta barata do sistema.
+
+### Achado — nenhuma das quatro serve contra a Expansão incompleta, e isso é canon
+
+> **Elas anulam acerto garantido. A incompleta não tem acerto garantido — o Acerto dela rola.**
+
+O wiki da Cesta Oca de Vime é explícito: ela *"não neutraliza a técnica em si, o que a torna ineficaz contra domínios incompletos ou não-letais"*. E tem cena: o **Reggie ativou Cesta Oca dentro do Jardim de Sombras Quimérico do Megumi** — incompleto — e os shikigami tomaram forma e bateram nele do mesmo jeito. O Domínio Simples tem o mesmo limite.
+
+Isso encaixa exato nos dois degraus da v7.7 e **não abre buraco nenhum**: contra a incompleta você se defende com Defesa e Teste de Resistência, como de tudo o mais. E é o que faz o terceiro espaço da completa comprar alguma coisa de verdade — ele troca um Acerto bloqueável por Defesa por um que só estas quatro alcançam.
+
+### Corrigido — a Cesta Oca é a predecessora, e o projeto tinha invertido
+
+O `ESTADO-ATUAL` dizia *"Domínio Simples sem gate — é o que se ensina"*, e punha a **Cesta Oca acima dele**. A obra diz o contrário: a Cesta Oca de Vime é a **técnica antiga que o Domínio Simples melhorou**. O Reggie usa ela porque é feiticeiro do passado, não porque é mais forte. Gatear a versão pior mais alto cobra mais caro pelo produto inferior.
+
+> **Cesta Oca de Vime é Classe 1, sem gate. Domínio Simples subiu para Classe 2.**
+
+**E isso trocou o dono da resposta barata.** O argumento *"o acerto garantido só é jogável porque a resposta é barata"* estava pendurado no Domínio Simples no nível 6. Com ele em Classe 2 (nv10 · 10 · 14), quem chega no nível 6 para as três rotas é a Cesta Oca — **e ela responde menos**, porque anula o Acerto e não o Efeito.
+
+**O argumento continua de pé, e vale escrever por quê:** o que a peça 11 chamou de opressivo foi o acerto que nunca falha, não o Efeito. A resposta barata cobre o que precisava cobrir, e só isso.
+
+### Decidido — o eixo que separa as quatro é liberdade, não força
+
+Os quatro preços vêm da obra, e nenhum foi inventado:
+
+| | protege | e cobra |
+|---|---|---|
+| **Cesta Oca de Vime** | só você, numa esfera | você segura o símbolo e **não faz mais nada** |
+| **Domínio Simples** | um raio em volta | **os pés não saem do chão**, ou quebra |
+| **Pétala** | o corpo, e **devolve o golpe** | concentração, e **não para ataque físico** |
+| **Extensão de Domínio** | o corpo, e faz o **seu** ataque acertar | **nenhum feitiço enquanto estiver de pé** |
+
+| | Classe · gate | abre em | refino escala | PE/rodada |
+|---|---|---|---|---|
+| Cesta Oca de Vime | 1 · sem gate | nv 6, três rotas | **nada** | **nenhum** |
+| Domínio Simples | 2 · refino 4, nível 7 | nv 10 · 10 · 14 | raio `1,5 m + refino÷2` | `1 ×` Classe |
+| Pétala | 2 · refino 4, nível 7 | nv 10 · 10 · 14 | `refino÷2` Acertos devolvidos | `1 ×` Classe |
+| Extensão de Domínio | 3 · refino 7, nível 13 | nv 14 · 18 · 26 | duração `refino` rodadas | `1,5 ×` Classe |
+
+### Decidido — o custo por rodada, e a conta escolheu sozinha
+
+Medido no Bastião, que é o menor bolso do sistema, numa luta de 3,5 rodadas:
+
+| custo/rodada | do dia, por luta | lutas que cabem |
+|---|---|---|
+| metade da Classe | 9% a 18% | 5 a 11 |
+| **`1 × Classe`** | **20% a 26%** | **3 a 4** |
+| `2 × Classe` | 41% a 52% | 1 a 2 |
+
+**O `1 ×` fica exatamente do tamanho do orçamento de lutas do dia** — a exaustão dispara da quarta, então dá para segurar a defesa em toda luta de um dia normal e terminar seco quando o cansaço chegaria de qualquer jeito. `2 ×` deixa você se defender uma vez e acabou; metade cai para 9% no nível 20 e **evapora**.
+
+**A Cesta Oca é de graça em PE porque já cobra o turno**, que é o recurso mais caro de uma luta. Evitar dois Acertos custa **57% dos seus turnos**: você sobrevive e não contribui. Resposta de sobrevivência, não de vitória — que é o que ela é na obra. Cobrar PE em cima seria cobrar duas vezes pela mesma escolha.
+
+### Escritas, com o que cada número segura
+
+**O raio do Domínio Simples** é `1,5 m + refino ÷ 2` — 2,5 m no refino 2, que é onde o canon está (~2,21 m), e 6,5 m no teto. **Ele nunca passa de um movimento (9 m)**, e essa é a trava: uma defesa que cercasse o inimigo seria outra peça. O Kusakabe puxando gente para dentro fica como coisa da Trilha dele.
+
+**A Pétala devolve `refino ÷ 2` Acertos**, e a completa solta `1 + duração` — 3 a 6. **Sempre sobra um**, em toda faixa de refino. Se ela devolvesse tudo, o terceiro espaço da completa deixaria de comprar alguma coisa.
+
+**A Extensão se auto-limita pelo PE.** Ela dura `refino` rodadas, o dobro de uma Expansão, mas segurar até o fim custa 75% a 92% do dia de um Bastião — e **no nível 26 custa 106%**, ou seja, ele fica sem PE na nona rodada de dez. A duração é teto, não promessa. Some com *"você não lança nada enquanto ela está de pé"*: quem tem feitiço bom paga o dobro por ela.
+
+### Adicionado — checagem 10 no `conferir-expansao.py`
+
+A resposta mais barata alcança as três rotas antes de a Expansão existir; o upkeep cabe no orçamento de lutas do dia sem evaporar; a Pétala nunca anula o Acerto inteiro; o raio nunca vira cerca; e a escada de PE não decresce com a Classe.
+
+**Seis perturbações conferidas**, todas rodadas de `03-mecanica/`: Cesta Oca subindo para Classe 2, upkeep em `2 ×` e em `0,5 ×`, Pétala devolvendo o refino cheio, raio em `1,5 × refino`, e a Extensão ficando mais barata que o Domínio Simples.
+
+### Corrigido de método — a checagem do upkeep não lia a constante
+
+A primeira versão dela tinha `1.0` escrito na mão dentro do laço, em vez de ler o multiplicador da tabela. Uma perturbação na constante **não acendia nada** — o mesmo defeito que a checagem de dominância do `conferir-aptidoes.py` tinha na v0.28, na mesma semana. Agora ela lê da tabela, e a mensagem de erro reporta o valor real em vez de um número fixo.
+
+**É a lição nº 7 pela segunda vez em duas versões:** um número que mora em dois lugares vai divergir — inclusive quando os dois lugares estão no mesmo arquivo.
+
+### Em aberto
+
+- **Energia Reversa, Barreira Simples, Cortina** e a régua da Aptidão Própria.
+- **Qual modelo de clash vale**, e os seis números do push.
+- **A aptidão que baixa a Expansão para Ação Bônus** — citada, não escrita.
+- **Tabela de XP**, que é a próxima da fila.
+- **Nome do sistema.**
+
+---
+
+## [0.28] — 2026-08-11 · *manual v7.7*
+
+A Expansão de Domínio, que era a coisa que a v0.27 registrou como bloqueadora de quatro entradas do catálogo. Ela saiu — e o caminho até ela achou **dois documentos que discordavam sobre quantos feitiços um personagem tem**, um validador que guardava um número em vez de lê-lo, e uma checagem de dominância que não enxergava o eixo que ela precisava enxergar.
+
+**Oitavo validador.** E três nomes morreram na triagem, um deles depois de já estar escrito nesta versão.
+
+### Decidido — os gates, e o que a conta separou de verdade
+
+O `ESTADO-ATUAL` registrava nível 10 / refino **3** e nível 14 / refino **5**. O CHANGELOG da v0.27 registrava refino **4** e **6**. Os dois estavam meio certos, e a curva do `arquitetura.md` 4.3 separou:
+
+> **Incompleta: nível 10 e refino 4, por 2 espaços. Completa: nível 14 e refino 5, por 3 no total — e ela exige ter a incompleta.**
+
+**No nível 10 as três rotas estão coladas** — refino 5, 4 e 3, sem buraco entre elas. Então **qualquer gate que barre o generalista pega o meio a meio com folga zero**. Isso não é escolha de número: é o formato da curva, e só dá para escolher quem raspa.
+
+**No nível 14, refino 5 e refino 6 separam exatamente as mesmas rotas.** Os dois barram só o generalista. Eles diferem na direção em que quebram, e o validador mediu: com **5**, a curva caindo um ponto não move ninguém; com 6, ela tira a completa do meio a meio. O 5 é imune para o lado que dói.
+
+**E "barrado" quer dizer atrasado.** O generalista chega à incompleta no 14 e à completa no 18 — quatro níveis atrás nos dois degraus. Ele paga em tempo o que não pagou em marco.
+
+### Corrigido — o preço da completa nunca esteve em aberto
+
+O `ESTADO-ATUAL` dizia *"a definir"*. Mas a própria seção do Leque dizia 3, e **as três tabelas de orçamento da peça 11 só fecham com 3** — conferidas as nove células. `2 + nível÷2 + marcos` dá 12/16/21/24, e as linhas de Passiva batem em 3/7/12/15 e 0/0/3/6.
+
+E um número velho junto: *"dois feitiços são 33% da lista no nível 10"* foi calculado com a fórmula anterior à v0.27. Com nove espaços no nível 10, dois são **22%**.
+
+### Achado — o manual e o projeto tinham calendários de feitiço diferentes
+
+A v0.27 mandou *"o manual corrigir o treze na v7.7"*, tratando como um número. **Não era um número: era um calendário inteiro.**
+
+| nv | manual (tabela 9) | projeto (peça 11) |
+|---|---|---|
+| 6 | 4 | 6 |
+| 14 | 9 | 12 |
+| 20 | **13** | **16** |
+| 30 | 18 | 24 |
+
+O manual dava 2 no nível 1, +1 em cada **ímpar**, e extras no 10 e no 20. O projeto dá `2 + nível ÷ 2` — que sobe nos **pares** — mais um por marco. **Cada documento era coerente consigo e nenhum era coerente com o outro**, e a distância crescia: +3 no nível 20, +6 no 30.
+
+E os extras **se cruzavam no nível 10**: o manual dava um feitiço ali e o projeto também. Se os dois valessem juntos, o nível 10 contaria duas vezes — a lição nº 2 pela sétima versão seguida.
+
+> **O manual parou de contar feitiço.** A tabela 9 ficou com o que é do Fundamento — Classe por nível, Liberação Máxima, quando cada Classe de Passiva abre — e a contagem tem um dono só. É o mesmo modelo de dono único que a v0.26 escreveu para as três tabelas compartilhadas.
+
+**Efeito colateral achado na varredura:** a peça 8 ainda dizia *"dois feitiços conhecidos"* no nível 2, em três lugares, incluindo a lista de abertura. A fórmula dá **três** desde a v0.27, e ninguém tinha corrigido. A ficha da Kaori não lista feitiços, então foi conserto de texto e não de exemplo.
+
+### Decidido — o que a Expansão custa para usar
+
+| | incompleta | completa |
+|---|---|---|
+| abrir | `6 × maior Classe` | `8 × maior Classe` |
+| desconto lá dentro | `1/3 do refino` | `metade do refino` |
+| duração | `metade do refino` em rodadas, mínimo 1 | |
+| barreira | não tem | `50 × metade do refino`, só por fora |
+
+**A escada fecha:** feitiço do topo `3×` < Técnica Máxima `5×` < incompleta `6×` < completa `8×`. E a incompleta passar da Máxima responde uma pergunta de design que apareceu no caminho — *"a incompleta não é mais fácil de ter que uma Técnica Máxima?"*. Ela chega sete níveis antes, sim. Mas a Máxima é **dada** no nível 17 para toda ficha, de graça e sem gate, e a incompleta é **comprada**, por dois espaços de lista e um gate de refino que barra uma das três rotas. *"Mais fácil"* está certo no calendário e errado no preço.
+
+**O desconto quase virou lucro, e isso foi por pouco.** A duração é também quantos feitiços saem lá dentro, então desconto × duração compete com o custo de abrir:
+
+| abrir | desconto | nv14 | nv20 | nv30 |
+|---|---|---|---|---|
+| `6 × Classe` | refino cheio | +3 | **−6** | **−8** |
+| `8 × Classe` | metade do refino | +23 | +24 | +31 |
+
+Com `6 ×` e refino cheio, **o saldo fica negativo do nível 20 em diante** — você abre o domínio e termina com mais PE do que começou. As combinações escolhidas ficam entre +18 e +31 em todo nível, e a margem não encolhe.
+
+**E o desconto precisa de piso.** Sem *"nenhum feitiço custa menos de 1 PE"*, o refino 10 zeraria as Classes baixas e o PE deixaria de existir como recurso dentro do domínio.
+
+### Decidido — o Acerto acontece no relógio do portador
+
+Três formatos foram levantados, e dois caem no mesmo problema: pôr o proc no turno dos alvos. **"Começo da rodada dos alvos" não é um momento definido neste sistema** — a iniciativa é `d20 + Destreza` por criatura, então não existe rodada coletiva de inimigos, e dois mestres resolveriam diferente. E "fim do turno dos alvos" deixa todo mundo agir antes de o domínio encostar, o que esvazia o acerto garantido que o terceiro espaço comprou.
+
+> **O Acerto acontece quando você abre, e de novo no começo de cada turno seu.** Um relógio, o do portador.
+
+**E a preocupação com a aptidão que baixa o custo para Ação Bônus já tinha resposta escrita.** A regra de ouro nº 6 — *"feitiço em Ação Bônus ou Reação só permite mais um de Classe 0 no turno"* — resolve sozinha o caso de sair o Acerto garantido mais um feitiço da ação padrão. É a lição do Carregar de novo: **a tensão era lacuna de texto, não de preço.** Bastou escrever que a Expansão conta como feitiço para aquela regra.
+
+### Decidido — o Efeito é escrito com o mestre, e o Acerto tem duas réguas
+
+O Efeito sai no molde da **Regra Própria**, porque nenhum domínio da obra cabe num orçamento de dados — pachinko, julgamento, enxurrada de informação.
+
+E o Acerto ganhou a régua que faltava, sem inventar nada:
+
+- **Acerto que é dano garantido** → a régua é a Melhoria **Inescapável**, que custa uma Média e proíbe o feitiço de ter qualquer outra peça.
+- **Acerto que é regra sobre o ambiente** → os requisitos da Regra Própria.
+
+*Uma versão desta análise dizia que o +1 espaço da completa estava subprecificado contra o Inescapável.* Estava mal formulada: comparava as duas como se o Acerto fosse sempre dano. O do Higuruma — *"ninguém no ambiente pode causar dano"* — não é rolagem de dano nenhuma. A comparação só vale para a família que é dano, e é exatamente essa que a régua do Inescapável cobre.
+
+### Adicionado — o Rescaldo, e o nome que morreu depois de escrito
+
+A técnica queima quando o domínio acaba, **de qualquer jeito** — desfeito por vontade, expirado ou estilhaçado. O compêndio não distingue os três, e por isso **isso é preço e não risco**: acontece em todo uso, e quem abriu já sabia.
+
+*Uma versão desta versão propôs tornar o gatilho condicional só à quebra, para preservar a energia reversa no cérebro como resposta a algo que acontece às vezes. A obra decidiu contra, e o texto passou a dizer que é custo fixo.*
+
+**O nome era `Queima de Técnica`, e a triagem matou.** `Queima` já é Melhoria do manual — *"metade dos dados de novo, no começo do próximo turno do alvo"* —, e dois Queimas na mesma mesa com um deles causando dano é a colisão que este projeto mata nome para evitar. `Empurrão` e `Estilhaço`, que apareciam na descrição do clash, **também estão ocupados**. Sobrou **Rescaldo**, que é o que fica depois de algo queimar.
+
+### Adicionado — `conferir-expansao.py`, o oitavo validador
+
+Nove checagens: os gates separam o que dizem, a ordem entre os degraus não inverte, barrado é atrasado e não trancado, o preço fecha com as tabelas publicadas, a resposta anti-domínio chega antes da ameaça, a fragilidade da curva medida nas **duas** direções, o desconto não paga a própria Expansão, o piso segura o custo de feitiço, e a barreira cai dentro da própria duração.
+
+**Oito perturbações conferidas**, cada uma acendendo a checagem certa: gate que para de barrar, gate que barra demais, gate da completa mais frouxo que o da incompleta, preço em 4, preço igual ao da incompleta, incompleta descendo para o nível 6, curva do generalista subindo, e a linha passiva do marco sumindo.
+
+### Corrigido — a checagem de dominância não via o eixo da pergunta
+
+Ao validar se o Leque devia devolver dois feitiços em vez de um, a checagem 5 do `conferir-aptidoes.py` saiu **verde** com a rota pura indo de 31 para 38 espaços. O motivo: ela olhava atributo, aptidões e Passivas, e **não olhava refino nem feitiços** — justamente o eixo em que o Leque lidera.
+
+Agora ela olha os cinco, confere a recíproca (nenhuma rota pode **liderar** em todos), e ganhou duas travas diretas: o Leque devolve exatamente um feitiço por escolha, e a rota de Leque não pode terminar com mais espaços a mais do que existem marcos. **Perturbação conferida:** o `+2` acende as duas.
+
+**E a resposta à pergunta foi não.** A lista não está escassa contra a régua que existe: o manual pretendia treze no nível 20, e a rota de Leque já entrega **20**, +54%. O aperto que se sentia vem da Expansão, e é o preço dela funcionando — sem comprar Expansão a lista nunca fica curta.
+
+### Corrigido — o `conferir-repositorio.py` guardava o número em vez de lê-lo
+
+Ele falhou quando o oitavo validador entrou, porque tinha `sete` escrito no código. Agora ele **lê o número do README** e compara — o mesmo defeito que a checagem 4 do `conferir-manual.py` existe para pegar, dentro do próprio validador que existe para pegar defeitos assim.
+
+Ele também pegou, na hora, o rascunho do clash tomando número de peça. Rascunho não é peça, e o arquivo foi renomeado.
+
+### Corrigido de método — três perturbações minhas eram inválidas
+
+Ao testar o `conferir-manual.py`, rodei as cópias perturbadas de `/tmp`. **De lá ele não acha o `.docx`, avisa e pula as quatro checagens** — então as três primeiras perturbações saíram verdes sem terem conferido nada. É exatamente o alerta que o README dá sobre o `python-docx`, aplicado a mim.
+
+Refeita no lugar certo, a perturbação acendeu. E ela achou um segundo problema: o teste genérico de *"está definido"* aceita qualquer frase com a palavra **é**, e quase toda frase em português tem uma. Para termos importados isso não basta — cada um agora declara o próprio padrão de definição.
+
+### Adicionado — `refino` é termo importado, e o manual tem que defini-lo
+
+A Expansão pôs uma palavra do projeto dentro do manual, que é a direção contrária do problema que a v0.26 consertou. O `conferir-manual.py` ganhou uma lista de **importados do projeto**: cada um entra com o lugar onde o manual o define, e o validador falha se a definição sumir. O manual define refino numa caixa de uma linha e não usa a palavra em mais lugar nenhum.
+
+### Registrado — o clash ficou de fora, e está engatilhado
+
+Um modelo de **push gradual** foi levantado a partir da obra: sobreposição de áreas anula o acerto garantido dos dois lados, e começa um empurrão cuja velocidade vem da diferença de refino, com vantagem para quem tem Acerto inofensivo e para quem está com a barreira aberta.
+
+**Ele substitui uma regra marcada como fechada** — a resolução por `1d10 + aptidões + metade do nível` — e **pede seis números que não existem**. A parte mais interessante dele é a que mais preocupa: *efeito inofensivo empurra melhor* recompensa escrever um Acerto fraco de propósito, e sem número ninguém sabe se compensa.
+
+Foi para `03-mecanica/RASCUNHO-clash-de-expansoes.md`, com os seis números nomeados e a ordem de atacá-los. A v7.7 cita a regra que já estava decidida.
+
+### Registrado de método — o mount perdeu um arquivo que ele mesmo gravou
+
+Fechando a versão, o `conferir-repositorio.py` acusou que o `README.md` não existia. Ele existia: `ls` e `stat` devolviam tamanho e inode certos, e o nome não tinha caractere estranho — mas `open()` devolvia **ENOENT** para o `head`, para o Python e para o `git` igualmente, enquanto **os vizinhos na mesma pasta abriam normalmente**. As ferramentas de arquivo liam o conteúdo certo o tempo todo.
+
+Ou seja: **o arquivo estava íntegro no disco, e quem não o enxergava era o mount FUSE do sandbox.** Nenhuma tentativa de reconciliar resolveu — `sync`, relistar o diretório, caminho absoluto, reentrar na pasta. **Reescrever o arquivo inteiro resolveu**, porque criou um objeto novo.
+
+É primo do problema do `git commit` que o README já documentava, e agora está escrito ao lado dele. Fica registrado porque o sintoma engana: parece arquivo apagado, e é o oposto — o conteúdo nunca esteve em risco.
+
+### Alterado — o README ganhou uma sétima lição
+
+> **Um número que mora em dois documentos vai divergir.** Não é "se", é "quando" — e cada cópia precisa de um dono declarado ou de um validador que compare as duas.
+
+Ela sai desta versão de dois lados ao mesmo tempo: o `conferir-repositorio.py` guardava `sete` no código, e o manual e o projeto contavam feitiço por calendários diferentes desde sempre. As duas são a mesma doença.
+
+E o aviso sobre `python-docx` ganhou um par: **os três validadores que leem o `.docx` também pulam em silêncio se forem rodados de outro diretório.** Foi assim que três perturbações desta versão saíram verdes sem terem conferido nada.
+
+### Em aberto
+
+- **As quatro anti-domínio**, agora destravadas. É a próxima da fila.
+- **Energia Reversa, Barreira Simples, Cortina** e a régua da Aptidão Própria.
+- **Qual modelo de clash vale**, e os seis números do push.
+- **A aptidão que baixa a Expansão para Ação Bônus** — citada, não escrita.
+- **Nome do sistema.**
+
+---
+
 ## [0.27] — 2026-08-11
 
 A peça de aptidões, que o `arquitetura.md` chama de *"o risco maior da estrutura inteira"*. Ela sai **com quatro das catorze entradas em branco**, e isso é decisão: elas contam o Acerto de uma Expansão de Domínio, e a Expansão só ganha regra na v7.7 do manual.

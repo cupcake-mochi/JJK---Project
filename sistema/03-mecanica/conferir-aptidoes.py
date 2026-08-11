@@ -279,25 +279,76 @@ ROTAS = {
     'sempre Leque':  [2] * 7,
     'meio a meio':   [0, 1, 2, 0, 1, 2, 0],
 }
+# quanto cada escolha de Leque devolve em espaco de feitico. Se este numero mudar,
+# a checagem abaixo tem que acender — foi por ela NAO olhar o eixo dos feiticos que
+# uma proposta de subir o Leque para 2 passou verde na v0.28 sem acender nada.
+LEQUE_DA_FEITICOS = 1
+
 print(f"  {'rota':<18}{'atributo':<11}{'refino':<9}{'aptidoes':<11}{'Passivas':<11}"
-      f"{'feiticos a mais':<18}{'espacos'}")
+      f"{'feiticos a mais':<18}{'espacos totais'}")
 res = {}
 for nome, esc in ROTAS.items():
     atr = 7 + sum(1 for e in esc if e == 0)
     ref = min(TETO_REFINO, 1 + 7 + sum(1 for e in esc if e == 1))
     apt = sum(1 for e in esc if e == 1)
-    lq = sum(1 for e in esc if e == 2)
-    res[nome] = (atr, ref, apt, 5 + lq, lq)
-    print(f'  {nome:<18}{atr:<11}{ref:<9}{apt:<11}{5+lq:<11}{lq:<18}{espacos(30)}')
+    lq = sum(1 for e in esc if e == 2) * LEQUE_DA_FEITICOS
+    res[nome] = (atr, ref, apt, 5 + sum(1 for e in esc if e == 2), lq)
+    print(f'  {nome:<18}{atr:<11}{ref:<9}{apt:<11}{res[nome][3]:<11}{lq:<18}'
+          f'{espacos(30) + lq}')
 
-# nenhuma rota pode ser fraca em TODOS os eixos ao mesmo tempo
-for nome, (atr, ref, apt, pas, lq) in res.items():
+# Nenhuma rota pode ser fraca em TODOS os eixos ao mesmo tempo. Os eixos sao CINCO,
+# e ate a v0.28 esta checagem olhava so tres — ela ignorava o refino e os feiticos,
+# que e justamente o eixo em que o Leque lidera. Uma mexida na moeda de feitico
+# passava invisivel, e invisivel e pior que errado.
+EIXOS = [(0, 'atributo'), (1, 'refino'), (2, 'aptidoes'), (3, 'Passivas'), (4, 'feiticos')]
+for nome, meu in res.items():
     if nome == 'meio a meio':
         continue
     outras = [v for k, v in res.items() if k not in (nome, 'meio a meio')]
-    if all(atr <= o[0] and apt <= o[2] and pas <= o[3] for o in outras):
-        erro(f'a rota "{nome}" perde ou empata em todos os eixos — ela esta dominada')
-print('\n  Cada rota lidera num eixo e perde nos outros. Nenhuma esta dominada.')
+    if all(all(meu[i] <= o[i] for i, _ in EIXOS) for o in outras):
+        erro(f'a rota "{nome}" perde ou empata nos CINCO eixos — ela esta dominada')
+
+# e a recproca: nenhuma pode LIDERAR em todos, senao ela domina as outras
+for nome, meu in res.items():
+    if nome == 'meio a meio':
+        continue
+    outras = [v for k, v in res.items() if k not in (nome, 'meio a meio')]
+    if all(all(meu[i] >= o[i] for i, _ in EIXOS) for o in outras):
+        erro(f'a rota "{nome}" ganha ou empata nos CINCO eixos — ela DOMINA as outras, '
+             'e as tres deixaram de se auto-equilibrar')
+
+print('\n  Onde cada rota lidera:')
+for i, eixo in EIXOS:
+    lider = max(res, key=lambda k: res[k][i])
+    topo = res[lider][i]
+    empatados = [k for k in res if res[k][i] == topo]
+    print(f'    {eixo:<12}{", ".join(empatados)}  ({topo})')
+print('\n  Cada rota lidera em pelo menos um dos cinco e perde nos outros.')
+print('  Nenhuma esta dominada, e nenhuma domina.')
+
+# A dominancia entre rotas NAO pega inflacao da moeda: se o Leque dobrasse o que
+# devolve, as tres continuariam trocando vantagem entre si e a checagem passaria.
+# O que pega e uma trava direta no tamanho da moeda.
+print()
+print('  A moeda de feitico, medida de frente:')
+maior = max(espacos(30) + res[k][4] for k in res)
+menor = min(espacos(30) + res[k][4] for k in res)
+print(f'    lista mais longa (sempre Leque)   {maior}')
+print(f'    lista mais curta (sem Leque)      {menor}')
+print(f'    espalhamento                      +{maior - menor} espacos, '
+      f'{(maior/menor - 1) * 100:.0f}%')
+if LEQUE_DA_FEITICOS != 1:
+    erro(f'cada escolha de Leque devolve {LEQUE_DA_FEITICOS} feiticos, e a regra '
+         'escrita e UM. O eixo do marco compra "mais um feitico, que so pode ser '
+         'feitico" — dois fazem a rota devolver mais espaco do que a linha passiva '
+         'do proprio marco, e ai o Leque deixa de ser uma troca e vira desconto')
+if maior - menor > len(MARCOS):
+    erro(f'a rota de Leque termina com {maior - menor} espacos a mais que as outras, '
+         f'e existem so {len(MARCOS)} marcos — alguem esta devolvendo mais de um '
+         'feitico por escolha')
+else:
+    print(f'\n    A rota de Leque termina com no maximo UM feitico por marco a mais.')
+    print('    Essa e a trava: a moeda nao infla sem que esta linha acenda.')
 
 print('\n  E o que faz as tres se equilibrarem sem trava:')
 print('    Passiva e aptidao vivem na MESMA escada de Classe, entao "+1 feitico e')

@@ -2,7 +2,7 @@
 
 Atualizado em 11/08/2026. Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo.
 
-**Versão v0.27.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **onze peças escritas** e **sete validadores**. **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas** — por seis das nove rotas de Origem, e agora sem nenhum buraco de regra que morda nessa faixa.
+**Versão v0.32.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **doze peças escritas** e **dez validadores**. Manual do Fundamento na **v7.8**, com a Expansão de Domínio escrita, e o catálogo de aptidões com **dez das catorze entradas fechadas**. **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas** — por seis das nove rotas de Origem, e agora sem nenhum buraco de regra que morda nessa faixa.
 
 ## Como retomar
 
@@ -19,6 +19,9 @@ python3 conferir-descanso.py      # piso, exaustão, arredondamento, magnitude, 
 python3 conferir-nomes.py         # todo nome batizado, projeto → manual
 python3 conferir-manual.py        # vocabulário e números importados, manual → projeto
 python3 conferir-aptidoes.py      # a trava do refino, as três rotas do marco, o kokusen
+python3 conferir-expansao.py      # os gates da Expansão, a ordem, o preço em espaços
+python3 conferir-orcamento.py     # o somatório: todos os drenos de PE ao mesmo tempo
+python3 conferir-xp.py           # a curva, o abismo que fecha, e os alvos da Guilda
 ```
 
 O quinto tem um modo de triagem, para rodar **antes** de batizar qualquer coisa:
@@ -84,7 +87,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 
 **Cinco camadas de personagem:** Origem → Caminho → Técnica → Refino e Aptidões → Pactos.
 
-**Feitiços conhecidos** = `2 + (nível ÷ 2)`, mais um por marco. Três no nível 2.
+**Feitiços conhecidos** = `2 + (nível ÷ 2)`, mais um por marco. Três no nível 2, dezesseis no 20. **O manual não conta feitiço desde a v7.7** — essa contagem tem um dono só, e é este documento.
 
 **Vinte e três perícias e dez ofícios.** Perícia tem atributo fixo; ofício não — o atributo muda com o que você faz. O Caminho dá **duas perícias fixas + quatro livres** e **um ofício fixo + um livre**; a Origem dá mais duas perícias. Oito de vinte e três, 35%.
 
@@ -113,6 +116,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/conferir-nomes.py` | o vocabulário do manual, extraído do `.docx`, contra todo nome que o projeto batizou |
 | `03-mecanica/conferir-manual.py` | a direção contrária: o manual contra o vocabulário e os números do projeto |
 | `03-mecanica/conferir-aptidoes.py` | a trava do refino, as três rotas do marco, o teto de Passivas e o kokusen |
+| `03-mecanica/conferir-expansao.py` | os dois gates da Expansão, a ordem entre os degraus, o preço em espaços e a fragilidade da curva |
 | `99-arquivo/` | material morto, com LEIA-ME próprio. Não leia de lá para escrever peça nova |
 
 **Duas peças foram parcialmente substituídas e trazem o aviso no topo:** as seções 3 e 4 da peça 4 saíram para a peça 7, e a seção 3 e o quadro de Caminhos da peça 5 saíram para a peça 6.
@@ -205,7 +209,9 @@ Doze Passivas e sete feitiços é o que a rota **compra** — zero aptidões, re
 
 **As doze que a obra obriga:** cobrir-se de energia · canalizar energia · projetar energia · Barreira Simples · Cortina · Domínio Simples · Extensão de Domínio · Pétala · Cesta Oca de Vime · Energia Reversa · Kokusen · Kokusen Melhorado. As duas primeiras são as de graça do refino 1, então **dez são compráveis** antes de qualquer invenção.
 
-**Os quatro anti-domínio ficam como quatro entradas separadas, todas aptidão, e a diferença entre elas é o requisito.** Domínio Simples sem gate — é o que se ensina, e quem usa na obra é a Miwa e o Kusakabe. Os outros três com refino e nível crescentes. O `arquitetura.md` tinha diagnosticado que eles *"não pertencem ao mesmo degrau"* e proposto virar trilha; a decisão foi manter quatro peças e pôr a diferença no gate, que é a mesma coisa por um caminho mais barato de conferir — **uma rota só, e o validador olha um campo em vez de quatro.**
+**Os quatro anti-domínio ficam como quatro entradas separadas, todas aptidão, e a diferença entre elas é o requisito.** O `arquitetura.md` tinha diagnosticado que eles *"não pertencem ao mesmo degrau"* e proposto virar trilha; a decisão foi manter quatro peças e pôr a diferença no gate, que é a mesma coisa por um caminho mais barato de conferir — **uma rota só, e o validador olha um campo em vez de quatro.**
+
+*Corrigido na v0.29:* esta seção dizia **"Domínio Simples sem gate — é o que se ensina"**. A pesquisa na obra inverteu isso. Quem é sem gate é a **Cesta Oca de Vime**, que é a **predecessora** que o Domínio Simples melhorou — antiga, mais limitada, e por isso a mais barata. O Domínio Simples subiu para Classe 2. Os detalhes estão na seção 6.5 da peça 11.
 
 *Correção de conta:* uma versão desta análise dizia que quatro entradas separadas levariam o catálogo a **dezessete**. Estava errado — os quatro já estavam contados dentro das doze da obra. Com eles separados o catálogo fica em **catorze**, e a escolha não custou nada de faixa. Foi contagem dupla minha, e é a mesma família da lição *"esse número já inclui o que eu estou somando nele?"*.
 
@@ -316,10 +322,10 @@ O d10 fica grande de propósito: a ameaça é calibrada contra o nível do grupo
 | 1 | **Cobrir-se de energia** | grátis no refino 1 | proteção `1/3 + 1`, e a RD da Reação `1,5 ×` |
 | 2 | **Canalizar energia** | grátis no refino 1 | **nada** — vive no orçamento do Fundamento |
 | 3 | **Projetar energia** | — | o dano, entre 8% e 12% da Rotina |
-| 4 | **Domínio Simples** | **sem gate** | *a definir* |
-| 5 | **Pétala** | refino e nível | *a definir* |
-| 6 | **Cesta Oca de Vime** | refino e nível | *a definir* |
-| 7 | **Extensão de Domínio** | refino e nível, os mais altos | *a definir* |
+| 4 | **Cesta Oca de Vime** | Classe 1, **sem gate** | **nada** — e não custa PE, porque já custa o turno |
+| 5 | **Domínio Simples** | Classe 2 · refino 4, nível 7 | o raio: `1,5 m + refino ÷ 2` |
+| 6 | **Pétala** | Classe 2 · refino 4, nível 7 | Acertos devolvidos: `refino ÷ 2` |
+| 7 | **Extensão de Domínio** | Classe 3 · refino 7, nível 13 | a duração: `refino` rodadas |
 | 8 | **Barreira Simples** | *a definir* | *a definir* |
 | 9 | **Cortina** | *a definir* | *a definir* |
 | 10 | **Energia Reversa** | *a definir* | *a definir* |
@@ -356,6 +362,8 @@ Isso é a camada de aptidão da **Técnica Marcial**, que o material já descrev
 
 ### O que ainda não foi decidido
 
+> **Destravado na v0.28.** A Expansão tem regra no manual v7.7, então as quatro anti-domínio — Domínio Simples, Pétala, Cesta Oca de Vime e Extensão de Domínio — já podem ser escritas com número. **É a próxima coisa da fila**, e o que elas medem agora existe: Acerto por rolagem na incompleta, Acerto que acontece na completa, barreira de `50 × metade do refino` e duração de `metade do refino` em rodadas.
+
 - **O que cada uma das catorze faz, com número**, e o gate e o teto de refino das que estão marcadas acima.
 - **O catálogo das Bênçãos**, e se ele espelha o das aptidões entrada por entrada ou tem lista própria.
 - **Como o Acerto e o Efeito se precificam** — a expansão é comprada com espaço de feitiço, e nada diz ainda quanto de cada um cabe por espaço.
@@ -364,22 +372,60 @@ Isso é a camada de aptidão da **Técnica Marcial**, que o material já descrev
 - **Se o cardápio do Limiar lista as duas alturas separadas** ou deixa o mestre pesar.
 - **Se o d100 falhado empurra o próximo.** A conta está feita: +2 por falha leva o refino 1 de 48 sessões para 8 e quase não move o refino 10 — o socorro vai para quem não investiu. Não foi decidido, e o Limiar pode cobrir o mesmo buraco por outro caminho.
 
-### A Expansão de Domínio vai para o manual, e ela é a v7.7
+### A Expansão de Domínio, escrita — manual v7.7
 
 *Decidido depois da v0.26.* Ela **não é aptidão** e não mora nesta peça: mora no manual, no molde de uma Passiva, **comprada trocando espaços de feitiço conhecido**, com gate duplo de nível e refino, em dois degraus.
 
-| degrau | preço | gate | passa? |
+| degrau | preço | gate | quem passa no nível do gate |
 |---|---|---|---|
-| **incompleta** | 2 feitiços | nível 10 e refino 3 | os três |
-| **completa** | *a definir* | nível 14 e refino 5 | especialista e meio a meio; **generalista barrado** |
+| **incompleta** | 2 espaços | nível 10 e **refino 4** | especialista e meio a meio; generalista entra no 14 |
+| **completa** | **3 no total** (+1 de upgrade) | nível 14 e **refino 5** | especialista e meio a meio; generalista entra no 18 |
 
-**Duas coisas que a conta achou nesses números:**
+*Fixados e validados. O `conferir-expansao.py` afirma os dois.* O `CHANGELOG` da v0.27 registrou refino 4 e **6**, e a versão anterior desta seção registrou refino 3 e 5 — os dois estavam meio certos, e a conta separou.
 
-O **refino 3 no nível 10 não morde.** No nível 10 até o generalista está no refino 3 — ele passa. O gate é verdadeiro e não barra ninguém. Se a intenção era separar, o número precisa subir; se era só dizer *"você já controla o básico"*, ele está certo e vale escrever que ele não barra.
+**No nível 10 as três rotas estão coladas — refino 5, 4 e 3, sem buraco entre elas.** Então qualquer gate que barre o generalista pega o meio a meio com folga zero. Isso não é escolha de número: é o formato da curva, e só dá para escolher **quem raspa**. O refino 4 barra o generalista e deixa o meio a meio na beirada; era isso ou não barrar ninguém.
 
-E **refino 5 e refino 6 fazem exatamente a mesma coisa** no nível 14 — os dois barram só o generalista. Mas o **6 deixa o meio a meio raspando**: ele tem exatamente 6 ali. Qualquer mexida futura na curva de refino o derruba sem ninguém notar. **O 5 tem folga; o 6 não.**
+**No nível 14, refino 5 e refino 6 separam exatamente as mesmas rotas** — só o generalista fica de fora nos dois. Eles diferem só na direção em que quebram, e o validador mediu: com **5**, a curva caindo um ponto **não move ninguém**; com 6, ela tira a completa do meio a meio. Com 5 o risco é a curva *subir* e o generalista entrar no 14 — e isso a checagem 1 acusa em voz alta. **O 5 é imune para o lado que dói e barulhento para o lado que não dói.**
 
-**O preço em feitiços é real e ele compete com as Passivas**, porque sai do mesmo bolso: dois feitiços são **33% da lista no nível 10** e 25% no 14. Quem pega Expansão incompleta mais duas Passivas de Classe 2 fica com metade da lista.
+**E "barrado" quer dizer atrasado, não trancado.** O generalista chega à incompleta no nível 14 e à completa no 18 — quatro níveis atrás do especialista nos dois degraus. Ele paga em tempo o que não pagou em marco, e o validador falha se alguma rota deixar de chegar.
+
+**O preço sai do mesmo bolso das Passivas, e é aí que ele morde:**
+
+| | nv10 | nv14 | nv22 | nv30 |
+|---|---|---|---|---|
+| espaços na lista | 9 | 12 | 18 | 24 |
+| a incompleta é | 22% | 17% | 11% | 8% |
+| a completa é | **33%** | 25% | 17% | 12% |
+
+Quem pega a incompleta mais duas Passivas de Classe 2 gasta **dois terços da lista no nível 10** e exatamente metade no 14. *Correção:* a versão anterior desta seção dizia *"dois feitiços são 33% da lista no nível 10"* — aquilo foi calculado com a fórmula velha de feitiços conhecidos, antes de a v0.27 fixar `2 + (nível ÷ 2)` e a linha passiva do marco. Com nove espaços no nível 10, dois são 22%.
+
+**A resposta é mais barata que a ameaça, e isso é o que faz o acerto garantido caber.** A **Cesta Oca de Vime** não tem gate nenhum: custa **uma escolha de marco, e a primeira acontece no nível 6** — quatro níveis antes de qualquer um poder comprar a incompleta. Não é preciso ser do eixo do controle; é preciso gastar uma escolha nele, uma vez na campanha inteira. **As duas rotas puras que nunca escolhem Refino terminam sem resposta anti-domínio nenhuma**, e isso é propriedade da rota, não defeito do gate.
+
+*Corrigido na v0.29:* esta frase dizia **Domínio Simples**, e ele subiu para Classe 2 (nv10 · 10 · 14). A resposta do nível 6 é a Cesta Oca, e ela responde **menos** — anula o Acerto e não o Efeito. **O argumento continua de pé**, porque o que a peça 11 chamou de opressivo foi o acerto que nunca falha, e não o Efeito. A resposta barata cobre o que precisava cobrir, e só isso.
+
+**E nenhuma das quatro serve contra a Expansão incompleta.** Ela não tem acerto garantido — o Acerto dela rola —, então você se defende dela com Defesa e Teste de Resistência como de tudo o mais. É canon: o Reggie usou Cesta Oca dentro do domínio incompleto do Megumi e levou porrada dos shikigami do mesmo jeito.
+
+**O que custa para usar, fixado na v0.28:**
+
+| | incompleta | completa |
+|---|---|---|
+| abrir | `6 × maior Classe` de PE | `8 × maior Classe` |
+| desconto nos feitiços lá dentro | `1/3 do refino` | `metade do refino` |
+| ação | a rodada inteira, nas duas | |
+| duração | `metade do refino` em rodadas, mínimo 1 | |
+| barreira | não tem | `50 × metade do refino`, só por fora |
+
+**A escada de custo fecha:** feitiço do topo `3×` < Técnica Máxima `5×` < incompleta `6×` < completa `8×`. E a incompleta passar da Máxima é de propósito — a Máxima é **dada** no nível 17 para toda ficha, e a incompleta é **comprada** sete níveis antes, por dois espaços de lista e um gate que barra uma rota.
+
+**O desconto quase virou lucro.** Duração é também quantos feitiços saem lá dentro, então desconto × duração compete com o custo de abrir. Com `6 × Classe` e desconto de refino cheio, o saldo fica **negativo do nível 20 em diante** — você abre o domínio e termina com mais PE. As combinações escolhidas ficam entre +18 e +31 em todo nível, e a margem não encolhe. **E o desconto precisa de piso:** sem *"nenhum feitiço custa menos de 1 PE"*, o refino alto zera as Classes baixas e o PE deixa de existir dentro do domínio.
+
+**O Acerto acontece quando você abre, e de novo no começo de cada turno seu.** Um relógio só, o do portador — as alternativas punham o proc no turno dos alvos, e *"começo da rodada dos alvos"* não é momento definido num sistema de iniciativa individual. **E se algum dia o custo cair para Ação Bônus, a regra de ouro nº 6 já resolve sozinha:** *feitiço em Ação Bônus ou Reação só permite mais um de Classe 0 no turno*.
+
+**O Rescaldo** — a técnica queima quando o domínio acaba, de qualquer jeito: desfeito por vontade, expirado ou estilhaçado. Isso é **preço e não risco**, porque acontece em todo uso. `Queima` morreu na triagem (é Melhoria do manual, e causa dano), e `Empurrão` e `Estilhaço` também estão ocupados.
+
+**A barreira cai em ~2,4 rodadas** de saída cheia contra uma duração de 3 a 5 — dá para derrubar de fora dentro do próprio tempo, que é o que faz a decisão de atacar ou esperar existir. Por dentro não quebra. O mestre pode declarar exceção.
+
+**O clash ficou de fora, e está engatilhado** em `03-mecanica/RASCUNHO-clash-de-expansoes.md`: o modelo de push gradual pede seis números novos e substitui uma regra marcada como fechada. A v7.7 cita a regra decidida.
 
 **E há uma consequência de vocabulário:** se a Expansão entra no manual, **o manual passa a usar "refino"**, que é termo do projeto. É a direção contrária do problema que a v0.26 consertou, e é de propósito — mas o `conferir-manual.py` precisa saber, senão a próxima varredura vai tratar refino como palavra estranha.
 

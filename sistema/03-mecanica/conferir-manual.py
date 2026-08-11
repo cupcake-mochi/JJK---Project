@@ -188,6 +188,25 @@ INDEFINIDOS_ACEITOS = {
         'que sai da matematica de inimigo do proprio manual.'),
 }
 
+# Termos que o manual IMPORTA do projeto, de proposito. Eles sao a direcao
+# contraria do problema que este validador existe para pegar: em vez de vocabulario
+# de outro sistema vazando para dentro, e vocabulario DESTE sistema entrando porque
+# uma peca precisou dele. Cada um so entra aqui com o lugar onde o manual o define.
+#
+# O teste generico de "esta definido" (a constante DEFINE) aceita qualquer frase
+# que contenha a palavra "e" — e quase toda frase em portugues contem. Isso basta
+# para os termos da checagem acima, que sao raros e aparecem poucas vezes. NAO
+# basta aqui: um termo importado aparece em varias linhas, e uma delas vai casar
+# por acidente. Entao cada importado declara o PROPRIO padrao de definicao.
+IMPORTADOS_DO_PROJETO = {
+    'refino': (
+        r'\brefino\b',
+        r'[Oo] \*?\*?refino\*?\*? é',
+        'a Expansao de Dominio (v7.7) tem gate de refino, desconto de refino e '
+        'duracao por refino. O manual define o termo na caixa "REFINO, EM UMA LINHA" '
+        'da secao 7 e nao usa ele em mais lugar nenhum.'),
+}
+
 # termos que EXIGEM definicao no manual: se aparecerem sem uma linha que os
 # explique, e sem estarem declarados acima, falha
 EXIGEM_DEFINICAO = {
@@ -212,6 +231,23 @@ for nome, rx in EXIGEM_DEFINICAO.items():
              f'Dois mestres leem diferente, e o preco da peca que o usa depende disso')
         for o, t in usos[:3]:
             print(f'        {o}: {t[:150]}')
+
+print()
+print('  Termos IMPORTADOS do projeto — o manual usa, e tem que definir:')
+for nome, (rx, rx_def, motivo) in IMPORTADOS_DO_PROJETO.items():
+    usos = [(o, t) for o, t in LINHAS if re.search(rx, t)]
+    if not usos:
+        aviso(f'"{nome}" esta declarado como termo importado e nao aparece mais no '
+              'manual — a declaracao virou peso morto')
+        continue
+    defs = [t for _, t in usos if re.search(rx_def, t)]
+    if not defs:
+        erro(f'"{nome}" e termo do PROJETO, aparece {len(usos)}x no manual e nunca e '
+             'definido la. Quem le so o manual nao sabe o que ele e, e o gate que '
+             'depende dele vira numero sem unidade')
+    else:
+        print(f'    {nome} ({len(usos)}x, definido no manual)')
+        print(f'      motivo: {motivo}')
 
 print()
 print('  Indefinidos ACEITOS, com motivo declarado:')

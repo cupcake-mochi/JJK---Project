@@ -7,7 +7,7 @@ O `arquitetura.md` chama esta camada de *"o risco maior da estrutura inteira"*, 
 
 Esta peça existe para dar teto a essa economia. Validador: `conferir-aptidoes.py`.
 
-> **Quatro das catorze entradas do catálogo não estão aqui**, e a seção 7 explica por quê: elas contam o Acerto de uma Expansão de Domínio, e a Expansão só ganha regra na v7.7 do manual. Precificar contra um alvo que não existe é o erro que a v0.24 registrou no ataque extra.
+> **Quatro entradas do catálogo ainda não estão aqui**, e a seção 7 explica por quê. As quatro anti-domínio saíram na v0.29, depois que a Expansão de Domínio ganhou regra no manual v7.7 — antes disso, precificá-las seria mirar num alvo que não existia.
 
 ---
 
@@ -145,7 +145,18 @@ Doze níveis entre o especialista e o generalista, que é o tamanho que *"quase 
 ### Cobrir-se de energia · grátis no refino 1
 
 > **Sem uniforme, sem armadura e sem escudo, a sua proteção é `1/3 do refino + 1`.**
-> **Como Reação, você concentra a energia no impacto:** Redução de Dano de `1,5 × refino` num golpe, gastando PE — e você fica sem a proteção passiva até o fim do seu próximo turno.
+> **Como Reação, você concentra a energia no impacto:** Redução de Dano de `1,5 × refino` num golpe, por **2 PE** — e você fica sem a proteção passiva até o fim do seu próximo turno.
+
+*Os 2 PE entraram na v0.30.* Até lá estava escrito só *"gastando PE"*, sem quantidade — um preço sem número, que é a lição nº 6 do README pelo avesso: o termo existia e o valor não. O `conferir-orcamento.py` procura essa forma agora.
+
+**E o 2 é fixo, não escala — porque o limitador dela não é PE.** É a Reação, que você tem uma por rodada, e a proteção que você perde por um turno. Medindo contra o que um PE compra atacando (`Rotina ÷ custo do feitiço`), só o valor fixo mantém defender não sendo estritamente pior que atacar:
+
+| preço da Reação | saldo no nv14 | no nv30 |
+|---|---|---|
+| **fixo 2 PE** | **+0,0** | **+0,9** |
+| metade da Classe | +0,0 | −1,1 |
+| metade do refino | −1,0 | −2,1 |
+| `1 × Classe` | −2,0 | −4,1 |
 
 Ela existe para o feiticeiro que não tem corpo. Quem zerou Destreza sai de ser acertado 80% das vezes para 60% no nível 30; quem investiu em Destreza e veste uniforme continua nos 50%. **É piso, não teto.**
 
@@ -158,7 +169,7 @@ A Reação é o momento do Todo contra o Mahito, e o `1,5 ×` é o que a faz val
 | 22 | 15 | 54 | 10,8 | +4,2 |
 | 30 | 15 | 72 | 14,4 | **+0,6** |
 
-Positiva do começo ao fim, e o saldo **encolhe** em vez de virar — forte quando você não tem outra resposta, e só mais uma opção quando já tem. **E ela não é redução de dano passiva:** custa Reação, custa PE e custa a proteção de um turno. A regra que matou a Casca continua valendo.
+Positiva do começo ao fim, e o saldo **encolhe** em vez de virar — forte quando você não tem outra resposta, e só mais uma opção quando já tem. **E ela não é redução de dano passiva:** custa Reação, custa 2 PE e custa a proteção de um turno. A regra que matou a Casca continua valendo.
 
 *Um recado para a peça de equipamento:* no refino 10 ela dá proteção 4, e um Vanguarda que largue o uniforme chega a Defesa 20 contra os 17 dele fardado. **Um uniforme precisa valer mais que 4**, senão ele nasce morto.
 
@@ -221,13 +232,131 @@ Trinta por cento no teto. É a única das três que mexe no número em vez do da
 
 E "mais fácil depois do primeiro" sem teto é a espiral da exaustão com o sinal trocado: quem crita mais fácil crita mais, e crita mais fácil ainda. Sem teto, quatro degraus numa cena levariam o físico a **1,8× o dano base**, e aí a coluna Rotina para de valer no meio da luta.
 
-## 7. As oito que faltam, e por que
+## 6.5. As quatro anti-domínio
 
-**Quatro estão bloqueadas pela mesma coisa.** Domínio Simples, Pétala, Cesta Oca de Vime e Extensão de Domínio contam o **Acerto** de uma Expansão de Domínio — e a Expansão só ganha regra na **v7.7 do manual**. Escrever o preço delas agora seria precificar contra um alvo que não existe, que é o erro que a v0.24 registrou no ataque extra: conta, argumento e correção prontos, e nenhum dono escrito.
+*Escritas na v0.29, depois que a Expansão ganhou regra no manual v7.7.*
 
-**E o laço entre as duas coisas é o que torna as duas possíveis.** A Expansão completa acerta **garantido** — é isso que o terceiro espaço compra. Um acerto que nunca falha só é jogável porque a resposta a ele é barata: os quatro anti-domínio são **aptidões de marco**, ao alcance de qualquer ficha que escolha o eixo do controle. Se fossem raros, o acerto garantido seria opressivo.
+### A regra que vale para as quatro, e que precisa estar escrita
 
-**Quatro faltam por número, e não por dependência:**
+> **Elas anulam o Acerto de uma Expansão. Nenhuma delas serve contra a Expansão incompleta.**
+
+Não é escolha nossa: é como a obra funciona, e tem cena provando. O Reggie ativou Cesta Oca de Vime dentro do Jardim de Sombras Quimérico do Megumi — que é incompleto — e não adiantou nada. Os shikigami tomaram forma e bateram nele como qualquer coisa bate em qualquer um.
+
+**O motivo é mecânico e limpo.** Estas quatro anulam *acerto garantido*. A incompleta não tem acerto garantido: o Acerto dela **rola**. Contra ela você se defende com Defesa e com Teste de Resistência, como se defende de tudo o mais no jogo. Não existe buraco aqui — existe uma peça respondendo ao que ela responde, e nada além.
+
+E é por isso que o terceiro espaço da Expansão compra alguma coisa de verdade: ele troca um Acerto que dá para bloquear com Defesa por um que só estas quatro alcançam.
+
+### O que cada uma custa por fora, e por que elas são diferentes
+
+O eixo que separa as quatro não é força — é **quanta liberdade você tem enquanto está protegido**. Os quatro preços vêm da obra:
+
+| | protege | e cobra |
+|---|---|---|
+| **Cesta Oca de Vime** | só você, dentro de uma esfera | você segura o símbolo e **não faz mais nada** |
+| **Domínio Simples** | um raio em volta de você | **os pés não saem do chão**, ou ela quebra |
+| **Pétala** | o seu corpo, e **devolve o golpe** | exige concentração, e **não para ataque físico** |
+| **Extensão de Domínio** | o seu corpo, e faz o **seu** ataque acertar | **nenhum feitiço enquanto ela estiver de pé** |
+
+### As quatro, com número
+
+| | Classe · gate | abre em | o refino escala | PE por rodada |
+|---|---|---|---|---|
+| **Cesta Oca de Vime** | 1 · sem gate | nv 6, nas três rotas | **nada** | **nenhum** |
+| **Domínio Simples** | 2 · refino 4, nível 7 | nv 10 · 10 · 14 | o raio: `1,5 m + refino ÷ 2` | `1 × maior Classe` |
+| **Pétala** | 2 · refino 4, nível 7 | nv 10 · 10 · 14 | quantos Acertos devolve: `refino ÷ 2` | `1 × maior Classe` |
+| **Extensão de Domínio** | 3 · refino 7, nível 13 | nv 14 · 18 · 26 | a duração: `refino` rodadas | `1,5 × maior Classe` |
+
+**Todas custam um marco, como qualquer aptidão. Nenhuma custa espaço de feitiço.**
+
+### Cesta Oca de Vime · Classe 1, sem gate
+
+> **Você faz o símbolo e uma esfera se fecha em volta de você. Enquanto você o segurar, o Acerto de uma Expansão não te alcança — e você não faz mais nada.**
+
+Ela é a **predecessora** do Domínio Simples, e é pior de propósito: **anula o Acerto e mais nada.** O Efeito da Expansão continua acontecendo em cima de você, e o refino não a melhora em nada — é a segunda aptidão do catálogo que não usa o valor cheio, junto com canalizar energia.
+
+**Em troca ela não quebra**, e é a única das quatro assim. Não tem duração, não tem teste, não tem PE: enquanto o símbolo estiver de pé, ela está de pé.
+
+**E ela é de graça em PE porque já cobra o turno**, que é o recurso mais caro de uma luta. Cobrar as duas coisas seria cobrar duas vezes pela mesma escolha:
+
+| rodadas segurando | dos seus turnos na luta | Acertos que você evita |
+|---|---|---|
+| 1 | 29% | 1 |
+| 2 | **57%** | 2 |
+| 3 | 86% | 3 |
+
+Evitar dois Acertos custa mais da metade dos seus turnos: **você sobrevive e não contribui.** É resposta de sobrevivência, não de vitória — que é exatamente o que ela é na obra.
+
+**É ela, e não o Domínio Simples, a resposta que chega no nível 6 para as três rotas.** Um marco de Refino, uma vez, e o acerto garantido deixa de ser sentença. Isso é o que torna a Expansão completa jogável, e é o menor preço que o sistema cobra por qualquer coisa.
+
+### Domínio Simples · Classe 2, refino 4 e nível 7
+
+> **Um domínio pequeno em volta de você, de raio `1,5 m + refino ÷ 2`. Dentro dele o Acerto de uma Expansão não acontece. Custa `1 × a sua maior Classe` de PE por rodada, e ela quebra se os seus pés saírem do chão.**
+
+É o que se ensina, e o que a Miwa e o Kusakabe usam. A diferença para a Cesta Oca não é ser mais forte contra o Acerto — é **você poder lutar dentro dela**, e ela **cobrir quem estiver no raio**.
+
+| refino | 1 | 2 | 4 | 6 | 8 | 10 |
+|---|---|---|---|---|---|---|
+| raio | 1,5 m | 2,5 m | 3,5 m | 4,5 m | 5,5 m | **6,5 m** |
+
+O Domínio Simples da obra tem cerca de 2,21 m, e a fórmula bate nisso no refino 2. **Ela nunca passa de um movimento (9 m)**, e isso é a trava: uma defesa que cercasse o inimigo seria outra peça. O Kusakabe puxando gente para dentro é coisa da Trilha dele, não da aptidão.
+
+### Pétala · Classe 2, refino 4 e nível 7
+
+> **A energia cobre o seu corpo e devolve o golpe. Quando o Acerto de uma Expansão te alcança, ele é anulado no ponto de contato — `refino ÷ 2` vezes por cena. Custa `1 × a sua maior Classe` de PE por rodada, e ela cai se você perder a concentração.**
+
+Ela não faz domínio nenhum: é a energia no corpo que reage. Segredo dos três clãs — Gojo, Zenin e Kamo —, e o Gojo disse que aprendeu criança e nunca tinha usado.
+
+**Ela não cobre a Expansão inteira, e isso é de propósito.** A completa dispara o Acerto ao abrir e no começo de cada turno do portador:
+
+| refino | Acertos que a Expansão solta | a Pétala devolve |
+|---|---|---|
+| 4 | 3 | 2 |
+| 6 | 4 | 3 |
+| 8 | 5 | 4 |
+| 10 | **6** | **5** |
+
+Sempre sobra um. Se ela devolvesse tudo, o terceiro espaço que a Expansão completa custou deixaria de comprar alguma coisa.
+
+**E ela não para ataque físico** — o Dagon socou o Naobito com a Pétala de pé. Contra um Acerto que é golpe de corpo, ela não faz nada.
+
+### Extensão de Domínio · Classe 3, refino 7 e nível 13
+
+> **Você se envolve numa camada fina de domínio sem técnica dentro. Ela anula o Acerto de uma Expansão, anula qualquer técnica que encostar nela, e faz o seu ataque acertar independentemente da técnica do alvo. Dura `refino` rodadas, custa `1,5 × a sua maior Classe` de PE por rodada — e enquanto ela estiver de pé, você não usa a sua técnica.**
+
+É a única das quatro que também é ataque, e a única Classe 3. É o que o Jogo e o Hanami usaram contra o Ilimitado do Gojo.
+
+**O preço dela se equilibra sozinho, e é bonito de ver:** ela dura o dobro do que uma Expansão dura, mas o PE é o teto de verdade.
+
+| nv | refino | duração | PE/rodada | segurar até o fim | do dia de um Bastião |
+|---|---|---|---|---|---|
+| 14 | 7 | 7 | 6 | 42 | 75% |
+| 20 | 9 | 9 | 8 | 72 | 90% |
+| 26 | 10 | 10 | 11 | 110 | **106%** |
+| 30 | 10 | 10 | 11 | 110 | 92% |
+
+**No nível 26 um Bastião não consegue segurar até o fim** — ele fica sem PE na nona rodada de dez. A duração é teto, não promessa, e quem tem pouco PE descobre isso antes de quem tem muito. Numa luta normal de 3,5 rodadas ela custa uns 32% do dia, que é o preço de verdade.
+
+E some tudo isso com *"você não lança nada enquanto ela está de pé"*: quem tem feitiço bom paga o dobro por ela.
+
+### Por que o custo por rodada é `1 × maior Classe`
+
+A conta escolheu sozinha. Medido no Bastião, que é o piso de PE do sistema, numa luta de 3,5 rodadas:
+
+| custo por rodada | do dia, por luta | lutas que cabem |
+|---|---|---|
+| metade da Classe | 9% a 18% | 5 a 11 |
+| **`1 × Classe`** | **20% a 26%** | **3 a 4** |
+| `2 × Classe` | 41% a 52% | 1 a 2 |
+
+**O `1 ×` fica exatamente do tamanho do orçamento de lutas do dia.** A exaustão dispara da quarta luta, então dá para segurar a defesa em toda luta de um dia normal e terminar seco bem quando o cansaço chegaria de qualquer jeito. Tensão sem armadilha.
+
+As outras duas quebram nas pontas: com `2 ×` você se defende uma vez e acabou o dia; com metade, o custo cai para 9% no nível 20 e **evapora**.
+
+## 7. As quatro que faltam, e por que
+
+*As quatro anti-domínio saíram desta seção na v0.29 e estão na seção 6.5.*
+
+**Faltam por número, e não por dependência:**
 
 | aptidão | o que ela é | contra o que precisa ser medida |
 |---|---|---|

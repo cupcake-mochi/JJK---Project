@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """Confere o REPOSITORIO, e nao as regras.
 
-Os sete validadores de sistema/03-mecanica conferem numero. Este confere que a
+Os validadores de sistema/03-mecanica conferem numero. Este confere que a
 ARVORE esta inteira: que todo arquivo que um documento cita existe, que os
 validadores acham o manual, e que nada ficou apontando para a estrutura antiga.
 
@@ -82,15 +82,49 @@ for caminho, tipo in ESPERADO:
     if not ok:
         erro(f'{tipo} que o README promete nao existe: {caminho}')
 
-# as onze pecas e os sete validadores
+# as pecas e os validadores. O numero NAO fica guardado aqui: ele e lido do
+# README, senao esta checagem vira mais uma copia para sair de sincronia — que e
+# exatamente o defeito que a checagem 4 do conferir-manual.py existe para pegar.
+# Ela ja saiu uma vez, quando o oitavo validador entrou e o "sete" ficou no codigo.
+NUMERO = {'uma': 1, 'duas': 2, 'tres': 3, 'quatro': 4, 'cinco': 5, 'seis': 6,
+          'sete': 7, 'oito': 8, 'nove': 9, 'dez': 10, 'onze': 11, 'doze': 12,
+          'treze': 13, 'catorze': 14, 'quinze': 15, 'dezesseis': 16}
+
+
+def por_extenso(palavra):
+    chave = (palavra.lower()
+             .replace('ê', 'e').replace('é', 'e').replace('ó', 'o')
+             .replace('á', 'a').replace('ã', 'a').replace('í', 'i'))
+    return NUMERO.get(chave)
+
+
 MEC = os.path.join(RAIZ, 'sistema', '03-mecanica')
 pecas = sorted(f for f in os.listdir(MEC) if re.match(r'^\d\d-.*\.md$', f))
 vals = sorted(f for f in os.listdir(MEC) if f.startswith('conferir-') and f.endswith('.py'))
 print(f'\n  {len(pecas)} pecas de regra, {len(vals)} validadores.')
-if len(pecas) != 11:
-    erro(f'sao {len(pecas)} pecas e o README diz onze')
-if len(vals) != 7:
-    erro(f'sao {len(vals)} validadores e o README diz sete')
+
+readme = open(os.path.join(RAIZ, 'README.md'), encoding='utf-8').read()
+m = re.search(r'\*\*(\S+) peças de regra\*\* e \*\*(\S+) validadores', readme)
+if not m:
+    erro('nao achei no README a linha que conta as pecas e os validadores — se ela '
+         'mudou de forma, esta checagem parou de conferir e precisa ser reescrita')
+else:
+    bateu = True
+    for rotulo, palavra, achado in (('pecas', m.group(1), len(pecas)),
+                                    ('validadores', m.group(2), len(vals))):
+        dito = por_extenso(palavra)
+        if dito is None:
+            bateu = False
+            erro(f'o README escreve "{palavra}" {rotulo} e eu nao sei ler esse numero '
+                 'por extenso — acrescente ele ao mapa NUMERO')
+        elif dito != achado:
+            bateu = False
+            erro(f'sao {achado} {rotulo} na pasta e o README diz {palavra} ({dito})')
+    if bateu:
+        print(f'  O README diz {m.group(1)} e {m.group(2)}, e a pasta concorda.')
+    else:
+        print('  (um rascunho nao e peca: se o arquivo novo for material de apoio, '
+              'ele nao deve comecar com dois digitos)')
 
 # a numeracao das pecas nao pode ter buraco
 nums = [int(p[:2]) for p in pecas]
