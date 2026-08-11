@@ -1,0 +1,50 @@
+{
+  "expectations": [
+    {
+      "text": "Entrega o texto reescrito, nao so conselhos sobre ele",
+      "passed": true,
+      "evidence": "padrao encontrado nas saidas"
+    },
+    {
+      "text": "Define 'condicao' antes de usar o termo",
+      "passed": true,
+      "evidence": "padrao encontrado nas saidas"
+    },
+    {
+      "text": "Poe o caso padrao antes da excecao",
+      "passed": false,
+      "evidence": "padrao ausente em todas as saidas desta execucao"
+    },
+    {
+      "text": "Converte a lista de condicoes em tabela",
+      "passed": false,
+      "evidence": "padrao ausente em todas as saidas desta execucao"
+    },
+    {
+      "text": "Inclui exemplo jogavel concreto",
+      "passed": true,
+      "evidence": "padrao encontrado nas saidas"
+    },
+    {
+      "text": "Lista o que mudou e por que cada mudanca conserta algo",
+      "passed": true,
+      "evidence": "padrao encontrado nas saidas"
+    },
+    {
+      "text": "Sinaliza problema do original que NAO e de redacao (lacuna de regra)",
+      "passed": false,
+      "evidence": "padrao ausente em todas as saidas desta execucao"
+    }
+  ],
+  "summary": {
+    "passed": 4,
+    "failed": 3,
+    "total": 7,
+    "pass_rate": 0.571
+  },
+  "timing": {
+    "total_duration_seconds": 286.1
+  },
+  "condicao_rotulo": "BASELINE MORNA — sem skill, mas com acesso a pasta do projeto (leu o dossie da Fase 1)",
+  "ressalva": "assercoes post-hoc, correcao automatica por padrao de texto"
+}

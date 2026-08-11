@@ -1,0 +1,20 @@
+{
+  "eval_id": 0,
+  "eval_name": "eval-0-dominancia-restricao",
+  "skill_avaliada": "design-mecanicas-rpg",
+  "prompt": "No meu RPG, feiticos sao montados com pontos e voce pode aceitar desvantagens pra recuperar pontos. Duas delas: 'Parado' e 'Gesto'. As duas devolvem o mesmo tanto: metade do Grau. Quero adicionar uma terceira, 'Vulneravel', tambem devolvendo metade do Grau. Ta certo esse preco?",
+  "condicao": "with_skill",
+  "condicao_rotulo": "COM SKILL — leu o SKILL.md e os arquivos de apoio",
+  "configuration": "with_skill",
+  "run_number": 1,
+  "assertions": [
+    "Nomeia o conceito de dominancia explicitamente",
+    "Compara as tres desvantagens entre si, nao so avalia a nova isolada",
+    "Identifica que o custo de Vulneravel escala com o numero de inimigos",
+    "Propoe um conserto concreto com preco, nao so aponta o problema",
+    "Separa o que e conta do que e opiniao",
+    "Levanta risco de arbitragem entre mestres diferentes"
+  ],
+  "assertions_post_hoc": true,
+  "correcao": "automatica (padrao de texto e presenca de arquivo)"
+}

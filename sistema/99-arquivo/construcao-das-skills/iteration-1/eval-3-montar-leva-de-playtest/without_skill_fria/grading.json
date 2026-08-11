@@ -1,0 +1,50 @@
+{
+  "expectations": [
+    {
+      "text": "Propoe medir DIVERGENCIA entre mestres — a metrica propria do caso multi-mestre",
+      "passed": false,
+      "evidence": "padrao ausente em todas as saidas desta execucao"
+    },
+    {
+      "text": "Estrutura a leva em bloco tematico com prazo definido",
+      "passed": true,
+      "evidence": "padrao encontrado nas saidas"
+    },
+    {
+      "text": "Define o ciclo em numero de pessoas e rodadas",
+      "passed": false,
+      "evidence": "padrao ausente em todas as saidas desta execucao"
+    },
+    {
+      "text": "Distingue o que perguntar ao mestre do que perguntar ao jogador",
+      "passed": true,
+      "evidence": "padrao encontrado nas saidas"
+    },
+    {
+      "text": "Trata o risco especifico ao personagem persistente",
+      "passed": true,
+      "evidence": "padrao encontrado nas saidas"
+    },
+    {
+      "text": "Entrega artefato pronto para usar como arquivo separado",
+      "passed": false,
+      "evidence": "padrao ausente em todas as saidas desta execucao"
+    },
+    {
+      "text": "Diz quando PARAR de testar",
+      "passed": false,
+      "evidence": "padrao ausente em todas as saidas desta execucao"
+    }
+  ],
+  "summary": {
+    "passed": 3,
+    "failed": 4,
+    "total": 7,
+    "pass_rate": 0.429
+  },
+  "timing": {
+    "total_duration_seconds": 195.7
+  },
+  "condicao_rotulo": "BASELINE FRIA — sem skill e SEM acesso a pasta do projeto. Ambiente isolado, sem vazamento verificado.",
+  "ressalva": "assercoes post-hoc, correcao automatica por padrao de texto"
+}

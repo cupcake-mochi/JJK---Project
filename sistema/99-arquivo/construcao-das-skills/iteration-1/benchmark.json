@@ -1,0 +1,595 @@
+{
+  "metadata": {
+    "skill_name": "rpg-guilda (4 skills)",
+    "skill_path": "RPG-JJK/skills/",
+    "executor_model": "claude-sonnet (subagentes)",
+    "sessao_principal": "claude-opus — NAO e o modelo dos executores",
+    "timestamp": "2026-08-06T13:08:26.205618+00:00",
+    "evals_run": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "runs_per_configuration": 1,
+    "condicoes": {
+      "with_skill": "leu o SKILL.md e arquivos de apoio",
+      "without_skill run 1 (MORNA)": "sem skill, COM acesso a pasta do projeto",
+      "without_skill run 2 (FRIA)": "sem skill, SEM acesso a pasta do projeto (so eval-3)"
+    }
+  },
+  "runs": [
+    {
+      "eval_id": 0,
+      "eval_name": "eval-0-dominancia-restricao  [SKILL]",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 6,
+        "failed": 0,
+        "total": 6,
+        "time_seconds": 659.8,
+        "tokens": 83426,
+        "tool_calls": null,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Nomeia o conceito de dominancia explicitamente",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Compara as tres desvantagens entre si, nao so avalia a nova isolada",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Identifica que o custo de Vulneravel escala com o numero de inimigos",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Propoe um conserto concreto com preco, nao so aponta o problema",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Separa o que e conta do que e opiniao",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Levanta risco de arbitragem entre mestres diferentes",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        }
+      ],
+      "notes": [
+        "COM SKILL — leu o SKILL.md e os arquivos de apoio",
+        "arquivos produzidos: resposta.md"
+      ]
+    },
+    {
+      "eval_id": 0,
+      "eval_name": "eval-0-dominancia-restricao  [MORNA]",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.5,
+        "passed": 3,
+        "failed": 3,
+        "total": 6,
+        "time_seconds": 470.6,
+        "tokens": 81658,
+        "tool_calls": null,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Nomeia o conceito de dominancia explicitamente",
+          "passed": false,
+          "evidence": "padrao ausente em todas as saidas desta execucao"
+        },
+        {
+          "text": "Compara as tres desvantagens entre si, nao so avalia a nova isolada",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Identifica que o custo de Vulneravel escala com o numero de inimigos",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Propoe um conserto concreto com preco, nao so aponta o problema",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Separa o que e conta do que e opiniao",
+          "passed": false,
+          "evidence": "padrao ausente em todas as saidas desta execucao"
+        },
+        {
+          "text": "Levanta risco de arbitragem entre mestres diferentes",
+          "passed": false,
+          "evidence": "padrao ausente em todas as saidas desta execucao"
+        }
+      ],
+      "notes": [
+        "BASELINE MORNA — sem skill, mas com acesso a pasta do projeto (leu o dossie da Fase 1)",
+        "arquivos produzidos: resposta.md"
+      ]
+    },
+    {
+      "eval_id": 1,
+      "eval_name": "eval-1-curva-teste-resistencia  [SKILL]",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.833,
+        "passed": 5,
+        "failed": 1,
+        "total": 6,
+        "time_seconds": 488.2,
+        "tokens": 78882,
+        "tool_calls": null,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Escreve e executa codigo em vez de estimar",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Usa distribuicao exata e diz isso (nao Monte Carlo)",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Da a taxa de sucesso nivel a nivel, nao so nas pontas",
+          "passed": false,
+          "evidence": "padrao ausente em todas as saidas desta execucao"
+        },
+        {
+          "text": "Compara d20 e 3d6 com numeros dos dois lados",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Quantifica quanto a melhoria Precisao vale em cada mecanica",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Declara contrato de invariantes ou faz regressao contra os numeros dados",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        }
+      ],
+      "notes": [
+        "COM SKILL — leu o SKILL.md e os arquivos de apoio",
+        "arquivos produzidos: curva_teste_resistencia.py, resposta.md"
+      ]
+    },
+    {
+      "eval_id": 1,
+      "eval_name": "eval-1-curva-teste-resistencia  [MORNA]",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.333,
+        "passed": 2,
+        "failed": 4,
+        "total": 6,
+        "time_seconds": 503.5,
+        "tokens": 66530,
+        "tool_calls": null,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Escreve e executa codigo em vez de estimar",
+          "passed": false,
+          "evidence": "padrao ausente em todas as saidas desta execucao"
+        },
+        {
+          "text": "Usa distribuicao exata e diz isso (nao Monte Carlo)",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Da a taxa de sucesso nivel a nivel, nao so nas pontas",
+          "passed": false,
+          "evidence": "padrao ausente em todas as saidas desta execucao"
+        },
+        {
+          "text": "Compara d20 e 3d6 com numeros dos dois lados",
+          "passed": false,
+          "evidence": "padrao ausente em todas as saidas desta execucao"
+        },
+        {
+          "text": "Quantifica quanto a melhoria Precisao vale em cada mecanica",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Declara contrato de invariantes ou faz regressao contra os numeros dados",
+          "passed": false,
+          "evidence": "padrao ausente em todas as saidas desta execucao"
+        }
+      ],
+      "notes": [
+        "BASELINE MORNA — sem skill, mas com acesso a pasta do projeto (leu o dossie da Fase 1)",
+        "arquivos produzidos: resposta.md"
+      ]
+    },
+    {
+      "eval_id": 2,
+      "eval_name": "eval-2-revisar-texto-de-regra  [SKILL]",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 7,
+        "failed": 0,
+        "total": 7,
+        "time_seconds": 428.1,
+        "tokens": 65752,
+        "tool_calls": null,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Entrega o texto reescrito, nao so conselhos sobre ele",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Define 'condicao' antes de usar o termo",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Poe o caso padrao antes da excecao",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Converte a lista de condicoes em tabela",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Inclui exemplo jogavel concreto",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Lista o que mudou e por que cada mudanca conserta algo",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Sinaliza problema do original que NAO e de redacao (lacuna de regra)",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        }
+      ],
+      "notes": [
+        "COM SKILL — leu o SKILL.md e os arquivos de apoio",
+        "arquivos produzidos: resposta.md"
+      ]
+    },
+    {
+      "eval_id": 2,
+      "eval_name": "eval-2-revisar-texto-de-regra  [MORNA]",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.571,
+        "passed": 4,
+        "failed": 3,
+        "total": 7,
+        "time_seconds": 286.1,
+        "tokens": 44940,
+        "tool_calls": null,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Entrega o texto reescrito, nao so conselhos sobre ele",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Define 'condicao' antes de usar o termo",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Poe o caso padrao antes da excecao",
+          "passed": false,
+          "evidence": "padrao ausente em todas as saidas desta execucao"
+        },
+        {
+          "text": "Converte a lista de condicoes em tabela",
+          "passed": false,
+          "evidence": "padrao ausente em todas as saidas desta execucao"
+        },
+        {
+          "text": "Inclui exemplo jogavel concreto",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Lista o que mudou e por que cada mudanca conserta algo",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Sinaliza problema do original que NAO e de redacao (lacuna de regra)",
+          "passed": false,
+          "evidence": "padrao ausente em todas as saidas desta execucao"
+        }
+      ],
+      "notes": [
+        "BASELINE MORNA — sem skill, mas com acesso a pasta do projeto (leu o dossie da Fase 1)",
+        "arquivos produzidos: resposta.md"
+      ]
+    },
+    {
+      "eval_id": 3,
+      "eval_name": "eval-3-montar-leva-de-playtest  [SKILL]",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 7,
+        "failed": 0,
+        "total": 7,
+        "time_seconds": 768.9,
+        "tokens": 118730,
+        "tool_calls": null,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Propoe medir DIVERGENCIA entre mestres — a metrica propria do caso multi-mestre",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Estrutura a leva em bloco tematico com prazo definido",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Define o ciclo em numero de pessoas e rodadas",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Distingue o que perguntar ao mestre do que perguntar ao jogador",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Trata o risco especifico ao personagem persistente",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Entrega artefato pronto para usar como arquivo separado",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Diz quando PARAR de testar",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        }
+      ],
+      "notes": [
+        "COM SKILL — leu o SKILL.md e os arquivos de apoio",
+        "arquivos produzidos: casos-sonda-combate.md, formulario-combate.md, resposta.md"
+      ]
+    },
+    {
+      "eval_id": 3,
+      "eval_name": "eval-3-montar-leva-de-playtest  [FRIA]",
+      "configuration": "without_skill",
+      "run_number": 2,
+      "result": {
+        "pass_rate": 0.429,
+        "passed": 3,
+        "failed": 4,
+        "total": 7,
+        "time_seconds": 195.7,
+        "tokens": 34251,
+        "tool_calls": null,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Propoe medir DIVERGENCIA entre mestres — a metrica propria do caso multi-mestre",
+          "passed": false,
+          "evidence": "padrao ausente em todas as saidas desta execucao"
+        },
+        {
+          "text": "Estrutura a leva em bloco tematico com prazo definido",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Define o ciclo em numero de pessoas e rodadas",
+          "passed": false,
+          "evidence": "padrao ausente em todas as saidas desta execucao"
+        },
+        {
+          "text": "Distingue o que perguntar ao mestre do que perguntar ao jogador",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Trata o risco especifico ao personagem persistente",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Entrega artefato pronto para usar como arquivo separado",
+          "passed": false,
+          "evidence": "padrao ausente em todas as saidas desta execucao"
+        },
+        {
+          "text": "Diz quando PARAR de testar",
+          "passed": false,
+          "evidence": "padrao ausente em todas as saidas desta execucao"
+        }
+      ],
+      "notes": [
+        "BASELINE FRIA — sem skill e SEM acesso a pasta do projeto. Ambiente isolado, sem vazamento verificado.",
+        "arquivos produzidos: resposta.md"
+      ]
+    },
+    {
+      "eval_id": 3,
+      "eval_name": "eval-3-montar-leva-de-playtest  [MORNA]",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.714,
+        "passed": 5,
+        "failed": 2,
+        "total": 7,
+        "time_seconds": 712.4,
+        "tokens": 98859,
+        "tool_calls": null,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Propoe medir DIVERGENCIA entre mestres — a metrica propria do caso multi-mestre",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Estrutura a leva em bloco tematico com prazo definido",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Define o ciclo em numero de pessoas e rodadas",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Distingue o que perguntar ao mestre do que perguntar ao jogador",
+          "passed": false,
+          "evidence": "padrao ausente em todas as saidas desta execucao"
+        },
+        {
+          "text": "Trata o risco especifico ao personagem persistente",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Entrega artefato pronto para usar como arquivo separado",
+          "passed": true,
+          "evidence": "padrao encontrado nas saidas"
+        },
+        {
+          "text": "Diz quando PARAR de testar",
+          "passed": false,
+          "evidence": "padrao ausente em todas as saidas desta execucao"
+        }
+      ],
+      "notes": [
+        "BASELINE MORNA — sem skill, mas com acesso a pasta do projeto (leu o dossie da Fase 1)",
+        "arquivos produzidos: modelo-registro-de-sessao-teste.md, resposta.md"
+      ]
+    }
+  ],
+  "run_summary": {
+    "with_skill": {
+      "pass_rate": {
+        "mean": 0.958,
+        "stddev": 0.072,
+        "min": 0.833,
+        "max": 1.0
+      },
+      "time_seconds": {
+        "mean": 586.25,
+        "stddev": 135.458,
+        "min": 428.1,
+        "max": 768.9
+      },
+      "tokens": {
+        "mean": 86697.5,
+        "stddev": 19599.616,
+        "min": 65752,
+        "max": 118730
+      },
+      "n": 4
+    },
+    "without_skill": {
+      "pass_rate": {
+        "mean": 0.529,
+        "stddev": 0.137,
+        "min": 0.333,
+        "max": 0.714
+      },
+      "time_seconds": {
+        "mean": 493.15,
+        "stddev": 151.291,
+        "min": 286.1,
+        "max": 712.4
+      },
+      "tokens": {
+        "mean": 72996.75,
+        "stddev": 19829.733,
+        "min": 44940,
+        "max": 98859
+      },
+      "n": 4
+    },
+    "without_skill_FRIA_isolada": {
+      "pass_rate": {
+        "mean": 0.429,
+        "stddev": 0.0,
+        "min": 0.429,
+        "max": 0.429
+      },
+      "time_seconds": {
+        "mean": 195.7,
+        "stddev": 0.0,
+        "min": 195.7,
+        "max": 195.7
+      },
+      "tokens": {
+        "mean": 34251,
+        "stddev": 0.0,
+        "min": 34251,
+        "max": 34251
+      },
+      "n": 1
+    },
+    "delta": {
+      "pass_rate": "+0.429",
+      "time_seconds": "+93.1",
+      "tokens": "+13701"
+    }
+  },
+  "notes": [
+    "CONDICOES NAO SAO REPETICOES. O eval-3 tem tres condicoes: com skill, baseline MORNA (com acesso ao projeto) e baseline FRIA (isolada). A FRIA fica FORA da media de without_skill de proposito — misturar as duas produziria um numero sem significado.",
+    "A baseline FRIA e o unico par \"skill vs nada\" real da matriz inteira. Os demais evals comparam a skill contra Claude que ja tinha lido o dossie da Fase 1.",
+    "Assercoes escritas DEPOIS de ver as saidas (post-hoc). Isso favorece o que ja aconteceu e enfraquece a nota como evidencia.",
+    "Uma execucao por condicao: sem estimativa de variancia. Diferenca pequena de pass_rate nao deve ser lida como efeito real.",
+    "Quem escreveu as skills tambem escreveu os prompts de teste — vies a favor das skills. O eval-0 e o caso mais grave: o enunciado ja apresenta duas desvantagens de mesmo preco lado a lado, que e exatamente a montagem que o teste de dominancia pede.",
+    "Executores em Sonnet, sessao do usuario em Opus: o benchmark mede o efeito no modelo errado.",
+    "Correcao automatica por padrao de texto mede se o conceito APARECE, nao se esta correto."
+  ]
+}

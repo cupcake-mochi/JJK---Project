@@ -1,0 +1,21 @@
+{
+  "eval_id": 2,
+  "eval_name": "eval-2-revisar-texto-de-regra",
+  "skill_avaliada": "redacao-acessivel-rpg",
+  "prompt": "Revisa esse trecho do meu manual pra ficar acessivel pra quem nunca jogou RPG: [trecho CONDICOES em linguagem de contrato]",
+  "condicao": "without_skill",
+  "condicao_rotulo": "BASELINE MORNA — sem skill, mas com acesso a pasta do projeto (leu o dossie da Fase 1)",
+  "configuration": "without_skill",
+  "run_number": 1,
+  "assertions": [
+    "Entrega o texto reescrito, nao so conselhos sobre ele",
+    "Define 'condicao' antes de usar o termo",
+    "Poe o caso padrao antes da excecao",
+    "Converte a lista de condicoes em tabela",
+    "Inclui exemplo jogavel concreto",
+    "Lista o que mudou e por que cada mudanca conserta algo",
+    "Sinaliza problema do original que NAO e de redacao (lacuna de regra)"
+  ],
+  "assertions_post_hoc": true,
+  "correcao": "automatica (padrao de texto e presenca de arquivo)"
+}

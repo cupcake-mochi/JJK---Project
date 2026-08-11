@@ -1,0 +1,1325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eval Review</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Lora:wght@400;500&display=swap" rel="stylesheet">
+  <script src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js" integrity="sha384-EnyY0/GSHQGSxSgMwaIPzSESbqoOLSexfnSMN2AP+39Ckmn92stwABZynq1JyzdT" crossorigin="anonymous"></script>
+  <style>
+    :root {
+      --bg: #faf9f5;
+      --surface: #ffffff;
+      --border: #e8e6dc;
+      --text: #141413;
+      --text-muted: #b0aea5;
+      --accent: #d97757;
+      --accent-hover: #c4613f;
+      --green: #788c5d;
+      --green-bg: #eef2e8;
+      --red: #c44;
+      --red-bg: #fceaea;
+      --header-bg: #141413;
+      --header-text: #faf9f5;
+      --radius: 6px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Lora', Georgia, serif;
+      background: var(--bg);
+      color: var(--text);
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ---- Header ---- */
+    .header {
+      background: var(--header-bg);
+      color: var(--header-text);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-shrink: 0;
+    }
+    .header h1 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.25rem;
+      font-weight: 600;
+    }
+    .header .instructions {
+      font-size: 0.8rem;
+      opacity: 0.7;
+      margin-top: 0.25rem;
+    }
+    .header .progress {
+      font-size: 0.875rem;
+      opacity: 0.8;
+      text-align: right;
+    }
+
+    /* ---- Main content ---- */
+    .main {
+      flex: 1;
+      overflow-y: auto;
+      padding: 1.5rem 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    /* ---- Sections ---- */
+    .section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      flex-shrink: 0;
+    }
+    .section-header {
+      font-family: 'Poppins', sans-serif;
+      padding: 0.75rem 1rem;
+      font-size: 0.75rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      border-bottom: 1px solid var(--border);
+      background: var(--bg);
+    }
+    .section-body {
+      padding: 1rem;
+    }
+
+    /* ---- Config badge ---- */
+    .config-badge {
+      display: inline-block;
+      padding: 0.2rem 0.625rem;
+      border-radius: 9999px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 0.6875rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      margin-left: 0.75rem;
+      vertical-align: middle;
+    }
+    .config-badge.config-primary {
+      background: rgba(33, 150, 243, 0.12);
+      color: #1976d2;
+    }
+    .config-badge.config-baseline {
+      background: rgba(255, 193, 7, 0.15);
+      color: #f57f17;
+    }
+
+    /* ---- Prompt ---- */
+    .prompt-text {
+      white-space: pre-wrap;
+      font-size: 0.9375rem;
+      line-height: 1.6;
+    }
+
+    /* ---- Outputs ---- */
+    .output-file {
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+    .output-file + .output-file {
+      margin-top: 1rem;
+    }
+    .output-file-header {
+      padding: 0.5rem 0.75rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      font-family: 'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .output-file-header .dl-btn {
+      font-size: 0.7rem;
+      color: var(--accent);
+      text-decoration: none;
+      cursor: pointer;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-weight: 500;
+      opacity: 0.8;
+    }
+    .output-file-header .dl-btn:hover {
+      opacity: 1;
+      text-decoration: underline;
+    }
+    .output-file-content {
+      padding: 0.75rem;
+      overflow-x: auto;
+    }
+    .output-file-content pre {
+      font-size: 0.8125rem;
+      line-height: 1.5;
+      white-space: pre-wrap;
+      word-break: break-word;
+      font-family: 'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+    }
+    .output-file-content img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+    .output-file-content iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+    }
+    .output-file-content table {
+      border-collapse: collapse;
+      font-size: 0.8125rem;
+      width: 100%;
+    }
+    .output-file-content table td,
+    .output-file-content table th {
+      border: 1px solid var(--border);
+      padding: 0.375rem 0.5rem;
+      text-align: left;
+    }
+    .output-file-content table th {
+      background: var(--bg);
+      font-weight: 600;
+    }
+    .output-file-content .download-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.5rem 1rem;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.875rem;
+      cursor: pointer;
+    }
+    .output-file-content .download-link:hover {
+      background: var(--border);
+    }
+    .empty-state {
+      color: var(--text-muted);
+      font-style: italic;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    /* ---- Feedback ---- */
+    .prev-feedback {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 0.625rem 0.75rem;
+      margin-top: 0.75rem;
+      font-size: 0.8125rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+    .prev-feedback-label {
+      font-size: 0.7rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 0.25rem;
+      color: var(--text-muted);
+    }
+    .feedback-textarea {
+      width: 100%;
+      min-height: 100px;
+      padding: 0.75rem;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      font-family: inherit;
+      font-size: 0.9375rem;
+      line-height: 1.5;
+      resize: vertical;
+      color: var(--text);
+    }
+    .feedback-textarea:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+    }
+    .feedback-status {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-top: 0.5rem;
+      min-height: 1.1em;
+    }
+
+    /* ---- Grades (collapsible) ---- */
+    .grades-toggle {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      user-select: none;
+    }
+    .grades-toggle:hover {
+      color: var(--accent);
+    }
+    .grades-toggle .arrow {
+      margin-right: 0.5rem;
+      transition: transform 0.15s;
+      font-size: 0.75rem;
+    }
+    .grades-toggle .arrow.open {
+      transform: rotate(90deg);
+    }
+    .grades-content {
+      display: none;
+      margin-top: 0.75rem;
+    }
+    .grades-content.open {
+      display: block;
+    }
+    .grades-summary {
+      font-size: 0.875rem;
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .grade-badge {
+      display: inline-block;
+      padding: 0.125rem 0.5rem;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+    .grade-pass { background: var(--green-bg); color: var(--green); }
+    .grade-fail { background: var(--red-bg); color: var(--red); }
+    .assertion-list {
+      list-style: none;
+    }
+    .assertion-item {
+      padding: 0.625rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.8125rem;
+    }
+    .assertion-item:last-child { border-bottom: none; }
+    .assertion-status {
+      font-weight: 600;
+      margin-right: 0.5rem;
+    }
+    .assertion-status.pass { color: var(--green); }
+    .assertion-status.fail { color: var(--red); }
+    .assertion-evidence {
+      color: var(--text-muted);
+      font-size: 0.75rem;
+      margin-top: 0.25rem;
+      padding-left: 1.5rem;
+    }
+
+    /* ---- View tabs ---- */
+    .view-tabs {
+      display: flex;
+      gap: 0;
+      padding: 0 2rem;
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      flex-shrink: 0;
+    }
+    .view-tab {
+      font-family: 'Poppins', sans-serif;
+      padding: 0.625rem 1.25rem;
+      font-size: 0.8125rem;
+      font-weight: 500;
+      cursor: pointer;
+      border: none;
+      background: none;
+      color: var(--text-muted);
+      border-bottom: 2px solid transparent;
+      transition: all 0.15s;
+    }
+    .view-tab:hover { color: var(--text); }
+    .view-tab.active {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+    }
+    .view-panel { display: none; }
+    .view-panel.active { display: flex; flex-direction: column; flex: 1; overflow: hidden; }
+
+    /* ---- Benchmark view ---- */
+    .benchmark-view {
+      padding: 1.5rem 2rem;
+      overflow-y: auto;
+      flex: 1;
+    }
+    .benchmark-table {
+      border-collapse: collapse;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      font-size: 0.8125rem;
+      width: 100%;
+      margin-bottom: 1.5rem;
+    }
+    .benchmark-table th, .benchmark-table td {
+      padding: 0.625rem 0.75rem;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    .benchmark-table th {
+      font-family: 'Poppins', sans-serif;
+      background: var(--header-bg);
+      color: var(--header-text);
+      font-weight: 500;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .benchmark-table tr:hover { background: var(--bg); }
+    .benchmark-table tr.benchmark-row-with { background: rgba(33, 150, 243, 0.06); }
+    .benchmark-table tr.benchmark-row-without { background: rgba(255, 193, 7, 0.06); }
+    .benchmark-table tr.benchmark-row-with:hover { background: rgba(33, 150, 243, 0.12); }
+    .benchmark-table tr.benchmark-row-without:hover { background: rgba(255, 193, 7, 0.12); }
+    .benchmark-table tr.benchmark-row-avg { font-weight: 600; border-top: 2px solid var(--border); }
+    .benchmark-table tr.benchmark-row-avg.benchmark-row-with { background: rgba(33, 150, 243, 0.12); }
+    .benchmark-table tr.benchmark-row-avg.benchmark-row-without { background: rgba(255, 193, 7, 0.12); }
+    .benchmark-delta-positive { color: var(--green); font-weight: 600; }
+    .benchmark-delta-negative { color: var(--red); font-weight: 600; }
+    .benchmark-notes {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1rem;
+    }
+    .benchmark-notes h3 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 0.875rem;
+      margin-bottom: 0.75rem;
+    }
+    .benchmark-notes ul {
+      list-style: disc;
+      padding-left: 1.25rem;
+    }
+    .benchmark-notes li {
+      font-size: 0.8125rem;
+      line-height: 1.6;
+      margin-bottom: 0.375rem;
+    }
+    .benchmark-empty {
+      color: var(--text-muted);
+      font-style: italic;
+      text-align: center;
+      padding: 3rem;
+    }
+
+    /* ---- Navigation ---- */
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      border-top: 1px solid var(--border);
+      background: var(--surface);
+      flex-shrink: 0;
+    }
+    .nav-btn {
+      font-family: 'Poppins', sans-serif;
+      padding: 0.5rem 1.25rem;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--surface);
+      cursor: pointer;
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: var(--text);
+      transition: all 0.15s;
+    }
+    .nav-btn:hover:not(:disabled) {
+      background: var(--bg);
+      border-color: var(--text-muted);
+    }
+    .nav-btn:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+    .done-btn {
+      font-family: 'Poppins', sans-serif;
+      padding: 0.5rem 1.5rem;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--surface);
+      color: var(--text);
+      cursor: pointer;
+      font-size: 0.875rem;
+      font-weight: 500;
+      transition: all 0.15s;
+    }
+    .done-btn:hover {
+      background: var(--bg);
+      border-color: var(--text-muted);
+    }
+    .done-btn.ready {
+      border: none;
+      background: var(--accent);
+      color: white;
+      font-weight: 600;
+    }
+    .done-btn.ready:hover {
+      background: var(--accent-hover);
+    }
+    /* ---- Done overlay ---- */
+    .done-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 100;
+      justify-content: center;
+      align-items: center;
+    }
+    .done-overlay.visible {
+      display: flex;
+    }
+    .done-card {
+      background: var(--surface);
+      border-radius: 12px;
+      padding: 2rem 3rem;
+      text-align: center;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      max-width: 500px;
+    }
+    .done-card h2 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .done-card p {
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+      line-height: 1.5;
+    }
+    .done-card .btn-row {
+      display: flex;
+      gap: 0.5rem;
+      justify-content: center;
+    }
+    .done-card button {
+      padding: 0.5rem 1.25rem;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--surface);
+      cursor: pointer;
+      font-size: 0.875rem;
+    }
+    .done-card button:hover {
+      background: var(--bg);
+    }
+    /* ---- Toast ---- */
+    .toast {
+      position: fixed;
+      bottom: 5rem;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--header-bg);
+      color: var(--header-text);
+      padding: 0.625rem 1.25rem;
+      border-radius: var(--radius);
+      font-size: 0.875rem;
+      opacity: 0;
+      transition: opacity 0.3s;
+      pointer-events: none;
+      z-index: 200;
+    }
+    .toast.visible {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <div id="app" style="height:100vh; display:flex; flex-direction:column;">
+    <div class="header">
+      <div>
+        <h1>Eval Review: <span id="skill-name"></span></h1>
+        <div class="instructions">Review each output and leave feedback below. Navigate with arrow keys or buttons. When done, copy feedback and paste into Claude Code.</div>
+      </div>
+      <div class="progress" id="progress"></div>
+    </div>
+
+    <!-- View tabs (only shown when benchmark data exists) -->
+    <div class="view-tabs" id="view-tabs" style="display:none;">
+      <button class="view-tab active" onclick="switchView('outputs')">Outputs</button>
+      <button class="view-tab" onclick="switchView('benchmark')">Benchmark</button>
+    </div>
+
+    <!-- Outputs panel (qualitative review) -->
+    <div class="view-panel active" id="panel-outputs">
+    <div class="main">
+      <!-- Prompt -->
+      <div class="section">
+        <div class="section-header">Prompt <span class="config-badge" id="config-badge" style="display:none;"></span></div>
+        <div class="section-body">
+          <div class="prompt-text" id="prompt-text"></div>
+        </div>
+      </div>
+
+      <!-- Outputs -->
+      <div class="section">
+        <div class="section-header">Output</div>
+        <div class="section-body" id="outputs-body">
+          <div class="empty-state">No output files found</div>
+        </div>
+      </div>
+
+      <!-- Previous Output (collapsible) -->
+      <div class="section" id="prev-outputs-section" style="display:none;">
+        <div class="section-header">
+          <div class="grades-toggle" onclick="togglePrevOutputs()">
+            <span class="arrow" id="prev-outputs-arrow">&#9654;</span>
+            Previous Output
+          </div>
+        </div>
+        <div class="grades-content" id="prev-outputs-content"></div>
+      </div>
+
+      <!-- Grades (collapsible) -->
+      <div class="section" id="grades-section" style="display:none;">
+        <div class="section-header">
+          <div class="grades-toggle" onclick="toggleGrades()">
+            <span class="arrow" id="grades-arrow">&#9654;</span>
+            Formal Grades
+          </div>
+        </div>
+        <div class="grades-content" id="grades-content"></div>
+      </div>
+
+      <!-- Feedback -->
+      <div class="section">
+        <div class="section-header">Your Feedback</div>
+        <div class="section-body">
+          <textarea
+            class="feedback-textarea"
+            id="feedback"
+            placeholder="What do you think of this output? Any issues, suggestions, or things that look great?"
+          ></textarea>
+          <div class="feedback-status" id="feedback-status"></div>
+          <div class="prev-feedback" id="prev-feedback" style="display:none;">
+            <div class="prev-feedback-label">Previous feedback</div>
+            <div id="prev-feedback-text"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav" id="outputs-nav">
+      <button class="nav-btn" id="prev-btn" onclick="navigate(-1)">&#8592; Previous</button>
+      <button class="done-btn" id="done-btn" onclick="showDoneDialog()">Submit All Reviews</button>
+      <button class="nav-btn" id="next-btn" onclick="navigate(1)">Next &#8594;</button>
+    </div>
+    </div><!-- end panel-outputs -->
+
+    <!-- Benchmark panel (quantitative stats) -->
+    <div class="view-panel" id="panel-benchmark">
+      <div class="benchmark-view" id="benchmark-content">
+        <div class="benchmark-empty">No benchmark data available. Run a benchmark to see quantitative results here.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Done overlay -->
+  <div class="done-overlay" id="done-overlay">
+    <div class="done-card">
+      <h2>Review Complete</h2>
+      <p>Your feedback has been saved. Go back to your Claude Code session and tell Claude you're done reviewing.</p>
+      <div class="btn-row">
+        <button onclick="closeDoneDialog()">OK</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast"></div>
+
+  <script>
+    // ---- Embedded data (injected by generate_review.py) ----
+    const EMBEDDED_DATA = {"skill_name": "RPG da Guilda \u2014 4 skills", "runs": [{"id": "eval-0-dominancia-restricao-with_skill", "prompt": "No meu RPG, feiticos sao montados com pontos e voce pode aceitar desvantagens pra recuperar pontos. Duas delas: 'Parado' e 'Gesto'. As duas devolvem o mesmo tanto: metade do Grau. Quero adicionar uma terceira, 'Vulneravel', tambem devolvendo metade do Grau. Ta certo esse preco?", "eval_id": 0, "outputs": [{"name": "resposta.md", "type": "text", "content": "# Vulner\u00e1vel: o pre\u00e7o t\u00e1 certo?\n\n**Resposta curta: quase. Parado e Gesto passam no teste de domin\u00e2ncia um contra o outro \u2014 mas Vulner\u00e1vel, do jeito que est\u00e1 escrita, n\u00e3o passa contra os dois pelo mesmo pre\u00e7o. Ela d\u00f3i mais na cena comum do seu jogo (mais de um inimigo, que \u00e9 a regra em luta shounen, n\u00e3o a exce\u00e7\u00e3o), e o motivo n\u00e3o \u00e9 o desconto estar errado \u2014 \u00e9 o alcance da regra estar maior que o das outras duas.**\n\nAbaixo o porqu\u00ea, rodando os testes na ordem que a gente usa pra criticar mec\u00e2nica existente: domin\u00e2ncia, b\u00f4nus autom\u00e1tico, filtro de multi-mestre, e s\u00f3 no fim uma opini\u00e3o \u2014 marcada como opini\u00e3o.\n\n## O teste de domin\u00e2ncia\n\nAs tr\u00eas competem pelo mesmo or\u00e7amento (todas devolvem metade do Grau, arredondado pra cima), ent\u00e3o cabe perguntar, par a par: existe uma cena em que eu escolheria A no lugar de B?\n\n**Parado vs. Gesto \u2014 passa.** Um conjurador que luta parado no mesmo lugar n\u00e3o se importa de pagar Parado; um lutador com as duas m\u00e3os ocupadas numa arma, ou numa cena de infiltra\u00e7\u00e3o em que falar alto entrega a posi\u00e7\u00e3o do grupo, n\u00e3o pode pagar Gesto de jeito nenhum. Cada uma d\u00f3i mais numa configura\u00e7\u00e3o diferente de personagem e de cena, nenhuma cont\u00e9m a outra \u2014 \u00e9 exatamente o tipo de \"troca dor por dor\" que o teste deixa passar. Vale um olho, n\u00e3o uma corre\u00e7\u00e3o agora: as duas podem sair quase de gra\u00e7a pra uma build otimizada pra evitar exatamente aquele custo (o conjurador-torre que nunca precisa se mover; o desarmado que nunca precisa de sil\u00eancio). \u00c9 um risco menor nas duas, secund\u00e1rio perto do que vem a seguir.\n\n**Parado / Gesto vs. Vulner\u00e1vel \u2014 n\u00e3o passa.** A diferen\u00e7a n\u00e3o \u00e9 de intensidade, \u00e9 de forma:\n\n- Parado e Gesto custam algo **contido dentro do seu pr\u00f3prio turno**. O pior caso de cada uma \u00e9 voc\u00ea n\u00e3o conseguir agir daquele jeito espec\u00edfico agora. O custo nunca sai da sua a\u00e7\u00e3o e vira problema decidido por outra pessoa.\n- Vulner\u00e1vel custa algo que **sai do seu turno e entra no dos inimigos**: \"at\u00e9 o fim do seu pr\u00f3ximo turno\" cobre o resto da rodada atual, a rodada inteira do grupo inimigo, e ainda o seu pr\u00f3ximo turno. E \"ataques contra voc\u00ea\" n\u00e3o \u00e9 um ataque \u2014 \u00e9 qualquer um que agir contra voc\u00ea nessa janela toda.\n\nIsso faz o pre\u00e7o de Vulner\u00e1vel deixar de ser fixo: ele escala com quantos inimigos o mestre p\u00f4s na cena, coisa que Parado e Gesto nunca fazem. Contra um oponente s\u00f3, o custo pode ser pequeno. Contra a mobzada de quatro ou cinco que \u00e9 padr\u00e3o em combate shounen, voc\u00ea est\u00e1 multiplicando \"vantagem\" \u2014 que o pr\u00f3prio material de voc\u00eas j\u00e1 registra como valendo mais ou menos um +5 (um b\u00f4nus grande disfar\u00e7ado de mec\u00e2nica simples) e como algo que **\"empilha f\u00e1cil\"** (`references/matematica-de-dado.md`) \u2014 por cada criatura que ainda vai agir antes de voc\u00ea jogar de novo. Perder o movimento n\u00e3o faz isso: custa o mesmo n\u00e3o importa se tem um inimigo ou dez.\n\nRode o teste de novo com essa lente: existe uma cena em que eu prefiro pagar Vulner\u00e1vel a pagar Parado, pelo mesmo reembolso? S\u00f3 em cenas marginais \u2014 golpe de miseric\u00f3rdia sem mais ningu\u00e9m por perto, inimigo fraco o bastante pra vantagem quase n\u00e3o mudar a chance dele de acertar. Existe a cena oposta, em que prefiro Parado? A maioria das lutas com mais de um oponente \u2014 ou seja, o normal do g\u00eanero que voc\u00eas escolheram. Quando a maioria das cenas empurra pra um lado e s\u00f3 a exce\u00e7\u00e3o pro outro, a op\u00e7\u00e3o mais arriscada na pr\u00e1tica est\u00e1 perto de virar peso morto no cat\u00e1logo: ningu\u00e9m que entende o risco escolhe ela por raz\u00e3o mec\u00e2nica, e quem escolhe sem entender leva um susto que as outras duas nunca d\u00e3o.\n\n## O teste do b\u00f4nus autom\u00e1tico\n\nN\u00e3o \u00e9 bem esse o defeito aqui. Vulner\u00e1vel n\u00e3o \u00e9 um b\u00f4nus de gra\u00e7a \u2014 ela quase sempre cobra alguma coisa em combate de verdade, o que por si s\u00f3 est\u00e1 certo. O problema \u00e9 o espelho do autom\u00e1tico: o **quanto** ela cobra n\u00e3o depende de nenhuma escolha do jogador (arma, build, se ele precisava se mover), depende s\u00f3 de quantos inimigos o mestre colocou na cena naquele dia. Isso empurra o problema direto pro pr\u00f3ximo teste.\n\n## O filtro do multi-mestre\n\nEsse \u00e9 o ponto mais forte contra a regra como est\u00e1. O pitch do projeto fecha assim: quando houver d\u00favida entre \"elegante\" e \"arbitr\u00e1vel por estranho\", o projeto escolhe arbitr\u00e1vel. Parado e Gesto passam f\u00e1cil nisso \u2014 dois mestres olhando a mesma cena concordam sobre se o personagem se moveu ou se as m\u00e3os estavam livres, sem depender de julgamento. Vulner\u00e1vel tamb\u00e9m \u00e9 uma regra clara, n\u00e3o discricion\u00e1ria, nesse sentido estrito. Mas o **custo real** que ela produz na mesa depende inteiramente de uma decis\u00e3o que \u00e9 do mestre, n\u00e3o do sistema: quantos inimigos ele decidiu colocar na cena e quantos deles agem antes do seu pr\u00f3ximo turno. Duas mesas aplicando a regra exatamente como est\u00e1 escrita ainda assim entregam experi\u00eancias bem diferentes pra quem pagou o mesmo pre\u00e7o \u2014 que \u00e9 precisamente o tipo de inconsist\u00eancia entre mesas que o server foi desenhado pra evitar.\n\nTem tamb\u00e9m uma borda que vale fechar por escrito, j\u00e1 que o projeto decidiu nunca deixar regra discricion\u00e1ria: o que acontece se o seu pr\u00f3ximo turno for pulado \u2014 atordoado, incapacitado, isolado da cena? \"At\u00e9 o fim do seu pr\u00f3ximo turno\" fica sem resposta exatamente quando isso acontece. Vale escrever explicitamente que a janela fecha no primeiro turno que seria seu depois do atual, jog\u00e1vel ou n\u00e3o \u2014 sen\u00e3o um personagem incapacitado fica \"vulner\u00e1vel\" indefinidamente por acidente de regra, e dois mestres v\u00e3o resolver isso de dois jeitos diferentes.\n\n## O conserto (o menor que resolve)\n\nO problema n\u00e3o \u00e9 o pre\u00e7o em si \u2014 metade do Grau, arredondado pra cima, continua fazendo sentido como reembolso. O problema \u00e9 o alcance. A domin\u00e2ncia desaparece se Vulner\u00e1vel for limitada a **um** evento em vez de uma janela aberta pra qualquer atacante:\n\n> **Vulner\u00e1vel.** O pr\u00f3ximo ataque contra voc\u00ea antes do fim do seu pr\u00f3ximo turno tem vantagem.\n\nIsso mant\u00e9m a sensa\u00e7\u00e3o que voc\u00eas querem \u2014 \"abri a guarda, e isso pode custar caro daqui a pouco\" \u2014 sem que o custo real multiplique pelo n\u00famero de inimigos na cena. Continua valendo metade do Grau como as outras duas, porque agora o pior caso dela \u00e9 do mesmo tamanho que o pior caso delas: um evento s\u00f3 e contido, n\u00e3o uma sequ\u00eancia que cresce junto com o encontro.\n\nSe voc\u00eas preferem manter o alcance largo (vantagem contra qualquer ataque, na janela toda) porque a dramaticidade de \"abrir a guarda de vez\" vale mais que a simetria de pre\u00e7o, a sa\u00edda \u00e9 subir o pre\u00e7o s\u00f3 dela \u2014 mas isso sozinho n\u00e3o resolve a parte de multi-mestre, porque duas mesas ainda v\u00e3o sentir custos bem diferentes dependendo de quantos inimigos apareceram naquele dia. Quem for por esse caminho devia somar um teto expl\u00edcito (\"no m\u00e1ximo dois ataques se beneficiam disso\", por exemplo) ao pre\u00e7o mais alto, em vez de confiar s\u00f3 no n\u00famero pra resolver um problema de vari\u00e2ncia.\n\n## Uma opini\u00e3o, marcada como opini\u00e3o\n\nPrefiro a vers\u00e3o de ataque \u00fanico. Ela devolve a mesma sensa\u00e7\u00e3o de risco \u2014 ficar exposto at\u00e9 conseguir agir de novo \u2014 sem que o custo real dependa de quantos inimigos o mestre daquela mesa especificamente gosta de colocar em cena. E fecha limpo com Parado e Gesto: as tr\u00eas voltam a ser op\u00e7\u00f5es que doem de formas diferentes pelo mesmo pre\u00e7o, que era o objetivo de ter tr\u00eas desvantagens em vez de uma s\u00f3.\n"}], "grading": {"expectations": [{"text": "Nomeia o conceito de dominancia explicitamente", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Compara as tres desvantagens entre si, nao so avalia a nova isolada", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Identifica que o custo de Vulneravel escala com o numero de inimigos", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Propoe um conserto concreto com preco, nao so aponta o problema", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Separa o que e conta do que e opiniao", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Levanta risco de arbitragem entre mestres diferentes", "passed": true, "evidence": "padrao encontrado nas saidas"}], "summary": {"passed": 6, "failed": 0, "total": 6, "pass_rate": 1.0}, "timing": {"total_duration_seconds": 659.8}, "condicao_rotulo": "COM SKILL \u2014 leu o SKILL.md e os arquivos de apoio", "ressalva": "assercoes post-hoc, correcao automatica por padrao de texto"}}, {"id": "eval-0-dominancia-restricao-without_skill", "prompt": "No meu RPG, feiticos sao montados com pontos e voce pode aceitar desvantagens pra recuperar pontos. Duas delas: 'Parado' e 'Gesto'. As duas devolvem o mesmo tanto: metade do Grau. Quero adicionar uma terceira, 'Vulneravel', tambem devolvendo metade do Grau. Ta certo esse preco?", "eval_id": 0, "outputs": [{"name": "resposta.md", "type": "text", "content": "# Vulner\u00e1vel: o pre\u00e7o t\u00e1 errado\n\nResposta direta: n\u00e3o. Do jeito que \"Vulner\u00e1vel\" t\u00e1 descrita, ela \u00e9 bem mais grave que Parado e Gesto, e devolver o mesmo tanto que as outras duas \u00e9 subprecificar ela. Ou o efeito encolhe pra caber nesse pre\u00e7o, ou o pre\u00e7o cai pra caber nesse efeito \u2014 no fim digo qual das duas eu escolheria.\n\n## Por que Parado e Gesto pagam o mesmo ped\u00e1gio\n\nRepara no que as duas t\u00eam em comum: o custo \u00e9 pontual, previs\u00edvel, e voc\u00ea escolhe quando ele d\u00f3i.\n\n- **Parado** tira uma coisa sua por um turno s\u00f3 (o movimento). Se voc\u00ea n\u00e3o precisava andar mesmo, a desvantagem n\u00e3o custou nada; se precisava, voc\u00ea perdeu uma a\u00e7\u00e3o de posicionamento \u2014 chato, mas contido, e acaba no fim do pr\u00f3prio turno.\n- **Gesto** te bloqueia de conjurar se as m\u00e3os n\u00e3o estiverem livres ou voc\u00ea n\u00e3o puder falar. De novo, um jogador atento escolhe o momento de conjurar, evita fazer isso agarrado, amorda\u00e7ado ou com as m\u00e3os ocupadas \u2014 na pr\u00e1tica, o pre\u00e7o real pago costuma ser zero.\n\nAs duas vivem inteiramente dentro do seu pr\u00f3prio turno, resolvem sozinhas ali, e voc\u00ea tem controle real sobre quando o custo aparece. Faz sentido as duas valerem o mesmo: s\u00e3o do mesmo tamanho de risco.\n\n## Por que Vulner\u00e1vel n\u00e3o joga esse mesmo jogo\n\n\"At\u00e9 o fim do seu pr\u00f3ximo turno, ataques contra voc\u00ea t\u00eam vantagem\" quebra as tr\u00eas coisas que deixavam Parado e Gesto baratas:\n\n**N\u00e3o \u00e9 pontual.** A janela cobre o resto do turno atual, o turno inteiro do inimigo (ou dos inimigos), e ainda o seu turno seguinte inteiro. Isso n\u00e3o \u00e9 \"uma a\u00e7\u00e3o perdida\" \u2014 \u00e9 uma rodada completa de exposi\u00e7\u00e3o pra quem quer que esteja te atacando.\n\n**N\u00e3o \u00e9 control\u00e1vel por voc\u00ea.** Em Parado e Gesto, voc\u00ea evita a puni\u00e7\u00e3o escolhendo o momento de conjurar. Em Vulner\u00e1vel, quem decide se a desvantagem cobra alguma coisa \u00e9 o inimigo: quantos s\u00e3o, se focam em voc\u00ea, se t\u00eam alcance. N\u00e3o existe \"escolher o momento seguro\" pra levar dano.\n\n**N\u00e3o tem teto.** Contra um inimigo s\u00f3, talvez voc\u00ea tome uma rolagem a mais com vantagem \u2014 parecido em tamanho com Parado. Contra tr\u00eas inimigos, ou contra um dom\u00ednio com m\u00faltiplos ataques, \u00e9 vantagem em cada rolagem que vier na sua dire\u00e7\u00e3o durante a janela toda. O custo escala com o encontro; a devolu\u00e7\u00e3o de pontos, n\u00e3o.\n\nE vantagem n\u00e3o \u00e9 um efeito pequeno \u2014 o pr\u00f3prio dossi\u00ea de metodologia de voc\u00eas j\u00e1 calculou isso: no d20, vantagem vale por volta de +5, com pico de +25 pontos percentuais bem no meio da curva (CD 11: 50% vira 75%). O documento chama isso de \"b\u00f4nus grande disfar\u00e7ado de mec\u00e2nica simples (...) perigoso para balanceamento, empilha f\u00e1cil\". Se o cr\u00edtico do sistema de voc\u00eas sai de tirar o n\u00famero mais alto do dado, vantagem quase dobra essa chance tamb\u00e9m (num d20, de 5% pra quase 10%) \u2014 n\u00e3o \u00e9 s\u00f3 a m\u00e9dia que sobe, a cauda mais perigosa da distribui\u00e7\u00e3o cresce junto. Isso n\u00e3o pesa igual a \"n\u00e3o andei esse turno\".\n\n## Isso pesa ainda mais por causa de dois pilares do pr\u00f3prio projeto\n\n- O pitch diz que vencer cobra caro e que ferimento *fica*. Se isso virar mec\u00e2nica de verdade (ainda em aberto, fora de escopo por enquanto), tomar um cr\u00edtico enquanto Vulner\u00e1vel n\u00e3o \u00e9 s\u00f3 perder recurso na cena \u2014 \u00e9 o tipo de coisa que pode grudar no personagem.\n- Personagem \u00e9 persistente entre mestres. Um resultado ruim numa rodada de Vulner\u00e1vel contra tr\u00eas inimigos n\u00e3o fica s\u00f3 naquela mesa: o personagem carrega a consequ\u00eancia pra mesa do pr\u00f3ximo mestre. Isso empurra o custo esperado dessa desvantagem pra cima do que empurraria num jogo de mesa fixa e sess\u00e3o \u00fanica.\n\nTem tamb\u00e9m um ponto de arbitragem, que \u00e9 o pilar que mais importa pro projeto de voc\u00eas: Parado e Gesto resolvem no ato, sem nada pra lembrar depois. Vulner\u00e1vel exige que algu\u00e9m lembre \"isso ainda t\u00e1 valendo\" atravessando o turno de outra pessoa \u2014 e cinco mestres diferentes v\u00e3o esquecer isso em taxas diferentes. Isso j\u00e1 \u00e9 motivo de desconfian\u00e7a da regra, independente do pre\u00e7o em pontos.\n\n## O que eu faria\n\nDuas sa\u00eddas \u2014 escolhe uma:\n\n**1. Encolhe o efeito, mant\u00e9m o pre\u00e7o.** Troca \"ataques contra voc\u00ea t\u00eam vantagem at\u00e9 o fim do seu pr\u00f3ximo turno\" por \"o pr\u00f3ximo ataque contra voc\u00ea antes do fim do seu turno seguinte tem vantagem\". Vira um evento \u00fanico, n\u00e3o uma janela \u2014 mesmo tamanho de risco que Parado e Gesto, resolve e acabou. A\u00ed sim devolver metade do Grau fica justo. Essa \u00e9 a op\u00e7\u00e3o que eu escolheria: mant\u00e9m a r\u00e9gua simples (\"toda desvantagem devolve metade do Grau, arredondando pra cima\"), que \u00e9 boa justamente porque cinco mestres diferentes arbitram ela do mesmo jeito, e resolve o desequil\u00edbrio sem abrir exce\u00e7\u00e3o.\n\n**2. Mant\u00e9m o efeito, corta o pre\u00e7o.** Se a ideia \u00e9 mesmo a janela inteira, ela vale menos que metade do Grau. Um valor fixo baixo (por exemplo 1 ponto, n\u00e3o importa o Grau) \u00e9 mais defens\u00e1vel que uma fra\u00e7\u00e3o do Grau, porque o risco real dela n\u00e3o escala com o Grau do feiti\u00e7o \u2014 escala com quantos inimigos est\u00e3o na cena, uma vari\u00e1vel que a f\u00f3rmula atual n\u00e3o enxerga.\n\nSe der pra testar, testa num combate com tr\u00eas inimigos ou mais primeiro. \u00c9 ali que a diferen\u00e7a de custo real entre Vulner\u00e1vel e as outras duas vai aparecer mais r\u00e1pido do que em qualquer conta que eu fa\u00e7a aqui.\n"}], "grading": {"expectations": [{"text": "Nomeia o conceito de dominancia explicitamente", "passed": false, "evidence": "padrao ausente em todas as saidas desta execucao"}, {"text": "Compara as tres desvantagens entre si, nao so avalia a nova isolada", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Identifica que o custo de Vulneravel escala com o numero de inimigos", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Propoe um conserto concreto com preco, nao so aponta o problema", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Separa o que e conta do que e opiniao", "passed": false, "evidence": "padrao ausente em todas as saidas desta execucao"}, {"text": "Levanta risco de arbitragem entre mestres diferentes", "passed": false, "evidence": "padrao ausente em todas as saidas desta execucao"}], "summary": {"passed": 3, "failed": 3, "total": 6, "pass_rate": 0.5}, "timing": {"total_duration_seconds": 470.6}, "condicao_rotulo": "BASELINE MORNA \u2014 sem skill, mas com acesso a pasta do projeto (leu o dossie da Fase 1)", "ressalva": "assercoes post-hoc, correcao automatica por padrao de texto"}}, {"id": "eval-1-curva-teste-resistencia-with_skill", "prompt": "Meu sistema usa d20. Um feitico de area faz o alvo rolar Teste de Resistencia. A CD e 8 + metade do nivel + 2 se comprou Precisao. Inimigos tem +2 no nivel 1 subindo pra +8 no nivel 20. Isso fica bom ou os inimigos vao passar sempre? E se eu trocar pra 3d6?", "eval_id": 1, "outputs": [{"name": "curva_teste_resistencia.py", "type": "text", "content": "# -*- coding: utf-8 -*-\n\"\"\"Balanceamento da curva de Teste de Resistencia (feitico de area) \u2014 d20 vs 3d6.\n\nPergunta original:\n  \"Meu sistema usa d20. Um feitico de area faz o alvo rolar Teste de\n  Resistencia: passou, toma metade do dano. A CD e 8 + metade do nivel do\n  conjurador + 2 se ele comprou a melhoria Precisao. Os inimigos tem bonus de\n  resistencia de +2 no nivel 1 subindo pra +8 no nivel 20. Isso fica bom ou os\n  inimigos vao passar sempre? E se eu trocar pra 3d6 no lugar do d20, muda\n  muito?\"\n\nSegue a ordem de trabalho da skill balanceamento-simulacao:\n  1. Contrato de invariantes\n  2. Modelagem das regras\n  3. Varredura exaustiva por nivel (1 a 20), nao so no topo\n  4. Checagem de robustez (equivale a matriz de dominancia: aqui, dominancia\n     de premissa \u2014 a conclusao muda se eu arredondar diferente?)\n  5. Regressao contra os dois numeros publicados pelo usuario (bonus +2 no\n     nivel 1 e +8 no nivel 20)\n  6. Veredito em linguagem de mesa\n\"\"\"\nimport sys\nimport os\nfrom math import floor, ceil\n\nsys.path.insert(0, os.path.join(\n    os.path.dirname(__file__), '..', '..', '..', '..', '..',\n    'skills', 'balanceamento-simulacao', 'scripts'))\n# fallback: caminho absoluto direto, caso o relativo acima nao resolva\nsys.path.insert(0, '/sessions/gifted-hopeful-tesla/mnt/Claude 2/RPG-JJK/skills/balanceamento-simulacao/scripts')\n\nfrom dados import soma, p_ao_menos, media, desvio, valor_do_mais_um  # noqa: E402\n\nERROS = []\n\n\ndef erro(msg):\n    ERROS.append(msg)\n    print('  ERRO:', msg)\n\n\n# =============================================================================\n# 1. CONTRATO DE INVARIANTES\n# =============================================================================\nCONTRATO = \"\"\"\nCONTRATO (dados pelo usuario, tratados como fixos):\n  CD(nivel)            = 8 + metade do nivel do conjurador [+2 se Precisao]\n  Bonus de resistencia = +2 no nivel 1, +8 no nivel 20 (cresce com o nivel)\n  Regra do teste       = resistiu -> metade do dano \u00b7 falhou -> dano cheio\n\nPREMISSAS (nao dadas pelo usuario, assumidas e testadas por robustez abaixo):\n  P1. \"metade do nivel\" arredonda para baixo (floor). Testado tambem com\n      arredondamento para cima (ceil) na secao de robustez.\n  P2. O bonus de resistencia cresce de forma continua entre nivel 1 e 20\n      (interpolacao linear). Testado com arredondamento pra baixo, pra cima\n      e pro mais proximo na secao de robustez \u2014 os EXTREMOS (nivel 1 e 20)\n      sao exatamente os valores que o usuario deu, entao a interpolacao so\n      afeta a forma da curva no meio, nunca as pontas.\n  P3. Analise \"on-level\": conjurador nivel L enfrenta inimigo padrao do\n      mesmo nivel L. Fora disso (chefe alto nivel vs mook fraco, ou o\n      inverso) o resultado se desloca para os extremos \u2014 ha uma nota\n      separada sobre isso no relatorio final.\n  P4. Sem regra de \"1 natural falha sempre / 20 natural acerta sempre\" no\n      teste de resistencia, porque o usuario nao mencionou nenhuma. Se o\n      sistema tiver essa regra, ela achata as caudas (nunca 0% nem 100%).\n\nMETA IMPLICITA DE DESIGN (nao dada pelo usuario \u2014 e o que este relatorio\nesta checando, nao um numero oficial do sistema):\n  Uma curva de resistencia saudavel evita os dois extremos (inimigo\n  resiste quase sempre = feitico decorativo; inimigo falha quase sempre =\n  \"resistencia\" decorativa) e, se possivel, mante a taxa de sucesso do\n  inimigo relativamente ESTAVEL entre nivel 1 e nivel 20 \u2014 a menos que\n  haja decisao explicita de deixar a area mais forte ou mais fraca ao\n  longo da progressao.\n\"\"\"\n\n\n# =============================================================================\n# 2. MODELAGEM DAS REGRAS\n# =============================================================================\ndef cd(nivel, precisao, arred=floor):\n    return 8 + arred(nivel / 2) + (2 if precisao else 0)\n\n\ndef bonus_resistencia(nivel, arred=round):\n    \"\"\"Interpola linearmente entre +2 (nivel 1) e +8 (nivel 20).\n\n    Nos extremos (nivel 1 e nivel 20) da exatamente +2 e +8, os numeros que\n    o usuario informou \u2014 nao importa a funcao de arredondamento usada.\n    \"\"\"\n    bruto = 2 + 6 * (nivel - 1) / 19\n    return arred(bruto)\n\n\ndef chance_sucesso_d20(alvo):\n    \"\"\"P(d20 >= alvo), sem regra de 1/20 natural.\"\"\"\n    if alvo <= 1:\n        return 1.0\n    if alvo > 20:\n        return 0.0\n    return (21 - alvo) / 20\n\n\nDIST_3D6 = soma([6, 6, 6])\n\n\ndef chance_sucesso_3d6(alvo):\n    return p_ao_menos(DIST_3D6, alvo)\n\n\n# =============================================================================\n# 3. VARREDURA POR NIVEL (1 a 20 \u2014 nao so no topo)\n# =============================================================================\ndef varredura(arred_meio_nivel=floor, arred_bonus=round):\n    linhas = []\n    for L in range(1, 21):\n        b = bonus_resistencia(L, arred_bonus)\n        cd_sem, cd_com = cd(L, False, arred_meio_nivel), cd(L, True, arred_meio_nivel)\n        alvo_sem, alvo_com = cd_sem - b, cd_com - b\n        linhas.append({\n            'nivel': L, 'bonus': b,\n            'cd_sem': cd_sem, 'cd_com': cd_com,\n            'alvo_sem': alvo_sem, 'alvo_com': alvo_com,\n            'd20_sem': chance_sucesso_d20(alvo_sem),\n            'd20_com': chance_sucesso_d20(alvo_com),\n            '3d6_sem': chance_sucesso_3d6(alvo_sem),\n            '3d6_com': chance_sucesso_3d6(alvo_com),\n        })\n    return linhas\n\n\ndef relatorio_varredura(linhas):\n    print('=' * 100)\n    print('VARREDURA \u2014 chance de o INIMIGO passar no teste (tomar so metade do dano), por nivel')\n    print('=' * 100)\n    cab = (f'{\"Nv\":>3} {\"bonus\":>6} | {\"CD s/P\":>7} {\"alvo s/P\":>9} {\"d20 s/P\":>8} {\"3d6 s/P\":>8} | '\n           f'{\"CD c/P\":>7} {\"alvo c/P\":>9} {\"d20 c/P\":>8} {\"3d6 c/P\":>8}')\n    print(cab)\n    print('-' * len(cab))\n    for r in linhas:\n        print(f'{r[\"nivel\"]:>3} {r[\"bonus\"]:>6} | '\n              f'{r[\"cd_sem\"]:>7} {r[\"alvo_sem\"]:>9} {r[\"d20_sem\"]*100:>7.1f}% {r[\"3d6_sem\"]*100:>7.1f}% | '\n              f'{r[\"cd_com\"]:>7} {r[\"alvo_com\"]:>9} {r[\"d20_com\"]*100:>7.1f}% {r[\"3d6_com\"]*100:>7.1f}%')\n    print()\n\n\ndef resumo_extremos(linhas, nome):\n    l1, l20 = linhas[0], linhas[-1]\n    print(f'--- Resumo ({nome}) ---')\n    print(f'  Sem Precisao: nivel 1 = {l1[\"d20_sem\"]*100:.1f}% (d20) / {l1[\"3d6_sem\"]*100:.1f}% (3d6)   '\n          f'->   nivel 20 = {l20[\"d20_sem\"]*100:.1f}% (d20) / {l20[\"3d6_sem\"]*100:.1f}% (3d6)')\n    print(f'  Com Precisao: nivel 1 = {l1[\"d20_com\"]*100:.1f}% (d20) / {l1[\"3d6_com\"]*100:.1f}% (3d6)   '\n          f'->   nivel 20 = {l20[\"d20_com\"]*100:.1f}% (d20) / {l20[\"3d6_com\"]*100:.1f}% (3d6)')\n    deriva_d20 = l1['d20_sem'] * 100 - l20['d20_sem'] * 100\n    deriva_3d6 = l1['3d6_sem'] * 100 - l20['3d6_sem'] * 100\n    print(f'  Deriva (nivel 1 -> nivel 20), sem Precisao: {deriva_d20:.1f}pp no d20 | {deriva_3d6:.1f}pp no 3d6')\n    print()\n    return deriva_d20, deriva_3d6\n\n\n# =============================================================================\n# 4. VALOR MARGINAL DA MELHORIA \"PRECISAO\" (+2 na CD) POR NIVEL E POR SISTEMA\n# =============================================================================\ndef valor_da_precisao(linhas):\n    print('=' * 100)\n    print('QUANTO A MELHORIA \"PRECISAO\" (+2 na CD) VALE, EM PONTOS PERCENTUAIS DE FALHA DO INIMIGO')\n    print('=' * 100)\n    print(f'{\"Nivel\":>5} | {\"d20\":>8} | {\"3d6\":>8}')\n    for r in linhas:\n        delta_d20 = (r['d20_sem'] - r['d20_com']) * 100\n        delta_3d6 = (r['3d6_sem'] - r['3d6_com']) * 100\n        print(f'{r[\"nivel\"]:>5} | {delta_d20:>6.1f}pp | {delta_3d6:>6.1f}pp')\n    print()\n    d20_vals = [(r['d20_sem'] - r['d20_com']) * 100 for r in linhas]\n    d3d6_vals = [(r['3d6_sem'] - r['3d6_com']) * 100 for r in linhas]\n    print(f'  d20: varia de {min(d20_vals):.1f}pp a {max(d20_vals):.1f}pp ao longo dos niveis '\n          f'(amplitude {max(d20_vals)-min(d20_vals):.1f}pp)')\n    print(f'  3d6: varia de {min(d3d6_vals):.1f}pp a {max(d3d6_vals):.1f}pp ao longo dos niveis '\n          f'(amplitude {max(d3d6_vals)-min(d3d6_vals):.1f}pp)')\n    print()\n    if max(d20_vals) - min(d20_vals) > 1.0:\n        erro('d20: o valor da melhoria Precisao deveria ser constante e nao esta (bug de arredondamento?)')\n\n\n# =============================================================================\n# 5. ROBUSTEZ \u2014 a conclusao muda se eu arredondar diferente?\n#    (papel equivalente a matriz de dominancia: aqui, \"dominancia de premissa\")\n# =============================================================================\ndef robustez():\n    print('=' * 100)\n    print('ROBUSTEZ \u2014 a conclusao se mantem sob outras convencoes de arredondamento?')\n    print('=' * 100)\n    combinacoes = [\n        ('metade nivel = floor, bonus = round (base do relatorio)', floor, round),\n        ('metade nivel = ceil,  bonus = round', ceil, round),\n        ('metade nivel = floor, bonus = floor (pior caso p/ inimigo)', floor, floor),\n        ('metade nivel = floor, bonus = ceil  (melhor caso p/ inimigo)', floor, ceil),\n    ]\n    for nome, am, ab in combinacoes:\n        linhas = varredura(am, ab)\n        l1, l20 = linhas[0], linhas[-1]\n        print(f'  {nome}')\n        print(f'    nivel 1: d20 {l1[\"d20_sem\"]*100:5.1f}%  3d6 {l1[\"3d6_sem\"]*100:5.1f}%   |   '\n              f'nivel 20: d20 {l20[\"d20_sem\"]*100:5.1f}%  3d6 {l20[\"3d6_sem\"]*100:5.1f}%   (sem Precisao)')\n    print()\n    print('  -> Em toda combinacao, a direcao e a ordem de grandeza da deriva se mantem:')\n    print('     inimigo passa MENOS conforme o nivel sobe, e o efeito e maior no 3d6 que no d20.')\n    print()\n\n\n# =============================================================================\n# 6. REGRESSAO \u2014 os dois numeros que o usuario deu batem exatamente?\n# =============================================================================\ndef regressao():\n    print('=' * 100)\n    print('REGRESSAO \u2014 os numeros publicados pelo usuario batem com o modelo?')\n    print('=' * 100)\n    publicados = [\n        ('bonus de resistencia no nivel 1', bonus_resistencia(1), 2),\n        ('bonus de resistencia no nivel 20', bonus_resistencia(20), 8),\n    ]\n    for nome, obtido, esperado in publicados:\n        if obtido != esperado:\n            erro(f'{nome}: esperado {esperado}, obtido {obtido}')\n        else:\n            print(f'  ok   {nome:<35} -> {obtido}')\n    print()\n\n\n# =============================================================================\n# 7. FICHA TECNICA DOS DOIS DADOS (para o texto do relatorio)\n# =============================================================================\ndef ficha_dados():\n    print('=' * 100)\n    print('FICHA TECNICA \u2014 d20 vs 3d6 (para referencia no relatorio)')\n    print('=' * 100)\n    dist_d20 = soma([20])\n    print(f'  d20  media {media(dist_d20):.2f}  desvio {desvio(dist_d20):.2f}  (achatado, todo valor 1/20)')\n    print(f'  3d6  media {media(DIST_3D6):.2f}  desvio {desvio(DIST_3D6):.2f}  (sino, concentrado em 10-11)')\n    print()\n    print('  Valor de +1 na CD, em pp de falha do inimigo, conforme o alvo (= CD - bonus):')\n    for alvo in [6, 8, 10, 11, 12, 14]:\n        v20 = valor_do_mais_um(soma([20]), alvo) * 100\n        v3d6 = valor_do_mais_um(DIST_3D6, alvo) * 100\n        print(f'    alvo {alvo:>2}:  d20 = {v20:5.2f}pp   3d6 = {v3d6:5.2f}pp')\n    print()\n\n\n# =============================================================================\n# VEREDITO\n# =============================================================================\nif __name__ == '__main__':\n    print(CONTRATO)\n    linhas = varredura()\n    relatorio_varredura(linhas)\n    resumo_extremos(linhas, 'interpolacao padrao do relatorio')\n    valor_da_precisao(linhas)\n    robustez()\n    regressao()\n    ficha_dados()\n    print('=' * 100)\n    if ERROS:\n        print(f'>>> {len(ERROS)} PROBLEMA(S):')\n        for e in ERROS:\n            print('   -', e)\n        raise SystemExit(1)\n    print('>>> TUDO OK \u2014 nenhum alvo estoura 0%/100%, os dois pontos dados pelo usuario conferem exatamente,')\n    print('>>> e a conclusao (queda gradual na chance de sucesso do inimigo, maior no 3d6) e robusta a')\n    print('>>> troca de convencao de arredondamento.')\n"}, {"name": "resposta.md", "type": "text", "content": "# Teste de Resist\u00eancia de \u00e1rea \u2014 CD vs b\u00f4nus de resist\u00eancia, n\u00edvel 1 a 20\n\nRodei os n\u00fameros em vez de estimar de cabe\u00e7a (script anexo, `curva_teste_resistencia.py`, usa a distribui\u00e7\u00e3o exata de dado da skill de balanceamento, n\u00e3o Monte Carlo). Resposta direta primeiro, contas depois.\n\n## Resposta curta\n\n**No d20, os inimigos n\u00e3o v\u00e3o passar sempre.** A chance deles resistirem (tomar s\u00f3 metade do dano) varia de **75% no n\u00edvel 1** at\u00e9 **45% no n\u00edvel 20 com Precis\u00e3o comprada** \u2014 nunca trava perto de 0% nem de 100%. Mas tem uma deriva real: **o feiti\u00e7o come\u00e7a fraco e termina forte**. No n\u00edvel 1 o inimigo resiste na maior parte das vezes (75%); no n\u00edvel 20 ele passa a falhar na maior parte das vezes (45\u201355%). Isso n\u00e3o \u00e9 bug, \u00e9 consequ\u00eancia direta de voc\u00ea ter dado \u00e0 CD um ritmo de crescimento (+0,5/n\u00edvel) mais r\u00e1pido que o do b\u00f4nus de resist\u00eancia que voc\u00ea mesmo definiu (+0,32/n\u00edvel em m\u00e9dia). Se isso \u00e9 o que voc\u00ea quer \u2014 \u00e1rea ficando proporcionalmente mais confi\u00e1vel conforme o jogo avan\u00e7a \u2014 os n\u00fameros j\u00e1 fazem isso. Se voc\u00ea queria uma rela\u00e7\u00e3o est\u00e1vel do n\u00edvel 1 ao 20, falta b\u00f4nus no topo (ver se\u00e7\u00e3o \"em aberto\").\n\n**Trocar pra 3d6 muda muito, e muda de um jeito espec\u00edfico.** N\u00e3o \u00e9 s\u00f3 \"a curva fica mais concentrada\" \u2014 o efeito principal \u00e9 que a melhoria Precis\u00e3o (e qualquer outro +1 fixo na CD) deixa de valer sempre a mesma coisa. No d20 ela vale exatamente 10 pontos percentuais em qualquer n\u00edvel. No 3d6 ela vale **11,6pp no n\u00edvel 1 e 25pp no n\u00edvel 20** \u2014 mais que o dobro, sem voc\u00ea ter mudado uma v\u00edrgula da regra. E como seus alvos de rolagem (CD menos b\u00f4nus) ficam quase todos entre 6 e 12 \u2014 bem em cima da m\u00e9dia de 3d6, que \u00e9 10,5 \u2014 o sistema inteiro passa a operar exatamente na regi\u00e3o onde a curva de sino \u00e9 mais sens\u00edvel a qualquer ajuste de n\u00famero.\n\n## O contrato usado (e o que eu assumi)\n\nDa sua descri\u00e7\u00e3o, tomei como fixo:\n\n```\nCD(n\u00edvel) = 8 + metade do n\u00edvel do conjurador  [+2 se comprou Precis\u00e3o]\nB\u00f4nus de resist\u00eancia do inimigo = +2 no n\u00edvel 1, +8 no n\u00edvel 20\nResistiu \u2192 metade do dano \u00b7 Falhou \u2192 dano cheio\n```\n\nTr\u00eas coisas voc\u00ea n\u00e3o especificou e eu precisei assumir para rodar a conta. Nenhuma delas muda a conclus\u00e3o (testei as alternativas, ver \"Robustez\" no fim), mas est\u00e3o listadas porque s\u00e3o premissa minha, n\u00e3o fato do seu sistema:\n\n1. **\"Metade do n\u00edvel\" arredonda pra baixo** (n\u00edvel 7 \u2192 +3, n\u00e3o +4). Testei com arredondamento pra cima tamb\u00e9m: a curva desloca 1 ponto em alguns n\u00edveis \u00edmpares, a deriva geral n\u00e3o muda.\n2. **O b\u00f4nus de resist\u00eancia cresce linearmente entre +2 e +8** ao longo dos 19 n\u00edveis intermedi\u00e1rios, j\u00e1 que voc\u00ea s\u00f3 me deu as duas pontas. Testei arredondando pra cima, pra baixo e pro mais pr\u00f3ximo \u2014 nos dois extremos (n\u00edvel 1 e n\u00edvel 20) todas batem exatamente com os seus n\u00fameros; no meio, a forma da curva balan\u00e7a um pouco, mas a tend\u00eancia geral (queda) \u00e9 a mesma nas tr\u00eas.\n3. **An\u00e1lise \"no n\u00edvel\"**: conjurador n\u00edvel L contra inimigo padr\u00e3o do mesmo n\u00edvel L, que \u00e9 a leitura natural de \"os inimigos t\u00eam b\u00f4nus de +2 no n\u00edvel 1 subindo pra +8 no n\u00edvel 20\" \u2014 lido como a r\u00e9gua de dificuldade padr\u00e3o daquele n\u00edvel. Casos fora da curva (chefe alto n\u00edvel de \u00e1rea contra mob fraco, ou o inverso) comento \u00e0 parte mais abaixo, porque o padr\u00e3o muda de figura.\n4. **Sem regra de \"1 natural falha / 20 natural passa\"** no teste, porque voc\u00ea n\u00e3o mencionou nenhuma. Se o seu sistema tiver isso, ela achata as pontas (nunca 0% nem 100% cravado) \u2014 n\u00e3o muda nada no miolo da tabela, que \u00e9 onde est\u00e1 o problema real.\n\n## O que acontece hoje, no d20\n\nChance do **inimigo passar** (resistir e tomar s\u00f3 metade do dano), n\u00edvel a n\u00edvel:\n\n### Sem a melhoria Precis\u00e3o\n\n| N\u00edvel | B\u00f4nus resist. | CD | Alvo no dado | Chance de passar (d20) |\n|---:|---:|---:|---:|---:|\n| 1  | +2 | 8  | 6  | 75,0% |\n| 2  | +2 | 9  | 7  | 70,0% |\n| 4  | +3 | 10 | 7  | 70,0% |\n| 6  | +4 | 11 | 7  | 70,0% |\n| 8  | +4 | 12 | 8  | 65,0% |\n| 10 | +5 | 13 | 8  | 65,0% |\n| 12 | +5 | 14 | 9  | 60,0% |\n| 14 | +6 | 15 | 9  | 60,0% |\n| 16 | +7 | 16 | 9  | 60,0% |\n| 18 | +7 | 17 | 10 | 55,0% |\n| 20 | +8 | 18 | 10 | 55,0% |\n\n### Com a melhoria Precis\u00e3o\n\n| N\u00edvel | B\u00f4nus resist. | CD | Alvo no dado | Chance de passar (d20) |\n|---:|---:|---:|---:|---:|\n| 1  | +2 | 10 | 8  | 65,0% |\n| 2  | +2 | 11 | 9  | 60,0% |\n| 4  | +3 | 12 | 9  | 60,0% |\n| 6  | +4 | 13 | 9  | 60,0% |\n| 8  | +4 | 14 | 10 | 55,0% |\n| 10 | +5 | 15 | 10 | 55,0% |\n| 12 | +5 | 16 | 11 | 50,0% |\n| 14 | +6 | 17 | 11 | 50,0% |\n| 16 | +7 | 18 | 11 | 50,0% |\n| 18 | +7 | 19 | 12 | 45,0% |\n| 20 | +8 | 20 | 12 | 45,0% |\n\n(Tabela completa n\u00edvel a n\u00edvel, incluindo os \u00edmpares, est\u00e1 na sa\u00edda do script.)\n\n**Leitura:** em nenhum ponto da progress\u00e3o o inimigo passa \"sempre\" (nunca chega a 90%) nem falha \"sempre\" (nunca cai abaixo de 45%). O sistema est\u00e1 dentro de uma faixa saud\u00e1vel em qualquer n\u00edvel isolado. O que existe \u00e9 uma **deriva de 20 pontos percentuais** entre o n\u00edvel 1 e o n\u00edvel 20 (75%\u219255% sem Precis\u00e3o, 65%\u219245% com Precis\u00e3o) \u2014 o inimigo perde exatamente 20pp de chance de resistir ao longo de toda a progress\u00e3o, com ou sem a melhoria. A melhoria Precis\u00e3o, por sua vez, tem uma propriedade limpa no d20: **vale sempre 10 pontos percentuais, em qualquer n\u00edvel**. Isso \u00e9 assim porque no d20 cada +1 de CD vale exatamente 5pp, sempre \u2014 \u00e9 a curva ser achatada (chance uniforme em cada face) que garante isso.\n\nA causa da deriva \u00e9 aritm\u00e9tica simples: sua CD sobe **meio ponto por n\u00edvel** (10 pontos ao longo de 19 n\u00edveis, de +0 a +10 de b\u00f4nus de n\u00edvel). O b\u00f4nus de resist\u00eancia que voc\u00ea definiu sobe **cerca de 0,32 por n\u00edvel** (6 pontos ao longo dos mesmos 19 n\u00edveis, de +2 a +8). A CD anda mais r\u00e1pido que a resist\u00eancia, e a diferen\u00e7a se acumula: por isso a \u00e1rea come\u00e7a \"fraca contra resist\u00eancia\" e termina \"forte contra resist\u00eancia\".\n\n## Isso \u00e9 bom?\n\nDepende do que voc\u00ea quer que aconte\u00e7a entre o n\u00edvel 1 e o n\u00edvel 20, e isso \u00e9 decis\u00e3o sua, n\u00e3o teve como eu calcular:\n\n- **Se a inten\u00e7\u00e3o \u00e9 a \u00e1rea ficar proporcionalmente mais confi\u00e1vel conforme o jogo avan\u00e7a** (por exemplo, para compensar vida de monstro crescendo mais que o dano de alvo \u00fanico, ou para dar identidade a essa escola de magia em n\u00edveis altos), os n\u00fameros atuais j\u00e1 fazem exatamente isso, de forma suave e sem estourar nenhum extremo. N\u00e3o precisa mexer em nada.\n- **Se a inten\u00e7\u00e3o era uma rela\u00e7\u00e3o est\u00e1vel** \u2014 o inimigo t\u00edpico resistindo com a mesma frequ\u00eancia no n\u00edvel 1 e no n\u00edvel 20 \u2014, falta b\u00f4nus de resist\u00eancia no topo. Pra travar a chance de passar em 75% (o valor do n\u00edvel 1) tamb\u00e9m no n\u00edvel 20, o b\u00f4nus de resist\u00eancia no n\u00edvel 20 precisaria ficar perto de **+11 ou +12**, n\u00e3o +8. Ou seja: seus dois n\u00fameros publicados (+2 e +8) *descrevem* uma deriva de 20pp; se voc\u00ea n\u00e3o quer a deriva, o n\u00famero a mexer \u00e9 o teto do b\u00f4nus de resist\u00eancia, n\u00e3o a f\u00f3rmula da CD (mexer na f\u00f3rmula da CD provavelmente derruba outras contas do sistema que dependem dela).\n\nNenhuma das duas \u00e9 \"errada\" \u2014 mas hoje, do jeito que os dois n\u00fameros est\u00e3o escritos, a deriva existe e provavelmente n\u00e3o foi escolhida de prop\u00f3sito (raramente \u00e9, \u00e9 o tipo de coisa que s\u00f3 aparece quando algu\u00e9m roda a tabela inteira, que \u00e9 o que fiz aqui).\n\n## E se trocar d20 por 3d6?\n\n**Muda muito \u2014 mais do que \"a curva fica mais concentrada\".** O efeito que importa pra voc\u00ea \u00e9 este: com a mesma f\u00f3rmula de CD e o mesmo b\u00f4nus de resist\u00eancia, os alvos que o inimigo precisa tirar no dado (CD \u2212 b\u00f4nus) ficam quase todos entre **6 e 12** ao longo da progress\u00e3o inteira. Em 3d6 (intervalo 3\u201318, m\u00e9dia 10,5), essa faixa cai bem em cima do miolo da curva de sino \u2014 exatamente onde ela \u00e9 mais alta e mais inclinada. \u00c9 a pior faixa poss\u00edvel pra trocar de dado sem reajustar os n\u00fameros.\n\n### Mesma tabela, agora comparando os dois dados\n\n| N\u00edvel | Alvo (sem Precis\u00e3o) | Passa no d20 | Passa no 3d6 | Alvo (com Precis\u00e3o) | Passa no d20 | Passa no 3d6 |\n|---:|---:|---:|---:|---:|---:|---:|\n| 1  | 6  | 75,0% | **95,4%** | 8  | 65,0% | **83,8%** |\n| 8  | 8  | 65,0% | **83,8%** | 10 | 55,0% | **62,5%** |\n| 12 | 9  | 60,0% | **74,1%** | 11 | 50,0% | **50,0%** |\n| 18 | 10 | 55,0% | **62,5%** | 12 | 45,0% | **37,5%** |\n| 20 | 10 | 55,0% | **62,5%** | 12 | 45,0% | **37,5%** |\n\nDois efeitos aparecem juntos:\n\n**1. No n\u00edvel 1, a \u00e1rea fica quase in\u00fatil.** 95,4% de chance do inimigo resistir (contra 75% no d20) \u00e9 essencialmente \"o feiti\u00e7o quase nunca faz dano cheio\" \u2014 o extremo que voc\u00ea estava preocupado que acontecesse no d20 acaba acontecendo no 3d6, s\u00f3 que embaixo, n\u00e3o em cima.\n\n**2. No n\u00edvel 20 com Precis\u00e3o, a \u00e1rea fica bem mais forte que no d20.** 37,5% de chance de resistir (contra 45% no d20) significa que o inimigo toma dano cheio quase 2 em cada 3 vezes.\n\n**3. A melhoria Precis\u00e3o passa a valer mais conforme o personagem sobe de n\u00edvel \u2014 sem nenhuma mudan\u00e7a de regra.** No d20 ela vale 10pp sempre. No 3d6:\n\n| N\u00edvel | Precis\u00e3o vale (d20) | Precis\u00e3o vale (3d6) |\n|---:|---:|---:|\n| 1  | 10,0pp | 11,6pp |\n| 8  | 10,0pp | 21,3pp |\n| 12 | 10,0pp | 24,1pp |\n| 20 | 10,0pp | 25,0pp |\n\nA melhoria mais que dobra de valor entre o n\u00edvel 1 e o n\u00edvel 20, puramente porque o alvo necess\u00e1rio se aproxima da m\u00e9dia da curva conforme o n\u00edvel sobe. \u00c9 a mesma melhoria, o mesmo custo, e um efeito real bem diferente dependendo de quando ela foi comprada.\n\n**Por que isso acontece \u2014 o mecanismo, n\u00e3o s\u00f3 o sintoma:** o valor de +1 na CD, em pontos percentuais de falha do inimigo, \u00e9 constante no d20 (5pp, em qualquer alvo) e varia forte no 3d6 conforme o alvo:\n\n| Alvo necess\u00e1rio | +1 de CD vale (d20) | +1 de CD vale (3d6) |\n|---:|---:|---:|\n| 6  | 5,00pp | 2,78pp |\n| 8  | 5,00pp | 6,94pp |\n| 10 | 5,00pp | 11,57pp |\n| 11 | 5,00pp | 12,50pp (pico) |\n| 12 | 5,00pp | 12,50pp |\n| 14 | 5,00pp | 9,72pp |\n\nNo d20, todo ponto de CD vale o mesmo, sempre \u2014 \u00e9 por isso que Precis\u00e3o \u00e9 \"s\u00f3 +10pp\" em qualquer n\u00edvel hoje. No 3d6, um ponto de CD vale at\u00e9 **4,5x mais** perto do meio da curva (alvo 11) do que na ponta (alvo 6). Como sua progress\u00e3o de n\u00edveis empurra o alvo necess\u00e1rio de 6 pra 12 exatamente ao longo do jogo, voc\u00ea estaria literalmente caminhando na dire\u00e7\u00e3o de m\u00e1xima sensibilidade da curva conforme os personagens sobem de n\u00edvel. Isso \u00e9 o oposto do d20, onde n\u00e3o importa aonde voc\u00ea est\u00e1 na tabela \u2014 o efeito de qualquer b\u00f4nus \u00e9 sempre o mesmo.\n\nIsso tamb\u00e9m aparece na vari\u00e2ncia bruta dos dados: o d20 tem desvio-padr\u00e3o 5,77 (achatado, resultado individual muito mais imprevis\u00edvel rodada a rodada) contra 2,96 do 3d6 (concentrado). Parece que 3d6 seria \"menos aleat\u00f3rio\" e mais f\u00e1cil de prever \u2014 e \u00e9, rolagem a rolagem \u2014 mas o pre\u00e7o disso \u00e9 que os *modificadores fixos* (CD, b\u00f4nus de resist\u00eancia, a pr\u00f3pria Precis\u00e3o) deixam de ter valor previs\u00edvel: o mesmo +1 significa coisas muito diferentes dependendo de onde a partida em quest\u00e3o cai na curva.\n\n**Nota lateral sobre confrontos fora do n\u00edvel** (chefe de n\u00edvel alto usando a \u00e1rea contra mob fraco, ou o inverso): a mesma l\u00f3gica empurra os casos extremos pra ainda mais extremos no 3d6. Um chefe n\u00edvel 20 (CD 18\u201320) de \u00e1rea contra um mob n\u00edvel 1 (b\u00f4nus +2) j\u00e1 resiste pouco no d20 (15\u201325%); no 3d6 isso desaba pra 0,5\u20134,6% \u2014 a \u00e1rea de chefe se torna quase imposs\u00edvel de resistir. No sentido inverso, conjurador n\u00edvel 1 contra monstro n\u00edvel 20 (b\u00f4nus +8): o monstro j\u00e1 resistia quase sempre no d20 (95\u2013100%) e no 3d6 fica cravado em 100% nos dois casos. N\u00e3o chamaria isso de errado \u2014 provavelmente \u00e9 o comportamento que voc\u00ea quer contra alvos muito fora de n\u00edvel \u2014 mas \u00e9 bom saber que 3d6 acentua esse efeito, n\u00e3o suaviza.\n\n**Conclus\u00e3o pr\u00e1tica:** trocar o dado sem reajustar a f\u00f3rmula da CD n\u00e3o \u00e9 uma troca neutra. Se voc\u00ea migrar pra 3d6, os n\u00fameros de CD e b\u00f4nus de resist\u00eancia precisam ser redesenhados pensando na curva de sino (provavelmente com uma faixa de alvos mais estreita e deslocada, e com o crescimento por n\u00edvel recalibrado), e n\u00e3o apenas copiados do sistema em d20.\n\n## O que continua verdadeiro\n\n- Em nenhum n\u00edvel, com nenhum dos dois dados, o teste trava em 0% ou 100% dentro do uso normal (conjurador e inimigo do mesmo n\u00edvel) \u2014 os dois pontos que voc\u00ea me deu (+2 no n\u00edvel 1, +8 no n\u00edvel 20) conferem exatamente com o modelo.\n- No d20, a melhoria Precis\u00e3o tem valor constante (10pp) em qualquer n\u00edvel \u2014 essa \u00e9 uma propriedade boa e vale preservar se voc\u00ea mantiver d20.\n- A conclus\u00e3o de que \"a chance de passar cai com o n\u00edvel\" e de que \"3d6 amplifica esse efeito\" se mant\u00e9m em todas as varia\u00e7\u00f5es de arredondamento testadas (metade de n\u00edvel pra cima/pra baixo, interpola\u00e7\u00e3o de b\u00f4nus pra cima/pra baixo/mais pr\u00f3ximo) \u2014 n\u00e3o \u00e9 artefato da minha premissa de interpola\u00e7\u00e3o, \u00e9 estrutural.\n\n## O que fica em aberto\n\n- **A deriva de 20pp entre n\u00edvel 1 e n\u00edvel 20 no d20 \u00e9 intencional?** Se n\u00e3o for, o ajuste mais direto \u00e9 levar o b\u00f4nus de resist\u00eancia no n\u00edvel 20 pra perto de +11/+12 em vez de +8 (mantendo a CD como est\u00e1), ou redistribuir o crescimento do b\u00f4nus pra acompanhar +0,5/n\u00edvel em vez de +0,32/n\u00edvel.\n- **Se migrar pra 3d6 continua na mesa**, os n\u00fameros de CD e resist\u00eancia precisam de uma segunda rodada de calibra\u00e7\u00e3o pensada pro 3d6 \u2014 n\u00e3o vale copiar a f\u00f3rmula do d20 e s\u00f3 trocar o dado, porque o n\u00edvel 1 vira quase-imune (95,4%) e o n\u00edvel 20 com Precis\u00e3o vira bem mais letal (37,5%) do que o equivalente em d20.\n- N\u00e3o testei aqui como essa curva interage com o dano m\u00e9dio do feiti\u00e7o (quanto pesa, em dano esperado por rodada, passar de 55% pra 45% de resist\u00eancia) \u2014 se voc\u00ea quiser, \u00e9 s\u00f3 passar os n\u00fameros de dano do feiti\u00e7o que eu rodo essa conta tamb\u00e9m.\n\n## Nota metodol\u00f3gica\n\nScript: `curva_teste_resistencia.py`, na mesma pasta desta resposta. Usa `soma()` e `p_ao_menos()` de `dados.py` (distribui\u00e7\u00e3o exata de 3d6 por enumera\u00e7\u00e3o, sem Monte Carlo) e replica a mesma l\u00f3gica pro d20 em forma fechada. Roda sozinho (`python3 curva_teste_resistencia.py`) e imprime: o contrato, a varredura n\u00edvel a n\u00edvel para os dois dados e os dois estados de Precis\u00e3o, o valor marginal da melhoria por n\u00edvel, uma checagem de robustez contra 4 combina\u00e7\u00f5es de arredondamento, e a regress\u00e3o contra os dois n\u00fameros que voc\u00ea publicou (+2 no n\u00edvel 1, +8 no n\u00edvel 20) \u2014 os dois batem exatamente.\n"}], "grading": {"expectations": [{"text": "Escreve e executa codigo em vez de estimar", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Usa distribuicao exata e diz isso (nao Monte Carlo)", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Da a taxa de sucesso nivel a nivel, nao so nas pontas", "passed": false, "evidence": "padrao ausente em todas as saidas desta execucao"}, {"text": "Compara d20 e 3d6 com numeros dos dois lados", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Quantifica quanto a melhoria Precisao vale em cada mecanica", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Declara contrato de invariantes ou faz regressao contra os numeros dados", "passed": true, "evidence": "padrao encontrado nas saidas"}], "summary": {"passed": 5, "failed": 1, "total": 6, "pass_rate": 0.833}, "timing": {"total_duration_seconds": 488.2}, "condicao_rotulo": "COM SKILL \u2014 leu o SKILL.md e os arquivos de apoio", "ressalva": "assercoes post-hoc, correcao automatica por padrao de texto"}}, {"id": "eval-1-curva-teste-resistencia-without_skill", "prompt": "Meu sistema usa d20. Um feitico de area faz o alvo rolar Teste de Resistencia. A CD e 8 + metade do nivel + 2 se comprou Precisao. Inimigos tem +2 no nivel 1 subindo pra +8 no nivel 20. Isso fica bom ou os inimigos vao passar sempre? E se eu trocar pra 3d6?", "eval_id": 1, "outputs": [{"name": "resposta.md", "type": "text", "content": "# Curva do Teste de Resist\u00eancia: d20 x 3d6\n\n## Resposta direta\n\nCom os n\u00fameros que voc\u00ea passou, o d20 n\u00e3o faz os inimigos passarem sempre. A chance de resist\u00eancia deles fica numa faixa saud\u00e1vel, entre 45% e 75%, dependendo do n\u00edvel do conjurador e de ele ter comprado Precis\u00e3o ou n\u00e3o. N\u00e3o existe nenhum ponto da progress\u00e3o em que o resultado vira \"garantido\" ou \"imposs\u00edvel\" para nenhum dos dois lados.\n\nTrocar para 3d6 muda bastante, e n\u00e3o \u00e9 uma troca neutra. Se voc\u00ea portar os mesmos n\u00fameros da f\u00f3rmula sem ajustar nada, o problema que voc\u00ea est\u00e1 com medo de ter (inimigo resistindo sempre) piora justamente nos n\u00edveis baixos: a chance de resist\u00eancia no n\u00edvel 1 vai de 75% (d20) para 95% (3d6). Trocar o dado exige redesenhar a curva de n\u00fameros, n\u00e3o s\u00f3 trocar \"d20\" por \"3d6\" no texto da regra.\n\nA conta completa est\u00e1 abaixo.\n\n## Premissas usadas nesta an\u00e1lise\n\n- \"Metade do n\u00edvel do conjurador\" = n\u00edvel dividido por 2, arredondado para baixo. Se voc\u00ea arredondar para cima, os n\u00fameros mudam no m\u00e1ximo 1 ponto em n\u00edveis \u00edmpares \u2014 n\u00e3o muda nenhuma conclus\u00e3o.\n- B\u00f4nus de resist\u00eancia do inimigo: voc\u00ea deu as pontas (+2 no n\u00edvel 1, +8 no n\u00edvel 20); como n\u00e3o tenho a progress\u00e3o exata dos n\u00edveis do meio, interpolei de forma linear entre essas duas pontas. Isso n\u00e3o compromete a conclus\u00e3o principal, que depende s\u00f3 das pontas \u2014 se a progress\u00e3o real for \"em degraus\", pode ter pequenos solavancos no meio, mas a tend\u00eancia geral (CD subindo mais r\u00e1pido que a resist\u00eancia) se mant\u00e9m.\n- Comparei conjurador de n\u00edvel X contra inimigo \"padr\u00e3o\" desse mesmo n\u00edvel (encontro parelho). Se o inimigo for de n\u00edvel diferente, \u00e9 s\u00f3 recalcular trocando o b\u00f4nus dele.\n- N\u00e3o assumi regra de \"1 natural sempre falha / 20 natural sempre passa\". Se seu sistema tiver isso, ela trava o d20 entre 5% e 95%; no 3d6 o efeito equivalente seria rar\u00edssimo (ver se\u00e7\u00e3o 5).\n\n## 1. A conta no d20\n\nA chance de o inimigo resistir \u00e9 sempre:\n\nchance = (21 \u2212 n\u00famero necess\u00e1rio) / 20, onde n\u00famero necess\u00e1rio = CD \u2212 b\u00f4nus de resist\u00eancia do inimigo.\n\nO d20 \u00e9 uma distribui\u00e7\u00e3o uniforme (cada face vale exatamente 5% de chance), ent\u00e3o cada ponto de diferen\u00e7a entre CD e b\u00f4nus vale sempre 5 pontos percentuais, n\u00e3o importa se \u00e9 no n\u00edvel 1 ou no n\u00edvel 20.\n\n## 2. A curva n\u00edvel a n\u00edvel (d20)\n\nSem Precis\u00e3o:\n\n| N\u00edvel | CD | B\u00f4nus do inimigo | N\u00famero necess\u00e1rio | Chance de resistir |\n|---|---|---|---|---|\n| 1 | 8 | +2 | 6 | 75% |\n| 5 | 10 | +3 | 7 | 70% |\n| 10 | 13 | +5 | 8 | 65% |\n| 15 | 15 | +6 | 9 | 60% |\n| 20 | 18 | +8 | 10 | 55% |\n\nCom Precis\u00e3o (CD +2):\n\n| N\u00edvel | CD | B\u00f4nus do inimigo | N\u00famero necess\u00e1rio | Chance de resistir |\n|---|---|---|---|---|\n| 1 | 10 | +2 | 8 | 65% |\n| 5 | 12 | +3 | 9 | 60% |\n| 10 | 15 | +5 | 10 | 55% |\n| 15 | 17 | +6 | 11 | 50% |\n| 20 | 20 | +8 | 12 | 45% |\n\n## 3. Por que isso n\u00e3o vira \"sempre passa\"\n\nDuas coisas seguram a curva:\n\nPrimeiro, a CD cresce mais r\u00e1pido que a resist\u00eancia dos inimigos. A CD sobe 1 ponto a cada 2 n\u00edveis (metade do n\u00edvel), ent\u00e3o do n\u00edvel 1 ao 20 ela sobe uns 10 pontos. O b\u00f4nus de resist\u00eancia dos inimigos sobe s\u00f3 6 pontos no total (de +2 para +8) no mesmo intervalo. Essa diferen\u00e7a de ritmo abre uma vantagem de uns 4 pontos para o conjurador ao longo da progress\u00e3o, o que tira 20 pontos percentuais da chance de resist\u00eancia do inimigo (75% \u2192 55% sem Precis\u00e3o, 65% \u2192 45% com Precis\u00e3o). \u00c9 uma escolha de design comum e razo\u00e1vel: o conjurador fica proporcionalmente mais preciso conforme sobe de n\u00edvel, ent\u00e3o a magia de \u00e1rea \"amadurece\" junto com o personagem.\n\nSegundo, a Precis\u00e3o tem impacto fixo e previs\u00edvel. Como o d20 \u00e9 linear, +2 na CD sempre vale exatamente 10 pontos percentuais a menos de chance de resist\u00eancia do inimigo, seja no n\u00edvel 1 ou no n\u00edvel 20 (compare as duas tabelas: a diferen\u00e7a entre elas \u00e9 sempre exatamente 10%). Isso \u00e9 uma propriedade boa do d20 \u2014 o jogador sabe exatamente o que est\u00e1 comprando ao pegar Precis\u00e3o, em qualquer n\u00edvel.\n\nNo fim das contas, a faixa fica entre 45% e 75% de chance de resist\u00eancia do inimigo, nunca perto de 0% nem de 100%. \u00c9 uma curva bem comportada, sem degraus nem extremos.\n\n## 4. Pontos de aten\u00e7\u00e3o (n\u00e3o s\u00e3o erros, s\u00e3o escolhas de design)\n\n- N\u00edvel 1 sem Precis\u00e3o, 75% de resist\u00eancia, \u00e9 o ponto mais fraco para o conjurador: a magia de \u00e1rea vai causar metade do dano na maioria das vezes bem cedo no jogo. Se isso incomodar na mesa, d\u00e1 para subir a CD base (de 8 para 9) ou reduzir um pouco o b\u00f4nus de resist\u00eancia inicial dos inimigos.\n- N\u00edvel 20 com Precis\u00e3o, 45% de resist\u00eancia, inverte o favorito: o inimigo passa a falhar mais do que acertar o teste. Isso parece ser exatamente o efeito que Precis\u00e3o deveria ter (um upgrade que faz o inimigo sofrer mais), ent\u00e3o provavelmente est\u00e1 certo \u2014 s\u00f3 vale confirmar que essa \u00e9 a fantasia que voc\u00ea quer entregar para quem investe nela.\n- Se a progress\u00e3o real do b\u00f4nus de resist\u00eancia dos inimigos n\u00e3o for linear (por exemplo, se ela saltar de +2 para +4 j\u00e1 no n\u00edvel 5), vale reconferir os n\u00edveis de transi\u00e7\u00e3o: pode existir um n\u00edvel espec\u00edfico em que o n\u00famero necess\u00e1rio cai de repente e cria um degrau de dificuldade que os dados acima n\u00e3o capturam.\n\n## 5. E se trocar para 3d6?\n\nAqui est\u00e1 o ponto central: 3d6 e d20 t\u00eam exatamente a mesma m\u00e9dia (10,5), mas desvios-padr\u00e3o bem diferentes:\n\n- d20: desvio-padr\u00e3o aproximadamente 5,77\n- 3d6: desvio-padr\u00e3o aproximadamente 2,96 (quase metade do d20)\n\nIsso significa que o 3d6 \u00e9 uma curva de sino apertada em volta de 10 e 11, enquanto o d20 \u00e9 uma reta (cada valor de 1 a 20 tem exatamente a mesma chance de sair). Na pr\u00e1tica, isso muda o peso de cada modificador dependendo de onde o n\u00famero necess\u00e1rio cai:\n\n- Se o n\u00famero necess\u00e1rio est\u00e1 abaixo da m\u00e9dia (menos de 10-11), no 3d6 fica muito mais f\u00e1cil de bater do que no d20, porque a curva de sino empilha a maior parte da probabilidade logo acima da m\u00e9dia.\n- Se est\u00e1 acima da m\u00e9dia, no 3d6 fica muito mais dif\u00edcil de bater do que no d20, porque a probabilidade despenca r\u00e1pido perto dos extremos (3 e 18).\n- S\u00f3 perto do meio (n\u00famero necess\u00e1rio 10 ou 11) os dois dados d\u00e3o resultados parecidos.\n\n### Comparando com os mesmos n\u00fameros da sua f\u00f3rmula\n\nSem Precis\u00e3o:\n\n| N\u00edvel | N\u00famero necess\u00e1rio | Chance de resistir (d20) | Chance de resistir (3d6) |\n|---|---|---|---|\n| 1 | 6 | 75% | 95% |\n| 5 | 7 | 70% | 91% |\n| 10 | 8 | 65% | 84% |\n| 15 | 9 | 60% | 74% |\n| 20 | 10 | 55% | 62,5% |\n\nCom Precis\u00e3o:\n\n| N\u00edvel | N\u00famero necess\u00e1rio | Chance de resistir (d20) | Chance de resistir (3d6) |\n|---|---|---|---|\n| 1 | 8 | 65% | 84% |\n| 5 | 9 | 60% | 74% |\n| 10 | 10 | 55% | 62,5% |\n| 15 | 11 | 50% | 50% |\n| 20 | 12 | 45% | 37,5% |\n\nRepare no padr\u00e3o: como os n\u00fameros necess\u00e1rios da sua f\u00f3rmula (6 a 12) ficam, na maioria dos casos, abaixo ou bem perto da m\u00e9dia do 3d6 (10,5), portar a f\u00f3rmula direto para 3d6 empurra a chance de resist\u00eancia do inimigo para cima em quase todos os n\u00edveis \u2014 o oposto do que voc\u00ea quer se est\u00e1 preocupado com \"inimigo passando sempre\". O caso mais extremo \u00e9 o n\u00edvel 1 sem Precis\u00e3o: 75% no d20 vira 95% no 3d6.\n\nA exce\u00e7\u00e3o fica na ponta mais alta da progress\u00e3o: no n\u00edvel 15 com Precis\u00e3o os dois dados empatam em 50% (o n\u00famero necess\u00e1rio, 11, cai bem no meio da curva dos dois), e s\u00f3 no n\u00edvel 20 com Precis\u00e3o o 3d6 passa a favorecer mais o conjurador do que o d20 (37,5% contra 45% de chance de resist\u00eancia), porque a\u00ed o n\u00famero necess\u00e1rio (12) j\u00e1 passou da m\u00e9dia e a curva de sino faz esse valor ficar raro de superar.\n\n### Outro efeito colateral: extremos ficam rar\u00edssimos\n\nSe seu sistema usa regra de \"1 natural = falha autom\u00e1tica\" ou \"20 natural = sucesso autom\u00e1tico\" em Testes de Resist\u00eancia, esse tipo de efeito praticamente desaparece no 3d6: tirar o valor m\u00ednimo (3, ou seja, 1-1-1) ou o m\u00e1ximo (18, ou seja, 6-6-6) tem s\u00f3 1 chance em 216 (aproximadamente 0,46%) cada, contra 5% no d20. Se seu sistema depende desse tipo de regra em Testes de Resist\u00eancia, o 3d6 sozinho j\u00e1 muda esse comportamento, mesmo sem mexer em mais nada.\n\n## 6. Se for migrar para 3d6 mesmo assim\n\nN\u00e3o d\u00e1 para s\u00f3 trocar \"role 1d20\" por \"role 3d6\" no texto da regra e manter os mesmos n\u00fameros. Algumas ideias caso decida seguir por esse caminho:\n\n- Redesenhe a f\u00f3rmula pensando em 10-11 como o centro \"cara ou coroa\", em vez de pensar em \"cada ponto vale 5%\" \u2014 isso s\u00f3 \u00e9 verdade perto do centro no 3d6; nas pontas vale muito menos.\n- Considere encolher os modificadores. Como cada ponto pesa quase o dobro perto do meio no 3d6 (por causa do desvio-padr\u00e3o menor), uma escala de \"metade do n\u00edvel\" pode ficar exagerada. Muitos sistemas baseados em 3d6 (como GURPS) usam modificadores bem menores, tipicamente entre -4 e +4, exatamente por causa disso.\n- Aceite que o jogo vai ficar mais \"decisivo\" nas pontas (quando um lado j\u00e1 est\u00e1 favorecido, o resultado vira quase garantido) e mais sens\u00edvel no meio (qualquer +1 perto do 50/50 pesa muito mais do que pesava no d20). \u00c9 uma mudan\u00e7a de sensa\u00e7\u00e3o de jogo, n\u00e3o s\u00f3 de matem\u00e1tica.\n\n## Resumo\n\n- d20 com os n\u00fameros atuais: est\u00e1 bem calibrado. A chance de resist\u00eancia do inimigo fica entre 45% e 75%, sem extremos, e Precis\u00e3o vale sempre exatamente 10 pontos percentuais em qualquer n\u00edvel.\n- N\u00e3o, os inimigos n\u00e3o v\u00e3o passar sempre. O ponto mais generoso para eles \u00e9 justamente n\u00edvel 1 sem Precis\u00e3o (75%), e mesmo assim est\u00e1 longe de \"sempre\".\n- 3d6 muda muito, e n\u00e3o \u00e9 uma troca neutra. Tem a mesma m\u00e9dia do d20 (10,5), mas desvio-padr\u00e3o quase pela metade. Com os n\u00fameros atuais da sua f\u00f3rmula, a troca pioraria o problema que voc\u00ea teme nos n\u00edveis baixos (75% \u2192 95% de resist\u00eancia no n\u00edvel 1) e s\u00f3 favoreceria mais o conjurador nos n\u00edveis mais altos com Precis\u00e3o.\n- Se for para 3d6, trate como um redesenho da curva de dificuldade, n\u00e3o como uma simples troca de dado.\n"}], "grading": {"expectations": [{"text": "Escreve e executa codigo em vez de estimar", "passed": false, "evidence": "padrao ausente em todas as saidas desta execucao"}, {"text": "Usa distribuicao exata e diz isso (nao Monte Carlo)", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Da a taxa de sucesso nivel a nivel, nao so nas pontas", "passed": false, "evidence": "padrao ausente em todas as saidas desta execucao"}, {"text": "Compara d20 e 3d6 com numeros dos dois lados", "passed": false, "evidence": "padrao ausente em todas as saidas desta execucao"}, {"text": "Quantifica quanto a melhoria Precisao vale em cada mecanica", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Declara contrato de invariantes ou faz regressao contra os numeros dados", "passed": false, "evidence": "padrao ausente em todas as saidas desta execucao"}], "summary": {"passed": 2, "failed": 4, "total": 6, "pass_rate": 0.333}, "timing": {"total_duration_seconds": 503.5}, "condicao_rotulo": "BASELINE MORNA \u2014 sem skill, mas com acesso a pasta do projeto (leu o dossie da Fase 1)", "ressalva": "assercoes post-hoc, correcao automatica por padrao de texto"}}, {"id": "eval-2-revisar-texto-de-regra-with_skill", "prompt": "Revisa esse trecho do meu manual pra ficar acessivel pra quem nunca jogou RPG: [trecho CONDICOES em linguagem de contrato]", "eval_id": 2, "outputs": [{"name": "resposta.md", "type": "text", "content": "# Condi\u00e7\u00f5es \u2014 texto revisado\n\n## Condi\u00e7\u00f5es\n\n*Consulta: volte aqui sempre que um feiti\u00e7o aplicar, remover ou gerar d\u00favida sobre uma condi\u00e7\u00e3o.*\n\nUma **condi\u00e7\u00e3o** \u00e9 um efeito tempor\u00e1rio que um feiti\u00e7o imp\u00f5e a um alvo, atrapalhando o que ele consegue fazer at\u00e9 passar.\n\n**Uma condi\u00e7\u00e3o dura at\u00e9 o final do pr\u00f3ximo turno do alvo** (a pr\u00f3xima vez que ele agir).\n\n*Isso vale a n\u00e3o ser que o pr\u00f3prio feiti\u00e7o diga um prazo diferente.*\n\nPara aplicar qualquer condi\u00e7\u00e3o desta lista, voc\u00ea precisa ter a Melhoria de mesmo nome \u2014 a que se compra na ficha do personagem. O custo dela depende da categoria da condi\u00e7\u00e3o:\n\n| Categoria | Custo da Melhoria | Condi\u00e7\u00f5es |\n|---|---|---|\n| Menor | M\u00e9dio | Derrubado, Lento, Cego, Agarrado, Surdo e Desarmado |\n| Maior | Pesado | Atordoado, Paralisado, Amedrontado e Enfeiti\u00e7ado |\n\n> Exemplo: Nobara tem a Melhoria Derrubado \u2014 Condi\u00e7\u00e3o Menor, custo M\u00e9dio. Ela acerta um feiti\u00e7o que aplica Derrubado num oponente. Ele cai e fica Derrubado at\u00e9 o final do pr\u00f3ximo turno *dele*, n\u00e3o do turno de Nobara.\n\n**Um alvo imune a uma condi\u00e7\u00e3o nunca fica com ela.** O resto do efeito do feiti\u00e7o \u2014 dano, por exemplo \u2014 continua valendo normalmente; s\u00f3 a condi\u00e7\u00e3o n\u00e3o pega.\n\n**Dois efeitos de Controle do mesmo feiti\u00e7o n\u00e3o se somam num efeito mais forte.** Condi\u00e7\u00e3o \u00e9 o tipo mais comum de efeito de Controle: se o feiti\u00e7o de Nobara tamb\u00e9m deixasse o oponente Lento, Derrubado e Lento continuam sendo dois efeitos separados, cada um valendo sozinho.\n\n---\n\n## O que mudou e por qu\u00ea\n\n**1. Abertura sem defini\u00e7\u00e3o \u2192 defini\u00e7\u00e3o na primeira linha**\n\nAntes: *(nada \u2014 o texto ia direto para \"salvo disposi\u00e7\u00e3o em contr\u00e1rio\")*\nDepois: \"Uma condi\u00e7\u00e3o \u00e9 um efeito tempor\u00e1rio que um feiti\u00e7o imp\u00f5e a um alvo, atrapalhando o que ele consegue fazer at\u00e9 passar.\"\nConserta: o trecho usava \"condi\u00e7\u00e3o\" desde o t\u00edtulo sem nunca dizer o que \u00e9. Quem nunca jogou n\u00e3o tem base nenhuma pra adivinhar.\n\n**2. Exce\u00e7\u00e3o antes da regra**\n\nAntes: \"Salvo disposi\u00e7\u00e3o em contr\u00e1rio, condi\u00e7\u00f5es impostas por feiti\u00e7os persistem at\u00e9 o final do pr\u00f3ximo turno do alvo.\"\nDepois: \"Uma condi\u00e7\u00e3o dura at\u00e9 o final do pr\u00f3ximo turno do alvo. *Isso vale a n\u00e3o ser que o pr\u00f3prio feiti\u00e7o diga um prazo diferente.*\"\nConserta: o leitor precisava guardar uma exce\u00e7\u00e3o na cabe\u00e7a antes de saber a que regra ela se aplicava. Agora o caso comum vem primeiro e em destaque; a exce\u00e7\u00e3o vem depois e em it\u00e1lico.\n\n**3. Dez condi\u00e7\u00f5es em prosa \u2192 tabela**\n\nAntes: \"Condi\u00e7\u00f5es Menores incluem Derrubado, Lento, Cego, Agarrado, Surdo e Desarmado, sendo que a aplica\u00e7\u00e3o de uma Condi\u00e7\u00e3o Menor requer a aquisi\u00e7\u00e3o da Melhoria hom\u00f4nima, de custo M\u00e9dio. Condi\u00e7\u00f5es Maiores, de custo Pesado, compreendem Atordoado, Paralisado, Amedrontado e Enfeiti\u00e7ado.\"\nDepois: tabela de duas linhas (Categoria / Custo da Melhoria / Condi\u00e7\u00f5es).\nConserta: dez itens paralelos amontoados em prosa s\u00e3o um teste de mem\u00f3ria. Numa tabela, achar \"quanto custa Cego\" \u00e9 uma consulta de tr\u00eas segundos, n\u00e3o uma releitura do par\u00e1grafo inteiro.\n\n**4. Linguagem de contrato \u2192 linguagem falada**\n\nAntes: \"a aplica\u00e7\u00e3o... requer a aquisi\u00e7\u00e3o da Melhoria hom\u00f4nima\" / \"compreendem\" / \"imunidade \u00e0 mesma\" / \"n\u00e3o s\u00e3o cumulativos entre si.\"\nDepois: \"voc\u00ea precisa ter a Melhoria de mesmo nome\" / tabela / \"imune a uma condi\u00e7\u00e3o\" / \"n\u00e3o se somam.\"\nConserta: \"aquisi\u00e7\u00e3o,\" \"hom\u00f4nima,\" \"compreendem\" e \"\u00e0 mesma\" s\u00e3o palavras de contrato. Ningu\u00e9m explica uma regra assim numa mesa de jogo.\n\n**5. Nenhum exemplo \u2192 um exemplo com nome e decis\u00e3o**\n\nAntes: *(o trecho original n\u00e3o tinha exemplo)*\nDepois: par\u00e1grafo com Nobara, mostrando a Melhoria, o custo, de quem \u00e9 o turno que conta pra dura\u00e7\u00e3o, e reaproveitado depois para explicar n\u00e3o cumulatividade.\nConserta: as regras apareciam s\u00f3 como afirma\u00e7\u00e3o abstrata. O exemplo mostra a regra de dura\u00e7\u00e3o e a de n\u00e3o-soma funcionando dentro de uma cena de verdade.\n\n**6. Regra da imunidade sem responder a pergunta \u00f3bvia**\n\nAntes: \"Nenhuma condi\u00e7\u00e3o pode ser aplicada a um alvo que possua imunidade \u00e0 mesma.\"\nDepois: \"Um alvo imune a uma condi\u00e7\u00e3o nunca fica com ela. O resto do efeito do feiti\u00e7o \u2014 dano, por exemplo \u2014 continua valendo normalmente; s\u00f3 a condi\u00e7\u00e3o n\u00e3o pega.\"\nConserta: a frase original deixa no ar a d\u00favida mais \u00f3bvia de quem l\u00ea \u2014 \"e o resto do feiti\u00e7o, falha junto?\". A resposta j\u00e1 estava impl\u00edcita na regra; s\u00f3 precisava ser dita.\n\n---\n\n## Pontos para voc\u00ea confirmar\n\n- **\"Efeitos de Controle\" e \"condi\u00e7\u00e3o\" s\u00e3o a mesma coisa?** O trecho original abre com \"Condi\u00e7\u00f5es\" no t\u00edtulo e, na \u00faltima frase, muda pra \"efeitos de Controle\" sem nunca explicar a rela\u00e7\u00e3o entre os dois nomes. Mantive os dois termos e escrevi \"Condi\u00e7\u00e3o \u00e9 o tipo mais comum de efeito de Controle\" como ponte \u2014 mas isso \u00e9 uma suposi\u00e7\u00e3o minha, n\u00e3o algo que o trecho confirma. Se forem sin\u00f4nimos, unifique num nome s\u00f3. Se \"Controle\" for uma categoria maior (por exemplo, incluir empurrar/puxar, que n\u00e3o aparece nesta lista), vale abrir isso numa frase pr\u00f3pria na primeira vez que \"Controle\" aparecer no manual \u2014 porque hoje nenhuma das duas hip\u00f3teses est\u00e1 escrita em lugar nenhum.\n- **O que cada condi\u00e7\u00e3o faz continua faltando.** Este trecho define categoria, custo e regras gerais, mas n\u00e3o diz o que \"Derrubado\" ou \"Cego\" fazem mecanicamente \u2014 s\u00f3 o nome. Se isso j\u00e1 est\u00e1 definido em outra parte do manual, confira se essa outra parte tamb\u00e9m tem exemplo e linguagem em segunda pessoa. Se n\u00e3o est\u00e1, esse \u00e9 o pr\u00f3ximo trecho a revisar, e \u00e9 o mais importante dos dois: sem ele, ningu\u00e9m novo sabe o que de fato acontece quando algu\u00e9m fica \"Derrubado.\"\n- **Padronizei \"condi\u00e7\u00e3o\" com inicial mai\u00fascula.** O original tinha \"condi\u00e7\u00f5es\" min\u00fasculo na primeira frase e \"Condi\u00e7\u00f5es Menores/Maiores\" mai\u00fasculo depois. Deixei mai\u00fasculo sempre, igual a \"Melhoria,\" pra n\u00e3o parecer que s\u00e3o coisas diferentes.\n- **Pressupus que \"turno\" e \"Melhoria\" j\u00e1 foram definidos antes deste cap\u00edtulo** (na explica\u00e7\u00e3o de como o jogo funciona e na de cria\u00e7\u00e3o de personagem). Se este for o primeiro contato do leitor com esses termos, os dois precisam de defini\u00e7\u00e3o completa aqui, n\u00e3o s\u00f3 do lembrete entre par\u00eanteses que deixei.\n"}], "grading": {"expectations": [{"text": "Entrega o texto reescrito, nao so conselhos sobre ele", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Define 'condicao' antes de usar o termo", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Poe o caso padrao antes da excecao", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Converte a lista de condicoes em tabela", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Inclui exemplo jogavel concreto", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Lista o que mudou e por que cada mudanca conserta algo", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Sinaliza problema do original que NAO e de redacao (lacuna de regra)", "passed": true, "evidence": "padrao encontrado nas saidas"}], "summary": {"passed": 7, "failed": 0, "total": 7, "pass_rate": 1.0}, "timing": {"total_duration_seconds": 428.1}, "condicao_rotulo": "COM SKILL \u2014 leu o SKILL.md e os arquivos de apoio", "ressalva": "assercoes post-hoc, correcao automatica por padrao de texto"}}, {"id": "eval-2-revisar-texto-de-regra-without_skill", "prompt": "Revisa esse trecho do meu manual pra ficar acessivel pra quem nunca jogou RPG: [trecho CONDICOES em linguagem de contrato]", "eval_id": 2, "outputs": [{"name": "resposta.md", "type": "text", "content": "# Revis\u00e3o: CONDI\u00c7\u00d5ES (vers\u00e3o acess\u00edvel)\n\nReescrevi o trecho trocando os termos t\u00e9cnicos por explica\u00e7\u00f5es diretas e acrescentei exemplos onde a regra ficava abstrata demais. As mec\u00e2nicas \u2014 prazos, custos, listas de condi\u00e7\u00f5es e as restri\u00e7\u00f5es \u2014 continuam exatamente as mesmas do original; s\u00f3 a forma de explicar mudou.\n\n## Texto revisado\n\n### CONDI\u00c7\u00d5ES\n\n*Uma Condi\u00e7\u00e3o \u00e9 um problema tempor\u00e1rio que um feiti\u00e7o causa em algu\u00e9m \u2014 por exemplo, deixar a pessoa cega ou derrubada no ch\u00e3o. As regras abaixo valem para todas as Condi\u00e7\u00f5es do jogo; o que cada uma faz na pr\u00e1tica est\u00e1 descrito onde ela \u00e9 apresentada.*\n\n**Dura\u00e7\u00e3o:** se o feiti\u00e7o n\u00e3o disser o contr\u00e1rio, a Condi\u00e7\u00e3o dura at\u00e9 o final do pr\u00f3ximo turno de quem foi atingido. (\"Turno\" \u00e9 a vez que cada personagem tem para agir durante uma luta \u2014 os personagens se revezam agindo, um de cada vez.)\n\n> Exemplo: a Ana lan\u00e7a um feiti\u00e7o que Cega o Bruno durante o turno dela. O Bruno continua cego durante o turno seguinte, que \u00e9 o dele, e s\u00f3 volta a enxergar quando esse turno termina.\n\n**Condi\u00e7\u00f5es Menores:** Derrubado, Lento, Cego, Agarrado, Surdo e Desarmado.\nPara o seu personagem conseguir causar uma dessas Condi\u00e7\u00f5es, ele precisa antes comprar a Melhoria de mesmo nome (Melhorias s\u00e3o as habilidades extras que voc\u00ea compra para o personagem conforme ele evolui). Por exemplo, s\u00f3 d\u00e1 para deixar algu\u00e9m Lento se voc\u00ea tiver comprado a Melhoria \"Lento\". Cada uma dessas Melhorias tem custo **M\u00e9dio**.\n\n**Condi\u00e7\u00f5es Maiores:** Atordoado, Paralisado, Amedrontado e Enfeiti\u00e7ado.\nFuncionam do mesmo jeito \u2014 tamb\u00e9m exigem comprar a Melhoria correspondente antes de poder aplic\u00e1-las \u2014, mas por serem mais fortes que as Menores, custam mais: custo **Pesado**.\n\n**Imunidade:** um alvo imune a uma Condi\u00e7\u00e3o simplesmente n\u00e3o \u00e9 afetado por ela, n\u00e3o importa quantas vezes o feiti\u00e7o seja usado.\n\n> Exemplo: se o Bruno \u00e9 imune a Medo, nenhum feiti\u00e7o consegue deix\u00e1-lo Amedrontado.\n\n**Sem ac\u00famulo:** se um \u00fanico feiti\u00e7o causaria mais de uma vez o mesmo efeito de Condi\u00e7\u00e3o (tamb\u00e9m chamado de \"efeito de Controle\") sobre o mesmo alvo, esse efeito n\u00e3o se soma. Ou seja, um feiti\u00e7o n\u00e3o pode empilhar a pr\u00f3pria Condi\u00e7\u00e3o em cima de si mesma para durar mais tempo ou ficar mais forte.\n\n## O que eu mudei e por qu\u00ea\n\n- **Expliquei \"turno\", \"Melhoria\" e \"efeito de Controle\" na primeira vez em que aparecem** \u2014 no original, esses termos eram usados como se o leitor j\u00e1 soubesse o que significam.\n- **Troquei palavras formais por linguagem direta**: \"hom\u00f4nima\" virou \"de mesmo nome\", \"compreendem\" virou \"s\u00e3o\". Esse tipo de palavra \u00e9 comum em regulamento, mas pesa demais pra quem est\u00e1 lendo o primeiro manual de RPG da vida.\n- **Deixei expl\u00edcito que as Condi\u00e7\u00f5es Maiores tamb\u00e9m exigem comprar a Melhoria correspondente** \u2014 no original isso s\u00f3 era dito claramente para as Menores, e ficava subentendido (f\u00e1cil de passar batido) para as Maiores.\n- **Adicionei tr\u00eas exemplos curtos** (dura\u00e7\u00e3o, imunidade, ac\u00famulo) \u2014 regra abstrata sem exemplo \u00e9 o que mais confunde quem nunca jogou.\n- **Separei o par\u00e1grafo \u00fanico em blocos com destaque em negrito**, para dar pontos de apoio visuais a quem est\u00e1 lendo pela primeira vez, em vez de exigir que a pessoa processe tudo de uma vez.\n- **N\u00e3o alterei nenhuma regra**: prazos, custos, as seis Condi\u00e7\u00f5es Menores, as quatro Maiores, e as duas restri\u00e7\u00f5es finais (imunidade e n\u00e3o cumulatividade) s\u00e3o id\u00eanticos ao original.\n"}], "grading": {"expectations": [{"text": "Entrega o texto reescrito, nao so conselhos sobre ele", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Define 'condicao' antes de usar o termo", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Poe o caso padrao antes da excecao", "passed": false, "evidence": "padrao ausente em todas as saidas desta execucao"}, {"text": "Converte a lista de condicoes em tabela", "passed": false, "evidence": "padrao ausente em todas as saidas desta execucao"}, {"text": "Inclui exemplo jogavel concreto", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Lista o que mudou e por que cada mudanca conserta algo", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Sinaliza problema do original que NAO e de redacao (lacuna de regra)", "passed": false, "evidence": "padrao ausente em todas as saidas desta execucao"}], "summary": {"passed": 4, "failed": 3, "total": 7, "pass_rate": 0.571}, "timing": {"total_duration_seconds": 286.1}, "condicao_rotulo": "BASELINE MORNA \u2014 sem skill, mas com acesso a pasta do projeto (leu o dossie da Fase 1)", "ressalva": "assercoes post-hoc, correcao automatica por padrao de texto"}}, {"id": "eval-3-montar-leva-de-playtest-with_skill", "prompt": "Meu server de RPG tem entre 5 e 7 mestres ativos, e toda semana 2 ou 3 deles rodam mesa em dias diferentes. Os personagens sao persistentes. Quero testar a primeira versao do sistema de combate. Como eu organizo isso?", "eval_id": 3, "outputs": [{"name": "casos-sonda-combate.md", "type": "text", "content": "# Casos-sonda \u2014 combate v0.1\n\nMandar individualmente, por DM, pra todos os mestres ativos da Guilda \u2014 inclusive quem n\u00e3o estiver escalado pra rodar mesa nessas duas semanas. N\u00e3o precisa de sess\u00e3o pra responder; \u00e9 a \u00fanica pe\u00e7a deste bloco que n\u00e3o depende da agenda de ningu\u00e9m.\n\n**Regras de envio:**\n\n- Separado. Se dois mestres conversarem antes de responder, voc\u00ea mediu a conversa, n\u00e3o a regra.\n- N\u00e3o avise que \u00e9 teste de consist\u00eancia.\n- Pe\u00e7a a decis\u00e3o e o trecho em que se apoiaram \u2014 n\u00e3o a opini\u00e3o sobre a regra.\n- Prazo curto (48h), resposta no impulso, sem pesquisar.\n- Mande no dia em que o bloco abrir, antes das primeiras mesas de combate rodarem. Quanto mais tarde, maior a chance de todo mundo j\u00e1 ter trocado ideia sobre esses casos sem querer.\n\n## Modelo de envio\n\n> Cinco situa\u00e7\u00f5es r\u00e1pidas de combate. Responde do jeito que voc\u00ea resolveria na sua mesa, no impulso \u2014 n\u00e3o precisa pesquisar. Depois de cada uma, escreve em que voc\u00ea se apoiou (pode ser \"achei que fazia sentido\").\n>\n> **1.** Duas Condi\u00e7\u00f5es diferentes foram aplicadas no mesmo personagem em turnos diferentes da mesma cena, cada uma valendo \"at\u00e9 o final do pr\u00f3ximo turno dele\". Quando cada uma cai?\n>\n> **2.** Um alvo que j\u00e1 est\u00e1 com a Condi\u00e7\u00e3o Derrubado recebe Derrubado de novo, de uma fonte diferente, antes da primeira ter passado. O que acontece?\n>\n> **3.** Um jogador quer gastar energia amaldi\u00e7oada pra melhorar a pr\u00f3pria rolagem depois de ver o dado, mas antes de voc\u00ea dizer se acertou. Vale?\n>\n> **4.** Uma t\u00e9cnica que atinge todo mundo num raio pega tamb\u00e9m um aliado que estava dentro da \u00e1rea. O efeito vale nele do mesmo jeito que no inimigo?\n>\n> **5.** Um jogador descreve usar a t\u00e9cnica inata dele de um jeito que a ficha n\u00e3o previu \u2014 n\u00e3o pra causar dano, mas pra resolver a cena de outra forma (mobilidade, controle, o que fizer sentido pro poder dele). Vale? Qual \u00e9 o pre\u00e7o, e quem decide?\n\n*Condi\u00e7\u00e3o, energia amaldi\u00e7oada e t\u00e9cnica inata s\u00e3o os termos j\u00e1 em uso no material do projeto. Troque pelo nome exato que a v0.1 do combate usa, se algum tiver mudado antes do envio.*\n\n## Como ler o que voltar\n\n| O que aconteceu | O que significa | O conserto |\n|---|---|---|\n| Todos decidiram igual, mesma \u00e2ncora | A regra est\u00e1 clara | nada |\n| Todos decidiram igual, \u00e2ncoras diferentes | Regra espalhada; funciona por acaso ou por cultura da Guilda | juntar num lugar s\u00f3 |\n| Decis\u00f5es diferentes | Regra amb\u00edgua | reescrever, n\u00e3o s\u00f3 esclarecer no Discord |\n| Algu\u00e9m n\u00e3o achou onde se apoiar | Lacuna, ou problema de navega\u00e7\u00e3o | conferir se a regra existe antes de escrever de novo |\n| Todos decidiram igual e todos erraram | A regra existe e diz outra coisa | falha de reda\u00e7\u00e3o \u2014 o texto n\u00e3o est\u00e1 sendo lido como escrito |\n\nA \u00faltima linha \u00e9 a mais desconfort\u00e1vel e a mais \u00fatil: quando todo mundo converge numa leitura que n\u00e3o \u00e9 a escrita, a leitura deles costuma ser a intuitiva \u2014 considere mudar a regra em vez de tentar corrigir o costume.\n\n## Frequ\u00eancia\n\nUma leva agora, no in\u00edcio do bloco de combate. E de novo se alguma dessas cinco regras for reescrita por causa do que voltar \u2014 a corre\u00e7\u00e3o precisa ser verificada, n\u00e3o presumida.\n"}, {"name": "formulario-combate.md", "type": "text", "content": "# Formul\u00e1rio de retorno \u2014 Bloco: combate (v0.1)\n\nMandar depois de cada sess\u00e3o que envolveu combate nessas duas semanas \u2014 n\u00e3o esperar o fim do bloco. Lembran\u00e7a de \"onde eu travei\" estraga em poucos dias; o ideal \u00e9 responder em at\u00e9 48h da mesa.\n\n---\n\n## Jogador\n\n> **Bloco de teste:** combate \u00b7 **Vers\u00e3o:** v0.1 \u00b7 **Mestre:** [nome] \u00b7 **Data da sess\u00e3o:** [data]\n> Tr\u00eas a cinco minutos. Pode ser cru \u2014 resposta educada n\u00e3o ajuda ningu\u00e9m.\n\n1. **Em que momento voc\u00ea n\u00e3o soube o que fazer?**\n   Pode ser regra, ficha ou fic\u00e7\u00e3o. Se n\u00e3o aconteceu, escreva \"n\u00e3o aconteceu\".\n2. **Teve alguma hora em que voc\u00ea quis fazer uma coisa e a regra n\u00e3o deixou?**\n   Descreva o que voc\u00ea queria fazer, n\u00e3o o que a regra deveria ser.\n3. **Se voc\u00ea pudesse apagar uma regra da sess\u00e3o de hoje, qual seria?**\n4. **Voc\u00ea tomou alguma decis\u00e3o dif\u00edcil hoje? Qual?**\n   Dif\u00edcil no bom sentido: duas op\u00e7\u00f5es boas, ou uma boa com pre\u00e7o.\n5. **Alguma coisa aconteceu diferente do que voc\u00ea esperava?**\n6. **De 1 a 5, quanto voc\u00ea entendeu do que estava acontecendo mecanicamente?**\n   1 = eu s\u00f3 rolava o que mandavam \u00b7 5 = eu conseguiria explicar pra outra pessoa\n\n**Combate:**\n\n7. Em que rodada o combate come\u00e7ou a ficar repetitivo? (ou \"n\u00e3o ficou\")\n8. Voc\u00ea teve mais de uma op\u00e7\u00e3o real de a\u00e7\u00e3o por turno, ou uma \u00f3bvia e o resto decorativo?\n9. Quanto tempo voc\u00ea passou esperando a sua vez?\n10. Voc\u00ea sentiu que podia perder? Em que momento?\n\n**Extra deste bloco** (personagem persistente):\n\n11. Esse personagem jogou combate em outra mesa, com outro mestre, nessas duas semanas? Alguma regra foi tratada diferente entre as duas mesas?\n\n---\n\n## Mestre (curta, sempre)\n\n> Dois minutos. \u00c9 a parte que mais muda o sistema.\n\n1. **Quantas vezes voc\u00ea parou a mesa pra consultar o material?**\n2. **Quantas vezes voc\u00ea decidiu no chute porque n\u00e3o achou a regra?**\n   Liste os casos, mesmo que r\u00e1pido.\n3. **Voc\u00ea preparou essa sess\u00e3o em quanto tempo?**\n4. **Teve alguma decis\u00e3o que voc\u00ea tomou e ficou em d\u00favida se outro mestre teria decidido igual?**\n   Esta \u00e9 a pergunta mais valiosa do formul\u00e1rio inteiro.\n5. **Alguma proposta de jogador que voc\u00ea recusou?** O que era, e em que voc\u00ea se apoiou pra recusar?\n6. **Voc\u00ea estava jogando ou administrando planilha?**\n\n**Extra deste bloco** (personagem persistente):\n\n7. Voc\u00ea herdou, nessa sess\u00e3o, um personagem que rodou combate na mesa de outro mestre recentemente? Teve alguma decis\u00e3o anterior dele que voc\u00ea teria chamado diferente?\n\n---\n\n## O que fazer com o resultado\n\nAntes de decidir qualquer coisa, passe cada resposta por tr\u00eas colunas:\n\n| O que a pessoa sentiu | O que ela acha que causou | O que ela prop\u00f4s |\n|---|---|---|\n\nA primeira coluna \u00e9 dado confi\u00e1vel. A segunda \u00e9 hip\u00f3tese e vale investigar. A terceira quase sempre se descarta. Depois, agrupe por tend\u00eancia \u2014 um coment\u00e1rio isolado se anota e se guarda; tr\u00eas pessoas dizendo a mesma coisa por caminhos diferentes \u00e9 um problema real. Prioridade e o resto do processo est\u00e3o em `resposta.md`.\n"}, {"name": "resposta.md", "type": "text", "content": "# Bloco de playtest \u2014 combate v0.1\n\n**Contexto:** cinco a sete mestres ativos na Guilda, duas ou tr\u00eas mesas por semana em dias diferentes, personagem persistente circulando entre mestres.\n\nN\u00e3o monte uma sess\u00e3o de teste especial. Use as mesas que j\u00e1 v\u00e3o rodar nas pr\u00f3ximas duas semanas, anuncie pros mestres que \"essas duas semanas \u00e9 s\u00f3 combate\", congele o texto da v0.1 pro bloco inteiro, e cubra os dois buracos que uma semana normal de jogo n\u00e3o fecha sozinha: caso-sonda mandado pra todo o quadro de mestres sem depender de quem est\u00e1 escalado pra rodar, e formul\u00e1rio recolhido em at\u00e9 48h de cada sess\u00e3o \u2014 n\u00e3o empilhado pro fim do bloco. O resto deste documento \u00e9 a l\u00f3gica de cada pe\u00e7a, mais o material pronto pra mandar: `formulario-combate.md` e `casos-sonda-combate.md`, salvos junto com esta resposta.\n\n## Calend\u00e1rio\n\n| Quando | O que roda | O que voc\u00ea faz |\n|---|---|---|\n| Antes de abrir o bloco | \u2014 | Anuncia o tema pra todos os mestres; congela o texto da v0.1; manda os casos-sonda individualmente, por DM, prazo de 48h |\n| Semana 1 | duas ou tr\u00eas mesas, dias diferentes | Cada mestre preenche a vers\u00e3o dele (2 min) em at\u00e9 48h da sess\u00e3o; jogadores recebem o formul\u00e1rio de combate na mesma janela |\n| Entre as semanas | \u2014 | Voc\u00ea l\u00ea o que voltou e aplica s\u00f3 o que travou jogo ou fez dois mestres decidirem diferente \u2014 o resto espera |\n| Semana 2 | as mesas restantes, priorizando quem ficou de fora na semana 1 | mesma coleta |\n| Depois da semana 2 | \u2014 | Compara rodada 1 com rodada 2; se o retorno novo secou, fecha a v0.1 de combate; se n\u00e3o secou, isso vira um segundo bloco de combate mais adiante \u2014 n\u00e3o uma terceira semana for\u00e7ada agora |\n\n## O gargalo \u00e9 mestre, n\u00e3o jogador\n\nEm termos de est\u00e1gio, isso funde interno e ampliado numa coisa s\u00f3: n\u00e3o sobra uma rede maior fora da Guilda pra guardar pra depois, a Guilda inteira \u00e9 a sua amostra. E dentro dela, o lado jogador n\u00e3o \u00e9 o problema \u2014 com v\u00e1rias pessoas por mesa e duas ou tr\u00eas mesas por semana, voc\u00ea passa longe dos cinco testadores que j\u00e1 pegam a maior parte dos problemas, e passa j\u00e1 na primeira semana, sem organizar nada especial pra isso. O lado escasso \u00e9 mestre: s\u00e3o no m\u00e1ximo sete, e a agenda normal s\u00f3 p\u00f5e dois ou tr\u00eas pra rodar a cada semana.\n\nSe a escala\u00e7\u00e3o for por acaso, os mesmos dois ou tr\u00eas mais dispon\u00edveis acabam rodando nas duas semanas do bloco e o resto do quadro nunca chega a testar a v0.1 na pr\u00e1tica \u2014 o pior resultado poss\u00edvel pra um sistema que precisa ser arbitrado igual por todo mundo, porque a pergunta mais importante deste bloco (dois mestres decidem o mesmo caso do mesmo jeito?) n\u00e3o tem resposta pra quem nunca rodou. A\u00e7\u00e3o concreta: quando abrir a escala\u00e7\u00e3o, cubra todo mundo de prop\u00f3sito \u2014 quem ficar de fora na semana 1 \u00e9 prioridade na semana 2, n\u00e3o quem j\u00e1 rodou.\n\nSe algum mestre nunca participou da escrita nem das conversas sobre o combate, vale reservar essa pessoa pra rodar sem explica\u00e7\u00e3o pr\u00e9via sua \u2014 chega mais perto de um teste cego de verdade do que qualquer mestre que j\u00e1 discutiu a regra com voc\u00ea. N\u00e3o force isso se ningu\u00e9m se encaixa: numa guilda desse tamanho \u00e9 prov\u00e1vel que todo mundo j\u00e1 tenha trocado ideia sobre o sistema, e for\u00e7ar uma ingenuidade que n\u00e3o existe mais s\u00f3 gasta capital social \u00e0 toa.\n\n## Cobertura n\u00e3o \u00e9 rodada\n\n**Cobertura** \u00e9 todo o quadro de mestres ter rodado combate com a v0.1 pelo menos uma vez \u2014 cabe dentro de duas semanas, desde que a escala\u00e7\u00e3o seja deliberada (se\u00e7\u00e3o anterior). **Rodada** \u00e9 o mesmo grupo sendo testado de novo depois de um conserto, pra ver se o conserto funcionou e n\u00e3o abriu problema novo \u2014 isso n\u00e3o cabe. Catorze dias d\u00e3o pra cobrir todo mundo uma vez cada e fazer uma corre\u00e7\u00e3o no meio do caminho, o que rende duas rodadas, n\u00e3o as tr\u00eas que o ciclo de playtest do projeto j\u00e1 fechou (dossi\u00ea de metodologia, se\u00e7\u00e3o 5): cinco pessoas, tr\u00eas rodadas, corre\u00e7\u00e3o entre elas.\n\nN\u00e3o force a terceira rodada dentro do bloco. Se a semana 2 ainda trouxer problema novo \u2014 n\u00e3o repeti\u00e7\u00e3o do que j\u00e1 apareceu na semana 1 \u2014 a resposta \u00e9 abrir um segundo bloco de combate mais adiante, n\u00e3o espremer mais uma rodada nos mesmos catorze dias. O sinal de parar continua o mesmo de sempre: quando o retorno de uma rodada s\u00f3 repete o da anterior, para.\n\n## Personagem persistente: dado de gra\u00e7a, n\u00e3o confus\u00e3o\n\nN\u00e3o tente neutralizar a circula\u00e7\u00e3o de personagem entre mestres pra \"isolar a vari\u00e1vel\" \u2014 \u00e9 exatamente a condi\u00e7\u00e3o que o sistema fechado precisa aguentar, e deixar acontecer durante o bloco testa a coisa certa. Ela tamb\u00e9m rende um dado que nem formul\u00e1rio nem caso-sonda produzem sozinhos: normalmente jogador nenhum serve de sensor de diverg\u00eancia entre mestres, porque s\u00f3 v\u00ea a pr\u00f3pria mesa. Aqui n\u00e3o \u2014 se o mesmo personagem roda combate com dois mestres diferentes dentro das duas semanas, esse jogador viu as duas arbitragens de perto, e o mestre que herdou o personagem \u00e0s vezes esbarra numa decis\u00e3o anterior que teria chamado diferente. As duas pontas ganharam uma pergunta extra s\u00f3 neste bloco, j\u00e1 inclu\u00edda em `formulario-combate.md`.\n\n## O que juntar, e quando\n\nVoc\u00ea n\u00e3o senta nas mesas espalhadas pelos dias da semana \u2014 nessas sess\u00f5es voc\u00ea est\u00e1 estruturalmente ausente, que \u00e9 a condi\u00e7\u00e3o mais dura e mais \u00fatil de playtest, e n\u00e3o precisa ser compensada explicando a regra ao vivo pro mestre antes dele rodar. Precisa ser compensada na coleta: quem observa a mesa no seu lugar \u00e9 o pr\u00f3prio mestre e os pr\u00f3prios jogadores, e a lembran\u00e7a de \"onde eu travei\" estraga em poucos dias.\n\n- **Formul\u00e1rio do jogador**, bloco combate \u2014 mandar depois de cada sess\u00e3o, n\u00e3o no fim das duas semanas.\n- **Vers\u00e3o do mestre**, curta, dois minutos \u2014 mesma urg\u00eancia. A pergunta que mais rende aqui \u00e9 \"teve alguma decis\u00e3o que voc\u00ea ficou em d\u00favida se outro mestre teria decidido igual?\" \u2014 a \u00fanica linha do formul\u00e1rio que aponta direto pro modo de falha que mais corr\u00f3i um sistema com v\u00e1rios mestres.\n- Se der, pe\u00e7a pro mestre gravar a parte de combate da sess\u00e3o. \u00c9 o substituto mais pr\u00f3ximo de voc\u00ea estar l\u00e1.\n\n## Casos-sonda: a pe\u00e7a que n\u00e3o depende de agenda\n\nFormul\u00e1rio e observa\u00e7\u00e3o dependem de algu\u00e9m ter rodado mesa naquela semana. Caso-sonda n\u00e3o \u2014 \u00e9 a \u00fanica ferramenta deste bloco que cobre todo o quadro de uma vez, sem depender da escala\u00e7\u00e3o, e pega o problema que jogador nenhum enxerga sozinho. Cinco situa\u00e7\u00f5es curtas, na fronteira da regra de combate, mandadas por DM, separadamente, pedindo a decis\u00e3o e o trecho em que se apoiaram \u2014 n\u00e3o a opini\u00e3o sobre a regra. Prazo de 48h, sem avisar que \u00e9 teste de consist\u00eancia, sem deixar comparar respostas antes de todo mundo ter respondido. Mande no dia em que o bloco abrir, antes das primeiras mesas de combate rodarem: quanto mais os mestres conversarem entre si sobre combate na v0.1 antes de responder, mais voc\u00ea mede a conversa da Guilda e menos mede o texto. As cinco situa\u00e7\u00f5es e o modelo de envio est\u00e3o em `casos-sonda-combate.md`.\n\n## Ler o que voltar\n\nSepare cada resposta em sentiu / achou que causou / prop\u00f4s antes de decidir qualquer coisa \u2014 s\u00f3 a primeira coluna \u00e9 dado confi\u00e1vel. Numa primeira vers\u00e3o de combate, duas categorias furam a fila na frente de \"foi chato\": a mesa travou sem saber o que fazer, e dois mestres \u2014 seja no caso-sonda, seja num personagem herdado \u2014 decidiram diferente. As duas corroem o sistema compartilhado mais r\u00e1pido do que qualquer regra s\u00f3 chata corr\u00f3i.\n\n## Fechar o bloco\n\nAntes de abrir o pr\u00f3ximo tema (progress\u00e3o), publique o que mudou por causa dessas duas semanas \u2014 mesmo que a resposta pra algum ponto seja \"n\u00e3o mudou, e o motivo foi X\". Numa guilda desse tamanho n\u00e3o sobra popula\u00e7\u00e3o pra absorver a queda de participa\u00e7\u00e3o que vem quando ningu\u00e9m v\u00ea a pr\u00f3pria resposta virar consequ\u00eancia: \u00e9 o tipo de erro que custa a leva inteira seguinte, n\u00e3o s\u00f3 um formul\u00e1rio a menos.\n"}], "grading": {"expectations": [{"text": "Propoe medir DIVERGENCIA entre mestres \u2014 a metrica propria do caso multi-mestre", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Estrutura a leva em bloco tematico com prazo definido", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Define o ciclo em numero de pessoas e rodadas", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Distingue o que perguntar ao mestre do que perguntar ao jogador", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Trata o risco especifico ao personagem persistente", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Entrega artefato pronto para usar como arquivo separado", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Diz quando PARAR de testar", "passed": true, "evidence": "padrao encontrado nas saidas"}], "summary": {"passed": 7, "failed": 0, "total": 7, "pass_rate": 1.0}, "timing": {"total_duration_seconds": 768.9}, "condicao_rotulo": "COM SKILL \u2014 leu o SKILL.md e os arquivos de apoio", "ressalva": "assercoes post-hoc, correcao automatica por padrao de texto"}}, {"id": "eval-3-montar-leva-de-playtest-without_skill_fria", "prompt": "Meu server de RPG tem entre 5 e 7 mestres ativos, e toda semana 2 ou 3 deles rodam mesa em dias diferentes. Os personagens sao persistentes. Quero testar a primeira versao do sistema de combate. Como eu organizo isso?", "eval_id": 3, "outputs": [{"name": "resposta.md", "type": "text", "content": "# Como organizar o teste da primeira vers\u00e3o do sistema de combate\n\nSeu cen\u00e1rio tem uma dificuldade que n\u00e3o \u00e9 sobre a mec\u00e2nica de combate em si, mas sobre **como testar qualquer coisa em uma estrutura descentralizada**: 5-7 mestres, sem uma mesa \"can\u00f4nica\" \u00fanica, com personagens que atravessam mesas diferentes carregando estado (HP, recursos, itens, condi\u00e7\u00f5es). Isso significa que um teste malfeito n\u00e3o fica contido \u2014 ele vaza para todas as mesas seguintes que aquele personagem visitar. Ent\u00e3o a organiza\u00e7\u00e3o do teste precisa resolver dois problemas ao mesmo tempo: **gerar dados compar\u00e1veis apesar de ter v\u00e1rias pessoas rodando a mesma regra de formas diferentes**, e **n\u00e3o deixar a instabilidade de uma v0.1 contaminar a continuidade persistente**.\n\nAbaixo vai uma estrutura para isso, do objetivo at\u00e9 o encerramento do ciclo.\n\n## 1. Defina o que voc\u00ea quer aprender antes de definir log\u00edstica\n\n\"Testar o sistema de combate\" \u00e9 vago demais para gerar feedback \u00fatil. Escreva de 3 a 5 perguntas concretas que o teste precisa responder, por exemplo:\n- Quanto tempo de mesa um combate m\u00e9dio consome?\n- Alguma classe/build est\u00e1 claramente dominante ou in\u00fatil?\n- A letalidade est\u00e1 no n\u00edvel certo (mata r\u00e1pido demais, devagar demais)?\n- As regras s\u00e3o claras o suficiente para um mestre resolver sem parar a mesa pra reler o documento?\n- Existe alguma intera\u00e7\u00e3o de regras que quebra ou trava o combate?\n\nEssas perguntas viram o roteiro do que voc\u00ea vai pedir de feedback depois de cada sess\u00e3o. Sem isso, voc\u00ea recebe s\u00f3 \"achei legal\" / \"achei ruim\", que n\u00e3o d\u00e1 pra agir em cima.\n\n## 2. Trave a vari\u00e1vel: s\u00f3 o combate muda, e muda igual pra todo mundo\n\nDurante a janela de teste, o resto do sistema (per\u00edcias, progress\u00e3o, narrativa) continua como est\u00e1. S\u00f3 a resolu\u00e7\u00e3o de combate \u00e9 a \"vers\u00e3o nova\". Isso evita misturar, no feedback, problemas que n\u00e3o s\u00e3o do combate.\n\nMais importante: a matem\u00e1tica do combate (dano, iniciativa, a\u00e7\u00f5es, dificuldade) precisa ser **id\u00eantica em todas as mesas**. O que pode variar de mestre pra mestre \u00e9 a moldura narrativa \u2014 que inimigo, que cen\u00e1rio, como descreve \u2014 n\u00e3o a mec\u00e2nica. Se cada um dos 5-7 mestres ajustar a regra \"no jeito dele\" no meio do teste, voc\u00ea n\u00e3o est\u00e1 testando um sistema, est\u00e1 testando sete variantes dele, e nenhum dado vira conclus\u00e3o.\n\n## 3. Proteja a continuidade dos personagens persistentes\n\nEsse \u00e9 o ponto mais arriscado do seu caso espec\u00edfico. Antes de abrir o teste:\n- **Backup/snapshot da ficha** de cada personagem que for entrar em combate testado, para poder reverter se algo sair muito errado.\n- **Regra de seguran\u00e7a combinada com anteced\u00eancia**: durante o per\u00edodo de teste, uma morte que claramente resultou de um bug ou de uma regra mal calibrada (n\u00e3o de uma m\u00e1 decis\u00e3o do jogador) pode ser revertida por consenso entre mestre e jogador, virando nocaute/derrota narrativa em vez de morte definitiva.\n- **Ficha como fonte \u00fanica de verdade, vis\u00edvel a todos os mestres**: como o mesmo personagem pode ir de uma mesa de segunda para uma de quinta com outro mestre, o segundo mestre precisa saber exatamente o que aconteceu na primeira sess\u00e3o (dano, recursos gastos, condi\u00e7\u00f5es) antes de come\u00e7ar. Isso j\u00e1 deveria existir independente do teste, mas durante o teste fica cr\u00edtico, porque o estado muda mais r\u00e1pido e de formas menos previs\u00edveis.\n- **Todos os mestres ativos rodando a mesma vers\u00e3o ao mesmo tempo.** N\u00e3o d\u00e1 pra ter ado\u00e7\u00e3o gradual por mestre (um usando v0.1, outro ainda no sistema antigo), porque o personagem circula entre eles \u2014 isso geraria inconsist\u00eancia de estado imediata.\n\n## 4. Uma vers\u00e3o, um documento, um \u00e1rbitro\n\nDistribua o documento da v0.1 para todos os mestres ao mesmo tempo, antes do in\u00edcio da semana de teste, com um n\u00famero de vers\u00e3o vis\u00edvel (v0.1) e, se poss\u00edvel, um changelog m\u00ednimo.\n\nAbra um canal fixo (uma thread ou canal s\u00f3 pra isso) para d\u00favida de regra durante a semana de teste. Designe uma pessoa \u2014 provavelmente voc\u00ea, como autor do sistema \u2014 como \u00e1rbitro final de interpreta\u00e7\u00e3o. Quando um mestre tiver uma d\u00favida amb\u00edgua em mesa, ele resolve do jeito que fizer sentido naquele momento (a mesa n\u00e3o pode travar esperando resposta), mas registra o caso no canal depois. Isso vira insumo pra pr\u00f3xima vers\u00e3o do documento e evita que a mesma ambiguidade seja resolvida de sete formas diferentes por sete mestres diferentes sem ningu\u00e9m perceber.\n\n## 5. Rollout em ondas, n\u00e3o simult\u00e2neo\n\nComo s\u00f3 2-3 mesas rodam por semana mesmo, use isso a seu favor em vez de tentar for\u00e7ar todos os 5-7 mestres a testar ao mesmo tempo:\n- **Onda 0 (piloto):** 1-2 mestres volunt\u00e1rios que conhecem bem o sistema (idealmente voc\u00ea e mais um) rodam combates de teste primeiro, de prefer\u00eancia com encontros controlados, pra pegar erros grosseiros e ambiguidades \u00f3bvias antes de expor o resto do grupo.\n- **Onda 1 em diante:** expande para os outros mestres j\u00e1 com os ajustes do piloto incorporados.\n\nIsso evita que 5-7 mesas batam no mesmo bug \u00f3bvio na mesma semana \u2014 o que for\u00e7aria voc\u00ea a revisar retroativamente decis\u00f5es tomadas em v\u00e1rias mesas ao mesmo tempo.\n\n## 6. Combates de refer\u00eancia, para poder comparar dados entre mesas diferentes\n\nCombates que surgem organicamente na narrativa de cada mestre s\u00e3o \u00f3timos pra testar em contexto real, mas s\u00e3o dif\u00edceis de comparar entre si (cada um tem inimigo, n\u00famero de personagens e circunst\u00e2ncia diferente). Vale preparar 2-4 \"encontros de refer\u00eancia\" padronizados (por exemplo: um combate 1x1 f\u00e1cil, uma escaramu\u00e7a em grupo, um combate mais dif\u00edcil tipo chefe) que qualquer mestre pode encaixar na pr\u00f3pria sess\u00e3o durante a semana de teste. Isso d\u00e1 pelo menos alguns pontos de dado compar\u00e1veis entre mesas, al\u00e9m dos combates org\u00e2nicos de cada hist\u00f3ria.\n\n## 7. Registro estruturado depois de cada combate testado\n\nComo as mesas acontecem em dias diferentes e voc\u00ea n\u00e3o est\u00e1 em todas, voc\u00ea depende de registro escrito, n\u00e3o de impress\u00e3o geral relembrada depois. Pe\u00e7a que cada mestre preencha, logo ap\u00f3s qualquer combate testado (formul\u00e1rio, planilha ou mensagem estruturada num canal \u2014 o formato importa menos que a consist\u00eancia):\n- Personagens envolvidos, n\u00edvel/build de cada um\n- Inimigo(s)/desafio enfrentado\n- N\u00famero de rounds at\u00e9 resolu\u00e7\u00e3o\n- Tempo real de mesa gasto no combate\n- O que travou, quebrou ou pareceu bugado\n- O que funcionou bem / foi divertido\n- Alguma a\u00e7\u00e3o, item ou build que dominou ou pareceu in\u00fatil\n- Observa\u00e7\u00e3o livre do mestre (e, se poss\u00edvel, uma linha de algum jogador)\n\n## 8. Sincroniza\u00e7\u00e3o ass\u00edncrona entre mesas\n\nN\u00e3o d\u00e1 pra reunir os 5-7 mestres ao vivo toda semana, ent\u00e3o o ciclo de feedback precisa ser majoritariamente ass\u00edncrono: voc\u00ea compila os registros do item 7 ao longo da semana e publica um resumo. Se conseguir emplacar uma call curta de retro no fim de cada semana de teste com quem puder comparecer, melhor \u2014 mas o resumo escrito \u00e9 o que garante que ningu\u00e9m fica de fora s\u00f3 por ter mesa num dia diferente.\n\n## 9. Dimensione a janela de teste\n\nUma \u00fanica semana com 2-3 mesas d\u00e1 poucos combates e pouca variedade de n\u00edvel/build de personagem pra tirar qualquer conclus\u00e3o confi\u00e1vel. Pense em um ciclo de 2-4 semanas antes de considerar a v1 \"fechada\", cobrindo personagens de n\u00edveis diferentes e situa\u00e7\u00f5es de combate variadas (duelo, grupo vs. grupo, combate contra um \u00fanico alvo forte, fuga/derrota).\n\nDefina de antem\u00e3o um crit\u00e9rio objetivo de sa\u00edda do teste \u2014 por exemplo: \"combate m\u00e9dio resolve dentro de X rounds\", \"nenhuma build claramente dominante ou in\u00fatil nos registros coletados\", \"nenhuma trava de regra sem solu\u00e7\u00e3o documentada\". Sem crit\u00e9rio definido, \u00e9 f\u00e1cil ficar em teste indefinidamente ou, no outro extremo, encerrar cedo demais.\n\n## 10. Comunique aos jogadores e deixe uma v\u00e1lvula de escape\n\nAvise explicitamente que aquela semana/per\u00edodo est\u00e1 com o combate em modo de teste, que as regras podem mudar depois, e que mortes ser\u00e3o tratadas com bom senso (item 3). Isso gerencia expectativa e evita frustra\u00e7\u00e3o de jogador que sentiu o personagem prejudicado por um bug e n\u00e3o por uma escolha ruim.\n\nD\u00ea tamb\u00e9m ao mestre a permiss\u00e3o expl\u00edcita de abandonar o sistema novo no meio de uma sess\u00e3o e resolver no bra\u00e7o (freeform ou pelo m\u00e9todo antigo, se houver um) se o combate travar de um jeito que ameace destruir a sess\u00e3o. \u00c9 melhor perder um ponto de dado do que perder a mesa inteira daquele dia.\n\n---\n\n## Checklist resumido\n\n1. Escrever 3-5 perguntas que o teste precisa responder.\n2. Fechar a v0.1 num documento \u00fanico, versionado, distribu\u00eddo a todos os mestres ao mesmo tempo.\n3. Backup das fichas + regra de seguran\u00e7a para mortes duvidosas durante o teste.\n4. Canal de d\u00favidas de regra com um \u00e1rbitro final designado.\n5. Rodar primeiro com 1-2 mestres volunt\u00e1rios (piloto) antes de abrir para os demais.\n6. Preparar 2-4 encontros de refer\u00eancia padronizados, al\u00e9m dos combates org\u00e2nicos.\n7. Formul\u00e1rio/registro padr\u00e3o preenchido ap\u00f3s cada combate testado.\n8. Resumo semanal compilado por voc\u00ea, j\u00e1 que as mesas n\u00e3o se cruzam ao vivo.\n9. Janela de teste de 2-4 semanas, com crit\u00e9rio objetivo de sa\u00edda definido antes de come\u00e7ar.\n10. Aviso claro aos jogadores de que \u00e9 uma vers\u00e3o de teste, com v\u00e1lvula de escape para o mestre abandonar a regra nova em caso de travamento s\u00e9rio.\n"}], "grading": {"expectations": [{"text": "Propoe medir DIVERGENCIA entre mestres \u2014 a metrica propria do caso multi-mestre", "passed": false, "evidence": "padrao ausente em todas as saidas desta execucao"}, {"text": "Estrutura a leva em bloco tematico com prazo definido", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Define o ciclo em numero de pessoas e rodadas", "passed": false, "evidence": "padrao ausente em todas as saidas desta execucao"}, {"text": "Distingue o que perguntar ao mestre do que perguntar ao jogador", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Trata o risco especifico ao personagem persistente", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Entrega artefato pronto para usar como arquivo separado", "passed": false, "evidence": "padrao ausente em todas as saidas desta execucao"}, {"text": "Diz quando PARAR de testar", "passed": false, "evidence": "padrao ausente em todas as saidas desta execucao"}], "summary": {"passed": 3, "failed": 4, "total": 7, "pass_rate": 0.429}, "timing": {"total_duration_seconds": 195.7}, "condicao_rotulo": "BASELINE FRIA \u2014 sem skill e SEM acesso a pasta do projeto. Ambiente isolado, sem vazamento verificado.", "ressalva": "assercoes post-hoc, correcao automatica por padrao de texto"}}, {"id": "eval-3-montar-leva-de-playtest-without_skill_morna", "prompt": "Meu server de RPG tem entre 5 e 7 mestres ativos, e toda semana 2 ou 3 deles rodam mesa em dias diferentes. Os personagens sao persistentes. Quero testar a primeira versao do sistema de combate. Como eu organizo isso?", "eval_id": 3, "outputs": [{"name": "modelo-registro-de-sessao-teste.md", "type": "text", "content": "# Registro de sess\u00e3o de teste \u2014 combate v1\n\nPreencher no mesmo dia da sess\u00e3o, pelo mestre que rodou.\n\n**Mestre:**\n**Data:**\n**Rodada do teste:** 1 / 2 / 3\n**Cena usada:** (qual das cenas fixas \u2014 ou \"avulsa\", se foi encontro fora do roteiro padr\u00e3o)\n**Fichas envolvidas:** (fichas de teste padronizadas ou personagens reais \u2014 quais)\n\n## Fatos\n\nO que aconteceu, na ordem. Quantos turnos levou o combate inteiro. Onde travou.\n\n## Sensa\u00e7\u00e3o\n\nOnde a energia da mesa subiu, onde caiu. Algu\u00e9m ficou de fora do holofote?\n\n## D\u00favida de regra\n\nToda pergunta que algu\u00e9m fez durante a cena \u2014 mesmo as \u00f3bvias, mesmo as que a resposta j\u00e1 estava escrita. Se perguntou, o texto escondeu.\n\n## Decis\u00e3o no improviso\n\nSe algo foi resolvido na hora porque a regra n\u00e3o cobria: o que foi decidido, e por qu\u00ea. Isso \u00e9 dado, n\u00e3o \u00e9 vergonha.\n\n## Estado final dos personagens\n\nHP, energia amaldi\u00e7oada e condi\u00e7\u00e3o de cada personagem ao fim da cena. Se s\u00e3o fichas reais, \u00e9 isso que o pr\u00f3ximo mestre que pegar esse personagem precisa saber antes da pr\u00f3xima mesa.\n\n## Nota livre\n\nQualquer coisa que n\u00e3o coube em cima.\n"}, {"name": "resposta.md", "type": "text", "content": "# Como organizar a leva de teste da v1 do combate\n\nCinco a sete mestres, mesas em dias diferentes, personagem que atravessa todo mundo: esse conjunto \u00e9 o que decide se essa leva de teste vira dado \u00fatil ou vira ru\u00eddo. Sem organizar em torno disso, d\u00e1 pra terminar a rodada sem saber se um problema \u00e9 da regra ou de quem estava mestrando naquele dia \u2014 e pior, um personagem de algu\u00e9m pode sair machucado, ou morto, por causa de um bug de v1, n\u00e3o de uma escolha de jogo.\n\nCinco frentes, nessa ordem.\n\n## 1. Proteja o personagem persistente da pr\u00f3pria vers\u00e3o\n\nV1 vai ter buraco \u2014 \u00e9 o ponto de ser v1. O problema \u00e9 que na Guilda um buraco de regra n\u00e3o fica isolado numa mesa: ele viaja com o personagem pra mesa do mestre seguinte, na semana seguinte. Decida isso antes de marcar a primeira sess\u00e3o:\n\n- **Fichas de teste padronizadas** \u2014 tr\u00eas ou quatro fichas-tipo, simples e gen\u00e9ricas de prop\u00f3sito (o molde de t\u00e9cnica ainda nem est\u00e1 fechado, ent\u00e3o n\u00e3o \u00e9 hora de testar em cima de poder inventado por jogador). Usa elas nos combates de teste em vez do personagem de verdade. Tira o risco de continuidade e, de brinde, d\u00e1 a mesma entrada em m\u00e3os de mestres diferentes \u2014 o que importa pro item 2.\n- **Personagens reais, com rede de seguran\u00e7a** \u2014 se preferir testar com o elenco de verdade, mais org\u00e2nico e mais engajado, combine antes que durante a janela de teste nenhuma morte \u00e9 permanente por causa da v1. Pior resultado poss\u00edvel: personagem fora de cena. \"Misto letal/n\u00e3o-letal por mesa\" volta a valer assim que a vers\u00e3o fechar.\n\nN\u00e3o precisa escolher s\u00f3 uma linha \u2014 d\u00e1 pra deixar cada mestre optar, contanto que a regra de seguran\u00e7a da segunda op\u00e7\u00e3o seja combinada por todo mundo, n\u00e3o decidida mesa a mesa.\n\n## 2. Isole o que est\u00e1 sendo testado\n\nO que entra na v1 \u00e9 o motor: iniciativa, resolu\u00e7\u00e3o, gasto de energia amaldi\u00e7oada, dano e desgaste, morte. O cat\u00e1logo de t\u00e9cnica n\u00e3o tem molde fechado ainda, ent\u00e3o misturar as duas coisas confunde o dado \u2014 voc\u00ea n\u00e3o vai saber se o combate travou por causa do motor ou por causa do poder que um jogador inventou pra pr\u00f3pria ficha.\n\nPrepare duas ou tr\u00eas cenas fixas: mesmo inimigo, mesmo terreno, um gatilho de d\u00favida embutido em cada uma (por exemplo: jogador tenta algo que a ficha n\u00e3o previu; personagem chega a zero de energia no meio da luta). Toda mesa de teste roda a mesma cena, sem improvisar em cima. Parece tirar a gra\u00e7a, mas \u00e9 o \u00fanico jeito de responder \u00e0 pergunta que decide se o sistema serve pra Guilda: dois mestres que nunca se falaram, resolvendo a mesma cena, chegam no mesmo lugar? Se sim, a regra \u00e9 arbitr\u00e1vel por estranho \u2014 que \u00e9 literalmente o crit\u00e9rio de sucesso que j\u00e1 est\u00e1 escrito no pitch. Se n\u00e3o, voc\u00ea achou o buraco antes dos jogadores acharem por voc\u00ea.\n\n## 3. Encaixe o ciclo real na semana real\n\nO formato \u2014 tr\u00eas rodadas com conserto entre elas, num bloco tem\u00e1tico de duas semanas focado s\u00f3 em combate \u2014 j\u00e1 est\u00e1 decidido. Falta encaixar isso na rota\u00e7\u00e3o real: 2 a 3 mesas por semana, dias diferentes, nem todo mestre roda toda semana.\n\nAntes de abrir pra guilda inteira, rode a cena de teste numa mesa reduzida \u2014 voc\u00ea e um co-mestre de confian\u00e7a, ou at\u00e9 s\u00f3 voc\u00ea. N\u00e3o custa nada e pega o buraco \u00f3bvio antes de gastar a paci\u00eancia dos outros seis mestres numa vers\u00e3o que travava no primeiro ataque.\n\nDepois disso, use a rota\u00e7\u00e3o normal como as pr\u00f3prias rodadas, em vez de tentar juntar todo mundo numa semana especial:\n\n| Rodada | Quando | Quem prioriza | Depois |\n|---|---|---|---|\n| 1 | pr\u00f3xima semana de mesas | os 2-3 mestres que j\u00e1 rodariam essa semana | conserto do que quebrou feio |\n| 2 | semana seguinte | quem ainda n\u00e3o testou | conserto de novo |\n| 3 | terceira semana | quem sobrou, mais repescagem de quem quiser rodar de novo | fecha a vers\u00e3o |\n\nO trabalho de verdade aqui \u00e9 escalar quem testa em cada rodada \u2014 se sobrar sempre pros mesmos dois mestres mais animados, voc\u00ea mede se o sistema funciona nas m\u00e3os deles, n\u00e3o se funciona pra Guilda inteira. Se numa semana ningu\u00e9m tiver combate natural na campanha, n\u00e3o pule a rodada: pe\u00e7a a um mestre dispon\u00edvel pra encaixar um encontro avulso, fora da hist\u00f3ria principal, s\u00f3 pra n\u00e3o perder a janela.\n\n## 4. Alinhe os mestres antes da primeira sess\u00e3o valer\n\nCinco mestres lendo o mesmo texto de regra pela primeira vez, cada um rodando ao vivo sem chance de comparar nota antes \u2014 isso mede leitura de texto, n\u00e3o mede a regra. Antes da rodada 1:\n\n- Manda o documento da v1 com folga, n\u00e3o na v\u00e9spera da primeira mesa.\n- Reserva 20 minutos de conversa (call ou thread escrita, o que for mais f\u00e1cil de sincronizar com sete pessoas) s\u00f3 pra tirar d\u00favida antes de qualquer mesa rodar. Toda d\u00favida que aparecer aqui j\u00e1 \u00e9 achado \u2014 se um mestre perguntou, o texto escondeu.\n- Combina a regra do improviso: na d\u00favida durante a mesa, resolve do jeito que parecer mais justo, e anota o que foi decidido e por qu\u00ea. N\u00e3o existe houserule silenciosa nessa janela \u2014 ela vira dado perdido, n\u00e3o uma solu\u00e7\u00e3o esperta.\n\n## 5. Centralize o retorno no mesmo dia, feche por padr\u00e3o\n\nCom mesas em dias diferentes, retorno que n\u00e3o \u00e9 capturado na hora evapora at\u00e9 o fim de semana. Dois fluxos, os dois indo pro mesmo lugar \u2014 um canal ou uma planilha \u00fanica, n\u00e3o um documento por mestre:\n\n- O mestre registra logo depois da sess\u00e3o, ainda no mesmo dia. Uso o modelo em anexo (`modelo-registro-de-sessao-teste.md`) pra isso n\u00e3o virar reda\u00e7\u00e3o livre nem depender de lembrar detalhe tr\u00eas dias depois.\n- Os jogadores respondem um formul\u00e1rio curto e an\u00f4nimo, tamb\u00e9m no mesmo dia. Conversa ao vivo p\u00f3s-mesa \u00e9 boa pra medir clima, ruim pra cr\u00edtica dura \u2014 o an\u00f4nimo pega o que ningu\u00e9m fala pro mestre na cara.\n\nNo fim de cada rodada, olha padr\u00e3o, n\u00e3o caso isolado: um jogador achando o combate longo \u00e9 coment\u00e1rio; tr\u00eas mesas diferentes achando o mesmo \u00e9 achado. Isso vira a pr\u00f3xima entrada do CHANGELOG, do jeito que o resto do projeto j\u00e1 \u00e9 registrado \u2014 o que mudou, e por qu\u00ea.\n\n---\n\nSe o achado novo despencar depois da rodada 3, fecha a v1 e sobe pra v1.1 \u2014 \u00e9 o sinal de que uma quarta rodada renderia pouco. Se ainda estiver vindo achado grosso, roda mais uma leva de tr\u00eas antes de declarar o combate est\u00e1vel. Nenhuma das duas \u00e9 fracasso; \u00e9 o ciclo funcionando como foi desenhado.\n\nAnexo nesta mesma pasta: `modelo-registro-de-sessao-teste.md`, o formul\u00e1rio que cada mestre preenche depois de rodar uma cena de teste.\n"}], "grading": {"expectations": [{"text": "Propoe medir DIVERGENCIA entre mestres \u2014 a metrica propria do caso multi-mestre", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Estrutura a leva em bloco tematico com prazo definido", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Define o ciclo em numero de pessoas e rodadas", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Distingue o que perguntar ao mestre do que perguntar ao jogador", "passed": false, "evidence": "padrao ausente em todas as saidas desta execucao"}, {"text": "Trata o risco especifico ao personagem persistente", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Entrega artefato pronto para usar como arquivo separado", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Diz quando PARAR de testar", "passed": false, "evidence": "padrao ausente em todas as saidas desta execucao"}], "summary": {"passed": 5, "failed": 2, "total": 7, "pass_rate": 0.714}, "timing": {"total_duration_seconds": 712.4}, "condicao_rotulo": "BASELINE MORNA \u2014 sem skill, mas com acesso a pasta do projeto (leu o dossie da Fase 1)", "ressalva": "assercoes post-hoc, correcao automatica por padrao de texto"}}], "previous_feedback": {}, "previous_outputs": {}, "benchmark": {"metadata": {"skill_name": "rpg-guilda (4 skills)", "skill_path": "RPG-JJK/skills/", "executor_model": "claude-sonnet (subagentes)", "sessao_principal": "claude-opus \u2014 NAO e o modelo dos executores", "timestamp": "2026-08-06T12:57:25.913154+00:00", "evals_run": [0, 1, 2, 3], "runs_per_configuration": 1, "condicoes": {"with_skill": "leu o SKILL.md e arquivos de apoio", "without_skill run 1 (MORNA)": "sem skill, COM acesso a pasta do projeto", "without_skill run 2 (FRIA)": "sem skill, SEM acesso a pasta do projeto (so eval-3)"}}, "runs": [{"eval_id": 0, "eval_name": "eval-0-dominancia-restricao  [SKILL]", "configuration": "with_skill", "run_number": 1, "result": {"pass_rate": 1.0, "passed": 6, "failed": 0, "total": 6, "time_seconds": 659.8, "tokens": 83426, "tool_calls": null, "errors": 0}, "expectations": [{"text": "Nomeia o conceito de dominancia explicitamente", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Compara as tres desvantagens entre si, nao so avalia a nova isolada", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Identifica que o custo de Vulneravel escala com o numero de inimigos", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Propoe um conserto concreto com preco, nao so aponta o problema", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Separa o que e conta do que e opiniao", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Levanta risco de arbitragem entre mestres diferentes", "passed": true, "evidence": "padrao encontrado nas saidas"}], "notes": ["COM SKILL \u2014 leu o SKILL.md e os arquivos de apoio", "arquivos produzidos: resposta.md"]}, {"eval_id": 0, "eval_name": "eval-0-dominancia-restricao  [MORNA]", "configuration": "without_skill", "run_number": 1, "result": {"pass_rate": 0.5, "passed": 3, "failed": 3, "total": 6, "time_seconds": 470.6, "tokens": 81658, "tool_calls": null, "errors": 0}, "expectations": [{"text": "Nomeia o conceito de dominancia explicitamente", "passed": false, "evidence": "padrao ausente em todas as saidas desta execucao"}, {"text": "Compara as tres desvantagens entre si, nao so avalia a nova isolada", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Identifica que o custo de Vulneravel escala com o numero de inimigos", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Propoe um conserto concreto com preco, nao so aponta o problema", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Separa o que e conta do que e opiniao", "passed": false, "evidence": "padrao ausente em todas as saidas desta execucao"}, {"text": "Levanta risco de arbitragem entre mestres diferentes", "passed": false, "evidence": "padrao ausente em todas as saidas desta execucao"}], "notes": ["BASELINE MORNA \u2014 sem skill, mas com acesso a pasta do projeto (leu o dossie da Fase 1)", "arquivos produzidos: resposta.md"]}, {"eval_id": 1, "eval_name": "eval-1-curva-teste-resistencia  [SKILL]", "configuration": "with_skill", "run_number": 1, "result": {"pass_rate": 0.833, "passed": 5, "failed": 1, "total": 6, "time_seconds": 488.2, "tokens": 78882, "tool_calls": null, "errors": 0}, "expectations": [{"text": "Escreve e executa codigo em vez de estimar", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Usa distribuicao exata e diz isso (nao Monte Carlo)", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Da a taxa de sucesso nivel a nivel, nao so nas pontas", "passed": false, "evidence": "padrao ausente em todas as saidas desta execucao"}, {"text": "Compara d20 e 3d6 com numeros dos dois lados", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Quantifica quanto a melhoria Precisao vale em cada mecanica", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Declara contrato de invariantes ou faz regressao contra os numeros dados", "passed": true, "evidence": "padrao encontrado nas saidas"}], "notes": ["COM SKILL \u2014 leu o SKILL.md e os arquivos de apoio", "arquivos produzidos: curva_teste_resistencia.py, resposta.md"]}, {"eval_id": 1, "eval_name": "eval-1-curva-teste-resistencia  [MORNA]", "configuration": "without_skill", "run_number": 1, "result": {"pass_rate": 0.333, "passed": 2, "failed": 4, "total": 6, "time_seconds": 503.5, "tokens": 66530, "tool_calls": null, "errors": 0}, "expectations": [{"text": "Escreve e executa codigo em vez de estimar", "passed": false, "evidence": "padrao ausente em todas as saidas desta execucao"}, {"text": "Usa distribuicao exata e diz isso (nao Monte Carlo)", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Da a taxa de sucesso nivel a nivel, nao so nas pontas", "passed": false, "evidence": "padrao ausente em todas as saidas desta execucao"}, {"text": "Compara d20 e 3d6 com numeros dos dois lados", "passed": false, "evidence": "padrao ausente em todas as saidas desta execucao"}, {"text": "Quantifica quanto a melhoria Precisao vale em cada mecanica", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Declara contrato de invariantes ou faz regressao contra os numeros dados", "passed": false, "evidence": "padrao ausente em todas as saidas desta execucao"}], "notes": ["BASELINE MORNA \u2014 sem skill, mas com acesso a pasta do projeto (leu o dossie da Fase 1)", "arquivos produzidos: resposta.md"]}, {"eval_id": 2, "eval_name": "eval-2-revisar-texto-de-regra  [SKILL]", "configuration": "with_skill", "run_number": 1, "result": {"pass_rate": 1.0, "passed": 7, "failed": 0, "total": 7, "time_seconds": 428.1, "tokens": 65752, "tool_calls": null, "errors": 0}, "expectations": [{"text": "Entrega o texto reescrito, nao so conselhos sobre ele", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Define 'condicao' antes de usar o termo", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Poe o caso padrao antes da excecao", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Converte a lista de condicoes em tabela", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Inclui exemplo jogavel concreto", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Lista o que mudou e por que cada mudanca conserta algo", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Sinaliza problema do original que NAO e de redacao (lacuna de regra)", "passed": true, "evidence": "padrao encontrado nas saidas"}], "notes": ["COM SKILL \u2014 leu o SKILL.md e os arquivos de apoio", "arquivos produzidos: resposta.md"]}, {"eval_id": 2, "eval_name": "eval-2-revisar-texto-de-regra  [MORNA]", "configuration": "without_skill", "run_number": 1, "result": {"pass_rate": 0.571, "passed": 4, "failed": 3, "total": 7, "time_seconds": 286.1, "tokens": 44940, "tool_calls": null, "errors": 0}, "expectations": [{"text": "Entrega o texto reescrito, nao so conselhos sobre ele", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Define 'condicao' antes de usar o termo", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Poe o caso padrao antes da excecao", "passed": false, "evidence": "padrao ausente em todas as saidas desta execucao"}, {"text": "Converte a lista de condicoes em tabela", "passed": false, "evidence": "padrao ausente em todas as saidas desta execucao"}, {"text": "Inclui exemplo jogavel concreto", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Lista o que mudou e por que cada mudanca conserta algo", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Sinaliza problema do original que NAO e de redacao (lacuna de regra)", "passed": false, "evidence": "padrao ausente em todas as saidas desta execucao"}], "notes": ["BASELINE MORNA \u2014 sem skill, mas com acesso a pasta do projeto (leu o dossie da Fase 1)", "arquivos produzidos: resposta.md"]}, {"eval_id": 3, "eval_name": "eval-3-montar-leva-de-playtest  [SKILL]", "configuration": "with_skill", "run_number": 1, "result": {"pass_rate": 1.0, "passed": 7, "failed": 0, "total": 7, "time_seconds": 768.9, "tokens": 118730, "tool_calls": null, "errors": 0}, "expectations": [{"text": "Propoe medir DIVERGENCIA entre mestres \u2014 a metrica propria do caso multi-mestre", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Estrutura a leva em bloco tematico com prazo definido", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Define o ciclo em numero de pessoas e rodadas", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Distingue o que perguntar ao mestre do que perguntar ao jogador", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Trata o risco especifico ao personagem persistente", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Entrega artefato pronto para usar como arquivo separado", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Diz quando PARAR de testar", "passed": true, "evidence": "padrao encontrado nas saidas"}], "notes": ["COM SKILL \u2014 leu o SKILL.md e os arquivos de apoio", "arquivos produzidos: casos-sonda-combate.md, formulario-combate.md, resposta.md"]}, {"eval_id": 3, "eval_name": "eval-3-montar-leva-de-playtest  [FRIA]", "configuration": "without_skill", "run_number": 2, "result": {"pass_rate": 0.429, "passed": 3, "failed": 4, "total": 7, "time_seconds": 195.7, "tokens": 34251, "tool_calls": null, "errors": 0}, "expectations": [{"text": "Propoe medir DIVERGENCIA entre mestres \u2014 a metrica propria do caso multi-mestre", "passed": false, "evidence": "padrao ausente em todas as saidas desta execucao"}, {"text": "Estrutura a leva em bloco tematico com prazo definido", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Define o ciclo em numero de pessoas e rodadas", "passed": false, "evidence": "padrao ausente em todas as saidas desta execucao"}, {"text": "Distingue o que perguntar ao mestre do que perguntar ao jogador", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Trata o risco especifico ao personagem persistente", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Entrega artefato pronto para usar como arquivo separado", "passed": false, "evidence": "padrao ausente em todas as saidas desta execucao"}, {"text": "Diz quando PARAR de testar", "passed": false, "evidence": "padrao ausente em todas as saidas desta execucao"}], "notes": ["BASELINE FRIA \u2014 sem skill e SEM acesso a pasta do projeto. Ambiente isolado, sem vazamento verificado.", "arquivos produzidos: resposta.md"]}, {"eval_id": 3, "eval_name": "eval-3-montar-leva-de-playtest  [MORNA]", "configuration": "without_skill", "run_number": 1, "result": {"pass_rate": 0.714, "passed": 5, "failed": 2, "total": 7, "time_seconds": 712.4, "tokens": 98859, "tool_calls": null, "errors": 0}, "expectations": [{"text": "Propoe medir DIVERGENCIA entre mestres \u2014 a metrica propria do caso multi-mestre", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Estrutura a leva em bloco tematico com prazo definido", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Define o ciclo em numero de pessoas e rodadas", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Distingue o que perguntar ao mestre do que perguntar ao jogador", "passed": false, "evidence": "padrao ausente em todas as saidas desta execucao"}, {"text": "Trata o risco especifico ao personagem persistente", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Entrega artefato pronto para usar como arquivo separado", "passed": true, "evidence": "padrao encontrado nas saidas"}, {"text": "Diz quando PARAR de testar", "passed": false, "evidence": "padrao ausente em todas as saidas desta execucao"}], "notes": ["BASELINE MORNA \u2014 sem skill, mas com acesso a pasta do projeto (leu o dossie da Fase 1)", "arquivos produzidos: modelo-registro-de-sessao-teste.md, resposta.md"]}], "run_summary": {"with_skill": {"pass_rate": {"mean": 0.958, "stddev": 0.072, "min": 0.833, "max": 1.0}, "time_seconds": {"mean": 586.25, "stddev": 135.458, "min": 428.1, "max": 768.9}, "tokens": {"mean": 86697.5, "stddev": 19599.616, "min": 65752, "max": 118730}, "n": 4}, "without_skill": {"pass_rate": {"mean": 0.529, "stddev": 0.137, "min": 0.333, "max": 0.714}, "time_seconds": {"mean": 493.15, "stddev": 151.291, "min": 286.1, "max": 712.4}, "tokens": {"mean": 72996.75, "stddev": 19829.733, "min": 44940, "max": 98859}, "n": 4}, "without_skill_FRIA_isolada": {"pass_rate": {"mean": 0.429, "stddev": 0.0, "min": 0.429, "max": 0.429}, "time_seconds": {"mean": 195.7, "stddev": 0.0, "min": 195.7, "max": 195.7}, "tokens": {"mean": 34251, "stddev": 0.0, "min": 34251, "max": 34251}, "n": 1}, "delta": {"pass_rate": "+0.429", "time_seconds": "+93.1", "tokens": "+13701"}}, "notes": ["CONDICOES NAO SAO REPETICOES. O eval-3 tem tres condicoes: com skill, baseline MORNA (com acesso ao projeto) e baseline FRIA (isolada). A FRIA fica FORA da media de without_skill de proposito \u2014 misturar as duas produziria um numero sem significado.", "A baseline FRIA e o unico par \"skill vs nada\" real da matriz inteira. Os demais evals comparam a skill contra Claude que ja tinha lido o dossie da Fase 1.", "Assercoes escritas DEPOIS de ver as saidas (post-hoc). Isso favorece o que ja aconteceu e enfraquece a nota como evidencia.", "Uma execucao por condicao: sem estimativa de variancia. Diferenca pequena de pass_rate nao deve ser lida como efeito real.", "Quem escreveu as skills tambem escreveu os prompts de teste \u2014 vies a favor das skills. O eval-0 e o caso mais grave: o enunciado ja apresenta duas desvantagens de mesmo preco lado a lado, que e exatamente a montagem que o teste de dominancia pede.", "Executores em Sonnet, sessao do usuario em Opus: o benchmark mede o efeito no modelo errado.", "Correcao automatica por padrao de texto mede se o conceito APARECE, nao se esta correto."]}};
+
+    // ---- State ----
+    let feedbackMap = {};  // run_id -> feedback text
+    let currentIndex = 0;
+    let visitedRuns = new Set();
+
+    // ---- Init ----
+    async function init() {
+      // Load saved feedback from server — but only if this isn't a fresh
+      // iteration (indicated by previous_feedback being present). When
+      // previous feedback exists, the feedback.json on disk is stale from
+      // the prior iteration and should not pre-fill the textareas.
+      const hasPrevious = Object.keys(EMBEDDED_DATA.previous_feedback || {}).length > 0
+        || Object.keys(EMBEDDED_DATA.previous_outputs || {}).length > 0;
+      if (!hasPrevious) {
+        try {
+          const resp = await fetch("/api/feedback");
+          const data = await resp.json();
+          if (data.reviews) {
+            for (const r of data.reviews) feedbackMap[r.run_id] = r.feedback;
+          }
+        } catch { /* first run, no feedback yet */ }
+      }
+
+      document.getElementById("skill-name").textContent = EMBEDDED_DATA.skill_name;
+      showRun(0);
+
+      // Wire up feedback auto-save
+      const textarea = document.getElementById("feedback");
+      let saveTimeout = null;
+      textarea.addEventListener("input", () => {
+        clearTimeout(saveTimeout);
+        document.getElementById("feedback-status").textContent = "";
+        saveTimeout = setTimeout(() => saveCurrentFeedback(), 800);
+      });
+    }
+
+    // ---- Navigation ----
+    function navigate(delta) {
+      const newIndex = currentIndex + delta;
+      if (newIndex >= 0 && newIndex < EMBEDDED_DATA.runs.length) {
+        saveCurrentFeedback();
+        showRun(newIndex);
+      }
+    }
+
+    function updateNavButtons() {
+      document.getElementById("prev-btn").disabled = currentIndex === 0;
+      document.getElementById("next-btn").disabled =
+        currentIndex === EMBEDDED_DATA.runs.length - 1;
+    }
+
+    // ---- Show a run ----
+    function showRun(index) {
+      currentIndex = index;
+      const run = EMBEDDED_DATA.runs[index];
+
+      // Progress
+      document.getElementById("progress").textContent =
+        `${index + 1} of ${EMBEDDED_DATA.runs.length}`;
+
+      // Prompt
+      document.getElementById("prompt-text").textContent = run.prompt;
+
+      // Config badge
+      const badge = document.getElementById("config-badge");
+      const configMatch = run.id.match(/(with_skill|without_skill|new_skill|old_skill)/);
+      if (configMatch) {
+        const config = configMatch[1];
+        const isBaseline = config === "without_skill" || config === "old_skill";
+        badge.textContent = config.replace(/_/g, " ");
+        badge.className = "config-badge " + (isBaseline ? "config-baseline" : "config-primary");
+        badge.style.display = "inline-block";
+      } else {
+        badge.style.display = "none";
+      }
+
+      // Outputs
+      renderOutputs(run);
+
+      // Previous outputs
+      renderPrevOutputs(run);
+
+      // Grades
+      renderGrades(run);
+
+      // Previous feedback
+      const prevFb = (EMBEDDED_DATA.previous_feedback || {})[run.id];
+      const prevEl = document.getElementById("prev-feedback");
+      if (prevFb) {
+        document.getElementById("prev-feedback-text").textContent = prevFb;
+        prevEl.style.display = "block";
+      } else {
+        prevEl.style.display = "none";
+      }
+
+      // Feedback
+      document.getElementById("feedback").value = feedbackMap[run.id] || "";
+      document.getElementById("feedback-status").textContent = "";
+
+      updateNavButtons();
+
+      // Track visited runs and promote done button when all visited
+      visitedRuns.add(index);
+      const doneBtn = document.getElementById("done-btn");
+      if (visitedRuns.size >= EMBEDDED_DATA.runs.length) {
+        doneBtn.classList.add("ready");
+      }
+
+      // Scroll main content to top
+      document.querySelector(".main").scrollTop = 0;
+    }
+
+    // ---- Render outputs ----
+    function renderOutputs(run) {
+      const container = document.getElementById("outputs-body");
+      container.innerHTML = "";
+
+      const outputs = run.outputs || [];
+      if (outputs.length === 0) {
+        container.innerHTML = '<div class="empty-state">No output files</div>';
+        return;
+      }
+
+      for (const file of outputs) {
+        const fileDiv = document.createElement("div");
+        fileDiv.className = "output-file";
+
+        // Always show file header with download link
+        const header = document.createElement("div");
+        header.className = "output-file-header";
+        const nameSpan = document.createElement("span");
+        nameSpan.textContent = file.name;
+        header.appendChild(nameSpan);
+        const dlBtn = document.createElement("a");
+        dlBtn.className = "dl-btn";
+        dlBtn.textContent = "Download";
+        dlBtn.download = file.name;
+        dlBtn.href = getDownloadUri(file);
+        header.appendChild(dlBtn);
+        fileDiv.appendChild(header);
+
+        const content = document.createElement("div");
+        content.className = "output-file-content";
+
+        if (file.type === "text") {
+          const pre = document.createElement("pre");
+          pre.textContent = file.content;
+          content.appendChild(pre);
+        } else if (file.type === "image") {
+          const img = document.createElement("img");
+          img.src = file.data_uri;
+          img.alt = file.name;
+          content.appendChild(img);
+        } else if (file.type === "pdf") {
+          const iframe = document.createElement("iframe");
+          iframe.src = file.data_uri;
+          content.appendChild(iframe);
+        } else if (file.type === "xlsx") {
+          renderXlsx(content, file.data_b64);
+        } else if (file.type === "binary") {
+          const a = document.createElement("a");
+          a.className = "download-link";
+          a.href = file.data_uri;
+          a.download = file.name;
+          a.textContent = "Download " + file.name;
+          content.appendChild(a);
+        } else if (file.type === "error") {
+          const pre = document.createElement("pre");
+          pre.textContent = file.content;
+          pre.style.color = "var(--red)";
+          content.appendChild(pre);
+        }
+
+        fileDiv.appendChild(content);
+        container.appendChild(fileDiv);
+      }
+    }
+
+    // ---- XLSX rendering via SheetJS ----
+    function renderXlsx(container, b64Data) {
+      try {
+        const raw = Uint8Array.from(atob(b64Data), c => c.charCodeAt(0));
+        const wb = XLSX.read(raw, { type: "array" });
+
+        for (let i = 0; i < wb.SheetNames.length; i++) {
+          const sheetName = wb.SheetNames[i];
+          const ws = wb.Sheets[sheetName];
+
+          if (wb.SheetNames.length > 1) {
+            const sheetLabel = document.createElement("div");
+            sheetLabel.style.cssText =
+              "font-weight:600; font-size:0.8rem; color:#b0aea5; margin-top:0.5rem; margin-bottom:0.25rem;";
+            sheetLabel.textContent = "Sheet: " + sheetName;
+            container.appendChild(sheetLabel);
+          }
+
+          const htmlStr = XLSX.utils.sheet_to_html(ws, { editable: false });
+          const wrapper = document.createElement("div");
+          wrapper.innerHTML = htmlStr;
+          container.appendChild(wrapper);
+        }
+      } catch (err) {
+        container.textContent = "Error rendering spreadsheet: " + err.message;
+      }
+    }
+
+    // ---- Grades ----
+    function renderGrades(run) {
+      const section = document.getElementById("grades-section");
+      const content = document.getElementById("grades-content");
+
+      if (!run.grading) {
+        section.style.display = "none";
+        return;
+      }
+
+      const grading = run.grading;
+      section.style.display = "block";
+      // Reset to collapsed
+      content.classList.remove("open");
+      document.getElementById("grades-arrow").classList.remove("open");
+
+      const summary = grading.summary || {};
+      const expectations = grading.expectations || [];
+
+      let html = '<div style="padding: 1rem;">';
+
+      // Summary line
+      const passRate = summary.pass_rate != null
+        ? Math.round(summary.pass_rate * 100) + "%"
+        : "?";
+      const badgeClass = summary.pass_rate >= 0.8 ? "grade-pass" : summary.pass_rate >= 0.5 ? "" : "grade-fail";
+      html += '<div class="grades-summary">';
+      html += '<span class="grade-badge ' + badgeClass + '">' + passRate + '</span>';
+      html += '<span>' + (summary.passed || 0) + ' passed, ' + (summary.failed || 0) + ' failed of ' + (summary.total || 0) + '</span>';
+      html += '</div>';
+
+      // Assertions list
+      html += '<ul class="assertion-list">';
+      for (const exp of expectations) {
+        const statusClass = exp.passed ? "pass" : "fail";
+        const statusIcon = exp.passed ? "\u2713" : "\u2717";
+        html += '<li class="assertion-item">';
+        html += '<span class="assertion-status ' + statusClass + '">' + statusIcon + '</span>';
+        html += '<span>' + escapeHtml(exp.text) + '</span>';
+        if (exp.evidence) {
+          html += '<div class="assertion-evidence">' + escapeHtml(exp.evidence) + '</div>';
+        }
+        html += '</li>';
+      }
+      html += '</ul>';
+
+      html += '</div>';
+      content.innerHTML = html;
+    }
+
+    function toggleGrades() {
+      const content = document.getElementById("grades-content");
+      const arrow = document.getElementById("grades-arrow");
+      content.classList.toggle("open");
+      arrow.classList.toggle("open");
+    }
+
+    // ---- Previous outputs (collapsible) ----
+    function renderPrevOutputs(run) {
+      const section = document.getElementById("prev-outputs-section");
+      const content = document.getElementById("prev-outputs-content");
+      const prevOutputs = (EMBEDDED_DATA.previous_outputs || {})[run.id];
+
+      if (!prevOutputs || prevOutputs.length === 0) {
+        section.style.display = "none";
+        return;
+      }
+
+      section.style.display = "block";
+      // Reset to collapsed
+      content.classList.remove("open");
+      document.getElementById("prev-outputs-arrow").classList.remove("open");
+
+      // Render the files into the content area
+      content.innerHTML = "";
+      const wrapper = document.createElement("div");
+      wrapper.style.padding = "1rem";
+
+      for (const file of prevOutputs) {
+        const fileDiv = document.createElement("div");
+        fileDiv.className = "output-file";
+
+        const header = document.createElement("div");
+        header.className = "output-file-header";
+        const nameSpan = document.createElement("span");
+        nameSpan.textContent = file.name;
+        header.appendChild(nameSpan);
+        const dlBtn = document.createElement("a");
+        dlBtn.className = "dl-btn";
+        dlBtn.textContent = "Download";
+        dlBtn.download = file.name;
+        dlBtn.href = getDownloadUri(file);
+        header.appendChild(dlBtn);
+        fileDiv.appendChild(header);
+
+        const fc = document.createElement("div");
+        fc.className = "output-file-content";
+
+        if (file.type === "text") {
+          const pre = document.createElement("pre");
+          pre.textContent = file.content;
+          fc.appendChild(pre);
+        } else if (file.type === "image") {
+          const img = document.createElement("img");
+          img.src = file.data_uri;
+          img.alt = file.name;
+          fc.appendChild(img);
+        } else if (file.type === "pdf") {
+          const iframe = document.createElement("iframe");
+          iframe.src = file.data_uri;
+          fc.appendChild(iframe);
+        } else if (file.type === "xlsx") {
+          renderXlsx(fc, file.data_b64);
+        } else if (file.type === "binary") {
+          const a = document.createElement("a");
+          a.className = "download-link";
+          a.href = file.data_uri;
+          a.download = file.name;
+          a.textContent = "Download " + file.name;
+          fc.appendChild(a);
+        }
+
+        fileDiv.appendChild(fc);
+        wrapper.appendChild(fileDiv);
+      }
+
+      content.appendChild(wrapper);
+    }
+
+    function togglePrevOutputs() {
+      const content = document.getElementById("prev-outputs-content");
+      const arrow = document.getElementById("prev-outputs-arrow");
+      content.classList.toggle("open");
+      arrow.classList.toggle("open");
+    }
+
+    // ---- Feedback (saved to server -> feedback.json) ----
+    function saveCurrentFeedback() {
+      const run = EMBEDDED_DATA.runs[currentIndex];
+      const text = document.getElementById("feedback").value;
+
+      if (text.trim() === "") {
+        delete feedbackMap[run.id];
+      } else {
+        feedbackMap[run.id] = text;
+      }
+
+      // Build reviews array from map
+      const reviews = [];
+      for (const [run_id, feedback] of Object.entries(feedbackMap)) {
+        if (feedback.trim()) {
+          reviews.push({ run_id, feedback, timestamp: new Date().toISOString() });
+        }
+      }
+
+      fetch("/api/feedback", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ reviews, status: "in_progress" }),
+      }).then(() => {
+        document.getElementById("feedback-status").textContent = "Saved";
+      }).catch(() => {
+        // Static mode or server unavailable — no-op on auto-save,
+        // feedback will be downloaded on final submit
+        document.getElementById("feedback-status").textContent = "Will download on submit";
+      });
+    }
+
+    // ---- Done ----
+    function showDoneDialog() {
+      // Save current textarea to feedbackMap (but don't POST yet)
+      const run = EMBEDDED_DATA.runs[currentIndex];
+      const text = document.getElementById("feedback").value;
+      if (text.trim() === "") {
+        delete feedbackMap[run.id];
+      } else {
+        feedbackMap[run.id] = text;
+      }
+
+      // POST once with status: complete — include ALL runs so the model
+      // can distinguish "no feedback" (looks good) from "not reviewed"
+      const reviews = [];
+      const ts = new Date().toISOString();
+      for (const r of EMBEDDED_DATA.runs) {
+        reviews.push({ run_id: r.id, feedback: feedbackMap[r.id] || "", timestamp: ts });
+      }
+      const payload = JSON.stringify({ reviews, status: "complete" }, null, 2);
+      fetch("/api/feedback", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: payload,
+      }).then(() => {
+        document.getElementById("done-overlay").classList.add("visible");
+      }).catch(() => {
+        // Server not available (static mode) — download as file
+        const blob = new Blob([payload], { type: "application/json" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = "feedback.json";
+        a.click();
+        URL.revokeObjectURL(url);
+        document.getElementById("done-overlay").classList.add("visible");
+      });
+    }
+
+    function closeDoneDialog() {
+      // Reset status back to in_progress
+      saveCurrentFeedback();
+      document.getElementById("done-overlay").classList.remove("visible");
+    }
+
+    // ---- Toast ----
+    function showToast(message) {
+      const toast = document.getElementById("toast");
+      toast.textContent = message;
+      toast.classList.add("visible");
+      setTimeout(() => toast.classList.remove("visible"), 2000);
+    }
+
+    // ---- Keyboard nav ----
+    document.addEventListener("keydown", (e) => {
+      // Don't capture when typing in textarea
+      if (e.target.tagName === "TEXTAREA") return;
+
+      if (e.key === "ArrowLeft" || e.key === "ArrowUp") {
+        e.preventDefault();
+        navigate(-1);
+      } else if (e.key === "ArrowRight" || e.key === "ArrowDown") {
+        e.preventDefault();
+        navigate(1);
+      }
+    });
+
+    // ---- Util ----
+    function getDownloadUri(file) {
+      if (file.data_uri) return file.data_uri;
+      if (file.data_b64) return "data:application/octet-stream;base64," + file.data_b64;
+      if (file.type === "text") return "data:text/plain;charset=utf-8," + encodeURIComponent(file.content);
+      return "#";
+    }
+
+    function escapeHtml(text) {
+      const div = document.createElement("div");
+      div.textContent = text;
+      return div.innerHTML;
+    }
+
+    // ---- View switching ----
+    function switchView(view) {
+      document.querySelectorAll(".view-tab").forEach(t => t.classList.remove("active"));
+      document.querySelectorAll(".view-panel").forEach(p => p.classList.remove("active"));
+      document.querySelector(`[onclick="switchView('${view}')"]`).classList.add("active");
+      document.getElementById("panel-" + view).classList.add("active");
+    }
+
+    // ---- Benchmark rendering ----
+    function renderBenchmark() {
+      const data = EMBEDDED_DATA.benchmark;
+      if (!data) return;
+
+      // Show the tabs
+      document.getElementById("view-tabs").style.display = "flex";
+
+      const container = document.getElementById("benchmark-content");
+      const summary = data.run_summary || {};
+      const metadata = data.metadata || {};
+      const notes = data.notes || [];
+
+      let html = "";
+
+      // Header
+      html += "<h2 style='font-family: Poppins, sans-serif; margin-bottom: 0.5rem;'>Benchmark Results</h2>";
+      html += "<p style='color: var(--text-muted); font-size: 0.875rem; margin-bottom: 1.25rem;'>";
+      if (metadata.skill_name) html += "<strong>" + escapeHtml(metadata.skill_name) + "</strong> &mdash; ";
+      if (metadata.timestamp) html += metadata.timestamp + " &mdash; ";
+      if (metadata.evals_run) html += "Evals: " + metadata.evals_run.join(", ") + " &mdash; ";
+      html += (metadata.runs_per_configuration || "?") + " runs per configuration";
+      html += "</p>";
+
+      // Summary table
+      html += '<table class="benchmark-table">';
+
+      function fmtStat(stat, pct) {
+        if (!stat) return "—";
+        const suffix = pct ? "%" : "";
+        const m = pct ? (stat.mean * 100).toFixed(0) : stat.mean.toFixed(1);
+        const s = pct ? (stat.stddev * 100).toFixed(0) : stat.stddev.toFixed(1);
+        return m + suffix + " ± " + s + suffix;
+      }
+
+      function deltaClass(val) {
+        if (!val) return "";
+        const n = parseFloat(val);
+        if (n > 0) return "benchmark-delta-positive";
+        if (n < 0) return "benchmark-delta-negative";
+        return "";
+      }
+
+      // Discover config names dynamically (everything except "delta")
+      const configs = Object.keys(summary).filter(k => k !== "delta");
+      const configA = configs[0] || "config_a";
+      const configB = configs[1] || "config_b";
+      const labelA = configA.replace(/_/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+      const labelB = configB.replace(/_/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+      const a = summary[configA] || {};
+      const b = summary[configB] || {};
+      const delta = summary.delta || {};
+
+      html += "<thead><tr><th>Metric</th><th>" + escapeHtml(labelA) + "</th><th>" + escapeHtml(labelB) + "</th><th>Delta</th></tr></thead>";
+      html += "<tbody>";
+
+      html += "<tr><td><strong>Pass Rate</strong></td>";
+      html += "<td>" + fmtStat(a.pass_rate, true) + "</td>";
+      html += "<td>" + fmtStat(b.pass_rate, true) + "</td>";
+      html += '<td class="' + deltaClass(delta.pass_rate) + '">' + (delta.pass_rate || "—") + "</td></tr>";
+
+      // Time (only show row if data exists)
+      if (a.time_seconds || b.time_seconds) {
+        html += "<tr><td><strong>Time (s)</strong></td>";
+        html += "<td>" + fmtStat(a.time_seconds, false) + "</td>";
+        html += "<td>" + fmtStat(b.time_seconds, false) + "</td>";
+        html += '<td class="' + deltaClass(delta.time_seconds) + '">' + (delta.time_seconds ? delta.time_seconds + "s" : "—") + "</td></tr>";
+      }
+
+      // Tokens (only show row if data exists)
+      if (a.tokens || b.tokens) {
+        html += "<tr><td><strong>Tokens</strong></td>";
+        html += "<td>" + fmtStat(a.tokens, false) + "</td>";
+        html += "<td>" + fmtStat(b.tokens, false) + "</td>";
+        html += '<td class="' + deltaClass(delta.tokens) + '">' + (delta.tokens || "—") + "</td></tr>";
+      }
+
+      html += "</tbody></table>";
+
+      // Per-eval breakdown (if runs data available)
+      const runs = data.runs || [];
+      if (runs.length > 0) {
+        const evalIds = [...new Set(runs.map(r => r.eval_id))].sort((a, b) => a - b);
+
+        html += "<h3 style='font-family: Poppins, sans-serif; margin-bottom: 0.75rem;'>Per-Eval Breakdown</h3>";
+
+        const hasTime = runs.some(r => r.result && r.result.time_seconds != null);
+        const hasErrors = runs.some(r => r.result && r.result.errors > 0);
+
+        for (const evalId of evalIds) {
+          const evalRuns = runs.filter(r => r.eval_id === evalId);
+          const evalName = evalRuns[0] && evalRuns[0].eval_name ? evalRuns[0].eval_name : "Eval " + evalId;
+
+          html += "<h4 style='font-family: Poppins, sans-serif; margin: 1rem 0 0.5rem; color: var(--text);'>" + escapeHtml(evalName) + "</h4>";
+          html += '<table class="benchmark-table">';
+          html += "<thead><tr><th>Config</th><th>Run</th><th>Pass Rate</th>";
+          if (hasTime) html += "<th>Time (s)</th>";
+          if (hasErrors) html += "<th>Crashes During Execution</th>";
+          html += "</tr></thead>";
+          html += "<tbody>";
+
+          // Group by config and render with average rows
+          const configGroups = [...new Set(evalRuns.map(r => r.configuration))];
+          for (let ci = 0; ci < configGroups.length; ci++) {
+            const config = configGroups[ci];
+            const configRuns = evalRuns.filter(r => r.configuration === config);
+            if (configRuns.length === 0) continue;
+
+            const rowClass = ci === 0 ? "benchmark-row-with" : "benchmark-row-without";
+            const configLabel = config.replace(/_/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+
+            for (const run of configRuns) {
+              const r = run.result || {};
+              const prClass = r.pass_rate >= 0.8 ? "benchmark-delta-positive" : r.pass_rate < 0.5 ? "benchmark-delta-negative" : "";
+              html += '<tr class="' + rowClass + '">';
+              html += "<td>" + configLabel + "</td>";
+              html += "<td>" + run.run_number + "</td>";
+              html += '<td class="' + prClass + '">' + ((r.pass_rate || 0) * 100).toFixed(0) + "% (" + (r.passed || 0) + "/" + (r.total || 0) + ")</td>";
+              if (hasTime) html += "<td>" + (r.time_seconds != null ? r.time_seconds.toFixed(1) : "—") + "</td>";
+              if (hasErrors) html += "<td>" + (r.errors || 0) + "</td>";
+              html += "</tr>";
+            }
+
+            // Average row
+            const rates = configRuns.map(r => (r.result || {}).pass_rate || 0);
+            const avgRate = rates.reduce((a, b) => a + b, 0) / rates.length;
+            const avgPrClass = avgRate >= 0.8 ? "benchmark-delta-positive" : avgRate < 0.5 ? "benchmark-delta-negative" : "";
+            html += '<tr class="benchmark-row-avg ' + rowClass + '">';
+            html += "<td>" + configLabel + "</td>";
+            html += "<td>Avg</td>";
+            html += '<td class="' + avgPrClass + '">' + (avgRate * 100).toFixed(0) + "%</td>";
+            if (hasTime) {
+              const times = configRuns.map(r => (r.result || {}).time_seconds).filter(t => t != null);
+              html += "<td>" + (times.length ? (times.reduce((a, b) => a + b, 0) / times.length).toFixed(1) : "—") + "</td>";
+            }
+            if (hasErrors) html += "<td></td>";
+            html += "</tr>";
+          }
+          html += "</tbody></table>";
+
+          // Per-assertion detail for this eval
+          const runsWithExpectations = {};
+          for (const config of configGroups) {
+            runsWithExpectations[config] = evalRuns.filter(r => r.configuration === config && r.expectations && r.expectations.length > 0);
+          }
+          const hasAnyExpectations = Object.values(runsWithExpectations).some(runs => runs.length > 0);
+          if (hasAnyExpectations) {
+            // Collect all unique assertion texts across all configs
+            const allAssertions = [];
+            const seen = new Set();
+            for (const config of configGroups) {
+              for (const run of runsWithExpectations[config]) {
+                for (const exp of (run.expectations || [])) {
+                  if (!seen.has(exp.text)) {
+                    seen.add(exp.text);
+                    allAssertions.push(exp.text);
+                  }
+                }
+              }
+            }
+
+            html += '<table class="benchmark-table" style="margin-top: 0.5rem;">';
+            html += "<thead><tr><th>Assertion</th>";
+            for (const config of configGroups) {
+              const label = config.replace(/_/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+              html += "<th>" + escapeHtml(label) + "</th>";
+            }
+            html += "</tr></thead><tbody>";
+
+            for (const assertionText of allAssertions) {
+              html += "<tr><td>" + escapeHtml(assertionText) + "</td>";
+
+              for (const config of configGroups) {
+                html += "<td>";
+                for (const run of runsWithExpectations[config]) {
+                  const exp = (run.expectations || []).find(e => e.text === assertionText);
+                  if (exp) {
+                    const cls = exp.passed ? "benchmark-delta-positive" : "benchmark-delta-negative";
+                    const icon = exp.passed ? "\u2713" : "\u2717";
+                    html += '<span class="' + cls + '" title="Run ' + run.run_number + ': ' + escapeHtml(exp.evidence || "") + '">' + icon + "</span> ";
+                  } else {
+                    html += "— ";
+                  }
+                }
+                html += "</td>";
+              }
+              html += "</tr>";
+            }
+            html += "</tbody></table>";
+          }
+        }
+      }
+
+      // Notes
+      if (notes.length > 0) {
+        html += '<div class="benchmark-notes">';
+        html += "<h3>Analysis Notes</h3>";
+        html += "<ul>";
+        for (const note of notes) {
+          html += "<li>" + escapeHtml(note) + "</li>";
+        }
+        html += "</ul></div>";
+      }
+
+      container.innerHTML = html;
+    }
+
+    // ---- Start ----
+    init();
+    renderBenchmark();
+  </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "eval_id": 1,
+  "eval_name": "eval-1-curva-teste-resistencia",
+  "skill_avaliada": "balanceamento-simulacao",
+  "prompt": "Meu sistema usa d20. Um feitico de area faz o alvo rolar Teste de Resistencia. A CD e 8 + metade do nivel + 2 se comprou Precisao. Inimigos tem +2 no nivel 1 subindo pra +8 no nivel 20. Isso fica bom ou os inimigos vao passar sempre? E se eu trocar pra 3d6?",
+  "condicao": "with_skill",
+  "condicao_rotulo": "COM SKILL — leu o SKILL.md e os arquivos de apoio",
+  "configuration": "with_skill",
+  "run_number": 1,
+  "assertions": [
+    "Escreve e executa codigo em vez de estimar",
+    "Usa distribuicao exata e diz isso (nao Monte Carlo)",
+    "Da a taxa de sucesso nivel a nivel, nao so nas pontas",
+    "Compara d20 e 3d6 com numeros dos dois lados",
+    "Quantifica quanto a melhoria Precisao vale em cada mecanica",
+    "Declara contrato de invariantes ou faz regressao contra os numeros dados"
+  ],
+  "assertions_post_hoc": true,
+  "correcao": "automatica (padrao de texto e presenca de arquivo)"
+}

@@ -1,0 +1,45 @@
+{
+  "expectations": [
+    {
+      "text": "Nomeia o conceito de dominancia explicitamente",
+      "passed": true,
+      "evidence": "padrao encontrado nas saidas"
+    },
+    {
+      "text": "Compara as tres desvantagens entre si, nao so avalia a nova isolada",
+      "passed": true,
+      "evidence": "padrao encontrado nas saidas"
+    },
+    {
+      "text": "Identifica que o custo de Vulneravel escala com o numero de inimigos",
+      "passed": true,
+      "evidence": "padrao encontrado nas saidas"
+    },
+    {
+      "text": "Propoe um conserto concreto com preco, nao so aponta o problema",
+      "passed": true,
+      "evidence": "padrao encontrado nas saidas"
+    },
+    {
+      "text": "Separa o que e conta do que e opiniao",
+      "passed": true,
+      "evidence": "padrao encontrado nas saidas"
+    },
+    {
+      "text": "Levanta risco de arbitragem entre mestres diferentes",
+      "passed": true,
+      "evidence": "padrao encontrado nas saidas"
+    }
+  ],
+  "summary": {
+    "passed": 6,
+    "failed": 0,
+    "total": 6,
+    "pass_rate": 1.0
+  },
+  "timing": {
+    "total_duration_seconds": 659.8
+  },
+  "condicao_rotulo": "COM SKILL — leu o SKILL.md e os arquivos de apoio",
+  "ressalva": "assercoes post-hoc, correcao automatica por padrao de texto"
+}

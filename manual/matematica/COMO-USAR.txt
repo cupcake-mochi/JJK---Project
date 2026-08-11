@@ -1,0 +1,88 @@
+MATEMÁTICA — Fundamento v7.6
+
+  v7.py                  valida a economia de PE, os limites por Classe, o teto, o
+                         gatilho de Controle, a Técnica Máxima recarregável e a
+                         Integridade (taxa 2:1, teto na alma, estágios). Roda a
+                         busca exaustiva com as regras atuais.
+  pac7.py                monta e confere os 35 feitiços prontos do manual v7 E
+                         todos os exemplos do texto: o Corte Medido do tutorial,
+                         a tabela de Ampliar, as montagens de Técnica Máxima, o
+                         PE das Liberações, a tabela de cura e a conversão
+                         d6/d12. Termina com "TUDO OK" ou a lista de erros.
+  bf2.py                 busca exaustiva pura (versão v1, referência histórica)
+  validador-feiticos.py  versão antiga (nomenclatura da v1), referência
+
+  python3 v7.py
+  python3 pac7.py
+
+O que mudou na v7.6:
+  Nenhum numero mudou. As seis alteracoes foram de VOCABULARIO e de TEXTO DE REGRA —
+  Casca -> Escama, resistencia definida, Fraqueza sem Sabedoria, Carregar com TR
+  Espirito, Mao Firme cobrindo carga, e a proibicao de RD passiva escrita. Por isso
+  o pac7.py e o v7.py passam sem toque: eles conferem numero, e numero e' justamente
+  o que nenhum desses seis problemas era.
+  E e' por isso que existe um validador novo do lado do projeto — 03-mecanica/
+  conferir-manual.py —, que confere VOCABULARIO em vez de numero. Ele teria pego o
+  "Bonus de Treinamento" da Reforco e o "Habilidade/Sabedoria" da Fraqueza sozinho.
+
+Números que precisam continuar verdadeiros:
+  Pontos = 3 x Classe · Teto = 4 x Classe · Devolução máx = 2 x Classe · Liberação = +Classe
+  Leve = metade da Classe · Média = Classe · Pesada = Classe e meio (arredonda pra cima)
+  Custo em PE = 3 x Classe · Liberação +50% · Técnica Máxima = 5 x maior Classe
+  Pico do nível 20 = 90 de dano em feitiço montado (Liberação Classe 5 limpa).
+  Se mudar, alguma coisa quebrou.
+  (A Técnica Máxima fica fora dessa conta: dado fixo, segurada pelo recarregamento.)
+
+O que mudou na v7.3:
+  LENTO: Leve -> MÉDIA. Lento é Ação Completa (movimento + bônus + padrão), ou seja,
+    CONTÉM o Parado (só movimento). Com os dois em Leve, o Lento era dominado.
+    Sobe o dano de 6 prontos: Palma 4->5d8, Lança Negra 5->6d8, Julgamento 6->8d8,
+    Vala Comum 7->9d8, Fim de Turno 10->12d8, Sentença Final 15->17d8. Nenhum estoura.
+  AQUECER: Média -> LEVE. Única das 4 de frequência cujo custo some depois da rodada 1,
+    e o kit cobre aquele turno. Nenhum dos 35 prontos usa: impacto zero.
+  Balanço do catálogo inalterado: um subiu, um desceu.
+  EM ABERTO: Carregar (Média) agora divide faixa com Lento e dói mais (2 turnos + risco).
+    Não dá pra subir (Pesada quebra o fecho); a saída seria dar upside ao Carregar.
+
+O que mudou na v7.2:
+  RESTRIÇÃO PRÓPRIA: Restrição customizada (espelho do Efeito Próprio), devolve Leve ou
+    Média, conta no limite de 2. TRAVA NOVA no pac7.py: nenhuma Restrição pode devolver
+    Pesada — duas Médias já batem exatamente no teto de devolução (2 x Classe) em todo
+    Classe, então uma Pesada estouraria o fecho. Não reintroduzir Restrição Pesada.
+  BANCA sem Técnica Máxima: o jackpot custava PE pra economizar PE. Os três Fundamentos
+    prontos agora param todos na criação (Descrição, Regra, Famílias, Selo, Passiva).
+
+O que mudou na v7.1 (em cima da v7):
+  CONTROLE — o degrau da METADE do teto saiu. Agora:
+      dano final <= 1/4 do teto  -> efeitos de Controle duram +1 rodada
+      dano final ZERO            -> +1 rodada e CD +2
+    Motivo: Condicao Menor sozinha da exatamente 2 x Classe = metade do teto em TODO
+    Classe, entao o bonus antigo era automatico e nao uma escolha de montagem.
+    Mudam de resultado (so a duracao, as montagens sao as mesmas): Palma Trovejante,
+    Domo de Gelo e Vala Comum perdem a rodada extra; Prisao de Sombras perde o CD+2 e
+    fica so com a rodada; Rede (0 dano) e a unica que continua com tudo.
+  ESCALA DA CLASSE apresentada uma vez, cedo (0 · 1 a 5 · 6 e 7). O corpo do texto nao
+    repete mais "de 1 a 5".
+
+O que mudou da v6 pra v7 (afeta manual e scripts):
+  SELO SEM BÔNUS: o +1 ponto na Classe 2+ saiu. Todo mundo tem Selo por obrigação,
+            então bônus universal era poder embutido sem decisão — e nunca entrou
+            na busca exaustiva nem nos 35 prontos. O Selo ficou: identidade + a
+            trava "Restrição que o Selo já obriga não devolve ponto". Isso fecha
+            o item aberto "Selo com preço".
+  TÉCNICA MÁXIMA ESCLARECIDA (regra igual, texto novo): dano fixo por faixa
+            (24/28/32d8), orçamento de montagem (8/8/12 pontos) que compra Forma
+            e Melhorias nos preços da MAIOR Classe, PE = 5 x maior Classe (25/30/35).
+            pac7.py agora confere as montagens (Fim da Linha gasta 8 de 8).
+  CORREÇÕES DE VALOR herdadas da v6:
+    - Tabela de Ampliar esquecia a devolução do Lento da Palma Trovejante
+      (dizia 3d8/4d8/7d8; o certo é 4d8/6d8/10d8 nas Classes 2/3/5).
+    - Fio Preso: com Fica, a duração sobe pro degrau seguinte — "até alguém
+      desfazer", não "por uma semana".
+    - "Cura não pode ser Forçada" ainda usava o nome antigo do v5; virou
+      "não existe Liberação Máxima de cura".
+    - Regra explícita nova: Melhoria que sobe mais degraus do que a escada tem
+      para no último degrau (já era o que o Fim da Linha assumia).
+  MANUAL REORGANIZADO: Liberação Máxima virou seção 6, Técnica Máxima seção 7;
+            seção 2 ganhou um exemplo guiado (Corte Medido, feitiço da Régua,
+            que também demonstra o desconto de Família Livre).

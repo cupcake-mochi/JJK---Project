@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Comparador de curvas — RPG da Guilda</title>
+<style>
+:root{--bg:#faf9f5;--card:#fff;--ink:#1c1b19;--ink2:#5f5e5a;--ink3:#898781;--line:#e1e0d9;--radius:8px}
+@media (prefers-color-scheme:dark){:root{--bg:#141413;--card:#1f1f1e;--ink:#f5f4ef;--ink2:#b4b2a9;--ink3:#898781;--line:#2c2c2a}}
+*{box-sizing:border-box}
+body{margin:0;padding:2rem 1.5rem;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.7}
+main{max-width:820px;margin:0 auto}
+h1{font-size:22px;font-weight:500;margin:0 0 .25rem}
+p.sub{color:var(--ink2);font-size:14px;margin:0 0 2rem}
+h2{font-size:16px;font-weight:500;margin:0 0 .5rem}
+.mch{display:inline-flex;align-items:center;gap:7px;font-size:13px;color:var(--ink2);cursor:pointer;padding:5px 9px;border:1px solid var(--line);border-radius:var(--radius);user-select:none}
+.mch input{margin:0}
+.sw{width:10px;height:10px;border-radius:2px;flex:none}
+button{font:inherit;font-size:13px;padding:6px 14px;background:transparent;color:var(--ink);border:1px solid var(--line);border-radius:var(--radius);cursor:pointer}
+button[aria-pressed="true"]{background:var(--card);border-color:var(--ink3)}
+.wrap{position:relative;width:100%;margin-bottom:1.75rem}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px}
+.card{background:var(--card);border-radius:var(--radius);padding:1rem}
+footer{margin-top:2.5rem;padding-top:1rem;border-top:1px solid var(--line);font-size:13px;color:var(--ink3)}
+</style>
+</head>
+<body>
+<main>
+<h1>Comparador de curvas de mecânica</h1>
+<p class="sub">Ferramenta de apoio ao projeto. Todas as mecânicas são calibradas para dar a mesma chance de sucesso no degrau 3 — o que se compara é o <strong>formato</strong> da curva, não o nível dela.</p>
+
+<div style="display:flex;gap:8px;align-items:center;margin-bottom:1rem;flex-wrap:wrap">
+  <span style="font-size:13px;color:var(--ink2);margin-right:4px">Dificuldade</span>
+  <button class="dbtn" data-diff="0.80" aria-pressed="false">Fácil</button>
+  <button class="dbtn" data-diff="0.55" aria-pressed="true">Média</button>
+  <button class="dbtn" data-diff="0.30" aria-pressed="false">Difícil</button>
+  <span id="cal" style="font-size:12px;color:var(--ink3);margin-left:auto"></span>
+</div>
+
+<div id="toggles" style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:1.5rem"></div>
+
+<h2>Chance de sucesso por degrau de poder</h2>
+<div class="wrap" style="height:280px"><canvas id="c1" role="img" aria-label="Chance de sucesso por degrau de poder, uma linha por mecânica"></canvas></div>
+
+<h2>O que o degrau seguinte comprou, em pontos percentuais</h2>
+<div class="wrap" style="height:250px"><canvas id="c2" role="img" aria-label="Ganho marginal de cada degrau de poder, por mecânica"></canvas></div>
+
+<div class="cards" id="cards"></div>
+
+<footer>
+Projeto RPG da Guilda · gerado na Fase 1 (pesquisa) · os números vêm de cálculo exato de distribuição, não de simulação.<br>
+Degrau de poder por mecânica: d20 ganha +2 de modificador por degrau · 2d6 e 3d6 ganham +1 · pool e "maior de Nd6" ganham um dado · escada de dado sobe d6+d6 → d6+d8 → d8+d8 → d8+d10 → d10+d12.
+</footer>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+(function(){
+const range=(a,b)=>{const r=[];for(let i=a;i<=b;i++)r.push(i);return r};
+function sumDist(sizes){let d={0:1};for(const s of sizes){const n={};for(const k in d){for(let f=1;f<=s;f++){const v=+k+f;n[v]=(n[v]||0)+d[k]/s}}d=n}return d}
+function pge(d,t){let s=0;for(const k in d)if(+k>=t)s+=d[k];return s}
+function C(n,k){let r=1;for(let i=0;i<k;i++)r=r*(n-i)/(i+1);return r}
+function binge(n,k){let s=0;for(let i=k;i<=n;i++)s+=C(n,i)*Math.pow(0.5,n);return s}
+const D2=sumDist([6,6]),D3=sumDist([6,6,6]);
+const LAD=[[6,6],[6,8],[8,8],[8,10],[10,12]].map(sumDist);
+
+const M=[
+ {id:'d20',label:'d20 + mod',c:'#2a78d6',th:range(3,27),p:(s,cd)=>Math.max(0.05,Math.min(0.95,(21-(cd-(s-1)*2))/20)),tl:v=>'CD '+v},
+ {id:'2d6',label:'2d6 + mod',c:'#eb6834',th:range(2,16),p:(s,t)=>pge(D2,t-(s-1)),tl:v=>'alvo '+v},
+ {id:'3d6',label:'3d6 + mod',c:'#1baf7a',th:range(3,20),p:(s,t)=>pge(D3,t-(s-1)),tl:v=>'alvo '+v},
+ {id:'pool',label:'pool Nd6, conta 4+',c:'#eda100',th:[1,2,3,4],p:(s,k)=>binge(s+1,k),tl:v=>v+'+ sucessos'},
+ {id:'blades',label:'maior de Nd6',c:'#e87ba4',th:[4,5,6],p:(s,t)=>1-Math.pow((t-1)/6,s),tl:v=>'maior '+v+'+'},
+ {id:'escada',label:'escada de dado',c:'#4a3aa7',th:range(3,23),p:(s,t)=>pge(LAD[s-1],t),tl:v=>'alvo '+v}
+];
+const ON={d20:true,'2d6':true,pool:true,blades:true,'3d6':false,escada:false};
+let DIFF=0.55;
+
+const tg=document.getElementById('toggles');
+M.forEach(m=>{
+ const l=document.createElement('label');l.className='mch';
+ l.innerHTML='<input type="checkbox" '+(ON[m.id]?'checked':'')+'><span class="sw" style="background:'+m.c+'"></span>'+m.label;
+ l.querySelector('input').addEventListener('change',e=>{ON[m.id]=e.target.checked;draw()});
+ tg.appendChild(l);
+});
+document.querySelectorAll('.dbtn').forEach(b=>b.addEventListener('click',()=>{
+ DIFF=parseFloat(b.dataset.diff);
+ document.querySelectorAll('.dbtn').forEach(x=>x.setAttribute('aria-pressed',x===b?'true':'false'));
+ draw();
+}));
+
+function calib(m){let best=m.th[0],bd=9;for(const t of m.th){const d=Math.abs(m.p(3,t)-DIFF);if(d<bd){bd=d;best=t}}return best}
+const css=v=>getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+let ch1,ch2;
+
+function draw(){
+ const act=M.filter(m=>ON[m.id]);
+ const cal=act.map(m=>({m:m,t:calib(m)}));
+ const curves=cal.map(o=>({o:o,v:[1,2,3,4,5].map(s=>o.m.p(s,o.t)*100)}));
+ document.getElementById('cal').textContent=cal.length?'calibrado no degrau 3 · '+cal.map(o=>o.m.tl(o.t)).join(' · '):'';
+ const dash=[[],[6,3],[2,2],[8,3,2,3],[4,4],[10,2]];
+ const ds1=curves.map(q=>({label:q.o.m.label,data:q.v.map(v=>+v.toFixed(1)),borderColor:q.o.m.c,backgroundColor:q.o.m.c,borderWidth:2,tension:0.25,pointRadius:4,pointBorderWidth:2,pointBorderColor:css('--card'),borderDash:dash[M.indexOf(q.o.m)]}));
+ const ds2=curves.map(q=>({label:q.o.m.label,data:q.v.slice(1).map((v,i)=>+(v-q.v[i]).toFixed(1)),backgroundColor:q.o.m.c,borderRadius:4,borderSkipped:false,maxBarThickness:22}));
+ const ink=css('--ink3'),gl=css('--line');
+ const base={responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.dataset.label+': '+c.parsed.y+' pp'}}},scales:{x:{grid:{display:false},border:{color:gl},ticks:{color:ink,font:{size:11}}},y:{grid:{color:gl},border:{display:false},ticks:{color:ink,font:{size:11}}}}};
+ const o1=JSON.parse(JSON.stringify(base));
+ o1.scales.y.min=0;o1.scales.y.max=100;
+ o1.plugins={legend:{display:false},tooltip:{callbacks:{label:c=>c.dataset.label+': '+c.parsed.y+'%'}}};
+ if(ch1)ch1.destroy();if(ch2)ch2.destroy();
+ ch1=new Chart(document.getElementById('c1'),{type:'line',data:{labels:['degrau 1','degrau 2','degrau 3','degrau 4','degrau 5'],datasets:ds1},options:o1});
+ ch2=new Chart(document.getElementById('c2'),{type:'bar',data:{labels:['1→2','2→3','3→4','4→5'],datasets:ds2},options:base});
+ document.getElementById('cards').innerHTML=curves.map(q=>{
+  const sw=q.v[4]-q.v[0];
+  return '<div class="card"><div style="display:flex;align-items:center;gap:6px;font-size:13px;color:var(--ink2);margin-bottom:6px"><span class="sw" style="background:'+q.o.m.c+'"></span>'+q.o.m.label+'</div><div style="font-size:24px;font-weight:500">'+Math.round(sw)+' pp</div><div style="font-size:12px;color:var(--ink3);margin-top:2px">do degrau 1 ao 5</div></div>';
+ }).join('');
+}
+draw();
+})();
+</script>
+</body>
+</html>

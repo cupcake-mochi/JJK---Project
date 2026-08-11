@@ -1,0 +1,25 @@
+# Backup da pasta antes da reorganizacao para git. Fica no disco, nao no repositorio.
+_backup/
+
+# O gerador do manual instala dependencia local
+manual/gerador/node_modules/
+manual/gerador/package-lock.json
+
+# O .docx gerado dentro da pasta do gerador e copia de trabalho —
+# o que vale e o de manual/Fundamento-MANUAL-v7.docx
+manual/gerador/Fundamento-MANUAL-v7.docx
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporarios de editor
+*~
+*.swp
+.~lock.*#

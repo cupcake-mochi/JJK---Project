@@ -1,0 +1,50 @@
+{
+  "reviews": [
+    {
+      "run_id": "eval-0-dominancia-restricao-with_skill",
+      "feedback": "Eu gostei da metodologia e pensamento, mas acredito que \"Vuneravel\" está sendo mal interpretado. Vuneravel em muitos sistemas de RPG não dão só vantagem, deixam o alvo receber o dobro ou 50% do dano como extra, por estar vuneravel, como em DnD. Isso é uma \"Vantagem\", em si estar vuneravel normalmente não concede o bonus da vantagem em si, mas sim um bonus no dano, como citado",
+      "timestamp": "2026-08-06T12:49:28.911Z"
+    },
+    {
+      "run_id": "eval-0-dominancia-restricao-without_skill",
+      "feedback": "Aqui também aborda o mesmo ponto que levantei na ultima questão, mas tem uma diferença interessante. Ele entendeu que gesto era mais na questão de gestualizar quando conjurar feitiços ou semelhantes, como no segundo exemplo.  A pontuação que ele levanta é bem semelhante a da com skill, aonde o pensamento cai encima da questão de ser um único ataque com vunerabilidade, o que tenho minhas ressalvas de opnião, mas não é ruim",
+      "timestamp": "2026-08-06T12:49:28.911Z"
+    },
+    {
+      "run_id": "eval-1-curva-teste-resistencia-with_skill",
+      "feedback": "A pontuação é interessante, por mais que o scalling de CD pareça um pouco surreal de certa forma. Ele fez bem em calcular da forma que fez, chegou em um resultado promissor mesmo assim\n",
+      "timestamp": "2026-08-06T12:49:28.911Z"
+    },
+    {
+      "run_id": "eval-1-curva-teste-resistencia-without_skill",
+      "feedback": "Nesse não tivemos a linha de calculo anterior, o que fez com que ele mesmo que acertasse em parte a resposta, não ficasse tão exata",
+      "timestamp": "2026-08-06T12:49:28.911Z"
+    },
+    {
+      "run_id": "eval-2-revisar-texto-de-regra-with_skill",
+      "feedback": "Aqui ele presumiu algumas informações e afirmou que fez isso, acredito que seja bom levantar perguntas antes de fazer essas ações",
+      "timestamp": "2026-08-06T12:49:28.911Z"
+    },
+    {
+      "run_id": "eval-2-revisar-texto-de-regra-without_skill",
+      "feedback": "Aqui ele esconde, mesmo dando pra ver que ele presumiu alguns fatores, ele não assume",
+      "timestamp": "2026-08-06T12:49:28.911Z"
+    },
+    {
+      "run_id": "eval-3-montar-leva-de-playtest-with_skill",
+      "feedback": "O porque ele não conseguiu lidar com o \"Diz quando PARAR de testar\"? Que é o unico teste que ele falhou",
+      "timestamp": "2026-08-06T12:49:28.911Z"
+    },
+    {
+      "run_id": "eval-3-montar-leva-de-playtest-without_skill_fria",
+      "feedback": "Aqui tivemos bem mais falhas, os resultado são até semelhantes, ou parecem semelhantes, mas são diferentes em sua essencia, a skill anda sendo melhor",
+      "timestamp": "2026-08-06T12:49:28.911Z"
+    },
+    {
+      "run_id": "eval-3-montar-leva-de-playtest-without_skill_morna",
+      "feedback": "Na segunda tentativa ele falhou menos, mas segue falhando mais que com skill, é um bom resultado do uso da skill",
+      "timestamp": "2026-08-06T12:49:28.911Z"
+    }
+  ],
+  "status": "complete"
+}

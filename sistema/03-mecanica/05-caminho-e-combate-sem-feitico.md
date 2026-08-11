@@ -1,0 +1,128 @@
+# CAMINHO E COMBATE SEM FEITIÇO
+
+**Fase 4, quinta peça.** O chassi do personagem e como alguém luta com o corpo num sistema onde o poder mora na técnica.
+Versão v0.13, corrigida na v0.15 e na v0.24 — 08/08/2026
+
+As duas coisas andam juntas porque o Caminho é o lugar natural onde o combatente físico existe sem quebrar a economia do Fundamento.
+
+> **Duas partes desta peça foram substituídas pela peça 6.** A seção 3 dizia que o golpe canalizado soma arma e Força — está corrigido abaixo, e a conta que derruba isso está na peça 6, seção 3. O quadro de Caminhos da seção 4 era rascunho: os nomes definitivos são **Bastião · Vanguarda · Guia · Emanador · Evocador**. O resto da peça continua valendo.
+
+---
+
+## 1. O trabalho de Força
+
+Força governa **ataque corpo a corpo, agarrar, quebrar, Atletismo, capacidade de carga e requisito de arma e de proteção**. Armas de dado maior e uniformes mais pesados exigem Força mínima; quem luta com Destreza fica nas armas leves.
+
+Isso é o modelo clássico do d20, e ele tem uma armadilha conhecida que vale medir antes de aceitar.
+
+**Destreza faz mais coisas.** Ela dá ataque à distância, **Defesa**, **iniciativa**, quatro perícias e uma opção no Teste de Resistência Físico. Força dá ataque corpo a corpo, uma perícia, a mesma opção de TR e o acesso a equipamento. Para empatar, a arma pesada precisa devolver em dano o que Destreza entrega em defesa:
+
+| nível | inimigo bate | quanto +1 de Destreza evita num combate de 3 rodadas |
+|---|---|---|
+| 5 | 15 por rodada | ~2 de dano |
+| 10 | 26 por rodada | ~4 de dano |
+| 15 | 38 por rodada | ~6 de dano |
+| 20 | 49 por rodada | ~7 de dano |
+
+Um dado de arma maior — 1d10 no lugar de 1d6 — rende cerca de **+2 por golpe**. Isso empata o valor defensivo por volta do nível 5 e fica para trás depois, sem contar iniciativa e as três perícias extras.
+
+**Conclusão: requisito de arma resolve o acesso, não o balanço.** Ele dá a Força um trabalho real e é bom que exista, mas não é ele que impede Destreza de dominar. O que resolve está na seção 3, e não tem a ver com armas.
+
+## 2. Uma arma sozinha não cabe no jogo
+
+Este é o achado da peça, e ele muda o desenho.
+
+O Fundamento tem uma coluna chamada **Rotina**: o dano por rodada que um personagem deveria estar entregando em cada faixa. E o manual já avisa, numa nota de rodapé, que *"se a sua mesa tem uma classe que bate em vez de conjurar, o dano dela por rodada precisa ficar na coluna Rotina"*.
+
+Rodando a conta:
+
+| nível | Rotina | arma 1d10 + Força | quanto falta |
+|---|---|---|---|
+| 2 | 13 | 8,5 | 1,5× |
+| 10 | 45 | 9,5 | 4,7× |
+| 20 | ~99 | 10,5 | 9,4× |
+| 30 | 126 | 11,5 | 11× |
+
+**Uma arma entrega entre 7% e 65% do que a coluna pede, e a diferença cresce.** Não é escolha de dado: trocar d6 por d12 muda três pontos numa lacuna de cem. Falta uma ordem de grandeza inteira.
+
+Nenhuma quantidade de requisito de Força, nenhuma tabela de arma e nenhum ajuste de dado conserta isso. O combatente físico precisa de outra coisa.
+
+## 3. Canalizar Energia
+
+A obra já deu a resposta, e ela é uma das aptidões básicas que todo feiticeiro tem: **você empurra energia amaldiçoada pelo corpo e pela arma.** É por isso que um feiticeiro consegue ferir uma maldição e uma pessoa comum não.
+
+A forma mecânica cai sozinha quando você olha os números:
+
+> **Um golpe canalizado é um feitiço de Forma Toque, sem Melhoria e sem Restrição.**
+> Mesma Classe, mesmo orçamento de pontos, mesmo custo em PE. Os pontos viram dados de dano — **e nada mais entra**: o golpe canalizado não soma arma nem Força.
+
+**Corrigido na v0.15.** A primeira versão desta linha dizia que o golpe ainda somava arma e Força por cima. Não fecha: com os dois somados e ataque extra, o físico fica **131% acima da Rotina no nível 2**. Arma e Força são o que você faz quando **não** canaliza. A conta está na peça 6, seção 3.
+
+Não foi uma escolha estética. Foi o que a conta apontou:
+
+| nível | dados de energia que faltam para o golpe atingir a Rotina | pontos que a Classe do nível dá |
+|---|---|---|
+| 2 | 1 | 3 |
+| 10 | 8 | 9 |
+| 14 | 12 | 12 |
+| 18 | 16 | 15 |
+
+As duas colunas andam juntas porque são a mesma economia. O golpe canalizado não é uma mecânica nova — é o **feitiço vazio**, o que sobra quando você tira toda a customização de um feitiço e fica só com o orçamento bruto.
+
+E é exatamente por isso que ele é a aptidão básica de todo feiticeiro, e por que ter uma técnica continua sendo melhor: **a técnica compra Melhorias, o golpe não.** O mesmo orçamento, gasto no formato mais burro possível, entrega dano num alvo só e nada mais. Sem área, sem alcance, sem condição, sem escolher quem é atingido.
+
+### O que isso explica de graça
+
+**Maki.** Sem energia amaldiçoada, ela não canaliza — o golpe dela fica nos 8,5 da tabela acima, que é dano de pessoa comum. Ela só compete porque a **ferramenta amaldiçoada carrega a energia por ela**. O sistema explica a personagem sem precisar de regra especial: uma arma que canaliza sozinha é um item caríssimo, e é assim que ela deve ser precificada.
+
+**Por que socar é a saída quando o PE acaba.** O golpe sem canalizar é o equivalente físico do feitiço de Classe 0: pequeno, grátis, sempre disponível.
+
+**Por que o combatente físico não tem Liberação Máxima.** O manual já dizia isso e agora tem motivo: Liberação é o pico que rompe o teto de dano num alvo, e o golpe canalizado já vive no teto de um alvo o tempo todo, sem gastar montagem.
+
+## 4. O Caminho
+
+O chassi. **Escolhido na criação**, com poucas escolhas de Trilha ao longo dos níveis.
+
+### A trava
+
+> **O Caminho não dá poder novo. Ele muda o que o seu poder alcança.**
+
+Um Caminho mexe em **posicionamento, alvo, duração e recuperação**. Nunca em número de dano.
+
+O motivo é o pilar 1: a técnica é a identidade. Se o Caminho desse dano, dois personagens do mesmo Caminho começariam a se parecer, e a coisa que os distingue — a técnica que cada um escreveu — perderia espaço.
+
+### O que um Caminho pode conceder
+
+- Treino em perícias e em um Teste de Resistência — **duas perícias fixas e quatro à escolha livre**, mais um ofício fixo e outro livre (peça 7)
+- Mover-se, reposicionar, forçar reposicionamento alheio
+- Escolher ou trocar alvo de um efeito que já existe
+- Estender duração de um efeito que já existe
+- Recuperar — PE, ferimento, condição, Integridade
+- Trocar o valor fixo do ataque de conjuração por um atributo
+- Abrir exceção estreita e paga na economia de ação
+
+O último item é a resposta à sua observação sobre ataque de oportunidade: uma Trilha **pode** deixar o personagem conjurar na Reação, mas sob condição estreita — uma vez por cena, ou só com feitiço de Classe baixa. Como recurso de um caminho específico, não como direito universal. A Melhoria Reação continua valendo o que vale.
+
+### O que um Caminho não pode conceder
+
+- Dados de dano
+- Aumento de Classe de feitiço
+- Melhoria de graça
+- Cura, que é Forma de feitiço — quem fechou a Família Amparo nunca vai curar, e nenhum Caminho contorna isso
+
+### Os papéis moram na peça 6
+
+**Bastião · Vanguarda · Guia · Emanador · Evocador**, cinco em vez dos quatro que ficavam aqui. *O quadro de rascunho foi para `99-arquivo/secoes-substituidas/`.*
+
+Duas coisas dele sobreviveram e valem independente dos nomes:
+
+**Nenhum Caminho cura.** Ele faz o efeito de cura de outra pessoa alcançar mais gente, durar mais ou chegar mais longe — a cura continua sendo Forma de feitiço.
+
+**O Caminho de corpo é onde Força passa a valer.** É ele que transforma "aguentar e ser encarado" em função de equipe. Na v0.19 isso ganhou número: o Bastião tem d12 de vida contra o d6 do Emanador.
+
+## 5. Em aberto
+
+- **Quantas Trilhas por Caminho**, e em que níveis elas abrem.
+- **A tabela de armas.** Quais dados, quais requisitos de Força, e se arma leve tem alguma compensação além do requisito baixo.
+- **Quanto custa uma ferramenta amaldiçoada que canaliza sozinha.** É a peça que faz o personagem sem energia existir, e ela precisa ser cara o suficiente para não virar o padrão.
+- **Se o golpe canalizado tem teto próprio.** Hoje ele herda o do Fundamento, e vale conferir no validador junto com os 35 feitiços prontos.

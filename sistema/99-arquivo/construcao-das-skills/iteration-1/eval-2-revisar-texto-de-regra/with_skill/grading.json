@@ -1,0 +1,50 @@
+{
+  "expectations": [
+    {
+      "text": "Entrega o texto reescrito, nao so conselhos sobre ele",
+      "passed": true,
+      "evidence": "padrao encontrado nas saidas"
+    },
+    {
+      "text": "Define 'condicao' antes de usar o termo",
+      "passed": true,
+      "evidence": "padrao encontrado nas saidas"
+    },
+    {
+      "text": "Poe o caso padrao antes da excecao",
+      "passed": true,
+      "evidence": "padrao encontrado nas saidas"
+    },
+    {
+      "text": "Converte a lista de condicoes em tabela",
+      "passed": true,
+      "evidence": "padrao encontrado nas saidas"
+    },
+    {
+      "text": "Inclui exemplo jogavel concreto",
+      "passed": true,
+      "evidence": "padrao encontrado nas saidas"
+    },
+    {
+      "text": "Lista o que mudou e por que cada mudanca conserta algo",
+      "passed": true,
+      "evidence": "padrao encontrado nas saidas"
+    },
+    {
+      "text": "Sinaliza problema do original que NAO e de redacao (lacuna de regra)",
+      "passed": true,
+      "evidence": "padrao encontrado nas saidas"
+    }
+  ],
+  "summary": {
+    "passed": 7,
+    "failed": 0,
+    "total": 7,
+    "pass_rate": 1.0
+  },
+  "timing": {
+    "total_duration_seconds": 428.1
+  },
+  "condicao_rotulo": "COM SKILL — leu o SKILL.md e os arquivos de apoio",
+  "ressalva": "assercoes post-hoc, correcao automatica por padrao de texto"
+}

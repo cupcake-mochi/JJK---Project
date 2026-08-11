@@ -1,0 +1,50 @@
+{
+  "expectations": [
+    {
+      "text": "Propoe medir DIVERGENCIA entre mestres — a metrica propria do caso multi-mestre",
+      "passed": true,
+      "evidence": "padrao encontrado nas saidas"
+    },
+    {
+      "text": "Estrutura a leva em bloco tematico com prazo definido",
+      "passed": true,
+      "evidence": "padrao encontrado nas saidas"
+    },
+    {
+      "text": "Define o ciclo em numero de pessoas e rodadas",
+      "passed": true,
+      "evidence": "padrao encontrado nas saidas"
+    },
+    {
+      "text": "Distingue o que perguntar ao mestre do que perguntar ao jogador",
+      "passed": true,
+      "evidence": "padrao encontrado nas saidas"
+    },
+    {
+      "text": "Trata o risco especifico ao personagem persistente",
+      "passed": true,
+      "evidence": "padrao encontrado nas saidas"
+    },
+    {
+      "text": "Entrega artefato pronto para usar como arquivo separado",
+      "passed": true,
+      "evidence": "padrao encontrado nas saidas"
+    },
+    {
+      "text": "Diz quando PARAR de testar",
+      "passed": true,
+      "evidence": "padrao encontrado nas saidas"
+    }
+  ],
+  "summary": {
+    "passed": 7,
+    "failed": 0,
+    "total": 7,
+    "pass_rate": 1.0
+  },
+  "timing": {
+    "total_duration_seconds": 768.9
+  },
+  "condicao_rotulo": "COM SKILL — leu o SKILL.md e os arquivos de apoio",
+  "ressalva": "assercoes post-hoc, correcao automatica por padrao de texto"
+}

@@ -1,0 +1,166 @@
+GERADOR DO MANUAL — Fundamento v7.6
+
+Recria o .docx do zero. Precisa de Node.js.
+
+  npm install docx
+  node make.js
+
+Sai um .docx com sumário, estilos e todas as tabelas formatadas.
+
+ONDE MEXER
+  helpers.js  estilos, cores, funções de tabela e caixa. Mexa aqui pra mudar
+              paleta, fonte ou espaçamento. As cores estão no objeto C, no topo.
+              Paleta: ameixa, base 741B47 (v4+). Os nomes 'crimson' e 'deep' são
+              históricos (as versões 1 a 3 usavam vinho) e foram mantidos pra
+              não quebrar as referências.
+  partA.js    capa, sumário, "Começando" (sistema numa página, números, energia,
+              Classe 0, o dado)
+  partB.js    seção 1 Fundamento (com Selo v7 e Passivas) e os Três Fundamentos
+              prontos
+  partC.js    seção 2 Montar um feitiço, com o exemplo guiado do Corte Medido
+  partD.js    seção 3 Melhorias e seção 4 Restrições (os catálogos)
+  partE.js    seções 5 a 9: Fora de combate · Liberação Máxima · Técnica Máxima ·
+              Regras de ouro · Progressão
+  partF.js    seção 10 Feitiços prontos, seção 11 Para o mestre (com Integridade)
+              e o Apêndice
+  make.js     monta tudo e define a ordem das seções
+
+ORDEM DAS SEÇÕES (v7)
+  Começando → 1 Fundamento (Descrição · Regra · Famílias · Selo · Passivas) →
+  Três Fundamentos prontos → 2 Montar (com exemplo guiado) → 3 Melhorias →
+  4 Restrições → 5 Fora de combate → 6 Liberação Máxima → 7 Técnica Máxima →
+  8 Regras de ouro → 9 Progressão → 10 Feitiços prontos → 11 Para o mestre →
+  Apêndice
+
+O QUE MUDOU NA v7.6
+  - PASSIVA "Casca" DELETADA e "Escama" no lugar (partB.js). A Casca era o ultimo
+    caso de reducao de dano PASSIVA que sobrou depois da Reforco, e ela caia na
+    mesma decisao de design. Tres motivos, e os tres sao conta:
+      "dano fisico" aparecia UMA vez no manual inteiro — dentro da propria Casca.
+        Termo indefinido, e dois mestres leem diferente.
+      RD corta o mesmo valor de CADA golpe, e o manual da dano POR RODADA, nunca
+        quantos golpes. A Casca valia de 6% a 42% conforme um numero que nao existe.
+      A Melhoria Fura ignora 3 x Classe de RD. Um ponto numa Classe 1 ja apagava
+        a Casca inteira, em qualquer nivel.
+    A Escama e outra aposta, nao uma Casca mais fraca: resistencia a UM tipo, metade
+    do dano, presa ao que a Regra justifique. Vale 5 a 9x mais quando o tipo bate e
+    ZERO quando nao bate — e o tipo e escrito na criacao, antes de saber o que a
+    campanha manda, entao o jogador aposta em vez de otimizar.
+    O nome passou pelo conferir-nomes.py --candidatos junto com onze outros; Berco e
+    Familiar morreram na triagem.
+  - "RESISTENCIA" GANHOU DEFINICAO (partB.js). Ela era usada 3x — Afinidade, Corroi,
+    Purga Escarlate — e nunca explicada. Agora: metade do dano daquele tipo, sempre
+    presa a um tipo. Com isso a Afinidade e a Corroi passam a ter o que cancelar, e
+    a Escama nasce com dois counters que ja existiam.
+  - REGRA ESCRITA na lista "o que nenhuma Passiva paga pode fazer" (partB.js):
+    reducao de dano passiva nao existe. A decisao estava so no changelog do projeto;
+    agora esta onde a proxima pessoa vai procurar.
+  - RESTRICAO "Fraqueza" (partD.js) citava "Habilidade" e "Sabedoria" — vocabulario
+    de outro sistema, mesma familia do "Bonus de Treinamento" que a v7.5 tirou da
+    Reforco. Aqui os cinco se chamam ATRIBUTOS e nao existe Sabedoria (ela e o
+    Carisma fundiram em Essencia). Pior: o preco dela citava atributo, e os Testes
+    de Resistencia daqui sao quatro (Fisico, Vigor, Intelecto, Espirito) e o Fisico
+    usa Forca OU Destreza, entao a traducao nem era um pra um.
+    Novo preco: Vigor ou Intelecto Leve, Fisico ou Espirito Media.
+  - RESTRICAO "Carregar" (partD.js) dizia "teste de Constituicao" — teste nomeado
+    pelo atributo, que aqui nao existe. E dizia "um turno concentrado", o que fazia
+    ela parecer a mesma regra que Concentracao. Sao coisas diferentes e o proprio
+    texto ja dizia: em Concentracao "o efeito cai" (voce tinha), em Carregar "perde
+    o feitico" (ainda nao tinha saido).
+    Agora: Concentracao e TR VIGOR (peca 3 do projeto) e vale pro que ja esta no ar;
+    Carregar e TR ESPIRITO e vale pro feitico que ainda nao saiu. Saiu a palavra
+    "concentrado" do texto do Carregar.
+  - PASSIVA "Mao Firme" (partB.js) passou a dizer "nao perde concentracao NEM CARGA",
+    explicito, porque com a divisao acima o nome dela sozinho nao alcancava o Carregar.
+  - NOVO VALIDADOR do lado do projeto: 03-mecanica/conferir-manual.py. Ele varre o
+    manual procurando vocabulario que este sistema nao tem, teste nomeado pelo
+    atributo, termo mecanico sem definicao, e confere que os numeros que o projeto
+    COPIOU daqui (a tabela de PE, a de inimigo, a coluna Rotina) continuam batendo.
+    E a direcao que faltava: o conferir-nomes.py so olhava projeto -> manual.
+  - Estrutura: 328 paragrafos (eram 326 — entraram a definicao de resistencia e a
+    linha nova da lista do "nao pode") e 76 tabelas. pac7.py e v7.py passam.
+  - O PDF NAO foi regerado: ele e exportado a mao. O .docx e o .zip estao na v7.6,
+    o .pdf continua na v7.4.
+
+O QUE MUDOU NA v7.5
+  - TEMA "Barreira" virou "Bloqueio" (partF.js, catalogo de temas) e a MELHORIA
+    "Barreira" virou "Anteparo" (partD.js). Motivo: o sistema em volta vai ter a
+    aptidao "Barreira Simples", que e nome da obra e nao tem pra onde fugir.
+    Tres coisas mecanicas diferentes nao podem chamar Barreira.
+    Mexeu tambem no feitico pronto MURALHA (partF.js) e em pac7.py (3 lugares).
+    A prosa em minuscula ("dano dobrado contra barreiras", "cancela uma barreira")
+    FICA: agora ela aponta certo para a aptidao, que e o que barreira passou a ser.
+  - PASSIVA "Reversao" virou "Recomposicao" (partB.js). Motivo: a aptidao de cura
+    do sistema em volta se chama Energia Reversa. A Passiva continua existindo e e
+    a cura INATA, vinda da tecnica; a aptidao e a cura APRENDIDA, que gasta PE.
+    Sao economias diferentes e as duas precisam existir.
+  - PASSIVA "Reforco" DELETADA (partB.js). Dois motivos: ela citava "Bonus de
+    Treinamento", numero que nao existe neste sistema (o nosso e a Maestria), e
+    era o unico termo orfao de outro sistema que sobrou no manual. E a decisao de
+    design e que NAO existe reducao de dano passiva.
+    ATENCAO: a Passiva "Casca" (Classe 3, RD 2 que vira 4 no nivel 15) cai na mesma
+    regra e NAO foi mexida. Decidir antes de fechar a v7.6.
+  - TECNICA MAXIMA nao e Expansao de Dominio (partE.js). O texto anterior dizia que
+    numa tecnica feita de dominio o dominio ERA a Tecnica Maxima. Nao e: a Tecnica
+    Maxima e o topo da tecnica inata, e o dominio e a tecnica estendida sobre o
+    territorio. Expansao vai morar na criacao de personagem, presa a refino e nivel
+    e comprada trocando espacos de feitico.
+  - PASSIVA "Dominio" virou "Afinidade" (partB.js). Ela escolhe um tema da Regra e
+    fura cobertura leve — nao tem nada a ver com Expansao de Dominio. O sistema em
+    volta vai ter Dominio Simples e Extensao de Dominio, que sao nomes da obra.
+    Mesmo caso da Barreira: quem muda e o lado menos entranhado.
+  - Estrutura: 326 paragrafos (era 325 — a linha do dominio virou duas) e 76
+    tabelas. pac7.py e v7.py passam.
+  - O PDF NAO foi regerado: ele e exportado a mao. O .docx e o .zip estao na v7.5,
+    o .pdf continua na v7.4.
+
+O QUE MUDOU NA v7.4
+  - GRAU virou CLASSE em todo o manual. Motivo: "grau" e o termo da obra pra
+    patente do feiticeiro (grau 1, grau especial), e a Guilda ja fala assim ha
+    anos. Dois significados pra mesma palavra no mesmo material.
+  - NAO E find/replace: Grau e masculino, Classe e feminino. 243 linhas mudaram,
+    e 10 precisaram de concordancia manual ("do Grau" -> "da Classe", "um Grau"
+    -> "uma Classe", "Ele define" -> "Ela define"). Se reintroduzir texto novo,
+    lembre do genero.
+  - A prosa "se a sua mesa tem uma classe que bate em vez de conjurar" (partF.js)
+    virou "um tipo de personagem que bate": ela colidiria com o termo novo.
+  - pac7.py e v7.py passam. A estrutura nao mudou: 325 paragrafos, 76 tabelas.
+
+O QUE MUDOU NA v7.3
+  - LENTO virou Média e AQUECER virou Leve (partD.js). Mexeu em: o exemplo de
+    abertura da Lança Negra (partA.js), a tabela de Ampliar (partC.js) e seis
+    feitiços prontos (partF.js). Rode pac7.py antes de gerar.
+
+O QUE MUDOU NA v7.2
+  - RESTRIÇÃO PRÓPRIA no fim da seção 4 (partD.js), espelho do Efeito Próprio.
+    Devolve Leve ou Média — NUNCA Pesada (o fecho de 2 x Classe depende disso).
+    A régua de preço também entrou na tabela do mestre em partF.js.
+  - Banca perdeu a Técnica Máxima (partB.js). Os três Fundamentos prontos agora
+    param todos na criação de personagem.
+  - Sumário ganhou subitens para as seções 3 e 4 (partA.js).
+
+O QUE MUDOU NA v7.1
+  - Regra de CONTROLE nova: +1 rodada com dano <= 1/4 do teto; CD +2 so com dano
+    ZERO. O degrau da metade saiu (era automatico). Seis feiticos prontos tiveram a
+    duracao do efeito ajustada em partF.js — as montagens nao mudaram.
+  - Escala da Classe (0 a 7) apresentada numa tabela em partA.js. Nao reintroduzir
+    "de 1 a 5" no corpo do texto.
+  - BOX tambem nao racha mais entre paginas (cantSplit).
+
+O QUE MUDOU NA v7 (importa pra edições futuras)
+  - Selo NÃO dá mais +1 ponto na Classe 2+. Se reintroduzir qualquer bônus de
+    Selo, ele precisa entrar também na busca exaustiva (matematica/v7.py).
+  - Liberação Máxima tem seção própria (6); Técnica Máxima é a 7. Referências
+    cruzadas de seção foram todas renumeradas — cuidado ao citar "seção N".
+  - Técnica Máxima: "pontos de montagem" compram Forma + Melhorias nos preços
+    da MAIOR Classe. O dano é fixo e o PE é 5 × maior Classe. Os três números são
+    independentes; o manual explica isso num box.
+  - Todo número que aparece no texto é conferido por matematica/pac7.py.
+    Mudou valor de exemplo, feitiço pronto ou tabela? Rode ele antes de gerar.
+
+REGRA DE MONTAGEM (aprendida na v4, não quebrar)
+  Nunca colar BOX(...) direto em cima de TBL(...): o importador do Google Docs
+  funde as duas tabelas e a de baixo colapsa numa coluna. Sempre meter um
+  GAP() entre BOX e TBL.
+
+O texto é markdown leve dentro das strings: **negrito**, *itálico*, `código`.

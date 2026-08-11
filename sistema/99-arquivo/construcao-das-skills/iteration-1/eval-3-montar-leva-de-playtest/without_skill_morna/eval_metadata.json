@@ -1,0 +1,21 @@
+{
+  "eval_id": 3,
+  "eval_name": "eval-3-montar-leva-de-playtest",
+  "skill_avaliada": "playtesting-rpg",
+  "prompt": "Meu server de RPG tem entre 5 e 7 mestres ativos, e toda semana 2 ou 3 deles rodam mesa em dias diferentes. Os personagens sao persistentes. Quero testar a primeira versao do sistema de combate. Como eu organizo isso?",
+  "condicao": "without_skill_morna",
+  "condicao_rotulo": "BASELINE MORNA — sem skill, mas com acesso a pasta do projeto (leu o dossie da Fase 1)",
+  "configuration": "without_skill",
+  "run_number": 1,
+  "assertions": [
+    "Propoe medir DIVERGENCIA entre mestres — a metrica propria do caso multi-mestre",
+    "Estrutura a leva em bloco tematico com prazo definido",
+    "Define o ciclo em numero de pessoas e rodadas",
+    "Distingue o que perguntar ao mestre do que perguntar ao jogador",
+    "Trata o risco especifico ao personagem persistente",
+    "Entrega artefato pronto para usar como arquivo separado",
+    "Diz quando PARAR de testar"
+  ],
+  "assertions_post_hoc": true,
+  "correcao": "automatica (padrao de texto e presenca de arquivo)"
+}

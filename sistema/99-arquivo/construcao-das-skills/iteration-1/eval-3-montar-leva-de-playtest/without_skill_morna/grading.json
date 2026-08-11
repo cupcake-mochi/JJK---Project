@@ -1,0 +1,50 @@
+{
+  "expectations": [
+    {
+      "text": "Propoe medir DIVERGENCIA entre mestres — a metrica propria do caso multi-mestre",
+      "passed": true,
+      "evidence": "padrao encontrado nas saidas"
+    },
+    {
+      "text": "Estrutura a leva em bloco tematico com prazo definido",
+      "passed": true,
+      "evidence": "padrao encontrado nas saidas"
+    },
+    {
+      "text": "Define o ciclo em numero de pessoas e rodadas",
+      "passed": true,
+      "evidence": "padrao encontrado nas saidas"
+    },
+    {
+      "text": "Distingue o que perguntar ao mestre do que perguntar ao jogador",
+      "passed": false,
+      "evidence": "padrao ausente em todas as saidas desta execucao"
+    },
+    {
+      "text": "Trata o risco especifico ao personagem persistente",
+      "passed": true,
+      "evidence": "padrao encontrado nas saidas"
+    },
+    {
+      "text": "Entrega artefato pronto para usar como arquivo separado",
+      "passed": true,
+      "evidence": "padrao encontrado nas saidas"
+    },
+    {
+      "text": "Diz quando PARAR de testar",
+      "passed": false,
+      "evidence": "padrao ausente em todas as saidas desta execucao"
+    }
+  ],
+  "summary": {
+    "passed": 5,
+    "failed": 2,
+    "total": 7,
+    "pass_rate": 0.714
+  },
+  "timing": {
+    "total_duration_seconds": 712.4
+  },
+  "condicao_rotulo": "BASELINE MORNA — sem skill, mas com acesso a pasta do projeto (leu o dossie da Fase 1)",
+  "ressalva": "assercoes post-hoc, correcao automatica por padrao de texto"
+}

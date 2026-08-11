@@ -1,0 +1,45 @@
+{
+  "expectations": [
+    {
+      "text": "Nomeia o conceito de dominancia explicitamente",
+      "passed": false,
+      "evidence": "padrao ausente em todas as saidas desta execucao"
+    },
+    {
+      "text": "Compara as tres desvantagens entre si, nao so avalia a nova isolada",
+      "passed": true,
+      "evidence": "padrao encontrado nas saidas"
+    },
+    {
+      "text": "Identifica que o custo de Vulneravel escala com o numero de inimigos",
+      "passed": true,
+      "evidence": "padrao encontrado nas saidas"
+    },
+    {
+      "text": "Propoe um conserto concreto com preco, nao so aponta o problema",
+      "passed": true,
+      "evidence": "padrao encontrado nas saidas"
+    },
+    {
+      "text": "Separa o que e conta do que e opiniao",
+      "passed": false,
+      "evidence": "padrao ausente em todas as saidas desta execucao"
+    },
+    {
+      "text": "Levanta risco de arbitragem entre mestres diferentes",
+      "passed": false,
+      "evidence": "padrao ausente em todas as saidas desta execucao"
+    }
+  ],
+  "summary": {
+    "passed": 3,
+    "failed": 3,
+    "total": 6,
+    "pass_rate": 0.5
+  },
+  "timing": {
+    "total_duration_seconds": 470.6
+  },
+  "condicao_rotulo": "BASELINE MORNA — sem skill, mas com acesso a pasta do projeto (leu o dossie da Fase 1)",
+  "ressalva": "assercoes post-hoc, correcao automatica por padrao de texto"
+}

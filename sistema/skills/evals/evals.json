@@ -1,0 +1,31 @@
+{
+  "skill_set": "rpg-guilda",
+  "evals": [
+    {
+      "id": 0,
+      "name": "dominancia-restricao",
+      "skill": "design-mecanicas-rpg",
+      "prompt": "No meu RPG, feitiços são montados com pontos e você pode aceitar desvantagens pra recuperar pontos. Duas delas: 'Parado' (você não se move no turno em que conjura) e 'Gesto' (precisa das duas mãos livres e falar em voz alta). As duas devolvem o mesmo tanto: metade do Grau, arredondando pra cima. Quero adicionar uma terceira, 'Vulnerável' (até o fim do seu próximo turno, ataques contra você têm vantagem), também devolvendo metade do Grau. Tá certo esse preço?",
+      "expected_output": "Análise de dominância entre as três, checagem de teto/orçamento, e recomendação de preço com justificativa. Não só uma opinião."
+    },
+    {
+      "id": 1,
+      "name": "curva-de-teste-resistencia",
+      "skill": "balanceamento-simulacao",
+      "prompt": "Meu sistema usa d20. Um feitiço de área faz o alvo rolar Teste de Resistência: passou, toma metade do dano. A CD é 8 + metade do nível do conjurador + 2 se ele comprou a melhoria Precisão. Os inimigos têm bônus de resistência de +2 no nível 1 subindo pra +8 no nível 20. Isso fica bom ou os inimigos vão passar sempre? E se eu trocar pra 3d6 no lugar do d20, muda muito?",
+      "expected_output": "Cálculo real das taxas de sucesso em cada nível, comparação d20 vs 3d6 com números, e leitura de design do que os números implicam."
+    },
+    {
+      "id": 2,
+      "name": "revisar-texto-de-regra",
+      "skill": "redacao-acessivel-rpg",
+      "prompt": "Revisa esse trecho do meu manual pra ficar acessível pra quem nunca jogou RPG:\n\n'CONDIÇÕES\nSalvo disposição em contrário, condições impostas por feitiços persistem até o final do próximo turno do alvo. Condições Menores incluem Derrubado, Lento, Cego, Agarrado, Surdo e Desarmado, sendo que a aplicação de uma Condição Menor requer a aquisição da Melhoria homônima, de custo Médio. Condições Maiores, de custo Pesado, compreendem Atordoado, Paralisado, Amedrontado e Enfeitiçado. Nenhuma condição pode ser aplicada a um alvo que possua imunidade à mesma, e efeitos de Controle não são cumulativos entre si quando originários do mesmo feitiço.'"
+    },
+    {
+      "id": 3,
+      "name": "montar-leva-de-playtest",
+      "skill": "playtesting-rpg",
+      "prompt": "Meu server de RPG tem entre 5 e 7 mestres ativos, e toda semana 2 ou 3 deles rodam mesa em dias diferentes. Os personagens são persistentes: o mesmo personagem passa por mesas de mestres diferentes. Quero testar a primeira versão do sistema de combate. Como eu organizo isso?"
+    }
+  ]
+}

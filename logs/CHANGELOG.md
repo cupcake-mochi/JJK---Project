@@ -1,0 +1,1648 @@
+# Changelog
+
+Registro do que muda entre uma leva de material e a seguinte. Cada versão fecha quando o material daquela fase é revisado e aprovado.
+
+Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Removido` e `Decidido` (decisão de design que fecha uma pergunta em aberto).
+
+---
+
+## [0.27] — 2026-08-11
+
+A peça de aptidões, que o `arquitetura.md` chama de *"o risco maior da estrutura inteira"*. Ela sai **com quatro das catorze entradas em branco**, e isso é decisão: elas contam o Acerto de uma Expansão de Domínio, e a Expansão só ganha regra na v7.7 do manual.
+
+**Sétimo validador.** E a escolha de marco deixou de ter duas opções.
+
+### Adicionado — `03-mecanica/11-aptidoes-e-refino.md` e `conferir-aptidoes.py`
+
+Sete checagens, e sete perturbações conferidas: aptidão escalando eixo proibido, o divisor de cobrir-se deixando de dar +3, a Reação com saldo negativo, kokusen grande demais para ser só grito, gate de refino que não separa as rotas, Passiva grátis deixando de ocupar vaga, e a linha passiva do marco removida.
+
+### Decidido — o refino é a métrica geral das aptidões, e a trava é outra
+
+Até aqui o refino era um contador. Ele subia nos marcos, tinha teto 10 e destravava aptidão — e **entre um refino 3 e um refino 10, no mesmo nível, com as mesmas aptidões, nada mudava na ficha.** A intenção estava escrita no `arquitetura.md` desde a Fase 3 (*"o refino governa confiabilidade e custo"*) e nunca tinha virado número.
+
+Agora ele é requisito **e** tamanho, e entra no texto de cada aptidão **como variável**, no molde que o manual já usa para `sua maior Classe`. Cada aptidão declara o próprio teto — nem toda uma usa o valor cheio.
+
+**A trava proposta pelo `arquitetura.md` era *"aptidão não produz dano e não escala com nível"*, e ela foi escrita antes de existir régua.** Com a régua das Classes, a que importa é outra, e ela vem da regra que governa o sistema:
+
+> **O refino cresce +7 a +9 numa campanha; atributo e maestria crescem +3.**
+> **Então ele não pode aparecer de um lado de uma rolagem em que o outro lado não cresce no ritmo dele.**
+
+Isso proíbe acerto, CD, defesa, Teste de Resistência e dano — os cinco têm do outro lado alguém que cresce +3. **E permite refino contra refino**, que é simétrico: o clash de expansões passa por isso e não deriva.
+
+### Decidido — o marco ganhou um terceiro eixo, o Leque
+
+> **Passivo:** +1 atributo, +1 refino e **+1 espaço de feitiço**.
+> **Escolha:** **Corpo** (mais atributo) · **Refino** (mais refino e uma aptidão) · **Leque** (mais um feitiço, que só pode ser feitiço, e uma Passiva).
+
+**O problema que ele resolve é real e era maior do que parecia.** Passiva custa espaço de feitiço, e a Expansão também. Sem rota que devolva espaço, três Passivas de Classe 2 mais a Expansão completa chegavam ao **nível 20 com dois feitiços** — e a montagem cheia que o manual permite, cinco Passivas de Classe 3 mais Expansão, pedia 18 espaços numa ficha que tinha 16. **O teto de "cinco Passivas pagas" do manual já era letra morta:** quem escrevesse cinco Classe 3 descobriria no meio da campanha que não cabia.
+
+Com a linha passiva do marco, a montagem típica sai de dois feitiços no nível 20 para sete, e a mais pesada passa a caber **a partir do nível 22**.
+
+**As três não precisam de trava, e o motivo é bonito.** Passiva e aptidão vivem na **mesma escada de Classe**, então `+1 feitiço e 1 Passiva` empata com `+1 refino e 1 aptidão`. O que sobra dos dois lados é `+1 feitiço` contra `+1 refino` — e **refino não vale nada para quem não tem aptidão**. Quem escolhe Leque não quer refino; quem escolhe refino não quer Passiva. Nenhuma compra o que a outra compra.
+
+**O teto de Passivas sobe, e a grátis traz a própria vaga.** Cada escolha de Leque aumenta o máximo em um, e a Passiva concedida ocupa a vaga nova — então as **pagas continuam sendo cinco**. O teto não cresce; ele abre lugar.
+
+*Uma primeira leitura desta regra somava as duas coisas e chegava a **dezenove** Passivas numa ficha. Estava errada, e é a mesma família da lição nº 2: o teto já incluía o que eu estava somando nele.*
+
+### Corrigido — o manual e a peça 8 discordavam em dois feitiços
+
+O manual: *"a conta fecha em treze feitiços conhecidos no nível 20"* e *"ganha uma nova a cada dois níveis"*. A peça 8: *"no nível 2 você tem dois feitiços conhecidos"*. Dois no nível 2 mais um a cada dois níveis dá **onze** no nível 20.
+
+> **Feitiços conhecidos = `2 + (nível ÷ 2)`, arredondando para baixo — mais um por marco.**
+
+Três no nível 2: dois de toda ficha, mais o do próprio nível 2. **A confusão vinha de a ficha nascer no nível 2** — o nível 1 é quem ainda está entrando no mundo jujutsu, civil ou com a técnica sem despertar. Doze no nível 20, e o manual corrige o treze na v7.7.
+
+### Decidido — a Classe de aptidão mede formato, não tamanho
+
+Se ela medisse tamanho, a escada colapsaria: um marco compra uma aptidão de qualquer Classe destravada, então do nível 13 em diante **toda escolha seria Classe 3** e o especialista terminaria com sete aptidões, cinco delas Classe 3, sem nunca ter olhado para uma Classe 1.
+
+**A Passiva do manual não tem esse problema porque ela tem preço** — Classe 3 custa três espaços, então você troca uma por três Classe 1. A v0.25 herdou metade da régua: o gate e o tamanho do efeito, sem o preço que faz os três degraus competirem.
+
+**O que resolve é o refino.** Com ele escalando o que a aptidão entrega, **uma Classe 1 no refino 10 não é a mesma coisa que no refino 2** — e aí a Classe volta a dizer o que o manual sempre disse que ela dizia: *pequeno e condicional · reativo com limite · permanente*. Não são mais e menos; são formatos.
+
+### Decidido — o gate é por aptidão, e não pode ser só nível
+
+Cada aptidão declara o próprio requisito: nenhum, só nível, só refino, ou os dois.
+
+**Só nível não serve**, e a conta mostra: quem escolhe refino **uma vez, no nível 26**, compraria uma Classe 3 na hora — o mesmo acesso de quem investiu seis vezes. Com gate de refino, a Classe 3 abre no nível 14 para o especialista e no **26** para o generalista. Doze níveis, que é o tamanho que *"quase ninguém consegue"* pede.
+
+**E guardar marco não guarda refino.** A rota que espera — atributo cedo, refino tarde — não domina, porque o refino passivo sobe sozinho: ela chega ao nível 22 com refino 5 e ainda precisa de outro marco para o 7. Troca quatro aptidões por quatro pontos de atributo.
+
+### Escritas — as seis que têm número
+
+**Cobrir-se de energia.** Proteção `1/3 do refino + 1` sem uniforme, e como Reação uma RD de `1,5 × refino` gastando PE, ao custo da proteção por um turno.
+
+O **1/3 não é escolha de gosto: é o único divisor que cabe.** Ele cresce de 0 a 3 na campanha, exatamente como um atributo. Com o refino cheio o atacante cairia de 50% para **5%** de acerto no nível 22 — a deriva da v0.9 pelo lado defensivo.
+
+E o **1,5 ×** é o que impede a Reação de virar armadilha. Com `1 × refino` ela fica **negativa do nível 22 em diante**: o custo de um turno sem proteção cresce com o golpe do chefe enquanto a RD trava no teto. Com 1,5 o saldo fica positivo do começo ao fim e **encolhe** em vez de virar.
+
+*Recado para a peça de equipamento:* no refino 10 ela dá proteção 4, e um Vanguarda que largue o uniforme chega a Defesa 20 contra os 17 dele fardado. **Um uniforme precisa valer mais que 4.**
+
+**Canalizar energia** não é escalada pelo refino — ela vive inteira no orçamento do Fundamento, e é o exemplo mais limpo de teto por aptidão.
+
+**Projetar energia** entrega `dano = refino`, entre **8% e 12% da coluna Rotina** do nível 2 ao 30. É o único lugar do catálogo onde o refino toca dano, e ele **deriva para baixo**, porque a vida do inimigo cresce mais rápido que ele.
+
+**Kokusen** a `2 × refino` no d100, com **+50% no impacto depois de tudo resolvido**. Teto de **1,8%** de dano por rodada no refino 10 — menos de um quinto do que um ponto de atributo compra. **Kokusen Melhorado** dá **vantagem no d100**, que ganha do `3 ×` em todo refino (36% contra 30% no teto), e a terceira sobe a base para `3 ×`.
+
+**E o kokusen tem proteção contra azar.** No refino 1 a espera pelo primeiro seriam **47 sessões**, o que na prática é nunca. Cada d100 falhado empurra o próximo em +2, e o acumulado **zera no descanso longo** — o refino 1 cai para ~9 sessões e o refino 10 quase não se move. *Por cena não serviria:* o acúmulo só começa no segundo crítico da mesma cena, e dois críticos no mesmo combate acontecem em **4,4%** das vezes.
+
+**A cascata mexe só na chance, e nunca na margem.** Dobrar a chance no refino 5 rende +0,9 ponto; fazer a margem cair para 19 rende **+10,9%**, dos quais **9,1 vêm do dado a mais** — a margem carrega o crítico inteiro junto. E sem teto, quatro degraus numa cena levariam o físico a **1,8× o dano base**.
+
+### Adicionado — o Limiar
+
+Vem do dossiê, seção 2: **gatilho de ficção antes da rolagem**, roubado do PbtA e do FitD. Mecânica separada, declarada pelo mestre, e o kokusen é só um dos lugares que a citam. *Faísca* morreu na triagem dentro de *Faísca em Cadeia* e *Impulso* é Melhoria do manual; **Limiar** está livre nos dois lados.
+
+**O cardápio sai sem número, por decisão** — mas o tamanho fica registrado na peça, porque ele não é plano. Contra o alvo difícil, rerrolar e dar vantagem valem os **mesmos +25 pontos percentuais**; "acontece mesmo errando" e "sucesso garantido" valem **o dobro**. E as duas famílias correm em sentidos opostos: a vantagem é auto-regulada e dá 9 pp contra alvo fácil, enquanto o garantido vale **75 pp** contra CD alta — justamente quando alguém vai querer dar.
+
+**Nota de método registrada e não resolvida:** o dossiê defende o gatilho de ficção *contra* a discricionariedade. Aqui a escolha foi a outra, e o `arquitetura.md` sustenta — *"discricionariedade na ficção é o trabalho do mestre e não atravessa mesas"*. Vai para o playtest junto da contagem de lutas, que é a mesma aposta.
+
+### Registrado — o que ficou fora, e por quê
+
+**Quatro das catorze estão bloqueadas.** Domínio Simples, Pétala, Cesta Oca de Vime e Extensão de Domínio contam o **Acerto** de uma Expansão, e a Expansão vai para o manual na v7.7. Escrever o preço delas agora seria precificar contra alvo que não existe — o erro que a v0.24 registrou no ataque extra.
+
+**E o laço entre as duas é o que torna as duas possíveis.** A Expansão completa acerta **garantido**, e é isso que o terceiro espaço compra. Um acerto que nunca falha só é jogável porque a resposta é barata: os quatro anti-domínio são **aptidões de marco**, ao alcance de qualquer ficha que escolha o eixo do controle. Se fossem raros, o garantido seria opressivo. A decisão de pôr os quatro no catálogo foi tomada antes de a Expansão ter forma.
+
+**A Expansão, decidida e não escrita:** incompleta custa **2 espaços**, nível 10 e refino 4; completa custa **+1** (três no total), nível 14 e refino 6, e **exige ter a incompleta** — o molde é o da Regra Própria do manual, que sobe de Classe *"pagando só a diferença de espaços"*. Nos dois gates o **meio a meio passa com folga zero**, e isso pede validador quando a peça existir.
+
+### Registrado — as Bênçãos e a Lapidação
+
+A Restrição Celestial pelo ramo da Maki e o Corpo Amaldiçoado não têm energia — sem PE, sem golpe canalizado, sem Sentir Energia — então não têm aptidão nem refino. Eles ganham **a mesma máquina com outra métrica**: as aptidões viram **Bênçãos** e o refino vira **Lapidação**. Andar em parede e em água, deslocar-se no ar, *fast steps*. Os dois nomes passaram pela triagem.
+
+É a camada de aptidão da **Técnica Marcial**, e ela destrava duas das três rotas de Origem que não rodam hoje.
+
+### Alterado
+
+- `02-economia-de-atributos.md` ganhou aviso na seção 3: a escolha de marco tem três opções desde esta versão, e a análise de auto-equilíbrio dela foi feita com duas.
+
+### Em aberto
+
+- **As quatro anti-domínio**, e a peça da Expansão que as destrava.
+- **Energia Reversa, Barreira Simples, Cortina** e a régua da Aptidão Própria.
+- **Se alguém escolhe o Leque.** Se ninguém pegar, o aperto que ele resolve continua resolvido pela linha passiva, e aí ele sai.
+- **Se doze Passivas pesam na mesa.** O manual escolheu cinco por peso, não por orçamento.
+- **Nome do sistema.**
+
+---
+
+## [0.26] — 2026-08-10 · *manual v7.6*
+
+Os quatro buracos de regra que a v0.24 registrou e ninguém tinha escrito. Um deles a conta respondeu sozinha, e ao ir atrás dele apareceram três problemas maiores do que os quatro: um órfão de vocabulário dentro do manual, duas regras que apontavam para Testes de Resistência diferentes sem ninguém ter notado, e a Casca — que morreu por três motivos, e nenhum era o que estava escrito no changelog anterior.
+
+**Seis validadores agora.** O sexto olha a direção que faltava.
+
+### Corrigido dentro da própria versão — o manual não é lei, e eu tinha escrito que era
+
+Duas frases desta versão davam ao manual uma autoridade que ele não tem: *"a fórmula já estava no manual"* e *"não é escolha nossa"*. **Os limitadores, exemplos e tabelas do manual foram calibrados quando o sistema em volta era outro.** Eles servem de base para continuidade — e é bom que estas mudanças estejam acontecendo agora, com estrutura em pé —, mas não valem ao pé da letra.
+
+Isso não muda nenhuma decisão desta versão. Muda o **motivo** de duas delas, e muda o que o validador novo afirma.
+
+Levantando a exposição real, **dez decisões do projeto estão penduradas em três tabelas do manual** — e elas não são iguais entre si:
+
+| tabela | dono | por quê |
+|---|---|---|
+| **PE** — *"quantas vezes você lança"* | **o projeto** | nada exige que o Emanador tenha 6. O que exige é que a coluna diga a verdade sobre a ficha. Mudou o 6? Regere a coluna |
+| **Rotina** — dano por rodada por Classe | **o manual** | ela não é medida, é a **definição** de "quanto é normal". Não há verdade fora dela: o projeto compara tudo contra ela, inclusive ela mesma |
+| **Inimigo** — chefe e capanga por nível | **o playtest** | é a única das três que afirma alguma coisa sobre o mundo: que um combate dura ~3,5 rodadas. A trava de vida inteira da peça 1 foi calibrada contra ela, e ninguém é dono dela até alguém jogar |
+
+**Duas das três não correm risco de estar desatualizadas, porque não afirmam nada — elas *são* a régua.** A terceira corre, e é exatamente a que o playtest mede primeiro.
+
+A checagem 4 do `conferir-manual.py` foi reescrita em cima disso. Ela deixou de dizer *"o projeto copiou daqui, então tem que bater"* e passou a dizer **"os dois lados divergiram, e aqui está quem decide"** — a mensagem de erro nomeia o dono e o custo de mexer. Divergência virou pedido de decisão, e não veredito.
+
+### Achado — a fórmula do PE máximo, e o quanto o manual conta como argumento
+
+O buraco dizia: *"o PE máximo nunca teve fórmula escrita — só a instância do nível 2 na peça 8, e não dá para inferir da vida, que usa `(nível − 1)` e soma atributo."*
+
+> **PE máximo = PE por nível do Caminho × nível.** Sem atributo, sem valor inicial.
+
+Sem atributo pelo motivo da peça 1, seção 9: um atributo na conta de PE viraria o atributo obrigatório de todo conjurador pela porta dos fundos. Sem valor inicial porque é o que faz esta ser a única reserva que passa pela origem — a vida tem inicial e soma atributo, a Integridade tem inicial.
+
+**E o manual concorda.** A tabela dele mostra 6, 30, 54, 78, 102 e 120 nos níveis 1, 5, 9, 13, 17 e 20, todos `6 × nível` exatos. Concordar não é mandar, pela seção acima — o que a concordância compra é que **a coluna "quantas vezes você lança" continua dizendo a verdade sobre a ficha sem precisar ser refeita.**
+
+### Decidido — arredondamento, e a frase que reconcilia os precedentes
+
+Cai em fração em quatro lugares, e a **Vanguarda e o Guia caem na primeira parada da primeira sessão**: 25% de uma pool de 10 é 2,5.
+
+> **Arredonde sempre para o lado que não te favorece.** O que você paga sobe, o que você ganha desce, e o que você ganha nunca fica abaixo de 1.
+
+Não é escolha nossa. É o princípio que o manual declara na caixa *"na dúvida, para que lado errar"* — *"os dois erram pro mesmo lado: o que não infla o feitiço"* — aplicado a número em vez de a preço. E ele explica por que os dois precedentes que existiam não estavam brigando: o manual arredonda para cima no preço de Melhoria e no +50% da Liberação, que são coisas que você **paga**; o exemplo da peça 10 arredonda para baixo, e é recuperação.
+
+**O piso de 1 não desfaz um zero escrito.** O degrau 3 de exaustão devolve *nada*, e nada é zero. O piso existe para a conta que produziu 0,4.
+
+**E um caso que parecia exceção e não é.** A vida por nível do Caminho é a média do dado arredondada **para cima** — d12 vira 7, d8 vira 5, d6 vira 4 —, e isso é um ganho subindo. Ela não quebra a regra porque **não é conta de mesa**: é valor de tabela, decidido uma vez no desenho. A regra vale para o número que cai na mão de quem está jogando. O validador agora confere as duas coisas separadamente, para o dia em que alguém tentar "consertar" a tabela aplicando a regra nela.
+
+**Efeito colateral registrado:** com o piso de 1, os degraus 1 e 2 de exaustão devolvem o mesmo PE enquanto a pool é pequena — separam no nível 3 em quatro Caminhos e no 4 no Bastião. Os outros dois eixos do degrau continuam diferentes desde o nível 2, então a escada nunca fica plana de verdade. O validador passou a exigir que a coluna seja **não crescente**, e não estritamente decrescente.
+
+### Decidido — o que conta como uma luta
+
+> **Quem conta é o mestre, e ele conta como em qualquer mesa: foi uma luta se pareceu uma luta.**
+
+Não depende de ter rolado iniciativa, e não é só maldição — feiticeiro contra feiticeiro cansa igual. A peça traz exemplos, e eles são exemplos e não lista fechada.
+
+**Isso é diferente do ambiente propício de propósito, e vale registrar o motivo.** Lá a lista é fechada e o mestre tem a palavra final em cima dela. Aqui não. *"Esse lugar tem kit e comida?"* é pergunta sobre o mundo, e a mesma resposta serve para qualquer mesa; *"isso foi uma luta?"* é pergunta sobre a cena que aquele mestre acabou de dirigir. Fica marcado para o playtest: **medir se dois mestres chegam ao mesmo número de degraus no mesmo tipo de missão.** Se não chegarem, a saída é a do ambiente propício — fechar a lista.
+
+### Corrigido — a exaustão nunca esteve desordenada. O texto é que prometia errado
+
+O achado da v0.24 dizia que *"a exaustão está ordenada por onde dói, não por quanto"*, e que o degrau 1 é maior do que o texto promete. A primeira metade estava certa e a segunda estava mal formulada.
+
+Desvantagem é rolar 2d20 e pegar o menor: a chance `p` vira `p²`, e a perda `p − p²` é máxima exatamente em 50%, onde vale **25 pontos percentuais**. Como o degrau 1 e o degrau 3 são os dois desvantagem, os dois tiram **exatamente os mesmos 25 pp**. Não existe "degrau leve" numa escada em que dois dos três degraus usam a mesma mecânica.
+
+| degrau | eixo | tamanho no pico | a falha custa |
+|---|---|---|---|
+| 1 | perícia e ofício | −25 pp | a cena anda |
+| 2 | deslocamento, 9 m → 6 m | −33% de alcance | posição |
+| 3 | ataque e Teste de Resistência | −25 pp | dano, e às vezes a vida |
+
+**A escada é ordenada por consequência, e sempre foi.** Falhar em perícia move a cena, porque a peça 4 proíbe falha que trava; falhar em ataque perde a luta. O conserto não era mexer no número: era o texto parar de vender o degrau 1 como pequeno e passar a dizer que ele é do mesmo tamanho e cai em cima do que não mata. O `conferir-descanso.py` agora confere **magnitude**, e falha se alguém escrever um degrau de desvantagem como se fosse menor.
+
+Para escala: um degrau de exaustão é **maior que treinar um Teste de Resistência** (10 pp), **maior que a maestria de uma campanha inteira** (20 pp) e **maior que sair de atributo 0 para 3** (15 pp).
+
+### Decidido — exaustão e Integridade, pega o pior
+
+As duas escadas nunca tinham sido postas uma do lado da outra. São quase a mesma escada:
+
+| | exaustão (peça 10) | Integridade (manual) |
+|---|---|---|
+| degrau 1 | desvantagem em perícia e ofício | desvantagem em testes de perícia |
+| degrau 2 | deslocamento cai para 6 m | deslocamento pela metade, e +1 PE por Classe |
+| degrau 3 | desvantagem em ataque e TR | desvantagem em ataque e TR, e teto de Classe |
+
+> **Quem está nas duas pega o pior, não soma.**
+
+Isso não inventa nada — desvantagem não empilha com desvantagem em mesa nenhuma. A regra existe para escrever o que a mesa já faria, em vez de deixar a pergunta aparecer no meio de uma missão longa. O que só a Integridade tem (o +1 PE por Classe e o teto de Classe) não compete com nada e simplesmente acontece.
+
+**E os 6 m contra os 4,5 m ficam diferentes de propósito:** a Integridade é dano de alma e deve doer mais. Se as duas dessem o mesmo corte, a alma estaria cobrando o preço do cansaço. O validador falha se a Integridade deixar de cortar mais.
+
+### Adicionado — `conferir-manual.py`, o sexto validador, e a direção que faltava
+
+O `conferir-nomes.py` olha **projeto → manual**: *"esse nome que eu batizei já significa alguma coisa lá?"*. Ninguém olhava o contrário. É por isso que o `Bônus de Treinamento` da Passiva Reforço sobreviveu até a v0.25 — e por isso que a Fraqueza sobreviveu até agora.
+
+Quatro checagens: **vocabulário órfão** (palavra de outro sistema, tolerância zero), **teste nomeado pelo atributo** em vez do Teste de Resistência, **termo mecânico usado e nunca definido** (com os aceitos declarados com motivo, no padrão do `conferir-pericias.py`), e — a que ninguém teria escrito à mão — **os números que o projeto importou do manual**. A tabela de PE, a de inimigo e a coluna Rotina estão **copiadas** dentro das peças e dos outros validadores; se o manual for regerado e um deles mudar, o projeto passa a mentir em silêncio. Agora ele grita.
+
+Testado nos dois sentidos: com o manual v7.6 limpo ele sai com código 0, e **seis perturbações** — Sabedoria de volta, teste nomeado pelo atributo, `dano físico` de volta, e um número mexido em cada uma das três tabelas importadas — acenderam cada uma a checagem certa. Somando com as extensões do `conferir-descanso` e do `conferir-atributos`, foram **dezesseis perturbações conferidas** nesta versão.
+
+### Achado — a Restrição Fraqueza carregava dois órfãos numa linha só
+
+> *"Depois de usar, você fica com desvantagem em Testes de Resistência de uma **Habilidade**, escolhida na montagem, até o fim da cena. Habilidade pouco testada na sua mesa: Leve. Constituição, Destreza ou **Sabedoria**: Média."*
+
+**Habilidade** aqui são atributos. **Sabedoria** não existe — ela e o Carisma fundiram em Essência antes de a Fase 4 começar. E o defeito é pior do que vocabulário: o preço citava **atributo**, e os Testes de Resistência daqui são quatro, com o Físico usando Força **ou** Destreza. A tradução não era um para um, e um terço da regra de preço apontava para o nada.
+
+Preço novo: **Vigor ou Intelecto, Leve. Físico ou Espírito, Média.**
+
+### Achado — Concentração e Carregar apontavam para testes diferentes, e um dizia ser o outro
+
+A peça 3 diz que Concentração é **Teste de Resistência Físico**. O manual diz que Carregar é **"teste de Constituição"**. E a peça 3 ainda afirmava, com todas as letras, que *"é a mesma régua que a Restrição Carregar já usa"*. A régua da CD era; o teste não.
+
+Ao abrir os dois, apareceu que **eles não deviam ser a mesma regra**, e a diferença já estava escrita há versões sem ninguém ler: em Concentração *"o efeito cai"* — você tinha, e perdeu. Em Carregar *"perde o feitiço"* — ele ainda não tinha saído. O único fio que os fazia parecer iguais era a palavra **"concentrado"** dentro do texto do Carregar.
+
+| | o que você segura | teste | falhar custa |
+|---|---|---|---|
+| **Concentração** | o efeito que já está no ar | **Vigor** | o efeito cai |
+| **Carregar** | o feitiço que ainda não saiu | **Espírito** | o feitiço, e o que você pagou por ele |
+
+A frequência foi conferida antes de mexer: Concentração é exigida pela Melhoria **Fica**, que **1 dos 35 feitiços prontos** usa, e por Carregar, que **nenhum** usa. Então pôr Concentração em Vigor quase não muda a frequência dele, e o argumento *"o TR Vigor quase não rola"* — que a peça 10 usa e que sustenta o Leve da Fraqueza nova — continua de pé.
+
+A Passiva **Mão Firme** passou a dizer *"não perde concentração **nem carga**"*, explícito, porque com a divisão o nome dela sozinho não alcançava mais o Carregar.
+
+É a terceira vez que a lição do Carregar se paga: **tensão de preço às vezes é lacuna de texto disfarçada.** A v0.11 resolveu o par Lento-contra-Carregar escrevendo uma frase; agora uma palavra dentro do mesmo item resolveu outro problema, e nenhum preço precisou mudar.
+
+### Decidido — a Casca morreu, e por três motivos que não eram o que estava escrito
+
+A v0.25 deixou pendente: *"a Passiva **Casca** cai na mesma regra e não foi mexida"*. Rodando a conta antes de decidir, o motivo escrito era o menos importante dos três:
+
+**`dano físico` aparece uma vez no manual inteiro — dentro da própria Casca.** Não é categoria definida em lugar nenhum, e os tipos de dano do manual são livres (*"corte, fogo, peso, o que a Descrição pedir"*). Dois mestres leem diferente, e um deles dá RD contra tudo que é soco.
+
+**RD corta o mesmo valor de cada golpe, e o manual dá dano por rodada.** Nunca quantos golpes. A Casca valia de **6% a 42%** conforme um número que não existe em lugar nenhum do material.
+
+**E a Melhoria Fura ignora `3 × Classe` de RD.** Um ponto numa Classe 1 já apagava a Casca inteira, em qualquer nível. Contra quem comprou Fura ela era zero.
+
+> A Passiva **Casca** foi deletada. No lugar dela entra a **Escama**: *escolha um tipo de dano que a sua Regra justifique; você tem resistência a ele.*
+
+**A Escama não é uma Casca mais fraca — é outra aposta.** Resistência é metade, então ela vale **5 a 9 vezes mais** que a Casca quando o tipo bate, e **zero** quando não bate. O ponto de virada é **1 luta em 4**: acima disso ela é a melhor Passiva de Classe 3 da lista, abaixo é a pior.
+
+**A trava que impede a otimização é a que estava na escolha desde o começo:** o tipo é preso à Regra, e a Regra é escrita na **criação**, antes de qualquer um saber o que a campanha vai mandar. O jogador aposta; ele não escolhe o tipo que o mestre mais usa, porque ainda não sabe qual é. E o julgamento que a palavra *"justifique"* introduz cai no mesmo momento em que a técnica já é aprovada — a trava nº 3 de mundo compartilhado obriga alguém que não é o dono a ler a Regra —, então ele não atravessa mesas.
+
+O nome passou pelo `conferir-nomes.py --candidatos` junto com onze outros. **Berço** está dentro de *Treino de Berço* e **Familiar** fica a uma letra de *Família*; os dois morreram na triagem antes de entrar em qualquer arquivo.
+
+E ela nasce com **dois counters que já existiam**: a Melhoria **Corrói** cancela resistência ao tipo, e a Passiva **Afinidade** ignora resistência ao tipo. A peça defensiva nova não precisou de contrapeso novo.
+
+**A regra que matou as duas foi escrita onde a próxima pessoa vai procurar** — a lista *"o que nenhuma Passiva paga pode fazer"* do manual ganhou uma quinta linha: *"Redução de Dano passiva… Resistência a um tipo, sim — é o que a Escama faz. Desconto em tudo, não."*
+
+### Decidido — "resistência" ganhou definição
+
+Ela era usada **três vezes** no manual — Afinidade, Corrói, Purga Escarlate — e **nunca explicada**. Mesma família do `dano físico`, e trocar um termo indefinido por outro não seria conserto.
+
+> **Resistência: o dano daquele tipo cai pela metade, antes de qualquer outra conta. Sempre presa a um tipo — não existe resistência a tudo.**
+
+Metade é a única leitura que **não deriva**: sendo proporcional, ela vale o mesmo no nível 13 e no 30. As alternativas de valor fixo encolhem conforme o inimigo cresce, que foi exatamente o que aconteceu com a Casca — **−6,1% no nível 13 e −5,6% no 30**, com o número tendo *dobrado* no meio do caminho.
+
+### Registrado — o Kokusen Melhorado tem preço e requisito
+
+As duas pendências da v0.25 fecharam juntas, porque a segunda responde a primeira:
+
+> **É aptidão, e custa um marco. O requisito é refino 5 e nível 14.**
+
+O requisito deixa de ser sorte. Pelo mesmo motivo, ele deixa de ser a mesma coisa para duas fichas idênticas — o antigo *"ter tirado um kokusen"* travava o jogador por dezenove sessões no refino 1.
+
+Refino 5 cai no nível 10 para quem sempre escolhe refino, no 14 para quem vai meio a meio e no 18 para o generalista; o nível 14 é o que faz as duas primeiras rotas convergirem no mesmo marco. **Um mínimo de nível abaixo de 10 não morderia** — o refino 5 já chega lá.
+
+**E o preço continua ruim de propósito.** A ~2% de dano por rodada, ele vale **0,2× um ponto de atributo**, que compra +10%. Numa campanha com no máximo sete aptidões e mediana perto de três, ninguém que olhe o número escolhe. Escolhe quem escolhe pelo grito — que é exatamente o que a v0.25 registrou que ele é, e o texto dele precisa dizer isso para ninguém montar ficha em cima.
+
+**E o efeito apareceu, no fim da versão:**
+
+> **Kokusen: +50% no impacto, depois de todos os valores resolvidos.**
+
+Ou seja, em cima do crítico que já dobrou os dados — um crítico entrega `2D`, um kokusen entrega `3D`. Com o efeito na mão, a conta da v0.25 sai diferente:
+
+| refino | chance no d100 | dano por rodada | sessões até o primeiro |
+|---|---|---|---|
+| 1 | 5% | +0,5% | 19,5 |
+| 3 | 15% | +1,4% | 6,8 |
+| 5 | 25% | +2,3% | 4,3 |
+| 10 | 50% | **+4,5%** | 2,4 |
+
+O teto é **4,5%**, e não os *"menos de 4%"* que a v0.25 registrou — aquele número foi calculado antes de o efeito existir. **A conclusão não muda:** continua sendo um quinto do que um ponto de atributo compra, e continua sendo peça de grito e não de planilha. O que muda é que agora dá para escrever validador em cima.
+
+### Corrigido de método — dois erros meus, na revisão cética
+
+O primeiro: uma versão da seção 5.3 dizia que o PE *"cresce mais rápido que a vida"*. Não cresce — o passo do PE é 4 a 6 por nível e o da vida é 7 a 10 com Constituição típica. O que sobe é a **razão** entre os dois, de 0,75 para 0,85 num Emanador, porque a vida perde um nível na parte que escala. **É a lição da v0.19 pela quinta vez: o número certo contra a base errada.**
+
+O segundo achou uma contradição de verdade. A primeira redação da regra de arredondamento citava *"a vida por nível do Caminho"* como precedente do manual de arredondar para cima. Ela não é do manual — é nossa — e, pior, ela é um **ganho subindo**, que é o oposto do que a regra nova manda. A regra só fecha porque vale para **conta de mesa** e não para valor de tabela, e essa frase precisava estar escrita.
+
+### Registrado — a cascata de kokusen é realimentação, e ela precisa de teto antes de existir
+
+A ideia é a da obra: *o segundo kokusen num intervalo curto é mais fácil que o primeiro.* Quatro jeitos de fazer isso foram levantados, e **eles não são da mesma família.** Medidos no refino 5, depois do primeiro kokusen da cena:
+
+| escada | dano por golpe | contra a linha de base |
+|---|---|---|
+| nada muda (o de hoje) | 0,5625 | +2,3% |
+| ajuda no d100, +25 pontos | 0,5750 | +4,5% |
+| dobra a chance, 25% → 50% | 0,5750 | +4,5% |
+| vantagem no d100 | 0,5719 | +4,0% |
+| **margem de crítico cai para 19** | 0,6250 | **+13,6%** |
+| **margem cai para 18** | 0,6875 | **+25,0%** |
+| **vantagem no ataque** | 0,8719 | **+58,5%** |
+
+**As três primeiras mexem só no kokusen, e o kokusen é pequeno** — dobrar a chance dele rende 2,3 pontos. As duas últimas mexem em coisas que já valem sozinhas: a margem de crítico carrega os 10% do próprio crítico, e **9,1% do +13,6% vêm do dado a mais, antes de o kokusen entrar**; vantagem no ataque sobe o acerto de 50% para 75%, o que já é meio jogo de dano a mais.
+
+**E "mais fácil depois do primeiro" é uma espiral, com o sinal trocado.** É o mesmo desenho que a v0.8 e a v0.23 diagnosticaram na exaustão: kokusen facilita kokusen facilita kokusen. Sem teto, quatro degraus numa cena levam o físico a **1,8× o dano de base** — e a coluna Rotina não tem para onde correr, então a tabela de encontro para de valer no meio da luta.
+
+As três travas que a estrutura já usa e que servem aqui: **teto de degraus** (a exaustão para em três), **relógio curto** (a escada zera quando a cena acaba, no molde do "por cena"), e **uma escada só** — mexer na margem *ou* na chance, nunca nas duas, porque juntas elas se multiplicam.
+
+### Em aberto
+
+- **Nome do sistema.**
+- **Qual escada de kokusen, e com que teto e que relógio.** A conta está acima; a escolha é de sabor.
+- **Se cinco mestres contam luta parecido.** Aberto de propósito, e é a única coisa da peça 10 sem lista fechada por baixo.
+- **A pergunta maior continua aberta:** a peça de aptidões ou a ficha + quick-start jogável. Os quatro buracos saíram da frente, e o número mudou de lado — das dezessete coisas que uma ficha de nível 2 precisa, **doze existem**, e das cinco que faltam **nenhuma morde numa missão de nível 2**: proteção nasce em 0, Pactos é opcional, Trilhas e aptidões só valem do nível 6 em diante, e XP não é preciso para uma missão só. Das dez pendências que só a mesa responde, **as dez são de nível 2**.
+
+---
+
+## [0.25] — 2026-08-10 · *manual v7.5*
+
+Levantamento antes de escrever a peça de aptidões. A conferida contra o manual achou seis colisões e dois defeitos dentro do próprio Fundamento, e as decisões do Mizuki fecharam quatro peças de regra que não existiam. **O manual foi regerado: v7.5.**
+
+### Decidido — as aptidões herdam a régua das Passivas, e não uma nova
+
+O manual já tem a escada que a segunda economia de poder precisava, e ninguém tinha olhado para ela:
+
+| Classe | Custa | Libera no nível | O que cabe |
+|---|---|---|---|
+| Livre | nada | 1 | ficção pura: não rola dado, não muda número, não faz ninguém rolar |
+| 1 | 1 espaço | 1 | efeito pequeno, condicional, ou de informação |
+| 2 | 2 espaços | 7 | efeito reativo, com limite por cena ou por descanso |
+| 3 | 3 espaços | 13 | permanente, muda como você joga |
+
+Três degraus, com **gate de nível embutido**, já conferidos pelo `pac7.py`. O `arquitetura.md` pedia uma trava para as aptidões — *"não produz dano e não escala com nível"* — porque não tinha régua. Tem.
+
+### Decidido — cura existe nas duas economias, e por isso os nomes tinham que mudar
+
+A Passiva **Reversão** já era Energia Reversa: *"uma vez por descanso curto, gasta a ação e recupera 5 × a sua maior Classe"*. Se a aptidão desse cura de graça, ela mataria a Passiva na hora — a mesma dominância que a peça 4 usou para não deixar feitiço virar ataque de oportunidade.
+
+**As duas ficam, porque são coisas diferentes.** A Passiva é a cura **inata**, que vem da técnica, no molde do toque de cura do paladino. A aptidão é a cura **aprendida**, que gasta PE e se usa com frequência, no molde do conjurador. Duas economias, dois preços, dois nomes:
+
+> A Passiva **Reversão** virou **Recomposição**. A aptidão fica com **Energia Reversa**.
+
+### Corrigido no manual — dois defeitos dentro do Fundamento
+
+**O manual tinha um termo órfão de outro sistema.** A Passiva **Reforço** dizia *"reduz o dano em 3 × Bônus de Treinamento"* — número que não existe aqui, porque o nosso se chama **Maestria**. Uma ocorrência só, e o `pac7.py` não pegava porque ele confere números e não vocabulário. Mesma família do Grau, três versões depois.
+
+**A Passiva foi deletada, e não corrigida**, por decisão de design: *não existe redução de dano passiva neste sistema.* Fica o aviso para a peça de aptidões, que ia querer exatamente isso.
+
+> **Pendente:** a Passiva **Casca** (Classe 3) — *"Redução de Dano 2 contra dano físico, vira 4 no nível 15"* — cai na mesma regra e **não** foi mexida. Decidir antes de fechar a v7.6.
+
+**Técnica Máxima não é Expansão de Domínio.** O manual dizia que *"numa técnica que é feita de domínio, o domínio **é** a sua Técnica Máxima"*. Não é: a Técnica Máxima é o topo da técnica inata, e o domínio é a mesma técnica estendida sobre o território em volta. Uma técnica de domínio continua tendo Técnica Máxima como qualquer outra.
+
+E **Expansão não vai ser aptidão**: ela mora na criação de personagem, presa a um mínimo de refino e de nível, comprada trocando espaços de feitiço conhecido. É a primeira coisa no sistema que o refino destrava fora da lista de aptidões.
+
+### Corrigido no manual — três nomes, porque a obra ganha do manual
+
+As aptidões vêm da obra e não têm para onde fugir. Quem muda é o lado menos entranhado, que é a regra da v0.5 aplicada de novo:
+
+| era | virou | por quê |
+|---|---|---|
+| **Tema** Barreira | **Bloqueio** | a aptidão **Barreira Simples** é nome da obra |
+| **Melhoria** Barreira | **Anteparo** | três coisas mecânicas não podem chamar Barreira |
+| **Passiva** Domínio | **Afinidade** | ela escolhe um tema da Regra e fura cobertura leve — não tem nada a ver com domínio, e as aptidões **Domínio Simples** e **Extensão de Domínio** são da obra |
+
+**A prosa em minúscula fica.** *"Dano dobrado contra barreiras"*, *"cancela um efeito contínuo ou uma barreira"*, *"uma barreira que absorva antes da vida"* — essas três agora apontam **certo**, porque barreira passou a ser exatamente a coisa que a aptidão produz. O que saiu foram os dois termos definidos.
+
+Mexeu também no feitiço pronto **Muralha** e em três lugares do `pac7.py`. Os dois validadores passam e a estrutura é 326 parágrafos e 76 tabelas — um parágrafo a mais que a v7.4, porque a linha do domínio virou duas.
+
+**O `.pdf` continua na v7.4.** Ele é exportado à mão; o `.docx` e o `.zip` estão na v7.5.
+
+### Adicionado — o crítico, que era usado e nunca tinha sido escrito
+
+Zero ocorrências no material do projeto. O manual usa a palavra uma vez, na Melhoria **Estilhaço** (*"em crítico, ou quando o alvo erra o Teste de Resistência por 5 ou mais"*), sem definir. E a mecânica de Kokusen pendura inteira nele.
+
+> **20 natural numa rolagem de acerto é crítico, e você dobra os dados** — os da arma se for arma, os da Classe se for feitiço ou golpe canalizado. Nada mais dobra.
+
+Três consequências que caem da frase sem regra a mais: **só existe crítico onde existe rolagem de acerto**, então feitiço que resolve por Teste de Resistência nunca crita; **comprar Certeiro ou Inescapável custa o crítico**, o que vira escolha de montagem em vez de bug; e **o crítico vale exatos 10% de dano por rodada** contra o alvo difícil, em qualquer nível, porque a taxa de acerto não deriva.
+
+O crítico **não estoura** o teto de `4 × Classe em dados`: o teto é sobre o que se monta, não sobre o que o dado produz.
+
+### Registrado — o Kokusen é caça-níquel, e a conta diz o tamanho
+
+A proposta é: crítico no corpo a corpo → role d100, tire `5 × refino` ou menos.
+
+| refino | chance no d100 | por ataque | por combate | combates até o 1º | sessões |
+|---|---|---|---|---|---|
+| 1 | 5% | 0,25% | 1,7% | 58 | **19** |
+| 3 | 15% | 0,75% | 5,1% | 19 | 6 |
+| 5 | 25% | 1,25% | 8,4% | 12 | 4 |
+| 10 | 50% | 2,50% | 16,2% | 6 | 2 |
+
+**Raro é o ponto**, e isso está decidido. O que a conta acrescenta é o tamanho: mesmo no refino 10 o kokusen soma **menos de 4%** de dano por rodada — 1,5% no nível 6, 3,7% no 30. Ele existe pelo grito na mesa, não pela planilha, e o texto dele precisa dizer isso para ninguém montar ficha em cima.
+
+**Dois problemas ficam abertos**, e os dois são do requisito e não da mecânica: *"ter tirado um kokusen"* trava o jogador por **sorte** — dezenove sessões no refino 1, e duas fichas idênticas com acesso diferente. E **Kokusen Melhorado** paga um marco inteiro por ~2% de dano, competindo com Energia Reversa, que salva vidas.
+
+### Registrado — o curandeiro nasce frágil por construção
+
+Energia Reversa pede Essência 4 e Inteligência 4. Com nove pontos e teto 3 na criação, começar 3 e 3 gasta **seis dos nove** — sobram 1, 1 e 1 para Força, Destreza e **Constituição**, que é a maior alavanca de sobrevivência do sistema. Quem só escolhe refino chega a 4 e 4 no nível 10, e a 5 no nível 14.
+
+Não é defeito: é o custo aparecendo onde deve. Mas é o número a olhar quando alguém reclamar que o curandeiro morre primeiro.
+
+### Em aberto
+
+- **Nome do sistema.**
+- **A Passiva Casca**, que é a redução de dano passiva que sobrou.
+- **O requisito do Kokusen Melhorado**, que hoje depende de sorte.
+- **Se Kokusen Melhorado vale um marco** por ~2% de dano.
+
+---
+
+## [0.24] — 2026-08-08
+
+Revisão cética do material inteiro em três camadas, antes de abrir a peça de aptidões. Os quatro validadores passam. Achou onze erros de texto, três buracos de regra e seis colisões de nome — metade delas nunca vista, porque nenhum validador olhava para lá.
+
+### Adicionado — `conferir-nomes.py`, o quinto validador
+
+O `conferir-pericias.py` já fazia checagem de colisão, **com 33 nomes**: as 23 perícias e os 10 ofícios. O projeto batizou muito mais — 15 Trilhas, 5 Caminhos, 14 Legados, 8 Origens, os termos de sistema. Nada disso passava por lugar nenhum, e foi por isso que três colisões ficaram no material desde a v0.14.
+
+Cinco checagens: colisão para fora (contra o `.docx`), colisão para dentro (contra o próprio projeto), colisão fraca por distância de uma letra, **categoria errada** e termo morto vivo. Mais um modo de triagem, `--candidatos`, para rodar antes de batizar qualquer coisa.
+
+**A quarta é a que ninguém teria escrito à mão.** Ela confere que todo lugar do projeto que cita uma Família, uma Forma, uma Melhoria ou uma Restrição usa um nome que **existe naquela categoria do manual**. Foi ela que pegou a ficha da Kaori, que tem *"Famílias Livres: Peso e Prender"* — e Peso é **Tema**, não Família; Prender não é nada, é uma palavra dentro da descrição de Controle.
+
+**As listas fechadas são extraídas do `.docx` toda vez**, não copiadas: 9 Famílias, 15 Formas, 67 Melhorias, 19 Restrições, 70 Temas, 50 feitiços prontos e os 3 Fundamentos prontos. Quando o manual for regerado, elas se atualizam sozinhas — e o validador falha se a extração devolver um número diferente de nove Famílias, porque aí ele estaria aprovando sem ter lido nada. As perícias e ofícios ele importa do `conferir-pericias.py`, para não existirem duas listas que possam divergir.
+
+Testado nos dois sentidos: numa cópia com os onze problemas consertados ele sai com código 0, e sete perturbações — nome que é Tema exato, nome dentro de feitiço pronto, palavra já batizada, nome dentro de outro nome batizado, Família inexistente, termo morto capitalizado, e o caso de uma letra que deve só avisar — acenderam cada uma a checagem certa.
+
+### Corrigido — três colisões de nome que ninguém tinha visto
+
+| Trilha | com o quê |
+|---|---|
+| **Sombra** (Evocador) | é **Tema** do manual, grupo Sentidos — e está dentro de **Estilo da Sombra**, o subsistema que ainda vai ser escrito |
+| **Enxame** (Evocador) | é **Tema** do manual, grupo Criação |
+| **Ofício** (Vanguarda) | é a categoria de **ofício**, com 15 ocorrências só na peça 7 |
+
+A do Ofício é a mais constrangedora: a v0.15 pegou exatamente essa palavra colidindo, resolveu do lado da perícia — *"por isso a lista usa Artesania"* — e deixou a Trilha com o nome.
+
+E duas das três antigas eram piores do que estava registrado. **Régua** não aparece "10x em prosa": ela é **um dos três Fundamentos prontos do manual**, o exemplo que a seção 2 usa para montar o primeiro feitiço. Termo definido, mesma categoria de Herança e Semente. E **Alcance** colide duas vezes — a Família, e o Legado **Alcance Impossível** escrito na v0.22.
+
+### Corrigido de método — a v0.22 errou a categoria do manual
+
+A entrada da v0.22 que rejeita **Herança** diz que ela *"é um dos Selos do manual"*. Não é. A lista *Vínculo · Troca · Cópia · … · Herança · Ausência* é o grupo **Conceito** da tabela de **Temas**. Selo, no manual, é *"um gesto, um som, uma condição visível"* — bater palma, dizer o nome do feitiço. Semente também é Tema, não Selo.
+
+A rejeição estava certa e o motivo estava errado, o que importa porque é o motivo que a próxima checagem vai consultar. É a mesma confusão que produziu "Peso e Prender" como Família: **Tema escrito onde vai Família.** Duas vezes, em versões diferentes, sem ninguém notar — agora o validador não deixa.
+
+### Decidido — os nomes das Trilhas, fechados
+
+Pendência aberta desde a v0.14. Os seis que colidiam saíram; os nove que passaram ficam.
+
+| Caminho | Trilhas |
+|---|---|
+| **Bastião** | Muro · Punho · Brasa |
+| **Vanguarda** | Estocada · **Batedor** · **Executor** |
+| **Guia** | Elo · **Sutura** · **Perímetro** |
+| **Emanador** | Torrente · Repertório · Arremate |
+| **Evocador** | **Servo** · **Matilha** · Coro |
+
+**O Executor mudou de conteúdo junto com o nome.** Ele era *"golpe pesado com arma, ritmo de trabalho, o molde do Nanami"*; virou o corpo a corpo puro. Isso arruma a Vanguarda inteira, que passa a responder a mesma pergunta — *como você alcança o inimigo* — de três jeitos que não se sobrepõem: Estocada com um pé em feitiço, Batedor sem encostar, Executor só encostando. O Nanami vira exemplo, e não molde.
+
+**Sutura ganhou de Respiro por uma frase de regra viva.** A peça 10 diz *"se um respiro devolvesse vida, a coisa mais rara da obra viraria conveniência"* — e a Trilha é justamente a que devolve. O nome brigaria com o texto. Colisão que nenhum validador pega, porque "respiro" ali é prosa.
+
+**Não foi find/replace, pelo mesmo motivo do Grau.** Três dos seis mudam de gênero — *a Régua* → *o Perímetro*, *a Sombra* → *o Servo*, *o Fôlego* → *a Sutura*. E havia duas armadilhas que uma substituição cega destruiria: as ocorrências de "ofício" na peça 7 são **a categoria**, e as de "Sombra" nas peças 8 e 9 são **Estilo da Sombra**. As duas ficam.
+
+Duas sugestões morreram na triagem antes de entrar: **Alento** fica a uma letra de **Lento**, que é Restrição; **Rédea** fica a uma letra de **Rede**, que é feitiço pronto. Nenhuma das duas se pega no olho.
+
+### Decidido — quem ganha ataque extra, e em que nível
+
+**Buraco de regra, não erro de balanço.** Da v0.14 até aqui o ataque extra tinha conta, argumento e correção — e nunca teve dono. O único texto era *"os Caminhos físicos ganham e os meio-arcanos não"*, que é a mesma divisão em duas famílias que a v0.15 registra como tendo deixado o Guia sem número de PE. Ela não cobre os cinco Caminhos.
+
+E o achado nº 2 da v0.20 — *"o Guia pode estar dominado pela Vanguarda"* — dependia inteiro de como essa divisão fosse resolvida. Não era achado fechado; era conclusão apoiada numa classificação que ninguém tinha escrito.
+
+> **Bastião e Vanguarda ganham no nível 6, pelo Caminho.**
+> **Arremate e Coro ganham pela Trilha.**
+> **O Guia não ganha por nenhuma rota.**
+
+**Num Caminho de técnica, ataque extra é trocar o Classe 0 pelo golpe simples, não somar.** Somando, o conjurador de perto fica com três ações e vai a +61% da Rotina no nível 2 e +22% no 10; trocando, ele cai exatamente na linha do físico, que a peça 6 já aprovou. E somar quebra o único argumento que aprova o ataque extra — *a Rotina já é feitiço mais Classe 0, então o extra do físico é o espelho*.
+
+**O Coro não custa nada a mais**, e isso caiu de graça: a regra da v0.14 diz que o dono e todas as invocações somados entregam **uma** Rotina. É teto de saída, não de número de ações. Os dois golpes do dono e o da invocação continuam saindo do mesmo orçamento — as ações se redistribuem, o dano não sobe. A exceção de economia de ação que estava aberta no Coro já estava paga desde a v0.14, e ninguém tinha percebido.
+
+**O Guia fica coerente ficando de fora.** Ele é o único Caminho que não oferece um segundo golpe; quem quiser lutar de Guia paga pela técnica, no orçamento do Fundamento, como todo mundo. O que era *"pode estar dominado"* vira uma pergunta fechada com número: **o que Elo, Sutura e Perímetro entregam que valha um golpe por rodada?**
+
+### Corrigido — a ficha da Kaori tinha dois nomes que não existem
+
+É a página que todo jogador novo vai copiar, e ela citava **três** categorias erradas de uma vez.
+
+*Famílias Livres: **Peso e Prender***. Peso é **Tema** do manual e preço de Liberação Máxima; Prender não é categoria nenhuma — é uma palavra dentro da descrição de **Controle**. As três Fechadas dela (Amparo, Área, Auxiliares) estavam certas, o que é justamente o que fez ninguém desconfiar da linha. Viraram **Controle e Castigo**: Controle é literalmente *"derrubar, prender, calar, barreira, terreno"*, que é a palavra da Regra dela; Castigo é *"fazer o dano render mais"*, que é o "mais pesado". As duas dizem a mesma coisa que Peso e Prender diziam, com nomes que existem.
+
+E o ofício livre dela era **Artesania**, que virou Entalhador na v0.16. Como é escolha livre, qualquer um dos dez servia; ficou **Caligrafia**, que conversa com ela ser Descendente de um ramo de clã que perdeu o nome.
+
+### Corrigido — a tabela das três alavancas tinha um número da v0.18
+
+A linha do Caminho dizia **+36% / +43% / +44%**, e nenhuma fórmula do projeto reproduzia isso. O **+36%** é o número da v0.18, de quando a faixa era "de 6 para 10 de vida por nível" — e ele sobreviveu à revisão da v0.20, que montou essa tabela **justamente para acertar as bases**. Medido igual às outras duas linhas: **+56% / +46% / +44%**.
+
+**E o par que virou pergunta de playtest mistura bases.** *"Constituição compra +113% contra os +56% da Destreza"* compara Constituição de **0 a 6** com Destreza de **1 a 6**. Na mesma base é **+79% contra +56%** — a Constituição lidera por **1,4×**, não por 2×. A peça 1 já media certo na tabela e citava o 113% à parte; o ESTADO-ATUAL é que juntava os dois como se fossem comparáveis. Não mexemos em nenhum número de regra: só a comparação estava errada, e a diferença é entre "um atributo puxou" e "um atributo dominou".
+
+É a quarta vez que o mesmo tipo de erro aparece — v0.16, contagem não era valor; v0.17, a referência óbvia não era a certa; v0.19, o número certo contra a base errada; agora, dois números certos comparados entre si em bases diferentes.
+
+### Corrigido — nove documentos que tinham ficado para trás
+
+| onde | o quê |
+|---|---|
+| peça 1 | parágrafo duplicado em "Constituição entra cheia", e o primeiro terminava em *"Indo do valor 1 ao 6:"* sem tabela nenhuma depois |
+| peça 3 | *"três peças competem"* pela reação, listando quatro |
+| peça 5 | *"Treino em três perícias"* — são duas fixas e quatro livres desde a v0.16 |
+| peça 7 | cabeçalho parado na v0.16, com conteúdo da v0.17 e da v0.22 dentro |
+| peça 7 | *"Quantos ofícios uma Origem deve dar. Hoje, nenhum"* — a seção 6 do mesmo arquivo dá um |
+| peça 8 | *"O catálogo de Origens... a maior lacuna desta peça"*, que existe desde a v0.22 e é apontado duas vezes pela própria peça |
+| `arquitetura.md` | dizia "manual v7.3", e o cabeçalho dizia "sincronizada na v0.15" com correção da v0.22 dentro |
+| `ESTADO-ATUAL.md` | v7.3 e v7.4 no mesmo arquivo; rabo de tabela morta listando Descanso como pendente; "aplicar Grau → Classe no `.docx`", resolvido na v0.20 |
+| `LEIA-ME.md` | parou na v0.20 — "sete peças, três validadores, ainda falta a criação de personagem" |
+
+O *"Quantos ofícios uma Origem dá"* não virou só uma correção: virou pergunta melhor. **O extra da Origem não é escolha de igual para igual** — perícia sem treino você rola, ofício sem treino não. O ofício compra o acesso inteiro a uma coluna fechada; a perícia compra +maestria num teste que você já podia tentar, de +1 no nível 2 a +4 no 30. Medir se alguém escolhe a perícia.
+
+E o **Sentir Energia** saiu da lista de problemas abertos do `ESTADO-ATUAL.md`: a v0.21 fechou como decisão registrada, e ele continuava listado como aberto três versões depois.
+
+### Registrado — três buracos de regra, e um degrau maior do que o texto promete
+
+Nenhum é erro de balanço; são coisas que o material **cita e nunca escreve**, e que dois mestres resolveriam diferente:
+
+- **O PE máximo nunca teve fórmula.** Só a instância do nível 2 na peça 8 (`PE por nível × 2`). Não dá para inferir da vida, que usa `(nível − 1)` e soma atributo.
+- **Arredondamento não existe.** "Metade do máximo" e "25% do máximo" caem em fração em cerca de 30% das fichas, e em todo Guia e Vanguarda de nível ímpar. O exemplo da peça 10 arredonda para baixo sem dizer.
+- **"Da quarta luta do dia"** nunca define o que conta como luta.
+
+E o **degrau 1 de exaustão** dá desvantagem, que vale **−25 pp no pico** — maior que treinar um Teste de Resistência (+10), maior que a maestria de uma campanha inteira (+20 no nível 30), maior que investir um atributo de 0 a 3 (+15). O texto o vende como o degrau leve. A escada por eixo continua boa; o que falta é o texto dizer o tamanho, e o `conferir-descanso.py` conferir magnitude e não só qual eixo cada degrau toca.
+
+### Achado — o Legado tem teto de quantidade, não de magnitude
+
+Um por ficha, e conferir isso leva um segundo. Mas a faixa entre os catorze é enorme: de **Irmãos** (sente outro Feto por perto, zero em rolagem) a **Não Sou Gente** (imune a veneno, doença e o que ataca corpo humano — apaga uma família de ameaça e boa parte do TR Vigor). A trava escrita, *"não produz dano e não escala com nível"*, não pega imunidade.
+
+Três coisas específicas: **Instinto Bruto está metade morto**, porque "use Sentir Energia no lugar de Percepção" é trocar Essência por Essência desde a v0.16 — o Legado foi escrito na v0.22 pressupondo o quadro anterior. **O relógio não é o mesmo dentro do par** — Latente e Receptáculo oferecem 1×/cena contra 1×/sessão, Reencarnado oferece 1×/arco contra permanente, e pela escada da peça 10 isso é 2× e 5× de diferença numa escolha apresentada como par. E **Treino de Berço** é o único que mexe em número de ficha: ele abre a rota Descendente com **10 perícias, 43%**, fora da faixa de 30–42% que o validador cobra e fora do checklist do mestre, que só conhece "8 e 3 ou 9 e 2".
+
+### Em aberto
+
+- **Nome do sistema.** A última pendência de nome.
+- Os quatro achados acima que pedem decisão: o teto de magnitude do Legado, o conserto do Instinto Bruto, as três linhas de regra que faltam, e o texto da exaustão.
+
+---
+
+## [0.23] — 2026-08-07
+
+### Adicionado
+
+- `03-mecanica/10-descanso-e-recuperacao.md` — o manual citava descanso **seis vezes** e nunca definia nenhum dos dois. Sem esta peça ninguém fechava a primeira sessão.
+- `03-mecanica/conferir-descanso.py` — quarto validador. Confere que o piso fora da base é estável, que a exaustão não espirala, que nenhum degrau toca a rolagem de luta antes do último, e que os quatro relógios estão ordenados.
+
+### Decidido — a ordem das peças veio de simular uma campanha, não de tamanho
+
+A escolha de escrever descanso antes de Técnica Marcial saiu de perguntar **quando o jogo trava**, e não de qual peça é maior:
+
+| quando | o que travava |
+|---|---|
+| **fim da sessão 1** | descanso |
+| **sessão 2** | equipamento — `Defesa = 10 + Destreza + proteção`, e proteção não tem número |
+| **nível 6**, o primeiro marco | aptidões — você escolhe refino e ganha uma, e elas não existem |
+| **depois do nível 2** | Trilhas |
+
+E as duas peças de criação que pareciam ser a próxima coisa **estão bloqueadas**: Técnica Marcial depende de **equipamento** (a Maki fere maldição só com ferramenta amaldiçoada, e o preço não existe) e Estilo da Sombra depende das **aptidões** (a rota da Shoko é literalmente "o poder vem de aptidão"). São a quarta e a quinta economia de poder, e a segunda ainda não tem teto escrito.
+
+### Decidido — dois descansos, os dois de ficção
+
+> **Curto — você parou entre uma luta e outra. Longo — a missão acabou.**
+
+**Sem relógio de horas.** Numa Guilda com cinco a sete mestres, *"dá para descansar uma hora aqui?"* é exatamente o tipo de pergunta que cada um responde diferente. Gatilho de ficção, dois mestres arbitram igual.
+
+### Decidido — ambiente propício é o eixo único
+
+Quase tudo na peça depende de uma pergunta só: **o lugar tem recursos?** Talismã, kit, comida, alguém que sabe costurar um corte.
+
+**Lista fechada de exemplos, e o mestre com a palavra final.** É o mesmo padrão dos traços de Origem: a lista existe para ele não decidir do zero, não para amarrá-lo.
+
+| | curto | longo em lugar propício | longo fora |
+|---|---|---|---|
+| **PE** | 25% do máximo | cheio | **metade do máximo** |
+| **Vida** | nada | cheia | **metade do máximo** |
+| **Exaustão** | — | zera | não zera |
+| **Integridade** | — | cheia | **cheia** |
+
+**A Integridade é a única coisa que o ambiente não toca**, e o motivo é o mesmo da v0.17: a alma não é o corpo. Isso mantém a regra do manual literalmente intacta.
+
+**O descanso curto não devolve vida**, e é decisão: em Jujutsu Kaisen quem conserta gente é a Energia Reversa e a Shoko. Se um respiro devolvesse vida, a coisa mais rara da obra viraria conveniência.
+
+### Achado — "metade" tem uma leitura que colapsa
+
+A regra diz **metade do seu máximo**, e a frase precisa dizer isso com todas as letras. A leitura alternativa — *metade do que você tem* — colapsa:
+
+| Emanador nv10, pool 60, sempre fora da base | dia 1 | dia 2 | dia 3 | dia 4 |
+|---|---|---|---|---|
+| metade do **máximo** (a regra) | 30 | 30 | 30 | 30 |
+| metade do **atual** (a leitura ruim) | 30 | 15 | 7 | 3 |
+
+O validador confere que o piso é estável, e falha se a regra escorregar para a outra leitura.
+
+### Decidido — exaustão, e o teto que impede a espiral
+
+**Não existe no manual** — zero ocorrências de exaustão, cansaço ou fadiga. É peça nova, e ela existe porque **sem ela o descanso curto não tem limite**.
+
+> **Da quarta luta do dia em diante, cada luta dá um degrau. Máximo de três.**
+
+| degrau | o que pega | curto fora de lugar propício |
+|---|---|---|
+| 1 | desvantagem em perícia e ofício | 15% |
+| 2 | deslocamento cai para 6 m | 5% |
+| 3 | desvantagem em ataque e Teste de Resistência | nada |
+
+**A ordem não é aleatória: o primeiro degrau pega fora de combate, o segundo pega posicionamento, e só o terceiro pega a rolagem de luta.** Quem está cansado começa a falhar no que não mata antes de falhar no que mata — e o validador **falha** se algum degrau anterior ao último tocar a rolagem.
+
+**O teto de três existe porque a combinação escolhida é uma espiral.** Exaustão que não zera fora da base, somada a degraus crescentes, é o mesmo defeito que a v0.8 diagnosticou: quem está cansado erra mais, apanha mais, luta mais tempo e cansa mais. Sem teto, dez dias de campo dariam vinte degraus.
+
+**E o mestre pode tirar um degrau quando a ficção pedir** — uma noite de sono de verdade, um dia parado. A válvula só anda para o lado do jogador: o mestre nunca adiciona degrau fora da regra.
+
+### Decidido — os quatro relógios, e por que o manual tinha dois nomes
+
+O manual usa **"por cena"**, **"por descanso"** e **"por dia"** sem nunca dizer como se ordenam. Agora dá:
+
+**por cena → por descanso curto → por dia → por descanso longo**, do mais frequente ao menos.
+
+**"Por dia" e "por descanso longo" não são a mesma coisa, e a diferença é o ponto.** Uma missão pode durar cinco dias: quem tem "uma vez por dia" recarrega cinco vezes, quem tem "uma vez por descanso longo" recarrega uma. É por isso que o manual dá "por dia" para a Passiva Segunda Natureza e "descanso longo" para a Integridade — a segunda é muito mais forte, e o relógio mais lento é o preço.
+
+### O orçamento de missão
+
+**PE é o que você tem para a missão inteira.** A coluna do manual — *"quantas vezes você lança o seu melhor feitiço"* — passa a significar **por missão**, e vira o piso em vez do teto:
+
+| lutas no dia | PE acumulado |
+|---|---|
+| 3 | 1,50 × pool |
+| 4 | 1,75 × pool — e a exaustão entra |
+
+É também o que **faz o golpe simples e o Classe 0 existirem**: eles são o que sobra quando o combustível acaba, e num sistema onde o combustível volta cheio a cada respiro eles não teriam razão de ser.
+
+### Em aberto
+
+- **Se três lutas de graça é o número certo.** Se a maioria das sessões tem duas lutas, a exaustão nunca dispara e a peça vira decoração.
+- **Se o descanso curto devia devolver alguma vida.** Se o grupo sem curandeiro travar entre lutas, o conserto barato é devolver só em ambiente propício.
+- **O que acontece com quem passa semanas em campo.** O teto de três impede a espiral e também diz que dois meses no mato doem igual a três dias.
+
+---
+
+## [0.22] — 2026-08-07
+
+### Adicionado
+
+- `03-mecanica/09-origens.md` — o catálogo. Fecha a maior lacuna da criação de personagem, que era a única coisa no sistema em que um número dependia de julgamento do mestre.
+- `conferir-pericias.py` ganhou as listas de Origem e duas checagens: as quatro perícias de cada uma existem no quadro, e nenhuma Origem tem a lista inteira já fixada por um Caminho — se tivesse, a escolha dela morreria.
+
+### Decidido — três camadas, não uma lista
+
+| | |
+|---|---|
+| **Cinco principais** | Latente · Receptáculo · Descendente · Reencarnado · Feto |
+| **Sub-origem** | **Sem Técnica**, que se soma a qualquer uma das cinco |
+| **Duas especiais** | **Corpo Amaldiçoado** e **Restrição Celestial** — não aceitam a sub-origem, porque são especiais |
+
+O cruzamento é o que a estrutura compra: **Descendente Sem Técnica** é o caso da Miwa, nome de peso e nenhuma técnica de clã. Uma lista plana de oito perderia isso.
+
+### Corrigido pelo cânone — duas categorias mudaram de nome antes de existirem
+
+A checagem contra a obra pegou uma coisa que teria nascido errada.
+
+**O Junpei tem técnica inata.** Escória da Lua, veneno. O que o Mahito fez foi *modificar o cérebro dele para que ela despertasse antes da hora* — o poder era dele, o acesso veio de fora. Ele estava classificado como "recebeu técnica de fonte externa" e **virou Latente**.
+
+Com ele fora, a categoria mudou de recorte e de nome: **Maculado virou Receptáculo**, e passou a ser *"você carrega alguma coisa, e ela ainda está aí"* — Itadori com o Sukuna, Hana Kurusu com o Anjo.
+
+E **Desperto virou Reencarnado**, o que deixou a fronteira entre as duas nítida. **É a distinção que o próprio mangá faz:** sobre a Hana Kurusu, o texto diz que *"ao contrário da maioria das encarnações, o Anjo vive simbioticamente dentro dela em vez de sobrescrever a consciência"*.
+
+> **Receptáculo é simbiose — os dois estão lá. Reencarnado é sobrescrita — sobrou um.**
+
+O resto do cânone conferiu: **Kashimo** aceitou virar objeto amaldiçoado e encarnar num corpo que o Kenjaku preparou; **Panda** é Cadáver Amaldiçoado de Mutação Abrupta feito pelo Yaga, com três núcleos; **Mechamaru** troca corpo inútil por energia enorme; **Maki e Toji** nasceram sem energia nenhuma e ganharam corpo sobre-humano.
+
+### Decidido — a patente sai da Origem
+
+**Todo personagem começa Grau 4**, venha de onde vier. A patente é eixo social e sobe por feito.
+
+Isso contradizia três documentos, e os três foram corrigidos: a peça 8 dizia que a Origem dava a patente inicial, a peça 2 usava o Yuta como justificativa, e o `arquitetura.md` chamava a Origem de *"o lugar natural da patente inicial"*.
+
+**O caso do Yuta continua existindo na ficção** — a instituição classifica quem ela quiser onde ela quiser. O que sai é a patente ser **produto da Origem na criação**, que criaria a origem que começa na frente. É o mesmo argumento que a v0.10 usou para tirar atributo da Origem.
+
+### Decidido — o Legado, e o teto que ele nasce com
+
+> **O nome saiu de "talento" numa checagem que pegou colisão antes de ela existir.**
+>
+> A ideia era chamar de **Herança**, para remeter à Origem. **Herança é um dos Selos do manual** — ela está na lista *Vínculo · Troca · Cópia · Contrato · Dívida · Sorte · Aposta · Julgamento · Regra · Registro · Valor · Verdade · Segredo · Herança · Ausência*. Termo definido, mesma armadilha do Grau.
+>
+> Testadas em seguida: **Marca** (8× no manual), **Sangue** (9×) e **Semente** (também Selo) colidem igual. **Legado** tem zero ocorrência no manual e zero no projeto, e diz a mesma coisa que Herança dizia. Quatro nomes conferidos antes de um entrar no material — foi mais barato que o Grau, que só foi pego depois de 76 tabelas escritas.
+
+A Origem dá **um Legado**, escolhido entre dois. **Um só na ficha inteira: o sistema nunca concede outro.**
+
+Legado é economia de poder nova, e o `arquitetura.md` já chama as aptidões de *"o risco maior da estrutura inteira"* por não terem teto escrito. **Então esta nasce com o teto embutido, e o teto é o menor possível** — toda ficha tem exatamente um, e conferir isso leva um segundo. Legado não produz dano e não escala com nível, pela mesma regra das aptidões.
+
+### Decidido — o resto do que a Origem entrega
+
+**Uma perícia da lista de quatro dela, uma perícia livre, e um extra que o jogador escolhe: um ofício livre ou mais uma perícia.** Mais um Teste de Resistência (qualquer um dos quatro) e um traço, do catálogo dela ou escrito com aprovação.
+
+O extra opcional cria duas rotas, e **as duas cabem na faixa**:
+
+| rota | perícias | ofícios |
+|---|---|---|
+| Origem pega o ofício | 8 de 23 = **35%** | 3 de 10 = 30% |
+| Origem pega a perícia | 9 de 23 = **39%** | 2 de 10 = 20% |
+
+### Registrado — seis das nove rotas já rodam
+
+| rota | jogável |
+|---|---|
+| as cinco principais | **sim** — vão para o Fundamento, que existe e está validado |
+| Restrição Celestial, ramo do Mechamaru | **sim** — Fundamento normal, com o corpo limitado escrito na ficha |
+| qualquer uma **+ Sem Técnica** | não — precisa de **Aptidão** ou **Estilo da Sombra** |
+| Corpo Amaldiçoado | não — precisa de **Técnica Marcial** |
+| Restrição Celestial, ramo da Maki | não — precisa de **Técnica Marcial** |
+
+As três que faltam dependem de um subsistema paralelo ao Fundamento, e ele é a próxima peça. Elas entram no catálogo assim mesmo porque **a Origem é decisão fechada; o que falta é a montagem**.
+
+### Corrigido
+
+- A lista do Reencarnado tinha **Táticas**, que foi removida do quadro na v0.16. Virou Investigação. O validador agora falha se uma Origem oferecer perícia que não existe.
+
+### Decidido — a próxima peça são duas, não uma
+
+**Técnica Marcial** e **Estilo da Sombra** vão ser sistemas separados, porque resolvem problemas diferentes:
+
+| | quem | o problema |
+|---|---|---|
+| **Técnica Marcial** | Panda, Maki, Toji | **não tem energia amaldiçoada.** Sem PE, sem golpe canalizado, sem Sentir Energia. Paga com o corpo e com ferramenta amaldiçoada |
+| **Estilo da Sombra** | Miwa, Kusakabe | **tem energia e não tem técnica.** Tem PE e não tem o que gastar nele. Paga com PE, como todo mundo |
+
+Um motor único acharia os dois: o Panda troca de núcleo e a Miwa saca espada, e forçar isso num orçamento só apagaria a diferença. O custo aceito é balancear duas economias novas em vez de uma.
+
+### Em aberto
+
+- **Técnica Marcial e Estilo da Sombra**, que destravam três rotas.
+- **A Aptidão como rota de criação** — a Shoko existe na obra e não na regra, e isso amarra com os degraus de refino, que também não foram escritos.
+- **Se a perícia livre da Origem devia ser da lista também.** É o último lugar da criação em que um número depende de julgamento.
+- **Se um Legado por ficha é pouco.** Se parecer decoração no playtest, o conserto é mais opções por Origem, não mais Legados por ficha.
+
+---
+
+## [0.21] — 2026-08-07
+
+### Adicionado
+
+- `03-mecanica/08-criacao-de-personagem.md` — **a peça em que tudo se encontra.** Não inventa regra: junta as sete anteriores e o manual do Fundamento na ordem em que a pessoa senta e preenche.
+- `99-arquivo/` — pasta de material morto, com `LEIA-ME.md` próprio e três subpastas por assunto.
+
+### Decidido — a ordem dos oito passos, e por que o passo 2 existe
+
+> **Origem → a Regra em uma frase → Caminho → Atributos → a técnica inteira → Perícias e ofícios → os números → Pactos.**
+
+O `arquitetura.md` já tinha levantado a tensão: escrever a técnica inteira leva tempo, mas **escolher o Caminho antes de saber o que a técnica faz ancora o jogador num papel de equipe antes de ele saber o que o personagem é**. Quem escolhe "eu sou o tanque" e só depois escreve a técnica tende a escrever uma técnica de tanque — o oposto do pilar 1.
+
+A saída é partir a técnica em duas: a **Regra sai no passo 2**, em uma frase, e o resto fica para o passo 5. O jogador escolhe o Caminho já sabendo o que a técnica dele é, e ainda não gastou a parte longa.
+
+### Decidido — Sentir Energia fica como está
+
+O achado da v0.20 dizia que ela falha no teste do bônus automático: sendo a mais rolada da mesa, toda ficha eficaz gasta uma das quatro escolhas livres nela, então o Caminho entrega três livres e uma obrigatória.
+
+**Aceito conscientemente, e o argumento é do Mizuki:** sempre vai existir perícia melhor que outra, e as pessoas escolhem por querer ser únicas, não só por eficiência — é para isso que a lista tem vinte e três opções. Deixa de ser problema aberto e passa a ser decisão registrada.
+
+### A ficha de exemplo, conferida
+
+A peça traz uma ficha inteira — a Kaori, Bastião de nível 2 — e cada número dela foi conferido contra as fórmulas: vida 23, Integridade 28, PE 8, Defesa 12, CD 13.
+
+O que ela mostra sem precisar dizer: **ela acerta d20+3 com o soco e d20+3 com o feitiço.** Não é coincidência — é o `2 + maestria` da v0.9 calibrado exatamente para o conjurador empatar com o guerreiro do nível 2 ao 30.
+
+### Registrado — o que a criação ainda contorna
+
+Quatro coisas entram como provisórias, cada uma com a saída escrita no ponto do texto onde ela pesa, e não numa nota no fim:
+
+- **Origens** — escrita livre com aprovação do mestre. É a única em que um número depende de julgamento, e a maior lacuna da peça.
+- **Pactos** — só a trava e a promessa.
+- **Equipamento** — a ficha nasce com proteção 0. Não trava a criação; trava a segunda sessão.
+- **Trilhas** — não afetam o nível 2, afetam a primeira subida.
+
+### Alterado — o arquivo morto saiu do caminho
+
+Material superado espalhado pelas pastas vivas atrapalha busca e ocupa a atenção de quem lê. Agora tem lugar:
+
+| pasta | o que foi para lá |
+|---|---|
+| `99-arquivo/secoes-substituidas/` | a lista de catorze perícias e o quadro de quatro Caminhos, **extraídos de dentro das peças 4 e 5** |
+| `99-arquivo/construcao-das-skills/` | o benchmark das quatro skills, o `feedback.json` e o visualizador — 200 KB que ninguém consulta |
+| `99-arquivo/ferramentas-de-decisao/` | o comparador de curvas, que escolheu o d20 na v0.3 e está aposentado desde então |
+| `99-arquivo/` | o `PROMPT-DE-CONTINUIDADE.md`, que o `ESTADO-ATUAL.md` faz melhor |
+
+**A mudança de método que vale registrar:** até aqui, seção superada ficava dentro da peça viva com um aviso em cima. Isso não resolve — ela continua aparecendo em busca e continua ocupando quem lê. **Agora ela sai inteira**, e na peça viva fica só um parágrafo com o que sobreviveu e um ponteiro. As peças 4 e 5 encolheram e ficaram mais fáceis de ler.
+
+Cada arquivo arquivado carrega no topo: de onde saiu, o que o substituiu, em que versão, **por que morreu** e o que dele sobreviveu. A última linha é a que não dá para reconstruir depois.
+
+**Aviso para quem ler as entradas antigas deste arquivo:** as versões da v0.2 à v0.4 citam caminhos que não existem mais — `workspace-skills/`, `03-mecanica/comparador-de-curvas.html`, `feedback.json` na raiz. Elas ficam como estão, porque descrevem o que era verdade na época. A tabela acima é o mapa de para onde cada coisa foi.
+
+---
+
+## [0.20] — 2026-08-06
+
+Revisão cética do material inteiro antes de abrir a criação de personagem, em três camadas: automática, textual e de design. Os três validadores passam. Achou quatro erros de texto e três problemas de design que nenhum validador pegaria. E fechou a pendência mais antiga do projeto, aberta desde a v0.3.
+
+### Aplicado — Grau virou Classe no manual do Fundamento
+
+A colisão estava aberta desde a v0.3 e decidida desde a v0.6: **"grau" é o termo da obra para a patente do feiticeiro**, a Guilda fala assim há anos, e o manual usava a mesma palavra para o tamanho do feitiço. Agora o manual está na **v7.4** e usa Classe.
+
+**Não foi find/replace, e essa é a parte que vale registrar.** *Grau* é masculino e *Classe* é feminino. Uma substituição cega produz "do Classe", "um Classe", "o seu maior Classe". Foram **243 linhas alteradas** nos nove arquivos de fonte, e **dez precisaram de concordância que nenhuma regra automática pega**:
+
+- artigo e preposição — *do Grau* → *da Classe*, *num Grau* → *numa Classe*, *pelo Grau* → *pela Classe*
+- markdown no meio — `um **Grau**` não casava com a regra de `um Grau`, e escapou na primeira passada
+- **pronome** — *"Escolha o Grau… **Ele** define os pontos"* → *"Escolha a Classe… **Ela** define os pontos"*
+
+O método que achou os três últimos foi um linter escrito para o caso: procurar artigo masculino colado em Classe, no texto **renderizado**, não na fonte. Ele acusou oito ocorrências, das quais **cinco eram falso positivo** — *"o mesmo número dos pontos dele"* e *"de que Classe ele era"* têm "ele" se referindo ao feitiço e ao personagem, não à Classe. Só leitura separa esses casos.
+
+**Um efeito colateral que precisou de decisão:** o manual tinha uma frase em prosa — *"se a sua mesa tem uma classe que bate em vez de conjurar"* — que passaria a colidir com o termo novo. Virou *"um tipo de personagem que bate"*.
+
+Conferido depois de gerar: **0 ocorrências de "Grau"** como palavra inteira, 198 de "Classe", `pac7.py` e `v7.py` passando, e a estrutura idêntica — 325 parágrafos e 76 tabelas nos dois. As treze aparições de "grau" que sobram no texto são todas **"degrau"**, palavra diferente.
+
+O `.docx`, o `.pdf` e o `.zip` de fontes foram regenerados e instalados.
+
+### Corrigido — erros de texto
+
+- **Parágrafo duplicado na peça 1.** "Vida é a única alavanca que a trava do Caminho deixa aberta" aparecia duas vezes seguidas, como seção e como parágrafo, dizendo a mesma coisa. Resíduo de edição da v0.18.
+- **Dois números contraditórios para a mesma coisa, na mesma seção.** A peça 1 dizia que Constituição compra +45% de sobrevivência no nível 10 numa tabela e **+113%** noutra, dez linhas abaixo. A primeira ficou parada na fórmula da v0.18. Pior: as duas usavam bases diferentes — uma media do valor 1 ao 6, a outra do 0 ao 6. **Agora as três alavancas aparecem numa tabela só, todas medidas de 1 a 6**, com o valor de 0 a 6 citado à parte.
+- **A peça 1 ainda usava a escada de perícia CD 12/16/20**, que não existe. A oficial é 10/14/18/22/26, corrigida no validador desde a v0.17 mas não no texto.
+- **Listas de "Em aberto" apontando para coisas já resolvidas** em cinco das sete peças — quantos TRs se treina, de onde vem o treino, o quadro de Caminhos, a lista de catorze perícias, se o ataque de oportunidade usa a rolagem comum. Cada uma virou uma linha de "resolvido e tirado daqui", com o ponteiro para onde a resposta mora.
+
+### Achado — Sentir Energia falha no teste do bônus automático
+
+A peça 7 declara: *"Sentir Energia não é fixa de ninguém, e isso é escolha. Livre para todos, ela vira decisão de ficha — e o feiticeiro ruim de sentir energia passa a caber."*
+
+**Não vira.** Ela é a perícia mais rolada da mesa, com o dobro do peso da segunda colocada e o quádruplo das outras dezessete. Com quatro escolhas livres entre vinte e três opções e uma delas valendo por quatro, **toda montagem que se importe com eficácia pega**.
+
+Na prática o Caminho dá **três livres e uma obrigatória**, não quatro livres. E o Itadori ruim de sentir energia só existe se o jogador escolher ser pior de propósito — o que é armadilha, não escolha.
+
+Três saídas, nenhuma aplicada ainda: dar Sentir Energia de graça a todo feiticeiro e assumir que é o piso; fixá-la em alguns Caminhos e aceitar a vantagem; ou aceitar que são três livres e dizer isso no texto em vez de prometer quatro.
+
+### Achado — o Guia pode estar dominado pela Vanguarda
+
+| | vida/nível | PE/nível | ataque extra |
+|---|---|---|---|
+| Vanguarda | 5 | 5 | **sim** |
+| Guia | 5 | 5 | não |
+
+**Números idênticos, e a Vanguarda tem um recurso a mais.** É o único par do sistema em que dois Caminhos custam igual e um leva algo que o outro não leva.
+
+O Guia só escapa se as Trilhas dele entregarem algo que valha um ataque por rodada. Hoje as Trilhas são três linhas de descrição sem número nenhum, então **não dá para saber** — não é erro provado, é buraco de verificação. Fica travado até a peça de Trilhas existir, e é a primeira coisa a conferir quando ela existir.
+
+### Achado — o ofício não passa no filtro do multi-mestre
+
+A regra diz que **o mestre escolhe o atributo que o ofício usa, na hora**. Forjar uma lâmina é Força ou Inteligência? Falsificar é Destreza ou Essência?
+
+Dois mestres que nunca conversaram cobram atributos diferentes pelo mesmo ofício, e a diferença pode ser de cinco pontos na rolagem. É a segunda regra do sistema em que **um número depende de julgamento** — a outra é a Origem dando duas perícias livres, que já está marcada como provisória.
+
+O conserto padrão do projeto se aplica: uma tabela pequena, com o atributo padrão de cada ofício e uma linha dizendo quando o mestre pode trocar.
+
+### Registrado — quatro premissas herdadas que nunca foram marcadas
+
+A peça 3 fez esse exercício para a economia de ação e concluiu, honestamente, *"mantemos por custo de retrabalho, não por mérito"*. Quatro outras nunca passaram por ele:
+
+- **Vida por Caminho.** Entrou na v0.19 com argumento próprio — é a única alavanca que a trava do Caminho deixa aberta —, o que é melhor que herdar cego, mas não está escrito como herança do d20.
+- **Vida como reservatório único que esvazia.** Nunca questionado. Em Jujutsu Kaisen o ferimento importa narrativamente, e um medidor só pode não ser o que a obra faz.
+- **Nível inteiro subindo de um em um.** O sistema só usa marcos de quatro em quatro; os níveis entre marcos entregam apenas Classe de feitiço. Vale perguntar se o nível precisa existir na granularidade que tem.
+- **Rolagem de acerto separada da de dano.** Herdada do Fundamento, que já é d20.
+
+Nenhuma é problema. Mas o projeto tem por método marcar o que é escolha e o que é herança, e essas quatro estavam passando como escolha sem ter sido decididas.
+
+---
+
+## [0.19] — 2026-08-06
+
+### Corrigido — a trava de vida da v0.18 conferia a coisa errada
+
+A v0.18 checava que a **média dos dados de vida** desse 8, igual ao número do manual. Isso parece certo e não é.
+
+**O 8 do manual é a vida total por nível, sem atributo nenhum** — ele foi escrito antes de existir Constituição na conta. Somar Constituição por cima não empata com ele: infla.
+
+| | média dos dados | mais Constituição típica (3) | o manual supõe | desvio |
+|---|---|---|---|---|
+| v0.18 — 10/9/8/7/6 | 8,0 | 11,0 | 8 | **+38%** |
+| v0.19 — 7/5/5/4/4 | 5,0 | **8,0** | 8 | **+0%** |
+
+Na prática, a v0.18 dava ao grupo 38% de vida a mais do que a tabela de encontro supõe, e o combate durava **4,7 rodadas onde o manual promete 3,5**.
+
+**A trava certa é: média dos dados + 3 de Constituição ≈ 8.** O validador foi reescrito para conferir isso, e agora também mede as rodadas para cair sob foco contra a tabela de chefe do manual, em vez de confiar numa média abstrata.
+
+É a terceira vez seguida que o mesmo tipo de erro aparece — v0.16, contagem não era valor; v0.17, a referência óbvia não era a certa; agora, o número certo comparado contra a base errada. **A pergunta que faltou nas três: "esse número já inclui o que eu estou somando nele?"**
+
+### Alterado — a vida por Caminho, com dado
+
+| Caminho | dado | vida no nível 1 | por nível | PE por nível | soma |
+|---|---|---|---|---|---|
+| **Bastião** | d12 | 12 | 7 | 4 | 11 |
+| **Vanguarda** | d8 | 8 | 5 | 5 | 10 |
+| **Guia** | d8 | 8 | 5 | 5 | 10 |
+| **Evocador** | d6 | 6 | 4 | 6 | 10 |
+| **Emanador** | d6 | 6 | 4 | 6 | 10 |
+
+> **No nível 1 você recebe a vida inicial do Caminho + Constituição.**
+> **Em cada nível depois, a vida por nível do Caminho + Constituição de novo.**
+
+**A vida inicial é o máximo do dado e a vida por nível é a metade dele arredondando para cima**, então quem quiser pode rolar o dado em vez de pegar o fixo. Uma versão anterior desta proposta tinha 6 por nível para os Caminhos de d8, o que não fecha — d8 dá 5. O validador agora falha se o fixo e o dado deixarem de ser equivalentes.
+
+**A soma vida+PE ficou 11 no Bastião e 10 nos outros quatro.** É o número que faz a troca "couro contra combustível" ser sabor em vez de degrau de poder, e o validador falha se a diferença passar de 2.
+
+### Alterado — PE em três degraus
+
+**6 no Emanador e no Evocador. 5 na Vanguarda e no Guia. 4 no Bastião.**
+
+Os dois do meio vivem entre bater e conjurar: o Guia estende efeito alheio e recupera, a Vanguarda alterna golpe canalizado com golpe simples. O **6 dos dois conjuradores puros não é escolha nossa** — o Fundamento tem uma tabela de "quantas vezes você lança o seu melhor feitiço" calculada em cima dele. O 4 e o 5 são números nossos.
+
+### Resultado
+
+Rodadas para cair sob foco, com Constituição 3, contra a tabela de chefe do manual:
+
+| | nv 2 | nv 10 | nv 20 | nv 30 |
+|---|---|---|---|---|
+| Bastião | 4,2 | 4,0 | 4,2 | 4,2 |
+| Vanguarda · Guia | 3,2 | 3,2 | 3,3 | 3,4 |
+| Evocador · Emanador | 2,7 | 2,8 | 2,9 | 2,9 |
+| **média do grupo** | 3,2 | 3,2 | 3,3 | 3,4 |
+
+Plana do nível 2 ao 30 nos cinco, e a média em cima das 3,5 do manual. O mestre nunca precisa saber o nível para estimar quanto tempo alguém aguenta.
+
+### Registrado — Constituição virou a maior alavanca de sobrevivência
+
+| no nível 10, do menor valor ao maior | compra |
+|---|---|
+| Caminho, de 4 para 7 | +46% |
+| Destreza, de 1 para 6 | +56% |
+| **Constituição, de 0 para 6** | **+113%** |
+
+Na v0.18 ela comprava +59%, na mesma faixa da Destreza. Dobrou por duas razões somadas: a vida por nível ficou menor, então cada ponto de Constituição pesa proporcionalmente mais; e ela passa a entrar **também no nível 1**, multiplicando por *nível* em vez de *(nível − 1)*.
+
+Não quebra nada e as três continuam sendo escolhas, mas é o primeiro número do sistema em que um atributo está claramente na frente. **Pergunta de playtest: apareceu alguém com Constituição 0 ou 1?** Se não apareceu, ela virou obrigatória, e o conserto é uma linha — Constituição volta a entrar só do segundo nível em diante.
+
+Pela mesma causa, o espalhamento subiu para **3,2×**: o Evocador de Constituição 0 tem 122 de vida no nível 30 e cai em 1,7 rodadas, contra 395 e 5,5 rodadas do Bastião de Constituição 6. O teto do validador subiu de 3,0× para 3,5× com o motivo escrito.
+
+### Efeito colateral registrado — a alma virou a reserva maior
+
+Com a vida do corpo menor, a Integridade (`20 + 8 × (nível − 1)`, inalterada) passou a ser **maior que a vida em quatro dos cinco Caminhos**. Quem não é Bastião cai pelo corpo antes de a alma acabar, então o **estágio 4 de dano de alma quase nunca dispara**.
+
+O Bastião é o único que inverte: no nível 30 ele fica de pé com 53 de vida no medidor e a alma acabada. É exatamente o que o Mahito faz com quem é duro demais para morrer de porrada — mas hoje ele é o único que chega lá.
+
+Isso muda quando a **Essência** entrar na Integridade, o que já está decidido e sai junto com a peça de dano de alma.
+
+---
+
+## [0.18] — 2026-08-06
+
+### Decidido — cada Caminho tem a sua vida por nível
+
+> **Pontos de vida = 20 + (a vida do seu Caminho + Constituição) × (nível − 1).**
+
+| | Bastião | Vanguarda | Guia | Evocador | Emanador |
+|---|---|---|---|---|---|
+| vida por nível | 10 | 9 | 8 | 7 | 6 |
+| PE por nível | 4 | 4 | 6 | 6 | 6 |
+
+**O argumento não é "porque o d20 faz assim" — é que sem isso o Bastião não tem como ser tanque.**
+
+A trava do Caminho, escrita na peça 5, proíbe ele de dar dados de dano, Classe de feitiço, Melhoria de graça e cura. Com a v0.17, o Bastião — *"o corpo como resposta: aguentar, encarar, prender"* — ainda não tinha **um único número** que o fizesse aguentar mais que um Emanador. A coisa que o tornaria duro seria a Constituição dele, que qualquer conjurador também pode pegar.
+
+Vida é a única alavanca que a trava deixa aberta, e ela não está na lista do proibido: não é dano, não é Classe, não é Melhoria, não é cura. É o que transforma "aguentar" em mecânica em vez de sabor.
+
+E ela **corre no sentido contrário do PE**, que já era assimétrico desde a v0.14: quem tem mais couro tem menos combustível. As duas assimetrias se pagam em vez de empilhar.
+
+### A trava que a peça precisa: média 8
+
+**A média dos cinco Caminhos tem que dar exatamente 8**, e isso não é estética. O manual calibra vida de chefe, dano de chefe e dano de capanga em cima de 8 por nível. Enquanto a média for 8, a tabela de encontro dele continua valendo para um grupo típico — e ela é a peça que faz cinco mestres prepararem igual. 10 + 9 + 8 + 7 + 6 = 40, sobre cinco, dá 8.
+
+O `conferir-atributos.py` agora **falha** se a média sair de 8, se o espalhamento passar de 3×, ou se uma das três alavancas de sobrevivência dominar as outras duas.
+
+### Os números que fecham
+
+| no nível 10, do menor valor ao maior | compra de sobrevivência | custo |
+|---|---|---|
+| Caminho, de 6 para 10 | +36% | escolha única, na criação, sem volta |
+| Constituição, de 0 para 6 | +59% | pontos de atributo |
+| Destreza, de 1 para 6 | +56% | pontos de atributo, e devolve muito mais junto |
+
+Espalhamento no nível 30: de **194** (Emanador de Constituição 0) a **484** (Bastião de Constituição 6), **2,5×**. Um pouco mais largo que o d20 clássico, onde a distância entre o conjurador frágil e o brutamontes fica perto de 2×.
+
+Nenhuma das três domina, e a do Caminho é a única que **não tira ponto de lugar nenhum**.
+
+### Integridade — o rumo agora está decidido, não só registrado
+
+A Integridade continua plana em `20 + 8 × (nível − 1)`, sem Caminho e sem Constituição, e continua sendo exatamente a fórmula do manual — muda uma frase, não muda uma tabela.
+
+**Mas ela não fica assim.** Decidido que a Integridade vai **escalar com Essência**, virando uma segunda vida de verdade em vez de um número plano. Entra junto com a peça de dano de alma, com o contexto que ela vai trazer.
+
+Quando entrar, os dois eixos se cruzam em vez de empilhar: o Emanador de Essência alta fica com **alma grossa e corpo fino**, o exato oposto do Bastião. Hoje já dá para ver o embrião disso — no nível 30, a alma do Bastião acaba com 232 de vida ainda no medidor, e ele fica de pé sem ser mais ele. É a imagem que a obra usa o tempo todo.
+
+### Corrigido de método
+
+A v0.17 tinha escolhido `20 + (8 + Constituição) × (nível − 1)`, com o 8 igual para todo mundo, e **não perguntou se o 8 devia ser igual para todo mundo**. O número veio do manual, e o manual não conhece Caminhos — ele foi escrito antes de eles existirem.
+
+É a mesma lição da v0.17 aplicada um nível acima: lá, a referência óbvia (a tabela do manual) não era a referência certa para o tamanho da Constituição. Aqui, ela também não era a referência certa para **quantas fórmulas de vida deveriam existir**.
+
+---
+
+## [0.17] — 2026-08-06
+
+Revisão geral antes de começar a criação de personagem. Os três validadores passam, todas as fórmulas aparecem iguais em todo lugar, todas as referências cruzadas resolvem e nenhum termo carrega dois significados. Achou um buraco grande e três textos parados.
+
+### Achado — Constituição não fazia nada
+
+Três documentos diziam que Constituição governava pontos de vida. A peça 4 e a peça 7 usavam exatamente isso para justificar por que ela tem **zero perícias**: *"ela já governa vida e o TR Vigor, que é trabalho suficiente"*.
+
+A única fórmula de vida que existia no projeto inteiro estava no manual do Fundamento, e é `20 + 8 × (nível − 1)` — **sem atributo nenhum**. Constituição entregava só o Teste de Resistência Vigor, e o argumento que tirou as perícias dela era um trabalho que ela não tinha.
+
+É o mesmo padrão da v0.11, a tensão que era lacuna de texto disfarçada. Só que desta vez a lacuna estava na linha mais visível da ficha, e teria aparecido na primeira pessoa que fosse criar um personagem.
+
+### Decidido — Constituição entra cheia
+
+> **Pontos de vida = 20 + (8 + Constituição) × (nível − 1).**
+
+**E o número que decide isso não é o do manual.** Comparar Constituição com uma tabela que não tem atributo nenhum faz qualquer valor parecer demais — foi assim que a primeira recomendação saiu "metade", e estava errada.
+
+A comparação certa é com o outro atributo que **já** compra sobrevivência: Destreza, pela Defesa. Indo do valor 1 ao 6:
+
+| nível | Destreza (faz errar mais) | Constituição cheia | razão |
+|---|---|---|---|
+| 2 | +63% | +17% | 0,72 |
+| 10 | +56% | +45% | 0,93 |
+| 22 | +50% | +50% | **1,00** |
+| 30 | +45% | +52% | 1,04 |
+
+As duas ficam na mesma faixa a campanha inteira, e cruzam por volta do nível 22. **Destreza protege mais cedo e Constituição protege mais tarde** — a Defesa não cresce com o nível, a vida cresce. É por isso que uma não domina a outra.
+
+Pela metade, Constituição ficaria em +29% no nível 10: o atributo que faz uma coisa só, fazendo pior que o atributo que faz cinco. Destreza ainda compra ataque à distância, iniciativa e quatro perícias por cima.
+
+### Decidido — a Integridade não leva Constituição
+
+> **Integridade = 20 + 8 × (nível − 1).**
+
+O manual diz *"Integridade = vida máxima"*. Com Constituição na vida, essa frase daria de graça a um corpo duro uma alma dura — e dano de alma é justamente o que ignora o corpo. O que o Mahito faz não passa pelo músculo.
+
+**A escolha custa zero:** a fórmula acima é exatamente a que o manual já tem. Muda uma frase — *"Integridade = vida máxima"* vira *"a vida que todo mundo tem, antes da Constituição"* — e não muda nenhuma tabela. Os quatro estágios de dano de alma continuam valendo como estão.
+
+Se a alma parecer frágil no playtest, o conserto natural é ela somar **Essência**, que já é o atributo do TR Espírito e o eixo da alma no sistema. Registrado, não aplicado.
+
+### Alterado
+
+- `conferir-atributos.py` ganhou dois invariantes novos: **Constituição compra sobrevivência na mesma faixa que a Destreza** (falha fora de 0,6× a 1,4×) e **Integridade não leva Constituição** (falha se sair da fórmula do manual, porque aí a tabela de estágios teria que ser refeita).
+
+### Corrigido — três textos que tinham ficado para trás
+
+- **A peça 1 ainda dizia "3,2 rodadas é o alvo, com 65% de acerto".** Os dois números estavam errados e não batiam nem entre si: o CHANGELOG da v0.8 registrava 60% e o validador entrega 50%. Virou previsão de **3,4 a 4,0 rodadas**, com a tabela das três taxas do lado, marcada como número a medir e não alvo fechado.
+- **A peça 3 citava a regra de ouro nº 6 como "Grau 0"** enquanto o resto do material diz "Classe 0". Citação traduzida, com nota de que o `.docx` ainda não foi regenerado.
+- A nota de substituição da peça 4 dizia "vinte perícias" e não avisava que Sentir Energia mudou de atributo na v0.16.
+
+### O que a criação de personagem ainda não tem
+
+Levantado de propósito antes de começar. Só um item travava, e ele foi resolvido acima.
+
+| falta | trava? | por quê |
+|---|---|---|
+| Lista de Origens | não | a forma existe — patente, traço, duas perícias, um TR. Falta o catálogo, e o mestre aprova na leitura |
+| Tabela de proteção | não | `Defesa = 10 + Destreza + proteção`, e dá para criar com proteção 0 |
+| Tabela de armas | não | o golpe canalizado nem usa arma |
+| Quantas Trilhas e quando | não | a ficha começa no nível 2 e Trilha vem depois |
+| Regra de Pactos | não | camada 5, opcional na criação |
+
+### Lição de método
+
+**Quando um número não existe, o erro não é escolher mal — é escolher contra a referência errada.** A primeira recomendação de Constituição saiu conservadora porque comparou com a tabela do manual. A pergunta certa nunca foi "quanto de vida é demais", e sim "quanto de sobrevivência os outros atributos já compram".
+
+Vale como par da lição da v0.16: lá, contagem não era valor; aqui, a referência óbvia não era a referência certa.
+
+---
+
+## [0.16] — 2026-08-06
+
+### Alterado
+
+- `03-mecanica/07-pericias-e-oficios.md` reescrita: **vinte e três perícias**, e o quadro mudou de eixo.
+- `03-mecanica/01-atributos-acerto-defesa.md` — a tabela de atributos e o parágrafo da fusão de Essência, que diziam o contrário do que agora vale.
+- `03-mecanica/conferir-pericias.py` — checagem nova de peso de mesa, e as colisões aceitas passaram a ser declaradas com motivo dentro do próprio validador.
+
+### Decidido — Inteligência sabe, Essência percebe
+
+**Sentir Energia e Percepção saíram de Inteligência e foram para Essência.** É a maior mudança da versão e ela reverte uma decisão da v0.8.
+
+A v0.8 mandou a percepção para Inteligência com uma intenção boa: tirar de Inteligência o papel de atributo-depósito, dando a ela a coisa que mais importa em Jujutsu Kaisen. Com o quadro de perícias escrito, dá para medir o que aquilo produziu — e produziu o oposto:
+
+| | perícias em Int | peso de mesa (Int / Ess) |
+|---|---|---|
+| v0.15 | 10 de 20 | **56% / 21%** |
+| v0.16 | 11 de 23 | **39% / 39%** |
+
+**Inteligência ficou com mais perícias e vale menos**, porque as duas que saíram são as duas mais roladas da mesa. Foi o que a conta mostrou e o que a contagem crua escondia: pedir "quantas perícias cada atributo tem" responde a pergunta errada. A pergunta certa é quanto do que se rola numa campanha depende dele.
+
+E o argumento de ficção fecha com o número: **Essência não sabe nada, ela sente.** Sentir energia amaldiçoada é a sua energia reagindo à de outro — ressonância, não análise. Na obra quem sente melhor não é quem estudou mais; é o Gojo com os Seis Olhos, é o instinto do Todo.
+
+**Percepção foi junto e essa parte não era opcional.** Com Sentir Energia em Essência e Percepção em Inteligência, a mesa teria dois tipos de perceber em dois atributos, e erraria qual rolar em toda cena de aproximação.
+
+### Decidido — o resto do quadro
+
+- **Táticas deixou de existir.** O trabalho dela já estava coberto duas vezes: **Ocultismo** reconhece o que você vê porque conhece o catálogo, **Sentir Energia** lê como a energia se move sem precisar saber o nome. O Nanami faz a primeira, o Todo faz a segunda.
+- **Três perícias partidas em duas:** Ocultismo perdeu o lado sagrado para **Religião**, Sobrevivência perdeu o conhecimento para **Natureza**. Religião é o lado de onde o jujutsu veio antes de virar instituição.
+- **Entraram Lidar com Animais e Provocar.** Provocar é o inverso de Intimidação: uma faz recuar, a outra faz avançar.
+- **Hierarquia foi para Inteligência.** Saber quem deve o quê a quem é conhecimento, não leitura de sala.
+- **Ofícios:** Primeiros Socorros saiu e entrou **Herbalismo**; Artesania virou **Entalhador**; Protocolo virou **Burocracia**.
+
+### Decidido — o Caminho para de escolher o personagem
+
+> **Duas perícias fixas e mais quatro à escolha livre, de qualquer lugar do quadro.**
+> **Um ofício fixo e outro livre. A Origem continua dando duas perícias.**
+
+Oito de vinte e três — **35%**, o mesmo alvo de sempre, alcançado por outro caminho. Antes eram cinco escolhidas dentro de uma lista de oito por Caminho.
+
+As duas fixas continuam sendo a assinatura: dois Bastiões dividem Atletismo e Intimidação. As quatro livres são o que impede duas fichas do mesmo Caminho de serem a mesma pessoa.
+
+**Sentir Energia não é fixa de nenhum Caminho, e isso é escolha.** Sendo a mais rolada da mesa, fixá-la em um Caminho daria àquele Caminho uma escolha livre a mais disfarçada. Livre para todos, ela vira decisão de ficha — e o feiticeiro ruim de sentir energia passa a caber, que é o Itadori do começo.
+
+**O Evocador entalha.** O ofício fixo dele é Entalhador, e é o que dá razão de existir para o shikigami de madeira e para a boneca que anda.
+
+### Colisão de "Provocar" — registrada e aceita
+
+O manual usa *"sem provocar ataque de oportunidade"* em três lugares, e a peça 3 chega a perguntar *"provocar o quê?"*. Pela regra de checagem em duas direções, isso é colisão.
+
+**Aceita mesmo assim:** a expressão é comum demais em qualquer mesa de d20 para confundir, e "provocar ataque de oportunidade" e "rolar Provocar" nunca aparecem no mesmo tipo de frase. O que muda é que a decisão fica escrita **dentro do validador**, com o motivo, junto de outras duas fracas — *Natureza* encosta na Passiva **Segunda Natureza**, e *História* aparece uma vez em prosa solta. O validador agora falha se aparecer uma colisão que **não** esteja nessa lista, o que separa "aceito" de "não percebido".
+
+### Achado de método
+
+**Contagem não é valor, e o validador estava medindo a coisa errada.** A versão anterior conferia quantas perícias cada atributo tinha e teria aprovado a v0.16 com Inteligência a 48% — número pior que os 50% da v0.15. Ponderando pela frequência com que cada perícia é rolada, a mesma mudança aparece como 56% caindo para 39%.
+
+Vale para o resto do projeto: **antes de medir uma distribuição, perguntar se cada item pesa igual.** Quase nunca pesa.
+
+### Em aberto
+
+- Nome do sistema.
+- Nomes definitivos das Trilhas, com as três colisões conhecidas (Régua, Alcance, Fôlego).
+- As listas de perícia de cada Origem.
+- **Intuição está em cima do muro.** "Ler a pessoa" tem cara de perceber, e ela ficou em Inteligência como dedução. Se em mesa as pessoas rolarem Percepção no lugar dela, muda de casa.
+- **Provocar e Intimidação vão brigar na mesa?** A distinção é clara escrita e vaga em jogo.
+- Quantas Trilhas um personagem acumula, e em que níveis.
+- Como a Trilha Torrente cobra o segundo feitiço da rodada.
+- Se a Trilha Coro deixa dono e invocação agirem no mesmo turno.
+- Se a curva de dano deve cruzar a coluna Rotina.
+
+---
+
+## [0.15] — 2026-08-06
+
+### Adicionado
+
+- `03-mecanica/07-pericias-e-oficios.md` — o quadro completo. **Vinte perícias e dez ofícios.** Substitui as seções 3 e 4 da peça 4.
+- `03-mecanica/conferir-pericias.py` — validador do quadro: contagem por atributo, nome repetido, tamanho das listas de Caminho, fração treinada, perícia órfã e colisão de termo nas duas direções. Passa.
+
+### Decidido
+
+- **Duas listas, não uma.** Perícia pertence a um atributo fixo; **ofício não pertence a atributo nenhum** — o atributo muda conforme o que você faz com ele. Forjar é Força, falsificar é Destreza, saber qual selo o papel pede é Inteligência, e é o mesmo ofício. É a proficiência de ferramenta do d20, e é o que permitiu recheá-la sem inflar a lista de perícias.
+- **Perícia sem treino você tenta; ofício sem treino, não.** Qualquer um escala e falha. Ninguém forja por tentativa.
+- **Sabedoria dissolvida dentro de Inteligência, como consequência da v0.8.** Ocultismo come arcano e religioso; Sobrevivência come natureza e rastrear; Percepção, Intuição e Medicina vêm inteiras de Sabedoria. As cinco novas de JJK são Sentir Energia, Tecnologia, Táticas, Hierarquia e Pontaria.
+- **O Caminho lista oito perícias e três ofícios; você treina cinco e dois.** A Origem dá mais duas perícias. **Sete de vinte — 35%**, exatamente o alvo que a v0.14 calculou. Com a lista de catorze eram 64%, e "ser treinado" não significava nada.
+- **Sentir Energia está nas cinco listas e não é de graça** — ocupa um dos cinco espaços. Um feiticeiro pode ser ruim de sentir energia, e o Itadori do começo é isso.
+- **PE do Guia: 6.** A regra da v0.14 dizia "6 nos Caminhos de técnica, 4 nos físicos" e o Guia não era nem um nem outro — ficava sem número. A regra passa a nomear os cinco Caminhos em vez de dividir em duas famílias que não cobriam todos.
+
+### Aceito com pergunta de playtest — Inteligência com metade do quadro
+
+**Dez das vinte perícias moram em Inteligência.** Isso a torna o atributo mais valioso fora de combate por larga margem, e a peça 1 já tinha marcado o risco quando Sabedoria foi fundida nela.
+
+Fica assim de propósito: em Jujutsu Kaisen, perceber e saber *é* metade do jogo, e o contrapeso está dentro do combate — Destreza carrega Defesa e iniciativa, Constituição carrega os pontos de vida, e ninguém zera esses dois. A pergunta de playtest é específica: **apareceu alguma ficha com Inteligência 0 ou 1?** Se em três meses nenhuma apareceu, o conserto é um teto de três perícias do mesmo atributo por Caminho.
+
+**Força continua com uma perícia só, e a lista não conserta isso.** Nenhuma cabia sem enchimento: correr, escalar e carregar já são Atletismo, e aguentar dor e fome é leitura de Constituição em qualquer mesa. O segundo trabalho de Força tem que vir de fora do quadro.
+
+### Corrigido — quinze achados de uma revisão cética do material inteiro
+
+Três contradições diretas, em que duas peças diziam o oposto:
+
+- **O golpe canalizado somava arma e Força na peça 5 e não somava na peça 6.** É a regra central do combatente físico escrita ao contrário em dois arquivos. A peça 6 está certa — somando, o físico fica 131% acima da Rotina no nível 2. Peça 5 corrigida, com a conta apontada.
+- **Quantas perícias o Caminho dá:** três na peça 4, sete na peça 6. Resolvido pelo quadro novo.
+- **A peça 5 ainda listava os Caminhos de rascunho**, incluindo *Leitura*, eliminada por colisão na v0.14. A peça 6 dizia substituir "a seção 4 da peça anterior", mas a peça 5 não tinha aviso nenhum — quem lesse na ordem saía com os nomes errados.
+
+Números que não fechavam:
+
+- **Peça 1:** *"trocar o 5 fixo por um atributo"* — o valor fixo é **2**. Resquício da v0.8, duas linhas abaixo do lugar onde o próprio documento diz 2.
+- **Peça 1:** a fórmula de perícia estava sem a condicional de treino.
+- **CHANGELOG v0.10:** *"bate no teto no nível 8 ou 12"* — os marcos são 6/10/14, e não existe nível 8 nem 12. Resquício de quando os marcos eram 4/8/12.
+- **`conferir-atributos.py` testava CD 12, 16 e 20**, que não existem na escada oficial de 10/14/18/22/26. Trocado, e a tabela da peça 4 saiu confirmada linha por linha.
+
+O `arquitetura.md`, que é o arquivo apontado para retomar o projeto, tinha ficado quatro versões para trás:
+
+- A tabela de refino usava os marcos **4/8/12/16/20/24/28**, substituídos por 6/10/14/18/22/26/30 na v0.10 — a curva inteira saía errada, junto com "o especialista bate no teto no nível 20" e "desperdiça três escolhas".
+- A escada da patente dizia **sete degraus**; a v0.7 decidiu **oito**, com o semi-especial.
+- A tabela dos três eixos chamava o tamanho do feitiço de **Escala**, três linhas abaixo do texto que decide **Classe**. Nem *Escala* nem *Potência* sobreviveram.
+- O problema 1 da seção 4.3 estava listado como aberto. A v0.10 resolveu, e **não pelo conserto que estava proposto lá** — quem resolveu foi o teto fixo de 6 no atributo, que inverte sozinho o valor relativo dos dois lados no meio da campanha. Os degraus de peso continuam valendo, mas como controle de acesso, não como conserto de balanço.
+
+### Registrado — três coisas que a revisão achou e que ficam para depois
+
+**A taxa de acerto aparece com três valores diferentes no material.** A peça 1 diz 65%, o CHANGELOG da v0.8 diz 60%, e o validador entrega **50%** — contra um alvo que também investiu em defesa, que é o caso difícil. O alvo de "3,2 rodadas" foi calculado em cima de 60%; a 50% a faixa real é **3,4 a 4,0 rodadas**. Fica como previsão a medir em vez de número a consertar: quem decide se o combate está arrastado é a mesa, não a planilha.
+
+**A curva de dano cruza a coluna Rotina, e ninguém tinha comentado.** No nível 2 o conjurador está +38% e o físico +69% acima dela; no nível 30 estão 21% e 16% abaixo. A peça 6 reprovou +135% no nível 2 e aprovou +69% na linha seguinte sem tratar a diferença. Não é necessariamente errado — vida é baixa no nível 2 —, mas é decisão não tomada.
+
+**Três nomes de Trilha colidem com o manual**, pela checagem nas duas direções: **Régua** é um dos três Fundamentos de exemplo do manual, **Alcance** é Família *e* Melhoria com catorze ocorrências, e **Fôlego** aparece no feitiço pronto Roubo de Fôlego. E **Ofício** ia colidir com a perícia de ofício — por isso a lista usa *Artesania*. Como os nomes de Trilha já eram todos provisórios, entra na pendência que já existia.
+
+### Em aberto
+
+- Nome do sistema.
+- Nomes definitivos das Trilhas, agora com três colisões conhecidas a resolver.
+- As listas de perícia de cada Origem. Hoje a Origem dá duas livres, com aprovação do mestre.
+- Quantas Trilhas um personagem acumula, e em que níveis.
+- Como a Trilha Torrente cobra o segundo feitiço da rodada, contra a regra de ouro nº 6.
+- Se a Trilha Coro deixa dono e invocação agirem no mesmo turno.
+- Se a curva de dano deve cruzar a Rotina ou acompanhar ela.
+
+---
+
+## [0.14] — 2026-08-06
+
+### Adicionado
+
+- `03-mecanica/06-caminhos-e-trilhas.md` — o quadro de cinco Caminhos com três Trilhas cada. Revisa e substitui a seção 4 da peça anterior.
+
+### Decidido
+
+- **Cinco Caminhos, com nomes conferidos contra o manual:** Bastião (corpo), Vanguarda (arma), Guia (o outro), Emanador (técnica), Evocador (invocações). Os rótulos de rascunho saíram — *Leitura* em particular já aparecia três vezes no Fundamento.
+- **Sem multiclasse.** Um Caminho por personagem; as escolhas de nível compram Trilhas dentro dele. Acumular Trilhas do próprio Caminho é o que permite pegar Energia Reversa antes do refino liberar.
+- **O Guia não compete em buff, debuff nem cura** — esses moram na técnica e na Forma de feitiço. Ele **alcança**: faz o efeito de outra pessoa durar mais, pegar mais gente ou chegar mais longe. Era o Caminho que não fechava, e é essa a saída.
+- **Treinamento em equipamento** em três categorias: armas, proteção e escudo. Escudo é categoria própria porque ocupa uma mão — e mão ocupada **cancela a Restrição Gesto**, que exige as duas mãos livres. Vira decisão de ficha em vez de bug.
+
+### Ataque extra — aprovado, com correção
+
+A coluna Rotina do Fundamento **já é "feitiço + Classe 0"**: o conjurador sempre teve dois golpes por rodada. Então ataque extra no físico não é privilégio, é o espelho.
+
+Mas o golpe canalizado **não pode somar arma nem Força** — ele *é* o feitiço. Com os dois somados e ataque extra por cima, o físico fica 135% acima da Rotina no nível 2 e 32% no nível 10. A regra em três linhas, espelhando a regra de ouro nº 6: golpe canalizado são os dados da Classe e nada mais; golpe simples é arma + Força; um canalizado por turno, e ataque extra é sempre golpe simples.
+
+### Invocação — reprovada como estava, e o conserto
+
+**Uma invocação que age sozinha dobra o dano por rodada; uma horda de três quadruplica** — 504 por rodada no nível 30 contra uma Rotina de 126. Nenhum preço em PE conserta, porque o problema não é recurso, é economia de ação.
+
+**Conserto: você e todas as suas invocações somados entregam uma Rotina.** Com uma, cada um entrega metade; com três, um quarto. Isso entrega exatamente a fantasia pedida sem regra extra — Sombra tem um corpo forte, Enxame tem cinco fracos, e o invocador troca dano pessoal por presença de tabuleiro. É também a leitura correta da obra: as maldições do Geto individualmente são frágeis, o que assusta é o número.
+
+### Energia — fixa pelo Caminho, sem atributo *(revisado)*
+
+**PE por nível: 6 nos Caminhos de técnica, 4 nos físicos. Espírito não entra.**
+
+Com teto de atributo em 6, não existe faixa útil: qualquer divisor grande o bastante para não criar imposto entrega **um ponto** na ficha inteira. Ou o atributo importa de verdade e vira obrigatório — o que a peça 1 evitou de propósito —, ou não importa e só ocupa espaço na cabeça de quem lê. A análise abaixo continua registrada porque o raciocínio vale para qualquer outra tentação de amarrar atributo a recurso.
+
+### Energia — a análise que levou a isso
+
+Duas objeções à proposta de `4 + Espírito/2` para conjurador:
+
+**Cortar a base de 6 para 4 invalida a tabela de PE do manual**, que tem uma coluna inteira de "quantas vezes você lança o seu melhor feitiço" calculada em cima de 6 por nível.
+
+**Espírito/2 dá +50% de PE entre Espírito 0 e 6** — o dobro de usos do melhor feitiço em vários níveis. É o atributo obrigatório pela porta dos fundos que a peça 1 evitou ao tirar atributo da conta do feitiço.
+
+Proposta: conjurador `6 + Espírito/4`, físico `4 + Espírito/4`. Dá +17%, que é sabor e não imposto. O físico com dois terços do combustível é justo porque o golpe simples dele rende ~10 contra os ~4,5 do Classe 0 do conjurador — menos combustível, melhor motor de reserva.
+
+### Múltiplos atributos por Caminho — aprovado, já estava previsto
+
+O mecanismo já existia: o Caminho pode **trocar o valor fixo de 2 do ataque de conjuração por um atributo**. Emanador conjura com Inteligência ou Essência; Bastião canaliza com Força; Vanguarda com Destreza. A troca é neutra em balanço porque os dois crescem +3 na campanha, e não vira imposto porque é opcional.
+
+### Perícias — a lista precisa crescer
+
+Com catorze perícias e 7 do Caminho mais 2 da Origem, o personagem fica treinado em **64% de tudo que existe** e "ser treinado" para de significar algo. Proposta: expandir para 24 a 28, o que leva a fração a 35% e devolve espaço para o resto do grupo brilhar.
+
+### Em aberto
+
+- Nome do sistema.
+- Nomes definitivos das Trilhas.
+- O quadro completo de perícias (24 a 28) com o atributo de cada.
+- Quantas Trilhas um personagem acumula, e em que níveis.
+- Como a Trilha Torrente cobra o segundo feitiço da rodada, contra a regra de ouro nº 6.
+- Se a Trilha Coro deixa dono e invocação agirem no mesmo turno.
+
+---
+
+## [0.13] — 2026-08-06
+
+### Adicionado
+
+- `03-mecanica/05-caminho-e-combate-sem-feitico.md` — o trabalho de Força, o Caminho e como alguém luta com o corpo num sistema onde o poder mora na técnica.
+
+### Decidido
+
+- **Força governa** ataque corpo a corpo, agarrar, quebrar, Atletismo, capacidade de carga e requisito de arma e proteção. Armas de dado maior e uniformes pesados exigem Força mínima.
+- **Golpe canalizado = feitiço de Forma Toque, sem Melhoria e sem Restrição.** Mesma Classe, mesmo orçamento, mesmo custo em PE, e o golpe ainda soma arma e Força por cima.
+- **A trava do Caminho:** ele não dá poder novo, muda o que o poder alcança. Mexe em posicionamento, alvo, duração e recuperação — nunca em dados de dano, Classe de feitiço, Melhoria de graça ou cura.
+- **Uma Trilha de Caminho pode abrir exceção estreita e paga** na economia de ação — conjurar na Reação uma vez por cena, ou só com Classe baixa. Como recurso de um caminho específico, não direito universal.
+- **Quatro Caminhos como esqueleto:** Linha de Frente (Força), Ponta de Lança (Destreza), Retaguarda (Essência), Leitura (Inteligência). O quadro definitivo é taste call.
+
+### Achado — uma arma sozinha não cabe no jogo
+
+O manual já avisava que o combatente físico precisa ficar na coluna Rotina. Rodando a conta, **uma arma entrega de 7% a 65% do que a coluna pede, e a diferença cresce com o nível** — 1,5× de lacuna no nível 2, 11× no nível 30. Não é escolha de dado: trocar d6 por d12 muda três pontos numa lacuna de cem. Falta uma ordem de grandeza inteira, e nenhum requisito de Força ou tabela de arma conserta isso.
+
+O conserto é Canalizar Energia, e a forma dele caiu da conta em vez de ser inventada: os dados de energia que faltam para o golpe atingir a Rotina batem com os pontos que a Classe do nível concede, faixa por faixa. **O golpe canalizado é o feitiço vazio** — o que sobra de um feitiço quando se tira toda a customização e fica só o orçamento bruto. Por isso é aptidão básica de qualquer feiticeiro, e por isso ter técnica continua sendo melhor: a técnica compra Melhorias, o golpe não.
+
+Isso explica de graça três coisas que estavam soltas: por que **Maki** precisa de ferramenta amaldiçoada (sem energia ela não canaliza, e a arma canaliza por ela); por que **socar é a saída quando o PE acaba** (é o equivalente físico do feitiço de Classe 0); e por que **o combatente físico não tem Liberação Máxima** (ele já vive no teto de dano num alvo o tempo todo).
+
+### Registrado sobre requisito de arma
+
+Requisito de Força resolve **acesso, não balanço**. Um dado maior rende cerca de +2 por golpe, o que empata o valor defensivo de +1 de Destreza por volta do nível 5 e fica para trás depois — sem contar iniciativa e três perícias. É bom que exista e dá a Força um trabalho real, mas não é ele que impede Destreza de dominar. Quem faz isso é o Caminho de Linha de Frente.
+
+### Em aberto
+
+- Nome do sistema.
+- O quadro definitivo de Caminhos e quantas Trilhas cada um tem.
+- A tabela de armas: dados, requisitos e se arma leve compensa de outra forma.
+- Quanto custa uma ferramenta amaldiçoada que canaliza sozinha. Precisa ser cara o bastante para não virar padrão.
+- Se o golpe canalizado tem teto próprio ou herda o do Fundamento.
+
+---
+
+## [0.12] — 2026-08-06
+
+### Adicionado
+
+- `03-mecanica/04-pericias-e-testes.md` — perícias, escada de dificuldade, de onde vem o treino, fail-forward e a regra do ataque de oportunidade.
+
+### Decidido
+
+- **Perícia = d20 + atributo + maestria se treinado; sem treino, só atributo.** Maestria é o que marca o treino.
+- **Por que treino funciona diferente em perícia e em Teste de Resistência:** a oposição é diferente. A CD de perícia é fixa pela dificuldade e não cresce, então o treino pode crescer. A CD de TR cresce com o conjurador, então o treino tem que ser flat ou o não treinado despenca. É a mesma regra da peça 1 aplicada aos dois casos.
+- **Escada de dificuldade em cinco degraus nomeados:** 10 rotina, 14 fácil, 18 média, 22 difícil, 26 quase impossível. CD 10 vira automático no fim da campanha de propósito — feiticeiro experiente não rola para arrombar porta comum.
+- **Catorze perícias**, nenhuma amarrada a Constituição. **Sentir Energia** é a mais rolada da mesa e mora em Inteligência.
+- **Inteligência não concede perícias extras**, ao contrário do costume d20. Ela já carrega percepção, conhecimento e um TR; dar perícias por Inteligência a empurraria de carregada para obrigatória.
+- **Treino:** Origem dá duas perícias e um TR; Caminho dá três perícias e outro TR. Cinco perícias treinadas de catorze, e dois TRs de quatro.
+- **Falha nunca é "não acontece nada".** Ela entrega custo, complicação ou informação indesejada. Não é só ritmo: é a norma que faz cinco mestres diferentes falharem do mesmo jeito. Corolário: se o mestre não consegue nomear o custo antes de pedir a rolagem, não pede.
+- **Ajudar dá vantagem, um ajudante por teste. Teste de grupo passa com metade do grupo.**
+
+### Resolvido — feitiço como ataque de oportunidade
+
+**Ataque de oportunidade é ataque físico**, rolado como ataque comum e pago com a Reação. Conjurar na Reação continua exigindo a Melhoria Reação.
+
+A razão é aritmética: a Melhoria Reação custa Pesada, o que é **metade do orçamento do feitiço** em toda Classe — 67% na Classe 1, 52% na Classe 7. Se qualquer feitiço pudesse virar ataque de oportunidade de graça, a Melhoria viraria peça morta na hora. Uma trilha de Caminho pode abrir exceção limitada, e aí é recurso pago por um caminho específico em vez de bônus universal.
+
+### Confirmado
+
+- **Ação bônus fica.** Existem técnicas que viram ação bônus e a peça Rápido depende disso. Medir uso real no playtest.
+- **Uma reação por rodada.** Revisitar só se a competição entre ataque de oportunidade, Melhoria Reação e as Passivas de reação deixar as Passivas mortas.
+
+### Em aberto
+
+- Nome do sistema.
+- Se Força precisa de um segundo trabalho: uma perícia é pouco.
+- Se treino em perícia tem graus ou é binário. Binário por ora.
+- Quais trilhas de Caminho abrem exceção de conjuração na reação, e sob que condição.
+
+---
+
+## [0.11] — 2026-08-06
+
+### Adicionado
+
+- `03-mecanica/03-economia-de-acao-e-iniciativa.md` — o turno, os recursos que ele contém, iniciativa e a régua de preço das Restrições.
+- `03-mecanica/conferir-acao.py` — valida a régua, roda dominância por conjunto de recursos e calcula o valor real da Melhoria Adianta. Passa.
+
+### Decidido
+
+- **O turno tem quatro recursos independentes:** movimento (até 9 m, divisível), ação padrão, ação bônus e reação. "Rodada inteira" não é um quinto — é gastar movimento, padrão e bônus de uma vez.
+- **Deslocamento base: 9 metros.** Conversa com as distâncias que o Fundamento já usa: fecha metade de um duelo de 18 m num turno, e sair de uma explosão de raio 3 m custa um terço do movimento.
+- **Ataque de oportunidade existe.** Sem ele, sair de um corpo a corpo é grátis e a Melhoria Passo perde a razão de existir.
+- **Concentração:** um efeito por vez; ao tomar dano, TR Físico contra CD 10 ou metade do dano, o que for maior. É a mesma régua que a Restrição Carregar já usava.
+- **Iniciativa é rolada: d20 + Destreza.** Iniciativa fixa seria mais rápida e mais auditável, mas quebraria a Melhoria Adianta — com ordem fixa, quem tem Destreza alta age antes em 100% das rodadas e Adianta vira +2 permanente. É o teste do bônus automático falhando.
+- **A régua de preço das Restrições, derivada dos recursos:** Leve consome um recurso, ou meio recurso por dois turnos. Média consome o turno inteiro, ou um recurso mais um risco real.
+
+### Resolvido — a tensão Carregar × Lento, aberta desde a v7.3
+
+O changelog do Fundamento registrou que Carregar dói mais que Lento pelo mesmo preço e não dava para subir sem estourar o fecho de devolução. Com os recursos definidos, não há dominância: Lento consome três recursos deste turno sem risco; Carregar consome um recurso do turno anterior mais o risco. São conjuntos diferentes.
+
+O que faltava era o texto dizer se **quem carrega pode se mover no turno de carga**. Decidido que sim: só a ação padrão vai embora. É a leitura mais natural do texto atual, é o que torna a peça distinta de Lento, e não muda nenhum dos 35 feitiços prontos porque nenhum usa Carregar.
+
+**A lição:** tensão de preço às vezes é lacuna de texto disfarçada. Antes de mexer no número, conferir se a regra diz o que se acha que ela diz.
+
+### Verificado
+
+As onze Restrições do catálogo cabem na régua, e o teste de dominância por conjunto de recursos não encontra nenhum par em que um contenha o outro. O catálogo estava certo — só não tinha como provar.
+
+### Em aberto
+
+- Nome do sistema.
+- **Se ação bônus deve existir mesmo.** É a mais herdada das quatro e a que mais custa em tempo de mesa. Duas peças do Fundamento dependem dela. Medir no playtest quantos turnos usam uma.
+- **Quantas reações por rodada.** Uma é o padrão, e quatro coisas competem por ela: ataque de oportunidade, a Melhoria Reação e as Passivas Contramedida e Reforço. Competir é bom, mas se ninguém nunca tiver reação sobrando, as Passivas de reação ficam mortas.
+- **O valor de Adianta:** entre 4 e 7 pontos percentuais de efeito médio, abaixo do que uma Média costuma entregar.
+
+---
+
+## [0.10] — 2026-08-06
+
+### Adicionado
+
+- `03-mecanica/02-economia-de-atributos.md` — escala, criação, crescimento e teto dos atributos.
+
+### Decidido
+
+- **Escala 0 a 6, o número é o modificador.** A escada de 1 a 30 com o 10 valendo 0 foi descartada: o sistema inteiro já foi montado sem conversão, conversão custa caro com cinco a sete mestres, e a granularidade extra serve para bônus pequenos que este sistema não tem. O d20 clássico carrega essa escada por razão histórica — os modificadores foram inventados depois dos scores.
+- **Criação: nove pontos entre os cinco atributos, nenhum acima de 3.** O arranjo padrão é 3·2·2·1·1. O teto de 3 não é arbitrário: é o que faz o atributo investido crescer exatamente +3 na campanha, o mesmo ritmo da maestria.
+- **Crescimento:** a cada quatro níveis, passivo de +1 atributo e +1 refino, mais uma escolha entre outro ponto de atributo ou outro de refino com uma aptidão. Sete marcos, nos níveis **6, 10, 14, 18, 22, 26 e 30** — contados a partir do começo da ficha no nível 2, fechando exato no 30. A maestria sobe em três desses marcos (10, 18 e 26), um sim e um não, então nenhum marco fica vazio e nenhum acumula dois ganhos grandes.
+- **Teto do atributo: 6, fixo.** Um teto que crescesse com o nível manteria o ponto de atributo sempre valioso e travaria a escolha em "atributo" a campanha inteira.
+- **Origem não dá atributo.** Em JJK a origem é a fonte do poder, não o corpo — ser recipiente não dá Constituição, dá um passageiro. Amarrar número à origem criaria a origem ótima por build, que é empurrar a identidade para a camada errada num sistema cujo pilar é a técnica. A origem dá a patente inicial, um traço não numérico e o gancho de ficção.
+
+### Achado
+
+**A curva se auto-equilibra e a escolha não precisa de trava.** O atributo principal bate no teto no nível 10 ou 14; depois disso o ponto de atributo cai num secundário e vale menos, enquanto uma aptidão nova continua valendo o mesmo. O jogador tende a pegar atributo cedo e refino depois sem que nenhuma regra mande — o valor relativo dos dois lados muda sozinho com o tempo. Era o problema 1 da seção 4.3 do esqueleto, e ele se resolve pelo teto fixo em vez de por degraus de peso.
+
+### Em aberto
+
+- Nome do sistema.
+- Quantos pontos de perícia, e se perícia é treinada ou tem graus.
+- De onde vem o treino nos Testes de Resistência.
+- Se Força precisa de um segundo trabalho.
+
+---
+
+## [0.9] — 2026-08-06
+
+### Corrigido — um erro meu que a pergunta do Mizuki encontrou
+
+**O validador da v0.8 tinha um ponto cego.** Ele testava se a chance mudava com o nível **mantendo os atributos fixos**. Isso verifica se o nível cancela, mas não se a **campanha** cancela: o defensor não fica com Destreza 3 para sempre, ele investe e chega a 6. O ataque de conjuração era um valor fixo mais maestria, e maestria crescia +7 enquanto o atributo do defensor crescia +3. A v0.8 derivava 15 a 20 pontos percentuais e passava no teste assim mesmo.
+
+**A regra que ficou:** numa rolagem disputada, os dois lados precisam crescer no **mesmo ritmo**. Não basta os dois crescerem. Atributo investido cresce +3 numa campanha; maestria a cada 4 níveis crescia +7 — rápido demais para substituir um atributo.
+
+### Alterado
+
+- **Maestria sobe a cada oito níveis**, não quatro. De 1 a 4 ao longo da campanha, o mesmo ritmo de um atributo investido. Continua caindo nos marcos de quatro níveis, só que num sim, num não.
+- **Maestria saiu da Defesa e do Teste de Resistência.** Ela fica no ataque de conjuração, na CD e nas perícias. Com isso, nenhum número aparece dos dois lados da mesma rolagem — que era exatamente a objeção levantada.
+- **Ataques físicos usam atributo direto:** corpo a corpo soma Força, à distância soma Destreza. Sem maestria, porque o atributo já cresce dos dois lados e se anula sozinho.
+- **Ataque de conjuração = 2 + maestria**, e o 2 não é gosto: é o número que faz o conjurador empatar com o guerreiro do nível 2 ao 30. Com 5 ele acertava 15 pontos percentuais a mais a campanha inteira, o que seria de graça — o dano dele já vem do orçamento do feitiço.
+- **Habilidade de Caminho pode trocar o 2 fixo por um atributo**, e a troca é neutra em balanço porque os dois crescem igual. É por aí que nasce o feiticeiro que conjura pela Força, no molde do Todo.
+- **Perícia = atributo + maestria**, e aqui a deriva para cima é o objetivo: +30 pontos percentuais ao longo da campanha. É o único lugar onde crescer é o ponto, porque o mundo não cresce junto — uma fechadura comum continua sendo uma fechadura comum.
+
+### Resultado
+
+Guerreiro, atirador e conjurador acertam **50%** contra um alvo que também investiu em defesa, em qualquer nível do 2 ao 30. Resistir dá 55% sem treino e 65% treinado, também sem deriva. Deriva medida: **zero** em tudo que não deve derivar.
+
+### Lição de método
+
+Verificar invariância contra o nível não basta. **Tudo que cresce numa campanha precisa entrar no teste** — atributo, proteção, equipamento. O validador foi reescrito para variar os atributos junto com o nível, e ganhou uma checagem nova: nenhum termo pode aparecer dos dois lados da mesma rolagem.
+
+---
+
+## [0.8] — 2026-08-06
+
+### Alterado
+
+- **Cinco atributos, não seis.** Sabedoria e Carisma fundiram em **Essência** — vontade, presença, o que você é por dentro e o que isso projeta. O que Sabedoria fazia de percepção migrou para **Inteligência**, que assim deixa de ser o atributo-depósito clássico e passa a carregar o que mais importa em Jujutsu Kaisen: perceber energia amaldiçoada.
+- **"Passo" virou "Maestria".** Conferido: não aparece nenhuma vez no manual.
+- **A ficha começa no nível 2**, já com um feitiço. Maestria começa em 1 e sobe a cada quatro níveis a partir do 6, fechando exata em 8 no nível 30. O nível 1 fica como opção de campanha — o personagem antes de ser feiticeiro, o Itadori antes do dedo.
+- **CD unificada:** `8 + maestria + atributo relevante`, uma forma só para a ficha inteira. Para feitiço, o atributo dá lugar a um **valor fixo de 5**, que é o que impede o imposto de maximizar a estatística de conjuração.
+- **Ritmo de combate: 3,2 rodadas é o alvo**, não um defeito a corrigir. O manual precisa passar a mostrar as duas colunas de letalidade, com a de 60% de acerto marcada como a de mesa.
+
+### Corrigido pela conta, antes de virar regra
+
+- **Maestria só para quem é treinado produzia a espiral do d20.** O não treinado caía de 55% para 20% de sucesso entre o nível 2 e o 30 — salvaguarda sem treino virava sentença, e o mestre passaria a precisar saber nível *e* treino do alvo para estimar qualquer coisa. Conserto: todo mundo soma maestria no TR e treinado ganha **+2 fixo em cima**. Mesma intenção, sem a espiral, e treinar passa a valer exatos 10 pontos percentuais para sempre.
+- **Defesa sem maestria quebrava o outro lado.** Com o ataque crescendo contra um número parado, o acerto ia de 65% no nível 2 a **100% no nível 30** — nem o 1 natural erraria. Conserto: a defesa carrega maestria igual ao ataque.
+
+### Resultado
+
+Três números batem no mesmo lugar e não mudam com o nível: acertar alvo de Destreza 3 com proteção 1 dá **60%**, resistir com atributo 2 treinado dá **60%**, sem treino dá **50%**. `conferir-atributos.py` passa em todos os invariantes.
+
+### Em aberto
+
+- Nome do sistema.
+- Quantos TRs cada personagem é treinado, e de onde vem esse treino — Origem, Caminho ou os dois.
+- Se Força precisa de um segundo trabalho: é o único candidato a depósito que sobrou.
+- Quanto Inteligência realmente pesa na mesa. Ficou a mais carregada das cinco.
+
+---
+
+## [0.7] — 2026-08-06
+
+### Adicionado
+
+- `03-mecanica/01-atributos-acerto-defesa.md` — a primeira peça de mecânica com número. Atributos, rolagem de acerto, defesa e Teste de Resistência.
+- `03-mecanica/conferir-atributos.py` — validador dessas fórmulas, com contrato de invariantes. Roda antes de fechar qualquer versão que mexa nelas. Passa.
+
+### Decidido
+
+- **O nível entra dos dois lados da conta e se cancela.** Ataque e defesa crescem no mesmo passo; CD e resistência também. O que sobra é a diferença de atributo. Bounded accuracy deixa de ser disciplina a manter e vira consequência da fórmula, e um mestre nunca precisa saber o nível para saber a chance.
+- **Passo = nível ÷ 4**, arredondando para baixo. Mesma cadência do refino e do atributo. É a única coisa que cresce com nível.
+- **Seis atributos com os nomes clássicos:** Força, Destreza, Constituição, Inteligência, Sabedoria, Carisma. O número é o modificador direto, escala 0 a 6, sem valor separado e sem tabela de conversão. É escolha deliberada e não herança: compra custo de ensino zero, e o custo de seis números não expressarem o personagem não pesa porque a identidade mora na técnica. Todos os seis conferidos contra o manual — nenhum é termo definido lá.
+- **Quatro Testes de Resistência, não seis**, para eliminar salvaguarda-depósito: Físico (Força **ou** Destreza, declarado na criação e travado), Vigor (Constituição), Intelecto (Inteligência), Espírito (Sabedoria **ou** Carisma, também travado).
+- **Cada atributo tem um serviço fora do TR**, ou o não-escolhido de cada par vira lixo de ficha. Duas amarras são específicas de JJK e resolvem o problema clássico de Sabedoria e Carisma: **Sabedoria percebe energia amaldiçoada** e **Carisma negocia Pactos**.
+- **O tipo de dano da técnica decide qual TR o feitiço força**, por padrão. Fogo, corte e peso pedem Físico; veneno pede Vigor; ilusão e voz pedem Intelecto; o que encosta em alma pede Espírito. Uma Melhoria pode trocar.
+- **Dano na alma passa a forçar TR de Espírito**, e Integridade volta a ser só reserva.
+- **Fórmulas:** bônus de conjuração = 3 + passo · CD = 10 + bônus · defesa = 10 + passo + Destreza + proteção · TR = d20 + atributo do TR + passo.
+- **Defesa evita ser acertado; RD reduz o que passou.** Cobrir-se de energia é a fonte natural de RD, e é por isso que ela é aptidão básica de todo feiticeiro.
+- **Patente com oito degraus**, incluindo semi-especial: grau 4, 3, semi-2, 2, semi-1, 1, semi-especial, especial. Semi-especial é extensão deliberada — pelo que se sabe não existe no cânone, e é o limbo dramático mais rico da escada.
+
+### Achados sobre o manual existente
+
+**O Fundamento diz "Teste de Resistência" dezoito vezes e especifica de qual apenas uma vez** — no dano de alma. As outras dezessete não dizem contra o quê se resiste. Com quatro TRs, a lacuna vira profundidade em vez de continuar aberta.
+
+**"Teste de Resistência de Integridade" é ambíguo:** o manual manda rolar sem dizer o que se soma, e Integridade é uma reserva, não um modificador. Resolvido acima.
+
+A tabela de letalidade do Fundamento supõe que **todo ataque acerta**: ela divide vida pelo pico de dano. Com taxa real de acerto de 60%, o combate leva de 2,8 a 3,3 rodadas em vez de 1,7 a 2,0. Não é erro de conta — a coluna mede o que diz medir —, é descasamento entre o que a tabela informa e o que o mestre decide com ela. Feitiços que resolvem por Teste de Resistência ficam mais perto da coluna original, porque neles o dano passa mesmo no sucesso do alvo.
+
+### Em aberto
+
+- Nome do sistema.
+- O ritmo de combate desejado, à luz do achado acima.
+- Se algum atributo deve entrar na conta do feitiço (hoje nenhum entra — é o que faz o nível cancelar).
+- Se PE deve receber contribuição de atributo (hoje cresce só com nível).
+- Se o generalista deve ter alguma aptidão garantida.
+- Os degraus de peso das aptidões, amarrados ao refino atual.
+
+---
+
+## [0.6] — 2026-08-06
+
+### Decidido
+
+- **Tamanho do feitiço passa a se chamar Classe.** "Um feitiço de terceira classe". Soa como classificação burocrática, o que combina com uma sociedade jujutsu que registra e cataloga. Volume e Fluxo ficam registrados como alternativas.
+- **O chassi passa a se chamar Caminho**, com Trilhas dentro. Consequência obrigatória da decisão acima: a mesma palavra não pode significar as duas coisas. Vocação e Estilo ficam como alternativas livres.
+- **Progressão de Refino fechada:** passivo e escolha ao mesmo tempo, teto 10, começo em 1. A cada quatro níveis o personagem ganha refino e atributo de graça e escolhe onde recebe o bônus extra. Especialista chega ao teto no nível 20; generalista termina em 8 no nível 28.
+- **Trava que faz o Refino fechar:** com o refino no teto, escolher refino ainda concede a aptidão. Sem ela, o especialista desperdiça três escolhas depois do nível 20.
+
+### Nota de método
+
+Ao checar colisão de nome contra o manual, separar **termo definido** de **prosa solta**. As palavras *caminho*, *papel*, *função* e *classe* aparecem no Fundamento uma ou duas vezes cada, sempre em frase corrida. Isso não é colisão — vira colisão quando a palavra carrega definição. Livres de qualquer uso: vocação, estilo, postura, trilha, perfil.
+
+### Em aberto
+
+- Nome do sistema.
+- Se o generalista deve ter alguma aptidão garantida (hoje termina com zero).
+- Os degraus de peso das aptidões, amarrados ao refino atual.
+- Onde a Regra da técnica entra na ordem de criação.
+
+---
+
+## [0.5] — 2026-08-06
+
+### Adicionado
+
+- `02-esqueleto/arquitetura.md` — o esqueleto do sistema. Mapeia o que o Fundamento já resolve, os onze buracos em volta ordenados por carga, a estrutura de criação de personagem em cinco camadas e as travas de mundo compartilhado. Sem número nenhum, de propósito.
+
+### Decidido
+
+- **Três eixos separados:** Nível (poder mecânico, da ficha), Grau (patente social, da instituição) e o tamanho do feitiço. É o que permite o Yuta nascer no topo da patente sabendo pouco, e o Itadori ter poder sem reconhecimento.
+- **A colisão do Grau se resolve renomeando o tamanho do feitiço, não a patente.** O Grau-tamanho está entranhado no manual; o grau-patente está entranhado na cabeça da Guilda há anos porque é o termo da obra. Dá para vencer um manual, não o vocabulário de uma comunidade. Nome provisório: **Potência**.
+- **Patente com sete degraus**, incluindo os semi: Grau 4, 3, semi-2, 2, semi-1, 1, especial. Funciona porque a patente não carrega número mecânico — ela compra acesso, autoridade, obrigação e risco.
+- **Estrutura do personagem em cinco camadas:** Origem, Chassi, Técnica, Refino e Aptidões, Pactos.
+- **Trava do chassi:** ele não dá poder novo, muda o que o poder alcança. Mexe em posicionamento, alvo, duração e recuperação, nunca em número de dano. Escolhido na criação, com poucas escolhas de trilha depois.
+- **Trava das aptidões:** não produzem dano e não escalam com nível. São binárias, e o refino governa confiabilidade e custo, não potência. É o que as mantém fora da economia do Fundamento.
+- **Morte no modo não letal não vira regra.** O peso vem de consequência no mundo, arbitrada pelo mestre com apoio de perícia e rolagem mundana. Não fura o filtro do multi-mestre porque o filtro protege os números, não a ficção — consequência narrativa não é portátil entre mesas.
+
+### Em aberto
+
+- Nome do sistema.
+- Nome definitivo do tamanho de feitiço (Potência é provisório; Volume e Fluxo são as alternativas registradas).
+- Como equilibrar a escolha entre refino e atributo, hoje provavelmente dominada pelo refino.
+- Se a escala de refino é 1–7 ou existe outra fonte de refino além do nível.
+- Onde a Regra da técnica entra na ordem de criação.
+
+---
+
+## [0.4] — 2026-08-06
+
+### Alterado
+
+- `design-mecanicas-rpg` ganhou a seção **"O nome é parte do design"**: checagem de colisão de termo para fora do sistema (palavra que já significa outra coisa no hobby) e para dentro. Veio do retorno do Mizuki de que "Vulnerável", na maior parte das mesas, significa *tomar mais dano* e não *ficar mais fácil de acertar*.
+- `redacao-acessivel-rpg` ganhou **"Presunção sobre o que você não viu"**: quando revisar um trecho exige presumir coisa sobre o resto do material, perguntar antes de reescrever; se tiver que seguir, marcar a presunção no ponto do texto onde ela pesa, não numa nota no fim. Veio do retorno de que declarar a presunção é melhor que escondê-la, mas os dois perdem para perguntar.
+- A seção de colisão de termo da `redacao-acessivel-rpg` passou a cobrir também colisão externa.
+
+### Corrigido
+
+- Falso negativo na correção automática do `eval-3`: a asserção "diz quando parar de testar" exigia as expressões "parar de testar" ou "critério de saída", e a resposta dizia "o sinal de parar continua o mesmo de sempre: quando o retorno de uma rodada só repete o da anterior, para". A regex foi corrigida e a execução com skill passou de 6/7 para 7/7. A média com skill subiu de 92,2% para 95,8%.
+
+---
+
+## [0.3] — 2026-08-06
+
+### Adicionado
+
+- Quatro skills de apoio, escritas e instaladas na conta: `design-mecanicas-rpg`, `balanceamento-simulacao`, `playtesting-rpg` e `redacao-acessivel-rpg`. Cópia de trabalho em `skills/`, com os arquivos de apoio que a versão instalada traz embutidos.
+- `workspace-skills/iteration-1/` — nove execuções de teste (quatro com skill, quatro linha de base morna, uma linha de base fria), com `eval_metadata.json`, `timing.json` e `grading.json` por execução, mais `benchmark.json`.
+- `workspace-skills/revisao-iteracao-1.html` — visualizador de revisão, abre no navegador.
+- `workspace-skills/montar-benchmark.py` — o script que gera tudo isso, com as ressalvas de método no cabeçalho.
+- `ESTADO-ATUAL.md` — ponto de retomada do projeto.
+
+### Decidido
+
+- Mecânica de resolução: **d20**. O Fundamento já é arquitetura d20 (CD, Teste de Resistência, RD, vantagem) e o teto que o dossiê exigia já existe nele, no orçamento em vez de no dado.
+- Recurso central: energia amaldiçoada como pool numérico.
+- Progressão numérica contínua, com Nível separado de patente.
+- Morte: misto letal / não letal, declarado por mesa.
+- Guilda: 5 a 7 mestres ativos, 2 a 3 mesas por semana.
+
+### Auditoria
+
+- Verificado que nada da sessão interrompida ficou truncado: os 21 arquivos criados estão íntegros, os scripts rodam e as oito referências internas das skills resolvem.
+- A execução que faltava (`eval-3` sem skill) foi rodada em duas condições distintas, morna e fria, para separar "skill contra Claude que leu o dossiê" de "skill contra nada".
+
+### Em aberto
+
+Nome do sistema. E uma colisão de termo a resolver: **Grau** significa tamanho de feitiço no Fundamento e também patente do feiticeiro em JJK. Renomear a patente antes de a comunidade adotar.
+
+---
+
+## [0.2] — 2026-08-05
+
+### Adicionado
+
+- Comparador de curvas (`03-mecanica/comparador-de-curvas.html`) — ferramenta interativa que calibra seis mecânicas na mesma chance de sucesso e compara o formato da curva de progressão. Abre no navegador, funciona offline exceto pela biblioteca de gráfico.
+- Dossiê de metodologia (`01-pesquisa/dossie-de-metodologia.md`) — lentes de decisão, espaço de design, mundo compartilhado multi-mestre, matemática de dado calculada, metodologia de playtest, estrutura de manual e leitura de IP.
+- Dez travas de arquitetura que a fase de esqueleto herda (seção 8 do dossiê).
+
+### Alterado
+
+- Pitch: nova pergunta em aberto sobre o tamanho real da Guilda (nº de mestres e jogadores ativos), porque a consistência entre mesas depende disso.
+
+### Decidido
+
+- Ferramenta de probabilidade: `dice-calc` (Python, roda local, compila código do AnyDice). Testado e funcionando.
+- Ciclo de playtest: 5 pessoas × 3 rodadas, com correção entre rodadas, em blocos temáticos de duas semanas (formato copiado do playtest público do Pathfinder).
+- Estrutura do material final: quick-start jogável na frente do livro, referência atrás — decisão de estrutura, não de diagramação.
+- Progressão será tabelada ou por gatilho, nunca discricionária do mestre, e com teto (bounded accuracy) — requisito derivado do personagem persistente entre mestres.
+
+### Revisado
+
+- Dossiê passou por revisão independente: corrigidos um erro de célula na tabela de +1 em 2d6, arredondamento inconsistente na tabela de vantagem, rótulo ambíguo na tabela estilo Blades e a data/premiação do Fabula Ultima.
+
+---
+
+## [0.1] — 2026-08-05
+
+### Adicionado
+
+- Pitch de design (`00-fundacao/pitch-de-design.md`) — visão geral, três pilares, restrições duras e perguntas em aberto.
+- Estrutura de pastas do projeto.
+
+### Decidido
+
+- Base ficcional: Jujutsu Kaisen, como material de fã gratuito. Sem venda, sem monetização.
+- Contexto de jogo: server de Guilda com múltiplos mestres e mini-campanhas; personagem persistente entre mesas.
+- Formato: roleplay por texto entre sessões, rolagem majoritariamente ao vivo.
+- Tom shounen de ação; crunch equilibrado.
+- Primeiro entregável é esqueleto estrutural, não regra jogável.
+
+### Em aberto
+
+Mecânica de resolução, recurso central, funcionamento do rank no server, molde de técnica inata, tratamento de morte e nome do sistema.
