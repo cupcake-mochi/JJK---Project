@@ -71,8 +71,9 @@ Antes de escrever qualquer coisa, faça esta sequência inteira e me relate cada
 4. RODE OS VALIDADORES de dentro de `sistema/03-mecanica/`, que é o que o
    `subir.sh` faz. Depois o `conferir-repositorio.py` da raiz. Me diga quantos
    passaram e se algum imprimiu PULADA — verde que pulou checagem não prova
-   nada, e sem `python-docx` três deles pulam 4, 2 e 1 checagens e saem com
-   código 0.
+   nada. Sem `python-docx`, três deles pulam e saem com código 0: o
+   `conferir-nomes` pula 3 de 5, o `conferir-manual` pula 4 de 4 (todas, ele
+   sai no `except ImportError`) e o `conferir-pericias` pula 1 de 8.
 
 5. NÃO RODE GIT. Deste sandbox o git sai com "loose object is corrupt" e o
    repositório está inteiro — é o mount. Pior: `git status` cria um
@@ -80,13 +81,29 @@ Antes de escrever qualquer coisa, faça esta sequência inteira e me relate cada
    `./subir.sh`. Commit é sempre meu.
 
 ONDE O TRABALHO PAROU
-A peça 13 (Legados) FECHOU na v0.39: `sistema/03-mecanica/13-legados.md`, com o
-`conferir-legados.py` junto. São 81 entradas nas sete Origens, mais o Sem Técnica,
-e sete vagas de Desliga declaradas esperando peça nova — quatro esperam equipamento
-e três esperam dano-e-condições.
+EQUIPAMENTO está em andamento, e o estado dela mora em
+`sistema/03-mecanica/RASCUNHO-equipamento.md`. LEIA ESSE ARQUIVO INTEIRO antes
+de propor qualquer coisa — ele tem as decisões já tomadas com o número de cada
+uma, o que foi rejeitado e por quê, e a lista do que falta. Não refaça nada que
+está lá; a conta já rodou.
 
-A próxima da fila é EQUIPAMENTO. Ela destrava a Vanguarda, a Técnica Marcial e as
-sete vagas de Desliga, e é a peça 2 da ordem decidida na v0.36.
+Fechado no rascunho: duas classes (Traje e Revestimento), três degraus, requisito
+de Força 3/5/6 e SEM gate de nível, escudo +1 derivado, oito propriedades de arma
+e oito classes de arma com 39 nomes, dominância zerada.
+
+Em aberto, e é por aí que se retoma:
+- A classe PESADA paga dois pontos de Força a mais que a Uma mão pelo mesmo valor
+  líquido. O argumento que a salva — o requisito é compartilhado com o Revestimento —
+  NÃO foi validado. Valide antes de escrever a peça.
+- Munição não tem número. Versátil não tem os dois dados escritos.
+- O validador da peça, com a checagem de dominância POR VALOR TOTAL, que é o furo
+  que o teste atual tem.
+- A peça 11 tem uma dívida decidida e não aplicada: trocar "você fica sem a
+  proteção passiva" por "você fica sem proteção". Vai junto, na mesma versão.
+
+A peça 13 (Legados) FECHOU na v0.39, com 81 entradas e sete vagas de Desliga
+esperando peça nova — quatro delas esperam justamente equipamento. Quando
+Equipamento fechar, a primeira coisa é voltar na peça 13.
 
 COMO EU GOSTO DE TRABALHAR
 - Escolha de sabor é minha: quantos itens numa lista, quais são, como se chamam.
@@ -179,7 +196,7 @@ Não são a mesma rota, e a peça precisa saber disso antes de precificar.
 PROCEDIMENTO:
 - Rode os validadores antes de mexer em número, de `sistema/03-mecanica/` —
   é o que o `subir.sh` faz. Confira PULADA=0: sem `python-docx` três deles
-  pulam 4, 2 e 1 checagens e saem com código 0.
+  pulam e saem com código 0 — 3 de 5, 4 de 4 e 1 de 8, nessa ordem.
 - Rode a triagem antes de batizar arma, material ou categoria:
   `python3 conferir-nomes.py --candidatos <nomes>`. Ela pega substring e já
   matou nome que parecia livre — e NÃO pega colisão de sentido nem de

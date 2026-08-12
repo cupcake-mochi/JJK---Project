@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 12/08/2026, na v0.38 (última passada: Legados). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 12/08/2026, na v0.40 (última peça fechada: Legados, na v0.39). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.39.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **treze peças escritas** e **treze validadores**. Manual do Fundamento na **v7.8**, com a Expansão de Domínio escrita, e o catálogo de aptidões com **dez das catorze entradas fechadas**. **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas** — por seis das nove rotas de Origem, e agora sem nenhum buraco de regra que morda nessa faixa.
+**Versão v0.40.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **treze peças escritas** e **treze validadores**. Manual do Fundamento na **v7.8**, com a Expansão de Domínio escrita, e o catálogo de aptidões com **dez das catorze entradas fechadas**. **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas** — por seis das nove rotas de Origem, e agora sem nenhum buraco de regra que morda nessa faixa.
 
 ## Como retomar
 
@@ -24,9 +24,10 @@ python3 conferir-orcamento.py     # o somatório: todos os drenos de PE ao mesmo
 python3 conferir-xp.py           # a curva, o abismo que fecha, e os alvos da Guilda
 python3 conferir-criacao.py      # a ficha de exemplo contra as fórmulas, e o que a criação cita
 python3 conferir-ficha.py        # a ficha de 05-material contra os catálogos das peças
+python3 conferir-legados.py      # os três formatos, a cota de Desliga, as vagas e os totais
 ```
 
-**O décimo primeiro é de outra natureza.** Os dez primeiros conferem **regra**; ele confere **instância** — se a ficha publicada na peça 8 obedece às fórmulas que as outras peças decidiram. Nasceu na v0.34 porque os dois erros daquela versão passaram por baixo de todos os outros: a peça 8 é a única que produz uma ficha inteira, e ela envelhece toda vez que outra peça mexe num número.
+**Três naturezas diferentes, e vale saber qual é qual.** Dez conferem **regra** — *a fórmula deriva certo?*. O `conferir-criacao.py` confere **instância** — *a ficha publicada na peça 8 obedece à fórmula?* —, e nasceu na v0.34 porque os dois erros daquela versão passaram por baixo de todos os outros: a peça 8 é a única que produz uma ficha inteira, e ela envelhece toda vez que outra peça mexe num número. O `conferir-ficha.py` confere **material**, que é a cópia que vira personagem em sete mesas. E o `conferir-legados.py`, o décimo terceiro, confere **catálogo**: ele recalcula a tabela de totais da peça 13 e falha se o escrito não bater com o contado.
 
 O quinto tem um modo de triagem, para rodar **antes** de batizar qualquer coisa:
 
@@ -36,14 +37,17 @@ python3 conferir-nomes.py --candidatos Vulto Matilha Bigorna
 
 **O sexto entrou na v0.26 e olha a direção que faltava.** O `conferir-nomes` pergunta *"esse nome que eu batizei já significa alguma coisa no manual?"*; o `conferir-manual` pergunta *"o manual usa alguma palavra que este sistema não tem?"*. Foi por não existir que o `Bônus de Treinamento` e o `Habilidade/Sabedoria` sobreviveram tanto tempo. Ele também confere que a **tabela de PE, a de inimigo e a coluna Rotina** — que estão copiadas dentro das peças e dos outros validadores — continuam batendo com o `.docx`.
 
-Os dois últimos precisam de `python-docx`; sem ele eles **pulam** as checagens que leem o manual, em vez de falhar — 4, 2 e 1 checagens, medidas na v0.38.
+**Três precisam de `python-docx`** — `conferir-nomes`, `conferir-manual` e `conferir-pericias` —; sem ele eles **pulam** as checagens que leem o manual, em vez de falhar, e saem com código 0. Quanto cada um perde, lido do código na v0.40: **3 de 5 · 4 de 4 · 1 de 8**.
+
+> *Até a v0.39 esta linha dizia "os dois últimos" e "4, 2 e 1", e nenhuma das duas coisas era verdade.* São três, não dois, e eles não são os últimos da lista. E o `conferir-manual.py` estava escrito como o que pula menos quando é o único que **não confere absolutamente nada** sem a biblioteca: ele sai no `except ImportError` antes da primeira checagem. **Número documentado a partir da saída do programa, e não do código, envelhece assim.**
 
 > **O que mudou na v0.38:** rodar de outro diretório **não** faz mais ninguém pular checagem. Os quatro que abrem arquivo do manual resolvem por `__file__`, e de `/tmp` a saída sai idêntica com zero puladas. O `README` e o `LEIA-ME` diziam o contrário desde a v0.28 e foram corrigidos. **Continue rodando de `03-mecanica/`** — o `subir.sh` faz assim —, mas o motivo agora é hábito e não defeito. **A pulada que sobrou é a do `python-docx`, e essa é real.**
 
-## As seis skills, e onde elas moram
+## As sete skills, e onde elas moram
 
 **Procedimento:** `rpg-da-guilda` · `pesquisa-antes-de-propor`
 **Assunto:** `design-mecanicas-rpg` · `balanceamento-simulacao` · `playtesting-rpg` · `redacao-acessivel-rpg`
+**Sobre a conversa:** `gasto-de-modelo` — o veredito de uma linha sobre que modelo a tarefa pedia
 
 Estão na conta e disparam sozinhas. A **`rpg-da-guilda`** entrou na v0.37: ordem de leitura, de onde rodar os validadores, o que a triagem de nomes não pega, como escrever arquivo neste mount, o arnês de perturbação e como fechar versão.
 
@@ -51,7 +55,11 @@ A **`pesquisa-antes-de-propor`** entrou na v0.38, e ela existe por um defeito me
 
 As duas guardam **procedimento e nunca conteúdo** — apontam para o `README.md` em vez de copiar as lições.
 
-**A pasta `sistema/skills/` é cópia de trabalho — editar lá não altera a skill instalada**, e as duas divergem sozinhas. *Aconteceu:* na v0.37 a descrição do `playtesting-rpg` no repositório estava seis meses atrás da instalada, e descrição é o que decide quando a skill dispara. **Ao mudar uma skill, mude nos dois lados** — nenhum validador alcança essa camada.
+**A pasta `sistema/skills/` é cópia de trabalho — editar lá não altera a skill instalada**, e as duas divergem sozinhas. **Ao mudar uma skill, mude nos dois lados** — nenhum validador alcança essa camada.
+
+> **E na v0.40 a migração de conta provou que isso não é aviso teórico: as cinco que estavam instaladas divergiam, todas.** A `rpg-da-guilda` instalada ainda carregava o aviso que a v0.38 aposentou — *"rodados de outro lugar eles pulam checagem em silêncio"* —, que é justamente o motivo errado que aquela versão saiu para tirar de circulação.
+>
+> **E a deriva mudou de direção.** Na v0.37 o repositório é que estava atrás da instalada, e a conclusão registrada foi *"migrar pelo repositório levaria o gatilho velho"*. Desta vez foi o contrário, nas cinco. **Não existe um lado que seja confiável por natureza** — o que existe é a data da última vez que alguém sincronizou, e ela não está escrita em lugar nenhum.
 
 ## O sistema em uma página
 
@@ -262,7 +270,7 @@ O d10 fica grande de propósito: a ameaça é calibrada contra o nível do grupo
 >
 > Então ele é **misto**: PE, aptidões e refino como qualquer feiticeiro, e **Técnica Marcial** no lugar do Fundamento, porque não existe técnica inata para escrever. A Maki é a única sem energia nenhuma, e as Bênçãos são só dela.
 >
-> *Decidido com o Mizuki. Falta aplicar na peça 9 §5, que ainda diz "sem energia amaldiçoada convencional" — vai junto com as outras mudanças que a peça 13 deve àquela peça.* Andar em parede e em água, deslocar-se no ar, *fast steps* — o físico no lugar do energético. Os dois nomes passaram pela triagem e estão livres nas duas direções.
+> *Decidido com o Mizuki na v0.38 e **aplicado na peça 9 na v0.39**, junto com as outras mudanças que a peça 13 devia àquela peça.* A entrada de Corpo Amaldiçoado hoje diz *"você tem energia amaldiçoada: cadáver de mutação abrupta produz a própria, uns três meses depois de acordar"*, com PE, aptidões e refino normais e Técnica Marcial no lugar do Fundamento. Andar em parede e em água, deslocar-se no ar, *fast steps* — o físico no lugar do energético. Os dois nomes passaram pela triagem e estão livres nas duas direções.
 
 Isso é a camada de aptidão da **Técnica Marcial**, que o material já descreve como *"paga com o corpo e com ferramenta amaldiçoada"* — e é o que destrava duas das três rotas de Origem que não rodam hoje.
 
@@ -344,10 +352,20 @@ Quem pega a incompleta mais duas Passivas de Classe 2 gasta **dois terços da li
 
 Nenhum validador pega estes — eles vieram de rodar os testes da skill de design contra o material.
 
-1. **O Legado tem teto de quantidade, não de magnitude.** *Achado na v0.24.* Um por ficha, fácil de conferir. Mas a faixa entre os catorze é enorme: de **Irmãos** (sente outro Feto por perto, zero em rolagem) a **Não Sou Gente** (imune a veneno, doença e o que ataca corpo humano — apaga uma família de ameaça e boa parte do TR Vigor). A trava escrita — *não produz dano e não escala com nível* — não pega imunidade. E **Instinto Bruto está metade morto**: "use Sentir Energia no lugar de Percepção" é trocar Essência por Essência desde a v0.16.
+1. ~~**O Legado tem teto de quantidade, não de magnitude.**~~ **Fechado na v0.39, pela peça 13.** *Ficou aberto da v0.24 até lá.* A régua é de **três formatos travados nos próprios termos**, e não escada de preço: `Ajusta` mexe em número e carrega relógio da escada da peça 10, com a largura do gatilho escolhendo o degrau; `Desliga` só apaga o que ninguém comprou; `Destranca` é zero no dado e precisa de gatilho do jogador. **Os quatro que a régua reprovou saíram, cada um com destino escrito:** o *Não Sou Gente* mudou de camada e virou Passiva paga com espaço de feitiço, o *Irmãos* ganhou gatilho do jogador, o *Instinto Bruto* perdeu a metade morta e ficou só contra Intuição — que é Inteligência, e aí é troca de verdade —, e o *Alcance Impossível* morreu por ser técnica, que a peça 9 proíbe Origem de conceder.
 2. **O Guia pode estar dominado pela Vanguarda.** *Reformulado na v0.24.* Não era achado fechado: dependia de uma classificação que nunca tinha sido escrita — quem ganha ataque extra. Agora está escrito (peça 6, seção 3.1): **Bastião e Vanguarda pelo Caminho no nível 6; Arremate e Coro pela Trilha; o Guia por nenhuma rota.** O que sobra não é dominância, é uma pergunta com número: *o que Elo, Sutura e Perímetro entregam que valha um golpe por rodada?*
 3. **O ofício não passa no filtro do multi-mestre.** "O mestre escolhe o atributo na hora" faz dois mestres cobrarem coisas diferentes pelo mesmo ofício, com até cinco pontos de diferença. Conserto: tabela com o atributo padrão de cada um.
-4. **"O mestre declara o que foi uma luta" é discricionariedade que vira número.** *Aceito de propósito na v0.26*, e é a única coisa da peça 10 sem lista fechada por baixo — a declaração muda quantos degraus de exaustão o grupo acumula, e isso muda quanto PE o respiro devolve. A aposta é que ninguém está em melhor posição de dizer se aquilo foi uma luta do que quem acabou de dirigir a cena. Se dois mestres divergirem no playtest, o conserto é o do ambiente propício: fechar a lista.
+4. **A escolha de refino no marco paga mal, e três marcos pagam zero.** *Achado pelo Mizuki na passada de Equipamento, e a conta confirmou pior do que o palpite.* O refino **passivo chega a 8** sem escolha nenhuma; sete escolhas de marco compram **+2**, e o teto 10 é alcançado no **nv22**. Do nv22 em diante a escolha *"refino e uma aptidão"* vira **só a aptidão**, enquanto *atributo* e *Leque* continuam valendo cheio — três marcos com um dos três eixos pela metade.
+
+   | o que o +2 de refino compra | refino 8, de graça | refino 10, sete escolhas |
+   |---|---|---|
+   | proteção de cobrir-se | 3 | 4 |
+   | RD da Reação | 12 | 15 |
+   | desconto e duração do domínio | 4 | 5 |
+
+   **A rota se paga pela quantidade de aptidões, não pela magnitude do refino** — e isso contradiz a frase que abre a peça 11, *"o refino é a métrica das aptidões"*. Como as aptidões usam o refino como variável, o valor de cada uma também quase não muda entre 8 e 10. *Não mexer sem decidir junto o que compensa os três marcos mortos: teto maior, escolha diferente depois do teto, ou o passivo parar antes de 8.*
+
+5. **"O mestre declara o que foi uma luta" é discricionariedade que vira número.** *Aceito de propósito na v0.26*, e é a única coisa da peça 10 sem lista fechada por baixo — a declaração muda quantos degraus de exaustão o grupo acumula, e isso muda quanto PE o respiro devolve. A aposta é que ninguém está em melhor posição de dizer se aquilo foi uma luta do que quem acabou de dirigir a cena. Se dois mestres divergirem no playtest, o conserto é o do ambiente propício: fechar a lista.
 
 *Resolvidos na v0.26:* os **três buracos de regra** que estavam aqui — a fórmula do PE máximo (ela já estava no manual, na tabela de "quantas vezes você lança o seu melhor feitiço"), o arredondamento e o que conta como luta. E o **tamanho dos degraus de exaustão**: a escada nunca esteve desordenada, ela é ordenada por **consequência**, e o degrau 1 e o degrau 3 valem exatamente os mesmos −25 pp porque os dois são desvantagem. O que estava errado era o texto prometer "leve"; o `conferir-descanso.py` agora confere magnitude.
 
@@ -388,8 +406,8 @@ Vale ter isso à mão, porque o material é grande e engana. *Medido na v0.33, e
 | falta | tamanho do buraco |
 |---|---|
 | **Tabela de progressão consolidada** | o que você ganha em cada nível está espalhado por cinco documentos: marcos na peça 2, maestria na peça 1, refino no `arquitetura.md`, XP na peça 12, Classe e feitiço no manual |
-| **Quick-start jogável** | decidido na v0.2 como a estrutura do material final. Não existe. As doze peças são argumento de design, não texto de regra: ninguém senta na mesa com elas |
-| **Playtest** | `04-playtest/` está vazia. Zero sessões em 35 versões. **Todo número do sistema é previsão** |
+| **Quick-start jogável** | decidido na v0.2 como a estrutura do material final. Não existe. As treze peças são argumento de design, não texto de regra: ninguém senta na mesa com elas |
+| **Playtest** | `04-playtest/` está vazia. Zero sessões desde a v0.1. **Todo número do sistema é previsão** |
 
 *A **tabela de XP** saiu desta lista na v0.32.* Ela era a trava nº 1 de mundo compartilhado e ficou aberta trinta versões; hoje é a peça 12, com o `conferir-xp.py` em cima dela.
 
@@ -426,9 +444,9 @@ O que falta agora, na ordem em que travam umas às outras:
 >
 > **Não existe mais peça de regra bloqueando alguém de jogar.** Uma missão de nível 2 roda inteira: cria, joga, recupera, sobe de nível. As duas acima travam a **segunda sessão** e a **primeira subida**, não a primeira mesa.
 >
-> O que falta para alguém sentar na mesa não é regra — é **material**: `05-material/` está vazia, não existe ficha de personagem nem quick-start, e as doze peças são argumento de design e não texto de mesa. **`04-playtest/` está vazia há 32 versões, e todo número do sistema continua sendo previsão.**
+> O que falta para alguém sentar na mesa não é regra — é **material**: as peças são argumento de design e não texto de mesa. **`04-playtest/` está vazia desde a v0.1, e todo número do sistema continua sendo previsão.**
 >
-> A rota decidida com o Mizuki foi: v7.7 → anti-domínio → XP → **validação e polimento** → ficha e quick-start. Os quatro primeiros saíram — o polimento foi a v0.33, e **a próxima coisa é a ficha e o quick-start**.
+> A rota decidida com o Mizuki foi: v7.7 → anti-domínio → XP → **validação e polimento** → ficha e quick-start. *Os quatro primeiros saíram, o polimento foi a v0.33 e a **ficha saiu na v0.35** — `05-material/` não está mais vazia. Falta o quick-start.*
 
 ## A fila decidida com o Mizuki na v0.36
 
@@ -436,10 +454,12 @@ Quatro peças, e a ordem é de **dependência**, não de tamanho. A ordem que el
 
 | # | peça | destrava | depende de |
 |---|---|---|---|
-| 1 | **Legados** — a régua de magnitude, e ~5 por Origem | nada, e é a mais barata | — |
-| 2 | **Equipamento** — armas, escudos, uniformes | a Vanguarda, e a **Técnica Marcial** (duas das três rotas de Origem mortas) | — |
+| ~~1~~ | ~~**Legados** — a régua de magnitude, e ~5 por Origem~~ | **fechada na v0.39** (peça 13): régua, catálogo de **81 entradas** e o `conferir-legados.py` | — |
+| 2 | **Equipamento** — armas, escudos, uniformes | a Vanguarda, a **Técnica Marcial** (duas das três rotas de Origem mortas) e **quatro das sete vagas de Desliga** da peça 13 | — |
 | 3 | **Invocações** — o sistema de criação | o Evocador | — |
 | 4 | **Caminho, Trilhas e subtrilhas** — a árvore de cada um | o resto | **2 e 3** |
+
+> **Equipamento é a próxima, e ela tem uma dívida marcada esperando.** A peça 13 fecha dizendo *"quando equipamento fechar, a primeira coisa a fazer é voltar aqui"* — quatro vagas de Desliga nomeiam essa peça como a que deve criar o alvo delas. As outras três esperam **dano e condições**, que não está na fila. *Decisão registrada não é decisão aplicada, e foi assim que a Trilha passou sete versões.*
 
 ### Decidido — o Caminho continua sem dar dados de dano
 
@@ -462,13 +482,22 @@ O motivo é o pilar 1, e está escrito na peça 5: *"se o Caminho desse dano, do
 - **A reação de RD do Bastião encosta em cobrir-se de energia**, que já dá RD de `1,5 × refino` por 2 PE. Ou uma delas domina a outra, ou são a mesma peça com dois nomes. Medir as duas juntas.
 - **Os *pontos de feitiço* do Emanador são moeda nova ao lado do PE.** O `conferir-orcamento.py` existe porque o bolso já é apertado — qualquer moeda nova passa por ele antes de ter número.
 
-### O alerta da peça de Legados
+### A peça de Legados fechou — o que ela deixou pendurado
 
-**O problema registrado não é quantidade, é magnitude.** Hoje são **catorze**, dois por Origem, e a faixa entre eles é enorme: de **Irmãos** (sente outro Feto por perto, zero em rolagem) a **Não Sou Gente** (imune a veneno, doença e ao que ataca corpo humano — apaga uma família inteira de ameaça e boa parte do TR Vigor).
+*A régua veio primeiro e o catálogo depois, e a ordem se pagou: os quatro Legados que a régua reprovou eram do catálogo antigo.* São **81 entradas** nas sete Origens, mais o `Sem Técnica` — escrito uma vez e referenciado pelas cinco Origens que o aceitam, porque cinco cópias do mesmo texto seria a lição nº 9 dentro de um catálogo.
 
-A trava escrita — *"não produz dano e não escala com nível"* — **não pega imunidade.** Ir de catorze para vinte e cinco sem escrever a régua de magnitude antes multiplica o defeito por quase três.
+**A ficha leva dois Legados, e um deles é obrigatoriamente Destranca.** A regra óbvia — *dois de listas diferentes* — não conserta: ela deixa pegar `Ajusta + Desliga`, e aí quem otimiza continua sem ficção **e a economia mecânica dobra**. Com o Destranca obrigatório ela não dobra.
 
-Então a peça de Legados tem duas metades, nesta ordem: **a régua primeiro, o catálogo depois.** E a expansão em si já estava endossada pela própria peça 9: *"se o Legado parecer decoração, o conserto é dar mais opções por Origem, não mais Legados por ficha."*
+**O que ficou pendurado, e é o que Equipamento vai encontrar:**
+
+| pendência | espera |
+|---|---|
+| **Sete vagas de Desliga**, declaradas na tabela em vez de preenchidas | **quatro** esperam equipamento · **três** esperam dano e condições |
+| A **Armaria** do Descendente e o **Enterrado** do Reencarnado | citam ferramenta amaldiçoada, que não tem propriedade nomeada. São as primeiras a reler |
+| O **Não Sou Gente** virar Passiva paga com espaço de feitiço | a decisão está tomada, a Passiva não está escrita |
+| A **máquina de criação do Sem Técnica** | Aptidão e Estilo da Sombra |
+
+> **O alvo livre acabou, e é por isso que as vagas existem.** A enumeração de alvos legais do sistema inteiro tem sete, e o `Ferro Velho` gastou o último. Inventar oito alvos para fechar a cota seria escrever entrada para fechar contagem — que é exatamente o defeito que essa régua nasceu para achar. **Peça nova é o que cria alvo novo.**
 
 ### E um padrão que vale saber antes de começar
 

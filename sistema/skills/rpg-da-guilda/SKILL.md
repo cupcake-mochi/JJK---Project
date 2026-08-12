@@ -31,7 +31,9 @@ cd sistema/03-mecanica && for v in conferir-*.py; do python3 "$v"; done
 cd ../..  && python3 conferir-repositorio.py
 ```
 
-**A armadilha que continua real: confira `PULADA=0`.** Sem `python-docx` instalado (`pip install python-docx --break-system-packages`) os três que leem o manual pulam em vez de falhar, e saem com código 0.
+**A armadilha que continua real: confira `PULADA=0`.** Sem `python-docx` instalado (`pip install python-docx --break-system-packages`) os três que leem o manual pulam em vez de falhar, e saem com código 0. **Um deles pula tudo:** o `conferir-manual` sai no `except ImportError` antes da primeira checagem.
+
+*E quando for documentar quanto cada um pula, leia do código, não da saída.* A v0.38 contou pela saída, escreveu um número errado em quatro documentos, e a v0.40 achou. **Contar sintoma não é contar causa.**
 
 **Rode de `sistema/03-mecanica/` mesmo assim**, porque é o que o `subir.sh` faz e o que o resto da documentação supõe. *Mas o motivo virou hábito na v0.38:* até a v0.37 a documentação dizia que rodar de outro lugar fazia validador pular checagem em silêncio — hoje todos resolvem o caminho por `__file__` e a saída de `/tmp` é idêntica.
 

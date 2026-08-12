@@ -2,7 +2,7 @@
 
 Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.39** · manual do Fundamento na **v7.8** · **treze peças de regra** e **treze validadores passando**.
+**Versão v0.40** · manual do Fundamento na **v7.8** · **treze peças de regra** e **treze validadores passando**.
 
 ---
 
@@ -12,7 +12,7 @@ O problema que ele existe para resolver não é "fazer um RPG de JJK": é **o me
 
 O coração é o **Fundamento**: um subsistema fechado e já validado que resolve técnica, feitiço, Melhoria, Restrição, Liberação Máxima, Expansão de Domínio e dano de alma por orçamento de pontos. Ele mora em `manual/` e é gerado por código. Tudo em `sistema/` é o que existe **em volta** dele — atributos, Caminhos, perícias, criação de personagem, descanso, aptidões.
 
-E o registro do **porquê** de cada decisão é tão importante quanto a regra: `logs/CHANGELOG.md` tem 38 versões de argumento, e é a única parte do projeto que não dá para reconstruir sozinho lendo o resto.
+E o registro do **porquê** de cada decisão é tão importante quanto a regra: `logs/CHANGELOG.md` guarda o argumento de todas as versões desde a v0.1, e é a única parte do projeto que não dá para reconstruir sozinho lendo o resto.
 
 ## Por onde começar, se você acabou de clonar isto
 
@@ -42,11 +42,11 @@ E o registro do **porquê** de cada decisão é tão importante quanto a regra: 
     ├── 00-fundacao/                     os três pilares e as restrições do projeto
     ├── 01-pesquisa/                     dossiê de metodologia — a seção 8 lista as dez travas
     ├── 02-esqueleto/                    arquitetura: subsistemas e como se encaixam
-    ├── 03-mecanica/                     as doze peças de regra e os doze validadores
-    ├── 04-playtest/                     vazia. Zero sessões em 35 versões
+    ├── 03-mecanica/                     as treze peças de regra e os treze validadores
+    ├── 04-playtest/                     vazia. Zero sessões desde a v0.1
     ├── 05-material/                     a ficha, e o gerador dela. O quick-start ainda não
     ├── 99-arquivo/                      material morto, com LEIA-ME próprio
-    └── skills/                          cópia de trabalho das seis skills de apoio
+    └── skills/                          cópia de trabalho das sete skills de apoio
 ```
 
 Um arquivo `RASCUNHO-*.md` em `03-mecanica/` é levantamento engatilhado, não peça — ele não leva número justamente por isso, e o `conferir-repositorio.py` falha se algum tomar.
@@ -60,7 +60,17 @@ pip install python-docx --break-system-packages    # dois validadores leem o .do
 cd manual/gerador && npm install docx               # só se for regerar o manual
 ```
 
-Sem `python-docx`, o `conferir-nomes.py`, o `conferir-manual.py` e o `conferir-pericias.py` **pulam** as checagens que leem o manual em vez de falhar — então eles saem verdes sem terem conferido nada. **São 4, 2 e 1 checagens**, medidas na v0.38 bloqueando o import de propósito, e os três saem com código 0. Instale antes de confiar num "OK".
+Sem `python-docx`, o `conferir-nomes.py`, o `conferir-manual.py` e o `conferir-pericias.py` **pulam** as checagens que leem o manual em vez de falhar — então eles saem verdes sem terem conferido nada, com código 0. Instale antes de confiar num "OK".
+
+**Quanto cada um perde**, lido do código na v0.40 e conferido bloqueando o import:
+
+| validador | pula | de quantas |
+|---|---|---|
+| `conferir-nomes.py` | 3 (as checagens 1, 3 e 4) | 5 |
+| `conferir-manual.py` | **4 — todas.** Ele sai no `except ImportError` antes da primeira | 4 |
+| `conferir-pericias.py` | 1 (a que bate contra o Fundamento) | 8 |
+
+*A v0.38 registrou **4, 2 e 1**, e os três documentos repetiram. O 4 do `conferir-nomes` era a contagem da palavra `PULADA` na saída — ele imprime um aviso de resumo e mais três marcadores —, e o 2 do `conferir-manual` não bate com nada: ele **não confere nada** sem a biblioteca.* **É o que estava documentado como o que pula menos, e é o único que fica cego por inteiro.**
 
 **Rode de `sistema/03-mecanica/`.** *E a razão mudou na v0.38, então vale saber qual é.* Até a v0.37 este arquivo dizia que rodar de outro lugar fazia os três pularem checagem em silêncio — verdade medida na v0.28, e a v0.33 chegou a contar **4, 1 e 1** puladas rodando de `/tmp`. **Hoje não reproduz mais:** os quatro validadores que abrem arquivo do manual resolvem o caminho por `os.path.dirname(os.path.abspath(__file__))`, e nenhum `conferir-*.py` tem caminho relativo cru. De `/tmp` a saída sai idêntica, byte por byte, com zero puladas.
 
@@ -84,9 +94,16 @@ python3 conferir-orcamento.py     # o somatório: todos os drenos de PE ao mesmo
 python3 conferir-xp.py           # a curva, o abismo que fecha, e os alvos da Guilda
 python3 conferir-criacao.py      # a ficha de exemplo contra as fórmulas, e o que a criação cita
 python3 conferir-ficha.py        # a ficha de 05-material contra os catálogos das peças
+python3 conferir-legados.py      # os três formatos, a cota de Desliga, as vagas e os totais
 ```
 
-**Os dois últimos são de outra natureza, e vale saber por quê.** Os dez primeiros conferem **regra** — *a fórmula deriva certo?*. O `conferir-criacao.py` confere **instância** — *a ficha publicada na peça 8 obedece à fórmula?* —, e ele nasceu na v0.34 depois de aquela peça passar sete versões com a Defesa errada e a Trilha faltando, com os treze outros verdes o tempo todo. O `conferir-ficha.py` confere **material**: as 23 perícias, os 10 ofícios, os 5 Caminhos, as 15 Trilhas e as constantes do nível 2 que a ficha de `05-material/` imprime, contra as peças donas. Ficha errada não fica num `.md` que ninguém abre — ela vira personagem, em sete mesas ao mesmo tempo.
+**Os três últimos são de outra natureza, e vale saber por quê.** Os dez primeiros conferem **regra** — *a fórmula deriva certo?*.
+
+O `conferir-criacao.py` confere **instância** — *a ficha publicada na peça 8 obedece à fórmula?* —, e ele nasceu na v0.34 depois de aquela peça passar sete versões com a Defesa errada e a Trilha faltando, com os outros verdes o tempo todo.
+
+O `conferir-ficha.py` confere **material**: as 23 perícias, os 10 ofícios, os 5 Caminhos, as 15 Trilhas e as constantes do nível 2 que a ficha de `05-material/` imprime, contra as peças donas. Ficha errada não fica num `.md` que ninguém abre — ela vira personagem, em sete mesas ao mesmo tempo.
+
+O `conferir-legados.py` confere **catálogo**, e entrou na v0.39 junto com a peça 13. A checagem que mais rende é a que recalcula a tabela de totais da peça e falha se o escrito não bater com o contado — as contas do rascunho já tinham envelhecido duas vezes dentro do próprio arquivo antes de ele existir.
 
 E os dois do manual, que conferem número em vez de vocabulário:
 
@@ -182,7 +199,7 @@ Isto não é preferência de estilo: é o que evitou os erros que estão registr
 
 **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas**, por seis das nove rotas de Origem — e sem nenhum buraco de regra que morda nessa faixa.
 
-**O que não existe, e faz falta:** uma tabela de progressão consolidada, o quick-start jogável, e o playtest. `04-playtest/` e `05-material/` estão as duas vazias: **zero sessões em 32 versões, e todo número do sistema é previsão.**
+**O que não existe, e faz falta:** uma tabela de progressão consolidada, o quick-start jogável, e o playtest. `04-playtest/` continua vazia — **zero sessões desde a v0.1, e todo número do sistema é previsão.** (`05-material/` saiu desta frase na v0.35: a ficha e o gerador dela estão lá.)
 
 A tabela de XP saiu dessa lista na v0.32 — ela era a trava nº 1 de mundo compartilhado, ficou aberta trinta versões, e hoje é a peça 12. **Com ela, o que falta para alguém sentar na mesa deixou de ser regra e passou a ser material.**
 

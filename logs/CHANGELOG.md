@@ -6,6 +6,74 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.40] — 2026-08-12
+
+**Nenhuma regra e nenhum número de jogo mudaram.** Passada de documentação, feita na migração de conta e antes de abrir a peça de Equipamento. Ela existe porque três coisas que a documentação afirmava tinham deixado de ser verdade — e uma delas ensinava a confiar num verde que não confere nada.
+
+### Achado — o "4, 2 e 1" estava errado, e errado para o lado que engana
+
+A v0.38 mediu quantas checagens cada validador pula sem `python-docx` e registrou **4, 2 e 1**. O `README`, o `ESTADO-ATUAL`, o `LEIA-ME` e o `PROMPT-CHAT-NOVO` repetiram. **Lido do código:**
+
+| validador | documentado | é | de quantas |
+|---|---|---|---|
+| `conferir-nomes.py` | 4 | **3** (checagens 1, 3 e 4) | 5 |
+| `conferir-manual.py` | **2** | **4 — todas** | 4 |
+| `conferir-pericias.py` | 1 | 1 ✓ | 8 |
+
+**O `conferir-manual.py` estava escrito como o que pula menos e é o único que não confere absolutamente nada:** ele dá `sys.exit(0)` dentro do `except ImportError`, antes da primeira checagem. Quem lesse "pula 2 de 4" ia supor que sobrou metade da cobertura. Sobra zero.
+
+**A causa é de método, e é o que vale guardar:** o 4 do `conferir-nomes` é a contagem da palavra `PULADA` na saída — ele imprime uma linha de resumo e mais três marcadores inline, e a linha de resumo foi contada como se fosse uma quarta checagem. **O número foi tirado da saída do programa em vez do código.** O do `conferir-manual` não bate com nenhuma das duas leituras.
+
+> **Contar sintoma não é contar causa.** A saída de um validador é feita para ser lida por gente no meio do trabalho, não para ser fonte de número que vai para documento. Quando o número for sobre o comportamento do validador, ele se lê do validador.
+
+*Achado rodando o controle negativo com o import bloqueado — a mesma prática que a v0.28 pagou para aprender e que a v0.33 institucionalizou.* A checagem que ninguém tinha feito era a segunda metade dela: **conferir que o número que a gente escreveu sobre a pulada bate com a pulada.**
+
+### Alterado — o `ESTADO-ATUAL` e o `README` estavam parados na v0.38
+
+A v0.39 subiu as contagens (`treze peças e treze validadores`) e a entrada do CHANGELOG, e o `conferir-repositorio.py` passou — porque ele confere **a contagem escrita contra a pasta**, e ela estava certa. O que ele não confere é se as listas e as seções em prosa acompanharam. Não acompanharam:
+
+| onde | dizia | é |
+|---|---|---|
+| `ESTADO-ATUAL`, cabeçalho | *"na v0.38"* | v0.40 |
+| `ESTADO-ATUAL` e `README`, lista de comandos | doze validadores | **falta o `conferir-legados.py`** nas duas |
+| `ESTADO-ATUAL` | *"o décimo primeiro é de outra natureza"* · *"os dois últimos precisam de `python-docx`"* | são **três** naturezas fora da regra, e **três** precisam da biblioteca — e não são os últimos |
+| `ESTADO-ATUAL` e `LEIA-ME` | *"as seis skills"* | **sete** |
+| `README`, a árvore | doze peças · doze validadores · seis skills | treze · treze · sete |
+| `ESTADO-ATUAL`, problema de design nº 1 | o teto de magnitude do Legado, aberto | **fechado na v0.39** |
+| `ESTADO-ATUAL`, a fila da v0.36 | Legados na frente, por escrever | fechada, e Equipamento é a próxima |
+| `ESTADO-ATUAL`, Corpo Amaldiçoado | *"falta aplicar na peça 9 §5"* | aplicado na v0.39 |
+
+**A peça de Legados ganhou seção nova no `ESTADO-ATUAL`**, no lugar do alerta que pedia a régua: os três formatos, os dois Legados por ficha com Destranca obrigatório, e a tabela do que ficou pendurado — **sete vagas de Desliga, quatro esperando equipamento e três esperando dano e condições**, mais a `Armaria` e o `Enterrado`, que citam ferramenta amaldiçoada e são as primeiras a reler quando a próxima peça sair.
+
+### Alterado — a contagem de versões sem playtest saiu de todos os documentos
+
+*A v0.38 deixou isto anotado em aberto e escreveu o conserto certo: **"é derivável da versão atual e não devia estar escrita à mão em lugar nenhum."*** Estava em cinco lugares com dois valores — `README` 35 e 32, `ESTADO-ATUAL` 35 e 32, `LEIA-ME` 35.
+
+Virou **"zero sessões desde a v0.1"** nos três. É a mesma informação, não envelhece, e ninguém precisa lembrar de somar um a cada versão. O `README` também dizia *"38 versões de argumento"*, pelo mesmo motivo e com o mesmo conserto.
+
+E de passagem: o `README` ainda dizia que **`04-playtest/` e `05-material/` estão as duas vazias.** A ficha saiu na v0.35 e o gerador dela está lá — vazia é só uma.
+
+### Registrado — as cinco skills instaladas estavam todas atrás da pasta
+
+A migração de conta obrigou a reinstalar as sete de `sistema/skills/`. **Duas não estavam instaladas** — `gasto-de-modelo` e `pesquisa-antes-de-propor` — e **as cinco que estavam divergiam da cópia do repositório, todas.**
+
+A pior era a `rpg-da-guilda`: a versão instalada ainda mandava rodar de `03-mecanica/` *"porque de outro lugar eles pulam checagem em silêncio"* — **o aviso que a v0.38 saiu para aposentar.**
+
+> **E a deriva inverteu de direção.** Na v0.37 o repositório é que estava atrás, e a conclusão registrada foi *"migrar pelo repositório levaria o gatilho velho"*. Desta vez foi o contrário, nas cinco. **Não existe lado confiável por natureza** — existe a data da última sincronização, e ela não está escrita em lugar nenhum. Continua sendo a camada que nenhum validador alcança.
+
+### Em aberto
+
+- **Equipamento**, a próxima peça — e a proteção primeiro, porque é a que já tem teto fixado por fora: `1` no nível 2 e `4` no refino 10, e uniforme desliga cobrir-se de energia.
+- **As sete vagas de Desliga** e o **Não Sou Gente** virando Passiva.
+- **A máquina de criação do Sem Técnica** — Aptidão e Estilo da Sombra.
+- **A Cicatriz não tem mecânica, só nome.**
+- **Uma checagem que conte skill**, que a v0.38 já tinha marcado como candidata e que esta versão acabou de justificar de novo.
+- **Energia Reversa, Barreira Simples, Cortina** e a régua da Aptidão Própria.
+- **Qual modelo de clash vale.**
+- **Nome do sistema.**
+
+---
+
 ## [0.39] — 2026-08-12
 
 **A peça 13 fechou.** Legados sai de rascunho e vira peça numerada, com validador junto — **treze peças e treze validadores**. O catálogo tem **81 entradas** contra as catorze de antes, e as quatro que a régua tinha reprovado saíram todas, cada uma com destino escrito.
