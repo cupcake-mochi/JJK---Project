@@ -2,7 +2,7 @@
 
 Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.32** · manual do Fundamento na **v7.8** · **doze peças de regra** e **dez validadores passando**.
+**Versão v0.36** · manual do Fundamento na **v7.8** · **doze peças de regra** e **doze validadores passando**.
 
 ---
 
@@ -12,7 +12,7 @@ O problema que ele existe para resolver não é "fazer um RPG de JJK": é **o me
 
 O coração é o **Fundamento**: um subsistema fechado e já validado que resolve técnica, feitiço, Melhoria, Restrição, Liberação Máxima, Expansão de Domínio e dano de alma por orçamento de pontos. Ele mora em `manual/` e é gerado por código. Tudo em `sistema/` é o que existe **em volta** dele — atributos, Caminhos, perícias, criação de personagem, descanso, aptidões.
 
-E o registro do **porquê** de cada decisão é tão importante quanto a regra: `logs/CHANGELOG.md` tem 32 versões de argumento, e é a única parte do projeto que não dá para reconstruir sozinho lendo o resto.
+E o registro do **porquê** de cada decisão é tão importante quanto a regra: `logs/CHANGELOG.md` tem 36 versões de argumento, e é a única parte do projeto que não dá para reconstruir sozinho lendo o resto.
 
 ## Por onde começar, se você acabou de clonar isto
 
@@ -29,7 +29,7 @@ E o registro do **porquê** de cada decisão é tão importante quanto a regra: 
 .
 ├── README.md              você está aqui
 ├── logs/
-│   ├── CHANGELOG.md                     o porquê de cada decisão, v0.1 a v0.32
+│   ├── CHANGELOG.md                     o porquê de cada decisão, v0.1 a v0.36
 │   └── CHANGELOG-manual-v6-para-v7.md   o changelog do manual, antes de ele entrar aqui
 ├── manual/
 │   ├── Fundamento-MANUAL-v7.docx        v7.8 — o manual gerado
@@ -42,9 +42,9 @@ E o registro do **porquê** de cada decisão é tão importante quanto a regra: 
     ├── 00-fundacao/                     os três pilares e as restrições do projeto
     ├── 01-pesquisa/                     dossiê de metodologia — a seção 8 lista as dez travas
     ├── 02-esqueleto/                    arquitetura: subsistemas e como se encaixam
-    ├── 03-mecanica/                     as doze peças de regra e os dez validadores
-    ├── 04-playtest/                     vazia. Zero sessões em 32 versões
-    ├── 05-material/                     vazia. Ficha e quick-start ainda não existem
+    ├── 03-mecanica/                     as doze peças de regra e os doze validadores
+    ├── 04-playtest/                     vazia. Zero sessões em 35 versões
+    ├── 05-material/                     a ficha, e o gerador dela. O quick-start ainda não
     ├── 99-arquivo/                      material morto, com LEIA-ME próprio
     └── skills/                          cópia de trabalho das quatro skills de apoio
 ```
@@ -80,7 +80,11 @@ python3 conferir-aptidoes.py      # a trava do refino, as três rotas do marco, 
 python3 conferir-expansao.py      # os gates da Expansão, a ordem, o preço em espaços
 python3 conferir-orcamento.py     # o somatório: todos os drenos de PE ao mesmo tempo
 python3 conferir-xp.py           # a curva, o abismo que fecha, e os alvos da Guilda
+python3 conferir-criacao.py      # a ficha de exemplo contra as fórmulas, e o que a criação cita
+python3 conferir-ficha.py        # a ficha de 05-material contra os catálogos das peças
 ```
+
+**Os dois últimos são de outra natureza, e vale saber por quê.** Os dez primeiros conferem **regra** — *a fórmula deriva certo?*. O `conferir-criacao.py` confere **instância** — *a ficha publicada na peça 8 obedece à fórmula?* —, e ele nasceu na v0.34 depois de aquela peça passar sete versões com a Defesa errada e a Trilha faltando, com os treze outros verdes o tempo todo. O `conferir-ficha.py` confere **material**: as 23 perícias, os 10 ofícios, os 5 Caminhos, as 15 Trilhas e as constantes do nível 2 que a ficha de `05-material/` imprime, contra as peças donas. Ficha errada não fica num `.md` que ninguém abre — ela vira personagem, em sete mesas ao mesmo tempo.
 
 E os dois do manual, que conferem número em vez de vocabulário:
 
@@ -103,11 +107,17 @@ Ela já matou mais de dez nomes que pareciam livres — três só na v0.28, e um
 ./subir.sh "o que mudou"
 ```
 
-Ele roda **os treze validadores**, mostra o que mudou, commita e dá push — e **se recusa a commitar se algum falhar**. Um commit que registra regra quebrada é pior que nenhum commit: daqui a três versões ninguém sabe em qual commit ela entrou.
+Ele roda **os quinze validadores**, mostra o que mudou, commita e dá push — e **se recusa a commitar se algum falhar**. Desde a v0.33 isso inclui uma trava nova: **subir a versão no README, no `ESTADO-ATUAL` ou no `LEIA-ME` sem escrever a entrada do `CHANGELOG` falha o `conferir-repositorio.py`.** A entrada do topo do CHANGELOG é o dono da versão do projeto. Um commit que registra regra quebrada é pior que nenhum commit: daqui a três versões ninguém sabe em qual commit ela entrou.
 
 Se a mensagem for longa, o assistente deixa ela pronta em `mensagem-de-commit.txt` e você roda `./subir.sh` sem argumento — ele usa o arquivo e apaga depois.
 
 > **O assistente não consegue commitar nesta pasta, e isso não tem conserto.** Ele lê, edita e roda os validadores normalmente, mas o `git commit` falha: o git finaliza cada objeto com *escreve temporário → `chmod` → `rename`*, e o mount pelo qual a pasta é exposta ao sandbox força permissão fixa e **rejeita o `chmod`** (`unable to set permission`). O objeto fica no disco pela metade — aparece no `ls` e não abre. Não é configuração do git; é como a pasta é montada. O commit é sempre seu.
+
+> **E o assistente também não consegue *ler* o git daqui — nem `status`, nem `log`, nem `fsck`.** *Medido na v0.33.* Todos os três saem com `fatal: loose object <sha> is corrupt`, e **o repositório está inteiro**: dos 241 objetos soltos, o `ls` mostra os 241 com tamanho certo e o `open()` devolve ENOENT em **66 deles** — a mesma falha de mount descrita abaixo, aplicada ao `.git/`. Do seu lado, fora do sandbox, o git funciona normalmente. **Não trate esse "corrupt" como repositório quebrado**, e não rode `git gc` nem `git fsck --full` por causa dele.
+>
+> Um efeito colateral que morde: `git status` rodado do sandbox cria um `.git/index.lock` que ele **não consegue apagar** depois (`Operation not permitted`), e um lock preso trava o `./subir.sh`. Se o subir.sh reclamar de lock, apague o arquivo do seu lado — ele é vazio e descartável. **O jeito de evitar é não rodar git do sandbox.**
+
+> **E o que dispara o sumiço tem nome, medido na v0.34: é a ferramenta de escrita, não o bash.** Arquivo que o **bash** grava, o bash lê de volta sempre. Arquivo que a ferramenta de escrita do assistente grava fica ENOENT para o bash com frequência — aconteceu seis vezes em duas versões, e o `README.md` e o `LEIA-ME.md` caíram juntos nas três últimas. **Consequência prática: validador e script novo se escrevem pelo bash**, com `cat > arquivo <<'EOF'`, senão eles nascem invisíveis para o próprio `python3`. Para `.md`, a ferramenta serve — só é preciso reconciliar com uma segunda escrita quando o sumiço acontecer.
 
 > **O mesmo mount às vezes perde um arquivo que ele mesmo acabou de gravar.** Aconteceu com este README na v0.28: `stat` e `ls` mostravam tamanho e inode certos, e `open()` devolvia `ENOENT` — para o `head`, para o Python e para o `git` igualmente, enquanto os vizinhos na mesma pasta abriam normalmente. **O arquivo estava íntegro no disco**; quem não enxergava era o mount do sandbox. Aconteceu de novo na v0.29, com o `ESTADO-ATUAL.md`. Se um validador acusar arquivo sumido que você está vendo na tela, é isto — **qualquer escrita nova no arquivo reconcilia o mount**, e uma edição de uma linha basta. O conteúdo no seu disco nunca esteve em risco.
 
@@ -164,13 +174,15 @@ Isto não é preferência de estilo: é o que evitou os erros que estão registr
 6. **Antes de aceitar um preço, veja se o termo que ele usa existe.** A Passiva Casca cobrava por *"dano físico"*, e a expressão aparecia **uma vez no manual inteiro — dentro dela mesma**. Hoje isso é o `conferir-manual.py`.
 7. **Um preço se mede somado, nunca sozinho.** *Achado na v0.30, e ele derrubou três versões de método.* Toda conta de custo do projeto media uma peça contra o bolso inteiro — o que descreve um personagem que só faz aquilo. Uma ficha de verdade conjura, segura o que estiver segurando, e leva dano de alma que encarece feitiço, tudo ao mesmo tempo. E o erro contrário é igualmente fácil: a primeira correção supôs conjurar **toda rodada**, que nunca coube. Hoje isso é o `conferir-orcamento.py`.
 8. **Uma checagem não pode se medir contra a própria constante.** *Três exemplares em três versões:* a dominância que não olhava o eixo dos feitiços (v0.28), o upkeep com `1.0` escrito na mão (v0.30), e o teto de níveis por missão comparado contra si mesmo (v0.32). Nos três, perturbar o número saía **verde**. O conserto é sempre separar *a regra aplicada* do *limite de design*, e checar as duas.
-9. **Um número que mora em dois documentos vai divergir.** Não é "se", é "quando" — e cada cópia precisa de um dono declarado ou de um validador que compare as duas. O `conferir-repositorio.py` guardava `sete` no código e quebrou quando o oitavo validador entrou; o manual e o projeto contavam feitiço por calendários diferentes desde sempre. **Um número, um dono.**
+9. **Um número que mora em dois documentos vai divergir.** Não é "se", é "quando" — e cada cópia precisa de um dono declarado ou de um validador que compare as duas. O `conferir-repositorio.py` guardava `sete` no código e quebrou quando o oitavo validador entrou; o manual e o projeto contavam feitiço por calendários diferentes desde sempre. **Um número, um dono.** *E o exemplar mais caro apareceu na v0.33:* a **capa do manual** passou três versões dele e sete do projeto dizendo *"Versão 7.5"* — a única cópia que sai do repositório e vai para a mão de um jogador foi a última a ser conferida. Hoje a checagem 4 do `conferir-repositorio.py` confere onze cópias contra três donos.
 
 ## O que existe, e o que não existe
 
 **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas**, por seis das nove rotas de Origem — e sem nenhum buraco de regra que morda nessa faixa.
 
-**O que não existe, e faz falta:** a tabela de XP (que é a trava nº 1 de mundo compartilhado), uma tabela de progressão consolidada, a ficha de personagem, o quick-start jogável, e o playtest. `04-playtest/` está vazia: **zero sessões em 32 versões, e todo número do sistema é previsão.**
+**O que não existe, e faz falta:** uma tabela de progressão consolidada, o quick-start jogável, e o playtest. `04-playtest/` e `05-material/` estão as duas vazias: **zero sessões em 32 versões, e todo número do sistema é previsão.**
+
+A tabela de XP saiu dessa lista na v0.32 — ela era a trava nº 1 de mundo compartilhado, ficou aberta trinta versões, e hoje é a peça 12. **Com ela, o que falta para alguém sentar na mesa deixou de ser regra e passou a ser material.**
 
 A seção *"O que existe e o que não existe, medido"* do `ESTADO-ATUAL.md` tem a conta.
 

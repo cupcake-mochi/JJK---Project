@@ -2,7 +2,7 @@
 
 Atualizado em 11/08/2026. Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.32.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **doze peças escritas** e **dez validadores**. Manual do Fundamento na **v7.8**, com a Expansão de Domínio escrita, e o catálogo de aptidões com **dez das catorze entradas fechadas**. **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas** — por seis das nove rotas de Origem, e agora sem nenhum buraco de regra que morda nessa faixa.
+**Versão v0.36.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **doze peças escritas** e **doze validadores**. Manual do Fundamento na **v7.8**, com a Expansão de Domínio escrita, e o catálogo de aptidões com **dez das catorze entradas fechadas**. **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas** — por seis das nove rotas de Origem, e agora sem nenhum buraco de regra que morda nessa faixa.
 
 ## Como retomar
 
@@ -22,7 +22,11 @@ python3 conferir-aptidoes.py      # a trava do refino, as três rotas do marco, 
 python3 conferir-expansao.py      # os gates da Expansão, a ordem, o preço em espaços
 python3 conferir-orcamento.py     # o somatório: todos os drenos de PE ao mesmo tempo
 python3 conferir-xp.py           # a curva, o abismo que fecha, e os alvos da Guilda
+python3 conferir-criacao.py      # a ficha de exemplo contra as fórmulas, e o que a criação cita
+python3 conferir-ficha.py        # a ficha de 05-material contra os catálogos das peças
 ```
+
+**O décimo primeiro é de outra natureza.** Os dez primeiros conferem **regra**; ele confere **instância** — se a ficha publicada na peça 8 obedece às fórmulas que as outras peças decidiram. Nasceu na v0.34 porque os dois erros daquela versão passaram por baixo de todos os outros: a peça 8 é a única que produz uma ficha inteira, e ela envelhece toda vez que outra peça mexe num número.
 
 O quinto tem um modo de triagem, para rodar **antes** de batizar qualquer coisa:
 
@@ -113,15 +117,24 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/09-origens.md` | as cinco Origens, a sub-origem e as duas especiais |
 | `03-mecanica/10-descanso-e-recuperacao.md` | os dois descansos, ambiente propício, exaustão e os quatro relógios |
 | `03-mecanica/11-aptidoes-e-refino.md` | o eixo do controle: o refino, o terceiro eixo do marco, o catálogo e o Limiar |
+| `03-mecanica/12-experiencia-e-progressao.md` | a curva de XP em degraus, o teto de um nível por missão, o retorno decrescente e o limiar do nível 20 |
 | `03-mecanica/conferir-nomes.py` | o vocabulário do manual, extraído do `.docx`, contra todo nome que o projeto batizou |
 | `03-mecanica/conferir-manual.py` | a direção contrária: o manual contra o vocabulário e os números do projeto |
 | `03-mecanica/conferir-aptidoes.py` | a trava do refino, as três rotas do marco, o teto de Passivas e o kokusen |
 | `03-mecanica/conferir-expansao.py` | os dois gates da Expansão, a ordem entre os degraus, o preço em espaços e a fragilidade da curva |
+| `03-mecanica/conferir-orcamento.py` | o somatório: todos os drenos de PE ao mesmo tempo, e se todo preço tem número |
+| `03-mecanica/conferir-xp.py` | a curva, o abismo que fecha, e se a regra ainda entrega o tempo que a Guilda pediu |
+| `03-mecanica/conferir-criacao.py` | **a instância, não a regra**: a ficha de exemplo da peça 8 contra as fórmulas, a proteção da aptidão gratuita, a Trilha na criação e se o catálogo citado existe |
+| `03-mecanica/conferir-ficha.py` | **o material contra a regra**: as 23 perícias, os 10 ofícios, os 5 Caminhos, as 15 Trilhas e as constantes do nível 2 que a ficha imprime, contra as peças donas |
+| `05-material/gerador-ficha/` | o gerador da ficha (Node: `node make.js`), e os dois `.docx` que ele produz |
+| `conferir-repositorio.py` | a árvore, as referências mortas, e os números que moram em mais de um documento |
 | `99-arquivo/` | material morto, com LEIA-ME próprio. Não leia de lá para escrever peça nova |
 
 **Duas peças foram parcialmente substituídas e trazem o aviso no topo:** as seções 3 e 4 da peça 4 saíram para a peça 7, e a seção 3 e o quadro de Caminhos da peça 5 saíram para a peça 6.
 
-O manual do Fundamento **v7.6** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 328 parágrafos e 76 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` continua na v7.4**, porque ele é exportado à mão.
+O manual do Fundamento **v7.8** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 363 parágrafos e 84 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` continua na v7.4**, porque ele é exportado à mão.
+
+**Quem é dono da versão do manual:** a primeira linha de `manual/gerador/COMO-USAR.txt`. Toda outra cópia — a capa em `partA.js`, este arquivo, o `README.md`, o `LEIA-ME.md` e o `arquitetura.md` — é cópia, e o `conferir-repositorio.py` falha se alguma divergir. *Ele nasceu na v0.33, depois de a capa do manual passar três versões dizendo 7.5.*
 
 ### O manual não é lei, e saber disso muda como se lê
 
@@ -338,7 +351,9 @@ O d10 fica grande de propósito: a ameaça é calibrada contra o nível do grupo
 
 ### Três decisões que saíram junto, e que não são da peça de aptidões
 
-**A Trilha vem no nível 2, e já rende ali.** Três lugares do material dizem que ela *"não afeta o nível 2, afeta a primeira subida"* — e o motivo da confusão é o mesmo dos feitiços: **toda ficha nasce no nível 2**, e o nível 1 é quem ainda está entrando no mundo jujutsu, civil ou sem técnica desperta. A Trilha é identidade, como o Caminho, e nasce com o personagem. Corrigir na peça 6, na peça 8 e aqui.
+**A Trilha vem no nível 2, e já rende ali.** Três lugares do material diziam que ela *"não afeta o nível 2, afeta a primeira subida"* — e o motivo da confusão é o mesmo dos feitiços: **toda ficha nasce no nível 2**, e o nível 1 é quem ainda está entrando no mundo jujutsu, civil ou sem técnica desperta. A Trilha é identidade, como o Caminho, e nasce com o personagem.
+
+> **Aplicado na v0.34, e ficou sete versões parado.** A decisão está escrita aqui desde a v0.27 e terminava em *"corrigir na peça 6, na peça 8 e aqui"* — e os três continuavam dizendo o contrário. Este documento chegou a se contradizer sozinho: esta seção dizia que a Trilha vem no 2, e duas tabelas mais abaixo diziam que ela não afeta o 2. **Decisão registrada não é decisão aplicada**, e nada no projeto conferia a diferença.
 
 **A Expansão de Domínio tem duas peças: Acerto e Efeito.** O **Acerto** é o que a expansão garante que acontece; o **Efeito** é o que ela permite fazer lá dentro. A incompleta resolve o Acerto por rolagem; **a completa, com barreira, resolve por acerto garantido** — e isso já é palavra do manual, que resolve feitiço por *Acerto · Teste de Resistência · Automático*.
 
@@ -459,29 +474,28 @@ Nenhum validador pega estes — eles vieram de rodar os testes da skill de desig
 
 ## O que existe e o que não existe, medido
 
-Vale ter isso à mão, porque o material é grande e engana. **60.100 palavras**, das quais **25.600** nas dez peças de mecânica e **22.000 no CHANGELOG** — mais de um terço do projeto é o registro do porquê, e não o jogo. Mais **2.070 linhas** nos seis validadores.
+Vale ter isso à mão, porque o material é grande e engana. *Medido na v0.33, e é retrato e não número fechado — reconte antes de citar.* **101.000 palavras** contando `sistema/` (fora o `99-arquivo/`), o CHANGELOG e o README, das quais **34.200** nas doze peças de mecânica e **32.000 no CHANGELOG** — quase um terço do projeto é o registro do porquê, e não o jogo. Mais **3.880 linhas** nos dez validadores de `03-mecanica/`, e 4.640 contando os treze.
 
 **O que existe:** as regras, com conta, com validador e com o motivo de cada número.
 
-**Uma ficha de nível 2 precisa de dezessete coisas. Doze existem, e as cinco que faltam não mordem nessa faixa** — *medido na v0.26, depois que os quatro buracos saíram:*
+**Uma ficha de nível 2 precisa de dezessete coisas. Treze existem, e as quatro que faltam não mordem nessa faixa** — *medido na v0.26, depois que os quatro buracos saíram, e recontado na v0.32, quando a tabela de XP saiu desta lista para a peça 12:*
 
 | o que falta | por que não trava uma missão de nível 2 |
 |---|---|
-| Tabela de proteção | a ficha nasce com proteção 0 |
+| Tabela de proteção | a ficha nasce com a proteção 1 de cobrir-se de energia, e uniforme só entra depois |
 | Regra de Pactos | é opcional na criação |
-| Trilhas | não afetam o nível 2 |
+| Trilhas com número | a Trilha é escolhida no nível 2, mas o que ela entrega chega depois |
 | Aptidões e degraus de refino | só valem do nível 6 em diante |
-| Tabela de XP | uma missão só não precisa subir ninguém |
 
 **O que não existe, e faz falta para alguém jogar:**
 
 | falta | tamanho do buraco |
 |---|---|
-| **Tabela de XP** | é a **trava nº 1** de mundo compartilhado — *"XP tabelado, nunca marco narrativo"* — e ela nunca foi escrita. Sem ela, cinco mestres dão progressão diferente, que é o problema que o sistema existe para resolver |
-| **Tabela de progressão consolidada** | o que você ganha em cada nível está espalhado por quatro documentos: marcos na peça 2, maestria na peça 1, refino no `arquitetura.md`, Classe e feitiço no manual |
-| **Ficha de personagem** | `05-material/` está vazia. Não há onde escrever o personagem que a peça 8 ensina a montar |
-| **Quick-start jogável** | decidido na v0.2 como a estrutura do material final. Não existe. As dez peças são argumento de design, não texto de regra: ninguém senta na mesa com elas |
-| **Playtest** | `04-playtest/` está vazia. Zero sessões em 26 versões. **Todo número do sistema é previsão** |
+| **Tabela de progressão consolidada** | o que você ganha em cada nível está espalhado por cinco documentos: marcos na peça 2, maestria na peça 1, refino no `arquitetura.md`, XP na peça 12, Classe e feitiço no manual |
+| **Quick-start jogável** | decidido na v0.2 como a estrutura do material final. Não existe. As doze peças são argumento de design, não texto de regra: ninguém senta na mesa com elas |
+| **Playtest** | `04-playtest/` está vazia. Zero sessões em 35 versões. **Todo número do sistema é previsão** |
+
+*A **tabela de XP** saiu desta lista na v0.32.* Ela era a trava nº 1 de mundo compartilhado e ficou aberta trinta versões; hoje é a peça 12, com o `conferir-xp.py` em cima dela.
 
 A skill `redacao-acessivel-rpg` existe exatamente para a travessia de "nota de design" para "texto de regra", e nunca foi rodada contra o material.
 
@@ -489,7 +503,7 @@ A skill `redacao-acessivel-rpg` existe exatamente para a travessia de "nota de d
 
 ## Onde estamos, e o que falta
 
-A ordem de construção é a da seção 6 do `arquitetura.md`. Estamos no passo 5 de 6.
+A ordem de construção é a da seção 6 do `arquitetura.md`, e ela **acabou** — os seis passos estão fechados.
 
 | # | peça | estado |
 |---|---|---|
@@ -498,9 +512,9 @@ A ordem de construção é a da seção 6 do `arquitetura.md`. Estamos no passo 
 | 3 | Teste fora de combate | **fechado** (peças 4 e 7) |
 | 4 | Caminho e combate sem feitiço | **fechado** (peças 5 e 6) |
 | 5 | Criação de personagem | **fechado** (peça 8) |
-| 6 | **Descanso e progressão fora de feitiço** | **a próxima da lista original** |
+| 6 | Descanso e progressão fora de feitiço | **fechado** (peças 10 e 12) — descanso na v0.23, progressão na v0.31 e v0.32 |
 
-A ordem de construção do `arquitetura.md` acabou. O que falta agora, na ordem em que travam umas às outras:
+O que falta agora, na ordem em que travam umas às outras:
 
 **A ordem foi decidida simulando uma campanha que começa amanhã**, e não por tamanho de peça. Cada linha é o momento em que o jogo trava:
 
@@ -518,7 +532,51 @@ A ordem de construção do `arquitetura.md` acabou. O que falta agora, na ordem 
 >
 > O que falta para alguém sentar na mesa não é regra — é **material**: `05-material/` está vazia, não existe ficha de personagem nem quick-start, e as doze peças são argumento de design e não texto de mesa. **`04-playtest/` está vazia há 32 versões, e todo número do sistema continua sendo previsão.**
 >
-> A rota decidida com o Mizuki foi: v7.7 → anti-domínio → XP → **validação e polimento** → ficha e quick-start. Os três primeiros saíram.
+> A rota decidida com o Mizuki foi: v7.7 → anti-domínio → XP → **validação e polimento** → ficha e quick-start. Os quatro primeiros saíram — o polimento foi a v0.33, e **a próxima coisa é a ficha e o quick-start**.
+
+## A fila decidida com o Mizuki na v0.36
+
+Quatro peças, e a ordem é de **dependência**, não de tamanho. A ordem que ele levantou era Legados → Caminhos → Itens → Invocações; a peça de Caminhos foi para o fim porque **duas das cinco árvores dependem das outras duas peças**.
+
+| # | peça | destrava | depende de |
+|---|---|---|---|
+| 1 | **Legados** — a régua de magnitude, e ~5 por Origem | nada, e é a mais barata | — |
+| 2 | **Equipamento** — armas, escudos, uniformes | a Vanguarda, e a **Técnica Marcial** (duas das três rotas de Origem mortas) | — |
+| 3 | **Invocações** — o sistema de criação | o Evocador | — |
+| 4 | **Caminho, Trilhas e subtrilhas** — a árvore de cada um | o resto | **2 e 3** |
+
+### Decidido — o Caminho continua sem dar dados de dano
+
+*A regra da peça 5 §4 foi desafiada e confirmada.* Três das cinco árvores propostas pediam dado de dano — a tabela de desarmado do Bastião, a mecânica de arma da Vanguarda e o atributo somado no dano do Emanador. **A regra fica, e as árvores se desenham dentro dela.**
+
+O motivo é o pilar 1, e está escrito na peça 5: *"se o Caminho desse dano, dois personagens do mesmo Caminho começariam a se parecer, e a técnica que cada um escreveu perderia espaço."* O que sobra para o Caminho conceder é a lista permitida — posicionamento, alvo, duração, recuperação, troca do fixo do acerto por atributo, e exceção estreita e paga na economia de ação.
+
+### O que sobrevive de cada proposta, e o que não
+
+| Caminho | o que passa | o que não passa, e por quê |
+|---|---|---|
+| **Guia** | **tudo.** Auxílio, estender, reposicionar e recuperar são literalmente a lista do permitido. E fecha a pergunta aberta desde a v0.24: *o que Elo, Sutura e Perímetro valem contra um golpe por rodada* | — |
+| **Bastião** | socar como ação bônus (*"exceção estreita e paga na economia de ação"*); agarrar, prender e forçar reposicionamento | **a tabela de desarmado tipo monge** é dado de dano. O dado do soco é **equipamento**, e o Caminho mexe no que se faz com ele |
+| **Vanguarda** | o que se **faz** com a arma: alcance, reposicionamento forçado, troca de alvo, exceção na economia de ação. Proezas passivas, se não forem dado | **o dado de cada arma é equipamento**, não Caminho. Por isso ela vem depois da peça 2 |
+| **Emanador** | **metade já existe:** a peça 6 §5 concede *trocar o fixo de 2 do acerto de conjuração por Inteligência ou Essência*. Isso é acerto, e é neutro porque os dois lados crescem +3 | **somar atributo no dano do feitiço.** Ele quebra a paridade conjurador‑guerreiro, que está calibrada em `d20 + 3` nos dois desde o nível 2 |
+| **Evocador** | benefício que não seja ação nem dano | depende da peça 3. E a trava é dura: *você e todas as suas invocações somados entregam **uma** Rotina* — mais corpos agindo por rodada é o que quebra todo sistema d20 |
+
+**Duas coisas para medir antes de escrever, não depois:**
+
+- **A reação de RD do Bastião encosta em cobrir-se de energia**, que já dá RD de `1,5 × refino` por 2 PE. Ou uma delas domina a outra, ou são a mesma peça com dois nomes. Medir as duas juntas.
+- **Os *pontos de feitiço* do Emanador são moeda nova ao lado do PE.** O `conferir-orcamento.py` existe porque o bolso já é apertado — qualquer moeda nova passa por ele antes de ter número.
+
+### O alerta da peça de Legados
+
+**O problema registrado não é quantidade, é magnitude.** Hoje são **catorze**, dois por Origem, e a faixa entre eles é enorme: de **Irmãos** (sente outro Feto por perto, zero em rolagem) a **Não Sou Gente** (imune a veneno, doença e ao que ataca corpo humano — apaga uma família inteira de ameaça e boa parte do TR Vigor).
+
+A trava escrita — *"não produz dano e não escala com nível"* — **não pega imunidade.** Ir de catorze para vinte e cinco sem escrever a régua de magnitude antes multiplica o defeito por quase três.
+
+Então a peça de Legados tem duas metades, nesta ordem: **a régua primeiro, o catálogo depois.** E a expansão em si já estava endossada pela própria peça 9: *"se o Legado parecer decoração, o conserto é dar mais opções por Origem, não mais Legados por ficha."*
+
+### E um padrão que vale saber antes de começar
+
+**As quatro peças caem quase todas em 5, 6 e 9 — que são as que não têm validador.** A peça 8 ganhou o dela na v0.34, depois de sete versões com a Defesa errada. As outras três continuam descobertas, e é de lá que saíram os dois erros daquela versão.
 
 **Depois dessas quatro**, e não antes:
 
@@ -554,8 +612,8 @@ E uma coisa solta que não é peça: **o nome do sistema**.
 | falta | como se contorna |
 |---|---|
 | Regra de Pactos | pacto na criação só com aprovação do mestre e preço escrito na ficha |
-| Tabela de proteção | a ficha nasce com proteção 0. Não trava a criação, trava a segunda sessão |
-| Trilhas | não afetam o nível 2, afetam a primeira subida |
+| Tabela de proteção | a ficha nasce com a proteção 1 de cobrir-se de energia. Não trava a criação, trava a segunda sessão — e é ela que decide se vale vestir alguma coisa, já que uniforme **desliga** a proteção de energia |
+| Trilhas com número | a Trilha é escolhida na criação, junto do Caminho. O que ela entrega é a peça de Trilhas |
 
 ## Como o Mizuki gosta de trabalhar
 
@@ -565,12 +623,8 @@ E uma coisa solta que não é peça: **o nome do sistema**.
 
 Fase por fase, com o plano à vista antes de executar. Número vem de conta rodada, não de intuição. Documento não pode ter cara de saída de IA. Antes de fechar versão, revisão cética — inclusive contra o que eu mesmo escrevi. Material superado vai para o `99-arquivo/`, não fica com aviso em cima.
 
-Cinco lições que custaram erro e valem repetir:
+**As lições que custaram erro moram no `README.md`, e só lá.** São nove, e a seção se chama *"Nove lições que custaram erro"*.
 
-- Numa rolagem disputada, os dois lados precisam crescer no **mesmo ritmo**. Verificar invariância contra o nível não basta: tudo que cresce numa campanha entra no teste.
-- **"Esse número já inclui o que eu estou somando nele?"** Errou em v0.16, v0.17, v0.19, v0.24 e v0.26 — a última foi dizer que o PE cresce mais rápido que a vida, quando o que sobe é a razão e não o passo.
-- **Contagem não é valor.** Meça peso de mesa, não quantidade.
-- Antes de batizar qualquer coisa, cheque colisão **nas duas direções** — contra o manual do Fundamento e contra o resto do material do projeto. Hoje isso é o `conferir-nomes.py`; já pegou dez.
-- Tensão de preço às vezes é lacuna de texto disfarçada. Antes de mexer no número, confira se a regra diz o que você acha que ela diz. **A v0.26 pagou essa de novo:** a palavra *"concentrado"* dentro do Carregar era o que fazia duas regras diferentes parecerem a mesma.
+*Até a v0.32 este arquivo guardava a própria cópia da lista.* Ela tinha parado em cinco enquanto o README chegava a nove, e a lição nº 2 daqui ainda listava *"v0.16, v0.17, v0.19, v0.24 e v0.26"* quando o README já contava sete versões. Duas cópias, duas respostas — que é a lição nº 9 acontecendo dentro do documento que existe para avisar sobre ela. Uma lista, um dono.
 
-E uma que a v0.26 acrescentou: **antes de aceitar um preço, veja se o termo que ele usa existe.** A Casca cobrava por *"dano físico"*, e `dano físico` aparecia uma vez no manual inteiro — dentro dela mesma. É o que o `conferir-manual.py` procura agora.
+As três que a semana da v0.28 à v0.32 acrescentou, e que valem ler antes de escrever conta nova: **um preço se mede somado, nunca sozinho** (nº 7); **uma checagem não pode se medir contra a própria constante** (nº 8, que apareceu três vezes em três versões); e **um número que mora em dois documentos vai divergir** (nº 9).

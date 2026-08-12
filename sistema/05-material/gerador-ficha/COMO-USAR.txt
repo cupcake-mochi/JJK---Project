@@ -1,0 +1,36 @@
+GERADOR DA FICHA — RPG da Guilda, ficha de nivel 2
+
+  npm install docx        (ou use o node_modules do manual/gerador)
+  node make.js
+  cp *.docx ..
+
+Sai ficha-em-branco.docx e ficha-exemplo-kaori.docx, tres paginas cada:
+  1. FICHA      identidade, atributos, os numeros, TRs, 23 pericias, 10 oficios
+  2. TECNICA    Regra, descricao, Familias, Selo, Passiva Livre, os 5 feiticos
+  3. LORE       aparencia, historia, traco, Legado, lacos, instituicao, pacto,
+                e uma tira curta de referencia
+
+ONDE MEXER
+  dados.js    os catalogos e as constantes do nivel 2. NENHUM valor daqui e
+              autoridade — a autoridade e a peca de 03-mecanica, e o
+              conferir-ficha.py compara os dois. Mexeu numa peca? Mexa aqui e
+              rode o validador.
+  helpers.js  paleta (ameixa 741B47, a mesma do manual), campo, bloco, tabela
+  ficha.js    as tres paginas. UMA funcao por pagina, e ela monta tanto a
+              ficha em branco quanto a preenchida — o que muda e o objeto que
+              entra. Se fossem dois arquivos, eles divergiriam.
+  make.js     a Kaori (todo valor sai da peca 8) e a montagem do documento
+
+O LAYOUT CABE EM 3 PAGINAS, E ISSO E FRAGIL
+  As duas versoes fecham em 3 paginas exatas. A em branco e a mais alta, porque
+  linha vazia ocupa altura. Se voce acrescentar campo, confira:
+
+    soffice --headless --convert-to pdf ficha-em-branco.docx
+    pdfinfo ficha-em-branco.pdf | grep Pages
+
+  Tem que dar 3. Deu 4, alguma coisa transbordou.
+
+OS FEITICOS DA KAORI ESTAO EM BRANCO DE PROPOSITO
+  A peca 8 nao lista os dela, e inventar tres feiticos aqui seria escolha de
+  sabor — que e do Mizuki. Quando eles forem escritos, entram no make.js e o
+  pac7.py do manual e quem confere se a montagem fecha no orcamento da Classe 1.

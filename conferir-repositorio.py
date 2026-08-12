@@ -11,14 +11,28 @@ os changelogs e a pasta do sistema — e havia 104 referencias internas cruzadas
 Uma referencia quebrada nao falha nenhum validador: ela so' aparece seis meses
 depois, quando alguem abre o projeto em outro computador e nao acha o arquivo.
 
-Tres checagens:
+Quatro checagens:
   1. ESTRUTURA — as pastas e os arquivos que o README promete existem.
   2. REFERENCIA MORTA — todo caminho citado em .md e .py resolve para um arquivo
      de verdade.
   3. ESTRUTURA ANTIGA — nada continua apontando para RPG-JJK/ ou para o manual na
      raiz, que era onde eles moravam antes.
+  4. NUMERO COM DOIS DONOS — a versao do projeto e a versao do manual moram cada
+     uma em meia duzia de arquivos. Cada uma tem UM dono declarado, e toda copia
+     e' conferida contra ele.
+
+A checagem 4 nasceu na v0.33 e e' a licao no 9 aplicada a ela mesma. O que ela
+teria pego, se existisse:
+  - a capa do .docx dizendo "Versao 7.5" com o projeto na v7.8, por tres versoes
+    do manual seguidas. E a capa e' a unica copia que um jogador ve.
+  - o sistema/LEIA-ME.md parado na v0.27, anunciando onze pecas, sete validadores
+    e manual v7.6, cinco versoes depois.
+  - o manual/matematica/COMO-USAR.txt dizendo v7.6.
+  - o arquitetura.md dizendo v7.6.
 
 Roda da raiz do repositorio, sem argumento. Sai com codigo 1 se algo quebrar.
+Ele NAO precisa de python-docx e NAO le o .docx — entao, ao contrario dos tres
+de 03-mecanica, nao existe jeito de ele sair verde tendo pulado checagem.
 """
 import os
 import re
@@ -146,7 +160,11 @@ IGNORAR = re.compile(
     r'^\d+/\d+$|'
     # arquivo que existe so' as vezes, de proposito: o assistente cria quando
     # deixa uma mensagem de commit pronta, e o subir.sh apaga depois de usar
-    r'^mensagem-de-commit\.txt$'
+    r'^mensagem-de-commit\.txt$|'
+    # o lock do git: existe so' enquanto um comando roda, e o README o cita
+    # justamente para explicar o caso em que ele fica preso e trava o subir.sh.
+    # Se ele ESTIVER no disco, e' o problema, nao a referencia.
+    r'^\.git/index\.lock$'
 )
 
 # todo nome de arquivo que existe na arvore, para resolver citacao solta em prosa
@@ -230,7 +248,16 @@ for base, dirs, files in os.walk(RAIZ):
                 or os.path.basename(base) == 'logs'
                 or os.path.abspath(caminho) == os.path.abspath(__file__)):
             continue   # historico, e o proprio codigo que procura os padroes
-        txt = open(caminho, encoding='utf-8', errors='ignore').read()
+        # O mount do sandbox as vezes lista um arquivo que ele nao consegue abrir
+        # (ENOENT com ls e stat certos — esta no README, quatro vezes em seis
+        # versoes). Aqui isso derrubava o validador com traceback, que esconde o
+        # resultado das outras checagens. Vira aviso: o arquivo esta no disco.
+        try:
+            txt = open(caminho, encoding='utf-8', errors='ignore').read()
+        except FileNotFoundError:
+            aviso(f'{rel(caminho)} foi listado e nao abriu — e o mount, nao o '
+                  f'arquivo. Reescreva ele e rode de novo')
+            continue
         for rx, motivo in ANTIGO.items():
             for m in re.finditer(rx, txt):
                 achou += 1
@@ -242,6 +269,105 @@ if achou == 0:
 
 
 # --------------------------------------------------------------------------
+bloco('4. NUMERO COM DOIS DONOS — as copias batem com o dono?')
+
+def ler(caminho):
+    with open(os.path.join(RAIZ, caminho), encoding='utf-8', errors='ignore') as fh:
+        return fh.read()
+
+
+def confere(rotulo, dono_arq, dono_rx, copias):
+    """Le o valor do dono e exige que toda copia diga a mesma coisa.
+
+    O valor NAO fica escrito aqui. Se ficasse, este validador viraria mais uma
+    copia para sair de sincronia — que e' o defeito que ele existe para pegar,
+    e que ele mesmo ja teve quando guardava 'sete' validadores no codigo.
+    """
+    m = re.search(dono_rx, ler(dono_arq), re.MULTILINE)
+    if not m:
+        erro(f'{rotulo}: nao achei o valor em {dono_arq}, que e o DONO dele. '
+             f'Se o arquivo mudou de forma, esta checagem parou de conferir')
+        return
+    dono = m.group(1)
+    print(f'\n  {rotulo}: o dono e {dono_arq} e ele diz "{dono}".')
+    for arq, rx, oque in copias:
+        if not os.path.exists(os.path.join(RAIZ, arq)):
+            erro(f'{rotulo}: {arq} nao existe, e ele deveria carregar uma copia')
+            continue
+        achados = re.findall(rx, ler(arq))
+        if not achados:
+            erro(f'{rotulo}: nao achei em {arq} ({oque}) — ou a copia sumiu, ou '
+                 f'ela mudou de forma e esta checagem parou de olhar para ela')
+            continue
+        fora = sorted({a for a in achados if a != dono})
+        if fora:
+            erro(f'{rotulo}: {arq} ({oque}) diz {fora} e o dono diz "{dono}"')
+        else:
+            print(f'    [x] {arq} — {oque}')
+
+
+# --- a versao do projeto. Dono: a entrada do topo do CHANGELOG. --------------
+# Ela e a unica que nao da para escrever errado sem querer: a entrada so existe
+# depois de a versao fechar.
+confere(
+    'VERSAO DO PROJETO',
+    'logs/CHANGELOG.md', r'^## \[(\d+\.\d+)\]',
+    [('README.md', r'\*\*Versão v(\d+\.\d+)\*\*', 'a linha de abertura'),
+     ('sistema/ESTADO-ATUAL.md', r'\*\*Versão v(\d+\.\d+)\.\*\*', 'a linha de abertura'),
+     ('sistema/LEIA-ME.md', r'\*\*v(\d+\.\d+)\.\*\* Fases', 'a secao "Versao atual"')],
+)
+
+# --- a versao do manual. Dono: a primeira linha do COMO-USAR.txt do gerador. -
+# Por que o gerador e nao o .docx: o .docx e SAIDA. Quando os dois discordam,
+# quem esta errado e a capa, e o conserto e regerar — foi exatamente o que
+# aconteceu na v0.33, com a capa tres versoes atras do resto do projeto.
+confere(
+    'VERSAO DO MANUAL',
+    'manual/gerador/COMO-USAR.txt', r'GERADOR DO MANUAL — Fundamento v(\d+\.\d+)',
+    [('manual/gerador/partA.js', r'Versão (\d+\.\d+)', 'a CAPA do manual gerado'),
+     ('manual/matematica/COMO-USAR.txt', r'MATEMÁTICA — Fundamento v(\d+\.\d+)', 'o cabecalho'),
+     ('README.md', r'manual do Fundamento na \*\*v(\d+\.\d+)\*\*', 'a linha de abertura'),
+     ('sistema/ESTADO-ATUAL.md', r'manual do Fundamento \*\*v(\d+\.\d+)\*\*', 'a secao do manual'),
+     ('sistema/LEIA-ME.md', r'Fundamento está na \*\*v(\d+\.\d+)\*\*', 'a secao "Versao atual"'),
+     ('sistema/02-esqueleto/arquitetura.md', r'O manual v(\d+\.\d+) é um subsistema', 'a abertura')],
+)
+
+# --- a contagem de pecas e validadores, nos outros dois documentos de entrada.
+# A checagem 1 ja compara o README com a pasta. Estes dois tinham a mesma copia
+# e ninguem olhava: o LEIA-ME passou cinco versoes dizendo onze e sete.
+print()
+for arq, rx, oque in (
+    ('sistema/ESTADO-ATUAL.md',
+     r'\*\*(\S+) peças escritas\*\* e \*\*(\S+) validadores\*\*', 'a linha de abertura'),
+    ('sistema/LEIA-ME.md',
+     r'\*\*(\S+) peças escritas e (\S+) validadores passando\*\*', 'a secao "Versao atual"'),
+):
+    m = re.search(rx, ler(arq))
+    if not m:
+        erro(f'CONTAGEM: nao achei em {arq} ({oque}) a linha que conta as pecas e '
+             f'os validadores — se ela mudou de forma, esta checagem parou de conferir')
+        continue
+    ok = True
+    for rotulo, palavra, achado in (('pecas', m.group(1), len(pecas)),
+                                    ('validadores', m.group(2), len(vals))):
+        dito = por_extenso(palavra)
+        if dito is None:
+            ok = False
+            erro(f'CONTAGEM: {arq} escreve "{palavra}" {rotulo} e eu nao sei ler '
+                 f'esse numero por extenso — acrescente ele ao mapa NUMERO')
+        elif dito != achado:
+            ok = False
+            erro(f'CONTAGEM: sao {achado} {rotulo} na pasta e {arq} diz "{palavra}"')
+    if ok:
+        print(f'  [x] {arq} — diz {m.group(1)} pecas e {m.group(2)} validadores, '
+              f'e a pasta concorda')
+
+print()
+print('  Um numero, um dono. Toda copia acima e conferida contra ele, e nenhuma')
+print('  delas fica escrita dentro deste validador.')
+
+
+# --------------------------------------------------------------------------
 print()
 print('=' * 88)
 if FALHAS:
@@ -249,7 +375,7 @@ if FALHAS:
     for e in FALHAS:
         print('   -', e)
     sys.exit(1)
-print('>>> TUDO OK — a arvore esta inteira, toda referencia resolve, e nada aponta')
-print('    para a estrutura antiga.')
+print('>>> TUDO OK — a arvore esta inteira, toda referencia resolve, nada aponta')
+print('    para a estrutura antiga, e todo numero de dois donos bate com o dono.')
 if AVISOS:
     print(f'    {len(AVISOS)} aviso(s) acima, que nao falham.')

@@ -6,6 +6,299 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.36] — 2026-08-11
+
+Sem regra nova e sem número novo: esta versão **fecha uma pergunta e ordena quatro peças**. Ela existe porque a pergunta ia voltar, e porque a ordem que parecia certa estava errada.
+
+### Decidido — o Caminho continua sem dar dados de dano
+
+O Mizuki levantou cinco árvores de habilidade, uma por Caminho, e **três delas pediam dado de dano**: a tabela de desarmado do Bastião no molde do monge, a mecânica por grupo de arma da Vanguarda, e o atributo somado ao dano do feitiço no Emanador.
+
+A peça 5 §4 tem duas listas, e a segunda diz o contrário:
+
+> **O que um Caminho não pode conceder:** dados de dano · aumento de Classe de feitiço · Melhoria de graça · cura
+
+**A regra fica.** O motivo é o pilar 1, e já estava escrito: *"se o Caminho desse dano, dois personagens do mesmo Caminho começariam a se parecer, e a técnica que cada um escreveu perderia espaço."* Um sistema em que a identidade mora na técnica não pode ter o Caminho competindo com ela no eixo mais visível de todos.
+
+**Três saídas foram levantadas e a escolha foi a mais estreita:** manter a regra e desenhar dentro dela, em vez de reabri-la com uma régua nova ou abrir exceção só para o dano físico. As duas alternativas custavam reprecificar as peças 5 e 6 e refazer a **paridade conjurador‑guerreiro** — que está calibrada de propósito em `d20 + 3` nos dois lados desde o nível 2, e que o `conferir-atributos.py` vigia.
+
+**E metade do que o Emanador queria já existia, no eixo certo.** A peça 6 §5 concede *trocar o valor fixo de 2 do ataque de conjuração por Inteligência ou Essência*. Isso é **acerto**, não dano, e é neutro porque os dois lados crescem +3 na campanha. A proposta pedia a metade que não cabe; a que cabe estava escrita desde a v0.14.
+
+### Decidido — a ordem das quatro, e ela mudou por dependência
+
+A ordem levantada foi **Legados → Caminhos → Itens → Invocações**. A peça de Caminhos foi para o fim:
+
+| | peça | destrava | depende de |
+|---|---|---|---|
+| 1 | **Legados** | — | nada |
+| 2 | **Equipamento** | a Vanguarda, e a **Técnica Marcial** — duas das três rotas de Origem que não rodam | — |
+| 3 | **Invocações** | o Evocador | — |
+| 4 | **Caminho, Trilhas e subtrilhas** | o resto | **2 e 3** |
+
+**Duas das cinco árvores não podem ser escritas antes.** A especialização de arma da Vanguarda precisa que arma exista; o benefício de invocação do Evocador precisa que invocação exista — e essa vem com a trava mais dura do projeto já escrita: *você e todas as suas invocações somados entregam uma Rotina*, porque *mais corpos agindo por rodada é a coisa que quebra todo sistema d20, sem exceção*.
+
+**O Guia é o único que passa inteiro**, e não por sorte: *auxiliar, estender, reposicionar e recuperar* é literalmente a lista do que um Caminho **pode** conceder. Ele também fecha a pergunta aberta desde a v0.24 — *o que Elo, Sutura e Perímetro valem contra um golpe por rodada.*
+
+### Registrado — a peça de Legados tem duas metades, e a ordem entre elas importa
+
+O pedido foi **cinco Legados por Origem**, contra os dois de hoje — de catorze para vinte e cinco.
+
+**O defeito registrado dos Legados não é quantidade, é magnitude.** A faixa entre os catorze vai de **Irmãos** (sente outro Feto por perto, zero em rolagem) a **Não Sou Gente** (imune a veneno, doença e ao que ataca corpo humano). A trava escrita — *"não produz dano e não escala com nível"* — **não pega imunidade**.
+
+> **A régua de magnitude vem antes do catálogo.** Multiplicar a lista por quase três sem ela multiplica o defeito junto.
+
+A expansão em si já estava endossada pela própria peça 9, que fecha com *"se o Legado parecer decoração, o conserto é dar mais opções por Origem, não mais Legados por ficha"*. O que muda é só que ela deixou de ser condicionada ao playtest.
+
+### Registrado — as quatro peças caem onde não há validador
+
+Peças **5, 6 e 9**. São três das quatro que nunca tiveram validador — e a quarta, a peça 8, ganhou o dela na v0.34 **depois** de passar sete versões com a Defesa errada e a Trilha faltando.
+
+Não é coincidência: são as peças de catálogo e de prosa, as que não têm curva para conferir. Fica anotado para que cada uma das quatro saia **com validador junto**, e não sete versões depois.
+
+### Em aberto
+
+- **As quatro peças acima**, nessa ordem.
+- **A quick-start de nível 2**, que sai depois delas — o sistema fica testável antes de ela existir, mas ninguém senta na mesa sem ela.
+- **Os três feitiços da Kaori**, se o exemplo for para ficar completo.
+- **A lista de feitos do limiar do nível 20** e a conversão de mestragem.
+- **Energia Reversa, Barreira Simples, Cortina** e a régua da Aptidão Própria.
+- **Qual modelo de clash vale.**
+- **Nome do sistema.**
+
+---
+
+## [0.35] — 2026-08-11
+
+**A ficha de personagem.** `05-material/` estava vazia desde a v0.1, e ela é o primeiro material deste projeto que não é argumento de design — é coisa que alguém preenche.
+
+Três páginas, geradas por código no mesmo molde do manual, em duas versões: **em branco** e **preenchida com a Kaori**.
+
+### A forma, e por que três páginas
+
+O Mizuki pediu **Ficha · Técnica · Lore/referência**, e a divisão faz mais do que caber:
+
+| página | o que carrega | com que frequência muda |
+|---|---|---|
+| **1 · Ficha** | identidade, atributos, os números derivados, os 4 TRs, as 23 perícias, os 10 ofícios | toda sessão |
+| **2 · A técnica** | a Regra, descrição, Famílias, Selo, Passiva Livre, os 2 Classe 0 e os 3 feitiços | uma vez, na criação |
+| **3 · Quem é essa pessoa** | aparência, história, o traço da Origem, o Legado, laços, instituição, pacto | devagar |
+
+**A terceira é a que justifica o projeto inteiro.** O problema que este sistema existe para resolver é *o mesmo personagem passar por sete mesas e continuar sendo o mesmo personagem* — e o que faz alguém ser reconhecido numa mesa em que nunca jogou não é a Defesa: é o traço, o Legado, quem lhe deve favor e o que a instituição sabe. Nada nela rola dado.
+
+*A peça 8 promete que a ficha "cabe numa página".* Não cabe: só perícias e ofícios são 33 linhas. A promessa foi medida e desmentida — as três páginas fecham **exatas**, nas duas versões, e isso foi verificado renderizando o `.docx` em PDF e contando.
+
+### A tira de referência é curta de propósito
+
+A página 3 traz sete linhas de consulta — o turno, arredondamento, crítico, os dois golpes, os dois descansos — e **nada além**. CDs, condições e exaustão ficam de fora e vão para a quick-start.
+
+Não é economia de espaço: é a lição nº 9. Uma tabela de CD impressa na ficha e escrita na quick-start são duas cópias do mesmo número, e a ficha é a que ninguém volta para atualizar.
+
+### Os feitiços da Kaori ficaram em branco
+
+A peça 8 não lista os dela, e inventar três aqui seria **escolha de sabor**, que é do Mizuki. Quando forem escritos, entram no `make.js` e o `pac7.py` confere se a montagem fecha no orçamento da Classe 1.
+
+### Adicionado — `conferir-ficha.py`, o décimo segundo validador
+
+A ficha imprime catálogo: 23 perícias com atributo, 10 ofícios, 5 Caminhos com vida e PE, 15 Trilhas, e nove constantes do nível 2. **Cada um é uma cópia de uma peça**, e este projeto já sabe o que acontece com cópia sem dono — a v0.34 acabou de pagar sete versões por uma.
+
+E aqui é pior que num `.md`: **ficha errada não fica num arquivo que ninguém abre. Ela vira personagem, em sete mesas ao mesmo tempo.**
+
+Seis checagens, e o `gerador-ficha/dados.js` é **cópia declarada** — a autoridade é a peça, e o validador falha quando os dois discordam.
+
+**Nove perturbações conferidas**, todas acendendo a checagem certa: perícia sumindo da ficha, ofício inventado, PE do Bastião mudando só na ficha, Trilha que a peça 6 não tem, refino indo a 4, XP divergindo da peça 12, o `.docx` sumindo, **a peça 7 ganhando perícia e a ficha não acompanhando** — que é o caso real — e o `.docx` publicado ficando para trás do código.
+
+### Corrigido de método — uma checagem que não podia acender, e um arnês que acendeu pelo motivo errado
+
+**Duas armadilhas da casa, nas duas direções, na mesma versão.**
+
+A primeira: a checagem de *"o `.docx` publicado é mais novo que o gerador?"* comparava **mtime**, e ela **não acendeu** na perturbação — este mount carimba data de arquivo de um jeito que não dá para confiar. É a lição nº 8: checagem que não pode acender é pior que checagem nenhuma. Ela foi trocada por uma que lê o **conteúdo** — abre o `.docx` como zip (com `zipfile`, biblioteca padrão, sem dependência para faltar) e confere se o texto traz a proteção, a Integridade e o XP atuais. Assim reformulada, ela acende.
+
+A segunda, pelo lado oposto: o primeiro arnês de perturbação montou a cópia com os diretórios chamados `03` e `05` em vez de `03-mecanica` e `05-material`. **As oito perturbações acenderam — todas porque o validador não achava os arquivos.** Oito vermelhos que não provavam nada, e que pareciam prova. É exatamente o que aconteceu na v0.28 rodando de `/tmp`, e a defesa é sempre a mesma: **conferir que a base passa antes de perturbar.**
+
+### Em aberto
+
+- **A quick-start de nível 2**, enxuta. É a última coisa entre o sistema e uma mesa de verdade.
+- **Os três feitiços da Kaori**, se o exemplo for para ficar completo.
+- **Um validador para as peças 5 e 9**, que continuam sem nenhum.
+- **A lista de feitos do limiar do nível 20** e a conversão de mestragem.
+- **Energia Reversa, Barreira Simples, Cortina** e a régua da Aptidão Própria.
+- **Qual modelo de clash vale.**
+- **Nome do sistema.**
+
+---
+
+## [0.34] — 2026-08-11
+
+A varredura das doze peças, pedida antes de a ficha ser construída. **Dois erros, os dois com sete versões de idade, e os dois na faixa que a ficha ia usar.**
+
+E o achado que vale mais que os dois: **as peças com validador estavam limpas.** Peças 1, 3, 4, 7, 10, 11 e 12, todas certas. Os dois erros estavam nas peças 6 e 8, que não tinham nenhum.
+
+### Achado — a Defesa da ficha de nível 2 estava errada desde a v0.27
+
+A v0.27 deu número a *cobrir-se de energia*: **`1/3 do refino + 1` de proteção**, grátis no refino 1, sem uniforme nem armadura. No refino 1 isso é **proteção 1**, e toda ficha de nível 2 tem.
+
+A peça 8 é da v0.21. Ela dizia proteção **0**, em dois lugares, e a ficha de exemplo fechava `10 + 2 + 0 = 12`.
+
+> **A Defesa de nível 2 é `10 + Destreza + 1`. A ficha da Kaori é 13.**
+
+**E o mais revelador: a matemática de balanço já rodava supondo proteção 1.** A peça 1 mede o caso difícil contra *"alvo que também investiu em Destreza e tem proteção 1"*, e a checagem 1 do `conferir-atributos.py` roda com `protecao 1` desde sempre. Quem estava fora de sincronia era só a peça que publica a ficha — então o conserto é de texto, e nada foi rebalanceado.
+
+*E ela deixa um recado para a peça de equipamento, mais forte do que o que já estava escrito:* como uniforme, armadura e escudo **desligam** a proteção de energia, a tabela de proteção não compete com 0 — ela compete com 1 no nível 2 e com 4 no refino 10.
+
+### Achado — a decisão da Trilha ficou sete versões escrita e não aplicada
+
+O `ESTADO-ATUAL` registra desde a v0.27:
+
+> *"A Trilha é identidade, como o Caminho, e nasce com o personagem. **Corrigir na peça 6, na peça 8 e aqui.**"*
+
+**Nenhum dos três foi corrigido.** A peça 6 continuava dizendo que *"as escolhas de nível compram Trilhas"*, a peça 8 listava *"não afeta o nível 2"* entre as pendências, e o `ESTADO-ATUAL` **se contradizia sozinho** — a seção da decisão dizia uma coisa e duas tabelas mais abaixo diziam a outra.
+
+Aplicado agora nos três. A primeira Trilha vem na criação, junto do Caminho; as seguintes se acumulam com o nível, e quantas e quando continua sendo a peça de Trilhas.
+
+> **E o que ela entrega ainda não tem número, e o texto diz isso.** Escolher a Trilha no nível 2 não custa nada e não tranca nada — ela é o nome e a frase de uma linha até a peça sair.
+
+**A lição que sai daqui é nova, e não é a nº 9:** *decisão registrada não é decisão aplicada*. O CHANGELOG e o `ESTADO-ATUAL` são bons em guardar o **porquê**, e nada no projeto conferia se o **o quê** tinha chegado nos arquivos. Uma decisão que termina em *"corrigir em três lugares"* precisa de alguém conferindo os três.
+
+### Adicionado — `conferir-criacao.py`, o décimo primeiro validador
+
+**Ele confere instância, e os outros dez conferem regra.** Essa é a diferença inteira, e é o buraco por onde os dois erros passaram:
+
+| | pergunta |
+|---|---|
+| os dez primeiros | *a fórmula deriva certo?* |
+| **o décimo primeiro** | ***a ficha publicada obedece à fórmula?*** |
+
+A peça 8 é a única que produz uma ficha inteira com número fechado. Ela soma o que sete outras peças decidiram — e envelhece toda vez que uma delas mexe num número, sem que nada acuse.
+
+Sete checagens: a ficha de exemplo sai das fórmulas; o bloco de fórmulas do passo 7 bate com a peça 1; nenhuma peça afirma proteção 0; a criação entrega Trilha; a contagem de feitiços do nível 2 fecha; as duas rotas de perícia e ofício somam igual; e Caminho, Trilha e Origem citados na criação existem nas peças donas.
+
+**Nenhum valor fica escrito dentro dele** — a proteção é lida da peça 11, a maestria e o refino da peça 8, os Caminhos da tabela do passo 3, o XP da peça 12. E ele não lê o `.docx`, então não tem por onde sair verde tendo pulado checagem.
+
+**Oito perturbações conferidas**, numa cópia isolada, cada uma acendendo a checagem certa: a Defesa voltando para 12, a proteção 0 voltando ao texto, a Trilha saindo da criação, cobrir-se deixando de ser gratuita, os feitiços voltando para dois, os atributos somando 10, e a ficha usando uma Trilha que não existe. **A oitava é a que importa:** mudar a fórmula na **peça dona** — `1/3 do refino + 2` — acende o erro na ficha, o que prova que ele lê do dono em vez de guardar o número.
+
+### Registrado — o sumiço de arquivo tem causa, e ela é acionável
+
+Seis ocorrências em duas versões, e a v0.34 isolou o gatilho:
+
+| quem grava | o bash lê de volta |
+|---|---|
+| o **bash** | **sempre** |
+| a ferramenta de escrita do assistente | às vezes não — ENOENT com `ls` e `stat` certos |
+
+O `conferir-criacao.py` nasceu invisível para o próprio `python3` e precisou ser reescrito pelo bash com `cat > arquivo <<'EOF'`. **Fica como procedimento: código novo se escreve pelo bash.** Para `.md` a ferramenta serve, e uma segunda escrita reconcilia quando o sumiço acontece — o `README.md` e o `LEIA-ME.md` caíram juntos três vezes e voltaram nas três.
+
+O conteúdo nunca esteve em risco em nenhuma das seis.
+
+### Em aberto
+
+- **A ficha de personagem e a quick-start de nível 2**, que é o que esta varredura estava limpando o caminho para.
+- **Um validador para as peças 5 e 9**, que continuam sem nenhum.
+- **A lista de feitos do limiar do nível 20.**
+- **A forma da conversão de mestragem.**
+- **Energia Reversa, Barreira Simples, Cortina** e a régua da Aptidão Própria.
+- **Qual modelo de clash vale.**
+- **Nome do sistema.**
+
+---
+
+## [0.33] — 2026-08-11 · *manual v7.8 regerado*
+
+A passada de validação e polimento que a rota previa depois da XP. **A matemática estava limpa e a prosa não** — e o pior achado não estava em documento interno nenhum: estava na capa do manual.
+
+### Os treze passam, e passam de verdade
+
+Rodados de `sistema/03-mecanica/`, com o controle negativo que a v0.28 pagou para aprender: os três que leem o `.docx` saem com **zero** `PULADA` do lugar certo e com **4, 1 e 1** rodados de `/tmp`. O verde é verde. Nenhum número precisou mudar nesta versão — é a primeira em cinco em que isso acontece.
+
+### Achado — a capa do manual dizia "Versão 7.5"
+
+> **`partA.js` nunca foi atualizado desde a v7.5. O `.docx` que a Guilda abre trazia 7.5 na capa enquanto o projeto inteiro dizia v7.8.**
+
+Três versões do manual (v7.6, v7.7 e v7.8) e **sete versões do projeto** (da v0.26 à v0.32) mexeram no conteúdo e ninguém tocou na string da capa. Nenhum validador olhava para ela.
+
+**E ela é a pior cópia possível para deixar derivar**, porque é a única que sai do repositório. Todo o resto da deriva desta versão é conversa entre quem trabalha no sistema; a capa é o que um jogador vê.
+
+Consertado no gerador e **o manual foi regerado**. O diff é exatamente uma string: 363 parágrafos e 84 tabelas antes e depois. **O `.pdf` continua na v7.4**, como sempre — ele é exportado à mão.
+
+### Achado — a deriva, medida
+
+| documento | afirmava | é |
+|---|---|---|
+| **capa do `.docx`** (`partA.js`) | **Versão 7.5** | 7.8 |
+| `manual/matematica/COMO-USAR.txt` | Fundamento v7.6 | 7.8 |
+| `sistema/LEIA-ME.md` | **v0.27** · onze peças · **sete** validadores · manual v7.6 | v0.32 · doze · dez · v7.8 |
+| `arquitetura.md` | manual v7.6 | v7.8 |
+| `ESTADO-ATUAL` · seção do manual | v7.6, 328 parágrafos, 76 tabelas | v7.8, **363**, **84** |
+| `ESTADO-ATUAL` · o material medido | 25.600 palavras em dez peças · 22.000 no CHANGELOG · 2.070 linhas em seis validadores | **34.200** em doze · **32.000** · **3.880** em dez |
+| `ESTADO-ATUAL` · o que falta | tabela de XP *"nunca foi escrita"* | peça 12, fechada na v0.31–v0.32 |
+| `ESTADO-ATUAL` · a fila | *"nunca foi escrita"* **e** *"fechada na v0.31 e v0.32"* | **o mesmo arquivo, duas respostas** |
+| `ESTADO-ATUAL` · dezessete coisas | doze existem, XP entre as que faltam | **treze**, e faltam quatro |
+| `ESTADO-ATUAL` · passo 6 de 6 | *"a próxima da lista original"* | fechado desde a v0.23 |
+| `ESTADO-ATUAL` · playtest | zero sessões em **26** versões | 32 |
+| `ESTADO-ATUAL` · lições | **cinco** | o README tem **nove** |
+| `README` · o que não existe | a tabela de XP, trava nº 1 | existe |
+
+**O `LEIA-ME.md` é o caso mais caro**, porque ele é o mapa da pasta: cinco versões parado, anunciando um sistema com onze peças e sete validadores para quem chega agora.
+
+### Corrigido — a lista de lições tinha duas cópias, e elas divergiram
+
+O `ESTADO-ATUAL` guardava a própria lista, parada em **cinco** enquanto o README chegava a **nove**. E a lição nº 2 da cópia ainda listava *"v0.16, v0.17, v0.19, v0.24 e v0.26"* quando o original já contava sete versões.
+
+**É a lição nº 9 acontecendo dentro do documento que existe para avisar sobre ela.** A cópia saiu e virou ponteiro: as lições moram no README, e só lá.
+
+### Adicionado — checagem 4 do `conferir-repositorio.py`
+
+> **Todo número que mora em mais de um documento tem um dono declarado, e cada cópia é conferida contra ele.**
+
+| número | dono | por quê |
+|---|---|---|
+| **versão do projeto** | a entrada do topo do `CHANGELOG` | é a única que não dá para escrever errado sem querer — ela só existe depois de a versão fechar |
+| **versão do manual** | a primeira linha de `manual/gerador/COMO-USAR.txt` | o `.docx` é **saída**. Quando os dois discordam, quem está errado é a capa, e o conserto é regerar |
+| **peças e validadores** | a pasta `03-mecanica/` | já era assim para o README desde a v0.28; agora vale para o `ESTADO-ATUAL` e o `LEIA-ME` também |
+
+São **onze cópias** conferidas, e **nenhum dos valores fica escrito dentro do validador** — a armadilha que ele mesmo caiu na v0.28, quando guardava `sete`.
+
+Ele também **não lê o `.docx` e não precisa de `python-docx`**, então não existe caminho por onde ele saia verde tendo pulado checagem. Isso foi de propósito: a checagem que nasceu para pegar a lição 9 não podia nascer com a lição 8 dentro.
+
+**Cinco perturbações conferidas**, cada uma acendendo a checagem certa e nomeando o arquivo culpado: capa voltando para 7.5, `LEIA-ME` voltando para sete validadores, `ESTADO-ATUAL` voltando para onze peças, dono sem valor legível — e o caso que apareceu sozinho enquanto eu escrevia esta entrada: **subir a versão nos três documentos antes de registrar a entrada do CHANGELOG acende três erros.** Essa última é uma trava de graça que ninguém desenhou: não dá mais para anunciar versão que não foi registrada.
+
+*Rodadas numa cópia isolada do repositório, e não nos arquivos reais* — perturbar em cima do original e restaurar depois é como se perde trabalho num mount que já engoliu arquivo quatro vezes.
+
+### Registrado — o mount perdeu dois arquivos, e o README já sabia
+
+Aconteceu **duas vezes** nesta versão: com o `README.md` e o `LEIA-ME.md` juntos, e depois com o próprio `conferir-repositorio.py`, sempre logo depois de uma escrita. Sintoma idêntico ao da v0.28 e da v0.29 — `ls` e `stat` com tamanho e inode certos, `open()` devolvendo **ENOENT**, vizinhos abrindo normalmente.
+
+**Conteúdo íntegro no disco nas três vezes, e uma escrita nova reconciliou nas três.** Fica registrado porque agora são quatro ocorrências em seis versões: não é acidente, é o mount, e o procedimento do README funciona.
+
+### Achado — o mesmo mount quebra o git inteiro, e não só o commit
+
+O README dizia que o assistente não consegue **commitar**. Ele também não consegue **ler**: `git status`, `git log` e `git fsck` saem todos com `fatal: loose object <sha> is corrupt`.
+
+**Não é o repositório.** Medido:
+
+| | conta |
+|---|---|
+| objetos soltos em `.git/` | 241 |
+| que o `ls` mostra com tamanho certo | **241** |
+| que o `open()` consegue abrir | 175 |
+| que devolvem **ENOENT** | **66** |
+| arquivos de trabalho no mesmo estado | 1 (o `mensagem-de-commit.txt`, reconciliado) |
+
+É a mesma falha de sempre, agora medida em escala e dentro do `.git/`. **Fora do sandbox o git funciona normalmente**, e o perigo aqui é de interpretação: quem lê "corrupt" e roda `git gc` para consertar está tentando consertar um repositório que não está quebrado.
+
+**E rodar `git status` daqui cobra um preço:** ele cria um `.git/index.lock` que o mount depois não deixa apagar, e um lock preso trava o `./subir.sh`. Aconteceu nesta versão e foi limpo. Está no README, junto com a conclusão: **não rodar git do sandbox.**
+
+### Em aberto
+
+- **Ficha de personagem e quick-start.** `05-material/` continua vazia, e agora não tem mais nada na frente.
+- **A lista de feitos do limiar do nível 20.**
+- **A forma da conversão de mestragem.**
+- **Energia Reversa, Barreira Simples, Cortina** e a régua da Aptidão Própria.
+- **Qual modelo de clash vale.**
+- **Nome do sistema.**
+- **O `.pdf`, na v7.4.** Quatro versões de manual atrás — e desta vez a capa do `.docx` mudou, então a diferença ficou visível.
+
+---
+
 ## [0.32] — 2026-08-11
 
 O Mizuki olhou a curva da v0.31 e disse duas coisas: que ela não fazia **progressão nível a nível**, e que subir três níveis numa missão *"não traz uma metodologia de jogo bom"*. Pediu pesquisa em fórum e em sistema de guilda de verdade.

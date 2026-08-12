@@ -13,7 +13,7 @@ Uma ficha de feiticeiro de **nível 2**, pronta para jogar. Ela cabe numa págin
 
 - **Uma técnica** que só você tem, escrita por você
 - **Cinco atributos**, de 0 a 6
-- **Um Caminho**, que diz o seu lugar numa equipe
+- **Um Caminho e uma Trilha**, que dizem o seu lugar numa equipe e quem você é dentro dele
 - **Uma Origem**, que diz de onde veio o seu poder e o que a instituição acha de você
 - **Oito perícias e três ofícios** treinados — ou nove e dois, você escolhe
 - **Dois Testes de Resistência** treinados, de quatro
@@ -100,6 +100,10 @@ O que ele te dá agora:
 
 Mais **quatro perícias à sua escolha**, de qualquer lugar do quadro, **um ofício livre** e **um Teste de Resistência treinado**.
 
+**E a Trilha, que você escolhe agora junto do Caminho.** São três por Caminho, e a lista está na peça 6 — Muro · Punho · Brasa no Bastião, Estocada · Batedor · Executor na Vanguarda, e assim por diante. *Decidido na v0.27 e aplicado na v0.34:* a Trilha é **identidade, como o Caminho, e nasce com o personagem** — três lugares do material diziam que ela só chegava na primeira subida, e a confusão era a mesma dos feitiços, de contar a partir do nível 1 numa ficha que nasce no 2.
+
+> **O que a sua Trilha entrega ainda não tem número.** Hoje ela é o nome e a frase de uma linha: você a escolhe, ela diz quem o seu personagem é dentro do Caminho, e a peça de Trilhas fecha o que ela dá. Escolher agora não custa nada e não tranca nada.
+
 Repare que vida e energia correm em sentidos opostos: quem tem mais couro tem menos combustível. A soma dos dois é 11 no Bastião e 10 nos outros quatro — é isso que faz a troca ser sabor e não degrau de poder.
 
 ## Passo 4 · Atributos
@@ -168,7 +172,7 @@ Pontos de vida       = (vida inicial do Caminho + Constituição)
                        + (vida por nível do Caminho + Constituição)
 Integridade          = 28
 Pontos de Energia    = PE por nível do Caminho × 2
-Defesa               = 10 + Destreza + proteção
+Defesa               = 10 + Destreza + 1     (a proteção de cobrir-se de energia)
 Iniciativa           = d20 + Destreza
 Deslocamento         = 9 metros
 Ataque corpo a corpo = d20 + Força
@@ -180,6 +184,8 @@ Teste de Resistência = d20 + atributo do TR, +2 se treinado
 ```
 
 **No refino 1 você já tem duas aptidões, de graça:** **cobrir-se de energia**, que dá proteção sem equipamento, e **canalizar energia**, que é o que permite ferir uma maldição com o corpo ou com a arma. Elas são básicas de qualquer feiticeiro e por isso não custam nada — as aptidões que você comprar depois melhoram o que já existe.
+
+> **E cobrir-se de energia entra na sua Defesa agora.** Sem uniforme, sem armadura e sem escudo, a sua proteção é `1/3 do refino + 1`, que no refino 1 dá **1**. Toda ficha de nível 2 nasce com **proteção 1** — ela não vem de equipamento, vem de você ser feiticeiro. *Corrigido na v0.34: esta peça é da v0.21 e dizia proteção 0, porque o número da aptidão só nasceu na v0.27.*
 
 ## Passo 8 · Pactos
 
@@ -206,7 +212,7 @@ Pacto é o que você trocou por poder. Ele permite quase qualquer coisa desde qu
 
 **A Regra.** *"Tudo que eu prendo entre as minhas mãos fica mais pesado."*
 
-**Caminho.** Bastião. *Teste de Resistência:* **Físico**.
+**Caminho.** Bastião. *Trilha:* **Muro** — o corpo é o escudo, e é o que a Regra dela já pedia. *Teste de Resistência:* **Físico**.
 
 **Atributos.** Força 3 · Constituição 2 · Destreza 2 · Inteligência 1 · Essência 1. *(nove pontos, nenhum acima de 3)* — **TR Físico travado em Força**.
 
@@ -223,7 +229,7 @@ Pacto é o que você trocou por poder. Ele permite quase qualquer coisa desde qu
 | Vida | (12 + 2) + (7 + 2) | **23** |
 | Integridade | 20 + 8 | **28** |
 | PE | 4 × 2 | **8** |
-| Defesa | 10 + 2 + 0 | **12** |
+| Defesa | 10 + 2 + 1 | **13** |
 | Iniciativa | d20 + 2 | |
 | Ataque corpo a corpo | d20 + 3 | |
 | Ataque de conjuração | d20 + 2 + 1 | **d20 + 3** |
@@ -251,8 +257,8 @@ E a que sustenta as sete: **o mestre pode recusar mesmo quando passa em tudo.** 
 ## Em aberto
 
 - **A regra de Pactos**, que hoje é só uma trava e uma promessa.
-- **Equipamento.** A ficha nasce com proteção 0 porque a tabela de proteção não existe. Não trava a criação, mas trava a segunda sessão.
-- **Quantas Trilhas e em que níveis.** Não afeta o nível 2, afeta a primeira subida.
+- **Equipamento.** A tabela de proteção não existe, então a ficha nasce **só** com a proteção 1 de cobrir-se de energia. Não trava a criação, mas trava a segunda sessão — e é ela que decide se vale a pena vestir alguma coisa, já que uniforme e armadura **desligam** a proteção de energia.
+- **Quantas Trilhas um personagem acumula, e em que níveis.** A primeira vem no nível 2, junto do Caminho. O que ela entrega com número é a peça de Trilhas.
 - **Se vinte a quarenta minutos é real.** É estimativa, e o playtest mede.
 
 *Resolvido e tirado daqui:* o **catálogo de Origens**, que era a maior lacuna desta peça. Ele existe desde a v0.22, na peça 9 — cinco Origens principais, uma sub-origem e duas especiais, cada uma com lista de perícias, traços e Legados. O único julgamento que sobrou na criação é a **segunda perícia da Origem**, que continua livre com aprovação.

@@ -1,4 +1,4 @@
-MATEMÁTICA — Fundamento v7.6
+MATEMÁTICA — Fundamento v7.8
 
   v7.py                  valida a economia de PE, os limites por Classe, o teto, o
                          gatilho de Controle, a Técnica Máxima recarregável e a
@@ -14,6 +14,14 @@ MATEMÁTICA — Fundamento v7.6
 
   python3 v7.py
   python3 pac7.py
+
+Por que estes dois passam sem toque desde a v7.6:
+  A v7.7 (Expansao de Dominio) e a v7.8 (a caixa da coluna de PE) nao mexeram em
+  nenhum numero do Fundamento. O preco da Expansao mora do lado do projeto, em
+  03-mecanica/conferir-expansao.py, porque ele e' medido em espacos de feitico
+  conhecido — e essa contagem tem dono no projeto desde a v0.28, nao no manual.
+  Este cabecalho ficou dizendo v7.6 ate a v0.33, quando a capa do proprio .docx
+  foi pega dizendo 7.5. Hoje o conferir-repositorio.py confere as duas.
 
 O que mudou na v7.6:
   Nenhum numero mudou. As seis alteracoes foram de VOCABULARIO e de TEXTO DE REGRA —

@@ -9,9 +9,9 @@ Sistema de RPG de mesa em desenvolvimento, ambientado no universo de Jujutsu Kai
 | `00-fundacao/` | Pitch de design e decisões que valem para o projeto inteiro |
 | `01-pesquisa/` | Dossiê de metodologia, referências e análise do espaço de design |
 | `02-esqueleto/` | Arquitetura do sistema: subsistemas, como se conectam, o que cada um resolve |
-| `03-mecanica/` | As peças de regra, numeradas na ordem em que foram escritas, e os sete validadores |
+| `03-mecanica/` | As peças de regra, numeradas na ordem em que foram escritas, e os doze validadores |
 | `04-playtest/` | Roteiro de teste, formulários e retorno organizado por tema |
-| `05-material/` | Texto final: livro, ficha, cheat sheets, layout |
+| `05-material/` | A **ficha de personagem** e o gerador dela. Falta o quick-start e o livro |
 | `99-arquivo/` | **Material morto.** Nada aqui é regra corrente — ver o `LEIA-ME.md` de lá |
 | `skills/` | Cópia de trabalho das quatro skills de apoio |
 
@@ -37,12 +37,17 @@ A pasta `skills/` guarda a versão com arquivos separados. A versão instalada t
 
 ## Versão atual
 
-**v0.27.** Fases 0 a 3 fechadas; a Fase 4 (mecânica) está em andamento com **onze peças escritas e sete validadores passando**. O manual do Fundamento está na **v7.6**, e ele é um subsistema fechado — a técnica e o feitiço já funcionam. O `.pdf` continua na v7.4, porque é exportado à mão.
+**v0.36.** Fases 0 a 3 fechadas; a Fase 4 (mecânica) está em andamento com **doze peças escritas e doze validadores passando**. O manual do Fundamento está na **v7.8**, e ele é um subsistema fechado — a técnica e o feitiço já funcionam. O `.pdf` continua na v7.4, porque é exportado à mão.
 
-**Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas**, por seis das nove rotas de Origem. Desde a v0.26 isso é literal: das dezessete coisas que uma ficha de nível 2 precisa, **doze existem, e as cinco que faltam não mordem nessa faixa**. O que falta para as outras três rotas, e a ordem do resto, está no `ESTADO-ATUAL.md`.
+**Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas**, por seis das nove rotas de Origem. Desde a v0.32 não sobrou peça de regra travando ninguém nessa faixa: das dezessete coisas que uma ficha de nível 2 precisa, **treze existem, e as quatro que faltam não mordem nessa faixa**. O que falta para as outras três rotas, e a ordem do resto, está no `ESTADO-ATUAL.md`.
 
-Os validadores rodam de `03-mecanica/`. Os dois que leem o manual — `conferir-nomes.py` e `conferir-manual.py` — precisam de `python-docx`:
+O que falta hoje não é regra, é **material**. A **ficha de personagem** saiu na v0.35 e está em `05-material/`, com o gerador dela; falta o quick-start. E `04-playtest/` continua vazia — **zero sessões em 35 versões**.
+
+Os validadores rodam de `03-mecanica/`, e **isso não é detalhe**. Os três que leem o manual — `conferir-nomes.py`, `conferir-manual.py` e `conferir-pericias.py` — acham o `.docx` por caminho relativo à própria posição: rodados de outro lugar, eles **pulam** as checagens em silêncio e saem verdes sem terem conferido nada. Os mesmos três precisam de `python-docx`, e pulam igual sem ele:
 
 ```
 pip install python-docx --break-system-packages
+cd sistema/03-mecanica && python3 conferir-nomes.py
 ```
+
+Os dois últimos não leem o manual e não precisam de nada: o `conferir-criacao.py` confere a ficha de exemplo da peça 8 contra as fórmulas das outras peças, e o `conferir-ficha.py` confere a ficha de `05-material/` contra os catálogos delas.

@@ -27,7 +27,11 @@ Nomes conferidos contra o manual — nenhum é termo definido lá. *Linha de Fre
 
 Renomear a mecânica sairia mais caro: *canalizar energia* é termo da própria obra e já estava na lista de aptidões. Então quem muda é o nome do Caminho. **Emanador** está livre no manual e em todo o material do projeto, e a distinção fica limpa: **canalizar** é empurrar energia por dentro do corpo e da arma; **emanar** é soltar energia para fora. Um é o Bastião e a Vanguarda; o outro é o Emanador.
 
-**Sem multiclasse.** Um Caminho por personagem, e as escolhas de nível compram **Trilhas** dentro dele. Um personagem pode acumular Trilhas do próprio Caminho — é isso que permite o Guia pegar Energia Reversa antes da hora, ou o Bastião pegar um pé em feitiço.
+**Sem multiclasse.** Um Caminho por personagem, e dentro dele **Trilhas**.
+
+**A primeira Trilha vem na criação, junto do Caminho.** *Decidido na v0.27, aplicado na v0.34.* Ela é identidade, não recompensa — o Caminho diz o seu lugar na equipe e a Trilha diz quem você é dentro dele, e as duas coisas nascem com o personagem. Esta seção dizia que *"as escolhas de nível compram Trilhas"*, e isso vinha de contar a partir do nível 1 numa ficha que nasce no 2: é o mesmo engano que a v0.28 achou na contagem de feitiços.
+
+**As Trilhas seguintes, essas sim, se acumulam com o nível** — é isso que permite o Guia pegar Energia Reversa antes da hora, ou o Bastião pegar um pé em feitiço. **Quantas, e em que níveis, é a peça de Trilhas**, junto com o que cada uma entrega com número.
 
 ## 2. As Trilhas
 
