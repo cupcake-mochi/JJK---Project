@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 12/08/2026, na v0.40 (última peça fechada: Legados, na v0.39). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 12/08/2026, na v0.41 (última peça fechada: Legados, na v0.39; **Equipamento está em andamento** — o estado dela mora em `03-mecanica/RASCUNHO-equipamento.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.40.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **treze peças escritas** e **treze validadores**. Manual do Fundamento na **v7.8**, com a Expansão de Domínio escrita, e o catálogo de aptidões com **dez das catorze entradas fechadas**. **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas** — por seis das nove rotas de Origem, e agora sem nenhum buraco de regra que morda nessa faixa.
+**Versão v0.41.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **treze peças escritas** e **treze validadores**. Manual do Fundamento na **v7.8**, com a Expansão de Domínio escrita, e o catálogo de aptidões com **dez das catorze entradas fechadas**. **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas** — por seis das nove rotas de Origem, e agora sem nenhum buraco de regra que morda nessa faixa.
 
 ## Como retomar
 
@@ -455,11 +455,21 @@ Quatro peças, e a ordem é de **dependência**, não de tamanho. A ordem que el
 | # | peça | destrava | depende de |
 |---|---|---|---|
 | ~~1~~ | ~~**Legados** — a régua de magnitude, e ~5 por Origem~~ | **fechada na v0.39** (peça 13): régua, catálogo de **81 entradas** e o `conferir-legados.py` | — |
-| 2 | **Equipamento** — armas, escudos, uniformes | a Vanguarda, a **Técnica Marcial** (duas das três rotas de Origem mortas) e **quatro das sete vagas de Desliga** da peça 13 | — |
+| 2 | **Equipamento** — armas, escudos, uniformes | a Vanguarda, a **Técnica Marcial** (duas das três rotas de Origem mortas) e **quatro das sete vagas de Desliga** da peça 13 | **em andamento** |
 | 3 | **Invocações** — o sistema de criação | o Evocador | — |
 | 4 | **Caminho, Trilhas e subtrilhas** — a árvore de cada um | o resto | **2 e 3** |
 
 > **Equipamento é a próxima, e ela tem uma dívida marcada esperando.** A peça 13 fecha dizendo *"quando equipamento fechar, a primeira coisa a fazer é voltar aqui"* — quatro vagas de Desliga nomeiam essa peça como a que deve criar o alvo delas. As outras três esperam **dano e condições**, que não está na fila. *Decisão registrada não é decisão aplicada, e foi assim que a Trilha passou sete versões.*
+
+### Onde Equipamento parou, na v0.41
+
+**Fechado:** duas classes de uniforme (`Traje` e `Revestimento`), três degraus, requisito de Força 3/5/6 sem gate de nível; oito classes de arma com **41** nomes e o requisito medido como **grátis** — nenhuma passa do teto de criação; a **escada de escudos** com proteção, requisito de Força e teto de Destreza, conferida por busca exaustiva contra o teto de Defesa 20; e a régua de **itens comuns** em três camadas, com a terceira desligada.
+
+**Três coisas caíram nesta versão, e vale saber quais:** a derivação velha do escudo (comparava dano por acerto com dano por rodada), a frase de que *"o escudo desliga cobrir-se"* — que matava o item no primeiro marco, e por isso **o escudo passa a somar**, mudando a peça 8 e a peça 11 §5 e §9 — e o *"zero classes dominadas"*, porque `Uma mão` está dominada pela `Versátil`.
+
+**A dependência dura que trava o resto:** as **sete propriedades de arma** são só nome na tabela. Enquanto forem, 15 dos 16 pares da matriz saem `INCONCLUSIVO` e **o validador da peça não pode ser escrito**.
+
+> **E ficou uma dívida de dono:** o **teto de Defesa 20** foi derivado pelo §3 do rascunho — *"caiu da régua, não foi calibrado"* — e agora a escada de escudos se apoia nele. Derivação virou invariante sem ninguém decidir. **Ou a peça 1 adota o 20, ou Equipamento declara que é dona dele**, e isso decide de onde o validador vai lê-lo.
 
 ### Decidido — o Caminho continua sem dar dados de dano
 

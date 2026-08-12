@@ -6,6 +6,163 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.41] — 2026-08-12
+
+**Equipamento andou, e três coisas que já estavam escritas nela caíram.** Nenhuma peça nova e nenhum validador novo — continuam treze e treze. O que mudou foi o rascunho de Equipamento, de 160 para 487 linhas, e o `conferir-nomes.py`, que estava classificando colisão errado desde sempre.
+
+### Achado — a conta do escudo comparava duas colunas em unidades diferentes
+
+O §4 do rascunho derivou `escudo +1` pondo lado a lado *"+1 de proteção poupa X"* e *"duas mãos rende 2,0"*, e concluiu que a troca empatava no meio da campanha.
+
+**A coluna do escudo estava certa.** `0,05 × CHEFE` é o valor de tirar 5 pontos percentuais da chance do inimigo, e o `CHEFE` do manual é dano **por acerto** — é assim que o `conferir-atributos.py:459` o usa, multiplicando por `0,5`.
+
+**A coluna da arma não.** Os `+2` de dado são o ganho *quando você acerta*, num turno em que usa a arma. Por rodada vale `2,0 × 0,55 × quanto do tempo você dá golpe simples` — o `0,55` da peça 1 §6 mais o crítico da §5.2, e o teto de uso que o `conferir-orcamento.py` já mede. Refeita, a arma rende **0,66** e o escudo passa ela no **nv6**, não no nv16.
+
+> **A unidade de um número se lê do uso, não do nome.** `CHEFE` parece dano por rodada e não é. Quem descobriu foi o validador que já usava o número certo.
+
+### Achado — o escudo desligava cobrir-se, e isso o matava no primeiro marco
+
+O §4 dizia *"o custo do escudo é a mão"*. A peça 11 §5 e §9 e a peça 8 dizem outra coisa, com todas as letras: **"uniforme, armadura e escudo desligam a proteção de energia"**.
+
+| nv | refino | cobrir-se dá | escudo dá | o escudo vale |
+|---|---|---|---|---|
+| 2 | 1 | 1 | 1 | 0 |
+| 6 | 3 | 2 | 1 | **−1** |
+| 30 | 10 | 4 | 1 | **−3** |
+
+Do refino 3 em diante pegar escudo **tira** Defesa. Refino 3 chega no nv6 em duas das três rotas. **A derivação inteira mediu contra um escudo que não entraria em ficha nenhuma.**
+
+*É a armadilha de sempre, na direção menos vigiada: o preço usava um termo que existe, e ninguém tinha ido ler a regra pendurada nele.*
+
+### Decidido — o escudo soma, e isso muda três documentos
+
+A alternativa era manter o desligamento, e a conta mostrou que ela mata o item. Então **uniforme e armadura continuam desligando; o escudo passa a somar.**
+
+> **A decisão está tomada e NÃO está aplicada, e isso é de propósito.** A frase mora em três lugares — peça 8 passo 7, peça 11 §5 e peça 11 §9 — e as três só mudam quando Equipamento fechar, junto com a outra dívida que a peça 11 já devia (*"você fica sem a proteção passiva"* virando *"você fica sem proteção"*). Mexer nas duas de uma vez evita tocar duas vezes na mesma peça fechada.
+>
+> **Fica registrado em quatro lugares porque decisão que termina em "corrigir em três documentos" é exatamente a que o projeto já perdeu sete versões:** aqui, no §7 do rascunho, na seção nova do `ESTADO-ATUAL`, e como checagem obrigatória do validador da peça, no item 9 do §8. *Se a próxima passada fechar a peça sem mexer nos três, o validador tem que falhar.*
+
+**E abriu um buraco que precisou de conserto na mesma passada:** com o escudo somando, `cobrir-se refino 10 + escudo` dá Defesa **21** e fura o teto de 20 que o §3 tinha fixado. Foi a decisão que abriu, e é ela que fecha.
+
+### Decidido — RD foi levantada, medida, e morta pelo critério e não pela conta
+
+A conta apontava para ela: `RD fixa` é a única forma que fica na mesma escala do dado da arma — erra por fator constante (1,5×) em todo nível, contra o fator crescente da proteção (0,5× a 5,5×).
+
+> **Decisão do Mizuki: não.** *"Dar RD nunca é solução, pode acabar vindo a virar mais um cálculo e ninguém quer isso."*
+
+**Fica registrado porque a conta e o critério discordaram, e o critério ganhou.** A conta mede valor por rodada; ela não mede quanto uma subtração a mais custa em tempo de mesa. **Esse eixo não tem validador, e não vai ter.** Sem o registro, alguém reabre a ideia daqui a dez versões achando que ninguém tinha feito a conta.
+
+### Decidido — a escada de escudos, e ela sai de duas linhas que já estavam escritas
+
+A saída estava na própria peça, em dois lugares que ninguém tinha juntado: o §3 fechou dizendo que **as duas rotas topam em Defesa 20**, contando o escudo dentro disso, e o §2 já tinha adotado a régua do 3.x — ***"proteção e teto de Destreza são um orçamento só"***.
+
+**O escudo maior não cresce por cima do teto: ele cresce comendo teto de Destreza**, igual ao Revestimento. E aí vira o prêmio da build de Força sozinho, sem regra nova, porque quem tem Destreza baixa não perde nada com o teto.
+
+| degrau | proteção | teto de Destreza | requer Força | custa marco? |
+|---|---|---|---|---|
+| 1 | 1 | 5 | — | não |
+| 2 | 2 | 3 | 3 | não — cabe na criação |
+| 3 | 3 | 1 | **5** | **sim, 2 pontos** |
+
+**O degrau 3 é o primeiro item do catálogo inteiro que cobra ponto de marco** — toda arma pede no máximo Força 3, que é o teto da criação. É o trabalho novo que a peça 1 pedia desde a v0.24, com *"Força tem uma perícia só"*.
+
+Busca exaustiva de uniforme × escudo × Destreza: **nada passa de 20, e 20 é alcançado por duas rotas** — o teto não é decorativo. Nenhum dos três degraus é dominado, e o cruzamento entre o 1 e o 3 cai em **Destreza 3**, o mesmo ponto de Traje contra Revestimento. Uma régua, dois lugares.
+
+### Registrado — e ela não conserta a arma de duas mãos, que é o que motivou tudo
+
+| nv | o degrau 3 poupa | a Pesada rende | razão |
+|---|---|---|---|
+| 6 | 2,58 | 0,66 | 4× |
+| 30 | 10,80 | 0,66 | **16×** |
+
+Proteção escala, dado não. **Isso não tem conserto dentro desta peça, e provavelmente não deveria ter:** a régua do §5 diz que *"a arma dá acesso e restrição; o Caminho dá o que você faz com ela"*. Duas mãos é acesso à árvore que exige duas mãos, e é a Trilha da Vanguarda que dá razão para largar o escudo — por isso ela vem depois na fila da v0.36.
+
+**O alvo fica registrado para quando aquela peça chegar: 6% a 9% da Rotina, e a fração quase não deriva.** Não pode ser pago em dado de dano.
+
+### Achado — o item 1 de Equipamento fechou, e o argumento que ia salvá-lo era desnecessário
+
+*"A Pesada paga dois pontos de Força a mais que a Uma mão pelo mesmo valor líquido"*, e o argumento registrado era que o requisito é **compartilhado com o Revestimento**.
+
+**Ele nem precisa disso: o requisito é grátis.** A Pesada pede Força 3, e 3 é o teto da criação (peça 2 §2). **Nenhuma classe do catálogo custa ponto de atributo** — o requisito de arma resolve acesso, que é o que a peça 5 §1 já tinha concluído.
+
+**E o furo do teste era um nível acima do que a linha dizia.** Não é só que a matriz não somava o total: é que ela roda **uma vez só**. Enquanto o escudo desligava cobrir-se, existiam duas populações com dominâncias opostas — ficha de uniforme e ficha de cobrir-se —, e rodada uma vez ela cancelava as duas e saía verde. O validador precisa rodar **uma vez por rota de proteção**.
+
+### Achado — `Uma mão` está dominada pela `Versátil`, e nenhum par de dados conserta
+
+Mesmo dado, mesma mão livre, uma propriedade a mais, e o ponto de Força a mais não custa nada. O §5 afirmava *"zero classes dominadas"* — verdade com o requisito valendo como custo, falso sem ele.
+
+Testados `d8/d10`, `d8/d12` e `d6/d10` para a Versátil: **em nenhum largar o escudo compensa**, porque o ganho de dado é 0,33 a 0,66 contra os 2,01 do escudo no nv16. O par de dados só vira escolha de sabor depois que a forma do escudo fechar.
+
+### Corrigido — a triagem de nomes classificava três coisas diferentes com a mesma palavra
+
+*Este é o conserto que mais vai render, porque ele estava enviesando decisão de nome desde que a triagem existe.*
+
+O `conferir-nomes.py` marcava `OCUPADO` tanto para colisão exata quanto para **substring dentro de um termo composto**. As duas não são a mesma coisa.
+
+> **Critério do Mizuki:** *"não precisa ligar tanto para nomes conjuntos, como Melhoria 'rasga escudo' a 'lança negra'. Se preocupe mais quando o nome bater de frente com o nome de algo que é **realmente** aquilo."*
+
+A saída agora separa:
+
+| grau | significa | mata? |
+|---|---|---|
+| `OCUPADO` | o **nome inteiro** já é termo definido | sim |
+| `DENTRO` | aparece **dentro de um termo composto** | **não** — vá ler o termo e pergunte se ele *é* aquilo |
+| `fraco` | fica a uma letra | não, mas confunde em voz alta |
+
+**O custo de errar isso já tinha sido pago e ninguém percebeu:** `Lança` morreu na triagem por estar dentro de **Lança Negra**, e a arma entrou na classe Haste como **Yari** — que é exatamente uma lança, com o nome em japonês. **O sistema contornou um nome que nunca esteve ocupado.**
+
+Quatro voltaram: `Lança`, `Escudo`, `Faca` e `Lastro`. Continuam mortos, por nome inteiro ou por sentido: `Chicote`, `Guarda`, `Anteparo`, `Bloqueio`, `Proteção`, `Carapaça`. **O catálogo foi de 39 para 41 armas.**
+
+*Três contra-testes:* `Escudo` e `Lança` passaram de `OCUPADO` para `DENTRO`; `Toque`, que é Forma no manual **e** aparece em composto, continua `OCUPADO`, o que prova a prioridade do grau duro; e perturbando a linha que classifica, `Escudo` cai para `LIVRE`, o que prova que é ela que decide.
+
+### Decidido — `Alcance` e `Distância` ficam, com o motivo escrito
+
+As duas saem `OCUPADO` de verdade — `Alcance` é Família **e** Melhoria no manual, `Distância` é Tema — e as duas estão em uso como propriedade de arma.
+
+**A colisão é de camada, não de sentido:** no manual descrevem o que um *feitiço* faz; na tabela descrevem o que um *objeto* é. Nenhuma regra pendura efeito nos dois ao mesmo tempo. Entram no validador da peça como `ACEITA`, no formato que os rótulos de rascunho da peça 6 já usam.
+
+### Adicionado — a seção de itens comuns, em três camadas
+
+*Pedida pelo Mizuki. A moeda ficou de fora de propósito — "provavelmente vai ser com preço e fornecimento".*
+
+**A regra que abre a seção sai da conta: item comum não produz número.** Um item de +1 vale **33% de tudo que um atributo cresce em 28 níveis**, e com 5 a 7 mestres isso compõe — se cada um entregar um por arco, na terceira mesa o jogador ganhou de graça a campanha inteira, sem passar por marco, XP ou validador. **É o filtro multi-mestre falhando pelo lado que ninguém vigia: não é arbitragem divergente, é acúmulo invisível.**
+
+E os quatro eixos óbvios já têm dono: proteção bate no teto de Defesa, cura bate em três decisões, dado de dano bate na Rotina, PE bate no `conferir-orcamento`.
+
+| camada | o que é | o limite, e de onde ele sai |
+|---|---|---|
+| **1 · Permissão** | move de *não rola* para *rola sem maestria* | passa na lição nº 1 porque não empilha, não deriva (a CD de perícia é fixa) e não entra em rolagem disputada. **Item abre a porta, treino atravessa bem** |
+| **2 · Consumível** | gasta e some, então não compõe entre mesas | **um a dois por missão.** De três em diante ele cobre as três lutas de graça da peça 10 e vira a resposta padrão — é o teste do bônus automático aplicado a item |
+| **3 · Espaço** | inventário em slots | **desligada**, com gatilho escrito: *se o playtest mostrar que o grupo leva tudo sem escolher, o espaço entra* |
+
+*Levantamento externo por trás disso:* cinco sistemas com o modo de falha de cada um — o *Christmas tree* do 3.5, a lista que ninguém lê do 5e, o `load` discricionário do Blades, o Tetris do Torchbearer e a economia de crafting que o alquímico do PF2e exige por baixo.
+
+**E a ficção ajuda menos do que parecia.** Procurando o que um feiticeiro de JJK carrega além de ferramenta amaldiçoada, **não achei lastro** — a obra tem ferramenta e objeto amaldiçoado, e quase nenhum item mundano com peso de cena. O que tem lastro já está escrito nos ofícios: Herbalismo, Caligrafia, Forja, Entalhador dizem **quem fabrica**; falta dizer **o que sai**.
+
+### Corrigido — o README contava quinze validadores e o `subir.sh` roda dezesseis
+
+Achado na primeira leitura desta sessão, e ele é da mesma família do resto: `quinze` era o número certo com **doze** peças. A v0.39 subiu para treze e essa linha ficou.
+
+```
+13 de 03-mecanica/  +  conferir-repositorio.py  +  pac7.py  +  v7.py  =  16
+```
+
+**E o `conferir-repositorio.py` não alcança essa frase.** Ele confere as três linhas que contam peças e validadores, e não a prosa que diz quantos o script roda. *Número sem dono, errado desde a v0.39.*
+
+### Em aberto
+
+- **As sete propriedades de arma sem texto** — e essa é a dependência dura: enquanto forem só nome na tabela, 15 dos 16 pares da matriz saem `INCONCLUSIVO`, `Haste` e `Tiro pesado` ficam a 0,60 de estarem dominadas pela `Pesada`, e **o validador da peça não pode ser escrito**.
+- **O teto de Defesa 20 não tem dono declarado.** O §3 derivou dele e agora a escada de escudos se apoia nele. Derivação virou invariante sem ninguém decidir — a lição nº 9 entrando pela porta de trás. Ou a peça 1 adota, ou Equipamento declara que é dona.
+- **Os nomes dos três degraus de escudo.** Livres: Broquel, Pavês, Rodela, Adarga, Tarja, Couraça, Guarda-Corpo.
+- **A lista de itens comuns**, e a moeda.
+- **As quatro vagas de Desliga da peça 13** que esperam esta peça.
+- **A Cicatriz não tem mecânica, só nome.**
+- **Energia Reversa, Barreira Simples, Cortina** e a régua da Aptidão Própria.
+- **Qual modelo de clash vale.**
+- **Nome do sistema.**
+
+---
+
 ## [0.40] — 2026-08-12
 
 **Nenhuma regra e nenhum número de jogo mudaram.** Passada de documentação, feita na migração de conta e antes de abrir a peça de Equipamento. Ela existe porque três coisas que a documentação afirmava tinham deixado de ser verdade — e uma delas ensinava a confiar num verde que não confere nada.

@@ -141,47 +141,74 @@ O que ela deixou em aberto e que outra peça resolve:
 
 ---
 
-## 2 · Equipamento
+## 2 · Equipamento — EM ANDAMENTO desde a v0.41
 
 ```
 Retomando o RPG da Guilda. Leia `README.md` (as nove lições), o
-`sistema/ESTADO-ATUAL.md` inteiro e o `logs/CHANGELOG.md` de cima até a v0.32 —
-em especial a **v0.39** e a **v0.36**, que são as que decidem coisa desta peça.
-A fila está no ESTADO-ATUAL, na seção "A fila decidida com o Mizuki na v0.36".
+`sistema/ESTADO-ATUAL.md` inteiro e o `logs/CHANGELOG.md` de cima até a v0.36 —
+em especial a **v0.41**, que é a passada mais recente desta peça.
 
 O projeto está em **treze peças e treze validadores**. Esta vira a catorze, e a
 contagem sobe no README, no ESTADO-ATUAL, no LEIA-ME e na entrada do CHANGELOG
 ao mesmo tempo — senão o `conferir-repositorio.py` falha.
 
-A peça de agora é a **2: Equipamento** — armas, escudos e armaduras/uniformes.
-Pode ser D&D-like. Ela destrava três coisas: a árvore da Vanguarda, a **Técnica
-Marcial**, e **quatro vagas de Desliga da peça 13** que estão declaradas
-esperando exatamente esta peça.
+EQUIPAMENTO ESTÁ NO MEIO, e o estado dela mora em
+`sistema/03-mecanica/RASCUNHO-equipamento.md`. **LEIA ESSE ARQUIVO INTEIRO
+antes de propor qualquer coisa** — são 487 linhas, com as decisões já tomadas,
+o que foi rejeitado e por quê, e a conta de cada número. Não refaça nada que
+está lá; a conta já rodou, e três coisas que pareciam fechadas já caíram uma vez.
 
-Duas travas já calculadas, e as duas apertam:
+JÁ FECHADO — não reabra sem motivo novo:
 
-- `Defesa = 10 + Destreza + proteção`, e a ficha de nível 2 **já nasce com
-  proteção 1** — cobrir-se de energia, aptidão gratuita do refino 1, que dá
-  `1/3 do refino + 1`. No refino 10 ela dá 4.
-- Uniforme, armadura e escudo **desligam** essa proteção. Então a peça 11 já
-  registrou o recado, nas seções 4 e 10: **um uniforme precisa valer mais que
-  4, senão ele nasce morto.** Isso não é sugestão, é o piso.
+- Duas classes de uniforme, `Traje` e `Revestimento`, três degraus, requisito
+  de Força 3/5/6 e SEM gate de nível.
+- Oito classes de arma, 41 nomes. O requisito de Força é **grátis**: nenhuma
+  classe pede mais que 3, e 3 é o teto da criação. Ele resolve acesso, não
+  balanço — que é o que a peça 5 §1 já dizia.
+- **O escudo SOMA com cobrir-se.** Ele saiu da frase "uniforme, armadura e
+  escudo desligam a proteção de energia" — e essa mudança precisa chegar na
+  peça 8, na peça 11 §5 e na peça 11 §9. Ainda não chegou.
+- A escada de escudos: proteção, requisito de Força e **teto de Destreza**,
+  que é o que impede a dominância. Conferida por busca exaustiva contra o teto
+  de Defesa 20.
+- **RD foi levantada e morta**, e não pela conta — pelo critério do Mizuki:
+  "dar RD nunca é solução, vira mais um cálculo e ninguém quer isso". Não
+  proponha de novo.
+- Itens comuns, em três camadas: permissão, consumível de cena, e espaço
+  desligado com gatilho escrito. **A moeda ficou para depois**, e vai ser
+  provavelmente preço e fornecimento.
 
-E o dado de arma é **equipamento, não Caminho** — a v0.36 confirmou que o
-Caminho não dá dados de dano, e é por isso que o dano do soco e o da arma moram
-aqui.
+A DEPENDÊNCIA DURA, e é por onde se retoma:
 
-O QUE A PEÇA 13 DEIXOU ESPERANDO POR VOCÊ — leia `03-mecanica/13-legados.md`:
+**As sete propriedades de arma são só nome na tabela.** `Alcance`, `Distância`,
+`Par`, `Oculta`, `Arremesso`, `Versátil` e `Munição` não têm texto nenhum.
+Enquanto forem, 15 dos 16 pares da matriz de dominância saem INCONCLUSIVO,
+`Haste` e `Tiro pesado` ficam a 0,60 de estarem dominadas pela `Pesada`, e **o
+validador da peça não pode ser escrito**. Isso destrava o resto.
+
+O RESTO EM ABERTO:
+
+- **O teto de Defesa 20 não tem dono declarado.** O §3 do rascunho derivou dele
+  e a escada de escudos se apoia nele. Ou a peça 1 adota, ou esta peça declara
+  que é dona — e isso decide de onde o validador lê.
+- Os nomes dos três degraus de escudo. Livres na triagem: Broquel, Pavês,
+  Rodela, Adarga, Tarja, Couraça, Guarda-Corpo. **A categoria continua se
+  chamando Escudo** — decisão do Mizuki.
+- A lista de itens comuns, e a moeda.
+- `Uma mão` está dominada pela `Versátil`, e nenhum par de dados conserta
+  enquanto o escudo for proteção.
+
+O QUE A PEÇA 13 DEIXOU ESPERANDO — leia `03-mecanica/13-legados.md`:
 
 - **Quatro vagas de Desliga** nomeiam esta peça: Descendente, Reencarnado,
   Restrição Celestial e Corpo Amaldiçoado. Um Desliga precisa de **coisa
   nomeada que já existe e que ninguém comprou** — então ferramenta amaldiçoada
-  precisa ganhar propriedade nomeada para essas vagas fecharem. O
-  `conferir-legados.py` confere que cada vaga nomeia a peça que espera.
+  precisa ganhar propriedade nomeada para essas vagas fecharem.
 - **Três Legados já citam ferramenta e são os primeiros a reler:** `Armaria`
   (Descendente), `Desde Criança` (Restrição Celestial) e `Enterrado`
-  (Reencarnado). Os três funcionam hoje como ficção e acesso, porque Destranca
-  é zero no dado — mas o que eles valem muda quando ferramenta tiver número.
+  (Reencarnado).
+- Ferramenta amaldiçoada **ficou fora desta peça** por decisão do Mizuki: ela
+  entra em tópico próprio, com graus e forja.
 
 E A TÉCNICA MARCIAL COBRE DOIS CASOS DIFERENTES, decidido na v0.39:
 
@@ -191,16 +218,16 @@ E A TÉCNICA MARCIAL COBRE DOIS CASOS DIFERENTES, decidido na v0.39:
 - **A Maki não tem nada** — energia zero, sem PE, sem golpe canalizado, sem
   Sentir Energia. Ela é a única que fica com as Bênçãos e a Lapidação.
 
-Não são a mesma rota, e a peça precisa saber disso antes de precificar.
-
 PROCEDIMENTO:
 - Rode os validadores antes de mexer em número, de `sistema/03-mecanica/` —
   é o que o `subir.sh` faz. Confira PULADA=0: sem `python-docx` três deles
   pulam e saem com código 0 — 3 de 5, 4 de 4 e 1 de 8, nessa ordem.
-- Rode a triagem antes de batizar arma, material ou categoria:
-  `python3 conferir-nomes.py --candidatos <nomes>`. Ela pega substring e já
-  matou nome que parecia livre — e NÃO pega colisão de sentido nem de
-  vocabulário do hobby, então confira as duas à mão.
+- Rode a triagem antes de batizar qualquer coisa:
+  `python3 conferir-nomes.py --candidatos <nomes>`. **Ela mudou na v0.41** e
+  agora separa `OCUPADO` (o nome inteiro já é termo) de `DENTRO` (o nome só
+  aparece dentro de um termo composto). **DENTRO não mata** — vá ler o termo e
+  pergunte se ele É aquilo. E ela continua sem pegar colisão de sentido nem
+  vocabulário herdado do hobby, então confira as duas à mão.
 - A peça sai **com validador junto**, com arnês de perturbação numa cópia
   isolada: conferir que a base passa antes de perturbar, e conferir o `diff`
   antes de ler o resultado.

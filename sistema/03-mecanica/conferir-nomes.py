@@ -464,6 +464,12 @@ bloco('6. TRIAGEM DE CANDIDATO — rode antes de batizar qualquer coisa')
 
 # python3 conferir-nomes.py --candidatos Vulto Matilha Bigorna
 # Nao faz parte do contrato: nao falha, so responde se o nome esta livre.
+#
+#   OCUPADO  o nome inteiro ja e termo definido. Escolha outro.
+#   DENTRO   o nome aparece dentro de um termo composto. NAO e veredito:
+#            va ler o termo e pergunte se ele E aquilo. Se nao for, use.
+#   fraco    fica a uma letra de um termo. Confunde na mesa em voz alta.
+#   LIVRE    ninguem usa.
 candidatos = sys.argv[2:] if len(sys.argv) > 1 and sys.argv[1] == '--candidatos' else []
 if not candidatos:
     print('  (nenhum. Uso: python3 conferir-nomes.py --candidatos Vulto Matilha ...)')
@@ -471,28 +477,36 @@ else:
     ocupados = {norma(n): cat for cat, n in UNIVERSO}
     for cand in candidatos:
         k = norma(cand)
-        motivos = []
+        # DUROS: o nome inteiro ja e um termo definido. Mata o candidato.
+        # DENTRO: o nome aparece dentro de um termo COMPOSTO. Nao mata —
+        #   pede a pergunta de sentido, e so o humano responde. Criterio do
+        #   Mizuki, v0.40: "se preocupe quando o nome bate de frente com o
+        #   nome de algo que e REALMENTE aquilo". Uma Melhoria chamada
+        #   "Rasga Escudo" nao E um escudo, entao ela nao ocupa "Escudo".
+        duros, dentro = [], []
         if k in ocupados:
-            motivos.append(f'ja e {ocupados[k]} no projeto')
+            duros.append(f'ja e {ocupados[k]} no projeto')
         for cat, n in UNIVERSO:
             if len(n.split()) > 1 and re.search(
                     r'(?<![0-9a-z])' + re.escape(k) + r'(?![0-9a-z])', norma(n)):
-                motivos.append(f'esta dentro de "{n}" ({cat})')
+                dentro.append(f'dentro de "{n}" ({cat})')
         for c, lista in CATEGORIAS.items():
             for x in lista:
                 if norma(x) == k:
-                    motivos.append(f'e {c} no manual')
+                    duros.append(f'e {c} no manual')
                 elif len(x.split()) > 1 and re.search(
                         r'(?<![0-9a-z])' + re.escape(k) + r'(?![0-9a-z])', norma(x)):
-                    motivos.append(f'esta dentro de "{x}" ({c})')
+                    dentro.append(f'dentro de "{x}" ({c})')
                 # e o inverso: "Selo de uma Mao" carrega "Selo" dentro dele
                 elif len(cand.split()) > 1 and re.search(
                         r'(?<![0-9a-z])' + re.escape(norma(x)) + r'(?![0-9a-z])', k):
-                    motivos.append(f'carrega "{x}" dentro dele, que e {c} no manual')
+                    dentro.append(f'carrega "{x}" ({c}) dentro dele')
         fracas = [f'a uma letra de "{x}" ({c})'
                   for c, lista in CATEGORIAS.items() for x in lista if perto(cand, x)]
-        if motivos:
-            print(f'  OCUPADO  {cand:<16} {"; ".join(dict.fromkeys(motivos))[:64]}')
+        if duros:
+            print(f'  OCUPADO  {cand:<16} {"; ".join(dict.fromkeys(duros))[:62]}')
+        elif dentro:
+            print(f'  DENTRO   {cand:<16} {"; ".join(dict.fromkeys(dentro))[:62]}')
         elif fracas:
             print(f'  fraco    {cand:<16} {fracas[0]}')
         else:
