@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 12/08/2026. Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 12/08/2026, na v0.38 (última passada: Legados). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.37.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **doze peças escritas** e **doze validadores**. Manual do Fundamento na **v7.8**, com a Expansão de Domínio escrita, e o catálogo de aptidões com **dez das catorze entradas fechadas**. **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas** — por seis das nove rotas de Origem, e agora sem nenhum buraco de regra que morda nessa faixa.
+**Versão v0.39.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **treze peças escritas** e **treze validadores**. Manual do Fundamento na **v7.8**, com a Expansão de Domínio escrita, e o catálogo de aptidões com **dez das catorze entradas fechadas**. **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas** — por seis das nove rotas de Origem, e agora sem nenhum buraco de regra que morda nessa faixa.
 
 ## Como retomar
 
@@ -36,13 +36,20 @@ python3 conferir-nomes.py --candidatos Vulto Matilha Bigorna
 
 **O sexto entrou na v0.26 e olha a direção que faltava.** O `conferir-nomes` pergunta *"esse nome que eu batizei já significa alguma coisa no manual?"*; o `conferir-manual` pergunta *"o manual usa alguma palavra que este sistema não tem?"*. Foi por não existir que o `Bônus de Treinamento` e o `Habilidade/Sabedoria` sobreviveram tanto tempo. Ele também confere que a **tabela de PE, a de inimigo e a coluna Rotina** — que estão copiadas dentro das peças e dos outros validadores — continuam batendo com o `.docx`.
 
-Os dois últimos precisam de `python-docx`; sem ele eles **pulam** as checagens que leem o manual, em vez de falhar.
+Os dois últimos precisam de `python-docx`; sem ele eles **pulam** as checagens que leem o manual, em vez de falhar — 4, 2 e 1 checagens, medidas na v0.38.
 
-## As cinco skills, e onde elas moram
+> **O que mudou na v0.38:** rodar de outro diretório **não** faz mais ninguém pular checagem. Os quatro que abrem arquivo do manual resolvem por `__file__`, e de `/tmp` a saída sai idêntica com zero puladas. O `README` e o `LEIA-ME` diziam o contrário desde a v0.28 e foram corrigidos. **Continue rodando de `03-mecanica/`** — o `subir.sh` faz assim —, mas o motivo agora é hábito e não defeito. **A pulada que sobrou é a do `python-docx`, e essa é real.**
 
-`rpg-da-guilda` · `design-mecanicas-rpg` · `balanceamento-simulacao` · `playtesting-rpg` · `redacao-acessivel-rpg`
+## As seis skills, e onde elas moram
 
-Estão na conta e disparam sozinhas. A **`rpg-da-guilda`** entrou na v0.37 e é a única de procedimento e não de assunto: ordem de leitura, de onde rodar os validadores, o que a triagem de nomes não pega, como escrever arquivo neste mount, o arnês de perturbação e como fechar versão. Ela guarda **procedimento e nunca conteúdo** — aponta para o `README.md` em vez de copiar as lições.
+**Procedimento:** `rpg-da-guilda` · `pesquisa-antes-de-propor`
+**Assunto:** `design-mecanicas-rpg` · `balanceamento-simulacao` · `playtesting-rpg` · `redacao-acessivel-rpg`
+
+Estão na conta e disparam sozinhas. A **`rpg-da-guilda`** entrou na v0.37: ordem de leitura, de onde rodar os validadores, o que a triagem de nomes não pega, como escrever arquivo neste mount, o arnês de perturbação e como fechar versão.
+
+A **`pesquisa-antes-de-propor`** entrou na v0.38, e ela existe por um defeito medido: *a linha "pesquise antes de inventar" já estava na `rpg-da-guilda`, enterrada num bullet de uma lista de oito, e não disparava.* Ela troca o lembrete por **gatilho** — sete casos em que a busca externa é obrigatória antes de entregar — e traz junto a metade que ninguém escreve: **o que não se pesquisa fora.** Número que um documento do projeto é dono se lê do dono; buscar fora cria a segunda fonte, que é a lição nº 9 entrando por outra porta.
+
+As duas guardam **procedimento e nunca conteúdo** — apontam para o `README.md` em vez de copiar as lições.
 
 **A pasta `sistema/skills/` é cópia de trabalho — editar lá não altera a skill instalada**, e as duas divergem sozinhas. *Aconteceu:* na v0.37 a descrição do `playtesting-rpg` no repositório estava seis meses atrás da instalada, e descrição é o que decide quando a skill dispara. **Ao mudar uma skill, mude nos dois lados** — nenhum validador alcança essa camada.
 
@@ -249,9 +256,32 @@ O d10 fica grande de propósito: a ameaça é calibrada contra o nível do grupo
 
 **E isso fecha um laço que ninguém tinha visto:** se a expansão completa sempre acerta, os **quatro anti-domínio serem aptidões baratas é o que a torna sobrevivível**. Se fossem raros, o acerto garantido seria opressivo. A decisão de pôr os quatro no catálogo por marco foi tomada antes de a expansão ter forma, e é a peça que faz as duas funcionarem juntas.
 
-**As Bênçãos de Corpo, para quem não tem energia.** A Restrição Celestial pelo ramo da Maki e o Corpo Amaldiçoado não têm energia amaldiçoada — sem PE, sem golpe canalizado, sem Sentir Energia — então não têm aptidão nem refino. Eles ganham **a mesma máquina com outra métrica**: as aptidões se chamam **Bênçãos** e o refino se chama **Lapidação**. Andar em parede e em água, deslocar-se no ar, *fast steps* — o físico no lugar do energético. Os dois nomes passaram pela triagem e estão livres nas duas direções.
+**As Bênçãos de Corpo, para quem não tem energia.** A Restrição Celestial pelo ramo da Maki não tem energia amaldiçoada — sem PE, sem golpe canalizado, sem Sentir Energia — então não tem aptidão nem refino. Ela ganha **a mesma máquina com outra métrica**: as aptidões se chamam **Bênçãos** e o refino se chama **Lapidação**.
+
+> **Corpo Amaldiçoado saiu deste balde na v0.38, e o motivo é canon.** A frase acima incluía os dois. Mas *cadáver amaldiçoado de mutação abrupta produz a própria energia* — é literalmente o que a mutação concede, cerca de três meses depois de ele acordar. **O que ele não tem é técnica, não energia.**
+>
+> Então ele é **misto**: PE, aptidões e refino como qualquer feiticeiro, e **Técnica Marcial** no lugar do Fundamento, porque não existe técnica inata para escrever. A Maki é a única sem energia nenhuma, e as Bênçãos são só dela.
+>
+> *Decidido com o Mizuki. Falta aplicar na peça 9 §5, que ainda diz "sem energia amaldiçoada convencional" — vai junto com as outras mudanças que a peça 13 deve àquela peça.* Andar em parede e em água, deslocar-se no ar, *fast steps* — o físico no lugar do energético. Os dois nomes passaram pela triagem e estão livres nas duas direções.
 
 Isso é a camada de aptidão da **Técnica Marcial**, que o material já descreve como *"paga com o corpo e com ferramenta amaldiçoada"* — e é o que destrava duas das três rotas de Origem que não rodam hoje.
+
+### Sem Técnica precisa de máquina de criação própria, e ela é menor do que o esqueleto supôs
+
+*Decidido na v0.38, e os dois lados vieram de levantamento.*
+
+**O `arquitetura.md` diz que Sem Técnica precisa de "um sistema próprio, paralelo ao Fundamento". Pelo material, precisa de menos do que isso — e por outro motivo, de mais.**
+
+| rota | o que ela é, no material |
+|---|---|
+| **Aptidão** | **Energia Reversa não é técnica inata** — é manipulação de energia amaldiçoada, e é por isso que quem não tem técnica consegue usar. O raro nela é curar **os outros** |
+| **Estilo da Sombra** | **anti-domínio**, e a espada é o jeito mais comum, não o requisito. A técnica central foi aprendida em um mês por quem não usa espada, e o líder atual da escola derrubou as restrições dela |
+
+**Metade já existe:** as quatro anti-domínio entraram na v0.29 e a **seção 6.5 da peça 11** já trata o Domínio Simples como aptidão pura, sem lâmina. A Energia Reversa está na lista de aptidões pendentes.
+
+> **Mas a rota não pode ser "os outros menos o Fundamento".** Se for só subtração, ela fica atrás de todo mundo e ninguém escolhe por vontade — escolhe por castigo. **Ela precisa de uma máquina de construção com a mesma dignidade que o Fundamento tem:** quantas aptidões, com que orçamento, e o que se paga por elas.
+
+*A prosa da peça 9 chama o Estilo da Sombra de "técnica de espada e corpo", e isso ficou mais estreito que a própria mecânica do projeto. Corrigir quando a peça sair.*
 
 ### A Expansão de Domínio, escrita — manual v7.7
 
@@ -468,7 +498,7 @@ E uma coisa solta que não é peça: **o nome do sistema**.
 | rota | jogável hoje |
 |---|---|
 | Latente · Receptáculo · Descendente · Reencarnado · Feto | **sim** — vão para o Fundamento |
-| Restrição Celestial, ramo do Mechamaru | **sim** — Fundamento, com o corpo limitado na ficha |
+| Restrição Celestial, ramo do Kokichi Muta | **sim** — Fundamento, com o corpo limitado na ficha |
 | qualquer uma **+ Sem Técnica** | não — falta Aptidão ou Estilo da Sombra |
 | Corpo Amaldiçoado | não — falta Técnica Marcial |
 | Restrição Celestial, ramo da Maki | não — falta Técnica Marcial |

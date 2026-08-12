@@ -16,7 +16,7 @@ Copie o bloco inteiro da peça que for fazer.
 |---|---|---|
 | **o repositório inteiro** | esta pasta | 13 MB fora de `.git/` e `_backup/`. É a fonte da verdade — regras, validadores, manual, gerador e as skills |
 | **o `.git/`** | esta pasta | leva junto se quiser o histórico. Se preferir começar limpo, um `git init` novo perde só o histórico de commit — **o `logs/CHANGELOG.md` é quem guarda o porquê**, e ele é arquivo comum |
-| **as cinco skills** | `sistema/skills/` | quatro de apoio a RPG mais a `rpg-da-guilda`, que é o procedimento deste repositório. **Skill é da conta, não do repositório** — precisam ser instaladas de novo na conta nova |
+| **as sete skills** | `sistema/skills/` | quatro de apoio a RPG, mais `rpg-da-guilda` (o procedimento deste repositório), `pesquisa-antes-de-propor` e `gasto-de-modelo`. **Skill é da conta, não do repositório** — precisam ser instaladas de novo na conta nova |
 | **o Project do Claude**, se usar | fora daqui | recriar apontando para o mesmo GitHub, e clicar em *Sync now* |
 
 **O que NÃO precisa viajar:** `_backup/` (é o estado pré-reorganização, e o `.gitignore` já o segura), `manual/gerador/node_modules/` (reinstala com `npm install docx`) e qualquer `__pycache__/`.
@@ -26,14 +26,14 @@ Copie o bloco inteiro da peça que for fazer.
 **pulam** as checagens que leem o manual em vez de falhar — eles saem verdes
 sem terem conferido nada.
 
-### Como instalar as cinco skills na conta nova
+### Como instalar as sete skills na conta nova
 
-As cinco moram em `sistema/skills/`, cada uma com o seu `SKILL.md`. Dois caminhos:
+As sete moram em `sistema/skills/`, cada uma com o seu `SKILL.md`. Dois caminhos:
 
 1. **Pelo arquivo `.skill`** — zipe cada pasta com extensão `.skill` e mande no chat; ele mostra um botão de instalar.
-2. **Pelo repositório** — peça ao assistente da conta nova: *"leia `sistema/skills/` e instale as cinco skills que estão lá"*. Ele lê os `SKILL.md` e salva cada uma.
+2. **Pelo repositório** — peça ao assistente da conta nova: *"leia `sistema/skills/` e instale as skills que estão lá"*. Ele lê os `SKILL.md` e salva cada uma.
 
-**A `rpg-da-guilda` é a mais importante das cinco**, porque ela guarda o
+**A `rpg-da-guilda` é a mais importante de todas**, porque ela guarda o
 procedimento que custou versão para aprender: de onde rodar os validadores, o
 que a triagem de nomes não pega, como escrever arquivo neste mount sem o
 arquivo sumir, e o arnês de perturbação. Sem ela, o chat novo redescobre tudo
@@ -49,8 +49,8 @@ server de guilda com 5 a 7 mestres ativos e personagem persistente entre mesas.
 Eu migrei o projeto de conta e você está pegando ele no meio de uma peça.
 Antes de escrever qualquer coisa, faça esta sequência inteira e me relate cada passo.
 
-1. INSTALE AS SKILLS. Estão em `sistema/skills/`, cinco pastas com SKILL.md.
-   Leia cada uma e salve as cinco na conta. A `rpg-da-guilda` é a mais
+1. INSTALE AS SKILLS. Estão em `sistema/skills/`, sete pastas com SKILL.md.
+   Leia cada uma e salve todas na conta. A `rpg-da-guilda` é a mais
    importante: ela é o procedimento deste repositório e existe para você não
    redescobrir errando o que já custou versão. Leia ela primeiro e siga.
 
@@ -68,10 +68,11 @@ Antes de escrever qualquer coisa, faça esta sequência inteira e me relate cada
      recente, e ele carrega o PORQUÊ de cada decisão — é a única parte do
      projeto que não dá para reconstruir lendo o resto.
 
-4. RODE OS VALIDADORES, sempre de dentro de `sistema/03-mecanica/`. De outro
-   diretório três deles pulam checagem em silêncio e saem verdes. Depois rode o
-   `conferir-repositorio.py` da raiz. Me diga quantos passaram e se algum
-   imprimiu PULADA — verde que pulou checagem não prova nada.
+4. RODE OS VALIDADORES de dentro de `sistema/03-mecanica/`, que é o que o
+   `subir.sh` faz. Depois o `conferir-repositorio.py` da raiz. Me diga quantos
+   passaram e se algum imprimiu PULADA — verde que pulou checagem não prova
+   nada, e sem `python-docx` três deles pulam 4, 2 e 1 checagens e saem com
+   código 0.
 
 5. NÃO RODE GIT. Deste sandbox o git sai com "loose object is corrupt" e o
    repositório está inteiro — é o mount. Pior: `git status` cria um
@@ -79,12 +80,13 @@ Antes de escrever qualquer coisa, faça esta sequência inteira e me relate cada
    `./subir.sh`. Commit é sempre meu.
 
 ONDE O TRABALHO PAROU
-A peça 13 (Legados) está no meio, em `sistema/03-mecanica/RASCUNHO-legados-regua.md`.
-Ela tem duas metades: a régua de magnitude, fechada, e o catálogo, pela metade —
-Latente, Receptáculo e Descendente prontos, Reencarnado incompleto, e Feto,
-Corpo Amaldiçoado e Restrição Celestial não começados. O arquivo não leva número
-no nome de propósito: meia peça não é peça, e arquivo com dois dígitos na frente
-quebra a contagem do `conferir-repositorio.py`.
+A peça 13 (Legados) FECHOU na v0.39: `sistema/03-mecanica/13-legados.md`, com o
+`conferir-legados.py` junto. São 81 entradas nas sete Origens, mais o Sem Técnica,
+e sete vagas de Desliga declaradas esperando peça nova — quatro esperam equipamento
+e três esperam dano-e-condições.
+
+A próxima da fila é EQUIPAMENTO. Ela destrava a Vanguarda, a Técnica Marcial e as
+sete vagas de Desliga, e é a peça 2 da ordem decidida na v0.36.
 
 COMO EU GOSTO DE TRABALHAR
 - Escolha de sabor é minha: quantos itens numa lista, quais são, como se chamam.
@@ -107,74 +109,37 @@ Comece pelos cinco passos e me diga o que você entendeu do estado atual.
 
 ---
 
-## 1 · Legados — em andamento, peça 13
+## 1 · Legados — FECHADA na v0.39
 
-```
-Retomando o RPG da Guilda, na peça 13 — Legados. Ela está pela metade, em
-`sistema/03-mecanica/RASCUNHO-legados-regua.md`.
+A peça 13 está pronta: `sistema/03-mecanica/13-legados.md` + `conferir-legados.py`.
+81 entradas, sete listas de Origem, mais o `Sem Técnica`. Não precisa de prompt.
 
-Leia o `README.md` (as nove lições), o `sistema/ESTADO-ATUAL.md` inteiro, o
-`logs/CHANGELOG.md` de cima até a v0.33, e o rascunho inteiro. A peça 9 continua
-dona das Origens; o que mudou de casa é a régua e o catálogo.
-
-**A régua está fechada.** Três formatos, e cada um tem trava própria:
-
-- **Ajusta** mexe em número de rolagem. Sempre tem relógio da escada da peça 10,
-  e a largura escolhe o degrau: até três coisas nomeadas pode ser por cena,
-  categoria inteira desce para por dia. Não existe Ajusta permanente.
-- **Desliga** só apaga o que ninguém comprou. Dano não, condição não — Condição
-  Menor custa Média e Maior custa Pesada —, nem o que qualquer Melhoria concede.
-  Sobra o que o mundo faz com você fora do feitiço. **É teto, não cota:** os
-  alvos legais do sistema são sete, e seis já estão usados.
-- **Destranca** é zero no dado, e tem duas cláusulas: o jogador puxa o gatilho,
-  e ele afirma sobre o mundo alguma coisa que só aquele personagem afirma.
-  Relógio só quando o mestre responde com verdade.
-
-**A escolha é dois Legados: um Destranca obrigatório, e mais um de qualquer
-lista.** Isso reabre uma linha da peça 9 que diz o contrário, e a mudança ainda
-precisa chegar na peça 8, na peça 9, no `ficha.js` do gerador e nos dois
-validadores que conferem a ficha. Enquanto o rascunho for rascunho, a regra
-antiga é a que vale.
-
-**Alvo por Origem:** 4 Destranca · 4 Ajusta · até 2 Desliga.
-
-**Escritas: Latente (10), Receptáculo (9), Descendente (10) e Reencarnado (5).**
-O Reencarnado está incompleto — faltam 3 Destranca e ele ficou com zero Desliga
-depois que os dois dele foram reprovados por apagarem condição. Faltam inteiras:
-**Feto, Corpo Amaldiçoado e Restrição Celestial.**
-
-Duas coisas do catálogo antigo que ainda não foram tratadas:
-- **Não Sou Gente** (Corpo Amaldiçoado) é imunidade a dano e a régua reprova.
-  A saída registrada é a imunidade mudar de camada e virar Passiva paga com
-  espaço de feitiço, e o Legado ficar com a metade que não é dano.
-- **Irmãos** (Feto) é o piso do catálogo: o jogador não consegue disparar, e o
-  efeito é simétrico. Precisa de gatilho do jogador ou de aposentadoria.
-
-E a peça sai com **validador junto** — a peça 9 é uma das que nunca teve um, e é
-de peça sem validador que saíram os dois erros da v0.34.
-
-Antes de batizar qualquer Legado, rode
-`python3 conferir-nomes.py --candidatos <nomes>` de `sistema/03-mecanica/`.
-Ela já matou mais de dez nomes que pareciam livres — e não pega colisão de
-sentido nem de vocabulário do hobby, então confira as duas à mão.
-
-Me mostre no chat o que você escrever, e me mostre o que a Origem já tem antes
-de entrar nela.
-```
+O que ela deixou em aberto e que outra peça resolve:
+- **As sete vagas de Desliga** — quatro esperam equipamento, três esperam a peça de
+  dano e condições. O validador confere que cada vaga nomeia a peça que espera.
+- **A máquina de criação do Sem Técnica** — Aptidão e Estilo da Sombra. A rota não
+  pode ser "os outros menos o Fundamento", senão ninguém escolhe por vontade.
+- **O `.docx` da ficha** ficou atrás do `ficha.js`, que ganhou o campo do segundo
+  Legado. Regerar com `node make.js` em `05-material/gerador-ficha/`.
 
 ---
 
 ## 2 · Equipamento
 
 ```
-Retomando o RPG da Guilda. Leia `README.md`, `sistema/ESTADO-ATUAL.md` e o
-`logs/CHANGELOG.md` de cima até a v0.32. A fila está no ESTADO-ATUAL, na seção
-"A fila decidida com o Mizuki na v0.36".
+Retomando o RPG da Guilda. Leia `README.md` (as nove lições), o
+`sistema/ESTADO-ATUAL.md` inteiro e o `logs/CHANGELOG.md` de cima até a v0.32 —
+em especial a **v0.39** e a **v0.36**, que são as que decidem coisa desta peça.
+A fila está no ESTADO-ATUAL, na seção "A fila decidida com o Mizuki na v0.36".
+
+O projeto está em **treze peças e treze validadores**. Esta vira a catorze, e a
+contagem sobe no README, no ESTADO-ATUAL, no LEIA-ME e na entrada do CHANGELOG
+ao mesmo tempo — senão o `conferir-repositorio.py` falha.
 
 A peça de agora é a **2: Equipamento** — armas, escudos e armaduras/uniformes.
-Pode ser D&D-like. Ela destrava duas coisas: a árvore da Vanguarda, e a
-**Técnica Marcial**, que é o que falta para duas das três rotas de Origem que
-não rodam hoje.
+Pode ser D&D-like. Ela destrava três coisas: a árvore da Vanguarda, a **Técnica
+Marcial**, e **quatro vagas de Desliga da peça 13** que estão declaradas
+esperando exatamente esta peça.
 
 Duas travas já calculadas, e as duas apertam:
 
@@ -182,17 +147,48 @@ Duas travas já calculadas, e as duas apertam:
   proteção 1** — cobrir-se de energia, aptidão gratuita do refino 1, que dá
   `1/3 do refino + 1`. No refino 10 ela dá 4.
 - Uniforme, armadura e escudo **desligam** essa proteção. Então a peça 11 já
-  registrou o recado: **um uniforme precisa valer mais que 4, senão ele nasce
-  morto.** Isso não é sugestão, é o piso.
+  registrou o recado, nas seções 4 e 10: **um uniforme precisa valer mais que
+  4, senão ele nasce morto.** Isso não é sugestão, é o piso.
 
 E o dado de arma é **equipamento, não Caminho** — a v0.36 confirmou que o
 Caminho não dá dados de dano, e é por isso que o dano do soco e o da arma moram
 aqui.
 
-Rode os validadores antes de mexer em número, sempre de `sistema/03-mecanica/`.
-Rode a triagem de nomes antes de batizar arma, material ou categoria.
-Leia as nove lições do README antes de escrever conta nova, e a peça sai com
-validador junto.
+O QUE A PEÇA 13 DEIXOU ESPERANDO POR VOCÊ — leia `03-mecanica/13-legados.md`:
+
+- **Quatro vagas de Desliga** nomeiam esta peça: Descendente, Reencarnado,
+  Restrição Celestial e Corpo Amaldiçoado. Um Desliga precisa de **coisa
+  nomeada que já existe e que ninguém comprou** — então ferramenta amaldiçoada
+  precisa ganhar propriedade nomeada para essas vagas fecharem. O
+  `conferir-legados.py` confere que cada vaga nomeia a peça que espera.
+- **Três Legados já citam ferramenta e são os primeiros a reler:** `Armaria`
+  (Descendente), `Desde Criança` (Restrição Celestial) e `Enterrado`
+  (Reencarnado). Os três funcionam hoje como ficção e acesso, porque Destranca
+  é zero no dado — mas o que eles valem muda quando ferramenta tiver número.
+
+E A TÉCNICA MARCIAL COBRE DOIS CASOS DIFERENTES, decidido na v0.39:
+
+- **Corpo Amaldiçoado TEM energia amaldiçoada** — cadáver de mutação abrupta
+  produz a própria. Ele tem PE, aptidões e refino normais; o que falta é
+  técnica inata.
+- **A Maki não tem nada** — energia zero, sem PE, sem golpe canalizado, sem
+  Sentir Energia. Ela é a única que fica com as Bênçãos e a Lapidação.
+
+Não são a mesma rota, e a peça precisa saber disso antes de precificar.
+
+PROCEDIMENTO:
+- Rode os validadores antes de mexer em número, de `sistema/03-mecanica/` —
+  é o que o `subir.sh` faz. Confira PULADA=0: sem `python-docx` três deles
+  pulam 4, 2 e 1 checagens e saem com código 0.
+- Rode a triagem antes de batizar arma, material ou categoria:
+  `python3 conferir-nomes.py --candidatos <nomes>`. Ela pega substring e já
+  matou nome que parecia livre — e NÃO pega colisão de sentido nem de
+  vocabulário do hobby, então confira as duas à mão.
+- A peça sai **com validador junto**, com arnês de perturbação numa cópia
+  isolada: conferir que a base passa antes de perturbar, e conferir o `diff`
+  antes de ler o resultado.
+- Me mostre no chat o que você escrever, e me mostre o que a peça já tem antes
+  de entrar nela.
 ```
 
 ---

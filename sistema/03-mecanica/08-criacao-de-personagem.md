@@ -17,7 +17,7 @@ Uma ficha de feiticeiro de **nível 2**, pronta para jogar. Ela cabe numa págin
 - **Uma Origem**, que diz de onde veio o seu poder e o que a instituição acha de você
 - **Oito perícias e três ofícios** treinados — ou nove e dois, você escolhe
 - **Dois Testes de Resistência** treinados, de quatro
-- **Um Legado**, que veio da sua Origem e é o único que você vai ter
+- **Dois Legados**, das listas da sua Origem: **um Destranca, obrigatório**, e mais um de qualquer lista. O catálogo é a peça 13
 - **Cinco feitiços**: dois pequenos e grátis, três de verdade
 - Os números que caem sozinhos: vida, energia, Defesa, iniciativa
 
@@ -56,7 +56,7 @@ Ela dá seis coisas:
 | **Um ofício livre** | ou, se você não quiser ofício, mais uma perícia |
 | **Um Teste de Resistência treinado** | qualquer um dos quatro. O outro vem do Caminho |
 | **Um traço não numérico** | um acesso, uma obrigação, um contato, uma marca no corpo, alguém atrás de você |
-| **Um Legado** | um só, na criação. O sistema nunca concede outro |
+| **Dois Legados** | os dois na criação, e o sistema nunca concede outro. Um é **Destranca** obrigatório — zero no dado, e é quem o personagem é; o outro sai de qualquer lista da Origem. **Peça 13** |
 
 **A patente não vem da Origem.** Todo personagem começa **Grau 4**, venha de onde vier — a patente é eixo social e sobe por feito. Quem entra no topo sabendo pouco existe na ficção, e a instituição pode classificar quem ela quiser; o que não existe é a Origem que começa na frente.
 
@@ -208,7 +208,8 @@ Pacto é o que você trocou por poder. Ele permite quase qualquer coisa desde qu
 - *Extra:* pegou o **ofício** — **Herbalismo**, da avó
 - *Teste de Resistência:* **Vigor**
 - *Traço:* o ramo do clã que perdeu, e ela é dele
-- *Legado:* **O Sobrenome** — ela consegue audiência em qualquer lugar do meio jujutsu. Ser bem recebida é outra história
+- *Legado · Destranca:* **O Sobrenome** — ela consegue audiência em qualquer lugar do meio jujutsu. Ser bem recebida é outra história
+- *Legado · o segundo:* **Biblioteca** — uma vez por cena, refaz um teste de História ou Ocultismo. A casa tinha os livros, e ela foi obrigada a ler
 
 **A Regra.** *"Tudo que eu prendo entre as minhas mãos fica mais pesado."*
 

@@ -198,7 +198,8 @@ function pagina3(f) {
   out.push(FAIXA('O que a Origem te deu'));
   out.push(BLOCO('o traço — um acesso, uma obrigação, um contato, uma marca no corpo, alguém atrás de você',
     V(l, 'traco'), 2));
-  out.push(BLOCO('o Legado — um só, na criação. O sistema nunca concede outro', V(l, 'legado'), 2));
+  out.push(BLOCO('o Legado Destranca — obrigatório, zero no dado, e é quem você é', V(l, 'legado'), 2));
+  out.push(BLOCO('o segundo Legado — de qualquer lista da sua Origem', V(l, 'legado2'), 2));
 
   out.push(FAIXA('Laços'));
   out.push(BLOCO('quem você conhece, quem te deve, quem te cobra', V(l, 'lacos'), 2));

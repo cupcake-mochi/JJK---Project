@@ -13,7 +13,7 @@ Sistema de RPG de mesa em desenvolvimento, ambientado no universo de Jujutsu Kai
 | `04-playtest/` | Roteiro de teste, formulários e retorno organizado por tema |
 | `05-material/` | A **ficha de personagem** e o gerador dela. Falta o quick-start e o livro |
 | `99-arquivo/` | **Material morto.** Nada aqui é regra corrente — ver o `LEIA-ME.md` de lá |
-| `skills/` | Cópia de trabalho das quatro skills de apoio |
+| `skills/` | Cópia de trabalho das seis skills de apoio |
 
 **Sobre o `99-arquivo/`:** quando uma peça é substituída, ela não é apagada — vai para lá com um cabeçalho dizendo de onde saiu, o que a substituiu e **por que morreu**. Se você está escrevendo peça nova, não leia de lá.
 
@@ -24,9 +24,12 @@ Sistema de RPG de mesa em desenvolvimento, ambientado no universo de Jujutsu Kai
 3. `01-pesquisa/dossie-de-metodologia.md` — a seção 8 é o resumo executivo: as dez travas que o sistema precisa respeitar
 4. `../logs/CHANGELOG.md` — o que mudou e por quê
 
-## As quatro skills
+## As seis skills
 
-Instaladas na conta e disponíveis em qualquer conversa, não só nesta pasta:
+Instaladas na conta e disponíveis em qualquer conversa, não só nesta pasta. **Duas são de procedimento e quatro são de assunto:**
+
+- **`rpg-da-guilda`** — o procedimento deste repositório: ordem de leitura, de onde rodar os validadores, o que a triagem de nomes não pega, como escrever arquivo neste mount, o arnês de perturbação, como fechar versão
+- **`pesquisa-antes-de-propor`** — o gatilho que obriga levantamento externo antes de propor, onde procurar por domínio, como julgar fonte e o que **não** se pesquisa fora
 
 - **`design-mecanicas-rpg`** — teste de dominância, bônus automático, filtro multi-mestre, aprovação de habilidade de jogador
 - **`balanceamento-simulacao`** — contrato de invariantes, busca exaustiva, matriz de dominância, regressão
@@ -37,17 +40,19 @@ A pasta `skills/` guarda a versão com arquivos separados. A versão instalada t
 
 ## Versão atual
 
-**v0.37.** Fases 0 a 3 fechadas; a Fase 4 (mecânica) está em andamento com **doze peças escritas e doze validadores passando**. O manual do Fundamento está na **v7.8**, e ele é um subsistema fechado — a técnica e o feitiço já funcionam. O `.pdf` continua na v7.4, porque é exportado à mão.
+**v0.39.** Fases 0 a 3 fechadas; a Fase 4 (mecânica) está em andamento com **treze peças escritas e treze validadores passando**. O manual do Fundamento está na **v7.8**, e ele é um subsistema fechado — a técnica e o feitiço já funcionam. O `.pdf` continua na v7.4, porque é exportado à mão.
 
 **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas**, por seis das nove rotas de Origem. Desde a v0.32 não sobrou peça de regra travando ninguém nessa faixa: das dezessete coisas que uma ficha de nível 2 precisa, **treze existem, e as quatro que faltam não mordem nessa faixa**. O que falta para as outras três rotas, e a ordem do resto, está no `ESTADO-ATUAL.md`.
 
 O que falta hoje não é regra, é **material**. A **ficha de personagem** saiu na v0.35 e está em `05-material/`, com o gerador dela; falta o quick-start. E `04-playtest/` continua vazia — **zero sessões em 35 versões**.
 
-Os validadores rodam de `03-mecanica/`, e **isso não é detalhe**. Os três que leem o manual — `conferir-nomes.py`, `conferir-manual.py` e `conferir-pericias.py` — acham o `.docx` por caminho relativo à própria posição: rodados de outro lugar, eles **pulam** as checagens em silêncio e saem verdes sem terem conferido nada. Os mesmos três precisam de `python-docx`, e pulam igual sem ele:
+Os três que leem o manual — `conferir-nomes.py`, `conferir-manual.py` e `conferir-pericias.py` — precisam de `python-docx`. **Sem ele eles pulam as checagens que leem o `.docx` em silêncio e saem verdes**, com código 0: são 4, 2 e 1 checagens puladas, medidas na v0.38 bloqueando o import.
 
 ```
 pip install python-docx --break-system-packages
 cd sistema/03-mecanica && python3 conferir-nomes.py
 ```
+
+**Rode de `03-mecanica/` mesmo assim.** *Até a v0.37 este arquivo dizia que rodar de outro lugar fazia os três pularem checagem — isso era verdade e deixou de ser:* hoje os três resolvem o caminho do `.docx` por `os.path.dirname(os.path.abspath(__file__))`, e de `/tmp` saem com saída idêntica e zero puladas. O hábito fica porque é o que o `subir.sh` faz e é o que o resto da documentação supõe; o que não fica é a justificativa errada.
 
 Os dois últimos não leem o manual e não precisam de nada: o `conferir-criacao.py` confere a ficha de exemplo da peça 8 contra as fórmulas das outras peças, e o `conferir-ficha.py` confere a ficha de `05-material/` contra os catálogos delas.

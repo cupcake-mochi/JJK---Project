@@ -9,6 +9,8 @@ Sistema de RPG de mesa de Jujutsu Kaisen, para um server de guilda com vários m
 
 Esta skill guarda **procedimento**, nunca conteúdo. Números, lições e decisões moram nos arquivos do repositório e só lá — copiar qualquer um deles para cá cria a divergência que a lição nº 9 do projeto existe para evitar.
 
+O repositório fica na pasta de trabalho do Mizuki (`Claude 2`), espelhando `https://github.com/cupcake-mochi/JJK---Project.git`.
+
 ---
 
 ## 1. Antes de qualquer coisa: ler, nesta ordem
@@ -29,12 +31,11 @@ cd sistema/03-mecanica && for v in conferir-*.py; do python3 "$v"; done
 cd ../..  && python3 conferir-repositorio.py
 ```
 
-Duas armadilhas, e as duas já custaram versão:
+**A armadilha que continua real: confira `PULADA=0`.** Sem `python-docx` instalado (`pip install python-docx --break-system-packages`) os três que leem o manual pulam em vez de falhar, e saem com código 0.
 
-- **Sempre rode de `sistema/03-mecanica/`.** Alguns validadores acham o `.docx` do manual por caminho relativo e, rodados de outro lugar, **pulam checagem em silêncio e saem verdes**.
-- **Confira `PULADA=0`.** Sem `python-docx` instalado (`pip install python-docx --break-system-packages`) os que leem o manual pulam em vez de falhar.
+**Rode de `sistema/03-mecanica/` mesmo assim**, porque é o que o `subir.sh` faz e o que o resto da documentação supõe. *Mas o motivo virou hábito na v0.38:* até a v0.37 a documentação dizia que rodar de outro lugar fazia validador pular checagem em silêncio — hoje todos resolvem o caminho por `__file__` e a saída de `/tmp` é idêntica.
 
-Um verde que pulou checagem não prova nada. Conte as PULADAs, não confie no "OK".
+Um verde que pulou checagem não prova nada. Conte as PULADAs, não confie no "OK". **E quando um aviso destes parar de reproduzir, conserte o aviso** — um que dá o motivo errado ensina a procurar o defeito no lugar em que ele não está mais.
 
 ## 3. Antes de batizar qualquer coisa, a triagem
 
@@ -102,14 +103,18 @@ E **nada de valor fica escrito dentro do validador**: leia o número do document
 - **Mostre o resultado no chat**, não só no arquivo. Ele quer ler o que foi escrito sem abrir o documento.
 - **Antes de entrar numa peça ou numa Origem, mostre o que ela tem hoje** — ele quer discutir a partir do estado atual.
 - **Número vem de conta rodada, nunca de intuição.** Escreva o script, rode, mostre a tabela.
-- **Pesquise antes de inventar.** Para mecânica nova, levante como outros sistemas resolvem o mesmo problema e qual o modo de falha documentado de cada um, antes de propor.
+- **Pesquise antes de inventar.** Isso virou skill própria na v0.38 — a `pesquisa-antes-de-propor` —, justamente porque enterrado aqui neste bullet ele não disparava.
 - **Documento não pode ter cara de saída de IA.** Seções de tamanhos diferentes, sem simetria forçada, sem "além disso" e "em suma". Português informal, e nunca português de Portugal.
 
 ## 9. Skills de apoio, todas no repositório
 
-`design-mecanicas-rpg` · `balanceamento-simulacao` · `playtesting-rpg` · `redacao-acessivel-rpg`
+`pesquisa-antes-de-propor` · `design-mecanicas-rpg` · `balanceamento-simulacao` · `playtesting-rpg` · `redacao-acessivel-rpg`
 
 Elas moram em `sistema/skills/`, com `SKILL.md` e pastas de apoio. A de design tem testes — dominância, bônus automático, filtro multi-mestre, colisão de nome — que **pegam coisa que nenhum validador do repositório pega**; vale rodar contra a própria proposta antes de entregar.
+
+**A `pesquisa-antes-de-propor` vem antes das outras quatro**, e ela nasceu porque a linha *"pesquise antes de inventar"* estava no item 8 desta skill e não disparava. Lembrete enterrado numa lista não é procedimento. Se a sua proposta vai afirmar o que outro sistema faz, qual o modo de falha documentado de alguma coisa, o que o material original estabelece ou como uma ferramenta se comporta — **procure antes de escrever, não depois.**
+
+**A pasta `sistema/skills/` é cópia de trabalho: editar lá não altera a skill instalada.** As duas divergem sozinhas, e nenhum validador alcança essa camada. Ao mudar uma skill, mude nos dois lados.
 
 ## 10. Armadilhas recorrentes deste projeto
 
@@ -121,5 +126,6 @@ Antes de fechar qualquer coisa, passe por estas — cada uma já mordeu mais de 
 - **Decisão registrada não é decisão aplicada.** Decisão que termina em "corrigir em três lugares" precisa de alguém conferindo os três.
 - **Contagem não é valor.** Meça peso de mesa, não quantidade.
 - **Um preço se mede somado, nunca sozinho.**
+- **Aviso que parou de reproduzir é dívida.** Um procedimento com motivo errado envelhece pior que um sem motivo nenhum.
 
 A lista completa e atualizada é a seção *"Nove lições que custaram erro"* do `README.md`. Leia de lá; não confie nesta amostra.

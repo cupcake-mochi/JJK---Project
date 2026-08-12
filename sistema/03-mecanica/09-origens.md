@@ -28,16 +28,20 @@ Três coisas que ela **não** faz, e cada uma é decisão:
 | **Um ofício livre** — ou, se você não quiser ofício, **mais uma perícia** | |
 | **Um Teste de Resistência treinado**, qualquer um dos quatro | o outro vem do Caminho |
 | **Um traço** — do catálogo dela, ou escrito por você | |
-| **Um Legado** | um só, na criação, e o sistema nunca concede outro |
+| **Dois Legados** | os dois na criação, e o sistema nunca concede outro. **Catálogo e régua na peça 13** |
 | **A rota de criação** | para onde você vai montar o seu poder |
 
-### O Legado tem teto, e o teto é "um"
+### O Legado tem teto, e o teto continua sendo um
 
-Legado é um benefício pequeno e específico que você trouxe de antes. **Você recebe um na criação e mais nenhum, nunca.** Não sobe com o nível, não aparece em marco, não se compra.
+Legado é um benefício pequeno e específico que você trouxe de antes. **Você recebe dois na criação e mais nenhum, nunca.** Não sobe com o nível, não aparece em marco, não se compra.
 
-Isso é a trava, e ela existe por um motivo escrito: o `arquitetura.md` chama as aptidões de *"o risco maior da estrutura inteira"* por serem uma segunda economia de poder sem teto. **Legado é uma terceira economia — então ela nasce com o teto embutido**, e o teto é o menor possível. Toda ficha tem exatamente um Legado, e conferir isso leva um segundo.
+> **Um deles é obrigatoriamente um `Destranca`, e Destranca é zero no dado.** O outro sai de qualquer lista da sua Origem.
 
-Um Legado **não produz dano e não escala com nível**, pela mesma regra das aptidões.
+**O teto de poder continua em um**, e é por isso que dois cabem. *Esta linha dizia "um só" até a v0.38*, e o motivo dela era bom: o `arquitetura.md` chama as aptidões de *"o risco maior da estrutura inteira"* por serem uma segunda economia de poder sem teto, e Legado é uma **terceira** — então nasceu com o teto mínimo.
+
+O que mudou é que a peça 13 separou **o que tem número** do **que é ficção pura**. Quando uma opção de ficção disputa a mesma vaga que uma mecânica, a mecânica ganha — e a linha de ficção fica em branco. Com o Destranca obrigatório, quem otimiza sai com **exatamente um Legado com número**, como antes, e todo mundo passa a carregar uma afirmação sobre o mundo.
+
+Um Legado **não produz dano e não escala com nível**, pela mesma regra das aptidões. **A régua de magnitude que faz isso valer está na peça 13**, com três formatos e trava própria em cada um.
 
 ## 3. As cinco Origens
 
@@ -55,7 +59,7 @@ A técnica é sua desde sempre — e o que fez ela aparecer foi você, um susto,
 |---|---|
 | **Perícias** *(escolha uma)* | Sentir Energia · Sobrevivência · Furtividade · Intuição |
 | **Traços** | *o professor que você não teve* · *a primeira vez em que quase morreu* · *alguém comum que sabe o que você é* |
-| **Legados** *(escolha um)* | **Instinto Bruto** — uma vez por cena, use Sentir Energia no lugar de Percepção ou Intuição, se disser como o seu jeito de sentir resolve aquilo<br>**Aprendi Apanhando** — uma vez por sessão, refaça um teste de perícia que você falhou. Você já errou isso antes |
+| **Legados** | **as listas estão na peça 13** — um `Destranca` obrigatório e mais um de qualquer lista |
 | **Criação** | **Fundamento**, do jeito padrão |
 
 ---
@@ -72,7 +76,7 @@ Um dedo, um selo, um feiticeiro de mil anos atrás. O que te habita divide o cor
 |---|---|
 | **Perícias** *(escolha uma)* | Sentir Energia · Ocultismo · Intuição · Religião |
 | **Traços** | *o que ele quer, e não é o que você quer* · *a testemunha do dia em que aconteceu* · *a instituição sabe, e está observando* |
-| **Legados** *(escolha um)* | **A Voz de Dentro** — uma vez por sessão, pergunte ao mestre uma coisa sobre uma maldição ou técnica presente na cena. Ele responde com verdade. O que está em você já viu aquilo<br>**Não Sou Só Eu** — uma vez por cena, refaça um Teste de Resistência de Espírito que você falhou contra ser controlado, dominado ou lido |
+| **Legados** | **as listas estão na peça 13** — um `Destranca` obrigatório e mais um de qualquer lista |
 | **Criação** | **Fundamento**, do jeito padrão. O passageiro é ficção, não montagem |
 
 ---
@@ -89,7 +93,7 @@ A técnica veio no sangue, com nome, com histórico e com gente que sabe usá-la
 |---|---|
 | **Perícias** *(escolha uma)* | Hierarquia · História · Ocultismo · Persuasão |
 | **Traços** | *o casamento que já decidiram por você* · *o parente que você não pode desapontar* · *o ramo do clã que perdeu, e você é dele* |
-| **Legados** *(escolha um)* | **O Sobrenome** — em qualquer lugar da sociedade jujutsu você consegue audiência com quem importa. Conseguir audiência não é o mesmo que ser bem recebido<br>**Treino de Berço** — treine mais uma perícia, e ela precisa ser coisa que o seu clã ensina |
+| **Legados** | **as listas estão na peça 13** — um `Destranca` obrigatório e mais um de qualquer lista |
 | **Criação** | **Fundamento**, do jeito padrão |
 
 ---
@@ -108,7 +112,7 @@ Alguém te selou, te guardou e te trouxe de volta — ou você aceitou ser guard
 |---|---|
 | **Perícias** *(escolha uma)* | História · Ocultismo · Investigação · Intimidação |
 | **Traços** | *o motivo pelo qual você aceitou voltar* · *alguém que te reconheceu de antes* · *a família do corpo que você está usando* |
-| **Legados** *(escolha um)* | **O Que Ninguém Lembra** — uma vez por arco, você sabe um lugar, um nome ou uma técnica de antes do seu tempo, e isso responde uma dúvida que ninguém vivo responderia<br>**Corpo Emprestado** — dor não te para como para os outros. Você nunca fica incapacitado só por estar ferido; precisa de alguma coisa que te derrube de verdade |
+| **Legados** | **as listas estão na peça 13** — um `Destranca` obrigatório e mais um de qualquer lista |
 | **Criação** | **Fundamento**, do jeito padrão |
 
 ---
@@ -125,7 +129,7 @@ Meio humano, meio maldição, e as duas metades são de verdade. Nem todo Feto �
 |---|---|
 | **Perícias** *(escolha uma)* | Ocultismo · Medicina · Sentir Energia · Natureza |
 | **Traços** | *os irmãos, e o que aconteceu com eles* · *quem te fez, e onde essa pessoa está* · *o corpo que não envelhece igual* |
-| **Legados** *(escolha um)* | **Sangue que Não é Sangue** — você não precisa comer, dormir nem respirar como um humano. Isso resolve problemas que param os outros, e cria problemas que os outros não têm<br>**Irmãos** — você sente quando outro Feto está por perto, e ele sente você. Nem sempre isso é bom |
+| **Legados** | **as listas estão na peça 13** — um `Destranca` obrigatório e mais um de qualquer lista |
 | **Criação** | **Fundamento**, do jeito padrão |
 
 ---
@@ -145,10 +149,12 @@ O poder vem de dois lugares:
 | | |
 |---|---|
 | **O que muda** | você não escreve Fundamento. Não tem Regra, não tem Famílias, não tem Selo, não tem feitiço |
-| **O que ganha** | a Origem principal continua dando tudo o que dá, inclusive o Legado — Sem Técnica **não dá um segundo Legado** |
+| **O que ganha** | a Origem principal continua dando tudo o que dá. **Sem Técnica não amplia a conta de Legados** — ela é uma entrada de `Destranca` e ocupa uma das duas vagas, como qualquer outra |
 | **Criação** | **Aptidão** ou **Estilo da Sombra** — *nenhuma das duas existe ainda* |
 
-> **Não é jogável hoje.** As duas rotas de criação precisam de um sistema próprio, paralelo ao Fundamento, e ele ainda não foi escrito. A Origem está aqui porque ela é decisão fechada; a montagem é a peça seguinte.
+> **Não é jogável hoje**, e o que falta é a **máquina de criação**. As duas rotas precisam de uma construção com a mesma dignidade que o Fundamento tem — quantas aptidões, com que orçamento, e o que se paga por elas. **Sem isso a rota vira "os outros menos o Fundamento", e ninguém escolhe por vontade: escolhe por castigo.**
+>
+> *O que ela não precisa é de uma economia inteiramente nova.* **Energia Reversa não é técnica inata** — é manipulação de energia amaldiçoada, e é por isso que quem não tem técnica consegue usar. E o **Estilo da Sombra é anti-domínio**, com a espada sendo o jeito mais comum e não o requisito: **a seção 6.5 da peça 11 já trata o Domínio Simples como aptidão pura**, sem uma palavra sobre lâmina.
 
 ## 5. As duas Origens especiais
 
@@ -166,9 +172,9 @@ Cadáver Amaldiçoado de Mutação Abrupta, na linguagem da instituição. Você
 
 | | |
 |---|---|
-| **O que muda** | sem Fundamento e sem energia amaldiçoada convencional. O seu corpo é a sua técnica |
+| **O que muda** | sem Fundamento, porque **não existe técnica inata para escrever**. Mas **você tem energia amaldiçoada**: cadáver de mutação abrupta produz a própria, uns três meses depois de acordar. Então PE, aptidões e refino normais — e **Técnica Marcial** no lugar do Fundamento |
 | **Traços** | *quem te fez, e o que essa pessoa esperava* · *o que as pessoas acham que você é* · *o núcleo que você ainda não usou na frente de ninguém* |
-| **Legados** *(escolha um)* | **Núcleos** — você tem mais de um jeito de ser. Descreva dois; trocar entre eles custa a sua ação, uma vez por cena<br>**Não Sou Gente** — veneno, doença e o que ataca corpo humano não te pegam. Cura que funciona em humano também não |
+| **Legados** | **as listas estão na peça 13** — um `Destranca` obrigatório e mais um de qualquer lista |
 | **Criação** | **Técnica Marcial** — *não existe ainda* |
 
 ---
@@ -179,7 +185,7 @@ Cadáver Amaldiçoado de Mutação Abrupta, na linguagem da instituição. Você
 
 A troca é sempre desproporcional para os dois lados: você perde muito e ganha muito. Existem dois ramos, e eles são opostos.
 
-**Corpo pela técnica.** O corpo não funciona, e em troca a energia é enorme. É o **Mechamaru**: pele que não aguenta sol, membros que faltam, e energia suficiente para operar cadáveres amaldiçoados a uma distância absurda.
+**Corpo pela técnica.** O corpo não funciona, e em troca a energia é enorme. É o **Kokichi Muta**: pele que não aguenta sol, membros que faltam, dor constante — e energia suficiente para operar cadáveres amaldiçoados a uma distância absurda. *O **Mechamaru** é o boneco que ele pilota, não ele.* O corpo que aparece na escola é a ferramenta; a Origem é a pessoa que ficou em casa.
 
 **Energia pelo corpo.** Você nasceu sem energia amaldiçoada — não pouca, nenhuma — e em troca o corpo é sobre-humano. É a **Maki** e o **Toji**. Você não conjura, não canaliza e não sente energia; fere maldição com ferramenta amaldiçoada, e enxerga o mundo jujutsu de fora.
 
@@ -187,7 +193,7 @@ A troca é sempre desproporcional para os dois lados: você perde muito e ganha 
 |---|---|
 | **O que muda** | *corpo pela técnica:* Fundamento normal, corpo com limitação escrita na ficha<br>*energia pelo corpo:* sem Fundamento, sem PE, sem golpe canalizado, sem Sentir Energia — e acesso a ferramenta amaldiçoada como eixo de poder |
 | **Traços** | *o clã que te descartou* · *a pessoa que te olha e vê o que você perdeu* · *a ferramenta que te acompanha desde criança* |
-| **Legados** *(escolha um)* | **Alcance Impossível** — você opera de longe. Uma vez por cena, aja de um lugar em que o seu corpo não está<br>**Peso Real** — você percebe ferramenta amaldiçoada, barreira e véu pelo tato e pelo peso, não pela energia. O que engana feiticeiro não engana você |
+| **Legados** | **as listas estão na peça 13** — um `Destranca` obrigatório e mais um de qualquer lista |
 | **Criação** | *corpo pela técnica:* **Fundamento** normal · *energia pelo corpo:* **Técnica Marcial** — *não existe ainda* |
 
 ## 6. Para onde cada Origem manda
@@ -224,6 +230,6 @@ O caso do Yuta continua existindo **na ficção** — a instituição pode class
 
 - **Técnica Marcial e Estilo da Sombra.** Três das nove rotas dependem deles, e é a próxima peça.
 - **A Aptidão como rota de criação.** A Shoko existe na obra e não existe na regra — e isso amarra com os degraus de refino, que também não foram escritos.
-- **Se um Legado por ficha é pouco.** É o teto mais apertado possível, escolhido de propósito porque é a terceira economia de poder do sistema. Se em playtest o Legado parecer decoração, o conserto é dar mais opções por Origem, não mais Legados por ficha.
+- ~~**Se um Legado por ficha é pouco.**~~ **Respondido na v0.38, e nas duas direções.** A peça 13 deu **mais opções por Origem** — de dois para uma média de doze — *e* subiu a ficha para **dois Legados**, contra o que esta linha dizia. O motivo de reabrir está lá: opção de ficção que disputa vaga com opção mecânica fica em branco, e os Traços do D&D 5e são o exemplar documentado. **O teto de poder continua em um**, porque o segundo é obrigatoriamente `Destranca` e Destranca é zero no dado.
 - **Se a perícia livre da Origem devia ser da lista também.** Hoje ela é livre com aprovação, e é o último lugar da criação em que um número depende de julgamento do mestre.
-- **Se Corpo Amaldiçoado e Restrição Celestial deviam poder ser Sem Técnica.** O Mechamaru tem técnica; a Maki não. Hoje elas já resolvem isso por dentro, com os dois ramos.
+- **Se Corpo Amaldiçoado e Restrição Celestial deviam poder ser Sem Técnica.** O Kokichi tem técnica; a Maki não. Hoje elas já resolvem isso por dentro, com os dois ramos.

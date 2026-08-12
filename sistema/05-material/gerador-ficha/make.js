@@ -37,6 +37,7 @@ const KAORI = {
     aparencia: '', historia: '',
     traco: 'O ramo do clã que perdeu o nome — e ela é dele.',
     legado: 'O Sobrenome — ela consegue audiência em qualquer lugar do meio jujutsu. Ser bem recebida é outra história.',
+    legado2: 'Biblioteca — uma vez por cena, refaz um teste de História ou Ocultismo. A casa tinha os livros, e ela foi obrigada a ler.',
     lacos: '', instituicao: '', pacto: '', notas: '',
   },
 };

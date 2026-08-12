@@ -6,6 +6,190 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.39] — 2026-08-12
+
+**A peça 13 fechou.** Legados sai de rascunho e vira peça numerada, com validador junto — **treze peças e treze validadores**. O catálogo tem **81 entradas** contra as catorze de antes, e as quatro que a régua tinha reprovado saíram todas, cada uma com destino escrito.
+
+### Adicionado — `13-legados.md`, as sete listas de Origem
+
+| Origem | Destranca | Ajusta | Desliga escrito | reservado |
+|---|---|---|---|---|
+| Latente | 4 | 4 | 2 | — |
+| Receptáculo | 4 | 4 | 1 | 1 |
+| Descendente | 5 | 4 | 1 | 1 |
+| Reencarnado | 4 | 4 | 0 | 2 |
+| Corpo Amaldiçoado | 4 | **12** | 1 | 1 |
+| Feto | 4 | 4 | 1 | 1 |
+| Restrição Celestial | **8** | **8** | 1 | 1 |
+| | **33** | **40** | **7** | **7** |
+
+Mais o **`Sem Técnica`**, escrito uma vez e compartilhado pelas cinco Origens que o aceitam. **Oitenta e uma.**
+
+### Decidido — o Desliga virou cota de dois, com vaga declarada
+
+*A régua dizia "até 2, teto e não cota", e o Receptáculo e o Descendente fecharam em um por causa disso.* O Mizuki decidiu o contrário: **toda Origem termina com dois Desliga.**
+
+**A conta não fecha hoje, e é por isso que a vaga existe.** Dois por Origem em sete são catorze; a enumeração de alvos legais tem **sete no sistema inteiro, e o `Ferro Velho` gastou o último**. Então: **o Desliga que tem alvo se escreve, o que não tem vira vaga declarada** — e a vaga **nomeia a peça de onde o alvo deve sair**, aparece na tabela junto dos outros, e o validador confere que ela está marcada em vez de conferir que a lista está cheia.
+
+> **Inventar oito alvos agora seria escrever entrada para fechar contagem — que é exatamente o defeito que esta régua nasceu para achar.** Os três Desliga de condição da v0.37 foram escritos porque a coluna pedia, e cada um apagava Condição Maior, que custa Pesada.
+
+**Sete vagas abertas:** quatro esperam **equipamento**, três esperam **dano e condições**.
+
+### Decidido — dois tipos de Destranca, e o mais velho já estava em uso
+
+A cláusula dizia que **todo** Destranca precisa de gatilho que o jogador puxa. A lista do Corpo Amaldiçoado bateu nisso — as quatro configurações de núcleo são identidade, não ação —, e aí apareceu que **o `Sem Patente` do Latente já era assim desde a primeira lista** e passou sem ninguém reparar.
+
+| tipo | o gatilho é |
+|---|---|
+| **de ação** | uma coisa que o jogador faz, quando quer |
+| **de identidade** | a própria escolha, feita uma vez na criação |
+
+**O que segura o segundo tipo é o teste dos 90%, sozinho:** ninguém deixa em branco a linha que diz o que ele é. E a diferença para o **Irmãos**, que a cláusula existia para pegar: *identidade o jogador escolheu; o Irmãos foi escolhido por ele.*
+
+**E um Destranca de identidade não pendura tarefa.** A primeira leva do Corpo Amaldiçoado foi reprovada pelo Mizuki por isso — *"aponte e diga qual das três teria sabido"*, *"escreva três pessoas que só conhecem ela"*, e a pior: *"quem estuda o assunto vai querer saber como"*, que é **enredo tirado do mestre sem ele ter pedido**.
+
+### Achado — o canon reescreveu duas Origens e matou um Legado
+
+**Corpo Amaldiçoado tem energia amaldiçoada.** O `ESTADO-ATUAL` punha ele no mesmo balde da Maki — *"não têm energia, então não têm aptidão nem refino"*. **Cadáver de mutação abrupta produz a própria energia**, uns três meses depois de acordar; o que falta é **técnica**. Ele é misto: **PE, aptidões e refino normais, e Técnica Marcial no lugar do Fundamento.** As Bênçãos e a Lapidação ficam só com a Maki, que é a única de energia zero.
+
+**E os três núcleos não são sabor: são a receita.** Três almas compatíveis num corpo, obrigadas a se observarem, é o que produz autoconsciência e energia própria. Mas **não é a única configuração possível** — cadáver operado por um feiticeiro e cadáver mantido pelo criador também existem. A lista virou quatro configurações — **Ninhada, Gêmeos, Inteiro, Manutenção** —, três com energia própria e uma dependente, e **cada uma gateia três Ajusta próprios**.
+
+**O `Alcance Impossível` morreu.** *"Aja de um lugar em que o seu corpo não está"* é **técnica** — é o que a Manipulação de Fantoche faz —, e a peça 9 proíbe Origem de conceder técnica. Mesmo diagnóstico do `Núcleos` e do `Não Sou Gente`: **não é Legado, é kit de poder.** O que sobrou dele virou o `Nunca Estive Lá` e o `Do Meu Canto`, que são conhecimento e posição, não alcance.
+
+**E o Mechamaru é o boneco.** A peça 9 atribuía a ele a pele que não aguenta sol e os membros que faltam — isso é do **Kokichi Muta**, a pessoa. Corrigido nos dois documentos.
+
+### Achado — a irmandade do Feto é definida por quem te fez
+
+*O `Irmãos` era o piso do catálogo desde a v0.24: o jogador não conseguia disparar, e o efeito era simétrico.* **O conserto não foi inventar gatilho — foi ler o que a irmandade é.** No material, o reconhecimento de irmão **não depende de o outro ser da mesma fabricação**: o mais velho reconheceu como irmão alguém nascido de gente, porque quem os fez foi o mesmo.
+
+> **O gatilho virou o jogador apontar alguém e dizer que é irmão.**
+
+E isso conserta a premissa da Origem junto: *"nem todo Feto é Pintura da Morte"* estava certo e apoiado em nada — **não existe outra categoria de pessoa meio-humana e meio-maldição.** O que existe com nome parecido é **maldição imatura em estágio de útero**, que não é gente e não vira gente. A Origem é *"alguém te fabricou de propósito"*, e Pintura da Morte é o exemplar famoso.
+
+### Decidido — Sem Técnica entra como ponteiro, e precisa de máquina de criação
+
+**Ela não cabe como entrada de catálogo** — tem construção própria em cima —, **e também não pode ficar invisível na camada onde o jogador escolhe quem é.** Entra como **uma entrada de `Destranca` que aponta para fora**, disponível nas cinco Origens que aceitam a sub-origem, **escrita uma vez e referenciada pelas cinco**. Cinco cópias do mesmo texto seria a lição nº 9 dentro de um catálogo.
+
+**E a rota precisa de máquina de criação própria.** Se for só subtração — os outros menos o Fundamento —, ninguém escolhe por vontade: escolhe por castigo.
+
+*O que ela não precisa é de uma economia nova.* **Energia Reversa não é técnica inata**, é manipulação de energia amaldiçoada — e é por isso que quem não tem técnica consegue usar. E o **Estilo da Sombra é anti-domínio, com a espada sendo o jeito mais comum e não o requisito**: a técnica central dele foi aprendida em um mês por quem não usa espada, e a **seção 6.5 da peça 11 já trata o Domínio Simples como aptidão pura**. *A mecânica do projeto estava certa e a prosa da peça 9 estava mais estreita que ela.*
+
+**De 81 entradas, exatamente uma quebra com Sem Técnica:** o `Inédito`, que fala da *sua* técnica. Virou a checagem 9 do validador.
+
+### Adicionado — `conferir-legados.py`, o décimo terceiro validador
+
+Nove checagens, e **nada de valor escrito dentro dele**: os quatro degraus saem da **peça 10**, as Origens saem da **peça 9**, e as contagens saem da própria pasta. O único bloco na mão é o `LIMITES DE DESIGN`, declarado à parte da regra aplicada — lição nº 8. **Não lê o `.docx` e não precisa de `python-docx`**, então não existe caminho por onde ele saia verde tendo pulado checagem.
+
+A checagem 9 é a que mais vai render: **ela recalcula a tabela de totais da peça e falha se o escrito não bater com o contado.** As contas do rascunho já tinham envelhecido duas vezes dentro do próprio arquivo.
+
+**Nove perturbações conferidas, cada uma acendendo a checagem certa** — numa cópia isolada, com a base conferida verde antes e o `diff` conferido em cada uma. Duas não provaram nada na primeira rodada e as duas foram consertadas: um `sed` que não bateu, e a checagem 8, que **acendeu a checagem errada porque estava frouxa** — ela aceitava a palavra *"especiais"* em qualquer lugar da seção. Agora exige as cinco elegíveis nomeadas **e** as duas especiais excluídas.
+
+**E o contra-teste:** renomear um degrau **dentro da peça 10** acende a checagem 2. É a prova de que ele lê do dono em vez de guardar a escada.
+
+### Alterado — o que a peça 13 obrigou a mexer em volta
+
+| arquivo | o que mudou |
+|---|---|
+| `09-origens.md` | dois Legados; as sete listas viraram ponteiro para a peça 13; Corpo Amaldiçoado ganhou energia; Kokichi no lugar de Mechamaru; Sem Técnica reescrito; a pendência *"se um Legado é pouco"* fechada |
+| `08-criacao-de-personagem.md` | dois Legados nos dois lugares, e a Kaori ganhou o segundo |
+| `gerador-ficha/ficha.js` e `make.js` | campo do segundo Legado na página 3 |
+
+> **O `.docx` da ficha ficou para trás do código** e precisa ser regerado com `node make.js`. O `conferir-ficha.py` não acusa porque ele confere as constantes de nível 2, e nenhuma delas mudou.
+
+### Em aberto
+
+- **As sete vagas de Desliga**, quando equipamento e dano-e-condições saírem.
+- **A máquina de criação do Sem Técnica** — Aptidão e Estilo da Sombra.
+- **A Cicatriz não tem mecânica, só nome.**
+- **Energia Reversa, Barreira Simples, Cortina** e a régua da Aptidão Própria.
+- **Equipamento**, que é a próxima peça da fila.
+- **Qual modelo de clash vale.**
+- **Nome do sistema.**
+
+---
+
+## [0.38] — 2026-08-12
+
+**Nenhuma regra e nenhum número mudaram.** Esta versão mexe só na camada de procedimento, e ela existe porque a migração de conta obrigou a reler o que a documentação afirma — e duas coisas que ela afirmava tinham deixado de ser verdade.
+
+### Adicionado — a skill `pesquisa-antes-de-propor`
+
+O Mizuki nomeou o defeito: *"toda vez que vou dar continuidade, a primeira coisa é ir no achismo ou com as informações que temos, e poucas vezes é feita busca real na internet, fóruns e afins, a não ser que eu peça."*
+
+**E a instrução já existia.** A `rpg-da-guilda` diz *"pesquise antes de inventar"* — no item 8, sexto bullet de uma lista de sete. Ela nunca disparou.
+
+> **Lembrete enterrado numa lista não é procedimento. Gatilho é.**
+
+A skill nova troca o bullet por **sete casos em que a busca é obrigatória antes de entregar**: afirmar o que outro sistema faz, atribuir modo de falha documentado, afirmar canon, afirmar comportamento de ferramenta, adotar nome novo, dizer que *"ninguém resolve isso"*, e contornar duas vezes o mesmo defeito de ambiente.
+
+**E ela traz a metade que ninguém escreve — o que *não* se pesquisa fora.** Número que um documento do projeto é dono se lê do dono; buscar fora cria a segunda fonte para o mesmo número, que é a lição nº 9 entrando por outra porta. Conta que dá para rodar se roda. Escolha de sabor é do Mizuki, e nenhuma fonte externa decide por ele.
+
+*Escrita depois de rodar a própria receita:* o levantamento de onde procurar por domínio saiu de busca real, e a hierarquia de canon — obra original, depois material oficial complementar, e wiki de fã como **índice e não autoridade** — é a que a preferência de pesquisa dele já pedia, com a checagem de mudança de status junto.
+
+### Achado — o aviso do diretório parou de reproduzir, e ninguém tinha voltado para olhar
+
+O `README` e o `LEIA-ME` diziam, desde a v0.28, que os três validadores que leem o `.docx` o acham *"por caminho relativo à própria posição"* e que, rodados de outro lugar, **pulam checagem em silêncio**. A v0.33 mediu e registrou: **4, 1 e 1 puladas de `/tmp`.**
+
+**Hoje é zero.** Medido nesta versão:
+
+| | de `03-mecanica/` | de `/tmp` |
+|---|---|---|
+| `conferir-nomes.py` | 61 linhas, 0 pulada | **61 linhas, 0 pulada** |
+| `conferir-manual.py` | 94 linhas, 0 pulada | **94 linhas, 0 pulada** |
+| `conferir-pericias.py` | 120 linhas, 0 pulada | **120 linhas, 0 pulada** |
+
+Os quatro validadores que abrem arquivo do manual resolvem por `os.path.dirname(os.path.abspath(__file__))`, e **nenhum `conferir-*.py` tem caminho relativo cru**. O conserto entrou em alguma refatoração e nunca foi registrado — então o aviso sobreviveu à causa dele.
+
+**A instrução fica, o motivo muda.** Rodar de `03-mecanica/` continua sendo o certo, porque é o que o `subir.sh` faz e o que o resto da documentação supõe. O que saiu dos três documentos e da skill é a justificativa errada.
+
+> **Aviso que parou de reproduzir é dívida, e é pior que aviso nenhum:** ele ensina a procurar o defeito no lugar em que ele não está mais. Entrou na lista de armadilhas recorrentes da `rpg-da-guilda`.
+
+### Confirmado — a outra pulada é real, e essa fica
+
+Bloqueando o import de `docx` de propósito, os três saem **verdes, com código 0**, e pulam:
+
+| validador | checagens puladas sem `python-docx` |
+|---|---|
+| `conferir-nomes.py` | **4** |
+| `conferir-manual.py` | **2** |
+| `conferir-pericias.py` | **1** |
+
+O `conferir-ficha.py` não entra: ele lê o `.docx` com `zipfile`, da biblioteca padrão, desde a v0.35 — não tem dependência para faltar. **`PULADA=0` continua sendo a checagem que vale antes de confiar num "OK".**
+
+### Alterado — a contagem de skills estava parada em quatro
+
+O `README` e o `LEIA-ME` diziam *"as quatro skills"* enquanto o `ESTADO-ATUAL` dizia cinco, desde que a `rpg-da-guilda` entrou na v0.37. **Três documentos, dois números.** Agora são **seis**, e os três dizem seis — divididas em **duas de procedimento** (`rpg-da-guilda`, `pesquisa-antes-de-propor`) e **quatro de assunto**.
+
+*É a lição nº 9 na camada que o `conferir-repositorio.py` não alcança* — ele confere versão do projeto, versão do manual, peças e validadores, e não conta skill. Fica anotado como candidato a checagem, junto com a divergência entre a pasta e a skill instalada que a v0.37 achou.
+
+### Registrado — três contas do `RASCUNHO-legados-regua.md` envelheceram dentro do próprio arquivo
+
+Nada disso muda a régua, que continua fechada. São as contas de fechamento, que ficaram para trás quando a seção 8 decidiu **dez por Origem** depois das listas já estarem escritas:
+
+| onde | diz | é |
+|---|---|---|
+| §9, abertura | *"primeira leva, com cinco entradas cada"* | Latente 10, Descendente 10 |
+| §9, fecho do Latente | *"quatro Destranca · três Ajusta · três Desliga"* | **4 · 4 · 2** — o `Desconfiado` virou Ajusta e o fecho não acompanhou |
+| §9, conta final | *"Ajusta 8 · Desliga 4 · Destranca 8"* | **16 · 4 · 14** |
+| §10, primeiro item | *"cinco por Origem"* | dez, pela seção 8 |
+
+**A entrada da v0.37 está certa** — ela registra `Latente (10), Receptáculo (9), Descendente (10) e Reencarnado (5)`, que é o que a pasta tem. Quem derivou foi o rascunho contra si mesmo. **Corrigir junto com a outra metade**, para não mexer duas vezes no mesmo arquivo.
+
+### Em aberto
+
+- **O catálogo dos Legados**, três Origens inteiras — Feto, Corpo Amaldiçoado e Restrição Celestial — e o que falta no Reencarnado, que tem 5 de 10 e um Destranca só. **As quatro contas de fechamento acima entram nesse mesmo passe.**
+- **Não Sou Gente** é imunidade a dano e a régua reprova; a saída registrada é virar Passiva paga com espaço de feitiço. **Irmãos** é o piso do catálogo e precisa de gatilho do jogador.
+- **O validador dos Legados**, que sai junto com a peça — e sobe peças e validadores de doze para treze nos três documentos de uma vez.
+- **A Cicatriz não tem mecânica, só nome** — o conteúdo dela é da peça de dano e condições, que não existe.
+- **A mudança de um para dois Legados** ainda não chegou na peça 8, na peça 9, no gerador da ficha nem nos dois validadores da ficha.
+- **A contagem de versões sem playtest diverge em três lugares** — o `README` diz 32, o `ESTADO-ATUAL` diz 35 num ponto e 32 em outro, o `LEIA-ME` diz 35. É derivável da versão atual e não devia estar escrita à mão em lugar nenhum.
+- **A lista de feitos do limiar do nível 20** e a conversão de mestragem.
+- **Energia Reversa, Barreira Simples, Cortina** e a régua da Aptidão Própria.
+- **Qual modelo de clash vale.**
+- **Nome do sistema.**
+
+---
+
 ## [0.37] — 2026-08-12
 
 **A pergunta nº 5 do `pitch-de-design.md` fechou.** Ela estava aberta desde a v0.1: *"como o sistema trata morte? JJK é letal; server de guilda com personagem persistente normalmente não é."* Metade dela já tinha resposta e ninguém tinha reparado que era só metade.

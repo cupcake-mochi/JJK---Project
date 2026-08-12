@@ -2,7 +2,7 @@
 
 Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.37** · manual do Fundamento na **v7.8** · **doze peças de regra** e **doze validadores passando**.
+**Versão v0.39** · manual do Fundamento na **v7.8** · **treze peças de regra** e **treze validadores passando**.
 
 ---
 
@@ -12,7 +12,7 @@ O problema que ele existe para resolver não é "fazer um RPG de JJK": é **o me
 
 O coração é o **Fundamento**: um subsistema fechado e já validado que resolve técnica, feitiço, Melhoria, Restrição, Liberação Máxima, Expansão de Domínio e dano de alma por orçamento de pontos. Ele mora em `manual/` e é gerado por código. Tudo em `sistema/` é o que existe **em volta** dele — atributos, Caminhos, perícias, criação de personagem, descanso, aptidões.
 
-E o registro do **porquê** de cada decisão é tão importante quanto a regra: `logs/CHANGELOG.md` tem 36 versões de argumento, e é a única parte do projeto que não dá para reconstruir sozinho lendo o resto.
+E o registro do **porquê** de cada decisão é tão importante quanto a regra: `logs/CHANGELOG.md` tem 38 versões de argumento, e é a única parte do projeto que não dá para reconstruir sozinho lendo o resto.
 
 ## Por onde começar, se você acabou de clonar isto
 
@@ -29,7 +29,7 @@ E o registro do **porquê** de cada decisão é tão importante quanto a regra: 
 .
 ├── README.md              você está aqui
 ├── logs/
-│   ├── CHANGELOG.md                     o porquê de cada decisão, v0.1 a v0.36
+│   ├── CHANGELOG.md                     o porquê de cada decisão, v0.1 a v0.39
 │   └── CHANGELOG-manual-v6-para-v7.md   o changelog do manual, antes de ele entrar aqui
 ├── manual/
 │   ├── Fundamento-MANUAL-v7.docx        v7.8 — o manual gerado
@@ -46,7 +46,7 @@ E o registro do **porquê** de cada decisão é tão importante quanto a regra: 
     ├── 04-playtest/                     vazia. Zero sessões em 35 versões
     ├── 05-material/                     a ficha, e o gerador dela. O quick-start ainda não
     ├── 99-arquivo/                      material morto, com LEIA-ME próprio
-    └── skills/                          cópia de trabalho das quatro skills de apoio
+    └── skills/                          cópia de trabalho das seis skills de apoio
 ```
 
 Um arquivo `RASCUNHO-*.md` em `03-mecanica/` é levantamento engatilhado, não peça — ele não leva número justamente por isso, e o `conferir-repositorio.py` falha se algum tomar.
@@ -60,9 +60,11 @@ pip install python-docx --break-system-packages    # dois validadores leem o .do
 cd manual/gerador && npm install docx               # só se for regerar o manual
 ```
 
-Sem `python-docx`, o `conferir-nomes.py`, o `conferir-manual.py` e o `conferir-pericias.py` **pulam** as checagens que leem o manual em vez de falhar — então eles saem verdes sem terem conferido nada. Instale antes de confiar num "OK".
+Sem `python-docx`, o `conferir-nomes.py`, o `conferir-manual.py` e o `conferir-pericias.py` **pulam** as checagens que leem o manual em vez de falhar — então eles saem verdes sem terem conferido nada. **São 4, 2 e 1 checagens**, medidas na v0.38 bloqueando o import de propósito, e os três saem com código 0. Instale antes de confiar num "OK".
 
-**E o mesmo vale para o diretório de onde você roda.** Esses três acham o `.docx` por caminho relativo à própria posição: rodados de outro lugar, eles avisam e pulam as checagens em silêncio. A v0.28 perdeu três perturbações assim antes de alguém notar. **Rode sempre de `sistema/03-mecanica/`.**
+**Rode de `sistema/03-mecanica/`.** *E a razão mudou na v0.38, então vale saber qual é.* Até a v0.37 este arquivo dizia que rodar de outro lugar fazia os três pularem checagem em silêncio — verdade medida na v0.28, e a v0.33 chegou a contar **4, 1 e 1** puladas rodando de `/tmp`. **Hoje não reproduz mais:** os quatro validadores que abrem arquivo do manual resolvem o caminho por `os.path.dirname(os.path.abspath(__file__))`, e nenhum `conferir-*.py` tem caminho relativo cru. De `/tmp` a saída sai idêntica, byte por byte, com zero puladas.
+
+O hábito continua, porque é o que o `subir.sh` faz e é o que o resto da documentação supõe. **O que não continua é a justificativa** — e um aviso que dá o motivo errado é pior que nenhum, porque ele ensina a procurar o defeito no lugar em que ele não está mais.
 
 ## Rodar os validadores
 

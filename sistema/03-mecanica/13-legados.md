@@ -1,11 +1,12 @@
-# Legados — a régua de magnitude
+# Legados — a régua de magnitude e o catálogo
 
-**Metade 1 de 2 da peça 13.** Decidido com o Mizuki na v0.36, escrito aqui.
+**As duas metades fecharam.** A régua veio na v0.37, o catálogo na v0.38 — **oitenta e uma entradas, sete listas de Origem, mais o `Sem Técnica`.**
 
+A peça 9 continua dona das Origens, dos traços e de qual lista você lê. **O que mora aqui é a régua de magnitude e o catálogo inteiro.**
 
-Isto **não é levantamento engatilhado** como o outro rascunho da pasta — é regra fechada esperando a outra metade. Ela mora sem número de propósito: o `conferir-repositorio.py` conta peça pelos dois dígitos na frente do nome, e meia peça não é peça. Quando o catálogo entrar, as duas metades viram a peça 13 e a versão fecha com o validador dos Legados junto.
+> **A ficha leva dois Legados: um Destranca, obrigatório, e mais um de qualquer lista da sua Origem.**
 
-A peça 9 continua dona das Origens e de qual lista você lê. O que muda de casa é a régua e o catálogo.
+O validador desta peça é o **`conferir-legados.py`**, e ele lê tudo que confere dos documentos donos — os quatro degraus da peça 10, as Origens da peça 9, e as contagens da própria pasta. Nunca do próprio código.
 
 ---
 
@@ -165,6 +166,23 @@ O teto aqui já é zero, porque nada nele encosta em número. **O que falta nest
 > **1. Um Destranca precisa de um gatilho que o jogador consiga puxar.**
 > **2. E ele tem que dizer alguma coisa sobre o mundo que só esse personagem pode dizer.**
 
+#### A cláusula 1 tem dois casos, e o segundo estava sendo usado sem estar escrito
+
+*Aberto na v0.38, quando a lista do Corpo Amaldiçoado bateu nisso — mas o exemplar mais velho é da primeira lista de todas.*
+
+| tipo | o gatilho é | exemplos |
+|---|---|---|
+| **Destranca de ação** | uma coisa que o jogador **faz**, quando ele quer | O Sobrenome · A Voz de Dentro · O Que Ele Quer · O Jeito Errado |
+| **Destranca de identidade** | **a própria escolha**, feita uma vez na criação | Sem Patente · De Antes de Você · as quatro configurações do Corpo Amaldiçoado |
+
+**O `Sem Patente` do Latente é de identidade e passou na régua sem ninguém reparar** — *"você nunca entrou na instituição, e ela sabe disso"* não tem gatilho nenhum, e nunca precisou de um. A cláusula estava escrita para o primeiro tipo e aplicada aos dois.
+
+**O que segura o segundo tipo é o teste dos 90%, e ele segura sozinho:** ninguém deixa em branco a linha que diz **o que ele é**. Um Destranca de identidade não corre o risco que a cláusula 1 existe para evitar — o do **Irmãos**, que é uma coisa que *acontece com você* e que você não alcança.
+
+> **A diferença que decide: identidade o jogador escolheu; o Irmãos foi escolhido por ele.**
+
+**E um Destranca de identidade não pendura tarefa.** Ele diz o que você é e para. *Escrever "aponte para uma coisa da cena e diga qual dos três teria sabido" é transformar identidade em dever de casa* — e a pior versão disso é obrigar o mundo a reagir, que é enredo tirado do mestre sem ele ter pedido.
+
 **A segunda cláusula não é gosto meu: é o que separa os dois desfechos conhecidos deste formato.** Levantamento de como outros sistemas escrevem traço de origem escolhido uma vez:
 
 | como é escrito | exemplo | o que acontece na mesa |
@@ -262,11 +280,15 @@ E o motivo dela é bom: o Legado é a **terceira economia de poder** do sistema,
 |---|---|---|
 | **Destranca** | **4** | é o que todo mundo leva agora, então precisa ser a escolha mais larga — e é o mais barato de escrever bem, porque não carrega número |
 | **Ajusta** | **4** | onde mora a variedade numérica, e é ela que carrega o peso mecânico da lista |
-| **Desliga** | **até 2** | **teto, não cota** |
+| **Desliga** | **2** | **cota, com vaga reservada quando o alvo ainda não existe** |
 
 Dez por Origem, **setenta no total**.
 
-#### Por que o Desliga é teto e não cota
+#### O Desliga é cota de dois, e a vaga que falta fica declarada
+
+*Esta linha mudou depois das quatro primeiras listas, e a mudança tem preço registrado.* A régua dizia **"até 2, teto e não cota"**, e o Receptáculo e o Descendente fecharam em um por causa dela. O Mizuki decidiu o contrário: **toda Origem termina com dois Desliga.**
+
+**O problema é que o alvo não está disponível para isso**, e a conta é dura:
 
 **Depois que a trava virou *"só apaga o que ninguém comprou"*, eu enumerei o que sobrou de alvo legal no sistema inteiro:**
 
@@ -280,13 +302,21 @@ Dez por Origem, **setenta no total**.
 | ser enganado por barreira, véu e ferramenta | ficção |
 | os degraus de exaustão | peça 10, seção 4 |
 
-**São sete no sistema inteiro, e seis já estão usados.** Três por Origem exigiria vinte e um.
+**São sete no sistema inteiro, e seis já estão usados.** Dois por Origem em sete Origens são **catorze** — faltam **oito**, e existe **um** alvo livre. Três por Origem exigiria vinte e um.
 
 *E o motivo de serem poucos é bom, não ruim:* **um Desliga precisa de coisa nomeada existindo antes dele**, e neste sistema quase tudo que acontece com você ou foi comprado por alguém — e aí tem dono — ou é arbitrado na ficção, e aí não há o que desligar. **O suprimento é estreito porque o resto está bem amarrado.**
 
-Por isso a linha de Desliga é **teto**: uma Origem que tenha dois alvos bons leva dois, uma que tenha um leva um, e a vaga que sobra vira Destranca ou Ajusta. **Nenhuma entrada existe para fechar contagem** — foi o que aconteceu com os três Desliga de condição, escritos porque a coluna pedia três e reprovados assim que a trava ficou certa.
+> **Então a cota de dois se cumpre em duas etapas: o Desliga que tem alvo se escreve; o que não tem vira vaga declarada.**
 
-*As peças que ainda não existem — equipamento, invocação e Trilhas — vão criar coisa nomeada nova, e é de lá que sai o Desliga que faltar.*
+**A vaga não é promessa vaga, e essa é a diferença inteira.** Ela obedece a três regras:
+
+1. **Ela nomeia a peça de onde o alvo deve sair** — equipamento, invocação, Trilhas, ou a peça de dano e condições. Vaga que não diz o que está esperando é cheque em branco, e daqui a seis versões vira "acho que a gente ia escrever alguma coisa aqui".
+2. **Ela aparece na lista da Origem**, na mesma tabela dos outros, marcada. Não em nota de rodapé — foi assim que a Trilha passou sete versões escrita e não aplicada.
+3. **O validador confere que ela está marcada**, e não que a lista está cheia. Uma lista de nove com uma vaga declarada passa; uma lista de nove calada falha.
+
+**Por que reservar em vez de preencher.** A alternativa é inventar oito alvos agora, e a régua já mostrou como isso termina: os três Desliga de condição — *Desconfiado*, *Corpo Emprestado* e *Já Morri* — foram escritos **porque a coluna pedia**, e cada um apagava Condição Maior, que custa **Pesada**. Nenhuma trava me impediu, e quem pegou foi o Mizuki lendo. **Entrada que existe para fechar contagem é exatamente o defeito que esta régua nasceu para achar** — e ela não pode ser a coisa que a própria cota obriga.
+
+*As peças que ainda não existem — equipamento, invocação e Trilhas — vão criar coisa nomeada nova, e é de lá que sai o Desliga que faltar. **Equipamento é a peça seguinte na fila**, então a primeira leva de vagas tem prazo curto e não fica pendurada.*
 
 *Cinco por formato foram considerados e recusados pela conta:* dariam 105 entradas, e 35 Desliga não existem nem com as peças que faltam.
 
@@ -296,7 +326,7 @@ Por isso a linha de Desliga é **teto**: uma Origem que tenha dois alvos bons le
 
 Cada entrada declara **formato**, **largura** e **relógio**. As colunas não são enfeite: é por elas que o validador confere.
 
-> **As listas abaixo estão na primeira leva, com cinco entradas cada.** A decisão de dez por Origem veio depois delas, e o que falta em cada uma está marcado no fim da seção.
+> **Quatro das sete listas estão escritas.** A decisão de alvo — **4 Destranca · 4 Ajusta · 2 Desliga** — veio depois da primeira leva, então as listas cresceram para dentro dela em vez de nascer nela. **O total de entradas escritas varia**, porque o Desliga sem alvo fica como vaga declarada em vez de ser inventado. A tabela no fim da seção tem a conta.
 
 ### Latente — *ninguém te deu nada e ninguém te ensinou*
 
@@ -375,7 +405,7 @@ Foram levantadas três e havia duas vagas. **A régua repartiu sozinha, e nenhum
 
 *E o Chão Duro é o exemplo do caminho contrário:* a ideia não tinha gancho, e ganhou um. Sem o ambiente propício ele seria ficção fingindo ser mecânica.
 
-**Dominância dentro da lista: nenhuma.** As dez compram coisas diferentes, e os quatro Destranca não se cobrem — um é sobre o seu erro, um sobre quem não te ensinou, um sobre quem sabe de você, e um sobre onde você não está. **Quatro Destranca · três Ajusta · três Desliga.**
+**Dominância dentro da lista: nenhuma.** As dez compram coisas diferentes, e os quatro Destranca não se cobrem — um é sobre o seu erro, um sobre quem não te ensinou, um sobre quem sabe de você, e um sobre onde você não está. **Quatro Destranca · quatro Ajusta · dois Desliga**, dez no total.
 
 ### Receptáculo — *você carrega alguma coisa, e ela ainda está aí*
 
@@ -418,6 +448,7 @@ Foram levantadas três e havia duas vagas. **A régua repartiu sozinha, e nenhum
 | Legado | apaga | relógio |
 |---|---|---|
 | **Máscara** | ser sentido pelo que você é | sempre |
+| *— vaga reservada —* | **espera a peça de dano e condições** | — |
 
 > **Máscara** — quem sente a sua energia amaldiçoada sente **a dele**. Você não aparece como o que é. *Em troca, o que essas pessoas concluem sobre você costuma ser bem pior do que a verdade — e elas agem de acordo.*
 
@@ -447,9 +478,9 @@ A ideia era *"quando o que ele quer coincide com o que a cena precisa, ele coope
 
 Um nomeia **quem conheceu** a coisa; o outro nomeia **como a coisa se chamava**. O primeiro coloca uma pessoa no mundo, o segundo coloca uma palavra — e a palavra funciona mesmo onde ninguém daquela lista está presente. Nenhum conjunto contém o outro.
 
-**Dominância na lista: nenhuma. Quatro Destranca · quatro Ajusta · um Desliga.**
+**Dominância na lista: nenhuma. Quatro Destranca · quatro Ajusta · um Desliga escrito e um reservado.**
 
-*O Desliga fica em um, e isso é o teto funcionando como teto:* a Origem tem um alvo bom — ser sentido pelo que você é — e nenhum segundo alvo apareceu sem inventar.
+*A vaga espera a peça de dano e condições*, que é onde o que acontece com a sua cabeça vai ganhar nome — e é a mesma peça que deve à Cicatriz uma mecânica. O Receptáculo é a Origem em que outra coisa quer o seu corpo; quando essa família de efeito tiver termo escrito, o alvo aparece. **Até lá a vaga fica marcada na tabela, não numa nota.**
 
 ### Descendente — *você é de uma das famílias, e elas cobram*
 
@@ -495,8 +526,11 @@ Um nomeia **quem conheceu** a coisa; o outro nomeia **como a coisa se chamava**.
 | Legado | apaga | relógio |
 |---|---|---|
 | **Coleira** | ser localizado ou rastreado | sempre |
+| *— vaga reservada —* | **espera a peça de equipamento** | — |
 
 > **Coleira** — o seu clã te selou na infância: técnica nenhuma te localiza, te rastreia ou te encontra à distância. *Em troca, o selo é dos dois lados — a sua família sempre sabe onde você está, e nunca precisou perguntar.*
+>
+*A vaga espera a peça de equipamento, e é a mesma dependência que a **Armaria** já carrega: o Descendente é a Origem que guarda ferramenta, e ferramenta amaldiçoada ainda não tem propriedade nomeada para desligar.*
 
 **Treino de Berço mudou de formato, e a proibição do Ajusta permanente foi o motivo.** Ele era *"treine mais uma perícia"* — Ajusta sem relógio, que a régua acabou de proibir. A versão com relógio ficaria *"uma vez por cena, role tal perícia como se fosse treinada"*, que é **exatamente o Costume Antigo do Receptáculo, palavra por palavra**. Duas das cinco primeiras entradas escritas seriam a mesma mecânica com duas ficções.
 
@@ -528,21 +562,38 @@ As duas dão **vantagem em Teste de Resistência**, e é o mesmo número. A dife
 
 *Fica anotado como par a reconferir se alguma das duas for reescrita*, junto com o par *Máscara × Não Sou Só Eu* do Receptáculo.
 
-**Dominância na lista: nenhuma. Cinco Destranca · quatro Ajusta · um Desliga**, dez no total.
+**Dominância na lista: nenhuma. Cinco Destranca · quatro Ajusta · um Desliga escrito e um reservado**, dez escritos.
 
-*A Origem que contém quatro famílias diferentes ia levar onze, e leva dez.* O quinto Destranca entrou como estava previsto — é o genérico, para clã inventado —, mas o segundo Desliga não apareceu: **nenhum alvo bom sobrou depois da Coleira**, e o teto valeu como teto. A conta bateu no mesmo dez das outras por caminho diferente, e isso é o que a regra fazia sozinha.
+*A Origem que contém quatro famílias diferentes ia levar onze, e leva dez.* O quinto Destranca entrou como estava previsto — é o genérico, para clã inventado. O segundo Desliga **não tinha alvo**: nenhum sobrou depois da Coleira. Pela régua antiga a lista fechava aí; pela cota de dois ela fecha com a vaga marcada, esperando equipamento.
 
 ### Reencarnado — *você já foi outra pessoa, e o corpo em que você está não nasceu seu*
 
-| Legado | formato | alcança | relógio |
-|---|---|---|---|
-| **O Que Ninguém Lembra** | Destranca | — | por descanso longo |
-| **Corpo Emprestado** | Ajusta | uma condição nomeada (1) | por cena |
-| **Espasmo** | Ajusta | dois TR nomeados (2) | por cena |
-| **Já Morri** | Ajusta | uma condição nomeada (1) | por cena |
-| **Método Velho** | Ajusta | uma situação nomeada (1) | por cena |
+**Destranca — escolha um destes, obrigatoriamente**
+
+| Legado | relógio |
+|---|---|
+| **O Que Ninguém Lembra** | por descanso longo |
+| **Encomenda** | sem relógio |
+| **Quem Morava Aqui** | sem relógio |
+| **Enterrado** | sem relógio |
 
 > **O Que Ninguém Lembra** — uma vez por descanso longo, você sabe um lugar, um nome ou uma técnica de antes do seu tempo, e isso responde uma dúvida que ninguém vivo responderia.
+>
+> **Encomenda** — **alguém pagou para você voltar.** Escreva quem foi e qual era a condição. Essa pessoa está viva, considera o acordo aberto, e o que ela acha que comprou não é necessariamente o que você acha que vendeu.
+>
+> **Quem Morava Aqui** — **este corpo teve uma vida.** Escreva de quem ele era e **uma pessoa que ainda está esperando essa pessoa voltar**. Ela não sabe. Ela continua esperando, e continua procurando.
+>
+> **Enterrado** — você guardou uma coisa antes de morrer, e nunca voltou para buscar. Escreva o que é e onde. **Continua lá**, se o lugar ainda existir — e faz tempo demais para alguém ter tido motivo de mexer.
+
+**Ajusta**
+
+| Legado | alcança | relógio |
+|---|---|---|
+| **Corpo Emprestado** | uma condição nomeada (1) | por cena |
+| **Espasmo** | dois TR nomeados (2) | por cena |
+| **Já Morri** | uma condição nomeada (1) | por cena |
+| **Método Velho** | uma situação nomeada (1) | por cena |
+
 >
 > **Corpo Emprestado** — dor não te para como para os outros: uma vez por cena, role com **vantagem** o Teste de Resistência contra ficar **Incapacitado**. O corpo avisa os outros e não avisa você.
 >
@@ -564,11 +615,453 @@ As duas dão **vantagem em Teste de Resistência**, e é o mesmo número. A dife
 
 *Registrado porque é achado de método, não de conteúdo:* eu escrevi **três** Desliga de condição em duas Origens sem nada me impedir, e a trava da época — *"não encosta no dano"* — passou nos três. **Foi o Mizuki que pegou, lendo o Desconfiado.** A régua só ficou capaz de pegar sozinha depois disso.
 
-**A lista fica com quatro Ajusta e um Destranca até os Desliga novos serem escritos.**
+#### Os três Destranca novos, e o que cada um evita
+
+**Os três saem dos traços da peça 9** — *o motivo pelo qual você aceitou voltar* · *alguém que te reconheceu de antes* · *a família do corpo que você está usando* —, que é a mesma fonte barata que o Latente usou. Mas **um dos três traços foi recusado, e a recusa é o achado**.
+
+*"Alguém que te reconheceu de antes"* vira o Legado óbvio: uma pessoa viva sabe quem você era. **Ele não foi escrito**, porque o catálogo já tem duas entradas com essa forma exata:
+
+| Origem | Legado | forma |
+|---|---|---|
+| Latente | **A Testemunha** | alguém sabe o que você é, e nunca contou |
+| Receptáculo | **De Antes de Você** | alguém conheceu o que te habita quando ele andava sozinho |
+| ~~Reencarnado~~ | ~~alguém te reconheceu de antes~~ | **a terceira em quatro Origens** |
+
+*Este é o alerta que a lista do Descendente deixou marcado — "é a mesma estrutura em duas Origens seguidas, e catálogo previsível não aparece em teste nenhum" — acendendo pela primeira vez numa lista nova.* Não é duplicata de mecânica: as três são zero no dado e o conteúdo é diferente. É **previsibilidade**, e ela não aparece em validador nenhum.
+
+**O conserto foi inverter.** *Quem Morava Aqui* usa a mesma matéria — uma pessoa, uma ligação com quem você foi — e vira do avesso: **ela não sabe, e é justamente por isso que ela está procurando.** As outras duas põem no mundo alguém que guarda um segredo seu; esta põe alguém que carrega um erro seu, e que você pode escolher desfazer ou não.
+
+**Encomenda é o Kashimo**, que é o exemplo da própria peça 9: um acordo que alguém pagou, com condição escrita. A cláusula final — *o que ela acha que comprou não é o que você acha que vendeu* — existe para o Legado ter **duas alavancas**: o jogador pode ir cobrar, e o jogador pode declarar que o acordo foi lido errado. Sem ela vira dívida que só o mestre movimenta, que é o defeito do **Irmãos**.
+
+**Enterrado é acesso puro**, no molde do *Sobrenome*: zero no dado, e o jogador puxa quando quer buscar. *E ele tem a mesma dependência que a **Armaria** do Descendente:* se o que está enterrado for ferramenta amaldiçoada, **a peça de equipamento decide o que isso vale** — hoje funciona como ficção e acesso, e esta entrada é das primeiras a reler quando a peça 2 da fila sair.
+
+#### As duas vagas de Desliga, e por que o último alvo livre não veio para cá
+
+**Desliga**
+
+| Legado | apaga | relógio |
+|---|---|---|
+| *— vaga reservada —* | **espera a peça de equipamento** | — |
+| *— vaga reservada —* | **espera a peça de dano e condições** | — |
+
+Sobrou **um** alvo legal no sistema inteiro pela enumeração da seção 8 — **os degraus de exaustão**, da peça 10 — e ele **não foi gasto aqui**. Dois motivos, e o segundo é o que decide:
+
+- **Ele encosta no Chão Duro.** O Legado do Latente já faz *"qualquer lugar é ambiente propício"*, que é a outra ponta do mesmo relógio de desgaste. As duas juntas precisam ser medidas antes de qualquer uma virar texto.
+- **Ele é mais Corpo Amaldiçoado que Reencarnado.** *"O corpo não cansa como o de gente"* é a Origem que literalmente não é gente. Reencarnado tem corpo humano — emprestado, mas humano.
+
+> **Com a cota de dois, o alvo livre deixou de ser prêmio de quem chegou primeiro e virou decisão de encaixe.** Ele fica **reservado para o Corpo Amaldiçoado**, que é a lista seguinte — e a decisão custa alguma coisa lá, porque é a Origem que tem direito a ele pela ficção.
+
+**As duas vagas do Reencarnado esperam peças diferentes, de propósito.** Uma é equipamento, pela mesma porta que o *Enterrado* já abriu — o que você deixou para trás vira objeto com propriedade quando objeto tiver regra. A outra é a peça de dano e condições: o corpo emprestado é a ficção que mais pede efeito nomeado, e três Ajusta desta lista já disputam esse território.
+
+**A lista fecha em oito escritos: quatro Destranca · quatro Ajusta · dois Desliga reservados.** Dominância dentro da lista: nenhuma — os quatro Destranca compram um segredo de antes, um credor, uma pessoa enganada e um objeto parado, e nenhum contém outro.
+
+### Corpo Amaldiçoado — *você não é uma pessoa; é uma coisa que alguém fez e que acordou*
+
+> **A Origem mudou de natureza antes de a lista ser escrita, e isso é o que faz ela caber.** Até a v0.38 ela dividia balde com a Maki: *"não têm energia amaldiçoada, então não têm aptidão nem refino"*. **Cadáver de mutação abrupta produz a própria energia** — é o que a mutação concede, uns três meses depois de ele acordar. O que falta é **técnica**, não energia. Então ele é **misto: PE, aptidões e refino como qualquer feiticeiro, e Técnica Marcial no lugar do Fundamento.** As Bênçãos e a Lapidação ficam com a Maki, que é a única de energia zero.
+
+**Destranca — escolha um destes, obrigatoriamente.** *Os quatro são **de identidade**: eles dizem de onde vem a sua força, e param aí. Nenhum tem relógio, e nenhum pede tarefa.* **É a configuração escolhida aqui que abre a sua lista de Ajusta.**
+
+| Legado | o que ele desenha |
+|---|---|
+| **Ninhada** | três seres num corpo — o método que funciona |
+| **Gêmeos** | dois, e dois não bastam |
+| **Inteiro** | um só, e mesmo assim você acordou |
+| **Manutenção** | consciência sua, energia de outro |
+
+> **Ninhada** — três seres num corpo só, obrigados a se olharem. É o método que funciona, e funcionou em você. Escreva o que são os três.
+>
+> **Gêmeos** — foram **dois**, e dois não estabilizam. Vocês se revezam, e nenhum dos dois manda na hora da troca.
+>
+> **Inteiro** — um núcleo só, e mesmo assim você acordou. Pelo método conhecido isso não acontece.
+>
+> **Manutenção** — a consciência é sua; **a energia é de quem te fez, e ela acaba.** Escreva quem te abastece e o que ela cobra. Você decide quando ir.
+
+**Ajusta — três por configuração, e você só alcança os da sua.** *É a única Origem com Ajusta gatilhado, e o motivo está abaixo.*
+
+**Ninhada**
+
+| Legado | alcança | relógio |
+|---|---|---|
+| **Rodízio** | três perícias nomeadas (3) | por cena |
+| **Vigília** | Iniciativa (1) | por cena |
+| **Desempate** | qualquer Teste de Resistência (4) | por dia |
+
+> **Rodízio** — escolha **três perícias na criação, uma por ser**. Uma vez por cena, role uma delas como se fosse treinada. Cada um sabia fazer uma coisa, e vocês três continuam sabendo.
+>
+> **Vigília** — uma vez por cena, role **Iniciativa com vantagem**. Nunca estão os três dormindo ao mesmo tempo.
+>
+> **Desempate** — uma vez por dia, refaça um **Teste de Resistência** que você falhou. Dois cederam e o terceiro não, e é o terceiro que decide.
+
+**Gêmeos**
+
+| Legado | alcança | relógio |
+|---|---|---|
+| **Cabeça Trocada** | uma perícia nomeada (1) | por cena |
+| **Nunca os Dois** | TR Intelecto (1) | por cena |
+| **Palpite** | qualquer perícia não treinada | por dia |
+
+> **Cabeça Trocada** — escolha **uma perícia e um atributo na criação**: é o jeito que a outra faz aquilo. Uma vez por cena, role essa perícia com esse atributo em vez do que ela pede.
+>
+> **Nunca os Dois** — uma vez por cena, refaça um **Teste de Resistência de Intelecto** que você falhou. Enquanto uma cede, a outra ainda está lá.
+>
+> **Palpite** — uma vez por dia, role com **vantagem** um teste de perícia em que você **não** é treinado. Ela chuta, e ela chuta bem — e você descobre junto com todo mundo.
+
+**Inteiro**
+
+| Legado | alcança | relógio |
+|---|---|---|
+| **Feito de Uma Peça** | TR Vigor (1) | por cena |
+| **Teimosia** | uma situação nomeada (1) | por cena |
+| **Peça Única** | uma perícia nomeada (1) | por cena |
+
+> **Feito de Uma Peça** — uma vez por cena, refaça um **Teste de Resistência de Vigor** que você falhou. Não existe parte sua que ceda antes das outras.
+>
+> **Teimosia** — uma vez por cena, refaça um teste para **continuar fazendo uma coisa que você já começou** — segurar, agarrar, sustentar, não largar. Ninguém aí dentro discorda de você no meio.
+>
+> **Peça Única** — escolha **uma perícia treinada na criação**. Uma vez por cena, role com **vantagem**. Você faz uma coisa, e faz bem.
+
+**Manutenção**
+
+| Legado | alcança | relógio |
+|---|---|---|
+| **Ajuste Fino** | um ofício nomeado (1) | por cena |
+| **Recarga** | duas perícias nomeadas (2) | por descanso curto |
+| **Fiado** | qualquer rolagem | por dia |
+
+> **Ajuste Fino** — escolha **um ofício na criação**: é o de quem te fez, e você viu por dentro como se faz. Uma vez por cena, role com **vantagem**.
+>
+> **Recarga** — escolha **duas perícias na criação**: são as que ela calibrou em você. Uma vez por descanso curto, role uma delas com **vantagem**.
+>
+> **Fiado** — uma vez por dia, refaça **qualquer rolagem** que você falhou: ela cobre a diferença de onde estiver. **Escreva na ficha o que você passou a dever, e isso não sai no descanso.**
+
+#### O que separa as doze, e o teste que elas tinham que passar
+
+**Cada configuração ficou com um território, e nenhum dos doze serve a duas.** Era o teste que eu tinha marcado antes de escrever, e ele é o que decide se o gatilho faz trabalho ou é enfeite:
+
+| configuração | o que ela compra | a leitura |
+|---|---|---|
+| **Ninhada** | largura — três perícias, iniciativa, todos os TRs | três sabem mais que um |
+| **Gêmeos** | o repertório que não é seu — atributo trocado, perícia não treinada, o TR que resiste enquanto o outro cede | a outra faz o que você não faz |
+| **Inteiro** | profundidade — um TR, uma situação, **uma** perícia com vantagem | um faz melhor que três |
+| **Manutenção** | o que outra pessoa pôs em você, e a conta | você é bom no que ela calibrou |
+
+**O par que quase colidiu, e por que não colide:** *Rodízio* (Ninhada) e *Peça Única* (Inteiro) mexem os dois em perícia por cena. Um dá **três** perícias como se treinadas — largura sem profundidade; o outro dá **uma** treinada com vantagem — profundidade sem largura. **Nenhum contém o outro, e a oposição é literalmente a ficção das duas configurações.**
+
+**A escada ganhou um degrau que estava parado.** *Recarga* é a primeira entrada do catálogo inteiro a usar **por descanso curto** — os quatro degraus da peça 10 existem desde a v0.23 e o catálogo só vinha usando cena, dia e descanso longo. O degrau serve a ficção do abastecimento sem inventar relógio nenhum.
+
+**E o Fiado é o único Ajusta do catálogo que cobra.** Ele é *qualquer rolagem por dia*, que é o alcance do **Passagem** do Receptáculo — e paga a diferença com dívida escrita que não sai no descanso, no mesmo molde do *O Que Ele Quer*. Sem a cobrança ele seria o Passagem com outra ficção; com ela, é a coleira funcionando como coleira.
+
+**Desliga**
+
+| Legado | apaga | relógio |
+|---|---|---|
+| **Ferro Velho** | os degraus de exaustão | sempre |
+| *— vaga reservada —* | **espera a peça de equipamento** | — |
+
+> **Ferro Velho** — cansaço não é uma coisa que acontece com você: os degraus de exaustão não te alcançam. Você não dorme porque precisa, dorme porque combinaram que era hora. *Em troca, você também não sente quando está perto de quebrar — o seu corpo não avisa antes, ele só para.*
+
+#### As quatro configurações, e por que o Ajusta desta Origem é gatilhado
+
+**O eixo não é quantos núcleos você tem: é de onde vem a sua energia e quem decide quando você age.** Três configurações têm energia própria — um, dois e três seres — e a quarta depende de terceiro. *São quatro histórias completamente diferentes com zero diferença no dado*, que é a definição do formato de identidade.
+
+**E é justamente por serem zero no dado que o Ajusta precisou ser gatilhado.** Nas outras seis Origens o Destranca é uma escolha ao lado das outras; aqui ele é **o que você é**, e um catálogo de Ajusta livre faria a Ninhada e o Inteiro comprarem exatamente a mesma coisa. *Configuração sem consequência é sabor pendurado numa ficha* — e o teste dos 90% pega isso na segunda sessão.
+
+**A conta do que o jogador alcança**, contra as outras Origens:
+
+| | segundo Legado escolhido entre |
+|---|---|
+| as outras seis Origens | 4 Ajusta + 1 a 2 Desliga = **5 a 6** |
+| Corpo Amaldiçoado | 3 Ajusta da sua configuração + 1 Desliga = **4** |
+
+**Quatro contra cinco ou seis é estreito de propósito e não é buraco.** A ficha leva dois Legados, então basta que o segundo tenha escolha real — e o que se perde em largura se ganha em amarração: nenhum dos doze Ajusta desta Origem serve a duas configurações, então nenhum deles é genérico. *Dois foram o número proposto primeiro; três entrou porque linha única precisa de opção, e a diferença custa quatro entradas de catálogo e zero de regra.*
+
+**O Desliga fica no nível da Origem, e isso não foi escolha — foi suprimento.** Um Desliga por configuração pediria **quatro alvos nomeados e sem dono**, e a enumeração da seção 8 tem **zero livres** depois que o *Ferro Velho* gastou os degraus de exaustão. Inventar quatro é escrever entrada para fechar contagem, que é o que reprovou o *Não Sou Gente* e os três Desliga de condição. **E o Ferro Velho serve as quatro de qualquer jeito:** ele é sobre ser corpo fabricado, não sobre contagem de núcleo.
+
+**A configuração de núcleo pilotado ficou de fora, e o motivo é limpo:** um cadáver operado à distância não é personagem — o personagem é quem pilota, e quem pilota já tem Origem própria. É o **Kokichi Muta**, Restrição Celestial pelo ramo do corpo trocado pela técnica, e o Mechamaru é a ferramenta dele.
+
+**O Inteiro é invenção declarada, e o texto dele para na hora certa.** O canon diz que três almas se observando é o caminho para consciência e energia próprias; um núcleo só que consegue as duas **quebra o método**. A primeira versão fazia o mundo reagir — *"quem estuda o assunto vai querer saber como"* — e isso é **enredo tirado do mestre sem ele ter pedido**. O Legado diz que você é a exceção; **o que o mundo faz com isso é da mesa, não da ficha.**
+
+**Manutenção não desce ao número, e isso é de propósito.** Com a Origem passando a ter PE, era tentador fazer a dependência drenar PE — e aí ela deixaria de ser Destranca. **A coleira é ficção: quem te abastece existe, é alcançável, e cobra.** Se em playtest ela precisar morder em número, o conserto não é esticar este Legado, é escrever a coisa na camada de Técnica Marcial, onde preço tem casa.
+
+*Ela é a única das quatro em que o jogador **escolhe se pôr** naquela situação em vez de só descrever o que é — e foi a única que sobreviveu à primeira leva sem reescrita.*
+
+**Dominância entre os quatro: nenhuma, e ela nem se aplica.** Identidade não se domina: as quatro descrevem coisas mutuamente exclusivas, e nenhuma entrega número. **O teste que importa aqui é o outro** — se as três Ajusta de cada configuração não se copiarem entre configurações, o gatilho está fazendo trabalho; se copiarem, ele é enfeite. *Fica marcado para quando as doze estiverem escritas.*
+
+### Feto — *você foi feito, não nascido*
+
+> **A pesquisa desta lista mexeu na premissa da Origem, e o conserto veio do próprio canon.** A peça 9 abre com *"nem todo Feto é Pintura da Morte"* — e, pelo material, **não existe outra categoria de pessoa meio-humana e meio-maldição.** O que existe com esse nome é outra coisa: **cadáver amaldiçoado em estágio de útero**, uma maldição imatura que vira maldição inteira depois da metamorfose. O do centro de detenção é esse. **Não é gente, e não vira gente.**
+>
+> **Mas a frase está certa por um caminho melhor do que o que ela usava.** As nove Pinturas da Morte foram feitas pelo **mesmo autor**, e esse autor fez outras coisas em outros corpos — e uma delas **nasceu de gente, do jeito normal**. O irmão que o mais velho reconheceu não era Pintura da Morte nenhuma. **A irmandade é definida por quem te fez, não pelo que você é.**
+>
+> Isso vale para o catálogo inteiro: **a Origem é "alguém te fabricou de propósito", e Pintura da Morte é o exemplar famoso, não a definição.**
+
+**Destranca — escolha um destes, obrigatoriamente.** *De identidade, os quatro.*
+
+| Legado | o que ele desenha |
+|---|---|
+| **Irmãos** | a irmandade, e quem entra nela |
+| **Numeração** | você foi contado, e existe registro |
+| **Guardado** | você foi objeto antes de ser pessoa |
+| **Devagar** | o seu corpo não usa o mesmo calendário |
+
+> **Irmãos** — escreva **quantos vocês eram e o que aconteceu com eles**. Você reconhece um irmão quando encontra, e sabe quando um morre, esteja onde estiver. **Nem todos se parecem com você** — quem te fez fez outras coisas, em outros lugares, e algumas delas nasceram de gente.
+>
+> **Numeração** — você não é só um nome: **você é um número dentro do que alguém estava tentando**. Escreva qual é o seu e quantos eram no total. Quem sabe do assunto reconhece a série.
+>
+> **Guardado** — antes de acordar você foi **coisa**, e alguém te teve. Escreva **quem te guardou, onde, e por quanto tempo**. Essa pessoa, ou o que sobrou dela, ainda tem a ver com você.
+>
+> **Devagar** — o seu corpo não envelhece no calendário dos outros. Escreva **há quanto tempo você existe** e com que idade você parece. Quem te conheceu antes vai notar; você não.
+
+**Ajusta**
+
+| Legado | alcança | relógio |
+|---|---|---|
+| **Meio e Meio** | veneno e doença (1) | por cena |
+| **Como Se Monta** | Medicina (1) | por cena |
+| **Faro** | maldição (1) | por cena |
+| **Paciência** | qualquer perícia | por dia |
+
+> **Meio e Meio** — uma vez por cena, role com **vantagem** um Teste de Resistência contra **veneno ou doença**. Metade de você não é feita de carne, e essa metade não escuta.
+>
+> **Como Se Monta** — uma vez por cena, refaça um teste de **Medicina** que você falhou. Você sabe do que corpo é feito porque alguém montou o seu na sua frente.
+>
+> **Faro** — uma vez por cena, quando o que você procura é **maldição**, role **Sentir Energia no lugar de Investigação**. Você não deduz onde ela está; você sente, porque é parente.
+>
+> **Paciência** — uma vez por dia, refaça um teste de perícia feito **enquanto você esperava, vigiava ou estava escondido sem se mexer**. Você já passou mais tempo parado do que a maior parte das pessoas passa viva.
+
+**Desliga**
+
+| Legado | apaga | relógio |
+|---|---|---|
+| **Sangue que Não é Sangue** | comer, dormir, respirar | sempre |
+| *— vaga reservada —* | **espera a peça de dano e condições** | — |
+
+> **Sangue que Não é Sangue** — você não precisa comer, dormir nem respirar como um humano. Isso resolve problemas que param os outros. *Em troca, cria problemas que os outros não têm — e nenhum deles tem nome ainda, porque ninguém precisou nomear fome para gente que come.*
+
+#### O Irmãos saiu do piso, e quem consertou foi o canon
+
+**O defeito estava registrado desde a v0.24: o jogador não conseguia disparar.** *"Você sente quando outro Feto está por perto, e ele sente você"* só acende quando o **mestre** põe outro Feto na cena — e o efeito ainda era simétrico, revelando você tanto quanto revelava o outro. Era o exemplar do que a cláusula do Destranca existe para pegar.
+
+**O conserto não foi inventar um gatilho: foi ler o que a irmandade é.** No material, o reconhecimento de irmão **não depende de o outro ser da mesma fabricação** — o mais velho reconheceu como irmão alguém nascido de gente, porque quem os fez foi o mesmo. Então:
+
+> **O gatilho é o jogador apontar alguém e dizer que é irmão.** É afirmação sobre o mundo, é do dono da ficha, e é exatamente o que aconteceu na obra.
+
+E a assimetria some junto: *você* reconhece, *você* sabe quando um morre. Não é radar de mão dupla que entrega a sua posição.
+
+**A `Numeração` e o `Guardado` saíram dos traços da peça 9**, como no Latente — *os irmãos e o que aconteceu com eles* e *quem te fez, e onde essa pessoa está*. O `Devagar` saiu do terceiro, *o corpo que não envelhece igual*, e é o único dos quatro que não põe outra pessoa no mundo: ele põe **tempo**, que é a única coisa que esta Origem tem de sobra.
+
+**Um nome morreu na triagem e o motivo é fino:** *Fora do Tempo* saiu `OCUPADO` porque carrega **Tempo**, que é Família do manual. *Sem Pressa* caiu junto — **Pressa** é Melhoria. Sobrou **Devagar**, que é a palavra que nenhum dos dois estava conseguindo dizer.
+
+**E uma coisa que o catálogo não vai tocar:** as Pinturas da Morte manipulam sangue, e isso é **técnica de clã** — a peça 9 proíbe qualquer Origem de abrir, fechar ou conceder técnica. Sangue fica de fora dos quatro Ajusta, e é por isso que eles compram percepção, medicina e espera em vez de arma.
+
+**Dominância na lista: nenhuma. Quatro Destranca · quatro Ajusta · um Desliga escrito e um reservado.**
+
+### Restrição Celestial — *você trocou uma coisa por outra antes de nascer, e não foi você que assinou*
+
+> **Esta é a única Origem com sub-escolha antes do Legado, e ela já existia — só não estava ligada à lista.** A peça 9 separa os dois ramos na criação: *corpo pela técnica* conjura com o Fundamento normal, *energia pelo corpo* vai para a Técnica Marcial e não tem PE, golpe canalizado nem Sentir Energia. **O ramo vem antes, e gateia Destranca e Ajusta.**
+>
+> E os dois Legados que já existiam **já eram um por ramo**, sem ninguém ter marcado: *Alcance Impossível* só faz sentido em quem opera de longe, *Peso Real* só em quem lê o mundo sem energia.
+
+**Corpo pela técnica — Destranca** *(o corpo não funciona, e a energia é enorme)*
+
+| Legado | o que ele desenha |
+|---|---|
+| **Nasci Assim** | o que o seu corpo não faz, e o que isso cobra todo dia |
+| **O Substituto** | as pessoas conhecem uma coisa que não é você |
+| **A Oferta** | você já pensou no preço de um corpo que funcione |
+| **Nunca Estive Lá** | você conhece lugares onde o seu corpo nunca esteve |
+
+> **Nasci Assim** — escreva **o que o seu corpo não faz e o que isso te cobra todo dia**: o que dói, o que falta, o que você não pode encarar. Não é segredo e não tem conserto conhecido.
+>
+> **O Substituto** — o meio jujutsu conhece você por **uma coisa que não é o seu corpo** — um nome, uma voz, uma casca. Escreva o que é. Quase ninguém sabe que existe outra pessoa do outro lado, e quem sabe conta nos dedos.
+>
+> **A Oferta** — você já pensou no que daria por um corpo que funcione, e **já chegou a um número**. Escreva qual é. Existe gente que vende esse tipo de coisa, e uma delas sabe que você existe.
+>
+> **Nunca Estive Lá** — a sua energia vai a lugares que você não vai. Escreva **um lugar que você conhece de cor e onde o seu corpo nunca pisou**, e o que você viu acontecer lá.
+
+**Corpo pela técnica — Ajusta**
+
+| Legado | alcança | relógio |
+|---|---|---|
+| **Antena** | Sentir Energia (1) | por cena |
+| **Do Meu Canto** | uma situação nomeada (1) | por cena |
+| **Insônia** | qualquer perícia | por dia |
+| **Li Tudo** | duas perícias nomeadas (2) | por cena |
+
+> **Antena** — uma vez por cena, refaça um teste de **Sentir Energia** que você falhou. O seu alcance não é normal, e você passou a vida usando ele no lugar dos olhos.
+>
+> **Do Meu Canto** — uma vez por cena, role com **vantagem** um teste feito **sem sair do lugar em que você está**. Você nunca precisou chegar perto para trabalhar.
+>
+> **Insônia** — uma vez por dia, refaça um teste de perícia feito **enquanto os outros dormiam**. Dor não tem horário, e você aproveitou as horas.
+>
+> **Li Tudo** — uma vez por cena, refaça um teste de **Ocultismo ou Investigação** que você falhou. Você teve tempo parado que ninguém mais teve.
+
+**Energia pelo corpo — Destranca** *(sem energia nenhuma, e o corpo é sobre-humano)*
+
+| Legado | o que ele desenha |
+|---|---|
+| **Descartado** | o clã que te jogou fora |
+| **Dividido** | a sua restrição foi partida com outra pessoa |
+| **Desde Criança** | a ferramenta que te acompanha desde sempre |
+| **Aprendi a Ver** | você não nasceu enxergando maldição |
+
+> **Descartado** — a sua família é do meio e te tratou como erro. Escreva **quem te descartou e o que fizeram você fazer enquanto esteve lá**. Eles continuam existindo, continuam achando que estavam certos, e você conhece a casa por dentro.
+>
+> **Dividido** — a sua restrição **não é sua sozinha**: ela foi partida com alguém que nasceu junto de você. Escreva quem é e onde essa pessoa está. Enquanto os dois lados existirem, nenhum dos dois está inteiro.
+>
+> **Desde Criança** — existe **uma ferramenta que anda com você desde antes de você escolher**. Escreva o que é e como veio parar na sua mão. Quem entende de ferramenta reconhece aquela.
+>
+> **Aprendi a Ver** — você **não nasceu enxergando maldição**, e a maior parte de quem te olha supõe que sim. Escreva **como você resolveu isso** — o que você usa, ou o que você treinou até substituir o que falta.
+
+**Energia pelo corpo — Ajusta**
+
+| Legado | alcança | relógio |
+|---|---|---|
+| **Sentido Treinado** | maldição (1) | por cena |
+| **Couro** | TR Físico (1) | por cena |
+| **Ninguém Viu** | Furtividade (1) | por cena |
+| **No Braço** | qualquer perícia de Força ou Destreza | por dia |
+
+> **Sentido Treinado** — uma vez por cena, role **Percepção no lugar de Sentir Energia**. Você não sente energia — você aprendeu a notar o que ela mexe.
+>
+> **Couro** — uma vez por cena, refaça um **Teste de Resistência Físico** que você falhou. O corpo é a única coisa que a troca te deu, e ele é absurdo.
+>
+> **Ninguém Viu** — uma vez por cena, refaça um teste de **Furtividade** que você falhou. Você não emite nada, e passou a vida aproveitando isso.
+>
+> **No Braço** — uma vez por dia, refaça um teste de perícia **de Força ou Destreza** que você falhou.
+
+**Desliga — dos dois ramos**
+
+| Legado | apaga | relógio |
+|---|---|---|
+| **Peso Real** | ser enganado por barreira, véu e ferramenta | sempre |
+| *— vaga reservada —* | **espera a peça de equipamento** | — |
+
+> **Peso Real** — você percebe **ferramenta amaldiçoada, barreira e véu pelo tato e pelo peso, não pela energia**. O que engana feiticeiro não engana você. *Em troca, você percebe que tem alguma coisa ali e não o que é — o aviso vem sem nome.*
+
+#### O que o levantamento trouxe, e o que ele matou
+
+**Dois ganchos vieram do material e eu não teria inventado nenhum dos dois.**
+
+O primeiro: **quem não tem energia não nasce enxergando maldição.** Os dois exemplares canônicos resolveram isso por caminhos diferentes — um treinou os sentidos até perceber pelo que a maldição mexe no mundo, a outra usou ferramenta para enxergar. **Isso vira o `Aprendi a Ver` e o `Sentido Treinado`**, e conserta uma suposição que o catálogo fazia de graça: que perceber maldição é padrão de todo personagem.
+
+O segundo: **a restrição pode vir partida.** No material, dois nascidos juntos contam como um para efeito de jujutsu, e enquanto os dois lados existem nenhum dos dois está completo. É o `Dividido`, e é a única entrada do catálogo inteiro em que **o Legado descreve uma coisa que ainda não terminou de acontecer**.
+
+**E o `Alcance Impossível` morreu.** *"Aja de um lugar em que o seu corpo não está"* é **técnica** — operar à distância é exatamente o que a técnica do exemplar canônico faz —, e a peça 9 proíbe Origem de conceder técnica. É o mesmo diagnóstico do `Núcleos` e do `Não Sou Gente`: **não é Legado, é kit de poder, e o dono aqui é o Fundamento.** O ramo do corpo fraco conjura normalmente, então alcance absurdo é Melhoria de feitiço.
+
+O que sobrou dele virou duas coisas que **não** são técnica: o `Nunca Estive Lá`, que é o conhecimento sem o poder, e o `Do Meu Canto`, que é a vantagem de quem nunca precisou chegar perto.
+
+**O `Peso Real` passou a valer nos dois ramos**, e ganhou a cláusula de troca que a régua exige e que ele não tinha: *o aviso vem sem nome*. Você sabe que tem coisa ali; não sabe o quê.
+
+**Cinco nomes morreram na triagem nesta lista**, o recorde de uma leva só: *Alcance* (está dentro do próprio Legado que morreu, e é Família), *Longe* (Melhoria, e está dentro de *Muito Longe*), *Anos Parado* (**Parado** é Restrição), *Osso Duro* (**Osso** é Tema), *Sem Rastro* (**Rastro** é Melhoria). E *Marra* saiu `fraco`, a uma letra de **Marca**.
+
+**Dominância: nenhuma, dentro de cada ramo.** E **entre ramos ela não se aplica** — ninguém escolhe entre os dois lados, o ramo já veio da criação.
+
+### Sem Técnica — a sub-origem, e a única entrada que mora fora de uma lista
+
+**Sem Técnica não é Legado de catálogo, e não pode ser.** Ela tem construção própria em cima — rota de criação, economia de poder, duas peças que ainda não existem —, e enfiar isso numa linha de lista seria fingir que cabe. **Mas ela também não pode ficar invisível na camada onde o jogador escolhe quem é.**
+
+> **Então ela entra como uma entrada de Destranca que aponta para fora:** ela está disponível nas cinco Origens que aceitam a sub-origem, e o corpo dela é um ponteiro.
+
+> **Sem Técnica** — você tem energia amaldiçoada e **a técnica não veio junto**. Não é defeito e não é falta: é outro caminho, e ele tem seção própria. **Escolhendo esta linha, o seu poder não sai do Fundamento** — sai de aptidão ou de escola de espada, e é lá que você monta o personagem.
+
+**Escrita uma vez, e as cinco listas apontam para cá.** Cinco cópias do mesmo texto em cinco Origens é a lição nº 9 acontecendo dentro de um catálogo — e é o defeito que este projeto mais paga para evitar. **Um texto, um dono.**
+
+**Quem pode pegar:** Latente · Receptáculo · Descendente · Reencarnado · Feto. **As duas especiais não** — Corpo Amaldiçoado e Restrição Celestial já vêm com uma troca própria embutida, e a peça 9 fecha isso.
+
+**Nas cinco, ela é um quinto Destranca**, e a lista deles vai a cinco. É a mesma exceção que o Descendente já tem por outro motivo — lá são quatro arquétipos de clã, aqui é uma porta para fora.
+
+#### O que a pesquisa mudou sobre o tamanho desta rota
+
+*O `arquitetura.md` avisa que Sem Técnica precisa de "um sistema próprio, paralelo ao Fundamento". Pelo material, precisa de menos.*
+
+| rota | o que ela é, de verdade |
+|---|---|
+| **Aptidão** | **Energia Reversa não é técnica inata** — é manipulação de energia amaldiçoada, e é exatamente por isso que alguém sem técnica consegue usar. O que é raro nela é curar **os outros** |
+| **Estilo da Sombra** | **anti-domínio**, e a espada é o jeito mais comum de usar — não o requisito |
+
+**As duas caem na camada de aptidão e ferramenta, e metade já está construída:** as quatro anti-domínio entraram na v0.29, e a Energia Reversa já está na lista de aptidões pendentes. **O que falta de verdade é ferramenta amaldiçoada, que é a peça 2 da fila.**
+
+> **A espada não é obrigatória, e o projeto já sabia disso antes de a prosa saber.** A peça 9 descreve o Estilo da Sombra como *"técnica de espada e corpo"*, e no material a técnica central dele **foi aprendida em um mês por alguém que não usa espada**. Mais: o exemplar canônico de grau 1 virou líder da escola e **derrubou as restrições dela**. A **seção 6.5 da peça 11 já trata o Domínio Simples como aptidão pura** — raio em volta de você, com os pés no chão, sem uma palavra sobre lâmina. *A mecânica estava certa e a prosa da peça 9 estava mais estreita que ela.*
+
+#### E a rota precisa de sistema de criação próprio
+
+*Decidido com o Mizuki na v0.38.* **Sem Técnica não pode ser "os outros menos o Fundamento".** Se a rota for só subtração, ela fica atrás de todo mundo e ninguém escolhe por vontade — escolhe por castigo.
+
+> **O poder dela vem da manipulação criativa da energia amaldiçoada, montada em aptidões — e isso precisa de uma máquina de construção com a mesma dignidade que o Fundamento tem.**
+
+Duas rotas dentro dela, e **as duas são de aptidão**: uma que vai fundo no que qualquer feiticeiro pode fazer com energia, e outra que vai fundo em anti-domínio e corpo. A peça de aptidões já carrega metade do vocabulário; o que falta é a **criação** — quantas, com que orçamento, e com o que se paga.
+
+*Não é peça 13. Fica registrado aqui porque foi esta lista que fez a pergunta aparecer.*
+
+#### Uma entrada do catálogo quebra, e é uma só
+
+De oitenta entradas, **exatamente uma** pressupõe que você tem técnica:
+
+> **Inédito** *(Latente, Desliga)* — *"a **sua técnica** não está em registro nenhum"*.
+
+Quem não tem técnica não tem o que esconder. **Todo o resto funciona**, porque Sem Técnica tem energia amaldiçoada e tem Sentir Energia — o que falta é a técnica inata. Faro, Antena, Máscara e os outros continuam de pé.
+
+**O conserto é uma linha no Inédito** dizendo que ele não está disponível para quem é Sem Técnica, e a checagem 8 do validador confere isso.
+
+#### Duas coisas da peça 9 que precisam mudar junto
+
+**A frase *"Sem Técnica não dá um segundo Legado"* perdeu o sentido.** Ela foi escrita quando a ficha levava **um** Legado. Com dois, a leitura certa é: **Sem Técnica não amplia a conta — ela ocupa uma das duas vagas, como Destranca.**
+
+**E a raridade fica como está, por decisão declarada.** *No material, técnica inata compõe mais de 80% do repertório de um feiticeiro, e o exemplar canônico de grau 1 sem técnica é apontado como o único no nível dele.* **É raro lá e continua comum aqui**, porque a rota precisa ser escolhível sem virar exceção negociada com o mestre — e **quem escolhe é o jogador, nunca a mesa**. *O desvio fica escrito em vez de escondido, que é a diferença entre decisão e descuido.*
+
+### 9.9 · O Não Sou Gente saiu do catálogo inteiro, e o nome foi com ele
+
+*O último dos catorze antigos que a régua reprovava.* Ele dizia:
+
+> ~~**Não Sou Gente** — veneno, doença e o que ataca corpo humano não te pegam. Cura que funciona em humano também não.~~
+
+**A metade que é dano vira Passiva de Regra Própria, e leva o nome.** É o que o manual manda com todas as letras: *"nenhuma Melhoria fura imunidade; quem quiser isso monta uma Passiva de Regra Própria com o mestre, com limite de uma vez por cena"*. Passiva custa **espaço de feitiço conhecido**, que é a moeda certa — e a cláusula de cura que não funciona já era o preço embutido, agora pago no lugar certo.
+
+**E a outra metade não virou Legado nenhum, porque ela já existe.** *"Você não é uma pessoa"* é **a primeira linha da Origem** na peça 9:
+
+> *"Você não é uma pessoa. Você é uma coisa que alguém fez e que acordou."*
+
+**Um Legado que afirma o que a Origem que o contém já afirma é a lição nº 9 em escala pequena** — duas cópias da mesma frase, e uma delas vai divergir. O Corpo Amaldiçoado inteiro é o Legado que essa metade seria.
+
+*Isso fecha os quatro do catálogo antigo que a régua tinha marcado:* o **Não Sou Gente** muda de camada, o **Irmãos** ganhou gatilho do jogador, o **Instinto Bruto** perdeu a metade morta, e o **Alcance Impossível** saiu por ser técnica. **Nenhum dos quatro sobreviveu como estava, e nenhum foi apagado sem destino.**
 
 ---
 
-**A conta dos formatos, com quatro Origens escritas:** Ajusta 8 · Desliga 4 · Destranca 8.
+**A conta dos formatos, com todas as sete Origens escritas:**
+
+| Origem | Destranca | Ajusta | Desliga escrito | Desliga reservado | escritos |
+|---|---|---|---|---|---|
+| Latente | 4 | 4 | 2 | — | **10** |
+| Receptáculo | 4 | 4 | 1 | 1 | **9** |
+| Descendente | 5 | 4 | 1 | 1 | **10** |
+| Reencarnado | 4 | 4 | 0 | 2 | **8** |
+| Corpo Amaldiçoado | 4 | **12** | 1 | 1 | **17** |
+| Feto | 4 | 4 | 1 | 1 | **9** |
+| Restrição Celestial | **8** | **8** | 1 | 1 | **17** |
+| | **33** | **40** | **7** | **7** | **80** |
+
+**Mais o `Sem Técnica`** — uma entrada só, escrita fora das listas e compartilhada pelas cinco Origens que o aceitam. **Oitenta e uma no total.**
+
+**Oitenta entradas escritas, e sete vagas de Desliga declaradas.** As duas Origens com sub-escolha — Corpo Amaldiçoado e Restrição Celestial — respondem por **34 delas**, e nas duas o jogador alcança bem menos do que o catálogo tem.
+
+| | o jogador escolhe o segundo Legado entre |
+|---|---|
+| Latente · Receptáculo · Descendente · Reencarnado · Feto | **4 a 6** |
+| Corpo Amaldiçoado | 3 Ajusta da configuração + 1 Desliga = **4** |
+| Restrição Celestial | 4 Ajusta do ramo + 1 Desliga = **5** |
+
+*O Corpo Amaldiçoado fechou com **doze** Ajusta — três por configuração —, e o jogador alcança três. É a única Origem com Ajusta gatilhado, e a única que passa de dez entradas: dezessete escritas para quatro alcançáveis como segundo Legado.*
+
+**As sete listas estão escritas.** O que falta para a metade 2 fechar: o **Não Sou Gente** virar Passiva, o **validador dos Legados**, e as sete vagas de Desliga, que dependem de peça nova.
+
+**O alvo livre acabou.** O *Ferro Velho* gastou os degraus de exaustão, que era o último da enumeração da seção 8 — **daqui para a frente, todo Desliga novo depende de peça nova criar coisa nomeada.** Feto e Restrição Celestial têm um Desliga escrito cada no catálogo antigo e vão entrar já com uma vaga aberta.
+
+**Só o Latente fecha a cota de Desliga hoje, e ele é o único que tinha dois alvos.** As outras três carregam vaga declarada — quatro no total, contra **um** alvo livre no sistema inteiro, que já está reservado para o Corpo Amaldiçoado. **A dívida de alvo é a conta desta régua, e ela é visível de propósito.**
+
+O Descendente leva cinco Destranca porque contém quatro clãs por dentro; o resto varia porque **o suprimento de alvo é estreito por construção**, e não porque alguma lista foi escrita com menos cuidado. *Uma Origem que fechasse em dez por ter dez seria a única prova de que a régua não está sendo aplicada.*
+
+> **Quando equipamento fechar, a primeira coisa a fazer é voltar aqui** — quatro vagas, e três delas esperam essa peça ou a de dano e condições. Decisão registrada não é decisão aplicada.
 
 *Faltam três listas: Feto, Corpo Amaldiçoado e Restrição Celestial.*
 
@@ -576,10 +1069,14 @@ As duas dão **vantagem em Teste de Resistência**, e é o mesmo número. A dife
 
 O catálogo, e as decisões de sabor que vêm com ele:
 
-- **Cinco por Origem**, contra os dois de hoje, mais o Legado Próprio.
-- **Os três relógios fora da escada** descem para o degrau que a largura pedir.
-- **Não Sou Gente sai do dano.** É o único dos catorze que a régua reprova, e fatiar não resolve — cada fatia continuaria sendo imunidade. A saída provável é a que o próprio manual já indica: **a imunidade não morre, ela muda de camada.** *"Quem quiser isso monta uma Passiva de Regra Própria com o mestre"* — e Passiva custa espaço de feitiço, que é a moeda certa para ela. O Legado fica com a metade que não é dano: *você não é uma pessoa*, e o que isso destranca e desliga fora do combate. Qual metade fica com o nome é escolha de sabor.
-- **O piso do Irmãos**, que precisa de gatilho do jogador ou de aposentadoria na lista nova.
+- ~~**As três listas que faltam**~~ — **as sete fecharam na v0.38**, 81 entradas escritas.
+- ~~**Os três relógios fora da escada**~~ — **descidos**: *Aprendi Apanhando* e *A Voz de Dentro* para por dia, *O Que Ninguém Lembra* para por descanso longo.
+- ~~**O piso do Irmãos**~~ — **resolvido na lista do Feto**, pelo canon: a irmandade é definida por quem te fez, e o gatilho virou o jogador apontar alguém e dizer que é irmão.
+- **As sete vagas de Desliga**, quando a peça que cada uma espera sair. Quatro esperam **equipamento**, três esperam **dano e condições**.
+- **O `Inédito` precisa da linha que o fecha para Sem Técnica** — é a única das 81 entradas que pressupõe técnica própria.
+- **A peça 9 precisa de três consertos que esta peça gerou:** a frase *"Sem Técnica não dá um segundo Legado"*, o §5 que ainda diz que Corpo Amaldiçoado não tem energia, e o `Alcance Impossível`, que é técnica e sai do catálogo.
+- ~~**Não Sou Gente sai do dano**~~ — **resolvido na v0.38: o nome inteiro foi para a Passiva, e o Legado deixou de existir.** A seção 9.9 tem o porquê.
+- ~~**O piso do Irmãos**~~ — **resolvido na lista do Feto.** O gatilho virou *o jogador apontar alguém e dizer que é irmão*, que é o que a irmandade faz no material: ela é definida por **quem te fez**, e alcança gente que não é da mesma fabricação.
 - **Instinto Bruto está metade morto** e a régua não conserta isso: *"use Sentir Energia no lugar de Percepção"* é trocar Essência por Essência desde a v0.16. Sobra o valor contra Intuição, que é Inteligência. É conserto de catálogo.
 - **O validador dos Legados**, que sai junto com a peça e não sete versões depois. As checagens que esta régua pede:
 
@@ -590,8 +1087,10 @@ O catálogo, e as decisões de sabor que vêm com ele:
 | 3 | a largura do gatilho casa com o degrau: estreito pode cena, largo desce para dia | a seção 5 |
 | 4 | **nenhum Desliga encosta em dano** — nem a palavra imunidade, nem resistência | **o manual**, que é dono dos dois termos |
 | 5 | todo Desliga escreve o que custa em troca | a seção 5 |
-| 6 | todo Destranca tem gatilho que o jogador puxa | a seção 5 |
+| 5b | **toda Origem soma dois Desliga entre escritos e reservados**, e **toda vaga nomeia a peça que ela espera** | a seção 8 |
+| 6 | todo Destranca **de ação** tem gatilho que o jogador puxa; todo **de identidade** é escolha de criação e não pendura tarefa | a seção 5 |
 | 7 | o teste de conjunto da peça 3 dentro de cada lista de Origem | **a peça 3** |
-| 8 | um Legado por ficha, N por Origem, e as Origens citadas existem | **a peça 9** |
+| 8 | dois Legados por ficha, N por Origem, e as Origens citadas existem | **a peça 9** |
+| 9 | **o `Sem Técnica` aparece nas cinco Origens que o aceitam e em nenhuma das duas especiais**, e nenhuma entrada disponível para ele pressupõe técnica própria | **a peça 9** |
 
 Com o limite de design declarado à parte da regra aplicada — lição nº 8 —, e **teste negativo em cada uma**, conferindo antes que a base passa, que é o que a v0.35 pagou para aprender.
