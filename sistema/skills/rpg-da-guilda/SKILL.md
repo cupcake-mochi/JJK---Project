@@ -1,0 +1,125 @@
+---
+name: rpg-da-guilda
+description: Procedimento de trabalho do repositório do RPG da Guilda (sistema de mesa de Jujutsu Kaisen) — ordem de leitura, validadores, triagem de nome, como escrever arquivo neste mount, arnês de perturbação e como fechar versão. Use em qualquer tarefa que mexa nesse repositório: escrever ou revisar peça de regra, mexer em número, criar validador, batizar coisa, ou retomar o trabalho em conversa nova.
+---
+
+# RPG da Guilda — procedimento do repositório
+
+Sistema de RPG de mesa de Jujutsu Kaisen, para um server de guilda com vários mestres ativos e **personagem persistente entre mesas**. O filtro que decide quase tudo: *dois mestres que nunca conversaram chegam ao mesmo número?*
+
+Esta skill guarda **procedimento**, nunca conteúdo. Números, lições e decisões moram nos arquivos do repositório e só lá — copiar qualquer um deles para cá cria a divergência que a lição nº 9 do projeto existe para evitar.
+
+---
+
+## 1. Antes de qualquer coisa: ler, nesta ordem
+
+1. `README.md` — em especial a seção **"Nove lições que custaram erro"**. Ela é a fonte única; não existe cópia dela em lugar nenhum, e ela cresce.
+2. `sistema/ESTADO-ATUAL.md` — o ponto de retomada. **Leia inteiro**, incluindo a seção final *"Onde estamos, e o que falta"*. Ele é grande e o leitor pode truncar: se vier aviso de leitura parcial, continue a partir do offset em vez de responder pela primeira página.
+3. `logs/CHANGELOG.md` — de cima para baixo. Ele carrega o **porquê** de cada decisão, que é a única parte do projeto que não dá para reconstruir lendo o resto.
+4. A peça de `sistema/03-mecanica/` que for mexer.
+
+**Não leia de `sistema/99-arquivo/` para escrever peça nova.** É material morto.
+
+Se `02-esqueleto/arquitetura.md` contradisser uma peça de `03-mecanica/`, **a peça vence**.
+
+## 2. Rodar os validadores antes de mexer em número
+
+```bash
+cd sistema/03-mecanica && for v in conferir-*.py; do python3 "$v"; done
+cd ../..  && python3 conferir-repositorio.py
+```
+
+Duas armadilhas, e as duas já custaram versão:
+
+- **Sempre rode de `sistema/03-mecanica/`.** Alguns validadores acham o `.docx` do manual por caminho relativo e, rodados de outro lugar, **pulam checagem em silêncio e saem verdes**.
+- **Confira `PULADA=0`.** Sem `python-docx` instalado (`pip install python-docx --break-system-packages`) os que leem o manual pulam em vez de falhar.
+
+Um verde que pulou checagem não prova nada. Conte as PULADAs, não confie no "OK".
+
+## 3. Antes de batizar qualquer coisa, a triagem
+
+```bash
+cd sistema/03-mecanica
+python3 conferir-nomes.py --candidatos Nome Outro Terceiro
+```
+
+Ela já matou mais de dez nomes que pareciam livres, e pega **substring** — um nome morre por estar dentro de um termo maior do manual.
+
+**Ela não pega três coisas, e você tem que pegar:**
+
+- **Colisão de sentido.** Um nome pode sair `LIVRE` e ainda colidir com o que o sistema já faz com aquela palavra.
+- **Colisão com o hobby.** Termos como *move*, *vantagem*, *resistência*, *condição*, *crítico* carregam significado herdado de sistemas populares. O `01-pesquisa/` cita vários desses sistemas pelo nome — vale procurar o termo lá antes de adotá-lo.
+- **Categoria.** Escrever `<substantivo> <adjetivo>` faz o validador ler o adjetivo como *nome* daquela categoria. Use a formulação que as peças já usam.
+
+## 4. Escrever arquivo neste mount
+
+O mount que expõe a pasta ao sandbox tem defeitos medidos e reproduzíveis:
+
+- **Código novo se escreve pelo bash**, com `cat > arquivo <<'EOF'`. Arquivo que a ferramenta de escrita grava fica invisível para o `python3` com frequência.
+- **Para `.md` a ferramenta de escrita serve.** Se um validador acusar arquivo sumido que você está vendo, qualquer escrita nova reconcilia o mount — e uma edição de uma linha basta. O conteúdo no disco nunca esteve em risco. *Sintoma:* `ls` e `stat` mostram tamanho e inode certos, e `open()` devolve ENOENT enquanto os vizinhos abrem.
+- **Não rode git do sandbox** — nem `status`, nem `log`, nem `fsck`. Todos saem com `loose object is corrupt` e **o repositório está inteiro**; do lado do usuário funciona normalmente. Pior: `git status` cria um `.git/index.lock` que o sandbox não consegue apagar, e um lock preso trava o script de commit.
+- **O commit é sempre do usuário.** Você lê, edita e valida; ele commita.
+
+Depois de escrever, confira que o bash lê o arquivo de volta.
+
+## 5. Arnês de perturbação — todo número novo ganha teste negativo
+
+Perturbe o valor e prove que a checagem certa acende. Três regras, cada uma paga com uma versão perdida:
+
+1. **Numa cópia isolada**, nunca nos arquivos reais.
+2. **Confira que a base passa na cópia antes de perturbar.** Uma cópia mal montada faz *todas* as perturbações acenderem — vermelhos que parecem prova e não são.
+3. **Confira que a perturbação mudou o arquivo** (`diff`) antes de ler o resultado. `sed` que não bate produz um "não acendeu" falso.
+
+E, ao escrever a checagem: **separe a regra aplicada do limite de design.** Uma checagem que se mede contra a própria constante sai verde quando você perturba a constante. Esse erro apareceu três vezes em três versões.
+
+Sempre que der, adicione um **contra-teste**: prove que a alternativa que você rejeitou produziria resultado diferente. Sem ele, uma checagem pode ser trivialmente verdadeira.
+
+## 6. Onde a checagem mora
+
+**Cada peça tem um validador dono.** Checagem nova vai no validador da peça que ela confere — não num arquivo novo.
+
+Isso não é só arrumação: `conferir-repositorio.py` conta peças (`NN-nome.md`) e validadores (`conferir-*.py`) na pasta e compara com o número escrito no `README`, no `ESTADO-ATUAL` e no `LEIA-ME`. **Arquivo novo com dois dígitos na frente, ou `conferir-*.py` novo, quebra a contagem** até os três documentos e a entrada do CHANGELOG subirem juntos.
+
+**Meia peça não é peça.** Trabalho em andamento vive como `RASCUNHO-*.md`, sem número na frente. Ele vira peça numerada quando fecha.
+
+E **nada de valor fica escrito dentro do validador**: leia o número do documento dono.
+
+## 7. Fechar versão
+
+```bash
+./subir.sh "o que mudou"       # roda todos os validadores e se recusa a commitar se algum falhar
+```
+
+- **A entrada do topo do `CHANGELOG` é a dona da versão do projeto.** Subir a versão no `README`, no `ESTADO-ATUAL` ou no `LEIA-ME` sem escrever a entrada **falha** o `conferir-repositorio.py`.
+- **Antes de fechar, revisão cética — inclusive contra o que você mesmo acabou de escrever.** Metade dos achados grandes do CHANGELOG saiu daí. Procure ativamente o erro na sua própria proposta antes de entregá-la.
+- **Peça substituída vai para `99-arquivo/`** com cabeçalho dizendo de onde saiu, o que a substituiu, em que versão, **por que morreu** e o que dela sobreviveu.
+- Se o repositório é lido por um Project, **sincronizar depois do push**.
+
+## 8. Como o Mizuki trabalha
+
+- **Escolha de sabor é dele** — quantos itens numa lista, quais são, como se chamam, em que ordem aparecem. Traga as opções **com o número e o trade-off de cada uma já calculados**, e pergunte. Várias rodadas curtas, nunca uma proposta grande pronta.
+- **Não pergunte o que a conta responde.** Se dominância, deriva ou o filtro multi-mestre já decidem, rode a conta e apresente o resultado.
+- **Mostre o resultado no chat**, não só no arquivo. Ele quer ler o que foi escrito sem abrir o documento.
+- **Antes de entrar numa peça ou numa Origem, mostre o que ela tem hoje** — ele quer discutir a partir do estado atual.
+- **Número vem de conta rodada, nunca de intuição.** Escreva o script, rode, mostre a tabela.
+- **Pesquise antes de inventar.** Para mecânica nova, levante como outros sistemas resolvem o mesmo problema e qual o modo de falha documentado de cada um, antes de propor.
+- **Documento não pode ter cara de saída de IA.** Seções de tamanhos diferentes, sem simetria forçada, sem "além disso" e "em suma". Português informal, e nunca português de Portugal.
+
+## 9. Skills de apoio, todas no repositório
+
+`design-mecanicas-rpg` · `balanceamento-simulacao` · `playtesting-rpg` · `redacao-acessivel-rpg`
+
+Elas moram em `sistema/skills/`, com `SKILL.md` e pastas de apoio. A de design tem testes — dominância, bônus automático, filtro multi-mestre, colisão de nome — que **pegam coisa que nenhum validador do repositório pega**; vale rodar contra a própria proposta antes de entregar.
+
+## 10. Armadilhas recorrentes deste projeto
+
+Antes de fechar qualquer coisa, passe por estas — cada uma já mordeu mais de uma vez:
+
+- **"Esse número já inclui o que eu estou somando nele?"** É o erro mais teimoso do projeto.
+- **Antes de aceitar um preço, veja se o termo que ele usa existe** — e se existe, vá ler a regra pendurada nele. Vale nas duas direções.
+- **Tensão de preço às vezes é lacuna de texto disfarçada.**
+- **Decisão registrada não é decisão aplicada.** Decisão que termina em "corrigir em três lugares" precisa de alguém conferindo os três.
+- **Contagem não é valor.** Meça peso de mesa, não quantidade.
+- **Um preço se mede somado, nunca sozinho.**
+
+A lista completa e atualizada é a seção *"Nove lições que custaram erro"* do `README.md`. Leia de lá; não confie nesta amostra.

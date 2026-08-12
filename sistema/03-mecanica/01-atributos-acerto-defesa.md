@@ -271,6 +271,110 @@ E ela reconcilia os dois precedentes que estavam brigando. O manual arredonda **
 
 **O mínimo de 1 é sobre arredondamento, e não sobre regra.** Quando a regra diz que você recupera **nada** — o degrau 3 de exaustão fora de ambiente propício —, ela diz nada. O piso existe para o caso em que a conta produziu 0,4, não para desfazer um zero escrito.
 
+## 5.5 Caído — quando a vida acaba
+
+Esta é a pergunta nº 5 do `pitch-de-design.md`, aberta desde a v0.1: *"como o sistema trata morte? JJK é letal; server de guilda com personagem persistente normalmente não é."*
+
+**Metade dela já estava respondida, e a outra metade não tinha uma linha escrita.** Vale separar as duas, porque o corte decide quem manda em cada uma:
+
+| | quem decide |
+|---|---|
+| **O registro** — a morte cola nesta mesa? | **o mestre**, na abertura. É a trava 6 do `arquitetura.md`, e ela fica como está |
+| **A máquina de estado** — o que acontece a 0 de vida | **o sistema.** Zero ocorrências no projeto e no manual antes desta seção |
+
+O próprio esqueleto justifica a trava 6 dizendo que *"o filtro existe para impedir discricionariedade **nos números**; na ficção é trabalho do mestre"*. **Cair a 0 é número** — muda se você continua com o personagem. Então o registro fica por mesa e a máquina de estado é igual em todas.
+
+### A regra
+
+> **Você chega a 0 de vida. Escolha uma das duas, na hora:**
+>
+> **Aguentar** — você apaga. Tem uma janela de **3 rodadas**. Qualquer cura de 1 ou mais te põe de pé. A janela acabou sem socorro, você chega ao **estágio 4 de dano de alma**.
+>
+> **Insistir** — você fica de pé a 0 de vida e age normalmente. Cada rodada custa um pedaço da sua **vida máxima**, e ele dobra: **1/8, depois 1/4, depois 1/2**. Na quarta rodada você desaba.
+>
+> **Quem desaba pelo Insistir não levanta com um ponto de cura.** Só acorda com uma cura de **metade da sua vida máxima original, de uma vez só**.
+>
+> **Toda vez que você levanta de uma queda, ganha uma Sequela.** Cada Sequela tira uma rodada da janela da próxima queda. **Na segunda queda você também ganha uma Cicatriz**, que é permanente e não sai no descanso.
+>
+> **Sequela some no descanso longo. Vida máxima e Integridade voltam junto, como sempre.**
+
+### Por que três rodadas, e não outro número
+
+Um combate dura de 3,4 a 4,0 rodadas (seção 8), e você cai, em média, no meio dele. Uma janela de 1 rodada quase nunca dá tempo de alguém chegar; de 4 em diante o socorro deixa de custar decisão. **Entre 2 e 3 é onde a escolha existe** — dá para socorrer, e custa o turno de quem estava lutando.
+
+### Por que o Insistir cobra fração, e não o dano que entra
+
+A versão óbvia era o dano continuar entrando, só que na vida máxima. Ela quebra, e o motivo é que **vida máxima é justamente o eixo em que os Caminhos divergem 3,2×**:
+
+| perfil | rodadas de pé, se o custo fosse o dano que entra |
+|---|---|
+| Evocador de Constituição 0 | 3,4 |
+| Evocador de Constituição 3 | 5,9 |
+| **Bastião de Constituição 6** | **11,0** |
+
+O Bastião ficaria de pé onze rodadas num combate de 3,7 — Insistir viraria *"continue lutando, de graça"* para ele e preço real só para quem é frágil. Usar a máxima como relógio importa o espalhamento inteiro para dentro da regra de morte.
+
+**Cobrando fração da própria máxima, a janela fica em três rodadas para todo mundo, em todo nível, sem tabela nenhuma:**
+
+| perfil, no nível 14 | rodada 1 | rodada 2 | rodada 3 | total |
+|---|---|---|---|---|
+| Evocador de Constituição 0 | 7 | 14 | 29 | 51 |
+| Vanguarda de Constituição 3 | 14 | 29 | 58 | 101 |
+| Bastião de Constituição 6 | 23 | 47 | 94 | 164 |
+
+O Bastião paga mais em número absoluto e **a mesma fração de si mesmo**. Ninguém é imune e ninguém é punido por ser frágil. E o total é **7/8**: quem insiste termina a missão com um oitavo do corpo.
+
+*O arredondamento é o da seção 5.4 — o custo sobe.*
+
+### As duas escolhas não se dominam
+
+| | ganha | custa |
+|---|---|---|
+| **Aguentar** | janela de 3 rodadas, e acorda com 1 de cura | fora da luta desde já, 1 Sequela |
+| **Insistir** | 3 rodadas **agindo** | 7/8 da vida máxima, 1 Sequela, e só acorda com metade da máxima original |
+
+Nenhum conjunto contém o outro, pelo teste da peça 3. Com cura sobrando no grupo, Aguentar é melhor — é barato de reverter. Sem cura, Aguentar só adia o fim e Insistir compra três rodadas. Se você é o último de pé, Insistir sempre. Se o chefe está quase caindo, Insistir compra exatamente as rodadas que faltam.
+
+**E a trava do despertar se auto-equilibra:** o Bastião é quem mais lucra com Insistir, porque tem mais corpo para queimar — e é o mais caro de trazer de volta, porque metade dele é muito. Uma cura do topo cobre o frágil em toda a faixa e não cobre o Bastião quase nunca. Ninguém fica trancado: duas curas sempre resolvem, e o descanso longo devolve tudo.
+
+### O estado terminal já estava escrito, e era inalcançável
+
+O manual tem os quatro estágios de dano de alma, e o quarto diz: ***"Você não é mais você. O que sobra é decisão do mestre."***
+
+**Isso é a trava 6 com outras palavras** — morte declarada por mesa —, e ninguém nunca chegou nele. A seção 5.1 explica por quê: a alma é maior que o corpo em quatro dos cinco Caminhos, então *"a pessoa cai antes"*. Ligar o fim da janela ao estágio 4 destrava a máquina que já existia, sem inventar estado novo nem contador novo.
+
+### Duas coisas que a conta recusou
+
+**Teste de morte no d20, no molde de três sucessos contra três falhas.** Simulado: **41% a 68% de morte por queda**, conforme a CD. Num server em que o mesmo personagem atravessa cinco a sete mesas, isso põe no dado a decisão que a trava 6 já deu para o mestre.
+
+**Degrau de exaustão por queda.** Existe como regra caseira popular em outros sistemas, e aqui ela cabia — a peça 10 já tem a escada pronta. Mas o degrau 3 da exaustão é *desvantagem em ataque e Teste de Resistência*, e uma missão de quatro lutas com duas quedas já bate o teto. **Isso é espiral de competência: você cai, levanta pior, erra mais, cai de novo.** É o defeito que a v0.8 consertou e que a peça 10 limitou de propósito.
+
+A Sequela é a outra espécie, e a diferença é a peça inteira:
+
+> **Espiral de competência** — levanta pior, e as suas rolagens pioram. Proibida.
+> **Espiral de letalidade** — levanta igual, mas a **próxima** queda está mais perto do fim. Suas rolagens nunca mudam.
+
+É por isso que a Sequela encurta a janela em vez de dar penalidade: ela mata o vaivém de cair e ser levantado sem tirar ninguém do jogo. **O alvo certo não era proibir a cura** — o manual diz *"cura sem limite de uso por descanso"*, e o único freio dela é PE. Era fazer a **queda** custar alguma coisa que a cura não devolve.
+
+### Por que a Cicatriz vem na segunda queda, e não na quarta
+
+Porque na quarta ela nunca aconteceria. Com a vida **não voltando no descanso curto** — decisão da peça 10 —, o dano é cumulativo na missão inteira, e ainda assim:
+
+| perfil | quedas por missão padrão |
+|---|---|
+| Evocador de Constituição 0, o mais frágil que existe | **1,14** |
+| Evocador de Constituição 3 | 0,67 |
+| Vanguarda de Constituição 3 | 0,58 |
+| Bastião de Constituição 6 | 0,36 |
+
+**A primeira queda é o azar normal de uma missão ruim. A segunda é a missão que deu errado de verdade.** Uma regra cujos dentes só aparecem na quarta queda não morde nunca.
+
+### Em aberto nesta seção
+
+- **O que uma Cicatriz é, mecanicamente.** Hoje ela é o registro de que aconteceu, e o conteúdo dela é da peça de dano e condições, que não existe.
+- **Se a Energia Reversa limpa Sequela antes do descanso longo.** A aptidão não foi escrita; quando for, este é o primeiro lugar que ela encosta.
+- **`Incapacitado` é condição nomeada no manual**, e o Legado *Corpo Emprestado* a nega com a qualificação *"só por estar ferido"*. Com esta seção escrita, a leitura fica decidida: **Caído não é a condição Incapacitado**, e o Legado não alcança o Caído.
+
 ## 6. O que a conta produz
 
 Contra um alvo que **também investiu** em Destreza e tem proteção 1 — o caso difícil —, **em qualquer nível do 2 ao 30**:

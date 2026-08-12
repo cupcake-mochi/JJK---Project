@@ -394,3 +394,141 @@ O `arquitetura.md` sustenta: *"discricionariedade na ficção é o trabalho do m
 - **Se o Limiar sem número na mesa produz mestres que entregam o dobro achando que entregaram o mesmo.**
 
 *Resolvidos e escritos aqui:* o que o refino faz por si só, a trava dele, o terceiro eixo do marco, o teto de Passivas, a fórmula de feitiços conhecidos, e por que a Classe de aptidão mede formato e não tamanho.
+
+---
+
+## 10. O registro de decisão — de onde saiu cada número desta peça
+
+*Movido do `ESTADO-ATUAL.md` nesta versão, inteiro e sem corte.* Ele morava lá porque foi escrito enquanto esta peça ainda era "a próxima"; a peça fechou na v0.27 e o argumento ficou para trás. **Um documento de retomada não é lugar de argumento de peça fechada** — ele é lido no começo de toda conversa, e tinha crescido a ponto de não caber numa leitura só.
+
+Nada aqui foi reescrito. O que segue é o registro de projeto que sustenta os números das seções 1 a 9, e é onde procurar quando alguém perguntar *por que esse valor e não outro*.
+
+### O que já está fechado, e não precisa ser reaberto
+
+| | |
+|---|---|
+| **A régua** | as aptidões herdam as Classes das Passivas do manual — **Classe 1** é efeito pequeno, condicional ou de informação; **Classe 2** é reativo, com limite por cena ou descanso; **Classe 3** é permanente e muda como você joga. Não são "mais" e "menos": são **formatos** |
+| **O gate** | cada aptidão declara o seu: **nenhum, só nível, só refino, ou os dois**. O Kokusen Melhorado é o primeiro escrito — refino 5 e nível 14 |
+| **O preço** | um marco compra **uma aptidão**. Sem moeda nova, sem pontos |
+| **O que impede a Classe 3 de comer as outras** | o refino. Uma Classe 1 no refino 10 não é a mesma coisa que no refino 2 — ela cresce junto com você |
+| **O refino** | é **a métrica geral das aptidões**: requisito, tamanho e frequência. Entra no texto **como variável**, no molde do manual (*"3 × refino"*, *"refino usos por descanso"*), e **algumas aptidões declaram teto** — nem toda uma usa o valor cheio |
+| **Já vem de graça no refino 1** | cobrir-se de energia e canalizar energia. As aptidões compradas *melhoram* o que já existe |
+| **Kokusen Melhorado** | aptidão, refino 5 e nível 14. A escada da cascata mexe **só na chance do d100, com teto** — nunca na margem de crítico |
+| **O tamanho do catálogo** | **doze a quinze**. Dez já são obrigatórias pela obra, então são poucas inventadas |
+| **Quem nunca escolhe refino** | termina com **zero aptidões, e o texto diz isso com todas as letras** — 14 pontos de atributo contra 7, e as duas de graça crescendo com o refino passivo até 8. A rota existe e ninguém deve descobrir no nível 20 que caiu nela sem saber |
+| **Aptidão Própria** | existe, e é **uma entrada do catálogo como qualquer outra** — com uma trava: **só pode ser pega uma vez na ficha inteira**, no mesmo molde do Legado. **Classe 1 ou 2, nunca 3.** Vem com catálogo de exemplos, uma métrica para criar e aprovação do mestre. É a energia densa do Hakari e o Punho Divergente do Itadori |
+
+**As doze que a obra obriga:** cobrir-se de energia · canalizar energia · projetar energia · Barreira Simples · Cortina · Domínio Simples · Extensão de Domínio · Pétala · Cesta Oca de Vime · Energia Reversa · Kokusen · Kokusen Melhorado. As duas primeiras são as de graça do refino 1, então **dez são compráveis** antes de qualquer invenção.
+
+**Os quatro anti-domínio ficam como quatro entradas separadas, todas aptidão, e a diferença entre elas é o requisito.** O `arquitetura.md` tinha diagnosticado que eles *"não pertencem ao mesmo degrau"* e proposto virar trilha; a decisão foi manter quatro peças e pôr a diferença no gate, que é a mesma coisa por um caminho mais barato de conferir — **uma rota só, e o validador olha um campo em vez de quatro.**
+
+*Corrigido na v0.29:* esta seção dizia **"Domínio Simples sem gate — é o que se ensina"**. A pesquisa na obra inverteu isso. Quem é sem gate é a **Cesta Oca de Vime**, que é a **predecessora** que o Domínio Simples melhorou — antiga, mais limitada, e por isso a mais barata. O Domínio Simples subiu para Classe 2. Os detalhes estão na seção 6.5 da peça 11.
+
+*Correção de conta:* uma versão desta análise dizia que quatro entradas separadas levariam o catálogo a **dezessete**. Estava errado — os quatro já estavam contados dentro das doze da obra. Com eles separados o catálogo fica em **catorze**, e a escolha não custou nada de faixa. Foi contagem dupla minha, e é a mesma família da lição *"esse número já inclui o que eu estou somando nele?"*.
+
+### A trava do refino, corrigida
+
+O `arquitetura.md` propôs *"aptidão não produz dano e não escala com nível"*, e isso foi escrito antes de existir régua. Com a régua das Classes, a trava que importa é outra, e ela vem da regra que governa tudo:
+
+> **O refino cresce +7 a +9 numa campanha; atributo e maestria crescem +3.**
+> **Então refino não pode aparecer de um lado de uma rolagem em que o outro lado não cresce no ritmo dele.**
+
+Isso proíbe refino somando em acerto, CD, defesa, Teste de Resistência ou dano — os quatro têm do outro lado alguém que cresce +3. E **permite refino contra refino**, que é simétrico: o clash de expansões é exatamente esse caso, e ele passa.
+
+O que sobra para o refino escalar: **custo em PE, frequência, alcance, duração, quantos alvos** — e disputa contra outro refino.
+
+### As duas gratuitas — o registro, e uma duplicata que estava velha
+
+**Este pedaço chegou aqui vazio de novidade, e o validador provou isso na hora.**
+
+O texto que morava no `ESTADO-ATUAL` repetia a seção 6.1 inteira — a regra, o argumento do `1/3`, a tabela de saldo da Reação — só que **congelado antes da v0.30**: ele ainda dizia *"gastando PE"*, sem quantidade, quando o preço virou **2 PE** seis versões atrás. Nenhum validador varria o `ESTADO-ATUAL`, então a cópia velha sobreviveu; **no primeiro segundo dentro de uma peça, o `conferir-orcamento.py` acendeu nas duas frases.**
+
+É a lição nº 9 com data: *um número que mora em dois documentos vai divergir* — e o exemplar mais barato de consertar, porque a cópia não tinha leitor.
+
+> **A regra, o preço e as contas moram na seção 6.1.** Não há segunda cópia.
+
+Sobraram dois pedaços que a seção 6.1 não tinha, e só eles ficam:
+
+**O recado para a peça de equipamento.** Cobrir-se não é exclusiva do conjurador: um Vanguarda de refino alto que largue o uniforme chega a **Defesa 20**. Como uniforme, armadura e escudo **desligam** a proteção de energia, a tabela de proteção não compete com 0 — ela compete com **1 no nível 2 e 4 no refino 10**. *Um uniforme precisa valer mais que proteção 4, senão ninguém veste.*
+
+**Canalizar energia** já está escrita na peça 5: *"um feitiço de Forma Toque, sem Melhoria e sem Restrição"*. **O refino não a escala** — ela vive no orçamento do Fundamento, e é o exemplo de aptidão que não usa o valor cheio.
+
+### As três aptidões de kokusen
+
+| | o que faz |
+|---|---|
+| **Kokusen** | em crítico no corpo a corpo, role d100: **2 × refino** ou menos é kokusen, e o dano leva **+50% depois de tudo resolvido** |
+| **Kokusen Melhorado** | **vantagem no d100.** Refino 5 e nível 14. Ganha do `3 ×` em todo refino — 36% contra 30% no refino 10 |
+| **a terceira** | sobe a base para **3 × refino** |
+
+A 2 ×, o refino 10 soma **1,8% de dano por rodada** e leva ~5 sessões até o primeiro; no refino 1 são **47 sessões**, então ele praticamente não existe antes de você investir. **A cascata mexe só na chance do d100, com teto** — fazer a margem cair para 19 renderia +10,9%, dos quais **9,1 vêm do dado a mais** e não do kokusen.
+
+**E o kokusen tem proteção contra azar, zerando por missão.** No refino 1 a espera pelo primeiro kokusen é de **47 sessões** — na prática, a maioria dos jogadores nunca veria um. Cada d100 falhado empurra o próximo em **+2**, e o acumulado zera no descanso longo:
+
+| relógio | refino 1 | refino 5 | refino 10 |
+|---|---|---|---|
+| sem proteção nenhuma | 47 sessões | 9,5 | 4,7 |
+| por cena | 41,2 | 9,3 | 4,7 |
+| por dia | 19,9 | 7,6 | 4,3 |
+| **por missão** | **~9 a 10** | 5,6 | 3,9 |
+
+**Por missão entrega quase o efeito cheio e quase não move o refino 10** — o socorro vai inteiro para quem não investiu, que é a propriedade que se queria. E o relógio já existe: *por descanso longo* é o quarto da escada da peça 10, o mesmo da Integridade. Nenhum contador novo.
+
+O motivo de "por cena" não servir: o acúmulo só começa a partir do **segundo crítico da mesma cena**, e dois críticos no mesmo combate acontecem em **4,4%** das vezes — ele evapora antes de servir.
+
+Com as três de kokusen, o catálogo fica em **catorze entradas** — doze da obra mais a terceira mais a Aptidão Própria —, dentro da faixa de doze a quinze.
+
+### O Limiar — mecânica à parte, e o cardápio precisa dizer o tamanho
+
+*Decidido depois da v0.26.* Vem do dossiê, seção 2: **gatilho de ficção antes da rolagem**, roubado do PbtA e do FitD. Aqui ele é **mecânica separada, e quem declara é o mestre** — um gancho com cardápio, e o kokusen é só um dos lugares que o citam.
+
+**O nome passou pela triagem.** *Faísca* morreu dentro de *Faísca em Cadeia* e *Impulso* é Melhoria do manual. **Limiar** está livre nos dois lados.
+
+**O cardápio tem duas alturas, e não uma.** Medido contra o alvo difícil, em que se acerta 50%:
+
+| o que o mestre entrega | vira | ganho |
+|---|---|---|
+| a ficção anda, sem número | 50% | — |
+| rerrolar a que falhou | 75% | **+25 pp** |
+| vantagem na rolagem | 75% | **+25 pp** |
+| acontece mesmo errando, com custo | 100% | **+50 pp** |
+| sucesso garantido | 100% | **+50 pp** |
+
+Rerrolar e vantagem valem **exatamente a mesma coisa**. Sucesso garantido vale **o dobro dos dois**. Se o cardápio for lista solta de sabores, o mestre entrega o dobro achando que entregou o mesmo — é o conserto que a exaustão levou na v0.26, aplicado antes de o erro existir.
+
+E os dois **correm em sentidos opostos**: a vantagem é auto-regulada e dá pouco quando você já ia acertar (9 pp contra alvo fácil); o sucesso garantido vale **mais** quanto mais difícil a coisa for (75 pp contra CD alta) — que é justamente quando o mestre vai querer dar.
+
+**Nota de método, registrada e não resolvida:** o dossiê defende o gatilho de ficção *contra* a discricionariedade — *"é mais arbitrável por cinco mestres do que 'o mestre decide se pede um teste'"*. A escolha aqui foi a outra, e o `arquitetura.md` a sustenta: *"discricionariedade na ficção é o trabalho do mestre e não atravessa mesas"*. O Limiar acontece uma vez e não fica na ficha. **Vai para o playtest junto com a contagem de lutas**, que é a mesma aposta.
+
+### O catálogo fechado — catorze entradas, uma rota
+
+| # | aptidão | gate | o refino escala |
+|---|---|---|---|
+| 1 | **Cobrir-se de energia** | grátis no refino 1 | proteção `1/3 + 1`, e a RD da Reação `1,5 ×` |
+| 2 | **Canalizar energia** | grátis no refino 1 | **nada** — vive no orçamento do Fundamento |
+| 3 | **Projetar energia** | — | o dano, entre 8% e 12% da Rotina |
+| 4 | **Cesta Oca de Vime** | Classe 1, **sem gate** | **nada** — e não custa PE, porque já custa o turno |
+| 5 | **Domínio Simples** | Classe 2 · refino 4, nível 7 | o raio: `1,5 m + refino ÷ 2` |
+| 6 | **Pétala** | Classe 2 · refino 4, nível 7 | Acertos devolvidos: `refino ÷ 2` |
+| 7 | **Extensão de Domínio** | Classe 3 · refino 7, nível 13 | a duração: `refino` rodadas |
+| 8 | **Barreira Simples** | *a definir* | *a definir* |
+| 9 | **Cortina** | *a definir* | *a definir* |
+| 10 | **Energia Reversa** | *a definir* | *a definir* |
+| 11 | **Kokusen** | — | a chance no d100, `2 ×` |
+| 12 | **Kokusen Melhorado** | refino 5, nível 14 | vantagem no d100 |
+| 13 | **(a terceira de kokusen)** | *a definir* | a chance, `3 ×` |
+| 14 | **Aptidão Própria** | Classe 1 ou 2, **uma vez na ficha** | conforme o que for escrito |
+
+**Todas custam um marco. Nenhuma custa espaço de feitiço** — essa é a moeda das Passivas e da Expansão de Domínio, que ficam do lado do manual.
+
+### O que ainda não foi decidido
+
+> **Destravado na v0.28.** A Expansão tem regra no manual v7.7, então as quatro anti-domínio — Domínio Simples, Pétala, Cesta Oca de Vime e Extensão de Domínio — já podem ser escritas com número. **É a próxima coisa da fila**, e o que elas medem agora existe: Acerto por rolagem na incompleta, Acerto que acontece na completa, barreira de `50 × metade do refino` e duração de `metade do refino` em rodadas.
+
+- **O que cada uma das catorze faz, com número**, e o gate e o teto de refino das que estão marcadas acima.
+- **O catálogo das Bênçãos**, e se ele espelha o das aptidões entrada por entrada ou tem lista própria.
+- **Como o Acerto e o Efeito se precificam** — a expansão é comprada com espaço de feitiço, e nada diz ainda quanto de cada um cabe por espaço.
+- **A métrica da Aptidão Própria.** O `arquitetura.md` sugere a mesma pergunta do Efeito Próprio — *"em quantas cenas por arco isso importa?"*, com o mesmo "na dúvida, erre para o lado que não infla".
+- **O teto de cada aptidão**, já que nem toda uma usa o refino cheio — o clash de expansões usa, canalizar não.
+- **Se o cardápio do Limiar lista as duas alturas separadas** ou deixa o mestre pesar.
+- **Se o d100 falhado empurra o próximo.** A conta está feita: +2 por falha leva o refino 1 de 48 sessões para 8 e quase não move o refino 10 — o socorro vai para quem não investiu. Não foi decidido, e o Limiar pode cobrir o mesmo buraco por outro caminho.

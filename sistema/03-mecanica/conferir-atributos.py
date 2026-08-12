@@ -358,6 +358,151 @@ print('  tem combustivel para uma missao sem ter couro para ela.')
 
 print()
 print('=' * 88)
+print('9. CAIDO — a maquina de estado de 0 de vida (secao 5.5)')
+print('=' * 88)
+
+import re as _re
+import math as _math
+
+# Nada aqui fica escrito na mao: os numeros sao LIDOS da peca, e o limite de
+# design fica declarado A PARTE da regra aplicada. Licao no 8: uma checagem nao
+# pode se medir contra a propria constante.
+PECA = os.path.join(AQUI, '01-atributos-acerto-defesa.md')
+try:
+    TXT = open(PECA, encoding='utf-8').read()
+except OSError as _e:
+    erro(f'nao consegui abrir a peca 1 para conferir o Caido ({_e})')
+    TXT = ''
+
+sec = TXT.split('## 5.5')[1].split('## 6.')[0] if '## 5.5' in TXT else ''
+if not sec:
+    erro('a secao 5.5 (Caido) sumiu da peca 1 — esta checagem parou de conferir')
+
+# o ritmo de combate mora na secao 8 desta mesma peca, e e de la que ele vem
+_m = _re.search(r'previsão atual é ([\d,]+) a ([\d,]+) rodadas', TXT)
+if _m:
+    RODADAS_MIN = float(_m.group(1).replace(',', '.'))
+    RODADAS_MAX = float(_m.group(2).replace(',', '.'))
+else:
+    RODADAS_MIN = RODADAS_MAX = None
+    erro('nao achei o ritmo de combate na secao 8 — a janela do Caido nao tem contra o que '
+         'ser medida, e esta checagem parou de conferir')
+RODADAS_MED = (RODADAS_MIN + RODADAS_MAX) / 2 if RODADAS_MIN else 0
+
+# --- o que a REGRA diz, lido do texto ---------------------------------------
+m = _re.search(r'janela de \*\*(\d+) rodadas\*\*', sec)
+JANELA = int(m.group(1)) if m else None
+if JANELA is None:
+    erro('nao achei a janela do Aguentar no texto da secao 5.5')
+
+m = _re.search(r'\*\*1/(\d+), depois 1/(\d+), depois 1/(\d+)\*\*', sec)
+ESCADA = [1/int(x) for x in m.groups()] if m else None
+if ESCADA is None:
+    erro('nao achei a escada de custo do Insistir no texto da secao 5.5')
+
+m = _re.search(r'\*\*Na (segunda|terceira|quarta) queda', sec)
+ORDINAL = {'segunda': 2, 'terceira': 3, 'quarta': 4}
+CICATRIZ_NA = ORDINAL.get(m.group(1)) if m else None
+if CICATRIZ_NA is None:
+    erro('nao achei em que queda a Cicatriz entra no texto da secao 5.5')
+
+# --- os LIMITES DE DESIGN, declarados aqui e nao lidos de la ----------------
+JANELA_MINIMA_DE_DESIGN = 2      # abaixo disso o socorro nunca chega a tempo
+JANELA_MAXIMA_DE_DESIGN = 3      # acima disso socorrer deixa de custar decisao
+CUSTO_TOTAL_MAXIMO = 1.0         # Insistir nao pode zerar a maxima antes da 3a
+QUEDAS_PLAUSIVEIS_POR_MISSAO = 2 # medido abaixo; a Cicatriz tem que caber nisso
+
+# --- 9.1 a janela cabe no combate -------------------------------------------
+if JANELA is not None:
+    if not (JANELA_MINIMA_DE_DESIGN <= JANELA <= JANELA_MAXIMA_DE_DESIGN):
+        erro(f'a janela do Aguentar e {JANELA} rodadas, fora da faixa de design '
+             f'{JANELA_MINIMA_DE_DESIGN}-{JANELA_MAXIMA_DE_DESIGN} — abaixo dela o socorro '
+             f'nunca chega, acima dela socorrer deixa de custar o turno de alguem')
+    if RODADAS_MAX is not None and JANELA > RODADAS_MAX:
+        erro(f'a janela ({JANELA}) passa do combate inteiro ({RODADAS_MAX} rodadas): '
+             f'quem cai nunca correria risco nenhum')
+    print(f'  janela do Aguentar: {JANELA} rodadas, num combate de '
+          f'{RODADAS_MIN} a {RODADAS_MAX}.')
+
+# --- 9.2 a escada do Insistir da o mesmo numero de rodadas para TODOS -------
+if ESCADA:
+    total = sum(ESCADA)
+    if total >= CUSTO_TOTAL_MAXIMO:
+        erro(f'a escada do Insistir soma {total:.3f} da vida maxima, que e >= 1 — '
+             f'ela zera a maxima antes de a terceira rodada terminar')
+    janelas = set()
+    for cam in CAMINHO:
+        for con in (0, 3, 6):
+            for nv in NIVEIS:
+                vmax = vida(nv, con, cam)
+                restante, rodadas = vmax, 0
+                for frac in ESCADA:
+                    custo = _math.ceil(vmax * frac)   # arredondamento da 5.4: custo sobe
+                    if custo > restante:
+                        break
+                    restante -= custo
+                    rodadas += 1
+                janelas.add(rodadas)
+    if len(janelas) != 1:
+        erro(f'o Insistir NAO da a mesma janela para todo mundo: {sorted(janelas)} rodadas '
+             f'conforme Caminho, Constituicao e nivel. Era esse o motivo de cobrar fracao '
+             f'em vez do dano que entra — a vida maxima espalha 3,2x entre os Caminhos')
+    else:
+        print(f'  Insistir: {total:.3f} da maxima no total, e {janelas.pop()} rodadas para os '
+              f'{len(CAMINHO)} Caminhos x 3 Constituicoes x {len(NIVEIS)} niveis.')
+
+# --- 9.3 o contra-teste: o dano que entra NAO daria janela igual ------------
+# se esta perturbacao deixar de acender, a checagem 9.2 virou decoracao
+janelas_dano = set()
+for cam in CAMINHO:
+    for con in (0, 3, 6):
+        janelas_dano.add(round(vida(14, con, cam) / (dano_chefe(14) * 0.5)))
+if len(janelas_dano) == 1:
+    erro('contra-teste falhou: cobrar o dano que entra daria a MESMA janela para todos, '
+         'entao a checagem 9.2 nao esta provando nada')
+else:
+    print(f'  contra-teste: cobrar o dano que entra daria {min(janelas_dano)} a '
+          f'{max(janelas_dano)} rodadas conforme o corpo. Por isso a escada e fracao.')
+
+# --- 9.4 a Cicatriz entra numa queda que acontece de verdade ---------------
+LUTAS_POR_MISSAO, ACERTO, GRUPO = 4, 0.5, 4
+pior = 0.0
+for nv in NIVEIS:
+    dano_missao = dano_chefe(nv) * ACERTO * RODADAS_MED / GRUPO * LUTAS_POR_MISSAO
+    for cam in CAMINHO:
+        pior = max(pior, dano_missao / vida(nv, 0, cam))
+if CICATRIZ_NA is not None:
+    if CICATRIZ_NA > QUEDAS_PLAUSIVEIS_POR_MISSAO:
+        erro(f'a Cicatriz entra na {CICATRIZ_NA}a queda, e o perfil mais fragil cai '
+             f'{pior:.2f} vez(es) por missao — uma regra cujos dentes so aparecem la '
+             f'nunca morde')
+    print(f'  Cicatriz na {CICATRIZ_NA}a queda; o perfil mais fragil cai {pior:.2f} '
+          f'vez(es) por missao padrao.')
+
+# --- 9.5 a Sequela nao pode virar espiral de competencia -------------------
+PROIBIDO = ('desvantagem', 'penalidade em ataque', '-1 em', 'menos 1 em')
+achado = [p for p in PROIBIDO
+          if _re.search(r'Sequela[^.]{0,160}' + _re.escape(p), sec, _re.I)
+          or _re.search(_re.escape(p) + r'[^.]{0,160}Sequela', sec, _re.I)]
+if achado:
+    erro(f'a Sequela encostou em rolagem ({achado}) — isso e espiral de COMPETENCIA, '
+         f'que a v0.8 consertou e a peca 10 limitou. Ela so pode encurtar a janela')
+else:
+    print('  a Sequela so encurta a janela: espiral de letalidade, nunca de competencia.')
+
+# --- 9.6 Aguentar e Insistir nao se dominam (teste de conjunto da peca 3) ---
+AGUENTAR = ({'janela de 3 rodadas', 'acorda com 1 de cura'},
+            {'fora da luta desde ja', 'uma Sequela'})
+INSISTIR = ({'age por 3 rodadas'},
+            {'7/8 da vida maxima', 'uma Sequela', 'so acorda com metade da maxima'})
+for (na, a), (nb, b) in ((('Aguentar', AGUENTAR), ('Insistir', INSISTIR)),
+                         (('Insistir', INSISTIR), ('Aguentar', AGUENTAR))):
+    if a[0] >= b[0] and a[1] <= b[1] and (a[0] > b[0] or a[1] < b[1]):
+        erro(f'{na} domina {nb}: mesmo preco, e um dos dois nunca teria motivo de ser escolhido')
+print('  Aguentar e Insistir: nenhum contem o outro. A escolha existe nos dois sentidos.')
+
+print()
+print('=' * 88)
 if ERROS:
     print(f'>>> {len(ERROS)} PROBLEMA(S):')
     for e in ERROS:

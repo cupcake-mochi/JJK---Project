@@ -6,6 +6,136 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.37] — 2026-08-12
+
+**A pergunta nº 5 do `pitch-de-design.md` fechou.** Ela estava aberta desde a v0.1: *"como o sistema trata morte? JJK é letal; server de guilda com personagem persistente normalmente não é."* Metade dela já tinha resposta e ninguém tinha reparado que era só metade.
+
+### Decidido — o Caído, e o corte entre o que é do mestre e o que é do sistema
+
+| | quem decide |
+|---|---|
+| **o registro** — a morte cola nesta mesa? | **o mestre**, na abertura. É a trava 6 do `arquitetura.md`, e ela fica como está |
+| **a máquina de estado** — o que acontece a 0 de vida | **o sistema.** Zero ocorrências no projeto e no manual antes desta versão |
+
+O corte não foi inventado: o próprio esqueleto justifica a trava 6 dizendo que *"o filtro existe para impedir discricionariedade **nos números**; na ficção é trabalho do mestre"*. **Cair a 0 é número** — muda se você continua com o personagem —, então o registro fica por mesa e a máquina de estado é igual em todas.
+
+> **A 0 de vida você escolhe:** **Aguentar** (apaga, janela de 3 rodadas, cura de 1 te levanta) ou **Insistir** (fica de pé, e cada rodada custa **1/8, depois 1/4, depois 1/2** da vida máxima).
+> **Quem levanta ganha uma Sequela**, que encurta a janela da próxima queda. **Na segunda queda vem uma Cicatriz**, permanente.
+> **A janela acabou:** estágio 4 de dano de alma.
+
+### Achado — o estado terminal já estava escrito, e era inalcançável
+
+O manual tem quatro estágios de dano de alma, e o quarto diz ***"você não é mais você; o que sobra é decisão do mestre"***. **Isso é a trava 6 com outras palavras**, e ninguém nunca chegou nele: a peça 1 registra que a alma é maior que o corpo em quatro dos cinco Caminhos, então *"a pessoa cai antes"*. Ligar o fim da janela ao estágio 4 destravou a máquina que já existia, sem estado novo e sem contador novo.
+
+### Por que fração da máxima, e não o dano que entra
+
+A versão óbvia — o dano continuar entrando, só que na vida máxima — quebra, porque **vida máxima é justamente o eixo em que os Caminhos divergem 3,2×**:
+
+| perfil | rodadas de pé, se o custo fosse o dano que entra |
+|---|---|
+| Evocador de Constituição 0 | 3,4 |
+| Evocador de Constituição 3 | 5,9 |
+| **Bastião de Constituição 6** | **11,0** |
+
+Onze rodadas num combate de 3,7 é *"continue lutando, de graça"*. Cobrando **fração da própria máxima**, a janela fica em **três rodadas para os cinco Caminhos × três Constituições × oito níveis** — e o Bastião paga mais em número absoluto e a mesma fração de si mesmo. O total é 7/8: quem insiste termina a missão com um oitavo do corpo.
+
+### Duas coisas que a conta recusou
+
+**Teste de morte no d20**, no molde de três sucessos contra três falhas: simulado em **41% a 68% de morte por queda**, conforme a CD. Num server em que o mesmo personagem atravessa cinco a sete mesas, isso põe no dado a decisão que a trava 6 já deu para o mestre.
+
+**Degrau de exaustão por queda** — regra caseira popular em outros sistemas, e aqui cabia, porque a peça 10 já tem a escada. Mas o degrau 3 é *desvantagem em ataque e Teste de Resistência*, e uma missão de quatro lutas com duas quedas bate o teto. **Isso é espiral de competência**, que a v0.8 consertou e a peça 10 limitou de propósito.
+
+A distinção virou parte da peça, porque ela é o desenho inteiro:
+
+> **Espiral de competência** — levanta pior, e as suas rolagens pioram. Proibida.
+> **Espiral de letalidade** — levanta igual, mas a **próxima** queda está mais perto do fim.
+
+### Registrado — o levantamento que sustentou o desenho
+
+Seis sistemas, e o defeito que o Mizuki nomeou tem nome e literatura: **o vaivém de cair e ser levantado**. O D&D 5e é a origem — qualquer cura de 1 ponto te põe de pé e **não existe consequência nenhuma**. O conserto canônico é o `wounded` do Pathfinder 2e: cada vez que você levanta, a próxima queda **começa** mais perto da morte. O Draw Steel resolve por outro caminho — você não desmaia, continua agindo e se degrada —, e o Daggerheart e o Cairn cobram **cicatriz permanente**.
+
+A causa apontada pela literatura é *"curar antes de zerar é economia de ação ruim"*. **Aqui é pior que no 5e**, por uma frase do manual: *"Cura sem limite de uso por descanso"*. O alvo certo não era proibir a cura — era fazer a **queda** custar alguma coisa que a cura não devolve.
+
+### Adicionado — seis checagens no `conferir-atributos.py`
+
+Elas foram para o validador **dono da peça 1**, e não para um arquivo novo: `conferir-repositorio.py` conta os `conferir-*.py` da pasta contra o número escrito em três documentos, e validador novo quebraria a contagem.
+
+Nada fica escrito na mão — a janela, a escada de custo e a queda da Cicatriz são **lidas do texto da seção 5.5**, e o ritmo de combate vem da seção 8 da mesma peça. Os limites de design ficam declarados à parte, que é a lição nº 8.
+
+**Oito perturbações conferidas**, e a quinta é a que vale registrar: ela saiu **"não acendeu"** e era mentira — o `sed` não bateu porque a linha começa com `> **Sequela` e o padrão ancorava em início de linha. **Vermelho e verde que não provam nada têm a mesma cara**, e a defesa é conferir o `diff` antes de ler o resultado, do mesmo jeito que a v0.35 aprendeu a conferir que a base passa antes de perturbar.
+
+### Adicionado — a régua de magnitude dos Legados, em rascunho
+
+`03-mecanica/RASCUNHO-legados-regua.md`. **Sem número no nome de propósito:** meia peça não é peça, e um arquivo com dois dígitos na frente quebraria a contagem. Ela vira a peça 13 quando o catálogo fechar.
+
+O defeito registrado na v0.24 era magnitude, não quantidade, e **a máquina que o projeto já tinha passava nos catorze** — zero dominâncias estritas pelo teste da peça 3. Ela mede contenção, e o defeito é distância.
+
+A régua não ranqueia: **três formatos, cada um travado nos próprios termos.** `Ajusta` mexe em número e sempre tem relógio da escada da peça 10, com a largura escolhendo o degrau. `Desliga` só apaga o que ninguém comprou. `Destranca` é zero no dado, e precisa de gatilho do jogador **e** de uma afirmação sobre o mundo que só aquele personagem faz.
+
+### Achado — a lição nº 6 pelo avesso, duas vezes
+
+**A primeira:** a régua ia dizer que Desliga *"não dá para precificar, porque o denominador está no Bestiário e o Bestiário não existe"*. Estava errado — eu não tinha procurado. O manual tem **IMUNIDADE** escrito: *"nenhuma Melhoria fura imunidade; quem quiser isso monta uma Passiva de Regra Própria, com limite de uma vez por cena"*, e tem **resistência** definida como metade do dano, *"sempre presa a um tipo"*, cobrada pela Passiva Escama. **A escada existia e o catálogo nunca foi cruzado com ela.**
+
+**A segunda foi o Mizuki quem pegou**, lendo o Legado *Desconfiado*: apagar uma condição é o mesmo problema. O manual precifica **Condição Menor em Média** e **Condição Maior em Pesada** — o tier mais caro que existe. Eu tinha escrito **três** Desliga de condição em duas Origens, e a trava da época — *"não encosta no dano"* — passou nos três.
+
+A trava virou:
+
+> **Um Desliga só apaga o que ninguém comprou.** Dano não, condição não, nem o que qualquer Melhoria concede. Sobra o que o mundo faz com você fora do feitiço.
+
+Os três viraram **vantagem no Teste de Resistência**: mesmo +25 pp no pico, e agora com um dado no meio, para quem pagou Pesada ter chance.
+
+### Decidido — dois Legados por ficha, e um deles é obrigatoriamente Destranca
+
+**O problema:** quando opção de ficção disputa a mesma vaga que opção mecânica, a mecânica ganha. Não é opinião — os Traços, Ideais, Vínculos e Falhas do D&D 5e ficavam em branco cerca de 90% das vezes, e a edição de 2024 removeu os quatro.
+
+**A regra óbvia não conserta.** *Dois de listas diferentes* deixa pegar `Ajusta + Desliga`: quem otimiza continua sem ficção **e a economia mecânica dobra**. Com o Destranca obrigatório ela não dobra — quem otimiza sai com exatamente um Legado com número, e todo mundo passa a carregar uma afirmação sobre o mundo.
+
+**Isto reabre uma linha da peça 9**, que diz *"o conserto é dar mais opções por Origem, não mais Legados por ficha"*. O teto **de poder** continua em um, porque Destranca é zero no dado — mas a mudança ainda precisa chegar na **peça 8, na peça 9, no `ficha.js` do gerador e nos dois validadores que conferem a ficha**. Enquanto for rascunho, a regra antiga é a que vale.
+
+### Achado — o Desliga é teto e não cota, e o motivo é bom
+
+Enumerados os alvos legais do sistema inteiro depois da trava nova: **são sete, e seis já estão usados.** Três por Origem exigiria vinte e um.
+
+**Um Desliga precisa de coisa nomeada existindo antes dele** — e neste sistema quase tudo que acontece com você ou foi comprado por alguém, e aí tem dono, ou é arbitrado na ficção, e aí não há o que desligar. *O suprimento é estreito porque o resto está bem amarrado.* As peças que faltam — equipamento, invocação e Trilhas — é que vão criar alvo novo.
+
+**Alvo por Origem: 4 Destranca · 4 Ajusta · até 2 Desliga.** Escritas: **Latente (10), Receptáculo (9), Descendente (10) e Reencarnado (5)**.
+
+### Alterado — 24 KB saíram do `ESTADO-ATUAL` para a peça 11, e a mudança pegou um erro de seis versões
+
+O documento tinha **63 KB** e truncava na leitura: a seção que o próprio prompt de retomada mandava ler primeiro caía do lado de fora do corte. **Quase 40% dele era o argumento de projeto da peça 11**, fechada desde a v0.27, numa seção ainda chamada *"a próxima peça"*.
+
+*A primeira hipótese estava errada e foi medida:* só **10%** daquelas frases existiam na peça 11 ou aqui, então não era duplicação — era conteúdo único morando no lugar mais caro de ler. Sete das onze subseções foram para a **seção 10 da peça 11**; as outras quatro, que são da Expansão e do manual, ficaram.
+
+**E aí o `conferir-orcamento.py` acendeu na hora.** O bloco movido dizia *"gastando PE"* sem quantidade, e o preço virou **2 PE na v0.30** — a cópia estava congelada seis versões atrás, e sobreviveu porque **nenhum validador varre o `ESTADO-ATUAL`**. Ela era duplicata da seção 6.1 inteira; virou ponteiro, e a peça 11 ficou 966 B menor do que se o bloco tivesse sido colado cru.
+
+`ESTADO-ATUAL`: **61 KB → 49,8 KB.**
+
+### Adicionado — a skill `rpg-da-guilda`, no repositório
+
+`sistema/skills/rpg-da-guilda/`. Ela guarda **procedimento e nunca conteúdo** — ordem de leitura, de onde rodar os validadores e por quê, o que a triagem de nomes não pega, como escrever arquivo neste mount sem ele sumir, o arnês de perturbação e como fechar versão. **Zero números e zero lições copiadas:** ela aponta para o README, senão criaria a lição nº 9 dentro da ferramenta feita para evitá-la.
+
+### Achado — a lição nº 9 acontecendo fora do repositório
+
+A pasta `sistema/skills/` é cópia de trabalho das skills instaladas na conta, e o `ESTADO-ATUAL` sempre avisou que **editar lá não altera a instalada**. Conferindo as cinco na hora de preparar a migração de conta, **uma tinha divergido**: a descrição do `playtesting-rpg` no repositório era a versão antiga e mais longa, e a instalada tinha sido apertada depois.
+
+**Descrição de skill não é enfeite — é ela que decide quando a skill dispara.** Migrar pelo repositório levaria o gatilho velho. Sincronizado.
+
+*Fica registrado porque é o mesmo defeito de sempre num lugar novo:* duas cópias da mesma coisa, numa camada que o `conferir-repositorio.py` não alcança.
+
+### Em aberto
+
+- **O catálogo dos Legados**, três Origens inteiras — Feto, Corpo Amaldiçoado e Restrição Celestial — e o que falta em Receptáculo, Descendente e Reencarnado.
+- **Não Sou Gente** é imunidade a dano e a régua reprova; a saída registrada é virar Passiva paga com espaço de feitiço. **Irmãos** é o piso do catálogo e precisa de gatilho do jogador.
+- **O validador dos Legados**, que sai junto com a peça.
+- **A Cicatriz não tem mecânica, só nome** — o conteúdo dela é da peça de dano e condições, que não existe.
+- **A mudança de um para dois Legados** ainda não chegou na peça 8, na peça 9, no gerador da ficha nem nos dois validadores da ficha.
+- **A lista de feitos do limiar do nível 20** e a conversão de mestragem.
+- **Energia Reversa, Barreira Simples, Cortina** e a régua da Aptidão Própria.
+- **Qual modelo de clash vale.**
+- **Nome do sistema.**
+
+---
+
 ## [0.36] — 2026-08-11
 
 Sem regra nova e sem número novo: esta versão **fecha uma pergunta e ordena quatro peças**. Ela existe porque a pergunta ia voltar, e porque a ordem que parecia certa estava errada.

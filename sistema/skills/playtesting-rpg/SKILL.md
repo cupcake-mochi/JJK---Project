@@ -1,6 +1,6 @@
 ---
 name: playtesting-rpg
-description: Estrutura playtest de RPG de mesa — que tipo de teste rodar em cada estágio, como montar a sessão de teste, que perguntas fazer e quais não fazer, formulário de retorno, como organizar o que voltou por tema para priorizar o conserto, e quando parar de testar. Use sempre que alguém for testar uma regra ou sistema de RPG com pessoas, quiser saber se uma mecânica funciona na prática, precisar montar formulário ou roteiro de sessão de teste, tiver retorno de jogadores para organizar, ou perguntar quantas sessões de teste bastam. Use também quando o pedido for indireto — "como sei se isso funciona?", "vou testar com o pessoal, o que eu olho?", "recebi um monte de comentário, e agora?". Cobre o caso especial de comunidade com vários mestres testando em paralelo.
+description: Estrutura playtest de RPG de mesa — que teste rodar em cada estágio, como montar a sessão, que perguntas fazem dado e quais fazem ruído, formulário de retorno, como organizar o retorno por tema para priorizar, e quando parar de testar. Use sempre que alguém for testar uma regra ou sistema de RPG com pessoas, quiser saber se uma mecânica funciona na prática, precisar de formulário ou roteiro de sessão de teste, tiver retorno de jogadores para organizar, ou perguntar quantas sessões bastam. Use também no pedido indireto — "como sei se isso funciona?", "vou testar com o pessoal, o que eu olho?", "recebi um monte de comentário, e agora?". Cobre o caso de comunidade com vários mestres testando em paralelo.
 ---
 
 # Playtest de RPG de mesa
