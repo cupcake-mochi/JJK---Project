@@ -2,11 +2,11 @@
 
 **Não é peça.** Sem número na frente de propósito: meia peça não é peça, e um arquivo com dois dígitos quebraria a contagem do `conferir-repositorio.py`. Vira a peça 14 quando fechar, junto do validador dela — que ainda não existe e por isso não é citado pelo nome aqui.
 
-*Estado na v0.42: proteção fechada, catálogo e categorias fechados, **as oito propriedades escritas**, o dado do tiro e a recarga fechados, e a dominância `Uma mão` × `Versátil` aceita com motivo. **Falta a classe das doze armas novas e o validador.***
+*Estado na v0.44: proteção fechada, categorias fechadas, e a recarga fechada. **A régua do preço mudou** — o preço mora na arma, com orçamento, e a tabela inteira dela está no §5.0.1. Fecharam junto: a escada do tiro (`2d10` no topo), o X da `Munição` (`2 · 3 · 4`), a `Versátil` (custa zero) e o teto da `Fineza` (d6 numa mão). **Falta o dado e as propriedades de cada uma das 52, os treze efeitos de crítico, e o validador.***
 
-> **E a decisão de manter `Fineza` como propriedade abriu uma consequência que precisa de resposta antes do validador.** O §5 fecha com *"o preço mora na classe, não na arma"* — e uma propriedade que uma arma tem e as vizinhas de classe não têm **põe preço na arma**. A Rapieira é `Uma mão` com `Fineza`; o Machete é `Uma mão` sem. O Manriki quer `Alcance` sem ser `Haste`.
+> **A pergunta que a `Fineza` abriu está respondida, e a resposta não foi nenhuma das duas que esta nota oferecia.** Ela era *"ou a régua ganha uma exceção escrita, ou as propriedades soltas viram classes próprias"* — e as duas supunham que a classe ainda era o preço. **Ela não era mais:** a escada de dados do §5.2 já tinha posto `2d8` e `3d6` dentro da mesma `Tiro leve`, e ninguém tinha escrito isso. O catálogo já praticava 9 pacotes com 8 classes.
 >
-> Isso não é erro, é escolha — mas ela troca *"8 classes para conferir"* por *"52 armas para conferir"*, e é a razão pela qual aquela régua existe. **Ou a régua ganha uma exceção escrita** (*"a classe dá o pacote; uma arma pode carregar uma propriedade a mais, e o validador confere que nenhuma carrega duas"*), **ou as propriedades soltas viram classes próprias.** A conta que decide é a matriz por valor total, e ela não roda até as doze armas novas terem classe.
+> **Decisão do Mizuki na v0.44: a classe para de ser o preço.** Cada arma carrega o próprio, dentro de um orçamento fechado por categoria de mão. O levantamento externo, a regressão contra as classes publicadas e a simulação estão no §5.0 e no §5.1.1.
 
 Peça 2 da fila decidida na v0.36. Destrava a Vanguarda, a Técnica Marcial e **quatro das sete vagas de Desliga** da peça 13.
 
@@ -347,24 +347,95 @@ Proteção escala, dado não. **Isso não tem conserto dentro desta peça** — 
 
 **A exceção é o Selo**, e ela é de graça: o manual define Selo como *"Gesto ou condição obrigatória pra conjurar, **igual pra todos os seus feitiços**"*. Quem escolheu Gesto como Selo e pega um escudo **desliga a técnica inteira**. Trava que se aplica sozinha, sem regra nova.
 
-## 5. Armas — o preço mora na classe
+## 5. Armas — o preço mora na arma, e ele tem orçamento
 
-A peça 5 já provou que **o dado não é alavanca**: trocar d6 por d12 move três pontos numa lacuna de cem contra a coluna Rotina. Isso deixa o catálogo grande imune à armadilha clássica (*"o problema da longsword"*, opção-armadilha) — **porque a armadilha do hobby é sempre medida em dano.**
+*Reescrito na v0.44. A régua anterior era **"o preço mora na classe"**, e ela caiu por dois motivos: um que o Mizuki quis e um que já tinha acontecido sem ninguém ver.*
 
-**A régua que fechou:** o preço é a **classe**, não a arma. O nome é sabor, e gêmea dentro da classe é de graça — decisão do Mizuki: *"não tem problema ter arma idêntica, tem vezes que a pessoa só quer um flavor diferente."*
+**O que ele quis:** *"a ideia é deixar cada arma sendo especial à sua forma — algumas iguais às outras e a mudança é só estética, ideal não, mas não tem problema. Cada arma ser mais única é o que dá prazer de escolher."*
 
-| classe | Força mín | dado | propriedades | armas |
+**O que já tinha acontecido:** a escada de dados do §5.2 põe **dois dados diferentes dentro da mesma classe** — a Pistola rola `2d8` e a Submetralhadora rola `3d6`, e as duas são `Tiro leve`, que diz `d6`. Com zero arma nova, o catálogo já tinha **9 pacotes de preço para 8 classes**. A classe deixou de ser o preço na v0.42, e quem a tirou desse posto foi a decisão do 3d10.
+
+> **A régua nova: a arma carrega o próprio preço, e ele fecha num orçamento.**
+
+A classe some como preço. O que sobra dela é a **categoria**, que já existe e é o gancho da Vanguarda.
+
+### 5.0 O orçamento, derivado das classes que já estavam escritas
+
+**A unidade não foi escolhida, foi medida.** O §5.2 mediu o passo de dado em `0,33` por rodada e o `Par` em `0,32` — **um passo de dado e uma propriedade valem o mesmo neste sistema.** Então:
+
+```
+1 ponto  =  0,33 por rodada  =  um passo de dado  =  uma propriedade
+dado     :  d4 = 0 · d6 = 1 · d8 = 2 · d10 = 3 · d12 = 4
+```
+
+Tratando as seis classes de corpo a corpo já publicadas como **dados de uma regressão**, e não como regra:
+
+| classe publicada | dado | propriedades | mãos | gasto |
 |---|---|---|---|---|
-| **Oculta** | 0 | d4 | Oculta · Arremesso | Tanto, Punhal, Kunai, Shuriken, Tekko, Tessen, Canivete, **Faca** |
-| **Curta** | 0 | d6 | Par | Sai, Tonfa, Nunchaku, Cassetete, Soqueira |
-| **Uma mão** | 1 | d8 | — | Kama, Machete, Marreta, Machado, Taco, Wakizashi, Foice |
-| **Versátil** | 2 | d8 | Versátil | Katana, Bastão, Espada Longa |
-| **Haste** | 2 | d10 | Alcance · Duas mãos | Naginata, Corrente, Kusarigama, Yari, Bō, **Lança** |
-| **Pesada** | 3 | d12 | Duas mãos | Odachi, Nodachi, Kanabō, Marreta de Obra, Machado de Bombeiro |
-| **Tiro leve** | 1 | d6 | Distância · Munição · Oculta | Pistola, Revólver, Submetralhadora |
-| **Tiro pesado** | 2 | d10 | Distância · Munição · Duas mãos | Espingarda, Rifle, Besta, Yumi |
+| Oculta | d4 | `Oculta` · `Longo Alcance` | 1 | **2** |
+| Curta | d6 | `Par` | 1 | **2** |
+| Uma mão | d8 | — | 1 | **2** |
+| Versátil | d8 | `Versátil` | 1 | 3 |
+| Haste | d10 | `Alcance` | 2 | **4** |
+| Pesada | d12 | — | 2 | **4** |
 
-**Oito classes, 52 armas e treze categorias.** Eram 39 armas antes de `Lança` e `Faca` voltarem da triagem na v0.40, 41 até a v0.42, e 52 depois das que o Mizuki pediu.
+> **O orçamento é `2` para uma mão e `4` para duas mãos.** Cinco das seis fecham exatas, e ninguém escolheu esses números — eles são o que o catálogo já praticava.
+
+**E o contra-teste passou sozinho.** A sexta linha, a `Versátil`, gasta **3 num orçamento de 2** — estoura em exatamente **1 ponto**. Aquilo é a dominância que o §5 tinha achado e registrado como *"fraca, e não existe caso em que a `Uma mão` seja melhor"*, **sem conseguir dizer de que tamanho ela era.** A régua reencontrou o defeito de fora, e o dimensionou: `Uma mão` + 1 ponto.
+
+### 5.0.1 A régua inteira, numa tabela
+
+*Pedido do Mizuki: **"seguir a lógica do Pathfinder — precificar o que uma arma pode ter."*** Ela sai do orçamento sem regra nova nenhuma:
+
+| propriedades | **uma mão** (orçamento 2) | **duas mãos** (orçamento 4) |
+|---|---|---|
+| 0 | **d8** | **d12** |
+| 1 | **d6** | **d10** |
+| 2 | **d4** | **d8** |
+| 3 | — | **d6** |
+| 4 | — | **d4** |
+
+**É o mecanismo do PF2e — propriedade definidora limitando o dado —, só que aqui ele não precisa ser escrito à mão.** Lá a lista de tetos é decidida caso a caso (`Agile` d6, `Finesse` d6, `Reach` d10 e proíbe `Agile`); aqui a lista **é** o orçamento, e combinação abusiva fica ilegal por construção em vez de ser pega no teste.
+
+*Contra-teste:* a tabela reproduz cinco das seis classes publicadas — `Oculta` d4+2 · `Curta` d6+1 · `Uma mão` d8+0 · `Haste` d10+1 · `Pesada` d12+0 — e reprova a sexta, que é a `Versátil`, pelo mesmo ponto de sempre.
+
+**E o teto da `Fineza` cai sozinho dela.** `Fineza` custa 1 ponto, então numa mão sobra 1 para o dado: **d6**. Conferindo pelo outro lado, com o critério de que a rota de Destreza empata em Defesa 19 e precisa ficar atrás em dano: `Fineza` num **d12** daria `6,5 + Destreza 6 = 12,5`, que **empata com a `Pesada` nos dois eixos** — dominância. O orçamento corta três degraus antes disso. *É exatamente onde o PF2e põe o teto do `Finesse`, por um caminho diferente.*
+
+### 5.0.2 Por que isso não vira a armadilha da longsword
+
+A peça 5 já provou que **o dado não é alavanca**: trocar d6 por d12 move três pontos numa lacuna de cem contra a coluna Rotina. **Isso é o que torna o preço por arma barato aqui, e é o contrário do 5e**, onde o dado *é* a arma inteira e por isso duas armas com o mesmo dado são o mesmo item — o defeito que o próprio material do hobby descreve como *"um Guerreiro não tem razão real para escolher Machado de Batalha em vez de Martelo de Guerra ou Espada Longa."*
+
+**Mas o dado não é um eixo livre, e é aqui que a primeira versão desta seção errou.** Sob a régua, escolhidas as mãos e o número de propriedades, **sobra um dado legal só** — gastar menos que o orçamento é dominância estrita, então ninguém gasta. O dado é **saída** da conta, não entrada:
+
+| | 0 props | 1 | 2 | 3 | 4 |
+|---|---|---|---|---|---|
+| **uma mão** | d8 | d6 | d4 | — | — |
+| **duas mãos** | d12 | d10 | d8 | d6 | d4 |
+
+**Quem carrega a variação é a propriedade, e propriedade não é escolha: é o que a arma é.** Uma naginata tem `Alcance` e ocupa as duas mãos, e isso já a manda para o d10 — a Yari e a Lança caem no mesmo lugar pelo mesmo motivo, sem ninguém ter decidido nada.
+
+Rodando a régua sobre as 41 armas de corpo a corpo, com as propriedades que a ficção de cada uma força:
+
+| eixo | assinaturas | armas com gêmea |
+|---|---|---|
+| só o preço | **14** | 35 de 41 — **85%** |
+| preço × categoria | **25** | 25 de 41 — **61%** |
+
+**Gêmea continua permitida e de graça, como a v0.41 decidiu.** O que mudou é que ela deixou de ser rara: quatro facas pequenas terminando no mesmo número é exatamente o caso que já foi aceito, mas 61% não é "nenhuma arma é obrigada a ter".
+
+### 5.0.3 O que o orçamento **não** consegue precificar: a mão
+
+`Duas mãos` custa o escudo, e o escudo não tem um valor — ele tem uma curva:
+
+| | escudo +1 vale | em pontos |
+|---|---|---|
+| nv2 | 0,30 | 0,9 |
+| nv16 | 2,01 | 6,1 |
+| nv30 | 3,60 | **10,9** |
+
+**O mesmo item, 12× de diferença entre as pontas.** Nenhum número fixo fecha nos dois, e é por isso que `Duas mãos` **não é item de orçamento: é categoria de orçamento**, com número próprio (`4` contra `2`). É a mesma saída que o 3.x e o PF2e usam — lá os orçamentos de uma e duas mãos são tabelas separadas, e não uma propriedade precificada.
+
+O que sobra fora da conta continua sendo o buraco registrado no §4: **6% a 9% da Rotina, que a Trilha da Vanguarda deve.** O orçamento não o fecha e não deve tentar.
 
 ## 5.1 A categoria — o que a arma é
 
@@ -372,7 +443,40 @@ A peça 5 já provou que **o dado não é alavanca**: trocar d6 por d12 move tr�
 
 O primeiro é que ela resolve de onde vem o dano — foi ela que destravou a arma de tiro, que acertava com Destreza e causava dano com Força porque ninguém tinha cruzado a peça 1 §5 com a peça 6 §3. O segundo é que **ela é o gancho onde a Trilha da Vanguarda vai pendurar a especialização**, e sem ela aquela peça nasce sem ter em que especializar.
 
-> **A categoria carrega uma coisa só: a fonte do dano.** Nada mais. Se ela carregasse número próprio, o valor de uma arma viraria `classe + categoria + propriedade` e a matriz teria de rodar sobre o produto dos três — que é a lição nº 7 pela porta de trás.
+> **A categoria carregava uma coisa só: a fonte do dano.** *Reaberto na v0.44, e o motivo de reabrir é que a premissa caiu.* A trava original era: *"se ela carregasse número próprio, o valor de uma arma viraria `classe + categoria + propriedade` e a matriz teria de rodar sobre o produto dos três — que é a lição nº 7 pela porta de trás."*
+>
+> **Com a classe saindo do preço no §5, esse produto deixou de existir.** Sobrou `arma × categoria`, e a arma inteira agora fecha num orçamento em vez de ser comparada par a par. **A objeção era a matriz, e a matriz mudou de forma.**
+
+### 5.1.1 A categoria ganha um efeito de crítico — e por que ele não entra no orçamento
+
+*Decidido na v0.44. É o eixo de identidade, e ele existe porque o eixo de preço sozinho não entrega o que o Mizuki pediu.*
+
+Um efeito preso ao **20 natural** dispara em **3,0% das rodadas** — 5% de crítico × 60% de golpe simples. Isso muda a escala de tudo:
+
+| um erro de 3 de dano num efeito custa | |
+|---|---|
+| se ele dispara em **todo acerto** | **3,00 pontos** |
+| se ele fica **preso ao crítico** | **0,27 ponto** |
+
+> **O portão do crítico divide o erro por onze.** Um efeito de crítico pode valer até **11,0 no disparo** — quase o dado inteiro da `Pesada`, que é 12,5 — e ainda custar menos de um passo de dado.
+
+**É a mesma máquina das catorze *critical specializations* do PF2e**, e lá elas não são de graça na arma: são destravadas por característica de classe no nível 5. Aqui o destravador óbvio é a **Trilha da Vanguarda**.
+
+**Por que treze, na categoria, e não cinquenta e dois, na arma.** Balanceamento não decide — calibrando a taxa de erro nas oito Masteries do 5e 2024, das quais quatro saíram fora da banda, o espalhamento do melhor ao pior efeito é `0,89` ponto com treze e `1,22` com cinquenta e dois. **A diferença é 0,33, que é um passo de dado — a menor unidade que este projeto tem.** As duas rotas são seguras.
+
+Quem decide são os outros três eixos:
+
+| | treze, na categoria | cinquenta e dois, na arma |
+|---|---|---|
+| nomes na triagem | 13 | 52 |
+| missões até a mesa conhecer o conjunto | **23** | 133 |
+| a Vanguarda tem o que especializar | **sim, a categoria** | não — não há família para amplificar |
+
+**A escolha continua liberada, mas não pelo motivo que estava escrito aqui.** O argumento era que o eixo de preço entregava a unicidade sozinho — e o §5.0.2 mostra que não entrega: ele produz **14 assinaturas para as 41 armas de corpo a corpo**, com 85% delas em par.
+
+> **É a categoria que separa.** Com ela entrando na conta, as assinaturas vão de **14 para 25** e o par cai de **85% para 61%**. O efeito de crítico não é o eixo secundário de identidade — sem ele, quase todo o catálogo é gêmeo mecânico.
+
+**Os treze efeitos ainda não estão escritos.** Cada um precisa passar na triagem, valer no máximo 11,0 no disparo, e — a armadilha documentada do PF2e — **não morrer contra alvo comum**: lá o sangramento da `Faca` não faz nada contra morto-vivo, e o derrubar do `Martelo` não faz nada em quem já está no chão.
 
 | fonte do dano | quem |
 |---|---|
@@ -425,40 +529,94 @@ O primeiro é que ela resolve de onde vem o dano — foi ela que destravou a arm
 
 **Ela não produz número nenhum em combate**, e é por isso que ela cabe: os quatro eixos que o §6 fechou — proteção, cura, dado de dano e PE — continuam intocados, e o quinto, bônus em rolagem, é justamente o que ela não faz.
 
-### `Versátil` — um passo, e o valor não depende da arma
+### `Versátil` — custa **zero**, e a conta demorou três versões para dizer isso
 
-*Decisão do Mizuki:* não é um par fixo de dados, é **um degrau na escada**, e qual degrau depende da arma.
+*Decisão do Mizuki: o efeito continua sendo **um degrau na escada** — `d6 → d8 · d8 → d10 · d10 → d12`, +1,0 de média em todos, `0,33` por rodada. **O que muda na v0.44 é o preço: ela deixa de custar 1 ponto e passa a custar 0.***
 
-| | ganho médio | por rodada |
-|---|---|---|
-| d6 → d8 · d8 → d10 · d10 → d12 | +1,0 em todos | **0,33** |
+**Por que zero.** O passo só rende se você largar o escudo — ou a mão livre. E o escudo não é um valor, é uma curva:
 
-**Uniforme de propósito**, e igual ao que o `Par` entrega (0,32). Duas propriedades, o mesmo peso — o que é bom sinal, porque nenhuma das duas vira a escolha óbvia.
+| nv | o passo rende | o escudo vale | vale largar? |
+|---|---|---|---|
+| **2** | 1,0 | 0,9 | **sim, por 0,1** |
+| 6 | 1,0 | 2,7 | não |
+| 16 | 1,0 | 6,1 | não |
+| 30 | 1,0 | 10,9 | não |
 
-> **Mas ela não conserta a dominância do §5, e mudou a forma dela.** A `Versátil` só rende o passo se você largar o escudo, que custa 2,01 por rodada. Então:
+**E aumentar o passo não conserta:** com dois passos ainda só ganha no nv2; com três — `d6 → d12` — ganha até o nv6 e para. *`Versátil` é o buraco da arma de duas mãos em miniatura, e o §4 já tinha escrito a sentença: **proteção escala, dado não.***
+
+**Baixar o dado também não conserta, e a dominância só troca de lado.** Com `Versátil` a 1 ponto o dado teria de ser d6 — e aí `Uma mão` d8 ganha em todos os níveis, com escudo (2,9 contra 1,9 no nv2; 12,9 contra 11,9 no nv30) **e sem escudo também**, porque na rota de mão livre as duas têm a mão livre e a `Uma mão` tem 1 ponto a mais de dado. **Não existe dado no meio.**
+
+> **A saída veio de um argumento do Mizuki, e ele tem âncora no §4:** *"ter uma mão LIVRE é uma vantagem — permite usar feitiço, pegar item, interagir, coisa que você não pode fazer com espada e escudo, já que vai ter que SOLTAR em vez de guardar."*
 >
-> | | `Uma mão` (d8) | `Versátil` (d8) |
-> |---|---|---|
-> | com escudo — o caso normal | 1,49 | 1,49 |
-> | sem escudo | 1,49 | **1,82** |
->
-> **Não existe caso em que a `Uma mão` seja melhor; existem casos de empate.** Virou dominância *fraca* em vez de estrita, e o requisito de Força 2 contra 1 não cobra nada porque os dois cabem na criação. **Continua aberto**, e as saídas são três: juntar as duas classes numa só, dar à `Uma mão` alguma coisa que a `Versátil` não tenha, ou aceitar por escrito que a diferença entre elas é ficção.
+> **E a versão dura disso já estava escrita:** quem tem **`Selo` = `Gesto`** e pega um escudo **desliga a técnica inteira**. Para essa gente o escudo nunca esteve no menu, e a mão livre é obrigatória, não preferida.
+
+**Com o preço em zero, tudo fecha:**
+
+```
+Versátil d8 = 2,0 de dado + 0 de propriedade = 2 de 2
+Uma mão  d8 = 2,0 de dado + 0                = 2 de 2
+```
+
+**As duas viram a mesma arma, e a `Versátil` leva um texto a mais.** É a gêmea de graça que a v0.41 já tinha aprovado — *"não tem problema ter arma idêntica, tem vezes que a pessoa só quer um flavor diferente."*
+
+> **E a dominância aberta desde a v0.41 fecha com tamanho.** O §5 registrava *"não existe caso em que a `Uma mão` seja melhor"* sem conseguir dizer de quanto era, e por isso ela ficou como `ACEITA` esperando forma. **A vantagem da `Versátil` sobre a `Uma mão` é 0,1 ponto, e só no nível 2.** *Uma dominância sem tamanho fica aberta para sempre; com tamanho, ela fecha.*
 
 ### `Munição` — dois gatilhos, e o teto não é o pente de verdade
 
 *Decisão do Mizuki: os dois juntos.*
 
-> **Recarregar custa a sua ação.** Você recarrega quando tirar **1 ou 2 natural** no ataque, **ou** depois de **X ataques**, o que vier primeiro. O X é da arma.
+> **Recarregar é Ação Bônus.** Você recarrega quando tirar **1 ou 2 natural** no ataque, **ou** depois de **X ataques**, o que vier primeiro. O X é da arma.
 
-**O X não é a capacidade real, e o número diz por quê.** Num combate de 3,7 rodadas você ataca cerca de **2,2 vezes** com a arma. Medido em simulação:
+> **Esta seção dizia as duas coisas ao mesmo tempo até a v0.44.** Ela abria com *"recarregar custa a sua ação"* e fechava com *"recarregar é Ação Bônus — decisão do Mizuki"*, **e a tabela de `54% / 46% / 14%` que ficava entre as duas tinha sido calculada com a primeira.** A decisão é a Ação Bônus; a tabela era da regra que ela substituiu, e saiu.
 
-| teto X | recargas por combate | fração dos ataques perdida |
+**O X não é a capacidade real, e o modelo velho errava num segundo ponto.** Ele supunha **2,2 ataques por combate** — um golpe simples por rodada. Mas a peça 6 §3.1 dá **ataque extra ao Bastião e à Vanguarda no nível 6**, e *"ataque extra é sempre golpe simples"*, que é exatamente o que a arma de tiro faz. Refeito com dois golpes por rodada:
+
+| X | fração dos ataques que sai, **sem** ataque extra | **com** ataque extra |
 |---|---|---|
-| 1–2 | 1,19 | 54% |
-| 3 | 1,03 | 46% |
-| **4 ou mais** | **0,30** | 14% |
+| **1** | 100% | **64%** |
+| 2 | 100% | 97% |
+| 3 | 100% | 99% |
+| 4 ou mais | 100% | 99% |
 
-**De 4 em diante o teto nunca morde** — o gatilho do dado natural assume sozinho, e o número vira enfeite impresso na ficha. Um pente de trinta seria fiel e mecanicamente morto. Então **X é *tiros por briga*, não capacidade**, e a faixa que significa alguma coisa tem quatro valores: `1`, `2`, `3` e **`—`** (sem teto, só o dado natural).
+> **O `X = 1` apaga o ataque extra, e esse é o achado.** Com dois golpes por rodada você precisa de **duas recargas** e só tem **uma Ação Bônus** — então a recarga não atrasa o tiro, ela come o benefício de nível 6 de dois Caminhos inteiros. *Achado pelo Mizuki, olhando a faixa e dizendo que ela estava baixa demais.*
+
+**E de 2 para cima a `Munição` custa entre 1 e 3 pontos percentuais.** Ela é **textura, não preço** — o que quer dizer que ela nunca poderia ter sido contada como contrapeso do dado, e a versão velha do §5.2 contava.
+
+**O que o X decide, então, é ritmo:** de quanto em quanto tempo a arma força uma recarga.
+
+| X | recargas num combate de 3,7 rodadas, **sem** extra | **com** extra | passa o combate sem recarregar |
+|---|---|---|---|
+| **2** | 1,8 | 3,8 | **0%** |
+| **3** | 1,1 | 2,4 | **0%** |
+| 4 | 0,8 | 1,9 | **22%** |
+| 5 | 0,4 | 1,5 | **68%** |
+| 6 | 0,4 | 1,3 | 68% |
+
+**O critério do Mizuki é que nenhuma arma atravesse a briga sem recarregar**, e ele fecha em `2` e em `3` — só. De 4 em diante o teto solta, e em 5 ele já é indistinguível de não ter teto nenhum, porque o gatilho do dado natural assume sozinho. *A versão velha desta seção chamava o "4 ou mais" de enfeite: certa na conclusão, errada no número. A faixa útil acaba em **3**, e `—` sai da lista.*
+
+### O X de cada arma
+
+*Decisão do Mizuki, por ficção: **"pistola e revólver têm menos balas que rifle e submetralhadora, mas não menos que espingarda e rifle de precisão, que seriam as de maior dano."*** A faixa é `2 · 3 · 4`.
+
+| X | armas | |
+|---|---|---|
+| **4** | Metralhadora Pesada | a única, por decisão |
+| **3** | Rifle · Submetralhadora | as que sustentam o tiro |
+| **2** | Pistola · Revólver · Espingarda · Rifle de Precisão · Besta · Besta de Uma Mão | |
+
+> **A ordenação dele corta atravessado nos degraus de dado — Rifle e Espingarda são os dois `2d8` e levam X diferente.** Isso é a régua do §5 funcionando: com a classe fora do preço, o X mora na arma. **A régua velha não conseguiria escrever essa linha.**
+
+**E o `X = 4` da Metralhadora Pesada foi conferido separado, porque ele é o único que fura o critério.** Ele deixa **22% dos combates** passarem sem recarga — mas só para quem **não tem ataque extra**:
+
+| portador | vaza | janela |
+|---|---|---|
+| Vanguarda ou Bastião, **nv6+** | **0%** | nenhuma |
+| Vanguarda ou Bastião, nv2–5 | 22% | quatro níveis |
+| Guia · Evocador · Emanador | 22% | a campanha inteira |
+
+**Uma metralhadora de cinta é arma de Vanguarda, e a Vanguarda ganha ataque extra no nv6 — exatamente onde o vazamento fecha.** E o que vaza custa **0,1 a 0,3 ponto**, porque recarregar em Ação Bônus já era quase de graça. **É textura, não balanço: registra-se em vez de consertar.** *Escrever exceção para 0,3 ponto é medir contagem em vez de peso, que é a lição nº 3.*
+
+*As duas Bestas ficam em `2` por falta de lugar melhor: a ficção pediria `1` — uma besta carrega um virote —, e o `1` está proibido por apagar o ataque extra. **Fica marcado**, porque é o único ponto do catálogo em que a ficção e a régua discordam de frente.*
 
 *Isso é o modo de falha que o levantamento externo descreve com todas as letras — **"um número que sobe e desce e nunca chega a zero, e nada de interessante sai dele"** —, e é por isso que ele é abstraído em vez de contado.* O gatilho do dado natural existe para o susto; o teto existe para o ritmo.
 
@@ -466,26 +624,37 @@ O primeiro é que ela resolve de onde vem o dano — foi ela que destravou a arm
 
 > **Ela deixa de ser preço e vira textura, e isso muda no dia em que o slot encher.** O `ESTADO-ATUAL` já promete que a peça de Caminhos dá ao Bastião **socar como Ação Bônus**. Quando aquela peça sair, a `Munição` passa a cobrar de verdade — e o preço da arma de fogo sobe sozinho, sem ninguém mexer em número. É a mesma forma do escudo em Ação Bônus, medida no §4.
 
-### O dado do tiro, e o argumento que não vale
+### O dado do tiro — 2d10 no topo, escada de dois dados
 
-*Decisão do Mizuki: **3d10 no topo**, escada descendo a partir dele.*
+*Decisão do Mizuki na v0.44. **Era `3d10` no topo**, e o orçamento do §5.0 derrubou: aquele dado gastava 9,0 num orçamento de 4.*
 
-| categoria e arma | dado | médio | contra a `Pesada` (12,5) |
-|---|---|---|---|
-| Metralhadora Pesada · Rifle de Precisão | **3d10** | 16,5 | +4,0 |
-| Rifle · Espingarda · Besta | 3d8 | 13,5 | +1,0 |
-| Submetralhadora | 3d6 | 10,5 | −2,0 |
-| Pistola · Revólver · Besta de Uma Mão | 2d8 | 9,0 | −3,5 |
+| arma | dado | média | gasto | orçamento | sobra |
+|---|---|---|---|---|---|
+| Metralhadora Pesada · Rifle de Precisão | **2d10** | 11,0 | 3,5 | 4 | **0,5** |
+| Rifle · Espingarda · Besta | 2d8 | 9,0 | 1,5 | 4 | 2,5 |
+| Submetralhadora | 2d6 | 7,0 | 1,0 | 4 | 3,0 |
+| Pistola · Revólver · Besta de Uma Mão | 1d10 | 5,5 | 1,0 | 2 | 1,0 |
 
-**O tamanho, medido nas duas unidades, porque uma delas engana:** o 3d10 está **+32% no golpe simples** e **+4,3% da Rotina**. O golpe simples é o fallback, usado em cerca de 60% das rodadas; a Rotina é a saída total. *Os +4,3% são exatamente o tamanho da `Fineza`, que foi aceita como sabor, e menos que os 7,5% que a Trilha da Vanguarda já tem de cobrir.* **A decisão fica de pé pelo tamanho.**
+**A fórmula, e ela é a mesma do §5.0 com um termo a mais.** O corpo a corpo soma Força e o orçamento não cobra por isso; a arma de tiro não soma nada. Então o dado dela se precifica descontando as duas coisas que o orçamento já dá de graça ao vizinho:
 
-> **Mas o argumento que a sustentava não vale, e fica registrado por quê.** Ele era: *"ela não soma mod E tem munição, então tem duas penalidades."* **As duas não são penalidades por cima do dado.**
+```
+gasto do dado = média da arma − 2,5 (o piso, que é o d4) − 6,0 (a Força que o corpo a corpo soma)
+                e nunca abaixo de zero
+```
+
+*Contra-teste, contra as duas classes de duas mãos já publicadas:* a `Pesada` (d12 + Força 6 = 12,5) sai **4,0 de 4**, e a `Haste` (d10 + Força 6, mais `Alcance`) sai **4,0 de 4**. **As duas fecham exatas**, o que prova que a fórmula do tiro é a mesma do corpo a corpo e não uma régua paralela.
+
+**O topo fica um ponto abaixo da `Pesada` porque ele paga o `Longo Alcance`** — 11,0 contra 12,5. A distância deixa de ser de graça, que era o que o §5.2 dizia que ela era.
+
+> **E o argumento antigo continua morto, pelo motivo certo.** Ele era *"não soma mod E tem munição, duas penalidades"*, e a v0.42 matou por dupla contagem — **corretamente**: o `16,5` já *é* o total sem atributo, e o dado grande é o que compensa. O que a v0.42 não viu é que **não somar atributo não é penalidade nenhuma: é independência de atributo**, e independência é o que torna a arma boa justamente para quem não investiu. Medido contra Força 0, o `3d10` estourava em **11 pontos ≈ 11% da Rotina** — mais do que os 6% a 9% que a Trilha da Vanguarda inteira deve. *Lição nº 7: um preço se mede somado, e aqui faltava somar quem segura a arma.*
+
+> **As duas metades do argumento velho, e o que aconteceu com cada uma.** Ele era: *"ela não soma mod E tem munição, então tem duas penalidades."*
 >
-> A primeira **já está dentro do número**: a `Pesada` faz `d12 + Força 6 = 12,5` e a arma de fogo faz `3d10 = 16,5`. O 16,5 já é o total sem mod — **não somar atributo é o que o dado grande compensa**, não um desconto a mais. Contar as duas coisas é somar a mesma uma vez em cada direção, que é a **lição nº 2**, o erro mais teimoso do projeto.
+> A **`Munição`** vale zero, e a v0.44 mediu o quanto: recarregando em Ação Bônus com X ≥ 2, saem 97% a 99% dos ataques.
 >
-> A segunda **vale zero**, medida acima: recarregando em Ação Bônus, a `Munição` não tira ataque nenhum.
+> O **`sem mod`** a v0.42 matou por dupla contagem, e estava certa — mas a v0.44 achou que ele é pior que neutro. *Ver o parágrafo acima: não é penalidade, é independência de atributo.*
 >
-> *E o outro lado paga o mesmo que parecia não pagar:* Força 6 e Destreza 6 custam **3 pontos cada**, os dois saindo do 3 da criação, e as duas carregam `Duas mãos`, então as duas largam o escudo. **O que a arma de fogo ganha de graça é a distância.**
+> *E o que fica de pé daquela versão:* Força 6 e Destreza 6 custam **3 pontos cada**, os dois saindo do 3 da criação, e as duas carregam `Duas mãos`, então as duas largam o escudo. **O que a arma de fogo ganhava de graça era a distância — e agora ela paga por ela**, com o ponto de `Longo Alcance` que põe o topo em 11,0 contra os 12,5 da `Pesada`.
 
 ### `Uma mão` × `Versátil` — aceita, e o motivo é melhor que o número
 
@@ -561,7 +730,11 @@ O `ESTADO-ATUAL` diz que a árvore da Vanguarda é *"o que se faz com a arma: al
 | Força 6 · Pesada + Revestimento 3 + escudo 3 | 12,5 | 4,12 | 19 |
 | Destreza 6 · Lâmina Longa com `Fineza` + cobrir-se | 10,5 | 3,47 | **19** |
 
-**As duas chegam a Defesa 19 por rotas diferentes, e o dano fica a 1,32 por rodada — 4% da Rotina.** Com equipamento no prato da Força, deixa de ser dominância e vira escolha de sabor. *O contrapeso não existia quando a decisão foi tomada; ele saiu desta mesma peça.*
+**As duas chegam a Defesa 19 por rotas diferentes, e o dano fica a `0,66` por rodada — 2% da Rotina.** Com equipamento no prato da Força, deixa de ser dominância e vira escolha de sabor. *O contrapeso não existia quando a decisão foi tomada; ele saiu desta mesma peça.*
+
+> **Esta linha dizia `1,32 por rodada — 4% da Rotina`, e era o dobro. Corrigido na v0.44.** As duas colunas da tabela acima já traziam a resposta: `4,12 − 3,47 = 0,65`. O `1,32` sai de multiplicar a diferença de 2,0 de dano por **`0,66`** em vez de por **`0,33`** — e `0,66` é o número da linha vizinha desta mesma peça, *"a arma de duas mãos rende 0,66 por rodada"*.
+>
+> **A conclusão sobrevive e fica mais forte:** se 4% já tinha sido aceito como sabor, 2% é sabor com folga, e nada rebalanceia. *Mas é o quarto exemplar do defeito que a v0.43 pagou para aprender — **a prosa contradizendo a tabela do próprio documento** —, e o único jeito de pegar foi refazer a divisão.*
 
 **O nome mudou duas vezes.** `Precisa` sai `fraco` na triagem — a uma letra de **Precisão**, que é Melhoria do manual. `Finez` foi a primeira escolha do Mizuki e ele mesmo trocou: **`Fineza`**, que é a palavra em português e sai `LIVRE`.
 
@@ -752,7 +925,43 @@ A peça 11 escolheu o `1,5 ×` com critério escrito: *"o saldo **encolhe** em v
    > **E o furo do teste era um nível acima do que esta linha dizia.** Não é só que a matriz não somava o total: é que ela roda **uma vez só**. Enquanto o escudo desligava cobrir-se, existiam duas populações com dominâncias opostas — ficha de uniforme (escudo domina a Pesada) e ficha de cobrir-se (Pesada domina a Uma mão) — e rodada uma vez a matriz cancelava as duas e saía verde. Com o escudo somando, isso deixa de acontecer; **a exigência para o validador fica registrada de todo jeito**, porque uniforme e cobrir-se continuam sendo rotas de proteção diferentes.
 2. **Ferramenta amaldiçoada fica fora desta peça.** Decisão do Mizuki: canalizar energia já faz arma comum ferir maldição, e ferramenta amaldiçoada entra em tópico próprio, com graus e forja. A peça 5 §9 tem a pendência nomeada; a `Armaria` do Descendente e o `Enterrado` do Reencarnado a citam e são as primeiras a reler.
 3. **As quatro vagas de Desliga da peça 13** que esperam equipamento — Descendente, Reencarnado, Corpo Amaldiçoado e Restrição Celestial. A peça 13 fecha dizendo *"quando equipamento fechar, a primeira coisa a fazer é voltar aqui"*.
-4. **Munição:** quantos tiros, e como recarrega. Nenhum número ainda.
+4. ~~**Munição:** quantos tiros, e como recarrega.~~ **Fechado na v0.42** — dois gatilhos, recarga em Ação Bônus, X entre `1`, `2`, `3` e `—`. **Mas a régua do §5.0 acaba de reabrir a metade do slot**, e o item 12 abaixo tem a conta.
+
+12. **A arma de fogo estoura o orçamento, e a v0.42 mediu contra a pessoa errada.** *Achado na v0.44, pela régua do §5.0.*
+
+    | arma | gasta | orçamento | saldo |
+    |---|---|---|---|
+    | `2d8` — Pistola, Revólver, Besta de Uma Mão | 1,5 | 2 | ok |
+    | `3d6` — Submetralhadora | 3,0 | 4 | ok |
+    | `3d8` — Espingarda, Rifle, Besta | 6,0 | 4 | **−2** |
+    | `3d10` — Rifle de Precisão, Metralhadora Pesada | 9,0 | 4 | **−5** |
+
+    **E isso está medido contra Força 6**, que é o melhor caso para o corpo a corpo. Contra quem de fato escolhe uma arma que não soma atributo:
+
+    | Força de quem segura | o `3d10` estoura em |
+    |---|---|
+    | 6 | 5 pontos ≈ 5% da Rotina |
+    | 3 — o teto da criação | 8 |
+    | **0** | **11 pontos ≈ 11% da Rotina** |
+
+    > **A Trilha da Vanguarda inteira deve 6% a 9%. O `3d10` na mão de um Força 0 passa disso sozinho.**
+
+    A v0.42 mediu **+4,3% da Rotina** e aceitou pelo tamanho — e o número bate exato com o meu contra Força 6. **O que faltou foi medir contra quem escolhe a arma**, que é a lição nº 7: *um preço se mede somado, nunca sozinho.* Aquela versão também derrubou o argumento de *"não soma mod E tem munição"* por dupla contagem, e estava certa nisso; o defeito é outro e é de população, não de contagem.
+
+    **E a `Munição` devolve zero hoje**, porque o §5.2 escreve que recarregar é Ação Bônus e que *"em Ação Bônus a `Munição` custa zero"*. O contrapeso que o desenho supunha não existe.
+
+    **As duas saídas levantadas, e por que uma delas nem existia:**
+
+    | | o que acontece |
+    |---|---|
+    | ~~**A — `Munição` volta a custar a Ação Padrão**~~ | **A saída era falsa.** Ela foi montada em cima da tabela de `54% / 46% / 14%` do §5.2 — que estava calculada com a regra *"recarregar custa a sua ação"*, **substituída pela Ação Bônus na mesma seção e nunca apagada.** Eu li a metade morta. *É a lição nº 5 na direção mais chata: a tensão de preço era uma contradição de texto, e a conta em cima dela não valia nada.* |
+    | **B — o dado do topo desce** | é a que sobrou, e é a que foi tomada |
+
+    **Fechado na mesma versão, e nenhuma das duas saídas era suficiente sozinha.** O Mizuki perguntou se *"não ter MOD e precisar de Ação Bônus para recarregar"* já não pagava. Medido: **`sem MOD` devolve 0,0** (não é penalidade, é independência de atributo — e o `16,5` já era o total sem atributo, que é o que a v0.42 acertou) e **a Ação Bônus devolve 0,1 a 0,3** com X ≥ 2. **Somados, ~0,3 dos 5 pontos.**
+
+    > **Decisão do Mizuki: o topo desce.** `2d10`, escada de dois dados, com `2d8`, `2d6` e `1d10`. Está no §5.2, com o contra-teste contra a `Pesada` e a `Haste`.
+
+    **E o X da `Munição` fica em `2` ou `3`**, pelo critério dele de que nenhuma arma atravesse a briga sem recarregar. *Ele propôs `2 · 4 · 5`, e a simulação reprovou os dois de cima:* com `4`, 22% dos combates passam sem recarga para quem não tem ataque extra; com `5`, 68% — e o `5` já é indistinguível de não ter teto. **Falta só decidir qual arma leva `2` e qual leva `3`.**
 5. **`Versátil`:** os dois dados não estão escritos, e a conta diz que **nenhum par resolve** — nem `d8/d10`, nem `d8/d12`, nem `d6/d10`. Largar o escudo nunca compensa enquanto o escudo for proteção. O par vira escolha de sabor depois que a forma do escudo fechar, não antes.
 6. **Os nomes dos degraus de escudo, e quantos são.** A forma fechou — proteção, requisito de Força, teto de Destreza. Faltam os nomes e a contagem. Livres na triagem: **Broquel · Pavês · Rodela · Adarga · Tarja · Couraça · Guarda-Corpo**.
 7. ~~**As sete propriedades sem texto.**~~ **Reduzidas a duas e meia na v0.42, e três delas eram a mesma coisa.** `Alcance`, `Distância` e `Arremesso` colapsaram em `Alcance` e `Longo Alcance`, as duas com número em metros em vez de redação. `Par` fechou em *"role dois dados de dano e fique com o melhor"*, 0,32 contra um alvo de 0,33. `Fineza` entrou. **Falta `Oculta`, os dois dados da `Versátil` e o número da `Munição`.**

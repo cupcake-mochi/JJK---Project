@@ -2,7 +2,7 @@
 
 Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.43** · manual do Fundamento na **v7.8** · **treze peças de regra** e **treze validadores passando**.
+**Versão v0.44** · manual do Fundamento na **v7.8** · **treze peças de regra** e **treze validadores passando**.
 
 ---
 
@@ -29,7 +29,7 @@ E o registro do **porquê** de cada decisão é tão importante quanto a regra: 
 .
 ├── README.md              você está aqui
 ├── logs/
-│   ├── CHANGELOG.md                     o porquê de cada decisão, v0.1 a v0.39
+│   ├── CHANGELOG.md                     o porquê de cada decisão, da v0.1 até a versão atual
 │   └── CHANGELOG-manual-v6-para-v7.md   o changelog do manual, antes de ele entrar aqui
 ├── manual/
 │   ├── Fundamento-MANUAL-v7.docx        v7.8 — o manual gerado
@@ -49,7 +49,7 @@ E o registro do **porquê** de cada decisão é tão importante quanto a regra: 
     └── skills/                          cópia de trabalho das sete skills de apoio
 ```
 
-Um arquivo `RASCUNHO-*.md` em `03-mecanica/` é levantamento engatilhado, não peça — ele não leva número justamente por isso, e o `conferir-repositorio.py` falha se algum tomar.
+Um arquivo `RASCUNHO-*.md` em `03-mecanica/` é levantamento engatilhado, não peça — ele não leva número justamente por isso, e o `conferir-repositorio.py` falha se algum tomar. **Hoje são três:** `RASCUNHO-equipamento.md` (a peça em andamento), `RASCUNHO-bloqueio.md` (a regra opcional de rolar a defesa, fechada em desenho na v0.43) e `RASCUNHO-clash-de-expansoes.md`.
 
 **`_backup/` não entra no repositório** — ele guarda o estado da pasta antes da reorganização, e o `.gitignore` o segura.
 

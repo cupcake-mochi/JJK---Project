@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 12/08/2026, na v0.43 (última peça fechada: Legados, na v0.39; **Equipamento está em andamento** — o estado dela mora em `03-mecanica/RASCUNHO-equipamento.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 13/08/2026, na v0.44 (última peça fechada: Legados, na v0.39; **Equipamento está em andamento** — o estado dela mora em `03-mecanica/RASCUNHO-equipamento.md`, e a regra opcional do **Bloquear** em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.43.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **treze peças escritas** e **treze validadores**. Manual do Fundamento na **v7.8**, com a Expansão de Domínio escrita, e o catálogo de aptidões com **dez das catorze entradas fechadas**. **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas** — por seis das nove rotas de Origem, e agora sem nenhum buraco de regra que morda nessa faixa.
+**Versão v0.44.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **treze peças escritas** e **treze validadores**. Manual do Fundamento na **v7.8**, com a Expansão de Domínio escrita, e o catálogo de aptidões com **dez das catorze entradas fechadas**. **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas** — por seis das nove rotas de Origem, e agora sem nenhum buraco de regra que morda nessa faixa.
 
 ## Como retomar
 
@@ -471,8 +471,39 @@ Quatro peças, e a ordem é de **dependência**, não de tamanho. A ordem que el
 
 **A dívida da peça 11 e da peça 8 foi APLICADA:** o escudo **soma** com cobrir-se em vez de desligar, e o preço da Reação virou agnóstico de fonte. Três checagens novas no `conferir-criacao.py` guardam as duas.
 
-**O que falta:** a **classe das doze armas novas** — e com ela a pergunta que a `Fineza` abriu, *o preço mora na classe ou na arma?* —, e **o validador da peça**, que precisa rodar a dominância **uma vez por rota de proteção, e são três**: cobrir-se, uniforme, e **sem energia nenhuma** (a Restrição Celestial pelo ramo da Maki, que não tem cobrir-se para desligar).
+### E o que a v0.44 fez com ela — a régua de preço mudou
 
+**A pergunta *"o preço mora na classe ou na arma?"* foi respondida, e a resposta é a arma.** O motivo não foi de gosto: a escada de dados do §5.2 já punha **dois dados dentro da mesma classe** (Pistola `2d8` e Submetralhadora `3d6`, as duas em `Tiro leve`), então o catálogo praticava **9 pacotes de preço para 8 classes** desde a v0.42.
+
+> **1 ponto = `0,33` por rodada = um passo de dado = uma propriedade.** Orçamento: **`2` numa mão, `4` em duas.**
+
+Ele saiu por **regressão contra as seis classes publicadas**, e cinco fecham exatas. A sexta é a `Versátil`, que estourava em 1 — **a dominância que a v0.41 tinha achado e não sabia dimensionar.** A régua inteira cabe numa tabela de teto de dado por número de propriedades, no molde do PF2e, e o teto da `Fineza` (d6 numa mão) cai dela sozinho.
+
+**Fecharam junto:** a escada do tiro (`3d10` → **`2d10`** no topo, porque o `3d10` gastava 9,0 num orçamento de 4 e estourava em 11 pontos na mão de um Força 0); o X da `Munição` em `2 · 3 · 4`, depois que o `X=1` foi flagrado **apagando o ataque extra**; a `Versátil` a **custo zero**, que fecha a dominância de três versões com tamanho (0,1 ponto, só no nv2); e o **§5.1 reaberto** — a categoria ganha um **efeito de crítico**, treze deles, porque o portão do 20 natural divide o erro por onze.
+
+**O que falta:** o **dado e as propriedades de cada uma das 52 armas**, os **treze efeitos de crítico**, e **o validador da peça**, que precisa rodar a dominância **uma vez por rota de proteção, e são três**: cobrir-se, uniforme, e **sem energia nenhuma** (a Restrição Celestial pelo ramo da Maki, que não tem cobrir-se para desligar).
+
+
+### Bloquear — a regra opcional que a v0.43 escreveu
+
+Mora em `03-mecanica/RASCUNHO-bloqueio.md`, e **não mudou número de peça nenhuma**. A Defesa continua sendo `10 + Destreza + proteção`, e continua sendo o padrão. Ela é a segunda frente aberta hoje, independente de Equipamento, e só entra em balanceamento quando o tópico de regras opcionais existir.
+
+> **Ao ser atacado, você pode Bloquear:** role `2d10 + (sua Defesa − 11)` no lugar da sua Defesa.
+> **Duplo 10 — Aparar:** não acerta, e você pode gastar a Reação para contra-atacar com **+3 de dano**.
+> **Duplo 1 — Brecha:** acerta, e o agressor pode gastar a Reação dele para atacar de novo, sem bônus.
+> O Aparar **não anula um 20 natural**, e Bloquear **não vale em Teste de Resistência**.
+
+**O achado que sustenta tudo.** A resposta padrão do hobby para *"quero rolar minha defesa"* é *role d20 no lugar dos 10 da CA* — e ela dá **+2,5 pontos percentuais de graça, em todo ataque, para todo mundo**, porque `E[d20] = 10,5` e a base da Defesa é `10`. Oito buscas externas não acharam uma única discussão do problema. **Qualquer dado de média 10 é neutro por construção**, e o d20 não tem conserto: a média de um dado único sempre termina em `,5`, então o buraco é de meio ponto e nenhum modificador inteiro o fecha.
+
+**O invariante, e ele é a peça frágil:**
+
+> **Bloquear usa exatamente o mesmo modificador da Defesa passiva. Nada pode aumentar um sem aumentar o outro.**
+
+`+1` de diferença vale 2,5pp — o tamanho exato do viés que a regra saiu para consertar. Um escudo, uma aptidão, um Legado ou um item que suba um lado só desfaz a mecânica inteira. **Isso vale para Equipamento**, que é a peça em andamento e a que mais mexe em Defesa.
+
+**Em aberto:** as condições que impedem Bloquear — surpreendido, caído, agarrado —, que esperam a peça de **dano e condições**; a linha na ficha (`Defesa 17 · Bloquear 2d10+6`, que é o que faz o `−1` nunca aparecer na mesa); e a Reação na ficha de inimigo, sem a qual a Brecha não funciona.
+
+**E o validador dela não pode ser arquivo novo.** As três checagens do §7 do rascunho são todas sobre a fórmula da Defesa, que é da **peça 1** — então elas vão para o `conferir-atributos.py`, do mesmo jeito que o Caído foi na v0.37. Um `conferir-*.py` novo quebraria a contagem de treze por treze, e Bloquear não é peça.
 
 ### Decidido — o Caminho continua sem dar dados de dano
 
