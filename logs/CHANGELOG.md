@@ -6,6 +6,83 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.49] — 2026-08-13
+
+**A dívida que a peça 13 devia a Equipamento foi cobrar, e não havia o que cobrar.** As quatro vagas de Desliga que esperavam aquela peça **nomeavam a peça errada, cada uma por um motivo diferente** — e o achado que desfaz três delas veio de uma pergunta do Mizuki sobre canon. Nenhuma vaga foi preenchida, e isso é a decisão. Continuam **catorze peças e catorze validadores**.
+
+### Achado — Equipamento fechou e nenhuma das quatro vagas abriu
+
+*A peça 13 fecha dizendo "quando equipamento fechar, a primeira coisa a fazer é voltar aqui". Voltamos, e a porta estava fechada por dentro.*
+
+| vaga | dizia esperar | espera de verdade |
+|---|---|---|
+| **Descendente** | equipamento | **ferramenta amaldiçoada** — a peça 14 §8 item 2 declinou o assunto **por decisão** |
+| **Restrição Celestial** | equipamento | **ferramenta amaldiçoada** — é a Origem que mais depende dela |
+| **Reencarnado** | equipamento | **objeto amaldiçoado** |
+| **Corpo Amaldiçoado** | equipamento | **Técnica Marcial** |
+
+**O erro do Corpo Amaldiçoado é o mais instrutivo dos quatro: é dependência de segunda mão.** Técnica Marcial *estava* bloqueada por equipamento, e a vaga **nomeou o bloqueio em vez do dono**. Quando a peça 14 fechou, a vaga parecia destravada e não estava — o que ela esperava continuava sem existir.
+
+> **A regra 1 do §"vaga declarada" tem um modo de falha que só apareceu com a primeira peça pronta na mão.** Ela manda a vaga *nomear a peça de onde o alvo deve sair*, e não manda conferir se a peça nomeada é mesmo a dona. **Uma dívida que nomeia a peça errada é pior que uma dívida sem nome: a sem nome ninguém dá por fechada, e a com nome errado fecha sozinha no dia em que a peça errada fecha.** O conserto está escrito na peça 13: *a vaga nomeia a peça dona do alvo, não a que estava na frente dela na fila.*
+
+### Achado — o projeto usava um nome para duas coisas que o canon separa
+
+*Pergunta do Mizuki, e ela derrubou metade da minha proposta:* **"por que o Corpo Amaldiçoado precisa de ferramenta amaldiçoada exatamente? Acredito que são mais como itens amaldiçoados, não necessitando exatamente ser armas — diferente do restringido, que realmente precisa."**
+
+| | o que é | quem depende dela aqui |
+|---|---|---|
+| **ferramenta amaldiçoada** (呪具) | **arma forjada** para canalizar energia, com graus. Até quem não é feiticeiro usa | `Armaria` do Descendente · Restrição Celestial |
+| **objeto amaldiçoado** (呪物) | **não é item imbuído: é a própria maldição presa em forma de objeto.** Resto de feiticeiro antigo, que encarna num receptáculo compatível | Receptáculo · Reencarnado |
+
+**A diferença é de intenção:** a ferramenta é *feita para* canalizar; o objeto **é** a coisa. *E o `Enterrado` do Reencarnado foi a pista falsa que segurou o erro:* ele diz *"você guardou uma coisa antes de morrer"* — **e uma coisa não é necessariamente uma arma.**
+
+**A peça 9 já escrevia a dependência certa e ninguém tinha ligado os pontos:** o Kashimo *"aceitou virar **objeto amaldiçoado** e encarnar num corpo que o Kenjaku preparou"*.
+
+### Achado — `objeto amaldiçoado` não tem peça dona em lugar nenhum
+
+**Duas Origens inteiras são construídas em cima dele** — Receptáculo é comer um dedo, Reencarnado é *ter virado* um — e ele **não estava na fila, não estava no `arquitetura.md` e não tinha vaga na ordem de construção.** Ele estava escondido dentro da palavra *"ferramenta"*, que tem peça prometida.
+
+*Entrou na lista de peças que faltam, no `ESTADO-ATUAL`.* **É a lição nº 6 numa forma nova:** não é o preço que usa um termo inexistente — é o termo existente **cobrindo dois conceitos**, e um deles não tendo dono.
+
+### Decidido — nenhuma vaga é preenchida, e o motivo é a régua funcionando
+
+*Passados pela trava do Desliga todos os nomes que a peça 14 criou:*
+
+| alvo candidato | quem paga por ele | veredito |
+|---|---|---|
+| **requisito de Força** | ninguém — é gate, não item | **legal** |
+| treino de arma | a Trilha | proibido |
+| teto de Destreza do uniforme | vem junto da proteção, um orçamento só | proibido |
+| `Volumosa` · `Embainhada` | devolvem 1 ponto ao orçamento | proibido |
+| qualquer propriedade de arma | custa 1 ponto | proibido |
+| uniforme desliga cobrir-se | apagar dá Defesa 23 | o `conferir-equipamento.py` barra |
+
+> **Equipamento produziu UM alvo legal, e ele não vale a entrada.** O requisito de Força vale `1,0` de dado — um Força 0 sai de `d10` para `d12` — e vale **zero** para quem já tem Força 3, que é o perfil das duas Origens que poderiam pegá-lo.
+>
+> **A trava do Desliga proíbe encostar no que tem preço, e a peça 14 precificou quase tudo que nomeou.** *A régua funcionando exatamente como desenhada, numa direção que ninguém previu: peça nova cria alvo novo, mas **peça bem precificada cria pouquíssimo**.* Preencher assim mesmo seria escrever entrada para fechar contagem, que é o defeito que essa régua nasceu para achar.
+
+### Adicionado — as duas definições, com dono declarado
+
+*Pedido do Mizuki: "se quiser abordar ferramenta amaldiçoada ou item amaldiçoado no documento, só colocar uma descrição simples do que é."*
+
+**As duas são vocabulário que ainda não tem peça, então a definição mora no `ESTADO-ATUAL`, na lista do que não existe — e isso está escrito lá como provisório.** Quando cada peça for escrita, a definição vai para ela e a linha vira ponteiro. A peça 13 e a peça 14 citam as duas e **apontam** em vez de repetir. *Lição nº 9 obedecida em vez de explicada: duas descrições soltas em quatro peças é como o "ferramenta amaldiçoada" cobrindo dois conceitos começou.*
+
+### Alterado — duas referências mortas dentro das próprias peças
+
+*Achadas varrendo depois de reclassificar, e são o próprio defeito que esta versão documentou.* A peça 13 fechava dizendo *"quatro esperam equipamento, três esperam dano e condições"*, e o §8 item 3 da peça 14 listava as quatro pelo nome. **As duas sobreviveram à reclassificação por estarem longe da tabela que mudou** — e nenhum validador cruza prosa com tabela.
+
+### Em aberto
+
+- **`Objeto amaldiçoado`** — peça nova, sem posição na fila ainda.
+- **`Ferramenta amaldiçoada`** — tópico próprio, com graus e forja, prometido desde a peça 5 §9.
+- **Técnica Marcial**, destravada na v0.48 e agora com uma vaga de Desliga nomeando ela.
+- **As três vagas de dano e condições**, e a Cicatriz, que espera a mesma peça.
+- **Os nomes dos degraus de escudo**, as descrições das 52 armas, a penalidade, o barulho na categoria.
+- **As três checagens do Bloquear**, no `conferir-atributos.py`.
+- **Energia Reversa, o clash, o nome do sistema.**
+
+---
+
 ## [0.48] — 2026-08-13
 
 **Equipamento fechou. São catorze peças e catorze validadores.** O `RASCUNHO-equipamento.md` virou `14-equipamento.md` e ganhou o `conferir-equipamento.py`, com dez checagens e dez perturbações conferidas. **E o que destravou a peça não foi escrever o validador: foi derrubar a frase que dizia que ele não podia ser escrito.**

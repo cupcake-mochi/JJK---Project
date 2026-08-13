@@ -316,7 +316,33 @@ Dez por Origem, **setenta no total**.
 
 **Por que reservar em vez de preencher.** A alternativa é inventar oito alvos agora, e a régua já mostrou como isso termina: os três Desliga de condição — *Desconfiado*, *Corpo Emprestado* e *Já Morri* — foram escritos **porque a coluna pedia**, e cada um apagava Condição Maior, que custa **Pesada**. Nenhuma trava me impediu, e quem pegou foi o Mizuki lendo. **Entrada que existe para fechar contagem é exatamente o defeito que esta régua nasceu para achar** — e ela não pode ser a coisa que a própria cota obriga.
 
-*As peças que ainda não existem — equipamento, invocação e Trilhas — vão criar coisa nomeada nova, e é de lá que sai o Desliga que faltar. **Equipamento é a peça seguinte na fila**, então a primeira leva de vagas tem prazo curto e não fica pendurada.*
+*As peças que ainda não existem vão criar coisa nomeada nova, e é de lá que sai o Desliga que faltar.*
+
+### A regra 1 tem um modo de falha que só apareceu quando a primeira peça chegou
+
+*Achado na v0.49, quando Equipamento fechou na v0.48 e **nenhuma das quatro vagas que a nomeavam abriu**.*
+
+A regra 1 manda a vaga nomear a peça de onde o alvo deve sair. **Ela não manda conferir se a peça nomeada é mesmo a que vai produzir o alvo** — e as quatro erraram, cada uma por um motivo diferente:
+
+| vaga | dizia esperar | espera de verdade | por que errou |
+|---|---|---|---|
+| **Descendente** | equipamento | **ferramenta amaldiçoada** | a peça 14 declinou ferramenta por decisão: ela é tópico próprio, com graus e forja |
+| **Restrição Celestial** | equipamento | **ferramenta amaldiçoada** | mesma coisa — e é a Origem que mais depende dela |
+| **Reencarnado** | equipamento | **objeto amaldiçoado** | o `Enterrado` foi a pista falsa: *"você guardou uma coisa"* não é uma arma |
+| **Corpo Amaldiçoado** | equipamento | **Técnica Marcial** | dependência de segunda mão: Técnica Marcial *estava* bloqueada por equipamento, e a vaga nomeou o bloqueio em vez do dono |
+
+> **A distinção que desfaz três dos quatro erros é de canon, e o projeto vinha usando um nome só para duas coisas.** *Achado do Mizuki:* **"acredito que são mais como itens amaldiçoados, não necessitando exatamente ser armas."**
+>
+> | | o que é | quem depende dela aqui |
+> |---|---|---|
+> | **ferramenta amaldiçoada** (呪具) | **arma forjada** para canalizar energia, com graus. Até quem não é feiticeiro usa | `Armaria` do Descendente · Restrição Celestial |
+> | **objeto amaldiçoado** (呪物) | **não é item imbuído: é a própria maldição presa em forma de objeto.** Resto de feiticeiro antigo, que encarna num receptáculo compatível | Receptáculo · Reencarnado |
+>
+> **A diferença é de intenção:** a ferramenta é feita para canalizar; o objeto **é** a coisa. *A definição de cada uma mora no `ESTADO-ATUAL`, na lista do que não existe, e vem para a peça dona quando ela for escrita — esta tabela é o argumento que reclassificou as vagas, não a definição.* *E a peça 9 já escrevia a dependência certa sem que ninguém tivesse ligado os pontos: o Kashimo "aceitou virar **objeto amaldiçoado** e encarnar num corpo que o Kenjaku preparou".*
+
+**E aí aparece o buraco que isto destampou: `objeto amaldiçoado` não tem peça dona em lugar nenhum do projeto.** Duas Origens inteiras são construídas em cima dele — Receptáculo é comer um dedo, Reencarnado é *ter virado* um — e ele não está na fila, não está no `arquitetura.md` e não tem vaga na ordem de construção. **Ele estava escondido dentro da palavra "ferramenta".**
+
+> **O conserto da regra 1, para a próxima peça que chegar:** *a vaga nomeia a peça que é **dona do alvo**, não a peça que estava na frente dela na fila.* Uma dívida que nomeia a peça errada é pior que uma dívida sem nome — a sem nome ninguém dá por fechada, e a com nome errado **fecha sozinha no dia em que a peça errada fecha.**
 
 *Cinco por formato foram considerados e recusados pela conta:* dariam 105 entradas, e 35 Desliga não existem nem com as peças que faltam.
 
@@ -526,11 +552,13 @@ Um nomeia **quem conheceu** a coisa; o outro nomeia **como a coisa se chamava**.
 | Legado | apaga | relógio |
 |---|---|---|
 | **Coleira** | ser localizado ou rastreado | sempre |
-| *— vaga reservada —* | **espera a peça de equipamento** | — |
+| *— vaga reservada —* | **espera a peça de ferramenta amaldiçoada** | — |
 
 > **Coleira** — o seu clã te selou na infância: técnica nenhuma te localiza, te rastreia ou te encontra à distância. *Em troca, o selo é dos dois lados — a sua família sempre sabe onde você está, e nunca precisou perguntar.*
 >
-*A vaga espera a peça de equipamento, e é a mesma dependência que a **Armaria** já carrega: o Descendente é a Origem que guarda ferramenta, e ferramenta amaldiçoada ainda não tem propriedade nomeada para desligar.*
+*A vaga espera **ferramenta amaldiçoada**, e é a mesma dependência que a **Armaria** já carrega: o Descendente é a Origem que guarda ferramenta — a `Armaria` diz literalmente *"o clã da ferramenta"* — e ferramenta amaldiçoada ainda não tem propriedade nomeada para desligar.*
+
+> **Esta linha dizia "espera a peça de equipamento", e estava errada.** *Corrigido na v0.49, depois que Equipamento fechou e a vaga não abriu.* A peça 14 declinou ferramenta amaldiçoada por decisão — ela é **tópico próprio, com graus e forja** —, então esta vaga nunca esteve esperando aquela peça. **Uma dívida que nomeia a peça errada não é dívida marcada: é dívida escondida atrás de um nome plausível.**
 
 **Treino de Berço mudou de formato, e a proibição do Ajusta permanente foi o motivo.** Ele era *"treine mais uma perícia"* — Ajusta sem relógio, que a régua acabou de proibir. A versão com relógio ficaria *"uma vez por cena, role tal perícia como se fosse treinada"*, que é **exatamente o Costume Antigo do Receptáculo, palavra por palavra**. Duas das cinco primeiras entradas escritas seriam a mesma mecânica com duas ficções.
 
@@ -641,7 +669,7 @@ As duas dão **vantagem em Teste de Resistência**, e é o mesmo número. A dife
 
 | Legado | apaga | relógio |
 |---|---|---|
-| *— vaga reservada —* | **espera a peça de equipamento** | — |
+| *— vaga reservada —* | **espera a peça de objeto amaldiçoado** | — |
 | *— vaga reservada —* | **espera a peça de dano e condições** | — |
 
 Sobrou **um** alvo legal no sistema inteiro pela enumeração da seção 8 — **os degraus de exaustão**, da peça 10 — e ele **não foi gasto aqui**. Dois motivos, e o segundo é o que decide:
@@ -651,7 +679,9 @@ Sobrou **um** alvo legal no sistema inteiro pela enumeração da seção 8 — *
 
 > **Com a cota de dois, o alvo livre deixou de ser prêmio de quem chegou primeiro e virou decisão de encaixe.** Ele fica **reservado para o Corpo Amaldiçoado**, que é a lista seguinte — e a decisão custa alguma coisa lá, porque é a Origem que tem direito a ele pela ficção.
 
-**As duas vagas do Reencarnado esperam peças diferentes, de propósito.** Uma é equipamento, pela mesma porta que o *Enterrado* já abriu — o que você deixou para trás vira objeto com propriedade quando objeto tiver regra. A outra é a peça de dano e condições: o corpo emprestado é a ficção que mais pede efeito nomeado, e três Ajusta desta lista já disputam esse território.
+**As duas vagas do Reencarnado esperam peças diferentes, de propósito.** Uma é **objeto amaldiçoado**, e a peça 9 escreve a dependência sem rodeio: o Kashimo *"aceitou virar **objeto amaldiçoado** e encarnar num corpo que o Kenjaku preparou"*. **A Origem inteira é a mecânica de objeto amaldiçoado vista de dentro.** A outra é a peça de dano e condições: o corpo emprestado é a ficção que mais pede efeito nomeado, e três Ajusta desta lista já disputam esse território.
+
+> **Esta vaga dizia "espera a peça de equipamento", e o *Enterrado* foi a pista falsa.** *Corrigido na v0.49.* Aquele Destranca diz *"você guardou uma coisa antes de morrer"* — e **a coisa não é necessariamente uma arma**, então ele nunca dependeu de equipamento. O que ele pede é objeto com regra, e objeto amaldiçoado **não tem peça dona em lugar nenhum do projeto**.
 
 **A lista fecha em oito escritos: quatro Destranca · quatro Ajusta · dois Desliga reservados.** Dominância dentro da lista: nenhuma — os quatro Destranca compram um segredo de antes, um credor, uma pessoa enganada e um objeto parado, e nenhum contém outro.
 
@@ -756,9 +786,13 @@ Sobrou **um** alvo legal no sistema inteiro pela enumeração da seção 8 — *
 | Legado | apaga | relógio |
 |---|---|---|
 | **Ferro Velho** | os degraus de exaustão | sempre |
-| *— vaga reservada —* | **espera a peça de equipamento** | — |
+| *— vaga reservada —* | **espera a peça de Técnica Marcial** | — |
 
 > **Ferro Velho** — cansaço não é uma coisa que acontece com você: os degraus de exaustão não te alcançam. Você não dorme porque precisa, dorme porque combinaram que era hora. *Em troca, você também não sente quando está perto de quebrar — o seu corpo não avisa antes, ele só para.*
+
+*A vaga espera **Técnica Marcial**, e a peça 9 já dizia isso na linha de criação desta Origem: **"Técnica Marcial — não existe ainda"**. Ela não usa ferramenta amaldiçoada e não é objeto amaldiçoado; o que ela não tem é a economia de poder que substitui o Fundamento nela.*
+
+> **Esta vaga dizia "espera a peça de equipamento", e isso vinha de uma dependência de segunda mão.** *Corrigido na v0.49.* Técnica Marcial **estava** bloqueada por equipamento — e essa trava caiu na v0.48, quando a peça 14 fechou. **A vaga não esperava a peça que ela nomeava: esperava a peça que aquela destravava.** Agora ela nomeia a certa, e a certa é a próxima da fila.
 
 #### As quatro configurações, e por que o Ajusta desta Origem é gatilhado
 
@@ -935,9 +969,11 @@ E a assimetria some junto: *você* reconhece, *você* sabe quando um morre. Não
 | Legado | apaga | relógio |
 |---|---|---|
 | **Peso Real** | ser enganado por barreira, véu e ferramenta | sempre |
-| *— vaga reservada —* | **espera a peça de equipamento** | — |
+| *— vaga reservada —* | **espera a peça de ferramenta amaldiçoada** | — |
 
 > **Peso Real** — você percebe **ferramenta amaldiçoada, barreira e véu pelo tato e pelo peso, não pela energia**. O que engana feiticeiro não engana você. *Em troca, você percebe que tem alguma coisa ali e não o que é — o aviso vem sem nome.*
+
+*A vaga espera **ferramenta amaldiçoada**, e esta é a Origem que mais depende dela: pelo ramo sem energia nenhuma, **ferramenta amaldiçoada é o único jeito de ferir maldição** — a peça 5 §9 escreve isso com todas as letras. O `Peso Real` já cita ferramenta no próprio texto.*
 
 #### O que o levantamento trouxe, e o que ele matou
 
@@ -1072,7 +1108,7 @@ O catálogo, e as decisões de sabor que vêm com ele:
 - ~~**As três listas que faltam**~~ — **as sete fecharam na v0.38**, 81 entradas escritas.
 - ~~**Os três relógios fora da escada**~~ — **descidos**: *Aprendi Apanhando* e *A Voz de Dentro* para por dia, *O Que Ninguém Lembra* para por descanso longo.
 - ~~**O piso do Irmãos**~~ — **resolvido na lista do Feto**, pelo canon: a irmandade é definida por quem te fez, e o gatilho virou o jogador apontar alguém e dizer que é irmão.
-- **As sete vagas de Desliga**, quando a peça que cada uma espera sair. Quatro esperam **equipamento**, três esperam **dano e condições**.
+- **As sete vagas de Desliga**, quando a peça que cada uma espera sair. **Duas** esperam `ferramenta amaldiçoada`, **três** esperam **dano e condições**, **uma** espera `objeto amaldiçoado` e **uma** espera **Técnica Marcial**. *Reclassificadas na v0.49: as quatro que diziam "equipamento" nomeavam a peça errada, e nenhuma delas abriu quando aquela peça fechou.*
 - **O `Inédito` precisa da linha que o fecha para Sem Técnica** — é a única das 81 entradas que pressupõe técnica própria.
 - **A peça 9 precisa de três consertos que esta peça gerou:** a frase *"Sem Técnica não dá um segundo Legado"*, o §5 que ainda diz que Corpo Amaldiçoado não tem energia, e o `Alcance Impossível`, que é técnica e sai do catálogo.
 - ~~**Não Sou Gente sai do dano**~~ — **resolvido na v0.38: o nome inteiro foi para a Passiva, e o Legado deixou de existir.** A seção 9.9 tem o porquê.

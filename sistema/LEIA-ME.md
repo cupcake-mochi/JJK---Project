@@ -42,7 +42,7 @@ A pasta `skills/` guarda a versão com arquivos separados. A versão instalada t
 
 ## Versão atual
 
-**v0.48.** Fases 0 a 3 fechadas; a Fase 4 (mecânica) está em andamento com **catorze peças escritas e catorze validadores passando**. O manual do Fundamento está na **v7.8**, e ele é um subsistema fechado — a técnica e o feitiço já funcionam. O `.pdf` continua na v7.4, porque é exportado à mão.
+**v0.49.** Fases 0 a 3 fechadas; a Fase 4 (mecânica) está em andamento com **catorze peças escritas e catorze validadores passando**. O manual do Fundamento está na **v7.8**, e ele é um subsistema fechado — a técnica e o feitiço já funcionam. O `.pdf` continua na v7.4, porque é exportado à mão.
 
 **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas**, por seis das nove rotas de Origem. Desde a v0.32 não sobrou peça de regra travando ninguém nessa faixa: das dezessete coisas que uma ficha de nível 2 precisa, **treze existem, e as quatro que faltam não mordem nessa faixa**. O que falta para as outras três rotas, e a ordem do resto, está no `ESTADO-ATUAL.md`.
 
@@ -65,4 +65,6 @@ Os três últimos não leem o manual e não precisam de nada: o `conferir-criaca
 
 **Invocações**, que é a 3 da fila decidida na v0.36 — o sistema de criação que destrava o Evocador. Depois dela, **Caminho, Trilhas e subtrilhas**, que dependia das outras duas.
 
-*Equipamento fechou na v0.48 como peça 14*, com o `conferir-equipamento.py` em cima dela. Ela destravou a Vanguarda, a **Técnica Marcial** e **quatro das sete vagas de Desliga** da peça 13 — e essas quatro são a primeira coisa a fazer, porque a peça 13 fecha dizendo *"quando equipamento fechar, a primeira coisa a fazer é voltar aqui"*.
+*Equipamento fechou na v0.48 como peça 14*, com o `conferir-equipamento.py` em cima dela. Ela destravou a Vanguarda e a **Técnica Marcial**.
+
+**O que ela não destravou foram as vagas de Desliga da peça 13, e a v0.49 descobriu por quê:** as quatro nomeavam a peça errada. Duas esperavam **ferramenta amaldiçoada** (arma forjada, tópico próprio), uma esperava **objeto amaldiçoado** — que não tem peça dona em lugar nenhum — e uma esperava **Técnica Marcial**, tendo nomeado o que a bloqueava em vez do dono. *Reclassificadas; nenhuma preenchida, porque Equipamento produziu um alvo legal só e ele não vale a entrada.*

@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 13/08/2026, na v0.48 (última peça fechada: **Equipamento, na v0.48** — ela é a peça 14 e tem o `conferir-equipamento.py` em cima dela; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 13/08/2026, na v0.49 (última peça fechada: **Equipamento, na v0.48** — ela é a peça 14 e tem o `conferir-equipamento.py` em cima dela; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.48.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **catorze peças escritas** e **catorze validadores**. Manual do Fundamento na **v7.8**, com a Expansão de Domínio escrita, e o catálogo de aptidões com **dez das catorze entradas fechadas**. **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas** — por seis das nove rotas de Origem, e agora sem nenhum buraco de regra que morda nessa faixa.
+**Versão v0.49.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **catorze peças escritas** e **catorze validadores**. Manual do Fundamento na **v7.8**, com a Expansão de Domínio escrita, e o catálogo de aptidões com **dez das catorze entradas fechadas**. **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas** — por seis das nove rotas de Origem, e agora sem nenhum buraco de regra que morda nessa faixa.
 
 ## Como retomar
 
@@ -403,6 +403,8 @@ Vale ter isso à mão, porque o material é grande e engana. *Medido na v0.33, e
 
 **O que não existe, e faz falta para alguém jogar:**
 
+> **As duas primeiras linhas da segunda tabela são vocabulário que ainda não tem peça, e por isso a definição delas mora aqui — provisoriamente.** *Quando cada peça for escrita, a definição vai para ela e esta linha vira ponteiro.* **Enquanto isso, este é o dono:** a peça 13 e a peça 14 citam as duas e apontam para cá em vez de repetir, que é a lição nº 9 sendo obedecida em vez de explicada.
+
 | falta | tamanho do buraco |
 |---|---|
 | **Tabela de progressão consolidada** | o que você ganha em cada nível está espalhado por cinco documentos: marcos na peça 2, maestria na peça 1, refino no `arquitetura.md`, XP na peça 12, Classe e feitiço no manual |
@@ -562,12 +564,14 @@ O motivo é o pilar 1, e está escrito na peça 5: *"se o Caminho desse dano, do
 
 | pendência | espera |
 |---|---|
-| **Sete vagas de Desliga**, declaradas na tabela em vez de preenchidas | **quatro** esperam equipamento · **três** esperam dano e condições |
-| A **Armaria** do Descendente e o **Enterrado** do Reencarnado | citam ferramenta amaldiçoada, que não tem propriedade nomeada. São as primeiras a reler |
+| **Sete vagas de Desliga**, declaradas na tabela em vez de preenchidas | **duas** esperam ferramenta amaldiçoada · **três** esperam dano e condições · **uma** espera objeto amaldiçoado · **uma** espera Técnica Marcial. *Reclassificadas na v0.49 — as quatro que diziam equipamento nomeavam a peça errada* |
+| A **Armaria** do Descendente e o **Enterrado** do Reencarnado | relidos na v0.49, e **os dois não pedem a mesma coisa**: a Armaria é `ferramenta amaldiçoada` (arma forjada, com graus) e o Enterrado é `objeto amaldiçoado` (a maldição em forma de objeto) |
 | O **Não Sou Gente** virar Passiva paga com espaço de feitiço | a decisão está tomada, a Passiva não está escrita |
 | A **máquina de criação do Sem Técnica** | Aptidão e Estilo da Sombra |
 
 > **O alvo livre acabou, e é por isso que as vagas existem.** A enumeração de alvos legais do sistema inteiro tem sete, e o `Ferro Velho` gastou o último. Inventar oito alvos para fechar a cota seria escrever entrada para fechar contagem — que é exatamente o defeito que essa régua nasceu para achar. **Peça nova é o que cria alvo novo.**
+>
+> **E a v0.49 mediu isso pela primeira vez com uma peça pronta na mão: Equipamento fechou e produziu UM alvo legal.** A trava do Desliga proíbe encostar no que tem preço, e a peça 14 **precificou quase tudo que nomeou** — propriedade, restrição, teto de Destreza, treino. Sobrou o **requisito de Força**, que ninguém compra — e ele vale `1,0` de dado, e vale zero para quem já tem Força 3. *A régua funcionando como desenhada, numa direção que ninguém previu: peça nova cria alvo novo, mas peça bem precificada cria pouquíssimo.*
 
 ### E um padrão que vale saber antes de começar
 
@@ -577,7 +581,7 @@ O motivo é o pilar 1, e está escrito na peça 5: *"se o Caminho desse dano, do
 
 | peça | por que só depois |
 |---|---|
-| **Técnica Marcial** | está **bloqueada por equipamento** — a Maki e o Toji ferem maldição só com ferramenta amaldiçoada, e o preço dela não existe |
+| **Técnica Marcial** | ~~bloqueada por equipamento~~ — **destravada na v0.48**, e é a peça que a vaga de Desliga do Corpo Amaldiçoado espera. *O que ela ainda precisa é de ferramenta amaldiçoada para a Maki e o Toji ferirem maldição* |
 | **Estilo da Sombra** | está **bloqueado pelas aptidões** — a rota da Shoko é literalmente "o poder vem de aptidão" |
 
 As duas são economias de poder novas, e construir a quarta e a quinta antes de a segunda ter teto escrito é o erro que o esqueleto já avisou.
@@ -586,6 +590,8 @@ As duas são economias de poder novas, e construir a quarta e a quinta antes de 
 
 | peça | o que ela resolve |
 |---|---|
+| **Objeto amaldiçoado** | **a maldição presa em forma de objeto** — não é item imbuído de energia: *é* a coisa. Resto de feiticeiro antigo, que encarna quando um receptáculo compatível o consome. *Entrou na lista na v0.49, escondido dentro da palavra "ferramenta".* **Duas Origens inteiras são construídas em cima dele** — Receptáculo é comer um dedo, Reencarnado é ter virado um |
+| **Ferramenta amaldiçoada** | **arma forjada para canalizar energia**, com graus, que até quem não é feiticeiro consegue usar. Prometida desde a peça 5 §9 e declinada pela peça 14 §8 item 2, que a mandou para tópico próprio *"com graus e forja"*. **É o único jeito de ferir maldição sem energia própria** — a Maki e o Toji |
 | **Dano de alma, com Essência na Integridade** | já decidido, não aplicado |
 | **Pactos** | a camada mais perigosa de escrever solta |
 | **Bestiário** | sai da matemática de inimigo que o manual já tem |
