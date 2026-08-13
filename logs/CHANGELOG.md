@@ -6,6 +6,166 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.45] — 2026-08-13
+
+**A régua de preço das armas ganhou fundo, o efeito de crítico morreu, e as 52 armas têm dado e propriedades.** A pergunta *"como dar identidade a cada arma?"* foi respondida por uma metade que já estava escrita no §5 e nunca tinha sido implementada: **a arma dá acesso E RESTRIÇÃO.** Continuam **treze peças e treze validadores**; Equipamento continua em rascunho.
+
+### Achado — a `Versátil` a zero não propagou, e ela derrubou três números da v0.44
+
+*Achado rodando a régua como código antes de encostar em arma.* A `Versátil` passou a custar `0` na v0.44, e **três lugares continuaram contando ela como `1`**:
+
+| onde | dizia | é |
+|---|---|---|
+| a tabela do §5.0.1 | conta propriedade literal, 1 ponto cada | **15 divergências em 54** combinações legais, e todas as 15 têm `Versátil` dentro |
+| o `79` do CHANGELOG, na subseção `Corrigido` | espaço legal de corpo a corpo | **94** — o `79` só reproduz com a `Versátil` a 1 |
+| *"cinco das seis classes fecham exatas"* | a regressão do §5.0 | **seis de seis.** Sem exceção nenhuma |
+
+**O terceiro é o que vale mais, porque ele conserta para melhor.** A v0.44 apresentou a régua como *"cinco fecham, e a sexta estoura em 1"*; com o preço que ela mesma decidiu, a `Versátil` fecha em `2/2` e **a regressão não tem exceção.** A régua sempre foi melhor do que o documento dizia que ela era.
+
+*Varridas oito hipóteses de contagem para o `79` — dois preços da `Versátil` × quatro conjuntos de filtro — e mais três conjuntos alternativos de "as seis propriedades". Só uma reproduz, e é a régua velha.* **É o mesmo defeito da v0.44 na terceira porta: decisão registrada não é decisão aplicada.**
+
+### Achado — o efeito de crítico é uma regra que não acontece
+
+*Achado pelo Mizuki, e a conta confirmou com folga:* **"ninguém lembra do efeito de crítico na hora de aplicar."**
+
+| | |
+|---|---|
+| dispara por rodada, por personagem | 3,0% |
+| por combate, na **mesa inteira** de quatro | **0,44** |
+| um jogador vê o efeito **da arma dele** a cada | **9 combates = 2,3 missões** |
+
+**Num server de personagem persistente, cada jogador encontra a identidade da própria arma uma vez por arco.** E o custo de lembrar é **29 entradas de tabela por disparo**. Não é falha de memória: é frequência. *Um efeito preso a todo acerto dispara 11× mais.*
+
+### Achado — e a causa embaixo era pior: a régua cobrava identidade em dano
+
+| a arma que a ficção põe no teto de dado | vagas de propriedade, na régua da v0.44 |
+|---|---|
+| uma mão, **d8** — a espada comum | **0** |
+| duas mãos, **d12** — o espadão | **0** |
+
+**A arma mais icônica de cada mão era obrigada a não ter identidade nenhuma.** Ter personalidade *era* descer o dado, e na mesa ninguém desce o dado. O efeito de crítico tinha nascido para contornar isso por fora — resolvia o problema certo pelo lado que não dispara.
+
+### Decidido — a régua inverte: o dado é ENTRADA, o número de vagas é SAÍDA
+
+> **Antes:** a ficção diz as propriedades → o dado cai sozinho.
+> **Agora:** a ficção diz **o tamanho da arma** (o dado) → o **número de vagas** cai sozinho.
+
+**O fundo vai para `3` numa mão e `5` em duas, e o teto de dado não se move** — `d8` e `d12` continuam sendo o topo, e `d8 + Força 6 = 10,5` e `d12 + Força 6 = 12,5` são os mesmos números da v0.44. **O fundo comprou propriedade, não dado.** Custa `1,1%` da Rotina no nv6 e `0,3%` no nv30.
+
+Como gastar menos que o orçamento continua sendo dominância estrita, **toda arma passa a ser obrigada a encher as vagas**: identidade deixa de ser opcional e vira construção. E o formato tem sentido de ficção sozinho — **quanto menor a arma, mais coisas ela faz.**
+
+**O `+2` (fundo `4/6`) foi levantado, medido e reprovado pela própria conta:** ele deixa **16 de 16** armas com vaga vazia, e com as cinco propriedades de então ele *reduzia* o espaço de assinaturas de 55 para 51. É aritmética de combinação — com 5 propriedades, 4 vagas dão 5 conjuntos e 2 vagas dão 10.
+
+### Decidido — a restrição devolve orçamento, e a máquina já era da casa
+
+> **Uma arma pode carregar um defeito de verdade e comprar uma propriedade com ele.**
+
+**O §5 sempre disse *"a arma dá acesso e restrição"*, e só o acesso estava implementado.** A máquina de restrição-que-devolve é a do Fundamento — `Leve` devolve `teto(Classe/2)`, `Média` devolve `Classe` —, então ela não é importada: é a régua da casa uma camada abaixo.
+
+Três restrições, cada uma devolvendo **1 ponto**: **`Volumosa`** (não esconde e atrapalha em espaço apertado) · **`Embainhada`** (não se saca sozinha) · **`Comprida`** (perde no corpo a corpo colado).
+
+**Não virou resposta padrão: 3 de 41 usam (7%)** — Odachi, Nodachi e Machado de Guerra, que são as três que a ficção carrega de defeito mesmo.
+
+### Decidido — quatro propriedades novas, e o que a triagem matou
+
+| propriedade | custa | o que é | âncora |
+|---|---|---|---|
+| **`Rompe`** | 1 | vantagem contra objeto e estrutura | *"Força governa agarrar, **quebrar**"* — peça 5 §1 |
+| **`Emaranha`** | 1 | dá acesso a agarrar sem largar a arma | *"Força governa **agarrar**"* — peça 5 §1 |
+| **`Vestida`** | 1 | não ocupa a mão | o §4 já mede a mão livre, e `Selo`=`Gesto` depende dela |
+| **`Talha`** | 1 | a arma é ruim de bloquear — **−1 no `Bloquear` do alvo** | `RASCUNHO-bloqueio.md` §4 |
+
+**Duas morreram na triagem, e uma delas por sentido e não por substring.** `Quebra` saiu `DENTRO` de **Quebra Coisa**, que é Melhoria — e ali a colisão é de sentido: uma Melhoria que quebra coisa faz exatamente o que a propriedade faria. Virou `Rompe`. E `Trava` saiu `OCUPADO`, o que matou a ideia de prender a lâmina do oponente com o Sai — que morreria no mérito de qualquer jeito, porque **`desarmar` tem zero ocorrências no projeto inteiro**.
+
+*E `Enrosca` era a escolha anterior de `Emaranha`; o Mizuki trocou por remeter melhor a agarrar. `Cravo` era `Talha`, e mudou de nome **e de efeito** — ver a subseção abaixo.*
+
+### Decidido — a `Talha` bate no Bloquear e não na proteção, e isso tem uma dívida escrita
+
+*Ideia do Mizuki:* **"uma propriedade que dificulta justamente no bloqueio."**
+
+A versão anterior (`Cravo`) ignorava `1` de proteção do alvo. Bater no **`Bloquear`** é melhor por dois motivos: ele é uma rota **opcional** que o defensor escolhe, então a propriedade cria uma decisão em vez de um desconto; e ela não encosta no teto de Defesa, que é derivado de três donos e não aceita item mexendo nele.
+
+> **A dívida, e ela precisa estar escrita: `Bloquear` é regra opcional.** Numa mesa que não a use, a `Talha` **vale zero** — e a arma pagou 1 ponto por ela. Isso não quebra nada hoje porque o tópico de regras opcionais não existe, mas o validador desta peça tem de acusar se alguma arma ficar dependendo só dela.
+>
+> **E o invariante do Bloquear continua inteiro.** Ele diz que *o modificador do defensor é o mesmo nos dois lados*; a `Talha` é do **atacante**, e não muda modificador nenhum do defensor.
+
+### Adicionado — as 52 armas com dado e propriedades
+
+**41 de corpo a corpo, no fundo `3/5`, mais as 11 de tiro** — a escada do tiro é a da v0.44 (`2d10 · 2d8 · 2d6 · 1d10`) e não foi tocada.
+
+| | assinaturas | armas com gêmea |
+|---|---|---|
+| v0.44, só o preço | 14 | 35 de 41 — **85%** |
+| v0.44, preço × categoria | 25 | 25 de 41 — 61% |
+| **v0.45, a régua com fundo** | **39** | **4 de 41 — 10%** |
+
+**Zero armas estourando o orçamento e zero com vaga vazia.** E as duas gêmeas que sobraram são as certas: `Machete = Machado` e `Soqueira = Tekko` — pares que **são a mesma coisa na ficção**, e tekko é literalmente a soqueira japonesa. A régua acertou ao não separá-las.
+
+**Dominância conferida:** dentro de cada mão todas gastam o orçamento cheio, então **dado maior sempre vem com menos propriedade ou com restrição paga.** Nenhuma arma tem dado maior *e* mais propriedade que outra da mesma mão.
+
+### Registrado — Odachi e Nodachi, e o que a pesquisa NÃO validou
+
+*O Mizuki afirmou que o Odachi é complementar e o Nodachi sempre de duas mãos, e pediu a checagem.* **Três fontes especializadas dizem o contrário, com essas palavras:** *"essencialmente a mesma espada grande, com diferença só de nuance"* e *"não há distinção formal em morfologia de lâmina"* (TOUKENZA); *"documentos históricos mostram que os guerreiros japoneses usavam os dois termos de forma intercambiável"* (Swords of Northshire); *"os dois termos frequentemente se sobrepõem"* (TrueKatana). A diferença registrada é semântica — *nodachi* = espada de campo, *ōdachi* = espada grande.
+
+**Mas as três sustentam outra diferença, e ela é melhor mecanicamente:** as duas eram *"carregadas nas costas, e o samurai tinha um assistente para sacar a arma quando precisava"*. **Uma arma que não se saca sozinha** é fato do objeto e é única no catálogo — virou a `Embainhada` do Odachi.
+
+> **Os dois ficam separados, e fica escrito que isso é DECISÃO DE DESIGN e não canon.** Odachi leva `Alcance · Talha · Embainhada`; Nodachi leva `Alcance · Rompe · Volumosa`. Se alguém reler daqui a dez versões procurando a fonte histórica da distinção, ela não existe — e é por isso que esta linha está aqui.
+
+### Registrado — o levantamento externo
+
+**PF2e**, o sistema de pontos da comunidade (traits em três escalões — 1, 2 e 3 pontos; `Reach` é major lá e vale 1 aqui, e a diferença é de dono e não de erro) e o **`Finesse` como propriedade morta** (*"num personagem de Força ela é uma trait morta que come o orçamento"* — que é o preço conhecido de pôr `Fineza` na Lâmina Curta inteira). O **texto de regra** de `free-hand`, `grapple`, `razing` e `parry`, e a rejeição da `parry` por mexer em Defesa. **5e 2024**, a Weapon Mastery que **dispara em todo acerto e é limitada por classe** — o modelo que mostra que o custo do efeito mora no personagem, não na arma. E o levantamento de arma por arma: sai empunhado em par, tessen oculto **e** de arremesso, tantō de porte discreto, wakizashi de corredor de castelo, kusari-fundo como arma dissimulada, yari de 1 a 6 m contra naginata de 1,5 a 3 m.
+
+### Achado — o requisito de Força ficou órfão quando a classe saiu do preço
+
+*Achado no fim da versão, olhando a tabela do §5.3 recém-escrita.* A peça 5 §1 promete que *"armas de dado maior exigem Força mínima; quem luta com Destreza fica nas armas leves"*, e o §8 item 1 já tinha medido que **o requisito resolve acesso e não preço**, porque nenhuma classe passava de Força 3, que é o teto da criação.
+
+**Só que o requisito morava na CLASSE, e a classe morreu como preço na v0.44.** Das 41 armas do §5.3, **zero têm requisito de Força escrito.** A promessa da peça 5 §1 deixou de ter implementação, e ninguém percebeu porque nenhum validador cruza aquela frase com o catálogo.
+
+O conserto natural é reancorar no **dado**, que é o que a classe media:
+
+| gate | armas com requisito | catálogo aberto a todo mundo |
+|---|---|---|
+| Força 3 para `d10` e `d12` | 11 | 30 de 41 — 73% |
+| Força 3 só para `d12` | 6 | 35 de 41 — 85% |
+
+*Não fechado nesta versão porque é decisão do Mizuki e ela conversa com a pergunta da divisão simples/marcial, que está logo abaixo.* **É a lição nº 9 pela porta de trás: um número perdeu o dono quando o dono foi arquivado.**
+
+### Decidido — o treino de arma existe, e aqui ele não vira castigo
+
+*Decisão do Mizuki, e ela fecha a pergunta que este mesmo CHANGELOG tinha aberto duas seções acima:* **o Emanador com Força 3 não pega um espadão — a menos que a Trilha de corpo a corpo dele conceda o treino.**
+
+**A objeção dele contra a própria ideia estava certa na metade que importa:** *"todas as armas têm valores iguais, já que todas se pagam, então talvez a divisão seja inútil."* **A divisão não pode ser preço** — no PF2e ela é (`Simple +1`, `Martial +4`, `Advanced +6`), e aqui isso cobraria duas vezes.
+
+**E é por isso mesmo que ela funciona aqui.** O modo de falha do 5e é que lá a arma simples é *pior*: o conjurador não é restrito, é punido. Este projeto já rejeitou esse formato quando decidiu que a rota Sem Técnica *"não pode ser os outros menos o Fundamento"*. **Sob a régua com fundo, punir é impossível por construção:**
+
+| | uma mão (28 armas, todas `3/3`) | duas mãos (13 armas, todas `5/5`) |
+|---|---|---|
+| melhor dado do balde **simples** | `d8` — 4,5 | `d12` — 6,5 |
+| melhor dado do balde **marcial** | `d8` — 4,5 | `d12` — 6,5 |
+
+**Os dois baldes chegam ao mesmo teto.** A divisão restringe *qual* identidade, nunca *quanto* poder.
+
+**Ela mora na categoria** — treze nomes e não 52, pela mesma conta que decidiu o eixo de identidade. Testada com `Lâmina Curta · Massa · Porrete · Arremesso` no simples: **19 armas contra 22**, e os dois baldes com arma de uma e de duas mãos. *Qual categoria cai em qual balde é escolha de sabor e fica para a próxima rodada; o critério que a régua impõe é que cada balde tenha as duas economias de mão.*
+
+**E isso destrava a Trilha, que é a peça seguinte na fila.** Treino de arma **não é dado de dano** — é acesso, que está na lista do que a peça 5 §4 permite um Caminho conceder. A Trilha da Vanguarda deve de 6% a 9% da Rotina e não pode pagar em dado; **acesso a arma é moeda que ela pode gastar.**
+
+> **Os dois gates são eixos diferentes e não se substituem:** o requisito de Força separa por **atributo** e o treino separa por **Caminho**. Um Emanador de Força 6 passa no primeiro e para no segundo — que é exatamente o caso que a decisão cobre.
+
+### Em aberto
+
+- **Quais das treze categorias são simples e quais são marciais**, e como as de projétil se encaixam nas quatro categorias de treino que a peça 6 §8 nomeia.
+- **O requisito de Força, órfão** — reancorar no dado, e decidir onde o gate cai.
+- **Se o catálogo precisa da divisão simples/marcial.** A peça 6 §8 diz *"confirmado que precisa existir"* e lista `simples · marciais · de fogo · ferramentas amaldiçoadas`, com **cada Caminho concedendo as suas**. Ela não pode ser **preço** aqui (no PF2e é: Simple +1, Martial +4, Advanced +6 no orçamento), porque toda arma já fecha no mesmo fundo. Ela só pode ser **acesso** — e aí não substitui o requisito de Força, porque **uma separa por atributo e a outra por Caminho.** A pergunta que decide: *o Emanador com Força 3 pode pegar um espadão?*
+- **Os nomes dos três degraus de escudo**, e quantos são.
+- **A `Comprida` não foi usada** por arma nenhuma — o Bō virou `d10` e não precisou dela. Ou some, ou acha dono.
+- **O validador da peça**, com a busca exaustiva, as três rotas de proteção e a triagem de todo nome — incluindo a checagem de que nenhuma arma dependa só da `Talha`.
+- **Se o catálogo precisa da divisão simples/marcial**, e se ela ainda faz sentido agora que toda arma se paga.
+- **As quatro vagas de Desliga da peça 13.**
+- **As três checagens do Bloquear**, no `conferir-atributos.py`.
+- **A Cicatriz, Energia Reversa, o clash, o nome do sistema.**
+
+---
+
 ## [0.44] — 2026-08-13
 
 **A régua de preço das armas caiu e foi substituída.** *"O preço mora na classe"* virou *"o preço mora na arma, dentro de um orçamento"* — e a mudança não foi de gosto: **o catálogo já tinha deixado de obedecer à régua velha na v0.42, e ninguém tinha escrito isso.** Continuam **treze peças e treze validadores**; Equipamento continua em rascunho.

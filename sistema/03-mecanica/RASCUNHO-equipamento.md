@@ -2,7 +2,7 @@
 
 **Não é peça.** Sem número na frente de propósito: meia peça não é peça, e um arquivo com dois dígitos quebraria a contagem do `conferir-repositorio.py`. Vira a peça 14 quando fechar, junto do validador dela — que ainda não existe e por isso não é citado pelo nome aqui.
 
-*Estado na v0.44: proteção fechada, categorias fechadas, e a recarga fechada. **A régua do preço mudou** — o preço mora na arma, com orçamento, e a tabela inteira dela está no §5.0.1. Fecharam junto: a escada do tiro (`2d10` no topo), o X da `Munição` (`2 · 3 · 4`), a `Versátil` (custa zero) e o teto da `Fineza` (d6 numa mão). **Falta o dado e as propriedades de cada uma das 52, os treze efeitos de crítico, e o validador.***
+*Estado na v0.45: proteção fechada, categorias fechadas, recarga fechada, e **as 52 armas com dado e propriedades** (§5.3). A régua ganhou **fundo `3/5`** e o **dado virou entrada** — a ficção diz o tamanho da arma e o número de vagas cai da conta. **A restrição devolve orçamento** (§5.0.4), que é a metade do §5 que nunca tinha sido implementada. **O efeito de crítico da categoria morreu** (§5.1.1). **Falta o validador**, e os nomes dos degraus de escudo.*
 
 > **A pergunta que a `Fineza` abriu está respondida, e a resposta não foi nenhuma das duas que esta nota oferecia.** Ela era *"ou a régua ganha uma exceção escrita, ou as propriedades soltas viram classes próprias"* — e as duas supunham que a classe ainda era o preço. **Ela não era mais:** a escada de dados do §5.2 já tinha posto `2d8` e `3d6` dentro da mesma `Tiro leve`, e ninguém tinha escrito isso. O catálogo já praticava 9 pacotes com 8 classes.
 >
@@ -387,13 +387,18 @@ Tratando as seis classes de corpo a corpo já publicadas como **dados de uma reg
 
 *Pedido do Mizuki: **"seguir a lógica do Pathfinder — precificar o que uma arma pode ter."*** Ela sai do orçamento sem regra nova nenhuma:
 
-| propriedades | **uma mão** (orçamento 2) | **duas mãos** (orçamento 4) |
+| propriedades **pagas** | **uma mão** (fundo 3) | **duas mãos** (fundo 5) |
 |---|---|---|
-| 0 | **d8** | **d12** |
-| 1 | **d6** | **d10** |
-| 2 | **d4** | **d8** |
-| 3 | — | **d6** |
-| 4 | — | **d4** |
+| 0 | — | — |
+| 1 | **d8** | **d12** |
+| 2 | **d6** | **d10** |
+| 3 | **d4** | **d8** |
+| 4 | — | **d6** |
+| 5 | — | **d4** |
+
+> **A palavra `pagas` não é enfeite, e ela custou um achado.** Até a v0.45 esta coluna dizia só *"propriedades"* e supunha **1 ponto cada** — mas a `Versátil` foi a zero na v0.44 e a `Munição` é textura. Varridas as 54 combinações legais de corpo a corpo, a tabela discordava do orçamento em **15 delas, e todas as 15 tinham `Versátil` dentro**: a linha *"3 propriedades numa mão"* chamava de ilegal uma combinação que o orçamento aprova. **A régua nunca esteve errada; a tabela é que era um atalho que envelheceu.**
+
+> **E o `0` sumiu de propósito.** Com o fundo `3/5`, uma arma sem propriedade nenhuma gastaria menos que o orçamento — que é dominância estrita. **Toda arma é obrigada a encher as vagas**, então identidade deixou de ser opcional e virou construção.
 
 **É o mecanismo do PF2e — propriedade definidora limitando o dado —, só que aqui ele não precisa ser escrito à mão.** Lá a lista de tetos é decidida caso a caso (`Agile` d6, `Finesse` d6, `Reach` d10 e proíbe `Agile`); aqui a lista **é** o orçamento, e combinação abusiva fica ilegal por construção em vez de ser pega no teste.
 
@@ -437,6 +442,26 @@ Rodando a régua sobre as 41 armas de corpo a corpo, com as propriedades que a f
 
 O que sobra fora da conta continua sendo o buraco registrado no §4: **6% a 9% da Rotina, que a Trilha da Vanguarda deve.** O orçamento não o fecha e não deve tentar.
 
+### 5.0.4 A restrição devolve orçamento — a metade do §5 que faltava
+
+*Fechado na v0.45, e ela é a peça que resolveu a identidade.*
+
+> **A arma dá acesso e restrição.** É a frase que abre este §5 desde que ele existe, e **só o acesso tinha sido implementado.**
+
+**A máquina já é da casa, e é do Fundamento:** `Leve` devolve `teto(Classe/2)` e `Média` devolve `Classe`. Aplicada uma camada abaixo:
+
+> **Uma arma pode carregar um defeito de verdade e comprar uma propriedade com ele. Cada restrição devolve `1` ponto.**
+
+| restrição | o que é |
+|---|---|
+| `Volumosa` | não dá para esconder, e atrapalha em espaço apertado |
+| `Embainhada` | não se saca sozinha: precisa de tempo, ou de outra pessoa |
+| `Comprida` | perde no corpo a corpo colado |
+
+**Não virou resposta padrão, e a conta diz de quanto:** **3 das 41** usam (7%) — Odachi, Nodachi e Machado de Guerra, que são as três que a ficção já carregava de defeito. *A `Comprida` não achou dono nesta passada: o Bō virou `d10` e não precisou dela. Ou ela some, ou espera uma arma que a peça.*
+
+**O limite é 1 restrição por arma.** O Fundamento aceita duas porque lá o orçamento é grande; aqui o orçamento inteiro de uma mão é `3`, e uma segunda restrição pagaria dois terços da arma com defeito — o que é a arma sendo definida pelo que ela não faz.
+
 ## 5.1 A categoria — o que a arma é
 
 *Entrou na v0.42.* A classe é o pacote mecânico: dado, Força mínima, propriedades. **A categoria é o que a coisa é.** Ela existe por dois motivos, e nenhum dos dois é preço.
@@ -447,7 +472,25 @@ O primeiro é que ela resolve de onde vem o dano — foi ela que destravou a arm
 >
 > **Com a classe saindo do preço no §5, esse produto deixou de existir.** Sobrou `arma × categoria`, e a arma inteira agora fecha num orçamento em vez de ser comparada par a par. **A objeção era a matriz, e a matriz mudou de forma.**
 
-### 5.1.1 A categoria ganha um efeito de crítico — e por que ele não entra no orçamento
+### 5.1.1 O efeito de crítico MORREU na v0.45 — e o motivo é frequência
+
+> **Achado do Mizuki:** *"ninguém lembra do efeito de crítico na hora de aplicar."* **A conta confirmou com folga.**
+
+| | |
+|---|---|
+| dispara por rodada, por personagem | 3,0% |
+| por combate, na **mesa inteira** de quatro | **0,44** |
+| um jogador vê o efeito **da arma dele** a cada | **9 combates = 2,3 missões** |
+
+**Num server de personagem persistente, cada jogador encontra a identidade da própria arma uma vez por arco** — e carrega 13 entradas de tabela na cabeça para isso, o que dá **29 entradas por disparo**. *Um efeito preso a todo acerto dispararia 11× mais, e é por isso que as Masteries do 5e 2024 ficam no acerto e são limitadas por classe.*
+
+**E a causa embaixo era pior:** na régua da v0.44, a arma que a ficção põe no teto de dado — `d8` numa mão, `d12` em duas — tinha **zero vagas de propriedade**. Ter identidade *era* descer o dado, e na mesa ninguém desce o dado. **O efeito de crítico tinha nascido para contornar isso por fora: resolvia o problema certo pelo lado que não dispara.**
+
+Com o fundo `3/5` do §5.0 e a restrição do §5.0.4, **as propriedades carregam a identidade sozinhas** — 39 assinaturas para 41 armas, contra as 14 que o preço sozinho dava. *A Vanguarda poder fazer coisa parecida com o que o efeito faria fica para a peça dela, e o buraco de 6% a 9% da Rotina que ela deve continua registrado no §4.*
+
+*O texto abaixo é o argumento de v0.44 e fica como registro do que foi medido, para ninguém reabrir a ideia daqui a dez versões achando que não houve conta.*
+
+### 5.1.1-a O argumento de v0.44, arquivado
 
 *Decidido na v0.44. É o eixo de identidade, e ele existe porque o eixo de preço sozinho não entrega o que o Mizuki pediu.*
 
@@ -522,6 +565,25 @@ Quem decide são os outros três eixos:
 | **`Oculta`** | **move de *não rola* para *rola* esconder a arma.** Zero número em combate |
 | **`Versátil`** | **nas duas mãos, o dado sobe um passo** — d6→d8, d8→d10, d10→d12 |
 | **`Munição`** | **recarregar custa a sua ação**, e dispara por dois gatilhos ao mesmo tempo |
+
+### As quatro propriedades novas da v0.45
+
+*Cada uma com âncora conferida no repositório, e cada nome passado na triagem.*
+
+| propriedade | custa | o que é | de onde ela pendura |
+|---|---|---|---|
+| **`Rompe`** | 1 | vantagem contra objeto e estrutura | *"Força governa agarrar, **quebrar**"* — peça 5 §1 |
+| **`Emaranha`** | 1 | dá acesso a agarrar sem largar a arma | *"Força governa **agarrar**"* — peça 5 §1 |
+| **`Vestida`** | 1 | não ocupa a mão | o §4 mede a mão livre, e `Selo`=`Gesto` depende dela |
+| **`Talha`** | 1 | a arma é ruim de bloquear: **−1 no `Bloquear` de quem se defende** | `RASCUNHO-bloqueio.md` §4 |
+
+**A `Talha` bate no `Bloquear` e não na proteção, e isso foi escolha com motivo.** *Ideia do Mizuki: "uma propriedade que dificulta justamente no bloqueio."* A versão anterior dela ignorava `1` de proteção — e proteção esbarra no teto de Defesa, que é **derivado de três donos** e não aceita item mexendo nele. O `Bloquear` é rota **opcional que o defensor escolhe**, então a propriedade cria uma decisão em vez de um desconto.
+
+> **A dívida, escrita para não sumir: `Bloquear` é regra opcional.** Numa mesa que não a use, a `Talha` **vale zero** — e a arma pagou 1 ponto por ela. **O validador desta peça tem de acusar se alguma arma ficar dependendo só da `Talha`.** Hoje nenhuma fica: as sete que a carregam levam outra propriedade ou um dado que já as separa.
+>
+> **E o invariante do Bloquear continua inteiro.** Ele diz que *o modificador do defensor é o mesmo nos dois lados*; a `Talha` é do **atacante** e não toca em modificador nenhum do defensor.
+
+**Duas morreram na triagem, e uma por sentido.** `Quebra` saiu `DENTRO` de **Quebra Coisa**, que é Melhoria — e ali a colisão não é de substring, é de sentido: uma Melhoria que quebra coisa faz exatamente o que a propriedade faria. Virou `Rompe`. E `Trava` saiu `OCUPADO`, o que matou a ideia de prender a lâmina do oponente com o Sai — que morreria no mérito de qualquer jeito, porque **`desarmar` tem zero ocorrências no projeto inteiro**, e um preço que usa termo inexistente é a lição nº 6.
 
 ### `Oculta` — ela é a camada 1 do §6, e não precisou de régua nova
 
@@ -800,6 +862,180 @@ As duas estão escritas na tabela de classes e não aparecem na lista de nomes m
 >
 > **O que isso obriga:** as duas entram no validador desta peça como `ACEITA`, com o motivo escrito — no mesmo formato que os rótulos de rascunho da peça 6 e o aviso de cabeçalho do `arquitetura.md` já usam. Aceita registrada é diferente de colisão não vista, e a diferença é justamente o registro.
 
+
+## 5.3 As 52 armas — dado e propriedades
+
+*Fechado na v0.45.* **O dado é entrada e o número de vagas é saída**, então a pergunta de cada arma foi *o que essa coisa é* e o tamanho dela. Fundo `3` numa mão e `5` em duas.
+
+| | assinaturas | armas com gêmea |
+|---|---|---|
+| v0.44, só o preço | 14 | 35 de 41 — **85%** |
+| v0.44, preço × categoria | 25 | 25 de 41 — 61% |
+| **v0.45, a régua com fundo** | **39** | **4 de 41 — 10%** |
+
+**Zero armas estourando e zero com vaga vazia.** As duas gêmeas que sobraram são `Machete = Machado` e `Soqueira = Tekko` — pares que **são a mesma coisa na ficção**, e tekko é literalmente a soqueira japonesa. A régua acertou ao não separá-las.
+
+> **Dominância, conferida:** dentro de cada mão todas gastam o orçamento cheio, então **dado maior sempre vem com menos propriedade ou com restrição paga**. Nenhuma arma tem dado maior *e* mais propriedade que outra da mesma mão.
+
+> **Odachi e Nodachi ficam separados por DECISÃO DE DESIGN, e não por canon.** Três fontes especializadas dizem que os termos são intercambiáveis e que *"não há distinção formal em morfologia de lâmina"*. O que elas sustentam é o **porte nas costas com saque assistido**, e é dele que sai a `Embainhada`. *Fica escrito porque, sem isto, a próxima releitura procura uma fonte histórica que não existe.*
+
+**Lamina Curta**
+
+| arma | mão | dado | propriedades | gasta |
+|---|---|---|---|---|
+| Tanto | 1 | **d6** | `Fineza` · `Oculta` | 3/3 |
+| Punhal | 1 | **d6** | `Fineza` · `Longo Alcance` | 3/3 |
+| Canivete | 1 | **d4** | `Fineza` · `Oculta` · `Rompe` | 3/3 |
+| Faca | 1 | **d6** | `Fineza` · `Rompe` | 3/3 |
+| Sai | 1 | **d6** | `Fineza` · `Par` | 3/3 |
+
+**Lamina Longa**
+
+| arma | mão | dado | propriedades | gasta |
+|---|---|---|---|---|
+| Machete | 1 | **d8** | `Rompe` | 3/3 |
+| Wakizashi | 1 | **d8** | `Oculta` | 3/3 |
+| Rapieira | 1 | **d6** | `Fineza` · `Talha` | 3/3 |
+| Katana | 1 | **d8** | `Versatil` · `Fineza` | 3/3 |
+| Espada Longa | 1 | **d8** | `Versatil` · `Rompe` | 3/3 |
+| Espadao | 2 | **d12** | `Alcance` | 5/5 |
+| Odachi | 2 | **d12** | `Alcance` · `Talha` · `Embainhada` | 5/5 |
+| Nodachi | 2 | **d12** | `Alcance` · `Rompe` · `Volumosa` | 5/5 |
+
+**Massa**
+
+| arma | mão | dado | propriedades | gasta |
+|---|---|---|---|---|
+| Maca | 1 | **d8** | `Talha` | 3/3 |
+| Marreta | 2 | **d10** | `Rompe` · `Talha` | 5/5 |
+| Kanabo | 2 | **d12** | `Talha` | 5/5 |
+| Maul | 2 | **d12** | `Rompe` | 5/5 |
+| Taco | 1 | **d8** | `Versatil` · `Oculta` | 3/3 |
+
+**Porrete**
+
+| arma | mão | dado | propriedades | gasta |
+|---|---|---|---|---|
+| Bastao | 1 | **d6** | `Versatil` · `Alcance` · `Rompe` | 3/3 |
+| Bo | 2 | **d10** | `Alcance` · `Emaranha` | 5/5 |
+| Cassetete | 1 | **d6** | `Oculta` · `Vestida` | 3/3 |
+| Tonfa | 1 | **d6** | `Par` · `Vestida` | 3/3 |
+| Nunchaku | 1 | **d6** | `Par` · `Emaranha` | 3/3 |
+
+**Manopla**
+
+| arma | mão | dado | propriedades | gasta |
+|---|---|---|---|---|
+| Soqueira | 1 | **d4** | `Vestida` · `Oculta` · `Par` | 3/3 |
+| Tekko | 1 | **d4** | `Vestida` · `Par` · `Oculta` | 3/3 |
+
+**Machado**
+
+| arma | mão | dado | propriedades | gasta |
+|---|---|---|---|---|
+| Machado | 1 | **d8** | `Rompe` | 3/3 |
+| Machado de Guerra | 2 | **d12** | `Rompe` · `Talha` · `Volumosa` | 5/5 |
+| Machadinha | 1 | **d6** | `Longo Alcance` · `Rompe` | 3/3 |
+
+**Ceifa**
+
+| arma | mão | dado | propriedades | gasta |
+|---|---|---|---|---|
+| Foice | 2 | **d10** | `Emaranha` · `Talha` | 5/5 |
+| Kama | 1 | **d6** | `Par` · `Rompe` | 3/3 |
+| Kusarigama | 2 | **d8** | `Alcance` · `Emaranha` · `Longo Alcance` | 5/5 |
+
+**Armas Longas**
+
+| arma | mão | dado | propriedades | gasta |
+|---|---|---|---|---|
+| Naginata | 2 | **d10** | `Alcance` · `Rompe` | 5/5 |
+| Yari | 2 | **d10** | `Alcance` · `Talha` | 5/5 |
+| Lanca | 1 | **d6** | `Alcance` · `Longo Alcance` | 3/3 |
+
+**Flexivel**
+
+| arma | mão | dado | propriedades | gasta |
+|---|---|---|---|---|
+| Corrente | 2 | **d8** | `Alcance` · `Emaranha` · `Rompe` | 5/5 |
+| Chicote | 1 | **d4** | `Alcance` · `Emaranha` · `Oculta` | 3/3 |
+| Manriki | 1 | **d6** | `Emaranha` · `Oculta` | 3/3 |
+
+**Arremesso**
+
+| arma | mão | dado | propriedades | gasta |
+|---|---|---|---|---|
+| Kunai | 1 | **d6** | `Longo Alcance` · `Oculta` | 3/3 |
+| Shuriken | 1 | **d4** | `Longo Alcance` · `Oculta` · `Par` | 3/3 |
+| Tessen | 1 | **d4** | `Longo Alcance` · `Oculta` · `Vestida` | 3/3 |
+| Chakram | 1 | **d4** | `Longo Alcance` · `Fineza` · `Oculta` | 3/3 |
+
+**As de tiro** — escada da v0.44, não tocada.
+
+| arma | categoria | mão | dado | atributo | propriedades |
+|---|---|---|---|---|---|
+| Hankyu | Yumi | 2 | **2d6** | Destreza | `Longo Alcance` · `Municao` |
+| Daikyu | Yumi | 2 | **2d8** | Destreza | `Longo Alcance` · `Municao` |
+| Besta de Uma Mao | Balestra | 1 | **1d10** | nenhuma | `Longo Alcance` · `Municao` |
+| Besta | Balestra | 2 | **2d8** | nenhuma | `Longo Alcance` · `Municao` |
+| Pistola | Arma de Fogo | 1 | **1d10** | nenhuma | `Longo Alcance` · `Municao` · `Oculta` |
+| Revolver | Arma de Fogo | 1 | **1d10** | nenhuma | `Longo Alcance` · `Municao` · `Oculta` |
+| Submetralhadora | Arma de Fogo | 2 | **2d6** | nenhuma | `Longo Alcance` · `Municao` |
+| Espingarda | Arma de Fogo | 2 | **2d8** | nenhuma | `Longo Alcance` · `Municao` |
+| Rifle | Arma de Fogo | 2 | **2d8** | nenhuma | `Longo Alcance` · `Municao` |
+| Rifle de Precisao | Arma de Fogo | 2 | **2d10** | nenhuma | `Longo Alcance` · `Municao` |
+| Metralhadora Pesada | Arma de Fogo | 2 | **2d10** | nenhuma | `Longo Alcance` · `Municao` · `Volumosa` |
+
+## 5.4 Treino de arma — e por que aqui ele não vira castigo
+
+*Decidido na v0.45.* **Decisão do Mizuki:** *"o Emanador e os outros Caminhos que não são marciais não devem conseguir pegar essas armas como espadão; só no caso de pegar a Trilha certa para combate corpo a corpo, que nela concederia treino nessas armas."*
+
+Isso fecha a pergunta que o §8 item 14 abria, e não é ideia nova: **a peça 6 §8 já diz *"confirmado que precisa existir"*** e lista `simples · marciais · de fogo · ferramentas amaldiçoadas`, com **cada Caminho concedendo as suas**. O que faltava era saber se a régua nova tinha tornado a divisão inútil.
+
+### A objeção era boa, e ela derruba metade da ideia
+
+> *"Todas as armas têm seus valores iguais, já que todas se pagam — então talvez fazer a divisão seja meio inútil."*
+
+**Certa na metade que importa: a divisão não pode ser preço.** No PF2e ela literalmente é — `Simple +1`, `Martial +4`, `Advanced +6` no orçamento de pontos da arma. Importar isso aqui seria cobrar duas vezes pela mesma coisa, porque toda arma já fecha em `3/5`.
+
+### E é justamente por isso que ela funciona aqui, e não funciona no 5e
+
+**O modo de falha do 5e é conhecido: lá a arma simples é *pior*.** O conjurador não é só restrito — ele é punido, fica com adaga e clava, e a lista de simples existe para ser ruim. Este projeto já rejeitou esse formato uma vez, quando decidiu que a rota Sem Técnica *"não pode ser os outros menos o Fundamento; se for só subtração, ninguém escolhe por vontade — escolhe por castigo."*
+
+**Aqui não dá para punir nem se quiser, e a conta prova:**
+
+| | uma mão (28 armas, todas `3/3`) | duas mãos (13 armas, todas `5/5`) |
+|---|---|---|
+| melhor dado do balde **simples** | `d8` — 4,5 | `d12` — 6,5 |
+| melhor dado do balde **marcial** | `d8` — 4,5 | `d12` — 6,5 |
+
+**Os dois baldes chegam ao mesmo teto**, porque toda arma gasta o orçamento cheio e dado maior sempre vem com menos propriedade ou com restrição paga. **A divisão restringe *qual* identidade, nunca *quanto* poder** — e isso é exatamente o contrário do que ela faz no sistema de onde ela veio.
+
+### A divisão mora na categoria, não na arma
+
+Mesma lógica que já decidiu o efeito de crítico: **treze nomes, não cinquenta e dois** — a mesa conhece um conjunto de treze em cerca de 23 missões, e um de 52 em 133.
+
+*Testado com `Lâmina Curta · Massa · Porrete · Arremesso` no balde simples:* **19 armas simples contra 22 marciais**, e os dois baldes com dado de uma e de duas mãos. Ninguém fica sem opção de formato.
+
+> **Qual categoria cai em qual balde é escolha do Mizuki**, e a divisão acima é só o teste que provou que a estrutura fecha. O critério que a régua impõe é um só: **cada balde precisa ter arma de uma e de duas mãos**, senão quem só tem o simples fica sem uma das duas economias de mão.
+
+### O que isso destrava — e é a razão de a Trilha vir depois desta peça
+
+**A Trilha ganha o que conceder.** O `ESTADO-ATUAL` registra desde a v0.36 que *"a especialização de arma da Vanguarda precisa que arma exista"*, e o §4 desta peça deixou registrado que a Trilha da Vanguarda **deve de 6% a 9% da Rotina** e que *"não pode ser pago em dado de dano"*.
+
+**Treino de arma não é dado de dano.** Ele é acesso — a lista do que a peça 5 §4 **permite** um Caminho conceder. Então a Trilha de corpo a corpo de um Caminho não-marcial concede o treino, e o Emanador que quiser lutar de espadão paga com a escolha de Trilha em vez de ganhar de graça.
+
+### Os dois gates são eixos diferentes, e não se substituem
+
+| gate | separa por | quem ele barra |
+|---|---|---|
+| **requisito de Força** (§8 item 13) | **atributo** | quem não investiu Força, em qualquer Caminho |
+| **treino de arma** | **Caminho** | quem não é marcial, mesmo com Força 6 |
+
+Um é sobre o corpo, o outro sobre o que você aprendeu. **Um Emanador de Força 6 passa no primeiro e para no segundo** — que é precisamente o caso que a decisão do Mizuki queria cobrir.
+
+**Em aberto, e é a próxima rodada:** quais das treze categorias são simples, quais são marciais, e como as quatro de projétil (`Yumi`, `Balestra`, `Arma de Fogo`, e `Arremesso` se ela sair do simples) se encaixam nas quatro categorias de treino que a peça 6 §8 nomeia.
+
 ---
 
 ## 6. Itens comuns
@@ -975,6 +1211,10 @@ A peça 11 escolheu o `1,5 ×` com critério escrito: *"o saldo **encolhe** em v
 9. **O validador.** Checagens que ele precisa ter: a régua do orçamento por classe; dominância **por valor total e uma vez por rota de proteção — e são TRÊS rotas, não duas** (cobrir-se · uniforme · **sem energia nenhuma**, que é a Restrição Celestial pelo ramo da Maki e não tem cobrir-se para desligar); a escada de proteção contra a peça 11; o requisito de Força contra a peça 2 — incluindo que **nenhum requisito passe do teto de criação sem que isso seja decisão escrita**; que **o teto de Defesa seja derivado dos três donos e nunca lido de uma constante**, com a busca exaustiva provando que nenhuma montagem de equipamento passa da rota livre; que a lista de situações do Traje passe na régua de três itens do §3, **inclusive a vaga aberta**, e que o Traje conceda **uma** situação e não uma por degrau;
 
    > **A dominância do escudo muda de resposta conforme a rota, e isso é novo.** O §4 provou que nenhum degrau é dominado — degrau 1 melhor em Destreza 4–6, degrau 2 em 2–3, degrau 3 em 0–1. **Aquela tabela foi rodada só na rota de cobrir-se.** Na rota do Revestimento o teto de Destreza já é 0, então o teto do escudo não custa nada e ele vira proteção pura: **o degrau 3 domina o 1 e o 2, sempre.** E `Revestimento 3 + escudo 3` dá 19 com Destreza **zero** — o melhor resultado do sistema em cinco das sete Destrezas, e empate na sexta. Isso não derruba a escada; ela continua certa na rota em que foi medida. O que muda é que a peça tem de dizer que **o degrau 3 é a resposta do Revestimento e o degrau 1 a de cobrir-se**, em vez de vender três opções para todo mundo. *É o furo que este item já previa acontecendo antes de o validador existir.* a busca exaustiva de uniforme × escudo × Destreza contra o teto de Defesa; que a frase do desligamento não cite escudo nos três documentos; **que nenhum item comum produza número** e que o teto de consumível por missão bata com as lutas de graça da peça 10; e que todo nome do catálogo, **propriedade inclusive**, passe na triagem — com `Alcance` e `Distância` entrando como `ACEITA` e não como erro.
+13. **O requisito de Força ficou órfão, e é dívida da v0.45.** A peça 5 §1 promete *"armas de dado maior exigem Força mínima"*, e o item 1 acima mediu que ele resolve **acesso e não preço** — mas o requisito morava na **classe**, e a classe saiu do preço na v0.44. **Nenhuma das 41 armas do §5.3 tem requisito escrito.** Reancorar no dado (`Força 3` para `d10` e `d12` gateia 11 armas; só para `d12`, gateia 6), e decidir junto com a divisão simples/marcial do item 14, porque as duas resolvem acesso por eixos diferentes.
+
+14. **A divisão simples/marcial, e se ela ainda faz sentido.** A peça 6 §8 diz *"confirmado que precisa existir"* e lista quatro categorias de treinamento de arma, **com cada Caminho concedendo as suas**. *Objeção do Mizuki, e ela é boa:* agora que toda arma fecha no mesmo orçamento, a divisão não pode ser **preço** — no PF2e ela é (`Simple +1`, `Martial +4`, `Advanced +6`). **Sobra ser acesso**, e aí ela não é redundante com o requisito de Força: aquele separa por **atributo** e esta por **Caminho**. A pergunta que decide é uma só: *o Emanador com Força 3 pode pegar um espadão?*
+
 10. **A lista de itens comuns.** A régua das três camadas fechou; os itens não. Quantos, quais e como se chamam é escolha de sabor, e cada um precisa passar pelo filtro *"não produz número"* e pela triagem.
 11. **A moeda.** Adiada de propósito na v0.40 — *"provavelmente vai ser com preço e fornecimento"*. A única moeda que o projeto declara hoje é **patente, contato, favor, acesso** (peça 12 §6), e ela é discricionária: dois mestres liberam coisas diferentes pelo mesmo favor. Se ela virar a moeda de item, precisa de tabela, no molde do ambiente propício.
 

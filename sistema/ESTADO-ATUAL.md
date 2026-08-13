@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 13/08/2026, na v0.44 (última peça fechada: Legados, na v0.39; **Equipamento está em andamento** — o estado dela mora em `03-mecanica/RASCUNHO-equipamento.md`, e a regra opcional do **Bloquear** em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 13/08/2026, na v0.45 (última peça fechada: Legados, na v0.39; **Equipamento está em andamento** — o estado dela mora em `03-mecanica/RASCUNHO-equipamento.md`, e a regra opcional do **Bloquear** em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.44.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **treze peças escritas** e **treze validadores**. Manual do Fundamento na **v7.8**, com a Expansão de Domínio escrita, e o catálogo de aptidões com **dez das catorze entradas fechadas**. **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas** — por seis das nove rotas de Origem, e agora sem nenhum buraco de regra que morda nessa faixa.
+**Versão v0.45.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **treze peças escritas** e **treze validadores**. Manual do Fundamento na **v7.8**, com a Expansão de Domínio escrita, e o catálogo de aptidões com **dez das catorze entradas fechadas**. **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas** — por seis das nove rotas de Origem, e agora sem nenhum buraco de regra que morda nessa faixa.
 
 ## Como retomar
 
