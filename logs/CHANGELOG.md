@@ -6,6 +6,134 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.53] — 2026-08-13
+
+**O catálogo de Invocações foi escrito entrada por entrada, e três dos quatro tipos pediram menos do que o tamanho da pergunta.** As catorze entradas da v0.51 e da v0.52 tinham saído todas dos shikigami do Megumi — que é um tipo só. Passados os outros três, o catálogo foi de **13 para 19 compráveis**, e a passada achou um buraco que estava aberto desde a v0.50: **não existia regra de distância entre dono e invocação.** Continuam **catorze peças e catorze validadores** — Invocações continua rascunho até o validador dela existir.
+
+### Achado — não existia amarra, e a Q4 tinha tornado isso urgente sem ninguém ver
+
+Varrido o rascunho inteiro e a peça 6: **zero regra de distância.** A única menção era a nota do PF2e (*"o eidolon tem que ficar a até 30 m do dono"*), marcada de propósito como *"não coisa a importar"*.
+
+**A Q4 é quem cobrou.** Com **comandar custando a ação padrão**, *"dá para comandar daqui?"* virou pergunta de toda rodada, e a resposta era julgamento do mestre — que é o formato que este projeto reprova por definição.
+
+> **A invocação fica a até 18 metros do dono. Além disso ela não pode ser comandada, e não some.**
+
+**O 18 não é número novo:** é o **alcance base de Projétil**, do manual, que a peça 3 §3 já usa como âncora do deslocamento base — *"um turno de movimento fecha metade da distância de um duelo"*. Dois turnos de movimento à frente, e zero parâmetro livre.
+
+**Os 9 m foram medidos e reprovados:** com a amarra no deslocamento base, a Matilha de cinco corpos não abre leque nenhum e o `Traço` de alcance vira compra obrigatória — **propriedade morta**, no vocabulário que Equipamento já tem para isso.
+
+**E não sumir fora da amarra é decisão.** Se sumisse, o inimigo que a empurrasse para além dos 18 m apagaria `1 × maior Classe` de PE e uma ação padrão **com um empurrão**. Parada custa a rodada; sumir custaria o recurso.
+
+### Achado — a maldição domada atravessa a máquina inteira sem pedir nada
+
+*Levantado no texto e não de memória:* **"the user can also extract the curse techniques of semi-grade 1 and above cursed spirits they absorb"** — a maldição domada carrega a técnica dela. E isso se parte em dois, com dono dos dois lados:
+
+| a técnica dela | onde cai |
+|---|---|
+| causa dano | **ilegal** — o teto de uma Rotina da peça 6 §4 |
+| não causa dano | **é exatamente o que `Traço` e `Comando` são** |
+
+O `Maximum: Uzumaki` (*"combines any number of cursed spirits into one and hits the target with a blast"*) cai na primeira linha; e *"a user can only absorb tamed cursed spirits after killing their master"* é **reconseguir**, que a Q5 já tinha mandado para tempo de campanha.
+
+**Um tipo inteiro do material passando pela máquina sem pedir entrada nova é o melhor sinal que ela já deu de que está certa.** *Não é levantamento fraco: é a régua cobrindo o caso antes de ele chegar.*
+
+### Achado — o selar do talismã nomeia uma peça que não existe, e quase virou entrada
+
+A fonte define talismã como *"paper tags with sutras written on them"*, com função principal de **selar**: *"halt the lifestream and preserve the existence of cursed objects while preventing them from doing any further damage"*.
+
+> **O alvo do selo é `objeto amaldiçoado`** — que a **v0.49** descobriu não ter peça dona nenhuma e a **v0.50** pôs em **último** na fila. Escrever a entrada agora é a **vaga de Desliga nomeando a peça errada**, que é o defeito que aquelas duas versões inteiras foram gastas para achar. *Fica marcado com o nome certo em vez de escrito com o alvo errado.*
+
+O que sobrou do talismã é o eixo dos shikigami que **não** são do Megumi — o rato e o pássaro do Dhruv, o Kogane, o Marmalade Boy do Masaki. Todos batedores, e todos **informando o dono**. O `Faro` rastreia e **nada dizia que o dono recebia alguma coisa disso**.
+
+### Decidido — o núcleo do Panda não existe
+
+*Decisão do Mizuki.* O Panda *"has three cores. He can shift the cores in battle"*, e trocar de configuração no meio da luta **não cabe em 1 nem em 2 pontos: ele dobra a montagem inteira.**
+
+| saída | por que não |
+|---|---|
+| degrau de **3 pontos** | o orçamento do nível 2 é 2 — ele nasce inalcançável até o nível 6, e é degrau com **um morador só**. É escrever entrada para fechar contagem, que é o defeito que a régua de Legados nasceu para achar |
+| **concessão de Trilha** | empurra a decisão para a peça de Trilhas, que ainda não existe |
+
+**Corpo amaldiçoado fica sendo fórmula de vida própria e sabor**, como os outros três tipos.
+
+### Decidido — e uma terceira coisa que a criação não compra: agir sozinha
+
+*"Programmed with predetermined commands or act autonomously"* é o que a fonte diz do corpo amaldiçoado. **Aqui isso é ilegal, e o motivo é a Q4 inteira.**
+
+Agir sem o dono gastar a ação padrão **é** a exceção do `Coro`. A Q4 comprou o teto de uma Rotina justamente porque ele passou a **cair da economia de ação** em vez de ser decreto. Virar ponto de orçamento devolve o teto para o decreto — *desfazendo, por 2 pontos, o que uma pergunta inteira foi gasta para conseguir de graça.*
+
+### Adicionado — seis entradas, e cada uma com o degrau derivado da régua
+
+| camada | pts | entrada | de onde veio |
+|---|---|---|---|
+| `Traço` | 1 | **`Vigia`** — o que ela vê e ouve, você vê e ouve | Kogane · os shikigami de rato e pássaro do Dhruv |
+| `Traço` | 1 | **`Fala`** — ela fala, e dá para conversar com ela | Kogane · Marmalade Boy · Panda |
+| `Traço` | 2 | **`Graúdo`** — ocupa espaço maior e barra passagem | Elefante Máximo · peça 6 §4 |
+| `Traço` | 2 | **`Remoto`** — funciona além dos 18 m | Ultimate Mechamaru |
+| `Comando` | 1 | **`Cavar`** — abre buraco, desenterra, revira o terreno | Serpente · Elefante Máximo |
+| `Comando` | 2 | **`Chamariz`** — o alvo tem de vir para cima dela | Coelho de Fuga |
+
+**O `Graúdo` é o caso que testa a régua nos dois sentidos.** Ocupar espaço está escrito no degrau de **1** (*"que espaço ocupa"*), e é por isso que o `Miúdo` custa 1: passar por um vão só acontece com ela. **Barrar passagem é o inimigo perdendo movimento** — encosta em outra criatura, degrau de 2. *É a linha `Escalada` contra `Voo`, medida no outro eixo.*
+
+**E o `Chamariz` é a única entrada que existe porque um shikigami do material não fechava sem ela.** A peça 6 §4 vende o produto do invocador como *"corpos que absorvem ataque, flanqueiam e bloqueiam caminho"*, e o Coelho de Fuga é *"muitos corpos que **distraem** para o dono fugir"*. **Absorver e bloquear tinham entrada; distrair não tinha nenhuma.**
+
+### Registrado — um nome morreu por sentido depois de sair LIVRE na triagem
+
+O `Chamariz` ia se chamar **`Provocar`**. Ele **sai LIVRE** no `conferir-nomes.py` — e `Provocar` é **perícia de Essência**, na peça 7. Um `Comando` com nome de perícia manda a mesa procurar uma rolagem que não existe.
+
+*É a colisão de sentido que a triagem não pega, avisada na skill e confirmada aqui pela enésima vez.* **E ela pegou uma segunda:** um `Traço` de corpo duro — *"ela aguenta mais porque é objeto, não carne"* — **compra Defesa com ponto, e Defesa já é a moeda do deslocamento do §3.6.** Dois preços para a mesma coisa, que é a lição nº 2 na forma exata em que ela reincide aqui.
+
+### Medido — o que o catálogo maior comprou, e o que ele não comprou
+
+Enumeradas todas as montagens que gastam o orçamento **exato** (sobrar ponto é dominância estrita, mesmo argumento do fundo de Equipamento §5.0):
+
+| | montagens cheias no nv30 | entradas na maior | % do catálogo consumido |
+|---|---|---|---|
+| **13 entradas — antes** | 1.126 | 8 | **62%** |
+| **19 entradas — agora** | **21.502** | 9 | **47%** |
+
+**Zero montagens dominadas, e as 21.502 têm assinatura distinta.** *A comparação certa é Equipamento, que fechou com 39 assinaturas para 41 armas.*
+
+**E uma coisa que a conta respondeu sozinha, sem pergunta:** vender deslocamento **não precisa de piso**. Mesmo a **−5 de Defesa**, o pool da Matilha ainda põe **20% a 27%** da vida da mesa em campo, contra os **6% a 9%** da Rotina que a peça 14 §4 diz que uma Trilha inteira vale. Ela se limita sozinha no valor.
+
+### Corrigido — o mesmo erro da v0.51, pego pelo hábito que aquela versão criou
+
+**Eu escrevi `1.126 montagens` e `42% do catálogo` na lista do validador — os números de 13 entradas, por cima do catálogo de 19.** São **21.502** e **47%**.
+
+*É exatamente a família das cinco correções da v0.51 — resumo em prosa por cima de tabela que o script já tinha impresso.* **A diferença é que desta vez ela não chegou ao arquivo fechado:** rodei o script antes de fechar em vez de depois, que é a única coisa que aquela versão pediu.
+
+### Corrigido — "as treze checagens" eram vinte e três, e dois documentos repetiam
+
+*Achado indo contar antes de citar.* O §5 do rascunho **nunca teve treze checagens** — ele fechou a v0.51 com **vinte e três**, e o número `treze` está escrito na entrada daquela versão e no `ESTADO-ATUAL`.
+
+| onde | dizia | é |
+|---|---|---|
+| `CHANGELOG`, v0.51, em aberto | *"as treze checagens que o §5 lista"* | **23** |
+| `ESTADO-ATUAL`, "o que separa o rascunho da peça 15" | a mesma frase | **23** |
+
+**O `ESTADO-ATUAL` foi corrigido; a entrada da v0.51 fica como está** — a v0.50 já escreveu por que não se reescreve histórico de CHANGELOG, e o mesmo argumento vale aqui.
+
+> **E o modo de falha tem nome de casa.** O `treze` não saiu de contar errado: **saiu de arrastar o número de peças e validadores para dentro de uma frase que falava de outra coisa.** Treze era a contagem do repositório à época — e ela virou catorze na v0.48 sem que esta frase se movesse. *Lição nº 9 numa forma que nenhum validador alcança: não é uma cópia divergindo do dono, é um número **emprestado do vizinho** e depois abandonado por ele.*
+
+### Registrado — o levantamento externo
+
+Lido em vez de lembrado: **Cursed Corpse** (*"a nonliving object that has been endowed with a curse, allowing it to gain self-control"*, núcleos como coração, Panda com três, *"programmed with predetermined commands or act autonomously"*); **Cursed Spirit Manipulation** (*"extract the curse techniques of semi-grade 1 and above"*, `Maximum: Uzumaki`, *"only absorb tamed cursed spirits after killing their master"*); **Talisman** (*"paper tags with sutras"*, selar como função principal, *"can serve as an intermediary to conjure shikigami"*); e a lista de **Shikigami** fora do Dez Sombras — Kogane, o rato e o pássaro do Dhruv, o Marmalade Boy do Masaki, o Garuda da Yuki, os peixes do Dagon, o Moon Dregs do Junpei.
+
+**O Moon Dregs foi levantado e não virou entrada:** veneno é condição, e a peça de **dano e condições** não existe. *Mesma trava do selar, e as duas ficam marcadas com o nome da peça dona em vez de escritas na base do jeito.*
+
+### Em aberto
+
+- **Rika e Mahoraga**, que agem fora do controle do portador e não são ponto de orçamento.
+- **A fórmula de vida com número por tipo.** Os quatro tipos existem, a fórmula tem o termo, **e o termo está vazio.** *Uma fórmula com termo vazio é pior que uma faltando: ela parece pronta.*
+- **Reconseguir a invocação morta** — tempo de campanha, da peça de Trilhas ou da passada de material.
+- **O validador dono da peça**, agora com **vinte e oito** checagens listadas no §5 do rascunho — as vinte e três de antes, mais a amarra, a contagem do catálogo, a busca exaustiva com número esperado, o piso da venda e a trava de não comprar deslocamento com entrada.
+- **O que o `Remoto` alcança.** *Furo meu, marcado na revisão cética:* escrevi a entrada como *"funciona além dos 18 m"* e não pus número no **além**. A conta não decide — ele não compra dano —, e as duas saídas estão medidas no §3.6.
+- **O selar do talismã** (espera `objeto amaldiçoado`) e **o veneno** (espera dano e condições).
+- **A Q6**, que é da peça de Trilhas e já tem metade da resposta.
+- As mesmas de sempre: as vagas de Desliga, a Cicatriz, Energia Reversa, o clash, o nome do sistema.
+
+---
+
 ## [0.52] — 2026-08-13
 
 **O jogador passa a poder criar `Traço` e `Comando`, e a régua para isso já estava escrita em duas peças.** Adendo à v0.51, fechado logo depois dela: nenhum número mudou, e o que entrou foi o critério que permite pôr no catálogo uma coisa que não está nele. Continuam **catorze peças e catorze validadores**.

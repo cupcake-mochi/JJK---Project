@@ -2,7 +2,7 @@
 
 **Isto é o planejamento da peça, não a peça.** Levantamento engatilhado: o que já está travado, o que a pesquisa externa achou, e as perguntas na ordem em que uma trava a outra. Sem número no nome de propósito — meia peça não é peça, e um arquivo com dois dígitos na frente quebraria a contagem de catorze por catorze.
 
-Escrito na **v0.50**, quando a fila foi reordenada. **A Q1, a Q2, a Q3, a Q4 e a Q5 fecharam depois**, e o argumento inteiro está no §3.1 ao §3.6. Ele vira a peça 15 quando fechar — e só aí ganha número no nome, junto com o validador dono dela e com a contagem subindo nos três documentos ao mesmo tempo.
+Escrito na **v0.50**, quando a fila foi reordenada. **A Q1, a Q2, a Q3, a Q4 e a Q5 fecharam depois**, e o argumento inteiro está no §3.1 ao §3.6. **Na v0.53 o catálogo foi escrito entrada por entrada e a amarra ganhou número** — o catálogo está no §3.7 e a amarra no §3.6. Ele vira a peça 15 quando fechar — e só aí ganha número no nome, junto com o validador dono dela e com a contagem subindo nos três documentos ao mesmo tempo.
 
 ---
 
@@ -76,7 +76,7 @@ Cinco corpos ficam — *decisão do Mizuki, ancorada na obra:* **"no próprio an
 
 O argumento está no §3.2.
 
-**Q3 — FECHADA NO PRINCÍPIO, ABERTA NO NÚMERO.**
+**Q3 — FECHADA.**
 
 > **Linha que encara dado** = a parte que **cresce**, vinda do dono, **mais um deslocamento fixo** vindo da ficha da invocação.
 > **Linha fora de dado** = fórmula própria no molde da do Caminho, **com o atributo dela dentro**.
@@ -85,8 +85,10 @@ O argumento está no §3.2.
 > **A ficha tem duas camadas:** `Traço`, que é o que a invocação **é** — voa, carrega, rastreia —, e `Comando`, que é o que ela **faz** quando o dono gasta a ação padrão nela.
 > **Ela começa no número do dono e só pode descer.** Deslocamento positivo é proibido; descer devolve ponto.
 > **O orçamento é `2` no nível 2 e sobe `+1` por marco, até `9` no 30.**
+> **A amarra são 18 metros.** Além disso a invocação não pode ser comandada — e não some.
+> **O catálogo tem 19 entradas compráveis**, mais o `Investir`, que custa 0 e toda invocação tem.
 
-O argumento do princípio está no §3.3 e o dos números no §3.6. **O que continua aberto é o catálogo de `Traço` e `Comando` escrito entrada por entrada** — isso é passada de conteúdo, não de conta.
+O argumento do princípio está no §3.3, o dos números no §3.6 e o do catálogo no §3.7.
 
 **Q4 — FECHADA.**
 
@@ -593,6 +595,29 @@ Com a vida em pool (Q2) e `h` em meia Rotina (Q3), **um efeito de área que caus
 
 **Isso fecha três coisas de uma vez.** A frase do material vira regra em vez de orientação; **some a categoria de deslocamento positivo**, que era a mais difícil de precificar porque é a que empurra o acerto acima dos 50%; e o orçamento passa a comprar **só capacidade**, com a moeda extra vindo de abrir mão de número — que é a decisão que vale a pena existir.
 
+### A amarra são 18 metros, e o número não é novo
+
+*Buraco achado varrendo o arquivo, e ele estava aberto desde a v0.50: **não existia regra de distância entre o dono e a invocação em lugar nenhum.*** A única menção no rascunho inteiro era a nota do PF2e — *"o eidolon tem que ficar a até 30 m do dono"* —, e ela está marcada como *"vale como confirmação de que o formato é o certo, não como coisa a importar"*.
+
+Com a Q4 fazendo **comandar custar a ação padrão**, *"de quão longe dá para comandar?"* passou a ser pergunta de mesa em toda rodada, sem resposta escrita. É exatamente o formato que o filtro multi-mestre reprova.
+
+> **A invocação tem de ficar a até 18 metros do dono.** Além disso ela **não pode ser comandada**: fica onde está, sem agir, até voltar ao alcance.
+
+**O 18 já tem dono e não é este documento:** é o **alcance base de Projétil**, do manual, e a peça 3 §3 usa ele como âncora ao explicar o deslocamento base — *"o alcance base de Projétil é 18 m, então um turno de movimento fecha metade da distância de um duelo"*. **Zero parâmetro novo**, e a conta que sai dele é legível na mesa: a invocação anda até **dois turnos de movimento** à frente do dono.
+
+*Os 9 m foram medidos e reprovados:* com o deslocamento base como amarra, a invocação vive colada no dono, a Matilha de cinco corpos não abre leque nenhum, e o `Traço` de alcance vira compra obrigatória — que é o defeito que a régua de Equipamento chama de **propriedade morta**, uma vaga que toda montagem gasta do mesmo jeito.
+
+**E o que acontece fora da amarra é escolha de desenho, não descuido.** Ela não some. Se sumisse, o inimigo que a empurrasse para além dos 18 m estaria **apagando o preço de invocar de graça** — `1 × maior Classe` de PE e uma ação padrão, com um empurrão. Ficar parada custa a rodada e devolve o corpo; sumir custaria o recurso inteiro.
+
+> **O que o `Remoto` alcança está EM ABERTO, e o furo é meu.** Eu escrevi a entrada como *"funciona além dos 18 m"* e não pus número no *além*. **As duas saídas não se decidem por conta** — o `Remoto` não compra dano nenhum, então não há dominância para medir; o que muda é que tipo de cena a invocação resolve sozinha:
+>
+> | saída | o que ela permite | o que ela custa |
+> |---|---|---|
+> | **sem limite** | é o Ultimate Mechamaru literal — o dono num lugar, o corpo no outro | um `Remoto` + `Vigia`, **3 pontos e alcançável no nv10**, resolve reconhecimento de mapa inteiro sem ninguém sair de casa |
+> | **um degrau maior, escrito** | mantém a cena com todo mundo dentro dela | precisa de um número, e todo número aqui até agora saiu de um dono que já existia — **este não tem** |
+>
+> *Fica marcado assim, com o buraco do tamanho certo, em vez de fechado no número que eu escolheria.*
+
 ### O orçamento cresce, e crescer não deriva
 
 *Decisão do Mizuki, contra a primeira leitura da conta — e a conta estava certa e incompleta.* Eu tinha registrado que *"o orçamento pode ser plano"*. **Ele pode; ele não precisa ser.** O que a trava proíbe é **magnitude em disputa**, e o que o orçamento compra é **largura**: três `Traço` não inflam o acerto, e o teto de uma Rotina já segura a saída. **É a mesma porta que a peça 11 §2 abre para o refino** — *escopo e frequência são eixos permitidos*.
@@ -642,9 +667,11 @@ E a cadência já existe: **os sete marcos**, que governam atributo, refino e fe
 
 **O Mahoraga não é capacidade nenhuma.** Ele e a **Rika** são a exceção escrita na obra — os dois agem fora do controle do portador —, e isso é **regra própria, não ponto de orçamento**. Fica marcado aqui e precisa de tratamento antes de a peça fechar.
 
-### O que a Q3 ainda deve
+### O que a Q3 devia, e o que sobrou
 
-**O catálogo de `Traço` e de `Comando`, escrito entrada por entrada**, no molde do da peça 11 — e com a triagem rodada em cada nome que ele criar. *Isso é passada de conteúdo: a máquina fechou, falta povoar.* **E a peça 11 é o aviso de tamanho:** ela tem dez entradas compráveis e custou uma versão inteira.
+**O catálogo está escrito entrada por entrada no §3.7 — 19 compráveis, mais o `Investir` a 0.** Cresceu de 13 para 19 na passada dos três tipos que faltavam, com a triagem rodada em cada nome novo. *A peça 11 era o aviso de tamanho — dez entradas compráveis e uma versão inteira —, e este catálogo tem quase o dobro delas.*
+
+**O que sobra da Q3 é a fórmula de vida com número por tipo.** Ela fechou como `base do tipo + (por nível do tipo + a Constituição dela) × nível do dono`, os quatro tipos existem, e **nenhum dos dois termos por tipo tem valor escrito.** *Fica marcado aqui porque decisão registrada não é decisão aplicada, e uma fórmula com um termo vazio é pior que uma fórmula faltando: ela parece pronta.*
 
 ## 3.7 O catálogo — e ele achou um buraco entre o orçamento e a Trilha
 
@@ -660,13 +687,19 @@ E a cadência já existe: **os sete marcos**, que governam atributo, refino e fe
 | **1** | `Escalada` | sobe parede e teto sem teste | — |
 | **1** | `Nado` | move na água sem penalidade | — |
 | **1** | `Miúdo` | ocupa espaço menor e passa por vão | Coelho de Fuga |
+| **1** | `Vigia` | o que ela vê e ouve, **você** vê e ouve | Kogane · os shikigami de rato e de pássaro do Dhruv |
+| **1** | `Fala` | ela fala, e dá para conversar com ela | Kogane · o Marmalade Boy · o Panda |
 | **2** | `Voo` | voa | Nue |
 | **2** | `Montaria` | carrega uma pessoa | Nue |
 | **2** | `Fisgada` | prende à distância | Sapo |
 | **2** | `Emboscada` | surge do chão, fora do alcance de ver | Serpente |
 | **2** | `Jorro` | empurra em linha ou em área | Elefante Máximo |
+| **2** | `Graúdo` | ocupa espaço maior e **barra passagem** | Elefante Máximo · a peça 6 §4 |
+| **2** | `Remoto` | funciona além dos 18 m da amarra | Ultimate Mechamaru |
 
-*A escada é a do PF1e no formato e não no valor: movimento no chão custa 1, **voar custa 2**. E as nove entradas caem todas dentro da lista que a peça 5 §4 autoriza — posicionamento, alvo, duração, recuperação. **Nenhuma toca dado de dano**, e não pode mesmo: o teto de uma Rotina já governa a saída.*
+*A escada é a do PF1e no formato e não no valor: movimento no chão custa 1, **voar custa 2**. E as treze entradas caem todas dentro da lista que a peça 5 §4 autoriza — posicionamento, alvo, duração, recuperação. **Nenhuma toca dado de dano**, e não pode mesmo: o teto de uma Rotina já governa a saída.*
+
+> **O `Graúdo` é o par do `Miúdo`, e o degrau diferente não é tamanho — é quem sofre.** Ocupar espaço está escrito no critério de **1 ponto** (*"que espaço ocupa"*), e é por isso que o `Miúdo` custa 1: ela passa por um vão, e isso não acontece com mais ninguém. **O `Graúdo` barra passagem**, e barrar é o inimigo perdendo movimento — encosta em outra criatura, degrau de 2. *É a mesma linha que separa `Escalada` de `Voo`, medida no outro eixo.*
 
 ### `Comando` — o que ela faz quando o dono gasta a ação padrão nela
 
@@ -676,9 +709,15 @@ E a cadência já existe: **os sete marcos**, que governam atributo, refino e fe
 | **1** | `Agarrar` | prende o alvo |
 | **1** | `Arrastar` | move o alvo, ou se move levando ele |
 | **1** | `Buscar` | pega um objeto, ou rastreia de forma ativa |
+| **1** | `Cavar` | abre buraco, desenterra, revira o terreno |
 | **2** | `Interpor` | se põe entre o dono e o golpe |
+| **2** | `Chamariz` | o alvo tem de vir para cima dela | Coelho de Fuga |
 
-*`Golpe` não pôde ser usado por estar dentro de `Golpe canalizado`; `Investir` saiu LIVRE.*
+*`Golpe` não pôde ser usado por estar dentro de `Golpe canalizado`; `Investir` saiu LIVRE. O `Cavar` não é o `Emboscada`: um faz buraco no chão, o outro é ela **saindo** dele, e os dois funcionam sozinhos.*
+
+> **O `Chamariz` é a única entrada que existe porque um shikigami do material não fechava sem ela.** A peça 6 §4 descreve o produto do invocador como *"corpos que absorvem ataque, flanqueiam e bloqueiam caminho"* — e o Coelho de Fuga é *"muitos corpos que **distraem** para o dono fugir"*. Absorver e bloquear já tinham entrada; **distrair não tinha nenhuma.** Ele é **negar a ação de outro**, que é o degrau de 2 escrito.
+>
+> *E ele não pôde se chamar `Provocar`: o nome sai LIVRE na triagem e **colide em sentido** — `Provocar` é perícia de Essência (peça 7), e um `Comando` com o nome de uma perícia faz a mesa procurar uma rolagem que não existe. É o tipo de colisão que o `conferir-nomes.py` não pega.*
 
 ### Criar o seu — e a régua já estava implícita nas quatorze entradas
 
@@ -690,14 +729,14 @@ E a cadência já existe: **os sete marcos**, que governam atributo, refino e fe
 
 | pontos | `Traço` — o que separa um degrau do outro |
 |---|---|
-| **1** | **só mexe na própria invocação:** como ela anda, o que ela percebe, que espaço ocupa. `Escalada`, `Nado`, `Faro`, `Miúdo` |
-| **2** | **encosta em outra criatura ou no tabuleiro:** carrega, prende, empurra, alcança além do alcance, aparece onde não dava. `Voo`, `Montaria`, `Fisgada`, `Emboscada`, `Jorro` |
+| **1** | **só mexe na própria invocação:** como ela anda, o que ela percebe, o que ela comunica, que espaço ocupa. `Escalada`, `Nado`, `Faro`, `Miúdo`, `Vigia`, `Fala` |
+| **2** | **encosta em outra criatura ou no tabuleiro:** carrega, prende, empurra, barra, alcança além do alcance, aparece onde não dava. `Voo`, `Montaria`, `Fisgada`, `Emboscada`, `Jorro`, `Graúdo`, `Remoto` |
 
 | pontos | `Comando` — o que separa um degrau do outro |
 |---|---|
 | **0** | **o ataque.** `Investir`, que toda invocação tem |
-| **1** | **faz uma coisa com um alvo ou um objeto.** `Agarrar`, `Arrastar`, `Buscar` |
-| **2** | **protege o dono, ou nega a ação de outro.** `Interpor` |
+| **1** | **faz uma coisa com um alvo ou um objeto.** `Agarrar`, `Arrastar`, `Buscar`, `Cavar` |
+| **2** | **protege o dono, ou nega a ação de outro.** `Interpor`, `Chamariz` |
 
 *O `Voo` é o caso que mostra que a régua funciona: andar é 1 ponto, e voar é 2 — não porque voar seja "melhor", mas porque ele deixa de ser uma coisa que a invocação faz consigo mesma e passa a ser uma que ignora o tabuleiro inteiro. **É a mesma linha que separa `Escalada` de `Voo` no PF1e**, por outro caminho.*
 
@@ -710,6 +749,37 @@ E a cadência já existe: **os sete marcos**, que governam atributo, refino e fe
 | **dado de dano** | o teto de uma Rotina já governa a saída. Um `Traço` que dá `+1d6` não custa 3 pontos: ele não existe | peça 6 §4 |
 | **qualquer coisa que cresça com refino** | refino cresce `+7` a `+9` contra `+3`, e isso é 70% de acerto no nível 30 | peça 11 §2 |
 | **deslocamento positivo** | a invocação não passa do portador | §3.6 |
+
+### Os outros três tipos, e o que eles pediram de verdade
+
+*As catorze entradas da primeira passada saíram todas dos shikigami do Megumi, que é o tipo **técnica**. Faltava perguntar o que os outros três pedem — e a resposta foi bem menor do que o tamanho da pergunta.*
+
+**A maldição domada não pede entrada nenhuma, e isso não é falha de levantamento.** O texto da fonte é *"the user can also extract the curse techniques of semi-grade 1 and above cursed spirits they absorb"* — a maldição domada **carrega a técnica dela**. Só que aqui isso se parte em dois, e os dois já têm dono:
+
+| a técnica dela | onde ela cai |
+|---|---|
+| causa dano | **ilegal.** O teto de uma Rotina da peça 6 §4 governa a saída, e um `Traço` de dano não é caro, é inexistente |
+| não causa dano | **é exatamente o que `Traço` e `Comando` são** |
+
+O `Maximum: Uzumaki` — *"combines any number of cursed spirits in the user's possession into one and hits the target with a blast"* — cai na primeira linha. E *"a user can only absorb tamed cursed spirits after killing their master"* é **reconseguir**, que a Q5 já mandou para tempo de campanha. *Um tipo inteiro do material atravessando a máquina sem pedir nada é o melhor sinal de que a máquina está certa.*
+
+**O talismã pede uma entrada e tem outra travada.** A fonte define talismã como *"paper tags with sutras written on them"*, cuja função principal é **selar** — *"halt the lifestream and preserve the existence of cursed objects while preventing them from doing any further damage"* — e que *"can serve as an intermediary to conjure shikigami"*.
+
+> **Selar não dá para escrever agora, e o motivo tem nome.** O alvo do selo é `objeto amaldiçoado`, que a **v0.49** descobriu não ter peça dona nenhuma e a **v0.50** pôs em **último** na fila. Uma entrada de catálogo apontando para lá é a vaga de Desliga nomeando a peça errada, que é o defeito que aquelas duas versões gastaram inteiras para achar. *Fica marcado com o nome certo em vez de escrito com o alvo errado.*
+
+O que sobra do talismã é o eixo dos shikigami que **não** são do Megumi — o rato e o pássaro do Dhruv, o Kogane, o Marmalade Boy do Masaki. Todos batedores, e todos **informando o dono**. O `Faro` rastreia, mas nada em lugar nenhum dizia que o dono recebe alguma coisa disso. **É o `Vigia`**, e junto com ele veio o `Fala`, que é o mesmo eixo um passo adiante.
+
+**E o corpo amaldiçoado trouxe três coisas, das quais só uma virou entrada.** A fonte o define como *"a nonliving object that has been endowed with a curse, allowing it to gain self-control"*, com núcleos fazendo as vezes de coração.
+
+| o que o tipo pede | veredito |
+|---|---|
+| *"programmed with predetermined commands or act autonomously"* | **ilegal.** Agir sem o dono gastar a ação padrão **é** a exceção do `Coro`, e a Q4 comprou o teto de uma Rotina justamente porque ele cai da economia de ação. Virar ponto de orçamento devolve o teto para o decreto — e a Q4 inteira foi paga para tirá-lo de lá |
+| o Ultimate Mechamaru operado de longe | **entrada**, mas só depois de existir amarra. Virou o `Remoto`, e a amarra está no §3.6 |
+| o Panda, *"has three cores. He can shift the cores in battle"* | **não existe.** *Decisão do Mizuki* |
+
+> **Por que o núcleo do Panda ficou de fora, escrito para não voltar.** Trocar de configuração no meio da luta não cabe em 1 nem em 2 pontos, porque ele não compra capacidade: **ele dobra a montagem inteira.** As saídas medidas eram um degrau de 3 pontos — que nasceria inalcançável até o nível 6, porque o orçamento do nível 2 é 2, e é degrau com um morador só — ou concessão de Trilha, que empurraria a decisão para uma peça que ainda não existe. **Corpo amaldiçoado fica sendo fórmula de vida própria e sabor, como os outros três.**
+
+E uma que eu quase escrevi: um `Traço` de corpo duro, tipo *"ela aguenta mais porque é objeto e não carne"*. **Ele compra Defesa com ponto, e Defesa já é a moeda do deslocamento** — dois preços para a mesma coisa, que é a lição nº 2 na forma exata em que ela costuma aparecer aqui.
 
 ### Quanto isso custa no filtro multi-mestre, medido
 
@@ -783,6 +853,11 @@ Anotado agora porque é mais barato do que descobrir depois — e porque a peça
 - **A cota por corpo lida da peça 6 §4, nunca de constante** — `1/n` com `n` = corpos no campo, o dono contando como um deles. Perturbar o `5` da peça 6 tem de acender aqui.
 - **O ganho de crítico da Matilha**, que com cinco d20 é `22,6%` de chance e `5%` de Rotina em ganho médio. Se algum dia a forma virar pacote único, esse número salta para 23% e o validador tem de acusar.
 - **A invariante da Q1: nada pode dar à invocação um número de iniciativa separado do dono.** Uma Trilha, uma aptidão ou um Legado que conceda isso reabre os 97,6% da tabela do §3.1 inteira. **É invariante de texto e não de número**, no molde do que Equipamento faz com o teto de Defesa: a peça é dona da regra, e o validador confere que ninguém a fura.
+- **A amarra lida do dono do número, nunca de constante.** Os 18 m são o alcance base de Projétil, do manual; o `conferir-manual.py` já sabe cruzar número do manual com o projeto. **Perturbar o alcance de Projétil tem de fazer a amarra andar junto** — a lição nº 8, no eixo em que ela mais reincidiu aqui.
+- **Nenhuma entrada do catálogo pode comprar linha que já é deslocamento.** Defesa, acerto e vida são a moeda do §3.6; um `Traço` que dê qualquer um dos três é preço duplo pela mesma coisa. **Perturbar uma entrada para dar `+1` de Defesa tem de acender.**
+- **A contagem do catálogo, conferida contra o que o documento afirma.** Hoje são **19 compráveis** mais o `Investir` a 0 — 13 `Traço` e 6 `Comando`. *A peça 13 já pagou por isso: as contas do rascunho dela envelheceram duas vezes dentro do próprio arquivo antes de o validador existir.* A checagem recalcula e falha se o escrito não bater com o contado.
+- **A busca exaustiva rodada por degrau de orçamento, e o número esperado escrito antes.** No nv30, com orçamento 9 e gasto exato, o catálogo entrega **21.502 montagens cheias**, todas com assinatura distinta, **zero dominadas**, e a maior delas usa **9 das 19 entradas — 47%**. *Antes da passada dos três tipos eram **1.126** montagens em 13 entradas, e a maior consumia **62%** do catálogo.* Se alguma entrada nova puxar esse consumo para cima outra vez, é sinal de que ela não acrescentou eixo, só volume.
+- **Vender deslocamento não tem piso, e isso é decisão e não esquecimento.** Medido: mesmo vendendo **−5 de Defesa**, o pool da Matilha ainda põe **20% a 27%** da vida da mesa em campo, contra os **6% a 9%** da Rotina que a peça 14 §4 diz que uma Trilha inteira vale. **Ela se limita sozinha no valor.** A checagem afirma isso em vez de supor: perturbar o câmbio do §3.3 tem de fazer o piso passar a ser necessário e acender.
 
 ## 6. O que esta peça destrava
 

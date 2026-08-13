@@ -42,7 +42,7 @@ A pasta `skills/` guarda a versão com arquivos separados. A versão instalada t
 
 ## Versão atual
 
-**v0.52.** Fases 0 a 3 fechadas; a Fase 4 (mecânica) está em andamento com **catorze peças escritas e catorze validadores passando**. O manual do Fundamento está na **v7.8**, e ele é um subsistema fechado — a técnica e o feitiço já funcionam. O `.pdf` continua na v7.4, porque é exportado à mão.
+**v0.53.** Fases 0 a 3 fechadas; a Fase 4 (mecânica) está em andamento com **catorze peças escritas e catorze validadores passando**. O manual do Fundamento está na **v7.8**, e ele é um subsistema fechado — a técnica e o feitiço já funcionam. O `.pdf` continua na v7.4, porque é exportado à mão.
 
 **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas**, por seis das nove rotas de Origem. Desde a v0.32 não sobrou peça de regra travando ninguém nessa faixa: das dezessete coisas que uma ficha de nível 2 precisa, **treze existem, e as quatro que faltam não mordem nessa faixa**. O que falta para as outras três rotas, e a ordem do resto, está no `ESTADO-ATUAL.md`.
 
@@ -63,7 +63,7 @@ Os três últimos não leem o manual e não precisam de nada: o `conferir-criaca
 
 ## A próxima peça
 
-**Invocações**, em `03-mecanica/RASCUNHO-invocacoes.md`. **Cinco das seis perguntas fecharam na v0.51, e a v0.52 abriu a criação de `Traço` e `Comando` pelo jogador.** Fecharam — iniciativa, o modelo da Matilha, a ficha, o custo e a morte. Falta o catálogo de `Traço` e `Comando`, o tratamento de Rika e Mahoraga, e o validador.
+**Invocações**, em `03-mecanica/RASCUNHO-invocacoes.md`. **Cinco das seis perguntas fecharam na v0.51, a v0.52 abriu a criação de `Traço` e `Comando` pelo jogador, e a v0.53 escreveu o catálogo** — 19 entradas compráveis, mais o `Investir` a 0. Fecharam — iniciativa, o modelo da Matilha, a ficha, o custo e a morte. **Falta** o tratamento de Rika e Mahoraga, a fórmula de vida com número por tipo, reconseguir a invocação morta, e o validador.
 
 **A fila foi reordenada na v0.50**, quando as duas peças que a v0.49 destampou ganharam posição: **Invocações → ferramenta amaldiçoada → Trilhas → objeto amaldiçoado**. Só a terceira posição contra a segunda era escolha; o resto a conta fechou. `Servo`, `Matilha` e `Coro` **são** o sistema de invocação, então Invocações trava Trilhas; e `objeto amaldiçoado` foi para o fim porque **destrava zero ficha** — Receptáculo e Reencarnado já rodam hoje.
 

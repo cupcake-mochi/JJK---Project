@@ -2,7 +2,7 @@
 
 Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.52** · manual do Fundamento na **v7.8** · **catorze peças de regra** e **catorze validadores passando**.
+**Versão v0.53** · manual do Fundamento na **v7.8** · **catorze peças de regra** e **catorze validadores passando**.
 
 ---
 
@@ -28,7 +28,7 @@ E o registro do **porquê** de cada decisão é tão importante quanto a regra: 
 **Primeiro, confirme que você abriu a pasta certa — leva dez segundos e já custou meia hora uma vez.** Existe outro clone desta mesma coisa parado na **v0.27** numa pasta `JJK---Project` dentro da home, e ele tem a cara do projeto inteiro: validadores, peças, changelog. Uma conversa já se perdeu lendo o clone velho e rodando sete validadores que passaram sem provar nada.
 
 ```bash
-head -6 README.md          # tem que dizer Versão v0.52 ou maior
+head -6 README.md          # tem que dizer Versão v0.53 ou maior
 grep -c "Nove lições" README.md
 ```
 
@@ -66,7 +66,7 @@ Depois disso, a ordem de leitura é a da próxima seção, e os validadores são
     └── skills/                          cópia de trabalho das sete skills de apoio
 ```
 
-Um arquivo `RASCUNHO-*.md` em `03-mecanica/` é levantamento engatilhado, não peça — ele não leva número justamente por isso, e o `conferir-repositorio.py` falha se algum tomar. **Hoje são três:** `RASCUNHO-bloqueio.md` (a regra opcional de rolar a defesa, fechada em desenho na v0.43), `RASCUNHO-clash-de-expansoes.md` e `RASCUNHO-invocacoes.md` (a próxima peça, com **cinco das seis perguntas fechadas**, da v0.51 à v0.52).
+Um arquivo `RASCUNHO-*.md` em `03-mecanica/` é levantamento engatilhado, não peça — ele não leva número justamente por isso, e o `conferir-repositorio.py` falha se algum tomar. **Hoje são três:** `RASCUNHO-bloqueio.md` (a regra opcional de rolar a defesa, fechada em desenho na v0.43), `RASCUNHO-clash-de-expansoes.md` e `RASCUNHO-invocacoes.md` (a próxima peça, com **cinco das seis perguntas fechadas** e o **catálogo escrito**, da v0.51 à v0.53).
 
 **`_backup/` não entra no repositório** — ele guarda o estado da pasta antes da reorganização, e o `.gitignore` o segura.
 
