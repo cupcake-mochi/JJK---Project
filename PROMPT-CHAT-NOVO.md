@@ -21,6 +21,8 @@ grep -c "Nove lições" README.md
 
 Se o `README.md` disser *"Seis lições que custaram erro"* ou *"Versão v0.27"*, **você está na pasta errada. Pare e me avise** — não tente consertar nada de lá.
 
+> **E se você tiver um Project do Claude com este repositório sincronizado, ele pode estar atrasado.** A sincronização é manual e eu esqueço dela. **Quando a busca do Project e os arquivos da pasta discordarem, a pasta vence** — ela é a fonte da verdade, e o Project é uma cópia com data. Se acontecer, me avise que eu clico em "Sync now": trabalhar com as duas ao mesmo tempo é a lição nº 9 acontecendo em cima do projeto inteiro.
+
 ## 1. LEIA, NESTA ORDEM
 
 - `README.md`, em especial **"Nove lições que custaram erro"**. Elas são a fonte única e não têm cópia em lugar nenhum.
