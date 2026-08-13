@@ -6,6 +6,68 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.52] — 2026-08-13
+
+**O jogador passa a poder criar `Traço` e `Comando`, e a régua para isso já estava escrita em duas peças.** Adendo à v0.51, fechado logo depois dela: nenhum número mudou, e o que entrou foi o critério que permite pôr no catálogo uma coisa que não está nele. Continuam **catorze peças e catorze validadores**.
+
+### Decidido — o catálogo é a régua, não a lista
+
+*Pedido do Mizuki: "faltou mencionar no `Traço` e no `Comando` a opção de criar, e aí com a tabela de catálogo o player pode se basear para criar."*
+
+**O projeto já tinha decidido isto para outro caso, e a frase está na peça 12:**
+
+> *"'O mestre decide o que é um feito' **não atravessa sete mesas**. A lista precisa ser fechada, no molde do ambiente propício: **entradas escritas, e a palavra final do mestre em cima delas — nunca do zero**."*
+
+**Então o catálogo de Invocações não é a lista do que existe: é a régua contra a qual o que não existe é medido.** E o critério não precisou ser inventado — ele sai das quatorze entradas que a v0.51 já tinha escrito:
+
+| pontos | `Traço` |
+|---|---|
+| **1** | **só mexe na própria invocação** — como ela anda, o que ela percebe, que espaço ocupa. `Escalada`, `Nado`, `Faro`, `Miúdo` |
+| **2** | **encosta em outra criatura ou no tabuleiro** — carrega, prende, empurra, alcança além do alcance, aparece onde não dava. `Voo`, `Montaria`, `Fisgada`, `Emboscada`, `Jorro` |
+
+| pontos | `Comando` |
+|---|---|
+| **0** | **o ataque.** `Investir`, que toda invocação tem |
+| **1** | **faz uma coisa com um alvo ou um objeto.** `Agarrar`, `Arrastar`, `Buscar` |
+| **2** | **protege o dono, ou nega a ação de outro.** `Interpor` |
+
+> **O `Voo` é o caso que prova a régua.** Andar custa 1 e voar custa 2 — **não porque voar seja "melhor"**, mas porque ele deixa de ser uma coisa que a invocação faz consigo mesma e passa a ser uma que ignora o tabuleiro inteiro. *É a mesma linha que separa `Climb` de `Flight` no PF1e, alcançada por outro caminho.* **Um critério que reproduz sozinho a divisão de um sistema publicado é critério, e não gosto arrumado depois.**
+
+### Decidido — três coisas que a criação não compra a preço nenhum
+
+**Elas não são caras: são ilegais**, e cada uma tem dono que já disse por quê.
+
+| não pode | por quê | dono |
+|---|---|---|
+| **dado de dano** | o teto de uma Rotina já governa a saída. Um `Traço` que dá `+1d6` não custa 3 pontos — ele não existe | peça 6 §4 |
+| **qualquer coisa que cresça com refino** | refino cresce `+7` a `+9` contra `+3`, e isso é 70% de acerto no nível 30 | peça 11 §2 |
+| **deslocamento positivo** | a invocação não passa do portador | §3.6 do rascunho |
+
+### Medido — quanto a régua economiza no filtro multi-mestre
+
+| quem precifica o que o jogador inventou | divergência possível entre dois mestres |
+|---|---|
+| o mestre, do zero | **2 pontos — 20%** do que a invocação entrega |
+| **a escada por efeito, com a palavra final em cima** | **1 ponto — 10%** |
+
+**Ela corta a divergência pela metade e a põe numa faixa com tamanho já medido** — 1 ponto vale `+10%` do que a invocação entrega, ou `+11%` de vida efetiva. *Não é zero, e não devia ser: a palavra final continua sendo do mestre. O que a régua faz é impedir que ela seja dada do nada.*
+
+### Adicionado — uma checagem que o validador da peça vai precisar
+
+**Toda entrada publicada tem de cair no degrau que a própria régua manda.** *Uma entrada que desobedece ao critério é pior que uma entrada mal precificada:* ela ensina a mesa a ignorar a régua, e aí o `Traço` inventado no meio da sessão passa a ser precificado por imitação de uma exceção.
+
+### Registrado — como isto quase virou reescrita de histórico
+
+*Vale escrever porque o método é o que sobrevive à sessão.* Eu escrevi esta decisão **dentro da entrada da v0.51**, sem saber que ela já tinha sido commitada. **O que denunciou foi o `mensagem-de-commit.txt` sumir da pasta** — o `subir.sh` usa o arquivo e apaga depois, e o `ls` não achar foi o sinal.
+
+**Não é o defeito do mount que este repositório documenta** (aquele é `open()` devolvendo ENOENT enquanto o `ls` mostra o arquivo). **Era o contrário: o arquivo não estava lá porque tinha cumprido a função dele.** A entrada da v0.51 foi restaurada e esta abriu no lugar. *Entrada de CHANGELOG é registro do que se pensou naquele dia, e a v0.50 já tinha escrito por que não se reescreve uma.*
+
+### Em aberto
+
+As mesmas da v0.51 — nenhuma foi tocada. **O catálogo escrito entrada por entrada**, **Rika e Mahoraga**, **reconseguir a invocação morta**, **o validador dono da peça**, e a **Q6**, que é da peça de Trilhas.
+
+---
+
 ## [0.51] — 2026-08-13
 
 **Cinco das seis perguntas de Invocações fecharam, e nenhuma peça nova nasceu.** O `RASCUNHO-invocacoes.md` foi de 103 para 751 linhas: iniciativa, o modelo da Matilha, a ficha, o custo e a morte. Continuam **catorze peças e catorze validadores** — ele vira a peça 15 quando o catálogo e o validador existirem.

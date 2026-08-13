@@ -680,6 +680,48 @@ E a cadência já existe: **os sete marcos**, que governam atributo, refino e fe
 
 *`Golpe` não pôde ser usado por estar dentro de `Golpe canalizado`; `Investir` saiu LIVRE.*
 
+### Criar o seu — e a régua já estava implícita nas quatorze entradas
+
+*Pedido do Mizuki: o jogador tem de poder criar `Traço` e `Comando`, com o catálogo servindo de base.* **O projeto já tem a regra para esse caso exato, escrita na peça 12:**
+
+> *"'O mestre decide o que é um feito' **não atravessa sete mesas**. A lista precisa ser fechada, no molde do ambiente propício: **entradas escritas, e a palavra final do mestre em cima delas — nunca do zero.**"*
+
+**Então o catálogo não é a lista do que existe: é a régua contra a qual o que não existe é medido.** E a régua sai das próprias entradas, sem precisar inventar critério novo:
+
+| pontos | `Traço` — o que separa um degrau do outro |
+|---|---|
+| **1** | **só mexe na própria invocação:** como ela anda, o que ela percebe, que espaço ocupa. `Escalada`, `Nado`, `Faro`, `Miúdo` |
+| **2** | **encosta em outra criatura ou no tabuleiro:** carrega, prende, empurra, alcança além do alcance, aparece onde não dava. `Voo`, `Montaria`, `Fisgada`, `Emboscada`, `Jorro` |
+
+| pontos | `Comando` — o que separa um degrau do outro |
+|---|---|
+| **0** | **o ataque.** `Investir`, que toda invocação tem |
+| **1** | **faz uma coisa com um alvo ou um objeto.** `Agarrar`, `Arrastar`, `Buscar` |
+| **2** | **protege o dono, ou nega a ação de outro.** `Interpor` |
+
+*O `Voo` é o caso que mostra que a régua funciona: andar é 1 ponto, e voar é 2 — não porque voar seja "melhor", mas porque ele deixa de ser uma coisa que a invocação faz consigo mesma e passa a ser uma que ignora o tabuleiro inteiro. **É a mesma linha que separa `Escalada` de `Voo` no PF1e**, por outro caminho.*
+
+### E três coisas que a criação não pode comprar a preço nenhum
+
+**Elas não são caras — são ilegais**, e cada uma tem um dono que já disse por quê:
+
+| não pode | por quê | dono |
+|---|---|---|
+| **dado de dano** | o teto de uma Rotina já governa a saída. Um `Traço` que dá `+1d6` não custa 3 pontos: ele não existe | peça 6 §4 |
+| **qualquer coisa que cresça com refino** | refino cresce `+7` a `+9` contra `+3`, e isso é 70% de acerto no nível 30 | peça 11 §2 |
+| **deslocamento positivo** | a invocação não passa do portador | §3.6 |
+
+### Quanto isso custa no filtro multi-mestre, medido
+
+| | divergência possível entre dois mestres |
+|---|---|
+| o mestre precifica do zero | **2 pontos — 20%** do que a invocação entrega |
+| **a escada por efeito, com a palavra final em cima** | **1 ponto — 10%** |
+
+**A escada corta a divergência pela metade e a põe numa faixa com tamanho conhecido**, porque 1 ponto já foi medido: `+10%` do que ela entrega, ou `+11%` de vida efetiva. *Não é zero — e não devia ser: o que a peça 12 diz é que a palavra final é do mestre, e o que a régua faz é impedir que ela seja dada do nada.*
+
+> **E o validador tem uma checagem a mais por causa disso:** toda entrada do catálogo tem de cair no degrau que a régua manda. **Uma entrada publicada que não obedece à própria régua é o que ensina a mesa a ignorá-la** — e aí o `Traço` inventado no meio da sessão passa a ser precificado por imitação de uma exceção.
+
 ### E montar os shikigami do material achou o buraco
 
 | shikigami | montagem | pontos | cabe no nível |
@@ -723,6 +765,8 @@ Anotado agora porque é mais barato do que descobrir depois — e porque a peça
 - **O somatório**, contra o `conferir-orcamento.py`: invocar não pode caber junto com conjurar e levar dano de alma se o bolso não fechar.
 - **Tempo de mesa**, se a Q2 fechar em cinco fichas — e essa não é checagem de código, é pergunta de playtest com número esperado escrito antes da sessão.
 - **Triagem de todo nome** que a peça criar.
+- **Toda entrada do catálogo cai no degrau que a régua da criação manda** — `Traço` de 1 ponto só mexe na própria invocação, `Traço` de 2 encosta em outra criatura ou no tabuleiro; `Comando` de 1 age sobre um alvo, `Comando` de 2 protege ou nega. **Entrada publicada que desobedece à própria régua ensina a mesa a ignorá-la.**
+- **Nenhuma entrada, publicada ou criada, com dado de dano, com refino dentro, ou com deslocamento positivo.** As três são ilegais e não têm preço.
 - **Nenhum deslocamento positivo em linha nenhuma da ficha** — a invocação nunca passa do número do dono. Perturbar para `+1` tem de acender.
 - **O orçamento por nível derivado dos marcos da peça 2, nunca lido de constante**, e a busca exaustiva sobre todas as montagens legais em cada degrau.
 - **As duas moedas separadas:** ponto de arma (`0,33` de dano por rodada) e ponto de ficha (`±10%` do que a invocação entrega) não podem se converter uma na outra em lugar nenhum.
