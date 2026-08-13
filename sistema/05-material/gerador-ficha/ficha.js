@@ -113,7 +113,7 @@ function pagina1(f) {
   out.push(NOTA('Treinada: `d20 + atributo + maestria`. Sem treino: `d20 + atributo` — você tenta do mesmo jeito. Constituição não tem perícia; ela paga em vida.'));
 
   // --- oficios
-  out.push(FAIXA('Ofícios — 10, e você treina 3 (ou 2)'));
+  out.push(FAIXA('Ofícios — 11, e você treina 3 (ou 2)'));
   const of = (f && f.oficios) || [];
   const oAlt = Math.ceil(X.OFICIOS.length / 3);
   const oCols = Array.from({ length: 3 }, (_, c) => X.OFICIOS.slice(c * oAlt, (c + 1) * oAlt));

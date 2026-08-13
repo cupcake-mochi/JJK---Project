@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 12/08/2026, na v0.41 (última peça fechada: Legados, na v0.39; **Equipamento está em andamento** — o estado dela mora em `03-mecanica/RASCUNHO-equipamento.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 12/08/2026, na v0.42 (última peça fechada: Legados, na v0.39; **Equipamento está em andamento** — o estado dela mora em `03-mecanica/RASCUNHO-equipamento.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.41.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **treze peças escritas** e **treze validadores**. Manual do Fundamento na **v7.8**, com a Expansão de Domínio escrita, e o catálogo de aptidões com **dez das catorze entradas fechadas**. **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas** — por seis das nove rotas de Origem, e agora sem nenhum buraco de regra que morda nessa faixa.
+**Versão v0.42.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **treze peças escritas** e **treze validadores**. Manual do Fundamento na **v7.8**, com a Expansão de Domínio escrita, e o catálogo de aptidões com **dez das catorze entradas fechadas**. **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas** — por seis das nove rotas de Origem, e agora sem nenhum buraco de regra que morda nessa faixa.
 
 ## Como retomar
 
@@ -110,7 +110,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 
 **Feitiços conhecidos** = `2 + (nível ÷ 2)`, mais um por marco. Três no nível 2, dezesseis no 20. **O manual não conta feitiço desde a v7.7** — essa contagem tem um dono só, e é este documento.
 
-**Vinte e três perícias e dez ofícios.** Perícia tem atributo fixo; ofício não — o atributo muda com o que você faz. O Caminho dá **duas perícias fixas + quatro livres** e **um ofício fixo + um livre**; a Origem dá mais duas perícias. Oito de vinte e três, 35%.
+**Vinte e três perícias e onze ofícios.** Perícia tem atributo fixo; ofício não — o atributo muda com o que você faz. O Caminho dá **duas perícias fixas + quatro livres** e **um ofício fixo + um livre**; a Origem dá mais duas perícias. Oito de vinte e três, 35%.
 
 **Golpe canalizado** = os dados da Classe e nada mais (é o feitiço, e não soma arma nem Força). **Golpe simples** = arma + Força (é o Classe 0 físico). Um canalizado por turno; ataque extra é sempre simples.
 
@@ -142,7 +142,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/conferir-orcamento.py` | o somatório: todos os drenos de PE ao mesmo tempo, e se todo preço tem número |
 | `03-mecanica/conferir-xp.py` | a curva, o abismo que fecha, e se a regra ainda entrega o tempo que a Guilda pediu |
 | `03-mecanica/conferir-criacao.py` | **a instância, não a regra**: a ficha de exemplo da peça 8 contra as fórmulas, a proteção da aptidão gratuita, a Trilha na criação e se o catálogo citado existe |
-| `03-mecanica/conferir-ficha.py` | **o material contra a regra**: as 23 perícias, os 10 ofícios, os 5 Caminhos, as 15 Trilhas e as constantes do nível 2 que a ficha imprime, contra as peças donas |
+| `03-mecanica/conferir-ficha.py` | **o material contra a regra**: as 23 perícias, os 11 ofícios, os 5 Caminhos, as 15 Trilhas e as constantes do nível 2 que a ficha imprime, contra as peças donas |
 | `05-material/gerador-ficha/` | o gerador da ficha (Node: `node make.js`), e os dois `.docx` que ele produz |
 | `conferir-repositorio.py` | a árvore, as referências mortas, e os números que moram em mais de um documento |
 | `99-arquivo/` | material morto, com LEIA-ME próprio. Não leia de lá para escrever peça nova |
@@ -461,15 +461,18 @@ Quatro peças, e a ordem é de **dependência**, não de tamanho. A ordem que el
 
 > **Equipamento é a próxima, e ela tem uma dívida marcada esperando.** A peça 13 fecha dizendo *"quando equipamento fechar, a primeira coisa a fazer é voltar aqui"* — quatro vagas de Desliga nomeiam essa peça como a que deve criar o alvo delas. As outras três esperam **dano e condições**, que não está na fila. *Decisão registrada não é decisão aplicada, e foi assim que a Trilha passou sete versões.*
 
-### Onde Equipamento parou, na v0.41
+### Onde Equipamento parou, na v0.42
 
-**Fechado:** duas classes de uniforme (`Traje` e `Revestimento`), três degraus, requisito de Força 3/5/6 sem gate de nível; oito classes de arma com **41** nomes e o requisito medido como **grátis** — nenhuma passa do teto de criação; a **escada de escudos** com proteção, requisito de Força e teto de Destreza, conferida por busca exaustiva contra o teto de Defesa 20; e a régua de **itens comuns** em três camadas, com a terceira desligada.
+**Fechado:** duas classes de uniforme (`Traje` e `Revestimento`) com **escadas de Força separadas** — Traje `— / — / 3`, Revestimento `3 / 4 / 6`; a **escada de escudos** com proteção, requisito de Força e teto de Destreza; **treze categorias e 52 armas**; **as oito propriedades escritas**; o dado do tiro e a recarga; e a régua de **itens comuns** em três camadas, com a terceira desligada.
 
-**Três coisas caíram nesta versão, e vale saber quais:** a derivação velha do escudo (comparava dano por acerto com dano por rodada), a frase de que *"o escudo desliga cobrir-se"* — que matava o item no primeiro marco, e por isso **o escudo passa a somar**, mudando a peça 8 e a peça 11 §5 e §9 — e o *"zero classes dominadas"*, porque `Uma mão` está dominada pela `Versátil`.
+**O teto de Defesa ganhou dono, e não é o que o rascunho supunha.** O `20` é **derivado** de `10` (peça 1 §5) + teto de atributo `6` e teto de refino `10` (peça 2 §3) + a fórmula de cobrir-se (peça 11 §5) — zero parâmetros livres. **Ninguém escreve o número:** Equipamento é dona do **invariante** (*nenhuma montagem de equipamento passa da Defesa que a rota sem equipamento alcança*), e o validador deriva o teto dos três donos. **Equipamento topa em 19**, por decisão, e não em 20.
 
-**A dependência dura que trava o resto:** as **sete propriedades de arma** são só nome na tabela. Enquanto forem, 15 dos 16 pares da matriz saem `INCONCLUSIVO` e **o validador da peça não pode ser escrito**.
+**Quatro coisas caíram nesta versão:** o §3 dizia que as duas rotas topam em 20 (dá 19, desde que o escudo ganhou teto de Destreza); o Traje era a classe do meio do 5e contra **cobrir-se**, que é a armadura leve deste sistema e ninguém tinha reconhecido; a peça 6 §3 **não tem exceção para arma de tiro**, o que fazia a arma acertar com Destreza e causar dano com Força — 5× o buraco que as propriedades deviam pagar; e o `0,60` do §5 não reproduz com a fórmula do §4, que dá `0,33`.
 
-> **E ficou uma dívida de dono:** o **teto de Defesa 20** foi derivado pelo §3 do rascunho — *"caiu da régua, não foi calibrado"* — e agora a escada de escudos se apoia nele. Derivação virou invariante sem ninguém decidir. **Ou a peça 1 adota o 20, ou Equipamento declara que é dona dele**, e isso decide de onde o validador vai lê-lo.
+**A dívida da peça 11 e da peça 8 foi APLICADA:** o escudo **soma** com cobrir-se em vez de desligar, e o preço da Reação virou agnóstico de fonte. Três checagens novas no `conferir-criacao.py` guardam as duas.
+
+**O que falta:** a **classe das doze armas novas** — e com ela a pergunta que a `Fineza` abriu, *o preço mora na classe ou na arma?* —, e **o validador da peça**, que precisa rodar a dominância **uma vez por rota de proteção, e são três**: cobrir-se, uniforme, e **sem energia nenhuma** (a Restrição Celestial pelo ramo da Maki, que não tem cobrir-se para desligar).
+
 
 ### Decidido — o Caminho continua sem dar dados de dano
 

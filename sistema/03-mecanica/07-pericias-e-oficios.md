@@ -122,7 +122,7 @@ O Nanami faz a primeira. O Todo faz a segunda.
 
 O manual usa *"sem provocar ataque de oportunidade"* em três lugares. **Colisão registrada e aceita:** a expressão é comum demais em qualquer mesa de d20 para gerar confusão real, e "provocar ataque de oportunidade" e "rolar Provocar" nunca aparecem no mesmo tipo de frase. Fica anotado no validador com o motivo, para não virar surpresa quando alguém reler o material daqui a seis meses.
 
-## 5. Os dez ofícios
+## 5. Os onze ofícios
 
 **Condução** — carro, moto, van, o que estiver na garagem.
 **Arrombamento** — tranca, alarme, cofre, janela que não devia abrir.
@@ -131,6 +131,7 @@ O manual usa *"sem provocar ataque de oportunidade"* em três lugares. **Colisã
 **Caligrafia** — talismã, papel de barreira, documento oficial. E documento oficial que não é oficial.
 **Burocracia** — a máquina jujutsu por dentro: relatório, requisição, quem assina o quê, como se pede uma janela e como se encobre o que não devia ter sido visto.
 **Entalhador** — madeira, pedra, osso. Fazer o corpo que vai receber alguma coisa.
+**Alfaiate** — tecido, corte, remendo. O uniforme que aguenta energia amaldiçoada sai daqui, e o traje sob medida também — o de prateleira veste todo mundo e ninguém.
 **Culinária** — cozinhar de verdade, para gente ou para o que aceitar comida.
 **Instrumento** — um instrumento, escolhido no treino.
 **Jogatina** — carta, dado, aposta, e ler a mesa enquanto joga.
@@ -186,14 +187,16 @@ Com 35%, o personagem é bom em pouco mais de um terço do quadro. Ele tem burac
 
 **Quatro das seis do Caminho são livres**, e é o que impede duas fichas do mesmo Caminho de serem a mesma pessoa. O Caminho ainda diz alguma coisa — as duas fixas —, mas ele não escolhe o personagem por você. Dois Bastiões dividem Atletismo e Intimidação e podem não ter mais nada em comum.
 
-Os ofícios ficam em 20% de propósito — dois de dez. Ofício é para ser raro. O grupo que precisa arrombar uma porta e não tem ninguém com Arrombamento tem um problema real, e problema real é cena.
+Os ofícios ficam em **18% de propósito — dois de onze**. Ofício é para ser raro. O grupo que precisa arrombar uma porta e não tem ninguém com Arrombamento tem um problema real, e problema real é cena.
+
+*Eram dois de dez, 20%, até o **Alfaiate** entrar com a peça de equipamento.* A fração caiu e isso **não é deriva**: a frase diz que ofício é para ser raro, e onze opções com duas treinadas é mais raro que dez com duas. Quem continua treinando dois é toda ficha — a conta de criação não mudou.
 
 ## 8. O que mudou em relação à peça 4
 
 | | peça 4 | agora |
 |---|---|---|
 | Perícias | 14 | 23 |
-| Ofícios | não existiam | 10 |
+| Ofícios | não existiam | 11 |
 | Caminho dá | 3 perícias | 2 fixas + 4 livres, mais 1 ofício fixo + 1 livre |
 | Origem dá | 2 perícias | 2 perícias |
 | Treinadas | 5 de 14 (36%) | 8 de 23 (35%) |

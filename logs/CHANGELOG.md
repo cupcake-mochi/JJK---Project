@@ -6,6 +6,90 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.42] — 2026-08-12
+
+**Equipamento andou muito, e três coisas que já estavam escritas caíram.** Nenhuma peça nova; **um ofício novo**, o `Alfaiate`, que subiu os ofícios de dez para onze. O rascunho de Equipamento foi de 487 para 800 linhas, a dívida que a peça 11 e a peça 8 deviam foi **aplicada**, e o `conferir-criacao.py` e o `conferir-pericias.py` mudaram.
+
+### Fechado — o dono do teto de Defesa, e não é nenhuma das duas opções que o §8 oferecia
+
+O `20` é **derivado**: `10` da peça 1 §5, teto de atributo `6` e teto de refino `10` da peça 2 §3, e a fórmula de cobrir-se da peça 11 §5. **Zero parâmetros livres**, então ninguém escreve o número — escrevê-lo seria a lição nº 9, e medir uma checagem contra ele seria a nº 8 pela quarta vez.
+
+> **Equipamento é dona do invariante, não do valor:** *nenhuma montagem de equipamento passa da Defesa que a rota sem equipamento alcança.* O validador deriva o teto dos três donos e roda a busca exaustiva.
+
+**E a frase que sustentava o item caiu junto.** O §3 dizia que as duas rotas topam em 20; equipamento topa em **19**, e a diferença nasceu no §4, quando o escudo ganhou teto de Destreza para não furar o 20. Busca exaustiva de 196 montagens: máximo 20, três montagens chegam, nenhuma passa. **Decisão do Mizuki: fica em 19, agora como decisão e não como sobra.**
+
+### Achado — o Traje era a classe do meio do 5e, contra cobrir-se
+
+Traje não limita Destreza, cobrir-se também não, então os dois se comparam só por proteção — e a escada do Traje (1/2/3) é a mesma que cobrir-se percorre sozinha na linha passiva. **+0 em seis das oito faixas de nível**, e ainda cobrando Força.
+
+O §2 foi para duas classes citando o *"worst-of-both-worlds"* da armadura média do 5e e construiu o Traje exatamente ali — só que contra cobrir-se, que **é a armadura leve deste sistema** e não tinha sido reconhecida como tal.
+
+**Conserto:** a coluna de Força deixou de ser compartilhada (**Traje `— / — / 3`**, **Revestimento `3 / 4 / 6`**; o Força 3 no topo do Traje pousa nos 45% que o §3 já tinha aprovado), e o Traje ganhou benefício **fora da proteção** — vantagem numa situação, com lista fechada e vaga aberta, no molde do Destranca de identidade da peça 13. **O `Alfaiate` entrou para fabricar**, e o canon confirma: existe alfaiate dedicado ao mundo jujutsu e estudante encomenda uniforme sob medida.
+
+### Achado — a peça 6 §3 não tem exceção para arma de tiro
+
+*"Golpe simples = arma + Força"*, e o acerto à distância soma **Destreza** (peça 1 §5). A arma de tiro acertava com um atributo e causava dano com o outro: **2,48 por rodada contra os 4,12 da Pesada**, quando a matriz achava que a distância era 0,33. **Cinco vezes maior que o buraco que as propriedades deviam pagar.**
+
+*Resolvido pela categoria:* `Yumi` soma Destreza, `Balestra` e `Arma de Fogo` não somam atributo e ganham dado maior.
+
+### Achado — o `0,60` do §5 não reproduz com a fórmula do §4
+
+`diferença de dado × 0,55 × 0,60 de uso` dá **0,33** para d10 contra d12. O `0,66` do §4 reproduz exato; o `0,60` só aparece sem o fator de uso. **Duas fórmulas no mesmo documento**, e a segunda foi escrita sem o fator que a primeira acabara de fixar.
+
+### Adicionado — categoria, e as oito propriedades
+
+**Treze categorias, 52 armas.** A categoria carrega **uma coisa só, a fonte do dano** — se carregasse número próprio, o valor viraria `classe + categoria + propriedade` e a matriz teria de rodar sobre o produto dos três, que é a lição nº 7 pela porta de trás. Ela é também o gancho da especialização da Vanguarda.
+
+**E três das sete propriedades sem texto eram a mesma coisa:** `Alcance`, `Distância` e `Arremesso` respondiam *"a que distância?"*, e a resposta é um número. Colapsaram em `Alcance` e `Longo Alcance`, com valor em metros. `Arremesso` sobreviveu como **categoria**.
+
+| propriedade | fecho |
+|---|---|
+| `Par` | **role dois dados de dano e fique com o melhor** — 0,32 contra um alvo de 0,33 |
+| `Versátil` | o dado sobe **um passo**. Vale 0,33 em qualquer degrau |
+| `Oculta` | **camada 1 · Permissão** do §6. Zero número em combate |
+| `Munição` | recarrega no **1–2 natural** ou a cada **X** ataques. **Recarregar é Ação Bônus** |
+| `Fineza` | troca Força por Destreza no acerto e no dano |
+
+**O X da `Munição` não é o pente.** Com 2,2 ataques por combate, **qualquer teto a partir de 4 nunca morde** — o gatilho do dado assume e o número vira enfeite. A faixa útil tem quatro valores: `1`, `2`, `3` e `—`.
+
+### Decidido — `Precisa` voltou como `Fineza`, e metade do argumento que a matou caiu
+
+O argumento era duplo. **A metade que caiu:** *"tira o primeiro trabalho da Força, que tem uma perícia só"* — Força agora compra Traje 3, Revestimento 1/2/3 e escudo 2/3, que é o segundo trabalho que a peça 1 §9 pede desde a v0.24, e que **não existia** quando a decisão foi tomada. **A metade que ficou**, medida: Força 6 com Pesada e escudo faz 4,12 e Defesa 19; Destreza 6 com `Fineza` e cobrir-se faz 3,47 e Defesa 19. **1,32 por rodada, 4% da Rotina.** Vira sabor.
+
+### Decidido — 3d10 no topo da arma de fogo, e o argumento não vale
+
+*O tamanho fecha:* **+32% no golpe simples, +4,3% da Rotina** — o mesmo tamanho da `Fineza`, e abaixo dos 7,5% que a Trilha da Vanguarda deve cobrir.
+
+> **O argumento não fecha, e fica registrado por quê.** Era *"não soma mod E tem munição, duas penalidades"*. A primeira **já está dentro do dado** — `3d10 = 16,5` já é o total sem mod, e o dado grande é o que compensa; contar de novo é a **lição nº 2**. A segunda **vale zero**, porque recarregar em Ação Bônus não tira ataque nenhum. *E o outro lado paga o mesmo:* Força 6 e Destreza 6 custam 3 pontos cada, e as duas carregam `Duas mãos`.
+
+### Aplicado — a dívida que a peça 11 e a peça 8 deviam
+
+**O escudo saiu da lista do que desliga cobrir-se** (ele **soma**), e o preço da Reação virou **agnóstico de fonte** — de *"você fica sem a proteção passiva"* para *"você fica sem proteção"*. Quatro pontos em dois documentos, e **três checagens novas no `conferir-criacao.py`** para a decisão não voltar em silêncio. *Três perturbações conferidas, com contra-teste provando que são checagens separadas.*
+
+### Achado — o `conferir-pericias.py` nunca abriu a peça 7
+
+O docstring prometia *"contagem por atributo bate com o documento"* e a lista estava **escrita dentro do validador**. Eram **três cópias** dos ofícios — a peça, o validador e o `dados.js` — e só duas eram comparadas. **Lição nº 9 dentro de um validador**, e ela só apareceu porque a contagem `!= 10` explodiu por acidente na passada do Alfaiate.
+
+Consertado na raiz: ele **lê a lista da peça 7**, e a contagem declarada sai do **título do §5**, separada da lista aplicada — lição nº 8. O `conferir-ficha.py` deixou de procurar `'## 5. Os dez ofícios'` literal. **Quatro perturbações conferidas**, com contra-teste provando que o regex ficou agnóstico ao número por extenso.
+
+### Registrado — a triagem tem um quarto ponto cego
+
+`Leve`, `Média` e `Pesada` são os **tiers de Restrição** e saem `LIVRE`, porque a triagem compara contra Família, Forma, Melhoria e Tema, e **tier de magnitude não está em lista nenhuma**. A classe de arma `Pesada` colide com o tier `Pesada` desde que as duas existem.
+
+**E o `ARMA DE FOGO` virou régua:** um nome composto que contém termo ocupado **não herda a colisão**, porque *Arma de Fogo* não é o Tema `Fogo`. Grau novo ao lado de `OCUPADO`, `DENTRO` e `fraco`.
+
+### Em aberto
+
+- **A classe das doze armas novas**, e com ela a pergunta que a `Fineza` abriu: **o preço mora na classe ou na arma?** Uma propriedade solta troca *8 classes para conferir* por *52 armas*.
+- **O validador da peça** — com as **três** rotas de proteção (cobrir-se · uniforme · **sem energia nenhuma**), o teto derivado dos três donos, e a dominância por valor total.
+- **As quatro vagas de Desliga da peça 13.**
+- **A Cicatriz não tem mecânica, só nome.**
+- **Energia Reversa, Barreira Simples, Cortina** e a régua da Aptidão Própria.
+- **Qual modelo de clash vale.**
+- **Nome do sistema.**
+
+---
+
 ## [0.41] — 2026-08-12
 
 **Equipamento andou, e três coisas que já estavam escritas nela caíram.** Nenhuma peça nova e nenhum validador novo — continuam treze e treze. O que mudou foi o rascunho de Equipamento, de 160 para 487 linhas, e o `conferir-nomes.py`, que estava classificando colisão errado desde sempre.

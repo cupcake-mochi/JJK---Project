@@ -144,8 +144,10 @@ Doze níveis entre o especialista e o generalista, que é o tamanho que *"quase 
 
 ### Cobrir-se de energia · grátis no refino 1
 
-> **Sem uniforme, sem armadura e sem escudo, a sua proteção é `1/3 do refino + 1`.**
-> **Como Reação, você concentra a energia no impacto:** Redução de Dano de `1,5 × refino` num golpe, por **2 PE** — e você fica sem a proteção passiva até o fim do seu próximo turno.
+> **Sem Traje e sem Revestimento, a sua proteção é `1/3 do refino + 1`.** Escudo **soma** com ela.
+> **Como Reação, você concentra a energia no impacto:** Redução de Dano de `1,5 × refino` num golpe, por **2 PE** — e você fica sem proteção até o fim do seu próximo turno.
+
+> *Duas mudanças da v0.42, as duas vindas da peça de equipamento.* **O escudo saiu da lista do que desliga:** com o desligamento, ele virava prejuízo já no primeiro marco — no refino 3 você trocava proteção 2 por proteção 1 — e nenhum número o salvava enquanto competisse com uma proteção que cresce. **E o preço da Reação virou agnóstico de fonte:** ele dizia *"a proteção passiva"*, e quem estava fardado não pagava nada, porque não tira o colete no meio do golpe. Uma palavra a menos conserta os dois lados.
 
 *Os 2 PE entraram na v0.30.* Até lá estava escrito só *"gastando PE"*, sem quantidade — um preço sem número, que é a lição nº 6 do README pelo avesso: o termo existia e o valor não. O `conferir-orcamento.py` procura essa forma agora.
 
@@ -449,7 +451,9 @@ O texto que morava no `ESTADO-ATUAL` repetia a seção 6.1 inteira — a regra, 
 
 Sobraram dois pedaços que a seção 6.1 não tinha, e só eles ficam:
 
-**O recado para a peça de equipamento.** Cobrir-se não é exclusiva do conjurador: um Vanguarda de refino alto que largue o uniforme chega a **Defesa 20**. Como uniforme, armadura e escudo **desligam** a proteção de energia, a tabela de proteção não compete com 0 — ela compete com **1 no nível 2 e 4 no refino 10**. *Um uniforme precisa valer mais que proteção 4, senão ninguém veste.*
+**O recado para a peça de equipamento.** Cobrir-se não é exclusiva do conjurador: um Vanguarda de refino alto que largue o uniforme chega a **Defesa 20**. Como **Traje e Revestimento desligam** a proteção de energia, a tabela de proteção não compete com 0 — ela compete com **1 no nível 2 e 4 no refino 10**.
+
+> *A frase seguinte era "um uniforme precisa valer mais que proteção 4, senão ninguém veste", e a peça de equipamento a tratou como orientação e não como invariante — tratá-la como invariante travava a peça inteira.* **O uniforme não precisa ganhar de cobrir-se; precisa alcançar e ter chance de passar.** E **o escudo saiu desta lista na v0.42**: ele soma com cobrir-se em vez de desligar, porque desligando ele virava prejuízo já no primeiro marco.
 
 **Canalizar energia** já está escrita na peça 5: *"um feitiço de Forma Toque, sem Melhoria e sem Restrição"*. **O refino não a escala** — ela vive no orçamento do Fundamento, e é o exemplo de aptidão que não usa o valor cheio.
 

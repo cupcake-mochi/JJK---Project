@@ -2,6 +2,12 @@
 
 **Não é peça.** Sem número na frente de propósito: meia peça não é peça, e um arquivo com dois dígitos quebraria a contagem do `conferir-repositorio.py`. Vira a peça 14 quando fechar, junto do validador dela — que ainda não existe e por isso não é citado pelo nome aqui.
 
+*Estado na v0.42: proteção fechada, catálogo e categorias fechados, **as oito propriedades escritas**, o dado do tiro e a recarga fechados, e a dominância `Uma mão` × `Versátil` aceita com motivo. **Falta a classe das doze armas novas e o validador.***
+
+> **E a decisão de manter `Fineza` como propriedade abriu uma consequência que precisa de resposta antes do validador.** O §5 fecha com *"o preço mora na classe, não na arma"* — e uma propriedade que uma arma tem e as vizinhas de classe não têm **põe preço na arma**. A Rapieira é `Uma mão` com `Fineza`; o Machete é `Uma mão` sem. O Manriki quer `Alcance` sem ser `Haste`.
+>
+> Isso não é erro, é escolha — mas ela troca *"8 classes para conferir"* por *"52 armas para conferir"*, e é a razão pela qual aquela régua existe. **Ou a régua ganha uma exceção escrita** (*"a classe dá o pacote; uma arma pode carregar uma propriedade a mais, e o validador confere que nenhuma carrega duas"*), **ou as propriedades soltas viram classes próprias.** A conta que decide é a matriz por valor total, e ela não roda até as doze armas novas terem classe.
+
 Peça 2 da fila decidida na v0.36. Destrava a Vanguarda, a Técnica Marcial e **quatro das sete vagas de Desliga** da peça 13.
 
 ---
@@ -38,24 +44,135 @@ A matriz de dominância deste projeto tinha achado o mesmo por outro caminho: co
 
 **`Traje`** (leve) e **`Revestimento`** (pesada). Os dois saíram `LIVRE` na triagem e não aparecem no manual nenhuma vez.
 
-| degrau | **Traje** proteção | teto de Destreza | **Revestimento** proteção | teto de Destreza | requisito de Força |
-|---|---|---|---|---|---|
-| 1 | 1 | — | 4 | 0 | **3** |
-| 2 | 2 | — | 5 | 0 | **5** |
-| 3 | 3 | — | 6 | 0 | **6** |
+| degrau | **Traje** proteção | teto de Destreza | requer Força | **Revestimento** proteção | teto de Destreza | requer Força |
+|---|---|---|---|---|---|---|
+| 1 | 1 | — | — | 4 | 0 | **3** |
+| 2 | 2 | — | — | 5 | 0 | **4** |
+| 3 | 3 | — | **3** | 6 | 0 | **6** |
 
-**Sem gate de nível.** O orçamento de atributo faz o trabalho sozinho: o teto da criação é 3, e Força 5 só chega no nv6, Força 6 no nv10. Medido:
+### A coluna de Força era uma só, e isso estava errado
 
-| requisitos | degrau 3 abre no | acerto lá |
-|---|---|---|
-| 3 / 4 / 5 | nv6 | 40% — cedo demais |
-| **3 / 5 / 6** | **nv10** | **45%** |
+*Achado na v0.42.* Até aqui os dois lados dividiam `3 / 5 / 6`, e o efeito era o **Traje — a classe leve — pedindo Força 6 no topo**. Ninguém tinha somado o que isso custa: Força 6 são três pontos de atributo acima do teto da criação, cobrados de quem escolheu a classe que existe justamente para quem não tem Força.
+
+**Refeito com o orçamento de atributo compartilhado**, que é o furo da primeira medição — ela dava Força alta e Destreza alta ao mesmo personagem sem descontar as duas do mesmo bolso:
+
+| gate no topo do Traje | abre no | Destreza que sobra | Defesa | acerto |
+|---|---|---|---|---|
+| sem gate | nv2 | 3 | 16 | 40% — cedo demais |
+| **Força 3** | **nv6** | 4 | 17 | **45%** |
+| Força 5 | nv10 | 4 | 17 | 50% |
+| Força 6 (o de antes) | nv10 | 3 | 16 | 55% |
+
+**Força 3 pousa exatamente nos 45% que esta seção já tinha aprovado**, e 3 é o teto da criação — cabe no array `3·2·2·1·1` sem gastar marco nenhum. Os degraus 1 e 2 do Traje não pedem nada. O `5` e o `6` eram herança da coluna dividida, e sobrepreço puro.
+
+No Revestimento a escada fica, com o degrau do meio pedindo menos que o pesado: **`3 / 4 / 6`**.
+
+**Sem gate de nível.** O orçamento de atributo faz o trabalho sozinho, e as duas escadas caem em lugares diferentes: o topo do Traje abre no nv6 e o do Revestimento no nv10.
 
 *O motivo de não haver gate de nível é do Mizuki, e é de mesa:* sistema de "Custo 1 a 4" travado por nível força o personagem parrudo a usar uniforme leve porque é o que ele pode pegar, e ninguém gosta disso. Orçamento de como conseguir o item entra depois, não como trava de nível.
 
-**O cruzamento cai em Destreza 3, igual nos três degraus** — Revestimento ganha de 0 a 3, Traje ganha de 4 pra cima. Sem classe do meio, ninguém espremido.
+**O cruzamento cai em Destreza 3, igual nos três degraus** — Revestimento ganha de 0 a 3, Traje ganha de 4 pra cima. Sem classe do meio, ninguém espremido. *A mudança da coluna de Força não move esse ponto:* o cruzamento é de proteção contra proteção, e Força só decide quando o degrau abre.
 
-**E as duas rotas topam no mesmo lugar:** no nv30 com Destreza 6, cobrir-se com refino 10 dá Defesa **20**, e Traje degrau 3 + escudo dá **20**. Uma paga com sete escolhas de marco; a outra com a mão ocupada. Isso caiu da régua, não foi calibrado.
+### As duas rotas NÃO topam no mesmo lugar — equipamento para em 19
+
+*Esta seção afirmava o contrário até a v0.42, e a frase era: "no nv30 com Destreza 6, cobrir-se com refino 10 dá Defesa 20, e Traje degrau 3 + escudo dá 20".* **O segundo número é 19.**
+
+A frase é anterior ao §4. Quando o escudo ganhou **teto de Destreza** — que entrou para impedir `cobrir-se + escudo` de furar o 20 —, ele derrubou a rota do uniforme junto, e ninguém voltou aqui. Busca exaustiva de 196 montagens (7 uniformes × 4 escudos × 7 Destrezas):
+
+| rota | topa em | por quantas montagens |
+|---|---|---|
+| cobrir-se, refino 10 | **20** | 3 |
+| Traje 3 + escudo degrau 1 | 19 | 3 |
+| Revestimento 3 + escudo degrau 3 | 19 | 7 |
+
+**Nada passa de 20, e só a rota sem equipamento o alcança.** Decisão do Mizuki: **fica em 19, e vira decisão em vez de sobra.** No nv30 isso põe o atacante investido em 40% de acerto e o combate em 4,6 rodadas, contra os 35% e 5,3 que o 20 daria. A rota livre fica sozinha no topo porque refino 10 custa duas escolhas de marco — quem paga, chega mais alto.
+
+### O dono do teto: ninguém escreve o número
+
+*Isto fecha o item 8 do §8, e a resposta não é nenhuma das duas que aquele item oferecia.*
+
+O 20 não é escolha esperando dono. Ele é o que sobra depois que três documentos já decidiram:
+
+```
+Defesa            = 10 + Destreza + proteção      peça 1 §5
+teto de atributo  = 6                             peça 2 §3
+teto de refino    = 10                            peça 2 §3
+cobrir-se         = 1/3 do refino + 1  →  4       peça 11 §5
+
+10 + 6 + 4 = 20
+```
+
+**Zero parâmetros livres.** Escrever `20` na peça 1 criaria a segunda fonte de um número derivado, que é a lição nº 9; e um validador que se medisse contra esse 20 escrito sairia **verde** ao perturbá-lo, que é a lição nº 8 pela quarta vez. Equipamento também não pode ser dona: ela nem alcança o número.
+
+> **O que esta peça é dona é do invariante, não do valor:** *nenhuma montagem de equipamento passa da Defesa que a rota sem equipamento alcança.* O validador lê os três donos, deriva o teto e roda a busca exaustiva. Se a peça 11 mexer em cobrir-se um dia, o teto anda sozinho e a escada é reconferida — em vez de envelhecer calada.
+
+### O Traje é sob medida, e o benefício dele não é proteção
+
+**A conta fechou a porta do eixo da proteção, e foram as duas decisões acima que fecharam.** Equipamento para em 19 e o Traje é a classe sem teto de Destreza, então `10 + 6 + proteção ≤ 19` obriga **proteção ≤ 3**. E cobrir-se chega a 3 sozinho, na linha passiva, sem gastar escolha nenhuma:
+
+| nv | refino passivo | cobrir-se | Traje 3 | ganho |
+|---|---|---|---|---|
+| 2–6 | 1–2 | 1 | 3 | **+2** |
+| 10–18 | 3–5 | 2 | 3 | +1 |
+| 22–30 | 6–8 | 3 | 3 | **+0** |
+
+Não existe número de proteção que salve o Traje no fim da campanha: a janela **fecha sozinha** conforme o refino sobe de graça. Ele é a classe do meio do 5e reencarnada — não contra o Revestimento, contra **cobrir-se**, que é a armadura leve deste sistema e não tinha sido reconhecida como tal.
+
+> **Decisão do Mizuki: o Traje ganha um benefício fora da proteção, e ele é feito sob medida para o personagem.**
+
+**A Reação de cobrir-se fica nos dois lados** — o §7 é explícito, quem está de uniforme não tira o colete no meio do golpe. Com ela preservada, a conta no nv30 vira:
+
+| quem | proteção | o que o Traje custa |
+|---|---|---|
+| não gasta escolha em refino (a maioria) | 3 contra 3 | nada — o benefício é ganho limpo |
+| leva o refino ao teto 10 | 4 contra 3 | 1 de Defesa, ou 5 pp de acerto do inimigo |
+
+*Os dois casos são o "alcançar e ter chance de passar" do §1, que é o critério que a classe precisava cumprir e não cumpria.*
+
+**A forma do benefício: vantagem, e ela dispara em situação.** Vantagem já tem preço medido na peça 11 — **+25 pp contra alvo difícil, +9 pp contra fácil** —, é auto-regulada (dá pouco quando você já ia acertar), **não empilha** pela peça 4 §5, e não imprime número nenhum na ficha. Isso a mantém do lado certo da regra que o §6 escreveu: *item comum não produz número.*
+
+O tamanho de "pequeno", pela frequência de disparo:
+
+| dispara em | vale (alvo difícil) | veredito |
+|---|---|---|
+| toda rolagem de Destreza | 25,0 pp | bônus fixo com fantasia |
+| metade das cenas | 12,5 pp | grande demais |
+| **~1 por missão** | **2,5 pp** | **é o alvo** |
+| 1 por arco | 0,8 pp | decorativo |
+
+**O Traje carrega uma situação, não uma por degrau.** Três disparos por missão batem exatamente na linha que o §6 já traçou para consumível — *"3 ou mais vira a resposta padrão"* —, e a régua vale igual aqui.
+
+**A máquina que faz "o jogador cria" sem virar discricionariedade já existe na peça 13:** é o **Destranca de identidade**. O jogador escolhe de uma lista fechada, escreve o que aquilo *é*, e a escolha é o gatilho, feita uma vez. A peça 13 já provou que segura pelo teste dos 90%, e já escreveu a trava que importa — **um Destranca de identidade não pendura tarefa**: ele diz o que é e para.
+
+Aplicado aqui: a **lista é fechada e igual para todo mestre**; o que é do jogador é qual situação ele pega e como o traje dele é.
+
+**A régua que peneira uma situação**, e é ela que governa também a vaga aberta:
+
+> 1. É **condição física que o mestre já descreveu na cena** — não julgamento sobre o que o personagem tentou.
+> 2. **Não decide o que uma das quatro perícias de Destreza já decide.** Senão vira vantagem em Furtividade pela porta dos fundos.
+> 3. **Não acontece toda cena.** O alvo é ~1 disparo por missão.
+
+*Candidatas que passam nas três:* vão apertado · altura e beirada · escuro · superfície ruim · água e chuva · multidão · terreno instável · calor e fogo.
+
+**E uma vaga aberta, para o jogador inventar a dele** — decisão do Mizuki, e é o que faz "sob medida" ser verdade em vez de enfeite. Ela passa pela mesma régua de três itens, o que a torna conferível por um segundo mestre em vez de aprovada por um.
+
+### Quem fabrica: o Alfaiate
+
+*Levantamento do canon:* existe **um alfaiate dedicado ao mundo jujutsu**, o material dos uniformes é resistente a energia amaldiçoada, e **estudantes podem encomendar uniforme sob medida à escola**. O "sob medida" não precisou ser inventado.
+
+> **Ressalva de fonte:** isso saiu de wiki de fã, que pela régua do projeto vale como **índice e não autoridade**. Confirmar no mangá antes de virar texto de mesa.
+
+**Decisão do Mizuki: entra um ofício, o `Alfaiate`** — e ele é a opção do jogador que quer fabricar em vez de encomendar, engatando na mecânica de criação que vem depois. Passou na triagem como `LIVRE`, junto de `Alfaiataria`, `Tecelagem` e `Vestuario`. **`Costura` morreu:** é feitiço pronto **e** Passiva no manual, colisão de nome inteiro nas duas.
+
+**Aplicado na mesma versão, e a lista do que ele tocou fica registrada:** `README`, peça 4 (três vezes), peça 6, peça 7 (o título do §5, a entrada nova, a proporção do §7 e a tabela do §8), peça 8, peça 13, `ESTADO-ATUAL` (duas vezes), `conferir-pericias.py`, `conferir-ficha.py`, `conferir-nomes.py`, `05-material/gerador-ficha/dados.js` e `05-material/gerador-ficha/ficha.js` — e os dois `.docx` da ficha, regerados.
+
+> **A passada achou um buraco que não era o que ela foi procurar.** O `conferir-pericias.py` **nunca abriu a peça 7**: o docstring dele prometia *"contagem por atributo bate com o documento"* e a lista estava escrita dentro do próprio validador. Eram **três cópias** dos ofícios — a peça, o validador e o `dados.js` — e só duas eram comparadas, porque o `conferir-ficha.py` cruza a peça com o `dados.js` e ninguém cruzava a terceira. **Lição nº 9 dentro de um validador**, e ela só apareceu porque a contagem `!= 10` explodiu por acidente.
+>
+> Consertado na raiz: o `conferir-pericias.py` agora **lê a lista da peça 7**, e a contagem declarada sai do **título do §5** — separada da lista aplicada, que é a lição nº 8. O `conferir-ficha.py` deixou de procurar `'## 5. Os dez ofícios'` literal e passou a aceitar `Os \w+ ofícios`, porque mudar o título quebrava ele **pelo motivo errado**: ele acusava "não consegui ler a lista" quando o problema era o número por extenso.
+>
+> *E o `dez ofícios` da peça 13 era o único que não é contagem:* ele precifica o Legado `Gambiarra` por *"alcança dez ofícios, que é categoria inteira"*. **O argumento é "categoria inteira", então onze não muda a conclusão** — foi atualização de texto, não reprecificação.
+>
+> **A proporção caiu de 20% para 18%** — dois treinados de onze em vez de dez. Não é deriva: a peça 7 diz que *"ofício é para ser raro"*, e onze opções com dois treinados é mais raro que dez com dois. A conta de criação não mudou.
 
 ## 4. O escudo — a derivação anterior caiu, e o que sobrou é maior
 
@@ -247,7 +364,162 @@ A peça 5 já provou que **o dado não é alavanca**: trocar d6 por d12 move tr�
 | **Tiro leve** | 1 | d6 | Distância · Munição · Oculta | Pistola, Revólver, Submetralhadora |
 | **Tiro pesado** | 2 | d10 | Distância · Munição · Duas mãos | Espingarda, Rifle, Besta, Yumi |
 
-**Oito classes, 41 armas** — eram 39 antes de `Lança` e `Faca` voltarem da triagem na v0.40.
+**Oito classes, 52 armas e treze categorias.** Eram 39 armas antes de `Lança` e `Faca` voltarem da triagem na v0.40, 41 até a v0.42, e 52 depois das que o Mizuki pediu.
+
+## 5.1 A categoria — o que a arma é
+
+*Entrou na v0.42.* A classe é o pacote mecânico: dado, Força mínima, propriedades. **A categoria é o que a coisa é.** Ela existe por dois motivos, e nenhum dos dois é preço.
+
+O primeiro é que ela resolve de onde vem o dano — foi ela que destravou a arma de tiro, que acertava com Destreza e causava dano com Força porque ninguém tinha cruzado a peça 1 §5 com a peça 6 §3. O segundo é que **ela é o gancho onde a Trilha da Vanguarda vai pendurar a especialização**, e sem ela aquela peça nasce sem ter em que especializar.
+
+> **A categoria carrega uma coisa só: a fonte do dano.** Nada mais. Se ela carregasse número próprio, o valor de uma arma viraria `classe + categoria + propriedade` e a matriz teria de rodar sobre o produto dos três — que é a lição nº 7 pela porta de trás.
+
+| fonte do dano | quem |
+|---|---|
+| **Força** | todo corpo a corpo, e Arremesso |
+| **Destreza** | corpo a corpo com **`Fineza`**, e **Yumi** |
+| **nenhuma — só o dado, e o dado é maior** | **Balestra** e **Arma de Fogo** |
+
+| categoria | armas |
+|---|---|
+| **Lâmina Curta** (5) | Tanto · Punhal · Canivete · Faca · Sai |
+| **Lâmina Longa** (8) | Machete · Wakizashi · Rapieira · Katana · Espada Longa · Espadão · Odachi · Nodachi |
+| **Massa** (5) | Maça · Marreta · Kanabō · Maul · Taco |
+| **Porrete** (5) | Bastão · Bō · Cassetete · Tonfa · Nunchaku |
+| **Manopla** (2) | Soqueira · Tekko |
+| **Machado** (3) | Machado · Machado de Guerra · Machadinha |
+| **Ceifa** (3) | Foice · Kama · Kusarigama |
+| **Armas Longas** (3) | Naginata · Yari · Lança |
+| **Flexível** (3) | Corrente · Chicote · Manriki |
+| **Arremesso** (4) | Kunai · Shuriken · Tessen · Chakram |
+| **Yumi** (2) | Hankyū *(arco curto)* · Daikyū *(arco longo)* |
+| **Balestra** (2) | Besta · Besta de Uma Mão |
+| **Arma de Fogo** (7) | Pistola · Revólver · Submetralhadora · Espingarda · Rifle · Rifle de Precisão · Metralhadora Pesada |
+
+**O nome japonês vem com a tradução entre parênteses**, decisão do Mizuki — quem não conhece o termo não pode ficar travado numa linha de tabela. *E `Yumi` (弓) deixou de ser arma e virou categoria: é a palavra genérica para arco, e o que existe de fato são o `Hankyū` (半弓) e o `Daikyū` (大弓).* A grafia foi conferida: faltava o `n` e o macron nos dois.
+
+*Renomeados nesta passada:* `Machado de Bombeiro` → **Machado de Guerra**; `Marreta de Obra` → **Maul**.
+
+## 5.2 As propriedades
+
+*O §8 item 7 dizia que eram sete sem texto, e que enquanto fossem, 15 dos 16 pares da matriz sairiam `INCONCLUSIVO`.* **Três delas eram a mesma coisa com três nomes.**
+
+`Alcance`, `Distância` e `Arremesso` descreviam todas a mesma pergunta — *a que distância essa arma alcança?* — e a resposta é um número, não uma redação. Colapsaram em duas, **`Alcance`** para o braço e **`Longo Alcance`** para o projétil, as duas com valor em metros. `Distância` e `Arremesso` saem da lista de propriedades; `Arremesso` continua vivo como **categoria**.
+
+| propriedade | o que é |
+|---|---|
+| **`Alcance`** | número em metros no corpo a corpo. Padrão 1,5 m; as `Armas Longas` chegam a 3 m |
+| **`Longo Alcance`** | número em metros para projétil e arremesso |
+| **`Duas mãos`** | ocupa as duas. É a única que já era mensurável, via o escudo que ela impede |
+| **`Fineza`** | troca Força por Destreza no acerto **e** no dano do corpo a corpo |
+| **`Par`** | **role dois dados de dano e fique com o melhor** |
+
+> **`Fineza` não é só da Rapieira.** *Direção do Mizuki:* ela vai para as armas focadas em agilidade — **a `Lâmina Curta` inteira, boa parte do `Arremesso`, e o que mais for lâmina pequena**. A lista fecha junto da classe das doze armas novas, porque as duas respondem à mesma pergunta: *o preço mora na classe ou na arma?*
+| **`Oculta`** | **move de *não rola* para *rola* esconder a arma.** Zero número em combate |
+| **`Versátil`** | **nas duas mãos, o dado sobe um passo** — d6→d8, d8→d10, d10→d12 |
+| **`Munição`** | **recarregar custa a sua ação**, e dispara por dois gatilhos ao mesmo tempo |
+
+### `Oculta` — ela é a camada 1 do §6, e não precisou de régua nova
+
+*"Item abre a porta, treino atravessa bem."* Uma arma `Oculta` move quem a carrega de **não rola** para **rola** na hora de passar por revista, entrar armado onde não se entra, ou sacar sem ninguém ver começar. Ela **não soma maestria, não concede treino e não repete rolagem** — isso é o que o marco compra.
+
+**Ela não produz número nenhum em combate**, e é por isso que ela cabe: os quatro eixos que o §6 fechou — proteção, cura, dado de dano e PE — continuam intocados, e o quinto, bônus em rolagem, é justamente o que ela não faz.
+
+### `Versátil` — um passo, e o valor não depende da arma
+
+*Decisão do Mizuki:* não é um par fixo de dados, é **um degrau na escada**, e qual degrau depende da arma.
+
+| | ganho médio | por rodada |
+|---|---|---|
+| d6 → d8 · d8 → d10 · d10 → d12 | +1,0 em todos | **0,33** |
+
+**Uniforme de propósito**, e igual ao que o `Par` entrega (0,32). Duas propriedades, o mesmo peso — o que é bom sinal, porque nenhuma das duas vira a escolha óbvia.
+
+> **Mas ela não conserta a dominância do §5, e mudou a forma dela.** A `Versátil` só rende o passo se você largar o escudo, que custa 2,01 por rodada. Então:
+>
+> | | `Uma mão` (d8) | `Versátil` (d8) |
+> |---|---|---|
+> | com escudo — o caso normal | 1,49 | 1,49 |
+> | sem escudo | 1,49 | **1,82** |
+>
+> **Não existe caso em que a `Uma mão` seja melhor; existem casos de empate.** Virou dominância *fraca* em vez de estrita, e o requisito de Força 2 contra 1 não cobra nada porque os dois cabem na criação. **Continua aberto**, e as saídas são três: juntar as duas classes numa só, dar à `Uma mão` alguma coisa que a `Versátil` não tenha, ou aceitar por escrito que a diferença entre elas é ficção.
+
+### `Munição` — dois gatilhos, e o teto não é o pente de verdade
+
+*Decisão do Mizuki: os dois juntos.*
+
+> **Recarregar custa a sua ação.** Você recarrega quando tirar **1 ou 2 natural** no ataque, **ou** depois de **X ataques**, o que vier primeiro. O X é da arma.
+
+**O X não é a capacidade real, e o número diz por quê.** Num combate de 3,7 rodadas você ataca cerca de **2,2 vezes** com a arma. Medido em simulação:
+
+| teto X | recargas por combate | fração dos ataques perdida |
+|---|---|---|
+| 1–2 | 1,19 | 54% |
+| 3 | 1,03 | 46% |
+| **4 ou mais** | **0,30** | 14% |
+
+**De 4 em diante o teto nunca morde** — o gatilho do dado natural assume sozinho, e o número vira enfeite impresso na ficha. Um pente de trinta seria fiel e mecanicamente morto. Então **X é *tiros por briga*, não capacidade**, e a faixa que significa alguma coisa tem quatro valores: `1`, `2`, `3` e **`—`** (sem teto, só o dado natural).
+
+*Isso é o modo de falha que o levantamento externo descreve com todas as letras — **"um número que sobe e desce e nunca chega a zero, e nada de interessante sai dele"** —, e é por isso que ele é abstraído em vez de contado.* O gatilho do dado natural existe para o susto; o teto existe para o ritmo.
+
+**Recarregar é Ação Bônus** — decisão do Mizuki. E isso tem uma consequência que precisa estar escrita: **em Ação Bônus a `Munição` custa zero.** A peça 3 §2 chama a Ação Bônus de *"a peça mais herdada do turno"*, e o §4 desta peça mediu o slot como vazio. Você recarrega gastando o que não estava usando.
+
+> **Ela deixa de ser preço e vira textura, e isso muda no dia em que o slot encher.** O `ESTADO-ATUAL` já promete que a peça de Caminhos dá ao Bastião **socar como Ação Bônus**. Quando aquela peça sair, a `Munição` passa a cobrar de verdade — e o preço da arma de fogo sobe sozinho, sem ninguém mexer em número. É a mesma forma do escudo em Ação Bônus, medida no §4.
+
+### O dado do tiro, e o argumento que não vale
+
+*Decisão do Mizuki: **3d10 no topo**, escada descendo a partir dele.*
+
+| categoria e arma | dado | médio | contra a `Pesada` (12,5) |
+|---|---|---|---|
+| Metralhadora Pesada · Rifle de Precisão | **3d10** | 16,5 | +4,0 |
+| Rifle · Espingarda · Besta | 3d8 | 13,5 | +1,0 |
+| Submetralhadora | 3d6 | 10,5 | −2,0 |
+| Pistola · Revólver · Besta de Uma Mão | 2d8 | 9,0 | −3,5 |
+
+**O tamanho, medido nas duas unidades, porque uma delas engana:** o 3d10 está **+32% no golpe simples** e **+4,3% da Rotina**. O golpe simples é o fallback, usado em cerca de 60% das rodadas; a Rotina é a saída total. *Os +4,3% são exatamente o tamanho da `Fineza`, que foi aceita como sabor, e menos que os 7,5% que a Trilha da Vanguarda já tem de cobrir.* **A decisão fica de pé pelo tamanho.**
+
+> **Mas o argumento que a sustentava não vale, e fica registrado por quê.** Ele era: *"ela não soma mod E tem munição, então tem duas penalidades."* **As duas não são penalidades por cima do dado.**
+>
+> A primeira **já está dentro do número**: a `Pesada` faz `d12 + Força 6 = 12,5` e a arma de fogo faz `3d10 = 16,5`. O 16,5 já é o total sem mod — **não somar atributo é o que o dado grande compensa**, não um desconto a mais. Contar as duas coisas é somar a mesma uma vez em cada direção, que é a **lição nº 2**, o erro mais teimoso do projeto.
+>
+> A segunda **vale zero**, medida acima: recarregando em Ação Bônus, a `Munição` não tira ataque nenhum.
+>
+> *E o outro lado paga o mesmo que parecia não pagar:* Força 6 e Destreza 6 custam **3 pontos cada**, os dois saindo do 3 da criação, e as duas carregam `Duas mãos`, então as duas largam o escudo. **O que a arma de fogo ganha de graça é a distância.**
+
+### `Uma mão` × `Versátil` — aceita, e o motivo é melhor que o número
+
+*A dominância é fraca: com escudo empatam em 1,49; sem escudo a `Versátil` faz 1,82. Não existe caso em que a `Uma mão` seja melhor.*
+
+> **Decisão do Mizuki: fica.** *"Vai ter vezes que vamos querer uma mão livre, por exemplo para pegar itens — e a `Uma mão` pode vir a ser usada em empunhadura dupla, uma mecânica que podemos trabalhar depois."*
+
+**As duas razões são reais e nenhuma das duas tem número hoje**, e é honesto dizer isso: nada no sistema hoje cobra por ter as mãos ocupadas fora do escudo, e a empunhadura dupla não existe. **É valor a prazo** — a classe está reservada para uma mecânica que vem, não paga uma que já está aqui. Entra como `ACEITA` com o motivo escrito, e **o validador confere que a diferença entre as duas continua sendo só a propriedade**, para ninguém alargar o buraco enquanto ele espera.
+
+### `Par` — a conta fechou em cima do alvo
+
+A `Curta` (d6, `Par`, Força 0) contra a `Uma mão` (d8, sem `Par`, Força 1). O requisito não custa nada — nenhuma classe passa do teto da criação —, então **`Par` precisa valer exatamente a diferença de dado, ou a `Curta` está dominada**:
+
+| | valor |
+|---|---|
+| alvo — o buraco d6 contra d8 | **0,33** por rodada |
+| `Par` entrega, no d6 | **0,32** |
+
+Melhor de dois no d6 dá 4,47 de média contra 3,50. **Erra por um centésimo, e não inventa mecânica**: é a mesma vantagem que a peça 11 já precifica e que a peça 4 §5 já garante que não empilha. E, principalmente, **não é ataque extra** — a trava da peça 6 §3 continua inteira, que é o que impede duas armas de virarem dois golpes.
+
+### As colisões aceitas, e por que cada uma fica
+
+*Decisão do Mizuki: as três ficam.* **Aceita registrada é diferente de colisão não vista**, e a diferença é o registro.
+
+| nome | colide com | por que fica |
+|---|---|---|
+| `Oculta` · `Versátil` | são **classe e propriedade** ao mesmo tempo | a classe se chama pela propriedade que a define. *"É intuitivo, e por costume ninguém confunde"* |
+| `Pesada` | é classe de arma **e** o tier mais caro de Restrição | mesmo motivo, e a colisão já existia sem ninguém ter visto |
+| `Alcance` · `Longo Alcance` | `Alcance` é Família e Melhoria no manual | colisão de camada: no manual descrevem o que um *feitiço* faz, aqui o que um *objeto* é |
+| `Chicote` | é **feitiço pronto** no manual, nome inteiro | *"não tem problema ter comparação com o feitiço lá"* |
+
+> **E o `ARMA DE FOGO` virou régua, não exceção.** O critério do Mizuki: *"fogo é uma palavra única, mas arma de fogo é um conjunto de palavras — mesmo que colida, não tem tanto problema."* Isso é um grau novo ao lado de `OCUPADO`, `DENTRO` e `fraco`: **um nome composto que contém termo ocupado não herda a colisão**, porque *Arma de Fogo* não é o Tema `Fogo`. Vale para categoria e para arma, e entra no `conferir-nomes.py`.
+
+> **A triagem tem um quarto ponto cego, e ele apareceu aqui.** `Leve`, `Média` e `Pesada` são os **tiers de Restrição** — `Leve = teto(Classe/2)`, `Média = Classe`, Pesada é o mais caro —, e os três saem `LIVRE` porque a triagem compara contra as listas de Família, Forma, Melhoria e Tema, e **tier de magnitude não está em lista nenhuma**. A classe de arma `Pesada` colide com o tier `Pesada` desde que as duas existem. Fica aceita, e o ponto cego fica registrado.
 
 ### A matriz por valor total, e o que ela achou
 
@@ -276,7 +548,26 @@ A peça 5 já provou que **o dado não é alavanca**: trocar d6 por d12 move tr�
 
 O `ESTADO-ATUAL` diz que a árvore da Vanguarda é *"o que se faz com a arma: alcance, reposicionamento forçado, troca de alvo, exceção na economia de ação"*. **Nenhuma propriedade de arma concede manobra, reposicionamento nem exceção de ação** — senão a peça 4 da fila nasce sem ter o que dar. A naginata *tem* alcance (fato do objeto); a Vanguarda *estende* o alcance (ação).
 
-### `Precisa` (Destreza no corpo a corpo) foi rejeitada, com conta
+### `Precisa` foi rejeitada na v0.41 e voltou como `Fineza` na v0.42 — e um dos dois argumentos caiu
+
+*Reversão de decisão escrita, registrada aqui inteira para ninguém reabrir daqui a dez versões achando que não houve conta.*
+
+**O argumento que caiu:** *"`Precisa` tira o primeiro trabalho da Força, que tem uma perícia só."* Ele era verdade quando foi escrito. **Depois desta peça, Força compra** o requisito de arma, o Traje degrau 3, o Revestimento 1/2/3, o escudo degrau 2 e 3, mais agarrar, quebrar e carga. O *segundo trabalho* que a peça 1 §9 pede desde a v0.24 **existe agora**, e não existia na v0.41.
+
+**O argumento que ficou de pé, e agora tem número:** *"a diferença de dado inteira vale menos que a Defesa sozinha."*
+
+| ficha | dano | por rodada | Defesa |
+|---|---|---|---|
+| Força 6 · Pesada + Revestimento 3 + escudo 3 | 12,5 | 4,12 | 19 |
+| Destreza 6 · Lâmina Longa com `Fineza` + cobrir-se | 10,5 | 3,47 | **19** |
+
+**As duas chegam a Defesa 19 por rotas diferentes, e o dano fica a 1,32 por rodada — 4% da Rotina.** Com equipamento no prato da Força, deixa de ser dominância e vira escolha de sabor. *O contrapeso não existia quando a decisão foi tomada; ele saiu desta mesma peça.*
+
+**O nome mudou duas vezes.** `Precisa` sai `fraco` na triagem — a uma letra de **Precisão**, que é Melhoria do manual. `Finez` foi a primeira escolha do Mizuki e ele mesmo trocou: **`Fineza`**, que é a palavra em português e sai `LIVRE`.
+
+*O texto abaixo é o argumento original de v0.41, e fica porque a metade dele continua valendo:*
+
+### O argumento de v0.41 contra Destreza no corpo a corpo
 
 A peça 5 §1 já mediu: `+1` de Destreza evita 2 a 7 de dano num combate de três rodadas, e um dado maior rende `+2` por golpe. Mesmo com o menor dado do catálogo, a ficha de Destreza faria 5,5 de dano contra 8,5 da arma pesada — perde 3 e ganha Defesa, iniciativa e quatro perícias. **A diferença de dado inteira vale menos que a Defesa sozinha.**
 
@@ -464,9 +755,17 @@ A peça 11 escolheu o `1,5 ×` com critério escrito: *"o saldo **encolhe** em v
 4. **Munição:** quantos tiros, e como recarrega. Nenhum número ainda.
 5. **`Versátil`:** os dois dados não estão escritos, e a conta diz que **nenhum par resolve** — nem `d8/d10`, nem `d8/d12`, nem `d6/d10`. Largar o escudo nunca compensa enquanto o escudo for proteção. O par vira escolha de sabor depois que a forma do escudo fechar, não antes.
 6. **Os nomes dos degraus de escudo, e quantos são.** A forma fechou — proteção, requisito de Força, teto de Destreza. Faltam os nomes e a contagem. Livres na triagem: **Broquel · Pavês · Rodela · Adarga · Tarja · Couraça · Guarda-Corpo**.
-7. **As sete propriedades sem texto.** `Alcance`, `Distância`, `Par`, `Oculta`, `Arremesso`, `Versátil` e `Munição` são nome na tabela e nada mais. Enquanto forem, 15 dos 16 pares da matriz saem `INCONCLUSIVO` e `Haste` e `Tiro pesado` ficam a 0,60 de estarem dominadas pela `Pesada`.
-8. **O teto de Defesa 20 não tem dono declarado.** A seção 3 derivou dele — *"caiu da régua, não foi calibrado"* — e agora a escada de escudos se apoia nele. Derivação virou invariante sem ninguém decidir, e isso é a lição nº 9 chegando pela porta de trás. **Ou a peça 1 adota o 20, ou esta peça declara que é dona dele.**
-9. **O validador.** Checagens que ele precisa ter: a régua do orçamento por classe; dominância **por valor total e uma vez por rota de proteção**; a escada de proteção contra a peça 11; o requisito de Força contra a peça 2 — incluindo que **nenhum requisito passe do teto de criação sem que isso seja decisão escrita**; a busca exaustiva de uniforme × escudo × Destreza contra o teto de Defesa; que a frase do desligamento não cite escudo nos três documentos; **que nenhum item comum produza número** e que o teto de consumível por missão bata com as lutas de graça da peça 10; e que todo nome do catálogo, **propriedade inclusive**, passe na triagem — com `Alcance` e `Distância` entrando como `ACEITA` e não como erro.
+7. ~~**As sete propriedades sem texto.**~~ **Reduzidas a duas e meia na v0.42, e três delas eram a mesma coisa.** `Alcance`, `Distância` e `Arremesso` colapsaram em `Alcance` e `Longo Alcance`, as duas com número em metros em vez de redação. `Par` fechou em *"role dois dados de dano e fique com o melhor"*, 0,32 contra um alvo de 0,33. `Fineza` entrou. **Falta `Oculta`, os dois dados da `Versátil` e o número da `Munição`.**
+
+   > **E o `0,60` daquela linha estava errado.** Com a fórmula que o §4 desta mesma peça fixou — `diferença de dado × 0,55 de acerto × 0,60 de uso` —, d10 contra d12 dá **0,33**. O `0,66` do §4 reproduz exato; o `0,60` do §5 só aparece se você tirar o fator de uso. **Duas fórmulas no mesmo documento**, e a segunda foi escrita sem o fator que a primeira tinha acabado de estabelecer.
+
+   > **Mas o buraco de verdade não era o dado, e ele é 5× maior.** A peça 6 §3 é a única definição do golpe simples no projeto — *"arma + Força"* — e **não tem exceção para arma de tiro**. Como o acerto à distância soma Destreza (peça 1 §5), a arma de tiro acertava com um atributo e causava dano com o outro: **2,48 por rodada contra os 4,12 da Pesada, quando a matriz achava que a distância era 0,33.** É a lição nº 6 na direção de sempre — o preço usa um termo que existe, e ninguém foi ler a regra pendurada nele. *Resolvido pela categoria: `Yumi` soma Destreza, `Balestra` e `Arma de Fogo` não somam atributo nenhum e ganham dado maior.*
+8. ~~**O teto de Defesa 20 não tem dono declarado.**~~ **Fechado na v0.42, e a resposta não era nenhuma das duas que esta linha oferecia.** O 20 é **derivado** de três números que já têm dono — `10` da peça 1 §5, o teto de atributo `6` e o teto de refino `10` da peça 2 §3, e a fórmula de cobrir-se da peça 11 §5. Zero parâmetros livres, então **ninguém escreve o número**: escrevê-lo em qualquer peça seria a lição nº 9, e medir uma checagem contra ele seria a nº 8. O que esta peça declara é o **invariante** — *nenhuma montagem de equipamento passa da Defesa que a rota sem equipamento alcança* —, e o validador deriva o teto dos três donos. Está no §3.
+
+   > **E de passagem caiu a frase que sustentava o item:** o §3 dizia que as duas rotas topam em 20. Equipamento topa em **19**, e a diferença nasceu no §4, quando o escudo ganhou teto de Destreza. **Decisão do Mizuki: fica em 19**, agora como decisão e não como sobra.
+9. **O validador.** Checagens que ele precisa ter: a régua do orçamento por classe; dominância **por valor total e uma vez por rota de proteção — e são TRÊS rotas, não duas** (cobrir-se · uniforme · **sem energia nenhuma**, que é a Restrição Celestial pelo ramo da Maki e não tem cobrir-se para desligar); a escada de proteção contra a peça 11; o requisito de Força contra a peça 2 — incluindo que **nenhum requisito passe do teto de criação sem que isso seja decisão escrita**; que **o teto de Defesa seja derivado dos três donos e nunca lido de uma constante**, com a busca exaustiva provando que nenhuma montagem de equipamento passa da rota livre; que a lista de situações do Traje passe na régua de três itens do §3, **inclusive a vaga aberta**, e que o Traje conceda **uma** situação e não uma por degrau;
+
+   > **A dominância do escudo muda de resposta conforme a rota, e isso é novo.** O §4 provou que nenhum degrau é dominado — degrau 1 melhor em Destreza 4–6, degrau 2 em 2–3, degrau 3 em 0–1. **Aquela tabela foi rodada só na rota de cobrir-se.** Na rota do Revestimento o teto de Destreza já é 0, então o teto do escudo não custa nada e ele vira proteção pura: **o degrau 3 domina o 1 e o 2, sempre.** E `Revestimento 3 + escudo 3` dá 19 com Destreza **zero** — o melhor resultado do sistema em cinco das sete Destrezas, e empate na sexta. Isso não derruba a escada; ela continua certa na rota em que foi medida. O que muda é que a peça tem de dizer que **o degrau 3 é a resposta do Revestimento e o degrau 1 a de cobrir-se**, em vez de vender três opções para todo mundo. *É o furo que este item já previa acontecendo antes de o validador existir.* a busca exaustiva de uniforme × escudo × Destreza contra o teto de Defesa; que a frase do desligamento não cite escudo nos três documentos; **que nenhum item comum produza número** e que o teto de consumível por missão bata com as lutas de graça da peça 10; e que todo nome do catálogo, **propriedade inclusive**, passe na triagem — com `Alcance` e `Distância` entrando como `ACEITA` e não como erro.
 10. **A lista de itens comuns.** A régua das três camadas fechou; os itens não. Quantos, quais e como se chamam é escolha de sabor, e cada um precisa passar pelo filtro *"não produz número"* e pela triagem.
 11. **A moeda.** Adiada de propósito na v0.40 — *"provavelmente vai ser com preço e fornecimento"*. A única moeda que o projeto declara hoje é **patente, contato, favor, acesso** (peça 12 §6), e ela é discricionária: dois mestres liberam coisas diferentes pelo mesmo favor. Se ela virar a moeda de item, precisa de tabela, no molde do ambiente propício.
 

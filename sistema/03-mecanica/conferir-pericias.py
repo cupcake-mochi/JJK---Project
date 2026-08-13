@@ -52,8 +52,20 @@ PERICIAS = {
     'Constituicao': [],
 }
 
-OFICIOS = ['Conducao', 'Arrombamento', 'Herbalismo', 'Forja', 'Caligrafia',
-           'Burocracia', 'Entalhador', 'Culinaria', 'Instrumento', 'Jogatina']
+# v0.42: a lista de oficios saiu daqui e passou a ser LIDA da peca 7.
+# Ela morava em tres lugares — a peca, este validador e o dados.js da ficha —
+# e so dois eram comparados (o conferir-ficha.py cruza a peca com o dados.js).
+# Este arquivo era a terceira copia, sem ninguem conferindo. Licao no 9.
+_P7 = open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                        '07-pericias-e-oficios.md'), encoding='utf-8').read()
+_SEC = re.search(r'## 5\. Os \w+ of[ií]cios(.*?)(?=\n## )', _P7, re.S)
+OFICIOS = [norma(n).capitalize() for n in re.findall(r'\*\*([^*]+)\*\* — ', _SEC.group(1))] if _SEC else []
+
+# Quantos a peca DECLARA, lido do titulo dela — separado da lista aplicada,
+# que e a licao no 8: a checagem nao pode se medir contra a propria constante.
+_NUM = {'nove': 9, 'dez': 10, 'onze': 11, 'doze': 12, 'treze': 13, 'catorze': 14}
+_m = re.search(r'## 5\. Os (\w+) of[ií]cios', _P7)
+OFICIOS_DECLARADOS = _NUM.get(_m.group(1).lower()) if _m else None
 
 # Cada Caminho fixa duas pericias e um oficio. O resto o jogador escolhe livre.
 CAMINHOS = {
@@ -124,8 +136,13 @@ print(f'\n  total: {total} pericias, {len(OFICIOS)} oficios')
 
 if not 21 <= total <= 25:
     erro(f'{total} pericias — a peca 07 declara 23')
-if len(OFICIOS) != 10:
-    erro(f'{len(OFICIOS)} oficios — a peca 07 declara 10')
+if not OFICIOS:
+    erro('nao consegui ler a lista de oficios da peca 07 (o titulo do §5 mudou?)')
+if OFICIOS_DECLARADOS is None:
+    erro('o titulo do §5 da peca 07 nao diz quantos oficios sao, por extenso')
+elif len(OFICIOS) != OFICIOS_DECLARADOS:
+    erro(f'a peca 07 lista {len(OFICIOS)} oficios e o titulo dela declara '
+         f'{OFICIOS_DECLARADOS}')
 if PERICIAS['Constituicao']:
     erro('Constituicao ganhou pericia — a peca 4 decidiu que ela nao tem nenhuma')
 

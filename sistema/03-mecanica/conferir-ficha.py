@@ -4,7 +4,7 @@
 
 Por que ele existe
 ------------------
-A ficha imprime catalogo: 23 pericias, 10 oficios, 5 Caminhos, 15 Trilhas, os
+A ficha imprime catalogo: 23 pericias, os oficios, 5 Caminhos, 15 Trilhas, os
 4 Testes de Resistencia, e as constantes do nivel 2. Cada um desses e' uma
 COPIA de uma peca — e este projeto ja sabe o que acontece com copia sem dono:
 a peca 8 passou sete versoes com a Defesa errada porque ninguem comparava.
@@ -20,7 +20,7 @@ discordam.
 Seis checagens
 --------------
   1. PERICIAS — as 23 da ficha sao as 23 da peca 7, com o mesmo atributo.
-  2. OFICIOS — os 10 da ficha sao os 10 da peca 7.
+  2. OFICIOS — os da ficha sao os da peca 7 (a contagem sai da peca).
   3. CAMINHOS — nome, vida inicial, vida por nivel e PE por nivel batem com a
      peca 8, e as pericias e o oficio fixos batem com a peca 7.
   4. TRILHAS — as 15 da ficha existem na peca 6, no Caminho certo.
@@ -158,10 +158,12 @@ if peca_per and ficha_per:
             print(f'    [x] {attr:<14} {len(a)} pericias, iguais')
 
 # ==========================================================================
-bloco('2. OFICIOS — os 10 da ficha sao os 10 da peca 7?')
+bloco('2. OFICIOS — os da ficha sao os da peca 7?')
 
 peca_of = re.findall(r'^\*\*(\w+)\*\* — ', P7, re.M)
-secao = re.search(r'## 5\. Os dez ofícios(.*?)(?=\n## )', P7, re.S)
+# v0.42: era '## 5. Os dez ofícios' literal, e mudar o titulo da peca 7
+# quebrava este validador em vez de acusar o que mudou.
+secao = re.search(r'## 5\. Os \w+ of[ií]cios(.*?)(?=\n## )', P7, re.S)
 if secao:
     peca_of = re.findall(r'\*\*([^*]+)\*\* — ', secao.group(1))
 ficha_of = lista_js('const OFICIOS')

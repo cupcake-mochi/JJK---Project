@@ -258,10 +258,30 @@ if not re.search(r'Cobrir-se de energia · grátis no refino 1', P11):
 else:
     print('  [x] cobrir-se de energia continua gratuita no refino 1')
 
-if not re.search(r'Sem uniforme, sem armadura e sem escudo', P11):
-    erro('a condicao "sem uniforme, sem armadura e sem escudo" sumiu da peca 11')
+# v0.42: a condicao mudou de forma com a peca de equipamento. O escudo saiu
+# da lista do que desliga (ele SOMA agora), e as duas classes de uniforme
+# ganharam nome. Confere as duas metades separadas, para uma nao esconder a outra.
+if not re.search(r'Sem Traje e sem Revestimento', P11):
+    erro('a condicao de cobrir-se ("sem Traje e sem Revestimento") sumiu da peca 11')
 else:
-    print('  [x] a condicao dela (sem uniforme, armadura ou escudo) continua escrita')
+    print('  [x] a condicao dela (sem Traje e sem Revestimento) continua escrita')
+
+# E a metade que a v0.42 pagou para consertar: o escudo NAO pode voltar para a
+# lista do que desliga, em nenhum dos tres documentos. Decisao registrada nao e
+# decisao aplicada — foi assim que a Trilha passou sete versoes.
+for arq, txt in (('peca 11', P11), ('peca 8', P8)):
+    if re.search(r'(armadura e sem escudo|armadura e escudo \*\*desligam|'
+                 r'uniforme, armadura e escudo)', txt):
+        erro(f'o escudo voltou para a lista do que desliga cobrir-se, na {arq} — '
+             f'a v0.42 decidiu que ele SOMA')
+else:
+    print('  [x] o escudo continua fora da lista do que desliga (ele soma)')
+
+if re.search(r'sem a protecao passiva|sem a prote\u00e7\u00e3o passiva', P11):
+    erro('o preco da Reacao de cobrir-se voltou a dizer "a protecao passiva" — '
+         'ele tem de ser agnostico de fonte, senao quem esta fardado nao paga nada')
+else:
+    print('  [x] o preco da Reacao continua agnostico de fonte ("sem protecao")')
 
 
 # ==========================================================================

@@ -3,7 +3,7 @@
 """Confere TODO nome batizado pelo projeto, nas duas direcoes.
 
 O conferir-pericias.py ja faz isso — mas so com 33 nomes: as 23 pericias e os
-10 oficios. O projeto batizou muito mais coisa: 15 Trilhas, 5 Caminhos, 14
+11 oficios. O projeto batizou muito mais coisa: 15 Trilhas, 5 Caminhos, 14
 Legados, 8 Origens, os termos de sistema. Nenhum desses passava pela checagem,
 e foi por isso que Sombra, Enxame e Oficio ficaram no material.
 
@@ -118,7 +118,7 @@ DEFINIDO_EM = {
     **{l: '09-origens.md' for l in LEGADOS},
 }
 
-# As 23 pericias e os 10 oficios vem do conferir-pericias.py, para nao existirem
+# As 23 pericias e os oficios vem do conferir-pericias.py, para nao existirem
 # duas listas que possam divergir. Se aquele arquivo sumir, seguimos sem eles.
 PERICIAS, OFICIOS = [], []
 sys.dont_write_bytecode = True   # nao sujar a pasta com __pycache__ ao importar

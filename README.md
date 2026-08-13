@@ -2,7 +2,7 @@
 
 Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.41** · manual do Fundamento na **v7.8** · **treze peças de regra** e **treze validadores passando**.
+**Versão v0.42** · manual do Fundamento na **v7.8** · **treze peças de regra** e **treze validadores passando**.
 
 ---
 
@@ -101,7 +101,7 @@ python3 conferir-legados.py      # os três formatos, a cota de Desliga, as vaga
 
 O `conferir-criacao.py` confere **instância** — *a ficha publicada na peça 8 obedece à fórmula?* —, e ele nasceu na v0.34 depois de aquela peça passar sete versões com a Defesa errada e a Trilha faltando, com os outros verdes o tempo todo.
 
-O `conferir-ficha.py` confere **material**: as 23 perícias, os 10 ofícios, os 5 Caminhos, as 15 Trilhas e as constantes do nível 2 que a ficha de `05-material/` imprime, contra as peças donas. Ficha errada não fica num `.md` que ninguém abre — ela vira personagem, em sete mesas ao mesmo tempo.
+O `conferir-ficha.py` confere **material**: as 23 perícias, os 11 ofícios, os 5 Caminhos, as 15 Trilhas e as constantes do nível 2 que a ficha de `05-material/` imprime, contra as peças donas. Ficha errada não fica num `.md` que ninguém abre — ela vira personagem, em sete mesas ao mesmo tempo.
 
 O `conferir-legados.py` confere **catálogo**, e entrou na v0.39 junto com a peça 13. A checagem que mais rende é a que recalcula a tabela de totais da peça e falha se o escrito não bater com o contado — as contas do rascunho já tinham envelhecido duas vezes dentro do próprio arquivo antes de ele existir.
 

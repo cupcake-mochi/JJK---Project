@@ -16,10 +16,10 @@ const PERICIAS = [
                     'Intimidação', 'Atuação', 'Provocar']],
 ];
 
-// os 10 oficios (peca 7, secao 5). Oficio NAO tem atributo fixo: o mestre
+// os 11 oficios (peca 7, secao 5). Oficio NAO tem atributo fixo: o mestre
 // escolhe na hora, conforme o que voce faz com ele.
 const OFICIOS = ['Condução', 'Arrombamento', 'Herbalismo', 'Forja', 'Caligrafia',
-                 'Burocracia', 'Entalhador', 'Culinária', 'Instrumento', 'Jogatina'];
+                 'Burocracia', 'Entalhador', 'Alfaiate', 'Culinária', 'Instrumento', 'Jogatina'];
 
 // os 5 Caminhos (peca 8, passo 3) — vida no nv1, vida por nivel, PE por nivel
 const CAMINHOS = [

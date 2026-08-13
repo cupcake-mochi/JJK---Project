@@ -159,7 +159,7 @@ Você é bom em pouco mais de um terço do que existe — os buracos são de pro
 
 > **Perícia sem treino você tenta; ofício sem treino, não.** Qualquer um escala e falha. Ninguém forja uma lâmina por tentativa.
 
-O quadro completo das vinte e três perícias e dos dez ofícios está na peça 7.
+O quadro completo das vinte e três perícias e dos onze ofícios está na peça 7.
 
 ## Passo 7 · Os números que caem sozinhos
 
@@ -185,7 +185,7 @@ Teste de Resistência = d20 + atributo do TR, +2 se treinado
 
 **No refino 1 você já tem duas aptidões, de graça:** **cobrir-se de energia**, que dá proteção sem equipamento, e **canalizar energia**, que é o que permite ferir uma maldição com o corpo ou com a arma. Elas são básicas de qualquer feiticeiro e por isso não custam nada — as aptidões que você comprar depois melhoram o que já existe.
 
-> **E cobrir-se de energia entra na sua Defesa agora.** Sem uniforme, sem armadura e sem escudo, a sua proteção é `1/3 do refino + 1`, que no refino 1 dá **1**. Toda ficha de nível 2 nasce com **proteção 1** — ela não vem de equipamento, vem de você ser feiticeiro. *Corrigido na v0.34: esta peça é da v0.21 e dizia proteção 0, porque o número da aptidão só nasceu na v0.27.*
+> **E cobrir-se de energia entra na sua Defesa agora.** Sem Traje e sem Revestimento, a sua proteção é `1/3 do refino + 1`, que no refino 1 dá **1** — e **escudo soma** com ela, em vez de desligar. Toda ficha de nível 2 nasce com **proteção 1** — ela não vem de equipamento, vem de você ser feiticeiro. *Corrigido na v0.34: esta peça é da v0.21 e dizia proteção 0, porque o número da aptidão só nasceu na v0.27.*
 
 ## Passo 8 · Pactos
 
@@ -258,7 +258,7 @@ E a que sustenta as sete: **o mestre pode recusar mesmo quando passa em tudo.** 
 ## Em aberto
 
 - **A regra de Pactos**, que hoje é só uma trava e uma promessa.
-- **Equipamento.** A tabela de proteção não existe, então a ficha nasce **só** com a proteção 1 de cobrir-se de energia. Não trava a criação, mas trava a segunda sessão — e é ela que decide se vale a pena vestir alguma coisa, já que uniforme e armadura **desligam** a proteção de energia.
+- **Equipamento.** A tabela de proteção não existe, então a ficha nasce **só** com a proteção 1 de cobrir-se de energia. Não trava a criação, mas trava a segunda sessão — e é ela que decide se vale a pena vestir alguma coisa, já que Traje e Revestimento **desligam** a proteção de energia — mas escudo **soma** com ela. *(Aplicado na v0.42, junto com a peça de equipamento.)*
 - **Quantas Trilhas um personagem acumula, e em que níveis.** A primeira vem no nível 2, junto do Caminho. O que ela entrega com número é a peça de Trilhas.
 - **Se vinte a quarenta minutos é real.** É estimativa, e o playtest mede.
 

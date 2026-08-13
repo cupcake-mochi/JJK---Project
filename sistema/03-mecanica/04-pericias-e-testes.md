@@ -3,7 +3,7 @@
 **Fase 4, quarta peça.** O que se rola quando não é feitiço.
 Versão v0.12, encurtada na v0.21 — 06/08/2026
 
-> **O quadro de perícias saiu daqui.** Ele mora na peça 7, com vinte e três perícias e dez ofícios — a lista de catorze que ficava aqui foi para `99-arquivo/`. **Atenção a uma mudança de casa:** desde a v0.16, **Sentir Energia e Percepção moram em Essência**, não em Inteligência. **O resto desta peça vale inteiro:** a rolagem, a escada de dificuldade, falhar move a cena, ajudar e rolar em grupo, e o ataque de oportunidade.
+> **O quadro de perícias saiu daqui.** Ele mora na peça 7, com vinte e três perícias e onze ofícios — a lista de catorze que ficava aqui foi para `99-arquivo/`. **Atenção a uma mudança de casa:** desde a v0.16, **Sentir Energia e Percepção moram em Essência**, não em Inteligência. **O resto desta peça vale inteiro:** a rolagem, a escada de dificuldade, falhar move a cena, ajudar e rolar em grupo, e o ataque de oportunidade.
 
 ---
 
@@ -51,7 +51,7 @@ Duas leituras que importam para o mestre:
 
 ## 3. O quadro de perícias mora na peça 7
 
-**Vinte e três perícias e dez ofícios**, em `07-pericias-e-oficios.md`. O Caminho dá duas perícias fixas e mais quatro à escolha livre, além de um ofício fixo e outro livre; a Origem dá mais duas perícias. Oito de vinte e três.
+**Vinte e três perícias e onze ofícios**, em `07-pericias-e-oficios.md`. O Caminho dá duas perícias fixas e mais quatro à escolha livre, além de um ofício fixo e outro livre; a Origem dá mais duas perícias. Oito de vinte e três.
 
 *A lista de catorze que ficava aqui foi para `99-arquivo/secoes-substituidas/`.*
 
@@ -108,4 +108,4 @@ Um conjurador **pode** fazer ataque de oportunidade, com soco ou arma, como qual
 - **Se treino em perícia tem graus** (treinado, especialista, mestre) ou é binário. Binário por ora — graus adicionam uma escada nova para pouco ganho, e a maestria já cresce.
 - **Quantas trilhas de Caminho abrem exceção de conjuração na reação**, e sob que condição.
 
-*Resolvido e tirado daqui:* a lista de catorze virou o quadro de **vinte e três perícias e dez ofícios** da peça 7.
+*Resolvido e tirado daqui:* a lista de catorze virou o quadro de **vinte e três perícias e onze ofícios** da peça 7.
