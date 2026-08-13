@@ -6,6 +6,121 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.51] — 2026-08-13
+
+**Cinco das seis perguntas de Invocações fecharam, e nenhuma peça nova nasceu.** O `RASCUNHO-invocacoes.md` foi de 103 para 751 linhas: iniciativa, o modelo da Matilha, a ficha, o custo e a morte. Continuam **catorze peças e catorze validadores** — ele vira a peça 15 quando o catálogo e o validador existirem.
+
+### Decidido — as cinco perguntas
+
+| | fechou em |
+|---|---|
+| **Q1** iniciativa | a invocação **compartilha o número do dono** e age logo depois. Não abre casa nova, com um corpo ou cinco |
+| **Q2** cinco fichas ou uma | **uma ficha com cinco corpos**, pool de vida com cascata, e a rodada resolvida **em pool** |
+| **Q3** a ficha | **derivada do dono mais um deslocamento fixo**; `Traço` e `Comando`; orçamento de **2 a 9** pontos |
+| **Q4** o custo | **`1 × maior Classe` de PE e a ação padrão** para invocar; **comandar custa a ação padrão** |
+| **Q5** a morte | **some no zero**, vulnerável a área (**dobro**), e **morre em definitivo** nos dois gatilhos |
+
+### Achado — o teto da peça 6 §4 deixou de precisar de decreto
+
+Com comandar custando a ação padrão, o dono e a invocação ficam **mutuamente exclusivos na rodada**:
+
+| | ação da invocação livre | comandar custa a padrão |
+|---|---|---|
+| dono entrega | 1/5 da Rotina | **0 — ele comandou** |
+| invocações entregam | 4/5 | **1 Rotina inteira** |
+| **o que segura o teto** | uma frase da peça 6 | **a economia de ação** |
+
+**Uma regra que cai da economia não precisa de ninguém policiando** — é o filtro multi-mestre passando de graça. E o **Coro** vira a exceção que a peça 5 §4 já autoriza com essas palavras: *"exceção estreita e paga na economia de ação"*.
+
+### Achado — iniciativa por corpo morre no teste que a peça 3 §5 já usava
+
+*"Pelo menos um corpo meu age antes do inimigo"*, com a conta da peça 3 §5 (que reproduz a tabela do Adianta exata — 52,5 / 57,2 / 66,0 / 38,2):
+
+| corpos | casa por corpo | casa do dono |
+|---|---|---|
+| 2 — Servo, Coro | 77,4% | 52,5% |
+| 5 — **Matilha** | **97,6%** | 52,5% |
+
+**Escala com o número de corpos e ninguém pagou.** É o teste que a peça 3 §5 usou para rejeitar iniciativa fixa. **E o contra-teste fecha:** a mesma conta no **dano** dá 52,5% nas três saídas — a conta de dano empata, e é a confirmação numérica do buraco que o rascunho tinha achado. **Zero de seis sistemas levantados dão um número de iniciativa por corpo**, nem o `conjure animals` de 2014, que já rolava uma para o bando.
+
+### Achado — a régua do PE era a errada, e o arredondamento colapsa metade da escada
+
+*Decisão do Mizuki: invocação é coisa que **qualquer Caminho** pode usar.* Então o piso é o **Bastião** (4 PE por nível), e não o Evocador — está escrito no comentário do próprio `conferir-orcamento.py`. **Todas as contas da primeira passada mediam 1,5× o bolso certo.**
+
+E pela peça 1 §5.4 o custo arredonda para cima: **no nível 2 a régua da maior Classe só tem dois degraus.** `teto(0,5 × Classe 1) = 1 = 1 × Classe 1` — **meio preço é preço inteiro no nível em que toda ficha nasce.** `1,5×` e `2×` deixam o Bastião de nível 2 com zero feitiços no dia e saem por conta.
+
+O `1×` escolhido cobra **exatamente um feitiço do dia em todo nível**, do 2 ao 30, e cai no mesmo lugar que um feitiço do topo (22% do dia no nv10).
+
+### Achado — "a primeira invocação é grátis" reprova no filtro multi-mestre
+
+| como o mestre joga | reinvocações no dia | preço efetivo |
+|---|---|---|
+| espalha entre os cinco alvos | 0,8 | 84% |
+| **foca na invocação** | **4,2** | **420%** |
+
+**O mesmo personagem, o mesmo dia: o preço varia cinco vezes conforme quem está mestrando.** *Um preço que só é cobrado quando o mestre decide cobrá-lo não é preço — é imposto variável.*
+
+**E as duas alternativas morreram cada uma por um número:** teto de reinvocações por descanso faz o jogador passar **10,2 das 10,5 rodadas do dia sem o Caminho dele**; e *"a primeira de cada luta não custa ação"* devolve **três Rotinas por dia** e cobra o equivalente a **uma** — desconto maior que o preço.
+
+**A metade que sobrevive não precisa de regra nenhuma:** fora de combate a ação não custa nada, então quem invoca antes da luta entra em campo com a invocação de pé. **É o Megumi com o lobo, e já estava lá.**
+
+### Achado — a área apagava a Matilha, e "vulnerável" resolve sem palavra nova
+
+Com pool único e vida de corpo em meia Rotina, **um feitiço de área de rotina levava `5 × 0,5 = 2,5` Rotinas ao pool — o pool inteiro.**
+
+*Decisão do Mizuki: a área causa o dano **uma vez** no pool, com a invocação **vulnerável**.* Com `×2`, um feitiço de área de rotina tira **dois dos cinco corpos**; apagar a Matilha passa a exigir **1,25 Rotina de área por alvo**. **Contra golpe único o mesmo feitiço tiraria um corpo — então a área vale o dobro, que é o que "vulnerável" já quer dizer.**
+
+### Registrado — a morte em definitivo é canon literal
+
+*Decisão do Mizuki, e a fonte confirma com essas palavras:* **"Once destroyed, they cannot be summoned again."**
+
+A invocação morre de vez se o excedente passar de **metade da vida máxima**, ou se **um golpe causar a vida máxima inteira**. **Nenhum golpe de rotina dispara nenhum dos dois** — precisa de área grande ou de Expansão de Domínio, *que são exatamente as coisas que na obra destroem shikigami de vez.* **A régua dispara onde a ficção dispara, e ninguém escreveu isso à mão.**
+
+### Achado — o que a Trilha concede não sai do orçamento
+
+*Achado montando os shikigami do material contra o catálogo.* O Coelho de Fuga é *"muitos corpos"*, e muitos corpos custariam 3 pontos — **impossível no nível 2, que é onde a Trilha é escolhida.**
+
+> **`Servo` dá um corpo forte, `Matilha` dá os cinco, `Coro` dá a exceção de economia de ação. O orçamento compra `Traço` e `Comando` por cima disso.**
+
+**Isso resolve o nível 2 e dá à Q6 a única coisa que ela ainda não tinha** — o que cada Trilha concede que o orçamento não pode comprar. *A pergunta que esperava a peça de Trilhas ganhou metade da resposta aqui.*
+
+### Registrado — a triagem matou quatro nomes antes de qualquer um ser escrito
+
+`Passiva` (peça do Fundamento), `Natureza` (perícia), `Forma` (Feitiço pronto **e** peça do Fundamento), `Molde` (Tema), `Instinto` (Passiva **e** Tema), `Enxame` e `Sombra` (Temas) saem **OCUPADO**; `Toca` sai dentro de *"Toca a Alma"* e `Golpe` dentro de *"Golpe canalizado"*. **`Traço` e `Comando` saíram LIVRE** — e `Comando` é a mesma palavra da regra da Q4, o que é o oposto do defeito da lição nº 6.
+
+### Corrigido — cinco erros meus, todos da mesma família, e três revisões céticas
+
+**Cinco vezes escrevi um resumo em prosa por cima de uma tabela que o script já tinha impresso certo**, e as cinco divergiam: `3,0×` onde era 2,5×, `+7% a +23%` onde era +15% a +46%, `1,4 a 2,1 rodadas` onde era 1,2 a 1,7, `1,1 a 2,5 vezes` onde era 1,5 a 2,0, e `30% a 50%` onde era 30% a 40%. **Cinco do mesmo tipo é padrão, não descuido** — parei de escrever resumo à mão e passei a ler o número do script.
+
+E três achados de ponteiro, que são a família do *"§9 da peça 5"* que a v0.50 arrancou:
+
+| | |
+|---|---|
+| a regra de arredondamento citada como texto da **peça 1** | a frase copiada era a do bloco de fórmulas do `ESTADO-ATUAL`; **a peça 1 §5.4 é dona da regra, com outras palavras** |
+| *"6% a 9% da Rotina"* atribuído ao `ESTADO-ATUAL` | mora na **peça 14 §4** |
+| o próprio conserto | deixou a **forma literal do ponteiro morto** dentro do arquivo — reescrito sem ela |
+
+**E uma leitura errada de meia frase**, corrigida quando a Q4 chegou: eu tinha afirmado que *"pool compartilhado de ações morre por texto"*, citando a peça 6 §3.1. **A frase inteira diz o contrário** — *"as ações se redistribuem"* é exatamente pool compartilhado, e é o que a Q4 escolheu.
+
+**Uma correção de conclusão, no meio da Q4:** eu escrevi que *"o mestre que foca a invocação está jogando certo"*. A conta de troca diz que não — derrubar o pool custa **2,5 Rotinas** ao inimigo e nega **1 rodada** ao jogador, e o dano que foi na invocação é dano que não foi num PJ. **O defeito de multi-mestre não é "o mestre esperto cobra mais", é "o mestre inexperiente cobra mais, e ele não sabe".**
+
+**E um checker meu que acusou o que estava certo:** a varredura de ponteiros de seção capturava `4.` com o ponto e comparava contra `4`, marcando **cinco referências boas como inexistentes**. *Foi por pouco que eu não "consertei" as cinco.*
+
+### Registrado — o levantamento externo
+
+**PF2e Summoner** (*"you can use any of your actions for yourself or your eidolon"*, `Act Together`, pool de vida compartilhado), **PF2e companheiro animal** (trait `minion`, *"gains 2 actions during your turn"*, e a fórmula de vida *"ancestry Hit Points from its type, plus 6 plus its Constitution modifier for each level you have"* — **que é a fórmula da peça 1 com outro rótulo**), **PF2e troop** (*"instead of standard Strikes"*, segmentos perdidos em terços), **PF1e Summoner** (evolution pool de 3 a 26 pontos, evoluções de 1 a 4 — a âncora de formato do catálogo), **5e 2014 `conjure animals`** (*"roll initiative for the summoned creatures as a group"*), **5e 2024 `Summon Beast`** (*"shares your Initiative count, but takes its turn immediately after yours"*, `AC 11 + the spell's level`, *"attack bonus equals your spell attack modifier"*), **5e 2024 `conjure animals`** (virou emanação, zero corpos), **5e 2024 Beast Master** e **13th Age mooks** (um mob, um número de iniciativa; um quinto da vida).
+
+### Em aberto
+
+- **O catálogo de `Traço` e `Comando` escrito entrada por entrada**, no molde da peça 11 — e a triagem em cada nome novo.
+- **Rika e Mahoraga**, que agem fora do controle do portador e não são ponto de orçamento.
+- **Reconseguir a invocação morta** — talismã, corpo, maldição domada. É tempo de campanha, e é da peça de Trilhas ou da passada de material.
+- **O validador dono da peça**, com as treze checagens que o §5 do rascunho lista. *Sem escrever o nome do arquivo: o `conferir-repositorio.py` acusa referência morta, e acusou esta mesma linha ao fechar a versão — a checagem funcionando na direção certa.*
+- **A Q6**, que é da peça de Trilhas e já tem metade da resposta.
+- As mesmas de sempre: as vagas de Desliga, a Cicatriz, Energia Reversa, o clash, o nome do sistema.
+
+---
+
 ## [0.50] — 2026-08-13
 
 **A fila foi reordenada, e nenhuma regra mudou.** Sessão de planejamento: as duas peças que a v0.49 destampou — `ferramenta amaldiçoada` e `objeto amaldiçoado` — ganharam posição, e Invocações ganhou o rascunho dela. Continuam **catorze peças e catorze validadores**.
