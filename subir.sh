@@ -108,13 +108,20 @@ fi
 
 echo "  commit: $(git log --oneline -1)"
 
-if git push -q 2>/dev/null; then
+# O erro do push NAO vai para /dev/null. Ate a v0.44 ia, e o script chutava o
+# motivo ("se ele pediu senha...") em vez de mostrar o que o git disse — o que
+# transforma rede caida, token vencido e repositorio errado no mesmo texto.
+SAIDA_PUSH="$(git push 2>&1)"
+if [ $? -eq 0 ]; then
     verde "  push: subiu"
 else
-    vermelho "  push: falhou"
-    echo "  Se ele pediu senha, e' porque falta autenticar. Uma vez so':"
-    echo "    gh auth login"
-    echo "  O commit ja esta feito — depois de autenticar, so' rodar:  git push"
+    vermelho "  push: FALHOU — e o git disse isto:"
+    printf '%s\n' "$SAIDA_PUSH" | sed 's/^/    | /'
+    echo
+    amarelo "  O commit JA ESTA FEITO. Nada se perdeu; falta so' o push."
+    echo "  Se falou em autenticacao, token ou pediu senha:   gh auth login"
+    echo "  Se falou em rede, host ou timeout, e' so' repetir: git push"
+    echo "  Nos dois casos, nao precisa commitar de novo."
     exit 1
 fi
 
