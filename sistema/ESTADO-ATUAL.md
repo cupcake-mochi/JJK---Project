@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 13/08/2026, na v0.47 (última peça fechada: Legados, na v0.39; **Equipamento está em andamento** — o estado dela mora em `03-mecanica/RASCUNHO-equipamento.md`, e a regra opcional do **Bloquear** em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 13/08/2026, na v0.48 (última peça fechada: **Equipamento, na v0.48** — ela é a peça 14 e tem o `conferir-equipamento.py` em cima dela; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.47.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **treze peças escritas** e **treze validadores**. Manual do Fundamento na **v7.8**, com a Expansão de Domínio escrita, e o catálogo de aptidões com **dez das catorze entradas fechadas**. **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas** — por seis das nove rotas de Origem, e agora sem nenhum buraco de regra que morda nessa faixa.
+**Versão v0.48.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **catorze peças escritas** e **catorze validadores**. Manual do Fundamento na **v7.8**, com a Expansão de Domínio escrita, e o catálogo de aptidões com **dez das catorze entradas fechadas**. **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas** — por seis das nove rotas de Origem, e agora sem nenhum buraco de regra que morda nessa faixa.
 
 ## Como retomar
 
@@ -396,7 +396,7 @@ Vale ter isso à mão, porque o material é grande e engana. *Medido na v0.33, e
 
 | o que falta | por que não trava uma missão de nível 2 |
 |---|---|
-| Tabela de proteção | a ficha nasce com a proteção 1 de cobrir-se de energia, e uniforme só entra depois |
+| ~~Tabela de proteção~~ | **fechada na v0.48**, na peça 14: Traje e Revestimento com três degraus cada, e escudo com três |
 | Regra de Pactos | é opcional na criação |
 | Trilhas com número | a Trilha é escolhida no nível 2, mas o que ela entrega chega depois |
 | Aptidões e degraus de refino | só valem do nível 6 em diante |
@@ -406,7 +406,7 @@ Vale ter isso à mão, porque o material é grande e engana. *Medido na v0.33, e
 | falta | tamanho do buraco |
 |---|---|
 | **Tabela de progressão consolidada** | o que você ganha em cada nível está espalhado por cinco documentos: marcos na peça 2, maestria na peça 1, refino no `arquitetura.md`, XP na peça 12, Classe e feitiço no manual |
-| **Quick-start jogável** | decidido na v0.2 como a estrutura do material final. Não existe. As treze peças são argumento de design, não texto de regra: ninguém senta na mesa com elas |
+| **Quick-start jogável** | decidido na v0.2 como a estrutura do material final. Não existe. As catorze peças são argumento de design, não texto de regra: ninguém senta na mesa com elas |
 | **Playtest** | `04-playtest/` está vazia. Zero sessões desde a v0.1. **Todo número do sistema é previsão** |
 
 *A **tabela de XP** saiu desta lista na v0.32.* Ela era a trava nº 1 de mundo compartilhado e ficou aberta trinta versões; hoje é a peça 12, com o `conferir-xp.py` em cima dela.
@@ -438,7 +438,7 @@ O que falta agora, na ordem em que travam umas às outras:
 | ~~2~~ | ~~Aptidões e degraus de refino~~ | **fechada na v0.27** (peça 11), e as quatro anti-domínio na v0.29 |
 | ~~3~~ | ~~Tabela de XP~~ | **fechada na v0.31 e v0.32** (peça 12) — era a trava nº 1 de mundo compartilhado |
 | 4 | **Trilhas com número** | **depois do nível 2.** O Caminho para de significar alguma coisa. Resolve também a dúvida aberta do Guia contra a Vanguarda |
-| 5 | **Equipamento** | **sessão 2.** `Defesa = 10 + Destreza + proteção`, e proteção não tem número |
+| ~~5~~ | ~~**Equipamento**~~ | **fechada na v0.48** (peça 14) — a proteção ganhou número, e o teto de Defesa ganhou dono derivado |
 
 > **Mas a fila mudou de natureza na v0.32, e vale ler isto antes de pegar a próxima peça.**
 >
@@ -455,7 +455,7 @@ Quatro peças, e a ordem é de **dependência**, não de tamanho. A ordem que el
 | # | peça | destrava | depende de |
 |---|---|---|---|
 | ~~1~~ | ~~**Legados** — a régua de magnitude, e ~5 por Origem~~ | **fechada na v0.39** (peça 13): régua, catálogo de **81 entradas** e o `conferir-legados.py` | — |
-| 2 | **Equipamento** — armas, escudos, uniformes | a Vanguarda, a **Técnica Marcial** (duas das três rotas de Origem mortas) e **quatro das sete vagas de Desliga** da peça 13 | **em andamento** |
+| ~~2~~ | ~~**Equipamento** — armas, escudos, uniformes~~ | **fechada na v0.48** (peça 14): as 52 armas com orçamento fechado, proteção, escudo, treino e requisito de Força, mais o `conferir-equipamento.py` com dez checagens | — |
 | 3 | **Invocações** — o sistema de criação | o Evocador | — |
 | 4 | **Caminho, Trilhas e subtrilhas** — a árvore de cada um | o resto | **2 e 3** |
 
@@ -607,7 +607,7 @@ E uma coisa solta que não é peça: **o nome do sistema**.
 | falta | como se contorna |
 |---|---|
 | Regra de Pactos | pacto na criação só com aprovação do mestre e preço escrito na ficha |
-| Tabela de proteção | a ficha nasce com a proteção 1 de cobrir-se de energia. Não trava a criação, trava a segunda sessão — e é ela que decide se vale vestir alguma coisa, já que uniforme **desliga** a proteção de energia |
+| ~~Tabela de proteção~~ | **fechada na v0.48**, na peça 14. A ficha continua nascendo com a proteção 1 de cobrir-se; o que mudou é que agora existe o que vestir por cima, e o escudo **soma** em vez de desligar |
 | Trilhas com número | a Trilha é escolhida na criação, junto do Caminho. O que ela entrega é a peça de Trilhas |
 
 ## Como o Mizuki gosta de trabalhar

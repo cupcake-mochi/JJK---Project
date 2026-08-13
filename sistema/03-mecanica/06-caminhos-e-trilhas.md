@@ -238,6 +238,14 @@ Confirmado que precisa existir. Três categorias, e cada Caminho concede as suas
 - **Proteção:** leve, pesada (com requisito de Força e limite de Destreza na Defesa)
 - **Escudo:** categoria própria, porque ele ocupa uma mão — e mão ocupada conversa com a Restrição **Gesto**, que já existe e exige as duas mãos livres
 
+> **Quais armas caem em qual balde foi decidido na v0.47, e mora em `14-equipamento.md` §5.4.1.** Simples: `Lâmina Curta` · `Porrete` · `Ceifa` · `Arremesso` · `Manopla` · `Massa` · `Balestra`. Marciais: `Lâmina Longa` · `Machado` · `Armas Longas` · `Flexível` · `Yumi`. `Arma de Fogo` é a de fogo, sozinha, e ferramenta amaldiçoada continua sem peça.
+>
+> **A divisão é acesso e nunca preço** — toda arma fecha no mesmo orçamento, e os dois baldes chegam ao mesmo teto de dado (`d8` numa mão, `d12` em duas). *Ela restringe qual identidade, não quanto poder*, que é o contrário do que a divisão faz no sistema de onde ela veio.
+>
+> **O que isto obriga a Trilha a saber:** a Trilha de corpo a corpo de um Caminho não-marcial **concede o treino marcial**, e é assim que o Emanador que quer lutar de espadão paga com a escolha de Trilha em vez de ganhar de graça. **Treino de arma não é dado de dano** — é acesso, que está na lista do que a seção 4 da peça 5 permite um Caminho conceder.
+>
+> *A proteção e o escudo continuam como esta seção os deixou; o que fechou foi só a linha das armas.*
+
 Esse último ponto é um achado pequeno mas real: **escudo e Gesto se cancelam.** Quem usa escudo não pode montar feitiço com a Restrição Gesto, e isso é uma decisão de ficha interessante em vez de um bug.
 
 ## 9. Em aberto

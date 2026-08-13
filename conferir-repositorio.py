@@ -170,14 +170,14 @@ IGNORAR = re.compile(
 # todo nome de arquivo que existe na arvore, para resolver citacao solta em prosa
 TODOS_OS_NOMES = set()
 for _b, _d, _f in os.walk(RAIZ):
-    _d[:] = [x for x in _d if x not in ('.git', '_backup', 'node_modules', '__pycache__')]
+    _d[:] = [x for x in _d if x not in ('.git', '_backup', '_to_delete', 'node_modules', '__pycache__')]
     TODOS_OS_NOMES.update(_f)
 
 vistos = 0
 mortas = 0
 for base, dirs, files in os.walk(RAIZ):
     dirs[:] = [d for d in dirs
-               if d not in ('.git', '_backup', 'node_modules', '__pycache__', 'skills')]
+               if d not in ('.git', '_backup', '_to_delete', 'node_modules', '__pycache__', 'skills')]
     for f in files:
         if not f.endswith('.md'):
             continue
@@ -239,7 +239,7 @@ ANTIGO = {
 achou = 0
 for base, dirs, files in os.walk(RAIZ):
     dirs[:] = [d for d in dirs
-               if d not in ('.git', '_backup', 'node_modules', '__pycache__')]
+               if d not in ('.git', '_backup', '_to_delete', 'node_modules', '__pycache__')]
     for f in files:
         if not f.endswith(('.md', '.py', '.txt')):
             continue

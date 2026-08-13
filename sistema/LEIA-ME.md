@@ -9,7 +9,7 @@ Sistema de RPG de mesa em desenvolvimento, ambientado no universo de Jujutsu Kai
 | `00-fundacao/` | Pitch de design e decisões que valem para o projeto inteiro |
 | `01-pesquisa/` | Dossiê de metodologia, referências e análise do espaço de design |
 | `02-esqueleto/` | Arquitetura do sistema: subsistemas, como se conectam, o que cada um resolve |
-| `03-mecanica/` | As peças de regra, numeradas na ordem em que foram escritas, e os treze validadores |
+| `03-mecanica/` | As peças de regra, numeradas na ordem em que foram escritas, e os catorze validadores |
 | `04-playtest/` | Roteiro de teste, formulários e retorno organizado por tema |
 | `05-material/` | A **ficha de personagem** e o gerador dela. Falta o quick-start e o livro |
 | `99-arquivo/` | **Material morto.** Nada aqui é regra corrente — ver o `LEIA-ME.md` de lá |
@@ -42,7 +42,7 @@ A pasta `skills/` guarda a versão com arquivos separados. A versão instalada t
 
 ## Versão atual
 
-**v0.47.** Fases 0 a 3 fechadas; a Fase 4 (mecânica) está em andamento com **treze peças escritas e treze validadores passando**. O manual do Fundamento está na **v7.8**, e ele é um subsistema fechado — a técnica e o feitiço já funcionam. O `.pdf` continua na v7.4, porque é exportado à mão.
+**v0.48.** Fases 0 a 3 fechadas; a Fase 4 (mecânica) está em andamento com **catorze peças escritas e catorze validadores passando**. O manual do Fundamento está na **v7.8**, e ele é um subsistema fechado — a técnica e o feitiço já funcionam. O `.pdf` continua na v7.4, porque é exportado à mão.
 
 **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas**, por seis das nove rotas de Origem. Desde a v0.32 não sobrou peça de regra travando ninguém nessa faixa: das dezessete coisas que uma ficha de nível 2 precisa, **treze existem, e as quatro que faltam não mordem nessa faixa**. O que falta para as outras três rotas, e a ordem do resto, está no `ESTADO-ATUAL.md`.
 
@@ -63,4 +63,6 @@ Os três últimos não leem o manual e não precisam de nada: o `conferir-criaca
 
 ## A próxima peça
 
-**Equipamento**, que é a 2 da fila decidida na v0.36. Ela destrava a Vanguarda, a **Técnica Marcial** — duas das três rotas de Origem que não rodam — e **quatro das sete vagas de Desliga** da peça 13. O `ESTADO-ATUAL.md` tem o que ela já chega tendo.
+**Invocações**, que é a 3 da fila decidida na v0.36 — o sistema de criação que destrava o Evocador. Depois dela, **Caminho, Trilhas e subtrilhas**, que dependia das outras duas.
+
+*Equipamento fechou na v0.48 como peça 14*, com o `conferir-equipamento.py` em cima dela. Ela destravou a Vanguarda, a **Técnica Marcial** e **quatro das sete vagas de Desliga** da peça 13 — e essas quatro são a primeira coisa a fazer, porque a peça 13 fecha dizendo *"quando equipamento fechar, a primeira coisa a fazer é voltar aqui"*.

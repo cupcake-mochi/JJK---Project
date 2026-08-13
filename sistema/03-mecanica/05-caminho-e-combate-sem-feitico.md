@@ -13,6 +13,12 @@ As duas coisas andam juntas porque o Caminho é o lugar natural onde o combatent
 
 Força governa **ataque corpo a corpo, agarrar, quebrar, Atletismo, capacidade de carga e requisito de arma e de proteção**. Armas de dado maior e uniformes mais pesados exigem Força mínima; quem luta com Destreza fica nas armas leves.
 
+> **Esta frase ficou sem implementação da v0.44 à v0.46, e ganhou uma na v0.47.** O requisito morava na *classe* de arma, e a classe deixou de ser o preço na v0.44 — o catálogo passou duas versões com **zero armas** carregando requisito escrito, e nenhum validador cruzava esta linha com ele. **Hoje o requisito é `Força 3` nos dois degraus de cima de cada escada de dado**: `d10` e `d12` no corpo a corpo, `2d8` e `2d10` no tiro. Mora em `14-equipamento.md` §5.5, e vem para cá quando aquela peça fechar.
+>
+> **A segunda metade da frase se cumpriu sozinha, e isso vale registrar.** As oito armas com `Fineza` — a rota de quem luta com Destreza — **param todas em `d8`**, então nenhuma delas encosta no requisito. *Ninguém impôs isso: caiu do orçamento, porque `Fineza` custa um ponto e o que sobra não paga dado grande.* A promessa e a régua chegaram no mesmo lugar por caminhos diferentes, que é o contra-teste que ela nunca tinha tido.
+>
+> **E o requisito continua não custando nada em ponto de atributo:** `Força 3` é o teto da criação (peça 2 §2). Ele resolve **acesso**, não preço — o que esta seção já concluía e agora tem catálogo para provar.
+
 Isso é o modelo clássico do d20, e ele tem uma armadilha conhecida que vale medir antes de aceitar.
 
 **Destreza faz mais coisas.** Ela dá ataque à distância, **Defesa**, **iniciativa**, quatro perícias e uma opção no Teste de Resistência Físico. Força dá ataque corpo a corpo, uma perícia, a mesma opção de TR e o acesso a equipamento. Para empatar, a arma pesada precisa devolver em dano o que Destreza entrega em defesa:

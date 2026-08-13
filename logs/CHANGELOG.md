@@ -6,6 +6,110 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.48] — 2026-08-13
+
+**Equipamento fechou. São catorze peças e catorze validadores.** O `RASCUNHO-equipamento.md` virou `14-equipamento.md` e ganhou o `conferir-equipamento.py`, com dez checagens e dez perturbações conferidas. **E o que destravou a peça não foi escrever o validador: foi derrubar a frase que dizia que ele não podia ser escrito.**
+
+### Achado — o bloqueio do validador era uma conclusão que sobreviveu à premissa
+
+O §5.2 fechava com *"o item 9 do §8 não pode ser escrito antes disto: um validador de dominância por valor total precisa de valor, e sete oitavos do catálogo ainda não têm"*. **A premissa morreu na v0.45**, quando as 52 armas ganharam dado e propriedades; a conclusão sobreviveu **três versões**.
+
+> **Não é a lição nº 9 na forma de sempre.** Não foi uma cópia que divergiu do dono — foi um documento discordando de si mesmo no tempo. A subseção inteira media **classes**, e a classe morreu como preço na v0.44: ela ainda rodava uma matriz de `1 DOMINADA / 15 INCONCLUSIVO` sobre oito classes que não existem, afirmava *"sete das oito propriedades não têm texto"* (são doze, todas têm) e citava um `0,60` que o próprio §8 daquele documento já tinha corrigido para `0,33` na v0.42.
+
+**Refeita, a matriz roda:** 1640 pares no corpo a corpo, 110 no tiro, com o critério certo — *mesma mão, mesmo atributo, dado maior ou igual, propriedades em superconjunto, restrições em subconjunto.*
+
+### Achado — três dominâncias no corpo a corpo, e as três são a mesma
+
+`Espada Longa` passa **Machete** e **Machado**; `Taco` passa **Wakizashi**. **As três são `Versátil` a custo zero** — a dominância que a v0.41 achou entre *classes* e a v0.44 fechou na camada da classe, e que **ninguém conferiu ter descido para a camada da arma.**
+
+Ficam `ACEITA`, com o tamanho que a v0.44 já tinha medido: `0,1` ponto e só no nível 2. **Mas o tamanho não é o achado.** `Versátil` a zero não é barata, é **não precificada**: das 28 armas de uma mão, 4 levam e 24 recusam, e **17 das que recusam têm o mesmo dado de uma que leva.** O orçamento não impede nenhuma; quem impede é a ficção.
+
+> **Decisão do Mizuki, e ela resolve os dois lados:** *"dá pra fazer uma descrição para cada arma, colocando em negrito as propriedades no texto e explicando de forma narrativa."* **A condição de ficção deixa de ser tácita porque vira texto da arma** — e escrever as 52 agora é desperdício, então fica declarado no §5.3 para a passada de material. **Até lá o validador acusa**, que é a metade de graça: as quatro com `Versátil` são lista declarada e uma quinta falha.
+
+### Achado — o fundo da v0.45 nunca chegou nas armas de tiro
+
+*Achado rodando a matriz sobre o tiro logo depois de consertar o `Yumi` — que era o primeiro sintoma disto e não um caso isolado.* **7 das 11 com vaga vazia, e 7 dominâncias estritas.** O `Rifle` sozinho dominava `Besta`, `Espingarda` e `Submetralhadora`.
+
+**E a causa não era desleixo — era falta de resolução na régua:**
+
+| dado | média | gasto pela fórmula do §5.2 |
+|---|---|---|
+| `1d10` | 5,5 | **0 — grampeado no piso** |
+| `2d6` | 7,0 | **0 — grampeado no piso** |
+| `2d8` | 9,0 | 0,5 |
+| `2d10` | 11,0 | 2,5 |
+
+**A régua não distinguia uma pistola de uma submetralhadora**, e os gastos fracionários faziam propriedade inteira nunca fechar o orçamento exato. *Não é que ninguém preencheu as vagas: é que não havia como preenchê-las por soma.*
+
+**O conserto é o precedente do §5.0.3, um eixo ao lado** — lá está escrito que *"`Duas mãos` não é item de orçamento: é **categoria** de orçamento, com número próprio"*. **O degrau da escada do tiro virou a unidade:** `1d10 · 2d6 · 2d8 · 2d10` = `0 · 1 · 2 · 3`, fundo `2/4`. As sete vagas foram preenchidas com propriedade que já existia — `Oculta` na Besta de Uma Mão, `Rompe` na Besta, Espingarda e Metralhadora, `Talha` no Rifle, `Par`+`Oculta` na Submetralhadora — e **as 7 dominâncias caíram por construção**, não por exceção escrita.
+
+### Decidido — a régua do Mizuki não decide só a fonte do dano, decide o preço
+
+> **A arma que exige alguma coisa do corpo de quem a segura soma atributo. A arma em que você só precisa mirar, não.**
+
+*Decisão dele, e ela **deriva** a tabela do §5.1 em vez de listá-la* — um arco se puxa, um kunai se arremessa, uma besta já está tensionada. **A régua também diz o que fazer com a arma número 53, que a lista não dizia.**
+
+**E ela cobrou o preço na hora de ser escrita:** as duas do `Yumi` **estouravam o orçamento**, porque a escada do tiro foi construída só para armas que não somam nada e desconta `6,0` de atributo de todas. Com o desconto indevido, o `Daikyū 2d8` fazia **15,0** contra os 12,5 de um Força 6 com espadão. **`1d10` fecha exato** e põe o arco em 11,5, que é onde a rota de Destreza já está com a Katana.
+
+*A saída bonita foi testada e reprovada:* dar `Volumosa` ao Daikyū deixaria `1d12` fechar, e `1d12 + Destreza 6 = 12,5` **empata com a Pesada, à distância** — a mesma sentença que o §5.0.1 escreveu contra a `Fineza` no d12. **Empatar de longe é pior que empatar de perto.**
+
+### Decidido — `Silenciosa` foi levantada e o manual já tinha a resposta
+
+*Ideia do Mizuki:* **"uma propriedade que não tira o personagem de furtividade, exigindo um teste novo com penalidade."** A máquina está certa — é a **camada 1 do §6**, a mesma da `Oculta`, um momento adiante. **Não entra, e são quatro motivos independentes:**
+
+| | |
+|---|---|
+| o nome está ocupado, e não por substring | **`Silencioso` é Melhoria no manual:** *"Sem gesto, sem palavra. Ninguém percebe que você conjurou."* Mesmo efeito, mesmo nome |
+| a regra da qual ela isentaria não existe | zero ocorrências de barulho quebrando furtividade nas peças. **É a Passiva Casca de novo** |
+| o eixo está errado | pelo §5.0.2, *"propriedade é o que a arma é"* — então toda arma **sem** ela faz barulho, e um tantō passa a ser mais barulhento que um arco longo |
+| e os arcos não precisavam | o buraco era da proposta, não do catálogo |
+
+**O quarto é erro meu e fica registrado:** eu movi o `Yumi` para o fundo `5` do corpo a corpo por ele somar atributo. **A régua do §5.1.2 decide quem soma atributo; o §5.0.5 decide qual escada precifica. São perguntas diferentes.** No fundo `2/4` os dois arcos fecham exatos.
+
+> **A metade que sobrevive é uma linha em vez de uma propriedade:** quem revela é a **`Arma de Fogo`**, e categoria é onde este projeto põe *"o que a coisa é"*. Fica no §8 item 19, esperando a peça que tiver furtividade.
+
+### Alterado — o `Yumi` não carrega `Munição`
+
+*Achado do Mizuki:* **"munição elas precisam, mas não precisam recarregar."** A inconsistência já estava no documento: as duas carregavam `Munição` no §5.3 e **nunca receberam X no §5.2** — meia propriedade desde a v0.45. **`Munição` aqui não é *ter munição*: é o ciclo de recarga**, e uma flecha se encaixa como parte do disparo. Sair é de graça, porque ela custa zero.
+
+### Achado — o requisito de Força nunca pega arma de Destreza
+
+*Achado quando o dado do Daikyū desceu dentro desta mesma versão.* O §5.5 contava `6 das 11` no tiro e nomeava *"arco longo"* — verdade enquanto ele era `2d8`, **falso desde que virou `1d10`, três parágrafos antes no mesmo documento.**
+
+**E o conserto mostrou que a régua é mais estreita do que ela dizia:** as oito com `Fineza` param em `d8`, e as duas do `Yumi` ficam no fundo da escada do tiro. **O requisito gateia exatamente quem não depende de Destreza** — o corpo a corpo que soma Força e o tiro que não soma nada. *Ninguém impôs isso em lugar nenhum: caiu do orçamento nas três famílias.* São **dezesseis de 52**, não dezessete.
+
+### Adicionado — o `conferir-equipamento.py`
+
+Dez checagens: **orçamento** (toda arma gasta o fundo exato), **dominância** (a matriz por escada, contra a lista declarada), **propriedade** (toda em uso tem texto), **Força** (o gate é os dois degraus de cima de cada escada e nunca pega Destreza), **teto** (derivado dos três donos, com busca exaustiva de 196 montagens), **baldes**, **Talha**, **Versátil**, **desligamento** e **triagem**.
+
+**Dez perturbações, todas acendendo a checagem certa** — e a nona não acendeu na primeira tentativa porque o `sed` não bateu, o que o arnês pegou antes de eu ler o resultado como "não acendeu". **Dois contra-testes:** uma perturbação produz **um** erro, provando que as checagens não estão acopladas; e perturbar o **teto de atributo na peça 2** faz o teto derivado andar de 20 para 19 e a busca exaustiva acusar — **a checagem 5 não se mede contra a própria constante**, que é a lição nº 8 provada em vez de afirmada.
+
+### Achado — o validador achou duas coisas na primeira rodada limpa
+
+**`Maça` e `Kanabō` dependem só da `Talha`**, e o §5.2 afirmava *"hoje nenhuma fica: as sete que a carregam levam outra propriedade ou um dado que já as separa"* — **são oito, e duas ficam.** A dívida escrita na v0.45 mandava o validador acusar exatamente isso, e ele acusou. *Decisão do Mizuki: as duas ficam declaradas* — a maça e o kanabō **são** as armas anti-guarda, então `Talha` nelas é identidade e não enfeite. **Uma terceira falha.**
+
+**E a tabela do §5.3 escrevia os nomes sem acento** enquanto a prosa escrevia com — `Espadao` contra `Espadão`, `Maca` contra `Maça`. O `conferir-nomes.py` compara literal, então **uma colisão nesses dez nomes passaria batido**. Normalizado, e o validador agora falha se as duas grafias divergirem de novo. *De quebra, isso quebrou o meu próprio validador, que tinha `Versatil` e `Municao` escritos sem acento na mão — consertado comparando sem acento em vez de por grafia.*
+
+### Alterado — as duas dívidas de aplicação nas peças 5 e 6
+
+**Peça 6 §8** nomeava as quatro categorias de treino e não dizia quais armas caem em qual balde; **peça 5 §1** prometia o requisito de Força sem apontar onde ele mora. *As duas decisões existiam desde a v0.47 e nenhuma das duas peças tinha sido tocada* — que é o padrão que custou sete versões na Trilha.
+
+E ao escrever a peça 5 apareceu um contra-teste que aquela frase nunca tinha tido: *"quem luta com Destreza fica nas armas leves"* **se cumpriu sozinha**, porque `Fineza` custa um ponto e o que sobra não paga dado grande. **A promessa e a régua chegaram no mesmo lugar por caminhos diferentes.**
+
+### Em aberto
+
+- **As quatro vagas de Desliga da peça 13**, que esperam desde a v0.39 — e agora nada as bloqueia. *A peça 13 fecha dizendo "quando equipamento fechar, a primeira coisa a fazer é voltar aqui".*
+- **Os nomes dos três degraus de escudo**, e quantos são.
+- **As descrições das 52 armas**, adiadas por decisão para a passada de material.
+- **A penalidade** por empunhar sem treino ou sem requisito — espera dano e condições.
+- **O barulho na `Arma de Fogo`** — espera furtividade.
+- **A `Comprida` continua sem dono**, e a lista de itens comuns e a moeda continuam abertas.
+- **As três checagens do Bloquear**, no `conferir-atributos.py`.
+- **A lista de pastas ignoradas mora em dois lugares.** *Achado ao fechar esta versão:* o `conferir-repositorio.py` varria `_to_delete/`, que o `.gitignore` exclui desde que a pasta existe — e uma referência morta lá dentro derrubou o validador por um arquivo que já estava marcado para sumir. Corrigido, **mas o conserto é uma segunda cópia**: as duas listas ainda divergem em `.venv` e `node_modules`. *Lição nº 9 numa camada que nenhum validador olha, porque o validador é ela mesma.*
+- **A Cicatriz, Energia Reversa, o clash, o nome do sistema.**
+
+---
+
 ## [0.47] — 2026-08-13
 
 **As duas decisões de acesso de Equipamento fecharam, e uma afirmação da v0.45 caiu junto.** A divisão simples/marcial e o requisito de Força — as duas registradas como *"em aberto"* desde a v0.45, as duas resolvendo acesso por eixos diferentes. Continuam **treze peças e treze validadores**; Equipamento continua em rascunho. E a passada achou um estouro de orçamento em duas armas que ninguém tinha medido.

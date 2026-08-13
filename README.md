@@ -2,7 +2,7 @@
 
 Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.47** · manual do Fundamento na **v7.8** · **treze peças de regra** e **treze validadores passando**.
+**Versão v0.48** · manual do Fundamento na **v7.8** · **catorze peças de regra** e **catorze validadores passando**.
 
 ---
 
@@ -28,7 +28,7 @@ E o registro do **porquê** de cada decisão é tão importante quanto a regra: 
 **Primeiro, confirme que você abriu a pasta certa — leva dez segundos e já custou meia hora uma vez.** Existe outro clone desta mesma coisa parado na **v0.27** numa pasta `JJK---Project` dentro da home, e ele tem a cara do projeto inteiro: validadores, peças, changelog. Uma conversa já se perdeu lendo o clone velho e rodando sete validadores que passaram sem provar nada.
 
 ```bash
-head -6 README.md          # tem que dizer Versão v0.47 ou maior
+head -6 README.md          # tem que dizer Versão v0.48 ou maior
 grep -c "Nove lições" README.md
 ```
 
@@ -59,14 +59,14 @@ Depois disso, a ordem de leitura é a da próxima seção, e os validadores são
     ├── 00-fundacao/                     os três pilares e as restrições do projeto
     ├── 01-pesquisa/                     dossiê de metodologia — a seção 8 lista as dez travas
     ├── 02-esqueleto/                    arquitetura: subsistemas e como se encaixam
-    ├── 03-mecanica/                     as treze peças de regra e os treze validadores
+    ├── 03-mecanica/                     as catorze peças de regra e os catorze validadores
     ├── 04-playtest/                     vazia. Zero sessões desde a v0.1
     ├── 05-material/                     a ficha, e o gerador dela. O quick-start ainda não
     ├── 99-arquivo/                      material morto, com LEIA-ME próprio
     └── skills/                          cópia de trabalho das sete skills de apoio
 ```
 
-Um arquivo `RASCUNHO-*.md` em `03-mecanica/` é levantamento engatilhado, não peça — ele não leva número justamente por isso, e o `conferir-repositorio.py` falha se algum tomar. **Hoje são três:** `RASCUNHO-equipamento.md` (a peça em andamento), `RASCUNHO-bloqueio.md` (a regra opcional de rolar a defesa, fechada em desenho na v0.43) e `RASCUNHO-clash-de-expansoes.md`.
+Um arquivo `RASCUNHO-*.md` em `03-mecanica/` é levantamento engatilhado, não peça — ele não leva número justamente por isso, e o `conferir-repositorio.py` falha se algum tomar. **Hoje são dois:** `RASCUNHO-bloqueio.md` (a regra opcional de rolar a defesa, fechada em desenho na v0.43) e `RASCUNHO-clash-de-expansoes.md`.
 
 **`_backup/` não entra no repositório** — ele guarda o estado da pasta antes da reorganização, e o `.gitignore` o segura.
 
@@ -143,7 +143,7 @@ Ela já matou mais de dez nomes que pareciam livres — três só na v0.28, e um
 ./subir.sh "o que mudou"
 ```
 
-Ele roda **os dezesseis validadores** — os treze de `03-mecanica/`, o `conferir-repositorio.py` e os dois do manual —, mostra o que mudou, commita e dá push — e **se recusa a commitar se algum falhar**. Desde a v0.33 isso inclui uma trava nova: **subir a versão no README, no `ESTADO-ATUAL` ou no `LEIA-ME` sem escrever a entrada do `CHANGELOG` falha o `conferir-repositorio.py`.** A entrada do topo do CHANGELOG é o dono da versão do projeto. Um commit que registra regra quebrada é pior que nenhum commit: daqui a três versões ninguém sabe em qual commit ela entrou.
+Ele roda **os dezessete validadores** — os catorze de `03-mecanica/`, o `conferir-repositorio.py` e os dois do manual —, mostra o que mudou, commita e dá push — e **se recusa a commitar se algum falhar**. Desde a v0.33 isso inclui uma trava nova: **subir a versão no README, no `ESTADO-ATUAL` ou no `LEIA-ME` sem escrever a entrada do `CHANGELOG` falha o `conferir-repositorio.py`.** A entrada do topo do CHANGELOG é o dono da versão do projeto. Um commit que registra regra quebrada é pior que nenhum commit: daqui a três versões ninguém sabe em qual commit ela entrou.
 
 Se a mensagem for longa, o assistente deixa ela pronta em `mensagem-de-commit.txt` e você roda `./subir.sh` sem argumento — ele usa o arquivo e apaga depois.
 

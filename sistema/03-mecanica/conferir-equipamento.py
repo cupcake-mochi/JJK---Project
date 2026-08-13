@@ -1,0 +1,376 @@
+# -*- coding: utf-8 -*-
+"""
+conferir-equipamento.py — o validador da peca de Equipamento.
+
+NADA DE VALOR FICA ESCRITO AQUI. O fundo sai do SS5.0.1 e do SS5.0.5, o catalogo
+sai do SS5.3, o corte simples/marcial sai do SS5.4.1, o 10 da Defesa sai da PECA 1,
+os tetos de atributo e de refino saem da PECA 2 e a formula de cobrir-se sai da
+PECA 11. O unico bloco com valor na mao e o LIMITES DE DESIGN, declarado a parte
+da regra aplicada — licao no 8: uma checagem nao pode se medir contra a propria
+constante.
+
+Dez checagens:
+  1. ORCAMENTO   — toda arma gasta o fundo exato. Nem sobra, nem estoura.
+  2. DOMINANCIA  — a matriz sobre ARMA (nao sobre classe), uma vez por escada.
+  3. PROPRIEDADE — toda propriedade usada no catalogo tem texto no SS5.2.
+  4. FORCA       — o requisito pega os dois degraus de cima de cada escada, e
+                   nenhum passa do teto da criacao da PECA 2.
+  5. TETO        — o teto de Defesa e DERIVADO de tres donos e nunca lido de uma
+                   constante, com busca exaustiva provando o invariante da peca.
+  6. BALDES      — os dois baldes de treino tem as duas maos e o mesmo teto, e o
+                   simples sobrevive ao requisito de Forca.
+  7. TALHA       — nenhuma arma depende so da Talha, que e regra opcional.
+  8. VERSATIL    — so as armas declaradas carregam o passo de graca.
+  9. DESLIGA     — a frase do desligamento nao cita escudo em nenhum dos tres.
+ 10. TRIAGEM     — todo nome do catalogo aparece no documento que o define.
+
+Roda de sistema/03-mecanica/. NAO le o .docx e NAO precisa de python-docx —
+entao nao existe caminho por onde ele saia verde tendo pulado checagem.
+"""
+import os, re, sys
+from itertools import permutations
+
+AQUI = os.path.dirname(os.path.abspath(__file__))
+def ler(nome):
+    with open(os.path.join(AQUI, nome), encoding='utf-8') as f:
+        return f.read()
+
+def sem_acento(t):
+    import unicodedata
+    return ''.join(c for c in unicodedata.normalize('NFD', t)
+                   if unicodedata.category(c) != 'Mn').lower()
+
+ERROS = []
+AVISOS = []
+def aviso(msg): AVISOS.append(msg)
+def erro(msg): ERROS.append(msg)
+def bloco(t): print('\n' + '=' * 88 + f'\n{t}\n' + '=' * 88)
+
+EQ = ler('14-equipamento.md')
+P1 = ler('01-atributos-acerto-defesa.md')
+P2 = ler('02-economia-de-atributos.md')
+P8 = ler('08-criacao-de-personagem.md')
+P11 = ler('11-aptidoes-e-refino.md')
+
+# ------------------------------------------------------------ LIMITES DE DESIGN
+# Declarados aqui, a parte da regra aplicada. Sao DECISOES REGISTRADAS, cada uma
+# com o lugar onde o argumento dela mora. Perturbar qualquer um deles tem de
+# acender a checagem correspondente — e nunca a mesma que le o valor do documento.
+DOMINANCIA_ACEITA = {              # SS5.2: Versatil a custo zero, 0,1 ponto no nv2
+    ('Espada Longa', 'Machete'),
+    ('Espada Longa', 'Machado'),
+    ('Taco', 'Wakizashi'),
+}
+VERSATIL_DECLARADAS = {'Katana', 'Espada Longa', 'Taco', 'Bastão'}   # SS8 item 17
+# SS5.2: a divida da v0.45 manda o validador acusar quem depender so da Talha.
+# Estas duas sao DECISAO DO MIZUKI na v0.48, com argumento escrito no SS5.2: a maca
+# e o kanabo SAO as armas anti-guarda, entao a Talha nelas e identidade e nao enfeite.
+# Uma TERCEIRA arma que dependa so dela falha.
+SO_TALHA_ACEITA = {'Maça', 'Kanabō'}
+MEDIA_DADO = {'d4': 2.5, 'd6': 3.5, 'd8': 4.5, 'd10': 5.5, 'd12': 6.5,
+              '1d8': 4.5, '1d10': 5.5, '2d6': 7.0, '2d8': 9.0, '2d10': 11.0}
+PISO_MELEE = 2.5     # o d4, SS5.0
+FORCA_MELEE = 6.0    # a Forca que o corpo a corpo soma, SS5.2
+RESTRICOES = {'volumosa', 'embainhada', 'comprida'}
+GRATIS = {'municao', 'versatil'}   # SS5.2: Versatil custa 0, Municao e textura
+
+# ------------------------------------------------------------------ LEITURA
+def fundo_corpo():
+    m = re.search(r'\*\*uma mão\*\* \(fundo (\d+)\).*?\*\*duas mãos\*\* \(fundo (\d+)\)', EQ)
+    if not m: erro('SS5.0.1: nao achei o fundo do corpo a corpo na tabela'); return None
+    return int(m.group(1)), int(m.group(2))
+
+def fundo_tiro():
+    m = re.search(r'fundo:\s*(\d+) numa mão,\s*(\d+) em duas', EQ)
+    if not m: erro('SS5.0.5: nao achei o fundo do tiro'); return None
+    return int(m.group(1)), int(m.group(2))
+
+def escada_tiro():
+    m = re.search(r'(1d10 · 2d6 · 2d8 · 2d10)\s*=\s*([\d · ]+)', EQ)
+    if not m: erro('SS5.0.5: nao achei a escada do tiro'); return None
+    dados = [d.strip() for d in m.group(1).split('·')]
+    custos = [int(c.strip()) for c in m.group(2).split('·')]
+    return dict(zip(dados, custos))
+
+def catalogo():
+    ini = EQ.index('## 5.3 As 52 armas'); fim = EQ.index('## 5.4 Treino de arma')
+    armas, cat, modo = [], None, 'corpo'
+    for linha in EQ[ini:fim].split('\n'):
+        s = linha.strip()
+        m = re.fullmatch(r'\*\*(.+?)\*\*', s)
+        if m and 'assinatura' not in m.group(1) and 'Zero' not in m.group(1):
+            if m.group(1).startswith('As de tiro'): modo = 'tiro'
+            else: cat = m.group(1)
+            continue
+        if s.startswith('**As de tiro'): modo = 'tiro'; continue
+        if not s.startswith('|'): continue
+        c = [x.strip() for x in s.strip('|').split('|')]
+        if not c or c[0] in ('arma', '') or set(c[0]) <= set('-: '): continue
+        if modo == 'corpo' and len(c) >= 5:
+            armas.append(dict(nome=c[0], categoria=cat, maos=int(c[1]),
+                              dado=c[2].strip('* '), atributo='Forca',
+                              props=[p.strip(' `') for p in c[3].split('·')]))
+        elif modo == 'tiro' and len(c) >= 6:
+            armas.append(dict(nome=c[0], categoria=c[1], maos=int(c[2]),
+                              dado=c[3].strip('* '), atributo=c[4],
+                              props=[p.strip(' `') for p in c[5].split('·')]))
+    return armas
+
+FC, FT, ESC_T, ARMAS = fundo_corpo(), fundo_tiro(), escada_tiro(), catalogo()
+if not all([FC, FT, ESC_T]) or not ARMAS:
+    print('\n>>> FALHOU: nao consegui ler a regua do documento. Nada abaixo vale.')
+    sys.exit(1)
+CORPO = [a for a in ARMAS if a['atributo'] == 'Forca']
+TIRO = [a for a in ARMAS if a['atributo'] != 'Forca']
+
+def pagas(a):
+    return [p for p in a['props']
+            if sem_acento(p) not in RESTRICOES and sem_acento(p) not in GRATIS]
+def restr(a): return [p for p in a['props'] if sem_acento(p) in RESTRICOES]
+def custo_dado(a):
+    if a['atributo'] == 'Forca':
+        return MEDIA_DADO[a['dado']] - PISO_MELEE
+    if a['atributo'] == 'Destreza':
+        return max(0.0, MEDIA_DADO[a['dado']] + FORCA_MELEE - PISO_MELEE - FORCA_MELEE)
+    return float(ESC_T[a['dado']])
+def gasto(a): return custo_dado(a) + len(pagas(a)) - len(restr(a))
+def fundo(a):
+    f = FC if a['atributo'] == 'Forca' else FT
+    return f[0] if a['maos'] == 1 else f[1]
+
+# -------------------------------------------------------------- 1. ORCAMENTO
+bloco('1. ORCAMENTO — toda arma gasta o fundo exato')
+fora = [(a['nome'], gasto(a), fundo(a)) for a in ARMAS if abs(gasto(a) - fundo(a)) > 0.01]
+for n, g, f in fora:
+    erro(f'{n} gasta {g:g} de um fundo {f} — ' +
+         ('vaga vazia e dominancia estrita' if g < f else 'estoura o orcamento'))
+print(f'  {len(ARMAS)} armas, {len(CORPO)} de corpo a corpo (fundo {FC[0]}/{FC[1]}) '
+      f'e {len(TIRO)} de tiro (fundo {FT[0]}/{FT[1]}).')
+print(f'  {len(ARMAS)-len(fora)} fecham exato.' if not fora else f'  {len(fora)} fora do fundo.')
+
+# ------------------------------------------------------------- 2. DOMINANCIA
+bloco('2. DOMINANCIA — a matriz sobre arma, uma vez por escada')
+def domina(x, y):
+    if x['maos'] != y['maos'] or x['atributo'] != y['atributo']: return False
+    if MEDIA_DADO[x['dado']] < MEDIA_DADO[y['dado']]: return False
+    px = {sem_acento(p) for p in x['props']} - RESTRICOES
+    py = {sem_acento(p) for p in y['props']} - RESTRICOES
+    rx = {sem_acento(p) for p in restr(x)}; ry = {sem_acento(p) for p in restr(y)}
+    if not px >= py or not rx <= ry: return False
+    return (MEDIA_DADO[x['dado']] > MEDIA_DADO[y['dado']] or px > py or rx < ry)
+for grupo, nome in ((CORPO, 'corpo a corpo'), (TIRO, 'tiro')):
+    achadas = {(x['nome'], y['nome']) for x, y in permutations(grupo, 2) if domina(x, y)}
+    novas = achadas - DOMINANCIA_ACEITA
+    sumidas = (DOMINANCIA_ACEITA & {(x['nome'], y['nome'])
+               for x, y in permutations(grupo, 2)}) - achadas
+    pares = len(grupo) * (len(grupo) - 1)
+    print(f'  {nome}: {pares} pares, {len(achadas)} dominancia(s), '
+          f'{len(achadas & DOMINANCIA_ACEITA)} declarada(s) como ACEITA.')
+    for x, y in sorted(novas):
+        erro(f'dominancia NOVA no {nome}: {x} domina {y}, e ela nao esta declarada')
+    for x, y in sorted(sumidas):
+        erro(f'a dominancia ACEITA {x} > {y} sumiu — se ela foi consertada, '
+             'tire-a do bloco LIMITES DE DESIGN em vez de deixar a declaracao mentindo')
+
+# ------------------------------------------------------------ 3. PROPRIEDADE
+bloco('3. PROPRIEDADE — toda propriedade usada tem texto no SS5.2')
+# as propriedades pagas moram no SS5.2; as restricoes moram no SS5.0.4
+texto_def = (EQ[EQ.index('### 5.0.4 A restrição devolve'):EQ.index('## 5.1 A categoria')]
+             + EQ[EQ.index('## 5.2 As propriedades'):EQ.index('## 5.3 As 52 armas')])
+alvo = sem_acento(texto_def)
+usadas = sorted({p for a in ARMAS for p in a['props']})
+sem_texto = [p for p in usadas
+             if not re.search(r'\*\*`?' + re.escape(sem_acento(p)) + r'`?\*\*|`'
+                              + re.escape(sem_acento(p)) + r'`', alvo)]
+print(f'  {len(usadas)} propriedades em uso no catalogo.')
+for p in sem_texto:
+    erro(f'a propriedade "{p}" e usada no SS5.3 e nao tem texto no SS5.2 — '
+         'propriedade sem numero faz a matriz sair INCONCLUSIVO em silencio')
+if not sem_texto: print('  Todas com texto.')
+
+# ------------------------------------------------------------------ 4. FORCA
+bloco('4. FORCA — o requisito pega os dois degraus de cima de cada escada')
+m = re.search(r'\| 3 \| bom, e é o teto da criação \|', P2)
+if not m: erro('PECA 2: nao achei a linha que declara o teto da criacao')
+TETO_CRIACAO = 3
+m = re.search(r'`Força (\d+)` para os dois degraus de cima', EQ)
+REQ = int(m.group(1)) if m else erro('SS5.5: nao achei o requisito de Forca')
+if REQ and REQ > TETO_CRIACAO:
+    erro(f'o requisito de arma pede Forca {REQ} e o teto da criacao e {TETO_CRIACAO} — '
+         'isso deixa de ser acesso e vira preco em ponto de marco, sem decisao escrita')
+def escada_de(grupo):
+    return sorted({a['dado'] for a in grupo}, key=lambda d: MEDIA_DADO[d])
+# tres familias de preco, nao duas: quem soma Forca, quem soma Destreza, quem nao soma
+FAM = {'Forca': [a for a in CORPO],
+       'Destreza': [a for a in TIRO if a['atributo'] == 'Destreza'],
+       'nenhuma': [a for a in TIRO if a['atributo'] == 'nenhuma']}
+gate = set()
+for nome_fam, grupo in FAM.items():
+    if not grupo: continue
+    esc = escada_de(grupo)
+    topo = set(esc[-2:]) if nome_fam != 'Destreza' else set()
+    print(f'  familia {nome_fam:9s}: {" · ".join(esc)}' +
+          (f' — gate em {sorted(topo)}' if topo else ' — sem gate: paga em Destreza'))
+    gate |= {a['nome'] for a in grupo if a['dado'] in topo}
+    topo_c = set(escada_de(CORPO)[-2:])
+print(f'  o requisito pega {len(gate)} de {len(ARMAS)} armas.')
+dex_gate = [a['nome'] for a in ARMAS if a['nome'] in gate and
+            ('fineza' in {sem_acento(p) for p in a['props']} or a['atributo'] == 'Destreza')]
+for n in dex_gate:
+    erro(f'{n} paga em Destreza e cai no requisito de Forca — o gate estaria cobrando '
+         'Forca de quem trocou Forca por Destreza')
+if not dex_gate:
+    print('  Nenhuma arma de Destreza cai no requisito, nas tres familias.')
+m = re.search(r'\*\*Dezesseis de 52\.\*\*|Dezesseis de 52', EQ)
+if m and len(gate) != 16:
+    erro(f'o SS5.5 escreve "Dezesseis de 52" e o catalogo gateia {len(gate)} — '
+         'um numero se moveu debaixo da frase')
+
+# ------------------------------------------------------------------- 5. TETO
+bloco('5. TETO DE DEFESA — derivado de tres donos, nunca lido de constante')
+m = re.search(r'Defesa\s*=\s*(\d+) \+ Destreza \+ proteção', P1)
+BASE = int(m.group(1)) if m else erro('PECA 1: nao achei a formula da Defesa')
+m = re.search(r'\*\*Teto do atributo: (\d+)\.\*\* Teto do refino: (\d+)\.', P2)
+TETO_ATR, TETO_REF = (int(m.group(1)), int(m.group(2))) if m else (None, None)
+if TETO_ATR is None: erro('PECA 2: nao achei os tetos de atributo e de refino')
+m = re.search(r'a sua proteção é `1/(\d+) do refino \+ (\d+)`', P11)
+DIV, MAIS = (int(m.group(1)), int(m.group(2))) if m else (None, None)
+if DIV is None: erro('PECA 11: nao achei a formula de cobrir-se')
+if None not in (BASE, TETO_ATR, TETO_REF, DIV, MAIS):
+    cobrir = lambda r: r // DIV + MAIS
+    TETO_LIVRE = BASE + TETO_ATR + cobrir(TETO_REF)
+    print(f'  {BASE} (peca 1) + {TETO_ATR} (peca 2) + {cobrir(TETO_REF)} '
+          f'(peca 11: 1/{DIV} de {TETO_REF} + {MAIS}) = {TETO_LIVRE}')
+    if re.search(r'teto de Defesa (?:é|e) \*?\*?%d' % TETO_LIVRE, EQ):
+        erro(f'o numero {TETO_LIVRE} esta ESCRITO no rascunho — ele e derivado e '
+             'escreve-lo cria a segunda fonte, que e a licao no 9')
+    def tabela(sec_ini, sec_fim, ncols):
+        ini = EQ.index(sec_ini); fim = EQ.index(sec_fim)
+        out = []
+        for l in EQ[ini:fim].split('\n'):
+            c = [x.strip(' *`') for x in l.strip().strip('|').split('|')]
+            if len(c) >= ncols and re.fullmatch(r'\d', c[0]): out.append(c)
+        return out
+    unis = tabela('## 3. A escada', '### A coluna de Força', 7)
+    escs = tabela('### Então: proteção, com requisito de Força e teto de Destreza',
+                  '### O que isso NÃO conserta', 5)
+    def num(x): return None if x in ('—', '-', '') else int(re.sub(r'\D', '', x) or 0)
+    rotas = [('cobrir-se', cobrir(TETO_REF), None)]
+    for c in unis:
+        rotas.append((f'Traje {c[0]}', num(c[1]), num(c[2])))
+        rotas.append((f'Revestimento {c[0]}', num(c[4]), num(c[5])))
+    escudos = [('sem escudo', 0, None)] + [(f'escudo {c[0]}', num(c[1]), num(c[2])) for c in escs]
+    print(f'  busca exaustiva: {len(rotas)} rotas de protecao x {len(escudos)} escudos '
+          f'x {TETO_ATR+1} Destrezas = {len(rotas)*len(escudos)*(TETO_ATR+1)} montagens')
+    pico, quem = 0, None
+    for rn, rp, rt in rotas:
+        for en, ep, et in escudos:
+            tetos = [t for t in (rt, et) if t is not None]
+            for dex in range(TETO_ATR + 1):
+                d = BASE + min([dex] + tetos) + (rp or 0) + (ep or 0)
+                if d > pico: pico, quem = d, f'{rn} + {en}, Destreza {dex}'
+                if rn != 'cobrir-se' and d > TETO_LIVRE:
+                    erro(f'{rn} + {en} com Destreza {dex} da Defesa {d}, acima dos '
+                         f'{TETO_LIVRE} que a rota sem equipamento alcanca — '
+                         'quebra o invariante que esta peca e dona')
+    print(f'  pico da busca: {pico} ({quem}) — e o teto derivado e {TETO_LIVRE}.')
+    if pico > TETO_LIVRE:
+        erro(f'alguma montagem chega a {pico} e o teto derivado e {TETO_LIVRE}')
+
+# ----------------------------------------------------------------- 6. BALDES
+bloco('6. BALDES — os dois lados do treino de arma')
+m = re.search(r'\*\*Simples — \d+ armas, \d+ categorias:\*\* (.+)', EQ)
+n = re.search(r'\*\*Marciais — \d+ armas, \d+ categorias:\*\* (.+)', EQ)
+if not (m and n):
+    erro('SS5.4.1: nao achei os dois baldes')
+else:
+    simples = {x.strip(' `') for x in m.group(1).split('·')}
+    marcial = {x.strip(' `') for x in n.group(1).split('·')}
+    simples = {sem_acento(x) for x in simples}
+    marcial = {sem_acento(x) for x in marcial}
+    cats = {sem_acento(a['categoria']) for a in CORPO}
+    falta = cats - simples - marcial
+    for c in falta: erro(f'a categoria "{c}" nao esta em nenhum dos dois baldes')
+    sm = [a for a in CORPO if sem_acento(a['categoria']) in simples]
+    mc = [a for a in CORPO if sem_acento(a['categoria']) in marcial]
+    def teto1(g): return max([MEDIA_DADO[a['dado']] for a in g if a['maos'] == 1] or [0])
+    def teto2(g):
+        v = [MEDIA_DADO[a['dado']] for a in g if a['maos'] == 2]
+        v += [MEDIA_DADO[a['dado']] + 1.0 for a in g if a['maos'] == 1 and 'versatil' in {sem_acento(p) for p in a['props']}]
+        return max(v or [0])
+    print(f'  simples {len(sm)} armas / marcial {len(mc)} armas')
+    for g, nm in ((sm, 'simples'), (mc, 'marcial')):
+        if not any(a['maos'] == 1 for a in g): erro(f'o balde {nm} nao tem arma de uma mao')
+        if not any(a['maos'] == 2 for a in g): erro(f'o balde {nm} nao tem arma de duas maos')
+    if teto1(sm) != teto1(mc):
+        erro(f'os baldes nao empatam numa mao: simples {teto1(sm)} contra marcial {teto1(mc)} '
+             '— a divisao passou a restringir PODER e nao identidade')
+    if teto2(sm) != teto2(mc):
+        erro(f'os baldes nao empatam em duas maos: simples {teto2(sm)} contra marcial {teto2(mc)}')
+    print(f'  teto: 1 mao {teto1(sm)} = {teto1(mc)} | 2 maos {teto2(sm)} = {teto2(mc)}')
+    livres2 = [a for a in sm if a['maos'] == 2 and a['dado'] not in topo_c]
+    if not livres2:
+        erro('sob o requisito de Forca o balde simples fica sem arma de duas maos — '
+             'os dois gates se multiplicam e o Caminho nao-marcial perde uma economia de mao')
+    print(f'  sob o requisito de Forca, o simples mantem {len(livres2)} arma(s) de duas maos.')
+
+# ------------------------------------------------------------------ 7. TALHA
+bloco('7. TALHA — regra opcional nao pode ser a unica identidade de uma arma')
+so_talha = {a['nome'] for a in ARMAS if [sem_acento(x) for x in pagas(a)] == ['talha']}
+for n in sorted(so_talha - SO_TALHA_ACEITA):
+    erro(f'{n} tem a Talha como unica propriedade paga e nao esta declarada — numa mesa '
+         'que nao use o Bloquear ela vale zero, e a arma pagou 1 ponto por ela')
+for n in sorted(SO_TALHA_ACEITA - so_talha):
+    erro(f'{n} esta declarada como so-Talha e nao e mais — tire da declaracao')
+n_talha = sum(1 for a in ARMAS if 'talha' in {sem_acento(p) for p in a['props']})
+print(f'  {n_talha} armas com Talha, {len(so_talha)} dependendo so dela '
+      f'({len(SO_TALHA_ACEITA)} declarada(s)).')
+
+# --------------------------------------------------------------- 8. VERSATIL
+bloco('8. VERSATIL — o passo de graca so nas armas declaradas')
+tem = {a['nome'] for a in ARMAS if 'versatil' in {sem_acento(p) for p in a['props']}}
+for n in sorted(tem - VERSATIL_DECLARADAS):
+    erro(f'{n} carrega Versatil e nao esta declarada — a propriedade custa zero, '
+         'entao quem a carrega e estritamente melhor que a arma identica sem ela. '
+         'A condicao que segura isso e de ficcao e ainda nao esta escrita (SS8 item 17)')
+for n in sorted(VERSATIL_DECLARADAS - tem):
+    erro(f'{n} esta declarada com Versatil e nao a tem mais no catalogo')
+print(f'  {len(tem)} armas com Versatil, todas declaradas.' if not (tem ^ VERSATIL_DECLARADAS)
+      else f'  {len(tem)} no catalogo contra {len(VERSATIL_DECLARADAS)} declaradas.')
+
+# --------------------------------------------------------------- 9. DESLIGA
+bloco('9. DESLIGA — a frase do desligamento nao cita escudo')
+for nome, txt in (('peca 8', P8), ('peca 11', P11)):
+    for m2 in re.finditer(r'[^.\n]*deslig[^.\n]*', txt):
+        f = m2.group(0)
+        if 'escudo' in f.lower() and 'sa' not in f.lower()[:f.lower().find('escudo')][-4:] \
+           and 'soma' not in f.lower() and 'saiu' not in f.lower():
+            erro(f'{nome}: a frase do desligamento ainda cita escudo — '
+                 f'"{f.strip()[:90]}..."')
+print('  peca 8 e peca 11 conferidas.')
+
+# --------------------------------------------------------------- 10. TRIAGEM
+bloco('10. TRIAGEM — todo nome do catalogo aparece no documento que o define')
+EQ_SA = sem_acento(EQ)
+for a in ARMAS:
+    n_sa = sem_acento(a['nome'])
+    if EQ_SA.count(n_sa) < 2:
+        erro(f'a arma "{a["nome"]}" aparece uma vez so no rascunho — '
+             'ela esta no catalogo e em lugar nenhum do argumento')
+    elif EQ.count(a['nome']) < 2:
+        erro(f'"{a["nome"]}" e escrita de um jeito na tabela do SS5.3 e de outro na prosa — '
+             'o conferir-nomes.py compara literal e nao veria uma colisao neste nome')
+print(f'  {len(ARMAS)} nomes de arma conferidos contra o corpo do documento.')
+
+# ------------------------------------------------------------------- VEREDITO
+print('\n' + '=' * 88)
+for a in AVISOS: print(f'  aviso: {a}')
+if AVISOS: print(f'  {len(AVISOS)} aviso(s), que nao falham o validador.\n')
+if ERROS:
+    print(f'>>> {len(ERROS)} PROBLEMA(S):')
+    for e in ERROS: print(f'    - {e}')
+    sys.exit(1)
+print('>>> TUDO OK — toda arma fecha o fundo, a matriz so tem as dominancias')
+print('    declaradas, o teto de Defesa e derivado dos tres donos e nenhuma')
+print('    montagem de equipamento passa da rota que nao usa equipamento.')
+print('=' * 88)
