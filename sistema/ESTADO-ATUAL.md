@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 13/08/2026, na v0.53 (última peça fechada: **Equipamento, na v0.48** — ela é a peça 14 e tem o `conferir-equipamento.py` em cima dela; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`, e **Invocações está com cinco das seis perguntas fechadas** em `03-mecanica/RASCUNHO-invocacoes.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 13/08/2026, na v0.54 (última peça fechada: **Equipamento, na v0.48** — ela é a peça 14 e tem o `conferir-equipamento.py` em cima dela; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`, e **Invocações está com cinco das seis perguntas fechadas** em `03-mecanica/RASCUNHO-invocacoes.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.53.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **catorze peças escritas** e **catorze validadores**. Manual do Fundamento na **v7.8**, com a Expansão de Domínio escrita, e o catálogo de aptidões com **dez das catorze entradas fechadas**. **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas** — por seis das nove rotas de Origem, e agora sem nenhum buraco de regra que morda nessa faixa.
+**Versão v0.54.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **catorze peças escritas** e **catorze validadores**. Manual do Fundamento na **v7.8**, com a Expansão de Domínio escrita, e o catálogo de aptidões com **dez das catorze entradas fechadas**. **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas** — por seis das nove rotas de Origem, e agora sem nenhum buraco de regra que morda nessa faixa.
 
 ## Como retomar
 
@@ -144,7 +144,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/conferir-criacao.py` | **a instância, não a regra**: a ficha de exemplo da peça 8 contra as fórmulas, a proteção da aptidão gratuita, a Trilha na criação e se o catálogo citado existe |
 | `03-mecanica/conferir-ficha.py` | **o material contra a regra**: as 23 perícias, os 11 ofícios, os 5 Caminhos, as 15 Trilhas e as constantes do nível 2 que a ficha imprime, contra as peças donas |
 | `05-material/gerador-ficha/` | o gerador da ficha (Node: `node make.js`), e os dois `.docx` que ele produz |
-| `conferir-repositorio.py` | a árvore, as referências mortas, e os números que moram em mais de um documento |
+| `conferir-repositorio.py` | a árvore, as referências mortas, os números que moram em mais de um documento, e — **desde a v0.54** — os **ponteiros de seção**: todo `peça N §M` citado tem de apontar para seção que existe |
 | `99-arquivo/` | material morto, com LEIA-ME próprio. Não leia de lá para escrever peça nova |
 
 **Duas peças foram parcialmente substituídas e trazem o aviso no topo:** as seções 3 e 4 da peça 4 saíram para a peça 7, e a seção 3 e o quadro de Caminhos da peça 5 saíram para a peça 6.
@@ -471,6 +471,12 @@ Quatro peças, e a ordem é de **dependência**, não de tamanho. A ordem que el
 | 2 | **Ferramenta amaldiçoada** | destrava `Técnica Marcial` | **rotas 6/9 → 8/9** · vagas 3 de 7 |
 | 3 | **Trilhas** | fecha com as quinze de uma vez | toca **100% das fichas** |
 | 4 | **Objeto amaldiçoado** | a conta o pôs por último | rotas 6/9 → 6/9 · **vagas 1 de 7** |
+
+> **As posições 2 e 3 ganharam rascunho na v0.54**, e os dois têm o mesmo formato do de Invocações — perguntas em ordem de dependência, com o que a conta já fecha separado do que é sabor.
+>
+> **`03-mecanica/RASCUNHO-ferramenta-amaldicoada.md`.** A conta fechou três coisas antes de qualquer pergunta: **grau não pode ser mais ponto de arma** (no nv30, dobrar o orçamento de uma arma de duas mãos vale `1,3%` da Rotina contra os `6%` a `9%` de uma Trilha inteira); **a ferramenta não é o que faz o sem-energia competir em dano** (a arma comum é 96% da Rotina no nv2 e 10% no nv30 — fechar isso pediria 113 de dano por rodada, que é o Fundamento e não um item), então **ela entrega ferir maldição, que é binário**, e o dano é da Técnica Marcial; e **grau como gate de patente está refutado pela peça 12**, porque *"Grau é reconhecimento; nível é poder"* e a espiral fechada é a mesma. *E o cubo que prendeu o Gojo é **objeto** amaldiçoado, não ferramenta — a fonte é explícita, e ele é da peça que a v0.50 pôs em último.*
+>
+> **`03-mecanica/RASCUNHO-trilhas.md`.** O achado que decide o formato: **catorze dos vinte e nove níveis não entregam nada hoje, e são todos os ímpares** — os feitiços conhecidos cobrem todo nível par, e maestria e marcos caem em cima de níveis que já tinham feitiço. **A Trilha tem onde cair sem competir com nada.** E o risco real da peça é escala: **quinze Trilhas × quantas entregas** dá de 30 a 120 entradas, contra as 81 que a peça 13 fechou em uma versão e as 52 armas que custaram **seis** à peça 14. *A diferença entre as duas foi a régua vir antes do catálogo, e é a única recomendação de método que aquele documento faz.*
 
 **Só a posição 3 contra 2 era escolha. As outras três a conta fechou sozinha:**
 

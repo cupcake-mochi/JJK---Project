@@ -11,12 +11,14 @@ os changelogs e a pasta do sistema — e havia 104 referencias internas cruzadas
 Uma referencia quebrada nao falha nenhum validador: ela so' aparece seis meses
 depois, quando alguem abre o projeto em outro computador e nao acha o arquivo.
 
-Quatro checagens:
+Cinco checagens:
   1. ESTRUTURA — as pastas e os arquivos que o README promete existem.
   2. REFERENCIA MORTA — todo caminho citado em .md e .py resolve para um arquivo
      de verdade.
   3. ESTRUTURA ANTIGA — nada continua apontando para RPG-JJK/ ou para o manual na
      raiz, que era onde eles moravam antes.
+  5. PONTEIRO DE SECAO — todo "peca N §M" citado aponta para uma secao que
+     existe de verdade. A checagem 2 confere o ARQUIVO e passa por baixo desta.
   4. NUMERO COM DOIS DONOS — a versao do projeto e a versao do manual moram cada
      uma em meia duzia de arquivos. Cada uma tem UM dono declarado, e toda copia
      e' conferida contra ele.
@@ -365,6 +367,77 @@ for arq, rx, oque in (
 print()
 print('  Um numero, um dono. Toda copia acima e conferida contra ele, e nenhuma')
 print('  delas fica escrita dentro deste validador.')
+
+
+# --------------------------------------------------------------------------
+# 5. PONTEIRO DE SECAO — "peca N §M" apontando para secao que nao existe.
+#
+# Nasceu na v0.54, e o exemplar que a justifica e' de tres versoes antes: a v0.50
+# achou que "peca 5 §9" NAO EXISTE e que TRES documentos apontavam para la — cada
+# um querendo dizer uma coisa diferente, e as duas coisas morando em secoes
+# diferentes uma da outra. A peca 5 sempre teve cinco secoes.
+#
+# A checagem 2 confere referencia de ARQUIVO e passa por baixo disto: o arquivo
+# existe, e' a secao que nao. Foi assim que o fantasma sobreviveu.
+#
+# O CHANGELOG fica de fora de proposito. Entrada de CHANGELOG e' registro do que
+# se pensou naquele dia, e a v0.50 decidiu por escrito nao reescrever historico
+# para esconder erro — as duas citacoes de "peca 5 §9" que sobrevivem la sao
+# justamente essa decisao, e acusa-las seria pedir para desfaze-la.
+#
+# Cuidado herdado da v0.51: um checker meu ja acusou cinco referencias BOAS por
+# capturar "4." com o ponto e comparar contra "4". O rstrip('.') abaixo e' isso.
+print()
+bloco('5. PONTEIRO DE SECAO — "peca N §M" que aponta para secao inexistente')
+
+MEC = os.path.join(RAIZ, 'sistema', '03-mecanica')
+_secoes = {}
+for _f in sorted(os.listdir(MEC)):
+    _m = re.match(r'^(\d\d)-.*\.md$', _f)
+    if not _m:
+        continue
+    _txt = open(os.path.join(MEC, _f), encoding='utf-8').read()
+    _ids = set()
+    for _h in re.findall(r'^#{2,4}\s+([\d.]+)[.\s]', _txt, re.M):
+        _h = _h.rstrip('.')
+        _ids.add(_h)
+        _p = _h.split('.')
+        for _k in range(1, len(_p)):
+            _ids.add('.'.join(_p[:_k]))   # 5.0.4 satisfaz um ponteiro para 5 e 5.0
+    _secoes[int(_m.group(1))] = (_f, _ids)
+
+_PAT = re.compile(r'pe[cç]a\s+(\d{1,2})\s*.{0,2}§\s*([\d.]+)')
+_vistos = 0
+_ruins = 0
+for _dir, _dirs, _files in os.walk(RAIZ):
+    _dirs[:] = [d for d in _dirs
+                if d not in ('_backup', '99-arquivo', '.git', '_to_delete', 'node_modules', '.venv')]
+    for _f in _files:
+        if not _f.endswith('.md'):
+            continue
+        _rel = os.path.relpath(os.path.join(_dir, _f), RAIZ)
+        if _rel.replace('\\', '/').startswith('logs/'):
+            continue                       # historico: ver o comentario acima
+        for _i, _linha in enumerate(open(os.path.join(_dir, _f), encoding='utf-8'), 1):
+            for _pn, _sec in _PAT.findall(_linha):
+                _pn = int(_pn)
+                _sec = _sec.rstrip('.')
+                _vistos += 1
+                if _pn not in _secoes:
+                    _ruins += 1
+                    erro(f'PONTEIRO: {_rel}:{_i} cita "peca {_pn} §{_sec}" e nao existe peca {_pn}')
+                elif _sec not in _secoes[_pn][1]:
+                    _ruins += 1
+                    _reais = ' · '.join(sorted(_secoes[_pn][1]))
+                    erro(f'PONTEIRO: {_rel}:{_i} cita "peca {_pn} §{_sec}", e a '
+                         f'{_secoes[_pn][0]} tem so as secoes {_reais}')
+
+if not _ruins:
+    print(f'  [x] {_vistos} ponteiros de secao conferidos, e os {_vistos} resolvem')
+print()
+print('  A checagem 2 confere se o ARQUIVO existe; esta confere se a SECAO existe.')
+print('  Nada em logs/ e conferido: entrada de CHANGELOG e registro do que se')
+print('  pensou naquele dia, e a v0.50 decidiu nao reescrever historico.')
 
 
 # --------------------------------------------------------------------------

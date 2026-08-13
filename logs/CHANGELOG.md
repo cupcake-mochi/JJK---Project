@@ -6,6 +6,132 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.54] — 2026-08-13
+
+**As posições 2 e 3 da fila ganharam rascunho, e nenhuma regra mudou.** Sessão sem o Mizuki, com permissão para agir: `ferramenta amaldiçoada` e `Trilhas`. **Passam a ser cinco rascunhos**, e continuam **catorze peças e catorze validadores** — o `conferir-repositorio.py` ganhou uma **quinta checagem** e continua sendo o mesmo arquivo. A conta fechou cinco coisas antes de qualquer pergunta, e uma delas derruba o exemplo que abriu a sessão.
+
+### Achado — o cubo que prendeu o Gojo não é ferramenta amaldiçoada
+
+*O pedido nomeou duas categorias: armas de grau, e "ferramentas, artefatos amaldiçoados, como cubo que prendeu Gojo". Fui conferir o segundo antes de escrever.*
+
+> **O Prison Realm é *"a special grade cursed **object**"***, e a regra que separa está escrita na fonte: *"com exceção de ferramentas amaldiçoadas e cadáveres amaldiçoados, itens que contêm energia amaldiçoada são chamados de **objetos amaldiçoados**"*. Ele aparece na lista ao lado dos **dedos do Sukuna** e das **Pinturas de Ventre Amaldiçoado**.
+
+**É a separação que a v0.49 achou, agora do outro lado.** Ferramenta é *feita para* canalizar; objeto **é** a coisa. O Prison Realm é carne viva com um olho no meio, que sela por vontade própria — não é forjado.
+
+**E a categoria 2 não perde nada:** a definição de ferramenta amaldiçoada já é *"**weapons and support items**"*, e os exemplares certos são a **Corrente de Mil Milhas**, a **câmera da Nanako** e o **violão do Gakuganji**. *O que muda é só qual peça é dona do cubo, e é a que a conta pôs em último na v0.50.*
+
+### Achado — grau não pode ser mais ponto de arma, e ele erra nas duas pontas
+
+O ponto de arma tem valor absoluto (`0,33` de dano por rodada, peça 14 §5) e a Rotina cresce:
+
+| nível | Rotina | **+5 pontos** — dobrar uma arma de duas mãos |
+|---|---|---|
+| 2 | 13 | **12,7%** |
+| 10 | 45 | 3,7% |
+| **30** | **126** | **1,3%** |
+
+**Contra os `6%` a `9%` que a peça 14 §4 diz que uma Trilha inteira vale.** A Lança Invertida do Céu não pode valer um sétimo de uma Trilha no nível 30 — e no nível 2 os mesmos 5 pontos valem **mais** que uma Trilha. **Grande demais embaixo, invisível em cima: é o formato errado, não um número mal escolhido.**
+
+*E o D&D chegou no mesmo lugar por outro caminho:* lá o item mágico também não escala — um `+3` é `+3` para sempre —, e o que faz um lendário importar no nível 17 **não é o número, é o que ele deixa você fazer.**
+
+### Achado — a ferramenta não é o que faz o sem-energia competir em dano
+
+*Esta muda o desenho da peça, e ela contradiz a leitura fácil da peça 5 §3.* A arma comum **não escala** — o dado é fixo e o atributo topa em 6:
+
+| nível | Rotina | melhor arma (`d12` + Força 6) | % da Rotina | o que falta |
+|---|---|---|---|---|
+| 2 | 13 | 12,5 | **96%** | 0,5 |
+| 10 | 45 | 12,5 | 28% | 32,5 |
+| **30** | **126** | **12,5** | **10%** | **113,5** |
+
+> **Uma ferramenta que tivesse de fechar isso precisaria entregar 113 de dano por rodada no nível 30 — o Fundamento inteiro, não um item.**
+
+**Então a divisão cai da conta:** a **ferramenta** entrega **ferir maldição**, que é **binário**; a **Técnica Marcial** entrega o dano. *A peça 5 §3 já dizia isso e ninguém tinha lido assim — "é por isso que um feiticeiro consegue ferir uma maldição e uma pessoa comum não" é frase sobre poder ou não poder, e o resto do parágrafo é sobre dano.*
+
+**E isso desarma sozinho o medo da peça 5 §5** (*"cara o suficiente para não virar o padrão"*): entregando porta e não dano, **ela não pode virar o padrão do feiticeiro**, que já tem a porta de graça pelo golpe canalizado. *Uma pendência aberta desde a peça 5 dissolvendo quando a unidade certa aparece — igual à Q5 de Invocações dissolvendo na Q4.*
+
+### Achado — grau como gate de patente está refutado pela peça 12
+
+A ideia óbvia — *"feiticeiro de Grau 2 porta ferramenta de grau 2"* — bate na frase que a peça 12 escreveu para rejeitar *"Grau dá mais XP"*:
+
+> *"**Grau é reconhecimento; nível é poder.** Se o Grau passar a dar XP, ele vira nível com outro nome — e pior, vira **espiral fechada**."*
+
+**Trocar "XP" por "ferramenta" não muda uma vírgula.** Sobe de patente → ferramenta melhor → mais poder → mais feito → sobe de patente. *A peça 12 já pagou por esse achado; ele só precisava ser lido no eixo novo.*
+
+### Registrado — a colisão de nome é de expectativa, não de palavra
+
+**`Grau` já é a patente** — *"todo personagem começa Grau 4"*, na peça 2, na 8 e na 9, com o Yuta de **Grau especial**. Mesma escala, mesmas cinco casas, outra coisa. E **`Ferramenta` sai OCUPADO na triagem: é Tema no manual**, igual a `Invocação`.
+
+**A recomendação registrada é manter `Grau`**, porque no material os dois **são** a mesma escada de propósito, e um segundo vocabulário conserta uma ambiguidade que o contexto já resolve. **O que precisa estar escrito é a negação da ligação** — *a sua patente não decide que ferramenta você porta, e a ferramenta não mexe na sua patente.* Livres, se ele preferir trocar: `Têmpera` · `Quilate` · `Cunho` · `Lavra` · `Estirpe` · `Relíquia`.
+
+### Achado — catorze dos vinte e nove níveis não entregam nada, e são todos os ímpares
+
+*Montada a **tabela de progressão consolidada** que o `ESTADO-ATUAL` lista como inexistente, para saber onde a entrega da Trilha cabe. Ela respondeu a pergunta sozinha.*
+
+| o que cai onde | |
+|---|---|
+| feitiços conhecidos (`2 + nível ÷ 2`) | **todo nível par** |
+| maestria (nv 10, 18, 26) e os sete marcos | em cima de níveis pares que **já tinham feitiço** |
+| **os catorze ímpares** | **nada** |
+
+**O D&D 2024 padronizou a subclasse em 3, 6, 10 e 14 justamente para não empilhar presente no mesmo nível.** Aqui a lacuna é maior e mais regular. **A Trilha tem onde cair sem competir com nada** — e isso é decisão de formato tomada por medição, antes de a peça começar.
+
+### Achado — a entrega da Trilha tem de ser escalonada, e não é gosto de densidade
+
+A peça 14 §4 registra a dívida como *"de 6% a 9% da Rotina, e a fração quase não deriva"*. **A fração não deriva; o valor absoluto cresce dez vezes** — 0,8 a 1,2 no nível 2 contra 7,6 a 11,3 no nível 30.
+
+**Uma Trilha que entregue tudo no nível 2 paga a dívida ali e vale `0,9%` da Rotina no nível 30.** *É o mesmo modo de falha do ponto de arma, dois achados acima: valor absoluto contra alvo que cresce.* **O mínimo é mais de uma entrega, e quem diz é a conta.**
+
+### Medido — o risco real de Trilhas é escala, e ele tem número
+
+| entregas por Trilha | × 15 | comparável a |
+|---|---|---|
+| 8 — nível 2 mais os sete marcos | **120** | nada que este projeto já tenha escrito |
+| **4** — níveis 2, 10, 18, 26 | **60** | peça 13: 81 entradas, **uma versão** |
+| 2 — níveis 2 e 16 | 30 | peça 11: 10 entradas, uma versão |
+
+> **A peça 13 e a peça 14 são a lição inteira, e discordam de propósito.** Legados fez **81 entradas em uma versão** porque **a régua veio antes do catálogo** — *"os quatro Legados que a régua reprovou eram do catálogo antigo"*. Equipamento gastou **seis versões** porque a régua foi consertada com o catálogo já escrito, e cada conserto envelhecia o que existia.
+>
+> **Trilhas é maior que as duas.** Escrever entrada antes de a régua fechar é a rota de seis versões, com 60 a 120 entradas em vez de 52.
+
+### Adicionado — a checagem 5 do `conferir-repositorio.py`: ponteiro de seção
+
+*Escrita na revisão cética desta versão, indo conferir os ponteiros que os dois rascunhos novos criaram. **Ela fecha um buraco que a v0.50 nomeou e não teve como tapar:***
+
+> *"O `conferir-repositorio.py` confere referência **de arquivo** [...] **Referência de seção passa por baixo dele.** Lição nº 9 numa camada mais fina que a de sempre: não é um número com dois donos, é um ponteiro para dentro de um documento que nenhuma checagem resolve."*
+
+**Todo `peça N §M` citado em `.md` tem de apontar para uma seção que existe.** Rodando hoje: **129 ponteiros, e os 129 resolvem.**
+
+> **`logs/` fica de fora de propósito.** As duas citações sobreviventes de *"peça 5 §9"* moram na entrada da v0.49, e a v0.50 decidiu por escrito não reescrever histórico para esconder erro. **Acusá-las seria pedir para desfazer aquela decisão.** *A regra da checagem é a decisão do projeto, escrita no comentário dela.*
+
+**Arnês de perturbação, numa cópia isolada, com a base conferida verde antes** — e as três regras obedecidas:
+
+| perturbação | acendeu? |
+|---|---|
+| ressuscitar o fantasma: um `peça 5 §3` virando `peça 5 §9` | **sim**, com a mensagem nomeando as cinco seções reais |
+| citar `peça 15 §4`, que não existe | **sim** |
+| **contra-teste:** trocar por `peça 6 §3.1`, que existe | **não acendeu**, como tem de ser |
+| **contra-teste 2:** uma perturbação produz **um** erro | **sim** — as checagens não estão acopladas |
+
+*E o cuidado é herdado: a v0.51 registra um checker meu que acusou **cinco referências boas** por capturar `4.` com o ponto e comparar contra `4`. O `rstrip('.')` desta checagem existe por causa daquele dia, e está comentado no código.*
+
+### Registrado — o levantamento externo
+
+**Cursed Tool** (*"weapons and support items... purposefully imbued with a curse"*, *"categorized from grade one to four based on their power and potency"*, *"even non-sorcerers can use them"*), com o catálogo por grau — Nuvem Divertida e Lança Invertida do Céu como especial, a Corda Negra que *"se deteriora com o uso"*, e a katana da Kasumi como **semi-ferramenta**, que é um degrau abaixo do grau 4 que o material tem e a escada não. **Cursed Object** (a regra de exclusão, e a lista com o Prison Realm dentro). **D&D**: as seis raridades sobre quatro tiers, a **sintonização** — *"no more than three magic items at a time"* — e a metade que serve de graça, *"without becoming attuned... gains only its **nonmagical benefits**"*, que é o que deixa a camada existir **sem furar o fundo de Equipamento**. **D&D 2024**: subclasse padronizada em *"3rd, 6th, 10th, and 14th level"*.
+
+### Registrado — o que NÃO foi decidido, e por quê
+
+*Sessão sem o Mizuki. Escolha de sabor é dele, e nenhuma foi fechada:* quantas entregas por Trilha, uma Trilha ou mais por ficha, se subtrilha existe, o nome do grau, qual o gate de acesso, e quantas ferramentas de apoio se carrega. **Todas estão nos dois rascunhos com as opções e o número de cada uma já calculados.**
+
+### Em aberto
+
+- **Ferramenta:** as sete perguntas do §5 do rascunho — o que o grau compra, se o grau 4 dá algo além da porta, o gate, o teto das que não ocupam mão, **como uma ferramenta entra numa ficha e atravessa sete mesas** (a que decide se a peça funciona), se toda ferramenta canaliza sozinha, e se a deterioração existe.
+- **Trilhas:** as cinco perguntas do §3 — quantas Trilhas por ficha, quantas entregas e em que níveis, **a régua antes do catálogo**, se subtrilha existe, e o conteúdo.
+- Tudo o que a v0.53 deixou: Rika e Mahoraga, a fórmula de vida por tipo, reconseguir, o alcance do `Remoto`, o validador de Invocações.
+- As de sempre: as vagas de Desliga, a Cicatriz, Energia Reversa, o clash, o nome do sistema.
+
+---
+
 ## [0.53] — 2026-08-13
 
 **O catálogo de Invocações foi escrito entrada por entrada, e três dos quatro tipos pediram menos do que o tamanho da pergunta.** As catorze entradas da v0.51 e da v0.52 tinham saído todas dos shikigami do Megumi — que é um tipo só. Passados os outros três, o catálogo foi de **13 para 19 compráveis**, e a passada achou um buraco que estava aberto desde a v0.50: **não existia regra de distância entre dono e invocação.** Continuam **catorze peças e catorze validadores** — Invocações continua rascunho até o validador dela existir.
