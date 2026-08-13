@@ -142,6 +142,6 @@ Sua Defesa é `10 + Destreza + proteção`, e ela é o padrão. Ao ser atacado, 
 
 ---
 
-O repositório está em `https://github.com/cupcake-mochi/JJK---Project.git`, e ele é privado — não tente abrir pela web, só pela pasta.
+O repositório está em `https://github.com/cupcake-mochi/JJK---Project.git`. **Ele é público desde 13/08/2026** — era privado até ali, e a autenticação por HTTPS dava trabalho demais para o que o repositório é. Ainda assim, **leia da pasta e não da web**: a pasta é a fonte da verdade, e o GitHub só tem o que já foi commitado.
 
 **Comece pelos quatro passos e me diga o que você entendeu do estado atual.**

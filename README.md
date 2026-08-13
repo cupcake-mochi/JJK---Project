@@ -207,4 +207,6 @@ A seção *"O que existe e o que não existe, medido"* do `ESTADO-ATUAL.md` tem 
 
 ## Licença e escopo
 
-Material de fã, sem fins comerciais, não afiliado à Shueisha, à MAPPA nem a Gege Akutami. Jujutsu Kaisen e seus personagens pertencem aos detentores originais. Este repositório é privado e existe para o trabalho da Guilda.
+Material de fã, sem fins comerciais, não afiliado à Shueisha, à MAPPA nem a Gege Akutami. Jujutsu Kaisen e seus personagens pertencem aos detentores originais.
+
+**O repositório é público desde a v0.44** — era privado até ali, e ficou público porque a autenticação por HTTPS custava mais atenção do que o sigilo valia. Ele existe para o trabalho da Guilda; qualquer um pode ler, ninguém precisa.

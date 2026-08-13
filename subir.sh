@@ -35,9 +35,10 @@ subir_para_o_remoto() {
     echo
     amarelo "  O commit JA ESTA FEITO. Nada se perdeu; falta so' o push."
     echo
-    echo "  'Repository not found' num repositorio PRIVADO quer dizer autenticacao,"
-    echo "  e nao repositorio sumido: o GitHub responde 404 em vez de 403 para nao"
-    echo "  contar que ele existe para quem nao pode ve-lo."
+    echo "  'Repository not found' quer dizer autenticacao, e nao repositorio"
+    echo "  sumido — o GitHub responde 404 em vez de 403 para nao contar que um"
+    echo "  repositorio privado existe. (Este aqui e' publico desde 13/08/2026,"
+    echo "  entao hoje esse erro so' deve aparecer no push, que sempre autentica.)"
     echo
     echo "  Aconteceu em 13/08/2026, e a receita que resolveu foi esta — na ordem,"
     echo "  porque a terceira linha sozinha NAO resolve:"
