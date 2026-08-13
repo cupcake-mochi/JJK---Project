@@ -973,7 +973,7 @@ E a assimetria some junto: *você* reconhece, *você* sabe quando um morre. Não
 
 > **Peso Real** — você percebe **ferramenta amaldiçoada, barreira e véu pelo tato e pelo peso, não pela energia**. O que engana feiticeiro não engana você. *Em troca, você percebe que tem alguma coisa ali e não o que é — o aviso vem sem nome.*
 
-*A vaga espera **ferramenta amaldiçoada**, e esta é a Origem que mais depende dela: pelo ramo sem energia nenhuma, **ferramenta amaldiçoada é o único jeito de ferir maldição** — a peça 5 §9 escreve isso com todas as letras. O `Peso Real` já cita ferramenta no próprio texto.*
+*A vaga espera **ferramenta amaldiçoada**, e esta é a Origem que mais depende dela: pelo ramo sem energia nenhuma, **ferramenta amaldiçoada é o único jeito de ferir maldição** — a peça 5 §3 escreve isso com todas as letras. O `Peso Real` já cita ferramenta no próprio texto.*
 
 #### O que o levantamento trouxe, e o que ele matou
 

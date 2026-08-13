@@ -6,6 +6,80 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.50] — 2026-08-13
+
+**A fila foi reordenada, e nenhuma regra mudou.** Sessão de planejamento: as duas peças que a v0.49 destampou — `ferramenta amaldiçoada` e `objeto amaldiçoado` — ganharam posição, e Invocações ganhou o rascunho dela. Continuam **catorze peças e catorze validadores**.
+
+### Decidido — a fila, e três das quatro posições saíram da conta
+
+*Decisão do Mizuki: "Invocações agora, ferramenta entre ela e a Trilha."*
+
+| # | peça | por que aqui |
+|---|---|---|
+| 1 | **Invocações** | dependência dura de Trilhas: `Servo`, `Matilha` e `Coro` **são** o sistema de invocação visto de dentro |
+| 2 | **Ferramenta amaldiçoada** | destrava `Técnica Marcial`, que é o que leva as rotas de Origem de **6/9 para 8/9** |
+| 3 | **Trilhas** | fecha com as quinze escrevíveis de uma vez, em vez de doze mais três pendentes |
+| 4 | **Objeto amaldiçoado** | por último, e é o que a conta impôs |
+
+**Só a posição 3 contra 2 era escolha; as outras três a conta fechou sozinha.**
+
+> **Objeto amaldiçoado destrava zero ficha, e isso é o contrário do que a v0.49 fazia parecer.** Ele foi o achado brilhante daquela versão — termo cobrindo dois conceitos, duas Origens construídas em cima dele, nenhuma peça dona. **Mas Receptáculo e Reencarnado já rodam hoje**, os dois vão para o Fundamento. Ele fecha **1 das 7 vagas de Desliga** e mais nada.
+>
+> *Buraco de vocabulário real não é o mesmo que buraco que trava alguém — e o brilho do achado empurra para tratar os dois igual.*
+
+**E ferramenta vem antes de Técnica Marcial por texto já escrito, não por gosto.** A peça 5 §3 diz que a Maki *"só compete porque a **ferramenta amaldiçoada carrega a energia por ela**"*. Escrever Técnica Marcial antes produz uma rota que não consegue ferir maldição, que é o jogo inteiro.
+
+### Achado — "peça 5 §9" não existe, e três documentos apontavam para lá
+
+*Achado na revisão cética desta versão, indo ler a seção antes de citá-la.* **A peça 5 tem cinco seções.** Não existe §9, e nunca existiu.
+
+| quem citava | o que queria dizer | onde a coisa mora |
+|---|---|---|
+| peça 13, a vaga da Restrição Celestial | *"ferramenta é o único jeito de ferir maldição"* | **§3, Canalizar Energia** |
+| peça 14 §8 item 2 | *"a pendência nomeada"* | **§5, Em aberto** |
+| `ESTADO-ATUAL`, a definição de ferramenta | *"prometida desde"* | **§5, Em aberto** |
+
+> **Não é um número errado repetido três vezes: as duas coisas citadas como §9 estão em seções diferentes uma da outra.** O argumento da Maki está no §3, junto da frase que explica por que um feiticeiro fere maldição e uma pessoa comum não; a pendência de preço está no §5. **Quem fosse conferir a promessa não acharia nem uma nem outra.**
+
+**E o motivo de ninguém ter pego é estrutural:** o `conferir-repositorio.py` confere referência **de arquivo** — foi ele que pegou, nesta mesma versão, o `15-invocacoes.md` que eu tinha citado no rascunho e que não existe. **Referência de seção passa por baixo dele.** *Lição nº 9 numa camada mais fina que a de sempre: não é um número com dois donos, é um ponteiro para dentro de um documento que nenhuma checagem resolve.*
+
+As três foram corrigidas. A citação dentro da entrada da v0.49, logo abaixo, **fica como está** — entrada de CHANGELOG é registro do que se pensou naquele dia, e reescrever histórico para esconder erro é o contrário do que este arquivo existe para fazer.
+
+### Adicionado — o `RASCUNHO-invocacoes.md`, e ele achou um buraco na peça 6
+
+Levantamento engatilhado, sem número no nome. **Passam a ser três rascunhos** — com o `RASCUNHO-bloqueio.md` e o `RASCUNHO-clash-de-expansoes.md` —, e o `README` foi corrigido, porque ele contava dois pelo nome.
+
+**O achado é do levantamento externo, e ele é de um eixo que a peça 6 não mede.** O `conjure animals` do 5e 2014 é o modo de falha mais documentado do hobby, e ele tem **duas metades**:
+
+| metade | a peça 6 §4 cobre? |
+|---|---|
+| dano e economia de ação — oito lobos | **sim.** *"Você e todas as suas invocações somados entregam uma Rotina"* |
+| **tempo de mesa** — o combate para, e os outros esperam | **não** |
+
+**O 5e 2024 trocou a família inteira por causa da segunda metade**, e o motivo publicado é operacional: ficha de monstro para abrir, miniatura para ter, combate travando. A saída deles foi uma criatura só, que não se divide e **age na iniciativa do dono**. O 13th Age resolve por outro lado — dano contra o bando inteiro, mook com um quinto da vida.
+
+> **A `Matilha` é exatamente a montagem que os dois tiveram que construir máquina especial para segurar** — *"um quinto da Rotina em cada, cinco corpos no campo"*. **Cinco fichas agindo por rodada custam o mesmo tempo de mesa quer cada uma faça 25 de dano ou 5.**
+>
+> E o eixo **já existe no projeto**: a lista de playtest pergunta *"alguém usa ação bônus?"* com a justificativa *"é a peça mais herdada do turno e a que mais custa tempo de mesa"*. Ninguém tinha apontado ele para cá. *Um preço se mede somado — e tempo de mesa é a parcela que nenhuma conta de dano enxerga.*
+
+### Registrado — o Fundamento não produz invocação, e a suspeita óbvia caiu
+
+*Conferido no `.docx` da v7.8 antes de propor qualquer coisa.* A hipótese era que uma técnica com Regra de invocar já produzisse invocação pelo orçamento do Fundamento — o que seria a lição nº 2, o mesmo poder contado duas vezes.
+
+**Não procede.** `Invocação` aparece **só como Tema**, no grupo *Criação* do catálogo do apêndice, e Tema não tem efeito mecânico. Não existe Forma nem Melhoria que ponha um corpo que age no campo. **Não há duas portas.**
+
+### Registrado — o nome da peça está ocupado, e o `arquitetura.md` nunca soube dela
+
+A triagem: `Invocação`, `Invocacao` e `Vínculo` saem **OCUPADO** (Temas do manual); `Servo`, `Matilha` e `Coro` saem OCUPADO por já serem Trilhas. Livres: `Coleira`, `Convocação`.
+
+**Não é impeditivo — Tema não carrega mecânica —, mas tem de ser decisão escrita e não descuido.** *E de quebra: `invocação` tem **zero ocorrências** no `arquitetura.md`. O documento que é o mapa da ordem de construção nunca mencionou o subsistema, do mesmo jeito que não mencionava `objeto amaldiçoado`.*
+
+### Em aberto
+
+As mesmas da v0.49, menos a posição das duas peças novas. Nenhuma vaga de Desliga foi tocada, nenhum número mudou.
+
+---
+
 ## [0.49] — 2026-08-13
 
 **A dívida que a peça 13 devia a Equipamento foi cobrar, e não havia o que cobrar.** As quatro vagas de Desliga que esperavam aquela peça **nomeavam a peça errada, cada uma por um motivo diferente** — e o achado que desfaz três delas veio de uma pergunta do Mizuki sobre canon. Nenhuma vaga foi preenchida, e isso é a decisão. Continuam **catorze peças e catorze validadores**.

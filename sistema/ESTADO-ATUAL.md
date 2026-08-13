@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 13/08/2026, na v0.49 (última peça fechada: **Equipamento, na v0.48** — ela é a peça 14 e tem o `conferir-equipamento.py` em cima dela; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 13/08/2026, na v0.50 (última peça fechada: **Equipamento, na v0.48** — ela é a peça 14 e tem o `conferir-equipamento.py` em cima dela; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`, e **Invocações está engatilhada** em `03-mecanica/RASCUNHO-invocacoes.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.49.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **catorze peças escritas** e **catorze validadores**. Manual do Fundamento na **v7.8**, com a Expansão de Domínio escrita, e o catálogo de aptidões com **dez das catorze entradas fechadas**. **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas** — por seis das nove rotas de Origem, e agora sem nenhum buraco de regra que morda nessa faixa.
+**Versão v0.50.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **catorze peças escritas** e **catorze validadores**. Manual do Fundamento na **v7.8**, com a Expansão de Domínio escrita, e o catálogo de aptidões com **dez das catorze entradas fechadas**. **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas** — por seis das nove rotas de Origem, e agora sem nenhum buraco de regra que morda nessa faixa.
 
 ## Como retomar
 
@@ -461,6 +461,25 @@ Quatro peças, e a ordem é de **dependência**, não de tamanho. A ordem que el
 | 3 | **Invocações** — o sistema de criação | o Evocador | — |
 | 4 | **Caminho, Trilhas e subtrilhas** — a árvore de cada um | o resto | **2 e 3** |
 
+### A fila foi reordenada na v0.50, e as duas peças novas ganharam posição
+
+*Decisão do Mizuki: "Invocações agora, ferramenta entre ela e a Trilha."* As duas que a v0.49 destampou entram assim:
+
+| # | peça | por que aqui | move o contador? |
+|---|---|---|---|
+| 1 | **Invocações** | dependência dura de Trilhas | rotas 6/9 → 6/9 · vagas 0 de 7 |
+| 2 | **Ferramenta amaldiçoada** | destrava `Técnica Marcial` | **rotas 6/9 → 8/9** · vagas 3 de 7 |
+| 3 | **Trilhas** | fecha com as quinze de uma vez | toca **100% das fichas** |
+| 4 | **Objeto amaldiçoado** | a conta o pôs por último | rotas 6/9 → 6/9 · **vagas 1 de 7** |
+
+**Só a posição 3 contra 2 era escolha. As outras três a conta fechou sozinha:**
+
+- **Invocações antes de Trilhas** não é preferência: `Servo`, `Matilha` e `Coro` **são** o sistema de invocação visto de dentro. As outras doze Trilhas já estão desbloqueadas desde que Equipamento fechou — era a Vanguarda que dependia dela.
+- **Ferramenta antes de Técnica Marcial** está escrito na peça 5 §3: a Maki *"só compete porque a ferramenta amaldiçoada carrega a energia por ela"*. Técnica Marcial escrita antes produz rota que não fere maldição.
+- **Objeto amaldiçoado por último**, e é o contrário do que a v0.49 fazia parecer. Ele foi o achado daquela versão, mas **Receptáculo e Reencarnado já rodam hoje** — os dois vão para o Fundamento. Ele fecha **1 vaga de Desliga e mais nada.** *Buraco de vocabulário real não é o mesmo que buraco que trava alguém.*
+
+**O rascunho de Invocações está em `03-mecanica/RASCUNHO-invocacoes.md`**, com as seis perguntas em ordem de dependência, a triagem do nome e o que o validador vai precisar. **Ele achou um buraco na peça 6, e ele é de um eixo que ninguém tinha apontado para cá:** a regra da seção 4 preça o **dano** da Matilha e não preça o **tempo de mesa** dela. Cinco fichas agindo por rodada custam o mesmo tempo quer cada uma faça 25 de dano ou 5 — e foi por essa metade, não pela do dano, que o 5e 2024 trocou a família inteira de `conjure`. O eixo já existe aqui, na pergunta de playtest sobre ação bônus.
+
 > **Equipamento é a próxima, e ela tem uma dívida marcada esperando.** A peça 13 fecha dizendo *"quando equipamento fechar, a primeira coisa a fazer é voltar aqui"* — quatro vagas de Desliga nomeiam essa peça como a que deve criar o alvo delas. As outras três esperam **dano e condições**, que não está na fila. *Decisão registrada não é decisão aplicada, e foi assim que a Trilha passou sete versões.*
 
 ### Onde Equipamento parou, na v0.42
@@ -591,7 +610,7 @@ As duas são economias de poder novas, e construir a quarta e a quinta antes de 
 | peça | o que ela resolve |
 |---|---|
 | **Objeto amaldiçoado** | **a maldição presa em forma de objeto** — não é item imbuído de energia: *é* a coisa. Resto de feiticeiro antigo, que encarna quando um receptáculo compatível o consome. *Entrou na lista na v0.49, escondido dentro da palavra "ferramenta".* **Duas Origens inteiras são construídas em cima dele** — Receptáculo é comer um dedo, Reencarnado é ter virado um |
-| **Ferramenta amaldiçoada** | **arma forjada para canalizar energia**, com graus, que até quem não é feiticeiro consegue usar. Prometida desde a peça 5 §9 e declinada pela peça 14 §8 item 2, que a mandou para tópico próprio *"com graus e forja"*. **É o único jeito de ferir maldição sem energia própria** — a Maki e o Toji |
+| **Ferramenta amaldiçoada** | **arma forjada para canalizar energia**, com graus, que até quem não é feiticeiro consegue usar. Prometida desde a peça 5 §5 e declinada pela peça 14 §8 item 2, que a mandou para tópico próprio *"com graus e forja"*. **É o único jeito de ferir maldição sem energia própria** — a Maki e o Toji |
 | **Dano de alma, com Essência na Integridade** | já decidido, não aplicado |
 | **Pactos** | a camada mais perigosa de escrever solta |
 | **Bestiário** | sai da matemática de inimigo que o manual já tem |
