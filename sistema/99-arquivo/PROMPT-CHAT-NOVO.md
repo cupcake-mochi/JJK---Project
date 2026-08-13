@@ -1,3 +1,19 @@
+> **MATERIAL MORTO — arquivado na v0.45.**
+>
+> **De onde saiu:** a raiz do repositório, onde ele viveu da v0.15 à v0.44.
+> **O que o substituiu:** nada, e é esse o ponto. O `README.md` ganhou a seção *"Retomar em conversa nova"* com a única coisa que era só dele — o teste da pasta certa, contra o clone parado na v0.27. O resto já morava em outro lugar.
+> **Em que versão:** v0.45.
+>
+> **Por que morreu.** Medido bloco a bloco: **15 dos 16 blocos eram cópia**, e juntos criavam **32 cópias** de coisas que já tinham dono — a ordem de leitura (3 lugares), quanto cada validador pula (3), o *"não rode git"* (2), o *"como eu gosto de trabalhar"* (3), o estado do trabalho (2 a 3). **Um único bloco era dele.**
+>
+> E ele já tinha cobrado o preço disso duas vezes: a **v0.40** registra que ele repetiu o *"4, 2 e 1"* errado junto com os outros três documentos, e na **v0.45** ele descrevia a v0.44 — mandando ler uma tabela do §5.0.1 que tinha mudado e citando treze efeitos de crítico que já estavam mortos. **Nenhum validador o alcançava:** ele não aparece uma vez sequer no `conferir-repositorio.py`, e nenhum arquivo do repositório apontava para ele. Folha solta, sem dono e sem trava.
+>
+> **E o padrão já tinha acontecido.** O `PROMPT-DE-CONTINUIDADE.md`, nesta mesma pasta, é a primeira encarnação da mesma ideia — morto na v0.14 com a nota *"o `ESTADO-ATUAL.md` faz esse trabalho melhor hoje"*. **Este é o segundo, morrendo pelo mesmo motivo, trinta versões depois.** Se um terceiro aparecer, leia estas duas linhas antes de escrevê-lo.
+>
+> **O que dele sobreviveu:** o teste da pasta certa, hoje no `README.md`. E o hábito que o tornou desnecessário — **pedir um prompt de continuidade no fim de cada conversa**, escrito na hora contra o estado real, que é o único formato que não tem como envelhecer.
+
+---
+
 # Prompt para retomar o RPG da Guilda em conversa nova
 
 *Atualizado ao fim da v0.44 — commitada e no GitHub. Copie daqui para baixo.*

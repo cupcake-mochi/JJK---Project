@@ -6,6 +6,34 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.46] — 2026-08-13
+
+**Um arquivo morreu, e nenhuma regra mudou.** Passada de estrutura, feita logo depois de a v0.45 fechar. Continuam **treze peças e treze validadores**.
+
+### Removido — o `PROMPT-CHAT-NOVO.md`, e ele era a segunda encarnação da mesma ideia
+
+*Achado do Mizuki, no fim da sessão:* **"acredito que ele nem precisa existir — eu sempre peço um prompt novo quando vou finalizar um chat."** Medido antes de decidir, bloco a bloco:
+
+| | |
+|---|---|
+| blocos que eram **cópia** de outro documento | **15 de 16 — 94%** |
+| bloco que era só dele | **1** — o teste da pasta certa, contra o clone parado na v0.27 |
+| cópias que ele criava | **32** — a ordem de leitura em 3 lugares, o quanto cada validador pula em 3, o *"não rode git"* em 2, o *"como eu gosto de trabalhar"* em 3 |
+
+**E ele já tinha cobrado o preço duas vezes.** A **v0.40** registra que ele repetiu o *"4, 2 e 1"* errado junto com o `README`, o `ESTADO-ATUAL` e o `LEIA-ME`. E **nesta versão ele descrevia a v0.44** — mandando ler uma tabela do §5.0.1 que tinha mudado e citando treze efeitos de crítico que já estavam mortos.
+
+> **Nenhum validador o alcançava.** Zero menções no `conferir-repositorio.py`, e nenhum arquivo do repositório apontava para ele. **Folha solta, sem dono e sem trava** — que é a lição nº 9 no formato mais puro que ela já apareceu aqui.
+
+**E o padrão já tinha acontecido, o que é o argumento que fecha.** O `PROMPT-DE-CONTINUIDADE.md`, no mesmo `99-arquivo/`, é a primeira encarnação da ideia — morto na **v0.14** com a nota *"o `ESTADO-ATUAL.md` faz esse trabalho melhor hoje"*. **Este é o segundo, morrendo pelo mesmo motivo trinta versões depois.** O cabeçalho do arquivo arquivado diz isso com todas as letras, para o terceiro não ser escrito.
+
+**O que sobreviveu:** o teste da pasta certa virou a seção **"Retomar em conversa nova"** do `README` — dez segundos de `head` e `grep` que já pouparam meia hora uma vez. **E o hábito que tornou os dois arquivos desnecessários:** pedir um prompt de continuidade no fim de cada conversa, escrito na hora contra o estado real. *Um prompt escrito na hora não tem como envelhecer; um arquivo tem.*
+
+### Em aberto
+
+As mesmas da v0.45 — nenhuma foi tocada aqui.
+
+---
+
 ## [0.45] — 2026-08-13
 
 **A régua de preço das armas ganhou fundo, o efeito de crítico morreu, e as 52 armas têm dado e propriedades.** A pergunta *"como dar identidade a cada arma?"* foi respondida por uma metade que já estava escrita no §5 e nunca tinha sido implementada: **a arma dá acesso E RESTRIÇÃO.** Continuam **treze peças e treze validadores**; Equipamento continua em rascunho.

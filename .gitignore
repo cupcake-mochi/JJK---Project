@@ -1,6 +1,10 @@
 # Backup da pasta antes da reorganizacao para git. Fica no disco, nao no repositorio.
 _backup/
 
+# Onde o assistente poe o que precisa sumir — ele nao consegue apagar neste mount.
+# Apague a pasta a mao quando quiser.
+_to_delete/
+
 # O gerador do manual instala dependencia local
 manual/gerador/node_modules/
 manual/gerador/package-lock.json

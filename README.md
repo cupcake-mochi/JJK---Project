@@ -2,7 +2,7 @@
 
 Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.45** · manual do Fundamento na **v7.8** · **treze peças de regra** e **treze validadores passando**.
+**Versão v0.46** · manual do Fundamento na **v7.8** · **treze peças de regra** e **treze validadores passando**.
 
 ---
 
@@ -22,6 +22,23 @@ E o registro do **porquê** de cada decisão é tão importante quanto a regra: 
 4. As peças de **`sistema/03-mecanica/`**, na ordem numérica.
 
 **Não leia de `sistema/99-arquivo/` para escrever peça nova.** É material morto, guardado com o motivo de cada morte escrito no topo.
+
+## Retomar em conversa nova
+
+**Primeiro, confirme que você abriu a pasta certa — leva dez segundos e já custou meia hora uma vez.** Existe outro clone desta mesma coisa parado na **v0.27** numa pasta `JJK---Project` dentro da home, e ele tem a cara do projeto inteiro: validadores, peças, changelog. Uma conversa já se perdeu lendo o clone velho e rodando sete validadores que passaram sem provar nada.
+
+```bash
+head -6 README.md          # tem que dizer Versão v0.46 ou maior
+grep -c "Nove lições" README.md
+```
+
+Se aparecer *"Seis lições que custaram erro"* ou *"Versão v0.27"*, **é a pasta errada. Pare.**
+
+Depois disso, a ordem de leitura é a da próxima seção, e os validadores são os da seção *"Rodar os validadores"*. **Não rode git daqui** — o porquê está em *"Commitar"*.
+
+> **Não existe mais um arquivo de prompt de retomada, e isso é decisão da v0.45.** O `PROMPT-CHAT-NOVO.md` foi para `sistema/99-arquivo/`: medido bloco a bloco, **15 dos 16 eram cópia** de coisa que já tinha dono aqui, no `ESTADO-ATUAL` ou na skill — e ele já tinha divergido duas vezes, sem nenhum validador que o alcançasse. *Ele era a segunda encarnação da ideia: o `PROMPT-DE-CONTINUIDADE.md` morreu na v0.14 pelo mesmo motivo.*
+>
+> **O que funciona no lugar é o hábito que tornou os dois desnecessários: pedir um prompt de continuidade no fim de cada conversa**, escrito na hora contra o estado real. Um prompt escrito na hora não tem como envelhecer; um arquivo tem.
 
 ## Como está organizado
 

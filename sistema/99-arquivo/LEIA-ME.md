@@ -14,6 +14,7 @@ Nada aqui é regra corrente. Tudo aqui foi substituído, ou já cumpriu o que ti
 | `construcao-das-skills/` | o benchmark das quatro skills de apoio, da v0.3: nove execuções, o script que gerou tudo e o visualizador. Mais o `feedback.json`, que é o retorno que virou a v0.4 |
 | `ferramentas-de-decisao/` | o comparador de curvas, que abre no navegador. Ele calibrou seis mecânicas de resolução na mesma chance de sucesso e serviu para a escolha do d20 na v0.3. Decisão fechada, ferramenta aposentada |
 | `PROMPT-DE-CONTINUIDADE.md` | o prompt de retomada que foi usado até a v0.14. O `ESTADO-ATUAL.md` faz esse trabalho melhor hoje |
+| `PROMPT-CHAT-NOVO.md` | o **segundo** prompt de retomada, da v0.15 à v0.44. Morreu na v0.45 medido: **15 dos 16 blocos eram cópia**, e nenhum validador o alcançava. *Dois arquivos, o mesmo motivo, trinta versões de distância — leia o cabeçalho dele antes de escrever um terceiro* |
 
 ## Como arquivar coisa nova
 
