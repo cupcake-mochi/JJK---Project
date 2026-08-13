@@ -6,6 +6,78 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.43] — 2026-08-13
+
+**Nenhuma regra em vigor mudou.** Uma sessão de projeto sobre uma ideia do Mizuki — dar ao jogador a chance de rolar para se defender — e ela virou `03-mecanica/RASCUNHO-bloqueio.md`. **Continuam treze peças e treze validadores.** A regra é opcional, vai para o tópico de regras quando ele existir, e não entra em balanceamento até lá.
+
+### Achado — a house rule do hobby tem um bônus escondido, e ninguém nunca notou
+
+A resposta padrão para *"quero rolar minha defesa"* é *"role d20 no lugar dos 10 da CA"*. Ela dá **+2,5 pontos percentuais de graça, em todo ataque, para todo mundo**, porque `E[d20] = 10,5` e a base da Defesa é `10`.
+
+**Oito buscas externas não acharam uma única discussão do problema.** A house rule é praticada há décadas com o viés dentro dela.
+
+### Decidido — `Bloquear`, e o dado da defesa não é d20
+
+> **Role `2d10 + (sua Defesa − 11)` no lugar da sua Defesa.** A média de 2d10 é 11, então na média dá exatamente a sua Defesa.
+
+**Qualquer dado de média 10 é neutro por construção** — `2d10−1`, `2d8+1`, `2d6+3`, `4d4` devolvem 50,0% exatos contra os 47,5% do d20. Escolhido o **2d10−1**, que é o que mais guarda a textura (tráfego 16,5% contra os 25% do d20).
+
+**E a razão de não dar para consertar o d20:** a média de um dado único sempre termina em `,5`, porque é `(N+1)/2`. A base da Defesa é inteira, então o buraco é de **meio ponto** — `d20` dá +2,5pp e `d20−1` dá −2,5pp, sem nada no meio. **2d10 tem média inteira e o `−1` fecha exato.**
+
+*Varridas 11 × 9 = 99 combinações de modificador contra bônus: todas idênticas ao estático.* E o `−1` não aparece na mesa: a ficha imprime `Defesa 17 · Bloquear 2d10+6`.
+
+### Decidido — `Aparar` e `Brecha`, e os dois gastam Reação
+
+*Ideia do Mizuki, vinda do For Honor: recompensar quem apara, punir quem não apara direito.*
+
+| resultado | o que acontece |
+|---|---|
+| **duplo 10 · Aparar** | o ataque não acerta. Você pode gastar a **Reação** para contra-atacar, com **+3 de dano** |
+| **duplo 1 · Brecha** | o ataque acerta. O agressor pode gastar a **Reação dele** para atacar de novo, sem bônus |
+
+**O Aparar não anula um 20 natural**, e a trava saiu de graça: com ela o multiplicador vai de `0,5490` para **`0,5500` exato** — ela **paga** a neutralidade em vez de custar. **E Bloquear não vale em Teste de Resistência.**
+
+**Custo do pacote inteiro: 0,43% do golpe no nv30.** Bloquear puro é 0,00%.
+
+### Achado — o bônus se decidiu sozinho, e `nível` não cabia
+
+A proposta era `+nível` ou `+metade do nível` de dano no contra-ataque. **O golpe simples quase não cresce** — dado fixo e Força travando em 6 —, então ele vai de 9,5 no nv2 a 12,5 no nv14 e para. `+25%` disso é sempre 2,4 a 3,1: **`+3` fixo é literalmente o mesmo número**, sem porcentagem na mesa.
+
+`nível` passa o alvo por **2,3× no nv6 e 9,6× no nv30**, e a distância **cresce** — lição nº 1 na forma mais direta.
+
+**E o teto é +3,9 de dano cru, com o nv22 mandando:** é lá que a Reação vale 9,0 contra os 6,88 do AO, e é o único lugar da mecânica onde existe decisão de verdade. `+3` cabe com 0,9 de margem; **`+4` mata a decisão.**
+
+> **A troca fica registrada porque ela é contraintuitiva:** bônus maior deixa o **líquido** melhor (0,43% → 0,02%, porque compensa o golpe maior do inimigo) **e mata a decisão**. As duas correm em sentidos opostos.
+
+### Decidido — o invariante que segura tudo
+
+> **Bloquear usa exatamente o mesmo modificador da Defesa passiva. Nada pode aumentar um sem aumentar o outro.**
+
+**+1 de diferença vale 2,5pp** — o tamanho do viés que esta regra inteira saiu para consertar. Um único item mal escrito desfaz tudo. **O validador confere que as duas são a mesma expressão**, não dois valores que hoje calham de dar igual — porque valores iguais hoje divergem amanhã, e isso é a lição nº 9.
+
+### Registrado — quatro erros meus, e os quatro pegos por conta rodada
+
+*Ficam escritos porque o método é o que sobrevive à sessão.* Três vezes a **prosa do script contradisse a tabela do próprio script** — *"não existe inimigo contra o qual bloquear seja errado"* com a tabela mostrando −2,7pp ao lado; *"~0,5pp"* quando o valor era 0,05pp; *"de 1,5× a 2,5×"* quando a coluna dizia 5,2×. E uma vez foi aritmética: **`36,0` no lugar de `72` para o golpe do chefe no nv30**, o que inverteu o sinal do líquido do pacote.
+
+**A regra que sai daí: não escrever conclusão dentro do script antes de ler a saída dele.**
+
+### Registrado — o levantamento externo, e o que ele não tinha
+
+**GURPS** (aparar e bloquear uma vez por turno, de graça — e o material admite que *"não existe consideração tática"* quando só vem um golpe), **Mythras** (pontos de ação: defender compete com atacar), **RuneQuest** (−20% cumulativo por aparada extra), **Riddle of Steel** (pool único dividido entre ataque e defesa), **Exalted** (penalidade de onslaught), **rolagem virada para o jogador** (conversão exata, e o engajamento sobe sem a probabilidade mudar).
+
+**Nenhum deles mantém CA estática junto de uma rolagem opcional grátis e neutra.** A combinação não apareceu em busca nenhuma — foi derivada, não encontrada.
+
+### Em aberto
+
+- **As condições que impedem Bloquear** — surpreendido, caído, agarrado. Ficam para quando a peça de **dano e condições** existir.
+- **O validador do Bloquear**, com as três checagens do §7.
+- **A ficha precisa imprimir a linha** `Defesa 17 · Bloquear 2d10+6`.
+- **O inimigo precisa de Reação na ficha dele** para a Brecha funcionar.
+- **A classe das doze armas novas** e o validador de Equipamento, que continuam da v0.42.
+- **A Cicatriz, Energia Reversa, o clash, o nome do sistema.**
+
+---
+
 ## [0.42] — 2026-08-12
 
 **Equipamento andou muito, e três coisas que já estavam escritas caíram.** Nenhuma peça nova; **um ofício novo**, o `Alfaiate`, que subiu os ofícios de dez para onze. O rascunho de Equipamento foi de 487 para 800 linhas, a dívida que a peça 11 e a peça 8 deviam foi **aplicada**, e o `conferir-criacao.py` e o `conferir-pericias.py` mudaram.
