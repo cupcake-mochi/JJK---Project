@@ -21,6 +21,43 @@ vermelho() { printf '\033[31m%s\033[0m\n' "$1"; }
 verde()    { printf '\033[32m%s\033[0m\n' "$1"; }
 amarelo()  { printf '\033[33m%s\033[0m\n' "$1"; }
 
+# O erro do push NAO vai para /dev/null. Ate a v0.44 ia, e o script chutava o
+# motivo ("se ele pediu senha...") em vez de mostrar o que o git disse — o que
+# transforma rede caida, token vencido e repositorio errado no mesmo texto.
+subir_para_o_remoto() {
+    SAIDA_PUSH="$(git push 2>&1)"
+    if [ $? -eq 0 ]; then
+        verde "  push: subiu"
+        return 0
+    fi
+    vermelho "  push: FALHOU — e o git disse isto:"
+    printf '%s\n' "$SAIDA_PUSH" | sed 's/^/    | /'
+    echo
+    amarelo "  O commit JA ESTA FEITO. Nada se perdeu; falta so' o push."
+    echo
+    echo "  'Repository not found' num repositorio PRIVADO quer dizer autenticacao,"
+    echo "  e nao repositorio sumido: o GitHub responde 404 em vez de 403 para nao"
+    echo "  contar que ele existe para quem nao pode ve-lo."
+    echo
+    echo "  Aconteceu em 13/08/2026, e a receita que resolveu foi esta — na ordem,"
+    echo "  porque a terceira linha sozinha NAO resolve:"
+    echo "    gh auth switch --user cupcake-mochi"
+    echo "    printf 'protocol=https\\nhost=github.com\\n\\n' | git credential reject"
+    echo "    gh auth setup-git"
+    echo "    git push"
+    echo
+    echo "  O que estava acontecendo: o git guardava um token JA RECUSADO pelo"
+    echo "  GitHub, com o nome de usuario certo. 'gh auth login' nao troca esse"
+    echo "  token — ele grava no store do gh, e o helper velho responde primeiro."
+    echo "  So' o 'git credential reject' apaga o antigo. Para ver quem o git esta"
+    echo "  usando, sem vazar o token na tela:"
+    echo "    printf 'protocol=https\\nhost=github.com\\n\\n' | git credential fill | grep '^username='"
+    echo
+    echo "  Se falou em rede, host ou timeout, e' so' repetir: git push"
+    echo "  Nos dois casos, NAO precisa commitar de novo."
+    return 1
+}
+
 # --------------------------------------------------------------------------
 echo
 echo "=== 1. os validadores ==="
@@ -68,8 +105,26 @@ fi
 echo
 echo "=== 2. o que mudou ==="
 
+# Arvore limpa NAO quer dizer nada a fazer: pode haver commit sem push. Ate a
+# v0.44 este ramo saia com codigo 0 aqui, e ai dois commits ficaram parados no
+# disco enquanto o script dizia "nada a fazer" — o unico jeito de descobrir era
+# ler os refs na mao.
 if [ -z "$(git status --porcelain)" ]; then
-    amarelo "  Nada mudou desde o ultimo commit. Nada a fazer."
+    RAMO="$(git rev-parse --abbrev-ref HEAD)"
+    LOCAL="$(git rev-parse HEAD)"
+    REMOTO="$(git rev-parse "origin/$RAMO" 2>/dev/null || echo 'nenhum')"
+    if [ "$LOCAL" != "$REMOTO" ]; then
+        amarelo "  Nada novo para commitar, mas o $RAMO local nao bate com o origin/$RAMO."
+        echo "    local : $LOCAL"
+        echo "    remoto: $REMOTO"
+        echo
+        echo "=== so' o push, entao ==="
+        subir_para_o_remoto || exit 1
+        echo
+        verde "Pronto."
+        exit 0
+    fi
+    amarelo "  Nada mudou, e nao ha commit sem push. Nada a fazer."
     exit 0
 fi
 git status --short | sed 's/^/  /'
@@ -108,22 +163,7 @@ fi
 
 echo "  commit: $(git log --oneline -1)"
 
-# O erro do push NAO vai para /dev/null. Ate a v0.44 ia, e o script chutava o
-# motivo ("se ele pediu senha...") em vez de mostrar o que o git disse — o que
-# transforma rede caida, token vencido e repositorio errado no mesmo texto.
-SAIDA_PUSH="$(git push 2>&1)"
-if [ $? -eq 0 ]; then
-    verde "  push: subiu"
-else
-    vermelho "  push: FALHOU — e o git disse isto:"
-    printf '%s\n' "$SAIDA_PUSH" | sed 's/^/    | /'
-    echo
-    amarelo "  O commit JA ESTA FEITO. Nada se perdeu; falta so' o push."
-    echo "  Se falou em autenticacao, token ou pediu senha:   gh auth login"
-    echo "  Se falou em rede, host ou timeout, e' so' repetir: git push"
-    echo "  Nos dois casos, nao precisa commitar de novo."
-    exit 1
-fi
+subir_para_o_remoto || exit 1
 
 echo
 verde "Pronto."
