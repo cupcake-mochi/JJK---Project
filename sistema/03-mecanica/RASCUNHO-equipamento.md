@@ -2,7 +2,9 @@
 
 **Não é peça.** Sem número na frente de propósito: meia peça não é peça, e um arquivo com dois dígitos quebraria a contagem do `conferir-repositorio.py`. Vira a peça 14 quando fechar, junto do validador dela — que ainda não existe e por isso não é citado pelo nome aqui.
 
-*Estado na v0.45: proteção fechada, categorias fechadas, recarga fechada, e **as 52 armas com dado e propriedades** (§5.3). A régua ganhou **fundo `3/5`** e o **dado virou entrada** — a ficção diz o tamanho da arma e o número de vagas cai da conta. **A restrição devolve orçamento** (§5.0.4), que é a metade do §5 que nunca tinha sido implementada. **O efeito de crítico da categoria morreu** (§5.1.1). **Falta o validador**, e os nomes dos degraus de escudo.*
+*Estado na v0.47: proteção fechada, categorias fechadas, recarga fechada, e **as 52 armas com dado e propriedades** (§5.3). A régua ganhou **fundo `3/5`** e o **dado virou entrada** — a ficção diz o tamanho da arma e o número de vagas cai da conta. **A restrição devolve orçamento** (§5.0.4). **O efeito de crítico da categoria morreu** (§5.1.1). E as duas decisões de acesso fecharam: **a divisão simples/marcial** (§5.4.1) e **o requisito de Força** (§5.5), que reancorou no dado depois de dois versões órfão.*
+
+*O que falta: **o validador da peça**, os **nomes dos degraus de escudo**, a **penalidade** por empunhar sem treino ou sem requisito (§8 item 15) e **os dois dados do `Yumi`**, que a v0.47 flagrou estourando o orçamento (§8 item 16).*
 
 > **A pergunta que a `Fineza` abriu está respondida, e a resposta não foi nenhuma das duas que esta nota oferecia.** Ela era *"ou a régua ganha uma exceção escrita, ou as propriedades soltas viram classes próprias"* — e as duas supunham que a classe ainda era o preço. **Ela não era mais:** a escada de dados do §5.2 já tinha posto `2d8` e `3d6` dentro da mesma `Tiro leve`, e ninguém tinha escrito isso. O catálogo já praticava 9 pacotes com 8 classes.
 >
@@ -410,14 +412,11 @@ Tratando as seis classes de corpo a corpo já publicadas como **dados de uma reg
 
 A peça 5 já provou que **o dado não é alavanca**: trocar d6 por d12 move três pontos numa lacuna de cem contra a coluna Rotina. **Isso é o que torna o preço por arma barato aqui, e é o contrário do 5e**, onde o dado *é* a arma inteira e por isso duas armas com o mesmo dado são o mesmo item — o defeito que o próprio material do hobby descreve como *"um Guerreiro não tem razão real para escolher Machado de Batalha em vez de Martelo de Guerra ou Espada Longa."*
 
-**Mas o dado não é um eixo livre, e é aqui que a primeira versão desta seção errou.** Sob a régua, escolhidas as mãos e o número de propriedades, **sobra um dado legal só** — gastar menos que o orçamento é dominância estrita, então ninguém gasta. O dado é **saída** da conta, não entrada:
+**Mas nenhum dos dois eixos é livre, e a direção entre eles inverteu na v0.45.** Escolhidas as mãos e o dado, **sobra um número de vagas só** — gastar menos que o orçamento é dominância estrita, então ninguém gasta. Quem entra é o dado; quem sai é a quantidade de propriedade. A tabela é a do §5.0.1, e ela é a única.
 
-| | 0 props | 1 | 2 | 3 | 4 |
-|---|---|---|---|---|---|
-| **uma mão** | d8 | d6 | d4 | — | — |
-| **duas mãos** | d12 | d10 | d8 | d6 | d4 |
+> **Esta subseção trazia aqui a tabela invertida da v0.44** — `0 propriedades → d8`, com o dado como *saída*. Ela ficou três seções abaixo da tabela nova contradizendo ela, e sobreviveu à v0.45 e à v0.46. **É o mesmo defeito que a v0.43 pagou para aprender: a prosa de um documento contra a tabela do próprio documento**, e agora tabela contra tabela. *Achado na passada da v0.47, lendo o §5.0.1 e o §5.0.2 na mesma sentada.*
 
-**Quem carrega a variação é a propriedade, e propriedade não é escolha: é o que a arma é.** Uma naginata tem `Alcance` e ocupa as duas mãos, e isso já a manda para o d10 — a Yari e a Lança caem no mesmo lugar pelo mesmo motivo, sem ninguém ter decidido nada.
+**Quem carrega a variação continua sendo a propriedade, e propriedade não é escolha: é o que a arma é.** Uma naginata tem `Alcance` e ocupa as duas mãos; o que a régua decide é que, sendo `d10` em duas mãos, ela tem **duas** vagas para gastar — e a segunda é o que a separa da Yari, que tem o mesmo dado e o mesmo alcance.
 
 Rodando a régua sobre as 41 armas de corpo a corpo, com as propriedades que a ficção de cada uma força:
 
@@ -1017,7 +1016,54 @@ Mesma lógica que já decidiu o efeito de crítico: **treze nomes, não cinquent
 
 *Testado com `Lâmina Curta · Massa · Porrete · Arremesso` no balde simples:* **19 armas simples contra 22 marciais**, e os dois baldes com dado de uma e de duas mãos. Ninguém fica sem opção de formato.
 
-> **Qual categoria cai em qual balde é escolha do Mizuki**, e a divisão acima é só o teste que provou que a estrutura fecha. O critério que a régua impõe é um só: **cada balde precisa ter arma de uma e de duas mãos**, senão quem só tem o simples fica sem uma das duas economias de mão.
+### 5.4.1 Qual categoria cai em qual balde — fechado na v0.47
+
+*A pergunta foi devolvida para a conta, e a conta fechou junto com o desempate de ficção. O corte não foi escolhido: ele é o que sobra.*
+
+**Quatro travas, todas medidas, e nenhuma delas é de gosto:**
+
+| # | trava | mata |
+|---|---|---|
+| 1 | cada balde tem arma de uma e de duas mãos | 16 cortes |
+| 2 | os dois baldes chegam ao mesmo teto, **nas duas economias de mão** | 240 |
+| 3 | sob o requisito de Força, o simples ainda tem arma de duas mãos para quem tem Força < 3 | 192 |
+| 4 | nenhum balde fica com menos de 3 das 10 categorias | 33 |
+
+Dos **1024** cortes possíveis das dez categorias de corpo a corpo, **543 passam**. Trava demais para decidir sozinha — o que fecha é cruzar com a ficção.
+
+> **A trava 2 é a que a v0.45 achou que era estrutural, e não é.** Aquela versão escreveu que *"punir é impossível por construção"* porque os dois baldes chegam ao mesmo teto. **Isso era propriedade do corte de teste, não da régua.** O `d8` de uma mão e o `d12` de duas moram nas **mesmas três categorias — `Lâmina Longa`, `Massa` e `Machado`** —, e qualquer corte que ponha as três do lado marcial deixa o simples **1,0 dado atrás nas duas mãos**. Que é exatamente o modo de falha do 5e que aquela decisão diz ser impossível.
+
+**A trava 3 é nova, e ela nasceu do requisito de Força.** Com `Força 3` cobrindo `d10` e `d12`, sobram **duas** armas de duas mãos para quem não tem Força: o **Kusarigama** (`Ceifa`) e a **Corrente** (`Flexível`). Se nenhuma das duas categorias for simples, o Caminho não-marcial de Força baixa fica com **zero** arma de duas mãos — os dois gates se multiplicam em vez de somar. *Nenhum dos dois sozinho faz isso; foi preciso medir os dois juntos, que é a lição nº 7.*
+
+**O desempate de ficção, lido da tabela oficial do 5e 2024** e não de memória:
+
+| vai para simples, sem ambiguidade | vai para marcial, sem ambiguidade | o 5e corta por dentro |
+|---|---|---|
+| `Lâmina Curta` (dagger) · `Porrete` (club, quarterstaff) · `Ceifa` (sickle) · `Arremesso` (dart, javelin) | `Lâmina Longa` (longsword, rapier, greatsword) · `Flexível` (whip) | `Massa` · `Machado` · `Armas Longas` |
+
+> **A `Manopla` não aparece na tabela do 5e — ele não tem essa arma.** A âncora vem do PF2e e é mais forte que a que faltou: **o gauntlet é arma simples** lá, do grupo `Brawling`, e carrega o traço **`free-hand`** — que é o texto de regra por trás da `Vestida` daqui. *A mesma fonte sustenta a propriedade e o balde.* **Entra no simples.**
+
+**As três que ele corta por dentro são justamente onde mora o teto**, e é aí que a trava 2 morde: como `Lâmina Longa` é marcial sem discussão, **ou `Massa` ou `Machado` tem que ser simples.**
+
+> **Entra `Massa`.** A âncora é específica e não é opinião: o **greatclub é arma simples no 5e**, e um kanabō *é* um greatclub. Do outro lado, **battleaxe e greataxe são marciais**, e o Machado de Guerra é um dos dois. Escolher `Machado` colocaria um machado de guerra no balde de quem não treinou, e ainda deixaria o simples com **4 armas de duas mãos** contra as **6** da rota da `Massa` — medido com o mesmo resto de balde nos dois lados.
+
+**E `Armas Longas` fica no marcial, por um motivo que não é numérico** — a conta é indiferente, porque Naginata e Yari já caem no requisito de Força de qualquer jeito. Quem decide é o `ESTADO-ATUAL`: a árvore da Vanguarda é *"alcance, reposicionamento forçado, troca de alvo"*. **Alcance é a moeda dela**, então o alcance bom é o que o treino destrava. O balde simples não fica sem: `Bastão`, `Bō` e `Kusarigama` carregam `Alcance` lá dentro.
+
+### O corte
+
+> **Simples — 24 armas, 6 categorias:** `Lâmina Curta` · `Porrete` · `Ceifa` · `Arremesso` · `Manopla` · `Massa`
+> **Marciais — 17 armas, 4 categorias:** `Lâmina Longa` · `Machado` · `Armas Longas` · `Flexível`
+
+| | teto de uma mão | teto de duas mãos |
+|---|---|---|
+| simples | `d8` — 4,5 (Maça, Taco) | `d12` — 6,5 (Kanabō, Maul) |
+| marcial | `d8` — 4,5 (Machete, Wakizashi, Katana) | `d12` — 6,5 (Espadão, Odachi, Nodachi) |
+
+**Empatam nos dois, que é a trava 2 cumprida com a régua e não com sorte.** E a repartição de propriedade fica assimétrica de propósito: o marcial leva o alcance (8 armas contra 3) e o simples leva a ocultação e o par (`Par` e `Vestida` não existem do lado marcial). **A divisão restringe qual identidade, nunca quanto poder** — que era a promessa do §5.4, agora com o corte que a sustenta.
+
+**As de projétil.** A peça 6 §8 nomeia quatro categorias de treino, e duas delas já têm dono: **`Arma de Fogo` é a "de fogo"**, sozinha, e **ferramenta amaldiçoada fica fora desta peça** (§8 item 2). Sobram `Yumi` e `Balestra`, e o 5e corta por dentro das duas — arco curto e besta leve são simples, arco longo e besta pesada são marciais. **Não dá para importar**, porque aqui a divisão mora na categoria.
+
+> **`Balestra` é simples e `Yumi` é marcial**, e a âncora é histórica em vez de mecânica: a besta mudou a guerra medieval **por não exigir treino** — é o argumento inteiro dela —, enquanto o arco japonês é uma disciplina de anos. *Isso põe o balde simples em 26 armas e o marcial em 19, mais as 7 de fogo.*
 
 ### O que isso destrava — e é a razão de a Trilha vir depois desta peça
 
@@ -1034,7 +1080,47 @@ Mesma lógica que já decidiu o efeito de crítico: **treze nomes, não cinquent
 
 Um é sobre o corpo, o outro sobre o que você aprendeu. **Um Emanador de Força 6 passa no primeiro e para no segundo** — que é precisamente o caso que a decisão do Mizuki queria cobrir.
 
-**Em aberto, e é a próxima rodada:** quais das treze categorias são simples, quais são marciais, e como as quatro de projétil (`Yumi`, `Balestra`, `Arma de Fogo`, e `Arremesso` se ela sair do simples) se encaixam nas quatro categorias de treino que a peça 6 §8 nomeia.
+## 5.5 O requisito de Força — fechado na v0.47
+
+*O requisito morava na classe, e a classe saiu do preço na v0.44. Ele passou duas versões órfão: das 41 armas do §5.3, zero tinham requisito escrito, e a promessa da peça 5 §1 — "armas de dado maior exigem Força mínima; quem luta com Destreza fica nas armas leves" — estava sem implementação.*
+
+> **`Força 3` para os dois degraus de cima da escada de dado.** No corpo a corpo, `d10` e `d12` — **11 das 41**. No tiro, `2d8` e `2d10` — **6 das 11**. Dezessete de 52.
+
+**A mesma frase, duas escadas, zero parâmetro novo.** A escada do corpo a corpo é `d4 · d6 · d8 · d10 · d12` e a do tiro é `1d10 · 2d6 · 2d8 · 2d10` (§5.2); o requisito pega os dois degraus de cima de cada uma. Escapam as cinco leves — Hankyū, Submetralhadora, Pistola, Revólver e Besta de Uma Mão — e pegam arco longo, besta, espingarda, rifle, rifle de precisão e metralhadora pesada. **O corte de ficção sai sozinho da régua**, sem lista escrita à mão.
+
+### Por que o tiro entra, e o que ele fecha
+
+*Decisão do Mizuki: **"tem arma de longo alcance que vai necessitar de força pra carregar"**. A conta achou um segundo motivo, e ele é maior.*
+
+O §5.2 registra que *"não somar atributo não é penalidade: é independência de atributo"*. **Sem requisito, essa independência vira a melhor arma do sistema para quem não investiu em nada:**
+
+| ficha | melhor arma sem o requisito | com o requisito |
+|---|---|---|
+| Força 0 · Destreza 0 — o conjurador puro | **Rifle de Precisão, 11,0** | Hankyū, 7,0 |
+| Força 3 · Destreza 0 | Rifle de Precisão, 11,0 | **igual — ele passa** |
+
+**Um conjurador que não gastou um ponto de atributo fazia 11,0 de dano**, contra 6,5 do melhor corpo a corpo dele — e o requisito no corpo a corpo sozinho **não fecha isso**, porque a arma de fogo passa por fora. *É o buraco que o §5.2 nomeou e não trancou.*
+
+### O requisito lê o dado impresso, e isso tem um vazamento medido
+
+> **O requisito olha o dado escrito na linha da arma. O passo do `Versátil` não conta.**
+
+Sem essa frase o requisito pega a **Katana**, que tem `Fineza` — quer dizer, cobraria Força de quem trocou Força por Destreza, que é o oposto do que a propriedade existe para fazer. **Com ela, três armas alcançam `d10` sem passar pelo gate:** Katana, Espada Longa e Taco, todas `d8` impresso com `Versátil`.
+
+**O vazamento vale 1,0 dado**, e é o preço de não atropelar a rota de Destreza. *Medido: com o requisito lendo o dado impresso, a melhor arma de Força 0 · Destreza 0 é a Espada Longa em duas mãos, `d10` — exatamente o que um gate `Força 3` só para `d12` entregaria.* **Os dois gates dão a mesma arma ótima em toda ficha**, e é aí que eles deixam de ser equivalentes: o que o `d10` no gate compra não é dano, é **identidade**.
+
+| para quem tem Força < 3 | gate em `d10` e `d12` | gate só em `d12` |
+|---|---|---|
+| armas abertas | 30 de 41 | 35 de 41 |
+| de duas mãos | **2** | 7 |
+| com `Talha` de duas mãos | **0 de 6** | 3 |
+| com `Alcance` de duas mãos | 2 de 8 | 5 |
+
+**A `Talha` some inteira das duas mãos, e é isso que o gate maior está comprando.** Quem não tem Força não pega arma pesada que atrapalha o bloqueio do outro — o que é o desenho, não um efeito colateral. *Contagem não é valor: o gate maior gateia 5 armas a mais e move zero de dano. O que ele move é o que dá para ser.*
+
+**E o requisito continua sem custar ponto de atributo.** Força 3 é o teto da criação (peça 2 §2) e cabe no array `3·2·2·1·1`, então o requisito resolve **acesso** e não preço — que é a conclusão que o §8 item 1 já tinha fechado e que continua valendo com o requisito ancorado no dado em vez de na classe.
+
+> **O que ainda não existe: a penalidade.** *Marcado pelo Mizuki nesta mesma decisão.* Hoje o requisito e o treino dizem **o que você não pega**, e não o que acontece se você pegar assim mesmo. As duas coisas precisam da mesma resposta, e ela é da peça de **dano e condições** — a régua óbvia do hobby é desvantagem na rolagem, que este projeto já precifica em `−25 pp contra alvo difícil` (peça 11) e que é grande demais para um item. **Fica em aberto, com o tamanho já medido**, no §8 item 15.
 
 ---
 
@@ -1211,9 +1297,22 @@ A peça 11 escolheu o `1,5 ×` com critério escrito: *"o saldo **encolhe** em v
 9. **O validador.** Checagens que ele precisa ter: a régua do orçamento por classe; dominância **por valor total e uma vez por rota de proteção — e são TRÊS rotas, não duas** (cobrir-se · uniforme · **sem energia nenhuma**, que é a Restrição Celestial pelo ramo da Maki e não tem cobrir-se para desligar); a escada de proteção contra a peça 11; o requisito de Força contra a peça 2 — incluindo que **nenhum requisito passe do teto de criação sem que isso seja decisão escrita**; que **o teto de Defesa seja derivado dos três donos e nunca lido de uma constante**, com a busca exaustiva provando que nenhuma montagem de equipamento passa da rota livre; que a lista de situações do Traje passe na régua de três itens do §3, **inclusive a vaga aberta**, e que o Traje conceda **uma** situação e não uma por degrau;
 
    > **A dominância do escudo muda de resposta conforme a rota, e isso é novo.** O §4 provou que nenhum degrau é dominado — degrau 1 melhor em Destreza 4–6, degrau 2 em 2–3, degrau 3 em 0–1. **Aquela tabela foi rodada só na rota de cobrir-se.** Na rota do Revestimento o teto de Destreza já é 0, então o teto do escudo não custa nada e ele vira proteção pura: **o degrau 3 domina o 1 e o 2, sempre.** E `Revestimento 3 + escudo 3` dá 19 com Destreza **zero** — o melhor resultado do sistema em cinco das sete Destrezas, e empate na sexta. Isso não derruba a escada; ela continua certa na rota em que foi medida. O que muda é que a peça tem de dizer que **o degrau 3 é a resposta do Revestimento e o degrau 1 a de cobrir-se**, em vez de vender três opções para todo mundo. *É o furo que este item já previa acontecendo antes de o validador existir.* a busca exaustiva de uniforme × escudo × Destreza contra o teto de Defesa; que a frase do desligamento não cite escudo nos três documentos; **que nenhum item comum produza número** e que o teto de consumível por missão bata com as lutas de graça da peça 10; e que todo nome do catálogo, **propriedade inclusive**, passe na triagem — com `Alcance` e `Distância` entrando como `ACEITA` e não como erro.
-13. **O requisito de Força ficou órfão, e é dívida da v0.45.** A peça 5 §1 promete *"armas de dado maior exigem Força mínima"*, e o item 1 acima mediu que ele resolve **acesso e não preço** — mas o requisito morava na **classe**, e a classe saiu do preço na v0.44. **Nenhuma das 41 armas do §5.3 tem requisito escrito.** Reancorar no dado (`Força 3` para `d10` e `d12` gateia 11 armas; só para `d12`, gateia 6), e decidir junto com a divisão simples/marcial do item 14, porque as duas resolvem acesso por eixos diferentes.
+13. ~~**O requisito de Força ficou órfão, e é dívida da v0.45.**~~ **Fechado na v0.47, e ele reancorou no dado.** `Força 3` para os dois degraus de cima de cada escada — `d10` e `d12` no corpo a corpo, `2d8` e `2d10` no tiro. Está no §5.5, com o vazamento do `Versátil` medido em 1,0 dado e o buraco da independência de atributo fechado.
 
-14. **A divisão simples/marcial, e se ela ainda faz sentido.** A peça 6 §8 diz *"confirmado que precisa existir"* e lista quatro categorias de treinamento de arma, **com cada Caminho concedendo as suas**. *Objeção do Mizuki, e ela é boa:* agora que toda arma fecha no mesmo orçamento, a divisão não pode ser **preço** — no PF2e ela é (`Simple +1`, `Martial +4`, `Advanced +6`). **Sobra ser acesso**, e aí ela não é redundante com o requisito de Força: aquele separa por **atributo** e esta por **Caminho**. A pergunta que decide é uma só: *o Emanador com Força 3 pode pegar um espadão?*
+14. ~~**A divisão simples/marcial, e se ela ainda faz sentido.**~~ **Fechada na v0.47.** Simples: `Lâmina Curta` · `Porrete` · `Ceifa` · `Arremesso` · `Manopla` · `Massa` · `Balestra`. Marciais: `Lâmina Longa` · `Machado` · `Armas Longas` · `Flexível` · `Yumi`. `Arma de Fogo` é a terceira categoria de treino, sozinha. Está no §5.4.1, com a busca exaustiva dos 1024 cortes.
+
+15. **A penalidade por pegar arma sem requisito ou sem treino.** *Marcada pelo Mizuki ao fechar o item 13.* Os dois gates dizem o que você **não** pega e não o que acontece se pegar. A resposta é a mesma para os dois e é da peça de **dano e condições**: a saída óbvia do hobby é desvantagem na rolagem, e este projeto já mede desvantagem em **−25 pp contra alvo difícil** (peça 11) — grande demais para um item, então o número tem de sair de outro lugar. **Enquanto não existir, os dois gates são proibição e não penalidade**, e o texto tem de dizer isso.
+
+16. **As duas armas do `Yumi` estouram o orçamento, e a fórmula do §5.2 não foi feita para elas.** *Achado na v0.47, aplicando o gate de tiro.* Aquela fórmula desconta `6,0` — *"a Força que o corpo a corpo soma"* —, desconto que só está certo para arma que **não soma nada**. As nove de `Balestra` e `Arma de Fogo` reproduzem exatas contra a tabela publicada; o `Yumi` soma **Destreza** (§5.1) e leva o desconto do mesmo jeito.
+
+    | arma | dado | com Destreza 6 | gasta | orçamento |
+    |---|---|---|---|---|
+    | Hankyū | `2d6` | 13,0 | 5,5 | 4 — **estoura 1,5** |
+    | Daikyū | `2d8` | **15,0** | 7,5 | 4 — **estoura 3,5** |
+
+    **O Daikyū passa a `Pesada` em 2,5 de dano** — 15,0 contra os 12,5 de um Força 6 com espadão —, e a rota de `Fineza`, que é a comparação certa, faz 10,5. *O §5.3 afirma "zero armas estourando o orçamento"; vale para as outras 50.*
+
+    **As duas saídas, e as duas têm número:** ou o `Yumi` **para de somar Destreza** e vira a escada do tiro sem mexer em dado nenhum, ou ele **soma e desce o dado** — pela fórmula, duas mãos com `Longo Alcance` fecha em 4 com média 5,5, o que põe o Daikyū em `1d10` e obriga um degrau novo abaixo dele para o Hankyū. **É decisão de sabor com o custo já medido**, e ela mexe em duas linhas do §5.3.
 
 10. **A lista de itens comuns.** A régua das três camadas fechou; os itens não. Quantos, quais e como se chamam é escolha de sabor, e cada um precisa passar pelo filtro *"não produz número"* e pela triagem.
 11. **A moeda.** Adiada de propósito na v0.40 — *"provavelmente vai ser com preço e fornecimento"*. A única moeda que o projeto declara hoje é **patente, contato, favor, acesso** (peça 12 §6), e ela é discricionária: dois mestres liberam coisas diferentes pelo mesmo favor. Se ela virar a moeda de item, precisa de tabela, no molde do ambiente propício.

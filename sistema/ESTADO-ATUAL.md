@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 13/08/2026, na v0.46 (última peça fechada: Legados, na v0.39; **Equipamento está em andamento** — o estado dela mora em `03-mecanica/RASCUNHO-equipamento.md`, e a regra opcional do **Bloquear** em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 13/08/2026, na v0.47 (última peça fechada: Legados, na v0.39; **Equipamento está em andamento** — o estado dela mora em `03-mecanica/RASCUNHO-equipamento.md`, e a regra opcional do **Bloquear** em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.46.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **treze peças escritas** e **treze validadores**. Manual do Fundamento na **v7.8**, com a Expansão de Domínio escrita, e o catálogo de aptidões com **dez das catorze entradas fechadas**. **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas** — por seis das nove rotas de Origem, e agora sem nenhum buraco de regra que morda nessa faixa.
+**Versão v0.47.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **treze peças escritas** e **treze validadores**. Manual do Fundamento na **v7.8**, com a Expansão de Domínio escrita, e o catálogo de aptidões com **dez das catorze entradas fechadas**. **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas** — por seis das nove rotas de Origem, e agora sem nenhum buraco de regra que morda nessa faixa.
 
 ## Como retomar
 
@@ -479,9 +479,35 @@ Quatro peças, e a ordem é de **dependência**, não de tamanho. A ordem que el
 
 Ele saiu por **regressão contra as seis classes publicadas**, e cinco fecham exatas. A sexta é a `Versátil`, que estourava em 1 — **a dominância que a v0.41 tinha achado e não sabia dimensionar.** A régua inteira cabe numa tabela de teto de dado por número de propriedades, no molde do PF2e, e o teto da `Fineza` (d6 numa mão) cai dela sozinho.
 
-**Fecharam junto:** a escada do tiro (`3d10` → **`2d10`** no topo, porque o `3d10` gastava 9,0 num orçamento de 4 e estourava em 11 pontos na mão de um Força 0); o X da `Munição` em `2 · 3 · 4`, depois que o `X=1` foi flagrado **apagando o ataque extra**; a `Versátil` a **custo zero**, que fecha a dominância de três versões com tamanho (0,1 ponto, só no nv2); e o **§5.1 reaberto** — a categoria ganha um **efeito de crítico**, treze deles, porque o portão do 20 natural divide o erro por onze.
+**Fecharam junto:** a escada do tiro (`3d10` → **`2d10`** no topo, porque o `3d10` gastava 9,0 num orçamento de 4 e estourava em 11 pontos na mão de um Força 0); o X da `Munição` em `2 · 3 · 4`, depois que o `X=1` foi flagrado **apagando o ataque extra**; e a `Versátil` a **custo zero**, que fecha a dominância de três versões com tamanho (0,1 ponto, só no nv2).
 
-**O que falta:** o **dado e as propriedades de cada uma das 52 armas**, os **treze efeitos de crítico**, e **o validador da peça**, que precisa rodar a dominância **uma vez por rota de proteção, e são três**: cobrir-se, uniforme, e **sem energia nenhuma** (a Restrição Celestial pelo ramo da Maki, que não tem cobrir-se para desligar).
+### A v0.45 inverteu a régua, e o efeito de crítico morreu
+
+**O dado passou a ser ENTRADA e o número de vagas passou a ser SAÍDA** — a ficção diz o tamanho da arma e a conta diz quantas propriedades ela carrega. **Fundo `3` numa mão e `5` em duas**, e o teto de dado não se moveu. Como gastar menos que o orçamento é dominância estrita, **toda arma é obrigada a encher as vagas**: identidade deixou de ser opcional e virou construção.
+
+**A restrição devolve `1` ponto** — `Volumosa`, `Embainhada`, `Comprida` —, que é a metade do *"a arma dá acesso e restrição"* que nunca tinha sido implementada. Usada por **3 das 41** (7%).
+
+> **O efeito de crítico da categoria MORREU, e os treze nunca foram escritos.** *Achado do Mizuki:* **"ninguém lembra do efeito de crítico na hora de aplicar."** A conta confirmou — **0,44 disparo por combate na mesa inteira de quatro**, e um jogador vê o efeito da arma dele a cada 9 combates. E a causa embaixo era pior: na régua velha, a arma que a ficção põe no teto de dado tinha **zero vagas de propriedade**, então ter identidade *era* descer o dado. Com o fundo, as propriedades carregam a identidade sozinhas: **39 assinaturas para 41 armas**, contra as 14 que o preço sozinho dava.
+
+**As 52 armas têm dado e propriedades** (§5.3), com zero estourando o orçamento e zero com vaga vazia. As duas gêmeas que sobraram são `Machete = Machado` e `Soqueira = Tekko`, que são a mesma coisa na ficção.
+
+### A v0.47 fechou as duas decisões de acesso
+
+**A divisão simples/marcial** (§5.4.1) e **o requisito de Força** (§5.5). As duas resolvem acesso por eixos diferentes — uma separa por **Caminho**, a outra por **atributo** —, e nenhuma pode ser preço: toda arma já fecha no mesmo fundo.
+
+> **Simples — 24 armas:** `Lâmina Curta` · `Porrete` · `Ceifa` · `Arremesso` · `Manopla` · `Massa`, mais a `Balestra`.
+> **Marciais — 17:** `Lâmina Longa` · `Machado` · `Armas Longas` · `Flexível`, mais o `Yumi`.
+> **De fogo:** `Arma de Fogo`, sozinha. Ferramenta amaldiçoada fica fora desta peça.
+>
+> **Requisito `Força 3` nos dois degraus de cima de cada escada:** `d10` e `d12` no corpo a corpo (11 armas), `2d8` e `2d10` no tiro (6). Ele lê o **dado impresso** — o passo do `Versátil` não conta, senão ele pega a Katana, que tem `Fineza`.
+
+**Busca exaustiva dos 1024 cortes possíveis: 543 passam nas quatro travas de conta**, e o que fecha é cruzar com a âncora do 5e 2024. **A trava que a v0.45 achou que era estrutural não é:** o `d8` de uma mão e o `d12` de duas moram nas mesmas três categorias — `Lâmina Longa`, `Massa` e `Machado` —, e qualquer corte que ponha as três no marcial deixa o balde simples **1,0 dado atrás nas duas mãos**, que é o modo de falha do 5e que aquela versão diz ser impossível.
+
+**E os dois gates se multiplicam em vez de somar.** Sob o requisito de Força sobram **duas** armas de duas mãos sem requisito — Kusarigama e Corrente —, então uma das duas categorias delas tem de ser simples, ou o Caminho não-marcial de Força baixa fica **sem a economia de duas mãos inteira**. Nenhum dos dois gates faz isso sozinho.
+
+**O gate no tiro fecha um buraco que o do corpo a corpo não alcança:** sem ele, um conjurador de Força 0 e Destreza 0 pega o Rifle de Precisão e faz **11,0 sem investir um ponto de atributo**, contra 6,5 do melhor corpo a corpo dele.
+
+**O que falta:** **o validador da peça**, que precisa rodar a dominância **uma vez por rota de proteção, e são três** — cobrir-se, uniforme, e **sem energia nenhuma** (a Restrição Celestial pelo ramo da Maki, que não tem cobrir-se para desligar); os **nomes dos degraus de escudo**; a **penalidade** por empunhar sem treino ou sem requisito, que é da peça de dano e condições; e **os dois dados do `Yumi`**, que a v0.47 flagrou estourando o orçamento — a fórmula de preço do tiro desconta a Força que o corpo a corpo soma, e o arco soma **Destreza** e leva o desconto do mesmo jeito.
 
 
 ### Bloquear — a regra opcional que a v0.43 escreveu

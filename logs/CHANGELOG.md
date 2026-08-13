@@ -6,6 +6,127 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.47] — 2026-08-13
+
+**As duas decisões de acesso de Equipamento fecharam, e uma afirmação da v0.45 caiu junto.** A divisão simples/marcial e o requisito de Força — as duas registradas como *"em aberto"* desde a v0.45, as duas resolvendo acesso por eixos diferentes. Continuam **treze peças e treze validadores**; Equipamento continua em rascunho. E a passada achou um estouro de orçamento em duas armas que ninguém tinha medido.
+
+### Achado — "punir é impossível por construção" era propriedade do corte de teste, não da régua
+
+A v0.45 fechou a decisão do treino de arma com uma tabela mostrando os dois baldes chegando ao mesmo teto, e escreveu que **sob a régua com fundo, punir é impossível por construção.** *Rodando a régua sobre todos os cortes em vez de sobre um:*
+
+| | |
+|---|---|
+| onde mora o `d8` de uma mão | `Lâmina Longa` · `Massa` · `Machado` |
+| onde mora o `d12` de duas mãos | **as mesmas três** |
+
+**Qualquer corte que ponha as três no balde marcial deixa o simples `1,0` dado atrás — nas duas economias de mão.** O teste da v0.45 empatava porque tinha `Massa` dentro, e ninguém tinha perguntado se o empate vinha da régua ou do exemplo. *É a lição nº 8 numa forma nova: a checagem não se mediu contra a própria constante, ela se mediu contra um único caso e generalizou.*
+
+### Achado — os dois gates se multiplicam, e nenhum dos dois faz isso sozinho
+
+Sob o requisito de Força, sobram **duas** armas de duas mãos sem requisito no catálogo inteiro: **Kusarigama** (`Ceifa`) e **Corrente** (`Flexível`).
+
+> **Se nenhuma das duas categorias cair no balde simples, o Caminho não-marcial de Força baixa fica com ZERO arma de duas mãos.** O gate de treino sozinho não faz isso; o gate de Força sozinho não faz isso. **Só a interseção faz** — e ela é a ficha do Emanador que quer lutar, que é exatamente quem as duas decisões existem para atender.
+
+*Lição nº 7 num eixo novo: um preço se mede somado, e aqui o que precisava ser somado eram duas restrições em vez de dois custos.*
+
+### Decidido — a divisão simples/marcial
+
+Busca exaustiva dos **1024** cortes das dez categorias de corpo a corpo. **543 passam** nas quatro travas — as duas acima, mais *"cada balde tem arma de uma e de duas mãos"* e *"nenhum balde com menos de 3 categorias"*. Trava demais para decidir sozinha; o que fecha é a âncora de ficção, lida da tabela oficial do 5e 2024 e não de memória.
+
+| | categorias |
+|---|---|
+| vão para simples sem ambiguidade | `Lâmina Curta` (dagger) · `Porrete` (club, quarterstaff) · `Ceifa` (sickle) · `Arremesso` (dart, javelin) |
+| para marcial sem ambiguidade | `Lâmina Longa` (longsword, rapier, greatsword) · `Flexível` (whip) |
+| **o 5e corta por dentro** | `Massa` · `Machado` · `Armas Longas` |
+| **o 5e não tem** | `Manopla` |
+
+> **A `Manopla` não tem âncora no 5e, e a do PF2e é melhor do que a que faltou.** *Conferido no levantamento, não suposto:* o **gauntlet é arma simples** lá, do grupo `Brawling`, com o traço **`free-hand`** — que é literalmente o texto de regra por trás da `Vestida` deste projeto, já registrado no levantamento da v0.45. **A mesma fonte sustenta a propriedade e o balde.**
+
+**As três que ele corta por dentro são justamente onde mora o teto**, então a trava 2 escolhe entre `Massa` e `Machado` — e o desempate é específico: **o greatclub é arma simples no 5e, e um kanabō é um greatclub**; battleaxe e greataxe são marciais, e o Machado de Guerra é um dos dois. **`Massa` entra.** *E ela ainda deixa o simples com **6** armas de duas mãos contra **4** da rota do `Machado` — medido com o mesmo resto de balde nos dois lados, que é o único jeito de a comparação querer dizer alguma coisa.*
+
+`Armas Longas` fica no marcial por decisão de documento e não de número — a conta é indiferente, porque Naginata e Yari já caem no requisito de Força. **O `ESTADO-ATUAL` diz que a árvore da Vanguarda é *"alcance, reposicionamento forçado, troca de alvo"*, então o alcance bom é o que o treino destrava.** O balde simples não fica sem: Bastão, Bō e Kusarigama carregam `Alcance`.
+
+> **Simples — 24 armas, 6 categorias:** `Lâmina Curta` · `Porrete` · `Ceifa` · `Arremesso` · `Manopla` · `Massa`
+> **Marciais — 17, 4 categorias:** `Lâmina Longa` · `Machado` · `Armas Longas` · `Flexível`
+
+**As de projétil.** `Arma de Fogo` é a terceira categoria de treino, sozinha, e ferramenta amaldiçoada fica fora da peça. O 5e corta por dentro de `Yumi` e `Balestra` — arco curto e besta leve simples, arco longo e besta pesada marciais —, e isso não é importável porque aqui a divisão mora na categoria. **`Balestra` é simples e `Yumi` é marcial**, por âncora histórica: a besta mudou a guerra medieval justamente **por não exigir treino**, e o arco japonês é disciplina de anos.
+
+**A repartição de propriedade sai assimétrica de propósito:** o marcial leva o alcance (8 armas contra 3), o simples leva a ocultação, e `Par` e `Vestida` não existem do lado marcial. **A divisão restringe qual identidade, nunca quanto poder** — os dois tetos empatam em `d8` e `d12`.
+
+### Decidido — o requisito de Força reancora no dado, nas duas escadas
+
+*Ele ficou órfão na v0.44, quando a classe saiu do preço, e passou duas versões sem implementação: das 41 armas do §5.3, zero tinham requisito escrito.*
+
+> **`Força 3` para os dois degraus de cima de cada escada.** Corpo a corpo `d10` e `d12` — 11 de 41. Tiro `2d8` e `2d10` — 6 de 11. **Dezessete de 52, com zero parâmetro novo:** é a mesma frase aplicada às duas escadas que o §5.2 já tinha.
+
+**O corte de ficção sai sozinho da régua.** Escapam Hankyū, Submetralhadora, Pistola, Revólver e Besta de Uma Mão — as cinco leves. Pegam arco longo, besta, espingarda, rifle, rifle de precisão e metralhadora pesada. Ninguém escreveu essa lista à mão.
+
+**O tiro entrou por decisão do Mizuki — *"tem arma de longo alcance que vai necessitar de força pra carregar"*— e a conta achou um segundo motivo, maior:**
+
+| ficha | melhor arma sem o requisito | com ele |
+|---|---|---|
+| Força 0 · Destreza 0 — o conjurador puro | **Rifle de Precisão, 11,0** | Hankyū, 7,0 |
+
+**Um conjurador que não gastou um ponto de atributo fazia 11,0**, contra 6,5 do melhor corpo a corpo dele — e **o requisito no corpo a corpo sozinho não fecha isso**, porque a arma de fogo passa por fora. É o buraco que o §5.2 nomeou (*"não somar atributo não é penalidade, é independência de atributo"*) e não trancou.
+
+### Registrado — o requisito lê o dado impresso, e o vazamento tem tamanho
+
+> **O passo do `Versátil` não conta.** Sem essa frase o requisito pega a **Katana**, que tem `Fineza` — cobraria Força de quem trocou Força por Destreza.
+
+Com ela, três armas alcançam `d10` sem passar pelo gate: Katana, Espada Longa e Taco. **O vazamento vale 1,0 dado**, e o efeito é que **um gate em `d10`+`d12` e um gate só em `d12` devolvem a mesma arma ótima em toda ficha medida.** Eles não são equivalentes, mas o que os separa não é dano:
+
+| para Força < 3 | gate `d10`+`d12` | gate só `d12` |
+|---|---|---|
+| armas de duas mãos | **2** | 7 |
+| com `Talha` de duas mãos | **0 de 6** | 3 |
+
+**Contagem não é valor**, lição nº 3: o gate maior gateia cinco armas a mais e move zero de dano. O que ele move é o que dá para *ser*. **Decisão do Mizuki: o gate maior**, e a `Talha` sumir das duas mãos para quem não tem Força é o desenho.
+
+### Achado — as duas armas do `Yumi` estouram o orçamento
+
+*Achado aplicando o gate de tiro, e ele não estava na pauta desta versão.* A fórmula de preço do tiro desconta `6,0` — *"a Força que o corpo a corpo soma"* —, desconto que só está certo para arma que **não soma nada**. **As nove de `Balestra` e `Arma de Fogo` reproduzem exatas contra a tabela publicada; o `Yumi` soma Destreza (§5.1) e leva o desconto do mesmo jeito.**
+
+| arma | dado | com Destreza 6 | gasta | orçamento |
+|---|---|---|---|---|
+| Hankyū | `2d6` | 13,0 | 5,5 | 4 — **estoura 1,5** |
+| Daikyū | `2d8` | **15,0** | 7,5 | 4 — **estoura 3,5** |
+
+**O Daikyū passa a `Pesada` em 2,5 de dano** — 15,0 contra os 12,5 de um Força 6 com espadão — e a rota de `Fineza`, que é a comparação certa, faz 10,5. *O §5.3 afirma "zero armas estourando o orçamento": vale para as outras cinquenta.* **Registrado com as duas saídas medidas, não consertado** — mexer no dado do arco é decisão de sabor, e ela vai para o §8 item 16.
+
+### Alterado — duas dívidas de documentação, e as duas eram a lição nº 9
+
+| onde | o que estava | o que é |
+|---|---|---|
+| `RASCUNHO-equipamento` §5.0.2 | a tabela invertida da v0.44 (`0 propriedades → d8`), com o dado como **saída** | o §5.0.1 já dizia o contrário três seções acima, com o fundo `3/5` |
+| `ESTADO-ATUAL`, seção de Equipamento | parada na v0.44: listava *"os treze efeitos de crítico"* e *"o dado e as propriedades das 52 armas"* como o que falta | os treze morreram e as 52 fecharam, **na v0.45** |
+
+**A segunda é a que mordia**, e é a mesma família do achado da v0.44 sobre o `Bloquear`: o `ESTADO-ATUAL` é o ponto de retomada declarado, e ele estava duas versões atrás na única peça em andamento. **Quem retomasse por ele retomaria na régua velha, procurando escrever treze efeitos de crítico que já tinham morrido.** *Nenhum validador alcança prosa.*
+
+### Registrado — dois erros meus, os dois pegos antes de fechar
+
+*Ficam escritos porque o método é o que sobrevive à sessão.*
+
+**O primeiro foi no script, e ele mentia para o lado que confirmava a conclusão.** A primeira versão da conta do gate tirava a arma gateada do bolso **mesmo de quem passa no requisito** — então ela mostrava o gate mordendo um personagem de Força 6, o que é impossível. Consertado, a tabela mudou de forma: o gate morde Força 0 a 2 e mais ninguém, que é o desenho.
+
+**O segundo foi uma comparação com bases diferentes.** Escrevi *"a rota do `Machado` deixa o simples com 1 arma de duas mãos contra 6 da `Massa`"* — e o `1` saiu de um balde que não tinha `Ceifa` dentro, enquanto o `6` saiu de um que tinha. **Com o mesmo resto de balde nos dois lados é 6 contra 4.** A conclusão não muda; o número estava errado por comparar duas coisas diferentes. *É a mesma família do `+113% contra +56%` que a v0.24 corrigiu na Constituição — dois números certos, medidos de bases que não batem.*
+
+### Registrado — o levantamento externo
+
+A **tabela oficial de armas do 5e 2024**, lida inteira em vez de citada de memória: as dez simples de corpo a corpo, as dezoito marciais, e — o que decide as de projétil — **arco curto e besta leve como simples contra arco longo, besta de mão e besta pesada como marciais**. Mais os **grupos de arma do PF2e**, que são o análogo mais próximo da "categoria" daqui e onde a `Manopla` acha âncora (`Brawling`). *O corte do 5e passa por dentro de cinco das treze categorias deste projeto, e é por isso que ele serve de âncora e não de resposta.*
+
+### Em aberto
+
+- **O validador da peça**, com a busca exaustiva, as três rotas de proteção e a triagem de todo nome — incluindo a checagem de que nenhuma arma dependa só da `Talha`, e as duas travas novas do §5.4.1.
+- **Os dois dados do `Yumi`** — §8 item 16, com as duas saídas medidas.
+- **A penalidade por empunhar sem treino ou sem requisito** — §8 item 15. Hoje os dois gates são proibição, não penalidade.
+- **Os nomes dos três degraus de escudo**, e quantos são.
+- **A `Comprida` continua sem dono.**
+- **As quatro vagas de Desliga da peça 13.**
+- **As três checagens do Bloquear**, no `conferir-atributos.py`.
+- **A Cicatriz, Energia Reversa, o clash, o nome do sistema.**
+
+---
+
 ## [0.46] — 2026-08-13
 
 **Um arquivo morreu, e nenhuma regra mudou.** Passada de estrutura, feita logo depois de a v0.45 fechar. Continuam **treze peças e treze validadores**.

@@ -2,7 +2,7 @@
 
 Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.46** · manual do Fundamento na **v7.8** · **treze peças de regra** e **treze validadores passando**.
+**Versão v0.47** · manual do Fundamento na **v7.8** · **treze peças de regra** e **treze validadores passando**.
 
 ---
 
@@ -28,7 +28,7 @@ E o registro do **porquê** de cada decisão é tão importante quanto a regra: 
 **Primeiro, confirme que você abriu a pasta certa — leva dez segundos e já custou meia hora uma vez.** Existe outro clone desta mesma coisa parado na **v0.27** numa pasta `JJK---Project` dentro da home, e ele tem a cara do projeto inteiro: validadores, peças, changelog. Uma conversa já se perdeu lendo o clone velho e rodando sete validadores que passaram sem provar nada.
 
 ```bash
-head -6 README.md          # tem que dizer Versão v0.46 ou maior
+head -6 README.md          # tem que dizer Versão v0.47 ou maior
 grep -c "Nove lições" README.md
 ```
 
