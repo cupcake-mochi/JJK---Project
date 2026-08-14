@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 13/08/2026, na v0.57 (última peça fechada: **Equipamento, na v0.48** — ela é a peça 14 e tem o `conferir-equipamento.py` em cima dela; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`, e **Invocações está com cinco das seis perguntas fechadas** em `03-mecanica/RASCUNHO-invocacoes.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 14/08/2026, na v0.58 (última peça fechada: **Invocações, na v0.58** — ela é a peça 15 e tem o `conferir-invocacoes.py` em cima dela, com trinta checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.57.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **catorze peças escritas** e **catorze validadores**. Manual do Fundamento na **v7.8**, com a Expansão de Domínio escrita, e o catálogo de aptidões com **dez das catorze entradas fechadas**. **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas** — por seis das nove rotas de Origem, e agora sem nenhum buraco de regra que morda nessa faixa.
+**Versão v0.58.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **quinze peças escritas** e **quinze validadores**. Manual do Fundamento na **v7.8**, com a Expansão de Domínio escrita, e o catálogo de aptidões com **dez das catorze entradas fechadas**. **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas** — por seis das nove rotas de Origem, e agora sem nenhum buraco de regra que morda nessa faixa.
 
 ## Como retomar
 
@@ -22,12 +22,14 @@ python3 conferir-aptidoes.py      # a trava do refino, as três rotas do marco, 
 python3 conferir-expansao.py      # os gates da Expansão, a ordem, o preço em espaços
 python3 conferir-orcamento.py     # o somatório: todos os drenos de PE ao mesmo tempo
 python3 conferir-xp.py           # a curva, o abismo que fecha, e os alvos da Guilda
+python3 conferir-equipamento.py  # o fundo de cada arma, a dominancia, o teto de Defesa
 python3 conferir-criacao.py      # a ficha de exemplo contra as fórmulas, e o que a criação cita
 python3 conferir-ficha.py        # a ficha de 05-material contra os catálogos das peças
 python3 conferir-legados.py      # os três formatos, a cota de Desliga, as vagas e os totais
+python3 conferir-invocacoes.py   # o teto somado, o catálogo, a régua, a morte e o orçamento
 ```
 
-**Três naturezas diferentes, e vale saber qual é qual.** Dez conferem **regra** — *a fórmula deriva certo?*. O `conferir-criacao.py` confere **instância** — *a ficha publicada na peça 8 obedece à fórmula?* —, e nasceu na v0.34 porque os dois erros daquela versão passaram por baixo de todos os outros: a peça 8 é a única que produz uma ficha inteira, e ela envelhece toda vez que outra peça mexe num número. O `conferir-ficha.py` confere **material**, que é a cópia que vira personagem em sete mesas. E o `conferir-legados.py`, o décimo terceiro, confere **catálogo**: ele recalcula a tabela de totais da peça 13 e falha se o escrito não bater com o contado.
+**Três naturezas diferentes, e vale saber qual é qual.** Onze conferem **regra** — *a fórmula deriva certo?*. *(O `conferir-equipamento.py` faltava nesta lista desde a v0.48 e entrou na v0.58 — o `subir.sh` sempre o rodou, porque varre por glob; quem rodasse à mão pelo documento rodava um a menos.)* O `conferir-criacao.py` confere **instância** — *a ficha publicada na peça 8 obedece à fórmula?* —, e nasceu na v0.34 porque os dois erros daquela versão passaram por baixo de todos os outros: a peça 8 é a única que produz uma ficha inteira, e ela envelhece toda vez que outra peça mexe num número. O `conferir-ficha.py` confere **material**, que é a cópia que vira personagem em sete mesas. E o `conferir-legados.py`, o décimo terceiro, confere **catálogo**: ele recalcula a tabela de totais da peça 13 e falha se o escrito não bater com o contado. O `conferir-invocacoes.py`, que entrou na v0.58, faz as quatro naturezas de uma vez — regra, catálogo, instância e **busca exaustiva** —, porque a peça 15 é máquina de construção e não lista.
 
 O quinto tem um modo de triagem, para rodar **antes** de batizar qualquer coisa:
 
@@ -114,7 +116,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 
 **Golpe canalizado** = os dados da Classe e nada mais (é o feitiço, e não soma arma nem Força). **Golpe simples** = arma + Força (é o Classe 0 físico). Um canalizado por turno; ataque extra é sempre simples.
 
-**Invocações:** o invocador e todas as invocações somados entregam **uma** Rotina.
+**Invocações:** o invocador e todas as invocações somados entregam **uma** Rotina. A máquina inteira é a **peça 15**; o teto é da peça 6 §4.
 
 ## Onde cada coisa está
 
@@ -135,6 +137,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/10-descanso-e-recuperacao.md` | os dois descansos, ambiente propício, exaustão e os quatro relógios |
 | `03-mecanica/11-aptidoes-e-refino.md` | o eixo do controle: o refino, o terceiro eixo do marco, o catálogo e o Limiar |
 | `03-mecanica/12-experiencia-e-progressao.md` | a curva de XP em degraus, o teto de um nível por missão, o retorno decrescente e o limiar do nível 20 |
+| `03-mecanica/15-invocacoes.md` | **o sistema de criação de invocação**: a casa de iniciativa, o pool da Matilha, a ficha derivada, o custo, a morte, o retorno e o catálogo de 19 entradas |
 | `03-mecanica/conferir-nomes.py` | o vocabulário do manual, extraído do `.docx`, contra todo nome que o projeto batizou |
 | `03-mecanica/conferir-manual.py` | a direção contrária: o manual contra o vocabulário e os números do projeto |
 | `03-mecanica/conferir-aptidoes.py` | a trava do refino, as três rotas do marco, o teto de Passivas e o kokusen |
@@ -143,6 +146,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/conferir-xp.py` | a curva, o abismo que fecha, e se a regra ainda entrega o tempo que a Guilda pediu |
 | `03-mecanica/conferir-criacao.py` | **a instância, não a regra**: a ficha de exemplo da peça 8 contra as fórmulas, a proteção da aptidão gratuita, a Trilha na criação e se o catálogo citado existe |
 | `03-mecanica/conferir-ficha.py` | **o material contra a regra**: as 23 perícias, os 11 ofícios, os 5 Caminhos, as 15 Trilhas e as constantes do nível 2 que a ficha imprime, contra as peças donas |
+| `03-mecanica/conferir-invocacoes.py` | as **trinta** checagens da peça 15, sem um número guardado dentro dele — e a busca exaustiva das 21.502 montagens que gastam o orçamento cheio no nível 30 |
 | `05-material/gerador-ficha/` | o gerador da ficha (Node: `node make.js`), e os dois `.docx` que ele produz |
 | `conferir-repositorio.py` | a árvore, as referências mortas, os números que moram em mais de um documento, e — **desde a v0.54** — os **ponteiros de seção**: todo `peça N §M` citado tem de apontar para seção que existe |
 | `99-arquivo/` | material morto, com LEIA-ME próprio. Não leia de lá para escrever peça nova |
@@ -408,7 +412,7 @@ Vale ter isso à mão, porque o material é grande e engana. *Medido na v0.33, e
 | falta | tamanho do buraco |
 |---|---|
 | **Tabela de progressão consolidada** | o que você ganha em cada nível está espalhado por cinco documentos: marcos na peça 2, maestria na peça 1, refino no `arquitetura.md`, XP na peça 12, Classe e feitiço no manual |
-| **Quick-start jogável** | decidido na v0.2 como a estrutura do material final. Não existe. As catorze peças são argumento de design, não texto de regra: ninguém senta na mesa com elas |
+| **Quick-start jogável** | decidido na v0.2 como a estrutura do material final. Não existe. As quinze peças são argumento de design, não texto de regra: ninguém senta na mesa com elas |
 | **Playtest** | `04-playtest/` está vazia. Zero sessões desde a v0.1. **Todo número do sistema é previsão** |
 
 *A **tabela de XP** saiu desta lista na v0.32.* Ela era a trava nº 1 de mundo compartilhado e ficou aberta trinta versões; hoje é a peça 12, com o `conferir-xp.py` em cima dela.
@@ -467,10 +471,10 @@ Quatro peças, e a ordem é de **dependência**, não de tamanho. A ordem que el
 
 | # | peça | por que aqui | move o contador? |
 |---|---|---|---|
-| 1 | **Invocações** | dependência dura de Trilhas | rotas 6/9 → 6/9 · vagas 0 de 7 |
-| 2 | **Ferramenta amaldiçoada** | destrava `Técnica Marcial` | **rotas 6/9 → 8/9** · vagas 3 de 7 |
-| 3 | **Trilhas** | fecha com as quinze de uma vez | toca **100% das fichas** |
-| 4 | **Objeto amaldiçoado** | a conta o pôs por último | rotas 6/9 → 6/9 · **vagas 1 de 7** |
+| ~~1~~ | ~~**Invocações**~~ | **fechada na v0.58** (peça 15), com o `conferir-invocacoes.py` e trinta checagens | rotas 6/9 → 6/9 · vagas 0 de 7 |
+| 1 | **Ferramenta amaldiçoada** | destrava `Técnica Marcial` — a máquina e o catálogo fecharam na v0.55 e na v0.56, **falta o validador** | **rotas 6/9 → 8/9** · vagas 3 de 7 |
+| 2 | **Trilhas** | fecha com as quinze de uma vez, e agora nada mais a trava | toca **100% das fichas** |
+| 3 | **Objeto amaldiçoado** | a conta o pôs por último | rotas 6/9 → 6/9 · **vagas 1 de 7** |
 
 > **As posições 2 e 3 ganharam rascunho na v0.54**, e os dois têm o mesmo formato do de Invocações — perguntas em ordem de dependência, com o que a conta já fecha separado do que é sabor.
 >
@@ -486,15 +490,17 @@ Quatro peças, e a ordem é de **dependência**, não de tamanho. A ordem que el
 - **Ferramenta antes de Técnica Marcial** está escrito na peça 5 §3: a Maki *"só compete porque a ferramenta amaldiçoada carrega a energia por ela"*. Técnica Marcial escrita antes produz rota que não fere maldição.
 - **Objeto amaldiçoado por último**, e é o contrário do que a v0.49 fazia parecer. Ele foi o achado daquela versão, mas **Receptáculo e Reencarnado já rodam hoje** — os dois vão para o Fundamento. Ele fecha **1 vaga de Desliga e mais nada.** *Buraco de vocabulário real não é o mesmo que buraco que trava alguém.*
 
-**O rascunho de Invocações está em `03-mecanica/RASCUNHO-invocacoes.md`**, com as seis perguntas em ordem de dependência, a triagem do nome e o que o validador vai precisar.
+**Invocações fechou na v0.58 e é a peça 15**, em `03-mecanica/15-invocacoes.md`, com o `conferir-invocacoes.py` em cima dela. O §5 daquela peça é a especificação das trinta checagens, e ele foi escrito **antes** do validador — que é por que ele coube numa versão só, contra as seis que a peça 14 gastou.
 
-> **Cinco das seis fecharam na v0.51, e o argumento inteiro delas mora no rascunho — não aqui.** A Q1 (iniciativa) no §3.1, a Q2 (cinco fichas ou uma) no §3.2, a Q3 (a ficha) no §3.3 e no §3.6, a Q4 (o custo) no §3.4, a Q5 (a morte) no §3.5, e o catálogo no §3.7 — que na **v0.52** ganhou a **régua de criação** (o catálogo não é a lista do que existe, é a régua contra a qual o que não existe é medido) e na **v0.53** foi escrito entrada por entrada: **19 compráveis**, mais o `Investir` a 0. **Só a Q6 continua aberta, e ela é da peça de Trilhas — com metade da resposta já escrita no §3.7.** *Este ponteiro existe para quem retomar não recomeçar: as decisões têm um dono só, e é lá.*
+> **A peça fechou na v0.58, e o argumento inteiro mora nela — não aqui.** A Q1 (iniciativa) no §3.1, a Q2 (cinco fichas ou uma) no §3.2, a Q3 (a ficha) no §3.3 e no §3.6, a Q4 (o custo) no §3.4, a Q5 (a morte e o retorno) no §3.5, o catálogo e a régua de criação no §3.7, e a especificação das trinta checagens no §5. *Este ponteiro existe para quem retomar não recomeçar: as decisões têm um dono só, e é lá.*
 >
-> **A máquina, em seis linhas:** a invocação age **na casa do dono**; a Matilha é **uma ficha com cinco corpos**, pool com cascata, rodada resolvida **em pool**; a ficha é **derivada do dono mais um deslocamento que só desce**, com `Traço` e `Comando` comprados num orçamento de **2 a 9** pontos; invocar custa **`1 × maior Classe` e a ação padrão**, e **comandar custa a ação padrão**; ela **some no zero**, é **vulnerável a área** e **morre em definitivo** se o excedente passar de metade da vida máxima ou um golpe causar a vida máxima inteira; e **a amarra são 18 metros** — além disso ela não pode ser comandada, e não some.
+> **A máquina, em seis linhas:** a invocação age **na casa do dono**; a Matilha é **uma ficha com cinco corpos**, pool com cascata, rodada resolvida **em pool**; a ficha é **derivada do dono mais um deslocamento que só desce**, com `Traço` e `Comando` comprados num orçamento de **2 a 9** pontos; invocar custa **`1 × maior Classe` e a ação padrão**, e **comandar custa a ação padrão**; ela **some no zero**, é **vulnerável a área** e **morre em definitivo** se o excedente passar de metade da vida máxima ou um golpe causar a vida máxima inteira — e quem só chegou a zero volta com **metade da vida**; e **a amarra são 18 metros**, lidos do alcance base de Projétil.
 >
-> **E o teto de uma Rotina da peça 6 §4 deixou de precisar de decreto:** com comandar custando a ação padrão, o dono e a invocação ficam mutuamente exclusivos na rodada e a soma cai da economia de ação sozinha. **O Coro é a exceção**, que a peça 5 §4 já autoriza.
+> **A Q6 é a única que continua aberta, e ela nunca foi desta peça:** `Servo`, `Matilha` e `Coro` fecham com a peça de Trilhas. O §3.7 já entregou a metade que faltava — **o que a Trilha concede não sai do orçamento**, e o orçamento compra `Traço` e `Comando` por cima.
 >
-> **O que separa o rascunho da peça 15**, depois de a v0.53 escrever o catálogo: o tratamento de **Rika e Mahoraga** (que agem fora do controle do portador), **a fórmula de vida com número por tipo** — os quatro tipos existem, a fórmula tem o termo, e o termo está vazio —, **reconseguir a invocação morta**, e **o validador dono dela**, com as **vinte e oito** checagens que o §5 do rascunho lista. *Ele nunca teve treze: fechou a v0.51 com vinte e três, e o `treze` daqui era a contagem de peças e validadores do repositório, emprestada para uma frase que falava de outra coisa e abandonada quando ela virou catorze na v0.48.* *O nome do arquivo fica sem escrever até ele existir — o `conferir-repositorio.py` acusa referência a arquivo que não existe, e acusou esta mesma frase ao fechar a versão.* **Ele achou um buraco na peça 6, e ele é de um eixo que ninguém tinha apontado para cá:** a regra da seção 4 preça o **dano** da Matilha e não preça o **tempo de mesa** dela. Cinco fichas agindo por rodada custam o mesmo tempo quer cada uma faça 25 de dano ou 5 — e foi por essa metade, não pela do dano, que o 5e 2024 trocou a família inteira de `conjure`. O eixo já existe aqui, na pergunta de playtest sobre ação bônus.
+> **O que a peça deixou pendurado**, e é pouco: **quando a vida cheia da invocação reinvocada volta** (o candidato natural é o descanso longo, e é sabor); e as duas dominâncias que a matriz do validador acusa e a peça declara — `Matilha > Servo` e `Coro > Servo`, **as duas apontando para o Servo**, que é a única das três Trilhas cuja concessão (*"um corpo forte"*) ainda não tem número. **Quando a Q6 der esse número, o par tem de sumir da declaração**, e a checagem 2 acusa se a declaração ficar mentindo.
+>
+> **E o buraco que ela achou na peça 6 continua aberto, porque é de playtest e não de conta:** a regra da seção 4 preça o **dano** da Matilha e não preça o **tempo de mesa** dela. Cinco corpos agindo por rodada custam o mesmo tempo quer cada um faça 25 de dano ou 5 — e foi por essa metade, não pela do dano, que o 5e 2024 trocou a família inteira de `conjure`. O conserto que a peça achou é de gesto e não de regra: **rolar em pool** corta de sete gestos e meio por rodada para três. **O número esperado está escrito no §3.2 antes da sessão** — a Matilha custa `2,5×` um personagem de nível 6 —, e a checagem 4 confere que ele continua batendo com a tabela dele mesmo.
 
 > **Equipamento é a próxima, e ela tem uma dívida marcada esperando.** A peça 13 fecha dizendo *"quando equipamento fechar, a primeira coisa a fazer é voltar aqui"* — quatro vagas de Desliga nomeiam essa peça como a que deve criar o alvo delas. As outras três esperam **dano e condições**, que não está na fila. *Decisão registrada não é decisão aplicada, e foi assim que a Trilha passou sete versões.*
 

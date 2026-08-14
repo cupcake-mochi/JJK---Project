@@ -36,7 +36,7 @@ Uma ferramenta amaldiçoada que fosse *"uma arma com mais pontos"* fura essa tra
 |---|---|---|---|
 | 2 | 13 | 2,5% | **12,7%** |
 | 10 | 45 | 0,7% | 3,7% |
-| 18 | 77 | 0,4% | 2,1% |
+| 18 | 81 | 0,4% | 2,0% |
 | **30** | **126** | **0,3%** | **1,3%** |
 
 > **No nível 30, dobrar o orçamento inteiro de uma arma de duas mãos vale `1,3%` da Rotina** — contra os **6% a 9%** que a peça 14 §4 diz que uma **Trilha inteira** vale.
@@ -55,7 +55,7 @@ A arma comum **não escala**: o dado é fixo e o atributo topa em 6. A Rotina es
 |---|---|---|---|---|
 | 2 | 13 | 12,5 | **96%** | 0,5 |
 | 10 | 45 | 12,5 | 28% | 32,5 |
-| 18 | 77 | 12,5 | 16% | 64,9 |
+| 18 | 81 | 12,5 | 15% | 68,5 |
 | **30** | **126** | **12,5** | **10%** | **113,5** |
 
 > **Uma ferramenta que tivesse de fechar essa distância precisaria entregar 113 de dano por rodada no nível 30. Isso é o Fundamento inteiro, não é um item.**
@@ -293,7 +293,8 @@ No lugar dela entrou o **`Bojo`**, que sai do Osso de Dragão e cobra num eixo q
 
 - **O validador da peça** — §7. Sem ele o catálogo não vira peça, porque o `conferir-repositorio.py` conta peças contra validadores.
 - **Os nomes próprios das ferramentas do material**, se a peça for publicar um catálogo de itens além do catálogo de `Estigma`.
-- **A ordem de fechamento:** Invocações é a posição 1 da fila e ainda é rascunho. Se esta fechar antes, ela vira a **peça 15** e Invocações a 16 — e a linha do `RASCUNHO-invocacoes.md` que diz *"ele vira a peça 15 quando fechar"* precisa mudar no mesmo dia.
+- **A ordem de fechamento resolveu-se sozinha na v0.58:** Invocações fechou primeiro e é a **peça 15**. Esta vira a **16** quando o validador do §7 existir, e passou a ser a posição 1 da fila.
+- **A Rotina do nível 18 aqui era 77, e são 81** — corrigido na v0.58, nas duas tabelas do §2. O 77 era interpolação entre os 45 do nível 10 e os 126 do 30; quem publica a coluna é a **peça 6 §3**. Nenhuma conclusão do §2 se move: `2,1% → 2,0%` e `16% → 15%`, contra os `6% a 9%` que uma Trilha inteira vale.
 
 ## 6. Os números que a peça vai precisar, já rodados
 

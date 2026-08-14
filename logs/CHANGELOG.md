@@ -6,6 +6,90 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.58] — 2026-08-14
+
+**Invocações fechou. São quinze peças e quinze validadores.** O `RASCUNHO-invocacoes.md` virou `15-invocacoes.md` e ganhou o `conferir-invocacoes.py`, com as **trinta checagens** que o §5 daquele documento vinha listando desde a v0.51. **O arnês acendeu as trinta**, e dois contra-testes não acenderam nada. E aconteceu o que a peça 14 já tinha mostrado: **o validador achou três coisas na primeira rodada limpa — e duas eram minhas.**
+
+### Achado — a Rotina do nível 18 tem dois valores no repositório, e o dono é a peça 6
+
+*Achado indo ler o dono antes de conferir a linha do alvo da tabela de vida.* A **peça 6 §3** publica **81** em três tabelas. **Três tabelas de dois rascunhos usavam 77.**
+
+| onde | dizia | é |
+|---|---|---|
+| peça 15 §3.6, a linha *"alvo — meia Rotina"* | 38,5 | **40,5** |
+| `RASCUNHO-ferramenta-amaldicoada.md` §2.1 | 77 · 2,1% | **81 · 2,0%** |
+| `RASCUNHO-ferramenta-amaldicoada.md` §2.2 | 77 · 16% · 64,9 | **81 · 15% · 68,5** |
+
+**O 77 é a interpolação linear entre os 45 do nível 10 e os 126 do nível 30** — conta certa para traçar uma reta, conta errada para uma tabela que já tem dono. *E ela passa despercebida justamente porque o nível 18 é o único ponto da curva que ninguém ancorou:* nos níveis 2, 10 e 30 a reta e a tabela dão o mesmo número, então três das quatro células batiam.
+
+**A fórmula de vida não se move.** Ela foi ajustada nos dois pontos ancorados — `h(2) = 6,5` e `h(30) = 63` —, e os dois continuam batendo. O que muda é o alvo contra o qual o tipo do meio é lido no 18, e a diferença é `38` contra `40,5` em vez de `38` contra `38,5`. **Nenhuma decisão vira.**
+
+> *De quebra, o `64,9` da segunda tabela da ferramenta não reproduzia nem com o 77 — com 77 dá `64,5`.* **Número derivado de número emprestado erra duas vezes**, e a segunda ninguém procura.
+
+**A checagem 19 lê a Rotina da peça 6 §3 e nunca de constante.** *Contra-teste rodado:* perturbar o `126` da peça 6 faz a linha do alvo acender inteira — que é a prova de que ela não se mede contra si mesma.
+
+### Adicionado — o `conferir-invocacoes.py`, e ele não guarda um número sequer
+
+**Trinta checagens.** O teto somado e a cota por corpo saem da **peça 6 §4**; a Rotina por nível da **peça 6 §3**; os marcos e os tetos da **peça 2**; a fórmula de vida, o PE por nível e a maestria da **peça 1**; a amarra da **peça 3 §3**, que é o alcance base de Projétil; o ritmo do refino da **peça 11 §2**; o ponto de arma da **peça 14 §5**; e o **PISO do bolso** do `conferir-orcamento.py`, que é quem já sabia medir isso. O catálogo, a régua e o orçamento saem da própria peça 15.
+
+**O único bloco com valor na mão é o `LIMITES DE DESIGN`**, declarado à parte da regra aplicada — que é a lição nº 8, e é ela que a perturbação 2 do arnês testa: tirar um par da declaração acende a matriz, e só ela.
+
+**Ele é o maior dos quinze porque a peça 15 é máquina de construção e não lista**, e por isso faz as quatro naturezas de uma vez: regra, catálogo, instância e busca exaustiva. A busca enumera **21.502 montagens** que gastam o orçamento cheio no nível 30, com a maior usando **9 das 19 entradas — 47%**, e o número estava escrito na peça **antes** de o validador existir.
+
+> **Zero montagens dominadas, e isso não vem de busca: vem de prova.** Toda entrada comprável custa pelo menos 1 e toda montagem gasta o orçamento **exato**, então nenhuma pode ser superconjunto estrito de outra. *A checagem afirma as duas premissas e conclui — comparar 21.502 montagens duas a duas seriam 462 milhões de pares para provar o que a aritmética já garante.*
+
+### Corrigido — dois furos meus, achados pelo arnês e não pela leitura
+
+**Os dois só apareceram porque a perturbação não acendeu o que devia**, e é para isso que ele existe.
+
+| | o que acontecia |
+|---|---|
+| a régua comia o último nome de cada degrau | a função que limpa a célula tirava a crase das **pontas da célula inteira**, e a última entrada de cada lista ficava sem o par de crases que o `findall` procura. **`Fala`, `Remoto`, `Cavar` e `Chamariz` sumiam da régua** e a checagem 6 saía verde sem conferir os quatro |
+| o leitor da cota estourava em vez de acusar | ele só entendia *"um"* e *"cinco"* corpos. Perturbar a peça 6 para *"quatro"* fazia o validador **quebrar com traceback**, e um validador que quebra não é um validador que acusa |
+
+**E duas checagens estavam varrendo a mesma coisa.** A do ritmo também procurava entrada que encostasse em Defesa, que é da checagem 27 — então **uma perturbação acendia duas**, e o arnês deixava de provar que elas eram independentes. A varredura saiu da 18.
+
+> **Três checagens acendem em par ou em trio, e isso ficou declarado em vez de escondido.** Mexer no teto da peça 6 derruba a checagem 1 **e** a 14, porque a tabela de economia de ação fecha a soma no teto. Mexer no alcance de Projétil derruba a 24 **e** a 25, porque a faixa *"no combate"* **é** a amarra. E mexer na quantidade de corpos derruba a 21, a 11 e a 22 — a cota, o pool em que a área entra, e os d20 do crítico. *Quando duas checagens leem o mesmo dono, declarar o par é mais honesto que fingir isolamento.*
+
+### Decidido — a peça se chama Invocações, e isso é decisão escrita
+
+*Decisão do Mizuki.* O §4 tinha deixado o nome em aberto desde a v0.50, com `Invocação` saindo **OCUPADO** na triagem — é **Tema** do manual, no grupo *Criação*.
+
+**O que pesou foi custo de troca contra tamanho da colisão.** Tema não carrega mecânica, então o choque é de vocabulário e não de regra; e o nome já está em **17 citações** no `ESTADO-ATUAL`, **61** no `CHANGELOG` e **13** na peça 6. A v0.50 decidiu por escrito que histórico de CHANGELOG não se reescreve — **trocar deixaria noventa e tantas linhas falando de uma peça com outro nome, para consertar um rótulo que não tem mecânica.** `Coleira` e `Convocação` ficam anotadas no §4, livres.
+
+### Decidido — o quarto formato de gate, e ele foi escrever na peça 11
+
+*Decisão do Mizuki, e ela fecha a última pendência que a v0.57 deixou aberta.* O gate de Origem do `Remoto` — alcance de país exige **Restrição Celestial pelo ramo do corpo limitado** e uma técnica voltada a isso — era o único gate do catálogo inteiro, e a **peça 11 §5** só conhecia três formatos: nenhum, só nível, só refino, ou os dois.
+
+> **Ele foi escrito na peça 11 §5**, que é a dona dos formatos de gate, e a peça 15 aponta para lá em vez de repetir a definição.
+
+**A regra que ele traz é estreita de propósito:** um gate de Origem só é legal quando o efeito **não faz sentido nenhum fora daquela Origem**. Nível e refino se compram, e dois mestres leem os dois igual; **Origem é rótulo**, e se ela virar moeda de preço a criação passa a ser escolhida por quais gates ela destrava. *Aí a Origem deixa de ser ficção e vira árvore de talento.*
+
+**E ele nasceu com trava.** A checagem 26 confere que **nenhuma outra entrada do catálogo tem requisito** — se uma segunda aparecer, quer dizer que a régua de degrau do §3.7 parou de precificar sozinha, e isso tem de ser decisão e não descuido. *Escrever o formato sem o validador ao lado seria criar a quarta porta e não trancar nenhuma.*
+
+### Alterado — o §5 deixou de ser lista de desejo
+
+Ele se chamava *"O que o validador vai precisar ter"* e passou a ser *"O que o validador confere"*. **A lista não mudou de conteúdo: mudou de tempo verbal**, e ganhou, item a item, de qual documento o número é lido e qual perturbação tem de acender aquela checagem.
+
+> *E vale registrar o que essa lista comprou.* Ela foi escrita **antes** do validador, ao longo de sete versões, e o validador coube em **uma**. A peça 14 gastou **seis**, e a diferença que ela mesma registrou é a régua vir antes do catálogo. **Aqui a especificação veio antes do código, e é a mesma economia por outra porta.**
+
+### Corrigido — as duas listas de "rodar os validadores" estavam uma curta desde a v0.48
+
+*Achado na revisão cética, contando as linhas em vez de lendo a frase.* O `README` e o `ESTADO-ATUAL` mandam rodar os validadores um a um, e **o `conferir-equipamento.py` nunca entrou nas duas listas** — ele entrou na pasta na v0.48 e na prosa das duas versões seguintes, mas não no bloco de comandos.
+
+**Ninguém deixou de rodá-lo:** o `subir.sh` varre a pasta por glob. **Quem rodava à mão pelo documento é que rodava um a menos**, e o documento dizia *"os dez primeiros conferem regra"* quando eram onze. *Um comando que falta numa lista não falha nada — ele só ensina errado, e o erro só aparece quando alguém confia na lista em vez do script.*
+
+### Em aberto
+
+- **O validador da ferramenta amaldiçoada** (16 checagens no §7 do rascunho dela). *Ela é a posição 1 da fila agora, e sem ele o catálogo de `Estigma` não vira peça.*
+- **Quando a vida cheia da invocação reinvocada volta.** O candidato natural é o descanso longo; é sabor, e não está decidido.
+- **As duas dominâncias declaradas da peça 15** — `Matilha > Servo` e `Coro > Servo`, as duas apontando para o Servo, que é a única das três Trilhas cuja concessão não tem número. **Elas caem com a Q6**, na peça de Trilhas, e a checagem 2 acusa se a declaração ficar mentindo depois disso.
+- **O tempo de mesa da Matilha** — `2,5×` um personagem de nível 6, escrito antes da sessão. É pergunta de playtest, e `04-playtest/` continua vazia.
+- **Trilhas:** a Q3 — a régua antes do catálogo.
+- As de sempre: as vagas de Desliga, a Cicatriz, Energia Reversa, o clash, o nome do sistema.
+
+---
+
 ## [0.57] — 2026-08-13
 
 **A fórmula de vida da invocação ganhou número, reconseguir fechou, e uma entrada do catálogo de `Estigma` foi arrancada depois de escrita.** Continuam **catorze peças e catorze validadores**.
@@ -64,9 +148,17 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 *Decisão do Mizuki: eles ficam sem base por enquanto, e vão para um guia de Evocador que ele quer escrever.* **Isso não deixa buraco na máquina:** os dois já estavam marcados como **regra própria e não ponto de orçamento**, e nenhuma conta desta peça os usa.
 
+### Corrigido — o mesmo número errado da v0.53, pela terceira vez na semana
+
+*Achado contando antes de citar, ao fechar a versão.* O `ESTADO-ATUAL` dizia **vinte e oito** checagens no §5 do rascunho de Invocações. **São trinta** — a v0.55 acrescentou duas (as faixas de alcance e o gate de Origem) e a frase não se moveu.
+
+> **É a terceira encarnação do mesmo defeito em cinco versões:** a v0.53 achou *"as treze checagens"* quando eram vinte e três, e agora *"vinte e oito"* quando são trinta. **Contagem de uma lista que mora em OUTRO documento envelhece a cada edição daquele documento, e nenhum validador cruza os dois.**
+>
+> *O conserto de verdade é uma checagem, e ela entra junto com o validador da peça — que é onde essa contagem vai deixar de ser prosa.* Por enquanto o número foi corrigido e ganhou a data de quando foi contado.
+
 ### Em aberto
 
-- **O validador de Invocações** (28 checagens no §5) e **o da ferramenta** (§7). *Nenhuma das duas vira peça sem ele — o `conferir-repositorio.py` conta peças contra validadores.*
+- **O validador de Invocações** (**30** checagens no §5) e **o da ferramenta** (**16** no §7). *Nenhuma das duas vira peça sem ele — o `conferir-repositorio.py` conta peças contra validadores.*
 - **Quando a vida cheia da invocação reinvocada volta.**
 - **O gate de Origem do `Remoto`** como quarto formato, ao lado dos três da peça 11 §5.
 - **Trilhas:** a Q3 — a régua antes do catálogo.

@@ -2,7 +2,7 @@
 
 Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.57** · manual do Fundamento na **v7.8** · **catorze peças de regra** e **catorze validadores passando**.
+**Versão v0.58** · manual do Fundamento na **v7.8** · **quinze peças de regra** e **quinze validadores passando**.
 
 ---
 
@@ -59,14 +59,14 @@ Depois disso, a ordem de leitura é a da próxima seção, e os validadores são
     ├── 00-fundacao/                     os três pilares e as restrições do projeto
     ├── 01-pesquisa/                     dossiê de metodologia — a seção 8 lista as dez travas
     ├── 02-esqueleto/                    arquitetura: subsistemas e como se encaixam
-    ├── 03-mecanica/                     as catorze peças de regra e os catorze validadores
+    ├── 03-mecanica/                     as quinze peças de regra e os quinze validadores
     ├── 04-playtest/                     vazia. Zero sessões desde a v0.1
     ├── 05-material/                     a ficha, e o gerador dela. O quick-start ainda não
     ├── 99-arquivo/                      material morto, com LEIA-ME próprio
     └── skills/                          cópia de trabalho das sete skills de apoio
 ```
 
-Um arquivo `RASCUNHO-*.md` em `03-mecanica/` é levantamento engatilhado, não peça — ele não leva número justamente por isso, e o `conferir-repositorio.py` falha se algum tomar. **Hoje são cinco:** `RASCUNHO-bloqueio.md` (a regra opcional de rolar a defesa, fechada em desenho na v0.43), `RASCUNHO-clash-de-expansoes.md`, `RASCUNHO-invocacoes.md` (a próxima peça, com **cinco das seis perguntas fechadas** e o **catálogo escrito**, da v0.51 à v0.53), e os dois que a **v0.54** abriu: `RASCUNHO-ferramenta-amaldicoada.md` e `RASCUNHO-trilhas.md`, que são as posições 2 e 3 da fila.
+Um arquivo `RASCUNHO-*.md` em `03-mecanica/` é levantamento engatilhado, não peça — ele não leva número justamente por isso, e o `conferir-repositorio.py` falha se algum tomar. **Hoje são quatro:** `RASCUNHO-bloqueio.md` (a regra opcional de rolar a defesa, fechada em desenho na v0.43), `RASCUNHO-clash-de-expansoes.md`, e os dois que a **v0.54** abriu: `RASCUNHO-ferramenta-amaldicoada.md` e `RASCUNHO-trilhas.md`, que são as posições 1 e 2 da fila. *Eram cinco até a v0.58, quando o de Invocações virou a peça 15 — que é o caminho que um rascunho existe para fazer.*
 
 **`_backup/` não entra no repositório** — ele guarda o estado da pasta antes da reorganização, e o `.gitignore` o segura.
 
@@ -109,18 +109,24 @@ python3 conferir-aptidoes.py      # a trava do refino, as três rotas do marco, 
 python3 conferir-expansao.py      # os gates da Expansão, a ordem, o preço em espaços
 python3 conferir-orcamento.py     # o somatório: todos os drenos de PE ao mesmo tempo
 python3 conferir-xp.py           # a curva, o abismo que fecha, e os alvos da Guilda
+python3 conferir-equipamento.py  # o fundo de cada arma, a dominancia, o teto de Defesa
 python3 conferir-criacao.py      # a ficha de exemplo contra as fórmulas, e o que a criação cita
 python3 conferir-ficha.py        # a ficha de 05-material contra os catálogos das peças
 python3 conferir-legados.py      # os três formatos, a cota de Desliga, as vagas e os totais
+python3 conferir-invocacoes.py   # o teto somado, o catálogo, a régua, a morte e o orçamento
 ```
 
-**Os três últimos são de outra natureza, e vale saber por quê.** Os dez primeiros conferem **regra** — *a fórmula deriva certo?*.
+**Os quatro últimos são de outra natureza, e vale saber por quê.** Os onze primeiros conferem **regra** — *a fórmula deriva certo?*.
+
+*E o `conferir-equipamento.py` faltava nesta lista desde a v0.48, quando ele entrou* — o `subir.sh` sempre o rodou, porque ele varre a pasta por glob, mas quem seguisse o README à mão rodava um a menos. **Corrigido na v0.58, junto com a entrada do de Invocações.**
 
 O `conferir-criacao.py` confere **instância** — *a ficha publicada na peça 8 obedece à fórmula?* —, e ele nasceu na v0.34 depois de aquela peça passar sete versões com a Defesa errada e a Trilha faltando, com os outros verdes o tempo todo.
 
 O `conferir-ficha.py` confere **material**: as 23 perícias, os 11 ofícios, os 5 Caminhos, as 15 Trilhas e as constantes do nível 2 que a ficha de `05-material/` imprime, contra as peças donas. Ficha errada não fica num `.md` que ninguém abre — ela vira personagem, em sete mesas ao mesmo tempo.
 
 O `conferir-legados.py` confere **catálogo**, e entrou na v0.39 junto com a peça 13. A checagem que mais rende é a que recalcula a tabela de totais da peça e falha se o escrito não bater com o contado — as contas do rascunho já tinham envelhecido duas vezes dentro do próprio arquivo antes de ele existir.
+
+O `conferir-invocacoes.py` é o maior deles e faz as quatro coisas de uma vez, porque a peça 15 é máquina de construção: **regra** (o teto somado, o ritmo, os dois gatilhos de morte), **catálogo** (a régua de degrau contra as 19 entradas), **instância** (as montagens publicadas dos shikigami) e **busca exaustiva** (as 21.502 montagens que gastam o orçamento cheio no nível 30). Ele entrou na v0.58, com as trinta checagens que o §5 daquela peça vinha listando desde a v0.51.
 
 E os dois do manual, que conferem número em vez de vocabulário:
 
@@ -143,7 +149,7 @@ Ela já matou mais de dez nomes que pareciam livres — três só na v0.28, e um
 ./subir.sh "o que mudou"
 ```
 
-Ele roda **os dezessete validadores** — os catorze de `03-mecanica/`, o `conferir-repositorio.py` e os dois do manual —, mostra o que mudou, commita e dá push — e **se recusa a commitar se algum falhar**. Desde a v0.33 isso inclui uma trava nova: **subir a versão no README, no `ESTADO-ATUAL` ou no `LEIA-ME` sem escrever a entrada do `CHANGELOG` falha o `conferir-repositorio.py`.** A entrada do topo do CHANGELOG é o dono da versão do projeto. Um commit que registra regra quebrada é pior que nenhum commit: daqui a três versões ninguém sabe em qual commit ela entrou.
+Ele roda **os dezoito validadores** — os quinze de `03-mecanica/`, o `conferir-repositorio.py` e os dois do manual —, mostra o que mudou, commita e dá push — e **se recusa a commitar se algum falhar**. Desde a v0.33 isso inclui uma trava nova: **subir a versão no README, no `ESTADO-ATUAL` ou no `LEIA-ME` sem escrever a entrada do `CHANGELOG` falha o `conferir-repositorio.py`.** A entrada do topo do CHANGELOG é o dono da versão do projeto. Um commit que registra regra quebrada é pior que nenhum commit: daqui a três versões ninguém sabe em qual commit ela entrou.
 
 Se a mensagem for longa, o assistente deixa ela pronta em `mensagem-de-commit.txt` e você roda `./subir.sh` sem argumento — ele usa o arquivo e apaga depois.
 

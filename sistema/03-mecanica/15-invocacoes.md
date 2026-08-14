@@ -1,8 +1,11 @@
-# RASCUNHO — Invocações
+# 15 — Invocações
 
-**Isto é o planejamento da peça, não a peça.** Levantamento engatilhado: o que já está travado, o que a pesquisa externa achou, e as perguntas na ordem em que uma trava a outra. Sem número no nome de propósito — meia peça não é peça, e um arquivo com dois dígitos na frente quebraria a contagem de catorze por catorze.
+**Fase 4, décima quinta peça.** O sistema de criação de invocação: iniciativa, o modelo da Matilha, a ficha, o custo, a morte, o retorno e o catálogo. O validador dono é o `conferir-invocacoes.py`, com as trinta checagens do §5.
+Versão v0.58 — 14/08/2026
 
-Escrito na **v0.50**, quando a fila foi reordenada. **A Q1, a Q2, a Q3, a Q4 e a Q5 fecharam depois**, e o argumento inteiro está no §3.1 ao §3.6. **Na v0.53 o catálogo foi escrito entrada por entrada e a amarra ganhou número** — o catálogo está no §3.7 e a amarra no §3.6. Ele vira a peça 15 quando fechar — e só aí ganha número no nome, junto com o validador dono dela e com a contagem subindo nos três documentos ao mesmo tempo.
+> **O nome é decisão escrita, e não descuido.** `Invocação` sai **OCUPADO** na triagem: é **Tema** do manual, no grupo *Criação* do catálogo do apêndice. Tema não carrega mecânica — o próprio manual diz isso na abertura da Descrição —, então o choque é de vocabulário e não de regra. **O Tema e esta peça são coisas diferentes:** um é rótulo de sabor pendurado numa técnica, a outra é a máquina que põe um corpo no campo. O §4 tem a triagem inteira, com os dois nomes que saíram livres.
+
+Aberta como rascunho na **v0.50**, quando a fila foi reordenada. A Q1 à Q5 fecharam entre a v0.51 e a v0.53; o catálogo foi escrito entrada por entrada na v0.53; a amarra ganhou número na v0.53 e as faixas de alcance na v0.55; a fórmula de vida ganhou o termo de tipo e o retorno fechou na v0.57. **Na v0.58 o validador entrou, e foi aí que ela deixou de ser meia peça.** A Q6 continua aberta e é da peça de Trilhas — o §3 diz o que ela ainda deve e o que já não deve mais.
 
 ---
 
@@ -630,7 +633,9 @@ Com a Q4 fazendo **comandar custar a ação padrão**, *"de quão longe dá para
 
 **A metragem entre parênteses é referência e não regra** — quem decide onde a cena acaba é o mestre, que já decide isso o tempo todo. *É o mesmo formato que a peça 10 usou para não ter relógio de horas: "gatilho de ficção — a luta acabou, a missão acabou — dois mestres arbitram igual".*
 
-> **E o gate do país é o primeiro de todo o catálogo.** *Decisão do Mizuki:* alcance de país exige **Restrição Celestial pelo ramo do corpo limitado** e uma **técnica voltada a isso** — que é o Ultimate Mechamaru inteiro, sem regra especial nenhuma. **Nenhum `Traço` ou `Comando` tem requisito hoje**, então esta é máquina nova aqui — mas ela não é nova no projeto: a peça 11 §5 manda **cada aptidão declarar o gate dela**, e os formatos permitidos lá são *nenhum, só nível, só refino, ou os dois*. **Este é de Origem, que é um quarto formato**, e ele precisa de decisão escrita antes de a peça fechar.
+> **E o gate do país é o primeiro de todo o catálogo.** *Decisão do Mizuki:* alcance de país exige **Restrição Celestial pelo ramo do corpo limitado** e uma **técnica voltada a isso** — que é o Ultimate Mechamaru inteiro, sem regra especial nenhuma. **Nenhum outro `Traço` ou `Comando` tem requisito**, e é por isso que ele precisou de formato: a peça 11 §5 manda **cada aptidão declarar o gate dela**, e até a v0.57 os formatos permitidos lá eram três — *nenhum, só nível, só refino, ou os dois*. **O de Origem é um quarto formato, e ele foi escrito na peça 11 §5 na v0.58**, que é o documento dono dos formatos de gate. Esta peça aponta para lá em vez de repetir a definição.
+
+> **E o quarto formato nasceu com trava.** A checagem 26 do `conferir-invocacoes.py` confere que **nenhuma outra entrada do catálogo tem requisito**. Se uma segunda aparecer, quer dizer que a régua de degrau do §3.7 parou de precificar sozinha — e isso tem de ser decisão e não descuido.
 
 ### O orçamento cresce, e crescer não deriva
 
@@ -696,7 +701,7 @@ E a cadência já existe: **os sete marcos**, que governam atributo, refino e fe
 | **talismã** · **corpo amaldiçoado** | **1** | 5 | 21 | 37 | 61 |
 | **técnica** | **2** | 6 | 22 | 38 | 62 |
 | **maldição domada** | **3** | 7 | 23 | 39 | 63 |
-| *alvo — meia Rotina* | | *6,5* | *22,5* | *38,5* | *63,0* |
+| *alvo — meia Rotina* | | *6,5* | *22,5* | *40,5* | *63,0* |
 
 **Só a base varia, e o por-nível é igual nos quatro. Isso é a mesma decisão do §3.3 sobre o acerto:** base diferente é **deslocamento fixo**, e deslocamento fixo não deriva. Por-nível diferente faria os quatro tipos **derivarem um do outro** ao longo da campanha, que é a coisa que a trava proíbe.
 
@@ -868,11 +873,15 @@ Rodada a triagem antes de escrever qualquer coisa:
 | `Servo` · `Matilha` · `Coro` | **OCUPADO** — já são Trilhas do Evocador |
 | `Coleira` · `Convocação` | LIVRE |
 
-**Não é impeditivo, e é preciso saber por quê.** Tema do manual não carrega mecânica, então o choque é de vocabulário e não de regra — mas a lição nº 4 manda checar nas duas direções antes de batizar, e o `conferir-nomes.py` compara literal. **Se a peça se chamar Invocações, isso tem que ser decisão escrita e não descuido**, com uma linha dizendo que o Tema e a peça são coisas diferentes. As duas livres estão anotadas aqui só para não se perderem; a escolha é do Mizuki.
+**Não é impeditivo, e é preciso saber por quê.** Tema do manual não carrega mecânica, então o choque é de vocabulário e não de regra — mas a lição nº 4 manda checar nas duas direções antes de batizar, e o `conferir-nomes.py` compara literal. **Decidido na v0.58: a peça se chama Invocações**, com a linha da abertura dizendo que o Tema e a peça são coisas diferentes. O que pesou foi custo de troca contra tamanho da colisão: o nome já está em **17 citações** no `ESTADO-ATUAL`, **61** no `CHANGELOG` e **13** na peça 6, e a v0.50 decidiu por escrito que histórico de CHANGELOG não se reescreve — trocar deixaria noventa e tantas linhas falando de uma peça com outro nome, para consertar um choque com um rótulo que não tem mecânica. **`Coleira` e `Convocação` ficam anotadas aqui**, livres, caso um dia façam falta.
 
-## 5. O que o validador vai precisar ter
+## 5. O que o validador confere
 
-Anotado agora porque é mais barato do que descobrir depois — e porque a peça 14 gastou três versões com uma frase dizendo que o validador dela não podia ser escrito.
+**São trinta checagens, e elas moram no `conferir-invocacoes.py`.** A lista abaixo é a especificação delas: cada item diz o que se confere, de qual documento o número é lido, e — onde faz sentido — qual perturbação tem de acender aquela checagem e só ela.
+
+*Ela foi escrita antes do validador, e é por isso que ele coube numa versão só.* A peça 14 gastou três versões com uma frase dizendo que o validador dela não podia ser escrito, e a premissa daquela frase tinha morrido três versões antes.
+
+> **O arnês de perturbação obedece às três regras:** cópia isolada, base conferida verde **antes** de perturbar, e `diff` provando que a perturbação bateu antes de alguém ler o resultado. **As trinta acendem a checagem certa**, e três delas acendem um par ou um trio declarado — que é o que acontece quando duas checagens leem o **mesmo dono** e é mais honesto declarar do que fingir isolamento. Mais dois contra-testes que não podem acender nada, e não acendem.
 
 - **O teto da Rotina somada**, derivado da peça 6 §4 e nunca lido de constante — a lição nº 8 na forma que já apareceu três vezes.
 - **Dominância entre as três Trilhas**, com a matriz rodando por quantidade de corpos.
@@ -903,7 +912,7 @@ Anotado agora porque é mais barato do que descobrir depois — e porque a peça
 - **Nenhuma entrada do catálogo pode comprar linha que já é deslocamento.** Defesa, acerto e vida são a moeda do §3.6; um `Traço` que dê qualquer um dos três é preço duplo pela mesma coisa. **Perturbar uma entrada para dar `+1` de Defesa tem de acender.**
 - **A contagem do catálogo, conferida contra o que o documento afirma.** Hoje são **19 compráveis** mais o `Investir` a 0 — 13 `Traço` e 6 `Comando`. *A peça 13 já pagou por isso: as contas do rascunho dela envelheceram duas vezes dentro do próprio arquivo antes de o validador existir.* A checagem recalcula e falha se o escrito não bater com o contado.
 - **A busca exaustiva rodada por degrau de orçamento, e o número esperado escrito antes.** No nv30, com orçamento 9 e gasto exato, o catálogo entrega **21.502 montagens cheias**, todas com assinatura distinta, **zero dominadas**, e a maior delas usa **9 das 19 entradas — 47%**. *Antes da passada dos três tipos eram **1.126** montagens em 13 entradas, e a maior consumia **62%** do catálogo.* Se alguma entrada nova puxar esse consumo para cima outra vez, é sinal de que ela não acrescentou eixo, só volume.
-- **Vender deslocamento não tem piso, e isso é decisão e não esquecimento.** Medido: mesmo vendendo **−5 de Defesa**, o pool da Matilha ainda põe **20% a 27%** da vida da mesa em campo, contra os **6% a 9%** da Rotina que a peça 14 §4 diz que uma Trilha inteira vale. **Ela se limita sozinha no valor.** A checagem afirma isso em vez de supor: perturbar o câmbio do §3.3 tem de fazer o piso passar a ser necessário e acender.
+- **Vender deslocamento não tem piso, e isso é decisão e não esquecimento.** Medido: mesmo vendendo **−5 de Defesa**, o pool da Matilha ainda põe **1,56 Rotina** de presença em campo, contra os **6% a 9%** da Rotina que a peça 14 §4 diz que uma Trilha inteira vale — **17×**. **Ela se limita sozinha no valor.** A checagem afirma isso em vez de supor: perturbar o câmbio do §3.3 tem de fazer o piso passar a ser necessário e acender.
 
 ## 6. O que esta peça destrava
 

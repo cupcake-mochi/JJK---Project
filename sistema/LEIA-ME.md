@@ -9,7 +9,7 @@ Sistema de RPG de mesa em desenvolvimento, ambientado no universo de Jujutsu Kai
 | `00-fundacao/` | Pitch de design e decisões que valem para o projeto inteiro |
 | `01-pesquisa/` | Dossiê de metodologia, referências e análise do espaço de design |
 | `02-esqueleto/` | Arquitetura do sistema: subsistemas, como se conectam, o que cada um resolve |
-| `03-mecanica/` | As peças de regra, numeradas na ordem em que foram escritas, e os catorze validadores |
+| `03-mecanica/` | As peças de regra, numeradas na ordem em que foram escritas, e os quinze validadores |
 | `04-playtest/` | Roteiro de teste, formulários e retorno organizado por tema |
 | `05-material/` | A **ficha de personagem** e o gerador dela. Falta o quick-start e o livro |
 | `99-arquivo/` | **Material morto.** Nada aqui é regra corrente — ver o `LEIA-ME.md` de lá |
@@ -42,7 +42,7 @@ A pasta `skills/` guarda a versão com arquivos separados. A versão instalada t
 
 ## Versão atual
 
-**v0.57.** Fases 0 a 3 fechadas; a Fase 4 (mecânica) está em andamento com **catorze peças escritas e catorze validadores passando**. O manual do Fundamento está na **v7.8**, e ele é um subsistema fechado — a técnica e o feitiço já funcionam. O `.pdf` continua na v7.4, porque é exportado à mão.
+**v0.58.** Fases 0 a 3 fechadas; a Fase 4 (mecânica) está em andamento com **quinze peças escritas e quinze validadores passando**. O manual do Fundamento está na **v7.8**, e ele é um subsistema fechado — a técnica e o feitiço já funcionam. O `.pdf` continua na v7.4, porque é exportado à mão.
 
 **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas**, por seis das nove rotas de Origem. Desde a v0.32 não sobrou peça de regra travando ninguém nessa faixa: das dezessete coisas que uma ficha de nível 2 precisa, **treze existem, e as quatro que faltam não mordem nessa faixa**. O que falta para as outras três rotas, e a ordem do resto, está no `ESTADO-ATUAL.md`.
 
@@ -59,11 +59,13 @@ cd sistema/03-mecanica && python3 conferir-nomes.py
 
 **Rode de `03-mecanica/` mesmo assim.** *Até a v0.37 este arquivo dizia que rodar de outro lugar fazia os três pularem checagem — isso era verdade e deixou de ser:* hoje os três resolvem o caminho do `.docx` por `os.path.dirname(os.path.abspath(__file__))`, e de `/tmp` saem com saída idêntica e zero puladas. O hábito fica porque é o que o `subir.sh` faz e é o que o resto da documentação supõe; o que não fica é a justificativa errada.
 
-Os três últimos não leem o manual e não precisam de nada: o `conferir-criacao.py` confere a ficha de exemplo da peça 8 contra as fórmulas das outras peças, o `conferir-ficha.py` confere a ficha de `05-material/` contra os catálogos delas, e o `conferir-legados.py` recalcula a tabela de totais da peça 13 e falha se o escrito não bater com o contado.
+Os quatro últimos não leem o manual e não precisam de nada: o `conferir-criacao.py` confere a ficha de exemplo da peça 8 contra as fórmulas das outras peças, o `conferir-ficha.py` confere a ficha de `05-material/` contra os catálogos delas, o `conferir-legados.py` recalcula a tabela de totais da peça 13 e falha se o escrito não bater com o contado, e o `conferir-invocacoes.py` faz as trinta checagens da peça 15 sem guardar um número sequer dentro dele.
 
 ## A próxima peça
 
-**Invocações**, em `03-mecanica/RASCUNHO-invocacoes.md`. **Cinco das seis perguntas fecharam na v0.51, a v0.52 abriu a criação de `Traço` e `Comando` pelo jogador, e a v0.53 escreveu o catálogo** — 19 entradas compráveis, mais o `Investir` a 0. Fecharam — iniciativa, o modelo da Matilha, a ficha, o custo e a morte. **Falta** o tratamento de Rika e Mahoraga, a fórmula de vida com número por tipo, reconseguir a invocação morta, e o validador.
+**Ferramenta amaldiçoada**, em `03-mecanica/RASCUNHO-ferramenta-amaldicoada.md`. A máquina fechou na v0.55 e o catálogo de `Estigma` na v0.56 — onze entradas. **Falta o validador**, com as dezesseis checagens do §7 daquele documento, e sem ele ela não vira peça: o `conferir-repositorio.py` conta peças contra validadores.
+
+*Invocações saiu desta seção na v0.58*, quando virou a **peça 15** com o `conferir-invocacoes.py` em cima dela.
 
 **A fila foi reordenada na v0.50**, quando as duas peças que a v0.49 destampou ganharam posição: **Invocações → ferramenta amaldiçoada → Trilhas → objeto amaldiçoado**. Só a terceira posição contra a segunda era escolha; o resto a conta fechou. `Servo`, `Matilha` e `Coro` **são** o sistema de invocação, então Invocações trava Trilhas; e `objeto amaldiçoado` foi para o fim porque **destrava zero ficha** — Receptáculo e Reencarnado já rodam hoje.
 

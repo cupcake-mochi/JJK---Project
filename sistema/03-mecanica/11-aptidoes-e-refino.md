@@ -125,7 +125,7 @@ Uma Classe 3 não é "uma Classe 1 maior": é uma coisa de outro formato. **Fare
 
 ## 5. O gate, e por que ele não é só nível
 
-**Cada aptidão declara o próprio requisito: nenhum, só nível, só refino, ou os dois.**
+**Cada aptidão declara o próprio requisito: nenhum, só nível, só refino, ou os dois.** *E, desde a v0.58, existe um quarto formato — **só Origem** —, escrito no fim desta seção.*
 
 A régua herdada das Passivas gateia por **nível** — Classe 1 no 1, Classe 2 no 7, Classe 3 no 13. Sozinha, ela não serve aqui, e a conta mostra por quê: com gate só de nível, **quem escolhe refino uma vez, no nível 26, compra uma Classe 3 na hora** — o mesmo acesso de quem investiu seis vezes. A ficção do refino some.
 
@@ -139,6 +139,16 @@ Um gate de refino separa:
 Doze níveis entre o especialista e o generalista, que é o tamanho que *"quase ninguém consegue"* pede.
 
 **E guardar marco não guarda refino.** A rota que espera — atributo cedo, refino tarde — não domina, porque o refino passivo sobe sozinho e ela chega ao nível 22 com refino 5, ainda precisando de outro marco para alcançar o 7. Ela troca quatro aptidões por quatro pontos de atributo, e as três que sobram são Classe 3. É a mesma escolha por outro caminho, não um atalho.
+
+### O quarto formato: gate de Origem
+
+*Escrito na v0.58, quando a peça 15 precisou de um e não tinha onde declará-lo.* Os três formatos acima gateiam por **coisa que se compra** — nível se ganha jogando, refino se ganha escolhendo no marco. Um gate de Origem não: ele pergunta **quem o personagem é**, e isso foi decidido na criação e não muda mais.
+
+> **Um gate de Origem só é legal quando o efeito não faz sentido nenhum fora daquela Origem.** Não é para tornar caro; é para dizer que o resto da ficha não tem onde pendurar aquilo.
+
+**Ele é raro de propósito, e o teste é o filtro multi-mestre.** Nível e refino dois mestres leem igual, porque estão escritos na ficha e crescem. Origem é um rótulo — se ela virar moeda de preço, a criação passa a ser escolhida por quais gates ela destrava, e a Origem deixa de ser ficção para virar árvore de talento. **Então ele não se usa para precificar: se o efeito couber num degrau da régua da peça que o publica, é ali que ele mora, e o gate não entra.**
+
+**O primeiro e único exemplar hoje é o `Remoto` da peça 15 §3.7**, na faixa *fora da cena*: alcance de país exige **Restrição Celestial pelo ramo do corpo limitado** e uma técnica voltada a isso, que é o Ultimate Mechamaru sem regra especial nenhuma. **O validador daquela peça confere que ele continua sendo o único** — um segundo gate no catálogo quer dizer que a régua de degrau parou de precificar sozinha.
 
 ## 6. O catálogo — as que têm número
 
