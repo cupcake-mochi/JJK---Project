@@ -4,7 +4,15 @@
 
 Escrito na **v0.54**, com o Mizuki fora. **Nenhuma Trilha é escrita aqui.** O que está aqui é: o que já está travado, o que a conta já responde, o problema de escala com número, e as perguntas na ordem em que uma trava a outra.
 
-**Na v0.55 a Q1 e a Q4 fecharam** — sem multiclasse, e as subtrilhas cruzam Trilhas do mesmo Caminho. **Sobram a Q2, a Q3 e a Q5**, e a Q3 é a que decide se esta peça custa uma versão ou seis.
+**Na v0.55 a Q1 e a Q4 fecharam** — sem multiclasse, e as entregas de nível alto cruzam Trilhas do mesmo Caminho. **Na v0.60 a Q2 fechou**, junto com o calendário e o fim da palavra `subtrilha`. **Sobram a Q3 e a Q5**, e a Q3 é a que decide se esta peça custa uma versão ou seis.
+
+> **Duas coisas deste documento estavam erradas e foram corrigidas na v0.60. Leia isto antes do §2.**
+>
+> **1. A tabela de progressão do §2.1 omitiu a escada de Classe.** Uma **Classe nova de feitiço** cai nos níveis **5, 9, 13, 17 e 21** — cinco dos catorze ímpares —, e ela é a maior entrega isolada do sistema. Os níveis que não entregam nada são **nove**, não catorze: `3 · 7 · 11 · 15 · 19 · 23 · 25 · 27 · 29`.
+>
+> **2. E por isso a recomendação de `2, 10, 18, 26` do §3 caiu pelo próprio argumento dela.** Aqueles são os **quatro níveis mais cheios do sistema**: o nv26 entrega quatro coisas ao mesmo tempo — Classe 7, maestria, dois feitiços e marco —, o nv10 e o nv18 entregam três. O §2.1 cita o D&D 2024 justamente por ele *"não empilhar presente no mesmo nível"*, e a recomendação empilhava em todos.
+>
+> *A Rotina do §2.2 também mudou: o `126` do nível 30 era leitura da coluna errada do manual, e o valor é `108`. O dono é o manual, e a checagem 4d do `conferir-manual.py` passou a conferir isso.*
 
 ---
 
@@ -63,9 +71,9 @@ A peça 14 §4 registra a dívida da Trilha da Vanguarda como *"de 6% a 9% da Ro
 |---|---|---|---|---|
 | 2 | 13 | 0,8 | 1,2 | 2,4 a 3,5 |
 | 10 | 45 | 2,7 | 4,0 | 8,2 a 12,3 |
-| **30** | **126** | **7,6** | **11,3** | **22,9 a 34,4** |
+| **30** | **108** | **6,5** | **9,7** | **19,6 a 29,5** |
 
-> **Uma Trilha que entregue tudo no nível 2 paga a dívida naquele nível e vale `0,9%` da Rotina no nível 30.** É o mesmo formato de falha que o §2.1 do rascunho de ferramenta mediu no ponto de arma: **valor absoluto contra alvo que cresce.**
+> **Uma Trilha que entregue tudo no nível 2 paga a dívida naquele nível e vale `1,1%` da Rotina no nível 30.** É o mesmo formato de falha que o §2.1 do rascunho de ferramenta mediu no ponto de arma: **valor absoluto contra alvo que cresce.**
 
 **Então "quantas entregas por Trilha" não é pergunta de gosto — o mínimo é mais de uma, e a conta é quem diz.** *O que continua sendo escolha é quantas a mais.*
 
@@ -106,7 +114,26 @@ Quinze Trilhas multiplicam tudo. **Este é o custo real, medido contra o que est
 
 **Q1 — FECHADA na v0.55.** *Decisão do Mizuki:* **Caminhos não se misturam — não existe multiclasse neste sistema.** Uma Trilha por ficha, e a pendência nº 3 do `ESTADO-ATUAL`, aberta desde a v0.22, fecha com ela. **Isso mata as 105 combinações** que eu tinha orçado como o maior risco de matriz da peça.
 
-**Q2 — Quantas entregas por Trilha, e em que níveis?** O §2.2 já diz que **mais de uma**, e o §2.1 diz **onde cabem**. O que decide é o §2.3 — quanto custa escrever. *Recomendação de método, e só de método: comece por **4** (níveis 2, 10, 18, 26), que é a densidade do D&D 2024 ajustada para 29 níveis, cai em nível de marco e dá 60 entradas — a ordem de grandeza que a peça 13 fechou em uma versão.*
+**Q2 — FECHADA na v0.60.** *Decisão do Mizuki, depois de a conta derrubar a recomendação antiga de `2, 10, 18, 26`.*
+
+> **Entrega de Trilha nos níveis `2 · 11 · 19 · 27`. Entrega de Caminho nos níveis `7 · 15 · 23 · 29`.**
+> **80 entradas** — `4 × 15` de Trilha mais `4 × 5` de Caminho — e **405 montagens legais**.
+
+**Os dois degraus não são conceito novo:** a peça 6 §3.1 já escreve *"Bastião e Vanguarda ganham ataque extra no nível 6, **pelo Caminho**; Arremate e Coro ganham **pela Trilha**"*. O que a v0.60 fez foi transformar a distinção existente em calendário.
+
+**E ela resolveu um empate que oito entregas de Trilha não resolviam.** Com seis entregas, todas de Trilha, é impossível ter as duas coisas boas ao mesmo tempo:
+
+| calendário | maior vão da Trilha | pior seca, em missões |
+|---|---|---|
+| `2, 7, 11, 19, 25, 29` | **8** | 27 |
+| `2, 7, 11, 15, 19, 25` | 6 | **37** |
+| **misto — T `2,11,19,27` · C `7,15,23,29`** | **5** | **24** |
+
+O misto entrega os dois **e** custa dez entradas a menos, com uma matriz de dominância **nove vezes menor** — porque um degrau de Caminho é igual para as três Trilhas dele e não multiplica nada.
+
+> **A seca foi medida em missão e não em nível**, pela curva da peça 12, porque é a unidade que o jogador sente. Hoje o vão `nv26 → nv30` são **37 missões** sem nada que se escolha, e é o maior da campanha inteira — a seca deste sistema é **no topo**, e não no meio.
+
+*Levantamento externo que decidiu o tamanho do vão:* o problema chama **dead level** no hobby. O D&D 3.5 o remendou com dois artigos de errata em 2007; o Pathfinder 2e o proíbe por princípio declarado; o 4e pagou o oposto, com ficha de nove páginas. **E o 5e de 2014 tinha vãos de 8 entre feitos de subclasse — Paladino `3·7·15·20`, Feiticeiro `1·6·14·18`, Bardo `3·6·14` — que a edição de 2024 tirou todos**, padronizando em `3, 6, 10, 14`.
 
 **Q3 — A régua, e ela vem ANTES do catálogo.** É a lição da peça 13 contra a peça 14, e é a única recomendação deste documento que não é de sabor. A régua de Trilha tem de dizer, antes de qualquer entrada existir:
 
@@ -114,9 +141,13 @@ Quinze Trilhas multiplicam tudo. **Este é o custo real, medido contra o que est
 - **quanto** ela vale, contra os `6%` a `9%` da Rotina
 - **o que ela não pode ser** — dado de dano (peça 5 §4), nada que cresça com refino (peça 11 §2), e nenhuma ação a mais por rodada sem pagar na economia de ação (peça 6 §4)
 
-**Q4 — FECHADA na v0.55, e ela devolve metade do que a Q1 tinha economizado.** *Decisão do Mizuki:* **as subtrilhas existem, e elas cruzam Trilhas do mesmo Caminho** — o Bastião pega uma subtrilha de `Muro` e uma de `Punho`, e nunca uma do Guia.
+**Q4 — FECHADA na v0.55, e ela devolve metade do que a Q1 tinha economizado.** *Decisão do Mizuki:* **as entregas de nível alto cruzam Trilhas do mesmo Caminho** — o Bastião pega uma do `Muro` e uma do `Punho`, e nunca uma do Guia.
 
-> **A árvore, fechada:** `Caminho` (5, exclusivo) → `Trilha` (3 por Caminho) → `subtrilha` (**cruza as três Trilhas do Caminho**).
+> **A árvore, fechada — e são DUAS camadas, não três:**
+> **`Caminho`** (5, exclusivo, escolhido na criação) → **`Trilha`** (3 por Caminho, escolhida no nv2).
+> No nível **2** você pega a entrega da **sua** Trilha. Nos níveis **11, 19 e 27** você pega a de **qualquer** Trilha do seu Caminho.
+
+> **A palavra `subtrilha` morreu na v0.60, e a mecânica ficou inteira.** *Decisão do Mizuki, e o motivo foi ele mesmo se perder lendo a árvore — que é o teste que importa.* `Caminho → Trilha → subtrilha` fazia parecer **três andares** quando são **dois com um empréstimo**: a coisa que você pega no nível 11 não é uma camada abaixo da Trilha, é a **mesma camada**, tirada de um vizinho do mesmo Caminho.
 
 **O que isso custa está medido, e é o número que a régua tem de aguentar:** a matriz de dominância deixa de varrer as 15 Trilhas e passa a varrer **as combinações de subtrilha dentro de cada Caminho**. E a pergunta aberta desde a v0.24 muda de forma: *"o Guia contra a Vanguarda"* vira ***"esta combinação de Guia contra aquela combinação de Vanguarda"***. **A régua (Q3) tem de nascer sabendo disso** — ela não está precificando quinze coisas exclusivas, está precificando peças que se somam dentro do Caminho.
 

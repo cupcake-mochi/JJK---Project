@@ -16,7 +16,7 @@ Três coisas chegam prontas. Elas não são ponto de partida para conversa — s
 > **Você e todas as suas invocações somados entregam uma Rotina.**
 > Com uma invocação, cada um entrega metade. Com três, cada um entrega um quarto.
 
-Isso é a **peça 6, seção 4**, e o argumento por trás dela está escrito lá com a tabela: uma invocação que age sozinha **dobra** o dano por rodada, três **quadruplicam**, e no nível 30 a horda chega a `504` contra uma Rotina de `126`. A peça 6 fecha dizendo que isso **não tem conserto por preço** — não é recurso, é economia de ação.
+Isso é a **peça 6, seção 4**, e o argumento por trás dela está escrito lá com a tabela: uma invocação que age sozinha **dobra** o dano por rodada, três **quadruplicam**, e no nível 30 a horda chega a `432` contra uma Rotina de `108`. A peça 6 fecha dizendo que isso **não tem conserto por preço** — não é recurso, é economia de ação.
 
 As outras duas:
 
@@ -326,9 +326,9 @@ Foi a pergunta do Mizuki que abriu isto: *"tem que ter algo que a ficha da invoc
 |---|---|---|---|
 | 2 | 16 | 13 | **1,2** |
 | 10 | 72 | 45 | 1,6 |
-| 30 | 212 | 126 | 1,7 |
+| 30 | 212 | 108 | 2,0 |
 
-O Evocador é o Caminho de **menor vida do sistema**, empatado com o Emanador. Sozinho ele já aguenta 1,2 a 1,7 rodadas de foco; com cinco invocações bebendo da mesma barra, ele não fecha a primeira rodada em nível nenhum. **O PF2e pode compartilhar porque lá é classe de vida média e *um* eidolon.**
+O Evocador é o Caminho de **menor vida do sistema**, empatado com o Emanador. Sozinho ele já aguenta 1,2 a 2,0 rodadas de foco; com cinco invocações bebendo da mesma barra, ele não fecha a primeira rodada em nível nenhum. **O PF2e pode compartilhar porque lá é classe de vida média e *um* eidolon.**
 
 E o argumento que fecha não é o de vida: **pela peça 6 §4 o produto que a Matilha vende é corpo que absorve golpe.** Fazer esse corpo gastar a vida do dono é vender o produto cobrando nele mesmo.
 
@@ -348,9 +348,9 @@ E o argumento que fecha não é o de vida: **pela peça 6 §4 o produto que a Ma
 |---|---|---|---|
 | 2 | 6,5 | 6,5 | +15% de vida |
 | 10 | 22,5 | 2,5 | **+40%** |
-| 30 | 63,0 | 2,2 | **+46%** |
+| 30 | 54,0 | 1,9 | **+54%** |
 
-De **1,4× a 4,2×** um ponto de Defesa. **Ou ela entra com preço próprio, ou a base por nível é grande o bastante para ela não dominar** — que é a mesma conta que a peça 1 fez no Caminho com *"a média dos dados mais 3 de Constituição ≈ 8"*.
+De **1,4× a 4,9×** um ponto de Defesa. **Ou ela entra com preço próprio, ou a base por nível é grande o bastante para ela não dominar** — que é a mesma conta que a peça 1 fez no Caminho com *"a média dos dados mais 3 de Constituição ≈ 8"*.
 
 ### A forma: orçamento de pontos, com três montagens prontas
 
@@ -690,7 +690,9 @@ E a cadência já existe: **os sete marcos**, que governam atributo, refino e fe
 
 *Fechada na v0.57, e o termo estava vazio desde que a Q3 fechou — uma fórmula com termo vazio parece pronta e não é.*
 
-**O alvo não era livre:** a Q2 fixou um corpo em **meia Rotina** e a Q5 fixou o pool da Matilha em `5h`. Resolvendo os dois pontos ancorados — `h(2) = 6,5` e `h(30) = 63` — sai `por nível = 2,02` e `base = 2,46`. **Arredondando para número de mesa: base 2, por nível 2.**
+**O alvo não era livre:** a Q2 fixou um corpo em **meia Rotina** e a Q5 fixou o pool da Matilha em `5h`. Resolvendo os dois pontos ancorados — `h(2) = 6,5` e `h(30) = 54` — sai `por nível ≈ 1,7` e `base ≈ 3,1`. **Arredondando para número de mesa: base 2, por nível 2.**
+
+> **O `h(30)` desta linha era `63` até a v0.60, e o número vinha de a peça 6 §3 estar lendo a coluna errada do manual.** Com a coluna `Rotina` de verdade, o alvo do nível 30 é `54`. **A fórmula não se moveu, e o motivo é a forma do alvo:** a Rotina é **escada por Classe**, não reta, e uma reta ajustada a uma escada passa por baixo no pé de cada degrau e por cima no topo. O `+15%` do nível 30 é o topo do degrau `26–30`, que é o **mais largo da tabela** — e ele é menor que o `+16%` do nível 8 e do nível 12, que esta peça já aceitava calada. *O ajuste sempre foi contra uma escada; o que estava errado era o último degrau dela.*
 
 > **`vida = base do tipo + (2 + a Constituição dela) × nível do dono`**
 
@@ -701,7 +703,7 @@ E a cadência já existe: **os sete marcos**, que governam atributo, refino e fe
 | **talismã** · **corpo amaldiçoado** | **1** | 5 | 21 | 37 | 61 |
 | **técnica** | **2** | 6 | 22 | 38 | 62 |
 | **maldição domada** | **3** | 7 | 23 | 39 | 63 |
-| *alvo — meia Rotina* | | *6,5* | *22,5* | *40,5* | *63,0* |
+| *alvo — meia Rotina* | | *6,5* | *22,5* | *38,0* | *54,0* |
 
 **Só a base varia, e o por-nível é igual nos quatro. Isso é a mesma decisão do §3.3 sobre o acerto:** base diferente é **deslocamento fixo**, e deslocamento fixo não deriva. Por-nível diferente faria os quatro tipos **derivarem um do outro** ao longo da campanha, que é a coisa que a trava proíbe.
 

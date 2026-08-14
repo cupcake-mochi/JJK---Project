@@ -95,8 +95,8 @@ A coluna Rotina do Fundamento **já é "feitiço + Classe 0"**. O conjurador sem
 |---|---|---|---|
 | 2 | 13 | 18 | 22 |
 | 10 | 45 | 45 | 50 |
-| 18 | 81 | 72 | 78 |
-| 30 | 126 | 99 | 106 |
+| 18 | 76 | 72 | 78 |
+| 30 | 108 | 99 | 106 |
 
 **A correção:** o golpe canalizado **não soma arma nem Força**. Ele *é* o feitiço; arma e Força são o que você faz quando **não** canaliza. Se o canalizado somasse os dois e ainda houvesse ataque extra:
 
@@ -104,7 +104,7 @@ A coluna Rotina do Fundamento **já é "feitiço + Classe 0"**. O conjurador sem
 |---|---|---|---|
 | 2 | 13 | 30 | **+135%** |
 | 10 | 45 | 60 | **+32%** |
-| 18 | 81 | 88 | +9% |
+| 18 | 76 | 88 | +16% |
 
 Então a regra fica em três linhas, e ela espelha a regra de ouro nº 6 do Fundamento:
 
@@ -128,8 +128,10 @@ O nível 6 é o primeiro marco, e é onde o resto do sistema já entrega coisa.
 |---|---|---|---|
 | 2 | 13 | 21 · **+61%** | 22 · +69% |
 | 10 | 45 | 55 · **+22%** | 50 · +11% |
-| 18 | 81 | 90 · **+11%** | 78 · −4% |
-| 30 | 126 | 127 · +1% | 106 · −16% |
+| 18 | 76 | 90 · **+18%** | 78 · +3% |
+| 30 | 108 | 127 · **+18%** | 106 · −2% |
+
+> *As duas últimas linhas mudaram na v0.60, e elas mudaram a favor desta decisão.* A coluna Rotina desta peça vinha lendo **81** e **126**, que não são a coluna `Rotina` do manual — são `Feitiço num alvo` da Classe 6 e `Somando alvos` da Classe 7. Com os números certos, **somar não afrouxa no topo: ele fica em +18% do nível 18 ao 30**. A tabela antiga mostrava **+1%** no nível 30, que é o número mais fraco possível para o argumento que esta seção usa — *a decisão estava certa e a conta que a sustentava estava lendo a coluna errada.*
 
 Trocando, o conjurador de perto cai exatamente na linha do físico, que esta seção já aprovou. Somando, ele vira a terceira ação por rodada — e a seção 4, logo abaixo, prova que ação a mais por rodada não tem conserto por preço. Pior: o **único** argumento que aprova o ataque extra é que a Rotina já é "feitiço + Classe 0". Somar quebra o espelho que o argumento usa.
 
@@ -144,8 +146,8 @@ Este é o risco maior do pacote inteiro, e ele não tem conserto por preço.
 | nível | Rotina do dono | + 1 invocação que age | + 3 (horda) |
 |---|---|---|---|
 | 10 | 45 | 90 | 180 |
-| 20 | ~99 | 198 | 396 |
-| 30 | 126 | 252 | **504** |
+| 20 | 76 | 152 | 304 |
+| 30 | 108 | 216 | **432** |
 
 **Uma invocação que age sozinha dobra o dano por rodada. Uma horda de três quadruplica.** Nenhum preço em PE conserta isso, porque o problema não é recurso — é **economia de ação**. Mais corpos agindo por rodada é a coisa que quebra todo sistema d20, sem exceção.
 

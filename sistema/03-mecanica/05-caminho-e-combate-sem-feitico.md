@@ -46,10 +46,10 @@ Rodando a conta:
 |---|---|---|---|
 | 2 | 13 | 8,5 | 1,5× |
 | 10 | 45 | 9,5 | 4,7× |
-| 20 | ~99 | 10,5 | 9,4× |
-| 30 | 126 | 11,5 | 11× |
+| 20 | 76 | 10,5 | 7,2× |
+| 30 | 108 | 11,5 | 9,4× |
 
-**Uma arma entrega entre 7% e 65% do que a coluna pede, e a diferença cresce.** Não é escolha de dado: trocar d6 por d12 muda três pontos numa lacuna de cem. Falta uma ordem de grandeza inteira.
+**Uma arma entrega entre 11% e 65% do que a coluna pede, e a diferença cresce.** Não é escolha de dado: trocar d6 por d12 muda três pontos numa lacuna de cem. Falta uma ordem de grandeza inteira.
 
 Nenhuma quantidade de requisito de Força, nenhuma tabela de arma e nenhum ajuste de dado conserta isso. O combatente físico precisa de outra coisa.
 

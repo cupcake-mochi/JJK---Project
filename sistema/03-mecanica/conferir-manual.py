@@ -376,6 +376,106 @@ if ok_num:
 
 
 # --------------------------------------------------------------------------
+# 4d. A ROTINA POR NIVEL DA PECA 6 SS3 CONTRA A COLUNA DO MANUAL
+#
+# Escrita na v0.60, e ela existe por um vao que a 4c acima NAO cobre.
+#
+# A 4c confere a coluna Rotina do .docx contra um dicionario escrito aqui. Ela sai
+# VERDE com a peca 6 publicando qualquer coisa, porque ela nunca abre a peca 6. Foi
+# por esse vao que o 81 e o 126 sobreviveram catorze versoes: os dois moram na MESMA
+# tabela do manual, em OUTRAS colunas — 'Feitico num alvo' da Classe 6 e 'Somando
+# alvos' da Classe 7. Numero que veio da coluna errada da tabela certa passa por
+# qualquer varredura que so procure se o numero existe no manual.
+#
+# NADA DE VALOR FICA ESCRITO AQUI, e isso vale para o mapa tambem: a faixa de nivel
+# de cada Classe sai da coluna 'Nivel' da PROPRIA tabela do manual. Se o manual
+# reagrupar as faixas, esta checagem acompanha sozinha.
+#
+# O QUE TEM DE ACENDER: trocar qualquer Rotina de qualquer tabela da peca 6 por
+# outro numero da mesma linha do manual. Contra-teste: trocar pela Rotina certa de
+# OUTRO nivel tambem tem de acender, senao a checagem so confere "existe no manual".
+print()
+print('  4d. a Rotina por NIVEL da peca 6 SS3 contra a coluna do manual')
+
+_p6 = os.path.join(AQUI, '06-caminhos-e-trilhas.md')
+_t = _tabela_com(['Rotina'])
+if not os.path.exists(_p6):
+    erro('nao achei a peca 6 para conferir a Rotina por nivel')
+elif _t is None:
+    erro('nao achei a coluna Rotina no manual para conferir a peca 6 SS3')
+else:
+    _i_rot = [n for n, c in enumerate(_t.rows[0].cells)
+              if c.text.strip() == 'Rotina']
+    _faixas = []
+    for _r in _t.rows[1:]:
+        _cel = [c.text.strip() for c in _r.cells]
+        _n = re.findall(r'\d+', _cel[0])
+        _m = re.search(r'=\s*(\d+)', _cel[_i_rot[0]]) if _i_rot else None
+        if len(_n) >= 2 and _m:
+            _faixas.append((int(_n[0]), int(_n[1]), int(_m.group(1))))
+
+    def _rotina_do_nivel(nv):
+        for _a, _b, _v in _faixas:
+            if _a <= nv <= _b:
+                return _v
+        return None
+
+    _txt = open(_p6, encoding='utf-8').read()
+    # varre TABELA por TABELA, e so as que declaram Rotina no cabecalho
+    _achados, _cab, _col = [], None, None
+    for _lin in _txt.splitlines():
+        _s = _lin.strip()
+        if not _s.startswith('|'):
+            _cab, _col = None, None
+            continue
+        _cel = [x.strip() for x in _s.strip('|').split('|')]
+        if _cab is None:
+            _r = [n for n, c in enumerate(_cel) if 'Rotina' in c]
+            if _r:
+                _cab, _col = _cel, _r[0]
+            continue
+        if not _cel or not _cel[0].isdigit():
+            continue
+        _m = re.match(r'\**\s*(\d+)', _cel[_col]) if _col < len(_cel) else None
+        if _m:
+            _achados.append((int(_cel[0]), int(_m.group(1))))
+
+    if not _achados:
+        erro('a peca 6 nao publica Rotina por nivel em tabela nenhuma — ou o '
+             'formato mudou, e esta checagem parou de conferir em silencio')
+    else:
+        print(f"    {'nivel':<8}{'peca 6 diz':<13}{'manual, pela faixa':<21}bate?")
+        _vistos = set()
+        for _nv, _val in _achados:
+            _esp = _rotina_do_nivel(_nv)
+            _bate = _esp == _val
+            if (_nv, _val) not in _vistos:
+                _vistos.add((_nv, _val))
+                print(f'    {_nv:<8}{_val:<13}{str(_esp):<21}'
+                      f'{"sim" if _bate else "NAO"}')
+            if not _bate:
+                _onde = []
+                for _r in _t.rows[1:]:
+                    _c = [x.text.strip() for x in _r.cells]
+                    for _j, _x in enumerate(_c):
+                        if _j >= 2 and re.search(rf'=\s*{_val}$', _x):
+                            _onde.append(f'Classe {_c[1]} · coluna "'
+                                         f'{_t.rows[0].cells[_j].text.strip()}"')
+                erro(f'peca 6: no nivel {_nv} ela publica Rotina {_val} e o manual '
+                     f'diz {_esp}. DONO: {DONO["Rotina"][0]}. '
+                     + (f'O {_val} existe no manual, mas em ' + ' e '.join(_onde)
+                        + ('. Coluna certa, LINHA errada.'
+                           if all('"Rotina"' in _o for _o in _onde)
+                           else ' — coluna errada da tabela certa.')
+                        if _onde else
+                        f'O {_val} nao existe em coluna nenhuma daquela tabela.'))
+        if all(_rotina_do_nivel(n) == v for n, v in _achados):
+            print(f'    As {len(_vistos)} linhas de Rotina da peca 6 saem da coluna '
+                  f'certa do manual,')
+            print('    e a faixa de cada Classe foi lida do .docx em vez de escrita aqui.')
+
+
+# --------------------------------------------------------------------------
 print()
 print('=' * 88)
 if FALHAS:

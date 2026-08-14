@@ -30,10 +30,10 @@ O ponto de arma tem valor **absoluto** — `0,33` de dano por rodada, pela régu
 |---|---|---|---|
 | 2 | 13 | 2,5% | **12,7%** |
 | 10 | 45 | 0,7% | 3,7% |
-| 18 | 81 | 0,4% | 2,0% |
-| **30** | **126** | **0,3%** | **1,3%** |
+| 18 | 76 | 0,4% | 2,2% |
+| **30** | **108** | **0,3%** | **1,5%** |
 
-> **No nível 30, dobrar o orçamento inteiro de uma arma de duas mãos vale `1,3%` da Rotina** — contra os **6% a 9%** que a peça 14 §4 diz que uma **Trilha inteira** vale.
+> **No nível 30, dobrar o orçamento inteiro de uma arma de duas mãos vale `1,5%` da Rotina** — contra os **6% a 9%** que a peça 14 §4 diz que uma **Trilha inteira** vale.
 
 A Lança Invertida do Céu não pode valer um sétimo de uma Trilha. *E o inverso morde igual:* no nível 2 os mesmos 5 pontos são **12,7%**, que é mais que uma Trilha inteira. **A régua de magnitude é grande demais embaixo e pequena demais em cima** — é o formato errado, não um número mal escolhido.
 
@@ -47,10 +47,10 @@ A arma comum **não escala**: o dado é fixo e o atributo topa em 6. A Rotina es
 |---|---|---|---|---|
 | 2 | 13 | 12,5 | **96%** | 0,5 |
 | 10 | 45 | 12,5 | 28% | 32,5 |
-| 18 | 81 | 12,5 | 15% | 68,5 |
-| **30** | **126** | **12,5** | **10%** | **113,5** |
+| 18 | 76 | 12,5 | 16% | 63,5 |
+| **30** | **108** | **12,5** | **12%** | **95,5** |
 
-> **Uma ferramenta que tivesse de fechar essa distância precisaria entregar 113 de dano por rodada no nível 30. Isso é o Fundamento inteiro, não é um item.**
+> **Uma ferramenta que tivesse de fechar essa distância precisaria entregar 95 de dano por rodada no nível 30. Isso é o Fundamento inteiro, não é um item.**
 
 Então a divisão de trabalho cai da conta:
 

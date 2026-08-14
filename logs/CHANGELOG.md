@@ -6,6 +6,111 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.60] — 2026-08-14
+
+**A coluna Rotina tinha duas versões no repositório, e a errada era a que quase tudo lia.** Achado abrindo o chat de Trilhas, indo ler o dono do número contra o qual a peça inteira ia ser precificada. A peça 6 §3 publicava `81` no nível 18 e `126` no nível 30 — **e nenhum dos dois é a coluna `Rotina` do manual.** Continuam **dezesseis peças e dezesseis validadores**; o que entrou foi uma checagem nova dentro do `conferir-manual.py`, que é o dono dessa fronteira.
+
+### Achado — os dois números existem no manual, na tabela certa e na coluna errada
+
+*É o que fez o defeito sobreviver.* Uma varredura que pergunte *"esse número está no manual?"* aprova os dois:
+
+| nível | Classe | a coluna `Rotina` diz | a peça 6 dizia | de onde o número saiu |
+|---|---|---|---|---|
+| 2 | 1 | 13 | 13 | — |
+| 10 | 3 | 45 | 45 | — |
+| **18** | 5 | **76** | **81** | `Feitiço num alvo` da **Classe 6** |
+| **30** | 7 | **108** | **126** | `Somando alvos` e `Liberação` da **Classe 7** |
+
+**E o `ESTADO-ATUAL` já dizia quem manda:** *"Rotina — dano por rodada por Classe — **dono: o manual** — ela é a **régua**, não uma medida"*. O `conferir-manual.py` confere essa coluna contra o `.docx` desde a v0.26 **e passava verde**, porque ele nunca abriu a peça 6.
+
+> **Isto desfaz metade da v0.58, e o registro fica porque o erro é instrutivo.** Aquela versão achou três tabelas usando `77` no nível 18 e as corrigiu para `81`, escrevendo que *"o 77 é a interpolação linear entre os 45 do nível 10 e os 126 do nível 30 — conta certa para traçar uma reta, conta errada para uma tabela que já tem dono"*. **O raciocínio estava certo e a tabela consultada era a errada.** O valor certo é `76`, e a interpolação que ela derrubou estava **mais perto** do que a correção que entrou no lugar. *Ir ao dono não basta: é preciso conferir que a coluna lida é a coluna que o dono nomeou.*
+
+### Achado — o conserto fortalece uma decisão que tinha sido tomada com o número fraco
+
+A peça 6 §3.1 rejeita **somar** o golpe (três ações) em favor de **trocar** o Classe 0 (duas ações), e o argumento é que somar vira a terceira ação por rodada. **A tabela que sustentava isso mostrava `+1%` no nível 30** — o número mais fraco possível para aquele argumento, e quem lesse rápido concluiria que somar é inofensivo em campanha alta.
+
+| nível | somar, como estava | somar, com a Rotina certa |
+|---|---|---|
+| 18 | +11% | **+18%** |
+| 30 | **+1%** | **+18%** |
+
+**Somar não afrouxa no topo: ele fica em +18% do nível 18 ao 30.** A decisão estava certa e a conta que a segurava estava lendo a coluna errada.
+
+### Alterado — o que o conserto moveu, documento por documento
+
+| onde | o que mudou |
+|---|---|
+| **peça 5 §2** | a arma contra a Rotina: `~99`→`76` e `126`→`108`, e a lacuna vira `7,2×` e `9,4×`. A frase *"entre 7% e 65%"* vira **11% e 65%** |
+| **peça 6 §3** | as duas tabelas, e o `+9%` do nível 18 vira `+16%` |
+| **peça 6 §3.1** | somar/trocar recalculados, com a nota de que a mudança é a favor da decisão |
+| **peça 6 §4** | a invocação: `~99`→`76` e `126`→`108`. **Dobrar e quadruplicar não se movem** — o argumento é estrutural, e a horda do nível 30 vai de `504` para `432` |
+| **peça 15 §3.3 e §3.6** | o alvo *meia Rotina* no 18 e no 30, e a linha do Evocador que aguenta `2,0` rodadas em vez de `1,7` |
+| **peça 16 §2 e §2.1** | dobrar uma arma de duas mãos vale **`1,5%`** da Rotina no nível 30, e o buraco que a ferramenta teria de fechar é **95** e não 113 |
+| **`ESTADO-ATUAL`, pendência nº 6** | *"no nível 30, 21% e 16% abaixo"* vira **8% e 2%** |
+| **`RASCUNHO-trilhas.md` §2.2** | a dívida da Trilha no nível 30: `6,5` a `9,7` |
+
+### Decidido — a fórmula de vida da invocação NÃO muda, e o motivo é a forma do alvo
+
+O alvo *"meia Rotina"* no nível 30 caiu de `63,0` para `54,0`, e a v0.57 tinha resolvido a fórmula em dois pontos ancorados, um deles ali. Refeita a conta, o por-nível sai **`1,70`** em vez de `2,02` — **e `1,7` não é número de mesa.** Mantendo o `2`, a invocação do nível 30 fica `+15%` acima do alvo.
+
+**Isso parece deriva e não é.** A Rotina é **escada por Classe**, não reta, e uma reta ajustada a uma escada passa por baixo no pé de cada degrau e por cima no topo:
+
+| degrau da Rotina | largura | no pé | no topo |
+|---|---|---|---|
+| nv5–8 | 4 | −23% | **+16%** |
+| nv9–12 | 4 | −11% | **+16%** |
+| nv17–20 | 4 | −5% | +11% |
+| **nv26–30** | **5** | **+0%** | **+15%** |
+
+**O `+15%` do nível 30 é o topo do degrau mais largo da tabela, e ele é menor que o `+16%` que a peça já aceitava calada no nível 8 e no 12.** O ajuste sempre foi contra uma escada; o que estava errado era o último degrau dela.
+
+### Adicionado — a checagem 4d do `conferir-manual.py`
+
+**Ela existe por um vão que a 4c não cobria:** a 4c confere a coluna `Rotina` do `.docx` contra um dicionário escrito dentro do validador, e **sai verde com a peça 6 publicando qualquer coisa**, porque nunca abre a peça 6.
+
+> **A 4d varre tabela por tabela da peça 6 — só as que declaram `Rotina` no cabeçalho — e bate cada linha contra a coluna do manual, pela faixa de nível lida da própria tabela do `.docx`.** Nenhuma faixa escrita no código: se o manual reagrupar as Classes, ela acompanha. E quando falha, ela **diz de que coluna o número veio**, que é a informação que faltou por catorze versões.
+
+**Arnês, na cópia isolada, com a base conferida verde antes e o `diff` provando cada `sed`:**
+
+| perturbação | acendeu? |
+|---|---|
+| nv30 `108` → `126` | **sim**, nomeando `Téc. Máxima` da Classe 6 e `Somando alvos` e `Liberação` da Classe 7 |
+| nv18 `76` → `81` | **sim**, nomeando `Feitiço num alvo` da Classe 6 |
+| **contra-teste:** nv30 `108` → `76` — coluna certa, **linha** errada | **sim** — sem isto a checagem só provaria *"existe no manual"* |
+| **contra-teste 2:** mexer na coluna do conjurador e não na Rotina | **não acendeu**, como tem de ser |
+
+*O terceiro é o que dá valor aos dois primeiros.* Uma checagem que aprovasse `76` no nível 30 estaria conferindo presença de número, não correção de leitura — que é exatamente o erro que ela existe para pegar.
+
+### Decidido — Trilhas: a Q2, o calendário e o fim da palavra `subtrilha`
+
+*Decisões do Mizuki, todas com a conta na mesa.* **A tabela de progressão do rascunho tinha omitido a escada de Classe**, e isso movia a resposta: os feitiços conhecidos cobrem todo nível par, mas **cinco dos ímpares entregam uma Classe nova de feitiço** — 5, 9, 13, 17 e 21. São **nove** níveis que não entregam nada, e não catorze: `3 · 7 · 11 · 15 · 19 · 23 · 25 · 27 · 29`.
+
+**E aí a recomendação de `2, 10, 18, 26` cai por terra pelo próprio argumento dela.** Aqueles são os quatro níveis mais cheios do sistema — o nv26 entrega **quatro coisas ao mesmo tempo** (Classe 7, maestria, dois feitiços e marco), o 10 e o 18 entregam três.
+
+> **O calendário fechado: Trilha em `2 · 11 · 19 · 27`, Caminho em `7 · 15 · 23 · 29`.**
+> **80 entradas** — 4 × 15 de Trilha e 4 × 5 de Caminho — e **405 montagens legais**.
+
+**Os dois degraus não são conceito novo: a peça 6 §3.1 já os tinha**, em *"Bastião e Vanguarda ganham ataque extra no nível 6, **pelo Caminho**; Arremate e Coro ganham **pela Trilha**"*. Alternar os dois foi o que resolveu um empate que 6 entregas de Trilha não resolviam — com seis, ou o maior vão da Trilha é **8** ou a pior seca é **37 missões**, nunca os dois bons. O misto entrega vão **5** e seca **24**, com **dez entradas a menos** e uma matriz **nove vezes menor**.
+
+*A seca foi medida em **missão** e não em nível, pela curva da peça 12, porque é a unidade que o jogador sente: hoje o vão `nv26 → nv30` são **37 missões** sem nada que se escolha.*
+
+> **`subtrilha` morre como palavra, e a mecânica da Q4 fica inteira.** A árvore `Caminho → Trilha → subtrilha` fazia parecer três andares quando são **dois com um empréstimo**: no nível 2 você pega a entrega da **sua** Trilha, e no 11, 19 e 27 pega a de **qualquer** Trilha do seu Caminho. *Decisão do Mizuki, e o motivo foi ele mesmo se perder na leitura da árvore — o que é o teste que importa.*
+
+### Registrado — o levantamento externo sobre vão entre entregas
+
+*O problema tem nome no hobby: **dead level**.* O D&D 3.5 não o resolveu no livro — a WotC publicou **dois artigos de errata em 2007**, *"3.5 Class Dead Levels"*, só para preencher os níveis vazios de Archivist, Beguiler, Duskblade, Hexblade, Knight, Samurai e Swashbuckler. O **Pathfinder 2e** o resolve por princípio declarado — *"every level should have something, no level should ever be a dead level"* —, e o **4e** pagou o preço oposto: ficha de nove páginas e ferramenta online obrigatória.
+
+**O que decide o nosso caso é o 5e:** a edição de 2014 tinha vãos de **8** entre feitos de subclasse — Paladino `3·7·15·20`, Feiticeiro `1·6·14·18`, Bardo `3·6·14` —, e a de **2024 tirou todos**, padronizando em `3, 6, 10, 14`, com o capstone do Paladino descendo do nível 20 para o 14. **O vão de 8 que o calendário de seis produzia aqui é exatamente o que aquela revisão saiu para matar.**
+
+### Em aberto
+
+- **Trilhas: a Q3 — a régua, e ela vem antes do catálogo.** A conta já fechou duas coisas dela: a régua da **peça 13 não serve** (o `Desliga` é território de Origem, e o `Ajusta` tem um morador legal só — trocar o fixo do acerto por atributo —, o que deixa 6 de 7 no `Destranca`), e **a entrega não precisa crescer**: seis das sete linhas do permitido da peça 5 §4 são fração do que você já faz e não derivam; só o **treino** tem valor absoluto, deriva `8,3×`, e por isso só cabe no nível 2.
+- **A tabela de progressão consolidada**, que esta versão montou para responder à Q2 e que continua na lista das três coisas que não existem.
+- **Uma discrepância de arredondamento não tocada:** a segunda tabela da peça 6 §3 imprime `+135%` e `+32%` em linhas cujo Rotina não mudou, e a conta dá `+131%` e `+33%`. Não mexi porque não sei se o `30` e o `60` da coluna do meio são exatos ou arredondados — **e chutar qual dos dois lados está errado é como o `81` entrou.**
+- As de sempre: as vagas de Desliga, a Cicatriz, Energia Reversa, o clash, o nome do sistema.
+
+---
+
 ## [0.59] — 2026-08-14
 
 **Ferramenta amaldiçoada fechou. São dezesseis peças e dezesseis validadores.** O `RASCUNHO-ferramenta-amaldicoada.md` virou `16-ferramenta-amaldicoada.md` e ganhou o `conferir-ferramenta.py`, com as **dezesseis checagens** que o §7 daquele rascunho vinha listando desde a v0.54. **O arnês acendeu cinco perturbações, cada uma numa checagem só.** E a peça só coube numa versão porque uma pergunta que parecia fechada não estava — a escada de grau tinha **duas** respostas no repositório, e as duas estavam escritas.
