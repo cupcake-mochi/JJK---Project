@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 14/08/2026, na v0.58 (última peça fechada: **Invocações, na v0.58** — ela é a peça 15 e tem o `conferir-invocacoes.py` em cima dela, com trinta checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 14/08/2026, na v0.59 (última peça fechada: **Ferramenta amaldiçoada, na v0.59** — ela é a peça 16 e tem o `conferir-ferramenta.py` em cima dela, com dezesseis checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.58.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **quinze peças escritas** e **quinze validadores**. Manual do Fundamento na **v7.8**, com a Expansão de Domínio escrita, e o catálogo de aptidões com **dez das catorze entradas fechadas**. **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas** — por seis das nove rotas de Origem, e agora sem nenhum buraco de regra que morda nessa faixa.
+**Versão v0.59.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezesseis peças escritas** e **dezesseis validadores**. Manual do Fundamento na **v7.8**, com a Expansão de Domínio escrita, e o catálogo de aptidões com **dez das catorze entradas fechadas**. **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas** — por seis das nove rotas de Origem, e agora sem nenhum buraco de regra que morda nessa faixa.
 
 ## Como retomar
 
@@ -27,6 +27,7 @@ python3 conferir-criacao.py      # a ficha de exemplo contra as fórmulas, e o q
 python3 conferir-ficha.py        # a ficha de 05-material contra os catálogos das peças
 python3 conferir-legados.py      # os três formatos, a cota de Desliga, as vagas e os totais
 python3 conferir-invocacoes.py   # o teto somado, o catálogo, a régua, a morte e o orçamento
+python3 conferir-ferramenta.py   # o fundo, o gate herdado, a escada de grau, o teto na ficha
 ```
 
 **Três naturezas diferentes, e vale saber qual é qual.** Onze conferem **regra** — *a fórmula deriva certo?*. *(O `conferir-equipamento.py` faltava nesta lista desde a v0.48 e entrou na v0.58 — o `subir.sh` sempre o rodou, porque varre por glob; quem rodasse à mão pelo documento rodava um a menos.)* O `conferir-criacao.py` confere **instância** — *a ficha publicada na peça 8 obedece à fórmula?* —, e nasceu na v0.34 porque os dois erros daquela versão passaram por baixo de todos os outros: a peça 8 é a única que produz uma ficha inteira, e ela envelhece toda vez que outra peça mexe num número. O `conferir-ficha.py` confere **material**, que é a cópia que vira personagem em sete mesas. E o `conferir-legados.py`, o décimo terceiro, confere **catálogo**: ele recalcula a tabela de totais da peça 13 e falha se o escrito não bater com o contado. O `conferir-invocacoes.py`, que entrou na v0.58, faz as quatro naturezas de uma vez — regra, catálogo, instância e **busca exaustiva** —, porque a peça 15 é máquina de construção e não lista.
@@ -137,7 +138,17 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/10-descanso-e-recuperacao.md` | os dois descansos, ambiente propício, exaustão e os quatro relógios |
 | `03-mecanica/11-aptidoes-e-refino.md` | o eixo do controle: o refino, o terceiro eixo do marco, o catálogo e o Limiar |
 | `03-mecanica/12-experiencia-e-progressao.md` | a curva de XP em degraus, o teto de um nível por missão, o retorno decrescente e o limiar do nível 20 |
+| `03-mecanica/13-legados.md` | **a régua de magnitude e o catálogo de 81 entradas**, nos três formatos (Destranca · Ajusta · Desliga), com a cota de Desliga e as vagas declaradas |
+| `03-mecanica/14-equipamento.md` | proteção, escudo, **as 52 armas** com fundo `3/5`, treino, requisito de Força e a divisão simples/marcial |
+| `03-mecanica/16-ferramenta-amaldicoada.md` | **a camada por cima da arma**: a escada de grau, o `Estigma`, o gate herdado da peça 11, o `Desgaste`, o teto na ficha e as onze entradas |
+| `03-mecanica/conferir-ferramenta.py` | as **dezesseis** checagens da peça 16, e o par declarado entre a 3 e a 9 |
 | `03-mecanica/15-invocacoes.md` | **o sistema de criação de invocação**: a casa de iniciativa, o pool da Matilha, a ficha derivada, o custo, a morte, o retorno e o catálogo de 19 entradas |
+| `03-mecanica/conferir-atributos.py` | acerto, defesa, TR, perícia, vida, PE máximo e a deriva contra o nível |
+| `03-mecanica/conferir-acao.py` | a régua das Restrições, a dominância entre elas e o `Adianta` |
+| `03-mecanica/conferir-pericias.py` | o quadro de perícias, as listas de Caminho e de Origem, e a colisão |
+| `03-mecanica/conferir-descanso.py` | o piso, a exaustão, o arredondamento, a magnitude e o empilhamento |
+| `03-mecanica/conferir-legados.py` | **catálogo**: recalcula a tabela de totais da peça 13 e falha se o escrito não bater com o contado |
+| `03-mecanica/conferir-equipamento.py` | o fundo de cada arma, a dominância **uma vez por rota de proteção — e são três**, e o teto de Defesa derivado dos três donos |
 | `03-mecanica/conferir-nomes.py` | o vocabulário do manual, extraído do `.docx`, contra todo nome que o projeto batizou |
 | `03-mecanica/conferir-manual.py` | a direção contrária: o manual contra o vocabulário e os números do projeto |
 | `03-mecanica/conferir-aptidoes.py` | a trava do refino, as três rotas do marco, o teto de Passivas e o kokusen |
@@ -480,7 +491,7 @@ Quatro peças, e a ordem é de **dependência**, não de tamanho. A ordem que el
 >
 > **E a v0.55 fechou a máquina de ferramenta e duas perguntas de Trilhas.** A ferramenta é **uma das 52 armas mais UM `Estigma`**, e o grau decide o **formato** dele — grau 4 não dá Estigma nenhum e só fere maldição, grau 3 dá Classe 1, grau 2 dá Classe 2 com gate de nível 7, grau 1 dá Classe 3 com gate de nível 13, e a especial é Classe 3 e **única no mundo**. **O gate é o da peça 11 §6 sem a metade de refino**, porque cobrar refino trancaria a peça na cara da Restrição Celestial que não tem energia. O **`Desgaste`** compra o gate e nunca a Classe, e a ficha topa em **três `Estigmas`**, que é 43% do orçamento de escolha de marco da campanha. *Falta o catálogo e o validador.* **Em Trilhas:** sem multiclasse (uma Trilha por ficha, o que fecha a pendência nº 3 desta lista) e **as subtrilhas cruzam Trilhas do mesmo Caminho**.
 >
-> **`03-mecanica/RASCUNHO-ferramenta-amaldicoada.md`.** A conta fechou três coisas antes de qualquer pergunta: **grau não pode ser mais ponto de arma** (no nv30, dobrar o orçamento de uma arma de duas mãos vale `1,3%` da Rotina contra os `6%` a `9%` de uma Trilha inteira); **a ferramenta não é o que faz o sem-energia competir em dano** (a arma comum é 96% da Rotina no nv2 e 10% no nv30 — fechar isso pediria 113 de dano por rodada, que é o Fundamento e não um item), então **ela entrega ferir maldição, que é binário**, e o dano é da Técnica Marcial; e **grau como gate de patente está refutado pela peça 12**, porque *"Grau é reconhecimento; nível é poder"* e a espiral fechada é a mesma. *E o cubo que prendeu o Gojo é **objeto** amaldiçoado, não ferramenta — a fonte é explícita, e ele é da peça que a v0.50 pôs em último.*
+> **`03-mecanica/16-ferramenta-amaldicoada.md`** *(era rascunho até a v0.59)*. A conta fechou três coisas antes de qualquer pergunta: **grau não pode ser mais ponto de arma** (no nv30, dobrar o orçamento de uma arma de duas mãos vale `1,3%` da Rotina contra os `6%` a `9%` de uma Trilha inteira); **a ferramenta não é o que faz o sem-energia competir em dano** (a arma comum é 96% da Rotina no nv2 e 10% no nv30 — fechar isso pediria 113 de dano por rodada, que é o Fundamento e não um item), então **ela entrega ferir maldição, que é binário**, e o dano é da Técnica Marcial; e **grau como gate de patente está refutado pela peça 12**, porque *"Grau é reconhecimento; nível é poder"* e a espiral fechada é a mesma. *E o cubo que prendeu o Gojo é **objeto** amaldiçoado, não ferramenta — a fonte é explícita, e ele é da peça que a v0.50 pôs em último.*
 >
 > **`03-mecanica/RASCUNHO-trilhas.md`.** O achado que decide o formato: **catorze dos vinte e nove níveis não entregam nada hoje, e são todos os ímpares** — os feitiços conhecidos cobrem todo nível par, e maestria e marcos caem em cima de níveis que já tinham feitiço. **A Trilha tem onde cair sem competir com nada.** E o risco real da peça é escala: **quinze Trilhas × quantas entregas** dá de 30 a 120 entradas, contra as 81 que a peça 13 fechou em uma versão e as 52 armas que custaram **seis** à peça 14. *A diferença entre as duas foi a régua vir antes do catálogo, e é a única recomendação de método que aquele documento faz.*
 
@@ -550,7 +561,9 @@ Ele saiu por **regressão contra as seis classes publicadas**, e cinco fecham ex
 
 **O gate no tiro fecha um buraco que o do corpo a corpo não alcança:** sem ele, um conjurador de Força 0 e Destreza 0 pega o Rifle de Precisão e faz **11,0 sem investir um ponto de atributo**, contra 6,5 do melhor corpo a corpo dele.
 
-**O que falta:** **o validador da peça**, que precisa rodar a dominância **uma vez por rota de proteção, e são três** — cobrir-se, uniforme, e **sem energia nenhuma** (a Restrição Celestial pelo ramo da Maki, que não tem cobrir-se para desligar); os **nomes dos degraus de escudo**; a **penalidade** por empunhar sem treino ou sem requisito, que é da peça de dano e condições; e **os dois dados do `Yumi`**, que a v0.47 flagrou estourando o orçamento — a fórmula de preço do tiro desconta a Força que o corpo a corpo soma, e o arco soma **Destreza** e leva o desconto do mesmo jeito.
+**O que falta:** a **penalidade** por empunhar sem treino ou sem requisito, que é da peça de dano e condições e não está na fila. **Os nomes dos degraus de escudo fecharam na v0.59:** `Broquel` (punho, 15–45 cm), `Médio` e `Torre` (cobre o corpo, se planta no chão). *O `Médio` carrega duas colisões aceitas e declaradas na peça 14 — uma letra de `Medo` (Tema) e o gênero do tier de Restrição `Média`.*
+
+> **Esta lista tinha mais dois itens até a v0.59, e os dois já estavam prontos.** O **`conferir-equipamento.py`** entrou na **v0.48**, com a dominância rodando uma vez por rota de proteção — cobrir-se, uniforme e sem energia nenhuma, as três. E **os dois dados do `Yumi`** foram corrigidos na **v0.47**, na mesma versão que flagrou: `Daikyū` para `1d10`, `Hankyū` para `1d8`, fechando exatos em `4 de 4`. *Vencido em dois documentos ao mesmo tempo, porque a lista foi copiada em vez de apontada.*
 
 
 ### Bloquear — a regra opcional que a v0.43 escreveu

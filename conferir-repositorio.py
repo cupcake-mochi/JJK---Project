@@ -440,6 +440,51 @@ print('  Nada em logs/ e conferido: entrada de CHANGELOG e registro do que se')
 print('  pensou naquele dia, e a v0.50 decidiu nao reescrever historico.')
 
 
+# --- checagem 6: o mapa do ESTADO-ATUAL contra a pasta. ----------------------
+# Nasceu na v0.59. A tabela "Onde cada coisa esta" e uma COPIA da listagem da
+# pasta, e ela nao tinha dono nem validador — que sao as duas saidas que a
+# licao no 9 admite. Ela tinha divergido: faltavam as pecas 13 e 14 (as duas
+# maiores do projeto) e SEIS validadores, e nada acusava.
+#
+# A checagem 1 conta quantas pecas existem. Esta confere quais estao NO MAPA,
+# que e outra pergunta: um contador certo convive com um mapa furado.
+print()
+print('-' * 88)
+print('  6. O MAPA — a tabela "Onde cada coisa esta" contra a pasta de verdade')
+print('-' * 88)
+
+_est_txt = open(os.path.join(RAIZ, 'sistema', 'ESTADO-ATUAL.md'), encoding='utf-8').read()
+_pecas_disco = sorted(f for f in os.listdir(os.path.join(RAIZ, 'sistema', '03-mecanica'))
+                      if re.match(r'^\d\d-.*\.md$', f))
+_vals_disco = sorted(f for f in os.listdir(os.path.join(RAIZ, 'sistema', '03-mecanica'))
+                     if re.match(r'^conferir-.*\.py$', f))
+_fora_p = [f for f in _pecas_disco if f'`03-mecanica/{f}`' not in _est_txt]
+_fora_v = [f for f in _vals_disco if f'`03-mecanica/{f}`' not in _est_txt]
+
+print(f'  {len(_pecas_disco)} pecas e {len(_vals_disco)} validadores na pasta.')
+if _fora_p:
+    FALHAS.append('o mapa do ESTADO-ATUAL nao cita a(s) peca(s): ' + ', '.join(_fora_p))
+else:
+    print(f'  [x] as {len(_pecas_disco)} pecas aparecem no mapa')
+if _fora_v:
+    FALHAS.append('o mapa do ESTADO-ATUAL nao cita o(s) validador(es): ' + ', '.join(_fora_v))
+else:
+    print(f'  [x] os {len(_vals_disco)} validadores aparecem no mapa')
+
+# e o caminho contrario: o mapa nao pode citar arquivo que nao existe mais.
+# (a checagem 2 ja pega isso para o repositorio inteiro; aqui e so o contador)
+_citados = set(re.findall(r'`03-mecanica/([^`]+)`', _est_txt))
+_fantasma = sorted(c for c in _citados
+                   if not os.path.exists(os.path.join(RAIZ, 'sistema', '03-mecanica', c)))
+if _fantasma:
+    FALHAS.append('o mapa cita arquivo que nao existe: ' + ', '.join(_fantasma))
+else:
+    print(f'  [x] os {len(_citados)} arquivos citados no mapa existem')
+
+print()
+print('  Um mapa furado nao quebra contagem nenhuma — por isso ele passou seis')
+print('  versoes furado. Quem retoma em conversa nova le o mapa, nao a pasta.')
+
 # --------------------------------------------------------------------------
 print()
 print('=' * 88)

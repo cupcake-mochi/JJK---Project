@@ -7,7 +7,9 @@ Versão v0.1 — 13/08/2026, fechada na v0.48 do projeto
 
 *Estado na v0.47: proteção fechada, categorias fechadas, recarga fechada, e **as 52 armas com dado e propriedades** (§5.3). A régua ganhou **fundo `3/5`** e o **dado virou entrada** — a ficção diz o tamanho da arma e o número de vagas cai da conta. **A restrição devolve orçamento** (§5.0.4). **O efeito de crítico da categoria morreu** (§5.1.1). E as duas decisões de acesso fecharam: **a divisão simples/marcial** (§5.4.1) e **o requisito de Força** (§5.5), que reancorou no dado depois de dois versões órfão.*
 
-*O que falta: **o validador da peça**, os **nomes dos degraus de escudo**, a **penalidade** por empunhar sem treino ou sem requisito (§8 item 15) e **os dois dados do `Yumi`**, que a v0.47 flagrou estourando o orçamento (§8 item 16).*
+*O que falta: a **penalidade** por empunhar sem treino ou sem requisito (§8 item 15), que é da peça de dano e condições e não está na fila. **Os nomes dos degraus de escudo fecharam na v0.59** — `Broquel`, `Médio` e `Torre`.*
+
+> **Esta linha listava mais duas coisas até a v0.59, e as duas já estavam feitas.** O **validador** entrou na **v0.48** e é o `conferir-equipamento.py`. E **os dois dados do `Yumi`** foram corrigidos **nesta mesma peça, 573 linhas abaixo desta linha** — `Daikyū` para `1d10` e `Hankyū` para `1d8`, os dois fechando exatos em `4 de 4` (§5.3 e §8 item 16). *O §8 item 9 desta peça nomeou esse defeito com todas as letras — "uma conclusão que sobrevive à premissa" — e o cabeçalho dela estava fazendo exatamente isso, com o próprio texto dela como desmentido.*
 
 > **A pergunta que a `Fineza` abriu está respondida, e a resposta não foi nenhuma das duas que esta nota oferecia.** Ela era *"ou a régua ganha uma exceção escrita, ou as propriedades soltas viram classes próprias"* — e as duas supunham que a classe ainda era o preço. **Ela não era mais:** a escada de dados do §5.2 já tinha posto `2d8` e `3d6` dentro da mesma `Tiro leve`, e ninguém tinha escrito isso. O catálogo já praticava 9 pacotes com 8 classes.
 >
@@ -291,11 +293,19 @@ A seção 3 fechou dizendo que **as duas rotas topam em Defesa 20**, e contou o 
 
 **Junte as duas e o escudo maior tem lugar:** ele não cresce por cima do teto, ele cresce **comendo teto de Destreza**, do mesmo jeito que o Revestimento. E aí ele vira o prêmio da build de Força sozinho, sem regra nova — porque quem tem Destreza baixa não perde nada com o teto.
 
-| degrau | proteção | teto de Destreza | requisito de Força | custa marco? |
-|---|---|---|---|---|
-| 1 | 1 | 5 | — | não |
-| 2 | 2 | 3 | 3 | não — cabe na criação |
-| 3 | 3 | 1 | **5** | **sim, 2 pontos** |
+| degrau | nome | proteção | teto de Destreza | requisito de Força | custa marco? |
+|---|---|---|---|---|---|
+| 1 | **`Broquel`** | 1 | 5 | — | não |
+| 2 | **`Médio`** | 2 | 3 | 3 | não — cabe na criação |
+| 3 | **`Torre`** | 3 | 1 | **5** | **sim, 2 pontos** |
+
+**Os três nomes fecharam na v0.59.** O `Broquel` histórico é de punho, 15 a 45 cm — por isso ele não pede Força e quase não come Destreza. E a `Torre` cobre o corpo e se planta no chão, o que é a Destreza travada em 1 e o ponto de marco. *A escada de nome é a mesma escada de número: quanto mais escudo, menos braço sobra.*
+
+> **O do meio é `Médio`, e ele carrega duas colisões declaradas em vez de escondidas.** *Decisão do Mizuki, com as duas na mesa.*
+>
+> **A primeira a triagem pega:** `Médio` sai **fraco**, a uma letra de `Medo`, que é **Tema** no manual. Aceita — `Medo` é Tema de feitiço e `Médio` é degrau de escudo, e as duas palavras nunca aparecem na mesma linha de regra.
+>
+> **A segunda a triagem NÃO pega, e é o mesmo ponto cego que o §5.4.1 desta peça já registrou:** `Leve`, `Média` e `Pesada` são os **tiers de Restrição** da peça 3, e eles saem `LIVRE` porque tier de magnitude não está em lista nenhuma do manual. **`Médio` (escudo) e `Média` (Restrição) são a mesma palavra em gêneros diferentes**, do mesmo jeito que a classe de arma `Pesada` já colide com o tier `Pesada` desde que as duas existem. **É a segunda colisão aceita nesta peça, no mesmo eixo** — e por isso ela fica escrita aqui e não descoberta na mesa: *escudo `Médio` é objeto; Restrição `Média` é preço. Uma se empunha, a outra se paga.*
 
 **O degrau 3 é o primeiro item do catálogo inteiro que cobra ponto de marco.** Toda arma pede no máximo Força 3, que é o teto da criação; ele pede 5. Isso dá à Força um trabalho que ela não tinha — e a peça 1 tem *"Força tem uma perícia só"* aberto desde a v0.24.
 
@@ -320,7 +330,7 @@ A seção 3 fechou dizendo que **as duas rotas topam em Defesa 20**, e contou o 
 
 **A categoria se chama Escudo.** *Decisão do Mizuki:* os tipos podem ter nomes próprios, mas o guarda-chuva é a palavra que todo mundo já usa. Ela saiu `DENTRO` e não `OCUPADO` na triagem corrigida — estava só dentro de **Rasga Escudo**, e uma Melhoria que rasga escudos não *é* um escudo.
 
-**Os nomes dos três degraus ainda não foram escolhidos.** Mortos na triagem: `Anteparo` é **Melhoria** e `Bloqueio` é **Tema**, os dois com o nome inteiro. Livres: **Broquel · Pavês · Rodela · Adarga · Tarja · Couraça · Guarda-Corpo**. Quantos degraus e quais nomes é escolha do Mizuki.
+**Os três nomes foram escolhidos na v0.59: `Broquel` · `Médio` · `Torre`.** Mortos na triagem anterior: `Anteparo` é **Melhoria** e `Bloqueio` é **Tema**, os dois com o nome inteiro. Sobraram sem uso: `Pavês`, `Adarga`, `Rodela`, `Tarja`, `Couraça` e `Guarda-Corpo`.
 
 ### O que isso NÃO conserta, e é melhor dizer
 
@@ -1415,7 +1425,7 @@ A peça 11 escolheu o `1,5 ×` com critério escrito: *"o saldo **encolhe** em v
 
     **E o X da `Munição` fica em `2` ou `3`**, pelo critério dele de que nenhuma arma atravesse a briga sem recarregar. *Ele propôs `2 · 4 · 5`, e a simulação reprovou os dois de cima:* com `4`, 22% dos combates passam sem recarga para quem não tem ataque extra; com `5`, 68% — e o `5` já é indistinguível de não ter teto. **Falta só decidir qual arma leva `2` e qual leva `3`.**
 5. ~~**`Versátil`: os dois dados não estão escritos.**~~ **Fechado na v0.44, e a pergunta estava mal posta.** Ela não tem *dois dados*: ela tem **um passo na escada** — `d6→d8 · d8→d10 · d10→d12` —, e o preço dela é **zero**, porque largar o escudo só compensa no nível 2 e por 0,1 ponto. *O que sobrou disso é a dominância que o passo de graça produz entre armas idênticas, medida na v0.47 e aceita: três pares, no §5.2.*
-6. **Os nomes dos degraus de escudo, e quantos são.** A forma fechou — proteção, requisito de Força, teto de Destreza. Faltam os nomes e a contagem. Livres na triagem: **Broquel · Pavês · Rodela · Adarga · Tarja · Couraça · Guarda-Corpo**.
+6. ~~**Os nomes dos degraus de escudo, e quantos são.**~~ **Fechado na v0.59:** são três — `Broquel`, `Médio` e `Torre` —, e a forma já tinha fechado antes (proteção, requisito de Força, teto de Destreza).
 7. ~~**As sete propriedades sem texto.**~~ **Reduzidas a duas e meia na v0.42, e três delas eram a mesma coisa.** `Alcance`, `Distância` e `Arremesso` colapsaram em `Alcance` e `Longo Alcance`, as duas com número em metros em vez de redação. `Par` fechou em *"role dois dados de dano e fique com o melhor"*, 0,32 contra um alvo de 0,33. `Fineza` entrou. ~~**Falta `Oculta`, os dois dados da `Versátil` e o número da `Munição`.**~~ **Os três fecharam entre a v0.42 e a v0.44** — `Oculta` como camada 1 do §6, `Versátil` como passo de escada a custo zero, `Munição` com o X em `2 · 3 · 4`. **E hoje são doze propriedades, todas com texto**, conferido na matriz da v0.47.
 
    > **E o `0,60` daquela linha estava errado.** Com a fórmula que o §4 desta mesma peça fixou — `diferença de dado × 0,55 de acerto × 0,60 de uso` —, d10 contra d12 dá **0,33**. O `0,66` do §4 reproduz exato; o `0,60` do §5 só aparece se você tirar o fator de uso. **Duas fórmulas no mesmo documento**, e a segunda foi escrita sem o fator que a primeira tinha acabado de estabelecer.

@@ -9,7 +9,7 @@ Sistema de RPG de mesa em desenvolvimento, ambientado no universo de Jujutsu Kai
 | `00-fundacao/` | Pitch de design e decisões que valem para o projeto inteiro |
 | `01-pesquisa/` | Dossiê de metodologia, referências e análise do espaço de design |
 | `02-esqueleto/` | Arquitetura do sistema: subsistemas, como se conectam, o que cada um resolve |
-| `03-mecanica/` | As peças de regra, numeradas na ordem em que foram escritas, e os quinze validadores |
+| `03-mecanica/` | As peças de regra, numeradas na ordem em que foram escritas, e os dezesseis validadores |
 | `04-playtest/` | Roteiro de teste, formulários e retorno organizado por tema |
 | `05-material/` | A **ficha de personagem** e o gerador dela. Falta o quick-start e o livro |
 | `99-arquivo/` | **Material morto.** Nada aqui é regra corrente — ver o `LEIA-ME.md` de lá |
@@ -42,7 +42,7 @@ A pasta `skills/` guarda a versão com arquivos separados. A versão instalada t
 
 ## Versão atual
 
-**v0.58.** Fases 0 a 3 fechadas; a Fase 4 (mecânica) está em andamento com **quinze peças escritas e quinze validadores passando**. O manual do Fundamento está na **v7.8**, e ele é um subsistema fechado — a técnica e o feitiço já funcionam. O `.pdf` continua na v7.4, porque é exportado à mão.
+**v0.59.** Fases 0 a 3 fechadas; a Fase 4 (mecânica) está em andamento com **dezesseis peças escritas e dezesseis validadores passando**. O manual do Fundamento está na **v7.8**, e ele é um subsistema fechado — a técnica e o feitiço já funcionam. O `.pdf` continua na v7.4, porque é exportado à mão.
 
 **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas**, por seis das nove rotas de Origem. Desde a v0.32 não sobrou peça de regra travando ninguém nessa faixa: das dezessete coisas que uma ficha de nível 2 precisa, **treze existem, e as quatro que faltam não mordem nessa faixa**. O que falta para as outras três rotas, e a ordem do resto, está no `ESTADO-ATUAL.md`.
 
@@ -63,7 +63,7 @@ Os quatro últimos não leem o manual e não precisam de nada: o `conferir-criac
 
 ## A próxima peça
 
-**Ferramenta amaldiçoada**, em `03-mecanica/RASCUNHO-ferramenta-amaldicoada.md`. A máquina fechou na v0.55 e o catálogo de `Estigma` na v0.56 — onze entradas. **Falta o validador**, com as dezesseis checagens do §7 daquele documento, e sem ele ela não vira peça: o `conferir-repositorio.py` conta peças contra validadores.
+**Ferramenta amaldiçoada** fechou na v0.59 e é a peça 16, em `03-mecanica/16-ferramenta-amaldicoada.md`, com o `conferir-ferramenta.py` e dezesseis checagens. A máquina é da v0.55, o catálogo de `Estigma` da v0.56 e da v0.57 — onze entradas. A escada de grau do antigo §6 virou **ritmo de entrega e não gate**, porque como gate ela anulava o gate herdado da peça 11 e deixava o `Desgaste` sem nada para comprar.
 
 *Invocações saiu desta seção na v0.58*, quando virou a **peça 15** com o `conferir-invocacoes.py` em cima dela.
 

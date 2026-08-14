@@ -2,7 +2,7 @@
 
 Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.58** · manual do Fundamento na **v7.8** · **quinze peças de regra** e **quinze validadores passando**.
+**Versão v0.59** · manual do Fundamento na **v7.8** · **dezesseis peças de regra** e **dezesseis validadores passando**.
 
 ---
 
@@ -59,14 +59,14 @@ Depois disso, a ordem de leitura é a da próxima seção, e os validadores são
     ├── 00-fundacao/                     os três pilares e as restrições do projeto
     ├── 01-pesquisa/                     dossiê de metodologia — a seção 8 lista as dez travas
     ├── 02-esqueleto/                    arquitetura: subsistemas e como se encaixam
-    ├── 03-mecanica/                     as quinze peças de regra e os quinze validadores
+    ├── 03-mecanica/                     as dezesseis peças de regra e os dezesseis validadores
     ├── 04-playtest/                     vazia. Zero sessões desde a v0.1
     ├── 05-material/                     a ficha, e o gerador dela. O quick-start ainda não
     ├── 99-arquivo/                      material morto, com LEIA-ME próprio
     └── skills/                          cópia de trabalho das sete skills de apoio
 ```
 
-Um arquivo `RASCUNHO-*.md` em `03-mecanica/` é levantamento engatilhado, não peça — ele não leva número justamente por isso, e o `conferir-repositorio.py` falha se algum tomar. **Hoje são quatro:** `RASCUNHO-bloqueio.md` (a regra opcional de rolar a defesa, fechada em desenho na v0.43), `RASCUNHO-clash-de-expansoes.md`, e os dois que a **v0.54** abriu: `RASCUNHO-ferramenta-amaldicoada.md` e `RASCUNHO-trilhas.md`, que são as posições 1 e 2 da fila. *Eram cinco até a v0.58, quando o de Invocações virou a peça 15 — que é o caminho que um rascunho existe para fazer.*
+Um arquivo `RASCUNHO-*.md` em `03-mecanica/` é levantamento engatilhado, não peça — ele não leva número justamente por isso, e o `conferir-repositorio.py` falha se algum tomar. **Hoje são três:** `RASCUNHO-bloqueio.md` (a regra opcional de rolar a defesa, fechada em desenho na v0.43), `RASCUNHO-clash-de-expansoes.md`, e o `RASCUNHO-trilhas.md`, que a **v0.54** abriu e que é a posição 1 da fila. *Eram cinco até a v0.58, quando o de Invocações virou a peça 15, e quatro até a v0.59, quando o de ferramenta amaldiçoada virou a peça 16 — que é o caminho que um rascunho existe para fazer, duas versões seguidas.*
 
 **`_backup/` não entra no repositório** — ele guarda o estado da pasta antes da reorganização, e o `.gitignore` o segura.
 
@@ -114,6 +114,7 @@ python3 conferir-criacao.py      # a ficha de exemplo contra as fórmulas, e o q
 python3 conferir-ficha.py        # a ficha de 05-material contra os catálogos das peças
 python3 conferir-legados.py      # os três formatos, a cota de Desliga, as vagas e os totais
 python3 conferir-invocacoes.py   # o teto somado, o catálogo, a régua, a morte e o orçamento
+python3 conferir-ferramenta.py   # o fundo, o gate herdado, a escada de grau, o teto na ficha
 ```
 
 **Os quatro últimos são de outra natureza, e vale saber por quê.** Os onze primeiros conferem **regra** — *a fórmula deriva certo?*.

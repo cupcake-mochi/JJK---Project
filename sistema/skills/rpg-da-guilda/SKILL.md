@@ -29,11 +29,14 @@ Se `02-esqueleto/arquitetura.md` contradisser uma peça de `03-mecanica/`, **a p
 ```bash
 cd sistema/03-mecanica && for v in conferir-*.py; do python3 "$v"; done
 cd ../..  && python3 conferir-repositorio.py
+cd manual/matematica && for v in pac7.py v7.py; do python3 "$v"; done
 ```
+
+**Os dois do `manual/matematica/` fazem parte da conta.** O `subir.sh` roda os três blocos; quem seguisse só os dois primeiros rodava menos validador do que o script que decide se o commit sobe.
 
 **A armadilha que continua real: confira `PULADA=0`.** Sem `python-docx` instalado (`pip install python-docx --break-system-packages`) os três que leem o manual pulam em vez de falhar, e saem com código 0. **Um deles pula tudo:** o `conferir-manual` sai no `except ImportError` antes da primeira checagem.
 
-*E quando for documentar quanto cada um pula, leia do código, não da saída.* A v0.38 contou pela saída, escreveu um número errado em quatro documentos, e a v0.40 achou. **Contar sintoma não é contar causa.**
+*E quando for documentar quanto cada um pula, leia do código, não da saída.* A v0.38 contou pela saída, escreveu um número errado em quatro documentos, e a v0.40 achou. **Contar sintoma não é contar causa.** *O mesmo vale para descobrir quais são os três:* `grep docx` acha nove arquivos, e seis deles só têm a palavra em comentário.
 
 **Rode de `sistema/03-mecanica/` mesmo assim**, porque é o que o `subir.sh` faz e o que o resto da documentação supõe. *Mas o motivo virou hábito na v0.38:* até a v0.37 a documentação dizia que rodar de outro lugar fazia validador pular checagem em silêncio — hoje todos resolvem o caminho por `__file__` e a saída de `/tmp` é idêntica.
 
@@ -60,7 +63,7 @@ O mount que expõe a pasta ao sandbox tem defeitos medidos e reproduzíveis:
 
 - **Código novo se escreve pelo bash**, com `cat > arquivo <<'EOF'`. Arquivo que a ferramenta de escrita grava fica invisível para o `python3` com frequência.
 - **Para `.md` a ferramenta de escrita serve.** Se um validador acusar arquivo sumido que você está vendo, qualquer escrita nova reconcilia o mount — e uma edição de uma linha basta. O conteúdo no disco nunca esteve em risco. *Sintoma:* `ls` e `stat` mostram tamanho e inode certos, e `open()` devolve ENOENT enquanto os vizinhos abrem.
-- **Não rode git do sandbox** — nem `status`, nem `log`, nem `fsck`. Todos saem com `loose object is corrupt` e **o repositório está inteiro**; do lado do usuário funciona normalmente. Pior: `git status` cria um `.git/index.lock` que o sandbox não consegue apagar, e um lock preso trava o script de commit.
+- **Não rode git do sandbox** — nem `status`, nem `log`, nem `fsck`. Todos saem com `loose object is corrupt` e **o repositório está inteiro**; do lado do usuário funciona normalmente. Pior: `git status` cria um `.git/index.lock` que o sandbox não consegue apagar, e um lock preso trava o script de commit. *Para ver em que commit a pasta está sem rodar git, leia `.git/logs/HEAD` como arquivo* — é texto puro e não cria lock.
 - **O commit é sempre do usuário.** Você lê, edita e valida; ele commita.
 
 Depois de escrever, confira que o bash lê o arquivo de volta.
@@ -105,14 +108,19 @@ E **nada de valor fica escrito dentro do validador**: leia o número do document
 - **Mostre o resultado no chat**, não só no arquivo. Ele quer ler o que foi escrito sem abrir o documento.
 - **Antes de entrar numa peça ou numa Origem, mostre o que ela tem hoje** — ele quer discutir a partir do estado atual.
 - **Número vem de conta rodada, nunca de intuição.** Escreva o script, rode, mostre a tabela.
+- **Não escreva resumo em prosa por cima de tabela que o script já imprimiu.** Leia o número do script.
 - **Pesquise antes de inventar.** Isso virou skill própria na v0.38 — a `pesquisa-antes-de-propor` —, justamente porque enterrado aqui neste bullet ele não disparava.
 - **Documento não pode ter cara de saída de IA.** Seções de tamanhos diferentes, sem simetria forçada, sem "além disso" e "em suma". Português informal, e nunca português de Portugal.
 
 ## 9. Skills de apoio, todas no repositório
 
-`pesquisa-antes-de-propor` · `design-mecanicas-rpg` · `balanceamento-simulacao` · `playtesting-rpg` · `redacao-acessivel-rpg`
+`pesquisa-antes-de-propor` · `design-mecanicas-rpg` · `balanceamento-simulacao` · `playtesting-rpg` · `redacao-acessivel-rpg` · `gasto-de-modelo`
 
 Elas moram em `sistema/skills/`, com `SKILL.md` e pastas de apoio. A de design tem testes — dominância, bônus automático, filtro multi-mestre, colisão de nome — que **pegam coisa que nenhum validador do repositório pega**; vale rodar contra a própria proposta antes de entregar.
+
+*O `sistema/LEIA-ME.md` também lista as sete*, separadas em duas de procedimento, quatro de assunto e uma sobre a conversa. **Nenhuma das duas listas é conferida por validador nenhum** — o `conferir-repositorio.py` só checa que a pasta `sistema/skills` existe e depois pula ela na varredura. Então, quando as duas discordarem, não escolha entre elas: **conte a pasta** (`ls sistema/skills/`) e conserte a que estiver atrás. Esta aqui já foi a que estava.
+
+**Existe eval, e ele cobre quatro das sete.** `sistema/skills/evals/evals.json` traz quatro casos — um por skill de assunto, com `prompt` e `expected_output`. As três de fora são justamente as que não têm resposta certa isolada: as duas de procedimento e a da conversa.
 
 **A `pesquisa-antes-de-propor` vem antes das outras quatro**, e ela nasceu porque a linha *"pesquise antes de inventar"* estava no item 8 desta skill e não disparava. Lembrete enterrado numa lista não é procedimento. Se a sua proposta vai afirmar o que outro sistema faz, qual o modo de falha documentado de alguma coisa, o que o material original estabelece ou como uma ferramenta se comporta — **procure antes de escrever, não depois.**
 
@@ -124,6 +132,7 @@ Antes de fechar qualquer coisa, passe por estas — cada uma já mordeu mais de 
 
 - **"Esse número já inclui o que eu estou somando nele?"** É o erro mais teimoso do projeto.
 - **Antes de aceitar um preço, veja se o termo que ele usa existe** — e se existe, vá ler a regra pendurada nele. Vale nas duas direções.
+- **Confira o ponteiro de seção antes de citar.** A checagem 5 do `conferir-repositorio.py` pega isso hoje, e ela nasceu porque três documentos apontavam para uma seção que não existe.
 - **Tensão de preço às vezes é lacuna de texto disfarçada.**
 - **Decisão registrada não é decisão aplicada.** Decisão que termina em "corrigir em três lugares" precisa de alguém conferindo os três.
 - **Contagem não é valor.** Meça peso de mesa, não quantidade.

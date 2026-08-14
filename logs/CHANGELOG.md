@@ -6,6 +6,130 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.59] — 2026-08-14
+
+**Ferramenta amaldiçoada fechou. São dezesseis peças e dezesseis validadores.** O `RASCUNHO-ferramenta-amaldicoada.md` virou `16-ferramenta-amaldicoada.md` e ganhou o `conferir-ferramenta.py`, com as **dezesseis checagens** que o §7 daquele rascunho vinha listando desde a v0.54. **O arnês acendeu cinco perturbações, cada uma numa checagem só.** E a peça só coube numa versão porque uma pergunta que parecia fechada não estava — a escada de grau tinha **duas** respostas no repositório, e as duas estavam escritas.
+
+### Decidido — a escada de grau do §6 é ritmo de entrega, e não gate
+
+*A máquina da v0.55 decidiu o gate no §5.1: grau 2 no **nível 7**, grau 1 e especial no **nível 13**, herdados da peça 11 §6 sem a metade de refino.* Só que o §6 do mesmo rascunho carregava uma segunda escada — `4→2 · 3→10 · 2→18 · 1→26 · especial→30` —, sob o título *"os números que a peça vai precisar, já rodados"*, com **duas formas** e uma inclinação, nunca uma decisão. Ela nunca foi adotada, e nunca foi marcada como aberta.
+
+**Ligar a segunda como gate duro matava duas coisas, e a conta é curta.** Ela é mais alta que o gate herdado em **toda linha**:
+
+| grau | gate herdado (peça 11) | escada do §6 | quem mandaria |
+|---|---|---|---|
+| 3 | nenhum | 10 | §6 |
+| 2 | **7** | 18 | §6 |
+| 1 | **13** | 26 | §6 |
+| especial | **13** | 30 | §6 |
+
+- **A checagem 3 ficaria trivialmente verdadeira.** O contra-teste que o §7 manda rodar é perturbar a Extensão de Domínio na peça 11 e ver o gate do grau 1 andar junto. Perturbado para `1`, `8` e `18`, o gate do grau 1 fica em **26 nos três casos** — a checagem não consegue mover o número que ela existe para medir. **É a lição nº 8 entrando pela porta dos fundos:** não uma constante escrita no validador, mas um segundo dono no documento que anula o primeiro.
+- **O `Desgaste` viraria no-op.** Ele apaga *"o gate de nível do `Estigma`"* — o 7 e o 13. O 18 e o 26 são da ferramenta e continuariam de pé. A Corda Negra deixaria de existir.
+
+**E o §5.3 já tinha respondido sem ninguém ler assim:** *"o que separa grau 1 de especial é **escassez, e não mecânica** (…) isso é **zero número novo**, e o que ele governa é a **mão do mestre**."* Se especial é escassez, o `30` nunca foi gate. **A escada virou o §7 da peça, declarada como ritmo, com a frase *"esta seção não cria requisito"* no topo** — e a checagem 9 falha se ela parar de se declarar.
+
+### Adicionado — o `conferir-ferramenta.py`, com o par 3/9 declarado
+
+**Dezesseis checagens.** O fundo `3/5` sai da **peça 14 §5**; o gate e as Classes da **peça 11 §4 e §6**; os sete marcos da **peça 2 §3**; a Rotina da **peça 6 §3**; a rota sem energia da **peça 9 §5**; as duas vagas de Desliga da **peça 13 §8**; a frase *"Grau é reconhecimento; nível é poder"* da **peça 12 §2**; e o bolso do `conferir-orcamento.py`. A escada, o teto e o catálogo saem da própria peça 16.
+
+**O único bloco com valor na mão é o `LIMITES DE DESIGN`**, declarado à parte da regra aplicada — e é ele que a perturbação 2 do arnês testa: subir o teto de apoio de 2 para 5 acende a checagem 6, e só ela.
+
+> **A checagem 3 e a 9 leem a mesma amarra por dois lados, e o par está escrito no cabeçalho do validador em vez de subentendido.** A 3 confere que o gate vem da peça 11; a 9 confere que a escada de grau vem daqui e **que o §7 continua se declarando ritmo**. Elas não são independentes: se o §7 virasse gate, a 3 morreria calada e a 9 continuaria verde sozinha. *Foi exatamente o cenário que esta versão desarmou, e a checagem existe para ele não voltar.*
+
+**E o catálogo se conta, nunca se guarda.** O validador não sabe que são onze — ele conta as linhas das três tabelas do §6 e compara com o numeral escrito no título da seção.
+
+### Achado — o validador leu a própria especificação como se fosse a regra
+
+*Achado na primeira rodada limpa, e vale registrar porque o erro é de um tipo novo aqui.* Das quatro checagens que falharam de saída, **três eram o validador sendo ingênuo, não a peça estando errada**:
+
+| checagem | o que ela acusou | o que era de verdade |
+|---|---|---|
+| 4 · SEM-REFINO | *"gate de refino aparece na peça"* | o **§8**, que **descreve as dezesseis checagens**, cita `gate de refino` justamente para dizer que ele não pode existir |
+| 10 · PATENTE | *"o texto liga patente a grau: `Grau 2 porta`"* | o **§2.2**, que **cita a ideia refutada** — *"feiticeiro de Grau 2 porta ferramenta de grau 2"* — para derrubá-la com a peça 12 |
+| 3 · GATE | *"não achei a tabela de gates na peça 11 §6"* | a peça 11 tem `## 6.` **e** `## 6.5.`, e o recorte ingênuo parava na subseção — perdendo a tabela, que vem **29 linhas depois** dela |
+
+**As duas primeiras são o mesmo erro: confundir o alvo com o tiro.** Uma peça que documenta o próprio validador contém, por construção, o texto que o validador procura para reprovar. *A varredura da checagem 4 hoje lê só as seções de regra — §1 a §7 —, e a 10 exige que a menção venha sem refutação por perto.*
+
+> **A terceira é a lição nº 9 numa camada que ninguém tinha pisado:** `## 6.5.` casa com `^## \d+\.`, então "próxima seção" e "próximo número de seção" não são a mesma coisa. **O recorte agora agrupa por número de seção**, e não pela próxima linha `##`. *Nenhum outro validador do repositório recorta seção assim — os que precisam disso leem tabela por regex direto.*
+
+### Alterado — as contagens, e um rascunho a menos
+
+**Dezesseis peças e dezesseis validadores** no `README`, no `ESTADO-ATUAL` e no `LEIA-ME`. O `conferir-ferramenta.py` entrou nas duas listas de rodar à mão.
+
+**E os rascunhos caíram de quatro para três.** `RASCUNHO-bloqueio.md`, `RASCUNHO-clash-de-expansoes.md` e `RASCUNHO-trilhas.md` — o de ferramenta foi apagado ao virar peça, do mesmo jeito que o de Invocações na v0.58. *Duas versões seguidas fazendo o caminho que um rascunho existe para fazer.*
+
+### O arnês, e os cinco vermelhos que ele produziu
+
+Cópia isolada, base conferida **verde antes** de cada perturbação, `diff` provando que o `sed` bateu, e uma checagem acesa por perturbação:
+
+| perturbação | onde | acendeu |
+|---|---|---|
+| Extensão de Domínio: nível 13 → 18 | **peça 11** | **checagem 3**, nos *dois* graus de Classe 3 ao mesmo tempo |
+| teto de apoio: 2 → 5 | `LIMITES DE DESIGN` | checagem 6 |
+| fundo: `3` → `4` | **peça 14** | checagem 1 |
+| um `1d6` numa entrada do catálogo | peça 16 §6 | checagem 8 |
+| o §7 para de se declarar ritmo | peça 16 §7 | **checagem 9** |
+
+> **A primeira acender nos dois graus ao mesmo tempo é a prova de que o gate é derivado e não copiado** — grau 1 e especial leem a mesma Classe 3, e os dois andaram juntos. Um gate escrito na mão teria movido zero.
+
+### Decidido — os três degraus de escudo ganharam nome
+
+*Pendência aberta desde a v0.42, e o último item de forma que Equipamento devia.* **`Broquel` · `Médio` · `Torre`.**
+
+| degrau | nome | proteção | teto de Destreza | requisito de Força | o que ele é |
+|---|---|---|---|---|---|
+| 1 | **`Broquel`** | 1 | 5 | — | escudo de punho, **15 a 45 cm**, leve e manobrável |
+| 2 | **`Médio`** | 2 | 3 | 3 | o degrau do meio, e o nome diz isso |
+| 3 | **`Torre`** | 3 | 1 | **5** | cobre o corpo quase inteiro e **se planta no chão** |
+
+**As duas pontas são objeto e o meio é tamanho, e isso é decisão e não descuido.** *A `Rodela` chegou a ser escrita e caiu por leitura de mesa:* ela é historicamente exata — redonda, de metal, presa ao braço, 50 a 60 cm — e **não diz nada para quem nunca ouviu a palavra.** `Médio` diz. **O critério da peça 14 é que o nome carregue a identidade sem nota de rodapé**, e num degrau que existe para ser o meio, "meio" é a identidade.
+
+> **E ele entra com duas colisões declaradas em vez de escondidas.**
+>
+> **A que a triagem pega:** `Médio` sai **fraco**, a uma letra de `Medo`, que é **Tema** no manual. Aceita — Tema de feitiço e degrau de escudo não dividem linha de regra.
+>
+> **A que a triagem NÃO pega, e o §5.4.1 da peça 14 já tinha registrado o ponto cego:** `Leve`, `Média` e `Pesada` são os **tiers de Restrição** da peça 3, e saem `LIVRE` porque **tier de magnitude não está em lista nenhuma do manual**. `Médio` (escudo) e `Média` (Restrição) são a mesma palavra em gêneros diferentes — exatamente como a classe de arma `Pesada` colide com o tier `Pesada` desde que as duas existem. **É a segunda colisão aceita nesta peça, no mesmo eixo**, e por isso ficou escrita na peça: *escudo `Médio` é objeto, Restrição `Média` é preço. Uma se empunha, a outra se paga.*
+
+*Triagem rodada em nove candidatos antes de escrever: `Broquel`, `Torre`, `Rodela`, `Adarga`, `Targa`, `Pavês` e `Escútulo` saíram **LIVRE**; `Médio` e `Medio` saíram **fraco**. E o `conferir-nomes.py` foi rodado com os três já escritos, para o caso de algum virar substring de nome batizado — `Torre` está dentro de `Torrente`, que é Trilha do Emanador: **passa**.* **Mortos na triagem anterior:** `Anteparo` é **Melhoria** e `Bloqueio` é **Tema**.
+
+### Achado — a auditoria antes de Trilhas, e três listas vencidas
+
+*Rodada a pedido do Mizuki, antes de abrir o chat de Trilhas.* **Trilhas não está travada por nada** — a Q1 e a Q4 fecharam na v0.55, as três Trilhas de invocação têm a máquina pronta desde a v0.58, e o `conferir-invocacoes.py` já carrega a guarda que manda tirar a declaração de dominância quando a Q6 der número ao *"corpo forte"* do `Servo`. **O que a auditoria achou não trava; envelhece.**
+
+**A lista *"o que falta"* de Equipamento estava em dois documentos, e dois dos quatro itens já estavam feitos:**
+
+| item | estado real |
+|---|---|
+| *"o validador da peça"* | **feito na v0.48** — é o `conferir-equipamento.py`, 20 KB |
+| *"os dois dados do `Yumi`"* | **corrigido na v0.47**, e o desmentido está **573 linhas abaixo da própria linha**: `Daikyū` para `1d10`, `Hankyū` para `1d8`, os dois fechando exatos em `4 de 4` |
+| os nomes dos degraus de escudo | **continua aberto** — hoje são `1`, `2` e `3` |
+| a penalidade sem treino ou requisito | **continua aberto**, e é da peça de dano e condições |
+
+> **O §8 item 9 da peça 14 nomeou esse defeito com todas as letras** — *"não uma cópia que diverge, mas uma **conclusão que sobrevive à premissa**"* — e o cabeçalho da mesma peça estava fazendo exatamente isso, com o próprio corpo dela como desmentido. *Foi copiada em vez de apontada, e por isso venceu nos dois lugares ao mesmo tempo.*
+
+### Adicionado — a checagem 6 do `conferir-repositorio.py`: o mapa contra a pasta
+
+**A tabela *"Onde cada coisa está"* do `ESTADO-ATUAL` tinha divergido, e nada acusava.** Faltavam **as peças 13 e 14** — as duas maiores do projeto, 102 KB e 136 KB — e **seis validadores**: `conferir-atributos`, `conferir-acao`, `conferir-pericias`, `conferir-descanso`, `conferir-legados` e `conferir-equipamento`.
+
+**A checagem 1 conta quantas peças existem; ela sai verde com o mapa furado, porque contar e listar são perguntas diferentes.** O mapa é uma **cópia** da listagem da pasta, e a lição nº 9 admite duas saídas para uma cópia — um dono declarado ou um validador que compare as duas. **Ele não tinha nenhuma das duas.**
+
+*E o preço é específico:* quem retoma em conversa nova lê o mapa, não a pasta — que é exatamente o que o chat de Trilhas ia fazer, e as duas peças que faltavam são justo o precedente que aquela peça precisa (**a régua antes do catálogo** é a comparação entre a peça 13, fechada em uma versão, e a peça 14, que gastou seis).
+
+*Contra-teste rodado:* tirar a peça 14 do mapa acende **um problema, o certo**; tirar o `conferir-legados.py` acende **um problema, o certo**. E a base foi conferida verde na cópia antes — na primeira tentativa ela saiu **vermelha**, porque a cópia não levou o `.gitignore` que o README promete, e o arnês recusou o resultado em vez de deixar ler um vermelho que não era prova.
+
+### Alterado — as duas listas vencidas, e o mapa preenchido
+
+As listas de Equipamento no `14-equipamento.md` e no `ESTADO-ATUAL` perderam os dois itens já prontos e ganharam, no lugar, o registro de **quando** cada um foi feito. O mapa recebeu as duas peças e os seis validadores que faltavam: **16 de 16 e 16 de 16**.
+
+### Em aberto
+
+- **Trilhas** é a posição 1 da fila, e o `RASCUNHO-trilhas.md` existe para aquele chat não começar do zero: **30 a 120 entradas**, contra as 81 da peça 13 numa versão e as 52 armas que custaram seis à peça 14. *A recomendação de método daquele documento é uma só: a régua antes do catálogo.*
+- **Objeto amaldiçoado** continua por último. Ele fecha **1 vaga de Desliga e mais nada**.
+- **Os nomes próprios das ferramentas do material** — a Nuvem Divertida e a Lança Invertida aparecem na peça 16 como exemplar, não como ficha.
+- **A penalidade por empunhar sem treino ou sem requisito** continua na peça de dano e condições, que não está na fila. É a mesma pendência que a peça 14 §8 já carrega.
+
+---
+
 ## [0.58] — 2026-08-14
 
 **Invocações fechou. São quinze peças e quinze validadores.** O `RASCUNHO-invocacoes.md` virou `15-invocacoes.md` e ganhou o `conferir-invocacoes.py`, com as **trinta checagens** que o §5 daquele documento vinha listando desde a v0.51. **O arnês acendeu as trinta**, e dois contra-testes não acenderam nada. E aconteceu o que a peça 14 já tinha mostrado: **o validador achou três coisas na primeira rodada limpa — e duas eram minhas.**
