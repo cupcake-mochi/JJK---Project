@@ -6,6 +6,220 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.57] — 2026-08-13
+
+**A fórmula de vida da invocação ganhou número, reconseguir fechou, e uma entrada do catálogo de `Estigma` foi arrancada depois de escrita.** Continuam **catorze peças e catorze validadores**.
+
+### Removido — a `Vazadura`, e o motivo é que passar na conta não basta
+
+*Decisão do Mizuki: **ignorar Redução de Dano não entra neste sistema.*** Ela ignorava a RD do alvo, **e tinha passado na conta** — a fração que ela anula anda só `3,3` pontos percentuais em vinte e oito níveis, então ela não derivava.
+
+> **A conta diz o que é legal. Ela não diz o que deve existir.** A RD é o produto que a peça 11 §6 vende por 2 PE, e um item que a apaga é um item que responde a uma escolha de outro jogador com um *"não"*.
+
+**No lugar entrou o `Bojo`** — *uma vez por descanso curto, a ferramenta guarda um feitiço que você lançou e o devolve sem custo de PE*. Sai do **Osso de Dragão** (*"acumula e ejeta energia"*) e cobra em **custo**, que é um dos quatro eixos que a peça 11 §2 autoriza por escrito. *É o único dos onze que só serve a feiticeiro, e isso é aceito: grau 4 é a entrada de quem não tem energia, e o resto da escada não precisa ser neutro.*
+
+### Alterado — o `Cisão` subiu para Classe 3, e a obra é quem manda
+
+*Decisão do Mizuki.* A Katana de Alma Partida não corta a alma uma vez por cena — **ela corta a alma, e é isso que ela é.** Permanente é o formato certo.
+
+**E permanente aqui não é upgrade, o que é o que faz ele caber.** A Integridade é `20 + 8 × (nível − 1)`, sem Caminho e sem Constituição dentro, e a lista de playtest do `ESTADO-ATUAL` já registra que *"a alma é maior que o corpo em quatro dos cinco Caminhos"*. **Trocar dano de vida por dano de alma é pior contra quatro dos cinco e melhor contra um** — é troca, não escada. *É literalmente o que "muda como você joga" quer dizer.*
+
+**O catálogo continua com onze:** 4 de Classe 1, **3** de Classe 2 e **4** de Classe 3.
+
+### Decidido — a fórmula de vida da invocação, com o termo de tipo preenchido
+
+*Ele estava vazio desde que a Q3 fechou, e era o buraco que mais mordia para alguém jogar um Evocador.* **O alvo não era livre:** a Q2 fixou um corpo em **meia Rotina** e a Q5 fixou o pool em `5h`. Resolvendo os dois pontos ancorados — `h(2) = 6,5` e `h(30) = 63` — sai `por nível = 2,02` e `base = 2,46`.
+
+> **`vida = base do tipo + (2 + a Constituição dela) × nível do dono`**
+
+*Ordem decidida pelo Mizuki: talismã e corpo amaldiçoado empatam; a maldição domada tem mais, por ter sido domada; a técnica fica no meio — ela não precisa ser domada, mas quem a perde perde da própria técnica, e não tem substituição.*
+
+| tipo | base | nv2 | nv30 |
+|---|---|---|---|
+| talismã · corpo amaldiçoado | 1 | 5 | 61 |
+| **técnica** | **2** | **6** | **62** |
+| maldição domada | 3 | 7 | 63 |
+| *alvo — meia Rotina* | | *6,5* | *63,0* |
+
+**Só a base varia; o por-nível é 2 nos quatro.** É a mesma decisão do §3.3 sobre o acerto: **base diferente é deslocamento fixo, e deslocamento fixo não deriva.** Por-nível diferente faria os quatro tipos derivarem um do outro na campanha.
+
+**E o pool continua na faixa que a Q4 mediu, lido na mesma base do §3.4:** no nível 2 os três tipos dão **31% · 38% · 44%** da vida da mesa contra os **40%** registrados lá, e no nível 10 dão **30% · 31% · 33%** contra **32%**. *O tipo do meio cai em cima da referência.*
+
+> **O preço de não derivar é que o tipo encolhe, e o número fica escrito em vez de escondido:** do mais fraco ao mais forte são **1,40×** no nível 2 e **1,03×** no nível 30. **O tipo pesa na criação e vira sabor no fim.** *A alternativa é por-nível diferente, e ela troca "encolhe" por "deriva".*
+
+### Decidido — reconseguir a invocação morta, e a resposta é mais dura do que o rascunho supunha
+
+*Decisão do Mizuki.*
+
+> **Morreu em definitivo, acabou — não se reconsegue.**
+> **Chegou só a zero: volta pelo preço da Q4, com metade da vida máxima.**
+
+**A meia vida cai numa conta que a Q5 já tinha:** o corpo vale meia Rotina, então o corpo que volta vale **um quarto**, e o pool da Matilha reinvocado vai de `2,5` para `1,25` Rotinas de presença.
+
+**E ela é a peça que faltava no argumento da Q4.** A conta da *"primeira grátis"* mostrou que o mestre que foca a invocação cobra **420%** do preço nominal, e o conserto foi não ter isenção nenhuma. **A meia vida cobra esse mestre de novo, na direção certa** — ele derruba, o jogador reinvoca por PE e ação, e o corpo que volta cai na metade do tempo. *O preço passa a ser cobrado no recurso **e** na durabilidade.*
+
+*Fica aberto quando a vida cheia volta. O candidato natural é o descanso longo, que é o degrau mais lento da escada da peça 10, mas é sabor e não está decidido.*
+
+### Registrado — Rika e Mahoraga saem da fila desta peça
+
+*Decisão do Mizuki: eles ficam sem base por enquanto, e vão para um guia de Evocador que ele quer escrever.* **Isso não deixa buraco na máquina:** os dois já estavam marcados como **regra própria e não ponto de orçamento**, e nenhuma conta desta peça os usa.
+
+### Em aberto
+
+- **O validador de Invocações** (28 checagens no §5) e **o da ferramenta** (§7). *Nenhuma das duas vira peça sem ele — o `conferir-repositorio.py` conta peças contra validadores.*
+- **Quando a vida cheia da invocação reinvocada volta.**
+- **O gate de Origem do `Remoto`** como quarto formato, ao lado dos três da peça 11 §5.
+- **Trilhas:** a Q3 — a régua antes do catálogo.
+- As de sempre.
+
+---
+
+## [0.56] — 2026-08-13
+
+**O catálogo de `Estigma` foi escrito — onze entradas, com a triagem rodada em cada nome e o degrau derivado da régua em vez de escolhido depois.** Continuam **catorze peças e catorze validadores**; falta o validador para a ferramenta virar peça.
+
+### Adicionado — as onze, distribuídas pelas três Classes da peça 11 §4
+
+**Classe 1 · grau 3** — `Fiel` (volta para a mão, não dá para desarmar) · `Aferido` (ao encostar, você sabe o grau da maldição) · `Presságio` (avisa que há maldição perto) · `Perene` (não quebra, e funciona onde arma comum não funciona).
+
+**Classe 2 · grau 2** — `Quebranto` (Reação: anula um feitiço, uma vez por cena) · `Cisão` (o golpe causa dano de alma no lugar do de vida) · `Avulsa` (Reação: a arma sai da mão e ataca sozinha) · `Vazadura` (o golpe ignora a Redução de Dano do alvo).
+
+**Classe 3 · grau 1 e especial** — `Anátema` (o contato anula técnica amaldiçoada) · `Insondável` (ponta escondida: o alcance dela é *na cena*) · `Contrapeso` (ignora o requisito de Força da arma).
+
+### Registrado — o `Presságio` saiu de um buraco, e não de uma lista de ideias
+
+**A Restrição Celestial pelo ramo da Maki não tem `Sentir Energia`** — está na peça 9, junto com *sem PE* e *sem golpe canalizado*. **É a única perícia do sistema que uma Origem inteira não pode ter**, e a ferramenta é o jeito que a obra dá para ela compensar.
+
+*Vale registrar porque o método é o que sobrevive: a entrada não foi desenhada e depois justificada. Ela saiu de procurar o que a rota que a peça atende não consegue fazer.*
+
+### Achado — a `Vazadura` quase não passou, e o critério que a salvou é da peça 14
+
+Ela anula a Redução de Dano do alvo, e **a única RD do sistema é `1,5 × refino`** (peça 11 §6) — então o valor dela cresce com o refino de quem está do outro lado, e refino é o eixo proibido.
+
+**A conta separou, com o mesmo critério que a peça 14 §4 usa: o que deriva é fração, não valor absoluto.**
+
+| nível | refino | RD anulada | Rotina | % da Rotina |
+|---|---|---|---|---|
+| 2 | 1 | 1,5 | 13 | 11,5% |
+| 18 | 7 | 10,5 | 77 | **13,6%** |
+| 30 | 10 | 15,0 | 126 | 11,9% |
+
+**O valor absoluto cresce dez vezes e a fração anda 3,3 pontos percentuais na campanha inteira.** *É o perfil que a peça 14 §4 chama de "um alvo estável, que é o melhor tipo de alvo para passar adiante".*
+
+**E o `Contrapeso` foi medido pelo motivo contrário:** ele vale `+2,0` de dano médio para Força 0 a 2 e **zero** para quem tem Força 3 — o mesmo perfil que a v0.49 mediu no requisito de Força e aceitou como alvo legal do Desliga. **O gate de nível 13 é o que o segura:** 3,5% da Rotina no primeiro nível em que ele existe, 1,6% no nível 30. *Encolhe com o nível, que é o oposto de derivar.*
+
+### Registrado — o `Insondável` não criou metragem própria
+
+Ele usa as três faixas que a v0.55 fixou em Invocações — **no combate · na cena · fora da cena**. *Um número, um dono, e este tem: seria a segunda escala de distância longa do projeto no dia seguinte ao de a primeira ser escrita.*
+
+### Confirmado — o teto de duas é de apoio
+
+*Pergunta que a v0.55 deixou aberta.* **Duas de apoio**, e não duas contando a arma. A ficha topa em **três `Estigmas`** no caso declarado, que é **43%** do orçamento de escolha de marco da campanha.
+
+### Em aberto
+
+- **O validador da ferramenta**, com as checagens do §7 do rascunho. **Sem ele o catálogo não vira peça**, porque o `conferir-repositorio.py` conta peças contra validadores.
+- **Invocações continua sendo a posição 1 da fila e continua rascunho** — e o buraco que mais morde para jogar é a **fórmula de vida com o termo de tipo vazio**: `base do tipo + (por nível do tipo + Con dela) × nível do dono`, com os quatro tipos escritos e **nenhum dos dois termos com valor**. *Uma fórmula com termo vazio parece pronta e não é.*
+- **Trilhas:** a Q3 — a régua antes do catálogo.
+- As de sempre.
+
+---
+
+## [0.55] — 2026-08-13
+
+**A máquina de ferramenta amaldiçoada fechou, e a pergunta que eu tinha marcado como a mais perigosa da peça se resolveu pelo desenho que o Mizuki escolheu.** Fecharam também as duas faixas de alcance do `Remoto` e duas das cinco perguntas de Trilhas. Continuam **catorze peças e catorze validadores** — os três continuam rascunho.
+
+### Decidido — o `Estigma`, uma por ferramenta, e o grau decide o FORMATO
+
+*Decisão do Mizuki: "cada arma ter uma passiva a depender de seu grau, onde obviamente grau 4 só garante ser infundida com energia maldita".* **A segunda metade dessa frase é o achado da v0.54 chegando pela ficção** — a ferramenta entrega **ferir maldição**, que é binário, e o dano fica com a Técnica Marcial.
+
+| grau | `Estigma` | gate | do material |
+|---|---|---|---|
+| **4** | **nenhum** — ela fere maldição, e é só | nenhum | a katana da Kasumi |
+| **3** | **Classe 1** | nenhum | a espada do Toji, o machado da Mei Mei |
+| **2** | **Classe 2** | **nível 7** | a Katana de Alma Partida |
+| **1** | **Classe 3** | **nível 13** | as forjadas de topo |
+| **especial** | **Classe 3**, e **única no mundo** | nível 13 | Nuvem Divertida · Lança Invertida · Corrente de Mil Milhas |
+
+**O grau 4 não é o degrau fraco: é o que faz a peça existir.** As Classes são as da peça 11 §4, sem inventar nada.
+
+### Decidido — o gate cai da peça 11, e a metade de refino fica de fora de propósito
+
+Um `Estigma` de Classe 3 no nível 2 passaria por cima do gate que a peça 11 cobra de uma **aptidão da mesma Classe**. Então o gate é o dela: Cesta Oca (Classe 1) sem gate, Domínio Simples e Pétala (Classe 2) no **nível 7**, Extensão de Domínio (Classe 3) no **nível 13**.
+
+> **Mas a peça 11 cobra *nível E refino*, e o refino não entra.** **Cobrar refino trancaria a peça na cara de quem ela existe para atender** — a Restrição Celestial pelo ramo da Maki não tem refino nenhum, porque não tem energia. *O gate herda o número e recusa o eixo.*
+
+### Decidido — grau 1 contra especial é escassez, e não mecânica
+
+*Decisão do Mizuki, e é o que o material diz.* Os dois dão Classe 3. **Grau 1 se forja; especial é uma só que existe**, com nome próprio. Zero número novo, e o que ele governa é a mão do mestre: uma especial por arco, não duas na mesma mesa.
+
+### Decidido — `Desgaste`, e ele compra o GATE e nunca a Classe
+
+*Decisão do Mizuki: a deterioração entra por balanceamento, porque **"ela é diferente da lança invertida por um motivo"**.* A Corda Negra *"perturba e cancela técnica alheia"* — trabalho de topo — e *"se deteriora com o uso"*, que nenhuma outra faz.
+
+> **`Desgaste` — a ferramenta ignora o gate de nível do `Estigma` dela. Em troca, a cada missão em que o `Estigma` foi usado ela desce um grau. No grau 4 ela é arma comum, e não volta.**
+
+**A máquina é a do §5.0.4 de Equipamento uma camada acima** — *"`Volumosa`, `Embainhada` e `Comprida` devolvem 1 ponto"*. **Restrição de verdade compra acesso.**
+
+**E ele compra o gate e não a Classe de propósito.** Classe é **formato**, e a peça 11 escreve isso com todas as letras; uma restrição que subisse a Classe misturaria formato com magnitude, que é o eixo que este projeto separa desde a v0.30. **O gate é número puro, e número é o que se compra.** Pela curva da peça 12 — um nível custa de 1 a 10 missões —, três missões de uso é perto de um nível inteiro na faixa baixa.
+
+### Medido — a pergunta mais perigosa da peça se fechou sozinha
+
+*O rascunho dizia que "como uma ferramenta entra numa ficha" era **a que decide se a peça funciona**: num server com cinco a sete mestres, quem entrega o item é a maior fonte de divergência que existe.* **Com uma `Estigma` por ferramenta, ela para de ser perigosa.**
+
+| ficha do mesmo nível | `Estigmas` | do orçamento de escolha de marco |
+|---|---|---|
+| mestre avaro — arma grau 4 | **0** | 0% |
+| caso normal | 1 | 14% |
+| **teto declarado** — arma + dois apoios | **3** | **43%** |
+| extremo — duas armas de uma mão + dois apoios | 4 | 57% |
+
+**A divergência inteira entre o mestre mais avaro e o mais generoso é de um a três `Estigmas`** — as mãos fecham o lado da arma e o teto de dois fecha o outro. *E a moeda é a do projeto: um `Estigma` de Classe 3 é o mesmo formato de uma aptidão de Classe 3, e aptidão se compra com escolha de marco, que são sete na campanha.*
+
+**A tabela do D&D não traduz em volume** — ela entrega ~53 itens de raridade rara ou acima para um **grupo** em vinte níveis, porque lá o item se mede em dano e o grupo divide. **O que traduz é a estrutura**, que este projeto já usa em dois lugares.
+
+### Registrado — `Aspecto` morreu por colisão com o hobby, não no validador
+
+O Mizuki ofereceu **`Estigma` ou `Aspecto`**. Os dois saem **LIVRE** no `conferir-nomes.py` e têm **zero ocorrências no `.docx`**.
+
+> **`Aspecto` é a mecânica central do Fate** — o SRD tem uma página chamada *"Invoking & Compelling Aspects"* —, e quem já jogou vai ler a palavra como aquilo. **É a colisão com o hobby que nenhuma checagem alcança**, e é a segunda desta semana, depois do `Provocar` da v0.53.
+
+**`Estigma` fica**, e para ferramenta *amaldiçoada* ele é melhor de sentido: o grau alto é a marca da maldição sendo mais funda. *E `Passiva` estava OCUPADO — é peça do Fundamento —, que foi o que abriu a pergunta.*
+
+### Decidido — as três faixas de alcance do `Remoto`, e nenhuma é um metro novo
+
+*Buraco que só apareceu quando a entrada precisou de número:* **o projeto não tem nenhuma distância acima de 30 m escrita em lugar nenhum.** A escala inteira é `1,5 · 3 · 6 · 9 · 18 · 21 · 30`.
+
+| faixa | o que é | quem alcança |
+|---|---|---|
+| **no combate** | os 18 m da amarra | toda invocação |
+| **na cena** | *(um quarteirão)* | o `Remoto` |
+| **fora da cena** | *(um país)* | o `Remoto`, **com gate** |
+
+**A metragem entre parênteses é referência e não regra** — *decisão do Mizuki*, e é o mesmo formato que a peça 10 usou para não ter relógio de horas: *"gatilho de ficção — a luta acabou, a missão acabou — dois mestres arbitram igual"*. **Medir em metro uma coisa que ninguém vai medir é precisão falsa.**
+
+> **E o gate do país é o primeiro do catálogo inteiro.** *Decisão do Mizuki:* exige **Restrição Celestial pelo ramo do corpo limitado** e uma **técnica voltada a isso** — o Ultimate Mechamaru, sem regra especial. **Nenhum `Traço` ou `Comando` tinha requisito até aqui.** A peça 11 §5 manda cada aptidão declarar o gate dela e permite *nenhum, só nível, só refino, ou os dois*; **este é de Origem, que é um quarto formato**, e fica marcado como decisão a escrever.
+
+### Decidido — duas das cinco perguntas de Trilhas
+
+*Decisão do Mizuki: "Caminhos não podem se misturar, não estou pensando nesse sistema podendo ter multiclasse, no máximo multi subtrilhas, que são do mesmo caminho".*
+
+| | |
+|---|---|
+| **Q1** | **uma Trilha por ficha, sem multiclasse.** Fecha a pendência nº 3 do `ESTADO-ATUAL`, aberta desde a v0.22, e **mata as 105 combinações** que eram o maior risco de matriz da peça |
+| **Q4** | **as subtrilhas existem e cruzam Trilhas do mesmo Caminho** — `Caminho` → `Trilha` → `subtrilha`, e a subtrilha atravessa as três Trilhas do Caminho |
+
+> **A Q4 devolve metade do que a Q1 economizou, e o número importa para a régua.** A matriz deixa de varrer as 15 Trilhas e passa a varrer as **combinações de subtrilha dentro de cada Caminho** — e a pergunta aberta desde a v0.24 muda de forma: *"o Guia contra a Vanguarda"* vira *"esta combinação de Guia contra aquela de Vanguarda"*. **A régua tem de nascer sabendo que precifica peças que se somam.**
+
+### Em aberto
+
+- **Ferramenta:** o **catálogo de `Estigma`** entrada por entrada, e o **validador da peça**. *E uma leitura a confirmar: "no máximo 2" foi lido como duas de apoio (43% do orçamento de marco) e não duas contando a arma (29%).*
+- **Trilhas:** a **Q3 — a régua, e ela vem antes do catálogo**, que é o que separa uma versão de seis. Mais a Q2 (quantas entregas) e a Q5 (o conteúdo).
+- **Invocações:** o gate de Origem do `Remoto` precisa de decisão escrita como quarto formato de gate; e as de sempre — Rika e Mahoraga, a fórmula de vida por tipo, reconseguir, o validador.
+- As de sempre: as vagas de Desliga, a Cicatriz, Energia Reversa, o clash, o nome do sistema.
+
+---
+
 ## [0.54] — 2026-08-13
 
 **As posições 2 e 3 da fila ganharam rascunho, e nenhuma regra mudou.** Sessão sem o Mizuki, com permissão para agir: `ferramenta amaldiçoada` e `Trilhas`. **Passam a ser cinco rascunhos**, e continuam **catorze peças e catorze validadores** — o `conferir-repositorio.py` ganhou uma **quinta checagem** e continua sendo o mesmo arquivo. A conta fechou cinco coisas antes de qualquer pergunta, e uma delas derruba o exemplo que abriu a sessão.

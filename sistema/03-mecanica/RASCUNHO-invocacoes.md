@@ -557,9 +557,18 @@ Com a vida em pool (Q2) e `h` em meia Rotina (Q3), **um efeito de área que caus
 
 **Nenhum golpe de rotina mata em definitivo.** Precisa de área grande ou de Expansão — *que são exatamente as coisas que na obra destroem shikigami de vez.* **A régua dispara onde a ficção dispara, e ninguém escreveu isso à mão: caiu dos dois números.**
 
-### O que a Q5 deixa em aberto, e não é dela
+### Reconseguir, fechado na v0.57 — e a resposta é que quase sempre não dá
 
-**Reconseguir.** Talismã se compra? Corpo se forja? Maldição se doma de novo? **Isso é tempo de campanha, não PE** — e é da peça de Trilhas ou da passada de material, não daqui. *Fica marcado com o nome certo em vez de sem nome, que é o que a v0.49 pagou para aprender.*
+*Decisão do Mizuki, e ela é mais dura do que o rascunho supunha.*
+
+> **Se ela morreu em definitivo, acabou. Não se reconsegue.**
+> **Se ela só chegou a zero** — sem excedente acima de metade da vida máxima e sem um golpe que causasse a vida máxima inteira —, **ela volta normalmente pelo preço da Q4, mas com metade da vida máxima.**
+
+**A meia vida é o que faz a segunda invocação da luta doer sem desligar o Caminho de ninguém**, e ela cai numa conta que a Q5 já tinha rodado: o corpo vale **meia Rotina**, então o corpo que volta vale **um quarto**. Contra o pool da Matilha, reinvocar depois de cair devolve `2,5 → 1,25` Rotinas de presença.
+
+*E ela é a peça que faltava no argumento da Q4.* A conta da "primeira grátis" mostrou que o mestre que foca a invocação cobra **420%** do preço nominal, e o conserto foi não ter isenção. **A meia vida cobra o mestre que foca de novo, na direção certa:** ele derruba, o jogador reinvoca por PE e ação, e o corpo que volta cai na metade do tempo. *O preço agora é cobrado no recurso e na durabilidade, e não só no recurso.*
+
+> **Quando a vida cheia volta continua sem dono declarado**, e é a única coisa que sobra desta pergunta. O candidato natural é o **descanso longo** — *"a missão acaba"*, o degrau mais lento da escada da peça 10 —, mas isso é decisão de sabor e não está tomada.
 
 ## 3.6 Os números da Q3 — `Traço`, `Comando`, e o orçamento
 
@@ -609,14 +618,19 @@ Com a Q4 fazendo **comandar custar a ação padrão**, *"de quão longe dá para
 
 **E o que acontece fora da amarra é escolha de desenho, não descuido.** Ela não some. Se sumisse, o inimigo que a empurrasse para além dos 18 m estaria **apagando o preço de invocar de graça** — `1 × maior Classe` de PE e uma ação padrão, com um empurrão. Ficar parada custa a rodada e devolve o corpo; sumir custaria o recurso inteiro.
 
-> **O que o `Remoto` alcança está EM ABERTO, e o furo é meu.** Eu escrevi a entrada como *"funciona além dos 18 m"* e não pus número no *além*. **As duas saídas não se decidem por conta** — o `Remoto` não compra dano nenhum, então não há dominância para medir; o que muda é que tipo de cena a invocação resolve sozinha:
->
-> | saída | o que ela permite | o que ela custa |
-> |---|---|---|
-> | **sem limite** | é o Ultimate Mechamaru literal — o dono num lugar, o corpo no outro | um `Remoto` + `Vigia`, **3 pontos e alcançável no nv10**, resolve reconhecimento de mapa inteiro sem ninguém sair de casa |
-> | **um degrau maior, escrito** | mantém a cena com todo mundo dentro dela | precisa de um número, e todo número aqui até agora saiu de um dono que já existia — **este não tem** |
->
-> *Fica marcado assim, com o buraco do tamanho certo, em vez de fechado no número que eu escolheria.*
+### As três faixas, e por que nenhuma delas é um metro novo
+
+*Decisão do Mizuki na v0.55, e ela resolve um problema que só apareceu quando o `Remoto` precisou de número:* **o projeto não tem nenhuma distância acima de 30 m escrita em lugar nenhum.** A escala inteira é `1,5 · 3 · 6 · 9 · 18 · 21 · 30`. Quarteirão e país estão os dois fora da escala de combate, e **medir em metro uma coisa que ninguém vai medir é precisão falsa.**
+
+| faixa | o que é | quem alcança |
+|---|---|---|
+| **no combate** | os **18 m** da amarra | toda invocação |
+| **na cena** | *(um quarteirão, na ordem de 100 m)* | o `Traço` **`Remoto`** |
+| **fora da cena** | *(um país)* | o `Remoto`, **com gate** |
+
+**A metragem entre parênteses é referência e não regra** — quem decide onde a cena acaba é o mestre, que já decide isso o tempo todo. *É o mesmo formato que a peça 10 usou para não ter relógio de horas: "gatilho de ficção — a luta acabou, a missão acabou — dois mestres arbitram igual".*
+
+> **E o gate do país é o primeiro de todo o catálogo.** *Decisão do Mizuki:* alcance de país exige **Restrição Celestial pelo ramo do corpo limitado** e uma **técnica voltada a isso** — que é o Ultimate Mechamaru inteiro, sem regra especial nenhuma. **Nenhum `Traço` ou `Comando` tem requisito hoje**, então esta é máquina nova aqui — mas ela não é nova no projeto: a peça 11 §5 manda **cada aptidão declarar o gate dela**, e os formatos permitidos lá são *nenhum, só nível, só refino, ou os dois*. **Este é de Origem, que é um quarto formato**, e ele precisa de decisão escrita antes de a peça fechar.
 
 ### O orçamento cresce, e crescer não deriva
 
@@ -667,11 +681,41 @@ E a cadência já existe: **os sete marcos**, que governam atributo, refino e fe
 
 **O Mahoraga não é capacidade nenhuma.** Ele e a **Rika** são a exceção escrita na obra — os dois agem fora do controle do portador —, e isso é **regra própria, não ponto de orçamento**. Fica marcado aqui e precisa de tratamento antes de a peça fechar.
 
+### A fórmula de vida, com o termo de tipo preenchido
+
+*Fechada na v0.57, e o termo estava vazio desde que a Q3 fechou — uma fórmula com termo vazio parece pronta e não é.*
+
+**O alvo não era livre:** a Q2 fixou um corpo em **meia Rotina** e a Q5 fixou o pool da Matilha em `5h`. Resolvendo os dois pontos ancorados — `h(2) = 6,5` e `h(30) = 63` — sai `por nível = 2,02` e `base = 2,46`. **Arredondando para número de mesa: base 2, por nível 2.**
+
+> **`vida = base do tipo + (2 + a Constituição dela) × nível do dono`**
+
+*Ordem decidida pelo Mizuki:* **talismã e corpo amaldiçoado têm a mesma vida; a maldição domada tem mais, por ter sido domada; a técnica fica no meio** — ela não precisa ser domada, mas quem a perde perde da própria técnica, e não tem substituição.
+
+| tipo | base | nv2 | nv10 | nv18 | nv30 |
+|---|---|---|---|---|---|
+| **talismã** · **corpo amaldiçoado** | **1** | 5 | 21 | 37 | 61 |
+| **técnica** | **2** | 6 | 22 | 38 | 62 |
+| **maldição domada** | **3** | 7 | 23 | 39 | 63 |
+| *alvo — meia Rotina* | | *6,5* | *22,5* | *38,5* | *63,0* |
+
+**Só a base varia, e o por-nível é igual nos quatro. Isso é a mesma decisão do §3.3 sobre o acerto:** base diferente é **deslocamento fixo**, e deslocamento fixo não deriva. Por-nível diferente faria os quatro tipos **derivarem um do outro** ao longo da campanha, que é a coisa que a trava proíbe.
+
+**E o pool da Matilha continua na faixa que a Q4 mediu**, lido na mesma base do §3.4 e não numa base nova:
+
+| nível | talismã e corpo | técnica | maldição domada | *o que o §3.4 registrou* |
+|---|---|---|---|---|
+| 2 | 31% | **38%** | 44% | *40%* |
+| 10 | 30% | **31%** | 33% | *32%* |
+
+**O tipo do meio cai em cima da referência**, e as duas pontas ficam dentro da faixa. *Nenhum tipo quebra a conta do custo.*
+
+> **O preço de não derivar é que o tipo encolhe, e o número está aqui em vez de escondido.** Do mais fraco ao mais forte são **1,40×** no nível 2 — 31% de um corpo inteiro — e **1,03×** no nível 30, que é 3%. **O tipo pesa na criação e vira sabor no fim da campanha.** *Isso é propriedade do formato escolhido e não descuido: a alternativa é por-nível diferente, e ela troca "encolhe" por "deriva".*
+
 ### O que a Q3 devia, e o que sobrou
 
-**O catálogo está escrito entrada por entrada no §3.7 — 19 compráveis, mais o `Investir` a 0.** Cresceu de 13 para 19 na passada dos três tipos que faltavam, com a triagem rodada em cada nome novo. *A peça 11 era o aviso de tamanho — dez entradas compráveis e uma versão inteira —, e este catálogo tem quase o dobro delas.*
+**O catálogo está escrito entrada por entrada no §3.7 — 19 compráveis, mais o `Investir` a 0.** Cresceu de 13 para 19 na passada dos três tipos que faltavam, com a triagem rodada em cada nome novo.
 
-**O que sobra da Q3 é a fórmula de vida com número por tipo.** Ela fechou como `base do tipo + (por nível do tipo + a Constituição dela) × nível do dono`, os quatro tipos existem, e **nenhum dos dois termos por tipo tem valor escrito.** *Fica marcado aqui porque decisão registrada não é decisão aplicada, e uma fórmula com um termo vazio é pior que uma fórmula faltando: ela parece pronta.*
+**Com a fórmula de vida preenchida, a Q3 fechou inteira.** *O que a peça ainda deve não é dela: é o validador.*
 
 ## 3.7 O catálogo — e ele achou um buraco entre o orçamento e a Trilha
 
@@ -695,7 +739,7 @@ E a cadência já existe: **os sete marcos**, que governam atributo, refino e fe
 | **2** | `Emboscada` | surge do chão, fora do alcance de ver | Serpente |
 | **2** | `Jorro` | empurra em linha ou em área | Elefante Máximo |
 | **2** | `Graúdo` | ocupa espaço maior e **barra passagem** | Elefante Máximo · a peça 6 §4 |
-| **2** | `Remoto` | funciona além dos 18 m da amarra | Ultimate Mechamaru |
+| **2** | `Remoto` | funciona **na cena**, além dos 18 m da amarra — e **fora da cena** com gate | Ultimate Mechamaru |
 
 *A escada é a do PF1e no formato e não no valor: movimento no chão custa 1, **voar custa 2**. E as treze entradas caem todas dentro da lista que a peça 5 §4 autoriza — posicionamento, alvo, duração, recuperação. **Nenhuma toca dado de dano**, e não pode mesmo: o teto de uma Rotina já governa a saída.*
 
@@ -854,6 +898,8 @@ Anotado agora porque é mais barato do que descobrir depois — e porque a peça
 - **O ganho de crítico da Matilha**, que com cinco d20 é `22,6%` de chance e `5%` de Rotina em ganho médio. Se algum dia a forma virar pacote único, esse número salta para 23% e o validador tem de acusar.
 - **A invariante da Q1: nada pode dar à invocação um número de iniciativa separado do dono.** Uma Trilha, uma aptidão ou um Legado que conceda isso reabre os 97,6% da tabela do §3.1 inteira. **É invariante de texto e não de número**, no molde do que Equipamento faz com o teto de Defesa: a peça é dona da regra, e o validador confere que ninguém a fura.
 - **A amarra lida do dono do número, nunca de constante.** Os 18 m são o alcance base de Projétil, do manual; o `conferir-manual.py` já sabe cruzar número do manual com o projeto. **Perturbar o alcance de Projétil tem de fazer a amarra andar junto** — a lição nº 8, no eixo em que ela mais reincidiu aqui.
+- **As duas faixas acima do combate não podem ganhar metro em lugar nenhum.** *"Na cena"* e *"fora da cena"* são gatilho de ficção, no molde do relógio da peça 10; a metragem entre parênteses é referência. **Perturbar uma delas para um número tem de acender**, porque um número ali vira teste de fita métrica na mesa.
+- **O gate de Origem do `Remoto`, e ele é o único do catálogo.** A checagem confere que **nenhuma outra entrada tem requisito** — se uma segunda aparecer, a régua de degrau do §3.7 deixou de precificar sozinha e isso tem de ser decisão e não descuido.
 - **Nenhuma entrada do catálogo pode comprar linha que já é deslocamento.** Defesa, acerto e vida são a moeda do §3.6; um `Traço` que dê qualquer um dos três é preço duplo pela mesma coisa. **Perturbar uma entrada para dar `+1` de Defesa tem de acender.**
 - **A contagem do catálogo, conferida contra o que o documento afirma.** Hoje são **19 compráveis** mais o `Investir` a 0 — 13 `Traço` e 6 `Comando`. *A peça 13 já pagou por isso: as contas do rascunho dela envelheceram duas vezes dentro do próprio arquivo antes de o validador existir.* A checagem recalcula e falha se o escrito não bater com o contado.
 - **A busca exaustiva rodada por degrau de orçamento, e o número esperado escrito antes.** No nv30, com orçamento 9 e gasto exato, o catálogo entrega **21.502 montagens cheias**, todas com assinatura distinta, **zero dominadas**, e a maior delas usa **9 das 19 entradas — 47%**. *Antes da passada dos três tipos eram **1.126** montagens em 13 entradas, e a maior consumia **62%** do catálogo.* Se alguma entrada nova puxar esse consumo para cima outra vez, é sinal de que ela não acrescentou eixo, só volume.

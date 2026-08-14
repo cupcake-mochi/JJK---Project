@@ -2,7 +2,7 @@
 
 **Isto é o planejamento da peça, não a peça.** Levantamento engatilhado: o que as outras peças já devem a ela, o que a pesquisa externa achou, o que a conta já fecha sozinha, e as perguntas na ordem em que uma trava a outra. Sem número no nome de propósito — meia peça não é peça.
 
-Escrito na **v0.54**, com o Mizuki fora. **Nada aqui é decisão de sabor fechada:** onde a conta decide, ela está rodada e o resultado está escrito; onde ela empata, a pergunta está aberta com as opções e o número de cada uma.
+Escrito na **v0.54**, com o Mizuki fora. **A máquina fechou na v0.55** — o `Estigma`, o gate, o `Desgaste`, o teto e a diferença entre grau 1 e especial estão no §5. O que falta para virar peça é o **catálogo** e o **validador**.
 
 Ela é a **posição 2 da fila** decidida na v0.50, e o que ela destrava está medido: `Técnica Marcial`, que leva as rotas de Origem de **6/9 para 8/9**.
 
@@ -168,39 +168,132 @@ E **`Ferramenta` sai OCUPADO na triagem — é Tema no manual**, exatamente como
 
 **Duas coisas servem e uma não.** Serve o *"não sintonizado = item comum"*, que é o que deixa a camada existir sem furar o orçamento de Equipamento. Serve o teto por quantidade, para as que não ocupam mão. **Não serve a raridade como preço** — o D&D tem economia de moeda e este projeto tem *"zero ocorrências de dinheiro, preço, consumível ou inventário no projeto inteiro"*, medido na peça 14.
 
-## 5. As perguntas, na ordem em que uma trava a outra
+## 5. A máquina, fechada na v0.55
 
-**Q1 — O que o grau compra: efeito, e quantos.** *A conta do §2.1 já matou magnitude.* O que sobra é **quantos efeitos e de que formato**, e o projeto tem a régua pronta na peça 11 §4 — **Classe 1** é efeito pequeno, condicional ou de informação; **Classe 2** é reativo, com limite por cena ou descanso; **Classe 3** é permanente e muda como você joga. *Não são "mais" e "menos": são formatos.*
+*As sete perguntas desta seção fecharam. O que sobrou de aberto está no §5.6.*
 
-Cinco graus contra três formatos, no molde mais simples que fecha:
+### 5.1 O `Estigma` — uma por ferramenta, e o grau decide o formato
 
-| grau | o que ela dá | exemplar do material |
-|---|---|---|
-| **4** | fere maldição, e nada mais | a katana da Kasumi, a semi-ferramenta |
-| **3** | + **1 de Classe 1** | a espada do Toji, o machado da Mei Mei |
-| **2** | + **1 de Classe 2** | a Corda Negra |
-| **1** | + **1 de Classe 3** | a Katana de Alma Partida |
-| **especial** | + **1 de Classe 3 e 1 de Classe 1** | Nuvem Divertida · Lança Invertida · Corrente de Mil Milhas |
+> **Uma ferramenta amaldiçoada é uma das 52 armas — ou um objeto de apoio — mais UM `Estigma`.**
+> **O grau não decide o tamanho do Estigma. Decide o formato dele.**
 
-**Isso é uma escada de quatro degraus com uma casa de entrada, e ela é BEM simples:** um grau, um efeito, e o efeito tem formato declarado. **Está aberta**, e o que decide é você: cabe também *"cada grau soma um efeito de Classe igual ao grau"*, que é mais generoso e mais difícil de fechar num validador.
+| grau | `Estigma` | gate | exemplar do material |
+|---|---|---|---|
+| **4** | **nenhum.** Ela fere maldição, e é só isso | **nenhum** | a katana da Kasumi, a semi-ferramenta |
+| **3** | **Classe 1** — efeito pequeno, condicional ou de informação | **nenhum** | a espada do Toji, o machado da Mei Mei |
+| **2** | **Classe 2** — reativo, com limite por cena ou descanso | **nível 7** | a Katana de Alma Partida |
+| **1** | **Classe 3** — permanente, muda como você joga | **nível 13** | as forjadas de topo |
+| **especial** | **Classe 3**, e ela é **única no mundo** | **nível 13** | Nuvem Divertida · Lança Invertida do Céu · Corrente de Mil Milhas |
 
-**Q2 — O grau 4 dá alguma coisa além de ferir maldição?** *Depende do §2.2 estar certo.* Se ferir maldição é binário e é a porta, **o grau 4 já é a peça inteira funcionando** para a Maki e o Toji — e um grau que não dá efeito nenhum é o degrau mais importante da escada, não o mais fraco. **A pergunta é se isso satisfaz na mesa**, e ela é de sabor.
+**O grau 4 não é o degrau fraco: é o degrau que faz a peça existir.** Ferir maldição é binário, e é a única coisa que a Maki e o Toji não conseguem sozinhos. *Um grau que não dá efeito nenhum é o mais importante da escada.*
 
-**Q3 — Qual é o gate, e ele existe?** O §2.4 matou a patente. Sobram três, e o custo de cada uma está medido no §6:
+**As Classes são as da peça 11 §4, sem inventar nada** — e a frase de lá vale aqui inteira: *não são "mais" e "menos", são formatos*.
 
-| saída | o que ela faz |
+### 5.2 O gate cai da peça 11, e a metade de refino fica de fora
+
+Um `Estigma` de Classe 3 no nível 2 passaria por cima do gate que a peça 11 cobra de uma **aptidão da mesma Classe**. Então o gate é o dela, lido do §6 daquela peça: a Cesta Oca (Classe 1) **não tem gate**; o Domínio Simples e a Pétala (Classe 2) pedem **nível 7**; a Extensão de Domínio (Classe 3) pede **nível 13**.
+
+> **A metade de refino do gate NÃO entra, e isso é decisão.** A peça 11 cobra *nível e refino*. Cobrar refino aqui **trancaria a peça na cara de quem ela existe para atender** — a Restrição Celestial pelo ramo da Maki não tem refino nenhum, porque não tem energia. *O gate herda o número e recusa o eixo.*
+
+### 5.3 O que separa grau 1 de especial: escassez, e não mecânica
+
+**Os dois dão um `Estigma` de Classe 3, e a diferença é de ficção.** Grau 1 se forja; **especial é uma só que existe**, com nome próprio. *Decisão do Mizuki, e é o que o material diz* — Nuvem Divertida, Lança Invertida do Céu e Corrente de Mil Milhas são objetos únicos, não categorias de produto.
+
+**Isso é zero número novo**, e o que ele governa é a mão do mestre: uma especial aparece uma vez por arco, e não duas na mesma mesa.
+
+### 5.4 `Desgaste` — a restrição que compra o gate
+
+*Decisão do Mizuki: a deterioração entra por balanceamento, porque **a Corda Negra é diferente da Lança Invertida por um motivo**.* Na fonte ela *"perturba e cancela técnica alheia"*, que é trabalho de topo — e *"se deteriora com o uso"*, que nenhuma outra faz.
+
+> **`Desgaste` — a ferramenta ignora o gate de nível do `Estigma` dela.**
+> **Em troca ela se gasta: a cada missão em que o `Estigma` foi usado, ela desce um grau. No grau 4 ela é arma comum, e não volta.**
+
+**A máquina é da casa e já foi validada:** é o §5.0.4 de Equipamento — *"`Volumosa`, `Embainhada` e `Comprida` devolvem 1 ponto"* — uma camada acima. **Restrição de verdade compra acesso.**
+
+**E `Desgaste` compra o GATE e não a Classe, de propósito.** Classe é **formato**, e a peça 11 escreve isso com todas as letras; uma restrição que subisse a Classe estaria misturando formato com magnitude, que é o eixo que este projeto separa desde a v0.30. **O gate é número puro — nível 7, nível 13 —, e número é o que se compra.**
+
+**O prazo tem tamanho medido:** a peça 12 diz que um nível custa de **1 a 10 missões padrão**. Uma ferramenta de grau 1 com `Desgaste` dura **três missões** de uso antes de virar arma comum — perto de um nível inteiro de campanha na faixa baixa, e uma fração na alta. *É a Corda Negra: trabalho de Lança Invertida na mão de quem não tem nível para isso, e ela não dura.*
+
+### 5.5 O teto, e ele fechou a pergunta mais perigosa da peça
+
+*Eu tinha escrito que "como uma ferramenta entra numa ficha" era **a que decide se a peça funciona** — num server com cinco a sete mestres, quem entrega o item é a maior fonte de divergência que existe. **Com uma `Estigma` por ferramenta, ela deixa de ser perigosa.***
+
+> **A arma tem teto pelas mãos. O apoio tem teto de duas.**
+
+| ficha do mesmo nível | `Estigmas` |
 |---|---|
-| **nível** | o marco é a cadência que já existe — grau 4 no nv2, e um grau novo a cada dois marcos põe o especial no nv30 |
-| **faixa de nível** | cinco faixas iguais: 2–6 · 7–12 · 13–17 · 18–23 · 24–29 |
-| **nenhum** | o mestre entrega o que a ficção da missão pedir, e o teto vem do §6 |
+| mestre avaro — arma grau 4, sem apoio | **0** |
+| caso normal — uma arma com Estigma | 1 |
+| **teto declarado** — arma mais dois apoios | **3** |
+| extremo — duas armas de uma mão mais dois apoios | 4 |
 
-**Q4 — Quantas ferramentas que não ocupam mão, ao mesmo tempo?** É a única metade da sintonização do D&D que este projeto precisa importar. **A de arma já tem teto pelas mãos** (§2.3).
+**A divergência inteira entre o mestre mais avaro e o mais generoso da Guilda é de um a três `Estigmas`.** Não existe a ficha com cinco ferramentas: as mãos não deixam do lado da arma, e o teto de dois fecha o outro.
 
-**Q5 — Como uma ferramenta entra numa ficha, e isso atravessa sete mesas?** *Esta é a que decide se a peça funciona ou não, e ela não é sobre a ferramenta.* Num server de personagem persistente com cinco a sete mestres, **quem entrega o item é a maior fonte de divergência que existe** — maior que qualquer número desta peça. O projeto já tem o formato de resposta, e ele apareceu duas vezes: *"valor sugerido pelo nível na tabela, e a palavra final do mestre em cima dele — nunca do zero"* (ambiente propício, peça 10; a régua de criação de `Traço`, v0.52).
+**E o tamanho disso tem moeda no projeto.** Um `Estigma` de Classe 3 é o mesmo formato de uma **aptidão** de Classe 3, e aptidão se compra com escolha de marco — que são **sete na campanha inteira**:
 
-**Q6 — A que canaliza sozinha é grau ou é categoria?** A Maki não precisa de uma ferramenta *forte*: precisa de uma que **funcione sem energia dela**. Pelo §2.2 isso é a porta, e a porta é o grau 4. *Então a resposta provável é "toda ferramenta canaliza sozinha, e é isso que ferramenta quer dizer"* — mas isso reprecifica a frase da peça 5 §3, que fala em *"item caríssimo"*. **Precisa de decisão escrita.**
+| `Estigmas` na ficha | do orçamento de escolha de marco |
+|---|---|
+| 1 | 14% |
+| **3 — o teto declarado** | **43%** |
+| 4 — o extremo | 57% |
 
-**Q7 — A deterioração existe?** A Corda Negra *"se deteriora com o uso"* e é a única do material com prazo. É a máquina de relógio que a peça 10 e a peça 13 já usam. *Baixa prioridade: ela é sabor de uma entrada, não da escada.*
+*A tabela do D&D não traduz em volume: ela entrega ~53 itens de raridade rara ou acima para um **grupo** em vinte níveis, porque lá o item se mede em dano e o grupo divide. **O que traduz é a estrutura** — tabela sugerida por faixa com a palavra final do mestre em cima, que é o que a peça 10 e a régua de criação de `Traço` já fazem aqui.*
+
+### 5.6 O catálogo — onze `Estigma`, com a triagem rodada em cada nome
+
+*Escrito na v0.55. A régua é a das Classes da peça 11 §4, e o degrau de cada entrada foi derivado dela e não escolhido depois.*
+
+#### Classe 1 · grau 3 — efeito pequeno, condicional ou de informação
+
+| `Estigma` | o que faz | de onde veio |
+|---|---|---|
+| **`Fiel`** | ela volta para a sua mão no seu turno. **Não dá para te desarmar dela** | a espada-mão do Haruta, na versão pequena |
+| **`Aferido`** | ao encostar numa maldição, **você sabe o grau dela** | a instituição classifica por grau, e ninguém sabe olhando |
+| **`Presságio`** | ela avisa que há maldição perto, **antes de você ver** | — |
+| **`Perene`** | ela não quebra, não enferruja e funciona onde arma comum não funciona | as forjadas antigas que atravessam eras |
+
+> **O `Presságio` existe por causa de uma ficha específica, e vale escrever qual.** A Restrição Celestial pelo ramo da Maki não tem **Sentir Energia** — está na peça 9, junto com *sem PE* e *sem golpe canalizado*. **É a única perícia do sistema que uma Origem inteira não pode ter**, e a ferramenta é o jeito que a obra dá para ela compensar. *A entrada não foi desenhada e depois justificada: ela saiu do buraco.*
+
+#### Classe 2 · grau 2 — reativo, com limite de uso por cena ou por descanso
+
+| `Estigma` | o que faz | de onde veio |
+|---|---|---|
+| **`Quebranto`** | **Reação:** anula um feitiço que ia te acertar. Uma vez por cena | a Corda Negra, *"perturba e cancela técnica alheia"* |
+| **`Avulsa`** | **Reação:** a arma sai da sua mão e faz o ataque sozinha | a espada-mão do Haruta |
+| **`Bojo`** | uma vez por descanso curto, ela **guarda um feitiço que você lançou e o devolve sem custo de PE** | o Osso de Dragão, *"acumula e ejeta energia"* |
+
+#### Classe 3 · grau 1 e especial — permanente, muda como você joga
+
+| `Estigma` | o que faz | de onde veio |
+|---|---|---|
+| **`Anátema`** | **o contato anula técnica amaldiçoada** | a Lança Invertida do Céu |
+| **`Cisão`** | o golpe dela **causa dano de alma no lugar do dano de vida** | a Katana de Alma Partida |
+| **`Insondável`** | enquanto a ponta dela estiver escondida, o alcance dela é **na cena** | a Corrente de Mil Milhas, *"estende infinitamente enquanto a ponta ficar escondida"* |
+| **`Contrapeso`** | ela **ignora o requisito de Força** da arma | a Nuvem Divertida, que qualquer um empunha |
+
+> **O `Cisão` é Classe 3 e não Classe 2, e a obra é quem manda.** *Decisão do Mizuki:* a Katana de Alma Partida não faz uma coisa uma vez por cena — **ela corta a alma, sempre**, e é isso que ela é. **Permanente é o formato certo.**
+>
+> **E permanente aqui não é upgrade, o que é o que faz ele caber.** A Integridade é `20 + 8 × (nível − 1)` e não tem Caminho nem Constituição dentro; a lista de playtest do `ESTADO-ATUAL` já registra que *"a alma é maior que o corpo em quatro dos cinco Caminhos, então quase todo mundo cai antes"*. **Trocar dano de vida por dano de alma é pior contra quatro dos cinco Caminhos e melhor contra um** — é troca, não escada. *É literalmente o que "muda como você joga" quer dizer.*
+
+*O `Insondável` usa as três faixas de alcance que o rascunho de Invocações fixou na mesma versão — **no combate · na cena · fora da cena** —, em vez de criar metragem própria. **Um número, um dono**, e este tem.*
+
+### 5.7 As onze passaram nas três travas, e uma delas foi apagada
+
+**Nenhuma das onze dá dado de dano, nenhuma cresce com refino, nenhuma soma número numa rolagem disputada.** Rodado entrada por entrada, e não afirmado.
+
+> **E uma foi arrancada depois de escrita: a `Vazadura`**, que ignorava a Redução de Dano do alvo. *Decisão do Mizuki: **ignorar RD não entra neste sistema.*** Ela tinha passado na conta — a fração que ela anula anda só 3,3 pontos percentuais em vinte e oito níveis, então ela não derivava —, **e passar na conta não é o mesmo que ser uma boa regra.** A RD é o produto que a peça 11 §6 vende por 2 PE, e um item que a apaga é um item que responde a uma escolha de outro jogador com um "não".
+>
+> *Fica registrado porque o método é o que sobrevive: a conta diz o que é legal, e ela não diz o que deve existir.*
+
+No lugar dela entrou o **`Bojo`**, que sai do Osso de Dragão e cobra num eixo que a peça 11 §2 **autoriza por escrito** — *custo*. Ele é o único dos onze que só serve a feiticeiro, e isso é aceito: **grau 4 é a entrada de quem não tem energia**, e o resto da escada não precisa ser neutro.
+
+**E o `Contrapeso` foi medido pelo motivo contrário:** ele vale `+2,0` de dano médio para quem tem Força 0 a 2, e **zero** para quem tem Força 3 — o mesmo perfil que a v0.49 mediu no requisito de Força e aceitou como alvo legal. **O gate de nível 13 é o que o segura:** no primeiro nível em que ele pode existir ele vale **3,5%** da Rotina, e cai para **1,6%** no nível 30. *Encolhe com o nível, que é o oposto de derivar.*
+
+### 5.8 O que continua aberto
+
+- **O validador da peça** — §7. Sem ele o catálogo não vira peça, porque o `conferir-repositorio.py` conta peças contra validadores.
+- **Os nomes próprios das ferramentas do material**, se a peça for publicar um catálogo de itens além do catálogo de `Estigma`.
+- **A ordem de fechamento:** Invocações é a posição 1 da fila e ainda é rascunho. Se esta fechar antes, ela vira a **peça 15** e Invocações a 16 — e a linha do `RASCUNHO-invocacoes.md` que diz *"ele vira a peça 15 quando fechar"* precisa mudar no mesmo dia.
 
 ## 6. Os números que a peça vai precisar, já rodados
 
@@ -223,6 +316,12 @@ Cinco graus contra três formatos, no molde mais simples que fecha:
 Anotado agora porque é mais barato do que descobrir depois.
 
 - **A camada não pode furar o fundo de Equipamento.** Toda ferramenta é uma das 52 armas mais a camada; **a arma por baixo continua gastando `3` ou `5` exatos**. Perturbar uma ferramenta para dar um passo de dado tem de acender.
+- **Um `Estigma` por ferramenta, e nunca dois.** Perturbar uma entrada para carregar dois tem de acender.
+- **O gate lido da peça 11 §6, nunca de constante** — nível 7 para Classe 2 e nível 13 para Classe 3, e o contra-teste é perturbar o gate da Extensão de Domínio **na peça 11** e ver o gate do grau 1 andar junto. *A lição nº 8, na forma em que ela mais reincidiu aqui.*
+- **Nenhum gate de refino em lugar nenhum desta peça.** É invariante de texto: a rota que a peça atende não tem refino, e um gate de refino a tranca. Perturbar uma entrada para pedir refino tem de acender.
+- **O `Desgaste` compra o gate e nunca a Classe.** Perturbar uma entrada de `Desgaste` para subir Classe tem de acender — misturar formato com magnitude é o eixo que o projeto separa desde a v0.30.
+- **O teto de `Estigmas` na ficha, com busca exaustiva** sobre as rotas de mão de Equipamento cruzadas com o teto de apoio: **o máximo declarado é 3**, e o extremo de duas armas de uma mão mais dois apoios é 4. Perturbar o teto de apoio para 5 tem de fazer a checagem acusar que a ficha passa de 57% do orçamento de escolha de marco.
+- **A escada de grau conferida contra a peça 11 §4**: cada grau declara **uma** Classe, e ela existe lá.
 - **Nenhum grau dá dado de dano, nem número que cresça com refino** — as duas travas que o catálogo de Invocações já carrega, aqui pelo mesmo motivo.
 - **A escada de grau lida do documento dono, nunca de constante.**
 - **A patente e o grau da ferramenta não podem se tocar em lugar nenhum do texto.** É invariante de texto e não de número, no molde do que Equipamento faz com o teto de Defesa — e o motivo é a espiral fechada da peça 12.

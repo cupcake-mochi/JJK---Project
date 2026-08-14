@@ -4,6 +4,8 @@
 
 Escrito na **v0.54**, com o Mizuki fora. **Nenhuma Trilha é escrita aqui.** O que está aqui é: o que já está travado, o que a conta já responde, o problema de escala com número, e as perguntas na ordem em que uma trava a outra.
 
+**Na v0.55 a Q1 e a Q4 fecharam** — sem multiclasse, e as subtrilhas cruzam Trilhas do mesmo Caminho. **Sobram a Q2, a Q3 e a Q5**, e a Q3 é a que decide se esta peça custa uma versão ou seis.
+
 ---
 
 ## 1. O que chega pronto, e não se rediscute
@@ -102,7 +104,7 @@ Quinze Trilhas multiplicam tudo. **Este é o custo real, medido contra o que est
 
 ## 3. As perguntas, na ordem em que uma trava a outra
 
-**Q1 — Uma Trilha por ficha, ou mais de uma ao longo da campanha?** *É a pendência nº 3 do `ESTADO-ATUAL`, aberta desde a v0.22, e ela trava todas as outras* — porque decide se a peça escreve quinze coisas exclusivas ou quinze coisas que se combinam. **Duas Trilhas por ficha multiplicam o espaço de dominância por 105** (as combinações de 15 tomadas 2 a 2), e isso é o que a matriz do validador teria de varrer.
+**Q1 — FECHADA na v0.55.** *Decisão do Mizuki:* **Caminhos não se misturam — não existe multiclasse neste sistema.** Uma Trilha por ficha, e a pendência nº 3 do `ESTADO-ATUAL`, aberta desde a v0.22, fecha com ela. **Isso mata as 105 combinações** que eu tinha orçado como o maior risco de matriz da peça.
 
 **Q2 — Quantas entregas por Trilha, e em que níveis?** O §2.2 já diz que **mais de uma**, e o §2.1 diz **onde cabem**. O que decide é o §2.3 — quanto custa escrever. *Recomendação de método, e só de método: comece por **4** (níveis 2, 10, 18, 26), que é a densidade do D&D 2024 ajustada para 29 níveis, cai em nível de marco e dá 60 entradas — a ordem de grandeza que a peça 13 fechou em uma versão.*
 
@@ -112,7 +114,13 @@ Quinze Trilhas multiplicam tudo. **Este é o custo real, medido contra o que est
 - **quanto** ela vale, contra os `6%` a `9%` da Rotina
 - **o que ela não pode ser** — dado de dano (peça 5 §4), nada que cresça com refino (peça 11 §2), e nenhuma ação a mais por rodada sem pagar na economia de ação (peça 6 §4)
 
-**Q4 — As subtrilhas existem?** *O nome da peça na fila as inclui e nenhum documento diz o que são.* Se existirem, elas multiplicam de novo por cima da Q1. **Precisa de decisão antes da régua**, porque a régua tem de saber quantas camadas está precificando.
+**Q4 — FECHADA na v0.55, e ela devolve metade do que a Q1 tinha economizado.** *Decisão do Mizuki:* **as subtrilhas existem, e elas cruzam Trilhas do mesmo Caminho** — o Bastião pega uma subtrilha de `Muro` e uma de `Punho`, e nunca uma do Guia.
+
+> **A árvore, fechada:** `Caminho` (5, exclusivo) → `Trilha` (3 por Caminho) → `subtrilha` (**cruza as três Trilhas do Caminho**).
+
+**O que isso custa está medido, e é o número que a régua tem de aguentar:** a matriz de dominância deixa de varrer as 15 Trilhas e passa a varrer **as combinações de subtrilha dentro de cada Caminho**. E a pergunta aberta desde a v0.24 muda de forma: *"o Guia contra a Vanguarda"* vira ***"esta combinação de Guia contra aquela combinação de Vanguarda"***. **A régua (Q3) tem de nascer sabendo disso** — ela não está precificando quinze coisas exclusivas, está precificando peças que se somam dentro do Caminho.
+
+*A Q1 tirou as 105 combinações entre Caminhos; a Q4 devolveu as combinações dentro deles. O saldo é bom — cruzamento dentro de um Caminho é escolha de construção, e entre Caminhos era multiclasse —, mas não é zero, e a régua paga a diferença.*
 
 **Q5 — O que cada Trilha entrega, entrada por entrada.** *Última de propósito.* É a passada de conteúdo, e ela só começa depois da Q3.
 
