@@ -43,10 +43,17 @@
 
 ### nível 7 · Ataque extra *(já decidido)*
 
-### nível 15 · Não Cede
-> **Quando você falha num Teste de Resistência, role de novo e use o segundo resultado.** **`Metade da sua maestria` vezes por descanso curto** — `1` no nível 2, `2` no 30.
+### nível 15 · Não Cede — *fechada na v0.71: maestria cheia, uma por rodada*
+> **Quando você falha num Teste de Resistência, role de novo e use o segundo resultado.**
+> **`Maestria` vezes por descanso curto — `1` no nível 2, `4` no 30 — e no máximo uma por rodada.**
 
-*O `Indomitable` do Guerreiro do 5e roda com um uso por descanso **longo**. Aqui são `1` a `2` por descanso **curto**, que dispara três a quatro vezes por dia — e continua sendo o degrau de relógio que este sistema usa.*
+*O `Indomitable` do Guerreiro do 5e roda com um uso por descanso **longo**. Aqui é por descanso **curto**, que dispara três a quatro vezes por dia — e continua sendo o degrau de relógio que este sistema usa.*
+
+**O preço, que faltava:** uma rerrolagem vale **`25` pontos percentuais no pico** — número do projeto, medido duas vezes (peça 13 §7 e o Limiar da peça 11). Convertido para a moeda daquela seção, ela entrega **`12,75` pontos percentuais médios por dia** no nível 30.
+
+> **O cap de uma por rodada é do Mizuki, e ele é o que segura a regra.** Sem ele, `4` usos numa luta de `3,7` rodadas são **mais usos do que rodadas** — o contador para de limitar e a entrega deixa de ser botão. **Com ele, o teto bate onde a escala de taxa do projeto já para: `100%`, que é a definição de permanente.** *O cap raspa 7% do topo e não morde em nenhum nível abaixo do 26.*
+
+**E quem limita de verdade é outra coisa:** você só gasta um uso quando **falha** um Teste de Resistência, e **ninguém escreveu quantos Testes de Resistência uma luta tem.** Pelas âncoras que existem — `4,7` rolagens de todo tipo por cena —, o contador quase nunca aperta. *Fica marcado para o playtest, junto com todo o resto.*
 
 ### nível 30 · Não Acabou
 > **Quando você reduz um alvo a 0 de vida, você recupera a sua Reação e o seu movimento, e pode fazer um golpe simples.** **Até `metade da sua maestria` vezes por rodada.**
@@ -194,10 +201,12 @@
 
 *A `Coleira` saiu daqui e foi para o nível 7, como você pediu.*
 
-### nível 7 · Coleira
-> **As suas invocações são treinadas nas perícias e Testes de Resistência que a ficha delas tiver, e somam `metade da sua maestria` no acerto.**
+### nível 7 · Coleira — *corrigida na v0.71: era `metade da maestria` e virou `+1` fixo*
+> **As suas invocações são treinadas nas perícias e Testes de Resistência que a ficha delas tiver, e somam `+1` no acerto.**
 
-**Passa nas duas travas que importam.** *Contra a regra que governa tudo* — metade da maestria cresce `+2` na campanha contra os `+3` do outro lado, então **ela encolhe de leve em vez de derivar**. *Contra o vão* — vale `5,40` no nível 30, e o vão é `7`; o treino preenche o resto como utilidade, sem preço em dano.
+> **A versão anterior estourava o vão em 54%, e o defeito era de leitura.** Ela dava `metade da sua maestria`, que é `1` até o nível 25 e **`2` do 26 em diante** — e o texto preçava o degrau do nível 30 com o número do `+1`. A conversão do projeto é **relativa** (peça 15 §3.3: *"+1 no acerto = 50% → 55% = +10% de dano saído"*), então `+2` vale o dobro: **`10,80` contra um vão de `7`.**
+
+**Com `+1` fixo ela passa nas duas travas, e a primeira ficou mais forte que antes.** *Contra a regra que governa tudo* — como o sistema segura a taxa de acerto em `50%` em todo nível, `+1` vale `10%` da saída no nível 2 e `10%` no 30. **Ele não deriva por construção**, que é o mesmo argumento da margem crítica da `Presa`, e é melhor que "encolhe de leve". *Contra o vão* — vale `5,40` no nível 30 e o vão é `7`; sobram `1,60`, e o treino preenche como utilidade, sem preço em dano.
 
 ### nível 15 · Escudo de Osso
 > **Reação:** quando você é alvo de um ataque com rolagem, uma invocação sua a até 9 m **recebe o ataque no seu lugar**.

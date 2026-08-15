@@ -117,7 +117,9 @@ Quinze Trilhas multiplicam tudo. **Este é o custo real, medido contra o que est
 
 **Q2 — FECHADA na v0.60.** *Decisão do Mizuki, depois de a conta derrubar a recomendação antiga de `2, 10, 18, 26`.*
 
-> **Entrega de Trilha nos níveis `2 · 11 · 19 · 27`. Entrega de Caminho nos níveis `7 · 15 · 23 · 29`.**
+> **Entrega de Trilha nos níveis `2 · 11 · 19 · 27`. Entrega de Caminho nos níveis `2 · 7 · 15 · 30`.**
+
+> **O calendário de Caminho mudou na v0.70 e a métrica só foi rodada na v0.71.** Ele era `7 · 15 · 23 · 29`, e o desenho dos cinco Caminhos o moveu sem que ninguém refizesse a conta de vão e seca que a Q2 usou para escolhê-lo. **Refeita: vão de `5` para `8` níveis, seca de `24` para `31` missões**, as duas por causa do degrau do nível 23 que saiu. *O modelo reproduz o `vão 5 · seca 24` publicado antes de comparar, que é o que faz a comparação valer.* **Decisão do Mizuki: o vão fica, e é preço aceito e não defeito.** *A Q2 continua de pé; o que caiu é a afirmação de que o calendário de Caminho não tinha se mexido.*
 > **80 entradas** — `4 × 15` de Trilha mais `4 × 5` de Caminho. *As **405 montagens** que esta linha anunciava eram do empréstimo entre Trilhas; com a Q4 refeita na v0.65 elas são **15**, e o calendário não mudou.*
 
 **Os dois degraus não são conceito novo:** a peça 6 §3.1 já escreve *"Bastião e Vanguarda ganham ataque extra no nível 6, **pelo Caminho**; Arremate e Coro ganham **pela Trilha**"*. O que a v0.60 fez foi transformar a distinção existente em calendário.

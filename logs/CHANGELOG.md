@@ -6,6 +6,95 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.71] — 2026-08-15
+
+**A peça 5 §4 deixou de ser lista fechada e virou cerca — e o que fez ela mudar não foi gosto: o desenho dos cinco Caminhos usa oito entregas que ela proibia.** *Duas contas publicadas não reproduziram, e as duas erram do mesmo jeito.* Continuam dezesseis peças e dezesseis validadores.
+
+### Achado — a conversão do projeto é RELATIVA, e dois números publicados leram como absoluta
+
+A cadeia está na peça 15 §3.3: *"+1 no acerto = 50% → 55% = **+10% de dano saído**"*. **Um passo de d20 vale 10% da saída, não 5 pontos percentuais dela** — e a `LISTA-gatilhos` avisa a mesma coisa em outra página: *"dano por rodada já embute os 50% de acerto"*.
+
+| onde | o que dizia | o que a conversão do dono dá |
+|---|---|---|
+| **`Coleira`**, no `DESENHO-caminhos.md` | `5,40` no nível 30 | **`10,80`** — ela dá `metade da maestria`, que é `2` do nível 26 em diante, e foi preçada com o número do `+1` |
+| **`Defesa +1`**, no `DECISOES-pendentes` | `1,70` = `1,34` fatia | **`3,39` = `2,67` fatias** — `5 pp × 33,9` conta o acerto duas vezes |
+
+**A segunda derruba uma conclusão inteira.** Aquele documento fecha dizendo que *"Defesa `+1` cai em 1,34 fatia, exatamente o tamanho de uma entrega — o único molde novo que nasce no tamanho certo sem precisar de janela"*. **Ela é o dobro de uma entrega, e precisa de janela como todo o resto.**
+
+### Achado — o calendário de Caminho mudou na v0.70 e ninguém rodou a métrica
+
+O `DESENHO-caminhos.md` põe o Caminho em `2 · 7 · 15 · 30`. **Quatro documentos continuavam em `7 · 15 · 23 · 29`** — o `ESTADO-ATUAL`, o `RASCUNHO-trilhas`, o `DECISOES-pendentes` e a auditoria.
+
+*O modelo reproduz o `vão 5 · seca 24` publicado antes de comparar, que é o que faz a comparação valer:*
+
+| Caminho | vão | seca | empilha em |
+|---|---|---|---|
+| `7 · 15 · 23 · 29` | **5** | **24 missões** | — |
+| `2 · 7 · 15 · 30` | **8** | **31 missões** | níveis 2 e 30 |
+
+**Quem carregava as duas métricas era o degrau do nível 23.** Sem ele abre um vão de oito níveis entre o 19 e o 27, e uma seca de trinta e uma missões entre os marcos 22 e 26. *E `vão 8` é o número que reprovou um dos dois calendários candidatos da Q2* — o que põe a entrada da v0.70 se contradizendo dentro dela mesma, porque ela recusa mudar o calendário com o argumento *"piora vão e seca"* e vinte linhas depois registra um que piora.
+
+> **Decisão do Mizuki: o calendário fica, e o vão é preço aceito.** *"O resto do sistema vai carregar esse vão pelas classes."* O que ele compra é identidade de Caminho no nascimento e capstone no 30 — o formato do Paladino de 2024, que a própria auditoria conferiu em `3 · 7 · 15 · 20`. **Os quatro documentos foram acertados; a auditoria não, porque ela é datada.**
+
+### Achado — a âncora de `3,3` rodadas não sai do documento que ela cita
+
+A `LISTA-gatilhos-trilhas.md` ancora *"a luta dura 3,3 rodadas"* na **peça 15 §3.2**. Aquela seção tem **zero** ocorrências da palavra *rodada*, e o `3,3` não aparece em lugar nenhum daquela peça como duração de luta. **A dona é a peça 1: `3,4` a `4,0`**, e as peças 11 e 14 usam `3,5` e `3,7`.
+
+**Nada quebra:** com `3,7`, o `1× por descanso curto` vale `27%` em vez de `30%` — continua acima do piso de `20%`, e o `1× por dia` continua reprovando. *Mas uma das duas taxas que a auditoria declara "saírem de documento" não sai de nenhum, e toda entrada preçada a 30% está 11% generosa.*
+
+### Achado — as "oito famílias do permitido" não são o permitido
+
+A auditoria e a `LISTA-gatilhos` medem oito famílias e chamam de *"o que a peça 5 §4 autoriza"*. **Elas tiram `treino`, que é linha de verdade e não tem conversão em dano, e põem `acerto`, que não é linha nenhuma** — e a v0.68 já tinha registrado isso como erro meu, com estas palavras: *"a lista tem sete linhas e acerto não é uma"*. Duas versões depois o nível 7 do Evocador concede acerto.
+
+### Decidido — a §4 vira cerca curta com exemplos preçados
+
+*Escolha do Mizuki: **"primeiro mede, depois corta, depois coloca exemplos pra não termos erros de novo."***
+
+> **A cerca são seis proibições. Fora delas quem decide não é a lista — é o preço, e onde não existe preço, o teto de maestria.**
+
+**Duas das seis são novas, e as duas teriam pego erro meu desta sessão:** `Redução de Dano passiva` — a regra do manual que matou a Passiva Casca na v0.26, e que a v0.70 furou desenhando a `Muralha` — e `refino dentro de uma rolagem`, que morava só na peça 11. *A segunda saiu estreitada na revisão cética: refino continua legal em custo, frequência e escopo, e escrever "refino como variável" proibiria o que a peça 11 autoriza.*
+
+**As sete linhas viraram tabela de exemplos com janela e preço**, declarada não exaustiva. *A troca do fixo e a ação a mais ficam nela para serem vistas e não compradas — mesmo no piso de 20% elas custam 85% e 425% do orçamento de uma Trilha.*
+
+### Decidido — o que mexe em rolagem e não tem conversão entra com teto de maestria
+
+*Regra do Mizuki.* `auxílio`, `rerrolação` e `utilidade` são legais e o projeto não sabe preçar — falta a conversão de dano causado por outro, e falta saber quantos Testes de Resistência uma luta tem.
+
+> **Não é preço; é garantia de que a coisa não deriva.** Maestria é o único número que cresce com nível e ela cresce `+3`, o mesmo ritmo de quem está do outro lado da rolagem.
+
+**E `repertório` fica de fora do teto, o que ele mesmo desconfiou:** trocar um feitiço já é o menor tamanho que existe, e teto de maestria ali faria a entrega **crescer**.
+
+### Decidido — `Coleira` vira `+1` fixo, e `Não Cede` vira maestria cheia com um por rodada
+
+**A `Coleira` melhorou trocando `metade da maestria` por `+1`.** Como o sistema segura a taxa de acerto em `50%` em todo nível, `+1` vale `10%` da saída no nível 2 e `10%` no 30 — **não deriva por construção**, que é o argumento da margem crítica da `Presa` e é mais forte que o *"encolhe de leve"* que estava escrito.
+
+**O `Não Cede` ganhou o preço que faltava e um cap que é dele.** Uma rerrolagem vale `25` pontos percentuais no pico, e a entrega dá `12,75` pontos percentuais médios por dia no nível 30. *Eu ofereci três saídas e ele escolheu uma quarta:* **maestria cheia, no máximo uma por rodada.** Sem o cap, `4` usos numa luta de `3,7` rodadas são mais usos do que rodadas e o contador para de limitar; com ele, o teto bate em `100%`, que é onde a escala de taxa do projeto já para.
+
+### Registrado — o validador pegou uma perda de conteúdo minha
+
+Reescrevendo a §4 eu apaguei o *"uma vez por cena"* que **definia o que é uma exceção estreita**. O `conferir-descanso.py` acendeu na hora, porque ele reconta os usos de `por cena` na pasta e compara com o total publicado na peça 10: **91 escrito, 90 contado.** *Ele foi escrito para pegar total guardado a mão envelhecendo, e pegou uma regra sumindo.* **Restaurado, com a definição em negrito desta vez.**
+
+### Registrado — o levantamento, e uma afirmação minha que caiu
+
+**Eu disse que "cerca curta mais exemplos" é o formato do 5e. Não é: o DMG de 2024 traz guia para criar antecedente, criatura e magia, e nenhum para subclasse.** *Casa com o documento da Paizo que a v0.70 já citou, dizendo que não existe sistema concreto para desenhar classe.*
+
+**Quem tem é o Mutants & Masterminds**, e ele roda esta arquitetura há três edições: **quarenta efeitos fechados** em seis tipos — Ataque, Controle, Defesa, Geral, Movimento, Sensorial —, cada um declarando **ação, alcance, duração e custo por grau**, mais Extras e Flaws que mexem no preço. **E os vinte e um "poderes de amostra" não são efeitos novos: são combinações nomeadas dos quarenta, já somadas.** *É a camada de exemplos existindo publicada.*
+
+**As duas coisas que isso trouxe para a §4:** cada exemplo declara janela e preço na própria linha — que é justamente o que faltava para três famílias serem precificáveis —, e **`Defesa` é um tipo de primeira classe lá**, enquanto aqui ela não estava nem no permitido nem no proibido.
+
+### Em aberto
+
+- **As quinze Trilhas.** É o próximo bloco, e o método está decidido na auditoria §7: escrever em ficção a partir do material, o Mizuki revisa a ficção, e só depois eu preço.
+- **Abrir a lista não consertou a causa raiz, e isso está medido.** Das seis famílias candidatas, três não têm conversão e a que tem — defesa — precisa de janela como todas. **Saímos de três tipos vivos para quatro.**
+- **Três conversões que não existem:** dano causado por outra pessoa, quantos Testes de Resistência uma luta tem, e recuperar condição.
+- **A `LISTA-gatilhos` e a auditoria precisam da passada de conversão** — o `3,3`, as taxas de 30% e a família `acerto` que não é linha.
+- **As treze Manhas** da Vanguarda, e a **`Modelagem`** do Emanador conferida contra o Fundamento.
+- **A lista de ações** — peça nova ou seção da peça 3, e o `Provocar` medido contra os `−25 pp` da peça 11.
+- **Duas escolhas de sabor do desenho:** `d6` ou `d8` no `Corpo Duro`, e qual `Voz Grossa`.
+- As de sempre: as vagas de Desliga, a Cicatriz, Energia Reversa, o clash, o nome do sistema, o refino que paga mal no marco.
+
+---
+
 ## [0.70] — 2026-08-15
 
 **A Q3 de Trilhas não estava travada por falta de número: a régua não conseguia reprovar nada, e o método de Caminho e Trilha foi remodelado por cima disso.** *Três recomendações minhas caíram na segunda validação, e o Mizuki achou quatro coisas que nenhum validador alcança.* Continuam dezesseis peças e dezesseis validadores — o material desta versão mora em quatro documentos de trabalho na raiz, e vira peça quando fechar.

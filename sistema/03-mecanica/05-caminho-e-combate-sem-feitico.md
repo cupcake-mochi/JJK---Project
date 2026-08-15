@@ -92,29 +92,66 @@ O chassi. **Escolhido na criação**, com poucas escolhas de Trilha ao longo dos
 ### A trava
 
 > **O Caminho não dá poder novo. Ele muda o que o seu poder alcança.**
+> **A cerca são seis proibições. Fora delas quem decide não é a lista — é o preço, e onde não existe preço, o teto de maestria.**
 
-Um Caminho mexe em **posicionamento, alvo, duração e recuperação**. Nunca em número de dano.
+O motivo da primeira é o pilar 1: a técnica é a identidade. Se o Caminho desse dano, dois personagens do mesmo Caminho começariam a se parecer, e a coisa que os distingue — a técnica que cada um escreveu — perderia espaço.
 
-O motivo é o pilar 1: a técnica é a identidade. Se o Caminho desse dano, dois personagens do mesmo Caminho começariam a se parecer, e a coisa que os distingue — a técnica que cada um escreveu — perderia espaço.
+> **Esta seção era uma lista fechada de sete linhas até a v0.71, e ela tinha dois defeitos medidos.** A frase-trava enumerava **quatro** coisas enquanto a lista abaixo tinha **sete** — as duas nunca bateram. E o desenho dos cinco Caminhos usou **oito** entregas que nenhuma das sete autorizava, incluindo três que o próprio projeto já tinha aprovado. *Enumerar no topo é o que envelhece; a cerca não.*
 
-### O que um Caminho pode conceder
+### A cerca — seis coisas que um Caminho nunca dá
 
-- Treino em perícias e em um Teste de Resistência — **duas perícias fixas e quatro à escolha livre**, mais um ofício fixo e outro livre (peça 7)
-- Mover-se, reposicionar, forçar reposicionamento alheio
-- Escolher ou trocar alvo de um efeito que já existe
-- Estender duração de um efeito que já existe
-- Recuperar — PE, ferimento, condição, Integridade
-- Trocar o valor fixo do ataque de conjuração por um atributo
-- Abrir exceção estreita e paga na economia de ação
+- **Dado de dano.** O dado do soco e o da arma são **equipamento**; o Caminho mexe no que se faz com eles.
+- **Aumento de Classe de feitiço.**
+- **Melhoria de graça.**
+- **Cura**, que é Forma de feitiço — quem fechou a Família Amparo nunca vai curar, e nenhum Caminho contorna isso.
+- **Redução de Dano passiva.** Resistência a um tipo, sim; desconto em tudo, não. *É a regra do manual que matou a Passiva Casca na v0.26, e ela nunca tinha sido escrita nesta peça — a v0.70 furou ela desenhando uma reação de RD para aliados antes de alguém notar.*
+- **Refino dentro de uma rolagem** — acerto, CD, Defesa, Teste de Resistência ou dano. Ele cresce `+7` a `+9` na campanha contra os `+3` de quem está do outro lado, e não existe número que conserte isso. *Fora da rolagem ele continua valendo: custo, frequência, escopo e disputa contra outro refino são a peça 11 e não mudam aqui.* **A métrica do Caminho é a maestria**, que cresce `+3`.
 
-O último item é a resposta à sua observação sobre ataque de oportunidade: uma Trilha **pode** deixar o personagem conjurar na Reação, mas sob condição estreita — uma vez por cena, ou só com feitiço de Classe baixa. Como recurso de um caminho específico, não como direito universal. A Melhoria Reação continua valendo o que vale.
+### O que um Caminho concede — exemplos, com preço
 
-### O que um Caminho não pode conceder
+**A tabela é exemplo e não fronteira.** Entrega que não está aqui é legal se passa da cerca e se o preço cabe no degrau. *Medido no nível 30, que é onde a fatia foi definida; uma entrega de Trilha vale `1,00` fatia.*
 
-- Dados de dano
-- Aumento de Classe de feitiço
-- Melhoria de graça
-- Cura, que é Forma de feitiço — quem fechou a Família Amparo nunca vai curar, e nenhum Caminho contorna isso
+| família | exemplo | janela | dano/rodada | fatias |
+|---|---|---|---|---|
+| **posicionamento** | mover-se `+1,5 m` | permanente | `0,90` | **0,71** |
+| | mover-se `+3 m` | permanente | `1,80` | **1,42** |
+| **alvo** | o golpe simples pega 2 | 1× por descanso curto | `3,45` | 2,72 |
+| | idem | permanente | `11,50` | 9,06 |
+| **defesa** | `+1` de Defesa | quando você acerta | `1,70` | **1,33** |
+| | `+1` de Defesa | permanente | `3,39` | 2,67 |
+| **recuperação** | recuperar `+1` PE | 1× por descanso curto | `1,54` | **1,21** |
+| | recuperar `+1` PE | permanente | `5,14` | 4,05 |
+| **acerto** | `+1` no acerto das suas invocações | permanente | `5,40` | 4,25 |
+| | `+1` no **seu** acerto | permanente | `10,80` | 8,50 |
+| | trocar o fixo do acerto por atributo | permanente | `21,55` | 16,97 |
+| **economia de ação** | uma ação padrão a mais | permanente | `108,00` | 85,04 |
+
+**Os dois últimos estão na tabela para serem vistos, não comprados.** Mesmo espremidos no piso de taxa de `20%`, a troca do fixo ainda come **85% do orçamento de uma Trilha inteira** numa entrega só, e a ação a mais custa **`17` fatias contra um orçamento de `4`** — **ela reprova sozinha, e é isso que tira a trava da matriz da mão de quem escreve.**
+
+*Exceção estreita e paga na economia de ação continua existindo — é o que deixa uma Trilha conjurar na Reação, ou o Bastião socar como ação bônus. **E "estreita" tem definição:** uma vez por cena, ou só com feitiço de Classe baixa. Como recurso de um Caminho específico, nunca como direito universal. **O que não cabe é ação inteira a mais.** A Melhoria Reação continua valendo o que vale.*
+
+### O que mexe em rolagem e não tem conversão entra com teto de maestria
+
+Três famílias são legais e o projeto **não sabe preçar**: `auxílio` (somar à rolagem de outra pessoa), `rerrolação` (refazer um teste falhado) e `utilidade` (treino em perícia e em Teste de Resistência). Falta a conversão de dano causado por outro, e falta saber quantos Testes de Resistência uma luta tem.
+
+> **Enquanto faltar, o tamanho delas nunca passa da maestria.**
+
+**Isso não é preço — é garantia de que a coisa não deriva.** Maestria é o único número do sistema que cresce com nível, e ela cresce `+3`, que é o mesmo ritmo de quem está do outro lado da rolagem. Um teto em maestria é o único envelope de crescimento que esta peça pode dar sem uma conversão em mãos.
+
+**E `repertório` fica de fora do teto, porque não tem magnitude.** Trocar um feitiço conhecido por outro já é o menor tamanho que existe — pôr teto de maestria ali faria a entrega **crescer**, não encolher.
+
+> **Quanto treino o Caminho dá é da peça 7, e só de lá** — duas perícias fixas e quatro à escolha, mais um ofício fixo e um livre. *Esta seção guardava a própria cópia desses números até a v0.71; ela saiu porque um número que mora em dois documentos vai divergir, e o `conferir-pericias.py` já confere as listas contra a peça dona.*
+
+### O que saiu do permitido, e por quê
+
+*Registrado para ninguém redescobrir. Nenhuma das quatro é decisão de gosto: as três primeiras têm número.*
+
+| linha | o que aconteceu |
+|---|---|
+| **estender duração** | morreu na **v0.68** — `+1` rodada custa de `11` a `43` fatias conforme o comprimento do efeito, e não existe efeito curto o bastante para ela caber. *Continua valendo para aptidão, que tem orçamento de um marco inteiro* |
+| **recuperar ferimento** | reprovou na **v0.70** — vale `0,00` para quem não cai, e o Bastião do nível 30 aguenta `11,7` rodadas contra uma luta de `3,7`. O eixo que decide quanto ela vale é **em quem o mestre resolve bater**, que é a mesma família de defeito que matou a Casca |
+| **recuperar Integridade** | reprovou na **v0.70** — dano de alma esvazia as duas barras ao mesmo tempo, e **o corpo acaba antes em três das quatro fichas**. *Quando a Essência entrar na Integridade, esta linha pode voltar a valer* |
+| **recuperar condição** | espera a peça de **dano e condições**, que não está na fila |
 
 ### Os papéis moram na peça 6
 
