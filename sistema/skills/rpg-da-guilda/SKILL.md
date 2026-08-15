@@ -78,6 +78,8 @@ Perturbe o valor e prove que a checagem certa acende. Três regras, cada uma pag
 
 E, ao escrever a checagem: **separe a regra aplicada do limite de design.** Uma checagem que se mede contra a própria constante sai verde quando você perturba a constante. Esse erro apareceu três vezes em três versões.
 
+**E o primo dele: uma checagem que se mede pelo EIXO errado sai verde exatamente na perturbação que importa.** *Achado na v0.63:* a matriz de dominância continuava zerada com o número que a decisão existia para corrigir. Quando a decisão tiver duas metades, confira as duas separadas — a que a matriz mede e a que ela não mede.
+
 Sempre que der, adicione um **contra-teste**: prove que a alternativa que você rejeitou produziria resultado diferente. Sem ele, uma checagem pode ser trivialmente verdadeira.
 
 ## 6. Onde a checagem mora
@@ -92,9 +94,14 @@ E **nada de valor fica escrito dentro do validador**: leia o número do document
 
 ## 7. Fechar versão
 
+**O commit é sempre do Mizuki, e o caminho dele são duas linhas:**
+
 ```bash
-./subir.sh "o que mudou"       # roda todos os validadores e se recusa a commitar se algum falhar
+jjk               # o atalho que entra na pasta do repositório
+./subir.sh        # sem argumento: usa o mensagem-de-commit.txt e apaga depois
 ```
+
+**Então o seu último passo é deixar a mensagem pronta em `mensagem-de-commit.txt`, na raiz, e avisar.** Não sugira passar mensagem por argumento — ele roda o `subir.sh` pelado. O script roda todos os validadores e **se recusa a commitar se algum falhar**.
 
 - **A entrada do topo do `CHANGELOG` é a dona da versão do projeto.** Subir a versão no `README`, no `ESTADO-ATUAL` ou no `LEIA-ME` sem escrever a entrada **falha** o `conferir-repositorio.py`.
 - **Antes de fechar, revisão cética — inclusive contra o que você mesmo acabou de escrever.** Metade dos achados grandes do CHANGELOG saiu daí. Procure ativamente o erro na sua própria proposta antes de entregá-la.

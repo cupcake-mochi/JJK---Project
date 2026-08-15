@@ -28,8 +28,12 @@ CONTRATO DE INVARIANTES:
   8. EMPILHAMENTO com a Integridade. As duas escadas se cruzam em dois eixos;
      a regra e pegar o pior. A checagem falha se algum eixo somar.
 """
+import os
+import re
 import sys
 import math
+
+AQUI = os.path.dirname(os.path.abspath(__file__))
 
 ERROS = []
 
@@ -372,6 +376,116 @@ else:
     print(f'\n  Deslocamento: exaustao deixa {DESLOC_EXAUSTAO:g} m, Integridade deixa '
           f'{DESLOC_INTEGRIDADE:g} m, de uma base de {DESLOC_BASE:g}.')
     print('  A alma corta mais que o cansaco, e e por isso que os dois numeros diferem.')
+
+# =============================================================================
+# 9. A ESCADA DE RELOGIOS ESTA DEFINIDA, e o degrau mais usado tem dono
+#
+# Entrou na v0.62. A escada da secao 5 existe desde a v0.23 e o degrau mais
+# usado dela — "por cena" — nunca tinha sido definido: 94 usos em 03-mecanica,
+# 71 so no catalogo de Legados, e nenhum documento dizendo o que a palavra
+# quer dizer. A peca 13 SS7 mediu o estrago disso em outro degrau ("por sessao",
+# spread de 3,0x) e reprovou; aqui o degrau ficou.
+#
+# PAR DECLARADO com a checagem 2 do conferir-legados.py. As duas leem a MESMA
+# tabela desta peca: la ela e usada para reprovar relogio de Legado fora da
+# escada, aqui para exigir que a escada esteja definida. Se a tabela mudar de
+# formato, as duas caem juntas — e e por isso que o par esta escrito.
+#
+# NADA DE VALOR FICA ESCRITO AQUI: os quatro degraus saem da tabela, e os dois
+# totais saem de CONTAR a pasta. O numero publicado na peca e conferido contra
+# a contagem, nunca o contrario.
+#
+# O QUE TEM DE ACENDER: apagar a secao "O que conta como uma cena"; esvaziar o
+# gatilho de qualquer degrau; e mexer em qualquer um dos dois totais escritos.
+# CONTRA-TESTE: mexer num numero VIZINHO da mesma secao nao pode acender.
+bloco('9. A ESCADA DE RELOGIOS ESTA DEFINIDA?')
+
+_p10 = os.path.join(AQUI, '10-descanso-e-recuperacao.md')
+_txt10 = open(_p10, encoding='utf-8').read()
+
+_sec5 = _txt10.split('## 5. Os quatro relógios')
+if len(_sec5) < 2:
+    erro('nao achei a secao 5 desta peca — a escada de relogios sumiu ou mudou de titulo')
+else:
+    _corpo = _sec5[1].split('## 6.')[0]
+    _degraus = []
+    for _lin in _corpo.splitlines():
+        _c = [x.strip().replace('*', '') for x in _lin.strip('|').split('|')]
+        if len(_c) >= 2 and _c[0].startswith('por '):
+            _degraus.append((_c[0], _c[1]))
+    if len(_degraus) != 4:
+        erro(f'a escada tem {len(_degraus)} degrau(s) e deveria ter quatro — '
+             'o conferir-legados.py le esta mesma tabela para reprovar relogio '
+             'de Legado fora dela (PAR DECLARADO)')
+    print(f'  os {len(_degraus)} degraus, lidos da tabela desta secao:')
+    for _nome, _gat in _degraus:
+        _ok = len(_gat) >= 4
+        print(f"    {_nome:<22}{'recarrega quando: ' + _gat if _ok else '!! SEM GATILHO'}")
+        if not _ok:
+            erro(f'o degrau "{_nome}" nao diz quando recarrega — um relogio sem '
+                 'gatilho de ficcao e a coisa que a secao 1 desta peca recusou')
+
+    # o degrau mais usado precisa de definicao propria: ele e o unico cuja
+    # duracao o mestre arbitra, e a peca 13 SS7 ja mediu o que isso custa.
+    if '### O que conta como uma cena' not in _txt10:
+        erro('o degrau "por cena" nao tem secao dizendo o que conta como uma cena — '
+             'e ele e o mais usado do projeto. Sem definicao, cada mestre le um '
+             'tamanho, que e o defeito que a peca 13 SS7 reprovou em "por sessao"')
+    else:
+        print('  [x] o degrau "por cena" tem secao propria dizendo o que conta como uma.')
+
+    # LICAO Nº 1: conte, nao guarde o total. Os dois numeros publicados na secao
+    # sao recontados da pasta, e a peca perde se divergir.
+    _alvo = os.path.join(AQUI, '13-legados.md')
+    # A PECA 10 FICA DE FORA DA CONTAGEM, e nao e detalhe: ela e a dona do
+    # relogio, entao a prosa DELA sobre "por cena" nao e um uso, e o total
+    # oscilaria a cada edicao desta secao. E a armadilha de a peca que
+    # documenta o validador conter o texto que ele procura.
+    _tot = sum(open(os.path.join(AQUI, _f), encoding='utf-8').read().count('por cena')
+               for _f in sorted(os.listdir(AQUI))
+               if _f.endswith('.md') and _f != '10-descanso-e-recuperacao.md')
+    _leg = open(_alvo, encoding='utf-8').read().count('por cena')
+    _m = re.search(r'\*\*(\d+)\s+usos de `por cena`.*?dos quais\s+(\d+)\s+no cat[áa]logo',
+                   _txt10, re.S)
+    if not _m:
+        erro('a secao nao publica mais os dois totais de "por cena" no formato que '
+             'esta checagem le — ou o texto mudou, ou ela parou de conferir em silencio')
+    else:
+        _e_tot, _e_leg = int(_m.group(1)), int(_m.group(2))
+        print(f'  contado na pasta: {_tot} usos de "por cena", {_leg} no catalogo de Legados')
+        print(f'  escrito na peca:  {_e_tot} e {_e_leg}')
+        if (_e_tot, _e_leg) != (_tot, _leg):
+            erro(f'a peca publica {_e_tot} e {_e_leg} e a pasta tem {_tot} e {_leg} — '
+                 'total guardado a mao envelhece na primeira edicao de outro '
+                 'documento (licao nº 1)')
+        else:
+            print('  [x] os dois totais publicados batem com a contagem da pasta.')
+
+    # LICAO Nº 9: o 4,7 desta secao e COPIA da tabela de relogios da peca 13 SS7,
+    # que e quem mede rolagens por periodo. Duas copias, e uma delas tem de ser
+    # conferida contra a outra. As outras duas linhas (9,4 e 14,1) sao derivadas
+    # dela por 2x e 3x, entao conferir a base confere as tres.
+    _p13 = os.path.join(AQUI, '13-legados.md')
+    if not os.path.exists(_p13):
+        erro('nao achei a peca 13 para conferir o 4,7 desta secao contra o dono dele')
+    else:
+        _t13 = open(_p13, encoding='utf-8').read()
+        _d = re.search(r'\|\s*por cena\s*\|\s*([\d,]+)\s*\|', _t13)
+        _a = re.search(r'\|\s*a sala, ou o pr[óo]prio combate\s*\|\s*([\d,]+)\s*\|', _txt10)
+        if not _d or not _a:
+            erro('nao consegui ler o "por cena" da peca 13 SS7 ou a linha da tabela '
+                 'de leituras desta secao — uma das duas mudou de formato e o '
+                 'cruzamento parou de acontecer em silencio')
+        else:
+            _vd = float(_d.group(1).replace(',', '.'))
+            _va = float(_a.group(1).replace(',', '.'))
+            print(f'  rolagens por cena: peca 13 SS7 diz {_vd:g}, esta secao usa {_va:g}')
+            if abs(_vd - _va) > 1e-9:
+                erro(f'esta secao usa {_va:g} rolagens por cena e a peca 13 SS7 — que '
+                     f'e a dona da medida — diz {_vd:g}. Um numero, um dono (licao nº 9)')
+            else:
+                print('  [x] a base da tabela de leituras sai do dono, e as outras duas')
+                print('      linhas dela sao 2x e 3x essa base.')
 
 # --------------------------------------------------------------------------
 print()

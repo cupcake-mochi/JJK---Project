@@ -2,7 +2,7 @@
 
 Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.60** · manual do Fundamento na **v7.8** · **dezesseis peças de regra** e **dezesseis validadores passando**.
+**Versão v0.63** · manual do Fundamento na **v7.8** · **dezesseis peças de regra** e **dezesseis validadores passando**.
 
 ---
 
@@ -146,13 +146,22 @@ Ela já matou mais de dez nomes que pareciam livres — três só na v0.28, e um
 
 ## Commitar
 
+**O caminho de todo dia, e são duas linhas:**
+
 ```bash
-./subir.sh "o que mudou"
+jjk               # o atalho que entra nesta pasta
+./subir.sh        # sem argumento: ele usa o mensagem-de-commit.txt e apaga depois
 ```
 
-Ele roda **os dezoito validadores** — os quinze de `03-mecanica/`, o `conferir-repositorio.py` e os dois do manual —, mostra o que mudou, commita e dá push — e **se recusa a commitar se algum falhar**. Desde a v0.33 isso inclui uma trava nova: **subir a versão no README, no `ESTADO-ATUAL` ou no `LEIA-ME` sem escrever a entrada do `CHANGELOG` falha o `conferir-repositorio.py`.** A entrada do topo do CHANGELOG é o dono da versão do projeto. Um commit que registra regra quebrada é pior que nenhum commit: daqui a três versões ninguém sabe em qual commit ela entrou.
+*É assim que o Mizuki commita.* O assistente deixa a mensagem pronta em **`mensagem-de-commit.txt`** e avisa; o `./subir.sh` sem argumento lê o arquivo, commita com ele e o apaga. **Mensagem curta também dá para passar direto:**
 
-Se a mensagem for longa, o assistente deixa ela pronta em `mensagem-de-commit.txt` e você roda `./subir.sh` sem argumento — ele usa o arquivo e apaga depois.
+```bash
+./subir.sh "v0.28 — tabela de XP"
+```
+
+Ele roda **todos os validadores** — os de `03-mecanica/`, o `conferir-repositorio.py` e os dois de `manual/matematica/` —, mostra o que mudou, commita e dá push, e **se recusa a commitar se algum falhar**. *Quantos são, exatamente, está na linha de versão no topo deste arquivo, e só lá — este parágrafo já disse "dezoito" e "quinze" enquanto eram dezenove e dezesseis, porque contagem copiada envelhece na versão seguinte (lição nº 9).*
+
+Desde a v0.33 isso inclui uma trava a mais: **subir a versão no README, no `ESTADO-ATUAL` ou no `LEIA-ME` sem escrever a entrada do `CHANGELOG` falha o `conferir-repositorio.py`.** A entrada do topo do CHANGELOG é o dono da versão do projeto. Um commit que registra regra quebrada é pior que nenhum commit: daqui a três versões ninguém sabe em qual commit ela entrou.
 
 > **O assistente não consegue commitar nesta pasta, e isso não tem conserto.** Ele lê, edita e roda os validadores normalmente, mas o `git commit` falha: o git finaliza cada objeto com *escreve temporário → `chmod` → `rename`*, e o mount pelo qual a pasta é exposta ao sandbox força permissão fixa e **rejeita o `chmod`** (`unable to set permission`). O objeto fica no disco pela metade — aparece no `ls` e não abre. Não é configuração do git; é como a pasta é montada. O commit é sempre seu.
 

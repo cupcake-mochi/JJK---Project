@@ -1,7 +1,7 @@
 # DESCANSO E RECUPERAÇÃO
 
 **Fase 4, décima peça.** Como o combustível volta.
-Versão v0.23, com arredondamento, o que conta como luta, o tamanho dos degraus e o encontro com a Integridade na v0.26 — 10/08/2026
+Versão v0.23, com arredondamento, o que conta como luta, o tamanho dos degraus e o encontro com a Integridade na v0.26, e **o que conta como uma cena na v0.62** — 10/08/2026
 
 O manual do Fundamento cita **descanso seis vezes** e nunca define nenhum dos dois. Sem esta peça, ninguém fecha a primeira sessão: o PE não volta, a vida não volta, e as Passivas com "uma vez por descanso" não têm gatilho.
 
@@ -167,6 +167,36 @@ O manual usa **"uma vez por cena"**, **"uma vez por descanso"** e **"uma vez por
 | **por descanso curto** | você para entre lutas | ↓ |
 | **por dia** | você dorme | ↓ |
 | **por descanso longo** | a missão acaba | a menos frequente |
+
+### O que conta como uma cena
+
+*Escrito na v0.62. A escada estava aqui desde a v0.23 e o degrau mais usado dela nunca tinha sido definido — **91 usos de `por cena` nas outras peças de `03-mecanica`, dos quais 71 no catálogo de Legados**, e nenhum documento dizendo o que a palavra quer dizer.*
+
+> *Os dois números acima são recontados pelo `conferir-descanso.py` toda vez que ele roda, e ele falha se esta linha divergir da pasta.* **Esta peça fica de fora da própria contagem**, e não é detalhe: ela é a dona do relógio, então a prosa dela sobre `por cena` não é um uso — e o total oscilaria a cada edição desta seção.
+>
+> *A primeira versão desta linha dizia `130`, e a segunda dizia `94`.* O `130` saiu de contar **linhas que continham a palavra *cena***, e *"por cena"*, *"a cena anda"*, *"tem cena provando"* e *"fora da cena"* são quatro coisas diferentes; o `94` já era a contagem certa, e envelheceu no mesmo commit em que foi escrita, porque escrever esta seção criou ocorrências novas. **Contar sintoma não é contar causa**, e a lição nº 1 cobrou duas vezes na mesma linha antes de o validador existir.
+
+> **Quem conta é o mestre.** Uma cena pode ser uma sala, ou um segmento de salas, ou um combate. **Ela acaba quando a pressão daquele pedaço acaba** — o inimigo caiu, a porta fechou, o grupo saiu dali.
+
+É a mesma forma da seção 4, e pelo mesmo motivo: *"isso foi uma cena?"* é pergunta sobre o pedaço de jogo que aquele mestre acabou de dirigir, e ninguém está em melhor posição de responder do que ele.
+
+**Mas isso tem um preço, e ele é maior aqui do que na seção 4** — porque a escada acima é usada como **relógio de recarga**, e um relógio que cada mestre lê de um jeito entrega quantidades diferentes de uso na mesma ficha:
+
+| como o mestre lê | rolagens no período | usos por combate |
+|---|---|---|
+| a sala, ou o próprio combate | 4,7 | 1,00 |
+| um segmento curto — duas salas e o combate | 9,4 | 0,50 |
+| o piso inteiro, com dois combates dentro | 14,1 | 0,33 |
+
+**Spread de `3,0×`** — e é o mesmo número com que a **peça 13 §7** reprovou *"por sessão"* e *"por arco"*, escrevendo que ali o filtro do projeto estava falhando com número em cima.
+
+> **A saída não é fechar a definição — é a trava de largura que a peça 13 §7 já tem.** *"Por cena num gatilho de alcance 1 é seguro por construção, não por generosidade — e é por isso que a trava mede largura antes de medir relógio."* Quando o gatilho é estreito, quem limita é a frequência do próprio gatilho e o relógio quase não morde: o `Instinto Bruto` vale +20 pp quando dispara e **1,0 pp médio na ficha, com ou sem relógio**.
+>
+> **Então a regra é sobre quem limita:**
+> **Se o gatilho é estreito** — uma perícia nomeada, um Teste de Resistência nomeado, até três coisas contáveis —, **`por cena` é seguro**, e os 71 usos da peça 13 continuam de pé.
+> **Se o relógio é o único limitador** — o gatilho é combate, e combate acontece toda missão —, **desça para `por descanso curto`**, cujo gatilho de ficção a seção 1 escolheu exatamente porque *"a luta acabou"* dois mestres arbitram igual.
+
+*Os dois são degraus vizinhos — 4,7 contra 6,3 rolagens, `1,34×` de distância —, então descer um degrau não muda a magnitude de nada. O que muda é quem decide quando ele volta.*
 
 **"Por dia" e "por descanso longo" não são a mesma coisa, e a diferença é o ponto.** Uma missão pode durar cinco dias. Quem tem uma peça "uma vez por dia" recarrega cinco vezes; quem tem "uma vez por descanso longo" recarrega uma. É por isso que o manual dá **"uma vez por dia"** para a Passiva Segunda Natureza e **"descanso longo"** para a recuperação de Integridade — a segunda é muito mais forte, e o relógio mais lento é o preço.
 

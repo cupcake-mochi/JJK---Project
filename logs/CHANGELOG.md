@@ -6,6 +6,327 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.63] — 2026-08-14
+
+**A Q6 fechou, e com ela a peça 15 inteira — ela não deve mais nada.** Era a única pergunta que Invocações tinha deixado aberta, e ela nunca foi daquela peça: `Servo`, `Matilha` e `Coro` são Trilhas. **O que a destravou não foi um número.** Continuam dezesseis peças e dezesseis validadores.
+
+### Achado — o `Servo` estava dominado por falta de EIXO, não por magnitude
+
+A peça 15 declarava duas dominâncias pendentes, `Matilha > Servo` e `Coro > Servo`, as duas apontando para o mesmo lugar. Rodando a matriz nos três eixos que o validador usava:
+
+| Trilha | saída | corpos | ação |
+|---|---|---|---|
+| `Servo` | 1 Rotina | 1 | comanda |
+| `Matilha` | 1 Rotina | **5** | comanda |
+| `Coro` | 1 Rotina | 1 | **ataca e comanda** |
+
+**O `Servo` não estava na frente em nada.** E **não existia número que consertasse dentro dos três** — subir a saída fura o teto da peça 6 §4, dar corpo o transforma na `Matilha`, dar ação o transforma no `Coro`. *A Q6 estava esperando uma **coluna nova na matriz**, e o número vinha depois dela.*
+
+### Decidido — os dois eixos, e o argumento é do Mizuki
+
+> *"Normalmente é a única invocação da pessoa, então ela tem de ser o equivalente de todas as outras, **mas não passar muito delas**. Por ser o mais simples, ela não pode dar um ganho maior que os outros — um exige capturar muitas invocações para valer a pena e o outro exige ir para o combate corporal. Mas ao mesmo tempo ele não pode ser muito abaixo, **já que ao perder a invocação principal, acabou o kit da pessoa**."*
+
+**A trava do fim tem tamanho, e ele é `5×`.** A regra de morte do §3.5 lê a **vida máxima** para decidir morte em definitivo, e com `h` a do `Servo` era um quinto da da `Matilha` — para a **mesma Rotina entregue**:
+
+| nv | vida do corpo (`h`) | pool da `Matilha` (`5h`) | rodadas de chefe concentrando |
+|---|---|---|---|
+| 2 | 6 | 30 | `Servo` **0,8** · `Matilha` 4,0 |
+| 10 | 22 | 110 | 1,7 · 8,5 |
+| 30 | 62 | 310 | 1,7 · 8,6 |
+
+> **A concessão:** o corpo do `Servo` tem **`5 × h`** — o pool inteiro da `Matilha` num corpo só — e **o orçamento da ficha mais metade**, arredondando para baixo.
+
+**A vida iguala e o orçamento diferencia.** Com `5h` os dois passam a sair da luta pelo mesmo golpe, e apagar o `Servo` custa as mesmas `1,25` Rotina de área por alvo que o §3.5 já media para apagar a `Matilha` — **nenhuma exceção nova, a regra continua valendo palavra por palavra e o que mudou foi o número que ela lê.** O orçamento vai de `2→3` no nv2 a `9→13` no nv30, que é 46% do que compraria o catálogo inteiro.
+
+**E o *"não passar muito delas"* está medido:** a `Matilha` compra `9` no nv30 e **aplica os nove cinco vezes**, um por corpo. Em largura de utilidade ela continua na frente; o que o `Servo` compra é profundidade num corpo só. *O `Coro` fica com `h`, e essa é a troca dele escrita: ele é o único que ataca e comanda, e o único cujo corpo cair não acaba o kit.*
+
+### Achado — a vida NÃO entra por dominância, e é por isso que ela precisou de checagem própria
+
+**Só o orçamento já zera a matriz.** Medido: com o `Servo` em `orçamento ×1,5` e vida `h`, as seis comparações dão **zero dominância**. Ou seja, **tirar o `5h` sairia verde** e desfaria em silêncio a metade da Q6 que a matriz não mede — a de *"perder o corpo acaba o kit"*.
+
+> *É a lição nº 8 entrando por outra porta.* Ela diz que uma checagem não pode se medir contra a própria constante; este é o primo dela — **uma checagem que se mede pelo eixo errado sai verde exatamente na perturbação que importa.** O conserto foi o mesmo: separar as duas coisas e conferir as duas.
+
+### Alterado — o `conferir-invocacoes.py`
+
+- **`DOMINANCIA_PENDENTE_Q6` foi a conjunto vazio.** Se alguma dominância voltar, a checagem 2 falha em vez de aceitar calada.
+- **A matriz ganhou os dois eixos**, lidos da tabela *"O que cada Trilha concede"* do §3.7 — **nunca de constante dentro do arquivo**. Se a tabela sumir ou mudar de formato, ele falha alto dizendo que os dois eixos virariam constante escrita.
+- **Uma checagem nova de vida**, separada da matriz, com a mensagem nomeando por quantas vezes o gatilho de morte do `Servo` seria menor.
+
+**Arnês, na cópia isolada, base verde antes e `diff` provando cada `sed`:**
+
+| perturbação | acendeu? |
+|---|---|
+| o `Servo` perde o orçamento maior | **sim** — `Matilha domina Servo nos três eixos e não está declarada` |
+| o `Servo` perde a vida de `5h` | **sim** — e a matriz sai **zero dominâncias**; quem acusa é a checagem de vida |
+| a tabela do §3.7 some | **sim**, dizendo que os dois eixos virariam constante |
+| **contra-teste:** o `Coro` ganha orçamento maior também | **não acendeu** — ele ganha em ação e perde em vida, e ninguém domina ninguém |
+
+*O segundo é o que dá valor a esta versão inteira: ele é a prova de que a matriz sozinha não bastava.*
+
+### Documentado — o caminho de commit do Mizuki, que nunca tinha sido escrito
+
+*Pedido dele.* A documentação dizia `./subir.sh "o que mudou"`, e o que ele roda de verdade são **duas linhas**:
+
+```bash
+jjk               # o atalho que entra na pasta do repositório
+./subir.sh        # sem argumento: usa o mensagem-de-commit.txt e apaga depois
+```
+
+**Consequência para quem escreve daqui em diante: o último passo é deixar a mensagem em `mensagem-de-commit.txt` e avisar** — não sugerir mensagem por argumento, porque ele roda o script pelado. Está no `README` §*Commitar* e no §7 da skill `rpg-da-guilda`, **nos dois lados dela** (a pasta `sistema/skills/` é cópia de trabalho e não altera a instalada).
+
+> **E a seção de commit do README carregava um número velho.** Ela dizia *"os **dezoito** validadores — os **quinze** de `03-mecanica/`"* quando são dezenove e dezesseis. **Escapou porque o `conferir-repositorio.py` confere a linha de versão do topo e não a prosa.** O conserto não foi atualizar o número: foi **tirar ele** — a frase agora diz *"todos os validadores"* e aponta para a linha do topo, que é a dona. *Lição nº 9 na forma mais barata: a contagem que não é copiada não envelhece.*
+
+**Entrou junto no §5 da skill uma lição desta versão:** *uma checagem que se mede pelo **eixo** errado sai verde exatamente na perturbação que importa* — o primo do "não se meça contra a própria constante", e ele apareceu aqui pela primeira vez.
+
+### Alterado — o resto
+
+| onde | o que mudou |
+|---|---|
+| **peça 15 §3.7** | a tabela *"O que cada Trilha concede"*, com as duas colunas novas e a conta da vida |
+| **peça 15 §1 e §3** | a Q6 marcada como fechada nos três lugares em que ela era citada como aberta |
+| **`RASCUNHO-trilhas.md` §6.3** | de pergunta aberta para decisão fechada, com o argumento do Mizuki citado |
+| **`ESTADO-ATUAL`** | o bloco de Invocações: a Q6 fechou, e o que sobrou pendurado é uma linha |
+
+### Em aberto
+
+- **A Q5 de Trilhas** — as 80 entradas. O bloco do Evocador é o primeiro, e agora ele tem as três concessões com número.
+- **Como as Classes se distribuem nos 8 degraus** — livre com teto, fixa por nível, ou uma de cada mais uma livre. *Ainda não costada.*
+- **Quando a vida cheia da invocação reinvocada volta** — o candidato natural é o descanso longo, e é sabor.
+- As de sempre: as vagas de Desliga, a Cicatriz, Energia Reversa, o clash, o nome do sistema, o refino que paga mal no marco.
+
+---
+
+## [0.62] — 2026-08-14
+
+**A dívida que a v0.61 anotou virou definição, e a definição desfez a decisão que a criou.** *"Cena" não tinha dono em documento nenhum* — a escada de relógios da peça 10 §5 está no projeto desde a v0.23 e o degrau mais usado dela nunca tinha sido definido. **Definido, ele reprova o contador que a v0.61 escolheu.** Continuam dezesseis peças e dezesseis validadores; o que entrou foi a **checagem 9 do `conferir-descanso.py`**, que é o dono daquela escada.
+
+### Decidido — o que conta como uma cena
+
+*Definição do Mizuki, e ela é do mesmo formato do "o que conta como uma luta" da seção 4:*
+
+> **Quem conta é o mestre.** Uma cena pode ser uma sala, ou um segmento de salas, ou um combate. **Ela acaba quando a pressão daquele pedaço acaba.**
+
+Está na **peça 10 §5**, que é a dona da escada.
+
+### Achado — e é por isso que a v0.61 escolheu o degrau errado
+
+Medido pela metodologia da **peça 13 §7**, que é a única do projeto que já tinha medido relógio contra o filtro multi-mestre:
+
+| como o mestre lê | rolagens no período | usos por combate |
+|---|---|---|
+| a sala, ou o próprio combate | 4,7 | 1,00 |
+| um segmento curto | 9,4 | 0,50 |
+| o piso inteiro | 14,1 | 0,33 |
+
+**Spread de `3,0×` — e é exatamente o número com que a peça 13 §7 reprovou *"por sessão"* e *"por arco"***, escrevendo que ali *"o filtro do projeto — dois mestres que nunca conversaram chegam ao mesmo número? — está falhando, com número em cima"*. **O projeto já tinha rejeitado esse spread, com essa conta, num degrau vizinho — e ninguém tinha voltado para olhar o `por cena`.**
+
+### Achado — e mesmo assim os 71 `por cena` do catálogo de Legados continuam certos
+
+A trava daquela peça **mede largura antes de relógio**: *"por cena num gatilho de alcance 1 é seguro por construção, não por generosidade"*. Quando o gatilho é estreito — uma perícia nomeada, um Teste de Resistência nomeado —, quem limita é a frequência do próprio gatilho, e o relógio quase não morde: o `Instinto Bruto` vale +20 pp quando dispara e **1,0 pp médio na ficha, com ou sem relógio.**
+
+> **Então a regra que a peça 10 §5 passou a escrever é sobre quem limita:**
+> **gatilho estreito** → `por cena` é seguro, e o catálogo de Legados fica inteiro.
+> **o relógio é o único limitador** → desce para `por descanso curto`, cujo gatilho de ficção a peça 10 §1 escolheu porque *"a luta acabou"* dois mestres arbitram igual.
+
+**A Classe 2 de Trilha é o segundo caso** — o gatilho dela é combate, e combate acontece toda missão. *E a troca não move número nenhum:* os dois são degraus vizinhos (`4,7` contra `6,3`, `1,34×`) e os dois dão um uso por luta. A magnitude continua `4,70`. **O que muda é quem decide quando ele volta.**
+
+### Alterado — a régua da Q3, no único ponto em que ela dependia disso
+
+O §3.2 do `RASCUNHO-trilhas.md` trocou `1× por cena` por **`1× por descanso curto`**, com a medição acima escrita. O resto da régua não se moveu.
+
+### Adicionado — a checagem 9 do `conferir-descanso.py`
+
+> **Os quatro degraus da escada saem da tabela da peça 10 §5 e cada um tem de dizer quando recarrega; o degrau `por cena` tem de ter seção própria dizendo o que conta como uma; e os dois totais publicados na peça são RECONTADOS da pasta.**
+
+**PAR DECLARADO com a checagem 2 do `conferir-legados.py`**, que lê a mesma tabela pelo outro lado — lá para reprovar relógio de Legado fora da escada, aqui para exigir que a escada esteja definida.
+
+**E a peça 10 fica de fora da própria contagem**, porque ela é a dona do relógio: a prosa dela sobre `por cena` não é um uso, e o total oscilaria a cada edição da seção. *É a armadilha de a peça que documenta o validador conter o texto que ele procura.*
+
+> **A lição nº 1 cobrou duas vezes na mesma linha antes de o validador existir.** A primeira versão dela dizia **`130`**, que saiu de contar *linhas que continham a palavra cena* — e *"por cena"*, *"a cena anda"*, *"tem cena provando"* e *"fora da cena"* são quatro coisas diferentes. A segunda dizia **`94`**, que era a contagem certa e **envelheceu no mesmo commit**, porque escrever a seção criou ocorrências novas. O número certo é **`91`**, e ele não está mais escrito à mão em lugar nenhum.
+
+**E entrou junto um cruzamento de lição nº 9:** o `4,7` da tabela de leituras é **cópia** da tabela de relógios da peça 13 §7. As duas cópias agora são comparadas, e a mensagem nomeia o dono.
+
+**Arnês, na cópia isolada, base verde antes e `diff` provando cada `sed`:**
+
+| perturbação | acendeu? |
+|---|---|
+| apagar a seção *"O que conta como uma cena"* | **sim** |
+| esvaziar o gatilho do degrau `por dia` | **sim**, nomeando o degrau |
+| total publicado `91` → `90` | **sim** |
+| total do catálogo `71` → `70` | **sim** |
+| peça 10 usa `4,9` e a peça 13 diz `4,7` | **sim**, nomeando o dono |
+| **o dono muda:** peça 13 passa a dizer `5,2` | **sim** — acende dos dois lados |
+| **contra-teste:** o `4,7` da tabela de leituras, sem tocar no dono | **não acendeu** |
+| **contra-teste:** o `por dia` da peça 13, outra linha da mesma tabela | **não acendeu** |
+
+### Achado — o Servo está dominado por falta de EIXO, não por magnitude
+
+*O `RASCUNHO-trilhas.md` ganhou o §6, que é o primeiro bloco da Q5: o Evocador, que o §4 manda atacar primeiro porque as três Trilhas dele já têm máquina pronta na peça 15.* Rodando a matriz nos três eixos que o `conferir-invocacoes.py` usa:
+
+| Trilha | saída | corpos | ação |
+|---|---|---|---|
+| `Servo` | 1 Rotina | 1 | comanda |
+| `Matilha` | 1 Rotina | **5** | comanda |
+| `Coro` | 1 Rotina | 1 | **ataca e comanda** |
+
+**O `Servo` não tem nenhum eixo em que esteja na frente**, e é por isso que as duas dominâncias declaradas na peça 15 apontam as duas para ele. **E não existe número que conserte isso dentro dos três:** subir a saída fura o teto da peça 6 §4, dar corpo o transforma na `Matilha`, dar ação o transforma no `Coro`.
+
+> **A Q6 não estava esperando um número — estava esperando uma coluna nova na matriz.** Qualquer quarto eixo em que só o `Servo` esteja na frente mata as duas dominâncias de uma vez. **O número vem depois dele.**
+
+### Achado — e a régua da Q3 tem um limite aqui, que é melhor achar antes do catálogo
+
+Os candidatos de quarto eixo são todos da peça 15, e **a régua não os preça em ponto de Rotina.** A fatia da Q3 é `1,27` ponto de **dano** por rodada; o ponto de orçamento de invocação compra `Traço` e `Comando`, que a peça 15 §3.7 **proíbe de tocar dado de dano**. Aquela peça já tinha escrito o aviso: *"o que não pode acontecer é as duas moedas caírem no mesmo saco"*.
+
+**A régua não muda — o que ela exige é o que sempre exigiu**, que o eixo seja fração de coisa que já cresce. O orçamento de invocação é: ele sai dos sete marcos. *E ele cresce `4,5×` contra os `8,31×` da Rotina, então **deriva `1,8×` para baixo** — a mesma deriva dos espaços de feitiço, que o projeto já aceita. Fica registrado no §6.2 em vez de escondido.*
+
+### Em aberto
+
+- **Qual é o quarto eixo do `Servo`** — orçamento, amarra ou vida. **A conta não separa os três**, e por isso a escolha é de sabor. O §6.3 traz os três com o que cada um custa.
+- **A Q5**, que é o resto do catálogo. O bloco do Evocador só começa depois da escolha acima.
+- As de sempre: as vagas de Desliga, a Cicatriz, Energia Reversa, o clash, o nome do sistema.
+
+---
+
+## [0.61] — 2026-08-14
+
+**A Q3 de Trilhas fechou: a régua existe, e o catálogo pode começar.** Ela é a última das quatro perguntas de estrutura — Q1 e Q4 na v0.55, Q2 na v0.60, Q3 agora —, e é a que a peça 13 contra a peça 14 diz ser a diferença entre uma versão e seis. Continuam **dezesseis peças e dezesseis validadores**; nada de arquivo novo, porque a régua mora no rascunho até a peça fechar.
+
+### Achado — o calendário da Q2 já tinha resolvido a derivação, e ninguém tinha percebido
+
+O §2.2 do rascunho registra desde a v0.54 que entrega de valor absoluto morre contra alvo que cresce, e cita o ponto de arma da peça 16 como o exemplar. **Vale para uma entrega. O número delas também cresce:**
+
+| nv | entregas | entregas ÷ nv2 | Rotina ÷ nv2 | razão |
+|---|---|---|---|---|
+| 2 | 1 | 1,00 | 1,00 | 1,00 |
+| **5 e 6** | 1 | 1,00 | 2,38 | **0,42** |
+| 7 | 2 | 2,00 | 2,38 | 0,84 |
+| 23 | 6 | 6,00 | 7,23 | 0,83 |
+| **26** | 6 | 6,00 | 8,31 | **0,72** |
+| 30 | 8 | 8,00 | 8,31 | 0,96 |
+
+A Rotina cresce **8,31×** e o número de entregas cresce **8,00×**. **Uma entrega de valor plano fica em fração quase constante da Rotina do nível 7 ao 30**, com espalhamento de `1,33×`. Os dois buracos são a Rotina subindo de degrau antes de a entrega seguinte chegar, e são os únicos.
+
+*Isso não estava planejado. A Q2 escolheu `2 · 11 · 19 · 27` e `7 · 15 · 23 · 29` por vão e por seca, sem olhar para derivação nenhuma — e o calendário saiu tracking a escada da Rotina de graça.*
+
+### Decidido — a régua, em quatro linhas
+
+> **Formato:** a escada de Classes da peça 11 §4. A Classe declara a **janela**, e a janela fixa a magnitude.
+> **Contador:** plano — `1×` por cena ou por descanso. Nunca um que cresça.
+> **Preço:** **sete fatias de `1,27` ponto por rodada**, mais o **degrau do nível 7**, que vale o vão da peça 6 §3 e substitui uma fatia.
+> **Denominador:** toda entrega é fração de coisa que já cresce. Número solto deriva `8,3×` e só cabe no nível 2.
+
+**A escada da peça 11 passa no teste que reprovou a da peça 13.** A régua dos três formatos põe **6 das 7 linhas do permitido no `Destranca`** — o `Desliga` é território de Origem e o `Ajusta` tem um morador legal só. A escada de Classes **corta a lista de travessa**: `5 · 5 · 6` moradores, cada linha morando nas três em tamanhos diferentes. E ela porta sem adaptação porque a peça 11 §4 já diz o que ela é — ***"ela não mede quanto, mede o quê"***.
+
+**O que segura a Classe 3 lá é o refino, e ele está proibido aqui.** O substituto sai da definição das três: Classe 3 permanente entrega `1,27` em 100% das rodadas; Classe 2 entrega `4,70` em ~27%; Classe 1 entrega `6,35` em ~20%. **Mesma média, variância diferente** — é o mecanismo do *"Farejador não fica obsoleta"* funcionando sem refino.
+
+### Decidido — o contador é plano, e é a lição nº 2 num lugar novo
+
+A magnitude já é fração, então **ela já cresce 8,31×**. Contador que também cresça conta a mesma coisa duas vezes:
+
+| contador | usos nv2 | usos nv30 | cresce | contra a Rotina |
+|---|---|---|---|---|
+| `1×` por cena · `1×` por descanso curto | 1,0 | 1,0 | 1,00× | **não deriva** |
+| PE, custo `1 × maior Classe` | 12,0 | 25,7 | 2,14× | deriva 2,1× **para cima** |
+| PE, custo fixo em pontos | 6,0 | 90,0 | 15,00× | deriva 15,0× para cima |
+| usos = maestria, por descanso | 1,0 | 4,0 | 4,00× | deriva 4,0× para cima |
+
+> **E o padrão mais copiado do hobby é o que não serve.** *Usos iguais ao bônus de proficiência* — Tasha's, e depois o 5e de 2024 inteiro — funciona lá porque **a magnitude do feito é plana**, `"cause 1d6 a mais"`, e o contador crescente é o que faz ela acompanhar. Importar os dois aqui soma o que já estava somado.
+
+**A peça 11 §4 já tinha decidido isso e ninguém tinha lido:** a definição de Classe 2 é *"efeito reativo, **com limite de uso por cena ou por descanso**"*. A conta não escolheu nada — ela explicou por que a definição está certa.
+
+**Fica `1×` por cena**, que é o idioma que o projeto já fala: **71 usos na peça 13, 5 na peça 11, 4 na peça 16.** *E vai anotada a dívida que isso destampa: **"cena" não tem definição em documento nenhum.** Divergir por causa disso seria pior — oitenta usos de um lado e um do outro —, mas alguém vai ter de definir, e o candidato é o relógio da escada da peça 10.*
+
+### Decidido — a fatia é plana, e a alternativa perdeu por um critério que não é o erro médio
+
+A fatia sai de dividir o piso da peça 14 §4 no nível 30: `10,14 ÷ 8 = 1,27`. Contra a alternativa de a entrega do nível 2 ser maior:
+
+| | oito iguais (`1,27`) | a do nv2 maior (`1,92` + `1,17`) |
+|---|---|---|
+| erro médio **pesado por missão** | **12,2%** | 13,2% |
+| pior falta | −34% no nv5 | −16% no nv26 |
+| pior excesso | +57% no nv2 | **+138% no nv2** |
+
+*O erro foi pesado por missão e não por nível, pela curva da peça 12 — 145 missões do nv2 ao nv30 —, que é o mesmo critério com que a Q2 mediu seca.* Um ponto percentual não decide; **o `+138%` no nível 2 decide.** E o argumento que fecha é do Mizuki: *"no nv2 tem a questão de escolhermos a Trilha pro Caminho"* — **o peso de identidade está na escolha entre as três, não no tamanho do número.**
+
+**O limite fica escrito:** com fatia plana, a Vanguarda fica 34% abaixo do piso do escudo nos níveis 5 e 6 — **4 missões de 145** — e entre 13% e 19% abaixo no miolo.
+
+### Decidido — o ataque extra vai para o nível 7, e ele é o degrau de Caminho e não um degrau a mais
+
+*Decisão do Mizuki, e ela conserta duas coisas de uma vez.* A peça 6 §3.1 punha o ataque extra no **nível 6** com o motivo *"é o primeiro marco, e é onde o resto do sistema já entrega coisa"* — **e esse motivo virou o argumento contrário** quando a Q2 mediu o calendário: o 6 é um dos quatro níveis mais cheios do sistema e o 7 não entrega nada. Pior, com ele no 6, Bastião e Vanguarda ficavam com **cinco degraus de Caminho** e os outros três com quatro.
+
+**E medir o tamanho dele mudou a leitura da peça 6 §3 inteira:**
+
+```
+Rotina 108 · conjurador 99 (−8%) · físico 106 (−2%)
+```
+
+**Ninguém está acima.** O ataque extra não põe a Vanguarda na frente — ele tira ela de −8% e põe em −2%. **É correção de base, não bônus**, e por isso ele nunca coube como um degrau: ele vale de **3,2 a 5,5 fatias** e chega quando você só tem duas.
+
+> **A regra: o degrau do nível 7 substitui uma fatia e vale exatamente o vão `físico − conjurador`.** Quem já tem rota para ataque extra recebe o ataque extra no lugar dele; quem não tem recebe o degrau grande.
+
+| nv | Rotina | Vanguarda | Guia | `Arremate` | maior distância |
+|---|---|---|---|---|---|
+| 10 | 45 | 51,3 (+14%) | 51,3 (+14%) | 51,3 (+14%) | **0,0 pp** |
+| 18 | 76 | 81,8 (+8%) | 81,8 (+8%) | 81,8 (+8%) | **0,0 pp** |
+| 30 | 108 | 114,9 (+6%) | 114,9 (+6%) | 114,9 (+6%) | **0,0 pp** |
+
+**Isso fecha o problema de design nº 2, aberto desde a v0.24**, com o número que a peça 6 §3.1 pediu: *"o que Elo, Sutura e Perímetro entregam que valha um golpe por rodada?"* — **valem o vão**, e o vão chega no nível 7.
+
+*A saída que pagava o ataque extra em fatias foi medida e morreu: custa **6 das 8**, e Bastião e Vanguarda ficariam com seis níveis mortos — o que a Q2 saiu para matar.*
+
+### Achado — os `6%` a `9%` da peça 14 são PISO, e ler eles como teto teria matado a régua certa
+
+O orçamento passa de `9,4%` para `14,7%` da Rotina no nível 30, `1,57×` a âncora. **Isso não é violação.** A peça 14 §4 registra aquele número como o **buraco do escudo** — o que a Trilha **deve** para dar razão de largar o escudo. Estourar ele quer dizer que largar virou decisão fácil, que é literalmente o que aquela seção pediu.
+
+**O teto de verdade é outro, e ele já estava escrito:** o **`+18%` sustentado que a peça 6 §3.1 reprovou** ao rejeitar *somar* o golpe. A régua para em `+6%`, com dez pontos percentuais de folga.
+
+*Lição nº 5 na direção mais barata: eu ia tratar um piso como teto e reprovar a saída certa por causa disso. O texto do dono diz "deve", não "no máximo".*
+
+### Achado — o refino cabe na conta e continua proibido, e é por isso que o contra-teste importa
+
+O refino é o **melhor** denominador que existe numericamente: cresce `8,00×` contra os `8,31×` da Rotina. Uma checagem que só medisse derivação sairia **verde**. O que o reprova é a peça 11 §3 — as três escolhas de marco se equilibram porque **nenhuma compra o que a outra compra**, e a Trilha é bem comum:
+
+| nv | refino de quem escolhe | de quem não | a Trilha ficaria | de graça |
+|---|---|---|---|---|
+| 14 | 6 | 5 | 20,0% maior | +1,5% da Rotina |
+| 30 | 10 | 8 | 25,0% maior | +2,3% |
+
+*E na direção contrária é pior:* quem vai sempre de `Corpo` ou de `Leque` termina com **zero aptidões**, e a Trilha é o único eixo que ainda escala para essas duas rotas.
+
+### Arnês — a régua não tem validador ainda, então o arnês foi contra os donos
+
+*Não entrou `conferir-*.py` nesta versão: a régua mora no rascunho e o validador nasce com a peça (§5 do rascunho é a especificação dele).* O que dá para provar hoje é que **os dois números publicados no §3 saem dos documentos donos e não da minha mão**. Numa cópia isolada, com a base conferida verde antes e o `diff` provando cada `sed`:
+
+| perturbação | fatia | degrau do nv7 | acendeu? |
+|---|---|---|---|
+| base | `1,27` | `7` | — (reproduz o publicado) |
+| peça 14 §4, buraco do nv30 `10,14` → `20,28` | **`2,54`** | 7 | **sim** |
+| peça 6 §3, físico do nv30 `106` → `99` | 1,27 | **`0`** | **sim** |
+| calendário da Q2 com sete degraus em vez de oito | **`1,45`** | 7 | **sim** |
+| **contra-teste:** conjurador do **nv2** `18` → `11` | 1,27 | 7 | **não acendeu**, como tem de ser |
+
+*O contra-teste é o que dá valor aos três primeiros.* Sem ele, os números poderiam estar lendo qualquer célula da tabela certa — que é exatamente como o `81` sobreviveu catorze versões.
+
+### Alterado — o que se moveu, documento por documento
+
+| onde | o que mudou |
+|---|---|
+| **`RASCUNHO-trilhas.md` §3** | a Q3 fechada, com os cinco sub-blocos: formato, contador, preço, o degrau do nv7 e o denominador |
+| **`RASCUNHO-trilhas.md` §5** | seis checagens novas na especificação do validador, e a que dependia da Q1 riscada |
+| **peça 6 §3.1** | ataque extra do nível **6** para o **7**, com o motivo antigo registrado como tendo virado o argumento contrário |
+| **peça 6 §9** | duas das três perguntas riscadas — a de quantas Trilhas e a de `Elo`/`Sutura`/`Perímetro` |
+| **peça 14 §5.2** | as três citações de *"ataque extra no nv6"* — o vazamento do `X=4` agora vaza um nível a mais |
+
+### Em aberto
+
+- **A Q5 — o que cada Trilha entrega, entrada por entrada.** 80 entradas, e agora existe contra o que medi-las. A ordem de ataque do §4 do rascunho não mudou: Evocador, Vanguarda, Guia, Bastião, Emanador.
+- **O validador de Trilhas**, que só nasce com a peça. A especificação está no §5 do rascunho e ela tem de ser implementada como está, não reinventada.
+- **A palavra "cena" não tem definição**, e ela agora carrega mais peso.
+- A discrepância de arredondamento da segunda tabela da peça 6 §3, herdada da v0.60 e não tocada pelo mesmo motivo.
+- As de sempre: as vagas de Desliga, a Cicatriz, Energia Reversa, o clash, o nome do sistema.
+
+---
+
 ## [0.60] — 2026-08-14
 
 **A coluna Rotina tinha duas versões no repositório, e a errada era a que quase tudo lia.** Achado abrindo o chat de Trilhas, indo ler o dono do número contra o qual a peça inteira ia ser precificada. A peça 6 §3 publicava `81` no nível 18 e `126` no nível 30 — **e nenhum dos dois é a coluna `Rotina` do manual.** Continuam **dezesseis peças e dezesseis validadores**; o que entrou foi uma checagem nova dentro do `conferir-manual.py`, que é o dono dessa fronteira.

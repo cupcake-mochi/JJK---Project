@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 14/08/2026, na v0.60 (última peça fechada: **Ferramenta amaldiçoada, na v0.59** — ela é a peça 16 e tem o `conferir-ferramenta.py` em cima dela, com dezesseis checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 14/08/2026, na v0.63 (última peça fechada: **Ferramenta amaldiçoada, na v0.59** — ela é a peça 16 e tem o `conferir-ferramenta.py` em cima dela, com dezesseis checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.60.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezesseis peças escritas** e **dezesseis validadores**. Manual do Fundamento na **v7.8**, com a Expansão de Domínio escrita, e o catálogo de aptidões com **dez das catorze entradas fechadas**. **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas** — por seis das nove rotas de Origem, e agora sem nenhum buraco de regra que morda nessa faixa.
+**Versão v0.63.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezesseis peças escritas** e **dezesseis validadores**. **A régua de Trilhas fechou na v0.61 e mora no `03-mecanica/RASCUNHO-trilhas.md` §3** — as quatro perguntas de estrutura estão respondidas e o que falta daquela peça é o catálogo. *A v0.62 fechou a dívida que ela destampou (**"cena" tem definição**, na peça 10 §5, com validador em cima), e a **v0.63 fechou a Q6 de Invocações** — a peça 15 não deve mais nada.* Manual do Fundamento na **v7.8**, com a Expansão de Domínio escrita, e o catálogo de aptidões com **dez das catorze entradas fechadas**. **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas** — por seis das nove rotas de Origem, e agora sem nenhum buraco de regra que morda nessa faixa.
 
 ## Como retomar
 
@@ -15,7 +15,7 @@ cd 03-mecanica
 python3 conferir-atributos.py     # acerto, defesa, TR, perícia, vida, PE máximo, deriva
 python3 conferir-acao.py          # régua das Restrições, dominância, Adianta
 python3 conferir-pericias.py      # quadro de perícias, listas de Caminho e Origem, colisão
-python3 conferir-descanso.py      # piso, exaustão, arredondamento, magnitude, empilhamento
+python3 conferir-descanso.py      # piso, exaustão, arredondamento, magnitude, empilhamento, relógios
 python3 conferir-nomes.py         # todo nome batizado, projeto → manual
 python3 conferir-manual.py        # vocabulário e números importados, manual → projeto
 python3 conferir-aptidoes.py      # a trava do refino, as três rotas do marco, o kokusen
@@ -146,7 +146,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/conferir-atributos.py` | acerto, defesa, TR, perícia, vida, PE máximo e a deriva contra o nível |
 | `03-mecanica/conferir-acao.py` | a régua das Restrições, a dominância entre elas e o `Adianta` |
 | `03-mecanica/conferir-pericias.py` | o quadro de perícias, as listas de Caminho e de Origem, e a colisão |
-| `03-mecanica/conferir-descanso.py` | o piso, a exaustão, o arredondamento, a magnitude e o empilhamento |
+| `03-mecanica/conferir-descanso.py` | o piso, a exaustão, o arredondamento, a magnitude, o empilhamento e — **desde a v0.62** — a **escada de relógios**: os quatro degraus têm gatilho escrito, o `por cena` tem definição própria, e os dois totais publicados são recontados da pasta em vez de guardados |
 | `03-mecanica/conferir-legados.py` | **catálogo**: recalcula a tabela de totais da peça 13 e falha se o escrito não bater com o contado |
 | `03-mecanica/conferir-equipamento.py` | o fundo de cada arma, a dominância **uma vez por rota de proteção — e são três**, e o teto de Defesa derivado dos três donos |
 | `03-mecanica/conferir-nomes.py` | o vocabulário do manual, extraído do `.docx`, contra todo nome que o projeto batizou |
@@ -184,9 +184,9 @@ O `conferir-manual.py` falha se os dois lados divergirem, e a mensagem dele **no
 
 1. **Nome do sistema.** Aberto desde a v0.1, e a única pendência de nome que sobrou.
 2. **Se a perícia livre da Origem devia ser da lista também.** As listas existem desde a v0.22, mas a segunda perícia continua livre com aprovação — é o último lugar da criação em que um número depende de julgamento do mestre.
-3. Quantas Trilhas um personagem acumula, e em que níveis.
+3. ~~Quantas Trilhas um personagem acumula, e em que níveis.~~ **Fechada na v0.55 e na v0.60:** uma por ficha, entregas em `2 · 11 · 19 · 27`, degrau de Caminho em `7 · 15 · 23 · 29`.
 4. **Como a Trilha Torrente cobra o segundo feitiço da rodada**, contra a regra de ouro nº 6. É o mesmo defeito da invocação — mais de uma ação por rodada — e o conserto que funcionou lá deve servir aqui.
-5. **O que Elo, Sutura e Perímetro entregam** que valha o golpe por rodada que o Guia não tem.
+5. ~~**O que Elo, Sutura e Perímetro entregam** que valha o golpe por rodada que o Guia não tem.~~ **Fechada na v0.61, com número:** valem **o vão `físico − conjurador` da peça 6 §3**, e ele chega como o degrau de Caminho do nível 7 — o mesmo lugar em que Bastião e Vanguarda recebem o ataque extra. Os cinco Caminhos empatam em `+6%` da Rotina no nível 30. *A ficção de cada uma continua sendo a Q5 de Trilhas.*
 6. **Se a curva de dano deve cruzar a coluna Rotina.** No nível 2 o conjurador está +38% e o físico +69% acima dela; no nível 30, **8% e 2%** abaixo. Decisão não tomada, não erro. *Os dois números do topo eram 21% e 16% até a v0.60, e eles saíam de a peça 6 §3 estar lendo a coluna errada do manual — com a `Rotina` de verdade o abismo do topo quase fecha sozinho, e o que sobra é meia dúzia de pontos percentuais.*
 
 ### O Caído entrou na v0.37, e ele deixa uma dívida com nome
@@ -368,7 +368,7 @@ Quem pega a incompleta mais duas Passivas de Classe 2 gasta **dois terços da li
 Nenhum validador pega estes — eles vieram de rodar os testes da skill de design contra o material.
 
 1. ~~**O Legado tem teto de quantidade, não de magnitude.**~~ **Fechado na v0.39, pela peça 13.** *Ficou aberto da v0.24 até lá.* A régua é de **três formatos travados nos próprios termos**, e não escada de preço: `Ajusta` mexe em número e carrega relógio da escada da peça 10, com a largura do gatilho escolhendo o degrau; `Desliga` só apaga o que ninguém comprou; `Destranca` é zero no dado e precisa de gatilho do jogador. **Os quatro que a régua reprovou saíram, cada um com destino escrito:** o *Não Sou Gente* mudou de camada e virou Passiva paga com espaço de feitiço, o *Irmãos* ganhou gatilho do jogador, o *Instinto Bruto* perdeu a metade morta e ficou só contra Intuição — que é Inteligência, e aí é troca de verdade —, e o *Alcance Impossível* morreu por ser técnica, que a peça 9 proíbe Origem de conceder.
-2. **O Guia pode estar dominado pela Vanguarda.** *Reformulado na v0.24.* Não era achado fechado: dependia de uma classificação que nunca tinha sido escrita — quem ganha ataque extra. Agora está escrito (peça 6, seção 3.1): **Bastião e Vanguarda pelo Caminho no nível 6; Arremate e Coro pela Trilha; o Guia por nenhuma rota.** O que sobra não é dominância, é uma pergunta com número: *o que Elo, Sutura e Perímetro entregam que valha um golpe por rodada?*
+2. ~~**O Guia pode estar dominado pela Vanguarda.**~~ **FECHADO na v0.61, e ficou aberto da v0.20 até lá.** *Reformulado na v0.24*, quando a classificação que faltava foi escrita na peça 6 §3.1 — **Bastião e Vanguarda pelo Caminho; Arremate e Coro pela Trilha; o Guia por nenhuma rota** —, e a dominância virou uma pergunta com número: *o que Elo, Sutura e Perímetro entregam que valha um golpe por rodada?* **A Q3 de Trilhas respondeu: eles valem o vão, e o vão é o degrau de Caminho do nível 7.** O ataque extra saiu do nível 6 para o 7 na mesma versão, e a leitura que destravou tudo foi medir a base — **o conjurador está a −8% da Rotina e o físico a −2%: ninguém está acima, e o ataque extra é correção de base e não bônus.**
 3. **O ofício não passa no filtro do multi-mestre.** "O mestre escolhe o atributo na hora" faz dois mestres cobrarem coisas diferentes pelo mesmo ofício, com até cinco pontos de diferença. Conserto: tabela com o atributo padrão de cada um.
 4. **A escolha de refino no marco paga mal, e três marcos pagam zero.** *Achado pelo Mizuki na passada de Equipamento, e a conta confirmou pior do que o palpite.* O refino **passivo chega a 8** sem escolha nenhuma; sete escolhas de marco compram **+2**, e o teto 10 é alcançado no **nv22**. Do nv22 em diante a escolha *"refino e uma aptidão"* vira **só a aptidão**, enquanto *atributo* e *Leque* continuam valendo cheio — três marcos com um dos três eixos pela metade.
 
@@ -507,9 +507,11 @@ Quatro peças, e a ordem é de **dependência**, não de tamanho. A ordem que el
 >
 > **A máquina, em seis linhas:** a invocação age **na casa do dono**; a Matilha é **uma ficha com cinco corpos**, pool com cascata, rodada resolvida **em pool**; a ficha é **derivada do dono mais um deslocamento que só desce**, com `Traço` e `Comando` comprados num orçamento de **2 a 9** pontos; invocar custa **`1 × maior Classe` e a ação padrão**, e **comandar custa a ação padrão**; ela **some no zero**, é **vulnerável a área** e **morre em definitivo** se o excedente passar de metade da vida máxima ou um golpe causar a vida máxima inteira — e quem só chegou a zero volta com **metade da vida**; e **a amarra são 18 metros**, lidos do alcance base de Projétil.
 >
-> **A Q6 é a única que continua aberta, e ela nunca foi desta peça:** `Servo`, `Matilha` e `Coro` fecham com a peça de Trilhas. O §3.7 já entregou a metade que faltava — **o que a Trilha concede não sai do orçamento**, e o orçamento compra `Traço` e `Comando` por cima.
+> **A Q6 fechou na v0.63**, e ela nunca foi desta peça: `Servo`, `Matilha` e `Coro` são Trilhas. **O `Servo` estava dominado por falta de eixo** — empatava em saída e perdia ou empatava em corpos e ação —, então não existia número que o consertasse dentro dos três. *O conserto era uma coluna nova na matriz.* **A concessão: o corpo do `Servo` leva `5 × h` de vida — o pool inteiro da `Matilha` num corpo só — e o orçamento da ficha mais metade.** A tabela está no fim do §3.7 daquela peça, e o `DOMINANCIA_PENDENTE_Q6` do validador foi a **conjunto vazio**.
 >
-> **O que a peça deixou pendurado**, e é pouco: **quando a vida cheia da invocação reinvocada volta** (o candidato natural é o descanso longo, e é sabor); e as duas dominâncias que a matriz do validador acusa e a peça declara — `Matilha > Servo` e `Coro > Servo`, **as duas apontando para o Servo**, que é a única das três Trilhas cuja concessão (*"um corpo forte"*) ainda não tem número. **Quando a Q6 der esse número, o par tem de sumir da declaração**, e a checagem 2 acusa se a declaração ficar mentindo.
+> **A vida não entra por dominância, e por isso ela tem checagem própria.** Só o orçamento já zera a matriz; tirar o `5h` sairia **verde** e desfaria em silêncio a metade da pergunta que a matriz não mede — a de *"perder o corpo acaba o kit"*. *É a lição nº 8 por outra porta: uma checagem que se mede pelo eixo errado sai verde na perturbação que importa.*
+>
+> **O que a peça ainda deixa pendurado, e é pouco:** **quando a vida cheia da invocação reinvocada volta** — o candidato natural é o descanso longo, e é sabor.
 >
 > **E o buraco que ela achou na peça 6 continua aberto, porque é de playtest e não de conta:** a regra da seção 4 preça o **dano** da Matilha e não preça o **tempo de mesa** dela. Cinco corpos agindo por rodada custam o mesmo tempo quer cada um faça 25 de dano ou 5 — e foi por essa metade, não pela do dano, que o 5e 2024 trocou a família inteira de `conjure`. O conserto que a peça achou é de gesto e não de regra: **rolar em pool** corta de sete gestos e meio por rodada para três. **O número esperado está escrito no §3.2 antes da sessão** — a Matilha custa `2,5×` um personagem de nível 6 —, e a checagem 4 confere que ele continua batendo com a tabela dele mesmo.
 

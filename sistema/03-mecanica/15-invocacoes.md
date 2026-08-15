@@ -5,7 +5,7 @@ Versão v0.58 — 14/08/2026
 
 > **O nome é decisão escrita, e não descuido.** `Invocação` sai **OCUPADO** na triagem: é **Tema** do manual, no grupo *Criação* do catálogo do apêndice. Tema não carrega mecânica — o próprio manual diz isso na abertura da Descrição —, então o choque é de vocabulário e não de regra. **O Tema e esta peça são coisas diferentes:** um é rótulo de sabor pendurado numa técnica, a outra é a máquina que põe um corpo no campo. O §4 tem a triagem inteira, com os dois nomes que saíram livres.
 
-Aberta como rascunho na **v0.50**, quando a fila foi reordenada. A Q1 à Q5 fecharam entre a v0.51 e a v0.53; o catálogo foi escrito entrada por entrada na v0.53; a amarra ganhou número na v0.53 e as faixas de alcance na v0.55; a fórmula de vida ganhou o termo de tipo e o retorno fechou na v0.57. **Na v0.58 o validador entrou, e foi aí que ela deixou de ser meia peça.** A Q6 continua aberta e é da peça de Trilhas — o §3 diz o que ela ainda deve e o que já não deve mais.
+Aberta como rascunho na **v0.50**, quando a fila foi reordenada. A Q1 à Q5 fecharam entre a v0.51 e a v0.53; o catálogo foi escrito entrada por entrada na v0.53; a amarra ganhou número na v0.53 e as faixas de alcance na v0.55; a fórmula de vida ganhou o termo de tipo e o retorno fechou na v0.57. **Na v0.58 o validador entrou, e foi aí que ela deixou de ser meia peça.** *A Q6, que era da peça de Trilhas, **fechou na v0.63** — o número de cada concessão está na tabela do fim do §3.7, e as duas dominâncias que o validador declarava sumiram.*
 
 ---
 
@@ -67,7 +67,7 @@ Levantado para fechar a Q1, e é a metade que o levantamento acima não tinha id
 
 > **A invocação compartilha o número de iniciativa do dono e age logo depois dele.** Não abre casa nova na ordem, com um corpo ou com cinco.
 
-O argumento e as contas estão no §3.1. **Só a Q6 continua aberta, e a Q3 está fechada no princípio e aberta no número**, e a Q1 fechou sem criar dependência nova em nenhuma delas — que era metade do trabalho dela.
+O argumento e as contas estão no §3.1. *Esta linha dizia **"só a Q6 continua aberta"** até a v0.63; ela fechou, e com ela a peça inteira.* A Q1 fechou sem criar dependência nova em nenhuma das outras — que era metade do trabalho dela.
 
 **Q2 — FECHADA.**
 
@@ -109,13 +109,11 @@ O argumento está no §3.4. **E o teto da peça 6 §4 deixou de precisar de poli
 
 O argumento está no §3.5. *E o dilema que esta pergunta carregava desde a v0.50 dissolveu na Q4, sem ninguém precisar decidir nada.*
 
-**Q6 — as três Trilhas com número. ABERTA, e com metade da resposta escrita.**
-
-`Servo`, `Matilha` e `Coro` fecham **junto com a peça de Trilhas**, não aqui. **Mas o §3.7 já entregou a divisão que faltava:**
+**Q6 — as três Trilhas com número. FECHADA na v0.63**, pela régua da Q3 de Trilhas.
 
 > **O que a Trilha concede não sai do orçamento da ficha.** `Servo` dá um corpo forte, `Matilha` dá os cinco, `Coro` dá a exceção de economia de ação — atacar e comandar na mesma rodada. **O orçamento compra `Traço` e `Comando` por cima.**
 
-*Com isso as três ficam construíveis, que era o que esta peça devia à peça de Trilhas.* O que sobra para lá é o número de cada concessão, não o formato dela.
+**E o número de cada concessão está na tabela do §3.7**, no fim daquela seção: o `Servo` leva **o orçamento da ficha mais metade** e **`5 × h` de vida** — o pool inteiro da `Matilha` num corpo só —, e as outras duas ficam como estavam. *O que destravou não foi um número: foi descobrir que o `Servo` estava dominado **por falta de eixo**, e que o conserto era uma coluna nova na matriz.*
 
 ## 3.1 A Q1, e por que ela fechou na casa do dono
 
@@ -863,6 +861,41 @@ E uma que eu quase escrevi: um `Traço` de corpo duro, tipo *"ela aguenta mais p
 > **O que a Trilha concede não sai do orçamento.** `Servo` dá um corpo forte, `Matilha` dá os cinco, `Coro` dá a exceção de economia de ação. **O orçamento compra `Traço` e `Comando` por cima disso.** O Coelho de Fuga é a Trilha `Matilha` mais `Miúdo` — **1 ponto, e sobra 1 no nível 2.**
 >
 > *Isso resolve o nível 2 e, de quebra, dá à Q6 a única coisa que ela ainda não tinha: **o que cada Trilha concede que o orçamento não pode comprar.** A pergunta que estava esperando a peça de Trilhas ganhou metade da resposta aqui.*
+
+### O que cada Trilha concede — a Q6 fechou na v0.63
+
+*Ela era a única pergunta que esta peça deixou aberta, e ela nunca foi desta peça: `Servo`, `Matilha` e `Coro` são Trilhas.* **Fechou pela régua da Q3 de Trilhas**, e o achado que a destravou é de forma e não de número: o `Servo` estava dominado **por falta de eixo**. Ele empatava em saída — o teto de uma Rotina é igual para as três — e perdia ou empatava em corpos e em ação, então não existia número que o consertasse dentro dos três eixos. *Subir a saída fura a peça 6 §4; dar corpo o transforma na `Matilha`; dar ação o transforma no `Coro`.*
+
+> **O que a Trilha concede não sai do orçamento da ficha.** O orçamento compra `Traço` e `Comando` por cima.
+
+| Trilha | o que ela concede | orçamento do corpo | vida do corpo |
+|---|---|---|---|
+| **`Servo`** | um corpo forte | **o da ficha mais metade**, arredondando para baixo | **`5 × h`** |
+| **`Matilha`** | os cinco corpos | o da ficha | `5 × h`, em pool com cascata |
+| **`Coro`** | atacar e comandar na mesma rodada | o da ficha | `h` |
+
+**A vida do `Servo` é o pool inteiro da `Matilha`, e o motivo é a regra de morte do §3.5.** Ela diz que a invocação morre de vez se um único golpe causar a vida máxima inteira — e com `h` a vida máxima do `Servo` era **um quinto** da da `Matilha`, para a mesma Rotina entregue:
+
+| nv | vida do corpo (`h`) | pool da `Matilha` (`5h`) | rodadas de chefe concentrando |
+|---|---|---|---|
+| 2 | 6 | 30 | `Servo` 0,8 · `Matilha` 4,0 |
+| 10 | 22 | 110 | 1,7 · 8,5 |
+| 30 | 62 | 310 | 1,7 · 8,6 |
+
+*Decisão do Mizuki, e o argumento é dele:* ***"normalmente é a única invocação da pessoa, então ela tem de ser o equivalente de todas as outras, mas não passar muito delas — e ao perder a invocação principal, acabou o kit."*** **Com `5h` os dois saem da luta pelo mesmo golpe**, e apagar o `Servo` passa a custar as mesmas `1,25` Rotina de área por alvo que o §3.5 já mede para apagar a `Matilha`. *Nenhuma exceção nova: a regra de morte continua valendo palavra por palavra, e o que mudou foi o número que ela lê.*
+
+**E o orçamento é onde o `Servo` fica na frente**, que é o eixo que mata as duas dominâncias:
+
+| nv | orçamento da ficha | do `Servo` | do catálogo inteiro (28 pontos) |
+|---|---|---|---|
+| 2 | 2 | **3** | 11% |
+| 10 | 4 | **6** | 21% |
+| 18 | 6 | **9** | 32% |
+| 30 | 9 | **13** | 46% |
+
+**A `Matilha` compra menos e aplica cinco vezes**, um por corpo — então em largura de utilidade ela continua na frente, que é o *"não passar muito delas"* medido. *E o arredondamento é o da peça 1 §5.4, para o lado que não te favorece: ganho desce, e é por isso que o nível 6 dá `4` e não `4,5`.*
+
+> **O `Coro` fica com `h`, e isso é a troca dele escrita.** Ele é o único dos três que **ataca e comanda**, e é o único cujo corpo cair não acaba o kit — o dono continua batendo. *Perder o corpo do `Coro` custa metade da Rotina; perder o do `Servo` custava a Trilha inteira, e é essa assimetria que o `5h` fecha.*
 
 ## 4. O nome da peça precisa de triagem, e o óbvio está ocupado
 

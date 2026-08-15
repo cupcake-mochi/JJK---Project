@@ -696,7 +696,7 @@ Uma mão  d8 = 2,0 de dado + 0                = 2 de 2
 
 > **Esta seção dizia as duas coisas ao mesmo tempo até a v0.44.** Ela abria com *"recarregar custa a sua ação"* e fechava com *"recarregar é Ação Bônus — decisão do Mizuki"*, **e a tabela de `54% / 46% / 14%` que ficava entre as duas tinha sido calculada com a primeira.** A decisão é a Ação Bônus; a tabela era da regra que ela substituiu, e saiu.
 
-**O X não é a capacidade real, e o modelo velho errava num segundo ponto.** Ele supunha **2,2 ataques por combate** — um golpe simples por rodada. Mas a peça 6 §3.1 dá **ataque extra ao Bastião e à Vanguarda no nível 6**, e *"ataque extra é sempre golpe simples"*, que é exatamente o que a arma de tiro faz. Refeito com dois golpes por rodada:
+**O X não é a capacidade real, e o modelo velho errava num segundo ponto.** Ele supunha **2,2 ataques por combate** — um golpe simples por rodada. Mas a peça 6 §3.1 dá **ataque extra ao Bastião e à Vanguarda no nível 7**, e *"ataque extra é sempre golpe simples"*, que é exatamente o que a arma de tiro faz. Refeito com dois golpes por rodada:
 
 | X | fração dos ataques que sai, **sem** ataque extra | **com** ataque extra |
 |---|---|---|
@@ -705,7 +705,7 @@ Uma mão  d8 = 2,0 de dado + 0                = 2 de 2
 | 3 | 100% | 99% |
 | 4 ou mais | 100% | 99% |
 
-> **O `X = 1` apaga o ataque extra, e esse é o achado.** Com dois golpes por rodada você precisa de **duas recargas** e só tem **uma Ação Bônus** — então a recarga não atrasa o tiro, ela come o benefício de nível 6 de dois Caminhos inteiros. *Achado pelo Mizuki, olhando a faixa e dizendo que ela estava baixa demais.*
+> **O `X = 1` apaga o ataque extra, e esse é o achado.** Com dois golpes por rodada você precisa de **duas recargas** e só tem **uma Ação Bônus** — então a recarga não atrasa o tiro, ela come o benefício de nível 7 de dois Caminhos inteiros. *Achado pelo Mizuki, olhando a faixa e dizendo que ela estava baixa demais.*
 
 **E de 2 para cima a `Munição` custa entre 1 e 3 pontos percentuais.** Ela é **textura, não preço** — o que quer dizer que ela nunca poderia ter sido contada como contrapeso do dado, e a versão velha do §5.2 contava.
 
@@ -741,7 +741,7 @@ Uma mão  d8 = 2,0 de dado + 0                = 2 de 2
 | Vanguarda ou Bastião, nv2–5 | 22% | quatro níveis |
 | Guia · Evocador · Emanador | 22% | a campanha inteira |
 
-**Uma metralhadora de cinta é arma de Vanguarda, e a Vanguarda ganha ataque extra no nv6 — exatamente onde o vazamento fecha.** E o que vaza custa **0,1 a 0,3 ponto**, porque recarregar em Ação Bônus já era quase de graça. **É textura, não balanço: registra-se em vez de consertar.** *Escrever exceção para 0,3 ponto é medir contagem em vez de peso, que é a lição nº 3.*
+**Uma metralhadora de cinta é arma de Vanguarda, e a Vanguarda ganha ataque extra no nv7 — praticamente onde o vazamento fecha.** *O nível era 6 até a v0.61, e a Q3 de Trilhas o moveu um degrau para cima; o vazamento continua sendo de 0,1 a 0,3 ponto e agora vaza um nível a mais.* E o que vaza custa **0,1 a 0,3 ponto**, porque recarregar em Ação Bônus já era quase de graça. **É textura, não balanço: registra-se em vez de consertar.** *Escrever exceção para 0,3 ponto é medir contagem em vez de peso, que é a lição nº 3.*
 
 *As duas Bestas ficam em `2` por falta de lugar melhor: a ficção pediria `1` — uma besta carrega um virote —, e o `1` está proibido por apagar o ataque extra. **Fica marcado**, porque é o único ponto do catálogo em que a ficção e a régua discordam de frente.*
 

@@ -148,14 +148,14 @@ ILEGAL_DONO = {'dado de dano': 'peca 6 SS4',
                'refino': 'peca 11 SS2',
                'deslocamento positivo': 'SS3.6'}
 CON_DA_TABELA = 0        # a tabela de vida do SS3.6 e impressa com Constituicao 0
-# A Q6 e das TRILHAS e continua aberta: "Servo da um corpo forte" nao tem numero
-# ainda. Ate ela fechar, a Matilha passa o Servo em presenca com a saida empatada,
-# e isso e DECLARADO em vez de silencioso — no molde do DOMINANCIA_ACEITA do
-# conferir-equipamento.py. Quando a Q6 der numero ao corpo forte, o par tem de
-# sumir daqui, e a checagem 2 acusa se a declaracao ficar mentindo.
-# As DUAS apontam para o Servo, e isso nao e coincidencia: ele e a unica das tres
-# cuja concessao ("um corpo forte") ainda nao tem numero nenhum.
-DOMINANCIA_PENDENTE_Q6 = {('Matilha', 'Servo'), ('Coro', 'Servo')}
+# A Q6 FECHOU NA v0.63, e por isso este conjunto esta VAZIO.
+# Ate a v0.62 ele carregava ('Matilha','Servo') e ('Coro','Servo') — as duas
+# apontando para o Servo, porque "um corpo forte" nao tinha numero e ele nao
+# ficava na frente em EIXO NENHUM. O conserto nao foi um numero: foi uma coluna
+# nova na matriz. A Trilha concede orcamento e vida ao corpo, e as duas colunas
+# saem da tabela "O que cada Trilha concede" do SS3.7 — nunca daqui.
+# Se alguma dominancia voltar, a checagem 2 falha em vez de aceitar calada.
+DOMINANCIA_PENDENTE_Q6 = set()
 # Quantos pontos de deslocamento a ficha pode vender de uma vez, no pior caso
 # medido no SS3.7. E um CENARIO de teste, nao uma regra: a peca nao poe teto.
 VENDA_MEDIDA = 5
@@ -379,15 +379,39 @@ if set(ACAO) != set(TRILHAS):
     erro('DOMINANCIA', f'SS3.4: a tabela de economia de acao por Trilha nao lista as tres '
                        f'({sorted(ACAO)}) — sem ela a excecao do Coro vira constante escrita '
                        'dentro do validador')
+# Os dois eixos que a Q6 acrescentou saem da tabela do SS3.7. Sem eles a matriz
+# volta a acusar as duas dominancias que aquela pergunta existia para matar, e e
+# por isso que a leitura falha alto em vez de cair para um valor de reserva.
+CONCEDE = {}
+for c in linhas_de_tabela(trecho(S37, '| Trilha | o que ela concede |',
+                                 '**A vida do `Servo`')):
+    if len(c) < 4:
+        continue
+    nome = limpo(c[0])
+    if nome not in TRILHAS:
+        continue
+    _o = sem_acento(c[2])
+    _v = sem_acento(c[3])
+    CONCEDE[nome] = dict(orc=2 if 'mais metade' in _o else 1,
+                         vida=5 if '5' in _v.replace('x', ' ') else 1)
+if set(CONCEDE) != set(TRILHAS):
+    erro('DOMINANCIA', 'SS3.7: a tabela "O que cada Trilha concede" nao lista as tres '
+                       f'({sorted(CONCEDE)}) — sem ela os dois eixos que a Q6 abriu '
+                       'virariam constante escrita dentro deste arquivo, e a matriz '
+                       'voltaria a acusar as duas dominancias que ela fechou')
 perfil = {}
 for t in TRILHAS:
     corpos = COTA[t]['corpos'] if COTA[t]['corpos'] else CORPOS_ESPERADOS[t]
     perfil[t] = dict(saida=TETO_SOMADO,
                      corpos=int(corpos),
-                     acao=ACAO.get(t, 0))
+                     acao=ACAO.get(t, 0),
+                     orc=CONCEDE.get(t, {}).get('orc', 1),
+                     vida=CONCEDE.get(t, {}).get('vida', 1))
     print(f'  {t:<9} saida {perfil[t]["saida"]} Rotina · {perfil[t]["corpos"]} corpo(s) '
-          f'· {"ataca e comanda" if perfil[t]["acao"] else "comanda, nao ataca"}')
-EIXOS = ('saida', 'corpos', 'acao')
+          f'· {"ataca e comanda" if perfil[t]["acao"] else "comanda, nao ataca"} '
+          f'· orcamento {"x1,5" if perfil[t]["orc"] > 1 else "da ficha"} '
+          f'· vida {"5h" if perfil[t]["vida"] > 1 else "h"}')
+EIXOS = ('saida', 'corpos', 'acao', 'orc', 'vida')
 achadas = set()
 for a in TRILHAS:
     for b in TRILHAS:
@@ -405,6 +429,27 @@ print(f'  {len(TRILHAS) * (len(TRILHAS) - 1)} pares, {len(achadas)} dominancia(s
       f'{len(achadas & DOMINANCIA_PENDENTE_Q6)} declarada(s) como pendente da Q6.')
 for a, b in sorted(novas):
     erro('DOMINANCIA', f'{a} domina {b} nos tres eixos e nao esta declarada')
+if not achadas and not DOMINANCIA_PENDENTE_Q6:
+    print('  nenhuma dominancia entre as tres, e nenhuma declarada — a Q6 fechou '
+          'os dois pares que apontavam para o Servo.')
+
+# A VIDA NAO E EIXO DE DOMINANCIA, e por isso ela precisa de checagem propria.
+# Medido: so o orcamento ja zera a matriz, entao tirar o 5h do Servo sairia VERDE
+# aqui e desfaria em silencio a metade da Q6 que a matriz nao mede — a de "perder
+# o corpo acaba o kit". A regra do SS3.5 le a VIDA MAXIMA para decidir morte em
+# definitivo, e com h o gatilho do Servo era 1/5 do da Matilha para a MESMA Rotina
+# entregue. O invariante e esse, e nao o numero 5.
+if set(CONCEDE) == set(TRILHAS):
+    _vs, _vm = CONCEDE['Servo']['vida'], CONCEDE['Matilha']['vida']
+    if _vs < _vm:
+        erro('DOMINANCIA', f'SS3.7: a vida do corpo do Servo ({_vs}h) e menor que a da '
+                           f'Matilha ({_vm}h) e as duas entregam a mesma Rotina — pela '
+                           'regra de morte do SS3.5 o Servo sai da luta por um golpe '
+                           f'{_vm / max(_vs, 1):.0f}x menor, e ele e a Trilha de UM corpo '
+                           'so. A matriz de dominancia nao mede isto e sai verde.')
+    else:
+        print(f'  [x] o corpo do Servo ({_vs}h) nao sai da luta por golpe menor que o '
+              f'da Matilha ({_vm}h) — as duas entregam a mesma Rotina.')
 alvos = {b for _, b in achadas & DOMINANCIA_PENDENTE_Q6}
 if len(alvos) == 1:
     print(f'  as {len(achadas & DOMINANCIA_PENDENTE_Q6)} pendentes apontam todas para o '

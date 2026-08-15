@@ -116,11 +116,13 @@ Então a regra fica em três linhas, e ela espelha a regra de ouro nº 6 do Fund
 
 *Escrito na v0.24.* Da v0.14 até aqui, o ataque extra tinha conta, argumento e correção — e **nunca tinha dono**. O único texto era "os Caminhos físicos ganham e os meio-arcanos não", que é a mesma divisão em duas famílias que a seção 5 desta peça registra como tendo deixado o Guia sem número de PE. Ela não cobre os cinco Caminhos, e o achado da v0.20 sobre o Guia dependia inteiro de como ela fosse resolvida.
 
-> **Bastião e Vanguarda ganham ataque extra no nível 6**, pelo Caminho.
+> **Bastião e Vanguarda ganham ataque extra no nível 7**, pelo Caminho.
 > **Arremate e Coro ganham pela Trilha**, quando o personagem a compra.
 > **O Guia não ganha por nenhuma rota.**
 
-O nível 6 é o primeiro marco, e é onde o resto do sistema já entrega coisa.
+> **Era o nível 6 até a v0.61, e o motivo escrito aqui era *"é o primeiro marco, e é onde o resto do sistema já entrega coisa"*. Esse motivo virou o argumento contrário.** A Q2 de Trilhas mediu o calendário do sistema inteiro e achou que o **nível 6 é um dos quatro mais cheios** — marco, feitiço e o ataque extra no mesmo lugar —, enquanto o **7 não entrega absolutamente nada**. E ela pôs os degraus de Caminho em **7 · 15 · 23 · 29**: com o ataque extra no 6, Bastião e Vanguarda ficavam com cinco degraus de Caminho e os outros três com quatro. **Mover fecha as duas coisas de uma vez** — um presente por nível, e quatro degraus de Caminho para os cinco.
+
+**O ataque extra é o degrau de Caminho do nível 7 desses dois, e não um degrau a mais.** Quem não tem rota para ele — o Guia, e as Trilhas do Emanador e do Evocador que não são `Arremate` e `Coro` — recebe no lugar um degrau que vale exatamente o vão desta seção. *A régua está no `RASCUNHO-trilhas.md` §3.4, e ela empata os cinco Caminhos em `+6%` da Rotina no nível 30, contra o `+18%` que a seção abaixo reprova.*
 
 **Num Caminho de técnica, ataque extra é trocar, não somar.** O Arremate e o Coro trocam o Classe 0 pelo golpe simples; eles não passam a ter três ataques. A diferença não é estética:
 
@@ -252,8 +254,8 @@ Esse último ponto é um achado pequeno mas real: **escudo e Gesto se cancelam.*
 
 ## 9. Em aberto
 
-- **Quantas Trilhas um personagem acumula** ao longo da campanha, e em que níveis.
+- ~~**Quantas Trilhas um personagem acumula** ao longo da campanha, e em que níveis.~~ **Fechada na v0.55 e na v0.60:** uma Trilha por ficha, entregas nos níveis `2 · 11 · 19 · 27`, e degrau de Caminho em `7 · 15 · 23 · 29`.
 - **Como Torrente cobra o segundo feitiço da rodada.** Uma lista de pontos à parte é o modelo mais provável, e ela precisa ser precificada contra a regra de ouro nº 6. **É o mesmo defeito da seção 4** — mais de uma ação por rodada —, e o conserto que funcionou lá provavelmente serve aqui: *os feitiços que você lança numa rodada, somados, entregam uma Rotina*.
-- **O que Elo, Sutura e Perímetro entregam** que valha o golpe por rodada que o Guia não tem (seção 3.1).
+- ~~**O que Elo, Sutura e Perímetro entregam** que valha o golpe por rodada que o Guia não tem (seção 3.1).~~ **Respondida na v0.61, e a resposta é um número:** eles valem **o vão desta seção**, e ele chega como o degrau de Caminho do nível 7 — o mesmo lugar em que o Bastião e a Vanguarda recebem o ataque extra. *Com isso os cinco Caminhos empatam em `+6%` da Rotina no nível 30. A conta está no `RASCUNHO-trilhas.md` §3.4; **o que cada uma das três entrega em ficção continua sendo a Q5.***
 
 *Resolvidos e tirados daqui:* os **nomes das Trilhas**, fechados na v0.24 — as seis que colidiam viraram Batedor, Executor, Sutura, Perímetro, Servo e Matilha, e o `conferir-nomes.py` falha se alguma voltar. E **se o Coro deixa o dono e a invocação agirem no mesmo turno**: deixa, e não custa nada, porque o orçamento dividido da seção 4 é teto de saída e não de número de ações (seção 3.1).
