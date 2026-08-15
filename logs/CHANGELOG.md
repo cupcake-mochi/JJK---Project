@@ -6,6 +6,241 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.68] — 2026-08-15
+
+**A v0.67 escreveu que a peça 15 estava "inteira na escala nova", e ela não estava — quatro linhas ficaram na velha, e uma delas é regra viva.** *Achado indo conferir a moeda antes de escrever as doze entradas do Evocador, que são denominadas nela.* Continuam dezesseis peças e dezesseis validadores, e continuam trinta checagens: o que entrou foram **metades novas dentro das checagens 8, 9 e 10**, que já eram as donas de cada coisa.
+
+### Achado — a venda de deslocamento não foi multiplicada, e nenhuma das três checagens vizinhas olhava para isso
+
+A ficha da invocação pode descer o acerto ou a Defesa dela, e descer **devolve ponto**. Esse ponto ficou em `1` enquanto o catálogo e o orçamento eram multiplicados por quatro.
+
+| devolve | o que a venda de 1 compra sozinha | vendendo 5, entram | × o orçamento do nv2 |
+|---|---|---|---|
+| **4** | 2× a entrada mais barata (2 pts) | 20 | **2,50** |
+| 2 | 1× a entrada mais barata | 10 | 1,25 |
+| **1** — como estava | **nada — metade da mais barata** | 5 | 0,62 |
+
+*Antes da v0.67: orçamento do nv2 era `2`, a entrada mais barata custava `1`, e a venda devolvia `1` — ela comprava uma entrada inteira, e vender 5 entravam `2,50×` o orçamento.* **A venda tinha perdido três quartos do poder de compra, e isso não foi decidido em lugar nenhum.**
+
+> **Por que passou verde.** A checagem 8 confere a **forma** da venda — que descer devolve e que subir é proibido —, e ela sai verde com qualquer número. A checagem 30 mede só o que a venda **custa** em vida efetiva. E a busca exaustiva **só enumera compra**: ela nunca modelou venda. *O argumento de segurança da v0.67 — "escala uniforme preserva o conjunto legal exato" — vale para quem compra, e ninguém foi olhar quem vende.*
+
+### Decidido — a devolução vira `4`, que é a escala uniforme
+
+*Escolha do Mizuki entre as três.* **`4` é o que um ponto da escala velha virou**, que é o mesmo motivo pelo qual cada marco passou a dar `4`. Vender 5 volta a entrar `2,50×` o orçamento do nível 2 — exatamente a razão de antes da escala.
+
+### Alterado — as outras três linhas da escala velha
+
+| onde | o que dizia | o que diz |
+|---|---|---|
+| **§1, o resumo da Q3** | orçamento `2` no nv2, `+1` por marco, `9` no 30 | `8`, `+4`, `36` |
+| **§3.6, as duas moedas** | *"o ponto de arma é cerca de quatro vezes menor que o de ficha (ficha tem 2 a 9)"* | a razão medida, e a separação apoiada no **que cada moeda compra** |
+| **§3.7, o núcleo do Panda** | *"o orçamento do nível 2 é 2"*, degrau de `3` pontos | `8` e `12` — **o argumento não se moveu**, e é por isso que ele fica |
+
+**A frase das duas moedas era a mais errada das três, e não por causa da escala.** Recalculada dos donos — o ponto de arma da peça 14 e a `Rotina` da peça 6 —, a razão **nunca foi um número só**: ia de `2,0×` no nível 2 a `16,4×` no 30. Depois da divisão por quatro ela vai de **`0,5×` a `4,1×`**, e no nível 2 **o ponto de arma passou a ser o maior dos dois**.
+
+> **Então o motivo escrito para as duas moedas não se misturarem parou de reproduzir.** *"São orçamentos de tamanhos diferentes"* não segura mais nada. A separação continua certa, e ela se apoia no que cada uma **compra**: o ponto de arma compra dado de dano, e o desta ficha é proibido de tocar em dado de dano. **A regra ficou, o motivo mudou** — e um motivo que envelheceu ensina a procurar o defeito onde ele não está mais.
+
+### Adicionado — três metades novas, cada uma dentro da checagem que já era dona
+
+- **Checagem 8** passa a medir o **tamanho** da devolução, em duas afirmações separadas de propósito. **A regra aplicada:** a devolução tem de comprar pelo menos a entrada mais barata do catálogo, senão descer é castigo e não escolha. **O limite de design:** ela bate com o passo do marco, porque as duas *são* um ponto da escala velha. *A mensagem do segundo diz, com todas as letras, que separar os dois é decisão a escrever e não número a ajustar.*
+- **Checagem 9** compara o resumo do topo da peça com a tabela dona — base, passo e teto. **Apagar a linha também acende**, senão o conserto barato para uma divergência vira sumir com a cópia.
+- **Checagem 10** **recalcula** a razão entre as duas moedas em vez de aceitar a publicada, e ela cai dos donos: o ponto de arma da peça 14, a `Rotina` da peça 6, a fração que um corpo entrega e a própria devolução.
+
+**Nenhuma delas é `conferir-*.py` novo nem checagem numerada nova**, e isso é de propósito: arquivo novo ou trigésima primeira checagem mexeriam na contagem que mora em quatro documentos, para guardar coisa que já tinha dono.
+
+**Arnês, na cópia isolada, com a base conferida verde antes e o `diff` provando cada `sed`:**
+
+| perturbação | acendeu? |
+|---|---|
+| a devolução volta a `1` | **sim** — nas duas metades, e a primeira nomeia a entrada mais barata |
+| a devolução vira `3` | **sim** — e **só no acoplamento com o marco**, que é o que prova que as duas metades são eixos separados |
+| acerto devolve `4` e Defesa devolve `2` | **sim**, nomeando os dois valores |
+| o resumo do topo volta à escala velha | **sim**, dizendo base, passo e teto dos dois lados |
+| o resumo do topo é apagado | **sim** |
+| cada marco passa a dar `3` | **sim**, e a tabela do orçamento cai junto |
+| a razão publicada `4,1×` vira `6,0×` | **sim** |
+| **o dono muda:** o ponto de arma da peça 14 vai de `0,33` para `0,50` | **sim** — acende nos dois níveis, que é a prova de que a razão não é constante escrita |
+| **contra-teste:** a prosa do que o `Faro` faz | **não acendeu** |
+| **contra-teste:** uma palavra no parágrafo do Panda | **não acendeu** |
+| **contra-teste:** a prosa do que o `Vigia` faz | **não acendeu** |
+
+*A segunda linha é a que dá valor à primeira.* Sem ela as duas metades poderiam ser a mesma afirmação escrita duas vezes — que é a lição nº 8 na forma em que ela mais reincide aqui.
+
+### Achado — a tabela do orçamento do `Servo` estava MEIO convertida, e é a sexta linha
+
+*Achada respondendo à pergunta do Mizuki sobre a rota.* A tabela do §3.7 que carrega a concessão inteira da Q6 tinha o **cabeçalho na escala nova e as duas colunas na velha**:
+
+| nv | dizia ficha | dizia `Servo` | deriva ficha | deriva `Servo` |
+|---|---|---|---|---|
+| 2 | 2 | 3 | **8** | **12** |
+| 30 | 9 | 13 | **36** | **54** |
+
+*O `112 pontos` do cabeçalho está certo — o catálogo soma isso mesmo na escala nova —, e as porcentagens de 11%, 21% e 32% também, porque `velho ÷ 28` e `novo ÷ 112` dão o mesmo número.* **A do nível 30 não:** ela vira `48%`.
+
+### Registrado — e o arredondamento do `Servo` virou letra morta sem ninguém decidir
+
+`o orçamento da ficha mais metade, arredondando para baixo` **raspava meio ponto nos níveis 6, 14, 22 e 30**, que eram os de orçamento ímpar. **Na escala nova todo orçamento é múltiplo de `4`, então `mais metade` sempre fecha redondo** — e o `Servo` passou a ficar com `2` pontos a mais nesses quatro níveis.
+
+> **A regra não muda, e o número novo é o certo.** Ela é a regra global da peça 1 §5.4 e continua valendo; o que aconteceu é que ela deixou de ter o que raspar aqui. *Manter o número velho exigiria derivar através de uma escala que não existe mais.* **É a mesma paridade que a v0.67 registrou na busca exaustiva, do outro lado: a moeda fina fecha conta que a grossa arredondava.**
+
+### Adicionado — a tabela do `Servo` passou a ser derivada, dentro da checagem 9
+
+Ela lê a ficha dos marcos, aplica `×1,5` com o arredondamento da peça 1, e **reconta o total do catálogo** em vez de aceitar o publicado.
+
+| perturbação | acendeu? |
+|---|---|
+| o `Servo` do nv30 volta a `13` | **sim**, dizendo que a regra dá 54 |
+| a ficha do nv18 volta a `6` | **sim**, dizendo que os marcos derivam 24 |
+| a porcentagem do nv30 volta a `46%` | **sim**, com o recontado |
+| o total do catálogo vira `28` | **sim** — ele soma 112 |
+| **contra-teste:** a prosa sobre a `Matilha` logo abaixo | **não acendeu** |
+
+### Decidido — a entrega de Trilha do Evocador muda de categoria
+
+*Decisão do Mizuki depois de levantamento externo que ele pediu.* **Ela deixa de ser `+1` ponto de orçamento e passa a ser coisa nomeada da camada de vínculo** — *o que **você** ganha por ela estar de pé.*
+
+**O que derrubou a saída da v0.67 foi contradição interna, e o levantamento foi quem fez ela aparecer.** O §6.4 escreve *"as doze entradas são nomeadas, nunca em branco"* e *"nenhuma entrega move o orçamento"*; o §6.6 escreve *"a entrega é `+1` ponto"*. **Com um ponto por degrau, as doze entradas são a mesma entrada doze vezes** — e a `Matilha`, que a matriz proíbe de receber orçamento, recebe nas quatro dela.
+
+> **A matriz não acusa porque o eixo de orçamento dela é liga-desliga:** ela lê *"mais metade"* e marca `2` ou `1`, e não conta pontos. **Terceira versão seguida em que o defeito é o eixo errado.**
+
+| sistema | o que cada degrau entrega | o que custou |
+|---|---|---|
+| **Pathfinder 2e** Summoner | features nomeadas — e **quatro das seis são os dois lados ganhando junto** | a customização virou trilha separada, os *evolution feats* |
+| **D&D 5e 2024** Beast Master | comando, ataque extra e feitiço compartilhado | é tudo economia de ação, e quase nada disso é legal aqui |
+| **Pathfinder 1e** Summoner | **o bolo de pontos cresce com o nível** — a saída da v0.67 | opção-armadilha e a classe mais reclamada da edição |
+
+**As quatro features do 2e que são "os dois lados de uma vez" são literalmente a categoria que o §6.5 tinha achado e chamado de "a que não existe".** *O levantamento não trouxe ideia nova — ele confirmou a que o documento já apontava, e mostrou um sistema grande com a progressão inteira construída ali.*
+
+**A moeda quebrada em quatro fica**, porque ela nunca foi só para caber a entrega: ela é a granularidade do catálogo da peça 15. *O que morre é a frase que fazia dela a entrega.*
+
+### Achado — o §3.3 e o §3.5 mediam com réguas diferentes, e a conta separou
+
+*Apareceu ao preçar a camada de vínculo, e ela decidia o preço das doze entradas.* O §3.3 diz que a entrega é **plana** — `1,27` de dano por rodada em todo nível, com a quantidade crescendo. O §3.5 diz que toda entrega é **fração de coisa que cresce**, e reprova valor absoluto. **As duas não valem para a mesma entrega.**
+
+Rodado contra a dívida da peça 14 §4, que é o alvo em todo nível:
+
+| nv | alvo | plana | fração | por Classe |
+|---|---|---|---|---|
+| 6 | 1,92 | **−34%** | −81% | −58% |
+| 14 | 4,68 | **−19%** | −52% | −36% |
+| 22 | 7,41 | **−14%** | −26% | −20% |
+| 30 | 10,14 | **+0%** | +0% | +0% |
+
+> **A prova não é a plana ganhar — é ela reproduzir os erros que o §3.3 já publicava.** Aquela seção escreve *"34% abaixo nos níveis 5 e 6"* e *"entre 13% e 19% abaixo no miolo"*, e a conta devolve `−34%`, `−19%` e `−14%`. **Mesmo modelo, mesmos números**, o que valida a leitura antes de valer a comparação. *As três empatam no nível 30 porque é lá que a fatia foi definida; descendo, a fração entrega um quinto.*
+
+**A fatia é plana, e o §3.5 fica com a pergunta errada.** A certa é **"isso cresce depois de chegar?"** — porque o que soma duas vezes com o acúmulo é a entrega que cresce sozinha depois de entrar na ficha.
+
+### Decidido — duração sai do permitido para efeito de Trilha, e posicionamento entra com previsão
+
+**`+1 rodada sempre` custa de `11` a `43` fatias**, conforme o comprimento do efeito. *Não existe efeito curto o bastante para ela caber* — no melhor caso ela ainda é onze vezes uma entrega. *A conta supõe o teto (o efeito vale uma Rotina por rodada), e baixar isso exigiria uma conversão para efeito que não é dano, que o projeto não tem.* **Ela fica registrada com o número, e continua valendo para Caminho e aptidão.**
+
+**Posicionamento fica**, com o número da mesa fixado em **`5%` das rodadas** e marcado como previsão. *Mas ele não tem troco:* o metro exato de uma fatia é **`2,11 m`**, e a escala do projeto é `1,5 · 3 · 6 · 9 · 18 · 21 · 30` — sobra ficar 29% abaixo ou 42% acima. **Terceira família em que a falta de troco aparece**, e a saída é a mesma das outras duas: a janela absorve o que a escala não divide.
+
+### Achado — a parede do Evocador não era da moeda, e a escada de Classe nunca tinha sido preçada
+
+| família | janela | em fatias |
+|---|---|---|
+| acerto `+1` no seu acerto · PE `+1` por rodada | permanente | 4,3 · 4,1 |
+| **acerto `+1` preso no que ela faz** · **PE `+1` por descanso curto** | janela | **0,9 · 1,2** |
+| alvo — seu golpe simples pega 2 | permanente | 9,1 |
+
+**Tudo que é permanente e encosta na máquina do Evocador vale quatro fatias ou mais.** *A v0.67 tinha lido isso como problema de moeda e quebrou o ponto em quatro; a moeda era metade da resposta.* **A outra metade é a janela** — e ela casa de graça com o formato do §6.4, porque o `Coro` já puxa pro condicional.
+
+> **E o que fecha: os exemplos da escada de Classe Passiva nunca foram convertidos em fatia.** Ela foi escrita como **forma** — o que separa permanente de reativo de condicional — e as células viraram exemplo sem preço. **Dois dos sete não sobrevivem:** *"+3 m sempre"* está `1,42×` grande e *"+1 rodada sempre"* está `11×`.
+
+### Achado — a auditoria da escada, e a pergunta do Mizuki que a provocou
+
+*Ele perguntou se era impressão dele que cada problema resolvido fazia aparecer outro.* **Não era, e a resposta foi enumerar em vez de tranquilizar.** A escada de Classe Passiva tem **16 células preenchidas**. Preçadas contra a fatia:
+
+| | |
+|---|---|
+| **cabem** | posicionamento-3 (`1,4`) · recuperação-2 (`1,2`) |
+| **grandes** | recuperação-3 `4,1` · alvo-2 `2,7` · alvo-3 `9,1` · duração-3 `10,7` · troca do fixo-3 `17,0` · duração-2 `25,6` · exceção-2 `25,6` |
+| **sem preço** | as outras sete |
+
+**Na coluna da Classe 3 — a que o `Servo` precisa três vezes — cabe uma.**
+
+> **A causa é uma só, e ela explica os sete achados da versão:** a escada foi calibrada para **aptidão**, onde o refino carrega a magnitude e o orçamento é de um marco inteiro. Portada para a Trilha, onde o refino é proibido e o orçamento é uma fatia, **ninguém converteu as células**. *Os problemas não estavam se multiplicando — era um só, aparecendo em sete lugares.*
+
+### Decidido — a Q3 foi REFORMULADA, e o que mudou é o método
+
+*Decisão do Mizuki: **"vamos reformular, talvez estejamos usando a metodologia errada"**.* **Ele estava certo.** O método convertia tudo em dano por rodada e cobrava **uma fatia por entrega** — e quase nada do que uma Trilha entrega é dano.
+
+**As duas metades do conserto:**
+
+> **1. O preço mora na Trilha, não na entrega.** As quatro somam o orçamento; nada obriga as quatro a valerem igual.
+> **2. Cada entrada declara a taxa de disparo**, e o que se confere é `botão × taxa`.
+
+**A segunda é a que destrava, e a primeira sozinha não bastava.** Os botões que a peça 5 §4 autoriza são **indivisíveis e grandes** — `+1 PE` vale `4,1` fatias, dobrar o golpe simples vale `9,1`, uma ação a mais vale `85,2`. **A escada oferece três taxas fixas — `100%`, `27%`, `20%` — e nenhuma divide `11,50` até `1,7`.** Uma taxa de `15%` divide.
+
+> **É por isso que a escada não estava errada e mesmo assim não servia.** Ela mede **forma**, e diz isso de si mesma: *"ela não mede quanto, mede o quê"*. **As três Classes são três pontos de um dial contínuo**, e a Trilha precisa do dial inteiro. *A escada continua sendo a de aptidão e continua valendo lá.*
+
+**E o degrau do nível 7 deixa de ser exceção.** Ele vale de `3,2` a `5,5` fatias e estava marcado como *"o único diferente dos oito"* porque a régua antiga cobrava uma. Com o preço por Trilha ele é só uma entrega grande. *Uma régua que precisa de exceção para o caso mais importante estava medindo a coisa errada.*
+
+**Sobrevivem intactos:** o calendário da Q2, as travas de forma do §3.6, a banda de orçamento e a fatia como unidade de conta. *A decisão "oito iguais contra a do nv2 maior" deixa de ser pergunta.*
+
+### Adicionado — o `Servo` montado, como prova de que o método constrói
+
+| nv | a entrega | botão | taxa | sai em |
+|---|---|---|---|---|
+| 2 | treino enquanto ela está de pé | utilidade | — | *sem preço em dano* |
+| 11 | `+1 PE`, 1× por descanso curto | `5,14` | `30%` | `1,54` |
+| 19 | `+3 m` enquanto ela está de pé | `1,80` | `100%` | `1,80` |
+| 27 | o golpe simples pega 2, com gatilho | `11,50` | `15%` | `1,72` |
+
+**Somam `5,07` contra um orçamento de `5,07`.** *A montagem não foi ajustada para fechar — as taxas saem de onde as coisas acontecem.* **Falta o gatilho do nível 27**, que é o que fixa os `15%`.
+
+### Registrado — três recomendações minhas caíram na segunda validação, e o pedido é dele
+
+*Ele escreveu: **"recomendo validar mais de uma vez sempre que me recomendar algo, por eu estar confiando em você"**.* **Na mesma sessão isso pegou três:**
+
+1. Recomendei **escada própria de Trilha**; a segunda passada achou que a escada **mede forma e não magnitude**, então ela porta — e uma escada nova seria a palavra com duas escalas que a v0.64 pagou para consertar.
+2. Recomendei **orçamento por Trilha** como suficiente; testado contra o `Servo`, ele **ainda travava** — faltava a taxa declarada.
+3. Preçei uma família **`acerto +1`** que **não é linha do permitido**. A lista tem sete linhas e acerto não é uma; o que existe é *trocar o fixo por atributo*, que é outra coisa e custa `17` fatias.
+
+> **As três só apareceram porque alguém mandou olhar de novo.** *Fica como procedimento: recomendação minha passa por uma segunda leitura antes de virar decisão dele.*
+
+### Registrado — o defeito é o mesmo das três últimas versões, numa camada nova
+
+**A v0.63 achou uma checagem que se media pelo eixo errado. A v0.66 achou uma skill que dizia "aplicada nos dois lados" e não estava. Esta achou uma escala declarada uniforme que não era.** *As três têm a mesma forma:* alguém escreveu que a coisa foi feita por inteiro, e nada conferia o "por inteiro".
+
+> **E o que fez esta aparecer foi ir conferir a moeda antes de gastar ela.** As doze entradas do Evocador são precificadas em `+1` ponto da escala nova. **Escrever as doze primeiro teria enterrado o defeito debaixo de doze entradas escritas na moeda errada.**
+
+### Em aberto
+
+**Varredura feita antes de fechar, a pedido do Mizuki. A lista abaixo é o estado inteiro das Trilhas, e ela é fechada — não existe superfície escondida.**
+
+**As seis que esta versão criou e consertou aqui mesmo** — ficam registradas porque a próxima reformulação vai criar as mesmas:
+
+| onde | o que ficou pendurado |
+|---|---|
+| §3.3 | afirmava a cobrança por entrega como regra viva · **ganhou aviso apontando o §3.4-B** |
+| §3.5 | abria com a pergunta que esta versão provou errada · **ganhou a pergunta certa no topo** |
+| §5 | dois itens da spec eram do método velho · **o contra-teste do nv7 morreu, e entraram quatro itens novos** |
+| §3.1 | publicava três taxas como se fossem as únicas · **ganhou o aviso do dial** |
+| §6.9 | escrita sob o enquadramento por entrega · **ganhou o aviso de releitura** |
+| `ESTADO-ATUAL` | dizia *"a régua fechou na v0.61"* · **agora diz que ela foi reformulada** |
+
+**O que continua aberto, em ordem de quem trava quem:**
+
+- **O gatilho do nível 27 do `Servo`** — é ele que fixa os `15%`, e sem ele a única Trilha montada não fecha. **Não pode supor corpo a corpo nem dar ação.**
+- **O `Coro` precisa da variância refeita.** Os desvios do §6.4 foram medidos tratando toda condicional como `20%`, e o §6.4 exige que a do `Coro` dispare em quase toda rodada. A `90%` ele cai de `3,29` para `2,13` e a ordem das três se inverte. *Decidido: refazer as três quando o bloco do `Coro` começar.*
+- **Sete das dezesseis células da escada continuam sem preço.** A lista está no §6.9.
+- **Nenhum validador alcança o rascunho.** Todo número do §3, do §6.9 e do §6.10 está sem rede até a peça fechar — e a spec do §5 é o que vai cobrar isso.
+- **A regra do slot do golpe do `Arremate` e do `Coro` continua sem validador dono** (peça 6 §3.1). Trocar o slot ou apagar o gate sai verde hoje.
+- **As duas dívidas da peça 15:** quando a vida cheia da invocação reinvocada volta, e o que acontece com ela quando o **dono** cai.
+- **A `Matilha` e o `Coro` não foram montados.** Só o `Servo`.
+
+- **As doze entradas do Evocador.** O formato fechou na v0.67, a categoria fechou aqui, o conteúdo não. É o resto da Q5.
+- **A camada de vínculo tem régua e não tem catálogo.** Sobram cinco famílias — `acerto`, `alvo`, `recuperação`, `posicionamento` e `exceção de ação` —, e a última é ilegal para `Servo` e `Matilha`. **E ela vai precisar de checagem própria**: ela não encosta em nenhum dos cinco eixos, então a matriz sai verde de qualquer jeito.
+- **Os exemplos da escada de Classe Passiva continuam sem preço**, fora os dois que esta versão mediu. *A peça 11 §4 é a dona, e ela nunca converteu as células dela em fatia.*
+- **O `5%` de posicionamento é previsão e está marcado como tal**, junto de todo o resto — `04-playtest/` continua vazia.
+- **As duas dívidas da peça 15**, e as duas continuam sem contra o que ser medidas: **quando a vida cheia da invocação reinvocada volta**, e **o que acontece com a invocação quando o dono cai**.
+- **A regra do slot do golpe do `Arremate` e do `Coro` continua sem validador dono.** Trocar o slot ou apagar o gate **sai verde hoje**. Entra com o validador de Trilhas.
+- As de sempre: as vagas de Desliga, a Cicatriz, Energia Reversa, o clash, o nome do sistema, o refino que paga mal no marco.
+
+---
+
 ## [0.67] — 2026-08-15
 
 **O bloco do Evocador abriu, e a primeira coisa que ele achou foi um vão na peça 6 aberto desde a v0.24: ela sempre disse *"2 ações"* e nunca disse quais.** Continuam dezesseis peças e dezesseis validadores — nada de arquivo novo, porque o formato mora no rascunho até a peça fechar.

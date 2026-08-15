@@ -165,6 +165,8 @@ E ela porta sem adaptação porque a peça 11 §4 já diz exatamente o que ela �
 
 **Só que o que segura a Classe Passiva 3 lá não pode ser o que segura ela aqui.** Na peça 11 é o refino — *"uma Classe Passiva 1 no refino 10 não é a mesma coisa que no refino 2. Ela cresce junto com você"* —, e o refino está proibido na Trilha. O substituto sai da própria definição das três:
 
+> **As três taxas abaixo são TRÊS PONTOS DE UM DIAL, e não os três valores possíveis.** *Registrado na v0.68:* a Trilha declara a taxa de cada entrada, porque os botões que o permitido oferece são grandes e indivisíveis — nenhuma das três divide `11,50` até `1,7`, e `15%` divide. **A escada continua medindo forma; a taxa é que mede quanto.**
+
 | Classe Passiva | janela | dispara em | magnitude quando dispara |
 |---|---|---|---|
 | **3** | permanente | 100% das rodadas | **1,27** |
@@ -223,6 +225,8 @@ O §2.2 diz que entrega de valor absoluto morre contra alvo que cresce. **Isso v
 
 A Rotina cresce **8,31×** e o número de entregas cresce **8,00×**. Então uma entrega de valor **plano** fica em fração quase constante da Rotina do nível 7 ao 30 — espalhamento de `1,33×`. **O acúmulo repõe o crescimento**, e os únicos dois buracos são a Rotina subindo de degrau antes de a entrega seguinte chegar: **nv5–6 e nv26**.
 
+> **LEIA O §3.4-B ANTES DESTA SEÇÃO.** *A v0.68 reformulou a Q3:* **a fatia continua sendo a unidade de conta e deixou de ser o preço de cada entrega.** O que esta seção mede — de onde a fatia sai, e que ela é plana — continua valendo inteiro. **O que caiu é a cobrança por entrega**, e com ela a pergunta *"oito iguais ou a do nv2 maior?"*, que deixou de existir quando a distribuição virou livre dentro do orçamento da Trilha.
+
 **A fatia é `1,27` ponto por rodada, plana.** Ela sai de dividir o piso da peça 14 §4 no nível 30 — `10,14 ÷ 8` — e foi escolhida contra a alternativa de a primeira entrega ser maior:
 
 | | oito iguais (`1,27`) | a do nv2 maior (`1,92` + `1,17`) |
@@ -270,7 +274,50 @@ E aí os cinco Caminhos empatam, com o resto do calendário inalterado:
 
 *A saída que pagava o ataque extra em fatias foi medida e morreu: ela custa **6 das 8**, e Bastião e Vanguarda ficariam com seis níveis mortos — exatamente o que a Q2 saiu para matar.*
 
+### 3.4-B A Q3 foi REFORMULADA na v0.68, e o que mudou é o método
+
+*Não é ajuste de número: é onde o preço mora.* **A auditoria da escada mostrou que o método antigo não conseguia construir nem a primeira Trilha da fila**, e as duas metades do conserto são estas:
+
+> **1. O preço mora na TRILHA, não na entrega.** As quatro entregas de uma Trilha somam o orçamento dela. Nada obriga as quatro a valerem a mesma coisa.
+> **2. Cada entrada declara a TAXA DE DISPARO**, e a magnitude é o botão que o permitido já oferece. O que se confere é `botão × taxa`.
+
+#### Por que o método antigo não fechava
+
+Ele cobrava **uma fatia por entrega**, e os botões que a peça 5 §4 autoriza são **indivisíveis e grandes**:
+
+| o botão | vale | em fatias |
+|---|---|---|
+| recuperação — `+1 PE` | `5,14` | **4,1** |
+| alvo — o golpe simples pega 2 | `11,50` | **9,1** |
+| exceção de ação — uma ação a mais | `108,00` | **85,2** |
+| posicionamento — `+3 m` | `1,80` | 1,4 |
+
+**Só posicionamento cabe direto.** A escada oferece três taxas — `100%`, `27%` e `20%` — e **nenhuma delas divide `11,50` até `1,7`**. Com a taxa declarada, `15%` divide.
+
+> **É por isso que a escada não estava errada e mesmo assim não servia.** Ela mede **forma**, e diz isso de si mesma — *"ela não mede quanto, mede o quê"*. As três Classes são **três pontos de um dial contínuo**, e a Trilha precisa do dial inteiro. *A escada continua sendo a escada de aptidão, e continua valendo lá, onde o refino carrega a magnitude e o orçamento é de um marco.*
+
+#### O que sobrevive da Q3 original, e é quase tudo
+
+**O calendário da Q2, as travas de forma do §3.6, o degrau do nível 7 e a banda de orçamento não se movem.** O que muda:
+
+| | antes | agora |
+|---|---|---|
+| onde o preço mora | em cada entrega | na **Trilha inteira** |
+| como uma entrada é conferida | vale `1,27`? | `botão × taxa` bate com a fatia dela? |
+| o que não é dano | não tinha como entrar | entra, e responde a **dominância e forma** |
+| distribuição das quatro | oito iguais | livre, dentro do orçamento |
+
+**E o degrau do nível 7 deixa de ser exceção.** O §3.4 o marca como *"o único diferente dos oito"* porque ele vale de `3,2` a `5,5` fatias e a régua antiga cobrava uma. Com o preço por Trilha ele é só uma entrega grande. *Uma régua que precisa de exceção para o caso mais importante estava medindo a coisa errada.*
+
+#### O que isso custa, escrito porque existe
+
+- **Perde-se a checagem por entrega**, que era gancho fácil de validador. No lugar entra uma por Trilha, mais difícil de escrever e mais próxima do que importa.
+- **A taxa de disparo é um número novo por entrada**, e ela é estimativa de mesa. **Toda entrada tem de declarar a dela**, e o validador confere `botão × taxa` — nunca a taxa sozinha, que não tem contra o que ser conferida.
+- **Entrega de utilidade — treino, sentido, comunicação — entra sem preço em dano**, porque não existe conversão e nunca vai existir. Ela responde a dominância e à trava de forma. *Isso é dívida declarada, não buraco.*
+
 ### 3.5 O denominador — o eixo que decide se uma entrega deriva
+
+> **A PERGUNTA DESTA SEÇÃO ESTAVA ERRADA, e a v0.68 achou isso medindo.** Ela pergunta *"a entrega é fração de coisa que cresce?"* — e o §3.3 escolheu entrega **plana**, que por essa pergunta seria reprovada. **A pergunta certa é: "isso cresce DEPOIS de chegar?"** Uma entrega que continua crescendo sozinha depois de entrar na ficha soma duas vezes com o acúmulo do calendário, e é ela que esta seção existe para pegar. *A tabela abaixo continua útil como mapa de quanto cada denominador cresce; o que muda é o que a coluna "deriva?" quer dizer.*
 
 Toda entrega é fração de alguma coisa. **Se essa coisa não crescer no ritmo da Rotina, a entrega deriva**, e o autor da entrada não tem como perceber olhando só para ela:
 
@@ -392,7 +439,11 @@ Toda entrega é fração de alguma coisa. **Se essa coisa não crescer no ritmo 
 - ~~**Se a Q1 responder "mais de uma"**, a matriz varre as **105 combinações** de duas.~~ **Morta na v0.55:** não existe multiclasse, e a matriz nunca cruza Caminhos diferentes numa mesma ficha.
 - **O orçamento de cada Trilha contra os `6%` a `9%` da Rotina**, lido da **peça 14 §4** e nunca de constante. *E ele é **piso**, não teto* — a régua da Q3 para em `14,7%` de propósito, e o teto que o validador confere é o **`+18%` sustentado que a peça 6 §3.1 reprovou**, lido daquela seção.
 - **A fatia contra o número de degraus**, e as duas lidas de documento: `piso da peça 14 §4 no nv30 ÷ 8`. Perturbar o calendário da Q2 tem de mover a fatia.
-- **O degrau do nível 7 contra o vão da peça 6 §3** — `físico − conjurador`, no nível —, e **nunca contra constante**. Contra-teste: um degrau do nv7 que valha uma fatia normal tem de reprovar, senão a checagem só confere que existe número.
+- ~~Contra-teste: um degrau do nv7 que valha uma fatia normal tem de reprovar.~~ **Morto na v0.68:** com o preço por Trilha o degrau do nv7 **deixou de ser exceção**, então um degrau do tamanho de uma fatia é legal e reprovar seria errado.
+- **O degrau do nível 7 contra o vão da peça 6 §3** — `físico − conjurador`, no nível —, e **nunca contra constante**.
+- **A SOMA das quatro entregas de cada Trilha contra o orçamento dela**, e não cada entrega contra a fatia. *Acrescentado na v0.68, quando a Q3 foi reformulada.* **Contra-teste: quatro entregas de tamanhos diferentes que somem certo têm de PASSAR** — senão a checagem está cobrando por entrega outra vez.
+- **Toda entrada declara a taxa de disparo, e o que se confere é `botão × taxa`.** *Nunca a taxa sozinha*, que não tem contra o que ser conferida. **Entrada sem taxa declarada tem de reprovar.**
+- **Entrada de utilidade — treino, sentido, comunicação — entra sem preço em dano e tem de ser declarada como tal.** Ela responde a dominância e às travas de forma. *Uma entrada que se declare utilidade e mexa em dano tem de reprovar.*
 - **Quem recebe o degrau grande do nv7 e quem recebe o ataque extra no lugar**, contado contra a peça 6 §3.1 — os dois conjuntos têm de ser complementares e cobrir as quinze Trilhas.
 - **Nenhuma entrega com dado de dano**, e o contra-teste: perturbar a régua da peça 5 §4 tem de acender.
 - **Nenhuma entrega que cresça com refino** — peça 11 §2. *E o contra-teste que dá valor a esta: o refino **cabe** na conta (8,00× contra os 8,31× da Rotina), então uma checagem que só media derivação sairia verde. Ela tem de reprovar pelo eixo da peça 11 §3.*
@@ -464,7 +515,7 @@ A fatia da Q3 é `1,27` **ponto de dano por rodada**. O ponto de orçamento de i
 | | por que este eixo |
 |---|---|
 | **vida `5h`** | fecha a trava do *"acabou o kit"*. Os dois passam a sair da luta pelo mesmo golpe, e apagar o `Servo` custa as mesmas `1,25` Rotina de área por alvo que apagar a `Matilha`. **Nenhuma exceção nova** — a regra do §3.5 continua valendo palavra por palavra |
-| **orçamento `×1,5`** | é onde o `Servo` fica **na frente**, e é o eixo que mata as duas dominâncias. `2→3` no nv2, `9→13` no nv30 — 46% do que compraria o catálogo inteiro |
+| **orçamento `×1,5`** | é onde o `Servo` fica **na frente**, e é o eixo que mata as duas dominâncias. `8→12` no nv2, `36→54` no nv30 — 48% do que compraria o catálogo inteiro. *Os números são da escala da v0.67; eram `2→3` e `9→13` quando esta seção foi escrita* |
 
 **E o *"não passar muito delas"* está medido:** a `Matilha` compra `9` no nv30 e **aplica os nove cinco vezes**, um por corpo. Em largura de utilidade ela continua na frente; o que o `Servo` compra é profundidade num corpo só.
 
@@ -615,6 +666,132 @@ O orçamento vende **`Traço`** — *o que ela é* — e **`Comando`** — *o qu
 **Cada entrega abre montagem nova em todo nível**, que é o que a regra de formato exige. *A entrega de Trilha do Evocador é `+1` ponto da escala nova, e ela vale `1,07` fatia — a régua fecha.*
 
 > **A peça 15 subiu junto, na mesma versão.** O catálogo, a tabela de orçamento, as montagens dos shikigami e o `conferir-invocacoes.py` estão todos na escala nova, com arnês rodado. *Esta seção deixou de ser proposta no mesmo commit em que virou regra — que é o único jeito de a lição nº 9 não morder.*
+
+### 6.7 A entrega muda de categoria: ela é da camada de VÍNCULO — v0.68
+
+*Decisão do Mizuki, depois de levantamento externo que ele pediu.* **A entrega de Trilha do Evocador deixa de ser `+1` ponto de orçamento e passa a ser coisa nomeada da camada que o §6.5 achou** — *o que **você** ganha por ela estar de pé.*
+
+**O que derrubou a saída do §6.6 foi uma contradição interna que o levantamento fez aparecer.** As duas frases são da mesma versão:
+
+> **§6.4:** *"As doze entradas são nomeadas, nunca em branco. O orçamento continua sendo a concessão fixa do `Servo`, e nenhuma entrega o move."*
+> **§6.6:** *"A entrega de Trilha do Evocador é `+1` ponto da escala nova."*
+
+Se a entrega é um ponto, **as doze entradas são a mesma entrada doze vezes** — e a `Matilha`, que a matriz proíbe de receber orçamento, recebe orçamento nas quatro dela.
+
+> **E a matriz não acusa isso, porque o eixo de orçamento dela é liga-desliga.** O `conferir-invocacoes.py` lê *"mais metade"* da tabela do §3.7 e marca `2` ou `1`; ele **não conta pontos**. Um `+1` para a `Matilha` passa verde por a matriz não saber contar, e não por estar tudo bem. *É a lição do eixo errado pela terceira versão seguida.*
+
+#### O levantamento: ninguém entrega progressão em ponto de orçamento
+
+| sistema | o que cada degrau de progressão entrega | o que custou |
+|---|---|---|
+| **Pathfinder 2e** Summoner | features **nomeadas**: `Shared Vigilance` · `Eidolon Symbiosis` · `Shared Reflexes` · `Twin Juggernauts` · `Shared Resolve` · `Instant Manifestation` | a customização virou trilha separada — *evolution feats*, que não são progressão de classe |
+| **D&D 5e 2024** Beast Master | `Exceptional Training` (7) · `Bestial Fury` (11) · `Share Spells` (15) | tudo é **economia de ação e comando**, e quase nada disso é legal aqui |
+| **Pathfinder 1e** Summoner | **o bolo de pontos cresce com o nível** — é a saída do §6.6 | opção-armadilha, obrigação de gastar tudo a cada nível, e a montagem de braços que fez a classe ser a mais reclamada da edição |
+
+**O 1e é o sistema que resolveu igual, e é o cautionary tale. O 2e é a mesma editora desfazendo aquilo dez anos depois.**
+
+#### E o formato que o 2e escolheu é literalmente a categoria do §6.5
+
+Quatro das seis features nomeadas do Summoner do 2e — `Shared Vigilance`, `Shared Reflexes`, `Twin Juggernauts`, `Shared Resolve` — são **os dois lados ganhando de uma vez** por estarem ligados. *O levantamento não trouxe ideia nova: ele confirmou a que este documento já tinha apontado e chamado de "a categoria que não existe", e mostrou um sistema grande construindo a progressão inteira em cima dela.*
+
+#### O que sobrevive do §6.6, e é quase tudo
+
+**A moeda quebrada em quatro fica.** Ela nunca foi só para caber a entrega de Trilha: ela é o que deu granularidade ao catálogo da peça 15, e o degrau de 1 ponto aberto em `2 · 3 · 5 · 7` continua sendo a régua daquela peça. *O que morre é só a frase que fazia dela a entrega.*
+
+#### O que a categoria nova ainda deve
+
+- **Ela não encosta em nenhum dos cinco eixos da matriz** — não é saída, corpo, ação, orçamento nem vida. **É por isso que ela vale para as três Trilhas sem esbarrar na trava da `Matilha`** — e é por isso que ela vai precisar de checagem própria, porque a matriz vai sair verde de qualquer jeito.
+- **O preço continua sendo a fatia da Q3:** `1,27` ponto de dano por rodada, que é `1,17%` da Rotina. Cada entrega tem de caber nela.
+- **As doze entradas.** Agora elas têm categoria, régua e trava — falta o conteúdo.
+
+### 6.9 A régua da camada de vínculo — v0.68
+
+*Escrita antes de qualquer entrada, que é a recomendação de método que a peça 13 contra a peça 14 deixou.* **Ela fechou três coisas e matou uma linha do permitido.**
+
+> **As contas desta seção continuam valendo; o enquadramento delas mudou no mesmo dia.** Ela foi escrita cobrando **uma fatia por entrega**, e o §3.4-B passou o preço para a Trilha inteira. **Onde estiver escrito "cabe" ou "estoura", leia "cabe numa entrega sozinha" ou "precisa de taxa que divida"** — nenhum dos números se moveu, e é a auditoria desta seção que levou à reformulação.
+
+#### A fatia é plana, e o §3.3 e o §3.5 estavam medindo com réguas diferentes
+
+O §3.3 diz que a entrega vale `1,27` de dano por rodada em todo nível, e que quem cresce é a **quantidade**. O §3.5 diz que toda entrega tem de ser **fração de coisa que cresce**, e reprova valor absoluto. **As duas não valem para a mesma entrega**: se ela é plana, ela não é fração de coisa que cresce; se ela é fração, oito delas somam sessenta e quatro vezes e não oito.
+
+Rodado contra a dívida da peça 14 §4, que é o alvo em todo nível:
+
+| nv | entregas | Rotina | alvo | plana | fração | por Classe |
+|---|---|---|---|---|---|---|
+| 6 | 1 | 31 | 1,92 | `1,27` **−34%** | `0,36` −81% | `0,82` −58% |
+| 14 | 3 | 63 | 4,68 | `3,80` **−19%** | `2,23` −52% | `3,02` −36% |
+| 22 | 5 | 94 | 7,41 | `6,34` **−14%** | `5,51` −26% | `5,92` −20% |
+| 30 | 8 | 108 | 10,14 | `10,14` **+0%** | `10,14` +0% | `10,14` +0% |
+
+> **A prova não é a plana ganhar — é ela reproduzir os erros que o §3.3 já tinha publicado.** Aquela seção escreve *"34% abaixo nos níveis 5 e 6"* e *"entre 13% e 19% abaixo no miolo"*, e a conta devolve `−34%`, `−19%` e `−14%`. **Mesmo modelo, mesmos números** — o que valida a leitura antes de valer a comparação.
+
+*As três empatam no nível 30 porque é lá que a fatia foi definida. Descendo, a fração desaba: no nível 6 ela entrega um quinto do que a plana entrega.*
+
+**Então a fatia é plana, e o §3.5 fica com a pergunta errada.** A pergunta certa dele nunca foi *"isso é fração de coisa que cresce?"* — é **"isso cresce depois de chegar?"**. Uma entrega que cresce sozinha depois de entrar na ficha soma duas vezes com o acúmulo, e é ela que o §3.5 existe para pegar.
+
+#### O que cada família do permitido custa, medido
+
+*A cadeia sai toda de documento: a peça 6 §4 diz que uma ação padrão a mais **dobra o dano por rodada**, então uma ação vale uma Rotina; a peça 15 §3.3 dá o `+10%` do acerto; e a luta dura `3,3` rodadas pelo §3.2.*
+
+| família | janela | dano/rodada | em fatias | |
+|---|---|---|---|---|
+| acerto — `+1` no **seu** acerto | permanente | `5,40` | 4,3 | grande |
+| **acerto — `+1`, preso no que ela faz (~20%)** | condicional | `1,08` | **0,9** | **cabe** |
+| PE — `+1` por rodada | permanente | `5,14` | 4,1 | grande |
+| **PE — `+1` por descanso curto** | 1× por luta | `1,54` | **1,2** | **cabe** |
+| alvo — seu golpe simples pega 2 | permanente | `11,50` | 9,1 | grande |
+| alvo — idem, 1× por luta | 1× por luta | `3,45` | 2,7 | grande |
+
+> **É a parede do §6.5 outra vez, e ela nunca foi da moeda.** Tudo que é **permanente** e encosta na máquina do Evocador vale quatro fatias ou mais. **O que cabe é o que tem janela** — e isso casa de graça com o formato que o §6.4 já tinha fechado, porque o `Coro` puxa pro condicional e a `Matilha` fica no meio.
+
+#### Duração SAI do permitido para efeito de Trilha
+
+| o efeito dura | `+1` rodada é | em fatias |
+|---|---|---|
+| 2 rodadas | 50% | **43** |
+| 5 rodadas | 20% | **17** |
+| 8 rodadas | 12% | **11** |
+
+**Não existe comprimento de efeito que faça `+1 rodada` caber.** No melhor caso ela ainda é **onze vezes** uma entrega.
+
+*A conta supõe que o efeito estendido vale uma Rotina por rodada, que é o teto.* Um efeito que não seja dano vale menos — **e o projeto não tem conversão para nenhum deles**, então descer o número exigiria inventar um. **Decisão do Mizuki: duração sai da camada de vínculo e fica registrada aqui com o número**, para ninguém redescobrir. *Ela continua valendo para Caminho e para aptidão, que têm orçamento maior.*
+
+#### Posicionamento entra, com uma previsão declarada e um problema de troco
+
+**O número que falta é quantas rodadas o deslocamento extra decide alguma coisa, e ele só sai da mesa.** *Decisão do Mizuki: fica em `5%`, marcado como previsão* — que é o que o `ESTADO-ATUAL` já diz de todo número do sistema enquanto `04-playtest/` estiver vazia.
+
+| entrega | dano/rodada | em fatias |
+|---|---|---|
+| `+1,5 m` sempre | `0,90` | **0,71** |
+| `+3 m` sempre | `1,80` | **1,42** |
+| `+6 m` sempre | `3,60` | 2,84 |
+
+> **O metro exato de uma fatia é `2,11 m`, e ele não está na escala do projeto.** A escala inteira é `1,5 · 3 · 6 · 9 · 18 · 21 · 30`, então sobra ficar **29% abaixo** ou **42% acima**. *É a mesma falta de troco do §6.5, na terceira família em que ela aparece* — e aqui a saída é a janela, como nas outras: posicionamento condicional deixa a janela absorver o que a escala não divide.
+
+#### O que sobra para as doze entradas
+
+`acerto` · `alvo` · `recuperação` · `posicionamento` · `exceção de ação` — **e a última é ilegal para `Servo` e `Matilha`**, que não podem receber ação.
+
+**E o achado que fecha esta seção: os exemplos da escada de Classe Passiva nunca tinham sido preçados.** Ela foi escrita como **forma** — o que separa permanente de reativo de condicional — e as células viraram exemplo sem ninguém converter em fatia. **Dois dos sete não sobrevivem ao contato:** *"+3 m sempre"* está `1,42×` grande e *"+1 rodada sempre"* está `11×`.
+
+### 6.10 O `Servo`, montado — a prova de que o método novo constrói — v0.68
+
+*As quatro entregas somam `5,07` de dano por rodada, que é o orçamento de quatro fatias.*
+
+| nv | Classe | família | a entrega | botão | taxa | sai em | fatias |
+|---|---|---|---|---|---|---|---|
+| **2** | 3 | treino | enquanto ela está de pé, **você é treinado** numa perícia ou num TR que ela tenha | utilidade | — | — | *sem preço em dano* |
+| **11** | 2 | recuperação | `+1 PE`, **1× por descanso curto** | `5,14` | `30%` | `1,54` | 1,22 |
+| **19** | 3 | posicionamento | `+3 m` de deslocamento enquanto ela está de pé | `1,80` | `100%` | `1,80` | 1,42 |
+| **27** | 3 | alvo | o seu golpe simples pega **2 alvos**, com gatilho | `11,50` | `15%` | `1,72` | 1,36 |
+
+> **Somam `5,07` contra um orçamento de `5,07`.** *A montagem não foi ajustada para fechar: as três taxas saem de onde as coisas acontecem — o descanso curto é uma vez a cada `3,3` rodadas de luta, o deslocamento é permanente, e o gatilho do nv27 é o que resta para o alvo caber.*
+
+**O botão está no nível 11 e não no 27, e o motivo é o Champion.** O §3.6 traz a subclasse do 5e como o erro a evitar — *"desesperada por algum botão para apertar"* —, e o argumento inteiro é que **passivo é certo no começo e errado no fim**. Botão no 27 deixa a Trilha sem decisão nenhuma por dezessete níveis.
+
+**E o `+3 m` estar 42% acima de uma fatia é a direção que ajuda:** o §3.3 mediu que a Trilha inteira roda de 14% a 34% **abaixo** do alvo da peça 14 no miolo da campanha.
+
+**O que falta escrever nesta Trilha:** o gatilho do nível 27, que é o que fixa os `15%` — e ele **não pode supor corpo a corpo** pela trava do §6.4, nem dar ação pela trava da matriz.
 
 ## 7. O que esta peça destrava, e o que ela fecha
 

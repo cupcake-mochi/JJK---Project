@@ -87,7 +87,7 @@ O argumento está no §3.2.
 > **A forma é orçamento de pontos**, no molde do Fundamento, **com três montagens prontas junto** — uma por Trilha.
 > **A ficha tem duas camadas:** `Traço`, que é o que a invocação **é** — voa, carrega, rastreia —, e `Comando`, que é o que ela **faz** quando o dono gasta a ação padrão nela.
 > **Ela começa no número do dono e só pode descer.** Deslocamento positivo é proibido; descer devolve ponto.
-> **O orçamento é `2` no nível 2 e sobe `+1` por marco, até `9` no 30.**
+> **O orçamento é `8` no nível 2 e sobe `+4` por marco, até `36` no 30.**
 > **A amarra são 18 metros.** Além disso a invocação não pode ser comandada — e não some.
 > **O catálogo tem 19 entradas compráveis**, mais o `Investir`, que custa 0 e toda invocação tem.
 
@@ -594,14 +594,16 @@ Com a vida em pool (Q2) e `h` em meia Rotina (Q3), **um efeito de área que caus
 
 > **A invocação começa no número do dono e só pode descer.**
 
-**Descer devolve ponto, e isso não é máquina nova:** é o §5.0.4 de Equipamento uma camada abaixo — *"`Volumosa`, `Embainhada` e `Comprida` devolvem 1 ponto"* —, num formato que o projeto já validou.
+**Descer devolve ponto, e o que é emprestado de Equipamento é o formato e não o número:** lá o §5.0.4 devolve 1 ponto de arma por restrição, e aqui a devolução é medida na moeda desta peça. *A distância entre as duas moedas encolheu quatro vezes na v0.67, e é justamente por isso que o número tem de estar escrito na escala daqui em vez de emprestado de lá.*
 
 | a ficha faz | custa ou devolve | resultado |
 |---|---|---|
 | fica no número do dono | 0 | 100% |
-| −1 de acerto | **devolve 1** | 90% do que ela entrega |
-| −1 de Defesa | **devolve 1** | −9% de vida efetiva |
+| −1 de acerto | **devolve 4** | 90% do que ela entrega |
+| −1 de Defesa | **devolve 4** | −9% de vida efetiva |
 | **+1 de acerto** | **proibido** | passaria do portador |
+
+> **A devolução é `4` porque `4` é o que um ponto da escala velha virou** — o mesmo motivo pelo qual cada marco passou a dar `4`. *Ela ficou em `1` da v0.67 até a v0.68, e isso não foi decisão: a escala multiplicou o catálogo e o orçamento e passou por cima da venda.* **Com `1`, vender um ponto de acerto não comprava nem a entrada mais barata do catálogo** — a venda tinha perdido três quartos do poder de compra sem ninguém escolher isso.
 
 **Isso fecha três coisas de uma vez.** A frase do material vira regra em vez de orientação; **some a categoria de deslocamento positivo**, que era a mais difícil de precificar porque é a que empurra o acerto acima dos 50%; e o orçamento passa a comprar **só capacidade**, com a moeda extra vindo de abrir mão de número — que é a decisão que vale a pena existir.
 
@@ -661,7 +663,9 @@ E a cadência já existe: **os sete marcos**, que governam atributo, refino e fe
 | Equipamento §5 — 1 ponto de arma | `0,33` de dano por rodada |
 | esta ficha — 1 ponto de deslocamento | **±10% do que a invocação entrega** |
 
-**O ponto de arma é cerca de quatro vezes menor que o ponto de ficha**, e isso não é conflito — são orçamentos de tamanhos diferentes (arma tem 3 a 5, ficha tem 2 a 9). **O que não pode acontecer é as duas moedas caírem no mesmo saco**, e o validador tem de guardar isso.
+**Os dois pontos não valem a mesma coisa, e a distância entre eles depende do nível.** Medido contra os donos — o ponto de arma da peça 14 §5 e a `Rotina` da peça 6 §3 —, o ponto de ficha vale **0,5× o de arma no nível 2 e 4,1× no nível 30**. *Os dois saem de conta e não de estimativa, e o validador os recalcula dos donos — a razão anterior era quatro vezes maior em todo nível, e envelheceu calada quando a v0.67 quebrou este lado em quatro.*
+
+**Então a separação não se sustenta mais em "são orçamentos de tamanhos diferentes"** — no pé da campanha o ponto de arma é o maior dos dois. Ela se sustenta em **o que cada um compra**: o de arma compra dado de dano, e o desta ficha é proibido de tocar em dado de dano. **O que não pode acontecer é as duas moedas caírem no mesmo saco**, e o validador guarda isso pelo que se compra, não pelo tamanho.
 
 *E a escada do PF1e serve para calibrar o **formato**, não o valor:* movimento no chão custa 1, **voar custa 2**, sentido bom custa 3 a 4. **É a mesma forma da lista que a peça 5 §4 autoriza.**
 
@@ -831,7 +835,7 @@ O que sobra do talismã é o eixo dos shikigami que **não** são do Megumi — 
 | o Ultimate Mechamaru operado de longe | **entrada**, mas só depois de existir amarra. Virou o `Remoto`, e a amarra está no §3.6 |
 | o Panda, *"has three cores. He can shift the cores in battle"* | **não existe.** *Decisão do Mizuki* |
 
-> **Por que o núcleo do Panda ficou de fora, escrito para não voltar.** Trocar de configuração no meio da luta não cabe em 1 nem em 2 pontos, porque ele não compra capacidade: **ele dobra a montagem inteira.** As saídas medidas eram um degrau de 3 pontos — que nasceria inalcançável até o nível 6, porque o orçamento do nível 2 é 2, e é degrau com um morador só — ou concessão de Trilha, que empurraria a decisão para uma peça que ainda não existe. **Corpo amaldiçoado fica sendo fórmula de vida própria e sabor, como os outros três.**
+> **Por que o núcleo do Panda ficou de fora, escrito para não voltar.** Trocar de configuração no meio da luta não cabe nos degraus que existem, porque ele não compra capacidade: **ele dobra a montagem inteira.** As saídas medidas eram um degrau de 12 pontos — que nasceria inalcançável até o nível 6, porque o orçamento do nível 2 é 8, e é degrau com um morador só — ou concessão de Trilha, que empurraria a decisão para uma peça que ainda não existe. **Corpo amaldiçoado fica sendo fórmula de vida própria e sabor, como os outros três.**
 
 E uma que eu quase escrevi: um `Traço` de corpo duro, tipo *"ela aguenta mais porque é objeto e não carne"*. **Ele compra Defesa com ponto, e Defesa já é a moeda do deslocamento** — dois preços para a mesma coisa, que é a lição nº 2 na forma exata em que ela costuma aparecer aqui.
 
@@ -893,12 +897,14 @@ E uma que eu quase escrevi: um `Traço` de corpo duro, tipo *"ela aguenta mais p
 
 | nv | orçamento da ficha | do `Servo` | do catálogo inteiro (112 pontos) |
 |---|---|---|---|
-| 2 | 2 | **3** | 11% |
-| 10 | 4 | **6** | 21% |
-| 18 | 6 | **9** | 32% |
-| 30 | 9 | **13** | 46% |
+| 2 | 8 | **12** | 11% |
+| 10 | 16 | **24** | 21% |
+| 18 | 24 | **36** | 32% |
+| 30 | 36 | **54** | 48% |
 
-**A `Matilha` compra menos e aplica cinco vezes**, um por corpo — então em largura de utilidade ela continua na frente, que é o *"não passar muito delas"* medido. *E o arredondamento é o da peça 1 §5.4, para o lado que não te favorece: ganho desce, e é por isso que o nível 6 dá `4` e não `4,5`.*
+**A `Matilha` compra menos e aplica cinco vezes**, um por corpo — então em largura de utilidade ela continua na frente, que é o *"não passar muito delas"* medido.
+
+> **O arredondamento continua sendo o da peça 1 §5.4 — ganho desce —, e na escala nova ele não tem o que raspar.** Todo orçamento é múltiplo de `4`, então `mais metade` sempre fecha redondo. *Na escala velha ele mordia nos níveis 6, 14, 22 e 30, e ali o `Servo` levava meio ponto a menos; com a moeda quebrada em quatro esse meio ponto passou a caber, e no nível 30 ele vale `2` pontos.* **É a mesma paridade que a v0.67 registrou na busca exaustiva, aparecendo do outro lado:** a moeda fina fecha conta que a grossa arredondava. *A regra não mudou; o que mudou foi ela deixar de morder aqui.*
 
 > **O `Coro` fica com `h`, e isso é a troca dele escrita.** Ele é o único dos três que **ataca e comanda**, e é o único cujo corpo cair não acaba o kit — o dono continua batendo. *Perder o corpo do `Coro` custa metade da Rotina; perder o do `Servo` custava a Trilha inteira, e é essa assimetria que o `5h` fecha.*
 
@@ -931,7 +937,10 @@ Rodada a triagem antes de escrever qualquer coisa:
 - **Toda entrada do catálogo cai no degrau que a régua da criação manda** — `Traço` de 1 ponto só mexe na própria invocação, `Traço` de 2 encosta em outra criatura ou no tabuleiro; `Comando` de 1 age sobre um alvo, `Comando` de 2 protege ou nega. **Entrada publicada que desobedece à própria régua ensina a mesa a ignorá-la.**
 - **Nenhuma entrada, publicada ou criada, com dado de dano, com refino dentro, ou com deslocamento positivo.** As três são ilegais e não têm preço.
 - **Nenhum deslocamento positivo em linha nenhuma da ficha** — a invocação nunca passa do número do dono. Perturbar para `+1` tem de acender.
+- **E o TAMANHO da devolução, que é a metade que a forma não mede.** *Acrescentada na v0.68, depois de a v0.67 multiplicar catálogo e orçamento por quatro e deixar a devolução em `1`, verde.* São duas afirmações separadas: **a regra aplicada** — a devolução tem de comprar pelo menos a entrada mais barata do catálogo, senão descer é castigo e não escolha — e **o limite de design** — ela bate com o passo do marco, porque as duas são *um ponto da escala velha*. **Perturbar só a segunda tem de acender só ela**, senão a checagem está medindo um eixo com o nome de dois.
 - **O orçamento por nível derivado dos marcos da peça 2, nunca lido de constante**, e a busca exaustiva sobre todas as montagens legais em cada degrau.
+- **E o resumo do topo desta peça é cópia do orçamento, então ele é comparado com a tabela dona** — base, passo e teto. *Acrescentado na v0.68: ele passou a v0.67 inteira publicando a escala velha e ninguém comparava as duas.* **Apagar a linha também tem de acender**, senão o conserto barato para uma divergência vira sumir com a cópia.
+- **E a tabela do orçamento do `Servo` é DERIVADA, nunca publicada:** a ficha sai dos marcos, o `Servo` sai de `×1,5` com o arredondamento da peça 1 §5.4, e **a porcentagem é recontada contra o catálogo somado** em vez de lida. *Acrescentada na v0.68, quando aquela tabela apareceu com o cabeçalho numa escala e as duas colunas na outra.*
 - **As duas moedas separadas:** ponto de arma (`0,33` de dano por rodada) e ponto de ficha (`±10%` do que a invocação entrega) não podem se converter uma na outra em lugar nenhum.
 - **O multiplicador de área lido do documento dono, nunca de constante**, e o teste negativo: perturbar o `×2` para `×5` tem de fazer a checagem acusar que um feitiço de rotina apaga a Matilha.
 - **Os dois gatilhos de morte em definitivo, com o contra-teste que importa:** nenhum golpe de rotina pode disparar nenhum dos dois. Perturbar o dano de um golpe comum para cima tem de acender.

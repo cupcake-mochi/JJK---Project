@@ -622,6 +622,44 @@ m = re.search(r'\*\*A invocação começa no número do dono e só pode descer\.
 if not m:
     erro('DESLOCAMENTO', 'SS3.6: a regra "comeca no numero do dono e so pode descer" nao '
                          'esta escrita como regra')
+# --- o TAMANHO da devolucao, que ate a v0.68 ninguem media -------------------
+# A checagem acima confere a FORMA da venda (descer devolve, subir e proibido).
+# Ela sai verde com qualquer numero, e foi por isso que a v0.67 multiplicou o
+# catalogo e o orcamento por quatro e deixou a devolucao em 1 sem ninguem ver.
+dev = None
+for c in tab:
+    m_d = re.search(r'devolve\s*(\d+)', limpo(c[1]))
+    if not m_d:
+        continue
+    v = int(m_d.group(1))
+    if dev is None:
+        dev = v
+    elif dev != v:
+        erro('DESLOCAMENTO', f'as linhas de venda devolvem valores diferentes ({dev} e '
+                             f'{v}) — acerto e Defesa se vendem pelo mesmo preco')
+if dev is None:
+    erro('DESLOCAMENTO', 'SS3.6: nao achei quanto a venda devolve — sem isso o tamanho '
+                         'dela nao tem contra o que ser medido')
+else:
+    # A REGRA APLICADA: vender tem de comprar alguma coisa.
+    barato = min(e['pts'] for e in COMPRAVEIS)
+    if dev < barato:
+        erro('DESLOCAMENTO', f'a venda devolve {dev} e a entrada mais barata do catalogo '
+                             f'custa {barato} — sozinha ela nao compra nada. Descer sem '
+                             'poder comprar e castigo, nao escolha')
+    # O LIMITE DE DESIGN, separado da regra e lido do dono: a devolucao e um ponto
+    # da escala velha, que e a mesma coisa que o marco passou a dar.
+    m_p = re.search(r'\*\*Cada marco dá `(\d+)` pontos', S36)
+    if not m_p:
+        erro('DESLOCAMENTO', 'SS3.6: nao achei quanto cada marco da, e sem isso a '
+                             'devolucao viraria constante escrita neste arquivo')
+    elif dev != int(m_p.group(1)):
+        erro('DESLOCAMENTO', f'a venda devolve {dev} e cada marco da {m_p.group(1)} — os '
+                             'dois SAO um ponto da escala velha e andam juntos. Separar '
+                             'os dois e decisao a escrever, nao numero a ajustar')
+    else:
+        print(f'  a venda devolve {dev}: compra a entrada mais barata ({barato}) e bate '
+              f'com o passo do marco.')
 print(f'  {len(tab)} linha(s) de deslocamento, com a positiva declarada proibida.')
 
 # =============================================================================
@@ -662,6 +700,57 @@ else:
             erro('ORCAMENTO', f'nv{nv}: o doc da orcamento {d["pts"]} e os marcos da peca 2 '
                               f'derivam {deriv} — o orcamento tem de cair dos marcos, nao '
                               'ser escrito ao lado deles')
+    # o resumo do topo da peca e COPIA do orcamento, e nada comparava as duas.
+    # Ele passou a v0.67 inteira publicando a escala velha, verde.
+    m_res = re.search(r'O orçamento é `(\d+)` no nível 2 e sobe `\+(\d+)` por marco, '
+                      r'até `(\d+)` no 30', PECA)
+    if not m_res:
+        erro('ORCAMENTO', 'o resumo do topo da peca nao publica mais o orcamento — se a '
+                          'linha saiu de proposito, esta checagem sai com ela')
+    else:
+        r_base, r_passo, r_topo = (int(x) for x in m_res.groups())
+        topo = ORCAMENTO[max(ORCAMENTO)]['pts']
+        if (r_base, r_passo, r_topo) != (BASE_ORC, PASSO_ORC, topo):
+            erro('ORCAMENTO', f'o resumo do topo diz base {r_base}, passo {r_passo} e teto '
+                              f'{r_topo}, e o SS3.6 da {BASE_ORC}, {PASSO_ORC} e {topo} — '
+                              'duas copias do mesmo numero, divergindo')
+        else:
+            print(f'  o resumo do topo bate com o dono: {r_base} de base, {r_passo} por '
+                  f'marco, {r_topo} no 30.')
+    # a tabela do orcamento do SERVO e DERIVADA: ficha x1,5 com o arredondamento
+    # da peca 1 SS5.4 (ganho desce). Ate a v0.68 ela publicava a escala velha nas
+    # duas colunas e a escala nova no cabecalho, meio convertida, verde.
+    tab_servo = [c for c in linhas_de_tabela(
+                     trecho(S37, '| nv | orçamento da ficha | do `Servo` |',
+                            '**A `Matilha` compra menos'))
+                 if len(c) >= 4 and re.fullmatch(r'\d+', limpo(c[0]))]
+    m_cat = re.search(r'do catálogo inteiro \((\d+) pontos\)', S37)
+    soma_cat = sum(e['pts'] for e in CATALOGO)
+    if not tab_servo:
+        erro('ORCAMENTO', 'SS3.7: nao achei a tabela do orcamento do Servo')
+    elif not m_cat:
+        erro('ORCAMENTO', 'SS3.7: a tabela do Servo nao declara o total do catalogo')
+    else:
+        if int(m_cat.group(1)) != soma_cat:
+            erro('ORCAMENTO', f'SS3.7: a tabela do Servo diz que o catalogo tem '
+                              f'{m_cat.group(1)} pontos e ele soma {soma_cat}')
+        for c in tab_servo:
+            nv, ficha, servo = int(limpo(c[0])), int(limpo(c[1])), int(limpo(c[2]))
+            pct = limpo(c[3])
+            esp_ficha = BASE_ORC + PASSO_ORC * sum(1 for m_ in MARCOS if nv >= m_)
+            esp_servo = (esp_ficha * 3) // 2          # "mais metade", ganho desce
+            esp_pct = round(100.0 * esp_servo / soma_cat) if soma_cat else 0
+            if ficha != esp_ficha:
+                erro('ORCAMENTO', f'SS3.7 nv{nv}: a tabela do Servo diz que a ficha tem '
+                                  f'{ficha} e os marcos derivam {esp_ficha}')
+            if servo != esp_servo:
+                erro('ORCAMENTO', f'SS3.7 nv{nv}: o Servo esta com {servo} e "a ficha mais '
+                                  f'metade, ganho desce" da {esp_servo}')
+            if pct != f'{esp_pct}%':
+                erro('ORCAMENTO', f'SS3.7 nv{nv}: a tabela publica {pct} do catalogo e o '
+                                  f'recontado da {esp_pct}%')
+        print(f'  a tabela do Servo: {len(tab_servo)} linhas derivadas da ficha x1,5, '
+              f'contra um catalogo de {soma_cat} pontos recontado.')
     faixa = re.search(r'\*\*De (\d+) a (\d+),', S36)
     if faixa:
         lo, hi = int(faixa.group(1)), int(faixa.group(2))
@@ -689,6 +778,30 @@ else:
     if re.search(r'\d\s*ponto de ficha\s*=\s*[\d,]+\s*ponto de arma', PECA) or \
        re.search(r'ponto de arma\s*=\s*[\d,]+\s*ponto de ficha', PECA):
         erro('DUAS-MOEDAS', 'existe taxa de conversao escrita entre as duas moedas')
+    # A razao entre as duas moedas, RECALCULADA dos donos. Ate a v0.68 a peca
+    # publicava "o ponto de arma e cerca de quatro vezes menor", sem nada guardando
+    # — e a v0.67 dividiu o lado da ficha por quatro sem que a frase se mexesse.
+    m_raz = re.search(r'o ponto de ficha vale \*\*([\d,]+)× o de arma no nível 2 e '
+                      r'([\d,]+)× no nível 30\*\*', S36)
+    if not m_raz:
+        erro('DUAS-MOEDAS', 'SS3.6: nao achei a razao publicada entre as duas moedas')
+    elif dev is None:
+        erro('DUAS-MOEDAS', 'sem a devolucao lida na checagem 8 a razao nao tem como ser '
+                            'recalculada')
+    else:
+        # 1 ponto de acerto vale PONTO_DE_FICHA% do que a invocacao entrega, e ela
+        # entrega AREA por alvo; vender 1 ponto devolve `dev` pontos de orcamento.
+        AREA = 1.0 / COTA['Servo']['divisor']
+        for nv, publicado in ((2, num(m_raz.group(1))), (30, num(m_raz.group(2)))):
+            if nv not in ROTINA_NV:
+                erro('DUAS-MOEDAS', f'peca 6 SS3: sem a Rotina do nv{nv} a razao nao fecha')
+                continue
+            calc = (PONTO_DE_FICHA / 100.0 * AREA * ROTINA_NV[nv] / dev) / PONTO_DE_ARMA
+            print(f'  nv{nv}: 1 ponto de ficha = {calc:.2f}x o ponto de arma '
+                  f'(publicado: {publicado:g}x)')
+            if abs(calc - publicado) > 0.05:
+                erro('DUAS-MOEDAS', f'nv{nv}: a peca publica {publicado:g}x e os donos dao '
+                                    f'{calc:.2f}x — a razao entre as duas moedas envelheceu')
     print('  Nenhuma taxa de conversao escrita, e nenhuma entrada precada em moeda de arma.')
 
 # =============================================================================
