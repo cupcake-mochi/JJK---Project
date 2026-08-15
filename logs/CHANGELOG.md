@@ -6,6 +6,39 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.69] — 2026-08-15
+
+**Varredura de lixo depois da v0.68, a pedido do Mizuki — e ela achou um terceiro prompt de retomada, escrito catorze versões depois do aviso que proíbe.** Nada de regra mudou: continuam dezesseis peças e dezesseis validadores.
+
+### Achado — o `PROMPT-TRILHAS.md` estava no cemitério fingindo estar vivo
+
+Ele está em `99-arquivo/` **desde a v0.59, sem cabeçalho de morte e sem entrada no `LEIA-ME` da pasta**. Aberto, ele lê como documento vivo: *"copiar o bloco abaixo inteiro"*.
+
+**O agravante é que ele é o terceiro.** O `PROMPT-DE-CONTINUIDADE.md` morreu na v0.14 e o `PROMPT-CHAT-NOVO.md` na v0.45, os dois pelo mesmo defeito. **E o `LEIA-ME` daquela pasta termina com o aviso** — *"dois arquivos, o mesmo motivo, trinta versões de distância — leia o cabeçalho dele antes de escrever um terceiro"*. Este foi escrito **catorze versões depois** dele.
+
+**E envelheceu igual.** Ele manda conferir `head -6 README.md` contra **v0.59**, ler o CHANGELOG **até a v0.50** e afirma **19 de 19 validadores** — e a checagem por número de versão é exatamente a que o `README` documenta como erro, porque *"um teste escrito contra um número que sobe toda semana começa a mentir na semana seguinte"*.
+
+> **Por que isso é lixo de verdade e não arrumação.** As outras coisas que a varredura achou não fazem mal a ninguém. **Este arquivo faria uma conversa nova seguir instruções de dez versões atrás** — e ele mora na pasta que existe para guardar o que *não* deve ser lido.
+
+**Ganhou o cabeçalho no molde dos outros dois e entrada na tabela do `LEIA-ME`.** *O que sobreviveu dele não é conteúdo: é o padrão. Três arquivos, três mortes, o mesmo defeito.*
+
+### Registrado — o que a varredura achou e NÃO mexeu
+
+| o que | por que fica |
+|---|---|
+| **três `.gitkeep` vencidos** — `02-esqueleto`, `03-mecanica` e `05-material` já têm arquivo | zero byte cada, e tirar custa um commit. *O do `04-playtest` continua fazendo o trabalho dele, porque aquela pasta segue vazia desde a v0.1* |
+| **`_to_delete/`** com dois arquivos esperando | é o desenho: o assistente não consegue apagar neste mount, então ele empurra para lá e você apaga a mão. Está no `.gitignore` |
+| **o `node_modules` do gerador da ficha é link para o do manual** | pendura num clone novo até alguém rodar `npm install`, e o `COMO-USAR.txt` daquela pasta já avisa |
+| **`manual/gerador/Fundamento-MANUAL-v7.docx`** duplica o de `manual/` | é cópia de trabalho do gerador e o `.gitignore` já a segura |
+
+**E o que a varredura NÃO achou, que também é resultado:** zero `__pycache__` ou `.pyc` rastreável, zero temporário de editor, zero pasta vazia, zero arquivo duplicado fora dos que têm motivo, e nenhum `.lock` preso no `.git`.
+
+### Em aberto
+
+Nada novo. A lista das Trilhas é a da v0.68, e ela continua fechada.
+
+---
+
 ## [0.68] — 2026-08-15
 
 **A v0.67 escreveu que a peça 15 estava "inteira na escala nova", e ela não estava — quatro linhas ficaram na velha, e uma delas é regra viva.** *Achado indo conferir a moeda antes de escrever as doze entradas do Evocador, que são denominadas nela.* Continuam dezesseis peças e dezesseis validadores, e continuam trinta checagens: o que entrou foram **metades novas dentro das checagens 8, 9 e 10**, que já eram as donas de cada coisa.

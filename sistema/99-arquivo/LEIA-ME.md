@@ -15,6 +15,7 @@ Nada aqui é regra corrente. Tudo aqui foi substituído, ou já cumpriu o que ti
 | `ferramentas-de-decisao/` | o comparador de curvas, que abre no navegador. Ele calibrou seis mecânicas de resolução na mesma chance de sucesso e serviu para a escolha do d20 na v0.3. Decisão fechada, ferramenta aposentada |
 | `PROMPT-DE-CONTINUIDADE.md` | o prompt de retomada que foi usado até a v0.14. O `ESTADO-ATUAL.md` faz esse trabalho melhor hoje |
 | `PROMPT-CHAT-NOVO.md` | o **segundo** prompt de retomada, da v0.15 à v0.44. Morreu na v0.45 medido: **15 dos 16 blocos eram cópia**, e nenhum validador o alcançava. *Dois arquivos, o mesmo motivo, trinta versões de distância — leia o cabeçalho dele antes de escrever um terceiro* |
+| `PROMPT-TRILHAS.md` | **o terceiro, e ele foi escrito catorze versões DEPOIS do aviso acima.** Feito na v0.59 para o chat de Trilhas; ficou aqui desde então **sem cabeçalho e sem entrada nesta tabela**, com cara de documento vivo. *Envelheceu igual aos outros dois: manda conferir a versão contra `v0.59`, ler o CHANGELOG até a v0.50 e afirma 19 validadores.* **Catalogado na v0.69, varrendo lixo.** |
 
 ## Como arquivar coisa nova
 

@@ -1,3 +1,17 @@
+> **MATERIAL MORTO — arquivado na v0.69.** *Ele estava aqui desde a v0.59 **sem cabeçalho e sem entrada no `LEIA-ME`**, com cara de documento vivo. Achado varrendo lixo depois da v0.68.*
+>
+> **De onde saiu:** foi escrito na v0.59 para o chat de Trilhas começar quente.
+> **O que o substituiu:** nada, e de novo é esse o ponto. O prompt de retomada se escreve na hora, no fim de cada conversa, contra o estado real.
+> **Em que versão:** v0.69.
+>
+> **Por que morreu — e o motivo é que ele é o TERCEIRO.** O `PROMPT-DE-CONTINUIDADE.md` morreu na v0.14 e o `PROMPT-CHAT-NOVO.md` morreu na v0.45, os dois pelo mesmo defeito: cópia que diverge sozinha, sem validador que a alcance. **O `LEIA-ME` desta pasta terminava com um aviso — *"dois arquivos, o mesmo motivo, trinta versões de distância — leia o cabeçalho dele antes de escrever um terceiro"*.** Este arquivo foi escrito **catorze versões depois** daquele aviso.
+>
+> **E ele envelheceu exatamente como os outros dois.** Ele manda conferir `head -6 README.md` contra **v0.59**, manda ler o CHANGELOG **até a v0.50**, e afirma **19 de 19 validadores** — e a checagem por número de versão é a mesma que o `README.md` documenta como erro, porque *"um teste escrito contra um número que sobe toda semana começa a mentir na semana seguinte"*.
+>
+> **O que sobreviveu:** nada de conteúdo. O que sobrevive é o padrão: **três arquivos, três mortes, o mesmo defeito.** Se aparecer um quarto, ele já nasceu morto.
+
+---
+
 # Prompt para o chat de Trilhas
 
 *Escrito na v0.59, para o chat da peça 17 começar quente. Copiar o bloco abaixo inteiro.*
