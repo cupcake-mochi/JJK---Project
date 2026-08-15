@@ -24,11 +24,23 @@ CONTRATO DE INVARIANTES:
 
 Roda sem argumento. Sai com codigo 1 se algo quebrar.
 """
+import os
+import re
 import math
 import sys
 
+AQUI = os.path.dirname(os.path.abspath(__file__))
+
 ERROS = []
 AVISOS = []
+
+
+import unicodedata
+
+
+def sem_acento(s):
+    return ''.join(c for c in unicodedata.normalize('NFD', s)
+                   if unicodedata.category(c) != 'Mn')
 
 
 def erro(msg):
@@ -424,6 +436,86 @@ else:
     aviso('o gate so de nivel passou a separar as rotas — a justificativa do gate '
           'de refino precisa ser reescrita')
 
+
+# =============================================================================
+# N. A ESCADA DE FORMATO TEM NOME DE DUAS PALAVRAS, e nunca "Classe" solta
+#
+# Entrou na v0.64, e ela existe por um defeito medido na conversa e nao no codigo:
+# o Mizuki leu a regua de Trilha inteira e parou em "Classe? para mim Classe e
+# feiticо". Ele estava certo — o GLOSSARIO DO MANUAL diz "Classe: o tamanho do
+# feitico, de 0 a 7", uma escala so'. O eixo de FORMATO desta peca (pequeno e
+# condicional / reativo com limite / permanente) vivia pegando a palavra
+# emprestada, e o leitor nao tinha como saber qual das duas estava lendo.
+#
+# O conserto e o idioma do proprio manual — ele ja escreve "Passiva de Classe 2"
+# e "Classe de Passiva" quando precisa desambiguar. Feitio, Talhe, Lavra, Feicao
+# e Formato sairam LIVRE na triagem e foram RECUSADOS: inventar palavra para o
+# que o manual sabe dizer cria a segunda fonte da licao nº 9.
+#
+# NADA DE VALOR FICA ESCRITO AQUI: as tres alturas e o que cabe em cada uma saem
+# da tabela da SS4. O que esta checagem afirma e a FORMA do nome, nao o conteudo.
+#
+# O QUE TEM DE ACENDER: o cabecalho da tabela voltar a "Classe"; a regra do nome
+# sumir; qualquer altura sumir da tabela.
+# CONTRA-TESTE: mexer no TEXTO do que cabe em cada altura nao pode acender — esta
+# checagem e sobre o nome, e quem confere o conteudo sao as checagens de cima.
+bloco('N. O NOME DA ESCADA DE FORMATO')
+
+_p11 = os.path.join(AQUI, '11-aptidoes-e-refino.md')
+_t11 = open(_p11, encoding='utf-8').read()
+_s4 = _t11.split('## 4. ')[1].split('\n## 5.')[0] if '## 4. ' in _t11 else ''
+
+if not _s4:
+    erro('nao achei a secao 4 da peca 11 — a escada de formato mudou de lugar')
+else:
+    if 'Classe' not in _s4.split('\n')[0] or 'Passiva' not in _s4.split('\n')[0]:
+        erro('o titulo da secao 4 nao diz "Classe Passiva" — o eixo de formato '
+             'voltou a se chamar so "Classe", que e a palavra do TAMANHO DO '
+             'FEITICO no glossario do manual')
+    _regra = [l for l in _s4.split('\n')
+              if 'nunca' in sem_acento(l).lower() and 'solta' in sem_acento(l).lower()]
+    if not _regra:
+        erro('a secao 4 nao declara mais que o nome nunca vem sozinho — sem essa '
+             'linha nada impede a proxima peca de escrever "Classe 2" querendo '
+             'dizer formato')
+    else:
+        print('  [x] a regra do nome esta escrita:',
+              ' '.join(_regra[0].replace('>', '').replace('*', '').split())[:78])
+    _cab = [l for l in _s4.split('\n') if l.strip().startswith('| Classe')]
+    if not _cab:
+        erro('a tabela da secao 4 nao tem cabecalho comecando por "Classe"')
+    elif 'Classe Passiva' not in _cab[0]:
+        erro(f'a tabela da secao 4 tem cabecalho "{_cab[0].strip()[:40]}" — ela precisa '
+             'dizer "Classe Passiva", senao a coluna de alturas fica indistinguivel '
+             'da Classe de feitico')
+    else:
+        _alturas = [l for l in _s4.split('\n')
+                    if re.match(r'\|\s*\*\*[123]\*\*\s*\|', l.strip())]
+        if len(_alturas) != 3:
+            erro(f'a tabela da secao 4 tem {len(_alturas)} altura(s) e a escada tem tres')
+        else:
+            print(f'  [x] cabecalho "Classe Passiva" e as tres alturas na tabela.')
+    # ARMADILHA Nº 4 DO PROJETO: esta secao contem o texto que a checagem procura
+    # para reprovar, porque ela EXPLICA a ambiguidade citando o manual. Entao a
+    # varredura pula a linha que esta citando o manual — e so' ela. Sem esta
+    # excecao a checagem reprovaria a propria secao que existe para consertar o
+    # problema, que e o modo de falha mais chato deste projeto.
+    _soltas, _isentas = [], 0
+    for _l in _s4.split('\n'):
+        _achou = re.findall(r'(?<!Passiva )(?<!Passivas )\bClasse [123]\b', _l)
+        if not _achou:
+            continue
+        if 'manual' in sem_acento(_l).lower():
+            _isentas += 1
+            continue
+        _soltas += _achou
+    if _soltas:
+        erro(f'a secao 4 escreve "Classe N" solta {len(_soltas)}x '
+             f'({sorted(set(_soltas))}) fora de citacao do manual — dentro da secao '
+             'que existe para proibir isso')
+    else:
+        print(f'  [x] nenhuma "Classe N" solta na secao 4 fora das {_isentas} linha(s) '
+              'que citam o manual.')
 
 # --------------------------------------------------------------------------
 print()

@@ -81,7 +81,7 @@ A linha passiva do marco sozinha conserta isso:
 
 ### As três não se substituem, e é isso que as equilibra
 
-`+1 feitiço e uma Passiva` empata com `+1 refino e uma aptidão` porque **Passiva e aptidão vivem na mesma escada de Classe** — as duas são efeito pequeno, reativo ou permanente, nas mesmas três alturas. O que sobra dos dois lados é `+1 feitiço` contra `+1 refino`.
+`+1 feitiço e uma Passiva` empata com `+1 refino e uma aptidão` porque **Passiva e aptidão vivem na mesma escada de Classe Passiva** — as duas são efeito pequeno, reativo ou permanente, nas mesmas três alturas. O que sobra dos dois lados é `+1 feitiço` contra `+1 refino`.
 
 E aí a conta fecha sozinha: **refino não vale nada para quem não tem aptidão.** Quem escolhe Leque sete vezes tem zero aptidões, então o refino dele é um número morto. Quem escolhe refino tem sete aptidões e nenhuma Passiva a mais para querer. Nenhuma das três precisa de trava porque nenhuma compra o que a outra compra.
 
@@ -107,19 +107,31 @@ Três no nível 2: dois de toda ficha, mais o do próprio nível 2. Essa soma é
 
 Ele também não fica sem nada. **Cobrir-se de energia e canalizar energia vêm de graça no refino 1**, e as duas crescem com o refino passivo, que chega a 8 sem escolha nenhuma. O que ele nunca vai ter é Energia Reversa nem Barreira Simples.
 
-## 4. As Classes de aptidão
+## 4. As Classes Passivas — e o nome nunca vem sozinho
+
+> **`Classe Passiva 1 · 2 · 3`. Sempre com as duas palavras, e nunca `Classe` solta.**
+
+*Escrito na v0.64, e ele existe porque a palavra estava fazendo trabalho demais.* **O glossário do manual diz `Classe — o tamanho do feitiço, de 0 a 7`**, uma escala só. Só que ele também escreve *"cada Passiva tem uma Classe, **como um feitiço**"*, e a tabela de níveis dele diz *"7 — libera Passiva de Classe 2"*. **Então `Classe 2` já quer dizer duas coisas antes de esta peça abrir a boca**, e quando ela escrevia `Classe 2` querendo dizer *"reativo com limite"*, quem lia entendia *"feitiço de tamanho 2"*.
+
+*Isso mordeu de verdade:* o Mizuki leu a régua de Trilha inteira e parou em *"Classe?, para mim Classe é feitiço"*. **Ele estava certo** — a leitura óbvia da palavra é a do glossário, e o eixo de formato vivia pegando ela emprestada sem devolver.
+
+**O conserto é o idioma do próprio manual, não um termo novo.** Ele já escreve *"Passiva de Classe 2"* e *"Classe de Passiva"* quando precisa desambiguar; o projeto passa a fazer o mesmo, sempre. *`Feitio`, `Talhe`, `Lavra`, `Feição` e `Formato` saíram LIVRE na triagem e foram recusados de propósito — inventar palavra para o que o manual já sabe dizer é criar a segunda fonte que a lição nº 9 existe para evitar.*
 
 As aptidões herdam a escada das Passivas do manual. **Ela não mede quanto — mede o quê.**
 
-| Classe | o que cabe |
-|---|---|
-| **1** | efeito pequeno, condicional, ou de informação |
-| **2** | efeito reativo, com limite de uso por cena ou por descanso |
-| **3** | permanente. Muda como você joga |
+| Classe Passiva | o que cabe | as Passivas do manual naquela altura |
+|---|---|---|
+| **1** | efeito pequeno, condicional, ou de informação | `Leitura` · `Instinto` · `Raiz` · `Mão Firme` · `Farejador` · `Aviso` |
+| **2** | efeito reativo, com limite de uso por cena ou por descanso | `Fluxo` · `Recomposição` · `Segunda Natureza` · `Eco` · `Costura` |
+| **3** | permanente. Muda como você joga | — |
 
-Uma Classe 3 não é "uma Classe 1 maior": é uma coisa de outro formato. **Farejador** — *"você sente se alguém conjurou num lugar nas últimas 24 horas"* — não fica obsoleta porque uma permanente existe; ela faz algo que nenhuma permanente faz.
+*A terceira coluna é a prova de que a leitura não foi inventada aqui:* as seis da Classe Passiva 1 são todas *"você sabe"* ou *"você não sofre"*, e as cinco da 2 são todas *"uma vez por X, acontece"*. **A escada estava na tabela do manual; o que faltava era alguém escrever o que ela separa.**
 
-**E o que impede a Classe 3 de comer as outras duas é o refino.** Um marco compra uma aptidão de qualquer Classe que o seu refino alcance, e se a Classe medisse tamanho, ninguém olharia para a Classe 1 depois de destravar a 3 — mesmo preço, efeito maior. Com o refino escalando o que a aptidão entrega, **uma Classe 1 no refino 10 não é a mesma coisa que no refino 2**. Ela cresce junto com você.
+Uma Classe Passiva 3 não é "uma Classe Passiva 1 maior": é uma coisa de outro formato. **Farejador** — *"você sente se alguém conjurou num lugar nas últimas 24 horas"* — não fica obsoleta porque uma permanente existe; ela faz algo que nenhuma permanente faz.
+
+**E o que impede a Classe Passiva 3 de comer as outras duas é o refino.** Um marco compra uma aptidão de qualquer Classe Passiva que o seu refino alcance, e se ela medisse tamanho, ninguém olharia para a 1 depois de destravar a 3 — mesmo preço, efeito maior. Com o refino escalando o que a aptidão entrega, **uma Classe Passiva 1 no refino 10 não é a mesma coisa que no refino 2**. Ela cresce junto com você.
+
+> **E há uma diferença real entre a Passiva do manual e a aptidão daqui, que a palavra escondia:** na Passiva, a Classe Passiva **também cobra** — a 3 custa mais espaço de feitiço que a 1. Na aptidão **não cobra nada**: o marco compra uma de qualquer altura que o refino alcance, e o preço é o mesmo. *São duas economias, e é por isso que a seção abaixo diz que a aptidão não custa espaço de feitiço.*
 
 > **A aptidão não custa espaço de feitiço.** Essa é a moeda das Passivas e da Expansão de Domínio, e as duas economias ficam separadas de propósito: uma muda de preço sem obrigar a outra a ser refeita.
 
@@ -127,18 +139,18 @@ Uma Classe 3 não é "uma Classe 1 maior": é uma coisa de outro formato. **Fare
 
 **Cada aptidão declara o próprio requisito: nenhum, só nível, só refino, ou os dois.** *E, desde a v0.58, existe um quarto formato — **só Origem** —, escrito no fim desta seção.*
 
-A régua herdada das Passivas gateia por **nível** — Classe 1 no 1, Classe 2 no 7, Classe 3 no 13. Sozinha, ela não serve aqui, e a conta mostra por quê: com gate só de nível, **quem escolhe refino uma vez, no nível 26, compra uma Classe 3 na hora** — o mesmo acesso de quem investiu seis vezes. A ficção do refino some.
+A régua herdada das Passivas gateia por **nível** — Classe Passiva 1 no 1, a 2 no 7, a 3 no 13. Sozinha, ela não serve aqui, e a conta mostra por quê: com gate só de nível, **quem escolhe refino uma vez, no nível 26, compra uma Classe Passiva 3 na hora** — o mesmo acesso de quem investiu seis vezes. A ficção do refino some.
 
 Um gate de refino separa:
 
 | gate | especialista | meio a meio | generalista |
 |---|---|---|---|
-| Classe 2 no refino 4 | nível 10 | nível 10 | nível 14 |
-| Classe 3 no refino 7 | nível 14 | nível 18 | **nível 26** |
+| Classe Passiva 2 no refino 4 | nível 10 | nível 10 | nível 14 |
+| Classe Passiva 3 no refino 7 | nível 14 | nível 18 | **nível 26** |
 
 Doze níveis entre o especialista e o generalista, que é o tamanho que *"quase ninguém consegue"* pede.
 
-**E guardar marco não guarda refino.** A rota que espera — atributo cedo, refino tarde — não domina, porque o refino passivo sobe sozinho e ela chega ao nível 22 com refino 5, ainda precisando de outro marco para alcançar o 7. Ela troca quatro aptidões por quatro pontos de atributo, e as três que sobram são Classe 3. É a mesma escolha por outro caminho, não um atalho.
+**E guardar marco não guarda refino.** A rota que espera — atributo cedo, refino tarde — não domina, porque o refino passivo sobe sozinho e ela chega ao nível 22 com refino 5, ainda precisando de outro marco para alcançar o 7. Ela troca quatro aptidões por quatro pontos de atributo, e as três que sobram são Classe Passiva 3. É a mesma escolha por outro caminho, não um atalho.
 
 ### O quarto formato: gate de Origem
 
@@ -419,7 +431,7 @@ Nada aqui foi reescrito. O que segue é o registro de projeto que sustenta os n�
 
 | | |
 |---|---|
-| **A régua** | as aptidões herdam as Classes das Passivas do manual — **Classe 1** é efeito pequeno, condicional ou de informação; **Classe 2** é reativo, com limite por cena ou descanso; **Classe 3** é permanente e muda como você joga. Não são "mais" e "menos": são **formatos** |
+| **A régua** | as aptidões herdam as Classes das Passivas do manual — **Classe Passiva 1** é efeito pequeno, condicional ou de informação; a **2** é reativo, com limite por cena ou descanso; a **3** é permanente e muda como você joga. Não são "mais" e "menos": são **formatos** |
 | **O gate** | cada aptidão declara o seu: **nenhum, só nível, só refino, ou os dois**. O Kokusen Melhorado é o primeiro escrito — refino 5 e nível 14 |
 | **O preço** | um marco compra **uma aptidão**. Sem moeda nova, sem pontos |
 | **O que impede a Classe 3 de comer as outras** | o refino. Uma Classe 1 no refino 10 não é a mesma coisa que no refino 2 — ela cresce junto com você |

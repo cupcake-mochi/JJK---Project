@@ -119,6 +119,20 @@ jjk               # o atalho que entra na pasta do repositório
 - **Pesquise antes de inventar.** Isso virou skill própria na v0.38 — a `pesquisa-antes-de-propor` —, justamente porque enterrado aqui neste bullet ele não disparava.
 - **Documento não pode ter cara de saída de IA.** Seções de tamanhos diferentes, sem simetria forçada, sem "além disso" e "em suma". Português informal, e nunca português de Portugal.
 
+### O jeito de FALAR com ele é outro do jeito de ESCREVER o documento
+
+*Pedido dele na v0.64, e o motivo é medido: **ele é o dono do projeto e se perdeu na própria conversa.*** O documento pode ser denso — ele é referência, e quem lê tem tempo. **A explicação no chat não pode.**
+
+- **Uma ideia por parágrafo, frase curta.** Se a frase tem duas vírgulas e um travessão, corte em duas.
+- **Nada de `§3.4` no meio da frase.** Diga o que a seção fala, não onde ela mora. Ponteiro só no fim, e só se ele for abrir.
+- **Não cite decisão por número de versão sem dizer o que ela era.** *"como a v0.55 fechou"* não quer dizer nada para quem não decorou a v0.55.
+- **Termo do projeto vem com a tradução colada na primeira vez de cada conversa.** *"Rotina — que é quanto dano por rodada é considerado normal naquele nível"*, e só depois `Rotina` sozinha.
+- **Número sempre com a unidade por extenso.** *"1,27 de dano por rodada"*, nunca *"a fatia"*.
+- **Analogia antes de tabela**, quando a ideia for nova. A tabela prova; a analogia faz entender.
+- **Se ele perguntar "como assim?", a resposta certa não é mais detalhe — é menos.** Recomece de mais atrás, com menos palavra técnica.
+
+**E a skill `redacao-acessivel-rpg` vale para os dois lados.** Ela foi escrita para texto de regra e nunca tinha sido apontada para a conversa; o defeito que ela descreve — *jargão usado antes de definido* — aconteceu no chat, não no documento.
+
 ## 9. Skills de apoio, todas no repositório
 
 `pesquisa-antes-de-propor` · `design-mecanicas-rpg` · `balanceamento-simulacao` · `playtesting-rpg` · `redacao-acessivel-rpg` · `gasto-de-modelo`

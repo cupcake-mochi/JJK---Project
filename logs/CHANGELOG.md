@@ -6,6 +6,162 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.65] — 2026-08-14
+
+**A Q4 de Trilhas foi reaberta e refeita: a Trilha virou fechada, e no lugar do empréstimo entrou TROCA.** *A pergunta do Mizuki que derrubou a decisão da v0.55 foi de leitor, não de designer* — e é o segundo achado seguido que veio de ele não entender uma coisa que estava errada.
+
+### O que ele perguntou
+
+> *"Não seria melhor poder escolher outras trilhas em qualquer nível? Digamos que eu tô no nível 11 e quero tentar a outra trilha que achei interessante — aí eu pego o nível 2 de outra trilha, em vez do nível 11 de outra trilha."*
+
+E depois, com a conta na mesa: ***"acredito que só remover completamente a mistura das trilhas vai ser melhor... manter a forma de 405 rende em deixar pegar trilhas sem ter a base da trilha e fica estranho."***
+
+### Achado — a trava que faltava, e ela valia nos dois modelos
+
+**Nenhuma entrega pode depender de outra entrega.** *Isso nunca tinha sido escrito em lugar nenhum* — conferido com `grep`, zero ocorrências. E o empréstimo da v0.55 já exigia isso: pegar o degrau de nível 11 do `Punho` sem nunca ter tido o de nível 2 dele já era possível, e nada proibia que o de cima dependesse do de baixo.
+
+### Levantamento externo — existem três modelos e nenhum quarto limpo
+
+| sistema | como resolve |
+|---|---|
+| **D&D 5e**, 2014 e 2024 | **trilha fechada.** Sem misturar, e **sem regra nenhuma de trocar** — nas duas edições é discricionariedade de mestre |
+| **Pathfinder 2e** | **pool com pré-requisito escrito em cada entrada** — *"prerequisites can be a specific class feature, or another feat"* |
+| **Pathfinder Society** — personagem entre mestres, o caso mais parecido com este | **rebuild completo, uma vez só, com data para expirar.** Mudar de rumo é evento excepcional e central |
+
+> **Ou cada entrada carrega pré-requisito, ou a trilha é fechada.** A forma de 405 era exatamente o meio-termo que nenhum dos três pratica.
+
+### E o próprio projeto tinha o argumento a favor de fechar
+
+A peça 5 §4: *"se o Caminho desse dano, dois personagens do mesmo Caminho começariam a se parecer, e a coisa que os distingue — **a técnica que cada um escreveu** — perderia espaço."*
+
+**A Trilha nunca foi o motor de variedade — a técnica é**, e cada jogador escreve a dele do zero. *Quinze Trilhas fechadas não é pouco: é a quantidade certa para uma camada que não carrega a individualidade.*
+
+### Decidido — a Trilha é fechada, e a troca é total
+
+> **As quatro entregas de Trilha (`2 · 11 · 19 · 27`) são todas da sua Trilha.**
+> **Nos níveis `11`, `19` e `27` você pode trocar de Trilha dentro do Caminho, e a troca é TOTAL** — tudo o que você tinha vira o equivalente da nova. Você é sempre exatamente uma Trilha.
+
+| | antes (v0.55) | agora |
+|---|---|---|
+| montagens a conferir | **405** | **15** |
+| pegar o avançado sem o básico | acontecia, e nada proibia | **impossível** |
+| mudar de ideia | não existia | **troca total em 11, 19 ou 27** |
+| pré-requisito em cada entrada | seria obrigatório | **desnecessário** |
+
+*A troca parcial foi medida e recusada: guardar o passado e seguir a Trilha nova recria exatamente o defeito que a pergunta apontou.*
+
+### Decidido — o formato voltou a ser livre por Trilha, com duas travas
+
+**A regra da v0.64 — altura fixa por nível — caiu junto com o empréstimo**, porque os dois motivos dela eram o empréstimo e o tamanho da matriz. *Com Trilha fechada, o formato passa a ser o que faz uma Trilha parecer diferente da outra.*
+
+> **1. O nível 2 é sempre `Classe Passiva 1` ou `3`.** Nunca uso limitado.
+> **2. Pelo menos uma das quatro tem de ser `Classe Passiva 2`** — algo que o jogador decide usar.
+
+**A primeira é do Mizuki:** *"o nv2 tem que dar a BASE para tudo funcionar, como algo passivo mesmo ou que proca às vezes"*. A conta já proibia condicional-de-baixa-taxa ali; o que faltava era o outro lado — **uso limitado no nível 2 é pior ainda**, porque a única coisa da Trilha vira recurso para administrar antes de existir qualquer outra na ficha.
+
+**A segunda veio de fora, e ela existe porque a preferência dele levada ao extremo tem nome no hobby.** Ele escreveu *"tudo deveria ser entre sempre ligado e às vezes"* — e subclasse **só** de passiva e proc é o **Champion do D&D 5e**:
+
+> *"Most of its features are passive… **this is a subclass that is absolutely desperate for some buttons to push**… this simplicity makes the Champion an ideal character for **new players**, but **veterans will likely find it boring**."*
+
+**A última frase é a resposta inteira: passivo é certo no começo e errado no fim** — que é exatamente o que ele desenhou sem saber.
+
+### Achado — a preocupação com "uma vez por luta" não se confirma, e a peça 10 tem o número
+
+*Ele escreveu: "tem dias que não vai ter mais de uma luta".* **A peça 10 §4 diz que as três primeiras lutas do dia são de graça**, e a exaustão começa na quarta. **O dia esperado tem três a quatro lutas**, então `1× por descanso curto` dispara **três a quatro vezes por dia**, contra uma do `1× por dia`. *E o levantamento externo separa os dois pelo mesmo motivo — o Stoddard reprova o `por dia` e libera o `por descanso curto`.*
+
+### Alterado
+
+| onde | o que mudou |
+|---|---|
+| **`RASCUNHO-trilhas.md` §3** | a Q4 refeita, o §3.6 reescrito, o §1 e o §5 acompanhando |
+| **peça 6 §1** | a linha *"as Trilhas seguintes se acumulam com o nível"* — morta em duas etapas, e agora com a troca escrita no lugar |
+| **`ESTADO-ATUAL`, pendência nº 3** | a Trilha fechada e a troca |
+
+### Em aberto
+
+- **A Q5** — as 80 entradas. **O validador de Trilhas ganhou três checagens novas na especificação** e ainda não existe.
+- As de sempre: as vagas de Desliga, a Cicatriz, Energia Reversa, o clash, o nome do sistema, o refino que paga mal no marco.
+
+---
+
+## [0.64] — 2026-08-14
+
+**`Classe` era uma palavra fazendo o trabalho de duas, e o dono do sistema não conseguiu ler a própria régua por causa disso.** O Mizuki leu a Q3 de Trilhas inteira e parou em *"como assim Classe? Pra mim Classe é feitiço, não entendi a questão"*. **Ele estava certo, e o defeito é do projeto.** Continuam dezesseis peças e dezesseis validadores.
+
+### Achado — o glossário do manual só tem uma escala, e o eixo de formato vivia de empréstimo
+
+> **`Classe — o tamanho do feitiço, de 0 a 7. Define pontos, teto, PE e limites.`** *(glossário do manual)*
+
+E ele também escreve *"cada Passiva tem uma Classe, **como um feitiço**"*, com a tabela de níveis dizendo *"7 — libera Passiva de Classe 2"*. **Então `Classe 2` já significava duas coisas antes de a peça 11 abrir a boca** — e ela passou a usar `Classe 1/2/3` para o eixo de **formato** (pequeno e condicional · reativo com limite · permanente) sem nunca marcar a diferença.
+
+*O agravante que a palavra escondia:* na Passiva do manual a altura **também cobra** — Classe 3 custa mais espaço de feitiço que a 1. Na aptidão **não cobra nada**: o marco compra uma de qualquer altura que o refino alcance. **A mesma palavra tinha três comportamentos** — mede tamanho no feitiço, mede tamanho e preço na Passiva, mede só formato na aptidão.
+
+### Decidido — `Classe Passiva`, e nunca `Classe` sozinha
+
+*Decisão do Mizuki.* **O conserto é o idioma do próprio manual**, que já escreve *"Passiva de Classe 2"* e *"Classe de Passiva"* quando precisa desambiguar.
+
+**A triagem rodou e cinco candidatos foram RECUSADOS de propósito:** `Feitio`, `Talhe`, `Lavra`, `Feição` e `Formato` saíram **LIVRE** nas duas direções, e `Porte` saiu fraco (a uma letra de `Corte`, que é Tema). *Inventar palavra para o que o manual já sabe dizer cria a segunda fonte que a lição nº 9 existe para evitar* — e um termo que o manual não tem obriga toda leitura futura a traduzir.
+
+### Achado — a escada de formato não foi inventada aqui, e agora a peça prova isso
+
+A seção 4 ganhou a coluna que faltava: **quais Passivas do manual moram em cada altura.**
+
+| Classe Passiva | as Passivas do manual naquela altura |
+|---|---|
+| **1** | `Leitura` · `Instinto` · `Raiz` · `Mão Firme` · `Farejador` · `Aviso` — todas *"você sabe"* ou *"você não sofre"* |
+| **2** | `Fluxo` · `Recomposição` · `Segunda Natureza` · `Eco` · `Costura` — todas *"uma vez por X, acontece"* |
+
+**A escada estava na tabela do manual. O que faltava era alguém escrever o que ela separa** — e é isso que a peça 11 §4 fez na v0.27, sem nome próprio para o que tinha achado.
+
+### Adicionado — a checagem do nome, no `conferir-aptidoes.py`
+
+Ela afirma a **forma** do nome e nunca o conteúdo: o título e o cabeçalho da tabela dizem `Classe Passiva`, a regra *"nunca sozinha"* está escrita, e as três alturas estão lá.
+
+> **E ela precisou da exceção da armadilha nº 4 do projeto** — *a peça que documenta o validador contém o texto que ele procura para reprovar.* A seção 4 **cita o manual** para explicar a ambiguidade, então ela contém `Classe 2` solta duas vezes, legitimamente. A varredura pula a linha que menciona o manual, e só ela. *Sem isso a checagem reprovaria a própria seção que existe para consertar o problema.*
+
+**Arnês, base verde e `diff` por `sed`:**
+
+| perturbação | acendeu? |
+|---|---|
+| o título volta a ser `As Classes de aptidão` | **sim** |
+| a regra *"nunca sozinha"* some | **sim** |
+| o cabeçalho da tabela volta a `Classe` | **sim** |
+| alguém escreve `Classe 3` solta fora de citação | **sim**, listando as duas |
+| **contra-teste:** muda o texto do que cabe na altura 1 | **não acendeu** |
+| **contra-teste:** mexe numa linha que cita o manual | **não acendeu** |
+
+### Decidido — a altura é do NÍVEL, e a conta decidiu por dois eixos independentes
+
+**O empréstimo da Q4 exige.** Nos níveis 11, 19 e 27 três entradas do Caminho competem pela mesma vaga. Na média empatam por construção; **na variância não** — a Classe Passiva 1 não faz nada em **44% das lutas** e é a única com desvio (`4,89`). Com alturas misturadas, o empréstimo vira compra de confiabilidade, e a Q4 existe para ele ser de ficção.
+
+**E a matriz confirma pelo outro lado:** altura livre por entrada dá **2.187** combinações, uma-de-cada dá 972, e a altura por nível dá **27** — que mantém as 405 montagens que a Q2 aprovou.
+
+### Decidido — a sequência, e duas pontas a conta fechou sozinha
+
+> **`2 · 11 · 15 · 19 · 23 · 27 · 29` → `3 · 2 · 1 · 3 · 1 · 2 · 3`**
+
+**O nível 2 não pode ser Classe Passiva 1:** são **18 missões** com uma entrega de Trilha só na ficha, e uma altura que falha em 44% das lutas seria a Trilha inteira falhando quase metade do tempo para um personagem novo. **O nível 29 também não**, invertido — ele é carregado por **10 missões**, e coisa que se vê pouco tempo pede formato que aparece sempre.
+
+*As duas condicionais caem nos degraus de Caminho (15 e 23), então a Trilha — a identidade — é sempre confiável, e o tempero mora na camada compartilhada. A Classe Passiva 2 no nv27 é gosto, e está assumida como tal no §3.6.*
+
+### Registrado — o jeito de falar com ele virou procedimento, e o motivo é o mesmo defeito
+
+*Pedido do Mizuki no fim desta versão:* ***"tô começando a me sentir perdido com o que você fala, tem alguma forma de explicar de forma mais leiga?"***
+
+**É o mesmo defeito da seção acima, um nível acima.** A palavra `Classe` significava duas coisas e ele travou; a **conversa inteira** vinha significando duas coisas — texto de referência e explicação — e ele travou de novo. *O dono do projeto se perdeu no próprio projeto porque o chat estava sendo escrito com a densidade de um documento.*
+
+**A skill `rpg-da-guilda` ganhou uma seção 0**, em primeiro lugar de propósito, com o registro separado: uma ideia por parágrafo, nada de `§3.4` no meio da frase, termo do projeto com a tradução colada na primeira vez, número sempre com a unidade por extenso, e **quando ele perguntar "como assim?", a resposta certa é menos detalhe e não mais.** Aplicada nos dois lados dela.
+
+> **E a ironia vale registrar:** o projeto tem uma skill chamada `redacao-acessivel-rpg` — *"escreve texto de regra para quem nunca jogou entender de primeira, define jargão antes de usar"* — e ela nunca tinha sido apontada para a conversa. O defeito que ela descreve aconteceu **no chat**, não no documento.
+
+### Em aberto
+
+- **A Q5** — as 80 entradas, agora com formato, preço, contador e altura por nível fechados.
+- **Quando a vida cheia da invocação reinvocada volta** — sabor.
+- As de sempre: as vagas de Desliga, a Cicatriz, Energia Reversa, o clash, o nome do sistema, o refino que paga mal no marco.
+
+---
+
 ## [0.63] — 2026-08-14
 
 **A Q6 fechou, e com ela a peça 15 inteira — ela não deve mais nada.** Era a única pergunta que Invocações tinha deixado aberta, e ela nunca foi daquela peça: `Servo`, `Matilha` e `Coro` são Trilhas. **O que a destravou não foi um número.** Continuam dezesseis peças e dezesseis validadores.

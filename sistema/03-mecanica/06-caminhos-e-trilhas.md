@@ -31,7 +31,11 @@ Renomear a mecânica sairia mais caro: *canalizar energia* é termo da própria 
 
 **A primeira Trilha vem na criação, junto do Caminho.** *Decidido na v0.27, aplicado na v0.34.* Ela é identidade, não recompensa — o Caminho diz o seu lugar na equipe e a Trilha diz quem você é dentro dele, e as duas coisas nascem com o personagem. Esta seção dizia que *"as escolhas de nível compram Trilhas"*, e isso vinha de contar a partir do nível 1 numa ficha que nasce no 2: é o mesmo engano que a v0.28 achou na contagem de feitiços.
 
-**As Trilhas seguintes, essas sim, se acumulam com o nível** — é isso que permite o Guia pegar Energia Reversa antes da hora, ou o Bastião pegar um pé em feitiço. **Quantas, e em que níveis, é a peça de Trilhas**, junto com o que cada uma entrega com número.
+> **Esta linha dizia que "as Trilhas seguintes se acumulam com o nível", e isso morreu em duas etapas.** *Na v0.55:* **uma Trilha por ficha, e ponto** — não existe acumular. *Na v0.65:* **a Trilha é fechada** — as quatro entregas dela são todas dela, sem pegar emprestado das vizinhas.
+>
+> **O que existe no lugar é TROCA.** Nos níveis **11, 19 e 27** você pode trocar a sua Trilha por outra do mesmo Caminho, e **a troca é total**: tudo o que você tinha vira o equivalente da Trilha nova. Você é sempre exatamente uma Trilha, do nível 2 ao 30.
+>
+> *O motivo está no `RASCUNHO-trilhas.md` §3, e ele é curto: **ou cada entrada carrega pré-requisito escrito, como o Pathfinder 2e faz, ou a trilha é fechada, como o D&D 5e faz.** O meio-termo deixava você pegar o degrau avançado de uma Trilha sem nunca ter tido a base dela.*
 
 ## 2. As Trilhas
 

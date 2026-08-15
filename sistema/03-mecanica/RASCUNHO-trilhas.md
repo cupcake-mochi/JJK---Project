@@ -4,7 +4,7 @@
 
 Escrito na **v0.54**, com o Mizuki fora. **Nenhuma Trilha é escrita aqui.** O que está aqui é: o que já está travado, o que a conta já responde, o problema de escala com número, e as perguntas na ordem em que uma trava a outra.
 
-**Na v0.55 a Q1 e a Q4 fecharam** — sem multiclasse, e as entregas de nível alto cruzam Trilhas do mesmo Caminho. **Na v0.60 a Q2 fechou**, junto com o calendário e o fim da palavra `subtrilha`. **Na v0.61 fechou a Q3, que é a régua.** **Sobra a Q5** — o conteúdo, entrada por entrada, e agora ela tem contra o que ser medida.
+**Na v0.55 a Q1 e a Q4 fecharam** — sem multiclasse, e as entregas de nível alto cruzam Trilhas do mesmo Caminho. **Na v0.60 a Q2 fechou**, junto com o calendário e o fim da palavra `subtrilha`. **Na v0.61 fechou a Q3, que é a régua** — e a **v0.65 reabriu e refez a Q4**: a Trilha virou fechada, sem empréstimo, com troca total nos níveis 11, 19 e 27. **Sobra a Q5** — o conteúdo, entrada por entrada, e agora ela tem contra o que ser medida.
 
 > **Duas coisas deste documento estavam erradas e foram corrigidas na v0.60. Leia isto antes do §2.**
 >
@@ -37,6 +37,7 @@ Escrito na **v0.54**, com o Mizuki fora. **Nenhuma Trilha é escrita aqui.** O q
 | **O que sobra para conceder:** posicionamento, alvo, duração, recuperação, troca do fixo do acerto por atributo, e **exceção estreita e paga na economia de ação** | peça 5 §4 |
 | **Você e todas as suas invocações somados entregam uma Rotina** | peça 6 §4 |
 | **Ataque extra: Bastião e Vanguarda pelo Caminho no nível 7; `Arremate` e `Coro` pela Trilha; o Guia por nenhuma rota** | peça 6 §3.1, com o nível corrigido na v0.61 |
+| **A Trilha é fechada: as quatro entregas dela são todas dela.** Trocar de Trilha é troca **total**, e só nos níveis 11, 19 e 27 | Q4, refeita na v0.65 |
 
 **E três das quinze já estão construíveis**, porque o rascunho de Invocações fechou a máquina delas: `Servo` dá um corpo forte, `Matilha` dá os cinco, `Coro` dá a exceção de economia de ação — **e o que a Trilha concede não sai do orçamento da ficha.** *É a metade da Q6 que aquele documento entregou.*
 
@@ -117,7 +118,7 @@ Quinze Trilhas multiplicam tudo. **Este é o custo real, medido contra o que est
 **Q2 — FECHADA na v0.60.** *Decisão do Mizuki, depois de a conta derrubar a recomendação antiga de `2, 10, 18, 26`.*
 
 > **Entrega de Trilha nos níveis `2 · 11 · 19 · 27`. Entrega de Caminho nos níveis `7 · 15 · 23 · 29`.**
-> **80 entradas** — `4 × 15` de Trilha mais `4 × 5` de Caminho — e **405 montagens legais**.
+> **80 entradas** — `4 × 15` de Trilha mais `4 × 5` de Caminho. *As **405 montagens** que esta linha anunciava eram do empréstimo entre Trilhas; com a Q4 refeita na v0.65 elas são **15**, e o calendário não mudou.*
 
 **Os dois degraus não são conceito novo:** a peça 6 §3.1 já escreve *"Bastião e Vanguarda ganham ataque extra no nível 6, **pelo Caminho**; Arremate e Coro ganham **pela Trilha**"*. O que a v0.60 fez foi transformar a distinção existente em calendário.
 
@@ -129,7 +130,7 @@ Quinze Trilhas multiplicam tudo. **Este é o custo real, medido contra o que est
 | `2, 7, 11, 15, 19, 25` | 6 | **37** |
 | **misto — T `2,11,19,27` · C `7,15,23,29`** | **5** | **24** |
 
-O misto entrega os dois **e** custa dez entradas a menos, com uma matriz de dominância **nove vezes menor** — porque um degrau de Caminho é igual para as três Trilhas dele e não multiplica nada.
+O misto entrega os dois **e** custa dez entradas a menos, com uma matriz de dominância **nove vezes menor** — porque um degrau de Caminho é igual para as três Trilhas dele e não multiplica nada. *E a Q4 da v0.65 derrubou o resto da multiplicação: hoje são 15 montagens.*
 
 > **A seca foi medida em missão e não em nível**, pela curva da peça 12, porque é a unidade que o jogador sente. Hoje o vão `nv26 → nv30` são **37 missões** sem nada que se escolha, e é o maior da campanha inteira — a seca deste sistema é **no topo**, e não no meio.
 
@@ -137,18 +138,18 @@ O misto entrega os dois **e** custa dez entradas a menos, com uma matriz de domi
 
 **Q3 — FECHADA na v0.61. É a régua, e ela vem ANTES do catálogo.** A régua tem três eixos — **formato**, **quanto** e **o que não pode ser** —, e ela cabe em quatro linhas:
 
-> **Formato:** a escada de Classes da peça 11 §4. A Classe declara a **janela**, e a janela fixa a magnitude.
+> **Formato:** a escada de **Classe Passiva** da peça 11 §4. Ela declara a **janela**, e a janela fixa a magnitude.
 > **Contador:** plano, e **`1×` por descanso curto**. Nunca um que cresça, e nunca um que cada mestre leia de um tamanho.
 > **Preço:** **sete fatias de `1,27` ponto por rodada**, mais o **degrau do nível 7**, que vale o vão da peça 6 §3 e substitui uma fatia.
 > **Denominador:** toda entrega é escrita como fração de coisa que já cresce. Número solto deriva `8,3×` e só cabe no nível 2.
 
-### 3.1 O formato — a escada de Classes, e o que faz ela caber aqui
+### 3.1 O formato — a escada de Classe Passiva, e o que faz ela caber aqui
 
 **A régua da peça 13 foi testada e reprovada.** O `Desliga` só apaga o que ninguém comprou, e isso é território de Origem — nada no permitido da peça 5 §4 desliga coisa. O `Ajusta` tem **um morador legal só**, trocar o fixo do acerto por atributo. Sobram 6 das 7 linhas no `Destranca`, e um formato que põe 6 de 7 no mesmo balde não separa nada: é etiqueta.
 
-A escada de Classes passa no mesmo teste com folga, e por um motivo de forma — ela **corta a lista de travessa** em vez de particionar. Cada linha do permitido mora nas três, em tamanhos diferentes:
+A escada de **Classe Passiva** passa no mesmo teste com folga, e por um motivo de forma — ela **corta a lista de travessa** em vez de particionar. Cada linha do permitido mora nas três, em tamanhos diferentes:
 
-| linha do permitido (peça 5 §4) | Classe 1 | Classe 2 | Classe 3 |
+| linha do permitido (peça 5 §4) | Classe Passiva 1 | Classe Passiva 2 | Classe Passiva 3 |
 |---|---|---|---|
 | posicionamento | só quando você critica | 1× na Reação | +3 m sempre |
 | alvo | só em alvo já marcado | retarget | seu Classe 0 sempre pega 2 |
@@ -160,17 +161,17 @@ A escada de Classes passa no mesmo teste com folga, e por um motivo de forma —
 
 **Moradores: `5 · 5 · 6`.** Contra os `6 · 1 · 0` da peça 13.
 
-E ela porta sem adaptação porque a peça 11 §4 já diz exatamente o que ela é: ***"Ela não mede quanto — mede o quê."*** Um marco compra uma aptidão de qualquer Classe que o refino alcance; um degrau do calendário entrega uma coisa de qualquer Classe. Mesma estrutura, mesmo preço, formatos que não se substituem.
+E ela porta sem adaptação porque a peça 11 §4 já diz exatamente o que ela é: ***"Ela não mede quanto — mede o quê."*** Um marco compra uma aptidão de qualquer Classe Passiva que o refino alcance; um degrau do calendário entrega uma coisa de qualquer Classe Passiva. Mesma estrutura, mesmo preço, formatos que não se substituem.
 
-**Só que o que segura a Classe 3 lá não pode ser o que segura ela aqui.** Na peça 11 é o refino — *"uma Classe 1 no refino 10 não é a mesma coisa que no refino 2. Ela cresce junto com você"* —, e o refino está proibido na Trilha. O substituto sai da própria definição das três:
+**Só que o que segura a Classe Passiva 3 lá não pode ser o que segura ela aqui.** Na peça 11 é o refino — *"uma Classe Passiva 1 no refino 10 não é a mesma coisa que no refino 2. Ela cresce junto com você"* —, e o refino está proibido na Trilha. O substituto sai da própria definição das três:
 
-| Classe | janela | dispara em | magnitude quando dispara |
+| Classe Passiva | janela | dispara em | magnitude quando dispara |
 |---|---|---|---|
 | **3** | permanente | 100% das rodadas | **1,27** |
 | **2** | limitada, `1×` por descanso curto | ~27% | **4,70** |
 | **1** | condicional, sem limite de uso | ~20% | **6,35** |
 
-Mesma média, variância diferente: **uma Classe 1 entrega cinco vezes a porrada numa rodada de cinco.** É o mesmo mecanismo do *"Farejador não fica obsoleta"* da peça 11 §4, funcionando sem o refino.
+Mesma média, variância diferente: **uma Classe Passiva 1 entrega cinco vezes a porrada numa rodada de cinco.** É o mesmo mecanismo do *"Farejador não fica obsoleta"* da peça 11 §4, funcionando sem o refino.
 
 ### 3.2 O contador é plano, e é a lição nº 2 aparecendo num lugar novo
 
@@ -202,7 +203,7 @@ A magnitude de uma entrega é fração do que você já faz, então **ela já cr
 
 **Spread de `3,0×` — o mesmo com que a peça 13 §7 reprovou *"por sessão"* e *"por arco"***, escrevendo que ali *"o filtro do projeto — dois mestres que nunca conversaram chegam ao mesmo número? — está falhando, com número em cima"*.
 
-**E os 71 usos da peça 13 continuam certos**, porque a trava de lá mede **largura antes de relógio**: *"por cena num gatilho de alcance 1 é seguro por construção, não por generosidade"*. Quando o gatilho é estreito, quem limita é a frequência do próprio gatilho. **A Classe 2 de Trilha é o caso contrário — o gatilho é combate, e o relógio é o único limitador.** Largura não salva ela, então ela leva o spread inteiro.
+**E os 71 usos da peça 13 continuam certos**, porque a trava de lá mede **largura antes de relógio**: *"por cena num gatilho de alcance 1 é seguro por construção, não por generosidade"*. Quando o gatilho é estreito, quem limita é a frequência do próprio gatilho. **A Classe Passiva 2 de Trilha é o caso contrário — o gatilho é combate, e o relógio é o único limitador.** Largura não salva ela, então ela leva o spread inteiro.
 
 *E a troca não move número nenhum:* os dois são degraus vizinhos da escada — `4,7` contra `6,3` rolagens, `1,34×` —, e os dois dão **um uso por luta**. A magnitude continua `4,70`. O que muda é que o gatilho passa a ser *"a luta acabou"*, que a peça 10 §1 escolheu justamente porque **dois mestres arbitram igual**.
 
@@ -295,19 +296,75 @@ Toda entrega é fração de alguma coisa. **Se essa coisa não crescer no ritmo 
 
 *E na direção contrária é pior:* quem vai sempre de `Corpo` ou sempre de `Leque` termina com **zero aptidões** (peça 11 §3), e a Trilha é a única coisa que ainda escala para essas duas rotas. Pendurar ela no refino tira delas o último eixo — o contrário do que aquela seção desenhou.
 
-**Q4 — FECHADA na v0.55, e ela devolve metade do que a Q1 tinha economizado.** *Decisão do Mizuki:* **as entregas de nível alto cruzam Trilhas do mesmo Caminho** — o Bastião pega uma do `Muro` e uma do `Punho`, e nunca uma do Guia.
+**Q4 — REABERTA e REFEITA na v0.65. A Trilha é fechada, e o que existe é TROCA.**
 
-> **A árvore, fechada — e são DUAS camadas, não três:**
-> **`Caminho`** (5, exclusivo, escolhido na criação) → **`Trilha`** (3 por Caminho, escolhida no nv2).
-> No nível **2** você pega a entrega da **sua** Trilha. Nos níveis **11, 19 e 27** você pega a de **qualquer** Trilha do seu Caminho.
+*A v0.55 tinha decidido que as entregas de nível alto cruzam Trilhas do mesmo Caminho. O Mizuki derrubou isso na v0.65, e o argumento é dele:* ***"misturar assim é mais fácil do que misturar uma nv2 e outra de nv11 de trilhas diferentes... mas manter a forma de 405 rende em deixar pegar trilhas sem ter a base da trilha e fica estranho."***
 
-> **A palavra `subtrilha` morreu na v0.60, e a mecânica ficou inteira.** *Decisão do Mizuki, e o motivo foi ele mesmo se perder lendo a árvore — que é o teste que importa.* `Caminho → Trilha → subtrilha` fazia parecer **três andares** quando são **dois com um empréstimo**: a coisa que você pega no nível 11 não é uma camada abaixo da Trilha, é a **mesma camada**, tirada de um vizinho do mesmo Caminho.
+> **A árvore, refeita — duas camadas, e a de baixo é fechada:**
+> **`Caminho`** (5, exclusivo, escolhido na criação) → **`Trilha`** (3 por Caminho).
+> **As quatro entregas de Trilha — `2 · 11 · 19 · 27` — são todas da sua Trilha.** Não existe pegar de outra.
+> **Nos níveis `11`, `19` e `27` você pode TROCAR de Trilha, dentro do seu Caminho. A troca é total:** tudo o que você tinha vira o equivalente da Trilha nova.
 
-**O que isso custa está medido, e é o número que a régua tem de aguentar:** a matriz de dominância deixa de varrer as 15 Trilhas e passa a varrer **as combinações de subtrilha dentro de cada Caminho**. E a pergunta aberta desde a v0.24 muda de forma: *"o Guia contra a Vanguarda"* vira ***"esta combinação de Guia contra aquela combinação de Vanguarda"***. **A régua (Q3) tem de nascer sabendo disso** — ela não está precificando quinze coisas exclusivas, está precificando peças que se somam dentro do Caminho.
+**O levantamento externo achou três modelos, e não existe um quarto limpo:**
 
-*A Q1 tirou as 105 combinações entre Caminhos; a Q4 devolveu as combinações dentro deles. O saldo é bom — cruzamento dentro de um Caminho é escolha de construção, e entre Caminhos era multiclasse —, mas não é zero, e a régua paga a diferença.*
+| sistema | como resolve |
+|---|---|
+| **D&D 5e** (2014 e 2024) | **trilha fechada.** Você pega as coisas da subclasse, na ordem dela. Não existe misturar, e **não existe regra nenhuma de trocar** — nas duas edições, é discricionariedade de mestre |
+| **Pathfinder 2e** | **pool, mas com pré-requisito escrito em cada entrada** — *"prerequisites can be a specific class feature, or another feat"*. É assim que ele impede pegar o avançado sem o básico |
+| **Pathfinder Society** (personagem entre mestres, o caso mais parecido com este) | **rebuild completo, uma vez só, com data para expirar.** Mudar de rumo lá é evento excepcional e central, não regra de nível |
+
+> **Ou você escreve pré-requisito em cada entrada, ou você fecha a trilha.** Não existe meio-termo que fique limpo — e a forma de 405 era exatamente o meio-termo.
+
+**E o próprio projeto já tinha o argumento a favor de fechar, na peça 5 §4:** *"se o Caminho desse dano, dois personagens do mesmo Caminho começariam a se parecer, e a coisa que os distingue — **a técnica que cada um escreveu** — perderia espaço."* **A Trilha nunca foi o motor de variedade.** A técnica é, e cada jogador escreve a dele do zero. *Quinze Trilhas fechadas não é pouco: é a quantidade certa para uma camada que não deve carregar a individualidade.*
+
+**O que a mudança custa e o que ela devolve:**
+
+| | antes (v0.55) | agora (v0.65) |
+|---|---|---|
+| montagens a conferir | **405** | **15** |
+| pegar o avançado sem o básico | acontecia, e nada proibia | **impossível** |
+| mudar de ideia | não existia | **troca total em 11, 19 ou 27** |
+| pré-requisito escrito em cada entrada | seria obrigatório | **desnecessário** |
+
+*A trava que a pergunta do Mizuki caçou continua valendo por outro motivo:* **nenhuma entrega pode depender de outra** — não mais porque você pode pegá-la solta, mas porque a troca é total e a Trilha nova precisa funcionar inteira a partir do nível em que você trocou.
+
+> **A palavra `subtrilha` morreu na v0.60 e não volta.** São duas camadas, e agora sem empréstimo nenhum entre elas.
+
 
 **Q5 — O que cada Trilha entrega, entrada por entrada.** *Última de propósito.* É a passada de conteúdo, e ela só começa depois da Q3.
+
+### 3.6 Qual Classe Passiva em qual degrau — refeito na v0.65
+
+*A v0.64 tinha travado a altura por nível, e ela caiu junto com o empréstimo.* **Os dois motivos daquela regra eram o empréstimo e o tamanho da matriz, e a Q4 refeita matou os dois** — não há mais o que emprestar, e as montagens caíram de 405 para 15. *Com Trilha fechada, o formato passa a ser justamente o que faz uma Trilha parecer diferente da outra.*
+
+> **Cada Trilha escolhe o formato de cada degrau, com duas travas.**
+> **1. O nível 2 é sempre `Classe Passiva 1` ou `3`** — condicional ou permanente. **Nunca uso limitado.**
+> **2. Pelo menos uma das quatro entregas tem de ser `Classe Passiva 2`** — algo que o jogador decide usar.
+
+**A primeira trava é do Mizuki, e o levantamento externo bate com ela.** *Ele escreveu: "o nv2 tem que dar a BASE para tudo funcionar, como algo passivo mesmo ou que proca às vezes".* A conta já dizia que o nível 2 não pode ser condicional-que-falha-muito — são **18 missões** com ela sozinha na ficha. O que faltava era o outro lado: **uso limitado no nível 2 é pior ainda**, porque a única coisa que a Trilha te dá vira um recurso para administrar antes de você ter qualquer outra coisa na ficha.
+
+**A segunda trava veio de fora, e ela existe porque a preferência do Mizuki, levada ao extremo, tem nome no hobby.** Ele escreveu *"acho que tudo deveria ser entre sempre ligado e às vezes"* — e uma subclasse **só** de passiva e proc é literalmente o **Champion do D&D 5e**, que é o exemplar canônico de subclasse chata:
+
+> *"Most of its features are passive… **this is a subclass that is absolutely desperate for some buttons to push**. The expanded crit range is genuinely useful, but it is a passive that requires no decisions… this simplicity makes the Champion an ideal character for **new players**, but **veterans will likely find it boring**."*
+
+**E a última frase é a resposta inteira: passivo é certo no começo e errado no fim.** É exatamente o que o Mizuki desenhou sem saber — base passiva no nível 2, e o resto variando. A segunda trava só garante que o "resto" tenha pelo menos um botão.
+
+#### E a preocupação com "uma vez por luta" tem número, e ela não se confirma
+
+*Ele escreveu: "ter algo uma vez por luta é meio chato às vezes, tem dias que não vai ter mais de uma luta".* **A peça 10 §4 responde:** *"as três primeiras lutas do dia são de graça"*, e a exaustão começa na quarta. **O dia esperado deste sistema tem três a quatro lutas.**
+
+| relógio | dispara por dia |
+|---|---|
+| `1×` por descanso curto — o degrau usado aqui | **3 a 4 vezes** |
+| `1×` por dia | 1 vez |
+
+**São três a quatro vezes mais.** *E o levantamento externo separa os dois pelo mesmo motivo:* o Stoddard escreve que *"não é um loop de jogo se o jogador só faz aquilo uma vez por dia"* e que *"uma vez por descanso curto está ok"*. **O formato que incomodava é o `por dia`, e este sistema não usa ele em Trilha.**
+
+#### As duas pontas que a conta já tinha fechado, e que continuam
+
+**O nível 2 não pode ser condicional-de-baixa-taxa**, e agora também não pode ser uso limitado — sobra permanente, ou condicional que dispara com frequência. **O nível 29 não pode ser condicional**: você o carrega por 10 missões, e coisa que se vê pouco tempo pede formato que aparece sempre.
+
+*O que morreu nesta versão foi a sequência fixa `3 · 2 · 1 · 3 · 1 · 2 · 3`. Ela existia para as três Trilhas de um Caminho não competirem por confiabilidade, e sem empréstimo elas não competem mais.*
 
 ## 4. A ordem de ataque recomendada
 
@@ -329,7 +386,9 @@ Toda entrega é fração de alguma coisa. **Se essa coisa não crescer no ritmo 
 
 ## 5. O que o validador vai precisar ter
 
-- **A matriz de dominância entre as quinze**, e ela roda **por Caminho** e **entre Caminhos** — porque a pergunta do Guia contra a Vanguarda é entre Caminhos. *Com a Q1 e a Q4 fechadas, o tamanho está medido: **81 montagens por Caminho** e **405 no total**, que é `15 × 3³`.*
+- **A matriz de dominância entre as quinze**, e ela roda **por Caminho** e **entre Caminhos** — porque a pergunta do Guia contra a Vanguarda é entre Caminhos. *Com a Q4 refeita na v0.65 o tamanho caiu de **405 para 15**: a Trilha é fechada, então cada montagem É uma Trilha. A matriz compara pacote com pacote.*
+- **A troca é total, e o validador confere que ela não deixa buraco:** trocar para qualquer Trilha em qualquer um dos três níveis tem de produzir uma ficha legal, com as quatro entregas daquela Trilha até o nível atual.
+- **O nível 2 de toda Trilha é `Classe Passiva 1` ou `3`, nunca `2`**, e **toda Trilha tem pelo menos uma `Classe Passiva 2`** nas suas quatro. Contra-teste: uma Trilha só de permanente e condicional tem de reprovar, com a mensagem citando o Champion.
 - ~~**Se a Q1 responder "mais de uma"**, a matriz varre as **105 combinações** de duas.~~ **Morta na v0.55:** não existe multiclasse, e a matriz nunca cruza Caminhos diferentes numa mesma ficha.
 - **O orçamento de cada Trilha contra os `6%` a `9%` da Rotina**, lido da **peça 14 §4** e nunca de constante. *E ele é **piso**, não teto* — a régua da Q3 para em `14,7%` de propósito, e o teto que o validador confere é o **`+18%` sustentado que a peça 6 §3.1 reprovou**, lido daquela seção.
 - **A fatia contra o número de degraus**, e as duas lidas de documento: `piso da peça 14 §4 no nv30 ÷ 8`. Perturbar o calendário da Q2 tem de mover a fatia.
@@ -337,7 +396,7 @@ Toda entrega é fração de alguma coisa. **Se essa coisa não crescer no ritmo 
 - **Quem recebe o degrau grande do nv7 e quem recebe o ataque extra no lugar**, contado contra a peça 6 §3.1 — os dois conjuntos têm de ser complementares e cobrir as quinze Trilhas.
 - **Nenhuma entrega com dado de dano**, e o contra-teste: perturbar a régua da peça 5 §4 tem de acender.
 - **Nenhuma entrega que cresça com refino** — peça 11 §2. *E o contra-teste que dá valor a esta: o refino **cabe** na conta (8,00× contra os 8,31× da Rotina), então uma checagem que só media derivação sairia verde. Ela tem de reprovar pelo eixo da peça 11 §3.*
-- **Todo contador de Classe 2 é plano, e é `por descanso curto`.** Perturbar um degrau para `usos = maestria` tem de acender, e a mensagem tem de dizer que o defeito é a magnitude já crescer. **E perturbar para `por cena` também tem de acender**, com a mensagem apontando a trava de largura da peça 13 §7 — o relógio é o único limitador aqui, então ele leva o spread de `3,0×` inteiro.
+- **Todo contador de Classe Passiva 2 é plano, e é `por descanso curto`.** Perturbar um degrau para `usos = maestria` tem de acender, e a mensagem tem de dizer que o defeito é a magnitude já crescer. **E perturbar para `por cena` também tem de acender**, com a mensagem apontando a trava de largura da peça 13 §7 — o relógio é o único limitador aqui, então ele leva o spread de `3,0×` inteiro.
 - **Todo relógio citado sai da escada da peça 10 §5**, lida daquele documento e nunca escrita aqui. *É a mesma checagem que a peça 13 §7 já faz no catálogo de Legados, e ela achou três relógios fora da escada lá.*
 - **O quarto eixo do `Servo`**, quando ele existir: a matriz do `conferir-invocacoes.py` tem de passar a rodar com ele, e as duas entradas do `DOMINANCIA_PENDENTE_Q6` têm de **sumir da declaração**. Contra-teste: tirar o quarto eixo tem de fazer as duas voltarem.
 - **O teto de uma Rotina somada**, para `Servo`, `Matilha`, `Coro` e `Torrente`, conferido **pela economia de ação** e não por decreto.

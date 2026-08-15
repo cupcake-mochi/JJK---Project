@@ -2,7 +2,7 @@
 
 Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.63** · manual do Fundamento na **v7.8** · **dezesseis peças de regra** e **dezesseis validadores passando**.
+**Versão v0.65** · manual do Fundamento na **v7.8** · **dezesseis peças de regra** e **dezesseis validadores passando**.
 
 ---
 
@@ -28,11 +28,13 @@ E o registro do **porquê** de cada decisão é tão importante quanto a regra: 
 **Primeiro, confirme que você abriu a pasta certa — leva dez segundos e já custou meia hora uma vez.** Existe outro clone desta mesma coisa parado na **v0.27** numa pasta `JJK---Project` dentro da home, e ele tem a cara do projeto inteiro: validadores, peças, changelog. Uma conversa já se perdeu lendo o clone velho e rodando sete validadores que passaram sem provar nada.
 
 ```bash
-head -6 README.md          # tem que dizer Versão v0.57 ou maior
-grep -c "Nove lições" README.md
+grep -c "Nove lições" README.md        # tem que dar 1 ou mais
+grep -c "Seis lições"  README.md       # tem que dar 0
 ```
 
 Se aparecer *"Seis lições que custaram erro"* ou *"Versão v0.27"*, **é a pasta errada. Pare.**
+
+> *Esta checagem já foi `head -6 README.md # tem que dizer Versão v0.57 ou maior`, e ela envelheceu sete versões seguidas — um teste escrito contra um número que sobe toda semana começa a mentir na semana seguinte.* **O que não envelhece é a lista de lições**, porque o clone velho parou nas seis e nunca vai ganhar a sétima.
 
 Depois disso, a ordem de leitura é a da próxima seção, e os validadores são os da seção *"Rodar os validadores"*. **Não rode git daqui** — o porquê está em *"Commitar"*.
 
