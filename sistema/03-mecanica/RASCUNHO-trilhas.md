@@ -229,7 +229,29 @@ A Rotina cresce **8,31×** e o número de entregas cresce **8,00×**. Então uma
 
 > **LEIA O §3.4-B ANTES DESTA SEÇÃO.** *A v0.68 reformulou a Q3:* **a fatia continua sendo a unidade de conta e deixou de ser o preço de cada entrega.** O que esta seção mede — de onde a fatia sai, e que ela é plana — continua valendo inteiro. **O que caiu é a cobrança por entrega**, e com ela a pergunta *"oito iguais ou a do nv2 maior?"*, que deixou de existir quando a distribuição virou livre dentro do orçamento da Trilha.
 
-**A fatia é `1,27` ponto por rodada, plana.** Ela sai de dividir o piso da peça 14 §4 no nível 30 — `10,14 ÷ 8` — e foi escolhida contra a alternativa de a primeira entrega ser maior:
+> ## ⚠ A FATIA DOBROU NA v0.72 — ela é `2,54`, e o motivo é um piso lido como teto
+>
+> **O `1,27` abaixo saiu de dividir *o piso* da peça 14 §4 por oito — e a régua passou quatro versões cobrando ele como se fosse teto.** A própria lista de armadilhas do projeto diz: *"Piso não é teto. Um número registrado como o que a peça **deve** é mínimo, e ler ele como máximo reprova a solução certa."*
+>
+> **E o `10,14` nunca foi "quanto uma Trilha vale".** É a conta da peça 14 de *quanto a Trilha da **Vanguarda** precisa entregar para alguém largar o escudo* — um buraco contábil de uma peça só, dividido por oito e aplicado às quinze Trilhas e aos cinco Caminhos, sem ninguém decidir isso.
+>
+> **A métrica que decidiu não é % da Rotina — é quanto a camada vale do que o personagem REALMENTE faz:**
+>
+> | | com `1,27` | com `2,54` |
+> |---|---|---|
+> | nível 2 | 10,4% | **18,8%** |
+> | nível 18 | 6,1% | **11,5%** |
+> | nível 30 | 7,7% | **14,4%** |
+>
+> *Com o valor velho, um Caminho inteiro mais uma Trilha inteira valiam **menos de um décimo da ficha**. Foi o Mizuki que apontou — "tá tudo muito irrelevante" —, e a conta deu razão a ele.*
+>
+> **As cinco travas conferidas:** o nível 30 fica em `+14,6%` contra o `+18%` que a peça 6 §3.1 reprova · a magnitude nunca vem de ação a mais por rodada · a camada não deriva como fração da saída (19% → 14%) · continua acima do piso da peça 14 · a fatia continua plana.
+>
+> **Contra-teste:** `3×` dá `+23%` e `4×` dá `+31%` — **as duas reprovam.** O teto prático é `21` de dano por rodada, que dá `+17,6%` e encosta no limite.
+>
+> **O orçamento pago passa de `8,89` para `17,8`** — sete fatias de `2,54`, mais o degrau do nível 7. *Toda conta de entrega escrita antes da v0.72 precisa ser refeita nesta escala, inclusive o `Servo` do §6.10 e o Bastião do `DESENHO-trilhas.md`.*
+
+**A fatia era `1,27` ponto por rodada, plana.** Ela saía de dividir o piso da peça 14 §4 no nível 30 — `10,14 ÷ 8` — e foi escolhida contra a alternativa de a primeira entrega ser maior:
 
 | | oito iguais (`1,27`) | a do nv2 maior (`1,92` + `1,17`) |
 |---|---|---|

@@ -66,24 +66,24 @@
 
 ## Guia — estender, recuperar, reposicionar
 
-### nível 2 · Elo
+### nível 2 · Guiar — *renomeado na v0.72; chamava-se `Elo`, e `Elo` já é a Trilha do Guia*
 > **Quando um aliado que você enxerga falha num teste, some `metade da sua Essência` ao resultado dele.** Ação livre, uma vez por rodada.
 
 *Aplicado depois da rolagem, nenhum ponto se perde. Com Essência 6 ele converte falhas de margem 3 — **15%** das rolagens.*
 
 ### nível 7 · Mão na Roda — *refeito: `Ajudar` vira ação bônus*
 > **A ação `Ajudar` passa a ser ação bônus para você.**
-> **E quando você usa o `Elo` num aliado, ele pode acrescentar um golpe simples ao turno dele.** Uma vez por rodada.
+> **E quando você usa o `Guiar` num aliado, ele pode acrescentar um golpe simples ao turno dele.** Uma vez por rodada.
 
 *Sua decisão: `Ajudar` é boa e bem situacional, então ela vira o buff da classe em vez de uma entrega nova.*
 
 | | vale no nv30 | do vão de `7` |
 |---|---|---|
 | `Ajudar` como ação bônus (vantagem ≈ `16` pontos percentuais) | `4,32` | sobra `2,7` |
-| **+ o golpe simples preso ao `Elo`** | `5,75` | **as duas juntas estouram** |
+| **+ o golpe simples preso ao `Guiar`** | `5,75` | **as duas juntas estouram** |
 | dar uma **ação** a um aliado | `29,19` | `4,2×` grande — fora |
 
-> **As duas juntas não cabem — e é escolha sua qual fica.** `Ajudar` de bônus é o que você pediu e sobra `2,7` do degrau; o golpe preso ao `Elo` gasta quase tudo e encadeia os níveis 2 e 7. **A sobra da primeira pode ir para uma entrega de Trilha do Guia depois.**
+> **As duas juntas não cabem — e é escolha sua qual fica.** `Ajudar` de bônus é o que você pediu e sobra `2,7` do degrau; o golpe preso ao `Guiar` gasta quase tudo e encadeia os níveis 2 e 7. **A sobra da primeira pode ir para uma entrega de Trilha do Guia depois.**
 
 > **⚠ E você achou uma lacuna indo por aqui: a lista de ações não existe.** *`Ajudar` está escrito na peça 4 §5 — "um personagem que possa contribuir de verdade dá vantagem ao teste de outro" — e **nunca foi declarado que ação ele gasta**. A peça 3 tem os quatro slots do turno e **nenhuma lista de ações nomeadas**. **Ela está desenhada no fim deste documento.***
 
@@ -168,7 +168,7 @@
 
 ## Evocador — o que você trouxe
 
-### nível 2 · Vínculo, em três rotas — *e a sua margem crítica resolveu o problema*
+### nível 2 · Sintonia, em três rotas — *chamava-se `Vínculo`, que é Tema no manual. A sua margem crítica resolveu o problema*
 > **Escolha uma:**
 > **Presa** — as suas invocações acertam crítico com **19 ou 20**.
 > **Casco** — as suas invocações têm mais vida.
@@ -235,11 +235,11 @@
 >
 > A peça 3 tem os quatro slots do turno — movimento, ação padrão, ação bônus e reação — e **nenhuma lista de ações nomeadas**. Não existe `Atacar`, `Correr`, `Desengajar`, `Esquivar`, `Ajudar`, `Esconder` em documento nenhum. **`Ajudar` está escrito na peça 4 §5 e nunca teve custo de ação declarado.**
 >
-> **Ela não trava este desenho** — o `Elo` serve de gatilho no lugar. **Mas ela trava qualquer entrega futura que queira dizer *"quando você usa a ação X"***, e isso é meia dúzia de coisas que as Trilhas vão querer.
+> **Ela não trava este desenho** — o `Guiar` serve de gatilho no lugar. **Mas ela trava qualquer entrega futura que queira dizer *"quando você usa a ação X"***, e isso é meia dúzia de coisas que as Trilhas vão querer.
 
 ## E o que a peça 5 precisa
 
-1. **A linha `auxílio`** — o `Elo` do Guia não cabe em nenhuma das sete.
+1. **A linha `auxílio`** — o `Guiar` do Guia não cabe em nenhuma das sete.
 2. **A frase-trava reescrita** — ela lista quatro coisas e a lista abaixo tem sete.
 3. **Uma decisão sobre dano fixo** — a proibição diz *"dados de dano"*, e a `Presa` é valor fixo. Ninguém escreveu se ela pega os dois. *Se a `Presa` virar fração do seu dano, esta some.*
 4. **`Sangria` precisa de casa** — trocar vida por PE não é nenhuma das sete linhas, e também não é nenhuma das quatro proibições.

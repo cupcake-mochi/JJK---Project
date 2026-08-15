@@ -6,6 +6,123 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.72] — 2026-08-15
+
+**O orçamento de Caminho e Trilha saiu de um piso lido como teto, e ele dobrou.** *O Mizuki leu o Bastião preçado e escreveu "TA MUITO FRACO, tá tudo muito irrelevante" — a conta deu razão a ele, e o defeito estava na base e não nas entregas.* Continuam dezesseis peças e dezesseis validadores; a pendência nº 6, aberta desde a v0.27, fechou.
+
+### Achado — a fatia inteira vem de um piso, e a régua cobrava ele como teto
+
+O `RASCUNHO-trilhas` §3 escreve, com estas palavras: *"a fatia é `1,27`, e ela sai de dividir **o piso** da peça 14 §4 no nível 30 — `10,14 ÷ 8`"*.
+
+**E a lista de armadilhas do projeto diz:** *"Piso não é teto. Um número registrado como o que a peça **deve** é mínimo, e ler ele como máximo reprova a solução certa."* **Quatro versões cobrando um mínimo como se fosse máximo.**
+
+**Pior: o `10,14` nunca foi "quanto uma Trilha vale".** É a conta da peça 14 de *quanto a Trilha da **Vanguarda** precisa entregar para alguém largar o escudo e pegar arma de duas mãos* — um buraco contábil de uma peça só. Ele foi dividido por oito e virou o orçamento **das quinze Trilhas e dos cinco Caminhos**, sem ninguém decidir isso.
+
+### Achado — e o `+18%` também não é teto. Eu li dois pisos como teto na mesma resposta
+
+Trazendo o espaço disponível, escrevi que *"sobram 12,6 pontos até o teto de `+18%` da peça 6 §3.1"*. **Fui conferir de onde ele sai e ele não é teto:**
+
+| nível | Rotina | somar o golpe (3 ações) | trocar o Classe 0 (2 ações) |
+|---|---|---|---|
+| 30 | 108 | 127 · **+18%** | 106 · **−2%** |
+
+O texto ao lado daquela tabela diz *"contra o `+18%` que a seção abaixo reprova"*. **É a medida de uma montagem de três ações por rodada que a peça recusa** — e ela recusa o **mecanismo**, escrevendo que *"ação a mais por rodada não tem conserto por preço"*. **Não é espaço; é uma parede com aviso.**
+
+> **Duas leituras de piso-como-teto na mesma resposta, e a segunda foi minha em cima da primeira.** *O Mizuki pediu para eu validar antes de aceitar — "valide minha opinião e se refazer o teto vale a pena" — e foi essa pergunta que achou.*
+
+### Decidido — a fatia dobra para `2,54`, e a pendência nº 6 fecha com ela
+
+*Escolha do Mizuki, com tolerância declarada até `20–21` se as habilidades pedirem.*
+
+**A métrica que decidiu não é a fração da Rotina — é quanto a camada vale do que o personagem REALMENTE faz:**
+
+| | com `1,27` | com `2,54` |
+|---|---|---|
+| nível 2 | 10,4% | **18,8%** |
+| nível 18 | 6,1% | **11,5%** |
+| nível 30 | 7,7% | **14,4%** |
+
+**Um Caminho inteiro mais uma Trilha inteira valiam menos de um décimo da ficha.** *A fração da Rotina escondia isso porque ela mede contra a régua e não contra o personagem.*
+
+**A pendência nº 6 — *"a curva de dano deve cruzar a Rotina?"*, aberta desde a v0.27 e marcada como decisão não tomada — fecha em `sim`.** O físico terminava `2%` abaixo da Rotina no nível 30 e passa a terminar em **`+14,6%`**. *Ela estava sendo decidida por dentro do orçamento de qualquer jeito; o que mudou é que agora está escrita.*
+
+> **A trava que vem junto, e sem ela a decisão não vale: a magnitude nunca pode vir de uma ação a mais por rodada.** É o que a peça 6 §3.1 reprova, e é a única coisa que o `+18%` de fato prova.
+
+### Adicionado — cinco travas e um contra-teste, todos rodados
+
+| trava | resultado |
+|---|---|
+| nível 30 abaixo do `+18%` reprovado | **`+14,6%`** — passa com três pontos de folga |
+| a magnitude não vem de ação a mais | passa — a §4 da peça 5 só autoriza exceção estreita |
+| a camada não deriva como fração da saída | passa — `18,8%` no nível 2 e `14,4%` no 30 |
+| continua acima do piso da peça 14 | passa — `16,5%` contra `9,4%` |
+| a fatia continua plana, que é a decisão do §6.9 | passa |
+
+**Contra-teste:** `3×` o orçamento dá `+23%` e `4×` dá `+31%` — **as duas reprovam.** *O teto prático é `21` de dano por rodada, que dá `+17,6%` e encosta no limite — exatamente a banda que o Mizuki declarou de intuição, antes de a conta rodar.*
+
+### Achado — a forma estava errada junto com o número, e isso tem fonte
+
+*Crítica do Mizuki: "precisamos fazer novos meios criativos, outros sistemas não entregam só mecânicas simples e duras."*
+
+**O Brandes Stoddard — o mesmo que o §3.6 já cita para reprovar `1× por dia` — escreve que *"um bônus simples numa rolagem de d20 é raso"*, e que se a mudança principal que a subclasse faz no jogo não é passiva ou à vontade, ela tem limite de uso.** **O miolo tem de ser sempre-ligado e o botão é o acessório** — e eu fiz o contrário, pondo o que interessa em `1× por descanso curto` e deixando o passivo em `+1,5 m`.
+
+*E a Apothecary Press fecha o resto: "features que dependem de uma decisão única e depois viram passivas só fingem conter uma escolha."*
+
+### Alterado
+
+| onde | o que mudou |
+|---|---|
+| **`RASCUNHO-trilhas.md` §3** | a fatia dobra, com o achado do piso, as cinco travas e o contra-teste |
+| **`ESTADO-ATUAL`, pendência 6** | fechada em `sim, cruza`, com a trava do mecanismo |
+| **peça 6 §3.1** | aviso de que o `+18%` é reprovação de mecanismo e não teto de dano |
+| **`DESENHO-trilhas.md`** | aviso no topo do Bastião: a escala está velha, e as doze correções do Mizuki listadas |
+| **`DESENHO-caminhos.md`** | `Elo` → **`Guiar`** no Guia, `Vínculo` → **`Sintonia`** no Evocador |
+
+### Achado — três colisões de nome no desenho da v0.70
+
+A triagem devolveu `OCUPADO` em duas, e a terceira eu tinha criado na v0.71:
+
+| nome | colidia com |
+|---|---|
+| **`Elo`**, degrau do Guia | **a Trilha `Elo`, do próprio Guia** — mesma ficha, duas coisas |
+| **`Vínculo`**, degrau do Evocador | **é Tema no manual**, e a peça 15 já registrava `Vínculo — OCUPADO` |
+| `repertório`, família que eu escrevi na §4 | **`Repertório` é Trilha do Emanador** |
+
+*E `Amarra`, que eu ia sugerir, saiu LIVRE na triagem e morreu por sentido: "a amarra são 18 metros" é a coleira da invocação na peça 15.* **A triagem não pega colisão de sentido, e isso está na skill.**
+
+### Adicionado — as seis primeiras Trilhas em ficção, e a regra que apareceu escrevendo
+
+**`DESENHO-trilhas.md`**, com Bastião e Vanguarda escritos a partir do material — Panda, Todo, Choso, Yuta, Toji, Nanami — **sem olhar o orçamento**, que é o método do §7 da auditoria.
+
+> **A regra que o Mizuki fixou:** *sobreposição entre Caminho e Trilha não é problema; **duplicação** é.* Nasceu de um exemplo dele — *"se a pessoa escolhe a rota do Nanami, ela vai querer ser meio off-tank"*.
+
+**Ela pegou duas das seis.** O `Muro`, que a peça 6 descreve com dois terços do Caminho do Bastião — *absorve* é o `Corpo Duro` e *redireciona* é o `Puxar Para Si`. E o `Executor`, onde **eu reescrevi o `Não Acabou` sem perceber**. *As duas foram refeitas, e a saída do `Executor` já estava escrita no `DESENHO-caminhos`: aquele degrau é turba, e "foco em alvo único" estava vago.*
+
+### Achado — três famílias não conseguem ser uma entrega média
+
+*Rodado na escala velha, e o formato do achado sobrevive à mudança de escala.* Espremendo cada família no piso de taxa de `20%`:
+
+| família | do orçamento da Trilha inteira |
+|---|---|
+| defesa `+2` | 27% |
+| acerto `+1` — o seu | **43%** |
+| alvo, ou golpe extra | **45%** |
+
+**Quem quiser uma delas gasta quase metade numa linha só.** *E foi a primeira vez que a régua reprovou coisa que não é o `Servo` — antes do piso de 20% ela aprovava oito de oito famílias.*
+
+**E o `Punho` reprovou por FORMATO e não por preço:** com as quatro entregas passivas ele fechava em `3,54` e a régua de preço dava verde. Quem barrou foi a trava da v0.65 — *"pelo menos uma das quatro tem de ser algo que o jogador decide usar"*.
+
+### Em aberto
+
+- **Reescrever as doze entregas do Bastião** na escala nova e com o miolo sempre-ligado. **É a primeira coisa do próximo bloco.**
+- **Vanguarda, Guia, Emanador e Evocador** — nove Trilhas em ficção, e quatro delas são as problemáticas.
+- **O `Batedor` depende de alcance ter preço, e alcance não tem.** A §4 só mede posicionamento em metros do próprio deslocamento.
+- **Todo número de entrega escrito antes desta versão está na escala velha** — o `Servo` do §6.10 inclusive.
+- **A `LISTA-gatilhos` e a auditoria precisam da passada de conversão** — o `3,3` sem dono, as taxas de 30% e a família `acerto` que não é linha do permitido.
+- As de sempre: as vagas de Desliga, a Cicatriz, Energia Reversa, o clash, o nome do sistema, o refino que paga mal no marco.
+
+---
+
 ## [0.71] — 2026-08-15
 
 **A peça 5 §4 deixou de ser lista fechada e virou cerca — e o que fez ela mudar não foi gosto: o desenho dos cinco Caminhos usa oito entregas que ela proibia.** *Duas contas publicadas não reproduziram, e as duas erram do mesmo jeito.* Continuam dezesseis peças e dezesseis validadores.
