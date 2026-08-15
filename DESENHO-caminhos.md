@@ -10,7 +10,7 @@
 
 ### nível 2 · Corpo Duro
 > **O seu ataque desarmado conta como arma**, e você ataca desarmado sem empunhar nada.
-> **Reação — `Aguentar`:** ao ser atingido, reduza o dano em **`o seu nível + 1d6`**. Uma vez por descanso curto.
+> **Reação — `Absorver`:** ao ser atingido, reduza o dano em **`o seu nível + 1d6`**. **Usos iguais à sua Constituição, recarregando no descanso longo.**
 
 **O dado é tempero e a conta confirma que ele não vira poder:** ele soma `20%` de corte no nível 6 e **`6%` no nível 30**. *Ou seja, ele dá a sensação de rolar sem mover a régua onde a régua importa.* **`d8` faz quase a mesma coisa** — `62%` contra `56%` no nível 6, `48%` contra `47%` no 30. **A escolha entre os dois é sabor puro.**
 
@@ -18,9 +18,9 @@
 
 ### nível 15 · Puxar Para Si
 > **Reação:** quando um inimigo a até 1,5 m ataca **outra pessoa**, o ataque passa a ter **você** como alvo.
-> **Gastando `2` PE, você aplica o `Aguentar` no mesmo golpe**, sem gastar o uso dele.
+> **Gastando `2` PE, você aplica o `Absorver` no mesmo golpe**, sem gastar o uso dele.
 
-*A segunda linha é sua, e ela é o que faz a Reação valer o nível 15 em vez do 2:* sozinho, `Puxar Para Si` é receber porrada de graça. Com o PE, ele é **decidir levar e aguentar**, e o preço sai do bolso mais apertado do sistema — o Bastião tem `4` PE por nível, o menor dos cinco.
+*A segunda linha é sua, e ela é o que faz a Reação valer o nível 15 em vez do 2:* sozinho, `Puxar Para Si` é receber porrada de graça. Com o PE, ele é **decidir levar e absorver**, e o preço sai do bolso mais apertado do sistema — o Bastião tem `4` PE por nível, o menor dos cinco.
 **Linhas usadas:** *trocar alvo de um efeito que já existe*, e a Reação que o `Corpo Duro` já estabeleceu.
 
 ### nível 30 · Segurar — *o seu desenho*

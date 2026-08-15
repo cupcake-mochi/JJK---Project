@@ -1,6 +1,6 @@
 # As quinze Trilhas — primeira leva: Bastião e Vanguarda
 
-*Escrito em **ficção**, a partir do material, **sem olhar o orçamento** — que é o método do §7 da auditoria da v0.69. As três peças que fecharam usaram exemplar externo à régua: Equipamento usou as classes de arma de outro sistema, Invocações usou os shikigami do material, Legados usou o catálogo velho. **Trilhas é a primeira que tentaria fazer régua contra o vazio**, e este documento existe para ela não fazer.*
+*Escrito em **ficção**, a partir do material, **sem olhar o orçamento** — que é o método fechado na v0.69 e registrado no CHANGELOG daquela versão. As três peças que fecharam usaram exemplar externo à régua: Equipamento usou as classes de arma de outro sistema, Invocações usou os shikigami do material, Legados usou o catálogo velho. **Trilhas é a primeira que tentaria fazer régua contra o vazio**, e este documento existe para ela não fazer.*
 
 > **Aqui não tem número, e é de propósito.** O Mizuki revisa a ficção primeiro. Só depois eu preço **as seis de uma vez** — porque as três peças que fecharam preçaram o lote inteiro, nunca uma por vez.
 >
@@ -138,126 +138,178 @@ E a **Maki** é o mesmo argumento levado ao fim: **zero energia amaldiçoada**, 
 
 ---
 
-# O Bastião mecânico — as três, preçadas de uma vez
+# O Bastião mecânico — terceira passada, com o retorno do Mizuki
 
-> ## ⚠ TUDO ABAIXO ESTÁ NA ESCALA VELHA E PRECISA SER REFEITO
+> **Orçamento: `5` fatias por Trilha — `25,40` de dano por rodada no nível 30.** *A fatia é `5,08`.* **A camada de Caminho mais Trilha vira `27,7%` da ficha, o físico termina em `+35,8%` da Rotina, e a vida de chefe e de capanga sobe `36%` na tabela de inimigo.**
 >
-> **A fatia dobrou na v0.72: ela é `2,54` e não `1,27`, e o orçamento de uma Trilha é `10,16` e não `5,08`.** As doze entregas abaixo foram escritas espremendo tudo num orçamento que saiu de um piso lido como teto — e é por isso que o Mizuki leu as três e disse *"tá tudo muito irrelevante"*. **Ele estava certo, e a conta deu razão a ele.**
->
-> **As doze correções dele, todas aceitas, e nenhuma aplicada ainda:**
->
-> | onde | o que ele apontou |
-> |---|---|
-> | `Muro` nv2 | 1,5 m é inútil — 3 m, e empurrão contra você cai pela metade |
-> | `Muro` nv11 | duplica o agarrar/empurrar que o Caminho já dá |
-> | `Muro` nv19 | mal escrita, refazer |
-> | `Muro` nv27 | `+1` de Defesa por descanso curto **num nível 27** é irrelevante |
-> | `Punho` nv2 | é **aqui** que entra o soco de ação bônus |
-> | `Punho` nv11 | por que um Bastião ia querer bater e recuar? |
-> | `Punho` nv19 | imunidade a condição não é coisa de classe |
-> | `Punho` nv27 | isso devia ser nível 2, e sem limite de descanso |
-> | `Brasa` nv2 | é aqui que entra bater como ação bônus depois do feitiço |
-> | `Brasa` nv11 | **PE infinito** — Classe 0 é de graça. Vira energia temporária, e vale 2 |
-> | `Brasa` nv19 | não faz sentido |
-> | `Brasa` nv27 | interessante, mas devia ser **passivo** e no nível **19** |
->
-> **E a crítica de forma, que vale mais que as doze:** *"outros sistemas não entregam só mecânicas simples e duras — todas são de alguma forma relevantes."* **Tem fonte, e é gente que o projeto já cita.** O Brandes Stoddard — o mesmo do `1× por dia` do §3.6 — escreve que *"um bônus simples numa rolagem de d20 é raso"* e que **se a mudança principal que a subclasse faz no jogo não é passiva ou à vontade, ela tem limite de uso**. *Eu fiz o contrário: pus o que interessa em botão de descanso curto e deixei o passivo em `+1,5 m`.*
->
-> **Então a próxima passada não é ajustar números.** É reescrever as doze com o dobro do orçamento e com o miolo sempre-ligado.
+> **A banda alvo é `4,50` a `5,00` fatias por Trilha**, escolha do Mizuki — sobra de propósito, para as entregas terem folga de escrita.
 
-## A conta velha, guardada porque o método serve
+## Os quatro nomes, passados pela triagem
 
-*O que sobrevive daqui é o **método** — preçar as três juntas, rodar a matriz, conferir as travas de formato. Os números não.*
+*Pedido do Mizuki: **"tudo que não tem nome a gente vai ter que pôr indicação, obviamente com nome"**.*
 
-*Preçadas juntas, que é como Equipamento, Invocações e Legados fecharam. **A régua reprovou na primeira passada** — 42%, 20% e 54% acima do orçamento —, e o que ela achou não era magnitude minha.*
-
-## O achado: três famílias não conseguem ser uma entrega média
-
-Uma Trilha tem **4 entregas e 4 fatias**, então a entrega média vale `1,00`. Espremendo cada família no **piso de taxa de 20%**, que é o mais barato que a régua da v0.70 permite:
-
-| família | o menor que ela consegue ser | do orçamento da Trilha inteira |
+| o que | nome | triagem |
 |---|---|---|
-| posicionamento `+1,5 m` | 0,14 | 4% |
-| posicionamento `+3 m` | 0,28 | 7% |
-| defesa `+1` | 0,53 | 13% |
-| posicionamento `+6 m` | 0,57 | 14% |
-| recuperar `+1` PE | 0,81 | 20% |
-| acerto `+1` (invocação) | 0,85 | 21% |
-| **defesa `+2`** | **1,07** | 27% |
-| **acerto `+1` — o seu** | **1,70** | **43%** |
-| **alvo / golpe extra** | **1,81** | **45%** |
+| o soco de ação bônus do `Punho` | **`Engate`** | `LIVRE` |
+| o atropelo do `Punho` | **`Tropel`** | `LIVRE` |
+| a postura do `Muro` | **`Alicerce`** | `LIVRE` |
+| o estado da `Brasa` | **`Fornalha`** | `LIVRE` |
 
-> **As três de baixo nunca cabem numa entrega média, com gatilho nenhum.** Uma Trilha que queira alvo ou golpe extra gasta quase metade do orçamento naquela linha, e as outras três encolhem para caber. **Não é defeito — é o formato que aquela escolha impõe**, e agora ele está escrito antes de alguém tropeçar nele.
+**Dois candidatos morreram e dois foram recusados por sentido.** `Estalo` é **feitiço pronto no manual** e `Raiz` é **Passiva** — os dois `OCUPADO`. `Emenda` fica a uma letra de `Remenda` (Melhoria) e `Postura` a uma letra de `Costura` (feitiço pronto).
 
-**E isto é a primeira vez que a régua reprova alguma coisa que não é o `Servo`.** Antes do piso de 20% ela aprovava oito de oito famílias.
+> **E dois que saíram `LIVRE` eu recusei por colisão de sentido, que a triagem não pega.** `Couro` e `Calo` entram na mesma família da **`Escama`** (Passiva viva) e da **`Casca`** (morta na v0.26) — três nomes de pele endurecida fazendo trabalhos diferentes. E `Âncora` colide com a **amarra** de 18 metros da peça 15, que já é a palavra do projeto para prender uma coisa a outra.
 
-## As três, fechadas
+---
 
-### `Muro` — 3,64 de 4, sobra 0,36
+## A lista de tipos de dano — decidida aqui, e ela é do sistema e não da Trilha
 
-| nv | a entrega | família | conta |
+*Decisão do Mizuki: **"Temas são só exemplos não sistemáticos para ajudar criadores. Use a tabela de D&D e divide em 3 grupos."*** **Colisão com Tema é aceita e declarada.**
+
+| grupo | tipos | quanto do dano recebido *(previsão)* |
+|---|---|---|
+| **Físicos** | `Cortante` · `Perfurante` · `Concussão` | **60%** |
+| **Elementais** | `Fogo` · `Frio` · `Elétrico` · `Ácido` · `Trovejante` · `Veneno` | 30% |
+| **Especiais** | `Radiante` · `Necrótico` · `Psíquico` · `Energia Reversa` · `Alma` | 10% |
+
+**Seis passaram pela triagem com colisão, e ela fica declarada em vez de esquecida:** `Fogo`, `Ácido` e `Veneno` são **Temas do manual**; `Cortante`, `Trovejante` e `Alma` estão **dentro de nomes maiores** — `Passo Cortante`, `Palma Trovejante` e `Toca a Alma`.
+
+> **O peso de cada grupo é previsão e não tem dono.** `04-playtest/` continua vazia. **Ele é o número que decide quanto o `Alicerce` vale, e é o primeiro que a mesa vai corrigir.**
+
+**E o palpite do Mizuki reproduz na conta:** ele disse *"diria que ocupa 2,0 de fatia se for só contra físicos"*. **Os três Físicos dão `60%` do dano recebido, que são `10,17` de dano por rodada — `2,00` fatias exatas.**
+
+| quantos tipos | bate em | vale |
+|---|---|---|
+| 1 | 20% | 0,67 fatia |
+| **2** | 40% | **1,33** |
+| 3 — os Físicos inteiros | 60% | 2,00 |
+| **4** | 65% | **2,17** |
+
+---
+
+## `Muro` — 4,87 de 5,00
+
+| nv | a entrega | forma | fatias |
 |---|---|---|---|
-| **2** | o chão a 1,5 m em volta de você é terreno difícil para inimigos | posicionamento | `0,90 × 100%` = **0,71** |
-| **11** | quem você acertou gasta o movimento **inteiro** para se afastar de você | posicionamento | `1,80 × 50%` = **0,71** |
-| **19** | você fecha 6 m de frente: ninguém cruza sem passar por você | posicionamento | `3,60 × 50%` = **1,42** |
-| **27** | **botão, 1× por descanso curto:** aliado dentro do seu espaço ganha Defesa `+1` | defesa | `3,39 × 30%` = **0,80** |
+| **2** | **`Alicerce`** | ação bônus | **1,33** |
+| **11** | o chão em volta, e o que empurra você | permanente | 0,71 |
+| **19** | o `Absorver` rende mais, e alcança os outros | botão | **1,33** |
+| **27** | o `Alicerce` sobe para quatro, e o espaço divide | permanente | **1,50** |
 
-### `Punho` — 3,94 de 4, sobra 0,06
+> **Nível 2 — `Alicerce`.** *Ação bônus.* Você se firma no lugar. **Enquanto o `Alicerce` estiver de pé, o dano de dois tipos à sua escolha cai pela metade contra você, e o seu deslocamento é metade do normal.** Sair dele não custa nada. **Os tipos se escolhem no fim de cada descanso longo.**
+>
+> **Nível 11.** O chão a **4,5 m** em volta de você é terreno difícil para inimigos — cada metro custa dois. **E todo deslocamento forçado contra você, seja empurrão, puxão ou arremesso, tem metade da distância.**
+>
+> **Nível 19.** O `Absorver` do seu Caminho ganha **mais usos, iguais a metade da sua Constituição**, e **qualquer um deles pode ser gasto num aliado que você enxergue a até 9 m.** Continua custando a sua Reação.
+>
+> **Nível 27.** O `Alicerce` passa a segurar **quatro tipos** ao mesmo tempo, você troca os tipos a cada **descanso curto**, e **todo aliado dentro do seu espaço divide um deles com você.** *De graça: o espaço continua de pé enquanto você estiver caído, agarrado ou apagado.*
 
-*O `alvo` do nível 27 saiu por decisão do Mizuki — "o golpe pega 2" é ficção de Vanguarda, e o Punho é mover gente batendo.*
+### O `Absorver` mudou de contador, e a mudança é no CAMINHO
 
-| nv | a entrega | família | conta |
+*Decisão do Mizuki: o `Corpo Duro` deixa de dar `1×` por descanso curto e passa a dar **usos iguais à Constituição, recarregando no descanso longo**.* Ele custa **`1,60` fatia das `3,00`** do Caminho, e **o Caminho fica em `3`** — decisão dele, *"são features bem básicas e simples"*.
+
+**A alternativa mais barata que estava na mesa andava para trás, e por isso ela caiu.** *Metade da Constituição, no descanso longo,* dá **`3` usos por dia**; o que existia já dava **`3` a `4`**, porque o relógio era descanso curto e o dia tem três a quatro lutas.
+
+**O contador deriva `1,97×` para cima**, porque a Constituição cresce enquanto a magnitude do `Absorver` também cresce:
+
+| nível | Constituição | usos por dia | evita por uso | % da Rotina |
+|---|---|---|---|---|
+| 2 | 3 | 3 | 4,1 | **6,4%** |
+| 14 | 6 | 6 | 17,5 | 11,3% |
+| 30 | 6 | 6 | 33,5 | **12,6%** |
+
+> **Isso é limite conhecido, e o que o segura é a própria escolha de atributo.** A Constituição bate no teto no **nível 14** — então a subida acontece toda na primeira metade da campanha e depois o degrau fica plano. **É uma rampa que termina, não uma bola de neve.** *O contador plano equivalente seriam `6` usos por dia fixos: ele vale o mesmo no topo e mais no nível 2.*
+
+> **E fica uma dívida: os três degraus do Caminho do Bastião nunca foram preçados contra as `3` fatias dele.** O `DESENHO-caminhos.md` mediu cada um contra outra coisa — o vão, ou porcentagem da Rotina. **Com o `Absorver` em `1,60`, sobram `1,40` para o `Puxar Para Si` e o `Segurar`.** *Não dá para afirmar que cabe sem preçar os outros dois.*
+
+## `Punho` — 4,85 de 5,00
+
+| nv | a entrega | forma | fatias |
 |---|---|---|---|
-| **2** | acertar desarmado empurra ou puxa o alvo 1,5 m | posicionamento | `0,90 × 100%` = **0,71** |
-| **11** | quando você acerta, **você** se move 3 m sem provocar oportunidade | posicionamento | `1,80 × 50%` = **0,71** |
-| **19** | agarrado, preso e derrubado não existem para você | posicionamento | `0,90 × 100%` = **0,71** |
-| **27** | **botão, 1× por descanso curto, ação bônus:** um golpe desarmado, e o alvo vai 6 m | exceção de ação | `11,50 × 20%` = **1,81** |
+| **2** | **`Engate`** | condicional | 1,13 |
+| **11** | empurra, e derruba | permanente | **2,06** |
+| **19** | **`Tropel`** | permanente | 0,35 |
+| **27** | o segundo soco, e a vantagem | permanente | **1,31** |
 
-> **O nível 27 do `Punho` nasceu de uma reprovação de FORMATO, não de preço.** Com as quatro entregas passivas, ele fechava em 3,54 e **reprovava na trava da v0.65** — *"pelo menos uma das quatro tem de ser algo que o jogador decide usar"*, que existe porque subclasse só de passiva é o Champion do 5e. *A régua de preço tinha dado verde.*
+> **Nível 2 — `Engate`.** Quando você **acerta** um ataque na sua ação de atacar, você pode dar um golpe desarmado como **ação bônus**.
+>
+> **Nível 11.** Quando você acerta desarmado, **o alvo é empurrado até 3 m na direção que você escolher.** E **uma vez por rodada**, um alvo que você acertou faz um Teste de Resistência de Vigor; se falhar, fica **`Derrubado`**.
+>
+> **Nível 19 — `Tropel`.** Quando o empurrão do nível 11 joga alguém contra outra criatura, **ela também é empurrada.** Cada uma faz um Teste de Resistência de Vigor: **quem passa segura a corrente, e ela para ali.** A distância total nunca passa do deslocamento do primeiro empurrado. *Vale só no empurrão do nível 11, e não em movimento qualquer.*
+>
+> **Nível 27.** Ao usar o `Engate`, você dá um **segundo soco** num alvo adjacente a você ou ao primeiro, **com rolagem própria**. **E se os dois ataques da sua ação de atacar acertaram, o `Engate` é rolado com vantagem.**
 
-### `Brasa` — 3,68 de 4, sobra 0,32
+*A vantagem custa `0,18` fatia, e ela é pequena porque só dispara em **um quarto** das rodadas — você precisa acertar os dois.*
 
-*O nível 11 encolheu por decisão do Mizuki, para o capstone sobreviver inteiro.*
+## `Brasa` — 4,84 de 5,00
 
-| nv | a entrega | família | conta |
+| nv | a entrega | forma | fatias |
 |---|---|---|---|
-| **2** | o seu Classe 0 alcança 1,5 m a mais e não provoca oportunidade | posicionamento | `0,90 × 100%` = **0,71** |
-| **11** | **botão:** o Classe 0 que acerta devolve 1 PE | recuperação | `5,14 × 20%` = **0,81** |
-| **19** | quando alguém te acerta de perto, ele se afasta 1,5 m queimado | posicionamento | `0,90 × 50%` = **0,35** |
-| **27** | **botão, 1× por descanso curto:** o Classe 0 e o golpe saem juntos, e pegam 2 alvos | exceção de ação | `11,50 × 20%` = **1,81** |
+| **2** | o Classe 0 na ação bônus | permanente | 1,03 |
+| **11** | energia temporária | permanente | 1,01 |
+| **19** | o feitiço do bônus sobe para Classe 2 | permanente | 1,03 |
+| **27** | **`Fornalha`** | botão | **1,77** |
 
-## As travas, conferidas
+> **Nível 2.** Se você usou a ação de atacar neste turno, você pode lançar um feitiço de **Classe 0** como **ação bônus**. **E se algum dos seus socos acertou, esse feitiço é rolado com vantagem** — quando ele for um ataque.
+>
+> **Nível 11.** Quando o seu Classe 0 acerta, você ganha **`2` de energia temporária.** Ela nunca passa de `2` acumulados e some no fim da cena. *Energia temporária gasta como PE, e gasta primeiro.*
+>
+> **Nível 19.** O feitiço que você lança na ação bônus **pode ser de Classe 2 em vez de Classe 0**.
+>
+> **Isso não muda a Classe de nenhum feitiço seu.** Nenhum feitiço da sua lista sobe ou desce de Classe, e a sua Classe máxima continua a mesma. **O que muda é qual feitiço cabe na ação bônus.**
+>
+> **Duas condições, e as duas valem em todo turno:**
+> - você **abre mão do ataque extra** naquela ação de atacar;
+> - **pelo menos um dos seus socos daquela ação tem de ter acertado.**
+>
+> *Se nenhum acertou, você não lança nada na ação bônus naquele turno — nem o Classe 2, nem o Classe 0 do nível 2.*
+>
+> **Nível 27 — `Fornalha`.** *Ação bônus para entrar. Dura até o fim da cena.* **Cada ataque seu carrega um feitiço de Classe 0 junto, e cada ataque tem de ser num alvo diferente.** E a sua **ação bônus deixa de lançar feitiço e vira um soco a mais**, num terceiro alvo. **São três socos, três alvos, três Classe 0.**
+
+## As travas, rodadas
 
 | | `Muro` | `Punho` | `Brasa` |
 |---|---|---|---|
-| **soma** | 3,64 | 3,94 | 3,68 |
-| **nível 2 permanente ou dispara muito** | ✓ 100% | ✓ 100% | ✓ 100% |
-| **pelo menos um botão** | ✓ nv27 | ✓ nv27 | ✓ nv11 e nv27 |
-| **nenhuma entrega depende de outra** | ✓ | ✓ | ✓ |
+| **soma, em fatias** | 4,80 | 4,85 | 4,84 |
+| **na banda 4,50–5,00** | ✓ | ✓ | ✓ |
+| **nível 2 permanente ou condicional** | ✓ | ✓ | ✓ |
+| **algo que o jogador decide usar** | ✓ o `Alicerce` e a Reação do 19 | ✓ o `Engate` gasta a ação bônus | ✓ a `Fornalha` |
+| **dentro do orçamento** | ✓ | ✓ | ✓ |
 
-**Matriz de dominância — limpa.** Nenhuma das três domina outra em nenhum eixo:
+**Matriz de dominância — limpa.**
 
 | | ação/alvo | defesa | posicionamento | recuperação |
 |---|---|---|---|---|
-| `Muro` | 0,00 | **0,80** | **2,83** | 0,00 |
-| `Punho` | 1,81 | 0,00 | 2,13 | 0,00 |
-| `Brasa` | 1,81 | 0,00 | 1,06 | **0,81** |
+| `Muro` | 0,00 | **4,10** | 0,71 | 0,00 |
+| `Punho` | **3,47** | 0,00 | **1,38** | 0,00 |
+| `Brasa` | **3,83** | 0,00 | 0,00 | **1,01** |
 
-*As três se separam por onde gastam, não por quanto: o `Muro` é o único com defesa, a `Brasa` é a única com recuperação, e o `Punho` é o que mais tem posicionamento entre as duas que compraram ação.*
+## Os números que decidiram, e de onde saem
 
-## O que eu já vejo, e não é preço
+| | vale | em fatias |
+|---|---|---|
+| resistência, primeiro tipo — metade do dano que você toma | `8,47` | 1,67 |
+| resistência, segundo tipo — o que sobra depois do primeiro | `4,24` | 0,83 |
+| `Absorver` num aliado, `1×` por descanso curto | `5,40` | 1,06 |
+| ... `maestria` vezes por descanso curto | `21,60` | **4,25 — não cabe, come 85% da Trilha** |
+| Classe 2 no bônus, trocando o ataque extra, com gate de acerto | `5,25` | 1,03 |
+| ... sem o gate de acerto | `10,50` | 2,07 |
+| vantagem no Classe 0 quando o soco acertou | `0,72` | **0,14 — o Classe 0 é pequeno, e a vantagem sobre ele também** |
+| `Fornalha` com dois ataques | `4,50` | 0,89 |
+| `Fornalha` com três, alvos diferentes | `9,00` | 1,77 |
+| ... a mesma coisa com **Classe 2** | `75,00` | **14,76 — 295% da Trilha** |
 
-*Estas são coisas de **cerca**, não de orçamento — a régua ainda não foi encostada em nada aqui.*
+## O que este bloco deixa em aberto
 
-1. **A `Brasa` no nível 2 e a `Estocada` no nível 2 pedem a mesma coisa** — conjurar sem gastar o turno inteiro. É `exceção estreita e paga na economia de ação`, que a §4 autoriza, mas as duas encostando na mesma linha é candidato a dominância. **Medir as duas juntas.**
-2. **O `Punho` e o `Muro` no nível 19 são o mesmo eixo em direções opostas** — o `Muro` fecha passagem, o `Punho` deixa de poder ser preso. *Não é duplicação, e pode até ser bom: o `Punho` é a resposta do próprio Caminho ao `Muro`.* **Mas as duas têm de ser medidas na mesma matriz**, porque uma anula a outra.
-3. **O `Batedor` inteiro depende de alcance ter preço, e ele não tem.** A §4 só mede `posicionamento` em metros de deslocamento próprio.
-4. **O `Executor` no nível 2 — "achar o ponto que quebra" — é a única das vinte e quatro que encosta na cerca.** Se virar dado de dano ou bônus de dano, ela morre. Se for `acerto` ou `alvo`, vive.
+- ~~O `Punho` sem botão.~~ **A trava foi reescrita, por decisão do Mizuki, e ela precisa ir para o `RASCUNHO-trilhas.md` §3.6:**
 
-## O que falta desta leva
+  > **Antes:** *"pelo menos uma das quatro entregas tem de ser Classe Passiva 2 — algo que o jogador decide usar."*
+  > **Agora:** *"pelo menos uma das quatro tem de ser algo que o jogador decide usar — uso limitado por relógio, **ou condicional que ele ativa gastando um recurso do turno**."*
 
-- **Guia, Emanador e Evocador** — nove Trilhas, e quatro delas são as problemáticas (`Elo`, `Sutura`, `Torrente`, `Repertório`).
-- **O preço das seis, rodado de uma vez**, depois que o Mizuki revisar a ficção.
-- *Nenhum validador alcança este arquivo.* Ele vira parte da peça de Trilhas quando fechar.
+  **O motivo:** decidir gastar a ação bônus no `Engate` é uma escolha que acontece toda rodada, e isso é mais botão do que um contador de descanso curto que dispara sozinho. *A trava nasceu contra o Champion do 5e, que é passivo **e** sem decisão nenhuma — e ela continua pegando ele.*
 
-**Sources do levantamento:** [Toji's Arsenal, Explained — GameRant](https://gamerant.com/jujutsu-kaisen-toji-arsenal-explained/) · [The powers and abilities of Toji Fushiguro — Dexerto](https://www.dexerto.com/anime/jujutsu-kaisen-the-powers-and-abilities-of-toji-fushiguro-explained-2201384/)
+  > **Contra-teste rodado:** uma Trilha de terreno difícil, Defesa `+1`, resistência permanente e andar `+3 m` **continua reprovando**, porque nenhuma das quatro gasta recurso de turno. **A trava não virou trivialmente verdadeira.**
+- **A tabela de inimigo precisa subir `36%`** em vida de chefe e de capanga. Decidido e não aplicado.
+- **A peça 5 §4 precisa de uma terceira forma de exceção estreita** — hoje ela lista duas, e o `Engate` usa uma terceira.
+- **Falta nome** para o empurrão do nível 11 do `Punho`, para o espaço do `Muro` e para a energia temporária da `Brasa`. *Nenhum dos três passou pela triagem ainda.*
+- **Vanguarda, Guia, Emanador e Evocador** — nove Trilhas, quatro delas problemáticas.
+- *Nenhum validador alcança este arquivo.*

@@ -6,6 +6,116 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.73] — 2026-08-15
+
+**O orçamento de Caminho e Trilha dobrou de novo, e o que destravou foi achar que a trava que segurava era circular.** *A v0.72 reprovou `3×` e `4×` medindo contra o `+18%` da peça 6 §3.1 — e foi a própria v0.72 que escreveu que aquele número não é teto de dano.* **As doze entregas do Bastião estão escritas, preçadas e com nome.** Continuam dezesseis peças e dezesseis validadores.
+
+### Achado — a trava que segurava o orçamento media contra ela mesma
+
+A v0.72 listou cinco travas. Rodadas contra `3×` e `4×` o orçamento, **quatro passam**:
+
+| trava | em `4×` |
+|---|---|
+| a magnitude não vem de ação a mais por rodada | passa |
+| a camada não deriva como fração da saída | passa |
+| continua acima do piso da peça 14 | passa, com folga maior |
+| a fatia continua plana | passa |
+| **nível 30 abaixo do `+18%` reprovado** | **reprova — e é a única** |
+
+**O `+18%` é a medida de uma montagem de três ações que a peça 6 recusa pelo mecanismo.** A v0.72 escreveu isso e usou o número como teto na mesma resposta. *Terceira leitura de piso-como-teto na mesma linhagem, e a primeira em que a leitura errada era minha em cima de um achado meu.*
+
+> **Decisão do Mizuki: `4×`, e a fatia vai para `5,08`.** *O argumento dele: "ficar constantemente nessa briga de onde pôr os pontos não vai salvar o projeto, só o limite ao ponto de não conseguirmos construir nada."*
+
+### Decidido — a Trilha leva `5` fatias, e o Caminho fica em `3`
+
+**A camada de Caminho mais Trilha vira `27,7%` da ficha e o físico termina em `+35,8%` da Rotina no nível 30.**
+
+**O teto que não é circular é o pilar 1** — quanto da ficha pode ser Caminho e Trilha antes de a técnica deixar de ser a identidade. *Isso é decisão de design e não conta.*
+
+**O acoplamento que paga: a luta cai de `3,7` para `2,7` rodadas, então a vida de chefe e de capanga sobe `36%`.** É legal porque **o dono declarado daquela tabela é o playtest**, e `04-playtest/` está vazia desde a v0.1. As outras duas tabelas do manual não se movem. **Decidido e NÃO aplicado.**
+
+### Adicionado — a lista de tipos de dano, e ela é do sistema
+
+*Decisão do Mizuki: os Temas do manual são exemplos para quem cria técnica, não uma taxonomia. **Colisão com Tema é aceita e declarada.***
+
+| grupo | tipos | do dano recebido *(previsão)* |
+|---|---|---|
+| **Físicos** | `Cortante` · `Perfurante` · `Concussão` | 60% |
+| **Elementais** | `Fogo` · `Frio` · `Elétrico` · `Ácido` · `Trovejante` · `Veneno` | 30% |
+| **Especiais** | `Radiante` · `Necrótico` · `Psíquico` · `Energia Reversa` · `Alma` | 10% |
+
+**Seis colidem e ficam declarados:** `Fogo`, `Ácido` e `Veneno` são Temas; `Cortante`, `Trovejante` e `Alma` estão dentro de `Passo Cortante`, `Palma Trovejante` e `Toca a Alma`.
+
+**E o palpite do Mizuki reproduziu na conta.** Ele disse *"diria que ocupa 2,0 de fatia se for só contra físicos"*; os três Físicos dão `60%` do dano recebido, que são `10,17` de dano por rodada — **`2,00` fatias exatas.**
+
+### Achado — `Aguentar` já era duas máquinas, e ninguém tinha visto
+
+> **`Aguentar`** — a Reação do Bastião que reduz dano, no `DESENHO-caminhos.md`
+> **`Aguentar`** — a escolha a 0 de vida em que você apaga, na **peça 1 §5.5**
+
+**A mesma palavra, duas máquinas, e elas acontecem no mesmo momento de jogo.** *A Reação é o que impede de chegar a 0; a outra é o que acontece ao chegar.* **A Reação virou `Absorver`**, que é a palavra que a peça 6 já usa para descrever aquele degrau.
+
+> **E `Resistir`, que era a sugestão, saiu `LIVRE` na triagem e foi recusado por sentido:** ele poria `Resistir`, `resistência` e `Teste de Resistência` na mesma ficha. **A triagem lê nome contra nome, não sentido — está na skill, e desta vez a skill pagou.**
+
+### Achado — `cair` colidia com o `Caído`, e o conserto era de graça
+
+O `Punho` derrubava alvos com a palavra *"cai"*. **`Caído` é a máquina de 0 de vida da peça 1**, com `Absorver`, `Insistir`, `Sequela` e `Cicatriz` penduradas. **O manual já tem a condição `Derrubado`, com tier de preço e cinco feitiços prontos usando ela.** Trocada a palavra, a colisão sumiu sem custo.
+
+### Adicionado — as doze entregas do Bastião, preçadas de uma vez
+
+**`Muro` `4,87` · `Punho` `4,85` · `Brasa` `4,84`**, contra um orçamento de `5,00` fatias. **Matriz de dominância limpa, com dois contra-testes.** *Nove das doze são permanentes ou ativáveis — o miolo é sempre-ligado e o botão é acessório, que é o que o Stoddard descreve e o inverso do que a v0.72 tinha feito.*
+
+**Quatro nomes passaram pela triagem:** `Absorver` · `Alicerce` · `Engate` · `Tropel` · `Fornalha`. **Dois morreram nela** — `Estalo` é feitiço pronto e `Raiz` é Passiva. **E dois saíram `LIVRE` e foram recusados por sentido:** `Couro` e `Calo` entram na família da `Escama` e da `Casca`, e `Âncora` colide com a amarra da peça 15.
+
+### Decidido — o `Absorver` passa a ter usos iguais à Constituição
+
+*Era `1×` por descanso curto.* **Custa `1,60` fatia das `3,00` do Caminho, e ele deriva `1,97×` para cima** — a Constituição cresce enquanto a magnitude do `Absorver` também cresce. **Fica registrado como limite conhecido**; o equivalente sem deriva seriam `6` usos por dia fixos.
+
+> **E o plano B do Mizuki andava para trás, o que só a conta mostrou:** *metade da Constituição, no descanso longo,* dá `3` usos por dia — e o que existia já dava `3` a `4`.
+
+### Decidido — a trava do botão foi reescrita
+
+> **Antes:** *"pelo menos uma das quatro tem de ser Classe Passiva 2."*
+> **Agora:** *"pelo menos uma das quatro tem de ser algo que o jogador decide usar — uso limitado por relógio, **ou condicional que ele ativa gastando um recurso do turno**."*
+
+**Contra-teste rodado:** uma Trilha de terreno difícil, Defesa `+1`, resistência permanente e andar `+3 m` **continua reprovando**. *A trava não virou trivialmente verdadeira.*
+
+### Em aberto
+
+### Registrado — três achados da revisão cética foram FECHADOS pelo Mizuki, e ficam com o motivo
+
+*A revisão levantou seis coisas contra a própria proposta. Três viraram decisão na hora, e o motivo de cada uma vale mais que o achado:*
+
+| o achado | a decisão |
+|---|---|
+| **o capstone da `Brasa` vale zero contra chefe sozinho** — a `Fornalha` exige um alvo por ataque | **não é defeito.** *"Não é intencional o Bastião dar dano."* O capstone é de turba por desenho, e a saída que daria dano em alvo único — ação completa com Classe 2 em dois socos — foi recusada pelo mesmo motivo |
+| **o `Alicerce` com quatro tipos fura a cerca da peça 5 ao pé da letra**, que autoriza *"resistência a um tipo"* no singular | **aceito.** Quatro de catorze tipos não é *"desconto em tudo"*, que é o que a cerca existe para barrar |
+| **o `Derrubado` do `Punho` foi preçado por conversão de vantagem, e o manual tem preço próprio** | **não precisa cruzar as duas réguas.** Decisão dele |
+
+### Removido — o resíduo dos documentos de trabalho
+
+**Três arquivos da raiz foram para `_to_delete/v0.73-residuo/`**, porque todo número deles está em escala vencida e um chat novo os leria como vivos:
+
+| arquivo | por que sai |
+|---|---|
+| `AUDITORIA-trilhas-v0.69.md` | **ele mesmo pedia:** *"depois de decidido, o que sobrar disto vira entrada de CHANGELOG e o arquivo sai."* Fatia `1,27`, calendário de Caminho `7·15·23·29` |
+| `DECISOES-pendentes-v0.70.md` | abria com *"nada disto está aplicado"*, e quase tudo está — ou foi substituído. Mesmos números vencidos |
+| `PENDENCIAS-bastiao.md` | escrito nesta versão e resolvido nesta versão |
+
+> **É a mesma família do `PROMPT-TRILHAS.md` que a v0.69 achou fingindo estar vivo.** *Documento de trabalho que sobrevive à decisão que ele existia para tomar vira instrução velha para quem chega depois.*
+
+### Em aberto
+
+- **A tabela de inimigo sobe `36%`.** Decidido e não aplicado, e é a maior dívida desta versão.
+- **O peso dos grupos de dano — `60/30/10` — é previsão sem dono**, e é o número que decide o `Alicerce` inteiro. *Fica para a próxima conversa, por decisão do Mizuki.*
+- **Os três degraus do Caminho do Bastião nunca foram preçados contra as `3` fatias.** Com o `Absorver` em `1,60`, sobram `1,40` para o `Puxar Para Si` e o `Segurar`.
+- **Todo número escrito antes desta versão está na escala velha** — o `Servo` do §6.10, os cinco Caminhos, a tabela de exemplos da peça 5 §4.
+- **A `LISTA-gatilhos` tem duas linhas que se contradizem**, e o `3,3` rodadas dela cita seção que não fala de rodada. **Ela é o único documento de trabalho da raiz que sobreviveu com número vencido dentro**, e sobreviveu porque a régua depende dela.
+- **Nenhum validador alcança os documentos de trabalho da raiz.**
+- As de sempre: as vagas de Desliga, a Cicatriz, Energia Reversa, o clash, o nome do sistema, o refino que paga mal no marco.
+
+---
+
 ## [0.72] — 2026-08-15
 
 **O orçamento de Caminho e Trilha saiu de um piso lido como teto, e ele dobrou.** *O Mizuki leu o Bastião preçado e escreveu "TA MUITO FRACO, tá tudo muito irrelevante" — a conta deu razão a ele, e o defeito estava na base e não nas entregas.* Continuam dezesseis peças e dezesseis validadores; a pendência nº 6, aberta desde a v0.27, fechou.
