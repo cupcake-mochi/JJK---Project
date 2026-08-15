@@ -6,6 +6,89 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.70] — 2026-08-15
+
+**A Q3 de Trilhas não estava travada por falta de número: a régua não conseguia reprovar nada, e o método de Caminho e Trilha foi remodelado por cima disso.** *Três recomendações minhas caíram na segunda validação, e o Mizuki achou quatro coisas que nenhum validador alcança.* Continuam dezesseis peças e dezesseis validadores — o material desta versão mora em quatro documentos de trabalho na raiz, e vira peça quando fechar.
+
+### Achado — a régua da Q3 reprovava zero de oito famílias
+
+A cobrança era `botão × taxa` contra a fatia, e **a taxa é o grau de liberdade**: dado um botão `b` e uma fatia `f`, sempre existe `t = f/b`. **A igualdade não é checagem, é a definição de `t`.** Rodada contra as oito famílias do permitido, **nenhuma reprova** — inclusive `exceção de ação`, que a matriz proíbe por escrito nas três Trilhas do Evocador.
+
+**E o `Servo` do §6.10 prova de dentro:** `5,07 − 1,56 − 1,80 = 1,71`, e `1,71 ÷ 11,50 = 14,9%`. **O documento publica `15%` e diz que falta escrever o gatilho.** A taxa saiu da subtração, não de gatilho nenhum.
+
+### Decidido — piso de taxa de `20%` e lista fechada de gatilhos
+
+*Escolha do Mizuki.* **O número não é inventado: é o teto de `-80%` de limitação do GURPS**, que roda a mesma mecânica há quarenta anos — e é onde a escada de Classe Passiva do §3.1 já parava. **Com ele, `uma ação a mais` passa a custar `17` fatias contra um orçamento de `4` e reprova sozinha** — a trava que hoje é escrita à mão cai da conta. *E o piso reproduz sozinho a rejeição do `1× por dia`, que o §3.6 tinha aceitado por levantamento externo: `9%` contra `30%`, com o corte em `20%` no meio.*
+
+**A lista está em `LISTA-gatilhos-trilhas.md`**, em quatro famílias — rolagem, relógio, estado da ficha e julgamento —, com a taxa de cada uma lida de documento e o spread medido contra os `3,0×` da peça 13 §7.
+
+### Achado — o levantamento do 5e 2024 estava errado, e o Mizuki tinha razão
+
+O CHANGELOG da v0.60 e o §3 do rascunho escrevem que *"a edição de 2024 tirou todos os vãos de 8, padronizando em `3, 6, 10, 14`, com o capstone do Paladino descendo do nível 20 para o 14"*. **Conferido classe a classe no texto de 2024:**
+
+| classe | níveis de subclasse | quantas |
+|---|---|---|
+| Bárbaro | `3 · 6 · 10 · 14` | 4 |
+| Ladino | `3 · 9 · 13 · 17` | 4 |
+| **Paladino** | **`3 · 7 · 15 · 20`** — idêntico ao de 2014 | 4 |
+| **Feiticeiro** | `3 · 6 · 14 · 18` | 4 |
+| **Bardo** | `3 · 6 · 14` | **3** |
+| **Clérigo** | `3 · 6 · 17` | **3** |
+
+**Uma de seis está no calendário padrão.** *Das três classes que o projeto citou nominalmente, nenhuma foi corrigida.* **E o mecanismo real está na revisão do Clérigo: a feature do nível 8 saiu da subclasse porque o benefício foi para a classe base.**
+
+### Decidido — o calendário NÃO muda, e a recomendação contrária era minha
+
+*O Mizuki pediu validação antes de aceitar, e ela derrubou a minha proposta.* **Três rotas independentes:** dar três entregas a um Caminho piora vão e seca; os cinco Caminhos já estão empatados por construção, então não há assimetria de base para compensar; e **a v0.61 já testou e desfez isso** ao mover o ataque extra do nível 6 para o 7, *"para os cinco terem quatro degraus de Caminho"*.
+
+*E a "melhoria" que a busca achou também reprova:* `2·11·20·28` corta a seca de `24` para `18` missões, **e empilha três entregas em cima de níveis que já entregam feitiço.** **O calendário de hoje acerta oito de oito.**
+
+### Achado — o permitido da peça 5 §4 é a causa raiz
+
+Duração morreu na v0.68. `Exceção de ação` reprova pelo piso. **`Recuperar ferimento` e `recuperar Integridade` reprovaram nesta versão** — a primeira vale `0,00` para quem não cai, e o Bastião no nível 30 aguenta `11,7` rodadas contra uma luta de `3,7`; a segunda esbarra na regra do manual de que **dano de alma tira das duas barras ao mesmo tempo**, e o corpo acaba antes em três das quatro fichas. `Recuperar condição` depende de peça que não está na fila.
+
+> **Sobravam três tipos de efeito para escrever sessenta entregas.**
+
+### Decidido — remodelar Caminho e Trilha, e a base é levantamento
+
+*Decisão do Mizuki: **"por que não começamos do zero?"***. O documento oficial de design de classes da Paizo abre dizendo que **não existe sistema concreto para desenhar classe** — eles têm um para raças e afirmam que para classe não dá. **A lista fechada de sete linhas da peça 5 é uma coisa que nenhum sistema grande tem.**
+
+**E ele traz três regras que valem aqui inteiras:** primária contra secundária; *"uma classe com progressão completa de magia não recebe feature primária poderosa — a própria magia faz esse papel"*, que é o argumento do Mizuki palavra por palavra num sistema em que **todo personagem é lançador completo**; e *"lançadores completos são exceção ao dead level"*, que **desfaz o critério com que a Q2 mediu seca**.
+
+### Achado — eu tinha superestimado a economia de ação em `9,4×`
+
+Medi *"uma ação padrão a mais"*, que vale uma Rotina — `108`. **O Mizuki propôs um golpe simples a mais, que vale `11,50`.** *Foi por essa conta que declarei a linha morta e cheguei em "sobram três tipos".* **São quatro**, e o quarto é o que os quatro exemplos dele usam. Rodados contra o teto de `+18%` da peça 6 §3.1: **`+2,3%` a `+8,8%`. Todos cabem.**
+
+### Adicionado — o desenho dos cinco Caminhos
+
+**`DESENHO-caminhos.md`**, em três passadas com retorno dele em cada uma. **Calendário `2 · 7 · 15 · 30`**, `3` fatias por Caminho, e o nível 7 de graça porque é correção de base.
+
+**Dois degraus fecham por construção:** o `Voz Grossa` do Emanador — *o seu Classe 0 passa a causar o mesmo que um golpe simples* — vale exatamente o vão, porque **o vão `físico − conjurador` É `golpe simples − Classe 0`**; e o `Vínculo` do Evocador em margem crítica entrega **`5,0%` da Rotina no nível 2 e `5,0%` no 30**, porque crítico é fração e não valor absoluto.
+
+**E três correções vieram dele:**
+
+| o que caiu | por quê |
+|---|---|
+| `Muralha` — RD passiva para aliados | **é proibida, e a regra está no manual** desde a v0.26: *"Redução de Dano passiva… Resistência a um tipo, sim. Desconto em tudo, não"*. **Eu escrevi exatamente o que matou a Casca** |
+| `Presa` com `+atributo` | deriva `4×` — `23,1%` da Rotina no nível 2 contra `5,6%` no 30 |
+| `Mão na Roda` com gatilho no acerto do outro | o gatilho tem de ser do **Guia**. Com ele no `Elo`, os níveis 2 e 7 se encadeiam |
+
+### Achado — a lista de ações não existe
+
+*Achada pelo Mizuki indo escrever o gatilho do Guia.* **A peça 3 tem os quatro slots do turno e nenhuma ação nomeada**; `Ajudar` está na peça 4 §5 e **nunca teve custo de ação declarado**. *Ela está rascunhada no fim do `DESENHO-caminhos.md`, com a ação padrão seguindo o padrão do hobby por decisão dele, e duas ações bônus novas — `Provocar` e `Ler o Ambiente` — que ele desenhou.*
+
+### Em aberto
+
+- **As quinze Trilhas.** É o próximo bloco, e agora ele tem régua com piso, lista de gatilhos e o desenho de Caminho por baixo.
+- **As treze Manhas** da Vanguarda, uma por categoria de arma.
+- **A `Modelagem` do Emanador conferida contra o Fundamento** — o manual já modela feitiço por Melhoria e Restrição.
+- ~~O preço do `Provocar`.~~ **Medido, e ele PASSA com a duração de uma rodada** — spread de `1,67×` contra o teto de `3,0×`. *A primeira conta reprovou e estava errada: eu comparei os dois resultados condicionais ao sucesso e esqueci que teste disputado falha metade das vezes, o que dilui os dois lados igual. **Só a `100%` de sucesso ele chegaria no limite.** E a duração curta é o que impede o erro do mestre de empilhar: `25` pontos percentuais por rodada, independentes. *A pergunta que achou isso foi do Mizuki — "e se durar só uma rodada?".***
+- **A peça 5 §4 precisa de:** a linha `auxílio`, a frase-trava reescrita (ela lista quatro e a lista tem sete), uma decisão sobre dano fixo, e casa para a `Sangria`.
+- **Nenhum validador alcança nada disto.** Os quatro documentos são de trabalho e viram peça quando fecharem.
+- As de sempre: as vagas de Desliga, a Cicatriz, Energia Reversa, o clash, o nome do sistema, o refino que paga mal no marco.
+
+---
+
 ## [0.69] — 2026-08-15
 
 **Varredura de lixo depois da v0.68, a pedido do Mizuki — e ela achou um terceiro prompt de retomada, escrito catorze versões depois do aviso que proíbe.** Nada de regra mudou: continuam dezesseis peças e dezesseis validadores.
