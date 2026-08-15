@@ -631,12 +631,28 @@ bloco('9. ORCAMENTO — derivado dos marcos da peca 2, nunca lido de constante')
 if 2 not in ORCAMENTO:
     erro('ORCAMENTO', 'SS3.6: a tabela do orcamento nao tem a linha do nivel 2')
 else:
-    BASE_ORC = ORCAMENTO[2]['pts'] - sum(1 for m_ in MARCOS if 2 >= m_)
-    print(f'  marcos da peca 2: {MARCOS}   base no nivel 2: {BASE_ORC}')
+    # o passo do marco e a base sao DECLARADOS no SS3.6 e lidos de la.
+    # Ate a v0.66 o passo era 1 e estava implicito; a v0.67 quebrou o ponto em
+    # quatro e o passo virou 4. Passo implicito nao acende quando muda.
+    m_passo = re.search(r'\*\*Cada marco dá `(\d+)` pontos, e a base no nível 2 '
+                        r'é `(\d+)`\.\*\*', S36)
+    if not m_passo:
+        erro('ORCAMENTO', 'SS3.6: nao achei a linha que declara quanto cada marco da e '
+                          'qual a base do nivel 2 — sem ela o passo viraria constante '
+                          'escrita dentro deste arquivo')
+        PASSO_ORC, BASE_DECL = 1, None
+    else:
+        PASSO_ORC, BASE_DECL = int(m_passo.group(1)), int(m_passo.group(2))
+    BASE_ORC = ORCAMENTO[2]['pts'] - PASSO_ORC * sum(1 for m_ in MARCOS if 2 >= m_)
+    if BASE_DECL is not None and BASE_DECL != BASE_ORC:
+        erro('ORCAMENTO', f'o SS3.6 declara base {BASE_DECL} e a tabela dele deriva '
+                          f'{BASE_ORC} — as duas copias do mesmo numero divergiram')
+    print(f'  marcos da peca 2: {MARCOS}   base no nivel 2: {BASE_ORC}   '
+          f'cada marco da: {PASSO_ORC}')
     print(f"  {'nv':<5}{'marcos ate ali':<17}{'derivado':<11}{'no doc':<8}")
     for nv in sorted(ORCAMENTO):
         n_marcos = sum(1 for m_ in MARCOS if nv >= m_)
-        deriv = BASE_ORC + n_marcos
+        deriv = BASE_ORC + PASSO_ORC * n_marcos
         d = ORCAMENTO[nv]
         print(f'  {nv:<5}{n_marcos:<17}{deriv:<11}{d["pts"]:<8}')
         if d['marcos'] != n_marcos:
@@ -646,7 +662,7 @@ else:
             erro('ORCAMENTO', f'nv{nv}: o doc da orcamento {d["pts"]} e os marcos da peca 2 '
                               f'derivam {deriv} — o orcamento tem de cair dos marcos, nao '
                               'ser escrito ao lado deles')
-    faixa = re.search(r'\*\*De (\d+) a (\d+), um `?Traço`? no começo', S36)
+    faixa = re.search(r'\*\*De (\d+) a (\d+),', S36)
     if faixa:
         lo, hi = int(faixa.group(1)), int(faixa.group(2))
         real = (min(v['pts'] for v in ORCAMENTO.values()), max(v['pts'] for v in ORCAMENTO.values()))

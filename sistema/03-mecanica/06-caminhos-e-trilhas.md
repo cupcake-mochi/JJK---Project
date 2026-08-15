@@ -145,6 +145,22 @@ Trocando, o conjurador de perto cai exatamente na linha do físico, que esta se�
 
 **E o Guia fica coerente ficando de fora.** Ele é o único Caminho que não oferece um segundo golpe; quem quiser lutar de Guia paga pela técnica, no orçamento do Fundamento, como todo mundo. Isso troca o achado nº 2 da v0.20 — *"o Guia pode estar dominado pela Vanguarda"* — por uma pergunta fechada e mensurável: **o que Elo, Sutura e Perímetro entregam que valha um golpe por rodada?** A peça de Trilhas responde com número.
 
+### Em que slot o golpe cai, e o gate que paga por ele — v0.66
+
+*Decisão do Mizuki, e ela fecha um vão que estava aqui desde a v0.24:* **esta seção sempre disse *"2 ações"* e nunca disse quais.**
+
+> **O golpe simples do `Arremate` e do `Coro` é uma Ação Bônus, e ele só existe se a Ação Padrão daquele turno foi gasta no que a Trilha é.**
+> **`Coro`** — a padrão comandou, e a invocação atacou.
+> **`Arremate`** — a padrão conjurou.
+
+**O gate é a metade que importa, e sem ele a mudança vazava.** Mover o golpe para a Ação Bônus solta a Ação Padrão do `Coro`, e um `Coro` de padrão livre conjura, golpeia e comanda no mesmo turno. *O teto de uma Rotina da seção 4 continuaria segurando o **dano** e não seguraria o resto* — feitiço faz controle, alcance e condição, e o teto não mede nada disso. **É a lição do eixo errado: o teto só enxerga o eixo que ele tem.** Com o gate, a padrão só faz uma coisa, e a escolha volta a ser por rodada: **ou você conjura, ou você comanda e golpeia.**
+
+**O que sai por rodada não muda** — feitiço mais golpe, como já era, e a tabela acima continua valendo. **O que muda é que o golpe passa a custar um slot que ele não custava**, porque ele morava no lugar do Classe 0 e o Classe 0 é grátis.
+
+**E é aí que está o ganho, porque esse preço cresce sozinho.** A peça 14 §4 mediu os slots do turno e achou que **a Ação Bônus não cobra nada hoje**: no quadro dela, *passivo* e *ação bônus* empatam em `2,01`, e ela chama o slot de *"o mais vazio do turno"*. Aquela mesma seção escreve o conserto que ela não podia aplicar sozinha — *"um preço que cresce sozinho conforme o sistema enche o slot, que é o formato que a lição nº 1 pede"*. **Esta regra é a primeira coisa a encher o slot**, e o Bastião socando como Ação Bônus é a segunda.
+
+> **Esta regra não tem validador dono, e isso é dívida.** Nenhum `conferir-*.py` lê a forma do ataque extra: o `conferir-manual.py` confere a coluna Rotina contra a qual ele foi aprovado, e o `conferir-orcamento.py` o cita numa linha de saída. **Nenhum dos dois falha se alguém trocar o slot ou apagar o gate.** Fica anotado como checagem que falta, junto da que conta skill.
+
 ## 4. Invocação: não passa como está
 
 Este é o risco maior do pacote inteiro, e ele não tem conserto por preço.

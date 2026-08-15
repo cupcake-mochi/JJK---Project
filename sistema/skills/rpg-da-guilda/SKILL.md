@@ -133,6 +133,12 @@ jjk               # o atalho que entra na pasta do repositório
 
 **E a skill `redacao-acessivel-rpg` vale para os dois lados.** Ela foi escrita para texto de regra e nunca tinha sido apontada para a conversa; o defeito que ela descreve — *jargão usado antes de definido* — aconteceu no chat, não no documento.
 
+### Quando ele disser que não entendeu, procure o defeito antes de reexplicar
+
+*Aconteceu duas versões seguidas, e nas duas ele estava certo.* Na v0.64 ele parou numa palavra que o projeto usava com dois sentidos, um no manual e outro na aptidão — e ela estava mesmo fazendo o trabalho de duas. Na v0.65 uma pergunta de leitor — *"por que não dá para pegar a de baixo em vez da de cima?"* — derrubou uma mecânica inteira, porque ela deixava uma entrega depender de outra e **ninguém tinha escrito que isso não podia**.
+
+**Ele é o dono do sistema.** Dono que não consegue ler a própria régua é sintoma da régua, não dele. **Reexplicar melhor teria enterrado os dois achados** — a pergunta de leitor é o teste mais barato que este projeto tem, e ele só funciona se você tratar a resposta como bug.
+
 ## 9. Skills de apoio, todas no repositório
 
 `pesquisa-antes-de-propor` · `design-mecanicas-rpg` · `balanceamento-simulacao` · `playtesting-rpg` · `redacao-acessivel-rpg` · `gasto-de-modelo`

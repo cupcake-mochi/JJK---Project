@@ -472,6 +472,150 @@ A fatia da Q3 é `1,27` **ponto de dano por rodada**. O ponto de orçamento de i
 
 > **E a vida não entra por dominância, o que é o motivo de ela ter checagem própria.** Medido: **só o orçamento já zera a matriz.** Tirar o `5h` sairia **verde** na matriz e desfaria em silêncio a metade da Q6 que a matriz não mede. O `conferir-invocacoes.py` passou a conferir os dois separados, e o `DOMINANCIA_PENDENTE_Q6` foi a **conjunto vazio**.
 
+### 6.4 O formato das doze entradas, e as travas que a matriz achou — v0.66
+
+*Decisões do Mizuki, com a conta rodada antes de cada uma.* A régua da Q3 deixa **38 sequências legais** por Trilha: as duas travas do §3.6 cortam o espaço de 81 para 38. **A média é idêntica nas 38, por construção** — `5,08` de dano por rodada no nível 30. *O que muda é a variância, e é por ela que as três escolhem diferente.*
+
+| Trilha | jeito | forma | desvio | rodada morta | pico |
+|---|---|---|---|---|---|
+| **`Servo`** | sempre-ligado | três permanentes e um botão | `2,09` | 0% | `8,51` |
+| **`Matilha`** | meio a meio | dois permanentes | `2,95` | 0% | `11,94` |
+| **`Coro`** | meio a meio puxando pro condicional | **`1 · 2 · 3 · 3`** | `3,29` | 0% | `13,59` |
+
+**Um permanente sozinho já zera a rodada morta**, e é essa a fronteira que separa as três de qualquer coisa pior: a pior sequência legal, `1 · 1 · 1 · 2`, deixa a Trilha sem fazer nada em **37% das rodadas**.
+
+**O `Servo` é sempre-ligado porque a Q6 já tinha decidido isso com outro nome.** A vida de `5h` existe para o corpo não cair; pôr variância de formato em cima de um corpo só recria pelo formato o *"acabou o kit"* que aquela decisão saiu para fechar.
+
+**A `Matilha` fica no meio porque a variância dela já mora nos cinco corpos.** Ela aplica o orçamento cinco vezes e escolhe qual corpo faz o quê. Empilhar variância de formato em cima disso conta a mesma coisa duas vezes — lição nº 2, no lugar em que ela mais reincide.
+
+**E o `Coro` puxa pro condicional porque o encadeamento é a ficção dele.** *Ordem escolhida pelo Mizuki:* **condicional no nível 2, botão no 11, permanentes no 19 e no 27.** O §3.6 permite condicional no nível 2 desde que ela **dispare com frequência**, e *"a invocação atacou"* dispara em quase toda rodada em que o `Coro` faz o que o `Coro` faz.
+
+#### As três travas de escrita, e elas vêm da matriz e não da ficção
+
+*Rodei a matriz de dominância subindo um eixo de cada vez em cada Trilha — quinze testes, nos cinco eixos que o `conferir-invocacoes.py` já usa mais os dois que a Q6 abriu.* **A base de hoje está limpa: zero dominância.** Três acendem:
+
+| se uma entrega der… | para | acende |
+|---|---|---|
+| **ação** | `Matilha` | `Matilha > Coro` |
+| **orçamento** | `Matilha` | `Matilha > Servo` |
+| **ação** | `Servo` | `Servo > Coro` |
+
+> **A `Matilha` não pode receber ação nem orçamento em nenhuma das quatro. O `Servo` não pode receber ação.**
+> **O `Coro` está limpo nos cinco eixos** — ele tem mais espaço de escrita que os outros dois, e o motivo é que ele está atrás em vida.
+
+**E os outros doze testes saem verdes, que é exatamente onde mora o perigo.** Dar um segundo corpo ao `Servo` **não acende nada** e mesmo assim borra a diferença dele para a `Matilha`. *A matriz não mede ficção* — é a lição do eixo errado da v0.63 reaparecendo na peça em que ela nasceu.
+
+#### O orçamento de invocação não é a moeda das entregas, e a conta reprova antes da ficção
+
+O orçamento cresce **`4,5×`** na campanha contra os `8,31×` da Rotina. Razão **`0,54`** — ela cai entre os espaços de feitiço (`0,68`) e a maestria (`0,48`) na tabela do §3.5. **Uma entrega escrita em ponto de orçamento vale metade no nível 30 do que valia quando você a pegou.**
+
+*Levantamento externo, e ele bate com a conta:* o **Pathfinder 1e** monta o eidolon gastando um **bolo de pontos de evolução**, e o guia de referência da comunidade descreve o que sai disso — opções-armadilha (*"two evolution points for one secondary attack is a very poor investment"*), escolhas óbvias que todo mundo pega (*"flight is crucial, especially at high levels"*), e um **teto externo de número de ataques que precisou existir só para segurar o resto** (*"without this, eidolons would be fairly ridiculous"*). **O Pathfinder 2e trocou o bolo por tipo fixo mais talentos nomeados** — *"if you retrain this feat, the feat you replace it must also be an evolution feat"* —, com vida compartilhada e uma ação de agir junto uma vez por rodada, que é quase palavra por palavra o que o `Coro` já é aqui.
+
+> **As doze entradas são nomeadas, nunca em branco.** O orçamento continua sendo a concessão fixa do `Servo`, e nenhuma das quatro entregas de nenhuma das três o move.
+
+#### E nenhuma entrega do `Coro` pode supor corpo a corpo
+
+A peça 14 §5 tem a categoria **`Arma de Fogo`** com sete armas, mais a propriedade `Longo Alcance`. *Uma ficha de `Coro` atirando ao lado de invocações que fecham a distância é legal hoje.* **Entrega escrita como *"quando você e a invocação estão adjacentes"* exclui uma montagem que o catálogo já permite** — e quem paga é o jogador que leu o catálogo e montou dentro dele.
+
+#### O slot do golpe do `Coro` mudou, e a mudança mora na peça 6
+
+*Decisão do Mizuki nesta versão:* **o golpe simples do `Coro` e do `Arremate` passa a ser Ação Bônus, com gate na Ação Padrão.** Ela não é entrega de Trilha — é a forma do ataque extra, que sempre foi da peça 6 §3.1, e está escrita lá.
+
+### 6.5 A parede do Evocador: toda moeda dele é maior que uma fatia — v0.67
+
+*Achado tentando escrever as quatro entregas do `Servo`, e ele derrubou três tentativas seguidas antes de aparecer inteiro.* **O problema não é qual entrega escolher. É que a máquina de Invocações não tem troco.**
+
+| moeda do Evocador | % da Rotina | em fatias |
+|---|---|---|
+| **1 ponto de orçamento** (presença: meia Rotina) | `5,00%` | **4,3** |
+| 1 ponto de orçamento (lido como saída: uma Rotina) | `10,00%` | 8,5 |
+| invocar de graça, o dia todo | `9,00%` | 7,7 |
+| a primeira invocação do dia de graça | `2,57%` | 2,2 |
+| **a primeira invocação do dia pela metade** | `1,29%` | **1,1** |
+
+> **E o número que fecha o argumento:** as **quatro** entregas de Trilha do `Servo` somam `4,69%` da Rotina. **Um ponto de orçamento vale `5,00%`.** *A Trilha inteira do Evocador vale, somada, cerca de um ponto — e um ponto é a menor coisa que a peça 15 sabe vender.*
+
+**É por isso que as três tentativas morreram, e as três morreram do mesmo jeito:**
+
+| tentativa | por que morreu |
+|---|---|
+| entrega em ponto de orçamento | **4,3 fatias** — a menor unidade já é quatro vezes uma entrega. *A deriva de `1,8×` que o §6.2 tinha achado era o problema menor* |
+| desconto no custo de invocar | **7,7 fatias**, e não deriva — o problema é tamanho, não derivação |
+| qualquer coisa presa em *"quando ela cai"* | **spread de `5,2×` por mestre** — a peça 15 §3.4 mede reinvocações de `0,8` a `4,2` por dia conforme quem mestra. *A peça 13 §7 já reprovou `3,0×` escrevendo que ali o filtro multi-mestre "está falhando, com número em cima"* |
+
+#### Duas regras que a peça 15 deve, e as duas apareceram por tropeço
+
+*Achadas porque o Mizuki não entendeu uma entrega que eu propus — e ele não entendeu porque **não havia o que entender**.*
+
+1. **Quando a vida cheia da invocação reinvocada volta.** O §3.5 daquela peça registra a pergunta e diz que o candidato é o descanso longo, e que é sabor. **Enquanto ela não fechar, nenhuma entrega que mexa nesse relógio tem contra o que ser medida.**
+2. **O que acontece com a invocação quando o DONO cai.** A peça fecha o lado vizinho — perder a invocação não tira dano do dono, ele volta a bater sozinho, e o que se perde é só presença — e **nunca escreveu este.**
+
+> **Não dá para precificar uma entrega contra uma linha de base que não existe.** É a armadilha do preço que usa um termo que não existe, na direção em que ela é mais difícil de ver: o termo *parece* existir, porque a pergunta está escrita.
+
+#### E uma linha do permitido que já era verdade
+
+*Eu propus "o `Investir` da invocação usa o seu atributo no lugar do fixo".* **O acerto da invocação nunca teve valor fixo** — o §5 daquela peça exige que nenhuma linha da ficha cresça em ritmo diferente de `+3`, e o contra-teste dela é perturbar a maestria da peça 1 e ver o acerto da invocação andar junto. *A linha do permitido da peça 5 §4 fala do ataque de conjuração **do personagem**, não do golpe dela.*
+
+#### A saída que a conta aponta, e ela é uma categoria que não existe
+
+O orçamento vende **`Traço`** — *o que ela é* — e **`Comando`** — *o que ela faz quando comandada*. **Não existe nada que venda *"o que VOCÊ ganha por ela estar de pé"*.**
+
+*Essa vaga é a única do Evocador que não tem moeda grande presa nela*, e ela é multi-mestre por construção: a invocação está de pé por padrão, e quanto tempo ela fica de pé não é escolha de quem mestra. **É onde as entregas de Trilha do Evocador cabem no tamanho de uma fatia.**
+
+### 6.6 A saída escolhida: quebrar o ponto de orçamento em quatro — v0.67
+
+*Decisão do Mizuki: **quebrar a moeda**.* A §6.5 mediu que um ponto de orçamento vale `4,3` fatias, então a unidade nova tem de ser **um quarto** dele. **Toda a peça 15 é multiplicada por 4**, e o conjunto de montagens legais sai idêntico — escala uniforme preserva o legal exato, então a busca exaustiva e as trinta checagens do `conferir-invocacoes.py` passam sem alteração.
+
+| nível | orçamento hoje | escala nova | `Servo` hoje | `Servo` novo |
+|---|---|---|---|---|
+| 2 | 2 | **8** | 3 | **12** |
+| 10 | 4 | 16 | 6 | 24 |
+| 18 | 6 | 24 | 9 | 36 |
+| 30 | 9 | **36** | 13 | **52** |
+
+**Só escalar não basta, e a conta mata essa versão.** Com o item mais barato custando 4, a entrega de `+1` fica **morta** nos níveis 2, 11 e 19 — ela só vira coisa no 27, quando as quatro somam um ponto velho. *Isso fura a regra de formato do §3.6: uma permanente tem de valer alguma coisa na rodada em que chega.*
+
+> **Então o degrau de 1 ponto se abre em entradas finas**, e a régua para isso já estava escrita: o §3.7 define o degrau como *"só mexe na própria invocação"* e lista quatro coisas — **como ela anda · o que ela comunica · o que ela percebe · que espaço ocupa.**
+
+#### O teste que decidiu, e ele reprovou três propostas minhas
+
+**Quebrar um degrau chapado só para baixo é aumento de orçamento disfarçado de tabela.** As seis entradas do degrau 1 somam `24` na escala nova, e qualquer sub-régua que some menos entrega orçamento que ninguém decidiu:
+
+| sub-régua | soma | veredito |
+|---|---|---|
+| comunica 1 · anda 2 · espaço 3 · percebe 4 | 16 | **−33% de orçamento** |
+| comunica 2 · anda 2 · espaço 3 · percebe 4 | 17 | −29% |
+| percebe 2 · anda 3 · comunica 3 · espaço 4 | 17 | −29% |
+| **anda 2 · comunica 3 · percebe 5 · espaço 7** | **24** | **neutra** |
+| anda 3 · comunica 4 · percebe 4 · espaço 6 | 24 | neutra, mas empata dois degraus |
+
+**E a ordem não foi escolhida: ela sai da régua do degrau 2**, que cobra `8` porque *"encosta em outra criatura ou no tabuleiro"*. Dentro do degrau 1 vale o mesmo eixo — quanto mais perto de encostar, mais caro. *O par que ancora isso já está escrito no §3.7:* `Miúdo` e `Graúdo` são par, e o que os separa **não é tamanho, é quem sofre** — um passa por um vão, o outro **barra passagem**, e barrar é o inimigo perdendo movimento.
+
+> **`Miúdo` fica em `7`, a um passo do `Graúdo` em `8`.** A distância de um ponto é exatamente a distância que o texto daquela seção descreve.
+
+#### O catálogo do degrau 1, na escala nova
+
+| custo | entradas |
+|---|---|
+| **2** | `Escalada` · `Nado` — como ela anda, e só ela |
+| **3** | `Fala` — o que ela comunica |
+| **5** | `Faro` · `Vigia` — o que ela percebe, e o `Vigia` chega em você |
+| **7** | `Miúdo` — que espaço ocupa, a um passo de mexer no tabuleiro |
+| *8* | *o degrau 2 inteiro, sem mudança de sentido* |
+
+**A prova de que a porta funciona**, contada por busca sobre o catálogo:
+
+| nível | orçamento | a entrega | montagens sem ela | com ela |
+|---|---|---|---|---|
+| 2 | 8 | `+1` | 23 | **27** |
+| 11 | 16 | `+2` | 188 | **306** |
+| 19 | 24 | `+3` | 798 | **1.204** |
+| 27 | 32 | `+4` | 2.170 | **3.206** |
+
+**Cada entrega abre montagem nova em todo nível**, que é o que a regra de formato exige. *A entrega de Trilha do Evocador é `+1` ponto da escala nova, e ela vale `1,07` fatia — a régua fecha.*
+
+> **A peça 15 subiu junto, na mesma versão.** O catálogo, a tabela de orçamento, as montagens dos shikigami e o `conferir-invocacoes.py` estão todos na escala nova, com arnês rodado. *Esta seção deixou de ser proposta no mesmo commit em que virou regra — que é o único jeito de a lição nº 9 não morder.*
+
 ## 7. O que esta peça destrava, e o que ela fecha
 
 | | |

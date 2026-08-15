@@ -70,6 +70,17 @@ A parte não automatizável é a flexibilidade: uma opção que dói mais mas po
 
 Quando encontrar dominância e o teto do sistema não permitir subir o preço da opção mais dolorosa, a saída é **dar upside a ela**, não achatar as duas.
 
+**E a armadilha maior: a matriz só enxerga os eixos que ela tem coluna.** Se a decisão que você está conferindo tem duas metades — uma que a matriz mede e outra que não —, perturbar a metade invisível sai **verde**. E verde parece prova.
+
+O caso que ensinou isso: uma opção estava dominada, e o conserto foi dar a ela orçamento maior **e** vida maior. Só o orçamento já zerava a matriz. Tirar a vida saía verde, desfazendo em silêncio a outra metade da decisão — a que dizia *"perder esse corpo acaba o kit do jogador"*.
+
+Vira duas regras de trabalho:
+
+- **Quando não existir número que conserte a dominância dentro dos eixos que você tem, o que falta é uma coluna, não um valor.** Se as opções empatam em tudo que a matriz mede, a matriz terminou e a resposta mora fora dela. Qualquer eixo novo em que só a dominada esteja na frente mata todas as dominâncias de uma vez, e o número vem depois de escolher o eixo.
+- **Toda metade de decisão que a matriz não mede ganha checagem própria, separada** — com mensagem que nomeie o que ela está medindo, senão ela vira mais uma linha verde.
+
+E os eixos da matriz se leem **da tabela do documento dono**, nunca de constante escrita dentro do script. Se a tabela sumir ou mudar de formato, o certo é o script falhar alto dizendo isso, e não cair para um valor de reserva.
+
 ## 5. Regressão
 
 Todo exemplo que aparece no material publicado — feitiço pronto, tabela, exemplo guiado, número solto no meio de um parágrafo — precisa ser recalculado pelo script.

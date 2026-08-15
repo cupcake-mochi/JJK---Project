@@ -6,6 +6,210 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.67] — 2026-08-15
+
+**O bloco do Evocador abriu, e a primeira coisa que ele achou foi um vão na peça 6 aberto desde a v0.24: ela sempre disse *"2 ações"* e nunca disse quais.** Continuam dezesseis peças e dezesseis validadores — nada de arquivo novo, porque o formato mora no rascunho até a peça fechar.
+
+### Decidido — o formato das doze entradas do Evocador
+
+*Escolha do Mizuki, uma por Trilha, com a variância na mesa.* A régua da Q3 deixa **38 sequências legais** por Trilha: 81 cai para 54 pela trava do nível 2, e para 38 pela trava do botão. **A média é idêntica nas 38** — `5,08` de dano por rodada no nível 30, por construção da régua. *O que separa uma da outra é variância.*
+
+| Trilha | jeito | desvio | rodada morta | pico |
+|---|---|---|---|---|
+| `Servo` | sempre-ligado | `2,09` | 0% | `8,51` |
+| `Matilha` | meio a meio | `2,95` | 0% | `11,94` |
+| `Coro` | **`1 · 2 · 3 · 3`** — condicional no nv2, botão no nv11 | `3,29` | 0% | `13,59` |
+
+**Um permanente sozinho já zera a rodada morta.** A pior sequência legal, `1 · 1 · 1 · 2`, deixa a Trilha sem fazer nada em **37% das rodadas**.
+
+*E nenhum dos três motivos é estético.* O `Servo` é sempre-ligado porque a vida de `5h` da Q6 existe para o corpo não cair — variância de formato em cima de um corpo só recria pelo formato o *"acabou o kit"* que aquela decisão saiu para fechar. A `Matilha` fica no meio porque a variância dela **já mora nos cinco corpos**, e empilhar mais conta a mesma coisa duas vezes. E o `Coro` puxa pro condicional porque o encadeamento é a ficção dele: *"a invocação atacou"* dispara em quase toda rodada, que é o que o §3.6 exige de uma condicional no nível 2.
+
+### Achado — três travas vieram da matriz, e doze verdes não provam nada
+
+Matriz de dominância rodada subindo um eixo de cada vez em cada Trilha, nos cinco eixos: **quinze testes, base limpa.** Três acendem:
+
+| dar… | para | acende |
+|---|---|---|
+| **ação** | `Matilha` | `Matilha > Coro` |
+| **orçamento** | `Matilha` | `Matilha > Servo` |
+| **ação** | `Servo` | `Servo > Coro` |
+
+> **Os outros doze saem verdes, e é aí que mora o perigo.** Dar um segundo corpo ao `Servo` **não acende nada** e mesmo assim borra a diferença dele para a `Matilha`. *A matriz não mede ficção* — é a lição do eixo errado da v0.63 reaparecendo na peça em que ela nasceu, quatro versões depois.
+
+### Decidido — o golpe do `Arremate` e do `Coro` é Ação Bônus, com gate na Padrão
+
+*Decisão do Mizuki, e o gate é a parte dele que faz a coisa funcionar:* **o golpe simples só existe se a Ação Padrão daquele turno foi gasta no que a Trilha é** — comandar, no `Coro`; conjurar, no `Arremate`.
+
+> **Eu ia reprovar isso com a conta errada, e o registro fica porque o erro é instrutivo.** Escrevi que mover o golpe para a Ação Bônus é *somar*, que a §3.1 reprova com `+18%` sustentado do nível 18 ao 30. **É falso para o `Coro`:** a seção 4 põe teto de **uma Rotina** no dono mais todas as invocações, e a própria §3.1 escreve que *"as ações se redistribuem, o dano não sobe"*. **Fui ler antes de afirmar, e a leitura derrubou a minha objeção.**
+
+**O gate fecha o vazamento que sobrava.** Sem ele, um `Coro` de Padrão livre conjura, golpeia e comanda no mesmo turno — e o teto de uma Rotina segura o **dano**, não o controle, o alcance nem a condição. *É o eixo errado de novo, na mesma versão.* Com o gate, a escolha volta a ser por rodada: **ou conjura, ou comanda e golpeia.**
+
+**O que sai por rodada não muda; o que muda é que o golpe passa a custar um slot que não custava**, porque ele morava no lugar do Classe 0 e o Classe 0 é grátis. **E esse preço cresce sozinho:** a peça 14 §4 mediu os slots e achou que a Ação Bônus **não cobra nada hoje** — *passivo* e *ação bônus* empatam em `2,01`, e ela chama o slot de *"o mais vazio do turno"*, com o conserto já escrito: *"um preço que cresce sozinho conforme o sistema enche o slot"*. **Esta regra é a primeira coisa a enchê-lo**, e o Bastião socando como Ação Bônus é a segunda.
+
+### Registrado — o levantamento externo que matou a entrega em branco
+
+**O orçamento de invocação cresce `4,5×` contra os `8,31×` da Rotina — razão `0,54`.** Ele cai entre os espaços de feitiço (`0,68`) e a maestria (`0,48`) na tabela do §3.5 do rascunho: **uma entrega escrita nessa moeda vale metade no nível 30 do que valia quando você a pegou.**
+
+*E o hobby já tentou exatamente isso.* O **Pathfinder 1e** monta o eidolon gastando um **bolo de pontos de evolução**, e o guia de referência da comunidade descreve o resultado: opções-armadilha (*"two evolution points for one secondary attack is a very poor investment"*), escolhas óbvias que todo mundo pega (*"flight is crucial, especially at high levels"*), e um **teto externo de número de ataques que precisou existir só para segurar o resto** (*"without this, eidolons would be fairly ridiculous"*). **O Pathfinder 2e trocou o bolo por tipo fixo mais talentos nomeados**, com vida compartilhada e uma ação de agir junto uma vez por rodada — que é quase palavra por palavra o que o `Coro` já é aqui.
+
+**As doze entradas são nomeadas, nunca em branco.** O orçamento continua sendo a concessão fixa do `Servo`, e nenhuma entrega o move.
+
+### Registrado — nenhuma entrega do `Coro` pode supor corpo a corpo
+
+A peça 14 §5 tem a categoria `Arma de Fogo` com sete armas, mais a propriedade `Longo Alcance`. **Uma ficha de `Coro` atirando ao lado de invocações que fecham a distância é legal hoje** — e entrega escrita como *"quando vocês estão adjacentes"* exclui uma montagem que o catálogo já permite.
+
+### Achado — a parede do Evocador: toda moeda dele é maior que uma fatia
+
+*Apareceu tentando escrever as quatro entregas do `Servo`, depois de três tentativas caírem.* **O problema nunca foi qual entrega escolher — é que a máquina de Invocações não tem troco.**
+
+| moeda | % da Rotina | em fatias |
+|---|---|---|
+| 1 ponto de orçamento | `5,00%` | **4,3** |
+| invocar de graça, o dia todo | `9,00%` | 7,7 |
+| qualquer coisa presa em *"quando ela cai"* | — | 1,3 a 6,9, **spread `5,2×`** |
+| **a fatia** | `1,17%` | 1,0 |
+
+> **O número que fecha:** as **quatro** entregas de Trilha do `Servo` somam `4,69%` da Rotina, e **um** ponto de orçamento vale `5,00%`. *A Trilha inteira do Evocador vale, somada, cerca de um ponto — e um ponto é a menor coisa que a peça 15 sabe vender.*
+
+**E o spread de `5,2×` é o filtro multi-mestre reprovando de novo:** a peça 15 §3.4 mede reinvocações de `0,8` a `4,2` por dia conforme quem mestra, e a peça 13 §7 já tinha reprovado `3,0×` escrevendo que ali o filtro *"está falhando, com número em cima"*.
+
+### Achado — duas dívidas da peça 15, e o Mizuki achou as duas sem querer
+
+*Ele leu uma entrega que eu propus e escreveu: "não entendo o benefício disso".* **Ele estava certo, e é o terceiro achado seguido que vem de ele não entender uma coisa que estava errada.**
+
+1. **Quando a vida cheia da invocação reinvocada volta** — o §3.5 registra a pergunta, diz que o candidato é o descanso longo e que é sabor. Eu propus uma entrega que melhora esse relógio. **Não havia relógio.**
+2. **O que acontece com a invocação quando o DONO cai** — a peça fecha o lado vizinho e nunca escreveu este.
+
+> **Não dá para precificar entrega contra linha de base que não existe**, e esta é a versão difícil da armadilha: o termo *parece* existir, porque a pergunta está escrita.
+
+*E uma terceira, menor:* propus *"o `Investir` usa o seu atributo no lugar do fixo"* e **o acerto da invocação nunca teve valor fixo** — ele cresce `+3` junto com a maestria, e o §5 daquela peça tem contra-teste em cima disso.
+
+### Decidido — o ponto de orçamento se quebra em quatro
+
+*Escolha do Mizuki entre as três saídas.* **Toda a peça 15 multiplica por 4.** Escala uniforme preserva o conjunto legal exato, então a busca exaustiva e as trinta checagens passam sem alteração.
+
+**Só escalar não basta:** com o item mais barato em `4`, a entrega de `+1` fica **morta** nos níveis 2, 11 e 19. Então o degrau de 1 ponto se abre em entradas finas — e **a régua para isso já estava escrita**, no eixo que o degrau 2 usa para cobrar `8`: *"encosta em outra criatura ou no tabuleiro"*.
+
+> **`anda 2 · comunica 3 · percebe 5 · espaço 7`**, com o degrau 2 em `8`.
+
+**O teste que decidiu reprovou as três sub-réguas que eu tinha proposto.** As seis entradas do degrau 1 somam `24` na escala nova; as minhas somavam `16` e `17`. **Elas não eram sub-régua — eram um aumento de 30% no orçamento do Evocador, escondido numa tabela.** *Quebrar um degrau chapado só para baixo nunca é neutro.*
+
+*E a ordem não foi escolhida:* o `Miúdo` fica em `7`, **a um passo do `Graúdo` em `8`** — o par que o §3.7 já descreve como separado não por tamanho, mas por *quem sofre*.
+
+**A prova:** contando montagens sobre o catálogo, a entrega abre espaço novo em todo nível — `23→27` no nv2, `188→306` no 11, `798→1.204` no 19, `2.170→3.206` no 27. *Ela vale `1,07` fatia, e a régua fecha.*
+
+### Alterado — a peça 15 inteira, na escala nova
+
+**Ela subiu no mesmo commit da decisão**, que é o único jeito de a lição nº 9 não morder.
+
+| onde | o que mudou |
+|---|---|
+| **§3.6, tabela do orçamento** | `2·3·4·6·8·9` viram `8·12·16·24·32·36`, com a linha nova que **declara o passo**: *"cada marco dá `4` pontos, e a base no nível 2 é `8`"* |
+| **§3.7, catálogo de `Traço`** | o degrau 1 abre em `2 · 3 · 5 · 7`; o degrau 2 inteiro vai para `8` |
+| **§3.7, catálogo de `Comando`** | `Investir` fica em 0; o degrau 1 vai para `4` e o 2 para `8` |
+| **§3.7, as duas réguas de criar o seu** | os degraus renomeados para a escala nova, com a sub-régua escrita linha a linha |
+| **§3.7, os seis shikigami do material** | as somas recalculadas — *e o **nível em que cada um cabe não mudou**, que é a prova de que a escala é uniforme* |
+| **`conferir-invocacoes.py`, checagem 9** | o passo do marco deixa de ser implícito e passa a ser **lido do documento**, com a base declarada conferida contra a derivada |
+
+> **A busca exaustiva caiu de `21.502` para `5.429`, e o motivo tem nome: paridade.** Com preços de `1` e `2`, quase todo subconjunto fechava o orçamento exato. Com `2 · 3 · 4 · 5 · 7 · 8` num orçamento par, **um número ímpar de itens de preço ímpar nunca fecha.** *A busca conta gasto exato; o conjunto de montagens **legais** caiu bem menos — medido em `0,78` a `0,90` do que era.* **É propriedade da moeda quebrada, e está escrito na peça em vez de escondido.**
+
+**Arnês, na cópia isolada, com a base conferida verde antes e o `diff` provando cada `sed`:**
+
+| perturbação | acendeu? |
+|---|---|
+| o passo do marco vira `3` na linha declarada | **sim** |
+| a base declarada vira `9` e a tabela fica em `8` | **sim** |
+| a linha que declara o passo some | **sim** |
+| o `Miúdo` volta a custar `1` | **sim** |
+| o orçamento do nv30 vira `35` | **sim** |
+| **contra-teste:** muda a prosa do que o `Faro` faz | **não acendeu** |
+| **contra-teste:** mexe num número de outra seção | **não acendeu** |
+
+*O primeiro é o que dá valor aos outros quatro: até a v0.66 o passo do marco era `1` e estava **implícito** no código. Um passo implícito não acende quando muda — ele só some.*
+
+### Alterado
+
+| onde | o que mudou |
+|---|---|
+| **`RASCUNHO-trilhas.md` §6.4** | o formato das três, as travas da matriz, a moeda e a trava do corpo a corpo |
+| **`RASCUNHO-trilhas.md` §6.5** | a parede do Evocador, as três tentativas que caíram e as duas dívidas da peça 15 |
+| **`RASCUNHO-trilhas.md` §6.6** | a escala nova, a sub-régua do degrau 1 e a prova de que a entrega compra coisa |
+| **peça 6 §3.1** | o slot do golpe do `Arremate` e do `Coro`, com o gate e a dívida de validador |
+
+### Em aberto
+
+- **As doze entradas.** O formato fechou, o conteúdo não — é o resto da Q5 para o Evocador.
+- **A regra do slot não tem validador dono.** Nenhum `conferir-*.py` lê a forma do ataque extra: trocar o slot ou apagar o gate **sai verde hoje**. Entra com o validador de Trilhas, cuja especificação está no §5 do rascunho.
+- As de sempre: as vagas de Desliga, a Cicatriz, Energia Reversa, o clash, o nome do sistema, o refino que paga mal no marco.
+
+---
+
+## [0.66] — 2026-08-15
+
+**As skills instaladas estavam atrás da pasta outra vez — e desta vez o aviso que manda mantê-las em dia já estava escrito nos dois lugares.** *A v0.63 e a v0.64 fecharam as duas dizendo "aplicada nos dois lados dela".* A instalada não tinha nenhuma das duas. Nada de regra mudou aqui: continuam dezesseis peças e dezesseis validadores.
+
+### Achado — a `rpg-da-guilda` instalada estava 39 linhas atrás da pasta
+
+Medido por `diff`, descontando o cabeçalho de frontmatter. O que faltava do lado instalado:
+
+- os dois validadores de `manual/matematica/` no bloco de comando, e a nota de que o `subir.sh` roda os três blocos
+- **o caminho de commit de verdade** — `jjk` e `./subir.sh` pelado, com a mensagem deixada em `mensagem-de-commit.txt`
+- ler `.git/logs/HEAD` como arquivo para saber em que commit a pasta está sem rodar git
+- a lição do **eixo errado** no arnês de perturbação
+- **a seção inteira de como FALAR com o Mizuki** — que é exatamente o que a v0.64 saiu para consertar
+- a sétima skill na lista, a nota de que o `LEIA-ME` lista as mesmas sete, e o eval que cobre quatro delas
+- a armadilha do ponteiro de seção
+
+**É a lição *"decisão registrada não é decisão aplicada"* na camada em que nenhum validador chega.** Duas versões escreveram "nos dois lados"; ninguém conferiu depois.
+
+### Achado — e o pior não era a divergência: as quatro skills com pasta de apoio não têm pasta de apoio instalada
+
+*Isto nunca tinha sido medido.* A `design-mecanicas-rpg` instalada termina com uma seção **"Arquivos de apoio"** mandando ler `references/matematica-de-dado.md` e `references/vocabulario.md`. **Do lado instalado não existe nenhum dos dois.** Nas outras três, igual:
+
+| skill | o que o texto instalado manda ler | está instalado? |
+|---|---|---|
+| `design-mecanicas-rpg` | `references/` — dois arquivos | **não** |
+| `balanceamento-simulacao` | `scripts/dados.py` e `scripts/busca-exaustiva.py` | **não** |
+| `playtesting-rpg` | `assets/` — os dois formulários | **não** |
+| `redacao-acessivel-rpg` | `references/` — dois arquivos | **não** |
+
+*O contraste que fecha o diagnóstico: as skills de sistema instaladas na mesma conta trazem as pastas delas normalmente.* O que falta é o conteúdo destas quatro, não o suporte a pasta.
+
+> **Ponteiro pendurado dentro da ferramenta é pior que texto desatualizado.** Texto velho dá conselho errado, e dá para desconfiar dele. Ponteiro pendurado manda quem está seguindo a skill abrir um arquivo que não existe — e a conclusão natural é que a skill está quebrada.
+
+**E ele desmente uma frase escrita na v0.3 e repetida desde então:** o `LEIA-ME` diz que *"a versão instalada traz esse conteúdo embutido"*. **Não traz.** O `SKILL.md` instalado é o da pasta, ponteiro e tudo. *A frase nasceu na própria entrada da v0.3 deste arquivo — "com os arquivos de apoio que a versão instalada traz embutidos" —, e aquela entrada fica como está, porque a v0.50 decidiu não reescrever histórico.* **O `LEIA-ME` foi corrigido, e o `ESTADO-ATUAL` ganhou o achado.**
+
+### Alterado — sete lições de v0.60 a v0.65 entraram nas skills
+
+*As de assunto nasceram na v0.3, em 06/08, e a `design-mecanicas-rpg` e a `redacao-acessivel-rpg` não eram escritas desde aquele dia.* Sessenta versões depois, o CHANGELOG tinha lição medida que generaliza para fora deste projeto e nunca tinha sido varrido para isso.
+
+| skill | o que entrou | de onde |
+|---|---|---|
+| `rpg-da-guilda` | **quando ele diz que não entendeu, procure o defeito antes de reexplicar** — dois seguidos: a palavra com dois sentidos, e a pergunta de leitor que derrubou o empréstimo | v0.64 · v0.65 |
+| `design-mecanicas-rpg` | **ou a trilha é fechada, ou cada entrada carrega pré-requisito**, e nenhuma entrega pode depender de outra — com os três modelos publicados e o que cada um cobra | v0.65 |
+| `design-mecanicas-rpg` | **pelo menos uma entrada precisa ter botão**, e uso limitado na entrada de abertura é o erro simétrico | v0.65 |
+| `design-mecanicas-rpg` | **contador que cresce em cima de magnitude que já cresce conta duas vezes**, e por que *usos = proficiência* funciona no 5e e não aqui | v0.61 |
+| `design-mecanicas-rpg` | **dead level** — o nome do vão, as erratas do 3.5, o princípio do PF2e, o preço que o 4e pagou, e medir vão em sessão e não em nível | v0.60 |
+| `balanceamento-simulacao` | **a matriz só enxerga os eixos que ela tem coluna** — e quando não existe número que conserte dentro deles, falta uma coluna e não um valor | v0.63 |
+| `pesquisa-antes-de-propor` | **ir ao dono não basta: confira que leu a coluna que o dono nomeou** | v0.60 |
+
+**Nenhuma delas carrega número deste projeto.** O filtro foi esse: entra o que continua verdadeiro num sistema que não é este. Preço, teto e calendário ficaram onde já moram.
+
+### Registrado — a deriva tem três sentidos, e esta versão viu os três
+
+A v0.37 achou o repositório atrás da instalada. A v0.40 achou o contrário, nas cinco. **Esta achou as duas coisas ao mesmo tempo:** a `rpg-da-guilda` instalada atrás da pasta, e as de assunto com pasta e instalada empatadas — as duas atrás do CHANGELOG.
+
+> **O que continua não existindo é uma data de última sincronização.** Enquanto ela não existir, a única resposta honesta a *"qual lado está certo?"* é abrir os dois e comparar com o CHANGELOG, que é o dono do que foi decidido.
+
+### Em aberto
+
+- **Uma checagem que conte skill.** Marcada como candidata na v0.38 e de novo na v0.40. Continua sem existir, e esta é a terceira versão que ela teria pego.
+- **A varredura de v0.4 a v0.59 não foi feita.** Esta versão leu v0.60 a v0.65 procurando o que generaliza. Sobra uma faixa de cinquenta e poucas versões que ninguém passou o pente.
+- **Os arquivos de apoio têm de ir junto toda vez que a skill for reinstalada**, senão o ponteiro pendurado volta.
+- As de sempre: as vagas de Desliga, a Cicatriz, Energia Reversa, o clash, o nome do sistema, o refino que paga mal no marco — e **a Q5 de Trilhas**, que é onde o trabalho para.
+
+---
+
 ## [0.65] — 2026-08-14
 
 **A Q4 de Trilhas foi reaberta e refeita: a Trilha virou fechada, e no lugar do empréstimo entrou TROCA.** *A pergunta do Mizuki que derrubou a decisão da v0.55 foi de leitor, não de designer* — e é o segundo achado seguido que veio de ele não entender uma coisa que estava errada.

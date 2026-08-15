@@ -84,6 +84,50 @@ Sobre a curva do dado: **a escolha da curva e a política de bônus são uma dec
 
 Números de referência em `references/matematica-de-dado.md`.
 
+## Árvore de progressão: ou é fechada, ou cada entrada carrega pré-requisito
+
+Quando o personagem escolhe uma trilha — subclasse, árvore, escola, chame do que quiser — e recebe entregas dela em vários níveis, existe uma trava que quase todo mundo esquece de escrever:
+
+> **Nenhuma entrega pode depender de outra entrega da mesma trilha**, a não ser que o pré-requisito esteja escrito na entrada.
+
+O jeito de furar isso é sedutor e comum: deixar o jogador pegar, num nível alto, a entrega de nível alto de uma trilha vizinha que ele nunca começou. Parece liberdade barata. Na prática ele leva o topo sem a base, e qualquer entrada escrita supondo a anterior vira texto que não funciona — e ninguém percebe, porque nada no sistema proíbe.
+
+**Os sistemas grandes praticam três formas, e o meio-termo não é uma delas.**
+
+| forma | quem faz | o que ela cobra |
+|---|---|---|
+| **trilha fechada** | D&D 5e, nas duas edições — e sem regra nenhuma de trocar: mudar de subclasse é discricionariedade de mestre em 2014 e em 2024 | zero manutenção, zero mobilidade |
+| **pool com pré-requisito escrito em cada entrada** | Pathfinder 2e — *"prerequisites can be a specific class feature, or another feat"* | toda entrada tem que declarar de que depende, e alguém tem que conferir |
+| **rebuild completo, uma vez, com prazo para expirar** | Pathfinder Society, que é justamente o caso de personagem circulando entre mestres | mudar de rumo vira evento raro e auditável |
+
+Se o personagem persiste entre mesas, **trilha fechada mais uma troca declarada** costuma ser a saída barata. Você troca "conferir todas as combinações de trilhas" por "conferir quantas trilhas existem", e a mobilidade continua existindo desde que a troca seja **total** — o que ele tinha vira o equivalente na trilha nova, e ninguém termina com metade de duas.
+
+E antes de achar que fechar mata a variedade, **pergunte de onde a variedade vem no seu sistema.** Se cada jogador escreve a própria técnica ou monta o próprio poder, a trilha nunca foi o motor de diferença: ela é a camada compartilhada, e camada compartilhada aguenta ser fechada.
+
+### E pelo menos uma entrada precisa ter botão
+
+Trilha inteira feita de passiva e de coisa que dispara sozinha é o **Champion do D&D 5e**, e o diagnóstico da comunidade é o mesmo há dez anos: *"most of its features are passive… this is a subclass that is absolutely desperate for some buttons to push"* — boa para quem está começando, chata para quem já jogou.
+
+**Passivo é certo no começo e errado no fim.** A leitura prática: a primeira entrega pode ser passiva, porque no início ela é a única coisa na ficha e precisa funcionar sem administração. Mas pelo menos uma das seguintes tem que ser algo que o jogador **decide** usar.
+
+O erro simétrico também existe e é pior no primeiro nível: **uso limitado logo na entrada de abertura** transforma a única coisa da trilha em recurso para administrar antes de existir qualquer outra coisa na ficha.
+
+### Contador que cresce em cima de magnitude que já cresce conta duas vezes
+
+Se a entrega já é **fração de coisa que sobe** — metade do dano por rodada, um terço do teto —, ela acompanha o nível sozinha. Dar a ela um contador que também sobe soma o que já estava somado.
+
+**E o padrão mais copiado do hobby é justamente o que não serve nesse caso.** *Usos iguais ao bônus de proficiência* funciona no 5e porque lá a magnitude do feito é **plana** — *"cause 1d6 a mais"* — e o contador crescente é o que faz ela acompanhar o resto. Importar os dois juntos é pegar a metade errada do desenho.
+
+A regra curta: **um dos dois cresce, nunca os dois.** Magnitude em fração pede contador plano. Magnitude em valor absoluto pede contador que suba — e mesmo assim ela só cabe cedo na tabela, porque valor absoluto derrete contra alvo que cresce.
+
+### O vão entre entregas tem nome, e ele já virou errata
+
+Nível que não entrega nada chama **dead level**, e a história dele economiza discussão: o D&D 3.5 não resolveu no livro — a WotC publicou dois artigos de errata em 2007 só para preencher os níveis vazios de sete classes. O Pathfinder 2e resolve por princípio declarado, *"no level should ever be a dead level"*. E o 4e pagou o preço oposto: entregar em todo nível deu ficha de nove páginas e ferramenta online praticamente obrigatória.
+
+**Quem dá o tamanho tolerável é o 5e:** a edição de 2014 tinha vãos de **oito níveis** entre feitos de subclasse, e a de 2024 tirou todos, padronizando as entregas e trazendo capstone de nível 20 para 14.
+
+Na prática, duas coisas: **meça o vão em sessões ou missões, não em níveis** — é a unidade que o jogador sente, e um vão de quatro níveis no fim da tabela costuma ser dezenas de sessões sem nada que se escolha. E **não empilhe as entregas nos níveis que o resto do sistema já enche**: o nível que parece o lugar óbvio costuma ser o que já entrega três outras coisas.
+
 ## O teste da premissa herdada
 
 Antes de fechar a arquitetura, passe os olhos nesta lista e marque cada item como **escolhido** ou **herdado**:

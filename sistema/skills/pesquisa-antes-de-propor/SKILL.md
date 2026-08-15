@@ -39,6 +39,10 @@ Também não obriga:
 
 **A pesquisa entra onde o projeto não tem autoridade sobre a resposta.** Onde ele tem, a autoridade é dele.
 
+**Mas ir ao dono não basta: confira que você leu a coluna que o dono nomeou.** Um número pode estar no documento certo, na tabela certa, e ainda ser da coluna errada — e aí qualquer varredura que pergunte *"esse número existe no material?"* aprova. Foi assim que dois valores errados sobreviveram catorze versões num projeto que já tinha validador conferindo aquela tabela: o validador nunca abria o documento que os publicava.
+
+A checagem que pega isso não é *"o número aparece?"*. É *"o número aparece nesta linha desta coluna?"* — e quando ela falha, tem que **dizer de que coluna o número veio**, senão o próximo a ler vai procurar o defeito no lugar errado.
+
 ## 3. Onde procurar, por domínio
 
 Ordem importa: **texto de regra primeiro, discussão depois.** Fórum é bom para descobrir *que* existe um problema e péssimo para saber o que a regra diz.

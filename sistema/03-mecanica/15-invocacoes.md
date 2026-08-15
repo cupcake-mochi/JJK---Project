@@ -643,14 +643,16 @@ E a cadência já existe: **os sete marcos**, que governam atributo, refino e fe
 
 | nível | marcos | orçamento | o que dá para montar |
 |---|---|---|---|
-| 2 | 0 | **2** | um `Traço` — o Nue voa |
-| 6 | 1 | 3 | um `Traço` mais um deslocamento vendido |
-| 10 | 2 | 4 | dois `Traço` |
-| 18 | 4 | 6 | três |
-| 26 | 6 | 8 | quatro |
-| 30 | 7 | **9** | quatro e folga |
+| 2 | 0 | **8** | dois `Traço` baratos, ou um do degrau 2 — o Nue voa |
+| 6 | 1 | 12 | três baratos, ou um do degrau 2 mais um barato |
+| 10 | 2 | 16 | dois do degrau 2 |
+| 18 | 4 | 24 | três |
+| 26 | 6 | 32 | quatro |
+| 30 | 7 | **36** | quatro e folga |
 
-**De 2 a 9, um `Traço` no começo e quatro no fim, com zero escada nova.**
+**Cada marco dá `4` pontos, e a base no nível 2 é `8`.** *O passo é `4` porque a v0.67 quebrou o ponto em quatro — o §6.6 do `RASCUNHO-trilhas.md` tem a conta, e o número mora aqui.*
+
+**De 8 a 36, dois `Traço` baratos no começo e quatro do degrau 2 no fim, com zero escada nova.**
 
 ### Quanto vale um ponto, e as duas âncoras não são a mesma moeda
 
@@ -732,19 +734,19 @@ E a cadência já existe: **os sete marcos**, que governam atributo, refino e fe
 
 | ponto | `Traço` | o que faz | de onde veio |
 |---|---|---|---|
-| **1** | `Faro` | rastreia por cheiro e por energia | Cão Divino |
-| **1** | `Escalada` | sobe parede e teto sem teste | — |
-| **1** | `Nado` | move na água sem penalidade | — |
-| **1** | `Miúdo` | ocupa espaço menor e passa por vão | Coelho de Fuga |
-| **1** | `Vigia` | o que ela vê e ouve, **você** vê e ouve | Kogane · os shikigami de rato e de pássaro do Dhruv |
-| **1** | `Fala` | ela fala, e dá para conversar com ela | Kogane · o Marmalade Boy · o Panda |
-| **2** | `Voo` | voa | Nue |
-| **2** | `Montaria` | carrega uma pessoa | Nue |
-| **2** | `Fisgada` | prende à distância | Sapo |
-| **2** | `Emboscada` | surge do chão, fora do alcance de ver | Serpente |
-| **2** | `Jorro` | empurra em linha ou em área | Elefante Máximo |
-| **2** | `Graúdo` | ocupa espaço maior e **barra passagem** | Elefante Máximo · a peça 6 §4 |
-| **2** | `Remoto` | funciona **na cena**, além dos 18 m da amarra — e **fora da cena** com gate | Ultimate Mechamaru |
+| **5** | `Faro` | rastreia por cheiro e por energia | Cão Divino |
+| **2** | `Escalada` | sobe parede e teto sem teste | — |
+| **2** | `Nado` | move na água sem penalidade | — |
+| **7** | `Miúdo` | ocupa espaço menor e passa por vão | Coelho de Fuga |
+| **5** | `Vigia` | o que ela vê e ouve, **você** vê e ouve | Kogane · os shikigami de rato e de pássaro do Dhruv |
+| **3** | `Fala` | ela fala, e dá para conversar com ela | Kogane · o Marmalade Boy · o Panda |
+| **8** | `Voo` | voa | Nue |
+| **8** | `Montaria` | carrega uma pessoa | Nue |
+| **8** | `Fisgada` | prende à distância | Sapo |
+| **8** | `Emboscada` | surge do chão, fora do alcance de ver | Serpente |
+| **8** | `Jorro` | empurra em linha ou em área | Elefante Máximo |
+| **8** | `Graúdo` | ocupa espaço maior e **barra passagem** | Elefante Máximo · a peça 6 §4 |
+| **8** | `Remoto` | funciona **na cena**, além dos 18 m da amarra — e **fora da cena** com gate | Ultimate Mechamaru |
 
 *A escada é a do PF1e no formato e não no valor: movimento no chão custa 1, **voar custa 2**. E as treze entradas caem todas dentro da lista que a peça 5 §4 autoriza — posicionamento, alvo, duração, recuperação. **Nenhuma toca dado de dano**, e não pode mesmo: o teto de uma Rotina já governa a saída.*
 
@@ -755,12 +757,12 @@ E a cadência já existe: **os sete marcos**, que governam atributo, refino e fe
 | ponto | `Comando` | o que faz |
 |---|---|---|
 | **0** | `Investir` | o ataque. **Toda invocação tem**, e ele entrega a cota da Rotina |
-| **1** | `Agarrar` | prende o alvo |
-| **1** | `Arrastar` | move o alvo, ou se move levando ele |
-| **1** | `Buscar` | pega um objeto, ou rastreia de forma ativa |
-| **1** | `Cavar` | abre buraco, desenterra, revira o terreno |
-| **2** | `Interpor` | se põe entre o dono e o golpe |
-| **2** | `Chamariz` | o alvo tem de vir para cima dela | Coelho de Fuga |
+| **4** | `Agarrar` | prende o alvo |
+| **4** | `Arrastar` | move o alvo, ou se move levando ele |
+| **4** | `Buscar` | pega um objeto, ou rastreia de forma ativa |
+| **4** | `Cavar` | abre buraco, desenterra, revira o terreno |
+| **8** | `Interpor` | se põe entre o dono e o golpe |
+| **8** | `Chamariz` | o alvo tem de vir para cima dela | Coelho de Fuga |
 
 *`Golpe` não pôde ser usado por estar dentro de `Golpe canalizado`; `Investir` saiu LIVRE. O `Cavar` não é o `Emboscada`: um faz buraco no chão, o outro é ela **saindo** dele, e os dois funcionam sozinhos.*
 
@@ -778,14 +780,17 @@ E a cadência já existe: **os sete marcos**, que governam atributo, refino e fe
 
 | pontos | `Traço` — o que separa um degrau do outro |
 |---|---|
-| **1** | **só mexe na própria invocação:** como ela anda, o que ela percebe, o que ela comunica, que espaço ocupa. `Escalada`, `Nado`, `Faro`, `Miúdo`, `Vigia`, `Fala` |
-| **2** | **encosta em outra criatura ou no tabuleiro:** carrega, prende, empurra, barra, alcança além do alcance, aparece onde não dava. `Voo`, `Montaria`, `Fisgada`, `Emboscada`, `Jorro`, `Graúdo`, `Remoto` |
+| **2** | **como ela anda, e só ela.** `Escalada`, `Nado` |
+| **3** | **o que ela comunica.** `Fala` |
+| **5** | **o que ela percebe — e o `Vigia` chega em você.** `Faro`, `Vigia` |
+| **7** | **que espaço ocupa, a um passo de mexer no tabuleiro.** `Miúdo` |
+| **8** | **encosta em outra criatura ou no tabuleiro:** carrega, prende, empurra, barra, alcança além do alcance, aparece onde não dava. `Voo`, `Montaria`, `Fisgada`, `Emboscada`, `Jorro`, `Graúdo`, `Remoto` |
 
 | pontos | `Comando` — o que separa um degrau do outro |
 |---|---|
 | **0** | **o ataque.** `Investir`, que toda invocação tem |
-| **1** | **faz uma coisa com um alvo ou um objeto.** `Agarrar`, `Arrastar`, `Buscar`, `Cavar` |
-| **2** | **protege o dono, ou nega a ação de outro.** `Interpor`, `Chamariz` |
+| **4** | **faz uma coisa com um alvo ou um objeto.** `Agarrar`, `Arrastar`, `Buscar`, `Cavar` |
+| **8** | **protege o dono, ou nega a ação de outro.** `Interpor`, `Chamariz` |
 
 *O `Voo` é o caso que mostra que a régua funciona: andar é 1 ponto, e voar é 2 — não porque voar seja "melhor", mas porque ele deixa de ser uma coisa que a invocação faz consigo mesma e passa a ser uma que ignora o tabuleiro inteiro. **É a mesma linha que separa `Escalada` de `Voo` no PF1e**, por outro caminho.*
 
@@ -845,12 +850,12 @@ E uma que eu quase escrevi: um `Traço` de corpo duro, tipo *"ela aguenta mais p
 
 | shikigami | montagem | pontos | cabe no nível |
 |---|---|---|---|
-| Cão Divino | `Faro` | 1 | **2** |
-| **Nue** | `Voo` | 2 | **2** |
-| Elefante Máximo | `Jorro` | 2 | **2** |
-| Serpente | `Emboscada` + `Agarrar` | 3 | 6 |
-| Sapo | `Fisgada` + `Agarrar` | 3 | 6 |
-| Nue completo | `Voo` + `Montaria` | 4 | 10 |
+| Cão Divino | `Faro` | 5 | **2** |
+| **Nue** | `Voo` | 8 | **2** |
+| Elefante Máximo | `Jorro` | 8 | **2** |
+| Serpente | `Emboscada` + `Agarrar` | 12 | 6 |
+| Sapo | `Fisgada` + `Agarrar` | 12 | 6 |
+| Nue completo | `Voo` + `Montaria` | 16 | 10 |
 
 **Três dos seis cabem no nível 2 e os outros chegam nos marcos** — que é a leitura certa do material, onde os shikigami aparecem ao longo da história em vez de todos de uma vez.
 
@@ -858,7 +863,7 @@ E uma que eu quase escrevi: um `Traço` de corpo duro, tipo *"ela aguenta mais p
 >
 > **A saída não é baratear o preço, é reconhecer de quem é o corpo:**
 >
-> **O que a Trilha concede não sai do orçamento.** `Servo` dá um corpo forte, `Matilha` dá os cinco, `Coro` dá a exceção de economia de ação. **O orçamento compra `Traço` e `Comando` por cima disso.** O Coelho de Fuga é a Trilha `Matilha` mais `Miúdo` — **1 ponto, e sobra 1 no nível 2.**
+> **O que a Trilha concede não sai do orçamento.** `Servo` dá um corpo forte, `Matilha` dá os cinco, `Coro` dá a exceção de economia de ação. **O orçamento compra `Traço` e `Comando` por cima disso.** O Coelho de Fuga é a Trilha `Matilha` mais `Miúdo` — **7 pontos, e sobra 1 no nível 2.**
 >
 > *Isso resolve o nível 2 e, de quebra, dá à Q6 a única coisa que ela ainda não tinha: **o que cada Trilha concede que o orçamento não pode comprar.** A pergunta que estava esperando a peça de Trilhas ganhou metade da resposta aqui.*
 
@@ -886,7 +891,7 @@ E uma que eu quase escrevi: um `Traço` de corpo duro, tipo *"ela aguenta mais p
 
 **E o orçamento é onde o `Servo` fica na frente**, que é o eixo que mata as duas dominâncias:
 
-| nv | orçamento da ficha | do `Servo` | do catálogo inteiro (28 pontos) |
+| nv | orçamento da ficha | do `Servo` | do catálogo inteiro (112 pontos) |
 |---|---|---|---|
 | 2 | 2 | **3** | 11% |
 | 10 | 4 | **6** | 21% |
@@ -946,7 +951,9 @@ Rodada a triagem antes de escrever qualquer coisa:
 - **O gate de Origem do `Remoto`, e ele é o único do catálogo.** A checagem confere que **nenhuma outra entrada tem requisito** — se uma segunda aparecer, a régua de degrau do §3.7 deixou de precificar sozinha e isso tem de ser decisão e não descuido.
 - **Nenhuma entrada do catálogo pode comprar linha que já é deslocamento.** Defesa, acerto e vida são a moeda do §3.6; um `Traço` que dê qualquer um dos três é preço duplo pela mesma coisa. **Perturbar uma entrada para dar `+1` de Defesa tem de acender.**
 - **A contagem do catálogo, conferida contra o que o documento afirma.** Hoje são **19 compráveis** mais o `Investir` a 0 — 13 `Traço` e 6 `Comando`. *A peça 13 já pagou por isso: as contas do rascunho dela envelheceram duas vezes dentro do próprio arquivo antes de o validador existir.* A checagem recalcula e falha se o escrito não bater com o contado.
-- **A busca exaustiva rodada por degrau de orçamento, e o número esperado escrito antes.** No nv30, com orçamento 9 e gasto exato, o catálogo entrega **21.502 montagens cheias**, todas com assinatura distinta, **zero dominadas**, e a maior delas usa **9 das 19 entradas — 47%**. *Antes da passada dos três tipos eram **1.126** montagens em 13 entradas, e a maior consumia **62%** do catálogo.* Se alguma entrada nova puxar esse consumo para cima outra vez, é sinal de que ela não acrescentou eixo, só volume.
+- **A busca exaustiva rodada por degrau de orçamento, e o número esperado escrito antes.** No nv30, com orçamento 36 e gasto exato, o catálogo entrega **5.429 montagens cheias**, todas com assinatura distinta, **zero dominadas**, e a maior delas usa **9 das 19 entradas — 47%**. *Antes da passada dos três tipos eram **1.126** montagens em 13 entradas, e a maior consumia **62%** do catálogo; e antes da escala da v0.67 eram **21.502**.*
+
+> **A queda de `21.502` para `5.429` é da escala, e ela tem nome: paridade.** Com preços de `1` e `2`, quase todo subconjunto fechava o orçamento exato. Com `2 · 3 · 4 · 5 · 7 · 8` num orçamento par, **um número ímpar de itens de preço ímpar nunca fecha** — e por isso três em cada quatro montagens deixam troco. *O que a busca conta é gasto exato; o conjunto de montagens **legais** não caiu na mesma proporção.* **Isso é propriedade da moeda quebrada e não descuido** — e é o preço que a v0.67 aceitou para o degrau de 1 ponto ter granularidade. Se alguma entrada nova puxar esse consumo para cima outra vez, é sinal de que ela não acrescentou eixo, só volume.
 - **Vender deslocamento não tem piso, e isso é decisão e não esquecimento.** Medido: mesmo vendendo **−5 de Defesa**, o pool da Matilha ainda põe **1,56 Rotina** de presença em campo, contra os **6% a 9%** da Rotina que a peça 14 §4 diz que uma Trilha inteira vale — **17×**. **Ela se limita sozinha no valor.** A checagem afirma isso em vez de supor: perturbar o câmbio do §3.3 tem de fazer o piso passar a ser necessário e acender.
 
 ## 6. O que esta peça destrava
