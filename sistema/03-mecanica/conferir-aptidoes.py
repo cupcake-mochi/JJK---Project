@@ -518,6 +518,98 @@ else:
               'que citam o manual.')
 
 # --------------------------------------------------------------------------
+# CONTRA-TESTE: cada checagem abaixo le o numero do DOCUMENTO, nunca do codigo.
+# A cura no teto e a ancora da Recomposicao sao lidas do texto da secao 6; mexer
+# em qualquer uma das duas move a comparacao, que e o que se quer.
+bloco('N+1. A APTIDAO `Energia Reversa` — v0.77')
+
+_s6 = _t11.split('### Energia Reversa')[1].split('\n## 6.5.')[0] \
+      if '### Energia Reversa' in _t11 else ''
+
+if not _s6:
+    erro('nao achei a entrada `Energia Reversa` na secao 6 da peca 11 — ela fechou '
+         'na v0.77 e a Trilha `Sutura` do Guia aponta para ela')
+else:
+    # 1. o gate esta no titulo, e ele e o mesmo da Extensao de Dominio
+    _tit = _s6.split('\n')[0]
+    _falta = [x for x in ('Classe Passiva 3', 'refino 7', 'nível 13') if x not in _tit]
+    if _falta:
+        erro(f'o titulo da `Energia Reversa` nao declara {_falta} — sem o gate escrito '
+             'no titulo ela vira aptidao sem requisito, e a secao 5 diz que cada uma '
+             'declara o proprio')
+    else:
+        print('  [x] gate no titulo: Classe Passiva 3, refino 7 e nivel 13.')
+
+    # 2. o gate bate com o da Extensao de Dominio, que e a outra Classe Passiva 3
+    _ext = _t11.split('### Extensão de Domínio')[1].split('\n')[0] \
+           if '### Extensão de Domínio' in _t11 else ''
+    if _ext and ('refino 7' in _ext) != ('refino 7' in _tit):
+        erro('a `Energia Reversa` e a `Extensão de Domínio` sao as duas Classe Passiva 3 '
+             'e os gates de refino divergiram — a secao 5 preca a ALTURA, nao a entrada')
+    elif _ext:
+        print('  [x] o gate bate com o da Extensão de Domínio, a outra Classe Passiva 3.')
+
+    # 3. a cura no teto NAO pode passar a Passiva Recomposicao, que e a ancora
+    #    declarada. Os dois numeros sao lidos do texto.
+    # o [^`]* aceita formula suja (`1d8 + refino`) de proposito: sem ele, uma
+    # perturbacao que enfia refino na formula acende a checagem ERRADA — a de
+    # "nao consegui ler" em vez da de refino. Vermelho pelo motivo errado ensina
+    # a procurar o defeito no lugar em que ele nao esta.
+    _mdado = re.search(r'recupere `1d(\d+)[^`]*` de vida', _s6)
+    _mrec  = re.search(r'`(\d+) × maior Classe`', _s6)
+    if not _mdado or not _mrec:
+        erro('nao consegui ler do texto o dado de cura e a ancora `N × maior Classe` — '
+             'sem os dois a checagem viraria constante escrita no validador')
+    else:
+        _face = int(_mdado.group(1))
+        _mult = int(_mrec.group(1))
+        _classe_max = 7
+        _teto_er  = _classe_max * (_face + 1) / 2
+        _recomp   = _mult * _classe_max
+        print(f'  [x] no nivel 30: Energia Reversa {_classe_max}d{_face} = {_teto_er:.1f} '
+              f'de cura, Recomposicao = {_recomp}.')
+        if _teto_er > _recomp:
+            erro(f'a `Energia Reversa` cura {_teto_er:.1f} no teto contra os {_recomp} da '
+                 f'Passiva `Recomposição` — a aptidao APRENDIDA passou a inata, e a '
+                 f'secao 7 mandava medir uma contra a outra')
+
+    # 4. o refino nao escala a cura. LIÇÃO Nº 1: refino cresce +7 a +9 e vida de
+    #    inimigo cresce mais rapido; se ele entrar aqui, a cura deriva.
+    _formula = [l for l in _s6.split('\n') if 'de vida por PE' in l or 'cura por PE' in l]
+    if _formula and 'refino' in sem_acento(' '.join(_formula)).lower():
+        erro('a formula de cura da `Energia Reversa` menciona refino — a secao 2 proibe, '
+             'e o teto dela e `maior Classe`')
+    else:
+        print('  [x] o refino nao entra na formula de cura.')
+
+    # 5. LIÇÃO Nº 9: o gate mora no titulo da secao 6 E na tabela do catalogo da
+    #    secao 10. Dois donos para o mesmo numero — alguem tem que comparar.
+    _lin = [l for l in _t11.split('\n')
+            if l.strip().startswith('|') and '**Energia Reversa**' in l]
+    if not _lin:
+        erro('a `Energia Reversa` sumiu da tabela do catalogo — ela e a entrada 10 de 14')
+    elif 'a definir' in _lin[0]:
+        erro('a tabela do catalogo ainda diz "a definir" para a `Energia Reversa`, que '
+             'fechou na v0.77 — e o caso classico da licao nº 9, com a peca escrita '
+             'de um lado e a tabela de resumo do outro')
+    elif not all(x in _lin[0] for x in ('Classe Passiva 3', 'refino 7', 'nível 13')):
+        erro(f'a linha do catalogo diz "{_lin[0].strip()[:70]}" e nao repete o gate do '
+             'titulo da secao 6 — as duas copias divergiram')
+    else:
+        print('  [x] a linha do catalogo repete o gate do titulo da secao 6.')
+
+    # 6. e ela nao pode continuar na lista das que FALTAM
+    _s7 = _t11.split('## 7. ')[1].split('\n## 8.')[0] if '## 7. ' in _t11 else ''
+    _faltantes = [l for l in _s7.split('\n')
+                  if l.strip().startswith('|') and '**' in l and 'aptidão' not in l
+                  and '---' not in l]
+    if any('Energia Reversa' in l for l in _faltantes):
+        erro('a `Energia Reversa` continua na tabela das que faltam na secao 7, e ela '
+             'esta escrita na secao 6 — decisao registrada nao e decisao aplicada')
+    else:
+        print(f'  [x] ela saiu da lista das que faltam: restam {len(_faltantes)}.')
+
+# --------------------------------------------------------------------------
 print()
 print('=' * 90)
 if ERROS:

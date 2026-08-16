@@ -256,6 +256,27 @@ Trinta por cento no teto. É a única das três que mexe no número em vez do da
 
 E "mais fácil depois do primeiro" sem teto é a espiral da exaustão com o sinal trocado: quem crita mais fácil crita mais, e crita mais fácil ainda. Sem teto, quatro degraus numa cena levariam o físico a **1,8× o dano base**, e aí a coluna Rotina para de valer no meio da luta.
 
+### Energia Reversa · Classe Passiva 3 · refino 7 e nível 13
+
+> **Ação padrão. Gaste até `maior Classe` de PE e recupere `1d8` de vida por PE gasto, em você.**
+
+*Ela estava na lista das que faltavam desde a v0.27 e fechou na v0.77, quando a Trilha `Sutura` do Guia precisou dela para existir.*
+
+**Nenhum número aqui é escolha minha, e vale mostrar de onde cada um sai.** A seção 7 já mandava medir esta aptidão contra a Passiva **`Recomposição`**, que é a cura inata: `5 × maior Classe`, uma vez por descanso curto — **`35` de cura no nível 30**. O projeto tem câmbio de PE, porque `+1` PE por rodada vale `5,14` de dano por rodada; e cura é **dano evitado**, que a régua converte `1` pra `1`. **Então um PE vale cerca de cinco de cura.** E o manual já cura em dado: *"cada ponto que sobra vira `1d8`"*, que é `4,5`.
+
+| | quanto cura no nível 30 |
+|---|---|
+| a Passiva `Recomposição`, uma vez por descanso curto | `35` |
+| **`Energia Reversa` no teto — `7d8`** | **`31,5`** |
+
+**Mesma altura, e a diferença mora em outro eixo:** a Passiva é de graça e acontece uma vez; esta cobra PE e se repete. *E ela gasta a ação padrão — curar `31,5` numa rodada em que você tomaria `33,9` é empatar, e o empate é a intenção.*
+
+**O gate não foi escolhido por simetria com a `Extensão de Domínio`, mesmo sendo o mesmo.** No material, energia reversa é gerada no **cérebro** e não no intestino como a comum, e o que a torna rara é sustentar **dois fluxos de energia ao mesmo tempo**. É a coisa que quase ninguém alcança — e a Classe Passiva 3 com refino 7 é exatamente a altura que a seção 5 reserva para isso: **o generalista só chega no nível 26.**
+
+> **Ela cura VOCÊ, e isso não é economia de texto.** *Curar terceiro é o degrau raro do material*: o Gojo cura a si mesmo e não cura os outros, e a Shoko é nomeada como uma das poucas que conseguem. **Quem cura os outros é a Trilha `Sutura`**, e é ela que paga por isso — no nível 11 dela, e não no 2.
+
+**O refino não escala esta aptidão, e o teto é a `maior Classe`.** *Pôr refino no tamanho da cura a faria derivar contra a vida do inimigo, que é o que a seção 2 proíbe.* A Classe já cresce com o nível, já é o eixo certo, e já é a variável que o manual usa para tudo que escala com tamanho de feitiço.
+
 ## 6.5. As quatro anti-domínio
 
 *Escritas na v0.29, depois que a Expansão ganhou regra no manual v7.7.*
@@ -376,15 +397,14 @@ A conta escolheu sozinha. Medido no Bastião, que é o piso de PE do sistema, nu
 
 As outras duas quebram nas pontas: com `2 ×` você se defende uma vez e acabou o dia; com metade, o custo cai para 9% no nível 20 e **evapora**.
 
-## 7. As quatro que faltam, e por que
+## 7. As três que faltam, e por que
 
-*As quatro anti-domínio saíram desta seção na v0.29 e estão na seção 6.5.*
+*As quatro anti-domínio saíram desta seção na v0.29 e estão na seção 6.5. **A `Energia Reversa` saiu na v0.77** e está escrita na seção 6, com o gate, o teto e a conta — medida contra a `Recomposição`, que é exatamente o que esta seção mandava fazer.*
 
 **Faltam por número, e não por dependência:**
 
 | aptidão | o que ela é | contra o que precisa ser medida |
 |---|---|---|
-| **Energia Reversa** | a cura aprendida, que gasta PE | a Passiva **Recomposição**, que é a cura inata: `5 × maior Classe`, uma vez por descanso curto |
 | **Barreira Simples** | bloqueia passagem e linha de efeito | a Melhoria **Anteparo** do manual, que faz coisa parecida por orçamento |
 | **Cortina** | o véu que esconde de quem não é feiticeiro | nada — ela não tem efeito de combate, e o teste dela é de cena |
 | **Aptidão Própria** | qualquer outra coisa, uma vez na ficha inteira | a régua do **Efeito Próprio**: *em quantas cenas por arco isso importa?* |
@@ -412,7 +432,7 @@ O `arquitetura.md` sustenta: *"discricionariedade na ficção é o trabalho do m
 ## 9. Em aberto
 
 - **As quatro anti-domínio**, travadas até a Expansão existir no manual v7.7.
-- **O número de Energia Reversa, Barreira Simples e Cortina**, e a régua da Aptidão Própria.
+- **O número de Barreira Simples e Cortina**, e a régua da Aptidão Própria. *A `Energia Reversa` saiu desta linha na v0.77 e está na seção 6.*
 - **Se o teto de doze Passivas pesa na mesa.** O manual escolheu cinco por peso, não por orçamento — cada Passiva é uma coisa que o mestre lembra sozinho. A rota de Leque pura chega a doze, e paga por isso com zero aptidões e metade do atributo.
 - **Se alguém escolhe o Leque.** Ele é o eixo novo e o único que compra versatilidade em vez de poder. Se ninguém pegar, o aperto de espaços que ele resolve continua resolvido pela linha passiva — e aí ele sai.
 - **Se o Limiar sem número na mesa produz mestres que entregam o dobro achando que entregaram o mesmo.**
@@ -539,7 +559,7 @@ E os dois **correm em sentidos opostos**: a vantagem é auto-regulada e dá pouc
 | 7 | **Extensão de Domínio** | Classe 3 · refino 7, nível 13 | a duração: `refino` rodadas |
 | 8 | **Barreira Simples** | *a definir* | *a definir* |
 | 9 | **Cortina** | *a definir* | *a definir* |
-| 10 | **Energia Reversa** | *a definir* | *a definir* |
+| 10 | **Energia Reversa** | Classe Passiva 3 · refino 7, nível 13 | **nada** — o teto é `maior Classe`, e `1d8` de cura por PE |
 | 11 | **Kokusen** | — | a chance no d100, `2 ×` |
 | 12 | **Kokusen Melhorado** | refino 5, nível 14 | vantagem no d100 |
 | 13 | **(a terceira de kokusen)** | *a definir* | a chance, `3 ×` |

@@ -6,6 +6,38 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.78] — 2026-08-16
+
+**A `Energia Reversa` deixou de ser esboço e virou peça.** *Ela estava pendente desde a v0.27 — cinquenta e uma versões — e era a última dependência aberta do Guia: o nível 2 da `Sutura` apontava para uma aptidão que não existia.* Continuam dezesseis peças e dezesseis validadores.
+
+### Adicionado — a aptidão `Energia Reversa` entrou na PEÇA 11, com validador
+
+*Pendente desde a v0.27. Ela era a última dependência aberta do Guia — o nível 2 da `Sutura` apontava para uma aptidão que não existia.*
+
+> **`Energia Reversa` · Classe Passiva 3 · refino 7 e nível 13**
+> **Ação padrão. Gaste até `maior Classe` de PE e recupere `1d8` de vida por PE gasto, em você.**
+
+**Nenhum número é escolha minha.** A seção 7 daquela peça já mandava medir contra a Passiva `Recomposição` — `5 × maior Classe`, **`35` no nível 30**. O câmbio de PE existe (*"`+1` PE por rodada `= 5,14` de dano"*), cura é dano evitado e a régua converte `1` pra `1`, então **`1` PE vale cerca de `5` de cura**. E o manual já cura em dado: *"cada ponto que sobra vira `1d8`"*. **No teto são `7d8 = 31,5` contra os `35` da Passiva** — mesma altura, e a diferença é que esta cobra PE e se repete.
+
+**O gate é o mesmo da `Extensão de Domínio` e não foi escolhido por simetria.** No material, energia reversa nasce no cérebro e não no intestino, e o difícil é sustentar dois fluxos ao mesmo tempo. *A Classe Passiva 3 com refino 7 é a altura que a seção 5 reserva para o que quase ninguém alcança: o generalista só chega no nível 26.*
+
+**Ela cura VOCÊ. Quem cura os outros é a `Sutura`, no degrau do 11** — porque curar terceiro é a parte rara do material, e o Gojo não consegue.
+
+**Seis checagens novas no `conferir-aptidoes.py`, com cinco perturbações conferidas e um contra-teste.** Ela confere o gate no título, o gate contra o da `Extensão de Domínio`, a cura no teto contra a `Recomposição`, que o refino não entra na fórmula, que a linha do catálogo da seção 10 repete o gate do título, e que ela saiu da lista das que faltam — que caiu de quatro para três.
+
+> **Uma perturbação acendeu pelo motivo errado e foi consertada.** Enfiar `refino` na fórmula quebrava o regex e disparava *"não consegui ler o dado de cura"* em vez da checagem de refino. **Vermelho pelo motivo errado ensina a procurar o defeito onde ele não está** — é a mesma família do aviso que a v0.38 aposentou.
+
+### Em aberto
+
+- **Se `Energia Reversa` limpa Sequela.** *A peça 1 §5.5 pediu isso quando o `Caído` entrou na v0.37 — "a aptidão não foi escrita; quando for, este é o primeiro lugar que ela encosta".* **Agora ela foi escrita, e a pergunta ficou.** Ela é da peça de dano e condições, junto da Cicatriz.
+- **Barreira Simples, Cortina e a régua da Aptidão Própria** — as três que sobraram da lista da seção 7.
+- **Emanador e Evocador** — seis Trilhas, e o `Servo` publicado está na escala velha e reprova.
+- **O engarrafamento de Reação do Guia**, medido na v0.77 e não resolvido.
+- **Faltam nomes** para as doze entregas do Guia, as três do Bastião e o catálogo da `Pegada`.
+- As de sempre: as vagas de Desliga, a Cicatriz, o clash, o nome do sistema, o refino que paga mal no marco, a tabela de inimigo.
+
+---
+
 ## [0.77] — 2026-08-16
 
 **A matriz da Vanguarda fechou e o Guia inteiro fechou junto** — Caminho preçado e as três Trilhas em `4,78` · `4,51` · `4,74`, com matriz limpa. *E três números que eu ia chutar já existiam escritos: o preço do rerroll em duas peças, a fatia do Teste de Resistência no manual, e a âncora de cura na peça 11.* Continuam dezesseis peças e dezesseis validadores.
@@ -192,7 +224,7 @@ Quatro entregas honestas de posicionamento chegavam a `2,94`, porque **cinco fat
 
 ### Em aberto
 
-- **`Energia Reversa` não tem casa.** Enquanto ela não entrar no catálogo da peça 11, o nível 2 da `Sutura` aponta para o que não existe. *A peça 1 §5.5 também espera por ela.*
+- ~~`Energia Reversa` não tem casa.~~ **Fechada nesta versão, na peça 11.** Enquanto ela não entrar no catálogo da peça 11, o nível 2 da `Sutura` aponta para o que não existe. *A peça 1 §5.5 também espera por ela.*
 - **O engarrafamento de Reação.** O `Ninguém Cai` do Caminho, o `Elo` nível 11 e o `Perímetro` nível 11 querem a mesma Reação. *Dentro de cada Trilha não colide; entre Trilhas, na mesma mesa, colide.* **É o defeito que matou a primeira versão do `Executor` na v0.75, num slot diferente.**
 - **`condição` continua sem conversão.** Só a exaustão tem magnitude escrita, e o nível 11 da `Sutura` carrega o resto quase de graça.
 - **Uma previsão segura a `Sutura` inteira:** *"o curandeiro cura em metade das rodadas"*. Ela é multiplicador dos quatro degraus, e não tem dono.
