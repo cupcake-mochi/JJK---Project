@@ -219,6 +219,128 @@ E o **Yuji** com o Punho Divergente é a mesma ideia num golpe só: o soco acert
 
 ---
 
+# `Executor` mecânico — fechado na v0.76
+
+> **`4,68` de `5,00` fatias.** *E o preço do PV temporário foi refeito aqui: ele vale `1` de dano evitado, não `1,5`. O erro está no fim deste bloco.*
+
+| nv | a entrega | forma | fatias |
+|---|---|---|---|
+| **2** | **`Pegada`** — escolha um estilo da lista | permanente | **0,79** *(teto do menu)* |
+| **11** | **`Aprumo`** — ação bônus, PV temporário | botão, com usos | **1,84** |
+| **19** | **`Revide`** — Reação contra quem bate colado | botão | **1,70** |
+| **27** | **`Retomada`** — rerrolar uma rolagem de ataque | botão, com usos | 0,35 |
+
+> **Nível 2 — `Pegada`.** Você escolhe um **estilo de luta**, e ele vale a campanha inteira. Cada estilo pede um jeito diferente de segurar a arma, e é isso que impede um de ser a versão melhor do outro.
+>
+> **Nível 11 — `Aprumo`.** *Ação bônus.* Você ganha **`1d10 + o seu atributo de ataque`** de PV temporário — Força ou Destreza, o que a sua ficha usa para bater. **`Metade desse atributo` usos**, e eles voltam no descanso curto.
+>
+> **Nível 19 — `Revide`.** *Reação.* Quando alguém a até `1,5 m` faz um ataque contra você — **acertando ou errando** —, você pode gastar a sua Reação para atacar essa criatura.
+>
+> **Nível 27 — `Retomada`.** Quando você **erra uma rolagem de ataque**, role de novo e use o segundo resultado. **`Maestria` vezes por dia.**
+
+## A lista da `Pegada`
+
+**Teto de `0,79` fatia por estilo**, e o teto é o que a Trilha paga — porque quem escolhe é o jogador, e ele escolhe o mais caro que a ficha dele alcança.
+
+| estilo | pede | o que dá | fatias |
+|---|---|---|---|
+| **`Duelista`** | uma arma numa mão, a outra vazia | `+2` de dano em todo golpe | **0,79** |
+| **`Arremesso`** | arma arremessada | `+2` de dano em todo golpe | **0,79** |
+| **`Desarmado`** | punho vazio | `+metade da maestria` de dano no soco | **0,79** |
+| **`Defesa`** | vestindo `Traje` ou `Revestimento` | `+1` de Defesa | 0,67 |
+| **`Arma Grande`** | arma de duas mãos | rerrolar `1` e `2` no dado de dano | 0,33 |
+
+> **A regra que cai da conta: todo estilo TEM de pedir alguma coisa.** Um estilo sem porta está disponível para toda ficha, e aí ele domina qualquer estilo mais barato — o jogador simplesmente pega o de cima. *Foi por isso que a `Defesa` ganhou o uniforme como porta; sem ele, ela dominava a `Arma Grande` por `2,0×` e ninguém nunca escolheria a segunda.*
+
+**O catálogo não está fechado**, e os dois de baixo têm folga até o teto. *Ele é do mesmo tamanho de problema das treze `Manhas` de arma que o Caminho da Vanguarda também deve.*
+
+> ## ⚠ `Arquearia` não existe neste sistema, e vale escrever por quê
+>
+> O estilo do 5e dá **`+2` no acerto**. Aqui um ponto de acerto vale `10,80` de dano por rodada, então dois valem `21,60` — **`4,25` fatias, que é `85%` de uma Trilha inteira numa linha de menu.** Cortado pela metade ainda custa `2,13`.
+>
+> **Não existe estilo de acerto neste sistema.** É a mesma parede que o `+1` no acerto encontrou quando foi proposto como entrega de nível 2.
+
+## De onde sai cada número
+
+| | botão | taxa | dano/rodada | fatias |
+|---|---|---|---|---|
+| `Pegada` — `+2` de dano em dois golpes | `4,00` | permanente | `4,00` | **0,79** |
+| `Aprumo` — `1d10 + 6` de PV temporário, `3` usos | `11,50` | `81%` | `9,32` | **1,84** |
+| `Revide` — um golpe simples | `11,50` | `75%` | `8,62` | **1,70** |
+| `Retomada` — uma rerrolagem, `4` por dia | `5,75` | `31%` | `1,78` | **0,35** |
+| | | | **soma** | **4,68** |
+
+**As duas taxas que não são óbvias:**
+
+**O `Revide` vale `75%`, e não `100%`.** A tabela de inimigo do manual põe o chefe do nível 30 em `72` de dano por rodada e o capanga em `38`, e o próprio manual escreve que o chefe *"perde a ação três vezes por rodada"* contra um grupo de quatro. Isso dá **`1,0` a `1,5` ataque colado por rodada em você**, e **você só tem uma Reação** — a chance de pelo menos um chegar fica entre `63%` e `78%`. *`75%` é o meio da banda, e por acaso é a mesma taxa que o `Engate` do `Punho` já usa.*
+
+**A `Retomada` vale `31%` porque o relógio é por dia.** `Maestria` são `4` usos, o dia tem `3,5` lutas de `3,7` rodadas — `4` em `12,95` rodadas. *Por descanso curto ela valeria `0,85` fatia, porque numa luta você tem erro para rerrolar em `2,8` das `3,7` rodadas e `4` usos passam disso: **o contador não apertaria.** Foi isso que fez o relógio ser por dia.*
+
+> **E aí `maestria` e `metade do atributo` deixam de dar o mesmo número.** Por descanso curto os dois davam `0,85`, porque quem limitava eram os erros e não os usos. Por dia, `4` usos valem `0,35` e `3` valem `0,26`. **Só com o relógio longo o contador passa a decidir alguma coisa.**
+
+## O `Aprumo` por nível, e ele é a curva mais plana desta leva
+
+| nível | atributo | usos | PVT por uso | PVT na luta | dano na luta | absorve |
+|---|---|---|---|---|---|---|
+| 11 | 4 | 2 | 9,5 | 19,0 | 56,8 | **33%** |
+| 19 | 5 | 2 | 10,5 | 21,0 | 91,4 | 23% |
+| 27 | 6 | 3 | 11,5 | 34,5 | 116,1 | 30% |
+| 30 | 6 | 3 | 11,5 | 34,5 | 125,4 | 28% |
+
+**Entre `23%` e `30%` da porrada da luta inteira, do nível 11 ao 30.** *A escada de PVT não deriva porque ela cresce com o atributo, que sobe `2,00×` na campanha contra os `8,31×` da Rotina — ela cai devagar, e os usos subindo de `2` para `3` no nível 27 é o que segura.*
+
+## As travas, rodadas
+
+| | `Executor` |
+|---|---|
+| **na banda `4,50`–`5,00`** | ✓ `4,68` |
+| **nível 2 permanente ou condicional** | ✓ a `Pegada` é permanente |
+| **algo que o jogador decide usar** | ✓ **três**: o `Aprumo`, o `Revide` e a `Retomada` |
+| **nenhuma entrega depende de outra** | ✓ as quatro funcionam sozinhas |
+
+**Dominância contra as irmãs, no que dá para medir hoje:**
+
+| | ação/alvo | defesa | posicionamento | recuperação | total |
+|---|---|---|---|---|---|
+| `Estocada` | **4,58** | 0,00 | 0,00 | 0,00 | 4,58 |
+| `Executor` | 2,84 | **1,84** | 0,00 | 0,00 | 4,68 |
+| `Batedor` | *(não publicado)* | 0,00 | *(não publicado)* | 0,00 | 4,52 a 4,82 |
+
+**O `Executor` é o único dos três com coluna de defesa**, e a `Estocada` lidera ação/alvo com folga de `1,6×`. **Nenhum domina o outro.**
+
+> **Mas a matriz da Vanguarda não fecha ainda, e o motivo é meu.** A `Estocada` e o `Batedor` foram preçados **sem separar as entregas por coluna** — os totais existem, a divisão não. *O Bastião só ganhou matriz porque as doze entregas dele foram escritas com a família de cada uma declarada.* **Antes de fechar a Vanguarda, as sete entregas daqueles dois precisam de coluna.**
+
+## O erro de régua que esta versão consertou
+
+**Eu preçava PV temporário a `1,50` de dano por ponto, e o certo é `1,00`.**
+
+O `1,50` vem de cruzar duas linhas do manual: a Forma `Apoio` diz *"cada ponto que sobra vira 3 de vida temporária"* e o glossário diz *"cada ponto que sobra vira 1d8"*, que é `4,5`.
+
+**Aquela é a moeda de montar feitiço. A moeda da fatia é dano por rodada, e as duas não se convertem uma na outra.**
+
+**Quem prova é o `Alicerce`, que já estava publicado:**
+
+| | evita por rodada | publicado | dano por fatia |
+|---|---|---|---|
+| `Alicerce`, 1 tipo | 3,39 | 0,67 | **5,06** |
+| `Alicerce`, 2 tipos | 6,78 | 1,33 | **5,10** |
+| `Alicerce`, 3 tipos | 10,17 | 2,00 | **5,08** |
+
+A fatia é `5,08`, e as três batem. **O projeto converte dano evitado `1` pra `1`, sem multiplicador nenhum** — e essa é a régua para PV temporário, resistência e redução, todas.
+
+*Quem desconfiou foi o Mizuki, três vezes seguidas na mesma passada: o preço da Reação, o preço do PV temporário e o corte que eu queria fazer na fórmula dele. As três vezes a conta deu razão a ele.*
+
+> **E uma armadilha de leitura na mesma tabela do manual:** `Fluxo | 2` na lista de Passivas **não** quer dizer *"custa 2 pontos"*. **A coluna é `Classe`** — o `Fluxo` é Passiva de Classe 2 e custa dois espaços de feitiço. *Li errado e cheguei a escrever que o manual tinha duas réguas de PV temporário. Tem uma só.*
+
+## O que este bloco deixa em aberto
+
+- **A matriz da Vanguarda**, que precisa das sete entregas da `Estocada` e do `Batedor` divididas por coluna.
+- **O catálogo da `Pegada`**, com cinco entradas e duas delas abaixo do teto. *Junto com as treze `Manhas` de arma, que o Caminho deve desde a v0.70.*
+- **Nada disto tem validador.** A régua de Trilhas ainda não virou peça, então nenhum `conferir-*.py` alcança este arquivo.
+- **A trava do `Revide` contra o `Não Acabou`:** o degrau de nível 30 do Caminho da Vanguarda **devolve a sua Reação** quando você derruba um alvo. Numa luta contra vários, o `Revide` passa a disparar mais de uma vez por rodada. *Não medi isso — ele só morde contra turba, que é o oposto do que esta Trilha faz.*
+
+---
+
 ## Vanguarda — a arma como resposta
 
 ### Estocada — *versátil, com um pé em feitiço*
@@ -457,11 +579,13 @@ Aquele `11,50` é a linha de comparação do §2 da **peça 5**, e ela usa `1d10
 
 *O `4,80` que estava nesta linha para o `Muro` nunca bateu com as quatro entregas dele, que somam `4,87` e sempre somaram. **Duas casas do mesmo documento com dois números** — a lição nº 9 dentro de uma tabela de cinco linhas.*
 
+*E a **célula de defesa do `Muro` na matriz** dizia `4,10` enquanto as três entregas defensivas dele somam `4,16` — a linha não fechava com o próprio total publicado, por `0,06`. **Corrigido na v0.76.** As linhas do `Punho` e da `Brasa` fecham exatas.*
+
 **Matriz de dominância — limpa.**
 
 | | ação/alvo | defesa | posicionamento | recuperação | total |
 |---|---|---|---|---|---|
-| `Muro` | 0,00 | **4,10** | 0,71 | 0,00 | 4,87 |
+| `Muro` | 0,00 | **4,16** | 0,71 | 0,00 | 4,87 |
 | `Punho` | 3,68 | 0,00 | **2,41** | 0,00 | **6,09** |
 | `Brasa` | **4,02** | 0,00 | 0,00 | **1,01** | 5,03 |
 
@@ -474,8 +598,10 @@ Aquele `11,50` é a linha de comparação do §2 da **peça 5**, e ela usa `1d10
 | o soco no nível 30 — `d10 + Força 6`, peça 14 §5.0.6 | `11,50` | 2,26 |
 | ... disparado por *"quando você acerta"*, com dois ataques (`75%`) | `8,62` | **1,70** |
 | ... o mesmo gatilho lido a `50%`, que era o erro | `5,75` | 1,13 |
-| resistência, primeiro tipo — metade do dano que você toma | `8,47` | 1,67 |
-| resistência, segundo tipo — o que sobra depois do primeiro | `4,24` | 0,83 |
+| resistência, **um** tipo — `20%` do dano que você toma, pela metade | `3,39` | 0,67 |
+| resistência, **dois** tipos — `40%`, pela metade | `6,78` | 1,33 |
+| resistência, **três** tipos — os Físicos inteiros, `60%` | `10,17` | 2,00 |
+| PV temporário — `1` de PVT evita `1` de dano, sem multiplicador | `1,00` | 0,20 |
 | `Absorver` num aliado, `1×` por descanso curto | `5,40` | 1,06 |
 | ... `maestria` vezes por descanso curto | `21,60` | **4,25 — não cabe, come 85% da Trilha** |
 | Classe 2 no bônus, trocando o ataque extra, com gate de acerto | `5,25` | 1,03 |
@@ -485,6 +611,10 @@ Aquele `11,50` é a linha de comparação do §2 da **peça 5**, e ela usa `1d10
 | `Fornalha` com dois ataques | `4,50` | 0,89 |
 | `Fornalha` com três, alvos diferentes | `9,00` | 1,77 |
 | ... a mesma coisa com **Classe 2** | `75,00` | **14,76 — 295% da Trilha** |
+
+> **Estas quatro linhas estavam na régua velha até a v0.76, e o documento carregava DUAS réguas de resistência ao mesmo tempo.** A tabela de baixo cobrava `1,67` pelo primeiro tipo e `0,83` pelo segundo — que é o modelo de `50%` e depois `25%` do dano recebido, de antes de a lista de tipos de dano existir. **O `Alicerce` sempre esteve preçado pela nova**, em `1,33` pelos dois tipos; quem ficou para trás foi só esta tabela, que ninguém converteu junto. *Diferença de `1,88×` no mesmo botão, dentro do mesmo arquivo — a lição nº 9 numa tabela de dezesseis linhas.*
+>
+> **E a linha do PV temporário entrou aqui porque ela é a mesma régua.** Dano evitado vale `1` pra `1`, e é assim que o `Aprumo` do `Executor` foi preçado.
 
 > **A vantagem, de onde ela sai.** Com acerto em `50%`, `1 − (1 − 0,5)² = 75%`, e o ganho é `25` pontos percentuais — metade a mais de dano. **Dona: peça 11**, na tabela do Limiar, e as peças 13 e 14 já repetiam o número. *As linhas de `16` pp ficam à vista de propósito, para ninguém refazer o caminho errado.*
 
