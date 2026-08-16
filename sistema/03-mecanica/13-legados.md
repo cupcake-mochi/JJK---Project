@@ -1016,7 +1016,7 @@ O que sobrou dele virou duas coisas que **não** são técnica: o `Nunca Estive 
 | **Aptidão** | **Energia Reversa não é técnica inata** — é manipulação de energia amaldiçoada, e é exatamente por isso que alguém sem técnica consegue usar. O que é raro nela é curar **os outros** |
 | **Estilo da Sombra** | **anti-domínio**, e a espada é o jeito mais comum de usar — não o requisito |
 
-**As duas caem na camada de aptidão e ferramenta, e metade já está construída:** as quatro anti-domínio entraram na v0.29, e a Energia Reversa já está na lista de aptidões pendentes. **O que falta de verdade é ferramenta amaldiçoada, que é a peça 2 da fila.**
+**As duas caem na camada de aptidão e ferramenta, e metade já está construída:** as quatro anti-domínio entraram na v0.29, e a `Energia Reversa` fechou na v0.78, na peça 11 §6. **O que falta de verdade é ferramenta amaldiçoada, que é a peça 2 da fila.**
 
 > **A espada não é obrigatória, e o projeto já sabia disso antes de a prosa saber.** A peça 9 descreve o Estilo da Sombra como *"técnica de espada e corpo"*, e no material a técnica central dele **foi aprendida em um mês por alguém que não usa espada**. Mais: o exemplar canônico de grau 1 virou líder da escola e **derrubou as restrições dela**. A **seção 6.5 da peça 11 já trata o Domínio Simples como aptidão pura** — raio em volta de você, com os pés no chão, sem uma palavra sobre lâmina. *A mecânica estava certa e a prosa da peça 9 estava mais estreita que ela.*
 

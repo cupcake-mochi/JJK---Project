@@ -521,7 +521,7 @@ else:
 # CONTRA-TESTE: cada checagem abaixo le o numero do DOCUMENTO, nunca do codigo.
 # A cura no teto e a ancora da Recomposicao sao lidas do texto da secao 6; mexer
 # em qualquer uma das duas move a comparacao, que e o que se quer.
-bloco('N+1. A APTIDAO `Energia Reversa` — v0.77')
+bloco('N+1. A APTIDAO `Energia Reversa` — v0.78')
 
 _s6 = _t11.split('### Energia Reversa')[1].split('\n## 6.5.')[0] \
       if '### Energia Reversa' in _t11 else ''

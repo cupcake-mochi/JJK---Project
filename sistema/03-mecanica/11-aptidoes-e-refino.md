@@ -399,7 +399,7 @@ As outras duas quebram nas pontas: com `2 ×` você se defende uma vez e acabou 
 
 ## 7. As três que faltam, e por que
 
-*As quatro anti-domínio saíram desta seção na v0.29 e estão na seção 6.5. **A `Energia Reversa` saiu na v0.77** e está escrita na seção 6, com o gate, o teto e a conta — medida contra a `Recomposição`, que é exatamente o que esta seção mandava fazer.*
+*As quatro anti-domínio saíram desta seção na v0.29 e estão na seção 6.5. **A `Energia Reversa` saiu na v0.78** e está escrita na seção 6, com o gate, o teto e a conta — medida contra a `Recomposição`, que é exatamente o que esta seção mandava fazer.*
 
 **Faltam por número, e não por dependência:**
 
@@ -432,7 +432,7 @@ O `arquitetura.md` sustenta: *"discricionariedade na ficção é o trabalho do m
 ## 9. Em aberto
 
 - **As quatro anti-domínio**, travadas até a Expansão existir no manual v7.7.
-- **O número de Barreira Simples e Cortina**, e a régua da Aptidão Própria. *A `Energia Reversa` saiu desta linha na v0.77 e está na seção 6.*
+- **O número de Barreira Simples e Cortina**, e a régua da Aptidão Própria. *A `Energia Reversa` saiu desta linha na v0.78 e está na seção 6.*
 - **Se o teto de doze Passivas pesa na mesa.** O manual escolheu cinco por peso, não por orçamento — cada Passiva é uma coisa que o mestre lembra sozinho. A rota de Leque pura chega a doze, e paga por isso com zero aptidões e metade do atributo.
 - **Se alguém escolhe o Leque.** Ele é o eixo novo e o único que compra versatilidade em vez de poder. Se ninguém pegar, o aperto de espaços que ele resolve continua resolvido pela linha passiva — e aí ele sai.
 - **Se o Limiar sem número na mesa produz mestres que entregam o dobro achando que entregaram o mesmo.**

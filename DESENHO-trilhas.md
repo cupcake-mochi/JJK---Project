@@ -759,7 +759,7 @@ Aquele `11,50` é a linha de comparação do §2 da **peça 5**, e ela usa `1d10
 
 > **⚠ O nível 27 desta tabela contradiz a fonte, e fica riscado em vez de apagado.** *Energia Reversa **não cura dano de alma**. A única exceção do material é o Sukuna, e só na própria alma, porque ele conhece a forma dela.* **O substituto saiu do mesmo levantamento e está no bloco mecânico:** a raridade da técnica é sustentar **dois fluxos de energia ao mesmo tempo**, e o capstone é segurar os dois abertos em outra pessoa.
 
-> **⚠ O nível 2 depende de uma aptidão que não existe.** `Energia Reversa` está na lista de aptidões pendentes desde a v0.27 e nunca foi escrita. **Decisão do Mizuki na v0.77: escrever ela agora e preçar a Trilha em cima dela.** *O esboço está no bloco mecânico; ele ainda precisa ir para o catálogo da peça 11.*
+> **⚠ O nível 2 dependia de uma aptidão que não existia.** `Energia Reversa` ficou na lista de pendentes da v0.27 até a v0.78 — cinquenta e uma versões. **Decisão do Mizuki na v0.77: escrever ela e preçar a Trilha em cima dela.** *O esboço está no bloco mecânico abaixo, e ele **virou peça na v0.78**: a aptidão mora na peça 11 §6, com gate, teto e seis checagens.*
 
 ### Perímetro — *o chão decide*
 
@@ -783,7 +783,7 @@ Aquele `11,50` é a linha de comparação do §2 da **peça 5**, e ela usa `1d10
 ### O que este bloco deixa em aberto
 
 - **Nada disto tem número.** É ficção, no método que fechou as seis primeiras: você revisa, e só depois eu preço.
-- **A `Sutura` está travada pela `Energia Reversa`**, que é aptidão não escrita.
+- ~~A `Sutura` está travada pela `Energia Reversa`, que é aptidão não escrita.~~ **Destravada na v0.78** — a aptidão está na peça 11 §6.
 - **O `Elo` inteiro depende de `duração`, `alcance` e `quantos alvos` serem preçáveis.** *A `duração` voltou ao permitido na v0.77, quando a lista de gatilhos foi convertida de escala. **`Alcance` continua sem linha de preço nenhuma** — e o bloco do `Batedor` já tinha avisado: "o sistema não tem preço para alcance."*
 - **Faltam nomes** para o que cada entrega faz. *Nenhum passou pela triagem, e o `Elo` do nível 2 encosta em vocabulário de Forma de feitiço.*
 
@@ -873,7 +873,7 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 
 *O gate é o mesmo da `Extensão de Domínio`, e ele casa com o material: energia reversa nasce no cérebro e não no intestino, e o difícil é sustentar dois fluxos ao mesmo tempo.* **É coisa que quase ninguém alcança — o que faz a `Sutura` dar ela no nível 2 valer o que vale.**
 
-> **⚠ Ela ainda não tem casa.** Precisa entrar no catálogo da peça 11 §6, com Classe Passiva e gates declarados, e ganhar checagem no `conferir-aptidoes.py`. *A peça 1 §5.5 também espera por ela, para saber se Energia Reversa limpa Sequela.*
+> **✔ Ela ganhou casa na v0.78.** Está no catálogo da peça 11 §6, com Classe Passiva e os dois gates declarados, e com seis checagens no `conferir-aptidoes.py`. *O que continua pendurado é a peça 1 §5.5: se Energia Reversa limpa Sequela. Essa é da peça de dano e condições, junto da Cicatriz.*
 
 ---
 
@@ -918,8 +918,240 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 
 ## O que este bloco deixa em aberto
 
-- **`Energia Reversa` não tem casa.** Enquanto ela não entrar na peça 11, o nível 2 da `Sutura` aponta para o que não existe.
+- ~~`Energia Reversa` não tem casa.~~ **Fechada na v0.78, na peça 11 §6**, com seis checagens. O nível 2 da `Sutura` já aponta para coisa que existe.
 - **O engarrafamento de Reação.** O `Ninguém Cai` do Caminho, o `Elo` nível 11 e o `Perímetro` nível 11 querem a mesma Reação, e o Guia tem uma. *Dentro de cada Trilha não colide; **entre** Trilhas, numa mesa com dois Guias, colide.* **Foi o defeito que matou a primeira versão do `Executor` na v0.75, num slot diferente.*
 - **`condição` continua sem conversão.** O nível 11 da `Sutura` carrega ela quase de graça — só a exaustão tem magnitude escrita.
 - **Duas previsões seguram números:** a saída voluntária, entre `15%` e `30%`, e *"o curandeiro cura em metade das rodadas"*. **A primeira a banda absorve; a segunda não** — ela é multiplicador de toda a `Sutura`.
 - **Faltam nomes para as doze entregas.** Nenhuma passou pela triagem. *E `Espírito` e `Intelecto`, que apareceram na conversa, são nomes de **Teste de Resistência** e não de atributo — os atributos são Essência e Inteligência.*
+
+---
+
+---
+
+## Emanador — a técnica como resposta
+
+*Ficção, sem número, no método da v0.69. **As três âncoras saíram de levantamento**, e uma delas trouxe mecanismo junto — o jeito como o Kenjaku contorna o desgaste da técnica é **aptidão e não potência**, que por acaso é a tese inteira do `Repertório`.*
+
+**A cerca deste Caminho é a mais cheia dos três**, e vale escrever antes de qualquer entrega. O Caminho do Emanador já ocupa quatro coisas: **trocar vida por PE** no nível 2, o **Classe 0 a mais** no nível 7, **trocar um feitiço conhecido no descanso longo** no nível 15, e o **desconto de PE** no nível 30. *As três Trilhas ficam fora dessas quatro.*
+
+> **O nível 7 estava pendurado numa decisão e ela saiu.** Ficou a `Voz Grossa` que **cresce o Classe 0 até o tamanho do golpe simples** — `7,00` de dano por rodada, o vão exato —, mais a **`Modelagem`**, que é trocar uma Melhoria já paga por outra de custo igual ou menor na hora de conjurar, e que vale `0,00`. *A versão recusada punha um Classe 0 na ação bônus.*
+>
+> **Isso importa para a `Torrente` mais do que para o Caminho: a ação bônus ficou LIVRE.** Nenhum degrau de Caminho do Emanador ocupa aquele slot, então **a `Torrente` é a única dona do segundo feitiço da rodada.** *Ela nasce em terreno limpo, e não em cima de coisa já tomada.*
+
+### Torrente — *mais de uma vez, e a energia acaba*
+
+**No material:** o **Jogo**. Ele não resolve nada com um feitiço grande e uma boa mira — ele **cobre a área de saída**. Do vulcão da cabeça saem os `Ember Insects`, várias cigarras de uma vez que gritam e depois explodem, num ataque de dois tempos. Ele forma vulcões no chão que erupcionam na hora. E quando ele quer acabar, o `Maximum: Meteor` desce por cima de tudo.
+
+*A parte que interessa não é o fogo: é que quase toda cena dele tem **mais de uma coisa acontecendo ao mesmo tempo**, e nenhuma delas é o golpe definitivo.*
+
+**E a outra ponta do eixo é o Gojo**, no único lugar do material em que duas técnicas saem **juntas** de propósito: o `Hollow Purple` é o `Blue` e o `Red` disparados ao mesmo tempo e colididos. *Não é uma técnica que ele usa à toa — é a mais cara que ele tem.* **É de onde sai o "a um custo".**
+
+> **A frase da Trilha:** *você não lança um feitiço por rodada. Você lança até a energia acabar — e ela acaba.*
+
+| nível | o que acontece |
+|---|---|
+| **2** | Cabe um segundo feitiço na sua rodada. Ele é menor que o primeiro, e é sempre menor |
+| **11** | O teto do segundo sobe junto com você, em vez de ficar para trás enquanto o resto cresce |
+| **19** | Existe a rodada em que você despeja tudo. Ela existe, e o preço dela chega logo depois |
+| **27** | O segundo feitiço deixa de ser o troco do primeiro. Quem te enfrenta perde a janela que existia entre os dois |
+
+*O nível 2 é a ideia do Mizuki posta em ficção: o segundo feitiço é limitado pela **metade da sua maior Classe**, e não pelo Classe 0 do manual. Quem tem Classe 4 liberada devolve um Classe 2.*
+
+#### `Torrente` em mecânica — a escada cai da própria regra, e falta `1` fatia
+
+> **A forma é do Mizuki, e ela tem duas metades:** *acelerar* um feitiço da ação padrão para a ação bônus pagando PE, **e** subir o teto que a regra de ouro nº 6 impõe — de `Classe 0` para **metade da sua maior Classe disponível**.
+
+**A tabela 5 do manual diz em que nível cada Classe libera, e cruzando com a regra dele a escada aparece sozinha:**
+
+| degrau da Trilha | maior Classe | teto do outro feitiço | ganho no nv30 |
+|---|---|---|---|
+| **2** | 1 | **`0`** — só o `acelerar` | `0,00` |
+| **11** | 3 | **`1`** | `8,50` |
+| **19** | 5 | **`2`** | `22,50` |
+| **27** | 7 | **`3`** | `35,50` |
+
+> **Os quatro degraus caem exatos em `0 · 1 · 2 · 3`, e ninguém escreveu tabela nenhuma.** *A regra é uma frase e ela produz a escada — e o nível 2 sai vazio, que é justamente onde o `acelerar` cabe.* **E o `Classe 3` só existe do nível 21 em diante**, porque é lá que a Classe 6 libera.
+
+**O relógio é `2×` por cena, e ele foi escolhido com a conta na mesa** — numa luta de `3,7` rodadas isso é uma taxa de `54%`, e o degrau do 27 cai de `6,99` para **`3,78` fatias**.
+
+> **O PE não podia ser o freio sozinho, e isso é medido.** Uma rodada de `Torrente` no nível 30 custa `30` de PE; uma luta inteira assim custa `111` de um pool de `180`. **Dentro da luta o pool não limita** — ele só morde na segunda luta do dia. *É o `nova problem` do hobby: recurso alimentado por tempo, sem pressão de tempo, é de graça na luta que importa.*
+
+**A sobretaxa do `acelerar` sai do manual e não de escolha:** o `Rápido` — *"custa Ação Bônus em vez de Ação Padrão"* — é uma Melhoria **Pesada**, e Pesada custa `Classe e meia`, arredondando para cima. **Cobrar isso em PE dá `11` a mais num Classe 7**, e aí a rodada custa `41` de PE: o pool cobre `4,4` rodadas de torrar no dia, contra as `7` que o relógio permitiria. *Os dois freios se encontram, e nenhum dos dois foi inventado.*
+
+> **O vão que apareceu somando, e o que ele NÃO podia ser.** A escada sozinha dá `3,78` contra uma banda de `4,50` a `5,00`. **O `acelerar` do nível 2 não fecha, porque ele não SOMA com o teto** — é o mesmo turno e a mesma ação padrão: ou você usa a padrão liberada para bater (`+7,00`, que a `54%` dá `0,74` fatia), ou você lança o Classe 3 nela. *No nível 30 ninguém escolhe bater, então aquela metade vira letra morta.*
+>
+> **A primeira proposta era devolver PE ao torrar, e o Mizuki matou ela pela ficção:** *"por que o acelerar recupera energia se o intuito é gastar mais?"* **Ele tem razão e o defeito é de desenho, não de conta** — o número fechava a banda em `4,87` e dizia o contrário do que a Trilha é. *Fica registrado porque a conta estava certa e mesmo assim a peça estava errada.*
+
+#### A regra chega inteira no nível 11, e sobe sozinha depois
+
+*Decisão do Mizuki, e ela é mais simples que a escada que eu tinha desenhado.* **Em vez de o teto subir de degrau em degrau, a regra `metade da sua maior Classe` chega inteira no nível 11** — e daí em diante ela acompanha a sua maior Classe sem que ninguém escreva mais nada.
+
+| nível | maior Classe | teto | o segundo feitiço |
+|---|---|---|---|
+| 11 | 3 | `1` | `13` de dano |
+| 13 | 4 | `2` | `27` |
+| 21 | 6 | `3` | `40` |
+| 30 | 7 | `3` | `40` |
+
+**Esse degrau sozinho carrega `3,78` fatias no nível 30 — `76%` da Trilha.** *Sobram `1,22` para o 19 e o 27 juntos, e é um orçamento apertado de propósito.*
+
+## `Torrente` — `5,37` de `5,00` fatias, `7%` acima da banda
+
+| nv | a entrega | forma | fatias |
+|---|---|---|---|
+| **2** | **`acelerar`**, `2×` por cena. Teto do outro feitiço: `Classe 0` | botão | *(a base)* |
+| **11** | o teto vira **metade da sua maior Classe** | permanente | **3,78** |
+| **19** | o `acelerar` **não gasta carga** quando você não torra | permanente | 0,10 |
+| **27** | a metade **arredonda para CIMA** | permanente | **1,49** |
+
+> **Nível 2 — `acelerar`.** *`2×` por cena.* Você conjura um feitiço da sua **ação padrão como ação bônus**, pagando **`Classe e meia` de PE a mais**, arredondando para cima. *Num Classe 7 são `11` de PE — o preço que a coluna `Pesada` da tabela 81 dá.*
+> Naquele turno, o outro feitiço que você lançar **não passa de `Classe 0`** — que é o que a regra de ouro nº 6 já diz.
+>
+> **Nível 11.** Aquele teto deixa de ser `Classe 0` e passa a ser **metade da sua maior Classe**, arredondando para baixo.
+>
+> **Nível 19.** Se o outro feitiço daquele turno for **`Classe 0`**, o `acelerar` **não gasta carga.** *Acelerar vira automático; torrar continua sendo recurso.*
+>
+> **Nível 27.** Aquela metade passa a **arredondar para cima.** *Com Classe 7 o teto vai de `Classe 3` para `Classe 4`.*
+
+> **O nível 27 é uma linha de texto e é o degrau mais caro da Trilha, e isso não é acidente.** O projeto arredonda sempre **para o lado que não te favorece** — é regra global da peça 1. **Inverter isso num lugar só é uma exceção legível**, que qualquer mestre lê e aplica igual. *E ela não oscila: do nível 27 ao 30 a maior Classe é sempre `7`, então o teto é sempre `Classe 4`.*
+
+**A matriz da `Torrente` no nível 30:** `5,37` em ação/alvo, e zero nas outras três colunas. *Ela é a Trilha mais monocromática do Emanador, e isso vai importar quando as três forem cruzadas.*
+
+> **O estouro de `7%` está aceito, e o precedente é do próprio Mizuki:** o `Punho` fechou `22%` acima e ficou. **Sete por cento é menos de um terço daquilo**, e cabe dentro da largura da própria banda de escrita.
+
+> **E o PE virou freio de verdade nesta versão.** Uma rodada de pico no nível 30 custa **`44` de PE** — `21` do Classe 7, `11` da sobretaxa e `12` do Classe 4. **O pool de `180` cobre `4,1` rodadas, que é `1,1` luta.** *Ou seja: você torra uma luta inteira no dia, e a segunda você entra com o bolso vazio.* **É exatamente a ficção — você lança até a energia acabar, e ela acaba.**
+>
+> **A rodada de pico faz `148` de dano contra os `98` da base — `+50%` —, e ela acontece em `54%` das rodadas.** *E são DUAS ações, bônus e padrão, que é a contagem normal do conjurador: o `+18%` que a peça 6 §3.1 reprova é o mecanismo de **três** ações, e esta Trilha não usa ele.*
+
+> **Duas coisas ficam declaradas e não consertadas.** A Trilha **não passa** a trava *"nenhuma entrega depende de outra"* — o 11, o 19 e o 27 penduram todos no `acelerar` do nível 2. *É o desenho pedido, no mesmo molde do `Perímetro`.* **E o nível 2 dispara em `54%` das rodadas**, que é o limite baixo do *"permanente ou dispara muito"* que a trava do nível 2 exige.
+
+---
+
+### Repertório — *saber a jujutsu que a hora pede*
+
+**No material:** o **Kenjaku**. Mil anos trocando de corpo, e o que ele acumulou nesse tempo não foi potência — foi **repertório**. O Culling Game inteiro foi montado com uma mistura de várias jujutsu diferentes, nenhuma delas espetacular sozinha.
+
+**E o achado do levantamento é o mecanismo, não a ficção.** Depois de abrir domínio, a técnica de um feiticeiro fica desgastada e ele para de usá-la por um tempo. O Kenjaku continuou trocando de corpo mesmo depois de abrir o dele — e a explicação que o Kusakabe levanta na obra é **técnica de barreira**: o contorno do corpo funciona como barreira, e o que está gravado numa barreira não precisa mais ser sustentado ativamente.
+
+> **Ele resolveu um limite de técnica com uma aptidão.** *É a tese desta Trilha inteira, e ela veio da fonte em vez de eu ter inventado.*
+
+**E o Tengen encosta pelo outro lado**, sendo o maior barreirista da obra sem que ninguém nunca chame a barreira de técnica inata.
+
+> **A frase da Trilha:** *o que decide não é a sua técnica ser maior. É você saber a jujutsu que a situação pediu.*
+
+| nível | o que acontece |
+|---|---|
+| **2** | Você já sabe uma jujutsu que as outras fichas só alcançam muito depois |
+| **11** | O que trava a técnica dos outros não te trava — você tem por onde sair |
+| **19** | O que você viu funcionar, você aprende. Sem o refino que aquilo normalmente cobraria |
+| **27** | Duas coisas abertas ao mesmo tempo, que é justamente o que quase ninguém sustenta |
+
+> **⚠ Esta é a Trilha com maior risco de preço do lote, e o motivo já está medido no projeto.** O problema aberto nº 4 da peça 11 diz que **a rota de controle se paga pela quantidade de aptidões e quase não pela magnitude do refino** — o `+2` de refino que sete escolhas de marco compram muda pouquíssimo. **Então `aptidões extras` é literalmente a metade que vale**, e `nunca refino` é a metade que não vale. *A Trilha está comprando o lado caro da moeda, e ela vai precisar de preço em cima de contagem e não de tamanho.*
+
+### Arremate — *o feitiço acontece onde a mão chega*
+
+**No material:** o **Mahito**. A `Idle Transfiguration` **só funciona no toque** — para desfigurar a alma de alguém ele precisa encostar. Por isso ele não luta como conjurador: ele briga de mão, e o feitiço é o que acontece quando a mão chega.
+
+**E a escada dele já vem pronta da fonte:** dentro do domínio, o `Self-Embodiment of Perfection` **tira a exigência do toque**. *Ele passa a transfigurar quem está lá dentro sem encostar — que é exatamente a forma de um capstone.*
+
+> **A frase da Trilha:** *o feitiço não é lançado à distância. Ele chega junto com você.*
+
+| nível | o que acontece |
+|---|---|
+| **2** | Conjurar e bater param de ser duas rodadas. A padrão é o feitiço, e o golpe vem atrás dele |
+| **11** | O que você toca fica marcado, e o golpe seguinte cobra a marca |
+| **19** | De perto o seu feitiço erra menos do que errava. Encostar já é metade do acerto |
+| **27** | Você deixa de precisar encostar. O que está colado em você já está dentro |
+
+> **A separação contra a `Brasa` do Bastião, e ela precisa estar escrita antes de preçar.** As duas misturam feitiço e golpe, e são de Caminhos diferentes — então **a matriz não cruza as duas**, e é por isso mesmo que o risco existe. *Se as duas virarem a mesma coisa com dois nomes, o problema é de catálogo e não de matriz, e nenhum validador pega.*
+>
+> **A peça 6 já separou as duas, e a separação é um espelho:** a `Brasa` **atacou na padrão e conjura na bônus**; o `Arremate` **conjurou na padrão e bate na bônus**. Sentidos opostos, gates opostos. *A ficção acima foi escrita para andar nesse sentido e não no outro.*
+
+#### `Arremate` em mecânica — `5,02` de `5,00` fatias, e a Trilha fica ABERTA
+
+> **O desenho é do Mizuki e ele INVERTEU a Trilha na segunda passada.** *A minha primeira versão era "conjura na padrão e bate na bônus"; ele achou pouco interessante e virou do avesso:* **bate na padrão e conjura na bônus.**
+
+**O nível 2 dele acertou uma coisa que a peça 6 já escrevia.** Aquela peça diz que *"a Trilha de corpo a corpo de um Caminho não-marcial **concede o treino marcial**, e é assim que o Emanador que quer lutar de espadão paga com a escolha de Trilha em vez de ganhar de graça. **Treino de arma não é dado de dano** — é acesso"*. *Ele chegou nisso sem ter lido a linha.*
+
+| nv | a entrega | forma | fatias | coluna |
+|---|---|---|---|---|
+| **2** | grupo de arma, **treino** e **atributo mental** — e ao atacar com aquela arma na padrão, **um feitiço de Classe na bônus** | permanente | **0,00** | *é o vão* |
+| **11** | **ataque extra** — a ação de Atacar dá dois golpes | permanente | **2,26** | ação/alvo |
+| **19** | ao conjurar **colado**, `maior Classe` de **PV temporário** | permanente | **1,38** | defesa |
+| **27** | trocar um dos ataques da padrão por um **Classe 0**, e o seu Classe 0 passa a causar o mesmo que um golpe simples | permanente | **1,38** | ação/alvo |
+
+> **Nível 2.** Escolha um **grupo de arma**. Você é treinado nele, e naquele grupo **o acerto e o dano usam Inteligência ou Essência**. *O requisito de Força para empunhar continua valendo.*
+> **E quando você ataca com uma arma daquele grupo na Ação Padrão, você pode conjurar um feitiço de Classe na Ação Bônus.**
+>
+> **Nível 11.** A sua ação de Atacar passa a dar **dois golpes**.
+>
+> **Nível 19.** Quando você conjura estando **adjacente a um inimigo**, você ganha **`maior Classe` de PV temporário**.
+>
+> **Nível 27.** Você pode **trocar um dos ataques da sua Ação Padrão por um feitiço de Classe 0**, e **o seu Classe 0 passa a causar o mesmo que um golpe simples.**
+
+**De onde sai cada número:**
+
+- **O `nv2` vale exatamente o vão**, `7,00` de dano por rodada: atacar na padrão e conjurar na bônus dá `11,50 + 94 = 105,50` contra os `98,50` da base. *Por isso ele custa zero — é o degrau que a peça 6 §3.1 dá de graça, chegando pela Trilha em vez de pela `Voz Grossa`.*
+- **O `nv11` é um golpe simples inteiro**, `11,50`.
+- **O `nv19` usa a régua da v0.76** — `1` de PV temporário evita `1` de dano.
+- **O `nv27` é a `Voz Grossa` chegando pela Trilha.** Sem ela a troca seria **negativa**: um Classe 0 dá `4,50` contra os `11,50` do golpe. *Com ela a troca vale `0,00` em dano e tudo em flexibilidade — um Classe 0 é feitiço, carrega Melhoria, bate em outra defesa e tem tipo de dano.*
+
+**A matriz do Emanador, com as duas que existem:**
+
+| | ação/alvo | defesa | posicionamento | recuperação | total |
+|---|---|---|---|---|---|
+| `Torrente` | **5,37** | 0,00 | 0,00 | 0,00 | 5,37 |
+| `Arremate` | 3,64 | **1,38** | 0,00 | 0,00 | 5,02 |
+
+> **Nenhuma domina a outra, e quem segura isso é a coluna de defesa do `nv19` sozinha.** *A `Torrente` é `100%` ação/alvo; um `Arremate` que também fosse só ação/alvo e fechasse abaixo de `5,37` estaria dominado por definição.*
+>
+> **E isso deixa uma dívida para o `Repertório`:** ele vai precisar liderar em **posicionamento** ou em **recuperação**, que são as duas colunas ainda vazias do Caminho.
+
+> ## ⚠ POR QUE ESTA TRILHA FICA ABERTA
+>
+> **A rodada de pico é `Atacar 2×` mais um Classe 7 na bônus: `23,00 + 94 = 117,00`, com TRÊS rolagens de ataque.** O físico termina em `106,00`, então o `Arremate` fica **`+10%` acima do guerreiro**.
+>
+> **E a peça 6 §3.1 proíbe isso por nome:** *"O `Arremate` e o `Coro` trocam o Classe 0 pelo golpe simples; **eles não passam a ter três ataques**."*
+>
+> ***Decisão do Mizuki: permitir mesmo assim*** — *"o Emanador já tem pouca vida, ele ter dano é o mínimo."* **O que falta é aplicar**: aquela frase precisa ser reescrita, com o motivo registrado, e o `Coro` do Evocador herda a mesma permissão. *Enquanto isso não acontecer, esta Trilha contradiz uma peça fechada, e por isso ela não está fechada.*
+>
+> **O gate de condição foi testado e reprovado, com número.** *Ele era a saída óbvia e o próprio Mizuki propôs antes de voltar atrás.* Um feitiço de condição no Classe 7 ainda causa `45` — a `Condição Maior` come `11` dos `21` pontos e sobram `10` dados —, então a rodada com gate faz `23 + 45 = 68` contra os `98,50` de um Emanador que só conjura. **`31%` abaixo: ninguém usaria o modo que a Trilha existe para abrir.** *Na `Estocada` o mesmo gate funciona porque lá ele **abre um bônus**; aqui ele seria a porta do modo principal.*
+>
+> **A raiz é conhecida e não é desta Trilha: `condição` não tem conversão em fatia.** Só a exaustão tem magnitude escrita, e está anotado em aberto desde a v0.77.
+
+### O que este bloco deixa em aberto
+
+- **Nada disto tem número.** É ficção, no método que fechou as nove primeiras: você revisa, e só depois eu preço as três de uma vez.
+- ~~O nível 7 do Caminho decide o que a `Torrente` pode ser.~~ **DECIDIDO:** `Voz Grossa` fecha o vão por magnitude (`7,00`) e a `Modelagem` entra de carona a `0,00`. **A ação bônus ficou livre para a `Torrente`.**
+- ~~A `Torrente` travou numa régua que não existe.~~ **FECHADA na v0.79, em `5,37`.** *A saída foi preçar por **ritmo** e não por conversão de PE — o ganho dela não é virar PE em dano, é furar o teto de quanto PE cabe numa rodada.*
+- **⚠ O `Arremate` está escrito em `5,02` e NÃO está fechado.** Ele contradiz a peça 6 §3.1 — três rolagens de ataque e `+10%` sobre o físico. *A permissão está decidida pelo Mizuki e não aplicada, e o `Coro` do Evocador está no mesmo balde.* **Este é o primeiro item da próxima conversa.**
+- **Falta o `Repertório`**, e ele precisa liderar em **posicionamento** ou **recuperação** — as duas colunas vazias do Caminho. *E não existe régua para converter "uma aptidão a mais" em fatia.*
+- **A `Modelagem` encosta em `montagem`, que é palavra do manual.** *O manual chama de `pontos de montagem` o orçamento que compra Forma e Melhoria.* Duas palavras parecidas para dois trabalhos diferentes, e a triagem não pega colisão de sentido — ela deu `LIVRE`. **Vale decidir se fica `Modelagem` ou se o degrau usa o idioma do manual.**
+- **⚠ A `Torrente` TRAVOU numa régua que não existe, e a trava é maior que ela.** O Mizuki registrou que a trava de Classe 0 do manual *"veio direto do manual e não precisa ser levada ao pé da letra"*, e o candidato dele é **teto na metade da maior Classe**. **Ao medir isso, três réguas deram três respostas que não se aproximam:**
+
+  | como se mede o segundo feitiço | Classe 3 no nível 30 | veredito |
+  |---|---|---|
+  | **dano cru**, como as nove Trilhas publicadas medem botão | `40,00` = `7,87` fatias | **`157%` da Trilha inteira** |
+  | **dia inteiro, descontando PE** — `180` de PE para `13` rodadas | `+9,11` por rodada = `1,79` fatia | cabe |
+  | **câmbio de PE da peça 5** — `1` PE por rodada vale `5,14` de dano | `40 − 9×5,14 = −6,26` | **negativo** |
+
+  > **A do meio só é positiva por causa do `Fonte`.** *Sem o degrau de nível 30 do Caminho, que faz Classe `3` ou menos custar metade do PE, o segundo feitiço dá **dano negativo no dia** — ele come o PE que ia para o feitiço grande da rodada seguinte.* **O conjurador é limitado por PE no dia e por rodada dentro da luta**, e as duas coisas puxam para lados opostos.
+
+- **⚠ E o número que resolveria isso não reconstrói de lugar nenhum — nem na `Brasa`, que já está publicada.** O nível 19 dela é *"Classe 2 na ação bônus, trocando o ataque extra"*, preçado em `10,50` sem o gate. **`Classe 2` são `27` de dano no manual; o Classe 0 que ela substitui são `4,50`; o ataque extra do Bastião são `11,50`.** Nenhuma combinação dos três dá `10,50`. *Mesmo defeito do `Derrubado` do `Punho` e do `15%` do `Servo`: número que ninguém consegue reproduzir é número que saiu de subtração.*
+
+  **Isto não é problema só da `Torrente`.** A `Brasa` está na matriz do Bastião com `5,03` fatias, e `1,03` delas são esse número. **Escrever a régua vai mexer numa Trilha fechada.**
+
+- **⚠ E a régua que falta tem nome exato: o projeto sabe preçar GANHAR PE e não sabe preçar GASTAR PE.**
+
+  **Ganhar tem preço publicado e ele fecha.** O nível 11 da `Brasa` dá `2` de energia temporária quando o Classe 0 acerta, e está publicado em `1,01` fatia. O câmbio da peça 5 diz que `1` PE por rodada vale `5,14` de dano, que é `1,01` fatia. *Bate exato.*
+
+  **Gastar não tem preço em lugar nenhum.** *Nenhuma das nove Trilhas fechadas tem uma entrega cujo custo seja PE.*
+
+  > **E aplicar o câmbio ao contrário quebra na hora.** A `Torrente` no nível 30 ganha `35,50` de dano por rodada e gasta `9` PE a mais: `35,50 − 9 × 5,14 = −10,76`, ou **`−2,12` fatias.** Um botão que obviamente serve pontuando negativo.
+  >
+  > **O motivo é de construção, e é o achado:** o câmbio de `5,14` foi derivado dos próprios feitiços, que rendem `4,4` a `4,5` de dano por PE. **Então "gastar PE para ter dano" é sempre mais ou menos zero por definição** — é o que toda ficha já faz. *A régua não consegue ver ganho nenhum ali, e ela está certa: o ganho da `Torrente` não é converter PE em dano. É furar o teto de quanto PE cabe numa rodada.*
+
+  **O que sobra, então, é medir por ritmo.** As nove Trilhas fechadas foram todas preçadas em **dano por rodada**, que é métrica de luta e não de dia. *Pelo mesmo critério, a `Torrente` vale o dano cru do teto novo — e aí a escolha do teto é a Trilha inteira.*
+- **O `Repertório` compra a metade que a peça 11 já mediu como a que paga.** Ver o aviso acima.
+- **O `Arremate` herda uma coisa que já tem dono:** ele é uma das duas Trilhas com ataque extra, e o slot e o gate estão escritos na peça 6. *A Trilha não escolhe isso — ela recebe.*
+- **Faltam nomes para as doze entregas.** Nenhuma passou pela triagem, e `Torrente`, `Repertório` e `Arremate` já passaram na v0.24.

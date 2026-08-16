@@ -6,6 +6,107 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.79] — 2026-08-16
+
+**O Emanador ganhou o nível 7 do Caminho e duas das três Trilhas** — a `Torrente` fechada em `5,37` e o `Arremate` escrito em `5,02` e **deixado aberto de propósito**, porque ele contradiz uma frase da peça 6. *E três coisas que eu ia afirmar de cabeça estavam erradas: a atribuição da `Energia Reversa` em doze lugares, o alcance da cerca das Melhorias, e a base da sobretaxa de PE.* Continuam dezesseis peças e dezesseis validadores.
+
+### Corrigido — a `Energia Reversa` estava atribuída à v0.77 em DOZE lugares
+
+*Ela fechou na v0.78, e a entrada do topo do CHANGELOG é a dona disso.* **Seis arquivos discordavam dela**, e nenhum validador alcança atribuição de versão.
+
+| arquivo | o que dizia |
+|---|---|
+| `ESTADO-ATUAL.md` | *"fechou na v0.77"*, *"continua sendo aptidão não escrita"*, *"está na lista de aptidões pendentes"* |
+| peça 11 | duas linhas com *"saiu na v0.77"* |
+| peça 13 | *"já está na lista de aptidões pendentes"* |
+| `CHANGELOG`, entrada da v0.77 | *"Fechada nesta versão, na peça 11"* |
+| `DESENHO-trilhas.md` | quatro: *"nunca foi escrita"*, *"aptidão não escrita"*, *"ainda não tem casa"*, *"não tem casa"* |
+| `conferir-aptidoes.py` | o rótulo do bloco: `A APTIDAO Energia Reversa — v0.77` |
+
+**A causa tem nome: a v0.77 teve DOIS commits com a mesma etiqueta.** *Lido do `.git/logs/HEAD`, que é texto puro e não precisa rodar git.* A entrada foi reescrita no segundo, e o esboço da aptidão virou *"fechada"* antes de ela ter casa. **O `conferir-repositorio.py` confere o número da versão em onze cópias; ele não confere em que versão cada coisa fechou.**
+
+> **A entrada da v0.77 foi corrigida e não apagada**, com a lista das seis cópias que herdaram o erro escrita nela.
+
+### Feito — a checagem da `Modelagem` contra o Fundamento, pendente desde a v0.71
+
+**A `Modelagem` é a tabelinha do Feiticeiro — metamagia. E o manual já vende metamagia inteira: são as Melhorias.** As tabelas 30 a 40 trazem `Longe` (degrau de alcance), `Mais Um` (um alvo a mais), `Rápido` (Ação Bônus em vez de Padrão), `Reação`, `Silencioso` (sem gesto e sem palavra) e `Rajada`. **Cada uma é um item de metamagia com outro nome, e são `67` no total.**
+
+| a leitura | vale no nv30 | do vão de `7` |
+|---|---|---|
+| **como PRESENTE** — uma Melhoria **Leve** de graça | **`21,60`** | **`309%`** |
+| **como TROCA** — trocar uma Melhoria paga por outra de custo igual ou menor | **`0,00`** | `0%` |
+
+*O `21,60` é a `Precisão`, a Melhoria mais barata que serve para dano.* **É o mesmo `21,60` que reprovou a `Arquearia` na v0.76 e o `+2` de acerto no menu do `Elo` na v0.77 — a mesma parede, por três portas.**
+
+### Decidido — o nível 7 do Emanador, com a `Modelagem` de carona
+
+> **`Voz Grossa`:** o seu Classe 0 passa a causar o mesmo que um golpe simples. `7,00`, o vão exato.
+> **`Modelagem`:** ao conjurar um feitiço **de dano ou de condição**, troque uma Melhoria que ele já tem por outra de custo igual ou menor. **A troca não mexe na condição**, e o requisito da Melhoria que entra continua valendo.
+
+**A versão recusada punha um Classe 0 na Ação Bônus, e aquele slot é onde a `Torrente` nasce.** *Com a `Voz Grossa` fechando por magnitude em vez de por slot, a ação bônus ficou livre.*
+
+**As travas da `Modelagem` são duas do Mizuki e uma da conta.** Ele cercou por assunto — *"vai dar dor de cabeça"* —, e ao contar o menu apareceram mais duas que precisavam sair pelo próprio texto: **`11` de `67` ficam fora**, e as duas que a conta pegou são a **`Inescapável`**, que proíbe o feitiço de ter qualquer outra peça, e o **`Efeito Próprio`**, cujo custo é *"o mestre decide"* — **troca livre para Melhoria de custo aberto é o filtro multi-mestre falhando de propósito.** Sobram `54`, que é `81%` do menu.
+
+> **E as duas metades do degrau se separam para o `Arremate`**, que recebe o ataque extra no lugar do degrau do vão e ficaria sem a `Modelagem`. *Como ela vale `0,00`, ela é do Caminho inteiro e só a metade numérica varia.*
+
+### Adicionado — a `Torrente`, `5,37` de `5,00`
+
+| nv | a entrega | fatias |
+|---|---|---|
+| **2** | **`acelerar`**, `2×` por cena, sobretaxa `Classe e meia` de PE. Teto do outro feitiço: `Classe 0` | *(a base)* |
+| **11** | o teto vira **metade da sua maior Classe** | **3,78** |
+| **19** | o `acelerar` **não gasta carga** quando você não torra | 0,10 |
+| **27** | a metade **arredonda para CIMA** | **1,49** |
+
+**A escada cai da própria regra.** *Cruzando `metade da maior Classe` com a tabela 5 do manual, o teto dá `0 · 1 · 2 · 3` — e o `Classe 3` só existe do nível 21, porque é lá que a Classe 6 libera.* **A sobretaxa também não foi escolhida:** o `Rápido` do manual é Melhoria **Pesada**, e a coluna `Pesada` da tabela 81 dá `11` num Classe 7.
+
+**O nível 27 é uma linha de texto e é o degrau mais caro.** O projeto arredonda sempre para o lado que não te favorece; **inverter isso num lugar só é exceção legível**, e ela não oscila — do nível 27 ao 30 a maior Classe é sempre `7`.
+
+> **Uma rodada de pico custa `44` de PE, e o pool de `180` cobre `1,1` luta.** *Você torra uma luta inteira no dia e entra na segunda com o bolso vazio, que é exatamente a ficção.*
+
+### Achado — o projeto sabe preçar GANHAR PE e não sabe preçar GASTAR PE
+
+**Ganhar tem preço e ele fecha:** o nível 11 da `Brasa` dá `2` de energia temporária e está publicado em `1,01` fatia; o câmbio da peça 5 diz que `1` PE por rodada vale `5,14` de dano, que é `1,01` fatia. **Bate exato.**
+
+**Gastar não tem preço em lugar nenhum** — nenhuma das nove Trilhas fechadas tem entrega cujo custo seja PE. E aplicar o câmbio ao contrário quebra: a `Torrente` ganha `35,50` de dano e gasta `9` PE, o que dá `−10,76` — **um botão que obviamente serve pontuando negativo.**
+
+> **O motivo é de construção:** o câmbio de `5,14` foi derivado dos próprios feitiços, que rendem `4,4` a `4,5` de dano por PE. **"Gastar PE para ter dano" é zero por definição — é o que toda ficha já faz.** *O ganho da `Torrente` não é converter PE em dano; é furar o teto de quanto PE cabe numa rodada.*
+
+### Corrigido — a cerca das Melhorias é do CAMINHO, e eu apliquei ela à Trilha
+
+*Eu afirmei em conversa que toda entrega de Trilha esbarra numa das `67` Melhorias.* **A peça 5 §4 diz literalmente "seis coisas que um CAMINHO nunca dá", e as Trilhas publicadas já dão efeito de Melhoria à vontade:** o `Muro` dá terreno difícil (`Terreno`), o `Perímetro` dá vantagem a aliado (`Ecoa`), a `Pegada` rerrola dado de dano. **A Trilha é limitada pelo orçamento de fatias, não pela cerca.** *A checagem da `Modelagem` continua valendo, porque ali era Caminho mesmo.*
+
+### Adicionado — o `Arremate`, `5,02` de `5,00`, e ele fica ABERTO
+
+**O desenho é do Mizuki, e ele inverteu a Trilha:** em vez de conjurar na padrão e bater na bônus, **bate na padrão e conjura na bônus.**
+
+| nv | a entrega | fatias | coluna |
+|---|---|---|---|
+| **2** | grupo de arma, treino, atributo mental — e um **feitiço de Classe na bônus** ao atacar com aquela arma | **0,00** | *é o vão* |
+| **11** | **ataque extra** | **2,26** | ação/alvo |
+| **19** | `maior Classe` de **PV temporário** ao conjurar colado | **1,38** | defesa |
+| **27** | trocar um ataque por um **Classe 0**, e o Classe 0 vira do tamanho do golpe | **1,38** | ação/alvo |
+
+**O nível 2 dele já estava escrito na peça 6**, que manda a Trilha de corpo a corpo de um Caminho não-marcial conceder o treino marcial — *"treino de arma não é dado de dano, é acesso"*. **Ele chegou nisso sem ter lido a linha.**
+
+> **⚠ E é por isso que ela não fecha.** A rodada de pico é `Atacar 2×` mais um Classe 7 na bônus: **`117,00`, com três rolagens**, contra os `106,00` do físico — **`+10%` acima do guerreiro.** *E a peça 6 §3.1 proíbe por nome: "eles não passam a ter três ataques."*
+>
+> ***Decisão do Mizuki: permitir*** — *"o Emanador já tem pouca vida, ele ter dano é o mínimo."* **Falta aplicar**: reescrever aquela frase com o motivo, e decidir se o `Coro` herda. **Decisão registrada não é decisão aplicada.**
+
+**O gate de condição foi testado e reprovado com número.** Um feitiço de condição no Classe 7 ainda causa `45` — a `Condição Maior` come `11` dos `21` pontos —, então a rodada com gate faz `68` contra os `98,50` de um Emanador que só conjura. **`31%` abaixo: ninguém usaria o modo que a Trilha existe para abrir.** *Na `Estocada` o mesmo gate funciona porque lá ele abre um bônus; aqui ele seria a porta do modo principal.*
+
+### Em aberto
+
+- **O `Arremate` contradiz a peça 6 §3.1.** A permissão está decidida e não aplicada, e o `Coro` está no mesmo balde.
+- **O `Repertório`** — a última do Emanador, e ela precisa liderar em **posicionamento** ou **recuperação**, que são as duas colunas vazias do Caminho. *E não existe régua para converter "uma aptidão a mais" em fatia.*
+- **`condição` continua sem conversão**, e ela travou o `Arremate` duas vezes nesta versão.
+- **Gastar PE não tem preço**, e a `Torrente` foi preçada por ritmo para contornar.
+- **Atribuição de versão não tem validador**, e ela divergiu em doze lugares nesta versão.
+- **`Modelagem` encosta em `montagem`**, que é palavra do manual. *A triagem deu `LIVRE`; ela não pega colisão de sentido.*
+- As de sempre: as vagas de Desliga, a Cicatriz, o clash, o nome do sistema, o refino que paga mal no marco, a tabela de inimigo.
+
+---
+
 ## [0.78] — 2026-08-16
 
 **A `Energia Reversa` deixou de ser esboço e virou peça.** *Ela estava pendente desde a v0.27 — cinquenta e uma versões — e era a última dependência aberta do Guia: o nível 2 da `Sutura` apontava para uma aptidão que não existia.* Continuam dezesseis peças e dezesseis validadores.
@@ -224,7 +325,9 @@ Quatro entregas honestas de posicionamento chegavam a `2,94`, porque **cinco fat
 
 ### Em aberto
 
-- ~~`Energia Reversa` não tem casa.~~ **Fechada nesta versão, na peça 11.** Enquanto ela não entrar no catálogo da peça 11, o nível 2 da `Sutura` aponta para o que não existe. *A peça 1 §5.5 também espera por ela.*
+- **`Energia Reversa` não tem casa.** O que esta versão escreveu foi o **esboço**, dentro do bloco da `Sutura`. Enquanto ela não entrar no catálogo da peça 11, o nível 2 da `Sutura` aponta para o que não existe. *A peça 1 §5.5 também espera por ela.*
+
+  > **Esta linha dizia *"fechada nesta versão, na peça 11"*, e não era verdade.** A aptidão entrou na peça 11 na **v0.78**, com o validador junto — a entrada daquela versão é a dona disso. *Corrigida depois da v0.78, junto com mais cinco cópias que tinham herdado o `v0.77`: o `ESTADO-ATUAL`, duas linhas da própria peça 11, uma da peça 13 e o rótulo do bloco no `conferir-aptidoes.py`.* **A entrada do topo do CHANGELOG é a dona da versão, e foi ela que sobreviveu à conferência** — as seis cópias é que estavam erradas.
 - **O engarrafamento de Reação.** O `Ninguém Cai` do Caminho, o `Elo` nível 11 e o `Perímetro` nível 11 querem a mesma Reação. *Dentro de cada Trilha não colide; entre Trilhas, na mesma mesa, colide.* **É o defeito que matou a primeira versão do `Executor` na v0.75, num slot diferente.**
 - **`condição` continua sem conversão.** Só a exaustão tem magnitude escrita, e o nível 11 da `Sutura` carrega o resto quase de graça.
 - **Uma previsão segura a `Sutura` inteira:** *"o curandeiro cura em metade das rodadas"*. Ela é multiplicador dos quatro degraus, e não tem dono.

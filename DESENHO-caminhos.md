@@ -172,10 +172,37 @@ Ele anula o excedente e deixa o aliado com `1` de vida. **O que ele compra não 
 
 > **Medido: no nível 5 isso já bota o personagem no fio na última luta; no 30 ele aguenta de sobra.** **Então a quantidade sangrada tem de ser fração da vida, não número fixo** — senão a regra é mortal embaixo e decorativa em cima.
 
-### nível 7 · Voz Grossa — *duas versões, as duas legais*
+### nível 7 · Voz Grossa — **DECIDIDO: a segunda, com a `Modelagem` de carona**
 
-> **A sua:** *depois de conjurar com a ação padrão, você pode lançar um **Classe 0 como ação bônus**.*
-> **A outra:** *o seu Classe 0 passa a causar o mesmo que um golpe simples.*
+> **`Voz Grossa`.** O seu **Classe 0 passa a causar o mesmo que um golpe simples**.
+> **`Modelagem`.** Ao conjurar um feitiço **de dano ou de condição**, você pode **trocar uma Melhoria que ele já tem por outra de custo igual ou menor**. Nada novo entra na ficha — o que muda é qual peça está montada na hora.
+> **A troca não mexe na condição.** `Condição Menor` e `Condição Maior` não entram nem saem.
+> **E a Melhoria que entra tem de ser legal naquele feitiço** — o requisito dela continua valendo.
+
+**As duas primeiras travas são do Mizuki, e a terceira caiu da conta.** *Ele previu dor de cabeça de mesa e cercou por assunto; ao contar o menu que sobrava, apareceram mais duas que precisavam sair pelo próprio texto delas.*
+
+| | quantas | quais |
+|---|---|---|
+| **fora da troca** | **11 de 67** | as `7` de apoio e cura, que a cerca de *dano ou condição* já tira · `Condição Menor` e `Condição Maior`, pela trava dele · **`Inescapável`**, que proíbe o feitiço de ter qualquer outra peça · **`Efeito Próprio`**, cujo custo é *"o mestre decide"* |
+| entram, com requisito próprio | 2 | `Corrói` pede `Mira` nas Famílias Livres · `Toca a Alma` pede Classe 3 e Fundamento que encoste em alma |
+| **trocáveis sem ressalva** | **54 de 67 — `81%`** | |
+
+> **O `Efeito Próprio` é a que mais importa ter tirado, e não foi a trava dele que pegou.** O custo dela no manual é literalmente *"o mestre decide"*. **Uma troca livre para uma Melhoria de custo aberto é o filtro multi-mestre falhando de propósito** — dois mestres que nunca conversaram não chegam ao mesmo número, que é a pergunta que decide quase tudo neste projeto.
+>
+> **E a `Inescapável` sai sozinha, pelo texto dela:** *"este feitiço não pode ter mais nenhuma peça, nem Melhoria nem Restrição"*. Trocar para ela deixaria o feitiço ilegal na hora em que a troca acontece.
+
+**Decisão do Mizuki.** *A `Voz Grossa` fecha o vão exato por construção e ninguém escolheu número; a `Modelagem` vale `0,00` em dano e por isso entra sem custar orçamento.* **O degrau ficou com as duas metades que ele precisava: a que fecha a conta e a que dá o que decidir.**
+
+> **⚠ E as duas metades se separam para o `Arremate`.** A peça 6 §3.1 diz que **`Arremate` e `Coro` recebem o ataque extra no lugar do degrau do vão** — então um Emanador de `Arremate` **não recebe a `Voz Grossa`**, e junto com ela perderia a `Modelagem`. *Ninguém percebeu isso ao decidir; apareceu abrindo o `Arremate`.*
+>
+> **O conserto é de graça, porque a `Modelagem` vale `0,00`:** ela é do **Caminho inteiro**, e o que varia entre as Trilhas é só a metade numérica — `Voz Grossa` para quem não tem rota para ataque extra, **ataque extra** para quem tem. *As duas valem os mesmos `7,00` do vão: subir o Classe 0 até o tamanho do golpe simples e trocar o Classe 0 por um golpe simples põem o mesmo número no segundo slot.*
+
+> **E a consequência mais importante não é do Caminho, é da Trilha.** A versão que não passou punha um Classe 0 na **ação bônus**, e aquele slot é onde a `Torrente` nasce. **Com a `Voz Grossa` fechando por magnitude em vez de por slot, a ação bônus fica livre** — e a `Torrente` passa a ser a única dona do segundo feitiço da rodada.
+
+*As duas versões que estavam em disputa, guardadas porque a conta delas continua valendo:*
+
+> **~~A sua:~~** *depois de conjurar com a ação padrão, você pode lançar um **Classe 0 como ação bônus**.* — `4,50`, sobra `2,50`, e ocupa o slot da `Torrente`.
+> **A outra, que ficou:** *o seu Classe 0 passa a causar o mesmo que um golpe simples.*
 
 | | vale | do vão de `7` |
 |---|---|---|
@@ -184,6 +211,27 @@ Ele anula o excedente e deixa o aliado com `1` de vida. **O que ele compra não 
 
 > **A segunda fecha por construção e nenhum número foi escolhido:** o vão `físico − conjurador` **é**, por definição, `golpe simples − Classe 0`. Fechar um fecha o outro.
 > **A sua é mais barata e mais interativa** — ela dá um botão em vez de um número maior, e sobra orçamento. *Se você quiser as duas, a sobra de `2,5` cabe numa entrega de Trilha depois.*
+
+#### A checagem da `Modelagem` contra o Fundamento, rodada — e ela reprova numa das duas leituras
+
+*Pedida desde a v0.71 e nunca feita. **A `Modelagem` é a tabelinha do Feiticeiro — metamagia —, e o manual já vende metamagia inteira: são as Melhorias.*** As tabelas 30 a 40 trazem `Longe` (sobe degrau de alcance), `Mais Um` (um alvo a mais), `Rápido` (Ação Bônus em vez de Padrão), `Reação`, `Silencioso` (sem gesto e sem palavra) e `Rajada` (divide em `Classe + 1` tiros). **Cada uma delas é um item de metamagia com outro nome.**
+
+**Então a leitura de "ganhar uma Melhoria de graça" bate na proibição nº 3 da cerca da peça 5 §4 — e não é só proibida, ela não cabe:**
+
+| a leitura | vale no nv30 | do vão de `7` |
+|---|---|---|
+| **`Modelagem` como PRESENTE** — uma Melhoria **Leve** de graça | **`21,60`** | **`309%` — três vezes o degrau inteiro** |
+| `Modelagem` como **TROCA** — trocar uma Melhoria já paga por outra de custo igual ou menor, na hora de conjurar | **`0,00`** | `0%` |
+
+> **O `21,60` é a `Precisão`, que é a Melhoria mais BARATA que serve para dano** — `+2` na rolagem de acerto, custo Leve. Um ponto de acerto vale `10,80` de dano por rodada neste sistema. *É o mesmo `21,60` da `Arquearia` que a v0.76 reprovou e do `+2` de acerto que a v0.77 tirou do menu do `Elo`. **Três vezes a mesma parede, por três portas diferentes.***
+
+**E a leitura de TROCA sobrevive à cerca porque ela não dá nada novo** — é literalmente a frase que abre aquela seção, *"o Caminho não dá poder novo; ele muda o que o seu poder alcança"*. **O que ela explora é a única folga que o manual deixa: ele trava a montagem do feitiço na hora de montar, e não existe nada nele que deixe decidir na hora de lançar.**
+
+> **Ela vale `0,00` em dano, e por isso pode andar de carona em qualquer uma das duas versões acima.** *Precedente do projeto para utilidade a zero: a escalada do `Yumi`, o `treino` do `Servo` e a própria `Segunda Leitura` do nível 15, que também é "sem preço em dano".*
+>
+> **Duas coisas ficam declaradas antes de alguém escolher isso.** Ela **custa tempo de mesa** — vira um menu em toda conjuração —, e o conserto conhecido é relógio (`1×` por rodada, ou por cena). E ela **encosta na `Segunda Leitura`** do nível 15: as duas trocam coisa sem ganhar poder, em granularidades diferentes — feitiço lá, Melhoria aqui. *Sobreposição, não duplicação — mas vale medir as duas juntas quando o nível 15 for preçado.*
+
+**A escolha continua aberta e é do Mizuki.** *O que esta seção fechou foi a checagem, não a decisão.*
 
 ### nível 15 · Segunda Leitura — *reescrita, a anterior estava confusa*
 > **No fim de um descanso longo, você pode esquecer um dos seus feitiços e aprender outro no lugar.**
@@ -257,9 +305,9 @@ Ele anula o excedente e deixa o aliado com `1` de vida. **O que ele compra não 
 | # | o que falta | de que tipo |
 |---|---|---|
 | 1 | **As treze Manhas** da Vanguarda | catálogo — o maior trabalho que este desenho cria |
-| 2 | **A `Modelagem` conferida contra o Fundamento** | checagem — e ela pode tomar o lugar da `Sangria` no nível 2 do Emanador |
+| ~~2~~ | ~~A `Modelagem` conferida contra o Fundamento~~ | **FEITA.** Como presente ela vale `21,60` — `309%` do vão — e bate na proibição de *Melhoria de graça*; **como troca vale `0,00` e passa**, e foi assim que ela entrou no nível 7 |
 | 3 | `d6` ou `d8` no `Corpo Duro` | sabor puro — a conta empata as duas |
-| 4 | **Qual `Voz Grossa`** — Classe 0 de bônus, ou Classe 0 do tamanho do golpe simples | as duas legais; a segunda fecha exato, a primeira sobra `2,5` |
+| ~~4~~ | ~~Qual `Voz Grossa`~~ | **DECIDIDA: a segunda** — Classe 0 do tamanho do golpe simples, `7,00`, fecha exato. *E ela libera a ação bônus para a `Torrente`* |
 | 5 | **A fração da `Sangria`** — quanto de vida por vez | tem de ser fração da vida, não número fixo |
 | 6 | **A `Presa` escrita como fração** — `10%` do seu dano em vez de `+atributo` | é o único jeito de ela não derivar |
 
