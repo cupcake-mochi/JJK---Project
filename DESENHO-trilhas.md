@@ -215,7 +215,8 @@ E o **Yuji** com o Punho Divergente é a mesma ideia num golpe só: o soco acert
 
 - **Os metros de cada arma de projétil.** A regra das duas faixas existe (peça 14 §5.2.1); os números não. A âncora é a Forma `Projétil` do manual, `18 m`.
 - **Duas taxas são previsão:** quantas rodadas um atirador passa na faixa longa (usei metade) e quantas ele passa colado (usei uma em quatro). **Nenhuma das duas tem medida**, e juntas elas decidem `1,57` fatia.
-- **A `Estocada` precisa de uma coluna que não seja ação/alvo**, ou de `0,20` a menos na rota `Arma de Fogo`.
+- **A `Estocada` precisa de uma coluna que não seja ação/alvo**, ou de `0,20` a menos na rota `Arma de Fogo`. *A matriz da v0.77 mediu quanto isso custa: `0,16` fatia, que é a dominância declarada inteira.*
+- **O total da rota `Arma de Fogo` é faixa e não número.** Com a Metralhadora Pesada ela soma `5,51` fatias, `10%` acima da banda. *Achado fechando a matriz, na v0.77.*
 
 ---
 
@@ -298,17 +299,16 @@ E o **Yuji** com o Punho Divergente é a mesma ideia num golpe só: o soco acert
 | **algo que o jogador decide usar** | ✓ **três**: o `Aprumo`, o `Revide` e a `Retomada` |
 | **nenhuma entrega depende de outra** | ✓ as quatro funcionam sozinhas |
 
-**Dominância contra as irmãs, no que dá para medir hoje:**
+**Dominância contra as irmãs — a matriz fechou na v0.77, e ela está inteira mais abaixo.**
 
 | | ação/alvo | defesa | posicionamento | recuperação | total |
 |---|---|---|---|---|---|
 | `Estocada` | **4,58** | 0,00 | 0,00 | 0,00 | 4,58 |
 | `Executor` | 2,84 | **1,84** | 0,00 | 0,00 | 4,68 |
-| `Batedor` | *(não publicado)* | 0,00 | *(não publicado)* | 0,00 | 4,52 a 4,82 |
 
-**O `Executor` é o único dos três com coluna de defesa**, e a `Estocada` lidera ação/alvo com folga de `1,6×`. **Nenhum domina o outro.**
+**O `Executor` é o único da Vanguarda com coluna de defesa**, e a `Estocada` lidera ação/alvo com folga de `1,6×`. **Nenhum domina o outro.**
 
-> **Mas a matriz da Vanguarda não fecha ainda, e o motivo é meu.** A `Estocada` e o `Batedor` foram preçados **sem separar as entregas por coluna** — os totais existem, a divisão não. *O Bastião só ganhou matriz porque as doze entregas dele foram escritas com a família de cada uma declarada.* **Antes de fechar a Vanguarda, as sete entregas daqueles dois precisam de coluna.**
+> *As três rotas do `Batedor` entram na matriz cheia, com a divisão por coluna refeita a partir de linha publicada.*
 
 ## O erro de régua que esta versão consertou
 
@@ -334,10 +334,80 @@ A fatia é `5,08`, e as três batem. **O projeto converte dano evitado `1` pra `
 
 ## O que este bloco deixa em aberto
 
-- **A matriz da Vanguarda**, que precisa das sete entregas da `Estocada` e do `Batedor` divididas por coluna.
+- ~~A matriz da Vanguarda.~~ **Fechada na v0.77**, e o bloco dela é o próximo deste arquivo. *Eram quinze entregas e não sete.*
 - **O catálogo da `Pegada`**, com cinco entradas e duas delas abaixo do teto. *Junto com as treze `Manhas` de arma, que o Caminho deve desde a v0.70.*
 - **Nada disto tem validador.** A régua de Trilhas ainda não virou peça, então nenhum `conferir-*.py` alcança este arquivo.
 - **A trava do `Revide` contra o `Não Acabou`:** o degrau de nível 30 do Caminho da Vanguarda **devolve a sua Reação** quando você derruba um alvo. Numa luta contra vários, o `Revide` passa a disparar mais de uma vez por rodada. *Não medi isso — ele só morde contra turba, que é o oposto do que esta Trilha faz.*
+
+---
+
+# A matriz da Vanguarda — fechada na v0.77
+
+> **Limpa.** Uma dominância no total, e é a que já estava aceita e declarada desde a v0.75.
+
+Ela não fechava porque a `Estocada` e o `Batedor` foram preçados **sem declarar a família de cada entrega** — o total existia, a divisão não. *O Bastião só ganhou matriz porque as doze entregas dele nasceram com a família escrita.*
+
+**E o serviço era maior do que a v0.76 registrou.** Ela contou **sete** entregas; são **quinze**, porque o `Batedor` tem três rotas com quatro entregas cada, e três delas são **pacote** — pagam por mais de uma coisa ao mesmo tempo e caem em mais de uma coluna.
+
+## Como os pacotes foram rachados, e o que confere cada racha
+
+*Nenhum script gerou os números originais do `Batedor`. Eles foram calculados e só o total de cada entrega ficou escrito.* **Então a divisão foi refeita a partir de linha publicada, e cada peça aponta de onde sai.**
+
+| a peça | vale | de onde sai |
+|---|---|---|
+| `+3 m` de deslocamento, sempre | 0,35 | a linha `posicionamento +3 m`, a mesma que o `Punho` usa duas vezes |
+| o empurrão de `6 m` | 0,71 | a linha `+6 m sempre` |
+| um degrau de margem crítica | 0,05 | **é o próprio nível 19 do `Yumi`**, que já estava publicado sozinho |
+| a escalada | 0,00 | utilidade sem preço em dano, no molde do `treino` do `Servo` |
+| **sem desvantagem na faixa longa** | **1,13** | o nível 2 do `Yumi` menos as três de cima |
+| **sem desvantagem colado** | **0,44** | o `1,57` publicado das duas taxas de previsão, menos a faixa longa |
+
+> **As duas últimas saíram por subtração, então elas precisavam de conferência de fora. Ela fecha exata.**
+>
+> O nível 19 da `Besta` é **empurrão mais colado**, e ele está publicado em `1,15`. As duas parcelas vêm de lugares diferentes — o empurrão da linha `+6 m` e o colado do `1,57` — e somam `0,71 + 0,44 = 1,15`. **Nenhuma das duas foi tirada dali.**
+>
+> *E a terceira bate junto:* o nível 2 do `Fogo` menos o colado deixa `0,10` a `0,15` para *"recarrega só no `1` natural"*, que é o tamanho certo para meia chance de recarga forçada.
+
+## A matriz
+
+| | ação/alvo | defesa | posicionamento | recuperação | total |
+|---|---|---|---|---|---|
+| `Estocada` | **4,58** | 0,00 | 0,00 | 0,00 | 4,58 |
+| `Executor` | 2,84 | **1,84** | 0,00 | 0,00 | 4,68 |
+| `Batedor` · `Yumi` | 4,46 | 0,00 | 0,35 | 0,00 | 4,81 |
+| `Batedor` · `Besta` | 3,82 | 0,00 | **0,71** | 0,00 | 4,53 |
+| `Batedor` · `Arma de Fogo` | **4,74** | 0,00 | 0,00 | 0,00 | 4,74 |
+
+**O `Batedor` entra com três linhas e não com uma, e isso não é escolha de formato.** A rota se escolhe no nível 2 e vale a campanha inteira — quem joga `Yumi` e quem joga `Besta` são duas fichas diferentes, e a dominância pergunta se **uma ficha** ganha da outra em tudo. Uma linha média não responde isso.
+
+**Rodadas as vinte comparações, uma dominância aparece:** a rota `Arma de Fogo` sobre a `Estocada`, por `0,16` fatia e razão `1,03×`. **É a mesma que a v0.75 mediu, aceitou e declarou** — as duas são cem por cento ação/alvo, e a diferença é um terço da largura da banda de escrita.
+
+**O `Executor` é o único da Vanguarda com coluna de defesa. A `Besta` leva posicionamento com folga de `2,0×` sobre o `Yumi`. E ninguém mais ganha de ninguém em todas as colunas.**
+
+## O que a matriz continua sem enxergar — e agora com tamanho
+
+**O nível 2 da `Estocada` custa `0,00` e não tem coluna.** Ele é a identidade inteira da Trilha: conjurar de verdade na ação padrão e ainda bater na bônus, e trocar o atributo da arma no grupo escolhido. **A matriz não tem onde pôr nenhuma das duas**, então ela mede a `Estocada` como se aquele degrau não existisse.
+
+*É o caso do `Servo` na v0.63 pela terceira vez — a dominância era real na matriz e o que faltava era eixo, não número.* **A diferença é que agora dá para dizer quanto custa: os `0,16` fatia da dominância declarada são exatamente o preço de a coluna não existir.**
+
+## Achado da revisão — o `4,74` do `Fogo` é o PISO da rota, não o valor dela
+
+Duas das quatro entregas da `Arma de Fogo` são faixa e não número: o nível 2 vale `0,54` a `0,59`, e o `Quick Draw` vale `1,17` com o Rifle de Precisão e `1,89` com a Metralhadora Pesada. **O `4,74` publicado usa o fundo das duas.**
+
+| a arma | total da rota | contra a `Estocada` |
+|---|---|---|
+| Rifle de Precisão *(o que está publicado)* | 4,74 | `+0,16` fatia · `1,03×` |
+| **Metralhadora Pesada** | **5,51 — `10%` acima da banda** | **`+0,93` fatia · `1,20×`** |
+
+> **Isso não cria dominância nova.** A Metralhadora continua sem ganhar do `Yumi`, da `Besta` e do `Executor`, porque as três têm coluna que ela zera.
+>
+> **O que ela enfraquece é o argumento de "ruído"** que sustenta a dominância declarada: `0,93` fatia são `4,72` de dano bruto por rodada, quase **seis vezes** os `0,81` que a v0.75 mediu.
+>
+> **A decisão do Mizuki de deixar o `X` de balas variar continua de pé** — *"tem seus altos e baixos usarem cada arma"*. O que muda é que a rota de `X` alto **não cabe na banda**, e isso nunca tinha sido somado. *A v0.75 mediu o espalhamento do `Quick Draw` entre as armas (`1,6×`, dentro do filtro) e não o total da rota com ele dentro.*
+
+## Duas somas de `0,01` que não fecham
+
+As quatro entregas do `Yumi` somam `4,81` e o total publicado diz `4,82`; as da `Besta` somam `4,53` e o total diz `4,52`. **É arredondamento das entregas, não erro de conta** — mas é a mesma casa de defeito que o `4,80` contra `4,87` do `Muro`, duas ordens de grandeza menor. *A matriz acima usa a soma das entregas.*
 
 ---
 

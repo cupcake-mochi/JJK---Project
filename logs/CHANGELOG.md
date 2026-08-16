@@ -6,6 +6,63 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.77] — 2026-08-16
+
+**A matriz da Vanguarda fechou, e ela está limpa** — uma dominância no total, que é a mesma que a v0.75 já tinha medido, aceitado e declarado. *E o serviço era o dobro do que a v0.76 registrou: eram quinze entregas, não sete.* Continuam dezesseis peças e dezesseis validadores.
+
+### Alterado — a divisão por coluna do `Batedor`, refeita a partir de linha publicada
+
+**Nenhum script gerou os números originais das três rotas.** Eles foram calculados numa passada anterior e só o total de cada entrega ficou escrito — então a divisão por coluna não existia para ser lida. Ela teve de ser reconstruída.
+
+Três peças saem de linha que já estava publicada: o `+3 m` do nível 2 do `Yumi` vale `0,35` pela mesma linha que o `Punho` usa duas vezes, o empurrão da `Besta` vale `0,71` pela linha `+6 m sempre`, e um degrau de margem crítica vale `0,05` — que é o próprio nível 19 do `Yumi`, publicado sozinho. *A escalada entra a zero, no molde do `treino` do `Servo`: utilidade sem preço em dano.*
+
+**Duas saíram por subtração, e é aí que estava o risco:** *"sem desvantagem na faixa longa"* em `1,13` e *"sem desvantagem colado"* em `0,44`.
+
+> **A conferência de fora fecha exata, e ela não é circular.** O nível 19 da `Besta` é empurrão mais colado, e está publicado em `1,15`. As duas parcelas vêm de lugares diferentes — o empurrão da linha `+6 m` e o colado do `1,57` que o documento publica para as duas taxas de previsão — e somam `0,71 + 0,44 = 1,15`. **Nenhuma das duas foi tirada dali.**
+>
+> *E a terceira bate junto:* o nível 2 do `Fogo` menos o colado deixa `0,10` a `0,15` para *"recarrega só no `1` natural"*, que é o tamanho certo para meia chance de recarga forçada.
+
+### Adicionado — a matriz, com o `Batedor` em três linhas
+
+| | ação/alvo | defesa | posicionamento | recuperação | total |
+|---|---|---|---|---|---|
+| `Estocada` | **4,58** | 0,00 | 0,00 | 0,00 | 4,58 |
+| `Executor` | 2,84 | **1,84** | 0,00 | 0,00 | 4,68 |
+| `Batedor` · `Yumi` | 4,46 | 0,00 | 0,35 | 0,00 | 4,81 |
+| `Batedor` · `Besta` | 3,82 | 0,00 | **0,71** | 0,00 | 4,53 |
+| `Batedor` · `Arma de Fogo` | **4,74** | 0,00 | 0,00 | 0,00 | 4,74 |
+
+**Três linhas e não uma, e isso não é escolha de formato.** A rota se escolhe no nível 2 e vale a campanha inteira, então `Yumi` e `Besta` são duas fichas diferentes — e a dominância pergunta se **uma ficha** ganha da outra em tudo. Uma linha média não responde isso.
+
+Das vinte comparações, uma dispara: `Arma de Fogo` sobre a `Estocada`, por `0,16` fatia e razão `1,03×`. **É a declarada da v0.75.** O `Executor` é o único da Vanguarda com coluna de defesa, e a `Besta` leva posicionamento com folga de `2,0×` sobre o `Yumi`.
+
+### Achado — o `4,74` da `Arma de Fogo` é o PISO da rota, não o valor dela
+
+Duas das quatro entregas dela são faixa e não número: o nível 2 vale `0,54` a `0,59`, e o `Quick Draw` vale `1,17` com o Rifle de Precisão e `1,89` com a Metralhadora Pesada. **O total publicado usa o fundo das duas.**
+
+**No topo das duas a rota soma `5,51` fatias — `10%` acima da banda de `4,50` a `5,00`.**
+
+> **Não cria dominância nova** — a Metralhadora continua sem ganhar do `Yumi`, da `Besta` e do `Executor`, que têm coluna que ela zera. **O que ela enfraquece é o argumento de "ruído"** que sustenta a dominância declarada: contra a `Estocada` a diferença vai de `0,16` para `0,93` fatia, que são `4,72` de dano bruto por rodada — quase **seis vezes** os `0,81` medidos na v0.75.
+>
+> *A v0.75 mediu o espalhamento do `Quick Draw` entre as armas — `1,6×`, dentro do filtro de `3,0×` — e não o total da rota com ele dentro.* **A decisão de deixar o `X` de balas variar é do Mizuki e continua de pé**; o que faltava era somar o efeito dela na rota inteira.
+
+### Achado — duas somas de `0,01` que não fecham
+
+As quatro entregas do `Yumi` somam `4,81` contra um total publicado de `4,82`; as da `Besta` somam `4,53` contra `4,52`. **É arredondamento das entregas, não erro de conta** — mas é a mesma casa de defeito que o `4,80` contra `4,87` do `Muro`, duas ordens de grandeza menor. A matriz usa a soma das entregas.
+
+### Em aberto
+
+- **O nível 2 da `Estocada` continua sem coluna, e agora com tamanho.** Os `0,16` fatia da dominância declarada são exatamente o preço de a coluna não existir. *Terceira vez que a matriz pede eixo em vez de número — as duas anteriores foram o `Servo` na v0.63 e esta mesma `Estocada` na v0.75.*
+- **O catálogo da `Pegada`**, cinco entradas e duas abaixo do teto de `0,79`. *Do mesmo tamanho das treze `Manhas` de arma que o Caminho da Vanguarda deve desde a v0.70.*
+- **Falta nome** para o empurrão do `Punho`, o espaço do `Muro` e a energia temporária da `Brasa`.
+- **O `Revide` contra o `Não Acabou`**, que continua não medido.
+- **Guia, Emanador e Evocador** — nove Trilhas, e o `Servo` publicado está na escala velha e reprova.
+- **A tabela de inimigo** continua parada até as nove fecharem.
+- **Nenhum validador alcança o `DESENHO-trilhas.md`.** A régua de Trilhas ainda não virou peça, e enquanto não virar toda conta desse arquivo é conferida à mão.
+- As de sempre: as vagas de Desliga, a Cicatriz, Energia Reversa, o clash, o nome do sistema, o refino que paga mal no marco.
+
+---
+
 ## [0.76] — 2026-08-16
 
 **O `Executor` fechou, e o que destravou ele foi achar que eu estava cobrando `50%` a mais por PV temporário.** *Três números meus caíram nesta versão, e nos três quem desconfiou primeiro foi o Mizuki.* A Vanguarda está com as três Trilhas escritas. Continuam dezesseis peças e dezesseis validadores.
