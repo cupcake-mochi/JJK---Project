@@ -120,26 +120,50 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 **Sobram `1,26` fatia, que são `6,40` de dano por rodada.**
 
-### ⚠ O raio de alcance, medido — quatro das onze Trilhas escritas encostam num Classe 0
+### O raio de alcance — medido errado DUAS vezes, e o Mizuki achou as duas
 
-**E é o item mais caro que esta versão deixa aberto.** *Nenhuma delas foi repreçada aqui, e nenhuma tem validador — a régua de Trilhas ainda não virou peça.*
+**A primeira medição somou o Classe 0 novo em cima de cada entrega, uma por vez.** *Lição nº 7: um preço se mede somado, nunca sozinho.*
 
-| entrega | publicado | com o Classe 0 certo | o que ela é |
-|---|---|---|---|
-| `Estocada` nv27 | 0,89 | **5,31** | o golpe da bônus carrega sempre um Classe 0 |
-| `Brasa` nv27 — `Fornalha` | 1,77 | **≈ 5,3 a 10,6** | três socos, três alvos, **três** Classe 0 |
-| `Brasa` nv2 | 1,22 | **3,99** | Classe 0 na bônus depois de atacar, gate `75%` |
-| `Torrente` nv2 — `acelerar` | 0,00 | **2,87** | o grande vai para a bônus e a Padrão fica livre para um Classe 0 |
-| `Torrente` nv11 | **3,78** | **1,38** | o teto do outro feitiço sobe de Classe 0 para Classe 3 |
-| `Arremate` nv27 | 1,38 | **0,00** | as duas metades se cancelam |
+**A segunda montou a rodada inteira e supôs que a Ação Padrão era conjuração nas três — e ela não é.** *Achado do Mizuki, com o texto das Trilhas na mão: "essas classes são quase todas marciais, a pessoa não vai usar feitiço no turno".* **Ele estava certo em duas de três, e a terceira ele errou para o lado que importa.**
 
-**A `Torrente` é o caso interessante, porque ela anda para os dois lados.** *O `acelerar` do nível 2 era `0,00` porque a base já contava um Classe 0 de graça; sem esse Classe 0 fantasma na base, o `acelerar` passa a valer `27` — é ele que destranca a segunda ação.* **E o degrau do nível 11 desinfla: subir o teto de `Classe 0` para `Classe 3` era `+35,50` quando o Classe 0 valia `4,50`, e é `+13` quando ele vale `27`.**
+| Trilha | Ação Padrão | Ação Bônus |
+|---|---|---|
+| `Arremate` | **atacar** com a arma do grupo | conjurar Classe 0 a 7 |
+| `Brasa` | **atacar** (socos) | Classe 0 — Classe 2 no nível 19 |
+| `Estocada` | **conjurar** | golpe de arma — mais um Classe 0 no nível 27 |
 
-> **O achado por baixo dos quatro é o mesmo: um Classe 0 é caro de dar.** Ele é grátis em PE, não ocupa espaço na lista, e causa `27` no nível 30 — **`25%` da Rotina, contra `11%` de um golpe simples.** *Quatro Trilhas deram ele de presente ao preço de um golpe fraco.*
+**A `Estocada` é o espelho, e é a única das três que põe um Classe 0 numa rodada que já tem o feitiço grande inteiro.**
+
+### As rodadas de pico, montadas slot a slot no nível 30
+
+| Trilha | a rodada | dano | da Rotina | acima da base do Caminho |
+|---|---|---|---|---|
+| `Arremate` | 2 golpes `23` + Classe 7 na bônus `94` | **117,00** | +8,3% | **4,53 fatias — dentro da banda** |
+| `Estocada` | Classe 7 `94` + golpe `11,5` + Classe 0 `27` | **132,50** | +22,7% | **5,31 fatias — 6% acima** |
+| `Brasa` — `Fornalha` | 3 socos `34,5` + 3 Classe 0 `81` | **115,50** | +6,9% | **1,97 fatia — fraca** |
+
+> **Nada quebrou, e o `Arremate` cai exato dentro da banda de `4,50` a `5,00`.** *A `Estocada` estoura `6%`, que é menos de um terço do estouro do `Punho` que já está aceito desde a v0.74.*
+
+> ***Decisão do Mizuki: fica assim, e é esperado e calculado.*** *"O único que realmente sai fraco aqui é a `Brasa`, mas ela está no Caminho que é para ser tank mesmo."* **Ele vai testar e dar retorno.**
+
+### ⚠ O aviso que fica junto, e ele é de texto e não de número
+
+**A peça 6 nunca escreveu se a Ação de Atacar de um físico inclui o golpe canalizado.** Ela publica a linha `canalizado + golpe simples` como a rodada do físico, e nunca disse em que ação isso acontece.
+
+| a `Brasa` no nível 2, se a Ação de Atacar… | a rodada dá |
+|---|---|
+| …**inclui** o canalizado | `94 + 11,5 + 27` = **132,50** |
+| …**não inclui** | `11,5 + 11,5 + 27` = **50,00** |
+
+**Fator de `2,6×` numa entrega publicada, decidido por uma frase que ninguém escreveu.** *É o mesmo buraco que a v0.66 fechou para o `Arremate` e o `Coro` — "esta seção sempre disse 2 ações e nunca disse quais" —, e para o Bastião e a Vanguarda ele continua aberto.*
+
+**Isso é a primeira coisa a olhar no playtest**, e é mais barato de responder na mesa do que na conta.
 
 ### Em aberto
 
-- **⚠ As quatro Trilhas acima precisam ser repreçadas**, e duas delas — `Estocada` e `Brasa` — estão fechadas desde a v0.74 e a v0.76.
+- **⚠ A peça 6 nunca escreveu se a Ação de Atacar de um físico inclui o golpe canalizado**, e essa frase decide a `Brasa` por um fator de `2,6×`. *Primeira coisa a olhar no playtest.*
+- **A `Estocada` está `6%` acima da banda** e fica, no mesmo molde do estouro do `Punho`.
+- **Nenhum validador lê a regra de ouro nº 6**, e ela é a que segura quantos feitiços cabem num turno.
 - **⚠ Duas decisões de nível 7 foram tomadas contra o vão errado, e as duas viram.** *Marcadas no `DESENHO-caminhos.md` e não desfeitas.*
   - **Guia:** *"`Ajudar` de bônus mais o golpe preso ao `Guiar` estouram"* — `5,75 + 5,75 = 11,50` contra um vão de `12`. **Cabem, com `0,50` de sobra.**
   - **Evocador:** a `Coleira` foi cortada de `metade da maestria` para `+1` fixo na v0.71, porque `10,80` estourava um vão de `7`. **Contra `12` ela cabe.**
