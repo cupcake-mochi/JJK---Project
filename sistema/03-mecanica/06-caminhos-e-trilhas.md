@@ -93,14 +93,26 @@ O Guia era o que você não sabia preencher, e o motivo é bom: **buff e debuff 
 
 Você pediu que os Caminhos físicos ganhem ataque extra e os meio-arcanos não. **A conta aprova**, e por um motivo que vale registrar. *Quem ganha, e em que nível, está na seção 3.1 — isso ficou sem ser escrito da v0.14 até a v0.24.*
 
-A coluna Rotina do Fundamento **já é "feitiço + Classe 0"**. O conjurador sempre teve dois golpes por rodada: um grande e um pequeno. Então o ataque extra do físico não é um privilégio — é o espelho do Classe 0.
+A coluna Rotina do Fundamento é **o meio exato entre bater num alvo e espalhar o dano**. As duas colunas vizinhas dela, na mesma tabela do manual, são `3 × Classe` e `4 × Classe` em dados; a Rotina é `floor(3,5 × Classe)`. Ela fecha nas **sete** Classes sem nenhum parâmetro livre, e a checagem 4e do `conferir-manual.py` reconstrói ela em vez de guardar o número.
 
-| nível | Rotina | conjurador (Classe + C0) | físico (canalizado + golpe simples) |
+> **Esta seção dizia outra coisa da v0.14 até a v0.79, e a frase errada custou cinquenta e uma versões: *"a coluna Rotina já é feitiço + Classe 0"*.**
+>
+> Ela nunca foi. A leitura velha dá um número **diferente da Rotina nas sete Classes** — no Classe 7 ela pede `27d8` e a Rotina é `24d8`. E o estrago não ficou na explicação: foi ela que fez esta tabela somar um Classe 0 de `4,50` na linha do conjurador, **e `4,50` não existe em lugar nenhum do manual.**
+>
+> *O manual tem tabela própria para o dano de um Classe 0 — `2d8 · 3d8 · 4d8 · 5d8 · 6d8`, por faixa de nível —, e até a v0.79 nenhum documento do projeto e nenhum validador abriam ela. **Ela é a quarta tabela compartilhada com o manual, e era a única sem dono declarado.** Hoje o dono é o manual, como o da Rotina.*
+
+**E um Classe 0 não cabe junto do feitiço grande.** Todo feitiço custa Ação Padrão. A única Melhoria que tira ele de lá é a `Rápido`, e ela custa o degrau **Pesada** — e o manual escreve que numa Classe 0 **só cabe Melhoria do degrau `Leve`**. Pôr `Rápido` no feitiço grande para os dois caberem no mesmo turno piora a rodada em todo nível do 10 em diante: no 30 ela sai de `94` para `72`. Ninguém faz.
+
+**Então a linha do conjurador é o feitiço sozinho, e o ataque extra do físico não é o espelho de nada — ele é o que separa os dois.**
+
+| nível | Rotina | conjurador (o feitiço sozinho) | físico (canalizado + golpe simples) |
 |---|---|---|---|
-| 2 | 13 | 18 | 22 |
-| 10 | 45 | 45 | 50 |
-| 18 | 76 | 72 | 78 |
-| 30 | 108 | 99 | 106 |
+| 2 | 13 | 13 | 22 |
+| 10 | 45 | 40 | 50 |
+| 18 | 76 | 67 | 78 |
+| 30 | 108 | 94 | 106 |
+
+**O vão entre as duas linhas é exatamente um golpe simples — `9 · 10 · 11 · 12`.** Não é coincidência nem calibragem: o físico *é* o conjurador mais um golpe, e nunca foi outra coisa. *A tabela publicava `4 · 5 · 6 · 7`, que é o golpe simples menos o Classe 0 fantasma, em todo nível.*
 
 **A correção:** o golpe canalizado **não soma arma nem Força**. Ele *é* o feitiço; arma e Força são o que você faz quando **não** canaliza. Se o canalizado somasse os dois e ainda houvesse ataque extra:
 
@@ -126,24 +138,58 @@ Então a regra fica em três linhas, e ela espelha a regra de ouro nº 6 do Fund
 
 > **Era o nível 6 até a v0.61, e o motivo escrito aqui era *"é o primeiro marco, e é onde o resto do sistema já entrega coisa"*. Esse motivo virou o argumento contrário.** A Q2 de Trilhas mediu o calendário do sistema inteiro e achou que o **nível 6 é um dos quatro mais cheios** — marco, feitiço e o ataque extra no mesmo lugar —, enquanto o **7 não entrega absolutamente nada**. E ela pôs os degraus de Caminho em **7 · 15 · 23 · 29**: com o ataque extra no 6, Bastião e Vanguarda ficavam com cinco degraus de Caminho e os outros três com quatro. **Mover fecha as duas coisas de uma vez** — um presente por nível, e quatro degraus de Caminho para os cinco.
 
-**O ataque extra é o degrau de Caminho do nível 7 desses dois, e não um degrau a mais.** Quem não tem rota para ele — o Guia, e as Trilhas do Emanador e do Evocador que não são `Arremate` e `Coro` — recebe no lugar um degrau que vale exatamente o vão desta seção. *A régua está no `RASCUNHO-trilhas.md` §3.4, e ela empata os cinco Caminhos em `+6%` da Rotina no nível 30, contra o `+18%` que a seção abaixo reprova.*
+**O ataque extra é o degrau de Caminho do nível 7 desses dois, e não um degrau a mais.** Quem não tem rota para ele — o Guia, e as Trilhas do Emanador e do Evocador que não são `Arremate` e `Coro` — recebe no lugar um degrau que vale exatamente o vão desta seção. *A régua está no `RASCUNHO-trilhas.md` §3.4.*
 
-**Num Caminho de técnica, ataque extra é trocar, não somar.** O Arremate e o Coro trocam o Classe 0 pelo golpe simples; eles não passam a ter três ataques. A diferença não é estética:
+> **E "vale o vão" precisou de definição na v0.80, porque o degrau do Emanador não é um número somado toda rodada.** O `Resquício` só dispara quando a Ação Padrão foi um feitiço que não causa dano — então ele **levanta o chão da rodada de controle** em vez de subir o pico.
+>
+> **A leitura que vale é a MÉDIA por rodada, e não o pico.** Um degrau que dispara em parte das rodadas empata com o ataque extra quando `magnitude × taxa` dá o vão; ele não precisa empatar na rodada mais forte. *Escolha do Mizuki, e ela tem preço declarado: o Emanador termina `12` de dano por rodada atrás do físico na melhor rodada dele, e o que ele compra com isso é controlar sem perder o turno.*
+>
+> **A taxa é número de playtest.** Nenhuma medição existe de quantas rodadas um Emanador passa em controle, e ela decide o degrau inteiro.
 
-| nível | Rotina | somar o golpe (3 ações) | trocar o Classe 0 (2 ações) |
-|---|---|---|---|
-| 2 | 13 | 21 · **+61%** | 22 · +69% |
-| 10 | 45 | 55 · **+22%** | 50 · +11% |
-| 18 | 76 | 90 · **+18%** | 78 · +3% |
-| 30 | 108 | 127 · **+18%** | 106 · −2% |
+**Num Caminho de técnica, o ataque extra chega na Ação Bônus, e ele é o degrau do vão.** O `Arremate` e o `Coro` põem um golpe simples ao lado do feitiço — `feitiço + golpe`, que é a mesma linha do físico. **A partir daí eles podem comprar um segundo golpe pela Trilha, e isso é permissão da v0.80.**
 
-> *As duas últimas linhas mudaram na v0.60, e elas mudaram a favor desta decisão.* A coluna Rotina desta peça vinha lendo **81** e **126**, que não são a coluna `Rotina` do manual — são `Feitiço num alvo` da Classe 6 e `Somando alvos` da Classe 7. Com os números certos, **somar não afrouxa no topo: ele fica em +18% do nível 18 ao 30**. A tabela antiga mostrava **+1%** no nível 30, que é o número mais fraco possível para o argumento que esta seção usa — *a decisão estava certa e a conta que a sustentava estava lendo a coluna errada.*
+> **Esta seção proibia por nome até a v0.79: *"eles não passam a ter três ataques"*.** *E ela proibia com uma tabela que não reconstrói de nada — a coluna "somar o golpe" publicava `21 · 55 · 90 · 127`, e nenhuma combinação das peças publicadas produz esses quatro números.* **A proibição caiu junto com a linha de base do Classe 0**, porque ela era escrita como *"trocar o Classe 0 pelo golpe simples"* e não existe Classe 0 nenhum naquela rodada para trocar.
 
-> **⚠ O `+18%` desta tabela NÃO é um teto de dano, e ele já foi lido como um.** *Registrado na v0.72.* Ele é a medida da montagem de **três ações por rodada** que esta seção reprova — e o que ela recusa é o **mecanismo**, não a magnitude. Um Caminho que chegue perto daquele número por posicionamento, alvo, defesa ou exceção estreita **não é o que foi reprovado aqui**. *A v0.72 leu este número como espaço disponível antes de conferir, e o achado ficou escrito para ninguém repetir.*
+**A permissão, e o preço dela medido:**
 
-Trocando, o conjurador de perto cai exatamente na linha do físico, que esta seção já aprovou. Somando, ele vira a terceira ação por rodada — e a seção 4, logo abaixo, prova que ação a mais por rodada não tem conserto por preço. Pior: o **único** argumento que aprova o ataque extra é que a Rotina já é "feitiço + Classe 0". Somar quebra o espelho que o argumento usa.
+> **O `Arremate` e o `Coro` podem ter três rolagens de ataque numa rodada** — dois golpes na Ação Padrão e o feitiço na Ação Bônus, ou o arranjo espelho. **A trava que continua valendo é a regra de ouro nº 6 do Fundamento e a da seção 3 acima: um canalizado por turno, e ataque extra é sempre golpe simples.**
 
-**O Coro não custa nada a mais**, e isso cai de graça da regra da seção 4: o dono e todas as invocações somados entregam **uma** Rotina. É teto de saída, não de número de ações. Os dois golpes do dono e o da invocação continuam saindo do mesmo orçamento — as ações se redistribuem, o dano não sobe. A exceção de economia de ação que estava em aberto no Coro já estava paga.
+*Decisão do Mizuki: **"o Emanador já tem pouca vida, ele ter dano é o mínimo."*** **E o motivo tem número:** com Constituição 3 no nível 30 o Emanador chega a `212` de vida, contra `243` da Vanguarda e `305` do Bastião — **87% e 70%.**
+
+**O que a permissão custa, medido nível a nível, e não só no 30:**
+
+| nv | Rotina | físico | `Arremate` com dois golpes | acima do físico |
+|---|---|---|---|---|
+| 11 | 45 | 50 | 60 | **+20%** |
+| 18 | 76 | 78 | 89 | +14% |
+| 22 | 94 | 92 | 104 | +12% |
+| 30 | 108 | 106 | 118 | **+11%** |
+
+> **⚠ O pior nível não é o 30, e é onde a conta anterior olhou.** O `DESENHO-trilhas.md` mediu `+10%` no nível 30 e fechou o argumento ali — **o nível 30 é o mais favorável dos quatro.** No nível 11, que é onde o ataque extra da Trilha chega, ele está em `+20%`.
+>
+> **A causa é de escala e não da Trilha:** o feitiço cresce de `13` para `94` na campanha e o golpe simples cresce de `9` para `12`. **Um golpe a mais é 22% da Rotina no nível 11 e 11% no nível 30** — ele encolhe sozinho.
+>
+> **Fica declarado e não consertado.** *O conserto barato, se o playtest reclamar, é mover o ataque extra do `Arremate` do nível 11 para o 19: o pior caso cai de `+20%` para `+14%` e a curva fica quase plana.*
+
+> **A tabela que ficava aqui morreu na v0.80, e as duas notas presas nela também. Elas ficam registradas, porque as duas ensinam.**
+>
+> **A da v0.60:** a coluna Rotina desta peça vinha lendo `81` e `126`, que não são a coluna `Rotina` do manual — são `Feitiço num alvo` da Classe 6 e `Somando alvos` da Classe 7. *Número que veio da coluna errada da tabela certa passa por qualquer varredura que só pergunte se ele existe no manual.* **Hoje a checagem 4d do `conferir-manual.py` pega exatamente isso.**
+>
+> **A da v0.72:** o `+18%` daquela tabela **não era um teto de dano**, e foi lido como um. Ele era a medida de uma montagem específica, e o que a seção recusava era o **mecanismo**. *Piso lido como teto é o erro mais caro desta peça, e ele aconteceu duas vezes.*
+>
+> **E a v0.80 achou o terceiro andar do mesmo defeito: aqueles `+18%` nunca reconstruíram de nada.** O `127` do nível 30 aparecia **uma vez só no repositório inteiro**, sem script e sem validador. *Um teto que ninguém consegue recalcular não é teto — é número que sobreviveu por repetição.*
+
+Com um golpe na Ação Bônus, o conjurador de perto cai exatamente na linha do físico, que esta seção já aprovou. **Com dois, ele passa dela — e a seção 4, logo abaixo, continua valendo para invocação: ação a mais por rodada não tem conserto por preço.** *A diferença entre os dois casos é que a invocação multiplica corpos e a Trilha compra um golpe dentro de uma ficha só, pagando por ele em fatia.*
+
+**E o argumento que aprova o ataque extra é que ninguém está acima da régua.** O conjurador para em `94` e o físico em `106`, contra uma Rotina de `108`. O ataque extra **fecha o vão do físico até a régua** em vez de passar dela — e é por isso que ele é correção de base e não bônus.
+
+> **Este argumento mudou na v0.80, junto com a linha de base da seção 3.** O que estava escrito aqui era *"o único argumento que aprova o ataque extra é que a Rotina já é feitiço + Classe 0"*, e aquela frase é falsa — a seção acima registra por quê. **A decisão sobrevive e o argumento ficou mais forte:** antes ela dependia de um espelho que não existia; agora ela depende de os dois estarem abaixo da régua, que é conta lida do manual.
+
+**O Coro não custa nada a mais**, e isso cai de graça da regra da seção 4: o dono e todas as invocações somados entregam **uma** Rotina. É teto de saída, não de número de ações. Os golpes do dono e o da invocação continuam saindo do mesmo orçamento — as ações se redistribuem, o dano não sobe. A exceção de economia de ação que estava em aberto no Coro já estava paga.
+
+> **E é por isso que a permissão da v0.80 chega no `Coro` de graça, e ela chega diferente.** *Decisão do Mizuki: o `Coro` herda.* **No `Arremate` a permissão custa `+11%` a `+20%` sobre o físico, porque cada golpe novo é dano novo. No `Coro` ela custa `0%` em dano**, porque o teto de uma Rotina somada já segura a saída — o que ela compra é **uma rolagem a mais**, e rolagem a mais é alcance, tipo de dano e alvo, que o teto não mede.
+>
+> **É a lição do eixo errado outra vez, e ela fica declarada em vez de consertada:** o teto da seção 4 só enxerga dano. *Quando as três Trilhas do Evocador forem preçadas, o que precisa de conta é a rolagem a mais e não o dano dela.*
 
 **E o Guia fica coerente ficando de fora.** Ele é o único Caminho que não oferece um segundo golpe; quem quiser lutar de Guia paga pela técnica, no orçamento do Fundamento, como todo mundo. Isso troca o achado nº 2 da v0.20 — *"o Guia pode estar dominado pela Vanguarda"* — por uma pergunta fechada e mensurável: **o que Elo, Sutura e Perímetro entregam que valha um golpe por rodada?** A peça de Trilhas responde com número.
 
@@ -153,7 +199,9 @@ Trocando, o conjurador de perto cai exatamente na linha do físico, que esta se�
 
 > **O golpe simples do `Arremate` e do `Coro` é uma Ação Bônus, e ele só existe se a Ação Padrão daquele turno foi gasta no que a Trilha é.**
 > **`Coro`** — a padrão comandou, e a invocação atacou.
-> **`Arremate`** — a padrão conjurou.
+> **`Arremate`** — a padrão conjurou **ou atacou com a arma do grupo escolhido**.
+
+> **A metade em negrito entrou na v0.80, e ela é a Trilha invertida.** *Decisão do Mizuki na v0.79: o `Arremate` bate na Padrão e conjura na Bônus, em vez do contrário.* **O gate sobrevive inteiro e só troca de sentido** — a Ação Padrão continua fazendo uma coisa só, e a escolha continua sendo por rodada. *O que ela não pode é ficar livre: uma Padrão solta faz a Trilha conjurar, golpear e ainda ter a Bônus.*
 
 **O gate é a metade que importa, e sem ele a mudança vazava.** Mover o golpe para a Ação Bônus solta a Ação Padrão do `Coro`, e um `Coro` de padrão livre conjura, golpeia e comanda no mesmo turno. *O teto de uma Rotina da seção 4 continuaria segurando o **dano** e não seguraria o resto* — feitiço faz controle, alcance e condição, e o teto não mede nada disso. **É a lição do eixo errado: o teto só enxerga o eixo que ele tem.** Com o gate, a padrão só faz uma coisa, e a escolha volta a ser por rodada: **ou você conjura, ou você comanda e golpeia.**
 

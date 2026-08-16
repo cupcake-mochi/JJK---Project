@@ -283,6 +283,14 @@ A Rotina cresce **8,31×** e o número de entregas cresce **8,00×**. Então uma
 
 > **O limite conhecido, escrito porque ele existe:** com oito fatias iguais, a Vanguarda fica **34% abaixo** do piso do escudo nos níveis 5 e 6 — **4 missões de 145** — e entre 13% e 19% abaixo no miolo. Isso não é defeito escondido; é o preço da fatia plana, e ele está aqui para ninguém redescobrir no playtest.
 
+> ## ⚠ AVISO DA v0.80 — este §3 mede contra dois números que mudaram
+>
+> **1. O vão.** Esta seção usa `4 · 5 · 6 · 7` como o vão `físico − conjurador`. **Ele é `9 · 10 · 11 · 12`.** *A linha do conjurador da peça 6 §3 somava um Classe 0 de `4,50` que não existe no manual — o Classe 0 tem tabela própria lá, com `2d8` a `6d8` por faixa de nível, e ele gasta a Ação Padrão, então não cabe junto do feitiço grande.* **O vão é exatamente um golpe simples.**
+>
+> **2. O teto.** Esta seção mede o orçamento contra *"o `+18%` sustentado que a peça 6 §3.1 reprovou"*, em quatro lugares. **Aquele `+18%` era a medida de uma montagem de três ações, e a v0.80 fez duas coisas com ela:** a permissão do `Arremate` e do `Coro` **deixou de proibir** aquela montagem, e a conta mostrou que o `127` dela **não reconstrói de nenhuma linha publicada** — ele aparecia uma vez só no repositório inteiro.
+>
+> **Ou seja: a régua que preçou as onze Trilhas está medindo contra um teto que não existe mais, e contra um vão pequeno demais.** *Nada foi mexido aqui. Fica escrito para ninguém preçar a próxima Trilha contra os números velhos.*
+
 ### 3.4 O degrau do nível 7, que é o único diferente dos oito
 
 A peça 6 §3 mede a linha de base assim, e a leitura dela muda tudo:

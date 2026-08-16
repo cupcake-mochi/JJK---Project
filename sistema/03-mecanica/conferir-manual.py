@@ -274,6 +274,10 @@ DONO = {
     'inimigo': ('o PLAYTEST', 'esta e a unica das tres que afirma alguma coisa sobre o '
                 'mundo: que um combate dura ~3,5 rodadas. A trava de vida inteira da peca 1 '
                 'foi calibrada contra ela. Ninguem e dono ate alguem jogar'),
+    'Classe 0': ('o MANUAL', 'ele tem tabela propria — 2d8 . 3d8 . 4d8 . 5d8 . 6d8 por '
+                 'faixa de nivel — e ate a v0.79 nenhum documento do projeto e nenhum '
+                 'validador abriam ela. A peca 6 precava ele em 4,50 fixo, que nao existe '
+                 'no manual. Ele e a QUARTA tabela compartilhada, e era a unica sem dono'),
     'Rotina': ('o MANUAL', 'ela nao e uma medida, e a DEFINICAO de "quanto dano por rodada '
                'e normal". Nao ha verdade fora dela — o projeto compara tudo contra ela, '
                'inclusive ela mesma. Mudar a Rotina e mudar a regua, e reprecifica tudo'),
@@ -473,6 +477,216 @@ else:
             print(f'    As {len(_vistos)} linhas de Rotina da peca 6 saem da coluna '
                   f'certa do manual,')
             print('    e a faixa de cada Classe foi lida do .docx em vez de escrita aqui.')
+
+
+# --------------------------------------------------------------------------
+# 4e. A ROTINA RECONSTROI DO PROPRIO MANUAL — e ela NUNCA foi "feitico + Classe 0"
+#
+# Escrita na v0.80. Ela existe porque a peca 6 SS3 passou de v0.14 ate aqui
+# explicando a coluna Rotina com uma frase que nao reconstroi de nada:
+# "a coluna Rotina do Fundamento ja e feitico + Classe 0". Ela nao e.
+#
+# A Rotina e o MEIO EXATO entre as duas colunas vizinhas da mesma tabela:
+#     Feitico num alvo = 3 x Classe dados   (regra de ouro no 2: "para nos pontos")
+#     Somando alvos    = 4 x Classe dados   (o teto)
+#     Rotina           = floor(3,5 x Classe) dados
+# Bate nas SETE Classes, com zero parametro livre.
+#
+# NADA DE VALOR ESCRITO AQUI: as tres contagens de dados de cada linha saem do .docx.
+#
+# O QUE TEM DE ACENDER: mexer na contagem de dados de qualquer Rotina do manual.
+# CONTRA-TESTE: a leitura velha — "num alvo + Classe 0" — tem de dar DIFERENTE da
+# Rotina em pelo menos uma Classe. Se ela desse igual, esta checagem estaria
+# aprovando as duas leituras ao mesmo tempo e nao provaria nada.
+print()
+print('  4e. a Rotina reconstroi como o meio entre "num alvo" e "somando alvos"')
+
+def _dados(txt):
+    """soma todos os NdX de uma celula: '21d8 + 3d8 = 108' -> 24"""
+    return sum(int(n) for n in re.findall(r'(\d+)d\d+', txt))
+
+_tr = _tabela_com(['Rotina', 'Feitico num alvo']) or _tabela_com(['Rotina', 'Feitiço num alvo'])
+_t0 = None
+for _t in _D.tables:
+    _l = [[c.text.strip() for c in r.cells] for r in _t.rows]
+    if _l and _l[0][0].startswith('Seu n') and any(r[0] == 'Dano' for r in _l):
+        _t0 = _l
+        break
+
+if _tr is None:
+    erro('nao achei a tabela da curva no manual — a Rotina e a regua de tudo')
+elif _t0 is None:
+    erro('nao achei a tabela de dano do Classe 0 no manual. DONO: o MANUAL. '
+         'Sem ela nao da para conferir a leitura velha da Rotina')
+else:
+    _cab = [c.text.strip() for c in _tr.rows[0].cells]
+    _ir = next(n for n, c in enumerate(_cab) if c == 'Rotina')
+    _ia = next(n for n, c in enumerate(_cab) if 'num alvo' in c)
+    _is = next(n for n, c in enumerate(_cab) if 'Somando' in c)
+
+    # o Classe 0 por FAIXA DE NIVEL, lido do .docx
+    _nv0 = [int(x) for x in _t0[0][1:]]
+    _dd0 = [int(re.match(r'(\d+)', x).group(1)) for x in _t0[2][1:]]
+
+    def _c0_dados(nv):
+        _v = _dd0[0]
+        for _n, _x in zip(_nv0, _dd0):
+            if nv >= _n:
+                _v = _x
+        return _v
+
+    print(f"    {'Classe':<8}{'num alvo':<11}{'somando':<10}{'o meio':<9}"
+          f"{'Rotina':<9}{'bate?':<7}{'num alvo + C0'}")
+    _velha_bate_sempre = True
+    for _r in _tr.rows[1:]:
+        _cel = [c.text.strip() for c in _r.cells]
+        if not _cel[1].isdigit():
+            continue
+        _cl = int(_cel[1])
+        _da, _ds, _drot = _dados(_cel[_ia]), _dados(_cel[_is]), _dados(_cel[_ir])
+        _meio = (_da + _ds) // 2
+        _niv_da_classe = int(re.findall(r'\d+', _cel[0])[0])
+        _velha = _da + _c0_dados(_niv_da_classe)
+        if _velha != _drot:
+            _velha_bate_sempre = False
+        _bate = (_meio == _drot) and (_drot == 3 * _cl + _cl // 2)
+        print(f'    {_cl:<8}{str(_da)+"d8":<11}{str(_ds)+"d8":<10}'
+              f'{str(_meio)+"d8":<9}{str(_drot)+"d8":<9}'
+              f'{"sim" if _bate else "NAO":<7}{str(_velha)+"d8"}')
+        if not _bate:
+            erro(f'Rotina da Classe {_cl}: o manual publica {_drot}d8, e o meio entre '
+                 f'"num alvo" ({_da}d8) e "somando alvos" ({_ds}d8) da {_meio}d8 '
+                 f'(= floor(3,5 x Classe) = {3*_cl + _cl//2}d8). DONO: '
+                 f'{DONO["Rotina"][0]}. A Rotina e a regua: mudar ela reprecifica o '
+                 f'golpe canalizado, o ataque extra, a invocacao e as quinze Trilhas')
+
+    if _velha_bate_sempre:
+        erro('CONTRA-TESTE FALHOU: "num alvo + Classe 0" deu igual a Rotina em TODAS '
+             'as Classes. Entao esta checagem nao separa a leitura certa da leitura '
+             'que viveu de v0.14 a v0.79, e ela nao esta provando nada')
+    else:
+        print('    Contra-teste: "num alvo + Classe 0" NAO reproduz a Rotina. A frase')
+        print('    "a Rotina ja e feitico + Classe 0" morreu na v0.80, e esta linha e')
+        print('    o que impede ela de voltar.')
+
+
+# --------------------------------------------------------------------------
+# 4f. O CLASSE 0 TEM DONO, E A PECA 6 PAROU DE INVENTAR UM
+#
+# Escrita na v0.80. O manual publica o dano de um Classe 0 numa tabela propria —
+# 2d8 . 3d8 . 4d8 . 5d8 . 6d8 por faixa de nivel — e ate a v0.79 NENHUM documento
+# do projeto e NENHUM validador abriam ela. A peca 6 SS3 precava o Classe 0 em 4,50
+# em todo nivel, que e um numero que nao aparece em lugar nenhum do manual.
+#
+# O estrago: a coluna "conjurador" da peca 6 saia 5 pontos alta em todo nivel, e o
+# vao "fisico - conjurador" — que paga o degrau do nivel 7 dos cinco Caminhos, o
+# nivel 2 do Arremate e o empate em +6% — saia 4/5/6/7 quando ele e 9/10/11/12.
+#
+# A REGRA APLICADA, e ela e separada do limite de design de proposito:
+#     a coluna "conjurador" da peca 6 e o feitico SOZINHO ("Feitico num alvo"),
+#     porque um Classe 0 gasta a Acao Padrao e nao cabe junto do feitico grande.
+# O LIMITE DE DESIGN e outro: o vao tem de ser positivo e crescer com o nivel,
+#     porque ele e um golpe simples.
+#
+# NADA DE VALOR ESCRITO AQUI: o feitico por Classe e a faixa de cada Classe saem
+# do .docx; os niveis publicados saem da peca 6.
+#
+# O QUE TEM DE ACENDER: somar qualquer coisa de volta na coluna conjurador.
+print()
+print('  4f. a coluna "conjurador" da peca 6 contra o feitico sozinho do manual')
+
+if not os.path.exists(_p6):
+    erro('nao achei a peca 6 para conferir a linha de base do SS3')
+elif _tr is None:
+    erro('nao achei a tabela da curva no manual para conferir a peca 6')
+else:
+    _faixa_cl = []
+    _feitico = {}
+    for _r in _tr.rows[1:]:
+        _cel = [c.text.strip() for c in _r.cells]
+        if not _cel[1].isdigit():
+            continue
+        _n = re.findall(r'\d+', _cel[0])
+        _cl = int(_cel[1])
+        _feitico[_cl] = int(re.search(r'=\s*(\d+)', _cel[_ia]).group(1))
+        if len(_n) >= 2:
+            _faixa_cl.append((int(_n[0]), int(_n[1]), _cl))
+
+    def _classe_do_nivel(nv):
+        for _a, _b, _c in _faixa_cl:
+            if _a <= nv <= _b:
+                return _c
+        return None
+
+    # a tabela de base do SS3: nivel | Rotina | conjurador | fisico
+    _linhas_base, _dentro = [], False
+    for _lin in open(_p6, encoding='utf-8').read().splitlines():
+        _s = _lin.strip()
+        if not _s.startswith('|'):
+            _dentro = False
+            continue
+        _cel = [x.strip() for x in _s.strip('|').split('|')]
+        if not _dentro:
+            if len(_cel) == 4 and 'Rotina' in _cel[1] and 'conjurador' in _cel[2]:
+                _dentro = True
+            continue
+        if len(_cel) == 4 and _cel[0].isdigit():
+            try:
+                _linhas_base.append(tuple(int(re.match(r'\**\s*(-?\d+)', x).group(1))
+                                          for x in _cel))
+            except AttributeError:
+                pass
+
+    if not _linhas_base:
+        erro('a peca 6 nao publica mais a tabela "nivel | Rotina | conjurador | '
+             'fisico" — ou o formato mudou, e esta checagem parou em silencio')
+    else:
+        print(f"    {'nv':<5}{'conjurador':<12}{'feitico sozinho':<17}"
+              f"{'fisico':<9}{'vao':<7}bate?")
+        _vao_ant = None
+        for _nv, _rot, _cj, _fi in _linhas_base:
+            _cl = _classe_do_nivel(_nv)
+            _esp = _feitico.get(_cl)
+            _vao = _fi - _cj
+            _bate = _esp == _cj
+            print(f'    {_nv:<5}{_cj:<12}{str(_esp):<17}{_fi:<9}{_vao:<7}'
+                  f'{"sim" if _bate else "NAO"}')
+            if not _bate:
+                erro(f'peca 6 SS3: no nivel {_nv} ela publica conjurador {_cj} e o '
+                     f'feitico sozinho da Classe {_cl} e {_esp}. DONO do Classe 0: '
+                     f'o MANUAL, na tabela de dano do Classe 0. A diferenca de '
+                     f'{_cj - _esp} e o Classe 0 fantasma de 4,50 que viveu de v0.14 '
+                     f'a v0.79 — um Classe 0 gasta a Acao Padrao e nao cabe junto do '
+                     f'feitico grande')
+            if _vao <= 0:
+                erro(f'peca 6 SS3: o vao no nivel {_nv} deu {_vao}. Ele e um golpe '
+                     f'simples, entao ele e positivo — e ele paga o degrau do nivel 7 '
+                     f'dos cinco Caminhos')
+            if _vao_ant is not None and _vao < _vao_ant:
+                erro(f'peca 6 SS3: o vao encolheu do nivel anterior para o {_nv} '
+                     f'({_vao_ant} -> {_vao}). Ele e um golpe simples e o golpe '
+                     f'simples so cresce')
+            _vao_ant = _vao
+
+    # A frase morta, guardada POR LINHA e nao pelo arquivo inteiro.
+    # Linha de citacao (comeca com ">") e nota historica e pode conter a frase —
+    # o projeto guarda o erro em vez de apagar. Linha normal e afirmacao viva.
+    _vivas, _historicas = [], 0
+    for _n, _lin in enumerate(open(_p6, encoding='utf-8').read().splitlines(), 1):
+        if 'feitiço + Classe 0' not in _lin:
+            continue
+        if _lin.lstrip().startswith('>') or _lin.lstrip().startswith('*'):
+            _historicas += 1
+        else:
+            _vivas.append(_n)
+    for _n in _vivas:
+        erro(f'peca 6, linha {_n}: ela afirma que a Rotina e "feitico + Classe 0". '
+             f'A checagem 4e prova que nao e — a Rotina e o meio entre bater num '
+             f'alvo e espalhar, e o Classe 0 tem tabela propria no manual. Se for '
+             f'nota historica, ela vai num bloco de citacao')
+    if not _vivas:
+        print(f'    A frase morta nao aparece viva em nenhuma linha '
+              f'({_historicas} em nota historica, que e onde ela deve ficar).')
 
 
 # --------------------------------------------------------------------------

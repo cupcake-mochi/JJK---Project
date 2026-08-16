@@ -3,6 +3,10 @@
 *Fechado com o retorno do Mizuki. **Dois achados de conta apareceram nesta passada, e os dois vêm de propostas dele:** o nível 7 do Emanador fecha o vão por construção, e a `Presa` do Evocador estoura no nível 2 se a trava for por corpo.*
 
 > **Orçamento:** Caminho em `2 · 7 · 15 · 30`, Trilha em `2 · 11 · 19 · 27`. **O Caminho leva `3` fatias** (níveis 2, 15 e 30); **o nível 7 é de graça**, porque vale o vão `físico − conjurador` e é correção de base.
+>
+> **⚠ O vão mudou na v0.80, e ele mudou de `7,00` para `12` no nível 30.** *A linha do conjurador da peça 6 §3 somava um Classe 0 de `4,50` que não existe no manual — o Classe 0 tem tabela própria lá, com `2d8` a `6d8` por faixa de nível, e ele gasta a Ação Padrão, então não cabe junto do feitiço grande.* **O vão é exatamente um golpe simples: `9 · 10 · 11 · 12`.**
+>
+> **O que isso conserta de graça: os cinco Caminhos passam a receber a MESMA coisa no nível 7.** Antes, Bastião e Vanguarda ganhavam um golpe (`11,50`) e os outros três ganhavam um degrau de `7,00` — uma diferença de `4,50` que ninguém tinha somado. *Todo número deste documento que se mediu contra o vão de `7,00` precisa ser refeito, e só o nível 7 do Emanador foi nesta versão.*
 
 ---
 
@@ -88,6 +92,8 @@
 
 > **As duas juntas não cabem — e é escolha sua qual fica.** `Ajudar` de bônus é o que você pediu e sobra `1,25` do degrau; o golpe preso ao `Guiar` gasta quase tudo e encadeia os níveis 2 e 7. **A sobra da primeira pode ir para uma entrega de Trilha do Guia depois.**
 
+> **⚠ ISSO VIROU na v0.80, e vale reabrir.** *O vão passou de `7` para `12`, porque a linha do conjurador da peça 6 §3 somava um Classe 0 que não existe.* **`5,75 + 5,75 = 11,50` contra um vão de `12`: as duas juntas CABEM, com `0,50` de sobra.** *A escolha que você fez era entre uma e outra porque o orçamento não dava para as duas; ele dá.* **Nada foi mudado aqui — fica marcado, porque a decisão foi tomada contra um número errado.**
+
 > **A linha do `Ajudar` foi corrigida na v0.74, e a decisão não vira — só a sobra encolhe.** Este documento preçava vantagem em `16` pontos percentuais, que é a linearização de `E[maior de 2d20] − E[d20] = 3,325` vezes `5` pp por ponto. **A peça 11 é dona e diz `25` pp**, porque com acerto em `50%` a vantagem leva a `75%`. *A conclusão de que as duas juntas estouram sobrevive: `5,75 + 5,75 = 11,50` contra um vão de `7`, e antes já estourava.*
 >
 > **E o `4,32` que estava escrito aqui não reconstrói de nenhuma base.** Nem `11,50 × 0,32`, nem `27 × 0,16` de propósito — nada no documento diz de onde ele saiu. *Marcado, não consertado por adivinhação: o número novo vem do dono, e o velho fica registrado como não reproduzível.*
@@ -172,45 +178,54 @@ Ele anula o excedente e deixa o aliado com `1` de vida. **O que ele compra não 
 
 > **Medido: no nível 5 isso já bota o personagem no fio na última luta; no 30 ele aguenta de sobra.** **Então a quantidade sangrada tem de ser fração da vida, não número fixo** — senão a regra é mortal embaixo e decorativa em cima.
 
-### nível 7 · Voz Grossa — **DECIDIDO: a segunda, com a `Modelagem` de carona**
+### nível 7 · Resquício — **REFEITO na v0.80, e a `Voz Grossa` morreu**
 
-> **`Voz Grossa`.** O seu **Classe 0 passa a causar o mesmo que um golpe simples**.
+> **`Resquício`.** Ao conjurar na Ação Padrão um feitiço **que não causa dano**, você pode lançar um **feitiço de Classe 0 na Ação Bônus**.
 > **`Modelagem`.** Ao conjurar um feitiço **de dano ou de condição**, você pode **trocar uma Melhoria que ele já tem por outra de custo igual ou menor**. Nada novo entra na ficha — o que muda é qual peça está montada na hora.
 > **A troca não mexe na condição.** `Condição Menor` e `Condição Maior` não entram nem saem.
 > **E a Melhoria que entra tem de ser legal naquele feitiço** — o requisito dela continua valendo.
 
-**As duas primeiras travas são do Mizuki, e a terceira caiu da conta.** *Ele previu dor de cabeça de mesa e cercou por assunto; ao contar o menu que sobrava, apareceram mais duas que precisavam sair pelo próprio texto delas.*
+#### Por que a `Voz Grossa` morreu, e ela morreu duas vezes
 
-| | quantas | quais |
-|---|---|---|
-| **fora da troca** | **11 de 67** | as `7` de apoio e cura, que a cerca de *dano ou condição* já tira · `Condição Menor` e `Condição Maior`, pela trava dele · **`Inescapável`**, que proíbe o feitiço de ter qualquer outra peça · **`Efeito Próprio`**, cujo custo é *"o mestre decide"* |
-| entram, com requisito próprio | 2 | `Corrói` pede `Mira` nas Famílias Livres · `Toca a Alma` pede Classe 3 e Fundamento que encoste em alma |
-| **trocáveis sem ressalva** | **54 de 67 — `81%`** | |
+Ela dizia *"o seu Classe 0 passa a causar o mesmo que um golpe simples"*, e ela foi preçada em `7,00` — o vão.
 
-> **O `Efeito Próprio` é a que mais importa ter tirado, e não foi a trava dele que pegou.** O custo dela no manual é literalmente *"o mestre decide"*. **Uma troca livre para uma Melhoria de custo aberto é o filtro multi-mestre falhando de propósito** — dois mestres que nunca conversaram não chegam ao mesmo número, que é a pergunta que decide quase tudo neste projeto.
->
-> **E a `Inescapável` sai sozinha, pelo texto dela:** *"este feitiço não pode ter mais nenhuma peça, nem Melhoria nem Restrição"*. Trocar para ela deixaria o feitiço ilegal na hora em que a troca acontece.
+**A v0.80 abriu a tabela de dano do Classe 0 do manual, que ninguém neste projeto tinha aberto:** `2d8 · 3d8 · 4d8 · 5d8 · 6d8` por faixa de nível. **No nível 30 um Classe 0 causa `27`, e um golpe simples causa `12`.**
 
-**Decisão do Mizuki.** *A `Voz Grossa` fecha o vão exato por construção e ninguém escolheu número; a `Modelagem` vale `0,00` em dano e por isso entra sem custar orçamento.* **O degrau ficou com as duas metades que ele precisava: a que fecha a conta e a que dá o que decidir.**
+| | o que a entrega fazia |
+|---|---|
+| **primeira morte** | ela **rebaixava** o Classe 0 de `27` para `12` |
+| **segunda morte, e é pior** | na rodada em que o Emanador lança o feitiço grande **não existe Classe 0 nenhum** para melhorar — um Classe 0 gasta a Ação Padrão |
 
-> **⚠ E as duas metades se separam para o `Arremate`.** A peça 6 §3.1 diz que **`Arremate` e `Coro` recebem o ataque extra no lugar do degrau do vão** — então um Emanador de `Arremate` **não recebe a `Voz Grossa`**, e junto com ela perderia a `Modelagem`. *Ninguém percebeu isso ao decidir; apareceu abrindo o `Arremate`.*
->
-> **O conserto é de graça, porque a `Modelagem` vale `0,00`:** ela é do **Caminho inteiro**, e o que varia entre as Trilhas é só a metade numérica — `Voz Grossa` para quem não tem rota para ataque extra, **ataque extra** para quem tem. *As duas valem os mesmos `7,00` do vão: subir o Classe 0 até o tamanho do golpe simples e trocar o Classe 0 por um golpe simples põem o mesmo número no segundo slot.*
+*O `4,50` que ela usava não existe em lugar nenhum do manual. A peça 6 §3 registra a história inteira.*
 
-> **E a consequência mais importante não é do Caminho, é da Trilha.** A versão que não passou punha um Classe 0 na **ação bônus**, e aquele slot é onde a `Torrente` nasce. **Com a `Voz Grossa` fechando por magnitude em vez de por slot, a ação bônus fica livre** — e a `Torrente` passa a ser a única dona do segundo feitiço da rodada.
+#### O `Resquício`, medido
 
-*As duas versões que estavam em disputa, guardadas porque a conta delas continua valendo:*
+**Ele não sobe o pico. Ele levanta o chão da rodada de controle** — ela sai de zero de dano para `27` no nível 30.
 
-> **~~A sua:~~** *depois de conjurar com a ação padrão, você pode lançar um **Classe 0 como ação bônus**.* — `4,50`, sobra `2,50`, e ocupa o slot da `Torrente`.
-> **A outra, que ficou:** *o seu Classe 0 passa a causar o mesmo que um golpe simples.*
+| você controla em | dano por rodada sem ele | com ele | ganho | o vão |
+|---|---|---|---|---|
+| 30% | 65,8 | 73,9 | 8,1 | 12 |
+| **44%** | 52,6 | 64,5 | **11,9** | **12** |
+| 55% | 42,3 | 57,1 | 14,9 | 12 |
 
-| | vale | do vão de `7` |
-|---|---|---|
-| Classe 0 de bônus após conjurar | `4,50` | sobra `2,5` |
-| Classe 0 do tamanho do golpe simples | **`7,00`** | **gasta exato** |
+> **Ele é impossível de abusar, e isso é construção e não trava.** Para usar o botão você abre mão do feitiço de dano: a rodada de controle faz `27` contra os `94` da rodada normal. **Quanto mais você usa, menos dano você faz** — e o pico do Emanador continua sendo `94` em qualquer montagem.
 
-> **A segunda fecha por construção e nenhum número foi escolhido:** o vão `físico − conjurador` **é**, por definição, `golpe simples − Classe 0`. Fechar um fecha o outro.
-> **A sua é mais barata e mais interativa** — ela dá um botão em vez de um número maior, e sobra orçamento. *Se você quiser as duas, a sobra de `2,5` cabe numa entrega de Trilha depois.*
+> **E ele não briga com a `Torrente` toda rodada.** As duas querem a Ação Bônus, mas só se encontram nas rodadas de controle — e aí vira escolha por rodada, que é o que a `Torrente` já é.
+
+**A taxa é número de playtest e ela decide o degrau inteiro.** *Ninguém mediu quantas rodadas um Emanador passa em controle, e `04-playtest/` continua vazia.*
+
+> **O preço declarado: o Emanador termina `12` de dano por rodada atrás do físico no pico.** *Escolha do Mizuki — o empate do nível 7 passa a se medir na **média** por rodada e não na rodada mais forte, e a peça 6 §3.1 escreve isso.* **A alternativa que fechava o pico era "Classe 0 na bônus sempre, causando metade"** — ela dava `107,5` contra os `106` do físico, e perdia a metade que recompensa controle.
+
+#### O nome passou pela triagem, e um morreu por sentido
+
+| candidato | triagem |
+|---|---|
+| **`Resquício`** | `LIVRE` — o escolhido |
+| `Respingo` · `Rebarba` · `Vazamento` · `Ricochete` · `Borrifo` | `LIVRE` |
+| `Faísca` | **`OCUPADO`** — dentro de `Faísca em Cadeia`, feitiço pronto |
+| `Sobra` · `Troco` | fracos — a uma letra de `Sombra` (Tema) e de `Troca` (Melhoria) |
+
+> **E o `Transbordo` saiu `LIVRE` e eu recusei por colisão de sentido, que a triagem não pega.** Ele é a mesma figura da `Torrente` com outra palavra — energia que passa do limite. **Dois nomes do mesmo Caminho fazendo o mesmo desenho.**
 
 #### A checagem da `Modelagem` contra o Fundamento, rodada — e ela reprova numa das duas leituras
 
@@ -288,6 +303,8 @@ Ele anula o excedente e deixa o aliado com `1` de vida. **O que ele compra não 
 
 > **A versão anterior estourava o vão em 54%, e o defeito era de leitura.** Ela dava `metade da sua maestria`, que é `1` até o nível 25 e **`2` do 26 em diante** — e o texto preçava o degrau do nível 30 com o número do `+1`. A conversão do projeto é **relativa** (peça 15 §3.3: *"+1 no acerto = 50% → 55% = +10% de dano saído"*), então `+2` vale o dobro: **`10,80` contra um vão de `7`.**
 
+> **⚠ E isso também virou na v0.80: com o vão em `12`, o `10,80` CABE.** *A correção da v0.71 desfez uma coisa que não estava quebrada.* **Fica marcado e não desfeito — `metade da maestria` volta a ser legal no orçamento, e se ela volta é escolha sua.**
+
 **Com `+1` fixo ela passa nas duas travas, e a primeira ficou mais forte que antes.** *Contra a regra que governa tudo* — como o sistema segura a taxa de acerto em `50%` em todo nível, `+1` vale `10%` da saída no nível 2 e `10%` no 30. **Ele não deriva por construção**, que é o mesmo argumento da margem crítica da `Presa`, e é melhor que "encolhe de leve". *Contra o vão* — vale `5,40` no nível 30 e o vão é `7`; sobram `1,60`, e o treino preenche como utilidade, sem preço em dano.
 
 ### nível 15 · Escudo de Osso
@@ -307,7 +324,7 @@ Ele anula o excedente e deixa o aliado com `1` de vida. **O que ele compra não 
 | 1 | **As treze Manhas** da Vanguarda | catálogo — o maior trabalho que este desenho cria |
 | ~~2~~ | ~~A `Modelagem` conferida contra o Fundamento~~ | **FEITA.** Como presente ela vale `21,60` — `309%` do vão — e bate na proibição de *Melhoria de graça*; **como troca vale `0,00` e passa**, e foi assim que ela entrou no nível 7 |
 | 3 | `d6` ou `d8` no `Corpo Duro` | sabor puro — a conta empata as duas |
-| ~~4~~ | ~~Qual `Voz Grossa`~~ | **DECIDIDA: a segunda** — Classe 0 do tamanho do golpe simples, `7,00`, fecha exato. *E ela libera a ação bônus para a `Torrente`* |
+| ~~4~~ | ~~Qual `Voz Grossa`~~ | **MORTA na v0.80.** A tabela de dano do Classe 0 do manual põe ele em `27` no nível 30 contra `12` do golpe simples — a entrega era um rebaixamento, e ela nem existia na rodada em que o Emanador conjura. **No lugar dela ficou o `Resquício`** |
 | 5 | **A fração da `Sangria`** — quanto de vida por vez | tem de ser fração da vida, não número fixo |
 | 6 | **A `Presa` escrita como fração** — `10%` do seu dano em vez de `+atributo` | é o único jeito de ela não derivar |
 

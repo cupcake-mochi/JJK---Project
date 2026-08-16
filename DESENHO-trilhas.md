@@ -934,9 +934,11 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 
 **A cerca deste Caminho é a mais cheia dos três**, e vale escrever antes de qualquer entrega. O Caminho do Emanador já ocupa quatro coisas: **trocar vida por PE** no nível 2, o **Classe 0 a mais** no nível 7, **trocar um feitiço conhecido no descanso longo** no nível 15, e o **desconto de PE** no nível 30. *As três Trilhas ficam fora dessas quatro.*
 
-> **O nível 7 estava pendurado numa decisão e ela saiu.** Ficou a `Voz Grossa` que **cresce o Classe 0 até o tamanho do golpe simples** — `7,00` de dano por rodada, o vão exato —, mais a **`Modelagem`**, que é trocar uma Melhoria já paga por outra de custo igual ou menor na hora de conjurar, e que vale `0,00`. *A versão recusada punha um Classe 0 na ação bônus.*
+> **O nível 7 fechou na v0.79 e foi REFEITO na v0.80.** Ficou o **`Resquício`** — ao conjurar na Ação Padrão um feitiço **que não causa dano**, você lança um **Classe 0 na Ação Bônus** —, mais a **`Modelagem`**, que é trocar uma Melhoria já paga por outra de custo igual ou menor na hora de conjurar, e que vale `0,00`.
 >
-> **Isso importa para a `Torrente` mais do que para o Caminho: a ação bônus ficou LIVRE.** Nenhum degrau de Caminho do Emanador ocupa aquele slot, então **a `Torrente` é a única dona do segundo feitiço da rodada.** *Ela nasce em terreno limpo, e não em cima de coisa já tomada.*
+> *A `Voz Grossa` da v0.79 crescia o Classe 0 até o tamanho do golpe simples, e ela morreu quando a tabela de dano do Classe 0 do manual foi aberta: no nível 30 um Classe 0 causa `27` e um golpe simples causa `12`. **A entrega era um rebaixamento** — e, pior, ela não existia na rodada em que o Emanador conjura, porque um Classe 0 gasta a Ação Padrão.*
+>
+> **Isso importa para a `Torrente`, e na v0.80 ficou mais fino do que "a bônus está livre".** O `Resquício` também quer a Ação Bônus — **mas só na rodada em que a Padrão foi feitiço sem dano.** *Nas rodadas de dano, que é onde a `Torrente` vive, o slot continua só dela.* **As duas se encontram na rodada de controle, e aí é escolha por rodada** — que é exatamente o que a `Torrente` já é.
 
 ### Torrente — *mais de uma vez, e a energia acaba*
 
@@ -1067,7 +1069,7 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 >
 > **A peça 6 já separou as duas, e a separação é um espelho:** a `Brasa` **atacou na padrão e conjura na bônus**; o `Arremate` **conjurou na padrão e bate na bônus**. Sentidos opostos, gates opostos. *A ficção acima foi escrita para andar nesse sentido e não no outro.*
 
-#### `Arremate` em mecânica — `5,02` de `5,00` fatias, e a Trilha fica ABERTA
+#### `Arremate` em mecânica — REPREÇADO na v0.80: `3,74` de `5,00`, e o nível 27 ficou vago
 
 > **O desenho é do Mizuki e ele INVERTEU a Trilha na segunda passada.** *A minha primeira versão era "conjura na padrão e bate na bônus"; ele achou pouco interessante e virou do avesso:* **bate na padrão e conjura na bônus.**
 
@@ -1076,9 +1078,10 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 | nv | a entrega | forma | fatias | coluna |
 |---|---|---|---|---|
 | **2** | grupo de arma, **treino** e **atributo mental** — e ao atacar com aquela arma na padrão, **um feitiço de Classe na bônus** | permanente | **0,00** | *é o vão* |
-| **11** | **ataque extra** — a ação de Atacar dá dois golpes | permanente | **2,26** | ação/alvo |
+| **11** | **ataque extra** — a ação de Atacar dá dois golpes | permanente | **2,36** | ação/alvo |
 | **19** | ao conjurar **colado**, `maior Classe` de **PV temporário** | permanente | **1,38** | defesa |
-| **27** | trocar um dos ataques da padrão por um **Classe 0**, e o seu Classe 0 passa a causar o mesmo que um golpe simples | permanente | **1,38** | ação/alvo |
+| **27** | ~~trocar um ataque por um Classe 0, e o Classe 0 vira do tamanho do golpe simples~~ | — | **0,00** | **vago** |
+| | | | **3,74** | **abaixo da banda** |
 
 > **Nível 2.** Escolha um **grupo de arma**. Você é treinado nele, e naquele grupo **o acerto e o dano usam Inteligência ou Essência**. *O requisito de Força para empunhar continua valendo.*
 > **E quando você ataca com uma arma daquele grupo na Ação Padrão, você pode conjurar um feitiço de Classe na Ação Bônus.**
@@ -1091,29 +1094,37 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 
 **De onde sai cada número:**
 
-- **O `nv2` vale exatamente o vão**, `7,00` de dano por rodada: atacar na padrão e conjurar na bônus dá `11,50 + 94 = 105,50` contra os `98,50` da base. *Por isso ele custa zero — é o degrau que a peça 6 §3.1 dá de graça, chegando pela Trilha em vez de pela `Voz Grossa`.*
-- **O `nv11` é um golpe simples inteiro**, `11,50`.
-- **O `nv19` usa a régua da v0.76** — `1` de PV temporário evita `1` de dano.
-- **O `nv27` é a `Voz Grossa` chegando pela Trilha.** Sem ela a troca seria **negativa**: um Classe 0 dá `4,50` contra os `11,50` do golpe. *Com ela a troca vale `0,00` em dano e tudo em flexibilidade — um Classe 0 é feitiço, carrega Melhoria, bate em outra defesa e tem tipo de dano.*
+- **O `nv2` vale exatamente o vão**, `12` de dano por rodada: atacar na padrão e conjurar na bônus dá `12 + 94 = 106` contra os `94` da base. *Por isso ele custa zero — é o degrau que a peça 6 §3.1 dá de graça, chegando pela Trilha em vez de pelo `Resquício`.*
+- **O `nv11` é um golpe simples inteiro**, `12` — `2,36` fatias e não `2,26`, porque o golpe simples cresceu junto com a linha de base.
+- **O `nv19` usa a régua da v0.76** — `1` de PV temporário evita `1` de dano. *É o único dos quatro que não se moveu.*
+- **⚠ O `nv27` vale `0,00`, e agora dá para provar.** As duas metades dele se cancelam: **trocar um ataque por um Classe 0 vale `+15`** — `27` do Classe 0 contra `12` do golpe — e **fazer o Classe 0 causar o mesmo que um golpe simples vale `−15`**. *O texto deste bloco já dizia "a troca vale `0,00` em dano"; o que faltava era o número dos dois lados, porque o Classe 0 vinha preçado em `4,50`.*
 
 **A matriz do Emanador, com as duas que existem:**
 
 | | ação/alvo | defesa | posicionamento | recuperação | total |
 |---|---|---|---|---|---|
 | `Torrente` | **5,37** | 0,00 | 0,00 | 0,00 | 5,37 |
-| `Arremate` | 3,64 | **1,38** | 0,00 | 0,00 | 5,02 |
+| `Arremate` | 2,36 | **1,38** | 0,00 | 0,00 | 3,74 |
 
 > **Nenhuma domina a outra, e quem segura isso é a coluna de defesa do `nv19` sozinha.** *A `Torrente` é `100%` ação/alvo; um `Arremate` que também fosse só ação/alvo e fechasse abaixo de `5,37` estaria dominado por definição.*
 >
 > **E isso deixa uma dívida para o `Repertório`:** ele vai precisar liderar em **posicionamento** ou em **recuperação**, que são as duas colunas ainda vazias do Caminho.
 
-> ## ⚠ POR QUE ESTA TRILHA FICA ABERTA
+> ## ✔ A PERMISSÃO FOI APLICADA NA v0.80
 >
-> **A rodada de pico é `Atacar 2×` mais um Classe 7 na bônus: `23,00 + 94 = 117,00`, com TRÊS rolagens de ataque.** O físico termina em `106,00`, então o `Arremate` fica **`+10%` acima do guerreiro**.
+> **A rodada de pico é `Atacar 2×` mais um Classe 7 na bônus: `24 + 94 = 118`, com TRÊS rolagens de ataque.** O físico termina em `106`, então o `Arremate` fica **`+11%` acima do guerreiro no nível 30**.
 >
-> **E a peça 6 §3.1 proíbe isso por nome:** *"O `Arremate` e o `Coro` trocam o Classe 0 pelo golpe simples; **eles não passam a ter três ataques**."*
+> **A peça 6 §3.1 proibia por nome** — *"eles não passam a ter três ataques"* —, **e aquela frase foi reescrita naquela peça, com o motivo do Mizuki e o número dele:** com Constituição 3 no nível 30 o Emanador chega a `212` de vida, contra `243` da Vanguarda e `305` do Bastião. **`87%` e `70%`.** *O `Coro` herda a permissão, e nela ele custa `0%` em dano — o teto de uma Rotina somada da seção 4 já segura a saída dele, e o que ele ganha é uma rolagem a mais.*
 >
-> ***Decisão do Mizuki: permitir mesmo assim*** — *"o Emanador já tem pouca vida, ele ter dano é o mínimo."* **O que falta é aplicar**: aquela frase precisa ser reescrita, com o motivo registrado, e o `Coro` do Evocador herda a mesma permissão. *Enquanto isso não acontecer, esta Trilha contradiz uma peça fechada, e por isso ela não está fechada.*
+> **⚠ E medindo nível a nível apareceu uma coisa que este bloco não tinha visto: o pior nível não é o 30.**
+>
+> | nv | físico | `Arremate` | acima do físico |
+> |---|---|---|---|
+> | **11** | 50 | 60 | **+20%** |
+> | 18 | 78 | 89 | +14% |
+> | 30 | 106 | 118 | **+11%** |
+>
+> *Este bloco mediu `+10%` no nível 30 e fechou o argumento ali — e o 30 é o mais favorável dos quatro.* **A causa é de escala e não da Trilha:** o feitiço cresce `13 → 94` na campanha e o golpe simples cresce `9 → 12`, então um golpe a mais encolhe sozinho. **Declarado e não consertado — o conserto barato é mover o ataque extra do nível 11 para o 19, e aí o pior caso cai para `+14%`.**
 >
 > **O gate de condição foi testado e reprovado, com número.** *Ele era a saída óbvia e o próprio Mizuki propôs antes de voltar atrás.* Um feitiço de condição no Classe 7 ainda causa `45` — a `Condição Maior` come `11` dos `21` pontos e sobram `10` dados —, então a rodada com gate faz `23 + 45 = 68` contra os `98,50` de um Emanador que só conjura. **`31%` abaixo: ninguém usaria o modo que a Trilha existe para abrir.** *Na `Estocada` o mesmo gate funciona porque lá ele **abre um bônus**; aqui ele seria a porta do modo principal.*
 >
@@ -1122,9 +1133,10 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 ### O que este bloco deixa em aberto
 
 - **Nada disto tem número.** É ficção, no método que fechou as nove primeiras: você revisa, e só depois eu preço as três de uma vez.
-- ~~O nível 7 do Caminho decide o que a `Torrente` pode ser.~~ **DECIDIDO:** `Voz Grossa` fecha o vão por magnitude (`7,00`) e a `Modelagem` entra de carona a `0,00`. **A ação bônus ficou livre para a `Torrente`.**
+- ~~O nível 7 do Caminho decide o que a `Torrente` pode ser.~~ **REFEITO na v0.80: a `Voz Grossa` morreu e virou o `Resquício`** — um Classe 0 na Ação Bônus quando a Padrão foi feitiço que não causa dano. *Ela morreu porque um Classe 0 causa `27` no nível 30 e um golpe simples causa `12`: a entrega era um rebaixamento.* **A ação bônus continua livre para a `Torrente` nas rodadas de dano** — o `Resquício` só dispara em rodada de controle.
 - ~~A `Torrente` travou numa régua que não existe.~~ **FECHADA na v0.79, em `5,37`.** *A saída foi preçar por **ritmo** e não por conversão de PE — o ganho dela não é virar PE em dano, é furar o teto de quanto PE cabe numa rodada.*
-- **⚠ O `Arremate` está escrito em `5,02` e NÃO está fechado.** Ele contradiz a peça 6 §3.1 — três rolagens de ataque e `+10%` sobre o físico. *A permissão está decidida pelo Mizuki e não aplicada, e o `Coro` do Evocador está no mesmo balde.* **Este é o primeiro item da próxima conversa.**
+- ~~O `Arremate` contradiz a peça 6 §3.1.~~ **APLICADO na v0.80**, com o motivo e o número da vida escritos na peça 6, e o `Coro` herdando.
+- **⚠ O `Arremate` fechou em `3,74` de `5,00` e o nível 27 dele ficou VAGO.** *A entrega que estava lá vale `0,00` com o Classe 0 certo — as duas metades se cancelam.* **Sobram `1,26` fatia, que são `6,40` de dano por rodada.** *A ficção do degrau é o capstone do Mahito: dentro do domínio ele deixa de precisar tocar.*
 - **Falta o `Repertório`**, e ele precisa liderar em **posicionamento** ou **recuperação** — as duas colunas vazias do Caminho. *E não existe régua para converter "uma aptidão a mais" em fatia.*
 - **A `Modelagem` encosta em `montagem`, que é palavra do manual.** *O manual chama de `pontos de montagem` o orçamento que compra Forma e Melhoria.* Duas palavras parecidas para dois trabalhos diferentes, e a triagem não pega colisão de sentido — ela deu `LIVRE`. **Vale decidir se fica `Modelagem` ou se o degrau usa o idioma do manual.**
 - **⚠ A `Torrente` TRAVOU numa régua que não existe, e a trava é maior que ela.** O Mizuki registrou que a trava de Classe 0 do manual *"veio direto do manual e não precisa ser levada ao pé da letra"*, e o candidato dele é **teto na metade da maior Classe**. **Ao medir isso, três réguas deram três respostas que não se aproximam:**

@@ -6,6 +6,155 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.80] — 2026-08-16
+
+**O projeto estava preçando o Classe 0 num número que não existe no manual, e isso vinha da v0.14.** *Achado indo escrever a permissão do `Arremate`: a frase que sustentava o argumento é que a Rotina "já é feitiço + Classe 0", e ela é falsa.* **O vão que paga o degrau do nível 7 dos cinco Caminhos passou de `7,00` para `12`, a `Voz Grossa` morreu e a permissão do `Arremate` foi aplicada.** Continuam dezesseis peças e dezesseis validadores.
+
+### Achado — o Classe 0 tem tabela no manual, e ninguém neste projeto tinha aberto ela
+
+| seu nível | 1 | 5 | 11 | 17 | 25 |
+|---|---|---|---|---|---|
+| quantos você tem | 2 | 3 | 4 | 5 | 5 |
+| **dano** | 2d8 | 3d8 | 4d8 | 5d8 | **6d8** |
+
+**No nível 30 um Classe 0 causa `27`. O projeto preçava ele em `4,50`, em todo nível, e `4,50` não aparece em lugar nenhum do manual.** *A origem provável é o glossário — "cada ponto que sobra vira `1d8`" —, que é a régua de montar feitiço e não o dano de um Classe 0. É a mesma família do `Fluxo | 2` que a v0.76 registrou: coluna lida errada numa tabela do manual.*
+
+**Nenhum documento do projeto citava essa tabela. Nenhum validador abria ela.** Ela era a **quarta** tabela compartilhada com o manual, e a única sem dono declarado — as outras três são PE (dono: o projeto), Rotina (o manual) e inimigo (o playtest). *Decisão do Mizuki: **o dono é o manual**, e o projeto se corrige.*
+
+### Corrigido — a Rotina nunca foi "feitiço + Classe 0", e agora ela reconstrói
+
+| Classe | num alvo (`3 × C`) | somando alvos (`4 × C`) | o meio | Rotina publicada |
+|---|---|---|---|---|
+| 1 | 13 | 18 | 13 | 13 |
+| 3 | 40 | 54 | 45 | 45 |
+| 5 | 67 | 90 | 76 | 76 |
+| 7 | 94 | 126 | **108** | **108** |
+
+**A Rotina é `floor(3,5 × Classe)` dados — o meio exato entre bater num alvo e espalhar.** Fecha nas sete Classes, com zero parâmetro livre.
+
+**E um Classe 0 não cabe junto do feitiço grande.** Todo feitiço custa Ação Padrão; a única Melhoria que muda isso é a `Rápido`, que custa o degrau **Pesada**; e o manual escreve que numa Classe 0 só cabe Melhoria do degrau `Leve`. *Pôr `Rápido` no feitiço grande para os dois caberem piora a rodada em todo nível do 10 em diante: no 30 ela sai de `94` para `72`.*
+
+### Alterado — a linha de base da peça 6 §3, e o vão
+
+| nv | Rotina | conjurador antes | **conjurador agora** | físico | vão antes | **vão agora** |
+|---|---|---|---|---|---|---|
+| 2 | 13 | 18 | **13** | 22 | 4 | **9** |
+| 10 | 45 | 45 | **40** | 50 | 5 | **10** |
+| 18 | 76 | 72 | **67** | 78 | 6 | **11** |
+| 30 | 108 | 99 | **94** | 106 | **7** | **12** |
+
+**O vão publicado era o golpe simples menos `5` em todo nível, e o `5` era o Classe 0 fantasma.** Sem ele, **o vão é exatamente um golpe simples** — que faz sentido, porque o físico *é* o conjurador mais um golpe.
+
+> **E isso conserta uma coisa de graça: os cinco Caminhos passam a receber a MESMA coisa no nível 7.** Bastião e Vanguarda ganhavam um golpe (`11,50`) e os outros três ganhavam um degrau de `7,00` — **uma diferença de `4,50` que ninguém tinha somado.**
+
+**O argumento que aprovava o ataque extra também caiu, e o substituto é mais forte.** Ele era *"a Rotina já é feitiço + Classe 0, então o físico só ganha o espelho"*. Agora é **ninguém está acima da régua**: conjurador `94`, físico `106`, Rotina `108`.
+
+### Adicionado — duas checagens no `conferir-manual.py`, com seis perturbações
+
+**4e — a Rotina reconstrói** como o meio entre as duas colunas vizinhas, lidas do `.docx`. *Com contra-teste: a leitura velha tem de dar diferente da Rotina, senão a checagem aprovaria as duas ao mesmo tempo.* **Ela dá diferente nas sete Classes.**
+
+**4f — a coluna do conjurador da peça 6** contra o feitiço sozinho do manual, mais o vão positivo e crescente. *A regra aplicada e o limite de design ficaram separados de propósito.*
+
+**As seis perturbações, numa cópia isolada, com a base conferida antes e o `diff` conferido em cada uma:**
+
+| perturbação | resultado |
+|---|---|
+| devolver o conjurador `99` no nível 30 | acendeu |
+| fazer o vão encolher | acendeu |
+| repor a frase morta numa linha viva | acendeu |
+| a mesma frase num bloco de citação | **verde** — nota histórica não pode falhar |
+| mexer na contagem de dados da Rotina no `.docx` | acendeu |
+| sumir com a tabela do Classe 0 | acendeu |
+
+> **A guarda da frase morta nasceu errada e foi consertada.** A primeira versão varria o arquivo inteiro e acendia na nota histórica que o próprio conserto escreveu. **Hoje ela é por linha: bloco de citação é história, linha normal é afirmação viva.** *Um vermelho pelo motivo errado ensina a procurar o defeito onde ele não está.*
+
+> **E ela achou uma segunda cópia da frase, na §3.1, que eu não tinha visto lendo:** *"o **único** argumento que aprova o ataque extra é que a Rotina já é feitiço + Classe 0"*.
+
+### Aplicado — a permissão do `Arremate`, e o `Coro` herda
+
+*Decidido na v0.79 e não aplicado.* **A frase da peça 6 §3.1 — *"eles não passam a ter três ataques"* — foi reescrita, com o motivo do Mizuki e o número dele:**
+
+> *"o Emanador já tem pouca vida, ele ter dano é o mínimo."*
+
+**Com Constituição 3 no nível 30 o Emanador chega a `212` de vida, contra `243` da Vanguarda e `305` do Bastião — `87%` e `70%`.**
+
+**E a tabela que sustentava a proibição não reconstruía de nada.** A coluna *"somar o golpe"* publicava `21 · 55 · 90 · 127`, e o `127` aparecia **uma vez só no repositório inteiro**, sem script e sem validador. *Terceiro andar do mesmo defeito: a v0.60 achou a coluna errada, a v0.72 achou o piso lido como teto, e a v0.80 achou que o número nunca reconstruiu.*
+
+**⚠ E medindo nível a nível apareceu o que o `DESENHO-trilhas` não tinha visto: o pior nível não é o 30.**
+
+| nv | físico | `Arremate` | acima do físico |
+|---|---|---|---|
+| **11** | 50 | 60 | **+20%** |
+| 18 | 78 | 89 | +14% |
+| 30 | 106 | 118 | **+11%** |
+
+*Aquele bloco mediu `+10%` no nível 30 e fechou ali — e o 30 é o mais favorável dos quatro.* **A causa é de escala:** o feitiço cresce `13 → 94` e o golpe simples cresce `9 → 12`. **Declarado e não consertado; o conserto barato é mover o ataque extra do nível 11 para o 19.**
+
+**O `Coro` herda, e nele a permissão custa `0%` em dano** — o teto de uma Rotina somada da seção 4 já segura a saída. *O que ele ganha é uma rolagem a mais, e rolagem a mais é alcance, tipo de dano e alvo, que o teto não mede. É a lição do eixo errado, declarada em vez de consertada.*
+
+### Alterado — o nível 7 do Emanador: a `Voz Grossa` morreu e virou o `Resquício`
+
+> **`Resquício`.** Ao conjurar na Ação Padrão um feitiço **que não causa dano**, você pode lançar um **feitiço de Classe 0 na Ação Bônus**.
+
+**A `Voz Grossa` morreu duas vezes.** *Ela dizia "o seu Classe 0 passa a causar o mesmo que um golpe simples".* **Uma:** no nível 30 isso rebaixa o Classe 0 de `27` para `12`. **Duas, e é pior:** na rodada em que o Emanador lança o feitiço grande **não existe Classe 0 nenhum** para melhorar.
+
+**O `Resquício` não sobe o pico — ele levanta o chão da rodada de controle**, que sai de zero de dano para `27`. *Ele entrega o vão quando o Emanador controla em `44%` das rodadas, e a taxa é número de playtest.*
+
+> **Ele é impossível de abusar por construção:** para usar o botão você abre mão do feitiço de dano, e a rodada de controle faz `27` contra `94`. **O pico do Emanador continua `94` em qualquer montagem.**
+
+**Decisão do Mizuki: o empate do nível 7 se mede na MÉDIA por rodada, e não no pico.** *Preço declarado: o Emanador termina `12` de dano por rodada atrás do físico na melhor rodada dele.* **A alternativa que fechava o pico** — Classe 0 na bônus sempre, causando metade — dava `107,5` contra os `106` do físico, e perdia a metade que recompensa controle.
+
+**O nome passou pela triagem.** `Faísca` morreu (está dentro de `Faísca em Cadeia`), `Sobra` e `Troco` saíram fracos. **E o `Transbordo` saiu `LIVRE` e foi recusado por colisão de sentido:** ele é a mesma figura da `Torrente` com outra palavra.
+
+### Alterado — o `Arremate` repreçado, e o nível 27 dele ficou vago
+
+| nv | fatias antes | **agora** |
+|---|---|---|
+| 2 | 0,00 | 0,00 *(é o vão, e o vão é `12`)* |
+| 11 | 2,26 | **2,36** |
+| 19 | 1,38 | 1,38 |
+| 27 | 1,38 | **0,00** |
+| **total** | **5,02** | **3,74 — abaixo da banda** |
+
+**O nível 27 vale `0,00` e agora dá para provar:** trocar um ataque por um Classe 0 vale `+15` — `27` contra `12` — e fazer o Classe 0 causar o mesmo que um golpe simples vale `−15`. *O texto daquele bloco já dizia "a troca vale `0,00` em dano"; o que faltava era o número dos dois lados.*
+
+**Sobram `1,26` fatia, que são `6,40` de dano por rodada.**
+
+### ⚠ O raio de alcance, medido — quatro das onze Trilhas escritas encostam num Classe 0
+
+**E é o item mais caro que esta versão deixa aberto.** *Nenhuma delas foi repreçada aqui, e nenhuma tem validador — a régua de Trilhas ainda não virou peça.*
+
+| entrega | publicado | com o Classe 0 certo | o que ela é |
+|---|---|---|---|
+| `Estocada` nv27 | 0,89 | **5,31** | o golpe da bônus carrega sempre um Classe 0 |
+| `Brasa` nv27 — `Fornalha` | 1,77 | **≈ 5,3 a 10,6** | três socos, três alvos, **três** Classe 0 |
+| `Brasa` nv2 | 1,22 | **3,99** | Classe 0 na bônus depois de atacar, gate `75%` |
+| `Torrente` nv2 — `acelerar` | 0,00 | **2,87** | o grande vai para a bônus e a Padrão fica livre para um Classe 0 |
+| `Torrente` nv11 | **3,78** | **1,38** | o teto do outro feitiço sobe de Classe 0 para Classe 3 |
+| `Arremate` nv27 | 1,38 | **0,00** | as duas metades se cancelam |
+
+**A `Torrente` é o caso interessante, porque ela anda para os dois lados.** *O `acelerar` do nível 2 era `0,00` porque a base já contava um Classe 0 de graça; sem esse Classe 0 fantasma na base, o `acelerar` passa a valer `27` — é ele que destranca a segunda ação.* **E o degrau do nível 11 desinfla: subir o teto de `Classe 0` para `Classe 3` era `+35,50` quando o Classe 0 valia `4,50`, e é `+13` quando ele vale `27`.**
+
+> **O achado por baixo dos quatro é o mesmo: um Classe 0 é caro de dar.** Ele é grátis em PE, não ocupa espaço na lista, e causa `27` no nível 30 — **`25%` da Rotina, contra `11%` de um golpe simples.** *Quatro Trilhas deram ele de presente ao preço de um golpe fraco.*
+
+### Em aberto
+
+- **⚠ As quatro Trilhas acima precisam ser repreçadas**, e duas delas — `Estocada` e `Brasa` — estão fechadas desde a v0.74 e a v0.76.
+- **⚠ Duas decisões de nível 7 foram tomadas contra o vão errado, e as duas viram.** *Marcadas no `DESENHO-caminhos.md` e não desfeitas.*
+  - **Guia:** *"`Ajudar` de bônus mais o golpe preso ao `Guiar` estouram"* — `5,75 + 5,75 = 11,50` contra um vão de `12`. **Cabem, com `0,50` de sobra.**
+  - **Evocador:** a `Coleira` foi cortada de `metade da maestria` para `+1` fixo na v0.71, porque `10,80` estourava um vão de `7`. **Contra `12` ela cabe.**
+- **⚠ O teto que a régua de Trilhas usa ficou pendurado.** O `RASCUNHO-trilhas.md` §3 mede tudo contra *"o `+18%` sustentado que a peça 6 §3.1 reprovou"*, em quatro lugares — **e a v0.80 mostrou que aquele `+18%` não reconstrói de nada e que a montagem que ele media deixou de ser proibida.** *A régua que preçou as onze Trilhas está medindo contra um teto que não existe mais.*
+- **O nível 27 do `Arremate` está vago**, com `1,26` fatia. *A ficção é o capstone do Mahito — dentro do domínio ele deixa de precisar tocar.*
+- **A taxa de controle do Emanador** decide o `Resquício` inteiro, e ela é número de playtest.
+- **O ataque extra do `Arremate` está em `+20%` sobre o físico no nível 11**, contra `+11%` no 30.
+- **Todo número que se mediu contra o vão de `7,00` precisa ser refeito.** *Só o nível 7 do Emanador foi nesta versão. O `DESENHO-caminhos.md` inteiro e o §3.4 do `RASCUNHO-trilhas.md` esperam.*
+- **O `Repertório`** — a última do Emanador, e ela precisa liderar em posicionamento ou recuperação.
+- **`condição` continua sem conversão** e **gastar PE continua sem preço.**
+- **Atribuição de versão continua sem validador.**
+- As de sempre: as vagas de Desliga, a Cicatriz, o clash, o nome do sistema, o refino que paga mal no marco, a tabela de inimigo.
+
+---
+
 ## [0.79] — 2026-08-16
 
 **O Emanador ganhou o nível 7 do Caminho e duas das três Trilhas** — a `Torrente` fechada em `5,37` e o `Arremate` escrito em `5,02` e **deixado aberto de propósito**, porque ele contradiz uma frase da peça 6. *E três coisas que eu ia afirmar de cabeça estavam erradas: a atribuição da `Energia Reversa` em doze lugares, o alcance da cerca das Melhorias, e a base da sobretaxa de PE.* Continuam dezesseis peças e dezesseis validadores.
