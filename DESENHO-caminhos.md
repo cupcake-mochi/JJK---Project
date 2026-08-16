@@ -104,6 +104,33 @@
 
 *O excedente é o que decide morte em definitivo na peça 15 e o que empurra para o estágio 4 de dano de alma. Anulando ele, a Reação impede a queda de virar permanente.*
 
+### Os degraus do Guia contra as `3` fatias — preçados na v0.77
+
+*Até aqui só o nível 7 tinha preço, e ele nem é das `3` fatias: ele é o degrau do **vão**, e a peça 6 §3.1 diz que o nível 7 é correção de base e vem de graça.* **Os outros três nunca foram medidos contra nada. Dois passaram a ser.**
+
+| degrau | dano/rodada | fatias | % das `3` | de onde sai |
+|---|---|---|---|---|
+| **nv2 `Guiar`** | `3,45` | **0,68** | 23% | `15` pontos percentuais × `0,230` |
+| nv7 `Mão na Roda` | `5,75` | *1,13* | — | **pago pelo vão; fora das `3` fatias** |
+| **nv15 `Puxar a Linha`** | `5,40` | **1,06** | 35% | `9 m` = três vezes a linha `posicionamento +3 m` |
+| **nv30 `Ninguém Cai`** | **?** | **?** | **?** | **não reconstrói** |
+
+**A base de "um ponto percentual numa rolagem de aliado" sai deste próprio documento.** O `Ajudar` de ação bônus está preçado em `5,75` dando `25` pontos percentuais, então **`1` pp vale `0,230`** de dano por rodada.
+
+> **E ela fecha sozinha, o que é o motivo de eu confiar nela.** Se `25%` de uma ação de atacar de aliado valem `5,75`, aquela ação vale `23,00` — que é **exatamente dois golpes simples de `11,50`**. No nível 30 o aliado tem ataque extra, então são dois golpes. *A conta reproduz uma coisa que não foi posta nela.*
+
+**O `Guiar` converte `15` pontos percentuais** — é o que este documento já escrevia: *"com Essência 6 ele converte falhas de margem 3, 15% das rolagens"*. **O `Puxar a Linha` dá o deslocamento inteiro, que são `9 m`** — três degraus da linha de posicionamento. *A isenção de ataque de oportunidade entra a zero: não tem linha, e ela é o que separa "reposicionar" de "empurrar", não uma segunda entrega.*
+
+#### O `Ninguém Cai` não tem preço, e não é por falta de tentar
+
+Ele anula o excedente e deixa o aliado com `1` de vida. **O que ele compra não é dano evitado** — é *não cair*, não pegar Sequela e não virar morte em definitivo. A régua de dano evitado converte `1` pra `1` **pontos de vida**, e aqui o ponto de vida é literalmente um.
+
+**O projeto não tem conversão para "a queda não aconteceu".** Ela é do mesmo balde da Cicatriz: mecânica que a peça de dano e condições vai precisar precificar.
+
+> **Sobram `1,26` fatia no orçamento do Caminho, e esse número é TETO e não valor.** Ele é subtração — `3` menos o que os outros dois gastam. **Escrever ele como preço seria o `15%` do `Servo` pela terceira vez**, e a `LISTA-gatilhos` existe em parte para ter registrado que aquele `15%` nunca saiu de gatilho nenhum.
+
+> **E a dívida não é do Guia: nenhum dos cinco Caminhos foi preçado contra as `3` fatias dele.** O Bastião tem a mesma linha escrita desde a v0.74 — o `Absorver` custa `1,60` e o `Puxar Para Si` e o `Segurar` nunca foram medidos. **Com dois de três derivados, o Guia passou a ser o mais adiantado dos cinco.**
+
 ---
 
 ## Emanador — mais feitiço, mais aptidão

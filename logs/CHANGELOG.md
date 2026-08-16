@@ -8,7 +8,7 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ## [0.77] — 2026-08-16
 
-**A matriz da Vanguarda fechou, e ela está limpa** — uma dominância no total, que é a mesma que a v0.75 já tinha medido, aceitado e declarado. *E o serviço era o dobro do que a v0.76 registrou: eram quinze entregas, não sete.* Continuam dezesseis peças e dezesseis validadores.
+**A matriz da Vanguarda fechou e o Guia inteiro fechou junto** — Caminho preçado e as três Trilhas em `4,78` · `4,51` · `4,74`, com matriz limpa. *E três números que eu ia chutar já existiam escritos: o preço do rerroll em duas peças, a fatia do Teste de Resistência no manual, e a âncora de cura na peça 11.* Continuam dezesseis peças e dezesseis validadores.
 
 ### Alterado — a divisão por coluna do `Batedor`, refeita a partir de linha publicada
 
@@ -50,16 +50,160 @@ Duas das quatro entregas dela são faixa e não número: o nível 2 vale `0,54` 
 
 As quatro entregas do `Yumi` somam `4,81` contra um total publicado de `4,82`; as da `Besta` somam `4,53` contra `4,52`. **É arredondamento das entregas, não erro de conta** — mas é a mesma casa de defeito que o `4,80` contra `4,87` do `Muro`, duas ordens de grandeza menor. A matriz usa a soma das entregas.
 
+### Achado — a `LISTA-gatilhos-trilhas.md` estava na escala VELHA, e dois vereditos dela viram
+
+*Aberto o Guia, a primeira coisa que ele pede é a régua de gatilhos. Ela estava medindo com a fatia de `1,27` contra um orçamento de `5,07` — a camada de vínculo do Evocador, fechada na v0.68.* **A v0.73 dobrou o orçamento duas vezes: hoje a fatia é `5,08` e a Trilha leva `25,40` de dano por rodada, `5,01×` mais.** O documento foi revisado na v0.74 e a escala não foi junto.
+
+**Ele não dizia em que escala estava, e a prova é interna:** ele publica *"exceção de ação = `17,0` fatias"* ao lado de *"mínimo `21,60`"*, e `17,0 × 1,27 = 21,59`. Com a fatia de hoje daria `86`. *Segunda prova, independente: a seção do `Servo` mede contra `5,07`, que é `4 × 1,27`.*
+
+**As taxas não se movem** — elas são fração, não valor. As quatro famílias de gatilho, o piso de `20%` e o filtro de `3,0×` ficam exatamente como estavam. **O que muda é toda coluna em fatias, e com ela dois vereditos que estavam sendo tratados como fechados:**
+
+**1 — `exceção de ação` deixava de caber em qualquer Trilha, e passa a caber.** De `426%` do orçamento para `85%`. *E a Vanguarda já provava isso sem ninguém cruzar: o nível 19 da `Estocada` é exceção de ação a `100%`, publicado em `2,46` fatias desde a v0.75.* **A trava do Evocador não cai junto** — *"a `Matilha` e o `Servo` não podem receber ação"* volta a ser regra da matriz, escrita à mão. **O que a conta segurava de graça, agora alguém precisa segurar.**
+
+**2 — `duração` volta ao permitido, e ela é o eixo em que o `Elo` foi desenhado.** A v0.68 expulsou duração com *"no melhor caso ela ainda é onze vezes uma entrega"* — e as onze vezes eram onze fatias de `1,27`. Hoje, `+1` rodada num efeito de cinco custa `4,25` fatias permanente, `2,13` com gate de acerto e `1,28` uma vez por descanso curto. **Só o efeito de duas rodadas continua fora**, e por motivo próprio: dobrar o que dura duas rodadas é dobrar a coisa.
+
+**E o achado mais forte daquele documento se inverteu inteiro.** Ele dizia que só posicionamento cabia como entrega **permanente**, e daí concluía que a forma *"três permanentes e um botão"* do `Servo` **não era construível**. Na escala de hoje cabem **cinco de seis**, e três mudaram de veredito. *A parede era de escala, não de estrutura.*
+
+> **A seção do `Servo` daquele arquivo NÃO foi convertida, e é de propósito.** O `Servo` publicado precisa ser refeito e não reajustado. O que ela existe para mostrar — que os `15%` do nível 27 saíram de subtração e não de gatilho nenhum — é achado de método, e método não tem escala.
+
+### Adicionado — a família `golpe simples para um ALIADO`
+
+Ela nunca esteve na lista de gatilhos e existe desde a v0.72, cortada do nível 7 do Guia por não caber no vão de `7` daquele degrau.
+
+**O botão já entra descontado porque o golpe é de outra pessoa:** `11,50 × 50%` de o aliado acertar `= 5,75`. *Mesmo número que o `DESENHO-caminhos.md` usou; ele não se moveu.* Contra os `25,40` de uma Trilha ele é **`1,13` fatia, `23%`, permanente** — e `0,57` com gate de acerto.
+
+> **Isso não é a família `exceção de ação`, e a diferença é o que faz caber.** Dar uma **ação** a um aliado custa `29,19`, que é `115%` da Trilha. O golpe simples é um quinto disso.
+>
+> ***Decisão do Mizuki: ação inteira fica fora do Guia; o golpe simples entra.*** *E ele lembrou certo — o que o Caminho recusou no nível 7 foi o golpe simples, não a ação; a ação já tinha sido recusada numa linha separada.*
+
+### Adicionado — o Caminho do Guia, preçado contra as `3` fatias
+
+*Até aqui só o nível 7 dele tinha preço, e ele nem é das três fatias: é o degrau do **vão**, que a peça 6 §3.1 dá de graça.* **Dois dos outros três passaram a ter.**
+
+**A base sai do próprio `DESENHO-caminhos.md`:** o `Ajudar` de ação bônus está preçado em `5,75` dando `25` pontos percentuais, então **`1` pp numa rolagem de aliado vale `0,230`** de dano por rodada. *E ela fecha sozinha — se `25%` de uma ação de atacar de aliado valem `5,75`, aquela ação vale `23,00`, que é exatamente dois golpes simples de `11,50`. No nível 30 o aliado tem ataque extra. A conta reproduz uma coisa que não foi posta nela.*
+
+| degrau | dano/rodada | fatias | % das `3` |
+|---|---|---|---|
+| nv2 `Guiar` — `15` pp | `3,45` | **0,68** | 23% |
+| nv7 `Mão na Roda` | `5,75` | *1,13* | **fora — pago pelo vão** |
+| nv15 `Puxar a Linha` — `9 m` | `5,40` | **1,06** | 35% |
+| nv30 `Ninguém Cai` | **?** | **?** | **não reconstrói** |
+
+**O `Ninguém Cai` não tem preço, e não é falta de tentar.** Ele anula o excedente e deixa o aliado com `1` de vida — **o que ele compra não é dano evitado**, é não cair, não pegar Sequela e não virar morte em definitivo. A régua converte `1` pra `1` **pontos de vida**, e aqui o ponto de vida é literalmente um. *Mesmo balde da Cicatriz: é da peça de dano e condições.*
+
+> **Sobram `1,26` fatia, e esse número é TETO e não valor.** Ele é subtração. **Escrever ele como preço seria o `15%` do `Servo` pela terceira vez.**
+
+> **E a dívida não é do Guia: nenhum dos cinco Caminhos foi preçado contra as `3` fatias dele.** O Bastião tem a mesma linha desde a v0.74. **Com dois de três derivados, o Guia virou o mais adiantado dos cinco.**
+
+### Adicionado — a ficção das três Trilhas do Guia, e as âncoras vieram de levantamento
+
+*No método da v0.69: ficção primeiro, sem olhar orçamento, o Mizuki revisa, e só depois o lote é preçado.*
+
+| Trilha | âncora no material | o que ela é |
+|---|---|---|
+| **`Elo`** | **Utahime Iori**, `Solo Forbidden Area` | amplifica a energia e a saída de quem está no alcance; vira ritual com encantamento, gesto, dança e música, e chega a `120%` |
+| **`Sutura`** | **Shoko Ieiri** | Energia Reversa **nos outros**, que é a parte rara — o Gojo cura a si mesmo e não terceiro |
+| **`Perímetro`** | **Kirara Hoshi**, `Love Rendezvous` | marca com estrelas do Cruzeiro do Sul; o que tem a mesma estrela se atrai, e chegar em algum lugar passa a exigir a rota que a técnica deixou |
+
+> **A âncora do `Elo` teve CORREÇÃO OFICIAL depois de publicada, e ela muda o desenho.** O capítulo saiu dizendo que a Utahime amplificava **um** feiticeiro; a VIZ publicou correção e o certo é **qualquer feiticeiro no alcance, vários ao mesmo tempo**. *É literalmente o terceiro eixo que a peça 6 dá ao `Elo` — "duração, alcance, **quantos alvos**" — e ele estava errado na primeira leitura da fonte. **Foi a busca por retcon que pegou, não a busca pela técnica.***
+
+**A cerca do Caminho é mais estreita que a dos outros dois, e ela é escrita:** o Guia é o único sem rota para ataque extra, então **Trilha do Guia não dá golpe para você.** E o Caminho já ocupa quatro botões — ajudar rolagem, `Ajudar` de bônus, mover um aliado, impedir a queda —, então as três ficam fora desses quatro. *A separação do `Perímetro` contra o `Puxar a Linha` está escrita: o Caminho move um aliado, a Trilha muda o que o chão cobra. Mesmo eixo, botão diferente.*
+
+### Adicionado — as três do Guia em mecânica, `4,78` · `4,51` · `4,74`, matriz limpa
+
+*A primeira passada foi minha e o Mizuki reprovou quase tudo.* **O que sobreviveu dela foram os números, não as entregas** — as réguas continuaram valendo e foi com elas que a proposta dele foi medida. **Espalhamento de `1,06×` entre as três, o mais apertado de qualquer Caminho até aqui.**
+
+| | ação/alvo | defesa | posicionamento | recuperação | total |
+|---|---|---|---|---|---|
+| `Elo` | 2,13 | 1,44 | 0,00 | **1,21** | 4,78 |
+| `Sutura` | 0,00 | **4,51** | 0,00 | 0,00 | 4,51 |
+| `Perímetro` | **4,74** | 0,00 | 0,00 | 0,00 | 4,74 |
+
+### Achado — a fatia do Teste de Resistência saiu do MANUAL, e eu vinha chutando
+
+*Eu usava "um terço", inventado por mim, e ele decidia fatia em três entregas.* **A tabela 24 do manual — a das Formas — tem uma coluna `Como resolve`:** `4` resolvem por Teste de Resistência, `4` são automáticas e `2` por rolagem de acerto.
+
+**São `40%`, e o dono é o manual.** *Toda entrega do Guia que mexe em TR passou a medir por esse número.* **Foi a segunda vez nesta versão que um número que eu ia chutar já existia escrito** — a primeira foi o preço do rerroll.
+
+### Achado — `rerroll` já tinha dono em DUAS peças
+
+A peça 11 §8 escreve que *"rerrolar e dar vantagem valem os mesmos `+25` pontos percentuais"*, e a peça 13 repete. **Rerroll não é mecânica nova — é vantagem, ou desvantagem, com outro nome.**
+
+**E isso derrubou metade da proposta na hora.** *Rerroll de aliado* vale `25` pp `= 5,75`, que é **o número exato do `Ajudar`** do Caminho nível 7 — e o Caminho já tem **dois** ajudadores de rolagem de aliado. ***Decisão do Mizuki: fica, mas só em rolagem que não é ataque.***
+
+### Adicionado — a linha de preço de `alcance`
+
+Alcance a mais poupa, no máximo, o deslocamento que alguém gastaria para chegar lá — então ele **teta em `0,60` de dano por rodada por metro**, a linha `posicionamento +3 m` dividida por três. *Nenhuma das três finais usa, mas ela fecha a lacuna que o bloco do `Batedor` abriu.*
+
+### Registrado — a cascata do menu do `Elo`, e ela parou no segundo degrau
+
+*Pedido do Mizuki: testar `+2` restrito a arma ou a feitiço, cair para `+1` se não coubesse, e só então mudar de ideia.*
+
+| a opção | fatias | |
+|---|---|---|
+| `+2` de acerto, só **arma** | **4,25** | **reprova — 85% da Trilha** |
+| `+2` de acerto, só feitiço | 2,13 | |
+| `+1` de acerto, só **arma** | **2,13** | **passa** |
+| `+1` de acerto, só feitiço | 1,06 | |
+
+> **Restringir não corta pela metade, e o motivo é estrutural:** *um canalizado é **um** ataque por turno e a arma são **dois** no nível 30.* A rota `arma` vale o dobro da rota `feitiço`, o jogador escolhe arma, e o `+2` continua sendo os `4,25` da `Arquearia` que a v0.76 já reprovou com este número exato.
+>
+> **E Defesa e TR tiveram de sair do menu** — `3,2×` e `8,0×` atrás do topo. **O menu fecha porque virou menu de uma coisa só.**
+
+### Alterado — a `Sutura` virou uma escada de teto, e isso responde a pergunta dele
+
+*A primeira versão dava a Energia Reversa cheia no nível 2, e ela sozinha valia `67%` da Trilha: uma entrega e três decorações.* **Decisão do Mizuki: cortar** — e a pergunta que veio junto foi *"não sei o que pôr nesse nível 2 que remeta ao `Sutura`"*.
+
+**A resposta é que a Trilha inteira é a resposta.** O teto de PE por uso sobe `2 → 4 → 7`: no nível 2 você costura pouco e só em você, no 27 você costura sete pontos em qualquer um e não erra ponto. **O nome virou a mecânica.**
+
+*E a escada segue a fonte: curar a si mesmo é raro, curar os outros é muito mais raro — o Gojo não consegue. Por isso a parte rara chega no degrau do 11 e não no do 2.*
+
+> **O nível 27 cruza com uma linha publicada.** Rerrolar `1` e `2` no dado de **dano** é a `Arma Grande` da `Pegada`, em `0,33` fatia. No dado de **cura** a mesma mecânica deu `0,52`. *Mesma família, mesma casa.*
+
+### Adicionado — o esboço da aptidão `Energia Reversa`
+
+> **Classe Passiva 3 · refino 7 e nível 13. Ação padrão: gaste até `maior Classe` de PE e cure `1d8` por PE gasto, em você.**
+
+**Cada peça sai de coisa publicada.** A peça 11 §7 mandava medir contra a Passiva `Recomposição` — `5 × maior Classe`, `35` no nível 30. O projeto tem câmbio de PE (*"`+1` PE por rodada `= 5,14` de dano"*), então `1` PE vale ~`5` de cura. E o manual já cura em dado: *"cada ponto que sobra vira `1d8`"*. **No nível 30 são `7d8 = 31,5`, contra os `35` da Recomposição** — mesma altura, e esta se repete cobrando PE.
+
+*O gate é o mesmo da `Extensão de Domínio` e casa com o material: energia reversa nasce no cérebro e não no intestino, e o difícil é sustentar dois fluxos ao mesmo tempo.*
+
+### Decidido — a `Sutura` não causa dano
+
+O material oferecia: **Energia Reversa ofensiva é letal a espírito amaldiçoado**, porque energia positiva destrói construção de energia negativa por dentro. Custaria `1,13` fatia.
+
+> ***"Causar dano com Energia Reversa, se vier de Classe, vai ser difícil de balancear em outras fontes."*** **É o mesmo argumento que tirou o dado de dano do Caminho na peça 5 §4**, aplicado a uma fonte nova antes de ela existir.
+
+### Alterado — a ficção da `Sutura` que eu escrevi contradizia a fonte
+
+Eu tinha posto no nível 27 *"você alcança a alma, o dano que ninguém desfaz você desfaz"*. **Energia Reversa não cura dano de alma** — a única exceção é o Sukuna, e só na própria alma, porque ele conhece a forma dela. *Fica riscado no documento em vez de apagado.*
+
+### Registrado — o `Perímetro` só existe por causa de duas frases do Mizuki
+
+Quatro entregas honestas de posicionamento chegavam a `2,94`, porque **cinco fatias são `42` metros negados por rodada** e posicionamento não enche Trilha sozinho. *O `Muro` já provava: `4,16` de defesa contra `0,71` de posicionamento.*
+
+**A marca tinha de pegar Teste de Resistência e não só perícia** — perícia não converte em dano, e como só perícia o nível 19 valia `0,00`. Pegando TR, vale `1,30`. **E a vantagem na brecha sobe o botão `1,5×`.**
+
+> **Só `1×` por rodada cabe na marca, e a conta fecha sozinha.** Com `2×` o degrau vale `2,59` e a Trilha vai a `6,03`; com `3×`, a `7,33`.
+>
+> **A saída tem de ser voluntária, e a observação MELHORA o número.** A taxa fica entre `15%` e `30%`, o degrau entre `0,25` e `0,51`, **e a banda absorve os dois.** *Primeira vez nesta peça que não preciso fechar uma previsão para publicar.*
+
+> **Duas coisas ficam declaradas e não consertadas.** A Trilha **não passa** a trava *"nenhuma entrega depende de outra"* — o 19 e o 27 penduram no 2 e no 11 —, e isso é o desenho pedido. **E a Trilha do chão terminou com ZERO em posicionamento:** a área de `9 m` é ficção de posição e mecânica de debuff. *Nenhuma das três do Guia tem uma fatia de posicionamento.*
+
 ### Em aberto
 
-- **O nível 2 da `Estocada` continua sem coluna, e agora com tamanho.** Os `0,16` fatia da dominância declarada são exatamente o preço de a coluna não existir. *Terceira vez que a matriz pede eixo em vez de número — as duas anteriores foram o `Servo` na v0.63 e esta mesma `Estocada` na v0.75.*
-- **O catálogo da `Pegada`**, cinco entradas e duas abaixo do teto de `0,79`. *Do mesmo tamanho das treze `Manhas` de arma que o Caminho da Vanguarda deve desde a v0.70.*
-- **Falta nome** para o empurrão do `Punho`, o espaço do `Muro` e a energia temporária da `Brasa`.
-- **O `Revide` contra o `Não Acabou`**, que continua não medido.
-- **Guia, Emanador e Evocador** — nove Trilhas, e o `Servo` publicado está na escala velha e reprova.
-- **A tabela de inimigo** continua parada até as nove fecharem.
-- **Nenhum validador alcança o `DESENHO-trilhas.md`.** A régua de Trilhas ainda não virou peça, e enquanto não virar toda conta desse arquivo é conferida à mão.
-- As de sempre: as vagas de Desliga, a Cicatriz, Energia Reversa, o clash, o nome do sistema, o refino que paga mal no marco.
+- **`Energia Reversa` não tem casa.** Enquanto ela não entrar no catálogo da peça 11, o nível 2 da `Sutura` aponta para o que não existe. *A peça 1 §5.5 também espera por ela.*
+- **O engarrafamento de Reação.** O `Ninguém Cai` do Caminho, o `Elo` nível 11 e o `Perímetro` nível 11 querem a mesma Reação. *Dentro de cada Trilha não colide; entre Trilhas, na mesma mesa, colide.* **É o defeito que matou a primeira versão do `Executor` na v0.75, num slot diferente.**
+- **`condição` continua sem conversão.** Só a exaustão tem magnitude escrita, e o nível 11 da `Sutura` carrega o resto quase de graça.
+- **Uma previsão segura a `Sutura` inteira:** *"o curandeiro cura em metade das rodadas"*. Ela é multiplicador dos quatro degraus, e não tem dono.
+- **Faltam nomes para as doze entregas do Guia.** Nenhuma passou pela triagem.
+- **`Espírito` e `Intelecto` são nomes de Teste de Resistência, não de atributo.** *Apareceram na conversa como se fossem; os atributos são Essência e Inteligência.*
+- **O nível 2 da `Estocada` continua sem coluna, e agora com tamanho.**
+- **O catálogo da `Pegada`**, cinco entradas e duas abaixo do teto de `0,79`. *Junto com as treze `Manhas` de arma.*
+- **Faltam nomes** para o empurrão do `Punho`, o espaço do `Muro` e a energia temporária da `Brasa`.
+- **Emanador e Evocador** — seis Trilhas, e o `Servo` publicado está na escala velha e reprova.
+- **A tabela de inimigo** continua parada até as seis fecharem.
+- As de sempre: as vagas de Desliga, a Cicatriz, o clash, o nome do sistema, o refino que paga mal no marco.
 
 ---
 

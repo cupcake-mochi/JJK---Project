@@ -1,4 +1,4 @@
-# As quinze Trilhas — primeira leva: Bastião e Vanguarda
+# As quinze Trilhas — Bastião, Vanguarda e o Guia
 
 *Escrito em **ficção**, a partir do material, **sem olhar o orçamento** — que é o método fechado na v0.69 e registrado no CHANGELOG daquela versão. As três peças que fecharam usaram exemplar externo à régua: Equipamento usou as classes de arma de outro sistema, Invocações usou os shikigami do material, Legados usou o catálogo velho. **Trilhas é a primeira que tentaria fazer régua contra o vazio**, e este documento existe para ela não fazer.*
 
@@ -710,3 +710,216 @@ Aquele `11,50` é a linha de comparação do §2 da **peça 5**, e ela usa `1d10
 - **Falta nome** para o empurrão do nível 11 do `Punho`, para o espaço do `Muro` e para a energia temporária da `Brasa`. *Nenhum dos três passou pela triagem ainda.*
 - **Vanguarda, Guia, Emanador e Evocador** — nove Trilhas, quatro delas problemáticas.
 - *Nenhum validador alcança este arquivo.* **O soco saiu daqui e ganhou dono e validador** — peça 14 §5.0.6, com a checagem 11 do `conferir-equipamento.py` e cinco perturbações conferidas.
+
+---
+
+---
+
+## Guia — o outro como resposta
+
+*Ficção, sem número, no método da v0.69. **As três âncoras saíram de levantamento** e não de memória — a do `Elo` inclusive teve correção oficial depois de publicada, e a correção muda o desenho.*
+
+**A cerca deste Caminho é mais estreita que a dos outros dois, e ela é escrita:** o Guia é o único sem rota para ataque extra, e o que o nível 7 dele entrega vale exatamente o vão. **Trilha do Guia não dá golpe para você.** *E o Caminho já ocupa quatro coisas — ajudar rolagem, `Ajudar` de bônus, mover um aliado, e impedir a queda —, então as três precisam ficar fora dessas quatro.*
+
+### Elo — *o que outro fez, maior*
+
+**No material:** a **Utahime Iori**, e a técnica dela é `Solo Forbidden Area`. Ela não causa dano nenhum — **ela amplifica a energia amaldiçoada e a saída de quem estiver no alcance dela**, e vira ritual quando se soma encantamento, gesto, dança e música. *Com o ritual inteiro ela chega a 120%, e foi assim que ela apareceu na luta mais importante da série: dançando enquanto outra pessoa tocava, para o feitiço de outro sair maior.*
+
+**E o defeito dela é tão característico quanto a técnica:** ela precisa de preparo, então numa emboscada ela não serve para nada. *A Trilha herda isso — o que ela faz é bom, e ela precisa de um instante.*
+
+> **A correção que muda o desenho, e ela é posterior à publicação.** O capítulo saiu dizendo que ela amplificava **um** feiticeiro; a VIZ publicou correção depois, e o certo é **qualquer feiticeiro dentro do alcance, vários ao mesmo tempo**. *É literalmente o terceiro eixo que a peça 6 dá para o `Elo` — "duração, alcance, **quantos alvos**" —, e ele estava errado na primeira leitura da fonte.*
+
+**E o Tengen encosta pelo outro lado:** ele não faz barreira nova, ele **reforça a barreira que os outros feiticeiros já levantaram.**
+
+> **A frase da Trilha:** *o que outra pessoa fez chega mais longe, dura mais e pega mais gente do que ela conseguiria sozinha.*
+
+| nível | o que acontece |
+|---|---|
+| **2** | O feitiço do aliado alcança mais longe do que ele lançou. Você não escolhe o feitiço — escolhe até onde ele vai |
+| **11** | O que ia acabar continua de pé. Efeito de aliado que tem prazo passa a ter o seu prazo junto |
+| **19** | O que pegava um passa a pegar mais de um, e quem decide quem é você |
+| **27** | Você prepara antes, e o grupo inteiro entra na luta maior do que saiu da última |
+
+*O nível 27 é o ritual da Utahime posto no lugar certo: **fora do combate**, que é onde a técnica dela funciona. E ele resolve o problema do nível 2 do Guia ser todo reativo — aqui existe uma coisa que você faz antes de qualquer dado rolar.*
+
+### Sutura — *o que quebrou volta*
+
+**No material:** a **Shoko Ieiri**. Ela é a médica da escola e o motivo de metade do elenco continuar vivo, e o que a torna rara não é usar Energia Reversa — é usar **nos outros**. *A lista de quem consegue curar terceiro é curta e o Gojo não está nela: ele cura a si mesmo e para por aí.*
+
+**É por isso que esta Trilha existe como Trilha e não como aptidão solta.** O que ela vende é chegar cedo numa coisa que o resto da ficha só alcança tarde.
+
+> **A frase da Trilha:** *o dano que já aconteceu não é definitivo enquanto você estiver na sala.*
+
+| nível | o que acontece |
+|---|---|
+| **2** | Energia Reversa chega para você antes de chegar para qualquer outra ficha |
+| **11** | O que você conserta deixa de ser só vida. O que estiver pendurado no aliado sai junto |
+| **19** | Você devolve energia, e não só corpo |
+| **27** | ~~Você alcança a alma. O dano que ninguém desfaz, você desfaz~~ — **errado por canon, ver abaixo** |
+
+> **⚠ O nível 27 desta tabela contradiz a fonte, e fica riscado em vez de apagado.** *Energia Reversa **não cura dano de alma**. A única exceção do material é o Sukuna, e só na própria alma, porque ele conhece a forma dela.* **O substituto saiu do mesmo levantamento e está no bloco mecânico:** a raridade da técnica é sustentar **dois fluxos de energia ao mesmo tempo**, e o capstone é segurar os dois abertos em outra pessoa.
+
+> **⚠ O nível 2 depende de uma aptidão que não existe.** `Energia Reversa` está na lista de aptidões pendentes desde a v0.27 e nunca foi escrita. **Decisão do Mizuki na v0.77: escrever ela agora e preçar a Trilha em cima dela.** *O esboço está no bloco mecânico; ele ainda precisa ir para o catálogo da peça 11.*
+
+### Perímetro — *o chão decide*
+
+**No material:** a **Kirara Hoshi**, e a técnica dela é `Love Rendezvous`. Ela marca pessoas e objetos com estrelas do Cruzeiro do Sul, e **duas coisas com a mesma estrela se atraem** — para chegar em algum lugar você passa a ter de seguir a rota que a técnica deixou. *Ela quase não causa dano. O que ela faz é decidir quem pode estar onde, e isso ganha luta.*
+
+**E o Tengen é o outro extremo da mesma ideia:** o *Cortina* fecha um espaço e o que está dentro deixa de se comunicar com o que está fora.
+
+> **A frase da Trilha:** *ninguém escolhe onde está. Você escolhe.*
+
+| nível | o que acontece |
+|---|---|
+| **2** | Você marca o chão, e quem está marcado anda pelo caminho que você deixou |
+| **11** | O terreno passa a saber de que lado a pessoa está. Aliado atravessa o que prende inimigo |
+| **19** | Você fecha. O que ficou de fora continua de fora, e o que ficou dentro resolve ali |
+| **27** | Duas coisas marcadas se puxam, e você troca gente de lugar sem encostar em ninguém |
+
+> **A separação contra o Caminho, que é a trava que pegou o `Muro` e o `Executor`.** O `Puxar a Linha` do nível 15 **move um aliado com o deslocamento dele**, uma vez por rodada, e ele não pode recusar. **O `Perímetro` não move ninguém — ele muda o que o chão cobra.** *Mesmo eixo, botão diferente: a Trilha vive.*
+>
+> *E contra o `Muro` do Bastião, que também nega movimento: são Caminhos diferentes, então a matriz não os cruza. **Mas vale marcar antes de preçar** — se as duas ficarem a mesma coisa com dois nomes, o problema é de catálogo e não de matriz.*
+
+### O que este bloco deixa em aberto
+
+- **Nada disto tem número.** É ficção, no método que fechou as seis primeiras: você revisa, e só depois eu preço.
+- **A `Sutura` está travada pela `Energia Reversa`**, que é aptidão não escrita.
+- **O `Elo` inteiro depende de `duração`, `alcance` e `quantos alvos` serem preçáveis.** *A `duração` voltou ao permitido na v0.77, quando a lista de gatilhos foi convertida de escala. **`Alcance` continua sem linha de preço nenhuma** — e o bloco do `Batedor` já tinha avisado: "o sistema não tem preço para alcance."*
+- **Faltam nomes** para o que cada entrega faz. *Nenhum passou pela triagem, e o `Elo` do nível 2 encosta em vocabulário de Forma de feitiço.*
+
+---
+
+---
+
+# O Guia mecânico — segunda passada, com o desenho do Mizuki
+
+> **As três na banda: `4,78` · `4,51` · `4,74` de `5,00`.** Espalhamento de `1,06×`, contra um filtro que reprova em `3,0×`. **Matriz limpa.**
+>
+> *A primeira passada foi minha e ele reprovou quase tudo. **O que sobreviveu dela foram os números, não as entregas** — as réguas de alcance, de rerroll e de cura continuam valendo e foi com elas que a proposta dele foi medida.*
+
+## Três números fecharam nesta passada
+
+**1 — `rerroll` já tinha dono, e ninguém tinha cruzado.** A peça 11 §8 escreve que *"rerrolar e dar vantagem valem os mesmos `+25` pontos percentuais"*, e a peça 13 repete. **Rerroll não é mecânica nova — é vantagem, ou desvantagem, com outro nome.**
+
+**2 — a fatia do Teste de Resistência saiu do manual, e não de chute.** *Eu vinha usando "um terço", inventado.* **A tabela 24 do manual — a das Formas — tem uma coluna `Como resolve`:**
+
+| como resolve | quantas Formas |
+|---|---|
+| Teste de Resistência, metade no sucesso | **4** |
+| Automático | 4 |
+| Rolagem de acerto | 2 |
+
+**São `40%`, e o dono é o manual.** *Toda entrega do Guia que mexe em TR passou a medir por esse número.*
+
+**3 — o preço de `alcance`, derivado.** Alcance a mais poupa, no máximo, o deslocamento que alguém gastaria para chegar lá — então ele **teta em `0,60` de dano por rodada por metro**, que é a linha `posicionamento +3 m = 1,80` dividida por três. *Ele não é usado por nenhuma das três finais, mas fica registrado: ele fechou a lacuna que o bloco do `Batedor` tinha aberto.*
+
+---
+
+## `Elo` — 4,78 de 5,00
+
+> **A ideia é do Mizuki: o nível 2 não dá um número, ele FORMA um elo.** O número vem depois, e os três degraus de cima são coisas que só existem porque o elo existe.
+
+| nv | a entrega | fatias | coluna |
+|---|---|---|---|
+| **2** | você forma um **elo** com um aliado. Escolha: **`+1` de acerto em ataques de arma, ou em ataques de feitiço** | **2,13** | ação/alvo |
+| **11** | *Reação:* o aliado do elo **rerrola um Teste de Resistência**. Na mesma Reação, `3` PE **passam o elo** para quem não tem, e o rerroll vai junto | 0,67 | defesa |
+| **19** | cura feita num membro do elo pode ser **repartida** com o outro | 0,78 | defesa |
+| **27** | o elo aceita um **terceiro membro**, e você passa até `4` PE seu para alguém do elo, `1×` por descanso curto | **1,21** | recuperação |
+
+### O menu do nível 2 quase não coube, e a cascata está registrada
+
+*O Mizuki pediu para testar `+2` restrito, cair para `+1` se não coubesse, e só então mudar de ideia. **Ela parou no segundo degrau.***
+
+| a opção testada | fatias | % da Trilha |
+|---|---|---|
+| `+2` de acerto, só **arma** | **4,25** | **85% — reprova** |
+| `+2` de acerto, só **feitiço** | 2,13 | 43% |
+| `+1` de acerto, só **arma** | **2,13** | **43% — passa** |
+| `+1` de acerto, só **feitiço** | 1,06 | 21% |
+| `+2` de Defesa | 0,67 | 13% |
+| `+2` no Teste de Resistência | 0,27 | 5% |
+
+> **Por que restringir a arma ou a feitiço não corta pela metade:** *um canalizado é **um** ataque por turno e a arma são **dois** no nível 30.* Então a rota `arma` vale o dobro da rota `feitiço`, e o jogador escolhe arma sempre. **O `+2` restrito continua sendo os `4,25` da `Arquearia`, que a v0.76 já tinha reprovado com este número exato.**
+>
+> **E Defesa e Teste de Resistência tiveram de sair do menu.** Contra os `2,13` da arma eles ficam `3,2×` e `8,0×` atrás — fora do filtro. **O menu fecha porque virou um menu de uma coisa só:** acerto, e você escolhe onde. *Duas portas, `2,0×` entre elas.*
+
+---
+
+## `Sutura` — 4,51 de 5,00, e a Trilha É a escada
+
+> **A pergunta do Mizuki era *"não sei o que pôr nesse nível 2 que remeta ao `Sutura`"*, e a resposta é que a Trilha inteira é a resposta.** No nível 2 você costura pouco e só em você; no 27 você costura sete pontos em qualquer um e não erra ponto. **O nome virou a mecânica.**
+
+| nv | a entrega | fatias | coluna |
+|---|---|---|---|
+| **2** | `Energia Reversa` **sem gate**, e o teto por uso é `metade da maestria` de PE | 0,89 | defesa |
+| **11** | ela passa a curar **os outros**, o teto sobe para `maestria`, e o uso **tira uma condição** | **1,19** | defesa |
+| **19** | some o seu **modificador de Essência** na rolagem de cura — vale para cura de técnica também | 0,59 | defesa |
+| **27** | o teto vai a `maior Classe`, e você **rerrola `1` e `2`** em todos os seus dados de cura | **1,85** | defesa |
+
+**O corte que o Mizuki pediu virou o teto de PE por uso.** *A primeira versão dava a Energia Reversa cheia no nível 2 e ela sozinha valia `67%` da Trilha — uma entrega e três decorações.* Com a escada `2 → 4 → 7` de PE, as quatro pesam parecido.
+
+**E a escada segue a fonte:** curar a si mesmo é raro; **curar os outros é muito mais raro** — o Gojo não consegue e a Shoko é nomeada como uma das poucas que conseguem. *Por isso o degrau do 11 é onde a coisa rara chega, e não o do 2.*
+
+> **O nível 27 cruza com uma linha que já existia.** Rerrolar `1` e `2` no dado de **dano** é a `Arma Grande` da `Pegada`, publicada em `0,33` fatia. Aqui, no dado de **cura**, a mesma mecânica deu `0,52`. *Mesma família, mesma casa — o palpite do Mizuki bateu com o catálogo.*
+
+### O esboço da aptidão `Energia Reversa`
+
+> **`Energia Reversa` · Classe Passiva 3 · refino 7 e nível 13**
+> **Ação padrão.** Gaste até `maior Classe` de PE e cure **`1d8` por PE gasto**, em você.
+
+**Cada peça sai de coisa publicada.** A peça 11 §7 mandava medir contra a Passiva `Recomposição`, que cura `5 × maior Classe` — **`35` no nível 30**. O projeto já tem câmbio de PE: *"`+1` PE por rodada `= 5,14` de dano"*, então `1` PE vale ~`5` de cura. **E o manual já cura em dado** — *"cada ponto que sobra vira `1d8`"*, que é `4,5`.
+
+No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`. **Mesma altura; a diferença é que esta se repete e cobra PE.**
+
+*O gate é o mesmo da `Extensão de Domínio`, e ele casa com o material: energia reversa nasce no cérebro e não no intestino, e o difícil é sustentar dois fluxos ao mesmo tempo.* **É coisa que quase ninguém alcança — o que faz a `Sutura` dar ela no nível 2 valer o que vale.**
+
+> **⚠ Ela ainda não tem casa.** Precisa entrar no catálogo da peça 11 §6, com Classe Passiva e gates declarados, e ganhar checagem no `conferir-aptidoes.py`. *A peça 1 §5.5 também espera por ela, para saber se Energia Reversa limpa Sequela.*
+
+---
+
+## `Perímetro` — 4,74 de 5,00
+
+> **A ideia estrutural é do Mizuki: a área é CHASSI.** *"Uma área maior, tipo uns 9 m, a partir de si, aí os efeitos que vamos ter usariam esse perímetro como base."* **Ela custa `0,00` sozinha, e os outros três degraus se penduram nela.**
+
+| nv | a entrega | fatias | coluna |
+|---|---|---|---|
+| **2** | uma área de **`9 m`** a partir de você. `1×` por rodada, um inimigo dentro dela **rerrola um Teste de Resistência e fica com o pior** — declarado **antes** do resultado | **1,85** | ação/alvo |
+| **11** | *Reação:* quando um inimigo **erra** um ataque, um aliado dá um golpe simples **com vantagem** | 0,79 | ação/alvo |
+| **19** | *ação bônus:* **marque** um alvo na área. Ele leva `−1d6` em perícia e em Teste de Resistência, **uma vez por rodada** | **1,30** | ação/alvo |
+| **27** | a brecha do 11 passa a valer **quando o ataque acerta também**, e **quando o alvo sai da área por movimento voluntário** | 0,80 | ação/alvo |
+
+**Duas coisas do Mizuki salvaram esta Trilha, e as duas são pequenas no texto.** Quatro entregas honestas de posicionamento chegavam a `2,94` — porque **cinco fatias são `42` metros negados por rodada**, e posicionamento não enche Trilha sozinho. *O `Muro` já tinha provado isso: `4,16` de defesa contra `0,71` de posicionamento.*
+
+> **A marca tinha de pegar Teste de Resistência, e não só perícia.** Perícia não converte em dano — a própria `LISTA-gatilhos` registra esse buraco. **Como só perícia, o nível 19 valia `0,00`.** Pegando TR também, ele vale `1,30`.
+>
+> **E a vantagem na brecha sobe o botão `1,5×`:** o aliado sai de `50%` para `75%` de acerto, que é o mesmo `+25` pontos percentuais de sempre.
+
+> **Só `1×` por rodada cabe na marca, e a conta fecha isso sozinha.** *O Mizuki ofereceu `1×`, `2×` ou `metade do atributo`.* Com `2×` o degrau vale `2,59` e a Trilha vai a `6,03`; com `3×` ela vai a `7,33`. **`1×` é o único que cabe.**
+
+> **A saída tem de ser VOLUNTÁRIA, e isso é decisão dele com o motivo dele:** *"bem difícil ocorrer do alvo sair da área."* **A observação melhora o número em vez de piorar:** a taxa fica entre `15%` e `30%`, o degrau vale entre `0,25` e `0,51`, e **a banda absorve os dois**. *Não preciso fechar essa previsão para publicar — é a primeira vez que isso acontece nesta peça.*
+
+### Duas coisas declaradas, não consertadas
+
+> **1 — Esta Trilha não passa a trava *"nenhuma entrega depende de outra"*, e é de propósito.** O 19 e o 27 penduram no 2 e no 11. **Isso é o desenho pedido**, e fica declarado no molde da dominância da `Arma de Fogo` — se não estiver escrito, daqui a três versões alguém lê como defeito.
+>
+> **2 — A Trilha do chão terminou com ZERO em posicionamento.** *A área de `9 m` é ficção de posição e mecânica de debuff.* **Nenhuma das três do Guia tem uma fatia sequer de posicionamento** — o que é coerente com um Caminho cujo degrau de posicionamento, o `Puxar a Linha`, já mora no nível 15 e chega para as três.
+
+---
+
+## A matriz do Guia — limpa
+
+| | ação/alvo | defesa | posicionamento | recuperação | total |
+|---|---|---|---|---|---|
+| `Elo` | 2,13 | 1,44 | 0,00 | **1,21** | 4,78 |
+| `Sutura` | 0,00 | **4,51** | 0,00 | 0,00 | 4,51 |
+| `Perímetro` | **4,74** | 0,00 | 0,00 | 0,00 | 4,74 |
+
+**Zero dominância, e espalhamento de `1,06×` entre as três** — o mais apertado de qualquer Caminho até aqui. *O `Elo` é o único com duas colunas de peso; a `Sutura` é a Trilha mais monocromática do sistema inteiro, e o `Perímetro` é a segunda.*
+
+## O que este bloco deixa em aberto
+
+- **`Energia Reversa` não tem casa.** Enquanto ela não entrar na peça 11, o nível 2 da `Sutura` aponta para o que não existe.
+- **O engarrafamento de Reação.** O `Ninguém Cai` do Caminho, o `Elo` nível 11 e o `Perímetro` nível 11 querem a mesma Reação, e o Guia tem uma. *Dentro de cada Trilha não colide; **entre** Trilhas, numa mesa com dois Guias, colide.* **Foi o defeito que matou a primeira versão do `Executor` na v0.75, num slot diferente.*
+- **`condição` continua sem conversão.** O nível 11 da `Sutura` carrega ela quase de graça — só a exaustão tem magnitude escrita.
+- **Duas previsões seguram números:** a saída voluntária, entre `15%` e `30%`, e *"o curandeiro cura em metade das rodadas"*. **A primeira a banda absorve; a segunda não** — ela é multiplicador de toda a `Sutura`.
+- **Faltam nomes para as doze entregas.** Nenhuma passou pela triagem. *E `Espírito` e `Intelecto`, que apareceram na conversa, são nomes de **Teste de Resistência** e não de atributo — os atributos são Essência e Inteligência.*
