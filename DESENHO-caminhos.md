@@ -8,9 +8,12 @@
 
 ## Bastião — aguentar, encarar, prender
 
-### nível 2 · Corpo Duro
-> **O seu ataque desarmado conta como arma**, e você ataca desarmado sem empunhar nada.
+### nível 2 · Corpo Duro — *encolheu na v0.74, e o motivo é bom*
 > **Reação — `Absorver`:** ao ser atingido, reduza o dano em **`o seu nível + 1d6`**. **Usos iguais à sua Constituição, recarregando no descanso longo.**
+
+> **A primeira linha saiu daqui e virou regra de todo feiticeiro.** Ela dizia *"o seu ataque desarmado conta como arma, e você ataca desarmado sem empunhar nada"* — e o soco agora tem dono, escada e validador na **peça 14 §5.0.6**: sem categoria, sem propriedade, `d4 · d6 · d8 · d10` pela maestria.
+>
+> **O Caminho não perdeu nada que fosse dele.** A peça 5 §4 proíbe Caminho de dar dado de dano, e esta linha estava exatamente na beirada dessa cerca — ela não dava o dado, mas era ela que destravava o uso dele. **Com o soco existindo para todo mundo, o Bastião para de ser quem autoriza socar e volta a ser quem aguenta.**
 
 **O dado é tempero e a conta confirma que ele não vira poder:** ele soma `20%` de corte no nível 6 e **`6%` no nível 30**. *Ou seja, ele dá a sensação de rolar sem mover a régua onde a régua importa.* **`d8` faz quase a mesma coisa** — `62%` contra `56%` no nível 6, `48%` contra `47%` no 30. **A escolha entre os dois é sabor puro.**
 
@@ -79,11 +82,15 @@
 
 | | vale no nv30 | do vão de `7` |
 |---|---|---|
-| `Ajudar` como ação bônus (vantagem ≈ `16` pontos percentuais) | `4,32` | sobra `2,7` |
+| `Ajudar` como ação bônus (vantagem = **`25`** pontos percentuais) | **`5,75`** | sobra `1,25` |
 | **+ o golpe simples preso ao `Guiar`** | `5,75` | **as duas juntas estouram** |
 | dar uma **ação** a um aliado | `29,19` | `4,2×` grande — fora |
 
-> **As duas juntas não cabem — e é escolha sua qual fica.** `Ajudar` de bônus é o que você pediu e sobra `2,7` do degrau; o golpe preso ao `Guiar` gasta quase tudo e encadeia os níveis 2 e 7. **A sobra da primeira pode ir para uma entrega de Trilha do Guia depois.**
+> **As duas juntas não cabem — e é escolha sua qual fica.** `Ajudar` de bônus é o que você pediu e sobra `1,25` do degrau; o golpe preso ao `Guiar` gasta quase tudo e encadeia os níveis 2 e 7. **A sobra da primeira pode ir para uma entrega de Trilha do Guia depois.**
+
+> **A linha do `Ajudar` foi corrigida na v0.74, e a decisão não vira — só a sobra encolhe.** Este documento preçava vantagem em `16` pontos percentuais, que é a linearização de `E[maior de 2d20] − E[d20] = 3,325` vezes `5` pp por ponto. **A peça 11 é dona e diz `25` pp**, porque com acerto em `50%` a vantagem leva a `75%`. *A conclusão de que as duas juntas estouram sobrevive: `5,75 + 5,75 = 11,50` contra um vão de `7`, e antes já estourava.*
+>
+> **E o `4,32` que estava escrito aqui não reconstrói de nenhuma base.** Nem `11,50 × 0,32`, nem `27 × 0,16` de propósito — nada no documento diz de onde ele saiu. *Marcado, não consertado por adivinhação: o número novo vem do dono, e o velho fica registrado como não reproduzível.*
 
 > **⚠ E você achou uma lacuna indo por aqui: a lista de ações não existe.** *`Ajudar` está escrito na peça 4 §5 — "um personagem que possa contribuir de verdade dá vantagem ao teste de outro" — e **nunca foi declarado que ação ele gasta**. A peça 3 tem os quatro slots do turno e **nenhuma lista de ações nomeadas**. **Ela está desenhada no fim deste documento.***
 

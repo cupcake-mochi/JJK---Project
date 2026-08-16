@@ -517,6 +517,42 @@ O que sobra fora da conta continua sendo o buraco registrado no §4: **6% a 9% d
 
 > **A metade que sobrevive é a boa, e ela é uma linha em vez de uma propriedade.** Quem faz barulho não é *a arma*: é a **`Arma de Fogo`**, e categoria é onde este documento já põe *"o que a coisa é"*. Uma linha na categoria resolve o que uma propriedade em quarenta e cinco armas resolveria pior. **Fica no §8 item 19, esperando a peça que tiver regra de furtividade** — porque hoje ela seria preço sem regra pendurada.
 
+### 5.0.6 O soco — a única entrada sem categoria e sem propriedade
+
+*Decisão do Mizuki na v0.74, e ela nasceu do avesso: a Trilha do soco do Bastião estava sendo preçada contra `1d10 + Força`, que é a linha de comparação do §2 da **peça 5** e é outra arma. **O punho vazio não tinha dado escrito em documento nenhum.***
+
+> **O soco não pertence a categoria nenhuma e não tem propriedade nenhuma. O dado dele sobe com a maestria.**
+>
+> | maestria | níveis | dado |
+> |---|---|---|
+> | 1 | 2 a 9 | **d4** |
+> | 2 | 10 a 17 | **d6** |
+> | 3 | 18 a 25 | **d8** |
+> | 4 | 26 a 30 | **d10** |
+
+**Ele soma Força**, como todo corpo a corpo pela régua do §5.1.2, e é **arma para todo efeito de regra** — crítico, ataque extra, requisito de treino. Não é arma para efeito de **catálogo**: ele não é uma das 52, não entra na divisão simples/marcial e não aparece no §5.3.
+
+**E não é exceção: ele fecha exato na régua deste documento.** O fundo de uma mão é `3`, o dado custa `d4 = 0 · d6 = 1 · d8 = 2 · d10 = 3`, e zero propriedade custa zero.
+
+| maestria | dado | gasta | fundo de uma mão | |
+|---|---|---|---|---|
+| 1 | d4 | 0 | 3 | `3` abaixo |
+| 2 | d6 | 1 | 3 | `2` abaixo |
+| 3 | d8 | 2 | 3 | `1` abaixo |
+| **4** | **d10** | **3** | **3** | **exato** |
+
+**O soco nasce dominado e chega à paridade no fim, e nunca passa dela.** Um personagem de nível 2 que soca está três pontos atrás de qualquer arma; um de nível 26 está no fundo cheio. *É por isso que o teto é `d10` e não `d12`: `d12` custa `4` e só existe em duas mãos, e o soco não tem uma segunda mão para vender.*
+
+> **Zero propriedade é o que balanceia, e o §5.0 já dizia que isso não podia existir.** Aquela seção tirou a linha do `0` porque *"uma arma sem propriedade nenhuma gastaria menos que o orçamento — que é dominância estrita"*. **A saída não é abrir exceção: é que `0` propriedade tem um dado próprio, e ele é o `d10`.** A linha nunca esteve errada para as 52, porque nenhuma delas escolhe não ter identidade. O soco não escolhe — ele **é** a ausência dela.
+>
+> **E a conta que sai daí é a que vale para a mesa:** o soco no topo bate mais forte que qualquer arma de uma mão do catálogo, e não faz nada além de bater. A `Katana` troca dois pontos de dado por `Versátil` e `Fineza`; o `Machete` troca um por `Rompe`. **Quem soca abre mão de alcance, de `Par`, de `Oculta`, de `Talha` e de tudo o mais.**
+
+**A Manopla continua viva, e é isso que prova que a régua está certa.** `Soqueira` e `Tekko` são `d4` com `Vestida`·`Oculta`·`Par`, e fecham `3/3` iguaizinho. **As duas entradas gastam o mesmo orçamento e compram coisas opostas** — o punho vazio compra dado, a manopla compra três propriedades. *Sem esta seção elas morreriam na maestria 2, porque arma vestida perdendo para não vestir nada é dominância estrita.*
+
+**O requisito de Força não pega o soco.** O §5.5 lê o **dado impresso** e gateia `d10` e `d12` no corpo a corpo, então o soco entraria no requisito exatamente no nível 26. Ele fica **isento, por escrito**: o requisito existe para arma que você levanta, e não há como um personagem não alcançar o próprio punho. *É a mesma lógica que já isenta o passo do `Versátil`, que também não é dado impresso.*
+
+> **O que esta seção mata em outro documento:** a primeira linha do `Corpo Duro` do Bastião — *"o seu ataque desarmado conta como arma, e você ataca desarmado sem empunhar nada"* — vira regra de todo feiticeiro e sai do Caminho. **O Caminho não pode dar dado de dano (peça 5 §4), e agora ele não precisa: o dado nunca foi dele.**
+
 ## 5.1 A categoria — o que a arma é
 
 *Entrou na v0.42.* A classe é o pacote mecânico: dado, Força mínima, propriedades. **A categoria é o que a coisa é.** Ela existe por dois motivos, e nenhum dos dois é preço.
@@ -975,6 +1011,25 @@ As duas estão escritas na tabela de classes e não aparecem na lista de nomes m
 >
 > **O que isso obriga:** as duas entram no validador desta peça como `ACEITA`, com o motivo escrito — no mesmo formato que os rótulos de rascunho da peça 6 e o aviso de cabeçalho do `arquitetura.md` já usam. Aceita registrada é diferente de colisão não vista, e a diferença é justamente o registro.
 
+
+### 5.2.1 Alcance — as duas faixas, e a desvantagem por posição
+
+*Escrita na v0.74, e ela paga uma dívida que estava escondida à vista.* **O §5.2 declara `Longo Alcance` como *"número em metros para projétil e arremesso"* — e nenhuma das onze armas de tiro tem metro escrito.** Pior: a propriedade **já custa 1 ponto** no orçamento, porque *"o topo fica um ponto abaixo da `Pesada` porque ele paga o `Longo Alcance`"*. **O catálogo inteiro pagou por uma regra que ninguém tinha escrito.**
+
+> **Toda arma de projétil tem duas faixas.**
+> **Faixa normal** — até o `Longo Alcance` da arma. Ataque normal.
+> **Faixa longa** — até o dobro disso. **Desvantagem no ataque.**
+> **Além da faixa longa, você não alcança.**
+>
+> **E existe uma terceira, do outro lado: `colado`.** Atacar com arma de projétil **estando adjacente a um inimigo** — qualquer inimigo, não só o alvo — é **desvantagem**, do mesmo jeito.
+
+**As duas pontas são a mesma regra e o mesmo tamanho.** Desvantagem vale `−25` pontos percentuais contra alvo difícil, que é **metade do dano** — o número é da peça 11, e as peças 13 e 14 já o usavam. *Uma régua, dois lados: perto demais e longe demais custam igual.*
+
+**O formato é o do hobby de propósito**, e o motivo é o filtro multi-mestre: *dois mestres que vieram de outro sistema chegam ao mesmo lugar sem ler nada.* É a mesma decisão que a lista de ações tomou ao seguir o padrão para a ação padrão.
+
+> **O que esta seção NÃO fecha, e fica marcado: os metros de cada arma.** A âncora existe e é do manual — a Forma `Projétil` alcança **18 m**, e a peça 15 já lê dela a amarra da invocação. **Escrever onze números aqui seria catálogo, e catálogo se faz de uma vez com a régua na mão** — foi o que a peça 13 e a peça 14 aprenderam. *Enquanto os metros não existirem, a faixa normal é a do `Projétil` e o mestre ajusta pela ficção.*
+>
+> **E a regra já tem três consumidores esperando por ela**, todos na Trilha `Batedor`: o `Yumi` ignora a desvantagem da faixa longa, a `Arma de Fogo` ignora a de estar colado, e a `Besta` não ignora nenhuma das duas — ela **empurra** o inimigo para fora do problema. *Três portas para a mesma pergunta de posição, que é o que faz as três serem escolhas diferentes em vez de três versões da mesma.*
 
 ## 5.3 As 52 armas — dado e propriedades
 

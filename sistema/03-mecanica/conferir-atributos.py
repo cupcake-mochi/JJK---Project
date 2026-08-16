@@ -501,6 +501,68 @@ for (na, a), (nb, b) in ((('Aguentar', AGUENTAR), ('Insistir', INSISTIR)),
         erro(f'{na} domina {nb}: mesmo preco, e um dos dois nunca teria motivo de ser escolhido')
 print('  Aguentar e Insistir: nenhum contem o outro. A escolha existe nos dois sentidos.')
 
+# ---------------------------------------------------- 10. OS TIPOS DE DANO
+print()
+print('=' * 88)
+print('10. OS TIPOS DE DANO — a guarda provisoria da secao 8.1')
+print('=' * 88)
+#
+# Entrou na v0.74. NADA fica escrito aqui: grupos, tipos e pesos saem da tabela da
+# PROPRIA secao 8.1. O que esta checagem afirma e' que a lista fecha em si mesma e
+# que a natureza dela continua dita — o peso e' PREVISAO sem dono, e previsao que
+# perde o rotulo vira numero fechado na versao seguinte.
+#
+# AS DUAS METADES, separadas de proposito (licao no 8):
+#   a) os pesos somam 100%          -> perturbar 30 para 40 acende
+#   b) a lista se declara PREVISAO  -> tirar a palavra acende
+# So a (a) sairia VERDE com a lista virando numero fechado da noite para o dia.
+_sec = TXT.split('## 8.1')[1].split('## 9.')[0] if '## 8.1' in TXT else ''
+if not _sec:
+    erro('a secao 8.1 (tipos de dano) sumiu da peca 1 — esta checagem parou de conferir')
+else:
+    _g = _re.findall(r'\|\s*\*\*(F[ií]sicos|Elementais|Especiais)\*\*\s*\|([^|]+)\|\s*\*\*(\d+)%\*\*\s*\|', _sec)
+    if len(_g) != 3:
+        erro(f'a secao 8.1 tem {len(_g)} grupos de dano com peso e a tabela e de tres — '
+             f'um grupo sem peso, ou um peso sem grupo')
+    else:
+        total, soma = 0, 0
+        for grupo, tipos, peso in _g:
+            n = len([t for t in tipos.split('\u00b7') if t.strip()])
+            total += n; soma += int(peso)
+            print(f'  {grupo:<12}{n:>3} tipos{int(peso):>6}%')
+        print(f'  {"TOTAL":<12}{total:>3} tipos{soma:>6}%')
+        if soma != 100:
+            erro(f'os pesos dos grupos de dano somam {soma}% — o dano recebido tem de fechar '
+                 f'em 100%, senao toda resistencia do sistema esta precada contra uma fracao '
+                 f'que nao existe')
+        _d = _re.search(r'\*\*(\w+) tipos, em (\w+) grupos\.\*\*', _sec)
+        if not _d:
+            erro('a secao 8.1 nao declara quantos tipos e quantos grupos ela tem — '
+                 'sem a declaracao nao ha o que comparar contra a tabela')
+        else:
+            import unicodedata
+            NUM = {'dois': 2, 'tres': 3, 'quatro': 4, 'doze': 12, 'treze': 13,
+                   'catorze': 14, 'quatorze': 14, 'quinze': 15}
+            def _n(x):
+                x = ''.join(c for c in unicodedata.normalize('NFD', x.lower())
+                            if unicodedata.category(c) != 'Mn')
+                return NUM.get(x)
+            if _n(_d.group(1)) != total or _n(_d.group(2)) != len(_g):
+                erro(f'a secao 8.1 escreve "{_d.group(1)} tipos, em {_d.group(2)} grupos" e a '
+                     f'tabela conta {total} em {len(_g)} — contagem a mao envelhecendo debaixo '
+                     f'da propria tabela que ela descreve')
+            else:
+                print(f'  A contagem escrita bate com a tabela: {total} tipos em {len(_g)} grupos.')
+    if 'PREVIS' not in _sec.upper():
+        erro('a secao 8.1 parou de dizer que o peso dos grupos e PREVISAO sem dono — a soma '
+             'dar 100% sai VERDE do mesmo jeito, e ai um palpite vira numero fechado sem '
+             'ninguem ter jogado uma sessao')
+    elif '04-playtest' not in _sec:
+        erro('a secao 8.1 diz que o peso e previsao e nao nomeia quem seria o dono — '
+             'previsao sem destinatario nunca e cobrada de ninguem')
+    else:
+        print('  O peso segue rotulado como previsao, com o playtest nomeado como dono.')
+
 print()
 print('=' * 88)
 if ERROS:

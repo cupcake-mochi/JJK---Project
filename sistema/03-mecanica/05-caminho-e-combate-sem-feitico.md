@@ -109,26 +109,53 @@ O motivo da primeira é o pilar 1: a técnica é a identidade. Se o Caminho dess
 
 ### O que um Caminho concede — exemplos, com preço
 
-**A tabela é exemplo e não fronteira.** Entrega que não está aqui é legal se passa da cerca e se o preço cabe no degrau. *Medido no nível 30, que é onde a fatia foi definida; uma entrega de Trilha vale `1,00` fatia.*
+**A tabela é exemplo e não fronteira.** Entrega que não está aqui é legal se passa da cerca e se o preço cabe no degrau. *Medido no nível 30, que é onde a fatia foi definida.* **A fatia é `5,08` de dano por rodada, e uma Trilha inteira leva `5` fatias** — a coluna abaixo foi reconvertida na v0.74, e ela estava na escala de `1,27` de quatro versões atrás.
 
-| família | exemplo | janela | dano/rodada | fatias |
-|---|---|---|---|---|
-| **posicionamento** | mover-se `+1,5 m` | permanente | `0,90` | **0,71** |
-| | mover-se `+3 m` | permanente | `1,80` | **1,42** |
-| **alvo** | o golpe simples pega 2 | 1× por descanso curto | `3,45` | 2,72 |
-| | idem | permanente | `11,50` | 9,06 |
-| **defesa** | `+1` de Defesa | quando você acerta | `1,70` | **1,33** |
-| | `+1` de Defesa | permanente | `3,39` | 2,67 |
-| **recuperação** | recuperar `+1` PE | 1× por descanso curto | `1,54` | **1,21** |
-| | recuperar `+1` PE | permanente | `5,14` | 4,05 |
-| **acerto** | `+1` no acerto das suas invocações | permanente | `5,40` | 4,25 |
-| | `+1` no **seu** acerto | permanente | `10,80` | 8,50 |
-| | trocar o fixo do acerto por atributo | permanente | `21,55` | 16,97 |
-| **economia de ação** | uma ação padrão a mais | permanente | `108,00` | 85,04 |
+| família | exemplo | janela | dano/rodada | fatias | da Trilha |
+|---|---|---|---|---|---|
+| **posicionamento** | mover-se `+1,5 m` | permanente | `0,90` | **0,18** | 4% |
+| | mover-se `+3 m` | permanente | `1,80` | **0,35** | 7% |
+| **alvo** | o golpe simples pega 2 | 1× por descanso curto | `3,45` | 0,68 | 14% |
+| | idem | permanente | `11,50` | 2,26 | 45% |
+| **defesa** | `+1` de Defesa | quando você acerta | `1,70` | **0,33** | 7% |
+| | `+1` de Defesa | permanente | `3,39` | 0,67 | 13% |
+| **recuperação** | recuperar `+1` PE | 1× por descanso curto | `1,54` | **0,30** | 6% |
+| | recuperar `+1` PE | permanente | `5,14` | 1,01 | 20% |
+| **acerto** | `+1` no acerto das suas invocações | permanente | `5,40` | 1,06 | 21% |
+| | `+1` no **seu** acerto | permanente | `10,80` | 2,13 | 43% |
+| | trocar o fixo do acerto por atributo | permanente | `21,55` | 4,24 | **85%** |
+| **economia de ação** | uma ação padrão a mais | permanente | `108,00` | 21,26 | **425%** |
+| **soco** | o soco no nível 30 — `d10 + Força 6` | permanente | `11,50` | 2,26 | 45% |
+| | ... disparado por *"quando você acerta"*, com dois ataques | `75%` | `8,62` | 1,70 | 34% |
 
-**Os dois últimos estão na tabela para serem vistos, não comprados.** Mesmo espremidos no piso de taxa de `20%`, a troca do fixo ainda come **85% do orçamento de uma Trilha inteira** numa entrega só, e a ação a mais custa **`17` fatias contra um orçamento de `4`** — **ela reprova sozinha, e é isso que tira a trava da matriz da mão de quem escreve.**
+**Os dois destacados estão na tabela para serem vistos, não comprados** — do jeito que estão escritos, permanentes, os dois estouram ou raspam o orçamento inteiro de uma Trilha numa entrega só.
 
-*Exceção estreita e paga na economia de ação continua existindo — é o que deixa uma Trilha conjurar na Reação, ou o Bastião socar como ação bônus. **E "estreita" tem definição:** uma vez por cena, ou só com feitiço de Classe baixa. Como recurso de um Caminho específico, nunca como direito universal. **O que não cabe é ação inteira a mais.** A Melhoria Reação continua valendo o que vale.*
+> ## ⚠ E a rota que reprovava a ação a mais SOZINHA deixou de reprovar — achado na v0.74
+>
+> **A v0.70 fechou o piso de taxa de `20%` com este argumento:** *"com ele, uma ação a mais passa a custar `17` fatias contra um orçamento de `4` e reprova sozinha — a trava que hoje é escrita à mão cai da conta."*
+>
+> **A fatia quadruplicou depois disso, e o preço em dano por rodada não mudou.**
+>
+> | | espremida no piso de 20% | em fatias | do orçamento da Trilha |
+> |---|---|---|---|
+> | uma ação a mais, na escala `1,27` | `21,60` | 17,01 | **425%** |
+> | uma ação a mais, na escala `5,08` | `21,60` | **4,25** | **85% — cabe** |
+> | trocar o fixo, na escala `1,27` | `4,31` | 3,39 | 85% |
+> | trocar o fixo, na escala `5,08` | `4,31` | **0,85** | **17% — cabe folgado** |
+>
+> **As duas ficaram quatro vezes mais baratas em relação ao orçamento**, porque o orçamento quadruplicou e elas não. *Ninguém decidiu isso; foi efeito colateral de dobrar a fatia duas vezes em dois dias.*
+>
+> **A decisão não muda, e o que se perdeu foi a segunda rota até ela.** A proibição de ação a mais continua escrita em dois lugares — a **peça 6 §3.1** reprova pelo **mecanismo** (*"ação a mais por rodada não tem conserto por preço"*), e a caixa da fatia no `RASCUNHO-trilhas.md` §3 repete. **Mas ela voltou a ser trava escrita à mão, e o texto tem de dizer isso** em vez de continuar prometendo que o preço resolve.
+
+*Exceção estreita e paga na economia de ação continua existindo — é o que deixa uma Trilha conjurar na Reação, ou o Bastião socar como ação bônus. Como recurso de um Caminho específico, nunca como direito universal. **O que não cabe é ação inteira a mais.** A Melhoria Reação continua valendo o que vale.*
+
+> **E "estreita" tem três formas, não duas.** *A terceira entrou na v0.74, e ela veio do `Engate` do `Punho`, que usava uma forma que esta seção não listava.*
+>
+> 1. **uma vez por cena** — o relógio segura;
+> 2. **só com feitiço de Classe baixa** — a magnitude segura;
+> 3. **presa a uma rolagem que você já ia fazer, e gastando um recurso do turno** — *"quando você acerta um ataque, dê um golpe desarmado como ação bônus"*. **Duas coisas seguram ao mesmo tempo:** o gatilho dispara em `50%` a `75%` das rodadas conforme quantos ataques você tem, e a ação bônus é um slot que o turno só tem um.
+>
+> **A terceira é a mais interativa das três, e é por isso que ela merece existir**: decidir gastar a ação bônus acontece toda rodada, enquanto um contador de cena dispara sozinho quando o jogador lembra dele.
 
 ### O que mexe em rolagem e não tem conversão entra com teto de maestria
 

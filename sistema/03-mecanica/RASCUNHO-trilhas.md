@@ -229,7 +229,27 @@ A Rotina cresce **8,31×** e o número de entregas cresce **8,00×**. Então uma
 
 > **LEIA O §3.4-B ANTES DESTA SEÇÃO.** *A v0.68 reformulou a Q3:* **a fatia continua sendo a unidade de conta e deixou de ser o preço de cada entrega.** O que esta seção mede — de onde a fatia sai, e que ela é plana — continua valendo inteiro. **O que caiu é a cobrança por entrega**, e com ela a pergunta *"oito iguais ou a do nv2 maior?"*, que deixou de existir quando a distribuição virou livre dentro do orçamento da Trilha.
 
-> ## ⚠ A FATIA DOBROU NA v0.72 — ela é `2,54`, e o motivo é um piso lido como teto
+> ## ⚠⚠ A FATIA É `5,08`, E O CAMINHO LEVA `3` FATIAS E A TRILHA LEVA `5`
+>
+> *Decidido na v0.73 e escrito aqui na v0.74. **Tudo abaixo desta caixa está em escala vencida** — o `1,27` da versão original e o `2,54` da caixa seguinte.*
+>
+> | | fatia | orçamento da Trilha | orçamento do Caminho |
+> |---|---|---|---|
+> | até a v0.71 | `1,27` | 7 fatias distribuídas | — |
+> | v0.72 | `2,54` | — | — |
+> | **v0.73 em diante** | **`5,08`** | **`5` fatias = `25,40` por rodada** | **`3` fatias**, mais o nível 7 de graça |
+>
+> **A camada de Caminho mais Trilha vira `27,7%` da ficha, e o físico termina em `+35,8%` da Rotina no nível 30.**
+>
+> **O que destravou o segundo dobro foi achar que a trava que segurava era circular.** A v0.72 reprovou `3×` e `4×` medindo contra o `+18%` da peça 6 §3.1 — **e foi a própria v0.72 que escreveu que aquele número não é teto de dano.** Ele é a medida de uma montagem de três ações que aquela seção recusa **pelo mecanismo**. Das cinco travas da v0.72, **quatro passam em `4×`; só a do `+18%` reprova, e ela reprova contra si mesma.**
+>
+> **O teto que não é circular é o pilar 1:** quanto da ficha pode ser Caminho e Trilha antes de a técnica deixar de ser a identidade. *Isso é decisão de design e não conta*, e a decisão do Mizuki foi `4×`, com o argumento dele: **"ficar constantemente nessa briga de onde pôr os pontos não vai salvar o projeto, só o limite ao ponto de não conseguirmos construir nada."**
+>
+> **A banda de escrita é `4,50` a `5,00` fatias por Trilha**, com sobra de propósito.
+>
+> > **E o acoplamento que ela paga NÃO foi aplicado, e o número que a v0.73 registrou estava errado.** Aquela versão escreveu *"a vida de chefe e de capanga sobe `36%`"*, e o `36` é o `+35,8% da Rotina` copiado com a base trocada — a base de antes era `98%` da Rotina, não `100%`. **Com a base certa dá `+38,3%`**, e isso é **teto e não valor**: ele supõe que as `8` fatias inteiras viram dano, e a matriz do Bastião mostra que o `Muro` põe `0,00` em dano. **Fica parada até as nove Trilhas que faltam serem preçadas**, porque só aí a média do grupo é computável. *O dono declarado daquela tabela é o playtest, e `04-playtest/` continua vazia.*
+>
+> ## ⚠ A FATIA DOBROU NA v0.72 — ela era `2,54`, e o motivo é um piso lido como teto
 >
 > **O `1,27` abaixo saiu de dividir *o piso* da peça 14 §4 por oito — e a régua passou quatro versões cobrando ele como se fosse teto.** A própria lista de armadilhas do projeto diz: *"Piso não é teto. Um número registrado como o que a peça **deve** é mínimo, e ler ele como máximo reprova a solução certa."*
 >
@@ -410,7 +430,13 @@ Toda entrega é fração de alguma coisa. **Se essa coisa não crescer no ritmo 
 
 > **Cada Trilha escolhe o formato de cada degrau, com duas travas.**
 > **1. O nível 2 é sempre `Classe Passiva 1` ou `3`** — condicional ou permanente. **Nunca uso limitado.**
-> **2. Pelo menos uma das quatro entregas tem de ser `Classe Passiva 2`** — algo que o jogador decide usar.
+> **2. Pelo menos uma das quatro entregas tem de ser algo que o jogador decide usar** — uso limitado por relógio, **ou condicional que ele ativa gastando um recurso do turno.**
+
+> **A segunda trava foi reescrita na v0.73, e a metade nova é a do recurso de turno.** *Ela dizia "tem de ser `Classe Passiva 2`", que é o formato de relógio e só ele.*
+>
+> **O que fez mudar foi o `Punho` do Bastião.** Ele reprovava por **formato** e não por preço: as quatro entregas fechavam dentro do orçamento e a régua dava verde, e quem barrava era esta trava. Mas o `Engate` daquela Trilha **gasta a ação bônus** — e decidir gastar a ação bônus é uma escolha que acontece toda rodada, o que é **mais botão** do que um contador de descanso curto que dispara sozinho quando você lembra dele.
+>
+> **Contra-teste rodado, e ele é o que impede a trava de virar trivialmente verdadeira:** uma Trilha de terreno difícil, Defesa `+1`, resistência permanente e andar `+3 m` **continua reprovando**, porque nenhuma das quatro gasta recurso de turno. *E ela continua pegando o Champion, que é contra quem ela nasceu — lá nada gasta nada.*
 
 **A primeira trava é do Mizuki, e o levantamento externo bate com ela.** *Ele escreveu: "o nv2 tem que dar a BASE para tudo funcionar, como algo passivo mesmo ou que proca às vezes".* A conta já dizia que o nível 2 não pode ser condicional-que-falha-muito — são **18 missões** com ela sozinha na ficha. O que faltava era o outro lado: **uso limitado no nível 2 é pior ainda**, porque a única coisa que a Trilha te dá vira um recurso para administrar antes de você ter qualquer outra coisa na ficha.
 

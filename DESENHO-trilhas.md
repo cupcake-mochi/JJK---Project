@@ -77,6 +77,93 @@ E o **Yuji** com o Punho Divergente é a mesma ideia num golpe só: o soco acert
 
 ---
 
+---
+
+# `Batedor` mecânico — fechado na v0.74
+
+> **As três rotas na banda: `4,82` · `4,52` · `4,74` de `5,00` fatias.** Espalhamento de `1,08×`, contra um filtro que reprova em `3,0×`.
+
+**A rota se escolhe no nível 2 e vale a campanha inteira.** Cada uma resolve o mesmo problema — *onde a luta acontece* — por uma porta diferente:
+
+| rota | como ela resolve a posição |
+|---|---|
+| **`Yumi`** | **ignora a desvantagem da faixa longa** — ela atira de onde ninguém alcança |
+| **`Arma de Fogo`** | **ignora a desvantagem de estar colado** — ela atira de dentro do aperto |
+| **`Besta`** | não ignora nenhuma das duas: ela **empurra** o inimigo para fora do problema |
+
+*Isso é o que faz as três serem escolhas diferentes em vez de três versões da mesma coisa — e as três dependem da regra de alcance, que a peça 14 §5.2.1 escreveu nesta versão.*
+
+## `Yumi` — 4,82 de 5,00
+
+| nv | a entrega | fatias |
+|---|---|---|
+| **2** | **sem desvantagem na faixa longa** · `+3 m` · o `carregar` · escalada | **1,53** |
+| **11** | o **`Mirar`**, e `+2` no acerto de longo alcance | **2,04** |
+| **19** | o `carregar` sobe para margem `−2` | 0,05 |
+| **27** | o `Mirar` vale nos dois ataques, e o `carregar` vai a `−3` | **1,19** |
+
+> **Nível 2.** Você **não sofre desvantagem na faixa longa** de arma de projétil. O seu deslocamento sobe **`+3 m`** e conta como **deslocamento de escalada** — árvore, parede, o que a ficção permitir.
+> **`carregar`:** ação bônus. O seu próximo ataque com arco tem a **margem crítica reduzida em 1** (crítico em `19` ou `20`). *E você pode abdicar do seu ataque extra para somar o dado da arma ao ataque carregado, **sem o atributo** — perde dano e ganha chance de crítico.*
+>
+> **Nível 11.** Você ganha a ação **`Mirar`**, e ela **pode ser usada junto do `carregar`**. E os seus ataques com arma de longo alcance somam **`+2` no acerto**.
+>
+> **Nível 19.** O `carregar` passa a reduzir a margem em **2** — crítico em `18` a `20`.
+>
+> **Nível 27.** O `Mirar` passa a valer para o **ataque básico e o extra**, e o `carregar` reduz a margem em **3** — crítico em `17` a `20`.
+
+*O `abdicar do ataque extra` entra a **zero fatia**: ele perde `5,45` de dano bruto, e o crítico melhor não cobre a diferença. **É opção, não benefício** — e opção que não adiciona valor não ocupa orçamento.*
+
+## `Besta` — 4,52 de 5,00
+
+| nv | a entrega | fatias |
+|---|---|---|
+| **2** | ignorar `Munição` — a recarga para de comer a ação bônus | 0,89 |
+| **11** | o **`Mirar`**, e `+2` no acerto | **1,60** |
+| **19** | o empurrão de `6 m`, e nada de desvantagem colado | **1,15** |
+| **27** | o `Mirar` vale nos dois ataques | 0,89 |
+
+> **Nível 2.** As suas bestas **deixam de carregar `Munição`** — você nunca recarrega.
+> **Nível 11.** O **`Mirar`**, e `+2` no acerto com arma de longo alcance.
+> **Nível 19.** Ao disparar, **uma vez por rodada**, o alvo faz um Teste de Resistência de Vigor; numa falha, é empurrado **`1,5 m × maestria`** na direção oposta. E você **deixa de sofrer desvantagem por estar colado**.
+> **Nível 27.** O `Mirar` passa a valer para o **ataque básico e o extra**.
+
+## `Arma de Fogo` — 4,74 de 5,00
+
+| nv | a entrega | fatias |
+|---|---|---|
+| **2** | recarrega só no `1` natural, e nada de desvantagem colado | 0,54 a 0,59 |
+| **11** | o **`Mirar`**, e `+2` no acerto | **1,95** |
+| **19** | **`Quick Draw`** | 1,17 a 1,89 |
+| **27** | o `Mirar` vale nos dois ataques | 1,08 |
+
+> **Nível 2.** A sua arma de fogo só força recarga no **`1` natural**, e não no `1` ou `2`. E você **deixa de sofrer desvantagem por estar colado**.
+> **Nível 11.** O **`Mirar`**, e `+2` no acerto com arma de longo alcance.
+> **Nível 19 — `Quick Draw`.** No começo de um combate, você pode gastar a sua **Reação** para atacar **um alvo por bala que a arma carrega**, com uma rolagem separada em cada um. **Os disparos contam para a munição** — você vai recarregar no primeiro turno.
+> **Nível 27.** O `Mirar` passa a valer para o **ataque básico e o extra**.
+
+> **O `Quick Draw` dispara `X`, que é o número de balas da arma — e isso é aceito com o motivo.** *Decisão do Mizuki: **"não tem problema metralhadora ser 4 e as outras serem 3, tem seus altos e baixos usarem cada arma."*** A Metralhadora Pesada leva `2,34` fatias contra `1,17` do Rifle de Precisão, e o custo da recarga forçada devolve `0,45` dela — **o espalhamento fica em `1,6×`, dentro do filtro de `3,0×`.** *A arma de X alto paga em ritmo o que ganha na abertura.*
+
+## As travas, rodadas
+
+| | `Yumi` | `Besta` | `Fogo` |
+|---|---|---|---|
+| **na banda 4,50–5,00** | ✓ 4,82 | ✓ 4,52 | ✓ 4,74 |
+| **nível 2 permanente ou condicional** | ✓ | ✓ | ✓ |
+| **algo que o jogador decide usar** | ✓ o `carregar` e o `Mirar` | ✓ o `Mirar` | ✓ o `Mirar` e o `Quick Draw` |
+| **as três dentro de 3,0× uma da outra** | ✓ `1,08×` | | |
+
+**E uma dominância nova apareceu, contra uma irmã:** a rota `Arma de Fogo` sai com `4,74` de ação/alvo contra os `4,58` da `Estocada`, e as duas têm zero em todas as outras colunas — **então ela ganha em tudo que a matriz mede.**
+
+> **Isso é limite da matriz e não necessariamente defeito.** O nível 2 da `Estocada` vale `0,00` em dano e entrega duas coisas para as quais **não existe coluna**: conjurar um feitiço de verdade e ainda bater, e trocar o atributo da arma. *É o mesmo caso do `Servo` na v0.63, em que a dominância era real na matriz e o conserto foi uma coluna nova em vez de um número.* **Fica para a passada da `Estocada`.**
+
+## O que este bloco deixa em aberto
+
+- **Os metros de cada arma de projétil.** A regra das duas faixas existe (peça 14 §5.2.1); os números não. A âncora é a Forma `Projétil` do manual, `18 m`.
+- **Duas taxas são previsão:** quantas rodadas um atirador passa na faixa longa (usei metade) e quantas ele passa colado (usei uma em quatro). **Nenhuma das duas tem medida**, e juntas elas decidem `1,57` fatia.
+- **A `Estocada` precisa de uma coluna que não seja ação/alvo**, ou de `0,20` a menos na rota `Arma de Fogo`.
+
+---
+
 ## Vanguarda — a arma como resposta
 
 ### Estocada — *versátil, com um pé em feitiço*
@@ -138,11 +225,31 @@ E a **Maki** é o mesmo argumento levado ao fim: **zero energia amaldiçoada**, 
 
 ---
 
-# O Bastião mecânico — terceira passada, com o retorno do Mizuki
+# O Bastião mecânico — quarta passada, com a conversão limpa
 
-> **Orçamento: `5` fatias por Trilha — `25,40` de dano por rodada no nível 30.** *A fatia é `5,08`.* **A camada de Caminho mais Trilha vira `27,7%` da ficha, o físico termina em `+35,8%` da Rotina, e a vida de chefe e de capanga sobe `36%` na tabela de inimigo.**
+> **Orçamento: `5` fatias por Trilha — `25,40` de dano por rodada no nível 30.** *A fatia é `5,08`.* **A camada de Caminho mais Trilha vira `27,7%` da ficha e o físico termina em `+35,8%` da Rotina.**
 >
 > **A banda alvo é `4,50` a `5,00` fatias por Trilha**, escolha do Mizuki — sobra de propósito, para as entregas terem folga de escrita.
+
+## A passada de conversão da v0.74 — três números estavam errados, e os três tinham dono
+
+*Nada disto é opinião: os três se medem contra documento que já existia.*
+
+**1 — A vantagem valia `16` pontos percentuais aqui, e a peça 11 é dona dela com `25`.**
+
+O `16` é a linearização — `E[maior de 2d20] − E[d20] = 3,325`, vezes os `5` pp de cada ponto de d20. **Ela só vale longe do meio da curva.** No meio, que é onde este sistema mora, a conta certa é `1 − (1 − p)²`: com acerto em `50%`, a vantagem leva a `75%`, e o ganho é **`25` pp**. A peça 11 escreve isso com estas palavras na tabela do Limiar — *"vantagem na rolagem · 75% · +25 pp"* —, e as peças 13 e 14 repetem. **O erro era de 8,4 pp, e ele subestima a vantagem em 56%.**
+
+**2 — O gatilho *"quando você acerta"* foi cobrado a `50%`, e o Bastião tem ataque extra.**
+
+A fatia mede no **nível 30**, e lá a ação de atacar tem dois ataques. A chance de pelo menos um acertar é `1 − 0,25 = 75%`, não `50%`. *E este documento já usava dois ataques três linhas abaixo*, quando escreveu que a vantagem do nível 27 *"só dispara em um quarto das rodadas — você precisa acertar os dois"*. **Um ataque no nível 2 e dois no nível 27, na mesma Trilha.**
+
+> **A `Brasa` do nível 19 é a exceção, e ela estava certa.** Aquela entrega **abre mão do ataque extra**, então lá a ação tem um ataque só e o gate de `50%` é o número certo. *Não é sorte: é a condição escrita dentro da própria entrega.*
+
+**3 — O soco era preçado contra `1d10 + Força`, que é arma de outra pessoa.**
+
+Aquele `11,50` é a linha de comparação do §2 da **peça 5**, e ela usa `1d10`. O `Engate` dá um **golpe desarmado**, e o punho vazio não tinha dado escrito em documento nenhum. **Agora tem: a peça 14 §5.0.6**, com o dado subindo `d4 · d6 · d8 · d10` pela maestria — `11,50` no nível 30, que por acaso é o mesmo número, e agora por um motivo.
+
+> **E os dois primeiros erros vinham se cancelando.** O `Engate` publicava `1,13`, que é `11,50 × 0,50`. O certo é `11,50 × 0,75 = 8,63`. **Dado grande demais vezes gatilho pequeno demais dá um número que parece bom** — e é assim que uma conta errada sobrevive a uma revisão.
 
 ## Os quatro nomes, passados pela triagem
 
@@ -221,14 +328,31 @@ E a **Maki** é o mesmo argumento levado ao fim: **zero energia amaldiçoada**, 
 
 > **E fica uma dívida: os três degraus do Caminho do Bastião nunca foram preçados contra as `3` fatias dele.** O `DESENHO-caminhos.md` mediu cada um contra outra coisa — o vão, ou porcentagem da Rotina. **Com o `Absorver` em `1,60`, sobram `1,40` para o `Puxar Para Si` e o `Segurar`.** *Não dá para afirmar que cabe sem preçar os outros dois.*
 
-## `Punho` — 4,85 de 5,00
+## `Punho` — 6,09 de 5,00, e o estouro é decisão do Mizuki
 
 | nv | a entrega | forma | fatias |
 |---|---|---|---|
-| **2** | **`Engate`** | condicional | 1,13 |
+| **2** | **`Engate`** | condicional | **1,70** |
 | **11** | empurra, e derruba | permanente | **2,06** |
 | **19** | **`Tropel`** | permanente | 0,35 |
-| **27** | o segundo soco, e a vantagem | permanente | **1,31** |
+| **27** | o segundo soco, e a vantagem | permanente | **1,98** |
+
+> **Ele estoura em `22%`, e fica.** *Decisão do Mizuki, com o motivo dele: "mesmo com esse estouro, não vai quebrar o balanceamento da mesa — a maioria das habilidades são situacionais e de RP."*
+>
+> **A conta discorda em parte, e a discordância fica escrita.** Das cinco peças da Trilha, **quatro disparam quase toda rodada**: o `Engate` em `75%`, o empurrão em todo soco que acerta, o `Derrubado` uma vez por rodada e o segundo soco junto do `Engate`. **A única de fato situacional é o `Tropel`**, que precisa de dois alvos na linha — e ele é `0,35` fatia, a peça mais barata da Trilha.
+>
+> **O que joga a favor de deixar rodar, e é conta:** o estouro é só do `Punho` — `Muro` fecha em `4,87` e `Brasa` em `5,03`, e a média das três é `5,33`, sete por cento acima. **E a matriz continua limpa**: o estouro engordou o `Punho` sem pôr ele por cima de nenhuma irmã.
+>
+> **E uma das seis peças não reconstrói de lugar nenhum: o `Derrubado` do nível 11, que sozinho vale `1,71` fatia — 28% da Trilha.** As outras cinco eu refaço do zero a partir de linha publicada. *Fica marcado, porque é exatamente o defeito do `15%` do `Servo`: número que ninguém consegue reproduzir é número que saiu da subtração.*
+
+| a peça | dano/rodada | fatias | de onde sai |
+|---|---|---|---|
+| nv2 `Engate` | 8,62 | 1,70 | soco × 75% |
+| nv11 empurrão | 1,80 | 0,35 | linha `posicionamento +3 m` |
+| nv11 `Derrubado` | 8,66 | **1,71** | **não reconstrói** |
+| nv19 `Tropel` | 1,80 | 0,35 | linha `posicionamento +3 m` |
+| nv27 segundo soco | 8,62 | 1,70 | soco × 75% |
+| nv27 vantagem | 1,44 | 0,28 | vantagem `25` pp × 25% |
 
 > **Nível 2 — `Engate`.** Quando você **acerta** um ataque na sua ação de atacar, você pode dar um golpe desarmado como **ação bônus**.
 >
@@ -240,14 +364,16 @@ E a **Maki** é o mesmo argumento levado ao fim: **zero energia amaldiçoada**, 
 
 *A vantagem custa `0,18` fatia, e ela é pequena porque só dispara em **um quarto** das rodadas — você precisa acertar os dois.*
 
-## `Brasa` — 4,84 de 5,00
+## `Brasa` — 5,03 de 5,00
 
 | nv | a entrega | forma | fatias |
 |---|---|---|---|
-| **2** | o Classe 0 na ação bônus | permanente | 1,03 |
+| **2** | o Classe 0 na ação bônus | permanente | **1,22** |
 | **11** | energia temporária | permanente | 1,01 |
 | **19** | o feitiço do bônus sobe para Classe 2 | permanente | 1,03 |
 | **27** | **`Fornalha`** | botão | **1,77** |
+
+*Só o nível 2 se moveu, e por metade da passada: a vantagem sobre o Classe 0 sobe de `0,72` para `1,69` — `25` pp em vez de `16`, e gate de `75%` em vez de `50%`. **O nível 19 não se move**, porque ele abre mão do ataque extra e lá o `50%` é o número certo.*
 
 > **Nível 2.** Se você usou a ação de atacar neste turno, você pode lançar um feitiço de **Classe 0** como **ação bônus**. **E se algum dos seus socos acertou, esse feitiço é rolado com vantagem** — quando ele for um ataque.
 >
@@ -269,34 +395,43 @@ E a **Maki** é o mesmo argumento levado ao fim: **zero energia amaldiçoada**, 
 
 | | `Muro` | `Punho` | `Brasa` |
 |---|---|---|---|
-| **soma, em fatias** | 4,80 | 4,85 | 4,84 |
-| **na banda 4,50–5,00** | ✓ | ✓ | ✓ |
+| **soma, em fatias** | 4,87 | **6,09** | 5,03 |
+| **na banda 4,50–5,00** | ✓ | ✗ **estouro aceito** | quase — `0,03` acima |
 | **nível 2 permanente ou condicional** | ✓ | ✓ | ✓ |
 | **algo que o jogador decide usar** | ✓ o `Alicerce` e a Reação do 19 | ✓ o `Engate` gasta a ação bônus | ✓ a `Fornalha` |
-| **dentro do orçamento** | ✓ | ✓ | ✓ |
+
+*O `4,80` que estava nesta linha para o `Muro` nunca bateu com as quatro entregas dele, que somam `4,87` e sempre somaram. **Duas casas do mesmo documento com dois números** — a lição nº 9 dentro de uma tabela de cinco linhas.*
 
 **Matriz de dominância — limpa.**
 
-| | ação/alvo | defesa | posicionamento | recuperação |
-|---|---|---|---|---|
-| `Muro` | 0,00 | **4,10** | 0,71 | 0,00 |
-| `Punho` | **3,47** | 0,00 | **1,38** | 0,00 |
-| `Brasa` | **3,83** | 0,00 | 0,00 | **1,01** |
+| | ação/alvo | defesa | posicionamento | recuperação | total |
+|---|---|---|---|---|---|
+| `Muro` | 0,00 | **4,10** | 0,71 | 0,00 | 4,87 |
+| `Punho` | 3,68 | 0,00 | **2,41** | 0,00 | **6,09** |
+| `Brasa` | **4,02** | 0,00 | 0,00 | **1,01** | 5,03 |
+
+**Cada uma lidera numa coluna diferente, e nenhuma ganha da outra em todas.** O `Muro` é a única com defesa, a `Brasa` é a única com recuperação, e o `Punho` leva posicionamento com folga de `3,4×` sobre o `Muro`. *O estouro do `Punho` não criou dominância — ele engordou a coluna em que o `Punho` já era o dono.*
 
 ## Os números que decidiram, e de onde saem
 
 | | vale | em fatias |
 |---|---|---|
+| o soco no nível 30 — `d10 + Força 6`, peça 14 §5.0.6 | `11,50` | 2,26 |
+| ... disparado por *"quando você acerta"*, com dois ataques (`75%`) | `8,62` | **1,70** |
+| ... o mesmo gatilho lido a `50%`, que era o erro | `5,75` | 1,13 |
 | resistência, primeiro tipo — metade do dano que você toma | `8,47` | 1,67 |
 | resistência, segundo tipo — o que sobra depois do primeiro | `4,24` | 0,83 |
 | `Absorver` num aliado, `1×` por descanso curto | `5,40` | 1,06 |
 | ... `maestria` vezes por descanso curto | `21,60` | **4,25 — não cabe, come 85% da Trilha** |
 | Classe 2 no bônus, trocando o ataque extra, com gate de acerto | `5,25` | 1,03 |
 | ... sem o gate de acerto | `10,50` | 2,07 |
-| vantagem no Classe 0 quando o soco acertou | `0,72` | **0,14 — o Classe 0 é pequeno, e a vantagem sobre ele também** |
+| vantagem no Classe 0 quando o soco acertou — `25` pp, gate `75%` | `1,69` | **0,33** |
+| ... a mesma coisa com a vantagem lida a `16` pp e gate `50%` | `0,72` | 0,14 |
 | `Fornalha` com dois ataques | `4,50` | 0,89 |
 | `Fornalha` com três, alvos diferentes | `9,00` | 1,77 |
 | ... a mesma coisa com **Classe 2** | `75,00` | **14,76 — 295% da Trilha** |
+
+> **A vantagem, de onde ela sai.** Com acerto em `50%`, `1 − (1 − 0,5)² = 75%`, e o ganho é `25` pontos percentuais — metade a mais de dano. **Dona: peça 11**, na tabela do Limiar, e as peças 13 e 14 já repetiam o número. *As linhas de `16` pp ficam à vista de propósito, para ninguém refazer o caminho errado.*
 
 ## O que este bloco deixa em aberto
 
@@ -308,8 +443,15 @@ E a **Maki** é o mesmo argumento levado ao fim: **zero energia amaldiçoada**, 
   **O motivo:** decidir gastar a ação bônus no `Engate` é uma escolha que acontece toda rodada, e isso é mais botão do que um contador de descanso curto que dispara sozinho. *A trava nasceu contra o Champion do 5e, que é passivo **e** sem decisão nenhuma — e ela continua pegando ele.*
 
   > **Contra-teste rodado:** uma Trilha de terreno difícil, Defesa `+1`, resistência permanente e andar `+3 m` **continua reprovando**, porque nenhuma das quatro gasta recurso de turno. **A trava não virou trivialmente verdadeira.**
-- **A tabela de inimigo precisa subir `36%`** em vida de chefe e de capanga. Decidido e não aplicado.
+- **A tabela de inimigo NÃO sobe `36%`, e o número estava errado por construção.** *Medido na v0.74.* O `36` é o `+35,8% da Rotina` copiado, e a base de antes não era a Rotina cheia — era `98%` dela. Com a base certa dá **`+38,3%`**, e o modelo reproduz o *"3,7 para 2,7 rodadas"* que a v0.73 escreveu.
+
+  > **Mas o `+38,3%` é teto e não valor, e por isso ela fica parada.** Ele supõe que as `8` fatias inteiras viram dano, e a matriz acima diz que não viram: o `Muro` põe `0,00` em ação/alvo, e o Caminho do Bastião inteiro é defesa e controle. **Um grupo de `Muro` não encurta luta nenhuma — ele estica.** A subida real fica entre `0%` e `38,3%` e depende de quem senta na mesa, e **quatro dos cinco Caminhos estão com zero Trilhas preçadas.**
+  >
+  > **E a decisão nomeava duas colunas quando a tabela tem três que se mexem.** A coluna *"Dano do grupo por rodada"* é a saída dos jogadores e sobe junto; se ela ficar em `~315` e só a vida subir, o chefe vira `4,6×` a `5,5×` o dano do grupo, e o parágrafo embaixo da tabela do manual diz *"três a quatro vezes"*. **As colunas de dano do inimigo não se movem**, e é exatamente a de `Chefe: dano` que o `conferir-manual.py` confere.
+  >
+  > **Redevirar quando as nove Trilhas fecharem.** O dono declarado daquela tabela é o playtest, e `04-playtest/` continua vazia — mover número de playtest com chute pré-playtest cria a segunda fonte sem dono, que é a lição nº 9.
 - **A peça 5 §4 precisa de uma terceira forma de exceção estreita** — hoje ela lista duas, e o `Engate` usa uma terceira.
+- **O `Derrubado` do nível 11 do `Punho` vale `1,71` fatia e não reconstrói de nenhuma linha publicada.** É a maior peça da Trilha e a única sem derivação escrita.
 - **Falta nome** para o empurrão do nível 11 do `Punho`, para o espaço do `Muro` e para a energia temporária da `Brasa`. *Nenhum dos três passou pela triagem ainda.*
 - **Vanguarda, Guia, Emanador e Evocador** — nove Trilhas, quatro delas problemáticas.
-- *Nenhum validador alcança este arquivo.*
+- *Nenhum validador alcança este arquivo.* **O soco saiu daqui e ganhou dono e validador** — peça 14 §5.0.6, com a checagem 11 do `conferir-equipamento.py` e cinco perturbações conferidas.

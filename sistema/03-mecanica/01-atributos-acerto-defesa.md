@@ -445,6 +445,38 @@ A tabela de letalidade do Fundamento mostra 1,7 a 2,0 rodadas porque supõe que 
 
 **A previsão atual é 3,4 a 4,0 rodadas**, contra alvo bem defendido. Contra inimigo comum é menos. Isso fica como número a medir no playtest, não como alvo fechado — quem decide se o combate está arrastado é a mesa.
 
+## 8.1 Os tipos de dano — guarda provisória
+
+*Decidido na v0.73 e alojado aqui na v0.74.* **Esta seção é guarda provisória.** O dono natural é a **peça de dano e condições**, que não existe e não está na fila; enquanto ela não existir, a lista mora aqui e tem validador em cima. *Quando aquela peça sair, isto vira ponteiro — é o mesmo trato que o `ESTADO-ATUAL` já faz com o vocabulário sem peça.*
+
+> **Catorze tipos, em três grupos.**
+>
+> | grupo | tipos | do dano recebido |
+> |---|---|---|
+> | **Físicos** | `Cortante` · `Perfurante` · `Concussão` | **60%** |
+> | **Elementais** | `Fogo` · `Frio` · `Elétrico` · `Ácido` · `Trovejante` · `Veneno` | **30%** |
+> | **Especiais** | `Radiante` · `Necrótico` · `Psíquico` · `Energia Reversa` · `Alma` | **10%** |
+
+**Os Temas do manual não são taxonomia, e é por isso que esta lista existe.** *Decisão do Mizuki:* eles são **exemplos para quem cria técnica**, não uma classificação fechada do que o dano pode ser. **A colisão entre as duas coisas é aceita e fica declarada** em vez de esquecida:
+
+| o tipo | colide com |
+|---|---|
+| `Fogo` · `Ácido` · `Veneno` | são **Temas** no manual, com o mesmo nome |
+| `Cortante` · `Trovejante` · `Alma` | estão **dentro** de `Passo Cortante`, `Palma Trovejante` e `Toca a Alma` |
+
+> **⚠ O peso dos três grupos é PREVISÃO e não tem dono.** `04-playtest/` está vazia desde a v0.1, e `60/30/10` é palpite calibrado contra o que uma mesa de fantasia costuma jogar em cima do grupo. **É o número que decide quanto vale toda resistência do sistema**, e o primeiro que a mesa vai corrigir.
+>
+> **O que ele já decide hoje:** o `Alicerce` do `Muro` cobra por tipo, e o palpite do Mizuki reproduziu na conta — ele disse *"diria que ocupa 2,0 de fatia se for só contra físicos"*, e os três Físicos dão `60%` do dano recebido, que são `10,17` de dano por rodada, **`2,00` fatias exatas.**
+
+| quantos tipos você resiste | bate em | vale |
+|---|---|---|
+| 1 | 20% | 0,67 fatia |
+| **2** | 40% | **1,33** |
+| 3 — os Físicos inteiros | 60% | 2,00 |
+| **4** | 65% | **2,17** |
+
+**Resistir a quatro tipos fura a cerca da peça 5 §4 ao pé da letra, e está aceito.** Aquela cerca autoriza *"resistência a um tipo"*, no singular, e proíbe *"desconto em tudo"*. **Quatro de catorze não é desconto em tudo** — é o que a cerca existe para barrar, e ela continua barrando. *Decisão do Mizuki, registrada com o motivo.*
+
 ## 9. Em aberto
 
 - **Se Força precisa de um segundo trabalho.** Ela tem uma perícia só, e a lista de vinte e três não conserta isso.

@@ -8,7 +8,7 @@
 
 | âncora | valor | dono |
 |---|---|---|
-| a luta dura | **`3,3` rodadas** | peça 15 §3.2 |
+| a luta dura | **`3,4` a `4,0` rodadas** | **peça 1 §8** |
 | taxa de acerto contra alvo que investiu em defesa | **`50%`** | peça 1 |
 | `20` natural | **`5%`** | peça 1 |
 | o dia tem | **3 a 4 lutas** — três de graça, exaustão na quarta | peça 10 §4 |
@@ -31,7 +31,18 @@
 | quando o alvo **falha num TR** que você impôs | `50%` | `1,0` | **passa** |
 | quando você **critica** | `5%` | `1,0` | **reprova — abaixo do piso** |
 
-> **Aviso de lição nº 2, e ele é obrigatório aqui.** Os botões do §6.9 são medidos em **dano por rodada**, e dano por rodada **já embute os 50% de acerto**. Multiplicar um deles por *"quando você acerta"* conta o acerto duas vezes — `11,50` viraria `5,75` sem que nada tenha ficado mais raro. **Gatilho de rolagem só multiplica botão medido por acerto, nunca por rodada.**
+> **Aviso de lição nº 2, e ele foi reescrito na v0.74 porque faltava uma palavra.** *Como estava, ele reprovava a linha de cima desta mesma tabela: ele proibia multiplicar por "quando você acerta", e "quando você acerta" está aprovada a `50%` três linhas acima. **Duas linhas do mesmo documento dizendo o contrário.***
+>
+> **A regra é sobre a MESMA rolagem, e não sobre rolagem em geral.**
+>
+> | o gatilho é | multiplicar? | por quê |
+> |---|---|---|
+> | a **mesma** rolagem que o botão já embute | **não** | *"quando você acerta, o seu golpe causa mais X"* — o valor de X já foi medido contando os 50%. Multiplicar de novo conta o acerto duas vezes |
+> | **outra** rolagem, anterior ao botão | **sim** | *"quando você acerta, ganhe um golpe a mais"* — o golpe novo rola o próprio dado. O gate é um dado a mais na frente, e ele restringe de verdade |
+>
+> **O `Engate` do `Punho` é o segundo caso**, e é por isso que ele é cobrado a `75%`: o acerto que dispara é o da ação de atacar, e o soco de bônus rola sozinho depois. *A taxa é `75%` e não `50%` porque quem tem ataque extra rola dois dados e basta um acertar.*
+>
+> **E a taxa não é a mesma em todo nível.** Um ataque dá `50%`, dois dão `75%`, três dariam `87,5%`. **Toda entrada que use este gatilho tem de declarar contra quantos ataques ela está medida** — e a fatia mede no nível 30, onde Bastião e Vanguarda têm dois.
 
 *E o crítico reprovando não é a régua nova brigando com o projeto: a escada de Classe Passiva do §3.1 declara que a Classe 1 dispara em `~20%`, e a célula de exemplo dela é `"posicionamento — só quando você critica"`, que dispara em `5%`. **A célula já estava fora da própria escada.***
 
@@ -146,6 +157,16 @@ Sobram `1,71` de dano por rodada, que são `1,35` fatias:
 *E a forma do `Servo` já estava solta de qualquer jeito: a variância refeita derrubou o §6.4, porque o `Coro` a `90%` cai para `2,13` contra os `2,09` do `Servo`. As três formas precisam ser reescolhidas junto.*
 
 ---
+
+## A âncora de rodadas mudou de dono na v0.74
+
+**Este documento ancorava *"a luta dura `3,3` rodadas"* na peça 15 §3.2, e aquela seção não fala de duração de luta.** O `3,3` aparece lá — numa tabela de quantos corpos a `Matilha` derruba —, e foi provavelmente de lá que ele veio. *Número certo lido da coluna errada da tabela certa é o modo de falha que o `conferir-manual.py` já tinha registrado uma vez.*
+
+**A dona é a peça 1 §8: `3,4` a `4,0` rodadas.** As peças 11 e 14 usam `3,5` e `3,7`, todas dentro da faixa.
+
+> **E o `3,3` tem uma segunda origem, que explica melhor por que ele parecia certo.** A tabela de inimigo do manual põe o chefe do nível 30 em `1050 a 1260` de vida contra `~315` de dano do grupo por rodada — e `1050 ÷ 315 = 3,33`. **O `3,3` é o PISO daquela faixa**, lido como se fosse o valor típico. *É piso-lido-como-outra-coisa pela terceira vez na mesma linhagem, e as três vezes o número parecia razoável.*
+
+**Nada quebra, e é bom saber de quanto:** com `3,7`, o `1×` por descanso curto vale `27%` em vez de `30%` — continua acima do piso de `20%`, e o `1×` por dia continua reprovando. **Toda entrada preçada a `30%` está `11%` generosa**, e isso vale para o `Servo` publicado.
 
 ## O que ainda falta na lista
 

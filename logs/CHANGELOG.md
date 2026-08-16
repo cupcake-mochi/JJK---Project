@@ -6,6 +6,170 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.74] — 2026-08-15
+
+**O soco não tinha dado escrito em documento nenhum, e a Trilha inteira do Bastião estava preçada contra uma arma que ninguém estava segurando.** *Três conversões erradas caíram nesta versão, e duas delas vinham se cancelando havia versões.* Continuam dezesseis peças e dezesseis validadores; a peça 14 e a peça 1 ganharam uma checagem cada.
+
+### Achado — o `Engate` era preçado contra `1d10 + Força`, e ele dá um golpe DESARMADO
+
+O `11,50` que a Trilha usava é a linha de comparação da **peça 5 §2**, e ela é *"arma `1d10` + Força"*. **O punho vazio não tinha dado em lugar nenhum.** O `Corpo Duro` dizia *"o seu ataque desarmado conta como arma"* e a única mão do catálogo é a `Manopla`, que é equipamento **vestido** — e o mesmo degrau dizia *"sem empunhar nada"*.
+
+> **Pergunta do Mizuki que achou: "por que caralhos ela bate 6,09? Calculamos pra ser 5, mas mesmo assim não acho que o punho tá forte."** *As duas metades estavam certas.*
+
+### Decidido — o soco sobe com a maestria, e ele é a única entrada sem categoria e sem propriedade
+
+*Ideia do Mizuki: **"minha ideia era ser igual D&D pra monge, mas servindo pra todos os feiticeiros"**. **Peça 14 §5.0.6**, com a checagem 11 do `conferir-equipamento.py` e cinco perturbações conferidas.*
+
+| maestria | níveis | dado | gasta | fundo de uma mão |
+|---|---|---|---|---|
+| 1 | 2 a 9 | `d4` | 0 | `3` abaixo |
+| 2 | 10 a 17 | `d6` | 1 | `2` abaixo |
+| 3 | 18 a 25 | `d8` | 2 | `1` abaixo |
+| **4** | 26 a 30 | **`d10`** | **3** | **exato** |
+
+**Zero propriedade é o que balanceia, e foi o Mizuki que apontou isso** — *"contando como se fosse de nenhum grupo, tendo nenhuma propriedade, isso q balanceia ele"*. **A régua do §5.0.1 fecha exata em cima disso**: o dado custa `d4 = 0 · d6 = 1 · d8 = 2 · d10 = 3`, o fundo de uma mão é `3`, e zero propriedade custa zero. **O soco nasce dominado e chega à paridade no fim, sem nunca passar dela.**
+
+> **E o `d12` que a ideia original pedia não cabe:** ele custa `4` e só existe em duas mãos, e o soco não tem uma segunda mão para vender. *Nenhuma edição do monge faz `d4` até `d12`: a de 2014 anda `d4·d6·d8·d10` e a de 2024 anda `d6·d8·d10·d12` — as duas andam quatro degraus consecutivos, e `d4` até `d12` são cinco em quatro faixas de maestria.*
+
+**A `Manopla` continua viva, e é isso que prova a régua.** `Soqueira` e `Tekko` são `d4` com `Vestida`·`Oculta`·`Par` e fecham `3/3` iguaizinho — **as duas entradas gastam o mesmo orçamento e compram coisas opostas.** *Sem esta seção elas morriam na maestria 2, porque arma vestida perdendo para não vestir nada é dominância estrita.*
+
+**E o `Corpo Duro` perdeu a primeira linha**, que virou regra de todo feiticeiro. **O Caminho não perdeu nada que fosse dele** — a peça 5 §4 proíbe Caminho de dar dado de dano, e agora ele não precisa: o dado nunca foi dele.
+
+### Achado — a vantagem valia `16` pontos percentuais nos documentos de trabalho, e a peça 11 diz `25`
+
+O `16` é a linearização: `E[maior de 2d20] − E[d20] = 3,325`, vezes `5` pp por ponto de d20. **Ela só vale longe do meio da curva.** Com acerto em `50%`, `1 − (1 − 0,5)² = 75%` e o ganho é **`25` pp** — a peça 11 escreve isso na tabela do Limiar e as peças 13 e 14 repetem. **Erro de 8,4 pp, e ele subestima a vantagem em 56%.**
+
+### Achado — o gatilho *"quando você acerta"* foi cobrado a `50%`, e o Bastião tem ataque extra
+
+A fatia mede no **nível 30**, e lá a ação de atacar tem dois ataques: a chance de pelo menos um acertar é `75%`. **E o mesmo documento já usava dois ataques três linhas abaixo**, ao escrever que a vantagem do nível 27 *"só dispara em um quarto das rodadas — você precisa acertar os dois"*.
+
+> **Os dois erros vinham se cancelando.** O `Engate` publicava `1,13`, que é `11,50 × 0,50`; o certo é `soco × 0,75`. **Dado grande demais vezes gatilho pequeno demais dá um número que parece bom**, e é assim que uma conta errada sobrevive a uma revisão.
+
+**A `Brasa` do nível 19 era a exceção e estava certa:** aquela entrega abre mão do ataque extra, então lá o `50%` é o número certo.
+
+### Alterado — a `LISTA-gatilhos` se contradizia, e faltava uma palavra
+
+Ela aprovava *"quando você acerta"* a `50%` e três linhas depois proibia multiplicar botão por gatilho de rolagem. **A regra é sobre a MESMA rolagem:** gatilho que é o próprio acerto que o botão já embute não multiplica; gatilho que é **outra** rolagem, anterior, multiplica — e o soco de bônus rola o próprio dado depois. **E a taxa não é fixa: um ataque dá `50%`, dois dão `75%`, três dariam `87,5%`.**
+
+**E o `3,3` rodadas dela citava a peça 15 §3.2, que não fala de duração de luta.** A dona é a **peça 1 §8**, com `3,4` a `4,0`. *O `3,3` tem origem: `1050 ÷ 315` na tabela de inimigo do manual, que é o **piso** da faixa de chefe lido como valor típico. Piso-lido-como-outra-coisa pela terceira vez na mesma linhagem.*
+
+### Achado — a subida de `36%` da tabela de inimigo estava errada, e ela NÃO foi aplicada
+
+O `36` é o `+35,8% da Rotina` copiado com a base trocada: a base de antes era `98%` da Rotina, não `100%`. **Com a base certa dá `+38,3%`** — e o modelo reproduz o *"3,7 para 2,7 rodadas"* que a v0.73 escreveu.
+
+**Mas `+38,3%` é teto e não valor.** Ele supõe que as `8` fatias inteiras viram dano, e a matriz do Bastião diz que não viram: o `Muro` põe `0,00` em ação/alvo, e o Caminho do Bastião inteiro é defesa e controle. **Um grupo de `Muro` estica a luta em vez de encurtar.** E a decisão nomeava **duas** colunas quando a tabela tem **três** que se mexem — *"Dano do grupo por rodada"* é a saída dos jogadores e sobe junto.
+
+> **Fica parada até as nove Trilhas que faltam serem preçadas**, porque só aí a média do grupo é computável. O dono declarado daquela tabela é o playtest, e `04-playtest/` continua vazia.
+
+### Achado — a rota que reprovava *"uma ação a mais"* pelo preço deixou de reprovar
+
+A v0.70 fechou o piso de taxa de `20%` com este argumento: *"uma ação a mais passa a custar `17` fatias contra um orçamento de `4` e reprova sozinha — a trava que hoje é escrita à mão cai da conta."*
+
+**A fatia quadruplicou depois disso e o preço em dano por rodada não mudou.** Espremida no piso, a ação a mais sai de **425% para 85%** do orçamento de uma Trilha — **ela cabe agora.** *Ninguém decidiu isso; foi efeito colateral de dobrar a fatia duas vezes em dois dias.* **A decisão não muda** — a peça 6 §3.1 reprova pelo mecanismo — **mas a segunda rota até ela se perdeu, e o texto passa a dizer isso** em vez de continuar prometendo que o preço resolve.
+
+### Adicionado — o que a v0.73 decidiu e não escreveu
+
+| onde | o que entrou |
+|---|---|
+| `RASCUNHO-trilhas.md` §3 | a fatia de **`5,08`**, `3` fatias de Caminho e `5` de Trilha, e o achado da trava circular |
+| `RASCUNHO-trilhas.md` §3.6 | a trava do botão reescrita, com a segunda forma — **condicional que gasta recurso do turno** — e o contra-teste |
+| peça 5 §4 | a **terceira forma de exceção estreita**, a tabela de exemplos reconvertida para a escala `5,08`, e o soco em duas linhas |
+| **peça 1 §8.1** | os **catorze tipos de dano em três grupos**, em guarda provisória até a peça de dano e condições existir, com a checagem 10 do `conferir-atributos.py` e seis perturbações |
+
+### Alterado — o Bastião reprecado, e o estouro é decisão do Mizuki
+
+| | antes | agora |
+|---|---|---|
+| `Muro` | 4,87 *(a tabela de travas dizia 4,80)* | **4,87** |
+| `Punho` | 4,85 | **6,09 — estoura 22%** |
+| `Brasa` | 4,84 | **5,03** |
+
+> **Decisão do Mizuki: fica.** *"Mesmo com esse estouro, não vai quebrar o balanceamento da mesa — a maioria das habilidades são situacionais e de RP."*
+>
+> **A conta discorda em parte, e a discordância fica escrita:** das cinco peças do `Punho`, **quatro disparam quase toda rodada**, e a única de fato situacional é o `Tropel`, que vale `0,35` fatia. **O que joga a favor:** o estouro é só do `Punho`, a média das três é `5,33`, e **a matriz continua limpa** — cada Trilha lidera numa coluna diferente.
+>
+> **Uma alteração foi testada e revertida a pedido dele:** o `Engate` exigindo acerto nos dois ataques. Ela passa em todas as travas — taxa de `25%` contra um piso de `20%` — e **corrige demais**: devolve `2,26` fatias quando só `1,09` sobravam, e joga o `Punho` para `3,82`, abaixo do piso da banda.
+
+### Registrado — dois números que não reconstroem de lugar nenhum
+
+**O `Derrubado` do nível 11 do `Punho` vale `1,71` fatia — 28% da Trilha — e não sai de nenhuma linha publicada.** As outras cinco peças daquela Trilha eu refaço do zero. *É o defeito do `15%` do `Servo` outra vez: número que ninguém reproduz é número que saiu da subtração.*
+
+**E o `4,32` do `Ajudar` no `DESENHO-caminhos.md` também não.** *Marcados, não consertados por adivinhação.*
+
+### Adicionado — a regra de alcance, e ela pagou uma dívida escondida à vista
+
+**A peça 14 declarava `Longo Alcance` como *"número em metros"* e nenhuma das onze armas de tiro tinha metro escrito** — e a propriedade **já custava 1 ponto**, porque *"o topo fica um ponto abaixo da `Pesada` porque ele paga o `Longo Alcance`"*. **O catálogo inteiro pagou por uma regra que ninguém tinha escrito.**
+
+> **Peça 14 §5.2.1, no formato do hobby por decisão do Mizuki:** faixa normal até o `Longo Alcance` da arma, **faixa longa até o dobro com desvantagem**, e nada além. **E a terceira faixa é do outro lado:** atacar com projétil **estando adjacente a um inimigo** também é desvantagem.
+
+**As duas pontas são a mesma régua e o mesmo tamanho** — desvantagem vale `−25` pontos percentuais, que é metade do dano, e o número é da peça 11. *Perto demais e longe demais custam igual.*
+
+**Os metros de cada arma ficam de fora, com a âncora nomeada:** a Forma `Projétil` do manual alcança `18 m`, e a peça 15 já lê dela a amarra da invocação. *Onze números seriam catálogo, e catálogo se faz de uma vez com a régua na mão.*
+
+### Adicionado — o `Batedor`, e as três rotas resolvem a posição por portas diferentes
+
+**`Yumi` `4,82` · `Besta` `4,52` · `Arma de Fogo` `4,74`**, de um orçamento de `5,00`. **Espalhamento de `1,08×`** contra um filtro que reprova em `3,0×`.
+
+| rota | como ela resolve a posição |
+|---|---|
+| **`Yumi`** | ignora a desvantagem da **faixa longa** — atira de onde ninguém alcança |
+| **`Arma de Fogo`** | ignora a desvantagem de estar **colado** — atira de dentro do aperto |
+| **`Besta`** | não ignora nenhuma: ela **empurra** o inimigo para fora do problema |
+
+### Achado — o golpe canalizado é Forma `Toque`, e o `Batedor` não canaliza
+
+O manual põe `Toque` em **1,5 m** e `Projétil` em `18 m`. **Então a rodada de um atirador é `18,0` a `23,0` de dano bruto no modo Atacar, contra `94,0` do modo Conjurar** — e o modo Conjurar não tem ataque de arma nenhum, porque gasta a ação padrão.
+
+**Toda peça de uma Trilha de arma à distância vive no modo que vale 21% do outro.** *A `Estocada` conserta isso no nível 2 dela; o `Batedor` não conserta em lugar nenhum, e é ele que mais precisa.*
+
+### Achado — o `1` natural da recarga vale, e o tamanho sai do X
+
+*O Mizuki não aceitou o zero que eu tinha escrito, e ele estava certo.*
+
+| X | recargas por rodada com `1–2` | com só o `1` | em fatias |
+|---|---|---|---|
+| 2 | 1,053 | 1,026 | **0,00** |
+| 3 | 0,738 | 0,701 | 0,04 |
+| 4 | 0,582 | 0,539 | 0,05 |
+
+**Com `X=2` ele vale zero mesmo** — o teto de X já força recarga toda rodada e o dado nunca chega a ser o primeiro gatilho. **De `X=3` para cima ele existe.**
+
+> **E a peça 14 tinha previsto isto com data marcada:** *"em Ação Bônus a `Munição` custa zero… isso muda no dia em que o slot encher."* **O `Mirar` no nível 11 é esse dia.** A recarga virou preço de verdade sem ninguém mexer em número.
+
+### Decidido — o `Quick Draw` dispara `X`, e a desigualdade entre armas é aceita
+
+*Decisão do Mizuki: **"não tem problema metralhadora ser 4 e as outras serem 3, tem seus altos e baixos usarem cada arma."*** A Metralhadora Pesada leva `2,34` fatias contra `1,17` do Rifle de Precisão, e **o custo da recarga forçada devolve `0,45` só dela** — o espalhamento fecha em `1,6×`. *A arma de X alto paga em ritmo o que ganha na abertura.*
+
+### Registrado — a matriz acendeu uma dominância que ela mesma não sabe medir
+
+A rota `Arma de Fogo` sai com `4,74` de ação/alvo contra os `4,58` da `Estocada`, e as duas têm zero nas outras colunas. **Ela ganha em tudo que a matriz mede.**
+
+**O nível 2 da `Estocada` vale `0,00` em dano e entrega duas coisas sem coluna:** conjurar um feitiço de verdade e ainda bater, e trocar o atributo da arma. *É o caso do `Servo` na v0.63 outra vez — a dominância era real na matriz e o conserto foi uma coluna nova, não um número.*
+
+### Removido — a varredura de lixo
+
+| o que | o que foi feito |
+|---|---|
+| `_to_delete/v0.73-residuo/` **vazia** | os três arquivos que a v0.73 diz ter movido para lá não estão lá. A pasta é resíduo do resíduo |
+| **quatro `.gitkeep` vencidos** | `01-pesquisa`, `02-esqueleto`, `03-mecanica` e `05-material` já têm arquivo. *Eram três na v0.69; `01-pesquisa` entrou na conta* |
+| `__pycache__` em `sistema/skills/` | criado ao rodar o `conferir-atributos.py`, e o `.gitignore` já segura |
+| o `.gitkeep` de `04-playtest` | **fica** — aquela pasta segue vazia desde a v0.1, e ele é o único que ainda trabalha |
+
+### Em aberto
+
+- **Os metros de cada arma de projétil.** A regra das duas faixas existe; os números não.
+- **Duas taxas de posição são previsão:** quantas rodadas um atirador passa na faixa longa, e quantas passa colado. Juntas elas decidem `1,57` fatia do `Batedor`.
+- **A `Estocada` precisa de uma coluna que não seja ação/alvo**, ou de `0,20` a menos na rota `Arma de Fogo`.
+- **A tabela de inimigo**, agora com o número certo e o motivo de não aplicar ainda.
+- **O peso `60/30/10` dos grupos de dano** continua previsão sem dono — agora com validador guardando o rótulo, para ele não virar número fechado sozinho.
+- **Os três degraus do Caminho do Bastião nunca foram preçados contra as `3` fatias.** Com o `Absorver` em `1,60`, sobram `1,40` para o `Puxar Para Si` e o `Segurar`.
+- **Vanguarda, Guia, Emanador e Evocador** — nove Trilhas, quatro delas problemáticas.
+- **Falta nome** para o empurrão do `Punho`, o espaço do `Muro` e a energia temporária da `Brasa`.
+- *`Soco` sai **fraco** na triagem — a uma letra de `Sono`, que é Tema. Ele fica como palavra comum em prosa, minúsculo e sem crase de termo, que é como a peça 5 §4 já o usava antes desta versão. **Se um dia virar termo batizado, ele morre na mesma régua que matou `Emenda` e `Postura` na v0.73.***
+- As de sempre: as vagas de Desliga, a Cicatriz, Energia Reversa, o clash, o nome do sistema, o refino que paga mal no marco.
+
+---
+
 ## [0.73] — 2026-08-15
 
 **O orçamento de Caminho e Trilha dobrou de novo, e o que destravou foi achar que a trava que segurava era circular.** *A v0.72 reprovou `3×` e `4×` medindo contra o `+18%` da peça 6 §3.1 — e foi a própria v0.72 que escreveu que aquele número não é teto de dano.* **As doze entregas do Bastião estão escritas, preçadas e com nome.** Continuam dezesseis peças e dezesseis validadores.

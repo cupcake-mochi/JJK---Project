@@ -9,7 +9,7 @@ PECA 11. O unico bloco com valor na mao e o LIMITES DE DESIGN, declarado a parte
 da regra aplicada — licao no 8: uma checagem nao pode se medir contra a propria
 constante.
 
-Dez checagens:
+Onze checagens:
   1. ORCAMENTO   — toda arma gasta o fundo exato. Nem sobra, nem estoura.
   2. DOMINANCIA  — a matriz sobre ARMA (nao sobre classe), uma vez por escada.
   3. PROPRIEDADE — toda propriedade usada no catalogo tem texto no SS5.2.
@@ -23,6 +23,8 @@ Dez checagens:
   8. VERSATIL    — so as armas declaradas carregam o passo de graca.
   9. DESLIGA     — a frase do desligamento nao cita escudo em nenhum dos tres.
  10. TRIAGEM     — todo nome do catalogo aparece no documento que o define.
+ 11. SOCO        — o punho vazio do SS5.0.6 nunca passa do fundo de uma mao, fecha
+                   EXATO no topo da maestria, e nao entra na contagem das 52.
 
 Roda de sistema/03-mecanica/. NAO le o .docx e NAO precisa de python-docx —
 entao nao existe caminho por onde ele saia verde tendo pulado checagem.
@@ -361,6 +363,78 @@ for a in ARMAS:
         erro(f'"{a["nome"]}" e escrita de um jeito na tabela do SS5.3 e de outro na prosa — '
              'o conferir-nomes.py compara literal e nao veria uma colisao neste nome')
 print(f'  {len(ARMAS)} nomes de arma conferidos contra o corpo do documento.')
+
+# ------------------------------------------------------------------- 11. SOCO
+bloco('11. SOCO — o punho vazio nunca passa do fundo, e fecha exato no topo')
+#
+# Entrou na v0.74. O soco e a unica entrada do sistema sem categoria e sem
+# propriedade, e o que o segura NAO e' uma constante escrita aqui: e' a mesma
+# conta do bloco 1, com zero propriedade. O dado sai da tabela do SS5.0.6, o
+# custo de cada dado sai do MEDIA_DADO/PISO_MELEE que o SS5.0 ja definia, e as
+# faixas de maestria saem da PECA 1. Nada e' guardado.
+#
+# AS DUAS METADES, e elas TEM de ser conferidas separadas (licao no 8):
+#   a) nenhuma maestria passa do fundo   -> perturbar d10 para d12 acende
+#   b) a ULTIMA maestria fecha EXATO     -> perturbar d10 para d8 acende
+# So a (a) sairia verde com o soco parado no d4 a campanha inteira, que e' o
+# desenho que esta secao existe para nao deixar acontecer.
+try:
+    _sec = EQ[EQ.index('### 5.0.6 O soco'):EQ.index('## 5.1 A categoria')]
+except ValueError:
+    _sec = ''
+    erro('SS5.0.6: a secao do soco sumiu da peca 14 — esta checagem parou de conferir')
+
+if _sec:
+    ESCADA_SOCO = {int(m.group(1)): 'd' + m.group(2)
+                   for m in re.finditer(r'\|\s*(\d)\s*\|\s*\d+ a \d+\s*\|\s*\*\*d(\d+)\*\*\s*\|', _sec)}
+    # as faixas de maestria sao da PECA 1, e o soco nao pode inventar as proprias
+    FAIXAS_P1 = re.search(r'\| nível \| ([\d–\-–]+) \| ([\d–\-–]+) \| ([\d–\-–]+) \| ([\d–\-–]+) \|', P1)
+    n_maestrias = len(FAIXAS_P1.groups()) if FAIXAS_P1 else 0
+    if not FAIXAS_P1:
+        erro('PECA 1: nao achei a tabela de faixas de maestria — o soco ficaria sem ancora')
+    elif len(ESCADA_SOCO) != n_maestrias:
+        erro(f'o soco declara {len(ESCADA_SOCO)} degraus e a PECA 1 tem {n_maestrias} '
+             f'faixas de maestria — um degrau sem faixa e uma faixa sem dado')
+    if not ESCADA_SOCO:
+        erro('SS5.0.6: nao consegui ler a tabela de maestria -> dado do soco')
+
+    FUNDO_1MAO = FC[0]
+    print(f'  fundo de uma mao: {FUNDO_1MAO} (lido do SS5.0.1) · zero propriedade custa 0')
+    print(f"  {'maestria':<10}{'dado':<7}{'gasta':<8}{'fundo':<8}sobra")
+    topo_exato = None
+    for m in sorted(ESCADA_SOCO):
+        d = ESCADA_SOCO[m]
+        if d not in MEDIA_DADO:
+            erro(f'o soco usa o dado {d} na maestria {m}, e ele nao esta na escada do SS5.0')
+            continue
+        g = MEDIA_DADO[d] - PISO_MELEE          # zero propriedade paga, zero restricao
+        sobra = FUNDO_1MAO - g
+        print(f'  {m:<10}{d:<7}{g:<8g}{FUNDO_1MAO:<8}{sobra:+g}')
+        if g > FUNDO_1MAO + 0.01:
+            erro(f'o soco na maestria {m} gasta {g:g} de um fundo {FUNDO_1MAO} — ele passa a '
+                 f'dominar arma de uma mao sem pagar propriedade nenhuma, e nao existe '
+                 f'segunda mao para ele vender')
+        topo_exato = abs(sobra) < 0.01
+    if ESCADA_SOCO and topo_exato is False:
+        erro(f'o soco no topo da maestria gasta {MEDIA_DADO[ESCADA_SOCO[max(ESCADA_SOCO)]] - PISO_MELEE:g} '
+             f'de um fundo {FUNDO_1MAO} — ele nunca chega a paridade, e ai socar e sempre a '
+             f'escolha ruim. A metade (a) desta checagem sairia VERDE assim')
+    elif ESCADA_SOCO:
+        print('  O topo fecha exato: o soco chega a paridade com arma de uma mao e nao passa.')
+
+    # e ele nao pode estar no catalogo, senao a contagem das 52 anda sozinha
+    if any(sem_acento(a['nome']) in ('soco', 'punho', 'desarmado') for a in ARMAS):
+        erro('o soco entrou no catalogo do SS5.3 — ele nao e uma das 52, e por na tabela '
+             'move a contagem que tres documentos publicam')
+    else:
+        print(f'  E ele esta FORA do SS5.3: as {len(ARMAS)} do catalogo nao se moveram.')
+
+    # a isencao do requisito de Forca tem de estar escrita, senao o SS5.5 pega o d10
+    if 'isento' not in sem_acento(_sec):
+        erro('SS5.0.6: o soco chega ao dado que o requisito de Forca gateia e a isencao '
+             'nao esta escrita — o SS5.5 le o dado impresso e pegaria ele no nivel 26')
+    else:
+        print('  A isencao do requisito de Forca esta escrita.')
 
 # ------------------------------------------------------------------- VEREDITO
 print('\n' + '=' * 88)
