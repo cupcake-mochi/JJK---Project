@@ -79,6 +79,55 @@ E o **Yuji** com o Punho Divergente é a mesma ideia num golpe só: o soco acert
 
 ---
 
+# `Estocada` mecânica — fechada na v0.74
+
+> **`4,58` de `5,00` fatias.** E o nível 2 dela, que é a identidade inteira, custa **zero**.
+
+| nv | a entrega | fatias |
+|---|---|---|
+| **2** | conjurar na padrão e bater na bônus, e a troca de atributo no grupo escolhido | **0,00** |
+| **11** | o golpe da bônus pega um segundo alvo **adjacente**, quando o feitiço acerta | 1,23 |
+| **19** | ataque extra na bônus quando o feitiço da padrão é **condicional** | **2,46** |
+| **27** | o golpe da bônus carrega sempre um **Classe 0** | 0,89 |
+
+> **Nível 2.** Você usa a ação **Conjurar** na ação padrão e dá um **golpe com arma do grupo escolhido** como ação bônus.
+> **E naquele grupo de armas, o acerto e o dano usam Essência ou Inteligência** no lugar de Força ou Destreza. **O requisito de Força para empunhar continua valendo.**
+>
+> **Nível 11.** Quando o feitiço que você conjurou **acerta**, o golpe da ação bônus **pega um segundo alvo adjacente ao primeiro**.
+>
+> **Nível 19.** Quando o feitiço que você conjura na ação padrão é **de condição e não de dano**, você pode usar o seu **ataque extra** na ação bônus.
+>
+> **Nível 27.** O golpe da ação bônus **carrega sempre um feitiço de Classe 0** junto.
+
+## Por que o nível 2 custa zero, e ele é o achado da Trilha
+
+**Ela não ganha dano. Ela muda o ataque de lugar.**
+
+| | ação padrão | ação bônus | bruto |
+|---|---|---|---|
+| Vanguarda base — **Atacar** | canalizado `94` + golpe `12,5` | auxiliar | **106,5** |
+| `Estocada` — **Conjurar** | o feitiço de verdade `94` | golpe `12,5` | **106,5** |
+
+**O que ela compra é o que a Vanguarda perdia:** hoje, quem quer usar a técnica dela **perde todos os ataques daquela rodada**, porque Conjurar gasta a ação padrão. *Mesma Classe, mesmo orçamento, mesmo PE — o que muda é que os pontos podem virar Melhoria em vez de só dado.*
+
+**E o que ela paga é a ação bônus**, que nas outras Trilhas fica com `auxiliar`.
+
+> **A troca de atributo também é `0,00` em dano.** O golpe simples continua sendo `arma + atributo`; muda **quem paga por ele**. A Vanguarda larga Força menos o requisito de `3`, e isso são **três pontos de atributo livres** — três das sete escolhas de marco da campanha. *Não deriva, porque Força e Essência crescem os dois `+3`.*
+>
+> **E presa a um grupo de armas ela vira escolha de build em vez de upgrade universal** — o grupo escolhido conversa com a `Escola de Arma` do Caminho, que também escolhe uma categoria. **Sobreposição, não duplicação.**
+
+## O que morreu no caminho, e por quê
+
+| a proposta | por que caiu |
+|---|---|
+| *"conjurar deixa de exigir que você largue a arma"* | **conjurar não exige mão livre neste sistema.** Quem exige é a Restrição `Gesto`, que é **escolhida** e **devolve pontos** — cancelar ela de graça é `Melhoria de graça` pela porta dos fundos, e a cerca da peça 5 §4 proíbe pelo nome. *E a peça 6 já chama "escudo e Gesto se cancelam" de decisão de ficha interessante.* |
+| *"ao usar um feitiço, um golpe simples de bônus"*, sem mais nada | **é o ataque extra do nível 7, com outras palavras.** A base do físico já é `canalizado + golpe simples`, e a peça 6 §3.1 escreve que *"ataque extra é sempre golpe simples"*. Do nível 7 em diante seria duplicação; antes dele, adiantamento de cinco níveis que a fatia não consegue preçar |
+| *"o canalizado sai pela arma"* | **dado de dano no Caminho.** A v0.15 já mediu: canalizado somando arma dá `+135%` no nível 2 |
+
+> **O nível 19 traz uma família de gatilho que a lista não tem.** *"Quando o feitiço da padrão é condicional"* é **o único gatilho do projeto controlado inteiramente pelo jogador** — não é rolagem, nem relógio, nem estado da ficha, nem julgamento do mestre. É escolha, toda rodada. **A `LISTA-gatilhos-trilhas.md` precisa de uma quinta família, ou de uma regra dizendo que essa é sempre `100%`.** *Preçado a `100%` aqui; a `50%` a Trilha cai para `3,35` e sai da banda.*
+
+---
+
 # `Batedor` mecânico — fechado na v0.74
 
 > **As três rotas na banda: `4,82` · `4,52` · `4,74` de `5,00` fatias.** Espalhamento de `1,08×`, contra um filtro que reprova em `3,0×`.
@@ -152,9 +201,15 @@ E o **Yuji** com o Punho Divergente é a mesma ideia num golpe só: o soco acert
 | **algo que o jogador decide usar** | ✓ o `carregar` e o `Mirar` | ✓ o `Mirar` | ✓ o `Mirar` e o `Quick Draw` |
 | **as três dentro de 3,0× uma da outra** | ✓ `1,08×` | | |
 
-**E uma dominância nova apareceu, contra uma irmã:** a rota `Arma de Fogo` sai com `4,74` de ação/alvo contra os `4,58` da `Estocada`, e as duas têm zero em todas as outras colunas — **então ela ganha em tudo que a matriz mede.**
+**Uma dominância apareceu contra uma irmã, e ela fica DECLARADA:** a rota `Arma de Fogo` sai com `4,74` de ação/alvo contra os `4,58` da `Estocada`, e as duas têm zero em todas as outras colunas — então ela ganha em tudo que a matriz mede.
 
-> **Isso é limite da matriz e não necessariamente defeito.** O nível 2 da `Estocada` vale `0,00` em dano e entrega duas coisas para as quais **não existe coluna**: conjurar um feitiço de verdade e ainda bater, e trocar o atributo da arma. *É o mesmo caso do `Servo` na v0.63, em que a dominância era real na matriz e o conserto foi uma coluna nova em vez de um número.* **Fica para a passada da `Estocada`.**
+> **Medida antes de tratada, e ela é ruído.** A diferença é **`0,16` fatia** — `0,81` de dano bruto por rodada, **0,55% do que o personagem faz no nível 30**. A razão entre as duas é `1,03×`, contra um filtro que reprova em `3,0×`, e a própria banda de escrita tem `0,50` fatia de largura. *A diferença é um terço da banda.*
+>
+> **A matriz não tem piso, e é aí que está o defeito.** O teste dela é binário — *"maior ou igual em todas as colunas, e maior em uma"* —, então `0,16` dispara exatamente como `3,00` dispararia. **É defeito do teste, não da `Estocada`.**
+>
+> **E o projeto já tem o mecanismo:** o `conferir-equipamento.py` carrega um bloco de **dominâncias aceitas e declaradas** desde a v0.47 — as três da `Versátil`. Declarada, ela não falha nada; o que falha é uma que sumiu e continuou na lista.
+>
+> **O motivo, escrito:** o nível 2 da `Estocada` vale `0,00` em dano e entrega duas coisas para as quais **não existe coluna** — conjurar um feitiço de verdade e ainda bater, e trocar o atributo da arma. *É o caso do `Servo` na v0.63 outra vez: a dominância era real na matriz e o que faltava era eixo, não número.* **Decisão do Mizuki: fica como está.**
 
 ## O que este bloco deixa em aberto
 

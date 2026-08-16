@@ -6,6 +6,50 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.75] — 2026-08-16
+
+**A `Estocada` fechou, e o nível 2 dela — que é a identidade inteira da Trilha — custa zero fatia.** *E uma dominância que eu tinha marcado como defeito virou declaração, porque ela é meio por cento.* Continuam dezesseis peças e dezesseis validadores.
+
+### Adicionado — a `Estocada`, e o nível 2 dela custa ZERO
+
+**`4,58` de `5,00` fatias**, e a identidade inteira da Trilha está num degrau que não custa nada.
+
+> **Conjurar na ação padrão e bater na bônus com o grupo de armas escolhido** — e naquele grupo o acerto e o dano usam **Essência ou Inteligência**, com o requisito de Força continuando de pé.
+
+**Ela não ganha dano: ela muda o ataque de lugar.** A base do físico é `canalizado 94 + golpe 12,5 = 106,5`; a `Estocada` é `feitiço 94 + golpe 12,5 = 106,5`. **O que ela compra é o que a Vanguarda perdia** — quem quer usar a técnica dela perde todos os ataques da rodada, porque Conjurar gasta a ação padrão. *E o que ela paga é a ação bônus.*
+
+**Três propostas caíram no caminho, cada uma contra uma regra que já existia:**
+
+| a proposta | por quê |
+|---|---|
+| *"conjurar deixa de exigir largar a arma"* | conjurar **não exige mão livre** aqui — quem exige é a Restrição `Gesto`, que é escolhida e **devolve pontos**. Cancelar de graça é `Melhoria de graça` pela porta dos fundos |
+| *"ao conjurar, um golpe simples de bônus"* | **é o ataque extra do nível 7 com outras palavras** — a base já é `canalizado + golpe simples` |
+| *"o canalizado sai pela arma"* | dado de dano no Caminho. A v0.15 já mediu: `+135%` no nível 2 |
+
+> **E o nível 19 traz uma família de gatilho que a lista não tem.** *"Quando o feitiço da padrão é condicional"* é **o único gatilho do projeto controlado inteiramente pelo jogador** — não é rolagem, relógio, estado da ficha nem julgamento do mestre. **A `LISTA-gatilhos` precisa de uma quinta família.**
+
+### Registrado — a dominância entre `Arma de Fogo` e `Estocada` fica DECLARADA
+
+A rota `Arma de Fogo` sai com `4,74` de ação/alvo contra os `4,58` da `Estocada`, e as duas têm zero nas outras colunas — ela ganha em tudo que a matriz mede.
+
+**Medida antes de tratada, e ela é ruído:** `0,16` fatia, que é `0,81` de dano bruto por rodada e **0,55%** do que o personagem faz. Razão de `1,03×` contra um filtro de `3,0×`, e um terço da largura da própria banda de escrita.
+
+> **A matriz não tem piso, e o defeito é dela.** O teste é binário — *"maior ou igual em todas, maior em uma"* —, então `0,16` dispara exatamente como `3,00`. **O projeto já tem o mecanismo:** o `conferir-equipamento.py` carrega dominâncias **aceitas e declaradas** desde a v0.47, as três da `Versátil`.
+>
+> ***Achado do Mizuki: "como assim Estocada tá incompleta? tá bão já uai."* Ele estava certo, e eu tinha escrito "precisa de conserto" para uma diferença de meio por cento.**
+
+### Em aberto
+
+- **O `Executor` é a única das três da Vanguarda que não fechou.** Ele soma `7,25` contra `5,00` — estoura em 45% —, e o problema maior nenhum preço pega: **três entregas brigam pela mesma ação bônus.** O nível 2 quer gastá-la em PV temporário, o nível 19 só dá vantagem se você gastou nela, e o nível 27 quer atacar com ela. *Do nível 27 em diante, atacar apaga as outras duas.*
+- **A `LISTA-gatilhos` precisa de uma quinta família:** gatilho que o jogador controla inteiramente. *Achado escrevendo o nível 19 da `Estocada`.*
+- **`PV temporário` tem conversão no manual e ninguém tinha visto:** a Forma `Apoio` diz *"cada ponto que sobra vira 3 de vida temporária"*. **É a régua que o `Executor` precisa**, e ela já existe.
+- **Os metros de cada arma de projétil**, com a âncora nomeada — `Projétil`, 18 m.
+- **Duas taxas de posição são previsão** — quantas rodadas na faixa longa e quantas colado. Juntas decidem `1,57` fatia do `Batedor`.
+- **A tabela de inimigo**: `+38,3%` e não `36%`, e ela fica parada até as Trilhas que faltam serem preçadas.
+- As de sempre: as vagas de Desliga, a Cicatriz, Energia Reversa, o clash, o nome do sistema, o refino que paga mal no marco.
+
+---
+
 ## [0.74] — 2026-08-15
 
 **O soco não tinha dado escrito em documento nenhum, e a Trilha inteira do Bastião estava preçada contra uma arma que ninguém estava segurando.** *Três conversões erradas caíram nesta versão, e duas delas vinham se cancelando havia versões.* Continuam dezesseis peças e dezesseis validadores; a peça 14 e a peça 1 ganharam uma checagem cada.
@@ -140,12 +184,6 @@ O manual põe `Toque` em **1,5 m** e `Projétil` em `18 m`. **Então a rodada de
 
 *Decisão do Mizuki: **"não tem problema metralhadora ser 4 e as outras serem 3, tem seus altos e baixos usarem cada arma."*** A Metralhadora Pesada leva `2,34` fatias contra `1,17` do Rifle de Precisão, e **o custo da recarga forçada devolve `0,45` só dela** — o espalhamento fecha em `1,6×`. *A arma de X alto paga em ritmo o que ganha na abertura.*
 
-### Registrado — a matriz acendeu uma dominância que ela mesma não sabe medir
-
-A rota `Arma de Fogo` sai com `4,74` de ação/alvo contra os `4,58` da `Estocada`, e as duas têm zero nas outras colunas. **Ela ganha em tudo que a matriz mede.**
-
-**O nível 2 da `Estocada` vale `0,00` em dano e entrega duas coisas sem coluna:** conjurar um feitiço de verdade e ainda bater, e trocar o atributo da arma. *É o caso do `Servo` na v0.63 outra vez — a dominância era real na matriz e o conserto foi uma coluna nova, não um número.*
-
 ### Removido — a varredura de lixo
 
 | o que | o que foi feito |
@@ -159,7 +197,6 @@ A rota `Arma de Fogo` sai com `4,74` de ação/alvo contra os `4,58` da `Estocad
 
 - **Os metros de cada arma de projétil.** A regra das duas faixas existe; os números não.
 - **Duas taxas de posição são previsão:** quantas rodadas um atirador passa na faixa longa, e quantas passa colado. Juntas elas decidem `1,57` fatia do `Batedor`.
-- **A `Estocada` precisa de uma coluna que não seja ação/alvo**, ou de `0,20` a menos na rota `Arma de Fogo`.
 - **A tabela de inimigo**, agora com o número certo e o motivo de não aplicar ainda.
 - **O peso `60/30/10` dos grupos de dano** continua previsão sem dono — agora com validador guardando o rótulo, para ele não virar número fechado sozinho.
 - **Os três degraus do Caminho do Bastião nunca foram preçados contra as `3` fatias.** Com o `Absorver` em `1,60`, sobram `1,40` para o `Puxar Para Si` e o `Segurar`.
