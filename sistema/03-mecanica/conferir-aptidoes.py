@@ -645,6 +645,66 @@ else:
             print('  [x] o quinto formato de gate esta declarado na secao 5.')
 
 # --------------------------------------------------------------------------
+bloco('5.4. APTIDAO PROPRIA — a unica entrada escrita NA MESA')
+
+# Ela e a unica das catorze cujo conteudo nao esta no repositorio: o jogador e o
+# mestre escrevem. Entao o que tem de ser conferido nao e o efeito — e a CERCA.
+#
+# NADA DE VALOR ESCRITO AQUI: a escada de frequencia sai da secao 6.7 da peca 11,
+# que copiou do manual; o conferir-manual.py 4j vigia essa copia contra o .docx.
+_s67 = PECA11.split('## 6.7.')[1].split('\n## 7.')[0] if '## 6.7.' in PECA11 else ''
+if not _s67:
+    erro('a secao 6.7 (Aptidao Propria) sumiu da peca 11 — esta checagem parou de conferir')
+else:
+    # 5.4a — o teto de Classe Passiva. Ele e a trava inteira: 3 e permanente.
+    if not re.search(r'Classe Passiva 1 ou 2, nunca 3', _s67):
+        erro('a secao 6.7 parou de dizer `Classe Passiva 1 ou 2, nunca 3` — sem esse '
+             'teto a `Aptidao Propria` alcanca o permanente, e permanente e a unica '
+             'coisa que ela nunca pode ser')
+    else:
+        print('  [x] o teto e `Classe Passiva 1 ou 2, nunca 3`.')
+
+    # 5.4b — a escada de frequencia bate com os TRES degraus da secao 4
+    _s4b = PECA11.split('## 4. ')[1].split('\n## 5.')[0] if '## 4. ' in PECA11 else ''
+    _faixas = re.findall(r'\| \*\*(uma|metade|quase toda)\*\* \| (Leve|Média|Pesada) \| '
+                         r'\*\*Classe Passiva (\d)\*\*', _s67)
+    if len(_faixas) != 3:
+        erro(f'achei {len(_faixas)} faixa(s) na escada de frequencia da 6.7 e sao tres — '
+             f'a ponte entre a pergunta do manual e a escada da secao 4 se desfez')
+    else:
+        _esperado = [('uma', 'Leve', '1'), ('metade', 'Média', '2'), ('quase toda', 'Pesada', '3')]
+        if _faixas != _esperado:
+            erro(f'a escada de frequencia da 6.7 saiu {_faixas} e a ordem tem de ser '
+                 f'{_esperado} — condicional dispara pouco, reativo dispara em parte, '
+                 f'permanente dispara sempre')
+        else:
+            print('  [x] as tres faixas de frequencia caem nos tres degraus da secao 4.')
+        # e os tres degraus citados existem mesmo na escada da secao 4
+        for _n in ('1', '2', '3'):
+            if f'**{_n}**' not in _s4b:
+                erro(f'a 6.7 mapeia para a Classe Passiva {_n} e a escada da secao 4 nao '
+                     f'tem esse degrau — as duas deixaram de falar da mesma escada')
+
+    # 5.4c — os cinco requisitos. A cerca e o que sobra quando o conteudo e da mesa.
+    _req = re.findall(r'^\d\. \*\*(.+?)\*\*', _s67, re.M)
+    if len(_req) != 5:
+        erro(f'a secao 6.7 lista {len(_req)} requisito(s) para a `Aptidao Propria` e sao '
+             f'cinco — a cerca e a unica coisa que um segundo mestre tem para ler')
+    else:
+        print(f'  [x] os cinco requisitos estao escritos: {", ".join(_req)}.')
+
+    # 5.4d — o desempate tem de reprovar, e nao aprovar
+    if 'na dúvida, Pesada' not in _s67.lower().replace('na dúvida, pesada', 'na dúvida, Pesada'):
+        if 'dúvida' not in _s67:
+            erro('a secao 6.7 nao diz o que fazer na duvida — e o desempate e o unico '
+                 'lugar do sistema em que "nao sei" precisa ter resposta escrita')
+    if 'dúvida reprova' not in _s67:
+        erro('a secao 6.7 parou de dizer que a duvida REPROVA a proposta — se o '
+             'desempate aprovar, sete mesas aprovam sete coisas')
+    else:
+        print('  [x] na duvida a proposta e recusada, e nao aceita.')
+
+# --------------------------------------------------------------------------
 bloco('6. O TETO DE PASSIVAS — a gratis traz a propria vaga')
 TETO_BASE = 5
 print(f"  {'escolhas de Leque':<20}{'teto':<8}{'gratis':<9}{'pagas que sobram'}")
@@ -906,9 +966,10 @@ else:
             erro(f'`{_nome}`: o titulo da secao pede {sorted(_falta)} e a linha do '
                  f'catalogo diz "{_cel[:50]}" — as duas copias do gate divergiram')
             _divs += 1
-    if _pares < 13:
-        erro(f'so {_pares} entrada(s) do catalogo tem secao para comparar, e eram 13 — '
-             f'alguem mudou o formato do titulo e esta checagem esta conferindo menos')
+    if _pares < 14:
+        erro(f'so {_pares} entrada(s) do catalogo tem secao para comparar, e eram 14 — '
+             f'alguem mudou o formato do titulo e esta checagem esta conferindo menos. '
+             f'As catorze entradas do catalogo fecharam na v0.92')
     elif not _divs:
         print(f'  [x] as {_pares} entradas com secao repetem o gate dela no catalogo.')
 

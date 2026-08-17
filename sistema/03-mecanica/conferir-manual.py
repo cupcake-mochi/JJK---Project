@@ -854,6 +854,54 @@ else:
 
 
 # --------------------------------------------------------------------------
+# 4j. A ESCADA DE FREQUENCIA DO EFEITO PROPRIO, que a peca 11 SS6.7 copiou
+#
+# Escrita na v0.92. A peca 11 listou "falta a regua do Efeito Proprio" por sessenta
+# versoes, e o manual publica ela numa tabela: "Em quantas cenas por arco isso vai
+# importar? Uma cena: Leve. Metade: Media. Quase toda: Pesada. Na duvida, Pesada."
+#
+# A peca 6.7 usa essa escada para dizer em que degrau de Classe Passiva uma
+# `Aptidao Propria` cai — entao ela virou a segunda copia das tres faixas.
+print()
+print('  4j. a escada de frequencia do `Efeito Proprio` contra a copia da peca 11')
+
+_freq = None
+for _t in _D.tables:
+    for _r in _t.rows:
+        _cel = ' | '.join(c.text.strip() for c in _r.cells)
+        if 'Em quantas cenas por arco' in _cel:
+            _freq = _cel
+if _freq is None:
+    erro('nao achei no .docx a pergunta do `Efeito Proprio` — a peca 11 SS6.7 preca a '
+         '`Aptidao Propria` contra ela e a escada ficou sem dono')
+else:
+    _tres = [(k, v) for k, v in (('Uma cena', 'Leve'), ('Metade', 'Média'),
+                                 ('Quase toda', 'Pesada'))
+             if f'{k}: {v}' in _freq]
+    if len(_tres) != 3:
+        erro(f'a escada do `Efeito Proprio` no .docx nao tem as tres faixas na ordem '
+             f'esperada — achei {len(_tres)}. A peca 11 SS6.7 mapeia as tres para os '
+             f'tres degraus de Classe Passiva, e o mapa quebrou')
+    elif 'Na dúvida, Pesada' not in _freq:
+        erro('o manual parou de dizer "Na duvida, Pesada" na escada do `Efeito '
+             'Proprio` — e o desempate e o que faz a peca 11 SS6.7 RECUSAR a proposta '
+             'em vez de aceitar')
+    else:
+        _p11f = os.path.join(AQUI, '11-aptidoes-e-refino.md')
+        with open(_p11f, encoding='utf-8') as _f:
+            _t11f = _f.read()
+        _copia = re.findall(r'\| \*\*(uma|metade|quase toda)\*\* \| (Leve|Média|Pesada) \|',
+                            _t11f)
+        _esp = [('uma', 'Leve'), ('metade', 'Média'), ('quase toda', 'Pesada')]
+        if _copia != _esp:
+            erro(f'a peca 11 SS6.7 copiou a escada do `Efeito Proprio` como {_copia} e o '
+                 f'manual diz {_esp} — as duas copias divergiram')
+        else:
+            print('    [x] as tres faixas batem: uma/Leve, metade/Media, quase toda/Pesada.')
+            print('    [x] o desempate "Na duvida, Pesada" continua nos dois.')
+
+
+# --------------------------------------------------------------------------
 print()
 print('=' * 88)
 if FALHAS:

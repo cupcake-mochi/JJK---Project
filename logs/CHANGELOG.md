@@ -6,6 +6,96 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.92] — 2026-08-17
+
+**O catálogo de aptidões fechou de verdade: as catorze entradas têm regra escrita.** *A `Aptidão Própria` era a última, e ela estava listada como "falta a régua" desde a v0.3.* **A régua nunca precisou ser escrita — ela é do manual, está numa tabela, e ninguém tinha aberto.** Continuam dezessete peças e dezessete validadores.
+
+### ⚠⚠ Achado — a régua do `Efeito Próprio` existe, publicada, e a peça 11 passou sessenta versões dizendo que faltava
+
+> **`Efeito Próprio · Passiva Própria` — *Em quantas cenas por arco isso vai importar?*** *Uma cena: **Leve**. Metade: **Média**. Quase toda: **Pesada**. **Na dúvida, Pesada.***
+
+**Ela está na tabela de Melhorias do manual, com as três faixas e o critério de desempate incluído.**
+
+**É o terceiro exemplar do mesmo defeito em doze versões:** *o Classe 0 na v0.80 — tabela própria no manual que nenhum documento abria; a ação `Mirar` na v0.86 — treze menções concedendo e nenhuma definindo; e agora esta.* **O projeto procurando um número que já tinha dono.**
+
+### Adicionado — e as três faixas caem nos três degraus da escada de Classe Passiva
+
+| em quantas cenas por arco | o manual cobra | e a escada da peça 11 §4 diz |
+|---|---|---|
+| **uma** | Leve | **Classe Passiva 1** — pequeno, condicional, ou de informação |
+| **metade** | Média | **Classe Passiva 2** — reativo, com limite por cena ou por descanso |
+| **quase toda** | Pesada | **Classe Passiva 3** — permanente. Muda como você joga |
+
+**A escada da peça mede FORMA; a do manual mede FREQUÊNCIA. E as duas caem nos mesmos três degraus.** *Não é coincidência: condicional dispara pouco, reativo com limite dispara em parte, permanente dispara sempre.* **É a mesma escada vista pelos dois lados** — e é por isso que a §4 pôde dizer *"ela não mede quanto, mede o quê"* sem deixar a aptidão sem preço.
+
+> ***E a trava que já estava escrita ganhou número:*** *`Classe Passiva 1 ou 2, nunca 3`* **quer dizer que uma `Aptidão Própria` importa em NO MÁXIMO metade das cenas de um arco.**
+
+### Adicionado — os cinco requisitos, e o que a ficha carrega
+
+**São o molde da `Regra Própria` do manual, com um trocado.**
+
+1. **Uma frase.**
+2. **Verificável** — a mesa aponta o momento em que ela disparou.
+3. **Não é atalho** — não repete uma das treze do catálogo com outro nome, nem entrega uma que o seu gate ainda não alcança.
+4. **Sem dado de dano** — a cerca da peça 5 §4 vale inteira.
+5. **Com limite por cena**, se for Classe Passiva 2.
+
+> **O requisito que NÃO veio é a simetria.** *A `Regra Própria` exige "vale contra você nas mesmas condições" porque ela **impõe uma regra ao mundo**, e regra que só pega os outros é a definição de abuso.* **Uma `Aptidão Própria` não impõe regra a ninguém: ela muda o que VOCÊ faz.** *Exigir simetria mataria metade das propostas legítimas por um motivo que não se aplica.*
+>
+> **No lugar entrou o nº 3, e ele guarda o risco desta camada: a `Aptidão Própria` virar a porta dos fundos do catálogo.** *Sem ele, um jogador escreve a `Energia Reversa` com outro nome e pula o gate de refino 7.*
+
+**E o que faz ela sobreviver a sete mesas é uma linha só: a ficha carrega a RESPOSTA da pergunta de frequência, e não só o texto.** *Um segundo mestre lê "metade das cenas" e sabe o degrau. Lendo só a frase, ele reconstrói a intenção — e sete mestres reconstroem sete intenções.*
+
+**O desempate é o do manual, com o sinal a favor da mesa: na dúvida, Pesada.** *Aqui isso quer dizer Classe Passiva 3, e a `Aptidão Própria` não alcança a 3.* **Então a dúvida REPROVA a proposta.** *É o único lugar do sistema em que "não sei" tem resposta escrita, e ela é "não".*
+
+### E o exemplo que mais ensina é o que foi recusado
+
+| proposta | em quantas cenas | degrau | veredito |
+|---|---|---|---|
+| *"você sabe se um objeto foi tocado por energia amaldiçoada nas últimas 24 horas"* | uma por arco | Classe Passiva 1 | passa |
+| *"1× por cena, um aliado a até 9 m rerrola um Teste de Resistência falhado"* | metade | Classe Passiva 2 | passa |
+| **"o seu deslocamento é `+3 m`"** | quase toda | **Classe Passiva 3** | **recusada** |
+
+**`+3 m` sempre vale `0,35` fatia na tabela da peça 5 §4 — é barato, e mesmo assim está fora.** *A trava não é de tamanho: é de forma.* **Uma coisa que está sempre ligada é Classe Passiva 3, e ponto.**
+
+### Adicionado — a checagem 5.4, a 4j do `conferir-manual.py`, e a guarda subiu para catorze
+
+**A 5.4 é diferente das outras porque o conteúdo desta entrada não está no repositório:** ele é escrito na mesa. *Então o que ela confere não é o efeito — é a **cerca**.* **O teto de Classe Passiva, as três faixas na ordem certa, os cinco requisitos, e que a dúvida recusa em vez de aceitar.**
+
+**A 4j fecha a cópia:** as três faixas da peça 11 contra a tabela do `.docx`, com o *"Na dúvida, Pesada"* conferido nos dois lados.
+
+**E a guarda de contagem da checagem de gate subiu de treze para catorze** — as catorze entradas do catálogo agora têm seção própria, e a comparação título-contra-catálogo cobre todas.
+
+### ⚠ E a checagem do `por cena` da peça 10 acusou na primeira edição, pela segunda vez
+
+**Escrever a `Aptidão Própria` acrescentou três usos de `por cena` na pasta**, e a peça 10 publicava `93`. *A checagem reconta da pasta e falhou na hora.* **De `93` para `96`** — *a v0.83 tinha feito o mesmo caminho, de `91` para `93`, com o `Ler o Ambiente`.* **Lição nº 1 fazendo o trabalho dela duas vezes.**
+
+### As sete perturbações, em cópia isolada
+
+| perturbação | esperado | deu |
+|---|---|---|
+| **o teto de Classe Passiva some da 6.7** | acende | acende |
+| **a dúvida passa a APROVAR em vez de recusar** | acende | acende |
+| a escada de frequência inverte duas faixas | acende | acende |
+| **a cópia da escada diverge do manual** | acende | acende |
+| um dos cinco requisitos some | acende | acende |
+| **contra-teste:** reescrever um requisito sem mudar a contagem | verde | verde |
+| **contra-teste:** um exemplo a mais na tabela dos três | verde | verde |
+
+### Em aberto
+
+- **O catálogo de aptidões não deve mais nada.** *As catorze têm regra, gate e validador.*
+- **⚠ E sobra uma inconsistência de vocabulário que esta versão viu e não consertou:** *as quatro anti-domínio da §6.5 escrevem `Classe 1`, `Classe 2` e `Classe 3` soltos, e a §4 desta mesma peça diz **"sempre com as duas palavras, e nunca `Classe` solta"**.* **A `Energia Reversa` e a `Aptidão Própria` escrevem `Classe Passiva`.** *São oito lugares, e é conserto de texto e não de número.*
+- **Duas entregas têm nome em minúscula** — o `carregar` do `Yumi` e o `acelerar` da `Torrente`.
+- **A peça de dano e condições não existe, e 18 lugares em 8 documentos esperam por ela.** *É a maior dívida estrutural do projeto: a Cicatriz, a lista de condições com nível, o clash e as vagas de `Desliga` moram todos nela.*
+- **As três Trilhas do Evocador continuam paradas**, e o `Servo` continua dominado pelas duas irmãs por falta de eixo.
+- **Cobertura não existe como regra**, e os metros de cada arma de projétil também não.
+- **A terceira taxa sem medida do `Batedor`** — *em quantas rodadas o atirador fica parado* —, e ela não é conta: é pergunta de mesa.
+- **O que falta para alguém jogar não é regra, é material:** o **quick-start**, a **tabela de progressão consolidada** e o **playtest**. *`04-playtest/` continua vazia, e todo número do sistema é previsão.*
+- As de sempre: o `.pdf` do manual na v7.4 contra a v7.8 do `.docx`, e o **nome do sistema**.
+
+---
+
 ## [0.91] — 2026-08-17
 
 **O catálogo de aptidões fechou.** *A `Barreira Simples` e a `Cortina` eram as duas últimas entradas sem número, e estavam assim desde a v0.3.* **As doze que custam marco agora têm regra escrita, e a rota pura de Refino ganhou duas de folga em vez de fechar no talo.** Continuam dezessete peças e dezessete validadores.

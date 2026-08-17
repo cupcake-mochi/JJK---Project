@@ -535,17 +535,73 @@ As outras duas quebram nas pontas: com `2 ×` você se defende uma vez e acabou 
 
 > **O tamanho dela não tem metro, e isso é decisão e não descuido.** *Ela é a única coisa do sistema cujo tamanho **nunca entra numa rolagem**: dois mestres discordarem se ela pega um quarteirão ou dois não muda número nenhum, porque nada dentro dela se mede em metros.* **Está escrito aqui justamente para ninguém tentar usá-la como medida de combate** — quem quiser fechar uma distância com energia usa a `Barreira Simples`, que tem raio.
 
-## 7. A que falta, e por que
+## 6.7. Aptidão Própria — e a régua dela já existia, no manual
+
+*Escrita na v0.92, e ela fecha o catálogo.* **Esta peça listou "falta a régua do `Efeito Próprio`" por sessenta versões, e a régua está escrita no manual, numa tabela, com o critério de desempate incluído.**
+
+> **`Efeito Próprio · Passiva Própria` — *Em quantas cenas por arco isso vai importar?*** *Uma cena: **Leve**. Metade: **Média**. Quase toda: **Pesada**. **Na dúvida, Pesada.***
+
+**E as três respostas caem exatamente nos três degraus da escada de Classe Passiva da seção 4.**
+
+| em quantas cenas por arco | o manual cobra | e a escada desta peça diz |
+|---|---|---|
+| **uma** | Leve | **Classe Passiva 1** — pequeno, condicional, ou de informação |
+| **metade** | Média | **Classe Passiva 2** — reativo, com limite por cena ou por descanso |
+| **quase toda** | Pesada | **Classe Passiva 3** — permanente. Muda como você joga |
+
+**A escada desta peça mede FORMA; a do manual mede FREQUÊNCIA. E as duas caem nos mesmos três degraus.** *Não é coincidência: condicional dispara pouco, reativo com limite dispara em parte, permanente dispara sempre.* **É a mesma escada vista pelos dois lados**, e é por isso que a seção 4 pôde dizer *"ela não mede quanto — mede o quê"* sem que isso deixasse a aptidão sem preço.
+
+> ***E aí a trava que já estava escrita ganha número:*** *`Classe Passiva 1 ou 2, nunca 3`* **quer dizer que uma `Aptidão Própria` importa em NO MÁXIMO metade das cenas de um arco.** *Se a proposta importar em quase toda cena, ela é Classe Passiva 3, e Classe Passiva 3 está fora — não por ser forte, mas por ser permanente.*
+
+### Aptidão Própria · Classe Passiva 1 ou 2, uma vez na ficha
+
+> **Classe Passiva 1 ou 2, e uma vez na ficha inteira.**
+>
+> **Você escreve, com o mestre, uma aptidão que não está no catálogo.** *Antes da sessão, e nunca no meio dela.*
+>
+> **A ficha registra duas coisas: a frase, e a resposta de *"em quantas cenas por arco isso vai importar?"***
+
+**Os cinco requisitos são o molde da `Regra Própria` do manual, com um trocado — e o trocado está explicado abaixo.**
+
+1. **Uma frase.**
+2. **Verificável** — a mesa aponta o momento em que ela disparou.
+3. **Não é atalho** — ela não repete uma das treze entradas do catálogo com outro nome, e não entrega uma que o seu gate ainda não alcança.
+4. **Sem dado de dano** — a cerca da peça 5 §4 vale aqui inteira.
+5. **Com limite por cena**, se ela for Classe Passiva 2.
+
+> **O requisito que NÃO veio é a simetria.** *A `Regra Própria` do manual exige *"vale contra você nas mesmas condições"* porque ela **impõe uma regra ao mundo** — e uma regra que só pega os outros é a definição de abuso.* **Uma `Aptidão Própria` não impõe regra a ninguém: ela muda o que VOCÊ faz.** *Exigir simetria dela mataria metade das propostas legítimas por um motivo que não se aplica.*
+>
+> **No lugar entrou o nº 3**, e ele guarda o risco que é desta camada e não daquela: ***a `Aptidão Própria` virar a porta dos fundos do catálogo.*** *Sem ele, um jogador escreve a `Energia Reversa` com outro nome e pula o gate de refino 7.*
+
+### O que a mesa lê, e por que isso é o que faz ela funcionar em sete mesas
+
+**A ficha carrega a RESPOSTA da pergunta de frequência, e não só o texto.** *Um segundo mestre lê "metade das cenas" e sabe o degrau; lendo só a frase, ele reconstrói a intenção — e sete mestres reconstroem sete intenções.*
+
+**E o desempate é o do manual, com o sinal a favor da mesa: na dúvida, Pesada.** *Aqui isso quer dizer **Classe Passiva 3**, e Classe Passiva 3 está fora do que a `Aptidão Própria` alcança.* **Então dúvida reprova a proposta.** *É o único lugar do sistema em que "não sei" tem resposta escrita, e ela é "não".*
+
+### Três exemplos, e um deles é recusado
+
+| proposta | em quantas cenas | degrau | veredito |
+|---|---|---|---|
+| *"você sabe se um objeto foi tocado por energia amaldiçoada nas últimas 24 horas"* | uma por arco | Classe Passiva 1 | **passa** |
+| *"uma vez por cena, quando um aliado a até 9 m falha um Teste de Resistência, ele rerrola"* | metade | Classe Passiva 2 | **passa** |
+| *"o seu deslocamento é `+3 m`"* | quase toda | **Classe Passiva 3** | **recusada** — permanente |
+
+*A terceira é o exemplo mais útil das três, porque ela é pequena.* **`+3 m` sempre vale `0,35` fatia na tabela da peça 5 §4 — é barato, e mesmo assim está fora.** *A trava não é de tamanho: é de forma.* **Uma coisa que está sempre ligada é Classe Passiva 3, e a `Aptidão Própria` não alcança a 3.**
+
+> **A aptidão não custa espaço de feitiço, e a `Passiva Própria` do manual custa.** *São duas economias, e a seção 4 já dizia isso.* **Quem quiser a mesma ficção com Classe Passiva 3 tem a `Passiva Própria` do lado do manual, pagando em espaço.** *A porta existe; ela só não é esta.*
+
+## 7. O que faltava, e por que já não falta
+
+
 
 *As quatro anti-domínio saíram desta seção na v0.29 e estão na seção 6.5. **A `Energia Reversa` saiu na v0.78** e está na seção 6, medida contra a `Recomposição`.* **E a `Barreira Simples` e a `Cortina` saíram na v0.91** — estão na seção 6.6, com o relógio de um minuto que tira as duas do combate.
 
-**Sobra uma, e ela falta por régua e não por número:**
+~~**Sobra uma, e ela falta por régua e não por número: a `Aptidão Própria`.**~~ **FECHADA na v0.92, e a régua nunca precisou ser escrita — ela é do manual.** *Está na seção 6.7.*
 
-| aptidão | o que ela é | contra o que precisa ser medida |
-|---|---|---|
-| **Aptidão Própria** | qualquer outra coisa, uma vez na ficha inteira | a régua do **Efeito Próprio**: *em quantas cenas por arco isso importa?* |
+> **Esta linha ficou em pé por sessenta versões dizendo que faltava a régua do `Efeito Próprio`, e o manual publica ela numa tabela**, com as três faixas de frequência e o critério de desempate. *Ninguém tinha aberto.* **É o terceiro exemplar do mesmo defeito em doze versões** — o Classe 0 da v0.80 e a ação `Mirar` da v0.86 são os outros dois: **o projeto procurando um número que já tinha dono.**
 
-**A Aptidão Própria tem duas travas escritas.** Ela é **Classe 1 ou 2, nunca 3** — permanente é caro demais para sair de aprovação —, e **só pode ser pega uma vez na ficha inteira**, no mesmo molde do Legado. Ela é a energia densa do Hakari e o Punho Divergente do Itadori: a coisa que um feiticeiro construiu sozinho, que não é técnica e não está no catálogo.
+**A `Aptidão Própria` é a energia densa do Hakari e o Punho Divergente do Itadori:** a coisa que um feiticeiro construiu sozinho, que não é técnica e não está no catálogo. **`Classe Passiva 1 ou 2, nunca 3`, e uma vez na ficha inteira**, no mesmo molde do Legado.
 
 ## 8. O Limiar
 
@@ -699,7 +755,7 @@ E os dois **correm em sentidos opostos**: a vantagem é auto-regulada e dá pouc
 | 11 | **Kokusen** | — | a chance no d100, `2 ×` |
 | 12 | **Kokusen Melhorado** | refino 5, nível 14 | vantagem no d100 |
 | 13 | **Kokusen Constante** | refino 5 | a chance, `3 ×` |
-| 14 | **Aptidão Própria** | Classe 1 ou 2, **uma vez na ficha** | conforme o que for escrito |
+| 14 | **Aptidão Própria** | Classe Passiva 1 ou 2, **uma vez na ficha** | conforme o que for escrito |
 
 **Todas custam um marco. Nenhuma custa espaço de feitiço** — essa é a moeda das Passivas e da Expansão de Domínio, que ficam do lado do manual.
 

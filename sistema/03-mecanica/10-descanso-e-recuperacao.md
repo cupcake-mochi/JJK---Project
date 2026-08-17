@@ -170,7 +170,7 @@ O manual usa **"uma vez por cena"**, **"uma vez por descanso"** e **"uma vez por
 
 ### O que conta como uma cena
 
-*Recontado na v0.83: eram 91 e viraram 93, e os dois novos são o `Ler o Ambiente` da peça 3 §3.1 — a checagem recontou da pasta e acusou o total velho na primeira edição, que é exatamente o trabalho dela.* *Escrito na v0.62. A escada estava aqui desde a v0.23 e o degrau mais usado dela nunca tinha sido definido — **93 usos de `por cena` nas outras peças de `03-mecanica`, dos quais 71 no catálogo de Legados**, e nenhum documento dizendo o que a palavra quer dizer.*
+*Recontado na v0.92: eram 93 e viraram 96, e os três novos são a `Aptidão Própria` da peça 11 §6.7 — a checagem recontou da pasta e acusou o total velho na primeira edição, pela segunda vez, que é exatamente o trabalho dela.* *A v0.83 tinha feito o mesmo caminho, de 91 para 93, com o `Ler o Ambiente` da peça 3 §3.1.* *Escrito na v0.62. A escada estava aqui desde a v0.23 e o degrau mais usado dela nunca tinha sido definido — **96 usos de `por cena` nas outras peças de `03-mecanica`, dos quais 71 no catálogo de Legados**, e nenhum documento dizendo o que a palavra quer dizer.*
 
 > *Os dois números acima são recontados pelo `conferir-descanso.py` toda vez que ele roda, e ele falha se esta linha divergir da pasta.* **Esta peça fica de fora da própria contagem**, e não é detalhe: ela é a dona do relógio, então a prosa dela sobre `por cena` não é um uso — e o total oscilaria a cada edição desta seção.
 >

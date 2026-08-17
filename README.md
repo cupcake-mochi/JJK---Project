@@ -2,7 +2,7 @@
 
 Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.91** · manual do Fundamento na **v7.8** · **dezessete peças de regra** e **dezessete validadores passando**.
+**Versão v0.92** · manual do Fundamento na **v7.8** · **dezessete peças de regra** e **dezessete validadores passando**.
 
 ---
 
