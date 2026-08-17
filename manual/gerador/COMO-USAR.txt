@@ -33,6 +33,10 @@ ORDEM DAS SEÇÕES (v7)
   Apêndice
 
 O QUE MUDOU NA v7.8
+  - O PDF FOI EXPORTADO, e pela primeira vez ele nao esta atrasado. Ate a v0.92 do
+    projeto ele vinha do Word, a mao, e vivia sete versoes atras do .docx. Agora sai
+    de "soffice --headless --convert-to pdf". Conferido: 44 paginas nos dois, capa
+    dizendo 7.8, e os termos do manual todos presentes no texto extraido.
   - CAIXA NOVA embaixo da tabela de PE (partA.js): a coluna "quantas vezes voce
     lanca o seu melhor feitico" e um TETO, e nao um orcamento de dia.
     Ela sempre esteve aritmeticamente certa (PE total / custo). O que faltava era

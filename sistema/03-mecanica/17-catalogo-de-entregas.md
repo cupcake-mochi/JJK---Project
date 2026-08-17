@@ -51,7 +51,7 @@ Todas moram em **`DESENHO-trilhas.md`**, na seção mecânica da Trilha.
 | Trilha | 2 | 11 | 19 | 27 |
 |---|---|---|---|---|
 | **`Estocada`** | `Compasso` | `Traçado` | `Bote` | `Ferrão` |
-| **`Batedor` · `Yumi`** | `carregar` | `Mirar` | `Pique` | `Dobro` |
+| **`Batedor` · `Yumi`** | `Disparo Carregado` | `Mirar` | `Pique` | `Dobro` |
 | **`Batedor` · `Besta`** | `Manivela` | `Mirar` | `Repuxo` | `Dobro` |
 | **`Batedor` · `Arma de Fogo`** | `Ferrolho` | `Mirar` | `Descarga` | `Dobro` |
 | **`Executor`** | `Pegada` | `Aprumo` | `Revide` | `Retomada` |
@@ -74,7 +74,7 @@ Todas moram em **`DESENHO-trilhas.md`**, na seção mecânica da Trilha.
 
 | Trilha | 2 | 11 | 19 | 27 |
 |---|---|---|---|---|
-| **`Torrente`** | `acelerar` | `Vazão` | `Cheia` | `Transbordo` |
+| **`Torrente`** | `Acelerar` | `Vazão` | `Cheia` | `Transbordo` |
 | **`Explosivo`** | `Pavio` | `Estopim` | `Rompante` | `Ápice` |
 | **`Arremate`** | `Empunhadura` | `Rebote` | `Crosta` | **vaga** |
 
@@ -152,7 +152,7 @@ Nove checagens. **Nenhuma guarda valor:** os nomes saem das tabelas desta peça 
 - ~~**O `Mirar` não tem regra.**~~ **Escrito na v0.86**, e ele estoura o degrau em `4,25` fatias contra `0,80` — *decisão do Mizuki, com o estouro declarado no desenho, no molde do `Punho` e da `Brasa`.* **E o nome fica**, com a colisão declarada.
 - ~~**Faltam nomes de entrega.**~~ **As 21 vagas fecharam na v0.87.** *A única casa sem nome é a vaga do `Arremate`, e ela é de propósito.*
 - ~~**`Quick Draw` é o único nome em inglês do sistema.**~~ **Traduzido na v0.88: virou `Descarga`.** *Decisão do Mizuki entre quatro candidatos que passaram na triagem. **O sistema não tem mais nenhum nome em inglês.***
-- **Duas entregas têm nome em minúscula** — o `carregar` do `Yumi` e o `acelerar` da `Torrente` —, contra todas as outras capitalizadas. *Contam como nome; a inconsistência fica registrada.*
+- ~~**Duas entregas têm nome em minúscula.**~~ **Consertadas na v0.93.** *O `Acelerar` da `Torrente` só precisou da maiúscula. O do `Yumi` precisou de nome novo: `Carregar` sai **OCUPADO** na triagem — é Restrição no manual —, e por isso ele nasceu minúsculo. Virou `Disparo Carregado`.* **Nenhuma das 89 entradas tem mais nome em minúscula.**
 - **As três do Evocador ficam de fora enquanto estiverem paradas.** Quando voltarem, o total sai de `89` e a checagem 1 acusa até esta peça subir junto.
 - **A checagem 6 não alcança as Manhas**, porque elas não têm bloco separado. *Se elas ganharem texto de mesa próprio um dia, ela passa a valer lá também.*
 - **Esta peça não preça nada.** Se uma entrega estiver com o preço errado, quem acha é a matriz de dominância do desenho — não o índice.

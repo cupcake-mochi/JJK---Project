@@ -236,19 +236,19 @@ E o **Yuji** com o Punho Divergente é a mesma ideia num golpe só: o soco acert
 
 | nv | nome | a entrega | fatias |
 |---|---|---|---|
-| **2** | **`carregar`** | sem desvantagem na faixa longa · `+3 m` · o `carregar` · escalada | **1,53** |
+| **2** | **`Disparo Carregado`** | sem desvantagem na faixa longa · `+3 m` · o `Disparo Carregado` · escalada | **1,53** |
 | **11** | **`Mirar`** | a ação `Mirar`, e `+2` no acerto de longo alcance | **2,04** |
-| **19** | **`Pique`** | o `carregar` sobe para margem `−2` | 0,05 |
-| **27** | **`Dobro`** | o `Mirar` vale nos dois ataques, e o `carregar` vai a `−3` | **1,19** |
+| **19** | **`Pique`** | o `Disparo Carregado` sobe para margem `−2` | 0,05 |
+| **27** | **`Dobro`** | o `Mirar` vale nos dois ataques, e o `Disparo Carregado` vai a `−3` | **1,19** |
 
 > **Nível 2.** Você **não sofre desvantagem na faixa longa** de arma de projétil. O seu deslocamento sobe **`+3 m`** e conta como **deslocamento de escalada** — árvore, parede, o que a ficção permitir.
-> **`carregar`:** ação bônus. O seu próximo ataque com arco tem a **margem crítica reduzida em 1** (crítico em `19` ou `20`). *E você pode abdicar do seu ataque extra para somar o dado da arma ao ataque carregado, **sem o atributo** — perde dano e ganha chance de crítico.*
+> **`Disparo Carregado`:** ação bônus. O seu próximo ataque com arco tem a **margem crítica reduzida em 1** (crítico em `19` ou `20`). *E você pode abdicar do seu ataque extra para somar o dado da arma ao ataque carregado, **sem o atributo** — perde dano e ganha chance de crítico.*
 >
-> **Nível 11.** Você ganha a ação **`Mirar`**. **Uma mesma Ação Bônus sua faz o `Mirar` e o `carregar` juntos** — os dois custam aquele slot, e só o `Yumi` pode empilhar os dois. E os seus ataques com arma de longo alcance somam **`+2` no acerto**.
+> **Nível 11.** Você ganha a ação **`Mirar`**. **Uma mesma Ação Bônus sua faz o `Mirar` e o `Disparo Carregado` juntos** — os dois custam aquele slot, e só o `Yumi` pode empilhar os dois. E os seus ataques com arma de longo alcance somam **`+2` no acerto**.
 >
-> **Nível 19 — `Pique`.** O `carregar` passa a reduzir a margem em **2** — crítico em `18` a `20`.
+> **Nível 19 — `Pique`.** O `Disparo Carregado` passa a reduzir a margem em **2** — crítico em `18` a `20`.
 >
-> **Nível 27 — `Dobro`.** O `Mirar` passa a valer para o **ataque básico e o extra**, e o `carregar` reduz a margem em **3** — crítico em `17` a `20`.
+> **Nível 27 — `Dobro`.** O `Mirar` passa a valer para o **ataque básico e o extra**, e o `Disparo Carregado` reduz a margem em **3** — crítico em `17` a `20`.
 
 *O `abdicar do ataque extra` entra a **zero fatia**: ele perde `5,45` de dano bruto, e o crítico melhor não cobre a diferença. **É opção, não benefício** — e opção que não adiciona valor não ocupa orçamento.*
 
@@ -288,7 +288,7 @@ E o **Yuji** com o Punho Divergente é a mesma ideia num golpe só: o soco acert
 |---|---|---|---|
 | **na banda 4,50–5,00** | ✓ 4,82 | ✓ 4,52 | ✓ 4,74 |
 | **nível 2 permanente ou condicional** | ✓ | ✓ | ✓ |
-| **algo que o jogador decide usar** | ✓ o `carregar` e o `Mirar` | ✓ o `Mirar` | ✓ o `Mirar` e o `Descarga` |
+| **algo que o jogador decide usar** | ✓ o `Disparo Carregado` e o `Mirar` | ✓ o `Mirar` | ✓ o `Mirar` e o `Descarga` |
 | **as três dentro de 3,0× uma da outra** | ✓ `1,08×` | | |
 
 **Uma dominância apareceu contra uma irmã, e ela fica DECLARADA:** a rota `Arma de Fogo` sai com `4,74` de ação/alvo contra os `4,58` da `Estocada`, e as duas têm zero em todas as outras colunas — então ela ganha em tudo que a matriz mede.
@@ -1172,20 +1172,20 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 
 | degrau da Trilha | maior Classe | teto do outro feitiço | ganho no nv30 |
 |---|---|---|---|
-| **2** | 1 | **`0`** — só o `acelerar` | `0,00` |
+| **2** | 1 | **`0`** — só o `Acelerar` | `0,00` |
 | **11** | 3 | **`1`** | `8,50` |
 | **19** | 5 | **`2`** | `22,50` |
 | **27** | 7 | **`3`** | `35,50` |
 
-> **Os quatro degraus caem exatos em `0 · 1 · 2 · 3`, e ninguém escreveu tabela nenhuma.** *A regra é uma frase e ela produz a escada — e o nível 2 sai vazio, que é justamente onde o `acelerar` cabe.* **E o `Classe 3` só existe do nível 21 em diante**, porque é lá que a Classe 6 libera.
+> **Os quatro degraus caem exatos em `0 · 1 · 2 · 3`, e ninguém escreveu tabela nenhuma.** *A regra é uma frase e ela produz a escada — e o nível 2 sai vazio, que é justamente onde o `Acelerar` cabe.* **E o `Classe 3` só existe do nível 21 em diante**, porque é lá que a Classe 6 libera.
 
 **O relógio é `2×` por cena, e ele foi escolhido com a conta na mesa** — numa luta de `3,7` rodadas isso é uma taxa de `54%`, e o degrau do 27 cai de `6,99` para **`3,78` fatias**.
 
 > **O PE não podia ser o freio sozinho, e isso é medido.** Uma rodada de `Torrente` no nível 30 custa `30` de PE; uma luta inteira assim custa `111` de um pool de `180`. **Dentro da luta o pool não limita** — ele só morde na segunda luta do dia. *É o `nova problem` do hobby: recurso alimentado por tempo, sem pressão de tempo, é de graça na luta que importa.*
 
-**A sobretaxa do `acelerar` sai do manual e não de escolha:** o `Rápido` — *"custa Ação Bônus em vez de Ação Padrão"* — é uma Melhoria **Pesada**, e Pesada custa `Classe e meia`, arredondando para cima. **Cobrar isso em PE dá `11` a mais num Classe 7**, e aí a rodada custa `41` de PE: o pool cobre `4,4` rodadas de torrar no dia, contra as `7` que o relógio permitiria. *Os dois freios se encontram, e nenhum dos dois foi inventado.*
+**A sobretaxa do `Acelerar` sai do manual e não de escolha:** o `Rápido` — *"custa Ação Bônus em vez de Ação Padrão"* — é uma Melhoria **Pesada**, e Pesada custa `Classe e meia`, arredondando para cima. **Cobrar isso em PE dá `11` a mais num Classe 7**, e aí a rodada custa `41` de PE: o pool cobre `4,4` rodadas de torrar no dia, contra as `7` que o relógio permitiria. *Os dois freios se encontram, e nenhum dos dois foi inventado.*
 
-> **O vão que apareceu somando, e o que ele NÃO podia ser.** A escada sozinha dá `3,78` contra uma banda de `4,50` a `5,00`. **O `acelerar` do nível 2 não fecha, porque ele não SOMA com o teto** — é o mesmo turno e a mesma ação padrão: ou você usa a padrão liberada para bater (`+7,00`, que a `54%` dá `0,74` fatia), ou você lança o Classe 3 nela. *No nível 30 ninguém escolhe bater, então aquela metade vira letra morta.*
+> **O vão que apareceu somando, e o que ele NÃO podia ser.** A escada sozinha dá `3,78` contra uma banda de `4,50` a `5,00`. **O `Acelerar` do nível 2 não fecha, porque ele não SOMA com o teto** — é o mesmo turno e a mesma ação padrão: ou você usa a padrão liberada para bater (`+7,00`, que a `54%` dá `0,74` fatia), ou você lança o Classe 3 nela. *No nível 30 ninguém escolhe bater, então aquela metade vira letra morta.*
 >
 > **A primeira proposta era devolver PE ao torrar, e o Mizuki matou ela pela ficção:** *"por que o acelerar recupera energia se o intuito é gastar mais?"* **Ele tem razão e o defeito é de desenho, não de conta** — o número fechava a banda em `4,87` e dizia o contrário do que a Trilha é. *Fica registrado porque a conta estava certa e mesmo assim a peça estava errada.*
 
@@ -1206,14 +1206,14 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 
 | nv | nome | a entrega | forma | fatias | antes |
 |---|---|---|---|---|---|
-| **2** | **`acelerar`** | `2×` por cena. Teto do outro feitiço: `Classe 0` | botão | *(a base)* | — |
+| **2** | **`Acelerar`** | `2×` por cena. Teto do outro feitiço: `Classe 0` | botão | *(a base)* | — |
 | **11** | **`Vazão`** | o teto vira metade da sua maior Classe | permanente | **1,38** | *3,78* |
 | **19** | **`Cheia`** | rerrolar `1`, `2` e `3` nos dados de dano quando o feitiço for o único da rodada | permanente | **1,78** | *0,10* |
 | **27** | **`Transbordo`** | a metade arredonda para CIMA | permanente | **1,49** | 1,49 |
 
 > **⚠ O nível 19 se chamava `Mão Firme` e foi RENOMEADO na v0.87, por colisão viva.** *No manual, `Mão Firme` é uma **Passiva de custo `1`** — "você não perde concentração nem carga por dano de `10` ou menos" —, que não tem relação nenhuma com rerrolar dado de dano.* **Ninguém tinha conferido esse nome porque, até a v0.87, nenhuma varredura alcançava os `DESENHO-*.md`.** *Achado pelo `conferir-nomes.py` na primeira rodada depois de ele passar a ler o índice da peça 17.*
 
-> **Nível 2 — `acelerar`.** *`2×` por cena.* Você conjura um feitiço da sua **ação padrão como ação bônus**, pagando **`Classe e meia` de PE a mais**, arredondando para cima. *Num Classe 7 são `11` de PE — o preço que a coluna `Pesada` da tabela 81 dá.*
+> **Nível 2 — `Acelerar`.** *`2×` por cena.* Você conjura um feitiço da sua **ação padrão como ação bônus**, pagando **`Classe e meia` de PE a mais**, arredondando para cima. *Num Classe 7 são `11` de PE — o preço que a coluna `Pesada` da tabela 81 dá.*
 > Naquele turno, o outro feitiço que você lançar **não passa de `Classe 0`** — que é o que a regra de ouro nº 6 já diz.
 >
 > **Nível 11 — `Vazão`.** Aquele teto deixa de ser `Classe 0` e passa a ser **metade da sua maior Classe**, arredondando para baixo.
@@ -1237,7 +1237,7 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 
 ### O nível 19 velho morreu, e ele tinha virado incoerente
 
-*Ele era: "se o outro feitiço daquele turno for `Classe 0`, o `acelerar` não gasta carga".* **Ele premiava você por lançar um `Classe 0` — e um `Classe 0` agora causa `27`.** *O degrau existia porque o `Classe 0` parecia lixo; com ele valendo o mesmo que um `Classe 2` num alvo, o incentivo virou do avesso.*
+*Ele era: "se o outro feitiço daquele turno for `Classe 0`, o `Acelerar` não gasta carga".* **Ele premiava você por lançar um `Classe 0` — e um `Classe 0` agora causa `27`.** *O degrau existia porque o `Classe 0` parecia lixo; com ele valendo o mesmo que um `Classe 2` num alvo, o incentivo virou do avesso.*
 
 ### A `Cheia` — a ideia é do Mizuki, e o alvo dela mudou uma vez
 
@@ -1276,7 +1276,7 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 >
 > **A rodada de pico faz `148` de dano contra os `98` da base — `+50%` —, e ela acontece em `54%` das rodadas.** *E são DUAS ações, bônus e padrão, que é a contagem normal do conjurador: o `+18%` que a peça 6 §3.1 reprova é o mecanismo de **três** ações, e esta Trilha não usa ele.*
 
-> **Duas coisas ficam declaradas e não consertadas.** A Trilha **não passa** a trava *"nenhuma entrega depende de outra"* — o 11, o 19 e o 27 penduram todos no `acelerar` do nível 2. *É o desenho pedido, no mesmo molde do `Perímetro`.* **E o nível 2 dispara em `54%` das rodadas**, que é o limite baixo do *"permanente ou dispara muito"* que a trava do nível 2 exige.
+> **Duas coisas ficam declaradas e não consertadas.** A Trilha **não passa** a trava *"nenhuma entrega depende de outra"* — o 11, o 19 e o 27 penduram todos no `Acelerar` do nível 2. *É o desenho pedido, no mesmo molde do `Perímetro`.* **E o nível 2 dispara em `54%` das rodadas**, que é o limite baixo do *"permanente ou dispara muito"* que a trava do nível 2 exige.
 
 ---
 

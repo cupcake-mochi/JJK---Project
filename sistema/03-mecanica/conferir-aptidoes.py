@@ -984,6 +984,55 @@ else:
     else:
         print(f'  [x] ela saiu da lista das que faltam: restam {len(_faltantes)}.')
 
+
+# --------------------------------------------------------------------------
+# A CLASSE PASSIVA NUNCA VEM SOZINHA — a regra da secao 4, aplicada a peca inteira.
+#
+# LIMITE DE DESIGN, declarado aqui a parte da regra aplicada: quantas ocorrencias na
+# forma correta existiam quando esta checagem entrou. Se o numero CAIR, alguem
+# reescreveu as Passivas e a checagem passou a conferir menos em silencio.
+CLASSE_PASSIVA_MINIMO = 53
+
+print()
+print('=' * 90)
+print('A CLASSE PASSIVA NUNCA VEM SOZINHA — a secao 4 conferida contra a peca inteira')
+print('=' * 90)
+
+_ini, _fim = PECA11.find('## 4. '), PECA11.find('## 5. ')
+_S4 = set(PECA11[_ini:_fim].split('\n')) if _ini >= 0 else set()
+
+# a escada le-se da tabela da propria secao 4 — o valor mora la, nao aqui
+_degraus = sorted({int(d) for d in re.findall(r'^\|\s*\*\*([0-9])\*\*\s*\|',
+                                             PECA11[_ini:_fim], re.M)})
+if not _degraus:
+    erro('nao consegui ler os degraus da escada de Classe Passiva da tabela da secao 4 — '
+         'ela mudou de formato e esta checagem parou de conferir')
+else:
+    print(f'  a escada da secao 4 tem os degraus {_degraus}; fora deles, `Classe N` e feitico')
+    _soltas, _boas = [], 0
+    for _i, _l in enumerate(PECA11.split('\n'), 1):
+        for _m in re.finditer(r'Classe\s+([0-7])\b', _l):
+            if re.search(r'(Passivas?)\s*(de\s*)?$', _l[max(0, _m.start() - 30):_m.start()]):
+                _boas += 1
+                continue
+            if int(_m.group(1)) not in _degraus:
+                continue                      # Classe 0 e 4..7 nao existem como Passiva
+            if _l in _S4:
+                continue                      # a secao 4 e a que EXPLICA a ambiguidade
+            _soltas.append((_i, _l[max(0, _m.start() - 55):_m.end() + 30].strip()))
+    _boas += len(re.findall(r'Classe Passiva\s+([1-3])\b', PECA11))
+
+    for _i, _ctx in _soltas:
+        erro(f'peca 11 linha {_i}: `Classe` solta onde ela fala de Passiva, e a secao 4 '
+             f'exige as duas palavras -> ... {_ctx} ...')
+    print(f'  {_boas} ocorrencia(s) na forma correta, e {len(_soltas)} solta(s) fora da secao 4')
+    if _boas < CLASSE_PASSIVA_MINIMO:
+        erro(f'so {_boas} ocorrencia(s) na forma correta e o minimo declarado e '
+             f'{CLASSE_PASSIVA_MINIMO} — alguem reescreveu as Passivas e esta checagem '
+             f'passou a conferir menos do que conferia')
+    if not _soltas:
+        print('  [x] nenhuma Classe de Passiva aparece sem as duas palavras.')
+
 # --------------------------------------------------------------------------
 print()
 print('=' * 90)

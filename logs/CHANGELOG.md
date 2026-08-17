@@ -6,6 +6,86 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.93] — 2026-08-17
+
+**Três pendências pequenas fecharam, e uma delas era grande por dentro.** *As duas entregas em minúscula, o `Classe` solto da peça 11, e o `.pdf` do manual — que estava sete versões atrás do `.docx` desde a v7.4.* Continuam dezessete peças e dezessete validadores.
+
+### ⚠⚠ Achado — a minúscula do `carregar` não era descuido, era evasão
+
+**A triagem devolve `Carregar` como `OCUPADO`: é Restrição no manual.** *Alguém baixou a letra para fugir da colisão e ninguém escreveu por quê — então a pendência ficou catorze versões listada como *"inconsistência de capitalização"*, que é o sintoma.*
+
+**As duas entregas tinham causas diferentes e estavam contadas como uma coisa só.** *O `acelerar` não colide com nada — `Acelerar` sai `LIVRE` — e só precisava da maiúscula.*
+
+> **É o mesmo formato do defeito do `Efeito Próprio` na v0.92, virado do avesso.** *Lá o projeto procurava uma régua que já tinha dono; aqui ele descrevia um sintoma sem nunca ter perguntado a causa.* **Uma pendência escrita pelo que se vê não diz o que precisa ser feito.**
+
+### Decidido — `Disparo Carregado`, e o `Acelerar` só ganhou a maiúscula
+
+***Decisões do Mizuki.*** *Os dois passaram na triagem.*
+
+**As três rotas do `Batedor` nomeiam a peça do mecanismo** — `Manivela` na `Besta`, `Ferrolho` na `Arma de Fogo` —, e o `Yumi` era o único com verbo. *Foi oferecido `Corda`, que fecharia o paralelo; ele escolheu `Disparo Carregado`, que guarda a leitura antiga do nome.*
+
+**Duas coisas que a triagem não pega, declaradas:** `Carregado` fica a duas letras da Restrição `Carregar`, no molde do `Mirar` contra `Mira` que a v0.87 já aceitou; e é a **única entrega de Trilha de nível 2 com duas palavras**, contra catorze de uma só. *Nenhuma das duas bloqueia — ficam escritas para a próxima releitura não procurar defeito onde houve escolha.*
+
+**Vinte e um lugares trocados**, e as seis ocorrências em que `carregar` e `acelerar` são palavra comum do português ficaram intactas — *"deixam de carregar `Munição`"*, *"um número a menos para a mesa carregar"*.
+
+### ⚠ Corrigido — o `Classe` solto eram TREZE lugares, e a contagem publicada dizia oito
+
+**Os oito contados eram os quatro títulos das anti-domínio mais as quatro linhas da tabela de degraus.** *Escaparam cinco: a frase que diz "a única Classe 3", os dois da linha que explica o que impede a Classe 3 de comer as outras, a trava da `Aptidão Própria`, e a nota da v0.29.*
+
+> **É a lição da v0.90 outra vez: checagem escrita no braço para UM caso deixa os outros descobertos.** *Aqui nem chegou a virar checagem — virou contagem à mão de uma família de erros, e a família era maior que a amostra.*
+
+**E cinco ocorrências de `Classe N` solto SOBREVIVEM de propósito**, porque são Classe de feitiço: o `Classe 0` da linha do Projetar, o `Classe 7` do `Anteparo`, o `Classe 0` do achado da v0.80, e as duas da seção 4 — que é justamente a seção que existe para explicar a ambiguidade, e onde escrever solto é o exemplo.
+
+### Adicionado — duas checagens, e as duas leem o limite do documento
+
+**A 11ª do `conferir-catalogo.py`:** todo nome batizado do índice começa com maiúscula. *Ela varre as 89 entradas em vez das duas que estavam erradas, e a guarda de contagem compara os nomes extraídos com as células que a peça conta como tendo nome.* **Ela acusa se o extrator passar a ver menos, em vez de conferir menos calada.**
+
+**A do `conferir-aptidoes.py`:** a regra da seção 4 aplicada à peça inteira. *O detalhe que a faz funcionar sem lista de exceção escrita no braço: **a escada de Classe Passiva tem três degraus, e o validador lê quais da tabela da própria seção 4.*** **Então `Classe 0` e `Classe 4` a `7` passam livres por construção** — eles não existem como Passiva —, e só `1`, `2` e `3` precisam das duas palavras.
+
+> **O número que ela guarda é limite de design e está declarado à parte:** `53` ocorrências na forma correta hoje. *Se cair, alguém reescreveu as Passivas e a checagem passou a conferir menos.*
+
+### As oito perturbações, em cópia isolada
+
+| perturbação | esperado | deu |
+|---|---|---|
+| **uma entrega volta para minúscula** | acende | acende |
+| **contra-teste:** renomear mantendo a maiúscula | verde | verde |
+| **o extrator de nomes passa a ver menos** | acende | acende |
+| um título de anti-domínio volta a `Classe N` solto | acende | acende |
+| **a trava da `Aptidão Própria` volta a `Classe N` solto** | acende | acende |
+| **contra-teste:** um `Classe 0` novo fora da seção 4 | verde | verde |
+| **a tabela da escada da seção 4 muda de formato** | acende | acende |
+| a guarda de contagem: some metade das `Classe Passiva` | acende | acende |
+
+### Adicionado — o `.pdf` do manual, e ele parou de ser exportado a mão
+
+**Ele estava na v7.4 contra a v7.8 do `.docx`, atrás desde que a v7.5 renomeou a `Barreira`.** *A causa era o processo: exportação manual pelo Word, que ninguém lembrava de rodar.*
+
+**Sai de `soffice --headless --convert-to pdf`.** *Conferido: `44` páginas nos dois, a capa dizendo `Versão 7.8`, e os termos do manual todos presentes no texto extraído.* **É a única das pendências desta leva que não era texto — era um passo de processo que não tinha dono.**
+
+### ⚠ E o aviso do ponteiro pendurado das skills MORREU, medido
+
+**A v0.66 registrou que as quatro skills com pasta de apoio estavam instaladas só com o `SKILL.md`, apontando para arquivo que não existia.** *Medido de novo nesta versão: os seis arquivos estão lá, e batem byte por byte com os da pasta de trabalho.*
+
+**Corrigido nos dois documentos que carregavam o aviso.** *Aviso que parou de reproduzir é dívida — um procedimento com o motivo errado envelhece pior que um sem motivo nenhum.*
+
+### E a deriva das skills se separou por CAMADA, o que nenhuma versão anterior tinha visto
+
+**A instalada estava na frente só na descrição**, em seis das sete: uma frase de fronteira mandando mesa e lore para a `mizuki-copiloto-do-mestre`. **A pasta estava na frente só no corpo**, em quatro das sete.
+
+*Nenhum dos dois lados estava velho por inteiro — cada um era dono de uma metade do arquivo.* **A regra do merge saiu disso e é mecânica: corpo da pasta, descrição da instalada.** *As sete foram conferidas por script depois: o frontmatter parseia, só a linha de descrição mudou em relação à pasta, e nenhum cabeçalho da instalada sumiu.*
+
+### Em aberto
+
+- **A peça de dano e condições continua sendo a maior dívida** — *19 lugares em 7 documentos de conteúdo esperam por ela.* **Decisão do Mizuki nesta versão: ela pode sair SEM a mecânica de condição**, no molde do que o pacote de entrega já declara.
+- **As três Trilhas do Evocador ficam fora por decisão**, e não por falta de tempo.
+- **Cobertura não existe como regra** — *uma menção na pasta inteira* — e os **metros das onze armas de projétil** também não. *A régua deles já está escrita desde a v0.74: duas faixas mais o `colado`, com a Forma `Projétil` do manual como âncora em `18 m`. Falta o catálogo.*
+- **A terceira taxa sem medida do `Batedor`** — *em quantas rodadas o atirador fica parado.* **Não é conta, é pergunta de mesa.**
+- **O que falta para alguém jogar não é regra, é material:** o **quick-start**, a **tabela de progressão consolidada** e o **playtest**. *`04-playtest/` continua vazia.*
+- **O nome do sistema**, aberto desde a v0.1.
+
+---
+
 ## [0.92] — 2026-08-17
 
 **O catálogo de aptidões fechou de verdade: as catorze entradas têm regra escrita.** *A `Aptidão Própria` era a última, e ela estava listada como "falta a régua" desde a v0.3.* **A régua nunca precisou ser escrita — ela é do manual, está numa tabela, e ninguém tinha aberto.** Continuam dezessete peças e dezessete validadores.

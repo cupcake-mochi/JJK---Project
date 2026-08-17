@@ -38,11 +38,11 @@ Instaladas na conta e disponíveis em qualquer conversa, não só nesta pasta. *
 
 - **`gasto-de-modelo`** — fecha a resposta com uma linha dizendo se a tarefa pedia o modelo em que ela foi aberta
 
-A pasta `skills/` guarda o `SKILL.md` de cada uma mais os arquivos de apoio. **A versão instalada NÃO traz esse conteúdo embutido** — essa frase esteve aqui da v0.3 à v0.65 e a v0.66 mediu que é falsa: as quatro skills com pasta de apoio estão instaladas só com o `SKILL.md`, apontando para arquivos que não existem do lado de lá. Reinstalar sem as pastas recria o ponteiro pendurado. E mexer nos arquivos da pasta **não** altera a skill instalada. **As duas divergem sozinhas e nenhum validador alcança essa camada:** na v0.40, as cinco que estavam instaladas estavam todas atrás da pasta.
+A pasta `skills/` guarda o `SKILL.md` de cada uma mais os arquivos de apoio. ~~**A versão instalada não traz as pastas de apoio.**~~ **Morreu na v0.93: elas estão lá, e batem byte por byte com as daqui** — os seis arquivos das quatro skills com pasta. *Esse aviso nasceu na v0.66, valeu enquanto valeu, e foi conferido de novo antes de sair.* **O que continua verdade é a outra metade: reinstalar sem as pastas recria o ponteiro pendurado, então toda reinstalação leva elas junto.** E mexer nos arquivos da pasta **não** altera a skill instalada. **As duas divergem sozinhas e nenhum validador alcança essa camada:** na v0.40, as cinco que estavam instaladas estavam todas atrás da pasta.
 
 ## Versão atual
 
-**v0.92.** Fases 0 a 3 fechadas; a Fase 4 (mecânica) está em andamento com **dezessete peças escritas e dezessete validadores passando**. O manual do Fundamento está na **v7.8**, e ele é um subsistema fechado — a técnica e o feitiço já funcionam. O `.pdf` continua na v7.4, porque é exportado à mão.
+**v0.93.** Fases 0 a 3 fechadas; a Fase 4 (mecânica) está em andamento com **dezessete peças escritas e dezessete validadores passando**. O manual do Fundamento está na **v7.8**, e ele é um subsistema fechado — a técnica e o feitiço já funcionam. O `.pdf` **também está na v7.8** desde a v0.93 — ele deixou de ser exportado a mão.
 
 **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas**, por seis das nove rotas de Origem. Desde a v0.32 não sobrou peça de regra travando ninguém nessa faixa: das dezessete coisas que uma ficha de nível 2 precisa, **treze existem, e as quatro que faltam não mordem nessa faixa**. O que falta para as outras três rotas, e a ordem do resto, está no `ESTADO-ATUAL.md`.
 

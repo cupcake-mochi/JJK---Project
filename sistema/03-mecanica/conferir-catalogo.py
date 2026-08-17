@@ -467,6 +467,40 @@ if copias < COPIAS_ESPERADAS:
 if not [e for e in erros if e.startswith('[10]')]:
     print('  [x] toda copia viva bate com o dono, e o calendario aposentado nao sobrou.')
 
+
+# ================================================================ 11. CAPITALIZACAO
+print('\n' + '=' * 88)
+print('11. CAPITALIZACAO — todo nome batizado do indice comeca com maiuscula')
+print('=' * 88)
+
+_conf, _minusculos = 0, []
+for _c in TRILHAS_IDX + CAMINHOS_IDX:
+    _dono = desmarcar(_c[0])
+    for _cel in _c[1:]:
+        for _n in nomes_da_celula(_cel):
+            _n = _n.strip()
+            if not _n or not _n[0].isalpha():
+                continue
+            _conf += 1
+            if _n[0].islower():
+                _minusculos.append(f'{_dono} -> `{_n}`')
+for _n in MANHAS_IDX:
+    _n = _n.strip()
+    if _n and _n[0].isalpha():
+        _conf += 1
+        if _n[0].islower():
+            _minusculos.append(f'Manha -> `{_n}`')
+
+print(f'  {_conf} nome(s) batizado(s) em {com_nome} celula(s) com nome '
+      f'(uma celula de Caminho carrega duas entregas, por isso {_conf} > {com_nome})')
+for _m in _minusculos:
+    erro('11', f'nome de entrega em minuscula, e o indice capitaliza todos os outros: {_m}')
+if _conf < com_nome:
+    erro('11', f'so {_conf} nome(s) chegaram ao extrator e a peca conta {com_nome} com '
+               f'nome — a 11a esta conferindo menos do que existe, em vez de acusar')
+if not [e for e in erros if e.startswith('[11]')]:
+    print('  [x] nenhuma das entradas batizadas do indice tem nome em minuscula.')
+
 # ================================================================ veredito
 print('\n' + '=' * 88)
 if avisos:
