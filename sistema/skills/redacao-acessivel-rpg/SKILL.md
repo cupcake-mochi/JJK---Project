@@ -86,7 +86,7 @@ Escreva como quem explica para um amigo na mesa, não como quem redige contrato.
 - **Frase curta e afirmativa.** Uma ideia por frase. Ponto final é barato.
 - **Voz ativa.** "A restrição devolve pontos", não "pontos são devolvidos pela restrição".
 - **Concreto sempre que possível.** "Cada ponto vira 1d8" é melhor que "os pontos convertem-se proporcionalmente".
-- **Diga o porquê da regra em uma linha**, quando ele não for óbvio. "O limite é o que obriga a criatividade" faz o leitor aceitar a restrição em vez de tentar contorná-la.
+- **Diga o porquê da regra em uma linha**, quando ele não for óbvio — e só uma vez. "O limite é o que obriga a criatividade" faz o leitor aceitar a restrição em vez de tentar contorná-la. Depois de dita, a regra não precisa de reforço: se a tabela já mostra o preço, uma frase extra dizendo "por isso você pode confiar nela" não ensina nada novo, só enche.
 - **Títulos de seção são substantivos simples.** "Descrição", "Alcance", "Como montar". Não "Sobre a importância da descrição".
 
 ## Como não soar como texto de máquina
@@ -100,6 +100,9 @@ Material de RPG com cara de saída de chatbot perde credibilidade com o público
 - **Tricolon automático.** Três adjetivos onde um bastava. "Uma mecânica clara, elegante e funcional" diz menos que "uma mecânica que dois mestres arbitram igual".
 - **Fechamento resumindo o que acabou de ser dito.** O leitor acabou de ler. Termine no último conteúdo real.
 - **Elogiar o próprio material.** "Este sistema inovador e envolvente." Deixe o leitor concluir.
+- **Abertura de tese.** A seção começa com uma frase de princípio — "Neste sistema, ninguém morre por causa de um número" — em vez de começar pela regra. Nenhum livro de RPG de verdade abre uma regra com uma frase de propaganda; ele diz o que acontece. "Quando sua vida chega a 0, você fica Caído" já é a abertura. Se o princípio por trás importa, ele aparece **depois**, como consequência que o leitor acabou de sentir na regra — nunca como anúncio antes dela.
+- **Reforço emocional.** Frases que dizem ao leitor como se sentir em vez de dizer mais regra — "é para você confiar nisso", "não precisa temer essa parte". Se a mecânica já entrega a confiança (preço fixo, tabela clara), a frase de reforço não ensina nada: ela só imita o tom de quem está tentando convencer, que é o tom que nenhum manual profissional usa.
+- **Vizinho reexplicando o dono.** Um parágrafo perto de uma regra explica de novo o porquê ou o efeito de uma regra que já tem seção própria em outro lugar do material. Livro de RPG de verdade não reensina o que outro capítulo já ensinou — ele aponta ("veja Exaustão") e segue. Se você notar duas seções contando a mesma história por caminhos diferentes, uma delas é excesso: mantenha a explicação no lugar que é dono do assunto, e no vizinho deixe só a regra que ele precisa para funcionar.
 
 O teste rápido: **corte 20% das palavras de uma seção sem tirar informação.** Se der, o texto estava inflado. Se não der, estava bom.
 
@@ -112,7 +115,8 @@ Ordem de passagem. As três primeiras pegam a maior parte dos problemas.
 3. **Caça a exceção antes da regra.** Todo trecho que abre por condição.
 4. **Caça a conceito sem exemplo.**
 5. **Caça a parágrafo que devia ser tabela.** Mais de três casos paralelos em prosa.
-6. **Corte de 20%.**
+6. **Caça a abertura de tese e a reforço emocional.** Toda frase que anuncia um princípio antes da regra, e toda frase que diz ao leitor como se sentir em vez de dizer regra.
+7. **Corte de 20%.**
 
 Ao entregar a revisão, mostre **o antes e o depois** dos trechos que mudaram, e diga em uma linha o que cada mudança conserta. Revisão sem justificativa parece preferência de gosto e costuma ser rejeitada.
 

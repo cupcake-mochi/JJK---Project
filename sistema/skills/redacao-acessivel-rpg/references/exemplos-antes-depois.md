@@ -122,3 +122,25 @@ Note o padrão: colisão de termo raramente se resolve só trocando a palavra. Q
 > Cada ponto que você não gastar em mais nada vira 1d8 de dano.
 
 *Conserta:* voz ativa, segunda pessoa, número concreto no lugar da proporção abstrata, e onze palavras a menos.
+
+---
+
+## 8. Abertura de tese e reforço emocional
+
+**Antes**
+
+> Neste sistema, ninguém morre por causa de um número. Quando a sua vida chega a 0, o seu personagem fica Caído — e Caído não é o fim, é uma escolha que você faz na hora.
+>
+> [...]
+>
+> Você nunca levanta pior do que era. Nenhuma Sequela mexe nas suas rolagens: você não erra mais, não fica mais lento, não perde nada da ficha. É de propósito — a alternativa seria você cair, levantar pior, errar mais e cair de novo, e esse buraco não existe aqui.
+
+**Depois**
+
+> Quando a sua vida chega a 0, o seu personagem fica **Caído**. Escolha uma das duas, na hora:
+>
+> [...]
+>
+> Sequela encurta a janela da próxima queda. Ela não mexe em nenhuma rolagem.
+
+*Conserta:* a abertura trocou uma frase de princípio ("ninguém morre por causa de um número") pela regra em si — o leitor não precisa de propaganda antes do mecanismo, precisa do mecanismo. E o parágrafo final foi cortado de quatro linhas reafirmando "você pode confiar" para uma linha de regra: a tabela de Sequela, algumas seções acima, já mostrava que ela não toca rolagem — repetir isso em prosa reconfortante não ensinava nada novo, só imitava o tom de quem está convencendo em vez de informando. Nenhum livro de RPG publicado abre uma regra com uma tese nem fecha com um afago; ele diz a regra e para.
