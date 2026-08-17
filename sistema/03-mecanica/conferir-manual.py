@@ -669,13 +669,25 @@ else:
             _vao_ant = _vao
 
     # A frase morta, guardada POR LINHA e nao pelo arquivo inteiro.
-    # Linha de citacao (comeca com ">") e nota historica e pode conter a frase —
-    # o projeto guarda o erro em vez de apagar. Linha normal e afirmacao viva.
+    # Linha de citacao (">") e nota em italico ("*texto*") sao historia e podem
+    # conter a frase — o projeto guarda o erro em vez de apagar.
+    #
+    # v0.81: o teste de historia estava ERRADO e deixava passar linha viva.
+    # Ele aceitava qualquer linha comecando com "*", e "**negrito**" comeca com "*"
+    # — e negrito no comeco da linha e o estilo dominante da prosa deste projeto.
+    # Toda afirmacao viva em negrito era lida como nota historica.
+    # Agora: ">" e historia, "*" sozinho e historia, "**" e AFIRMACAO VIVA.
+    def _e_historica(_l):
+        _s = _l.lstrip()
+        if _s.startswith('>'):
+            return True
+        return _s.startswith('*') and not _s.startswith('**')
+
     _vivas, _historicas = [], 0
     for _n, _lin in enumerate(open(_p6, encoding='utf-8').read().splitlines(), 1):
         if 'feitiço + Classe 0' not in _lin:
             continue
-        if _lin.lstrip().startswith('>') or _lin.lstrip().startswith('*'):
+        if _e_historica(_lin):
             _historicas += 1
         else:
             _vivas.append(_n)
@@ -687,6 +699,33 @@ else:
     if not _vivas:
         print(f'    A frase morta nao aparece viva em nenhuma linha '
               f'({_historicas} em nota historica, que e onde ela deve ficar).')
+
+    # 4g. O NUMERO morto, e nao so a frase.
+    # A frase morta era "a Rotina ja e feitico + Classe 0". O numero que ela
+    # produzia era 4,50 de dano por Classe 0, e ele sobreviveu a v0.80 na SS5,
+    # onde argumentava o PE do Bastiao — sem a frase, so o numero.
+    # Guarda: nenhuma linha VIVA pode preçar um Classe 0 em 4,5 ou 4,50.
+    # O dono do dano de um Classe 0 e o manual, e a tabela dele esta acima.
+    _num, _num_hist = [], 0
+    for _n, _lin in enumerate(open(_p6, encoding='utf-8').read().splitlines(), 1):
+        if 'Classe 0' not in _lin:
+            continue
+        if not re.search(r'4,50?(?![0-9])', _lin):
+            continue
+        if _e_historica(_lin):
+            _num_hist += 1
+        else:
+            _num.append(_n)
+    print()
+    print('  4g. o NUMERO morto do Classe 0 (4,50), e nao so a frase morta')
+    for _n in _num:
+        erro(f'peca 6, linha {_n}: ela preca um Classe 0 em 4,50. Esse numero nao '
+             f'existe no manual — ele e o dano de UM d8, que e a regua de montar '
+             f'feitico. O dano de um Classe 0 tem tabela propria no manual, e a '
+             f'checagem 4f a le. Se for nota historica, ela vai num bloco de citacao')
+    if not _num:
+        print(f'    Nenhuma linha viva preca Classe 0 em 4,50 '
+              f'({_num_hist} em nota historica).')
 
 
 # --------------------------------------------------------------------------

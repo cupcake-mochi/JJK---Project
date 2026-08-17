@@ -273,7 +273,19 @@ Com teto de atributo em 6, qualquer divisor grande o bastante para não criar im
 
 **A base de 6 fica** porque o Fundamento tem uma tabela inteira de "quantas vezes você lança o seu melhor feitiço" calculada em cima dela. Baixar para 4 seria um corte de 33% que invalida aqueles números.
 
-**O Bastião fica com 4**, e a assimetria é justa: **o golpe simples dele rende ~10 e o Classe 0 do conjurador rende ~4,5**. Menos combustível, melhor motor de reserva — e ele é quem tem mais couro para aguentar enquanto o combustível não volta.
+**O Bastião fica com 4**, e a assimetria se paga pela soma da tabela da seção 1: ele é o único dos cinco com **11** de vida mais energia por nível, contra `10` dos outros quatro. **Ele troca combustível por couro, e sai um ponto na frente da troca** — é o que faz escolher Bastião ser sabor e não degrau de poder.
+
+> **O argumento que estava escrito aqui morreu na v0.81, e ele morreu invertido.** *Ele dizia: "o golpe simples dele rende ~10 e o Classe 0 do conjurador rende ~4,5 — menos combustível, melhor motor de reserva".* **O `~4,5` era o Classe 0 fantasma outra vez**, e desta vez ele sobreviveu à v0.80 porque a guarda daquela versão procurava a frase morta e não o número solto.
+>
+> **Com a tabela de dano do Classe 0 do manual na mão, o motor de reserva do conjurador é o MELHOR dos dois:**
+>
+> | nível | Classe 0 | golpe simples | quem rende mais |
+> |---|---|---|---|
+> | 2 | `2d8` = 9 | 9 | empate |
+> | 10 | `3d8` = 13,5 | 10 | Classe 0 |
+> | 30 | `6d8` = 27 | 12 | **Classe 0, em 2,25×** |
+>
+> *O `~10` batia com o golpe simples e o `~4,5` era o dano de um d8 — a régua de montar feitiço, não o dano de um Classe 0. A frase comparava uma linha certa contra uma errada.* **O número `4` não mudou; o que mudou é que ele parou de depender de um argumento que anda para trás.**
 
 ## 6. Múltiplos atributos por Caminho: passa, e já estava previsto
 

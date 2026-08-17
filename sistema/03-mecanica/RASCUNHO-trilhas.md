@@ -283,13 +283,48 @@ A Rotina cresce **8,31×** e o número de entregas cresce **8,00×**. Então uma
 
 > **O limite conhecido, escrito porque ele existe:** com oito fatias iguais, a Vanguarda fica **34% abaixo** do piso do escudo nos níveis 5 e 6 — **4 missões de 145** — e entre 13% e 19% abaixo no miolo. Isso não é defeito escondido; é o preço da fatia plana, e ele está aqui para ninguém redescobrir no playtest.
 
-> ## ⚠ AVISO DA v0.80 — este §3 mede contra dois números que mudaram
+> ## ✔ RESOLVIDO na v0.81 — o aviso da v0.80 virou conta
 >
-> **1. O vão.** Esta seção usa `4 · 5 · 6 · 7` como o vão `físico − conjurador`. **Ele é `9 · 10 · 11 · 12`.** *A linha do conjurador da peça 6 §3 somava um Classe 0 de `4,50` que não existe no manual — o Classe 0 tem tabela própria lá, com `2d8` a `6d8` por faixa de nível, e ele gasta a Ação Padrão, então não cabe junto do feitiço grande.* **O vão é exatamente um golpe simples.**
+> A v0.80 deixou dois avisos aqui: o vão estava pequeno e o teto tinha morrido. **Os dois foram medidos, e o resultado é que o orçamento não se move.**
 >
-> **2. O teto.** Esta seção mede o orçamento contra *"o `+18%` sustentado que a peça 6 §3.1 reprovou"*, em quatro lugares. **Aquele `+18%` era a medida de uma montagem de três ações, e a v0.80 fez duas coisas com ela:** a permissão do `Arremate` e do `Coro` **deixou de proibir** aquela montagem, e a conta mostrou que o `127` dela **não reconstrói de nenhuma linha publicada** — ele aparecia uma vez só no repositório inteiro.
+> **1. O vão foi corrigido, e ele não move o orçamento.** Ele era `4 · 5 · 6 · 7` e é `9 · 10 · 11 · 12` — exatamente um golpe simples. *A linha do conjurador da peça 6 §3 somava um Classe 0 de `4,50` que não existe no manual.*
 >
-> **Ou seja: a régua que preçou as onze Trilhas está medindo contra um teto que não existe mais, e contra um vão pequeno demais.** *Nada foi mexido aqui. Fica escrito para ninguém preçar a próxima Trilha contra os números velhos.*
+> **Mas o ponto de chegada é o mesmo dos dois lados.** Pela leitura velha o conjurador estava em `99` e ganhava um degrau de `7`, chegando em `106`. Pela nova ele está em `94` e ganha um degrau de `12`, chegando em `106`. **O que mudou foi o tamanho do degrau de graça, não o orçamento pago** — e o degrau do nível 7 nunca saiu das fatias.
+>
+> **Consequência: a fatia continua `5,08`, o Caminho continua levando `3` e a Trilha `5`, e nenhuma das onze Trilhas fechadas se move.** *Conferido varrendo o repositório atrás de quem usa o vão como base de preço: são três lugares, e os três já estão tratados — os dois degraus de nível 7 marcados no `DESENHO-caminhos.md` e o nível 2 do `Arremate`, repreçado na v0.80.*
+>
+> **2. O teto morreu e NÃO tem substituto. Isso foi procurado, não suposto.**
+>
+> Sem o `+18%`, as outras quatro travas da v0.72 **não reprovam em orçamento nenhum** — medidas de `1×` a `8×`:
+>
+> | trava | o que ela faz sem o `+18%` |
+> |---|---|
+> | a magnitude nunca vem de ação a mais por rodada | é regra de **mecanismo**. Proíbe uma porta, não limita tamanho |
+> | a camada não deriva como fração da saída | **melhora** quando o orçamento cresce: o espalhamento cai de `3,61×` para `1,81×` |
+> | continua acima do piso da peça 14 | é **piso**. Crescer nunca viola |
+> | a fatia continua plana | é propriedade de construção, não limite |
+>
+> > **Contra-teste, porque senão isto é trivialmente verdadeiro:** o `+18%`, se estivesse vivo, **reprovaria a partir de `3×`** — e reprova o orçamento de hoje, que está em `+35,7%`. **Existia teto, e era ele. Era o único.**
+>
+> **Três candidatos a teto novo foram testados e os três caíram:**
+>
+> | candidato | por que não serve |
+> |---|---|
+> | a coluna **dano do grupo por rodada** do manual | dono declarado: **o playtest**, e `04-playtest/` está vazia. Usar ela cria a segunda fonte sem dono |
+> | a razão **chefe = 3 a 4× o dano do grupo** | é invariante de **relação**, não teto de nível — as duas colunas são da mesma tabela e sobem juntas |
+> | a **duração de combate** de `3,3` a `4,0` rodadas | é a primeira dividida pela vida do chefe. Mesmo dono, mesmo defeito |
+>
+> **E o único que reconstrói sem passar pelo playtest nunca morde.** *"A técnica tem de continuar sendo a maioria do que a ficha faz"* é o pilar 1 escrito como conta, e ele não é circular — mede a camada contra a linha do físico, que tem dono fora desta régua. **Mas a camada só alcança metade da ficha em `10,45×`, que é `2,6` vezes o orçamento de hoje.** *Um teto que só reprova a dez vezes de onde estamos é a lição nº 8 por outra porta.*
+>
+> ## ⚠ ENTÃO O TETO É DECISÃO, E ELA É DO MIZUKI
+>
+> **Não existe número que segure este orçamento. O que segura é o pilar 1, e ele é escolha de design.** *A decisão está tomada desde a v0.73, com o argumento dele: **"ficar constantemente nessa briga de onde pôr os pontos não vai salvar o projeto, só o limite ao ponto de não conseguirmos construir nada."***
+>
+> > **O orçamento é `4×`, que é a fatia de `5,08` — `3` fatias de Caminho e `5` de Trilha. A camada vale `27,7%` do que o personagem faz no nível 30, e a técnica fica com os outros `72,3%`.**
+>
+> **Isto está escrito como decisão e não como conta de propósito**, porque escrever decisão vestida de conta é o que o `+18%` fazia. *A âncora externa que existe: no 5e a subclasse carrega de `10%` a `30%` do orçamento de classe mais subclasse, dependendo da classe. O denominador não é o mesmo daqui, então ela serve de ordem de grandeza e não de trava.*
+>
+> **O que fica pendurado, e é de playtest:** medindo com o modelo do manual, no orçamento de hoje **o chefe deixa de conseguir derrubar a ficha mais frágil concentrando fogo**. A virada acontece entre `2×` e `3×`. *Isso é teto e não valor — ele supõe que as `8` fatias inteiras viram dano, e a matriz do Bastião diz que não viram. **Mas é a primeira pergunta de mesa deste orçamento com número em cima.***
 
 ### 3.4 O degrau do nível 7, que é o único diferente dos oito
 
@@ -297,14 +332,18 @@ A peça 6 §3 mede a linha de base assim, e a leitura dela muda tudo:
 
 > **Rotina 108 · conjurador 99 (−8%) · físico 106 (−2%), no nível 30.**
 
-**Ninguém está acima.** O ataque extra não põe a Vanguarda na frente — ele tira ela de −8% e põe em −2%. É **correção de base, não bônus**, e por isso ele nunca coube como um degrau: ele vale de **3,2 a 5,5 fatias** e chega num nível em que você só tem duas.
+**Ninguém está acima.** O ataque extra não põe a Vanguarda na frente — ele tira ela de baixo da régua e encosta ela nela. É **correção de base, não bônus**, e por isso ele nunca coube como um degrau pago.
 
-| nv | Rotina | vão (físico − conjurador) | em % da Rotina | em fatias |
-|---|---|---|---|---|
-| 2 | 13 | 4 | 30,8% | 3,2 |
-| 10 | 45 | 5 | 11,1% | 3,9 |
-| 18 | 76 | 6 | 7,9% | 4,7 |
-| 30 | 108 | 7 | 6,5% | 5,5 |
+> **A linha de base foi corrigida na v0.80 e a tabela abaixo é a nova.** *A leitura acima — `conjurador 99 (−8%)` — era a que somava o Classe 0 fantasma. Hoje a peça 6 §3 publica **Rotina 108 · conjurador 94 · físico 106** no nível 30, e o vão é exatamente um golpe simples.*
+
+| nv | Rotina | conjurador | físico | vão (físico − conjurador) | em % da Rotina | em fatias de `5,08` |
+|---|---|---|---|---|---|---|
+| 2 | 13 | 13 | 22 | **9** | 69,2% | 1,77 |
+| 10 | 45 | 40 | 50 | **10** | 22,2% | 1,97 |
+| 18 | 76 | 67 | 78 | **11** | 14,5% | 2,17 |
+| 30 | 108 | 94 | 106 | **12** | 11,1% | **2,36** |
+
+> **O vão vale hoje entre `1,77` e `2,36` fatias** — contra as `3` do Caminho inteiro. *Na escala velha ele valia de `3,2` a `5,5`, e era isso que o fazia não caber como um degrau de oito. **Com o preço morando na Trilha e não na entrega, ele é só uma entrega grande** — que é o que o §3.4-B abaixo já dizia.*
 
 > **A regra: o degrau do nível 7 substitui uma fatia, e ele vale exatamente o vão.** Quem já tem rota para ataque extra — **Bastião e Vanguarda pelo Caminho, `Arremate` e `Coro` pela Trilha** — recebe **o ataque extra no lugar dele**. Quem não tem recebe o degrau grande.
 
@@ -322,7 +361,9 @@ E aí os cinco Caminhos empatam, com o resto do calendário inalterado:
 
 **Isso fecha o problema de design nº 2, aberto desde a v0.24**, e fecha com o número que a peça 6 §3.1 pediu: *"o que Elo, Sutura e Perímetro entregam que valha um golpe por rodada?"* — **valem o vão, e o vão é o degrau do nível 7.**
 
-**E o orçamento passa de `9,4%` para `14,7%` da Rotina no nível 30. Isso não é violação, e a distinção importa:** os `6%` a `9%` da peça 14 §4 são o **buraco do escudo**, que aquela peça registra como o que a Trilha **deve** — piso, não teto. Estourar ele em `1,57×` quer dizer que largar o escudo virou decisão fácil, que é literalmente o que ela pediu. **O teto de verdade é o `+18%` sustentado que a peça 6 §3.1 reprovou**, e a régua para em **`+6%`**, com dez pontos percentuais de folga.
+**E o orçamento passa de `9,4%` para `14,7%` da Rotina no nível 30. Isso não é violação, e a distinção importa:** os `6%` a `9%` da peça 14 §4 são o **buraco do escudo**, que aquela peça registra como o que a Trilha **deve** — piso, não teto. Estourar ele em `1,57×` quer dizer que largar o escudo virou decisão fácil, que é literalmente o que ela pediu.
+
+> **A frase que fechava este parágrafo morreu na v0.81.** *Ela dizia: "o teto de verdade é o `+18%` sustentado que a peça 6 §3.1 reprovou, e a régua para em `+6%`".* **Aquele `+18%` não reconstrói de nada e a montagem que ele media deixou de ser proibida.** *E os dois números da frase estavam em escalas diferentes: o `+6%` é da escala de `1,27` por fatia, três dobros atrás do orçamento de hoje.* **O teto hoje é decisão declarada, e a caixa no topo desta seção diz qual é e por quê.**
 
 *A saída que pagava o ataque extra em fatias foi medida e morreu: ela custa **6 das 8**, e Bastião e Vanguarda ficariam com seis níveis mortos — exatamente o que a Q2 saiu para matar.*
 
@@ -495,7 +536,13 @@ Toda entrega é fração de alguma coisa. **Se essa coisa não crescer no ritmo 
 - **A troca é total, e o validador confere que ela não deixa buraco:** trocar para qualquer Trilha em qualquer um dos três níveis tem de produzir uma ficha legal, com as quatro entregas daquela Trilha até o nível atual.
 - **O nível 2 de toda Trilha é `Classe Passiva 1` ou `3`, nunca `2`**, e **toda Trilha tem pelo menos uma `Classe Passiva 2`** nas suas quatro. Contra-teste: uma Trilha só de permanente e condicional tem de reprovar, com a mensagem citando o Champion.
 - ~~**Se a Q1 responder "mais de uma"**, a matriz varre as **105 combinações** de duas.~~ **Morta na v0.55:** não existe multiclasse, e a matriz nunca cruza Caminhos diferentes numa mesma ficha.
-- **O orçamento de cada Trilha contra os `6%` a `9%` da Rotina**, lido da **peça 14 §4** e nunca de constante. *E ele é **piso**, não teto* — a régua da Q3 para em `14,7%` de propósito, e o teto que o validador confere é o **`+18%` sustentado que a peça 6 §3.1 reprovou**, lido daquela seção.
+- **O orçamento de cada Trilha contra os `6%` a `9%` da Rotina**, lido da **peça 14 §4** e nunca de constante. *E ele é **piso**, não teto* — a régua da Q3 para em `14,7%` de propósito.
+
+  > **O TETO NÃO TEM VALIDADOR, e isso é decisão e não esquecimento.** *Até a v0.80 esta linha mandava conferir contra o `+18%` da peça 6 §3.1, e aquele número morreu — ele não reconstrói de nada e a montagem que ele media deixou de ser proibida.* **A v0.81 procurou substituto em três candidatos e nenhum serve:** os que mordem têm dono no playtest, e o único que reconstrói sem playtest — *a técnica continua sendo a maioria da ficha* — só reprova a `10,45×`, dez vezes o orçamento de hoje.
+  >
+  > **Então o validador confere o PISO e declara que não confere teto.** *Escrever uma checagem de teto contra o pilar 1 seria vestir decisão de conta, que é exatamente o que o `+18%` fazia — e é a lição nº 8: uma checagem que se mede contra a própria constante sai verde na perturbação que importa.*
+  >
+  > **O que o validador PODE conferir, e vale a pena:** que o orçamento publicado bata com `fatia × fatias`, e que a fatia continue derivando do piso da peça 14. **Perturbar o multiplicador tem de acender ali**, mesmo sem teto.
 - **A fatia contra o número de degraus**, e as duas lidas de documento: `piso da peça 14 §4 no nv30 ÷ 8`. Perturbar o calendário da Q2 tem de mover a fatia.
 - ~~Contra-teste: um degrau do nv7 que valha uma fatia normal tem de reprovar.~~ **Morto na v0.68:** com o preço por Trilha o degrau do nv7 **deixou de ser exceção**, então um degrau do tamanho de uma fatia é legal e reprovar seria errado.
 - **O degrau do nível 7 contra o vão da peça 6 §3** — `físico − conjurador`, no nível —, e **nunca contra constante**.

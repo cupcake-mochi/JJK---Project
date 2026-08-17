@@ -6,6 +6,102 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.81] — 2026-08-16
+
+**A v0.80 deixou dois avisos pendurados na régua de Trilhas, e os dois foram medidos: o orçamento NÃO se move.** *O vão corrigido não muda o preço de nenhuma das onze Trilhas fechadas, e o teto que morreu não tem substituto — foram testados três candidatos.* **E o Classe 0 fantasma tinha sobrado num lugar que a guarda da v0.80 não alcançava, porque aquela guarda tinha um buraco de uma linha.** Continuam dezesseis peças e dezesseis validadores.
+
+### Medido — a régua não se move com o vão corrigido, e o motivo é que o ponto de chegada é o mesmo
+
+| | conjurador | degrau do nv7 | chega em | físico |
+|---|---|---|---|---|
+| leitura velha | 99 | `7` | **106** | 106 |
+| **leitura nova** | **94** | **`12`** | **106** | 106 |
+
+**O que mudou foi o tamanho do degrau de GRAÇA, e ele nunca saiu das fatias.** *A fatia continua `5,08`, o Caminho continua levando `3` e a Trilha `5`.*
+
+**Conferido por varredura, e não por argumento:** existem três lugares no repositório que usam o vão como base de preço — os dois degraus de nível 7 marcados no `DESENHO-caminhos.md` e o nível 2 do `Arremate` —, e os três já estavam tratados. **Nenhuma entrega de Trilha foi preçada contra o vão.**
+
+### Medido — sem o `+18%`, NADA reprova, e isso foi procurado antes de ser afirmado
+
+As outras quatro travas da v0.72, rodadas de `1×` a `8×`:
+
+| trava | o que ela faz sozinha |
+|---|---|
+| a magnitude nunca vem de ação a mais por rodada | regra de **mecanismo** — proíbe uma porta, não limita tamanho |
+| a camada não deriva como fração da saída | **melhora** quando o orçamento cresce: `3,61×` → `1,81×` |
+| continua acima do piso da peça 14 | é **piso**; crescer nunca viola |
+| a fatia continua plana | propriedade de construção |
+
+> **Contra-teste rodado, senão isto seria trivialmente verdadeiro:** o `+18%`, vivo, **reprovaria a partir de `3×`**, e reprova o orçamento de hoje em `+35,7%`. **Existia teto, era ele, e era o único.**
+
+**Três candidatos a substituto, e os três caíram:** a coluna *dano do grupo por rodada* e a *duração de combate* têm dono no **playtest**, que está vazio; a razão *chefe = 3 a 4× o dano do grupo* é invariante de **relação** e não teto de nível.
+
+**E o único que reconstrói sem passar pelo playtest nunca morde:** *"a técnica continua sendo a maioria da ficha"* só reprova em **`10,45×`**, que é `2,6` vezes o orçamento de hoje. *Um teto que só acende a dez vezes de onde estamos é a lição nº 8 por outra porta.*
+
+> ***Decisão do Mizuki: o teto é declarado como decisão de design, e não vestido de conta.*** **O orçamento é `4×` — `27,7%` da ficha para a camada, `72,3%` para a técnica** —, com o argumento dele da v0.73 escrito junto. *Âncora externa levantada: no 5e a subclasse carrega de `10%` a `30%` do orçamento de classe mais subclasse. O denominador não é o mesmo, então ela vale como ordem de grandeza e não como trava.*
+
+### Achado — o modelo de combate do manual reconstrói, e ninguém tinha escrito isso
+
+**A coluna *dano do grupo por rodada* da tabela de inimigo é `2,90 ×` a Rotina, nas seis linhas**, com espalhamento de `1,024×`. *Ela não é número solto: é um grupo de quatro em que a saída efetiva é de 2,9 fichas.*
+
+**Com isso o modelo reproduz os dois números que a v0.73 publicou, com zero parâmetro livre:** `3,69` rodadas sem a camada e `2,72` com ela, contra os `3,7` e `2,7` escritos lá.
+
+> **E ele produz a primeira pergunta de mesa deste orçamento com número em cima:** no orçamento de hoje **o chefe deixa de conseguir derrubar a ficha mais frágil concentrando fogo** — a virada acontece entre `2×` e `3×`. *É teto e não valor, porque supõe que as `8` fatias inteiras viram dano, e a matriz do Bastião diz que não viram.*
+
+### Corrigido — o Classe 0 fantasma sobreviveu à v0.80 na peça 6 §5, sem a frase e só com o número
+
+A linha argumentava o PE do Bastião assim: *"o golpe simples dele rende ~10 e o Classe 0 do conjurador rende ~4,5"*.
+
+| nível | Classe 0 | golpe simples | quem rende mais |
+|---|---|---|---|
+| 2 | `2d8` = 9 | 9 | empate |
+| 10 | `3d8` = 13,5 | 10 | Classe 0 |
+| 30 | `6d8` = 27 | 12 | **Classe 0, em 2,25×** |
+
+**O argumento não só perdeu o número: ele INVERTE do nível 10 em diante.** *O `~10` batia com o golpe simples e o `~4,5` era o dano de um d8 — a régua de montar feitiço outra vez.*
+
+**O número `4` fica**, e ele passou a se apoiar no que a própria peça já tinha: o Bastião é o único dos cinco com `11` de vida mais energia por nível contra `10` dos outros. *Ele troca combustível por couro e sai um ponto na frente da troca.*
+
+### Corrigido — a guarda da frase morta tinha um buraco, e ele era de uma linha
+
+**Ela tratava qualquer linha começando com `*` como nota histórica — e `**negrito**` começa com `*`.** *Negrito no começo da linha é o estilo dominante da prosa deste projeto, então toda afirmação viva em negrito era lida como história.*
+
+**Agora `>` é história, `*` sozinho é história, e `**` é afirmação viva.**
+
+> **Contra-teste rodado:** com a regra antiga, a frase morta numa linha de negrito sai **verde**. É o buraco medido, e não suposto.
+
+### Adicionado — a checagem 4g, com sete perturbações
+
+**4g — o NÚMERO morto, e não só a frase.** Nenhuma linha viva da peça 6 pode preçar um Classe 0 em `4,50`.
+
+| perturbação | esperado | deu |
+|---|---|---|
+| `4,50` num Classe 0, em linha viva de negrito | acende | acende |
+| `4,50` num Classe 0, em bloco de citação | verde | verde |
+| `4,50` num Classe 0, em nota em itálico | verde | verde |
+| a frase morta em linha viva de negrito | acende | acende |
+| a frase morta em bloco de citação | verde | verde |
+| `4,5` longe de Classe 0 (média do d8) | verde | verde |
+| devolver o conjurador `99` no nível 30 | acende | acende |
+
+> **A base foi conferida na cópia antes de perturbar, e ela pegou uma cópia suja na primeira tentativa** — todas as perturbações acendiam por causa disso. *É a regra 2 do arnês fazendo exatamente o trabalho dela.*
+
+### Em aberto
+
+- **O teto da régua não tem validador, e isso está declarado no §5 do rascunho** como decisão, não esquecimento.
+- **⚠ Se o chefe deixa de derrubar a ficha mais frágil é bom ou ruim, ninguém sabe** — é a primeira pergunta de mesa deste orçamento.
+- **A tabela de inimigo continua parada**, e o dono dela continua sendo o playtest.
+- **O `Repertório`** — a última do Emanador, e ela precisa liderar em posicionamento ou recuperação. *E continua sem régua para converter "uma aptidão a mais" em fatia.*
+- **⚠ A peça 6 nunca escreveu se a Ação de Atacar de um físico inclui o golpe canalizado**, e essa frase decide a `Brasa` por um fator de `2,6×`.
+- **As duas decisões de nível 7 tomadas contra o vão errado continuam marcadas e não desfeitas** — o Guia e a `Coleira` do Evocador.
+- **O nível 27 do `Arremate` está vago**, com `1,26` fatia.
+- **A checagem de pasta certa do README estava quebrada** — ela mandava `grep -c "Seis lições"` dar zero, e na pasta certa dá dois, porque o próprio README escreve a frase duas vezes. *Não consertada nesta versão.*
+- **A v0.80 foi commitada duas vezes com a mesma etiqueta**, que é a causa conhecida da atribuição de versão divergir. *Vale conferir se algo dela ficou no commit errado.*
+- **Atribuição de versão continua sem validador.**
+- As de sempre: as vagas de Desliga, a Cicatriz, o clash, o nome do sistema, o refino que paga mal no marco, `condição` sem conversão, gastar PE sem preço.
+
+---
+
 ## [0.80] — 2026-08-16
 
 **O projeto estava preçando o Classe 0 num número que não existe no manual, e isso vinha da v0.14.** *Achado indo escrever a permissão do `Arremate`: a frase que sustentava o argumento é que a Rotina "já é feitiço + Classe 0", e ela é falsa.* **O vão que paga o degrau do nível 7 dos cinco Caminhos passou de `7,00` para `12`, a `Voz Grossa` morreu e a permissão do `Arremate` foi aplicada.** Continuam dezesseis peças e dezesseis validadores.
