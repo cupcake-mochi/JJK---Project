@@ -6,6 +6,83 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.85] — 2026-08-17
+
+**A contagem ganhou dono, e um validador do projeto passou a ler os `DESENHO-*.md` pela primeira vez.** *Aqueles três arquivos estavam fora de alcance de todo validador desde que existem, e o preço disso está medido: o nível 27 da `Estocada` passou três versões cobrando `1,33` fatia na tabela e entregando `5,31` no bloco de regra.* **Passam a ser dezessete peças e dezessete validadores.**
+
+### Adicionado — a peça 17, e ela não escreve regra nenhuma
+
+**Ela é um índice: quantas entradas existem, como cada uma se chama, e onde o texto dela mora.** *Só isso.* **Não guarda preço e não guarda texto de mesa** — os dois continuam sendo dos desenhos, que são os donos.
+
+> ***Decisão do Mizuki: o índice aponta, e o texto fica onde está.*** *A alternativa era copiar o texto de mesa para dentro da peça, e ela reprova sozinha: seria a lição nº 9 cometida pelo documento escrito para impedi-la.*
+
+### Decidido — a regra de contagem, que nunca tinha sido escrita
+
+***Decisão do Mizuki: rota de Trilha conta como entrada própria; menu dentro de um degrau não conta.***
+
+| o caso | conta como | por quê |
+|---|---|---|
+| as três rotas do `Batedor` | **12** | a rota se escolhe no nível 2 e vale a campanha. **A matriz da Vanguarda já entra com cinco linhas e não três** pelo mesmo motivo |
+| a `Pegada` do `Executor` | **4** | menu de um degrau. Quem escolhe estilo continua sendo um `Executor` |
+| a `Sintonia` do Evocador | **4** | mesma forma da `Pegada` — e essa a conta fechou sozinha, sem pergunta |
+
+**Com a regra escrita, os números mudaram: `89` entradas e não `81`, e `21` nomes faltando e não `17`.** *As quatro a mais estavam escondidas dentro de uma linha só do `Batedor`.*
+
+> **A divisão que a v0.84 publicou não reproduzia.** *Ela dizia `Estocada 4 · Batedor 8 · o resto 5`, e recontando dos arquivos sai `Muro 3 · Punho 2 · Brasa 3 · Estocada 4 · Batedor 3 · Torrente 2` — mesmo total, outra divisão, e a `Torrente` não estava na lista.* **Total que fecha por caminhos diferentes é total que ninguém está conferindo.** *A causa era a regra de contagem não existir.*
+
+### Adicionado — o `conferir-catalogo.py`, com oito checagens e dez perturbações
+
+**Nada de valor mora dentro dele:** os nomes saem das tabelas da peça, os textos saem dos desenhos, e as contagens saem da própria pasta.
+
+| perturbação | esperado | deu |
+|---|---|---|
+| trocar o total de Trilha de `56` para `55` | acende | acende |
+| quebrar só a soma por estado (`67` → `66`) | acende | acende |
+| renomear o `Alicerce` no índice e não no desenho | acende | acende |
+| apagar a `Fornalha` do índice | acende | acende |
+| apagar o bloco de regra do `Muro` nível 2 | acende | acende |
+| **a regressão da `Estocada`: pôr `sempre` de volta no bloco do nível 27** | **acende** | **acende** |
+| **contra-teste:** trocar duas linhas do índice de ordem | verde | verde |
+| **contra-teste:** reescrever o bloco sem dizer `sempre` | verde | verde |
+| o `README` dizendo *"índice das 88 entradas"* | acende | acende |
+| **contra-teste:** a entrada da v0.84 continuando a dizer `81` | verde | verde |
+
+> **A quinta e a sexta se medem por eixos diferentes de propósito.** *A quinta pergunta "existe bloco?"; a sexta pergunta "o bloco diz a mesma coisa que o preço?".* **Apagar o bloco acende a quinta; reescrever o bloco acende a sexta.** *Uma checagem só cobriria metade — e sairia verde exatamente na metade que custou a `Estocada`. É a lição nº 8 por outra porta.*
+
+**A base passou na cópia antes de cada perturbação, e o `diff` foi conferido em todas.** *O arnês recusa resultado de `sed` que não bateu, que é a regra 3 dele.*
+
+### ⚠ Achado — a ação `Mirar` não tem regra em lugar nenhum
+
+**Ela é entregue no nível 11 das três rotas do `Batedor` e estendida no 27 das três — seis degraus, valendo entre `1,60` e `2,04` fatias cada.** *Procurada no repositório inteiro: ela aparece só no desenho e neste arquivo.* **Nem a lista de ações da peça 3 §3.1, que fechou na v0.83 com doze, nem o desenho dizem o que ela faz ou que slot ela gasta.**
+
+> **E a triagem devolve o nome como `fraco`:** ele está a uma letra de `Mira`, que é Família no manual. **Mas o buraco é de regra e não de nome** — trocar o nome não escreve o que ela faz.
+
+*O índice lista os seis degraus com o furo à vista, que é exatamente o trabalho dele.*
+
+### ⚠ Achado na revisão cética, contra esta própria versão
+
+**Escrevendo o `89` nos quatro documentos vivos, ele virou cinco cópias — dentro do documento cuja seção 1 abre dizendo que não vai duplicar nada.** *A peça 17 quase cometeu a lição nº 9 no parágrafo em que explica a lição nº 9.*
+
+> **Conserto: a checagem 8.** A peça é a **dona** do total; `README`, `ESTADO-ATUAL`, `LEIA-ME` e o README da entrega são cópia, e agora existe quem compare. **O `CHANGELOG` fica de fora de propósito** — ele é registro histórico, e a entrada da v0.84 tem de continuar dizendo `81` sem falhar nada. *É o contra-teste 10.*
+
+**A frase que ela procura é estreita de propósito:** *"índice das NN entradas"*, e não `NN entradas` solto. *Solto, ela pegava o catálogo de 19 entradas da peça 15 e o de 81 da peça 13 — outros catálogos, outros números, e três vermelhos falsos na primeira rodada.*
+
+### Alterado — o mapa de números por extenso do `conferir-repositorio.py`
+
+**Ele parava em `dezesseis` e a décima sétima peça não teria como ser lida.** *Estendido até `vinte`.* **O número continua sendo lido do `README`, e não guardado no código** — a checagem já saiu de sincronia uma vez, quando o oitavo validador entrou e o `sete` ficou escrito lá dentro.
+
+### Em aberto
+
+- **Faltam `21` nomes**, e não 17: `Muro` 3 · `Punho` 2 · `Brasa` 3 · `Estocada` 4 · `Yumi` 2 · `Besta` 3 · `Arma de Fogo` 2 · `Torrente` 2.
+- **O `Mirar` precisa de regra antes de nome.**
+- **`Quick Draw` é o único nome em inglês do sistema.** *Nível 19 da rota `Arma de Fogo`.*
+- **Duas entregas têm nome em minúscula** — o `carregar` do `Yumi` e o `acelerar` da `Torrente` — contra as outras trinta e duas capitalizadas.
+- **A checagem 6 não alcança as Manhas**, porque elas não têm bloco de regra separado — o texto de mesa delas é a própria coluna da tabela. *Propriedade do formato, não dívida.*
+- **As três do Evocador ficam fora do índice enquanto estiverem paradas.** Quando voltarem, o total sai de `89` e a checagem 1 acusa até a peça subir junto.
+- As de sempre: as quatro aptidões abertas, a troca do marco, os metros das armas de projétil, `Caído` para `Inconsciente`, o `Repertório` abandonado ainda vivo na peça 6 §2, o calendário velho de Caminho no §9 dela, e o nome do sistema.
+
+---
+
 ## [0.84] — 2026-08-17
 
 **As doze entregas do Guia saíram de linha de tabela e viraram texto de mesa**, e mais sete degraus do Emanador ganharam nome. *O Guia era o único Caminho sem uma única entrega jogável; virou o único com os três completos.* **E uma Trilha estava entregando quatro vezes o que ela custa.** Continuam dezesseis peças e dezesseis validadores.

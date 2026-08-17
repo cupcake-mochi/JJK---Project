@@ -2,7 +2,7 @@
 
 Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.84** · manual do Fundamento na **v7.8** · **dezesseis peças de regra** e **dezesseis validadores passando**.
+**Versão v0.85** · manual do Fundamento na **v7.8** · **dezessete peças de regra** e **dezessete validadores passando**.
 
 ---
 
@@ -61,7 +61,7 @@ Depois disso, a ordem de leitura é a da próxima seção, e os validadores são
     ├── 00-fundacao/                     os três pilares e as restrições do projeto
     ├── 01-pesquisa/                     dossiê de metodologia — a seção 8 lista as dez travas
     ├── 02-esqueleto/                    arquitetura: subsistemas e como se encaixam
-    ├── 03-mecanica/                     as dezesseis peças de regra e os dezesseis validadores
+    ├── 03-mecanica/                     as dezessete peças de regra e os dezessete validadores
     ├── 04-playtest/                     vazia. Zero sessões desde a v0.1
     ├── 05-material/                     a ficha, e o gerador dela. O quick-start ainda não
     ├── 99-arquivo/                      material morto, com LEIA-ME próprio
@@ -117,9 +117,10 @@ python3 conferir-ficha.py        # a ficha de 05-material contra os catálogos d
 python3 conferir-legados.py      # os três formatos, a cota de Desliga, as vagas e os totais
 python3 conferir-invocacoes.py   # o teto somado, o catálogo, a régua, a morte e o orçamento
 python3 conferir-ferramenta.py   # o fundo, o gate herdado, a escada de grau, o teto na ficha
+python3 conferir-catalogo.py     # o índice das 89 entradas contra os três DESENHO da raiz
 ```
 
-**Os quatro últimos são de outra natureza, e vale saber por quê.** Os onze primeiros conferem **regra** — *a fórmula deriva certo?*.
+**Os cinco últimos são de outra natureza, e vale saber por quê.** Os onze primeiros conferem **regra** — *a fórmula deriva certo?*.
 
 *E o `conferir-equipamento.py` faltava nesta lista desde a v0.48, quando ele entrou* — o `subir.sh` sempre o rodou, porque ele varre a pasta por glob, mas quem seguisse o README à mão rodava um a menos. **Corrigido na v0.58, junto com a entrada do de Invocações.**
 
@@ -130,6 +131,8 @@ O `conferir-ficha.py` confere **material**: as 23 perícias, os 11 ofícios, os 
 O `conferir-legados.py` confere **catálogo**, e entrou na v0.39 junto com a peça 13. A checagem que mais rende é a que recalcula a tabela de totais da peça e falha se o escrito não bater com o contado — as contas do rascunho já tinham envelhecido duas vezes dentro do próprio arquivo antes de ele existir.
 
 O `conferir-invocacoes.py` é o maior deles e faz as quatro coisas de uma vez, porque a peça 15 é máquina de construção: **regra** (o teto somado, o ritmo, os dois gatilhos de morte), **catálogo** (a régua de degrau contra as 19 entradas), **instância** (as montagens publicadas dos shikigami) e **busca exaustiva** (as 21.502 montagens que gastam o orçamento cheio no nível 30). Ele entrou na v0.58, com as trinta checagens que o §5 daquela peça vinha listando desde a v0.51.
+
+O `conferir-catalogo.py` entrou na v0.85 e é o primeiro que **sai da pasta**: ele lê os três `DESENHO-*.md` da raiz, que até ali nenhum validador alcançava. A peça 17 é um índice das 89 entradas — 56 entregas de Trilha, 20 degraus de Caminho e as 13 Manhas — e ela não guarda preço nem texto de mesa, só nome e ponteiro. **A checagem que ela existe para ter é a sexta:** um bloco de regra não pode prometer permanência onde a linha de preço cobrou condição. *Foi essa contradição que deixou o nível 27 da `Estocada` valendo `5,31` fatias com preço de `1,33`, por três versões.*
 
 E os dois do manual, que conferem número em vez de vocabulário:
 

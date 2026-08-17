@@ -104,7 +104,8 @@ for caminho, tipo in ESPERADO:
 # Ela ja saiu uma vez, quando o oitavo validador entrou e o "sete" ficou no codigo.
 NUMERO = {'uma': 1, 'duas': 2, 'tres': 3, 'quatro': 4, 'cinco': 5, 'seis': 6,
           'sete': 7, 'oito': 8, 'nove': 9, 'dez': 10, 'onze': 11, 'doze': 12,
-          'treze': 13, 'catorze': 14, 'quinze': 15, 'dezesseis': 16}
+          'treze': 13, 'catorze': 14, 'quinze': 15, 'dezesseis': 16,
+          'dezessete': 17, 'dezoito': 18, 'dezenove': 19, 'vinte': 20}
 
 
 def por_extenso(palavra):

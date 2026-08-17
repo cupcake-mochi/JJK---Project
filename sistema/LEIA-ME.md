@@ -9,7 +9,7 @@ Sistema de RPG de mesa em desenvolvimento, ambientado no universo de Jujutsu Kai
 | `00-fundacao/` | Pitch de design e decisões que valem para o projeto inteiro |
 | `01-pesquisa/` | Dossiê de metodologia, referências e análise do espaço de design |
 | `02-esqueleto/` | Arquitetura do sistema: subsistemas, como se conectam, o que cada um resolve |
-| `03-mecanica/` | As peças de regra, numeradas na ordem em que foram escritas, e os dezesseis validadores |
+| `03-mecanica/` | As peças de regra, numeradas na ordem em que foram escritas, e os dezessete validadores |
 | `04-playtest/` | Roteiro de teste, formulários e retorno organizado por tema |
 | `05-material/` | A **ficha de personagem** e o gerador dela. Falta o quick-start e o livro |
 | `99-arquivo/` | **Material morto.** Nada aqui é regra corrente — ver o `LEIA-ME.md` de lá |
@@ -42,7 +42,7 @@ A pasta `skills/` guarda o `SKILL.md` de cada uma mais os arquivos de apoio. **A
 
 ## Versão atual
 
-**v0.84.** Fases 0 a 3 fechadas; a Fase 4 (mecânica) está em andamento com **dezesseis peças escritas e dezesseis validadores passando**. O manual do Fundamento está na **v7.8**, e ele é um subsistema fechado — a técnica e o feitiço já funcionam. O `.pdf` continua na v7.4, porque é exportado à mão.
+**v0.85.** Fases 0 a 3 fechadas; a Fase 4 (mecânica) está em andamento com **dezessete peças escritas e dezessete validadores passando**. O manual do Fundamento está na **v7.8**, e ele é um subsistema fechado — a técnica e o feitiço já funcionam. O `.pdf` continua na v7.4, porque é exportado à mão.
 
 **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas**, por seis das nove rotas de Origem. Desde a v0.32 não sobrou peça de regra travando ninguém nessa faixa: das dezessete coisas que uma ficha de nível 2 precisa, **treze existem, e as quatro que faltam não mordem nessa faixa**. O que falta para as outras três rotas, e a ordem do resto, está no `ESTADO-ATUAL.md`.
 
@@ -62,6 +62,8 @@ cd sistema/03-mecanica && python3 conferir-nomes.py
 Os quatro últimos não leem o manual e não precisam de nada: o `conferir-criacao.py` confere a ficha de exemplo da peça 8 contra as fórmulas das outras peças, o `conferir-ficha.py` confere a ficha de `05-material/` contra os catálogos delas, o `conferir-legados.py` recalcula a tabela de totais da peça 13 e falha se o escrito não bater com o contado, e o `conferir-invocacoes.py` faz as trinta checagens da peça 15 sem guardar um número sequer dentro dele.
 
 ## A próxima peça
+
+**Catálogo de entregas** fechou na v0.85 e é a peça 17, em `03-mecanica/17-catalogo-de-entregas.md`, com o `conferir-catalogo.py` e oito checagens. Ela é um índice das **89 entradas** — 56 entregas de Trilha, 20 degraus de Caminho e as 13 Manhas — e não guarda preço nem texto de mesa: os dois continuam nos três `DESENHO-*.md` da raiz. **O validador dela é o primeiro do projeto que lê aqueles arquivos**, e a checagem que ele existe para ter é a que pega bloco de regra contradizendo o gate da linha de preço.
 
 **Ferramenta amaldiçoada** fechou na v0.59 e é a peça 16, em `03-mecanica/16-ferramenta-amaldicoada.md`, com o `conferir-ferramenta.py` e dezesseis checagens. A máquina é da v0.55, o catálogo de `Estigma` da v0.56 e da v0.57 — onze entradas. A escada de grau do antigo §6 virou **ritmo de entrega e não gate**, porque como gate ela anulava o gate herdado da peça 11 e deixava o `Desgaste` sem nada para comprar.
 
