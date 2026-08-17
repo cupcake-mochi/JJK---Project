@@ -200,7 +200,7 @@ A coluna do escudo continua certa. `0,05 × golpe de chefe` é o valor de tirar 
 
 > `2,0 de dado × 0,55 de acerto × quanto do tempo você dá golpe simples`
 
-O `0,55` é a peça 1 §6 mais os 10% do crítico da §5.2. E o "quanto do tempo" tem teto conhecido: o `conferir-orcamento.py` mede o Bastião conjurando em **38% a 48%** das rodadas, e golpe canalizado não soma arma (peça 5 §3). Sobram no máximo 62%, divididos com Classe 0 e projetar energia.
+O `0,55` é a peça 1 §6 mais os 10% do crítico da §5.2. E o "quanto do tempo" tem teto conhecido: o `conferir-orcamento.py` mede o Bastião conjurando em **38% a 48%** das rodadas, e feitiço de Toque não soma arma (peça 5 §3). Sobram no máximo 62%, divididos com Classe 0 e projetar energia.
 
 Refeita, com uso em 60%, a arma rende **0,66 por rodada** e o escudo passa ela no **nv6** em vez de no nv16.
 

@@ -23,9 +23,13 @@ Nomes conferidos contra o manual — nenhum é termo definido lá. *Linha de Fre
 
 *Canalizador* era a escolha para o Caminho de técnica e **não passa** — não pelo manual, onde a palavra está livre, mas pelo próprio material do projeto.
 
-**Canalizar Energia é a aptidão do lutador físico**, e "golpe canalizado" é o nome da mecânica central dele. As duas palavras aparecem 31 vezes nos arquivos do projeto, todas descrevendo o que o **Bastião** e a **Vanguarda** fazem. Nomear o Caminho de técnica de Canalizador colocaria a palavra apontando para os dois lados ao mesmo tempo.
+**Canalizar Energia é a aptidão do lutador físico**, e ela descreve o que o **Bastião** e a **Vanguarda** fazem. Nomear o Caminho de técnica de Canalizador colocaria a palavra apontando para os dois lados ao mesmo tempo.
 
-Renomear a mecânica sairia mais caro: *canalizar energia* é termo da própria obra e já estava na lista de aptidões. Então quem muda é o nome do Caminho. **Emanador** está livre no manual e em todo o material do projeto, e a distinção fica limpa: **canalizar** é empurrar energia por dentro do corpo e da arma; **emanar** é soltar energia para fora. Um é o Bastião e a Vanguarda; o outro é o Emanador.
+Renomear a aptidão sairia mais caro: *canalizar energia* é termo da própria obra e já estava na lista de aptidões. Então quem muda é o nome do Caminho. **Emanador** está livre no manual e em todo o material do projeto, e a distinção fica limpa: **canalizar** é empurrar energia por dentro do corpo e da arma; **emanar** é soltar energia para fora. Um é o Bastião e a Vanguarda; o outro é o Emanador.
+
+> **Este bloco falava de "golpe canalizado" como *a mecânica central* do físico, e essa mecânica NÃO EXISTE — v0.81.** *O termo tem **zero** ocorrências no manual, junto com `canalizado`, `canaliza` e `Canalizar`.* **Ele era abreviação de *feitiço de Forma Toque*, e a palavra "golpe" fez um feitiço parecer um ataque** — que é o que confundiu a economia de ação do projeto inteiro.
+>
+> **A aptidão `canalizar energia` fica**, porque ela é da obra e a peça 11 a lista entre as doze que o material obriga. **O que morreu é o substantivo `golpe canalizado`.** *Trocado por `feitiço de Toque` em 39 lugares, em 11 arquivos, sem mexer em número nenhum.*
 
 **Sem multiclasse.** Um Caminho por personagem, e dentro dele **Trilhas**.
 
@@ -105,7 +109,7 @@ A coluna Rotina do Fundamento é **o meio exato entre bater num alvo e espalhar 
 
 **Então a linha do conjurador é o feitiço sozinho, e o ataque extra do físico não é o espelho de nada — ele é o que separa os dois.**
 
-| nível | Rotina | conjurador (o feitiço sozinho) | físico (canalizado + golpe simples) |
+| nível | Rotina | conjurador (o feitiço sozinho) | físico (feitiço de Toque + golpe simples) |
 |---|---|---|---|
 | 2 | 13 | 13 | 22 |
 | 10 | 45 | 40 | 50 |
@@ -114,9 +118,9 @@ A coluna Rotina do Fundamento é **o meio exato entre bater num alvo e espalhar 
 
 **O vão entre as duas linhas é exatamente um golpe simples — `9 · 10 · 11 · 12`.** Não é coincidência nem calibragem: o físico *é* o conjurador mais um golpe, e nunca foi outra coisa. *A tabela publicava `4 · 5 · 6 · 7`, que é o golpe simples menos o Classe 0 fantasma, em todo nível.*
 
-**A correção:** o golpe canalizado **não soma arma nem Força**. Ele *é* o feitiço; arma e Força são o que você faz quando **não** canaliza. Se o canalizado somasse os dois e ainda houvesse ataque extra:
+**A correção:** o feitiço de Toque **não soma arma nem Força**. Ele *é* o feitiço; arma e Força são o que você faz quando **não** canaliza. Se o feitiço de Toque somasse os dois e ainda houvesse ataque extra:
 
-| nível | Rotina | canalizado + arma + Força, dois golpes | quanto passa |
+| nível | Rotina | feitiço de Toque + arma + Força, dois golpes | quanto passa |
 |---|---|---|---|
 | 2 | 13 | 30 | **+135%** |
 | 10 | 45 | 60 | **+32%** |
@@ -124,9 +128,9 @@ A coluna Rotina do Fundamento é **o meio exato entre bater num alvo e espalhar 
 
 Então a regra fica em três linhas, e ela espelha a regra de ouro nº 6 do Fundamento:
 
-> **Golpe canalizado** = os dados da Classe, e nada mais. É o feitiço.
+> **Feitiço de Toque** = os dados da Classe, e nada mais. É o feitiço.
 > **Golpe simples** = arma + Força. É o Classe 0 físico.
-> **Um canalizado por turno.** Ataque extra é sempre golpe simples.
+> **Um feitiço de Toque por turno.** Ataque extra é sempre golpe simples.
 
 ## 3.1 Quem ganha ataque extra, e em que nível
 
@@ -152,7 +156,7 @@ Então a regra fica em três linhas, e ela espelha a regra de ouro nº 6 do Fund
 
 **A permissão, e o preço dela medido:**
 
-> **O `Arremate` e o `Coro` podem ter três rolagens de ataque numa rodada** — dois golpes na Ação Padrão e o feitiço na Ação Bônus, ou o arranjo espelho. **A trava que continua valendo é a regra de ouro nº 6 do Fundamento e a da seção 3 acima: um canalizado por turno, e ataque extra é sempre golpe simples.**
+> **O `Arremate` e o `Coro` podem ter três rolagens de ataque numa rodada** — dois golpes na Ação Padrão e o feitiço na Ação Bônus, ou o arranjo espelho. **A trava que continua valendo é a regra de ouro nº 6 do Fundamento e a da seção 3 acima: um feitiço de Toque por turno, e ataque extra é sempre golpe simples.**
 
 *Decisão do Mizuki: **"o Emanador já tem pouca vida, ele ter dano é o mínimo."*** **E o motivo tem número:** com Constituição 3 no nível 30 o Emanador chega a `212` de vida, contra `243` da Vanguarda e `305` do Bastião — **87% e 70%.**
 
@@ -211,6 +215,26 @@ Com um golpe na Ação Bônus, o conjurador de perto cai exatamente na linha do 
 
 > **Esta regra não tem validador dono, e isso é dívida.** Nenhum `conferir-*.py` lê a forma do ataque extra: o `conferir-manual.py` confere a coluna Rotina contra a qual ele foi aprovado, e o `conferir-orcamento.py` o cita numa linha de saída. **Nenhum dos dois falha se alguém trocar o slot ou apagar o gate.** Fica anotado como checagem que falta, junto da que conta skill.
 
+### Canalizar e atacar são ações diferentes — v0.81
+
+> **⚠ E ao escrever esta seção apareceu que a pergunta era outra: `golpe canalizado` NÃO EXISTE.** *Zero ocorrências no manual.* **A linha do físico desta peça está construída em cima dele, e a tabela do §3 continua publicando `106` quando a decisão abaixo implica `94`.** *O aviso completo, com a conta, está no topo do §3 da **peça 5**. Decisão do Mizuki: não refazer agora — o conserto é da versão que preceder o PDF.*
+
+*A v0.80 registrou este buraco como **o mais caro que ela deixou aberto**: esta peça publica a rodada do físico como `feitiço de Toque + golpe simples` e **nunca disse em que ação isso acontece**. Ele decidia a `Brasa` por um fator de `2,6×`.*
+
+> **Decisão do Mizuki: a Ação de Atacar NÃO inclui o feitiço de Toque.** *"Não tem como bater junto de um feitiço."* **Os dois não cabem no mesmo turno.**
+
+| o turno, no nível 30 | dano | existe? |
+|---|---|---|
+| feitiço de Toque `94` + golpe simples `11,5` | 105,5 | **sim** — é a linha do físico da seção 3 |
+| 2 golpes simples pela Ação de Atacar | 23 | **sim** |
+| feitiço de Toque + golpe simples **+ feitiço na Ação Bônus** | 132,5 | **não** |
+
+**A única exceção é a `Fornalha`, no nível 27 da `Brasa`** — e é justamente por ser exceção que ela é um degrau de nível 27.
+
+> **O que isso destrava:** toda entrega de Trilha que se pendura em *"se você usou a ação de atacar"* **não dispara na rodada em que o personagem canaliza.** *É o que faz o nível 2 da `Brasa` ser preçado por taxa em vez de somado no pico.*
+>
+> **⚠ E o que fica pendurado:** se o golpe simples da linha do físico não vem da Ação de Atacar, ele vem do **ataque extra do nível 7 como golpe solto por rodada**. *Isso é a leitura que faz o `105,5` reconstruir, e ela não está escrita em lugar nenhum — nem aqui, nem na peça 3.* **Anotado, não decidido.**
+
 ## 4. Invocação: não passa como está
 
 Este é o risco maior do pacote inteiro, e ele não tem conserto por preço.
@@ -257,7 +281,7 @@ E é a leitura correta da obra: as maldições do Geto individualmente são frá
 
 *Corrigido na v0.15, revisado na v0.19.* A regra original dizia "6 nos Caminhos de técnica, 4 nos físicos", e o **Guia não era nem um nem outro** — ficava sem número. A divisão em duas famílias não cobria os cinco Caminhos, então ela virou uma escada de três degraus com cada Caminho nomeado.
 
-O Guia e a Vanguarda ficam no meio, em 5. Os dois vivem entre bater e conjurar: o Guia estende efeito alheio e recupera, a Vanguarda alterna golpe canalizado com golpe simples. Nenhum dos dois é conjurador puro nem lutador puro, e o 5 diz isso.
+O Guia e a Vanguarda ficam no meio, em 5. Os dois vivem entre bater e conjurar: o Guia estende efeito alheio e recupera, a Vanguarda alterna feitiço de Toque com golpe simples. Nenhum dos dois é conjurador puro nem lutador puro, e o 5 diz isso.
 
 **O 6 do Emanador e do Evocador é o número mais caro de mexer**, porque o Fundamento tem uma tabela inteira de "quantas vezes você lança o seu melhor feitiço" calculada em cima dele. *Corrigido na v0.26:* isto não é o mesmo que "não é escolha nossa", que era como estava escrito. **É escolha nossa** — os limitadores do manual foram calibrados quando o sistema em volta era outro, e servem de continuidade, não de lei. Baixar o 6 é legal; o que não é legal é baixar sem regerar a coluna, porque aí a tabela do manual passa a mentir sobre a ficha. O 4 e o 5 são mais baratos porque não têm coluna pendurada neles.
 

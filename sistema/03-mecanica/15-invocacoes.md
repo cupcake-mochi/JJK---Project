@@ -732,7 +732,7 @@ E a cadência já existe: **os sete marcos**, que governam atributo, refino e fe
 
 ### Os nomes passaram pela triagem, e dois morreram nela
 
-**`Enxame` e `Sombra` saem OCUPADO — os dois são Tema no manual**, e `Enxame` era exatamente o nome óbvio para o Coelho de Fuga. `Toca` sai **DENTRO** de *"Toca a Alma"*, e `Golpe` sai **DENTRO** de *"Golpe canalizado"*, que é termo do sistema. *Quatro nomes que pareciam livres, e a triagem pegou os quatro antes de qualquer um ser escrito.*
+**`Enxame` e `Sombra` saem OCUPADO — os dois são Tema no manual**, e `Enxame` era exatamente o nome óbvio para o Coelho de Fuga. `Toca` sai **DENTRO** de *"Toca a Alma"*, e `Golpe` sai **DENTRO** de *"Feitiço de Toque"*, que é termo do sistema. *Quatro nomes que pareciam livres, e a triagem pegou os quatro antes de qualquer um ser escrito.*
 
 ### `Traço` — o que a invocação é. Sempre ligado.
 
@@ -768,7 +768,7 @@ E a cadência já existe: **os sete marcos**, que governam atributo, refino e fe
 | **8** | `Interpor` | se põe entre o dono e o golpe |
 | **8** | `Chamariz` | o alvo tem de vir para cima dela | Coelho de Fuga |
 
-*`Golpe` não pôde ser usado por estar dentro de `Golpe canalizado`; `Investir` saiu LIVRE. O `Cavar` não é o `Emboscada`: um faz buraco no chão, o outro é ela **saindo** dele, e os dois funcionam sozinhos.*
+*`Golpe` não pôde ser usado por estar dentro de `Feitiço de Toque`; `Investir` saiu LIVRE. O `Cavar` não é o `Emboscada`: um faz buraco no chão, o outro é ela **saindo** dele, e os dois funcionam sozinhos.*
 
 > **O `Chamariz` é a única entrada que existe porque um shikigami do material não fechava sem ela.** A peça 6 §4 descreve o produto do invocador como *"corpos que absorvem ataque, flanqueiam e bloqueiam caminho"* — e o Coelho de Fuga é *"muitos corpos que **distraem** para o dono fugir"*. Absorver e bloquear já tinham entrada; **distrair não tinha nenhuma.** Ele é **negar a ação de outro**, que é o degrau de 2 escrito.
 >

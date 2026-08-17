@@ -79,16 +79,48 @@ E o **Yuji** com o Punho Divergente é a mesma ideia num golpe só: o soco acert
 
 ---
 
-# `Estocada` mecânica — fechada na v0.74
+# `Estocada` mecânica — fechada na v0.74, **nível 27 refeito na v0.81**
 
-> **`4,58` de `5,00` fatias.** E o nível 2 dela, que é a identidade inteira, custa **zero**.
+> **`5,02` de `5,00` fatias.** E o nível 2 dela, que é a identidade inteira, custa **zero**.
 
-| nv | a entrega | fatias |
+| nv | a entrega | fatias | antes |
+|---|---|---|---|
+| **2** | conjurar na padrão e bater na bônus, e a troca de atributo no grupo escolhido | **0,00** | 0,00 |
+| **11** | o golpe da bônus pega um segundo alvo **adjacente**, quando o feitiço acerta | 1,23 | 1,23 |
+| **19** | ataque extra na bônus quando o feitiço da padrão é **condicional** | **2,46** | 2,46 |
+| **27** | o **primeiro** golpe da bônus carrega um **Classe 0**, se o feitiço da padrão acertou | **1,33** | *0,89* |
+
+### O nível 27 foi refeito, e o motivo é o Classe 0 fantasma
+
+**Ele era *"o golpe da bônus carrega SEMPRE um Classe 0"*, e estava preçado em `0,89`** — que é o `4,50` fantasma dividido pela fatia, sem gate nenhum.
+
+**Com o `27` do manual, a mesma entrega vale `5,31` fatias — mais que a Trilha inteira.**
+
+> **A regra que sai disto, e ela é do sistema e não desta Trilha:** *um Classe 0 custa `0` de PE, não gasta ação, e causa `27` no nível 30.* **"Ganha um Classe 0 toda rodada" vale `5,31` fatias, e o orçamento de uma Trilha é `5,00`.** *Nenhuma entrega pode conceder isso sem relógio ou gate — e antes da v0.80 isso custava `0,89` e cabia em qualquer canto.*
+
+**O conserto é do Mizuki, e ele tem duas metades — mais uma terceira que o texto nunca tinha dito.**
+
+| a cláusula | de onde vem | o que ela faz |
 |---|---|---|
-| **2** | conjurar na padrão e bater na bônus, e a troca de atributo no grupo escolhido | **0,00** |
-| **11** | o golpe da bônus pega um segundo alvo **adjacente**, quando o feitiço acerta | 1,23 |
-| **19** | ataque extra na bônus quando o feitiço da padrão é **condicional** | **2,46** |
-| **27** | o golpe da bônus carrega sempre um **Classe 0** | 0,89 |
+| **só no PRIMEIRO golpe da bônus** | dele | **não muda o número** — eu já preçava um Classe 0 só. *Ela fecha uma ambiguidade real: o texto dizia "o golpe" no singular e o nível 19 cria um segundo golpe. Sem ela, dois mestres liam `5,31` e `10,63`* |
+| **o feitiço da padrão tem de ter acertado** | dele | gate de `50%`. *A taxa tem dono nesta mesma Trilha: o nível 11 usa "quando o feitiço acerta" e reconstrói em `52%`* |
+| **o Classe 0 acompanha o golpe** | leitura natural de *"carrega"* | mais `50%`. *O preço velho supunha que o golpe nunca errava* |
+
+**Os dois gates juntos dão `25%`:** `27 × 0,25 = 6,75` de dano, que são **`1,33` fatia**.
+
+| gate | dano | fatia | total da Trilha |
+|---|---|---|---|
+| nenhum — como estava | 27,00 | 5,31 | 9,00 |
+| só o feitiço acertou | 13,50 | 2,66 | 6,35 |
+| **os dois** | **6,75** | **1,33** | **5,02** |
+
+> **`5,02` contra um topo de `5,00`.** *A `Brasa` está publicada em `5,03` e foi aceita — mesma ordem de folga.*
+
+> ## A dominância declarada INVERTEU, e ela continua ruído
+>
+> **Desde a v0.75 a rota `Arma de Fogo` domina a `Estocada` por `1,03×`**, aceita e declarada porque `0,16` fatia é um terço da largura da banda. **Com a `Estocada` em `5,02`, ela vira `Estocada` sobre `Arma de Fogo` por `1,06×`.**
+>
+> **Mesmo tamanho, outro sentido**, e continua passando o filtro que reprova em `3,0×`. *A causa não mudou: as duas são `100%` ação/alvo, e o que falta é coluna e não número.*
 
 > **Nível 2.** Você usa a ação **Conjurar** na ação padrão e dá um **golpe com arma do grupo escolhido** como ação bônus.
 > **E naquele grupo de armas, o acerto e o dano usam Essência ou Inteligência** no lugar de Força ou Destreza. **O requisito de Força para empunhar continua valendo.**
@@ -105,7 +137,7 @@ E o **Yuji** com o Punho Divergente é a mesma ideia num golpe só: o soco acert
 
 | | ação padrão | ação bônus | bruto |
 |---|---|---|---|
-| Vanguarda base — **Atacar** | canalizado `94` + golpe `12,5` | auxiliar | **106,5** |
+| Vanguarda base — **Atacar** | feitiço de Toque `94` + golpe `12,5` | auxiliar | **106,5** |
 | `Estocada` — **Conjurar** | o feitiço de verdade `94` | golpe `12,5` | **106,5** |
 
 **O que ela compra é o que a Vanguarda perdia:** hoje, quem quer usar a técnica dela **perde todos os ataques daquela rodada**, porque Conjurar gasta a ação padrão. *Mesma Classe, mesmo orçamento, mesmo PE — o que muda é que os pontos podem virar Melhoria em vez de só dado.*
@@ -121,8 +153,8 @@ E o **Yuji** com o Punho Divergente é a mesma ideia num golpe só: o soco acert
 | a proposta | por que caiu |
 |---|---|
 | *"conjurar deixa de exigir que você largue a arma"* | **conjurar não exige mão livre neste sistema.** Quem exige é a Restrição `Gesto`, que é **escolhida** e **devolve pontos** — cancelar ela de graça é `Melhoria de graça` pela porta dos fundos, e a cerca da peça 5 §4 proíbe pelo nome. *E a peça 6 já chama "escudo e Gesto se cancelam" de decisão de ficha interessante.* |
-| *"ao usar um feitiço, um golpe simples de bônus"*, sem mais nada | **é o ataque extra do nível 7, com outras palavras.** A base do físico já é `canalizado + golpe simples`, e a peça 6 §3.1 escreve que *"ataque extra é sempre golpe simples"*. Do nível 7 em diante seria duplicação; antes dele, adiantamento de cinco níveis que a fatia não consegue preçar |
-| *"o canalizado sai pela arma"* | **dado de dano no Caminho.** A v0.15 já mediu: canalizado somando arma dá `+135%` no nível 2 |
+| *"ao usar um feitiço, um golpe simples de bônus"*, sem mais nada | **é o ataque extra do nível 7, com outras palavras.** A base do físico já é `feitiço de Toque + golpe simples`, e a peça 6 §3.1 escreve que *"ataque extra é sempre golpe simples"*. Do nível 7 em diante seria duplicação; antes dele, adiantamento de cinco níveis que a fatia não consegue preçar |
+| *"o feitiço de Toque sai pela arma"* | **dado de dano no Caminho.** A v0.15 já mediu: o feitiço de Toque somando arma dá `+135%` no nível 2 |
 
 > **O nível 19 traz uma família de gatilho que a lista não tem.** *"Quando o feitiço da padrão é condicional"* é **o único gatilho do projeto controlado inteiramente pelo jogador** — não é rolagem, nem relógio, nem estado da ficha, nem julgamento do mestre. É escolha, toda rodada. **A `LISTA-gatilhos-trilhas.md` precisa de uma quinta família, ou de uma regra dizendo que essa é sempre `100%`.** *Preçado a `100%` aqui; a `50%` a Trilha cai para `3,35` e sai da banda.*
 
@@ -303,7 +335,7 @@ E o **Yuji** com o Punho Divergente é a mesma ideia num golpe só: o soco acert
 
 | | ação/alvo | defesa | posicionamento | recuperação | total |
 |---|---|---|---|---|---|
-| `Estocada` | **4,58** | 0,00 | 0,00 | 0,00 | 4,58 |
+| `Estocada` | **5,02** | 0,00 | 0,00 | 0,00 | **5,02** |
 | `Executor` | 2,84 | **1,84** | 0,00 | 0,00 | 4,68 |
 
 **O `Executor` é o único da Vanguarda com coluna de defesa**, e a `Estocada` lidera ação/alvo com folga de `1,6×`. **Nenhum domina o outro.**
@@ -372,7 +404,7 @@ Ela não fechava porque a `Estocada` e o `Batedor` foram preçados **sem declara
 
 | | ação/alvo | defesa | posicionamento | recuperação | total |
 |---|---|---|---|---|---|
-| `Estocada` | **4,58** | 0,00 | 0,00 | 0,00 | 4,58 |
+| `Estocada` | **5,02** | 0,00 | 0,00 | 0,00 | **5,02** |
 | `Executor` | 2,84 | **1,84** | 0,00 | 0,00 | 4,68 |
 | `Batedor` · `Yumi` | 4,46 | 0,00 | 0,35 | 0,00 | 4,81 |
 | `Batedor` · `Besta` | 3,82 | 0,00 | **0,71** | 0,00 | 4,53 |
@@ -611,14 +643,61 @@ Aquele `11,50` é a linha de comparação do §2 da **peça 5**, e ela usa `1d10
 
 *A vantagem custa `0,18` fatia, e ela é pequena porque só dispara em **um quarto** das rodadas — você precisa acertar os dois.*
 
-## `Brasa` — 5,03 de 5,00
+## `Brasa` — **REPREÇADA na v0.81: `7,06` a `9,42` de `5,00`, e o estouro fica**
 
-| nv | a entrega | forma | fatias |
+| nv | a entrega | forma | fatias | antes |
+|---|---|---|---|---|
+| **2** | o Classe 0 na ação bônus | permanente | **4,08** | *1,22* |
+| **11** | energia temporária | permanente | 1,01 | 1,01 |
+| **19** | o feitiço do bônus sobe para **`Classe 3`, e `Classe 4` do nível 21** | permanente | **0,00 a 2,36** | *1,03* |
+| **27** | **`Fornalha`** | botão | 1,97 | *1,77* |
+
+> ***Decisão do Mizuki: fica estourado.*** *"Parece que é forte, mas não é, garanto."* **Precedente dele mesmo: o `Punho` fechou `22%` acima e ficou.** *Este é maior — e a matriz do Bastião continua limpa, que é o mesmo motivo que segurou o `Punho`.*
+
+### O turno do Brasa, escrito, porque ele era o buraco
+
+**A v0.80 registrou que a peça 6 nunca disse se a Ação de Atacar de um físico inclui o feitiço de Toque. Ela não inclui.** *Decisão do Mizuki: **canalizar e atacar são ações diferentes, e não cabem no mesmo turno.***
+
+| o turno | dano no nv30 | existe? |
+|---|---|---|
+| feitiço de Toque `94` + golpe simples `11,5` | 105,5 | **sim** — é a linha do físico da peça 6 |
+| **2 socos `23` + Classe 0 na bônus `27`** | **50** | **sim — é o turno do `Brasa`** |
+| feitiço de Toque + golpe + Classe 0 na bônus | 132,5 | **NÃO.** *"Não tem como bater junto de um feitiço — isso é só o efeito da `Fornalha`."* |
+
+> **Isso fecha o buraco de texto mais caro que a v0.80 deixou aberto**, e ele valia um fator de `2,6×` na `Brasa`. *A resposta veio da mesa e não da conta, que é o que aquela versão previu.*
+
+### De onde sai o `4,08` do nível 2
+
+**O Classe 0 da bônus não é de graça** — ele custa a Ação Bônus e exige ter gasto a Padrão atacando. **O que ele rende é nas rodadas em que você ia socar de qualquer jeito**, e aí o custo já foi pago pela rodada.
+
+*O Bastião tem `120` de PE no nível 30 e um Classe 7 custa `21`: são `5,7` conjurações num dia de `13` rodadas.* **Ele soca em `56%` das rodadas** — a peça 5 já escrevia isso, em *"socar é a saída quando o PE acaba"*.
+
+| | conta | fatias |
+|---|---|---|
+| o Classe 0 na bônus | `27 × 56%` = 15,1 | **2,97** |
+| a vantagem nele quando um soco acertou | `27 × 0,5 × 75% × 56%` = 5,7 | **1,11** |
+| | | **4,08** |
+
+*O `1,22` publicado era `4,50 + 1,69` dividido pela fatia — o Classe 0 fantasma, sem taxa nenhuma.*
+
+### ⚠ O nível 19 é FAIXA e não número, e a causa está declarada
+
+**A escada é do Mizuki: `Classe 3` no nível 19, e `Classe 4` quando a `Classe 6` libera no nível 21.** *Ele paga o PE normal do feitiço, e a condição de largar o ataque extra continua valendo.*
+
+| nível | teto | contra o Classe 0 | ganho, largando o soco |
 |---|---|---|---|
-| **2** | o Classe 0 na ação bônus | permanente | **1,22** |
-| **11** | energia temporária | permanente | 1,01 |
-| **19** | o feitiço do bônus sobe para Classe 2 | permanente | 1,03 |
-| **27** | **`Fornalha`** | botão | **1,77** |
+| 19 | `Classe 3` = 40 | 22,5 | +7,0 |
+| **21** | **`Classe 4` = 54** | 22,5 | **+21,0** |
+| 30 | `Classe 4` = 54 | 27,0 | +15,5 |
+
+**Mas o degrau briga com o feitiço grande pela mesma energia, e perde:** canalizar rende `2,64` de dano por PE e o `Classe 4` na bônus rende `1,29`. *Com o poço cobrindo exatamente as `5,7` conjurações do dia, não sobra PE para o botão.*
+
+| se o `Brasa` … | o nv19 vale | a Trilha fecha em |
+|---|---|---|
+| carrega um feitiço grande na lista | **0,00** | 7,06 |
+| monta só feitiço pequeno, que é a ficção dele | **2,36** | 9,42 |
+
+> **Ninguém escreveu se a Trilha empurra para um lado, e não é conta — é o que o jogador monta.** *Fica como faixa declarada, no molde do `Quick Draw` da rota `Arma de Fogo`, que também é faixa por depender de qual arma entra.* **É a primeira coisa a medir na mesa junto com o estouro.**
 
 *Só o nível 2 se moveu, e por metade da passada: a vantagem sobre o Classe 0 sobe de `0,72` para `1,69` — `25` pp em vez de `16`, e gate de `75%` em vez de `50%`. **O nível 19 não se move**, porque ele abre mão do ataque extra e lá o `50%` é o número certo.*
 
@@ -839,7 +918,7 @@ Aquele `11,50` é a linha de comparação do §2 da **peça 5**, e ela usa `1d10
 | `+2` de Defesa | 0,67 | 13% |
 | `+2` no Teste de Resistência | 0,27 | 5% |
 
-> **Por que restringir a arma ou a feitiço não corta pela metade:** *um canalizado é **um** ataque por turno e a arma são **dois** no nível 30.* Então a rota `arma` vale o dobro da rota `feitiço`, e o jogador escolhe arma sempre. **O `+2` restrito continua sendo os `4,25` da `Arquearia`, que a v0.76 já tinha reprovado com este número exato.**
+> **Por que restringir a arma ou a feitiço não corta pela metade:** *um feitiço de Toque é **um** ataque por turno e a arma são **dois** no nível 30.* Então a rota `arma` vale o dobro da rota `feitiço`, e o jogador escolhe arma sempre. **O `+2` restrito continua sendo os `4,25` da `Arquearia`, que a v0.76 já tinha reprovado com este número exato.**
 >
 > **E Defesa e Teste de Resistência tiveram de sair do menu.** Contra os `2,13` da arma eles ficam `3,2×` e `8,0×` atrás — fora do filtro. **O menu fecha porque virou um menu de uma coisa só:** acerto, e você escolhe onde. *Duas portas, `2,0×` entre elas.*
 
@@ -997,27 +1076,69 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 
 **Esse degrau sozinho carrega `3,78` fatias no nível 30 — `76%` da Trilha.** *Sobram `1,22` para o 19 e o 27 juntos, e é um orçamento apertado de propósito.*
 
-## `Torrente` — `5,37` de `5,00` fatias, `7%` acima da banda
+## `Torrente` — `4,65` de `5,00` fatias — **REPREÇADA na v0.81**
 
-| nv | a entrega | forma | fatias |
-|---|---|---|---|
-| **2** | **`acelerar`**, `2×` por cena. Teto do outro feitiço: `Classe 0` | botão | *(a base)* |
-| **11** | o teto vira **metade da sua maior Classe** | permanente | **3,78** |
-| **19** | o `acelerar` **não gasta carga** quando você não torra | permanente | 0,10 |
-| **27** | a metade **arredonda para CIMA** | permanente | **1,49** |
+| nv | a entrega | forma | fatias | antes |
+|---|---|---|---|---|
+| **2** | **`acelerar`**, `2×` por cena. Teto do outro feitiço: `Classe 0` | botão | *(a base)* | — |
+| **11** | o teto vira **metade da sua maior Classe** | permanente | **1,38** | *3,78* |
+| **19** | **`Mão Firme`** — rerrolar `1`, `2` e `3` nos dados de dano quando o feitiço for o único da rodada | permanente | **1,78** | *0,10* |
+| **27** | a metade **arredonda para CIMA** | permanente | **1,49** | 1,49 |
 
 > **Nível 2 — `acelerar`.** *`2×` por cena.* Você conjura um feitiço da sua **ação padrão como ação bônus**, pagando **`Classe e meia` de PE a mais**, arredondando para cima. *Num Classe 7 são `11` de PE — o preço que a coluna `Pesada` da tabela 81 dá.*
 > Naquele turno, o outro feitiço que você lançar **não passa de `Classe 0`** — que é o que a regra de ouro nº 6 já diz.
 >
 > **Nível 11.** Aquele teto deixa de ser `Classe 0` e passa a ser **metade da sua maior Classe**, arredondando para baixo.
 >
-> **Nível 19.** Se o outro feitiço daquele turno for **`Classe 0`**, o `acelerar` **não gasta carga.** *Acelerar vira automático; torrar continua sendo recurso.*
+> **Nível 19 — `Mão Firme`.** Quando o feitiço que você conjura é **o único feitiço daquele turno**, **rerrole todo dado de dano dele que cair em `1`, `2` ou `3`.** Você fica com o segundo resultado.
 >
 > **Nível 27.** Aquela metade passa a **arredondar para cima.** *Com Classe 7 o teto vai de `Classe 3` para `Classe 4`.*
 
+### Por que ela caiu de `5,37` para `2,97` antes de subir de novo
+
+**A premissa dela estava preçada com o Classe 0 fantasma.** A Trilha existe para furar um teto — *o segundo feitiço da rodada é travado em `Classe 0`, e eu subo o teto*. **Só que um `Classe 0` no nível 30 causa `27`, e um `Classe 3` causa `40`.**
+
+> **Furar o teto vale `13` de dano, e não `36`.** *A trava do manual nunca foi tão apertada quanto o preço supunha.*
+
+| entrega | publicado | com o fantasma `4,50` | com o `27` do manual |
+|---|---|---|---|
+| nv11 — o teto vira `Classe 3` | 3,78 | **3,77** | **1,38** |
+| nv27 — o teto vira `Classe 4` | 1,49 | **1,49** | **1,49** |
+
+*A coluna do meio é a prova de que o achado não é erro meu: o modelo reproduz o número publicado usando o fantasma, e só depois troca pelo valor do manual.* **O nível 27 não se move, porque ele é `Classe 4` menos `Classe 3` e o Classe 0 não entra na conta.**
+
+### O nível 19 velho morreu, e ele tinha virado incoerente
+
+*Ele era: "se o outro feitiço daquele turno for `Classe 0`, o `acelerar` não gasta carga".* **Ele premiava você por lançar um `Classe 0` — e um `Classe 0` agora causa `27`.** *O degrau existia porque o `Classe 0` parecia lixo; com ele valendo o mesmo que um `Classe 2` num alvo, o incentivo virou do avesso.*
+
+### O `Mão Firme` — a ideia é do Mizuki, e o alvo dela mudou uma vez
+
+**A proposta dele era vantagem na rolagem de ataque na rodada solitária.** *Ela foi medida e bateu numa parede conhecida:* `94 × 0,5 × 46%` dá **`21,59`**, que são `4,25` fatias.
+
+> **É a quarta aparição do mesmo número.** A `Arquearia` (v0.76), o `+2` de acerto no menu do `Elo` (v0.77) e a `Modelagem` como presente (v0.79) bateram todas em `21,60`. **Mexer no acerto de quem já causa `94` é sempre grande demais.**
+
+**O gate dele sobreviveu inteiro — o que trocou foi o botão.** *A rodada em que o feitiço é o único continua sendo o gatilho, e ela é `46%` das rodadas.*
+
+| botão, no mesmo gate | ganho | fatias | total da Trilha |
+|---|---|---|---|
+| vantagem no feitiço grande | 21,59 | 4,25 | 7,22 |
+| rerrolar `1` | 4,22 | 0,83 | 3,70 |
+| rerrolar `1` e `2` | 7,24 | 1,42 | 4,29 |
+| **rerrolar `1`, `2` e `3`** | **9,05** | **1,78** | **4,65** |
+
+> ## ⚠ DUAS RERROLAGENS NO SISTEMA, E A DIFERENÇA É DECLARADA
+>
+> **A `Arma Grande` da `Pegada` rerrola `1` e `2`. O `Mão Firme` rerrola `1`, `2` e `3`.** *Dois botões parecidos com números diferentes é a lição nº 9 esperando acontecer, e ela já mordeu duas vezes dentro deste arquivo.*
+>
+> **A diferença não tem justificativa de design — ela existe para o orçamento fechar.** *Isso fica escrito porque escrever número para fechar contagem é exatamente o defeito que a régua de Legados nasceu para achar, e fingir um motivo seria pior que declarar que não tem.*
+>
+> **O que separa os dois de verdade é a janela, não a magnitude:** a `Arma Grande` dispara em todo golpe (`100%`) num dado de arma; o `Mão Firme` dispara em `46%` das rodadas sobre `21` dados. **Se um dia os dois convergirem para o mesmo número, é este bloco que decide qual cede.**
+>
+> **E ele custa tempo de mesa, declarado:** um `Classe 7` são `21d8`, e a janela de `1` a `3` mexe em **`37%` deles — cerca de `8` dados rerrolados por conjuração.** *É o mesmo eixo que fez a peça 15 trocar a `Matilha` para rolagem em pool. Não é reprovação; é preço, e ele é a primeira coisa a olhar no playtest desta Trilha.*
+
 > **O nível 27 é uma linha de texto e é o degrau mais caro da Trilha, e isso não é acidente.** O projeto arredonda sempre **para o lado que não te favorece** — é regra global da peça 1. **Inverter isso num lugar só é uma exceção legível**, que qualquer mestre lê e aplica igual. *E ela não oscila: do nível 27 ao 30 a maior Classe é sempre `7`, então o teto é sempre `Classe 4`.*
 
-**A matriz da `Torrente` no nível 30:** `5,37` em ação/alvo, e zero nas outras três colunas. *Ela é a Trilha mais monocromática do Emanador, e isso vai importar quando as três forem cruzadas.*
+**A matriz da `Torrente` no nível 30:** `4,65` em ação/alvo, e zero nas outras três colunas. *Ela é a Trilha mais monocromática do Emanador, e isso vai importar quando as três forem cruzadas.*
 
 > **O estouro de `7%` está aceito, e o precedente é do próprio Mizuki:** o `Punho` fechou `22%` acima e ficou. **Sete por cento é menos de um terço daquilo**, e cabe dentro da largura da própria banda de escrita.
 
@@ -1029,7 +1150,73 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 
 ---
 
-### Repertório — *saber a jujutsu que a hora pede*
+### Explosivo — *um feitiço só, e ele sai maior* — **fechada na v0.81**
+
+> **`5,57` de `5,00` fatias — `11%` acima, e o estouro fica.** *Metade do estouro do `Punho`, que já está aceito desde a v0.74.*
+
+**O `Repertório` foi ABANDONADO, e o motivo tem conta.** *A ficção dele — saber a jujutsu que a hora pede — só se preçava por "uma aptidão a mais", e essa régua não existe nem pode existir: ela vale a Trilha inteira para quem nunca escolhe Refino e um sétimo para quem sempre escolhe.* **E as duas colunas vazias do Caminho não aguentavam uma Trilha:** liderar em recuperação pede `3` de PE por rodada devolvidos, e em posicionamento pede `26` metros por rodada. *O `Perímetro` do Guia já tinha batido nessa parede e saído com zero em posicionamento.*
+
+> **A régua que eu disse existir não existia, e o Mizuki pegou.** *Eu afirmei que o nível 2 da `Sutura` preçava "aptidão cedo" em `0,89`.* **Ele preça a CURA:** `2` PE de teto × `4,5` de cura por PE = `9`, e dano evitado converte `1` pra `1`, vezes os `50%` de rodadas em que o curandeiro cura. **Dá `0,89` exato.** *O "sem gate" é o que torna a aptidão disponível; o número vem do efeito.*
+
+| nv | a entrega | forma | fatias |
+|---|---|---|---|
+| **2** | rerrolar `1` e `2` nos dados de dano, **quando aquele for o seu único feitiço de dano da rodada** | condicional | **1,42** |
+| **11** | some o seu **atributo de conjuração** no dano de todo feitiço | permanente | 1,18 |
+| **19** | gaste **`a Classe` do feitiço em PE** para rolar o ataque dele **com vantagem** | botão | **2,25** |
+| **27** | `1×` por cena, um feitiço soma **+metade da Classe em dados**, pagando **PE igual aos dados extras** | botão | 0,72 |
+
+> **Nível 2.** Quando o feitiço que você conjura é **o único feitiço de dano daquele turno**, **rerrole todo dado de dano dele que cair em `1` ou `2`.**
+>
+> **Nível 11.** Todo feitiço seu soma o **seu atributo de conjuração** no dano.
+>
+> **Nível 19.** Ao conjurar um feitiço que resolve por rolagem de acerto, você pode gastar **`a Classe` dele em PE** para rolar aquele ataque **com vantagem**. *Num Classe 7 são `7` PE, além dos `21` do próprio feitiço.*
+>
+> **Nível 27.** `1×` por cena, um feitiço seu soma **`metade da Classe` em dados de dano**, e você paga **`1` PE por dado extra**. *Num Classe 7 são `+3d8` por `3` PE.*
+
+#### De onde sai cada número
+
+**O nível 2 usa o mesmo gate do `Mão Firme` da `Torrente`**, e é ele que segura o degrau. *Sem gate, rerrolar `1` e `2` em `21` dados vale `3,10` fatias — `62%` da Trilha num degrau só.* **Com o gate de `46%` ele cai para `1,42`.**
+
+> **A diferença entre os dois rerrolls não é a janela, é o gate.** *O `Mão Firme` rerrola `1`, `2` e `3` e custa `1,78`; este rerrola `1` e `2` e custa `1,42`.* **Os dois têm o mesmo gatilho — a rodada de um feitiço só — e a janela maior é o que a `Torrente` compra por ser mais pobre em outros lugares.**
+
+**O nível 11 passa na deriva, e o achado é de qual nível se mede.** *Eu reprovei ele lendo a deriva a partir do nível 2 — `23,1%` da Rotina lá contra `5,6%` no nível 30, que é `4,15×`.* **Mas a entrega chega no nível 11, e de lá até o 30 a deriva é `1,60×`** — dentro do filtro de `3,0×`.
+
+> **É por isso que a `Presa` do Evocador reprovou e esta passa:** *a `Presa` chega no nível **2**, onde o atributo vale `23%` da Rotina. **Não é a mesma entrega.*** *Achado do Mizuki.*
+
+**O nível 19 é o achado de método desta Trilha, e ele corrigiu um erro meu grande.** *Eu preçei a vantagem em `9,25` fatias — a quinta aparição da parede dos `21,60`.* **Aquela conta tratava a vantagem como se ela não competisse com conjurar, e ela compete: o PE gasto nela é um feitiço a menos depois.**
+
+| o custo em PE | o degrau vale | a Trilha fecha em |
+|---|---|---|
+| `metade da Classe` — 4 | 3,98 | 7,30 |
+| **`a Classe` — 7** | **2,25** | **5,57** |
+| `Classe e meia` — 11 | 1,12 | 4,44 |
+
+*Modelado como otimização do dia inteiro: `180` de PE, `13` rodadas, e o jogador escolhendo entre conjurar de novo e comprar vantagem.* **Sem a entrega o melhor dia rende `886` de dano; com ela a `7` PE, `1.034`.**
+
+> ***Decisão do Mizuki: `a Classe`, e se estourar tudo bem.*** *`a Classe` é fórmula com dono e escala sozinha; `10` fixo fecharia na banda mas seria número solto.*
+
+#### ⚠ A dominância, declarada
+
+**Com `5,57`, o `Explosivo` domina a `Torrente` por `1,20×`.** As duas são `100%` ação/alvo, e nenhuma tem coluna que a outra zere.
+
+| | ação/alvo | defesa | posicionamento | recuperação | total |
+|---|---|---|---|---|---|
+| `Torrente` | 4,65 | 0,00 | 0,00 | 0,00 | 4,65 |
+| `Arremate` | 2,36 | **1,38** | 0,00 | 0,00 | 3,74 |
+| **`Explosivo`** | **5,57** | 0,00 | 0,00 | 0,00 | **5,57** |
+
+> **Ela é maior que a da `Arma de Fogo` sobre a `Estocada`, que é `1,06×` e está aceita.** *Mas ela continua dentro do filtro que reprova em `3,0×`, e a causa é a mesma das outras duas: **falta coluna, não sobra número.*** **O Emanador inteiro tem `posicionamento` e `recuperação` vazios nas três Trilhas** — e quem fechar essa lacuna é a peça de Caminhos, não uma destas.
+
+#### O que este bloco deixa em aberto
+
+- **⚠ A dominância sobre a `Torrente` é `1,20×` e fica declarada**, não consertada. *Se ela incomodar na mesa, o conserto é dar coluna ao `Arremate` ou ao `Explosivo`, e não cortar número.*
+- **O nome passou pela triagem e saiu `LIVRE`.** *`Estopim`, `Ápice`, `Auge`, `Rompante`, `Pavio`, `Estouro`, `Fagulha` e `Culminar` também saíram livres, e ficam registrados.*
+- **As doze entregas do Caminho continuam sem nome.**
+- **O `Repertório` morreu, e a ficção dele fica abaixo** — ela é boa e pode voltar num Caminho que tenha coluna para ela.
+
+---
+
+### ~~Repertório~~ — *saber a jujutsu que a hora pede* — **ABANDONADA na v0.81**
 
 **No material:** o **Kenjaku**. Mil anos trocando de corpo, e o que ele acumulou nesse tempo não foi potência — foi **repertório**. O Culling Game inteiro foi montado com uma mistura de várias jujutsu diferentes, nenhuma delas espetacular sozinha.
 
@@ -1103,7 +1290,7 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 
 | | ação/alvo | defesa | posicionamento | recuperação | total |
 |---|---|---|---|---|---|
-| `Torrente` | **5,37** | 0,00 | 0,00 | 0,00 | 5,37 |
+| `Torrente` | **4,65** | 0,00 | 0,00 | 0,00 | 4,65 |
 | `Arremate` | 2,36 | **1,38** | 0,00 | 0,00 | 3,74 |
 
 > **Nenhuma domina a outra, e quem segura isso é a coluna de defesa do `nv19` sozinha.** *A `Torrente` é `100%` ação/alvo; um `Arremate` que também fosse só ação/alvo e fechasse abaixo de `5,37` estaria dominado por definição.*
@@ -1134,7 +1321,7 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 
 - **Nada disto tem número.** É ficção, no método que fechou as nove primeiras: você revisa, e só depois eu preço as três de uma vez.
 - ~~O nível 7 do Caminho decide o que a `Torrente` pode ser.~~ **REFEITO na v0.80: a `Voz Grossa` morreu e virou o `Resquício`** — um Classe 0 na Ação Bônus quando a Padrão foi feitiço que não causa dano. *Ela morreu porque um Classe 0 causa `27` no nível 30 e um golpe simples causa `12`: a entrega era um rebaixamento.* **A ação bônus continua livre para a `Torrente` nas rodadas de dano** — o `Resquício` só dispara em rodada de controle.
-- ~~A `Torrente` travou numa régua que não existe.~~ **FECHADA na v0.79, em `5,37`.** *A saída foi preçar por **ritmo** e não por conversão de PE — o ganho dela não é virar PE em dano, é furar o teto de quanto PE cabe numa rodada.*
+- ~~A `Torrente` travou numa régua que não existe.~~ **FECHADA na v0.79 em `5,37` e REPREÇADA na v0.81 para `4,65`.** *A saída foi preçar por **ritmo** e não por conversão de PE.* **A repreçagem veio do Classe 0: o `5,37` tinha sido calculado com o fantasma de `4,50`, e furar o teto vale `13` de dano e não `36`.** *O nível 19 velho morreu junto — ele premiava lançar `Classe 0`, que deixou de ser lixo — e no lugar entrou o `Mão Firme`.*
 - ~~O `Arremate` contradiz a peça 6 §3.1.~~ **APLICADO na v0.80**, com o motivo e o número da vida escritos na peça 6, e o `Coro` herdando.
 - **⚠ O `Arremate` fechou em `3,74` de `5,00` e o nível 27 dele ficou VAGO.** *A entrega que estava lá vale `0,00` com o Classe 0 certo — as duas metades se cancelam.* **Sobram `1,26` fatia, que são `6,40` de dano por rodada.** *A ficção do degrau é o capstone do Mahito: dentro do domínio ele deixa de precisar tocar.*
 - **Falta o `Repertório`**, e ele precisa liderar em **posicionamento** ou **recuperação** — as duas colunas vazias do Caminho. *E não existe régua para converter "uma aptidão a mais" em fatia.*

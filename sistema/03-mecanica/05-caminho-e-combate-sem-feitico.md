@@ -5,7 +5,7 @@ Versão v0.13, corrigida na v0.15 e na v0.24 — 08/08/2026
 
 As duas coisas andam juntas porque o Caminho é o lugar natural onde o combatente físico existe sem quebrar a economia do Fundamento.
 
-> **Duas partes desta peça foram substituídas pela peça 6.** A seção 3 dizia que o golpe canalizado soma arma e Força — está corrigido abaixo, e a conta que derruba isso está na peça 6, seção 3. O quadro de Caminhos da seção 4 era rascunho: os nomes definitivos são **Bastião · Vanguarda · Guia · Emanador · Evocador**. O resto da peça continua valendo.
+> **Duas partes desta peça foram substituídas pela peça 6.** A seção 3 dizia que o feitiço de Toque soma arma e Força — está corrigido abaixo, e a conta que derruba isso está na peça 6, seção 3. O quadro de Caminhos da seção 4 era rascunho: os nomes definitivos são **Bastião · Vanguarda · Guia · Emanador · Evocador**. O resto da peça continua valendo.
 
 ---
 
@@ -55,12 +55,32 @@ Nenhuma quantidade de requisito de Força, nenhuma tabela de arma e nenhum ajust
 
 ## 3. Canalizar Energia
 
+> ## ⚠⚠ LIMPAR ANTES DO PDF — o "golpe canalizado" nunca existiu
+>
+> **v0.81.** *O termo `golpe canalizado` tem **zero** ocorrências no manual — junto com `canalizado`, `canaliza`, `Canalizar` e `golpeadora`.* **Ele era abreviação de *feitiço de Forma Toque*, e a palavra "golpe" fez um feitiço parecer um ataque.** Foi trocado por `feitiço de Toque` em 39 lugares, **sem mexer em número nenhum**.
+>
+> **A aptidão `canalizar energia` fica** — ela é termo da obra e a peça 11 a lista entre as doze que o material obriga. *O que ela faz é deixar você lançar a sua técnica como feitiço de Forma Toque.*
+>
+> **⚠ E o que a troca de palavra NÃO consertou, e precisa ser resolvido antes de qualquer PDF:**
+>
+> **A linha do físico da peça 6 §3 é `feitiço de Toque + golpe simples` = `106` no nível 30.** *Um feitiço de Toque gasta a Ação Padrão conjurando; o golpe simples e o ataque extra exigem a Ação de Atacar.* **Decisão do Mizuki na v0.81: o ataque extra sempre exige a Ação de Atacar, como no 5e.** *Então os dois não cabem no mesmo turno, e o físico faz `94` — o mesmo que o conjurador.*
+>
+> | | publicado hoje | sem o fantasma |
+> |---|---|---|
+> | conjurador | 94 | 94 |
+> | físico | **106** | **94** |
+> | o vão | **12** | **0** |
+>
+> **Se o vão é zero, o degrau do nível 7 dos cinco Caminhos fica sem o que o pagava**, e com ele o nível 2 do `Arremate`, o `Resquício` do Emanador e as duas decisões que a v0.80 marcou. *O ataque extra passa a valer o que ele rende nas rodadas em que o PE acabou — cerca de `1,2` fatia, e não `2,36`.*
+>
+> ***Decisão do Mizuki: não refazer agora.*** *"Prefiro finalizar o projeto, testar e trazer o retorno, do que voltar atrás nessas coisas."* **O achado fica escrito com a conta; o conserto é da versão que preceder o PDF.**
+
 A obra já deu a resposta, e ela é uma das aptidões básicas que todo feiticeiro tem: **você empurra energia amaldiçoada pelo corpo e pela arma.** É por isso que um feiticeiro consegue ferir uma maldição e uma pessoa comum não.
 
 A forma mecânica cai sozinha quando você olha os números:
 
-> **Um golpe canalizado é um feitiço de Forma Toque, sem Melhoria e sem Restrição.**
-> Mesma Classe, mesmo orçamento de pontos, mesmo custo em PE. Os pontos viram dados de dano — **e nada mais entra**: o golpe canalizado não soma arma nem Força.
+> **Um feitiço de Toque é um feitiço de Forma Toque, sem Melhoria e sem Restrição.**
+> Mesma Classe, mesmo orçamento de pontos, mesmo custo em PE. Os pontos viram dados de dano — **e nada mais entra**: o feitiço de Toque não soma arma nem Força.
 
 **Corrigido na v0.15.** A primeira versão desta linha dizia que o golpe ainda somava arma e Força por cima. Não fecha: com os dois somados e ataque extra, o físico fica **131% acima da Rotina no nível 2**. Arma e Força são o que você faz quando **não** canaliza. A conta está na peça 6, seção 3.
 
@@ -73,7 +93,7 @@ Não foi uma escolha estética. Foi o que a conta apontou:
 | 14 | 12 | 12 |
 | 18 | 16 | 15 |
 
-As duas colunas andam juntas porque são a mesma economia. O golpe canalizado não é uma mecânica nova — é o **feitiço vazio**, o que sobra quando você tira toda a customização de um feitiço e fica só com o orçamento bruto.
+As duas colunas andam juntas porque são a mesma economia. O feitiço de Toque não é uma mecânica nova — é o **feitiço vazio**, o que sobra quando você tira toda a customização de um feitiço e fica só com o orçamento bruto.
 
 E é exatamente por isso que ele é a aptidão básica de todo feiticeiro, e por que ter uma técnica continua sendo melhor: **a técnica compra Melhorias, o golpe não.** O mesmo orçamento, gasto no formato mais burro possível, entrega dano num alvo só e nada mais. Sem área, sem alcance, sem condição, sem escolher quem é atingido.
 
@@ -83,7 +103,7 @@ E é exatamente por isso que ele é a aptidão básica de todo feiticeiro, e por
 
 **Por que socar é a saída quando o PE acaba.** O golpe sem canalizar é o equivalente físico do feitiço de Classe 0: pequeno, grátis, sempre disponível.
 
-**Por que o combatente físico não tem Liberação Máxima.** O manual já dizia isso e agora tem motivo: Liberação é o pico que rompe o teto de dano num alvo, e o golpe canalizado já vive no teto de um alvo o tempo todo, sem gastar montagem.
+**Por que o combatente físico não tem Liberação Máxima.** O manual já dizia isso e agora tem motivo: Liberação é o pico que rompe o teto de dano num alvo, e o feitiço de Toque já vive no teto de um alvo o tempo todo, sem gastar montagem.
 
 ## 4. O Caminho
 
@@ -197,4 +217,4 @@ Duas coisas dele sobreviveram e valem independente dos nomes:
 - **Quantas Trilhas por Caminho**, e em que níveis elas abrem.
 - **A tabela de armas.** Quais dados, quais requisitos de Força, e se arma leve tem alguma compensação além do requisito baixo.
 - **Quanto custa uma ferramenta amaldiçoada que canaliza sozinha.** É a peça que faz o personagem sem energia existir, e ela precisa ser cara o suficiente para não virar o padrão.
-- **Se o golpe canalizado tem teto próprio.** Hoje ele herda o do Fundamento, e vale conferir no validador junto com os 35 feitiços prontos.
+- **Se o feitiço de Toque tem teto próprio.** Hoje ele herda o do Fundamento, e vale conferir no validador junto com os 35 feitiços prontos.

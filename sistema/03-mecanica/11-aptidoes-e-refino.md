@@ -199,7 +199,7 @@ Positiva do começo ao fim, e o saldo **encolhe** em vez de virar — forte quan
 
 ### Canalizar energia · grátis no refino 1
 
-Já está escrita na peça 5: *"um golpe canalizado é um feitiço de Forma Toque, sem Melhoria e sem Restrição. Mesma Classe, mesmo orçamento de pontos, mesmo custo em PE."*
+Já está escrita na peça 5: *"um feitiço de Toque é um feitiço de Forma Toque, sem Melhoria e sem Restrição. Mesma Classe, mesmo orçamento de pontos, mesmo custo em PE."*
 
 **O refino não a escala**, e é o exemplo mais limpo do teto por aptidão: ela vive inteira dentro do orçamento do Fundamento, e pôr refino nela seria dar poder de graça numa conta que já fecha.
 

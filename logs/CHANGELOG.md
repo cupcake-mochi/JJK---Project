@@ -86,8 +86,134 @@ A linha argumentava o PE do Bastião assim: *"o golpe simples dele rende ~10 e o
 
 > **A base foi conferida na cópia antes de perturbar, e ela pegou uma cópia suja na primeira tentativa** — todas as perturbações acendiam por causa disso. *É a regra 2 do arnês fazendo exatamente o trabalho dela.*
 
+### Achado — CINCO entregas publicadas foram calculadas a partir do Classe 0 fantasma
+
+**A v0.80 corrigiu a tabela e repreçou só o `Arremate`. As outras foram calculadas *a partir* do `4,50` e nunca refeitas.**
+
+| entrega | publicado | o modelo com o fantasma | refeito |
+|---|---|---|---|
+| `Brasa` nv2 — Classe 0 na bônus | 1,22 | **1,22** | 4,08 |
+| `Brasa` nv19 — o bônus vira Classe 2 | 1,03 | **1,03** | 0,00 a 2,36 |
+| `Estocada` nv27 — o golpe carrega um Classe 0 | 0,89 | **0,89** | 1,33 |
+| `Torrente` nv11 — o teto vira Classe 3 | 3,78 | **3,77** | 1,38 |
+| `Torrente` nv27 — o teto vira Classe 4 | 1,49 | **1,49** | 1,49 |
+
+> **A coluna do meio é a prova de que o achado não é erro de modelo:** ele reproduz o número publicado usando o fantasma, e só depois troca pelo valor do manual. *O nv27 da `Torrente` não se move porque ele é `Classe 4` menos `Classe 3` e o Classe 0 não entra.*
+
+**E a regra que sai daí, que é do sistema e não de uma Trilha:** *um Classe 0 causa `27` no nível 30 e a fatia é `5,08`.* **"Ganha um Classe 0 por rodada" vale `5,31` fatias, e o orçamento de uma Trilha é `5,00`.** *Antes da v0.80 isso custava `0,89` e cabia em qualquer canto.*
+
+> **E um número que explica metade do estrago:** no nível 30 um **Classe 0 causa `27` e um Classe 2 num alvo causa `27`**. São iguais. *Toda entrega que "sobe o Classe 0 para Classe 2" vale zero em dano no nível em que a fatia mede.*
+
+### Fechado — o buraco de texto mais caro da v0.80
+
+*Aquela versão registrou que a peça 6 nunca disse se a Ação de Atacar de um físico inclui o golpe canalizado, e que a frase decidia a `Brasa` por `2,6×`.*
+
+> ***Decisão do Mizuki: não inclui.*** *"Não tem como bater junto de um feitiço — isso é só o efeito da `Fornalha`."* **Canalizar e atacar são ações diferentes e não cabem no mesmo turno.**
+
+**Escrito na peça 6 §3.1, com a tabela dos três turnos e o que ela destrava:** toda entrega pendurada em *"se você usou a ação de atacar"* **não dispara na rodada em que o personagem canaliza** — e é isso que faz o nível 2 da `Brasa` ser preçado por taxa em vez de somado no pico.
+
+*Fica anotado o que ela deixa pendurado: se o golpe simples da linha do físico não vem da Ação de Atacar, ele vem do ataque extra como golpe solto por rodada, e isso não está escrito em lugar nenhum.*
+
+### Alterado — as três Trilhas, repreçadas com o Mizuki
+
+**`Torrente` — `5,37` para `4,65`.** *A premissa dela estava errada: ela existe para furar o teto de `Classe 0` do segundo feitiço, e furar esse teto vale `13` de dano e não `36`.* **O nível 19 velho morreu — ele premiava lançar `Classe 0`, que deixou de ser lixo — e virou o `Mão Firme`:** rerrolar `1`, `2` e `3` nos dados de dano quando o feitiço for o único da rodada.
+
+> **A ideia é dele e o alvo mudou uma vez.** *A proposta era vantagem na rolagem de ataque; ela deu `21,59` de dano — a **quarta** aparição da mesma parede, depois da `Arquearia`, do `+2` no menu do `Elo` e da `Modelagem` como presente.* **O gate sobreviveu inteiro; o botão trocou.**
+>
+> **E fica declarado que o sistema passou a ter DUAS rerrolagens** — a `Arma Grande` rerrola `1` e `2`, o `Mão Firme` rerrola `1`, `2` e `3`. *A diferença existe para o orçamento fechar e não tem justificativa de design; escrever isso é melhor que inventar um motivo.*
+
+**`Estocada` — `4,58` para `5,02`, e o conserto do nível 27 é dele.** *Três cláusulas:* **só o primeiro golpe da bônus** — que não muda o número mas fecha uma ambiguidade real, porque o nível 19 cria um segundo golpe —, **o feitiço da padrão tem de ter acertado**, e o Classe 0 acompanha o golpe. **Os dois gates dão `25%`, e a entrega cai em `1,33` fatia.**
+
+> **A dominância declarada desde a v0.75 INVERTEU:** era `Arma de Fogo` sobre `Estocada` por `1,03×` e virou `Estocada` sobre `Arma de Fogo` por `1,06×`. *Mesmo tamanho, outro sentido, e continua ruído.*
+
+**`Brasa` — `5,03` para `7,06` a `9,42`, e o estouro fica.** ***Decisão do Mizuki:*** *"Parece que é forte, mas não é, garanto."* **A matriz do Bastião continua limpa nos dois extremos da faixa**, que é o mesmo motivo que segurou o `Punho` em `+22%`.
+
+*O nível 19 ganhou a escada dele — `Classe 3`, e `Classe 4` quando a `Classe 6` libera no nível 21, pagando o PE normal.* **Ele é faixa e não número porque briga com o feitiço grande pela mesma energia:** canalizar rende `2,64` de dano por PE e o `Classe 4` na bônus rende `1,29`, e o poço cobre exatamente as conjurações do dia. *Vale `0,00` se o `Brasa` carrega feitiço grande e `2,36` se ele monta só pequeno — e ninguém escreveu para que lado a Trilha empurra.*
+
+### ⚠⚠ Achado — o "golpe canalizado" NUNCA EXISTIU, e é o terceiro fantasma
+
+*Achado pelo Mizuki: **"não existe golpe canalizado. É uma abreviação que foi feita e tá misturando tudo — é um feitiço de Toque que foi entendido como ataque."***
+
+| termo | ocorrências no manual |
+|---|---|
+| `golpe canalizado` · `canalizado` · `canaliza` · `Canalizar` · `golpeadora` | **0** |
+
+**E ele aparecia 60 vezes em 12 arquivos do projeto, incluindo a linha de base da peça 6 e uma seção inteira da peça 5.**
+
+> **O padrão dos três fantasmas é o mesmo, e agora dá para nomear:** *o Classe 0 de `4,50` era um **número** inventado lendo a régua errada; o `+18%` era um **teto** que não reconstruía de nada; o golpe canalizado é uma **mecânica** inteira.* **Os três nasceram do projeto ler o manual, criar um intermediário para explicar, e o intermediário virar fonte.**
+
+**A palavra "golpe" é o que fez o estrago:** um feitiço de Forma Toque passou a parecer um ataque, e com isso a economia de ação do projeto inteiro ficou ambígua. *É a raiz do buraco que a v0.80 chamou de "o mais caro que ela deixou aberto".*
+
+### Alterado — o termo limpo em 39 lugares, sem mexer em número
+
+**`golpe canalizado` → `feitiço de Toque`**, em 11 arquivos. **A aptidão `canalizar energia` FICA** — ela é termo da obra, e a peça 11 a lista entre as doze que o material obriga. *O que morreu é o substantivo.*
+
+*A troca quebrou a checagem 13 do `conferir-ferramenta.py`, que procurava a frase literal na peça 9. Ela passou a aceitar as duas formas, e o teste negativo foi rodado: apagar a rota da peça 9 acende.*
+
+### ⚠ E o que a troca NÃO consertou — marcado para antes do PDF
+
+**A linha do físico da peça 6 §3 continua publicando `106` = feitiço de Toque + golpe simples.** *Um feitiço de Toque gasta a Ação Padrão; o golpe simples e o ataque extra exigem a Ação de Atacar.* **Decisão do Mizuki nesta versão: o ataque extra sempre exige a Ação de Atacar, como no 5e.** *Então os dois não cabem no mesmo turno.*
+
+| | publicado | sem o fantasma |
+|---|---|---|
+| conjurador | 94 | 94 |
+| físico | **106** | **94** |
+| **o vão** | **12** | **0** |
+
+**Se o vão é zero, o degrau do nível 7 dos cinco Caminhos fica sem o que o pagava** — e com ele o nível 2 do `Arremate`, o `Resquício`, e as duas decisões que a v0.80 marcou. *O ataque extra passaria a valer ~`1,2` fatia, medido pelas rodadas em que o PE acabou.*
+
+> ***Decisão do Mizuki: não refazer agora.*** *"Prefiro finalizar o projeto, testar e trazer o retorno, do que voltar atrás nessas coisas."* **O aviso está no topo do §3 da peça 5, com a conta, e apontado da peça 6.**
+
+### Achado de graça — o manual já tinha a taxa escrita, e eu derivei em vez de ler
+
+> *"Na prática, um conjurador gasta PE em **cerca de metade das rodadas** de luta do dia e passa a outra metade no Classe 0, no golpe simples e no que for de graça."*
+
+**É a mesma taxa que eu vinha derivando do pool de PE a versão inteira — `44%` a `56%`.** *Ela tem dono, e o dono é o manual.* **E a outra frase dele fecha o Classe 0:** *"São o golpe de todo turno em que o PE precisa ser poupado."*
+
+### Adicionado — o `Explosivo`, e o Emanador fechou com três Trilhas
+
+> **`5,57` de `5,00` — `11%` acima, metade do estouro do `Punho`.** *Decisão do Mizuki: fica.*
+
+| nv | a entrega | fatias |
+|---|---|---|
+| **2** | rerrolar `1` e `2` nos dados de dano, **quando for o seu único feitiço de dano da rodada** | 1,42 |
+| **11** | somar o **atributo de conjuração** no dano de todo feitiço | 1,18 |
+| **19** | gastar **`a Classe` em PE** para rolar o ataque do feitiço **com vantagem** | 2,25 |
+| **27** | `1×` por cena, **+metade da Classe em dados**, pagando `1` PE por dado extra | 0,72 |
+
+**O desenho inteiro é do Mizuki**, e ele corrigiu três coisas minhas no caminho.
+
+### Removido — o `Repertório`, e o motivo é que a régua dele não pode existir
+
+**A ficção era boa e o preço era impossível.** *Ela só se media por "uma aptidão a mais" — e isso vale a Trilha inteira para quem nunca escolhe Refino e um sétimo para quem sempre escolhe.* **E as duas colunas vazias do Caminho não aguentam uma Trilha:** recuperação pediria `3` de PE por rodada devolvidos, posicionamento pediria `26` metros por rodada. *O `Perímetro` do Guia já tinha batido nessa parede.*
+
+> **E a régua que eu disse existir não existia — o Mizuki pegou perguntando "certeza que a `Sutura` adianta a `Energia Reversa`?".** *Eu afirmei que o `0,89` dela preçava "aptidão cedo".* **Ele preça a CURA:** `2` PE de teto × `4,5` por PE = `9` de cura, dano evitado converte `1` pra `1`, vezes `50%` de rodadas curando. **Dá `0,89` exato.** *O "sem gate" torna a aptidão disponível; o número vem do efeito.*
+
+### Corrigido — dois erros meus que o Mizuki achou no preço do `Explosivo`
+
+**1 — a deriva do atributo se mede do nível em que a entrega CHEGA.** *Eu reprovei "somar atributo no dano" lendo a deriva do nível 2: `23,1%` da Rotina lá contra `5,6%` no 30, que é `4,15×`.* **A entrega chega no nível 11, e de lá ao 30 a deriva é `1,60×`** — dentro do filtro. *É por isso que a `Presa` do Evocador reprovou e esta passa: a `Presa` chega no nível **2**.*
+
+**2 — a vantagem por PE compete com conjurar, e eu não tinha modelado isso.** *Eu preçei ela em `9,25` fatias — a quinta aparição da parede dos `21,60`.* **O PE gasto na vantagem é um feitiço a menos depois.** Modelando o dia inteiro como otimização — `180` de PE, `13` rodadas, o jogador escolhendo entre conjurar de novo e comprar vantagem:
+
+| custo | o degrau vale | a Trilha |
+|---|---|---|
+| `metade da Classe` — 4 PE | 3,98 | 7,30 |
+| **`a Classe` — 7 PE** | **2,25** | **5,57** |
+| `Classe e meia` — 11 PE | 1,12 | 4,44 |
+
+*Sem a entrega o melhor dia rende `886` de dano; com ela a `7` PE, `1.034`.* ***Decisão do Mizuki: `a Classe`, porque é fórmula com dono e escala sozinha — `10` fixo fecharia na banda e seria número solto.***
+
+### ⚠ Declarado — o `Explosivo` domina a `Torrente` por `1,20×`
+
+As duas são `100%` ação/alvo e nenhuma tem coluna que a outra zere. *Maior que a da `Arma de Fogo` sobre a `Estocada` (`1,06×`), e dentro do filtro que reprova em `3,0×`.* **A causa é a mesma das outras: falta coluna, não sobra número** — o Emanador inteiro tem posicionamento e recuperação vazios nas três.
+
 ### Em aberto
 
+- **⚠ A dominância do `Explosivo` sobre a `Torrente` é `1,20×`**, declarada e não consertada.
+- **⚠⚠ LIMPAR ANTES DO PDF: a linha de base do físico ainda está em cima do fantasma.** *Peça 5 §3 tem o aviso com a conta.*
+- **⚠ O nível 19 da `Brasa` é faixa, e o que decide é o que o jogador monta.** *Primeira coisa a medir na mesa, junto do estouro dela.*
+- **A lista de ações continua fora de peça numerada** — ela mora no fim do `DESENHO-caminhos.md` e nove Trilhas fechadas apontam para ela.
+- **⚠ O golpe simples da linha do físico não tem casa escrita** — se ele não vem da Ação de Atacar, vem do ataque extra como golpe solto, e isso não está em lugar nenhum.
 - **O teto da régua não tem validador, e isso está declarado no §5 do rascunho** como decisão, não esquecimento.
 - **⚠ Se o chefe deixa de derrubar a ficha mais frágil é bom ou ruim, ninguém sabe** — é a primeira pergunta de mesa deste orçamento.
 - **A tabela de inimigo continua parada**, e o dono dela continua sendo o playtest.

@@ -212,7 +212,7 @@ Isso produz a imagem certa nos dois extremos. O **Emanador** cai pelo corpo ante
 *Escrito na v0.25.* O crítico era usado e nunca tinha sido definido: o manual cita *"em crítico"* na Melhoria **Estilhaço** e para por aí, e o projeto não tinha uma linha sobre ele.
 
 > **20 natural numa rolagem de acerto é crítico. Você dobra os dados.**
-> Dobra os dados da arma, se for arma; os dados da Classe, se for feitiço ou golpe canalizado.
+> Dobra os dados da arma, se for arma; os dados da Classe, se for feitiço ou feitiço de Toque.
 > **Nada mais dobra** — nem Força, nem dados que vieram de Melhoria, nem dano fixo.
 
 Três coisas caem dessa frase, e nenhuma delas precisa de regra a mais.

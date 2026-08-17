@@ -428,11 +428,14 @@ else:
 # ================================================================ 13. SEM-ENERGIA
 print('\n 13. SEM-ENERGIA — a rota sem energia nenhuma, ponta a ponta')
 S09_5 = secao(P09, 5)
-m = re.search(r'sem Fundamento, sem PE, sem golpe canalizado, sem Sentir Energia', S09_5)
+# v0.81: o termo 'golpe canalizado' morreu — ele nao existe no manual e virou
+# 'feiticco de Toque'. A checagem aceita os dois para nao quebrar em nota historica,
+# e o que ela guarda e a ROTA (sem Fundamento, sem PE, sem Sentir Energia).
+m = re.search(r'sem Fundamento, sem PE, sem (?:golpe canalizado|feitiço de Toque), sem Sentir Energia', S09_5)
 if not m:
     erro('13', 'nao achei a rota "energia pelo corpo" na peca 9 SS5')
 else:
-    print('  peca 9 SS5: sem Fundamento, sem PE, sem golpe canalizado, sem Sentir Energia')
+    print('  peca 9 SS5: sem Fundamento, sem PE, sem feitico de Toque, sem Sentir Energia')
     if 'ferramenta amaldiçoada' not in S09_5:
         erro('13', 'a peca 9 nao nomeia ferramenta amaldicoada como o eixo de poder da rota')
     else:
