@@ -59,9 +59,6 @@ Como fazer o levantamento rápido: extraia todas as palavras em maiúscula, em n
 - [ ] Conectivos de encher cortados ("além disso", "por outro lado", "em suma")
 - [ ] Nenhum tricolon automático — três adjetivos onde um bastava
 - [ ] Nenhuma seção termina resumindo o que acabou de dizer
-- [ ] Nenhuma seção abre com frase de princípio/slogan antes da regra ("Neste sistema, ninguém morre por causa de um número")
-- [ ] Nenhuma frase diz ao leitor como se sentir em vez de dizer regra ("é para você confiar nisso")
-- [ ] Nenhum parágrafo reexplica o porquê ou o efeito de uma regra que já tem seção dona em outro lugar do material
 - [ ] O corte de 20% foi tentado em pelo menos as três seções mais longas
 
 ## 8. Consistência com o resto do material
