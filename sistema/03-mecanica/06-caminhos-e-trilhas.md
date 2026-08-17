@@ -80,7 +80,7 @@ O Guia era o que você não sabia preencher, e o motivo é bom: **buff e debuff 
 | Trilha | O que faz |
 |---|---|
 | **Torrente** | mais de um feitiço acima de Classe 0 por rodada, a um custo |
-| **Repertório** | aptidões extras — nunca refino |
+| **Explosivo** | um feitiço só na rodada, e ele sai maior |
 | **Arremate** | conjurador de perto: feitiço e golpe na mesma troca |
 
 ### Evocador
@@ -141,6 +141,8 @@ Então a regra fica em três linhas, e ela espelha a regra de ouro nº 6 do Fund
 > **O Guia não ganha por nenhuma rota.**
 
 > **Era o nível 6 até a v0.61, e o motivo escrito aqui era *"é o primeiro marco, e é onde o resto do sistema já entrega coisa"*. Esse motivo virou o argumento contrário.** A Q2 de Trilhas mediu o calendário do sistema inteiro e achou que o **nível 6 é um dos quatro mais cheios** — marco, feitiço e o ataque extra no mesmo lugar —, enquanto o **7 não entrega absolutamente nada**. E ela pôs os degraus de Caminho em **7 · 15 · 23 · 29**: com o ataque extra no 6, Bastião e Vanguarda ficavam com cinco degraus de Caminho e os outros três com quatro. **Mover fecha as duas coisas de uma vez** — um presente por nível, e quatro degraus de Caminho para os cinco.
+>
+> *O calendário que aquela Q2 escreveu foi **superado na v0.70**, quando o desenho dos cinco Caminhos o moveu para `2 · 7 · 15 · 30`. O que sobreviveu dela é o nível 7, que continua sendo degrau; o dono do calendário de hoje é o `DESENHO-caminhos.md`.*
 
 **O ataque extra é o degrau de Caminho do nível 7 desses dois, e não um degrau a mais.** Quem não tem rota para ele — o Guia, e as Trilhas do Emanador e do Evocador que não são `Arremate` e `Coro` — recebe no lugar um degrau que vale exatamente o vão desta seção. *A régua está no `RASCUNHO-trilhas.md` §3.4.*
 
@@ -377,7 +379,7 @@ Esse último ponto é um achado pequeno mas real: **escudo e Gesto se cancelam.*
 
 ## 9. Em aberto
 
-- ~~**Quantas Trilhas um personagem acumula** ao longo da campanha, e em que níveis.~~ **Fechada na v0.55 e na v0.60:** uma Trilha por ficha, entregas nos níveis `2 · 11 · 19 · 27`, e degrau de Caminho em `7 · 15 · 23 · 29`.
+- ~~**Quantas Trilhas um personagem acumula** ao longo da campanha, e em que níveis.~~ **Fechada na v0.55 e na v0.60:** uma Trilha por ficha, entregas nos níveis `2 · 11 · 19 · 27`, e degrau de Caminho em `2 · 7 · 15 · 30`. *O calendário de Caminho era `7 · 15 · 23 · 29` até a v0.70, e o dono dele é o `DESENHO-caminhos.md`.*
 - **Como Torrente cobra o segundo feitiço da rodada.** Uma lista de pontos à parte é o modelo mais provável, e ela precisa ser precificada contra a regra de ouro nº 6. **É o mesmo defeito da seção 4** — mais de uma ação por rodada —, e o conserto que funcionou lá provavelmente serve aqui: *os feitiços que você lança numa rodada, somados, entregam uma Rotina*.
 - ~~**O que Elo, Sutura e Perímetro entregam** que valha o golpe por rodada que o Guia não tem (seção 3.1).~~ **Respondida na v0.61, e a resposta é um número:** eles valem **o vão desta seção**, e ele chega como o degrau de Caminho do nível 7 — o mesmo lugar em que o Bastião e a Vanguarda recebem o ataque extra. *Com isso os cinco Caminhos empatam em `+6%` da Rotina no nível 30. A conta está no `RASCUNHO-trilhas.md` §3.4; **o que cada uma das três entrega em ficção continua sendo a Q5.***
 

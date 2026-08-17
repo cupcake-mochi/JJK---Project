@@ -37,7 +37,7 @@ const CAMINHOS = [
     trilhas: ['Servo', 'Matilha', 'Coro'] },
   { nome: 'Emanador',  dado: 'd6',  vida1: 6,  vidaNv: 4, peNv: 6,
     pericias: ['Ocultismo', 'Investigação'], oficio: 'Caligrafia',
-    trilhas: ['Torrente', 'Repertório', 'Arremate'] },
+    trilhas: ['Torrente', 'Explosivo', 'Arremate'] },
 ];
 
 // as Origens (peca 9)

@@ -32,9 +32,13 @@ Isso não mata o formato — é o mesmo das Trilhas, onde a **janela** é que fa
 
 **Dano de valor FIXO é legal.** A cerca da peça 5 §4 proíbe *"dado de dano"*, e ninguém tinha escrito se valor fixo entrava junto — era o item 3 do *"o que a peça 5 precisa"*. **Fixo passa.** *Ela resolve de graça a mesma pendência na `Presa` do Evocador, que também é valor fixo.*
 
-**Derrubar fica, e aplica a condição `Caído`.** A régua de condição não existe e vai vir com a peça de dano e condições; até lá a entrada roda com o efeito escrito por extenso.
+**Derrubar fica, e aplica a condição `Derrubado`.** A régua de condição não existe e vai vir com a peça de dano e condições; até lá a entrada roda com o efeito escrito por extenso.
 
-> **⚠ E fica marcada a colisão que isso abre.** *Hoje `Caído` é a máquina de estado de 0 de vida, na peça 1 §5.5, e aquela seção vai fora do caminho para dizer que `Caído` **não** é a condição `Incapacitado` do manual.* **Decisão do Mizuki: o estado de 0 de vida passa a se chamar `Inconsciente`.** *Não aplicada — a peça 1 ainda abre a 5.5 com `Caído`, e o termo é citado também na peça 13 e na peça 15.*
+> **⚠ A colisão que isto abriu foi consertada na v0.88, e ela era REGRESSÃO.** *Esta entrada nasceu na v0.82 chamando a condição de `Caído`, que era o nome da máquina de estado de 0 de vida da peça 1 §5.5 — e a **v0.74 já tinha achado e fechado exatamente essa colisão no `Punho`**, adotando o `Derrubado` do manual. Oito versões depois ela voltou por outra porta.*
+>
+> **`Derrubado` é `Condição Menor` no manual**, com tier de preço e dois feitiços prontos usando ela — a `Palma Trovejante` e a `Vala Comum`. *Não é nome novo: é o nome que já existia.*
+>
+> **E o estado de 0 de vida virou `Inconsciente` na mesma versão**, aplicando a decisão do Mizuki que estava registrada aqui desde a v0.82 e nunca tinha sido aplicada.
 
 ## Como cada Manha foi preçada
 
@@ -63,7 +67,7 @@ As bases todas saem de documento dono:
 |---|---|---|---|---|
 | **Lâmina Curta** | `Talho` | `+1` no acerto contra alvo que já levou dano seu nesta luta | 50% | **1,06** |
 | **Lâmina Longa** | `Raspão` | o ataque que **erra** ainda causa o seu atributo | — | **1,18** |
-| **Massa** | `Abalo` | o alvo cai — condição `Caído` | 60% | **1,00** |
+| **Massa** | `Abalo` | o alvo cai — condição `Derrubado` | 60% | **1,00** |
 | **Porrete** | `Tranco` | desvantagem no próximo ataque do alvo | 28% | **0,99** |
 | **Manopla** | `Encaixe` | `+2` de Defesa até o seu próximo turno, se você acertou | 75% | **1,00** |
 | **Machado** | `Racho` | o golpe pega um segundo alvo ao seu alcance | 44% | **1,00** |

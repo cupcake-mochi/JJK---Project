@@ -633,7 +633,7 @@ As duas dão **vantagem em Teste de Resistência**, e é o mesmo número. A dife
 
 **O relógio do Que Ninguém Lembra desceu para o degrau mais raro da escada.** Ele dizia *"uma vez por arco"*, e arco é tempo de mesa — não está entre os quatro degraus da peça 10, e cada mestre mede um arco de um jeito. *Por descanso longo* é o degrau mais lento que existe, que é o que "por arco" tentava dizer.
 
-**Corpo Emprestado parou de ser ambíguo, e o conserto veio de fora.** Ele dizia *"você nunca fica incapacitado só por estar ferido"* — e `Incapacitado` é **condição nomeada do manual**, na lista que um feitiço aplica. A qualificação *"só por estar ferido"* fazia dois mestres lerem duas coisas, porque **o sistema não tinha regra escrita para o que acontece quando a vida acaba**. Agora tem: a seção 5.5 da peça 1 diz que **Caído não é a condição Incapacitado**, e as duas leituras deixaram de existir.
+**Corpo Emprestado parou de ser ambíguo, e o conserto veio de fora.** Ele dizia *"você nunca fica incapacitado só por estar ferido"* — e `Incapacitado` é **condição nomeada do manual**, na lista que um feitiço aplica. A qualificação *"só por estar ferido"* fazia dois mestres lerem duas coisas, porque **o sistema não tinha regra escrita para o que acontece quando a vida acaba**. Agora tem: a seção 5.5 da peça 1 diz que **`Inconsciente` não é a condição `Incapacitado`**, e as duas leituras deixaram de existir.
 
 #### Esta lista perdeu os dois Desliga dela, e o motivo é a regra nova
 

@@ -6,6 +6,126 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.88] — 2026-08-17
+
+**Quatro dívidas antigas fecharam numa versão só, e a mais velha delas não era o que estava escrito.** *A troca de `Caído` por `Inconsciente` estava marcada desde a v0.82 como colisão entre o estado de 0 de vida e a condição de quem foi derrubado — e a condição de derrubado **já tinha nome no manual, e não era `Caído`**.* **Achar isso destampou um buraco de validador que estava aberto desde sempre.** Continuam dezessete peças e dezessete validadores.
+
+### ⚠⚠ Achado — a triagem era cega para as doze condições do manual, e ONZE saíam `LIVRE`
+
+**O manual tem doze condições**, em duas linhas de prosa da tabela de Melhorias: `Derrubado` · `Lento` · `Cego` · `Agarrado` · `Surdo` · `Desarmado` · `Calado` nas Menores, e `Atordoado` · `Paralisado` · `Amedrontado` · `Enfeitiçado` · `Incapacitado` nas Maiores.
+
+**Nenhuma delas entrava no vocabulário do `conferir-nomes.py`.** *A extração lê a primeira coluna de tabelas com cabeçalho conhecido — `Família`, `Forma`, `Melhoria`, `Restrição`, `Passiva` —, e as condições não têm coluna: elas moram dentro da frase `"Aplica uma: …"` de uma célula.*
+
+| candidato | a triagem dizia | é |
+|---|---|---|
+| `Derrubado` · `Cego` · `Agarrado` · `Surdo` · `Desarmado` · `Calado` | **LIVRE** | Condição Menor |
+| `Atordoado` · `Paralisado` · `Amedrontado` · `Enfeitiçado` · `Incapacitado` | **LIVRE** | Condição Maior |
+| `Lento` | OCUPADO | **e por acidente** — ele também é Restrição |
+
+> **O exemplar mais constrangedor é o `Incapacitado`:** ele saía `LIVRE` enquanto a peça 1 §5.5 gastava um bullet inteiro explicando que `Incapacitado` **é condição nomeada do manual**. *O projeto sabia, escrito, o que o validador não sabia.*
+
+**Conserto: as doze passam a ser extraídas do `.docx`**, pela frase que as introduz, com guarda de contagem — se a extração devolver diferente de doze, o validador falha em vez de voltar a ficar cego em silêncio. **Nada foi copiado para dentro do validador.**
+
+### ⚠ Corrigido — o `Abalo` das Manhas rebatizava uma condição que o manual já tinha, e isso era REGRESSÃO
+
+**A v0.74 já tinha achado e fechado exatamente essa colisão.** *O `Punho` derrubava alvos com a palavra "cai", e o registro daquela versão diz: **"o manual já tem a condição `Derrubado`, com tier de preço e cinco feitiços prontos usando ela. Trocada a palavra, a colisão sumiu sem custo."***
+
+**Oito versões depois ela voltou por outra porta.** *A v0.82 escreveu o `Abalo` e chamou a mesma condição de `Caído`, que era o nome da máquina de estado de 0 de vida da peça 1 — e marcou a colisão como dívida em vez de perceber que a palavra certa já existia.*
+
+**Agora o `Abalo` aplica o `Derrubado`.** *Uma linha de tabela, uma linha de decisão e a nota da colisão, todas no `DESENHO-manhas.md`.* **Nenhum número se moveu:** a Manha continua valendo `1,00` fatia com trava de `60%`.
+
+> **E o `Punho` estava certo o tempo todo.** *Fui conferir uma por uma as menções a `Caído` antes de trocar qualquer coisa, e o nível 11 do `Punho` já dizia `Derrubado`; o nível 27 do `Muro` diz "caído" em minúscula, em prosa, e não é termo.* **O aviso que dizia "cuidado, nem toda menção é o estado de 0 de vida" descrevia um perigo que não existia mais** — e um aviso com o motivo errado ensina a procurar o defeito no lugar em que ele não está.
+
+### Alterado — o estado de 0 de vida virou `Inconsciente`, três versões depois de decidido
+
+***Decisão do Mizuki, registrada na v0.82 e aplicada só agora.*** **Onze lugares**, e nenhum deles é número:
+
+| onde | o que era |
+|---|---|
+| **peça 1** | o título da seção 5.5, e a nota que separa o estado da condição `Incapacitado` |
+| **peça 13** | a frase do `Corpo Emprestado`, que cita aquela seção |
+| **peça 15** | as duas linhas de *"a invocação some no zero, sem estado intermediário"* |
+| **`ESTADO-ATUAL`** | a tabela de onde cada coisa mora, e o título da seção histórica |
+| **`conferir-atributos.py`** | quatro rótulos da checagem 9 |
+
+**A peça 1 ganhou um bullet a mais, e ele é o motivo de a troca ter existido:** *`Inconsciente` também não é `Derrubado` — quem está `Derrubado` está no chão e continua com vida; quem está `Inconsciente` chegou a zero. A Manha `Abalo` aplica o `Derrubado`, e nunca este estado.*
+
+> **⚠ A ressalva que fica declarada: o `Insistir` não é inconsciente.** *No `Insistir` você fica de pé a 0 de vida e age normalmente, e só desaba na quarta rodada.* **O nome cobre o ramo do `Aguentar` e o fim dos dois, e não cobre o meio do `Insistir`.** *Levado ao Mizuki com a alternativa `Queda`, que é a palavra que a própria regra já usa três vezes; **ele manteve `Inconsciente`.*** *`Caído` entrou na lista de termos mortos e a triagem passa a devolver ele como `MORTO`.*
+
+### Removido — o `Repertório` saiu da peça 6, sete versões depois de morrer
+
+**A peça 6 §2 ainda listava a Trilha do Emanador que a v0.81 abandonou**, e a palavra `Explosivo` não aparecia naquela peça uma vez sequer. *Um leitor que abrisse a peça de Caminhos escolheria uma Trilha que não existe.*
+
+**Ele sobreviveu em sete lugares, e não em três:**
+
+| onde | por que morde |
+|---|---|
+| **peça 6 §2** | é a peça que o jogador lê |
+| **`gerador-ficha/dados.js`** | **é a ficha.** Ela vira personagem em sete mesas ao mesmo tempo |
+| `conferir-nomes.py` e `conferir-pericias.py` | as duas listas de Trilha dos validadores |
+| `RASCUNHO-trilhas.md` | a tabela dos quinze e a fila de trabalho |
+| **peça 5** | a nota histórica que explica um rename **dava o motivo errado**: *"`Repertório` já é a Trilha do Emanador"* |
+| `DESENHO-trilhas.md` | **três pendências escritas como abertas** — *"falta o `Repertório`"* — de uma Trilha morta |
+
+> **E a consequência boa aconteceu: o nome ficou `LIVRE` de novo.** *Ele estava na lista `TRILHAS` do `conferir-nomes.py`, então a triagem devolvia `OCUPADO`.* **A ficção dele é boa e pode voltar num Caminho que tenha coluna para ela** — e `Repertório` **não** entrou na lista de mortos, de propósito.
+
+### Corrigido — a peça 6 publicava o calendário de Caminho aposentado como fato fechado
+
+**O degrau de Caminho é `2 · 7 · 15 · 30` desde a v0.70**, e o dono é o `DESENHO-caminhos.md`. **A peça 6 §9 dizia `7 · 15 · 23 · 29`, na linha que abre com *"Fechada na v0.55 e na v0.60"*.** *Dezoito versões.*
+
+**E o segundo lugar não era erro, e por isso não foi apagado.** *O §3.1 conta o que a Q2 de Trilhas decidiu na época, dentro de bloco de citação — aquilo é registro legítimo.* **Ganhou uma linha dizendo que o calendário foi superado na v0.70, e quem é o dono do de hoje.** *Apagar registro histórico é como o projeto perde o porquê.*
+
+### Alterado — `Quick Draw` virou `Descarga`, e o sistema não tem mais nome em inglês
+
+***Decisão do Mizuki entre quatro candidatos que passaram na triagem*** — `Saque`, `Tambor`, `Fuzilada` e `Descarga`. *Dois morreram na triagem antes de chegarem a ele: **`Rajada` é Melhoria no manual** e `Estopim` já é o nível 11 do `Explosivo`.* **E um morreu por sentido depois de sair `LIVRE`: `Pente`, porque a propriedade `Munição` da peça 14 já fala do pente em prosa.**
+
+**Nove ocorrências** — sete no `DESENHO-trilhas.md` e duas na peça 17. *A escada da rota `Arma de Fogo` fica `Ferrolho` · `Mirar` · `Descarga` · `Dobro`.* **Nenhum número se moveu:** continua valendo `1,17` fatia com o Rifle de Precisão e `1,89` com a Metralhadora Pesada.
+
+### Adicionado — a checagem 10 do `conferir-catalogo.py`, em dois eixos
+
+**10a: toda cópia viva do calendário de Caminho bate com o `DESENHO-caminhos.md`.** **10b: o calendário aposentado não aparece fora de nota histórica.**
+
+> **São dois eixos de propósito, e a regra é a mesma da quinta contra a sexta.** *Reescrever a frase sem o número apaga a 10a e deixa a 10b de pé; trocar o número sem mexer na frase acende a 10a.* **E a 10a tem guarda de contagem:** ela sabe que existem três cópias vivas e falha se achar menos, porque uma checagem que para de conferir em silêncio é a lição nº 8 por outra porta.
+
+**A triagem ganhou um veredito novo: `MORTO`.** *Ele não mata o candidato — o projeto reaproveita nome de propósito, e o `Repertório` voltou para a prateleira nesta mesma versão.* **O que ele impede é reaproveitar sem saber que está reaproveitando.**
+
+### As dez perturbações, em cópia isolada
+
+**A base passou na cópia antes de cada uma, e o `diff` foi conferido em todas** — o arnês recusa resultado de `sed` que não bateu.
+
+| perturbação | esperado | deu |
+|---|---|---|
+| **a regressão da peça 6: o calendário velho de volta** | acende | acende |
+| **a regressão da peça 17: o calendário velho de volta** | acende | acende |
+| a frase da peça 17 perde o número | acende | acende |
+| **contra-teste:** mexer noutro calendário de quatro números (o vão) | verde | verde |
+| **contra-teste: mover o calendário NO DONO e nas três cópias** | **verde** | **verde** |
+| mover o dono e só duas das três cópias | acende | acende |
+| **uma entrega batizada com nome de Condição do manual** | acende | acende |
+| **contra-teste:** a mesma entrega com um nome de fato livre | verde | verde |
+| **a regressão do `Abalo`: `Caído` de volta na tabela** | acende | acende |
+| **contra-teste:** citar `Caído` numa nota que diz quando ele morreu | verde | verde |
+
+> **A quinta é a que importa.** *Mover o calendário no dono e nas três cópias sai **verde** — é a prova de que a 10a lê do `DESENHO-caminhos.md` e não de uma constante escrita dentro dela.* **Sem esse contra-teste, a checagem poderia estar se medindo contra si mesma**, que é o erro que já apareceu três vezes em três versões.
+
+### Medido — o defeito de mount não reproduziu
+
+**Nesta versão a pasta foi alcançada pela ponte do desktop, e todo arquivo abriu** — inclusive a peça 17, que a v0.87 não conseguia ler, e o `.docx` do manual. **Os vinte validadores rodaram de verdade, com `PULADA=0`.**
+
+> *O aviso do `README` sobre o mount **não foi apagado**, porque a via de acesso desta versão pode não ser a mesma que ele descreve.* **Fica marcado para apagar na primeira versão que confirmar o mesmo resultado por outra via** — aviso que parou de reproduzir é dívida, e um que dá o motivo errado envelhece pior que nenhum.
+
+### Em aberto
+
+- **A troca do marco continua sendo o único problema de design em pé.** *Do nível 22 em diante o refino topa em `10` e a escolha "refino e uma aptidão" vira só a aptidão, enquanto Corpo e Leque valem cheio — três marcos com um dos três eixos pela metade.*
+- **A escada de Classe Passiva nunca teve os próprios exemplos preçados**, e dois dos sete não sobrevivem.
+- **Duas entregas têm nome em minúscula** — o `carregar` do `Yumi` e o `acelerar` da `Torrente`.
+- **A terceira taxa sem medida do `Batedor`:** em quantas rodadas o atirador fica parado. *Ela sozinha decide `2,12` fatias.*
+- **A lista `NOMES_SEM_CATALOGO` continua com uma entrada, e ela é dívida.**
+- **Cobertura não existe como regra**, e os metros de cada arma de projétil também não.
+- As de sempre: as quatro aptidões abertas, o `.pdf` do manual na v7.4 contra a v7.8 do `.docx`, as vagas de `Desliga`, a Cicatriz, o clash, a tabela de inimigo parada e o **nome do sistema**.
+
+---
+
 ## [0.87] — 2026-08-17
 
 **As 21 entregas sem nome fecharam, e os dois validadores que deixaram passar os últimos defeitos foram consertados.** *De `89` entradas, `88` têm nome — a única sem é a vaga do `Arremate`, que é deliberada.* Continuam dezessete peças e dezessete validadores.

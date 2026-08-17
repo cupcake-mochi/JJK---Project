@@ -17,7 +17,7 @@ saem dos DESENHO-*.md, e as contagens saem da propria pasta. O unico bloco com
 valor na mao e o LIMITES DE DESIGN abaixo, declarado a parte da regra aplicada,
 que e a licao no 8: uma checagem nao pode se medir contra a propria constante.
 
-Nove checagens:
+Dez checagens:
   1. TOTAIS    — a tabela de totais bate com o contado das tabelas de cima.
   2. SOMAS     — as duas somas do total fecham por caminhos diferentes.
   3. INDICE    — todo nome do indice existe no DESENHO dono dele.
@@ -27,6 +27,8 @@ Nove checagens:
   7. CONTAGEM  — a pasta tem 17 pecas e 17 validadores.
   8. COPIAS    — todo documento que cita o total concorda com o contado.
   9. VALOR     — toda Classe que a linha de preco cobra aparece no bloco de regra.
+ 10. CALENDARIO — o degrau de Caminho publicado sai do DESENHO-caminhos.md, que
+                  e o dono, e o calendario aposentado nao sobrou vivo.
 
 Roda de sistema/03-mecanica/. NAO le o .docx e NAO precisa de python-docx —
 entao nao existe caminho por onde ele saia verde tendo pulado checagem.
@@ -393,6 +395,77 @@ for (rotulo, nv), falta in faltando:
     erro('9', f'{rotulo} nivel {nv}: o preco cobra Classe {falta} e o bloco nao entrega')
 if not faltando:
     print('  [x] nenhum bloco entrega Classe menor do que a que foi paga.')
+
+# ================================================================ 10. CALENDARIO
+print()
+print('=' * 88)
+print('10. CALENDARIO — o degrau de Caminho publicado sai do dono')
+print('=' * 88)
+
+# O dono do calendario e o DESENHO-caminhos.md. A peca 6 e a peca 17 sao copia,
+# e a copia da peca 6 passou DEZOITO versoes publicando o calendario aposentado
+# como fato fechado — de v0.70 ate v0.88. Nenhum validador alcancava.
+#
+# Duas checagens por EIXOS DIFERENTES, que e a regra do arnes desde a v0.63:
+#   10a pergunta "o que esta publicado bate com o dono?"
+#   10b pergunta "o valor morto sumiu?"
+# Reescrever a frase sem o numero apaga a 10a e deixa a 10b; trocar o numero
+# sem mexer na frase acende a 10a. Uma checagem so cobriria metade.
+import glob as _glob
+
+_m = re.search(r'\*\*Or[cç]amento:\*\*\s*Caminho em `([^`]+)`', CAM)
+CAL_DONO = _m.group(1).strip() if _m else None
+if CAL_DONO is None:
+    erro('10', 'nao achei a linha de orcamento do DESENHO-caminhos.md — o dono do '
+               'calendario de Caminho sumiu e esta checagem parou de conferir')
+else:
+    print(f'  dono: DESENHO-caminhos.md diz `{CAL_DONO}`')
+
+# O calendario que MORREU na v0.70. Fica escrito aqui de proposito, no molde da
+# checagem 4g do conferir-manual.py: guardar so o valor VIVO nao pega a copia
+# velha que nao usa a mesma frase.
+CAL_MORTO = '7 · 15 · 23 · 29'
+
+# Quantas copias vivas existem. Se cair, alguem reescreveu a frase e a 10a
+# parou de conferir em silencio — que e o modo de falha da licao no 8.
+COPIAS_ESPERADAS = 3
+
+PUB = re.compile(r'[Cc]aminhos?[^`\n]{0,45}?(?:em|para) `(\d+(?: · \d+){3})`')
+HIST = re.compile(r'(at[ée] a v0|era `|foi `|superad|antigo|mudou na v0|antes da v0|contra o)')
+
+VIVOS = sorted(_glob.glob(os.path.join(AQUI, '[0-9][0-9]-*.md')))
+VIVOS += [os.path.join(RAIZ, 'ESTADO-ATUAL.md'),
+          os.path.join(RAIZ, '..', 'README.md'),
+          os.path.join(RAIZ, 'LEIA-ME.md'),
+          os.path.join(RAIZ, '..', 'DESENHO-trilhas.md'),
+          os.path.join(RAIZ, '..', 'DESENHO-manhas.md')]
+
+def _hist(l):
+    return l.lstrip().startswith('>') or '~~' in l or bool(HIST.search(l))
+
+copias = 0
+for _cam in VIVOS:
+    if not os.path.exists(_cam):
+        continue
+    _rel = os.path.basename(_cam)
+    for _i, _l in enumerate(ler(_cam).split('\n'), 1):
+        if CAL_DONO:
+            for _pub in PUB.findall(_l):
+                copias += 1
+                if _pub.strip() != CAL_DONO:
+                    erro('10', f'{_rel}:{_i} publica o degrau de Caminho em `{_pub}` e o '
+                               f'dono (DESENHO-caminhos.md) diz `{CAL_DONO}`')
+        if CAL_MORTO in _l and not _hist(_l):
+            erro('10', f'{_rel}:{_i} carrega o calendario aposentado `{CAL_MORTO}` '
+                       f'fora de nota historica')
+
+print(f'  {copias} copia(s) viva(s) do calendario conferida(s) contra o dono')
+if copias < COPIAS_ESPERADAS:
+    erro('10', f'so {copias} copia(s) do calendario de Caminho foram encontradas e '
+               f'eram {COPIAS_ESPERADAS} — alguem reescreveu a frase e a 10a esta '
+               f'conferindo menos do que conferia')
+if not [e for e in erros if e.startswith('[10]')]:
+    print('  [x] toda copia viva bate com o dono, e o calendario aposentado nao sobrou.')
 
 # ================================================================ veredito
 print('\n' + '=' * 88)

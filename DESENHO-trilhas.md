@@ -272,15 +272,15 @@ E o **Yuji** com o Punho Divergente é a mesma ideia num golpe só: o soco acert
 |---|---|---|---|
 | **2** | **`Ferrolho`** | recarrega só no `1` natural, e nada de desvantagem colado | 0,54 a 0,59 |
 | **11** | **`Mirar`** | a ação `Mirar`, e `+2` no acerto | **1,95** |
-| **19** | **`Quick Draw`** | o disparo de abertura, um alvo por bala | 1,17 a 1,89 |
+| **19** | **`Descarga`** | o disparo de abertura, um alvo por bala | 1,17 a 1,89 |
 | **27** | **`Dobro`** | o `Mirar` vale nos dois ataques | 1,08 |
 
 > **Nível 2 — `Ferrolho`.** A sua arma de fogo só força recarga no **`1` natural**, e não no `1` ou `2`. E você **deixa de sofrer desvantagem por estar colado**.
 > **Nível 11.** O **`Mirar`**, e `+2` no acerto com arma de longo alcance.
-> **Nível 19 — `Quick Draw`.** No começo de um combate, você pode gastar a sua **Reação** para atacar **um alvo por bala que a arma carrega**, com uma rolagem separada em cada um. **Os disparos contam para a munição** — você vai recarregar no primeiro turno.
+> **Nível 19 — `Descarga`.** No começo de um combate, você pode gastar a sua **Reação** para atacar **um alvo por bala que a arma carrega**, com uma rolagem separada em cada um. **Os disparos contam para a munição** — você vai recarregar no primeiro turno.
 > **Nível 27 — `Dobro`.** O `Mirar` passa a valer para o **ataque básico e o extra**.
 
-> **O `Quick Draw` dispara `X`, que é o número de balas da arma — e isso é aceito com o motivo.** *Decisão do Mizuki: **"não tem problema metralhadora ser 4 e as outras serem 3, tem seus altos e baixos usarem cada arma."*** A Metralhadora Pesada leva `2,34` fatias contra `1,17` do Rifle de Precisão, e o custo da recarga forçada devolve `0,45` dela — **o espalhamento fica em `1,6×`, dentro do filtro de `3,0×`.** *A arma de X alto paga em ritmo o que ganha na abertura.*
+> **O `Descarga` dispara `X`, que é o número de balas da arma — e isso é aceito com o motivo.** *Decisão do Mizuki: **"não tem problema metralhadora ser 4 e as outras serem 3, tem seus altos e baixos usarem cada arma."*** A Metralhadora Pesada leva `2,34` fatias contra `1,17` do Rifle de Precisão, e o custo da recarga forçada devolve `0,45` dela — **o espalhamento fica em `1,6×`, dentro do filtro de `3,0×`.** *A arma de X alto paga em ritmo o que ganha na abertura.*
 
 ## As travas, rodadas
 
@@ -288,7 +288,7 @@ E o **Yuji** com o Punho Divergente é a mesma ideia num golpe só: o soco acert
 |---|---|---|---|
 | **na banda 4,50–5,00** | ✓ 4,82 | ✓ 4,52 | ✓ 4,74 |
 | **nível 2 permanente ou condicional** | ✓ | ✓ | ✓ |
-| **algo que o jogador decide usar** | ✓ o `carregar` e o `Mirar` | ✓ o `Mirar` | ✓ o `Mirar` e o `Quick Draw` |
+| **algo que o jogador decide usar** | ✓ o `carregar` e o `Mirar` | ✓ o `Mirar` | ✓ o `Mirar` e o `Descarga` |
 | **as três dentro de 3,0× uma da outra** | ✓ `1,08×` | | |
 
 **Uma dominância apareceu contra uma irmã, e ela fica DECLARADA:** a rota `Arma de Fogo` sai com `4,74` de ação/alvo contra os `4,58` da `Estocada`, e as duas têm zero em todas as outras colunas — então ela ganha em tudo que a matriz mede.
@@ -482,7 +482,7 @@ Ela não fechava porque a `Estocada` e o `Batedor` foram preçados **sem declara
 
 ## Achado da revisão — o `4,74` do `Fogo` é o PISO da rota, não o valor dela
 
-Duas das quatro entregas da `Arma de Fogo` são faixa e não número: o nível 2 vale `0,54` a `0,59`, e o `Quick Draw` vale `1,17` com o Rifle de Precisão e `1,89` com a Metralhadora Pesada. **O `4,74` publicado usa o fundo das duas.**
+Duas das quatro entregas da `Arma de Fogo` são faixa e não número: o nível 2 vale `0,54` a `0,59`, e o `Descarga` vale `1,17` com o Rifle de Precisão e `1,89` com a Metralhadora Pesada. **O `4,74` publicado usa o fundo das duas.**
 
 | a arma | total da rota | contra a `Estocada` |
 |---|---|---|
@@ -493,7 +493,7 @@ Duas das quatro entregas da `Arma de Fogo` são faixa e não número: o nível 2
 >
 > **O que ela enfraquece é o argumento de "ruído"** que sustenta a dominância declarada: `0,93` fatia são `4,72` de dano bruto por rodada, quase **seis vezes** os `0,81` que a v0.75 mediu.
 >
-> **A decisão do Mizuki de deixar o `X` de balas variar continua de pé** — *"tem seus altos e baixos usarem cada arma"*. O que muda é que a rota de `X` alto **não cabe na banda**, e isso nunca tinha sido somado. *A v0.75 mediu o espalhamento do `Quick Draw` entre as armas (`1,6×`, dentro do filtro) e não o total da rota com ele dentro.*
+> **A decisão do Mizuki de deixar o `X` de balas variar continua de pé** — *"tem seus altos e baixos usarem cada arma"*. O que muda é que a rota de `X` alto **não cabe na banda**, e isso nunca tinha sido somado. *A v0.75 mediu o espalhamento do `Descarga` entre as armas (`1,6×`, dentro do filtro) e não o total da rota com ele dentro.*
 
 ## Duas somas de `0,01` que não fecham
 
@@ -755,7 +755,7 @@ Aquele `11,50` é a linha de comparação do §2 da **peça 5**, e ela usa `1d10
 | carrega um feitiço grande na lista | **0,00** | 7,06 |
 | monta só feitiço pequeno, que é a ficção dele | **2,36** | 9,42 |
 
-> **Ninguém escreveu se a Trilha empurra para um lado, e não é conta — é o que o jogador monta.** *Fica como faixa declarada, no molde do `Quick Draw` da rota `Arma de Fogo`, que também é faixa por depender de qual arma entra.* **É a primeira coisa a medir na mesa junto com o estouro.**
+> **Ninguém escreveu se a Trilha empurra para um lado, e não é conta — é o que o jogador monta.** *Fica como faixa declarada, no molde do `Descarga` da rota `Arma de Fogo`, que também é faixa por depender de qual arma entra.* **É a primeira coisa a medir na mesa junto com o estouro.**
 
 *Só o nível 2 se moveu, e por metade da passada: a vantagem sobre o Classe 0 sobe de `0,72` para `1,69` — `25` pp em vez de `16`, e gate de `75%` em vez de `50%`. **O nível 19 não se move**, porque ele abre mão do ataque extra e lá o `50%` é o número certo.*
 
@@ -1458,7 +1458,7 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 - ~~A `Torrente` travou numa régua que não existe.~~ **FECHADA na v0.79 em `5,37` e REPREÇADA na v0.81 para `4,65`.** *A saída foi preçar por **ritmo** e não por conversão de PE.* **A repreçagem veio do Classe 0: o `5,37` tinha sido calculado com o fantasma de `4,50`, e furar o teto vale `13` de dano e não `36`.** *O nível 19 velho morreu junto — ele premiava lançar `Classe 0`, que deixou de ser lixo — e no lugar entrou a entrega que hoje se chama `Cheia`.*
 - ~~O `Arremate` contradiz a peça 6 §3.1.~~ **APLICADO na v0.80**, com o motivo e o número da vida escritos na peça 6, e o `Coro` herdando.
 - **⚠ O `Arremate` fechou em `3,74` de `5,00` e o nível 27 dele ficou VAGO.** *A entrega que estava lá vale `0,00` com o Classe 0 certo — as duas metades se cancelam.* **Sobram `1,26` fatia, que são `6,40` de dano por rodada.** *A ficção do degrau é o capstone do Mahito: dentro do domínio ele deixa de precisar tocar.*
-- **Falta o `Repertório`**, e ele precisa liderar em **posicionamento** ou **recuperação** — as duas colunas vazias do Caminho. *E não existe régua para converter "uma aptidão a mais" em fatia.*
+- ~~Falta o `Repertório`, e ele precisa liderar em **posicionamento** ou **recuperação**.~~ **ABANDONADO na v0.81, e no lugar entrou o `Explosivo`.** *Foi exatamente a régua que faltava que o matou: "uma aptidão a mais" não converte em fatia e não tem como converter.*
 - **A `Modelagem` encosta em `montagem`, que é palavra do manual.** *O manual chama de `pontos de montagem` o orçamento que compra Forma e Melhoria.* Duas palavras parecidas para dois trabalhos diferentes, e a triagem não pega colisão de sentido — ela deu `LIVRE`. **Vale decidir se fica `Modelagem` ou se o degrau usa o idioma do manual.**
 - **⚠ A `Torrente` TRAVOU numa régua que não existe, e a trava é maior que ela.** O Mizuki registrou que a trava de Classe 0 do manual *"veio direto do manual e não precisa ser levada ao pé da letra"*, e o candidato dele é **teto na metade da maior Classe**. **Ao medir isso, três réguas deram três respostas que não se aproximam:**
 
@@ -1485,6 +1485,6 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
   > **O motivo é de construção, e é o achado:** o câmbio de `5,14` foi derivado dos próprios feitiços, que rendem `4,4` a `4,5` de dano por PE. **Então "gastar PE para ter dano" é sempre mais ou menos zero por definição** — é o que toda ficha já faz. *A régua não consegue ver ganho nenhum ali, e ela está certa: o ganho da `Torrente` não é converter PE em dano. É furar o teto de quanto PE cabe numa rodada.*
 
   **O que sobra, então, é medir por ritmo.** As nove Trilhas fechadas foram todas preçadas em **dano por rodada**, que é métrica de luta e não de dia. *Pelo mesmo critério, a `Torrente` vale o dano cru do teto novo — e aí a escolha do teto é a Trilha inteira.*
-- **O `Repertório` compra a metade que a peça 11 já mediu como a que paga.** Ver o aviso acima.
+- ~~O `Repertório` compra a metade que a peça 11 já mediu como a que paga.~~ **Caiu junto com a Trilha, na v0.81.**
 - **O `Arremate` herda uma coisa que já tem dono:** ele é uma das duas Trilhas com ataque extra, e o slot e o gate estão escritos na peça 6. *A Trilha não escolhe isso — ela recebe.*
-- **Faltam nomes para as doze entregas.** Nenhuma passou pela triagem, e `Torrente`, `Repertório` e `Arremate` já passaram na v0.24.
+- ~~Faltam nomes para as doze entregas.~~ **Fechados entre a v0.81 e a v0.84.** *`Torrente` e `Arremate` passaram na triagem já na v0.24; o `Explosivo` passou na v0.81, e o `Repertório` que estava nessa linha morreu na mesma versão.*

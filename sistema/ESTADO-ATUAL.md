@@ -1,8 +1,18 @@
 # Estado atual do projeto
 
-Atualizado em 17/08/2026, na v0.85 (última peça fechada: **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com sete checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 17/08/2026, na v0.88 (última peça fechada: **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com dez checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.87.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezessete peças escritas** e **dezessete validadores**.
+**Versão v0.88.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezessete peças escritas** e **dezessete validadores**.
+
+**A v0.88 fechou quatro dívidas antigas de uma vez, e a mais velha delas não era o que estava escrito.** *A troca de `Caído` por `Inconsciente` estava marcada desde a v0.82 como colisão entre o estado de 0 de vida e a condição de quem foi derrubado — e a condição de derrubado **já tinha nome no manual: `Derrubado`**, com tier de preço e dois feitiços prontos usando ela.* **O único lugar do projeto que a chamava de `Caído` era a Manha `Abalo`, e isso era REGRESSÃO:** a v0.74 já tinha achado e fechado exatamente essa colisão no `Punho`, e oito versões depois ela voltou por outra porta. **O `Abalo` passa a aplicar o `Derrubado`, e o estado de 0 de vida virou `Inconsciente` em onze lugares**, aplicando a decisão do Mizuki de três versões atrás. *Nenhum número se moveu.*
+
+> **⚠⚠ E o que deixou isso acontecer é buraco de validador: a triagem era cega para as doze condições do manual.** *Elas moram dentro de uma frase de prosa — `"Aplica uma: …"` — e a extração do `conferir-nomes.py` lê primeira coluna de tabela.* **Onze das doze voltavam `LIVRE`**, e a única que não voltava era `Lento`, por acidente, porque ela também é Restrição. ***O exemplar mais constrangedor é o `Incapacitado`: ele saía `LIVRE` enquanto a peça 1 §5.5 gastava um bullet explicando que ele é condição nomeada do manual.*** **Agora as doze são lidas do `.docx`, com guarda de contagem.**
+
+> **E a peça 6 parou de publicar duas coisas erradas.** *O `Repertório` — Trilha abandonada na v0.81 — ainda estava na §2, e ele sobreviveu em **sete** lugares e não em três: a peça, a **ficha do gerador**, dois validadores, o rascunho de Trilhas, a nota histórica da peça 5 que dava o motivo errado, e três pendências do desenho escritas como abertas.* **O nome ficou `LIVRE` de novo, de propósito.** *E o §9 publicava o calendário de Caminho `7 · 15 · 23 · 29` como fato fechado, dezoito versões depois de ele virar `2 · 7 · 15 · 30`.* **A citação histórica do §3.1 NÃO foi apagada — ganhou a linha que diz que foi superada.**
+
+> **`Quick Draw` virou `Descarga`, e o sistema não tem mais nenhum nome em inglês.** *Decisão do Mizuki entre quatro candidatos que passaram na triagem; `Rajada` e `Estopim` morreram nela antes, e `Pente` morreu por sentido depois de sair `LIVRE`.* **A escada da rota `Arma de Fogo` fica `Ferrolho` · `Mirar` · `Descarga` · `Dobro`.**
+
+> **Duas checagens novas, e dez perturbações conferidas em cópia isolada.** *A checagem 10 do `conferir-catalogo.py` compara toda cópia viva do calendário de Caminho contra o `DESENHO-caminhos.md`, que é o dono, **e em dois eixos**: uma pergunta se o valor bate, a outra se o valor morto sumiu. E ela tem guarda de contagem, porque checagem que para de conferir em silêncio é a lição nº 8 por outra porta.* **A triagem ganhou o veredito `MORTO`**, que não mata o candidato — o projeto reaproveita nome de propósito — mas impede reaproveitar sem saber.
 
 **A v0.86 escreveu a ação `Mirar`, que era entregue em SEIS degraus do `Batedor` e não tinha regra em lugar nenhum.** *Ela atravessou da v0.74 à v0.85 assim — treze menções no desenho, todas concedendo, nenhuma definindo —, e quem achou foi o `conferir-catalogo.py` da versão anterior, indexando os degraus que a citam.* ***Decisão do Mizuki:*** **Ação Bônus, vantagem no próximo tiro com arma de projétil, e só se você não se deslocou nesta rodada nem vai se deslocar.** *É a forma do `Steady Aim` do Ladino do 5e; as duas outras formas comuns já estavam gastas aqui — consertar a penalidade de faixa de alcance é o nível 2 das três rotas, e mexer em cobertura não dá, porque **cobertura não existe como regra** neste sistema.*
 
@@ -177,7 +187,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `00-fundacao/pitch-de-design.md` | os três pilares e as restrições do projeto |
 | `01-pesquisa/dossie-de-metodologia.md` | a seção 8 lista as dez travas de arquitetura |
 | `02-esqueleto/arquitetura.md` | o que o Fundamento resolve e os buracos em volta |
-| `03-mecanica/01-atributos-acerto-defesa.md` | de onde vem o número — e a **seção 5.5, o Caído**, que é a máquina de estado de 0 de vida |
+| `03-mecanica/01-atributos-acerto-defesa.md` | de onde vem o número — e a **seção 5.5, o `Inconsciente`**, que é a máquina de estado de 0 de vida |
 | `03-mecanica/02-economia-de-atributos.md` | escala, criação, crescimento, teto |
 | `03-mecanica/03-economia-de-acao-e-iniciativa.md` | turno, iniciativa, régua das Restrições |
 | `03-mecanica/04-pericias-e-testes.md` | dificuldade, fail-forward, ataque de oportunidade |
@@ -255,7 +265,7 @@ O `conferir-manual.py` falha se os dois lados divergirem, e a mensagem dele **no
    >
    > **Contra-teste rodado:** `3×` o orçamento dá `+23%` e `4×` dá `+31%`, e as duas reprovam. O teto prático é `21` de dano por rodada. *Os dois números do topo eram 21% e 16% até a v0.60, e eles saíam de a peça 6 §3 estar lendo a coluna errada do manual — com a `Rotina` de verdade o abismo do topo quase fecha sozinho, e o que sobra é meia dúzia de pontos percentuais.*
 
-### O Caído entrou na v0.37, e ele deixa uma dívida com nome
+### O estado de 0 de vida entrou na v0.37, e na v0.88 ele virou `Inconsciente`
 
 *A peça 1 ganhou a **seção 5.5**, e ela fecha a pergunta nº 5 do `pitch-de-design.md` — aberta desde a v0.1.* A 0 de vida você escolhe **Aguentar** (apaga, janela de 3 rodadas, cura de 1 te levanta) ou **Insistir** (fica de pé, cada rodada custa 1/8, 1/4 e 1/2 da vida máxima). Levantar dá uma **Sequela**, que encurta a janela da próxima queda; **na segunda queda vem uma Cicatriz**. O fim da janela é o **estágio 4 de dano de alma**, que o manual já escrevia e que ninguém alcançava. Seis checagens novas no `conferir-atributos.py`, com oito perturbações conferidas.
 

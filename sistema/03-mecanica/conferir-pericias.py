@@ -99,7 +99,7 @@ TODAS = [p for grupo in PERICIAS.values() for p in grupo]
 # Termos que ja significam outra coisa dentro do projeto.
 INTERNOS = {
     'Muro', 'Punho', 'Brasa', 'Estocada', 'Alcance', 'Oficio', 'Elo', 'Folego',
-    'Regua', 'Torrente', 'Repertorio', 'Arremate', 'Sombra', 'Enxame', 'Coro',
+    'Regua', 'Torrente', 'Explosivo', 'Arremate', 'Sombra', 'Enxame', 'Coro',
     'Bastiao', 'Vanguarda', 'Guia', 'Emanador', 'Evocador', 'Vigor', 'Intelecto',
     'Espirito', 'Maestria', 'Classe', 'Refino', 'Caminho', 'Trilha', 'Origem',
     'Pacto', 'Grau', 'Selo', 'Barreira', 'Dominio', 'Familia', 'Melhoria',

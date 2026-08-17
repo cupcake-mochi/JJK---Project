@@ -271,7 +271,7 @@ E ela reconcilia os dois precedentes que estavam brigando. O manual arredonda **
 
 **O mínimo de 1 é sobre arredondamento, e não sobre regra.** Quando a regra diz que você recupera **nada** — o degrau 3 de exaustão fora de ambiente propício —, ela diz nada. O piso existe para o caso em que a conta produziu 0,4, não para desfazer um zero escrito.
 
-## 5.5 Caído — quando a vida acaba
+## 5.5 Inconsciente — quando a vida acaba
 
 Esta é a pergunta nº 5 do `pitch-de-design.md`, aberta desde a v0.1: *"como o sistema trata morte? JJK é letal; server de guilda com personagem persistente normalmente não é."*
 
@@ -373,7 +373,8 @@ Porque na quarta ela nunca aconteceria. Com a vida **não voltando no descanso c
 
 - **O que uma Cicatriz é, mecanicamente.** Hoje ela é o registro de que aconteceu, e o conteúdo dela é da peça de dano e condições, que não existe.
 - **Se a Energia Reversa limpa Sequela antes do descanso longo.** A aptidão não foi escrita; quando for, este é o primeiro lugar que ela encosta.
-- **`Incapacitado` é condição nomeada no manual**, e o Legado *Corpo Emprestado* a nega com a qualificação *"só por estar ferido"*. Com esta seção escrita, a leitura fica decidida: **Caído não é a condição Incapacitado**, e o Legado não alcança o Caído.
+- **`Incapacitado` é condição nomeada no manual**, e o Legado *Corpo Emprestado* a nega com a qualificação *"só por estar ferido"*. Com esta seção escrita, a leitura fica decidida: **`Inconsciente` não é a condição `Incapacitado`**, e o Legado não alcança o `Inconsciente`.
+- **E `Inconsciente` também não é `Derrubado`.** *`Derrubado` é `Condição Menor` do manual: quem está `Derrubado` está no chão e continua com vida.* **Quem está `Inconsciente` chegou a zero.** *A Manha `Abalo` aplica o `Derrubado`, e nunca este estado.*
 
 ## 6. O que a conta produz
 

@@ -93,7 +93,7 @@ TRILHAS = {
     'Bastiao':   ['Muro', 'Punho', 'Brasa'],
     'Vanguarda': ['Estocada', 'Batedor', 'Executor'],
     'Guia':      ['Elo', 'Sutura', 'Perimetro'],
-    'Emanador':  ['Torrente', 'Repertorio', 'Arremate'],
+    'Emanador':  ['Torrente', 'Explosivo', 'Arremate'],
     'Evocador':  ['Servo', 'Matilha', 'Coro'],
 }
 
@@ -205,6 +205,7 @@ MORTOS = {
     'Ponta de Lanca': 'rotulo de rascunho; virou Vanguarda na v0.14',
     'Primeiros Socorros': 'saiu na v0.16; Herbalismo nao cobre o mesmo',
     'Protocolo': 'virou Burocracia na v0.16',
+    'Caido': 'era o estado de 0 de vida; virou Inconsciente na v0.88',
 }
 
 # Onde um termo morto pode aparecer capitalizado sem ser descuido: a secao que
@@ -252,7 +253,7 @@ CATEGORIAS = {}
 PLURAL = {'Familia': 'Familias', 'Forma': 'Formas', 'Melhoria': 'Melhorias',
           'Restricao': 'Restricoes', 'Tema': 'Temas', 'Passiva': 'Passivas',
           'Feitico pronto': 'Feiticos prontos', 'Fundamento pronto': 'Fundamentos prontos',
-          'peca do Fundamento': 'pecas do Fundamento'}
+          'peca do Fundamento': 'pecas do Fundamento', 'Condicao': 'Condicoes'}
 
 # Termos que o manual DEFINE em prosa, sem tabela de onde extrair. Estes ficam
 # escritos aqui porque nao ha coluna para ler — mas cada um tem secao propria
@@ -303,6 +304,28 @@ try:
                 temas += [x.strip() for x in r.cells[1].text.split('·') if x.strip()]
     CATEGORIAS['Tema'] = temas
 
+    # As doze condicoes do manual moram DENTRO da celula de prosa das duas
+    # linhas de Condicao — nao existe coluna de onde extrair, so a frase
+    # "Aplica uma: ...". Ate a v0.88 nenhuma entrava no vocabulario, e ONZE
+    # DAS DOZE saiam LIVRE na triagem; a unica que nao saia era `Lento`, e
+    # por acidente, porque ela tambem e Restricao. Foi esse buraco que
+    # deixou a Manha `Abalo` batizar de `Caido` uma condicao que o manual
+    # ja chamava de `Derrubado` — e `Caido` era o estado de 0 de vida da
+    # peca 1. Lidas do .docx, e nao copiadas para ca.
+    condicoes = []
+    for t in doc.tables:
+        for r in t.rows:
+            for c in r.cells:
+                tx = c.text.strip()
+                if not tx.startswith('Aplica uma'):
+                    continue
+                corpo = re.sub(r'\(.*?\)', '', tx.split(':', 1)[1].split('.')[0])
+                for x in re.split(r',| ou ', corpo):
+                    x = x.strip()
+                    if x and x[0].isupper():
+                        condicoes.append(x)
+    CATEGORIAS['Condicao'] = condicoes
+
     # Os tres Fundamentos prontos sao paragrafos curtos logo depois do titulo.
     prontos, linhas = [], manual.split('\n')
     for i, l in enumerate(linhas):
@@ -319,6 +342,10 @@ try:
     if len(CATEGORIAS['Familia']) != 9:
         erro(f'o manual devolveu {len(CATEGORIAS["Familia"])} Familias, e sao nove — '
              f'a extracao quebrou e as checagens 1 e 4 nao valem')
+    if len(CATEGORIAS['Condicao']) != 12:
+        erro(f'o manual devolveu {len(CATEGORIAS["Condicao"])} Condicoes, e sao doze — '
+             f'sete Menores e cinco Maiores. A extracao quebrou e a triagem voltou '
+             f'a ser cega para elas')
     if len(CATEGORIAS['Fundamento pronto']) != 3:
         erro(f'o manual devolveu {len(CATEGORIAS["Fundamento pronto"])} Fundamentos '
              f'prontos, e sao tres — a extracao quebrou')
@@ -514,6 +541,10 @@ bloco('6. TRIAGEM DE CANDIDATO — rode antes de batizar qualquer coisa')
 #   DENTRO   o nome aparece dentro de um termo composto. NAO e veredito:
 #            va ler o termo e pergunte se ele E aquilo. Se nao for, use.
 #   fraco    fica a uma letra de um termo. Confunde na mesa em voz alta.
+#   MORTO    ninguem usa HOJE, e o nome ja foi de outra coisa. Nao mata: o
+#            projeto reaproveita nome de proposito (o `Repertorio` voltou
+#            para a prateleira na v0.88). O que ele impede e reaproveitar
+#            sem saber que esta reaproveitando.
 #   LIVRE    ninguem usa.
 candidatos = sys.argv[2:] if len(sys.argv) > 1 and sys.argv[1] == '--candidatos' else []
 if not candidatos:
@@ -554,6 +585,9 @@ else:
             print(f'  DENTRO   {cand:<16} {"; ".join(dict.fromkeys(dentro))[:62]}')
         elif fracas:
             print(f'  fraco    {cand:<16} {fracas[0]}')
+        elif k in {norma(m) for m in MORTOS}:
+            motivo = next(v for m, v in MORTOS.items() if norma(m) == k)
+            print(f'  MORTO    {cand:<16} {motivo[:62]}')
         else:
             print(f'  LIVRE    {cand}')
 

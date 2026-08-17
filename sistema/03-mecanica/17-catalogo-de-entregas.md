@@ -53,7 +53,7 @@ Todas moram em **`DESENHO-trilhas.md`**, na seção mecânica da Trilha.
 | **`Estocada`** | `Compasso` | `Traçado` | `Bote` | `Ferrão` |
 | **`Batedor` · `Yumi`** | `carregar` | `Mirar` | `Pique` | `Dobro` |
 | **`Batedor` · `Besta`** | `Manivela` | `Mirar` | `Repuxo` | `Dobro` |
-| **`Batedor` · `Arma de Fogo`** | `Ferrolho` | `Mirar` | `Quick Draw` | `Dobro` |
+| **`Batedor` · `Arma de Fogo`** | `Ferrolho` | `Mirar` | `Descarga` | `Dobro` |
 | **`Executor`** | `Pegada` | `Aprumo` | `Revide` | `Retomada` |
 
 > **O `Mirar` aparece em seis destas casas, e até a v0.85 ele não tinha regra em lugar nenhum.** *Este índice foi quem achou: treze menções no desenho, todas concedendo, nenhuma definindo.* **Escrito na v0.86** — Ação Bônus, vantagem no próximo tiro, e só se você não se deslocou nem vai se deslocar. *A regra mora no `DESENHO-trilhas.md`, na seção `A ação Mirar`, antes das três rotas.*
@@ -137,6 +137,8 @@ Nove checagens. **Nenhuma guarda valor:** os nomes saem das tabelas desta peça 
 | **8** | todo documento vivo que cita o total concorda com o contado | **esta peça virando a segunda fonte do próprio número** |
 | **9** | toda `Classe` que a linha de preço cobra aparece no bloco de regra | **a `Brasa`**: preço de `Classe 3` com o bloco publicando `Classe 2` |
 
+**A décima entrou na v0.88, e ela é a primeira que não fala de entrega.** *A peça 6 §9 publicou o calendário de Caminho aposentado — `7 · 15 · 23 · 29` — como fato fechado por **dezoito versões**, e nenhum validador alcançava.* **Ela compara toda cópia viva contra o `DESENHO-caminhos.md`, que é o dono, e em dois eixos:** *a primeira metade pergunta se o valor bate; a segunda pergunta se o valor morto sumiu.* **E ela sabe quantas cópias existem** — se achar menos, alguém reescreveu a frase e ela parou de conferir em silêncio.
+
 **A nona entrou na v0.87, e ela é a metade que a sexta não cobre.** *A sexta pega gate contra `sempre`; esta pega **valor contra valor**, que é o que deixou o nível 19 da `Brasa` publicar `Classe 2` enquanto a tabela e o argumento diziam `Classe 3`, e `Classe 4` do nível 21.* **A direção é de mão única de propósito:** comparar os dois lados como conjunto dava **sete** vermelhos falsos, porque o bloco cita `Classe` em exemplo de custo o tempo todo — *"num Classe 7 são 7 PE"* — e exemplo não é promessa.
 
 **A oitava nasceu de revisão cética contra esta própria peça.** *Escrevendo o `89` no `README`, no `ESTADO-ATUAL`, no `LEIA-ME` e no README da entrega, ele virou cinco cópias — dentro do documento que a seção 1 abre dizendo que não vai duplicar nada.* **Esta peça é a dona do total; os outros quatro são cópia, e agora existe quem compare.** *O `CHANGELOG` fica de fora de propósito: ele é registro histórico, e a entrada da v0.84 tem de continuar dizendo `81` sem falhar nada.*
@@ -149,7 +151,7 @@ Nove checagens. **Nenhuma guarda valor:** os nomes saem das tabelas desta peça 
 
 - ~~**O `Mirar` não tem regra.**~~ **Escrito na v0.86**, e ele estoura o degrau em `4,25` fatias contra `0,80` — *decisão do Mizuki, com o estouro declarado no desenho, no molde do `Punho` e da `Brasa`.* **E o nome fica**, com a colisão declarada.
 - ~~**Faltam nomes de entrega.**~~ **As 21 vagas fecharam na v0.87.** *A única casa sem nome é a vaga do `Arremate`, e ela é de propósito.*
-- **`Quick Draw` é o único nome em inglês do sistema.** *Nível 19 da rota `Arma de Fogo`.*
+- ~~**`Quick Draw` é o único nome em inglês do sistema.**~~ **Traduzido na v0.88: virou `Descarga`.** *Decisão do Mizuki entre quatro candidatos que passaram na triagem. **O sistema não tem mais nenhum nome em inglês.***
 - **Duas entregas têm nome em minúscula** — o `carregar` do `Yumi` e o `acelerar` da `Torrente` —, contra todas as outras capitalizadas. *Contam como nome; a inconsistência fica registrada.*
 - **As três do Evocador ficam de fora enquanto estiverem paradas.** Quando voltarem, o total sai de `89` e a checagem 1 acusa até esta peça subir junto.
 - **A checagem 6 não alcança as Manhas**, porque elas não têm bloco separado. *Se elas ganharem texto de mesa próprio um dia, ela passa a valer lá também.*

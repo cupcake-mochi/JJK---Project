@@ -358,7 +358,7 @@ print('  tem combustivel para uma missao sem ter couro para ela.')
 
 print()
 print('=' * 88)
-print('9. CAIDO — a maquina de estado de 0 de vida (secao 5.5)')
+print('9. INCONSCIENTE — a maquina de estado de 0 de vida (secao 5.5)')
 print('=' * 88)
 
 import re as _re
@@ -371,12 +371,12 @@ PECA = os.path.join(AQUI, '01-atributos-acerto-defesa.md')
 try:
     TXT = open(PECA, encoding='utf-8').read()
 except OSError as _e:
-    erro(f'nao consegui abrir a peca 1 para conferir o Caido ({_e})')
+    erro(f'nao consegui abrir a peca 1 para conferir o Inconsciente ({_e})')
     TXT = ''
 
 sec = TXT.split('## 5.5')[1].split('## 6.')[0] if '## 5.5' in TXT else ''
 if not sec:
-    erro('a secao 5.5 (Caido) sumiu da peca 1 — esta checagem parou de conferir')
+    erro('a secao 5.5 (Inconsciente) sumiu da peca 1 — esta checagem parou de conferir')
 
 # o ritmo de combate mora na secao 8 desta mesma peca, e e de la que ele vem
 _m = _re.search(r'previsão atual é ([\d,]+) a ([\d,]+) rodadas', TXT)
@@ -385,7 +385,7 @@ if _m:
     RODADAS_MAX = float(_m.group(2).replace(',', '.'))
 else:
     RODADAS_MIN = RODADAS_MAX = None
-    erro('nao achei o ritmo de combate na secao 8 — a janela do Caido nao tem contra o que '
+    erro('nao achei o ritmo de combate na secao 8 — a janela do Inconsciente nao tem contra o que '
          'ser medida, e esta checagem parou de conferir')
 RODADAS_MED = (RODADAS_MIN + RODADAS_MAX) / 2 if RODADAS_MIN else 0
 

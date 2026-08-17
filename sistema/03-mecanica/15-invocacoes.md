@@ -103,7 +103,7 @@ O argumento está no §3.4. **E o teto da peça 6 §4 deixou de precisar de poli
 
 **Q5 — FECHADA.**
 
-> **A invocação some no zero, sem estado intermediário.** Sem Caído, sem Sequela, sem Cicatriz — ela não é personagem.
+> **A invocação some no zero, sem estado intermediário.** Sem `Inconsciente`, sem Sequela, sem Cicatriz — ela não é personagem.
 > **Área causa o dano uma vez no pool, e a invocação é vulnerável a ela: dobro.** Não é dano por corpo.
 > **Ela morre em definitivo** — o talismã se desfaz, o corpo se perde, a invocação de técnica ou a maldição domada é exorcizada — **se o excedente passar de metade da vida máxima, ou se um único golpe causar a vida máxima inteira.**
 
@@ -545,7 +545,7 @@ Com a vida em pool (Q2) e `h` em meia Rotina (Q3), **um efeito de área que caus
 
 *Decisão do Mizuki, e o argumento é canon:* na obra, shikigami destruído **não volta**.
 
-> **Some no zero, sem estado intermediário.** Nada de Caído, Sequela ou Cicatriz — a máquina da peça 1 §5.5 é de personagem, e a Q2 gastou a passagem inteira comprando que a invocação **não** fosse um.
+> **Some no zero, sem estado intermediário.** Nada de `Inconsciente`, Sequela ou Cicatriz — a máquina da peça 1 §5.5 é de personagem, e a Q2 gastou a passagem inteira comprando que a invocação **não** fosse um.
 > **Mas ela morre de vez se o excedente passar de metade da vida máxima, ou se um único golpe causar a vida máxima inteira.** O talismã se desfaz, o corpo se perde, a invocação de técnica ou a maldição domada é exorcizada.
 
 | de onde vem o golpe | dano | passa de metade em negativo? | causa a vida máxima? |

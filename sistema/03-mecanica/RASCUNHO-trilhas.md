@@ -25,7 +25,7 @@ Escrito na **v0.54**, com o Mizuki fora. **Nenhuma Trilha é escrita aqui.** O q
 | **Bastião** | `Muro` · `Punho` · `Brasa` |
 | **Vanguarda** | `Estocada` · `Batedor` · `Executor` |
 | **Guia** | `Elo` · `Sutura` · `Perímetro` |
-| **Emanador** | `Torrente` · `Repertório` · `Arremate` |
+| **Emanador** | `Torrente` · `Explosivo` · `Arremate` |
 | **Evocador** | `Servo` · `Matilha` · `Coro` |
 
 **E cinco travas duras, cada uma com dono:**
@@ -523,7 +523,7 @@ Toda entrega é fração de alguma coisa. **Se essa coisa não crescer no ritmo 
 | 3 | **Vanguarda** — `Estocada` · `Batedor` · `Executor` | **é a única com dívida numerada** — `6%` a `9%` da Rotina, peça 14 §4 — e com moeda já aprovada para pagá-la: *"acesso a arma é moeda que ela pode gastar"* (v0.45) |
 | 4 | **Guia** — `Elo` · `Sutura` · `Perímetro` | fecha o problema de design nº 2, aberto desde a v0.24. A v0.36 já disse que **tudo passa**; falta o número |
 | 5 | **Bastião** — `Muro` · `Punho` · `Brasa` | `Muro` encosta em **cobrir-se de energia** (peça 11 §6) e em escudo (peça 14 §4). *A v0.36 já mandou medir as duas juntas: "ou uma domina a outra, ou são a mesma peça com dois nomes"* |
-| 6 | **Emanador** — `Torrente` · `Repertório` · `Arremate` | **`Torrente` é a mais perigosa das quinze** e por isso vai por último: ela é mais de uma ação por rodada, que é a coisa que quebra todo sistema d20. `Repertório` toca a peça 11 e `Arremate` toca a economia de ação |
+| 6 | **Emanador** — `Torrente` · `Explosivo` · `Arremate` | **`Torrente` é a mais perigosa das quinze** e por isso vai por último: ela é mais de uma ação por rodada, que é a coisa que quebra todo sistema d20. `Explosivo` toca a peça 11 e `Arremate` toca a economia de ação |
 
 **E duas coisas para medir antes de escrever, não depois** — as duas já estão registradas no `ESTADO-ATUAL` e nenhuma foi medida:
 
