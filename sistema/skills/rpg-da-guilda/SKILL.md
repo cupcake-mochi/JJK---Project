@@ -1,6 +1,6 @@
 ---
 name: rpg-da-guilda
-description: Procedimento de trabalho do repositório do RPG da Guilda (sistema de mesa de Jujutsu Kaisen) — ordem de leitura, validadores, triagem de nome, como escrever arquivo neste mount, arnês de perturbação e como fechar versão. Use em qualquer tarefa que mexa nesse repositório: escrever ou revisar peça de regra, mexer em número, criar validador, batizar coisa, ou retomar o trabalho em conversa nova.
+description: "Procedimento de trabalho do repositório do RPG da Guilda (sistema de mesa de Jujutsu Kaisen) — ordem de leitura, validadores, triagem de nome, como escrever arquivo neste mount, arnês de perturbação e como fechar versão. Use em qualquer tarefa que mexa nesse repositório, como escrever ou revisar peça de regra, mexer em número, criar validador, batizar coisa, ou retomar o trabalho em conversa nova. Vale só para mexer no repositório ou manual em si — nunca para jogar ou escrever sessão usando o sistema. Kaito, Shining, mesas e lore de campanha ficam inteiramente com mizuki-copiloto-do-mestre, mesmo sendo o mesmo sistema F&M."
 ---
 
 # RPG da Guilda — procedimento do repositório

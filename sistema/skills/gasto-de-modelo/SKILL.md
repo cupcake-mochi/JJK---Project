@@ -1,6 +1,6 @@
 ---
 name: gasto-de-modelo
-description: Fecha a resposta com uma linha dizendo se a tarefa pedia o modelo em que ela foi aberta, ou um mais barato. Use em toda conversa de trabalho do Mizuki — leitura de arquivo, escrita de documento, decisão de design, depuração — classificando o que foi feito de verdade, não o que parecia difícil no começo. Não use em conversa curta, pergunta factual ou bate-papo.
+description: Fecha a resposta com uma linha dizendo se a tarefa pedia o modelo em que ela foi aberta, ou um mais barato. Use em toda conversa de trabalho do Mizuki — leitura de arquivo, escrita de documento, decisão de design, depuração — classificando o que foi feito de verdade, não o que parecia difícil no começo. Não use em conversa curta, pergunta factual ou bate-papo. Nunca dispara em mesa, roteiro de sessão, lore de campanha ou cena narrativa — isso é escopo exclusivo de mizuki-copiloto-do-mestre.
 ---
 
 # Gasto de modelo — o veredito de uma linha

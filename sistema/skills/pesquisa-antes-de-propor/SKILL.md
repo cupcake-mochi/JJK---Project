@@ -1,6 +1,6 @@
 ---
 name: pesquisa-antes-de-propor
-description: Obriga levantamento externo — web, fóruns, texto de regra de outros sistemas, documentação oficial de ferramenta, fonte primária de lore — antes de propor mecânica, número, nome, conserto de ferramenta ou afirmação sobre canon. Use sempre que a resposta fosse conter algo que você não calculou dos documentos do projeto: como outro sistema resolve o mesmo problema, qual o modo de falha documentado dele, o que uma biblioteca faz de verdade, o que o material original diz. Use também quando a pergunta parecer respondível de cabeça — é justamente aí que ela falha. Não use para número que um documento do projeto já é dono.
+description: "Obriga levantamento externo — web, fóruns, texto de regra de outros sistemas, documentação oficial de ferramenta, fonte primária de lore — antes de propor mecânica, número, nome, conserto de ferramenta ou afirmação sobre canon. Use sempre que a resposta fosse conter algo que você não calculou dos documentos do projeto: como outro sistema resolve o mesmo problema, qual o modo de falha documentado dele, o que uma biblioteca faz de verdade, o que o material original diz. Use também quando a pergunta parecer respondível de cabeça — é justamente aí que ela falha. Não use para número que um documento do projeto já é dono."
 ---
 
 # Pesquisa antes de propor
