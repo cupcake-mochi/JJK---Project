@@ -31,3 +31,7 @@ desktop.ini
 # A mensagem de commit que o assistente deixa pronta. O subir.sh usa e apaga —
 # ela e passagem, nao material do repositorio.
 mensagem-de-commit.txt
+
+# A pasta de entrega e ARTEFATO e tem repositorio proprio (v0.82).
+# Ela e regerada quando uma versao fecha, e nunca editada a mao.
+finalizado/
