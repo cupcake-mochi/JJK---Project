@@ -6,6 +6,93 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.90] — 2026-08-17
+
+**A terceira de kokusen ganhou nome e gate, e virou a `Kokusen Constante`.** *Ela era contada entre as onze fechadas com o gate escrito como **a definir** e sem nome nenhum — a peça a chamava de "(a terceira de kokusen)".* **Fechar ela levou o catálogo de nove entradas escritas com número para dez, que é exatamente o que a rota pura de Refino passou a pedir na v0.89.** Continuam dezessete peças e dezessete validadores.
+
+### ⚠ Achado — ninguém tinha escrito se as três de kokusen empilham
+
+**Procurado nas dezessete peças e nos três desenhos: zero ocorrências.** *É o mesmo formato do buraco do `Mirar` — entrega escrita, interação não —, só que desta vez apareceu antes de alguém sentar na mesa.*
+
+**E a resposta decidia se a entrada existe.** Rodada no refino 10:
+
+| a ficha tem | chance no d100 | dano por rodada |
+|---|---|---|
+| só o `Kokusen` | 20% | `+1,82%` |
+| `Kokusen` + `Melhorado` | 36% | `+3,27%` |
+| `Kokusen` + a terceira | 30% | `+2,70%` |
+| **as três** | **51%** | **`+4,64%`** |
+
+**Sem empilhar, a terceira é 17% pior que a `Melhorado` pelo mesmo preço de um marco.** *Entrada morta ocupando vaga no catálogo.*
+
+### Decidido — as três empilham, e a ordem está escrita
+
+***Decisão do Mizuki.*** **A `Kokusen Constante` sobe a base para `3 × refino`, e a vantagem da `Kokusen Melhorado` rola em cima dela.**
+
+> **E nenhuma exige a outra.** *Os quatro formatos de gate da peça 11 §5 gateiam por nível, refino, os dois ou Origem — e nenhum deles é "ter pego a de antes".* **Criar esse quinto formato foi recusado:** foi uma pergunta de leitor do próprio Mizuki, na v0.65, que derrubou uma mecânica inteira exatamente por deixar uma entrega depender de outra sem ninguém ter escrito que podia.
+
+**Sozinha, a `Constante` perde para a `Melhorado` em todo refino, e isso fica declarado.** *A conta é de forma:* vantagem numa chance `p` dá `2p − p²`, e isso ganha de `1,5p` enquanto `p` estiver abaixo de `50%`. **O teto do kokusen é `20%`, então a `Melhorado` ganha sempre.**
+
+### Decidido — o gate é `refino 5`, sem gate de nível, e ele é derivado
+
+| gate | especialista | meio a meio | generalista |
+|---|---|---|---|
+| **`Kokusen Constante`** — refino 5 | **nível 10** | nível 14 | nível 18 |
+| `Kokusen Melhorado` — refino 5 **e nível 14** | nível 14 | nível 14 | nível 18 |
+
+**São quatro níveis em que a `Constante` é a única das duas disponíveis, e eles vão inteiros para quem sempre escolhe Refino.** *Sem isso, ela seria uma entrada que nunca compensa escolher: quem pode pegar ela já pode pegar a `Melhorado`, que é melhor.* **É a mesma folga do lado certo que o gate duplo da `Melhorado` tem, virada para a outra ponta da campanha.**
+
+*O nome saiu de três candidatos que passaram na triagem.* **`Pleno` foi recusado FORA dela, tendo saído `LIVRE`:** ele entra no campo de `Liberação Máxima` e `Técnica Máxima`, que já ocupam o *"no máximo"* no manual. *Colisão de sentido continua sendo o que a triagem não pega.*
+
+### ⚠ Corrigido — a trava do kokusen media a ENTRADA, e a peça fala da FICHA
+
+**O contrato 4 exigia que o kokusen ficasse abaixo de um quarto do que um ponto de atributo compra — medindo só a entrada base, em `0,18×`.** *Com as três empilhadas a ficha chega a `+4,64%` de dano por rodada, que é `0,46×`.* **A trava velha não veria.**
+
+**A comparação certa é POR MARCO, e não no total:** a pilha inteira custa **três** marcos, e três marcos de `Corpo` compram `+3` de atributo.
+
+| a ficha tem | dano por rodada | marcos | por marco |
+|---|---|---|---|
+| só o `Kokusen` | `+1,82%` | 1 | `0,18×` |
+| `Kokusen` + `Melhorado` | `+3,27%` | 2 | `0,16×` |
+| **as três** | `+4,64%` | **3** | **`0,15×`** |
+
+**Os mesmos três marcos em `Corpo` comprariam `+30%` — `6,5×` mais.** *Continua sendo escolha pelo grito, e não pela planilha, que é o que o texto sempre disse.*
+
+> **Medir a pilha contra UM ponto de atributo seria comparar três marcos com um** — a lição nº 7 por outra porta. *E medir só a entrada é a lição nº 8: a trava se media contra o pedaço que ela mesma escolheu olhar.*
+
+### ⚠ Corrigido — a checagem do gate duplicado só olhava UMA das catorze entradas
+
+**O gate de cada aptidão mora em dois lugares:** o título da seção 6 ou 6.5, e a linha da tabela do catálogo da seção 10. **Catorze entradas, catorze cópias.**
+
+**A checagem que comparava as duas estava escrita no braço, para a `Energia Reversa` e só para ela.** *Perturbando o gate da `Kokusen Constante` no catálogo — `refino 5` virando `refino 7` —, o validador saía **verde**.* **Treze das catorze não tinham ninguém comparando.**
+
+**Generalizada: agora ela varre as onze entradas que têm seção própria.** *A direção é de mão única, no molde da checagem 9 do `conferir-catalogo.py`:* o título é o dono, e a tabela pode dizer **mais** — a `Aptidão Própria` carrega *"uma vez na ficha"*, que não é gate. **Ela não pode dizer menos nem outro.** *E há guarda de contagem: se o número de pares cair de onze, ela acusa em vez de conferir menos em silêncio.*
+
+### As sete perturbações, em cópia isolada
+
+| perturbação | esperado | deu |
+|---|---|---|
+| **a frase do empilhamento some da peça** | acende | acende |
+| a `Constante` sobe a base para `6 ×` em vez de `3 ×` | acende | acende |
+| **contra-teste:** `5 ×`, logo abaixo da trava | verde | verde |
+| **o gate da `Constante` diverge no catálogo** | acende | acende |
+| **a regressão velha: o gate da `Energia Reversa` diverge** | acende | acende |
+| **contra-teste:** a tabela dizendo MAIS que o título | verde | verde |
+| **contra-teste (da v0.89, rodado de novo):** a escada desmembrada | verde | verde |
+
+> **A terceira encosta na trava de propósito.** *A `5 ×` a pilha rende `2,25%` por marco e passa; a `6 ×` rende `2,52%` e reprova, contra um limite de `2,50%`.* **A linha está entre as duas, e agora existe quem a defenda.**
+
+### Em aberto
+
+- **`Barreira Simples` e `Cortina` continuam sem número.** *Com a `Constante` fechada, o catálogo tem dez entradas escritas e a rota pura de Refino pede exatamente dez — **fecha sem folga nenhuma** até as duas entrarem.* **É a próxima coisa da fila, por escolha do Mizuki.**
+- **Duas entregas têm nome em minúscula** — o `carregar` do `Yumi` e o `acelerar` da `Torrente`.
+- **A terceira taxa sem medida do `Batedor`:** em quantas rodadas o atirador fica parado. *Ela sozinha decide `2,12` fatias.*
+- **Cobertura não existe como regra**, e os metros de cada arma de projétil também não.
+- **As três Trilhas do Evocador continuam paradas.**
+- As de sempre: o `.pdf` do manual na v7.4 contra a v7.8 do `.docx`, as vagas de `Desliga`, a Cicatriz, o clash, a tabela de inimigo parada e o **nome do sistema**.
+
+---
+
 ## [0.89] — 2026-08-17
 
 **A troca do marco fechou, e ela era o único problema de design que tinha sobrado.** *A escolha de `Refino` promete **"mais um de refino, e uma aptidão"** e entregava só a aptidão em três dos sete marcos, porque o teto de refino já tinha sido alcançado.* **Nenhum validador via, e a causa de não ver é a lição nº 3 acontecendo dentro de um deles.** Continuam dezessete peças e dezessete validadores.

@@ -103,7 +103,7 @@ A linha passiva do marco sozinha conserta isso:
 
 > **⚠ E o que isto NÃO tem é régua, declarado.** *"Uma aptidão a mais" não converte em fatia, e foi ela que matou o `Repertório` na v0.81.* **A diferença é quem recebe:** lá a Trilha era vendida para qualquer ficha, e o número tinha de valer para quem nunca pega aptidão nenhuma. **Aqui quem leva a segunda aptidão é, por definição, quem já escolheu esse eixo cinco vezes.** *A régua continua não existindo; o que muda é que esta comparação não depende dela.*
 
-**A rota pura passa a precisar de 10 aptidões**, e o catálogo da seção 6 tem **12 que custam marco**. *Cabe, com duas de folga.* **Mas só nove estão escritas com número hoje** — `Barreira Simples`, `Cortina` e a terceira de kokusen continuam *a definir*. *É a primeira coisa que aperta se a lista não crescer.*
+**A rota pura passa a precisar de 10 aptidões**, e o catálogo da seção 6 tem **12 que custam marco**. *Cabe, com duas de folga.* **E dez estão escritas com número desde a v0.90**, quando a `Kokusen Constante` ganhou nome e gate — *faltam `Barreira Simples` e `Cortina`, que continuam `a definir`.* **A rota pura fecha exatamente, sem folga nenhuma, até as duas entrarem.**
 
 ### As três não se substituem, e é isso que as equilibra
 
@@ -272,11 +272,32 @@ O gate duplo tem folga do lado certo. Refino 5 cai no nível 10 para quem sempre
 
 **O preço é ruim de propósito.** A ~2% de dano por rodada, ele vale um quinto do que um ponto de atributo compra, numa campanha com no máximo sete aptidões. Quem olha o número não escolhe; quem escolhe, escolhe pelo grito.
 
-### A terceira de kokusen
+### Kokusen Constante · refino 5
 
 > **A base sobe para `3 × refino`.**
 
 Trinta por cento no teto. É a única das três que mexe no número em vez do dado, e por isso é a que se lê de cara na hora de escolher.
+
+> ***As três empilham, e a ordem é essa:*** **a base é `3 × refino`, e a vantagem da `Kokusen Melhorado` rola em cima dela.** *Com as três na ficha, o d100 sai em `51%` no refino 10.* **Nenhuma delas exige a outra** — os quatro formatos de gate desta peça gateiam por nível, refino, os dois ou Origem, e nenhum deles é *"ter pego a de antes"*.
+
+**Sozinha, ela perde para a `Kokusen Melhorado` em todo refino — e isso fica declarado, com a conta.**
+
+| refino | só a `Melhorado` | só a `Constante` | as duas |
+|---|---|---|---|
+| 1 | 4,0% | 3,0% | 5,9% |
+| 5 | 19,0% | 15,0% | 27,8% |
+| **10** | **36,0%** | 30,0% | **51,0%** |
+
+**A diferença é de forma e não de tamanho.** *Vantagem numa chance `p` dá `2p − p²`, e isso ganha de `1,5p` enquanto `p` estiver abaixo de `50%`.* **O teto do kokusen é `20%`, então a `Melhorado` ganha sempre.**
+
+**O que a `Constante` compra em troca é o que esta seção já dizia dela: ela mora no número da ficha, e não na sorte do dado.** *E o gate é só de refino por causa disso:*
+
+| gate | especialista | meio a meio | generalista |
+|---|---|---|---|
+| **`Kokusen Constante`** — refino 5 | **nível 10** | nível 14 | nível 18 |
+| `Kokusen Melhorado` — refino 5 **e nível 14** | nível 14 | nível 14 | nível 18 |
+
+**São quatro níveis em que ela é a única das duas disponíveis, e eles vão inteiros para quem investiu.** *É a mesma folga do lado certo que o gate duplo da `Melhorado` tem — só que virada para a outra ponta da campanha.*
 
 **A cascata mexe só na chance do d100, e com teto.** Dobrar a chance no refino 5 rende **+0,9 ponto**; fazer a margem cair para 19 rende **+10,9%** — e **9,1 desses pontos vêm do dado a mais, antes de o kokusen entrar**. A margem carrega o crítico inteiro junto, e é por isso que ela está fora.
 
@@ -531,7 +552,7 @@ Sobraram dois pedaços que a seção 6.1 não tinha, e só eles ficam:
 |---|---|
 | **Kokusen** | em crítico no corpo a corpo, role d100: **2 × refino** ou menos é kokusen, e o dano leva **+50% depois de tudo resolvido** |
 | **Kokusen Melhorado** | **vantagem no d100.** Refino 5 e nível 14. Ganha do `3 ×` em todo refino — 36% contra 30% no refino 10 |
-| **a terceira** | sobe a base para **3 × refino** |
+| **`Kokusen Constante`** | sobe a base para **3 × refino**, e a vantagem da `Melhorado` rola em cima. Refino 5, sem gate de nível |
 
 A 2 ×, o refino 10 soma **1,8% de dano por rodada** e leva ~5 sessões até o primeiro; no refino 1 são **47 sessões**, então ele praticamente não existe antes de você investir. **A cascata mexe só na chance do d100, com teto** — fazer a margem cair para 19 renderia +10,9%, dos quais **9,1 vêm do dado a mais** e não do kokusen.
 
@@ -548,7 +569,7 @@ A 2 ×, o refino 10 soma **1,8% de dano por rodada** e leva ~5 sessões até o p
 
 O motivo de "por cena" não servir: o acúmulo só começa a partir do **segundo crítico da mesma cena**, e dois críticos no mesmo combate acontecem em **4,4%** das vezes — ele evapora antes de servir.
 
-Com as três de kokusen, o catálogo fica em **catorze entradas** — doze da obra mais a terceira mais a Aptidão Própria —, dentro da faixa de doze a quinze.
+Com as três de kokusen, o catálogo fica em **catorze entradas** — doze da obra mais a `Kokusen Constante` mais a Aptidão Própria —, dentro da faixa de doze a quinze.
 
 ### O Limiar — mecânica à parte, e o cardápio precisa dizer o tamanho
 
@@ -588,7 +609,7 @@ E os dois **correm em sentidos opostos**: a vantagem é auto-regulada e dá pouc
 | 10 | **Energia Reversa** | Classe Passiva 3 · refino 7, nível 13 | **nada** — o teto é `maior Classe`, e `1d8` de cura por PE |
 | 11 | **Kokusen** | — | a chance no d100, `2 ×` |
 | 12 | **Kokusen Melhorado** | refino 5, nível 14 | vantagem no d100 |
-| 13 | **(a terceira de kokusen)** | *a definir* | a chance, `3 ×` |
+| 13 | **Kokusen Constante** | refino 5 | a chance, `3 ×` |
 | 14 | **Aptidão Própria** | Classe 1 ou 2, **uma vez na ficha** | conforme o que for escrito |
 
 **Todas custam um marco. Nenhuma custa espaço de feitiço** — essa é a moeda das Passivas e da Expansão de Domínio, que ficam do lado do manual.

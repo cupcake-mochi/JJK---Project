@@ -15,8 +15,10 @@ CONTRATO DE INVARIANTES:
      um atributo. E a Reacao a 1,5 x refino fica com saldo POSITIVO em todo nivel.
   3. PROJETAR nao compete com feitico: o dano dela fica numa faixa estreita da
      coluna Rotina, e ela deriva para BAIXO.
-  4. KOKUSEN e pequeno e nao espirala: o teto de dano por rodada fica abaixo de um
-     quinto do que um ponto de atributo compra, e a cascata nao toca a margem.
+  4. KOKUSEN e pequeno e nao espirala: a cascata nao toca a margem, e o que a
+     FICHA consegue com as tres empilhadas, POR MARCO PAGO, fica abaixo de um
+     quarto do que um ponto de atributo compra. A trava media so a entrada base
+     ate a v0.90 — e a peca fala da ficha, nao da entrada.
   5. AS TRES ROTAS DO MARCO nao se dominam, e o orcamento de espaco cobre a
      montagem mais pesada que o manual permite.
   6. O TETO DE PASSIVAS: as pagas continuam sendo cinco. A gratis traz a propria vaga.
@@ -282,6 +284,58 @@ if teto_kok > VALE_ATRIBUTO / 4:
 else:
     print(f'\n  Teto de {teto_kok:.1%}, menos de um quinto de um ponto de atributo.')
     print('  Ele existe pelo grito na mesa, e o texto precisa dizer isso.')
+
+# --- 4.2 A PILHA, e nao so a entrada base ----------------------------------
+# A trava acima mede a ENTRADA. A peca 11 diz "ninguem deve montar ficha em cima
+# dele" — e isso e uma frase sobre a FICHA. Desde a v0.90 as tres empilham: a
+# `Kokusen Constante` sobe a base para 3 x refino e a vantagem da `Melhorado`
+# rola em cima dela. Medindo so a base, a trava nunca veria a pilha.
+#
+# A COMPARACAO E POR MARCO, e nao no total: a pilha inteira custa TRES marcos, e
+# tres marcos de Corpo compram +3 de atributo. Medir a pilha contra UM ponto de
+# atributo seria comparar tres marcos com um — o erro que a licao no 7 descreve.
+#
+# NADA DE VALOR ESCRITO AQUI: o multiplicador da Constante e o empilhamento saem
+# da peca 11.
+print()
+_m = re.search(r'Kokusen Constante.{0,400}?base sobe para `(\d+) × refino`', PECA11, re.S)
+MULT_CONST = int(_m.group(1)) if _m else None
+if MULT_CONST is None:
+    erro('nao achei na peca 11 quanto a `Kokusen Constante` poe na base do kokusen — '
+         'a trava da pilha parou de conferir')
+EMPILHAM = 'As três empilham' in PECA11
+if not EMPILHAM:
+    erro('a peca 11 parou de dizer que as tres de kokusen empilham — sem essa frase '
+         'a mesa nao sabe se a vantagem rola sobre 2x ou sobre 3x, que e o buraco do '
+         '`Mirar` outra vez (entrega escrita, interacao nao)')
+
+if MULT_CONST and EMPILHAM:
+    MARCOS_DA_PILHA = 3          # Kokusen + Constante + Melhorado, um marco cada
+    p_base = min(1.0, MULT_KOK * TETO_REFINO / 100)
+    p_const = min(1.0, MULT_CONST * TETO_REFINO / 100)
+    p_pilha = 1 - (1 - p_const) ** 2      # vantagem rola sobre a base ja subida
+    print(f"  {'a ficha tem':<38}{'chance no d100':<17}{'dano por rodada':<18}"
+          f"{'marcos':<9}{'x atributo, POR marco'}")
+    linhas = [('so o Kokusen', p_base, 1),
+              ('Kokusen + Constante', p_const, 2),
+              ('Kokusen + Melhorado', 1 - (1 - p_base) ** 2, 2),
+              ('as TRES empilhadas', p_pilha, MARCOS_DA_PILHA)]
+    for nome, p, marcos in linhas:
+        g = dpr(p) / BASE - 1
+        print(f'  {nome:<38}{p:<17.0%}{f"+{g*100:.2f}%":<18}{marcos:<9}'
+              f'{g / marcos / VALE_ATRIBUTO:.2f}x')
+    g_pilha = dpr(p_pilha) / BASE - 1
+    por_marco = g_pilha / MARCOS_DA_PILHA
+    if por_marco > VALE_ATRIBUTO / 4:
+        erro(f'a pilha de kokusen rende {por_marco:.2%} de dano por rodada POR MARCO '
+             f'pago, e passou de um quarto do que um ponto de atributo compra — vale '
+             f'montar ficha em cima dela')
+    else:
+        print(f'\n  A pilha inteira rende +{g_pilha*100:.2f}% por {MARCOS_DA_PILHA} marcos.')
+        print(f'  Os mesmos {MARCOS_DA_PILHA} marcos em Corpo comprariam '
+              f'+{MARCOS_DA_PILHA*VALE_ATRIBUTO*100:.0f}% — '
+              f'{MARCOS_DA_PILHA*VALE_ATRIBUTO/g_pilha:.1f}x mais.')
+        print('  Continua sendo escolha pelo grito, e nao pela planilha.')
 
 print('\n  A cascata mexe SO na chance. O que aconteceria mexendo na margem:\n')
 print(f"  {'escada':<34}{'dano por golpe':<18}{'contra a base'}")
@@ -705,21 +759,71 @@ else:
     else:
         print('  [x] o refino nao entra na formula de cura.')
 
-    # 5. LIÇÃO Nº 9: o gate mora no titulo da secao 6 E na tabela do catalogo da
-    #    secao 10. Dois donos para o mesmo numero — alguem tem que comparar.
-    _lin = [l for l in _t11.split('\n')
-            if l.strip().startswith('|') and '**Energia Reversa**' in l]
-    if not _lin:
-        erro('a `Energia Reversa` sumiu da tabela do catalogo — ela e a entrada 10 de 14')
-    elif 'a definir' in _lin[0]:
-        erro('a tabela do catalogo ainda diz "a definir" para a `Energia Reversa`, que '
-             'fechou na v0.77 — e o caso classico da licao nº 9, com a peca escrita '
-             'de um lado e a tabela de resumo do outro')
-    elif not all(x in _lin[0] for x in ('Classe Passiva 3', 'refino 7', 'nível 13')):
-        erro(f'a linha do catalogo diz "{_lin[0].strip()[:70]}" e nao repete o gate do '
-             'titulo da secao 6 — as duas copias divergiram')
-    else:
-        print('  [x] a linha do catalogo repete o gate do titulo da secao 6.')
+    # 5. LIÇÃO Nº 9, GENERALIZADA na v0.90: o gate de cada aptidao mora no titulo
+    #    da secao 6 ou 6.5 E na tabela do catalogo da secao 10. Dois donos para o
+    #    mesmo numero, catorze vezes.
+    #
+    #    Ate a v0.90 esta checagem so olhava a `Energia Reversa`, escrita no braco.
+    #    Perturbando o gate da `Kokusen Constante` no catalogo, ela saia VERDE —
+    #    treze das catorze entradas nao tinham ninguem comparando as duas copias.
+    #
+    #    A direcao e de MAO UNICA, no molde da checagem 9 do conferir-catalogo:
+    #    o titulo e o dono, e a tabela pode dizer mais (a `Aptidão Própria` carrega
+    #    "uma vez na ficha", que nao e gate). Ela nao pode dizer MENOS nem OUTRO.
+    def _gates(s):
+        s = sem_acento(s).lower()
+        g = set()
+        for _mm in re.finditer(r'classe passiva (\d+)', s):
+            g.add(f'Classe Passiva {_mm.group(1)}')
+        _s2 = re.sub(r'classe passiva \d+', '', s)
+        for _mm in re.finditer(r'classe (\d+)', _s2):
+            g.add(f'Classe {_mm.group(1)}')
+        for _mm in re.finditer(r'refino (\d+)', s):
+            g.add(f'refino {_mm.group(1)}')
+        for _mm in re.finditer(r'nivel (\d+)', s):
+            g.add(f'nivel {_mm.group(1)}')
+        if 'sem gate' in s:
+            g.add('sem gate')
+        if 'gratis' in s:
+            g.add('gratis')
+        return g
+
+    _titulos = {}
+    for _l in _t11.split('\n'):
+        if _l.startswith('### '):
+            _corpo = _l[4:]
+            _nome = _corpo.split('·')[0].strip()
+            _titulos[sem_acento(_nome).lower().strip()] = (_corpo, _gates(_corpo))
+
+    _cat = _t11.split('### O catálogo fechado')[1] if '### O catálogo fechado' in _t11 else ''
+    if not _cat:
+        erro('nao achei a tabela do catalogo na secao 10 — esta checagem parou de conferir')
+    _pares, _divs = 0, 0
+    for _l in _cat.split('\n'):
+        _mm = re.match(r'\|\s*(\d+)\s*\|\s*\*\*(.+?)\*\*\s*\|\s*(.*?)\s*\|', _l)
+        if not _mm:
+            continue
+        _nome, _cel = _mm.group(2), _mm.group(3)
+        _k = sem_acento(_nome).lower().strip()
+        if _k not in _titulos:
+            continue          # ainda nao tem secao propria: e uma das que faltam
+        if 'a definir' in _cel:
+            erro(f'a tabela do catalogo diz "a definir" para `{_nome}`, e ela JA tem '
+                 f'secao escrita na peca — e a licao nº 9 com a regra de um lado e '
+                 f'a tabela de resumo do outro')
+            _divs += 1
+            continue
+        _pares += 1
+        _falta = _titulos[_k][1] - _gates(_cel)
+        if _falta:
+            erro(f'`{_nome}`: o titulo da secao pede {sorted(_falta)} e a linha do '
+                 f'catalogo diz "{_cel[:50]}" — as duas copias do gate divergiram')
+            _divs += 1
+    if _pares < 10:
+        erro(f'so {_pares} entrada(s) do catalogo tem secao para comparar, e eram 11 — '
+             f'alguem mudou o formato do titulo e esta checagem esta conferindo menos')
+    elif not _divs:
+        print(f'  [x] as {_pares} entradas com secao repetem o gate dela no catalogo.')
 
     # 6. e ela nao pode continuar na lista das que FALTAM
     _s7 = _t11.split('## 7. ')[1].split('\n## 8.')[0] if '## 7. ' in _t11 else ''
