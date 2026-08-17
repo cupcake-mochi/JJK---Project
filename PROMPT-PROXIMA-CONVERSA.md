@@ -46,13 +46,15 @@ sistema de invocação visto de dentro, e a peça 15 é a dona da máquina. O RA
 §6 tem o levantamento inteiro delas, incluindo a régua da camada de vínculo que a v0.68
 fechou, e o Servo já está montado no §6.10 como prova de método. Com elas as quinze fecham.
 
-E TEM UMA DÍVIDA GRANDE ANTES DO PDF, marcada e não consertada. A linha de base do físico
-da peça 6 §3 publica 106 = feitiço de Toque + golpe simples. Mas eu decidi na v0.81 que o
-ataque extra sempre exige a Ação de Atacar, como no 5e — e um feitiço de Toque gasta a Ação
-Padrão conjurando. Os dois não cabem no mesmo turno, então o físico faz 94, que é o mesmo
-que o conjurador, e o vão vira ZERO em vez de 12. Se isso for aplicado, o degrau do nível 7
-dos cinco Caminhos fica sem o que o pagava, junto com o nível 2 do Arremate e o Resquício.
-O aviso completo com a conta está no topo do §3 da peça 5. NÃO REFAÇA ISSO SEM ME PERGUNTAR.
+A DÍVIDA DO FÍSICO FECHOU NA v0.82, e ela nunca foi dívida. A peça 6 §3.1 sempre teve a
+linha "feitiço de Toque + golpe simples" marcada como EXISTENTE na tabela dos três turnos —
+faltava dizer de onde vinha o golpe. Vem do ataque extra do nível 7, que é um GOLPE SOLTO
+por rodada e não exige a Ação de Atacar. Zero número se moveu: o vão continua 9-10-11-12, o
+nível 7 continua de graça nos cinco Caminhos, o Arremate e o Resquício continuam iguais. A
+alternativa reprova por dominância: com o ataque extra preso à Ação de Atacar, dois golpes
+dão 23 no nível 30 contra 27 de um Classe 0 grátis, e o físico e o conjurador ficam
+idênticos em 60,50 por rodada. A checagem 4h do conferir-manual.py guarda a forma com sete
+perturbações; a 4f guarda o número.
 
 RÉGUAS QUE VALEM HOJE. A fatia é 5,08 de dano por rodada, a Trilha leva 5 e a banda é 4,50
 a 5,00; o Caminho leva 3. O vão publicado é 9 · 10 · 11 · 12 e é exatamente um golpe simples

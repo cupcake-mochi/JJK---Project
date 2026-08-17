@@ -6,6 +6,96 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.82] — 2026-08-17
+
+**A dívida de linha de base que a v0.81 marcou com `⚠⚠ LIMPAR ANTES DO PDF` NUNCA FOI DÍVIDA.** *Ela era uma frase que ninguém tinha escrito, e a própria peça 6 já tinha registrado a resposta como "anotado, não decidido".* **Zero número se moveu.** E entraram as **treze Manhas** da Vanguarda, que fecham o nível 2 daquele Caminho. Continuam dezesseis peças e dezesseis validadores.
+
+> **⚠ Esta versão subiu em DOIS commits, e o primeiro foi sem esta entrada.** *O commit `7ad1a89` levou as Manhas e o `.gitignore` com a etiqueta v0.82 enquanto o `README`, o `ESTADO-ATUAL` e o `LEIA-ME` ainda diziam v0.81.* **É a mesma falha que a v0.80 registrou, e ela continua sem validador** — a checagem existente só pega quem sobe a versão nos documentos sem escrever a entrada, e não o contrário.
+
+### Fechado — o ataque extra é um golpe SOLTO por rodada
+
+*Achado do Mizuki, e ele veio de uma pergunta e não de uma conta:* ***"já é um ataque extra, é uma mecânica forte, não acho que precisa disso."***
+
+**Ele estava certo, e três mensagens de orçamento tinham sido construídas em cima da premissa errada.** *Eu vinha medindo quanto o nível 7 dos cinco Caminhos perderia e como devolver `1,23` fatia — e a pergunta certa era outra.*
+
+**A peça 6 §3.1 sempre teve a linha `feitiço de Toque + golpe simples` marcada como EXISTENTE na tabela dos três turnos.** *O que faltava era dizer de onde vinha o golpe, e aquela seção já tinha escrito a resposta e a deixado como "anotado, não decidido".*
+
+> **O ataque extra não exige a Ação de Atacar.** Quem tem ataque extra ganha um golpe simples **por rodada**, e ele acontece junto do que a Ação Padrão fez — inclusive quando ela conjurou.
+
+**A reconstrução é a prova, porque ela reproduz uma coisa que não foi posta nela:**
+
+| a rodada, no nível 30 | conjurador | físico | a diferença |
+|---|---|---|---|
+| gastando PE — o feitiço grande | `94,0` | `105,5` | **`11,5`** |
+| poupando PE — um Classe 0 | `27,0` | `38,5` | **`11,5`** |
+
+**A diferença é a mesma nas duas, e é exatamente um golpe simples** — que é o vão `9 · 10 · 11 · 12` que a peça já publicava.
+
+### Medido — a alternativa reprova por DOMINÂNCIA, e não por orçamento
+
+**Com o ataque extra preso à Ação de Atacar, dois golpes rendem `23` no nível 30 e um Classe 0 grátis rende `27`.**
+
+*A habilidade de nível 7 de dois Caminhos perderia para o botão que toda ficha já tem, ninguém usaria a Ação de Atacar nunca, e o físico e o conjurador terminariam idênticos em `60,50` de dano por rodada.* **Uma entrega de Caminho que perde para o botão grátis não é decisão de design.**
+
+> **E a v0.81 registrou no CHANGELOG a frase contrária** — *"o ataque extra sempre exige a Ação de Atacar, como no 5e"*. *Ela contradizia a tabela dos três turnos da mesma peça, que já marcava a linha do físico como existente.* **A peça 6 §3.1 é a dona; o CHANGELOG registra o que se pensou naquele dia.** *A decisão que SOBREVIVE inteira é a outra da v0.81: a Ação de Atacar não inclui o feitiço de Toque. As duas convivem, porque o ataque extra não é parte da Ação de Atacar — ele é um passageiro da rodada.*
+
+### Adicionado — a checagem 4h, e ela guarda a FORMA e não o número
+
+*A peça 6 declarava esta dívida com todas as letras: **"nenhum `conferir-*.py` lê a forma do ataque extra — trocar o slot ou apagar o gate não falha validador nenhum."***
+
+**Ela tem três metades independentes de propósito**, porque uma checagem que só procurasse a frase afirmativa sairia verde se alguém ADICIONASSE a frase contrária sem apagar a primeira: a declaração existe · nenhuma linha viva prende o ataque extra à Ação de Atacar · o gate do golpe do `Arremate` e do `Coro` continua escrito.
+
+**Sete perturbações, em cópia isolada, com a base conferida antes e o `diff` conferido em cada uma:**
+
+| perturbação | esperado | deu |
+|---|---|---|
+| apagar a declaração do golpe solto | acende | acende |
+| trocar o *"não exige"* por *"exige"* | acende | acende |
+| linha **viva** prendendo à Ação de Atacar | acende | acende |
+| a mesma linha em bloco de citação | verde | verde |
+| a mesma linha em nota de itálico | verde | verde |
+| apagar o gate do `Arremate` e do `Coro` | acende | acende |
+| **contra-teste:** fazer o vão encolher | acende | acende **pela 4f** |
+
+> **A regra 3 do arnês pagou nesta versão.** *O primeiro contra-teste numérico não bateu no formato da tabela e o arquivo não mudou* — e o arnês recusou o resultado em vez de deixar reportar um "acendeu" falso. **O segundo, com o formato certo, acendeu pela `4f`.** *As duas checagens se cobrem por eixos diferentes: a `4h` guarda a forma, a `4f` guarda o número.*
+
+### Adicionado — as treze Manhas da Vanguarda
+
+*O nível 2 da Vanguarda apontava para um catálogo que não existia desde a terceira passada de Caminhos — item 1 do "o que sobrou aberto" daquele desenho, marcado como o maior trabalho que ele criava.*
+
+**A RÉGUA VEIO ANTES DO CATÁLOGO, e ela reprovou sete das oito propriedades de maestria do 5e de 2024.** *A causa é estrutural e não de preço: aqui `+1` no acerto vale `10,80` de dano por rodada, que é `10%` da Rotina, então vantagem vale `54,00` contra um degrau de uma fatia — `10,6` vezes o degrau inteiro.* **Só o `Graze` cabe sozinho.**
+
+**As treze caem entre `0,68` e `1,18` fatia, média `0,98`, dominância `1,74×` contra um filtro que reprova em `3,00×`.** *Calibração: o `Guiar` do Guia vale `0,68` no mesmo degrau e o `Absorver` do Bastião vale `1,60`.*
+
+**Duas decisões do Mizuki destravaram o catálogo.** *Dano de valor **FIXO** é legal — a cerca da peça 5 proibia "dado de dano" e ninguém tinha escrito se fixo entrava junto; isso resolve de graça a mesma pendência na `Presa` do Evocador.* **E derrubar fica, aplicando a condição `Caído`**, com o efeito por extenso até a peça de dano e condições existir.
+
+> **`derrubar` foi DERIVADO das duas réguas que já existem, e não inventado:** vantagem para um aliado corpo a corpo (`25` pp × `0,230` = `5,75`) mais o alvo gastando `4,5 m` para levantar (`2,70`), dando `8,45` por rodada — `1,66` fatia permanente, que a trava de `60%` põe em `1,00`.
+
+**A triagem matou quatro nomes:** `Fio` (dentro de `Fio Preso`), `Volta` (dentro de `Sem Volta`), `Sopro` e `Trava` (feitiço pronto e Melhoria do manual). **E um quinto morreu FORA dela, por colisão de sentido:** `Ajuste` saiu `LIVRE` e foi recusado porque `Ajusta` é formato de Legado e aparece **42 vezes** na peça 13.
+
+### Parado — o Evocador sai da fila, e NÃO por ter morrido
+
+***Decisão do Mizuki:*** *"ninguém vai usar essa classe por enquanto."* **O §6 do `RASCUNHO-trilhas.md` ganhou cabeçalho de parada.** *Ele não foi para `99-arquivo/`, e a diferença importa: aquela pasta é de material morto com o motivo da morte escrito, e nada ali morreu.* **O `Servo` está montado e fecha em `5,07` contra um orçamento de `5,07`** — falta só o gatilho do nível 27.
+
+### Adicionado — o repositório de entrega
+
+**`finalizado/` virou repositório próprio** e entrou no `.gitignore` daqui: ela é **artefato e não fonte**, regerada quando uma versão fecha e nunca editada à mão. *A mesma distinção que o `.gitignore` já fazia com o `.docx` gerado dentro do `manual/gerador/`.*
+
+> **O motivo tem número:** o repositório de trabalho tem `2,2 MB` de texto e `628 KB` disso é este CHANGELOG. **Para escrever texto de mesa isso é ruído que gasta o contexto de quem lê.** A entrega tem `816 KB` e nenhum byte de histórico de decisão.
+
+### Em aberto
+
+- **As 48 entregas de Trilha, os 20 degraus de Caminho e as 13 Manhas continuam fora de peça numerada.** *É a próxima da fila, e é o que faz o `Repertório` abandonado ainda estar vivo na peça 6 §2.*
+- **A lista de ações continua fora de peça** — ela mora no fim do `DESENHO-caminhos.md` e nove Trilhas apontam para ela.
+- **A troca do marco paga mal do nível 22 em diante**, e o que falta não é a régua impossível de *"uma aptidão a mais"*: no marco a comparação é entre as três opções para o mesmo jogador, e aí a aptidão e a Passiva se cancelam.
+- **São QUATRO entradas de aptidão abertas e não três** — `Barreira Simples`, `Cortina`, `Aptidão Própria` e a **terceira de kokusen, que não tem nome e tem o gate "a definir"** enquanto é contada entre as onze fechadas.
+- **Os metros de cada arma de projétil não existem**, e a propriedade `Longo Alcance` já custa `1` ponto no orçamento das onze.
+- **A troca de `Caído` para `Inconsciente` no estado de 0 de vida continua não aplicada**, e o termo é citado nas peças 1, 13 e 15.
+- **Atribuição de versão continua sem validador**, e esta versão é o exemplar novo.
+- As de sempre: as vagas de `Desliga`, a Cicatriz, o clash, o nome do sistema, `condição` sem conversão, gastar PE sem preço.
+
+---
+
 ## [0.81] — 2026-08-16
 
 **A v0.80 deixou dois avisos pendurados na régua de Trilhas, e os dois foram medidos: o orçamento NÃO se move.** *O vão corrigido não muda o preço de nenhuma das onze Trilhas fechadas, e o teto que morreu não tem substituto — foram testados três candidatos.* **E o Classe 0 fantasma tinha sobrado num lugar que a guarda da v0.80 não alcançava, porque aquela guarda tinha um buraco de uma linha.** Continuam dezesseis peças e dezesseis validadores.

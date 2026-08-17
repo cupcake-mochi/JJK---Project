@@ -55,25 +55,25 @@ Nenhuma quantidade de requisito de Força, nenhuma tabela de arma e nenhum ajust
 
 ## 3. Canalizar Energia
 
-> ## ⚠⚠ LIMPAR ANTES DO PDF — o "golpe canalizado" nunca existiu
+> ## O "golpe canalizado" nunca existiu — v0.81
 >
-> **v0.81.** *O termo `golpe canalizado` tem **zero** ocorrências no manual — junto com `canalizado`, `canaliza`, `Canalizar` e `golpeadora`.* **Ele era abreviação de *feitiço de Forma Toque*, e a palavra "golpe" fez um feitiço parecer um ataque.** Foi trocado por `feitiço de Toque` em 39 lugares, **sem mexer em número nenhum**.
+> *O termo `golpe canalizado` tem **zero** ocorrências no manual — junto com `canalizado`, `canaliza`, `Canalizar` e `golpeadora`.* **Ele era abreviação de *feitiço de Forma Toque*, e a palavra "golpe" fez um feitiço parecer um ataque.** Foi trocado por `feitiço de Toque` em 39 lugares, **sem mexer em número nenhum**.
 >
 > **A aptidão `canalizar energia` fica** — ela é termo da obra e a peça 11 a lista entre as doze que o material obriga. *O que ela faz é deixar você lançar a sua técnica como feitiço de Forma Toque.*
 >
-> **⚠ E o que a troca de palavra NÃO consertou, e precisa ser resolvido antes de qualquer PDF:**
+> ### A dívida que a v0.81 deixou aqui FECHOU na v0.82, e ela nunca foi dívida
 >
-> **A linha do físico da peça 6 §3 é `feitiço de Toque + golpe simples` = `106` no nível 30.** *Um feitiço de Toque gasta a Ação Padrão conjurando; o golpe simples e o ataque extra exigem a Ação de Atacar.* **Decisão do Mizuki na v0.81: o ataque extra sempre exige a Ação de Atacar, como no 5e.** *Então os dois não cabem no mesmo turno, e o físico faz `94` — o mesmo que o conjurador.*
+> *Esta seção carregou por uma versão um aviso de `⚠⚠ LIMPAR ANTES DO PDF`: a peça 6 §3 publica o físico em `106` e a decisão daquela versão parecia implicar `94`.* **Ela não implicava.**
 >
-> | | publicado hoje | sem o fantasma |
-> |---|---|---|
-> | conjurador | 94 | 94 |
-> | físico | **106** | **94** |
-> | o vão | **12** | **0** |
+> **A peça 6 §3.1 sempre teve a linha `feitiço de Toque + golpe simples` marcada como EXISTENTE na tabela dos três turnos.** *O que faltava não era refazer conta — era dizer de onde o golpe vinha, e aquela seção já tinha escrito a resposta como "anotado, não decidido".*
 >
-> **Se o vão é zero, o degrau do nível 7 dos cinco Caminhos fica sem o que o pagava**, e com ele o nível 2 do `Arremate`, o `Resquício` do Emanador e as duas decisões que a v0.80 marcou. *O ataque extra passa a valer o que ele rende nas rodadas em que o PE acabou — cerca de `1,2` fatia, e não `2,36`.*
+> **De onde ele vem: do ataque extra do nível 7, que é um golpe solto por rodada e não exige a Ação de Atacar.** *Decidido na v0.82 e escrito na peça 6 §3.1, com validador em cima.*
 >
-> ***Decisão do Mizuki: não refazer agora.*** *"Prefiro finalizar o projeto, testar e trazer o retorno, do que voltar atrás nessas coisas."* **O achado fica escrito com a conta; o conserto é da versão que preceder o PDF.**
+> **A alternativa foi medida antes de ser descartada, senão isto seria gosto e não conta.** Com o ataque extra preso à Ação de Atacar, dois golpes rendem `23` no nível 30 e **um Classe 0 grátis rende `27`**. *A habilidade de nível 7 de dois Caminhos perderia para o botão que toda ficha já tem, ninguém usaria a Ação de Atacar, e o físico e o conjurador terminariam idênticos em `60,50` de dano por rodada.*
+>
+> ***O achado é do Mizuki, e ele veio de uma pergunta e não de uma conta:*** *"já é um ataque extra, é uma mecânica forte, não acho que precisa disso."* **Ele estava certo, e três mensagens de orçamento tinham sido construídas em cima da premissa errada.**
+>
+> **Nenhum número se moveu.** O vão continua `9 · 10 · 11 · 12`, o nível 7 continua de graça nos cinco Caminhos, e o `Arremate` e o `Resquício` continuam como estavam.
 
 A obra já deu a resposta, e ela é uma das aptidões básicas que todo feiticeiro tem: **você empurra energia amaldiçoada pelo corpo e pela arma.** É por isso que um feiticeiro consegue ferir uma maldição e uma pessoa comum não.
 

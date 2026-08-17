@@ -729,6 +729,90 @@ else:
 
 
 # --------------------------------------------------------------------------
+# 4h. A FORMA DO ATAQUE EXTRA — e nao so o numero dele
+#
+# Escrita na v0.82. A peca 6 SS3.1 declarava esta divida com todas as letras:
+# "Nenhum conferir-*.py le a forma do ataque extra: o conferir-manual confere a
+# coluna Rotina contra a qual ele foi aprovado, e nenhum falha se alguem trocar
+# o slot ou apagar o gate."
+#
+# O QUE ELA GUARDA, e sao DUAS METADES INDEPENDENTES de proposito — uma checagem
+# que so procurasse a frase afirmativa sairia verde se alguem ADICIONASSE a frase
+# contraria sem apagar a primeira:
+#   (a) a peca 6 declara que o ataque extra e um golpe SOLTO por rodada e que ele
+#       NAO exige a Acao de Atacar;
+#   (b) nenhuma linha VIVA da peca 6 afirma o contrario.
+#
+# POR QUE A FORMA IMPORTA, e o numero esta no documento e nao aqui: com o ataque
+# extra preso a Acao de Atacar, dois golpes rendem 23 no nivel 30 contra 27 de um
+# Classe 0 que toda ficha tem de graca. A habilidade de nivel 7 de dois Caminhos
+# perderia para o botao gratis, e o fisico e o conjurador ficariam identicos.
+#
+# A METADE NUMERICA JA TEM DONO: e a 4f, que exige o vao = um golpe simples em
+# todo nivel e proibe ele de encolher. Se a forma virar "exige a Acao de Atacar",
+# o vao vai a zero e a 4f acende junto. As duas se cobrem por eixos diferentes.
+print()
+print('  4h. a FORMA do ataque extra na peca 6 — golpe solto, nao Acao de Atacar')
+
+if not os.path.exists(_p6):
+    erro('nao achei a peca 6 para conferir a forma do ataque extra')
+else:
+    _txt6 = open(_p6, encoding='utf-8').read()
+
+    def _historica_h(_l):
+        _s = _l.lstrip()
+        if _s.startswith('>'):
+            return True
+        return _s.startswith('*') and not _s.startswith('**')
+
+    # (a) a declaracao afirmativa existe?
+    _decl = re.search(r'ataque extra.{0,80}golpe\s+SOLTO|golpe\s+SOLTO.{0,80}ataque extra',
+                      _txt6, re.I | re.S)
+    _nega = re.search(r'ataque extra.{0,120}n[aã]o exige a A[cç][aã]o de Atacar',
+                      _txt6, re.I | re.S)
+    if not (_decl and _nega):
+        erro('peca 6: a forma do ataque extra nao esta declarada. Ela precisa dizer '
+             'que ele e um golpe SOLTO por rodada e que NAO exige a Acao de Atacar '
+             '— e a checagem 4f depende disso, porque e essa forma que faz o vao '
+             'ser um golpe simples em vez de zero')
+    else:
+        print('    [x] a peca 6 declara o ataque extra como golpe solto por rodada')
+
+    # (b) nenhuma linha viva afirma o contrario
+    _contra = []
+    for _n, _lin in enumerate(_txt6.splitlines(), 1):
+        if not re.search(r'ataque extra', _lin, re.I):
+            continue
+        if not re.search(r'(sempre\s+)?exige a A[cç][aã]o de Atacar|'
+                         r'so (acontece|sai) (com|na) a? ?A[cç][aã]o de Atacar',
+                         _lin, re.I):
+            continue
+        if re.search(r'n[aã]o exige a A[cç][aã]o de Atacar', _lin, re.I):
+            continue
+        if _historica_h(_lin):
+            continue
+        _contra.append(_n)
+    for _n in _contra:
+        erro(f'peca 6, linha {_n}: ela prende o ataque extra a Acao de Atacar. '
+             f'Com essa forma dois golpes rendem 23 no nivel 30 contra 27 de um '
+             f'Classe 0 gratis — a entrega de nivel 7 fica dominada pelo botao que '
+             f'toda ficha ja tem, e o vao da 4f vai a zero. Se for nota historica, '
+             f'ela vai num bloco de citacao')
+    if not _contra:
+        print('    [x] nenhuma linha viva prende o ataque extra a Acao de Atacar')
+
+    # (c) o gate do golpe do Arremate e do Coro continua escrito — a outra metade
+    #     da forma que a propria peca disse que nenhum validador guardava
+    if not re.search(r'A[cç][aã]o B[oô]nus.{0,200}A[cç][aã]o Padr[aã]o', _txt6, re.S):
+        erro('peca 6: sumiu o gate do golpe do Arremate e do Coro — ele e Acao '
+             'Bonus e so existe se a Acao Padrao daquele turno foi gasta no que a '
+             'Trilha e. Sem o gate, uma Padrao solta conjura, golpeia e ainda '
+             'sobra a Bonus')
+    else:
+        print('    [x] o gate do golpe do Arremate e do Coro continua escrito')
+
+
+# --------------------------------------------------------------------------
 print()
 print('=' * 88)
 if FALHAS:

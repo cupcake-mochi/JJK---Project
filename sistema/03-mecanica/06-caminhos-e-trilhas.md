@@ -217,7 +217,7 @@ Com um golpe na Ação Bônus, o conjurador de perto cai exatamente na linha do 
 
 ### Canalizar e atacar são ações diferentes — v0.81
 
-> **⚠ E ao escrever esta seção apareceu que a pergunta era outra: `golpe canalizado` NÃO EXISTE.** *Zero ocorrências no manual.* **A linha do físico desta peça está construída em cima dele, e a tabela do §3 continua publicando `106` quando a decisão abaixo implica `94`.** *O aviso completo, com a conta, está no topo do §3 da **peça 5**. Decisão do Mizuki: não refazer agora — o conserto é da versão que preceder o PDF.*
+> **E ao escrever esta seção apareceu que a pergunta era outra: `golpe canalizado` NÃO EXISTE.** *Zero ocorrências no manual.* **A linha do físico desta peça estava escrita em cima do termo, e ele foi trocado por `feitiço de Toque` em 39 lugares sem mexer em número nenhum.** *A história completa está no topo do §3 da **peça 5**.* **A pergunta que sobrou — de que ação vem o golpe da linha do físico — fechou na v0.82, no bloco no fim desta seção.**
 
 *A v0.80 registrou este buraco como **o mais caro que ela deixou aberto**: esta peça publica a rodada do físico como `feitiço de Toque + golpe simples` e **nunca disse em que ação isso acontece**. Ele decidia a `Brasa` por um fator de `2,6×`.*
 
@@ -233,7 +233,24 @@ Com um golpe na Ação Bônus, o conjurador de perto cai exatamente na linha do 
 
 > **O que isso destrava:** toda entrega de Trilha que se pendura em *"se você usou a ação de atacar"* **não dispara na rodada em que o personagem canaliza.** *É o que faz o nível 2 da `Brasa` ser preçado por taxa em vez de somado no pico.*
 >
-> **⚠ E o que fica pendurado:** se o golpe simples da linha do físico não vem da Ação de Atacar, ele vem do **ataque extra do nível 7 como golpe solto por rodada**. *Isso é a leitura que faz o `105,5` reconstruir, e ela não está escrita em lugar nenhum — nem aqui, nem na peça 3.* **Anotado, não decidido.**
+> ## O ataque extra é um golpe SOLTO por rodada — decidido na v0.82
+>
+> **Ele não exige a Ação de Atacar.** *Quem tem ataque extra ganha um golpe simples por rodada, e ele acontece junto do que a Ação Padrão fez naquele turno — inclusive quando ela conjurou.*
+>
+> **Isto é o que faz o `105,5` da linha do físico reconstruir**, e a v0.81 já tinha escrito a leitura sem decidir por ela.
+>
+> | a rodada, no nível 30 | conjurador | físico | a diferença |
+> |---|---|---|---|
+> | gastando PE — o feitiço grande | `94,0` | `105,5` | **`11,5`** |
+> | poupando PE — um Classe 0 | `27,0` | `38,5` | **`11,5`** |
+>
+> **A diferença é a mesma nas duas, e ela é exatamente um golpe simples** — que é o que a tabela do §3 publica como o vão, `9 · 10 · 11 · 12` por faixa de nível. *A conta reproduz uma coisa que não foi posta nela.*
+>
+> **A alternativa reprova, e por dominância e não por orçamento.** Com o ataque extra preso à Ação de Atacar, dois golpes rendem `23` e o Classe 0 que toda ficha já tem de graça rende `27`. **A habilidade de nível 7 de dois Caminhos perderia para o botão grátis**, a Ação de Atacar nunca seria usada, e os dois perfis terminariam idênticos em `60,50` por rodada.
+>
+> ***Achado do Mizuki, perguntando por que o ataque extra precisaria de pagamento nenhum.***
+>
+> **E a v0.81 registrou no CHANGELOG a frase contrária** — *"o ataque extra sempre exige a Ação de Atacar, como no 5e"*. *Ela contradizia a tabela dos três turnos acima, que já marcava a linha do físico como existente. **Esta seção é a dona; o CHANGELOG registra o que se pensou naquele dia.***
 
 ## 4. Invocação: não passa como está
 

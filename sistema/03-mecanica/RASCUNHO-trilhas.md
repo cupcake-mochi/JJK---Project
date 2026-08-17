@@ -560,6 +560,25 @@ Toda entrega é fração de alguma coisa. **Se essa coisa não crescer no ritmo 
 - **Triagem de todo nome** que as quinze criarem — e é onde mais nome novo vai nascer no projeto inteiro.
 - **A cota de ataque extra da peça 6 §3.1** conferida contra o catálogo: só `Arremate` e `Coro` o dão por Trilha, e **o Guia por nenhuma rota**.
 
+> ## ⏸ PARADO na v0.82 — o Evocador sai da fila, e NÃO por ter morrido
+>
+> ***Decisão do Mizuki:*** *"evocador deixa realmente para outro dia, ninguém vai usar essa classe por enquanto."* **A primeira mesa de teste não vai ter Evocador**, então as três Trilhas dele deixam de travar o material de mesa.
+>
+> **Isto NÃO vai para `99-arquivo/`, e a diferença importa.** Aquela pasta é de material morto, com o motivo da morte escrito. **Nada aqui morreu:** a régua da camada de vínculo fechou, o catálogo do degrau 1 fechou, e o `Servo` está montado e fecha em `5,07` contra um orçamento de `5,07`.
+>
+> **O que falta para as três, quando voltarem:**
+>
+> | | estado |
+> |---|---|
+> | `Servo` | montado no §6.10. **Falta uma coisa só: o gatilho do nível 27**, que é o que fixa os `15%` |
+> | `Matilha` | nenhuma das quatro entregas escrita. **Não pode receber ação nem orçamento**, pela matriz |
+> | `Coro` | nenhuma das quatro escrita. **Limpo nos cinco eixos** — é o que tem mais espaço |
+>
+> **E duas regras que a peça 15 deve continuam devendo:** quando a vida cheia da invocação reinvocada volta, e o que acontece com a invocação quando o DONO cai. *Enquanto as duas não fecharem, nenhuma entrega que mexa nelas tem contra o que ser medida.*
+>
+> **A `LISTA-gatilhos-trilhas` tem uma dívida presa nisto:** as 17 entregas possíveis e as 50 montagens do Evocador são da escala velha e nunca foram recontadas.
+
+
 ## 6. O primeiro bloco da Q5 — o Evocador, e o que ele já achou na régua
 
 *Escrito na v0.62.* O §4 manda começar pelo Evocador porque **as três já têm máquina** — a peça 15 fechou `Servo`, `Matilha` e `Coro` inteiras — e por isso ele é o **teste barato da régua contra coisa pronta**. Ele achou uma coisa antes de qualquer entrada ser escrita, e ela é de forma e não de número.
