@@ -478,6 +478,26 @@ A tabela de letalidade do Fundamento mostra 1,7 a 2,0 rodadas porque supõe que 
 
 **Resistir a quatro tipos fura a cerca da peça 5 §4 ao pé da letra, e está aceito.** Aquela cerca autoriza *"resistência a um tipo"*, no singular, e proíbe *"desconto em tudo"*. **Quatro de catorze não é desconto em tudo** — é o que a cerca existe para barrar, e ela continua barrando. *Decisão do Mizuki, registrada com o motivo.*
 
+## 8.2 Cobertura
+
+*Escrita na v0.94.* **Ela não existia, e treze menções pela pasta já contavam com ela** — inclusive um degrau de nível 27 que promete *"a cobertura para de significar alguma coisa"*, que é uma entrega prometendo apagar uma regra que ninguém tinha escrito.
+
+***Decisão do Mizuki: a métrica é a do d20, igual.*** *Mesmo motivo dos metros das armas na peça 14: cobertura não tem preço neste sistema, então o número não sai de conta daqui — ele só precisa ser o mesmo em sete mesas, e uma tabela que todo mundo já conhece resolve isso de graça.*
+
+| cobertura | o que ela dá | exemplo |
+|---|---|---|
+| **Parcial** | **`+2` de Defesa e `+2` no Teste de Resistência Físico** | mureta, tronco, uma criatura no caminho |
+| **Boa** | **`+5` de Defesa e `+5` no Teste de Resistência Físico** | seteira, olhando por cima de uma parede, metade do corpo atrás de um canto |
+| **Total** | **você não pode ser escolhido como alvo, e ponto** | parede inteira, do outro lado da porta |
+
+**Vale contra ataque e contra efeito que venha do outro lado da cobertura, e só.** *Quem está atrás de uma mureta não ganha nada contra quem já está do lado dele.*
+
+**Só a maior conta.** *Duas coberturas parciais não viram uma boa.*
+
+> **O Teste de Resistência é o Físico, e não "o de Destreza".** *A fonte fala em salvaguarda de Destreza; aqui o TR Físico é o que ocupa esse lugar, e ele é travado em Força ou Destreza na criação.* **Quem travou em Força também se abaixa atrás de uma mureta** — trocar isso por "só quem travou em Destreza" criaria uma segunda regra de cobertura para metade das fichas.
+
+> **A `Total` não tem número de propósito.** *Ela é a única das três que não é um bônus: é a ausência de alvo legal.* **Um efeito que pega área continua alcançando quem está atrás dela, se o efeito não precisar de linha de efeito** — e essa parte é do manual, não daqui.
+
 ## 9. Em aberto
 
 - **Se Força precisa de um segundo trabalho.** Ela tem uma perícia só, e a lista de vinte e três não conserta isso.

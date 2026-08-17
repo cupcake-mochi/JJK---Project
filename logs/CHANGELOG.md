@@ -6,6 +6,79 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.94] — 2026-08-17
+
+**O sistema ganhou nome, e as duas últimas regras que faltavam foram escritas.** *`Projeto - M`, os metros de cada arma de projétil, e a Cobertura.* **A pendência do nome estava aberta desde a v0.1 — noventa e três versões.** Continuam dezessete peças e dezessete validadores.
+
+### Decidido — o sistema se chama `Projeto - M`
+
+***Decisão do Mizuki.*** *Passou na triagem: `Projeto`, `M` e o composto saem todos `LIVRE`.*
+
+**Aplicado em seis documentos**, e a pendência saiu das quatro listas que a carregavam — a do `ESTADO-ATUAL`, a do `arquitetura.md`, a do pacote de entrega e a do prompt de retomada.
+
+### ⚠ Achado — a dívida dos metros contava onze armas, e eram DEZENOVE
+
+**A nota da v0.74 dizia *"nenhuma das onze armas de tiro tem metro escrito"*.** *Só que a declaração da própria propriedade, duas seções acima, diz `Longo Alcance` — número em metros para projétil **e arremesso**.*
+
+**As oito de `Arremesso` carregam a propriedade e ficaram de fora da contagem.** *`Punhal`, `Machadinha`, `Kusarigama`, `Lança`, `Kunai`, `Shuriken`, `Tessen` e `Chakram`.*
+
+> **É o segundo exemplar em duas versões seguidas.** *Na v0.93 o `Classe` solto foram treze lugares contra os oito publicados.* **Contagem à mão de uma família de erros pega a amostra que a pessoa estava olhando, e não a família.**
+
+### Decidido — importar os números do d20 em vez de derivar, e a fonte fica declarada
+
+***Decisão do Mizuki.*** **A conversão é `5 pés = 1,5 m`**, a mesma que põe o deslocamento padrão em `9 m`.
+
+**O motivo de importar está escrito na peça, porque ele não é preguiça: alcance de arma não tem preço neste sistema.** *A propriedade `Longo Alcance` custa `1` ponto para toda arma que a tem, e custa por existir — não por quanto.* **Então o número não sai de conta nenhuma daqui.** *Ele precisa ser plausível, consistente entre as armas e igual em sete mesas — e uma tabela publicada que todo mundo já conhece faz as três coisas de graça.*
+
+| | faixa normal | faixa longa |
+|---|---|---|
+| **Daikyū** — arco longo | `45 m` | 180 m |
+| **Besta** — besta pesada | `30 m` | 120 m |
+| **Hankyū** · **Rifle** · **Rifle de Precisão** · **Metralhadora Pesada** | `24 m` | 96 · 72 m |
+| **Submetralhadora** | `15 m` | 45 m |
+| **Revólver** | `12 m` | 36 m |
+| **Besta de Uma Mão** · **Pistola** · **Espingarda** | `9 m` | 36 · 27 m |
+| **as oito de arremesso, todas** | `6 m` | 18 m |
+
+### ⚠ Alterado — a faixa longa deixou de ser o dobro
+
+**O §5.2.1 dizia *"até o dobro disso"* desde a v0.74, e aquilo era régua provisória** — escrita quando não havia catálogo nenhum para olhar, e a própria seção declarava que os metros ficavam em aberto.
+
+**A fonte usa `4×` para arco e besta e `3×` para arma de fogo e arremesso.** *Importar os números sem importar a proporção seria trazer metade da tabela.*
+
+> **Nada foi reprecificado, e isso é o ponto:** desvantagem continua valendo os mesmos `−25` pontos percentuais, e o `Longo Alcance` continua custando `1` ponto. *A mudança é de alcance, e alcance é a única coisa desta peça que nunca entrou numa conta de preço.*
+
+### Declarado — o empate de três, e a arma sem correspondente
+
+**`Rifle`, `Rifle de Precisão` e `Metralhadora Pesada` empatam em `24 m`, e o empate é da fonte.** *Lá o rifle de caça e o automático têm o mesmo alcance e dados diferentes.* **O `Rifle de Precisão` se separa pelo dado — `2d10` contra `2d8` — e não pela distância.** *Se um dia ele precisar alcançar mais, esse número vai ter de sair de fora da fonte, e aí vira decisão de design em vez de importação.*
+
+**A `Kusarigama` é a única sem correspondente**, porque foice presa a corrente não é arremesso solto. *Ficou com a faixa da família, e a ficção da corrente sugere menos.* **Declarado para quem reler não procurar defeito onde houve escolha.**
+
+### Adicionado — a Cobertura, na peça 1
+
+**Ela não existia, e havia menção pela pasta contando com ela** — inclusive um degrau de nível 27 que promete *"a cobertura para de significar alguma coisa"*. **Uma entrega prometendo apagar uma regra que ninguém tinha escrito.**
+
+***Decisão do Mizuki: a métrica é a mesma do d20, sem adaptação.*** *`+2` na Parcial, `+5` na Boa, e a Total tira você da lista de alvos legais.*
+
+> **A única tradução que precisou de decisão foi o Teste de Resistência.** *A fonte fala em salvaguarda de Destreza; aqui quem ocupa esse lugar é o **TR Físico**, que é travado em Força ou Destreza na criação.* **Quem travou em Força também se abaixa atrás de uma mureta** — amarrar a cobertura em Destreza criaria uma segunda regra para metade das fichas.
+
+**Duas travas que a fonte tem e que ficaram escritas:** vale só contra o que vem do outro lado da cobertura, e **só a maior conta** — duas parciais não viram uma boa.
+
+### Sem validador novo, e por decisão
+
+***Decisão do Mizuki: as duas entram sem checagem.*** **É coerente com o que elas são: nenhuma das duas produz número que entre em conta.** *Alcance nunca foi preçado, e cobertura não tem conversão em fatia — a régua de preço deste projeto não tem o que medir aqui.*
+
+*Os vinte validadores existentes continuam passando, com `PULADA=0`.* **O que fica sem guarda é a cópia**, se algum dia esses números aparecerem em dois documentos.
+
+### Em aberto
+
+- **A peça de dano e condições** — *19 lugares em 7 documentos.* **Decisão do Mizuki: fica de fora por enquanto**, e quando vier pode sair sem a mecânica de condição.
+- **As três Trilhas do Evocador**, fora por decisão.
+- **A terceira taxa sem medida do `Batedor`** — *em quantas rodadas o atirador fica parado.* **Fica para depois, e não é conta: é pergunta de mesa.**
+- **O que falta para alguém jogar não é regra, é material:** o **quick-start**, a **tabela de progressão consolidada** e o **playtest**. *`04-playtest/` continua vazia, e todo número do sistema é previsão.*
+
+---
+
 ## [0.93] — 2026-08-17
 
 **Três pendências pequenas fecharam, e uma delas era grande por dentro.** *As duas entregas em minúscula, o `Classe` solto da peça 11, e o `.pdf` do manual — que estava sete versões atrás do `.docx` desde a v7.4.* Continuam dezessete peças e dezessete validadores.

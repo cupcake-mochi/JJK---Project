@@ -108,4 +108,4 @@ A **fatia** é `5,08` de dano por rodada. A Trilha leva `5` e a banda é `4,50` 
 - ~~As quatro anti-domínio escrevem `Classe 1/2/3` solto.~~ **Fechado na v0.93, e eram TREZE lugares e não oito** — a contagem à mão pegou os títulos e a tabela, e deixou cinco de fora.
 - ~~O `.pdf` do manual está na v7.4.~~ **Fechado na v0.93:** os dois na v7.8, e ele saiu do `soffice --headless` em vez do Word.
 - **A terceira taxa do `Batedor`:** *em quantas rodadas o atirador fica parado.* **Decide `2,12` fatias — e não é conta, é pergunta de mesa.**
-- **O nome do sistema**, aberto desde a v0.1.
+- ~~O nome do sistema.~~ **`Projeto - M`, na v0.94.**

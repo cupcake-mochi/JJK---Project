@@ -1018,7 +1018,7 @@ As duas estão escritas na tabela de classes e não aparecem na lista de nomes m
 
 > **Toda arma de projétil tem duas faixas.**
 > **Faixa normal** — até o `Longo Alcance` da arma. Ataque normal.
-> **Faixa longa** — até o dobro disso. **Desvantagem no ataque.**
+> **Faixa longa** — até o número da direita na tabela do §5.2.2. **Desvantagem no ataque.**
 > **Além da faixa longa, você não alcança.**
 >
 > **E existe uma terceira, do outro lado: `colado`.** Atacar com arma de projétil **estando adjacente a um inimigo** — qualquer inimigo, não só o alvo — é **desvantagem**, do mesmo jeito.
@@ -1027,9 +1027,45 @@ As duas estão escritas na tabela de classes e não aparecem na lista de nomes m
 
 **O formato é o do hobby de propósito**, e o motivo é o filtro multi-mestre: *dois mestres que vieram de outro sistema chegam ao mesmo lugar sem ler nada.* É a mesma decisão que a lista de ações tomou ao seguir o padrão para a ação padrão.
 
-> **O que esta seção NÃO fecha, e fica marcado: os metros de cada arma.** A âncora existe e é do manual — a Forma `Projétil` alcança **18 m**, e a peça 15 já lê dela a amarra da invocação. **Escrever onze números aqui seria catálogo, e catálogo se faz de uma vez com a régua na mão** — foi o que a peça 13 e a peça 14 aprenderam. *Enquanto os metros não existirem, a faixa normal é a do `Projétil` e o mestre ajusta pela ficção.*
+> ~~**O que esta seção NÃO fecha: os metros de cada arma.**~~ **Fechados na v0.94, e estão no §5.2.2 logo abaixo.** *E eram **dezenove** armas e não as onze que esta nota contava — as oito de `Arremesso` também carregam `Longo Alcance`, e a própria declaração da propriedade diz "para projétil **e arremesso**".* **A contagem da dívida tinha lido só metade da frase que ela mesma citava.**
 >
 > **E a regra já tem três consumidores esperando por ela**, todos na Trilha `Batedor`: o `Yumi` ignora a desvantagem da faixa longa, a `Arma de Fogo` ignora a de estar colado, e a `Besta` não ignora nenhuma das duas — ela **empurra** o inimigo para fora do problema. *Três portas para a mesma pergunta de posição, que é o que faz as três serem escolhas diferentes em vez de três versões da mesma.*
+
+### 5.2.2 Os metros de cada arma — importados do d20, e a fonte está declarada
+
+*Decisão do Mizuki na v0.94: **seguir o d20 e converter, em vez de derivar número novo.*** **A conversão do projeto é `5 pés = 1,5 m`**, que é a mesma que põe o deslocamento padrão em `9 m`.
+
+**O motivo de importar em vez de calcular é honesto e vale escrever: alcance de arma não tem preço neste sistema.** *A propriedade `Longo Alcance` custa `1` ponto para toda arma que a tem, e ela custa esse ponto por existir — não por quanto.* **Então o número não sai de conta nenhuma daqui; ele só precisa ser plausível, consistente entre as armas e igual em sete mesas.** *Uma tabela publicada e conhecida faz as três coisas de graça.*
+
+**As onze de tiro:**
+
+| arma | a que ela corresponde | faixa normal | faixa longa |
+|---|---|---|---|
+| **Hankyū** | arco curto — `80/320 pés` | **24 m** | 96 m |
+| **Daikyū** | arco longo — `150/600 pés` | **45 m** | 180 m |
+| **Besta de Uma Mão** | besta de mão — `30/120 pés` | **9 m** | 36 m |
+| **Besta** | besta pesada — `100/400 pés` | **30 m** | 120 m |
+| **Pistola** | pistola — `30/90 pés` | **9 m** | 27 m |
+| **Revólver** | revólver — `40/120 pés` | **12 m** | 36 m |
+| **Submetralhadora** | pistola automática — `50/150 pés` | **15 m** | 45 m |
+| **Espingarda** | espingarda — `30/90 pés` | **9 m** | 27 m |
+| **Rifle** | rifle automático — `80/240 pés` | **24 m** | 72 m |
+| **Rifle de Precisão** | rifle de caça — `80/240 pés` | **24 m** | 72 m |
+| **Metralhadora Pesada** | rifle automático — `80/240 pés` | **24 m** | 72 m |
+
+**As oito de arremesso, todas na mesma faixa:**
+
+| arma | faixa normal | faixa longa |
+|---|---|---|
+| **Punhal · Machadinha · Lança · Kunai · Shuriken · Tessen · Chakram · Kusarigama** | **6 m** | 18 m |
+
+*A fonte dá `20/60 pés` para punhal, machadinha, martelo leve, lança, tridente e dardo — praticamente todo arremesso de mão.* **Uma faixa só para as oito, em vez de oito números que ninguém consegue lembrar na mesa.**
+
+> **⚠ A faixa longa deixou de ser o dobro, e isso é mudança de regra.** *O §5.2.1 dizia "até o dobro disso" desde a v0.74 — e aquilo era régua provisória, escrita quando não havia catálogo nenhum para olhar.* **A fonte usa `4×` para arco e besta e `3×` para arma de fogo e arremesso**, e importar os números sem importar a proporção seria trazer metade da tabela. *Nada foi reprecificado: desvantagem continua valendo os mesmos `−25` pontos percentuais, e o `Longo Alcance` continua custando `1` ponto.*
+
+> **Três armas empatam em `24 m` e o empate é da fonte, não descuido.** *O `Rifle`, o `Rifle de Precisão` e a `Metralhadora Pesada` correspondem todos a rifle de cano longo, e lá o rifle de caça e o automático têm o mesmo alcance e dados diferentes.* **O `Rifle de Precisão` se separa pelo dado — `2d10` contra `2d8` — e não pela distância.** *Se algum dia ele precisar alcançar mais que os outros dois, esse número vai ter de sair de fora da fonte, e aí ele vira decisão de design em vez de importação.*
+
+> **A `Kusarigama` é a única sem correspondente**, porque uma foice presa a uma corrente não é arremesso solto. *Ela ficou com a faixa da família, e a ficção da corrente sugere menos.* **Fica declarado para quem reler não procurar defeito onde houve escolha.**
 
 ## 5.3 As 52 armas — dado e propriedades
 

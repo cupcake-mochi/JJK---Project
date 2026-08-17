@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 17/08/2026, na v0.93 (última peça fechada: **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com dez checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 17/08/2026, na v0.94 (última peça fechada: **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com dez checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.93.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezessete peças escritas** e **dezessete validadores**.
+**Versão v0.94.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezessete peças escritas** e **dezessete validadores**.
 
 **A v0.93 fechou três pendências pequenas, e a primeira era grande por dentro.** *As duas entregas em minúscula viraram `Disparo Carregado` e `Acelerar`; o `Classe` solto da peça 11 eram **treze** lugares e não os oito contados; e o `.pdf` do manual saiu da v7.4 para a v7.8 e parou de ser exportado a mão.* **⚠ E o achado: a minúscula do `carregar` não era descuido — `Carregar` sai `OCUPADO` na triagem, é Restrição no manual.** *A pendência ficou catorze versões descrita pelo sintoma, e o sintoma não diz o que precisa ser feito.*
 
@@ -296,7 +296,7 @@ O `conferir-manual.py` falha se os dois lados divergirem, e a mensagem dele **no
 
 ## Pendências, da mais urgente à menos
 
-1. **Nome do sistema.** Aberto desde a v0.1, e a única pendência de nome que sobrou.
+1. ~~**Nome do sistema.**~~ **`Projeto - M`, decidido na v0.94.** *Aberto desde a v0.1; era a pendência mais velha que o projeto tinha.*
 2. **Se a perícia livre da Origem devia ser da lista também.** As listas existem desde a v0.22, mas a segunda perícia continua livre com aprovação — é o último lugar da criação em que um número depende de julgamento do mestre.
 3. ~~Quantas Trilhas um personagem acumula, e em que níveis.~~ **Fechada na v0.55, na v0.60 e na v0.65:** uma por ficha, entregas em `2 · 11 · 19 · 27`. **A Trilha é fechada — não se pega emprestado das vizinhas —, e nos níveis 11, 19 e 27 dá para TROCAR de Trilha, com troca total.** **O degrau de Caminho mudou na v0.70 e é `2 · 7 · 15 · 30`** — três fatias nos níveis 2, 15 e 30, e o nível 7 de graça porque ele vale o vão `físico − conjurador` e é correção de base.
 
@@ -778,7 +778,7 @@ As duas são economias de poder novas, e construir a quarta e a quinta antes de 
 | **Pactos** | a camada mais perigosa de escrever solta |
 | **Bestiário** | sai da matemática de inimigo que o manual já tem |
 
-E uma coisa solta que não é peça: **o nome do sistema**.
+~~E uma coisa solta que não é peça: o nome do sistema.~~ **Batizado na v0.94: `Projeto - M`.** *Era a pendência mais velha do projeto — aberta na v0.1 e fechada 93 versões depois.*
 
 **As nove rotas de Origem, e quais já rodam:**
 
