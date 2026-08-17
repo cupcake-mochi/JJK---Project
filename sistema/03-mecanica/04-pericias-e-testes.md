@@ -79,7 +79,7 @@ E o corolário: **se você não consegue nomear o custo antes de pedir a rolagem
 
 ## 5. Ajudar e rolar em grupo
 
-**Ajudar:** um personagem que possa contribuir de verdade dá vantagem ao teste de outro. Um por teste — dois ajudantes não dão vantagem duas vezes, e a mesa não precisa de regra nova para isso.
+**Ajudar:** um personagem que possa contribuir de verdade dá vantagem ao teste de outro. Um por teste — dois ajudantes não dão vantagem duas vezes, e a mesa não precisa de regra nova para isso. **Custa a Ação Padrão** — o slot está na peça 3 §3.1, e esta seção passou sete versões escrevendo a regra sem nunca dizer em que ação ela acontece. *O `Mão na Roda` do Guia, no nível 7, é a exceção: para aquele Caminho o `Ajudar` vira Ação Bônus.*
 
 **Teste de grupo:** quando o grupo inteiro precisa passar por algo — atravessar sem ser notado, aguentar o frio —, metade do grupo passando resolve. Isso impede que o personagem de Destreza 1 arruine sozinho a furtividade de quatro pessoas, sem precisar que ele finja ser bom nisso.
 

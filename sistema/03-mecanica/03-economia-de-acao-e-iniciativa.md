@@ -62,6 +62,66 @@ Um turno contém quatro recursos, e eles são independentes:
 
 A Passiva **Mão Firme** cobre os dois, e o manual v7.6 diz isso com todas as letras — *"não perde concentração nem carga por dano de 10 ou menos"* —, porque com a divisão o nome dela sozinho não alcançava mais o Carregar.
 
+## 3.1 A lista de ações
+
+*Escrita na v0.83, e ela é o buraco que o desenho dos Caminhos achou: **esta peça tinha os quatro slots do turno e nenhuma ação nomeada.** `Ajudar` morava na peça 4 §5 sem custo de ação declarado, e nove Trilhas apontavam para uma lista que vivia num documento de desenho.*
+
+> ***Decisão do Mizuki: copiar a lista do hobby, e de propósito.*** **Ninguém precisa aprender lista nova para uma coisa que todo jogador já sabe** — e o filtro multi-mestre agradece, porque dois mestres que vieram de outro sistema chegam ao mesmo lugar sem ler nada.
+
+*A lista do 5e de 2024 tem **doze** ações. Oito já existiam aqui com outro nome; duas faltavam inteiras — `Influence` e `Ready` —, e as outras duas viraram outra coisa por decisão, logo abaixo.*
+
+### As doze de Ação Padrão
+
+| ação | o que ela faz |
+|---|---|
+| **Atacar** | um ataque com arma ou desarmado. Com ataque extra, os que a regra der. **`Agarrar` e `Derrubar` são opções dela**, e não ações próprias |
+| **Conjurar** | um feitiço, pelo Fundamento |
+| **Correr** | ganhe deslocamento igual ao seu, pelo resto do turno |
+| **Desengajar** | o seu movimento não provoca ataque de oportunidade pelo resto do turno |
+| **Esquivar** | ataques contra você têm desvantagem e os seus TR de Destreza têm vantagem, até o começo do seu próximo turno |
+| **Esconder** | um teste de `Furtividade` |
+| **Ajudar** | dá vantagem ao próximo teste ou ataque de um aliado. **Um por teste** — dois ajudantes não dão vantagem duas vezes (peça 4 §5) |
+| **Influenciar** | um teste de **Essência** — `Persuasão`, `Enganação`, `Intimidação` ou `Atuação`, conforme o jeito — para mudar a atitude de alguém |
+| **Preparar** | escolha uma ação e um gatilho visível. Quando ele acontecer, você gasta a **Reação** para fazer a ação |
+| **Vasculhar** | um teste de `Percepção` ou `Investigação` sobre uma coisa ou uma criatura **ao seu alcance** |
+| **Estudar** | um teste de `Sentir Energia`, `Ocultismo`, `Medicina` ou `História` sobre uma criatura ou objeto **que você enxerga** |
+| **Usar objeto** | usar um objeto não mágico |
+
+**`Influenciar` cabe sem adaptação porque Essência é o Carisma deste sistema.** *`Persuasão`, `Enganação`, `Intimidação`, `Atuação` e `Provocar` moram todas lá (peça 7).* **A ação do 5e é teste de Carisma; aqui ela é teste de Essência, e nada mais muda.**
+
+**`Preparar` custa duas coisas por uma, e é isso que segura ela.** *Você gasta a Ação Padrão **agora** e a Reação **depois**.* **Se o gatilho não acontecer até o começo do seu próximo turno, a ação se perde.** *Preparar uma conjuração continua exigindo a Melhoria **Reação**, pela mesma regra da seção 3 — o slot não muda o que a Reação permite.*
+
+> **Colisão declarada e aceita:** o manual usa *"dois turnos de **preparo**"* numa regra de Restrição, e ali a palavra é tempo de conjuração. **São coisas diferentes com a mesma raiz**, e o nome fica porque *"preparar uma ação"* é vocabulário que todo jogador já traz de casa.
+
+### `Agarrar` e `Derrubar` são opção do ataque, e não ação
+
+*Decisão do Mizuki, seguindo o 2024.* **Quem tem ataque extra pode agarrar com um golpe e bater com o outro** — que é exatamente o que um Bastião quer fazer.
+
+> **Como ação própria elas ficavam mortas por dominância:** agarrar custaria o turno inteiro, e bater duas vezes rende mais do que segurar alguém.
+
+*O `Segurar` do Bastião no nível 30 continua valendo palavra por palavra: ele diz "tentar `Agarrar` ou `Derrubar`" e não cita slot nenhum.*
+
+### As duas de Ação Bônus, e elas são deste sistema
+
+*O slot da Ação Bônus é o mais vazio do turno — a seção 7 desta peça já dizia isso, e a peça 14 §4 mediu: passivo e ação bônus empatam em `2,01`.* **Estas duas existem para o jogador que travou e não sabe o que fazer no turno dele.**
+
+> **`Provocar`** — Ação Bônus. Teste de `Provocar` contra o **Teste de Resistência de Espírito** do alvo. **Numa falha dele:** até o começo do seu próximo turno, ele ataca **com desvantagem qualquer alvo que não seja você**, e **com vantagem contra você**.
+
+> **`Ler o Ambiente`** — Ação Bônus, **uma vez por cena**. Teste de `Percepção` ou `Intuição` contra a dificuldade que o mestre puser. Num sucesso, o mestre te diz **uma coisa daquele lugar que dê para usar** — um objeto, um caminho, uma posição, um risco. **Se não houver nada, ele diz isso e a ação não é gasta.**
+
+**`Ler o Ambiente` NUNCA fala de criatura, e essa linha é a regra e não estilo.** *Quem quer saber do inimigo usa `Estudar`; quem quer revistar alguém usa `Vasculhar`; e os dois custam a Ação Padrão.*
+
+> **Sem essa linha as três se dominavam, e a conta é direta:** o `Search` e o `Study` do 5e são os mesmos testes que o `Ler o Ambiente` faria, **e custam a Ação Padrão contra a Ação Bônus dele**. Mesmo teste, slot mais barato — ninguém usaria os dois caros. ***Decisão do Mizuki: separar por ALVO.*** *O `Ler o Ambiente` é sobre o lugar, o `Vasculhar` e o `Estudar` são sobre a criatura e a coisa.* **Com alvos diferentes elas param de responder a mesma pergunta, e a dominância some sem precisar de limite artificial.** *O `1× por cena` fica mesmo assim, porque a ação obriga o mestre a produzir conteúdo e sem teto ela vira imposto de improviso.*
+
+**O `Provocar` foi medido duas vezes e passa**, e a conta está no `DESENHO-caminhos.md`: ele dá `+25` pontos percentuais quando dispara e `12` pp médios por rodada, contra os `+20` e `1,0` que a peça 13 §7 já aceita no `Instinto Bruto`. *O que faz caber é a duração de uma rodada — ela não muda a razão, muda o que empilha.*
+
+### O que a lista muda em quem já estava escrito
+
+- **O `Ajudar` ganhou custo de ação, e ele nunca tinha tido um.** *A peça 4 §5 escreve a regra do "um por teste" e nunca disse em que slot ela acontece.* **É Ação Padrão.**
+- **O `Mão na Roda` do Guia, no nível 7, passa a ser exceção de uma coisa que existe:** ele torna o `Ajudar` uma Ação Bônus para aquele Caminho. *Antes ele era exceção de uma regra não escrita.*
+- **`Preparar` é o quinto competidor pela Reação**, e a seção 7 desta peça já desconfiava do slot com quatro. *Fica marcado para o playtest, junto da pergunta que já estava lá.*
+
+
 ## 4. A régua de preço
 
 O Fundamento vende pedaços de turno em onze Restrições, e nunca teve uma régua para justificar quanto cada uma devolve. Com os recursos definidos, ela existe:

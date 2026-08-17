@@ -98,7 +98,7 @@
 >
 > **E o `4,32` que estava escrito aqui não reconstrói de nenhuma base.** Nem `11,50 × 0,32`, nem `27 × 0,16` de propósito — nada no documento diz de onde ele saiu. *Marcado, não consertado por adivinhação: o número novo vem do dono, e o velho fica registrado como não reproduzível.*
 
-> **⚠ E você achou uma lacuna indo por aqui: a lista de ações não existe.** *`Ajudar` está escrito na peça 4 §5 — "um personagem que possa contribuir de verdade dá vantagem ao teste de outro" — e **nunca foi declarado que ação ele gasta**. A peça 3 tem os quatro slots do turno e **nenhuma lista de ações nomeadas**. **Ela está desenhada no fim deste documento.***
+> **E você achou uma lacuna indo por aqui: a lista de ações não existia.** *Ela existe desde a v0.83, na peça 3 §3.1.* *`Ajudar` está escrito na peça 4 §5 — "um personagem que possa contribuir de verdade dá vantagem ao teste de outro" — e **nunca foi declarado que ação ele gasta**. A peça 3 tem os quatro slots do turno e **nenhuma lista de ações nomeadas**. **Ela está desenhada no fim deste documento.***
 
 ### nível 15 · Puxar a Linha
 > **Ação bônus: um aliado que você enxerga a até 9 m se move até o deslocamento inteiro dele, sem provocar ataque de oportunidade.** Ele não pode recusar.
@@ -330,7 +330,7 @@ Ela dizia *"o seu Classe 0 passa a causar o mesmo que um golpe simples"*, e ela 
 
 ## A lacuna nova que apareceu nesta passada
 
-> **A lista de ações não existe.** *Achada por você, indo escrever o gatilho do Guia.*
+> **A lista de ações não existia.** *Achada por você, indo escrever o gatilho do Guia.* **Ela fechou na v0.83, na peça 3 §3.1, com as doze do 5e de 2024 mais as duas suas de Ação Bônus.**
 >
 > A peça 3 tem os quatro slots do turno — movimento, ação padrão, ação bônus e reação — e **nenhuma lista de ações nomeadas**. Não existe `Atacar`, `Correr`, `Desengajar`, `Esquivar`, `Ajudar`, `Esconder` em documento nenhum. **`Ajudar` está escrito na peça 4 §5 e nunca teve custo de ação declarado.**
 >
@@ -345,25 +345,13 @@ Ela dizia *"o seu Classe 0 passa a causar o mesmo que um golpe simples"*, e ela 
 
 ---
 
-# A lista de ações — que não existia
+# As duas ações de Ação Bônus — a conta
 
-*Achada por você nesta passada. A peça 3 tem os quatro slots do turno e **nenhuma ação nomeada**; `Ajudar` está na peça 4 §5 sem custo declarado. **Isto é rascunho de peça nova, não parte do desenho de Caminho.***
-
-## Ação padrão — o padrão do hobby, e de propósito
-
-*Sua decisão: seguir o que já existe. **Ninguém precisa aprender lista nova para uma coisa que todo jogador já sabe**, e o filtro multi-mestre agradece — dois mestres que vieram de outro sistema chegam ao mesmo lugar sem ler nada.*
-
-| ação | o que faz |
-|---|---|
-| **Atacar** | um ataque. Com ataque extra, os que a regra der |
-| **Conjurar** | um feitiço, pelo Fundamento |
-| **Correr** | dobra o deslocamento do turno |
-| **Desengajar** | o seu movimento não provoca ataque de oportunidade |
-| **Esquivar** | ataques contra você têm desvantagem; os seus TR de Destreza têm vantagem |
-| **Esconder** | um teste de Furtividade |
-| **Ajudar** | dá vantagem ao próximo teste de um aliado. **Um por teste** (peça 4 §5) |
-| **Usar objeto** | o que a ficção pedir |
-| **Agarrar** · **Derrubar** | disputa, e são o que o `Segurar` do Bastião ataca no nível 30 |
+> **A LISTA MUDOU DE CASA na v0.83: ela é a peça 3 §3.1.** *Ela nasceu aqui como rascunho de peça nova — a peça 3 tinha os quatro slots do turno e nenhuma ação nomeada — e virou seção da dona da economia de ação, com validador em cima no `conferir-acao.py`.*
+>
+> **O que sobrou aqui é a CONTA das duas de Ação Bônus**, porque ela é argumento de design e não texto de regra. *A peça 3 aponta para cá em vez de repetir.*
+>
+> **E o que fechou junto, na mesma versão:** as doze de Ação Padrão saíram do 5e de 2024 conferido na fonte — oito já existiam aqui, `Influenciar` e `Preparar` entraram, e o `Search` e o `Study` viraram `Vasculhar` e `Estudar`. *`Agarrar` e `Derrubar` deixaram de ser ação própria e viraram opção do `Atacar`, como no 2024.* **E o `Ajudar` ganhou o custo de ação que a peça 4 §5 nunca declarou: Ação Padrão.**
 
 ## Ação bônus — e é aqui que o sistema pode ser dele
 
@@ -407,7 +395,9 @@ Ela dizia *"o seu Classe 0 passa a causar o mesmo que um golpe simples"*, e ela 
 
 ## O que esta lista ainda deve
 
-1. **O preço do `Provocar`** — medido contra os `−25 pp` que a peça 11 já usa.
-2. **Se `Ajudar` fora de combate segue a mesma regra** de um por teste.
-3. **Mais ação bônus.** Duas é pouco para um slot que a peça 3 §7 já chama de *"o mais vazio do turno"*.
-4. **A casa dela.** Isto é peça nova ou seção da peça 3? *A peça 3 é a dona da economia de ação, e este é o conteúdo que ela nunca teve.*
+1. ~~**O preço do `Provocar`.**~~ **Medido duas vezes e passa** — a conta está acima, e ela virou o argumento que a peça 3 §3.1 cita.
+2. **Se `Ajudar` fora de combate segue a mesma regra** de um por teste. *Continua aberta.*
+3. **Mais ação bônus.** Duas é pouco para um slot que a peça 3 §7 já chama de *"o mais vazio do turno"*. *Continua aberta.*
+4. ~~**A casa dela.**~~ **Fechada na v0.83: é a peça 3 §3.1**, e ela é a dona da economia de ação.
+5. **O `Ler o Ambiente` não foi preçado.** *Ele não mexe em acerto nem em dano — entrega informação, e o projeto não tem conversão para isso.* **O teto de uma vez por cena é o que segura ela enquanto a régua não existir.**
+6. **`Preparar` é o quinto competidor pela Reação**, num slot que a peça 3 §7 já desconfiava com quatro.

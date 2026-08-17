@@ -121,6 +121,91 @@ if fixa * 10 <= 10 * ganha_iniciativa(4, 3):
 
 print()
 print('=' * 92)
+print('  A LISTA DE ACOES — peca 3 SS3.1, escrita na v0.83')
+print('=' * 92)
+#
+# Ate a v0.82 esta peca tinha os quatro slots do turno e NENHUMA acao nomeada.
+# A lista vivia no fim do DESENHO-caminhos.md, que nao e peca, e NOVE Trilhas
+# fechadas apontavam para ela. Agora a peca 3 SS3.1 e a dona.
+#
+# NADA DE VALOR MORA AQUI: os nomes sao lidos da propria peca. O que este bloco
+# guarda e a ESTRUTURA — que as doze existam, que Agarrar e Derrubar NAO sejam
+# acoes proprias, e que a linha que separa Ler o Ambiente de Vasculhar/Estudar
+# continue escrita.
+import re as _re
+
+_p3 = os.path.join(AQUI, '03-economia-de-acao-e-iniciativa.md')
+if not os.path.exists(_p3):
+    erro('nao achei a peca 3 para conferir a lista de acoes')
+else:
+    _t3 = open(_p3, encoding='utf-8').read()
+    _sec = _re.search(r'## 3\.1 A lista de a[cç][oõ]es(.*?)(?=\n## 4\.)', _t3, _re.S)
+    if not _sec:
+        erro('a peca 3 nao tem mais a secao 3.1 "A lista de acoes" — ela e a dona '
+             'da lista desde a v0.83, e nove Trilhas apontam para ela')
+    else:
+        _txt = _sec.group(1)
+
+        # 1. as doze de Acao Padrao continuam nomeadas
+        _doze = ['Atacar', 'Conjurar', 'Correr', 'Desengajar', 'Esquivar', 'Esconder',
+                 'Ajudar', 'Influenciar', 'Preparar', 'Vasculhar', 'Estudar',
+                 'Usar objeto']
+        _faltando = [a for a in _doze
+                     if not _re.search(r'\|\s*\*\*' + _re.escape(a) + r'\*\*\s*\|', _txt)]
+        if _faltando:
+            erro(f'peca 3 SS3.1: sumiram da tabela de Acao Padrao: {_faltando}. A lista '
+                 f'do 5e 2024 tem doze e a decisao foi copiar as doze — oito ja '
+                 f'existiam aqui, Influenciar e Preparar entraram, e Vasculhar e '
+                 f'Estudar sao o Search e o Study com alvo separado')
+        else:
+            print(f'  [x] as {len(_doze)} acoes de Acao Padrao estao nomeadas na tabela')
+
+        # 2. Agarrar e Derrubar NAO podem ser acao propria — sao opcao do Atacar.
+        #    Como acao propria elas ficam mortas: agarrar custaria o turno inteiro
+        #    e bater duas vezes rende mais que segurar alguem.
+        _proprias = [a for a in ('Agarrar', 'Derrubar')
+                     if _re.search(r'\|\s*\*\*' + a + r'\*\*\s*\|', _txt)]
+        if _proprias:
+            erro(f'peca 3 SS3.1: {_proprias} voltaram a ser acao propria. Elas sao '
+                 f'OPCAO da acao de Atacar desde a v0.83 (o 2024 fez igual): como '
+                 f'acao propria elas ficam dominadas, porque bater duas vezes rende '
+                 f'mais do que gastar o turno segurando alguem')
+        else:
+            print('  [x] Agarrar e Derrubar sao opcao do Atacar, e nao acao propria')
+
+        # 3. A LINHA QUE MATA A DOMINANCIA, e ela e a unica coisa de balanco aqui.
+        #    Ler o Ambiente e Acao BONUS; Vasculhar e Estudar sao Acao PADRAO. Se
+        #    os tres respondessem a mesma pergunta, ninguem usaria os dois caros.
+        #    O que separa e o ALVO: o Ler o Ambiente fala do LUGAR e nunca de
+        #    criatura. Sem essa linha escrita, a dominancia volta em silencio.
+        _guarda = _re.search(r'`?Ler o Ambiente`?\s*NUNCA fala de criatura', _txt)
+        if not _guarda:
+            erro('peca 3 SS3.1: sumiu a linha que diz que o "Ler o Ambiente" NUNCA '
+                 'fala de criatura. Ela e o que separa ele do Vasculhar e do '
+                 'Estudar — sem ela os tres respondem a mesma pergunta, e uma Acao '
+                 'Bonus domina duas Acoes Padrao')
+        else:
+            print('  [x] a linha de alvo que separa Ler o Ambiente de Vasculhar/Estudar')
+
+        # 4. o teto do Ler o Ambiente — ele obriga o mestre a produzir conteudo
+        if not _re.search(r'Ler o Ambiente`?\*\*.{0,120}uma vez por cena', _txt, _re.S | _re.I):
+            erro('peca 3 SS3.1: o "Ler o Ambiente" perdeu o teto de uma vez por cena. '
+                 'Sem teto ela obriga o mestre a produzir conteudo em todo turno e '
+                 'vira imposto de improviso')
+        else:
+            print('  [x] o "Ler o Ambiente" continua com teto de uma vez por cena')
+
+        # 5. o Ajudar ganhou custo de acao nesta versao, e ele nunca tinha tido um.
+        #    A peca 4 SS5 escreve a regra do "um por teste" e nunca disse o slot.
+        if not _re.search(r'\|\s*\*\*Ajudar\*\*\s*\|', _txt):
+            erro('peca 3 SS3.1: o Ajudar saiu da tabela de Acao Padrao. Ele e a unica '
+                 'acao que ja existia escrita em OUTRA peca (a 4 SS5) sem custo de '
+                 'acao declarado, e foi esta secao que deu um a ele')
+        else:
+            print('  [x] o Ajudar esta na tabela, com o custo de acao que faltava')
+
+print()
+print('=' * 92)
 if ERROS:
     print(f'>>> {len(ERROS)} PROBLEMA(S):')
     for e in ERROS:

@@ -6,6 +6,70 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.83] — 2026-08-17
+
+**A lista de ações existe, e ela é a peça 3 §3.1.** *Até aqui esta peça tinha os quatro slots do turno e **nenhuma ação nomeada** — a lista vivia no fim do `DESENHO-caminhos.md`, que não é peça, e o `Ajudar` morava na peça 4 §5 sem custo de ação declarado desde a v0.22.* Continuam dezesseis peças e dezesseis validadores.
+
+### Adicionado — as doze de Ação Padrão, conferidas na fonte
+
+***Decisão do Mizuki: copiar a lista do hobby, e de propósito.*** *"Ninguém precisa aprender lista nova para uma coisa que todo jogador já sabe"* — e o filtro multi-mestre agradece.
+
+**A lista do 5e de 2024 foi lida na fonte e não de memória, e ela tem doze.** *Oito já existiam aqui com outro nome.*
+
+| o que faltava | o que entrou |
+|---|---|
+| `Influence` | **`Influenciar`** — e ela cabe sem adaptação, porque **Essência é o Carisma deste sistema**: `Persuasão`, `Enganação`, `Intimidação`, `Atuação` e `Provocar` moram todas lá |
+| `Ready` | **`Preparar`** — Ação Padrão agora, Reação depois |
+| `Search` · `Study` | **`Vasculhar`** e **`Estudar`**, com alvo separado do `Ler o Ambiente` |
+
+### Decidido — o `Ler o Ambiente` se separa por ALVO, e a conta pedia isso
+
+**O `Search` e o `Study` do 5e são os mesmos testes que o `Ler o Ambiente` faria, e custam a Ação Padrão contra a Ação Bônus dele.** *Mesmo teste, slot mais barato: os três não cabiam juntos, e nenhuma redação conserta dominância estrita.*
+
+> ***Decisão do Mizuki:*** *"Ler o ambiente é algo mais de ajuda pro player sobre o ambiente. Study e Search poderiam ser coisas mais no tato e no inimigo, exigindo ação padrão mesmo."*
+
+**`Ler o Ambiente` fala do LUGAR e nunca de criatura; `Vasculhar` e `Estudar` falam da criatura e da coisa.** *Com alvos diferentes elas param de responder à mesma pergunta, e a dominância some sem limite artificial.* **O `1× por cena` fica mesmo assim**, porque a ação obriga o mestre a produzir conteúdo e sem teto ela vira imposto de improviso.
+
+### Alterado — `Agarrar` e `Derrubar` viraram opção do `Atacar`
+
+*Decisão do Mizuki, seguindo o 2024.* **Como ação própria elas ficavam mortas por dominância:** agarrar custaria o turno inteiro, e bater duas vezes rende mais do que segurar alguém. *Com ataque extra dá para agarrar com um golpe e bater com o outro, que é o que um Bastião quer fazer.* **O `Segurar` do Bastião no nível 30 continua valendo palavra por palavra** — ele diz *"tentar `Agarrar` ou `Derrubar`"* e não cita slot.
+
+### Corrigido — o `Ajudar` ganhou custo de ação, sete versões depois
+
+*A peça 4 §5 escreve a regra do "um por teste" desde a v0.22 e **nunca disse em que ação ela acontece**.* **É Ação Padrão**, e está na peça 3 §3.1 com a peça 4 apontando para lá. *E o `Mão na Roda` do Guia passou a ser exceção de uma coisa que existe — antes ele era exceção de uma regra não escrita.*
+
+### Adicionado — cinco checagens no `conferir-acao.py`, com oito perturbações
+
+**Nada de valor mora dentro delas: os nomes são lidos da própria peça.** *O que elas guardam é a estrutura.*
+
+| perturbação | esperado | deu |
+|---|---|---|
+| apagar o `Preparar` da tabela | acende | acende |
+| apagar o `Influenciar` da tabela | acende | acende |
+| pôr `Agarrar` de volta como ação própria | acende | acende |
+| **apagar a linha *"nunca fala de criatura"*** | acende | acende |
+| tirar o teto de uma vez por cena | acende | acende |
+| apagar o `Ajudar` da tabela | acende | acende |
+| renomear a seção 3.1 | acende | acende |
+| **contra-teste:** trocar a ordem de duas linhas | verde | verde |
+
+> **A checagem que mais rende é a da linha de alvo.** *Ela é a única de balanço do conjunto: sem a frase que diz que o `Ler o Ambiente` nunca fala de criatura, uma Ação Bônus volta a dominar duas Ações Padrão — e a matriz não veria, porque as três continuariam existindo.*
+
+### Corrigido — o total de `por cena` da peça 10, e o validador achou sozinho
+
+**Eram `91` e viraram `93`**, e os dois novos são o `Ler o Ambiente`. *O `conferir-descanso.py` reconta da pasta e falhou na primeira edição, que é exatamente o trabalho dele.* **Total guardado à mão envelhece na primeira edição de outro documento.**
+
+### Em aberto
+
+- **`Preparar` é o quinto competidor pela Reação**, e a peça 3 §7 já desconfiava do slot com quatro. *Marcado para o playtest.*
+- **O `Ler o Ambiente` não tem preço** — ele entrega informação, e o projeto não tem conversão para isso. *O teto de uma vez por cena é o que segura ele enquanto a régua não existir.*
+- **Se o `Ajudar` fora de combate segue a mesma regra** de um por teste.
+- **Duas ações bônus ainda é pouco** para o slot mais vazio do turno.
+- As 48 entregas de Trilha, os 20 degraus de Caminho e as 13 Manhas **continuam fora de peça numerada** — é a próxima da fila.
+- As de sempre: as quatro aptidões abertas, a troca do marco, os metros das armas de projétil, `Caído` para `Inconsciente`, o nome do sistema.
+
+---
+
 ## [0.82] — 2026-08-17
 
 **A dívida de linha de base que a v0.81 marcou com `⚠⚠ LIMPAR ANTES DO PDF` NUNCA FOI DÍVIDA.** *Ela era uma frase que ninguém tinha escrito, e a própria peça 6 já tinha registrado a resposta como "anotado, não decidido".* **Zero número se moveu.** E entraram as **treze Manhas** da Vanguarda, que fecham o nível 2 daquele Caminho. Continuam dezesseis peças e dezesseis validadores.

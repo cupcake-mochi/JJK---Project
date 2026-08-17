@@ -79,7 +79,7 @@ E FICA PENDURADO. A dominância do Explosivo sobre a Torrente é 1,20×, declara
 do Arremate está VAGO com 1,26 fatia. As duas decisões de nível 7 tomadas contra o vão
 errado continuam marcadas e não desfeitas — o Guia em 11,50 contra 12, e a Coleira do
 Evocador em 10,80. O nível 19 da Brasa é FAIXA e não número, e o que decide é o que o
-jogador monta. A lista de ações não está em peça numerada — ela mora no fim do
+jogador monta. A lista de ações FECHOU na v0.83 e é a peça 3 §3.1 — a conta das duas de bônus ficou no
 DESENHO-caminhos.md e nove Trilhas apontam para ela. Nenhum validador lê a regra de ouro
 nº 6. Atribuição de versão não tem validador. As de sempre: vagas de Desliga, Cicatriz,
 clash, nome do sistema, refino que paga mal no marco, tabela de inimigo.
