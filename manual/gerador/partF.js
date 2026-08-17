@@ -33,14 +33,14 @@ const pacotes = [
     ['Domo de Gelo', 'Explosão (−2) · Terreno (−2) · Maior (−2) · Condicional: no escuro (+2)', '5d8 = 22 num raio de 4,5 m + terreno difícil por uma rodada'],
     ['Passo Cortante', 'Toque (Corpo a Corpo +3) · Passo (−2) · Precisão (−2)', '8d8 = 36 no toque, anda 6 m, +2 no acerto'],
     ['Costura', 'Cura (−3) · Limpa (−3) · Gesto (+2)', 'cura 5d8 = 22 e tira uma Condição Menor'],
-    ['Rede', 'Explosão (−2) · Paralisado (−5) · Terreno (−2)', 'zero dano: Paralisado + terreno difícil, CD +2, tudo durando uma rodada a mais'],
+    ['Rede', 'Explosão (−2) · Atordoado (−5) · Terreno (−2)', 'zero dano: Atordoado + terreno difícil, CD +2, tudo durando uma rodada a mais'],
     ['Hora Morta', 'Efeito · Longe (−2)', 'um quarteirão em silêncio absoluto por uma hora'],
     ['Fissura', 'Projétil · Toca a Alma (−2)', '7 dados viram 3d8 = 13 na alma'],
   ]),
 
   H2('Classe 4 · 12 pontos · 12 PE'),
   PT([
-    ['Prisão de Sombras', 'Explosão (−2) · Paralisado (−6) · Escolher (−4) · Sangra (+4)', '4d8 = 18 + Paralisado durando uma rodada a mais; você toma 8'],
+    ['Prisão de Sombras', 'Explosão (−2) · Atordoado (−6) · Escolher (−4) · Sangra (+4)', '4d8 = 18 + Atordoado durando uma rodada a mais; você toma 8'],
     ['Julgamento Vertical', 'Linha (−2) · Fura (−4) · Precisão (−2) · Lento (+4)', '8d8 = 36, fura 12 de RD, +2 na CD'],
     ['Roubo de Fôlego', 'Projétil · Sugar (−4) · Remate (−4) · Condicional: o alvo te acertou desde o seu último turno (+4)', '8d8 = 36, cura 9, +25% em alvo abaixo de metade'],
     ['Passo do Espelho', 'Toque (Corpo a Corpo +4) · Rápido (−6) · Passo (−2) · Recuo (+4)', '12d8 = 54 como Ação Bônus, no toque'],

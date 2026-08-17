@@ -1,4 +1,4 @@
-GERADOR DO MANUAL — Fundamento v7.8
+GERADOR DO MANUAL — Fundamento v7.9
 
 Recria o .docx do zero. Precisa de Node.js.
 
@@ -31,6 +31,30 @@ ORDEM DAS SEÇÕES (v7)
   4 Restrições → 5 Fora de combate → 6 Liberação Máxima → 7 Técnica Máxima →
   8 Regras de ouro → 9 Progressão → 10 Feitiços prontos → 11 Para o mestre →
   Apêndice
+
+O QUE MUDOU NA v7.9
+  - AS CONDICOES GANHARAM EFEITO (partD.js, bloco Controle). As doze da lista de
+    Condicao Menor/Maior tinham preco desde sempre e nunca tiveram regra escrita:
+    doze termos cobrados e indefinidos. Agora cada uma tem uma linha dizendo o que
+    faz, em duas tabelas novas.
+  - TRES CONDICOES NOVAS: Impedido e Envenenado entram como Menores, Petrificado
+    como Maior. As Menores vao de 7 para 9.
+  - PARALISADO DEIXOU DE EXISTIR: ele era o nome da condicao que hoje se chama
+    Atordoado. As Maiores continuam CINCO. Decisao do Mizuki.
+  - ATORDOADO E INCAPACITADO nao seguem o d20, atacam eixos diferentes e NAO se
+    empilham: Atordoado tira parte do turno (uma Acao Padrao e a reacao) e voce
+    continua se defendendo; Incapacitado nao tira turno nenhum — tira a defesa
+    (sem Bloquear, e todo ataque corpo a corpo vira critico). Uma Condicao Maior
+    custa Pesada e voce escolhe o eixo. O Atordoado cobra UMA Acao Padrao de
+    proposito: um chefe age mais de uma vez por rodada, e apagar o turno dele com
+    uma linha de Controle sairia barato demais.
+  - OS DOIS FEITICOS PRONTOS que aplicavam Paralisado — Rede e Prisao de Sombras —
+    passaram a aplicar Atordoado (partF.js e pac7.py). O preco nao mudou.
+  - INCONSCIENTE, EXAUSTAO E INVISIVEL ficaram de fora, com o motivo escrito numa
+    caixa: o primeiro e cair morrendo e tem regra propria no sistema em volta, a
+    segunda e relogio de descanso, e a terceira e beneficio.
+  - Estrutura: 365 paragrafos (eram 363) e 88 tabelas (eram 84). pac7.py e v7.py
+    passam. O .pdf foi exportado junto, e continua igual ao .docx.
 
 O QUE MUDOU NA v7.8
   - O PDF FOI EXPORTADO, e pela primeira vez ele nao esta atrasado. Ate a v0.92 do

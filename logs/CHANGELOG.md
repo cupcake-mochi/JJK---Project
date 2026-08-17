@@ -6,6 +6,200 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.97] — 2026-08-17
+
+**O `subir.sh` falhou na máquina do Mizuki e passava na minha, e o motivo é o defeito nº 1 do projeto acontecendo de verdade: ele NÃO tem `python-docx` instalado.** *A checagem de condições da v0.95 caiu no caminho de pulada e quebrou lá dentro.* Continuam dezessete peças e dezessete validadores.
+
+### ⚠⚠ O bug — `AVISOS` não existe no `conferir-atributos.py`
+
+**Escrevi o caminho de pulada copiando o padrão do `conferir-aptidoes.py`, que tem `ERROS` e `AVISOS`.** *O `conferir-atributos.py` só tem `ERROS`.* **Então o `except ImportError` estourava `NameError` em vez de pular.**
+
+*Ele só dispara em máquina sem `python-docx`* — por isso passou dez vezes seguidas de um lado e falhou do outro, com o mesmo arquivo no mesmo disco.
+
+> **A pulada é o caminho MENOS testado de todo validador que lê o manual**, porque quem escreve a checagem quase sempre tem a biblioteca. *Bloquear o import na hora de escrever custa uma linha e é a única forma de exercitar aquele ramo.*
+
+### ⚠⚠ E o achado que vale mais que o bug: três validadores estão CEGOS na máquina dele
+
+**O `conferir-nomes.py`, o `conferir-manual.py` e o `conferir-pericias.py` saem `ok` sem `python-docx`** — eles pulam as checagens que leem o `.docx` e retornam código `0`. **É o defeito que o `README` documenta desde a v0.28, e ele está acontecendo agora, em produção.**
+
+| validador | do que ele fica cego |
+|---|---|
+| `conferir-nomes.py` | **3 de 5** — a triagem de nome contra o manual inteiro |
+| `conferir-manual.py` | **4 de 4 — todas.** *Ele sai no `except ImportError` antes da primeira checagem* |
+| `conferir-pericias.py` | 1 de 8 |
+
+> **A saída do `subir.sh` que ele mandou tem `ok conferir-manual.py`, e aquele `ok` não conferiu absolutamente nada.** *A v0.95 e a v0.96 mexeram no `.docx` — condições novas, `Paralisado` removido, dois feitiços prontos reescritos — e a metade do arnês que confere manual contra projeto não rodou do lado dele em nenhuma das duas.*
+
+**Nada quebrou por causa disso**, porque a comparação rodou aqui e passou. *Mas ela passou por acidente de quem rodou, e não por desenho.*
+
+### Corrigido — três coisas, e nenhuma é o número
+
+1. **`AVISOS` virou `_PULADAS`**, declarada junto de `ERROS` no topo.
+2. **O `except` deixou de pegar só `ImportError`.** *Qualquer outra falha de leitura do `.docx` — arquivo sumido, formato trocado, pacote `docx` errado — agora vira **erro** com o tipo da exceção na mensagem, em vez de traceback ou de silêncio.*
+3. **O rodapé passou a IMPRIMIR as puladas.** *Antes ele dizia `TUDO OK` do mesmo jeito.* **Agora ele diz `OK, mas N checagem(ns) PULARAM`, e a linha do `[x]` parou de afirmar que a peça bate com o manual quando a comparação não rodou.**
+
+> **A terceira é a que impede o defeito de voltar.** *Um verde que pulou checagem não é um verde; ele só parecia um porque ninguém imprimia a diferença.* **A lição nº 8 por outra porta: a checagem estava se medindo contra o que ela conseguiu fazer, e não contra o que ela devia fazer.**
+
+### Conferido nos dois caminhos, que é o que faltava na v0.95
+
+| | com `python-docx` | sem |
+|---|---|---|
+| **código de saída** | `0` | `0` |
+| **a comparação com o manual** | roda | pula, e **diz que pulou** |
+| **o rodapé** | `TUDO OK` | `OK, mas 1 checagem(ns) PULARAM` |
+
+*O caminho sem a biblioteca foi exercitado bloqueando o import no `meta_path`, e não desinstalando nada.*
+
+### Em aberto
+
+- **O Mizuki precisa instalar o `python-docx`** — `pip install python-docx --break-system-packages`. *Enquanto não instalar, os três continuam saindo verdes sem conferir o manual, e isso é dele e não do código.*
+- **Vale um `PULADA` visível nos outros três também.** *Hoje eles pulam e imprimem aviso no meio da saída, que o `subir.sh` joga em `/dev/null`.* **O `subir.sh` mostra `ok` e mais nada — ele não tem como saber a diferença.** *Fica anotado como a próxima coisa a arrumar nesse eixo.*
+- O resto da lista da v0.96 continua igual.
+
+---
+
+## [0.96] — 2026-08-17
+
+**O `Paralisado` deixou de existir, e o `Incapacitado` ficou com o efeito dele.** *Correção da v0.95, pedida pelo Mizuki: eram para ser **duas** condições nesse lugar e não três, e eu tinha inventado uma escada de três que ninguém pediu.* **São catorze condições — nove Menores e cinco Maiores.** Manual na v7.9, dezessete peças e dezessete validadores.
+
+### ⚠⚠ O que eu errei, e vale escrever porque foi erro de leitura e não de conta
+
+**O Mizuki escreveu duas condições, com efeito cada uma**, e disse depois que o `Atordoado` da fonte era o `Paralisado` dele e que valia mudar o nome.
+
+**Eu li aquilo como pedido de uma escada de TRÊS degraus** — Atordoado, Incapacitado e Paralisado, cada um num eixo —, e o pedido era **renomear uma e ficar com duas.** *A v0.95 publicou uma condição a mais que ninguém tinha pedido, e ela chegou até o `.docx` e o `.pdf`.*
+
+> **O sintoma que eu tinha na mão e não usei: a pergunta que eu fiz oferecia três opções e ele escolheu a que dizia "só troca os nomes de lugar".** *"Troca de lugar" é operação entre **dois**.* **A resposta dele já continha a contagem, e eu li a parte do meio e não a palavra que decidia.**
+
+### Como ficou
+
+| | o eixo que ela ataca |
+|---|---|
+| **Atordoado** | tira **parte do turno** — uma Ação Padrão e a reação. *Quem tem mais de uma perde **uma**.* Você continua se defendendo |
+| **Incapacitado** | não tira turno nenhum: tira a **defesa**. **Sem `Bloquear`, e todo ataque corpo a corpo contra você é crítico** |
+
+**Elas não se empilham, e é isso que as separa.** *No d20 o `Paralisado` é o `Atordoado` mais o crítico no corpo a corpo — um herdando do outro, e o de baixo nunca vira escolha.* **Aqui a Condição Maior custa `Pesada` e você escolhe o eixo: tirar o que ele faz, ou tirar o que protege ele.**
+
+> **E o terceiro degrau não cabia mesmo.** *Uma condição que fosse a soma das duas só teria sentido custando mais que `Pesada`,* **e a escada de preço do manual não tem degrau acima dela.** *A v0.95 criou uma linha que custava o mesmo que as outras duas e valia mais — dominância pura, e nenhum validador do projeto olha para dentro de uma Condição Maior.*
+
+### Alterado — os dois feitiços prontos, e o validador do manual junto
+
+**A `Rede` e a `Prisão de Sombras` aplicavam `Paralisado`.** *Agora aplicam `Atordoado`, no `partF.js` e no `pac7.py`.* **O preço não mudou** — as duas continuam comprando uma Condição Maior por `Pesada` —, e o `pac7.py` passa.
+
+*Elas voltaram a fazer o que faziam antes da v0.95: travar o turno do alvo.* **A v0.95 tinha mudado o efeito delas de lado sem que ninguém pedisse.**
+
+### Alterado — o manual, ainda v7.9
+
+*A versão não subiu porque a v7.9 não chegou a ser commitada com a lista errada.* **`365` parágrafos e `88` tabelas, iguais.** *A tabela de Maiores foi de seis linhas para cinco, a caixa dos eixos foi reescrita para dois, e o `.pdf` saiu junto, em `45` páginas.*
+
+### As seis perturbações, em cópia isolada
+
+| perturbação | esperado | deu |
+|---|---|---|
+| **o `Paralisado` volta para a lista de Maiores** | acende | acende |
+| uma condição some da peça e fica só no manual | acende | acende |
+| uma Menor também aparece entre as Maiores | acende | acende |
+| uma das que estão fora volta para a lista | acende | acende |
+| **contra-teste:** reescrever o efeito sem mexer no nome | verde | verde |
+| o título da seção das Maiores muda | acende | acende |
+
+**A primeira é a que importa**, e ela é o teste negativo direto desta versão: se alguém reintroduzir o `Paralisado`, a comparação peça-contra-manual acende nas duas direções.
+
+### Em aberto
+
+- **Nada mudou na lista da v0.95.** *A peça de dano e condições continua devendo a Cicatriz, o clash e as vagas de `Desliga`; as três Trilhas do Evocador e a terceira taxa do `Batedor` continuam fora por decisão.*
+- **A força das catorze é previsão**, e vai ser medida no playtest. *`04-playtest/` continua vazia.*
+- **O que falta para alguém jogar não é regra, é material:** o **quick-start** e a **tabela de progressão consolidada**.
+
+---
+
+## [0.95] — 2026-08-17
+
+**As condições ganharam efeito, e o manual subiu para a v7.9.** *Eram doze nomes com preço e sem regra — `Condição Menor` custa Média e `Condição Maior` custa Pesada desde sempre, e nenhuma das doze dizia o que fazia.* **Agora são quinze, cada uma com uma linha, no manual e na peça 1.** Continuam dezessete peças e dezessete validadores.
+
+### ⚠⚠ O buraco: doze termos cobrados e indefinidos, em sete mesas
+
+**A linha de `Condição Maior` do manual dizia *"Aplica uma: Atordoado, Paralisado, Amedrontado, Enfeitiçado ou Incapacitado"* e parava aí.** *Um jogador comprava Pesada por `Atordoado` e a mesa decidia na hora o que aquilo significava.*
+
+> **É o formato do buraco do `Mirar` na v0.86 — concedido em treze lugares, definido em nenhum — só que multiplicado por doze e com preço em cima.**
+
+### Decidido — usar as do d20 para tudo que já tinha nome, e escrever à mão só as três que precisam ser diferentes
+
+***Decisão do Mizuki.*** *Mesmo motivo dos metros e da Cobertura: condição não tem conversão em fatia neste sistema, então o número não sai de conta daqui — ele precisa é ser o mesmo em sete mesas.*
+
+**Três condições novas, espalhadas entre os dois tamanhos:** `Impedido` e `Envenenado` entram como Menores, `Petrificado` como Maior. **As Menores vão de sete para nove e as Maiores de cinco para seis.**
+
+### Decidido — os três nomes do meio trocaram de lugar, e cada um atacou um eixo
+
+***O Mizuki viu a colisão sozinho:*** *"atordoado do dnd seria basicamente o paralisado, até recomendo mudar o nome".* **Ele estava certo — a definição que ele tinha escrito para `Paralisado` é o `Atordoado` da fonte, e a que ele tinha escrito para `Incapacitado` é o `Paralisado` de lá.**
+
+***Decisão dele: trocar os nomes de lugar.***
+
+| | o eixo que ela ataca |
+|---|---|
+| **Atordoado** | tira **parte** do turno — uma Ação Padrão e a reação |
+| **Incapacitado** | tira o turno **inteiro** — nem padrão, nem bônus, nem reação, nem `Bloquear` |
+| **Paralisado** | não tira turno nenhum: tira a **defesa**. Sem `Bloquear`, e todo ataque corpo a corpo vira crítico |
+
+**O `Paralisado` com o crítico volta a bater com a fonte**, onde o crítico no corpo a corpo é exatamente a linha que separa o `Paralisado` do `Atordoado`.
+
+> **O custo dessa troca está declarado: a `Rede` e a `Prisão de Sombras`, dois feitiços prontos do manual, aplicam `Paralisado` e passam a aplicar uma condição de outro formato** — ela não trava mais o turno do alvo, ela abre a guarda dele. *O `pac7.py` continua passando porque o preço não mudou; o que mudou foi o que o jogador recebe.*
+
+> **O `Atordoado` cobra UMA Ação Padrão de propósito.** *Um chefe age mais de uma vez por rodada.* **Apagar o turno inteiro dele com uma linha de Controle sairia barato demais** — e quem quiser isso tem o `Incapacitado`, que custa a mesma Pesada e é escolha em vez de sorte.
+
+### Decidido — três ficaram de fora, com o motivo escrito
+
+| | por quê |
+|---|---|
+| **Inconsciente** | ***decisão do Mizuki:*** aqui é **cair morrendo**, e já tem regra própria — a seção 5.5 da peça 1, com as duas escolhas e a janela de três rodadas. *Uma condição de uma rodada com o mesmo nome faria a mesa confundir o pior estado do jogo com um efeito que passa sozinho.* |
+| **Exaustão** | já existe e é da **peça 10** — relógio de descanso, não efeito de combate. *É a que mais engana, porque na fonte ela é condição e aqui não.* |
+| **Invisível** | é **benefício**. *Comprar Média para aplicar num inimigo é pagar para ajudar ele.* |
+
+### ⚠ E metade do `Paralisado` depende de uma regra opcional
+
+**O `Bloquear` — rolar `2d10` no lugar da Defesa estática — mora no `RASCUNHO-bloqueio.md`, e nem toda mesa vai ligar.** *Onde ele estiver desligado, o `Paralisado` é só o crítico no corpo a corpo, que é a metade que sempre vale.* **Escrito na peça para ninguém achar que a condição está pela metade por engano.**
+
+### Adicionado — a checagem de espalhamento, e só ela
+
+***Decisão do Mizuki: não validar a força, só a distribuição*** — *"vamos testar no sistema depois"*. **É coerente com o que elas são: nenhuma produz número que entre em conta.**
+
+**A checagem entrou no `conferir-atributos.py`**, que é o dono da peça 1, e confere quatro coisas: ninguém em dois tamanhos ao mesmo tempo, nada que está declarado *fora* aparecendo numa das listas, a peça batendo com o manual **nas duas direções**, e a guarda de contagem.
+
+### ⚠ E o extrator do `conferir-nomes.py` passou a bater as DUAS listas do próprio `.docx`
+
+**A guarda de contagem da v0.88 acusou na hora**, porque ela esperava doze condições e o manual passou a devolver quinze. *Ela existe desde que a triagem ficou cega para as condições e deixou a Manha `Abalo` batizar de `Caído` o que o manual já chamava de `Derrubado`.*
+
+**E ela expôs uma coisa nova: o `.docx` agora tem DUAS listas da mesma coisa** — a frase *"Aplica uma: …"* e as tabelas de efeito. *Em vez de escolher uma e torcer, o extrator lê as duas e falha se divergirem.* **Lição nº 9 dentro de um arquivo só.**
+
+### As sete perturbações, em cópia isolada
+
+| perturbação | esperado | deu |
+|---|---|---|
+| uma condição some da peça e fica só no manual | acende | acende |
+| uma condição muda de nome só de um lado | acende | acende |
+| **uma das que estão fora volta para a lista de Maiores** | acende | acende |
+| **uma Menor também aparece entre as Maiores** | acende | acende |
+| **contra-teste:** reescrever o efeito sem mexer no nome | verde | verde |
+| o título da seção das Maiores muda | acende | acende |
+| a peça perde a seção inteira | acende | acende |
+
+> **⚠ E a primeira tentativa da sexta foi FALSO NEGATIVO meu, não do validador.** *Perturbei `### As seis Maiores` para `### As seis MaioresX` — e o extrator usa `find`, que acha o título como **substring** do perturbado.* **A perturbação mudou o arquivo e não mudou o comportamento.** *É a regra 3 do arnês pegando exatamente o caso que ela existe para pegar: conferir que o `sed` bateu não basta se o que você trocou continua casando.*
+
+### Alterado — o manual, v7.8 para v7.9
+
+**Duas tabelas novas com o efeito de cada condição, mais duas caixas** — a dos três eixos e a das três que ficaram de fora. *`365` parágrafos contra `363`, e `88` tabelas contra `84`.*
+
+**O `pac7.py` e o `v7.py` passam**, e o `.pdf` saiu junto, em `45` páginas. *Segunda versão seguida em que ele não fica atrasado.*
+
+### Em aberto
+
+- **A peça de dano e condições continua não existindo**, e agora ela deve menos: *a lista de condições saiu dela.* **Sobram a Cicatriz, o clash e as vagas de `Desliga`.**
+- **As três Trilhas do Evocador**, fora por decisão.
+- **A terceira taxa sem medida do `Batedor`.** *Fica para depois, e é pergunta de mesa.*
+- **A força de cada condição é previsão**, como todo número deste sistema. *`04-playtest/` continua vazia.*
+- **O que falta para alguém jogar não é regra, é material:** o **quick-start** e a **tabela de progressão consolidada**.
+
+---
+
 ## [0.94] — 2026-08-17
 
 **O sistema ganhou nome, e as duas últimas regras que faltavam foram escritas.** *`Projeto - M`, os metros de cada arma de projétil, e a Cobertura.* **A pendência do nome estava aberta desde a v0.1 — noventa e três versões.** Continuam dezessete peças e dezessete validadores.

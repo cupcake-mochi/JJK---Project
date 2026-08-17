@@ -55,6 +55,7 @@ D20 = soma([20])
 NIVEIS = [2, 6, 10, 14, 18, 22, 26, 30]
 FIXO = 2
 ERROS = []
+_PULADAS = []
 
 
 def maestria(nv):   return 1 + max(0, nv - 2) // 8
@@ -564,10 +565,107 @@ else:
         print('  O peso segue rotulado como previsao, com o playtest nomeado como dono.')
 
 print()
+
+# --------------------------------------------------------------------------
+# AS CONDICOES — so o espalhamento entre os dois tamanhos, por decisao do Mizuki.
+# Forca de cada uma nao se confere aqui: ela vai ser medida no playtest.
+#
+# LIMITE DE DESIGN, declarado a parte da regra aplicada: quantas o manual tinha
+# quando a secao 8.3 entrou. Se o total CAIR, alguem apagou condicao e esta
+# checagem passou a conferir menos.
+CONDICOES_MINIMO = 14
+
+print()
+print('=' * 90)
+print('AS CONDICOES — cada uma em exatamente um tamanho, e a peca 1 bate com o manual')
+print('=' * 90)
+
+import re as _re
+_p1 = open(os.path.join(AQUI, '01-atributos-acerto-defesa.md'), encoding='utf-8').read()
+_s83 = _p1[_p1.find('## 8.3 '):_p1.find('## 9. ')]
+
+def _nomes(titulo):
+    """Os nomes em negrito da PRIMEIRA coluna, do titulo ate o proximo '###'."""
+    _a = _s83.find(titulo)
+    if _a < 0:
+        return []
+    _corpo = _s83[_a + len(titulo):]
+    _fim = _corpo.find('\n### ')
+    if _fim >= 0:
+        _corpo = _corpo[:_fim]
+    return [_m.group(1).strip() for _l in _corpo.split('\n')
+            if _l.startswith('| **') for _m in [_re.match(r'\| \*\*([^*]+)\*\*', _l)] if _m]
+
+_menores = _nomes('### As nove Menores')
+_maiores = _nomes('### As cinco Maiores')
+_fora = _nomes('### As três que ficaram de fora')
+
+print(f'  a peca 1 publica {len(_menores)} Menor(es), {len(_maiores)} Maior(es) e {len(_fora)} fora')
+
+# 1. ninguem em dois tamanhos ao mesmo tempo
+_dobradas = sorted(set(_menores) & set(_maiores))
+if _dobradas:
+    erro(f'condicao em dois tamanhos ao mesmo tempo: {_dobradas}')
+
+# 2. o que esta declarado FORA nao pode estar numa das duas listas
+_contradicao = sorted((set(_menores) | set(_maiores)) & set(_fora))
+if _contradicao:
+    erro(f'condicao listada como fora e tambem como condicao: {_contradicao}')
+
+# 3. a peca bate com o manual, nas duas direcoes
+_man = None
+try:
+    import docx as _docx
+    _doc = _docx.Document(os.path.join(AQUI, '..', '..', 'manual',
+                                       'Fundamento-MANUAL-v7.docx'))
+    _man = {}
+    for _t in _doc.tables:
+        _h = _t.rows[0].cells[0].text.strip()
+        if _h in ('Menor', 'Maior'):
+            _man[_h] = [_r.cells[0].text.strip() for _r in _t.rows[1:]]
+    if not _man:
+        erro('nao achei as tabelas de condicao no .docx — o manual mudou de formato '
+             'e esta checagem parou de conferir')
+    else:
+        for _rot, _proj, _chave in (('Menor', _menores, 'Menor'), ('Maior', _maiores, 'Maior')):
+            _so_peca = sorted(set(_proj) - set(_man[_chave]))
+            _so_man = sorted(set(_man[_chave]) - set(_proj))
+            if _so_peca:
+                erro(f'{_rot}: a peca 1 lista {_so_peca} e o manual nao')
+            if _so_man:
+                erro(f'{_rot}: o manual lista {_so_man} e a peca 1 nao')
+        print(f'  o manual publica {len(_man["Menor"])} Menor(es) e {len(_man["Maior"])} Maior(es)')
+except ImportError:
+    _PULADAS.append('a comparacao das condicoes com o manual')
+    print('  PULADA — sem python-docx, as condicoes nao foram batidas contra o manual.')
+    print('           instale com: pip install python-docx --break-system-packages')
+except Exception as _e:
+    # qualquer outra falha de leitura do .docx e ERRO, e nao pulada silenciosa
+    erro(f'nao consegui ler as condicoes do manual ({type(_e).__name__}: {_e}) — '
+         f'a comparacao peca-contra-manual nao rodou')
+
+# 4. guarda de contagem
+_total = len(_menores) + len(_maiores)
+if _total < CONDICOES_MINIMO:
+    erro(f'so {_total} condicao(oes) na peca 1 e o minimo declarado e {CONDICOES_MINIMO} '
+         f'— alguem apagou condicao e esta checagem passou a conferir menos')
+
+if not [e for e in ERROS if 'condicao' in e.lower() or 'Menor' in e or 'Maior' in e]:
+    if _man:
+        print(f'  [x] as {_total} estao cada uma em um tamanho so, e a peca bate com o manual.')
+    else:
+        print(f'  [x] as {_total} estao cada uma em um tamanho so — mas SEM conferir '
+              f'contra o manual, que e metade do que esta checagem faz.')
+
+
 print('=' * 88)
 if ERROS:
     print(f'>>> {len(ERROS)} PROBLEMA(S):')
     for e in ERROS:
         print('   -', e)
     raise SystemExit(1)
-print('>>> TUDO OK — nada deriva onde nao deve, e a pericia deriva onde deve.')
+if _PULADAS:
+    print(f'>>> OK, mas {len(_PULADAS)} checagem(ns) PULARAM: ' + '; '.join(_PULADAS))
+    print('    um verde que pulou checagem nao prova nada — instale o python-docx.')
+else:
+    print('>>> TUDO OK — nada deriva onde nao deve, e a pericia deriva onde deve.')

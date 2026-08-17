@@ -49,8 +49,8 @@ const melhorias = [
 
   H2('Controle'),
   CAT([
-    ['Condição Menor', 'Média', 'Aplica uma: Derrubado, Lento, Cego, Agarrado, Surdo, Desarmado ou Calado (o alvo não conjura). Dura uma rodada.'],
-    ['Condição Maior', 'Pesada', 'Aplica uma: Atordoado, Paralisado, Amedrontado, Enfeitiçado ou Incapacitado. Dura uma rodada, com Teste de Resistência no fim de cada turno do alvo. Uma por feitiço.'],
+    ['Condição Menor', 'Média', 'Aplica uma: Derrubado, Cego, Surdo, Agarrado, Impedido, Envenenado, Lento, Desarmado ou Calado (o alvo não conjura). Dura uma rodada.'],
+    ['Condição Maior', 'Pesada', 'Aplica uma: Amedrontado, Enfeitiçado, Atordoado, Incapacitado ou Petrificado. Dura uma rodada, com Teste de Resistência no fim de cada turno do alvo. Uma por feitiço.'],
     ['Terreno', 'Leve', 'A área vira terreno difícil, ou fica obscurecida, por uma rodada.'],
     ['Anteparo', 'Média', 'Deixa uma parede ou escudo com 10 × Classe de pontos de vida, por 1 minuto.'],
     ['Prende', 'Média', 'O alvo não sai do lugar até o fim do próximo turno dele. Ele pode gastar a ação pra tentar um Teste de Resistência e se soltar.'],
@@ -58,6 +58,43 @@ const melhorias = [
     ['Puxa', 'Média', 'Todo mundo na área é puxado 6 m na direção do centro.'],
     ['Desarma o Feitiço', 'Média', 'Cancela um efeito contínuo ou uma barreira de Classe igual ou menor que o seu.'],
   ]),
+
+  H2('As condições, uma a uma'),
+  P('As doze da lista acima nunca tiveram efeito escrito, e três novas entraram. Aqui está o que cada uma faz. **Uma condição dura uma rodada**, como as linhas de Controle já diziam.'),
+  TBL(['Menor', 'O que faz'],
+    [
+      ['Derrubado', 'No chão. Só se move rastejando, desvantagem nos seus ataques, e quem ataca de até 1,5 m tem vantagem — de longe, desvantagem.'],
+      ['Cego', 'Não enxerga. Falha automático em teste que precise de vista, desvantagem nos seus ataques, vantagem para quem te ataca.'],
+      ['Surdo', 'Não ouve. Falha automático em teste que precise de audição.'],
+      ['Agarrado', 'Deslocamento 0. Acaba se quem agarrou ficar Incapacitado, ou se algo te tirar do alcance dele.'],
+      ['Impedido', 'Deslocamento 0, desvantagem nos seus ataques e no Teste de Resistência Físico, e vantagem para quem te ataca.'],
+      ['Envenenado', 'Desvantagem nos seus ataques e em todo teste de perícia.'],
+      ['Lento', 'Deslocamento pela metade, e sem Ação Bônus.'],
+      ['Desarmado', 'A sua arma está no chão ou na mão de outro. Você bate desarmado até pegar de volta.'],
+      ['Calado', 'Você não conjura. Nada que precise de voz, gesto ou Selo sai.'],
+    ], [2200, 6800], { boldCols: [0] }),
+
+  TBL(['Maior', 'O que faz'],
+    [
+      ['Amedrontado', 'Desvantagem em ataque e teste enquanto enxergar a fonte do medo, e você não se aproxima dela de vontade própria.'],
+      ['Enfeitiçado', 'Você não ataca quem enfeitiçou nem mira efeito nocivo nele, e ele tem vantagem em teste social contra você.'],
+      ['Atordoado', 'Você perde a Ação Padrão e não usa reação. Quem tem mais de uma Ação Padrão no turno perde UMA, não todas.'],
+      ['Incapacitado', 'Você não pode Bloquear, e todo ataque corpo a corpo contra você é crítico.'],
+      ['Petrificado', 'Virou pedra. Incapacitado, deslocamento 0, sem perceber o que está em volta, vantagem para quem te ataca — e resistência a todo dano.'],
+    ], [2200, 6800], { boldCols: [0] }),
+
+  BOX('Atordoado e Incapacitado atacam eixos diferentes, e não se empilham', [
+    'Atordoado tira PARTE do turno: uma Ação Padrão e a reação. Você continua se defendendo.',
+    'Incapacitado não tira turno nenhum — tira a DEFESA. Você age e não se protege.',
+    'Uma Condição Maior custa Pesada e você escolhe o eixo: tirar o que ele faz, ou tirar o que protege ele.',
+    'O Atordoado cobra uma Ação Padrão só de propósito: um chefe age mais de uma vez por rodada, e apagar o turno dele com uma linha de Controle sairia barato demais.',
+  ], 'info'),
+
+  BOX('Três coisas que NÃO são condição aqui', [
+    'Inconsciente é cair morrendo, e tem regra própria no sistema em volta — não é efeito de uma rodada.',
+    'Exaustão é relógio de descanso, e Condição Menor não alcança ela.',
+    'Invisível é benefício: comprar para aplicar num inimigo é pagar para ajudar ele.',
+  ], 'warn'),
 
   H2('Auxiliares'),
   P('Números em cima de alguém. Em feitiço de dano, valem contra o alvo; nas Formas de Amparo, valem no aliado.'),

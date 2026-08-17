@@ -498,6 +498,63 @@ A tabela de letalidade do Fundamento mostra 1,7 a 2,0 rodadas porque supõe que 
 
 > **A `Total` não tem número de propósito.** *Ela é a única das três que não é um bônus: é a ausência de alvo legal.* **Um efeito que pega área continua alcançando quem está atrás dela, se o efeito não precisar de linha de efeito** — e essa parte é do manual, não daqui.
 
+## 8.3 As condições — as catorze, e o que cada uma faz
+
+*Escrita na v0.95.* **O manual já cobrava por condição desde sempre — `Condição Menor` custa Média e `Condição Maior` custa Pesada — e listava doze nomes sem dizer o que nenhum deles fazia.** *Doze termos com preço e sem regra, em sete mesas.*
+
+***Decisão do Mizuki: usar as do d20 para tudo que já tem nome lá, e escrever à mão só as três que precisam ser diferentes.*** *Mesmo motivo dos metros e da Cobertura: condição não tem conversão em fatia neste sistema, então o número não sai de conta daqui — ele precisa é ser o mesmo em sete mesas.*
+
+### As nove Menores — custam `Média` no manual
+
+| condição | o que faz |
+|---|---|
+| **Derrubado** | você está no chão. Só se move rastejando, tem desvantagem nos seus ataques, e quem ataca você **a até 1,5 m tem vantagem** — quem ataca de longe tem desvantagem |
+| **Cego** | você não enxerga. Falha automático em teste que precise de vista, tem desvantagem nos seus ataques, e quem ataca você tem vantagem |
+| **Surdo** | você não ouve. Falha automático em teste que precise de audição |
+| **Agarrado** | seu deslocamento é `0`. Acaba se quem agarrou ficar `Incapacitado`, ou se alguma coisa tirar você do alcance dele |
+| **Impedido** | seu deslocamento é `0`, você tem desvantagem nos seus ataques e no Teste de Resistência Físico, e quem ataca você tem vantagem |
+| **Envenenado** | desvantagem nos seus ataques e em todo teste de perícia |
+| **Lento** | seu deslocamento cai pela metade e você não usa Ação Bônus |
+| **Desarmado** | a sua arma está no chão ou na mão de outro. Você bate desarmado até pegar de volta |
+| **Calado** | você não conjura. Nada que precise de voz, gesto ou Selo sai |
+
+### As cinco Maiores — custam `Pesada` no manual
+
+| condição | o que faz |
+|---|---|
+| **Amedrontado** | desvantagem em ataque e teste enquanto enxergar a fonte do medo, e você não se aproxima dela de vontade própria |
+| **Enfeitiçado** | você não ataca quem enfeitiçou nem mira efeito nocivo nele, e ele tem vantagem em teste social contra você |
+| **Atordoado** | **você perde a Ação Padrão e não usa reação.** *Quem tem mais de uma Ação Padrão no turno — um chefe, um capanga grande — perde **uma**, não todas* |
+| **Incapacitado** | **você não pode `Bloquear`, e todo ataque corpo a corpo contra você é crítico** |
+| **Petrificado** | você virou pedra. `Incapacitado`, deslocamento `0`, sem perceber nada em volta, quem ataca você tem vantagem — e você tem resistência a todo dano |
+
+### As duas que não seguem o d20, e por quê
+
+***Decisão do Mizuki.*** **`Atordoado` e `Incapacitado` atacam eixos diferentes, e não se aninham** — o que no d20 são três linhas que herdam uma da outra, aqui são duas que não se tocam.
+
+| | o eixo que ela ataca |
+|---|---|
+| **Atordoado** | tira **parte do turno** — uma Ação Padrão e a reação. Você continua se defendendo |
+| **Incapacitado** | não tira turno nenhum: tira a **defesa**. Você age e não se protege |
+
+> **Nenhuma das duas faz o que a outra faz, e é isso que as separa.** *No d20 o `Paralisado` é o `Atordoado` mais o crítico no corpo a corpo — um empilhado no outro, e a de baixo nunca é escolha.* **Aqui a Condição Maior custa `Pesada` e você escolhe o eixo: tirar o que ele faz, ou tirar o que protege ele.**
+
+> **`Paralisado` não existe como condição, e é decisão.** *Ele era o nome da que hoje se chama `Atordoado`.* **Um terceiro degrau que fosse a soma dos dois só teria sentido se custasse mais que `Pesada`, e a escada de preço do manual não tem degrau acima dela.**
+
+> **⚠ E metade do `Incapacitado` depende de uma regra opcional.** *O `Bloquear` — rolar `2d10` no lugar da Defesa estática — está no `RASCUNHO-bloqueio.md` e nem toda mesa vai usar.* **Onde ele estiver desligado, o `Incapacitado` é só o crítico no corpo a corpo**, que é a metade que sempre vale. *Fica escrito para ninguém achar que a condição está pela metade por engano.*
+
+> **O `Atordoado` cobra `uma` Ação Padrão de propósito.** *Um chefe do manual age mais de uma vez por rodada; tirar todas com uma Condição Maior faria uma linha de feitiço apagar o turno de um chefe inteiro.* **Tirar uma ação de três é caro sem ser apagar a cena.**
+
+### As três que ficaram de fora, com o motivo escrito
+
+| não é condição aqui | por quê |
+|---|---|
+| **Inconsciente** | ***decisão do Mizuki:*** aqui isso é **cair morrendo**, e já tem regra própria — a seção 5.5 desta peça, com as duas escolhas e a janela de três rodadas. *Uma condição de uma rodada com o mesmo nome faria a mesa confundir o pior estado do jogo com um efeito que passa sozinho.* |
+| **Exaustão** | já existe, e é da **peça 10**. Ela é relógio de descanso, não efeito de combate |
+| **Invisível** | é **benefício**, e as Condições do manual são compradas para aplicar num alvo. *Aplicar `Invisível` num inimigo é pagar Média para ajudar ele.* |
+
+> **A `Exaustão` é a que mais engana**, porque no d20 ela é condição e aqui não. *Quem for escrever feitiço que canse alguém: `Condição Menor` não alcança a exaustão, e o preço dela mora na peça 10.*
+
 ## 9. Em aberto
 
 - **Se Força precisa de um segundo trabalho.** Ela tem uma perícia só, e a lista de vinte e três não conserta isso.

@@ -23,7 +23,7 @@ As outras duas:
 - **O Coro não custa nada a mais** (peça 6 §3.1). O dono e a invocação agem no mesmo turno, e sai de graça porque o orçamento dividido é **teto de saída, não de número de ações**. Isso já foi decidido na v0.24 e conferido de novo na v0.34.
 - **O Caminho não dá dados de dano** (peça 5 §4, reconfirmada). O que sobra para o Evocador conceder é posicionamento, alvo, duração, recuperação, troca do fixo do acerto por atributo, e exceção estreita e paga na economia de ação.
 
-**E o Fundamento não produz invocação hoje.** Conferido no `.docx` da v7.8: `Invocação` aparece **só como Tema**, no grupo *Criação* do catálogo do apêndice — e Tema não tem efeito mecânico (o manual diz isso na abertura da Descrição). Não existe Forma nem Melhoria que ponha um corpo que age no campo. Então não há duas portas para a mesma coisa, e a peça não corre o risco de contar o mesmo poder duas vezes — **que era a suspeita óbvia, e a checagem desmentiu.**
+**E o Fundamento não produz invocação hoje.** Conferido no `.docx`, reconferido na v7.9: `Invocação` aparece **só como Tema**, no grupo *Criação* do catálogo do apêndice — e Tema não tem efeito mecânico (o manual diz isso na abertura da Descrição). Não existe Forma nem Melhoria que ponha um corpo que age no campo. Então não há duas portas para a mesma coisa, e a peça não corre o risco de contar o mesmo poder duas vezes — **que era a suspeita óbvia, e a checagem desmentiu.**
 
 ## 2. O que a pesquisa externa trouxe, e é aqui que aparece o buraco
 
