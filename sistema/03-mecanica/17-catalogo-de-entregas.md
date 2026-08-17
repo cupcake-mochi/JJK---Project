@@ -38,27 +38,27 @@ Doze Trilhas escritas, e o `Batedor` entra com as três rotas abertas. **As trê
 
 Todas moram em **`DESENHO-trilhas.md`**, na seção mecânica da Trilha.
 
-### Bastião — 4 com nome, 8 sem
+### Bastião — 12 com nome, 0 sem
 
 | Trilha | 2 | 11 | 19 | 27 |
 |---|---|---|---|---|
-| **`Muro`** | `Alicerce` | — | — | — |
-| **`Punho`** | `Engate` | — | `Tropel` | — |
-| **`Brasa`** | — | — | — | `Fornalha` |
+| **`Muro`** | `Alicerce` | `Aterro` | `Escora` | `Cúpula` |
+| **`Punho`** | `Engate` | `Encontrão` | `Tropel` | `Arranco` |
+| **`Brasa`** | `Fagulha` | `Braseiro` | `Labareda` | `Fornalha` |
 
-### Vanguarda — 9 com nome, 11 sem
+### Vanguarda — 20 com nome, 0 sem
 
 | Trilha | 2 | 11 | 19 | 27 |
 |---|---|---|---|---|
-| **`Estocada`** | — | — | — | — |
-| **`Batedor` · `Yumi`** | `carregar` | `Mirar` | — | — |
-| **`Batedor` · `Besta`** | — | `Mirar` | — | — |
-| **`Batedor` · `Arma de Fogo`** | — | `Mirar` | `Quick Draw` | — |
+| **`Estocada`** | `Compasso` | `Traçado` | `Bote` | `Ferrão` |
+| **`Batedor` · `Yumi`** | `carregar` | `Mirar` | `Pique` | `Dobro` |
+| **`Batedor` · `Besta`** | `Manivela` | `Mirar` | `Repuxo` | `Dobro` |
+| **`Batedor` · `Arma de Fogo`** | `Ferrolho` | `Mirar` | `Quick Draw` | `Dobro` |
 | **`Executor`** | `Pegada` | `Aprumo` | `Revide` | `Retomada` |
 
 > **O `Mirar` aparece em seis destas casas, e até a v0.85 ele não tinha regra em lugar nenhum.** *Este índice foi quem achou: treze menções no desenho, todas concedendo, nenhuma definindo.* **Escrito na v0.86** — Ação Bônus, vantagem no próximo tiro, e só se você não se deslocou nem vai se deslocar. *A regra mora no `DESENHO-trilhas.md`, na seção `A ação Mirar`, antes das três rotas.*
 >
-> **O nome continua devendo.** *A triagem devolve `Mirar` como `fraco`: ele está a uma letra de `Mira`, que é Família no manual.* **Isso é dívida de nome, e ela é separada da de regra, que fechou.**
+> **O nome fica, e a colisão é aceita e declarada.** *A triagem devolve `Mirar` como `fraco` — ele está a uma letra de `Mira`, que é Família no manual — e a **decisão do Mizuki na v0.87 é manter**, no molde do escudo `Médio` da peça 14, que carrega duas colisões declaradas.*
 
 ### Guia — 12 com nome, 0 sem
 
@@ -70,11 +70,11 @@ Todas moram em **`DESENHO-trilhas.md`**, na seção mecânica da Trilha.
 
 *O único Caminho com as três Trilhas fechadas em nome e em texto de mesa, desde a v0.84.*
 
-### Emanador — 9 com nome, 2 sem, 1 vaga
+### Emanador — 11 com nome, 0 sem, 1 vaga
 
 | Trilha | 2 | 11 | 19 | 27 |
 |---|---|---|---|---|
-| **`Torrente`** | `acelerar` | — | `Mão Firme` | — |
+| **`Torrente`** | `acelerar` | `Vazão` | `Cheia` | `Transbordo` |
 | **`Explosivo`** | `Pavio` | `Estopim` | `Rompante` | `Ápice` |
 | **`Arremate`** | `Empunhadura` | `Rebote` | `Crosta` | **vaga** |
 
@@ -110,33 +110,34 @@ Uma por categoria de arma, todas com nome, todas em **`DESENHO-manhas.md`**, na 
 
 | família | entradas | com nome | sem nome | vaga |
 |---|---|---|---|---|
-| entregas de Trilha | **56** | 34 | **21** | 1 |
+| entregas de Trilha | **56** | 55 | **0** | 1 |
 | degraus de Caminho | **20** | 20 | 0 | 0 |
 | Manhas | **13** | 13 | 0 | 0 |
-| **total** | **89** | **67** | **21** | **1** |
+| **total** | **89** | **88** | **0** | **1** |
 
-**Os 21 nomes que faltam, por dono:**
+**Nenhum nome falta.** *As 21 vagas que existiam na v0.86 fecharam na v0.87 — o Bastião inteiro, a `Estocada`, a `Torrente` e o `Batedor`.* **A única casa sem nome do sistema é a vaga do `Arremate`, e ela é de propósito.**
 
-`Muro` 3 · `Punho` 2 · `Brasa` 3 · `Estocada` 4 · `Batedor`/`Yumi` 2 · `Batedor`/`Besta` 3 · `Batedor`/`Arma de Fogo` 2 · `Torrente` 2
-
-*Todas já têm texto de regra. **É nome e triagem, sem buraco mecânico** — fora o `Mirar`, que é buraco de regra e está marcado acima.*
+> **O `Dobro` aparece nas três rotas do `Batedor`, e isso é deliberado.** *O nível 27 das três é a mesma frase — o `Mirar` passa a valer para os dois ataques —, e o próprio `Mirar` já é um nome para as três.* **Nome repetido para regra idêntica é uma palavra a menos para a mesa carregar.**
 
 > **Nenhum destes números fica guardado no validador.** *Ele reconta as três tabelas acima a partir delas mesmas e falha se a soma escrita não bater com a contada — o molde da tabela de totais da peça 13, que já tinha envelhecido duas vezes dentro do próprio arquivo antes de alguém contar.*
 
 ## 7. O que o `conferir-catalogo.py` confere
 
-Oito checagens. **Nenhuma guarda valor:** os nomes saem das tabelas desta peça e os textos saem dos `DESENHO-*.md`.
+Nove checagens. **Nenhuma guarda valor:** os nomes saem das tabelas desta peça e os textos saem dos `DESENHO-*.md`.
 
 | # | a checagem | o que ela pega |
 |---|---|---|
 | **1** | os totais publicados na seção 6 batem com o contado das seções 3, 4 e 5 | total copiado que envelheceu na primeira edição |
-| **2** | `89 = 56 + 20 + 13`, e `89 = 67 + 21 + 1` | as duas somas fecham por caminhos diferentes |
+| **2** | o total fecha por família e por estado, e os dois dão o mesmo número | uma entrada sem estado declarado |
 | **3** | todo nome desta peça aparece no `DESENHO` dono dela | entrada renomeada de um lado só |
 | **4** | todo nome em degrau dos `DESENHO` aparece aqui | entrada nova que ninguém indexou |
 | **5** | toda entrega de Trilha com nome tem bloco de regra escrito | preço sem texto de mesa — o furo que o Guia tinha até a v0.84 |
 | **6** | **bloco de regra não contradiz o gate da linha de preço** | **a `Estocada`**: linha de preço com gate e bloco dizendo `sempre` |
 | **7** | a contagem de peças e validadores desta pasta é `17` | peça ou validador novo entrando sem os três documentos subirem |
 | **8** | todo documento vivo que cita o total concorda com o contado | **esta peça virando a segunda fonte do próprio número** |
+| **9** | toda `Classe` que a linha de preço cobra aparece no bloco de regra | **a `Brasa`**: preço de `Classe 3` com o bloco publicando `Classe 2` |
+
+**A nona entrou na v0.87, e ela é a metade que a sexta não cobre.** *A sexta pega gate contra `sempre`; esta pega **valor contra valor**, que é o que deixou o nível 19 da `Brasa` publicar `Classe 2` enquanto a tabela e o argumento diziam `Classe 3`, e `Classe 4` do nível 21.* **A direção é de mão única de propósito:** comparar os dois lados como conjunto dava **sete** vermelhos falsos, porque o bloco cita `Classe` em exemplo de custo o tempo todo — *"num Classe 7 são 7 PE"* — e exemplo não é promessa.
 
 **A oitava nasceu de revisão cética contra esta própria peça.** *Escrevendo o `89` no `README`, no `ESTADO-ATUAL`, no `LEIA-ME` e no README da entrega, ele virou cinco cópias — dentro do documento que a seção 1 abre dizendo que não vai duplicar nada.* **Esta peça é a dona do total; os outros quatro são cópia, e agora existe quem compare.** *O `CHANGELOG` fica de fora de propósito: ele é registro histórico, e a entrada da v0.84 tem de continuar dizendo `81` sem falhar nada.*
 
@@ -146,9 +147,10 @@ Oito checagens. **Nenhuma guarda valor:** os nomes saem das tabelas desta peça 
 
 ## 8. Em aberto
 
-- ~~**O `Mirar` não tem regra.**~~ **Escrito na v0.86**, e ele estoura o degrau em `4,25` fatias contra `0,80` — *decisão do Mizuki, com o estouro declarado no desenho, no molde do `Punho` e da `Brasa`.* **O que sobrou é o nome**, que a triagem devolve como `fraco`.
+- ~~**O `Mirar` não tem regra.**~~ **Escrito na v0.86**, e ele estoura o degrau em `4,25` fatias contra `0,80` — *decisão do Mizuki, com o estouro declarado no desenho, no molde do `Punho` e da `Brasa`.* **E o nome fica**, com a colisão declarada.
+- ~~**Faltam nomes de entrega.**~~ **As 21 vagas fecharam na v0.87.** *A única casa sem nome é a vaga do `Arremate`, e ela é de propósito.*
 - **`Quick Draw` é o único nome em inglês do sistema.** *Nível 19 da rota `Arma de Fogo`.*
-- **Duas entregas têm nome em minúscula** — o `carregar` do `Yumi` e o `acelerar` da `Torrente` —, contra as outras trinta e duas capitalizadas. *Contam como nome; a inconsistência fica registrada.*
+- **Duas entregas têm nome em minúscula** — o `carregar` do `Yumi` e o `acelerar` da `Torrente` —, contra todas as outras capitalizadas. *Contam como nome; a inconsistência fica registrada.*
 - **As três do Evocador ficam de fora enquanto estiverem paradas.** Quando voltarem, o total sai de `89` e a checagem 1 acusa até esta peça subir junto.
 - **A checagem 6 não alcança as Manhas**, porque elas não têm bloco separado. *Se elas ganharem texto de mesa próprio um dia, ela passa a valer lá também.*
 - **Esta peça não preça nada.** Se uma entrega estiver com o preço errado, quem acha é a matriz de dominância do desenho — não o índice.

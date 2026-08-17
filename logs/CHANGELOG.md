@@ -6,6 +6,82 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.87] — 2026-08-17
+
+**As 21 entregas sem nome fecharam, e os dois validadores que deixaram passar os últimos defeitos foram consertados.** *De `89` entradas, `88` têm nome — a única sem é a vaga do `Arremate`, que é deliberada.* Continuam dezessete peças e dezessete validadores.
+
+### Adicionado — os 21 nomes, em quatro escadas
+
+| Trilha | 2 | 11 | 19 | 27 |
+|---|---|---|---|---|
+| **`Estocada`** | `Compasso` | `Traçado` | `Bote` | `Ferrão` |
+| **`Muro`** | `Alicerce` | `Aterro` | `Escora` | `Cúpula` |
+| **`Punho`** | `Engate` | `Encontrão` | `Tropel` | `Arranco` |
+| **`Brasa`** | `Fagulha` | `Braseiro` | `Labareda` | `Fornalha` |
+| **`Torrente`** | `acelerar` | `Vazão` | `Cheia` | `Transbordo` |
+| **`Batedor` · `Yumi`** | `carregar` | `Mirar` | `Pique` | `Dobro` |
+| **`Batedor` · `Besta`** | `Manivela` | `Mirar` | `Repuxo` | `Dobro` |
+| **`Batedor` · `Arma de Fogo`** | `Ferrolho` | `Mirar` | `Quick Draw` | `Dobro` |
+
+**Cada escada é um campo semântico fechado, no molde da `Sutura` e do `Explosivo`:** *esgrima na `Estocada`, alvenaria no `Muro`, massa em movimento no `Punho`, fogo crescendo na `Brasa`, água subindo na `Torrente`, e mecanismo de arma no `Batedor`.*
+
+> ***Decisão do Mizuki: o nível 27 das três rotas do `Batedor` leva UM nome só.*** *As três dizem a mesma frase, e o próprio `Mirar` já é um nome para as três.* **Nome repetido para regra idêntica é uma palavra a menos para a mesa carregar.**
+
+**`Ponta` foi recusado FORA da triagem, tendo saído `LIVRE`:** ele aparece `10` vezes na prosa e é eco de `Ponta de Lança`, que era rótulo de rascunho de Caminho. *Colisão de sentido continua sendo o que a triagem não pega.*
+
+### ⚠ Corrigido — o nível 19 da `Brasa` publicava `Classe 2` e cobrava `Classe 3`
+
+| onde | o que dizia |
+|---|---|
+| a tabela de preço, e o argumento inteiro | `Classe 3` no nível 19, e **`Classe 4` do nível 21** |
+| **o bloco de regra** | `Classe 2` |
+
+**A escada de `Classe 3` e `Classe 4` é decisão registrada do Mizuki, com tabela de dano de `40` e `54` logo acima do bloco.** *O bloco nunca foi atualizado.* **É o segundo exemplar do defeito da `Estocada` em duas versões, o que quer dizer que ele não era caso isolado.** *Nenhum número se moveu: o preço de `0,00` a `2,36` já tinha sido calculado com a escada certa.*
+
+### ⚠ Renomeado — `Mão Firme` colidia com uma Passiva do manual
+
+**No manual, `Mão Firme` é Passiva de custo `1`:** *"você não perde concentração nem carga por dano de `10` ou menos"*. **Na `Torrente` ela era rerrolar dado de dano** — duas coisas sem relação nenhuma com o mesmo nome. *Virou `Cheia`.*
+
+> **Ninguém tinha conferido esse nome porque, até esta versão, nenhuma varredura alcançava os `DESENHO-*.md`.** *Achado pelo `conferir-nomes.py` na primeira rodada depois do conserto abaixo.*
+
+### Adicionado — a checagem 9 do `conferir-catalogo.py`
+
+**Toda `Classe` que a linha de preço cobra tem de aparecer no bloco de regra.** *A checagem 6 pega gate contra `sempre`; esta pega VALOR contra valor, que é o que deixou a `Brasa` passar.*
+
+> **A direção é de mão única, e de propósito.** *Comparar os dois lados como conjunto dava **sete** vermelhos falsos: o bloco cita `Classe` em exemplo de custo o tempo todo — "num Classe 7 são 7 PE" — e exemplo não é promessa.* **Preço → bloco pega o defeito e não pega o exemplo.**
+
+### Alterado — o `conferir-nomes.py` passou a enxergar os desenhos
+
+**Ele lê os nomes de entrega da própria peça 17**, então não existe segunda lista: entrada nova no índice entra na triagem na mesma hora. *Passou de `34` para `61` nomes conhecidos, e os `DESENHO-*.md` da raiz entraram na varredura de arquivos vivos.*
+
+**E `Rescaldo` ganhou casa.** *Ele saía `LIVRE` estando batizado — é a queima de técnica quando o domínio acaba, escrita no `ESTADO-ATUAL` e no rascunho de clash.* **Entrou numa lista curta de `NOMES_SEM_CATALOGO`, que é DÍVIDA declarada e não inventário:** cada entrada ali é um nome que vive solto na prosa e devia ter dono.
+
+> **⚠ E o conserto criou um defeito que precisou de conserto: `Nó` batia com a preposição *"no"*.** *A comparação tirava acento dos dois lados, então `Nó` virava `no` e casava com meio repositório — **49 avisos numa rodada só**, quase todos disso.* **Agora nome com acento se compara com acento, e sobraram `18` avisos legítimos.**
+
+**Quatro perturbações conferidas em cópia isolada**, com a base passando antes e o `diff` conferido em cada uma:
+
+| perturbação | esperado | deu |
+|---|---|---|
+| **a regressão da `Brasa`: `Classe 2` de volta no bloco** | acende | acende |
+| **contra-teste:** o bloco citando `Classe 7` num exemplo a mais | verde | verde |
+| **a regressão do `Mão Firme`: pôr o nome de volta no índice** | acende | acende |
+| **contra-teste:** renomear para um nome livre | verde | verde |
+
+### Decidido — o `Mirar` fica com o nome
+
+***Decisão do Mizuki:*** *"não tem problema com o nome, mantém."* **A triagem devolve ele como `fraco` — está a uma letra de `Mira`, que é Família no manual —, e a colisão fica aceita e declarada**, no molde do escudo `Médio` da peça 14, que carrega duas.
+
+### Em aberto
+
+- **`Quick Draw` continua sendo o único nome em inglês do sistema.**
+- **Duas entregas têm nome em minúscula** — o `carregar` do `Yumi` e o `acelerar` da `Torrente`.
+- **O `conferir-nomes.py` agora leva `21` segundos**, e o `subir.sh` roda ele em todo commit.
+- **A lista `NOMES_SEM_CATALOGO` tem uma entrada, e ela é dívida.** *`Rescaldo` devia ter catálogo, não lista.*
+- **Cobertura não existe como regra.**
+- As de sempre: as quatro aptidões abertas, a troca do marco, os metros das armas de projétil, `Caído` para `Inconsciente`, o `Repertório` na peça 6 §2, o calendário velho no §9 dela, e o nome do sistema.
+
+---
+
 ## [0.86] — 2026-08-17
 
 **A ação `Mirar` existe.** *Ela era entregue em **seis degraus** do `Batedor` desde a v0.74 e não tinha regra escrita em lugar nenhum do repositório — treze menções no desenho, todas concedendo, nenhuma definindo.* **Quem achou foi o `conferir-catalogo.py`, que entrou na versão anterior.** Continuam dezessete peças e dezessete validadores.

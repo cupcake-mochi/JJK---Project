@@ -139,11 +139,47 @@ try:
 except Exception as _e:
     print(f'  (nao consegui ler as listas do conferir-pericias.py: {_e})')
 
+# As ENTREGAS de Trilha, os degraus de Caminho e as Manhas sao lidos da PECA 17,
+# que e a dona da enumeracao desde a v0.85. Nao existe segunda lista aqui — se a
+# peca ganhar entrada, a triagem passa a conhecer ela na mesma hora.
+# Ate a v0.87 nenhum desses nomes chegava aqui, e por isso `Rescaldo` saia LIVRE.
+ENTREGAS = []
+try:
+    _cat = open(os.path.join(AQUI, '17-catalogo-de-entregas.md'), encoding='utf-8').read()
+    _sec = _cat[_cat.find('## 3. As'):_cat.find('## 6. Os totais')]
+    for _l in _sec.split('\n'):
+        if not _l.startswith('|'):
+            continue
+        _cels = [c.strip() for c in _l.strip().strip('|').split('|')]
+        if len(_cels) != 5 or not _cels[0].startswith('**'):
+            continue
+        for _c in _cels[1:]:
+            for _n in re.findall(r'`([^`]+)`', _c):
+                if _n and _n[0].isupper() and _n not in ENTREGAS:
+                    ENTREGAS.append(_n)
+    # as Manhas moram numa linha solta da secao 5
+    for _l in _cat[_cat.find('## 5. As 13 Manhas'):_cat.find('## 6. Os totais')].split('\n'):
+        if _l.count('`') >= 20:
+            for _n in re.findall(r'`([^`]+)`', _l):
+                if _n not in ENTREGAS:
+                    ENTREGAS.append(_n)
+            break
+except FileNotFoundError:
+    pass
+
+# NOMES BATIZADOS QUE NAO TEM CATALOGO NENHUM, e por isso precisam de lista.
+# Esta lista e DIVIDA e nao inventario: cada entrada e um nome que vive solto na
+# prosa e devia ter dono. Achado na v0.87, quando `Rescaldo` saiu LIVRE na
+# triagem estando batizado no RASCUNHO-clash-de-expansoes.md e no ESTADO-ATUAL.
+NOMES_SEM_CATALOGO = ['Rescaldo']
+
 TODOS = ([('Caminho', c) for c in CAMINHOS]
          + [(f'Trilha do {cam}', t) for cam, g in TRILHAS.items() for t in g]
          + [('Origem', o) for o in ORIGENS]
          + [('Legado', l) for l in LEGADOS]
-         + [('termo de sistema', s) for s in SISTEMA])
+         + [('termo de sistema', s) for s in SISTEMA]
+         + [('entrega de catalogo', e) for e in ENTREGAS]
+         + [('nome sem catalogo', n) for n in NOMES_SEM_CATALOGO])
 
 # Usada so para triar nome candidato (--candidatos), nao nas cinco checagens:
 # pericia e oficio ja tem dono no conferir-pericias.py.
@@ -193,7 +229,10 @@ MARCA_HISTORICA = re.compile(
     r'ja nao|deixa de|foi para|na v0\.\d+)')
 
 PADROES_VIVOS = ['00-fundacao/*.md', '01-pesquisa/*.md', '02-esqueleto/*.md',
-                 '03-mecanica/*.md', 'ESTADO-ATUAL.md', 'LEIA-ME.md']
+                 '03-mecanica/*.md', 'ESTADO-ATUAL.md', 'LEIA-ME.md',
+                 # os DESENHO da raiz entraram na v0.87: eles carregam 56 nomes
+                 # batizados e nenhuma varredura chegava neles.
+                 '../DESENHO-*.md', '../LISTA-*.md']
 
 vivos = {}
 for pad in PADROES_VIVOS:
@@ -351,11 +390,17 @@ for cat, nome in TODOS:
     if len(nome.split()) > 1 or nome in ACEITAS or cat == 'termo de sistema':
         continue
     dono = DEFINIDO_EM.get(nome, '')
-    pat = re.compile(r'(?<![0-9A-Za-z])' + re.escape(norma(nome)) + r'(?![0-9A-Za-z])')
+    # NOME COM ACENTO SE COMPARA COM ACENTO. Tirar o acento dos dois lados faz
+    # "No" bater com a preposicao "no" e enche a saida de vermelho falso — foram
+    # 49 avisos numa rodada so, quase todos disso. Achado na v0.87, quando as
+    # entregas de catalogo entraram e trouxeram nomes acentuados de uma silaba.
+    acentuado = sem_acento(nome) != nome
+    alvo = nome.lower() if acentuado else norma(nome)
+    pat = re.compile(r'(?<![0-9A-Za-zÀ-ÿ])' + re.escape(alvo) + r'(?![0-9A-Za-zÀ-ÿ])')
     for arq, txt in sorted(vivos.items()):
         if arq == dono:
             continue
-        texto = sem_acento(txt)   # tira acento, mantem a caixa
+        texto = txt if acentuado else sem_acento(txt)   # sem acento, mantem a caixa
         n = len([m for m in pat.finditer(texto)
                  if m.start() > 0 and texto[m.start() - 1] not in '.!?\n>|*'])
         if n >= LIMIAR:

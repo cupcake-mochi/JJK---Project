@@ -17,7 +17,7 @@ saem dos DESENHO-*.md, e as contagens saem da propria pasta. O unico bloco com
 valor na mao e o LIMITES DE DESIGN abaixo, declarado a parte da regra aplicada,
 que e a licao no 8: uma checagem nao pode se medir contra a propria constante.
 
-Oito checagens:
+Nove checagens:
   1. TOTAIS    — a tabela de totais bate com o contado das tabelas de cima.
   2. SOMAS     — as duas somas do total fecham por caminhos diferentes.
   3. INDICE    — todo nome do indice existe no DESENHO dono dele.
@@ -26,6 +26,7 @@ Oito checagens:
   6. GATE      — bloco de regra nao contradiz o gate da linha de preco.
   7. CONTAGEM  — a pasta tem 17 pecas e 17 validadores.
   8. COPIAS    — todo documento que cita o total concorda com o contado.
+  9. VALOR     — toda Classe que a linha de preco cobra aparece no bloco de regra.
 
 Roda de sistema/03-mecanica/. NAO le o .docx e NAO precisa de python-docx —
 entao nao existe caminho por onde ele saia verde tendo pulado checagem.
@@ -348,6 +349,50 @@ for rel, achado in divergiram:
     erro('8', f'{rel} diz "indice das {achado} entradas" e o contado e {total}')
 if not divergiram:
     print(f'  [x] as {conferidas} copias do total dizem {total}, que e o que a pasta tem.')
+
+# ================================================================ 9. VALOR
+print('\n' + '=' * 88)
+print('9. VALOR — toda Classe que a linha de preco cobra aparece no bloco de regra')
+print('=' * 88)
+print('  A checagem 6 pega gate contra "sempre". Esta pega VALOR contra valor, que')
+print('  foi o que deixou o nivel 19 da Brasa publicar Classe 2 por tres versoes')
+print('  enquanto a tabela e o argumento diziam Classe 3, e Classe 4 do nivel 21.')
+
+def classes_de(texto):
+    return set(int(x) for x in re.findall(r'Classe\s+(\d)', texto))
+
+def bloco_inteiro(a, b, inicio):
+    """Do '> **Nivel N' ate o proximo, sem as notas em italico, que sao historia."""
+    corpo = []
+    for j in range(inicio, b):
+        if j > inicio and re.match(r'^>\s*\*\*N[íi]vel\s', TRI[j]): break
+        if not TRI[j].startswith('>'): break
+        if re.match(r'^>\s*\*[^*]', TRI[j]): continue
+        corpo.append(TRI[j])
+    return '\n'.join(corpo)
+
+inteiros = {}
+for rotulo, (a, b) in SECAO.items():
+    vistos = set()
+    for i in range(a, b):
+        m = re.match(r'^>\s*\*\*N[íi]vel\s+(2|11|19|27)\b', TRI[i])
+        if m and m.group(1) not in vistos:
+            vistos.add(m.group(1))
+            inteiros[(rotulo, m.group(1))] = bloco_inteiro(a, b, i)
+
+pares, faltando = 0, []
+for chave, linha_preco in precos.items():
+    corpo = inteiros.get(chave)
+    if corpo is None: continue
+    pares += 1
+    falta = classes_de(linha_preco) - classes_de(corpo)
+    if falta: faltando.append((chave, sorted(falta)))
+print(f'  {pares} pares conferidos, na direcao preco -> bloco')
+print('  (o bloco PODE citar Classe a mais: exemplo de custo nao e promessa)')
+for (rotulo, nv), falta in faltando:
+    erro('9', f'{rotulo} nivel {nv}: o preco cobra Classe {falta} e o bloco nao entrega')
+if not faltando:
+    print('  [x] nenhum bloco entrega Classe menor do que a que foi paga.')
 
 # ================================================================ veredito
 print('\n' + '=' * 88)

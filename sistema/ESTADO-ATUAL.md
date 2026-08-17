@@ -2,7 +2,7 @@
 
 Atualizado em 17/08/2026, na v0.85 (última peça fechada: **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com sete checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.86.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezessete peças escritas** e **dezessete validadores**.
+**Versão v0.87.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezessete peças escritas** e **dezessete validadores**.
 
 **A v0.86 escreveu a ação `Mirar`, que era entregue em SEIS degraus do `Batedor` e não tinha regra em lugar nenhum.** *Ela atravessou da v0.74 à v0.85 assim — treze menções no desenho, todas concedendo, nenhuma definindo —, e quem achou foi o `conferir-catalogo.py` da versão anterior, indexando os degraus que a citam.* ***Decisão do Mizuki:*** **Ação Bônus, vantagem no próximo tiro com arma de projétil, e só se você não se deslocou nesta rodada nem vai se deslocar.** *É a forma do `Steady Aim` do Ladino do 5e; as duas outras formas comuns já estavam gastas aqui — consertar a penalidade de faixa de alcance é o nível 2 das três rotas, e mexer em cobertura não dá, porque **cobertura não existe como regra** neste sistema.*
 
@@ -210,7 +210,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/conferir-ficha.py` | **o material contra a regra**: as 23 perícias, os 11 ofícios, os 5 Caminhos, as 15 Trilhas e as constantes do nível 2 que a ficha imprime, contra as peças donas |
 | `03-mecanica/conferir-invocacoes.py` | as **trinta** checagens da peça 15, sem um número guardado dentro dele — e a busca exaustiva das 21.502 montagens que gastam o orçamento cheio no nível 30 |
 | `03-mecanica/17-catalogo-de-entregas.md` | **o índice das 89 entradas** — 56 entregas de Trilha, 20 degraus de Caminho e as 13 Manhas —, com a regra de contagem e o ponteiro de onde o texto de cada uma mora |
-| `03-mecanica/conferir-catalogo.py` | as **oito** checagens da peça 17, e **o primeiro validador que sai da pasta**: ele lê os três `DESENHO-*.md` da raiz |
+| `03-mecanica/conferir-catalogo.py` | as **nove** checagens da peça 17, e **o primeiro validador que sai da pasta**: ele lê os três `DESENHO-*.md` da raiz |
 | `05-material/gerador-ficha/` | o gerador da ficha (Node: `node make.js`), e os dois `.docx` que ele produz |
 | `conferir-repositorio.py` | a árvore, as referências mortas, os números que moram em mais de um documento, e — **desde a v0.54** — os **ponteiros de seção**: todo `peça N §M` citado tem de apontar para seção que existe |
 | `99-arquivo/` | material morto, com LEIA-ME próprio. Não leia de lá para escrever peça nova |

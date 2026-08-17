@@ -83,12 +83,14 @@ E o **Yuji** com o Punho Divergente é a mesma ideia num golpe só: o soco acert
 
 > **`5,02` de `5,00` fatias.** E o nível 2 dela, que é a identidade inteira, custa **zero**.
 
-| nv | a entrega | fatias | antes |
-|---|---|---|---|
-| **2** | conjurar na padrão e bater na bônus, e a troca de atributo no grupo escolhido | **0,00** | 0,00 |
-| **11** | o golpe da bônus pega um segundo alvo **adjacente**, quando o feitiço acerta | 1,23 | 1,23 |
-| **19** | ataque extra na bônus quando o feitiço da padrão é **condicional** | **2,46** | 2,46 |
-| **27** | o **primeiro** golpe da bônus carrega um **Classe 0**, se o feitiço da padrão acertou | **1,33** | *0,89* |
+| nv | nome | a entrega | fatias | antes |
+|---|---|---|---|---|
+| **2** | **`Compasso`** | conjurar na padrão e bater na bônus, e a troca de atributo no grupo escolhido | **0,00** | 0,00 |
+| **11** | **`Traçado`** | o golpe da bônus pega um segundo alvo **adjacente**, quando o feitiço acerta | 1,23 | 1,23 |
+| **19** | **`Bote`** | ataque extra na bônus quando o feitiço da padrão é **condicional** | **2,46** | 2,46 |
+| **27** | **`Ferrão`** | o **primeiro** golpe da bônus carrega um **Classe 0**, se o feitiço da padrão acertou | **1,33** | *0,89* |
+
+> **Os quatro nomes entraram na v0.87, e a escada é de esgrima porque o nome da Trilha já é.** *`Compasso` é a medida entre os dois lutadores e `Bote` é o golpe que fecha a distância — os dois termos reais.* **`Ponta` foi recusado FORA da triagem, tendo saído `LIVRE`:** ele aparece `10` vezes na prosa e é eco de `Ponta de Lança`, que era rótulo de rascunho de Caminho. *Colisão de sentido é o que a triagem não pega.*
 
 ### O nível 27 foi refeito, e o motivo é o Classe 0 fantasma
 
@@ -122,14 +124,14 @@ E o **Yuji** com o Punho Divergente é a mesma ideia num golpe só: o soco acert
 >
 > **Mesmo tamanho, outro sentido**, e continua passando o filtro que reprova em `3,0×`. *A causa não mudou: as duas são `100%` ação/alvo, e o que falta é coluna e não número.*
 
-> **Nível 2.** Você usa a ação **Conjurar** na ação padrão e dá um **golpe com arma do grupo escolhido** como ação bônus.
+> **Nível 2 — `Compasso`.** Você usa a ação **Conjurar** na ação padrão e dá um **golpe com arma do grupo escolhido** como ação bônus.
 > **E naquele grupo de armas, o acerto e o dano usam Essência ou Inteligência** no lugar de Força ou Destreza. **O requisito de Força para empunhar continua valendo.**
 >
-> **Nível 11.** Quando o feitiço que você conjurou **acerta**, o golpe da ação bônus **pega um segundo alvo adjacente ao primeiro**.
+> **Nível 11 — `Traçado`.** Quando o feitiço que você conjurou **acerta**, o golpe da ação bônus **pega um segundo alvo adjacente ao primeiro**.
 >
-> **Nível 19.** Quando o feitiço que você conjura na ação padrão é **de condição e não de dano**, você pode usar o seu **ataque extra** na ação bônus.
+> **Nível 19 — `Bote`.** Quando o feitiço que você conjura na ação padrão é **de condição e não de dano**, você pode usar o seu **ataque extra** na ação bônus.
 >
-> **Nível 27.** Se o feitiço que você conjurou na Ação Padrão **acertou**, o **primeiro** golpe da sua ação bônus carrega um **feitiço de Classe 0** junto. *O Classe 0 acompanha o golpe — se o golpe erra, ele não sai.*
+> **Nível 27 — `Ferrão`.** Se o feitiço que você conjurou na Ação Padrão **acertou**, o **primeiro** golpe da sua ação bônus carrega um **feitiço de Classe 0** junto. *O Classe 0 acompanha o golpe — se o golpe erra, ele não sai.*
 >
 > *Corrigido na v0.84. Este bloco ficou dizendo **"carrega sempre"** depois de a v0.81 repreçar a entrega, e ela só consertou a tabela. **Os dois gates valem `1,33` fatia; "sempre" vale `5,31`** — mais que a Trilha inteira, que leva `5,00`. **E a mesa lê o bloco, não a tabela de preço.***
 
@@ -232,51 +234,51 @@ E o **Yuji** com o Punho Divergente é a mesma ideia num golpe só: o soco acert
 
 ## `Yumi` — 4,82 de 5,00
 
-| nv | a entrega | fatias |
-|---|---|---|
-| **2** | **sem desvantagem na faixa longa** · `+3 m` · o `carregar` · escalada | **1,53** |
-| **11** | o **`Mirar`**, e `+2` no acerto de longo alcance | **2,04** |
-| **19** | o `carregar` sobe para margem `−2` | 0,05 |
-| **27** | o `Mirar` vale nos dois ataques, e o `carregar` vai a `−3` | **1,19** |
+| nv | nome | a entrega | fatias |
+|---|---|---|---|
+| **2** | **`carregar`** | sem desvantagem na faixa longa · `+3 m` · o `carregar` · escalada | **1,53** |
+| **11** | **`Mirar`** | a ação `Mirar`, e `+2` no acerto de longo alcance | **2,04** |
+| **19** | **`Pique`** | o `carregar` sobe para margem `−2` | 0,05 |
+| **27** | **`Dobro`** | o `Mirar` vale nos dois ataques, e o `carregar` vai a `−3` | **1,19** |
 
 > **Nível 2.** Você **não sofre desvantagem na faixa longa** de arma de projétil. O seu deslocamento sobe **`+3 m`** e conta como **deslocamento de escalada** — árvore, parede, o que a ficção permitir.
 > **`carregar`:** ação bônus. O seu próximo ataque com arco tem a **margem crítica reduzida em 1** (crítico em `19` ou `20`). *E você pode abdicar do seu ataque extra para somar o dado da arma ao ataque carregado, **sem o atributo** — perde dano e ganha chance de crítico.*
 >
 > **Nível 11.** Você ganha a ação **`Mirar`**. **Uma mesma Ação Bônus sua faz o `Mirar` e o `carregar` juntos** — os dois custam aquele slot, e só o `Yumi` pode empilhar os dois. E os seus ataques com arma de longo alcance somam **`+2` no acerto**.
 >
-> **Nível 19.** O `carregar` passa a reduzir a margem em **2** — crítico em `18` a `20`.
+> **Nível 19 — `Pique`.** O `carregar` passa a reduzir a margem em **2** — crítico em `18` a `20`.
 >
-> **Nível 27.** O `Mirar` passa a valer para o **ataque básico e o extra**, e o `carregar` reduz a margem em **3** — crítico em `17` a `20`.
+> **Nível 27 — `Dobro`.** O `Mirar` passa a valer para o **ataque básico e o extra**, e o `carregar` reduz a margem em **3** — crítico em `17` a `20`.
 
 *O `abdicar do ataque extra` entra a **zero fatia**: ele perde `5,45` de dano bruto, e o crítico melhor não cobre a diferença. **É opção, não benefício** — e opção que não adiciona valor não ocupa orçamento.*
 
 ## `Besta` — 4,52 de 5,00
 
-| nv | a entrega | fatias |
-|---|---|---|
-| **2** | ignorar `Munição` — a recarga para de comer a ação bônus | 0,89 |
-| **11** | o **`Mirar`**, e `+2` no acerto | **1,60** |
-| **19** | o empurrão de `6 m`, e nada de desvantagem colado | **1,15** |
-| **27** | o `Mirar` vale nos dois ataques | 0,89 |
+| nv | nome | a entrega | fatias |
+|---|---|---|---|
+| **2** | **`Manivela`** | ignorar `Munição` — a recarga para de comer a ação bônus | 0,89 |
+| **11** | **`Mirar`** | a ação `Mirar`, e `+2` no acerto | **1,60** |
+| **19** | **`Repuxo`** | o empurrão de `6 m`, e nada de desvantagem colado | **1,15** |
+| **27** | **`Dobro`** | o `Mirar` vale nos dois ataques | 0,89 |
 
-> **Nível 2.** As suas bestas **deixam de carregar `Munição`** — você nunca recarrega.
+> **Nível 2 — `Manivela`.** As suas bestas **deixam de carregar `Munição`** — você nunca recarrega.
 > **Nível 11.** O **`Mirar`**, e `+2` no acerto com arma de longo alcance.
-> **Nível 19.** Ao disparar, **uma vez por rodada**, o alvo faz um Teste de Resistência de Vigor; numa falha, é empurrado **`1,5 m × maestria`** na direção oposta. E você **deixa de sofrer desvantagem por estar colado**.
-> **Nível 27.** O `Mirar` passa a valer para o **ataque básico e o extra**.
+> **Nível 19 — `Repuxo`.** Ao disparar, **uma vez por rodada**, o alvo faz um Teste de Resistência de Vigor; numa falha, é empurrado **`1,5 m × maestria`** na direção oposta. E você **deixa de sofrer desvantagem por estar colado**.
+> **Nível 27 — `Dobro`.** O `Mirar` passa a valer para o **ataque básico e o extra**.
 
 ## `Arma de Fogo` — 4,74 de 5,00
 
-| nv | a entrega | fatias |
-|---|---|---|
-| **2** | recarrega só no `1` natural, e nada de desvantagem colado | 0,54 a 0,59 |
-| **11** | o **`Mirar`**, e `+2` no acerto | **1,95** |
-| **19** | **`Quick Draw`** | 1,17 a 1,89 |
-| **27** | o `Mirar` vale nos dois ataques | 1,08 |
+| nv | nome | a entrega | fatias |
+|---|---|---|---|
+| **2** | **`Ferrolho`** | recarrega só no `1` natural, e nada de desvantagem colado | 0,54 a 0,59 |
+| **11** | **`Mirar`** | a ação `Mirar`, e `+2` no acerto | **1,95** |
+| **19** | **`Quick Draw`** | o disparo de abertura, um alvo por bala | 1,17 a 1,89 |
+| **27** | **`Dobro`** | o `Mirar` vale nos dois ataques | 1,08 |
 
-> **Nível 2.** A sua arma de fogo só força recarga no **`1` natural**, e não no `1` ou `2`. E você **deixa de sofrer desvantagem por estar colado**.
+> **Nível 2 — `Ferrolho`.** A sua arma de fogo só força recarga no **`1` natural**, e não no `1` ou `2`. E você **deixa de sofrer desvantagem por estar colado**.
 > **Nível 11.** O **`Mirar`**, e `+2` no acerto com arma de longo alcance.
 > **Nível 19 — `Quick Draw`.** No começo de um combate, você pode gastar a sua **Reação** para atacar **um alvo por bala que a arma carrega**, com uma rolagem separada em cada um. **Os disparos contam para a munição** — você vai recarregar no primeiro turno.
-> **Nível 27.** O `Mirar` passa a valer para o **ataque básico e o extra**.
+> **Nível 27 — `Dobro`.** O `Mirar` passa a valer para o **ataque básico e o extra**.
 
 > **O `Quick Draw` dispara `X`, que é o número de balas da arma — e isso é aceito com o motivo.** *Decisão do Mizuki: **"não tem problema metralhadora ser 4 e as outras serem 3, tem seus altos e baixos usarem cada arma."*** A Metralhadora Pesada leva `2,34` fatias contra `1,17` do Rifle de Precisão, e o custo da recarga forçada devolve `0,45` dela — **o espalhamento fica em `1,6×`, dentro do filtro de `3,0×`.** *A arma de X alto paga em ritmo o que ganha na abertura.*
 
@@ -630,20 +632,20 @@ Aquele `11,50` é a linha de comparação do §2 da **peça 5**, e ela usa `1d10
 
 ## `Muro` — 4,87 de 5,00
 
-| nv | a entrega | forma | fatias |
-|---|---|---|---|
-| **2** | **`Alicerce`** | ação bônus | **1,33** |
-| **11** | o chão em volta, e o que empurra você | permanente | 0,71 |
-| **19** | o `Absorver` rende mais, e alcança os outros | botão | **1,33** |
-| **27** | o `Alicerce` sobe para quatro, e o espaço divide | permanente | **1,50** |
+| nv | nome | a entrega | forma | fatias |
+|---|---|---|---|---|
+| **2** | **`Alicerce`** | você se firma, e dois tipos de dano caem pela metade | ação bônus | **1,33** |
+| **11** | **`Aterro`** | o chão em volta, e o que empurra você | permanente | 0,71 |
+| **19** | **`Escora`** | o `Absorver` rende mais, e alcança os outros | botão | **1,33** |
+| **27** | **`Cúpula`** | o `Alicerce` sobe para quatro, e o espaço divide | permanente | **1,50** |
 
 > **Nível 2 — `Alicerce`.** *Ação bônus.* Você se firma no lugar. **Enquanto o `Alicerce` estiver de pé, o dano de dois tipos à sua escolha cai pela metade contra você, e o seu deslocamento é metade do normal.** Sair dele não custa nada. **Os tipos se escolhem no fim de cada descanso longo.**
 >
-> **Nível 11.** O chão a **4,5 m** em volta de você é terreno difícil para inimigos — cada metro custa dois. **E todo deslocamento forçado contra você, seja empurrão, puxão ou arremesso, tem metade da distância.**
+> **Nível 11 — `Aterro`.** O chão a **4,5 m** em volta de você é terreno difícil para inimigos — cada metro custa dois. **E todo deslocamento forçado contra você, seja empurrão, puxão ou arremesso, tem metade da distância.**
 >
-> **Nível 19.** O `Absorver` do seu Caminho ganha **mais usos, iguais a metade da sua Constituição**, e **qualquer um deles pode ser gasto num aliado que você enxergue a até 9 m.** Continua custando a sua Reação.
+> **Nível 19 — `Escora`.** O `Absorver` do seu Caminho ganha **mais usos, iguais a metade da sua Constituição**, e **qualquer um deles pode ser gasto num aliado que você enxergue a até 9 m.** Continua custando a sua Reação.
 >
-> **Nível 27.** O `Alicerce` passa a segurar **quatro tipos** ao mesmo tempo, você troca os tipos a cada **descanso curto**, e **todo aliado dentro do seu espaço divide um deles com você.** *De graça: o espaço continua de pé enquanto você estiver caído, agarrado ou apagado.*
+> **Nível 27 — `Cúpula`.** O `Alicerce` passa a segurar **quatro tipos** ao mesmo tempo, você troca os tipos a cada **descanso curto**, e **todo aliado dentro do seu espaço divide um deles com você.** *De graça: o espaço continua de pé enquanto você estiver caído, agarrado ou apagado.*
 
 ### O `Absorver` mudou de contador, e a mudança é no CAMINHO
 
@@ -665,12 +667,12 @@ Aquele `11,50` é a linha de comparação do §2 da **peça 5**, e ela usa `1d10
 
 ## `Punho` — 6,09 de 5,00, e o estouro é decisão do Mizuki
 
-| nv | a entrega | forma | fatias |
-|---|---|---|---|
-| **2** | **`Engate`** | condicional | **1,70** |
-| **11** | empurra, e derruba | permanente | **2,06** |
-| **19** | **`Tropel`** | permanente | 0,35 |
-| **27** | o segundo soco, e a vantagem | permanente | **1,98** |
+| nv | nome | a entrega | forma | fatias |
+|---|---|---|---|---|
+| **2** | **`Engate`** | acertou na padrão, ganha um soco na bônus | condicional | **1,70** |
+| **11** | **`Encontrão`** | empurra, e derruba | permanente | **2,06** |
+| **19** | **`Tropel`** | o empurrão passa de um alvo para o seguinte | permanente | 0,35 |
+| **27** | **`Arranco`** | o segundo soco, e a vantagem | permanente | **1,98** |
 
 > **Ele estoura em `22%`, e fica.** *Decisão do Mizuki, com o motivo dele: "mesmo com esse estouro, não vai quebrar o balanceamento da mesa — a maioria das habilidades são situacionais e de RP."*
 >
@@ -691,22 +693,22 @@ Aquele `11,50` é a linha de comparação do §2 da **peça 5**, e ela usa `1d10
 
 > **Nível 2 — `Engate`.** Quando você **acerta** um ataque na sua ação de atacar, você pode dar um golpe desarmado como **ação bônus**.
 >
-> **Nível 11.** Quando você acerta desarmado, **o alvo é empurrado até 3 m na direção que você escolher.** E **uma vez por rodada**, um alvo que você acertou faz um Teste de Resistência de Vigor; se falhar, fica **`Derrubado`**.
+> **Nível 11 — `Encontrão`.** Quando você acerta desarmado, **o alvo é empurrado até 3 m na direção que você escolher.** E **uma vez por rodada**, um alvo que você acertou faz um Teste de Resistência de Vigor; se falhar, fica **`Derrubado`**.
 >
 > **Nível 19 — `Tropel`.** Quando o empurrão do nível 11 joga alguém contra outra criatura, **ela também é empurrada.** Cada uma faz um Teste de Resistência de Vigor: **quem passa segura a corrente, e ela para ali.** A distância total nunca passa do deslocamento do primeiro empurrado. *Vale só no empurrão do nível 11, e não em movimento qualquer.*
 >
-> **Nível 27.** Ao usar o `Engate`, você dá um **segundo soco** num alvo adjacente a você ou ao primeiro, **com rolagem própria**. **E se os dois ataques da sua ação de atacar acertaram, o `Engate` é rolado com vantagem.**
+> **Nível 27 — `Arranco`.** Ao usar o `Engate`, você dá um **segundo soco** num alvo adjacente a você ou ao primeiro, **com rolagem própria**. **E se os dois ataques da sua ação de atacar acertaram, o `Engate` é rolado com vantagem.**
 
 *A vantagem custa `0,18` fatia, e ela é pequena porque só dispara em **um quarto** das rodadas — você precisa acertar os dois.*
 
 ## `Brasa` — **REPREÇADA na v0.81: `7,06` a `9,42` de `5,00`, e o estouro fica**
 
-| nv | a entrega | forma | fatias | antes |
-|---|---|---|---|---|
-| **2** | o Classe 0 na ação bônus | permanente | **4,08** | *1,22* |
-| **11** | energia temporária | permanente | 1,01 | 1,01 |
-| **19** | o feitiço do bônus sobe para **`Classe 3`, e `Classe 4` do nível 21** | permanente | **0,00 a 2,36** | *1,03* |
-| **27** | **`Fornalha`** | botão | 1,97 | *1,77* |
+| nv | nome | a entrega | forma | fatias | antes |
+|---|---|---|---|---|---|
+| **2** | **`Fagulha`** | o Classe 0 na ação bônus | permanente | **4,08** | *1,22* |
+| **11** | **`Braseiro`** | energia temporária | permanente | 1,01 | 1,01 |
+| **19** | **`Labareda`** | o feitiço do bônus sobe para `Classe 3`, e `Classe 4` do nível 21 | permanente | **0,00 a 2,36** | *1,03* |
+| **27** | **`Fornalha`** | o forno aceso: três socos, três alvos, três Classe 0 | botão | 1,97 | *1,77* |
 
 > ***Decisão do Mizuki: fica estourado.*** *"Parece que é forte, mas não é, garanto."* **Precedente dele mesmo: o `Punho` fechou `22%` acima e ficou.** *Este é maior — e a matriz do Bastião continua limpa, que é o mesmo motivo que segurou o `Punho`.*
 
@@ -757,11 +759,13 @@ Aquele `11,50` é a linha de comparação do §2 da **peça 5**, e ela usa `1d10
 
 *Só o nível 2 se moveu, e por metade da passada: a vantagem sobre o Classe 0 sobe de `0,72` para `1,69` — `25` pp em vez de `16`, e gate de `75%` em vez de `50%`. **O nível 19 não se move**, porque ele abre mão do ataque extra e lá o `50%` é o número certo.*
 
-> **Nível 2.** Se você usou a ação de atacar neste turno, você pode lançar um feitiço de **Classe 0** como **ação bônus**. **E se algum dos seus socos acertou, esse feitiço é rolado com vantagem** — quando ele for um ataque.
+> **Nível 2 — `Fagulha`.** Se você usou a ação de atacar neste turno, você pode lançar um feitiço de **Classe 0** como **ação bônus**. **E se algum dos seus socos acertou, esse feitiço é rolado com vantagem** — quando ele for um ataque.
 >
-> **Nível 11.** Quando o seu Classe 0 acerta, você ganha **`2` de energia temporária.** Ela nunca passa de `2` acumulados e some no fim da cena. *Energia temporária gasta como PE, e gasta primeiro.*
+> **Nível 11 — `Braseiro`.** Quando o seu Classe 0 acerta, você ganha **`2` de energia temporária.** Ela nunca passa de `2` acumulados e some no fim da cena. *Energia temporária gasta como PE, e gasta primeiro.*
 >
-> **Nível 19.** O feitiço que você lança na ação bônus **pode ser de Classe 2 em vez de Classe 0**.
+> **Nível 19 — `Labareda`.** O feitiço que você lança na ação bônus **pode ser de Classe 3 em vez de Classe 0** — e **de Classe 4 a partir do nível 21**, quando a `Classe 6` libera.
+>
+> *Corrigido na v0.87. Este bloco dizia **Classe 2** enquanto a tabela de preço e o argumento logo acima diziam **`Classe 3`, e `Classe 4` do 21** — a escada que o Mizuki fechou. **A mesa lê o bloco.** Nenhum número se moveu: o preço de `0,00` a `2,36` já tinha sido calculado com a escada certa.*
 >
 > **Isso não muda a Classe de nenhum feitiço seu.** Nenhum feitiço da sua lista sobe ou desce de Classe, e a sua Classe máxima continua a mesma. **O que muda é qual feitiço cabe na ação bônus.**
 >
@@ -769,7 +773,7 @@ Aquele `11,50` é a linha de comparação do §2 da **peça 5**, e ela usa `1d10
 > - você **abre mão do ataque extra** naquela ação de atacar;
 > - **pelo menos um dos seus socos daquela ação tem de ter acertado.**
 >
-> *Se nenhum acertou, você não lança nada na ação bônus naquele turno — nem o Classe 2, nem o Classe 0 do nível 2.*
+> *Se nenhum acertou, você não lança nada na ação bônus naquele turno — nem o feitiço maior, nem o Classe 0 do nível 2.*
 >
 > **Nível 27 — `Fornalha`.** *Ação bônus para entrar. Dura até o fim da cena.* **Cada ataque seu carrega um feitiço de Classe 0 junto, e cada ataque tem de ser num alvo diferente.** E a sua **ação bônus deixa de lançar feitiço e vira um soco a mais**, num terceiro alvo. **São três socos, três alvos, três Classe 0.**
 
@@ -1200,21 +1204,23 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 
 ## `Torrente` — `4,65` de `5,00` fatias — **REPREÇADA na v0.81**
 
-| nv | a entrega | forma | fatias | antes |
-|---|---|---|---|---|
-| **2** | **`acelerar`**, `2×` por cena. Teto do outro feitiço: `Classe 0` | botão | *(a base)* | — |
-| **11** | o teto vira **metade da sua maior Classe** | permanente | **1,38** | *3,78* |
-| **19** | **`Mão Firme`** — rerrolar `1`, `2` e `3` nos dados de dano quando o feitiço for o único da rodada | permanente | **1,78** | *0,10* |
-| **27** | a metade **arredonda para CIMA** | permanente | **1,49** | 1,49 |
+| nv | nome | a entrega | forma | fatias | antes |
+|---|---|---|---|---|---|
+| **2** | **`acelerar`** | `2×` por cena. Teto do outro feitiço: `Classe 0` | botão | *(a base)* | — |
+| **11** | **`Vazão`** | o teto vira metade da sua maior Classe | permanente | **1,38** | *3,78* |
+| **19** | **`Cheia`** | rerrolar `1`, `2` e `3` nos dados de dano quando o feitiço for o único da rodada | permanente | **1,78** | *0,10* |
+| **27** | **`Transbordo`** | a metade arredonda para CIMA | permanente | **1,49** | 1,49 |
+
+> **⚠ O nível 19 se chamava `Mão Firme` e foi RENOMEADO na v0.87, por colisão viva.** *No manual, `Mão Firme` é uma **Passiva de custo `1`** — "você não perde concentração nem carga por dano de `10` ou menos" —, que não tem relação nenhuma com rerrolar dado de dano.* **Ninguém tinha conferido esse nome porque, até a v0.87, nenhuma varredura alcançava os `DESENHO-*.md`.** *Achado pelo `conferir-nomes.py` na primeira rodada depois de ele passar a ler o índice da peça 17.*
 
 > **Nível 2 — `acelerar`.** *`2×` por cena.* Você conjura um feitiço da sua **ação padrão como ação bônus**, pagando **`Classe e meia` de PE a mais**, arredondando para cima. *Num Classe 7 são `11` de PE — o preço que a coluna `Pesada` da tabela 81 dá.*
 > Naquele turno, o outro feitiço que você lançar **não passa de `Classe 0`** — que é o que a regra de ouro nº 6 já diz.
 >
-> **Nível 11.** Aquele teto deixa de ser `Classe 0` e passa a ser **metade da sua maior Classe**, arredondando para baixo.
+> **Nível 11 — `Vazão`.** Aquele teto deixa de ser `Classe 0` e passa a ser **metade da sua maior Classe**, arredondando para baixo.
 >
-> **Nível 19 — `Mão Firme`.** Quando o feitiço que você conjura é **o único feitiço daquele turno**, **rerrole todo dado de dano dele que cair em `1`, `2` ou `3`.** Você fica com o segundo resultado.
+> **Nível 19 — `Cheia`.** Quando o feitiço que você conjura é **o único feitiço daquele turno**, **rerrole todo dado de dano dele que cair em `1`, `2` ou `3`.** Você fica com o segundo resultado.
 >
-> **Nível 27.** Aquela metade passa a **arredondar para cima.** *Com Classe 7 o teto vai de `Classe 3` para `Classe 4`.*
+> **Nível 27 — `Transbordo`.** Aquela metade passa a **arredondar para cima.** *Com Classe 7 o teto vai de `Classe 3` para `Classe 4`.*
 
 ### Por que ela caiu de `5,37` para `2,97` antes de subir de novo
 
@@ -1233,7 +1239,9 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 
 *Ele era: "se o outro feitiço daquele turno for `Classe 0`, o `acelerar` não gasta carga".* **Ele premiava você por lançar um `Classe 0` — e um `Classe 0` agora causa `27`.** *O degrau existia porque o `Classe 0` parecia lixo; com ele valendo o mesmo que um `Classe 2` num alvo, o incentivo virou do avesso.*
 
-### O `Mão Firme` — a ideia é do Mizuki, e o alvo dela mudou uma vez
+### A `Cheia` — a ideia é do Mizuki, e o alvo dela mudou uma vez
+
+*Ela se chamou `Mão Firme` da v0.79 à v0.86, e o nome caiu por colidir com uma Passiva do manual.*
 
 **A proposta dele era vantagem na rolagem de ataque na rodada solitária.** *Ela foi medida e bateu numa parede conhecida:* `94 × 0,5 × 46%` dá **`21,59`**, que são `4,25` fatias.
 
@@ -1250,11 +1258,11 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 
 > ## ⚠ DUAS RERROLAGENS NO SISTEMA, E A DIFERENÇA É DECLARADA
 >
-> **A `Arma Grande` da `Pegada` rerrola `1` e `2`. O `Mão Firme` rerrola `1`, `2` e `3`.** *Dois botões parecidos com números diferentes é a lição nº 9 esperando acontecer, e ela já mordeu duas vezes dentro deste arquivo.*
+> **A `Arma Grande` da `Pegada` rerrola `1` e `2`. A `Cheia` rerrola `1`, `2` e `3`.** *Dois botões parecidos com números diferentes é a lição nº 9 esperando acontecer, e ela já mordeu duas vezes dentro deste arquivo.*
 >
 > **A diferença não tem justificativa de design — ela existe para o orçamento fechar.** *Isso fica escrito porque escrever número para fechar contagem é exatamente o defeito que a régua de Legados nasceu para achar, e fingir um motivo seria pior que declarar que não tem.*
 >
-> **O que separa os dois de verdade é a janela, não a magnitude:** a `Arma Grande` dispara em todo golpe (`100%`) num dado de arma; o `Mão Firme` dispara em `46%` das rodadas sobre `21` dados. **Se um dia os dois convergirem para o mesmo número, é este bloco que decide qual cede.**
+> **O que separa os dois de verdade é a janela, não a magnitude:** a `Arma Grande` dispara em todo golpe (`100%`) num dado de arma; a `Cheia` dispara em `46%` das rodadas sobre `21` dados. **Se um dia os dois convergirem para o mesmo número, é este bloco que decide qual cede.**
 >
 > **E ele custa tempo de mesa, declarado:** um `Classe 7` são `21d8`, e a janela de `1` a `3` mexe em **`37%` deles — cerca de `8` dados rerrolados por conjuração.** *É o mesmo eixo que fez a peça 15 trocar a `Matilha` para rolagem em pool. Não é reprovação; é preço, e ele é a primeira coisa a olhar no playtest desta Trilha.*
 
@@ -1299,9 +1307,9 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 
 #### De onde sai cada número
 
-**O nível 2 usa o mesmo gate do `Mão Firme` da `Torrente`**, e é ele que segura o degrau. *Sem gate, rerrolar `1` e `2` em `21` dados vale `3,10` fatias — `62%` da Trilha num degrau só.* **Com o gate de `46%` ele cai para `1,42`.**
+**O nível 2 usa o mesmo gate da `Cheia` da `Torrente`**, e é ele que segura o degrau. *Sem gate, rerrolar `1` e `2` em `21` dados vale `3,10` fatias — `62%` da Trilha num degrau só.* **Com o gate de `46%` ele cai para `1,42`.**
 
-> **A diferença entre os dois rerrolls não é a janela, é o gate.** *O `Mão Firme` rerrola `1`, `2` e `3` e custa `1,78`; este rerrola `1` e `2` e custa `1,42`.* **Os dois têm o mesmo gatilho — a rodada de um feitiço só — e a janela maior é o que a `Torrente` compra por ser mais pobre em outros lugares.**
+> **A diferença entre os dois rerrolls não é a janela, é o gate.** *A `Cheia` rerrola `1`, `2` e `3` e custa `1,78`; este rerrola `1` e `2` e custa `1,42`.* **Os dois têm o mesmo gatilho — a rodada de um feitiço só — e a janela maior é o que a `Torrente` compra por ser mais pobre em outros lugares.**
 
 **O nível 11 passa na deriva, e o achado é de qual nível se mede.** *Eu reprovei ele lendo a deriva a partir do nível 2 — `23,1%` da Rotina lá contra `5,6%` no nível 30, que é `4,15×`.* **Mas a entrega chega no nível 11, e de lá até o 30 a deriva é `1,60×`** — dentro do filtro de `3,0×`.
 
@@ -1447,7 +1455,7 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 
 - **Nada disto tem número.** É ficção, no método que fechou as nove primeiras: você revisa, e só depois eu preço as três de uma vez.
 - ~~O nível 7 do Caminho decide o que a `Torrente` pode ser.~~ **REFEITO na v0.80: a `Voz Grossa` morreu e virou o `Resquício`** — um Classe 0 na Ação Bônus quando a Padrão foi feitiço que não causa dano. *Ela morreu porque um Classe 0 causa `27` no nível 30 e um golpe simples causa `12`: a entrega era um rebaixamento.* **A ação bônus continua livre para a `Torrente` nas rodadas de dano** — o `Resquício` só dispara em rodada de controle.
-- ~~A `Torrente` travou numa régua que não existe.~~ **FECHADA na v0.79 em `5,37` e REPREÇADA na v0.81 para `4,65`.** *A saída foi preçar por **ritmo** e não por conversão de PE.* **A repreçagem veio do Classe 0: o `5,37` tinha sido calculado com o fantasma de `4,50`, e furar o teto vale `13` de dano e não `36`.** *O nível 19 velho morreu junto — ele premiava lançar `Classe 0`, que deixou de ser lixo — e no lugar entrou o `Mão Firme`.*
+- ~~A `Torrente` travou numa régua que não existe.~~ **FECHADA na v0.79 em `5,37` e REPREÇADA na v0.81 para `4,65`.** *A saída foi preçar por **ritmo** e não por conversão de PE.* **A repreçagem veio do Classe 0: o `5,37` tinha sido calculado com o fantasma de `4,50`, e furar o teto vale `13` de dano e não `36`.** *O nível 19 velho morreu junto — ele premiava lançar `Classe 0`, que deixou de ser lixo — e no lugar entrou a entrega que hoje se chama `Cheia`.*
 - ~~O `Arremate` contradiz a peça 6 §3.1.~~ **APLICADO na v0.80**, com o motivo e o número da vida escritos na peça 6, e o `Coro` herdando.
 - **⚠ O `Arremate` fechou em `3,74` de `5,00` e o nível 27 dele ficou VAGO.** *A entrega que estava lá vale `0,00` com o Classe 0 certo — as duas metades se cancelam.* **Sobram `1,26` fatia, que são `6,40` de dano por rodada.** *A ficção do degrau é o capstone do Mahito: dentro do domínio ele deixa de precisar tocar.*
 - **Falta o `Repertório`**, e ele precisa liderar em **posicionamento** ou **recuperação** — as duas colunas vazias do Caminho. *E não existe régua para converter "uma aptidão a mais" em fatia.*
