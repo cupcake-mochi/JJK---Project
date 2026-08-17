@@ -129,7 +129,9 @@ E o **Yuji** com o Punho Divergente é a mesma ideia num golpe só: o soco acert
 >
 > **Nível 19.** Quando o feitiço que você conjura na ação padrão é **de condição e não de dano**, você pode usar o seu **ataque extra** na ação bônus.
 >
-> **Nível 27.** O golpe da ação bônus **carrega sempre um feitiço de Classe 0** junto.
+> **Nível 27.** Se o feitiço que você conjurou na Ação Padrão **acertou**, o **primeiro** golpe da sua ação bônus carrega um **feitiço de Classe 0** junto. *O Classe 0 acompanha o golpe — se o golpe erra, ele não sai.*
+>
+> *Corrigido na v0.84. Este bloco ficou dizendo **"carrega sempre"** depois de a v0.81 repreçar a entrega, e ela só consertou a tabela. **Os dois gates valem `1,33` fatia; "sempre" vale `5,31`** — mais que a Trilha inteira, que leva `5,00`. **E a mesa lê o bloco, não a tabela de preço.***
 
 ## Por que o nível 2 custa zero, e ele é o achado da Trilha
 
@@ -898,12 +900,37 @@ Aquele `11,50` é a linha de comparação do §2 da **peça 5**, e ela usa `1d10
 
 > **A ideia é do Mizuki: o nível 2 não dá um número, ele FORMA um elo.** O número vem depois, e os três degraus de cima são coisas que só existem porque o elo existe.
 
-| nv | a entrega | fatias | coluna |
-|---|---|---|---|
-| **2** | você forma um **elo** com um aliado. Escolha: **`+1` de acerto em ataques de arma, ou em ataques de feitiço** | **2,13** | ação/alvo |
-| **11** | *Reação:* o aliado do elo **rerrola um Teste de Resistência**. Na mesma Reação, `3` PE **passam o elo** para quem não tem, e o rerroll vai junto | 0,67 | defesa |
-| **19** | cura feita num membro do elo pode ser **repartida** com o outro | 0,78 | defesa |
-| **27** | o elo aceita um **terceiro membro**, e você passa até `4` PE seu para alguém do elo, `1×` por descanso curto | **1,21** | recuperação |
+| nv | nome | a entrega | fatias | coluna |
+|---|---|---|---|---|
+| **2** | **`Nó`** | você forma um **elo** com um aliado. Escolha: **`+1` de acerto em ataques de arma, ou em ataques de feitiço** | **2,13** | ação/alvo |
+| **11** | **`Repasse`** | *Reação:* o aliado do elo **rerrola um Teste de Resistência**. Na mesma Reação, `3` PE **passam o elo** para quem não tem, e o rerroll vai junto | 0,67 | defesa |
+| **19** | **`Partilha`** | cura feita num membro do elo pode ser **repartida** com o outro | 0,78 | defesa |
+| **27** | **`Trança`** | o elo aceita um **terceiro membro**, e você passa até `4` PE seu para alguém do elo, `1×` por descanso curto | **1,21** | recuperação |
+
+### As quatro, em texto de mesa — escritas na v0.84
+
+*Até aqui as doze entregas do Guia existiam **só como linha desta tabela**, e não como regra que um mestre aplica. **Os três buracos do `Elo` foram fechados com o Mizuki**, e os quatro nomes passaram pela triagem.*
+
+> **Nível 2 — `Nó`.** **Ação Bônus.** Escolha um aliado **que você enxerga**: vocês dois formam um **elo**. Ao formar, escolha **ataques de arma** ou **ataques de feitiço** — enquanto o elo durar, **os dois membros ganham `+1` de acerto** naquele tipo de ataque.
+> **O elo dura até você formar outro**, e **não se quebra por distância**.
+
+> **Nível 11 — `Repasse`.** **Reação.** Quando um membro do elo falha num Teste de Resistência, ele **rerrola** e fica com o segundo resultado.
+> **Na mesma Reação você pode gastar `3` PE para passar o elo** para alguém que não esteja nele — e o rerrolar vai junto, para quem acabou de entrar.
+
+> **Nível 19 — `Partilha`.** Quando um membro do elo recebe cura, **você reparte o total entre os membros como quiser.** *O total não muda; só o destino dele.*
+
+> **Nível 27 — `Trança`.** O elo passa a aceitar um **terceiro membro**.
+> **E `1×` por descanso curto** você passa até **`4` PE seus** para alguém do elo.
+
+#### Os três buracos, e por que cada um fechou assim
+
+**A ação e a duração saem do preço, e não de gosto.** *Os `2,13` fatias do nível 2 foram calculados como **`+1` de acerto permanente**.* **Então formar tem de ser barato e durar** — se custasse ação todo combate, ou se quebrasse por distância, o `+1` deixaria de ser permanente e o número publicado estaria errado. *Uma Ação Bônus, no máximo uma vez por combate e quase sempre zero porque o elo persiste, é o que cabe dentro daquele preço.*
+
+**O *"que você enxerga"* não é escala nova.** *É como o `Guiar` — o degrau de nível 2 do próprio Caminho do Guia — já delimita aliado.* **Nenhum metro novo entrou no sistema.**
+
+**A cura REPARTE, e não duplica.** *`Partilha` mantém o total e só muda o destino: o que se compra é não desperdiçar cura em quem já está cheio.* **Duplicar seria cura a mais, e dano evitado converte `1` pra `1`** — o degrau sairia dos `0,78` publicados e precisaria de repreço. *Decisão do Mizuki: reparte.*
+
+> **A tabela ganhou coluna de nome nesta versão, e ela é a primeira das quatro Trilhas a ter.** *Das 48 entregas de Trilha do sistema, `11` tinham nome antes desta passada — e seis Trilhas inteiras não tinham nenhum.*
 
 ### O menu do nível 2 quase não coube, e a cascata está registrada
 
@@ -928,12 +955,33 @@ Aquele `11,50` é a linha de comparação do §2 da **peça 5**, e ela usa `1d10
 
 > **A pergunta do Mizuki era *"não sei o que pôr nesse nível 2 que remeta ao `Sutura`"*, e a resposta é que a Trilha inteira é a resposta.** No nível 2 você costura pouco e só em você; no 27 você costura sete pontos em qualquer um e não erra ponto. **O nome virou a mecânica.**
 
-| nv | a entrega | fatias | coluna |
-|---|---|---|---|
-| **2** | `Energia Reversa` **sem gate**, e o teto por uso é `metade da maestria` de PE | 0,89 | defesa |
-| **11** | ela passa a curar **os outros**, o teto sobe para `maestria`, e o uso **tira uma condição** | **1,19** | defesa |
-| **19** | some o seu **modificador de Essência** na rolagem de cura — vale para cura de técnica também | 0,59 | defesa |
-| **27** | o teto vai a `maior Classe`, e você **rerrola `1` e `2`** em todos os seus dados de cura | **1,85** | defesa |
+| nv | nome | a entrega | fatias | coluna |
+|---|---|---|---|---|
+| **2** | **`Agulha`** | `Energia Reversa` **sem gate**, e o teto por uso é `metade da maestria` de PE | 0,89 | defesa |
+| **11** | **`Enxerto`** | ela passa a curar **os outros**, o teto sobe para `maestria`, e o uso **tira uma condição** | **1,19** | defesa |
+| **19** | **`Pulso`** | some o seu **modificador de Essência** na rolagem de cura — vale para cura de técnica também | 0,59 | defesa |
+| **27** | **`Cerzido`** | o teto vai a `maior Classe`, e você **rerrola `1` e `2`** em todos os seus dados de cura | **1,85** | defesa |
+
+### As quatro, em texto de mesa — escritas na v0.84
+
+> **Nível 2 — `Agulha`.** Você ganha a aptidão **`Energia Reversa`** (peça 11 §6) **sem os gates de nível e de refino**. *Por uso, você não pode gastar mais que **`metade da sua maestria`** em PE.*
+
+> **Nível 11 — `Enxerto`.** A sua `Energia Reversa` passa a **curar os outros**, e o teto por uso sobe para **`a sua maestria`** em PE.
+> **E o mesmo uso pode tirar uma condição:** gaste **`1` PE por nível da condição**, e ele sai do mesmo teto da cura. *Condição sem nível declarado conta como **nível 1**.*
+
+> **Nível 19 — `Pulso`.** Some o seu **modificador de Essência** em toda rolagem de cura sua. *Vale também para cura que venha da sua técnica, e não só da `Energia Reversa`.*
+
+> **Nível 27 — `Cerzido`.** O teto por uso vai a **`a sua maior Classe`** em PE, e você **rerrola `1` e `2`** em todos os seus dados de cura, ficando com o segundo resultado.
+
+#### O buraco da condição fechou sem a peça que não existe
+
+***Decisão do Mizuki:*** *"tá tudo bem não existir, ele só precisa pagar o PE de cada nível de condição mesmo."*
+
+**A regra preça pelo NÍVEL da condição, então ela não depende da lista.** *Quando a peça de dano e condições existir e der nível a cada uma, a regra já lê dela sem ser reescrita.*
+
+> **E o precedente já está escrito:** a **exaustão** da peça 10 §4 tem **três degraus numerados**, e é a única condição do projeto com magnitude declarada hoje. *Tirar o degrau 3 custa `3` PE.*
+>
+> **O gate cai da própria regra, sem ninguém escrever:** o teto por uso no nível 11 é `a sua maestria`, que ali vale `2`. **Então a exaustão de degrau 3 só sai a partir da maestria 3, que é o nível 17.** *Uma escada que ninguém desenhou e que sai da conta.*
 
 **O corte que o Mizuki pediu virou o teto de PE por uso.** *A primeira versão dava a Energia Reversa cheia no nível 2 e ela sozinha valia `67%` da Trilha — uma entrega e três decorações.* Com a escada `2 → 4 → 7` de PE, as quatro pesam parecido.
 
@@ -960,12 +1008,32 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 
 > **A ideia estrutural é do Mizuki: a área é CHASSI.** *"Uma área maior, tipo uns 9 m, a partir de si, aí os efeitos que vamos ter usariam esse perímetro como base."* **Ela custa `0,00` sozinha, e os outros três degraus se penduram nela.**
 
-| nv | a entrega | fatias | coluna |
-|---|---|---|---|
-| **2** | uma área de **`9 m`** a partir de você. `1×` por rodada, um inimigo dentro dela **rerrola um Teste de Resistência e fica com o pior** — declarado **antes** do resultado | **1,85** | ação/alvo |
-| **11** | *Reação:* quando um inimigo **erra** um ataque, um aliado dá um golpe simples **com vantagem** | 0,79 | ação/alvo |
-| **19** | *ação bônus:* **marque** um alvo na área. Ele leva `−1d6` em perícia e em Teste de Resistência, **uma vez por rodada** | **1,30** | ação/alvo |
-| **27** | a brecha do 11 passa a valer **quando o ataque acerta também**, e **quando o alvo sai da área por movimento voluntário** | 0,80 | ação/alvo |
+| nv | nome | a entrega | fatias | coluna |
+|---|---|---|---|---|
+| **2** | **`Chão`** | uma área de **`9 m`** a partir de você. `1×` por rodada, um inimigo dentro dela **rerrola um Teste de Resistência e fica com o pior** — declarado **antes** do resultado | **1,85** | ação/alvo |
+| **11** | **`Sentinela`** | *Reação:* quando um inimigo **erra** um ataque, um aliado dá um golpe simples **com vantagem** | 0,79 | ação/alvo |
+| **19** | **`Encalço`** | *ação bônus:* põe um alvo da área **no encalço**. Ele leva `−1d6` em perícia e em Teste de Resistência, **uma vez por rodada** | **1,30** | ação/alvo |
+| **27** | **`Portão`** | a brecha do 11 passa a valer **quando o ataque acerta também**, e **quando o alvo sai da área por movimento voluntário** | 0,80 | ação/alvo |
+
+### As quatro, em texto de mesa — escritas na v0.84
+
+> **Nível 2 — `Chão`.** Você tem uma área de **`9 m` a partir de você**, e ela anda com você.
+> **`1×` por rodada**, um inimigo dentro dela **rerrola um Teste de Resistência e fica com o pior**. *Você declara **antes** de o resultado ser lido.*
+
+> **Nível 11 — `Sentinela`.** **Reação.** Quando um inimigo dentro do `Chão` **erra** um ataque, um aliado que você enxerga dá **um golpe simples com vantagem** nele.
+
+> **Nível 19 — `Encalço`.** **Ação Bônus.** Ponha um alvo do `Chão` **no encalço**. **`1×` por rodada**, ele leva **`−1d6`** numa perícia ou num Teste de Resistência.
+> **Ele dura até o fim da cena**, e você só tem **um alvo no encalço de cada vez** — pôr outro tira o primeiro.
+
+> **Nível 27 — `Portão`.** A `Sentinela` passa a disparar **quando o ataque do inimigo acerta também**, e **quando um alvo sai do `Chão` por movimento voluntário**.
+
+#### A duração do `Encalço`, e a palavra que teve de mudar
+
+***Decisão do Mizuki: até o fim da cena.*** *A alternativa que ele ofereceu — `metade da Essência` ou `metade da Inteligência` em rodadas — não muda o preço, e é por isso que a escolha foi de mesa e não de conta:* **o `−1d6` já é `1×` por rodada, então uma duração curta não corta o efeito — ela só cobra a Ação Bônus de novo para repor.** *O que a duração de cena compra é um número a menos para a mesa carregar, que é a mesma razão que matou o efeito de crítico na v0.45.*
+
+> **E `cena` não é palavra solta:** ela tem definição própria na **peça 10 §5**, fechada na v0.62.
+
+> **⚠ A palavra `marque` saiu, e a colisão era real.** *O texto desta entrega dizia "**marque** um alvo" desde que ela foi escrita.* **`Marca` é Família E Melhoria no manual** — a triagem acusa `OCUPADO` nas duas direções. *Trocado por `no encalço`, que passou `LIVRE`.* **Nenhum número se moveu.**
 
 **Duas coisas do Mizuki salvaram esta Trilha, e as duas são pequenas no texto.** Quatro entregas honestas de posicionamento chegavam a `2,94` — porque **cinco fatias são `42` metros negados por rodada**, e posicionamento não enche Trilha sozinho. *O `Muro` já tinha provado isso: `4,16` de defesa contra `0,71` de posicionamento.*
 
@@ -1158,12 +1226,14 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 
 > **A régua que eu disse existir não existia, e o Mizuki pegou.** *Eu afirmei que o nível 2 da `Sutura` preçava "aptidão cedo" em `0,89`.* **Ele preça a CURA:** `2` PE de teto × `4,5` de cura por PE = `9`, e dano evitado converte `1` pra `1`, vezes os `50%` de rodadas em que o curandeiro cura. **Dá `0,89` exato.** *O "sem gate" é o que torna a aptidão disponível; o número vem do efeito.*
 
-| nv | a entrega | forma | fatias |
-|---|---|---|---|
-| **2** | rerrolar `1` e `2` nos dados de dano, **quando aquele for o seu único feitiço de dano da rodada** | condicional | **1,42** |
-| **11** | some o seu **atributo de conjuração** no dano de todo feitiço | permanente | 1,18 |
-| **19** | gaste **`a Classe` do feitiço em PE** para rolar o ataque dele **com vantagem** | botão | **2,25** |
-| **27** | `1×` por cena, um feitiço soma **+metade da Classe em dados**, pagando **PE igual aos dados extras** | botão | 0,72 |
+| nv | nome | a entrega | forma | fatias |
+|---|---|---|---|---|
+| **2** | **`Pavio`** | rerrolar `1` e `2` nos dados de dano, **quando aquele for o seu único feitiço de dano da rodada** | condicional | **1,42** |
+| **11** | **`Estopim`** | some o seu **atributo de conjuração** no dano de todo feitiço | permanente | 1,18 |
+| **19** | **`Rompante`** | gaste **`a Classe` do feitiço em PE** para rolar o ataque dele **com vantagem** | botão | **2,25** |
+| **27** | **`Ápice`** | `1×` por cena, um feitiço soma **+metade da Classe em dados**, pagando **PE igual aos dados extras** | botão | 0,72 |
+
+> **Os quatro nomes saíram da lista que a própria v0.81 registrou como livre** ao batizar a Trilha, e passaram pela triagem de novo na v0.84. *`Pavio` e `Estopim` não são sinônimo aqui: o pavio é o cordão que você acende, o estopim é o que detona.* **A escada lê como uma só coisa crescendo — acender, detonar, romper, chegar no ápice.**
 
 > **Nível 2.** Quando o feitiço que você conjura é **o único feitiço de dano daquele turno**, **rerrole todo dado de dano dele que cair em `1` ou `2`.**
 >
@@ -1262,12 +1332,14 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 
 **O nível 2 dele acertou uma coisa que a peça 6 já escrevia.** Aquela peça diz que *"a Trilha de corpo a corpo de um Caminho não-marcial **concede o treino marcial**, e é assim que o Emanador que quer lutar de espadão paga com a escolha de Trilha em vez de ganhar de graça. **Treino de arma não é dado de dano** — é acesso"*. *Ele chegou nisso sem ter lido a linha.*
 
-| nv | a entrega | forma | fatias | coluna |
-|---|---|---|---|---|
-| **2** | grupo de arma, **treino** e **atributo mental** — e ao atacar com aquela arma na padrão, **um feitiço de Classe na bônus** | permanente | **0,00** | *é o vão* |
-| **11** | **ataque extra** — a ação de Atacar dá dois golpes | permanente | **2,36** | ação/alvo |
-| **19** | ao conjurar **colado**, `maior Classe` de **PV temporário** | permanente | **1,38** | defesa |
-| **27** | ~~trocar um ataque por um Classe 0, e o Classe 0 vira do tamanho do golpe simples~~ | — | **0,00** | **vago** |
+| nv | nome | a entrega | forma | fatias | coluna |
+|---|---|---|---|---|---|
+| **2** | **`Empunhadura`** | grupo de arma, **treino** e **atributo mental** — e ao atacar com aquela arma na padrão, **um feitiço de Classe na bônus** | permanente | **0,00** | *é o vão* |
+| **11** | **`Rebote`** | **ataque extra** — a ação de Atacar dá dois golpes | permanente | **2,36** | ação/alvo |
+| **19** | **`Crosta`** | ao conjurar **colado**, `maior Classe` de **PV temporário** | permanente | **1,38** | defesa |
+| **27** | — | ~~trocar um ataque por um Classe 0, e o Classe 0 vira do tamanho do golpe simples~~ | — | **0,00** | **vago** |
+
+> **O nível 27 é o único degrau sem nome do sistema inteiro, e é de propósito: ele está VAGO.** *Nomear degrau vazio seria escrever entrada para fechar contagem, que é o defeito que a régua da peça 13 nasceu para achar.* **Sobram `1,26` fatia, que são `6,40` de dano por rodada.**
 | | | | **3,74** | **abaixo da banda** |
 
 > **Nível 2.** Escolha um **grupo de arma**. Você é treinado nele, e naquele grupo **o acerto e o dano usam Inteligência ou Essência**. *O requisito de Força para empunhar continua valendo.*

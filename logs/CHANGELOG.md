@@ -6,6 +6,73 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.84] — 2026-08-17
+
+**As doze entregas do Guia saíram de linha de tabela e viraram texto de mesa**, e mais sete degraus do Emanador ganharam nome. *O Guia era o único Caminho sem uma única entrega jogável; virou o único com os três completos.* **E uma Trilha estava entregando quatro vezes o que ela custa.** Continuam dezesseis peças e dezesseis validadores.
+
+### ⚠⚠ Corrigido — a `Estocada` nv27 valia `4×` o preço dela, e só a tabela tinha sido consertada
+
+| onde | o que dizia | vale |
+|---|---|---|
+| a tabela de preço | o **primeiro** golpe da bônus carrega um Classe 0, **se o feitiço acertou** | `1,33` fatia |
+| **o bloco de regra** | o golpe da bônus carrega **sempre** um Classe 0 | **`5,31` fatias** |
+
+**A v0.81 repreçou a entrega e consertou só a tabela. A mesa lê o bloco.** *`5,31` é mais que a Trilha inteira, que leva `5,00`.* **`Torrente`, `Brasa` e `Explosivo` foram conferidas na mesma varredura e as três batem** — o defeito era só ali. ***Decisão registrada não é decisão aplicada***, pela enésima vez.
+
+### Adicionado — as doze do Guia, com nome e sem buraco
+
+| Trilha | 2 | 11 | 19 | 27 |
+|---|---|---|---|---|
+| **`Elo`** | `Nó` | `Repasse` | `Partilha` | `Trança` |
+| **`Sutura`** | `Agulha` | `Enxerto` | `Pulso` | `Cerzido` |
+| **`Perímetro`** | `Chão` | `Sentinela` | `Encalço` | `Portão` |
+
+**Os três buracos do `Elo` fecharam, e os três saem do preço e não de gosto.** *Os `2,13` fatias do nível 2 foram calculados como `+1` de acerto **permanente**.* **Então: Ação Bônus para formar, num aliado que você enxerga, e o elo dura até você formar outro e não quebra por distância.** *Se custasse ação todo combate ou quebrasse por distância, o `+1` deixaria de ser permanente e o número publicado estaria errado.* **E o *"que você enxerga"* não é escala nova** — é como o `Guiar` já delimita aliado. *A `Partilha` REPARTE o total e não duplica: duplicar seria cura a mais, e dano evitado converte `1` pra `1`.*
+
+### Decidido — a condição tem preço sem a peça de condições existir
+
+***Decisão do Mizuki:*** *"tá tudo bem não existir, ele só precisa pagar o PE de cada nível de condição mesmo."*
+
+> **O `Enxerto` tira condição por `1` PE por nível dela, e isso sai do mesmo teto da cura.** *Condição sem nível declarado conta como nível 1.*
+
+**A regra preça pelo NÍVEL, então ela não depende da lista** — quando a peça de dano e condições existir e der nível a cada uma, ela já lê de lá sem ser reescrita. *O precedente já estava escrito: a exaustão da peça 10 §4 tem três degraus numerados.*
+
+> **E um gate caiu da conta sem ninguém desenhar:** o teto por uso no nível 11 é `a sua maestria`, que ali vale `2`. **Então a exaustão de degrau 3 só sai a partir da maestria 3, que é o nível 17.**
+
+### Decidido — a duração do `Encalço`, e a escolha não foi de conta
+
+*O Mizuki ofereceu "cena de combate" ou "metade da Essência/Inteligência em rodadas", à minha escolha.* **As duas dão o mesmo preço:** o `−1d6` já é `1×` por rodada, então duração curta não corta o efeito — **ela só cobra a Ação Bônus de novo para repor.** ***Escolhido: até o fim da cena***, porque o que ela compra é um número a menos para a mesa carregar. *É a mesma razão que matou o efeito de crítico na v0.45.* **E `cena` tem definição própria na peça 10 §5.**
+
+### ⚠ Corrigido — `marque` era colisão viva numa Trilha escrita
+
+**O nível 19 do `Perímetro` dizia *"**marque** um alvo"* desde que foi escrito.** *`Marca` é **Família E Melhoria** no manual — a triagem acusa `OCUPADO` nas duas direções.* **Trocado por *"no encalço"*, que é o nome da entrega. Nenhum número se moveu.**
+
+### Adicionado — sete nomes no Emanador
+
+| Trilha | 2 | 11 | 19 | 27 |
+|---|---|---|---|---|
+| **`Explosivo`** | `Pavio` | `Estopim` | `Rompante` | `Ápice` |
+| **`Arremate`** | `Empunhadura` | `Rebote` | `Crosta` | **— vago** |
+
+*Os quatro do `Explosivo` saíram da lista que a v0.81 registrou como livre ao batizar a Trilha, e passaram pela triagem de novo.* **`Pavio` e `Estopim` não são sinônimo:** o pavio é o cordão que você acende, o estopim é o que detona.
+
+> **O nível 27 do `Arremate` é o único degrau sem nome do sistema, e é de propósito: ele está VAGO.** *Nomear degrau vazio seria escrever entrada para fechar contagem — o defeito que a régua da peça 13 nasceu para achar.* **Sobram `1,26` fatia.**
+
+### Onde a contagem de nomes está
+
+**De 48 entregas de Trilha, `11` tinham nome antes desta versão. Agora são `30`.** *E as tabelas das cinco Trilhas mexidas ganharam coluna de nome.*
+
+**Faltam `17`, em quatro Trilhas:** `Estocada` (4), `Batedor` (8), e o resto do `Muro`, do `Punho` e da `Brasa` (5). *Todas já têm texto de regra — é nome e triagem, sem buraco mecânico.*
+
+### Em aberto
+
+- **Faltam 17 nomes**, e depois deles a **peça 17** com as 81 entradas e o décimo sétimo validador.
+- **O nível 27 do `Arremate` continua vago**, com `1,26` fatia.
+- **Nenhum validador alcança os `DESENHO-*.md`** — foi por isso que a `Estocada` passou três versões com o bloco contradizendo a tabela. *A checagem "tabela e bloco de regra batem" é do validador da peça 17.*
+- As de sempre: as quatro aptidões abertas, a troca do marco, os metros das armas de projétil, `Caído` para `Inconsciente`, o nome do sistema.
+
+---
+
 ## [0.83] — 2026-08-17
 
 **A lista de ações existe, e ela é a peça 3 §3.1.** *Até aqui esta peça tinha os quatro slots do turno e **nenhuma ação nomeada** — a lista vivia no fim do `DESENHO-caminhos.md`, que não é peça, e o `Ajudar` morava na peça 4 §5 sem custo de ação declarado desde a v0.22.* Continuam dezesseis peças e dezesseis validadores.
