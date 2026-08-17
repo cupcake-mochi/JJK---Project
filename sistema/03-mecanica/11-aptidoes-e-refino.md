@@ -65,7 +65,7 @@ A cada quatro níveis — **6, 10, 14, 18, 22, 26 e 30**, sete marcos — o pers
 > **Passivo:** +1 ponto de atributo, +1 de refino e **+1 espaço de feitiço**.
 > **Escolha, uma das três:**
 > **Corpo** — mais um ponto de atributo.
-> **Refino** — mais um de refino, e uma aptidão.
+> **Refino** — mais um de refino, e uma aptidão. **Se o seu refino já estiver no teto, você leva `2` aptidões no lugar.**
 > **Leque** — mais um feitiço, que só pode ser feitiço, e uma Passiva.
 
 **Por que o terceiro eixo existe.** Passiva custa espaço de feitiço conhecido, e a Expansão de Domínio também. Sem uma rota que devolva espaço, quem monta técnica funda fica sem lista: três Passivas de Classe 2 mais a Expansão completa chegavam ao **nível 20 com dois feitiços**, e a montagem cheia — cinco Passivas de Classe 3 mais Expansão — era **impossível em qualquer nível**. O teto de *"cinco Passivas pagas"* do manual já era letra morta.
@@ -79,6 +79,32 @@ A linha passiva do marco sozinha conserta isso:
 | 3 Passivas Classe 2 + Expansão completa | 3 | **7** | 12 | 15 |
 | 5 Passivas Classe 3 + Expansão completa | 0 | 0 | **3** | 6 |
 
+### O teto de refino chega antes do último marco, e a escolha não pode virar meia
+
+**A linha de graça sozinha entrega 8 dos 10.** Sete marcos a `+1`, mais o refino 1 com que toda ficha começa: **quem nunca escolhe Refino termina a campanha com refino 8.**
+
+**Então a metade *"mais um de refino"* da escolha só tem 2 pontos de espaço para caber, na campanha inteira** — e quem escolhe Refino nos sete marcos pagaria 15 e para em 10.
+
+| marco | refino antes | depois | o que a ESCOLHA comprou |
+|---|---|---|---|
+| 6 | 1 | 3 | `+1` de refino e uma aptidão |
+| 10 | 3 | 5 | `+1` de refino e uma aptidão |
+| 14 | 5 | 7 | `+1` de refino e uma aptidão |
+| 18 | 7 | 9 | `+1` de refino e uma aptidão |
+| **22** | 9 | **10** | o refino da escolha **cai no teto** |
+| **26** | 10 | **10** | idem |
+| **30** | 10 | **10** | idem |
+
+**Nos três últimos ela entregava metade do que promete.** *E os outros dois eixos não desperdiçam nada:* o Corpo ganha 14 pontos contra um teto somado de 30 nos cinco atributos, e o teto de Passivas do Leque sobe uma vaga por escolha, junto com a rota. **O refino era o único dos três cujo teto não acompanha quem o compra.**
+
+> ***Decisão do Mizuki, na v0.89: no teto, a escolha de Refino leva DUAS aptidões.*** *Não é aptidão de graça — é a segunda metade da escolha trocando de moeda quando a primeira acaba.*
+
+**A forma da comparação não muda, e é por isso que isto fecha.** Cortando o par aptidão/Passiva dos dois lados — eles vivem na mesma escada de Classe Passiva —, o marco sempre compara `+1` atributo contra **alguma coisa** contra `+1` feitiço. **Antes do teto essa alguma coisa é `+1` de refino; a partir dele é uma aptidão a mais.** *A escolha nunca fica com uma das mãos vazia.*
+
+> **⚠ E o que isto NÃO tem é régua, declarado.** *"Uma aptidão a mais" não converte em fatia, e foi ela que matou o `Repertório` na v0.81.* **A diferença é quem recebe:** lá a Trilha era vendida para qualquer ficha, e o número tinha de valer para quem nunca pega aptidão nenhuma. **Aqui quem leva a segunda aptidão é, por definição, quem já escolheu esse eixo cinco vezes.** *A régua continua não existindo; o que muda é que esta comparação não depende dela.*
+
+**A rota pura passa a precisar de 10 aptidões**, e o catálogo da seção 6 tem **12 que custam marco**. *Cabe, com duas de folga.* **Mas só nove estão escritas com número hoje** — `Barreira Simples`, `Cortina` e a terceira de kokusen continuam *a definir*. *É a primeira coisa que aperta se a lista não crescer.*
+
 ### As três não se substituem, e é isso que as equilibra
 
 `+1 feitiço e uma Passiva` empata com `+1 refino e uma aptidão` porque **Passiva e aptidão vivem na mesma escada de Classe Passiva** — as duas são efeito pequeno, reativo ou permanente, nas mesmas três alturas. O que sobra dos dois lados é `+1 feitiço` contra `+1 refino`.
@@ -90,7 +116,7 @@ No nível 30, as três rotas puras:
 | rota | atributo | refino | aptidões | Passivas | feitiços a mais |
 |---|---|---|---|---|---|
 | sempre Corpo | **14** | 8 | 0 | 5 | 0 |
-| sempre Refino | 7 | **10** | **7** | 5 | 0 |
+| sempre Refino | 7 | **10** | **10** | 5 | 0 |
 | sempre Leque | 7 | 8 | 0 | **12** | **7** |
 
 **O teto de Passivas sobe junto, e a grátis traz a própria vaga.** Cada escolha de Leque aumenta o máximo em um, e a Passiva concedida ocupa a vaga nova — então as **pagas continuam sendo cinco**, exatamente as cinco de sempre. O teto não cresce de verdade; ele abre lugar para o que a rota concede.
@@ -103,7 +129,7 @@ Três no nível 2: dois de toda ficha, mais o do próprio nível 2. Essa soma é
 
 ### Quem nunca escolhe Refino termina com zero aptidões
 
-**E isso está escrito de propósito, aqui, para ninguém descobrir no nível 20.** A rota existe, ela é legítima, e o que ela troca é claro: **catorze pontos de atributo contra sete**. Quem foca corpo é o dobro de atributo de quem foca controle.
+**E isso está escrito de propósito, aqui, para ninguém descobrir no nível 20.** A rota existe, ela é legítima, e o que ela troca é claro: **catorze pontos de atributo contra sete, e dez aptidões contra nenhuma**. Quem foca corpo é o dobro de atributo de quem foca controle.
 
 Ele também não fica sem nada. **Cobrir-se de energia e canalizar energia vêm de graça no refino 1**, e as duas crescem com o refino passivo, que chega a 8 sem escolha nenhuma. O que ele nunca vai ter é Energia Reversa nem Barreira Simples.
 

@@ -21,6 +21,10 @@ CONTRATO DE INVARIANTES:
      montagem mais pesada que o manual permite.
   6. O TETO DE PASSIVAS: as pagas continuam sendo cinco. A gratis traz a propria vaga.
   7. OS GATES DE REFINO separam as rotas de verdade.
+  8. E A SEGUNDA METADE DO 5, por outro eixo: em nenhum dos sete marcos uma
+     das tres opcoes pode estar dominada. O 5 mede o FIM da campanha, e o fim
+     esconde o meio — foi assim que a escolha de Refino passou tres marcos
+     entregando metade do que promete, com o 5 verde o tempo todo.
 
 Roda sem argumento. Sai com codigo 1 se algo quebrar.
 """
@@ -30,6 +34,10 @@ import math
 import sys
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
+
+# a peca 11 e a dona das regras deste validador. Lida uma vez, aqui.
+with open(os.path.join(AQUI, '11-aptidoes-e-refino.md'), encoding='utf-8') as _f:
+    PECA11 = _f.read()
 
 ERROS = []
 AVISOS = []
@@ -76,7 +84,25 @@ TETO_REFINO = 10
 CHEFE = {5: 15, 10: 26, 15: 38, 20: 49, 25: 61, 30: 72}
 ROTINA = {1: 13, 2: 31, 3: 45, 4: 63, 5: 76, 6: 94, 7: 108}
 CLASSE_NO_NIVEL = {2: 1, 6: 2, 10: 3, 14: 4, 18: 5, 22: 6, 26: 7, 30: 7}
-CLASSE_0 = 4.5          # peca 6, secao 5
+# Dano de um Classe 0, lido do MANUAL: a tabela "Seu nivel / Quantos voce tem /
+# Dano" poe ele em 2d8 . 3d8 . 4d8 . 5d8 . 6d8 por faixa de nivel. Copia vigiada,
+# no mesmo molde da ROTINA acima — o dono e o manual, e a checagem 4f do
+# conferir-manual.py e quem vigia.
+#
+# Ate a v0.89 esta linha era `CLASSE_0 = 4.5`. Esse e o numero FANTASMA que a v0.80
+# matou em todo o resto do projeto — ele nao aparece em lugar nenhum do manual — e
+# ele sobreviveu aqui porque so era IMPRESSO, nunca conferido. Display errado
+# ensina numero errado do mesmo jeito que checagem errada.
+CLASSE_0_POR_FAIXA = [(1, 9), (5, 13), (11, 18), (17, 22), (25, 27)]
+
+
+def classe_0(nv):
+    v = CLASSE_0_POR_FAIXA[0][1]
+    for piso, d in CLASSE_0_POR_FAIXA:
+        if nv >= piso:
+            v = d
+    return v
+
 ACERTO_DIFICIL = 0.50   # peca 1, secao 6
 
 
@@ -217,7 +243,7 @@ for nv in NIVEIS:
     proj = refino_em('especialista', nv)
     f = proj / r
     fracoes.append(f)
-    print(f'  {nv:<8}{r:<10}{f"{CLASSE_0/r:.0%}":<12}{proj:<11}{f:.0%}')
+    print(f'  {nv:<8}{r:<10}{f"{classe_0(nv)/r:.0%}":<12}{proj:<11}{f:.0%}')
     if f > 0.30:
         erro(f'nv{nv}: projetar entrega {f:.0%} da Rotina — ela passou a competir com feitico')
 print(f'\n  Faixa: de {min(fracoes):.0%} a {max(fracoes):.0%} da Rotina.')
@@ -298,14 +324,57 @@ LEQUE_DA_FEITICOS = 1
 
 print(f"  {'rota':<18}{'atributo':<11}{'refino':<9}{'aptidoes':<11}{'Passivas':<11}"
       f"{'feiticos a mais':<18}{'espacos totais'}")
-res = {}
+# Quantas aptidoes a escolha de Refino entrega quando o refino JA esta no teto.
+# LIDO DA PECA 11, e nao escrito aqui: ela e a dona da regra.
+_m = re.search(r'voce leva `(\d+)` aptid', PECA11) or re.search(
+    r'voc[eê] leva `(\d+)` aptid', PECA11)
+if not _m:
+    erro('nao achei na peca 11 quantas aptidoes a escolha de Refino da no teto — '
+         'esta checagem e a 6 pararam de conferir')
+    APT_NO_TETO = None
+else:
+    APT_NO_TETO = int(_m.group(1))
+    print(f'  regra lida da peca 11: no teto, a escolha de Refino da {APT_NO_TETO} '
+          f'aptidoes\n')
+
+
+def simular(esc):
+    """Roda os sete marcos e devolve (totais, o que cada OPCAO daria em cada marco).
+
+    O segundo valor e o que a checagem 6 mede: no marco, o jogador compara as tres
+    opcoes entre si, e o que ele ja acumulou muda o que cada uma vale."""
+    ref, atr, apt, pas, fei = 1, 7, 0, 5, 0
+    por_marco = []
+    for e in esc:
+        ref = min(TETO_REFINO, ref + 1)        # a linha passiva do marco
+        # o que CADA opcao daria a este jogador, agora. Componentes:
+        #   (atributo, refino, escada de Classe Passiva, feitico)
+        # aptidao e Passiva entram na MESMA componente porque a peca 11 SS3 diz que
+        # elas vivem na mesma escada — e essa e a afirmacao que faz as tres se
+        # equilibrarem. Separadas, a dominancia nunca aparece.
+        ganho_ref = min(TETO_REFINO, ref + 1) - ref
+        n_apt = APT_NO_TETO if ganho_ref == 0 else 1
+        por_marco.append({
+            'Corpo':  (1, 0, 0, 0),
+            'Refino': (0, ganho_ref, n_apt, 0),
+            'Leque':  (0, 0, 1, LEQUE_DA_FEITICOS),
+        })
+        if e == 0:
+            atr += 1
+        elif e == 1:
+            ref = min(TETO_REFINO, ref + 1)
+            apt += n_apt
+        else:
+            fei += LEQUE_DA_FEITICOS
+            pas += 1
+    return (atr, ref, apt, pas, fei), por_marco
+
+
+res, marcos_de = {}, {}
 for nome, esc in ROTAS.items():
-    atr = 7 + sum(1 for e in esc if e == 0)
-    ref = min(TETO_REFINO, 1 + 7 + sum(1 for e in esc if e == 1))
-    apt = sum(1 for e in esc if e == 1)
-    lq = sum(1 for e in esc if e == 2) * LEQUE_DA_FEITICOS
-    res[nome] = (atr, ref, apt, 5 + sum(1 for e in esc if e == 2), lq)
-    print(f'  {nome:<18}{atr:<11}{ref:<9}{apt:<11}{res[nome][3]:<11}{lq:<18}'
+    res[nome], marcos_de[nome] = simular(esc)
+    atr, ref, apt, pas, lq = res[nome]
+    print(f'  {nome:<18}{atr:<11}{ref:<9}{apt:<11}{pas:<11}{lq:<18}'
           f'{espacos(30) + lq}')
 
 # Nenhuma rota pode ser fraca em TODOS os eixos ao mesmo tempo. Os eixos sao CINCO,
@@ -384,6 +453,60 @@ else:
     cabe_em = next(nv for nv in range(2, 31) if espacos(nv) >= pesada)
     print(f'\n  A montagem mais pesada cabe a partir do nivel {cabe_em}. Antes da v0.27 ela')
     print('  nao cabia em nivel nenhum, e o teto do manual era letra morta.')
+
+
+# --------------------------------------------------------------------------
+bloco('5.2. MARCO A MARCO — nenhuma das tres opcoes fica dominada em nenhum marco')
+
+# A checagem 5 mede o FIM da campanha e sai verde com o meio quebrado: ate a v0.88
+# a escolha de Refino entregava so a aptidao nos marcos 22, 26 e 30, porque o teto
+# de refino ja tinha sido alcancado — e nos totais ela continuava liderando o eixo
+# do refino com 10 contra 8. Contagem nao e valor (licao no 3), e total nao e marco.
+#
+# O EIXO DESTA: no marco, o jogador compara as TRES entre si, com o que ele ja tem.
+#
+# As componentes sao QUATRO e nao cinco, e a fusao e a afirmacao da peca 11 SS3:
+# aptidao e Passiva vivem na MESMA escada de Classe Passiva. Separadas, "1 aptidao"
+# e "1 Passiva + 1 feitico" nunca se comparam e a dominancia nunca aparece — que e
+# exatamente por que ninguem viu isso em dezessete versoes.
+COMPONENTES = ['atributo', 'refino', 'escada de Classe Passiva', 'feitico']
+
+if APT_NO_TETO is None:
+    erro('sem a regra do teto lida da peca 11, a 5.2 nao tem o que simular')
+else:
+    print('  Em cada marco, o que CADA opcao daria ao jogador daquela rota.')
+    print('  aptidao e Passiva entram na mesma componente, que e o que a peca 11 afirma.\n')
+    print(f"  {'rota':<16}{'marco':<8}{'Corpo':<14}{'Refino':<16}{'Leque':<14}veredito")
+    achou52 = False
+    for nome, marcos in marcos_de.items():
+        for i, opcoes in enumerate(marcos):
+            dominadas = []
+            for a, va in opcoes.items():
+                for b, vb in opcoes.items():
+                    if a == b:
+                        continue
+                    if all(y >= x for x, y in zip(va, vb)) and any(
+                            y > x for x, y in zip(va, vb)):
+                        dominadas.append((a, b, va, vb))
+            fmt = lambda v: '/'.join(str(x) for x in v)
+            if dominadas:
+                a, b, va, vb = dominadas[0]
+                ver = f'>> {b} DOMINA {a}'
+                achou52 = True
+            else:
+                ver = 'nenhuma domina'
+            print(f"  {nome:<16}nv{MARCOS[i]:<6}{fmt(opcoes['Corpo']):<14}"
+                  f"{fmt(opcoes['Refino']):<16}{fmt(opcoes['Leque']):<14}{ver}")
+            for a, b, va, vb in dominadas:
+                erro(f'{nome}, marco nv{MARCOS[i]}: a opcao "{a}" entrega {fmt(va)} e a '
+                     f'"{b}" entrega {fmt(vb)} nas mesmas componentes '
+                     f'({" / ".join(COMPONENTES)}) — quem escolher "{a}" ali esta '
+                     f'levando menos por nada')
+    if not achou52:
+        print(f'\n  [x] Nos {len(MARCOS)} marcos das {len(marcos_de)} rotas, nenhuma das')
+        print('      tres opcoes fica atras das outras em todas as componentes.')
+        print(f'      A regra do teto — no maximo, Refino da {APT_NO_TETO} aptidoes — e o')
+        print('      que segura os tres ultimos marcos da rota que sempre escolhe Refino.')
 
 
 # --------------------------------------------------------------------------

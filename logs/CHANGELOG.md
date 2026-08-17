@@ -6,6 +6,87 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.89] — 2026-08-17
+
+**A troca do marco fechou, e ela era o único problema de design que tinha sobrado.** *A escolha de `Refino` promete **"mais um de refino, e uma aptidão"** e entregava só a aptidão em três dos sete marcos, porque o teto de refino já tinha sido alcançado.* **Nenhum validador via, e a causa de não ver é a lição nº 3 acontecendo dentro de um deles.** Continuam dezessete peças e dezessete validadores.
+
+### ⚠⚠ Medido — a linha de graça do marco entrega 8 dos 10 de refino, sozinha
+
+**Sete marcos a `+1`, mais o refino 1 com que toda ficha começa.** *Quem **nunca** escolhe `Refino` termina a campanha com refino 8.*
+
+**Então a metade *"mais um de refino"* da escolha só tem `2` pontos de espaço para caber, na campanha inteira** — e quem escolhe `Refino` nos sete marcos pagaria `15` e para em `10`. **Cinco pontos jogados fora.**
+
+| marco | refino antes | depois | o que a ESCOLHA comprou |
+|---|---|---|---|
+| 6 · 10 · 14 · 18 | 1 → 7 | 3 → 9 | `+1` de refino e uma aptidão |
+| **22** | 9 | **10** | o refino da escolha **cai no teto** |
+| **26** · **30** | 10 | **10** | idem |
+
+**E os outros dois eixos não desperdiçam nada.** *O `Corpo` ganha `14` pontos contra um teto somado de `30` nos cinco atributos; o teto de Passivas do `Leque` sobe uma vaga por escolha, junto com a rota; feitiço não tem teto.* **O refino era o único dos três cujo teto não acompanha quem o compra.**
+
+### Decidido — no teto, a escolha de `Refino` leva DUAS aptidões
+
+***Decisão do Mizuki:*** *"quando chegar no cap, se escolher aptidão recebe duas. Eu vou aumentar a lista de aptidões futuramente."*
+
+**Não é aptidão de graça: é a segunda metade da escolha trocando de moeda quando a primeira acaba.** *A rota pura passa de `7` para `10` aptidões.*
+
+> **A forma da comparação não muda, e é isso que fecha o argumento.** *Cortando o par aptidão/Passiva dos dois lados — eles vivem na mesma escada de Classe Passiva —, o marco sempre compara `+1` atributo contra **alguma coisa** contra `+1` feitiço.* **Antes do teto essa alguma coisa é `+1` de refino; a partir dele é uma aptidão a mais.** *A escolha nunca fica com uma das mãos vazia.*
+
+> **⚠ E isto NÃO tem régua, declarado.** *"Uma aptidão a mais" não converte em fatia, e foi ela que matou o `Repertório` na v0.81.* **A diferença é quem recebe:** lá a Trilha era vendida para qualquer ficha, e o número tinha de valer para quem nunca pega aptidão nenhuma. **Aqui quem leva a segunda é, por definição, quem já escolheu esse eixo cinco vezes.**
+
+**A rota pura passa a precisar de `10` aptidões, e o catálogo tem `12` que custam marco.** *Cabe, com duas de folga.* **Mas só nove estão escritas com número** — `Barreira Simples`, `Cortina` e a terceira de kokusen continuam *a definir*. *É a primeira coisa que aperta se a lista não crescer, e o Mizuki já declarou que vai crescer.*
+
+### ⚠ As duas alternativas foram medidas e reprovaram, e a conta ficou
+
+**Subir o teto de refino de `10` para `15`** faria a escolha caber inteira. *Reprovou com número: perturbando o teto no validador, **dois contratos acendem na hora** — a proteção de `cobrir-se de energia` passa a crescer `+33` na campanha contra `+3` de um atributo, e o kokusen chega a `9,1%` de dano por rodada, acima de um quinto do que um ponto de atributo compra.* **E há `31` fórmulas usando refino como variável em sete arquivos**, todas calibradas contra o teto `10`.
+
+**Baixar o refino passivo** daria espaço à escolha sem mexer no teto. *Reprovou por efeito colateral: a tabela de gates do §5 é publicada — `Classe Passiva 2` no refino 4, `Classe Passiva 3` no refino 7 —, e ela se move inteira. E a promessa de que `cobrir-se` e `canalizar` crescem sozinhas até 8 cai para 5.*
+
+### Adicionado — a checagem 5.2, e ela é a segunda metade da 5 por outro eixo
+
+**A checagem 5 mede o FIM da campanha.** *Nos totais a rota de `Refino` liderava o eixo do refino com `10` contra `8` e parecia bem — com o meio quebrado o tempo todo.* **A 5.2 mede MARCO A MARCO:** em cada um dos sete, para cada uma das quatro rotas, o que cada opção daria àquele jogador naquele momento.
+
+> **As componentes são QUATRO e não cinco, e a fusão é a afirmação da própria peça 11:** aptidão e Passiva vivem na **mesma** escada de Classe Passiva.
+>
+> ***Contra-teste que prova que isso é o que segura tudo:*** *rodando a regressão com as duas em componentes SEPARADAS, ela sai **verde**.* **Separadas, `1 aptidão` e `1 Passiva + 1 feitiço` nunca se comparam, e a dominância nunca aparece — que é exatamente por que ninguém viu isto em dezessete versões.**
+
+### ⚠ Corrigido — o Classe 0 fantasma sobreviveu num validador, e sobreviveu por ser só impresso
+
+**O `conferir-aptidoes.py` carregava `CLASSE_0 = 4.5`.** *É o número que a v0.80 matou em todo o resto do projeto: ele não aparece em lugar nenhum do manual.* **Ele sobreviveu nove versões porque só era IMPRESSO, nunca conferido** — a coluna *"Classe 0"* do relatório de `Projetar`.
+
+| nível | a coluna dizia | é |
+|---|---|---|
+| 2 | `35%` da Rotina | **`69%`** |
+| 30 | `4%` | **`25%`** |
+
+**Agora ele é lido da tabela do manual** — `2d8 · 3d8 · 4d8 · 5d8 · 6d8` por faixa —, como cópia vigiada, no mesmo molde da `Rotina`. ***Display errado ensina número errado do mesmo jeito que checagem errada.***
+
+### As seis perturbações, em cópia isolada
+
+**A base passou na cópia antes de cada uma, e o `diff` foi conferido em todas.**
+
+| perturbação | esperado | deu |
+|---|---|---|
+| **a regressão: no teto, `Refino` volta a dar uma aptidão só** | acende | acende |
+| **contra-teste:** no teto ele daria três | verde | verde |
+| a regra some da peça 11 | acende | acende |
+| **contra-teste:** teto de refino fora de alcance — a 5.2 fica quieta | 0 dominâncias | 0 |
+| **contra-teste: a regressão com a escada desmembrada** | **verde** | **verde** |
+| teto de refino em `99` | acende (contratos 2 e 4) | acende |
+
+> **A quinta é a que importa, e ela é a prova do método.** *A 5.2 não é uma checagem a mais: ela é a mesma pergunta da 5, feita num eixo em que a resposta muda.* **A sexta rendeu de graça a conta que reprovou a alternativa de subir o teto.**
+
+### Em aberto
+
+- **O catálogo de aptidões precisa crescer.** *A rota pura pede `10` e só `9` estão escritas com número.* **Declarado pelo Mizuki nesta versão.**
+- **A escada de Classe Passiva da camada de vínculo continua sem preço** — a grade de `16` células do `RASCUNHO-trilhas.md`, do Evocador parado. *A `§4` da peça 11 é outra coisa: ela declara de propósito que **não mede quanto, mede o quê**.*
+- **Duas entregas têm nome em minúscula** — o `carregar` do `Yumi` e o `acelerar` da `Torrente`.
+- **A terceira taxa sem medida do `Batedor`:** em quantas rodadas o atirador fica parado. *Ela sozinha decide `2,12` fatias.*
+- **Cobertura não existe como regra**, e os metros de cada arma de projétil também não.
+- As de sempre: as quatro aptidões abertas, o `.pdf` do manual na v7.4 contra a v7.8 do `.docx`, as vagas de `Desliga`, a Cicatriz, o clash, a tabela de inimigo parada e o **nome do sistema**.
+
+---
+
 ## [0.88] — 2026-08-17
 
 **Quatro dívidas antigas fecharam numa versão só, e a mais velha delas não era o que estava escrito.** *A troca de `Caído` por `Inconsciente` estava marcada desde a v0.82 como colisão entre o estado de 0 de vida e a condição de quem foi derrubado — e a condição de derrubado **já tinha nome no manual, e não era `Caído`**.* **Achar isso destampou um buraco de validador que estava aberto desde sempre.** Continuam dezessete peças e dezessete validadores.
