@@ -813,6 +813,47 @@ else:
 
 
 # --------------------------------------------------------------------------
+# 4i. A PAREDE DO MANUAL, que a peca 11 SS6.6 copiou
+#
+# Escrita na v0.91. A peca 11 preca a vida da `Barreira Simples` comparando com a
+# Melhoria `Anteparo` do manual — "uma parede com 10 x Classe de vida" — e essa
+# frase virou a SEGUNDA copia do numero. Sem esta checagem, o manual podia mudar
+# a Melhoria e a peca continuaria preçando contra o valor velho.
+#
+# NADA ESCRITO AQUI: os dois lados sao lidos, um do .docx e o outro da peca 11.
+print()
+print('  4i. a parede da Melhoria `Anteparo` contra a copia da peca 11')
+
+_ant_manual = None
+for _t in _D.tables:
+    for _r in _t.rows:
+        _cel = [c.text.strip() for c in _r.cells]
+        if _cel and _cel[0].strip() == 'Anteparo':
+            _mm = re.search(r'(\d+)\s*[×x]\s*Classe', ' | '.join(_cel))
+            if _mm:
+                _ant_manual = int(_mm.group(1))
+if _ant_manual is None:
+    erro('nao achei a Melhoria `Anteparo` no .docx — a peca 11 preca a `Barreira '
+         'Simples` contra ela e a comparacao ficou sem dono')
+else:
+    _p11m = os.path.join(AQUI, '11-aptidoes-e-refino.md')
+    with open(_p11m, encoding='utf-8') as _f:
+        _t11m = _f.read()
+    _mm = re.search(r'`(\d+) × Classe` de vida', _t11m)
+    _ant_peca = int(_mm.group(1)) if _mm else None
+    if _ant_peca is None:
+        erro('a peca 11 parou de citar a parede do `Anteparo` — a vida da `Barreira '
+             'Simples` deixou de ter contra o que ser comparada')
+    elif _ant_peca != _ant_manual:
+        erro(f'o manual diz que o `Anteparo` da {_ant_manual} x Classe de vida e a peca '
+             f'11 copiou {_ant_peca} x Classe — as duas copias divergiram, e a peca '
+             f'preca a `Barreira Simples` contra a copia dela')
+    else:
+        print(f'    [x] as duas dizem {_ant_manual} x Classe. No Classe 7 sao '
+              f'{_ant_manual*7} de vida.')
+
+
+# --------------------------------------------------------------------------
 print()
 print('=' * 88)
 if FALHAS:

@@ -564,6 +564,87 @@ else:
 
 
 # --------------------------------------------------------------------------
+bloco('5.3. AS DUAS BARREIRAS — o relogio e o que tira as duas da luta')
+
+# A REGRA APLICADA: levantar uma barreira tem de custar MAIS do que uma luta dura.
+# O LIMITE DE DESIGN e outro, e fica declarado aqui e nao la: uma barreira que
+# caiba numa luta vale mais que a Trilha inteira da ficha, porque dano evitado
+# converte 1 pra 1 e ela evita a propria vida.
+#
+# NADA DE VALOR ESCRITO AQUI: a vida das duas e o tempo de levantar saem da peca
+# 11 SS6.6; a duracao de uma luta sai da peca 1 SS8; a parede do manual sai da
+# copia da peca 11, que o conferir-manual.py 4i vigia contra o .docx.
+_s66 = PECA11.split('## 6.6.')[1].split('\n## 7.')[0] if '## 6.6.' in PECA11 else ''
+if not _s66:
+    erro('a secao 6.6 (as duas barreiras) sumiu da peca 11 — esta checagem parou de conferir')
+else:
+    _p1 = os.path.join(AQUI, '01-atributos-acerto-defesa.md')
+    with open(_p1, encoding='utf-8') as _f:
+        _t1 = _f.read()
+    _m = re.search(r'previsão atual é ([\d,]+) a ([\d,]+) rodadas', _t1)
+    LUTA = float(_m.group(2).replace(',', '.')) if _m else None
+    if LUTA is None:
+        erro('nao achei a duracao de uma luta na peca 1 — o relogio das barreiras nao '
+             'tem contra o que ser medido, e esta checagem parou de conferir')
+
+    _mm = re.search(r'`1 minuto` são \*\*(\w+) rodadas\*\*', _s66)
+    _palavra = {'dez': 10, 'nove': 9, 'oito': 8, 'seis': 6, 'cinco': 5}
+    MINUTO = _palavra.get(_mm.group(1)) if _mm else None
+    if MINUTO is None:
+        erro('nao achei na peca 11 SS6.6 quantas rodadas tem o minuto de levantar')
+
+    _vidas = {}
+    for _nome, _rx in (('Barreira Simples', r'`(\d+) × refino` de pontos de vida'),
+                       ('Cortina', r'`(\d+) × refino` de pontos de vida')):
+        pass
+    _achadas = re.findall(r'`(\d+) × refino` de pontos de vida', _s66)
+    if len(_achadas) != 2:
+        erro(f'achei {len(_achadas)} vida(s) de barreira na secao 6.6 e sao duas — '
+             f'esta checagem parou de conferir')
+        _achadas = []
+    _m_ant = re.search(r'`(\d+) × Classe` de vida', _s66)
+    ANTEPARO = int(_m_ant.group(1)) if _m_ant else None
+    if ANTEPARO is None:
+        erro('a secao 6.6 parou de citar a parede do manual — a vida da `Barreira '
+             'Simples` deixou de ter contra o que ser comparada')
+
+    if LUTA and MINUTO and len(_achadas) == 2 and ANTEPARO:
+        _b, _c = int(_achadas[0]), int(_achadas[1])
+        print(f'  levantar custa {MINUTO} rodadas; uma luta dura no maximo {LUTA}.')
+        # 5.3a — o relogio
+        if MINUTO <= LUTA:
+            erro(f'levantar uma barreira custa {MINUTO} rodadas e uma luta dura ate '
+                 f'{LUTA} — ela CABE na luta, e ai ela evita a propria vida: '
+                 f'{_c*TETO_REFINO} de dano, que sao '
+                 f'{_c*TETO_REFINO/LUTA/5.08:.2f} fatias contra uma Trilha de 5,00')
+        else:
+            print(f'  [x] o minuto nao cabe numa luta: {MINUTO} contra {LUTA} rodadas.')
+        # 5.3b — o que elas valeriam SE coubessem. Contra-prova do limite de design.
+        print(f"\n  {'se coubesse numa luta':<28}{'evita':<14}{'por rodada':<14}{'em fatias'}")
+        for _n, _k in (('Barreira Simples', _b), ('Cortina', _c)):
+            _v = _k * TETO_REFINO
+            print(f'  {_n:<28}{f"{_v} de dano":<14}{f"{_v/LUTA:.1f}":<14}'
+                  f'{_v/LUTA/5.08:.2f}')
+        print('  (uma Trilha inteira leva 5,00 fatias — e por isso que o relogio existe)')
+        # 5.3c — a menor das duas fica abaixo da maior parede que um feitico monta
+        CLASSE_MAX = 7
+        if _b * TETO_REFINO >= ANTEPARO * CLASSE_MAX:
+            erro(f'a `Barreira Simples` tem {_b*TETO_REFINO} de vida no teto e a maior '
+                 f'parede do manual tem {ANTEPARO*CLASSE_MAX} — a que custa um marco e '
+                 f'e permanente na ficha passou a que custa pontos e sai numa acao')
+        else:
+            print(f'\n  [x] a `Barreira Simples` tem {_b*TETO_REFINO} no teto, abaixo dos '
+                  f'{ANTEPARO*CLASSE_MAX} da maior parede do manual.')
+        # 5.3d — o quinto formato tem de estar DECLARADO na secao 5
+        _s5 = PECA11.split('## 5. ')[1].split('\n## 6.')[0] if '## 5. ' in PECA11 else ''
+        if 'gate de aptidão' not in _s5:
+            erro('a `Cortina` usa um gate de aptidao e a secao 5 nao declara esse '
+                 'formato — foi exatamente isso que a v0.65 derrubou: a dependencia '
+                 'existindo sem ninguem ter escrito que ela podia')
+        else:
+            print('  [x] o quinto formato de gate esta declarado na secao 5.')
+
+# --------------------------------------------------------------------------
 bloco('6. O TETO DE PASSIVAS — a gratis traz a propria vaga')
 TETO_BASE = 5
 print(f"  {'escolhas de Leque':<20}{'teto':<8}{'gratis':<9}{'pagas que sobram'}")
@@ -786,6 +867,12 @@ else:
             g.add('sem gate')
         if 'gratis' in s:
             g.add('gratis')
+        # o QUINTO formato, da v0.91: "exige a `Barreira Simples`". Sem esta linha
+        # o gate da `Cortina` nao produz token nenhum dos dois lados, e a
+        # comparacao passa TRIVIALMENTE — um formato de gate inteiro sem ninguem
+        # conferindo as duas copias dele.
+        for _mm in re.finditer(r'exige a `([^`]+)`', s):
+            g.add(f'exige {_mm.group(1)}')
         return g
 
     _titulos = {}
@@ -819,8 +906,8 @@ else:
             erro(f'`{_nome}`: o titulo da secao pede {sorted(_falta)} e a linha do '
                  f'catalogo diz "{_cel[:50]}" — as duas copias do gate divergiram')
             _divs += 1
-    if _pares < 10:
-        erro(f'so {_pares} entrada(s) do catalogo tem secao para comparar, e eram 11 — '
+    if _pares < 13:
+        erro(f'so {_pares} entrada(s) do catalogo tem secao para comparar, e eram 13 — '
              f'alguem mudou o formato do titulo e esta checagem esta conferindo menos')
     elif not _divs:
         print(f'  [x] as {_pares} entradas com secao repetem o gate dela no catalogo.')

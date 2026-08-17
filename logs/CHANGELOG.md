@@ -6,6 +6,105 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.91] — 2026-08-17
+
+**O catálogo de aptidões fechou.** *A `Barreira Simples` e a `Cortina` eram as duas últimas entradas sem número, e estavam assim desde a v0.3.* **As doze que custam marco agora têm regra escrita, e a rota pura de Refino ganhou duas de folga em vez de fechar no talo.** Continuam dezessete peças e dezessete validadores.
+
+### ⚠⚠ Medido — uma barreira com vida, se couber numa luta, vale mais que a Trilha da ficha
+
+***O Mizuki chegou com o problema pelo nome antes de qualquer conta:*** *"se não vira uma vida extra paia"*. **A conta concorda, e ela é pior do que parece.**
+
+> **A régua do projeto diz que dano evitado converte `1` pra `1`.** *Uma barreira que o inimigo precisa quebrar consome nele exatamente a vida dela — então ela **evita a própria vida**.*
+
+| vida no teto | evita | por rodada de luta | em fatias |
+|---|---|---|---|
+| `50` | 50 de dano | 12,5 | **2,46** |
+| `200` | 200 de dano | 50,0 | **9,84** |
+
+**Uma Trilha inteira leva `5,00` fatias. Um marco compra `2,13`.**
+
+### ⚠ E gastar a rodada inteira levantando NÃO gateia
+
+*Era a primeira ideia dele — "talvez necessitar ser ação completa".* **A conta reprova, e por uma margem larga.**
+
+**Uma luta dura `3,3` rodadas.** Gastar uma inteira deixa `2,3` com a barreira de pé, que são `70%` da luta. **E o câmbio fica a favor de quem levanta: uma rodada sua no nível 30 vale `108` de dano, e você a troca por uma barreira que absorve `200`.** *Quase o dobro.*
+
+**O que gateia é levantar custar mais do que a luta inteira dura: `1 minuto`, que são dez rodadas contra `3,3`.**
+
+> **E ele resolve de graça o problema multi-mestre que a alternativa criaria.** *Uma regra do tipo "não dá para levantar em combate" obriga sete mesas a decidirem o que é "estar em combate".* **Dez rodadas contra três e pouco não pede julgamento de ninguém.**
+>
+> *E o número já tinha casa: `1 minuto` é a duração que o manual usa na Melhoria `Anteparo`.*
+
+### Adicionado — as duas, com número
+
+> **`Barreira Simples` · sem gate.** *Um minuto para levantar.* Um domo de **raio `6 m`**, ancorado no lugar, que **bloqueia passagem e linha de efeito nos dois sentidos**. **`5 × refino` de vida**, e cai quando você fica `Inconsciente`.
+
+> **`Cortina` · exige a `Barreira Simples`.** *Um minuto para levantar.* Cobre **um lugar** — um prédio, uma escola, um quarteirão — e **esconde o que está dentro de quem não é feiticeiro**. **Uma condição sobre quem atravessa.** **`20 × refino` de vida**, e cai quando você fica `Inconsciente`.
+
+**A vida da Barreira fica ABAIXO da maior parede que um feitiço monta, e de propósito.** *O `Anteparo` do manual dá `10 × Classe` — `70` no Classe 7.* **`5 × refino` dá `50` no teto.** *Aquela custa pontos de montagem e sai numa ação; esta custa um marco e um minuto.* **A que sai rápido pode ser maior; a que é permanente na ficha não pode.**
+
+**E o "cai quando você fica `Inconsciente`" é da obra, e encaixa no que a v0.88 acabou de renomear:** *"a barrier can be taken down when the sorcerer who created it is taken out"*.
+
+**A condição da Cortina fala de QUEM ATRAVESSA e de mais nada** — barrar uma pessoa, deixar entrar só quem tem energia amaldiçoada, impedir quem está dentro de sair. *Não pode causar dano, não pode mover a cortina, não pode dar bônus.* **O exemplar da obra é o feiticeiro que levantou uma que deixava outros feiticeiros passarem e barrava só o Gojo.**
+
+> **O tamanho da Cortina não tem metro, e isso é decisão.** *Ela é a única coisa do sistema cujo tamanho **nunca entra numa rolagem**.* **Está escrito na peça justamente para ninguém tentar usá-la como medida de combate.**
+
+### Decidido — o QUINTO formato de gate, e ele foi recusado uma versão antes
+
+***Decisão do Mizuki: a `Cortina` não tem gate de refino nem de nível. O requisito é ter a `Barreira Simples`*** — *"só isso já força a gastar dois marcos aqui"*.
+
+**A v0.90 recusou exatamente este formato para o kokusen, então a diferença precisou ser escrita.**
+
+| | por que |
+|---|---|
+| **kokusen — recusado** | as três são **alternativas**, cada uma serve sozinha. O requisito obrigaria a comprar a de antes só para chegar na de depois: **pedágio** |
+| **`Cortina` — aceito** | ela é a `Barreira Simples` maior. A obra diz isso: barreira é o básico, cortina exige habilidade que muitos feiticeiros poderosos não têm: **escada** |
+
+**A regra ficou escrita: a aptidão exigida tem de ser a mesma coisa em tamanho menor, e tem de servir sozinha.**
+
+> ***E o motivo de escrever em vez de só usar é uma pergunta dele mesmo, da v0.65:*** *"por que não dá para pegar a de baixo em vez da de cima?"* **Aquilo derrubou uma mecânica inteira, e o defeito não era a dependência — era ninguém ter escrito que ela podia existir.**
+
+**E ele é o único dos cinco formatos que cobra MARCO.** *Nível o tempo paga; refino a linha passiva do marco paga sozinha — `refino 4` chega no nível 14 até para quem nunca escolhe Refino; Origem a criação paga uma vez.* **Este gasta um marco antes de a aptidão gateada abrir.**
+
+| rota | a `Barreira Simples` abre | a `Cortina` abre |
+|---|---|---|
+| sempre Refino | nível 6 | **nível 10** |
+| meio a meio | nível 10 | **nível 22** |
+| sempre Corpo · sempre Leque | nunca | **nunca** |
+
+*Que quem nunca escolhe Refino duas vezes não levante Cortina também é da obra: as condições delas chegam a ser encomendadas a quem sabe fazer.*
+
+### Adicionado — a checagem 5.3, e a 4i do `conferir-manual.py`
+
+**A 5.3 guarda o relógio:** levantar tem de custar mais do que uma luta dura. *Ela lê as dez rodadas da peça 11 e a duração da luta da peça 1, e imprime o que cada barreira valeria **se coubesse** — que é o limite de design, declarado à parte da regra aplicada.* **E ela confere que a `Barreira Simples` fica abaixo da parede do manual, e que o quinto formato de gate está declarado na seção 5.**
+
+> **⚠ E o extrator de gate tinha um buraco que o formato novo abriu.** *A checagem da v0.90 compara o gate do título com o do catálogo lendo tokens — `refino N`, `nível N`, `Classe N`.* **`exige a Barreira Simples` não produzia token nenhum dos dois lados, então a comparação passava TRIVIALMENTE.** *Um formato de gate inteiro sem ninguém conferindo as duas cópias dele.* **Corrigido, e a guarda de contagem subiu de onze para treze entradas.**
+
+**A 4i fecha a cópia nova:** a peça 11 preça a `Barreira Simples` contra o `Anteparo` do manual, e essa frase virou a segunda cópia do `10 × Classe`. *Agora existe quem compare com o `.docx`.*
+
+### As sete perturbações, em cópia isolada
+
+| perturbação | esperado | deu |
+|---|---|---|
+| **o gate da `Cortina` diverge entre o título e o catálogo** | acende | acende |
+| levantar vira duas rodadas em vez de dez | acende | acende |
+| a `Barreira Simples` passa a parede do manual (`15 × refino`) | acende | acende |
+| **a declaração do quinto formato some da seção 5** | acende | acende |
+| **contra-teste:** a `Cortina` voltando a um gate de refino nos dois lados | verde | verde |
+| **o `Anteparo` do manual divergindo da cópia da peça 11** | acende | acende |
+| **contra-teste (da v0.89, rodado de novo):** a escada desmembrada | verde | verde |
+
+### Em aberto
+
+- **Sobra UMA aptidão sem número: a `Aptidão Própria`.** *E ela falta por régua e não por conteúdo — o `Efeito Próprio` do manual pergunta "em quantas cenas por arco isso importa?", e o projeto não sabe responder.*
+- **Duas entregas têm nome em minúscula** — o `carregar` do `Yumi` e o `acelerar` da `Torrente`.
+- **A terceira taxa sem medida do `Batedor`:** em quantas rodadas o atirador fica parado. *Ela sozinha decide `2,12` fatias.*
+- **Cobertura não existe como regra**, e os metros de cada arma de projétil também não.
+- **As três Trilhas do Evocador continuam paradas.**
+- As de sempre: o `.pdf` do manual na v7.4 contra a v7.8 do `.docx`, as vagas de `Desliga`, a Cicatriz, o clash, a tabela de inimigo parada e o **nome do sistema**.
+
+---
+
 ## [0.90] — 2026-08-17
 
 **A terceira de kokusen ganhou nome e gate, e virou a `Kokusen Constante`.** *Ela era contada entre as onze fechadas com o gate escrito como **a definir** e sem nome nenhum — a peça a chamava de "(a terceira de kokusen)".* **Fechar ela levou o catálogo de nove entradas escritas com número para dez, que é exatamente o que a rota pura de Refino passou a pedir na v0.89.** Continuam dezessete peças e dezessete validadores.
