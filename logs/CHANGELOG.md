@@ -6,6 +6,72 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.86] — 2026-08-17
+
+**A ação `Mirar` existe.** *Ela era entregue em **seis degraus** do `Batedor` desde a v0.74 e não tinha regra escrita em lugar nenhum do repositório — treze menções no desenho, todas concedendo, nenhuma definindo.* **Quem achou foi o `conferir-catalogo.py`, que entrou na versão anterior.** Continuam dezessete peças e dezessete validadores.
+
+### Adicionado — a regra, e ela é do Mizuki
+
+> **`Mirar`.** *Ação Bônus.* Você firma o corpo e alinha o tiro.
+> **O seu próximo ataque com arma de projétil nesta rodada é rolado com vantagem.**
+> **Você só pode `Mirar` se não tiver se deslocado nesta rodada, e o `Mirar` se perde se você se deslocar.**
+
+***Decisão do Mizuki, e o gate de movimento é dele:*** *"é uma vantagem, ao custo de uma ação bônus… coloca que não pode ter se deslocado na rodada e nem se deslocar."*
+
+**É a forma do `Steady Aim` do Ladino do 5e**, lida na fonte junto com as três do Pathfinder 2e. *As duas formas mais comuns já estavam gastas aqui: a que conserta a penalidade de faixa de alcance é o **nível 2 das três rotas**, e a que mexe em cobertura não tem onde encostar, porque **cobertura não existe como regra** — procurada nas dezessete peças, zero ocorrência.*
+
+### ⚠ Medido — ela estoura o degrau em `5,3×`, e o estouro FICA
+
+***Decisão do Mizuki:*** *"você tá inflando demais essa habilidade, garanto para você, pode passar e manter como está."* **Precedente dele mesmo, com a mesma frase, na `Brasa` da v0.81.**
+
+| a peça | vale |
+|---|---|
+| vantagem em **um** dos dois ataques | `+27,00` de dano na rodada |
+| abrir mão do deslocamento de `9 m` | `−5,40` |
+| **líquido** | **`21,60` = `4,25` fatias, num degrau de `0,80`** |
+
+**O gate de movimento corta `20%` do preço.** *Ele não é decorativo — é um quinto —, mas vantagem é o número mais caro do sistema e um quinto não fecha a conta.*
+
+**E a premissa de que a Ação Bônus limita sozinha não se sustenta nos documentos, que dizem o contrário em três lugares:** a peça 3 §7 chama o slot de *"o mais vazio do turno"*, o CHANGELOG da v0.83 fechou com *"duas ações bônus ainda é pouco"*, e o `ESTADO-ATUAL` tem *"alguém usa ação bônus?"* marcado para o playtest. ***O caso mais forte é a `Besta`: o nível 2 dela paga `0,89` fatia exatamente para a recarga parar de comer a Ação Bônus, e o nível 11 volta a cobrar aquele slot.***
+
+**Nenhum número publicado se moveu.** *A discordância fica escrita, no molde do `Punho`.*
+
+### ⚠ Declarado — três dominâncias novas sobre a `Estocada`
+
+**Com o atirador parado em metade das rodadas, as três rotas vão de `4,52`–`4,82` para `5,95`–`6,09` contra um teto de `5,00`** — `+19%` a `+22%`, que é **exatamente o tamanho do `Punho`**, publicado em `6,09` e aceito na v0.74.
+
+| | ação/alvo | defesa | posicionamento | total |
+|---|---|---|---|---|
+| `Estocada` | 5,02 | 0,00 | 0,00 | 5,02 |
+| `Executor` | 2,84 | **1,84** | 0,00 | 4,68 |
+| `Yumi` | 5,74 | 0,00 | 0,35 | **6,09** |
+| `Besta` | 5,24 | 0,00 | **0,71** | **5,95** |
+| `Arma de Fogo` | **6,00** | 0,00 | 0,00 | **6,00** |
+
+**As três dominam a `Estocada` por `1,19×` a `1,21×`** — o mesmo tamanho da dominância `Explosivo` sobre `Torrente` que já está declarada, e dentro do filtro que reprova em `3,00×`.
+
+> **A causa é a de sempre: falta coluna, não sobra número.** *O nível 2 da `Estocada` vale `0,00` em dano e entrega duas coisas que a matriz não tem onde olhar.*
+>
+> **O que a matriz continua segurando:** ninguém domina o `Executor`, que é o único com coluna de defesa, e as três rotas não se dominam entre si.
+
+### ⚠ E entrou a TERCEIRA taxa sem medida deste bloco
+
+*As outras duas já estavam declaradas: quantas rodadas um atirador passa na faixa longa, e quantas ele passa colado.* **Agora entra *"em quantas rodadas ele fica parado"*, e ela sozinha decide `2,12` fatias.** *A `1,00×` as três rotas vão a `8,07`–`8,21` e a dominância sobe para `1,64×`.* **É a primeira coisa a olhar na mesa, junto com o estouro.**
+
+### Alterado — o `carregar` e o `Mirar` disputam o mesmo slot, e o `Yumi` tem exceção
+
+*O nível 11 do `Yumi` sempre disse que o `Mirar` "pode ser usada junto do `carregar`", e a frase só significa alguma coisa agora que se sabe que os dois são Ação Bônus.* **Escrito: uma mesma Ação Bônus faz os dois, e só o `Yumi` empilha.**
+
+### Em aberto
+
+- **O nome `Mirar` continua devendo.** *A triagem devolve ele como `fraco`: está a uma letra de `Mira`, que é Família no manual.* **A dívida de regra fechou; a de nome não.**
+- **Faltam `21` nomes de entrega**, e agora nenhum deles está bloqueado por buraco de regra.
+- **`Quick Draw` é o único nome em inglês do sistema.**
+- **Cobertura não existe como regra**, e isso apareceu procurando forma para o `Mirar`. *Não é urgente; fica registrado que a lacuna é real.*
+- As de sempre: as quatro aptidões abertas, a troca do marco, os metros das armas de projétil, `Caído` para `Inconsciente`, o `Repertório` na peça 6 §2, o calendário velho no §9 dela, e o nome do sistema.
+
+---
+
 ## [0.85] — 2026-08-17
 
 **A contagem ganhou dono, e um validador do projeto passou a ler os `DESENHO-*.md` pela primeira vez.** *Aqueles três arquivos estavam fora de alcance de todo validador desde que existem, e o preço disso está medido: o nível 27 da `Estocada` passou três versões cobrando `1,33` fatia na tabela e entregando `5,31` no bloco de regra.* **Passam a ser dezessete peças e dezessete validadores.**

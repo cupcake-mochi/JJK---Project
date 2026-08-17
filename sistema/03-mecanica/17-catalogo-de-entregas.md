@@ -56,7 +56,9 @@ Todas moram em **`DESENHO-trilhas.md`**, na seção mecânica da Trilha.
 | **`Batedor` · `Arma de Fogo`** | — | `Mirar` | `Quick Draw` | — |
 | **`Executor`** | `Pegada` | `Aprumo` | `Revide` | `Retomada` |
 
-> **O `Mirar` aparece em seis destas casas e não tem regra em lugar nenhum.** *Ele é entregue no nível 11 das três rotas e estendido no 27 das três, valendo entre `1,60` e `2,04` fatias por degrau.* **Nem a lista de ações da peça 3 §3.1 nem o desenho dizem o que ele faz ou que slot ele gasta.** *Fica listado com o furo à vista, que é o trabalho desta peça.*
+> **O `Mirar` aparece em seis destas casas, e até a v0.85 ele não tinha regra em lugar nenhum.** *Este índice foi quem achou: treze menções no desenho, todas concedendo, nenhuma definindo.* **Escrito na v0.86** — Ação Bônus, vantagem no próximo tiro, e só se você não se deslocou nem vai se deslocar. *A regra mora no `DESENHO-trilhas.md`, na seção `A ação Mirar`, antes das três rotas.*
+>
+> **O nome continua devendo.** *A triagem devolve `Mirar` como `fraco`: ele está a uma letra de `Mira`, que é Família no manual.* **Isso é dívida de nome, e ela é separada da de regra, que fechou.**
 
 ### Guia — 12 com nome, 0 sem
 
@@ -144,7 +146,7 @@ Oito checagens. **Nenhuma guarda valor:** os nomes saem das tabelas desta peça 
 
 ## 8. Em aberto
 
-- **O `Mirar` não tem regra.** Seis degraus do `Batedor` o entregam, e nenhum documento diz o que ele faz. *E a triagem devolve o nome como `fraco`: ele está a uma letra de `Mira`, que é Família no manual.* **É buraco de regra, não de nome.**
+- ~~**O `Mirar` não tem regra.**~~ **Escrito na v0.86**, e ele estoura o degrau em `4,25` fatias contra `0,80` — *decisão do Mizuki, com o estouro declarado no desenho, no molde do `Punho` e da `Brasa`.* **O que sobrou é o nome**, que a triagem devolve como `fraco`.
 - **`Quick Draw` é o único nome em inglês do sistema.** *Nível 19 da rota `Arma de Fogo`.*
 - **Duas entregas têm nome em minúscula** — o `carregar` do `Yumi` e o `acelerar` da `Torrente` —, contra as outras trinta e duas capitalizadas. *Contam como nome; a inconsistência fica registrada.*
 - **As três do Evocador ficam de fora enquanto estiverem paradas.** Quando voltarem, o total sai de `89` e a checagem 1 acusa até esta peça subir junto.

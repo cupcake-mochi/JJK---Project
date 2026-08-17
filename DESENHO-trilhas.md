@@ -176,6 +176,60 @@ E o **Yuji** com o Punho Divergente é a mesma ideia num golpe só: o soco acert
 
 *Isso é o que faz as três serem escolhas diferentes em vez de três versões da mesma coisa — e as três dependem da regra de alcance, que a peça 14 §5.2.1 escreveu nesta versão.*
 
+## A ação `Mirar` — escrita na v0.86
+
+*As três rotas concedem ela no nível 11 e estendem no 27 — **seis degraus** —, e ela atravessou da v0.74 à v0.85 **sem regra escrita em lugar nenhum do repositório**. Quem achou foi o `conferir-catalogo.py`, indexando os degraus que a citam: treze menções, todas concedendo, nenhuma definindo.*
+
+> **`Mirar`.** *Ação Bônus.* Você firma o corpo e alinha o tiro.
+> **O seu próximo ataque com arma de projétil nesta rodada é rolado com vantagem.**
+> **Você só pode `Mirar` se não tiver se deslocado nesta rodada, e o `Mirar` se perde se você se deslocar.**
+
+*Do nível 27 em diante ela vale para o **ataque básico e o extra**, nas três rotas.*
+
+### ⚠ Ela estoura o degrau, e o estouro é decisão do Mizuki
+
+***"Você tá inflando demais essa habilidade, garanto para você, pode passar e manter como está."*** *Precedente dele mesmo, com a mesma frase: a `Brasa`, na v0.81.*
+
+**Nenhum número publicado se moveu.** O que segue é o tamanho medido, escrito porque a conta discorda — no molde do `Punho`, que estoura `22%` e fica.
+
+| a peça | vale |
+|---|---|
+| vantagem em **um** dos dois ataques | `+27,00` de dano na rodada |
+| abrir mão do deslocamento de `9 m` | `−5,40` |
+| **líquido, na rodada em que dispara** | **`21,60` = `4,25` fatias** |
+
+**O gate de movimento corta `20%` do preço, e o degrau tem `0,80` fatia.** *A leitura que sustentava esse `0,80` é o nível 11 menos o nível 27, e ela fecha nas três rotas entre `0,71` e `0,87`.*
+
+**Com o `Mirar` dentro, e supondo o atirador parado em metade das rodadas:**
+
+| rota | publicado | com o `Mirar` medido |
+|---|---|---|
+| `Yumi` | 4,82 | **6,09** |
+| `Arma de Fogo` | 4,74 | **6,00** |
+| `Besta` | 4,52 | **5,95** |
+
+> **As três caem em `+19%` a `+22%` sobre as `5,00`, que é exatamente o tamanho do `Punho`** — ele está publicado em `6,09` e foi aceito na v0.74 com o mesmo argumento. *A `Brasa` está bem pior, entre `7,06` e `9,42`, e também ficou.*
+
+### A dominância que isso cria, declarada
+
+**As três rotas passam a dominar a `Estocada`, por `1,19×` a `1,21×`.**
+
+| | ação/alvo | defesa | posicionamento | total |
+|---|---|---|---|---|
+| `Estocada` | 5,02 | 0,00 | 0,00 | 5,02 |
+| `Executor` | 2,84 | **1,84** | 0,00 | 4,68 |
+| `Yumi` | 5,74 | 0,00 | 0,35 | **6,09** |
+| `Besta` | 5,24 | 0,00 | **0,71** | **5,95** |
+| `Arma de Fogo` | **6,00** | 0,00 | 0,00 | **6,00** |
+
+> **Ela é do mesmo tamanho da que o projeto já aceitou entre o `Explosivo` e a `Torrente`, que é `1,20×`** — e passa no filtro, que reprova em `3,00×`.
+>
+> **E a causa é a mesma das outras três dominâncias declaradas: falta coluna, não sobra número.** *O nível 2 da `Estocada` vale `0,00` em dano e entrega duas coisas para as quais a matriz não tem onde olhar — conjurar de verdade na padrão e ainda bater, e trocar o atributo da arma.*
+>
+> **O que a matriz continua segurando:** ninguém domina o `Executor`, que é o único com coluna de defesa, e as três rotas não se dominam entre si, porque a `Besta` e o `Yumi` têm posicionamento e a `Arma de Fogo` não.
+
+> **⚠ E a taxa é a TERCEIRA previsão sem medida deste bloco.** *As outras duas já estavam declaradas: quantas rodadas um atirador passa na faixa longa, e quantas ele passa colado.* **Agora entra "em quantas rodadas ele fica parado", e ela sozinha decide `2,12` fatias:** a `1,00×` as três rotas vão a `8,07`–`8,21` e a dominância sobe para `1,64×`. *É a primeira coisa a olhar na mesa, junto com o estouro.*
+
 ## `Yumi` — 4,82 de 5,00
 
 | nv | a entrega | fatias |
@@ -188,7 +242,7 @@ E o **Yuji** com o Punho Divergente é a mesma ideia num golpe só: o soco acert
 > **Nível 2.** Você **não sofre desvantagem na faixa longa** de arma de projétil. O seu deslocamento sobe **`+3 m`** e conta como **deslocamento de escalada** — árvore, parede, o que a ficção permitir.
 > **`carregar`:** ação bônus. O seu próximo ataque com arco tem a **margem crítica reduzida em 1** (crítico em `19` ou `20`). *E você pode abdicar do seu ataque extra para somar o dado da arma ao ataque carregado, **sem o atributo** — perde dano e ganha chance de crítico.*
 >
-> **Nível 11.** Você ganha a ação **`Mirar`**, e ela **pode ser usada junto do `carregar`**. E os seus ataques com arma de longo alcance somam **`+2` no acerto**.
+> **Nível 11.** Você ganha a ação **`Mirar`**. **Uma mesma Ação Bônus sua faz o `Mirar` e o `carregar` juntos** — os dois custam aquele slot, e só o `Yumi` pode empilhar os dois. E os seus ataques com arma de longo alcance somam **`+2` no acerto**.
 >
 > **Nível 19.** O `carregar` passa a reduzir a margem em **2** — crítico em `18` a `20`.
 >
