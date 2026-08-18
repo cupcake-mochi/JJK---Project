@@ -6,6 +6,86 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.99] — 2026-08-18
+
+**A tabela de progressão virou a peça 18, e ela não estava espalhada por cinco documentos: eram dez números em seis lugares.** *E um dos dez não tinha dono nenhum.* **Dezoito peças e dezoito validadores.**
+
+### ⚠⚠ O achado: o tamanho da lista de feitiços não era de ninguém
+
+**A fórmula dos espaços de feitiço conhecido — `2 + nível ÷ 2`, mais um por marco — estava escrita à mão dentro de DOIS validadores e em nenhum documento.** *Mesma linha no `conferir-aptidoes.py` e no `conferir-expansao.py`.* **É a regra que este projeto repete desde a v0.14: nada de valor fica escrito dentro do validador.**
+
+**E dá para dizer exatamente quando ela ficou órfã.** *O manual carregava a contagem até a v7.6 e a devolveu na v7.7, com o motivo escrito: ela discordava do sistema em volta em três feitiços no nível 20 e seis no 30.* **O texto de lá hoje diz, com todas as letras:** *"Quantos feitiços você conhece não é conta deste manual. O tamanho da lista vem do sistema em volta."*
+
+> **É o inverso exato do defeito que o projeto viu três vezes.** *Nas v0.80, v0.86 e v0.92 o projeto foi inventar régua que o manual já publicava.* **Aqui o manual passou um número adiante e não tinha ninguém do outro lado.** *A peça 18 pega, e os dois validadores passam a ler a coluna dela.*
+
+### Adicionado — a peça 18, com UMA tabela
+
+***Decisão do Mizuki: uma tabela só,*** *"DnD não divide em múltiplas"*. **Trinta linhas, nove colunas** — nível, XP, maestria, espaços, refino, Classe, Passiva, Classe 0 e o que acontece.
+
+**Dezenove dos trinta níveis entregam alguma coisa.** *Os onze restantes crescem em número e não em regra.*
+
+**Três coisas ficaram de fora, e nenhuma por esquecimento:**
+
+| o que | por quê |
+|---|---|
+| **vida e PE** | dependem do Caminho, e são duas contas de uma linha — dez colunas a mais para publicar duas fórmulas |
+| **a escolha do marco** | são três eixos e quem escolhe é o jogador; o dono é a peça 11 §3 |
+| **o que o degrau de Caminho e a entrega de Trilha dão** | são 89 entradas, e o índice delas é a peça 17 |
+
+### Corrigido — a peça 2 publicava a rota de Refino com os números de antes da v0.89
+
+**A tabela *"Três fichas ao longo da campanha"* dizia `5` aptidões no nível 22 e `7` no 30.** *São `6` e `10`.*
+
+**Os números dela são os de antes da decisão da v0.89** — a que diz que, no teto, a escolha de Refino leva duas aptidões em vez de uma. *A peça 11 publica `10` na letra desde então.*
+
+> **Aquela seção já carregava um aviso de que estava desatualizada, e o aviso falava de outra coisa:** *do terceiro eixo do marco, que entrou na v0.26.* **A contagem de aptidão é um segundo erro por baixo do primeiro, e ele passou nove versões.** *Nenhum validador lia aquela tabela — a peça 2 é a única peça de regra sem validador dono.*
+
+### Adicionado — o `conferir-progressao.py`, com oito checagens
+
+**Nenhum valor da tabela está escrito dentro dele.** *As nove colunas são reconstruídas lendo os donos e comparadas linha a linha.*
+
+| # | o que ela confere | dono |
+|---|---|---|
+| 1 | a tabela tem 30 linhas, do 1 ao 30, sem buraco | — |
+| 2 | XP | peça 12 §3 |
+| 3 | maestria | peça 1 §2 |
+| 4 | marcos e refino passivo | peça 11 §3 |
+| 5 | espaços, e a **regressão** contra a tabela da peça 11 | a própria peça 18 §4 |
+| 6 | degrau de Caminho e entrega de Trilha | `DESENHO-caminhos.md` |
+| 7 | Classe, Passiva, Classe 0, Liberação e Técnica Máxima | manual §9 |
+| 8 | a cópia de três fichas da peça 2 | a regra da peça 11 |
+
+**A checagem 5 é a que impede a coluna nova de virar número solto.** *A peça 11 publica quatro valores que saem da mesma fórmula — `12` no nível 14, `16` no 20, `21` no 26 e `24` no 30 —, e o validador exige que a fórmula reproduza os quatro.* **Sem isso, a peça 18 poderia publicar qualquer coisa e sair verde contra ela mesma.**
+
+**A checagem 8 é a que achou o erro da peça 2**, e ela roda a rota em vez de comparar com número guardado.
+
+**E ela PULA sem o `python-docx`, e diz que pulou** — as colunas de Classe, Passiva e Classe 0 são as três que dependem do manual.
+
+### As onze perturbações, em cópia isolada
+
+| perturbação | esperado | deu |
+|---|---|---|
+| uma célula de XP muda na peça 18 | acende | acende |
+| a peça 12 muda uma faixa de XP e a peça 18 não | acende | acende |
+| a peça 1 muda um degrau de maestria | acende | acende |
+| o calendário de marcos da peça 11 muda | acende | acende |
+| **a fórmula dos espaços muda e a tabela da peça 11 não** | acende | acende |
+| a peça 2 volta a dizer `7 apt` no nível 30 | acende | acende |
+| o `DESENHO-caminhos` muda o calendário de Trilha | acende | acende |
+| a tabela da peça 18 perde uma linha | acende | acende |
+| **o cabeçalho da tabela da peça 18 muda de forma** | acende | acende |
+| **contra-teste:** reescrever a coluna "o que acontece" sem mexer em número | verde | verde |
+| sem `python-docx` | **PULA e diz** | PULA e diz |
+
+### Em aberto
+
+- **A curva de refino das três rotas continua no `arquitetura.md` §4.3**, que é documento de projeto e não peça. *É a última fonte da progressão fora de uma peça, e o candidato natural é a peça 11.*
+- **A peça 2 continua sendo a única peça de regra sem validador dono.** *A checagem 8 alcança uma tabela dela, e só.*
+- **O quick-start vai republicar esta tabela**, e aí ela vira número de dois donos — com a peça 18 sendo a fonte.
+- O resto da lista da v0.98 continua igual.
+
+---
+
 ## [0.98] — 2026-08-18
 
 **A entrega estava em dia nas cópias e errada em tudo que não é cópia.** *As vinte e cinco cópias batiam byte a byte com a fonte e os dois repositórios estavam no mesmo commit — e mesmo assim ela mandava o leitor abrir dezenove arquivos que não estavam lá, e o README dela afirmava seis números que outra versão já tinha mudado.* **Nasceu a checagem 7, que é a primeira coisa do projeto que atravessa os dois repositórios.** Continuam dezessete peças e dezessete validadores.

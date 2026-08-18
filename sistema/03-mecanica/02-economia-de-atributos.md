@@ -44,7 +44,7 @@ A cada quatro níveis a partir do começo da ficha — nos níveis **6, 10, 14, 
 - **Passivo:** +1 ponto de atributo e +1 de refino.
 - **Escolha:** mais um ponto de atributo, **ou** mais um de refino junto de uma aptidão.
 
-> **Esta seção está desatualizada desde a v0.26, e o conserto sai com a peça de aptidões.** O marco ganhou um **terceiro eixo, o Leque** — a linha passiva passou a dar **+1 espaço de feitiço** junto do atributo e do refino, e a escolha virou uma de três: mais atributo, mais refino com uma aptidão, ou `+1 feitiço e uma Passiva`. As três fichas de exemplo abaixo e a análise de auto-equilíbrio da seção seguinte foram calculadas com duas opções e continuam válidas **para as duas que já existiam**. O levantamento do terceiro eixo, com a conta, está no `ESTADO-ATUAL.md`.
+> **⚠ Esta seção é CÓPIA, e o dono é a peça 11 §3.** *Ela está desatualizada desde a v0.26, e o conserto saiu com a peça de aptidões.* O marco ganhou um **terceiro eixo, o Leque** — a linha passiva passou a dar **+1 espaço de feitiço** junto do atributo e do refino, e a escolha virou uma de três: mais atributo, mais refino com uma aptidão, ou `+1 feitiço e uma Passiva`. As três fichas de exemplo abaixo e a análise de auto-equilíbrio da seção seguinte foram calculadas com duas opções e continuam válidas **para as duas que já existiam**. O levantamento do terceiro eixo, com a conta, está no `ESTADO-ATUAL.md`.
 
 **Teto do atributo: 6.** Teto do refino: 10.
 
@@ -58,7 +58,7 @@ Partindo de 3/2/2/1/1:
 |---|---|---|---|
 | **sempre atributo** | 6·5·2·1·1 · ref 4 · 0 apt | 6·6·5·1·1 · ref 6 · 0 apt | 6·6·6·4·1 · ref 8 · 0 apt |
 | **meio a meio** | 6·4·2·1·1 · ref 5 · 1 apt | 6·6·3·1·1 · ref 8 · 2 apt | 6·6·6·1·1 · ref 10 · 3 apt |
-| **sempre refino** | 6·2·2·1·1 · ref 7 · 3 apt | 6·4·2·1·1 · ref 10 · 5 apt | 6·6·2·1·1 · ref 10 · 7 apt |
+| **sempre refino** | 6·2·2·1·1 · ref 7 · 3 apt | 6·4·2·1·1 · ref 10 · **6 apt** | 6·6·2·1·1 · ref 10 · **10 apt** |
 
 Repare que **os três chegam ao mesmo lugar no atributo principal** — 6 — e divergem em tudo o mais. Quem foca atributo termina largo: três ou quatro atributos altos. Quem foca refino termina estreito e fundo: dois atributos altos, refino no teto e sete aptidões.
 

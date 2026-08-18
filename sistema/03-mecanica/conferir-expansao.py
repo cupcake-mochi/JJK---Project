@@ -34,6 +34,7 @@ CONTRATO DE INVARIANTES:
 
 Roda sem argumento. Sai com codigo 1 se algo quebrar.
 """
+import os
 import math
 import sys
 
@@ -147,13 +148,43 @@ def abre_em(rota, degrau, curva=None):
     return None
 
 
-def feiticos_base(nv):
-    return 2 + nv // 2
+# --------------------------------------------------------------------------
+# O tamanho da lista de feiticos NAO fica escrito aqui. Ate a v0.98 ficava — a
+# mesma linha `2 + nv // 2` estava a mao neste arquivo e no vizinho, e em
+# nenhum documento. A peca 18 virou a dona na v0.99, e esta funcao le a coluna
+# `espacos` da tabela dela.
+# --------------------------------------------------------------------------
+def _espacos_da_peca18():
+    caminho = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                           '18-progressao.md')
+    with open(caminho, encoding='utf-8') as fh:
+        linhas = [l.strip() for l in fh if l.strip().startswith('|')]
+    cab = [l for l in linhas if 'nível' in l and 'espaços' in l and 'refino' in l]
+    if len(cab) != 1:
+        raise ValueError('a peca 18 nao tem UMA tabela com as colunas nivel/espacos/'
+                         'refino — ela mudou de forma e este leitor parou de funcionar')
+    col = [c.strip() for c in cab[0].strip('|').split('|')].index('espaços')
+    tab = {}
+    for l in linhas[linhas.index(cab[0]) + 2:]:
+        cel = [c.strip() for c in l.strip('|').split('|')]
+        if len(cel) < col + 1:
+            break
+        nv = cel[0].strip('*')
+        if not nv.isdigit():
+            break
+        tab[int(nv)] = int(cel[col].strip('*'))
+    if sorted(tab) != list(range(1, 31)):
+        raise ValueError(f'a coluna de espacos da peca 18 tem {len(tab)} niveis e '
+                         f'deveria ter 30 — a tabela mudou de forma')
+    return tab
+
+
+ESPACOS_POR_NIVEL = _espacos_da_peca18()
 
 
 def espacos(nv):
-    """Espacos de feitico conhecido: 2 + nivel/2, mais um por marco."""
-    return feiticos_base(nv) + sum(1 for m in MARCOS if nv >= m)
+    """Espacos de feitico conhecido. Dono: a peca 18, secao 4."""
+    return ESPACOS_POR_NIVEL[nv]
 
 
 # --------------------------------------------------------------------------

@@ -624,7 +624,11 @@ else:
     # medido na v0.98: 161 citacoes, 85 delas brancas. O teto tem folga de cinco
     # e nao mais — quem precisar de mais que isso esta acrescentando familia nova
     # a lista, e ai o numero sobe junto com o motivo escrito.
-    PISO_CITACOES, TETO_BRANCOS = 120, 90
+    #
+    # v0.99: 174 e 91. As seis novas sao a peca 18 citando os tres validadores
+    # que leem a coluna de espacos dela e o caminho do arquitetura.md na arvore
+    # da FONTE, mais duas da peca 2. Nenhuma familia nova — o teto vai a 96.
+    PISO_CITACOES, TETO_BRANCOS = 120, 96
     if vistos_e < PISO_CITACOES:
         erro(f'7.2: achei so {vistos_e} citacoes na entrega, e o piso e {PISO_CITACOES} — '
              f'o extrator mudou de forma e esta checagem parou de conferir')

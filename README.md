@@ -2,7 +2,7 @@
 
 **O sistema se chama `Projeto - M`**, batizado na v0.94 — era a pendência mais velha que existia aqui, aberta na v0.1. Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.98** · manual do Fundamento na **v7.9** · **dezessete peças de regra** e **dezessete validadores passando**.
+**Versão v0.99** · manual do Fundamento na **v7.9** · **dezoito peças de regra** e **dezoito validadores passando**.
 
 ---
 
@@ -61,7 +61,7 @@ Depois disso, a ordem de leitura é a da próxima seção, e os validadores são
     ├── 00-fundacao/                     os três pilares e as restrições do projeto
     ├── 01-pesquisa/                     dossiê de metodologia — a seção 8 lista as dez travas
     ├── 02-esqueleto/                    arquitetura: subsistemas e como se encaixam
-    ├── 03-mecanica/                     as dezessete peças de regra e os dezessete validadores
+    ├── 03-mecanica/                     as dezoito peças de regra e os dezoito validadores
     ├── 04-playtest/                     vazia. Zero sessões desde a v0.1
     ├── 05-material/                     a ficha, e o gerador dela. O quick-start ainda não
     ├── 99-arquivo/                      material morto, com LEIA-ME próprio
@@ -118,6 +118,7 @@ python3 conferir-legados.py      # os três formatos, a cota de Desliga, as vaga
 python3 conferir-invocacoes.py   # o teto somado, o catálogo, a régua, a morte e o orçamento
 python3 conferir-ferramenta.py   # o fundo, o gate herdado, a escada de grau, o teto na ficha
 python3 conferir-catalogo.py     # o índice das 89 entradas contra os três DESENHO da raiz
+python3 conferir-progressao.py   # as nove colunas da tabela de progressão contra os donos
 ```
 
 **Os cinco últimos são de outra natureza, e vale saber por quê.** Os onze primeiros conferem **regra** — *a fórmula deriva certo?*.
