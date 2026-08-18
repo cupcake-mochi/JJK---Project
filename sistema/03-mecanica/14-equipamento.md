@@ -1085,7 +1085,7 @@ As duas estão escritas na tabela de classes e não aparecem na lista de nomes m
 
 > **Falta uma coluna, e ela é de texto e não de número: a descrição de cada arma.** *Decisão do Mizuki na v0.47.* Cada uma ganha um parágrafo narrativo com **as propriedades em negrito dentro do texto**, explicadas pela ficção em vez de por tabela — é lá que a condição que hoje é tácita fica escrita (*por que este cabo aceita a segunda mão e o do machete não*). **Não é regra nova: é o mesmo conteúdo, dito do jeito que se lê na mesa.**
 >
-> **Deliberadamente adiado**, porque este documento ainda é nota de design e 52 descrições são material. **Vai junto da passada de texto de mesa**, com o quick-start — e é o primeiro lugar onde a skill `redacao-acessivel-rpg` tem serviço, já que ela nunca foi rodada contra nada. *Enquanto não existir, quem segura a condição é o validador, e ele só consegue acusar; não consegue explicar.*
+> **Deliberadamente adiado**, porque este documento ainda é nota de design e 52 descrições são material. **Vai junto da passada de texto de mesa**, que a partir da v0.102 tem um destino só — o PDF — e é o primeiro lugar onde a skill `redacao-acessivel-rpg` tem serviço, já que ela nunca foi rodada contra nada. *Enquanto não existir, quem segura a condição é o validador, e ele só consegue acusar; não consegue explicar.*
 
 > **Odachi e Nodachi ficam separados por DECISÃO DE DESIGN, e não por canon.** Três fontes especializadas dizem que os termos são intercambiáveis e que *"não há distinção formal em morfologia de lâmina"*. O que elas sustentam é o **porte nas costas com saque assistido**, e é dele que sai a `Embainhada`. *Fica escrito porque, sem isto, a próxima releitura procura uma fonte histórica que não existe.*
 
@@ -1576,7 +1576,7 @@ A peça 11 escolheu o `1,5 ×` com critério escrito: *"o saldo **encolhe** em v
     >
     > **A condição de ficção deixa de ser tácita porque ela vira texto da arma.** Não é regra nova nem preço novo: é o parágrafo que diz o que a coisa *é*, com `Versátil` em negrito dentro dele explicando por que aquele cabo aceita a segunda mão e o do machete não. **A trava passa a ser o próprio texto** — quem for escrever uma arma caseira tem de escrever a frase, e a frase ou fecha ou não fecha.
     >
-    > **E fazer isso agora é desperdício** — decisão dele, e ela está certa: as 52 descrições são texto de mesa, e este documento ainda é nota de design. **Fica declarado no §5.3 como coluna que vem**, para ser puxado na passada de material, junto do quick-start e do resto do que a `redacao-acessivel-rpg` nunca viu.
+    > **E fazer isso agora é desperdício** — decisão dele, e ela está certa: as 52 descrições são texto de mesa, e este documento ainda é nota de design. **Fica declarado no §5.3 como coluna que vem**, para ser puxado na passada de material, junto do PDF e do resto do que a `redacao-acessivel-rpg` nunca viu.
     >
     > **Até lá o validador acusa**, que é a metade de graça: as quatro que carregam `Versátil` hoje entram como lista `ACEITA` e **uma quinta falha**, no mesmo molde que `Alcance` e `Distância` já usam.
 

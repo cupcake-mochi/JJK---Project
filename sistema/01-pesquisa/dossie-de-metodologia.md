@@ -247,6 +247,8 @@ Consolidando. Estas são as travas que a Fase 3 herda:
 6. **Downtime precisa de regra**, porque o RP por texto da Guilda já é downtime acontecendo sem sistema.
 7. **A lista de premissas herdadas de D&D precisa ser questionada uma a uma e por escrito**, ou a gente entrega um heartbreaker de shounen sem perceber.
 8. **O material nasce com quick-start na frente.** Isso é requisito de estrutura, não de diagramação.
+
+   > **⚠ O FORMATO desta trava foi abandonado na v0.102, e a propriedade que ela defende não foi decidida.** *Decisão do Mizuki: `"pode abandonar a ideia do quick start, eu tô fazendo o PDF direto"`.* **O que este item pede não é um arquivo separado — é que alguém consiga jogar antes de ler tudo.** *Se o PDF vai carregar essa propriedade, e como, continua em aberto.* **A pesquisa fica escrita como está: ela é o levantamento, e não a decisão.**
 9. **O playtest é 5 pessoas × 3 rodadas, em blocos temáticos de duas semanas**, aproveitando as mesas paralelas da Guilda.
 10. **Precisa existir um guia do mestre com a matemática exposta** — conta de encontro, ritmo de recompensa, regra de morte — ou a consistência entre mesas não sobrevive ao terceiro mestre.
 

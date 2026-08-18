@@ -141,5 +141,5 @@
 ## 7. Em aberto
 
 - **A curva de refino das três rotas continua morando no `arquitetura.md` §4.3**, que é documento de projeto e não peça de regra. *Ela é a única fonte da progressão que ainda está fora de uma peça.* **O candidato natural é a peça 11**, que já publica a rota pura marco a marco.
-- **Esta peça é argumento de design como todas as outras, e a tabela dela é texto de mesa.** *Quando o quick-start existir, a tabela vai aparecer lá também* — e aí ela vira número de dois donos, com esta peça sendo a fonte e o validador conferindo a cópia.
+- **Esta peça é argumento de design como todas as outras, e a tabela dela é texto de mesa.** *Quando o PDF sair, a tabela vai aparecer lá também* — e aí ela vira número de dois donos, com esta peça sendo a fonte e o validador conferindo a cópia. **O quick-start era o destino previsto até a v0.102, quando ele foi abandonado.**
 - **A coluna `XP` supõe missão padrão.** *A peça 12 §4 tem missão curta e longa, e a §5 tem o teto semanal; nenhuma das duas cabe numa coluna por nível.*

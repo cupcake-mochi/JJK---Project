@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 18/08/2026, na v0.101 (última peça fechada: **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 18/08/2026, na v0.102 (última peça fechada: **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.101.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezoito peças escritas** e **dezoito validadores**.
+**Versão v0.102.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezoito peças escritas** e **dezoito validadores**.
 
 > **O número pulou de `0.99` para `0.100` e não para `1.00`.** ***Decisão do Mizuki:*** *`1.0` costuma querer dizer pronto para usar, e `04-playtest/` tem zero sessões, o quick-start não existe e faltam três Trilhas.* **O `1.0` fica reservado para quando alguém tiver jogado.**
 
@@ -283,7 +283,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/18-progressao.md` | **a tabela de progressão** — o que se ganha em cada nível, do 1 ao 30, numa tabela só. Nove das dez colunas são cópia com dono declarado; a décima, o tamanho da lista de feitiços, nasce aqui |
 | `03-mecanica/conferir-progressao.py` | as **oito** checagens da peça 18: cada coluna reconstruída a partir do dono, a fórmula dos espaços contra a tabela da peça 11, e a cópia de três fichas da peça 2 |
 | `05-material/gerador-ficha/` | o gerador da ficha (Node: `node make.js`), e os dois `.docx` que ele produz |
-| `conferir-repositorio.py` | a árvore, as referências mortas, os números que moram em mais de um documento, os **ponteiros de seção** — todo `peça N §M` citado tem de apontar para seção que existe, desde a v0.54 —, o **mapa** desta tabela contra a pasta, a **entrega** contra a fonte, e — **desde a v0.100** — a **pendência morta**: nenhum item de "Em aberto" pode pedir coisa que já existe |
+| `conferir-repositorio.py` | a árvore, as referências mortas, os números que moram em mais de um documento, os **ponteiros de seção** — todo `peça N §M` citado tem de apontar para seção que existe, desde a v0.54 —, o **mapa** desta tabela contra a pasta, a **entrega** contra a fonte, a **pendência morta** desde a v0.100 — nenhum item de "Em aberto" pode pedir coisa que já existe —, e, **desde a v0.102**, a **contagem de checagens de cada validador, lida do código** |
 | `99-arquivo/` | material morto, com LEIA-ME próprio. Não leia de lá para escrever peça nova |
 
 **Duas peças foram parcialmente substituídas e trazem o aviso no topo:** as seções 3 e 4 da peça 4 saíram para a peça 7, e a seção 3 e o quadro de Caminhos da peça 5 saíram para a peça 6.
@@ -564,12 +564,14 @@ Vale ter isso à mão, porque o material é grande e engana. *Medido na v0.33, e
 | falta | tamanho do buraco |
 |---|---|
 | ~~**Tabela de progressão consolidada**~~ | **fechada na v0.99**, na peça 18: uma tabela só, trinta linhas, nove colunas. *Ela não estava espalhada por cinco documentos — eram dez números em seis lugares, e um deles não tinha dono nenhum.* **A curva de refino das três rotas continua no `arquitetura.md` §4.3**, e é a última fonte da progressão fora de uma peça |
-| **Quick-start jogável** | decidido na v0.2 como a estrutura do material final. Não existe. As quinze peças são argumento de design, não texto de regra: ninguém senta na mesa com elas |
+| ~~**Quick-start jogável**~~ | **Abandonado na v0.102**, por decisão do Mizuki: *"pode abandonar a ideia do quick start, eu tô fazendo o PDF direto"*. *Ele estava decidido na v0.2 como a estrutura do material final.* **O texto de mesa passa a ter um destino só, e é o PDF** — escrito a partir do repositório de entrega |
 | **Playtest** | `04-playtest/` está vazia. Zero sessões desde a v0.1. **Todo número do sistema é previsão** |
 
 *A **tabela de XP** saiu desta lista na v0.32.* Ela era a trava nº 1 de mundo compartilhado e ficou aberta trinta versões; hoje é a peça 12, com o `conferir-xp.py` em cima dela.
 
-A skill `redacao-acessivel-rpg` existe exatamente para a travessia de "nota de design" para "texto de regra", e nunca foi rodada contra o material.
+A skill `redacao-acessivel-rpg` existe exatamente para a travessia de "nota de design" para "texto de regra", e nunca foi rodada contra o material. **Com o quick-start fora, quem recebe essa travessia é o PDF.**
+
+> **⚠ E uma pergunta ficou aberta junto com a decisão.** *O dossiê de metodologia lista, como trava de arquitetura, que o material nasce com um quick-start na frente — e o argumento de lá não é sobre ter dois arquivos, é sobre **alguém conseguir jogar antes de ler tudo**.* **Abandonar o formato não responde se o PDF vai carregar essa propriedade ou não.** *Isso é decisão do Mizuki, e não foi tomada.*
 
 **E as dez pendências que só a mesa responde são todas de nível 2** — Constituição virou obrigatória, alguém usa ação bônus, Intuição contra Percepção, se quatro perícias livres é escolha demais, se alguém rola Pontaria, se o extra da Origem é escolha de igual para igual, se a criação leva mesmo vinte a quarenta minutos, se um Legado por ficha é pouco, se três lutas de graça é o número certo, e se o descanso curto devia devolver alguma vida. **Nenhuma delas precisa das aptidões.**
 
@@ -604,7 +606,7 @@ O que falta agora, na ordem em que travam umas às outras:
 >
 > O que falta para alguém sentar na mesa não é regra — é **material**: as peças são argumento de design e não texto de mesa. **`04-playtest/` está vazia desde a v0.1, e todo número do sistema continua sendo previsão.**
 >
-> A rota decidida com o Mizuki foi: v7.7 → anti-domínio → XP → **validação e polimento** → ficha e quick-start. *Os quatro primeiros saíram, o polimento foi a v0.33 e a **ficha saiu na v0.35** — `05-material/` não está mais vazia. Falta o quick-start.*
+> A rota decidida com o Mizuki foi: v7.7 → anti-domínio → XP → **validação e polimento** → ficha e quick-start. *Os quatro primeiros saíram, o polimento foi a v0.33 e a **ficha saiu na v0.35** — `05-material/` não está mais vazia.* **O quick-start foi abandonado na v0.102, e o último degrau desta rota virou o PDF.**
 
 ## A fila decidida com o Mizuki na v0.36
 

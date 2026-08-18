@@ -1,16 +1,18 @@
 # Prompt para a próxima conversa
-Escrito no fim da v0.101, contra o estado real. Cole isto inteiro numa conversa nova.
+Escrito no fim da v0.102, contra o estado real. Cole isto inteiro numa conversa nova.
 Renomeie o chat para o próximo número da sua sequência. *O último que teve nome escrito foi o **RPG - JJK15**, na v0.92.*
 
 ---
 
-Projeto de RPG da Guilda (Jujutsu Kaisen), chamado **Projeto - M**. Estamos na **v0.101**.
+Projeto de RPG da Guilda (Jujutsu Kaisen), chamado **Projeto - M**. Estamos na **v0.102**.
 
 **O número pulou de `0.99` para `0.100` e não para `1.00`, e foi decisão dele.** *`1.0` costuma querer dizer pronto para usar, e o playtest tem zero sessões.*
 
 **SÃO DOIS REPOSITÓRIOS, e a relação entre eles é de mão única.** O de TRABALHO é a fonte: `github.com/cupcake-mochi/JJK---Project`. Peças, validadores, CHANGELOG, ESTADO-ATUAL e os DESENHO moram lá. O de ENTREGA é artefato: `github.com/cupcake-mochi/JJK---PDF---RPG`, um recorte do material de mesa para o chat que vai escrever o PDF. **NADA NELE É EDITADO À MÃO, com UMA exceção: o `README.md` dele**, que não existe na fonte. Ele mora em `finalizado`, ignorado pelo `.gitignore` de lá e com `.git` próprio. **A PASTA LOCAL "Claude 2" É SEMPRE A MAIS ATUALIZADA dos dois.**
 
-> **Os dois estavam na v0.101 no disco quando isto foi escrito, e o commit é dele.** *Confira antes de começar: leia o `logs/HEAD` de dentro do `.git` de cada um como arquivo. O recorte já atrasou duas versões numa sessão só.*
+> **Os dois estavam na v0.102 no disco quando isto foi escrito, e o commit é dele.** *Confira antes de começar: leia o `logs/HEAD` de dentro do `.git` de cada um como arquivo. O recorte já atrasou duas versões numa sessão só.*
+
+**⚠ Não peça para ele sincronizar o Project.** *Ele não consegue fazer isso sem abrir outra conversa, e você não precisa: **clone os dois repositórios do GitHub** e você lê o commit mais novo direto.* **O "Sync now" só importa para chat que leia o Project em vez de clonar.**
 
 ## ⚠⚠ O MOUNT — leia isto antes de escrever qualquer arquivo
 
@@ -123,13 +125,13 @@ A **fatia** é `5,08` de dano por rodada. A Trilha leva `5` e o Caminho leva `3`
 
 ## Regra que falta
 
-- **A peça de dano e condições.** ***19 lugares em 8 documentos esperam por ela** — é a maior dívida estrutural.* Carrega a **Cicatriz**, o **clash** e três vagas de `Desliga`.
+- **A peça de dano e condições.** ***26 lugares em 8 documentos esperam por ela** — é a maior dívida estrutural, e o número foi recontado na v0.102 (estava escrito 19).* Carrega a **Cicatriz**, o **clash**, a penalidade por empunhar arma sem treino, as condições que impedem `Bloquear` e três vagas de `Desliga`.
 - **As três Trilhas do Evocador** — `Servo`, `Matilha` e `Coro`. *Paradas desde a v0.82.* **Decisão dele: ficam por último.** *Quando voltarem, o total de 89 entradas da peça 17 muda e a checagem 1 acusa.*
 - **A terceira taxa do `Batedor`:** em quantas rodadas o atirador fica parado. **Decide `2,12` fatias — e não é conta, é pergunta de mesa.**
 
 ## Material que falta, e não é regra
 
-- **Quick-start jogável.** *Não existe.* **É o que impede alguém de sentar na mesa.** *A skill de redação acessível existe para essa travessia e nunca foi rodada contra o material.*
+- **O PDF.** *Ele está escrevendo direto, a partir do repositório de entrega.* **O quick-start foi ABANDONADO na v0.102** — decisão dele —, e com isso o texto de mesa tem um destino só. *A skill de redação acessível existe para essa travessia e nunca foi rodada contra o material.*
 - **Playtest.** *A pasta de playtest está vazia desde a v0.1.* **Todo número do sistema é previsão.**
 
 ## Pendência pequena
@@ -149,11 +151,13 @@ A **fatia** é `5,08` de dano por rodada. A Trilha leva `5` e o Caminho leva `3`
 
 # ⚠ A PRIMEIRA COISA A FAZER, SE ELE NÃO PEDIR OUTRA
 
-**A contagem de checagens de cada validador é número de dois donos, e ninguém confere.**
+**A peça de dano e condições, e a conta que a põe na frente é direta:** *26 lugares em 8 documentos esperam por ela, contra 2 rotas de Origem que a `Técnica Marcial` destrava.*
 
-*A v0.100 achou duas erradas de passagem: o `conferir-equipamento` publicado como dez sendo onze, e o `conferir-catalogo` publicado como dez num lugar e nove em outro, sendo onze.* **Isso é a lição nº 9 num eixo que nenhuma checagem alcança**, e a conta é barata: contar os blocos numerados de cada validador e comparar com o que os documentos afirmam.
+**Ela fecha a `Cicatriz`, o `clash` de expansões, a penalidade por empunhar arma sem treino, as condições que impedem `Bloquear` e três das sete vagas de `Desliga`.**
 
-**É a mesma forma da checagem 4, que já compara cópia contra dono.** *A diferença é que aqui o dono é o CÓDIGO, e ninguém tinha tratado código como dono de número antes.*
+> **⚠⚠ E a primeira coisa a fazer DENTRO dela é ler o manual, não escrever régua.** *O manual já publica **catorze condições** — nove Menores e cinco Maiores —, com tier de preço, e a peça 1 é a dona da lista.* **O projeto foi inventar régua que o manual já publicava três vezes: na v0.80, na v0.86 e na v0.92.** *Quando o manual disser "isso não é conta minha", procure quem pegou; quando ele não disser nada, procure a tabela antes de escrever uma.*
+
+**A régua vem antes do catálogo.** *É a única recomendação de método que o rascunho de Trilhas faz, e a diferença entre a peça 13 fechar em uma versão e a peça 14 gastar seis.*
 
 # ⚠⚠ E A LIÇÃO DE MÉTODO DAS DUAS ÚLTIMAS VERSÕES
 

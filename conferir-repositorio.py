@@ -11,7 +11,7 @@ os changelogs e a pasta do sistema — e havia 104 referencias internas cruzadas
 Uma referencia quebrada nao falha nenhum validador: ela so' aparece seis meses
 depois, quando alguem abre o projeto em outro computador e nao acha o arquivo.
 
-Oito checagens:
+Nove checagens:
   1. ESTRUTURA — as pastas e os arquivos que o README promete existem.
   2. REFERENCIA MORTA — todo caminho citado em .md e .py resolve para um arquivo
      de verdade.
@@ -26,9 +26,14 @@ Oito checagens:
   7. A ENTREGA — o recorte de finalizado/ contra a fonte, byte a byte, e os
      ponteiros dele resolvidos contra a arvore DA ENTREGA.
   8. PENDENCIA MORTA — nenhum item de "Em aberto" pede coisa que ja existe.
+  9. CONTAGEM DE CHECAGENS — o numero de checagens que cada validador tem e'
+     lido do CODIGO, e todo documento que publica esse numero e' conferido
+     contra ele. E a unica checagem em que o dono do numero e' o codigo.
 
 O numero delas nao esta escrito em lugar nenhum alem desta linha: contagem
 copiada envelhece na versao seguinte, e esta lista ja disse "cinco" com sete.
+E a checagem 9 nao alcanca esta linha de proposito — ela le documento, e este
+arquivo e' codigo.
 
 A checagem 4 nasceu na v0.33 e e' a licao no 9 aplicada a ela mesma. O que ela
 teria pego, se existisse:
@@ -905,6 +910,155 @@ print()
 print('  8a pede validador que existe · 8b trava em versao do manual que passou ·')
 print('  8c tem por assunto uma peca que existe · 8d espera uma peca que existe.')
 print('  Riscar com ~~ fecha o item E o corpo dele — e' + " e' " + 'a convencao da casa.')
+
+
+# --- checagem 9: a contagem de checagens de cada validador. ------------------
+# Nasceu na v0.102, e ela e' a licao no 9 num eixo que nenhuma outra alcanca:
+# aqui o DONO DO NUMERO E' O CODIGO. Ate agora o projeto tratava documento como
+# dono e codigo como copia; esta e a direcao contraria.
+#
+# O que ela teria pego, e a v0.100 achou as tres na mao:
+#   - o conferir-equipamento.py publicado como "dez checagens" tendo onze
+#   - o conferir-catalogo.py publicado como "dez" no LEIA-ME, "nove" na peca 17
+#     e "onze" no ESTADO-ATUAL — tres respostas para o mesmo numero
+#   - o proprio conferir-repositorio.py com "Cinco checagens" na docstring
+#     enquanto rodava sete
+#
+# A DEFINICAO, e ela precisa ser exata porque a checagem se mede contra ela:
+# uma checagem e' UM BLOCO NUMERADO que o validador imprime — `bloco('N. ...')`
+# ou `print('N. ...')`. Sub-bloco (`5.1`, `4d`) conta para o bloco pai. O bloco
+# `0` conta, e o conferir-atributos.py e' o unico que tem um.
+print()
+bloco('9. CONTAGEM DE CHECAGENS — o codigo e o dono, e os documentos sao copia')
+
+_RX_BLOCO = re.compile(r"""(?:^|\\n|['"])\s*(?:=|\s)*(\d+)[.)]\s+[A-ZÁÂÃÀÉÊÍÓÔÕÚÇ]""")
+
+
+def _contar_blocos(caminho):
+    nums = set()
+    for _l in open(caminho, encoding='utf-8'):
+        if not re.match(r"^\s*(bloco|print)\(", _l):
+            continue
+        for _m in _RX_BLOCO.finditer(_l):
+            nums.add(int(_m.group(1)))
+    return nums
+
+
+_VAL9 = {}
+for _f9 in sorted(os.listdir(MEC)):
+    if re.match(r'^conferir-.*\.py$', _f9):
+        _VAL9[_f9] = _contar_blocos(os.path.join(MEC, _f9))
+_VAL9['conferir-repositorio.py'] = _contar_blocos(os.path.join(RAIZ, 'conferir-repositorio.py'))
+
+# guarda 1: validador sem bloco numerado e' extrator quebrado, nao validador vazio
+_mudos = sorted(v for v, n in _VAL9.items() if not n)
+if _mudos:
+    erro(f'9: {len(_mudos)} validador(es) sem bloco numerado nenhum: ' + ', '.join(_mudos)
+         + ' — ou eles mudaram de forma, ou o extrator parou de achar bloco')
+
+# guarda 2: a numeracao nao pode ter buraco. Um buraco quer dizer checagem
+# removida sem renumerar, e a contagem passa a mentir mesmo estando "certa".
+_furados = []
+for _v9, _n9 in _VAL9.items():
+    if not _n9:
+        continue
+    _lo = min(_n9)
+    if _lo not in (0, 1) or sorted(_n9) != list(range(_lo, _lo + len(_n9))):
+        _furados.append(f'{_v9} ({sorted(_n9)})')
+if _furados:
+    erro('9: a numeracao tem buraco em: ' + ' · '.join(_furados))
+
+_PECAS9 = sorted(f for f in os.listdir(MEC) if re.match(r'^\d\d-.*\.md$', f))
+
+
+def _dono9(nome):
+    """o validador dono de uma peca, DERIVADO do slug — sem tabela escrita"""
+    partes = nome[3:-3].split('-')
+    for _i in range(len(partes), 0, -1):
+        _c = 'conferir-' + '-'.join(partes[:_i]) + '.py'
+        if _c in _VAL9:
+            return _c
+    for _p in partes:
+        _c = f'conferir-{_p}.py'
+        if _c in _VAL9:
+            return _c
+    return None
+
+
+_DONO_PECA9 = {int(p[:2]): _dono9(p) for p in _PECAS9}
+
+_NUM9 = {'uma': 1, 'um': 1, 'duas': 2, 'dois': 2, 'tres': 3, 'quatro': 4, 'cinco': 5,
+         'seis': 6, 'sete': 7, 'oito': 8, 'nove': 9, 'dez': 10, 'onze': 11, 'doze': 12,
+         'treze': 13, 'catorze': 14, 'quatorze': 14, 'quinze': 15, 'dezesseis': 16,
+         'dezessete': 17, 'dezoito': 18, 'dezenove': 19, 'vinte': 20, 'trinta': 30}
+_PAL9 = '|'.join(_NUM9)
+_RX_QTD = re.compile(rf'(\*{{0,2}}(?:\d+|{_PAL9})\*{{0,2}})\s*\*{{0,2}}\s*'
+                     r'(?:checagens?|blocos? de checagem)', re.I)
+# afirmacao de INCREMENTO ou de ESPECIFICACAO nao e' contagem total
+_RX_NAO9 = re.compile(r'\bnovas?\b|\ba mais\b|precisa ter|que ele precisa|'
+                      r'que esta regua pede|nasceu a checagem|ganhou a checagem|'
+                      r'checagens do §|checagens do rascunho')
+_RX_VAL9 = re.compile(r'`(conferir-[a-z]+\.py)`')
+_RX_PECA9 = re.compile(r'(?:checagens?|blocos? de checagem)\s+d[ao]\s+pe[cç]a\s+(\d{1,2})', re.I)
+
+_ALVOS9 = ['README.md', 'sistema/ESTADO-ATUAL.md', 'sistema/LEIA-ME.md'] + \
+          ['sistema/03-mecanica/' + p for p in _PECAS9]
+
+_afirm, _ruins9 = 0, 0
+for _rel9 in _ALVOS9:
+    _basen = os.path.basename(_rel9)
+    _peca_arq = int(_basen[:2]) if re.match(r'^\d\d-', _basen) else None
+    for _i9, _l9 in enumerate(open(os.path.join(RAIZ, _rel9), encoding='utf-8'), 1):
+        # `>` e' historia, e essa e' a convencao declarada na v0.81. Item RISCADO
+        # NAO e' pulado aqui de proposito: `~~` fecha a pendencia, e nao a frase
+        # ao lado dela — e foi justamente numa linha riscada que a v0.100 achou o
+        # conferir-equipamento publicado como dez tendo onze.
+        if _l9.lstrip().startswith('>'):
+            continue
+        _sl9 = _l9.lower()
+        if _RX_NAO9.search(re.sub(r'[áàâãéêíóôõúç]', lambda m: 'aaaaeeiooouc'[
+                'áàâãéêíóôõúç'.index(m.group(0))], _sl9)):
+            continue
+        for _m9 in _RX_QTD.finditer(_l9):
+            _t9 = _m9.group(1).replace('*', '').strip().lower()
+            _q9 = int(_t9) if _t9.isdigit() else _NUM9.get(
+                re.sub(r'[áàâãéêíóôõúç]', lambda m: 'aaaaeeiooouc'[
+                    'áàâãéêíóôõúç'.index(m.group(0))], _t9))
+            if _q9 is None:
+                continue
+            _alvo9 = None
+            _mp9 = _RX_PECA9.search(_l9)
+            if _mp9 and int(_mp9.group(1)) in _DONO_PECA9:
+                _alvo9 = _DONO_PECA9[int(_mp9.group(1))]
+            if not _alvo9:
+                _mv9 = _RX_VAL9.search(_l9)
+                if _mv9 and _mv9.group(1) in _VAL9:
+                    _alvo9 = _mv9.group(1)
+            if not _alvo9 and _peca_arq:
+                _alvo9 = _DONO_PECA9.get(_peca_arq)
+            if not _alvo9:
+                continue
+            _afirm += 1
+            _real9 = len(_VAL9[_alvo9])
+            if _q9 != _real9:
+                _ruins9 += 1
+                erro(f'9: {_rel9}:{_i9} diz que o {_alvo9} tem {_q9} checagens, e o '
+                     f'codigo tem {_real9}\n       {_l9.strip()[:90]}')
+
+# guarda 3: se o extrator de afirmacao parar de casar, ele fica verde de graca
+_PISO9 = 10
+if _afirm < _PISO9:
+    erro(f'9: so achei {_afirm} afirmacao(oes) de contagem e o piso e {_PISO9} — a '
+         f'forma como os documentos escrevem isso mudou, e esta checagem parou de conferir')
+
+print(f'  {len(_VAL9)} validadores, {sum(len(n) for n in _VAL9.values())} checagens no total.')
+if not _mudos and not _furados:
+    print('  [x] todo validador tem bloco numerado, e nenhuma numeracao tem buraco')
+if not _ruins9:
+    print(f'  [x] as {_afirm} afirmacoes de contagem batem com o codigo')
+print()
+print('  O DONO AQUI E O CODIGO, e e a unica checagem do projeto em que ele e.')
+print('  Uma checagem = um bloco numerado. Sub-bloco conta para o bloco pai.')
 
 
 # --------------------------------------------------------------------------

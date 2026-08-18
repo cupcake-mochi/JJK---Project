@@ -123,7 +123,7 @@ Uma por categoria de arma, todas com nome, todas em **`DESENHO-manhas.md`**, na 
 
 ## 7. O que o `conferir-catalogo.py` confere
 
-Nove checagens. **Nenhuma guarda valor:** os nomes saem das tabelas desta peça e os textos saem dos `DESENHO-*.md`.
+Onze checagens. **Nenhuma guarda valor:** os nomes saem das tabelas desta peça e os textos saem dos `DESENHO-*.md`.
 
 | # | a checagem | o que ela pega |
 |---|---|---|

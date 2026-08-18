@@ -11,7 +11,7 @@ Sistema de RPG de mesa em desenvolvimento, ambientado no universo de Jujutsu Kai
 | `02-esqueleto/` | Arquitetura do sistema: subsistemas, como se conectam, o que cada um resolve |
 | `03-mecanica/` | As peças de regra, numeradas na ordem em que foram escritas, e os dezoito validadores |
 | `04-playtest/` | Roteiro de teste, formulários e retorno organizado por tema |
-| `05-material/` | A **ficha de personagem** e o gerador dela. Falta o quick-start e o livro |
+| `05-material/` | A **ficha de personagem** e o gerador dela |
 | `99-arquivo/` | **Material morto.** Nada aqui é regra corrente — ver o `LEIA-ME.md` de lá |
 | `skills/` | Cópia de trabalho das sete skills de apoio |
 
@@ -42,13 +42,15 @@ A pasta `skills/` guarda o `SKILL.md` de cada uma mais os arquivos de apoio. ~~*
 
 ## Versão atual
 
-**v0.101.** Fases 0 a 3 fechadas; a Fase 4 (mecânica) está em andamento com **dezoito peças escritas e dezoito validadores passando**. O manual do Fundamento está na **v7.9**, e ele é um subsistema fechado — a técnica e o feitiço já funcionam. O `.pdf` **está na mesma versão do `.docx`** desde a v0.93 — ele deixou de ser exportado a mão.
+**v0.102.** Fases 0 a 3 fechadas; a Fase 4 (mecânica) está em andamento com **dezoito peças escritas e dezoito validadores passando**. O manual do Fundamento está na **v7.9**, e ele é um subsistema fechado — a técnica e o feitiço já funcionam. O `.pdf` **está na mesma versão do `.docx`** desde a v0.93 — ele deixou de ser exportado a mão.
 
 **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas**, por seis das nove rotas de Origem. Desde a v0.32 não sobrou peça de regra travando ninguém nessa faixa: das dezessete coisas que uma ficha de nível 2 precisa, **treze existem, e as quatro que faltam não mordem nessa faixa**. O que falta para as outras três rotas, e a ordem do resto, está no `ESTADO-ATUAL.md`.
 
-O que falta hoje não é regra, é **material**. A **ficha de personagem** saiu na v0.35 e está em `05-material/`, com o gerador dela; falta o quick-start. E `04-playtest/` continua vazia — **zero sessões desde a v0.1**.
+O que falta hoje não é regra, é **material**. A **ficha de personagem** saiu na v0.35 e está em `05-material/`, com o gerador dela. **O quick-start foi abandonado na v0.102**, por decisão do Mizuki: o texto de mesa vai direto para o PDF, escrito a partir do repositório de entrega. E `04-playtest/` continua vazia — **zero sessões desde a v0.1**.
 
-Os três que leem o manual — `conferir-nomes.py`, `conferir-manual.py` e `conferir-pericias.py` — precisam de `python-docx`. **Sem ele eles pulam as checagens que leem o `.docx` e saem verdes**, com código 0. Puladas por validador, lidas do código na v0.40: **3 de 5** no `conferir-nomes`, **4 de 4** no `conferir-manual` — todas, porque ele sai no `except ImportError` antes da primeira — e **1 de 8** no `conferir-pericias`.
+**Cinco** leem o manual e precisam de `python-docx`: `conferir-atributos.py`, `conferir-manual.py`, `conferir-nomes.py`, `conferir-pericias.py` e `conferir-progressao.py`. **Sem ele eles pulam as checagens que leem o `.docx`** em vez de falhar. Puladas por validador, lidas do código: **1 de 11** · **4 de 4** (todas — ele sai no `except ImportError` antes da primeira) · **3 de 5** · **1 de 8** · **1 de 8**. *Desde a v0.101 os cinco dizem no rodapé que pularam, e o `subir.sh` marca com `ok*` amarelo.*
+
+> *Esta linha ficou parada em **três** até a v0.102 — o `README` e o `ESTADO-ATUAL` foram corrigidos na v0.100 e este arquivo não. **Três cópias, e a terceira envelheceu sozinha.***
 
 *Até a v0.39 os três documentos diziam 4, 2 e 1. O número do `conferir-manual` era o mais perigoso dos três: ele estava escrito como o que pula menos e é o único que não confere nada.*
 
@@ -63,7 +65,7 @@ Os quatro últimos não leem o manual e não precisam de nada: o `conferir-criac
 
 ## A próxima peça
 
-**Catálogo de entregas** fechou na v0.85 e é a peça 17, em `03-mecanica/17-catalogo-de-entregas.md`, com o `conferir-catalogo.py` e dez checagens. Ela é um índice das **89 entradas** — 56 entregas de Trilha, 20 degraus de Caminho e as 13 Manhas — e não guarda preço nem texto de mesa: os dois continuam nos três `DESENHO-*.md` da raiz. **O validador dela é o primeiro do projeto que lê aqueles arquivos**, e a checagem que ele existe para ter é a que pega bloco de regra contradizendo o gate da linha de preço.
+**Catálogo de entregas** fechou na v0.85 e é a peça 17, em `03-mecanica/17-catalogo-de-entregas.md`, com o `conferir-catalogo.py` e onze checagens. Ela é um índice das **89 entradas** — 56 entregas de Trilha, 20 degraus de Caminho e as 13 Manhas — e não guarda preço nem texto de mesa: os dois continuam nos três `DESENHO-*.md` da raiz. **O validador dela é o primeiro do projeto que lê aqueles arquivos**, e a checagem que ele existe para ter é a que pega bloco de regra contradizendo o gate da linha de preço.
 
 **Ferramenta amaldiçoada** fechou na v0.59 e é a peça 16, em `03-mecanica/16-ferramenta-amaldicoada.md`, com o `conferir-ferramenta.py` e dezesseis checagens. A máquina é da v0.55, o catálogo de `Estigma` da v0.56 e da v0.57 — onze entradas. A escada de grau do antigo §6 virou **ritmo de entrega e não gate**, porque como gate ela anulava o gate herdado da peça 11 e deixava o `Desgaste` sem nada para comprar.
 

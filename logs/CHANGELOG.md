@@ -6,6 +6,73 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.102] — 2026-08-18
+
+**O quick-start foi abandonado, e o número de checagens de cada validador ganhou dono.** *Duas coisas da mesma família: uma decisão que precisava ser aplicada em oito lugares, e um número que morava em três documentos e no código, com o código sendo o único que não podia mentir.* **Nasceu a checagem 9.** Continuam dezoito peças e dezoito validadores.
+
+### Decidido — o quick-start jogável sai, e o texto de mesa vai direto para o PDF
+
+***Decisão do Mizuki:*** *"pode abandonar a ideia do quick start, eu tô fazendo o PDF direto"*.
+
+**Ele estava decidido na v0.2 como a estrutura do material final, e ficou cem versões escrito como pendência.** *Aplicado em oito lugares: o `README` em dois, o `LEIA-ME` em dois, o `ESTADO-ATUAL` em dois, a peça 14 e a peça 18.*
+
+> **⚠ E uma pergunta ficou aberta junto com a decisão, porque ela não é a mesma coisa.** *O dossiê de metodologia lista, como trava de arquitetura, que o material nasce com quick-start na frente — e o argumento de lá **não é sobre ter dois arquivos**: é sobre alguém conseguir jogar antes de ler tudo.* **Abandonar o formato não responde se o PDF vai carregar essa propriedade.** *Marcado no dossiê, sem reescrever o levantamento: pesquisa é levantamento, não decisão.*
+
+### ⚠⚠ E o `LEIA-ME` tinha a TERCEIRA cópia da contagem do `python-docx`
+
+**A v0.100 corrigiu de três para cinco no `README` e no `ESTADO-ATUAL`, e não achou a terceira cópia.** *Ela estava no `LEIA-ME`, com os mesmos "3 de 5 · 4 de 4 · 1 de 8" e a mesma lista de três nomes.*
+
+> **É a lição nº 9 mordendo o conserto da lição nº 9.** *Achar duas cópias e consertar as duas não prova que eram duas.* **Corrigida, e agora com os cinco e a nota de que ela ficou parada duas versões a mais.**
+
+### Adicionado — a checagem 9, e ela inverte quem é o dono
+
+**Em toda checagem deste projeto o dono do número é um documento e o código é quem confere. Nesta o dono é o CÓDIGO.**
+
+**A definição, e ela precisa ser exata porque a checagem se mede contra ela:** *uma checagem é **um bloco numerado** que o validador imprime.* **Sub-bloco conta para o bloco pai, e o bloco `0` conta** — o `conferir-atributos.py` é o único que tem um.
+
+| o que ela confere | como |
+|---|---|
+| todo documento que publica "o `conferir-X.py` tem N checagens" bate com o código | conta os blocos numerados, e resolve a quem a frase se refere por três caminhos: o nome do validador na linha, `checagens da peça N`, ou a peça em que a linha mora |
+| **nenhum validador tem zero bloco numerado** | zero quer dizer extrator quebrado, e não validador vazio |
+| **a numeração não tem buraco** | buraco quer dizer checagem removida sem renumerar, e aí a contagem mente estando "certa" |
+| **os documentos continuam escrevendo a contagem** | piso de dez afirmações: se a forma mudar, ela falha em vez de conferir menos em silêncio |
+
+**São 19 validadores e 177 checagens no total**, e 17 afirmações espalhadas por quatro documentos.
+
+> **Linha riscada NÃO é pulada, e isso é decisão.** *O `~~` fecha a pendência, e não a frase ao lado dela* — **e foi exatamente numa linha riscada que a v0.100 achou o `conferir-equipamento.py` publicado como dez tendo onze.** *Linha de história (`>`) é pulada, e essa é a convenção declarada na v0.81.*
+
+### Corrigido — duas contagens que a v0.100 tinha achado na mão
+
+| onde | dizia | é |
+|---|---|---|
+| `LEIA-ME` | o `conferir-catalogo.py` com **dez** checagens | **onze** |
+| peça 17 | *"Nove checagens"* | **onze** |
+
+*O `ESTADO-ATUAL` dizia as duas coisas — "dez" num lugar e "nove" em outro — e a v0.100 já tinha corrigido para onze nos dois.* **Três documentos, três respostas, para um número que o código sempre soube.**
+
+### As oito perturbações, em cópia isolada
+
+| perturbação | esperado | deu |
+|---|---|---|
+| a contagem publicada erra num documento | acende | acende |
+| **a contagem erra numa linha RISCADA** | acende | acende |
+| uma checagem sai do validador e deixa buraco na numeração | acende | acende |
+| o extrator perde um validador inteiro | acende | acende |
+| os documentos param de escrever a contagem | acende | acende |
+| **contra-teste:** número errado numa linha de história (`>`) | verde | verde |
+| **contra-teste:** afirmar checagem **nova**, que é incremento | verde | verde |
+| **contra-teste:** mexer na prosa sem mexer no número | verde | verde |
+
+*O arnês lê o veredito da checagem 9 e não o código de retorno do programa, que é a lição da v0.101.*
+
+### Em aberto
+
+- **A pergunta que sobrou do quick-start:** se o PDF vai carregar a propriedade de "jogável antes de ler tudo", e como. *É decisão dele, e não foi tomada.*
+- **A checagem 9 não alcança a docstring do `conferir-repositorio.py`**, que também publica a contagem das próprias checagens. *Ela lê documento, e aquele arquivo é código.*
+- O resto da lista da v0.101 continua igual.
+
+---
+
 ## [0.101] — 2026-08-18
 
 **Três lugares diziam verde escondendo que não conferiram, e os três foram consertados.** *O `subir.sh` jogava a saída do validador no `/dev/null` e imprimia só `FALHA`; o `conferir-nomes` e o `conferir-pericias` imprimiam `TUDO OK` sem terem aberto o manual uma vez.* **Continuam dezoito peças e dezoito validadores.**
