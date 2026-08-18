@@ -209,18 +209,37 @@ for org in origens_cat:
     print(f'  {marca} {org:<22} {escritos} escrito(s) + {reserv} reservada(s) = {tot}')
     if tot != COTA_DESLIGA:
         erro('6', f'{org} soma {tot} Desliga, e a cota e {COTA_DESLIGA}')
-mudas = [v for v in vagas if 'espera' not in v[1].lower()]
+# Uma vaga reservada tem de dizer o que ela esta esperando, e desde a v0.103 as
+# duas respostas legais sao DIFERENTES: ou ela ainda espera uma peca que nao
+# existe, ou a peca ja saiu e a vaga esta DESTRAVADA e por escrever. Aceitar so'
+# a primeira forma obrigaria a vaga a mentir depois que a peca nascesse — foi o
+# que a peca 19 fez com tres delas nesta versao.
+mudas = [v for v in vagas
+         if 'espera' not in v[1].lower() and 'destravada' not in v[1].lower()]
 if mudas:
-    erro('6', f'{len(mudas)} vaga(s) reservada(s) sem dizer que peca esperam')
+    erro('6', f'{len(mudas)} vaga(s) reservada(s) sem dizer o que estao esperando '
+              f'nem declarar que ja destravaram')
 else:
-    print(f'  [x] as {len(vagas)} vagas reservadas nomeiam a peca que esperam.')
     import collections
+    esperando = [v for v in vagas if 'destravada' not in v[1].lower()]
+    destrav = [v for v in vagas if 'destravada' in v[1].lower()]
+    print(f'  [x] as {len(vagas)} vagas dizem o que esperam: '
+          f'{len(esperando)} esperando peca, {len(destrav)} destravada(s) e por escrever.')
     quem = collections.Counter()
-    for _, txt in vagas:
+    for _, txt in esperando:
         m = re.search(r'espera a pe[cç]a de ([^*|]+)', txt)
         quem[m.group(1).strip() if m else '?'] += 1
     for k, v in sorted(quem.items()):
         print(f'      {v} espera(m) a peca de {k}')
+    quem2 = collections.Counter()
+    for _, txt in destrav:
+        m = re.search(r'destravada pela pe[cç]a (\d+)', txt)
+        quem2[m.group(1) if m else '?'] += 1
+    for k, v in sorted(quem2.items()):
+        print(f'      {v} destravada(s) pela peca {k}, e por escrever')
+    if '?' in quem2:
+        erro('6', f'{quem2["?"]} vaga(s) dizem "destravada" sem nomear a peca que '
+                  f'destravou — vaga que nao nomeia e cheque em branco do mesmo jeito')
 
 # ---------------------------------------------------------------- 7. ORIGENS
 print('\n' + '=' * 88 + '\n7. ORIGENS — as do catalogo existem na peca 9, e nenhuma falta\n' + '=' * 88)

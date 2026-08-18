@@ -131,7 +131,7 @@
 
 Ele anula o excedente e deixa o aliado com `1` de vida. **O que ele compra não é dano evitado** — é *não cair*, não pegar Sequela e não virar morte em definitivo. A régua de dano evitado converte `1` pra `1` **pontos de vida**, e aqui o ponto de vida é literalmente um.
 
-**O projeto não tem conversão para "a queda não aconteceu".** Ela é do mesmo balde da Cicatriz: mecânica que a peça de dano e condições vai precisar precificar.
+**O projeto não tem conversão para "a queda não aconteceu".** Ela é do mesmo balde da Cicatriz: mecânica que a peça 19 vai precisar precificar, e que ficou fora do escopo da v0.103.
 
 > **Sobram `1,26` fatia no orçamento do Caminho, e esse número é TETO e não valor.** Ele é subtração — `3` menos o que os outros dois gastam. **Escrever ele como preço seria o `15%` do `Servo` pela terceira vez**, e a `LISTA-gatilhos` existe em parte para ter registrado que aquele `15%` nunca saiu de gatilho nenhum.
 

@@ -474,7 +474,7 @@ Foram levantadas três e havia duas vagas. **A régua repartiu sozinha, e nenhum
 | Legado | apaga | relógio |
 |---|---|---|
 | **Máscara** | ser sentido pelo que você é | sempre |
-| *— vaga reservada —* | **espera a peça de dano e condições** | — |
+| *— vaga reservada —* | **destravada pela peça 19, na v0.103, e por escrever** | — |
 
 > **Máscara** — quem sente a sua energia amaldiçoada sente **a dele**. Você não aparece como o que é. *Em troca, o que essas pessoas concluem sobre você costuma ser bem pior do que a verdade — e elas agem de acordo.*
 
@@ -506,7 +506,7 @@ Um nomeia **quem conheceu** a coisa; o outro nomeia **como a coisa se chamava**.
 
 **Dominância na lista: nenhuma. Quatro Destranca · quatro Ajusta · um Desliga escrito e um reservado.**
 
-*A vaga espera a peça de dano e condições*, que é onde o que acontece com a sua cabeça vai ganhar nome — e é a mesma peça que deve à Cicatriz uma mecânica. O Receptáculo é a Origem em que outra coisa quer o seu corpo; quando essa família de efeito tiver termo escrito, o alvo aparece. **Até lá a vaga fica marcada na tabela, não numa nota.**
+*A vaga esperava a **peça de dano e condições**, que é onde o que acontece com a sua cabeça vai ganhar nome.* **Ela existe desde a v0.103 e é a peça 19, e a vaga continua por preencher** — a régua de lá dá nível a cada condição, que é alvo com preço, e a trava do `Desliga` proíbe encostar no que tem preço. *É a mesma peça que ainda deve à Cicatriz uma mecânica.* O Receptáculo é a Origem em que outra coisa quer o seu corpo; quando essa família de efeito tiver termo escrito, o alvo aparece. **Até lá a vaga fica marcada na tabela, não numa nota.**
 
 ### Descendente — *você é de uma das famílias, e elas cobram*
 
@@ -552,7 +552,7 @@ Um nomeia **quem conheceu** a coisa; o outro nomeia **como a coisa se chamava**.
 | Legado | apaga | relógio |
 |---|---|---|
 | **Coleira** | ser localizado ou rastreado | sempre |
-| *— vaga reservada —* | **espera a peça de ferramenta amaldiçoada** | — |
+| *— vaga reservada —* | **destravada pela peça 16, na v0.59, e por escrever** | — |
 
 > **Coleira** — o seu clã te selou na infância: técnica nenhuma te localiza, te rastreia ou te encontra à distância. *Em troca, o selo é dos dois lados — a sua família sempre sabe onde você está, e nunca precisou perguntar.*
 >
@@ -670,7 +670,7 @@ As duas dão **vantagem em Teste de Resistência**, e é o mesmo número. A dife
 | Legado | apaga | relógio |
 |---|---|---|
 | *— vaga reservada —* | **espera a peça de objeto amaldiçoado** | — |
-| *— vaga reservada —* | **espera a peça de dano e condições** | — |
+| *— vaga reservada —* | **destravada pela peça 19, na v0.103, e por escrever** | — |
 
 Sobrou **um** alvo legal no sistema inteiro pela enumeração da seção 8 — **os degraus de exaustão**, da peça 10 — e ele **não foi gasto aqui**. Dois motivos, e o segundo é o que decide:
 
@@ -868,7 +868,7 @@ Sobrou **um** alvo legal no sistema inteiro pela enumeração da seção 8 — *
 | Legado | apaga | relógio |
 |---|---|---|
 | **Sangue que Não é Sangue** | comer, dormir, respirar | sempre |
-| *— vaga reservada —* | **espera a peça de dano e condições** | — |
+| *— vaga reservada —* | **destravada pela peça 19, na v0.103, e por escrever** | — |
 
 > **Sangue que Não é Sangue** — você não precisa comer, dormir nem respirar como um humano. Isso resolve problemas que param os outros. *Em troca, cria problemas que os outros não têm — e nenhum deles tem nome ainda, porque ninguém precisou nomear fome para gente que come.*
 
@@ -969,7 +969,7 @@ E a assimetria some junto: *você* reconhece, *você* sabe quando um morre. Não
 | Legado | apaga | relógio |
 |---|---|---|
 | **Peso Real** | ser enganado por barreira, véu e ferramenta | sempre |
-| *— vaga reservada —* | **espera a peça de ferramenta amaldiçoada** | — |
+| *— vaga reservada —* | **destravada pela peça 16, na v0.59, e por escrever** | — |
 
 > **Peso Real** — você percebe **ferramenta amaldiçoada, barreira e véu pelo tato e pelo peso, não pela energia**. O que engana feiticeiro não engana você. *Em troca, você percebe que tem alguma coisa ali e não o que é — o aviso vem sem nome.*
 
@@ -1097,7 +1097,7 @@ Quem não tem técnica não tem o que esconder. **Todo o resto funciona**, porqu
 
 O Descendente leva cinco Destranca porque contém quatro clãs por dentro; o resto varia porque **o suprimento de alvo é estreito por construção**, e não porque alguma lista foi escrita com menos cuidado. *Uma Origem que fechasse em dez por ter dez seria a única prova de que a régua não está sendo aplicada.*
 
-> **Quando equipamento fechar, a primeira coisa a fazer é voltar aqui** — quatro vagas, e três delas esperam essa peça ou a de dano e condições. Decisão registrada não é decisão aplicada.
+> ~~**Quando equipamento fechar, a primeira coisa a fazer é voltar aqui**~~ — quatro vagas, e três delas esperavam essa peça ou a de dano e condições. **As duas peças existem: equipamento é a 14 desde a v0.48 e dano e condições é a 19 desde a v0.103, e ninguém voltou aqui em nenhuma das duas vezes.** *Decisão registrada não é decisão aplicada, duas vezes seguidas.*
 
 *Faltam três listas: Feto, Corpo Amaldiçoado e Restrição Celestial.*
 
@@ -1108,7 +1108,7 @@ O catálogo, e as decisões de sabor que vêm com ele:
 - ~~**As três listas que faltam**~~ — **as sete fecharam na v0.38**, 81 entradas escritas.
 - ~~**Os três relógios fora da escada**~~ — **descidos**: *Aprendi Apanhando* e *A Voz de Dentro* para por dia, *O Que Ninguém Lembra* para por descanso longo.
 - ~~**O piso do Irmãos**~~ — **resolvido na lista do Feto**, pelo canon: a irmandade é definida por quem te fez, e o gatilho virou o jogador apontar alguém e dizer que é irmão.
-- **As sete vagas de Desliga**, quando a peça que cada uma espera sair. **Três** esperam **dano e condições**, **uma** espera `objeto amaldiçoado` e **uma** espera **Técnica Marcial**. *Reclassificadas na v0.49: as quatro que diziam "equipamento" nomeavam a peça errada, e nenhuma delas abriu quando aquela peça fechou.*
+- **As sete vagas de Desliga**, por preencher. **Três** nomeavam **dano e condições**, que virou a peça 19 na v0.103 e destravou as três; **uma** espera `objeto amaldiçoado` e **uma** espera **Técnica Marcial**; **duas** destravaram na v0.59 com a ferramenta amaldiçoada. *Cinco das sete estão destravadas e nenhuma foi escrita — preencher é trabalho, e não conserto de texto.* *Reclassificadas na v0.49: as quatro que diziam "equipamento" nomeavam a peça errada, e nenhuma delas abriu quando aquela peça fechou.*
 
   > **⚠ E as outras DUAS já destravaram, e ninguém voltou.** *Elas esperavam `ferramenta amaldiçoada`, que virou a peça 16 na v0.59 — a `Armaria` do Descendente e a Restrição Celestial.* **A peça 16 §9 registra que destrava as duas; esta peça continuava dizendo que elas esperam.** *Achado na v0.100, e a linha da tabela de cada uma continua dizendo `espera a peça de ferramenta amaldiçoada` — escrever as duas é trabalho, não conserto de texto.*
 - **O `Inédito` precisa da linha que o fecha para Sem Técnica** — é a única das 81 entradas que pressupõe técnica própria.

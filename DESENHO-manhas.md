@@ -32,7 +32,7 @@ Isso não mata o formato — é o mesmo das Trilhas, onde a **janela** é que fa
 
 **Dano de valor FIXO é legal.** A cerca da peça 5 §4 proíbe *"dado de dano"*, e ninguém tinha escrito se valor fixo entrava junto — era o item 3 do *"o que a peça 5 precisa"*. **Fixo passa.** *Ela resolve de graça a mesma pendência na `Presa` do Evocador, que também é valor fixo.*
 
-**Derrubar fica, e aplica a condição `Derrubado`.** A régua de condição não existe e vai vir com a peça de dano e condições; até lá a entrada roda com o efeito escrito por extenso.
+**Derrubar fica, e aplica a condição `Derrubado`.** *A régua de condição não existia quando isto foi escrito, e a entrada rodava com o efeito por extenso.* **Ela existe desde a v0.103, e é a peça 19** — o `Derrubado` é nível `Leve` lá, e vale `8,45` de dano por rodada permanente, que é exatamente o número derivado abaixo.
 
 > **⚠ A colisão que isto abriu foi consertada na v0.88, e ela era REGRESSÃO.** *Esta entrada nasceu na v0.82 chamando a condição de `Caído`, que era o nome da máquina de estado de 0 de vida da peça 1 §5.5 — e a **v0.74 já tinha achado e fechado exatamente essa colisão no `Punho`**, adotando o `Derrubado` do manual. Oito versões depois ela voltou por outra porta.*
 >
@@ -55,7 +55,7 @@ As bases todas saem de documento dono:
 | `1` ponto percentual numa rolagem de **aliado** | `0,230` | `DESENHO-caminhos`, régua do Guia |
 | dano do chefe por rodada, nv30 | `72` | manual, tabela de inimigo |
 
-**E `derrubar` foi derivado das duas réguas que já existem, em vez de inventado:**
+**E `derrubar` foi derivado das duas réguas que já existem, em vez de inventado.** *A peça 19 §2.2 reproduz esta conta linha por linha, e o `conferir-dano.py` falha se as duas divergirem:*
 
 > vantagem para um aliado corpo a corpo — `25` pp × `0,230` = `5,75`
 > o alvo gasta `4,5 m` levantando — `4,5` × `0,60` = `2,70`

@@ -200,7 +200,7 @@ Três famílias são legais e o projeto **não sabe preçar**: `auxílio` (somar
 | **estender duração** | morreu na **v0.68** — `+1` rodada custa de `11` a `43` fatias conforme o comprimento do efeito, e não existe efeito curto o bastante para ela caber. *Continua valendo para aptidão, que tem orçamento de um marco inteiro* |
 | **recuperar ferimento** | reprovou na **v0.70** — vale `0,00` para quem não cai, e o Bastião do nível 30 aguenta `11,7` rodadas contra uma luta de `3,7`. O eixo que decide quanto ela vale é **em quem o mestre resolve bater**, que é a mesma família de defeito que matou a Casca |
 | **recuperar Integridade** | reprovou na **v0.70** — dano de alma esvazia as duas barras ao mesmo tempo, e **o corpo acaba antes em três das quatro fichas**. *Quando a Essência entrar na Integridade, esta linha pode voltar a valer* |
-| **recuperar condição** | espera a peça de **dano e condições**, que não está na fila |
+| **recuperar condição** | **liberada na v0.103**: a peça 19 dá nível a cada condição, e tirar uma custa `1` ponto de energia por nível |
 
 ### Os papéis moram na peça 6
 

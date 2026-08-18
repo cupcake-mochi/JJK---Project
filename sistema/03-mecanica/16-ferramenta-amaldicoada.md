@@ -239,7 +239,7 @@ O `conferir-ferramenta.py` roda **dezesseis checagens**, e **nenhum valor fica e
 
 | destrava | como |
 |---|---|
-| **`Técnica Marcial`** | é a peça seguinte, e ela precisa desta para a Maki e o Toji **ferirem maldição** |
+| **`Técnica Marcial`** | ela precisa desta para a Maki e o Toji **ferirem maldição**. *Esta linha dizia "é a peça seguinte" e ela deu ao projeto duas respostas para "o que vem agora" — **corrigida na v0.103, por decisão do Mizuki: as próximas são as três Trilhas do Evocador***
 | **2 das 9 rotas de Origem** | Corpo Amaldiçoado e Restrição Celestial ramo Maki — **6/9 → 8/9** |
 | **2 das 7 vagas de Desliga** | a `Armaria` do Descendente e a Restrição Celestial, as duas na peça 13 §8 |
 
@@ -248,5 +248,5 @@ O `conferir-ferramenta.py` roda **dezesseis checagens**, e **nenhum valor fica e
 **Em aberto:**
 
 - **Os nomes próprios das ferramentas do material**, se uma versão futura publicar um catálogo de itens além do catálogo de `Estigma`. Hoje a peça entrega a máquina e as onze entradas; a Nuvem Divertida e a Lança Invertida aparecem como exemplar, não como ficha.
-- **A penalidade por empunhar sem treino ou sem requisito** continua sendo da peça de dano e condições, que não está na fila — é a mesma pendência que a peça 14 §8 já carrega.
+- **A penalidade por empunhar sem treino ou sem requisito** é da peça 19, escrita na v0.103, e continua por escrever lá dentro — é a mesma pendência que a peça 14 §8 já carrega.
 - **O objeto amaldiçoado é outra peça**, e a fonte é explícita: *"com exceção de ferramentas amaldiçoadas e cadáveres amaldiçoados, itens que contêm energia amaldiçoada são chamados de objetos amaldiçoados"*. O cubo que prendeu o Gojo é objeto, não ferramenta. Ele fecha 1 vaga de Desliga e mais nada, e a v0.50 o pôs em último por isso.

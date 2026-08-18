@@ -6,6 +6,143 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.103] — 2026-08-18
+
+**A peça de dano e condições entrou, e ela é a peça 19.** *Vinte e seis lugares em oito documentos esperavam por ela — a maior dívida estrutural do projeto — e metade dela já estava escrita, em três seções da peça 1 declaradas como guarda provisória.* **A régua que ela existia para ter não precisou ser inventada: ela estava na tabela de custo do manual.** Dezenove peças e dezenove validadores.
+
+### ⚠⚠ O achado: o `Punho` nunca estourou
+
+**Aquela Trilha estava publicada em `6,09` de um orçamento de `5,00`, e o estouro de `22%` estava aceito por decisão do Mizuki** — *"mesmo com esse estouro, não vai quebrar o balanceamento da mesa — a maioria das habilidades são situacionais e de RP"*.
+
+**O próprio desenho já marcava o `Derrubado` do nível 11 como *"não reconstrói de lugar nenhum"*, e era a maior peça da Trilha.**
+
+> **Ele reconstrói: o `8,66` publicado é o `Derrubado` PERMANENTE**, a `2,5%` de distância do `8,45` que a Manha `Abalo` publica com as mesmas duas linhas.
+>
+> **Mas o `Encontrão` não é permanente.** O texto da entrega escreve dois portões, e o preço não lia nenhum dos dois: *"um alvo **que você acertou** faz um **Teste de Resistência de Vigor**"*.
+
+| portão | taxa | de onde |
+|---|---|---|
+| acertar, com dois ataques no nível 30 | `75%` | é o mesmo gate que o `Engate` já usa na mesma Trilha |
+| o alvo falhar o Teste de Resistência | `45%` | peça 1 §6 |
+| **juntos** | **`33,8%`** | |
+
+**O degrau vale `0,56` fatia e não `1,71`, e a Trilha fecha em `4,94`.** ***Decisão do Mizuki: corrigir o preço e deixar assim.*** *As `0,06` fatia de folga são ruído — `0,30` de dano por rodada.* **Nenhuma linha de texto de mesa se moveu: o que estava errado era a conta.**
+
+### ⚠ E quatro decisões de estouro citavam o `Punho` como precedente
+
+*As três rotas do `Batedor`, a `Brasa`, a `Torrente` e o `Explosivo`.* **Nenhum número delas se moveu — o que se moveu foi qual precedente elas citam.**
+
+**O maior estouro aceito do projeto passa a ser a `Brasa`, entre `41%` e `88%`**, e ela foi aceita com a frase dele: *"parece que é forte, mas não é, garanto"*. *As quatro citações foram marcadas como superadas em vez de apagadas, que é a convenção da casa desde a v0.88.*
+
+> **A lição, e ela é de método:** *um número marcado como "não reconstrói" é dívida, e não curiosidade.* **Ele passou da v0.74 até aqui declarado como órfão, e o que ele era não era mistério: era o preço lendo a entrega errada.**
+
+### Adicionado — a régua de condição, e ela sai do manual
+
+**Até a v0.102 três documentos escreviam que *"condição não tem conversão em fatia"*, e escreviam com razão: ninguém tinha feito a conta.**
+
+**O manual preça condição em dano desde sempre.** *Uma `Condição Menor` custa `Média`, uma `Maior` custa `Pesada`, e cada ponto que não vira Melhoria vira `1d8` — que são `4,5`.*
+
+> **Contra a coluna Rotina, as razões são planas: `Média` é `2/7` e `Pesada` é `3/7`, exatas nas Classes pares.** *Nas ímpares o arredondamento do manual oscila no máximo `1,4` ponto percentual.* **Isso dá as três bandas — `1/7`, `2/7` e `3/7` da Rotina —, e elas são o teto de cada tier.**
+
+**É o quarto exemplar do mesmo defeito em vinte versões:** o Classe 0 da v0.80, a ação `Mirar` da v0.86, a `Aptidão Própria` da v0.92, e esta. *O projeto procurando régua que o manual já publicava.*
+
+### As catorze, medidas — e o tier do manual é um preço só para coisas que valem `17` vezes uma da outra
+
+*Contra um chefe, no nível 30. Todo componente sai de documento dono, e o `conferir-dano.py` lê de lá em vez de guardar cópia.*
+
+| condição | tier do manual | dano por rodada | fatias | nível |
+|---|---|---|---|---|
+| `Petrificado` | Maior | `100,25` | `19,73` | `Pesada` |
+| `Impedido` | Menor | `58,65` | `11,55` | `Pesada` |
+| `Cego` | Menor | `53,25` | `10,48` | `Pesada` |
+| `Amedrontado` | Maior | `41,40` | `8,15` | `Pesada` |
+| `Envenenado` | Menor | `36,00` | `7,09` | `Pesada` |
+| `Atordoado` | Maior | `36,00` | `7,09` | `Pesada` |
+| `Calado` | Menor | `24,00` | `4,72` | `Média` |
+| `Enfeitiçado` | Maior | `24,00` | `4,72` | `Média` |
+| `Lento` | Menor | `14,70` | `2,89` | `Leve` |
+| `Incapacitado` | Maior | `11,00` | `2,17` | `Leve` |
+| `Derrubado` | Menor | `8,45` | `1,66` | `Leve` |
+| `Agarrado` | Menor | `5,40` | `1,06` | `Leve` |
+| `Desarmado` | Menor | `3,45` | `0,68` | `Leve` |
+| `Surdo` | Menor | `0,00` | `0,00` | `Leve` |
+
+**Dentro do tier `Menor` o espalhamento é `17` vezes, e o filtro de dominância do projeto reprova a partir de `3,00`.**
+
+**Quatro coisas que a conta achou, e nenhuma foi procurada:**
+
+- **O `Surdo` vale zero.** *Ele só faz falhar teste que precise de audição, e não existe teste desses em combate neste sistema.* **Uma condição com preço de `Média` e entrega nenhuma.**
+- **O `Incapacitado` é a segunda mais barata das catorze, e o manual cobra `Pesada`.** *Metade dele depende do `Bloquear`, que é regra opcional — e a peça 1 já registrava isso. O que faltava era o tamanho.*
+- **O `Impedido` engole o `Cego`.** *Ele tem as duas linhas do `Cego` mais deslocamento zero, e os dois custam `Média`.*
+- **Três passam do teto da `Pesada`**, e o manual já diz o que fazer com isso: a regra da Restrição escrita à mão, virada do avesso — *"se ela parece valer mais que uma Média, ela provavelmente são duas disfarçadas de uma"*. **Condição que passa do teto é mais de uma condição escrita como uma**, e o `Petrificado` diz isso no próprio texto.
+
+### Decidido — o nível de uma condição é o tier dela
+
+***Decisão do Mizuki:*** *"nível é entre ser condição leve, média e pesada, aí o custo de PE fica equivalente a isso"*.
+
+> **Tirar uma condição custa `1` ponto de energia por nível: `1` para `Leve`, `2` para `Média`, `3` para `Pesada`.**
+
+**E isso fecha um buraco que estava vivo embaixo de uma entrega publicada.** *O `Enxerto` do `Sutura` cobra "`1` PE por nível da condição" desde a v0.84, e diz que condição sem nível declarado conta como nível `1`.* **Nível nenhum existia: até aqui, tirar `Petrificado` custava o mesmo que tirar `Surdo`.**
+
+**A escada de quem cura cai da própria regra:** com o teto por uso sendo a maestria, o `Enxerto` alcança `Leve` e `Média` no nível 11 e `Pesada` a partir do 17; o `Cerzido` sobe o teto para a maior Classe e alcança tudo.
+
+> **E ela bate degrau por degrau com a escada de exaustão da peça 10.** *Aquela tem três degraus numerados, e tirar o terceiro custa `3` de energia — então ela só sai a partir da maestria `3`, que é o nível 17.* **Duas escadas construídas separadas caindo em `1 · 2 · 3` com a mesma virada no mesmo nível.**
+
+### Alterado — três seções mudaram de casa, e um validador parou de ler o manual
+
+| o que saiu da peça 1 | escrita em | foi para |
+|---|---|---|
+| §8.1 os catorze tipos de dano | v0.74 | peça 19 §4 |
+| §8.2 a cobertura | v0.94 | peça 19 §5 |
+| §8.3 as catorze condições | v0.95 | peça 19 §3 |
+
+**As três eram guarda provisória, e a guarda acabou quando a peça existiu.** *Na peça 1 elas viraram ponteiro, com a data e o destino.*
+
+> **⚠ E as checagens foram junto, o que trocou um nome na lista dos que precisam de `python-docx`.** *Os tipos de dano e as condições eram as duas últimas checagens do `conferir-atributos.py`, e a das condições era a única coisa que abria o `.docx` ali.* **Ele deixou de ler o manual, foi de onze para dez checagens, e o `conferir-dano.py` entrou no lugar dele.**
+>
+> **Continuam CINCO, e a contagem não se moveu — a lista se moveu.** *É exatamente o tipo de troca que passa despercebida quando o número está certo, e ela foi aplicada nos três documentos que publicam a tabela.*
+
+### Adicionado — o `conferir-dano.py`, com dez checagens
+
+*A especificação foi escrita antes do código, na §6 da peça, que é o método que fez a peça 15 caber numa versão só contra as seis que a peça 14 gastou.*
+
+**A checagem que a peça existe para ter é a nona, e ela sai da pasta:** ela lê os dois `DESENHO` da raiz e bate as duas entregas publicadas que aplicam condição — o `Abalo` e o `Encontrão` — contra a régua, **com o portão que o texto de cada uma escreve**. *É ela que pegaria o `Punho` de novo se alguém reescrevesse a entrega sem mexer no preço, ou o contrário.*
+
+**E a décima guarda a promessa do cabeçalho:** nenhum valor de regra fica escrito dentro do validador, e as três bandas são derivadas de `1/7`, `2/7` e `3/7` da Rotina em vez de constantes.
+
+### As treze perturbações, em cópia isolada
+
+*Base conferida verde antes de cada uma, `md5` comparado antes e depois, e o veredito lido da checagem testada — nunca o código de retorno do programa.* **Onze acendem, dois contra-testes saem verdes.**
+
+> **⚠⚠ E o arnês achou TRÊS defeitos no validador antes de ele valer, e um deles é a lição nº 8 pela quarta vez.**
+>
+> **A checagem 4 comparava o manual contra a lista escrita DENTRO do validador** e não contra a peça — renomear uma condição na peça saía **verde**. *Hoje ela lê os nomes das tabelas de mesa.*
+>
+> **A checagem 6 procurava uma frase OU outra na peça 10**, e meia porta é porta aberta. *Hoje ela exige as duas.*
+>
+> **E duas perturbações estavam mal miradas**, trocando uma ocorrência de uma âncora que aparece duas vezes no mesmo arquivo. **O arnês ganhou um modo que troca todas** — é o mesmo defeito que a v0.101 registrou com um `sed` que parou de bater, por outra porta.
+
+### Decidido — três perguntas saíram da fila
+
+| pergunta | decisão do Mizuki |
+|---|---|
+| **quem é a próxima peça** | **as três Trilhas do Evocador** — `Servo`, `Matilha` e `Coro`. *O projeto tinha duas respostas escritas: a fila do `ESTADO-ATUAL` dizia Trilhas e a peça 16 dizia Técnica Marcial. A peça 16 foi corrigida.* |
+| **se o PDF nasce jogável nas primeiras páginas** | *"vamos finalizando as informações e mandando pro outro repositório o necessário para fazer o PDF, eu já tô no processo de estudo sobre"*. **Como o PDF carrega essa propriedade é trabalho dele, e não pendência do repositório.** *Aplicado no dossiê de metodologia e no `ESTADO-ATUAL`.* |
+| **a terceira taxa do `Batedor`** | **sai da fila de perguntas.** *As três taxas ficam declaradas onde moram, com o tamanho escrito. Quem responde é a mesa.* |
+
+### Em aberto
+
+- **⚠⚠ O manual cobra `Média` por dez condições que a conta preça em outro tier, e seis delas ele subvende.** *`Cego`, `Impedido` e `Envenenado` valem `Pesada` e custam `Média`.* **Consertar é mexer na tabela de Melhoria do manual e regerar o `.docx`, e é decisão dele.** *Enquanto não for, o `Impedido` é a melhor compra da tabela de Controle.*
+- **A `Cicatriz` continua sem mecânica**, e a pergunta de se a `Energia Reversa` limpa Sequela continua sem dono. *As duas ficaram fora do escopo que ele fechou para esta versão.*
+- **A penalidade por empunhar arma sem treino ou sem requisito.** *A peça 14 e a peça 16 apontam para a peça 19, que agora existe, e o item continua aberto lá dentro.*
+- **Cinco das sete vagas de `Desliga` da peça 13 estão destravadas e nenhuma foi escrita.** *Três destravaram nesta versão, duas na v0.59.* **Preencher é trabalho, e não conserto de texto.**
+
+> **⚠ E a checagem 6 do `conferir-legados.py` só aceitava UMA resposta, e por isso ela obrigava a vaga a mentir.** *Ela exigia que toda vaga reservada dissesse "espera a peça de X" — então, quando a peça nascia, a vaga continuava dizendo que esperava.* **Agora ela aceita as duas respostas que existem — esperando uma peça, ou destravada e por escrever —, e exige que a segunda nomeie a peça que destravou.** *Ao ganhar o segundo caminho, ela achou na hora as duas vagas que a peça 16 destravou na v0.59 e que estavam há quarenta e quatro versões escritas como esperando.*
+- **A conta usa duas réguas de rolagem que não medem a mesma coisa.** *`+1` no seu acerto vale `10,80`, que são `10%` da Rotina de `108`; `1` ponto percentual na rolagem de um aliado vale `0,230`, que é `1%` da ação de atacar de `23,00`.* **Você é modelado pela Rotina inteira e o aliado por dois golpes simples**, e a diferença é de `4,7` vezes. *Mexer nisso repreçaria o `Guiar`, o `Estampido` e o `Ajudar` de uma vez.*
+- O resto da lista da v0.102 continua igual.
+
+---
+
 ## [0.102] — 2026-08-18
 
 **O quick-start foi abandonado, e o número de checagens de cada validador ganhou dono.** *Duas coisas da mesma família: uma decisão que precisava ser aplicada em oito lugares, e um número que morava em três documentos e no código, com o código sendo o único que não podia mentir.* **Nasceu a checagem 9.** Continuam dezoito peças e dezoito validadores.

@@ -2,7 +2,7 @@
 
 **O sistema se chama `Projeto - M`**, batizado na v0.94 — era a pendência mais velha que existia aqui, aberta na v0.1. Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.102** · manual do Fundamento na **v7.9** · **dezoito peças de regra** e **dezoito validadores passando**.
+**Versão v0.103** · manual do Fundamento na **v7.9** · **dezenove peças de regra** e **dezenove validadores passando**.
 
 ---
 
@@ -61,7 +61,7 @@ Depois disso, a ordem de leitura é a da próxima seção, e os validadores são
     ├── 00-fundacao/                     os três pilares e as restrições do projeto
     ├── 01-pesquisa/                     dossiê de metodologia — a seção 8 lista as dez travas
     ├── 02-esqueleto/                    arquitetura: subsistemas e como se encaixam
-    ├── 03-mecanica/                     as dezoito peças de regra e os dezoito validadores
+    ├── 03-mecanica/                     as dezenove peças de regra e os dezenove validadores
     ├── 04-playtest/                     vazia. Zero sessões desde a v0.1
     ├── 05-material/                     a ficha, e o gerador dela
     ├── 99-arquivo/                      material morto, com LEIA-ME próprio
@@ -85,11 +85,13 @@ Sem `python-docx`, **cinco validadores pulam** as checagens que leem o manual em
 
 | validador | pula | de quantas | o rodapé avisa? |
 |---|---|---|---|
-| `conferir-atributos.py` | 1 (as condições contra o manual) | 11 | **sim** — `OK, mas 1 checagem(ns) PULARAM` |
+| `conferir-dano.py` | 1 (as catorze contra o manual) | 10 | **sim** — `OK, mas 1 checagem(ns) PULARAM` |
 | `conferir-manual.py` | **4 — todas.** Ele sai no `except ImportError` antes da primeira | 4 | avisa, e sai antes do rodapé |
 | `conferir-nomes.py` | 3 (as checagens 1, 3 e 4) | 5 | sim, **desde a v0.101** |
 | `conferir-pericias.py` | 1 (a que bate contra o Fundamento) | 8 | sim, **desde a v0.101** |
 | `conferir-progressao.py` | 1 (a checagem 7) | 8 | **sim** |
+
+> **⚠ Continuam CINCO, e um deles trocou na v0.103.** *As condições saíram da peça 1 para a peça 19, e com elas saiu a única checagem do `conferir-atributos.py` que abria o `.docx`.* **Ele deixou de ler o manual e o `conferir-dano.py` entrou no lugar dele.** *A contagem não se moveu, e a lista se moveu — que é exatamente o tipo de troca que passa despercebida quando o número está certo.*
 
 > **Eram três até a v0.96.** *O `conferir-atributos` entrou na v0.97, quando o caminho de pulada dele foi consertado, e o `conferir-progressao` entrou na v0.99 junto com a peça 18.* **A contagem ficou parada em três nos dois documentos que a publicam — e este arquivo dizia "dois" no comentário do `pip` e "três" no parágrafo, com nove linhas de distância.** *Duas cópias, duas respostas, dentro do arquivo que publica a lição nº 9.*
 
@@ -125,6 +127,7 @@ python3 conferir-invocacoes.py   # o teto somado, o catálogo, a régua, a morte
 python3 conferir-ferramenta.py   # o fundo, o gate herdado, a escada de grau, o teto na ficha
 python3 conferir-catalogo.py     # o índice das 89 entradas contra os três DESENHO da raiz
 python3 conferir-progressao.py   # as nove colunas da tabela de progressão contra os donos
+python3 conferir-dano.py         # a régua de condição, as catorze, os tipos de dano e a cobertura
 ```
 
 **Os cinco últimos são de outra natureza, e vale saber por quê.** Os onze primeiros conferem **regra** — *a fórmula deriva certo?*.

@@ -371,8 +371,8 @@ Porque na quarta ela nunca aconteceria. Com a vida **não voltando no descanso c
 
 ### Em aberto nesta seção
 
-- **O que uma Cicatriz é, mecanicamente.** Hoje ela é o registro de que aconteceu, e o conteúdo dela é da peça de dano e condições, que não existe.
-- **Se a Energia Reversa limpa Sequela antes do descanso longo.** *A aptidão **está escrita desde a v0.78**, na peça 11 §6 — com gate e teto.* **O que continua sem dono é se ela limpa Sequela**, e isso é da peça de dano e condições, como a Cicatriz acima.
+- **O que uma Cicatriz é, mecanicamente.** Hoje ela é o registro de que aconteceu. *O conteúdo dela é da peça 19, que existe desde a v0.103 — e o escopo daquela versão foi a régua de condição e as três seções que mudaram de casa, então a Cicatriz continua aberta lá.*
+- **Se a Energia Reversa limpa Sequela antes do descanso longo.** *A aptidão **está escrita desde a v0.78**, na peça 11 §6 — com gate e teto.* **O que continua sem dono é se ela limpa Sequela**, e isso é da peça 19, como a Cicatriz acima.
 - **`Incapacitado` é condição nomeada no manual**, e o Legado *Corpo Emprestado* a nega com a qualificação *"só por estar ferido"*. Com esta seção escrita, a leitura fica decidida: **`Inconsciente` não é a condição `Incapacitado`**, e o Legado não alcança o `Inconsciente`.
 - **E `Inconsciente` também não é `Derrubado`.** *`Derrubado` é `Condição Menor` do manual: quem está `Derrubado` está no chão e continua com vida.* **Quem está `Inconsciente` chegou a zero.** *A Manha `Abalo` aplica o `Derrubado`, e nunca este estado.*
 
@@ -446,114 +446,27 @@ A tabela de letalidade do Fundamento mostra 1,7 a 2,0 rodadas porque supõe que 
 
 **A previsão atual é 3,4 a 4,0 rodadas**, contra alvo bem defendido. Contra inimigo comum é menos. Isso fica como número a medir no playtest, não como alvo fechado — quem decide se o combate está arrastado é a mesa.
 
-## 8.1 Os tipos de dano — guarda provisória
+## 8.1 · 8.2 · 8.3 — as três foram para a peça 19
 
-*Decidido na v0.73 e alojado aqui na v0.74.* **Esta seção é guarda provisória.** O dono natural é a **peça de dano e condições**, que não existe e não está na fila; enquanto ela não existir, a lista mora aqui e tem validador em cima. *Quando aquela peça sair, isto vira ponteiro — é o mesmo trato que o `ESTADO-ATUAL` já faz com o vocabulário sem peça.*
+*As três seções que moravam aqui mudaram de casa na v0.103, e as três já diziam, no próprio texto, que o dono natural era a **peça de dano e condições**.*
 
-> **Catorze tipos, em três grupos.**
->
-> | grupo | tipos | do dano recebido |
-> |---|---|---|
-> | **Físicos** | `Cortante` · `Perfurante` · `Concussão` | **60%** |
-> | **Elementais** | `Fogo` · `Frio` · `Elétrico` · `Ácido` · `Trovejante` · `Veneno` | **30%** |
-> | **Especiais** | `Radiante` · `Necrótico` · `Psíquico` · `Energia Reversa` · `Alma` | **10%** |
+**As três eram guarda provisória**, e a guarda acabou quando a peça existiu. *É o mesmo trato que o `ESTADO-ATUAL` faz com vocabulário que ainda não tem peça: enquanto não tem, mora onde couber e com validador em cima; quando tem, vira ponteiro.*
 
-**Os Temas do manual não são taxonomia, e é por isso que esta lista existe.** *Decisão do Mizuki:* eles são **exemplos para quem cria técnica**, não uma classificação fechada do que o dano pode ser. **A colisão entre as duas coisas é aceita e fica declarada** em vez de esquecida:
+> **E as checagens foram junto.** *Os tipos de dano e as condições eram as duas últimas checagens do `conferir-atributos.py`, e elas estão hoje no `conferir-dano.py`.* **Com isso este validador parou de abrir o `.docx` do manual**, e ele saiu da lista dos que pulam checagem sem o `python-docx`.
 
-| o tipo | colide com |
-|---|---|
-| `Fogo` · `Ácido` · `Veneno` | são **Temas** no manual, com o mesmo nome |
-| `Cortante` · `Trovejante` · `Alma` | estão **dentro** de `Passo Cortante`, `Palma Trovejante` e `Toca a Alma` |
+> **O que a peça 19 acrescentou às três: um nível para cada condição.** *O manual cobra `Média` por qualquer uma das nove `Menor` e `Pesada` por qualquer uma das cinco `Maior`, e a conta diz que elas valem de `0,00` a `19,73` fatias.* **O nível é `Leve`, `Média` ou `Pesada`, e é ele que diz quanto custa tirar a condição e quanto ela pesa numa entrega de Trilha.**
 
-> **⚠ O peso dos três grupos é PREVISÃO e não tem dono.** `04-playtest/` está vazia desde a v0.1, e `60/30/10` é palpite calibrado contra o que uma mesa de fantasia costuma jogar em cima do grupo. **É o número que decide quanto vale toda resistência do sistema**, e o primeiro que a mesa vai corrigir.
->
-> **O que ele já decide hoje:** o `Alicerce` do `Muro` cobra por tipo, e o palpite do Mizuki reproduziu na conta — ele disse *"diria que ocupa 2,0 de fatia se for só contra físicos"*, e os três Físicos dão `60%` do dano recebido, que são `10,17` de dano por rodada, **`2,00` fatias exatas.**
+### 8.1 Os tipos de dano
 
-| quantos tipos você resiste | bate em | vale |
-|---|---|---|
-| 1 | 20% | 0,67 fatia |
-| **2** | 40% | **1,33** |
-| 3 — os Físicos inteiros | 60% | 2,00 |
-| **4** | 65% | **2,17** |
+**Os catorze tipos, em três grupos, com o peso de cada grupo no dano recebido.** *Escritos aqui na v0.74.* **Hoje eles são a seção 4 da peça 19.**
 
-**Resistir a quatro tipos fura a cerca da peça 5 §4 ao pé da letra, e está aceito.** Aquela cerca autoriza *"resistência a um tipo"*, no singular, e proíbe *"desconto em tudo"*. **Quatro de catorze não é desconto em tudo** — é o que a cerca existe para barrar, e ela continua barrando. *Decisão do Mizuki, registrada com o motivo.*
+### 8.2 Cobertura
 
-## 8.2 Cobertura
+**Os três degraus — Parcial, Boa e Total.** *Escritos aqui na v0.94.* **Hoje eles são a seção 5 da peça 19.**
 
-*Escrita na v0.94.* **Ela não existia, e treze menções pela pasta já contavam com ela** — inclusive um degrau de nível 27 que promete *"a cobertura para de significar alguma coisa"*, que é uma entrega prometendo apagar uma regra que ninguém tinha escrito.
+### 8.3 As condições
 
-***Decisão do Mizuki: a métrica é a do d20, igual.*** *Mesmo motivo dos metros das armas na peça 14: cobertura não tem preço neste sistema, então o número não sai de conta daqui — ele só precisa ser o mesmo em sete mesas, e uma tabela que todo mundo já conhece resolve isso de graça.*
-
-| cobertura | o que ela dá | exemplo |
-|---|---|---|
-| **Parcial** | **`+2` de Defesa e `+2` no Teste de Resistência Físico** | mureta, tronco, uma criatura no caminho |
-| **Boa** | **`+5` de Defesa e `+5` no Teste de Resistência Físico** | seteira, olhando por cima de uma parede, metade do corpo atrás de um canto |
-| **Total** | **você não pode ser escolhido como alvo, e ponto** | parede inteira, do outro lado da porta |
-
-**Vale contra ataque e contra efeito que venha do outro lado da cobertura, e só.** *Quem está atrás de uma mureta não ganha nada contra quem já está do lado dele.*
-
-**Só a maior conta.** *Duas coberturas parciais não viram uma boa.*
-
-> **O Teste de Resistência é o Físico, e não "o de Destreza".** *A fonte fala em salvaguarda de Destreza; aqui o TR Físico é o que ocupa esse lugar, e ele é travado em Força ou Destreza na criação.* **Quem travou em Força também se abaixa atrás de uma mureta** — trocar isso por "só quem travou em Destreza" criaria uma segunda regra de cobertura para metade das fichas.
-
-> **A `Total` não tem número de propósito.** *Ela é a única das três que não é um bônus: é a ausência de alvo legal.* **Um efeito que pega área continua alcançando quem está atrás dela, se o efeito não precisar de linha de efeito** — e essa parte é do manual, não daqui.
-
-## 8.3 As condições — as catorze, e o que cada uma faz
-
-*Escrita na v0.95.* **O manual já cobrava por condição desde sempre — `Condição Menor` custa Média e `Condição Maior` custa Pesada — e listava doze nomes sem dizer o que nenhum deles fazia.** *Doze termos com preço e sem regra, em sete mesas.*
-
-***Decisão do Mizuki: usar as do d20 para tudo que já tem nome lá, e escrever à mão só as três que precisam ser diferentes.*** *Mesmo motivo dos metros e da Cobertura: condição não tem conversão em fatia neste sistema, então o número não sai de conta daqui — ele precisa é ser o mesmo em sete mesas.*
-
-### As nove Menores — custam `Média` no manual
-
-| condição | o que faz |
-|---|---|
-| **Derrubado** | você está no chão. Só se move rastejando, tem desvantagem nos seus ataques, e quem ataca você **a até 1,5 m tem vantagem** — quem ataca de longe tem desvantagem |
-| **Cego** | você não enxerga. Falha automático em teste que precise de vista, tem desvantagem nos seus ataques, e quem ataca você tem vantagem |
-| **Surdo** | você não ouve. Falha automático em teste que precise de audição |
-| **Agarrado** | seu deslocamento é `0`. Acaba se quem agarrou ficar `Incapacitado`, ou se alguma coisa tirar você do alcance dele |
-| **Impedido** | seu deslocamento é `0`, você tem desvantagem nos seus ataques e no Teste de Resistência Físico, e quem ataca você tem vantagem |
-| **Envenenado** | desvantagem nos seus ataques e em todo teste de perícia |
-| **Lento** | seu deslocamento cai pela metade e você não usa Ação Bônus |
-| **Desarmado** | a sua arma está no chão ou na mão de outro. Você bate desarmado até pegar de volta |
-| **Calado** | você não conjura. Nada que precise de voz, gesto ou Selo sai |
-
-### As cinco Maiores — custam `Pesada` no manual
-
-| condição | o que faz |
-|---|---|
-| **Amedrontado** | desvantagem em ataque e teste enquanto enxergar a fonte do medo, e você não se aproxima dela de vontade própria |
-| **Enfeitiçado** | você não ataca quem enfeitiçou nem mira efeito nocivo nele, e ele tem vantagem em teste social contra você |
-| **Atordoado** | **você perde a Ação Padrão e não usa reação.** *Quem tem mais de uma Ação Padrão no turno — um chefe, um capanga grande — perde **uma**, não todas* |
-| **Incapacitado** | **você não pode `Bloquear`, e todo ataque corpo a corpo contra você é crítico** |
-| **Petrificado** | você virou pedra. `Incapacitado`, deslocamento `0`, sem perceber nada em volta, quem ataca você tem vantagem — e você tem resistência a todo dano |
-
-### As duas que não seguem o d20, e por quê
-
-***Decisão do Mizuki.*** **`Atordoado` e `Incapacitado` atacam eixos diferentes, e não se aninham** — o que no d20 são três linhas que herdam uma da outra, aqui são duas que não se tocam.
-
-| | o eixo que ela ataca |
-|---|---|
-| **Atordoado** | tira **parte do turno** — uma Ação Padrão e a reação. Você continua se defendendo |
-| **Incapacitado** | não tira turno nenhum: tira a **defesa**. Você age e não se protege |
-
-> **Nenhuma das duas faz o que a outra faz, e é isso que as separa.** *No d20 o `Paralisado` é o `Atordoado` mais o crítico no corpo a corpo — um empilhado no outro, e a de baixo nunca é escolha.* **Aqui a Condição Maior custa `Pesada` e você escolhe o eixo: tirar o que ele faz, ou tirar o que protege ele.**
-
-> **`Paralisado` não existe como condição, e é decisão.** *Ele era o nome da que hoje se chama `Atordoado`.* **Um terceiro degrau que fosse a soma dos dois só teria sentido se custasse mais que `Pesada`, e a escada de preço do manual não tem degrau acima dela.**
-
-> **⚠ E metade do `Incapacitado` depende de uma regra opcional.** *O `Bloquear` — rolar `2d10` no lugar da Defesa estática — está no `RASCUNHO-bloqueio.md` e nem toda mesa vai usar.* **Onde ele estiver desligado, o `Incapacitado` é só o crítico no corpo a corpo**, que é a metade que sempre vale. *Fica escrito para ninguém achar que a condição está pela metade por engano.*
-
-> **O `Atordoado` cobra `uma` Ação Padrão de propósito.** *Um chefe do manual age mais de uma vez por rodada; tirar todas com uma Condição Maior faria uma linha de feitiço apagar o turno de um chefe inteiro.* **Tirar uma ação de três é caro sem ser apagar a cena.**
-
-### As três que ficaram de fora, com o motivo escrito
-
-| não é condição aqui | por quê |
-|---|---|
-| **Inconsciente** | ***decisão do Mizuki:*** aqui isso é **cair morrendo**, e já tem regra própria — a seção 5.5 desta peça, com as duas escolhas e a janela de três rodadas. *Uma condição de uma rodada com o mesmo nome faria a mesa confundir o pior estado do jogo com um efeito que passa sozinho.* |
-| **Exaustão** | já existe, e é da **peça 10**. Ela é relógio de descanso, não efeito de combate |
-| **Invisível** | é **benefício**, e as Condições do manual são compradas para aplicar num alvo. *Aplicar `Invisível` num inimigo é pagar Média para ajudar ele.* |
-
-> **A `Exaustão` é a que mais engana**, porque no d20 ela é condição e aqui não. *Quem for escrever feitiço que canse alguém: `Condição Menor` não alcança a exaustão, e o preço dela mora na peça 10.*
+**As catorze, com o que cada uma faz e as três que ficam de fora.** *Escritas aqui na v0.95.* **Hoje elas são a seção 3 da peça 19**, e ganharam lá o nível que faltava.
 
 ## 9. Em aberto
 

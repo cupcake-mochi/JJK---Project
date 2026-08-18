@@ -192,7 +192,9 @@ E o **Yuji** com o Punho Divergente é a mesma ideia num golpe só: o soco acert
 
 ***"Você tá inflando demais essa habilidade, garanto para você, pode passar e manter como está."*** *Precedente dele mesmo, com a mesma frase: a `Brasa`, na v0.81.*
 
-**Nenhum número publicado se moveu.** O que segue é o tamanho medido, escrito porque a conta discorda — no molde do `Punho`, que estoura `22%` e fica.
+**Nenhum número publicado se moveu.** O que segue é o tamanho medido, escrito porque a conta discorda — no molde da `Brasa`, que estoura entre `41%` e `88%` e fica.
+
+> **⚠ Esta linha dizia `Punho`, e ela mudou na v0.103.** *O estouro de `22%` daquela Trilha era erro de preço, e ela cabe em `4,94`.* **O maior estouro aceito do projeto passa a ser a `Brasa`**, e ela foi aceita com a mesma frase dele.
 
 | a peça | vale |
 |---|---|
@@ -210,7 +212,9 @@ E o **Yuji** com o Punho Divergente é a mesma ideia num golpe só: o soco acert
 | `Arma de Fogo` | 4,74 | **6,00** |
 | `Besta` | 4,52 | **5,95** |
 
-> **As três caem em `+19%` a `+22%` sobre as `5,00`, que é exatamente o tamanho do `Punho`** — ele está publicado em `6,09` e foi aceito na v0.74 com o mesmo argumento. *A `Brasa` está bem pior, entre `7,06` e `9,42`, e também ficou.*
+> **As três caem em `+19%` a `+22%` sobre as `5,00`.** *A `Brasa` está bem pior, entre `7,06` e `9,42`, e ficou — é o maior estouro aceito do projeto, e o precedente destas três.*
+>
+> **⚠ Esta linha comparava com o `Punho`, que estava publicado em `6,09` — e na v0.103 ele repreçou para `4,94` e deixou de estourar.** *O estouro dele era o `Derrubado` do nível 11 preçado como permanente, sem os dois portões que o texto da entrega escreve.* **A conta destas três rotas não muda; o que muda é qual precedente elas citam.**
 
 ### A dominância que isso cria, declarada
 
@@ -230,7 +234,9 @@ E o **Yuji** com o Punho Divergente é a mesma ideia num golpe só: o soco acert
 >
 > **O que a matriz continua segurando:** ninguém domina o `Executor`, que é o único com coluna de defesa, e as três rotas não se dominam entre si, porque a `Besta` e o `Yumi` têm posicionamento e a `Arma de Fogo` não.
 
-> **⚠ E a taxa é a TERCEIRA previsão sem medida deste bloco.** *As outras duas já estavam declaradas: quantas rodadas um atirador passa na faixa longa, e quantas ele passa colado.* **Agora entra "em quantas rodadas ele fica parado", e ela sozinha decide `2,12` fatias:** a `1,00×` as três rotas vão a `8,07`–`8,21` e a dominância sobe para `1,64×`. *É a primeira coisa a olhar na mesa, junto com o estouro.*
+> **⚠ E a taxa é a TERCEIRA previsão sem medida deste bloco.** *As outras duas já estavam declaradas: quantas rodadas um atirador passa na faixa longa, e quantas ele passa colado.* **Agora entra "em quantas rodadas ele fica parado", e ela sozinha decide `2,12` fatias:** a `1,00×` as três rotas vão a `8,07`–`8,21` e a dominância sobe para `1,64×`.
+>
+> ***Decisão do Mizuki na v0.103: as três taxas ficam declaradas aqui e saem da fila de perguntas do projeto.*** *Elas não são conta — são medida de mesa, e `04-playtest/` está vazia desde a v0.1.* **O tamanho está escrito, que é o que uma previsão sem medida precisa carregar.**
 
 ## `Yumi` — 4,82 de 5,00
 
@@ -665,28 +671,30 @@ Aquele `11,50` é a linha de comparação do §2 da **peça 5**, e ela usa `1d10
 
 > **E fica uma dívida: os três degraus do Caminho do Bastião nunca foram preçados contra as `3` fatias dele.** O `DESENHO-caminhos.md` mediu cada um contra outra coisa — o vão, ou porcentagem da Rotina. **Com o `Absorver` em `1,60`, sobram `1,40` para o `Puxar Para Si` e o `Segurar`.** *Não dá para afirmar que cabe sem preçar os outros dois.*
 
-## `Punho` — 6,09 de 5,00, e o estouro é decisão do Mizuki
+## `Punho` — 4,94 de 5,00, e o estouro que ele tinha era erro de preço
 
 | nv | nome | a entrega | forma | fatias |
 |---|---|---|---|---|
 | **2** | **`Engate`** | acertou na padrão, ganha um soco na bônus | condicional | **1,70** |
-| **11** | **`Encontrão`** | empurra, e derruba | permanente | **2,06** |
+| **11** | **`Encontrão`** | empurra, e derruba | permanente, com portão no derrubar | **0,91** |
 | **19** | **`Tropel`** | o empurrão passa de um alvo para o seguinte | permanente | 0,35 |
 | **27** | **`Arranco`** | o segundo soco, e a vantagem | permanente | **1,98** |
 
-> **Ele estoura em `22%`, e fica.** *Decisão do Mizuki, com o motivo dele: "mesmo com esse estouro, não vai quebrar o balanceamento da mesa — a maioria das habilidades são situacionais e de RP."*
+> **⚠⚠ REPREÇADO NA v0.103, E A TRILHA CABE.** *Ela estava publicada em `6,09`, estourando `22%`, e o estouro estava aceito por decisão do Mizuki — "mesmo com esse estouro, não vai quebrar o balanceamento da mesa — a maioria das habilidades são situacionais e de RP".*
 >
-> **A conta discorda em parte, e a discordância fica escrita.** Das cinco peças da Trilha, **quatro disparam quase toda rodada**: o `Engate` em `75%`, o empurrão em todo soco que acerta, o `Derrubado` uma vez por rodada e o segundo soco junto do `Engate`. **A única de fato situacional é o `Tropel`**, que precisa de dois alvos na linha — e ele é `0,35` fatia, a peça mais barata da Trilha.
+> **O estouro não era escolha: era o `Derrubado` do nível 11 preçado como PERMANENTE.** *O `8,66` que estava aqui é, a `2,5%` de distância, o valor permanente do `Derrubado` que a peça 19 deriva — `8,45`, o mesmo que a Manha `Abalo` publica.* **Mas o texto do `Encontrão` escreve dois portões, e o preço não lia nenhum dos dois:** *"um alvo **que você acertou** faz um **Teste de Resistência de Vigor**"*.
 >
-> **O que joga a favor de deixar rodar, e é conta:** o estouro é só do `Punho` — `Muro` fecha em `4,87` e `Brasa` em `5,03`, e a média das três é `5,33`, sete por cento acima. **E a matriz continua limpa**: o estouro engordou o `Punho` sem pôr ele por cima de nenhuma irmã.
+> **Acertar com dois ataques é `75%` — o mesmo gate que o `Engate` já usa nesta Trilha. Falhar um Teste de Resistência é `45%`, da peça 1 §6. Juntos, `33,8%`.**
 >
-> **E uma das seis peças não reconstrói de lugar nenhum: o `Derrubado` do nível 11, que sozinho vale `1,71` fatia — 28% da Trilha.** As outras cinco eu refaço do zero a partir de linha publicada. *Fica marcado, porque é exatamente o defeito do `15%` do `Servo`: número que ninguém consegue reproduzir é número que saiu da subtração.*
+> ***Decisão do Mizuki na v0.103: corrigir o preço e deixar em `4,94`.*** *As `0,06` fatia de folga são ruído — `0,30` de dano por rodada, e este documento já tratou `0,16` como ruído antes.* **Nenhuma linha de texto de mesa se moveu: o que estava errado era a conta, e não o desenho.**
+>
+> *O resto do argumento do estouro fica registrado, porque ele continua valendo para o dia em que outra Trilha estourar de verdade: das cinco peças, quatro disparam quase toda rodada, e a única de fato situacional é o `Tropel`, que é a mais barata.*
 
 | a peça | dano/rodada | fatias | de onde sai |
 |---|---|---|---|
 | nv2 `Engate` | 8,62 | 1,70 | soco × 75% |
 | nv11 empurrão | 1,80 | 0,35 | linha `posicionamento +3 m` |
-| nv11 `Derrubado` | 8,66 | **1,71** | **não reconstrói** |
+| nv11 `Derrubado` | 2,85 | **0,56** | peça 19, `8,45` × `75%` × `45%` |
 | nv19 `Tropel` | 1,80 | 0,35 | linha `posicionamento +3 m` |
 | nv27 segundo soco | 8,62 | 1,70 | soco × 75% |
 | nv27 vantagem | 1,44 | 0,28 | vantagem `25` pp × 25% |
@@ -710,7 +718,9 @@ Aquele `11,50` é a linha de comparação do §2 da **peça 5**, e ela usa `1d10
 | **19** | **`Labareda`** | o feitiço do bônus sobe para `Classe 3`, e `Classe 4` do nível 21 | permanente | **0,00 a 2,36** | *1,03* |
 | **27** | **`Fornalha`** | o forno aceso: três socos, três alvos, três Classe 0 | botão | 1,97 | *1,77* |
 
-> ***Decisão do Mizuki: fica estourado.*** *"Parece que é forte, mas não é, garanto."* **Precedente dele mesmo: o `Punho` fechou `22%` acima e ficou.** *Este é maior — e a matriz do Bastião continua limpa, que é o mesmo motivo que segurou o `Punho`.*
+> ***Decisão do Mizuki: fica estourado.*** *"Parece que é forte, mas não é, garanto."* **E a matriz do Bastião continua limpa, que é o outro motivo.**
+>
+> **⚠ O precedente que estava escrito aqui era o `Punho`, e ele caiu na v0.103** — aquele estouro de `22%` era erro de preço, e a Trilha cabe em `4,94`. *Com ele fora, a `Brasa` deixa de ter precedente e passa a ser ela mesma o maior estouro aceito do projeto.*
 
 ### O turno do Brasa, escrito, porque ele era o buraco
 
@@ -781,8 +791,8 @@ Aquele `11,50` é a linha de comparação do §2 da **peça 5**, e ela usa `1d10
 
 | | `Muro` | `Punho` | `Brasa` |
 |---|---|---|---|
-| **soma, em fatias** | 4,87 | **6,09** | 5,03 |
-| **na banda 4,50–5,00** | ✓ | ✗ **estouro aceito** | quase — `0,03` acima |
+| **soma, em fatias** | 4,87 | **4,94** | 5,03 |
+| **na banda 4,50–5,00** | ✓ | ✓ *(era `6,09` até a v0.103)* | quase — `0,03` acima |
 | **nível 2 permanente ou condicional** | ✓ | ✓ | ✓ |
 | **algo que o jogador decide usar** | ✓ o `Alicerce` e a Reação do 19 | ✓ o `Engate` gasta a ação bônus | ✓ a `Fornalha` |
 
@@ -795,10 +805,10 @@ Aquele `11,50` é a linha de comparação do §2 da **peça 5**, e ela usa `1d10
 | | ação/alvo | defesa | posicionamento | recuperação | total |
 |---|---|---|---|---|---|
 | `Muro` | 0,00 | **4,16** | 0,71 | 0,00 | 4,87 |
-| `Punho` | 3,68 | 0,00 | **2,41** | 0,00 | **6,09** |
+| `Punho` | 3,68 | 0,00 | **1,26** | 0,00 | **4,94** |
 | `Brasa` | **4,02** | 0,00 | 0,00 | **1,01** | 5,03 |
 
-**Cada uma lidera numa coluna diferente, e nenhuma ganha da outra em todas.** O `Muro` é a única com defesa, a `Brasa` é a única com recuperação, e o `Punho` leva posicionamento com folga de `3,4×` sobre o `Muro`. *O estouro do `Punho` não criou dominância — ele engordou a coluna em que o `Punho` já era o dono.*
+**Cada uma lidera numa coluna diferente, e nenhuma ganha da outra em todas.** O `Muro` é a única com defesa, a `Brasa` é a única com recuperação, e o `Punho` leva posicionamento com folga de `1,8×` sobre o `Muro`. *A repreçagem da v0.103 tirou `1,15` fatia da coluna de posicionamento do `Punho`, e a matriz continua limpa: ele continua sendo o dono daquela coluna.*
 
 ## Os números que decidiram, e de onde saem
 
@@ -845,7 +855,7 @@ Aquele `11,50` é a linha de comparação do §2 da **peça 5**, e ela usa `1d10
   >
   > **Redevirar quando as nove Trilhas fecharem.** O dono declarado daquela tabela é o playtest, e `04-playtest/` continua vazia — mover número de playtest com chute pré-playtest cria a segunda fonte sem dono, que é a lição nº 9.
 - **A peça 5 §4 precisa de uma terceira forma de exceção estreita** — hoje ela lista duas, e o `Engate` usa uma terceira.
-- **O `Derrubado` do nível 11 do `Punho` vale `1,71` fatia e não reconstrói de nenhuma linha publicada.** É a maior peça da Trilha e a única sem derivação escrita.
+- ~~**O `Derrubado` do nível 11 do `Punho` vale `1,71` fatia e não reconstrói de nenhuma linha publicada.**~~ **FECHADO na v0.103, pela peça 19.** *Ele reconstrói: era o `Derrubado` permanente, `8,45`, sem os dois portões que o texto da entrega escreve. Com eles, `0,56` fatia — e a Trilha cabe em `4,94`.*
 - **Falta nome** para o empurrão do nível 11 do `Punho`, para o espaço do `Muro` e para a energia temporária da `Brasa`. *Nenhum dos três passou pela triagem ainda.*
 - **Vanguarda, Guia, Emanador e Evocador** — nove Trilhas, quatro delas problemáticas.
 - *Nenhum validador alcança este arquivo.* **O soco saiu daqui e ganhou dono e validador** — peça 14 §5.0.6, com a checagem 11 do `conferir-equipamento.py` e cinco perturbações conferidas.
@@ -1035,7 +1045,7 @@ Aquele `11,50` é a linha de comparação do §2 da **peça 5**, e ela usa `1d10
 
 ***Decisão do Mizuki:*** *"tá tudo bem não existir, ele só precisa pagar o PE de cada nível de condição mesmo."*
 
-**A regra preça pelo NÍVEL da condição, então ela não depende da lista.** *Quando a peça de dano e condições existir e der nível a cada uma, a regra já lê dela sem ser reescrita.*
+**A regra preça pelo NÍVEL da condição, então ela não depende da lista.** *E foi o que aconteceu: a peça 19 nasceu na v0.103 e deu nível a cada uma das catorze — `Leve`, `Média` ou `Pesada`, que valem `1`, `2` e `3` pontos de energia.* **A regra leu de lá sem uma palavra reescrita**, e a escada que ela produz — `Leve` no nível 11, `Média` no 11, `Pesada` a partir do 17 — cai da própria conta.
 
 > **E o precedente já está escrito:** a **exaustão** da peça 10 §4 tem **três degraus numerados**, e é a única condição do projeto com magnitude declarada hoje. *Tirar o degrau 3 custa `3` PE.*
 >
@@ -1058,7 +1068,7 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 
 *O gate é o mesmo da `Extensão de Domínio`, e ele casa com o material: energia reversa nasce no cérebro e não no intestino, e o difícil é sustentar dois fluxos ao mesmo tempo.* **É coisa que quase ninguém alcança — o que faz a `Sutura` dar ela no nível 2 valer o que vale.**
 
-> **✔ Ela ganhou casa na v0.78.** Está no catálogo da peça 11 §6, com Classe Passiva e os dois gates declarados, e com seis checagens no `conferir-aptidoes.py`. *O que continua pendurado é a peça 1 §5.5: se Energia Reversa limpa Sequela. Essa é da peça de dano e condições, junto da Cicatriz.*
+> **✔ Ela ganhou casa na v0.78.** Está no catálogo da peça 11 §6, com Classe Passiva e os dois gates declarados, e com seis checagens no `conferir-aptidoes.py`. *O que continua pendurado é a peça 1 §5.5: se Energia Reversa limpa Sequela. Essa é da peça 19, junto da Cicatriz, e continuou aberta na v0.103.*
 
 ---
 
@@ -1270,7 +1280,9 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 
 **A matriz da `Torrente` no nível 30:** `4,65` em ação/alvo, e zero nas outras três colunas. *Ela é a Trilha mais monocromática do Emanador, e isso vai importar quando as três forem cruzadas.*
 
-> **O estouro de `7%` está aceito, e o precedente é do próprio Mizuki:** o `Punho` fechou `22%` acima e ficou. **Sete por cento é menos de um terço daquilo**, e cabe dentro da largura da própria banda de escrita.
+> **O estouro de `7%` está aceito, e o precedente é do próprio Mizuki:** a `Brasa` fechou entre `41%` e `88%` acima e ficou. **Sete por cento é uma fração daquilo**, e cabe dentro da largura da própria banda de escrita.
+>
+> *⚠ O precedente citado aqui era o `Punho` em `22%`, e ele caiu na v0.103: aquele estouro era erro de preço.*
 
 > **E o PE virou freio de verdade nesta versão.** Uma rodada de pico no nível 30 custa **`44` de PE** — `21` do Classe 7, `11` da sobretaxa e `12` do Classe 4. **O pool de `180` cobre `4,1` rodadas, que é `1,1` luta.** *Ou seja: você torra uma luta inteira no dia, e a segunda você entra com o bolso vazio.* **É exatamente a ficção — você lança até a energia acabar, e ela acaba.**
 >
@@ -1282,7 +1294,9 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 
 ### Explosivo — *um feitiço só, e ele sai maior* — **fechada na v0.81**
 
-> **`5,57` de `5,00` fatias — `11%` acima, e o estouro fica.** *Metade do estouro do `Punho`, que já está aceito desde a v0.74.*
+> **`5,57` de `5,00` fatias — `11%` acima, e o estouro fica.** *Uma fração do estouro da `Brasa`, que está aceito desde a v0.81.*
+>
+> *⚠ Esta linha comparava com o `Punho`, e ele deixou de estourar na v0.103.*
 
 **O `Repertório` foi ABANDONADO, e o motivo tem conta.** *A ficção dele — saber a jujutsu que a hora pede — só se preçava por "uma aptidão a mais", e essa régua não existe nem pode existir: ela vale a Trilha inteira para quem nunca escolhe Refino e um sétimo para quem sempre escolhe.* **E as duas colunas vazias do Caminho não aguentavam uma Trilha:** liderar em recuperação pede `3` de PE por rodada devolvidos, e em posicionamento pede `26` metros por rodada. *O `Perímetro` do Guia já tinha batido nessa parede e saído com zero em posicionamento.*
 

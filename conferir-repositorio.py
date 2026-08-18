@@ -642,7 +642,13 @@ else:
     # v0.99: 174 e 91. As seis novas sao a peca 18 citando os tres validadores
     # que leem a coluna de espacos dela e o caminho do arquitetura.md na arvore
     # da FONTE, mais duas da peca 2. Nenhuma familia nova — o teto vai a 96.
-    PISO_CITACOES, TETO_BRANCOS = 120, 96
+    #
+    # v0.103: 99 brancas. As seis novas sao a peca 19 citando o conferir-dano.py
+    # e o conferir-catalogo.py, mais as pecas que ganharam ponteiro para o
+    # validador novo quando as condicoes mudaram de casa. TODAS sao "nome de
+    # validador", que e' a primeira das duas familias ja declaradas — nenhuma
+    # familia nova. O teto vai a 104, que e' a mesma folga de cinco.
+    PISO_CITACOES, TETO_BRANCOS = 120, 104
     if vistos_e < PISO_CITACOES:
         erro(f'7.2: achei so {vistos_e} citacoes na entrega, e o piso e {PISO_CITACOES} — '
              f'o extrator mudou de forma e esta checagem parou de conferir')
@@ -692,8 +698,9 @@ else:
     _entrega_confere('a contagem de pecas', r'as \*\*(\w+) peças\*\* de mecânica',
                      'README.md', r'\*\*(\S+) peças de regra\*\*', extenso=True)
     _entrega_confere('a contagem de condicoes', r'as (\w+) condições',
-                     'sistema/03-mecanica/' + pecas[0],
-                     r'^## 8\.3 As condições — as (\w+)', extenso=True)
+                     'sistema/03-mecanica/'
+                     + next(p for p in pecas if 'condicoes' in p),
+                     r'^## 3\. As (\w+) condições', extenso=True)
     _entrega_confere('o total de entradas do catalogo', r'das \*\*(\d+) entradas\*\*',
                      'sistema/03-mecanica/17-catalogo-de-entregas.md',
                      r'^\| \*\*total\*\* \| \*\*(\d+)\*\*')

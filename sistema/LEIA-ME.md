@@ -9,7 +9,7 @@ Sistema de RPG de mesa em desenvolvimento, ambientado no universo de Jujutsu Kai
 | `00-fundacao/` | Pitch de design e decisões que valem para o projeto inteiro |
 | `01-pesquisa/` | Dossiê de metodologia, referências e análise do espaço de design |
 | `02-esqueleto/` | Arquitetura do sistema: subsistemas, como se conectam, o que cada um resolve |
-| `03-mecanica/` | As peças de regra, numeradas na ordem em que foram escritas, e os dezoito validadores |
+| `03-mecanica/` | As peças de regra, numeradas na ordem em que foram escritas, e os dezenove validadores |
 | `04-playtest/` | Roteiro de teste, formulários e retorno organizado por tema |
 | `05-material/` | A **ficha de personagem** e o gerador dela |
 | `99-arquivo/` | **Material morto.** Nada aqui é regra corrente — ver o `LEIA-ME.md` de lá |
@@ -42,13 +42,13 @@ A pasta `skills/` guarda o `SKILL.md` de cada uma mais os arquivos de apoio. ~~*
 
 ## Versão atual
 
-**v0.102.** Fases 0 a 3 fechadas; a Fase 4 (mecânica) está em andamento com **dezoito peças escritas e dezoito validadores passando**. O manual do Fundamento está na **v7.9**, e ele é um subsistema fechado — a técnica e o feitiço já funcionam. O `.pdf` **está na mesma versão do `.docx`** desde a v0.93 — ele deixou de ser exportado a mão.
+**v0.103.** Fases 0 a 3 fechadas; a Fase 4 (mecânica) está em andamento com **dezenove peças escritas e dezenove validadores passando**. O manual do Fundamento está na **v7.9**, e ele é um subsistema fechado — a técnica e o feitiço já funcionam. O `.pdf` **está na mesma versão do `.docx`** desde a v0.93 — ele deixou de ser exportado a mão.
 
 **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas**, por seis das nove rotas de Origem. Desde a v0.32 não sobrou peça de regra travando ninguém nessa faixa: das dezessete coisas que uma ficha de nível 2 precisa, **treze existem, e as quatro que faltam não mordem nessa faixa**. O que falta para as outras três rotas, e a ordem do resto, está no `ESTADO-ATUAL.md`.
 
 O que falta hoje não é regra, é **material**. A **ficha de personagem** saiu na v0.35 e está em `05-material/`, com o gerador dela. **O quick-start foi abandonado na v0.102**, por decisão do Mizuki: o texto de mesa vai direto para o PDF, escrito a partir do repositório de entrega. E `04-playtest/` continua vazia — **zero sessões desde a v0.1**.
 
-**Cinco** leem o manual e precisam de `python-docx`: `conferir-atributos.py`, `conferir-manual.py`, `conferir-nomes.py`, `conferir-pericias.py` e `conferir-progressao.py`. **Sem ele eles pulam as checagens que leem o `.docx`** em vez de falhar. Puladas por validador, lidas do código: **1 de 11** · **4 de 4** (todas — ele sai no `except ImportError` antes da primeira) · **3 de 5** · **1 de 8** · **1 de 8**. *Desde a v0.101 os cinco dizem no rodapé que pularam, e o `subir.sh` marca com `ok*` amarelo.*
+**Cinco** leem o manual e precisam de `python-docx`: `conferir-dano.py`, `conferir-manual.py`, `conferir-nomes.py`, `conferir-pericias.py` e `conferir-progressao.py`. **Sem ele eles pulam as checagens que leem o `.docx`** em vez de falhar. Puladas por validador, lidas do código: **1 de 10** · **4 de 4** (todas — ele sai no `except ImportError` antes da primeira) · **3 de 5** · **1 de 8** · **1 de 8**. *O `conferir-atributos.py` estava nesta lista até a v0.102 e saiu dela: as condições mudaram para a peça 19, e com elas foi a única checagem dele que abria o `.docx`.* *Desde a v0.101 os cinco dizem no rodapé que pularam, e o `subir.sh` marca com `ok*` amarelo.*
 
 > *Esta linha ficou parada em **três** até a v0.102 — o `README` e o `ESTADO-ATUAL` foram corrigidos na v0.100 e este arquivo não. **Três cópias, e a terceira envelheceu sozinha.***
 
