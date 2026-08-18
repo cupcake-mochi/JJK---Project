@@ -170,11 +170,13 @@ O manual usa **"uma vez por cena"**, **"uma vez por descanso"** e **"uma vez por
 
 ### O que conta como uma cena
 
-*Recontado na v0.92: eram 93 e viraram 96, e os três novos são a `Aptidão Própria` da peça 11 §6.7 — a checagem recontou da pasta e acusou o total velho na primeira edição, pela segunda vez, que é exatamente o trabalho dela.* *A v0.83 tinha feito o mesmo caminho, de 91 para 93, com o `Ler o Ambiente` da peça 3 §3.1.* *Escrito na v0.62. A escada estava aqui desde a v0.23 e o degrau mais usado dela nunca tinha sido definido — **96 usos de `por cena` nas outras peças de `03-mecanica`, dos quais 71 no catálogo de Legados**, e nenhum documento dizendo o que a palavra quer dizer.*
+*Escrito na v0.62. A escada estava aqui desde a v0.23 e o degrau mais usado dela nunca tinha sido definido: `por cena` aparecia às dezenas nas peças de `03-mecanica`, e nenhum documento dizia o que a palavra queria dizer.*
 
-> *Os dois números acima são recontados pelo `conferir-descanso.py` toda vez que ele roda, e ele falha se esta linha divergir da pasta.* **Esta peça fica de fora da própria contagem**, e não é detalhe: ela é a dona do relógio, então a prosa dela sobre `por cena` não é um uso — e o total oscilaria a cada edição desta seção.
+> **⚠ Aqui morava um total, e ele saiu na v0.104.** *Esta linha publicava quantos usos de `por cena` existiam na pasta, e o `conferir-descanso.py` recontava e falhava se divergisse.* **Ela era prova, e a prova venceu:** nasceu na v0.62 para mostrar que a palavra mais usada do projeto não tinha definição, e a definição está escrita logo acima — com checagem própria em cima dela.
 >
-> *A primeira versão desta linha dizia `130`, e a segunda dizia `94`.* O `130` saiu de contar **linhas que continham a palavra *cena***, e *"por cena"*, *"a cena anda"*, *"tem cena provando"* e *"fora da cena"* são quatro coisas diferentes; o `94` já era a contagem certa, e envelheceu no mesmo commit em que foi escrita, porque escrever esta seção criou ocorrências novas. **Contar sintoma não é contar causa**, e a lição nº 1 cobrou duas vezes na mesma linha antes de o validador existir.
+> *O total, porém, sobe toda vez que qualquer peça ganha uma entrega.* **Acusou quatro vezes — v0.83, v0.92, v0.103 e v0.104 — e nenhuma das quatro achou defeito.** *Achou a própria idade.* ***Decisão do Mizuki: tirar.*** **Teste escrito contra número que sobe toda semana mente na semana seguinte**, e o conserto é ancorar em coisa que não se move.
+>
+> *A história da linha fica, porque a lição é boa.* A primeira versão dela dizia `130`, e a segunda dizia `94`. O `130` saiu de contar **linhas que continham a palavra *cena***, e *"por cena"*, *"a cena anda"*, *"tem cena provando"* e *"fora da cena"* são quatro coisas diferentes; o `94` já era a contagem certa, e envelheceu no mesmo commit em que foi escrita, porque escrever esta seção criou ocorrências novas. **Contar sintoma não é contar causa.**
 
 > **Quem conta é o mestre.** Uma cena pode ser uma sala, ou um segmento de salas, ou um combate. **Ela acaba quando a pressão daquele pedaço acaba** — o inimigo caiu, a porta fechou, o grupo saiu dali.
 

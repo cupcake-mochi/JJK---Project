@@ -1,8 +1,14 @@
 # Estado atual do projeto
 
-Atualizado em 18/08/2026, na v0.103 (última peça fechada: **Dano e condições, na v0.103**; antes dela, a **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 18/08/2026, na v0.104 (última peça fechada: **Dano e condições**, ampliada nesta versão com a penalidade de arma; antes dela, a **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.103.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezenove peças escritas** e **dezenove validadores**.
+**Versão v0.104.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezenove peças escritas** e **dezenove validadores**.
+
+**A v0.104 é a versão das dez condições no degrau errado.** *A `Condição Menor` e a `Condição Maior` do manual viraram uma Melhoria só, chamada `Condição`, e o preço dela é o **nível** da condição escolhida.* **O espalhamento dentro de um degrau caiu de `17,00×` para `4,26×`, que é o piso de qualquer corte em três degraus** — a busca exaustiva diz que nenhum outro faz melhor, e o filtro do projeto reprova a partir de `3,00×`. *Manual na v7.10, com dois feitiços prontos mudando: `Palma Trovejante` `5d8 → 6d8` e `Vala Comum` `9d8 → 11d8`.*
+
+**E ela pagou a dívida mais velha da peça 13: as cinco vagas de `Desliga` que estavam destravadas desde a v0.59 e a v0.103.** *O que as segurava não era trabalho — era a trava do formato, que proibia encostar em qualquer coisa com preço.* ***Decisão do Mizuki: a trava passou a "apaga o que ninguém comprou, e ENFRAQUECE o que alguém comprou — nunca imunidade"***, com o degrau do relógio saindo do nível da condição. **Sobraram duas vagas, e as duas esperam peça que não existe.**
+
+**A penalidade de arma está escrita**, na peça 19 §6: sem treino, desvantagem na rolagem; sem o requisito de Força, `−3 m` de deslocamento. *As duas somadas custam `33,8` vezes o que a arma entrega — é porta fechada, não preço.* **Três documentos apontavam para ela.**
 
 **A v0.103 escreveu a peça de dano e condições, e a régua que ela existia para ter não precisou ser inventada — ela estava na tabela de custo do manual.** *Vinte e seis lugares em oito documentos esperavam por ela, e metade dela já estava escrita: três seções da peça 1 declaradas, no próprio texto, como guarda provisória.* **Os catorze tipos de dano, a cobertura e as catorze condições mudaram de casa, e a peça 1 ficou com ponteiro.**
 
@@ -10,7 +16,7 @@ Atualizado em 18/08/2026, na v0.103 (última peça fechada: **Dano e condições
 
 > **⚠ E quatro decisões de estouro citavam o `Punho` como precedente.** *O `Batedor` nas três rotas, a `Brasa`, a `Torrente` e o `Explosivo`.* **Nenhum número delas se moveu — o que se moveu foi qual precedente elas citam.** *O maior estouro aceito do projeto passa a ser a `Brasa`, entre `41%` e `88%`.*
 
-> **A régua, em uma linha:** o manual cobra `Média` por qualquer uma das nove `Condição Menor` e `Pesada` por qualquer uma das cinco `Maior` — **e a conta diz que elas valem de `0,00` a `19,73` fatias.** *Dentro do tier `Menor` o espalhamento é `17` vezes, contra um filtro de dominância que reprova a partir de `3,00`.* **Cada uma passou a ter nível — `Leve`, `Média` ou `Pesada` —, e tirar uma custa `1` ponto de energia por nível.**
+> **A régua, em uma linha:** até a v0.103 o manual cobrava `Média` por qualquer uma das nove `Condição Menor` e `Pesada` por qualquer uma das cinco `Maior` — **e a conta diz que elas valem de `0,00` a `19,73` fatias, um espalhamento de `17` vezes contra um filtro de dominância que reprova a partir de `3,00`.** *Cada uma ganhou nível — `Leve`, `Média` ou `Pesada` —, e tirar uma custa `1` ponto de energia por nível.* **Na v0.104 as duas Melhorias viraram uma, chamada `Condição`, e o preço dela passou a ser o nível:** *dez das catorze estavam no degrau errado, e o espalhamento caiu de `17,00×` para `4,26×`, que é o piso de qualquer corte em três degraus.*
 
 > **O número pulou de `0.99` para `0.100` e não para `1.00`.** ***Decisão do Mizuki:*** *`1.0` costuma querer dizer pronto para usar, e `04-playtest/` tem zero sessões, o quick-start não existe e faltam três Trilhas.* **O `1.0` fica reservado para quando alguém tiver jogado.**
 
@@ -294,14 +300,14 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/18-progressao.md` | **a tabela de progressão** — o que se ganha em cada nível, do 1 ao 30, numa tabela só. Nove das dez colunas são cópia com dono declarado; a décima, o tamanho da lista de feitiços, nasce aqui |
 | `03-mecanica/conferir-progressao.py` | as **oito** checagens da peça 18: cada coluna reconstruída a partir do dono, a fórmula dos espaços contra a tabela da peça 11, e a cópia de três fichas da peça 2 |
 | `03-mecanica/19-dano-e-condicoes.md` | **a régua de condição** — quanto vale cada uma das catorze, em dano por rodada e em nível —, mais as catorze condições, os catorze tipos de dano e a cobertura, que vieram da peça 1 |
-| `03-mecanica/conferir-dano.py` | as **dez** checagens da peça 19, e a nona sai da pasta: ela bate as duas entregas publicadas que aplicam condição contra a régua |
+| `03-mecanica/conferir-dano.py` | as **onze** checagens da peça 19, e a nona sai da pasta: ela bate as duas entregas publicadas que aplicam condição contra a régua. *A décima primeira entrou na v0.104, com a penalidade de arma* |
 | `05-material/gerador-ficha/` | o gerador da ficha (Node: `node make.js`), e os dois `.docx` que ele produz |
 | `conferir-repositorio.py` | a árvore, as referências mortas, os números que moram em mais de um documento, os **ponteiros de seção** — todo `peça N §M` citado tem de apontar para seção que existe, desde a v0.54 —, o **mapa** desta tabela contra a pasta, a **entrega** contra a fonte, a **pendência morta** desde a v0.100 — nenhum item de "Em aberto" pode pedir coisa que já existe —, e, **desde a v0.102**, a **contagem de checagens de cada validador, lida do código** |
 | `99-arquivo/` | material morto, com LEIA-ME próprio. Não leia de lá para escrever peça nova |
 
 **Duas peças foram parcialmente substituídas e trazem o aviso no topo:** as seções 3 e 4 da peça 4 saíram para a peça 7, e a seção 3 e o quadro de Caminhos da peça 5 saíram para a peça 6.
 
-O manual do Fundamento **v7.9** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 363 parágrafos e 84 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na v7.9, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 44 páginas.
+O manual do Fundamento **v7.10** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 366 parágrafos e 90 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na v7.10, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 46 páginas.
 
 **Quem é dono da versão do manual:** a primeira linha de `manual/gerador/COMO-USAR.txt`. Toda outra cópia — a capa em `partA.js`, este arquivo, o `README.md`, o `LEIA-ME.md` e o `arquitetura.md` — é cópia, e o `conferir-repositorio.py` falha se alguma divergir. *Ele nasceu na v0.33, depois de a capa do manual passar três versões dizendo 7.5.*
 
@@ -681,7 +687,7 @@ Quatro peças, e a ordem é de **dependência**, não de tamanho. A ordem que el
 >
 > **E o buraco que ela achou na peça 6 continua aberto, porque é de playtest e não de conta:** a regra da seção 4 preça o **dano** da Matilha e não preça o **tempo de mesa** dela. Cinco corpos agindo por rodada custam o mesmo tempo quer cada um faça 25 de dano ou 5 — e foi por essa metade, não pela do dano, que o 5e 2024 trocou a família inteira de `conjure`. O conserto que a peça achou é de gesto e não de regra: **rolar em pool** corta de sete gestos e meio por rodada para três. **O número esperado está escrito no §3.2 antes da sessão** — a Matilha custa `2,5×` um personagem de nível 6 —, e a checagem 4 confere que ele continua batendo com a tabela dele mesmo.
 
-> **A dívida que a peça 13 marcou continua aberta, e agora ela é dupla.** A peça 13 fecha dizendo *"quando equipamento fechar, a primeira coisa a fazer é voltar aqui"* — quatro vagas de Desliga nomeiam essa peça, e outras três nomeiam **dano e condições**. **As duas peças existem: equipamento é a 14 desde a v0.48 e dano e condições é a 19 desde a v0.103, e ninguém voltou lá em nenhuma das duas vezes.** *Decisão registrada não é decisão aplicada, duas vezes seguidas na mesma lista.*
+> ~~**A dívida que a peça 13 marcou continua aberta, e agora ela é dupla.**~~ **Paga na v0.104.** *A peça 13 fechava dizendo "quando equipamento fechar, a primeira coisa a fazer é voltar aqui", e ninguém voltou nem quando a 14 fechou na v0.48 nem quando a 19 fechou na v0.103.* **As cinco vagas destravadas foram escritas**, e o que faltava não era trabalho: era a trava do `Desliga`, que proibia encostar em qualquer coisa com preço e por isso não deixava nenhuma delas nascer. *Decisão registrada não é decisão aplicada — e às vezes o que impede a aplicação é outra decisão.*
 
 ### Onde Equipamento parou, na v0.42
 
@@ -786,7 +792,7 @@ O motivo é o pilar 1, e está escrito na peça 5: *"se o Caminho desse dano, do
 
 | pendência | espera |
 |---|---|
-| **Sete vagas de Desliga**, declaradas na tabela em vez de preenchidas | **cinco estão destravadas e nenhuma foi escrita** — duas pela peça 16 na v0.59 e três pela peça 19 na v0.103 · **uma** espera objeto amaldiçoado · **uma** espera Técnica Marcial. *Reclassificadas na v0.49 — as quatro que diziam equipamento nomeavam a peça errada.* **⚠ E as outras duas DESTRAVARAM na v0.59** — elas esperavam ferramenta amaldiçoada, que virou a peça 16, e continuam por preencher |
+| ~~**Sete vagas de Desliga**~~ **DUAS**, declaradas na tabela em vez de preenchidas | **as cinco destravadas fecharam na v0.104** — `Cabo`, `Assinado`, `Revezamento`, `Talhe` e `Usado`, cada uma apagando uma condição nomeada uma vez, com o relógio saindo do nível dela. *Só couberam porque a trava do `Desliga` foi relaxada na mesma versão.* **As duas que sobram esperam peça que não existe:** uma espera objeto amaldiçoado e a outra espera Técnica Marcial |
 | A **Armaria** do Descendente e o **Enterrado** do Reencarnado | relidos na v0.49, e **os dois não pedem a mesma coisa**: a Armaria é `ferramenta amaldiçoada` (arma forjada, com graus) e o Enterrado é `objeto amaldiçoado` (a maldição em forma de objeto) |
 | O **Não Sou Gente** virar Passiva paga com espaço de feitiço | a decisão está tomada, a Passiva não está escrita |
 | A **máquina de criação do Sem Técnica** | Aptidão e Estilo da Sombra |

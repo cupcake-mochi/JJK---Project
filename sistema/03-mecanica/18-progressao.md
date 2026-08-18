@@ -16,7 +16,7 @@
 | vida por nível | peça 1 §5.1 |
 | PE por nível | peça 1 §5.3 |
 | o marco, e o que ele entrega | peça 11 §3 |
-| a curva de refino das três rotas | `02-esqueleto/arquitetura.md` §4.3 |
+| a curva de refino das três rotas | `03-mecanica/11-aptidoes-e-refino.md` §3 — *veio do `arquitetura.md` na v0.104* |
 | degrau de Caminho | `DESENHO-caminhos.md` |
 | entrega de Trilha | `DESENHO-caminhos.md`, na mesma linha de orçamento |
 | Classe de feitiço, Classe de Passiva, Classe 0, Liberação e Técnica Máxima | manual, §9 |
@@ -140,6 +140,6 @@
 
 ## 7. Em aberto
 
-- **A curva de refino das três rotas continua morando no `arquitetura.md` §4.3**, que é documento de projeto e não peça de regra. *Ela é a única fonte da progressão que ainda está fora de uma peça.* **O candidato natural é a peça 11**, que já publica a rota pura marco a marco.
+- ~~**A curva de refino das três rotas mora no `arquitetura.md` §4.3.**~~ **Fechado na v0.104: ela foi para a peça 11 §3**, que já publicava a rota pura marco a marco e agora publica as três. *Com isso não sobrou nenhuma fonte de progressão fora de uma peça de regra.*
 - **Esta peça é argumento de design como todas as outras, e a tabela dela é texto de mesa.** *Quando o PDF sair, a tabela vai aparecer lá também* — e aí ela vira número de dois donos, com esta peça sendo a fonte e o validador conferindo a cópia. **O quick-start era o destino previsto até a v0.102, quando ele foi abandonado.**
 - **A coluna `XP` supõe missão padrão.** *A peça 12 §4 tem missão curta e longa, e a §5 tem o teto semanal; nenhuma das duas cabe numa coluna por nível.*

@@ -248,5 +248,5 @@ O `conferir-ferramenta.py` roda **dezesseis checagens**, e **nenhum valor fica e
 **Em aberto:**
 
 - **Os nomes próprios das ferramentas do material**, se uma versão futura publicar um catálogo de itens além do catálogo de `Estigma`. Hoje a peça entrega a máquina e as onze entradas; a Nuvem Divertida e a Lança Invertida aparecem como exemplar, não como ficha.
-- **A penalidade por empunhar sem treino ou sem requisito** é da peça 19, escrita na v0.103, e continua por escrever lá dentro — é a mesma pendência que a peça 14 §8 já carrega.
+- ~~**A penalidade por empunhar sem treino ou sem requisito.**~~ **Fechada na v0.104, na peça 19 §6.** *Sem treino é desvantagem na rolagem de ataque; sem o requisito de Força o deslocamento cai `3 m`.* **Ela vale para ferramenta amaldiçoada igual, porque a ferramenta usa a mesma tabela de arma da peça 14.**
 - **O objeto amaldiçoado é outra peça**, e a fonte é explícita: *"com exceção de ferramentas amaldiçoadas e cadáveres amaldiçoados, itens que contêm energia amaldiçoada são chamados de objetos amaldiçoados"*. O cubo que prendeu o Gojo é objeto, não ferramenta. Ele fecha 1 vaga de Desliga e mais nada, e a v0.50 o pôs em último por isso.

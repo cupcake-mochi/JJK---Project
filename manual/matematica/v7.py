@@ -51,21 +51,26 @@ print()
 print("="*94); print("3) CONTROLE — gatilho por DANO FINAL, nao por gasto"); print("="*94)
 print("Regra v7.1: dano final ate UM QUARTO do teto -> efeitos de Controle duram +1 rodada.")
 print("Dano ZERO (o Controle levou o orcamento inteiro) -> tambem CD +2 contra eles.")
-print("(O degrau da METADE saiu: Cond.Menor sozinha dava exatamente 2xGrau = metade do teto")
-print(" em TODO Classe, entao o bonus era automatico e nao uma escolha de montagem.)\n")
-print(f"{'Classe':<6}{'teto':<6}{'quarto':<8}{'Cond.Menor':<16}{'Cond.Maior':<16}{'Maior+Media':<16}")
+print("(O degrau da METADE saiu: uma condicao de Media sozinha dava exatamente 2xGrau =")
+print(" metade do teto em TODO Classe, entao o bonus era automatico e nao uma escolha.)")
+print("v0.104: a Melhoria e uma so, `Condicao`, e o preco dela e o NIVEL da condicao.")
+print(" As tres colunas abaixo sao os tres niveis, e a quarta e a montagem de duas.\n")
+print(f"{'Classe':<6}{'teto':<6}{'quarto':<8}{'Cond.Leve':<16}{'Cond.Media':<16}{'Cond.Pesada':<16}{'Pesada+Media':<16}")
 for G in range(1,8):
     pts=3*G; teto=4*G
-    dMenor=pts-pr(G,'M'); dMaior=pts-pr(G,'P'); dDuplo=max(pts-pr(G,'P')-pr(G,'M'),0)
+    dLeve=pts-pr(G,'L'); dMedia=pts-pr(G,'M'); dPesada=pts-pr(G,'P')
+    dDuplo=max(pts-pr(G,'P')-pr(G,'M'),0)
     def tag(d):
         if d==0: return f"{d}d8 CD+2 e +1rd"
         if d<=teto//4: return f"{d}d8 +1 rodada"
         return f"{d}d8 nada"
-    print(f"{G:<6}{teto:<6}{teto//4:<8}{tag(dMenor):<16}{tag(dMaior):<16}{tag(dDuplo):<16}")
+    print(f"{G:<6}{teto:<6}{teto//4:<8}{tag(dLeve):<16}{tag(dMedia):<16}{tag(dPesada):<16}{tag(dDuplo):<16}")
 ok1=all(3*G-pr(G,'M') > (4*G)//4 for G in range(1,8))
+ok1b=all(3*G-pr(G,'L') > (4*G)//4 for G in range(1,8))
 ok2=all(max(3*G-pr(G,'P')-pr(G,'M'),0) <= (4*G)//4 for G in range(1,8))
-print(f"\n  Cond. Menor SOZINHA nao ganha mais nada (o bonus virou escolha): {'SIM' if ok1 else 'NAO'}")
-print(f"  Maior + mais uma Media sempre dispara o +1 rodada:              {'SIM' if ok2 else 'NAO'}")
+print(f"\n  Uma condicao Media SOZINHA nao ganha nada (o bonus virou escolha):  {'SIM' if ok1 else 'NAO'}")
+print(f"  Uma condicao Leve sozinha tambem nao ganha nada (ela sobra mais):   {'SIM' if ok1b else 'NAO'}")
+print(f"  Pesada + mais uma Media sempre dispara o +1 rodada:                 {'SIM' if ok2 else 'NAO'}")
 print(f"  CD+2 exige dano ZERO, alcancavel em toda Classe com 2-3 pecas de Controle.")
 print("  Restricao nao infla mais nada: o gatilho e o numero final de dados, e Restricao nunca vira dado.")
 

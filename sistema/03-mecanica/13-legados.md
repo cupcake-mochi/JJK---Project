@@ -14,7 +14,7 @@ O validador desta peça é o **`conferir-legados.py`**, e ele lê tudo que confe
 
 *Registrado na v0.24, e ele não é quantidade.*
 
-Hoje são catorze Legados, dois por Origem, e a faixa entre eles vai de **Irmãos** — você sente quando outro Feto está por perto, zero em rolagem — a **Não Sou Gente**, que é imunidade a veneno, a doença e ao que ataca corpo humano.
+Hoje são catorze Legados, dois por Origem, e a faixa entre eles vai de **Irmãos** — você sente quando outro Feto está por perto, zero em rolagem — a **Não Sou Gente**, que era imunidade a veneno, a doença e ao que ataca corpo humano. *O `Não Sou Gente` saiu do catálogo nesta mesma peça: ele virou Passiva paga com espaço de feitiço.*
 
 A trava escrita na peça 9 é *"não produz dano e não escala com nível"*. **Ela não pega imunidade**, e vale entender por quê, porque o motivo decide o formato da régua.
 
@@ -61,9 +61,13 @@ Todo Legado declara qual é. **Não são "grande" e "pequeno": são coisas difer
 
 | formato | o que ele faz | exemplos de hoje |
 |---|---|---|
-| **Ajusta** | mexe num número de uma rolagem | Aprendi Apanhando · Não Sou Só Eu · Treino de Berço · Instinto Bruto |
-| **Desliga** | uma coisa deixa de te acontecer | Não Sou Gente · Corpo Emprestado · Peso Real · Sangue que Não é Sangue |
+| **Ajusta** | mexe num número de uma rolagem | Aprendi Apanhando · Não Sou Só Eu · Corpo Emprestado · Instinto Bruto |
+| **Desliga** | uma coisa deixa de te acontecer | Máscara · Peso Real · Sangue que Não é Sangue · Ferro Velho |
 | **Destranca** | nada muda de número, nada é desligado — abre acesso ou informação | O Sobrenome · A Voz de Dentro · O Que Ninguém Lembra · Irmãos |
+
+> **⚠⚠ Esta tabela estava errada em três das doze entradas, e ficou assim da v0.39 até a v0.104.** *Ela citava `Treino de Berço` como `Ajusta` — ele virou `Destranca` na própria v0.39, para não colidir com o `Costume Antigo`. Citava `Corpo Emprestado` como `Desliga` — ele virou `Ajusta` na mesma versão, quando a trava do formato o reprovou. E citava `Não Sou Gente`, que **saiu do catálogo** e virou Passiva paga com espaço de feitiço.*
+>
+> **A causa é de método e vale mais que o conserto:** *a v0.39 escreveu a régua, converteu os Legados que ela reprovava, e não voltou nas tabelas em prosa que citavam aqueles Legados **como exemplo**.* **Nenhum validador alcançava esta tabela**, porque ela é ilustração e não regra — e ilustração errada na porta de entrada de uma peça é o que a mesa lê primeiro. *Desde a v0.104 o `conferir-legados.py` lê os doze nomes daqui e cobra cada um contra o formato que o catálogo dá a ele.*
 
 *Os três nomes passaram pela triagem, e um morreu nela:* **Abre** está dentro de **Abre Ferida**, que é Melhoria do manual — a mesma morte da *Faísca* dentro de *Faísca em Cadeia*. **Destranca** ficou porque é a única palavra livre que cobre as duas coisas que o formato faz: o Sobrenome dá acesso e a Voz de Dentro dá informação, e destrancar é o que os dois têm em comum.
 
@@ -135,27 +139,33 @@ E o manual ainda fecha o degrau de baixo por dentro: *"Ela é sempre presa a um 
 
 Com isso a trava se escreve sozinha, e ela é mais simples do que a que eu tinha proposto:
 
-> **Um Desliga só apaga o que ninguém comprou.**
-> **Dano não** — imunidade é absoluta e o antídoto dela é uma Passiva feita à mão; resistência a Escama já cobra por um espaço de feitiço.
-> **Condição não** — *Condição Menor* custa **Média** e *Condição Maior* custa **Pesada**, o tier mais caro do manual. Apagar de graça o que alguém paga no topo da tabela é a mesma coisa que apagar dano.
-> **Nem o que qualquer Melhoria concede.** Se está na tabela e tem preço, tem dono.
-> **O que sobra é o território dele: o que o mundo faz com você fora do feitiço.** Uma coisa nomeada, uma só.
+> **Um Desliga apaga o que ninguém comprou, e enfraquece o que alguém comprou. Nunca imunidade.**
+> **Dano não, de jeito nenhum** — imunidade é absoluta e o antídoto dela é uma Passiva feita à mão; resistência a `Escama` já cobra por um espaço de feitiço. *Este é o único absoluto da trava.*
+> **Condição pode, com relógio.** *Desde a v0.104 cada condição tem **nível** — `Leve`, `Média` ou `Pesada` —, e o nível é o preço dela no manual.* **Apagar de graça o que alguém paga continua proibido; apagar uma vez, com relógio, é o enfraquecer.**
+> **E o degrau do relógio sai do nível da condição**, não do gosto de quem escreve: `Leve` → **por cena** · `Média` → **por dia** · `Pesada` → **por descanso longo**.
+> **O que ninguém comprou continua sendo o território largo dele:** o que o mundo faz com você fora do feitiço, sem relógio. Uma coisa nomeada, uma só.
 > **E ele escreve o que custa em troca, no próprio texto.**
 
-**A regra apareceu depois de os primeiros Desliga estarem escritos, e ela reprovou três deles.** *Desconfiado* apagava Enfeitiçado, *Corpo Emprestado* apagava Incapacitado e *Já Morri* apagava Amedrontado — os três são **Condição Maior**, os três custam **Pesada**, e nada na trava anterior me impediu de escrever os três. A trava dizia só *"não encosta no dano"* e parava ali.
+> ***Decisão do Mizuki na v0.104.*** *A trava anterior dizia só **"apaga o que ninguém comprou"**, e com ela as cinco vagas destravadas pela peça 19 não tinham como ser preenchidas — toda condição passou a ter preço.* **A relaxação é escrita em cima do que a própria peça 19 criou:** o nível é número, então ele pode escolher o degrau do relógio em vez de simplesmente barrar a porta.
+>
+> **A fronteira com o `Ajusta` não some, e é isto que segura a relaxação:** um `Desliga` de condição **apaga aquela vez**; um `Ajusta` de condição **põe um dado no meio**. *O `Corpo Emprestado` e o `Já Morri` continuam `Ajusta` porque é isso que eles fazem — vantagem no Teste de Resistência é mexer num número de uma rolagem.* **São dois jeitos diferentes de encostar na mesma condição, e agora os dois são legais.**
+
+**A regra apareceu depois de os primeiros Desliga estarem escritos, e ela reprovou três deles.** *Desconfiado* apagava Enfeitiçado, *Corpo Emprestado* apagava Incapacitado e *Já Morri* apagava Amedrontado — as três eram **Condição Maior** e custavam **Pesada** no manual da época, e nada na trava anterior me impediu de escrever os três. A trava dizia só *"não encosta no dano"* e parava ali.
 
 **Os três viraram Ajusta com vantagem no Teste de Resistência**, que é o conserto que a própria peça já previa: *trocar a negação por rerrolagem, e a condição deixa de ser absoluta.* Vantagem e rerrolagem valem os mesmos +25 pp no pico — o efeito para o jogador quase não muda, e o que muda é que **agora existe um dado no meio**, e o conjurador que pagou Pesada tem chance de o dinheiro dele valer alguma coisa.
 
 *E é assim que se lê o que sobrou:* os Desliga que passam — não ser reconhecido pelo catálogo, dormir em qualquer lugar, aparecer como outro na percepção de energia, não ser localizado — **nenhum deles apaga coisa que saiu de uma tabela de preço.** Eles apagam o que o mundo faz com você de graça.
 
-**Isso não é régua nova: é a régua do manual aplicada a um catálogo que nunca foi cruzado com ela.** E é o mesmo desfecho da régua das Restrições, onde dez das onze fecharam de primeira — aqui **três dos quatro Desliga passam intactos**, e o que cai é exatamente o que estava registrado desde a v0.24:
+**Isso não é régua nova: é a régua do manual aplicada a um catálogo que nunca foi cruzado com ela.** E é o mesmo desfecho da régua das Restrições, onde dez das onze fecharam de primeira — aqui **dois dos quatro `Desliga` da época passam intactos**, e o que cai é exatamente o que estava registrado desde a v0.24:
 
-| Desliga de hoje | o que ele apaga | passa? |
+| os quatro `Desliga` que existiam na v0.39 | o que ele apaga | passou? |
 |---|---|---|
-| **Corpo Emprestado** | incapacitação por ferimento — condição | **sim** |
+| **Corpo Emprestado** | incapacitação por ferimento — **condição** | **não** — virou `Ajusta` |
 | **Sangue que Não é Sangue** | comer, dormir, respirar — necessidade | **sim** |
 | **Peso Real** | ser enganado por ferramenta, barreira e véu — informação | **sim** |
-| **Não Sou Gente** | veneno, doença e o que ataca corpo humano — **dano** | **não** |
+| **Não Sou Gente** | veneno, doença e o que ataca corpo humano — **dano** | **não** — saiu do catálogo |
+
+*Esta tabela é a primeira passada da régua, na v0.39, e fica como registro dela.* **Os `Desliga` de hoje são sete** — `Inédito` e `Chão Duro` no Latente, `Máscara` no Receptáculo, `Coleira` no Descendente, `Ferro Velho` no Corpo Amaldiçoado, `Sangue que Não é Sangue` no Feto e `Peso Real` na Restrição Celestial —, e nenhum deles apaga coisa que tenha preço em tabela.
 
 A cláusula de troca também não é enfeite: **o catálogo já gravita para ela sozinho.** Não Sou Gente diz *"cura que funciona em humano também não"*; Sangue que Não é Sangue diz *"cria problemas que os outros não têm"*; Irmãos diz *"ele sente você"*. A régua só transforma o hábito em regra.
 
@@ -314,7 +324,7 @@ Dez por Origem, **setenta no total**.
 2. **Ela aparece na lista da Origem**, na mesma tabela dos outros, marcada. Não em nota de rodapé — foi assim que a Trilha passou sete versões escrita e não aplicada.
 3. **O validador confere que ela está marcada**, e não que a lista está cheia. Uma lista de nove com uma vaga declarada passa; uma lista de nove calada falha.
 
-**Por que reservar em vez de preencher.** A alternativa é inventar oito alvos agora, e a régua já mostrou como isso termina: os três Desliga de condição — *Desconfiado*, *Corpo Emprestado* e *Já Morri* — foram escritos **porque a coluna pedia**, e cada um apagava Condição Maior, que custa **Pesada**. Nenhuma trava me impediu, e quem pegou foi o Mizuki lendo. **Entrada que existe para fechar contagem é exatamente o defeito que esta régua nasceu para achar** — e ela não pode ser a coisa que a própria cota obriga.
+**Por que reservar em vez de preencher.** A alternativa é inventar oito alvos agora, e a régua já mostrou como isso termina: os três Desliga de condição — *Desconfiado*, *Corpo Emprestado* e *Já Morri* — foram escritos **porque a coluna pedia**, e cada um apagava uma condição que alguém compra no manual. Nenhuma trava me impediu, e quem pegou foi o Mizuki lendo. **Entrada que existe para fechar contagem é exatamente o defeito que esta régua nasceu para achar** — e ela não pode ser a coisa que a própria cota obriga.
 
 *As peças que ainda não existem vão criar coisa nomeada nova, e é de lá que sai o Desliga que faltar.*
 
@@ -474,7 +484,10 @@ Foram levantadas três e havia duas vagas. **A régua repartiu sozinha, e nenhum
 | Legado | apaga | relógio |
 |---|---|---|
 | **Máscara** | ser sentido pelo que você é | sempre |
-| *— vaga reservada —* | **destravada pela peça 19, na v0.103, e por escrever** | — |
+| **Revezamento** | ficar `Impedido` | por descanso longo |
+
+> **Revezamento** — prender você prende um dos dois: uma vez por descanso longo, você **não fica `Impedido`** — ele empurra, e o seu corpo vai junto porque não é só seu. *Em troca, quem estava olhando viu: naquele momento não era você que se mexia. O mestre diz o que as pessoas presentes passaram a achar de você, e elas agem de acordo.*
+
 
 > **Máscara** — quem sente a sua energia amaldiçoada sente **a dele**. Você não aparece como o que é. *Em troca, o que essas pessoas concluem sobre você costuma ser bem pior do que a verdade — e elas agem de acordo.*
 
@@ -504,9 +517,9 @@ A ideia era *"quando o que ele quer coincide com o que a cena precisa, ele coope
 
 Um nomeia **quem conheceu** a coisa; o outro nomeia **como a coisa se chamava**. O primeiro coloca uma pessoa no mundo, o segundo coloca uma palavra — e a palavra funciona mesmo onde ninguém daquela lista está presente. Nenhum conjunto contém o outro.
 
-**Dominância na lista: nenhuma. Quatro Destranca · quatro Ajusta · um Desliga escrito e um reservado.**
+**Dominância na lista: nenhuma. Quatro Destranca · quatro Ajusta · dois Desliga escritos.**
 
-*A vaga esperava a **peça de dano e condições**, que é onde o que acontece com a sua cabeça vai ganhar nome.* **Ela existe desde a v0.103 e é a peça 19, e a vaga continua por preencher** — a régua de lá dá nível a cada condição, que é alvo com preço, e a trava do `Desliga` proíbe encostar no que tem preço. *É a mesma peça que ainda deve à Cicatriz uma mecânica.* O Receptáculo é a Origem em que outra coisa quer o seu corpo; quando essa família de efeito tiver termo escrito, o alvo aparece. **Até lá a vaga fica marcada na tabela, não numa nota.**
+*A vaga esperava a **peça de dano e condições**, que é onde o que acontece com a sua cabeça vai ganhar nome.* **Ela fechou na v0.104, e o alvo é o `Impedido`.** *A nota da vaga pedia "o que acontece com a sua cabeça", e a condição de cabeça que sobrava era o `Atordoado` — ele custa `Pesada` e apagá-lo uma vez por descanso longo seria a maior coisa do catálogo inteiro.* **O `Impedido` diz a mesma ficção pelo corpo:** prendem você, e a coisa dentro empurra. *O Receptáculo é a Origem em que outra coisa quer o seu corpo, e é ela que sai andando.*
 
 ### Descendente — *você é de uma das famílias, e elas cobram*
 
@@ -552,7 +565,10 @@ Um nomeia **quem conheceu** a coisa; o outro nomeia **como a coisa se chamava**.
 | Legado | apaga | relógio |
 |---|---|---|
 | **Coleira** | ser localizado ou rastreado | sempre |
-| *— vaga reservada —* | **destravada pela peça 16, na v0.59, e por escrever** | — |
+| **Cabo** | ficar `Desarmado` | por cena |
+
+> **Cabo** — a sua mão conhece o cabo antes de a cabeça mandar: uma vez por cena, você **não fica `Desarmado`** — a ferramenta escorrega e volta. *Em troca, você não larga ela quando devia: quem revista acha, quem te vê armado te trata como armado, e você não atravessa lugar nenhum como civil.*
+
 
 > **Coleira** — o seu clã te selou na infância: técnica nenhuma te localiza, te rastreia ou te encontra à distância. *Em troca, o selo é dos dois lados — a sua família sempre sabe onde você está, e nunca precisou perguntar.*
 >
@@ -590,7 +606,7 @@ As duas dão **vantagem em Teste de Resistência**, e é o mesmo número. A dife
 
 *Fica anotado como par a reconferir se alguma das duas for reescrita*, junto com o par *Máscara × Não Sou Só Eu* do Receptáculo.
 
-**Dominância na lista: nenhuma. Cinco Destranca · quatro Ajusta · um Desliga escrito e um reservado**, dez escritos.
+**Dominância na lista: nenhuma. Cinco Destranca · quatro Ajusta · dois Desliga escritos**, onze escritos.
 
 *A Origem que contém quatro famílias diferentes ia levar onze, e leva dez.* O quinto Destranca entrou como estava previsto — é o genérico, para clã inventado. O segundo Desliga **não tinha alvo**: nenhum sobrou depois da Coleira. Pela régua antiga a lista fechava aí; pela cota de dois ela fecha com a vaga marcada, esperando equipamento.
 
@@ -637,7 +653,7 @@ As duas dão **vantagem em Teste de Resistência**, e é o mesmo número. A dife
 
 #### Esta lista perdeu os dois Desliga dela, e o motivo é a regra nova
 
-**Os dois nasceram apagando condição** — *Corpo Emprestado* levava Incapacitado e *Já Morri* levava Amedrontado, as duas **Condição Maior**, as duas de custo **Pesada**. Quando a trava do Desliga passou a dizer *"só apaga o que ninguém comprou"*, os dois caíram junto com o *Desconfiado* do Latente.
+**Os dois nasceram apagando condição** — *Corpo Emprestado* levava Incapacitado e *Já Morri* levava Amedrontado, as duas **Condição Maior** no manual da época. Quando a trava do Desliga passou a dizer *"só apaga o que ninguém comprou"*, os dois caíram junto com o *Desconfiado* do Latente.
 
 **Os três viraram vantagem no Teste de Resistência**, e o efeito na mesa quase não muda: vantagem vale os mesmos +25 pp no pico que a negação valia em certeza. O que muda é que **entrou um dado no meio** — e quem pagou Pesada para aplicar a condição volta a ter chance.
 
@@ -663,14 +679,17 @@ As duas dão **vantagem em Teste de Resistência**, e é o mesmo número. A dife
 
 **Enterrado é acesso puro**, no molde do *Sobrenome*: zero no dado, e o jogador puxa quando quer buscar. *E ele tem a mesma dependência que a **Armaria** do Descendente:* se o que está enterrado for ferramenta amaldiçoada, **a peça de equipamento decide o que isso vale** — hoje funciona como ficção e acesso, e esta entrada é das primeiras a reler quando a peça 2 da fila sair.
 
-#### As duas vagas de Desliga, e por que o último alvo livre não veio para cá
+#### As duas vagas de Desliga, e por que só uma fechou
 
 **Desliga**
 
 | Legado | apaga | relógio |
 |---|---|---|
 | *— vaga reservada —* | **espera a peça de objeto amaldiçoado** | — |
-| *— vaga reservada —* | **destravada pela peça 19, na v0.103, e por escrever** | — |
+| **Usado** | ficar `Derrubado` | por cena |
+
+> **Usado** — este corpo já esteve em estado muito pior que este, e levantou: uma vez por cena, você **não fica `Derrubado`**. *Em troca, ele cobra depois — o mestre diz uma coisa pequena que o seu corpo passa a fazer errado até o fim da cena, e ela é sua e não dele.*
+
 
 Sobrou **um** alvo legal no sistema inteiro pela enumeração da seção 8 — **os degraus de exaustão**, da peça 10 — e ele **não foi gasto aqui**. Dois motivos, e o segundo é o que decide:
 
@@ -683,7 +702,7 @@ Sobrou **um** alvo legal no sistema inteiro pela enumeração da seção 8 — *
 
 > **Esta vaga dizia "espera a peça de equipamento", e o *Enterrado* foi a pista falsa.** *Corrigido na v0.49.* Aquele Destranca diz *"você guardou uma coisa antes de morrer"* — e **a coisa não é necessariamente uma arma**, então ele nunca dependeu de equipamento. O que ele pede é objeto com regra, e objeto amaldiçoado **não tem peça dona em lugar nenhum do projeto**.
 
-**A lista fecha em oito escritos: quatro Destranca · quatro Ajusta · dois Desliga reservados.** Dominância dentro da lista: nenhuma — os quatro Destranca compram um segredo de antes, um credor, uma pessoa enganada e um objeto parado, e nenhum contém outro.
+**A lista fecha em nove escritos: quatro Destranca · quatro Ajusta · um Desliga escrito e um reservado.** Dominância dentro da lista: nenhuma — os quatro Destranca compram um segredo de antes, um credor, uma pessoa enganada e um objeto parado, e nenhum contém outro.
 
 ### Corpo Amaldiçoado — *você não é uma pessoa; é uma coisa que alguém fez e que acordou*
 
@@ -868,7 +887,10 @@ Sobrou **um** alvo legal no sistema inteiro pela enumeração da seção 8 — *
 | Legado | apaga | relógio |
 |---|---|---|
 | **Sangue que Não é Sangue** | comer, dormir, respirar | sempre |
-| *— vaga reservada —* | **destravada pela peça 19, na v0.103, e por escrever** | — |
+| **Talhe** | ficar `Agarrado` | por cena |
+
+> **Talhe** — você foi guardado antes de andar, e o corpo aprendeu a sair: uma vez por cena, você **não fica `Agarrado`**. *Em troca, você sai por onde couber — quem te agarrou escolhe se você larga uma coisa que estava na sua mão ou termina o movimento fora da posição em que queria estar.*
+
 
 > **Sangue que Não é Sangue** — você não precisa comer, dormir nem respirar como um humano. Isso resolve problemas que param os outros. *Em troca, cria problemas que os outros não têm — e nenhum deles tem nome ainda, porque ninguém precisou nomear fome para gente que come.*
 
@@ -888,7 +910,7 @@ E a assimetria some junto: *você* reconhece, *você* sabe quando um morre. Não
 
 **E uma coisa que o catálogo não vai tocar:** as Pinturas da Morte manipulam sangue, e isso é **técnica de clã** — a peça 9 proíbe qualquer Origem de abrir, fechar ou conceder técnica. Sangue fica de fora dos quatro Ajusta, e é por isso que eles compram percepção, medicina e espera em vez de arma.
 
-**Dominância na lista: nenhuma. Quatro Destranca · quatro Ajusta · um Desliga escrito e um reservado.**
+**Dominância na lista: nenhuma. Quatro Destranca · quatro Ajusta · dois Desliga escritos.**
 
 ### Restrição Celestial — *você trocou uma coisa por outra antes de nascer, e não foi você que assinou*
 
@@ -969,7 +991,10 @@ E a assimetria some junto: *você* reconhece, *você* sabe quando um morre. Não
 | Legado | apaga | relógio |
 |---|---|---|
 | **Peso Real** | ser enganado por barreira, véu e ferramenta | sempre |
-| *— vaga reservada —* | **destravada pela peça 16, na v0.59, e por escrever** | — |
+| **Assinado** | ficar `Cego` | por descanso longo |
+
+> **Assinado** — você nunca leu o mundo pela energia, e o resto do corpo cobriu: uma vez por descanso longo, você **não fica `Cego`**. *Em troca, a troca não foi só essa. Escreva na ficha uma coisa comum que você nunca vai conseguir fazer — e ela não volta, em nível nenhum.*
+
 
 > **Peso Real** — você percebe **ferramenta amaldiçoada, barreira e véu pelo tato e pelo peso, não pela energia**. O que engana feiticeiro não engana você. *Em troca, você percebe que tem alguma coisa ali e não o que é — o aviso vem sem nome.*
 
@@ -1069,17 +1094,17 @@ Quem não tem técnica não tem o que esconder. **Todo o resto funciona**, porqu
 | Origem | Destranca | Ajusta | Desliga escrito | Desliga reservado | escritos |
 |---|---|---|---|---|---|
 | Latente | 4 | 4 | 2 | — | **10** |
-| Receptáculo | 4 | 4 | 1 | 1 | **9** |
-| Descendente | 5 | 4 | 1 | 1 | **10** |
-| Reencarnado | 4 | 4 | 0 | 2 | **8** |
+| Receptáculo | 4 | 4 | 2 | — | **10** |
+| Descendente | 5 | 4 | 2 | — | **11** |
+| Reencarnado | 4 | 4 | 1 | 1 | **9** |
 | Corpo Amaldiçoado | 4 | **12** | 1 | 1 | **17** |
-| Feto | 4 | 4 | 1 | 1 | **9** |
-| Restrição Celestial | **8** | **8** | 1 | 1 | **17** |
-| | **33** | **40** | **7** | **7** | **80** |
+| Feto | 4 | 4 | 2 | — | **10** |
+| Restrição Celestial | **8** | **8** | 2 | — | **18** |
+| | **33** | **40** | **12** | **2** | **85** |
 
-**Mais o `Sem Técnica`** — uma entrada só, escrita fora das listas e compartilhada pelas cinco Origens que o aceitam. **Oitenta e uma no total.**
+**Mais o `Sem Técnica`** — uma entrada só, escrita fora das listas e compartilhada pelas cinco Origens que o aceitam. **Oitenta e seis no total.**
 
-**Oitenta entradas escritas, e sete vagas de Desliga declaradas.** As duas Origens com sub-escolha — Corpo Amaldiçoado e Restrição Celestial — respondem por **34 delas**, e nas duas o jogador alcança bem menos do que o catálogo tem.
+**Oitenta e cinco entradas escritas, e duas vagas de Desliga declaradas.** *Eram sete até a v0.104: as cinco que a peça 19 e a peça 16 tinham destravado foram preenchidas, e as duas que sobram esperam peça que ainda não existe — `objeto amaldiçoado` e `Técnica Marcial`.* As duas Origens com sub-escolha — Corpo Amaldiçoado e Restrição Celestial — respondem por **35 delas**, e nas duas o jogador alcança bem menos do que o catálogo tem.
 
 | | o jogador escolhe o segundo Legado entre |
 |---|---|
@@ -1089,7 +1114,7 @@ Quem não tem técnica não tem o que esconder. **Todo o resto funciona**, porqu
 
 *O Corpo Amaldiçoado fechou com **doze** Ajusta — três por configuração —, e o jogador alcança três. É a única Origem com Ajusta gatilhado, e a única que passa de dez entradas: dezessete escritas para quatro alcançáveis como segundo Legado.*
 
-**As sete listas estão escritas.** O que falta para a metade 2 fechar: o **Não Sou Gente** virar Passiva, o **validador dos Legados**, e as sete vagas de Desliga, que dependem de peça nova.
+**As sete listas estão escritas.** O que falta para a metade 2 fechar: o **Não Sou Gente** virar Passiva, e as **duas** vagas de Desliga que sobraram, que dependem de peça que ainda não existe. *O validador dos Legados existe desde a v0.39; as outras cinco vagas fecharam na v0.104.*
 
 **O alvo livre acabou.** O *Ferro Velho* gastou os degraus de exaustão, que era o último da enumeração da seção 8 — **daqui para a frente, todo Desliga novo depende de peça nova criar coisa nomeada.** Feto e Restrição Celestial têm um Desliga escrito cada no catálogo antigo e vão entrar já com uma vaga aberta.
 
@@ -1108,7 +1133,7 @@ O catálogo, e as decisões de sabor que vêm com ele:
 - ~~**As três listas que faltam**~~ — **as sete fecharam na v0.38**, 81 entradas escritas.
 - ~~**Os três relógios fora da escada**~~ — **descidos**: *Aprendi Apanhando* e *A Voz de Dentro* para por dia, *O Que Ninguém Lembra* para por descanso longo.
 - ~~**O piso do Irmãos**~~ — **resolvido na lista do Feto**, pelo canon: a irmandade é definida por quem te fez, e o gatilho virou o jogador apontar alguém e dizer que é irmão.
-- **As sete vagas de Desliga**, por preencher. **Três** nomeavam **dano e condições**, que virou a peça 19 na v0.103 e destravou as três; **uma** espera `objeto amaldiçoado` e **uma** espera **Técnica Marcial**; **duas** destravaram na v0.59 com a ferramenta amaldiçoada. *Cinco das sete estão destravadas e nenhuma foi escrita — preencher é trabalho, e não conserto de texto.* *Reclassificadas na v0.49: as quatro que diziam "equipamento" nomeavam a peça errada, e nenhuma delas abriu quando aquela peça fechou.*
+- **Sobraram DUAS vagas de Desliga**, e as duas esperam peça que ainda não existe: uma espera `objeto amaldiçoado`, no Reencarnado, e a outra espera **Técnica Marcial**, no Corpo Amaldiçoado. *Eram sete.* **As cinco destravadas foram escritas na v0.104** — três que esperavam a peça 19 e duas que esperavam a peça 16 —, e todas as cinco só couberam porque a trava do `Desliga` foi relaxada na mesma versão: *ele passou a poder apagar condição uma vez, com o relógio saindo do nível dela.* *Reclassificadas na v0.49: as quatro que diziam "equipamento" nomeavam a peça errada, e nenhuma delas abriu quando aquela peça fechou.*
 
   > **⚠ E as outras DUAS já destravaram, e ninguém voltou.** *Elas esperavam `ferramenta amaldiçoada`, que virou a peça 16 na v0.59 — a `Armaria` do Descendente e a Restrição Celestial.* **A peça 16 §9 registra que destrava as duas; esta peça continuava dizendo que elas esperam.** *Achado na v0.100, e a linha da tabela de cada uma continua dizendo `espera a peça de ferramenta amaldiçoada` — escrever as duas é trabalho, não conserto de texto.*
 - **O `Inédito` precisa da linha que o fecha para Sem Técnica** — é a única das 81 entradas que pressupõe técnica própria.

@@ -1,17 +1,17 @@
 # Prompt para a próxima conversa
 
-Escrito no fim da v0.103, contra o estado real. Cole isto inteiro numa conversa nova.
+Escrito no fim da v0.104, contra o estado real. Cole isto inteiro numa conversa nova.
 Renomeie o chat para o próximo número da sua sequência. *O último que teve nome escrito foi o **RPG - JJK15**, na v0.92.*
 
 ---
 
-Projeto de RPG da Guilda (Jujutsu Kaisen), chamado **Projeto - M**. Estamos na **v0.103**.
+Projeto de RPG da Guilda (Jujutsu Kaisen), chamado **Projeto - M**. Estamos na **v0.104**.
 
 O número pulou de `0.99` para `0.100` e não para `1.00`, e foi decisão dele. `1.0` costuma querer dizer pronto para usar, e o playtest tem zero sessões.
 
 **SÃO DOIS REPOSITÓRIOS, e a relação entre eles é de mão única.** O de TRABALHO é a fonte: `github.com/cupcake-mochi/JJK---Project`. Peças, validadores, CHANGELOG, ESTADO-ATUAL e os DESENHO moram lá. O de ENTREGA é artefato: `github.com/cupcake-mochi/JJK---PDF---RPG`, um recorte do material de mesa para o chat que vai escrever o PDF. **NADA NELE É EDITADO À MÃO**, com UMA exceção: o `README.md` dele, que não existe na fonte. Ele mora em `finalizado`, ignorado pelo `.gitignore` de lá e com `.git` próprio. **A PASTA LOCAL "Claude 2" É SEMPRE A MAIS ATUALIZADA** dos dois.
 
-Os dois estavam na v0.103 no disco quando isto foi escrito, e o commit é dele. **Confira antes de começar:** leia o `logs/HEAD` de dentro do `.git` de cada um como arquivo. O recorte já atrasou duas versões numa sessão só.
+Os dois estavam na v0.104 no disco quando isto foi escrito, e o commit é dele. **Confira antes de começar:** leia o `logs/HEAD` de dentro do `.git` de cada um como arquivo. O recorte já atrasou duas versões numa sessão só.
 
 > ⚠ **Não peça para ele sincronizar o Project.** Ele não consegue fazer isso sem abrir outra conversa, e você não precisa: clone os dois repositórios do GitHub e você lê o commit mais novo direto. O "Sync now" só importa para chat que leia o Project em vez de clonar.
 
@@ -29,6 +29,16 @@ Ele é intermitente e ninguém sabe o que o dispara. Na v0.101, 23 arquivos fora
 >
 > E o `mv` também é o jeito de tirar arquivo da pasta, já que apagar não dá: mande para `_to_delete`, que o `.gitignore` segura, e peça para ele apagar a pasta a mão.
 
+> ⚠⚠ **A v0.104 foi escrita DUAS vezes, e a primeira se perdeu inteira.** *Uma conversa fez o trabalho todo dentro do container, bateu no limite de sessão antes de gravar, e o disco continuou na v0.103 — com o dono do projeto achando que estava tudo lá.* **Grave no disco a cada bloco fechado, e não no fim.** *Um checkpoint parcial no disco vale mais que uma versão inteira num container que some.*
+
+> **E existe um caminho melhor que o do painel, descoberto na v0.104: o `device_bash`.** *Ele roda `bash` na máquina dele, com a pasta montada, e escreve.* **O que funciona, e o que não funciona:**
+>
+> - **`mv` de fora do mount para dentro FALHA.** Atravessar sistema de arquivos vira copiar-e-apagar, e o mount não deixa sobrescrever.
+> - **O que funciona:** mande **um `.tar.gz` só** pelo painel, grave ele em `_to_delete/`, extraia numa pasta de staging criada **DENTRO do mount**, embaixo de `_to_delete`, e aí `mv -f` arquivo por arquivo. **O `mv` dentro do mesmo sistema de arquivos passa.**
+> - **Confira por `md5sum` das duas pontas depois**, com a mesma lista e a mesma ordem. Na v0.104 bateram os 56 arquivos, três vezes seguidas.
+> - **Apagar continua não dando.** O que sobrar em `_to_delete/` fica para ele apagar a mão.
+> - **`device_bash` também roda os validadores no disco dele**, e é assim que se prova que o que chegou é o que roda.
+
 **O método que funcionou na v0.103, e é o que eu recomendo repetir:**
 
 1. **Clone os dois repositórios do GitHub para dentro do container e trabalhe lá.** `git`, `python3` e os validadores rodam sem drama. Para a checagem 7 rodar, ponha o clone da entrega dentro da fonte, numa pasta chamada `finalizado`.
@@ -40,7 +50,7 @@ Ele é intermitente e ninguém sabe o que o dispara. Na v0.101, 23 arquivos fora
 
 ## Ordem de leitura
 
-`README.md`, em especial **"Nove lições que custaram erro"** — fonte única. Depois `sistema/ESTADO-ATUAL.md` INTEIRO (ele trunca; continue do offset). Depois `logs/CHANGELOG.md` de cima — v0.103, v0.102 e v0.101 são as três últimas. Depois os três DESENHO: trilhas, caminhos e manhas.
+`README.md`, em especial **"Nove lições que custaram erro"** — fonte única. Depois `sistema/ESTADO-ATUAL.md` INTEIRO (ele trunca; continue do offset). Depois `logs/CHANGELOG.md` de cima — v0.104, v0.103 e v0.102 são as três últimas. Depois os três DESENHO: trilhas, caminhos e manhas.
 
 ## Os validadores
 
@@ -122,7 +132,7 @@ O vão `físico − conjurador` é `9 · 10 · 11 · 12`, e é exatamente um gol
 
 Um marco compra `+1` de atributo, que são `2,13` fatias. Um Classe 0 causa `27` no nível 30. A Rotina é `floor(3,5 × Classe)` dados. Chefe faz `72` por rodada no nível 30 e capanga faz `38`. Uma luta dura `3,3` rodadas.
 
-**A régua de condição existe desde a v0.103, e é a peça 19.** Uma `Condição Menor` do manual custa `Média`, que é `2/7` da Rotina; uma `Maior` custa `Pesada`, que é `3/7`. As três bandas — `1/7`, `2/7` e `3/7` — dão o nível de cada condição: `Leve`, `Média` ou `Pesada`. **Tirar uma custa `1` ponto de energia por nível.** O manual tem catorze condições, nove `Menor` e cinco `Maior`.
+**A régua de condição existe desde a v0.103, e é a peça 19.** As três bandas — `1/7`, `2/7` e `3/7` da Rotina — dão o **nível** de cada condição: `Leve`, `Média` ou `Pesada`. **Tirar uma custa `1` ponto de energia por nível.** *Desde a v0.104 o manual vende **uma** Melhoria `Condição`, e o preço dela é o nível* — a `Condição Menor` e a `Condição Maior` não existem mais. **São seis `Leve`, duas `Média` e seis `Pesada`.**
 
 Espaços de feitiço conhecido = `2 + nível ÷ 2`, mais `1` por marco. Dono: a peça 18, desde a v0.99.
 
@@ -157,7 +167,7 @@ Nada trava jogar. Uma ficha de nível 2 fecha, roda uma missão inteira e sobe d
 * Como a `Torrente` cobra o segundo feitiço da rodada, contra a regra de ouro nº 6.
 * O ofício não passa no filtro multi-mestre. Conserto escrito: tabela com o atributo padrão de cada um.
 * A curva de refino das três rotas ainda mora no esqueleto, que é documento de projeto e não peça. É a última fonte da progressão fora de uma peça, e o candidato natural é a peça 11.
-* **Duas réguas de rolagem que não medem a mesma coisa.** `+1` no seu acerto vale `10,80`, que são `10%` da Rotina de `108`; `1` ponto percentual na rolagem de um aliado vale `0,230`, que é `1%` da ação de atacar de `23,00`. Você é modelado pela Rotina inteira e o aliado por dois golpes simples — `4,7` vezes de diferença. Mexer nisso repreçaria o `Guiar`, o `Estampido` e o `Ajudar` de uma vez.
+* **Duas réguas de rolagem divergem por `9,4` vezes.** `+1` no seu acerto vale `10,80` (`10%` da Rotina de `108`); `1` ponto percentual na rolagem de um aliado vale `0,230` (`1%` da ação de atacar de `23,00`). Por ponto percentual são `2,16` contra `0,230`. **`9,4` = `4,7` de escopo × `2` de conversão** — a sua régua é relativa e a do aliado é absoluta. *A v0.103 publicava `4,7`, que é só a razão das bases.* Mexer nisso repreçaria o `Guiar`, o `Estampido` e o `Ajudar` de uma vez. Detalhe na peça 19 §7.
 
 **Peças que ainda nem entraram na fila**
 

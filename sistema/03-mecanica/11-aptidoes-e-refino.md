@@ -107,6 +107,22 @@ A linha passiva do marco sozinha conserta isso:
 
 > **⚠ Só que a `Cortina` gasta DOIS marcos**, porque ela exige a `Barreira Simples`. *Uma rota pura que queira as duas usa `2` dos `10` picks para uma entrada só de catálogo.* **A folga de duas continua de pé, e ela some se alguém quiser as doze.**
 
+### A curva das três rotas, marco a marco
+
+*Ela morava no `02-esqueleto/arquitetura.md` §4.3 desde a v0.10 e **mudou de casa na v0.104**.* **Era a última fonte de progressão do projeto fora de uma peça de regra** — a peça 18 §7 registrava isso com esse nome. *Documento de projeto é onde a ideia nasce; peça de regra é onde ela mora e onde um validador alcança ela.*
+
+**O refino começa em `1`, sobe `+1` de graça em cada um dos sete marcos, e a escolha do marco pode somar mais `+1` até o teto de `10`.**
+
+| | nv 6 | nv 10 | nv 14 | nv 18 | nv 22 | nv 26 | nv 30 |
+|---|---|---|---|---|---|---|---|
+| **especialista** — sempre refino | `3` | `5` | `7` | `9` | **`10`** | `10` | `10` |
+| **meio a meio** | `3` | `4` | `6` | `7` | `9` | `10` | `10` |
+| **generalista** — nunca refino | `2` | `3` | `4` | `5` | `6` | `7` | **`8`** |
+
+**A faixa é `4` a `7` no nível 14 e `6` a `10` no nível 22** — diferencia sem virar caos. *E o especialista bate no teto exatamente no nível 22, que é o marco em que a escolha de Refino troca de moeda e passa a levar duas aptidões.*
+
+> **Os gates da seção 5 saem daqui, e é por isso que ela precisava estar numa peça.** *A tabela de `Classe Passiva 2 no refino 4` e `Classe Passiva 3 no refino 7` não é escolha: ela é esta curva lida em três colunas.* **Doze níveis entre o especialista e o generalista na Passiva 3 — o tamanho que *"quase ninguém consegue"* pede.**
+
 ### As três não se substituem, e é isso que as equilibra
 
 `+1 feitiço e uma Passiva` empata com `+1 refino e uma aptidão` porque **Passiva e aptidão vivem na mesma escada de Classe Passiva** — as duas são efeito pequeno, reativo ou permanente, nas mesmas três alturas. O que sobra dos dois lados é `+1 feitiço` contra `+1 refino`.

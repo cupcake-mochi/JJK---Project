@@ -7,7 +7,7 @@ Versão v0.1 — 13/08/2026, fechada na v0.48 do projeto
 
 *Estado na v0.47: proteção fechada, categorias fechadas, recarga fechada, e **as 52 armas com dado e propriedades** (§5.3). A régua ganhou **fundo `3/5`** e o **dado virou entrada** — a ficção diz o tamanho da arma e o número de vagas cai da conta. **A restrição devolve orçamento** (§5.0.4). **O efeito de crítico da categoria morreu** (§5.1.1). E as duas decisões de acesso fecharam: **a divisão simples/marcial** (§5.4.1) e **o requisito de Força** (§5.5), que reancorou no dado depois de dois versões órfão.*
 
-*O que falta: a **penalidade** por empunhar sem treino ou sem requisito (§8 item 15). Ela é da peça 19, que existe desde a v0.103, e continua por escrever lá dentro.*  * **Os nomes dos degraus de escudo fecharam na v0.59** — `Broquel`, `Médio` e `Torre`.*
+*A **penalidade** por empunhar sem treino ou sem requisito (§8 item 15) **fechou na v0.104**, na peça 19 §6: sem treino é **desvantagem na rolagem de ataque**; sem o requisito de Força o **deslocamento cai `3 m`**. As duas somadas custam `33,8` vezes o que a arma inteira entrega — é porta fechada, e não preço.*  * **Os nomes dos degraus de escudo fecharam na v0.59** — `Broquel`, `Médio` e `Torre`.*
 
 > **Esta linha listava mais duas coisas até a v0.59, e as duas já estavam feitas.** O **validador** entrou na **v0.48** e é o `conferir-equipamento.py`. E **os dois dados do `Yumi`** foram corrigidos **nesta mesma peça, 573 linhas abaixo desta linha** — `Daikyū` para `1d10` e `Hankyū` para `1d8`, os dois fechando exatos em `4 de 4` (§5.3 e §8 item 16). *O §8 item 9 desta peça nomeou esse defeito com todas as letras — "uma conclusão que sobrevive à premissa" — e o cabeçalho dela estava fazendo exatamente isso, com o próprio texto dela como desmentido.*
 
@@ -1351,7 +1351,7 @@ Sem essa frase o requisito pega a **Katana**, que tem `Fineza` — quer dizer, c
 
 **E o requisito continua sem custar ponto de atributo.** Força 3 é o teto da criação (peça 2 §2) e cabe no array `3·2·2·1·1`, então o requisito resolve **acesso** e não preço — que é a conclusão que o §8 item 1 já tinha fechado e que continua valendo com o requisito ancorado no dado em vez de na classe.
 
-> **O que ainda não existe: a penalidade.** *Marcado pelo Mizuki nesta mesma decisão.* Hoje o requisito e o treino dizem **o que você não pega**, e não o que acontece se você pegar assim mesmo. As duas coisas precisam da mesma resposta, e ela é da peça 19 — **dano e condições**, escrita na v0.103 e que ainda não fechou este item — a régua óbvia do hobby é desvantagem na rolagem, que este projeto já precifica em `−25 pp contra alvo difícil` (peça 11) e que é grande demais para um item. **Fica em aberto, com o tamanho já medido**, no §8 item 15.
+> **A penalidade fechou na v0.104**, na peça 19 §6, e as duas coisas ganharam a mesma resposta que este parágrafo pedia. *Marcado pelo Mizuki na decisão que criou este item.* **Sem treino é desvantagem na rolagem de ataque; sem o requisito de Força o deslocamento cai `3 m`.** *A desvantagem é grande — `54,00` de dano por rodada —, e é essa a intenção:* **as duas somadas custam `33,8` vezes o que a arma inteira entrega, então elas não são preço, são porta fechada.** *E o `3 m` não é escolha: são os `10` pés que o d20 de 2024 cobra de quem veste proteção sem a Força dela.*
 
 ---
 

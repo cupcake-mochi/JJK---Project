@@ -1461,7 +1461,7 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 >
 > *Este bloco mediu `+10%` no nível 30 e fechou o argumento ali — e o 30 é o mais favorável dos quatro.* **A causa é de escala e não da Trilha:** o feitiço cresce `13 → 94` na campanha e o golpe simples cresce `9 → 12`, então um golpe a mais encolhe sozinho. **Declarado e não consertado — o conserto barato é mover o ataque extra do nível 11 para o 19, e aí o pior caso cai para `+14%`.**
 >
-> **O gate de condição foi testado e reprovado, com número.** *Ele era a saída óbvia e o próprio Mizuki propôs antes de voltar atrás.* Um feitiço de condição no Classe 7 ainda causa `45` — a `Condição Maior` come `11` dos `21` pontos e sobram `10` dados —, então a rodada com gate faz `23 + 45 = 68` contra os `98,50` de um Emanador que só conjura. **`31%` abaixo: ninguém usaria o modo que a Trilha existe para abrir.** *Na `Estocada` o mesmo gate funciona porque lá ele **abre um bônus**; aqui ele seria a porta do modo principal.*
+> **O gate de condição foi testado e reprovado, com número.** *Ele era a saída óbvia e o próprio Mizuki propôs antes de voltar atrás.* Um feitiço de condição no Classe 7 ainda causa `45` — uma condição de nível `Pesada` come `11` dos `21` pontos e sobram `10` dados —, então a rodada com gate faz `23 + 45 = 68` contra os `98,50` de um Emanador que só conjura. **`31%` abaixo: ninguém usaria o modo que a Trilha existe para abrir.** *Na `Estocada` o mesmo gate funciona porque lá ele **abre um bônus**; aqui ele seria a porta do modo principal.*
 >
 > **A raiz é conhecida e não é desta Trilha: `condição` não tem conversão em fatia.** Só a exaustão tem magnitude escrita, e está anotado em aberto desde a v0.77.
 

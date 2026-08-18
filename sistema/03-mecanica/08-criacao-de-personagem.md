@@ -52,7 +52,7 @@ Ela dá seis coisas:
 | | |
 |---|---|
 | **Uma perícia** | escolhida da lista de quatro da sua Origem |
-| **Uma perícia livre** | que a sua história justifique |
+| **Uma perícia livre** | que a sua história justifique, e de fora das seis do seu Caminho |
 | **Um ofício livre** | ou, se você não quiser ofício, mais uma perícia |
 | **Um Teste de Resistência treinado** | qualquer um dos quatro. O outro vem do Caminho |
 | **Um traço não numérico** | um acesso, uma obrigação, um contato, uma marca no corpo, alguém atrás de você |
@@ -150,8 +150,8 @@ Você já tem a Regra. Falta:
 
 | | perícias | ofícios |
 |---|---|---|
-| pegando o ofício | 8 de 23 | 3 de 10 |
-| pegando a perícia | 9 de 23 | 2 de 10 |
+| pegando o ofício | 8 de 23 | 3 de 11 |
+| pegando a perícia | 9 de 23 | 2 de 11 |
 
 Você é bom em pouco mais de um terço do que existe — os buracos são de propósito, e é o que faz o grupo precisar um do outro.
 
@@ -262,4 +262,4 @@ E a que sustenta as sete: **o mestre pode recusar mesmo quando passa em tudo.** 
 - ~~**Quantas Trilhas um personagem acumula, e em que níveis.**~~ **Fechada na v0.55, na v0.60 e na v0.65:** uma Trilha por ficha, com entregas nos níveis `2 · 11 · 19 · 27`, e troca total de Trilha permitida no 11, no 19 e no 27. *A primeira continua vindo no nível 2, junto do Caminho; **o que ela entrega com número continua sendo a peça de Trilhas**, que não existe.*
 - **Se vinte a quarenta minutos é real.** É estimativa, e o playtest mede.
 
-*Resolvido e tirado daqui:* o **catálogo de Origens**, que era a maior lacuna desta peça. Ele existe desde a v0.22, na peça 9 — cinco Origens principais, uma sub-origem e duas especiais, cada uma com lista de perícias, traços e Legados. O único julgamento que sobrou na criação é a **segunda perícia da Origem**, que continua livre com aprovação.
+*Resolvido e tirado daqui:* o **catálogo de Origens**, que era a maior lacuna desta peça. Ele existe desde a v0.22, na peça 9 — cinco Origens principais, uma sub-origem e duas especiais, cada uma com lista de perícias, traços e Legados. A **segunda perícia da Origem** era o último julgamento da criação, e ela fechou na v0.104: continua livre, e a trava passou a ser *de fora das seis que o Caminho te deu* — contável, sem aprovação.

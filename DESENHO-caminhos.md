@@ -182,7 +182,7 @@ Ele anula o excedente e deixa o aliado com `1` de vida. **O que ele compra não 
 
 > **`Resquício`.** Ao conjurar na Ação Padrão um feitiço **que não causa dano**, você pode lançar um **feitiço de Classe 0 na Ação Bônus**.
 > **`Modelagem`.** Ao conjurar um feitiço **de dano ou de condição**, você pode **trocar uma Melhoria que ele já tem por outra de custo igual ou menor**. Nada novo entra na ficha — o que muda é qual peça está montada na hora.
-> **A troca não mexe na condição.** `Condição Menor` e `Condição Maior` não entram nem saem.
+> **A troca não mexe na condição.** A Melhoria `Condição` não entra nem sai.
 > **E a Melhoria que entra tem de ser legal naquele feitiço** — o requisito dela continua valendo.
 
 #### Por que a `Voz Grossa` morreu, e ela morreu duas vezes

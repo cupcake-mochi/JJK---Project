@@ -94,16 +94,16 @@ const montar = [
 
   H2('Ampliar'),
   P('Você pode lançar qualquer feitiço que conhece numa Classe maior que o original, até a sua Classe máximo, pagando o PE da Classe novo. Refaça a conta inteira com os números novos: pontos, preços de Melhoria e devoluções de Restrição mudam todos juntos.'),
-  TBL(['Palma Trovejante · Classe', 'Pontos', 'Cone (Leve)', 'Derrubado (Média)', 'Lento (devolve)', 'Dano', 'PE'],
+  TBL(['Palma Trovejante · Classe', 'Pontos', 'Cone (Leve)', 'Derrubado (Leve)', 'Lento (devolve)', 'Dano', 'PE'],
     [
-      ['Classe 2 (original)', '6', '−1', '−2', '+2', '5d8 = 22', '6'],
-      ['Classe 3', '9', '−2', '−3', '+3', '7d8 = 31', '9'],
-      ['Classe 5', '15', '−3', '−5', '+5', '12d8 = 54', '15'],
+      ['Classe 2 (original)', '6', '−1', '−1', '+2', '6d8 = 27', '6'],
+      ['Classe 3', '9', '−2', '−2', '+3', '8d8 = 36', '9'],
+      ['Classe 5', '15', '−3', '−3', '+5', '14d8 = 63', '15'],
     ],
     [26, 10, 14, 18, 16, 14, 8], { boldCols: [0], centerCols: [1,2,3,4,5,6] }
   ),
   GAP(100),
-  P('O dano sobe, a proporção não: em todas as Classes a Palma sai perto de 60% do teto, bem acima do quarto que o bônus de Controle exige. Ampliar aumenta o número, não muda a natureza do feitiço — quem não alcançava o bônus continua sem alcançar (a regra de Controle está no fim desta seção).'),
+  P('O dano sobe, a proporção não: em todas as Classes a Palma sai perto de 70% do teto, bem acima do quarto que o bônus de Controle exige. Ampliar aumenta o número, não muda a natureza do feitiço — quem não alcançava o bônus continua sem alcançar (a regra de Controle está no fim desta seção).'),
 
   H2('Cura'),
   P('A Forma Cura custa Média e transforma em cura os dados que sobrarem, aplicados automaticamente num aliado a até 9 m. Não existe Liberação Máxima de cura: a linha de baixo é o teto por Classe.'),
@@ -126,10 +126,11 @@ const montar = [
   TBL(['Feitiço de Classe 5 · 15 pontos · teto 20 · um quarto = 5', 'Dano final', 'O que ganha'],
     [
       ['15d8 puro, sem Controle', '15d8', 'nada'],
-      ['Condição Menor (−5)', '10d8', 'nada: ainda bate como feitiço de dano'],
-      ['Condição Maior (−8)', '7d8', 'nada'],
-      ['Condição Maior (−8) · Condição Menor (−5)', '2d8', 'dura uma rodada a mais'],
-      ['Explosão (−3) · Cond. Menor (−5) · Prende (−5) · Puxa (−5) · Lento (+3)', '0d8', 'uma rodada a mais e CD +2'],
+      ['Condição Leve (−3)', '12d8', 'nada: ainda bate como feitiço de dano'],
+      ['Condição Média (−5)', '10d8', 'nada'],
+      ['Condição Pesada (−8)', '7d8', 'nada'],
+      ['Condição Pesada (−8) · Condição Média (−5)', '2d8', 'dura uma rodada a mais'],
+      ['Explosão (−3) · Cond. Média (−5) · Prende (−5) · Puxa (−5) · Parado (+3)', '0d8', 'uma rodada a mais e CD +2'],
     ],
     [48, 14, 38], { boldCols: [0], centerCols: [1] }
   ),

@@ -136,15 +136,43 @@ O manual usa *"sem provocar ataque de oportunidade"* em três lugares. **Colisã
 **Instrumento** — um instrumento, escolhido no treino.
 **Jogatina** — carta, dado, aposta, e ler a mesa enquanto joga.
 
+### O atributo padrão de cada ofício
+
+*Escrito na v0.104.* **Ofício continua não pertencendo a atributo nenhum — o que ele ganhou foi um padrão, para a mesa não parar em toda rolagem.**
+
+> **Cada ofício tem um atributo padrão. O mestre troca quando a ficção pedir, e diz qual antes da rolagem.**
+
+**O padrão não foi escolhido a gosto: cada ofício herda o atributo da perícia que mora mais perto dele.**
+
+| ofício | atributo padrão | a vizinha que decide |
+|---|---|---|
+| **Condução** | Destreza | `Acrobacia` — é o corpo reagindo rápido |
+| **Arrombamento** | Destreza | `Prestidigitação` — é mão fina em coisa pequena |
+| **Caligrafia** | Destreza | `Prestidigitação` — o traço é da mão; *o que* o selo diz é `Religião` ou `Ocultismo`, que são perícia |
+| **Entalhador** | Destreza | `Prestidigitação` — trabalho fino em material duro |
+| **Alfaiate** | Destreza | `Prestidigitação` — corte e costura |
+| **Forja** | Força | `Atletismo` — martelo, bigorna e peso |
+| **Herbalismo** | Inteligência | `Medicina` e `Natureza`, as duas |
+| **Burocracia** | Inteligência | `Hierarquia` — é a mesma máquina, vista por dentro |
+| **Culinária** | Inteligência | `Natureza` — proporção, tempo e o que é o quê |
+| **Instrumento** | Essência | `Atuação` — *"tocar para uma plateia"* está escrito lá |
+| **Jogatina** | Essência | `Percepção` e `Enganação` — ler a mesa é ler gente |
+
+**Cinco em Destreza, três em Inteligência, duas em Essência, uma em Força — e nenhuma em Constituição.** *Constituição não tem perícia nem ofício: ela paga pontos de vida, e a peça 1 §4 já decidiu isso com o motivo escrito.*
+
+> **A cláusula que importa é a última: o mestre diz qual atributo ANTES da rolagem.** *Sem ela o padrão não resolve nada — trocar depois de ver o dado é a mesma discricionariedade com um passo a mais.* **É o mesmo molde do *"o mestre declara o que foi uma luta"* da peça 10 §4:** a decisão continua sendo dele, e o que a regra exige é que ela seja anunciada.
+
+Forjar uma lâmina é **Força**, falsificar uma assinatura é **Destreza**, e saber qual selo o papel pede é **Inteligência**. As três continuam sendo o mesmo ofício. *O padrão diz de onde a mesa parte, não onde ela tem que ficar.*
+
 **Primeiros Socorros saiu, e Herbalismo não cobre o mesmo.** Estancar sangue no meio da missão deixa de ser rolagem e vira cena: ou alguém tem cura de verdade, ou a consequência acontece. É a leitura da obra — quem conserta gente é a Shoko e a Energia Reversa, não um curativo bem feito.
 
 ## 6. De onde vem o treino
 
 > **O Caminho dá duas perícias fixas e mais quatro à sua escolha, de qualquer lugar do quadro.**
 > **Mais um ofício fixo e outro à sua escolha.**
-> **A Origem dá mais duas perícias.**
+> **A Origem dá mais duas perícias: uma da lista de quatro dela, e uma livre — de fora das seis que o Caminho te deu.**
 
-**Oito perícias de vinte e três e três ofícios de dez** — ou nove e dois, se você trocar o ofício livre da Origem por mais uma perícia.
+**Oito perícias de vinte e três e três ofícios de onze** — ou nove e dois, se você trocar o ofício livre da Origem por mais uma perícia.
 
 As duas fixas são a assinatura do Caminho — o que qualquer um daquele Caminho sabe fazer. As quatro livres são suas.
 
@@ -187,9 +215,11 @@ Com 35%, o personagem é bom em pouco mais de um terço do quadro. Ele tem burac
 
 **Quatro das seis do Caminho são livres**, e é o que impede duas fichas do mesmo Caminho de serem a mesma pessoa. O Caminho ainda diz alguma coisa — as duas fixas —, mas ele não escolhe o personagem por você. Dois Bastiões dividem Atletismo e Intimidação e podem não ter mais nada em comum.
 
-Os ofícios ficam em **18% de propósito — dois de onze**. Ofício é para ser raro. O grupo que precisa arrombar uma porta e não tem ninguém com Arrombamento tem um problema real, e problema real é cena.
+Os ofícios ficam entre **18% e 27% de propósito — dois ou três de onze**, conforme a rota do extra da Origem. Ofício é para ser raro. O grupo que precisa arrombar uma porta e não tem ninguém com Arrombamento tem um problema real, e problema real é cena.
 
-*Eram dois de dez, 20%, até o **Alfaiate** entrar com a peça de equipamento.* A fração caiu e isso **não é deriva**: a frase diz que ofício é para ser raro, e onze opções com duas treinadas é mais raro que dez com duas. Quem continua treinando dois é toda ficha — a conta de criação não mudou.
+*Eram dois de dez, 20%, até o **Alfaiate** entrar com a peça de equipamento.* A fração caiu e isso **não é deriva**: a frase diz que ofício é para ser raro, e onze opções com duas treinadas é mais raro que dez com duas. A conta de criação não mudou — o que mudou foi o tamanho do quadro.
+
+> **⚠ E o `de dez` sobreviveu em dois lugares até a v0.104.** *Esta seção foi corrigida quando o `Alfaiate` entrou, e o §6 desta peça e a tabela das duas rotas da peça 8 §Passo 6 não foram — as duas continuaram publicando `de dez` por sete versões.* **O `conferir-criacao.py` lia aquelas linhas e conferia só o numerador**, então o denominador podia envelhecer à vontade. *Hoje ele lê os dois, contra a contagem desta peça.* **É a checagem medindo pelo eixo errado, de novo.**
 
 ## 8. O que mudou em relação à peça 4
 
@@ -209,7 +239,7 @@ Três perícias antigas foram partidas em duas: **Ocultismo** perdeu o lado sagr
 
 ## 9. Em aberto
 
-- **Se a perícia livre da Origem devia ser da lista também.** As listas existem desde a peça 9, mas a segunda perícia continua livre com aprovação — é o último lugar da criação em que um número depende de julgamento do mestre.
+- ~~**Se a perícia livre da Origem devia ser da lista também.**~~ **Fechado na v0.104, na peça 9 §2:** ela continua livre e perdeu a aprovação do mestre; a trava passou a ser *não pode ser uma das seis que o seu Caminho te deu*. ***O `8 de 23` do §6 já supunha isso*** — com repetição a ficha teria `7 de 23`, que são `30%` e não os `35%` em que o §7 apoia o argumento inteiro de por que são vinte e três perícias.
 - **Intuição é a única que fica em cima do muro.** "Ler a pessoa" tem cara de perceber, e ela está em Inteligência como dedução. Se em mesa as pessoas rolarem Percepção quando deviam rolar Intuição, ela muda de casa.
 - **Se quatro livres é escolha demais.** Ela deixa o Caminho quase invisível na ficha de perícia. Medir se as pessoas do mesmo Caminho ainda parecem coisas diferentes — e se parecem *demais*.
 - **Se Pontaria se sobrepõe à rolagem de ataque à distância.** As duas são Destreza e as duas acertam alvo. Se ninguém rolar Pontaria, ela sai.

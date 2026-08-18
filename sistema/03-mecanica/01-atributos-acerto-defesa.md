@@ -374,7 +374,7 @@ Porque na quarta ela nunca aconteceria. Com a vida **não voltando no descanso c
 - **O que uma Cicatriz é, mecanicamente.** Hoje ela é o registro de que aconteceu. *O conteúdo dela é da peça 19, que existe desde a v0.103 — e o escopo daquela versão foi a régua de condição e as três seções que mudaram de casa, então a Cicatriz continua aberta lá.*
 - **Se a Energia Reversa limpa Sequela antes do descanso longo.** *A aptidão **está escrita desde a v0.78**, na peça 11 §6 — com gate e teto.* **O que continua sem dono é se ela limpa Sequela**, e isso é da peça 19, como a Cicatriz acima.
 - **`Incapacitado` é condição nomeada no manual**, e o Legado *Corpo Emprestado* a nega com a qualificação *"só por estar ferido"*. Com esta seção escrita, a leitura fica decidida: **`Inconsciente` não é a condição `Incapacitado`**, e o Legado não alcança o `Inconsciente`.
-- **E `Inconsciente` também não é `Derrubado`.** *`Derrubado` é `Condição Menor` do manual: quem está `Derrubado` está no chão e continua com vida.* **Quem está `Inconsciente` chegou a zero.** *A Manha `Abalo` aplica o `Derrubado`, e nunca este estado.*
+- **E `Inconsciente` também não é `Derrubado`.** *`Derrubado` é condição de nível `Leve` no manual: quem está `Derrubado` está no chão e continua com vida.* **Quem está `Inconsciente` chegou a zero.** *A Manha `Abalo` aplica o `Derrubado`, e nunca este estado.*
 
 ## 6. O que a conta produz
 

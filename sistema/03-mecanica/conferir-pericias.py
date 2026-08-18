@@ -367,6 +367,57 @@ print('\n  Personagem treinado que investiu no atributo. A ultima coluna mostra 
 print('  personagem sem treino no nivel 30: a maestria e a diferenca, e ela vale 20 pp.')
 
 # --------------------------------------------------------------------------
+print('\n' + '=' * 88)
+print('O ATRIBUTO PADRAO DE CADA OFICIO — v0.104')
+print('=' * 88)
+# Os onze oficios ganharam atributo padrao. A checagem confere que TODOS tem um,
+# que ele e' um dos cinco atributos que a peca 8 governa, e que a distribuicao
+# publicada na prosa bate com a tabela — sao duas copias do mesmo numero.
+_ATRIB = ['Força', 'Destreza', 'Constituição', 'Inteligência', 'Essência']
+_sec = _P7[_P7.find('### O atributo padrão de cada ofício'):]
+_sec = _sec[:_sec.find('\n### ')] if '\n### ' in _sec else _sec
+_pad = {}
+for _l in _sec.split('\n'):
+    _m = re.match(r'^\|\s*\*\*([^*]+)\*\*\s*\|\s*([A-ZÀ-Ú][a-zçãêéíóú]+)\s*\|', _l)
+    if _m:
+        _pad[norma(_m.group(1)).capitalize()] = _m.group(2)
+_semp = [o for o in OFICIOS if o not in _pad]
+_sobra = [o for o in _pad if o not in OFICIOS]
+if not _sec:
+    FALHAS.append('a peca 07 nao tem mais a secao do atributo padrao de oficio')
+elif _semp:
+    FALHAS.append('oficio sem atributo padrao na peca 07: ' + ', '.join(_semp))
+elif _sobra:
+    FALHAS.append('a tabela de atributo padrao tem oficio que nao existe: '
+                  + ', '.join(_sobra))
+else:
+    _mau = [f'{o} ({a})' for o, a in _pad.items() if a not in _ATRIB]
+    if _mau:
+        FALHAS.append('atributo padrao que nao e um dos cinco: ' + ', '.join(_mau))
+    else:
+        _c = {a: sum(1 for v in _pad.values() if v == a) for a in _ATRIB}
+        print('  ' + ' · '.join(f'{a} {_c[a]}' for a in _ATRIB))
+        _m2 = re.search(r'\*\*(\w+) em Destreza, (\w+) em Inteligência, (\w+) em '
+                        r'Essência, (\w+) em Força — e nenhuma em Constituição\.\*\*', _sec)
+        _EXT = {'uma': 1, 'duas': 2, 'três': 3, 'quatro': 4, 'cinco': 5, 'seis': 6}
+        if not _m2:
+            FALHAS.append('a peca 07 nao publica mais a distribuicao dos atributos '
+                          'padrao em prosa, no formato que esta checagem le')
+        else:
+            _esc = [_EXT.get(x.lower()) for x in _m2.groups()]
+            if _esc != [_c['Destreza'], _c['Inteligência'], _c['Essência'], _c['Força']] \
+                    or _c['Constituição'] != 0:
+                FALHAS.append(f'a prosa da peca 07 diz {_esc} (Des/Int/Ess/For) e a '
+                              f'tabela tem {[_c["Destreza"], _c["Inteligência"], _c["Essência"], _c["Força"]]}')
+            else:
+                print(f'  [x] os {len(_pad)} oficios tem atributo padrao, e a prosa bate com a tabela')
+        if 'antes da rolagem' not in _sec:
+            FALHAS.append('a peca 07 nao exige mais que o mestre diga o atributo ANTES '
+                          'da rolagem — sem isso o padrao nao tira julgamento nenhum')
+        else:
+            print('  [x] o mestre diz o atributo antes da rolagem, e a peca cobra isso')
+
+# --------------------------------------------------------------------------
 print()
 print('=' * 88)
 if FALHAS:

@@ -49,8 +49,7 @@ const melhorias = [
 
   H2('Controle'),
   CAT([
-    ['Condição Menor', 'Média', 'Aplica uma: Derrubado, Cego, Surdo, Agarrado, Impedido, Envenenado, Lento, Desarmado ou Calado (o alvo não conjura). Dura uma rodada.'],
-    ['Condição Maior', 'Pesada', 'Aplica uma: Amedrontado, Enfeitiçado, Atordoado, Incapacitado ou Petrificado. Dura uma rodada, com Teste de Resistência no fim de cada turno do alvo. Uma por feitiço.'],
+    ['Condição', 'o nível dela', 'Aplica uma das catorze condições. O preço é o nível dela — Leve, Média ou Pesada —, na tabela logo abaixo. Dura uma rodada. As de nível Pesada dão Teste de Resistência no fim de cada turno do alvo, e cabe só uma delas por feitiço.'],
     ['Terreno', 'Leve', 'A área vira terreno difícil, ou fica obscurecida, por uma rodada.'],
     ['Anteparo', 'Média', 'Deixa uma parede ou escudo com 10 × Classe de pontos de vida, por 1 minuto.'],
     ['Prende', 'Média', 'O alvo não sai do lugar até o fim do próximo turno dele. Ele pode gastar a ação pra tentar um Teste de Resistência e se soltar.'],
@@ -60,39 +59,50 @@ const melhorias = [
   ]),
 
   H2('As condições, uma a uma'),
-  P('As doze da lista acima nunca tiveram efeito escrito, e três novas entraram. Aqui está o que cada uma faz. **Uma condição dura uma rodada**, como as linhas de Controle já diziam.'),
-  TBL(['Menor', 'O que faz'],
+  P('São catorze, e cada uma tem um **nível**: Leve, Média ou Pesada. O nível faz duas coisas ao mesmo tempo — é o **preço** da Melhoria Condição que aplica ela, e é o que custa em energia pra **tirar** ela de alguém (1 ponto por nível). Uma condição dura uma rodada.'),
+  P('As três tabelas abaixo são as catorze separadas por nível. Numa Classe 5, por exemplo, aplicar uma Leve custa 3 pontos, uma Média custa 5 e uma Pesada custa 8.'),
+  TBL(['Nível Leve', 'O que faz'],
     [
-      ['Derrubado', 'No chão. Só se move rastejando, desvantagem nos seus ataques, e quem ataca de até 1,5 m tem vantagem — de longe, desvantagem.'],
-      ['Cego', 'Não enxerga. Falha automático em teste que precise de vista, desvantagem nos seus ataques, vantagem para quem te ataca.'],
-      ['Surdo', 'Não ouve. Falha automático em teste que precise de audição.'],
-      ['Agarrado', 'Deslocamento 0. Acaba se quem agarrou ficar Incapacitado, ou se algo te tirar do alcance dele.'],
-      ['Impedido', 'Deslocamento 0, desvantagem nos seus ataques e no Teste de Resistência Físico, e vantagem para quem te ataca.'],
-      ['Envenenado', 'Desvantagem nos seus ataques e em todo teste de perícia.'],
       ['Lento', 'Deslocamento pela metade, e sem Ação Bônus.'],
+      ['Incapacitado', 'Você não pode Bloquear, e todo ataque corpo a corpo contra você é crítico.'],
+      ['Derrubado', 'No chão. Só se move rastejando, desvantagem nos seus ataques, e quem ataca de até 1,5 m tem vantagem — de longe, desvantagem.'],
+      ['Agarrado', 'Deslocamento 0. Acaba se quem agarrou ficar Incapacitado, ou se algo te tirar do alcance dele.'],
       ['Desarmado', 'A sua arma está no chão ou na mão de outro. Você bate desarmado até pegar de volta.'],
-      ['Calado', 'Você não conjura. Nada que precise de voz, gesto ou Selo sai.'],
+      ['Surdo', 'Não ouve. Falha automático em teste que precise de audição, e −2 na iniciativa.'],
     ], [2200, 6800], { boldCols: [0] }),
 
-  TBL(['Maior', 'O que faz'],
+  TBL(['Nível Média', 'O que faz'],
     [
-      ['Amedrontado', 'Desvantagem em ataque e teste enquanto enxergar a fonte do medo, e você não se aproxima dela de vontade própria.'],
+      ['Calado', 'Você não conjura. Nada que precise de voz, gesto ou Selo sai.'],
       ['Enfeitiçado', 'Você não ataca quem enfeitiçou nem mira efeito nocivo nele, e ele tem vantagem em teste social contra você.'],
-      ['Atordoado', 'Você perde a Ação Padrão e não usa reação. Quem tem mais de uma Ação Padrão no turno perde UMA, não todas.'],
-      ['Incapacitado', 'Você não pode Bloquear, e todo ataque corpo a corpo contra você é crítico.'],
-      ['Petrificado', 'Virou pedra. Incapacitado, deslocamento 0, sem perceber o que está em volta, vantagem para quem te ataca — e resistência a todo dano.'],
     ], [2200, 6800], { boldCols: [0] }),
+
+  TBL(['Nível Pesada', 'O que faz'],
+    [
+      ['Petrificado', 'Virou pedra. Incapacitado, deslocamento 0, sem perceber o que está em volta, vantagem para quem te ataca — e resistência a todo dano.'],
+      ['Impedido', 'Deslocamento 0, desvantagem nos seus ataques e no Teste de Resistência Físico, e vantagem para quem te ataca.'],
+      ['Cego', 'Não enxerga. Falha automático em teste que precise de vista, desvantagem nos seus ataques, vantagem para quem te ataca.'],
+      ['Amedrontado', 'Desvantagem em ataque e teste enquanto enxergar a fonte do medo, e você não se aproxima dela de vontade própria.'],
+      ['Envenenado', 'Desvantagem nos seus ataques e em todo teste de perícia.'],
+      ['Atordoado', 'Você perde a Ação Padrão e não usa reação. Quem tem mais de uma Ação Padrão no turno perde UMA, não todas.'],
+    ], [2200, 6800], { boldCols: [0] }),
+
+  BOX('Por que as três tabelas não são "menores" e "maiores"', [
+    'Até a v7.8 as condições eram vendidas em dois pacotes: Condição Menor por Média e Condição Maior por Pesada. Um preço só, para coisas muito diferentes.',
+    'A conta mediu as catorze e o espalhamento dentro de um pacote chegava a dezessete vezes: o Impedido custava o mesmo que o Surdo, e o Incapacitado custava o mesmo que o Petrificado.',
+    'Agora cada condição custa o que ela vale. Dez das catorze estavam no degrau errado — três eram baratas demais e sete eram caras demais.',
+  ], 'info'),
 
   BOX('Atordoado e Incapacitado atacam eixos diferentes, e não se empilham', [
     'Atordoado tira PARTE do turno: uma Ação Padrão e a reação. Você continua se defendendo.',
     'Incapacitado não tira turno nenhum — tira a DEFESA. Você age e não se protege.',
-    'Uma Condição Maior custa Pesada e você escolhe o eixo: tirar o que ele faz, ou tirar o que protege ele.',
+    'E eles não custam o mesmo: Atordoado é Pesada e Incapacitado é Leve. Tirar o que o alvo FAZ custa três vezes mais que tirar o que PROTEGE ele — e a conta concorda, porque em dano por rodada um vale pouco mais de três vezes o outro.',
     'O Atordoado cobra uma Ação Padrão só de propósito: um chefe age mais de uma vez por rodada, e apagar o turno dele com uma linha de Controle sairia barato demais.',
   ], 'info'),
 
   BOX('Três coisas que NÃO são condição aqui', [
     'Inconsciente é cair morrendo, e tem regra própria no sistema em volta — não é efeito de uma rodada.',
-    'Exaustão é relógio de descanso, e Condição Menor não alcança ela.',
+    'Exaustão é relógio de descanso, e a Melhoria Condição não alcança ela.',
     'Invisível é benefício: comprar para aplicar num inimigo é pagar para ajudar ele.',
   ], 'warn'),
 
@@ -147,8 +157,8 @@ const melhorias = [
   H2('Amparo'),
   P('Funcionam com as Formas Cura, Apoio e Onda e, quando fizer sentido, em feitiço de dano que atinja aliados.'),
   CAT([
-    ['Limpa', 'Média', 'Remove uma Condição Menor de um aliado.'],
-    ['Limpa Fundo', 'Pesada', 'Remove uma Condição Maior de um aliado.'],
+    ['Limpa', 'Média', 'Remove de um aliado uma condição de nível Leve ou Média.'],
+    ['Limpa Fundo', 'Pesada', 'Remove de um aliado uma condição de qualquer nível.'],
     ['Levanta', 'Pesada', 'Um aliado caído em 0 pontos de vida volta com 5 × Classe. Uma vez por cena.'],
     ['Divide', 'Média', 'Um aliado a até 9 m passa a receber metade do dano que você receberia, até o fim do próximo turno. Você escolhe na hora de conjurar.'],
     ['Junto', 'Leve', 'A cura ou o apoio pega um aliado a mais. O efeito é dividido entre eles. Pode comprar duas vezes.'],
@@ -175,7 +185,7 @@ const restricoes = [
       ['Parado', 'Leve', 'Você não se move no turno em que conjura. A ação bônus continua sua.'],
       ['Gesto', 'Leve', 'Precisa das duas mãos livres e de falar em voz audível.'],
       ['Sangra', 'Média', 'Você toma 2 × Classe de dano que nada reduz.'],
-      ['Recuo', 'Média', 'Você fica com uma Condição Menor até o fim do seu próximo turno.'],
+      ['Recuo', 'Leve ou Média', 'Você fica com uma condição até o fim do seu próximo turno. Ela devolve o nível dela: uma condição Leve devolve Leve, uma Média devolve Média. Nível Pesada não entra, porque Restrição nunca devolve Pesada.'],
       ['Carregar', 'Média', 'Você gasta um turno carregando o feitiço antes de disparar. Se tomar dano nesse meio-tempo, faz um Teste de Resistência Espírito (CD 10, ou metade do dano, o que for maior) pra manter. Se falhar, perde o feitiço. Carregar não é concentração: o feitiço ainda não saiu.'],
       ['Tudo ou Nada', 'Leve', 'Quem passa no Teste de Resistência não toma nada, em vez de tomar metade. Só em feitiços de TR.'],
       ['Uma Vez', 'Leve', 'Uma vez por cena.'],

@@ -1066,6 +1066,70 @@ else:
         print('  [x] nenhuma Classe de Passiva aparece sem as duas palavras.')
 
 # --------------------------------------------------------------------------
+bloco('6. A CURVA DAS TRES ROTAS — ela cai da regra, e nao da tabela')
+# --------------------------------------------------------------------------
+# A curva veio do 02-esqueleto/arquitetura.md §4.3 para a peca 11 §3 na v0.104:
+# ela era a ultima fonte de progressao do projeto fora de uma peca de regra.
+# Aqui ela nao e' conferida contra copia nenhuma: e' RECONSTRUIDA da regra —
+# refino comeca em 1, sobe +1 de graca em cada marco, a escolha pode somar mais
+# +1, e o teto e 10. Se a tabela publicada divergir da regra, uma das duas esta
+# errada, e a checagem nao decide qual: ela acusa.
+MARCOS = [6, 10, 14, 18, 22, 26, 30]
+TETO_REFINO = 10
+def _curva(escolhe):
+    r, saida = 1, []
+    for _ in MARCOS:
+        r = min(TETO_REFINO, r + 1 + (1 if escolhe else 0))
+        saida.append(r)
+    return saida
+_ROTAS = [('especialista', _curva(True)), ('generalista', _curva(False))]
+_sec = PECA11[PECA11.find('### A curva das três rotas, marco a marco'):]
+_sec = _sec[:_sec.find('\n### ')] if '\n### ' in _sec else _sec
+if not _sec:
+    erro('6: nao achei a secao da curva das tres rotas na peca 11 — ou ela nao veio '
+         'do arquitetura.md, ou mudou de titulo e esta checagem parou de conferir')
+else:
+    _pub = {}
+    for _l in _sec.split('\n'):
+        _m = re.match(r'^\|\s*\*\*(\w[\w ]*?)\*\*[^|]*\|(.+)\|\s*$', _l)
+        if _m:
+            _vals = re.findall(r'`?(\d+)`?', _m.group(2))
+            if len(_vals) == len(MARCOS):
+                _pub[_m.group(1).strip().lower()] = [int(x) for x in _vals]
+    if len(_pub) != 3:
+        erro(f'6: li {len(_pub)} rota(s) na tabela da curva e esperava 3 — ela mudou '
+             'de forma e esta checagem parou de conferir')
+    else:
+        for _nome, _esp in _ROTAS:
+            if _pub.get(_nome) != _esp:
+                erro(f'6: a rota "{_nome}" publica {_pub.get(_nome)} e a regra '
+                     f'reconstroi {_esp}')
+        _mm = _pub.get('meio a meio')
+        if _mm and not all(g <= m <= e for m, e, g in
+                           zip(_mm, _ROTAS[0][1], _ROTAS[1][1])):
+            erro(f'6: a rota "meio a meio" ({_mm}) sai da faixa entre o generalista '
+                 f'e o especialista')
+        if not ERROS:
+            print(f'  marcos lidos da regra: {MARCOS}, teto {TETO_REFINO}')
+            for _n, _v in _pub.items():
+                print(f'     {_n:<14} {_v}')
+            print('  [x] as duas rotas puras reconstroem da regra, e o meio a meio '
+                  'fica entre elas')
+        # o gate da secao 5 e' esta curva lida em coluna: o especialista alcanca
+        # refino 7 no nivel 14 e o generalista so no 26.
+        if _pub.get('especialista') and _pub.get('generalista'):
+            _n14 = MARCOS[_pub['especialista'].index(
+                next(v for v in _pub['especialista'] if v >= 7))]
+            _n26 = MARCOS[_pub['generalista'].index(
+                next(v for v in _pub['generalista'] if v >= 7))]
+            if (_n14, _n26) != (14, 26):
+                erro(f'6: o refino 7 cai no nivel {_n14} para o especialista e no '
+                     f'{_n26} para o generalista, e a secao 5 publica 14 e 26')
+            else:
+                print('  [x] o refino 7 cai no nivel 14 e no 26, que e o gate que a '
+                      'secao 5 publica')
+
+# --------------------------------------------------------------------------
 print()
 print('=' * 90)
 if ERROS:

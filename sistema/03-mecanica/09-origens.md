@@ -24,7 +24,7 @@ Três coisas que ela **não** faz, e cada uma é decisão:
 | | |
 |---|---|
 | **Uma perícia** da lista de quatro da sua Origem | |
-| **Uma perícia livre**, que a sua história justifique | o mestre aprova na leitura |
+| **Uma perícia livre**, que a sua história justifique | de fora das seis que o seu Caminho já te deu |
 | **Um ofício livre** — ou, se você não quiser ofício, **mais uma perícia** | |
 | **Um Teste de Resistência treinado**, qualquer um dos quatro | o outro vem do Caminho |
 | **Um traço** — do catálogo dela, ou escrito por você | |
@@ -231,5 +231,5 @@ O caso do Yuta continua existindo **na ficção** — a instituição pode class
 - **Técnica Marcial e Estilo da Sombra.** Três das nove rotas dependem deles. *A `Técnica Marcial` é a próxima da fila desde a v0.59, quando a ferramenta amaldiçoada — que ela precisava para a Maki e o Toji ferirem maldição — virou a peça 16.*
 - **A Aptidão como rota de criação.** A Shoko existe na obra e não existe na regra. *Os degraus de refino **estão escritos desde a v0.27**, na peça 11, e a `Energia Reversa` desde a v0.78 — o que falta é a máquina de construção da rota, e ela não pode ser "os outros menos o Fundamento".*
 - ~~**Se um Legado por ficha é pouco.**~~ **Respondido na v0.38, e nas duas direções.** A peça 13 deu **mais opções por Origem** — de dois para uma média de doze — *e* subiu a ficha para **dois Legados**, contra o que esta linha dizia. O motivo de reabrir está lá: opção de ficção que disputa vaga com opção mecânica fica em branco, e os Traços do D&D 5e são o exemplar documentado. **O teto de poder continua em um**, porque o segundo é obrigatoriamente `Destranca` e Destranca é zero no dado.
-- **Se a perícia livre da Origem devia ser da lista também.** Hoje ela é livre com aprovação, e é o último lugar da criação em que um número depende de julgamento do mestre.
+- ~~**Se a perícia livre da Origem devia ser da lista também.**~~ **Fechado na v0.104, e não pelo lado que a pergunta esperava.** *A saída não foi prender ela na lista da Origem — foi tirar a aprovação e pôr no lugar uma trava contável:* **ela continua livre, e só não pode ser uma das seis que o seu Caminho já te deu.** *A história continua justificando, e o mestre continua lendo — o que ele não faz mais é decidir um número.* **E a trava não é nova: a peça 7 §6 já publicava `8 de 23` perícias treinadas por ficha, e esse total só fecha se as duas da Origem não repetirem as seis do Caminho.** *O número supunha a regra; agora ela está escrita.*
 - **Se Corpo Amaldiçoado e Restrição Celestial deviam poder ser Sem Técnica.** O Kokichi tem técnica; a Maki não. Hoje elas já resolvem isso por dentro, com os dois ramos.

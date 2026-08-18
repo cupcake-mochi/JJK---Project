@@ -174,7 +174,7 @@ else:
     print(f'  [x] os {n} Ajusta respeitam a trava: categoria inteira desce de degrau.')
 
 # ---------------------------------------------------------------- 4. DESLIGA / DANO
-print('\n' + '=' * 88 + '\n4. DESLIGA — nenhum encosta em dano, imunidade, resistencia ou condicao\n' + '=' * 88)
+print('\n' + '=' * 88 + '\n4. DESLIGA — nenhum encosta em dano, e o de condicao carrega o relogio do nivel\n' + '=' * 88)
 enc = []
 for org, fmt, nome, alc, rel in entradas:
     if fmt != 'Desliga': continue
@@ -188,6 +188,54 @@ if enc:
 else:
     n = sum(1 for e in entradas if e[1] == 'Desliga')
     print(f'  [x] os {n} Desliga escritos so apagam o que ninguem comprou.')
+
+# v0.104: a trava do Desliga foi relaxada — ele pode ENFRAQUECER o que alguem
+# comprou, e "enfraquecer" quer dizer apagar UMA VEZ, com relogio. A trava so
+# vale se o degrau do relogio sair do NIVEL da condicao, e nao do gosto de quem
+# escreve. Os niveis vem da peca 19; a tabela de degrau por nivel vem da peca 13.
+# Nada disso esta escrito aqui dentro.
+P19 = ler('19-dano-e-condicoes.md')
+NIVEL_DA_CONDICAO = {}
+for _l in P19.split('\n'):
+    _m = re.match(r'^\|\s*\*\*`([A-Za-zÀ-ú]+)`\*\*\s*\|\s*`(Leve|Média|Pesada)`\s*\|', _l)
+    if _m:
+        NIVEL_DA_CONDICAO[_m.group(1)] = _m.group(2)
+_secT = PECA[PECA.find('> **E o degrau do relógio sai do nível da condição**'):]
+_secT = _secT[:_secT.find('\n')]
+DEGRAU_POR_NIVEL = {}
+for _n, _d in re.findall(r'`(Leve|Média|Pesada)` → \*\*([^*]+)\*\*', _secT):
+    DEGRAU_POR_NIVEL[_n] = _d.strip()
+if len(NIVEL_DA_CONDICAO) != 14:
+    erro('4', f'li {len(NIVEL_DA_CONDICAO)} condicao(oes) com nivel na peca 19 e '
+              'esperava 14 — a extracao quebrou e a trava do relogio nao vale')
+elif len(DEGRAU_POR_NIVEL) != 3:
+    erro('4', 'a peca 13 nao publica mais os tres degraus de relogio por nivel de '
+              'condicao, no formato que esta checagem le')
+else:
+    _fora = []
+    for org, fmt, nome, alc, rel in entradas:
+        if fmt != 'Desliga':
+            continue
+        _cond = [c for c in NIVEL_DA_CONDICAO if f'`{c}`' in alc]
+        if not _cond:
+            continue
+        if len(_cond) > 1:
+            _fora.append(f'{org} · {nome} → nomeia mais de uma condicao: {_cond}')
+            continue
+        _niv = NIVEL_DA_CONDICAO[_cond[0]]
+        _esp = DEGRAU_POR_NIVEL[_niv]
+        if rel.strip() != _esp:
+            _fora.append(f'{org} · {nome} → apaga `{_cond[0]}` ({_niv}) com relogio '
+                         f'"{rel.strip()}" e o nivel pede "{_esp}"')
+    if _fora:
+        erro('4', 'Desliga de condicao com o relogio errado:')
+        for x in _fora:
+            erro('4', f'    {x}')
+    else:
+        _q = sum(1 for o, f, n, a, r in entradas if f == 'Desliga'
+                 and any(f'`{c}`' in a for c in NIVEL_DA_CONDICAO))
+        print(f'  [x] os {_q} Desliga que nomeiam condicao carregam o relogio que o '
+              'nivel dela pede')
 
 # ---------------------------------------------------------------- 5. DESLIGA / TROCA
 print('\n' + '=' * 88 + '\n5. DESLIGA — todo um escreve o que custa em troca\n' + '=' * 88)
@@ -287,6 +335,46 @@ else:
         erro('9', f'a tabela diz {rv} vagas reservadas e o catalogo tem {len(vagas)}')
     else:
         print('  [x] a conta escrita bate com a contada. Nenhum total foi digitado a mao sem conferir.')
+
+# ==========================================================================
+print('\n' + '=' * 88 + '\n10. A TABELA DOS TRES FORMATOS — os doze exemplos dela existem?\n' + '=' * 88)
+# A tabela do §4 e a PORTA DE ENTRADA da peca: e a primeira coisa que a mesa le
+# sobre o que cada formato faz. Ela e ILUSTRACAO, nao regra, e por isso nenhum
+# validador a alcancava — e ela ficou errada em TRES das doze entradas da v0.39
+# ate a v0.104: `Treino de Berco` virou Destranca, `Corpo Emprestado` virou
+# Ajusta, e `Nao Sou Gente` saiu do catalogo. Os tres foram convertidos pela
+# propria v0.39, que nao voltou nas tabelas que os citavam de exemplo.
+# O formato de cada exemplo vem DO CATALOGO, e nao de lista escrita aqui.
+_real = {}
+for _o, _f, _n, _a, _r in entradas:
+    _real.setdefault(_n, set()).add(_f)
+_i = PECA.find('| **Ajusta** | mexe num número de uma rolagem |')
+if _i < 0:
+    erro('10', 'nao achei a tabela dos tres formatos no §4 — ela mudou de forma e '
+                'esta checagem parou de conferir')
+else:
+    _bloco = PECA[_i:PECA.find('\n\n', _i)]
+    _n_ex, _maus = 0, []
+    for _ln in _bloco.split('\n'):
+        _m = re.match(r'^\|\s*\*\*(\w+)\*\*\s*\|[^|]*\|\s*(.+?)\s*\|$', _ln)
+        if not _m:
+            continue
+        _f = _m.group(1)
+        for _e in (x.strip() for x in _m.group(2).split('·')):
+            _n_ex += 1
+            if _e not in _real:
+                _maus.append(f'{_e} (citado como {_f}) nao esta no catalogo')
+            elif _f not in _real[_e]:
+                _maus.append(f'{_e} e citado como {_f} e no catalogo e '
+                             + '/'.join(sorted(_real[_e])))
+    if _n_ex != 12:
+        erro('10', f'a tabela do §4 traz {_n_ex} exemplos e eu esperava 12 — ela '
+                    'mudou de forma e esta checagem parou de conferir')
+    if _maus:
+        erro('10', 'exemplo da tabela dos tres formatos divergindo do catalogo: '
+                   + '; '.join(_maus))
+    elif _n_ex == 12:
+        print('  [x] os 12 exemplos do §4 existem no catalogo e estao no formato certo')
 
 # ---------------------------------------------------------------- veredito
 print('\n' + '=' * 88)

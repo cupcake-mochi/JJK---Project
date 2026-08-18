@@ -166,13 +166,23 @@ def acoes(alvo, quantas):
 
 CRITICO = 2 * DADO_DO_SOCO
 
+# v0.104: o Surdo ganhou -2 na iniciativa, e nesta regua isso vale ZERO — nao por
+# esquecimento. A peca 15 §3.1 ja rodou o contra-teste: 'que fracao do meu dano da
+# rodada cai antes de o inimigo agir' da 52,5% em TODAS as montagens, porque
+# iniciativa REORDENA o turno e nao tira acao de ninguem. A regua desta peca mede
+# dano por rodada; iniciativa e' um eixo que ela nao alcanca, e a peca 15 e' quem
+# publicou que esse eixo existe (foi ele que matou a saida A das Invocacoes).
+# Fica escrito como termo e nao apagado, para que quem mexer aqui veja o zero e o
+# motivo dele juntos.
+INICIATIVA = 0.0
+
 
 def catorze(alvo):
     d = desvantagem(alvo)
     return [
         ('Derrubado', 'Menor', vantagem(1) + metros(4.5)),
         ('Cego', 'Menor', d + vantagem(ALIADOS)),
-        ('Surdo', 'Menor', 0.0),
+        ('Surdo', 'Menor', 0.0 + INICIATIVA),
         ('Agarrado', 'Menor', metros(9.0)),
         ('Impedido', 'Menor', metros(9.0) + d + vantagem(ALIADOS)),
         ('Envenenado', 'Menor', d),
@@ -219,6 +229,36 @@ else:
     if not _mau:
         print(f'  [x] as 14 linhas do §2.2 reconstroem a partir das ancoras')
         print(f'  [x] as 14 conversoes em fatia batem com a fatia lida do dono')
+
+
+# v0.104: AS DUAS REGUAS DE ROLAGEM, e o quanto elas divergem. A v0.103
+# publicava "4,7 vezes" em tres documentos, e o 4,7 e' 108 ÷ 23,00 — a razao das
+# BASES, nao das reguas. Lidas por ponto percentual elas dao 9,4, e o fator 2 que
+# separa os dois numeros e' a conversao: a sua regua e RELATIVA (peca 15 §3.3,
+# "+1 no acerto = 50% -> 55% = +10% de dano saido") e a do aliado e ABSOLUTA.
+# Nada disto esta guardado aqui: os quatro numeros vem dos donos.
+_PP_POR_PONTO = 5.0          # +1 no d20 sao 5 pontos percentuais
+_seu_pp = (ROTINA_30 * (_PP_POR_PONTO / (ACERTO * 100))) / _PP_POR_PONTO
+_razao = _seu_pp / PP_ALIADO
+_escopo = ROTINA_30 / ACAO_DE_ALIADO
+_m = re.search(r'divergem por `(\d+,\d+)` vezes', TXT)
+if not _m:
+    erro('2: a peca nao publica mais por quanto as duas reguas de rolagem divergem '
+         '— a frase mudou e esta checagem parou de conferir')
+else:
+    _pub_r = num(_m.group(1))
+    print(f'  as duas reguas por ponto percentual: sua {_seu_pp:.3f} · '
+          f'do aliado {PP_ALIADO:.3f}')
+    if abs(_razao - _pub_r) > 0.05:
+        erro(f'2: a peca publica {_pub_r:.2f} vezes de divergencia entre as duas '
+             f'reguas e a conta reconstroi {_razao:.2f}')
+    elif abs(_razao / _escopo - 2.0) > 0.01:
+        erro(f'2: a razao das reguas ({_razao:.2f}) deveria ser exatamente o dobro '
+             f'da razao das bases ({_escopo:.2f}) — o fator 2 e a conversao '
+             'relativa contra absoluta, e ele parou de fechar')
+    else:
+        print(f'  [x] as duas reguas divergem {_razao:.2f}x = {_escopo:.2f} de escopo '
+              f'x 2 de conversao, e a peca publica {_pub_r:.2f}')
 
 
 # --------------------------------------------------------------------------
@@ -277,21 +317,29 @@ if docx is None:
           '(pip install python-docx --break-system-packages)')
 else:
     _d = docx.Document(DOCX)
-    _man = {'Menor': [], 'Maior': []}
+    # v0.104: o manual publica as catorze em TRES tabelas, uma por nivel, e o
+    # cabecalho de cada uma e' "Nivel <tier>". A Melhoria que aplica condicao e'
+    # uma so, chamada Condicao, e ela cobra o nivel.
+    _man = {}
     for _t in _d.tables:
         _cab = [c.text.strip() for c in _t.rows[0].cells]
-        if _cab and _cab[0] in ('Menor', 'Maior') and len(_cab) == 2:
-            _man[_cab[0]] = [r.cells[0].text.strip() for r in _t.rows[1:]]
-    if len(_man['Menor']) != 9 or len(_man['Maior']) != 5:
-        erro(f'4: o manual publica {len(_man["Menor"])} Menor(es) e '
-             f'{len(_man["Maior"])} Maior(es), e eu esperava 9 e 5 — ou o manual '
-             'mudou, ou a extracao parou de achar as tabelas')
+        if len(_cab) == 2 and _cab[0].startswith('Nível '):
+            _tier = _cab[0].split(' ', 1)[1].strip()
+            _man[_tier] = [r.cells[0].text.strip() for r in _t.rows[1:]]
+    if sorted(_man) != ['Leve', 'Média', 'Pesada']:
+        erro(f'4: o manual publica as tabelas de nivel {sorted(_man)} e eu esperava '
+             'Leve, Média e Pesada — ou o manual mudou, ou a extracao parou de achar')
+    elif sum(len(v) for v in _man.values()) != 14:
+        erro(f'4: as tres tabelas do manual somam {sum(len(v) for v in _man.values())} '
+             'condicoes e eu esperava 14')
     else:
-        # os nomes vem DA PECA, e nao da lista deste arquivo: uma checagem que se
-        # mede contra a propria constante sai verde na perturbacao que importa.
+        # os nomes E os niveis vem DA PECA, e nao de lista escrita aqui dentro:
+        # uma checagem que se mede contra a propria constante sai verde na
+        # perturbacao que importa.
         _pm = {}
-        for _sec, _grp in (('### 3.1 As nove que o manual chama de `Menor`', 'Menor'),
-                           ('### 3.2 As cinco que o manual chama de `Maior`', 'Maior')):
+        for _sec in ('### 3.1 As seis de nível `Leve`',
+                     '### 3.2 As duas de nível `Média`',
+                     '### 3.3 As seis de nível `Pesada`'):
             _a = TXT.find(_sec)
             if _a < 0:
                 erro(f'4: nao achei a secao "{_sec}" na peca — ela mudou de forma e '
@@ -301,28 +349,77 @@ else:
             _fim = _corpo.find('\n### ')
             _corpo = _corpo[:_fim] if _fim >= 0 else _corpo
             for _li in _corpo.split('\n'):
-                _mm = re.match(r'\|\s*\*\*`([^`]+)`\*\*\s*\|', _li)
+                _mm = re.match(r'\|\s*\*\*`([^`]+)`\*\*\s*\|\s*`(Leve|Média|Pesada)`\s*\|', _li)
                 if _mm:
-                    _pm[_mm.group(1)] = _grp
+                    _pm[_mm.group(1)] = _mm.group(2)
         if len(_pm) != 14:
-            erro(f'4: li {len(_pm)} condicao(oes) das tabelas §3.1 e §3.2 e esperava 14')
+            erro(f'4: li {len(_pm)} condicao(oes) das tabelas §3.1 a §3.3 e esperava 14')
         _calc = {n for n, _, _ in catorze(CHEFE)}
         _fora_regua = sorted(set(_pm) - _calc)
         if _fora_regua:
             erro('4: a peca publica condicao que a regua do §2.2 nao preca: '
                  + ', '.join(_fora_regua))
         _falta = [n for g in _man for n in _man[g] if n not in _pm]
-        _sobra = [n for n in _pm if n not in _man['Menor'] + _man['Maior']]
+        _sobra = [n for n in _pm if n not in [x for g in _man for x in _man[g]]]
         if _falta:
             erro('4: o manual publica condicao que esta peca nao tem: ' + ', '.join(_falta))
         if _sobra:
             erro('4: esta peca tem condicao que o manual nao publica: ' + ', '.join(_sobra))
-        _trocada = [n for g in _man for n in _man[g] if _pm.get(n) != g]
+        _trocada = [f'{n} (manual {g}, peca {_pm.get(n)})'
+                    for g in _man for n in _man[g] if _pm.get(n) != g]
         if _trocada:
-            erro('4: condicao no grupo errado contra o manual: ' + ', '.join(_trocada))
+            erro('4: condicao com nivel diferente entre o manual e a peca: '
+                 + ', '.join(_trocada))
         if not (_falta or _sobra or _trocada):
-            print(f'  a peca publica 9 Menor(es) e 5 Maior(es); o manual tambem')
-            print('  [x] as 14 batem com o manual em nome e em grupo, nos dois sentidos')
+            print('  o manual publica ' + ' · '.join(
+                f'{len(_man[t])} {t}' for t in ('Leve', 'Média', 'Pesada')) + '; a peca tambem')
+            print('  [x] as 14 batem com o manual em nome e em NIVEL, nos dois sentidos')
+
+    # v0.104: a Melhoria e' uma so, e as duas de antes nao existem mais no manual
+    _mel = []
+    for _t in _d.tables:
+        for _r in _t.rows:
+            _c = [x.text.strip() for x in _r.cells]
+            if _c and _c[0] in ('Condição', 'Condição Menor', 'Condição Maior'):
+                _mel.append((_c[0], _c[1] if len(_c) > 1 else ''))
+    _velhas = [m for m, _ in _mel if m != 'Condição']
+    if _velhas:
+        erro('4: o manual ainda vende ' + ', '.join(sorted(set(_velhas)))
+             + ' — a v0.104 fundiu as duas na Melhoria Condição')
+    elif not _mel:
+        erro('4: nao achei a Melhoria Condição no catalogo do manual')
+    elif _mel[0][1] != 'o nível dela':
+        erro(f'4: a Melhoria Condição do manual cobra "{_mel[0][1]}" e a peca §3.6 diz '
+             'que o preco e o nivel da condicao')
+    else:
+        print('  [x] o manual vende UMA Melhoria Condição, e o preco dela e o nivel')
+
+    # v0.104: o -2 na iniciativa do Surdo mora em TRES lugares — a tabela de mesa
+    # desta peca, a tabela de nivel do manual e a peca 3 §5, que e' a dona da
+    # formula da iniciativa. Tres copias de um numero so; a licao no 9 pede
+    # alguem comparando as tres em vez de a gente escolher uma e torcer.
+    _SURDO = '−2'
+    _peca_surdo = [l for l in TXT.split('\n')
+                   if l.startswith('| **`Surdo`**') and 'iniciativa' in l]
+    _man_surdo = []
+    for _t in _d.tables:
+        for _r in _t.rows:
+            _c = [x.text.strip() for x in _r.cells]
+            if len(_c) == 2 and _c[0] == 'Surdo':
+                _man_surdo.append(_c[1])
+    _p3 = ler('sistema/03-mecanica/03-economia-de-acao-e-iniciativa.md')
+    _faltou = []
+    if not (_peca_surdo and _SURDO in _peca_surdo[0]):
+        _faltou.append('a tabela de mesa desta peca')
+    if not (_man_surdo and any(_SURDO in x and 'iniciativa' in x for x in _man_surdo)):
+        _faltou.append('a tabela de nivel do manual')
+    if not ('`Surdo`' in _p3 and _SURDO in _p3 and 'iniciativa' in _p3):
+        _faltou.append('a peca 3 §5, que e a dona da formula')
+    if _faltou:
+        erro('4: o -2 na iniciativa do Surdo nao esta em: ' + '; '.join(_faltou))
+    else:
+        print('  [x] o −2 na iniciativa do Surdo bate nos tres donos: '
+              'esta peca, o manual e a peca 3 §5')
 
     # as tres que ficaram de fora continuam de fora, e o manual concorda
     _fora = ('Inconsciente', 'Exaustão', 'Invisível')
@@ -347,7 +444,7 @@ for _l in TXT.split('\n'):
         _mesa[_m.group(1)] = _m.group(2)
 
 if len(_mesa) != 14:
-    erro(f'5: as tabelas do §3.1 e §3.2 trazem {len(_mesa)} condicao(oes) com nivel '
+    erro(f'5: as tabelas do §3.1 a §3.3 trazem {len(_mesa)} condicao(oes) com nivel '
          'e eu esperava 14 — elas mudaram de forma e esta checagem parou de conferir')
 else:
     _div = [n for n, t in _mesa.items() if _pub.get(n, (0, 0, None))[2] != t]
@@ -355,9 +452,10 @@ else:
         erro('5: o nivel do texto de mesa nao bate com o da tabela da regua em: '
              + ', '.join(sorted(_div)))
     else:
-        _n9 = sum(1 for n, t, _ in catorze(CHEFE) if t == 'Menor')
-        print(f'  14 condicoes com nivel no texto de mesa, {_n9} no grupo Menor '
-              f'e {14-_n9} no Maior')
+        _c = {t: sum(1 for x in _mesa.values() if x == t)
+              for t in ('Leve', 'Média', 'Pesada')}
+        print(f'  14 condicoes com nivel no texto de mesa: '
+              f'{_c["Leve"]} Leve · {_c["Média"]} Média · {_c["Pesada"]} Pesada')
         print('  [x] as duas copias do nivel — a regua e o texto de mesa — batem')
 
 
@@ -612,6 +710,52 @@ if re.search(r'^\s*(TETO|BANDA)_\w+\s*=\s*[\d.]+', open(__file__, encoding='utf-
 else:
     print('  [x] as tres bandas sao derivadas de 1/7, 2/7 e 3/7 da Rotina, '
           'e nenhuma esta escrita')
+
+
+# --------------------------------------------------------------------------
+bloco('11. A PENALIDADE DE ARMA — as duas linhas, e o tamanho de cada uma')
+# --------------------------------------------------------------------------
+# Nenhum dos quatro numeros esta escrito aqui: a desvantagem vem da peca 11, o
+# metro e o ponto de arma vem das pecas 5 e 14, e o fundo de duas maos vem da 14.
+# O 3 m e' o unico que se confere contra fora: sao os 10 pes que o d20 de 2024
+# cobra de quem veste protecao sem a Forca dela.
+_sec6 = TXT[TXT.find('## 6. A penalidade de arma'):]
+_sec6 = _sec6[:_sec6.find('\n## ')] if '\n## ' in _sec6 else _sec6
+if not _sec6:
+    erro('11: nao achei a secao 6 (a penalidade de arma) — ela mudou de titulo e '
+         'esta checagem parou de conferir')
+else:
+    _falta = [t for t, _r in (
+        ('desvantagem na rolagem de ataque', 'desvantagem na rolagem de ataque'),
+        ('a queda de deslocamento', '`3 m`'),
+    ) if _r not in _sec6]
+    if _falta:
+        erro('11: a secao 6 nao escreve mais: ' + ', '.join(_falta))
+    _desv = ROTINA_30 * (PP_VANTAGEM / (ACERTO * 100))
+    _mov = 3.0 * METRO
+    _arma = FUNDO_DE_DUAS_MAOS * PONTO_DE_ARMA
+    _razao = (_desv + _mov) / _arma
+    for _rot, _val, _rx in (
+        ('a desvantagem', _desv, r'\*\*`(\d+,\d+)` de dano por rodada\*\*'),
+        ('a razao contra a arma inteira', _razao, r'custam `(\d+,\d+)` vezes'),
+    ):
+        _m = re.search(_rx, _sec6)
+        if not _m:
+            erro(f'11: a secao 6 nao publica mais {_rot} no formato que esta '
+                 'checagem le')
+        elif abs(num(_m.group(1)) - _val) > 0.05:
+            erro(f'11: a secao 6 publica {num(_m.group(1)):.2f} para {_rot} e a '
+                 f'conta reconstroi {_val:.2f}')
+    _pes = 3.0 / 0.3048
+    if abs(_pes - 10.0) > 0.2:
+        erro(f'11: os 3 m da penalidade dao {_pes:.1f} pes, e o d20 cobra 10')
+    if not ERROS:
+        print(f'  desvantagem: {PP_VANTAGEM:.0f} pp sobre {ACERTO*100:.0f}% = '
+              f'{_desv:.2f} de dano por rodada')
+        print(f'  deslocamento -3 m = {_mov:.2f}   |   a arma inteira = {_arma:.2f}')
+        print(f'  [x] as duas somadas custam {_razao:.1f}x a entrega da arma — '
+              'porta fechada, e nao preco')
+        print(f'  [x] os 3 m sao os {_pes:.0f} pes que o d20 de 2024 cobra')
 
 
 # --------------------------------------------------------------------------

@@ -20,7 +20,7 @@ const pacotes = [
 
   H2('Classe 2 · 6 pontos · 6 PE'),
   PT([
-    ['Palma Trovejante', 'Cone (−1) · Derrubado (−2) · Lento (+2)', '5d8 = 22 + Derrubado por uma rodada'],
+    ['Palma Trovejante', 'Cone (−1) · Derrubado (−1) · Lento (+2)', '6d8 = 27 + Derrubado por uma rodada'],
     ['Lança Negra', 'Projétil · Fura (−2) · Lento (+2)', '6d8 = 27, fura 6 de RD. O Lento pagou a Fura inteira'],
     ['Faísca em Cadeia', 'Projétil · Salto (−2) · Gesto (+1)', '5d8 = 22 e 2d8 = 9 no segundo alvo'],
     ['Sopro', 'Cura (−2)', 'cura 4d8 = 18'],
@@ -32,7 +32,7 @@ const pacotes = [
     ['Marca do Carrasco', 'Projétil · Marca (−2) · Queima (−3) · Uma Vez (+2)', '6d8 = 27 e 3d8 = 13 no turno seguinte'],
     ['Domo de Gelo', 'Explosão (−2) · Terreno (−2) · Maior (−2) · Condicional: no escuro (+2)', '5d8 = 22 num raio de 4,5 m + terreno difícil por uma rodada'],
     ['Passo Cortante', 'Toque (Corpo a Corpo +3) · Passo (−2) · Precisão (−2)', '8d8 = 36 no toque, anda 6 m, +2 no acerto'],
-    ['Costura', 'Cura (−3) · Limpa (−3) · Gesto (+2)', 'cura 5d8 = 22 e tira uma Condição Menor'],
+    ['Costura', 'Cura (−3) · Limpa (−3) · Gesto (+2)', 'cura 5d8 = 22 e tira uma condição de nível Leve ou Média'],
     ['Rede', 'Explosão (−2) · Atordoado (−5) · Terreno (−2)', 'zero dano: Atordoado + terreno difícil, CD +2, tudo durando uma rodada a mais'],
     ['Hora Morta', 'Efeito · Longe (−2)', 'um quarteirão em silêncio absoluto por uma hora'],
     ['Fissura', 'Projétil · Toca a Alma (−2)', '7 dados viram 3d8 = 13 na alma'],
@@ -53,7 +53,7 @@ const pacotes = [
   PT([
     ['Purga Escarlate', 'Projétil · Inescapável (−5)', '10d8 = 45 automático, sem acerto e sem resistência'],
     ['Chuva de Agulhas', 'Projétil · Rajada (−3) · Precisão (−3) · Parado (+3)', '12d8 = 54 em 6 tiros, +2 cada'],
-    ['Vala Comum', 'Explosão (−3) · Maior (−3) · Derrubado (−5) · Lento (+5)', '9d8 = 40 num raio de 4,5 m, todos Derrubados por uma rodada'],
+    ['Vala Comum', 'Explosão (−3) · Maior (−3) · Derrubado (−3) · Lento (+5)', '11d8 = 49 num raio de 4,5 m, todos Derrubados por uma rodada'],
     ['Fim de Turno', 'Explosão (−3) · Escolher (−5) · Lento (+5)', '12d8 = 54 num raio de 3 m, só em quem você escolher'],
     ['Segunda Vida', 'Cura (−5) · Levanta (−8) · Uma Vez (+3) · Gesto (+3)', 'cura 8d8 = 36, ou levanta um aliado caído com 25'],
     ['Fio Preso', 'Efeito · Fica (−5)', 'um bairro de onde ninguém sai, até alguém desfazer'],

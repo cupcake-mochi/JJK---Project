@@ -170,6 +170,8 @@ Um item que estava aberto há duas versões se resolve escrevendo uma frase que 
 
 > **Iniciativa = d20 + Destreza.** Maior age primeiro. Empate se resolve pela maior Destreza; persistindo, o jogador decide antes do inimigo.
 
+> **Uma coisa só mexe nessa conta fora da Destreza, e é a condição `Surdo`: ela dá `−2`.** *Escrita na v0.104, na peça 19 §3.7, com a conta de quanto isso custa — `9,75` pontos percentuais de agir antes, que são `2,05` pontos de Destreza.* **Se aparecer uma segunda coisa que mexa na iniciativa, ela passa por aqui antes**, porque duas fontes de modificador sem ninguém somando é como o `Adianta` viraria bônus automático.
+
 A parte que exige explicação é por que **rolada** e não fixa.
 
 Iniciativa fixa — a ordem simplesmente sendo a Destreza — é tentadora num sistema de cinco a sete mestres: uma rolagem a menos, ordem previsível, ficha auditável. Mas ela quebra uma peça que já existe.

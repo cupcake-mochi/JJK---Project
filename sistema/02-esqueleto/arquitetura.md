@@ -11,7 +11,7 @@ Este documento não tem número nenhum de propósito. Ele responde *que peças o
 
 ## 1. O que o Fundamento já resolve
 
-O manual v7.9 é um subsistema fechado e validado. Ele cobre:
+O manual v7.10 é um subsistema fechado e validado. Ele cobre:
 
 | Área | O que o Fundamento entrega |
 |---|---|
@@ -159,15 +159,9 @@ A trava proposta: **aptidão não produz dano e não escala com nível.** Aptid�
 
 **Problema 3 — RESOLVIDO. A progressão é passiva e por escolha ao mesmo tempo.** A cada quatro níveis o personagem ganha refino e atributo de graça, e escolhe em qual dos dois recebe um bônus a mais. Escolher refino sobe outro degrau e concede uma aptidão; escolher atributo dá mais atributo.
 
-Com teto 10 e começo em 1, a curva fica assim. Os marcos são os da v0.10 — **6, 10, 14, 18, 22, 26 e 30**, contados a partir da ficha que começa no nível 2:
+Com teto 10 e começo em 1, a curva se desenha sozinha. Os marcos são os da v0.10 — **6, 10, 14, 18, 22, 26 e 30**, contados a partir da ficha que começa no nível 2.
 
-| | nv 6 | nv 10 | nv 14 | nv 18 | nv 22 | nv 26 | nv 30 |
-|---|---|---|---|---|---|---|---|
-| especialista (sempre refino) | 3 | 5 | 7 | 9 | **10** | 10 | 10 |
-| meio a meio | 3 | 4 | 6 | 7 | 9 | 10 | 10 |
-| generalista (nunca refino) | 2 | 3 | 4 | 5 | 6 | 7 | **8** |
-
-A faixa é saudável: 4 a 7 no nível 14, 6 a 10 no nível 22. Diferencia sem virar caos, e o especialista bate no teto exatamente no nível 22, migrando naturalmente para atributo depois.
+> **A tabela das três rotas SAIU DAQUI na v0.104, e hoje ela mora na peça `03-mecanica/11-aptidoes-e-refino.md` §3.** *Ela era a última fonte de progressão do projeto fora de uma peça de regra, e este é documento de projeto: aqui a ideia nasce, lá ela mora e um validador alcança ela.* **Os gates da seção 5 daquela peça são esta curva lida em três colunas.**
 
 **A trava que faz isso fechar:** quando o refino já está no teto, **escolher refino ainda concede a aptidão**. Sem essa linha, o especialista desperdiça duas escolhas depois do nível 22. Com ela, nada se perde e a decisão degrada sozinha para "aptidão ou atributo" no fim do jogo — que é uma comparação limpa.
 

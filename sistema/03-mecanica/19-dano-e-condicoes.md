@@ -30,7 +30,7 @@
 
 ### 2.1 O teto sai do manual, e ele é plano
 
-**O manual compra condição com ponto de feitiço.** *Uma `Condição Menor` custa `Média` e uma `Condição Maior` custa `Pesada`, e cada ponto que não vira Melhoria vira `1d8` de dano — que são `4,5`.* **Então o manual sempre disse, em dano, quanto ele acha que uma condição vale.**
+**O manual compra condição com ponto de feitiço, e cada ponto que não vira Melhoria vira `1d8` de dano — que são `4,5`.** *Quando esta régua foi feita, na v0.103, o manual vendia condição em dois pacotes: `Condição Menor` custava `Média` e `Condição Maior` custava `Pesada`.* **Então ele sempre disse, em dano, quanto achava que uma condição valia — e é dessa tabela de preço que as bandas saem.**
 
 | Classe | `Leve` | `Média` | `Pesada` | Rotina | `Média` / Rotina | `Pesada` / Rotina |
 |---|---|---|---|---|---|---|
@@ -116,11 +116,11 @@
 
 ### 2.4 Quatro coisas que a conta achou, e nenhuma foi procurada
 
-**O `Surdo` vale zero.** *Ele só faz falhar teste que precise de audição, e não existe teste desses em combate neste sistema.* **É uma condição com preço de `Média` no manual e entrega nenhuma.** *Fica na lista porque ela é a lista do manual, e porque fora de combate ela faz o que promete.*
+**O `Surdo` valia zero, e por isso ele ganhou uma linha na v0.104.** *Até a v0.103 ele só fazia falhar teste que precise de audição, e não existe teste desses em combate neste sistema — era uma condição com preço de `Média` no manual e entrega nenhuma.* **Hoje ele também dá `−2` na iniciativa**, e a conta disso está no §3.7. *Na régua desta seção ele continua em `0,00`, porque iniciativa não é dano — e isso é sobre a régua, não sobre a condição.*
 
 **O `Incapacitado` é a segunda mais barata das catorze, e o manual cobra `Pesada` por ela.** *Metade dela — "você não pode `Bloquear`" — depende de uma regra opcional que nem toda mesa liga, e a peça 1 já registrava isso.* **A outra metade, o crítico garantido no corpo a corpo, vale `11,00`.** *O que faltava era o tamanho.*
 
-**O `Impedido` engole o `Cego`.** *Ele tem as duas linhas do `Cego` — desvantagem nos ataques do alvo e vantagem para quem o ataca — mais deslocamento zero.* **Os dois custam `Média` no manual, e um domina o outro dentro da mesma lista.**
+**O `Impedido` engole o `Cego`.** *Ele tem as duas linhas do `Cego` — desvantagem nos ataques do alvo e vantagem para quem o ataca — mais deslocamento zero.* **Até a v0.103 os dois custavam `Média` no manual, e o `Impedido` era a melhor compra da tabela de Controle inteira.** *Hoje os dois custam `Pesada`, e a diferença entre eles caiu para `1,10×` — dominância que o filtro aceita.*
 
 **Três passam do teto da `Pesada`, e o manual já diz o que fazer com isso.** *O `Cego` fica em `115%`, o `Impedido` em `127%` e o `Petrificado` em `217%`.* **A regra que o manual dá para a Restrição escrita à mão, virada do avesso, resolve:** *"se a dor que você escreveu parece valer mais que uma Média, ela provavelmente são duas Restrições disfarçadas de uma — separe."* **Uma condição que passa do teto da `Pesada` é mais de uma condição escrita como uma**, e o `Petrificado` diz isso no próprio texto: ele é `Incapacitado`, mais deslocamento zero, mais não perceber nada, mais vantagem para quem ataca.
 
@@ -158,33 +158,40 @@
 
 **O manual já cobrava por condição desde sempre e listava os nomes sem dizer o que nenhum deles fazia.** ***Decisão do Mizuki na v0.95: usar as do d20 para tudo que já tem nome lá, e escrever à mão só as que precisam ser diferentes.***
 
-### 3.1 As nove que o manual chama de `Menor`
+### 3.1 As seis de nível `Leve`
 
 | condição | nível | o que faz |
 |---|---|---|
-| **`Derrubado`** | `Leve` | você está no chão. Só se move rastejando, tem desvantagem nos seus ataques, e quem ataca você **a até 1,5 m tem vantagem** — quem ataca de longe tem desvantagem |
-| **`Cego`** | `Pesada` | você não enxerga. Falha automático em teste que precise de vista, tem desvantagem nos seus ataques, e quem ataca você tem vantagem |
-| **`Surdo`** | `Leve` | você não ouve. Falha automático em teste que precise de audição |
-| **`Agarrado`** | `Leve` | seu deslocamento é `0`. Acaba se quem agarrou ficar `Incapacitado`, ou se alguma coisa tirar você do alcance dele |
-| **`Impedido`** | `Pesada` | seu deslocamento é `0`, você tem desvantagem nos seus ataques e no Teste de Resistência Físico, e quem ataca você tem vantagem |
-| **`Envenenado`** | `Pesada` | desvantagem nos seus ataques e em todo teste de perícia |
 | **`Lento`** | `Leve` | seu deslocamento cai pela metade e você não usa Ação Bônus |
+| **`Incapacitado`** | `Leve` | **você não pode `Bloquear`, e todo ataque corpo a corpo contra você é crítico** |
+| **`Derrubado`** | `Leve` | você está no chão. Só se move rastejando, tem desvantagem nos seus ataques, e quem ataca você **a até 1,5 m tem vantagem** — quem ataca de longe tem desvantagem |
+| **`Agarrado`** | `Leve` | seu deslocamento é `0`. Acaba se quem agarrou ficar `Incapacitado`, ou se alguma coisa tirar você do alcance dele |
 | **`Desarmado`** | `Leve` | a sua arma está no chão ou na mão de outro. Você bate desarmado até pegar de volta |
-| **`Calado`** | `Média` | você não conjura. Nada que precise de voz, gesto ou Selo sai |
+| **`Surdo`** | `Leve` | você não ouve. Falha automático em teste que precise de audição, e **`−2` na iniciativa** |
 
-### 3.2 As cinco que o manual chama de `Maior`
+### 3.2 As duas de nível `Média`
 
 | condição | nível | o que faz |
 |---|---|---|
-| **`Amedrontado`** | `Pesada` | desvantagem em ataque e teste enquanto enxergar a fonte do medo, e você não se aproxima dela de vontade própria |
+| **`Calado`** | `Média` | você não conjura. Nada que precise de voz, gesto ou Selo sai |
 | **`Enfeitiçado`** | `Média` | você não ataca quem enfeitiçou nem mira efeito nocivo nele, e ele tem vantagem em teste social contra você |
-| **`Atordoado`** | `Pesada` | **você perde a Ação Padrão e não usa reação.** *Quem tem mais de uma Ação Padrão no turno — um chefe, um capanga grande — perde **uma**, não todas* |
-| **`Incapacitado`** | `Leve` | **você não pode `Bloquear`, e todo ataque corpo a corpo contra você é crítico** |
+
+### 3.3 As seis de nível `Pesada`
+
+| condição | nível | o que faz |
+|---|---|---|
 | **`Petrificado`** | `Pesada` | você virou pedra. `Incapacitado`, deslocamento `0`, sem perceber nada em volta, quem ataca você tem vantagem — e você tem resistência a todo dano |
+| **`Impedido`** | `Pesada` | seu deslocamento é `0`, você tem desvantagem nos seus ataques e no Teste de Resistência Físico, e quem ataca você tem vantagem |
+| **`Cego`** | `Pesada` | você não enxerga. Falha automático em teste que precise de vista, tem desvantagem nos seus ataques, e quem ataca você tem vantagem |
+| **`Amedrontado`** | `Pesada` | desvantagem em ataque e teste enquanto enxergar a fonte do medo, e você não se aproxima dela de vontade própria |
+| **`Envenenado`** | `Pesada` | desvantagem nos seus ataques e em todo teste de perícia |
+| **`Atordoado`** | `Pesada` | **você perde a Ação Padrão e não usa reação.** *Quem tem mais de uma Ação Padrão no turno — um chefe, um capanga grande — perde **uma**, não todas* |
 
-> **⚠⚠ O `Menor`/`Maior` do manual é PREÇO DE COMPRA e o nível é VALOR, e os dois discordam em dez das catorze.** *O manual cobra `Média` por qualquer uma das nove e `Pesada` por qualquer uma das cinco — um preço só para coisas que valem de `0,00` a `19,73` fatias.* **Enquanto as duas colunas existirem, cada uma serve para uma coisa:** o tier do manual diz o que custa **comprar** a condição num feitiço, e o nível diz o que custa **tirar** ela e quanto ela pesa numa entrega de Trilha.
+> **Só as de nível `Pesada` dão Teste de Resistência no fim de cada turno do alvo, e só cabe uma delas por feitiço.** *Até a v0.103 essas duas linhas andavam com a `Condição Maior`, que era um pacote de cinco nomes.* **Elas passaram a andar com o degrau de cima porque é ele que precisa de amortecedor** — e as cinco de antes não eram as cinco mais duras: o `Incapacitado` estava lá dentro, e ele é a segunda mais barata das catorze.
 
-### 3.3 As duas que não seguem o d20, e por quê
+> **⚠⚠ As duas colunas viraram uma na v0.104, e a que ficou é o nível.** *Até a v0.103 o manual cobrava `Média` por qualquer uma das nove `Menor` e `Pesada` por qualquer uma das cinco `Maior` — um preço só para coisas que valem de `0,00` a `19,73` fatias.* **Hoje o nível faz as duas coisas:** ele é o preço de **comprar** a condição num feitiço e é o custo em energia de **tirar** ela. *A conta que decidiu isso está no §3.6.*
+
+### 3.4 As duas que não seguem o d20, e por quê
 
 ***Decisão do Mizuki na v0.95.*** **`Atordoado` e `Incapacitado` atacam eixos diferentes, e não se aninham** — o que no d20 são três linhas que herdam uma da outra, aqui são duas que não se tocam.
 
@@ -197,15 +204,71 @@
 
 > **⚠ E metade do `Incapacitado` depende de uma regra opcional.** *O `Bloquear` — rolar `2d10` no lugar da Defesa estática — está no `RASCUNHO-bloqueio.md` e nem toda mesa vai usar.* **Onde ele estiver desligado, o `Incapacitado` é só o crítico no corpo a corpo**, que é a metade que sempre vale. *A conta da seção 2 já preça ele assim: as duas metades somadas dão `11,00`, e a do `Bloquear` entra como zero.*
 
-> **O `Atordoado` cobra `uma` Ação Padrão de propósito.** *Um chefe do manual age mais de uma vez por rodada; tirar todas com uma Condição Maior faria uma linha de feitiço apagar o turno de um chefe inteiro.* **Tirar uma ação de três é caro sem ser apagar a cena.**
+> **O `Atordoado` cobra `uma` Ação Padrão de propósito.** *Um chefe do manual age mais de uma vez por rodada; tirar todas com uma condição só faria uma linha de feitiço apagar o turno de um chefe inteiro.* **Tirar uma ação de três é caro sem ser apagar a cena.**
 
-### 3.4 As três que ficaram de fora, com o motivo escrito
+### 3.5 As três que ficaram de fora, com o motivo escrito
 
 | não é condição aqui | por quê |
 |---|---|
 | **`Inconsciente`** | ***decisão do Mizuki:*** aqui isso é **cair morrendo**, e já tem regra própria — a peça 1 §5.5, com as duas escolhas e a janela de três rodadas. *Uma condição de uma rodada com o mesmo nome faria a mesa confundir o pior estado do jogo com um efeito que passa sozinho.* |
 | **`Exaustão`** | já existe, e é da **peça 10**. Ela é relógio de descanso, não efeito de combate |
 | **`Invisível`** | é **benefício**, e as Condições do manual são compradas para aplicar num alvo. *Aplicar `Invisível` num inimigo é pagar `Média` para ajudar ele.* |
+
+### 3.6 A Melhoria `Condição`, e por que ela é uma só
+
+***Decisão do Mizuki na v0.104:*** **a `Condição Menor` e a `Condição Maior` viram uma Melhoria só, chamada `Condição`, e o preço dela é o nível da condição que você escolheu.**
+
+**A alternativa estava na mesa e foi medida.** *Ela era manter as duas Melhorias e só promover as três subvendidas — o `Cego`, o `Impedido` e o `Envenenado` — para `Maior`.* **A conta reprovou ela, e não por pouco.**
+
+| | pior espalhamento dentro de um degrau |
+|---|---|
+| o manual até a v7.8 | **`17,00×`** — o `Impedido` contra o `Desarmado`, os dois por `Média` |
+| promover as três, mantendo os dois pacotes | `9,11×` — o `Petrificado` contra o `Incapacitado` |
+| **o nível como preço** | **`4,26×`** — o `Lento` contra o `Desarmado` |
+
+> **O filtro de dominância deste projeto reprova a partir de `3,00×`.** *Nenhuma das três passa* — e a razão disso não é a escolha, é a escada: **`4,26×` é o piso de qualquer corte em três degraus.** *Rodei a busca exaustiva sobre as catorze; nenhuma outra partição em três faz melhor.* **O que sobra de dominância é o preço de a tabela do manual ter três degraus e as condições valerem de `0,00` a `100,25` de dano por rodada.**
+
+**O que muda de verdade na mesa:** dez das catorze trocam de degrau — três sobem e sete descem.
+
+| sobe | `Cego`, `Impedido` e `Envenenado`, de `Média` para `Pesada` |
+|---|---|
+| **desce** | `Enfeitiçado` de `Pesada` para `Média`; `Lento`, `Incapacitado`, `Derrubado`, `Agarrado`, `Desarmado` e `Surdo` de `Média` para `Leve` |
+| **fica** | `Petrificado`, `Amedrontado` e `Atordoado` em `Pesada`; `Calado` em `Média` |
+
+> **O `Impedido` deixa de ser a melhor compra da tabela de Controle.** *Ele entregava `11,55` fatias pelo mesmo preço que o `Desarmado`, que entrega `0,68`.* **Era a maior dominância viva do manual, e a régua da seção 2 existia para achar ela.**
+
+**Dois dos trinta e cinco feitiços prontos mudam, e os dois porque o `Derrubado` barateou:**
+
+| feitiço | antes | agora |
+|---|---|---|
+| `Palma Trovejante`, Classe 2 | `5d8 = 22` | **`6d8 = 27`** |
+| `Vala Comum`, Classe 5 | `9d8 = 40` | **`11d8 = 49`** |
+
+*A `Rede` e a `Prisão de Sombras` carregam `Atordoado`, que já era `Pesada` e continua — nenhuma das duas se move.* **A tabela de Ampliar da `Palma Trovejante` refaz junto: `6d8 · 8d8 · 14d8` nas Classes 2, 3 e 5, e a proporção contra o teto sobe de perto de `60%` para perto de `70%`.**
+
+> **⚠ E a arrumação achou um erro vivo na tabela de Controle do manual.** *A última linha dela é um feitiço de Classe 5 que gasta tudo em Controle e sai com `0d8`, e ela publica `Lento (+3)`.* **O `Lento` devolve `Média` desde a v7.3, que na Classe 5 são `5` pontos e não `3`** — com o preço certo aquela linha dá `2d8`, e o exemplo do `CD +2` deixava de existir. *A linha passa a usar o `Parado`, que devolve `Leve` e vale os `3` que a conta pede.* **É o mesmo defeito que a v7.3 já tinha deixado na tabela de Ampliar: mudança de preço que não voltou nos exemplos que citavam o preço velho.**
+
+**Uma coisa que a conta NÃO resolve, e ela virou a seção seguinte:** *o `Surdo` lê `0,00` nesta régua e continua comprável.* **Qualquer degrau que contenha ele tem dominância infinita no papel**, e o `Leve` é onde ele cabe. *A busca exaustiva concorda: a melhor partição possível põe o `Surdo` sozinho num degrau, e degrau para ele o manual não tem.* **O §3.7 conta o que foi feito com ele, e por que o número não se mexe mesmo assim.**
+
+### 3.7 O `Surdo`, e o `−2` na iniciativa
+
+***Decisão do Mizuki na v0.104:*** **o `Surdo` fica comprável, continua `Leve`, e passa a dar `−2` na iniciativa.**
+
+**Isso não é regra caseira: é a regra do d20 de 2003, e é o 5e que largou ela.** *A `Deafened` do SRD 3.5 diz, com todas as letras: `−4` de penalidade em testes de iniciativa, falha automática em `Listen`, e `20%` de falha ao conjurar com componente verbal.* **O 5e de 2014 cortou as duas primeiras e ficou só com a terceira linha**, e é dessa versão encolhida que o `Surdo` deste sistema tinha nascido.
+
+*As outras duas linhas do 3.5 não entram:* **o `Listen` já é a linha de audição que a condição tem**, e a falha de conjuração é o que o `Calado` faz aqui — e ele custa `Média`.
+
+**Quanto custa o `−2`, na moeda que a peça 3 §5 usa.** *A conta é a mesma da tabela do `Adianta`, e ela reproduz aquela tabela nos quatro pontos publicados antes de responder qualquer coisa nova.*
+
+| na iniciativa | você age antes | perde | em pontos de Destreza |
+|---|---|---|---|
+| normal | `52,50%` | — | — |
+| **`−2`, o `Surdo` daqui** | **`42,75%`** | **`9,75` pontos percentuais** | **`2,05`** |
+| `−4`, o `Surdo` do 3.5 | `34,00%` | `18,50` pontos percentuais | `3,89` |
+
+> **O `−4` do 3.5 não cabe aqui, e a causa é a escala do atributo.** *Lá o modificador de Destreza vai de `−5` a `+5` e a iniciativa é `d20 + Des`; aqui o atributo é o número cru, e uma ficha de nível 30 anda por volta de `6`.* **`−4` seria tirar quase dois terços do que a Destreza mais alta do jogo compra em iniciativa, por uma condição `Leve`.** *O `−2` custa dois pontos de Destreza, que é uma dor grande e não uma amputação.*
+
+> **⚠ E ele continua valendo `0,00` na régua da seção 2.** *Não é falha do conserto: é a régua.* **A peça 15 §3.1 já rodou o contra-teste, e ele é publicado:** a pergunta *"que fração do meu dano da rodada cai antes de o inimigo agir"* dá **`52,5%` em todas as montagens**, porque iniciativa **reordena** o turno e não tira ação de ninguém. *Aquela peça matou a saída A das Invocações por causa desse eixo, e escreveu que ele existe e que a peça 6 §4 não o preça.* **Então o `Surdo` deixou de não fazer nada na mesa sem deixar de ler zero no papel** — e o `0,00` do §2.2 fica, com este ponteiro do lado.
 
 ---
 
@@ -265,28 +328,70 @@
 
 ---
 
-## 6. As dez checagens do `conferir-dano.py`
+## 6. A penalidade de arma — sem treino e sem o requisito
+
+**Três documentos apontavam para cá:** *a peça 14 §8 item 15, a peça 16 §9, e a seção "em aberto" desta peça.* **A peça 14 fecha as 52 armas, a divisão simples/marcial e o requisito de Força, e nenhum dos três dizia o que acontece com quem pega uma arma que não é dele.**
+
+> **Sem treino na categoria, você tem desvantagem na rolagem de ataque com aquela arma.**
+> **Sem o requisito de Força da arma, o seu deslocamento cai `3 m` enquanto você a estiver empunhando.**
+
+### A do requisito atravessou inteira; a do treino precisou de tradução
+
+**A regra do requisito é a mesma do d20 de 2024, e nem o número mudou.** *Lá ela é de proteção: "se a tabela mostra um valor de Força na coluna Força, aquela proteção reduz o deslocamento de quem a veste em `10` pés, a menos que ele tenha Força igual ou maior".* **`10` pés são `0,3048 × 10` = `3,05 m`, e esta peça anda em `1,5 m`** — os `3 m` são o mesmo passo, não um arredondamento generoso. *E o requisito de Força de arma desta peça já existe desde a v0.47, na peça 14 §5.5, gateando `d10` e `d12` no corpo a corpo.*
+
+**A do treino não atravessa, e o motivo é estrutural.** *No d20, usar arma sem treino tira o bônus de proficiência da rolagem de ataque.* **Aqui a rolagem de ataque não tem esse termo:** a peça 1 §3 escreve `Ataque corpo a corpo = d20 + Força` e `Ataque à distância = d20 + Destreza`, e a maestria só entra em perícia e em conjuração. *Não há o que tirar.*
+
+**O que existe é desvantagem, e ela foi medida antes de ser escolhida:**
+
+| | |
+|---|---|
+| desvantagem na rolagem | `25` pontos percentuais, lidos da peça 11 §8 |
+| sobre um acerto de `50%` | `−50%` do que sai |
+| contra a Rotina de `108` | **`54,00` de dano por rodada** |
+| no d20, isso é | **exatamente o bônus de proficiência de `+5`** — cada `+1` são `5` pontos percentuais |
+
+> **`+5` é a faixa dos níveis `13` a `16` do d20, e o topo dele é `+6`.** *Então a tradução não é livre: ela cai um passo abaixo do maior valor que a regra original tira, e não em cima de um número inventado.*
+
+### E ela não é preço: é porta fechada
+
+**As duas penalidades somadas custam `33,8` vezes o que a arma inteira entrega.**
+
+| | de dano por rodada |
+|---|---|
+| desvantagem na rolagem | `54,00` |
+| deslocamento `−3 m` | `1,80` — o metro vale `0,60`, na peça 5 §4 |
+| **somadas** | **`55,80`** |
+| a arma inteira — o fundo de duas mãos, `5` pontos a `0,33` | `1,65` |
+
+> **Ninguém paga trinta e três vezes para usar uma coisa.** *E é isso que o d20 faz também: a penalidade dele não existe para ser paga, existe para você ir buscar o treino.* **Uma penalidade que dá para pagar é preço, e preço abre a porta — o que a peça 14 decidiu sobre acesso vira decoração no dia em que empunhar sem treino for uma escolha de montagem.**
+
+*A conta acima usa a Rotina inteira de propósito.* **Um personagem que vive de arma tem a Rotina em arma**, e é sobre ele que a porta fecha. *Quem só pega a arma do chão numa cena perde muito menos, porque perde só aquela rodada — e isso é o que a regra quer: emprestar arma numa emergência continua sendo uma coisa que acontece na ficção.*
+
+---
+
+## 7. As onze checagens do `conferir-dano.py`
 
 *Escritas antes do validador, que é o método que fez a peça 15 caber numa versão só contra as seis que a peça 14 gastou.*
 
 | # | o que ela confere |
 |---|---|
 | **1** | **as âncoras existem nos donos.** Cada número que a régua usa aparece no documento que esta peça declara como dono dele. Âncora que sumiu do dono é régua sem chão |
-| **2** | **a régua reconstrói as catorze.** Cada valor da tabela do §2.2 é recalculado a partir das âncoras e comparado com o publicado |
+| **2** | **a régua reconstrói as catorze.** Cada valor da tabela do §2.2 é recalculado a partir das âncoras e comparado com o publicado. *E, desde a v0.104, ela também reconstrói a razão entre as duas réguas de rolagem — e cobra que ela seja exatamente o dobro da razão das bases* |
 | **3** | **o nível de cada condição sai da banda.** O `Leve`/`Média`/`Pesada` publicado bate com `1/7`, `2/7` e `3/7` da Rotina, e as bandas saem da tabela de Classe do manual |
-| **4** | **as catorze batem com o manual**, nas duas direções: nome, grupo `Menor`/`Maior` e a lista de cada Melhoria. *Lê o `.docx`, então **pula** sem o `python-docx` — e diz que pulou* |
-| **5** | **nenhuma condição fica sem nível**, e o nível é um dos três. Guarda de contagem: são catorze, nove no `Menor` e cinco no `Maior` |
+| **4** | **as catorze batem com o manual**, nas duas direções: nome e **nível**, tabela por tabela — e o manual vende **uma** Melhoria `Condição`, cobrando o nível. *Lê o `.docx`, então **pula** sem o `python-docx` — e diz que pulou* |
+| **5** | **nenhuma condição fica sem nível**, e o nível é um dos três. Guarda de contagem: são catorze, seis `Leve`, duas `Média` e seis `Pesada` |
 | **6** | **a escada de quem cura fecha.** O teto de energia por uso em cada faixa de maestria cobre exatamente os tiers que o §2.3 publica, e ela bate com a escada de exaustão da peça 10 |
 | **7** | **os catorze tipos de dano**, os três grupos, os pesos `60/30/10` e a tabela de quantos tipos você resiste, recontada em vez de guardada |
 | **8** | **a cobertura**: os três degraus, os dois números de cada um, e a `Total` sem número |
 | **9** | **as duas entregas publicadas que aplicam condição** — o `Abalo` do `DESENHO-manhas.md` e o `Encontrão` do `DESENHO-trilhas.md` — batem com a régua, com o portão que o texto de cada uma escreve |
 | **10** | **nenhum valor de regra escrito dentro do validador.** Todo número vem do documento dono, e a checagem falha se algum ficar guardado no código |
+| **11** | **a penalidade de arma da seção 6**: as duas linhas estão escritas, o `3 m` bate com o `10` pés do d20, e a desvantagem reconstrói em `54,00` a partir das âncoras — e a soma das duas contra a entrega da arma inteira |
 
 > **A checagem 9 é a que esta peça existe para ter.** *Ela é a única que sai da pasta, junto com a do `conferir-catalogo.py` — e é ela que pegaria o `Punho` de novo se alguém reescrever o texto da entrega sem mexer no preço, ou o contrário.*
 
-### As treze perturbações, em cópia isolada
+### As vinte e sete perturbações, em cópia isolada
 
-*Com a base conferida verde na cópia antes de cada uma, com o `md5` comparado antes e depois, e com o veredito lido da checagem que estava sendo testada — nunca o código de retorno do programa.*
+*Com a base conferida verde na cópia antes de cada uma, com o `diff` comparado antes e depois, e com o veredito lido da checagem que estava sendo testada — nunca o código de retorno do programa.* **As quinze de baixo são da v0.104**, e as sete primeiras delas atravessam o `.docx`: perturbar o manual quer dizer mexer no gerador e rodar o `node make.js` de novo.
 
 | checagem | perturbação | esperado | deu |
 |---|---|---|---|
@@ -301,6 +406,21 @@
 | 8 | a cobertura `Total` ganha número | acende | acende |
 | **9** | **o preço do `Derrubado` do `Punho` muda e o texto não** | acende | acende |
 | **9** | **o TEXTO da entrega perde o Teste de Resistência e o preço não** | acende | acende |
+| **4** | **o `Derrubado` vira `Média` na tabela de mesa da peça** | acende | acende |
+| **4** | **o `Cego` muda de tabela dentro do manual, e a peça não** | acende | acende |
+| **4** | **uma condição é renomeada na peça** | acende | acende |
+| **4** | **a seção `§3.3` muda de título e a extração perde o chão** | acende | acende |
+| **4** | **a Melhoria `Condição` volta a cobrar um tier fixo** | acende | acende |
+| **4** | **a `Condição Maior` volta a existir no manual** | acende | acende |
+| **4** | **o cabeçalho `Nível Pesada` do manual vira `Maior`** | acende | acende |
+| **4** | **contra-teste: mexer no texto do `Terreno`, que não é condição** | fica verde | fica verde |
+| **4** | **o `−2` do `Surdo` some da tabela de mesa da peça** | acende | acende |
+| **4** | **o `−2` do `Surdo` some da peça 3 §5, que é dona da fórmula** | acende | acende |
+| **4** | **o `−2` do `Surdo` some do manual** | acende | acende |
+| **4** | **o manual troca o `−2` do `Surdo` por `−4`** | acende | acende |
+| **4** | **contra-teste: mexer no texto do `Lento`, que não toca iniciativa** | fica verde | fica verde |
+| **2** | **a peça publica outra razão entre as duas réguas de rolagem** | acende | acende |
+| **2** | **contra-teste: a razão publicada some da peça** | acende | acende |
 | 2 | **contra-teste:** mexer em prosa sem mexer em número | verde | verde |
 | 9 | **contra-teste:** mexer no texto de outro degrau do `Punho` | verde | verde |
 
@@ -314,13 +434,18 @@
 
 ---
 
-## 7. Em aberto
+## 8. Em aberto
 
-- **⚠⚠ O manual cobra `Média` por dez condições que a conta preça em outro tier**, e seis delas ele subvende. *`Cego`, `Impedido` e `Envenenado` valem `Pesada` e custam `Média`; `Enfeitiçado` e `Incapacitado` valem menos do que a `Pesada` que ele cobra.* **Consertar isso é mexer na tabela de Melhoria do manual e regerar o `.docx`, e é decisão do Mizuki.** *Enquanto não for, o `Impedido` é a melhor compra da tabela de Controle.*
 - **A `Cicatriz` continua sem mecânica.** *A peça 1 §5.5 registra que ela é permanente, não sai no descanso, e nada mais.* **Esta peça foi escrita com o escopo que o Mizuki fechou — a régua e as três seções que mudaram de casa —, e a `Cicatriz` ficou de fora dele.** *O que precisa ser resolvido continua o mesmo: o que ela faz, se tem teto por ficha, se some algum dia, e se a `Energia Reversa` limpa Sequela.*
-- **A penalidade por empunhar arma sem treino ou sem requisito.** *A peça 14 §8 e a peça 16 §9 apontam para cá.* **A saída óbvia do hobby é desvantagem na rolagem, e este projeto já mede desvantagem em `25` pontos percentuais** — o que dá para fazer com a régua da seção 2 na mão, e não foi feito nesta versão.
+- **O `Surdo` lê `0,00` nesta régua mesmo depois do `−2` na iniciativa**, e o motivo é a régua e não a condição — ela mede dano por rodada, e a peça 15 §3.1 já publicou que ordem de iniciativa não move dano. *Enquanto a régua for essa, o degrau que contiver o `Surdo` vai ter dominância infinita no papel.* **O que falta é uma régua para o eixo de iniciativa**, e o projeto já tem duas decisões grandes tomadas nele — a saída A das Invocações e a recusa da iniciativa fixa da peça 3 — as duas sem número em fatia.
 - **As condições que impedem `Bloquear`.** *O `RASCUNHO-bloqueio.md` lista surpreendido, caído e agarrado, e aponta para cá.* **Duas das três têm nome agora — `Derrubado` e `Agarrado` —, e a terceira não existe como condição neste sistema.**
 - **Três vagas de `Desliga` da peça 13 esperam esta peça.** *Elas esperavam um alvo legal que só nascesse aqui.* **A régua da seção 2 cria alvo: o nível de uma condição é número, e a trava do `Desliga` proíbe encostar no que tem preço.** *Vale reler as três com isso na mão.*
-- **A conta usa duas réguas de rolagem que não medem a mesma coisa.** *`+1` no seu acerto vale `10,80`, que são `10%` da Rotina de `108`; `1` ponto percentual na rolagem de um aliado vale `0,230`, que é `1%` da ação de atacar de `23,00`.* **Você é modelado pela Rotina inteira e o aliado por dois golpes simples**, e a diferença é de `4,7` vezes. *Mexer nisso repreçaria o `Guiar`, o `Estampido` e o `Ajudar` de uma vez, então fica marcado em vez de consertado.*
+- **⚠ As duas réguas de rolagem divergem por `9,4` vezes, e não por `4,7` — e o `4,7` publicado media outra coisa.** *A v0.103 escreveu que `+1` no seu acerto vale `10,80` (que são `10%` da Rotina de `108`), que `1` ponto percentual na rolagem de um aliado vale `0,230` (que é `1%` da ação de atacar de `23,00`), e que **"a diferença é de `4,7` vezes"**.* **O `4,7` é `108 ÷ 23,00`: a razão entre as duas BASES.** *Isso é verdade e responde outra pergunta — quanto o seu escopo é maior que o do aliado.* **Lidas por ponto percentual, que é a única forma de compará-las, elas dão `2,16` contra `0,230`, e a razão é `9,39`.**
+
+  *A causa do fator `2` que separa os dois números é uma escolha de conversão que nunca foi declarada:* **a sua régua é RELATIVA** — a peça 15 §3.3 escreve *"`+1` no acerto = `50%` → `55%` = `+10%` de dano saído"*, então `5` pontos percentuais sobre um acerto de `50%` viram `+10%` do que sai — **e a do aliado é ABSOLUTA**, com `X` pontos percentuais virando `X%` da base. *Pela conversão relativa, `1` pp num aliado valeria `0,460` e não `0,230`.* **`9,4` = `4,7` de escopo × `2` de conversão.**
+
+  > **O contra-teste fecha com o mesmo número, e ele já está publicado noutro documento.** *Lido pela sua régua, o `Ajudar` — que são `25` pontos percentuais — valeria `54,00` de dano por rodada em vez dos `5,75` que o `DESENHO-caminhos` publica.* **`54,00 ÷ 5,75` = `9,4`**, e o `54,00` é exatamente o que o `DESENHO-manhas` já escreve para vantagem. *Mais que uma Trilha inteira, que são `25,40`.*
+
+  **Continua marcado e não consertado, e agora com o tamanho certo:** mexer nisso repreçaria o `Guiar`, o `Estampido` e o `Ajudar` de uma vez.
 - **O valor de uma condição depende de em quem ela cai.** *Contra um capanga de `38` de dano por rodada, em vez de um chefe de `72`, seis das catorze mudam de nível.* **A tabela publicada é a do chefe, porque é contra ele que as entregas de Trilha foram preçadas** — e o validador confere as duas colunas.
 - **`Petrificado` só é a maior da lista porque o grupo pode trocar de alvo.** *A resistência a todo dano dele entra como zero, com o motivo escrito.* **Se o grupo insistir em bater na estátua, ele vira negativo contra um capanga** — e isso é decisão de mesa, não de conta.

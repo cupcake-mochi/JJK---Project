@@ -36,7 +36,7 @@ Isso não mata o formato — é o mesmo das Trilhas, onde a **janela** é que fa
 
 > **⚠ A colisão que isto abriu foi consertada na v0.88, e ela era REGRESSÃO.** *Esta entrada nasceu na v0.82 chamando a condição de `Caído`, que era o nome da máquina de estado de 0 de vida da peça 1 §5.5 — e a **v0.74 já tinha achado e fechado exatamente essa colisão no `Punho`**, adotando o `Derrubado` do manual. Oito versões depois ela voltou por outra porta.*
 >
-> **`Derrubado` é `Condição Menor` no manual**, com tier de preço e dois feitiços prontos usando ela — a `Palma Trovejante` e a `Vala Comum`. *Não é nome novo: é o nome que já existia.*
+> **`Derrubado` é condição de nível `Leve` no manual**, com preço próprio e dois feitiços prontos usando ela — a `Palma Trovejante` e a `Vala Comum`. *Não é nome novo: é o nome que já existia.*
 >
 > **E o estado de 0 de vida virou `Inconsciente` na mesma versão**, aplicando a decisão do Mizuki que estava registrada aqui desde a v0.82 e nunca tinha sido aplicada.
 

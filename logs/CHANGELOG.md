@@ -6,6 +6,162 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.104] — 18/08/2026
+
+**A versão das dez condições no degrau errado, e das três contradições numa tabela que ninguém conferia.** *A Melhoria `Condição` virou uma só e o preço dela é o nível; as cinco vagas de `Desliga` que estavam destravadas desde a v0.59 e a v0.103 fecharam; e a penalidade de arma, que três documentos esperavam, está escrita.* **Manual do Fundamento na v7.10.**
+
+### ⚠⚠ O achado de método: uma tabela de ilustração errada em três das doze entradas
+
+**A tabela dos três formatos da peça 13 — a porta de entrada dela, a primeira coisa que a mesa lê sobre o que `Ajusta`, `Desliga` e `Destranca` fazem — estava errada desde a v0.39.**
+
+| | a tabela dizia | o catálogo diz |
+|---|---|---|
+| `Corpo Emprestado` | `Desliga` | **`Ajusta`** |
+| `Treino de Berço` | `Ajusta` | **`Destranca`** |
+| `Não Sou Gente` | `Desliga` | **não está lá** — virou Passiva paga com espaço de feitiço |
+
+**As três foram convertidas pela própria v0.39, que escreveu a régua, mexeu nos Legados que ela reprovava, e não voltou nas tabelas que citavam aqueles Legados como EXEMPLO.**
+
+> **Nenhum validador alcançava ela, e o motivo é que ela é ilustração e não regra.** *A checagem 10 do `conferir-legados.py` entrou nesta versão: ela lê os doze nomes da tabela e cobra cada um contra o formato que o catálogo dá a ele.* **Só uma das três tinha sido achada a olho.**
+
+### Decidido — a Melhoria `Condição` é uma só, e o preço dela é o nível
+
+***Decisão do Mizuki, entre duas formas medidas.*** **A `Condição Menor` e a `Condição Maior` saíram; entrou `Condição`, cobrando `Leve`, `Média` ou `Pesada` conforme a condição escolhida.**
+
+| | pior espalhamento dentro de um degrau |
+|---|---|
+| o manual até a v7.9 | **`17,00×`** — o `Impedido` contra o `Desarmado`, os dois por `Média` |
+| a forma alternativa — promover as três subvendidas | `9,11×` |
+| **o nível como preço** | **`4,26×`** |
+
+**A alternativa não movia o pior caso: ela ficava nos mesmos `9,11×`.** *Promover `Cego`, `Impedido` e `Envenenado` para `Maior` joga as três dentro de um degrau que já ia do `Petrificado` ao `Incapacitado`.*
+
+> **E `4,26×` é o PISO, não um resultado.** *A busca exaustiva sobre as catorze diz que nenhum outro corte em três degraus faz melhor.* **O filtro do projeto reprova a partir de `3,00×`, então o que sobra de dominância não é escolha — é a tabela do manual ter três degraus e as condições valerem de `0,00` a `100,25` de dano por rodada.**
+
+**Dez das catorze trocaram de degrau:** `Cego`, `Impedido` e `Envenenado` sobem para `Pesada`; `Enfeitiçado` desce para `Média`; `Lento`, `Incapacitado`, `Derrubado`, `Agarrado`, `Desarmado` e `Surdo` descem para `Leve`.
+
+**Dois feitiços prontos mudaram, os dois porque o `Derrubado` barateou:** a `Palma Trovejante` foi de `5d8 = 22` para `6d8 = 27` e a `Vala Comum` de `9d8 = 40` para `11d8 = 49`. *A `Rede` e a `Prisão de Sombras` carregam `Atordoado`, que já era `Pesada`.*
+
+> **O Teste de Resistência no fim de cada turno, e o limite de uma por feitiço, passaram a valer para o nível `Pesada`.** *Antes valiam para as cinco `Maior`, e aquelas cinco não eram as cinco mais duras — o `Incapacitado` estava lá dentro, e ele é a segunda mais barata das catorze.*
+
+### ⚠ E a arrumação achou um erro vivo na tabela de Controle do manual
+
+**A última linha dela é um feitiço de Classe 5 que gasta tudo em Controle e sai com `0d8`, e ela publicava `Lento (+3)`.** *O `Lento` devolve `Média` desde a v7.3, que na Classe 5 são `5` pontos e não `3`* — com o preço certo aquela linha dá `2d8`, e o exemplo do `CD +2` deixava de existir. **Passou a usar `Parado (+3)`, que devolve `Leve` e vale os `3` que a conta pede.**
+
+*É o mesmo defeito que a v7.3 já tinha deixado na tabela de Ampliar: mudança de preço que não voltou nos exemplos que citavam o preço velho.*
+
+### Decidido — o `Surdo` ganhou `−2` na iniciativa, e ele é a regra do d20 de 2003
+
+***Decisão do Mizuki.*** **Ele fica comprável, continua `Leve`, e passa a dar `−2` na iniciativa.**
+
+**A `Deafened` do SRD 3.5 cobra `−4` em iniciativa, falha automática em ouvir, e `20%` de falha ao conjurar com voz.** *O 5e cortou as duas primeiras e ficou só com a terceira, e é dessa versão encolhida que o `Surdo` deste sistema tinha nascido.* **As outras duas linhas do 3.5 não entram aqui: a de ouvir já é a linha que a condição tem, e a de conjuração é o que o `Calado` faz — e ele custa `Média`.**
+
+| na iniciativa | você age antes | perde | em pontos de Destreza |
+|---|---|---|---|
+| normal | `52,50%` | — | — |
+| **`−2`, o daqui** | **`42,75%`** | **`9,75` pp** | **`2,05`** |
+| `−4`, o do 3.5 | `34,00%` | `18,50` pp | `3,89` |
+
+> **⚠ E ele continua lendo `0,00` na régua da peça 19, e isso é sobre a régua.** *A peça 15 §3.1 já publicou o contra-teste: "que fração do meu dano da rodada cai antes de o inimigo agir" dá `52,5%` em todas as montagens, porque iniciativa **reordena** o turno e não tira ação de ninguém.* **Ele deixou de não fazer nada na mesa sem deixar de ler zero no papel.**
+
+### Decidido — a trava do `Desliga` foi relaxada, e as cinco vagas fecharam
+
+***Decisão do Mizuki.*** **Um `Desliga` apaga o que ninguém comprou, e ENFRAQUECE o que alguém comprou. Nunca imunidade.**
+
+*A trava anterior dizia só "apaga o que ninguém comprou", e com ela as cinco vagas destravadas não tinham como nascer: toda condição passou a ter preço nesta mesma versão.* **O relaxamento é escrito em cima do que a régua criou** — o nível é número, então ele escolhe o degrau do relógio em vez de barrar a porta:
+
+> **`Leve` → por cena · `Média` → por dia · `Pesada` → por descanso longo.**
+
+**A fronteira com o `Ajusta` não some, e é ela que segura o relaxamento:** um `Desliga` de condição **apaga aquela vez**; um `Ajusta` de condição **põe um dado no meio**. *O `Corpo Emprestado` e o `Já Morri` continuam `Ajusta`, porque vantagem no Teste de Resistência é mexer num número de uma rolagem.*
+
+**As cinco, com os nomes e os pares escolhidos pelo Mizuki:**
+
+| Origem | Legado | apaga | relógio |
+|---|---|---|---|
+| **Descendente** | `Cabo` | ficar `Desarmado` | por cena |
+| **Restrição Celestial** | `Assinado` | ficar `Cego` | por descanso longo |
+| **Receptáculo** | `Revezamento` | ficar `Impedido` | por descanso longo |
+| **Feto** | `Talhe` | ficar `Agarrado` | por cena |
+| **Reencarnado** | `Usado` | ficar `Derrubado` | por cena |
+
+*Os cinco nomes saíram `LIVRE` na triagem, nas duas direções.* **Sobraram duas vagas, e as duas esperam peça que ainda não existe:** `objeto amaldiçoado` e `Técnica Marcial`.
+
+> **A dívida que a peça 13 marcou desde a v0.24 está paga, e o que a segurava não era trabalho.** *Ela dizia "quando equipamento fechar, a primeira coisa a fazer é voltar aqui", e ninguém voltou nem quando a peça 14 fechou na v0.48 nem quando a 19 fechou na v0.103.* **Era outra decisão: a trava proibia encostar em qualquer coisa com preço, e por isso nenhuma das cinco podia nascer.**
+
+### Adicionado — a penalidade de arma, e ela não é preço
+
+**Três documentos apontavam para cá:** a peça 14 §8 item 15, a peça 16 §9, e a própria peça 19.
+
+> **Sem treino na categoria: desvantagem na rolagem de ataque.**
+> **Sem o requisito de Força: o deslocamento cai `3 m` enquanto você a empunhar.**
+
+**A do requisito atravessou inteira do d20 de 2024, e nem o número mudou** — lá ela é de proteção: *"reduz o deslocamento de quem a veste em `10` pés, a menos que ele tenha a Força listada"*, e `10` pés são os `3 m` desta peça.
+
+**A do treino precisou de tradução, e o motivo é estrutural:** no d20 usar arma sem treino tira o bônus de proficiência, e aqui a rolagem de ataque é `d20 + Força`, sem esse termo. *Desvantagem vale `54,00` de dano por rodada, que é exatamente o `+5` do d20 — um passo abaixo do `+6`, que é o topo dele.*
+
+> **E as duas somadas custam `33,8` vezes o que a arma inteira entrega.** *`55,80` contra `1,65`.* **Ninguém paga trinta e três vezes para usar uma coisa: é porta fechada, que é o que o d20 faz também.**
+
+### Corrigido — as duas réguas de rolagem divergem `9,4` vezes, e o `4,7` media outra coisa
+
+**A v0.103 publicava, em três documentos, que a diferença entre a sua régua de rolagem e a do aliado era de `4,7` vezes.** *O `4,7` é `108 ÷ 23,00`: a razão entre as duas BASES.* **Isso é verdade e responde outra pergunta — quanto o seu escopo é maior que o do aliado.**
+
+**Lidas por ponto percentual, que é a única forma de compará-las, elas dão `2,16` contra `0,230`, e a razão é `9,39`.**
+
+| | como ela converte |
+|---|---|
+| a sua | **relativa** — `+1` são `5` pp sobre `50%`, e isso é `+10%` do que sai (peça 15 §3.3) |
+| a do aliado | **absoluta** — `X` pp viram `X%` da base |
+
+> **`9,4` = `4,7` de escopo × `2` de conversão.** *Pela conversão relativa, `1` pp num aliado valeria `0,460`.* **E o contra-teste fecha no mesmo número:** lido pela sua régua, o `Ajudar` valeria `54,00` em vez dos `5,75` publicados, e `54 ÷ 5,75` são `9,4`. *O `54,00` já está publicado no `DESENHO-manhas` para vantagem.*
+
+**Continua marcado e não consertado, e agora com o tamanho certo:** mexer nisso repreçaria o `Guiar`, o `Estampido` e o `Ajudar` de uma vez.
+
+### Decidido — a perícia livre da Origem perdeu a aprovação do mestre
+
+***Decisão do Mizuki, entre três saídas.*** **Ela continua livre, e a trava passou a ser: não pode ser uma das seis que o seu Caminho te deu.**
+
+> **E a trava não é nova.** *A peça 7 §6 publica `8 de 23` perícias treinadas por ficha desde a v0.16, e esse total só fecha se as duas da Origem não repetirem as seis do Caminho — com repetição a ficha teria `7 de 23`, que são `30%` e não os `35%` em que o §7 apoia o argumento inteiro de por que são vinte e três perícias.* **O número supunha a regra; agora ela está escrita.**
+
+**Era o último lugar da criação em que um número dependia de julgamento do mestre.**
+
+### ⚠ E o `de dez` sobreviveu sete versões em dois lugares
+
+**O `Alfaiate` entrou com a peça de equipamento e fez onze ofícios.** *A peça 7 §7 foi corrigida na hora; o §6 da mesma peça e a tabela das duas rotas da peça 8 não foram, e as duas continuaram publicando `de dez`.*
+
+> **O `conferir-criacao.py` lia aquelas linhas e conferia SÓ O NUMERADOR.** *O denominador podia envelhecer à vontade.* **É a checagem medindo pelo eixo errado, de novo — verde exatamente onde importava.** *Hoje ela lê os dois, contando o quadro da peça 7 em vez de guardar o total.*
+
+### Adicionado — o atributo padrão de cada ofício
+
+**Os onze ganharam um, e ele não foi escolhido a gosto: cada ofício herda o atributo da perícia que mora mais perto dele.** *`Arrombamento` puxa `Prestidigitação`, `Forja` puxa `Atletismo`, `Instrumento` puxa `Atuação`.*
+
+**Cinco em Destreza, três em Inteligência, duas em Essência, uma em Força — e nenhuma em Constituição.**
+
+> **A cláusula que importa é a última: o mestre troca quando a ficção pedir, e diz qual ANTES da rolagem.** *Sem ela o padrão não resolve nada — trocar depois de ver o dado é a mesma discricionariedade com um passo a mais.*
+
+### Alterado — a curva de refino mudou de casa, e o `conferir-descanso` perdeu uma contagem
+
+**A curva das três rotas saiu do `02-esqueleto/arquitetura.md` §4.3 para a peça 11 §3.** *Ela era a última fonte de progressão do projeto fora de uma peça de regra, e a peça 18 §7 registrava isso com esse nome.* **O validador não a confere contra cópia: reconstrói da regra** — começa em `1`, `+1` de graça por marco, `+1` opcional, teto `10`. *Os gates da seção 5 daquela peça são esta curva lida em três colunas.*
+
+***Decisão do Mizuki: a contagem de `por cena` da peça 10 saiu.*** *Ela nasceu na v0.62 como prova de que a palavra mais usada do projeto não tinha definição, e a definição está escrita, com checagem própria em cima.* **O total, porém, sobe toda vez que qualquer peça ganha uma entrega: acusou na v0.83, na v0.92, na v0.103 e na v0.104, e nenhuma das quatro achou defeito — achou a própria idade.** *Teste escrito contra número que sobe toda semana mente na semana seguinte.*
+
+### Os validadores
+
+**Onze checagens novas ou reescritas em sete validadores, e quarenta e duas perturbações em cópia isolada — trinta e seis que tinham de acender e seis contra-testes que tinham de ficar verdes.** *Todas acenderam, e todos os seis ficaram verdes.* **Sete perturbações atravessam o `.docx`:** perturbar o manual quer dizer mexer no gerador e rodar o `node make.js` de novo, e sem isso a perturbação não chega no validador.
+
+*Onde elas foram registradas:* **as vinte e sete do `conferir-dano.py` estão na tabela do §7 da peça 19**; as quinze restantes — quatro da tabela dos três formatos, quatro do relógio do `Desliga`, sete do quadro de perícias e ofícios — foram rodadas e não têm tabela própria ainda. *Fica anotado: peça com arnês registrado envelhece melhor que peça com arnês rodado.*
+
+| validador | o que ganhou |
+|---|---|
+| `conferir-dano.py` | a checagem 4 lê as **três tabelas de nível** do manual e cobra nome **e nível** nos dois sentidos; a 11 é a penalidade de arma; a 2 passou a reconstruir a razão entre as duas réguas de rolagem, e a cobrar que ela seja o dobro da razão das bases |
+| `conferir-legados.py` | a checagem 10 confere os doze exemplos da tabela dos três formatos contra o catálogo; a 4 cobra que todo `Desliga` de condição carregue o relógio que o nível dela pede — e o nível vem da peça 19 |
+| `conferir-nomes.py` | as catorze condições passaram a ser extraídas das três tabelas de nível; a segunda fonte que existia dentro do `.docx` **mudou de casa** e virou a peça 19, conferida pela checagem 4 do `conferir-dano.py` |
+| `conferir-criacao.py` | lê o **denominador** do quadro de perícias e ofícios, contado da peça 7; e cobra a trava da perícia livre nos três donos |
+| `conferir-pericias.py` | o atributo padrão dos onze ofícios, a distribuição em prosa contra a tabela, e a exigência de o mestre dizer antes da rolagem |
+| `conferir-aptidoes.py` | a curva das três rotas, **reconstruída da regra** e não conferida contra cópia |
+| `conferir-descanso.py` | perdeu a contagem de `por cena`, com o motivo escrito no lugar dela |
+
+---
+
 ## [0.103] — 2026-08-18
 
 **A peça de dano e condições entrou, e ela é a peça 19.** *Vinte e seis lugares em oito documentos esperavam por ela — a maior dívida estrutural do projeto — e metade dela já estava escrita, em três seções da peça 1 declaradas como guarda provisória.* **A régua que ela existia para ter não precisou ser inventada: ela estava na tabela de custo do manual.** Dezenove peças e dezenove validadores.

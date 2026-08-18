@@ -309,49 +309,28 @@ try:
                 temas += [x.strip() for x in r.cells[1].text.split('·') if x.strip()]
     CATEGORIAS['Tema'] = temas
 
-    # As doze condicoes do manual moram DENTRO da celula de prosa das duas
-    # linhas de Condicao — nao existe coluna de onde extrair, so a frase
-    # "Aplica uma: ...". Ate a v0.88 nenhuma entrava no vocabulario, e ONZE
-    # DAS DOZE saiam LIVRE na triagem; a unica que nao saia era `Lento`, e
-    # por acidente, porque ela tambem e Restricao. Foi esse buraco que
-    # deixou a Manha `Abalo` batizar de `Caido` uma condicao que o manual
-    # ja chamava de `Derrubado` — e `Caido` era o estado de 0 de vida da
-    # peca 1. Lidas do .docx, e nao copiadas para ca.
+    # As catorze condicoes do manual moram nas TRES TABELAS de nivel — uma por
+    # tier, cabecalho "Nivel <tier>". Ate a v0.88 nenhuma entrava no vocabulario,
+    # e ONZE DAS DOZE saiam LIVRE na triagem; a unica que nao saia era `Lento`, e
+    # por acidente, porque ela tambem e Restricao. Foi esse buraco que deixou a
+    # Manha `Abalo` batizar de `Caido` uma condicao que o manual ja chamava de
+    # `Derrubado` — e `Caido` era o estado de 0 de vida da peca 1.
+    #
+    # ATE A v0.103 havia DUAS fontes dentro do proprio .docx: estas tabelas e a
+    # frase "Aplica uma: ..." das duas linhas de Condicao do catalogo. A v0.104
+    # fundiu as duas Melhorias numa so e a frase perdeu a lista, entao a segunda
+    # fonte MUDOU DE CASA e nao sumiu: hoje ela e a peca 19 §3.1 a §3.3, e quem
+    # confere as duas uma contra a outra, nos dois sentidos e com o nivel junto,
+    # e a checagem 4 do conferir-dano.py. Lidas do .docx, e nao copiadas para ca.
     condicoes = []
     for t in doc.tables:
-        for r in t.rows:
-            for c in r.cells:
-                tx = c.text.strip()
-                if not tx.startswith('Aplica uma'):
-                    continue
-                corpo = re.sub(r'\(.*?\)', '', tx.split(':', 1)[1].split('.')[0])
-                for x in re.split(r',| ou ', corpo):
-                    x = x.strip()
-                    if x and x[0].isupper():
-                        condicoes.append(x)
-    CATEGORIAS['Condicao'] = condicoes
-
-    # Desde a v0.95 o manual tambem publica DUAS TABELAS com o efeito de cada
-    # condicao. Sao duas fontes para a mesma lista dentro do mesmo .docx, e a
-    # licao no 9 diz onde isso termina — entao elas se conferem uma contra a
-    # outra aqui, em vez de a gente escolher uma e torcer.
-    cond_tabela = []
-    for t in doc.tables:
         cab = t.rows[0].cells[0].text.strip()
-        if cab in ('Menor', 'Maior'):
-            cond_tabela += [r.cells[0].text.strip() for r in t.rows[1:]]
-    if cond_tabela:
-        so_prosa = sorted(set(condicoes) - set(cond_tabela))
-        so_tabela = sorted(set(cond_tabela) - set(condicoes))
-        if so_prosa:
-            erro(f'o manual lista {so_prosa} na frase "Aplica uma" e nao nas tabelas '
-                 f'de efeito — as duas listas de condicao do .docx divergiram')
-        if so_tabela:
-            erro(f'o manual lista {so_tabela} nas tabelas de efeito e nao na frase '
-                 f'"Aplica uma" — as duas listas de condicao do .docx divergiram')
-    else:
-        erro('o manual nao tem as tabelas de efeito de condicao — elas entraram na '
-             'v7.9 e esta checagem parou de conferir a segunda fonte')
+        if cab.startswith('Nível ') and len(t.rows[0].cells) == 2:
+            condicoes += [r.cells[0].text.strip() for r in t.rows[1:]]
+    CATEGORIAS['Condicao'] = condicoes
+    if not condicoes:
+        erro('o manual nao tem as tabelas de nivel de condicao — elas sao a fonte '
+             'unica da lista desde a v0.104 e esta checagem parou de conferir')
 
     # Os tres Fundamentos prontos sao paragrafos curtos logo depois do titulo.
     prontos, linhas = [], manual.split('\n')
@@ -369,10 +348,10 @@ try:
     if len(CATEGORIAS['Familia']) != 9:
         erro(f'o manual devolveu {len(CATEGORIAS["Familia"])} Familias, e sao nove — '
              f'a extracao quebrou e as checagens 1 e 4 nao valem')
-    if len(CATEGORIAS['Condicao']) < 14:
+    if len(CATEGORIAS['Condicao']) != 14:
         erro(f'o manual devolveu {len(CATEGORIAS["Condicao"])} Condicoes, e sao catorze '
-             f'desde a v7.9 — nove Menores e cinco Maiores. A extracao quebrou e a '
-             f'triagem voltou a ser cega para elas')
+             f'desde a v7.9 — seis Leve, duas Media e seis Pesada desde a v0.104. A '
+             f'extracao quebrou e a triagem voltou a ser cega para elas')
     if len(CATEGORIAS['Fundamento pronto']) != 3:
         erro(f'o manual devolveu {len(CATEGORIAS["Fundamento pronto"])} Fundamentos '
              f'prontos, e sao tres — a extracao quebrou')

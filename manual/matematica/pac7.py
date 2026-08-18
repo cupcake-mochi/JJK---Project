@@ -10,6 +10,11 @@ Mudancas v6 -> v7 refletidas aqui:
   - AQUECER virou LEVE (v7.3). E a unica Restricao de frequencia cujo custo some depois
     da rodada 1, e o personagem tem outros feiticos pra cobrir aquele turno. Devolvendo
     Media, era a melhor das quatro por larga margem. Nenhum dos 35 prontos usa Aquecer.
+  - CONDICAO (v0.104): a Condicao Menor e a Condicao Maior viraram uma Melhoria so,
+    chamada Condicao, e o preco dela e' o NIVEL da condicao (Leve/Media/Pesada) que
+    a peca 19 secao 3 publica. Dez das catorze estavam no degrau errado. Dois prontos
+    mudaram, os dois por causa do Derrubado: Palma Trovejante 5d8->6d8 e Vala Comum
+    9d8->11d8. Rede e Prisao de Sombras carregam Atordoado, que ja era Pesada.
   - CONTROLE (v7.1): o degrau da metade do teto saiu. +1 rodada so com dano <= 1/4 do
     teto; CD+2 so com dano ZERO. Motivo: Condicao Menor sozinha da exatamente 2xGrau =
     metade do teto em TODO Classe, entao o bonus antigo era automatico, nao escolha.
@@ -39,7 +44,7 @@ def check(cond,msg):
 FORMA={'Projetil':None,'Toque':None,'Explosao':'L','Aura':'L','Cone':'L','Linha':'L',
        'Cura':'M','Apoio':None,'Onda':'P','Efeito':None}
 EMBUTIDA={'Toque':('Corpo a Corpo','M'),'Aura':('Corpo a Corpo','M')}
-CONTROLE={'Condicao Menor','Condicao Maior','Terreno','Anteparo','Prende','Cerca','Puxa','Desarma o Feitico'}
+CONTROLE={'Condicao','Terreno','Anteparo','Prende','Cerca','Puxa','Desarma o Feitico'}
 FREQ={'Uma Vez','Condicional','Aquecer','Divida'}
 
 def b(nome,G,forma,mel,res,lib=False,extra=0,alma=False,livres=()):
@@ -98,7 +103,7 @@ for a in [
  ("Chicote",1,'Linha',[],[]),
  ("Perfurar",1,'Projetil',[("Precisao",'L')],[("Parado",'L')]),
  ("Golpe Cru",1,'Toque',[],[]),
- ("Palma Trovejante",2,'Cone',[("Condicao Menor: Derrubado",'M')],[("Lento",'M')]),
+ ("Palma Trovejante",2,'Cone',[("Condicao: Derrubado",'L')],[("Lento",'M')]),
  ("Lanca Negra",2,'Projetil',[("Fura",'M')],[("Lento",'M')]),
  ("Faisca em Cadeia",2,'Projetil',[("Salto",'M')],[("Gesto",'L')],False,2),
  ("Sopro",2,'Cura',[],[]),
@@ -107,10 +112,10 @@ for a in [
  ("Domo de Gelo",3,'Explosao',[("Terreno",'L'),("Maior",'L')],[("Condicional: no escuro",'L')]),
  ("Passo Cortante",3,'Toque',[("Passo",'L'),("Precisao",'L')],[]),
  ("Costura",3,'Cura',[("Limpa",'M')],[("Gesto",'L')]),
- ("Rede",3,'Explosao',[("Condicao Maior: Atordoado",'P'),("Terreno",'L')],[]),
+ ("Rede",3,'Explosao',[("Condicao: Atordoado",'P'),("Terreno",'L')],[]),
  ("Hora Morta",3,'Efeito',[("Longe",'L')],[]),
  ("Fissura",3,'Projetil',[("Toca a Alma",'L')],[],False,0,True),
- ("Prisao de Sombras",4,'Explosao',[("Condicao Maior: Atordoado",'P'),("Escolher",'M')],[("Sangra",'M')]),
+ ("Prisao de Sombras",4,'Explosao',[("Condicao: Atordoado",'P'),("Escolher",'M')],[("Sangra",'M')]),
  ("Julgamento Vertical",4,'Linha',[("Fura",'M'),("Precisao",'L')],[("Lento",'M')]),
  ("Roubo de Folego",4,'Projetil',[("Sugar",'M'),("Remate",'M')],[("Condicional: alvo que te acertou",'M')]),
  ("Passo do Espelho",4,'Toque',[("Rapido",'P'),("Passo",'L')],[("Recuo",'M')]),
@@ -119,7 +124,7 @@ for a in [
  ("Alinhavo",4,'Cura',[("Remenda",'P')],[("Gesto",'L')]),
  ("Purga Escarlate",5,'Projetil',[("Inescapavel",'M')],[]),
  ("Chuva de Agulhas",5,'Projetil',[("Rajada",'L'),("Precisao",'L')],[("Parado",'L')]),
- ("Vala Comum",5,'Explosao',[("Maior",'L'),("Condicao Menor: Derrubado",'M')],[("Lento",'M')]),
+ ("Vala Comum",5,'Explosao',[("Maior",'L'),("Condicao: Derrubado",'L')],[("Lento",'M')]),
  ("Fim de Turno",5,'Explosao',[("Escolher",'M')],[("Lento",'M')]),
  ("Segunda Vida",5,'Cura',[("Levanta",'P')],[("Uma Vez",'L'),("Gesto",'L')]),
  ("Fio Preso",5,'Efeito',[("Fica",'M')],[]),
@@ -156,19 +161,20 @@ check(3*2==6, "Fura na Classe 2 ignora 3 x 2 = 6 de RD")
 
 print("-"*168)
 print("TABELA DE AMPLIAR — Palma Trovejante completa (Cone + Derrubado + Lento) por Classe")
-print("v6 esquecia o Lento e dizia 3d8/4d8/7d8. Com a devolucao certa (e o Controle v7.1):")
-esperado={2:5,3:7,5:12}
+print("v0.104: o Derrubado e Leve. Antes disto a tabela dizia 5d8/7d8/12d8, com o Derrubado em Media.")
+esperado={2:6,3:8,5:14}
+# v0.104: o Derrubado e' nivel Leve, e o nivel E' o preco. O Lento continua Media.
 for G in (2,3,5):
-    custo=pr(G,'L')+pr(G,'M'); dev=pr(G,'M')  # v7.3: Lento virou Media
+    custo=pr(G,'L')+pr(G,'L'); dev=pr(G,'M')
     dd=3*G-max(0,custo-dev)
     ctrl="+1 rodada" if dd<=(4*G)//4 else "nada"
     prop=dd/(4*G)*100
-    print(f"  Classe {G}: {3*G} pts - Cone {pr(G,'L')} - Derrubado {pr(G,'M')} + Lento {dev} = {dd}d8 = {dano(dd)}"
+    print(f"  Classe {G}: {3*G} pts - Cone {pr(G,'L')} - Derrubado {pr(G,'L')} + Lento {dev} = {dd}d8 = {dano(dd)}"
           f"  (Controle: {ctrl}; {prop:.0f}% do teto; PE {3*G})")
     check(dd==esperado[G], f"Ampliar Classe {G}: esperado {esperado[G]}d8")
-    # v7.3: com Lento=Media a proporcao nao e mais exatamente 1/2, mas fica perto de 60%
-    # em toda Classe — e sempre bem acima do quarto. E o que o manual afirma.
-    check(55<=prop<=65, f"Ampliar Classe {G}: proporcao {prop:.0f}% fora da faixa de ~60%")
+    # v0.104: com o Derrubado em Leve a Palma sobe de ~60% para ~70% do teto —
+    # e continua bem acima do quarto, que e' o que o manual afirma.
+    check(65<=prop<=75, f"Ampliar Classe {G}: proporcao {prop:.0f}% fora da faixa de ~70%")
     check(dd>(4*G)//4, f"Ampliar Classe {G}: Palma nao alcanca o bonus de Controle")
 
 print("-"*168)

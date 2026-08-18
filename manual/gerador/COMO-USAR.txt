@@ -1,4 +1,4 @@
-GERADOR DO MANUAL — Fundamento v7.9
+GERADOR DO MANUAL — Fundamento v7.10
 
 Recria o .docx do zero. Precisa de Node.js.
 
@@ -31,6 +31,42 @@ ORDEM DAS SEÇÕES (v7)
   4 Restrições → 5 Fora de combate → 6 Liberação Máxima → 7 Técnica Máxima →
   8 Regras de ouro → 9 Progressão → 10 Feitiços prontos → 11 Para o mestre →
   Apêndice
+
+O QUE MUDOU NA v7.10
+  - AS DUAS MELHORIAS DE CONDICAO VIRARAM UMA. `Condicao Menor` (Media) e
+    `Condicao Maior` (Pesada) sairam; entrou `Condicao`, e o preco dela e o NIVEL
+    da condicao escolhida — Leve, Media ou Pesada. Decisao do Mizuki na v0.104 do
+    projeto, contra a conta da peca 19 secao 3.6.
+  - POR QUE: o manual cobrava um preco so por coisas que valem de 0,00 a 100,25 de
+    dano por rodada. DEZ das catorze estavam no degrau errado — tres baratas demais
+    (Cego, Impedido, Envenenado, que sobem para Pesada) e sete caras demais
+    (Enfeiticado desce para Media; Lento, Incapacitado, Derrubado, Agarrado,
+    Desarmado e Surdo descem para Leve). O espalhamento dentro de um degrau cai de
+    17,00x para 4,26x, que e o piso de qualquer corte em tres degraus.
+  - AS DUAS TABELAS DE EFEITO viraram TRES, recortadas por nivel, e o cabecalho de
+    cada uma passou a ser "Nivel Leve", "Nivel Media" e "Nivel Pesada". Caixa nova
+    embaixo delas explicando por que nao sao mais "menores" e "maiores".
+  - O TESTE DE RESISTENCIA no fim de cada turno do alvo, e o limite de uma por
+    feitico, passaram a valer para as de nivel PESADA. Antes valiam para as cinco
+    "Maior", e aquelas cinco nao eram as cinco mais duras — o Incapacitado estava
+    lá dentro, e ele e a segunda mais barata das catorze.
+  - LIMPA e LIMPA FUNDO trocaram de vocabulario: Limpa tira uma condicao de nivel
+    Leve ou Media, Limpa Fundo tira de qualquer nivel.
+  - RECUO passou a devolver "Leve ou Media", pelo nivel da condicao que voce
+    aceita. Nivel Pesada nao entra: Restricao nunca devolve Pesada.
+  - DOIS FEITICOS PRONTOS MUDARAM, os dois porque o Derrubado barateou de Media
+    para Leve: Palma Trovejante 5d8=22 -> 6d8=27, e Vala Comum 9d8=40 -> 11d8=49.
+    Rede e Prisao de Sombras carregam Atordoado, que ja era Pesada e continua.
+  - TABELA DE AMPLIAR refeita junto: 6d8/8d8/14d8 nas Classes 2, 3 e 5, e a
+    proporcao contra o teto sobe de ~60% para ~70%.
+  - ERRO ACHADO E CONSERTADO na tabela de Controle: a ultima linha, o feitico de
+    Classe 5 que zera o dano, publicava "Lento (+3)". O Lento devolve MEDIA desde a
+    v7.3, que na Classe 5 sao 5 pontos — com o preco certo aquela linha da 2d8 e o
+    exemplo do CD+2 deixava de existir. Passou a usar "Parado (+3)", que devolve
+    Leve e vale os 3 que a conta pede. Mesmo defeito que a v7.3 ja tinha deixado na
+    tabela de Ampliar: mudanca de preco que nao voltou nos exemplos.
+  - Estrutura: 366 paragrafos (eram 365) e 90 tabelas (eram 88). pac7.py e v7.py
+    passam. O .pdf foi exportado junto, 46 paginas.
 
 O QUE MUDOU NA v7.9
   - AS CONDICOES GANHARAM EFEITO (partD.js, bloco Controle). As doze da lista de

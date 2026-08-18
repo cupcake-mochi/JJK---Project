@@ -79,6 +79,7 @@ def ler(nome):
 
 P1 = ler('01-atributos-acerto-defesa.md')
 P6 = ler('06-caminhos-e-trilhas.md')
+P7 = ler('07-pericias-e-oficios.md')
 P8 = ler('08-criacao-de-personagem.md')
 P9 = ler('09-origens.md')
 P11 = ler('11-aptidoes-e-refino.md')
@@ -365,22 +366,56 @@ if len(rotas) != 2:
     erro(f'esperava as duas rotas do extra da Origem na peca 8 e achei {len(rotas)}')
 else:
     base_per, base_ofi = 6 + 2, 2
+    # v0.104: o DENOMINADOR tambem e conferido, e ele vem contado da peca 7 — nao
+    # escrito aqui. Ate a v0.103 esta checagem lia so o numerador, e o `de dez` da
+    # tabela sobreviveu SETE versoes depois de o Alfaiate fazer onze oficios.
+    # E' a checagem medindo pelo eixo errado: verde exatamente onde importava.
+    def _conta(cab):
+        _a = P7.find(cab)
+        if _a < 0:
+            erro(f'nao achei a secao "{cab}" na peca 7 — a contagem do quadro parou '
+                 'de conferir e o denominador voltou a poder envelhecer')
+            return -1
+        _c = P7[_a + len(cab):]
+        _f = _c.find('\n## ')
+        return len(re.findall(r'^\*\*[A-ZÀ-Ú][^*]*\*\* —',
+                              _c[:_f] if _f >= 0 else _c, re.M))
+    _per_tot = _conta('## 4. As vinte e três perícias')
+    _ofi_tot = _conta('## 5. Os onze ofícios')
     esperado = {'o ofício': (base_per, base_ofi + 1),
                 'a perícia': (base_per + 1, base_ofi)}
     for rota, (ep, eo) in esperado.items():
         r = rotas[rota]
         ok = (r['per'], r['ofi']) == (ep, eo)
-        print(f'  {"[x]" if ok else "[ ]"} pegando {rota:<10} -> '
-              f'{r["per"]} pericias e {r["ofi"]} oficios   (a soma da {ep} e {eo})')
+        okd = (r['per_tot'], r['ofi_tot']) == (_per_tot, _ofi_tot)
+        print(f'  {"[x]" if ok and okd else "[ ]"} pegando {rota:<10} -> '
+              f'{r["per"]} de {r["per_tot"]} pericias e {r["ofi"]} de {r["ofi_tot"]} '
+              f'oficios   (a soma da {ep} de {_per_tot} e {eo} de {_ofi_tot})')
         if not ok:
             erro(f'a rota "pegando {rota}" publica {r["per"]} pericias e {r["ofi"]} '
                  f'oficios, e a soma dos passos da {ep} e {eo}')
+        if not okd:
+            erro(f'a rota "pegando {rota}" publica um quadro de {r["per_tot"]} '
+                 f'pericias e {r["ofi_tot"]} oficios, e a peca 7 tem {_per_tot} e '
+                 f'{_ofi_tot} — denominador guardado a mao envelhece (licao nº 1)')
     a, b = rotas['o ofício'], rotas['a perícia']
     if a['per'] + a['ofi'] != b['per'] + b['ofi']:
         erro('as duas rotas do extra entregam quantidades diferentes de treino no '
              'total — se e para serem alternativas, elas tem que somar igual')
     else:
         print(f'  [x] as duas rotas somam o mesmo: {a["per"] + a["ofi"]} treinos')
+
+# v0.104: a pericia livre da Origem perdeu a aprovacao do mestre e ganhou trava
+# contavel — de fora das seis do Caminho. Ela mora em TRES documentos, e o
+# 8 de 23 publicado so fecha se ela valer: com repeticao a ficha teria 7.
+_trava = 'de fora das seis'
+_sem = [n for n, t in (('peca 7 §6', P7), ('peca 8, o Passo 6', P8),
+                       ('peca 9 §2', P9)) if _trava not in t]
+if _sem:
+    erro('a trava da pericia livre da Origem — "' + _trava + ' que o Caminho te deu" '
+         '— nao esta em: ' + ', '.join(_sem) + '. Sem ela o total de 8 de 23 nao fecha')
+else:
+    print('  [x] a pericia livre da Origem e travada nos tres donos, sem julgamento')
 
 if not re.search(r'\*\*São dois Testes de Resistência treinados\*\*', P8):
     erro('a peca 8 nao confere mais os dois Testes de Resistencia treinados')

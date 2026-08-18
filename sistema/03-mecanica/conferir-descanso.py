@@ -434,32 +434,16 @@ else:
     else:
         print('  [x] o degrau "por cena" tem secao propria dizendo o que conta como uma.')
 
-    # LICAO Nº 1: conte, nao guarde o total. Os dois numeros publicados na secao
-    # sao recontados da pasta, e a peca perde se divergir.
-    _alvo = os.path.join(AQUI, '13-legados.md')
-    # A PECA 10 FICA DE FORA DA CONTAGEM, e nao e detalhe: ela e a dona do
-    # relogio, entao a prosa DELA sobre "por cena" nao e um uso, e o total
-    # oscilaria a cada edicao desta secao. E a armadilha de a peca que
-    # documenta o validador conter o texto que ele procura.
-    _tot = sum(open(os.path.join(AQUI, _f), encoding='utf-8').read().count('por cena')
-               for _f in sorted(os.listdir(AQUI))
-               if _f.endswith('.md') and _f != '10-descanso-e-recuperacao.md')
-    _leg = open(_alvo, encoding='utf-8').read().count('por cena')
-    _m = re.search(r'\*\*(\d+)\s+usos de `por cena`.*?dos quais\s+(\d+)\s+no cat[áa]logo',
-                   _txt10, re.S)
-    if not _m:
-        erro('a secao nao publica mais os dois totais de "por cena" no formato que '
-             'esta checagem le — ou o texto mudou, ou ela parou de conferir em silencio')
-    else:
-        _e_tot, _e_leg = int(_m.group(1)), int(_m.group(2))
-        print(f'  contado na pasta: {_tot} usos de "por cena", {_leg} no catalogo de Legados')
-        print(f'  escrito na peca:  {_e_tot} e {_e_leg}')
-        if (_e_tot, _e_leg) != (_tot, _leg):
-            erro(f'a peca publica {_e_tot} e {_e_leg} e a pasta tem {_tot} e {_leg} — '
-                 'total guardado a mao envelhece na primeira edicao de outro '
-                 'documento (licao nº 1)')
-        else:
-            print('  [x] os dois totais publicados batem com a contagem da pasta.')
+    # A CONTAGEM DE "por cena" SAIU NA v0.104, por decisao do Mizuki.
+    # Ela nasceu na v0.62 como PROVA de que a palavra mais usada do projeto nao
+    # tinha definicao — 91 usos e nenhum documento dizendo o que ela queria dizer.
+    # A definicao foi escrita, e a checagem logo acima confere que ela continua la.
+    # O total, porem, sobe toda vez que qualquer peca ganha uma entrega: acusou na
+    # v0.83 (91->93), na v0.92 (93->96), na v0.103 e na v0.104 (96->102). Quatro
+    # acusacoes, nenhuma delas achando defeito — so a propria idade.
+    # E' o caso do "teste escrito contra numero que sobe toda semana": ele mente
+    # na semana seguinte. O que ele provava virou regra escrita, e regra escrita
+    # tem checagem propria. Ancorar em coisa que nao se move e' o conserto.
 
     # LICAO Nº 9: o 4,7 desta secao e COPIA da tabela de relogios da peca 13 SS7,
     # que e quem mede rolagens por periodo. Duas copias, e uma delas tem de ser
