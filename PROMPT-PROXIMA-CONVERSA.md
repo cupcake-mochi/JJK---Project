@@ -29,13 +29,13 @@ Projeto de RPG da Guilda (Jujutsu Kaisen), chamado **Projeto - M**. Estamos na *
 **O método que funcionou, e é o que eu recomendo repetir:**
 
 1. **Clone os dois repositórios do GitHub para dentro do container** e trabalhe lá. `git`, `python3` e os validadores rodam sem drama.
-2. **Confira o disco contra o GitHub antes de começar**, por `md5sum` arquivo a arquivo. Dá para rodar o `md5sum` na máquina dele e comparar com o do container. *Ele lê 157 arquivos numa chamada só.*
+2. **Confira o disco contra o GitHub antes de começar**, por `md5sum` arquivo a arquivo. Dá para rodar o `md5sum` na máquina dele e comparar com o do container. *Ele lê a pasta inteira numa chamada só.*
 3. **Para escrever de volta:** mande o arquivo pelo painel e depois grave no caminho do disco, com `force`. **Depois confira `md5sum` dos dois lados, arquivo a arquivo.** *A prova de que o trabalho está certo é o md5, e é ele que acha o fantasma.* **Se algum sumir, grave de novo com outro nome e `mv` por cima.**
 4. **Você não consegue apagar arquivo do mount, mas consegue MOVER, e o `mv` é a ferramenta mais útil que você tem lá.** *Mande o lixo para a pasta `_to_delete`, que é ignorada pelo git, e peça para ele apagar a pasta na mão.*
 
 ## Ordem de leitura
 
-`README.md`, em especial **"Nove lições que custaram erro"** — fonte única. Depois `sistema/ESTADO-ATUAL.md` INTEIRO (ele trunca; continue do offset). Depois `logs/CHANGELOG.md` de cima — **v0.100, v0.99 e v0.98** são as três últimas. Depois os três `DESENHO`: trilhas, caminhos e manhas.
+`README.md`, em especial **"Nove lições que custaram erro"** — fonte única. Depois `sistema/ESTADO-ATUAL.md` INTEIRO (ele trunca; continue do offset). Depois `logs/CHANGELOG.md` de cima — **v0.102, v0.101 e v0.100** são as três últimas. Depois os três `DESENHO`: trilhas, caminhos e manhas.
 
 ## Os validadores
 
@@ -47,11 +47,13 @@ cd ../..  && python3 conferir-repositorio.py
 cd manual/matematica && for v in pac7.py v7.py; do python3 "$v"; done
 ```
 
-**⚠ CINCO validadores leem o `.docx` do manual, e sem o `python-docx` eles pulam checagem.** *Eram três até a v0.96; o `conferir-atributos` entrou na v0.97 e o `conferir-progressao` na v0.99.* **A tabela de quanto cada um pula está no `README` e no `ESTADO-ATUAL`, e a v0.100 corrigiu as duas.**
+**⚠ CINCO validadores leem o `.docx` do manual, e sem o `python-docx` eles pulam checagem.** *Eram três até a v0.96; o `conferir-atributos` entrou na v0.97 e o `conferir-progressao` na v0.99.* **A tabela de quanto cada um pula está em TRÊS documentos — `README`, `ESTADO-ATUAL` e `LEIA-ME`.** *A v0.100 corrigiu duas e não achou a terceira; a v0.102 achou.*
 
 **Os cinco dizem que pularam, e dois deles só desde a v0.101** — antes disso o `conferir-nomes` e o `conferir-pericias` imprimiam `TUDO OK` estando cegos. **O `subir.sh` também acusa: validador que pulou sai como `ok*` em amarelo, com o motivo do lado.** *Mesmo assim, leia a saída em vez do código de retorno.*
 
 *No container: `pip install python-docx --break-system-packages`.*
+
+**E desde a v0.102 a contagem de checagens de cada validador tem dono, e o dono é o CÓDIGO.** *A checagem 9 conta os blocos numerados e confere contra todo documento que publica o número.* **Uma checagem = um bloco numerado; sub-bloco conta para o bloco pai.**
 
 ## NÃO RODE GIT NA PASTA DELE
 
@@ -73,11 +75,11 @@ Uma ideia por parágrafo, frase curta. Nada de ponteiro de seção no meio da fr
 
 # ⚠⚠ A LIÇÃO DESTA LEVA
 
-**Uma peça pode se contradizer sozinha, e nada acusa.**
+**Achar duas cópias de um número e consertar as duas não prova que eram duas.**
 
-**A peça 11 pedia, na lista de pendências, as quatro anti-domínio que a seção 6.5 dela publica desde a v0.29.** *E a abertura da seção 6, no mesmo arquivo, já dizia que elas saíram naquela versão.* **A peça 13 fez o mesmo em três itens.**
+*A v0.100 corrigiu a contagem de validadores que leem o manual — de três para cinco — no `README` e no `ESTADO-ATUAL`.* **Existia uma terceira, no `LEIA-ME`, com os mesmos números velhos.** *A v0.102 achou, duas versões depois.*
 
-*A leitura fácil era "lista velha aponta para fora e envelhece devagar". É pior:* **uma lista que ninguém lê não envelhece, ela para.** *Onze itens vivos pediam coisa que já existe, e o mais velho estava assim havia sessenta versões.*
+**É a lição nº 9 mordendo o conserto da lição nº 9.** *Quando você achar um número em dois lugares, procure o terceiro antes de fechar — `grep` no repositório inteiro, não nos documentos que você lembrou.*
 
 # E A SEGUNDA, QUE É DE MÉTODO
 
@@ -86,6 +88,12 @@ Uma ideia por parágrafo, frase curta. Nada de ponteiro de seção no meio da fr
 *Perturbar uma peça também deixa a cópia dela na entrega velha, e isso acende a checagem 7.* **Duas perturbações da checagem 8 saíam "acende" sem a checagem 8 ter acusado nada.** *Com o veredito lido da checagem certa, duas das quatro sub-regras não acendiam.*
 
 **Leia o veredito da checagem que você está testando, nunca o do programa.**
+
+# E A TERCEIRA, QUE É DE DESENHO
+
+**Uma peça pode se contradizer sozinha, e nada acusa.**
+
+*A peça 11 pedia, na lista de pendências, as quatro anti-domínio que a seção 6.5 dela publica desde a v0.29 — e a abertura da seção 6, no mesmo arquivo, já dizia que elas saíram.* **A peça 13 fez o mesmo em três itens.** *Uma lista que ninguém lê não envelhece: ela para.*
 
 ---
 
@@ -97,7 +105,9 @@ Uma ideia por parágrafo, frase curta. Nada de ponteiro de seção no meio da fr
 
 **v0.100 — as listas "Em aberto" mentiam em onze lugares.** *Riscados os onze, mais cinco fora das peças, mais quatro pendências que continuavam abertas com o motivo escrito errado.* **Nasceu a checagem 8**, com quatro sub-regras e nove perturbações. *E a contagem de validadores que leem o manual saiu de três para cinco em dois documentos.*
 
-**v0.101 — três lugares diziam verde escondendo que não conferiram.** *O `subir.sh` jogava a saída do validador fora e imprimia só `FALHA`; dois validadores imprimiam `TUDO OK` sem ter aberto o manual.* **Os três consertados, e o `subir.sh` passou a marcar com `ok*` amarelo quem pulou checagem.**
+**v0.101 — três lugares diziam verde escondendo que não conferiram.** *O `subir.sh` jogava a saída do validador fora e imprimia só `FALHA`; dois validadores imprimiam `TUDO OK` sem ter aberto o manual.* **Os três consertados, e o `subir.sh` passou a marcar com `ok*` amarelo quem pulou checagem.** *E o parágrafo do mount do `README` estava dando a saída errada desde a v0.28.*
+
+**v0.102 — o quick-start foi abandonado, e a contagem de checagens ganhou dono.** *Decisão dele: o texto de mesa vai direto para o PDF, e a promessa do quick-start saiu de oito lugares.* **Nasceu a checagem 9**, a única do projeto em que o dono do número é o código.
 
 ---
 
@@ -138,6 +148,7 @@ A **fatia** é `5,08` de dano por rodada. A Trilha leva `5` e o Caminho leva `3`
 
 - **Duas vagas de `Desliga` destravaram na v0.59 e ninguém voltou.** *Elas esperavam a ferramenta amaldiçoada — a `Armaria` do Descendente e a Restrição Celestial —, e a peça 16 registra que destrava as duas.* **Escrever as duas é trabalho, não conserto de texto.**
 - **Quem é a próxima peça está escrito de dois jeitos.** *A fila do `ESTADO-ATUAL` diz Trilhas; a peça 16 diz que a Técnica Marcial é a peça seguinte.* **É pergunta para ele.**
+- **O PDF vai ter as primeiras páginas jogáveis, ou é o livro inteiro na ordem que fizer sentido?** *O dossiê de metodologia pede a primeira coisa como trava de arquitetura, e o argumento de lá não é sobre ter dois arquivos — é sobre alguém conseguir jogar antes de ler tudo.* **Abandonar o quick-start não respondeu isso, e é pergunta para ele.**
 - **A perícia livre da Origem** — último lugar da criação em que um número depende de julgamento do mestre.
 - **Como a `Torrente` cobra o segundo feitiço da rodada**, contra a regra de ouro no 6.
 - **O ofício não passa no filtro multi-mestre.** *Conserto escrito: tabela com o atributo padrão de cada um.*
