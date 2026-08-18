@@ -11,17 +11,24 @@ os changelogs e a pasta do sistema — e havia 104 referencias internas cruzadas
 Uma referencia quebrada nao falha nenhum validador: ela so' aparece seis meses
 depois, quando alguem abre o projeto em outro computador e nao acha o arquivo.
 
-Cinco checagens:
+Oito checagens:
   1. ESTRUTURA — as pastas e os arquivos que o README promete existem.
   2. REFERENCIA MORTA — todo caminho citado em .md e .py resolve para um arquivo
      de verdade.
   3. ESTRUTURA ANTIGA — nada continua apontando para RPG-JJK/ ou para o manual na
      raiz, que era onde eles moravam antes.
-  5. PONTEIRO DE SECAO — todo "peca N §M" citado aponta para uma secao que
-     existe de verdade. A checagem 2 confere o ARQUIVO e passa por baixo desta.
   4. NUMERO COM DOIS DONOS — a versao do projeto e a versao do manual moram cada
      uma em meia duzia de arquivos. Cada uma tem UM dono declarado, e toda copia
      e' conferida contra ele.
+  5. PONTEIRO DE SECAO — todo "peca N §M" citado aponta para uma secao que
+     existe de verdade. A checagem 2 confere o ARQUIVO e passa por baixo desta.
+  6. O MAPA — a tabela "Onde cada coisa esta" do ESTADO-ATUAL contra a pasta.
+  7. A ENTREGA — o recorte de finalizado/ contra a fonte, byte a byte, e os
+     ponteiros dele resolvidos contra a arvore DA ENTREGA.
+  8. PENDENCIA MORTA — nenhum item de "Em aberto" pede coisa que ja existe.
+
+O numero delas nao esta escrito em lugar nenhum alem desta linha: contagem
+copiada envelhece na versao seguinte, e esta lista ja disse "cinco" com sete.
 
 A checagem 4 nasceu na v0.33 e e' a licao no 9 aplicada a ela mesma. O que ela
 teria pego, se existisse:
@@ -33,8 +40,10 @@ teria pego, se existisse:
   - o arquitetura.md dizendo v7.6.
 
 Roda da raiz do repositorio, sem argumento. Sai com codigo 1 se algo quebrar.
-Ele NAO precisa de python-docx e NAO le o .docx — entao, ao contrario dos tres
-de 03-mecanica, nao existe jeito de ele sair verde tendo pulado checagem.
+Ele NAO precisa de python-docx e NAO le o .docx — entao, ao contrario dos CINCO
+de 03-mecanica que leem, nao existe jeito de ele sair verde tendo pulado
+checagem por falta da biblioteca. A checagem 7 pula quando finalizado/ nao
+existe, e ela DIZ que pulou.
 """
 import os
 import re
@@ -687,6 +696,215 @@ else:
     print()
     print('  A entrega e artefato e nao tem validador proprio. Esta checagem e a unica')
     print('  coisa do projeto que atravessa os dois repositorios.')
+
+
+# --- checagem 8: a lista "Em aberto" contra o que ja existe. -----------------
+# Nasceu na v0.100. As secoes "Em aberto" das dezoito pecas somavam 72 itens vivos
+# e pelo menos onze deles ja tinham fechado — dois DENTRO da propria peca: a peca
+# 11 §9 pedia as quatro anti-dominio que a §6.5 dela publica desde a v0.29, e a
+# peca 13 §10 pedia um conserto que a §9 dela mesma tinha aplicado na v0.39.
+#
+# Nenhum validador lia essas secoes, e por isso elas nao envelheciam devagar:
+# elas paravam. Uma lista de pendencia que mente e' pior que nenhuma, porque ela
+# manda trabalhar no que ja esta feito e esconde o que falta no meio.
+#
+# A regra, em uma frase: UM ITEM DE PENDENCIA NAO PODE TER COMO ASSUNTO — nem
+# esperar, nem pedir validador de — COISA QUE JA EXISTE NA PASTA.
+#
+# ESCOPO, e ele e' a metade dificil. A licao da v0.98 e' que uma checagem que
+# resolve referencia contra uma arvore MAIOR que o objeto conferido passa de
+# graca; aqui o risco e' o contrario — escopo estreito demais tambem passa de
+# graca. As duas guardas embaixo sao contra isso: as dezoito pecas TEM de ter
+# secao de pendencia, e o total de linhas vivas tem de ser maior que zero.
+#
+# O que NAO conta como item vivo, e cada exclusao tem motivo:
+#   - linha com `~~`            : riscada e' fechada, e e' a convencao da casa
+#   - o corpo de um item riscado: a tabela de especificacao segue o item dono
+#   - linha comecando com `>`   : a v0.81 declarou `>` como historia
+#   - linha que diz "fechad/fechou/resolvid" e nao diz "falta": ela se declara
+#   - dentro de secao de FILA   : so linha de tabela; o resto e' argumento
+print()
+bloco('8. PENDENCIA MORTA — item de "Em aberto" apontando para coisa que existe')
+
+import unicodedata as _ud
+
+
+def _sa(t):
+    t = _ud.normalize('NFD', t)
+    return ''.join(c for c in t if _ud.category(c) != 'Mn').lower()
+
+
+_STOP = set('a o e de da do das dos que em no na nos nas um uma uns umas ao aos '
+            'as os por para com sem'.split())
+
+
+def _pal(t):
+    t = re.sub(r'[^a-z0-9 ]', ' ', re.sub(r'[`*_~\[\]()#|>]', ' ', _sa(t)))
+    return {w for w in t.split() if w and w not in _STOP and len(w) > 1}
+
+
+_CAB_PEND = re.compile(r'em aberto|o que fica para|destrava|o que nao existe|'
+                       r'a fila|o que falta\b')
+_SO_TABELA = re.compile(r'a fila')
+_ITEM = re.compile(r'^\s{0,3}(?:[-*]|\d+\.)\s+\S')
+_FECHADO = re.compile(r'fechad|fechou|fecharam|resolvid|respondid|escrito na v|corrigid')
+_FALTA = re.compile(r'\bfalta\b|nao existe|precisa ter|precisa de|que sai junto|'
+                    r'checagens que ele precisa')
+_BLOQUEIO = re.compile(r'travad|ate a |ate o |enquanto|bloquead|depende de|espera|'
+                       r'nao existe|falta')
+
+
+def _secoes_pendencia(txt):
+    out, atual, buf = [], None, []
+    for l in txt.split('\n'):
+        if re.match(r'^#{2,4} ', l):
+            if atual:
+                out.append((atual, buf))
+            atual, buf = (l if _CAB_PEND.search(_sa(l)) else None), []
+        elif atual is not None:
+            buf.append(l)
+    if atual:
+        out.append((atual, buf))
+    return out
+
+
+def _linhas_vivas(linhas, solto, so_tabela):
+    morto, saida = False, []
+    for l in linhas:
+        if _ITEM.match(l):
+            morto = l.lstrip().lstrip('-*0123456789. ').startswith('~~')
+        if morto or '~~' in l:
+            continue
+        if l.lstrip().startswith('>'):
+            continue
+        if re.match(r'^\s*\|\s*[-: ]+\|', l):
+            continue
+        tab = l.lstrip().startswith('|')
+        _sl = _sa(l)
+        # so' em TABELA: a celula de estado declara "fechado" e a linha inteira
+        # e' registro. Em item de lista a convencao da casa e' o `~~`, e ler
+        # "fechou" no meio da prosa de um item VIVO o apagaria em silencio.
+        if tab and _FECHADO.search(_sl) and not _FALTA.search(_sl):
+            continue
+        if so_tabela and not tab:
+            continue
+        if solto:
+            if l.strip() and not l.startswith('#'):
+                saida.append(l)
+        elif _ITEM.match(l) or tab:
+            saida.append(l)
+    return saida
+
+
+def _assunto(l, solto=False):
+    """O SUJEITO do item — e ele muda de forma com a forma da linha."""
+    if solto:
+        return l                                     # prosa: a frase inteira
+    if l.lstrip().startswith('|'):
+        for c in [c.strip() for c in l.strip().strip('|').split('|')]:
+            if c and not re.fullmatch(r'~*\d+~*', c):
+                return c                             # tabela: a 1a celula com texto
+        return ''
+    m = re.search(r'\*\*(.+?)\*\*', l)
+    return m.group(1) if m else l                    # item: o primeiro negrito
+
+
+_MEC8 = os.path.join(RAIZ, 'sistema', '03-mecanica')
+_P8 = sorted(f for f in os.listdir(_MEC8) if re.match(r'^\d\d-.*\.md$', f))
+_V8 = sorted(f for f in os.listdir(_MEC8) if re.match(r'^conferir-.*\.py$', f))
+_SLUG8 = {f: _pal(f[3:-3].replace('-', ' ')) for f in _P8}
+_TOPICO8 = {v: _sa(v[len('conferir-'):-3]) for v in _V8}
+
+
+def _dono8(nome):
+    """O validador dono de uma peca, DERIVADO do slug — sem tabela escrita."""
+    if nome not in _SLUG8:
+        return None
+    partes = nome[3:-3].split('-')
+    for i in range(len(partes), 0, -1):
+        c = 'conferir-' + '-'.join(partes[:i]) + '.py'
+        if c in _V8:
+            return c
+    for p in partes:
+        c = f'conferir-{p}.py'
+        if c in _V8:
+            return c
+    return None
+
+
+_MANUAL8 = re.search(r'v(7\.\d+)', open(os.path.join(
+    RAIZ, 'manual', 'gerador', 'COMO-USAR.txt'), encoding='utf-8').readline()).group(1)
+
+_ALVOS8 = [('sistema/03-mecanica/' + p, p) for p in _P8] + \
+          [('sistema/ESTADO-ATUAL.md', None), ('README.md', None)]
+
+_mortas, _n_sec, _n_vivas, _sem_secao = [], 0, 0, []
+for _rel8, _peca8 in _ALVOS8:
+    _txt8 = open(os.path.join(RAIZ, _rel8), encoding='utf-8').read()
+    _secs8 = _secoes_pendencia(_txt8)
+    if _peca8 and not _secs8:
+        _sem_secao.append(_peca8)
+    for _tit8, _lins8 in _secs8:
+        _n_sec += 1
+        _solto8 = 'o que nao existe' in _sa(_tit8)
+        for _l8 in _linhas_vivas(_lins8, _solto8, bool(_SO_TABELA.search(_sa(_tit8)))):
+            _n_vivas += 1
+            _sl8 = _sa(_l8)
+            _suj8 = _assunto(_l8, _solto8)
+            _w8 = _pal(_suj8)
+            _corte = _l8.strip()[:70]
+            # 8a — o item pede validador, e o validador existe
+            if 'validador' in _sl8 and _FALTA.search(_sl8):
+                _alvo8 = _dono8(_peca8) if _peca8 else None
+                if not _alvo8:
+                    for _v8, _t8 in _TOPICO8.items():
+                        if re.search(r'\b' + re.escape(_t8), _sa(_suj8)):
+                            _alvo8 = _v8
+                            break
+                if _alvo8:
+                    _mortas.append((_rel8, '8a', f'o {_alvo8} existe', _corte))
+            # 8b — o item esta travado por versao do manual que ja passou
+            _m8 = re.search(r'manual v(7\.\d+)', _sl8)
+            if _m8 and _BLOQUEIO.search(_sl8) and \
+                    float(_m8.group(1)[2:]) <= float(_MANUAL8[2:]):
+                _mortas.append((_rel8, '8b', f'o manual esta na v{_MANUAL8}', _corte))
+            # 8c — o assunto do item e uma peca que ja existe
+            for _pf8, _pw8 in _SLUG8.items():
+                if _pf8 != _peca8 and _pw8 and _pw8 <= _w8:
+                    _mortas.append((_rel8, '8c', f'a {_pf8} existe', _corte))
+                    break
+            # 8d — o item espera uma peca que ja existe
+            for _esp8 in re.findall(r'espera[m]?\s+([^,;.|)]+)', _sl8):
+                _we8 = _pal(_esp8)
+                for _pf8, _pw8 in _SLUG8.items():
+                    if _pf8 != _peca8 and _pw8 and _pw8 <= _we8:
+                        _mortas.append((_rel8, '8d', f'a {_pf8} existe', _corte))
+                        break
+
+print(f'  {_n_sec} secoes de pendencia, {_n_vivas} linhas vivas, '
+      f'manual na v{_MANUAL8}.')
+if _sem_secao:
+    erro(f'8: {len(_sem_secao)} peca(s) sem secao de pendencia nenhuma: '
+         + ', '.join(_sem_secao)
+         + ' — ou a peca perdeu a secao, ou o cabecalho mudou de forma e esta '
+           'checagem parou de conferir')
+elif _n_vivas < len(_P8):
+    erro(f'8: so {_n_vivas} linha(s) viva(s) em {len(_P8)} pecas — o extrator '
+         'mudou de forma e esta checagem parou de conferir')
+else:
+    print(f'  [x] as {len(_P8)} pecas tem secao de pendencia, e o extrator acha '
+          'linha viva em todas')
+
+if _mortas:
+    for _r8, _q8, _pq8, _tx8 in _mortas:
+        erro(f'PENDENCIA MORTA [{_q8}]: {_r8} — {_pq8}\n       {_tx8}')
+else:
+    print(f'  [x] nenhuma das {_n_vivas} linhas vivas pede coisa que ja existe')
+
+print()
+print('  8a pede validador que existe · 8b trava em versao do manual que passou ·')
+print('  8c tem por assunto uma peca que existe · 8d espera uma peca que existe.')
+print('  Riscar com ~~ fecha o item E o corpo dele — e' + " e' " + 'a convencao da casa.')
 
 
 # --------------------------------------------------------------------------

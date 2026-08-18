@@ -6,6 +6,115 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.100] — 2026-08-18
+
+**As listas "Em aberto" das dezoito peças estavam mentindo, e o tamanho da mentira era onze itens.** *Setenta e duas linhas vivas, e onze delas pediam coisa que já existe — duas dentro da própria peça que já publicava a resposta.* **Nasceu a checagem 8, a primeira que lê seção de pendência.** Continuam dezoito peças e dezoito validadores.
+
+> **O número da versão: `0.100` e não `1.00`.** ***Decisão do Mizuki.*** *`1.0` costuma querer dizer pronto para usar, e `04-playtest/` tem zero sessões, o quick-start não existe e faltam três Trilhas.* **O `1.0` fica reservado para quando alguém tiver jogado.**
+
+### ⚠⚠ O achado: duas peças se contradiziam sozinhas
+
+**A peça 11 §9 pedia as quatro anti-domínio, e a §6.5 dela publica as quatro desde a v0.29** — com Classe, gate, degrau por rota e custo de uso. *A abertura da §6 daquela mesma peça já dizia, com todas as letras, que elas saíram na v0.29.*
+
+**E a peça 13 §10 pedia três consertos na peça 9 que a v0.39 aplicou, e dizia que o `Instinto Bruto` estava metade morto — enquanto a §9 dela mesma publica ele consertado.** *Duas seções do mesmo arquivo, com respostas opostas.*
+
+> **Isso muda o diagnóstico.** *A leitura fácil é "lista velha aponta para fora e envelhece devagar".* **Não é isso: uma delas apontava para dentro, e a peça continha as duas metades da contradição.** *Nenhum validador lia essas seções, então elas não envelheciam — elas paravam.*
+
+### Riscado — onze itens que já tinham fechado
+
+| peça | o item pedia | fechou em |
+|---|---|---|
+| 5 | quantas Trilhas por Caminho, e em que níveis | v0.55 · v0.60 · v0.65 |
+| 5 | a tabela de armas | v0.48 — a peça 14, com as 52 |
+| 5 | quanto custa a ferramenta que canaliza sozinha | v0.59 — a peça 16 |
+| 8 | a tabela de proteção | v0.48 — a peça 14 |
+| 8 | quantas Trilhas um personagem acumula | v0.55 · v0.60 · v0.65 |
+| 11 | as quatro anti-domínio, travadas até o manual v7.7 | v0.29, e o manual está na v7.9 |
+| 11 | o número da `Barreira Simples` e da `Cortina`, e a régua da `Aptidão Própria` | v0.91 e v0.92 |
+| 13 | o validador dos Legados | v0.39 — na mesma versão da peça |
+| 13 | o `Instinto Bruto` metade morto | v0.39 — na mesma versão |
+| 13 | os três consertos que a peça 9 devia | v0.39 |
+| 14 | o validador de Equipamento | v0.48 — onze blocos |
+
+**E cinco lugares fora das peças.** *A fila do `ESTADO-ATUAL` mandava escrever a **Ferramenta amaldiçoada**, que é a peça 16 desde a v0.59, e dizia que faltava o validador dela, que tem dezesseis checagens. A fila mais velha do mesmo arquivo ainda tinha **Invocações** por escrever, e ela é a peça 15 desde a v0.58. A tabela "o que falta para uma ficha de nível 2" ainda listava **aptidões e degraus de refino**, fechados na v0.27 — riscados numa tabela e vivos em outra, no mesmo arquivo.*
+
+> **⚠ E a tabela de progressão consolidada continuava listada como coisa que não existe, no `ESTADO-ATUAL` e no `README`** — uma versão inteira depois de ela virar a peça 18. **O `README` da ENTREGA já estava certo:** ele diz *"existe desde a v0.99: é a `regra/18`"*. *O artefato estava em dia e a fonte não, que é o contrário do que a v0.98 achou.*
+
+### ⚠ Consertado — a contagem do `python-docx` estava errada em dois documentos
+
+**São CINCO validadores que leem o `.docx`, e o `README` e o `ESTADO-ATUAL` diziam três.** *Lido do código e conferido bloqueando o import:*
+
+| validador | pula | de quantas | o rodapé avisa? |
+|---|---|---|---|
+| `conferir-atributos` | 1 | 11 | sim |
+| `conferir-manual` | **4 — todas** | 4 | avisa, e sai antes do rodapé |
+| `conferir-nomes` | 3 | 5 | **NÃO — diz `TUDO OK` cego** |
+| `conferir-pericias` | 1 | 8 | **NÃO — diz `TUDO OK` cego** |
+| `conferir-progressao` | 1 | 8 | sim |
+
+**Eram três até a v0.96.** *O `conferir-atributos` entrou na v0.97 e o `conferir-progressao` na v0.99, e ninguém subiu a contagem nos dois lugares que a publicam.*
+
+> **E o `README` dizia duas coisas diferentes com nove linhas de distância:** *o comentário do `pip install` dizia **dois** e o parágrafo abaixo dizia **três**.* **A lição nº 9 acontecendo dentro do arquivo que a publica.**
+
+### Corrigido — quatro pendências que continuam abertas com o motivo errado
+
+*Elas não mentiam sobre estar abertas. Mentiam sobre por quê, e motivo errado manda procurar o defeito onde ele não está mais.*
+
+| onde | dizia | é |
+|---|---|---|
+| peça 1, a lista do zero de vida | *"a `Energia Reversa` não foi escrita"* | escrita na v0.78, na peça 11 §6 |
+| peça 9 | *"os degraus de refino também não foram escritos"* | escritos na v0.27, na peça 11 |
+| peça 9 | Técnica Marcial e Estilo da Sombra são *"a próxima peça"* | cinco peças entraram depois disso |
+| peça 15 | *"a corrente ferramenta → Técnica Marcial é a peça seguinte"* | a ferramenta saiu na v0.59; sobra a Técnica Marcial |
+
+**E o `.pdf` do manual estava escrito como v7.8 no `LEIA-ME`**, quatro versões depois de ele passar a sair junto do `.docx`. *A checagem 4 não alcança essa cópia — ela confere a versão do manual e não a do arquivo exportado.*
+
+### Adicionado — a checagem 8 do `conferir-repositorio.py`, com quatro sub-regras
+
+**A regra, em uma frase: um item de pendência não pode ter como assunto — nem esperar, nem pedir validador de — coisa que já existe na pasta.**
+
+| # | o que ela pega | como |
+|---|---|---|
+| **8a** | o item pede validador que já existe | o dono da peça é **derivado** do nome do arquivo, sem tabela escrita no código |
+| **8b** | o item está travado por versão do manual que já passou | lê a versão do dono, o `COMO-USAR.txt` do gerador |
+| **8c** | o **assunto** do item é uma peça que já existe | compara o sujeito do item com o slug de cada `NN-*.md` |
+| **8d** | o item **espera** uma peça que já existe | pega o que vem depois de *"espera"* |
+
+**O sujeito muda de forma com a forma da linha, e isso é a metade que decide:** *num item de lista é o primeiro negrito, numa tabela é a primeira célula com texto, e em prosa é a frase inteira.* **Ler a linha inteira como sujeito produz falso positivo em toda linha que cita uma peça de passagem.**
+
+**Três exclusões, cada uma com motivo escrito:** *linha com `~~` está fechada e é a convenção da casa; **o corpo de um item riscado morre com ele**, senão a tabela de especificação de um item fechado continua acusando; e linha começando com `>` é história, que a v0.81 declarou.*
+
+> **⚠ E o filtro de "fechado" quase apagou um item vivo.** *A primeira versão pulava qualquer linha que contivesse `fechou`, e o item das sete vagas de Desliga termina em "nenhuma delas abriu quando aquela peça **fechou**".* **O item sumia da checagem inteiro, em silêncio.** *Hoje o filtro só vale em linha de tabela, onde a célula de estado é que declara — em item de lista quem fecha é o `~~`.*
+
+### As nove perturbações, em cópia isolada
+
+*Com a base conferida verde na cópia antes de cada uma, e o `diff` conferido antes de ler o resultado.*
+
+| perturbação | esperado | deu |
+|---|---|---|
+| o item volta a pedir o validador dos Legados | acende | acende |
+| o item volta a travar no manual v7.7 | acende | acende |
+| o item volta a dizer que a tabela de proteção não existe | acende | acende |
+| a vaga volta a esperar a `ferramenta amaldiçoada` | acende | acende |
+| **pendência NOVA citando peça que existe só fora dela** | acende | acende |
+| uma peça perde a seção de pendência | acende | acende |
+| o extrator perde o cabeçalho | acende | acende |
+| **contra-teste:** reescrever a prosa de um item vivo sem nomear peça | verde | verde |
+| **contra-teste:** item riscado com tabela de corpo | verde | verde |
+
+> **⚠⚠ E o arnês mentiu na primeira rodada, do jeito que a lição nº 8 avisa.** *Ele lia o código de retorno do script inteiro — e perturbar uma peça também deixa a cópia dela na entrega velha, o que acende a **checagem 7**.* **Duas perturbações da checagem 8 saíam "acende" sem a checagem 8 ter acusado nada.** *Corrigido lendo o veredito da checagem 8 e não o do script; com o veredito certo, duas das quatro sub-regras não acendiam — uma por perturbação mal montada, e a outra pelo filtro de "fechado" acima.*
+
+### Em aberto
+
+- **Duas vagas de `Desliga` destravaram na v0.59 e ninguém voltou.** *Elas esperavam `ferramenta amaldiçoada` — a `Armaria` do Descendente e a Restrição Celestial — e a peça 16 §9 registra que destrava as duas.* **Escrever as duas é trabalho, não conserto de texto**, e a linha de cada uma na peça 13 continua dizendo `espera a peça de ferramenta amaldiçoada`.
+- **Quem é a próxima peça está escrito de dois jeitos.** *A fila do `ESTADO-ATUAL` diz `Trilhas`; a peça 16 §9 diz que a `Técnica Marcial` é a peça seguinte.* **As duas leituras cabem, e o projeto não pode ter duas respostas.**
+- **Dois dos cinco validadores que leem o `.docx` continuam dizendo `TUDO OK` estando cegos** — o `conferir-nomes` e o `conferir-pericias`. *Item aberto desde a v0.97, e agora com o tamanho medido.*
+- **A checagem 8 não alcança a peça 2**, que continua sendo a única peça de regra sem validador dono.
+- **A contagem de checagens de cada validador é número de dois donos e ninguém confere.** *Esta versão achou duas erradas — o `conferir-equipamento` publicado como dez sendo onze, e o `conferir-catalogo` publicado como dez num lugar e nove em outro, sendo onze.*
+- O resto da lista da v0.99 continua igual.
+
+---
+
 ## [0.99] — 2026-08-18
 
 **A tabela de progressão virou a peça 18, e ela não estava espalhada por cinco documentos: eram dez números em seis lugares.** *E um dos dez não tinha dono nenhum.* **Dezoito peças e dezoito validadores.**

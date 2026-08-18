@@ -623,8 +623,8 @@ O `arquitetura.md` sustenta: *"discricionariedade na ficção é o trabalho do m
 
 ## 9. Em aberto
 
-- **As quatro anti-domínio**, travadas até a Expansão existir no manual v7.7.
-- **O número de Barreira Simples e Cortina**, e a régua da Aptidão Própria. *A `Energia Reversa` saiu desta linha na v0.78 e está na seção 6.*
+- ~~**As quatro anti-domínio**, travadas até a Expansão existir no manual v7.7.~~ **Saíram na v0.29, e estão na seção 6.5** — as quatro com Classe, gate, degrau por rota e custo de uso. *O manual está na v7.9, e a abertura da seção 6 já dizia isso.*
+- ~~**O número de Barreira Simples e Cortina**, e a régua da Aptidão Própria.~~ **As três fecharam, e cada uma na sua seção:** a `Barreira Simples` e a `Cortina` na v0.91, na seção 6.6; a `Aptidão Própria` na v0.92, na seção 6.7. *A `Energia Reversa` já tinha saído desta linha na v0.78, e está na seção 6.* **Com elas, as catorze entradas do catálogo têm regra, gate e validador.**
 - **Se o teto de doze Passivas pesa na mesa.** O manual escolheu cinco por peso, não por orçamento — cada Passiva é uma coisa que o mestre lembra sozinho. A rota de Leque pura chega a doze, e paga por isso com zero aptidões e metade do atributo.
 - **Se alguém escolhe o Leque.** Ele é o eixo novo e o único que compra versatilidade em vez de poder. Se ninguém pegar, o aperto de espaços que ele resolve continua resolvido pela linha passiva — e aí ele sai.
 - **Se o Limiar sem número na mesa produz mestres que entregam o dobro achando que entregaram o mesmo.**

@@ -973,4 +973,4 @@ Rodada a triagem antes de escrever qualquer coisa:
 | **3 das 15 Trilhas** | `Servo`, `Matilha` e `Coro` **são** o sistema de invocação visto de dentro. As outras doze já estão desbloqueadas desde que Equipamento fechou |
 | **A peça de Trilhas** | é a última dependência dela. Com Invocações fechada, as quinze ficam escrevíveis de uma vez |
 
-**O que ela não destrava:** rota de Origem nenhuma. As nove continuam 6 jogáveis e 3 paradas — isso é da corrente de `ferramenta amaldiçoada` → `Técnica Marcial`, que é a peça seguinte na fila.
+**O que ela não destrava:** rota de Origem nenhuma. As nove continuam 6 jogáveis e 3 paradas — isso é da corrente de `ferramenta amaldiçoada` → `Técnica Marcial`. *A primeira metade saiu na v0.59, e é a peça 16; **sobra a `Técnica Marcial`**, que é a peça seguinte na fila.*

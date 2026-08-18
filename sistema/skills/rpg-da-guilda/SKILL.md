@@ -34,9 +34,9 @@ cd manual/matematica && for v in pac7.py v7.py; do python3 "$v"; done
 
 **Os dois do `manual/matematica/` fazem parte da conta.** O `subir.sh` roda os três blocos; quem seguisse só os dois primeiros rodava menos validador do que o script que decide se o commit sobe.
 
-**A armadilha que continua real: confira `PULADA=0`.** Sem `python-docx` instalado (`pip install python-docx --break-system-packages`) os três que leem o manual pulam em vez de falhar, e saem com código 0. **Um deles pula tudo:** o `conferir-manual` sai no `except ImportError` antes da primeira checagem.
+**A armadilha que continua real: confira `PULADA=0`.** Sem `python-docx` instalado (`pip install python-docx --break-system-packages`) os **cinco** que leem o manual pulam em vez de falhar, e saem com código 0. **Um deles pula tudo:** o `conferir-manual` sai no `except ImportError` antes da primeira checagem. **E dois mentem no rodapé:** o `conferir-nomes` e o `conferir-pericias` imprimem `TUDO OK` estando cegos. *Confira lendo a saída, e não o código de retorno.*
 
-*E quando for documentar quanto cada um pula, leia do código, não da saída.* A v0.38 contou pela saída, escreveu um número errado em quatro documentos, e a v0.40 achou. **Contar sintoma não é contar causa.** *O mesmo vale para descobrir quais são os três:* `grep docx` acha nove arquivos, e seis deles só têm a palavra em comentário.
+*E quando for documentar quanto cada um pula, leia do código, não da saída.* A v0.38 contou pela saída, escreveu um número errado em quatro documentos, e a v0.40 achou. **Contar sintoma não é contar causa.** *O mesmo vale para descobrir quais são:* `grep docx` acha mais arquivo do que a conta, e vários só têm a palavra em comentário — **procure a linha de `import`.** *Eram três até a v0.96 e são cinco desde a v0.99; a contagem ficou parada em três em dois documentos, e a v0.100 consertou.* **Contagem copiada envelhece: conte a pasta.**
 
 **Rode de `sistema/03-mecanica/` mesmo assim**, porque é o que o `subir.sh` faz e o que o resto da documentação supõe. *Mas o motivo virou hábito na v0.38:* até a v0.37 a documentação dizia que rodar de outro lugar fazia validador pular checagem em silêncio — hoje todos resolvem o caminho por `__file__` e a saída de `/tmp` é idêntica.
 

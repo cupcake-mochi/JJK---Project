@@ -1,8 +1,10 @@
 # Estado atual do projeto
 
-Atualizado em 18/08/2026, na v0.99 (última peça fechada: **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com dez checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 18/08/2026, na v0.100 (última peça fechada: **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.99.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezoito peças escritas** e **dezoito validadores**.
+**Versão v0.100.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezoito peças escritas** e **dezoito validadores**.
+
+> **O número pulou de `0.99` para `0.100` e não para `1.00`.** ***Decisão do Mizuki na v0.100:*** *`1.0` costuma querer dizer pronto para usar, e `04-playtest/` tem zero sessões, o quick-start não existe e faltam três Trilhas.* **O `1.0` fica reservado para quando alguém tiver jogado.**
 
 **A v0.93 fechou três pendências pequenas, e a primeira era grande por dentro.** *As duas entregas em minúscula viraram `Disparo Carregado` e `Acelerar`; o `Classe` solto da peça 11 eram **treze** lugares e não os oito contados; e o `.pdf` do manual saiu da v7.4 para a v7.8 e parou de ser exportado a mão.* **⚠ E o achado: a minúscula do `carregar` não era descuido — `Carregar` sai `OCUPADO` na triagem, é Restrição no manual.** *A pendência ficou catorze versões descrita pelo sintoma, e o sintoma não diz o que precisa ser feito.*
 
@@ -125,6 +127,7 @@ python3 conferir-legados.py      # os três formatos, a cota de Desliga, as vaga
 python3 conferir-invocacoes.py   # o teto somado, o catálogo, a régua, a morte e o orçamento
 python3 conferir-ferramenta.py   # o fundo, o gate herdado, a escada de grau, o teto na ficha
 python3 conferir-catalogo.py     # o índice das 89 entradas contra os três DESENHO da raiz
+python3 conferir-progressao.py   # as nove colunas da tabela de progressão contra os donos
 ```
 
 **Três naturezas diferentes, e vale saber qual é qual.** Onze conferem **regra** — *a fórmula deriva certo?*. *(O `conferir-equipamento.py` faltava nesta lista desde a v0.48 e entrou na v0.58 — o `subir.sh` sempre o rodou, porque varre por glob; quem rodasse à mão pelo documento rodava um a menos.)* O `conferir-criacao.py` confere **instância** — *a ficha publicada na peça 8 obedece à fórmula?* —, e nasceu na v0.34 porque os dois erros daquela versão passaram por baixo de todos os outros: a peça 8 é a única que produz uma ficha inteira, e ela envelhece toda vez que outra peça mexe num número. O `conferir-ficha.py` confere **material**, que é a cópia que vira personagem em sete mesas. E o `conferir-legados.py`, o décimo terceiro, confere **catálogo**: ele recalcula a tabela de totais da peça 13 e falha se o escrito não bater com o contado. O `conferir-invocacoes.py`, que entrou na v0.58, faz as quatro naturezas de uma vez — regra, catálogo, instância e **busca exaustiva** —, porque a peça 15 é máquina de construção e não lista.
@@ -137,11 +140,21 @@ python3 conferir-nomes.py --candidatos Vulto Matilha Bigorna
 
 **O sexto entrou na v0.26 e olha a direção que faltava.** O `conferir-nomes` pergunta *"esse nome que eu batizei já significa alguma coisa no manual?"*; o `conferir-manual` pergunta *"o manual usa alguma palavra que este sistema não tem?"*. Foi por não existir que o `Bônus de Treinamento` e o `Habilidade/Sabedoria` sobreviveram tanto tempo. Ele também confere que a **tabela de PE, a de inimigo e a coluna Rotina** — que estão copiadas dentro das peças e dos outros validadores — continuam batendo com o `.docx`.
 
-**Três precisam de `python-docx`** — `conferir-nomes`, `conferir-manual` e `conferir-pericias` —; sem ele eles **pulam** as checagens que leem o manual, em vez de falhar, e saem com código 0. Quanto cada um perde, lido do código na v0.40: **3 de 5 · 4 de 4 · 1 de 8**.
+**CINCO precisam de `python-docx`** — `conferir-atributos`, `conferir-manual`, `conferir-nomes`, `conferir-pericias` e `conferir-progressao` —; sem ele eles **pulam** as checagens que leem o manual, em vez de falhar, e saem com código 0.
+
+| validador | pula | de quantas | o rodapé avisa? |
+|---|---|---|---|
+| `conferir-atributos` | 1 — as condições contra o manual | 11 | **sim** — `OK, mas 1 checagem(ns) PULARAM` |
+| `conferir-manual` | **4 — todas.** Sai no `except ImportError` antes da primeira | 4 | avisa, e sai antes do rodapé |
+| `conferir-nomes` | 3 (as checagens 1, 3 e 4) | 5 | **NÃO — ele diz `TUDO OK` estando cego** |
+| `conferir-pericias` | 1 (a que bate contra o Fundamento) | 8 | **NÃO — ele diz `TUDO OK` estando cego** |
+| `conferir-progressao` | 1 (a checagem 7) | 8 | **sim** |
+
+> **⚠ Eram três até a v0.96, e viraram cinco sem ninguém subir a contagem.** *O `conferir-atributos` entrou na v0.97, quando o caminho de pulada dele foi consertado, e o `conferir-progressao` entrou na v0.99 junto com a peça 18.* **Lido do código e conferido bloqueando o import.** *O `README` dizia três num parágrafo e **dois** no comentário do `pip install`, nove linhas acima — duas cópias, duas respostas, dentro do arquivo que publica a lição nº 9.*
 
 > *Até a v0.39 esta linha dizia "os dois últimos" e "4, 2 e 1", e nenhuma das duas coisas era verdade.* São três, não dois, e eles não são os últimos da lista. E o `conferir-manual.py` estava escrito como o que pula menos quando é o único que **não confere absolutamente nada** sem a biblioteca: ele sai no `except ImportError` antes da primeira checagem. **Número documentado a partir da saída do programa, e não do código, envelhece assim.**
 
-> **O que mudou na v0.38:** rodar de outro diretório **não** faz mais ninguém pular checagem. Os quatro que abrem arquivo do manual resolvem por `__file__`, e de `/tmp` a saída sai idêntica com zero puladas. O `README` e o `LEIA-ME` diziam o contrário desde a v0.28 e foram corrigidos. **Continue rodando de `03-mecanica/`** — o `subir.sh` faz assim —, mas o motivo agora é hábito e não defeito. **A pulada que sobrou é a do `python-docx`, e essa é real.**
+> **O que mudou na v0.38:** rodar de outro diretório **não** faz mais ninguém pular checagem. Os cinco que abrem arquivo do manual resolvem por `__file__`, e de `/tmp` a saída sai idêntica com zero puladas. O `README` e o `LEIA-ME` diziam o contrário desde a v0.28 e foram corrigidos. **Continue rodando de `03-mecanica/`** — o `subir.sh` faz assim —, mas o motivo agora é hábito e não defeito. **A pulada que sobrou é a do `python-docx`, e essa é real.**
 
 ## As sete skills, e onde elas moram
 
@@ -266,11 +279,11 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/conferir-ficha.py` | **o material contra a regra**: as 23 perícias, os 11 ofícios, os 5 Caminhos, as 15 Trilhas e as constantes do nível 2 que a ficha imprime, contra as peças donas |
 | `03-mecanica/conferir-invocacoes.py` | as **trinta** checagens da peça 15, sem um número guardado dentro dele — e a busca exaustiva das 21.502 montagens que gastam o orçamento cheio no nível 30 |
 | `03-mecanica/17-catalogo-de-entregas.md` | **o índice das 89 entradas** — 56 entregas de Trilha, 20 degraus de Caminho e as 13 Manhas —, com a regra de contagem e o ponteiro de onde o texto de cada uma mora |
-| `03-mecanica/conferir-catalogo.py` | as **nove** checagens da peça 17, e **o primeiro validador que sai da pasta**: ele lê os três `DESENHO-*.md` da raiz |
+| `03-mecanica/conferir-catalogo.py` | as **onze** checagens da peça 17, e **o primeiro validador que sai da pasta**: ele lê os três `DESENHO-*.md` da raiz |
 | `03-mecanica/18-progressao.md` | **a tabela de progressão** — o que se ganha em cada nível, do 1 ao 30, numa tabela só. Nove das dez colunas são cópia com dono declarado; a décima, o tamanho da lista de feitiços, nasce aqui |
 | `03-mecanica/conferir-progressao.py` | as **oito** checagens da peça 18: cada coluna reconstruída a partir do dono, a fórmula dos espaços contra a tabela da peça 11, e a cópia de três fichas da peça 2 |
 | `05-material/gerador-ficha/` | o gerador da ficha (Node: `node make.js`), e os dois `.docx` que ele produz |
-| `conferir-repositorio.py` | a árvore, as referências mortas, os números que moram em mais de um documento, e — **desde a v0.54** — os **ponteiros de seção**: todo `peça N §M` citado tem de apontar para seção que existe |
+| `conferir-repositorio.py` | a árvore, as referências mortas, os números que moram em mais de um documento, os **ponteiros de seção** — todo `peça N §M` citado tem de apontar para seção que existe, desde a v0.54 —, o **mapa** desta tabela contra a pasta, a **entrega** contra a fonte, e — **desde a v0.100** — a **pendência morta**: nenhum item de "Em aberto" pode pedir coisa que já existe |
 | `99-arquivo/` | material morto, com LEIA-ME próprio. Não leia de lá para escrever peça nova |
 
 **Duas peças foram parcialmente substituídas e trazem o aviso no topo:** as seções 3 e 4 da peça 4 saíram para a peça 7, e a seção 3 e o quadro de Caminhos da peça 5 saíram para a peça 6.
@@ -542,7 +555,7 @@ Vale ter isso à mão, porque o material é grande e engana. *Medido na v0.33, e
 | ~~Tabela de proteção~~ | **fechada na v0.48**, na peça 14: Traje e Revestimento com três degraus cada, e escudo com três |
 | Regra de Pactos | é opcional na criação |
 | Trilhas com número | a Trilha é escolhida no nível 2, mas o que ela entrega chega depois |
-| Aptidões e degraus de refino | só valem do nível 6 em diante |
+| ~~Aptidões e degraus de refino~~ | **fechada na v0.27**, na peça 11 — e as quatro anti-domínio na v0.29. *Continuam valendo só do nível 6 em diante* |
 
 **O que não existe, e faz falta para alguém jogar:**
 
@@ -550,7 +563,7 @@ Vale ter isso à mão, porque o material é grande e engana. *Medido na v0.33, e
 
 | falta | tamanho do buraco |
 |---|---|
-| **Tabela de progressão consolidada** | o que você ganha em cada nível está espalhado por cinco documentos: marcos na peça 2, maestria na peça 1, refino no `arquitetura.md`, XP na peça 12, Classe e feitiço no manual |
+| ~~**Tabela de progressão consolidada**~~ | **fechada na v0.99**, na peça 18: uma tabela só, trinta linhas, nove colunas. *Ela não estava espalhada por cinco documentos — eram dez números em seis lugares, e um deles não tinha dono nenhum.* **A curva de refino das três rotas continua no `arquitetura.md` §4.3**, e é a última fonte da progressão fora de uma peça |
 | **Quick-start jogável** | decidido na v0.2 como a estrutura do material final. Não existe. As quinze peças são argumento de design, não texto de regra: ninguém senta na mesa com elas |
 | **Playtest** | `04-playtest/` está vazia. Zero sessões desde a v0.1. **Todo número do sistema é previsão** |
 
@@ -600,8 +613,8 @@ Quatro peças, e a ordem é de **dependência**, não de tamanho. A ordem que el
 | # | peça | destrava | depende de |
 |---|---|---|---|
 | ~~1~~ | ~~**Legados** — a régua de magnitude, e ~5 por Origem~~ | **fechada na v0.39** (peça 13): régua, catálogo de **81 entradas** e o `conferir-legados.py` | — |
-| ~~2~~ | ~~**Equipamento** — armas, escudos, uniformes~~ | **fechada na v0.48** (peça 14): as 52 armas com orçamento fechado, proteção, escudo, treino e requisito de Força, mais o `conferir-equipamento.py` com dez checagens | — |
-| 3 | **Invocações** — o sistema de criação | o Evocador | — |
+| ~~2~~ | ~~**Equipamento** — armas, escudos, uniformes~~ | **fechada na v0.48** (peça 14): as 52 armas com orçamento fechado, proteção, escudo, treino e requisito de Força, mais o `conferir-equipamento.py` com onze checagens | — |
+| ~~3~~ | ~~**Invocações** — o sistema de criação~~ | **fechada na v0.58** (peça 15), com o `conferir-invocacoes.py` e trinta checagens | — |
 | 4 | **Caminho, Trilhas e subtrilhas** — a árvore de cada um | o resto | **2 e 3** |
 
 ### A fila foi reordenada na v0.50, e as duas peças novas ganharam posição
@@ -611,9 +624,11 @@ Quatro peças, e a ordem é de **dependência**, não de tamanho. A ordem que el
 | # | peça | por que aqui | move o contador? |
 |---|---|---|---|
 | ~~1~~ | ~~**Invocações**~~ | **fechada na v0.58** (peça 15), com o `conferir-invocacoes.py` e trinta checagens | rotas 6/9 → 6/9 · vagas 0 de 7 |
-| 1 | **Ferramenta amaldiçoada** | destrava `Técnica Marcial` — a máquina e o catálogo fecharam na v0.55 e na v0.56, **falta o validador** | **rotas 6/9 → 8/9** · vagas 3 de 7 |
-| 2 | **Trilhas** | fecha com as quinze de uma vez, e agora nada mais a trava | toca **100% das fichas** |
-| 3 | **Objeto amaldiçoado** | a conta o pôs por último | rotas 6/9 → 6/9 · **vagas 1 de 7** |
+| ~~2~~ | ~~**Ferramenta amaldiçoada**~~ | **fechada na v0.59** (peça 16): a máquina e o catálogo saíram na v0.55 e na v0.56, e o `conferir-ferramenta.py` tem **dezesseis** checagens | **rotas 6/9 → 8/9** · vagas 3 de 7 |
+| 1 | **Trilhas** | fecha com as quinze de uma vez, e agora nada mais a trava | toca **100% das fichas** |
+| 2 | **Objeto amaldiçoado** | a conta o pôs por último | rotas 6/9 → 6/9 · **vagas 1 de 7** |
+
+> **⚠ E quem é a próxima está escrito de dois jeitos.** *Esta fila diz `Trilhas`; a peça 16 §9 diz que ela destrava a `Técnica Marcial` e que essa **é a peça seguinte**.* **As duas leituras cabem — a Técnica Marcial não estava nesta fila porque ela não existia quando a fila foi decidida —, mas o projeto não pode ter duas respostas para "o que vem agora".**
 
 > **As posições 2 e 3 ganharam rascunho na v0.54**, e os dois têm o mesmo formato do de Invocações — perguntas em ordem de dependência, com o que a conta já fecha separado do que é sabor.
 >
@@ -752,7 +767,7 @@ O motivo é o pilar 1, e está escrito na peça 5: *"se o Caminho desse dano, do
 
 | pendência | espera |
 |---|---|
-| **Sete vagas de Desliga**, declaradas na tabela em vez de preenchidas | **duas** esperam ferramenta amaldiçoada · **três** esperam dano e condições · **uma** espera objeto amaldiçoado · **uma** espera Técnica Marcial. *Reclassificadas na v0.49 — as quatro que diziam equipamento nomeavam a peça errada* |
+| **Sete vagas de Desliga**, declaradas na tabela em vez de preenchidas | **três** esperam dano e condições · **uma** espera objeto amaldiçoado · **uma** espera Técnica Marcial. *Reclassificadas na v0.49 — as quatro que diziam equipamento nomeavam a peça errada.* **⚠ E as outras duas DESTRAVARAM na v0.59** — elas esperavam ferramenta amaldiçoada, que virou a peça 16, e continuam por preencher |
 | A **Armaria** do Descendente e o **Enterrado** do Reencarnado | relidos na v0.49, e **os dois não pedem a mesma coisa**: a Armaria é `ferramenta amaldiçoada` (arma forjada, com graus) e o Enterrado é `objeto amaldiçoado` (a maldição em forma de objeto) |
 | O **Não Sou Gente** virar Passiva paga com espaço de feitiço | a decisão está tomada, a Passiva não está escrita |
 | A **máquina de criação do Sem Técnica** | Aptidão e Estilo da Sombra |

@@ -2,7 +2,7 @@
 
 **O sistema se chama `Projeto - M`**, batizado na v0.94 — era a pendência mais velha que existia aqui, aberta na v0.1. Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.99** · manual do Fundamento na **v7.9** · **dezoito peças de regra** e **dezoito validadores passando**.
+**Versão v0.100** · manual do Fundamento na **v7.9** · **dezoito peças de regra** e **dezoito validadores passando**.
 
 ---
 
@@ -75,23 +75,29 @@ Um arquivo `RASCUNHO-*.md` em `03-mecanica/` é levantamento engatilhado, não p
 ## Preparar a máquina
 
 ```bash
-pip install python-docx --break-system-packages    # dois validadores leem o .docx
+pip install python-docx --break-system-packages    # cinco validadores leem o .docx
 cd manual/gerador && npm install docx               # só se for regerar o manual
 ```
 
-Sem `python-docx`, o `conferir-nomes.py`, o `conferir-manual.py` e o `conferir-pericias.py` **pulam** as checagens que leem o manual em vez de falhar — então eles saem verdes sem terem conferido nada, com código 0. Instale antes de confiar num "OK".
+Sem `python-docx`, **cinco validadores pulam** as checagens que leem o manual em vez de falhar — então eles saem verdes sem terem conferido nada, com código 0. Instale antes de confiar num "OK".
 
-**Quanto cada um perde**, lido do código na v0.40 e conferido bloqueando o import:
+**Quanto cada um perde**, lido do código e conferido bloqueando o import:
 
-| validador | pula | de quantas |
-|---|---|---|
-| `conferir-nomes.py` | 3 (as checagens 1, 3 e 4) | 5 |
-| `conferir-manual.py` | **4 — todas.** Ele sai no `except ImportError` antes da primeira | 4 |
-| `conferir-pericias.py` | 1 (a que bate contra o Fundamento) | 8 |
+| validador | pula | de quantas | o rodapé avisa? |
+|---|---|---|---|
+| `conferir-atributos.py` | 1 (as condições contra o manual) | 11 | **sim** — `OK, mas 1 checagem(ns) PULARAM` |
+| `conferir-manual.py` | **4 — todas.** Ele sai no `except ImportError` antes da primeira | 4 | avisa, e sai antes do rodapé |
+| `conferir-nomes.py` | 3 (as checagens 1, 3 e 4) | 5 | **NÃO — ele diz `TUDO OK` estando cego** |
+| `conferir-pericias.py` | 1 (a que bate contra o Fundamento) | 8 | **NÃO — ele diz `TUDO OK` estando cego** |
+| `conferir-progressao.py` | 1 (a checagem 7) | 8 | **sim** |
+
+> **Eram três até a v0.96.** *O `conferir-atributos` entrou na v0.97, quando o caminho de pulada dele foi consertado, e o `conferir-progressao` entrou na v0.99 junto com a peça 18.* **A contagem ficou parada em três nos dois documentos que a publicam — e este arquivo dizia "dois" no comentário do `pip` e "três" no parágrafo, com nove linhas de distância.** *Duas cópias, duas respostas, dentro do arquivo que publica a lição nº 9.*
+
+> **⚠ E dois dos cinco mentem no rodapé.** *O `conferir-nomes` e o `conferir-pericias` imprimem `TUDO OK` sem terem lido o manual.* **Pôr a pulada visível nos dois é item aberto desde a v0.97.** *Confira `PULADA` lendo a saída, e não o código de retorno.*
 
 *A v0.38 registrou **4, 2 e 1**, e os três documentos repetiram. O 4 do `conferir-nomes` era a contagem da palavra `PULADA` na saída — ele imprime um aviso de resumo e mais três marcadores —, e o 2 do `conferir-manual` não bate com nada: ele **não confere nada** sem a biblioteca.* **É o que estava documentado como o que pula menos, e é o único que fica cego por inteiro.**
 
-**Rode de `sistema/03-mecanica/`.** *E a razão mudou na v0.38, então vale saber qual é.* Até a v0.37 este arquivo dizia que rodar de outro lugar fazia os três pularem checagem em silêncio — verdade medida na v0.28, e a v0.33 chegou a contar **4, 1 e 1** puladas rodando de `/tmp`. **Hoje não reproduz mais:** os quatro validadores que abrem arquivo do manual resolvem o caminho por `os.path.dirname(os.path.abspath(__file__))`, e nenhum `conferir-*.py` tem caminho relativo cru. De `/tmp` a saída sai idêntica, byte por byte, com zero puladas.
+**Rode de `sistema/03-mecanica/`.** *E a razão mudou na v0.38, então vale saber qual é.* Até a v0.37 este arquivo dizia que rodar de outro lugar fazia os três pularem checagem em silêncio — verdade medida na v0.28, e a v0.33 chegou a contar **4, 1 e 1** puladas rodando de `/tmp`. **Hoje não reproduz mais:** os cinco validadores que abrem arquivo do manual resolvem o caminho por `os.path.dirname(os.path.abspath(__file__))`, e nenhum `conferir-*.py` tem caminho relativo cru. De `/tmp` a saída sai idêntica, byte por byte, com zero puladas.
 
 O hábito continua, porque é o que o `subir.sh` faz e é o que o resto da documentação supõe. **O que não continua é a justificativa** — e um aviso que dá o motivo errado é pior que nenhum, porque ele ensina a procurar o defeito no lugar em que ele não está mais.
 
@@ -238,7 +244,9 @@ Isto não é preferência de estilo: é o que evitou os erros que estão registr
 
 **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas**, por seis das nove rotas de Origem — e sem nenhum buraco de regra que morda nessa faixa.
 
-**O que não existe, e faz falta:** uma tabela de progressão consolidada, o quick-start jogável, e o playtest. `04-playtest/` continua vazia — **zero sessões desde a v0.1, e todo número do sistema é previsão.** (`05-material/` saiu desta frase na v0.35: a ficha e o gerador dela estão lá.)
+**O que não existe, e faz falta:** o quick-start jogável e o playtest. `04-playtest/` continua vazia — **zero sessões desde a v0.1, e todo número do sistema é previsão.**
+
+> *Esta frase tinha três itens e perdeu dois.* **A pasta `05-material/` saiu na v0.35**, quando a ficha e o gerador dela entraram — **e a tabela consolidada saiu na v0.99, quando ela virou a peça 18.** *A segunda ficou uma versão inteira escrita aqui e no `ESTADO-ATUAL` depois de fechar.*
 
 A tabela de XP saiu dessa lista na v0.32 — ela era a trava nº 1 de mundo compartilhado, ficou aberta trinta versões, e hoje é a peça 12. **Com ela, o que falta para alguém sentar na mesa deixou de ser regra e passou a ser material.**
 

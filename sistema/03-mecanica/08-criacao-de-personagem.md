@@ -258,8 +258,8 @@ E a que sustenta as sete: **o mestre pode recusar mesmo quando passa em tudo.** 
 ## Em aberto
 
 - **A regra de Pactos**, que hoje é só uma trava e uma promessa.
-- **Equipamento.** A tabela de proteção não existe, então a ficha nasce **só** com a proteção 1 de cobrir-se de energia. Não trava a criação, mas trava a segunda sessão — e é ela que decide se vale a pena vestir alguma coisa, já que Traje e Revestimento **desligam** a proteção de energia — mas escudo **soma** com ela. *(Aplicado na v0.42, junto com a peça de equipamento.)*
-- **Quantas Trilhas um personagem acumula, e em que níveis.** A primeira vem no nível 2, junto do Caminho. O que ela entrega com número é a peça de Trilhas.
+- ~~**Equipamento.** A tabela de proteção não existe, então a ficha nasce **só** com a proteção 1 de cobrir-se de energia.~~ **Fechada na v0.48, na peça 14:** `Traje` e `Revestimento` com três degraus cada, e escudo com três. *A ficha continua nascendo só com a proteção 1 de cobrir-se de energia — o que mudou é que agora existe o que vestir por cima.* **Traje e Revestimento desligam a proteção de energia; o escudo SOMA com ela**, decidido na v0.42.
+- ~~**Quantas Trilhas um personagem acumula, e em que níveis.**~~ **Fechada na v0.55, na v0.60 e na v0.65:** uma Trilha por ficha, com entregas nos níveis `2 · 11 · 19 · 27`, e troca total de Trilha permitida no 11, no 19 e no 27. *A primeira continua vindo no nível 2, junto do Caminho; **o que ela entrega com número continua sendo a peça de Trilhas**, que não existe.*
 - **Se vinte a quarenta minutos é real.** É estimativa, e o playtest mede.
 
 *Resolvido e tirado daqui:* o **catálogo de Origens**, que era a maior lacuna desta peça. Ele existe desde a v0.22, na peça 9 — cinco Origens principais, uma sub-origem e duas especiais, cada uma com lista de perícias, traços e Legados. O único julgamento que sobrou na criação é a **segunda perícia da Origem**, que continua livre com aprovação.

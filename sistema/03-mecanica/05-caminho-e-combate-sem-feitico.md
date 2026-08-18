@@ -214,7 +214,7 @@ Duas coisas dele sobreviveram e valem independente dos nomes:
 
 ## 5. Em aberto
 
-- **Quantas Trilhas por Caminho**, e em que níveis elas abrem.
-- **A tabela de armas.** Quais dados, quais requisitos de Força, e se arma leve tem alguma compensação além do requisito baixo.
-- **Quanto custa uma ferramenta amaldiçoada que canaliza sozinha.** É a peça que faz o personagem sem energia existir, e ela precisa ser cara o suficiente para não virar o padrão.
+- ~~**Quantas Trilhas por Caminho**, e em que níveis elas abrem.~~ **Fechada na v0.55, na v0.60 e na v0.65:** uma Trilha por ficha, entregas nos níveis `2 · 11 · 19 · 27`, e degrau de Caminho em `2 · 7 · 15 · 30`. *O dono dos dois calendários é o `DESENHO-caminhos.md` da raiz, e a peça 6 §9 registra a mesma resposta.*
+- ~~**A tabela de armas.** Quais dados, quais requisitos de Força, e se arma leve tem alguma compensação além do requisito baixo.~~ **Fechada na v0.48, na peça 14:** as 52 armas com dado e propriedades, e o requisito de `Força 3` nos dois degraus de cima de cada escada — dezesseis de 52. *A compensação da arma leve não é o requisito baixo: é a `Fineza`, que troca Força por Destreza no acerto **e** no dano do corpo a corpo.*
+- ~~**Quanto custa uma ferramenta amaldiçoada que canaliza sozinha.** É a peça que faz o personagem sem energia existir, e ela precisa ser cara o suficiente para não virar o padrão.~~ **Fechada na v0.59, na peça 16 — e a resposta desarma a pergunta em vez de responder o preço.** Ela entrega **ferir maldição**, que é binário, e não entrega dano: fechar a distância até a Rotina no nível 30 pediria 95 de dano por rodada, que é o Fundamento inteiro e não um item. *Como ela entrega porta e não dano, **ela não pode virar o padrão do feiticeiro** — que já tem essa porta de graça pelo feitiço de Toque.*
 - **Se o feitiço de Toque tem teto próprio.** Hoje ele herda o do Fundamento, e vale conferir no validador junto com os 35 feitiços prontos.
