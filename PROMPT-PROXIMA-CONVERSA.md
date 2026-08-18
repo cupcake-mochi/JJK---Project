@@ -1,29 +1,35 @@
 # Prompt para a próxima conversa
-Escrito no fim da v0.100, contra o estado real. Cole isto inteiro numa conversa nova.
+Escrito no fim da v0.101, contra o estado real. Cole isto inteiro numa conversa nova.
 Renomeie o chat para o próximo número da sua sequência. *O último que teve nome escrito foi o **RPG - JJK15**, na v0.92.*
 
 ---
 
-Projeto de RPG da Guilda (Jujutsu Kaisen), chamado **Projeto - M**. Estamos na **v0.100**.
+Projeto de RPG da Guilda (Jujutsu Kaisen), chamado **Projeto - M**. Estamos na **v0.101**.
 
 **O número pulou de `0.99` para `0.100` e não para `1.00`, e foi decisão dele.** *`1.0` costuma querer dizer pronto para usar, e o playtest tem zero sessões.*
 
 **SÃO DOIS REPOSITÓRIOS, e a relação entre eles é de mão única.** O de TRABALHO é a fonte: `github.com/cupcake-mochi/JJK---Project`. Peças, validadores, CHANGELOG, ESTADO-ATUAL e os DESENHO moram lá. O de ENTREGA é artefato: `github.com/cupcake-mochi/JJK---PDF---RPG`, um recorte do material de mesa para o chat que vai escrever o PDF. **NADA NELE É EDITADO À MÃO, com UMA exceção: o `README.md` dele**, que não existe na fonte. Ele mora em `finalizado`, ignorado pelo `.gitignore` de lá e com `.git` próprio. **A PASTA LOCAL "Claude 2" É SEMPRE A MAIS ATUALIZADA dos dois.**
 
-> **Os dois estavam na v0.100 no disco quando isto foi escrito, e o commit é dele.** *Confira antes de começar: leia o `logs/HEAD` de dentro do `.git` de cada um como arquivo. O recorte já atrasou duas versões numa sessão só.*
+> **Os dois estavam na v0.101 no disco quando isto foi escrito, e o commit é dele.** *Confira antes de começar: leia o `logs/HEAD` de dentro do `.git` de cada um como arquivo. O recorte já atrasou duas versões numa sessão só.*
 
-## ⚠ O MOUNT — e o aviso da v0.99 NÃO reproduziu na v0.100
+## ⚠⚠ O MOUNT — leia isto antes de escrever qualquer arquivo
 
-**A v0.99 escreveu que escrever no mount dá ENOENT e que só a ponte do desktop atravessa. Na v0.100 nada disso aconteceu.** *Medido: 157 arquivos lidos por `md5sum`, 23 arquivos escritos, um arquivo movido, e o `conferir-repositorio.py` rodou inteiro na máquina dele.*
+**O arquivo fantasma existe e reproduz.** *Sintoma: `ls` e `stat` mostram tamanho e inode certos, e `open()` devolve ENOENT enquanto os vizinhos da mesma pasta abrem.* **Um validador que morre com `FileNotFoundError` num arquivo que existe é isto, e não bug de código.**
 
-**Aviso que parou de reproduzir é dívida — mas não apague este ainda**, porque a v0.99 mediu o contrário e nada explica a diferença. *O que ficou de fora do teste: a ferramenta de escrita apontada direto para o mount. Isso continua sem medida, e é justamente o que a v0.34 acusou.*
+**Ele é intermitente e ninguém sabe o que o dispara.** *Na v0.101, 23 arquivos foram gravados sem um fantasma e depois 2 de 11 viraram — e outros dois da mesma pasta, na mesma chamada, passaram.*
+
+**⚠ REESCREVER POR CIMA NÃO CONSERTA.** *O `README` disse o contrário da v0.28 até a v0.100, e é falso: a escrita nova também sai ENOENT. O `cat > arquivo` falha e o `cp` falha.*
+
+> **O que conserta é escrever com OUTRO NOME e depois `mv` por cima.** *O `mv` não precisa abrir o destino.* **Confira por md5 depois, dos dois lados.**
+
+**E o `mv` também é o jeito de tirar arquivo da pasta**, já que apagar não dá: mande para `_to_delete`, que o `.gitignore` segura, e peça para ele apagar a pasta a mão.
 
 **O método que funcionou, e é o que eu recomendo repetir:**
 
 1. **Clone os dois repositórios do GitHub para dentro do container** e trabalhe lá. `git`, `python3` e os validadores rodam sem drama.
-2. **Confira o disco contra o GitHub antes de começar**, por `md5sum` arquivo a arquivo. Dá para rodar o `md5sum` na máquina dele e comparar com o do container.
-3. **Para escrever de volta:** mande o arquivo pelo painel e depois grave no caminho do disco, com `force`. **Depois confira `md5sum` dos dois lados, arquivo a arquivo.** *A prova de que o trabalho está certo é o md5.*
-4. **Você não consegue apagar arquivo do mount, mas consegue MOVER.** *Mande o lixo para a pasta `_to_delete`, que é ignorada pelo git, e peça para ele apagar a pasta na mão.*
+2. **Confira o disco contra o GitHub antes de começar**, por `md5sum` arquivo a arquivo. Dá para rodar o `md5sum` na máquina dele e comparar com o do container. *Ele lê 157 arquivos numa chamada só.*
+3. **Para escrever de volta:** mande o arquivo pelo painel e depois grave no caminho do disco, com `force`. **Depois confira `md5sum` dos dois lados, arquivo a arquivo.** *A prova de que o trabalho está certo é o md5, e é ele que acha o fantasma.* **Se algum sumir, grave de novo com outro nome e `mv` por cima.**
+4. **Você não consegue apagar arquivo do mount, mas consegue MOVER, e o `mv` é a ferramenta mais útil que você tem lá.** *Mande o lixo para a pasta `_to_delete`, que é ignorada pelo git, e peça para ele apagar a pasta na mão.*
 
 ## Ordem de leitura
 
@@ -41,7 +47,7 @@ cd manual/matematica && for v in pac7.py v7.py; do python3 "$v"; done
 
 **⚠ CINCO validadores leem o `.docx` do manual, e sem o `python-docx` eles pulam checagem.** *Eram três até a v0.96; o `conferir-atributos` entrou na v0.97 e o `conferir-progressao` na v0.99.* **A tabela de quanto cada um pula está no `README` e no `ESTADO-ATUAL`, e a v0.100 corrigiu as duas.**
 
-**E dois deles mentem no rodapé:** o `conferir-nomes` e o `conferir-pericias` imprimem `TUDO OK` estando cegos. **Confira `PULADA` lendo a saída, não o código de retorno.** *Pôr a pulada visível nos dois é item aberto desde a v0.97.*
+**Os cinco dizem que pularam, e dois deles só desde a v0.101** — antes disso o `conferir-nomes` e o `conferir-pericias` imprimiam `TUDO OK` estando cegos. **O `subir.sh` também acusa: validador que pulou sai como `ok*` em amarelo, com o motivo do lado.** *Mesmo assim, leia a saída em vez do código de retorno.*
 
 *No container: `pip install python-docx --break-system-packages`.*
 
@@ -89,6 +95,8 @@ Uma ideia por parágrafo, frase curta. Nada de ponteiro de seção no meio da fr
 
 **v0.100 — as listas "Em aberto" mentiam em onze lugares.** *Riscados os onze, mais cinco fora das peças, mais quatro pendências que continuavam abertas com o motivo escrito errado.* **Nasceu a checagem 8**, com quatro sub-regras e nove perturbações. *E a contagem de validadores que leem o manual saiu de três para cinco em dois documentos.*
 
+**v0.101 — três lugares diziam verde escondendo que não conferiram.** *O `subir.sh` jogava a saída do validador fora e imprimia só `FALHA`; dois validadores imprimiam `TUDO OK` sem ter aberto o manual.* **Os três consertados, e o `subir.sh` passou a marcar com `ok*` amarelo quem pulou checagem.**
+
 ---
 
 # RÉGUAS QUE VALEM HOJE
@@ -128,7 +136,6 @@ A **fatia** é `5,08` de dano por rodada. A Trilha leva `5` e o Caminho leva `3`
 
 - **Duas vagas de `Desliga` destravaram na v0.59 e ninguém voltou.** *Elas esperavam a ferramenta amaldiçoada — a `Armaria` do Descendente e a Restrição Celestial —, e a peça 16 registra que destrava as duas.* **Escrever as duas é trabalho, não conserto de texto.**
 - **Quem é a próxima peça está escrito de dois jeitos.** *A fila do `ESTADO-ATUAL` diz Trilhas; a peça 16 diz que a Técnica Marcial é a peça seguinte.* **É pergunta para ele.**
-- **Os dois validadores que dizem `TUDO OK` estando cegos.**
 - **A perícia livre da Origem** — último lugar da criação em que um número depende de julgamento do mestre.
 - **Como a `Torrente` cobra o segundo feitiço da rodada**, contra a regra de ouro no 6.
 - **O ofício não passa no filtro multi-mestre.** *Conserto escrito: tabela com o atributo padrão de cada um.*
@@ -146,4 +153,12 @@ A **fatia** é `5,08` de dano por rodada. A Trilha leva `5` e o Caminho leva `3`
 
 *A v0.100 achou duas erradas de passagem: o `conferir-equipamento` publicado como dez sendo onze, e o `conferir-catalogo` publicado como dez num lugar e nove em outro, sendo onze.* **Isso é a lição nº 9 num eixo que nenhuma checagem alcança**, e a conta é barata: contar os blocos numerados de cada validador e comparar com o que os documentos afirmam.
 
-**Vale junto: pôr o `PULADA` visível no rodapé do `conferir-nomes` e do `conferir-pericias`.** *É o item mais velho da lista pequena, e ele existe desde a v0.97.*
+**É a mesma forma da checagem 4, que já compara cópia contra dono.** *A diferença é que aqui o dono é o CÓDIGO, e ninguém tinha tratado código como dono de número antes.*
+
+# ⚠⚠ E A LIÇÃO DE MÉTODO DAS DUAS ÚLTIMAS VERSÕES
+
+**Três montagens de arnês erradas em duas versões, e nenhuma delas era do código sendo testado.**
+
+*Uma lia o código de retorno do programa inteiro em vez do veredito da checagem. Outra perturbava uma peça, o que também deixa a cópia dela na entrega velha e acende outra checagem. A terceira tinha um `sed` que parou de bater depois que a versão subiu, e um `sed` que não bate produz um "não acendeu" que parece prova.*
+
+**Conferir que a perturbação rodou é parte da perturbação.** *Compare o md5 antes e depois, e leia o veredito da checagem que você está testando — nunca o do programa.*

@@ -36,6 +36,11 @@ import unicodedata
 
 FALHAS = []
 AVISOS = []
+# Checagem que nao rodou. A v0.101 fez ela existir porque o rodape dizia
+# TUDO OK sem python-docx, estando cego em tres das cinco — e um verde que
+# pulou checagem nao e' um verde. Quem registra e' cada checagem no ponto em
+# que ela desiste, entao a contagem e' DERIVADA e nao escrita aqui.
+PULADAS = []
 
 
 def erro(msg):
@@ -405,6 +410,7 @@ if manual:
     if not achou:
         print('  Nenhum nome do projeto e termo definido do manual.')
 else:
+    PULADAS.append('1. colisao para fora (sem o vocabulario do manual)')
     print('  PULADA.')
 
 # --------------------------------------------------------------------------
@@ -474,6 +480,7 @@ if manual:
     if not achou:
         print('  Nenhum nome do projeto encosta num termo do manual por uma letra.')
 else:
+    PULADAS.append('3. colisao fraca (sem o vocabulario do manual)')
     print('  PULADA.')
 
 # --------------------------------------------------------------------------
@@ -522,6 +529,7 @@ if manual:
         print('  Todo nome citado como Familia, Forma, Melhoria ou Restricao existe')
         print('  na lista correspondente do manual.')
 else:
+    PULADAS.append('4. categoria errada (sem o vocabulario do manual)')
     print('  PULADA.')
 
 # --------------------------------------------------------------------------
@@ -623,7 +631,14 @@ if FALHAS:
     if AVISOS:
         print(f'    (e {len(AVISOS)} aviso(s), que nao falham)')
     sys.exit(1)
-print('>>> TUDO OK — nenhum nome batizado colide, nenhuma categoria do manual foi')
-print('    citada errada, e nenhum termo morto sobrou fora de nota historica.')
+if PULADAS:
+    print(f'>>> OK, mas {len(PULADAS)} checagem(ns) PULARAM:')
+    for p in PULADAS:
+        print(f'    - {p}')
+    print('    O que pulou NAO foi conferido. Um verde que pulou checagem nao e')
+    print('    um verde. Instale: pip install python-docx --break-system-packages')
+else:
+    print('>>> TUDO OK — nenhum nome batizado colide, nenhuma categoria do manual foi')
+    print('    citada errada, e nenhum termo morto sobrou fora de nota historica.')
 if AVISOS:
     print(f'    {len(AVISOS)} aviso(s) acima, que nao falham o validador.')

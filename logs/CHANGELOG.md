@@ -6,6 +6,78 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.101] — 2026-08-18
+
+**Três lugares diziam verde escondendo que não conferiram, e os três foram consertados.** *O `subir.sh` jogava a saída do validador no `/dev/null` e imprimia só `FALHA`; o `conferir-nomes` e o `conferir-pericias` imprimiam `TUDO OK` sem terem aberto o manual uma vez.* **Continuam dezoito peças e dezoito validadores.**
+
+### ⚠ O que provocou: a v0.100 não commitou, e o motivo era uma linha
+
+**O `subir.sh` reprovou, disse `FALHA conferir-repositorio.py`, e parou aí.** *A causa era uma linha só: o prompt de retomada que a v0.99 escreveu citava, entre crases, um caminho que só existe dentro do container do assistente.* **A checagem 2 leu aquilo como referência de arquivo, foi procurar e não achou.**
+
+**O aviso do script mandava rodar o validador sozinho para ver o erro.** *Ele estava certo, e mesmo assim a sessão terminou sem commit — porque o motivo estava a um comando de distância e ninguém deu o comando.*
+
+> **A regra que sai disso: um script que reprova tem de dizer por quê na mesma tela.** *"Rode de novo com mais verbosidade" é a mesma coisa que não dizer.*
+
+### Alterado — o `subir.sh` guarda a saída, e usa ela dos dois lados
+
+**No vermelho, ele imprime as linhas de erro do validador direto na tela.** *As que começam com `!!`, o bloco `>>> N PROBLEMA(S)` e os itens dele.*
+
+**No verde, ele lê a mesma saída atrás de `PULADA`** — e um validador que pulou checagem sai como **`ok*` em amarelo**, com o motivo do lado.
+
+**Pular NÃO trava o commit, e isso é de propósito.** *Biblioteca que falta não é regra quebrada.* **Mas o aviso é amarelo e aparece em toda rodada**, e a linha do `pip install` só aparece quando a pulada foi por causa do `.docx` — ele não chuta a causa.
+
+### ⚠⚠ E a primeira versão disso mostrava o motivo ERRADO
+
+**Um validador que morre de exceção não imprime `!!` nem `>>>`.** *O filtro não casava com nada, e o script mostrava, como motivo da falha, um `>>> TUDO OK` que tinha sobrado de um bloco anterior da mesma saída.*
+
+**É o defeito que esta versão inteira existe para consertar, cometido dentro do conserto.** *Hoje, quando existe `Traceback` na saída — ou quando o filtro volta vazio —, ele mostra o fim da saída, e a linha de sucesso é removida em qualquer caso.*
+
+### Corrigido — os dois rodapés que mentiam, abertos desde a v0.97
+
+| validador | dizia sem `python-docx` | diz agora |
+|---|---|---|
+| `conferir-nomes` | `TUDO OK` | `OK, mas 3 checagem(ns) PULARAM`, com as três nomeadas |
+| `conferir-pericias` | `TUDO OK` | `OK, mas 1 checagem(ns) PULARAM` |
+
+**Quem registra a pulada é cada checagem, no ponto em que ela desiste** — não o `except` do import. *Então a contagem do rodapé é **derivada**, e nenhum número fica escrito dentro do validador.* **É a diferença entre contar sintoma e contar causa, que a v0.38 pagou para aprender.**
+
+> **E o `conferir-pericias` tinha um caminho mudo que ninguém tinha visto.** *A checagem 7 dele é um `if texto_manual:` sem `else`* — sem a biblioteca ela não imprimia nem `PULADA`, ela simplesmente não acontecia. **Agora ela tem o outro lado.**
+
+**Com isso os CINCO que leem o `.docx` avisam quando pulam**, e a tabela do `README` e do `ESTADO-ATUAL` foi atualizada nos dois.
+
+### As perturbações, em cópia isolada
+
+*Com a base conferida verde antes de cada uma.*
+
+| perturbação | esperado | deu |
+|---|---|---|
+| bloquear o `python-docx` | **5** validadores em `ok*`, zero falha | 5 e zero |
+| um número divergente no `README` | falha, **com a linha do erro na tela** | falha, com a linha |
+| **exceção não tratada num validador** | falha, **com o `Traceback` na tela** | falha, com o traceback |
+| **contra-teste:** mexer em prosa fora do recorte | verde | verde |
+
+> **⚠ E o arnês errou DUAS vezes antes de valer, as duas do jeito que a skill avisa.** *A primeira: o contra-teste mexia numa peça, e mexer numa peça deixa a cópia dela na entrega velha — o que acende a checagem 7. Não era o `subir.sh` errado; era o contra-teste escolhendo um arquivo que o recorte carrega.* **A segunda: depois de a versão subir para `0.101`, o `sed` da perturbação de número continuou procurando `v0.100` e não bateu — e um `sed` que não bate produz um "não acendeu" que parece prova.** *Hoje o arnês compara o md5 antes e depois e recusa a perturbação que não mudou o arquivo.*
+
+> **Três montagens de arnês erradas em duas versões, e nenhuma delas era do código sendo testado.** *A conclusão é a mesma das três: **conferir que a perturbação rodou é parte da perturbação**, e não formalidade.*
+
+### ⚠⚠ E o parágrafo do mount estava dando a saída errada desde a v0.28
+
+**Dois arquivos da raiz viraram fantasma ao serem gravados nesta versão** — `ls` e `stat` com tamanho e inode certos, e `open()` devolvendo ENOENT enquanto os vizinhos da mesma pasta abriam.
+
+**O `README` dizia, desde a v0.28, que *"qualquer escrita nova reconcilia o mount, e uma edição de uma linha basta"*.** *Medido hoje: a escrita nova também sai ENOENT.* **O `cat > arquivo` falha, o `cp` falha, e o arquivo continua fantasma.**
+
+> **O que reconcilia é escrever com OUTRO NOME e depois `mv` por cima.** *O `mv` não precisa abrir o destino.* **Conferido por md5 nos dois lados, nos dois arquivos.**
+
+**É um aviso que dava o motivo errado por setenta e três versões**, e o projeto tem uma regra escrita para isso: *um procedimento com motivo errado envelhece pior que um sem motivo nenhum.* **Corrigido no `README` e na skill.**
+
+### Em aberto
+
+- **A contagem de checagens de cada validador continua sendo número de dois donos, e ninguém confere.** *A v0.100 achou duas erradas de passagem.*
+- **Por que o fantasma pega uns arquivos e não outros continua sem explicação.** *Na mesma leva, 23 arquivos foram gravados sem um fantasma e depois 2 de 11 viraram — os dois na raiz, e outros dois da raiz na mesma chamada passaram.*
+- O resto da lista da v0.100 continua igual.
+
+---
+
 ## [0.100] — 2026-08-18
 
 **As listas "Em aberto" das dezoito peças estavam mentindo, e o tamanho da mentira era onze itens.** *Setenta e duas linhas vivas, e onze delas pediam coisa que já existe — duas dentro da própria peça que já publicava a resposta.* **Nasceu a checagem 8, a primeira que lê seção de pendência.** Continuam dezoito peças e dezoito validadores.

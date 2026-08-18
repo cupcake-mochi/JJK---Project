@@ -2,7 +2,7 @@
 
 **O sistema se chama `Projeto - M`**, batizado na v0.94 — era a pendência mais velha que existia aqui, aberta na v0.1. Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.100** · manual do Fundamento na **v7.9** · **dezoito peças de regra** e **dezoito validadores passando**.
+**Versão v0.101** · manual do Fundamento na **v7.9** · **dezoito peças de regra** e **dezoito validadores passando**.
 
 ---
 
@@ -87,13 +87,13 @@ Sem `python-docx`, **cinco validadores pulam** as checagens que leem o manual em
 |---|---|---|---|
 | `conferir-atributos.py` | 1 (as condições contra o manual) | 11 | **sim** — `OK, mas 1 checagem(ns) PULARAM` |
 | `conferir-manual.py` | **4 — todas.** Ele sai no `except ImportError` antes da primeira | 4 | avisa, e sai antes do rodapé |
-| `conferir-nomes.py` | 3 (as checagens 1, 3 e 4) | 5 | **NÃO — ele diz `TUDO OK` estando cego** |
-| `conferir-pericias.py` | 1 (a que bate contra o Fundamento) | 8 | **NÃO — ele diz `TUDO OK` estando cego** |
+| `conferir-nomes.py` | 3 (as checagens 1, 3 e 4) | 5 | sim, **desde a v0.101** |
+| `conferir-pericias.py` | 1 (a que bate contra o Fundamento) | 8 | sim, **desde a v0.101** |
 | `conferir-progressao.py` | 1 (a checagem 7) | 8 | **sim** |
 
 > **Eram três até a v0.96.** *O `conferir-atributos` entrou na v0.97, quando o caminho de pulada dele foi consertado, e o `conferir-progressao` entrou na v0.99 junto com a peça 18.* **A contagem ficou parada em três nos dois documentos que a publicam — e este arquivo dizia "dois" no comentário do `pip` e "três" no parágrafo, com nove linhas de distância.** *Duas cópias, duas respostas, dentro do arquivo que publica a lição nº 9.*
 
-> **⚠ E dois dos cinco mentem no rodapé.** *O `conferir-nomes` e o `conferir-pericias` imprimem `TUDO OK` sem terem lido o manual.* **Pôr a pulada visível nos dois é item aberto desde a v0.97.** *Confira `PULADA` lendo a saída, e não o código de retorno.*
+> **Os cinco avisam, e dois deles só desde a v0.101.** *O `conferir-nomes` e o `conferir-pericias` imprimiam `TUDO OK` sem terem lido o manual, e isso ficou aberto da v0.97 até lá.* **Quem registra a pulada é cada checagem no ponto em que ela desiste**, então a contagem do rodapé é derivada e não escrita. *E o `subir.sh` também acusa: um validador que pulou sai como `ok*` em amarelo, com o motivo do lado.*
 
 *A v0.38 registrou **4, 2 e 1**, e os três documentos repetiram. O 4 do `conferir-nomes` era a contagem da palavra `PULADA` na saída — ele imprime um aviso de resumo e mais três marcadores —, e o 2 do `conferir-manual` não bate com nada: ele **não confere nada** sem a biblioteca.* **É o que estava documentado como o que pula menos, e é o único que fica cego por inteiro.**
 
@@ -183,7 +183,11 @@ Desde a v0.33 isso inclui uma trava a mais: **subir a versão no README, no `EST
 
 > **E o que dispara o sumiço tem nome, medido na v0.34: é a ferramenta de escrita, não o bash.** Arquivo que o **bash** grava, o bash lê de volta sempre. Arquivo que a ferramenta de escrita do assistente grava fica ENOENT para o bash com frequência — aconteceu seis vezes em duas versões, e o `README.md` e o `LEIA-ME.md` caíram juntos nas três últimas. **Consequência prática: validador e script novo se escrevem pelo bash**, com `cat > arquivo <<'EOF'`, senão eles nascem invisíveis para o próprio `python3`. Para `.md`, a ferramenta serve — só é preciso reconciliar com uma segunda escrita quando o sumiço acontecer.
 
-> **O mesmo mount às vezes perde um arquivo que ele mesmo acabou de gravar.** Aconteceu com este README na v0.28: `stat` e `ls` mostravam tamanho e inode certos, e `open()` devolvia `ENOENT` — para o `head`, para o Python e para o `git` igualmente, enquanto os vizinhos na mesma pasta abriam normalmente. **O arquivo estava íntegro no disco**; quem não enxergava era o mount do sandbox. Aconteceu de novo na v0.29, com o `ESTADO-ATUAL.md`. Se um validador acusar arquivo sumido que você está vendo na tela, é isto — **qualquer escrita nova no arquivo reconcilia o mount**, e uma edição de uma linha basta. O conteúdo no seu disco nunca esteve em risco.
+> **O mesmo mount às vezes perde um arquivo que ele mesmo acabou de gravar.** Aconteceu com este README na v0.28: `stat` e `ls` mostravam tamanho e inode certos, e `open()` devolvia `ENOENT` — para o `head`, para o Python e para o `git` igualmente, enquanto os vizinhos na mesma pasta abriam normalmente. **O arquivo estava íntegro no disco**; quem não enxergava era o mount do sandbox. Aconteceu de novo na v0.29, com o `ESTADO-ATUAL.md`, e de novo na **v0.101**, em dois arquivos da raiz.
+>
+> **⚠ E a saída que este parágrafo dava até a v0.100 estava ERRADA.** *Ele dizia que "qualquer escrita nova reconcilia o mount, e uma edição de uma linha basta".* **Medido na v0.101: a escrita nova também sai ENOENT** — o `cat > arquivo` falha, o `cp` falha, e o arquivo continua fantasma.
+>
+> **O que reconcilia é escrever com OUTRO NOME e depois `mv` por cima.** *O `mv` não precisa abrir o destino, e o arquivo volta a existir com o conteúdo certo — conferido por md5 nos dois lados, nos dois arquivos.* **E o mesmo `mv` é o jeito de tirar arquivo da pasta**, já que apagar não dá: mande para `_to_delete/`, que o `.gitignore` segura, e apague a pasta a mão.
 
 ## O ciclo completo, quando o trabalho vem de um Project
 

@@ -23,6 +23,9 @@ import sys
 import unicodedata
 
 FALHAS = []
+# Checagem que nao rodou — ver o comentario igual no conferir-nomes.py. Sem
+# python-docx este validador dizia TUDO OK sem ter aberto o manual uma vez.
+PULADAS = []
 
 
 def erro(msg):
@@ -332,6 +335,9 @@ if texto_manual:
             print(f'  (declarada aceita mas nao aparece mais no manual: {n} — pode sair da lista)')
     if not achados:
         print('  Nenhum dos nomes aparece no manual.')
+else:
+    PULADAS.append('7. colisao de termo contra o Fundamento (sem o manual)')
+    print('  PULADA — nenhum nome foi batido contra o manual.')
 
 # --------------------------------------------------------------------------
 bloco('8. A ESCADA DE DIFICULDADE — o que o treino compra')
@@ -368,5 +374,12 @@ if FALHAS:
     for f in FALHAS:
         print(f'    - {f}')
     sys.exit(1)
-print('>>> TUDO OK — o quadro fecha, a fracao esta na faixa, e as colisoes que existem')
-print('    estao declaradas com motivo em vez de esquecidas.')
+if PULADAS:
+    print(f'>>> OK, mas {len(PULADAS)} checagem(ns) PULARAM:')
+    for p in PULADAS:
+        print(f'    - {p}')
+    print('    O que pulou NAO foi conferido. Um verde que pulou checagem nao e')
+    print('    um verde. Instale: pip install python-docx --break-system-packages')
+else:
+    print('>>> TUDO OK — o quadro fecha, a fracao esta na faixa, e as colisoes que existem')
+    print('    estao declaradas com motivo em vez de esquecidas.')

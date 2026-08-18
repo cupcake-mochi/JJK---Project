@@ -1,10 +1,10 @@
 # Estado atual do projeto
 
-Atualizado em 18/08/2026, na v0.100 (última peça fechada: **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 18/08/2026, na v0.101 (última peça fechada: **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.100.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezoito peças escritas** e **dezoito validadores**.
+**Versão v0.101.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezoito peças escritas** e **dezoito validadores**.
 
-> **O número pulou de `0.99` para `0.100` e não para `1.00`.** ***Decisão do Mizuki na v0.100:*** *`1.0` costuma querer dizer pronto para usar, e `04-playtest/` tem zero sessões, o quick-start não existe e faltam três Trilhas.* **O `1.0` fica reservado para quando alguém tiver jogado.**
+> **O número pulou de `0.99` para `0.100` e não para `1.00`.** ***Decisão do Mizuki:*** *`1.0` costuma querer dizer pronto para usar, e `04-playtest/` tem zero sessões, o quick-start não existe e faltam três Trilhas.* **O `1.0` fica reservado para quando alguém tiver jogado.**
 
 **A v0.93 fechou três pendências pequenas, e a primeira era grande por dentro.** *As duas entregas em minúscula viraram `Disparo Carregado` e `Acelerar`; o `Classe` solto da peça 11 eram **treze** lugares e não os oito contados; e o `.pdf` do manual saiu da v7.4 para a v7.8 e parou de ser exportado a mão.* **⚠ E o achado: a minúscula do `carregar` não era descuido — `Carregar` sai `OCUPADO` na triagem, é Restrição no manual.** *A pendência ficou catorze versões descrita pelo sintoma, e o sintoma não diz o que precisa ser feito.*
 
@@ -146,8 +146,8 @@ python3 conferir-nomes.py --candidatos Vulto Matilha Bigorna
 |---|---|---|---|
 | `conferir-atributos` | 1 — as condições contra o manual | 11 | **sim** — `OK, mas 1 checagem(ns) PULARAM` |
 | `conferir-manual` | **4 — todas.** Sai no `except ImportError` antes da primeira | 4 | avisa, e sai antes do rodapé |
-| `conferir-nomes` | 3 (as checagens 1, 3 e 4) | 5 | **NÃO — ele diz `TUDO OK` estando cego** |
-| `conferir-pericias` | 1 (a que bate contra o Fundamento) | 8 | **NÃO — ele diz `TUDO OK` estando cego** |
+| `conferir-nomes` | 3 (as checagens 1, 3 e 4) | 5 | sim, **desde a v0.101** |
+| `conferir-pericias` | 1 (a que bate contra o Fundamento) | 8 | sim, **desde a v0.101** |
 | `conferir-progressao` | 1 (a checagem 7) | 8 | **sim** |
 
 > **⚠ Eram três até a v0.96, e viraram cinco sem ninguém subir a contagem.** *O `conferir-atributos` entrou na v0.97, quando o caminho de pulada dele foi consertado, e o `conferir-progressao` entrou na v0.99 junto com a peça 18.* **Lido do código e conferido bloqueando o import.** *O `README` dizia três num parágrafo e **dois** no comentário do `pip install`, nove linhas acima — duas cópias, duas respostas, dentro do arquivo que publica a lição nº 9.*

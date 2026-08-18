@@ -64,42 +64,81 @@ echo
 echo "=== 1. os validadores ==="
 
 falhou=0
+pulou=0
+motivos_pulo=""
+
+# Ate a v0.100 este bloco jogava a saida no /dev/null e imprimia so' "FALHA".
+# O motivo ficava a um comando de distancia — e da ultima vez que um validador
+# reprovou, a causa era UMA linha: o prompt de retomada citava um caminho que
+# so' existe dentro do container do assistente. Ler isso custou uma sessao.
+#
+# Agora a saida e' guardada em toda rodada, e ela e' usada nos dois lados:
+# no vermelho o motivo aparece na hora, e no verde ela e' lida atras de
+# PULADA — que e' o verde que nao e' verde.
+rodar_validador() {
+    saida_val=""
+    if saida_val="$(python3 "$1" 2>&1)"; then
+        # o `grep -v` tira o marcador nu que alguns imprimem dentro do bloco
+        # da checagem — ele diz que pulou e nao diz o que, e enche a tela
+        pulos="$(printf '%s\n' "$saida_val" | grep -i 'PULAD' \
+                 | grep -viE '^[[:space:]]*~*[[:space:]]*PULADA\.?[[:space:]]*$' | head -4)"
+        if [ -n "$pulos" ]; then
+            amarelo "  ok*   $1 — mas PULOU checagem:"
+            printf '%s\n' "$pulos" | sed 's/^ */    | /'
+            motivos_pulo="$motivos_pulo$pulos"
+            pulou=1
+        else
+            printf '  ok    %s\n' "$1"
+        fi
+    else
+        vermelho "  FALHA $1 — e ele disse isto:"
+        # as linhas de erro que os validadores imprimem, sem a linha de sucesso
+        motivo="$(printf '%s\n' "$saida_val" \
+                  | grep -E '(^| )(!!|>>>|- )' | grep -v 'TUDO OK' | head -12)"
+        # e se ele morreu de excecao, nada disso casa: o que vale e o fim da
+        # saida. Sem esta metade o script mostrava um ">>> TUDO OK" de um bloco
+        # anterior como se fosse o motivo da falha — medido na v0.101.
+        if printf '%s\n' "$saida_val" | grep -q '^Traceback' || [ -z "$motivo" ]; then
+            motivo="$motivo
+$(printf '%s\n' "$saida_val" | tail -6)"
+        fi
+        printf '%s\n' "$motivo" | grep -v 'TUDO OK' | sed '/^$/d' | sed 's/^ */    | /'
+        falhou=1
+    fi
+}
 
 cd "$RAIZ/sistema/03-mecanica" || exit 1
 for f in conferir-*.py; do
-    if python3 "$f" > /dev/null 2>&1; then
-        printf '  ok    %s\n' "$f"
-    else
-        vermelho "  FALHA $f"
-        falhou=1
-    fi
+    rodar_validador "$f"
 done
 
 cd "$RAIZ" || exit 1
-if python3 conferir-repositorio.py > /dev/null 2>&1; then
-    printf '  ok    conferir-repositorio.py\n'
-else
-    vermelho "  FALHA conferir-repositorio.py"
-    falhou=1
-fi
+rodar_validador conferir-repositorio.py
 
 cd "$RAIZ/manual/matematica" || exit 1
 for f in pac7.py v7.py; do
-    if python3 "$f" > /dev/null 2>&1; then
-        printf '  ok    %s\n' "$f"
-    else
-        vermelho "  FALHA $f"
-        falhou=1
-    fi
+    rodar_validador "$f"
 done
 cd "$RAIZ" || exit 1
 
 if [ "$falhou" -ne 0 ]; then
     echo
     vermelho "Algum validador falhou. Nada foi commitado."
-    echo "Rode o que falhou sozinho para ver o erro inteiro:"
+    echo "As linhas de erro estao acima. Para ver o resto:"
     echo "  cd sistema/03-mecanica && python3 conferir-XXXX.py"
     exit 1
+fi
+
+# Pular NAO trava o commit, de proposito: uma biblioteca que falta nao e' regra
+# quebrada. Mas o aviso e' amarelo e aparece em toda rodada, porque cinco dos
+# validadores leem o .docx do manual e sem python-docx eles conferem menos.
+if [ "$pulou" -ne 0 ]; then
+    echo
+    amarelo "Algum validador PULOU checagem — o verde acima vale menos do que parece."
+    if printf '%s' "$motivos_pulo" | grep -qi 'docx'; then
+        echo "  Falta a biblioteca que le o manual:"
+        echo "  pip install python-docx --break-system-packages"
+    fi
 fi
 
 # --------------------------------------------------------------------------
