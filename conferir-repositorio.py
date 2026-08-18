@@ -43,6 +43,7 @@ import sys
 RAIZ = os.path.dirname(os.path.abspath(__file__))
 FALHAS = []
 AVISOS = []
+PULADAS = []
 
 
 def erro(msg):
@@ -486,6 +487,204 @@ print()
 print('  Um mapa furado nao quebra contagem nenhuma — por isso ele passou seis')
 print('  versoes furado. Quem retoma em conversa nova le o mapa, nao a pasta.')
 
+
+# --- checagem 7: a ENTREGA contra a fonte. -----------------------------------
+# Nasceu na v0.98, e o defeito que ela existe para pegar e' de EIXO e nao de
+# conteudo: a checagem 2 resolve nome de arquivo contra a arvore INTEIRA, entao
+# uma peca copiada para finalizado/ herda os arquivos da fonte e todo ponteiro
+# dela passa trivialmente. Com o recorte da v0.97 no disco, a checagem 2 via
+# 472 caminhos e dizia "0 mortos" — e 95 deles nao resolviam de dentro da
+# entrega, 19 apontando para material de mesa que nao estava la.
+#
+# A entrega e' ARTEFATO: nada nela e' editado a mao, com UMA excecao — o
+# README.md dela, que nao existe na fonte e afirma numero. Ele era o unico
+# arquivo do projeto que ninguem comparava com nada, e na v0.98 estava errado em
+# seis lugares, o mais velho desde a v0.83.
+#
+# Se finalizado/ nao existir — ele e' ignorado pelo .gitignore, entao um clone
+# limpo nao tem — esta checagem PULA e DIZ que pulou. Licao da v0.97: um verde
+# que pulou checagem nao e' um verde.
+print()
+print('-' * 88)
+print('  7. A ENTREGA — o recorte confere com a fonte?')
+print('-' * 88)
+
+ENT = os.path.join(RAIZ, 'finalizado')
+
+if not os.path.isdir(ENT):
+    PULADAS.append('7. a entrega — finalizado/ nao existe neste clone')
+    print('  ~~ PULADA. finalizado/ nao existe aqui, e ele e ignorado pelo .gitignore,')
+    print('     entao um clone limpo do repositorio de trabalho nao carrega o recorte.')
+    print('     NADA da checagem 7 rodou.')
+else:
+    import hashlib
+
+    def _md5(caminho):
+        with open(caminho, 'rb') as fh:
+            return hashlib.md5(fh.read()).hexdigest()
+
+    # -- 7.1: toda copia bate byte a byte com a fonte. ------------------------
+    # A entrega nao tem validador proprio e nenhum outro atravessa repositorio.
+    # Ate aqui, a unica forma de saber se ela estava velha era md5 na mao.
+    ESPERADO = [(os.path.join(MEC, f), os.path.join(ENT, 'regra', f)) for f in pecas]
+    for f in sorted(os.listdir(RAIZ)):
+        if re.match(r'^(DESENHO|LISTA)-.*\.md$', f):
+            ESPERADO.append((os.path.join(RAIZ, f), os.path.join(ENT, 'desenho', f)))
+    ESPERADO += [
+        (os.path.join(RAIZ, 'sistema', '02-esqueleto', 'arquitetura.md'),
+         os.path.join(ENT, 'desenho', 'arquitetura.md')),
+        (os.path.join(MEC, 'RASCUNHO-bloqueio.md'),
+         os.path.join(ENT, 'desenho', 'RASCUNHO-bloqueio.md')),
+    ]
+    for f in ('Fundamento-MANUAL-v7.docx', 'Fundamento-MANUAL-v7.pdf'):
+        ESPERADO.append((os.path.join(RAIZ, 'manual', f), os.path.join(ENT, 'manual', f)))
+    for f in ('ficha-em-branco.docx', 'ficha-exemplo-kaori.docx'):
+        ESPERADO.append((os.path.join(RAIZ, 'sistema', '05-material', f),
+                         os.path.join(ENT, 'ficha', f)))
+
+    # guarda de contagem: se o recorte encolher, ela acusa em vez de conferir
+    # menos em silencio. Piso = 17 pecas + 4 desenhos + 2 avulsos + 2 do manual
+    # + 2 fichas, e ele so' cresce.
+    PISO_RECORTE = 27
+    if len(ESPERADO) < PISO_RECORTE:
+        erro(f'7.1: o recorte deveria ter pelo menos {PISO_RECORTE} arquivos e eu montei '
+             f'{len(ESPERADO)} — a lista mudou de forma e esta checagem parou de conferir')
+
+    sumidos, velhos = [], []
+    for orig, copia in ESPERADO:
+        if not os.path.exists(orig):
+            erro(f'7.1: a FONTE de {rel(copia)} sumiu — procurei em {rel(orig)}')
+        elif not os.path.exists(copia):
+            sumidos.append(rel(copia))
+        elif _md5(orig) != _md5(copia):
+            velhos.append(rel(copia))
+    if sumidos:
+        erro('7.1: a entrega nao tem copia de: ' + ', '.join(sumidos))
+    if velhos:
+        erro('7.1: a copia na entrega esta VELHA, nao bate com a fonte: ' + ', '.join(velhos))
+    if not sumidos and not velhos:
+        print(f'  [x] as {len(ESPERADO)} copias da entrega batem byte a byte com a fonte')
+
+    # -- 7.2: ponteiro pendurado, resolvido contra a arvore DA ENTREGA. -------
+    #
+    # A lista branca e' DECLARADA e tem teto. O que entra nela sao as duas
+    # familias que a entrega cita de proposito sem carregar: nome de validador
+    # ("o conferir-X.py confere isto") e caminho de arquivo de trabalho. As duas
+    # sao argumento de design, e o README da entrega ja avisa que as pecas sao
+    # argumento e nao texto de mesa.
+    #
+    # O que NAO entra e' material de mesa: se uma peca da entrega manda o leitor
+    # abrir um arquivo de regra, aquele arquivo tem que estar aqui.
+    BRANCOS_RX = re.compile(
+        r'^(conferir-[a-z-]+\.py'
+        r'|subir\.sh|mensagem-de-commit\.txt'
+        r'|ESTADO-ATUAL\.md|LEIA-ME\.md|CHANGELOG\.md|PROMPT-[A-Z-]+\.md'
+        r'|pitch-de-design\.md|dossie-de-metodologia\.md'
+        r'|dados\.js|ficha\.js|pac7\.py|v7\.py|bf2\.py|validador-feiticos\.py'
+        r'|(?:sistema/)?\d\d-[a-z-]+/.*'      # caminho na arvore da FONTE
+        r'|logs/.*|99-arquivo/.*|gerador-ficha/.*'
+        r'|RASCUNHO-trilhas\.md'              # cortado do recorte por decisao
+        r')$'
+    )
+    NOMES_ENT = set()
+    for _b, _d, _f in os.walk(ENT):
+        _d[:] = [x for x in _d if x != '.git']
+        NOMES_ENT.update(_f)
+
+    vistos_e, brancos, pendurados = 0, 0, []
+    for base, dirs, arqs in os.walk(ENT):
+        dirs[:] = [d for d in dirs if d != '.git']
+        for f in sorted(arqs):
+            if not f.endswith('.md'):
+                continue
+            caminho = os.path.join(base, f)
+            txt = open(caminho, encoding='utf-8', errors='ignore').read()
+            for m in RX_MD.finditer(txt):
+                alvo = m.group(1).strip()
+                if IGNORAR.search(alvo) or ' ' in alvo:
+                    continue
+                vistos_e += 1
+                eh_caminho = '/' in alvo and (alvo.endswith('/') or re.search(r'\.\w{2,4}$', alvo))
+                if eh_caminho:
+                    achou = any(os.path.exists(x) for x in
+                                (os.path.join(base, alvo), os.path.join(ENT, alvo)))
+                elif '/' in alvo:
+                    continue
+                else:
+                    achou = alvo in NOMES_ENT
+                if achou:
+                    continue
+                if BRANCOS_RX.match(alvo):
+                    brancos += 1
+                    continue
+                pendurados.append((rel(caminho), alvo))
+
+    # guarda nos dois eixos: se as citacoes despencarem o extrator quebrou; se
+    # os brancos crescerem, alguem alargou a lista sem dizer.
+    # medido na v0.98: 161 citacoes, 85 delas brancas. O teto tem folga de cinco
+    # e nao mais — quem precisar de mais que isso esta acrescentando familia nova
+    # a lista, e ai o numero sobe junto com o motivo escrito.
+    PISO_CITACOES, TETO_BRANCOS = 120, 90
+    if vistos_e < PISO_CITACOES:
+        erro(f'7.2: achei so {vistos_e} citacoes na entrega, e o piso e {PISO_CITACOES} — '
+             f'o extrator mudou de forma e esta checagem parou de conferir')
+    if brancos > TETO_BRANCOS:
+        erro(f'7.2: {brancos} citacoes cairam na lista branca, e o teto e {TETO_BRANCOS} — '
+             f'alguem alargou a lista; confira o que entrou nela')
+    for arq, alvo in pendurados:
+        erro(f'7.2: {arq} manda abrir `{alvo}`, e ele nao existe na entrega')
+    if not pendurados:
+        print(f'  [x] {vistos_e} citacoes conferidas contra a arvore DA ENTREGA, '
+              f'{brancos} na lista branca declarada, 0 penduradas')
+
+    # -- 7.3: o README da entrega afirma numero, e cada numero tem dono. ------
+    _rme = open(os.path.join(ENT, 'README.md'), encoding='utf-8').read()
+
+    def _entrega_confere(rotulo, rx_copia, dono_arq, rx_dono, extenso=False):
+        m = re.search(rx_dono, ler(dono_arq), re.MULTILINE)
+        if not m:
+            erro(f'7.3: nao achei {rotulo} em {dono_arq}, que e o DONO dele — se o '
+                 f'arquivo mudou de forma, esta checagem parou de conferir')
+            return
+        dono = por_extenso(m.group(1)) if extenso else m.group(1)
+        if dono is None:
+            erro(f'7.3: {dono_arq} escreve "{m.group(1)}" para {rotulo} e eu nao sei ler '
+                 f'esse numero por extenso — acrescente ele ao mapa NUMERO')
+            return
+        achados = re.findall(rx_copia, _rme)
+        if not achados:
+            erro(f'7.3: nao achei {rotulo} no README da entrega — ou a frase sumiu, ou '
+                 f'ela mudou de forma e esta checagem parou de olhar para ela')
+            return
+        lidos = [por_extenso(a) if extenso else a for a in achados]
+        fora = sorted({str(a) for a in lidos if a != dono})
+        if fora:
+            erro(f'7.3: o README da entrega diz {fora} para {rotulo}, e o dono '
+                 f'({dono_arq}) diz "{dono}"')
+        else:
+            print(f'    [x] {rotulo}: {len(achados)} ocorrencia(s), todas "{dono}"')
+
+    print()
+    print('  7.3 O README da entrega e o unico arquivo escrito a mao la.')
+    _entrega_confere('a versao do recorte', r'\*\*Recorte da v(\d+\.\d+)\.\*\*',
+                     'logs/CHANGELOG.md', r'^## \[(\d+\.\d+)\]')
+    _entrega_confere('a versao do manual', r'\*\*v(\d+\.\d+)\*\*',
+                     'manual/gerador/COMO-USAR.txt',
+                     r'GERADOR DO MANUAL — Fundamento v(\d+\.\d+)')
+    _entrega_confere('a contagem de pecas', r'as \*\*(\w+) peças\*\* de mecânica',
+                     'README.md', r'\*\*(\S+) peças de regra\*\*', extenso=True)
+    _entrega_confere('a contagem de condicoes', r'as (\w+) condições',
+                     'sistema/03-mecanica/' + pecas[0],
+                     r'^## 8\.3 As condições — as (\w+)', extenso=True)
+    _entrega_confere('o total de entradas do catalogo', r'das \*\*(\d+) entradas\*\*',
+                     'sistema/03-mecanica/17-catalogo-de-entregas.md',
+                     r'^\| \*\*total\*\* \| \*\*(\d+)\*\*')
+
+    print()
+    print('  A entrega e artefato e nao tem validador proprio. Esta checagem e a unica')
+    print('  coisa do projeto que atravessa os dois repositorios.')
+
+
 # --------------------------------------------------------------------------
 print()
 print('=' * 88)
@@ -494,7 +693,14 @@ if FALHAS:
     for e in FALHAS:
         print('   -', e)
     sys.exit(1)
-print('>>> TUDO OK — a arvore esta inteira, toda referencia resolve, nada aponta')
-print('    para a estrutura antiga, e todo numero de dois donos bate com o dono.')
+if PULADAS:
+    print(f'>>> OK, mas {len(PULADAS)} checagem(ns) PULARAM:')
+    for p in PULADAS:
+        print('   -', p)
+    print('    O que pulou NAO foi conferido. Um verde que pulou checagem nao e um verde.')
+else:
+    print('>>> TUDO OK — a arvore esta inteira, toda referencia resolve, nada aponta')
+    print('    para a estrutura antiga, todo numero de dois donos bate com o dono, e o')
+    print('    recorte da entrega confere com a fonte.')
 if AVISOS:
     print(f'    {len(AVISOS)} aviso(s) acima, que nao falham.')

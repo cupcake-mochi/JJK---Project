@@ -6,6 +6,96 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.98] — 2026-08-18
+
+**A entrega estava em dia nas cópias e errada em tudo que não é cópia.** *As vinte e cinco cópias batiam byte a byte com a fonte e os dois repositórios estavam no mesmo commit — e mesmo assim ela mandava o leitor abrir dezenove arquivos que não estavam lá, e o README dela afirmava seis números que outra versão já tinha mudado.* **Nasceu a checagem 7, que é a primeira coisa do projeto que atravessa os dois repositórios.** Continuam dezessete peças e dezessete validadores.
+
+### ⚠⚠ O defeito é de EIXO, e a checagem que devia pegar estava do lado errado dele
+
+**A checagem 2 do `conferir-repositorio.py` resolve nome de arquivo contra a árvore INTEIRA.** *Uma peça copiada para `finalizado/` herda os arquivos da fonte, e todo ponteiro dela passa trivialmente.*
+
+**Com o recorte da v0.97 no disco, ela via `472` caminhos e dizia `0 mortos`.** Resolvendo os mesmos ponteiros contra a árvore **da entrega**, `95` não existiam lá, em `29` alvos distintos.
+
+| o que não resolvia | ocorrências | o que é |
+|---|---|---|
+| nome de validador — `conferir-*.py` | 53 em 15 arquivos | **argumento de design**, e fica na lista branca |
+| **`arquitetura.md`** | **17 em 6 peças** | **material de mesa: é o dono da tabela de refino por marco** |
+| `RASCUNHO-trilhas.md` | 7 em 5 arquivos | cortado do recorte **por decisão** — carrega o `Servo` |
+| **`RASCUNHO-bloqueio.md`** | **2** | **material de mesa: a regra opcional do `Bloquear`** |
+| caminho da árvore da fonte, `logs/`, `99-arquivo/`, geradores | 16 | ferramenta e histórico |
+
+> **É a lição nº 8 por uma porta nova.** *Uma checagem que se mede pelo eixo errado sai verde exatamente na perturbação que importa* — e aqui ela nem precisou de perturbação: bastou a entrega existir no disco para ela passar a conferir menos, em silêncio, sem que nenhum número mudasse.
+
+### Adicionado — os dois arquivos de material que a entrega citava e não carregava
+
+**`arquitetura.md` e `RASCUNHO-bloqueio.md` entraram em `finalizado/desenho/`**, com uma caixa no README de lá dizendo por que os dois não são desenho.
+
+- **O `arquitetura.md` está lá por uma seção só: a 4.3**, que publica quanto refino cada rota tem em cada marco, do nv6 ao nv30. **Aquela tabela não existe em peça nenhuma** — ela é uma das cinco fontes da progressão, e a única que ficava fora do recorte. *Sem ela não dá para publicar progressão.*
+- **O `RASCUNHO-bloqueio.md` é a regra opcional do `Bloquear`** — rolar `2d10` no lugar da Defesa estática. **Metade da condição `Incapacitado` depende dela**, e a peça 1 mandava abrir um arquivo que não estava ali.
+
+> **O conserto de verdade do primeiro é outro, e fica anotado:** aquela tabela **não devia morar no esqueleto**. Esqueleto é documento de projeto, não peça de regra, e a lição nº 9 diz que um número vivo tem uma peça dona. *Ela sai de lá quando a tabela de progressão consolidada for escrita.*
+
+### Alterado — o README da entrega, seis afirmações e nenhuma delas era opinião
+
+*Ele é o único arquivo daquele repositório que não existe na fonte, e por isso era o único que ninguém comparava com nada.*
+
+| onde | dizia | é |
+|---|---|---|
+| duas linhas da tabela | *"as quinze condições"* | **catorze** — a v0.96 matou o `Paralisado`, e a §8.3 da peça 1 se chama *"As condições — as catorze"* |
+| tabela "O que tem aqui" | `.docx` na **v7.8** | **v7.9**, e a linha 5 do próprio arquivo já dizia |
+| o item 2 dos erros conhecidos | *"os dois estão na v7.8"* | **v7.9** nos dois desde a v0.95 |
+| o bloco do porquê | `2,2 MB` · `628 KB` · `816 KB` | `4,9 MB` · `732 KB` · `2,0 MB` |
+| **as duas Ações Bônus** | *"no FIM do `DESENHO-caminhos.md`"* | **a peça 3 §3.1 é a dona, e isso fechou na v0.83.** *O desenho tem a conta de preço, não a regra* |
+| a primeira linha da tabela | iniciativa em `regra/01` e `regra/02` | **peça 3 §5** |
+
+> **A quinta é a que mais custaria.** *Ela manda quem for escrever o PDF procurar a regra no arquivo de argumento em vez de na peça dona* — e o fim do `DESENHO-caminhos.md` diz, em letras, que a casa das duas é a peça 3. **Quinze versões apontando para o lugar errado.**
+
+### Corrigido — e um achado na FONTE, não na entrega
+
+**O problema de design nº 4 do `ESTADO-ATUAL` — *"a escolha de refino no marco paga mal, e três marcos pagam zero"* — estava listado como aberto, e a v0.89 fechou ele.** *Entrou na v0.41, fechou na v0.89 e ficou nove versões escrito como aberto.*
+
+**E ele contradizia a linha de abertura do próprio arquivo**, que desde a v0.89 diz que aquele era *"o único problema de design que tinha sobrado"*. **A decisão está aplicada na peça 11 §3** — no teto a escolha de Refino leva duas aptidões —, e a checagem 5.2 do `conferir-aptidoes.py` mede marco a marco por causa dela.
+
+> *Decisão registrada não é decisão aplicada, aplicado à lista que registra as decisões.*
+
+### Adicionado — a checagem 7, em três partes
+
+**7.1 — toda cópia bate byte a byte.** *As `27` do recorte, com guarda de contagem no piso.* Até aqui, a única forma de saber se a entrega estava velha era rodar `md5sum` na mão.
+
+**7.2 — ponteiro pendurado, resolvido contra a árvore DA ENTREGA.** *Lista branca declarada, com teto: `161` citações, `85` brancas, folga de cinco.* Material de mesa não entra na lista branca — se uma peça manda abrir um arquivo de regra, ele tem que estar lá.
+
+**7.3 — as cinco afirmações de número do README da entrega, cada uma contra o dono dela.** *Versão do recorte contra o topo deste CHANGELOG; versão do manual contra o `COMO-USAR.txt` do gerador; contagem de peças contra o README da fonte; contagem de condições contra o título da §8.3 da peça 1; total de entradas contra a linha de total da peça 17.* **Nenhum valor fica escrito dentro do validador.**
+
+**E ela PULA com voz.** *`finalizado/` é ignorado pelo `.gitignore`, então um clone limpo não tem o recorte.* **O rodapé passou a imprimir `OK, mas N checagem(ns) PULARAM`**, no formato que a v0.97 escreveu para o `conferir-atributos.py` — a lição de que um verde que pulou checagem não é um verde, agora no validador da raiz também.
+
+### As nove perturbações, em cópia isolada
+
+| perturbação | esperado | deu |
+|---|---|---|
+| uma cópia da entrega muda de conteúdo | acende | acende |
+| uma peça some da entrega | acende | acende |
+| **a entrega manda abrir um `.md` que só existe na FONTE** | acende | acende |
+| o README da entrega volta a dizer "quinze condições" | acende | acende |
+| o README da entrega fica no recorte da v0.97 | acende | acende |
+| o título da §8.3 da peça 1 muda de forma | acende | acende |
+| **contra-teste:** o README cita mais um `conferir-*.py` que existe na fonte | verde | verde |
+| **contra-teste:** o README cita uma peça que a entrega já carrega | verde | verde |
+| `finalizado/` não existe | **PULA e diz** | PULA e diz |
+
+> **⚠⚠ A terceira é o teste negativo direto do defeito de eixo, e ela vem com a prova junto.** *Com aquela citação no lugar, a checagem 2 imprime `491 caminhos conferidos, 0 mortos` — ela não acusa, porque o arquivo existe na fonte.* **Quem acusa é a 7.2, e ela é a única que olha para o eixo certo.**
+
+> **E os dois contra-testes deram FALSO VERMELHO na primeira montagem, por minha causa e não do validador.** *Eu tinha escrito os dois perturbando uma **peça** da entrega* — **e peça é cópia byte a byte, então qualquer edição nela acende a 7.1 com razão.** *Um contra-teste não pode perturbar para um estado que outra checagem reprova de verdade, senão ele mede a checagem errada.* **Os dois foram para o `README.md` da entrega, que é o único arquivo de lá que não é cópia.**
+
+### Em aberto
+
+- **O `PROMPT-PROXIMA-CONVERSA.md` está escrito contra a v0.92**, seis versões atrás. *Ele carrega remendo de v0.93 e v0.94 e nada da v0.95 em diante.*
+- **Não existe script de recorte.** *A entrega é montada à mão, e é por isso que ela pode sair incompleta sem ninguém ver.* **A checagem 7.1 acusa depois; um `recortar.sh` evitaria antes.**
+- **A tabela de refino continua morando no esqueleto**, e ela é peça de regra disfarçada de documento de projeto.
+- O resto da lista da v0.97 continua igual: a peça de dano e condições, as três Trilhas do Evocador, a terceira taxa do `Batedor`, o quick-start, a tabela de progressão consolidada e o playtest.
+- **O Mizuki continua precisando instalar o `python-docx`** — `pip install python-docx --break-system-packages`.
+
+---
+
 ## [0.97] — 2026-08-17
 
 **O `subir.sh` falhou na máquina do Mizuki e passava na minha, e o motivo é o defeito nº 1 do projeto acontecendo de verdade: ele NÃO tem `python-docx` instalado.** *A checagem de condições da v0.95 caiu no caminho de pulada e quebrou lá dentro.* Continuam dezessete peças e dezessete validadores.
