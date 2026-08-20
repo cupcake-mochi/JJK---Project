@@ -50,7 +50,7 @@ POSICAO = re.compile(r"(?i:\ba tabela\b)(?!\s+[`*A-ZÀ-Ü])")
 # Os encaixes da REGRA-DE-VOZ.md: nome fixo, reusado no livro inteiro. Ficam
 # de fora das checagens de título — "Como ler" começa com "Como" de propósito.
 ENCAIXES = re.compile(
-    r"^(Como ler|Caracter[íi]sticas( d[aoe] .+)?|Limites|Custo|Dura[çc][ãa]o|"
+    r"^(Como ler( .+)?|Caracter[íi]sticas( d[aoe] .+)?|Limites|Custo|Dura[çc][ãa]o|"
     r"Alcance|Teto|Cat[áa]logo|Exemplo)$",
     re.I,
 )

@@ -518,7 +518,7 @@ Sem atributo e sem valor inicial: no nível 1 você tem o PE de um nível.
 
 Integridade é a sua alma, e a alma é igual para todo mundo: nem o Caminho nem a Constituição mexem nela. Dano de alma passa por cima de corpo duro.
 
-Dano de alma tem quatro estágios, e eles estão no capítulo 4, *Dano, Condições e Cobertura*, na seção *Os quatro estágios de dano na alma*. O quarto é o fim da linha: *"você não é mais você, e o que sobra é decisão do mestre"*.
+Dano de alma tem quatro estágios, e eles estão no capítulo 4, *Dano, Condições e Cobertura*, na seção *Dano na alma*. O quarto é o fim da linha: *"você não é mais você, e o que sobra é decisão do mestre"*.
 
 ## Arredondamento
 
@@ -742,12 +742,13 @@ A Reação é uma só, e três coisas disputam ela: ataque de oportunidade, a a�
 
 *fonte: `manual/12-pericias-e-oficios.md`*
 
-O seu personagem tem duas listas de coisas que sabe fazer fora da técnica: **perícias** e **ofícios**. Elas se parecem na ficha e funcionam diferente, então vale começar pela diferença.
+O seu personagem tem duas listas de coisas que sabe fazer fora da técnica: **perícias** e **ofícios**. Elas se parecem na ficha e funcionam diferente.
 
 **Perícia** é uma capacidade do corpo ou da cabeça. Ela pertence a um atributo e só a esse atributo. Correr é `Atletismo`, e `Atletismo` é sempre Força.
 
 **Ofício** é uma prática que alguém te ensinou. Ele vive solto no quadro de atributos: o atributo muda conforme o que você está fazendo com ele.
 
+**Perícia e ofício**
 | É perícia | É ofício |
 |---|---|
 | Escalar um muro | Dirigir a van até o muro |
@@ -757,7 +758,7 @@ O seu personagem tem duas listas de coisas que sabe fazer fora da técnica: **pe
 
 A regra prática: se é uma ferramenta ou um procedimento que alguém te ensinou passo a passo, é ofício. A ferramenta pode ser a chave de fenda, o papel de talismã ou o formulário certo. `Burocracia` é ofício pelo mesmo motivo que `Forja` é.
 
-## Como se rola
+## Rolagem de perícia e ofício
 
 > **Perícia = `d20` + o atributo dela + maestria, se você for treinado.**
 > Sem treino, é só `d20` + o atributo.
@@ -765,15 +766,15 @@ A regra prática: se é uma ferramenta ou um procedimento que alguém te ensinou
 > **Ofício = `d20` + o atributo que a situação pede + maestria, se você for treinado.**
 > Sem treino, você normalmente não consegue tentar.
 
-Ser **treinado** quer dizer ter aquela perícia ou aquele ofício marcado na ficha; a seção *De onde vem o treino* diz de onde vêm as marcas. **Maestria** é o bônus que cresce com o nível, e a escada dela está no capítulo 1, *Como Jogar*. O mestre põe uma **CD**, o número que a sua rolagem precisa alcançar para você conseguir o que queria.
+Ser **treinado** quer dizer ter aquela perícia ou aquele ofício marcado na ficha; a seção *Treino* diz de onde vêm as marcas. **Maestria** é o bônus que cresce com o nível, e a escada dela está no capítulo 1, *Como Jogar*. O mestre põe uma **CD**, o número que a sua rolagem precisa alcançar para você conseguir o que queria.
 
-#### A perícia tem atributo fixo, o ofício não
+### Atributo fixo ou variável
 
 Forjar uma lâmina é Força. Falsificar uma assinatura é Destreza. Saber qual selo o papel pede é Inteligência. As três coisas são o mesmo ofício, `Caligrafia` ou `Forja`, e o mestre escolhe o atributo na hora, do mesmo jeito que escolhe a dificuldade.
 
-Na prática isso quer dizer que um ofício rende diferente na mão de cada personagem. O mesmo `Arrombamento` é uma coisa para quem tem Destreza 4 e outra para quem tem Inteligência 4, e as duas fichas passam por portas diferentes.
+Um ofício rende diferente na mão de cada personagem. O mesmo `Arrombamento` é uma coisa para quem tem Destreza 4 e outra para quem tem Inteligência 4, e as duas fichas passam por portas diferentes.
 
-#### Perícia sem treino você tenta, ofício sem treino não
+### Sem treino
 
 Qualquer um pode tentar escalar e falhar. Ninguém forja uma lâmina por tentativa. Quando o mestre achar que dá para improvisar, tipo dirigir um carro automático em linha reta ou fazer um curativo torto, ele libera a rolagem sem a maestria.
 
@@ -783,12 +784,13 @@ Qualquer um pode tentar escalar e falhar. Ninguém forja uma lâmina por tentati
 >
 > Chegando na porta, ela usa `Arrombamento`. O mestre decide que forçar aquela tranca é trabalho de mão e cobra Destreza: `d20 + 4 + 1` de novo. Se a tranca fosse eletrônica ele teria cobrado Inteligência, e o mesmo ofício sairia `d20 + 2 + 1`. Três a menos, porque a Rina é boa com as mãos e não com o sistema.
 
-## As vinte e três perícias
+## Perícias
 
-#### Inteligência sabe, Essência percebe
+### Inteligência e Essência
 
-É a frase que decide onde cada perícia mora, e ela resolve quase toda dúvida de mesa. Inteligência é o que você estudou: o catálogo de maldições, o que aconteceu, como o corpo funciona, quem manda em quem. Essência é o que você capta: a energia no ar, o barulho no corredor, a mentira na voz de alguém.
+**Inteligência sabe, Essência percebe.** Inteligência é o que você estudou: o catálogo de maldições, o que aconteceu, como o corpo funciona, quem manda em quem. Essência é o que você capta: a energia no ar, o barulho no corredor, a mentira na voz de alguém.
 
+**Perícias por atributo**
 | Atributo | Perícias | Quantas |
 |---|---|---|
 | **Força** | Atletismo | 1 |
@@ -797,11 +799,9 @@ Qualquer um pode tentar escalar e falhar. Ninguém forja uma lâmina por tentati
 | **Essência** | Sentir Energia · Percepção · Persuasão · Enganação · Intimidação · Atuação · Provocar | 7 |
 | **Constituição** | — | 0 |
 
-Nenhuma perícia mora em Constituição. Constituição governa os pontos de vida e o Teste de Resistência de Vigor, e isso já é trabalho suficiente para um atributo.
+Nenhuma perícia mora em Constituição. Constituição governa os pontos de vida e o Teste de Resistência de Vigor.
 
-### O que cada uma cobre
-
-Cada entrada diz o que a perícia cobre e que tipo de cena ela resolve na mesa.
+### Catálogo
 
 #### Força
 
@@ -837,7 +837,7 @@ Cada entrada diz o que a perícia cobre e que tipo de cena ela resolve na mesa.
 
 **Natureza** — planta, bicho, clima, terreno. O que é o quê, o que é venenoso, quando a chuva vem. Aparece antes da cena dar errado: saber que aquele vale enche, que aquela fruta mata, que o cheiro no ar é de queimada e não de maldição.
 
-**Lidar com Animais** — acalmar, montar, conduzir, mandar num bicho. Vale para o que não é bicho mas se comporta como um, e é por isso que ela é fixa do Evocador: uma invocação que ainda não te obedece direito responde a essa perícia.
+**Lidar com Animais** — acalmar, montar, conduzir, mandar num bicho. Vale para o que não é bicho mas se comporta como um: uma invocação que ainda não te obedece direito responde a essa perícia.
 
 **Tecnologia** — computador, câmera, rede, equipamento moderno. Resolve a cena de prédio moderno: a câmera que precisa ser desligada antes de a equipe entrar, o celular da vítima, o registro de acesso que diz quem passou pela porta.
 
@@ -857,10 +857,11 @@ Cada entrada diz o que a perícia cobre e que tipo de cena ela resolve na mesa.
 
 **Provocar** — tirar alguém do sério, fazer perder a linha, forçar a vir para cima de você. É o oposto de `Intimidação`: uma faz recuar, a outra faz **avançar**. Em combate ela tem ação própria, `Provocar`, no capítulo 2, *O Turno*.
 
-### Analisar a técnica do inimigo
+### Técnica do inimigo
 
 Não existe perícia para isso, porque são duas perguntas diferentes e cada uma já tem casa.
 
+**Ocultismo e Sentir Energia**
 | `Ocultismo` reconhece o que você está vendo | `Sentir Energia` lê como a energia se move |
 |---|---|
 | *"Isso é uma técnica de troca, e troca sempre tem um custo."* | *"Ela gasta muito no começo de cada golpe. Se eu forçar três seguidos, ela seca."* |
@@ -868,7 +869,7 @@ Não existe perícia para isso, porque são duas perguntas diferentes e cada uma
 
 O Nanami faz a primeira. O Todo faz a segunda.
 
-## Os onze ofícios
+## Ofícios
 
 Ofício é o que o personagem sabe fazer porque alguém sentou com ele e ensinou. Cada entrada diz o que ele cobre e onde ele aparece numa missão.
 
@@ -896,14 +897,15 @@ Ofício é o que o personagem sabe fazer porque alguém sentou com ele e ensinou
 
 > **Não existe Primeiros Socorros, e `Herbalismo` não cobre o mesmo.** Estancar sangue no meio da missão vira cena em vez de rolagem: ou alguém tem cura de verdade, ou a consequência acontece.
 
-## De onde vem o treino
+## Treino
 
 > **O Caminho dá duas perícias fixas e mais quatro à sua escolha, de qualquer lugar do quadro.**
 > **Mais dois ofícios à sua escolha.**
 > **A Origem dá mais duas perícias.**
 
-As duas fixas são a assinatura do Caminho, o que qualquer um daquele Caminho sabe fazer. As quatro livres são suas, e são elas que impedem duas fichas do mesmo Caminho de serem a mesma pessoa.
+As duas fixas são a assinatura do Caminho, o que qualquer um daquele Caminho sabe fazer. As quatro livres são suas.
 
+**Perícias fixas por Caminho**
 | Caminho | Perícias fixas |
 |---|---|
 | **Bastião** | Atletismo · Intimidação |
@@ -912,16 +914,17 @@ As duas fixas são a assinatura do Caminho, o que qualquer um daquele Caminho sa
 | **Emanador** | Ocultismo · Investigação |
 | **Evocador** | Religião · Lidar com Animais |
 
-Ofício o Caminho não trava. Os dois que ele dá são livres, e você escolhe os dois: o que um Bastião faz com as mãos fora da luta é assunto dele.
+Ofício o Caminho não trava. Os dois que ele dá são livres, e você escolhe os dois.
 
-`Sentir Energia` fica fora das fixas de todos os cinco Caminhos, e isso é escolha. Ela é a perícia mais rolada da mesa; qualquer um pode treinar, ninguém ganha de graça, e o feiticeiro ruim de sentir energia cabe na mesa.
+`Sentir Energia` fica fora das fixas de todos os cinco Caminhos. Qualquer um pode treinar, e ninguém ganha de graça.
 
-### O que a Origem dá
+### Perícias da Origem
 
 Uma perícia da lista de quatro da sua Origem, e uma perícia livre que a sua história justifique, com aprovação do mestre. Foi filho de médico, tem `Medicina`. Batia carteira antes de saber o que era energia amaldiçoada, tem `Prestidigitação`.
 
 Além dessas duas, você escolhe um extra: um ofício livre, ou mais uma perícia no lugar dele.
 
+**Extra da Origem**
 | Se o extra for | Perícias treinadas | Ofícios treinados |
 |---|---|---|
 | um ofício | 8 | 3 |
@@ -940,9 +943,7 @@ A Origem treina um Teste de Resistência, o Caminho treina outro. Ser treinado n
 
 *fonte: `manual/15-dano-e-condicoes.md`*
 
-Este capítulo é de consulta. Você vem aqui quando o dano tem um tipo que importa, quando alguém ficou com uma condição, ou quando tem uma mureta no meio do caminho.
-
-## Os tipos de dano
+## Tipos de dano
 
 Todo dano deste sistema tem um tipo, e os catorze tipos se dividem em três grupos. O grupo importa porque várias habilidades resistem a um grupo inteiro em vez de a um tipo só.
 
@@ -956,9 +957,9 @@ Todo dano deste sistema tem um tipo, e os catorze tipos se dividem em três grup
 
 A lista é fechada. Quando uma arma, um feitiço ou uma habilidade disser de que tipo é o dano, ou a que tipo ela resiste, o nome sai daqui.
 
-### O que cada tipo faz num corpo
+### Catálogo
 
-O número do dano vem da arma ou do feitiço. O tipo diz quem resiste a ele e como a mesa descreve o golpe. Vale ler uma vez, para saber narrar a própria técnica.
+O número do dano vem da arma ou do feitiço. O tipo diz quem resiste a ele e como a mesa descreve o golpe.
 
 #### Físicos
 
@@ -994,9 +995,24 @@ O número do dano vem da arma ou do feitiço. O tipo diz quem resiste a ele e co
 
 **`Alma`** — passa por couro, armadura e barreira, e bate na coisa que você é. Ele gasta Integridade em vez de vida, tem quatro estágios próprios, e não se resiste com músculo. Quem toma dano de `Alma` continua de pé e volta menos do que era. Os quatro estágios estão logo abaixo.
 
-### Os quatro estágios de dano na alma
+### Nomes repetidos
 
-**Integridade é a vida da alma**, e a fórmula dela é `20 + 8 × (nível − 1)`, do capítulo 1, *Como Jogar*. Esta seção é o que acontece conforme ela cai.
+Seis desses nomes você já viu em outro lugar, e ali eles querem dizer outra coisa.
+
+**Nomes repetidos**
+| onde o nome aparece | o que ele é ali |
+|---|---|
+| `Fogo`, `Ácido`, `Veneno` como **Tema** do Fundamento | rótulo de sabor pendurado numa técnica, sem efeito próprio |
+| `Cortante`, `Trovejante`, `Alma` dentro de `Passo Cortante`, `Palma Trovejante`, `Toca a Alma` | pedaço do nome de um feitiço pronto |
+| os catorze desta seção | o tipo do dano na hora que ele cai |
+
+Um não puxa o outro. Um feitiço com o Tema `Fogo` só causa dano do tipo `Fogo` se o texto dele disser isso.
+
+> **Exemplo.** A Mei tem uma habilidade que dá resistência a `Fogo`. O inimigo acerta ela com `Palma Trovejante`, que causa dano `Trovejante`. Os dois são Elementais, e isso não basta: a resistência dela nomeia um tipo, e `Trovejante` não é `Fogo`. Ela toma o dano inteiro.
+
+### Dano na alma
+
+**Integridade é a vida da alma**, e a fórmula dela é `20 + 8 × (nível − 1)`, do capítulo 1, *Como Jogar*.
 
 > **Cada ponto de dano na alma tira 1 de vida, 1 de Integridade, e derruba a sua vida máxima em 1** até o próximo descanso longo.
 >
@@ -1004,6 +1020,7 @@ O número do dano vem da arma ou do feitiço. O tipo diz quem resiste a ele e co
 >
 > Ao receber, faça um **Teste de Resistência de Integridade** contra a CD do atacante. Numa falha, você também avança um estágio na hora, mesmo que a fração ainda não tenha fechado.
 
+**Estágios de dano na alma**
 | Integridade perdida | Estágio | O que pega |
 |---|---|---|
 | 1/4 | **1** | Desvantagem em testes de perícia. |
@@ -1015,20 +1032,6 @@ O número do dano vem da arma ou do feitiço. O tipo diz quem resiste a ele e co
 
 **Nenhum feitiço passa de 2 × Classe em dados na alma.**
 
-#### Nomes que se repetem no manual
-
-Seis desses nomes você já viu em outro lugar, e ali eles querem dizer outra coisa.
-
-| onde o nome aparece | o que ele é ali |
-|---|---|
-| `Fogo`, `Ácido`, `Veneno` como **Tema** do Fundamento | rótulo de sabor pendurado numa técnica, sem efeito próprio |
-| `Cortante`, `Trovejante`, `Alma` dentro de `Passo Cortante`, `Palma Trovejante`, `Toca a Alma` | pedaço do nome de um feitiço pronto |
-| os catorze desta seção | o tipo do dano na hora que ele cai |
-
-Um não puxa o outro. Um feitiço com o Tema `Fogo` só causa dano do tipo `Fogo` se o texto dele disser isso.
-
-> **Exemplo.** A Mei tem uma habilidade que dá resistência a `Fogo`. O inimigo acerta ela com `Palma Trovejante`, que causa dano `Trovejante`. Os dois são Elementais, e isso não basta: a resistência dela nomeia um tipo, e `Trovejante` não é `Fogo`. Ela toma o dano inteiro.
-
 ## Condições
 
 **Condição** é um estado nomeado que muda o que você consegue fazer enquanto durar. São catorze, e cada uma tem um **nível**: `Leve`, `Média` ou `Pesada`.
@@ -1037,12 +1040,13 @@ Um não puxa o outro. Um feitiço com o Tema `Fogo` só causa dano do tipo `Fogo
 > É o que ela **custa para comprar** dentro de um feitiço.
 > É o que ela **custa para tirar** de alguém, em pontos de energia.
 
-#### Como ler as tabelas
+### Como ler
 
-Cada linha diz o nome, o efeito inteiro sem nada implícito, e como aquilo se parece na mesa. O nível de cada bloco está no título da seção. Onde a condição dá vantagem ou desvantagem, a tabela diz a quem.
+Cada linha diz o nome, o efeito inteiro sem nada implícito, e como aquilo se parece na mesa. O nível de cada bloco está no título da seção. Onde a condição dá vantagem ou desvantagem, a coluna *o que faz* diz a quem.
 
-### As seis de nível `Leve`
+### Nível `Leve`
 
+**Condições de nível `Leve`**
 | condição | o que faz | na cena |
 |---|---|---|
 | `Lento` | seu deslocamento cai pela metade e você não usa Ação Bônus | as pernas pesam e o turno rende menos; você chega, só que atrasado |
@@ -1052,15 +1056,17 @@ Cada linha diz o nome, o efeito inteiro sem nada implícito, e como aquilo se pa
 | `Desarmado` | a sua arma está no chão ou na mão de outro. Você bate desarmado até pegar de volta | o barulho da lâmina caindo no concreto, e a decisão de gastar o turno pegando |
 | `Surdo` | você não ouve. Falha automática em teste que precise de audição, e **`−2` na iniciativa** | zumbido, e tudo que chega por trás chega sem aviso |
 
-### As duas de nível `Média`
+### Nível `Média`
 
+**Condições de nível `Média`**
 | condição | o que faz | na cena |
 |---|---|---|
 | `Calado` | você não conjura. Nada que precise de voz, gesto ou Selo sai | você tenta e não sai nada; o resto da luta você vira alguém com as mãos e mais nada |
 | `Enfeitiçado` | você não ataca quem enfeitiçou nem mira efeito nocivo nele, e ele tem vantagem em teste social contra você | você continua você, e aquela pessoa passou a ter razão sobre tudo |
 
-### As seis de nível `Pesada`
+### Nível `Pesada`
 
+**Condições de nível `Pesada`**
 | condição | o que faz | na cena |
 |---|---|---|
 | `Petrificado` | você virou pedra. `Incapacitado`, deslocamento `0`, sem perceber nada em volta, quem ataca você tem vantagem, e você tem resistência a todo dano | você sai da luta inteiro e sem saber o que aconteceu enquanto isso |
@@ -1075,10 +1081,11 @@ Cada linha diz o nome, o efeito inteiro sem nada implícito, e como aquilo se pa
 
 > **Exemplo.** A Rina fica `Atordoada`. Ela perde a Ação Padrão daquele turno e não usa reação, então ninguém leva ataque de oportunidade dela. A Defesa continua a mesma: `Atordoado` não abre a guarda de ninguém. No fim do turno dela, como é uma condição `Pesada`, ela faz o Teste de Resistência e pode sair sozinha.
 
-#### `Atordoado` e `Incapacitado` atacam eixos diferentes
+### `Atordoado` e `Incapacitado`
 
 Nenhuma das duas contém a outra. Escolher uma para aplicar é escolher o que você quer tirar do alvo:
 
+**`Atordoado` e `Incapacitado`**
 | | o eixo que ela ataca |
 |---|---|
 | `Atordoado` | tira **parte do turno**: uma Ação Padrão e a reação. Você continua se defendendo |
@@ -1088,17 +1095,20 @@ Nenhuma das duas contém a outra. Escolher uma para aplicar é escolher o que vo
 
 > **Metade do `Incapacitado` só aparece se a sua mesa usa `Bloquear`.** A outra metade — todo ataque corpo a corpo contra você é crítico — vale sempre, com `Bloquear` ligado ou não.
 
-#### Três coisas que não são condição aqui
+### `Inconsciente`, `Exaustão` e `Invisível`
 
+Estas três não são condição.
+
+**`Inconsciente`, `Exaustão` e `Invisível`**
 | não é condição | onde ela está |
 |---|---|
 | `Inconsciente` | é cair a 0 de vida, com regra própria no capítulo 1, *Como Jogar* |
 | `Exaustão` | é relógio de descanso, e mora no capítulo 5, *Descanso e Recuperação* |
 | `Invisível` | é benefício, e as condições são compradas para aplicar num alvo |
 
-A `Exaustão` é a que mais engana, porque em outros jogos ela é condição e aqui não. Quem for escrever feitiço que canse alguém não alcança a exaustão pela Melhoria `Condição`.
+A `Exaustão` engana: em outros jogos ela é condição, aqui não. Quem for escrever feitiço que canse alguém não alcança a exaustão pela Melhoria `Condição`.
 
-### Comprar uma condição num feitiço
+### Comprar uma condição
 
 > **Existe uma Melhoria `Condição`, uma só, e o preço dela é o nível da condição que você escolheu.**
 > Escolher `Derrubado` custa `Leve`. Escolher `Petrificado` custa `Pesada`.
@@ -1119,11 +1129,12 @@ Você só faz isso se tiver uma habilidade que tire condição, e cada habilidad
 
 Cobertura é o que está entre você e quem está atirando. São três degraus, e você lê o que enxerga do alvo para saber em qual deles ele está. A pergunta que o mestre faz é sempre a mesma: daqui, quanto do corpo dele dá para acertar?
 
+**Degraus de cobertura**
 | cobertura | o que ela dá | exemplo |
 |---|---|---|
 | **Parcial** | **`+2` de Defesa e `+2` no Teste de Resistência Físico** | mureta, tronco, uma criatura no caminho |
 | **Boa** | **`+5` de Defesa e `+5` no Teste de Resistência Físico** | seteira, olhando por cima de uma parede, metade do corpo atrás de um canto |
-| **Total** | **você não pode ser escolhido como alvo, e ponto** | parede inteira, do outro lado da porta |
+| **Total** | **você não pode ser escolhido como alvo** | parede inteira, do outro lado da porta |
 
 > **Vale contra o que vem do outro lado da cobertura, e só.** Quem está atrás de uma mureta não ganha nada contra quem já está do lado de cá dela.
 >
@@ -1131,7 +1142,7 @@ Cobertura é o que está entre você e quem está atirando. São três degraus, 
 
 O Teste de Resistência que a cobertura ajuda é o **Físico**, seja qual for o atributo em que você o travou na criação. Quem travou em Força também se abaixa atrás de uma mureta.
 
-A **Total** tira você da lista de alvos possíveis, e é por isso que ela não tem número. Um efeito que pega área continua alcançando quem está atrás dela, se o efeito não precisar de linha até o alvo.
+A **Total** tira você da lista de alvos possíveis, e não dá número nenhum. Um efeito que pega área continua alcançando quem está atrás dela, se o efeito não precisar de linha até o alvo.
 
 > **Exemplo.** O Sousuke está agachado atrás do capô de um carro, com meio corpo de fora. Isso é cobertura **Boa**: a Defesa dele sobe `5` contra quem atira do outro lado do estacionamento. Ele decide se jogar inteiro para trás do carro e passa a ter cobertura **Total**, então ninguém do outro lado consegue escolher ele como alvo. Mas um feitiço de área que estoura embaixo do carro não precisa de linha até ele, e alcança do mesmo jeito. Como a **Total** não dá número, o Teste de Resistência Físico dele sai limpo, sem os `5` que ele tinha um segundo antes.
 
@@ -1316,9 +1327,9 @@ O prédio abandonado sozinho não é problema. O prédio abandonado **com você 
 
 *fonte: `manual/20-criacao-de-personagem.md`*
 
-No fim deste capítulo você tem uma ficha de feiticeiro pronta para jogar, e ela cabe numa página. Leva de vinte a quarenta minutos. A parte longa é uma só, escrever a técnica; o resto é rápido de propósito.
+Uma ficha de feiticeiro cabe numa página e leva de vinte a quarenta minutos para montar. A parte longa é uma só: escrever a técnica.
 
-## O que a ficha tem
+## Peças da ficha
 
 - **Uma técnica** que só você tem, escrita por você
 - **Cinco atributos**, de 0 a 6
@@ -1330,26 +1341,27 @@ No fim deste capítulo você tem uma ficha de feiticeiro pronta para jogar, e el
 - **Cinco feitiços**: dois pequenos e grátis, três de verdade
 - **Os números que caem sozinhos**: vida, energia, Defesa, iniciativa
 
-## Toda ficha nasce no nível 2
+## Nível inicial
 
 > **Personagem novo começa no nível 2.** Não existe ficha de nível 1 padrão.
 
 O nível 1 é o personagem antes de virar feiticeiro: a pessoa que ainda não conjura, o Itadori antes do dedo. Ele fica como opção de campanha para quem quiser jogar essa parte.
 
-A ficha padrão começa no 2 porque é no 2 que você já tem técnica, já tem feitiço e já dá para encarar uma missão. Tudo neste capítulo presume o nível 2, incluindo as contas do passo 7.
+No nível 2 você já tem técnica, já tem feitiço e já dá para encarar uma missão. As contas do passo 7 presumem o nível 2.
 
-## A ordem dos oito passos
+## Ordem dos passos
 
 > **Origem → a Regra em uma frase → Caminho → Atributos → a técnica inteira → perícias e ofícios → os números → Pactos.**
 
-A ordem existe porque cada passo trava informação que o passo seguinte usa. Escrever a técnica inteira leva tempo, e o Caminho é a escolha que ancora o seu papel numa equipe: quem escolhe o Caminho antes de saber o que a técnica faz tende a escrever uma técnica que serve ao papel, em vez do contrário. Por isso a técnica sai partida em duas: a Regra, uma frase só, vem no passo 2, antes do Caminho decidir nada por você; o resto espera até o passo 5, depois que o Caminho e os atributos já estão na ficha e a técnica pode ser escrita sabendo quem vai usá-la.
+A técnica sai partida em duas: a Regra, uma frase só, vem no passo 2, antes do Caminho decidir nada por você; o resto espera até o passo 5, depois que o Caminho e os atributos já estão na ficha.
 
 ## Passo 1 · Origem
 
-De onde vem o seu poder. Nasceu com você, veio no sangue de um clã, você virou recipiente de alguma coisa, alguém te fez, ou trocaram uma coisa por outra antes de você nascer. A Origem entra primeiro porque ela é o passado do personagem, e o resto da ficha descreve quem ele é agora tendo saído desse passado.
+De onde vem o seu poder. Nasceu com você, veio no sangue de um clã, você virou recipiente de alguma coisa, alguém te fez, ou trocaram uma coisa por outra antes de você nascer.
 
 São sete Origens, mais a sub-origem Sem Técnica. Escolha e anote na ficha:
 
+**Anotações da Origem**
 | O que anotar | De onde sai |
 |---|---|
 | Uma perícia | da lista de quatro da sua Origem |
@@ -1364,11 +1376,11 @@ As listas de perícia, os traços e as rotas estão no capítulo 7, *Origens e L
 
 A Origem não dá ponto de atributo nenhum, e não decide a sua patente: todo personagem começa **Grau 4**, venha de onde vier.
 
-> **Nem toda Origem fecha ficha hoje.** Três das nove rotas de criação dependem de regra que ainda está sendo escrita. A tabela de quais rodam está no fim do capítulo 7, *Origens e Legados*; confira antes de se apegar a uma escolha.
+> **Nem toda Origem fecha ficha hoje.** Três das nove rotas de criação dependem de regra que ainda está sendo escrita. O fim do capítulo 7, *Origens e Legados*, diz quais rodam; confira antes de se apegar a uma escolha.
 
-## Passo 2 · A Regra da técnica, em uma frase
+## Passo 2 · Regra da técnica
 
-Uma frase que diz o que a sua técnica faz com o mundo, sem falar em efeito nem em dano. Ela vem cedo de propósito: antes de qualquer coisa numérica travar o personagem, você já decidiu o que a técnica dele é, e esse núcleo guia as escolhas que vêm depois.
+Uma frase que diz o que a sua técnica faz com o mundo, sem falar em efeito nem em dano.
 
 > *"Tudo que eu prendo entre as minhas mãos fica mais pesado."*
 >
@@ -1384,6 +1396,7 @@ Pare aqui e vá para o Caminho. O resto da técnica volta no passo 5.
 
 Que lugar você ocupa numa equipe. Um Caminho por personagem, escolhido agora e para sempre. Não existe multiclasse.
 
+**Caminhos**
 | Caminho | O que ele é | Atributos naturais |
 |---|---|---|
 | **Bastião** | o corpo como resposta: aguentar, encarar, prender | Força, Constituição |
@@ -1392,10 +1405,11 @@ Que lugar você ocupa numa equipe. Um Caminho por personagem, escolhido agora e 
 | **Emanador** | a técnica como resposta: mais feitiço, mais aptidão | Inteligência, Essência |
 | **Evocador** | o que você trouxe como resposta: invocações | Inteligência, Essência |
 
-O Caminho mexe em posicionamento, alvo, duração e recuperação. Ele nunca mexe em dados de dano, Classe de feitiço, Melhoria de graça ou cura. É isso que faz dois personagens do mesmo Caminho, com técnicas diferentes, continuarem sendo coisas completamente diferentes na mesa.
+O Caminho mexe em posicionamento, alvo, duração e recuperação. Ele nunca mexe em dados de dano, Classe de feitiço, Melhoria de graça ou cura.
 
-#### O que o Caminho entrega agora
+### Características do Caminho
 
+**Características do Caminho**
 | Caminho | Vida inicial | Vida por nível | PE por nível | Perícias fixas |
 |---|---|---|---|---|
 | **Bastião** | 12 (d12) | 7 | 4 | Atletismo · Intimidação |
@@ -1406,7 +1420,7 @@ O Caminho mexe em posicionamento, alvo, duração e recuperação. Ele nunca mex
 
 Mais **quatro perícias à sua escolha**, de qualquer lugar do quadro, **dois ofícios à sua escolha** e **um Teste de Resistência treinado**.
 
-#### A Trilha
+### Trilha
 
 A Trilha é escolhida agora, junto do Caminho, e nasce com o personagem. São três por Caminho: Muro · Punho · Brasa no Bastião, Estocada · Batedor · Executor na Vanguarda, e assim por diante. A lista está no capítulo 8, *Caminhos e Trilhas*.
 
@@ -1418,6 +1432,7 @@ A Trilha é escolhida agora, junto do Caminho, e nasce com o personagem. São tr
 
 O número **é** o modificador. Não existe valor separado nem tabela de conversão. A escala vai de 0 a 6, e 6 é o topo humano. Uma distribuição legal, por exemplo, é 3 · 2 · 2 · 1 · 1.
 
+**Atributos**
 | | Força | Destreza | Constituição | Inteligência | Essência |
 |---|---|---|---|---|---|
 | **governa** | ataque corpo a corpo, agarrar, quebrar, carregar | ataque à distância, **Defesa**, **iniciativa** | **pontos de vida** | conhecimento, investigação | **perceber energia**, trato social, Pactos |
@@ -1426,13 +1441,13 @@ Inteligência sabe; Essência percebe. Sentir energia amaldiçoada é a sua ener
 
 > **Trave agora o seu Teste de Resistência Físico.** Ele usa Força ou Destreza, você escolhe na criação e não muda depois.
 
-## Passo 5 · A técnica inteira
+## Passo 5 · Técnica inteira
 
-Aqui você abre o capítulo 9, *Fundamento*. É a parte longa, e é a que faz o personagem ser seu. Você já tem a Regra e já sabe o Caminho; falta o resto, e agora ele já pode ser escrito sabendo quem vai carregar essa técnica pela campanha.
+Aqui você abre o capítulo 9, *Fundamento*. É a parte longa. Você já tem a Regra e já sabe o Caminho; falta o resto.
 
-1. **Descrição.** De onde a técnica veio, como ela aparece, o que as pessoas veem quando ela age. Sem efeito mecânico. É o que faz duas técnicas iguais parecerem diferentes.
+1. **Descrição.** De onde a técnica veio, como ela aparece, o que as pessoas veem quando ela age. Sem efeito mecânico.
 2. **Famílias.** Duas **Livres**, cujas Melhorias custam metade da Classe a menos, e três **Fechadas**, das quais você nunca compra nada.
-3. **Selo.** O gesto, a condição ou o objeto que a sua técnica exige. Não custa nem devolve ponto: ele é identidade e mais uma trava. Restrição que o Selo já obriga não devolve ponto.
+3. **Selo.** O gesto, a condição ou o objeto que a sua técnica exige. Não custa nem devolve ponto. Restrição que o Selo já obriga não devolve ponto.
 4. **Passiva Livre.** Uma, de graça, para todo mundo. Ela não rola dado, não muda número e não faz ninguém rolar.
 5. **Os feitiços.** No nível 2 você tem **Classe 1**, dois feitiços de **Classe 0** (grátis, não ocupam espaço) e **três feitiços conhecidos**, montados pelo orçamento da Classe 1. Três é o que a fórmula `2 + (nível ÷ 2)` dá no nível 2.
 
@@ -1440,6 +1455,7 @@ Aqui você abre o capítulo 9, *Fundamento*. É a parte longa, e é a que faz o 
 
 ## Passo 6 · Perícias, ofícios e Testes de Resistência
 
+**Treino na criação**
 | De onde vem | Perícias | Ofícios | Teste de Resistência |
 |---|---|---|---|
 | **Caminho** | 2 fixas + 4 à sua escolha | 2 à sua escolha | 1 |
@@ -1448,6 +1464,7 @@ Aqui você abre o capítulo 9, *Fundamento*. É a parte longa, e é a que faz o 
 
 O extra da Origem é uma escolha entre duas rotas, e as duas fecham a ficha:
 
+**Rotas do extra**
 | Rota do extra | Perícias | Ofícios |
 |---|---|---|
 | pegando o ofício | 8 de 23 | 3 de 11 |
@@ -1461,10 +1478,11 @@ Perícia pertence a um atributo fixo: Atletismo é sempre Força. Ofício não p
 
 O quadro completo das perícias e dos ofícios está no capítulo 3, *Perícias e Ofícios*.
 
-## Passo 7 · Os números que caem sozinhos
+## Passo 7 · Números derivados
 
 Nada aqui é escolha. Você copia da tabela e faz a conta.
 
+**Números do nível 2**
 | Número | Como sai |
 |---|---|
 | Maestria | 1 |
@@ -1482,23 +1500,23 @@ Nada aqui é escolha. Você copia da tabela e faz a conta.
 | Perícia treinada | d20 + atributo + 1 |
 | Teste de Resistência | d20 + atributo do TR, +2 se treinado |
 
-No refino 1 você já tem duas aptidões, de graça: `cobrir-se de energia`, que dá proteção sem equipamento, e `canalizar energia`, que permite ferir uma maldição com o corpo ou com a arma. São básicas de qualquer feiticeiro, e por isso não custam nada.
+No refino 1 você já tem duas aptidões, de graça: `cobrir-se de energia`, que dá proteção sem equipamento, e `canalizar energia`, que permite ferir uma maldição com o corpo ou com a arma. São básicas de qualquer feiticeiro.
 
 > **Toda ficha de nível 2 nasce com proteção 1.** É o `+1` que entra na Defesa acima. Sem Traje e sem Revestimento, a sua proteção é `1/3 do refino + 1`, que no refino 1 dá 1. Escudo soma com ela; Traje e Revestimento desligam.
 
 ## Passo 8 · Pactos
 
-Opcional, e a maioria dos personagens começa sem. Ele fecha a ficha porque é a única peça que troca alguma coisa da vida do personagem por poder a mais, e faz mais sentido decidir isso depois que o resto da ficha já existe.
+Opcional, e a maioria dos personagens começa sem.
 
-Pacto é o que você trocou por poder. Ele permite quase qualquer coisa desde que o preço seja real, e por isso carrega a mesma trava da Regra da técnica: uma frase, verificável pela mesa, simétrica, sem dano direto, com limite.
+Pacto é o que você trocou por poder. Ele permite quase qualquer coisa desde que o preço seja real, e carrega a mesma trava da Regra da técnica: uma frase, verificável pela mesa, simétrica, sem dano direto, com limite.
 
 > **Está sendo escrita.** A regra completa de Pactos ainda não fechou. Até lá, pacto na criação só entra com aprovação do mestre e com o preço escrito na ficha.
 
-## Uma ficha inteira, do começo ao fim
+## Exemplo
 
 **A Kaori**, feiticeira de nível 2.
 
-#### Origem
+### Origem
 
 **Descendente.** Um clã menor que perdeu o nome faz três gerações. Como todo mundo, ela começa Grau 4: quem abre porta pra ela é o sobrenome, mesmo com a patente baixa.
 
@@ -1510,30 +1528,31 @@ Pacto é o que você trocou por poder. Ele permite quase qualquer coisa desde qu
 - *Legado · `Destranca`:* **O Sobrenome**, que dá audiência em qualquer lugar do meio jujutsu. Ser bem recebida é outra história
 - *Legado · o segundo:* **Biblioteca**, que uma vez por cena refaz um teste de História ou Ocultismo. A casa tinha os livros, e ela foi obrigada a ler
 
-#### A Regra
+### Regra
 
 *"Tudo que eu prendo entre as minhas mãos fica mais pesado."*
 
-#### Caminho e Trilha
+### Caminho e Trilha
 
 **Bastião**, Trilha **Muro**: o corpo é o escudo, e é o que a Regra dela já pedia. *Teste de Resistência do Caminho:* **Físico**.
 
-#### Atributos
+### Atributos
 
 Força 3 · Constituição 2 · Destreza 2 · Inteligência 1 · Essência 1. Nove pontos, nenhum acima de 3, e o **TR Físico travado em Força**.
 
-#### Técnica
+### Técnica
 
 *Famílias Livres:* Controle e Castigo. *Fechadas:* Amparo, Área e Auxiliares, porque ela não cura, não pega área e não dá suporte. *Selo:* as duas mãos precisam se tocar antes. *Passiva Livre:* ela sabe o peso exato de qualquer coisa que encoste nela.
 
-#### Perícias e ofícios
+### Perícias e ofícios
 
 **Oito perícias.** Do Caminho, fixas: Atletismo e Intimidação. Do Caminho, livres: Sentir Energia, Percepção, Sobrevivência e Intuição. Da Origem: Hierarquia e História.
 
 **Três ofícios.** Forja e Caligrafia, os dois livres do Caminho, e Herbalismo, o extra da Origem.
 
-#### Os números
+### Números
 
+**Números da Kaori**
 | | Conta | Resultado |
 |---|---|---|
 | Vida | (12 + 2) + (7 + 2) | **23** |
@@ -1546,7 +1565,7 @@ Força 3 · Constituição 2 · Destreza 2 · Inteligência 1 · Essência 1. No
 | CD dos feitiços dela | 10 + 2 + 1 | **13** |
 | Atletismo (treinado) | d20 + 3 + 1 | **d20 + 4** |
 
-## O que o mestre confere antes de aprovar
+## Checklist do mestre
 
 Sete perguntas, e todas têm resposta objetiva.
 
@@ -1558,7 +1577,7 @@ Sete perguntas, e todas têm resposta objetiva.
 6. **Alguém que não seja o dono leu a técnica?**
 7. **Os três feitiços conhecidos fecham no orçamento da Classe 1?** Três pontos cada.
 
-O mestre pode recusar mesmo quando a ficha passa nas sete. O checklist existe para tornar o "sim" barato.
+O mestre pode recusar mesmo quando a ficha passa nas sete.
 
 ---
 
@@ -1571,10 +1590,9 @@ A Origem responde uma pergunta só: de onde veio o seu poder. O que você faz co
 
 São sete Origens. Cinco principais (Latente, Receptáculo, Descendente, Reencarnado e Feto) e duas especiais, Corpo Amaldiçoado e Restrição Celestial. Existe ainda uma sub-origem, Sem Técnica, que se soma a qualquer uma das cinco principais.
 
-Cada Origem tem uma seção própria neste capítulo, e essa seção guarda tudo o que é dela: a ficção, o que ela muda na ficha, os traços que ela sugere, a rota por onde você monta o poder, e as listas de Legado. Você lê a sua e pula as outras seis.
+## Características da Origem
 
-## O que a Origem dá
-
+**Características da Origem**
 | O que você anota | Detalhe |
 |---|---|
 | **Uma perícia** | da lista de quatro da sua Origem |
@@ -1585,9 +1603,9 @@ Cada Origem tem uma seção própria neste capítulo, e essa seção guarda tudo
 | **Dois Legados** | um `Destranca` obrigatório, mais um de qualquer formato |
 | **A rota de criação** | por onde você monta o seu poder |
 
-### O que a Origem não mexe
+### Limites
 
-Três coisas ficam de fora, e cada uma é decisão fechada.
+Três coisas ficam de fora.
 
 #### Atributo
 
@@ -1595,7 +1613,7 @@ Nenhuma Origem dá ponto de atributo. Ser recipiente de alguma coisa te dá um p
 
 #### Feitiço
 
-Nenhuma Origem abre Família, fecha Família, dá Melhoria nem muda Classe. Dois Descendentes com técnicas diferentes continuam sendo coisas completamente diferentes na mesa.
+Nenhuma Origem abre Família, fecha Família, dá Melhoria nem muda Classe.
 
 #### Patente
 
@@ -1609,7 +1627,7 @@ Depois vem **O que muda**, sempre na mesma ordem: as **Perícias**, a lista de q
 
 Por último vêm os **Legados** da Origem, nos três formatos, cada um com a sua tabela e o texto de cada entrada.
 
-## Os dois Legados
+## Legados
 
 Legado é um benefício pequeno e específico que você trouxe de antes de a história começar. Você recebe dois na criação e mais nenhum, nunca: não sobe com o nível, não aparece em marco, não se compra. Legado nenhum produz dano ou escala com nível.
 
@@ -1624,19 +1642,19 @@ Quando uma entrada termina numa linha *Na mesa*, essa linha diz em que tipo de c
 
 Um Destranca abre uma porta: um lugar onde você é recebido, uma coisa que você sabe, uma pessoa que existe no mundo por sua causa. Ele nunca mexe em acerto, CD ou dano.
 
-A tabela mostra o nome e o **relógio**: quantas vezes por período você pode puxar o gatilho que arranca do mestre uma verdade que ele até então guardava. A maioria não tem relógio, e a afirmação vale sempre, sem contagem. Só quando o Destranca obriga o mestre a te entregar uma informação nova é que ele ganha relógio, pela mesma escada de sempre: por cena, por descanso curto, por dia, por descanso longo, do mais frequente ao mais raro.
+Cada tabela de `Destranca` traz o nome e o **relógio**: quantas vezes por período você pode puxar o gatilho que arranca do mestre uma verdade que ele até então guardava. A maioria não tem relógio, e a afirmação vale sempre, sem contagem. Só quando o Destranca obriga o mestre a te entregar uma informação nova é que ele ganha relógio, pela mesma escada de sempre: por cena, por descanso curto, por dia, por descanso longo, do mais frequente ao mais raro.
 
 ### Como ler um Ajusta
 
 Um Ajusta mexe num número de uma rolagem. Quase sempre de um dos dois jeitos: você refaz um teste que já falhou, ou rola com **vantagem** (joga dois dados e fica com o melhor resultado).
 
-A tabela mostra duas coisas além do nome. **Alcança** diz quantas coisas nomeadas o gatilho cobre: uma perícia só, uma condição só, ou uma categoria inteira (qualquer perícia, qualquer ofício). **Relógio** diz quantas vezes por período você pode usar, na mesma escada: por cena, por descanso curto, por dia, por descanso longo. Quanto mais largo o alcance, mais raro o relógio.
+Cada tabela de `Ajusta` traz duas coisas além do nome. **Alcança** diz quantas coisas nomeadas o gatilho cobre: uma perícia só, uma condição só, ou uma categoria inteira (qualquer perícia, qualquer ofício). **Relógio** diz quantas vezes por período você pode usar, na mesma escada: por cena, por descanso curto, por dia, por descanso longo. Quanto mais largo o alcance, mais raro o relógio.
 
 ### Como ler um Desliga
 
 Um Desliga apaga uma coisa que aconteceria com você, sempre que a situação aparecer, sem rolagem nenhuma. Não existe "tentar" um Desliga; ou a situação bateu e ele age, ou não bateu.
 
-A tabela mostra o que ele **apaga** e o **relógio**. A maioria dos Desliga vale sempre, sem contagem, porque apagar algo pontualmente não pesa como uma rolagem extra. O texto de cada entrada também diz o que você paga em troca: nenhum Desliga é só ganho.
+Cada tabela de `Desliga` traz o que ele **apaga** e o **relógio**. A maioria dos Desliga vale sempre, sem contagem, porque apagar algo pontualmente não pesa como uma rolagem extra. O texto de cada entrada também diz o que você paga em troca: nenhum Desliga é só ganho.
 
 ## Latente
 
@@ -1650,7 +1668,7 @@ A instituição gosta de Latente e desconfia de Latente pelo mesmo motivo. Gosta
 
 **Na obra:** Nanami e Hakari, que não vêm de clã e construíram sozinhos o que fazem. O Junpei também: a técnica dele, Escória da Lua, era inata, e o que o Mahito fez foi mexer no cérebro dele para que ela despertasse antes da hora.
 
-### O que muda
+### Efeito na ficha
 
 #### Perícias
 
@@ -1672,6 +1690,7 @@ Fundamento, do jeito padrão.
 
 *Escolha um destes, obrigatoriamente.*
 
+**Destranca da Latente**
 | Legado | Relógio |
 |---|---|
 | O Jeito Errado | por dia |
@@ -1696,6 +1715,7 @@ Fundamento, do jeito padrão.
 
 #### Ajusta
 
+**Ajusta da Latente**
 | Legado | Alcança | Relógio |
 |---|---|---|
 | Aprendi Apanhando | qualquer perícia (23) | por dia |
@@ -1717,6 +1737,7 @@ Fundamento, do jeito padrão.
 
 #### Desliga
 
+**Desliga da Latente**
 | Legado | Apaga | Relógio |
 |---|---|---|
 | Inédito | ser reconhecido pelo catálogo | sempre |
@@ -1740,7 +1761,7 @@ A instituição trata Receptáculo como material sob observação. Existe pasta,
 
 **Na obra:** o Itadori, que come o dedo e passa a dividir o corpo com o Sukuna, e que tem técnica inata própria por baixo disso. E a Hana Kurusu, em quem o Anjo vive simbioticamente, sem sobrescrever a consciência dela.
 
-### O que muda
+### Efeito na ficha
 
 #### Perícias
 
@@ -1762,6 +1783,7 @@ Fundamento, do jeito padrão. O passageiro mora na ficção da mesa, e a montage
 
 *Escolha um destes, obrigatoriamente.*
 
+**Destranca do Receptáculo**
 | Legado | Relógio |
 |---|---|
 | A Voz de Dentro | por dia |
@@ -1786,6 +1808,7 @@ Fundamento, do jeito padrão. O passageiro mora na ficção da mesa, e a montage
 
 #### Ajusta
 
+**Ajusta do Receptáculo**
 | Legado | Alcança | Relógio |
 |---|---|---|
 | Não Sou Só Eu | Teste de Resistência de Espírito, três situações nomeadas (3) | por cena |
@@ -1807,6 +1830,7 @@ Fundamento, do jeito padrão. O passageiro mora na ficção da mesa, e a montage
 
 #### Desliga
 
+**Desliga do Receptáculo**
 | Legado | Apaga | Relógio |
 |---|---|---|
 | Máscara | ser sentido pelo que você é | sempre |
@@ -1827,7 +1851,7 @@ Para a instituição, Descendente é funcionário e representante estrangeiro ao
 
 **Na obra:** Gojo, Inumaki, Kamo, Zen'in. As técnicas de clã têm nome próprio, e todo mundo do meio conhece.
 
-### O que muda
+### Efeito na ficha
 
 #### Perícias
 
@@ -1849,6 +1873,7 @@ Fundamento, do jeito padrão.
 
 *Escolha um destes, obrigatoriamente. Os quatro primeiros são arquétipos de clã; o quinto é para quem inventou o próprio; o sexto é a mesma sub-origem que as outras quatro Origens principais também alcançam.*
 
+**Destranca do Descendente**
 | Legado | O clã que ele desenha | Relógio |
 |---|---|---|
 | O Sobrenome | o clã do nome: *Gojo* | sem relógio |
@@ -1877,6 +1902,7 @@ Fundamento, do jeito padrão.
 
 #### Ajusta
 
+**Ajusta do Descendente**
 | Legado | Alcança | Relógio |
 |---|---|---|
 | Conversa de Jantar | técnica de clã (1) | por cena |
@@ -1898,6 +1924,7 @@ Fundamento, do jeito padrão.
 
 #### Desliga
 
+**Desliga do Descendente**
 | Legado | Apaga | Relógio |
 |---|---|---|
 | Coleira | ser localizado ou rastreado | sempre |
@@ -1920,7 +1947,7 @@ A instituição não tem casinha para você. Reencarnado entra na papelada como 
 
 **Na obra:** o Kashimo, feiticeiro de quatrocentos anos atrás que aceitou virar objeto amaldiçoado e encarnar num corpo que o Kenjaku preparou, com a condição de poder enfrentar o Sukuna.
 
-### O que muda
+### Efeito na ficha
 
 #### Perícias
 
@@ -1942,6 +1969,7 @@ Fundamento, do jeito padrão.
 
 *Escolha um destes, obrigatoriamente.*
 
+**Destranca do Reencarnado**
 | Legado | Relógio |
 |---|---|
 | O Que Ninguém Lembra | por descanso longo |
@@ -1966,6 +1994,7 @@ Fundamento, do jeito padrão.
 
 #### Ajusta
 
+**Ajusta do Reencarnado**
 | Legado | Alcança | Relógio |
 |---|---|---|
 | Corpo Emprestado | uma condição nomeada (1) | por cena |
@@ -1987,6 +2016,7 @@ Fundamento, do jeito padrão.
 
 #### Desliga
 
+**Desliga do Reencarnado**
 | Legado | Apaga | Relógio |
 |---|---|---|
 | *vaga reservada* | objeto amaldiçoado, em desenvolvimento | — |
@@ -2006,7 +2036,7 @@ Para a instituição você é, no papel, uma maldição com nome. Tem gente que 
 
 **Na obra:** o Choso e os irmãos, ventres de Pintura da Morte, metade humano e metade maldição.
 
-### O que muda
+### Efeito na ficha
 
 #### Perícias
 
@@ -2028,6 +2058,7 @@ Fundamento, do jeito padrão.
 
 *Escolha um destes, obrigatoriamente.*
 
+**Destranca do Feto**
 | Legado | Relógio |
 |---|---|
 | Irmãos | sem relógio |
@@ -2052,6 +2083,7 @@ Fundamento, do jeito padrão.
 
 #### Ajusta
 
+**Ajusta do Feto**
 | Legado | Alcança | Relógio |
 |---|---|---|
 | Meio e Meio | veneno e doença (1) | por cena |
@@ -2073,6 +2105,7 @@ Fundamento, do jeito padrão.
 
 #### Desliga
 
+**Desliga do Feto**
 | Legado | Apaga | Relógio |
 |---|---|---|
 | Sangue que Não é Sangue | comer, dormir, respirar | sempre |
@@ -2097,7 +2130,7 @@ O poder vem de dois lugares.
 
 **Estilo da Sombra.** Você aprendeu a matar maldição com técnica de espada e de corpo, sem precisar de técnica amaldiçoada. É a Miwa e o Kusakabe.
 
-### O que muda
+### Efeito na ficha
 
 Você não escreve Fundamento. Não tem Regra, não tem Famílias, não tem Selo, não tem feitiço. A Origem principal continua dando tudo o que dá.
 
@@ -2107,7 +2140,7 @@ Aptidão ou Estilo da Sombra.
 
 > **Sem Técnica não é jogável hoje.** O que falta é a máquina de criação: as duas rotas precisam de uma construção com a mesma dignidade que o Fundamento tem, dizendo quantas aptidões, com que orçamento, e o que se paga por elas. Está sendo escrita.
 
-### O Legado de Sem Técnica
+### Legado de Sem Técnica
 
 Sem Técnica não amplia a conta de Legados. Ela é uma entrada de `Destranca` e ocupa uma das duas vagas, como qualquer outra. Cinco Origens compartilham esta entrada em vez de cada uma repetir o texto na própria lista: Latente, Receptáculo, Descendente, Reencarnado e Feto.
 
@@ -2127,7 +2160,7 @@ O meio jujutsu não sabe onde te colocar, e resolve isso de vários jeitos ruins
 
 **Na obra:** o Panda, feito pelo Yaga, com três núcleos que ele troca à vontade: o de gorila, o de panda e o de tricerátops.
 
-### O que muda
+### Efeito na ficha
 
 Sem Fundamento, porque não existe técnica inata para escrever. Você tem energia amaldiçoada: cadáver de mutação abrupta produz a própria, uns três meses depois de acordar. Então PE, aptidões e refino são normais, com Técnica Marcial no lugar do Fundamento.
 
@@ -2153,6 +2186,7 @@ Técnica Marcial, que está sendo escrita.
 
 *Escolha um destes, obrigatoriamente. A configuração que você escolhe aqui decide qual das quatro listas de Ajusta abaixo você alcança.*
 
+**Destranca do Corpo Amaldiçoado**
 | Legado | Relógio |
 |---|---|
 | Ninhada | sem relógio |
@@ -2178,6 +2212,7 @@ Técnica Marcial, que está sendo escrita.
 
 ##### Ninhada
 
+**Ninhada**
 | Legado | Alcança | Relógio |
 |---|---|---|
 | Rodízio | três perícias nomeadas (3) | por cena |
@@ -2195,6 +2230,7 @@ Técnica Marcial, que está sendo escrita.
 
 ##### Gêmeos
 
+**Gêmeos**
 | Legado | Alcança | Relógio |
 |---|---|---|
 | Cabeça Trocada | uma perícia nomeada (1) | por cena |
@@ -2212,6 +2248,7 @@ Técnica Marcial, que está sendo escrita.
 
 ##### Inteiro
 
+**Inteiro**
 | Legado | Alcança | Relógio |
 |---|---|---|
 | Feito de Uma Peça | Teste de Resistência de Vigor (1) | por cena |
@@ -2229,6 +2266,7 @@ Técnica Marcial, que está sendo escrita.
 
 ##### Manutenção
 
+**Manutenção**
 | Legado | Alcança | Relógio |
 |---|---|---|
 | Ajuste Fino | um ofício nomeado (1) | por cena |
@@ -2246,6 +2284,7 @@ Técnica Marcial, que está sendo escrita.
 
 #### Desliga
 
+**Desliga do Corpo Amaldiçoado**
 | Legado | Apaga | Relógio |
 |---|---|---|
 | Ferro Velho | os degraus de exaustão | sempre |
@@ -2268,8 +2307,9 @@ São dois ramos opostos, e você escolhe um na criação.
 
 Os clãs tratam os dois ramos como defeito de nascença, e tratam pior o segundo. Uma criança que nasce sem energia dentro de uma família do meio cresce sendo tratada como erro de produção, e o meio inteiro aceita isso com naturalidade. A instituição, por sua vez, é pragmática: gente com Restrição Celestial costuma render mais que a média, e a papelada acompanha o rendimento. Você vai ser útil, vai ser exibido, e vai ouvir a mesma frase sobre o seu corpo a vida inteira, dita por gente que acha que está sendo gentil.
 
-### O que muda
+### Efeito na ficha
 
+**Ramos da Restrição Celestial**
 | Ramo | O que muda | Criação |
 |---|---|---|
 | **Corpo pela técnica** | Fundamento normal, corpo com limitação escrita na ficha | Fundamento |
@@ -2293,6 +2333,7 @@ A lista de quatro desta Origem está sendo escrita.
 
 *Escolha um destes, obrigatoriamente.*
 
+**Destranca · Corpo pela Técnica**
 | Legado | O que ele desenha | Relógio |
 |---|---|---|
 | Nasci Assim | o que o seu corpo não faz, e o que isso cobra todo dia | sem relógio |
@@ -2314,6 +2355,7 @@ A lista de quatro desta Origem está sendo escrita.
 
 #### Ajusta
 
+**Ajusta · Corpo pela Técnica**
 | Legado | Alcança | Relógio |
 |---|---|---|
 | Antena | Sentir Energia (1) | por cena |
@@ -2343,6 +2385,7 @@ A lista de quatro desta Origem está sendo escrita.
 
 *Escolha um destes, obrigatoriamente.*
 
+**Destranca · Energia pelo Corpo**
 | Legado | O que ele desenha | Relógio |
 |---|---|---|
 | Descartado | o clã que te jogou fora | sem relógio |
@@ -2364,6 +2407,7 @@ A lista de quatro desta Origem está sendo escrita.
 
 #### Ajusta
 
+**Ajusta · Energia pelo Corpo**
 | Legado | Alcança | Relógio |
 |---|---|---|
 | Sentido Treinado | maldição (1) | por cena |
@@ -2383,10 +2427,11 @@ A lista de quatro desta Origem está sendo escrita.
 > **No Braço** — uma vez por dia, refaça um teste de perícia de Força ou Destreza que você falhou.
 > *Na mesa:* a segunda chance na perseguição, na escalada e no agarrão, que é onde este personagem passa a maior parte do tempo.
 
-### Legados: Desliga dos dois ramos
+### Legados: Desliga
 
 *Vale para Corpo pela Técnica e para Energia pelo Corpo.*
 
+**Desliga da Restrição Celestial**
 | Legado | Apaga | Relógio |
 |---|---|---|
 | Peso Real | ser enganado por barreira, véu e ferramenta | sempre |
@@ -2395,8 +2440,9 @@ A lista de quatro desta Origem está sendo escrita.
 > **Peso Real** — você percebe ferramenta amaldiçoada, barreira e véu pelo tato e pelo peso. O que engana feiticeiro não engana você. Em troca, o aviso vem sem nome: você sente que tem alguma coisa ali, e nunca o que é.
 > *Na mesa:* você é o detector de armadilha do grupo em terreno preparado, e o que você entrega é um aviso que ninguém sabe interpretar sem investigar.
 
-## Para onde cada Origem manda
+## Rotas de criação
 
+**Rotas de criação**
 | Origem | Rota de criação | Jogável hoje |
 |---|---|---|
 | Latente | Fundamento | **sim** |

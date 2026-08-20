@@ -19,8 +19,8 @@ Toda ficha nasce no **nível 2**, com **Grau 4** de patente. O teto é o nível 
 | `Projeto-M-Manual-da-Guilda.pdf` | o manual jogável, 199 páginas, 16 capítulos | **é a referência principal.** Regra que vale na mesa está aqui |
 | `github.com/cupcake-mochi/JJK---PDF---RPG` | pacote de entrega: `regra/` (19 peças), `desenho/`, `manual/`, `ficha/` | quando o PDF não bastar, ou para conferir número |
 | `github.com/cupcake-mochi/JJK---Project` | repositório de trabalho, com CHANGELOG de 700 KB | **evite.** É argumento de design e histórico de decisão |
-| `ficha/ficha-em-branco.docx` | a ficha de papel, que é a especificação de layout | **é o molde a digitalizar** |
-| `ficha/ficha-exemplo-kaori.docx` | uma ficha preenchida de nível 2 | caso de teste pronto |
+| ficha-em-branco.docx | a ficha de papel, que é a especificação de layout. Fica em ficha/, no pacote de entrega | **é o molde a digitalizar** |
+| ficha-exemplo-kaori.docx | uma ficha preenchida de nível 2. Fica em ficha/, no pacote de entrega | caso de teste pronto |
 
 > **Regra de ouro ao ler o repositório.** As peças de `regra/` **não são texto de mesa**: são argumento de design, com mais parágrafo de justificativa do que de regra. Texto riscado, bloco começando com "Corrigido na vX" e nota em itálico são **história** — registram o que a regra era. O PDF já fez essa transposição; prefira ele.
 

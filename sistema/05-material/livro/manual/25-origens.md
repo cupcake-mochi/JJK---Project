@@ -4,9 +4,10 @@ A Origem responde uma pergunta só: de onde veio o seu poder. O que você faz co
 
 São sete Origens. Cinco principais (Latente, Receptáculo, Descendente, Reencarnado e Feto) e duas especiais, Corpo Amaldiçoado e Restrição Celestial. Existe ainda uma sub-origem, Sem Técnica, que se soma a qualquer uma das cinco principais.
 
-Cada Origem tem uma seção própria neste capítulo, e essa seção guarda tudo o que é dela: a ficção, o que ela muda na ficha, os traços que ela sugere, a rota por onde você monta o poder, e as listas de Legado. Você lê a sua e pula as outras seis.
+## Características da Origem
 
-## O que a Origem dá
+**Características da Origem**
+{: .tab-titulo }
 
 | O que você anota | Detalhe |
 |---|---|
@@ -18,9 +19,9 @@ Cada Origem tem uma seção própria neste capítulo, e essa seção guarda tudo
 | **Dois Legados** | um `Destranca` obrigatório, mais um de qualquer formato |
 | **A rota de criação** | por onde você monta o seu poder |
 
-### O que a Origem não mexe
+### Limites
 
-Três coisas ficam de fora, e cada uma é decisão fechada.
+Três coisas ficam de fora.
 
 #### Atributo
 
@@ -28,7 +29,7 @@ Nenhuma Origem dá ponto de atributo. Ser recipiente de alguma coisa te dá um p
 
 #### Feitiço
 
-Nenhuma Origem abre Família, fecha Família, dá Melhoria nem muda Classe. Dois Descendentes com técnicas diferentes continuam sendo coisas completamente diferentes na mesa.
+Nenhuma Origem abre Família, fecha Família, dá Melhoria nem muda Classe.
 
 #### Patente
 
@@ -42,7 +43,7 @@ Depois vem **O que muda**, sempre na mesma ordem: as **Perícias**, a lista de q
 
 Por último vêm os **Legados** da Origem, nos três formatos, cada um com a sua tabela e o texto de cada entrada.
 
-## Os dois Legados
+## Legados
 
 Legado é um benefício pequeno e específico que você trouxe de antes de a história começar. Você recebe dois na criação e mais nenhum, nunca: não sobe com o nível, não aparece em marco, não se compra. Legado nenhum produz dano ou escala com nível.
 
@@ -57,19 +58,19 @@ Quando uma entrada termina numa linha *Na mesa*, essa linha diz em que tipo de c
 
 Um Destranca abre uma porta: um lugar onde você é recebido, uma coisa que você sabe, uma pessoa que existe no mundo por sua causa. Ele nunca mexe em acerto, CD ou dano.
 
-A tabela mostra o nome e o **relógio**: quantas vezes por período você pode puxar o gatilho que arranca do mestre uma verdade que ele até então guardava. A maioria não tem relógio, e a afirmação vale sempre, sem contagem. Só quando o Destranca obriga o mestre a te entregar uma informação nova é que ele ganha relógio, pela mesma escada de sempre: por cena, por descanso curto, por dia, por descanso longo, do mais frequente ao mais raro.
+Cada tabela de `Destranca` traz o nome e o **relógio**: quantas vezes por período você pode puxar o gatilho que arranca do mestre uma verdade que ele até então guardava. A maioria não tem relógio, e a afirmação vale sempre, sem contagem. Só quando o Destranca obriga o mestre a te entregar uma informação nova é que ele ganha relógio, pela mesma escada de sempre: por cena, por descanso curto, por dia, por descanso longo, do mais frequente ao mais raro.
 
 ### Como ler um Ajusta
 
 Um Ajusta mexe num número de uma rolagem. Quase sempre de um dos dois jeitos: você refaz um teste que já falhou, ou rola com **vantagem** (joga dois dados e fica com o melhor resultado).
 
-A tabela mostra duas coisas além do nome. **Alcança** diz quantas coisas nomeadas o gatilho cobre: uma perícia só, uma condição só, ou uma categoria inteira (qualquer perícia, qualquer ofício). **Relógio** diz quantas vezes por período você pode usar, na mesma escada: por cena, por descanso curto, por dia, por descanso longo. Quanto mais largo o alcance, mais raro o relógio.
+Cada tabela de `Ajusta` traz duas coisas além do nome. **Alcança** diz quantas coisas nomeadas o gatilho cobre: uma perícia só, uma condição só, ou uma categoria inteira (qualquer perícia, qualquer ofício). **Relógio** diz quantas vezes por período você pode usar, na mesma escada: por cena, por descanso curto, por dia, por descanso longo. Quanto mais largo o alcance, mais raro o relógio.
 
 ### Como ler um Desliga
 
 Um Desliga apaga uma coisa que aconteceria com você, sempre que a situação aparecer, sem rolagem nenhuma. Não existe "tentar" um Desliga; ou a situação bateu e ele age, ou não bateu.
 
-A tabela mostra o que ele **apaga** e o **relógio**. A maioria dos Desliga vale sempre, sem contagem, porque apagar algo pontualmente não pesa como uma rolagem extra. O texto de cada entrada também diz o que você paga em troca: nenhum Desliga é só ganho.
+Cada tabela de `Desliga` traz o que ele **apaga** e o **relógio**. A maioria dos Desliga vale sempre, sem contagem, porque apagar algo pontualmente não pesa como uma rolagem extra. O texto de cada entrada também diz o que você paga em troca: nenhum Desliga é só ganho.
 
 ## Latente
 
@@ -83,7 +84,7 @@ A instituição gosta de Latente e desconfia de Latente pelo mesmo motivo. Gosta
 
 **Na obra:** Nanami e Hakari, que não vêm de clã e construíram sozinhos o que fazem. O Junpei também: a técnica dele, Escória da Lua, era inata, e o que o Mahito fez foi mexer no cérebro dele para que ela despertasse antes da hora.
 
-### O que muda
+### Efeito na ficha
 
 #### Perícias
 
@@ -104,6 +105,9 @@ Fundamento, do jeito padrão.
 #### Destranca
 
 *Escolha um destes, obrigatoriamente.*
+
+**Destranca da Latente**
+{: .tab-titulo }
 
 | Legado | Relógio |
 |---|---|
@@ -129,6 +133,9 @@ Fundamento, do jeito padrão.
 
 #### Ajusta
 
+**Ajusta da Latente**
+{: .tab-titulo }
+
 | Legado | Alcança | Relógio |
 |---|---|---|
 | Aprendi Apanhando | qualquer perícia (23) | por dia |
@@ -149,6 +156,9 @@ Fundamento, do jeito padrão.
 > *Na mesa:* cena de sedução, de promessa boa demais, de maldição que fala bonito antes de encostar.
 
 #### Desliga
+
+**Desliga da Latente**
+{: .tab-titulo }
 
 | Legado | Apaga | Relógio |
 |---|---|---|
@@ -173,7 +183,7 @@ A instituição trata Receptáculo como material sob observação. Existe pasta,
 
 **Na obra:** o Itadori, que come o dedo e passa a dividir o corpo com o Sukuna, e que tem técnica inata própria por baixo disso. E a Hana Kurusu, em quem o Anjo vive simbioticamente, sem sobrescrever a consciência dela.
 
-### O que muda
+### Efeito na ficha
 
 #### Perícias
 
@@ -194,6 +204,9 @@ Fundamento, do jeito padrão. O passageiro mora na ficção da mesa, e a montage
 #### Destranca
 
 *Escolha um destes, obrigatoriamente.*
+
+**Destranca do Receptáculo**
+{: .tab-titulo }
 
 | Legado | Relógio |
 |---|---|
@@ -219,6 +232,9 @@ Fundamento, do jeito padrão. O passageiro mora na ficção da mesa, e a montage
 
 #### Ajusta
 
+**Ajusta do Receptáculo**
+{: .tab-titulo }
+
 | Legado | Alcança | Relógio |
 |---|---|---|
 | Não Sou Só Eu | Teste de Resistência de Espírito, três situações nomeadas (3) | por cena |
@@ -240,6 +256,9 @@ Fundamento, do jeito padrão. O passageiro mora na ficção da mesa, e a montage
 
 #### Desliga
 
+**Desliga do Receptáculo**
+{: .tab-titulo }
+
 | Legado | Apaga | Relógio |
 |---|---|---|
 | Máscara | ser sentido pelo que você é | sempre |
@@ -260,7 +279,7 @@ Para a instituição, Descendente é funcionário e representante estrangeiro ao
 
 **Na obra:** Gojo, Inumaki, Kamo, Zen'in. As técnicas de clã têm nome próprio, e todo mundo do meio conhece.
 
-### O que muda
+### Efeito na ficha
 
 #### Perícias
 
@@ -281,6 +300,9 @@ Fundamento, do jeito padrão.
 #### Destranca
 
 *Escolha um destes, obrigatoriamente. Os quatro primeiros são arquétipos de clã; o quinto é para quem inventou o próprio; o sexto é a mesma sub-origem que as outras quatro Origens principais também alcançam.*
+
+**Destranca do Descendente**
+{: .tab-titulo }
 
 | Legado | O clã que ele desenha | Relógio |
 |---|---|---|
@@ -310,6 +332,9 @@ Fundamento, do jeito padrão.
 
 #### Ajusta
 
+**Ajusta do Descendente**
+{: .tab-titulo }
+
 | Legado | Alcança | Relógio |
 |---|---|---|
 | Conversa de Jantar | técnica de clã (1) | por cena |
@@ -330,6 +355,9 @@ Fundamento, do jeito padrão.
 > *Na mesa:* segura a cena de pesquisa, que é onde a campanha costuma parar por causa de um dado ruim.
 
 #### Desliga
+
+**Desliga do Descendente**
+{: .tab-titulo }
 
 | Legado | Apaga | Relógio |
 |---|---|---|
@@ -353,7 +381,7 @@ A instituição não tem casinha para você. Reencarnado entra na papelada como 
 
 **Na obra:** o Kashimo, feiticeiro de quatrocentos anos atrás que aceitou virar objeto amaldiçoado e encarnar num corpo que o Kenjaku preparou, com a condição de poder enfrentar o Sukuna.
 
-### O que muda
+### Efeito na ficha
 
 #### Perícias
 
@@ -374,6 +402,9 @@ Fundamento, do jeito padrão.
 #### Destranca
 
 *Escolha um destes, obrigatoriamente.*
+
+**Destranca do Reencarnado**
+{: .tab-titulo }
 
 | Legado | Relógio |
 |---|---|
@@ -399,6 +430,9 @@ Fundamento, do jeito padrão.
 
 #### Ajusta
 
+**Ajusta do Reencarnado**
+{: .tab-titulo }
+
 | Legado | Alcança | Relógio |
 |---|---|---|
 | Corpo Emprestado | uma condição nomeada (1) | por cena |
@@ -420,6 +454,9 @@ Fundamento, do jeito padrão.
 
 #### Desliga
 
+**Desliga do Reencarnado**
+{: .tab-titulo }
+
 | Legado | Apaga | Relógio |
 |---|---|---|
 | *vaga reservada* | objeto amaldiçoado, em desenvolvimento | — |
@@ -439,7 +476,7 @@ Para a instituição você é, no papel, uma maldição com nome. Tem gente que 
 
 **Na obra:** o Choso e os irmãos, ventres de Pintura da Morte, metade humano e metade maldição.
 
-### O que muda
+### Efeito na ficha
 
 #### Perícias
 
@@ -460,6 +497,9 @@ Fundamento, do jeito padrão.
 #### Destranca
 
 *Escolha um destes, obrigatoriamente.*
+
+**Destranca do Feto**
+{: .tab-titulo }
 
 | Legado | Relógio |
 |---|---|
@@ -485,6 +525,9 @@ Fundamento, do jeito padrão.
 
 #### Ajusta
 
+**Ajusta do Feto**
+{: .tab-titulo }
+
 | Legado | Alcança | Relógio |
 |---|---|---|
 | Meio e Meio | veneno e doença (1) | por cena |
@@ -505,6 +548,9 @@ Fundamento, do jeito padrão.
 > *Na mesa:* recompensa o plano de tocaia. O grupo pode escolher esperar sabendo que você aguenta a espera melhor do que o alvo.
 
 #### Desliga
+
+**Desliga do Feto**
+{: .tab-titulo }
 
 | Legado | Apaga | Relógio |
 |---|---|---|
@@ -530,7 +576,7 @@ O poder vem de dois lugares.
 
 **Estilo da Sombra.** Você aprendeu a matar maldição com técnica de espada e de corpo, sem precisar de técnica amaldiçoada. É a Miwa e o Kusakabe.
 
-### O que muda
+### Efeito na ficha
 
 Você não escreve Fundamento. Não tem Regra, não tem Famílias, não tem Selo, não tem feitiço. A Origem principal continua dando tudo o que dá.
 
@@ -540,7 +586,7 @@ Aptidão ou Estilo da Sombra.
 
 > **Sem Técnica não é jogável hoje.** O que falta é a máquina de criação: as duas rotas precisam de uma construção com a mesma dignidade que o Fundamento tem, dizendo quantas aptidões, com que orçamento, e o que se paga por elas. Está sendo escrita.
 
-### O Legado de Sem Técnica
+### Legado de Sem Técnica
 
 Sem Técnica não amplia a conta de Legados. Ela é uma entrada de `Destranca` e ocupa uma das duas vagas, como qualquer outra. Cinco Origens compartilham esta entrada em vez de cada uma repetir o texto na própria lista: Latente, Receptáculo, Descendente, Reencarnado e Feto.
 
@@ -560,7 +606,7 @@ O meio jujutsu não sabe onde te colocar, e resolve isso de vários jeitos ruins
 
 **Na obra:** o Panda, feito pelo Yaga, com três núcleos que ele troca à vontade: o de gorila, o de panda e o de tricerátops.
 
-### O que muda
+### Efeito na ficha
 
 Sem Fundamento, porque não existe técnica inata para escrever. Você tem energia amaldiçoada: cadáver de mutação abrupta produz a própria, uns três meses depois de acordar. Então PE, aptidões e refino são normais, com Técnica Marcial no lugar do Fundamento.
 
@@ -585,6 +631,9 @@ Técnica Marcial, que está sendo escrita.
 #### Destranca
 
 *Escolha um destes, obrigatoriamente. A configuração que você escolhe aqui decide qual das quatro listas de Ajusta abaixo você alcança.*
+
+**Destranca do Corpo Amaldiçoado**
+{: .tab-titulo }
 
 | Legado | Relógio |
 |---|---|
@@ -611,6 +660,9 @@ Técnica Marcial, que está sendo escrita.
 
 ##### Ninhada
 
+**Ninhada**
+{: .tab-titulo }
+
 | Legado | Alcança | Relógio |
 |---|---|---|
 | Rodízio | três perícias nomeadas (3) | por cena |
@@ -627,6 +679,9 @@ Técnica Marcial, que está sendo escrita.
 > *Na mesa:* uso único e largo. Segure para o efeito que tiraria o personagem da cena de vez.
 
 ##### Gêmeos
+
+**Gêmeos**
+{: .tab-titulo }
 
 | Legado | Alcança | Relógio |
 |---|---|---|
@@ -645,6 +700,9 @@ Técnica Marcial, que está sendo escrita.
 
 ##### Inteiro
 
+**Inteiro**
+{: .tab-titulo }
+
 | Legado | Alcança | Relógio |
 |---|---|---|
 | Feito de Uma Peça | Teste de Resistência de Vigor (1) | por cena |
@@ -662,6 +720,9 @@ Técnica Marcial, que está sendo escrita.
 
 ##### Manutenção
 
+**Manutenção**
+{: .tab-titulo }
+
 | Legado | Alcança | Relógio |
 |---|---|---|
 | Ajuste Fino | um ofício nomeado (1) | por cena |
@@ -678,6 +739,9 @@ Técnica Marcial, que está sendo escrita.
 > *Na mesa:* o grupo vê a dívida crescer sessão a sessão, e uma hora alguém vem cobrar. Essa hora é cena.
 
 #### Desliga
+
+**Desliga do Corpo Amaldiçoado**
+{: .tab-titulo }
 
 | Legado | Apaga | Relógio |
 |---|---|---|
@@ -701,7 +765,10 @@ São dois ramos opostos, e você escolhe um na criação.
 
 Os clãs tratam os dois ramos como defeito de nascença, e tratam pior o segundo. Uma criança que nasce sem energia dentro de uma família do meio cresce sendo tratada como erro de produção, e o meio inteiro aceita isso com naturalidade. A instituição, por sua vez, é pragmática: gente com Restrição Celestial costuma render mais que a média, e a papelada acompanha o rendimento. Você vai ser útil, vai ser exibido, e vai ouvir a mesma frase sobre o seu corpo a vida inteira, dita por gente que acha que está sendo gentil.
 
-### O que muda
+### Efeito na ficha
+
+**Ramos da Restrição Celestial**
+{: .tab-titulo }
 
 | Ramo | O que muda | Criação |
 |---|---|---|
@@ -726,6 +793,9 @@ A lista de quatro desta Origem está sendo escrita.
 
 *Escolha um destes, obrigatoriamente.*
 
+**Destranca · Corpo pela Técnica**
+{: .tab-titulo }
+
 | Legado | O que ele desenha | Relógio |
 |---|---|---|
 | Nasci Assim | o que o seu corpo não faz, e o que isso cobra todo dia | sem relógio |
@@ -746,6 +816,9 @@ A lista de quatro desta Origem está sendo escrita.
 > *Na mesa:* você é a planta baixa da equipe. Descreve o lugar antes de todo mundo chegar, e sabe o que aconteceu lá dentro.
 
 #### Ajusta
+
+**Ajusta · Corpo pela Técnica**
+{: .tab-titulo }
 
 | Legado | Alcança | Relógio |
 |---|---|---|
@@ -776,6 +849,9 @@ A lista de quatro desta Origem está sendo escrita.
 
 *Escolha um destes, obrigatoriamente.*
 
+**Destranca · Energia pelo Corpo**
+{: .tab-titulo }
+
 | Legado | O que ele desenha | Relógio |
 |---|---|---|
 | Descartado | o clã que te jogou fora | sem relógio |
@@ -797,6 +873,9 @@ A lista de quatro desta Origem está sendo escrita.
 
 #### Ajusta
 
+**Ajusta · Energia pelo Corpo**
+{: .tab-titulo }
+
 | Legado | Alcança | Relógio |
 |---|---|---|
 | Sentido Treinado | maldição (1) | por cena |
@@ -816,9 +895,12 @@ A lista de quatro desta Origem está sendo escrita.
 > **No Braço** — uma vez por dia, refaça um teste de perícia de Força ou Destreza que você falhou.
 > *Na mesa:* a segunda chance na perseguição, na escalada e no agarrão, que é onde este personagem passa a maior parte do tempo.
 
-### Legados: Desliga dos dois ramos
+### Legados: Desliga
 
 *Vale para Corpo pela Técnica e para Energia pelo Corpo.*
+
+**Desliga da Restrição Celestial**
+{: .tab-titulo }
 
 | Legado | Apaga | Relógio |
 |---|---|---|
@@ -828,7 +910,10 @@ A lista de quatro desta Origem está sendo escrita.
 > **Peso Real** — você percebe ferramenta amaldiçoada, barreira e véu pelo tato e pelo peso. O que engana feiticeiro não engana você. Em troca, o aviso vem sem nome: você sente que tem alguma coisa ali, e nunca o que é.
 > *Na mesa:* você é o detector de armadilha do grupo em terreno preparado, e o que você entrega é um aviso que ninguém sabe interpretar sem investigar.
 
-## Para onde cada Origem manda
+## Rotas de criação
+
+**Rotas de criação**
+{: .tab-titulo }
 
 | Origem | Rota de criação | Jogável hoje |
 |---|---|---|

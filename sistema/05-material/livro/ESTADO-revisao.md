@@ -1,5 +1,46 @@
 # Estado da revisão · Manual da Guilda
 
+> ## ⚠ Passada de voz em andamento — leia antes de mexer
+>
+> Desde 20/08/2026 corre uma **segunda revisão**, sobre a voz do texto, e ela está pela
+> metade. O documento que manda nela é a `REGRA-DE-VOZ.md`, nesta mesma pasta. Leia ela
+> antes desta seção histórica.
+>
+> **8 dos 18 arquivos de `manual/` já passaram:** `90-apendice-bloquear` (piloto),
+> `10-como-jogar`, `11-o-turno`, `12-pericias-e-oficios`, `15-dano-e-condicoes`,
+> `20-criacao-de-personagem`, `25-origens`. Faltam 10.
+>
+> **O PDF e o docx publicados em `finalizado/livro/` estão meio revisados de propósito.**
+> Capítulos 1 a 7 com a voz nova e tabela nomeada; do 8 em diante, a voz antiga. Isso não é
+> inconsistência de projeto — é uma passada que ainda não terminou. Foi decisão do Mizuki
+> publicar no meio, porque o conteúdo já melhorou e nenhum número de regra mudou.
+>
+> **Onde cada coisa mora, porque isto já custou um lote inteiro de trabalho perdido:**
+>
+> | o quê | onde | repositório |
+> |---|---|---|
+> | fonte `manual/*.md`, `build/`, validadores | `sistema/05-material/livro/` | `JJK---Project` (`Claude 2/.git`) |
+> | PDF e docx prontos | `finalizado/livro/` | `JJK---PDF---RPG` (`Claude 2/finalizado/.git`) |
+>
+> Existiu uma terceira cópia em `/media/mizuki/HD Externo II/Claude/PDF - Sistema/`, **fora
+> de qualquer repositório**. Um lote inteiro foi escrito lá por engano e não entrou em
+> commit nenhum. Ela foi renomeada para `PDF - Sistema.OBSOLETO` e não deve ser usada.
+>
+> **Ferramentas desta passada**, todas nesta pasta:
+>
+> | ferramenta | o que faz |
+> |---|---|
+> | `conferir-voz.py` | 7 checagens de título e moldura, mais referências de seção e lista de triagem à mão |
+> | `build/guard_numeros.py` | compara dois arquivos e acusa todo número que mudou |
+> | `build/extrai_antes.py` | recorta do `Projeto-M-Manual-da-Guilda-TEXTO.md` o "antes" de um capítulo, para alimentar o guard |
+>
+> **O procedimento por arquivo**, na ordem: extraia o "antes" *antes* de editar; reescreva;
+> rode o guard e **explique cada diferença**; rode `conferir-voz.py`; confira as entradas do
+> glossário que apontam para aquele capítulo (`conferir-voz.py --so <arquivo>` lista elas).
+>
+> Estado hoje: **346 achados restantes**, 62 tabelas nomeadas, 0 referências quebradas,
+> **0 números de regra alterados**.
+
 Revisão de texto e organização do PDF de mesa, em cinco passadas. **Nenhum número de regra
 mudou** em nenhuma delas — verificado por diff de todos os blocos de citação e linhas de
 tabela contra o estado inicial, a cada passada.
@@ -155,7 +196,7 @@ Localmente, ainda não enviado ao GitHub:
 | repositório | commit | conteúdo |
 |---|---|---|
 | `JJK---Project` (fonte) | `livro: primeiro texto de mesa completo, com quick-start` | esta pasta inteira — fonte, build, PDF, docx, txt, e os dois documentos de decisão |
-| `JJK---PDF---RPG` (artefato) | `livro: primeiro recorte do Manual da Guilda completo` | só `livro/Projeto-M-Manual-da-Guilda.pdf` e o `.docx` — sem fonte, sem documento de decisão, seguindo o próprio contrato do repositório |
+| `JJK---PDF---RPG` (artefato) | `livro: primeiro recorte do Manual da Guilda completo` | só o PDF e o .docx, na pasta livro/ de lá — sem fonte, sem documento de decisão, seguindo o próprio contrato daquele repositório |
 
 Rodei `conferir-repositorio.py` antes de cada commit; os dois passaram limpos. O commit na
 fonte não tocou em nenhum dos arquivos que já estavam modificados e não commitados por
