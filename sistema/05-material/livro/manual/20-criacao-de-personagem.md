@@ -1,0 +1,245 @@
+# Criação de Personagem
+
+No fim deste capítulo você tem uma ficha de feiticeiro pronta para jogar, e ela cabe numa página. Leva de vinte a quarenta minutos. A parte longa é uma só, escrever a técnica; o resto é rápido de propósito.
+
+## O que a ficha tem
+
+- **Uma técnica** que só você tem, escrita por você
+- **Cinco atributos**, de 0 a 6
+- **Um Caminho e uma Trilha**, que dizem o seu lugar numa equipe e quem você é dentro dele
+- **Uma Origem**, que diz de onde veio o seu poder
+- **Oito perícias e três ofícios** treinados, ou nove e dois, você escolhe
+- **Dois Testes de Resistência** treinados, de quatro
+- **Dois Legados**, das listas da sua Origem
+- **Cinco feitiços**: dois pequenos e grátis, três de verdade
+- **Os números que caem sozinhos**: vida, energia, Defesa, iniciativa
+
+## Toda ficha nasce no nível 2
+
+> **Personagem novo começa no nível 2.** Não existe ficha de nível 1 padrão.
+
+O nível 1 é o personagem antes de virar feiticeiro: a pessoa que ainda não conjura, o Itadori antes do dedo. Ele fica como opção de campanha para quem quiser jogar essa parte.
+
+A ficha padrão começa no 2 porque é no 2 que você já tem técnica, já tem feitiço e já dá para encarar uma missão. Tudo neste capítulo presume o nível 2, incluindo as contas do passo 7.
+
+## A ordem dos oito passos
+
+> **Origem → a Regra em uma frase → Caminho → Atributos → a técnica inteira → perícias e ofícios → os números → Pactos.**
+
+A ordem existe porque cada passo trava informação que o passo seguinte usa. Escrever a técnica inteira leva tempo, e o Caminho é a escolha que ancora o seu papel numa equipe: quem escolhe o Caminho antes de saber o que a técnica faz tende a escrever uma técnica que serve ao papel, em vez do contrário. Por isso a técnica sai partida em duas: a Regra, uma frase só, vem no passo 2, antes do Caminho decidir nada por você; o resto espera até o passo 5, depois que o Caminho e os atributos já estão na ficha e a técnica pode ser escrita sabendo quem vai usá-la.
+
+## Passo 1 · Origem
+
+De onde vem o seu poder. Nasceu com você, veio no sangue de um clã, você virou recipiente de alguma coisa, alguém te fez, ou trocaram uma coisa por outra antes de você nascer. A Origem entra primeiro porque ela é o passado do personagem, e o resto da ficha descreve quem ele é agora tendo saído desse passado.
+
+São sete Origens, mais a sub-origem Sem Técnica. Escolha e anote na ficha:
+
+| O que anotar | De onde sai |
+|---|---|
+| Uma perícia | da lista de quatro da sua Origem |
+| Uma perícia livre | que a sua história justifique, com o mestre aprovando na leitura |
+| Um ofício livre | ou, se você não quiser ofício, mais uma perícia |
+| Um Teste de Resistência treinado | qualquer um dos quatro; o outro vem do Caminho |
+| Um traço | do catálogo da sua Origem, ou escrito por você |
+| Dois Legados | um `Destranca` obrigatório, mais um de qualquer formato |
+| A rota de criação | por onde você monta o seu poder |
+
+As listas de perícia, os traços e as rotas estão no capítulo 7, *Origens e Legados*, e é lá que estão também as listas de Legado de cada Origem.
+
+A Origem não dá ponto de atributo nenhum, e não decide a sua patente: todo personagem começa **Grau 4**, venha de onde vier.
+
+> **Nem toda Origem fecha ficha hoje.** Três das nove rotas de criação dependem de regra que ainda está sendo escrita. A tabela de quais rodam está no fim do capítulo 7, *Origens e Legados*; confira antes de se apegar a uma escolha.
+
+## Passo 2 · A Regra da técnica, em uma frase
+
+Uma frase que diz o que a sua técnica faz com o mundo, sem falar em efeito nem em dano. Ela vem cedo de propósito: antes de qualquer coisa numérica travar o personagem, você já decidiu o que a técnica dele é, e esse núcleo guia as escolhas que vêm depois.
+
+> *"Tudo que eu prendo entre as minhas mãos fica mais pesado."*
+>
+> *"Eu troco de lugar com qualquer coisa do meu tamanho que eu esteja enxergando."*
+>
+> *"Quem mente na minha frente sangra."*
+
+Uma frase, verificável pela mesa, sem número. Você carrega ela a campanha inteira, porque a técnica nunca muda. O que evolui é o que você consegue fazer com ela.
+
+Pare aqui e vá para o Caminho. O resto da técnica volta no passo 5.
+
+## Passo 3 · Caminho e Trilha
+
+Que lugar você ocupa numa equipe. Um Caminho por personagem, escolhido agora e para sempre. Não existe multiclasse.
+
+| Caminho | O que ele é | Atributos naturais |
+|---|---|---|
+| **Bastião** | o corpo como resposta: aguentar, encarar, prender | Força, Constituição |
+| **Vanguarda** | a arma como resposta: alcançar, cortar, acabar | Destreza, Força |
+| **Guia** | o outro como resposta: estender, recuperar, reposicionar | Essência |
+| **Emanador** | a técnica como resposta: mais feitiço, mais aptidão | Inteligência, Essência |
+| **Evocador** | o que você trouxe como resposta: invocações | Inteligência, Essência |
+
+O Caminho mexe em posicionamento, alvo, duração e recuperação. Ele nunca mexe em dados de dano, Classe de feitiço, Melhoria de graça ou cura. É isso que faz dois personagens do mesmo Caminho, com técnicas diferentes, continuarem sendo coisas completamente diferentes na mesa.
+
+#### O que o Caminho entrega agora
+
+| Caminho | Vida inicial | Vida por nível | PE por nível | Perícias fixas |
+|---|---|---|---|---|
+| **Bastião** | 12 (d12) | 7 | 4 | Atletismo · Intimidação |
+| **Vanguarda** | 8 (d8) | 5 | 5 | Acrobacia · Percepção |
+| **Guia** | 8 (d8) | 5 | 5 | Persuasão · Medicina |
+| **Evocador** | 6 (d6) | 4 | 6 | Religião · Lidar com Animais |
+| **Emanador** | 6 (d6) | 4 | 6 | Ocultismo · Investigação |
+
+Mais **quatro perícias à sua escolha**, de qualquer lugar do quadro, **dois ofícios à sua escolha** e **um Teste de Resistência treinado**.
+
+#### A Trilha
+
+A Trilha é escolhida agora, junto do Caminho, e nasce com o personagem. São três por Caminho: Muro · Punho · Brasa no Bastião, Estocada · Batedor · Executor na Vanguarda, e assim por diante. A lista está no capítulo 8, *Caminhos e Trilhas*.
+
+> **A Trilha ainda não entrega número.** Hoje ela é o nome e uma frase: você escolhe, ela diz quem o seu personagem é dentro do Caminho, e o capítulo 8, *Caminhos e Trilhas*, fecha o que ela dá. Escolher agora não custa nada e não tranca nada.
+
+## Passo 4 · Atributos
+
+> **Nove pontos entre os cinco atributos. Nenhum acima de 3.**
+
+O número **é** o modificador. Não existe valor separado nem tabela de conversão. A escala vai de 0 a 6, e 6 é o topo humano. Uma distribuição legal, por exemplo, é 3 · 2 · 2 · 1 · 1.
+
+| | Força | Destreza | Constituição | Inteligência | Essência |
+|---|---|---|---|---|---|
+| **governa** | ataque corpo a corpo, agarrar, quebrar, carregar | ataque à distância, **Defesa**, **iniciativa** | **pontos de vida** | conhecimento, investigação | **perceber energia**, trato social, Pactos |
+
+Inteligência sabe; Essência percebe. Sentir energia amaldiçoada é a sua energia reagindo à de outro.
+
+> **Trave agora o seu Teste de Resistência Físico.** Ele usa Força ou Destreza, você escolhe na criação e não muda depois.
+
+## Passo 5 · A técnica inteira
+
+Aqui você abre o capítulo 9, *Fundamento*. É a parte longa, e é a que faz o personagem ser seu. Você já tem a Regra e já sabe o Caminho; falta o resto, e agora ele já pode ser escrito sabendo quem vai carregar essa técnica pela campanha.
+
+1. **Descrição.** De onde a técnica veio, como ela aparece, o que as pessoas veem quando ela age. Sem efeito mecânico. É o que faz duas técnicas iguais parecerem diferentes.
+2. **Famílias.** Duas **Livres**, cujas Melhorias custam metade da Classe a menos, e três **Fechadas**, das quais você nunca compra nada.
+3. **Selo.** O gesto, a condição ou o objeto que a sua técnica exige. Não custa nem devolve ponto: ele é identidade e mais uma trava. Restrição que o Selo já obriga não devolve ponto.
+4. **Passiva Livre.** Uma, de graça, para todo mundo. Ela não rola dado, não muda número e não faz ninguém rolar.
+5. **Os feitiços.** No nível 2 você tem **Classe 1**, dois feitiços de **Classe 0** (grátis, não ocupam espaço) e **três feitiços conhecidos**, montados pelo orçamento da Classe 1. Três é o que a fórmula `2 + (nível ÷ 2)` dá no nível 2.
+
+> **A Regra da técnica é lida por outra pessoa antes de entrar em jogo.** Quem escreveu sabe o que quis dizer; quem vai arbitrar, não.
+
+## Passo 6 · Perícias, ofícios e Testes de Resistência
+
+| De onde vem | Perícias | Ofícios | Teste de Resistência |
+|---|---|---|---|
+| **Caminho** | 2 fixas + 4 à sua escolha | 2 à sua escolha | 1 |
+| **Origem** | 1 da lista dela + 1 livre | — | 1 |
+| **Origem, o extra** | *ou* mais 1 perícia | *ou* 1 ofício livre | — |
+
+O extra da Origem é uma escolha entre duas rotas, e as duas fecham a ficha:
+
+| Rota do extra | Perícias | Ofícios |
+|---|---|---|
+| pegando o ofício | 8 de 23 | 3 de 11 |
+| pegando a perícia | 9 de 23 | 2 de 11 |
+
+Os dois Testes de Resistência treinados saem de quatro: Físico, Vigor, Espírito e Intelecto. Um vem da Origem, o outro do Caminho.
+
+Perícia pertence a um atributo fixo: Atletismo é sempre Força. Ofício não pertence a atributo nenhum. O atributo muda conforme o que você faz com ele, e quem decide é o mestre na hora. Forjar uma lâmina é Força, falsificar uma assinatura é Destreza, saber qual selo o papel pede é Inteligência, e as três coisas são o mesmo ofício.
+
+> **Perícia sem treino você tenta; ofício sem treino, não.** Qualquer um escala e falha. Ninguém forja uma lâmina por tentativa.
+
+O quadro completo das perícias e dos ofícios está no capítulo 3, *Perícias e Ofícios*.
+
+## Passo 7 · Os números que caem sozinhos
+
+Nada aqui é escolha. Você copia da tabela e faz a conta.
+
+| Número | Como sai |
+|---|---|
+| Maestria | 1 |
+| Refino | 1 |
+| Pontos de vida | (vida inicial do Caminho + Constituição) + (vida por nível do Caminho + Constituição) |
+| Integridade | 28 |
+| Pontos de Energia | PE por nível do Caminho × 2 |
+| Defesa | 10 + Destreza + 1 |
+| Iniciativa | d20 + Destreza |
+| Deslocamento | 9 metros |
+| Ataque corpo a corpo | d20 + Força |
+| Ataque à distância | d20 + Destreza |
+| Ataque de conjuração | d20 + 3 |
+| CD de feitiço | 13 |
+| Perícia treinada | d20 + atributo + 1 |
+| Teste de Resistência | d20 + atributo do TR, +2 se treinado |
+
+No refino 1 você já tem duas aptidões, de graça: `cobrir-se de energia`, que dá proteção sem equipamento, e `canalizar energia`, que permite ferir uma maldição com o corpo ou com a arma. São básicas de qualquer feiticeiro, e por isso não custam nada.
+
+> **Toda ficha de nível 2 nasce com proteção 1.** É o `+1` que entra na Defesa acima. Sem Traje e sem Revestimento, a sua proteção é `1/3 do refino + 1`, que no refino 1 dá 1. Escudo soma com ela; Traje e Revestimento desligam.
+
+## Passo 8 · Pactos
+
+Opcional, e a maioria dos personagens começa sem. Ele fecha a ficha porque é a única peça que troca alguma coisa da vida do personagem por poder a mais, e faz mais sentido decidir isso depois que o resto da ficha já existe.
+
+Pacto é o que você trocou por poder. Ele permite quase qualquer coisa desde que o preço seja real, e por isso carrega a mesma trava da Regra da técnica: uma frase, verificável pela mesa, simétrica, sem dano direto, com limite.
+
+> **Está sendo escrita.** A regra completa de Pactos ainda não fechou. Até lá, pacto na criação só entra com aprovação do mestre e com o preço escrito na ficha.
+
+## Uma ficha inteira, do começo ao fim
+
+**A Kaori**, feiticeira de nível 2.
+
+#### Origem
+
+**Descendente.** Um clã menor que perdeu o nome faz três gerações. Como todo mundo, ela começa Grau 4: quem abre porta pra ela é o sobrenome, mesmo com a patente baixa.
+
+- *Perícia da lista* (Hierarquia · História · Ocultismo · Persuasão): **Hierarquia**
+- *Perícia livre:* **História**, porque ela cresceu ouvindo de quem o clã perdeu o nome
+- *Extra:* pegou o **ofício**, e escolheu **Herbalismo**, da avó
+- *Teste de Resistência:* **Vigor**
+- *Traço:* o ramo do clã que perdeu, e ela é dele
+- *Legado · `Destranca`:* **O Sobrenome**, que dá audiência em qualquer lugar do meio jujutsu. Ser bem recebida é outra história
+- *Legado · o segundo:* **Biblioteca**, que uma vez por cena refaz um teste de História ou Ocultismo. A casa tinha os livros, e ela foi obrigada a ler
+
+#### A Regra
+
+*"Tudo que eu prendo entre as minhas mãos fica mais pesado."*
+
+#### Caminho e Trilha
+
+**Bastião**, Trilha **Muro**: o corpo é o escudo, e é o que a Regra dela já pedia. *Teste de Resistência do Caminho:* **Físico**.
+
+#### Atributos
+
+Força 3 · Constituição 2 · Destreza 2 · Inteligência 1 · Essência 1. Nove pontos, nenhum acima de 3, e o **TR Físico travado em Força**.
+
+#### Técnica
+
+*Famílias Livres:* Controle e Castigo. *Fechadas:* Amparo, Área e Auxiliares, porque ela não cura, não pega área e não dá suporte. *Selo:* as duas mãos precisam se tocar antes. *Passiva Livre:* ela sabe o peso exato de qualquer coisa que encoste nela.
+
+#### Perícias e ofícios
+
+**Oito perícias.** Do Caminho, fixas: Atletismo e Intimidação. Do Caminho, livres: Sentir Energia, Percepção, Sobrevivência e Intuição. Da Origem: Hierarquia e História.
+
+**Três ofícios.** Forja e Caligrafia, os dois livres do Caminho, e Herbalismo, o extra da Origem.
+
+#### Os números
+
+| | Conta | Resultado |
+|---|---|---|
+| Vida | (12 + 2) + (7 + 2) | **23** |
+| Integridade | fixa | **28** |
+| PE | 4 × 2 | **8** |
+| Defesa | 10 + 2 + 1 | **13** |
+| Iniciativa | d20 + 2 | |
+| Ataque corpo a corpo | d20 + 3 | |
+| Ataque de conjuração | d20 + 2 + 1 | **d20 + 3** |
+| CD dos feitiços dela | 10 + 2 + 1 | **13** |
+| Atletismo (treinado) | d20 + 3 + 1 | **d20 + 4** |
+
+## O que o mestre confere antes de aprovar
+
+Sete perguntas, e todas têm resposta objetiva.
+
+1. **Os atributos somam nove, e nenhum passa de 3?**
+2. **O Teste de Resistência Físico está travado** em Força ou Destreza?
+3. **São oito perícias e três ofícios, ou nove e dois?** As duas rotas são legais; o que não pode é somar as duas. E as duas perícias fixas do Caminho precisam estar entre elas.
+4. **São dois Testes de Resistência treinados**, um da Origem e um do Caminho?
+5. **A Regra da técnica cabe em uma frase**, é verificável pela mesa e não tem número?
+6. **Alguém que não seja o dono leu a técnica?**
+7. **Os três feitiços conhecidos fecham no orçamento da Classe 1?** Três pontos cada.
+
+O mestre pode recusar mesmo quando a ficha passa nas sete. O checklist existe para tornar o "sim" barato.

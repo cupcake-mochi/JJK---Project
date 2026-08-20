@@ -1,0 +1,517 @@
+/* ============================================================
+   Projeto - M · Manual da Guilda
+   Diagramação para impressão A4 (WeasyPrint)
+   Sistema de design derivado de "Como o Manual foi diagramado"
+   ============================================================ */
+
+:root {
+  --tinta:      #1A1622;
+  --selo:       #211C35;
+  --selo-fraco: #756588;
+  --acento:     #8A7444;
+  --acento-claro: #DFD5C2;
+  --washi:      #F6F3F9;
+  --zebra:      #E9E4F0;
+  --linha:      #CFC7DC;
+  --cinza:      #6E6878;
+}
+
+/* ---------- página ---------- */
+@page {
+  size: A4;
+  margin: 18mm 32mm 20mm 26mm;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 8pt;
+  color: var(--cinza);
+
+  @top-left {
+    content: string(capitulo);
+    text-transform: uppercase;
+    letter-spacing: .14em;
+    padding-bottom: 3mm;
+    vertical-align: bottom;
+  }
+  @top-right {
+    content: string(secao);
+    text-transform: uppercase;
+    letter-spacing: .14em;
+    text-align: right;
+    padding-bottom: 3mm;
+    vertical-align: bottom;
+    color: var(--acento);
+  }
+  @bottom-right {
+    content: counter(page);
+    font-size: 9.5pt;
+    letter-spacing: .05em;
+    color: var(--selo);
+    text-align: right;
+    padding-top: 4mm;
+  }
+}
+
+@page :left {
+  margin: 18mm 26mm 20mm 32mm;
+  @top-left {
+    content: string(secao);
+    color: var(--acento);
+    text-align: left;
+  }
+  @top-right {
+    content: string(capitulo);
+    color: var(--cinza);
+    text-align: right;
+  }
+  @bottom-right { content: none; }
+  @bottom-left {
+    content: counter(page);
+    font-size: 9.5pt;
+    letter-spacing: .05em;
+    color: var(--selo);
+    text-align: left;
+    padding-top: 4mm;
+  }
+}
+
+@page capa {
+  margin: 0;
+  @top-left { content: none } @top-right { content: none }
+  @bottom-right { content: none } @bottom-left { content: none }
+}
+@page sumario {
+  @top-left { content: none } @top-right { content: none }
+}
+
+/* ---------- base ---------- */
+html {
+  font-family: "Spectral", serif;
+  font-size: 10.6pt;
+  line-height: 1.62;
+  color: var(--tinta);
+  hyphens: auto;
+  hyphenate-limit-chars: 6 3 3;
+  hyphenate-limit-lines: 2;
+  text-align: justify;
+  text-justify: inter-word;
+}
+body { margin: 0; }
+
+p { margin: 0 0 3.4mm 0; orphans: 2; widows: 2; }
+strong { font-weight: 600; }
+em { font-style: italic; }
+
+code {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: .84em;
+  background: var(--washi);
+  border-bottom: .5pt solid var(--acento-claro);
+  padding: .3mm .9mm;
+  white-space: nowrap;
+}
+
+hr {
+  border: none;
+  border-top: .5pt solid var(--acento-claro);
+  margin: 6mm 0;
+}
+
+/* ---------- capa ---------- */
+.capa {
+  page: capa;
+  height: 297mm;
+  padding: 42mm 32mm 24mm 26mm;
+  box-sizing: border-box;
+  text-align: left;
+  position: relative;
+}
+.capa-marca {
+  width: 26mm; height: 26mm;
+  background: var(--selo);
+  margin-bottom: 14mm;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Noto Serif CJK JP", serif;
+  font-size: 34pt;
+  color: var(--washi);
+  line-height: 1;
+}
+.capa-etiqueta {
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .28em;
+  font-size: 9pt;
+  color: var(--acento);
+  margin-bottom: 4mm;
+}
+.capa-titulo {
+  hyphens: none;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 58pt;
+  line-height: .95;
+  letter-spacing: -.01em;
+  color: var(--selo);
+  margin: 0 0 2mm 0;
+}
+.capa-sub {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 19pt;
+  letter-spacing: .04em;
+  color: var(--tinta);
+  margin: 0 0 14mm 0;
+  padding-bottom: 6mm;
+  border-bottom: 2.4pt solid var(--selo);
+}
+.capa-lista {
+  list-style: none;
+  padding: 0; margin: 0 0 20mm 0;
+  counter-reset: capa;
+  columns: 2;
+  column-gap: 10mm;
+}
+.capa-lista li {
+  counter-increment: capa;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 12.4pt;
+  letter-spacing: .03em;
+  padding: 1.1mm 0;
+  border-bottom: .5pt solid var(--linha);
+  break-inside: avoid;
+}
+.capa-lista li::before {
+  content: counter(capa);
+  color: var(--acento);
+  font-size: 9pt;
+  margin-right: 3mm;
+}
+.capa-nota {
+  position: absolute;
+  bottom: 24mm; left: 26mm; right: 32mm;
+  font-size: 8.4pt;
+  line-height: 1.5;
+  color: var(--cinza);
+  border-left: 2pt solid var(--acento-claro);
+  padding-left: 5mm;
+  text-align: left;
+}
+
+/* ---------- ficha técnica ---------- */
+.creditos {
+  break-before: page;
+  text-align: left;
+}
+.creditos h1 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 26pt;
+  color: var(--selo);
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  margin: 0 0 8mm 0;
+  padding-bottom: 3mm;
+  border-bottom: 2pt solid var(--selo);
+  string-set: capitulo content(), secao "";
+}
+.creditos h2 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  font-size: 10pt;
+  text-transform: uppercase;
+  letter-spacing: .16em;
+  color: var(--selo-fraco);
+  border: none;
+  margin: 7mm 0 2mm 0;
+  padding: 0;
+}
+.creditos p { font-size: 10pt; }
+
+/* ---------- sumário ---------- */
+.sumario {
+  page: sumario;
+  break-before: page;
+  text-align: left;
+}
+.sumario h1 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 26pt;
+  color: var(--selo);
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  margin: 0 0 8mm 0;
+  padding-bottom: 3mm;
+  border-bottom: 2pt solid var(--selo);
+  string-set: capitulo content(), secao "";
+}
+.sum-cap { margin-top: 5mm; break-after: avoid; }
+.sum-cap a {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 14pt;
+  font-weight: 600;
+  color: var(--selo);
+  text-decoration: none;
+  display: block;
+  border-bottom: .5pt solid var(--acento-claro);
+  padding-bottom: 1mm;
+}
+.sum-n {
+  display: inline-block;
+  width: 7mm;
+  color: var(--acento);
+  font-weight: 400;
+}
+.sum-sec { padding-left: 7mm; }
+.sum-sec a {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 10.5pt;
+  color: var(--tinta);
+  text-decoration: none;
+  display: block;
+  padding: .4mm 0;
+}
+.sum-cap a::after, .sum-sec a::after {
+  content: leader('. ') target-counter(attr(href), page);
+  color: var(--cinza);
+  font-size: 9.5pt;
+}
+.sum-cap a::after { color: var(--selo); }
+
+/* ---------- abertura de capítulo ---------- */
+.capitulo { break-before: page; }
+.abertura {
+  break-after: avoid;
+  margin-bottom: 11mm;
+  padding-top: 4mm;
+  text-align: left;
+}
+.abertura-n {
+  display: block;
+  margin-bottom: 3mm;
+}
+.abertura-n .kanji {
+  font-family: "Noto Serif CJK JP", serif;
+  font-size: 22pt;
+  color: var(--acento);
+  margin-right: 4mm;
+  vertical-align: -2pt;
+}
+.abertura-n .arab {
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .26em;
+  font-size: 9.5pt;
+  color: var(--cinza);
+}
+.abertura h1 {
+  string-set: capitulo content(), secao "";
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 40pt;
+  line-height: 1;
+  letter-spacing: -.005em;
+  color: var(--selo);
+  margin: 0;
+  padding-bottom: 4mm;
+  border-bottom: 3pt solid var(--selo);
+  hyphens: none;
+}
+
+/* ---------- títulos ---------- */
+h2 {
+  string-set: secao content();
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  font-size: 18pt;
+  letter-spacing: .01em;
+  color: var(--selo);
+  margin: 9mm 0 3.5mm 0;
+  padding-bottom: 1.6mm;
+  border-bottom: 1pt solid var(--acento);
+  break-after: avoid;
+  text-align: left;
+}
+h3 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  font-size: 13.5pt;
+  letter-spacing: .02em;
+  color: var(--selo-fraco);
+  margin: 6.5mm 0 2.4mm 0;
+  break-after: avoid;
+  text-align: left;
+}
+h4 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  font-size: 10pt;
+  text-transform: uppercase;
+  letter-spacing: .16em;
+  color: var(--acento);
+  margin: 5.5mm 0 2mm 0;
+  break-after: avoid;
+  text-align: left;
+}
+h5 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  font-size: 11pt;
+  color: var(--acento);
+  margin: 5mm 0 2mm 0;
+  break-after: avoid;
+  text-align: left;
+}
+h2 + h3, h3 + h4, h4 + h5 { margin-top: 3mm; }
+h1, h2, h3, h4, h5, .capa *, .sumario * { hyphens: none; }
+
+/* ---------- listas ---------- */
+ul, ol { margin: 0 0 3.4mm 0; padding-left: 6mm; }
+li { margin-bottom: 1.2mm; }
+ul { list-style: none; padding-left: 6mm; }
+ul > li::before {
+  content: "";
+  display: inline-block;
+  width: 1.5mm; height: 1.5mm;
+  background: var(--acento);
+  margin-left: -4.5mm;
+  margin-right: 3mm;
+  vertical-align: .35em;
+}
+ol { list-style: none; counter-reset: item; }
+ol > li { counter-increment: item; }
+ol > li::before {
+  content: counter(item);
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  color: var(--selo);
+  display: inline-block;
+  width: 4.5mm;
+  margin-left: -6mm;
+}
+
+/* ---------- destaque (exemplo / regra) ---------- */
+.destaque {
+  background: var(--washi);
+  border-left: 2.4pt solid var(--acento);
+  padding: 4mm 6mm 1.4mm 6mm;
+  margin: 4mm 0 5mm 0;
+  break-inside: avoid;
+}
+.destaque p { margin-bottom: 2.6mm; }
+.destaque ul, .destaque ol { margin-bottom: 2.6mm; }
+.destaque > :last-child { margin-bottom: 0; }
+.destaque table { margin: 2mm 0 3mm 0; }
+
+/* ---------- tabelas ---------- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 3mm 0 6mm 0;
+  font-size: 9.6pt;
+  line-height: 1.4;
+  text-align: left;
+}
+thead { display: table-header-group; }
+tr { break-inside: avoid; }
+th {
+  hyphens: none;
+  background: var(--selo);
+  color: var(--washi);
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  font-size: 8.8pt;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  text-align: left;
+  padding: 1.6mm 2.4mm;
+  vertical-align: middle;
+}
+td {
+  padding: 1.7mm 2.4mm;
+  border-bottom: .6pt solid var(--linha);
+  vertical-align: top;
+}
+tbody tr:nth-child(even) { background: var(--zebra); }
+tbody tr:last-child td { border-bottom: 1.4pt solid var(--selo); }
+
+td.nome { font-weight: 600; hyphens: none; }
+th.num, td.num { text-align: center; font-variant-numeric: tabular-nums; }
+
+.tab.larga { font-size: 8.9pt; }
+.tab.larga th { font-size: 8.2pt; letter-spacing: .05em; padding: 1.4mm 1.6mm; }
+.tab.larga td { padding: 1.4mm 1.6mm; }
+.tab.muito-larga { font-size: 8.2pt; }
+.tab.muito-larga th { font-size: 7.6pt; padding: 1.2mm 1.2mm; }
+.tab.muito-larga td { padding: 1.2mm 1.2mm; }
+
+/* ficha: tabela rótulo → valor, sem cabeçalho */
+.tab.ficha { border-top: 1.4pt solid var(--selo); font-size: 10pt; }
+.tab.ficha td { border-bottom: .5pt solid var(--linha); padding: 2mm 2.4mm; }
+.tab.ficha td.rot {
+  hyphens: none;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  font-size: 9pt;
+  color: var(--selo);
+  width: 24mm;
+  padding-top: 2.4mm;
+}
+.tab.ficha tbody tr:nth-child(even) { background: transparent; }
+.tab.ficha tbody tr:first-child { background: var(--washi); }
+
+/* ---------- divisória de parte no sumário ---------- */
+.sum-parte {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  font-size: 9.5pt;
+  text-transform: uppercase;
+  letter-spacing: .22em;
+  color: var(--acento);
+  margin: 9mm 0 1mm 0;
+  break-after: avoid;
+}
+.sum-parte:first-child { margin-top: 0; }
+
+/* ---------- índice remissivo ---------- */
+.ix-anc { display: inline; }          /* âncora de página, sem caixa própria */
+
+.indice { break-before: page; }
+.indice h1 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 26pt;
+  font-weight: 700;
+  color: var(--selo);
+  margin-bottom: 3mm;
+  padding-bottom: 3mm;
+  border-bottom: 2pt solid var(--selo);
+  string-set: capitulo content(), secao "";
+}
+.ix-nota {
+  font-size: 9pt;
+  color: var(--cinza);
+  margin-bottom: 6mm;
+}
+.ix-cols { columns: 2; column-gap: 9mm; }
+.ix-item {
+  break-inside: avoid;
+  font-size: 9.5pt;
+  line-height: 1.45;
+  padding: .3mm 0;
+  text-indent: -4mm;
+  padding-left: 4mm;
+}
+.ix-t {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  color: var(--tinta);
+}
+.ix-p {
+  color: var(--acento);
+  text-decoration: none;
+  font-size: 9pt;
+}
+.ix-p::after { content: target-counter(attr(href), page); }
+.ix-p + .ix-p::before { content: ", "; color: var(--cinza); }
