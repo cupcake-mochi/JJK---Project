@@ -4,7 +4,7 @@
 
 A sua Defesa é um número parado: o inimigo rola contra ela e você não rola nada. Se a sua mesa preferir rolar para se defender, usa `Bloquear`.
 
-## A regra
+## Rolagem de Bloquear
 
 > **A sua Defesa é `10 + Destreza + proteção`, e ela continua sendo o padrão.**
 >
@@ -20,7 +20,7 @@ A sua Defesa é um número parado: o inimigo rola contra ela e você não rola n
 >
 > `Bloquear` não custa nada, não gasta a sua Reação, e é de todo mundo.
 
-#### Você não faz essa conta na mesa
+### Linha da ficha
 
 O `−11` some no número que a ficha imprime. Ela traz a linha pronta, do lado da Defesa:
 
@@ -28,17 +28,20 @@ O `−11` some no número que a ficha imprime. Ela traz a linha pronta, do lado 
 
 Na mesa você lê *"role 2d10+6"*, que dá o mesmo trabalho que *"role d20+7"*.
 
-## Um exemplo
+## Exemplo
 
 A Rina está com Defesa 17, então a linha dela é `Bloquear 2d10+6`. Uma maldição ataca e tira **18** no ataque: com a Defesa parada, isso acerta.
 
 Ela escolhe `Bloquear`. Tira `7` e `4`, que somados ao `+6` dão **17**. O ataque acerta do mesmo jeito, e ela não perdeu nada por tentar.
 
-Na rodada seguinte a mesma maldição tira **19**. A Rina bloqueia e sai `10` e `10`: `Aparar`. O ataque não acerta, e ela ainda tem a Reação na mão. Aí vem a decisão de verdade: gastar a Reação para bater de volta com `+3` de dano, ou guardar ela para o capanga que ainda não agiu neste turno.
+Na rodada seguinte a mesma maldição tira **19**. A Rina bloqueia e sai `10` e `10`: `Aparar`. O ataque não acerta, e ela ainda tem a Reação na mão. Aí vem a decisão: gastar a Reação para bater de volta com `+3` de dano, ou guardar ela para o capanga que ainda não agiu neste turno.
 
-## O que ela custa
+## Custo
 
-`Bloquear` é neutro na média, e neutro quer dizer que ele traiu tanto quanto salvou.
+`Bloquear` é neutro na média: ele entrega tanto quanto tira.
+
+**Resultados de Bloquear**
+{: .tab-titulo }
 
 | o que acontece quando você rola | chance |
 |---|---|
@@ -47,25 +50,23 @@ Na rodada seguinte a mesma maldição tira **19**. A Rina bloqueia e sai `10` e 
 | o dado mudou o resultado, sem extremo | 14,5% |
 | nada mudou; você rolou por rolar | 83,5% |
 
-> **Um em cada doze golpes vai passar porque você rolou, quando a sua Defesa parada teria segurado.** Metade do tráfego salva você e a outra metade te entrega, e é assim de propósito. Quem entrar em `Bloquear` esperando defesa melhor vai se decepcionar por volta da segunda sessão. Quem entrar pelos dois resultados de 1% vai ficar.
+> **Um em cada doze golpes vai passar porque você rolou, quando a sua Defesa parada teria segurado.** `Bloquear` não é defesa melhor. É a mesma defesa com variação, e os dois resultados de 1% são o que você está comprando.
 
-O outro preço é tempo de mesa: uma rolagem a mais por golpe recebido, e num combate de quatro rodadas com quatro personagens isso passa de uma dúzia de rolagens novas.
+O outro preço é tempo de mesa: uma rolagem a mais por golpe recebido. Num combate de quatro rodadas com quatro personagens, isso passa de uma dúzia de rolagens novas.
 
-## As duas travas
+## Limites
 
-#### O `Aparar` não come crítico
+### Aparar e crítico
 
 Quem ataca continua rolando d20, e 20 natural continua sendo 20 natural. O `Aparar` para o golpe comum e não para o crítico. Nenhuma regra de crítico muda por causa deste apêndice.
 
-#### O modificador é um só
+### Modificador compartilhado
 
 > **`Bloquear` usa exatamente o mesmo modificador da sua Defesa parada. Nada pode aumentar um sem aumentar o outro.**
 
-Esta é a linha que segura a regra inteira de pé. A neutralidade depende de os dois lados carregarem o mesmo número. Se um escudo, uma aptidão, um Legado ou uma ferramenta desse `+1` na Defesa e não no `Bloquear`, ou o contrário, o jogador passaria a escolher pelo número em vez de escolher pelo gosto, e `Bloquear` viraria justamente a coisa que ele existe para não ser.
+Se um escudo, uma aptidão, um Legado ou uma ferramenta der `+1` na Defesa e não no `Bloquear`, ou o contrário, a regra quebra: `+1` de diferença entre os dois lados vale dois pontos e meio percentuais.
 
-E o buraco é grande: `+1` de diferença entre os dois lados vale dois pontos e meio percentuais, que é o tamanho exato do problema do d20 que esta regra saiu para consertar.
-
-## Onde ela aparece no resto do manual
+## Bloquear e Incapacitado
 
 A condição `Incapacitado` cita `Bloquear` diretamente: quem está `Incapacitado` não pode bloquear, e todo ataque corpo a corpo contra ele é crítico.
 

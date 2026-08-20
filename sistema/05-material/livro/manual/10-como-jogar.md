@@ -1,14 +1,15 @@
 # Como Jogar
 
-Este capítulo é para ler inteiro, uma vez. Ele é o dono das palavras que o resto do manual usa sem parar para explicar de novo.
-
-## O teste
+## Teste
 
 Na maior parte do tempo o jogo é conversa. Alguém descreve o que o personagem faz, o mestre descreve o que acontece, e a cena anda. O dado entra num momento específico: quando a coisa é difícil **e** o fracasso muda alguma coisa. Empurrar uma porta emperrada com uma maldição arranhando o outro lado pede rolagem. Empurrar a mesma porta com a tarde inteira pela frente, não; o mestre deixa acontecer e segue.
 
 > **Role um d20, some o seu bônus e compare com a CD. Igualou ou passou, você conseguiu.**
 
 A **CD** é o número que a tarefa pede. Quem diz qual é o mestre, e ele tira de uma escada de cinco degraus.
+
+**Escada de CD**
+{: .tab-titulo }
 
 | CD | dificuldade | como isso aparece na cena |
 |---|---|---|
@@ -35,7 +36,7 @@ Cada perícia tem um atributo fixo, e o quadro completo (vinte e três perícias
 > **Desvantagem: role dois d20 e fique com o pior.**
 > O bônus é somado normalmente ao dado que ficou.
 
-São os dois botões que o sistema aperta o tempo todo. Um Legado, uma condição, um aliado te ajudando, a posição em que você está: qualquer coisa pode ligar um dos dois. Na prática, vantagem transforma uma tentativa duvidosa numa tentativa boa, e desvantagem faz o contrário sem mexer em número nenhum da ficha.
+Qualquer coisa pode ligar um dos dois: um Legado, uma condição, um aliado te ajudando, a posição em que você está. Na prática, vantagem transforma uma tentativa duvidosa numa tentativa boa, e desvantagem faz o contrário sem mexer em número nenhum da ficha.
 
 > **Exemplo.** Sousuke ataca alguém que está `Derrubado`, a um metro de distância. A condição dá vantagem a quem ataca de perto: ele rola dois d20, tira 6 e 17, e usa o 17.
 
@@ -53,7 +54,7 @@ Contribuir de verdade quer dizer estar em condição de fazer diferença naquela
 
 Assim o personagem de Destreza 1 não arruína sozinho a furtividade de quatro pessoas. Ele ainda tropeça na cena; o grupo é que não paga por isso.
 
-### O que uma falha entrega
+### Falha
 
 Toda falha empurra a cena para algum lugar. O mestre pediu a rolagem porque o resultado importava, então o dado ruim tem que mudar a situação tanto quanto o dado bom mudaria. Uma falha entrega uma destas três coisas:
 
@@ -63,11 +64,14 @@ Toda falha empurra a cena para algum lugar. O mestre pediu a rolagem porque o re
 
 > **Exemplo.** Rin falha na Furtividade por dois pontos. O mestre escolhe **custo**: ela passa pelos vigias, mas derruba um cone de sinalização, e agora os dois estão andando na direção do corredor. Ela conseguiu o que queria e o relógio da missão encurtou.
 
-## Os cinco atributos
+## Atributos
 
 **Força · Destreza · Constituição · Inteligência · Essência**
 
 O número **é** o modificador, numa escala de 0 a 6. Um personagem com Força 4 soma 4 no ataque corpo a corpo, e ponto. Não existe valor separado, tabela de conversão nem coluna extra na ficha.
+
+**Atributos**
+{: .tab-titulo }
 
 | Atributo | O que governa |
 |---|---|
@@ -77,13 +81,16 @@ O número **é** o modificador, numa escala de 0 a 6. Um personagem com Força 4
 | **Inteligência** | conhecimento, investigação, reconhecer uma técnica pelo catálogo |
 | **Essência** | perceber energia amaldiçoada, trato social, hierarquia, negociar Pactos |
 
-Essência ocupa o lugar do que em outros sistemas seriam dois atributos separados. Ela é a sua energia amaldiçoada como sentido: o que ela capta do ar de uma sala é da mesma natureza do que ela capta da voz de alguém. A divisória entre ela e Inteligência é curta de guardar: **Inteligência sabe, Essência percebe**. Sentir Energia e Percepção rolam com Essência.
+Essência é a sua energia amaldiçoada como sentido: o que ela capta do ar de uma sala é da mesma natureza do que ela capta da voz de alguém. A divisória entre ela e Inteligência: **Inteligência sabe, Essência percebe**. Sentir Energia e Percepção rolam com Essência.
 
 Inteligência não concede perícias extras. O que você é treinado vem da Origem e do Caminho, e de mais nada.
 
 ## Maestria
 
 > **Maestria começa em 1 e sobe um ponto a cada oito níveis.**
+
+**Maestria por nível**
+{: .tab-titulo }
 
 | nível | 2–9 | 10–17 | 18–25 | 26–30 |
 |---|---|---|---|---|
@@ -101,9 +108,12 @@ Três rolagens, uma para cada jeito de machucar alguém. Todas comparam com a **
 > **Ataque à distância = d20 + Destreza**
 > **Ataque de conjuração = d20 + 2 + maestria**
 
-O `2 + maestria` do conjurador faz o trabalho que um atributo faz para quem bate: ele cresce sozinho, sem obrigar você a investir num atributo específico para a sua técnica funcionar. Um Emanador de Força 0 acerta os feitiços dele igual a qualquer um. Algumas habilidades de Caminho trocam esse 2 fixo por um atributo, e é assim que nasce o feiticeiro que conjura pela Força. Quando for o caso, a habilidade diz.
+O `2 + maestria` cresce sozinho: um Emanador de Força 0 acerta os feitiços dele igual a qualquer um. Algumas habilidades de Caminho trocam esse 2 fixo por um atributo, e é assim que nasce o feiticeiro que conjura pela Força. Quando for o caso, a habilidade diz.
 
 Nem todo feitiço rola acerto. Um feitiço resolve de três jeitos, e o capítulo 9, *Fundamento*, diz qual é o de cada um:
+
+**Resolução de feitiço**
+{: .tab-titulo }
 
 | como resolve | o que acontece |
 |---|---|
@@ -121,7 +131,7 @@ Nem todo feitiço rola acerto. Um feitiço resolve de três jeitos, e o capítul
 > Dobra os dados da arma, se for arma; os dados da Classe, se for feitiço ou feitiço de Toque.
 > **Nada mais dobra**: nem Força, nem dados que vieram de Melhoria, nem dano fixo.
 
-Crítico só existe onde existe rolagem de acerto. Feitiço que resolve por Teste de Resistência ou por Automático nunca crita, e isso vale também para as Melhorias que compram precisão tirando a rolagem de ataque. Quem trocou o dado de acerto por certeza trocou o crítico junto.
+Crítico só existe onde existe rolagem de acerto. Feitiço que resolve por Teste de Resistência ou por Automático nunca crita, e isso vale também para as Melhorias que compram precisão tirando a rolagem de ataque.
 
 > **Exemplo.** Sousuke acerta com uma lâmina de 2d6 e Força 4. No 20 natural ele rola 4d6 e soma 4. A Força continua entrando uma vez só.
 
@@ -129,9 +139,9 @@ Crítico só existe onde existe rolagem de acerto. Feitiço que resolve por Test
 
 > **Defesa = 10 + Destreza + proteção**
 
-Defesa é o número que o inimigo precisa igualar ou passar para te acertar. Ele rola contra ela; você fica olhando o dado da mesa do mestre.
+Defesa é o número que o inimigo precisa igualar ou passar para te acertar. Ele rola contra ela; você não rola nada.
 
-**Proteção** é o que você veste ou o que você cobre. Cobrir-se de energia amaldiçoada dá proteção sem equipamento nenhum, e é por isso que isso é aptidão básica de todo feiticeiro: o uniforme da escola protege menos do que a camada de energia que o aluno aprendeu a manter no primeiro mês.
+**Proteção** é o que você veste ou o que você cobre. Cobrir-se de energia amaldiçoada dá proteção sem equipamento nenhum, e é aptidão básica de todo feiticeiro.
 
 Defesa evita ser acertado. Reduzir o dano que já passou é outra coisa, chamada **Redução de Dano**, e ela aparece no capítulo 9, *Fundamento*.
 
@@ -145,6 +155,9 @@ Um **Teste de Resistência** é o que você rola quando alguma coisa acontece co
 
 > **Teste de Resistência = d20 + atributo do TR, mais 2 se você for treinado nele.**
 
+**Testes de Resistência**
+{: .tab-titulo }
+
 | Teste de Resistência | Usa | Serve para |
 |---|---|---|
 | **Físico** | Força **ou** Destreza, declarado na criação e travado | reagir, esquivar, aguentar impacto |
@@ -152,7 +165,7 @@ Um **Teste de Resistência** é o que você rola quando alguma coisa acontece co
 | **Intelecto** | Inteligência | controle mental, ilusão, dissociação |
 | **Espírito** | Essência | vontade, determinação, não se dobrar |
 
-O TR Físico é o único que escolhe entre dois atributos, e essa escolha é feita uma vez na criação. Ela diz como o seu personagem sai da frente de uma explosão: quem travou em Força planta o pé e absorve, quem travou em Destreza salta. O número que entra na conta é o mesmo tipo de número; a cena é outra.
+O TR Físico é o único que escolhe entre dois atributos, e essa escolha é feita uma vez na criação. Ela diz como o seu personagem sai da frente de uma explosão: quem travou em Força planta o pé e absorve, quem travou em Destreza salta.
 
 Você é treinado em **dois dos quatro**: a sua Origem treina um, o seu Caminho treina outro. O treino vale +2 fixo aqui. Maestria não entra em Teste de Resistência nunca.
 
@@ -167,6 +180,9 @@ Três reservas, e cada uma tem uma conta diferente. Vida é o corpo, energia é 
 > **No nível 1 você recebe a vida inicial do seu Caminho, mais a sua Constituição.**
 > **Em cada nível depois, você recebe a vida por nível do seu Caminho, mais a sua Constituição de novo.**
 
+**Vida e PE por Caminho**
+{: .tab-titulo }
+
 | Caminho | dado | vida no nível 1 | por nível | PE por nível | a troca |
 |---|---|---|---|---|---|
 | **Bastião** | d12 | 12 | 7 | 4 | menos combustível, mais couro |
@@ -177,15 +193,15 @@ Três reservas, e cada uma tem uma conta diferente. Vida é o corpo, energia é 
 
 > **Exemplo.** Mei é Vanguarda, Constituição 3, nível 4. Nível 1: 8 + 3 = 11. Cada um dos três níveis seguintes: 5 + 3 = 8. Total: 11 + 24 = **35 de vida**.
 
-> **Variante: rolar a vida.** Se a sua mesa preferir, role o dado do Caminho a cada nível em vez de pegar o valor fixo da tabela. Na média isso rende um pouco menos, e é essa a aposta.
+> **Variante: rolar a vida.** Se a sua mesa preferir, role o dado do Caminho a cada nível em vez de pegar o valor fixo da tabela. Na média isso rende um pouco menos.
 
 ### Pontos de energia
 
-**Pontos de energia** são o combustível dos seus feitiços, e o manual chama de **PE** nas tabelas. É o que acaba primeiro numa missão longa, e é ele que decide se o quarto combate do dia vai ser conjurado ou socado.
+**Pontos de energia** são o combustível dos seus feitiços, e o manual chama de **PE** nas tabelas. É o que acaba primeiro numa missão longa.
 
 > **Pontos de energia = PE por nível do seu Caminho × o seu nível.**
 
-Sem atributo e sem valor inicial. É a única reserva do sistema que é uma linha reta, e a única que passa pela origem: no nível 1 você já tem só o PE de um nível.
+Sem atributo e sem valor inicial: no nível 1 você tem o PE de um nível.
 
 > **Exemplo.** Mei, Vanguarda de nível 4: 5 × 4 = **20 de PE**. Nenhum atributo entra nessa conta.
 
@@ -193,9 +209,9 @@ Sem atributo e sem valor inicial. É a única reserva do sistema que é uma linh
 
 > **Integridade = 20 + 8 × (nível − 1).** Plana, igual para todo mundo.
 
-Integridade é a sua alma, e a alma é igual para todo mundo: nem o Caminho nem a Constituição mexem nela. Dano de alma passa por cima de corpo duro, então o Bastião de Constituição 3 encara isso exatamente como o Emanador que ele passou a campanha inteira protegendo.
+Integridade é a sua alma, e a alma é igual para todo mundo: nem o Caminho nem a Constituição mexem nela. Dano de alma passa por cima de corpo duro.
 
-Dano de alma tem quatro estágios, e eles estão no capítulo 4, *Dano, Condições e Cobertura*, na seção *Os quatro estágios de dano na alma*. O quarto é o fim da linha: *"você não é mais você, e o que sobra é decisão do mestre"*.
+Dano de alma tem quatro estágios, e eles estão no capítulo 4, *Dano, Condições e Cobertura*, na seção *Dano na alma*. O quarto é o fim da linha: *"você não é mais você, e o que sobra é decisão do mestre"*.
 
 ## Arredondamento
 
@@ -210,9 +226,9 @@ A regra vale para a conta que cai na sua mão na mesa. Número que já está imp
 
 O piso de 1 é sobre arredondamento. Quando uma regra diz que você recupera **nada**, ela diz nada, e o piso não desfaz um zero escrito.
 
-## Quando a vida chega a 0
+## Vida a 0
 
-Este é o momento mais decidido pelo jogador no sistema inteiro. O personagem levou o golpe que zerou a barra, a mesa para, e quem escolhe o que acontece é você.
+O personagem levou o golpe que zerou a barra, a mesa para, e quem escolhe o que acontece é você.
 
 > **Você chega a 0 de vida. Escolha uma das duas, na hora:**
 >
@@ -221,6 +237,9 @@ Este é o momento mais decidido pelo jogador no sistema inteiro. O personagem le
 > **Insistir** — você fica de pé a 0 de vida e age normalmente. Cada rodada custa um pedaço da sua **vida máxima**, e ele dobra: **1/8, depois 1/4, depois 1/2**. Na quarta rodada você desaba.
 
 Quem desaba pelo Insistir não levanta com um ponto de cura. Só acorda com uma cura de **metade da sua vida máxima original, de uma vez só**.
+
+**Aguentar e Insistir**
+{: .tab-titulo }
 
 | | ganha | custa |
 |---|---|---|
@@ -233,7 +252,7 @@ O custo do Insistir usa o arredondamento de sempre: ele é uma coisa que você p
 
 > **Exemplo.** Kaito tem 80 de vida máxima e chega a 0 com o chefe quase morto. Ele escolhe Insistir. Na primeira rodada paga 10 (1/8 de 80), na segunda 20, na terceira 40. Se o chefe não cair até lá, Kaito desaba na quarta.
 
-#### Sequela e Cicatriz
+### Sequela e Cicatriz
 
 > Toda vez que você levanta de uma queda, ganha uma **Sequela**. Cada Sequela tira uma rodada da janela da sua próxima queda.
 >
@@ -243,9 +262,12 @@ O custo do Insistir usa o arredondamento de sempre: ele é uma coisa que você p
 
 Sequela deixa as suas rolagens exatamente como estavam. Você levanta tão competente quanto era, e o que encurtou foi a próxima queda: onde antes havia três rodadas de janela, agora há duas.
 
-#### O estado `Inconsciente`
+### Inconsciente
 
 Chegar a 0 de vida tem nome próprio: `Inconsciente`, o estado descrito nesta seção. Duas condições parecidas costumam ser confundidas com ele, e as duas moram no capítulo 4, *Dano, Condições e Cobertura*:
+
+**Inconsciente, Incapacitado e Derrubado**
+{: .tab-titulo }
 
 | | o que é |
 |---|---|

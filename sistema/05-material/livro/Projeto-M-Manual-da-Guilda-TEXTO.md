@@ -151,7 +151,7 @@ Nada aqui é regra completa. É o suficiente para você continuar lendo sem para
 
 | Termo | O que é | Cap. |
 |---|---|---|
-| **Rodada** | Todo mundo teve o seu turno. Um punhado de segundos | 2 |
+| **Rodada** | Todo mundo teve o seu turno. 6 segundos | 2 |
 | **Ação Padrão** | Uma por turno. Atacar, conjurar, a maior parte das coisas | 2 |
 | **Ação Bônus** | Uma por turno, e só o que a regra disser com todas as letras que é Ação Bônus | 2 |
 | **Reação** | Uma por turno, responde a um gatilho e vale fora do seu turno | 2 |
@@ -299,8 +299,7 @@ escolha, rodada após rodada, que o resto do livro existe para sustentar.
 
 **Se a maldição tivesse sobrevivido**, o turno dela viria de novo, e a cena continuaria
 até alguém desistir, fugir ou cair. **Se Kaori chegasse a `0` de vida**, ela escolheria
-entre `Aguentar` e `Insistir` — a regra está no capítulo 1, na seção *Quando a vida chega
-a 0*, e ela é o momento mais decidido pelo jogador em todo o sistema.
+entre `Aguentar` e `Insistir` — a regra está no capítulo 1, na seção *Vida a 0*, e ela é o momento mais decidido pelo jogador em todo o sistema.
 
 ## Terminou a cena? O que vem depois
 
@@ -320,9 +319,7 @@ a 0*, e ela é o momento mais decidido pelo jogador em todo o sistema.
 
 *fonte: `manual/10-como-jogar.md`*
 
-Este capítulo é para ler inteiro, uma vez. Ele é o dono das palavras que o resto do manual usa sem parar para explicar de novo.
-
-## O teste
+## Teste
 
 Na maior parte do tempo o jogo é conversa. Alguém descreve o que o personagem faz, o mestre descreve o que acontece, e a cena anda. O dado entra num momento específico: quando a coisa é difícil **e** o fracasso muda alguma coisa. Empurrar uma porta emperrada com uma maldição arranhando o outro lado pede rolagem. Empurrar a mesma porta com a tarde inteira pela frente, não; o mestre deixa acontecer e segue.
 
@@ -330,6 +327,7 @@ Na maior parte do tempo o jogo é conversa. Alguém descreve o que o personagem 
 
 A **CD** é o número que a tarefa pede. Quem diz qual é o mestre, e ele tira de uma escada de cinco degraus.
 
+**Escada de CD**
 | CD | dificuldade | como isso aparece na cena |
 |---|---|---|
 | 10 | rotina | pular o muro do colégio, lembrar de que família é aquele brasão |
@@ -355,7 +353,7 @@ Cada perícia tem um atributo fixo, e o quadro completo (vinte e três perícias
 > **Desvantagem: role dois d20 e fique com o pior.**
 > O bônus é somado normalmente ao dado que ficou.
 
-São os dois botões que o sistema aperta o tempo todo. Um Legado, uma condição, um aliado te ajudando, a posição em que você está: qualquer coisa pode ligar um dos dois. Na prática, vantagem transforma uma tentativa duvidosa numa tentativa boa, e desvantagem faz o contrário sem mexer em número nenhum da ficha.
+Qualquer coisa pode ligar um dos dois: um Legado, uma condição, um aliado te ajudando, a posição em que você está. Na prática, vantagem transforma uma tentativa duvidosa numa tentativa boa, e desvantagem faz o contrário sem mexer em número nenhum da ficha.
 
 > **Exemplo.** Sousuke ataca alguém que está `Derrubado`, a um metro de distância. A condição dá vantagem a quem ataca de perto: ele rola dois d20, tira 6 e 17, e usa o 17.
 
@@ -373,7 +371,7 @@ Contribuir de verdade quer dizer estar em condição de fazer diferença naquela
 
 Assim o personagem de Destreza 1 não arruína sozinho a furtividade de quatro pessoas. Ele ainda tropeça na cena; o grupo é que não paga por isso.
 
-### O que uma falha entrega
+### Falha
 
 Toda falha empurra a cena para algum lugar. O mestre pediu a rolagem porque o resultado importava, então o dado ruim tem que mudar a situação tanto quanto o dado bom mudaria. Uma falha entrega uma destas três coisas:
 
@@ -383,12 +381,13 @@ Toda falha empurra a cena para algum lugar. O mestre pediu a rolagem porque o re
 
 > **Exemplo.** Rin falha na Furtividade por dois pontos. O mestre escolhe **custo**: ela passa pelos vigias, mas derruba um cone de sinalização, e agora os dois estão andando na direção do corredor. Ela conseguiu o que queria e o relógio da missão encurtou.
 
-## Os cinco atributos
+## Atributos
 
 **Força · Destreza · Constituição · Inteligência · Essência**
 
 O número **é** o modificador, numa escala de 0 a 6. Um personagem com Força 4 soma 4 no ataque corpo a corpo, e ponto. Não existe valor separado, tabela de conversão nem coluna extra na ficha.
 
+**Atributos**
 | Atributo | O que governa |
 |---|---|
 | **Força** | ataque corpo a corpo, agarrar, quebrar, carregar |
@@ -397,7 +396,7 @@ O número **é** o modificador, numa escala de 0 a 6. Um personagem com Força 4
 | **Inteligência** | conhecimento, investigação, reconhecer uma técnica pelo catálogo |
 | **Essência** | perceber energia amaldiçoada, trato social, hierarquia, negociar Pactos |
 
-Essência ocupa o lugar do que em outros sistemas seriam dois atributos separados. Ela é a sua energia amaldiçoada como sentido: o que ela capta do ar de uma sala é da mesma natureza do que ela capta da voz de alguém. A divisória entre ela e Inteligência é curta de guardar: **Inteligência sabe, Essência percebe**. Sentir Energia e Percepção rolam com Essência.
+Essência é a sua energia amaldiçoada como sentido: o que ela capta do ar de uma sala é da mesma natureza do que ela capta da voz de alguém. A divisória entre ela e Inteligência: **Inteligência sabe, Essência percebe**. Sentir Energia e Percepção rolam com Essência.
 
 Inteligência não concede perícias extras. O que você é treinado vem da Origem e do Caminho, e de mais nada.
 
@@ -405,6 +404,7 @@ Inteligência não concede perícias extras. O que você é treinado vem da Orig
 
 > **Maestria começa em 1 e sobe um ponto a cada oito níveis.**
 
+**Maestria por nível**
 | nível | 2–9 | 10–17 | 18–25 | 26–30 |
 |---|---|---|---|---|
 | maestria | 1 | 2 | 3 | 4 |
@@ -421,10 +421,11 @@ Três rolagens, uma para cada jeito de machucar alguém. Todas comparam com a **
 > **Ataque à distância = d20 + Destreza**
 > **Ataque de conjuração = d20 + 2 + maestria**
 
-O `2 + maestria` do conjurador faz o trabalho que um atributo faz para quem bate: ele cresce sozinho, sem obrigar você a investir num atributo específico para a sua técnica funcionar. Um Emanador de Força 0 acerta os feitiços dele igual a qualquer um. Algumas habilidades de Caminho trocam esse 2 fixo por um atributo, e é assim que nasce o feiticeiro que conjura pela Força. Quando for o caso, a habilidade diz.
+O `2 + maestria` cresce sozinho: um Emanador de Força 0 acerta os feitiços dele igual a qualquer um. Algumas habilidades de Caminho trocam esse 2 fixo por um atributo, e é assim que nasce o feiticeiro que conjura pela Força. Quando for o caso, a habilidade diz.
 
 Nem todo feitiço rola acerto. Um feitiço resolve de três jeitos, e o capítulo 9, *Fundamento*, diz qual é o de cada um:
 
+**Resolução de feitiço**
 | como resolve | o que acontece |
 |---|---|
 | **Acerto** | você rola o ataque de conjuração contra a Defesa do alvo |
@@ -441,7 +442,7 @@ Nem todo feitiço rola acerto. Um feitiço resolve de três jeitos, e o capítul
 > Dobra os dados da arma, se for arma; os dados da Classe, se for feitiço ou feitiço de Toque.
 > **Nada mais dobra**: nem Força, nem dados que vieram de Melhoria, nem dano fixo.
 
-Crítico só existe onde existe rolagem de acerto. Feitiço que resolve por Teste de Resistência ou por Automático nunca crita, e isso vale também para as Melhorias que compram precisão tirando a rolagem de ataque. Quem trocou o dado de acerto por certeza trocou o crítico junto.
+Crítico só existe onde existe rolagem de acerto. Feitiço que resolve por Teste de Resistência ou por Automático nunca crita, e isso vale também para as Melhorias que compram precisão tirando a rolagem de ataque.
 
 > **Exemplo.** Sousuke acerta com uma lâmina de 2d6 e Força 4. No 20 natural ele rola 4d6 e soma 4. A Força continua entrando uma vez só.
 
@@ -449,9 +450,9 @@ Crítico só existe onde existe rolagem de acerto. Feitiço que resolve por Test
 
 > **Defesa = 10 + Destreza + proteção**
 
-Defesa é o número que o inimigo precisa igualar ou passar para te acertar. Ele rola contra ela; você fica olhando o dado da mesa do mestre.
+Defesa é o número que o inimigo precisa igualar ou passar para te acertar. Ele rola contra ela; você não rola nada.
 
-**Proteção** é o que você veste ou o que você cobre. Cobrir-se de energia amaldiçoada dá proteção sem equipamento nenhum, e é por isso que isso é aptidão básica de todo feiticeiro: o uniforme da escola protege menos do que a camada de energia que o aluno aprendeu a manter no primeiro mês.
+**Proteção** é o que você veste ou o que você cobre. Cobrir-se de energia amaldiçoada dá proteção sem equipamento nenhum, e é aptidão básica de todo feiticeiro.
 
 Defesa evita ser acertado. Reduzir o dano que já passou é outra coisa, chamada **Redução de Dano**, e ela aparece no capítulo 9, *Fundamento*.
 
@@ -465,6 +466,7 @@ Um **Teste de Resistência** é o que você rola quando alguma coisa acontece co
 
 > **Teste de Resistência = d20 + atributo do TR, mais 2 se você for treinado nele.**
 
+**Testes de Resistência**
 | Teste de Resistência | Usa | Serve para |
 |---|---|---|
 | **Físico** | Força **ou** Destreza, declarado na criação e travado | reagir, esquivar, aguentar impacto |
@@ -472,7 +474,7 @@ Um **Teste de Resistência** é o que você rola quando alguma coisa acontece co
 | **Intelecto** | Inteligência | controle mental, ilusão, dissociação |
 | **Espírito** | Essência | vontade, determinação, não se dobrar |
 
-O TR Físico é o único que escolhe entre dois atributos, e essa escolha é feita uma vez na criação. Ela diz como o seu personagem sai da frente de uma explosão: quem travou em Força planta o pé e absorve, quem travou em Destreza salta. O número que entra na conta é o mesmo tipo de número; a cena é outra.
+O TR Físico é o único que escolhe entre dois atributos, e essa escolha é feita uma vez na criação. Ela diz como o seu personagem sai da frente de uma explosão: quem travou em Força planta o pé e absorve, quem travou em Destreza salta.
 
 Você é treinado em **dois dos quatro**: a sua Origem treina um, o seu Caminho treina outro. O treino vale +2 fixo aqui. Maestria não entra em Teste de Resistência nunca.
 
@@ -487,6 +489,7 @@ Três reservas, e cada uma tem uma conta diferente. Vida é o corpo, energia é 
 > **No nível 1 você recebe a vida inicial do seu Caminho, mais a sua Constituição.**
 > **Em cada nível depois, você recebe a vida por nível do seu Caminho, mais a sua Constituição de novo.**
 
+**Vida e PE por Caminho**
 | Caminho | dado | vida no nível 1 | por nível | PE por nível | a troca |
 |---|---|---|---|---|---|
 | **Bastião** | d12 | 12 | 7 | 4 | menos combustível, mais couro |
@@ -497,15 +500,15 @@ Três reservas, e cada uma tem uma conta diferente. Vida é o corpo, energia é 
 
 > **Exemplo.** Mei é Vanguarda, Constituição 3, nível 4. Nível 1: 8 + 3 = 11. Cada um dos três níveis seguintes: 5 + 3 = 8. Total: 11 + 24 = **35 de vida**.
 
-> **Variante: rolar a vida.** Se a sua mesa preferir, role o dado do Caminho a cada nível em vez de pegar o valor fixo da tabela. Na média isso rende um pouco menos, e é essa a aposta.
+> **Variante: rolar a vida.** Se a sua mesa preferir, role o dado do Caminho a cada nível em vez de pegar o valor fixo da tabela. Na média isso rende um pouco menos.
 
 ### Pontos de energia
 
-**Pontos de energia** são o combustível dos seus feitiços, e o manual chama de **PE** nas tabelas. É o que acaba primeiro numa missão longa, e é ele que decide se o quarto combate do dia vai ser conjurado ou socado.
+**Pontos de energia** são o combustível dos seus feitiços, e o manual chama de **PE** nas tabelas. É o que acaba primeiro numa missão longa.
 
 > **Pontos de energia = PE por nível do seu Caminho × o seu nível.**
 
-Sem atributo e sem valor inicial. É a única reserva do sistema que é uma linha reta, e a única que passa pela origem: no nível 1 você já tem só o PE de um nível.
+Sem atributo e sem valor inicial: no nível 1 você tem o PE de um nível.
 
 > **Exemplo.** Mei, Vanguarda de nível 4: 5 × 4 = **20 de PE**. Nenhum atributo entra nessa conta.
 
@@ -513,7 +516,7 @@ Sem atributo e sem valor inicial. É a única reserva do sistema que é uma linh
 
 > **Integridade = 20 + 8 × (nível − 1).** Plana, igual para todo mundo.
 
-Integridade é a sua alma, e a alma é igual para todo mundo: nem o Caminho nem a Constituição mexem nela. Dano de alma passa por cima de corpo duro, então o Bastião de Constituição 3 encara isso exatamente como o Emanador que ele passou a campanha inteira protegendo.
+Integridade é a sua alma, e a alma é igual para todo mundo: nem o Caminho nem a Constituição mexem nela. Dano de alma passa por cima de corpo duro.
 
 Dano de alma tem quatro estágios, e eles estão no capítulo 4, *Dano, Condições e Cobertura*, na seção *Os quatro estágios de dano na alma*. O quarto é o fim da linha: *"você não é mais você, e o que sobra é decisão do mestre"*.
 
@@ -530,9 +533,9 @@ A regra vale para a conta que cai na sua mão na mesa. Número que já está imp
 
 O piso de 1 é sobre arredondamento. Quando uma regra diz que você recupera **nada**, ela diz nada, e o piso não desfaz um zero escrito.
 
-## Quando a vida chega a 0
+## Vida a 0
 
-Este é o momento mais decidido pelo jogador no sistema inteiro. O personagem levou o golpe que zerou a barra, a mesa para, e quem escolhe o que acontece é você.
+O personagem levou o golpe que zerou a barra, a mesa para, e quem escolhe o que acontece é você.
 
 > **Você chega a 0 de vida. Escolha uma das duas, na hora:**
 >
@@ -542,6 +545,7 @@ Este é o momento mais decidido pelo jogador no sistema inteiro. O personagem le
 
 Quem desaba pelo Insistir não levanta com um ponto de cura. Só acorda com uma cura de **metade da sua vida máxima original, de uma vez só**.
 
+**Aguentar e Insistir**
 | | ganha | custa |
 |---|---|---|
 | **Aguentar** | janela de 3 rodadas, e acorda com 1 de cura | fora da luta desde já, 1 Sequela |
@@ -553,7 +557,7 @@ O custo do Insistir usa o arredondamento de sempre: ele é uma coisa que você p
 
 > **Exemplo.** Kaito tem 80 de vida máxima e chega a 0 com o chefe quase morto. Ele escolhe Insistir. Na primeira rodada paga 10 (1/8 de 80), na segunda 20, na terceira 40. Se o chefe não cair até lá, Kaito desaba na quarta.
 
-#### Sequela e Cicatriz
+### Sequela e Cicatriz
 
 > Toda vez que você levanta de uma queda, ganha uma **Sequela**. Cada Sequela tira uma rodada da janela da sua próxima queda.
 >
@@ -563,10 +567,11 @@ O custo do Insistir usa o arredondamento de sempre: ele é uma coisa que você p
 
 Sequela deixa as suas rolagens exatamente como estavam. Você levanta tão competente quanto era, e o que encurtou foi a próxima queda: onde antes havia três rodadas de janela, agora há duas.
 
-#### O estado `Inconsciente`
+### Inconsciente
 
 Chegar a 0 de vida tem nome próprio: `Inconsciente`, o estado descrito nesta seção. Duas condições parecidas costumam ser confundidas com ele, e as duas moram no capítulo 4, *Dano, Condições e Cobertura*:
 
+**Inconsciente, Incapacitado e Derrubado**
 | | o que é |
 |---|---|
 | `Inconsciente` | você chegou a 0 de vida, e está nesta seção |
@@ -590,9 +595,9 @@ Ao longo do manual, o que aparece `assim` é nome de mecânica: uma condição, 
 
 *fonte: `manual/11-o-turno.md`*
 
-Quando a briga começa, o jogo passa a contar o tempo. Todo mundo rola Iniciativa, e essa rolagem decide a ordem em que as pessoas agem. Cada um tem o seu **turno**; quando todo mundo já teve o seu, a rodada fecha e começa outra, na mesma ordem.
+O combate é contado em rodadas. Todo mundo rola Iniciativa, e essa rolagem decide a ordem em que as pessoas agem. Cada um tem o seu **turno**; quando todo mundo já teve o seu, a rodada fecha e começa outra, na mesma ordem.
 
-Uma rodada é um punhado de segundos. Tudo que acontece nela está acontecendo mais ou menos ao mesmo tempo: a ordem existe para a mesa conseguir narrar, não porque cada um esteja esperando educadamente a vez do outro.
+Uma rodada são 6 segundos. Tudo que acontece nela está acontecendo mais ou menos ao mesmo tempo; a ordem existe para a mesa conseguir narrar.
 
 ## Iniciativa
 
@@ -604,8 +609,9 @@ A ordem sai uma vez e vale enquanto a cena durar. Ninguém rola de novo a cada r
 
 > **Exemplo.** A Rina tem Destreza 4. Ela rola o d20, tira 11, e a iniciativa dela é 15. A maldição do outro lado do galpão tem Destreza 3 e tira 16: iniciativa 19. A maldição age antes dela, nesta rodada e em todas as próximas.
 
-## O que cabe num turno
+## Recursos do turno
 
+**Recursos do turno**
 | Recurso | Quanto | O que faz |
 |---|---|---|
 | Movimento | até 9 metros | pode ser dividido antes, durante e depois da ação |
@@ -617,20 +623,21 @@ Os quatro são independentes. Você tem os quatro em todo turno seu, e gastar um
 
 O slot de Ação Bônus fica vazio na maioria dos turnos da maioria das fichas, e isso é normal. Ele só acende quando alguma coisa escrita na sua ficha diz **Ação Bônus** com todas as letras.
 
-#### Deslocamento
+### Deslocamento
 
 O seu deslocamento base é 9 metros, e você corta esse total em quantos pedaços quiser dentro do turno. Dá para andar 3 metros, atacar, e andar os 6 que sobraram. É assim que alguém sai de trás de uma coluna, dá o golpe e volta para trás dela no mesmo turno.
 
-#### Rodada inteira
+### Rodada inteira
 
 Algumas coisas custam a rodada inteira: movimento, Ação Padrão e Ação Bônus de uma vez só. A Reação continua sua.
 
 > **Exemplo.** A Rina abre o turno andando 6 metros até a porta do depósito. Gasta a Ação Padrão em `Atacar` a maldição que estava esperando atrás dela, e ainda tem 3 metros sobrando, que usa para sair do vão da porta. A Ação Bônus dela fica parada: nada na ficha da Rina diz que é Ação Bônus, e sem isso o slot não faz nada.
 
-## As ações de Ação Padrão
+## Ações de Ação Padrão
 
 Doze ações têm regra escrita. Você continua podendo tentar o que não está aqui; é aqui que o mestre não precisa arbitrar nada.
 
+**Ações de Ação Padrão**
 | Ação | O que ela faz |
 |---|---|
 | **Atacar** | um ataque com arma ou desarmado, e os ataques a mais que a sua regra de ataque extra der. `Agarrar` e `Derrubar` são opções desta ação |
@@ -646,23 +653,25 @@ Doze ações têm regra escrita. Você continua podendo tentar o que não está 
 | **Estudar** | um teste de `Sentir Energia`, `Ocultismo`, `Medicina` ou `História` sobre uma criatura ou objeto que você enxerga |
 | **Usar objeto** | usar um objeto não mágico |
 
-Quatro delas são o turno de quem decidiu não atacar, e valem a pena guardar: `Correr` é o turno de quem precisa atravessar o galpão inteiro, `Desengajar` é o turno de quem está encostado no inimigo errado e quer sair sem levar um golpe de graça, `Esquivar` é o turno de quem prefere aguentar mais uma rodada de pé, e `Esconder` é o turno de quem quer sumir antes que a próxima onda entre pela porta. Nenhuma delas causa dano, e todas mudam o que acontece com você na rodada seguinte.
+Quatro delas são o turno de quem decidiu não atacar: `Correr` é o turno de quem precisa atravessar o galpão inteiro, `Desengajar` é o turno de quem está encostado no inimigo errado e quer sair sem levar um golpe de graça, `Esquivar` é o turno de quem prefere aguentar mais uma rodada de pé, e `Esconder` é o turno de quem quer sumir antes que a próxima onda entre pela porta. Nenhuma delas causa dano, e todas mudam o que acontece com você na rodada seguinte.
 
-#### Agarrar e Derrubar
+### Agarrar e Derrubar
 
 As duas são opções do `Atacar`, e cada uma ocupa um dos seus ataques. Quem tem ataque extra agarra com um golpe e bate com o outro, no mesmo turno. Cada uma aplica a condição de mesmo nome, e o efeito delas está no capítulo 4, *Dano, Condições e Cobertura*.
 
-#### Ajudar
+### Ajudar
 
 Um ajudante por teste. Dois aliados ajudando não dão vantagem duas vezes, e o segundo perde a Ação Padrão dele à toa. A regra completa de `Ajudar`, com o que conta como ajuda de verdade, está no capítulo 1, *Como Jogar*.
 
-#### Influenciar
+### Influenciar
 
 O teste é de Essência, e a perícia depende do jeito que você escolher: `Persuasão`, `Enganação`, `Intimidação` ou `Atuação`. Serve tanto para o negociador do outro lado da barreira quanto para a maldição que ainda tem alguma coisa de gente dentro. O que muda é a CD que o mestre põe.
 
-#### Preparar
+### Preparar
 
-`Preparar` cobra duas coisas por uma. Você gasta a Ação Padrão agora, e a Reação depois, quando o gatilho acontecer. Se o gatilho não acontecer até o começo do seu próximo turno, a ação se perde e você não recebe nada de volta. É a aposta de quem prefere agir na hora certa a agir logo.
+`Preparar` cobra duas coisas por uma. Você gasta a Ação Padrão agora, e a Reação depois, quando o gatilho acontecer. Se o gatilho não acontecer até o começo do seu próximo turno, a ação se perde e você não recebe nada de volta.
+
+> **A Reação não fica reservada.** Até o gatilho acontecer, ela continua sua para qualquer outro uso — e gastar ela em outra coisa faz a ação preparada se perder. Usar a ação preparada gasta a Reação.
 
 O gatilho precisa ser visível e verificável pela mesa: *"quando ela sair da fumaça"*, *"quando ele encostar na porta"*. Um gatilho que só o jogador consegue julgar trava a cena.
 
@@ -670,19 +679,19 @@ Preparar uma conjuração continua exigindo a Melhoria `Reação`. O slot não m
 
 > **Exemplo.** O Kaito prepara: *"se aquela coisa passar da linha das prateleiras, eu ataco."* Gastou a Ação Padrão dele agora. A maldição passa da linha ainda na rodada, e ele gasta a Reação para dar o golpe. Se ela tivesse ficado parada até a vez dele de novo, ele teria perdido o turno inteiro esperando.
 
-#### Vasculhar e Estudar
+### Vasculhar e Estudar
 
 As duas gastam a Ação Padrão para trocar informação por tempo, e a diferença é a distância. `Vasculhar` é mão no objeto: revistar o corpo, abrir a gaveta, apalpar a parede atrás de um vão. `Estudar` é olhar com atenção de longe: ler a energia de uma maldição, reconhecer o formato de um selo, avaliar quanto sangue aquele ferido ainda aguenta perder.
 
-## As ações de Ação Bônus
+## Ações de Ação Bônus
 
-Duas, e elas existem para o turno em que você olha a ficha e não acha nada para fazer com o slot.
+São duas.
 
 > **`Provocar`** — Ação Bônus. Teste de `Provocar` contra o Teste de Resistência de Espírito do alvo. Se ele falhar, até o começo do seu próximo turno ele ataca com desvantagem qualquer alvo que não seja você, e com vantagem contra você.
 
 > **`Ler o Ambiente`** — Ação Bônus, uma vez por cena. Teste de `Percepção` ou `Intuição` contra a dificuldade que o mestre puser. Num sucesso, o mestre te diz uma coisa daquele lugar que dê para usar: um objeto, um caminho, uma posição, um risco. Se não houver nada, ele diz isso e a ação não é gasta.
 
-`Provocar` é a ação de quem tem couro e quer que o golpe caia nele em vez de cair no Emanador de 12 de vida. O preço está no texto: enquanto durar, você é o alvo mais fácil da sala.
+`Provocar` é a ação de quem tem couro e quer que o golpe caia nele em vez de cair no Emanador de 12 de vida. Enquanto durar, você é o alvo mais fácil da sala.
 
 `Ler o Ambiente` fala do lugar e só do lugar. Ela nunca diz nada sobre uma criatura. Quem quer saber do inimigo usa `Estudar`; quem quer revistar alguém usa `Vasculhar`; e as duas custam a Ação Padrão.
 
@@ -704,14 +713,13 @@ Alguns efeitos exigem que você mantenha a atenção neles enquanto duram: a bar
 
 > **Quando você toma dano concentrando, faça um Teste de Resistência de Vigor. A CD é 10, ou metade do dano que você tomou, o que for maior. Se falhar, o efeito cai.**
 
-Na mesa isso quer dizer que o inimigo tem um jeito barato de desligar o seu efeito grande: bater em você. Quem conjura efeito de concentração passa a rodada seguinte pensando em onde está de pé.
-
 > **Exemplo.** O Kaito está concentrando num efeito e leva 26 de dano. Metade de 26 é 13, e 13 é maior que 10: a CD é 13. Se o golpe tivesse tirado 12, a metade daria 6, e a CD seria 10 mesmo.
 
-#### Concentração e Carregar
+### Concentração e Carregar
 
 As duas seguram alguma coisa contra o dano, em momentos diferentes da vida de um feitiço.
 
+**Concentração e Carregar**
 | | O que você segura | Teste | Falhar custa |
 |---|---|---|---|
 | **Concentração** | o efeito que já está no ar | Vigor | o efeito cai |
@@ -719,13 +727,13 @@ As duas seguram alguma coisa contra o dano, em momentos diferentes da vida de um
 
 Quem usa a Restrição `Carregar` mantém o movimento e a Ação Bônus no turno de carga. Só a Ação Padrão daquele turno vai embora.
 
-## O que não cabe no mesmo turno
+## Limites
 
 > **Feitiço em Ação Bônus ou Reação só permite mais um de Classe 0 no turno.**
 
-É a trava que impede dois feitiços grandes no mesmo turno, e ela funciona porque Ação Padrão e Ação Bônus são recursos separados.
+É a trava que impede dois feitiços grandes no mesmo turno.
 
-A Reação é o slot mais disputado do turno, e você tem uma só. Ataque de oportunidade, a ação `Preparar` e conjurar pela Melhoria `Reação` querem todos o mesmo lugar. Gastar a Reação com uma dessas coisas é abrir mão das outras até o seu próximo turno começar. Vale reparar nisso na hora de preparar uma ação: enquanto o gatilho não vem, ninguém sai andando na sua frente de graça.
+A Reação é uma só, e três coisas disputam ela: ataque de oportunidade, a ação `Preparar` e conjurar pela Melhoria `Reação`. Gastar a Reação com uma delas é abrir mão das outras até o seu próximo turno começar.
 
 ---
 
@@ -5901,7 +5909,7 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 A sua Defesa é um número parado: o inimigo rola contra ela e você não rola nada. Se a sua mesa preferir rolar para se defender, usa `Bloquear`.
 
-## A regra
+## Rolagem de Bloquear
 
 > **A sua Defesa é `10 + Destreza + proteção`, e ela continua sendo o padrão.**
 >
@@ -5917,7 +5925,7 @@ A sua Defesa é um número parado: o inimigo rola contra ela e você não rola n
 >
 > `Bloquear` não custa nada, não gasta a sua Reação, e é de todo mundo.
 
-#### Você não faz essa conta na mesa
+### Linha da ficha
 
 O `−11` some no número que a ficha imprime. Ela traz a linha pronta, do lado da Defesa:
 
@@ -5925,18 +5933,19 @@ O `−11` some no número que a ficha imprime. Ela traz a linha pronta, do lado 
 
 Na mesa você lê *"role 2d10+6"*, que dá o mesmo trabalho que *"role d20+7"*.
 
-## Um exemplo
+## Exemplo
 
 A Rina está com Defesa 17, então a linha dela é `Bloquear 2d10+6`. Uma maldição ataca e tira **18** no ataque: com a Defesa parada, isso acerta.
 
 Ela escolhe `Bloquear`. Tira `7` e `4`, que somados ao `+6` dão **17**. O ataque acerta do mesmo jeito, e ela não perdeu nada por tentar.
 
-Na rodada seguinte a mesma maldição tira **19**. A Rina bloqueia e sai `10` e `10`: `Aparar`. O ataque não acerta, e ela ainda tem a Reação na mão. Aí vem a decisão de verdade: gastar a Reação para bater de volta com `+3` de dano, ou guardar ela para o capanga que ainda não agiu neste turno.
+Na rodada seguinte a mesma maldição tira **19**. A Rina bloqueia e sai `10` e `10`: `Aparar`. O ataque não acerta, e ela ainda tem a Reação na mão. Aí vem a decisão: gastar a Reação para bater de volta com `+3` de dano, ou guardar ela para o capanga que ainda não agiu neste turno.
 
-## O que ela custa
+## Custo
 
-`Bloquear` é neutro na média, e neutro quer dizer que ele traiu tanto quanto salvou.
+`Bloquear` é neutro na média: ele entrega tanto quanto tira.
 
+**Resultados de Bloquear**
 | o que acontece quando você rola | chance |
 |---|---|
 | `Aparar`, e a história é boa | 1,0% |
@@ -5944,25 +5953,23 @@ Na rodada seguinte a mesma maldição tira **19**. A Rina bloqueia e sai `10` e 
 | o dado mudou o resultado, sem extremo | 14,5% |
 | nada mudou; você rolou por rolar | 83,5% |
 
-> **Um em cada doze golpes vai passar porque você rolou, quando a sua Defesa parada teria segurado.** Metade do tráfego salva você e a outra metade te entrega, e é assim de propósito. Quem entrar em `Bloquear` esperando defesa melhor vai se decepcionar por volta da segunda sessão. Quem entrar pelos dois resultados de 1% vai ficar.
+> **Um em cada doze golpes vai passar porque você rolou, quando a sua Defesa parada teria segurado.** `Bloquear` não é defesa melhor. É a mesma defesa com variação, e os dois resultados de 1% são o que você está comprando.
 
-O outro preço é tempo de mesa: uma rolagem a mais por golpe recebido, e num combate de quatro rodadas com quatro personagens isso passa de uma dúzia de rolagens novas.
+O outro preço é tempo de mesa: uma rolagem a mais por golpe recebido. Num combate de quatro rodadas com quatro personagens, isso passa de uma dúzia de rolagens novas.
 
-## As duas travas
+## Limites
 
-#### O `Aparar` não come crítico
+### Aparar e crítico
 
 Quem ataca continua rolando d20, e 20 natural continua sendo 20 natural. O `Aparar` para o golpe comum e não para o crítico. Nenhuma regra de crítico muda por causa deste apêndice.
 
-#### O modificador é um só
+### Modificador compartilhado
 
 > **`Bloquear` usa exatamente o mesmo modificador da sua Defesa parada. Nada pode aumentar um sem aumentar o outro.**
 
-Esta é a linha que segura a regra inteira de pé. A neutralidade depende de os dois lados carregarem o mesmo número. Se um escudo, uma aptidão, um Legado ou uma ferramenta desse `+1` na Defesa e não no `Bloquear`, ou o contrário, o jogador passaria a escolher pelo número em vez de escolher pelo gosto, e `Bloquear` viraria justamente a coisa que ele existe para não ser.
+Se um escudo, uma aptidão, um Legado ou uma ferramenta der `+1` na Defesa e não no `Bloquear`, ou o contrário, a regra quebra: `+1` de diferença entre os dois lados vale dois pontos e meio percentuais.
 
-E o buraco é grande: `+1` de diferença entre os dois lados vale dois pontos e meio percentuais, que é o tamanho exato do problema do d20 que esta regra saiu para consertar.
-
-## Onde ela aparece no resto do manual
+## Bloquear e Incapacitado
 
 A condição `Incapacitado` cita `Bloquear` diretamente: quem está `Incapacitado` não pode bloquear, e todo ataque corpo a corpo contra ele é crítico.
 

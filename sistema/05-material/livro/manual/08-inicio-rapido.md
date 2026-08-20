@@ -106,8 +106,7 @@ escolha, rodada após rodada, que o resto do livro existe para sustentar.
 
 **Se a maldição tivesse sobrevivido**, o turno dela viria de novo, e a cena continuaria
 até alguém desistir, fugir ou cair. **Se Kaori chegasse a `0` de vida**, ela escolheria
-entre `Aguentar` e `Insistir` — a regra está no capítulo 1, na seção *Quando a vida chega
-a 0*, e ela é o momento mais decidido pelo jogador em todo o sistema.
+entre `Aguentar` e `Insistir` — a regra está no capítulo 1, na seção *Vida a 0*, e ela é o momento mais decidido pelo jogador em todo o sistema.
 
 ## Terminou a cena? O que vem depois
 

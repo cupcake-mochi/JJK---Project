@@ -143,7 +143,9 @@ def walk(doc, soup):
 
 
 def md_to_soup(md_text):
-    html = markdown.markdown(md_text, extensions=["tables", "extra", "sane_lists"])
+    html = markdown.markdown(
+        md_text, extensions=["tables", "extra", "sane_lists", "attr_list"]
+    )
     return BeautifulSoup(html, "html.parser")
 
 

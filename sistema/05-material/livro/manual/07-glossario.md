@@ -89,7 +89,7 @@ Nada aqui é regra completa. É o suficiente para você continuar lendo sem para
 
 | Termo | O que é | Cap. |
 |---|---|---|
-| **Rodada** | Todo mundo teve o seu turno. Um punhado de segundos | 2 |
+| **Rodada** | Todo mundo teve o seu turno. 6 segundos | 2 |
 | **Ação Padrão** | Uma por turno. Atacar, conjurar, a maior parte das coisas | 2 |
 | **Ação Bônus** | Uma por turno, e só o que a regra disser com todas as letras que é Ação Bônus | 2 |
 | **Reação** | Uma por turno, responde a um gatilho e vale fora do seu turno | 2 |

@@ -155,7 +155,7 @@ Localmente, ainda não enviado ao GitHub:
 | repositório | commit | conteúdo |
 |---|---|---|
 | `JJK---Project` (fonte) | `livro: primeiro texto de mesa completo, com quick-start` | esta pasta inteira — fonte, build, PDF, docx, txt, e os dois documentos de decisão |
-| `JJK---PDF---RPG` (artefato) | `livro: primeiro recorte do Manual da Guilda completo` | só o `.pdf` e o `.docx`, na pasta `livro/` de lá — sem fonte, sem documento de decisão, seguindo o próprio contrato do repositório |
+| `JJK---PDF---RPG` (artefato) | `livro: primeiro recorte do Manual da Guilda completo` | só `livro/Projeto-M-Manual-da-Guilda.pdf` e o `.docx` — sem fonte, sem documento de decisão, seguindo o próprio contrato do repositório |
 
 Rodei `conferir-repositorio.py` antes de cada commit; os dois passaram limpos. O commit na
 fonte não tocou em nenhum dos arquivos que já estavam modificados e não commitados por

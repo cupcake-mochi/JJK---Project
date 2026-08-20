@@ -1,8 +1,6 @@
 # Dano, Condições e Cobertura
 
-Este capítulo é de consulta. Você vem aqui quando o dano tem um tipo que importa, quando alguém ficou com uma condição, ou quando tem uma mureta no meio do caminho.
-
-## Os tipos de dano
+## Tipos de dano
 
 Todo dano deste sistema tem um tipo, e os catorze tipos se dividem em três grupos. O grupo importa porque várias habilidades resistem a um grupo inteiro em vez de a um tipo só.
 
@@ -16,9 +14,9 @@ Todo dano deste sistema tem um tipo, e os catorze tipos se dividem em três grup
 
 A lista é fechada. Quando uma arma, um feitiço ou uma habilidade disser de que tipo é o dano, ou a que tipo ela resiste, o nome sai daqui.
 
-### O que cada tipo faz num corpo
+### Catálogo
 
-O número do dano vem da arma ou do feitiço. O tipo diz quem resiste a ele e como a mesa descreve o golpe. Vale ler uma vez, para saber narrar a própria técnica.
+O número do dano vem da arma ou do feitiço. O tipo diz quem resiste a ele e como a mesa descreve o golpe.
 
 #### Físicos
 
@@ -54,15 +52,35 @@ O número do dano vem da arma ou do feitiço. O tipo diz quem resiste a ele e co
 
 **`Alma`** — passa por couro, armadura e barreira, e bate na coisa que você é. Ele gasta Integridade em vez de vida, tem quatro estágios próprios, e não se resiste com músculo. Quem toma dano de `Alma` continua de pé e volta menos do que era. Os quatro estágios estão logo abaixo.
 
-### Os quatro estágios de dano na alma
+### Nomes repetidos
 
-**Integridade é a vida da alma**, e a fórmula dela é `20 + 8 × (nível − 1)`, do capítulo 1, *Como Jogar*. Esta seção é o que acontece conforme ela cai.
+Seis desses nomes você já viu em outro lugar, e ali eles querem dizer outra coisa.
+
+**Nomes repetidos**
+{: .tab-titulo }
+
+| onde o nome aparece | o que ele é ali |
+|---|---|
+| `Fogo`, `Ácido`, `Veneno` como **Tema** do Fundamento | rótulo de sabor pendurado numa técnica, sem efeito próprio |
+| `Cortante`, `Trovejante`, `Alma` dentro de `Passo Cortante`, `Palma Trovejante`, `Toca a Alma` | pedaço do nome de um feitiço pronto |
+| os catorze desta seção | o tipo do dano na hora que ele cai |
+
+Um não puxa o outro. Um feitiço com o Tema `Fogo` só causa dano do tipo `Fogo` se o texto dele disser isso.
+
+> **Exemplo.** A Mei tem uma habilidade que dá resistência a `Fogo`. O inimigo acerta ela com `Palma Trovejante`, que causa dano `Trovejante`. Os dois são Elementais, e isso não basta: a resistência dela nomeia um tipo, e `Trovejante` não é `Fogo`. Ela toma o dano inteiro.
+
+### Dano na alma
+
+**Integridade é a vida da alma**, e a fórmula dela é `20 + 8 × (nível − 1)`, do capítulo 1, *Como Jogar*.
 
 > **Cada ponto de dano na alma tira 1 de vida, 1 de Integridade, e derruba a sua vida máxima em 1** até o próximo descanso longo.
 >
 > **Dano na alma entra cheio**, sem redução pela metade.
 >
 > Ao receber, faça um **Teste de Resistência de Integridade** contra a CD do atacante. Numa falha, você também avança um estágio na hora, mesmo que a fração ainda não tenha fechado.
+
+**Estágios de dano na alma**
+{: .tab-titulo }
 
 | Integridade perdida | Estágio | O que pega |
 |---|---|---|
@@ -75,20 +93,6 @@ O número do dano vem da arma ou do feitiço. O tipo diz quem resiste a ele e co
 
 **Nenhum feitiço passa de 2 × Classe em dados na alma.**
 
-#### Nomes que se repetem no manual
-
-Seis desses nomes você já viu em outro lugar, e ali eles querem dizer outra coisa.
-
-| onde o nome aparece | o que ele é ali |
-|---|---|
-| `Fogo`, `Ácido`, `Veneno` como **Tema** do Fundamento | rótulo de sabor pendurado numa técnica, sem efeito próprio |
-| `Cortante`, `Trovejante`, `Alma` dentro de `Passo Cortante`, `Palma Trovejante`, `Toca a Alma` | pedaço do nome de um feitiço pronto |
-| os catorze desta seção | o tipo do dano na hora que ele cai |
-
-Um não puxa o outro. Um feitiço com o Tema `Fogo` só causa dano do tipo `Fogo` se o texto dele disser isso.
-
-> **Exemplo.** A Mei tem uma habilidade que dá resistência a `Fogo`. O inimigo acerta ela com `Palma Trovejante`, que causa dano `Trovejante`. Os dois são Elementais, e isso não basta: a resistência dela nomeia um tipo, e `Trovejante` não é `Fogo`. Ela toma o dano inteiro.
-
 ## Condições
 
 **Condição** é um estado nomeado que muda o que você consegue fazer enquanto durar. São catorze, e cada uma tem um **nível**: `Leve`, `Média` ou `Pesada`.
@@ -97,11 +101,14 @@ Um não puxa o outro. Um feitiço com o Tema `Fogo` só causa dano do tipo `Fogo
 > É o que ela **custa para comprar** dentro de um feitiço.
 > É o que ela **custa para tirar** de alguém, em pontos de energia.
 
-#### Como ler as tabelas
+### Como ler
 
-Cada linha diz o nome, o efeito inteiro sem nada implícito, e como aquilo se parece na mesa. O nível de cada bloco está no título da seção. Onde a condição dá vantagem ou desvantagem, a tabela diz a quem.
+Cada linha diz o nome, o efeito inteiro sem nada implícito, e como aquilo se parece na mesa. O nível de cada bloco está no título da seção. Onde a condição dá vantagem ou desvantagem, a coluna *o que faz* diz a quem.
 
-### As seis de nível `Leve`
+### Nível `Leve`
+
+**Condições de nível `Leve`**
+{: .tab-titulo }
 
 | condição | o que faz | na cena |
 |---|---|---|
@@ -112,14 +119,20 @@ Cada linha diz o nome, o efeito inteiro sem nada implícito, e como aquilo se pa
 | `Desarmado` | a sua arma está no chão ou na mão de outro. Você bate desarmado até pegar de volta | o barulho da lâmina caindo no concreto, e a decisão de gastar o turno pegando |
 | `Surdo` | você não ouve. Falha automática em teste que precise de audição, e **`−2` na iniciativa** | zumbido, e tudo que chega por trás chega sem aviso |
 
-### As duas de nível `Média`
+### Nível `Média`
+
+**Condições de nível `Média`**
+{: .tab-titulo }
 
 | condição | o que faz | na cena |
 |---|---|---|
 | `Calado` | você não conjura. Nada que precise de voz, gesto ou Selo sai | você tenta e não sai nada; o resto da luta você vira alguém com as mãos e mais nada |
 | `Enfeitiçado` | você não ataca quem enfeitiçou nem mira efeito nocivo nele, e ele tem vantagem em teste social contra você | você continua você, e aquela pessoa passou a ter razão sobre tudo |
 
-### As seis de nível `Pesada`
+### Nível `Pesada`
+
+**Condições de nível `Pesada`**
+{: .tab-titulo }
 
 | condição | o que faz | na cena |
 |---|---|---|
@@ -135,9 +148,12 @@ Cada linha diz o nome, o efeito inteiro sem nada implícito, e como aquilo se pa
 
 > **Exemplo.** A Rina fica `Atordoada`. Ela perde a Ação Padrão daquele turno e não usa reação, então ninguém leva ataque de oportunidade dela. A Defesa continua a mesma: `Atordoado` não abre a guarda de ninguém. No fim do turno dela, como é uma condição `Pesada`, ela faz o Teste de Resistência e pode sair sozinha.
 
-#### `Atordoado` e `Incapacitado` atacam eixos diferentes
+### `Atordoado` e `Incapacitado`
 
 Nenhuma das duas contém a outra. Escolher uma para aplicar é escolher o que você quer tirar do alvo:
+
+**`Atordoado` e `Incapacitado`**
+{: .tab-titulo }
 
 | | o eixo que ela ataca |
 |---|---|
@@ -148,7 +164,12 @@ Nenhuma das duas contém a outra. Escolher uma para aplicar é escolher o que vo
 
 > **Metade do `Incapacitado` só aparece se a sua mesa usa `Bloquear`.** A outra metade — todo ataque corpo a corpo contra você é crítico — vale sempre, com `Bloquear` ligado ou não.
 
-#### Três coisas que não são condição aqui
+### `Inconsciente`, `Exaustão` e `Invisível`
+
+Estas três não são condição.
+
+**`Inconsciente`, `Exaustão` e `Invisível`**
+{: .tab-titulo }
 
 | não é condição | onde ela está |
 |---|---|
@@ -156,9 +177,9 @@ Nenhuma das duas contém a outra. Escolher uma para aplicar é escolher o que vo
 | `Exaustão` | é relógio de descanso, e mora no capítulo 5, *Descanso e Recuperação* |
 | `Invisível` | é benefício, e as condições são compradas para aplicar num alvo |
 
-A `Exaustão` é a que mais engana, porque em outros jogos ela é condição e aqui não. Quem for escrever feitiço que canse alguém não alcança a exaustão pela Melhoria `Condição`.
+A `Exaustão` engana: em outros jogos ela é condição, aqui não. Quem for escrever feitiço que canse alguém não alcança a exaustão pela Melhoria `Condição`.
 
-### Comprar uma condição num feitiço
+### Comprar uma condição
 
 > **Existe uma Melhoria `Condição`, uma só, e o preço dela é o nível da condição que você escolheu.**
 > Escolher `Derrubado` custa `Leve`. Escolher `Petrificado` custa `Pesada`.
@@ -179,11 +200,14 @@ Você só faz isso se tiver uma habilidade que tire condição, e cada habilidad
 
 Cobertura é o que está entre você e quem está atirando. São três degraus, e você lê o que enxerga do alvo para saber em qual deles ele está. A pergunta que o mestre faz é sempre a mesma: daqui, quanto do corpo dele dá para acertar?
 
+**Degraus de cobertura**
+{: .tab-titulo }
+
 | cobertura | o que ela dá | exemplo |
 |---|---|---|
 | **Parcial** | **`+2` de Defesa e `+2` no Teste de Resistência Físico** | mureta, tronco, uma criatura no caminho |
 | **Boa** | **`+5` de Defesa e `+5` no Teste de Resistência Físico** | seteira, olhando por cima de uma parede, metade do corpo atrás de um canto |
-| **Total** | **você não pode ser escolhido como alvo, e ponto** | parede inteira, do outro lado da porta |
+| **Total** | **você não pode ser escolhido como alvo** | parede inteira, do outro lado da porta |
 
 > **Vale contra o que vem do outro lado da cobertura, e só.** Quem está atrás de uma mureta não ganha nada contra quem já está do lado de cá dela.
 >
@@ -191,6 +215,6 @@ Cobertura é o que está entre você e quem está atirando. São três degraus, 
 
 O Teste de Resistência que a cobertura ajuda é o **Físico**, seja qual for o atributo em que você o travou na criação. Quem travou em Força também se abaixa atrás de uma mureta.
 
-A **Total** tira você da lista de alvos possíveis, e é por isso que ela não tem número. Um efeito que pega área continua alcançando quem está atrás dela, se o efeito não precisar de linha até o alvo.
+A **Total** tira você da lista de alvos possíveis, e não dá número nenhum. Um efeito que pega área continua alcançando quem está atrás dela, se o efeito não precisar de linha até o alvo.
 
 > **Exemplo.** O Sousuke está agachado atrás do capô de um carro, com meio corpo de fora. Isso é cobertura **Boa**: a Defesa dele sobe `5` contra quem atira do outro lado do estacionamento. Ele decide se jogar inteiro para trás do carro e passa a ter cobertura **Total**, então ninguém do outro lado consegue escolher ele como alvo. Mas um feitiço de área que estoura embaixo do carro não precisa de linha até ele, e alcança do mesmo jeito. Como a **Total** não dá número, o Teste de Resistência Físico dele sai limpo, sem os `5` que ele tinha um segundo antes.

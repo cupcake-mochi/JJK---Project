@@ -40,6 +40,8 @@ def main():
             bruto = f.read()
         corpo, notas_md = split_notes(bruto)
         corpo = re.sub(r"^#\s+.*\n", "", corpo, count=1).strip()
+        # As linhas de atributo do attr_list (título de tabela) são só para o PDF.
+        corpo = re.sub(r"^\{:[^}]*\}\s*$\n?", "", corpo, flags=re.M)
 
         if arquivo in SEM_NUMERO:
             cabecalho = f"# {titulo}"

@@ -1,10 +1,13 @@
 # Perícias e Ofícios
 
-O seu personagem tem duas listas de coisas que sabe fazer fora da técnica: **perícias** e **ofícios**. Elas se parecem na ficha e funcionam diferente, então vale começar pela diferença.
+O seu personagem tem duas listas de coisas que sabe fazer fora da técnica: **perícias** e **ofícios**. Elas se parecem na ficha e funcionam diferente.
 
 **Perícia** é uma capacidade do corpo ou da cabeça. Ela pertence a um atributo e só a esse atributo. Correr é `Atletismo`, e `Atletismo` é sempre Força.
 
 **Ofício** é uma prática que alguém te ensinou. Ele vive solto no quadro de atributos: o atributo muda conforme o que você está fazendo com ele.
+
+**Perícia e ofício**
+{: .tab-titulo }
 
 | É perícia | É ofício |
 |---|---|
@@ -15,7 +18,7 @@ O seu personagem tem duas listas de coisas que sabe fazer fora da técnica: **pe
 
 A regra prática: se é uma ferramenta ou um procedimento que alguém te ensinou passo a passo, é ofício. A ferramenta pode ser a chave de fenda, o papel de talismã ou o formulário certo. `Burocracia` é ofício pelo mesmo motivo que `Forja` é.
 
-## Como se rola
+## Rolagem de perícia e ofício
 
 > **Perícia = `d20` + o atributo dela + maestria, se você for treinado.**
 > Sem treino, é só `d20` + o atributo.
@@ -23,15 +26,15 @@ A regra prática: se é uma ferramenta ou um procedimento que alguém te ensinou
 > **Ofício = `d20` + o atributo que a situação pede + maestria, se você for treinado.**
 > Sem treino, você normalmente não consegue tentar.
 
-Ser **treinado** quer dizer ter aquela perícia ou aquele ofício marcado na ficha; a seção *De onde vem o treino* diz de onde vêm as marcas. **Maestria** é o bônus que cresce com o nível, e a escada dela está no capítulo 1, *Como Jogar*. O mestre põe uma **CD**, o número que a sua rolagem precisa alcançar para você conseguir o que queria.
+Ser **treinado** quer dizer ter aquela perícia ou aquele ofício marcado na ficha; a seção *Treino* diz de onde vêm as marcas. **Maestria** é o bônus que cresce com o nível, e a escada dela está no capítulo 1, *Como Jogar*. O mestre põe uma **CD**, o número que a sua rolagem precisa alcançar para você conseguir o que queria.
 
-#### A perícia tem atributo fixo, o ofício não
+### Atributo fixo ou variável
 
 Forjar uma lâmina é Força. Falsificar uma assinatura é Destreza. Saber qual selo o papel pede é Inteligência. As três coisas são o mesmo ofício, `Caligrafia` ou `Forja`, e o mestre escolhe o atributo na hora, do mesmo jeito que escolhe a dificuldade.
 
-Na prática isso quer dizer que um ofício rende diferente na mão de cada personagem. O mesmo `Arrombamento` é uma coisa para quem tem Destreza 4 e outra para quem tem Inteligência 4, e as duas fichas passam por portas diferentes.
+Um ofício rende diferente na mão de cada personagem. O mesmo `Arrombamento` é uma coisa para quem tem Destreza 4 e outra para quem tem Inteligência 4, e as duas fichas passam por portas diferentes.
 
-#### Perícia sem treino você tenta, ofício sem treino não
+### Sem treino
 
 Qualquer um pode tentar escalar e falhar. Ninguém forja uma lâmina por tentativa. Quando o mestre achar que dá para improvisar, tipo dirigir um carro automático em linha reta ou fazer um curativo torto, ele libera a rolagem sem a maestria.
 
@@ -41,11 +44,14 @@ Qualquer um pode tentar escalar e falhar. Ninguém forja uma lâmina por tentati
 >
 > Chegando na porta, ela usa `Arrombamento`. O mestre decide que forçar aquela tranca é trabalho de mão e cobra Destreza: `d20 + 4 + 1` de novo. Se a tranca fosse eletrônica ele teria cobrado Inteligência, e o mesmo ofício sairia `d20 + 2 + 1`. Três a menos, porque a Rina é boa com as mãos e não com o sistema.
 
-## As vinte e três perícias
+## Perícias
 
-#### Inteligência sabe, Essência percebe
+### Inteligência e Essência
 
-É a frase que decide onde cada perícia mora, e ela resolve quase toda dúvida de mesa. Inteligência é o que você estudou: o catálogo de maldições, o que aconteceu, como o corpo funciona, quem manda em quem. Essência é o que você capta: a energia no ar, o barulho no corredor, a mentira na voz de alguém.
+**Inteligência sabe, Essência percebe.** Inteligência é o que você estudou: o catálogo de maldições, o que aconteceu, como o corpo funciona, quem manda em quem. Essência é o que você capta: a energia no ar, o barulho no corredor, a mentira na voz de alguém.
+
+**Perícias por atributo**
+{: .tab-titulo }
 
 | Atributo | Perícias | Quantas |
 |---|---|---|
@@ -55,11 +61,9 @@ Qualquer um pode tentar escalar e falhar. Ninguém forja uma lâmina por tentati
 | **Essência** | Sentir Energia · Percepção · Persuasão · Enganação · Intimidação · Atuação · Provocar | 7 |
 | **Constituição** | — | 0 |
 
-Nenhuma perícia mora em Constituição. Constituição governa os pontos de vida e o Teste de Resistência de Vigor, e isso já é trabalho suficiente para um atributo.
+Nenhuma perícia mora em Constituição. Constituição governa os pontos de vida e o Teste de Resistência de Vigor.
 
-### O que cada uma cobre
-
-Cada entrada diz o que a perícia cobre e que tipo de cena ela resolve na mesa.
+### Catálogo
 
 #### Força
 
@@ -95,7 +99,7 @@ Cada entrada diz o que a perícia cobre e que tipo de cena ela resolve na mesa.
 
 **Natureza** — planta, bicho, clima, terreno. O que é o quê, o que é venenoso, quando a chuva vem. Aparece antes da cena dar errado: saber que aquele vale enche, que aquela fruta mata, que o cheiro no ar é de queimada e não de maldição.
 
-**Lidar com Animais** — acalmar, montar, conduzir, mandar num bicho. Vale para o que não é bicho mas se comporta como um, e é por isso que ela é fixa do Evocador: uma invocação que ainda não te obedece direito responde a essa perícia.
+**Lidar com Animais** — acalmar, montar, conduzir, mandar num bicho. Vale para o que não é bicho mas se comporta como um: uma invocação que ainda não te obedece direito responde a essa perícia.
 
 **Tecnologia** — computador, câmera, rede, equipamento moderno. Resolve a cena de prédio moderno: a câmera que precisa ser desligada antes de a equipe entrar, o celular da vítima, o registro de acesso que diz quem passou pela porta.
 
@@ -115,9 +119,12 @@ Cada entrada diz o que a perícia cobre e que tipo de cena ela resolve na mesa.
 
 **Provocar** — tirar alguém do sério, fazer perder a linha, forçar a vir para cima de você. É o oposto de `Intimidação`: uma faz recuar, a outra faz **avançar**. Em combate ela tem ação própria, `Provocar`, no capítulo 2, *O Turno*.
 
-### Analisar a técnica do inimigo
+### Técnica do inimigo
 
 Não existe perícia para isso, porque são duas perguntas diferentes e cada uma já tem casa.
+
+**Ocultismo e Sentir Energia**
+{: .tab-titulo }
 
 | `Ocultismo` reconhece o que você está vendo | `Sentir Energia` lê como a energia se move |
 |---|---|
@@ -126,7 +133,7 @@ Não existe perícia para isso, porque são duas perguntas diferentes e cada uma
 
 O Nanami faz a primeira. O Todo faz a segunda.
 
-## Os onze ofícios
+## Ofícios
 
 Ofício é o que o personagem sabe fazer porque alguém sentou com ele e ensinou. Cada entrada diz o que ele cobre e onde ele aparece numa missão.
 
@@ -154,13 +161,16 @@ Ofício é o que o personagem sabe fazer porque alguém sentou com ele e ensinou
 
 > **Não existe Primeiros Socorros, e `Herbalismo` não cobre o mesmo.** Estancar sangue no meio da missão vira cena em vez de rolagem: ou alguém tem cura de verdade, ou a consequência acontece.
 
-## De onde vem o treino
+## Treino
 
 > **O Caminho dá duas perícias fixas e mais quatro à sua escolha, de qualquer lugar do quadro.**
 > **Mais dois ofícios à sua escolha.**
 > **A Origem dá mais duas perícias.**
 
-As duas fixas são a assinatura do Caminho, o que qualquer um daquele Caminho sabe fazer. As quatro livres são suas, e são elas que impedem duas fichas do mesmo Caminho de serem a mesma pessoa.
+As duas fixas são a assinatura do Caminho, o que qualquer um daquele Caminho sabe fazer. As quatro livres são suas.
+
+**Perícias fixas por Caminho**
+{: .tab-titulo }
 
 | Caminho | Perícias fixas |
 |---|---|
@@ -170,15 +180,18 @@ As duas fixas são a assinatura do Caminho, o que qualquer um daquele Caminho sa
 | **Emanador** | Ocultismo · Investigação |
 | **Evocador** | Religião · Lidar com Animais |
 
-Ofício o Caminho não trava. Os dois que ele dá são livres, e você escolhe os dois: o que um Bastião faz com as mãos fora da luta é assunto dele.
+Ofício o Caminho não trava. Os dois que ele dá são livres, e você escolhe os dois.
 
-`Sentir Energia` fica fora das fixas de todos os cinco Caminhos, e isso é escolha. Ela é a perícia mais rolada da mesa; qualquer um pode treinar, ninguém ganha de graça, e o feiticeiro ruim de sentir energia cabe na mesa.
+`Sentir Energia` fica fora das fixas de todos os cinco Caminhos. Qualquer um pode treinar, e ninguém ganha de graça.
 
-### O que a Origem dá
+### Perícias da Origem
 
 Uma perícia da lista de quatro da sua Origem, e uma perícia livre que a sua história justifique, com aprovação do mestre. Foi filho de médico, tem `Medicina`. Batia carteira antes de saber o que era energia amaldiçoada, tem `Prestidigitação`.
 
 Além dessas duas, você escolhe um extra: um ofício livre, ou mais uma perícia no lugar dele.
+
+**Extra da Origem**
+{: .tab-titulo }
 
 | Se o extra for | Perícias treinadas | Ofícios treinados |
 |---|---|---|

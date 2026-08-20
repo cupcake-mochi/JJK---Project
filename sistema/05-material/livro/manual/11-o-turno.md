@@ -1,8 +1,8 @@
 # O Turno
 
-Quando a briga começa, o jogo passa a contar o tempo. Todo mundo rola Iniciativa, e essa rolagem decide a ordem em que as pessoas agem. Cada um tem o seu **turno**; quando todo mundo já teve o seu, a rodada fecha e começa outra, na mesma ordem.
+O combate é contado em rodadas. Todo mundo rola Iniciativa, e essa rolagem decide a ordem em que as pessoas agem. Cada um tem o seu **turno**; quando todo mundo já teve o seu, a rodada fecha e começa outra, na mesma ordem.
 
-Uma rodada é um punhado de segundos. Tudo que acontece nela está acontecendo mais ou menos ao mesmo tempo: a ordem existe para a mesa conseguir narrar, não porque cada um esteja esperando educadamente a vez do outro.
+Uma rodada são 6 segundos. Tudo que acontece nela está acontecendo mais ou menos ao mesmo tempo; a ordem existe para a mesa conseguir narrar.
 
 ## Iniciativa
 
@@ -14,7 +14,10 @@ A ordem sai uma vez e vale enquanto a cena durar. Ninguém rola de novo a cada r
 
 > **Exemplo.** A Rina tem Destreza 4. Ela rola o d20, tira 11, e a iniciativa dela é 15. A maldição do outro lado do galpão tem Destreza 3 e tira 16: iniciativa 19. A maldição age antes dela, nesta rodada e em todas as próximas.
 
-## O que cabe num turno
+## Recursos do turno
+
+**Recursos do turno**
+{: .tab-titulo }
 
 | Recurso | Quanto | O que faz |
 |---|---|---|
@@ -27,19 +30,22 @@ Os quatro são independentes. Você tem os quatro em todo turno seu, e gastar um
 
 O slot de Ação Bônus fica vazio na maioria dos turnos da maioria das fichas, e isso é normal. Ele só acende quando alguma coisa escrita na sua ficha diz **Ação Bônus** com todas as letras.
 
-#### Deslocamento
+### Deslocamento
 
 O seu deslocamento base é 9 metros, e você corta esse total em quantos pedaços quiser dentro do turno. Dá para andar 3 metros, atacar, e andar os 6 que sobraram. É assim que alguém sai de trás de uma coluna, dá o golpe e volta para trás dela no mesmo turno.
 
-#### Rodada inteira
+### Rodada inteira
 
 Algumas coisas custam a rodada inteira: movimento, Ação Padrão e Ação Bônus de uma vez só. A Reação continua sua.
 
 > **Exemplo.** A Rina abre o turno andando 6 metros até a porta do depósito. Gasta a Ação Padrão em `Atacar` a maldição que estava esperando atrás dela, e ainda tem 3 metros sobrando, que usa para sair do vão da porta. A Ação Bônus dela fica parada: nada na ficha da Rina diz que é Ação Bônus, e sem isso o slot não faz nada.
 
-## As ações de Ação Padrão
+## Ações de Ação Padrão
 
 Doze ações têm regra escrita. Você continua podendo tentar o que não está aqui; é aqui que o mestre não precisa arbitrar nada.
+
+**Ações de Ação Padrão**
+{: .tab-titulo }
 
 | Ação | O que ela faz |
 |---|---|
@@ -56,23 +62,25 @@ Doze ações têm regra escrita. Você continua podendo tentar o que não está 
 | **Estudar** | um teste de `Sentir Energia`, `Ocultismo`, `Medicina` ou `História` sobre uma criatura ou objeto que você enxerga |
 | **Usar objeto** | usar um objeto não mágico |
 
-Quatro delas são o turno de quem decidiu não atacar, e valem a pena guardar: `Correr` é o turno de quem precisa atravessar o galpão inteiro, `Desengajar` é o turno de quem está encostado no inimigo errado e quer sair sem levar um golpe de graça, `Esquivar` é o turno de quem prefere aguentar mais uma rodada de pé, e `Esconder` é o turno de quem quer sumir antes que a próxima onda entre pela porta. Nenhuma delas causa dano, e todas mudam o que acontece com você na rodada seguinte.
+Quatro delas são o turno de quem decidiu não atacar: `Correr` é o turno de quem precisa atravessar o galpão inteiro, `Desengajar` é o turno de quem está encostado no inimigo errado e quer sair sem levar um golpe de graça, `Esquivar` é o turno de quem prefere aguentar mais uma rodada de pé, e `Esconder` é o turno de quem quer sumir antes que a próxima onda entre pela porta. Nenhuma delas causa dano, e todas mudam o que acontece com você na rodada seguinte.
 
-#### Agarrar e Derrubar
+### Agarrar e Derrubar
 
 As duas são opções do `Atacar`, e cada uma ocupa um dos seus ataques. Quem tem ataque extra agarra com um golpe e bate com o outro, no mesmo turno. Cada uma aplica a condição de mesmo nome, e o efeito delas está no capítulo 4, *Dano, Condições e Cobertura*.
 
-#### Ajudar
+### Ajudar
 
 Um ajudante por teste. Dois aliados ajudando não dão vantagem duas vezes, e o segundo perde a Ação Padrão dele à toa. A regra completa de `Ajudar`, com o que conta como ajuda de verdade, está no capítulo 1, *Como Jogar*.
 
-#### Influenciar
+### Influenciar
 
 O teste é de Essência, e a perícia depende do jeito que você escolher: `Persuasão`, `Enganação`, `Intimidação` ou `Atuação`. Serve tanto para o negociador do outro lado da barreira quanto para a maldição que ainda tem alguma coisa de gente dentro. O que muda é a CD que o mestre põe.
 
-#### Preparar
+### Preparar
 
-`Preparar` cobra duas coisas por uma. Você gasta a Ação Padrão agora, e a Reação depois, quando o gatilho acontecer. Se o gatilho não acontecer até o começo do seu próximo turno, a ação se perde e você não recebe nada de volta. É a aposta de quem prefere agir na hora certa a agir logo.
+`Preparar` cobra duas coisas por uma. Você gasta a Ação Padrão agora, e a Reação depois, quando o gatilho acontecer. Se o gatilho não acontecer até o começo do seu próximo turno, a ação se perde e você não recebe nada de volta.
+
+> **A Reação não fica reservada.** Até o gatilho acontecer, ela continua sua para qualquer outro uso — e gastar ela em outra coisa faz a ação preparada se perder. Usar a ação preparada gasta a Reação.
 
 O gatilho precisa ser visível e verificável pela mesa: *"quando ela sair da fumaça"*, *"quando ele encostar na porta"*. Um gatilho que só o jogador consegue julgar trava a cena.
 
@@ -80,19 +88,19 @@ Preparar uma conjuração continua exigindo a Melhoria `Reação`. O slot não m
 
 > **Exemplo.** O Kaito prepara: *"se aquela coisa passar da linha das prateleiras, eu ataco."* Gastou a Ação Padrão dele agora. A maldição passa da linha ainda na rodada, e ele gasta a Reação para dar o golpe. Se ela tivesse ficado parada até a vez dele de novo, ele teria perdido o turno inteiro esperando.
 
-#### Vasculhar e Estudar
+### Vasculhar e Estudar
 
 As duas gastam a Ação Padrão para trocar informação por tempo, e a diferença é a distância. `Vasculhar` é mão no objeto: revistar o corpo, abrir a gaveta, apalpar a parede atrás de um vão. `Estudar` é olhar com atenção de longe: ler a energia de uma maldição, reconhecer o formato de um selo, avaliar quanto sangue aquele ferido ainda aguenta perder.
 
-## As ações de Ação Bônus
+## Ações de Ação Bônus
 
-Duas, e elas existem para o turno em que você olha a ficha e não acha nada para fazer com o slot.
+São duas.
 
 > **`Provocar`** — Ação Bônus. Teste de `Provocar` contra o Teste de Resistência de Espírito do alvo. Se ele falhar, até o começo do seu próximo turno ele ataca com desvantagem qualquer alvo que não seja você, e com vantagem contra você.
 
 > **`Ler o Ambiente`** — Ação Bônus, uma vez por cena. Teste de `Percepção` ou `Intuição` contra a dificuldade que o mestre puser. Num sucesso, o mestre te diz uma coisa daquele lugar que dê para usar: um objeto, um caminho, uma posição, um risco. Se não houver nada, ele diz isso e a ação não é gasta.
 
-`Provocar` é a ação de quem tem couro e quer que o golpe caia nele em vez de cair no Emanador de 12 de vida. O preço está no texto: enquanto durar, você é o alvo mais fácil da sala.
+`Provocar` é a ação de quem tem couro e quer que o golpe caia nele em vez de cair no Emanador de 12 de vida. Enquanto durar, você é o alvo mais fácil da sala.
 
 `Ler o Ambiente` fala do lugar e só do lugar. Ela nunca diz nada sobre uma criatura. Quem quer saber do inimigo usa `Estudar`; quem quer revistar alguém usa `Vasculhar`; e as duas custam a Ação Padrão.
 
@@ -114,13 +122,14 @@ Alguns efeitos exigem que você mantenha a atenção neles enquanto duram: a bar
 
 > **Quando você toma dano concentrando, faça um Teste de Resistência de Vigor. A CD é 10, ou metade do dano que você tomou, o que for maior. Se falhar, o efeito cai.**
 
-Na mesa isso quer dizer que o inimigo tem um jeito barato de desligar o seu efeito grande: bater em você. Quem conjura efeito de concentração passa a rodada seguinte pensando em onde está de pé.
-
 > **Exemplo.** O Kaito está concentrando num efeito e leva 26 de dano. Metade de 26 é 13, e 13 é maior que 10: a CD é 13. Se o golpe tivesse tirado 12, a metade daria 6, e a CD seria 10 mesmo.
 
-#### Concentração e Carregar
+### Concentração e Carregar
 
 As duas seguram alguma coisa contra o dano, em momentos diferentes da vida de um feitiço.
+
+**Concentração e Carregar**
+{: .tab-titulo }
 
 | | O que você segura | Teste | Falhar custa |
 |---|---|---|---|
@@ -129,10 +138,10 @@ As duas seguram alguma coisa contra o dano, em momentos diferentes da vida de um
 
 Quem usa a Restrição `Carregar` mantém o movimento e a Ação Bônus no turno de carga. Só a Ação Padrão daquele turno vai embora.
 
-## O que não cabe no mesmo turno
+## Limites
 
 > **Feitiço em Ação Bônus ou Reação só permite mais um de Classe 0 no turno.**
 
-É a trava que impede dois feitiços grandes no mesmo turno, e ela funciona porque Ação Padrão e Ação Bônus são recursos separados.
+É a trava que impede dois feitiços grandes no mesmo turno.
 
-A Reação é o slot mais disputado do turno, e você tem uma só. Ataque de oportunidade, a ação `Preparar` e conjurar pela Melhoria `Reação` querem todos o mesmo lugar. Gastar a Reação com uma dessas coisas é abrir mão das outras até o seu próximo turno começar. Vale reparar nisso na hora de preparar uma ação: enquanto o gatilho não vem, ninguém sai andando na sua frente de graça.
+A Reação é uma só, e três coisas disputam ela: ataque de oportunidade, a ação `Preparar` e conjurar pela Melhoria `Reação`. Gastar a Reação com uma delas é abrir mão das outras até o seu próximo turno começar.
