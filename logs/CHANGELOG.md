@@ -6,6 +6,30 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.106] — 19/08/2026
+
+**A versão em que o PDF ganhou o texto que a v0.103 previu.** *`sistema/05-material/livro/` estava vazia desde a v0.35 — agora tem o Manual da Guilda inteiro, 230 páginas, com o quick-start que "como o PDF carrega essa propriedade é trabalho dele" tinha deixado em aberto.*
+
+### Adicionado — `sistema/05-material/livro/`
+
+A fonte do livro (18 arquivos `manual/*.md`), os três scripts que compilam PDF, docx e texto corrido, e os dois documentos de decisão da revisão: `ESTADO-revisao.md` e `REMOCOES-material-de-mestre.md`.
+
+Um glossário de 66 termos e um índice remissivo de 62, os dois gerados no build. Um quick-start jogável — *"Antes da primeira sessão"* — peça de frente entre o vocabulário e o capítulo 1, com a ficha da Kaori (a mesma do capítulo 6, mesmos números) e uma cena de combate guiada com a matemática visível.
+
+### Alterado — organização e redundância do texto de mesa
+
+43 referências cruzadas por nome de capítulo viraram por número; 11 apontavam para capítulo que não existe com aquele nome. Cortadas 19 tabelas nos Caminhos que repetiam o texto logo abaixo, duas cópias divergentes de "Regras de ouro" e da tabela-mestra de números dentro do Fundamento, e a moeda de orçamento (`custa`/`devolve`) que ficou órfã no catálogo de arma depois que o orçamento saiu do livro do jogador.
+
+~2.400 palavras de material de mestre e argumento de design (aprovar feitiço, letalidade, inimigos, orçamento de arma, projeção de gate) saíram do livro do jogador — detalhe completo de cada corte, e onde a funcionalidade precisa voltar a existir, em `REMOCOES-material-de-mestre.md`.
+
+### Decidido — os cinco Caminhos declaram o que concedem, e o treino de arma ganhou regra pela primeira vez
+
+Cada Caminho ganhou um bloco com vida, PE, atributos, perícias, ofícios, TR e treino de arma — nada disso estava reunido num lugar só antes. **Bastião e Vanguarda treinam as treze categorias de arma; Guia, Emanador e Evocador treinam só Arma de Fogo e Balestra**, e o resto vem pela Trilha, como a `Empunhadura` do `Arremate` já fazia.
+
+**A regra existe só no livro por enquanto.** Não tem validador nem peça em `sistema/03-mecanica/` — precisa voltar para cá numa próxima leva.
+
+---
+
 ## [0.105] — 18/08/2026
 
 **A versão em que o Caminho parou de travar ofício.** *Cada um dos cinco fixava um ofício desde a v0.22; agora os dois que o Caminho entrega são livres, e o jogador escolhe os dois.*

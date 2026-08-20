@@ -2,7 +2,7 @@
 
 **O sistema se chama `Projeto - M`**, batizado na v0.94 — era a pendência mais velha que existia aqui, aberta na v0.1. Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.105** · manual do Fundamento na **v7.10** · **dezenove peças de regra** e **dezenove validadores passando**.
+**Versão v0.106** · manual do Fundamento na **v7.10** · **dezenove peças de regra** e **dezenove validadores passando**.
 
 ---
 
@@ -63,7 +63,7 @@ Depois disso, a ordem de leitura é a da próxima seção, e os validadores são
     ├── 02-esqueleto/                    arquitetura: subsistemas e como se encaixam
     ├── 03-mecanica/                     as dezenove peças de regra e os dezenove validadores
     ├── 04-playtest/                     vazia. Zero sessões desde a v0.1
-    ├── 05-material/                     a ficha, e o gerador dela
+    ├── 05-material/                     a ficha (e o gerador dela) e o livro/, o Manual da Guilda completo
     ├── 99-arquivo/                      material morto, com LEIA-ME próprio
     └── skills/                          cópia de trabalho das sete skills de apoio
 ```
@@ -256,6 +256,8 @@ Isto não é preferência de estilo: é o que evitou os erros que estão registr
 > *Esta frase tinha quatro itens e perdeu três.* **A pasta `05-material/` saiu na v0.35**, quando a ficha e o gerador dela entraram; **a tabela consolidada saiu na v0.99**, quando virou a peça 18; **e o quick-start saiu na v0.102, por decisão do Mizuki** — *"pode abandonar a ideia do quick start, eu tô fazendo o PDF direto"*.
 
 > **O texto de mesa passa a ter um destino só: o PDF**, e ele se escreve a partir do repositório de entrega. *A skill `redacao-acessivel-rpg` continua sendo a travessia de "nota de design" para "texto de regra" — o que mudou é onde ela desemboca.*
+
+> **E esse PDF existe agora, na v0.106.** `sistema/05-material/livro/` tem o Manual da Guilda inteiro — 230 páginas, com o quick-start escrito direto nele, no molde que a v0.103 previu: *"como o PDF carrega essa propriedade é trabalho dele"*.
 
 A tabela de XP saiu dessa lista na v0.32 — ela era a trava nº 1 de mundo compartilhado, ficou aberta trinta versões, e hoje é a peça 12. **Com ela, o que falta para alguém sentar na mesa deixou de ser regra e passou a ser material.**
 

@@ -2,7 +2,7 @@
 
 Atualizado em 18/08/2026, na v0.105 (última peça fechada: **Dano e condições**, ampliada nesta versão com a penalidade de arma; antes dela, a **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.105.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezenove peças escritas** e **dezenove validadores**.
+**Versão v0.106.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezenove peças escritas** e **dezenove validadores**.
 
 **A v0.104 é a versão das dez condições no degrau errado.** *A `Condição Menor` e a `Condição Maior` do manual viraram uma Melhoria só, chamada `Condição`, e o preço dela é o **nível** da condição escolhida.* **O espalhamento dentro de um degrau caiu de `17,00×` para `4,26×`, que é o piso de qualquer corte em três degraus** — a busca exaustiva diz que nenhum outro faz melhor, e o filtro do projeto reprova a partir de `3,00×`. *Manual na v7.10, com dois feitiços prontos mudando: `Palma Trovejante` `5d8 → 6d8` e `Vala Comum` `9d8 → 11d8`.*
 
@@ -583,7 +583,7 @@ Vale ter isso à mão, porque o material é grande e engana. *Medido na v0.33, e
 | falta | tamanho do buraco |
 |---|---|
 | ~~**Tabela de progressão consolidada**~~ | **fechada na v0.99**, na peça 18: uma tabela só, trinta linhas, nove colunas. *Ela não estava espalhada por cinco documentos — eram dez números em seis lugares, e um deles não tinha dono nenhum.* **A curva de refino das três rotas continua no `arquitetura.md` §4.3**, e é a última fonte da progressão fora de uma peça |
-| ~~**Quick-start jogável**~~ | **Abandonado na v0.102**, por decisão do Mizuki: *"pode abandonar a ideia do quick start, eu tô fazendo o PDF direto"*. *Ele estava decidido na v0.2 como a estrutura do material final.* **O texto de mesa passa a ter um destino só, e é o PDF** — escrito a partir do repositório de entrega |
+| ~~**Quick-start jogável**~~ | **Abandonado como arquivo separado na v0.102**, e **fechado como texto na v0.106**: `sistema/05-material/livro/` tem o Manual da Guilda completo, 230 páginas, com o quick-start (*"Antes da primeira sessão"*) escrito direto no PDF — o molde que a v0.103 previu, *"como o PDF carrega essa propriedade é trabalho dele"* |
 | **Playtest** | `04-playtest/` está vazia. Zero sessões desde a v0.1. **Todo número do sistema é previsão** |
 
 *A **tabela de XP** saiu desta lista na v0.32.* Ela era a trava nº 1 de mundo compartilhado e ficou aberta trinta versões; hoje é a peça 12, com o `conferir-xp.py` em cima dela.
@@ -627,7 +627,7 @@ O que falta agora, na ordem em que travam umas às outras:
 >
 > O que falta para alguém sentar na mesa não é regra — é **material**: as peças são argumento de design e não texto de mesa. **`04-playtest/` está vazia desde a v0.1, e todo número do sistema continua sendo previsão.**
 >
-> A rota decidida com o Mizuki foi: v7.7 → anti-domínio → XP → **validação e polimento** → ficha e quick-start. *Os quatro primeiros saíram, o polimento foi a v0.33 e a **ficha saiu na v0.35** — `05-material/` não está mais vazia.* **O quick-start foi abandonado na v0.102, e o último degrau desta rota virou o PDF.**
+> A rota decidida com o Mizuki foi: v7.7 → anti-domínio → XP → **validação e polimento** → ficha e quick-start. *Os quatro primeiros saíram, o polimento foi a v0.33 e a **ficha saiu na v0.35** — `05-material/` não está mais vazia.* **O quick-start foi abandonado como arquivo na v0.102, e o último degrau desta rota virou o PDF — que saiu na v0.106, com o quick-start escrito direto nele.**
 
 ## A fila decidida com o Mizuki na v0.36
 
