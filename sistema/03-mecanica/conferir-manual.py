@@ -902,6 +902,78 @@ else:
 
 
 # --------------------------------------------------------------------------
+# 4k. A LISTA DE PASSIVAS POR CLASSE PASSIVA, que a peca 11 SS4 copiou
+#
+# Escrita na v0.107, e ela nasceu de uma divergencia achada a olho na revisao do
+# livro: a peca 11 publicava `—` na linha da Classe Passiva 3 — NENHUMA Passiva —
+# enquanto o manual lista tres ali (`Escama`, `Afinidade`, `Reserva Profunda`).
+# A linha da 2 tambem estava curta: cinco de sete.
+#
+# A coluna existe como PROVA de que a escada de formato foi lida do manual e nao
+# inventada na peca. Uma prova que diverge do que ela cita prova o contrario.
+#
+# `Regra Propria` e `Passiva Propria` sao `1 a 3` e ficam de fora dos dois lados:
+# elas nao moram numa altura so.
+#
+# NADA ESCRITO AQUI: as tres linhas saem do .docx, e as tres saem da peca 11.
+print()
+print('  4k. as Passivas por Classe Passiva no .docx contra a copia da peca 11 SS4')
+
+_pv_manual = {'1': [], '2': [], '3': []}
+for _t in _D.tables:
+    _cab = [c.text.strip() for c in _t.rows[0].cells] if _t.rows else []
+    if _cab[:3] != ['Passiva', 'Classe', 'O que faz']:
+        continue
+    for _r in _t.rows[1:]:
+        _cel = [c.text.strip() for c in _r.cells]
+        if len(_cel) >= 2 and _cel[1] in _pv_manual:
+            _pv_manual[_cel[1]].append(_cel[0])
+
+if not all(_pv_manual.values()):
+    erro('nao achei a lista de Passivas do .docx com as tres alturas preenchidas — '
+         'achei ' + repr({k: len(v) for k, v in _pv_manual.items()}) + '. A peca 11 SS4 '
+         'copia essa lista como prova da escada, e a comparacao ficou sem dono')
+else:
+    _p11p = os.path.join(AQUI, '11-aptidoes-e-refino.md')
+    with open(_p11p, encoding='utf-8') as _f:
+        _t11p = _f.read()
+    _pv_peca = {}
+    for _lin in _t11p.splitlines():
+        _m = re.match(r'\|\s*\*\*([123])\*\*\s*\|[^|]*\|\s*([^|]+?)\s*\|\s*$', _lin)
+        if _m:
+            _pv_peca[_m.group(1)] = [x.strip(' `') for x in _m.group(2).split('·')]
+    if set(_pv_peca) != {'1', '2', '3'}:
+        erro('nao consegui ler as tres linhas da tabela de Classe Passiva da peca 11 SS4 '
+             f'— achei {sorted(_pv_peca)}. Se a tabela mudou de forma, esta checagem '
+             'parou de conferir')
+    else:
+        _ruim = False
+        for _cl in ('1', '2', '3'):
+            if _pv_peca[_cl] != _pv_manual[_cl]:
+                _ruim = True
+                erro(f'Classe Passiva {_cl}: o manual lista {_pv_manual[_cl]} e a peca 11 '
+                     f'SS4 copiou {_pv_peca[_cl]} — as duas copias divergiram, e a coluna '
+                     f'da peca existe justamente para provar que a escada saiu do manual')
+        if not _ruim:
+            print('    [x] ' + ' · '.join(f'Classe Passiva {c}: {len(_pv_manual[c])}'
+                                          for c in ('1', '2', '3')) +
+                  ' — as tres linhas batem, nome por nome e na mesma ordem.')
+
+# guarda: `Regra Propria` e `Passiva Propria` sao `1 a 3` e nao podem aparecer em
+# nenhuma das tres linhas dos dois lados. Se o manual passar a dar altura fixa a
+# uma delas, a comparacao acima muda de forma e esta guarda acusa primeiro.
+_flex = [_c[0] for _t in _D.tables for _c in
+         ([[x.text.strip() for x in _r.cells] for _r in _t.rows])
+         if len(_c) >= 2 and _c[1] == '1 a 3']
+if sorted(_flex) != ['Passiva Própria', 'Regra Própria']:
+    erro(f'as Passivas de altura flexivel do .docx mudaram: achei {sorted(_flex)} e '
+         f'esperava a `Regra Própria` e a `Passiva Própria`. A checagem 4k deixa as '
+         f'duas de fora das tres linhas, e essa exclusao deixou de valer')
+else:
+    print('    [x] a `Regra Própria` e a `Passiva Própria` continuam `1 a 3`, fora das tres.')
+
+
+# --------------------------------------------------------------------------
 print()
 print('=' * 88)
 if FALHAS:

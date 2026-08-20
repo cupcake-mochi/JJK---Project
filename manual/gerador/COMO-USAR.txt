@@ -1,4 +1,4 @@
-GERADOR DO MANUAL — Fundamento v7.10
+GERADOR DO MANUAL — Fundamento v7.11
 
 Recria o .docx do zero. Precisa de Node.js.
 
@@ -31,6 +31,21 @@ ORDEM DAS SEÇÕES (v7)
   4 Restrições → 5 Fora de combate → 6 Liberação Máxima → 7 Técnica Máxima →
   8 Regras de ouro → 9 Progressão → 10 Feitiços prontos → 11 Para o mestre →
   Apêndice
+
+O QUE MUDOU NA v7.11
+  - REGRA DE OURO No 5 GANHOU O "CLASSE 3 OU MAIS" (partE.js). Ela dizia so
+    "Liberacao Maxima custa a rodada inteira, e voce so tem as que o nivel deu",
+    e passou a dizer "Liberacao Maxima e Classe 3 ou mais, custa a rodada inteira,
+    e voce so tem as que o nivel deu".
+  - POR QUE: o proprio manual escreve o piso de Classe 3 em outros TRES lugares —
+    a secao 6 ("Escritas antes da sessao, Classe 3 ou mais"), o item 6 do checklist
+    de aprovacao do mestre, e o resumo do Apendice. So a tabela das Regras de ouro
+    ficou sem ele, e ela e a lista que a secao diz que o checklist do mestre segue
+    "exatamente". Quem lesse so a tabela aprovaria uma Liberacao Maxima de Classe 1.
+  - Achado na revisao do livro (sistema/05-material/livro/), que ja tinha corrigido
+    a copia dele — o defeito era so deste lado. Registrado como "bug do sistema, nao
+    do livro" no ESTADO-revisao.md e nunca investigado ate a v0.107 do projeto.
+  - NENHUM NUMERO SE MOVEU. E texto de regra que estava incompleto, nao preco.
 
 O QUE MUDOU NA v7.10
   - AS DUAS MELHORIAS DE CONDICAO VIRARAM UMA. `Condicao Menor` (Media) e

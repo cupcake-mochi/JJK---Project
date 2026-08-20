@@ -186,16 +186,24 @@ IGNORAR = re.compile(
 )
 
 # todo nome de arquivo que existe na arvore, para resolver citacao solta em prosa
+#
+# `.claude` sai das quatro varreduras junto com `.git` e `node_modules`, e pelo
+# mesmo motivo: o Claude Code abre worktree em
+# sistema/05-material/livro/.claude/worktrees/<nome>/, e um worktree e' uma COPIA
+# INTEIRA do repositorio dentro do repositorio. Sem esta linha o validador le a
+# copia como se fosse material, e cada ponteiro morto do CHANGELOG e cada nome
+# aposentado aparece DUAS vezes — uma pelo arquivo real, outra pelo espelho. Na
+# v0.107 isso rendeu oito falsos, todos com `.claude/worktrees/` no caminho.
 TODOS_OS_NOMES = set()
 for _b, _d, _f in os.walk(RAIZ):
-    _d[:] = [x for x in _d if x not in ('.git', '_backup', '_to_delete', 'node_modules', '__pycache__')]
+    _d[:] = [x for x in _d if x not in ('.git', '.claude', '_backup', '_to_delete', 'node_modules', '__pycache__')]
     TODOS_OS_NOMES.update(_f)
 
 vistos = 0
 mortas = 0
 for base, dirs, files in os.walk(RAIZ):
     dirs[:] = [d for d in dirs
-               if d not in ('.git', '_backup', '_to_delete', 'node_modules', '__pycache__', 'skills')]
+               if d not in ('.git', '.claude', '_backup', '_to_delete', 'node_modules', '__pycache__', 'skills')]
     for f in files:
         if not f.endswith('.md'):
             continue
@@ -257,7 +265,7 @@ ANTIGO = {
 achou = 0
 for base, dirs, files in os.walk(RAIZ):
     dirs[:] = [d for d in dirs
-               if d not in ('.git', '_backup', '_to_delete', 'node_modules', '__pycache__')]
+               if d not in ('.git', '.claude', '_backup', '_to_delete', 'node_modules', '__pycache__')]
     for f in files:
         if not f.endswith(('.md', '.py', '.txt')):
             continue
@@ -427,7 +435,7 @@ _vistos = 0
 _ruins = 0
 for _dir, _dirs, _files in os.walk(RAIZ):
     _dirs[:] = [d for d in _dirs
-                if d not in ('_backup', '99-arquivo', '.git', '_to_delete', 'node_modules', '.venv')]
+                if d not in ('_backup', '99-arquivo', '.git', '.claude', '_to_delete', 'node_modules', '.venv')]
     for _f in _files:
         if not _f.endswith('.md'):
             continue

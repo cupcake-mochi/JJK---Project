@@ -166,10 +166,16 @@ As aptidões herdam a escada das Passivas do manual. **Ela não mede quanto — 
 | Classe Passiva | o que cabe | as Passivas do manual naquela altura |
 |---|---|---|
 | **1** | efeito pequeno, condicional, ou de informação | `Leitura` · `Instinto` · `Raiz` · `Mão Firme` · `Farejador` · `Aviso` |
-| **2** | efeito reativo, com limite de uso por cena ou por descanso | `Fluxo` · `Recomposição` · `Segunda Natureza` · `Eco` · `Costura` |
-| **3** | permanente. Muda como você joga | — |
+| **2** | efeito reativo, com limite de uso por cena ou por descanso | `Fluxo` · `Recomposição` · `Segunda Natureza` · `Eco` · `Costura` · `Contramedida` · `Peso da Presença` |
+| **3** | permanente. Muda como você joga | `Escama` · `Afinidade` · `Reserva Profunda` |
 
-*A terceira coluna é a prova de que a leitura não foi inventada aqui:* as seis da Classe Passiva 1 são todas *"você sabe"* ou *"você não sofre"*, e as cinco da 2 são todas *"uma vez por X, acontece"*. **A escada estava na tabela do manual; o que faltava era alguém escrever o que ela separa.**
+**A terceira coluna é cópia, e o dono é a lista de Passivas do manual.** *A `Regra Própria` e a `Passiva Própria` ficam de fora dela de propósito: as duas são `1 a 3` e não moram numa altura só.* **O `conferir-manual.py` compara as três linhas contra o `.docx` na checagem 4k.**
+
+> **⚠ A coluna passou da v0.64 até a v0.107 errada em duas das três linhas.** *A `2` listava cinco de sete, e a `3` dizia `—` — nenhuma —, enquanto o manual publica `Escama`, `Afinidade` e `Reserva Profunda` ali desde sempre.* **A `Escama` é da v0.26, e ela é a Passiva que este mesmo documento discute na seção de playtest.** *Ninguém comparava as duas cópias, e é o que a checagem nova passa a fazer.*
+
+*A terceira coluna é a prova de que a leitura não foi inventada aqui:* as seis da Classe Passiva 1 são todas *"você sabe"* ou *"você não sofre"*, e as sete da 2 **disparam quando alguma coisa acontece** — quatro delas com limite escrito (`Recomposição`, `Segunda Natureza`, `Costura` e o *"da cena"* do `Eco`), a `Contramedida` presa à reação, e `Fluxo` e `Peso da Presença` presas só ao gatilho. **A escada estava na tabela do manual; o que faltava era alguém escrever o que ela separa.**
+
+> *E aí aparece uma frouxidão que vale registrar sem consertar aqui:* **o `Fluxo` e o `Peso da Presença` não trazem limite de uso nenhum**, e a definição desta linha pede *"com limite de uso por cena ou por descanso"*. *Os dois continuam reativos — o que falta é o relógio.* **É pergunta para o dono da lista, que é o manual, e não para esta peça.**
 
 Uma Classe Passiva 3 não é "uma Classe Passiva 1 maior": é uma coisa de outro formato. **Farejador** — *"você sente se alguém conjurou num lugar nas últimas 24 horas"* — não fica obsoleta porque uma permanente existe; ela faz algo que nenhuma permanente faz.
 

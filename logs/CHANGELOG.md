@@ -6,6 +6,72 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.107] — 20/08/2026
+
+**A versão em que as duas divergências que a revisão do livro registrou e ninguém investigou viraram conserto — e as duas moravam onde o bilhete não dizia.** *O `ESTADO-revisao.md` chamou as duas de "bug do sistema, não do livro" e apontou para `03-mecanica/`. Uma delas está lá; a outra estava no gerador do manual.* **Manual do Fundamento na v7.11.**
+
+### Corrigido — o validador da ficha travava o `subir.sh` desde a v0.105
+
+**A v0.105 tirou a coluna de ofício da tabela de Caminhos da peça 8, e o regex do `conferir-ficha.py` continuou esperando seis colunas.** *Ele não casava com nenhuma linha, `peca_cam` saía vazio, e o validador falhava com `nao consegui ler a tabela de Caminhos da peca 8` — que é a mensagem de "o arquivo mudou de forma", não a de "os números divergem".*
+
+**A checagem 3 ficou duas versões sem conferir nada, com o `subir.sh` travado o tempo todo** — que é a forma mais barulhenta desse defeito e ainda assim a mais fácil de ler errado: a falha acusa a peça, e o defeito estava no leitor.
+
+> **E o campo `oficio` dos `CAMINHOS` do `dados.js` saiu junto.** *Ele guardava `Forja` no Bastião, `Arrombamento` na Vanguarda e mais três — a regra que a v0.105 matou —, e **nada no gerador lia ele**: o `ficha.js` toca em `vida1`, `vidaNv` e `peNv`, e os ofícios impressos na ficha vêm do personagem, não do Caminho.* **Cópia morta de uma regra morta, dentro do arquivo que vira personagem em sete mesas.**
+
+*Sete perturbações conferidas em cópia isolada, com a base passando antes de cada uma e o `diff` conferido: vida, PE, perícia fixa e a tabela sumindo do lado da peça; vida, perícia e Caminho a mais do lado do `dados.js`.* **A contagem de checagens não se moveu — continuam seis, e a comparação de ofício era sub-checagem da terceira.**
+
+### Corrigido — a regra de ouro nº 5, e ela não estava em `03-mecanica/`
+
+**A tabela das Regras de ouro do manual publicava a regra 5 sem o piso de Classe:** *"Liberação Máxima custa a rodada inteira, e você só tem as que o nível deu."*
+
+**O mesmo manual escreve o `Classe 3 ou mais` em outros três lugares** — a seção 6 (*"Escritas antes da sessão, Classe 3 ou mais"*), o item ☐6 do checklist de aprovação, e o resumo do Apêndice. *Só a tabela ficou sem ele, e ela é a lista que a própria seção diz que o checklist do mestre segue **"exatamente"**.* **Quem lesse só a tabela aprovaria uma Liberação Máxima de Classe 1.**
+
+> **⚠ O bilhete dizia `03-mecanica/`, e a regra 5 não mora lá.** *Nenhuma peça de mecânica cita ela; a dona é `manual/gerador/partE.js`.* **O registro da pendência anotou o sintoma — "bug do sistema, não do livro" — e chutou a pasta**, e quem retomasse ia procurar num lugar em que a regra nunca esteve. *Sintoma não diz onde consertar; isso já custou catorze versões à pendência do `carregar`, na v0.93.*
+
+**Manual na v7.11.** *Nenhum número se moveu, nenhum feitiço pronto mudou, e a estrutura fica em 366 parágrafos e 90 tabelas — a correção acontece dentro de uma célula que já existia.* **Ela precisa ser regerada antes do commit:** `node make.js` no gerador e o `soffice` para o `.pdf`, senão o `.docx` publicado fica uma frase atrás e nenhum validador acusa.
+
+### Corrigido — a coluna de Passivas da peça 11, errada em duas das três linhas
+
+**A §4 da peça 11 publica, como prova de que a escada de Classe Passiva foi lida do manual e não inventada aqui, as Passivas do manual em cada altura. Duas das três linhas estavam erradas.**
+
+| Classe Passiva | a peça 11 dizia | o manual lista |
+|---|---|---|
+| **1** | seis | seis — bate |
+| **2** | cinco | **sete** — faltavam `Contramedida` e `Peso da Presença` |
+| **3** | **`—`, nenhuma** | **três** — `Escama`, `Afinidade` e `Reserva Profunda` |
+
+**A linha da 3 é a que dói: ela afirmava que o manual não tem nenhuma Passiva permanente, e a `Escama` está lá desde a v0.26** — a mesma que este documento discute na seção de playtest, três telas abaixo. *Uma prova que contradiz o que ela cita prova o contrário do que ela quer provar.*
+
+> **A checagem que faltava é a `4k` do `conferir-manual.py`**, sub-checagem da quarta, no molde exato da `4i` e da `4j`: os dois lados são lidos — as três alturas do `.docx` e as três linhas da peça —, e nenhum valor fica escrito dentro do validador. **A contagem de checagens não se moveu.**
+>
+> *Ela vem com guarda: a `Regra Própria` e a `Passiva Própria` são `1 a 3` e ficam de fora das três linhas dos dois lados.* **Se o manual der altura fixa a uma delas, a guarda acusa antes de a comparação mudar de forma em silêncio** — e o contra-teste rodado prova que a guarda não é trivialmente verdadeira: renomear a `Passiva Própria` no `.docx` acende ela sozinha, com as três linhas ainda batendo.
+
+*Oito perturbações conferidas em cópia isolada — cinco do lado da peça (o traço voltando na linha 3, um nome faltando na 2, a ordem trocada na 1, um nome trocado na 3, e a tabela mudando de forma) e três do lado do `.docx` (a `Escama` virando Classe 2, a `Regra Própria` ganhando altura fixa, e o cabeçalho da tabela mudando).*
+
+### Registrado — dois `Classe Passiva 2` sem relógio, e a pergunta é do manual
+
+**O `Fluxo` e o `Peso da Presença` não trazem limite de uso nenhum**, e a linha que os abriga se define como *"efeito reativo, **com limite de uso por cena ou por descanso**"*. *Os dois continuam reativos — o que falta é o relógio.*
+
+**Fica registrado na peça 11 §4 e não consertado**, porque o dono da lista de Passivas é o manual, e mexer no formato de duas Passivas publicadas é decisão de leva de manual e não efeito colateral de um conserto de coluna.
+
+### Fechado — os três documentos do livro que carregavam as duas como pendência
+
+*O `README.md`, o `ESTADO-revisao.md` e o `REMOCOES-material-de-mestre.md` de `05-material/livro/` descreviam as duas como abertas.* **O texto do livro já estava certo nos dois casos** — a revisão da v0.106 tinha consertado as cópias herdadas e registrado que a fonte continuava errada. *Os três itens fecharam com `~~`, que é a convenção da casa.*
+
+### Corrigido — o `conferir-repositorio.py` lia o worktree do Claude Code como se fosse material
+
+**O Claude Code abre worktree em `sistema/05-material/livro/.claude/worktrees/<nome>/`, e um worktree é uma cópia inteira do repositório dentro do repositório.** *As quatro varreduras recursivas do validador pulavam `.git`, `_backup`, `_to_delete`, `node_modules` e `__pycache__` — e não `.claude`.* **Resultado: cada ponteiro morto e cada nome aposentado aparecia duas vezes, uma pelo arquivo real e outra pelo espelho.** Nesta versão foram oito falsos, todos com `.claude/worktrees/` no caminho.
+
+> **O defeito é intermitente, que é o pior jeito de ele existir.** *Ele só acende enquanto um worktree está vivo, e some sozinho quando a sessão fecha — o `subir.sh` desta versão passou numa rodada e falhou na seguinte sem que nada do material tivesse mudado no meio.* **Um validador que responde diferente para a mesma árvore ensina a desconfiar da árvore.**
+
+*Contra-teste rodado em cópia isolada, com a base passando antes: o mesmo defeito plantado fora de `.claude` acende em quatro linhas de erro, e plantado dentro do worktree fica mudo.* **Nenhuma checagem nova — continuam 188 em 20 validadores.**
+
+### Alterado — a entrega ressincronizada
+
+*Quatro cópias tinham ficado para trás: a peça 11, o `arquitetura.md` e o `.docx`/`.pdf` do manual na v7.11.* O `README.md` da entrega — o único arquivo escrito à mão lá — passou a **v0.107** e **v7.11**, e a nota que manda regerar o Fundamento em vez de reaproveitá-lo ganhou a mudança da regra de ouro nº 5 ao lado dos dois feitiços da v0.104. *Sem isso ela listava pela metade o que mudou desde a `v7.9`.*
+
+---
+
 ## [0.106] — 19/08/2026
 
 **A versão em que o PDF ganhou o texto que a v0.103 previu.** *`sistema/05-material/livro/` estava vazia desde a v0.35 — agora tem o Manual da Guilda inteiro, 230 páginas, com o quick-start que "como o PDF carrega essa propriedade é trabalho dele" tinha deixado em aberto.*

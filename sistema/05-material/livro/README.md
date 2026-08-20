@@ -44,5 +44,6 @@ decidiu, agora com texto de verdade dentro dele.
 - o `PvP` cortado do capítulo 9 precisa de um lugar — apêndice opcional ou livro do mestre
 - treino de arma por Caminho foi escrito pela primeira vez aqui, e ainda não tem validador
   nem existe em `sistema/03-mecanica/`
-- duas divergências achadas no caminho, que são bug do sistema e não do livro: a regra 5
-  das Regras de ouro do Fundamento, e a tabela de Classe Passiva 3 do capítulo de Aptidões
+- ~~duas divergências achadas no caminho, que são bug do sistema e não do livro: a regra 5
+  das Regras de ouro do Fundamento, e a tabela de Classe Passiva 3 do capítulo de Aptidões~~
+  **as duas fecharam na v0.107, do lado da fonte** — o texto do livro já estava certo

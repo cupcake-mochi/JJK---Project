@@ -205,9 +205,14 @@ Nada disto é decisão minha:
       opcional junto do `Bloquear`, ou livro do mestre.
 - [ ] **Treino de arma por Caminho existe só aqui** — escrito pela primeira vez nesta
       revisão, e ainda não tem validador nem existe em `sistema/03-mecanica/`.
-- [ ] **Duas divergências achadas no caminho, bug do sistema e não do livro:** a regra 5
+- [x] ~~**Duas divergências achadas no caminho, bug do sistema e não do livro:** a regra 5
       das Regras de ouro do Fundamento sem o *"Classe 3 ou mais"*, e a tabela de Classe
-      Passiva 3 do capítulo de Aptidões contradizendo o Fundamento.
+      Passiva 3 do capítulo de Aptidões contradizendo o Fundamento.~~ **Fechadas na v0.107
+      do projeto, as duas do lado da fonte — o livro já estava certo nas duas.** A regra 5
+      estava em `manual/gerador/partE.js` e não em `03-mecanica/`, e consertar ela levou o
+      manual do Fundamento para a **v7.11**; a tabela de Classe Passiva era a §4 da peça 11,
+      errada em **duas** das três linhas (a `2` listava cinco de sete e a `3` dizia `—`), e
+      ela ganhou a checagem `4k` do `conferir-manual.py` comparando as três contra o `.docx`.
 
 ---
 

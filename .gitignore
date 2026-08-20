@@ -36,3 +36,8 @@ mensagem-de-commit.txt
 # Ela e regerada quando uma versao fecha, e nunca editada a mao.
 finalizado/
 sistema/05-material/livro/build/manual.html
+
+# O Claude Code abre worktree aqui, e um worktree e uma COPIA INTEIRA do
+# repositorio dentro do repositorio — o `git add -A` do subir.sh o pegaria como
+# repositorio embutido. O conferir-repositorio.py pula `.claude` pelo mesmo motivo.
+**/.claude/worktrees/

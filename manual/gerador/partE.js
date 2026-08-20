@@ -213,7 +213,7 @@ const ouro = [
       ['2', 'O dano total, somando alvos e repetições, nunca passa de 4 × Classe em dados. Contra um alvo só, feitiço comum para nos pontos da Classe: 4 × Classe num alvo é coisa de Liberação Máxima.'],
       ['3', 'Melhorias: 2 nas Classes 1–2, 3 nas Classes 3–4, 4 da Classe 5 em diante. Restrições: até 2. A Forma não conta.'],
       ['4', 'Restrição devolve no máximo 2 × Classe.'],
-      ['5', 'Liberação Máxima custa a rodada inteira, e você só tem as que o nível deu.'],
+      ['5', 'Liberação Máxima é Classe 3 ou mais, custa a rodada inteira, e você só tem as que o nível deu.'],
       ['6', 'Feitiço em Ação Bônus ou Reação só permite mais um de Classe 0 no turno.'],
       ['7', 'Duas Restrições não podem ser as duas de frequência, nem cobrar a mesma coisa.'],
       ['8', 'Restrição que não atrapalhou em três sessões é trocada.'],

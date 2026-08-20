@@ -227,6 +227,8 @@ Sobraram 4 tabelas de duas linhas, todas contraste de dois itens. O livro foi de
 - [ ] Levar a regra de treino de arma por Caminho para o repo-fonte, com validador
 - [ ] O `Para o mestre` do cap. 9 está preservado em `sistema/03-mecanica/11-aptidoes-e-refino.md`
       e `manual/Fundamento-MANUAL-v7.docx` do repositório de trabalho — conferir antes de considerar perdido
-- [ ] As correções da rodada anterior (regra 5 das Regras de ouro ganhando *"Classe 3 ou
+- [x] ~~As correções da rodada anterior (regra 5 das Regras de ouro ganhando *"Classe 3 ou
       mais"*, e a tabela de Classe Passiva 3 do cap. 10 que contradizia o cap. 9) são bugs do
-      repo-fonte e valem voltar para lá
+      repo-fonte e valem voltar para lá~~ **Voltaram na v0.107** — a regra 5 em
+      `manual/gerador/partE.js` (manual na v7.11) e a tabela na peça 11 §4, esta com
+      validador em cima

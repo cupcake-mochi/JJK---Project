@@ -21,22 +21,23 @@ const PERICIAS = [
 const OFICIOS = ['Condução', 'Arrombamento', 'Herbalismo', 'Forja', 'Caligrafia',
                  'Burocracia', 'Entalhador', 'Alfaiate', 'Culinária', 'Instrumento', 'Jogatina'];
 
-// os 5 Caminhos (peca 8, passo 3) — vida no nv1, vida por nivel, PE por nivel
+// os 5 Caminhos (peca 8, passo 3) — vida no nv1, vida por nivel, PE por nivel.
+// Sem oficio fixo desde a v0.105: o Caminho da dois oficios LIVRES.
 const CAMINHOS = [
   { nome: 'Bastião',   dado: 'd12', vida1: 12, vidaNv: 7, peNv: 4,
-    pericias: ['Atletismo', 'Intimidação'], oficio: 'Forja',
+    pericias: ['Atletismo', 'Intimidação'],
     trilhas: ['Muro', 'Punho', 'Brasa'] },
   { nome: 'Vanguarda', dado: 'd8',  vida1: 8,  vidaNv: 5, peNv: 5,
-    pericias: ['Acrobacia', 'Percepção'], oficio: 'Arrombamento',
+    pericias: ['Acrobacia', 'Percepção'],
     trilhas: ['Estocada', 'Batedor', 'Executor'] },
   { nome: 'Guia',      dado: 'd8',  vida1: 8,  vidaNv: 5, peNv: 5,
-    pericias: ['Persuasão', 'Medicina'], oficio: 'Herbalismo',
+    pericias: ['Persuasão', 'Medicina'],
     trilhas: ['Elo', 'Sutura', 'Perímetro'] },
   { nome: 'Evocador',  dado: 'd6',  vida1: 6,  vidaNv: 4, peNv: 6,
-    pericias: ['Religião', 'Lidar com Animais'], oficio: 'Entalhador',
+    pericias: ['Religião', 'Lidar com Animais'],
     trilhas: ['Servo', 'Matilha', 'Coro'] },
   { nome: 'Emanador',  dado: 'd6',  vida1: 6,  vidaNv: 4, peNv: 6,
-    pericias: ['Ocultismo', 'Investigação'], oficio: 'Caligrafia',
+    pericias: ['Ocultismo', 'Investigação'],
     trilhas: ['Torrente', 'Explosivo', 'Arremate'] },
 ];
 

@@ -22,7 +22,7 @@ Seis checagens
   1. PERICIAS — as 23 da ficha sao as 23 da peca 7, com o mesmo atributo.
   2. OFICIOS — os da ficha sao os da peca 7 (a contagem sai da peca).
   3. CAMINHOS — nome, vida inicial, vida por nivel e PE por nivel batem com a
-     peca 8, e as pericias e o oficio fixos batem com a peca 7.
+     peca 8, e as pericias fixas batem com a peca 7.
   4. TRILHAS — as 15 da ficha existem na peca 6, no Caminho certo.
   5. AS CONSTANTES DO NIVEL 2 — maestria, refino, protecao, Classe, feiticos
      conhecidos, Classe 0, Integridade, XP do proximo nivel e os pontos de
@@ -183,18 +183,19 @@ else:
     erro('nao consegui ler a lista de oficios da peca 7')
 
 # ==========================================================================
-bloco('3. CAMINHOS — vida, PE, pericias fixas e oficio fixo')
+bloco('3. CAMINHOS — vida, PE e pericias fixas')
 
-# peca 8: | **Nome** | 12 (d12) | 7 | 4 | Pericia · Pericia | Oficio |
+# peca 8: | **Nome** | 12 (d12) | 7 | 4 | Pericia · Pericia |
+# CINCO colunas desde a v0.105, quando o Caminho parou de travar oficio: a coluna
+# de oficio fixo saiu da peca, e com ela saiu o que havia para comparar aqui.
 peca_cam = {}
 for linha in P8.splitlines():
     m = re.match(r'\|\s*\*\*(\w+)\*\*\s*\|\s*(\d+)\s*\((d\d+)\)\s*\|\s*(\d+)\s*\|\s*(\d+)\s*\|'
-                 r'\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|', linha)
+                 r'\s*([^|]+?)\s*\|', linha)
     if m:
         peca_cam[m.group(1)] = dict(vida1=int(m.group(2)), dado=m.group(3),
                                     vidaNv=int(m.group(4)), peNv=int(m.group(5)),
-                                    pericias=[p.strip() for p in m.group(6).split('·')],
-                                    oficio=m.group(7).strip())
+                                    pericias=[p.strip() for p in m.group(6).split('·')])
 
 # cada entrada e um bloco { ... } dentro de const CAMINHOS. Le campo por campo,
 # em vez de um regex unico com a formatacao inteira dentro: o dados.js alinha os
@@ -217,7 +218,7 @@ if _blocoCam:
         if nome:
             ficha_cam[nome] = dict(dado=_s('dado'), vida1=_i('vida1'),
                                    vidaNv=_i('vidaNv'), peNv=_i('peNv'),
-                                   pericias=_l('pericias'), oficio=_s('oficio'),
+                                   pericias=_l('pericias'),
                                    trilhas=_l('trilhas'))
 
 if not peca_cam:
@@ -237,12 +238,9 @@ else:
         if set(p['pericias']) != set(f['pericias']):
             ok = False
             erro(f'{nome}: pericias fixas divergem — peca 8 {p["pericias"]} · ficha {f["pericias"]}')
-        if p['oficio'] != f['oficio']:
-            ok = False
-            erro(f'{nome}: oficio fixo diverge — peca 8 "{p["oficio"]}" · ficha "{f["oficio"]}"')
         if ok:
             print(f'    [x] {nome:<11} vida {p["vida1"]}/{p["vidaNv"]} · PE {p["peNv"]} · '
-                  f'{", ".join(p["pericias"])} · {p["oficio"]}')
+                  f'{", ".join(p["pericias"])}')
     # a soma vida+PE, que e a trava do sabor-e-nao-degrau
     somas = {n: c['vidaNv'] + c['peNv'] for n, c in ficha_cam.items()}
     if max(somas.values()) - min(somas.values()) > 1:

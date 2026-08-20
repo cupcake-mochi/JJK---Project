@@ -1,8 +1,16 @@
 # Estado atual do projeto
 
-Atualizado em 18/08/2026, na v0.105 (última peça fechada: **Dano e condições**, ampliada nesta versão com a penalidade de arma; antes dela, a **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 20/08/2026, na v0.107 (última peça fechada: **Dano e condições**, ampliada na v0.104 com a penalidade de arma; antes dela, a **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.106.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezenove peças escritas** e **dezenove validadores**.
+**Versão v0.107.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezenove peças escritas** e **dezenove validadores**.
+
+**A v0.107 fechou as duas divergências que a revisão do livro registrou na v0.106 e ninguém tinha investigado, e as duas moravam onde o bilhete não dizia.** *Ele chamou as duas de "bug do sistema, não do livro" e apontou para `03-mecanica/`.* **Uma está lá — a coluna de Passivas da peça 11 §4, errada em duas das três linhas. A outra estava no gerador do manual**, e consertar ela levou o Fundamento para a **v7.11**.
+
+> **⚠⚠ A linha da Classe Passiva 3 daquela coluna dizia `—` — nenhuma Passiva permanente no manual — e o manual lista três.** *`Escama`, `Afinidade` e `Reserva Profunda`, e a `Escama` é da v0.26: a mesma que este documento discute na seção "Marcado para o playtest".* **A coluna existe como PROVA de que a escada de formato foi lida do manual; uma prova que contradiz o que ela cita prova o contrário.** *A linha da 2 também estava curta — cinco de sete.* **Ganhou a checagem `4k` do `conferir-manual.py`, com guarda e contra-teste, e a contagem de checagens não se moveu.**
+
+> **E a regra de ouro nº 5 do Fundamento não estava em `03-mecanica/` nenhum.** *A dona é `manual/gerador/partE.js`, e a tabela publicava "Liberação Máxima custa a rodada inteira, e você só tem as que o nível deu" — **sem o piso de `Classe 3 ou mais`**, que o mesmo manual escreve em outros três lugares.* **Quem lesse só a tabela aprovaria uma Liberação Máxima de Classe 1** — e é a tabela que a seção diz que o checklist do mestre segue "exatamente".
+
+**E o `conferir-ficha.py` voltou a conferir a checagem 3.** *A v0.105 tirou a coluna de ofício da tabela de Caminhos da peça 8 e o regex continuou pedindo seis colunas: ele não casava com nada, e o validador falhava com "nao consegui ler a tabela" — travando o `subir.sh` inteiro.* **O campo `oficio` dos `CAMINHOS` do `dados.js` saiu junto, porque nada no gerador lia ele.**
 
 **A v0.104 é a versão das dez condições no degrau errado.** *A `Condição Menor` e a `Condição Maior` do manual viraram uma Melhoria só, chamada `Condição`, e o preço dela é o **nível** da condição escolhida.* **O espalhamento dentro de um degrau caiu de `17,00×` para `4,26×`, que é o piso de qualquer corte em três degraus** — a busca exaustiva diz que nenhum outro faz melhor, e o filtro do projeto reprova a partir de `3,00×`. *Manual na v7.10, com dois feitiços prontos mudando: `Palma Trovejante` `5d8 → 6d8` e `Vala Comum` `9d8 → 11d8`.*
 
@@ -307,7 +315,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 
 **Duas peças foram parcialmente substituídas e trazem o aviso no topo:** as seções 3 e 4 da peça 4 saíram para a peça 7, e a seção 3 e o quadro de Caminhos da peça 5 saíram para a peça 6.
 
-O manual do Fundamento **v7.10** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 366 parágrafos e 90 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na v7.10, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 46 páginas.
+O manual do Fundamento **v7.11** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 366 parágrafos e 90 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na v7.11, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 46 páginas.
 
 **Quem é dono da versão do manual:** a primeira linha de `manual/gerador/COMO-USAR.txt`. Toda outra cópia — a capa em `partA.js`, este arquivo, o `README.md`, o `LEIA-ME.md` e o `arquitetura.md` — é cópia, e o `conferir-repositorio.py` falha se alguma divergir. *Ele nasceu na v0.33, depois de a capa do manual passar três versões dizendo 7.5.*
 
