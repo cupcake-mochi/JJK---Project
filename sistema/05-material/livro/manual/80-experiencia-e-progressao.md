@@ -18,7 +18,10 @@ Grau é reconhecimento; nível é poder. O Grau abre porta, dá acesso e pesa em
 
 > **Uma ficha nova começa no nível 2.** O nível 1 é opção de campanha, para a mesa que quiser jogar o personagem antes de ele ser feiticeiro.
 
-## A curva
+## Curva de XP
+
+**Curva de XP**
+{: .tab-titulo }
 
 | você está no nível | o próximo nível custa | em XP |
 |---|---|---|
@@ -37,7 +40,10 @@ Do nível 2 ao 4 é uma missão por nível: a ficha entra em jogo e ganha corpo 
 
 Chegar ao nível 20 custa **6.300 XP** no total. Do 20 ao 30 são **8.200**.
 
-## O tamanho da missão
+## Tamanho da missão
+
+**Tamanho da missão**
+{: .tab-titulo }
 
 | tamanho | paga | o que é |
 |---|---|---|
@@ -50,9 +56,12 @@ Chegar ao nível 20 custa **6.300 XP** no total. Do 20 ao 30 são **8.200**.
 
 Missão de roleplay que qualquer Grau pode entrar é missão curta, e ela paga.
 
-## Um nível por missão, e nada se perde
+## Ritmo de subida
 
 > **Você sobe no máximo um nível por missão. O XP que sobrar fica acumulado e sai na próxima.**
+
+**Ritmo de subida**
+{: .tab-titulo }
 
 | no nível | curta | padrão | longa | final de arco |
 |---|---|---|---|---|
@@ -63,7 +72,10 @@ Missão de roleplay que qualquer Grau pode entrar é missão curta, e ela paga.
 
 Quem levou um final de arco no nível 2 sobe um nível na hora e entra na missão seguinte com 200 XP no bolso. Sobe de novo, e continua subindo até o acumulado acabar. O teto espalha a subida por várias sessões em vez de entregar três níveis de decisão de ficha numa noite só.
 
-## O desconto da semana
+## Desconto da semana
+
+**Desconto da semana**
+{: .tab-titulo }
 
 | missão da semana | paga |
 |---|---|
@@ -83,13 +95,13 @@ A contagem zera na virada da semana, e ninguém sai com zero. Moer mesa deixa de
 
 Uma missão perdida por azar de dado pesa diferente de uma abandonada na metade. O piso é metade porque seis horas de sessão terminando em nada fazem a pessoa não voltar; o teto é metade porque senão o sucesso deixa de significar.
 
-## Mestrar não dá XP
+## XP de quem mestra
 
 > **Mestrar paga na moeda que o sistema já tem separada: patente, contato, favor da instituição, acesso.**
 
 Um mestre ativo constrói patente e rede, e as duas abrem porta que nível nenhum abre.
 
-## O limiar do nível 20
+## Limiar do nível 20
 
 > **Você chega ao nível 20 por XP. Você passa dele por feito.**
 
@@ -97,7 +109,7 @@ Aos 6.300 de XP acumulado o personagem para no nível 20 até a mesa reconhecer 
 
 É o único ponto do jogo em que o eixo social e o eixo de poder se tocam, e eles se tocam uma vez só, na fronteira entre o mundano e o lendário. O que conta como feito é conversa de mesa, e a mesa fecha a lista antes de alguém chegar lá.
 
-## Como a mesa opera isso
+## Operação na mesa
 
 1. **O mestre posta a missão e declara o tamanho:** curta, padrão, longa ou final de arco.
 2. **A mesa acontece.**
@@ -107,11 +119,14 @@ Aos 6.300 de XP acumulado o personagem para no nível 20 até a mesa reconhecer 
 
 Não precisa de aprovação de ninguém, exceto no limiar do 20. E uma linha de missões paga a cada missão: quem entra no meio de uma linha recebe pelo que jogou.
 
-## O que cada nível entrega
+## Progressão por nível
 
 Na maior parte dos níveis, subir é o mesmo personagem com o número maior: você acerta um pouco mais, o feitiço custa a mesma coisa e rende igual, e cabe mais um feitiço na lista. De vez em quando o nível abre uma porta de verdade, e aí a ficha muda de forma: uma Classe nova, uma Liberação Máxima, um degrau de Caminho, um marco.
 
-Esta tabela é de consulta. Ache a sua linha e leia ela inteira.
+Ache a sua linha e leia ela inteira.
+
+**Progressão por nível**
+{: .tab-titulo }
 
 | nível | XP | maestria | espaços de feitiço | refino | Classe | Passiva | Classe 0 | o que este nível entrega |
 |---|---|---|---|---|---|---|---|---|
@@ -146,9 +161,9 @@ Esta tabela é de consulta. Ache a sua linha e leia ela inteira.
 | 29 | 1.000 | 4 | **22** | 7 | 7 | 3 | 5 | — |
 | **30** | — | 4 | **24** | 8 | 7 | 3 | 5 | **marco** · degrau de **Caminho** · **3ª Liberação Máxima** · +2 espaços de feitiço |
 
-Nível em negrito é nível que entrega decisão nova: uma Classe, um marco, um degrau de Caminho, uma entrega de Trilha. Os espaços de feitiço correm no ritmo próprio deles e por isso aparecem também em linha sem negrito. Nos níveis que ficaram de fora, o personagem cresce só em número, e isso é de propósito: nem toda subida precisa de decisão de ficha.
+Nível em negrito é nível que entrega decisão nova: uma Classe, um marco, um degrau de Caminho, uma entrega de Trilha. Os espaços de feitiço correm no ritmo próprio deles e por isso aparecem também em linha sem negrito. Nos níveis que ficaram de fora, o personagem cresce só em número.
 
-#### Como ler cada coluna
+### Como ler cada coluna
 
 - **XP** é o que custa **sair** daquele nível, e ele é o mesmo dentro de cada faixa de três níveis. Uma missão padrão paga 100. O nível 30 é o topo e não tem custo.
 - **maestria** é o bônus que entra no seu ataque de conjuração, na CD dos seus feitiços e nas perícias em que você é treinado.
@@ -158,7 +173,7 @@ Nível em negrito é nível que entrega decisão nova: uma Classe, um marco, um 
 - **Passiva** é a maior Classe de Passiva que já abriu para você.
 - **Classe 0** é quantos feitiços grátis você carrega, e eles ficam fora da conta de espaços.
 
-#### Quantos feitiços você ganha, e quando
+### Feitiços por nível
 
 > **Espaços de feitiço conhecido = `2 + (nível ÷ 2)`, arredondando para baixo. Mais um por marco já alcançado.**
 
@@ -168,7 +183,7 @@ A parte de baixo da conta dá um feitiço novo **a cada nível par**. A parte de
 
 Esse espaço do marco existe porque Passiva custa espaço de feitiço conhecido, e a Expansão de Domínio também. Sem ele, quem monta técnica funda chegava ao nível 20 com dois feitiços na lista.
 
-#### Vida e PE não têm coluna
+### Vida e PE
 
 As duas dependem do seu Caminho, e cabem em duas linhas:
 
@@ -176,7 +191,7 @@ As duas dependem do seu Caminho, e cabem em duas linhas:
 >
 > **PE:** o PE por nível do seu Caminho vezes o seu nível.
 
-## Os marcos
+## Marcos
 
 A cada quatro níveis o personagem chega a um **marco**: os níveis **6, 10, 14, 18, 22, 26 e 30**. São sete na campanha inteira, e o último cai exatamente no nível 30.
 
@@ -196,7 +211,10 @@ Marco é o nível em que a ficha muda de forma. Nos outros níveis a subida acon
 
 A escolha é do momento: você decide no marco, e nada obriga você a repetir a escolha anterior.
 
-#### O que cada uma compra
+### Rotas do marco
+
+**Rotas do marco**
+{: .tab-titulo }
 
 | escolha | o que entra na ficha | quando ela é boa |
 |---|---|---|
@@ -206,13 +224,16 @@ A escolha é do momento: você decide no marco, e nada obriga você a repetir a 
 
 Você começa a campanha com nove pontos de atributo distribuídos na criação. A linha de graça dos sete marcos leva isso a dezesseis, e quem escolhe **Corpo** nos sete chega a vinte e três, espalhados por até cinco atributos com teto de 6 em cada.
 
-As três não compram a mesma coisa, e é por isso que nenhuma precisa de trava. Refino não vale nada para quem não tem aptidão: quem escolhe Leque sete vezes tem zero aptidões, e o refino dele fica sendo número morto. Quem escolhe Refino sete vezes tem dez aptidões e nenhuma Passiva a mais para querer.
+As três não compram a mesma coisa, e nenhuma precisa de trava. Refino não vale nada para quem não tem aptidão: quem escolhe Leque sete vezes tem zero aptidões, e o refino dele fica sendo número morto. Quem escolhe Refino sete vezes tem dez aptidões e nenhuma Passiva a mais para querer.
 
 > **Quem nunca escolhe Refino termina a campanha com zero aptidões.** A rota é legítima e está escrita aqui para ninguém descobrir isso no nível 20. Mesmo essa ficha não fica sem nada: `Cobrir-se de energia` e `Canalizar energia` vêm de graça no refino 1, e a primeira continua crescendo com o refino da linha passiva até 8. O que ela nunca vai ter é `Energia Reversa` nem `Barreira Simples`.
 
-### O refino de cada rota, marco a marco
+### Refino por rota
 
 O refino começa em `1`, sobe `+1` de graça em cada um dos sete marcos, e a escolha do marco pode somar mais `+1` até o teto de `10`. Três rotas, e a sua provavelmente fica entre elas:
+
+**Refino por rota**
+{: .tab-titulo }
 
 | rota | nv 6 | nv 10 | nv 14 | nv 18 | nv 22 | nv 26 | nv 30 |
 |---|---|---|---|---|---|---|---|
@@ -226,7 +247,10 @@ O especialista bate no teto no **nível 22**, e é exatamente aí que a escolha 
 
 > **Guardar marco não guarda refino.** A linha de graça sobe sozinha, e ela não espera você decidir. Quem deixa para investir tarde chega aos níveis altos com o refino da linha de baixo e ainda precisa de mais um marco para alcançar o degrau que queria. Gate de refino se paga com tempo, e o tempo não volta.
 
-### A maestria sobe em três marcos
+### Maestria
+
+**Maestria por marco**
+{: .tab-titulo }
 
 | marco | nv 6 | nv 10 | nv 14 | nv 18 | nv 22 | nv 26 | nv 30 |
 |---|---|---|---|---|---|---|---|
@@ -237,6 +261,6 @@ Um marco sim, um não, começando pelo segundo. Nenhum marco fica vazio, e nenhu
 
 A maestria vai de 1 no nível 2 a 4 no nível 30, e o seu atributo principal vai de 3 na criação a 6 no teto. Os dois crescem `+3` na campanha inteira, e é esse empate que faz a chance de acertar e a chance de resistir não derivarem: o que sobe do seu lado sobe do lado de lá na mesma velocidade.
 
-### O teto de Passivas
+### Teto de Passivas
 
 Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda. Cada escolha de **Leque** abre uma vaga a mais no teto, e a Passiva que a própria escolha concede ocupa essa vaga nova. Uma rota pura de Leque termina com doze Passivas na ficha, e cinco delas continuam sendo as cinco pagas de sempre.

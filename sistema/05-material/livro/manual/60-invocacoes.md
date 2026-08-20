@@ -1,10 +1,10 @@
 # Invocações
 
-Uma invocação é um corpo que anda no campo por sua conta e obedece você: um shikigami, um talismã que vira bicho, uma maldição que você domou. Este capítulo é a máquina de montar a sua, gastando um orçamento de pontos numa mini ficha bem menor que a do seu personagem.
+Uma invocação é um corpo que anda no campo por sua conta e obedece você: um shikigami, um talismã que vira bicho, uma maldição que você domou. Ela se monta gastando um orçamento de pontos, numa mini ficha bem menor que a do seu personagem.
 
 Quem ganha o corpo é quem tem uma das três Trilhas do Evocador. **O que a Trilha concede não sai do orçamento**: ela entrega quantos corpos você tem e quanta vida cada um aguenta, e o orçamento desta página compra capacidade por cima disso. As três Trilhas estão no capítulo 8, *Caminhos e Trilhas*, com o número de cada uma. Nada na regra abaixo depende de ser Evocador, então ela vale igual no dia em que outra coisa der uma invocação a alguém.
 
-## A regra rápida do turno
+## Regra rápida do turno
 
 Comece por aqui. Isto é o que você precisa saber para jogar com uma invocação já montada; o resto do capítulo é para montá-la.
 
@@ -17,7 +17,7 @@ Não existe "a primeira do dia é grátis". **Fora de combate, ação não custa
 
 > **Exemplo.** O Kaito está no nível 10 e a maior Classe dele é `3`, então invocar custa `3` PE. Ele entra no prédio abandonado com a invocação já de pé, porque invocou no carro e ali a ação não custou nada. Na rodada 1 da luta ele gasta a Ação Padrão comandando: a invocação ataca. Ele ainda anda `9` metros e usa a Ação Bônus dele. Na rodada 2 ele decide bater ele mesmo, e nesse turno a invocação não faz nada, porque ninguém a comandou.
 
-### O que a mesa vê
+### Presença em campo
 
 Pôr uma invocação em campo põe um segundo boneco no mapa e um segundo bloco de anotação ao lado da sua ficha. Você descreve o corpo uma vez, no início, e daí em diante ele é presença: entra nas descrições do mestre, atrapalha caminho, ocupa a atenção dos inimigos e assusta o civil que abriu a porta errada. Quem está do outro lado passa a ter duas coisas para resolver, e uma delas anda sozinha.
 
@@ -25,9 +25,12 @@ O seu turno também muda de forma. Antes ele tinha uma pergunta; agora tem duas:
 
 Fora de combate a conta some e a invocação vira mão de obra. Ela entra no duto na frente do grupo, fica de vigia a noite inteira na única porta que ninguém quer atravessar, carrega o ferido até a rua, cava o que precisa ser cavado. Uma boa parte do valor de uma invocação nunca aparece numa rolagem de ataque.
 
-### O teto: você mais as suas invocações entregam uma Rotina
+### Teto
 
 **Rotina** é o dano que um personagem entrega numa rodada comum, sem gastar recurso guardado — a saída de um turno normal, sem Liberação Máxima e sem Técnica Máxima.
+
+**Teto de Rotina**
+{: .tab-titulo }
 
 | Seu nível | 1 a 4 | 5 a 8 | 9 a 12 | 13 a 16 | 17 a 20 | 21 a 25 | 26 a 30 |
 |---|---|---|---|---|---|---|---|
@@ -42,20 +45,23 @@ A conta se fecha sozinha na mesa: comandar custa a sua Ação Padrão, então nu
 
 A Trilha `Coro` é a única exceção, e ela ataca e comanda na mesma rodada. O texto dela está no capítulo 8, *Caminhos e Trilhas*.
 
-## A ficha da invocação
+## Ficha da invocação
 
 A ficha dela é derivada da sua: cada linha ou copia um número seu, ou sai de uma fórmula. Você não rola atributo nem escolhe Caminho para ela.
 
-### As duas metades da ficha
+### Metades da ficha
 
 > **Linha que encara dado** (acerto, Defesa, Teste de Resistência) **= o seu número**, com um deslocamento fixo por cima.
 > **Linha fora de dado** (vida, movimento) **= fórmula própria, com o atributo dela dentro.**
 
 A invocação tem atributos, e eles valem nas linhas de fora do dado: a Constituição dela entra na vida, e a Força e a Destreza dela entram como deslocamento. Os três deslocam o número uma vez e param por aí. Nenhum deles faz a invocação crescer mais rápido que você ao longo da campanha.
 
-### O deslocamento só desce, e descer devolve ponto
+### Deslocamento
 
 > **A invocação começa no seu número e só pode descer.**
+
+**Deslocamento**
+{: .tab-titulo }
 
 | a ficha faz | custa ou devolve |
 |---|---|
@@ -66,11 +72,14 @@ A invocação tem atributos, e eles valem nas linhas de fora do dado: a Constitu
 
 Vender número é a única moeda extra que existe. É por isso que uma invocação de utilidade pura, que quase nunca vai rolar acerto, pode virar duas capacidades a mais. Um corpo montado para farejar, entrar em vão e voltar com a informação paga a própria capacidade com o acerto que ele nunca ia usar.
 
-### Os quatro tipos, e a vida
+### Tipos e vida
 
 Toda invocação é de um dos quatro tipos, e o tipo é o que decide a base da vida dela.
 
 > **`vida = base do tipo + (2 + a Constituição dela) × o seu nível`**
+
+**Tipos e vida**
+{: .tab-titulo }
 
 | tipo | base | nível 2 | nível 10 | nível 18 | nível 30 |
 |---|---|---|---|---|---|
@@ -86,11 +95,14 @@ O tipo também decide o que a mesa vê chegar. Um `talismã` é papel que se des
 
 A vida de um corpo é o que o capítulo 8, *Caminhos e Trilhas*, chama de **`h`** quando escreve a vida que cada Trilha concede.
 
-### O orçamento
+### Orçamento
 
 O orçamento é o que você gasta comprando `Traço` e `Comando`. Ele cresce nos mesmos marcos que governam atributo, refino e feitiço.
 
 > **O orçamento é `8` no nível 2, e cada marco dá `+4`.**
+
+**Orçamento**
+{: .tab-titulo }
 
 | nível | marcos | orçamento | o que dá para montar |
 |---|---|---|---|
@@ -103,9 +115,12 @@ O orçamento é o que você gasta comprando `Traço` e `Comando`. Ele cresce nos
 
 O orçamento compra capacidade: três `Traço` não sobem o seu acerto nem o dano dela. O teto de uma Rotina já governa a saída.
 
-### Três coisas que o orçamento não compra a preço nenhum
+### Limites do orçamento
 
 Estas três não têm preço em ponto nenhum, e nenhum mestre pode inventar um.
+
+**Limites do orçamento**
+{: .tab-titulo }
 
 | não pode | por quê |
 |---|---|
@@ -115,7 +130,7 @@ Estas três não têm preço em ponto nenhum, e nenhum mestre pode inventar um.
 
 E nada do catálogo pode dar Defesa, acerto ou vida direto. Esses três já são a moeda do deslocamento, e comprá-los de novo por ponto seria pagar duas vezes pela mesma coisa.
 
-## O catálogo
+## Catálogo
 
 > **`Traço` é o que ela é.** Sempre ligado, sem gastar nada.
 > **`Comando` é o que ela faz** quando você gasta a Ação Padrão nela.
@@ -124,11 +139,14 @@ E nada do catálogo pode dar Defesa, acerto ou vida direto. Esses três já são
 
 São 19 entradas compráveis, mais o `Investir`, que custa `0` e toda invocação tem.
 
-#### Como ler as duas tabelas
+### Como ler as tabelas
 
 Cada linha diz quanto ela custa do orçamento, o nome que vai na ficha, e o efeito inteiro. Não há requisito em nenhuma delas, tirando a faixa mais longa do `Remoto`, que está adiante neste capítulo.
 
 ### `Traço`
+
+**Traço**
+{: .tab-titulo }
 
 | pontos | `Traço` | o que faz |
 |---|---|---|
@@ -152,6 +170,9 @@ Os três de percepção (`Fala`, `Faro`, `Vigia`) são os que mais decidem sess�
 
 ### `Comando`
 
+**Comando**
+{: .tab-titulo }
+
 | pontos | `Comando` | o que faz |
 |---|---|---|
 | **0** | `Investir` | o ataque. **Toda invocação tem**, e é ele que entrega a cota da Rotina |
@@ -166,9 +187,12 @@ Os três de percepção (`Fala`, `Faro`, `Vigia`) são os que mais decidem sess�
 
 Os dois de `8` pontos são os que mudam a matemática do grupo inteiro. `Interpor` é o que mantém de pé quem tem pouca vida, e `Chamariz` é o que tira o inimigo de cima de quem estava prestes a cair.
 
-### Criar o seu
+### Traço e Comando próprios
 
 Você pode escrever `Traço` e `Comando` que não estão nas listas acima, e o catálogo serve de régua para isso. Escreva o efeito, ache na tabela abaixo o degrau em que ele cai, e leve para o mestre. A palavra final é dele, sempre em cima de uma entrada escrita, nunca do zero.
+
+**Régua de `Traço`**
+{: .tab-titulo }
 
 | pontos | `Traço` cai aqui quando |
 |---|---|
@@ -177,6 +201,9 @@ Você pode escrever `Traço` e `Comando` que não estão nas listas acima, e o c
 | **5** | muda **o que ela percebe**, e o `Vigia` chega até você. `Faro`, `Vigia` |
 | **7** | muda **que espaço ela ocupa**, a um passo de mexer no tabuleiro. `Miúdo` |
 | **8** | **encosta em outra criatura ou no tabuleiro**: carrega, prende, empurra, barra, alcança além do alcance, aparece onde não dava. `Voo`, `Montaria`, `Fisgada`, `Emboscada`, `Jorro`, `Graúdo`, `Remoto` |
+
+**Régua de `Comando`**
+{: .tab-titulo }
 
 | pontos | `Comando` cai aqui quando |
 |---|---|
@@ -189,6 +216,9 @@ Você pode escrever `Traço` e `Comando` que não estão nas listas acima, e o c
 ### Montagens de exemplo
 
 Seis invocações conhecidas, montadas com o catálogo acima.
+
+**Montagens de exemplo**
+{: .tab-titulo }
 
 | invocação | montagem | pontos | cabe no nível |
 |---|---|---|---|
@@ -203,14 +233,17 @@ Três dos seis cabem já no nível 2, e os outros chegam nos marcos seguintes.
 
 > **Exemplo com a Trilha por cima.** A Mei escolhe a Trilha `Matilha` no nível 2, e é a Trilha que dá os cinco corpos dela: isso não custa nenhum ponto do orçamento. Com os `8` pontos que ela tem, ela compra `Miúdo` por `7`, e os cinco corpos passam por vãos que ninguém mais passa. Sobra `1` ponto, que não compra nada ainda e fica guardado até o nível 6.
 
-## A amarra, e as três faixas de alcance
+## Amarra e alcance
 
 > **A invocação tem de ficar a até 18 metros de você.**
 > Além disso ela **não pode ser comandada**: fica onde está, sem agir, até voltar ao alcance. Ela **não some**.
 
-Os 18 metros são o alcance base de Projétil, o mesmo número que o resto do manual usa como referência de distância. Na prática, a invocação anda até dois turnos de movimento à frente de você.
+Os 18 metros são o alcance base de Projétil, a referência de distância do sistema. Na prática, a invocação anda até dois turnos de movimento à frente de você.
 
 Se ela sumisse ao passar da amarra, o inimigo que a empurrasse para longe estaria apagando de graça o que você pagou em PE e em ação. Ficar parada custa a rodada e devolve o corpo.
+
+**Faixas de alcance**
+{: .tab-titulo }
 
 | faixa | o que é | quem alcança |
 |---|---|---|
@@ -222,7 +255,7 @@ Se ela sumisse ao passar da amarra, o inimigo que a empurrasse para longe estari
 
 > **O `Remoto` é a única entrada do catálogo inteiro com requisito, e ele vale só para a faixa de fora da cena.** Operar uma invocação a essa distância exige Restrição Celestial pelo ramo do corpo limitado, e uma técnica voltada a isso. Dentro da cena o `Remoto` funciona para qualquer um que pague os 8 pontos.
 
-## Quando ela cai, e quando ela morre de vez
+## Queda e morte
 
 A máquina de cair morrendo do capítulo 1, *Como Jogar*, não vale aqui.
 
@@ -248,10 +281,10 @@ Você paga os PE de novo, paga a Ação Padrão de novo, e o corpo que volta cai
 
 > **Exemplo.** O Kaito, nível 10, tem uma invocação de `técnica` com Constituição `1`, então a vida máxima dela é `2 + (2 + 1) × 10 = 32`. Ela está com `4` de vida e leva um golpe de `18`. O excedente é `14`, que não passa de `16`, que é metade de `32`; e `18` não é `32`. Ela some, mas não morreu de vez: no turno seguinte ele gasta `3` PE e a Ação Padrão, e ela volta com `16`.
 
-## O que ainda está sendo escrito
+## Em aberto
 
 Duas coisas vão aparecer na sua mesa antes de ganharem regra.
 
-**Invocação que não obedece.** Todo este capítulo supõe que ela obedece: você gasta a Ação Padrão e ela faz. Existem invocações na ficção que agem por conta própria, contra a vontade de quem as carrega, e elas não têm regra escrita ainda. Se a sua mesa quiser uma dessas, é acordo com o mestre.
+**Invocação que não obedece.** A regra supõe que ela obedece: você gasta a Ação Padrão e ela faz. Existem invocações na ficção que agem por conta própria, contra a vontade de quem as carrega, e elas não têm regra escrita ainda. Se a sua mesa quiser uma dessas, é acordo com o mestre.
 
 **Selar com talismã.** O talismã do material sela objeto amaldiçoado, e o alvo dela é o objeto amaldiçoado do capítulo 12, *Ferramenta Amaldiçoada*, que ainda não tem regra de selamento escrita. Por enquanto o `talismã` é um tipo de invocação como os outros três, com a vida dele, e selar não é uma entrada do catálogo.

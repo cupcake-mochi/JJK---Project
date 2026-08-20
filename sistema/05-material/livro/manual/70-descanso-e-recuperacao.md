@@ -8,7 +8,7 @@ O combustível volta em dois momentos, e os dois são de ficção.
 
 Não existe contagem de horas em lugar nenhum deste capítulo. O gatilho é o que aconteceu na história, e é isso que faz dois mestres diferentes chamarem o mesmo momento de descanso.
 
-## A cena
+## Cena
 
 `Por cena` é o relógio mais usado do manual, então a palavra precisa de definição própria.
 
@@ -34,15 +34,18 @@ Contam como propício:
 
 Quando der para declarar isso na abertura da missão, declare: vira informação tática, e o grupo planeja em cima dela em vez de descobrir na hora.
 
-## O que cada descanso devolve
+## Recuperação
 
 O PE é o que você tem para a missão inteira. Só o descanso longo devolve tudo.
 
-#### PE
+### PE
 
 Os pontos de energia amaldiçoada que você gasta para conjurar.
 
 ### Descanso curto
+
+**Descanso curto**
+{: .tab-titulo }
 
 | | devolve |
 |---|---|
@@ -55,6 +58,9 @@ Os 25% valem em qualquer lugar. O que o ambiente propício faz é **proteger ess
 Vida não volta sozinha no respiro entre lutas, porque quem conserta gente neste mundo é a Energia Reversa. O que já cura no descanso curto, como a Passiva `Reversão`, continua valendo o que vale.
 
 ### Descanso longo
+
+**Descanso longo**
+{: .tab-titulo }
 
 | | em ambiente propício | fora dele |
 |---|---|---|
@@ -71,7 +77,7 @@ A Integridade volta inteira em qualquer lugar. É a única coisa que o ambiente 
 
 > **Arredonde para baixo, e o que você recupera nunca fica abaixo de 1.**
 
-O piso de 1 não desfaz um zero escrito. Quando a tabela do degrau 3 diz que você recupera **nada**, ela diz nada: o piso existe para a conta que deu 0,4.
+O piso de 1 não desfaz um zero escrito. Quando a tabela `Degraus de Exaustão` diz que no degrau 3 você recupera **nada**, ela diz nada: o piso existe para a conta que deu 0,4.
 
 ## Exaustão
 
@@ -79,7 +85,7 @@ O piso de 1 não desfaz um zero escrito. Quando a tabela do degrau 3 diz que voc
 
 As três primeiras lutas do dia são de graça.
 
-### O que conta como uma luta
+### Contagem de luta
 
 > **Quem conta é o mestre, e ele conta como em qualquer mesa: foi uma luta se pareceu uma luta.**
 
@@ -93,7 +99,10 @@ Costumam contar:
 
 Costumam não contar: a maldição de nível baixo que morre no primeiro golpe, o treino, a discussão que não virou porrada.
 
-### Os três degraus
+### Degraus
+
+**Degraus de Exaustão**
+{: .tab-titulo }
 
 | degrau | o que pega | quanto o descanso curto devolve, fora de ambiente propício |
 |---|---|---|
@@ -112,6 +121,9 @@ A ordem dos degraus tem lógica: o primeiro pega o que você faz fora de combate
 
 As duas escadas se parecem muito, e é comum estar nas duas.
 
+**Exaustão e Integridade**
+{: .tab-titulo }
+
 | | exaustão | Integridade |
 |---|---|---|
 | **degrau 1** | desvantagem em perícia e ofício | desvantagem em testes de perícia |
@@ -122,7 +134,7 @@ As duas escadas se parecem muito, e é comum estar nas duas.
 
 Desvantagem não empilha com desvantagem, e dois cortes de deslocamento não se multiplicam. O que só uma das duas tem continua valendo normalmente: o +1 PE por Classe e o teto de Classe são da Integridade e não competem com nada do lado da exaustão.
 
-### O teto de três, e a válvula do mestre
+### Teto
 
 A exaustão para no terceiro degrau. Uma missão de campo de três dias com quatro lutas por dia acumula três degraus e trava ali: o grupo fica pior, sabe **quanto** pior, e escolhe se continua.
 
@@ -130,7 +142,10 @@ A exaustão para no terceiro degrau. Uma missão de campo de três dias com quat
 
 A válvula só anda para um lado. O mestre nunca adiciona degrau fora da regra.
 
-## Os quatro relógios
+## Relógios
+
+**Relógios**
+{: .tab-titulo }
 
 | relógio | recarrega quando | frequência |
 |---|---|---|
@@ -143,7 +158,7 @@ A válvula só anda para um lado. O mestre nunca adiciona degrau fora da regra.
 
 Ninguém precisa decorar a escada. Ela existe para quando alguém perguntar *"isso volta antes ou depois daquilo?"*.
 
-## Um dia de missão, do começo ao fim
+## Exemplo
 
 > **A Kaori** — Bastião de nível 2, Constituição 2. Vida 23, PE 8.
 >
