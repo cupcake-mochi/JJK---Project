@@ -26,6 +26,8 @@ CONTAGEM = re.compile(
     re.I,
 )
 VERBO = re.compile(
+    # depois de "de/da/do" a palavra é substantivo: "ritmo de entrega", "linha de conta"
+    r"(?<!\bde )(?<!\bda )(?<!\bdo )"
     r"\b(é|são|tem|têm|dá|dão|faz|fazem|cabe|muda|custa|vale|vem|vai|pode|fica|"
     r"cai|sobe|desce|volta|entrega|devolve|compra|cobre|mexe|existe|precisa|aparece|"
     r"chega|nasce|morre|passa|serve|conta|come|acumula|rola|carrega|escreve|cresce|"

@@ -12,7 +12,7 @@ Existem duas classes de uniforme, e você usa uma ou outra: **Traje**, que é a 
 
 Feiticeiro trabalha em prédio de escritório, em escola, em estação de metrô, quase sempre com civil por perto e sem tempo de esvaziar o andar. O guarda-roupa sai daí. Escolher entre as duas classes é escolher em que tipo de missão você quer estar confortável.
 
-#### Como ler as tabelas de proteção
+### Como ler as tabelas de proteção
 
 Os três campos aparecem sempre na mesma ordem.
 
@@ -26,6 +26,9 @@ Se você estiver usando duas coisas com teto de Destreza diferente, vale o menor
 
 A classe leve. Nenhum degrau trava a sua Destreza, e só o de cima pede Força.
 
+**Traje**
+{: .tab-titulo }
+
 | degrau | proteção | teto de Destreza | requer Força |
 |---|---|---|---|
 | 1 | 1 | — | — |
@@ -36,7 +39,7 @@ Quem fabrica é o ofício **Alfaiate**. Quem não tem o ofício encomenda de que
 
 Traje é roupa cortada para um corpo só. Alguém tirou as suas medidas, ouviu o que você faz em campo e costurou em cima disso: reforço onde você costuma levar golpe, folga onde você precisa dobrar. De fora ele passa por uniforme escolar, por terno, por jaqueta de trabalho. É o que você veste quando a missão começa no meio de gente que não pode saber o que está acontecendo, e é o que deixa você continuar de pé numa cena de conversa, de infiltração ou de fuga por telhado.
 
-#### A situação do Traje
+#### Situação do Traje
 
 O Traje é feito sob medida para você, e é aí que mora o benefício dele.
 
@@ -45,6 +48,9 @@ O Traje é feito sob medida para você, e é aí que mora o benefício dele.
 Na prática, você está dizendo ao alfaiate onde costuma se meter. Um traje curto e sem aba para quem vive em vão de ventilação, sola aderente para quem trabalha em beirada, tecido tratado para quem entra em incêndio.
 
 A lista é fechada e vale igual em toda mesa:
+
+**Situação do Traje**
+{: .tab-titulo }
 
 | situação |
 |---|
@@ -69,6 +75,9 @@ E existe uma vaga aberta: você pode inventar a sua, desde que ela passe nos tr�
 
 A classe pesada. Todo degrau trava a sua Destreza em 0 na Defesa, e todo degrau pede Força.
 
+**Revestimento**
+{: .tab-titulo }
+
 | degrau | proteção | teto de Destreza | requer Força |
 |---|---|---|---|
 | 1 | 4 | 0 | 3 |
@@ -87,6 +96,9 @@ A Reação de cobrir-se continua disponível de uniforme. Ninguém tira o colete
 
 Três degraus. O escudo ocupa uma mão, soma com a sua proteção venha ela de onde vier, e cobra teto de Destreza.
 
+**Escudo**
+{: .tab-titulo }
+
 | degrau | nome | proteção | teto de Destreza | requer Força |
 |---|---|---|---|---|
 | 1 | **Broquel** | 1 | 5 | — |
@@ -97,7 +109,10 @@ O Broquel é de punho, entre 15 e 45 cm: por isso ele quase não come Destreza e
 
 Fora da rolagem de Defesa, escudo é a peça que decide cena de corredor: com uma Torre plantada no vão de porta, o resto do grupo trabalha atrás de você e a maldição precisa achar outro caminho.
 
-#### Qual degrau pegar
+### Escolha do degrau
+
+**Escolha do degrau**
+{: .tab-titulo }
 
 | a sua Destreza | o degrau que rende mais |
 |---|---|
@@ -115,7 +130,7 @@ São 52, divididas em treze categorias. A categoria diz o que a coisa é, de ond
 
 Nenhuma arma deste catálogo fere maldição sozinha. Contra maldição, o que resolve é energia amaldiçoada no golpe ou uma ferramenta amaldiçoada na mão, que é uma arma daqui mais um `Estigma` e tem capítulo próprio. O catálogo abaixo continua valendo inteiro contra gente, contra bicho e contra parede.
 
-#### Como ler uma arma
+### Como ler uma arma
 
 Toda tabela do catálogo tem as mesmas cinco colunas, nesta ordem:
 
@@ -127,9 +142,12 @@ Toda tabela do catálogo tem as mesmas cinco colunas, nesta ordem:
 - **propriedades** — o que a arma faz de diferente das outras. As restrições aparecem nessa mesma lista.
 - **requer Força** — a Força mínima para empunhar. `—` quer dizer que não pede nada.
 
-#### As propriedades
+### Propriedades
 
 São doze. Propriedade é o que a arma é: ela já está impressa na linha do catálogo, e você nunca escolhe uma na hora de atacar.
+
+**Propriedades**
+{: .tab-titulo }
 
 | propriedade | o que faz |
 |---|---|
@@ -150,9 +168,12 @@ São doze. Propriedade é o que a arma é: ela já está impressa na linha do ca
 
 Três delas decidem cena fora de combate com frequência. `Oculta` é a que deixa você entrar armado numa reunião, num velório ou numa portaria com detector. `Rompe` é a que abre cadeado, grade, alçapão e tampa de bueiro sem esperar ninguém. `Vestida` é a que responde quando alguém manda você largar tudo o que está na mão.
 
-#### As restrições
+### Restrições
 
 Restrição é defeito de verdade. Ela aparece na mesma coluna das propriedades.
+
+**Restrições**
+{: .tab-titulo }
 
 | restrição | o que é |
 |---|---|
@@ -162,11 +183,11 @@ Restrição é defeito de verdade. Ela aparece na mesma coluna das propriedades.
 
 Nenhuma das 52 usa a `Comprida` hoje.
 
-#### Alcance no corpo a corpo
+### Alcance no corpo a corpo
 
 O padrão de qualquer arma de mão é **1,5 m**. As Armas Longas chegam a **3 m**.
 
-#### Faixa de projétil
+### Faixa de projétil
 
 > **Toda arma de projétil tem duas faixas.**
 >
@@ -178,7 +199,8 @@ O padrão de qualquer arma de mão é **1,5 m**. As Armas Longas chegam a **3 m*
 
 > **Exemplo.** Você está com a Pistola e o alvo está a 20 metros. A faixa normal dela é 9 m e a longa vai até 27 m: você alcança, e rola com desvantagem. Se um inimigo estiver colado em você na hora do tiro, a desvantagem vale do mesmo jeito, mesmo que o alvo esteja a 5 metros.
 
-**As armas de tiro:**
+**Armas de tiro**
+{: .tab-titulo }
 
 | arma | faixa normal | faixa longa |
 |---|---|---|
@@ -194,17 +216,20 @@ O padrão de qualquer arma de mão é **1,5 m**. As Armas Longas chegam a **3 m*
 | Rifle de Precisão | 24 m | 72 m |
 | Metralhadora Pesada | 24 m | 72 m |
 
-**As armas de arremesso**, todas na mesma faixa:
+**Armas de arremesso**
+{: .tab-titulo }
 
 | armas | faixa normal | faixa longa |
 |---|---|---|
 | Punhal · Machadinha · Lança · Kunai · Shuriken · Tessen · Chakram · Kusarigama | 6 m | 18 m |
 
-Uma faixa só para as oito, para ninguém precisar guardar oito números na mesa.
 
-#### Munição
+### Munição
 
 > **Recarregar é Ação Bônus.** Você recarrega quando tirar **1 ou 2 natural** no ataque, **ou** depois de **X** ataques, o que vier primeiro. O X é da arma.
+
+**Munição**
+{: .tab-titulo }
 
 | X | armas |
 |---|---|
@@ -219,6 +244,9 @@ O `Yumi` não carrega `Munição`. Flecha existe na ficção, e uma flecha se en
 ## Treino de arma
 
 > **Treino mora na categoria.** Treinar uma categoria libera todas as armas dela. São treze categorias em três listas.
+
+**Treino de arma**
+{: .tab-titulo }
 
 | lista | categorias | armas |
 |---|---|---|
@@ -248,11 +276,14 @@ Três coisas que essa frase decide, e vale ler as três:
 
 O requisito e o treino são gates diferentes e não se substituem. Um olha o seu corpo, o outro olha o que você aprendeu. Um Emanador com Força 6 passa no primeiro e para no segundo.
 
-## O catálogo
+## Catálogo
 
 Este catálogo é para consultar. Ache a arma pelo nome no primeiro índice, ou pelo que você quer que ela faça no segundo.
 
-#### Índice A–Z
+### Índice A–Z
+
+**Índice A–Z**
+{: .tab-titulo }
 
 | arma | categoria | treino |
 |---|---|---|
@@ -309,7 +340,10 @@ Este catálogo é para consultar. Ache a arma pelo nome no primeiro índice, ou 
 | Wakizashi | Lâmina Longa | marcial |
 | Yari | Armas Longas | marcial |
 
-#### Índice por propriedade
+### Índice por propriedade
+
+**Índice por propriedade**
+{: .tab-titulo }
 
 | propriedade | armas |
 |---|---|
@@ -334,6 +368,9 @@ Treino simples. Todas carregam `Fineza`, então o dano delas sai de Destreza.
 
 Lâmina curta é briga de distância zero. Você entra por dentro da guarda, encosta e corta, e o que decide o golpe é leitura de corpo e mão rápida. É também a categoria que passa por qualquer lugar sem levantar pergunta: uma faca cabe no bolso do casaco e continua lá durante a entrevista inteira.
 
+**Lâmina Curta**
+{: .tab-titulo }
+
 | arma | mão | dado | propriedades | requer Força |
 |---|---|---|---|---|
 | Tanto | 1 | **d6** | `Fineza` · `Oculta` | — |
@@ -347,6 +384,9 @@ Lâmina curta é briga de distância zero. Você entra por dentro da guarda, enc
 Treino marcial. O dano sai de Força, ou de Destreza nas duas que carregam `Fineza`.
 
 Lâmina longa se luta com o corpo inteiro: o pé escolhe a distância, o quadril faz o corte, e o braço só entrega. As de uma mão deixam a outra livre para escudo, para segurar alguém ou para fechar um selo. As de duas trocam essa mão por alcance e por dado grande, e quem empunha uma delas está declarando que não pretende se esconder de ninguém.
+
+**Lâmina Longa**
+{: .tab-titulo }
 
 | arma | mão | dado | propriedades | requer Força |
 |---|---|---|---|---|
@@ -367,6 +407,9 @@ Treino simples. O dano sai de Força.
 
 Massa fere com peso chegando rápido, e peso não perde o fio. É a arma que continua funcionando depois de uma noite inteira batendo em concreto, e a que menos se importa com o que o alvo vestiu por cima.
 
+**Massa**
+{: .tab-titulo }
+
 | arma | mão | dado | propriedades | requer Força |
 |---|---|---|---|---|
 | Maça | 1 | **d8** | `Talha` | — |
@@ -380,6 +423,9 @@ Massa fere com peso chegando rápido, e peso não perde o fio. É a arma que con
 Treino simples. O dano sai de Força.
 
 Porrete é madeira e controle. Você acerta, empurra, prende, afasta e a cena continua com todo mundo vivo. É a categoria de quem trabalha perto de civil e precisa poder errar o alvo sem abrir um buraco na parede.
+
+**Porrete**
+{: .tab-titulo }
 
 | arma | mão | dado | propriedades | requer Força |
 |---|---|---|---|---|
@@ -395,6 +441,9 @@ Treino simples. O dano sai de Força.
 
 Manopla é o soco com uma peça de metal por cima. Ela vai vestida: você chega de mãos vazias em qualquer portaria e continua armado do outro lado. Quem luta assim briga colado, e usa o corpo inteiro como parte da arma.
 
+**Manopla**
+{: .tab-titulo }
+
 | arma | mão | dado | propriedades | requer Força |
 |---|---|---|---|---|
 | Soqueira | 1 | **d4** | `Vestida` · `Oculta` · `Par` | — |
@@ -407,6 +456,9 @@ O Tekko é a soqueira japonesa: mesma linha da Soqueira, mesmo gasto, mesma regr
 Treino marcial. O dano sai de Força.
 
 Machado concentra o peso na ponta e cobra o gesto inteiro: quem erra fica aberto por um instante. Em compensação, o que ele acerta ele abre, e isso vale para porta trancada, grade e assoalho tanto quanto para o que estiver do outro lado.
+
+**Machado**
+{: .tab-titulo }
 
 | arma | mão | dado | propriedades | requer Força |
 |---|---|---|---|---|
@@ -422,6 +474,9 @@ Treino simples. O dano sai de Força.
 
 Ceifa puxa. A curva da lâmina engancha braço, perna, cano de andaime e o cabo da arma do outro, e o golpe costuma terminar com o alvo mais perto de você do que ele gostaria. É a categoria de quem prefere escolher onde o inimigo vai estar.
 
+**Ceifa**
+{: .tab-titulo }
+
 | arma | mão | dado | propriedades | requer Força |
 |---|---|---|---|---|
 | Foice | 2 | **d10** | `Emaranha` · `Talha` | 3 |
@@ -433,6 +488,9 @@ Ceifa puxa. A curva da lâmina engancha braço, perna, cano de andaime e o cabo 
 Treino marcial. O dano sai de Força. É a única categoria em que o `Alcance` chega a 3 m.
 
 Arma longa serve para decidir a distância. Você mantém a coisa a três metros e ela gasta o turno inteiro só para chegar ao ponto onde a luta começaria. Em corredor e em vão de porta, uma lança sozinha segura uma passagem enquanto o resto do grupo faz o trabalho.
+
+**Armas Longas**
+{: .tab-titulo }
 
 | arma | mão | dado | propriedades | requer Força |
 |---|---|---|---|---|
@@ -446,6 +504,9 @@ Treino marcial. O dano sai de Força.
 
 Corrente e chicote fazem curva. O golpe contorna guarda, escudo e quina de parede, e ninguém aprende a ler a trajetória numa luta só. O dado é pequeno em todas as três: o que a categoria entrega é alcance e `Emaranha`.
 
+**Flexível**
+{: .tab-titulo }
+
 | arma | mão | dado | propriedades | requer Força |
 |---|---|---|---|---|
 | Corrente | 2 | **d8** | `Alcance` · `Emaranha` · `Rompe` | — |
@@ -457,6 +518,9 @@ Corrente e chicote fazem curva. O golpe contorna guarda, escudo e quina de pared
 Treino simples. O dano sai de Força: o arremesso sai do corpo.
 
 Arremesso resolve seis metros na hora, sem trocar de arma e sem sair da briga de perto. Todas as quatro escondem, e todas cabem numa cena em que você precisa acertar alguma coisa do outro lado da sala antes que ela termine de se virar.
+
+**Arremesso**
+{: .tab-titulo }
 
 | arma | mão | dado | propriedades | requer Força |
 |---|---|---|---|---|
@@ -471,6 +535,9 @@ Treino marcial. O dano sai de Destreza: o arco se puxa, e puxar é coisa do corp
 
 Yumi é o arco japonês, assimétrico e alto, puxado até passar da orelha. Atirar com ele é postura e respiração antes de ser mira. O disparo sai calado, e é isso que faz um arco resolver um vigia no fim do corredor sem acordar os outros três.
 
+**Yumi**
+{: .tab-titulo }
+
 | arma | mão | dado | propriedades | requer Força |
 |---|---|---|---|---|
 | Hankyū *(arco curto)* | 2 | **1d8** | `Longo Alcance` · `Oculta` | — |
@@ -484,6 +551,9 @@ Treino simples. **Não soma atributo nenhum**: a energia já está armazenada na
 
 A besta guarda a força por você. Quem atira aponta e solta, e por isso ela é a arma que qualquer um do grupo pega emprestada e usa igual. O preço vem depois do disparo, na hora de armar de novo.
 
+**Balestra**
+{: .tab-titulo }
+
 | arma | mão | dado | propriedades | requer Força |
 |---|---|---|---|---|
 | Besta de Uma Mão | 1 | **1d10** | `Longo Alcance` · `Munição` · `Oculta` | — |
@@ -494,6 +564,9 @@ A besta guarda a força por você. Quem atira aponta e solta, e por isso ela é 
 Lista de treino própria, sozinha. **Não soma atributo nenhum**, pelo mesmo motivo da Balestra.
 
 Arma de fogo resolve distância e barulho no mesmo gesto. Ela cobra treino próprio e devolve o tiro mais rápido do catálogo, com o custo de que a cena discreta acaba no primeiro disparo: a partir dali existe polícia, existe testemunha e existe relatório para alguém escrever depois.
+
+**Arma de Fogo**
+{: .tab-titulo }
 
 | arma | mão | dado | propriedades | requer Força |
 |---|---|---|---|---|
@@ -507,7 +580,7 @@ Arma de fogo resolve distância e barulho no mesmo gesto. Ela cobra treino próp
 
 Pistola e Revólver têm a mesma linha de regra. A diferença entre os dois está na faixa: a Pistola vai a 9 m, o Revólver a 12 m.
 
-## O soco
+## Soco
 
 O punho vazio não é uma das 52. Ele não entra no catálogo, não tem categoria e não entra na divisão simples/marcial.
 

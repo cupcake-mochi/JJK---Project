@@ -2,13 +2,14 @@
 
 O Caminho é o seu lugar na equipe, e você escolhe ele na criação. A Trilha diz quem você é dentro do Caminho, e ela nasce junto com ele, no nível 2. São cinco Caminhos, três Trilhas em cada um.
 
-O Caminho é o jeito que o seu treino pegou: a resposta que o seu corpo dá quando a sala fica perigosa. É também o que entra no relatório da missão quando alguém pergunta o que cada um estava fazendo lá dentro. Quem segurou a porta, quem cortou, quem manteve o time de pé, quem despejou técnica, quem trouxe corpo emprestado. Dois feiticeiros com a mesma técnica e Caminhos diferentes jogam campanhas diferentes.
-
-Este capítulo é de consulta. Leia inteiro o Caminho que você escolheu e a Trilha dentro dele; o resto você abre quando precisar.
+O Caminho é o jeito que o seu treino pegou: a resposta que o seu corpo dá quando a sala fica perigosa. É também o que entra no relatório da missão quando alguém pergunta o que cada um estava fazendo lá dentro. Quem segurou a porta, quem cortou, quem manteve o time de pé, quem despejou técnica, quem trouxe corpo emprestado.
 
 ## Como ler um Caminho
 
-Cada Caminho entrega quatro degraus, e eles chegam sempre nos mesmos níveis. A Trilha entrega outras quatro coisas, em níveis diferentes, de propósito: você ganha alguma coisa em quase todo marco da campanha.
+Cada Caminho entrega quatro degraus, e eles chegam sempre nos mesmos níveis. A Trilha entrega outras quatro coisas, em níveis diferentes: você ganha alguma coisa em quase todo marco da campanha.
+
+**Entregas por nível**
+{: .tab-titulo }
 
 | Nível | O que chega |
 |---|---|
@@ -24,9 +25,12 @@ Cada Caminho entrega quatro degraus, e eles chegam sempre nos mesmos níveis. A 
 
 **Sem multiclasse.** Um Caminho por personagem.
 
-#### Vida e energia
+### Vida e energia
 
 Cada Caminho tem o próprio número de vida por nível e o próprio número de PE por nível, e os dois correm em sentidos contrários: quem tem mais couro tem menos combustível.
+
+**Vida e energia por Caminho**
+{: .tab-titulo }
 
 | | Bastião | Vanguarda | Guia | Evocador | Emanador |
 |---|---|---|---|---|---|
@@ -35,7 +39,7 @@ Cada Caminho tem o próprio número de vida por nível e o próprio número de P
 
 > **O seu PE máximo é o número da tabela vezes o seu nível.** Nenhum atributo entra nessa conta, e não existe valor inicial somado por cima.
 
-#### As palavras que este capítulo usa o tempo todo
+### Termos dos degraus
 
 **PE** são pontos de energia, o combustível que paga feitiço. **Maestria** é o número que cresce com o seu nível: `1` no nível 2 e `4` no 30. **Classe** é o tamanho de um feitiço, de `Classe 0` até `Classe 7`. **Vantagem** é jogar dois dados e ficar com o melhor.
 
@@ -45,7 +49,7 @@ E duas coisas que quase todo degrau daqui menciona:
 > **Golpe simples** — arma mais Força. É o que você faz quando não canaliza.
 > **Um feitiço de Toque por turno.** Ataque extra é sempre golpe simples.
 
-#### Treino de arma
+### Treino de arma
 
 **O seu Caminho decide quais armas você pode empunhar.** Treino mora na categoria: treinar uma categoria libera todas as armas dela, e o catálogo inteiro está no capítulo 11, *Equipamento*.
 
@@ -53,15 +57,18 @@ E duas coisas que quase todo degrau daqui menciona:
 >
 > **Os três Caminhos conjuradores — Guia, Emanador e Evocador — treinam Arma de Fogo e Balestra**, que são as duas que se aponta e dispara sem anos de forma.
 
-**Para um conjurador empunhar o resto, a porta é a Trilha.** É o que faz a `Empunhadura` do `Arremate`, no nível 2: ela concede um grupo de arma à sua escolha e ainda troca Força por Inteligência ou Essência naquele grupo. Um Emanador de espadão existe, e ele paga por isso com a escolha de Trilha em vez de ganhar de graça.
+**Para um conjurador empunhar o resto, a porta é a Trilha.** É o que faz a `Empunhadura` do `Arremate`, no nível 2: ela concede um grupo de arma à sua escolha e ainda troca Força por Inteligência ou Essência naquele grupo. Um Emanador de espadão existe, e paga por isso com a escolha de Trilha.
 
 > **Sem treino, você não empunha.** A regra de penalidade para quem pega assim mesmo está sendo escrita.
 
-#### O que um Caminho nunca dá
+### Limites
 
 > **O Caminho mexe em quando, onde e em quem o seu poder acontece.** O tamanho dele é assunto da sua técnica. Nenhum Caminho dá dado de dano, sobe a Classe dos seus feitiços, dá Melhoria de graça, cura, ou desconto de dano em tudo. **Cura é Forma de feitiço**: quem fechou a Família Amparo nunca vai curar, e Caminho nenhum contorna isso.
 
-#### As quinze Trilhas
+### Trilhas
+
+**Trilhas**
+{: .tab-titulo }
 
 | Trilha | Caminho | Em uma linha |
 |---|---|---|
@@ -93,7 +100,10 @@ Numa luta, o turno do Bastião decide onde a briga acontece e quem apanha nela. 
 
 Atributos naturais: **Força** e **Constituição**. É o único Caminho com 7 de vida por nível, e paga isso com o bolso de PE mais apertado dos cinco: o Bastião conjura pouco, e cada feitiço dele pesa na conta do dia.
 
-#### O que o Bastião dá
+### Características do Bastião
+
+**Características do Bastião**
+{: .tab-titulo }
 
 | | |
 |---|---|
@@ -108,7 +118,7 @@ Atributos naturais: **Força** e **Constituição**. É o único Caminho com 7 d
 
 *Perícia, ofício e Teste de Resistência entram na ficha uma vez, na criação. O quadro completo das vinte e três perícias e dos onze ofícios está no capítulo 3, __Perícias e Ofícios__.*
 
-### Os degraus do Bastião
+### Degraus do Bastião
 
 > **Nível 2: `Corpo Duro`.** *Reação.* Ao ser atingido, você reduz o dano em **o seu nível + 1d6**. Isso é o `Absorver`.
 > **Você tem usos iguais à sua Constituição, e eles voltam no descanso longo.**
@@ -192,7 +202,10 @@ Numa luta, o turno da Vanguarda é o mais direto dos cinco. Ela chega e bate, to
 
 Atributos naturais: **Destreza** e **Força**. A Vanguarda alterna feitiço de Toque e golpe simples ao longo da luta, e é o Caminho com o número mais estável de dano por rodada.
 
-#### O que a Vanguarda dá
+### Características da Vanguarda
+
+**Características da Vanguarda**
+{: .tab-titulo }
 
 | | |
 |---|---|
@@ -207,7 +220,7 @@ Atributos naturais: **Destreza** e **Força**. A Vanguarda alterna feitiço de T
 
 *Perícia, ofício e Teste de Resistência entram na ficha uma vez, na criação. O quadro completo das vinte e três perícias e dos onze ofícios está no capítulo 3, __Perícias e Ofícios__.*
 
-### Os degraus da Vanguarda
+### Degraus da Vanguarda
 
 > **Nível 2: `Escola de Arma`.** **Escolha uma das treze categorias de arma.** Com armas daquela categoria você usa a **Manha** dela. *As treze estão na seção seguinte.*
 >
@@ -222,13 +235,16 @@ Atributos naturais: **Destreza** e **Força**. A Vanguarda alterna feitiço de T
 
 *O `Não Acabou` vive contra turba: um capanga de nível alto não cai num golpe simples, e um de nível baixo cai. É a regra de abrir caminho no meio de muita gente.*
 
-### As Manhas
+### Manhas
 
 Ter escola de arma quer dizer que alguém te ensinou aquela categoria de verdade, do jeito antigo: repetição, forma, um professor corrigindo o seu pulso até a coisa virar reflexo. Duas pessoas com a mesma espada na mão fazem coisas diferentes com ela, e a diferença é a escola.
 
 A Manha é o que a sua categoria sabe fazer além de causar dano. Você usa a da categoria que escolheu na `Escola de Arma`, e ela vale com qualquer arma daquela categoria: a escola é do tipo de arma, e a peça específica é descartável. Se a sua lâmina quebrou no meio da missão e você pegou outra do chão, a Manha continua.
 
 Na mesa, é a Manha que dá identidade à sua ficha. Você vira a pessoa do machado, a pessoa da corrente, a pessoa do fuzil, e o grupo aprende a jogar em volta do que a sua arma faz com a posição do inimigo.
+
+**Manhas**
+{: .tab-titulo }
 
 | Categoria | Manha | O que faz |
 |---|---|---|
@@ -344,7 +360,10 @@ Enquanto o `Batedor` administra o campo e a `Estocada` administra a rodada, o `E
 
 *O `Aprumo` é o que faz o `Executor` ser escalado para missão longa: ele repõe casca sozinho, sem gastar PE e sem depender de ninguém do time. Numa campanha em que a cura é escassa, isso é o que permite encadear duas ou três lutas no mesmo dia.*
 
-#### Os estilos da `Pegada`
+#### Estilos da `Pegada`
+
+**Estilos da `Pegada`**
+{: .tab-titulo }
 
 | Estilo | Pede | O que dá |
 |---|---|---|
@@ -368,7 +387,10 @@ Numa luta, o turno do Guia é o mais nervoso da mesa, porque quase tudo que ele 
 
 Atributo natural: **Essência**.
 
-#### O que o Guia dá
+### Características do Guia
+
+**Características do Guia**
+{: .tab-titulo }
 
 | | |
 |---|---|
@@ -385,7 +407,7 @@ Atributo natural: **Essência**.
 
 > **O Guia é o único Caminho sem ataque extra, por nenhuma rota.** Quem quiser lutar de Guia paga pela técnica, como todo mundo. Em troca, o degrau do nível 7 dele entrega duas coisas em vez de uma.
 
-### Os degraus do Guia
+### Degraus do Guia
 
 > **Nível 2: `Guiar`.** Quando um aliado que você enxerga falha num teste, some **`metade da sua Essência`** ao resultado dele. **Ação livre, uma vez por rodada.** *Você aplica depois da rolagem, então nenhum ponto se perde.*
 >
@@ -474,7 +496,10 @@ Numa luta, o turno do Emanador é o mais decidido antes de a luta começar. O qu
 
 Atributos naturais: **Inteligência** e **Essência**. O Caminho é uma progressão de três perguntas: como você lança, o que você tem, quanto custa.
 
-#### O que o Emanador dá
+### Características do Emanador
+
+**Características do Emanador**
+{: .tab-titulo }
 
 | | |
 |---|---|
@@ -489,7 +514,7 @@ Atributos naturais: **Inteligência** e **Essência**. O Caminho é uma progress
 
 *Perícia, ofício e Teste de Resistência entram na ficha uma vez, na criação. O quadro completo das vinte e três perícias e dos onze ofícios está no capítulo 3, __Perícias e Ofícios__.*
 
-### Os degraus do Emanador
+### Degraus do Emanador
 
 > **Nível 2: `Sangria`.** *Ação bônus.* Gaste **`1/8` da sua vida MÁXIMA** e ganhe PE na razão de **`3` de vida por `1` PE**. A vida máxima só volta no **descanso longo**; metade dela volta no **descanso curto**.
 >
@@ -580,7 +605,10 @@ Numa luta, o turno do Evocador quase sempre é uma ordem. A Ação Padrão dele 
 
 Atributos naturais: **Inteligência** e **Essência**. O Evocador troca dano pessoal por presença de tabuleiro, corpos que absorvem ataque, flanqueiam e bloqueiam caminho.
 
-#### O que o Evocador dá
+### Características do Evocador
+
+**Características do Evocador**
+{: .tab-titulo }
 
 | | |
 |---|---|
@@ -595,7 +623,7 @@ Atributos naturais: **Inteligência** e **Essência**. O Evocador troca dano pes
 
 *Perícia, ofício e Teste de Resistência entram na ficha uma vez, na criação. O quadro completo das vinte e três perícias e dos onze ofícios está no capítulo 3, __Perícias e Ofícios__.*
 
-### Os degraus do Evocador
+### Degraus do Evocador
 
 > **Nível 2: `Sintonia`.** **Escolha uma:**
 > **`Presa`** — as suas invocações acertam crítico com **19 ou 20**.
@@ -610,7 +638,7 @@ Atributos naturais: **Inteligência** e **Essência**. O Evocador troca dano pes
 
 *A `Coleira` é a entrega que faz a invocação servir fora de combate: treinada nas perícias da ficha dela, ela vira o que entra no duto, o que fareja, o que fica de vigia enquanto o grupo dorme. E o `Escudo de Osso` é o que compra a rodada em que você ia cair, o que importa muito numa ficha de 4 de vida por nível.*
 
-### As três Trilhas do Evocador
+### Trilhas do Evocador
 
 > **As entregas de nível das três Trilhas do Evocador estão sendo escritas.**
 >
@@ -619,6 +647,9 @@ Atributos naturais: **Inteligência** e **Essência**. O Evocador troca dano pes
 > Vale saber o tamanho disso antes de escolher este Caminho. A Trilha é a maior fatia do que um personagem faz, e hoje o Evocador joga com os quatro degraus de Caminho, que estão prontos. Se a sua mesa quiser um Evocador agora, combine com o mestre o que ocupa essas quatro casas até elas saírem.
 
 **O que cada Trilha concede** é o corpo que você põe em campo. O resto da ficha da invocação você monta com o orçamento do capítulo 13, *Invocações*, por cima do que está na tabela.
+
+**Trilhas do Evocador**
+{: .tab-titulo }
 
 | Trilha | O que ela concede | Orçamento do corpo | Vida do corpo |
 |---|---|---|---|

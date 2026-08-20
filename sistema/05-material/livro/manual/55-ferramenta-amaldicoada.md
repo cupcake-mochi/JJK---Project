@@ -8,11 +8,11 @@
 
 Ferir maldição é a porta que separa o feiticeiro de quem não tem energia amaldiçoada. Quem conjura já atravessa essa porta de graça, pelo feitiço de Toque. Quem não conjura só atravessa com ferramenta na mão.
 
-## O que é uma ferramenta forjada
+## Ferramenta forjada
 
 Uma ferramenta amaldiçoada é um objeto que alguém encheu de energia amaldiçoada de propósito, martelada por martelada, até o material aprender a segurar aquilo. Isso leva tempo, custa a energia de quem forja e não sai barato: quem tem o ofício é pouca gente, trabalha por encomenda e conhece o nome de quase todas as peças boas que estão circulando. Ferramenta boa tem procedência, tem dono anterior e tem gente que se lembra dela.
 
-Para quem tem energia amaldiçoada, uma ferramenta é conveniência: uma lâmina que já corta maldição poupa o que você gastaria cobrindo o próprio punho. Para quem não tem, ela é o passaporte. Sem ferramenta, um corpo humano bem treinado atravessa uma maldição como atravessa fumaça, e a maldição continua ali, do outro lado, olhando. Com uma ferramenta de grau 4 na mão, a mesma pessoa entra na luta que o feiticeiro está lutando. É por isso que este capítulo existe, e é por isso que ninguém do meio jujutsu empresta ferramenta de bom grado.
+Para quem tem energia amaldiçoada, uma ferramenta é conveniência: uma lâmina que já corta maldição poupa o que você gastaria cobrindo o próprio punho. Para quem não tem, ela é o passaporte. Sem ferramenta, um corpo humano bem treinado atravessa uma maldição como atravessa fumaça, e a maldição continua ali, do outro lado, olhando. Com uma ferramenta de grau 4 na mão, a mesma pessoa entra na luta que o feiticeiro está lutando. É por isso que ninguém do meio jujutsu empresta ferramenta de bom grado.
 
 > **Como se sintoniza uma ferramenta está sendo escrito.** Quanto tempo leva, o que se gasta e se dá para desfazer é acordo com o seu mestre por enquanto.
 
@@ -24,6 +24,9 @@ Uma ferramenta carrega **um** `Estigma`. Nunca dois.
 
 São duas coisas, e o meio jujutsu separa as duas por escrito: tirando as ferramentas amaldiçoadas e os cadáveres amaldiçoados, todo item que contém energia amaldiçoada é chamado de objeto amaldiçoado.
 
+**Ferramenta e objeto amaldiçoado**
+{: .tab-titulo }
+
 | É ferramenta amaldiçoada | É objeto amaldiçoado |
 |---|---|
 | foi forjada para canalizar energia | é a maldição presa numa forma de objeto |
@@ -32,11 +35,14 @@ São duas coisas, e o meio jujutsu separa as duas por escrito: tirando as ferram
 
 Os dois são ranqueados pela mesma escada, pela força da energia que carregam: grau 4 a grau 1, mais o especial. O que muda é o que cada um é.
 
-> Objeto amaldiçoado é outro assunto, e está sendo escrito. Este aqui cobre só a ferramenta.
+> Objeto amaldiçoado é outro assunto, e está sendo escrito.
 
-## O grau
+## Grau
 
 O que o grau escolhe é o **formato** do `Estigma`: se ele é pequeno e condicional, se é reativo com limite de uso, ou se é permanente.
+
+**Graus de ferramenta**
+{: .tab-titulo }
 
 | Grau | `Estigma` | Nível mínimo | Exemplar do material |
 |---|---|---|---|
@@ -48,13 +54,13 @@ O que o grau escolhe é o **formato** do `Estigma`: se ele é pequeno e condicio
 
 As Classes são as mesmas do capítulo 10, *Aptidões e Refino*, e o nível mínimo é o de lá: uma aptidão de Classe 2 pede nível 7, uma de Classe 3 pede nível 13, e Classe 1 não pede nada.
 
-#### Nenhum grau pede refino
+### Grau e refino
 
-Não existe requisito de refino em lugar nenhum deste capítulo. Ferramenta amaldiçoada é a rota de quem tem pouca energia amaldiçoada ou nenhuma, e cobrar refino trancaria a porta na cara justamente de quem ela existe para atender.
+Não existe requisito de refino para ferramenta amaldiçoada. Ela é a rota de quem tem pouca energia amaldiçoada, ou nenhuma.
 
-### O grau 4
+### Grau 4
 
-Ele não dá `Estigma` nenhum, e ainda assim é o degrau que faz o resto existir: ferir maldição é a única coisa que um personagem sem energia amaldiçoada não consegue sozinho. Uma ferramenta de grau 4 é o que põe essa pessoa na mesma luta que o feiticeiro.
+Ele não dá `Estigma` nenhum. Ferir maldição é a única coisa que um personagem sem energia amaldiçoada não consegue sozinho. Uma ferramenta de grau 4 é o que põe essa pessoa na mesma luta que o feiticeiro.
 
 Na mesa, esse degrau costuma ser a primeira peça que muda a cara de um personagem inteiro. Antes dela, o cara com a espingarda estava ali para tirar civil do prédio; depois dela, ele tem um alvo.
 
@@ -64,7 +70,7 @@ Os dois dão um `Estigma` de Classe 3 e os dois pedem nível 13. A diferença é
 
 As três especiais citadas acima aparecem aqui como exemplar. A ficha de cada uma está sendo escrita.
 
-#### Grau e patente não se tocam
+### Grau e patente
 
 > **A sua patente não decide que ferramenta você pode portar. A ferramenta que você porta não mexe na sua patente.**
 
@@ -84,11 +90,14 @@ Uma ferramenta de grau 1 com `Desgaste` dura **três missões** de uso antes de 
 
 > **Exemplo.** O Ryo é nível 4 e ganha uma corrente de grau 1 com `Desgaste`. O `Estigma` dela é `Anátema`, que pediria nível 13; com o `Desgaste`, ele usa hoje. Na primeira missão ele encosta a corrente numa técnica e anula o efeito: fim da missão, a corrente desce para grau 2. Na segunda ele usa de novo: grau 3. Na terceira: grau 4, e o que sobra na mão dele é uma corrente que fere maldição e nada mais. Se ele tivesse guardado o `Anátema` para a missão que importava, teria três usos para gastar em três momentos escolhidos.
 
-## Quantos `Estigma` cabem numa ficha
+## Teto de `Estigma`
 
 > **A arma tem teto pelas mãos. O apoio tem teto de dois.**
 
 **Objeto de apoio** é a ferramenta que você carrega sem empunhar: um anel, um cordão, uma peça costurada no forro do casaco. A lista do que conta como apoio e o preço dele estão sendo escritos; o teto de dois já vale desde agora.
+
+**Teto de `Estigma`**
+{: .tab-titulo }
 
 | A ficha carrega | `Estigmas` |
 |---|---|
@@ -99,15 +108,18 @@ Uma ferramenta de grau 1 com `Desgaste` dura **três missões** de uso antes de 
 
 A diferença inteira entre a mesa mais avara e a mais generosa cabe entre um e três `Estigmas`. Não existe ficha com cinco ferramentas: as mãos fecham um lado e o teto de dois apoios fecha o outro.
 
-## O catálogo de `Estigma`
+## Catálogo de `Estigma`
 
 Onze entradas, agrupadas por Classe. A Classe diz o grau da ferramenta que pode carregar aquele `Estigma`, e diz o nível mínimo junto.
 
-#### Como ler uma entrada
+### Como ler uma entrada
 
-A tabela de cada Classe traz o nome e **quando o `Estigma` age**: sempre ligado, na hora de um gatilho, ou como Reação. Quando existe limite de uso, ele aparece na coluna do relógio. O texto embaixo da tabela é a regra inteira.
+Cada tabela de Classe traz o nome e **quando o `Estigma` age**: sempre ligado, na hora de um gatilho, ou como Reação. Quando existe limite de uso, ele aparece na coluna do relógio. O texto embaixo da tabela é a regra inteira.
 
 ### Classe 1 · grau 3 · sem nível mínimo
+
+**`Estigma` de Classe 1**
+{: .tab-titulo }
 
 | `Estigma` | Quando age |
 |---|---|
@@ -126,6 +138,9 @@ A tabela de cada Classe traz o nome e **quando o `Estigma` age**: sempre ligado,
 
 ### Classe 2 · grau 2 · nível 7
 
+**`Estigma` de Classe 2**
+{: .tab-titulo }
+
 | `Estigma` | Quando age | Relógio |
 |---|---|---|
 | `Quebranto` | Reação | por cena |
@@ -139,6 +154,9 @@ A tabela de cada Classe traz o nome e **quando o `Estigma` age**: sempre ligado,
 > **`Bojo`** — uma vez por descanso curto, ela guarda um feitiço que você lançou e devolve ele depois, sem custo de PE. O feitiço fica dentro dela como um eco esperando a hora. É o único dos onze que só serve para quem conjura.
 
 ### Classe 3 · grau 1 e especial · nível 13
+
+**`Estigma` de Classe 3**
+{: .tab-titulo }
 
 | `Estigma` | Quando age |
 |---|---|
@@ -155,9 +173,12 @@ A tabela de cada Classe traz o nome e **quando o `Estigma` age**: sempre ligado,
 >
 > **`Contrapeso`** — ela ignora o requisito de Força da arma. Qualquer um empunha, e o peso da coisa se resolve sozinho na mão de quem a segura.
 
-## Quando ela chega à mesa
+## Ritmo de entrega
 
-Isto é ritmo de entrega. O único nível mínimo que este capítulo cobra é o do `Estigma`, na tabela de grau.
+O único nível mínimo obrigatório é o do `Estigma`, na tabela de grau.
+
+**Ritmo de entrega**
+{: .tab-titulo }
 
 | Grau | Nível sugerido | Faixa, se a mesa preferir espalhar |
 |---|---|---|
