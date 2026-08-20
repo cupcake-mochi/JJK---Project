@@ -16,17 +16,18 @@ Você vai criar um feiticeiro. Alguém que nasceu com energia amaldiçoada, ou q
 
 Este é um sistema de mesa feito para um servidor de guilda. Várias pessoas mestrando, e personagem que atravessa mesas diferentes com o mesmo dono. A ficha que você monta aqui pode sentar em mais de uma mesa, com mestres diferentes, e continuar sendo a mesma pessoa.
 
-## Do que você precisa
+## Material da mesa
 
 - **Um mestre.** Quem prepara a cena, interpreta todo mundo que não é personagem de jogador, e decide o que as regras não cobrem.
 - **Um grupo.** De cinco a sete jogadores é o tamanho que este sistema pressupõe, mas qualquer grupo funciona.
 - **Dados.** Um d20 e um punhado de d8 resolvem quase tudo. Aparecem também d4, d6, d10 e d12, quase sempre como dado de dano de arma.
 - **Uma ficha.** Papel, planilha ou o que a sua mesa usar.
 
-## Como este manual é organizado
+## Organização do manual
 
-Nem todo capítulo é para ler do começo ao fim. Metade deste livro é catálogo, e catálogo se abre quando você está montando alguma coisa. Cada capítulo diz, na primeira linha, se é para ler ou para consultar.
+Nem todo capítulo é para ler do começo ao fim. Metade dos capítulos é catálogo, e catálogo se abre quando você está montando alguma coisa. A coluna *Para quê* diz qual é qual.
 
+**Capítulos**
 | | Capítulo | Para quê |
 |---|---|---|
 | | **O vocabulário do sistema** | *consulta* · toda palavra que este manual usa com significado próprio, em uma linha |
@@ -53,7 +54,7 @@ Nem todo capítulo é para ler do começo ao fim. Metade deste livro é catálog
 
 **Leia Como Jogar antes de qualquer outra coisa.** É o capítulo dono do vocabulário que todos os outros usam sem parar para explicar de novo. Depois dele, pular direto para o que te interessa funciona.
 
-**E se esbarrar num nome que ninguém te apresentou**, ele está no vocabulário, logo na página seguinte, com o número do capítulo que trata dele por extenso. Este manual é grande e algumas palavras aparecem muito antes do capítulo que é dono delas; o vocabulário existe para essa distância não te custar nada.
+**E se esbarrar num nome que ninguém te apresentou**, ele está no vocabulário, logo na página seguinte, com o número do capítulo que trata dele por extenso.
 
 ---
 
@@ -62,12 +63,11 @@ Nem todo capítulo é para ler do começo ao fim. Metade deste livro é catálog
 
 *fonte: `manual/07-glossario.md`*
 
-Esta parte é de consulta, não de leitura. Ela existe por um motivo medido: este manual usa a palavra `Refino` quase cento e cinquenta vezes, e o capítulo que explica o que ela é fica na metade do livro. Quando você esbarrar num nome que ainda não te foi apresentado, ele está aqui, com uma linha de explicação e o número do capítulo que trata dele por extenso.
+Cada termo vem com uma linha de explicação e o número do capítulo que trata dele por extenso. Nada aqui é regra completa.
 
-Nada aqui é regra completa. É o suficiente para você continuar lendo sem parar.
+## Rolagens
 
-## O que você rola
-
+**Rolagens**
 | Termo | O que é | Cap. |
 |---|---|---|
 | **Teste** | `d20` + atributo, comparado com uma CD. Igualou ou passou, você conseguiu | 1 |
@@ -81,8 +81,9 @@ Nada aqui é regra completa. É o suficiente para você continuar lendo sem para
 | **Arredondamento** | Sempre para o lado que não te favorece. O que você paga sobe, o que você ganha desce | 1 |
 | **Rotina** | O dano que um personagem entrega numa rodada comum, sem gastar recurso guardado | 13 |
 
-## O que você tem
+## Números da ficha
 
+**Números da ficha**
 | Termo | O que é | Cap. |
 |---|---|---|
 | **Atributo** | Cinco, de 0 a 6: Força, Destreza, Constituição, Inteligência, Essência. O número **é** o modificador | 1 |
@@ -98,8 +99,9 @@ Nada aqui é regra completa. É o suficiente para você continuar lendo sem para
 | **Sequela** | O que você ganha ao levantar de uma queda. Encurta em uma rodada a janela da queda seguinte | 1 |
 | **Cicatriz** | Permanente, ganha na segunda queda. Não sai no descanso | 1 |
 
-## Quem o seu personagem é
+## Personagem
 
+**Personagem**
 | Termo | O que é | Cap. |
 |---|---|---|
 | **Caminho** | O seu lugar numa equipe. Cinco: Bastião, Vanguarda, Guia, Emanador, Evocador. Escolhido na criação, para sempre | 8 |
@@ -112,8 +114,9 @@ Nada aqui é regra completa. É o suficiente para você continuar lendo sem para
 
 > **Cuidado com a palavra `Grau`.** Ela nomeia duas escadas de cinco casas que não se encostam: a **patente** de um feiticeiro e o **grau** de uma ferramenta amaldiçoada. Patente é reconhecimento; grau de ferramenta é a energia que a peça carrega. O capítulo 12 abre a diferença.
 
-## A sua técnica
+## Técnica
 
+**Técnica**
 | Termo | O que é | Cap. |
 |---|---|---|
 | **Fundamento** | A sua técnica inata, escrita por você na criação. Nunca muda. Descrição, Regra, Famílias, Selo e Passivas | 9 |
@@ -138,8 +141,9 @@ Nada aqui é regra completa. É o suficiente para você continuar lendo sem para
 | **Expansão de Domínio** | O espaço fechado onde a sua técnica manda. Custa espaço de feitiço | 9 |
 | **Dano na alma** | Tira vida, Integridade e vida máxima no mesmo tanto. Entra cheio, e tem quatro estágios | 4 |
 
-## Como você cresce
+## Progressão
 
+**Progressão**
 | Termo | O que é | Cap. |
 |---|---|---|
 | **Marco** | Um dos sete níveis em que a ficha muda de forma: **6, 10, 14, 18, 22, 26 e 30** | 14 |
@@ -147,8 +151,9 @@ Nada aqui é regra completa. É o suficiente para você continuar lendo sem para
 | **Aptidão** | O que qualquer feiticeiro pode aprender, independente da técnica. Custa marco, e só marco | 10 |
 | **Corpo**, **Refino**, **Leque** | As três escolhas que um marco oferece: mais atributo; mais refino e uma aptidão; ou mais feitiço e uma Passiva | 14 |
 
-## O turno
+## Turno
 
+**Turno**
 | Termo | O que é | Cap. |
 |---|---|---|
 | **Rodada** | Todo mundo teve o seu turno. 6 segundos | 2 |
@@ -159,8 +164,9 @@ Nada aqui é regra completa. É o suficiente para você continuar lendo sem para
 | **Concentração** | Manter um efeito de pé. Um por vez, e tomar dano pede Teste de Resistência de Vigor | 2 |
 | **Cobertura** | O que está entre você e quem atira. Três degraus: Parcial, Boa e Total | 4 |
 
-## O que você carrega
+## Equipamento
 
+**Equipamento**
 | Termo | O que é | Cap. |
 |---|---|---|
 | **Ferramenta amaldiçoada** | Arma forjada para ferir maldição. Tem grau, de 4 a especial | 12 |
@@ -169,10 +175,11 @@ Nada aqui é regra completa. É o suficiente para você continuar lendo sem para
 | **Invocação** | O que você põe em campo e comanda. Tem ficha própria, montada com orçamento | 13 |
 | **Amarra** | A invocação tem de ficar a até 18 metros de você, ou não pode ser comandada | 13 |
 
-## Palavras que este manual usa de um jeito próprio
+## Palavras com sentido próprio
 
-Todas estas significam outra coisa em outros sistemas de mesa. Se você já jogou, vale reparar:
+Estas palavras têm sentido próprio neste sistema.
 
+**Palavras com sentido próprio**
 | Palavra | Aqui ela quer dizer | E **não** quer dizer |
 |---|---|---|
 | **Classe** | o tamanho de um feitiço | a profissão do personagem |
@@ -193,20 +200,11 @@ Todas estas significam outra coisa em outros sistemas de mesa. Se você já jogo
 
 *fonte: `manual/08-inicio-rapido.md`*
 
-Isto não é um capítulo do manual. É uma cena pronta, para quem nunca jogou sentar e jogar
-antes de ler o livro inteiro.
+Uma cena pronta para jogar hoje, sem ninguém ter lido o livro. Alguém lê em voz alta, ou
+com as próprias palavras, e a mesa roda a cena com a Kaori — a ficha pronta que vem logo
+abaixo.
 
-**Para quem serve:** um grupo que quer testar o sistema hoje à noite, sem ninguém ter lido
-nada. Alguém lê esta parte em voz alta ou com as próprias palavras, e a mesa roda a cena com
-a Kaori, a ficha pronta que vem logo abaixo.
-
-**Depois da cena**, o resto do livro faz sentido de um jeito diferente: você já rolou os dados
-que ele explica. A seção final desta parte diz para onde ir.
-
-**Isto não substitui o capítulo 1.** Ele é o dono do vocabulário do sistema, e o resto do
-manual usa os termos de lá sem redefinir. Esta parte só adianta o suficiente para uma cena.
-
-## Como jogar, em resumo
+## Regras da cena
 
 > **Role um `d20`, some o seu bônus, compare com a CD.** Igualou ou passou, você conseguiu.
 >
@@ -222,12 +220,11 @@ manual usa os termos de lá sem redefinir. Esta parte só adianta o suficiente p
 > É o que **você** rola quando alguma coisa acontece com você.
 
 Todo termo aqui tem explicação completa no capítulo 1 e no vocabulário do sistema, logo
-atrás. Esta caixa é só para não parar de ler agora.
+atrás.
 
-## A Kaori, pronta pra jogar
+## Kaori
 
-Feiticeira de nível 2, a mesma ficha de exemplo do capítulo 6 — os números não mudam entre
-uma parte e a outra deste livro.
+Feiticeira de nível 2, a mesma ficha de exemplo do capítulo 6.
 
 **Quem ela é.** O clã da Kaori perdeu o nome faz três gerações, e ela cresceu ouvindo a
 história de quem perdeu. A avó era a única que ainda sabia alguma coisa de valor — ervas,
@@ -240,6 +237,7 @@ procura briga; ela entra na frente de quem procura.
 **A técnica.** *"Tudo que eu prendo entre as minhas mãos fica mais pesado."* O Selo dela é
 físico: as duas mãos precisam se tocar antes de qualquer feitiço sair.
 
+**Kaori, nível 2**
 | | |
 |---|---|
 | **Vida** | 23 |
@@ -264,7 +262,7 @@ físico: as duas mãos precisam se tocar antes de qualquer feitiço sair.
 > caem pela metade contra ela, e o deslocamento dela também cai pela metade. Sair dali não
 > custa nada.
 
-## A cena: o corredor da ala oeste
+## Corredor da ala oeste
 
 Leia (ou narre) isto para o grupo:
 
@@ -294,17 +292,13 @@ zero. *Isto é o `Corpo Duro` funcionando: ele não evita o golpe, evita o estra
 - **Recuar e negociar.** Nem toda cena precisa terminar em dano. Se o grupo tiver outra
   ideia, ela vale tanto quanto as duas de cima.
 
-Este manual não decide por vocês qual das três é a certa. É exatamente esse tipo de
-escolha, rodada após rodada, que o resto do livro existe para sustentar.
-
 **Se a maldição tivesse sobrevivido**, o turno dela viria de novo, e a cena continuaria
 até alguém desistir, fugir ou cair. **Se Kaori chegasse a `0` de vida**, ela escolheria
 entre `Aguentar` e `Insistir` — a regra está no capítulo 1, na seção *Vida a 0*, e ela é o momento mais decidido pelo jogador em todo o sistema.
 
-## Terminou a cena? O que vem depois
+## Depois da cena
 
-- **Quer entender por que cada número é aquele?** Capítulo 1, *Como Jogar*. É o único
-  capítulo que este livro pede para ler inteiro antes de qualquer outro.
+- **Quer entender por que cada número é aquele?** Capítulo 1, *Como Jogar*.
 - **Quer montar o seu próprio personagem?** Capítulo 6, *Criação de Personagem*, os oito
   passos — a Kaori acima é o exemplo completo de lá.
 - **Esbarrou numa palavra que não foi explicada?** O vocabulário do sistema, logo atrás
@@ -1161,7 +1155,7 @@ O combustível volta em dois momentos, e os dois são de ficção.
 
 Não existe contagem de horas em lugar nenhum deste capítulo. O gatilho é o que aconteceu na história, e é isso que faz dois mestres diferentes chamarem o mesmo momento de descanso.
 
-## A cena
+## Cena
 
 `Por cena` é o relógio mais usado do manual, então a palavra precisa de definição própria.
 
@@ -1187,16 +1181,17 @@ Contam como propício:
 
 Quando der para declarar isso na abertura da missão, declare: vira informação tática, e o grupo planeja em cima dela em vez de descobrir na hora.
 
-## O que cada descanso devolve
+## Recuperação
 
 O PE é o que você tem para a missão inteira. Só o descanso longo devolve tudo.
 
-#### PE
+### PE
 
 Os pontos de energia amaldiçoada que você gasta para conjurar.
 
 ### Descanso curto
 
+**Descanso curto**
 | | devolve |
 |---|---|
 | **PE** | **25% do seu máximo** |
@@ -1209,6 +1204,7 @@ Vida não volta sozinha no respiro entre lutas, porque quem conserta gente neste
 
 ### Descanso longo
 
+**Descanso longo**
 | | em ambiente propício | fora dele |
 |---|---|---|
 | **PE** | **cheio** | **metade do seu máximo** |
@@ -1224,7 +1220,7 @@ A Integridade volta inteira em qualquer lugar. É a única coisa que o ambiente 
 
 > **Arredonde para baixo, e o que você recupera nunca fica abaixo de 1.**
 
-O piso de 1 não desfaz um zero escrito. Quando a tabela do degrau 3 diz que você recupera **nada**, ela diz nada: o piso existe para a conta que deu 0,4.
+O piso de 1 não desfaz um zero escrito. Quando a tabela `Degraus de Exaustão` diz que no degrau 3 você recupera **nada**, ela diz nada: o piso existe para a conta que deu 0,4.
 
 ## Exaustão
 
@@ -1232,7 +1228,7 @@ O piso de 1 não desfaz um zero escrito. Quando a tabela do degrau 3 diz que voc
 
 As três primeiras lutas do dia são de graça.
 
-### O que conta como uma luta
+### Contagem de luta
 
 > **Quem conta é o mestre, e ele conta como em qualquer mesa: foi uma luta se pareceu uma luta.**
 
@@ -1246,8 +1242,9 @@ Costumam contar:
 
 Costumam não contar: a maldição de nível baixo que morre no primeiro golpe, o treino, a discussão que não virou porrada.
 
-### Os três degraus
+### Degraus
 
+**Degraus de Exaustão**
 | degrau | o que pega | quanto o descanso curto devolve, fora de ambiente propício |
 |---|---|---|
 | **0** | — | 25% |
@@ -1265,6 +1262,7 @@ A ordem dos degraus tem lógica: o primeiro pega o que você faz fora de combate
 
 As duas escadas se parecem muito, e é comum estar nas duas.
 
+**Exaustão e Integridade**
 | | exaustão | Integridade |
 |---|---|---|
 | **degrau 1** | desvantagem em perícia e ofício | desvantagem em testes de perícia |
@@ -1275,7 +1273,7 @@ As duas escadas se parecem muito, e é comum estar nas duas.
 
 Desvantagem não empilha com desvantagem, e dois cortes de deslocamento não se multiplicam. O que só uma das duas tem continua valendo normalmente: o +1 PE por Classe e o teto de Classe são da Integridade e não competem com nada do lado da exaustão.
 
-### O teto de três, e a válvula do mestre
+### Teto
 
 A exaustão para no terceiro degrau. Uma missão de campo de três dias com quatro lutas por dia acumula três degraus e trava ali: o grupo fica pior, sabe **quanto** pior, e escolhe se continua.
 
@@ -1283,8 +1281,9 @@ A exaustão para no terceiro degrau. Uma missão de campo de três dias com quat
 
 A válvula só anda para um lado. O mestre nunca adiciona degrau fora da regra.
 
-## Os quatro relógios
+## Relógios
 
+**Relógios**
 | relógio | recarrega quando | frequência |
 |---|---|---|
 | **por cena** | a cena acaba | a mais frequente |
@@ -1296,7 +1295,7 @@ A válvula só anda para um lado. O mestre nunca adiciona degrau fora da regra.
 
 Ninguém precisa decorar a escada. Ela existe para quando alguém perguntar *"isso volta antes ou depois daquilo?"*.
 
-## Um dia de missão, do começo ao fim
+## Exemplo
 
 > **A Kaori** — Bastião de nível 2, Constituição 2. Vida 23, PE 8.
 >
@@ -2466,14 +2465,13 @@ Seis das nove rotas já rodam, porque o Fundamento está pronto. As três que fa
 
 O Caminho é o seu lugar na equipe, e você escolhe ele na criação. A Trilha diz quem você é dentro do Caminho, e ela nasce junto com ele, no nível 2. São cinco Caminhos, três Trilhas em cada um.
 
-O Caminho é o jeito que o seu treino pegou: a resposta que o seu corpo dá quando a sala fica perigosa. É também o que entra no relatório da missão quando alguém pergunta o que cada um estava fazendo lá dentro. Quem segurou a porta, quem cortou, quem manteve o time de pé, quem despejou técnica, quem trouxe corpo emprestado. Dois feiticeiros com a mesma técnica e Caminhos diferentes jogam campanhas diferentes.
-
-Este capítulo é de consulta. Leia inteiro o Caminho que você escolheu e a Trilha dentro dele; o resto você abre quando precisar.
+O Caminho é o jeito que o seu treino pegou: a resposta que o seu corpo dá quando a sala fica perigosa. É também o que entra no relatório da missão quando alguém pergunta o que cada um estava fazendo lá dentro. Quem segurou a porta, quem cortou, quem manteve o time de pé, quem despejou técnica, quem trouxe corpo emprestado.
 
 ## Como ler um Caminho
 
-Cada Caminho entrega quatro degraus, e eles chegam sempre nos mesmos níveis. A Trilha entrega outras quatro coisas, em níveis diferentes, de propósito: você ganha alguma coisa em quase todo marco da campanha.
+Cada Caminho entrega quatro degraus, e eles chegam sempre nos mesmos níveis. A Trilha entrega outras quatro coisas, em níveis diferentes: você ganha alguma coisa em quase todo marco da campanha.
 
+**Entregas por nível**
 | Nível | O que chega |
 |---|---|
 | 2 | o primeiro degrau do Caminho, e a primeira entrega da Trilha |
@@ -2488,10 +2486,11 @@ Cada Caminho entrega quatro degraus, e eles chegam sempre nos mesmos níveis. A 
 
 **Sem multiclasse.** Um Caminho por personagem.
 
-#### Vida e energia
+### Vida e energia
 
 Cada Caminho tem o próprio número de vida por nível e o próprio número de PE por nível, e os dois correm em sentidos contrários: quem tem mais couro tem menos combustível.
 
+**Vida e energia por Caminho**
 | | Bastião | Vanguarda | Guia | Evocador | Emanador |
 |---|---|---|---|---|---|
 | **Vida por nível** | 7 | 5 | 5 | 4 | 4 |
@@ -2499,7 +2498,7 @@ Cada Caminho tem o próprio número de vida por nível e o próprio número de P
 
 > **O seu PE máximo é o número da tabela vezes o seu nível.** Nenhum atributo entra nessa conta, e não existe valor inicial somado por cima.
 
-#### As palavras que este capítulo usa o tempo todo
+### Termos dos degraus
 
 **PE** são pontos de energia, o combustível que paga feitiço. **Maestria** é o número que cresce com o seu nível: `1` no nível 2 e `4` no 30. **Classe** é o tamanho de um feitiço, de `Classe 0` até `Classe 7`. **Vantagem** é jogar dois dados e ficar com o melhor.
 
@@ -2509,7 +2508,7 @@ E duas coisas que quase todo degrau daqui menciona:
 > **Golpe simples** — arma mais Força. É o que você faz quando não canaliza.
 > **Um feitiço de Toque por turno.** Ataque extra é sempre golpe simples.
 
-#### Treino de arma
+### Treino de arma
 
 **O seu Caminho decide quais armas você pode empunhar.** Treino mora na categoria: treinar uma categoria libera todas as armas dela, e o catálogo inteiro está no capítulo 11, *Equipamento*.
 
@@ -2517,16 +2516,17 @@ E duas coisas que quase todo degrau daqui menciona:
 >
 > **Os três Caminhos conjuradores — Guia, Emanador e Evocador — treinam Arma de Fogo e Balestra**, que são as duas que se aponta e dispara sem anos de forma.
 
-**Para um conjurador empunhar o resto, a porta é a Trilha.** É o que faz a `Empunhadura` do `Arremate`, no nível 2: ela concede um grupo de arma à sua escolha e ainda troca Força por Inteligência ou Essência naquele grupo. Um Emanador de espadão existe, e ele paga por isso com a escolha de Trilha em vez de ganhar de graça.
+**Para um conjurador empunhar o resto, a porta é a Trilha.** É o que faz a `Empunhadura` do `Arremate`, no nível 2: ela concede um grupo de arma à sua escolha e ainda troca Força por Inteligência ou Essência naquele grupo. Um Emanador de espadão existe, e paga por isso com a escolha de Trilha.
 
 > **Sem treino, você não empunha.** A regra de penalidade para quem pega assim mesmo está sendo escrita.
 
-#### O que um Caminho nunca dá
+### Limites
 
 > **O Caminho mexe em quando, onde e em quem o seu poder acontece.** O tamanho dele é assunto da sua técnica. Nenhum Caminho dá dado de dano, sobe a Classe dos seus feitiços, dá Melhoria de graça, cura, ou desconto de dano em tudo. **Cura é Forma de feitiço**: quem fechou a Família Amparo nunca vai curar, e Caminho nenhum contorna isso.
 
-#### As quinze Trilhas
+### Trilhas
 
+**Trilhas**
 | Trilha | Caminho | Em uma linha |
 |---|---|---|
 | `Muro` | Bastião | o corpo que ocupa o espaço |
@@ -2557,8 +2557,9 @@ Numa luta, o turno do Bastião decide onde a briga acontece e quem apanha nela. 
 
 Atributos naturais: **Força** e **Constituição**. É o único Caminho com 7 de vida por nível, e paga isso com o bolso de PE mais apertado dos cinco: o Bastião conjura pouco, e cada feitiço dele pesa na conta do dia.
 
-#### O que o Bastião dá
+### Características do Bastião
 
+**Características do Bastião**
 | | |
 |---|---|
 | **Vida por nível** | 7 |
@@ -2572,7 +2573,7 @@ Atributos naturais: **Força** e **Constituição**. É o único Caminho com 7 d
 
 *Perícia, ofício e Teste de Resistência entram na ficha uma vez, na criação. O quadro completo das vinte e três perícias e dos onze ofícios está no capítulo 3, __Perícias e Ofícios__.*
 
-### Os degraus do Bastião
+### Degraus do Bastião
 
 > **Nível 2: `Corpo Duro`.** *Reação.* Ao ser atingido, você reduz o dano em **o seu nível + 1d6**. Isso é o `Absorver`.
 > **Você tem usos iguais à sua Constituição, e eles voltam no descanso longo.**
@@ -2656,8 +2657,9 @@ Numa luta, o turno da Vanguarda é o mais direto dos cinco. Ela chega e bate, to
 
 Atributos naturais: **Destreza** e **Força**. A Vanguarda alterna feitiço de Toque e golpe simples ao longo da luta, e é o Caminho com o número mais estável de dano por rodada.
 
-#### O que a Vanguarda dá
+### Características da Vanguarda
 
+**Características da Vanguarda**
 | | |
 |---|---|
 | **Vida por nível** | 5 |
@@ -2671,7 +2673,7 @@ Atributos naturais: **Destreza** e **Força**. A Vanguarda alterna feitiço de T
 
 *Perícia, ofício e Teste de Resistência entram na ficha uma vez, na criação. O quadro completo das vinte e três perícias e dos onze ofícios está no capítulo 3, __Perícias e Ofícios__.*
 
-### Os degraus da Vanguarda
+### Degraus da Vanguarda
 
 > **Nível 2: `Escola de Arma`.** **Escolha uma das treze categorias de arma.** Com armas daquela categoria você usa a **Manha** dela. *As treze estão na seção seguinte.*
 >
@@ -2686,7 +2688,7 @@ Atributos naturais: **Destreza** e **Força**. A Vanguarda alterna feitiço de T
 
 *O `Não Acabou` vive contra turba: um capanga de nível alto não cai num golpe simples, e um de nível baixo cai. É a regra de abrir caminho no meio de muita gente.*
 
-### As Manhas
+### Manhas
 
 Ter escola de arma quer dizer que alguém te ensinou aquela categoria de verdade, do jeito antigo: repetição, forma, um professor corrigindo o seu pulso até a coisa virar reflexo. Duas pessoas com a mesma espada na mão fazem coisas diferentes com ela, e a diferença é a escola.
 
@@ -2694,6 +2696,7 @@ A Manha é o que a sua categoria sabe fazer além de causar dano. Você usa a da
 
 Na mesa, é a Manha que dá identidade à sua ficha. Você vira a pessoa do machado, a pessoa da corrente, a pessoa do fuzil, e o grupo aprende a jogar em volta do que a sua arma faz com a posição do inimigo.
 
+**Manhas**
 | Categoria | Manha | O que faz |
 |---|---|---|
 | Lâmina Curta | `Talho` | `+1` no acerto contra alvo que já levou dano seu nesta luta |
@@ -2808,8 +2811,9 @@ Enquanto o `Batedor` administra o campo e a `Estocada` administra a rodada, o `E
 
 *O `Aprumo` é o que faz o `Executor` ser escalado para missão longa: ele repõe casca sozinho, sem gastar PE e sem depender de ninguém do time. Numa campanha em que a cura é escassa, isso é o que permite encadear duas ou três lutas no mesmo dia.*
 
-#### Os estilos da `Pegada`
+#### Estilos da `Pegada`
 
+**Estilos da `Pegada`**
 | Estilo | Pede | O que dá |
 |---|---|---|
 | `Duelista` | uma arma numa mão, a outra vazia | `+2` de dano em todo golpe |
@@ -2832,8 +2836,9 @@ Numa luta, o turno do Guia é o mais nervoso da mesa, porque quase tudo que ele 
 
 Atributo natural: **Essência**.
 
-#### O que o Guia dá
+### Características do Guia
 
+**Características do Guia**
 | | |
 |---|---|
 | **Vida por nível** | 5 |
@@ -2849,7 +2854,7 @@ Atributo natural: **Essência**.
 
 > **O Guia é o único Caminho sem ataque extra, por nenhuma rota.** Quem quiser lutar de Guia paga pela técnica, como todo mundo. Em troca, o degrau do nível 7 dele entrega duas coisas em vez de uma.
 
-### Os degraus do Guia
+### Degraus do Guia
 
 > **Nível 2: `Guiar`.** Quando um aliado que você enxerga falha num teste, some **`metade da sua Essência`** ao resultado dele. **Ação livre, uma vez por rodada.** *Você aplica depois da rolagem, então nenhum ponto se perde.*
 >
@@ -2938,8 +2943,9 @@ Numa luta, o turno do Emanador é o mais decidido antes de a luta começar. O qu
 
 Atributos naturais: **Inteligência** e **Essência**. O Caminho é uma progressão de três perguntas: como você lança, o que você tem, quanto custa.
 
-#### O que o Emanador dá
+### Características do Emanador
 
+**Características do Emanador**
 | | |
 |---|---|
 | **Vida por nível** | 4 |
@@ -2953,7 +2959,7 @@ Atributos naturais: **Inteligência** e **Essência**. O Caminho é uma progress
 
 *Perícia, ofício e Teste de Resistência entram na ficha uma vez, na criação. O quadro completo das vinte e três perícias e dos onze ofícios está no capítulo 3, __Perícias e Ofícios__.*
 
-### Os degraus do Emanador
+### Degraus do Emanador
 
 > **Nível 2: `Sangria`.** *Ação bônus.* Gaste **`1/8` da sua vida MÁXIMA** e ganhe PE na razão de **`3` de vida por `1` PE**. A vida máxima só volta no **descanso longo**; metade dela volta no **descanso curto**.
 >
@@ -3044,8 +3050,9 @@ Numa luta, o turno do Evocador quase sempre é uma ordem. A Ação Padrão dele 
 
 Atributos naturais: **Inteligência** e **Essência**. O Evocador troca dano pessoal por presença de tabuleiro, corpos que absorvem ataque, flanqueiam e bloqueiam caminho.
 
-#### O que o Evocador dá
+### Características do Evocador
 
+**Características do Evocador**
 | | |
 |---|---|
 | **Vida por nível** | 4 |
@@ -3059,7 +3066,7 @@ Atributos naturais: **Inteligência** e **Essência**. O Evocador troca dano pes
 
 *Perícia, ofício e Teste de Resistência entram na ficha uma vez, na criação. O quadro completo das vinte e três perícias e dos onze ofícios está no capítulo 3, __Perícias e Ofícios__.*
 
-### Os degraus do Evocador
+### Degraus do Evocador
 
 > **Nível 2: `Sintonia`.** **Escolha uma:**
 > **`Presa`** — as suas invocações acertam crítico com **19 ou 20**.
@@ -3074,7 +3081,7 @@ Atributos naturais: **Inteligência** e **Essência**. O Evocador troca dano pes
 
 *A `Coleira` é a entrega que faz a invocação servir fora de combate: treinada nas perícias da ficha dela, ela vira o que entra no duto, o que fareja, o que fica de vigia enquanto o grupo dorme. E o `Escudo de Osso` é o que compra a rodada em que você ia cair, o que importa muito numa ficha de 4 de vida por nível.*
 
-### As três Trilhas do Evocador
+### Trilhas do Evocador
 
 > **As entregas de nível das três Trilhas do Evocador estão sendo escritas.**
 >
@@ -3084,6 +3091,7 @@ Atributos naturais: **Inteligência** e **Essência**. O Evocador troca dano pes
 
 **O que cada Trilha concede** é o corpo que você põe em campo. O resto da ficha da invocação você monta com o orçamento do capítulo 13, *Invocações*, por cima do que está na tabela.
 
+**Trilhas do Evocador**
 | Trilha | O que ela concede | Orçamento do corpo | Vida do corpo |
 |---|---|---|---|
 | `Servo` | um corpo forte | **o da ficha mais metade**, arredondando para baixo | **`5 × h`** |
@@ -3113,15 +3121,13 @@ Atributos naturais: **Inteligência** e **Essência**. O Evocador troca dano pes
 
 *fonte: `manual/40-fundamento.md`*
 
-Este capítulo é para ler inteiro uma vez e depois consultar por partes. A primeira seção é a que você precisa antes da primeira rolagem. Da metade em diante viram catálogos, e catálogo se abre quando você está montando alguma coisa.
-
-## O que é o Fundamento
+## Técnica e feitiços
 
 Todo personagem nasce com uma única técnica, e ela nunca muda. Essa técnica se chama **Fundamento**, e é uma descrição e uma regra, escritas por você na criação do personagem. Tudo de sobrenatural que o personagem faz nasce dela.
 
-O que você usa em jogo são os **feitiços**: aplicações concretas da técnica, cada uma com nome próprio. Você mesmo monta os seus feitiços, gastando pontos, e é esse processo de montagem que este capítulo ensina.
+O que você usa em jogo são os **feitiços**: aplicações concretas da técnica, cada uma com nome próprio. Você mesmo monta os seus feitiços, gastando pontos.
 
-### A Classe do feitiço
+### Classe do feitiço
 
 Todo feitiço tem uma **Classe**, que mede o tamanho dele. A Classe diz quantos pontos você tem para gastar na montagem.
 
@@ -3136,13 +3142,14 @@ Os pontos devolvidos por Restrição só servem para pagar Melhoria: **Restriç�
 
 São oito Classes.
 
+**Classe do feitiço**
 | Classe | O que é | Quando aparece |
 |---|---|---|
 | **0** | O feitiço grátis. Não custa PE, não ocupa espaço na lista e não se monta com pontos. | Nível 1 |
 | **1 a 5** | Os feitiços montados. É onde o jogo acontece, e é o que este capítulo ensina a construir. | Níveis 1 a 20 |
 | **6 e 7** | A faixa lendária. Mesma montagem, números maiores. | Níveis 21 a 30 |
 
-Cada feitiço é montado na Classe que o seu nível já liberou, e a tabela em *Os números da montagem* mostra quando cada uma chega. Daqui para a frente, quando o texto disser só "a Classe", vale para a escala inteira.
+Cada feitiço é montado na Classe que o seu nível já liberou, e *Números da montagem* mostra quando cada uma chega. Daqui para a frente, quando o texto disser só "a Classe", vale para a escala inteira.
 
 ### Exemplo
 
@@ -3155,7 +3162,7 @@ Cada feitiço é montado na Classe que o seu nível já liberou, e a tabela em *
 >
 > A Restrição pagou a Melhoria inteira, e o feitiço saiu com o dano cheio da Classe. É exatamente para isso que Restrição serve, e ela para aí: 6 pontos continuam sendo o máximo de dados de uma Classe 2 contra um alvo.
 
-### O atributo da sua técnica
+### Atributo da técnica
 
 A resposta curta é que, por padrão, **a sua técnica não usa atributo nenhum**. Isso confunde quem vem de outros sistemas, então vale abrir.
 
@@ -3164,6 +3171,7 @@ A resposta curta é que, por padrão, **a sua técnica não usa atributo nenhum*
 
 O `2 + maestria` faz para o conjurador o trabalho que a Força faz para quem bate com o braço: ele cresce sozinho, no mesmo ritmo de um atributo em que a pessoa investe a campanha inteira. A diferença é que ele não te cobra nada. Você distribui os seus pontos de atributo onde quiser, e a sua técnica não fica para trás por causa disso.
 
+**Ataque e CD por nível**
 | Seu nível | Maestria | Ataque de conjuração | CD dos seus feitiços |
 |---|---|---|---|
 | 2 a 9 | 1 | d20 + 3 | 13 |
@@ -3171,7 +3179,7 @@ O `2 + maestria` faz para o conjurador o trabalho que a Força faz para quem bat
 | 18 a 25 | 3 | d20 + 5 | 15 |
 | 26 a 30 | 4 | d20 + 6 | 16 |
 
-Repare que não tem coluna de atributo aí. Não existe "atributo de conjuração" na ficha padrão, e nenhum feitiço deste capítulo pede um.
+Não existe coluna de atributo ali. Não existe "atributo de conjuração" na ficha padrão, e nenhum feitiço pede um.
 
 **O que muda isso é o Caminho.** Algumas habilidades de Caminho trocam esse `2` fixo por um atributo, e a habilidade diz qual. É assim que nasce o feiticeiro que conjura pela Força, no molde do Todo, e as duas trocas mais comuns são por **Inteligência** ou por **Essência**. Quando você pega uma dessas habilidades, o `2` sai e o atributo entra no lugar:
 
@@ -3185,6 +3193,7 @@ Vale a pena, então, quando o atributo já é natural do seu personagem por outr
 
 **Qual dos dois, Inteligência ou Essência.** A divisória é uma frase: **Inteligência sabe, Essência percebe.**
 
+**Inteligência ou Essência**
 | Inteligência | Essência |
 |---|---|
 | conhecimento, investigação | perceber energia amaldiçoada |
@@ -3195,7 +3204,7 @@ Uma técnica de análise, registro, cálculo ou memória cai em Inteligência. U
 
 Na prática, Essência é o atributo que a maioria dos conjuradores acaba querendo alto de qualquer jeito, porque ela carrega a perícia mais rolada da mesa e o Teste de Resistência de Espírito. Inteligência é a escolha de quem construiu o personagem em cima de saber coisas.
 
-### A sua CD de feitiço
+### CD de feitiço
 
 Metade dos seus feitiços deixa a rolagem com o alvo: ele é quem rola contra você. O número que ele precisa passar é a sua **CD de feitiço**.
 
@@ -3210,6 +3219,7 @@ Metade dos seus feitiços deixa a rolagem com o alvo: ele é quem rola contra vo
 
 **O que mexe na CD.** Só três coisas sobem a sua CD, e todas são compradas por feitiço:
 
+**CD de feitiço**
 | O que | Quanto | De onde vem |
 |---|---|---|
 | `Precisão` | +2 na CD | Melhoria de Mira, custa Leve |
@@ -3220,10 +3230,9 @@ Metade dos seus feitiços deixa a rolagem com o alvo: ele é quem rola contra vo
 
 > **Exemplo.** Kaito é Classe 3, maestria 2: CD 14. Ele monta o mesmo feitiço em duas versões, uma de acerto e uma de Teste de Resistência, e escolhe na hora conforme o alvo. Contra a maldição de Defesa 12 e Vigor alto, ele usa a de acerto. Contra a de Defesa 19 e Vigor fraco, a de resistência. **O feitiço é o mesmo; o que muda é qual número do inimigo está mais baixo.**
 
-### As peças da técnica
+### Peças da técnica
 
-Este capítulo segue a ordem da ficha: o Fundamento e as Passivas primeiro, depois os feitiços, depois a Liberação Máxima e a Técnica Máxima.
-
+**Peças da técnica**
 | Peça | O que é |
 |---|---|
 | **Fundamento** | Sua técnica. Uma descrição, uma Regra, Famílias Livres e Fechadas, um Selo e as Passivas. |
@@ -3232,7 +3241,7 @@ Este capítulo segue a ordem da ficha: o Fundamento e as Passivas primeiro, depo
 | **Liberação Máxima** | O feitiço que rompe o limite de dano num alvo só. Nos níveis 10, 20 e 30. |
 | **Técnica Máxima** | O golpe de dano fixo que carrega o nome da técnica. Do nível 17 em diante. |
 
-## Os números da montagem
+## Números da montagem
 
 Esta seção concentra os números que o resto do capítulo usa. Não precisa decorar nada: volte aqui sempre que um trecho citar um valor.
 
@@ -3243,6 +3252,7 @@ Esta seção concentra os números que o resto do capítulo usa. Não precisa de
 > **Custo em PE** = 3 × Classe (o mesmo número dos pontos)
 > Melhoria `Leve` custa metade da Classe · `Média` custa a Classe · `Pesada` custa Classe e meia. Arredonde para cima.
 
+**Números da montagem**
 | Classe | Nível | Pontos e PE | Leve | Média | Pesada | Devol. máx | Liberação | Teto | Dano cheio | Cura cheia |
 |---|---|---|---|---|---|---|---|---|---|---|
 | **1** | 1 | 3 | 1 | 1 | 2 | 2 | +1 | 4 | 3d8 = 13 | 2d8 = 9 |
@@ -3261,6 +3271,7 @@ A coluna **Teto** é o máximo de dados de dano de um feitiço quando você soma
 
 ### Melhorias e Restrições por Classe
 
+**Melhorias e Restrições por Classe**
 | Classe do feitiço | Melhorias | Restrições |
 |---|---|---|
 | **1 e 2** | 2 | 2 |
@@ -3277,6 +3288,7 @@ Conjurar um feitiço custa **3 × Classe** de PE, o mesmo número dos pontos del
 
 Com um conjurador ganhando 6 PE por nível, isso dá:
 
+**Energia**
 | Nível | PE total | Maior Classe | Custo | Quantas vezes você lança o seu melhor feitiço |
 |---|---|---|---|---|
 | 1 | 6 | 1 | 3 | 2 |
@@ -3295,17 +3307,19 @@ Com um conjurador ganhando 6 PE por nível, isso dá:
 
 Feitiços de Classe 0 não gastam PE, não ocupam espaço na lista e não se montam: escolha uma Forma e pronto. São o golpe de todo turno em que o PE precisa ser poupado.
 
+**Classe 0**
 | Seu nível | 1 | 5 | 11 | 17 | 25 |
 |---|---|---|---|---|---|
 | Quantos você tem | 2 | 3 | 4 | 5 | 5 |
 | Dano | 2d8 | 3d8 | 4d8 | 5d8 | 6d8 |
 
-Cabe uma Melhoria `Leve` numa Classe 0, tirando um dado para pagar. A base de alcance da Classe 0 fica um degrau abaixo da normal, e a tabela está em *Criando feitiços*.
+Cabe uma Melhoria `Leve` numa Classe 0, tirando um dado para pagar. A base de alcance da Classe 0 fica um degrau abaixo da normal, e o valor está em *Criando feitiços*.
 
-### O dado
+### Dado
 
 Monte sempre em d8: pontos, Melhorias e Restrições só existem em d8. Se a sua mesa rola outro dado, converta o total final na hora de rolar.
 
+**Dado**
 | d8 | d6 | d12 | d8 | d6 | d12 | d8 | d6 | d12 |
 |---|---|---|---|---|---|---|---|---|
 | 1 | 1 | 1 | 11 | 14 | 8 | 21 | 27 | 15 |
@@ -3356,6 +3370,7 @@ Se estiver travado, o **Catálogo de temas** no apêndice traz 70 pontos de part
 
 As Melhorias, que são as peças que você compra para os seus feitiços, estão divididas em nove Famílias, cada uma cuidando de um tipo de efeito:
 
+**Famílias**
 | Família | Do que trata |
 |---|---|
 | **Alcance** | Chegar longe, se mexer, mexer o inimigo de lugar |
@@ -3390,6 +3405,7 @@ O Selo não mexe em ponto nenhum: não custa, não devolve e não dá bônus. El
 
 O Selo é uma coisa só, e a mesa consegue apontar o momento em que aconteceu. Se você precisa de mais de uma frase para explicar, aquilo virou condição de cena ou de alvo, e isso se compra por feitiço, com a Restrição `Condicional`.
 
+**É Selo ou é `Condicional`**
 | É Selo | Vira `Condicional` |
 |---|---|
 | Bater palma | Bater palma três vezes no ritmo certo |
@@ -3399,6 +3415,7 @@ O Selo é uma coisa só, e a mesa consegue apontar o momento em que aconteceu. S
 
 O Selo pode mudar de forma sem perder a função: se você perde a mão que batia palma, arruma outra coisa que faça o mesmo som.
 
+**Selos da obra**
 | Selos de Jujutsu Kaisen | O Selo |
 |---|---|
 | Nobara (Boneco de Palha) | Martelo e prego na mão. |
@@ -3414,6 +3431,7 @@ O Selo pode mudar de forma sem perder a função: se você perde a mão que bati
 
 Passiva é o que a sua técnica faz sem você mandar: o efeito que fica ligado enquanto você existe. Cada Passiva tem uma **Classe Passiva**, e é paga com **espaços de feitiço conhecido**. Você abre mão de saber mais feitiços para que a técnica trabalhe sozinha.
 
+**Passivas**
 | Classe Passiva | Custa | Libera no nível | O que cabe |
 |---|---|---|---|
 | **Livre** | nada | 1 | Ficção pura. Não rola dado, não muda número, não faz ninguém rolar. Todo personagem tem uma. |
@@ -3433,7 +3451,7 @@ Você enxerga emoção como cor. Planta murcha quando você passa. Você nunca s
 
 A Livre entrega o dado cru: você vê o medo na cor de alguém, e descobrir o motivo do medo continua sendo trabalho seu.
 
-#### O que nenhuma Passiva paga pode fazer
+#### Limites
 
 - Bônus de dano ou acerto que vale o tempo todo, sem condição.
 - Uma ação a mais por rodada.
@@ -3443,6 +3461,7 @@ A Livre entrega o dado cru: você vê o medo na cor de alguém, e descobrir o mo
 
 #### Lista
 
+**Lista**
 | Passiva | Classe Passiva | O que faz |
 |---|---|---|
 | `Leitura` | 1 | Você identifica a Classe e a Forma de qualquer feitiço conjurado a até 18 m. |
@@ -3480,7 +3499,7 @@ A `Regra Própria` é a única Passiva que pode ser comprada em Classe Passiva 1
 *"Quando eu aposto e ganho, meu próximo teste na cena tem vantagem. Uma vez por cena."*
 *"Duas coisas que eu tocar na mesma rodada ficam ligadas até o fim da cena."*
 
-## Três Fundamentos prontos
+## Fundamentos prontos
 
 Três Fundamentos completos, prontos para usar como estão ou para servir de régua na hora de escrever o seu. O primeiro deles, a **Régua**, volta em *Criando feitiços* para montar o primeiro feitiço do capítulo.
 
@@ -3488,6 +3507,7 @@ Os três param onde a criação de personagem para: Descrição, Regra, Família
 
 ### Régua
 
+**Ficha de feitiço**
 | | |
 |---|---|
 | **Descrição** | Ele mede. Aponta o dedo, calcula a distância até o alvo e cobra essa distância do corpo do outro. Nada disso dá para ver: a mão dele fica parada, e o corte aparece sozinho no outro lado. Quanto mais longe, mais fundo. Tipo de dano: corte. |
@@ -3498,6 +3518,7 @@ Os três param onde a criação de personagem para: Descrição, Regra, Família
 
 ### Sentença
 
+**Ficha de feitiço**
 | | |
 |---|---|
 | **Descrição** | Ela só registra. Cada coisa que acontece perto dela fica anotada em algum lugar que ninguém vê, e uma hora a conta fecha. O que ela cobra quando fecha é o que a pessoa devia. Tipo de dano: psíquico. |
@@ -3509,6 +3530,7 @@ Os três param onde a criação de personagem para: Descrição, Regra, Família
 
 ### Banca
 
+**Ficha de feitiço**
 | | |
 |---|---|
 | **Descrição** | Ele joga. A técnica sai da mão como aposta: moeda no ar, carta virada, um dado rolando em algum lugar que ninguém vê. O golpe em si paga pouco, porque o prêmio de verdade fica guardado com a banca, e a banca fecha a conta quando ele ganha. Tipo de dano: impacto. |
@@ -3524,7 +3546,7 @@ O orçamento da Banca mora na Passiva. Os feitiços são fracos de propósito: a
 
 Com o Fundamento escrito, os feitiços saem dele. Montar um feitiço é uma conta curta: escolher o tamanho, escolher como ele sai, gastar os pontos e dar um nome. Esta seção percorre os passos e depois monta um feitiço completo, do zero, para você ver a conta acontecendo.
 
-### Quantos feitiços cabem na sua lista
+### Teto de feitiços
 
 Antes de montar o primeiro, veja quantos você tem direito de escrever. A conta é do capítulo 14, *Experiência e Progressão*, e está repetida aqui porque é agora que você precisa dela.
 
@@ -3533,6 +3555,7 @@ Antes de montar o primeiro, veja quantos você tem direito de escrever. A conta 
 
 Na prática, você abre um espaço novo **a cada nível par**, e nos marcos abre dois de uma vez.
 
+**Teto de feitiços**
 | Seu nível | 1 | 2 | 5 | 10 | 14 | 20 | 26 | 30 |
 |---|---|---|---|---|---|---|---|---|
 | **Espaços** | 2 | 3 | 4 | 9 | 12 | 16 | 21 | 24 |
@@ -3543,7 +3566,7 @@ Ficam **fora** da conta os feitiços de **Classe 0**, que são contados à parte
 
 > **Exemplo.** Mei está no nível 10. São 9 espaços: `2 + 5` da conta, mais 2 dos marcos 6 e 10. Ela já gastou 2 numa Passiva de Classe Passiva 2, então tem **7 feitiços montados** na ficha, mais os 3 de Classe 0 e a Liberação Máxima que o nível 10 acabou de dar.
 
-### Os cinco passos
+### Passos
 
 1. Escolha a **Classe**, até a maior que o seu nível liberou. Ela define os pontos (3 × Classe), o custo em PE (o mesmo número) e quantas Melhorias e Restrições cabem.
 2. Escolha a **Forma**: como o feitiço sai de você. Algumas Formas custam pontos; nenhuma conta no limite de Melhorias.
@@ -3568,6 +3591,7 @@ A **Régua** mede distâncias e cobra por elas. As Famílias Livres dela são Mi
 
 **Passo 5, nome.** Está pronto, e vai para a ficha assim:
 
+**Ficha de feitiço**
 | | |
 |---|---|
 | **Nome** | `Corte Medido` |
@@ -3581,7 +3605,7 @@ A **Régua** mede distâncias e cobra por elas. As Famílias Livres dela são Mi
 | **Como é** | Ele para, aponta, diz o nome do alvo, e a distância medida abre no corpo do outro, como um corte de papel do tamanho do caminho. |
 
 > **Erros comuns**
-> **Vender Restrição sem Melhoria para pagar.** A devolução some. O `Golpe Cru`, em *Feitiços prontos*, faz isso de propósito, para mostrar que não existe dano de graça.
+> **Vender Restrição sem Melhoria para pagar.** A devolução some. O `Golpe Cru`, em *Feitiços prontos*, é um exemplo disso.
 > **Contar que Restrição vira dado.** Nunca vira: contra um alvo só, 6 pontos continuam sendo o máximo de dados de uma Classe 2, com ou sem Restrição.
 > **Empilhar duas Restrições de frequência** (`Uma Vez`, `Condicional`, `Aquecer`, `Dívida`). Não pode, e *Combinações inviáveis* explica a trava.
 
@@ -3589,6 +3613,7 @@ A **Régua** mede distâncias e cobra por elas. As Famílias Livres dela são Mi
 
 A Forma é o corpo do feitiço: define quem ele atinge e como se resolve. Escolha uma por feitiço.
 
+**Formas**
 | Forma | Custa | O que é | Como resolve |
 |---|---|---|---|
 | `Projétil` | — | 18 m, um alvo | Rolagem de acerto |
@@ -3610,6 +3635,7 @@ Cada Forma pertence a uma Família: `Explosão`, `Cone` e `Linha` à **Área**; 
 
 Alcances e tamanhos crescem por degraus fixos. As Melhorias de Alcance e Área (`Longe`, `Maior` e as irmãs) sobem degraus nestas escadas:
 
+**Escadas**
 | Escada | Degraus |
 |---|---|
 | **Alcance** | 1,5 m → 9 m → 18 m → 36 m → 90 m → o que você enxergar |
@@ -3622,6 +3648,7 @@ Se uma Melhoria subir mais degraus do que a escada tem, ela para no último degr
 
 #### Base por Classe
 
+**Base por Classe**
 | Forma | Classe 0 | Classes 1 a 5 | Classes 6 e 7 |
 |---|---|---|---|
 | `Projétil` e `Toque` | 9 m | 18 m | 36 m |
@@ -3636,6 +3663,7 @@ Se uma Melhoria subir mais degraus do que a escada tem, ela para no último degr
 
 Você pode lançar qualquer feitiço que conhece numa Classe maior que a original, até a sua Classe máxima, pagando o PE da Classe nova. Refaça a conta inteira com os números novos: pontos, preços de Melhoria e devoluções de Restrição mudam todos juntos.
 
+**Ampliar**
 | `Palma Trovejante` · Classe | Pontos | `Cone` (Leve) | `Derrubado` (Leve) | `Lento` (devolve) | Dano | PE |
 |---|---|---|---|---|---|---|
 | Classe 2 (original) | 6 | −1 | −1 | +2 | 6d8 = 27 | 6 |
@@ -3650,6 +3678,7 @@ A Forma `Cura` custa `Média` e transforma em cura os dados que sobrarem, aplica
 
 Para pegar mais gente: `Junto` (Amparo) soma um aliado dividindo o efeito, e a Forma `Onda` cura em área sem dividir.
 
+**Cura**
 | Classe | 1 | 2 | 3 | 4 | 5 |
 |---|---|---|---|---|---|
 | **Cura cheia** | 2d8 = 9 | 4d8 = 18 | 6d8 = 27 | 8d8 = 36 | 10d8 = 45 |
@@ -3665,6 +3694,7 @@ Feitiço que carrega pelo menos uma Melhoria da família **Controle** ganha um b
 
 O bônus vale só contra os efeitos de Controle do feitiço. O Teste de Resistência do dano, quando existe, fica como está.
 
+**Controle**
 | Feitiço de Classe 5 · 15 pontos · teto 20 · um quarto = 5 | Dano final | O que ganha |
 |---|---|---|
 | 15d8 puro, sem Controle | 15d8 | nada |
@@ -3676,9 +3706,9 @@ O bônus vale só contra os efeitos de Controle do feitiço. O Teste de Resistê
 
 Uma condição sozinha nunca dispara o bônus. Para chegar no primeiro degrau você compra duas peças de Controle, ou uma condição e alguma outra coisa cara. E para o segundo, o feitiço precisa sair sem um único dado de dano.
 
-Falta uma peça nesta história: o feitiço que rompe o limite de dano contra um alvo só. Ela chega no nível 10, e tem seção própria em *A Liberação Máxima*.
+Falta uma peça nesta história: o feitiço que rompe o limite de dano contra um alvo só. Ela chega no nível 10, e tem seção própria em *Liberação Máxima*.
 
-## As Melhorias, família por família
+## Melhorias por família
 
 Sessenta e seis Melhorias, em nove Famílias. O preço de cada uma depende da Classe do feitiço em que ela entra: `Leve` custa metade da Classe, `Média` custa a Classe inteira, `Pesada` custa Classe e meia, sempre arredondando para cima.
 
@@ -3688,6 +3718,7 @@ Exemplo de leitura: num feitiço de Classe 3, uma `Leve` custa 2 pontos, uma `M�
 
 Essas Melhorias resolvem distância: o feitiço chega mais longe, ou você se move junto com ele.
 
+**Alcance**
 | Melhoria | Custo | O que faz |
 |---|---|---|
 | `Longe` | `Leve` | Sobe um degrau na escada de alcance. Pode comprar duas vezes. |
@@ -3702,6 +3733,7 @@ Essas Melhorias resolvem distância: o feitiço chega mais longe, ou você se mo
 
 Aqui o feitiço para de mirar uma pessoa só: ele cresce, se divide em vários tiros, ou pula de alvo em alvo.
 
+**Área**
 | Melhoria | Custo | O que faz |
 |---|---|---|
 | `Maior` | `Leve` | Sobe um degrau de tamanho de área. Pode comprar duas vezes. |
@@ -3717,6 +3749,7 @@ Aqui o feitiço para de mirar uma pessoa só: ele cresce, se divide em vários t
 
 Garantem o acerto: menos chance de errar, mais chance de atravessar a defesa do outro.
 
+**Mira**
 | Melhoria | Custo | O que faz |
 |---|---|---|
 | `Precisão` | `Leve` | +2 na rolagem de acerto, ou +2 na CD do Teste de Resistência. |
@@ -3734,6 +3767,7 @@ Garantem o acerto: menos chance de errar, mais chance de atravessar a defesa do 
 
 O inimigo sai da luta sem cair morto: no chão, preso, ou lutando contra o próprio terreno.
 
+**Controle**
 | Melhoria | Custo | O que faz |
 |---|---|---|
 | `Condição` | o nível dela | Aplica uma das catorze condições. O preço é o nível dela (`Leve`, `Média` ou `Pesada`), na tabela logo abaixo. Dura uma rodada. As de nível `Pesada` dão Teste de Resistência no fim de cada turno do alvo, e cabe só uma delas por feitiço. |
@@ -3744,14 +3778,15 @@ O inimigo sai da luta sem cair morto: no chão, preso, ou lutando contra o próp
 | `Puxa` | `Média` | Todo mundo na área é puxado 6 m na direção do centro. |
 | `Desarma o Feitiço` | `Média` | Cancela um efeito contínuo ou uma barreira de Classe igual ou menor que a sua. |
 
-### As condições, uma a uma
+### Condições
 
 São catorze, e cada uma tem um **nível**: `Leve`, `Média` ou `Pesada`. O nível faz duas coisas ao mesmo tempo. Ele é o **preço** da Melhoria `Condição` que aplica ela, e é o que custa em energia para **tirar** ela de alguém (1 ponto por nível). Uma condição dura uma rodada.
 
-Cada condição custa o que ela vale, e é por isso que são três níveis: `Impedido` e `Surdo` pesam coisas muito diferentes numa luta.
+Cada condição custa o que ela vale. `Impedido` e `Surdo` pesam coisas muito diferentes numa luta.
 
 Numa Classe 5, aplicar uma `Leve` custa 3 pontos, uma `Média` custa 5 e uma `Pesada` custa 8.
 
+**Condições `Leve`**
 | Nível `Leve` | O que faz |
 |---|---|
 | `Lento` | Deslocamento pela metade, e sem Ação Bônus. |
@@ -3761,11 +3796,13 @@ Numa Classe 5, aplicar uma `Leve` custa 3 pontos, uma `Média` custa 5 e uma `Pe
 | `Desarmado` | A sua arma está no chão ou na mão de outro. Você bate desarmado até pegar de volta. |
 | `Surdo` | Não ouve. Falha automática em teste que precise de audição, e −2 na iniciativa. |
 
+**Condições `Média`**
 | Nível `Média` | O que faz |
 |---|---|
 | `Calado` | Você não conjura. Nada que precise de voz, gesto ou Selo sai. |
 | `Enfeitiçado` | Você não ataca quem enfeitiçou nem mira efeito nocivo nele, e ele tem vantagem em teste social contra você. |
 
+**Condições `Pesada`**
 | Nível `Pesada` | O que faz |
 |---|---|
 | `Petrificado` | Virou pedra. `Incapacitado`, deslocamento 0, sem perceber o que está em volta, vantagem para quem te ataca, e resistência a todo dano. |
@@ -3777,13 +3814,14 @@ Numa Classe 5, aplicar uma `Leve` custa 3 pontos, uma `Média` custa 5 e uma `Pe
 
 **`Atordoado` e `Incapacitado` atacam eixos diferentes, e não se empilham.** Um tira ação, o outro tira defesa:
 
+**`Atordoado` e `Incapacitado`**
 | | `Atordoado` | `Incapacitado` |
 |---|---|---|
 | **O que tira** | parte do turno: uma Ação Padrão e a reação | a defesa |
 | **O alvo ainda** | se defende normalmente | age normalmente |
 | **Nível** | `Pesada` | `Leve` |
 
-Tirar o que o alvo **faz** custa três vezes mais do que tirar o que **protege** ele. E o `Atordoado` cobra uma Ação Padrão só, de propósito: um chefe age mais de uma vez por rodada, e apagar o turno dele com uma linha de Controle sairia barato demais.
+Tirar o que o alvo **faz** custa três vezes mais do que tirar o que **protege** ele. E o `Atordoado` cobra uma Ação Padrão só: um chefe age mais de uma vez por rodada, e apagar o turno dele com uma linha de Controle sairia barato demais.
 
 > **Três coisas que não são condição aqui.**
 > `Inconsciente` é cair morrendo, e tem regra própria no capítulo 1, *Como Jogar*: não é efeito de uma rodada.
@@ -3794,6 +3832,7 @@ Tirar o que o alvo **faz** custa três vezes mais do que tirar o que **protege**
 
 Pequenos empurrões de sorte, pros dois lados da mesa: números em cima de alguém. Em feitiço de dano valem contra o alvo; nas Formas de Amparo, valem no aliado.
 
+**Auxiliares**
 | Melhoria | Custo | O que faz |
 |---|---|---|
 | `Impulso` | `Leve` | O alvo tem vantagem no próximo teste dele, até o fim do próximo turno. |
@@ -3810,6 +3849,7 @@ Pequenos empurrões de sorte, pros dois lados da mesa: números em cima de algu�
 
 O dano que continua doendo depois do golpe: queima que volta, corte que piora contra quem já está machucado.
 
+**Castigo**
 | Melhoria | Custo | O que faz |
 |---|---|---|
 | `Queima` | `Média` | Metade dos dados de novo, no começo do próximo turno do alvo. |
@@ -3824,6 +3864,7 @@ O dano que continua doendo depois do golpe: queima que volta, corte que piora co
 
 Aqui você compra o momento do feitiço: mais rápido que o normal, disparado escondido, ou fora da sua vez.
 
+**Tempo**
 | Melhoria | Custo | O que faz |
 |---|---|---|
 | `Rápido` | `Pesada` | Custa Ação Bônus em vez de Ação Padrão. Não entra no mesmo feitiço que `Reação`. |
@@ -3839,6 +3880,7 @@ Aqui você compra o momento do feitiço: mais rápido que o normal, disparado es
 
 O que sobra depois que o feitiço passou: uma marca no alvo, um fio que puxa energia de volta pra você.
 
+**Marca**
 | Melhoria | Custo | O que faz |
 |---|---|---|
 | `Marca` | `Leve` | O alvo fica marcado até o fim do seu próximo turno. **Você** tem vantagem no seu próximo ataque contra ele. Só você. |
@@ -3852,6 +3894,7 @@ O que sobra depois que o feitiço passou: uma marca no alvo, um fio que puxa ene
 
 A mão que segura quem caiu. Funcionam com as Formas `Cura`, `Apoio` e `Onda` e, quando fizer sentido, em feitiço de dano que atinja aliados.
 
+**Amparo**
 | Melhoria | Custo | O que faz |
 |---|---|---|
 | `Limpa` | `Média` | Remove de um aliado uma condição de nível `Leve` ou `Média`. |
@@ -3864,18 +3907,20 @@ A mão que segura quem caiu. Funcionam com as Formas `Cura`, `Apoio` e `Onda` e,
 
 ### Fora de família
 
+**Fora de família**
 | Melhoria | Custo | O que faz |
 |---|---|---|
 | `Efeito Próprio` | o mestre decide | Uma mecânica que não existe em lugar nenhum desta lista. Um deslocamento junto com o dano, um efeito que só funciona em superfície molhada, o que for. Um por feitiço, combinado antes da sessão e nunca no meio dela. Não pertence a nenhuma Família, então Família Fechada não bloqueia. |
 
 A Restrição equivalente é a `Restrição Própria`, no fim de *As Restrições*.
 
-## As Restrições
+## Restrições
 
 Restrição é a desvantagem que você aceita em troca de pontos: o preço que a mesa vê o personagem pagando antes do golpe sair, um turno parado, um corte na própria pele, uma condição que sobra pra depois. Um feitiço carrega no máximo duas, e a devolução total não passa de **2 × Classe**. O que a Restrição devolve serve só para pagar Melhoria: se devolver mais do que você gastou, o excedente se perde. Restrição nunca vira dano.
 
 Uma Restrição devolve `Leve` ou `Média`, nunca `Pesada`. Duas `Média` já batem no teto de devolução da Classe, então o catálogo inteiro cabe dentro do fecho.
 
+**Restrições**
 | Restrição | Devolve | O que muda |
 |---|---|---|
 | `Corpo a Corpo` | `Média` | `Projétil` vira `Toque` (1,5 m). `Explosão` vira `Aura`, centrada em você. `Cone` e `Linha` já saem de você, então não podem pegar esta. |
@@ -3901,6 +3946,7 @@ Uma Restrição devolve `Leve` ou `Média`, nunca `Pesada`. Duas `Média` já ba
 
 Se a desvantagem que você imaginou não está na lista, escreva ela. A `Restrição Própria` é o espelho do `Efeito Próprio`: você propõe a dor, o mestre define quanto ela devolve.
 
+**Restrição Própria**
 | Restrição | Devolve | O que muda |
 |---|---|---|
 | `Restrição Própria` | `Leve` ou `Média` | Uma desvantagem que não existe nesta lista. Escrita com o mestre antes da sessão, nunca no meio dela, e vale só para o feitiço onde nasceu. Conta no limite de duas Restrições e obedece as mesmas travas de todas as outras. |
@@ -3947,6 +3993,7 @@ Falhou em um dos três, é feitiço: monte e pague. Passou nos três, funciona, 
 
 A régua geral é essa: **perceber é Livre, interferir é feitiço**. E o que você percebe vem cru: a cor do medo aparece, o motivo continua por sua conta.
 
+**Uso Livre**
 | Uso Livre | Vira feitiço |
 |---|---|
 | Aquecer uma xícara | Aquecer uma sala inteira |
@@ -3966,6 +4013,7 @@ Quando a coisa é grande o bastante para mudar uma cena, monte um feitiço com a
 
 Num feitiço de `Efeito`, os pontos da Classe servem só para comprar Melhorias. Ponto que sobrar não vira nada, porque a escala já está paga pela Classe.
 
+**Forma Efeito**
 | Classe | O que cabe | Quanto dura |
 |---|---|---|
 | **0** | Coisa de mão: acender uma vela, trancar uma porta, marcar um objeto. | até você desfazer |
@@ -3984,7 +4032,7 @@ Feitiço de `Efeito` custa PE igual a qualquer outro e ocupa espaço na sua list
 > Um quarteirão inteiro para de fazer barulho por uma hora. Portas não rangem, tiro não estala, ninguém grita alto o bastante para ser ouvido de fora.
 > Custa 9 de PE.
 
-## A Liberação Máxima
+## Liberação Máxima
 
 No nível 10, o personagem aprende a romper o próprio limite. A Liberação Máxima é o único feitiço capaz de passar dos pontos da Classe em dano contra um alvo só. É o pico de dano que a ficha alcança, e por isso ela é contada: você só tem as que os níveis deram.
 
@@ -4009,10 +4057,11 @@ Fora isso, ela é um feitiço como os outros: aceita Melhorias e Restrições de
 > PE: 15 + 50% = 22,5, arredondando para cima: **23**.
 > Rodada inteira, mais o preço escolhido na hora.
 
-## A Técnica Máxima
+## Técnica Máxima
 
 No nível 17, a técnica ganha o golpe que carrega o nome dela. O dano da Técnica Máxima é **fixo**, definido pela sua faixa de nível, e nenhum ponto compra dado a mais. O que você monta é a Forma e as Melhorias que vestem esse dano.
 
+**Técnica Máxima**
 | Nível | Dano (fixo) | Pontos de montagem | PE |
 |---|---|---|---|
 | **17 a 20** | 24d8 = 108 | 8 | 25 |
@@ -4024,7 +4073,7 @@ No nível 17, a técnica ganha o golpe que carrega o nome dela. O dano da Técni
 > **Os pontos de montagem compram só a Forma e as Melhorias.** São um orçamento à parte, gasto nos preços da sua **maior Classe**. Na faixa 17 a 20, isso significa preços de Classe 5: `Leve` 3, `Média` 5, `Pesada` 8. Ponto de montagem que sobrar se perde, e não vira dado.
 > **O PE tem fórmula própria.** A Técnica Máxima não tem Classe, então não custa 3 × Classe como um feitiço: custa **5 × a sua maior Classe**, ou seja, 25, 30 e 35 PE por faixa.
 
-### Como montar
+### Montagem
 
 1. Escolha a **Forma**. `Projétil` e `Toque` são de graça; as outras custam o preço normal delas, pago do orçamento de montagem.
 2. Gaste o resto do orçamento em **Melhorias**, nos preços da sua maior Classe. Melhoria que escala com Classe, como `Fura`, que ignora 3 × Classe de RD, também usa a sua maior Classe.
@@ -4054,8 +4103,9 @@ Ela é **comprada**, com espaços de feitiço conhecido, e só abre quando o seu
 > O refino é o eixo de controle da sua ficha: quanto da sua energia você não desperdiça. Ele é do capítulo 10, *Aptidões e Refino*, sobe com os seus marcos e vai de 1 a 10.
 > Aqui ele é lido em três lugares e nada mais: **o requisito**, **o desconto lá dentro** e **quanto tempo o domínio fica de pé.**
 
-### Os dois degraus
+### Degraus
 
+**Degraus**
 | Degrau | Custa | Abre em | O Acerto dela |
 |---|---|---|---|
 | **Incompleta** | 2 espaços | nível 10 e refino 4 | resolve por rolagem, como um feitiço |
@@ -4067,10 +4117,11 @@ Ela é **comprada**, com espaços de feitiço conhecido, e só abre quando o seu
 
 O teto do feitiço não muda por causa dela, e as duas ficam **fora** da conta de Liberações Máximas.
 
-### O que você escreve: o Acerto e o Efeito
+### Acerto e Efeito
 
 Um domínio tem duas peças, e elas fazem coisas diferentes. Escreva as duas com o mestre antes da campanha, uma frase cada, e as duas precisam caber na **Regra** da sua técnica.
 
+**Acerto e Efeito**
 | Peça | A pergunta que ela responde |
 |---|---|
 | **Acerto** | O que o domínio *garante que acontece* com quem está lá dentro. |
@@ -4083,7 +4134,7 @@ Um domínio tem duas peças, e elas fazem coisas diferentes. Escreva as duas com
 > **Se o seu Acerto é uma regra sobre o ambiente**, a régua são os requisitos da `Regra Própria`: uma frase, verificável, sem número solto. O mestre aponta o momento em que ela vale, e ela vale igual para todo mundo lá dentro, inclusive para você.
 > A diferença entre as duas é de que máquina o mestre usa para dizer sim ou não.
 
-### Abrir, e o que muda lá dentro
+### Abrir o Domínio
 
 **Custa a rodada inteira.** A incompleta cobra **6 × a sua maior Classe** de PE; a completa, **8 ×**.
 
@@ -4098,7 +4149,7 @@ Um domínio tem duas peças, e elas fazem coisas diferentes. Escreva as duas com
 > **A expansão conta como feitiço para a regra de ouro nº 6.**
 > Se alguma coisa algum dia baixar o custo de abrir para Ação Bônus, a regra nº 6 passa a valer sozinha: *feitiço em Ação Bônus ou Reação só permite mais um de Classe 0 no turno.* Ou seja, quem abrir domínio em Ação Bônus não lança mais nada de peso naquele turno.
 
-### A barreira, e o Rescaldo
+### Barreira e Rescaldo
 
 Só a completa levanta barreira. Por dentro ela **não quebra**: quem está lá dentro está lá dentro. Por fora ela tem 50 × metade do refino de vida, e cair antes da hora é o único jeito de alguém encurtar o seu domínio.
 
@@ -4110,8 +4161,9 @@ Só a completa levanta barreira. Por dentro ela **não quebra**: quem está lá 
 > Isso é **preço**: acontece em todo uso, e você já sabia disso quando abriu. É o que impede o domínio de ser mais uma linha da rotação.
 > Rescaldo e a exaustão do descanso não somam: são escadas diferentes, e esta aqui tem um degrau só.
 
-### Nove domínios da obra, lidos nas duas peças
+### Domínios da obra
 
+**Domínios da obra**
 | Quem | Acerto | Efeito |
 |---|---|---|
 | Megumi *(incompleta)* | todas as invocações dele ganham reforço | invocar todas elas de uma vez |
@@ -4124,7 +4176,7 @@ Só a completa levanta barreira. Por dentro ela **não quebra**: quem está lá 
 | Hakari | todos recebem a informação do domínio | o pachinko, e a regeneração que ele paga |
 | Higuruma | ninguém no ambiente pode causar dano | o julgamento, e as punições que ele libera |
 
-**Repare no que a tabela mostra sobre os dois degraus.** O Megumi é o único incompleto da lista, e o Acerto dele *reforça* em vez de *atingir*: é o que dá para fazer quando o Acerto ainda rola. Os oito completos entregam coisas que não falham, e é isso que o terceiro espaço compra.
+O Megumi é o único incompleto da lista, e o Acerto dele *reforça* em vez de *atingir*: é o que dá para fazer quando o Acerto ainda rola. Os oito completos entregam coisas que não falham, e é isso que o terceiro espaço compra.
 
 E repare também que **Efeito quase nunca é dano**. Alcance, repertório, amplificação, uma mecânica nova, controle sobre quem o Acerto pega. O dano, quando existe, mora no Acerto.
 
@@ -4132,6 +4184,7 @@ E repare também que **Efeito quase nunca é dano**. Alcance, repertório, ampli
 
 Oito regras seguram o sistema inteiro. Se um feitiço passar por todas, ele é legal, e o checklist do mestre segue exatamente esta lista.
 
+**Regras de ouro**
 | # | Regra |
 |---|---|
 | **1** | Restrição paga Melhoria. Nunca vira dado de dano. O excedente some. |
@@ -4147,6 +4200,7 @@ Duas notas acompanham as oito: Restrição que o seu Selo já obriga não devolv
 
 ## Progressão
 
+**Progressão**
 | Nível | O que ganha |
 |---|---|
 | **1** | Fundamento com três Famílias Fechadas. Dois feitiços de Classe 0 (grátis). Classe 1. Passiva Livre. |
@@ -4162,7 +4216,7 @@ Duas notas acompanham as oito: Restrição que o seu Selo já obriga não devolv
 | **26** | Classe 7. |
 | **30** | A terceira Liberação Máxima. |
 
-O Fundamento manda na Classe, na Liberação Máxima e em quando cada Classe Passiva abre, e a tabela acima é sobre isso. Quantos feitiços você conhece é conta de *Experiência e Progressão*: a fórmula está resumida em *Criando feitiços*, e a tabela nível a nível mora no capítulo 14, *Experiência e Progressão*.
+O Fundamento manda na Classe, na Liberação Máxima e em quando cada Classe Passiva abre. Quantos feitiços você conhece é conta de *Experiência e Progressão*: a fórmula está resumida em *Criando feitiços*, e a progressão nível a nível mora no capítulo 14, *Experiência e Progressão*.
 
 O que continua valendo aqui: **Passiva é paga com espaços dessa lista**, a **Expansão de Domínio** também, e as **Liberações Máximas ficam de fora**, porque elas não ocupam espaço.
 
@@ -4180,6 +4234,7 @@ Trinta e cinco feitiços montados e conferidos, para usar como estão ou como re
 
 ### Classe 1 · 3 pontos · 3 PE
 
+**Classe 1 · 3 pontos · 3 PE**
 | Nome | Como foi montado | Resultado |
 |---|---|---|
 | `Estalo` | `Projétil` | 3d8 = 13 |
@@ -4189,6 +4244,7 @@ Trinta e cinco feitiços montados e conferidos, para usar como estão ou como re
 
 ### Classe 2 · 6 pontos · 6 PE
 
+**Classe 2 · 6 pontos · 6 PE**
 | Nome | Como foi montado | Resultado |
 |---|---|---|
 | `Palma Trovejante` | `Cone` (−1) · `Derrubado` (−1) · `Lento` (+2) | 6d8 = 27 + `Derrubado` por uma rodada |
@@ -4199,6 +4255,7 @@ Trinta e cinco feitiços montados e conferidos, para usar como estão ou como re
 
 ### Classe 3 · 9 pontos · 9 PE
 
+**Classe 3 · 9 pontos · 9 PE**
 | Nome | Como foi montado | Resultado |
 |---|---|---|
 | `Marca do Carrasco` | `Projétil` · `Marca` (−2) · `Queima` (−3) · `Uma Vez` (+2) | 6d8 = 27 e 3d8 = 13 no turno seguinte |
@@ -4211,6 +4268,7 @@ Trinta e cinco feitiços montados e conferidos, para usar como estão ou como re
 
 ### Classe 4 · 12 pontos · 12 PE
 
+**Classe 4 · 12 pontos · 12 PE**
 | Nome | Como foi montado | Resultado |
 |---|---|---|
 | `Prisão de Sombras` | `Explosão` (−2) · `Atordoado` (−6) · `Escolher` (−4) · `Sangra` (+4) | 4d8 = 18 + `Atordoado` durando uma rodada a mais; você toma 8 |
@@ -4223,6 +4281,7 @@ Trinta e cinco feitiços montados e conferidos, para usar como estão ou como re
 
 ### Classe 5 · 15 pontos · 15 PE
 
+**Classe 5 · 15 pontos · 15 PE**
 | Nome | Como foi montado | Resultado |
 |---|---|---|
 | `Purga Escarlate` | `Projétil` · `Inescapável` (−5) | 10d8 = 45 automático, sem acerto e sem resistência |
@@ -4239,6 +4298,7 @@ Escritas antes da sessão, Classe 3 ou mais, fora da lista de feitiços conhecid
 
 Repare na `Rachadura`: o `Lento` devolveria 3 pontos, mas a `Linha` só custou 2, e devolução nunca passa do que foi gasto em Melhoria, então o terceiro ponto some sem virar dado.
 
+**Liberações Máximas**
 | Nome | Como foi montado | Resultado |
 |---|---|---|
 | `Golpe do Voto` | Classe 5 · `Projétil` (nada mais) | 20d8 = 90, o máximo do nível 20. 23 PE |
@@ -4249,6 +4309,7 @@ Repare na `Rachadura`: o `Lento` devolveria 3 pontos, mas a `Linha` só custou 2
 
 Montadas com o orçamento da faixa 17 a 20: 8 pontos nos preços da Classe 5.
 
+**Técnicas Máximas**
 | Nome | Como foi montado | Resultado |
 |---|---|---|
 | `O Fim da Linha` | `Linha` (−3) · `Muito Longe` (−5), 8 do orçamento | 24d8 = 108 numa linha de 60 m |
@@ -4260,6 +4321,7 @@ Montadas com o orçamento da faixa 17 a 20: 8 pontos nos preços da Classe 5.
 
 ### Ficha de feitiço
 
+**Ficha de feitiço**
 | | |
 |---|---|
 | **Nome** | |
@@ -4277,6 +4339,7 @@ Montadas com o orçamento da faixa 17 a 20: 8 pontos nos preços da Classe 5.
 
 Setenta pontos de partida para escrever a sua Regra. Não têm regra nenhuma amarrada, são só ideias.
 
+**Catálogo de temas**
 | Grupo | Temas |
 |---|---|
 | **Corpo e matéria** | Corte · Impacto · Perfuração · Peso · Elasticidade · Carne · Sangue · Osso · Doença · Crescimento |
@@ -4297,13 +4360,13 @@ Os do grupo Conceito quase sempre pedem uma Passiva de `Regra Própria` para fun
 
 *fonte: `manual/45-aptidoes-e-refino.md`*
 
-Aptidão é o que qualquer feiticeiro pode aprender, venha a energia de onde vier: cobrir-se de energia, levantar uma barreira, ficar de pé dentro de uma Expansão de Domínio. Ela não depende da sua técnica, e é por isso que mora fora do Fundamento.
+Aptidão é o que qualquer feiticeiro pode aprender, venha a energia de onde vier: cobrir-se de energia, levantar uma barreira, ficar de pé dentro de uma Expansão de Domínio. Ela não depende da sua técnica.
 
 Aptidão se ensina. Ela passa de mestre para aluno, de escola de espada para escola de espada, e dois feiticeiros de técnicas opostas sabem exatamente as mesmas quatro coisas contra um domínio. É o repertório comum da profissão, e é o que faz a mesa inteira falar a mesma língua no meio de uma luta.
 
 Quem compra aptidão é o **refino**, o eixo de controle da sua ficha. Poder é quanto você tem. Refino é quanto você não desperdiça.
 
-## O refino
+## Refino
 
 Energia amaldiçoada vaza. Ela escapa do corpo de quem produz, o tempo todo, e é por isso que um feiticeiro fareja outro a um quarteirão de distância. O refino mede quanto da sua você segura.
 
@@ -4317,6 +4380,7 @@ Na ficha, o refino é um número de 1 a 10. Toda ficha começa em 1, e ele sobe 
 
 Sete marcos de graça mais o 1 do começo fecham em refino 8 sem você escolher nada. Quem escolhe Refino em todos eles bate no teto no nível 22.
 
+**Refino por marco**
 | marco | quem nunca escolhe Refino | quem sempre escolhe |
 |---|---|---|
 | começo da ficha | 1 | 1 |
@@ -4328,12 +4392,13 @@ Sete marcos de graça mais o 1 do começo fecham em refino 8 sem você escolher 
 | 26 | 7 | 10 |
 | 30 | **8** | 10 |
 
-### O que o refino pode mexer
+### Efeito do refino
 
 O refino cresce de +7 a +9 numa campanha, e atributo e maestria crescem +3. Um número que sobe três vezes mais rápido quebraria qualquer rolagem disputada em poucos níveis, então ele fica trancado fora delas.
 
 > **O refino nunca entra num número disputado contra alguém que cresce mais devagar que ele.** Ele fica fora de acerto, CD, defesa, Teste de Resistência e dano.
 
+**Efeito do refino**
 | onde o refino não entra | onde ele entra |
 |---|---|
 | acerto | custo: quanto PE a aptidão cobra |
@@ -4342,13 +4407,13 @@ O refino cresce de +7 a +9 numa campanha, e atributo e maestria crescem +3. Um n
 | Teste de Resistência | magnitude fora de disputa: Redução de Dano, proteção |
 | dano | disputa contra outro refino, como o clash de expansões |
 
-Duas entradas do catálogo chegam perto da linha e param de propósito. A `Projetar energia` é a única que põe refino em dano, e o dano dela é baixo o bastante para nunca competir com um feitiço. A proteção de `Cobrir-se de energia` entra na sua Defesa, e por isso usa `1/3 do refino` em vez do valor cheio.
+A `Projetar energia` é a única que põe refino em dano, e o dano dela é baixo o bastante para nunca competir com um feitiço. A proteção de `Cobrir-se de energia` entra na sua Defesa, e por isso usa `1/3 do refino` em vez do valor cheio.
 
 #### Arredondamento
 
 > **Toda divisão de refino arredonda para baixo.** Refino 5 dividido por 2 dá 2.
 
-## O marco
+## Marco
 
 A cada marco a ficha ganha três coisas de graça e escolhe uma quarta.
 
@@ -4370,7 +4435,7 @@ Mesmo essa ficha não fica sem nada. `Cobrir-se de energia` e `Canalizar energia
 
 *O marco é do capítulo 14, __Experiência e Progressão__: é lá que estão os sete níveis em que ele cai, quanto refino cada rota junta marco a marco, e o que Corpo e Leque compram. Aqui interessa só a escolha de Refino, que é a que vira aptidão.*
 
-## As aptidões
+## Aptidões
 
 Um marco de Refino compra **uma aptidão**, de qualquer altura que o seu refino alcance. Duas do catálogo não custam marco nenhum: `Cobrir-se de energia` e `Canalizar energia` já estão na sua ficha desde o refino 1.
 
@@ -4378,10 +4443,11 @@ Um marco de Refino compra **uma aptidão**, de qualquer altura que o seu refino 
 
 `Sua maior Classe` aparece no texto de várias aptidões. Ela é a variável do capítulo 9, *Fundamento*, e é lá que ela é definida.
 
-### A Classe Passiva
+### Classe Passiva
 
 As aptidões usam a mesma escada das Passivas, e cada degrau dela cabe uma forma diferente de efeito.
 
+**Classe Passiva**
 | Classe Passiva | o que cabe nela |
 |---|---|
 | **1** | efeito pequeno, condicional, ou de informação |
@@ -4392,10 +4458,11 @@ As aptidões usam a mesma escada das Passivas, e cada degrau dela cabe uma forma
 
 Na aptidão, a Classe Passiva não cobra nada: o marco compra uma de qualquer altura, e o preço é o mesmo. Quem separa as alturas é o gate. E como o refino escala o que a aptidão entrega, uma Classe Passiva 1 no refino 10 rende bem mais do que no refino 2.
 
-### O gate
+### Gate
 
 Cada aptidão declara o próprio requisito. Os formatos que aparecem no catálogo:
 
+**Gate**
 | formato | quem paga |
 |---|---|
 | **nenhum** | ninguém. Basta ter o marco |
@@ -4407,16 +4474,17 @@ Cada aptidão declara o próprio requisito. Os formatos que aparecem no catálog
 
 `Cortina` é a única que hoje exige outra aptidão: ela pede `Barreira Simples`, porque cortina é a barreira maior. As três de kokusen são alternativas entre si, e nenhuma exige a outra.
 
-## O catálogo
+## Catálogo
 
-Catorze entradas. Esta parte é de consulta: abra quando estiver decidindo o que o seu marco compra.
+Catorze entradas.
 
-#### Como ler uma aptidão
+### Como ler uma aptidão
 
 Cada entrada aparece duas vezes. Primeiro nesta tabela, com quatro campos: **nome**, **gate**, **Classe Passiva** e **o que o refino escala**. Depois na seção dela, com uma descrição do que ela é e uma caixa com a regra.
 
 Traço na coluna de Classe Passiva quer dizer que a entrada não declara uma. Traço na última coluna quer dizer que o refino não mexe naquela aptidão.
 
+**Como ler uma aptidão**
 | Aptidão | Gate | Classe Passiva | O que o refino escala |
 |---|---|---|---|
 | Cobrir-se de energia | grátis no refino 1 | — | a proteção, e a Redução de Dano da Reação |
@@ -4434,7 +4502,7 @@ Traço na coluna de Classe Passiva quer dizer que a entrada não declara uma. Tr
 | Cortina | exige a `Barreira Simples` | — | a vida dela |
 | Aptidão Própria | uma vez na ficha inteira | 1 ou 2 | conforme o que for escrito |
 
-## As duas de graça
+## Aptidões de graça
 
 Estas duas chegam com a ficha, no refino 1, sem custar marco nenhum. Elas são o que separa alguém que tem energia amaldiçoada de alguém que sabe usar energia amaldiçoada.
 
@@ -4492,7 +4560,7 @@ Toda energia amaldiçoada é negativa. Multiplicar uma negativa por outra dá po
 
 Ela muda a forma das lutas longas e muda o que acontece entre elas. Um personagem com Energia Reversa não precisa voltar para casa depois de cada cena, e o mestre perde a alavanca de encerrar um arco pelo desgaste do grupo. Quando você monta uma sequência de cenas sem descanso, é esta aptidão que decide se ela aperta alguém.
 
-## As três de kokusen
+## Aptidões de kokusen
 
 Quando o soco e a energia chegam no alvo dentro da mesma fração de instante, o espaço em volta do ponto de contato racha. Sai um estalo preto, curto, e o golpe entrega muito mais do que devia entregar. Ninguém acerta um kokusen de propósito: você percebe pelo barulho e pela cara de quem apanhou.
 
@@ -4528,6 +4596,7 @@ Você parou de esperar pela sorte e passou a mirar o instante. A janela continua
 
 > **As três empilham, nesta ordem: a base é `3 × refino`, e a vantagem da `Kokusen Melhorado` rola em cima dela.** Com as três na ficha, o d100 sai em 51% no refino 10. Nenhuma delas exige a outra.
 
+**Kokusen Constante**
 | refino | só a `Kokusen` | só com a `Melhorado` | só com a `Constante` | com as duas |
 |---|---|---|---|---|
 | 1 | 2% | 4,0% | 3,0% | 5,9% |
@@ -4536,11 +4605,11 @@ Você parou de esperar pela sorte e passou a mirar o instante. A janela continua
 
 Ninguém monta ficha em cima de kokusen. Ele acontece com quem já estava batendo forte, e o que ele compra é o grito na mesa.
 
-## As quatro anti-domínio
+## Aptidões anti-domínio
 
 Uma Expansão de Domínio completa não erra. O Acerto dela simplesmente acontece com quem está lá dentro, sem rolagem e sem Teste de Resistência, e nenhuma defesa da ficha encosta nele.
 
-Estas quatro são as respostas que o ofício inteiro desenvolveu para esse problema. Elas são a razão de um feiticeiro entrar numa luta contra alguém que tem domínio e sair vivo, e é por isso que aparecem cedo, baratas e conhecidas por gente que nunca teve técnica nenhuma.
+Estas quatro são as respostas que o ofício inteiro desenvolveu para esse problema. Elas são a razão de um feiticeiro entrar numa luta contra alguém que tem domínio e sair vivo, e são conhecidas até por gente que nunca teve técnica nenhuma.
 
 > **As quatro anulam o Acerto de uma Expansão de Domínio. Nenhuma delas serve contra a Expansão incompleta.**
 >
@@ -4548,6 +4617,7 @@ Estas quatro são as respostas que o ofício inteiro desenvolveu para esse probl
 
 O que separa as quatro é quanta liberdade você tem enquanto está protegido.
 
+**Aptidões anti-domínio**
 | | protege | e cobra | PE por rodada |
 |---|---|---|---|
 | **Cesta Oca de Vime** | só você, dentro de uma esfera | você segura o símbolo e não faz mais nada | nenhum |
@@ -4579,6 +4649,7 @@ Um domínio em miniatura, com os seus pés no centro. Você derrama energia no c
 
 O raio nunca passa de um movimento:
 
+**Domínio Simples**
 | refino | 1 | 2 | 4 | 6 | 8 | 10 |
 |---|---|---|---|---|---|---|
 | raio | 1,5 m | 2,5 m | 3,5 m | 4,5 m | 5,5 m | **6,5 m** |
@@ -4593,6 +4664,7 @@ A energia sobe pela pele e fica esperando. Quando o Acerto encosta em você, ela
 
 É a resposta de quem se recusa a parar de lutar dentro de um domínio. Ela nunca cobre a Expansão inteira: a completa dispara o Acerto ao abrir e no começo de cada turno de quem a levantou, e sempre sobra um.
 
+**Pétala**
 | refino | Acertos que a Expansão solta | a Pétala devolve |
 |---|---|---|
 | 4 | 3 | 2 |
@@ -4612,7 +4684,7 @@ Ela é a única das quatro que ganha a luta em vez de sobreviver a ela. Contra u
 
 A duração é um teto. Segurar as dez rodadas no refino 10 custa 110 de PE, e quem tem pouco PE fica seco antes do fim.
 
-## As duas barreiras
+## Aptidões de barreira
 
 Barreira é ofício à parte. Ela não sai do Fundamento de ninguém, se aprende estudando, e o feiticeiro que sabe levantar uma boa é procurado por isso.
 
@@ -4644,6 +4716,7 @@ Ela é a aptidão que muda a campanha inteira, e quase todo o valor dela está f
 
 A condição da `Cortina` fala de quem atravessa, e de mais nada.
 
+**Cortina**
 | a condição pode | a condição não pode |
 |---|---|
 | barrar uma pessoa específica | causar dano a quem entra |
@@ -4653,7 +4726,7 @@ A condição da `Cortina` fala de quem atravessa, e de mais nada.
 
 > **O tamanho da `Cortina` não tem metro, e isso é decisão.** Nada dentro dela se mede em metros, então dois mestres discordarem se ela pega um quarteirão ou dois não muda número nenhum. Quem quiser fechar uma distância com energia usa a `Barreira Simples`, que tem raio.
 
-## A aptidão que você escreve
+## Escrever uma aptidão
 
 ### Aptidão Própria
 
@@ -4667,6 +4740,7 @@ A vaga em branco do catálogo. É o truque que o seu feiticeiro desenvolveu mane
 
 A resposta dessa pergunta é o que decide o degrau:
 
+**Peso e degrau**
 | em quantas cenas por arco | o peso | o degrau |
 |---|---|---|
 | uma | Leve | Classe Passiva 1 |
@@ -4685,6 +4759,7 @@ Os cinco requisitos:
 
 Três propostas, e uma delas é recusada:
 
+**Exemplos de Aptidão Própria**
 | proposta | em quantas cenas | degrau | veredito |
 |---|---|---|---|
 | *"você sabe se um objeto foi tocado por energia amaldiçoada nas últimas 24 horas"* | uma por arco | Classe Passiva 1 | **passa** |
@@ -4695,9 +4770,9 @@ A terceira é o exemplo mais útil, porque ela é pequena. `+3 m` é barato, e m
 
 > Quem quiser a mesma ficção com Classe Passiva 3 tem a `Passiva Própria`, do lado do Fundamento, pagando em espaço de feitiço. A porta existe, ela só não é esta.
 
-## As Passivas
+## Passivas
 
-As Passivas são do capítulo 9, *Fundamento*, e o que este capítulo precisa dizer sobre elas é o preço.
+As Passivas são do capítulo 9, *Fundamento*. O que segue é o preço delas.
 
 > **Passiva custa espaço de feitiço conhecido, e a Expansão de Domínio também.** Quanto mais alta a Classe Passiva, mais espaço a Passiva cobra. Aptidão não entra nessa conta.
 
@@ -4707,6 +4782,7 @@ Os feitiços que você conhece:
 
 São três no nível 2 e doze no nível 20. Cada Passiva e cada pedaço de Expansão que você comprar sai desse mesmo bolo, e é para isso que serve a linha passiva do marco: sem ela, uma técnica funda de três Passivas mais Expansão completa chegava ao nível 20 com dois feitiços na lista.
 
+**Passivas**
 | montagem | nível 14 | nível 20 | nível 26 | nível 30 |
 |---|---|---|---|---|
 | só feitiço | 12 | 16 | 21 | 24 |
@@ -4718,7 +4794,7 @@ As Passivas gateiam por nível: Classe Passiva 1 no nível 1, Classe Passiva 2 n
 
 > **Você paga no máximo cinco Passivas.** Cada escolha de Leque no marco sobe o teto em uma vaga, e a Passiva que o Leque concede ocupa a vaga nova. As pagas continuam sendo cinco.
 
-## A Expansão de Domínio
+## Expansão de Domínio
 
 A regra da Expansão está no capítulo 9, *Fundamento*, e é lá que ela é montada e paga. Deste capítulo você só precisa de duas coisas, e as duas já estão acima: ela gasta espaço de feitiço, como Passiva; e o Acerto dela é o que as quatro aptidões anti-domínio anulam, contanto que a Expansão seja a completa.
 
@@ -4741,7 +4817,7 @@ Existem duas classes de uniforme, e você usa uma ou outra: **Traje**, que é a 
 
 Feiticeiro trabalha em prédio de escritório, em escola, em estação de metrô, quase sempre com civil por perto e sem tempo de esvaziar o andar. O guarda-roupa sai daí. Escolher entre as duas classes é escolher em que tipo de missão você quer estar confortável.
 
-#### Como ler as tabelas de proteção
+### Como ler as tabelas de proteção
 
 Os três campos aparecem sempre na mesma ordem.
 
@@ -4755,6 +4831,7 @@ Se você estiver usando duas coisas com teto de Destreza diferente, vale o menor
 
 A classe leve. Nenhum degrau trava a sua Destreza, e só o de cima pede Força.
 
+**Traje**
 | degrau | proteção | teto de Destreza | requer Força |
 |---|---|---|---|
 | 1 | 1 | — | — |
@@ -4765,7 +4842,7 @@ Quem fabrica é o ofício **Alfaiate**. Quem não tem o ofício encomenda de que
 
 Traje é roupa cortada para um corpo só. Alguém tirou as suas medidas, ouviu o que você faz em campo e costurou em cima disso: reforço onde você costuma levar golpe, folga onde você precisa dobrar. De fora ele passa por uniforme escolar, por terno, por jaqueta de trabalho. É o que você veste quando a missão começa no meio de gente que não pode saber o que está acontecendo, e é o que deixa você continuar de pé numa cena de conversa, de infiltração ou de fuga por telhado.
 
-#### A situação do Traje
+#### Situação do Traje
 
 O Traje é feito sob medida para você, e é aí que mora o benefício dele.
 
@@ -4775,6 +4852,7 @@ Na prática, você está dizendo ao alfaiate onde costuma se meter. Um traje cur
 
 A lista é fechada e vale igual em toda mesa:
 
+**Situação do Traje**
 | situação |
 |---|
 | vão apertado |
@@ -4798,6 +4876,7 @@ E existe uma vaga aberta: você pode inventar a sua, desde que ela passe nos tr�
 
 A classe pesada. Todo degrau trava a sua Destreza em 0 na Defesa, e todo degrau pede Força.
 
+**Revestimento**
 | degrau | proteção | teto de Destreza | requer Força |
 |---|---|---|---|
 | 1 | 4 | 0 | 3 |
@@ -4816,6 +4895,7 @@ A Reação de cobrir-se continua disponível de uniforme. Ninguém tira o colete
 
 Três degraus. O escudo ocupa uma mão, soma com a sua proteção venha ela de onde vier, e cobra teto de Destreza.
 
+**Escudo**
 | degrau | nome | proteção | teto de Destreza | requer Força |
 |---|---|---|---|---|
 | 1 | **Broquel** | 1 | 5 | — |
@@ -4826,8 +4906,9 @@ O Broquel é de punho, entre 15 e 45 cm: por isso ele quase não come Destreza e
 
 Fora da rolagem de Defesa, escudo é a peça que decide cena de corredor: com uma Torre plantada no vão de porta, o resto do grupo trabalha atrás de você e a maldição precisa achar outro caminho.
 
-#### Qual degrau pegar
+### Escolha do degrau
 
+**Escolha do degrau**
 | a sua Destreza | o degrau que rende mais |
 |---|---|
 | 0 a 1 | Torre |
@@ -4844,7 +4925,7 @@ São 52, divididas em treze categorias. A categoria diz o que a coisa é, de ond
 
 Nenhuma arma deste catálogo fere maldição sozinha. Contra maldição, o que resolve é energia amaldiçoada no golpe ou uma ferramenta amaldiçoada na mão, que é uma arma daqui mais um `Estigma` e tem capítulo próprio. O catálogo abaixo continua valendo inteiro contra gente, contra bicho e contra parede.
 
-#### Como ler uma arma
+### Como ler uma arma
 
 Toda tabela do catálogo tem as mesmas cinco colunas, nesta ordem:
 
@@ -4856,10 +4937,11 @@ Toda tabela do catálogo tem as mesmas cinco colunas, nesta ordem:
 - **propriedades** — o que a arma faz de diferente das outras. As restrições aparecem nessa mesma lista.
 - **requer Força** — a Força mínima para empunhar. `—` quer dizer que não pede nada.
 
-#### As propriedades
+### Propriedades
 
 São doze. Propriedade é o que a arma é: ela já está impressa na linha do catálogo, e você nunca escolhe uma na hora de atacar.
 
+**Propriedades**
 | propriedade | o que faz |
 |---|---|
 | `Alcance` | Estica o corpo a corpo. Ver *Alcance no corpo a corpo* |
@@ -4879,10 +4961,11 @@ São doze. Propriedade é o que a arma é: ela já está impressa na linha do ca
 
 Três delas decidem cena fora de combate com frequência. `Oculta` é a que deixa você entrar armado numa reunião, num velório ou numa portaria com detector. `Rompe` é a que abre cadeado, grade, alçapão e tampa de bueiro sem esperar ninguém. `Vestida` é a que responde quando alguém manda você largar tudo o que está na mão.
 
-#### As restrições
+### Restrições
 
 Restrição é defeito de verdade. Ela aparece na mesma coluna das propriedades.
 
+**Restrições**
 | restrição | o que é |
 |---|---|
 | `Volumosa` | Não dá para esconder, e atrapalha em espaço apertado |
@@ -4891,11 +4974,11 @@ Restrição é defeito de verdade. Ela aparece na mesma coluna das propriedades.
 
 Nenhuma das 52 usa a `Comprida` hoje.
 
-#### Alcance no corpo a corpo
+### Alcance no corpo a corpo
 
 O padrão de qualquer arma de mão é **1,5 m**. As Armas Longas chegam a **3 m**.
 
-#### Faixa de projétil
+### Faixa de projétil
 
 > **Toda arma de projétil tem duas faixas.**
 >
@@ -4907,8 +4990,7 @@ O padrão de qualquer arma de mão é **1,5 m**. As Armas Longas chegam a **3 m*
 
 > **Exemplo.** Você está com a Pistola e o alvo está a 20 metros. A faixa normal dela é 9 m e a longa vai até 27 m: você alcança, e rola com desvantagem. Se um inimigo estiver colado em você na hora do tiro, a desvantagem vale do mesmo jeito, mesmo que o alvo esteja a 5 metros.
 
-**As armas de tiro:**
-
+**Armas de tiro**
 | arma | faixa normal | faixa longa |
 |---|---|---|
 | Hankyū | 24 m | 96 m |
@@ -4923,18 +5005,17 @@ O padrão de qualquer arma de mão é **1,5 m**. As Armas Longas chegam a **3 m*
 | Rifle de Precisão | 24 m | 72 m |
 | Metralhadora Pesada | 24 m | 72 m |
 
-**As armas de arremesso**, todas na mesma faixa:
-
+**Armas de arremesso**
 | armas | faixa normal | faixa longa |
 |---|---|---|
 | Punhal · Machadinha · Lança · Kunai · Shuriken · Tessen · Chakram · Kusarigama | 6 m | 18 m |
 
-Uma faixa só para as oito, para ninguém precisar guardar oito números na mesa.
 
-#### Munição
+### Munição
 
 > **Recarregar é Ação Bônus.** Você recarrega quando tirar **1 ou 2 natural** no ataque, **ou** depois de **X** ataques, o que vier primeiro. O X é da arma.
 
+**Munição**
 | X | armas |
 |---|---|
 | 4 | Metralhadora Pesada |
@@ -4949,6 +5030,7 @@ O `Yumi` não carrega `Munição`. Flecha existe na ficção, e uma flecha se en
 
 > **Treino mora na categoria.** Treinar uma categoria libera todas as armas dela. São treze categorias em três listas.
 
+**Treino de arma**
 | lista | categorias | armas |
 |---|---|---|
 | **Simples** | Lâmina Curta · Porrete · Ceifa · Arremesso · Manopla · Massa · Balestra | 26 |
@@ -4977,12 +5059,13 @@ Três coisas que essa frase decide, e vale ler as três:
 
 O requisito e o treino são gates diferentes e não se substituem. Um olha o seu corpo, o outro olha o que você aprendeu. Um Emanador com Força 6 passa no primeiro e para no segundo.
 
-## O catálogo
+## Catálogo
 
 Este catálogo é para consultar. Ache a arma pelo nome no primeiro índice, ou pelo que você quer que ela faça no segundo.
 
-#### Índice A–Z
+### Índice A–Z
 
+**Índice A–Z**
 | arma | categoria | treino |
 |---|---|---|
 | Bastão | Porrete | simples |
@@ -5038,8 +5121,9 @@ Este catálogo é para consultar. Ache a arma pelo nome no primeiro índice, ou 
 | Wakizashi | Lâmina Longa | marcial |
 | Yari | Armas Longas | marcial |
 
-#### Índice por propriedade
+### Índice por propriedade
 
+**Índice por propriedade**
 | propriedade | armas |
 |---|---|
 | `Alcance` | Espadão · Odachi · Nodachi · Bastão · Bō · Kusarigama · Naginata · Yari · Lança · Corrente · Chicote |
@@ -5063,6 +5147,7 @@ Treino simples. Todas carregam `Fineza`, então o dano delas sai de Destreza.
 
 Lâmina curta é briga de distância zero. Você entra por dentro da guarda, encosta e corta, e o que decide o golpe é leitura de corpo e mão rápida. É também a categoria que passa por qualquer lugar sem levantar pergunta: uma faca cabe no bolso do casaco e continua lá durante a entrevista inteira.
 
+**Lâmina Curta**
 | arma | mão | dado | propriedades | requer Força |
 |---|---|---|---|---|
 | Tanto | 1 | **d6** | `Fineza` · `Oculta` | — |
@@ -5077,6 +5162,7 @@ Treino marcial. O dano sai de Força, ou de Destreza nas duas que carregam `Fine
 
 Lâmina longa se luta com o corpo inteiro: o pé escolhe a distância, o quadril faz o corte, e o braço só entrega. As de uma mão deixam a outra livre para escudo, para segurar alguém ou para fechar um selo. As de duas trocam essa mão por alcance e por dado grande, e quem empunha uma delas está declarando que não pretende se esconder de ninguém.
 
+**Lâmina Longa**
 | arma | mão | dado | propriedades | requer Força |
 |---|---|---|---|---|
 | Machete | 1 | **d8** | `Rompe` | — |
@@ -5096,6 +5182,7 @@ Treino simples. O dano sai de Força.
 
 Massa fere com peso chegando rápido, e peso não perde o fio. É a arma que continua funcionando depois de uma noite inteira batendo em concreto, e a que menos se importa com o que o alvo vestiu por cima.
 
+**Massa**
 | arma | mão | dado | propriedades | requer Força |
 |---|---|---|---|---|
 | Maça | 1 | **d8** | `Talha` | — |
@@ -5110,6 +5197,7 @@ Treino simples. O dano sai de Força.
 
 Porrete é madeira e controle. Você acerta, empurra, prende, afasta e a cena continua com todo mundo vivo. É a categoria de quem trabalha perto de civil e precisa poder errar o alvo sem abrir um buraco na parede.
 
+**Porrete**
 | arma | mão | dado | propriedades | requer Força |
 |---|---|---|---|---|
 | Bastão | 1 | **d6** | `Versátil` · `Alcance` · `Rompe` | — |
@@ -5124,6 +5212,7 @@ Treino simples. O dano sai de Força.
 
 Manopla é o soco com uma peça de metal por cima. Ela vai vestida: você chega de mãos vazias em qualquer portaria e continua armado do outro lado. Quem luta assim briga colado, e usa o corpo inteiro como parte da arma.
 
+**Manopla**
 | arma | mão | dado | propriedades | requer Força |
 |---|---|---|---|---|
 | Soqueira | 1 | **d4** | `Vestida` · `Oculta` · `Par` | — |
@@ -5137,6 +5226,7 @@ Treino marcial. O dano sai de Força.
 
 Machado concentra o peso na ponta e cobra o gesto inteiro: quem erra fica aberto por um instante. Em compensação, o que ele acerta ele abre, e isso vale para porta trancada, grade e assoalho tanto quanto para o que estiver do outro lado.
 
+**Machado**
 | arma | mão | dado | propriedades | requer Força |
 |---|---|---|---|---|
 | Machado | 1 | **d8** | `Rompe` | — |
@@ -5151,6 +5241,7 @@ Treino simples. O dano sai de Força.
 
 Ceifa puxa. A curva da lâmina engancha braço, perna, cano de andaime e o cabo da arma do outro, e o golpe costuma terminar com o alvo mais perto de você do que ele gostaria. É a categoria de quem prefere escolher onde o inimigo vai estar.
 
+**Ceifa**
 | arma | mão | dado | propriedades | requer Força |
 |---|---|---|---|---|
 | Foice | 2 | **d10** | `Emaranha` · `Talha` | 3 |
@@ -5163,6 +5254,7 @@ Treino marcial. O dano sai de Força. É a única categoria em que o `Alcance` c
 
 Arma longa serve para decidir a distância. Você mantém a coisa a três metros e ela gasta o turno inteiro só para chegar ao ponto onde a luta começaria. Em corredor e em vão de porta, uma lança sozinha segura uma passagem enquanto o resto do grupo faz o trabalho.
 
+**Armas Longas**
 | arma | mão | dado | propriedades | requer Força |
 |---|---|---|---|---|
 | Naginata | 2 | **d10** | `Alcance` · `Rompe` | 3 |
@@ -5175,6 +5267,7 @@ Treino marcial. O dano sai de Força.
 
 Corrente e chicote fazem curva. O golpe contorna guarda, escudo e quina de parede, e ninguém aprende a ler a trajetória numa luta só. O dado é pequeno em todas as três: o que a categoria entrega é alcance e `Emaranha`.
 
+**Flexível**
 | arma | mão | dado | propriedades | requer Força |
 |---|---|---|---|---|
 | Corrente | 2 | **d8** | `Alcance` · `Emaranha` · `Rompe` | — |
@@ -5187,6 +5280,7 @@ Treino simples. O dano sai de Força: o arremesso sai do corpo.
 
 Arremesso resolve seis metros na hora, sem trocar de arma e sem sair da briga de perto. Todas as quatro escondem, e todas cabem numa cena em que você precisa acertar alguma coisa do outro lado da sala antes que ela termine de se virar.
 
+**Arremesso**
 | arma | mão | dado | propriedades | requer Força |
 |---|---|---|---|---|
 | Kunai | 1 | **d6** | `Longo Alcance` · `Oculta` | — |
@@ -5200,6 +5294,7 @@ Treino marcial. O dano sai de Destreza: o arco se puxa, e puxar é coisa do corp
 
 Yumi é o arco japonês, assimétrico e alto, puxado até passar da orelha. Atirar com ele é postura e respiração antes de ser mira. O disparo sai calado, e é isso que faz um arco resolver um vigia no fim do corredor sem acordar os outros três.
 
+**Yumi**
 | arma | mão | dado | propriedades | requer Força |
 |---|---|---|---|---|
 | Hankyū *(arco curto)* | 2 | **1d8** | `Longo Alcance` · `Oculta` | — |
@@ -5213,6 +5308,7 @@ Treino simples. **Não soma atributo nenhum**: a energia já está armazenada na
 
 A besta guarda a força por você. Quem atira aponta e solta, e por isso ela é a arma que qualquer um do grupo pega emprestada e usa igual. O preço vem depois do disparo, na hora de armar de novo.
 
+**Balestra**
 | arma | mão | dado | propriedades | requer Força |
 |---|---|---|---|---|
 | Besta de Uma Mão | 1 | **1d10** | `Longo Alcance` · `Munição` · `Oculta` | — |
@@ -5224,6 +5320,7 @@ Lista de treino própria, sozinha. **Não soma atributo nenhum**, pelo mesmo mot
 
 Arma de fogo resolve distância e barulho no mesmo gesto. Ela cobra treino próprio e devolve o tiro mais rápido do catálogo, com o custo de que a cena discreta acaba no primeiro disparo: a partir dali existe polícia, existe testemunha e existe relatório para alguém escrever depois.
 
+**Arma de Fogo**
 | arma | mão | dado | propriedades | requer Força |
 |---|---|---|---|---|
 | Pistola | 1 | **1d10** | `Longo Alcance` · `Munição` · `Oculta` | — |
@@ -5236,7 +5333,7 @@ Arma de fogo resolve distância e barulho no mesmo gesto. Ela cobra treino próp
 
 Pistola e Revólver têm a mesma linha de regra. A diferença entre os dois está na faixa: a Pistola vai a 9 m, o Revólver a 12 m.
 
-## O soco
+## Soco
 
 O punho vazio não é uma das 52. Ele não entra no catálogo, não tem categoria e não entra na divisão simples/marcial.
 
@@ -5270,11 +5367,11 @@ No topo da escada o soco bate mais forte que qualquer arma de uma mão do catál
 
 Ferir maldição é a porta que separa o feiticeiro de quem não tem energia amaldiçoada. Quem conjura já atravessa essa porta de graça, pelo feitiço de Toque. Quem não conjura só atravessa com ferramenta na mão.
 
-## O que é uma ferramenta forjada
+## Ferramenta forjada
 
 Uma ferramenta amaldiçoada é um objeto que alguém encheu de energia amaldiçoada de propósito, martelada por martelada, até o material aprender a segurar aquilo. Isso leva tempo, custa a energia de quem forja e não sai barato: quem tem o ofício é pouca gente, trabalha por encomenda e conhece o nome de quase todas as peças boas que estão circulando. Ferramenta boa tem procedência, tem dono anterior e tem gente que se lembra dela.
 
-Para quem tem energia amaldiçoada, uma ferramenta é conveniência: uma lâmina que já corta maldição poupa o que você gastaria cobrindo o próprio punho. Para quem não tem, ela é o passaporte. Sem ferramenta, um corpo humano bem treinado atravessa uma maldição como atravessa fumaça, e a maldição continua ali, do outro lado, olhando. Com uma ferramenta de grau 4 na mão, a mesma pessoa entra na luta que o feiticeiro está lutando. É por isso que este capítulo existe, e é por isso que ninguém do meio jujutsu empresta ferramenta de bom grado.
+Para quem tem energia amaldiçoada, uma ferramenta é conveniência: uma lâmina que já corta maldição poupa o que você gastaria cobrindo o próprio punho. Para quem não tem, ela é o passaporte. Sem ferramenta, um corpo humano bem treinado atravessa uma maldição como atravessa fumaça, e a maldição continua ali, do outro lado, olhando. Com uma ferramenta de grau 4 na mão, a mesma pessoa entra na luta que o feiticeiro está lutando. É por isso que ninguém do meio jujutsu empresta ferramenta de bom grado.
 
 > **Como se sintoniza uma ferramenta está sendo escrito.** Quanto tempo leva, o que se gasta e se dá para desfazer é acordo com o seu mestre por enquanto.
 
@@ -5286,6 +5383,7 @@ Uma ferramenta carrega **um** `Estigma`. Nunca dois.
 
 São duas coisas, e o meio jujutsu separa as duas por escrito: tirando as ferramentas amaldiçoadas e os cadáveres amaldiçoados, todo item que contém energia amaldiçoada é chamado de objeto amaldiçoado.
 
+**Ferramenta e objeto amaldiçoado**
 | É ferramenta amaldiçoada | É objeto amaldiçoado |
 |---|---|
 | foi forjada para canalizar energia | é a maldição presa numa forma de objeto |
@@ -5294,12 +5392,13 @@ São duas coisas, e o meio jujutsu separa as duas por escrito: tirando as ferram
 
 Os dois são ranqueados pela mesma escada, pela força da energia que carregam: grau 4 a grau 1, mais o especial. O que muda é o que cada um é.
 
-> Objeto amaldiçoado é outro assunto, e está sendo escrito. Este aqui cobre só a ferramenta.
+> Objeto amaldiçoado é outro assunto, e está sendo escrito.
 
-## O grau
+## Grau
 
 O que o grau escolhe é o **formato** do `Estigma`: se ele é pequeno e condicional, se é reativo com limite de uso, ou se é permanente.
 
+**Graus de ferramenta**
 | Grau | `Estigma` | Nível mínimo | Exemplar do material |
 |---|---|---|---|
 | **4** | nenhum. Ela fere maldição, e para nisso | nenhum | a katana da Kasumi, a semi-ferramenta |
@@ -5310,13 +5409,13 @@ O que o grau escolhe é o **formato** do `Estigma`: se ele é pequeno e condicio
 
 As Classes são as mesmas do capítulo 10, *Aptidões e Refino*, e o nível mínimo é o de lá: uma aptidão de Classe 2 pede nível 7, uma de Classe 3 pede nível 13, e Classe 1 não pede nada.
 
-#### Nenhum grau pede refino
+### Grau e refino
 
-Não existe requisito de refino em lugar nenhum deste capítulo. Ferramenta amaldiçoada é a rota de quem tem pouca energia amaldiçoada ou nenhuma, e cobrar refino trancaria a porta na cara justamente de quem ela existe para atender.
+Não existe requisito de refino para ferramenta amaldiçoada. Ela é a rota de quem tem pouca energia amaldiçoada, ou nenhuma.
 
-### O grau 4
+### Grau 4
 
-Ele não dá `Estigma` nenhum, e ainda assim é o degrau que faz o resto existir: ferir maldição é a única coisa que um personagem sem energia amaldiçoada não consegue sozinho. Uma ferramenta de grau 4 é o que põe essa pessoa na mesma luta que o feiticeiro.
+Ele não dá `Estigma` nenhum. Ferir maldição é a única coisa que um personagem sem energia amaldiçoada não consegue sozinho. Uma ferramenta de grau 4 é o que põe essa pessoa na mesma luta que o feiticeiro.
 
 Na mesa, esse degrau costuma ser a primeira peça que muda a cara de um personagem inteiro. Antes dela, o cara com a espingarda estava ali para tirar civil do prédio; depois dela, ele tem um alvo.
 
@@ -5326,7 +5425,7 @@ Os dois dão um `Estigma` de Classe 3 e os dois pedem nível 13. A diferença é
 
 As três especiais citadas acima aparecem aqui como exemplar. A ficha de cada uma está sendo escrita.
 
-#### Grau e patente não se tocam
+### Grau e patente
 
 > **A sua patente não decide que ferramenta você pode portar. A ferramenta que você porta não mexe na sua patente.**
 
@@ -5346,12 +5445,13 @@ Uma ferramenta de grau 1 com `Desgaste` dura **três missões** de uso antes de 
 
 > **Exemplo.** O Ryo é nível 4 e ganha uma corrente de grau 1 com `Desgaste`. O `Estigma` dela é `Anátema`, que pediria nível 13; com o `Desgaste`, ele usa hoje. Na primeira missão ele encosta a corrente numa técnica e anula o efeito: fim da missão, a corrente desce para grau 2. Na segunda ele usa de novo: grau 3. Na terceira: grau 4, e o que sobra na mão dele é uma corrente que fere maldição e nada mais. Se ele tivesse guardado o `Anátema` para a missão que importava, teria três usos para gastar em três momentos escolhidos.
 
-## Quantos `Estigma` cabem numa ficha
+## Teto de `Estigma`
 
 > **A arma tem teto pelas mãos. O apoio tem teto de dois.**
 
 **Objeto de apoio** é a ferramenta que você carrega sem empunhar: um anel, um cordão, uma peça costurada no forro do casaco. A lista do que conta como apoio e o preço dele estão sendo escritos; o teto de dois já vale desde agora.
 
+**Teto de `Estigma`**
 | A ficha carrega | `Estigmas` |
 |---|---|
 | arma de grau 4, sem apoio nenhum | 0 |
@@ -5361,16 +5461,17 @@ Uma ferramenta de grau 1 com `Desgaste` dura **três missões** de uso antes de 
 
 A diferença inteira entre a mesa mais avara e a mais generosa cabe entre um e três `Estigmas`. Não existe ficha com cinco ferramentas: as mãos fecham um lado e o teto de dois apoios fecha o outro.
 
-## O catálogo de `Estigma`
+## Catálogo de `Estigma`
 
 Onze entradas, agrupadas por Classe. A Classe diz o grau da ferramenta que pode carregar aquele `Estigma`, e diz o nível mínimo junto.
 
-#### Como ler uma entrada
+### Como ler uma entrada
 
-A tabela de cada Classe traz o nome e **quando o `Estigma` age**: sempre ligado, na hora de um gatilho, ou como Reação. Quando existe limite de uso, ele aparece na coluna do relógio. O texto embaixo da tabela é a regra inteira.
+Cada tabela de Classe traz o nome e **quando o `Estigma` age**: sempre ligado, na hora de um gatilho, ou como Reação. Quando existe limite de uso, ele aparece na coluna do relógio. O texto embaixo da tabela é a regra inteira.
 
 ### Classe 1 · grau 3 · sem nível mínimo
 
+**`Estigma` de Classe 1**
 | `Estigma` | Quando age |
 |---|---|
 | `Fiel` | no seu turno |
@@ -5388,6 +5489,7 @@ A tabela de cada Classe traz o nome e **quando o `Estigma` age**: sempre ligado,
 
 ### Classe 2 · grau 2 · nível 7
 
+**`Estigma` de Classe 2**
 | `Estigma` | Quando age | Relógio |
 |---|---|---|
 | `Quebranto` | Reação | por cena |
@@ -5402,6 +5504,7 @@ A tabela de cada Classe traz o nome e **quando o `Estigma` age**: sempre ligado,
 
 ### Classe 3 · grau 1 e especial · nível 13
 
+**`Estigma` de Classe 3**
 | `Estigma` | Quando age |
 |---|---|
 | `Anátema` | ao encostar |
@@ -5417,10 +5520,11 @@ A tabela de cada Classe traz o nome e **quando o `Estigma` age**: sempre ligado,
 >
 > **`Contrapeso`** — ela ignora o requisito de Força da arma. Qualquer um empunha, e o peso da coisa se resolve sozinho na mão de quem a segura.
 
-## Quando ela chega à mesa
+## Ritmo de entrega
 
-Isto é ritmo de entrega. O único nível mínimo que este capítulo cobra é o do `Estigma`, na tabela de grau.
+O único nível mínimo obrigatório é o do `Estigma`, na tabela de grau.
 
+**Ritmo de entrega**
 | Grau | Nível sugerido | Faixa, se a mesa preferir espalhar |
 |---|---|---|
 | 4 | **2** | 2 a 6 |
@@ -5440,11 +5544,11 @@ Uma ferramenta por faixa de grau, entregue nesse ritmo, dá cinco na campanha in
 
 *fonte: `manual/60-invocacoes.md`*
 
-Uma invocação é um corpo que anda no campo por sua conta e obedece você: um shikigami, um talismã que vira bicho, uma maldição que você domou. Este capítulo é a máquina de montar a sua, gastando um orçamento de pontos numa mini ficha bem menor que a do seu personagem.
+Uma invocação é um corpo que anda no campo por sua conta e obedece você: um shikigami, um talismã que vira bicho, uma maldição que você domou. Ela se monta gastando um orçamento de pontos, numa mini ficha bem menor que a do seu personagem.
 
 Quem ganha o corpo é quem tem uma das três Trilhas do Evocador. **O que a Trilha concede não sai do orçamento**: ela entrega quantos corpos você tem e quanta vida cada um aguenta, e o orçamento desta página compra capacidade por cima disso. As três Trilhas estão no capítulo 8, *Caminhos e Trilhas*, com o número de cada uma. Nada na regra abaixo depende de ser Evocador, então ela vale igual no dia em que outra coisa der uma invocação a alguém.
 
-## A regra rápida do turno
+## Regra rápida do turno
 
 Comece por aqui. Isto é o que você precisa saber para jogar com uma invocação já montada; o resto do capítulo é para montá-la.
 
@@ -5457,7 +5561,7 @@ Não existe "a primeira do dia é grátis". **Fora de combate, ação não custa
 
 > **Exemplo.** O Kaito está no nível 10 e a maior Classe dele é `3`, então invocar custa `3` PE. Ele entra no prédio abandonado com a invocação já de pé, porque invocou no carro e ali a ação não custou nada. Na rodada 1 da luta ele gasta a Ação Padrão comandando: a invocação ataca. Ele ainda anda `9` metros e usa a Ação Bônus dele. Na rodada 2 ele decide bater ele mesmo, e nesse turno a invocação não faz nada, porque ninguém a comandou.
 
-### O que a mesa vê
+### Presença em campo
 
 Pôr uma invocação em campo põe um segundo boneco no mapa e um segundo bloco de anotação ao lado da sua ficha. Você descreve o corpo uma vez, no início, e daí em diante ele é presença: entra nas descrições do mestre, atrapalha caminho, ocupa a atenção dos inimigos e assusta o civil que abriu a porta errada. Quem está do outro lado passa a ter duas coisas para resolver, e uma delas anda sozinha.
 
@@ -5465,10 +5569,11 @@ O seu turno também muda de forma. Antes ele tinha uma pergunta; agora tem duas:
 
 Fora de combate a conta some e a invocação vira mão de obra. Ela entra no duto na frente do grupo, fica de vigia a noite inteira na única porta que ninguém quer atravessar, carrega o ferido até a rua, cava o que precisa ser cavado. Uma boa parte do valor de uma invocação nunca aparece numa rolagem de ataque.
 
-### O teto: você mais as suas invocações entregam uma Rotina
+### Teto
 
 **Rotina** é o dano que um personagem entrega numa rodada comum, sem gastar recurso guardado — a saída de um turno normal, sem Liberação Máxima e sem Técnica Máxima.
 
+**Teto de Rotina**
 | Seu nível | 1 a 4 | 5 a 8 | 9 a 12 | 13 a 16 | 17 a 20 | 21 a 25 | 26 a 30 |
 |---|---|---|---|---|---|---|---|
 | **Rotina** | 13 | 31 | 45 | 63 | 76 | 94 | 108 |
@@ -5482,21 +5587,22 @@ A conta se fecha sozinha na mesa: comandar custa a sua Ação Padrão, então nu
 
 A Trilha `Coro` é a única exceção, e ela ataca e comanda na mesma rodada. O texto dela está no capítulo 8, *Caminhos e Trilhas*.
 
-## A ficha da invocação
+## Ficha da invocação
 
 A ficha dela é derivada da sua: cada linha ou copia um número seu, ou sai de uma fórmula. Você não rola atributo nem escolhe Caminho para ela.
 
-### As duas metades da ficha
+### Metades da ficha
 
 > **Linha que encara dado** (acerto, Defesa, Teste de Resistência) **= o seu número**, com um deslocamento fixo por cima.
 > **Linha fora de dado** (vida, movimento) **= fórmula própria, com o atributo dela dentro.**
 
 A invocação tem atributos, e eles valem nas linhas de fora do dado: a Constituição dela entra na vida, e a Força e a Destreza dela entram como deslocamento. Os três deslocam o número uma vez e param por aí. Nenhum deles faz a invocação crescer mais rápido que você ao longo da campanha.
 
-### O deslocamento só desce, e descer devolve ponto
+### Deslocamento
 
 > **A invocação começa no seu número e só pode descer.**
 
+**Deslocamento**
 | a ficha faz | custa ou devolve |
 |---|---|
 | fica no seu número | `0` |
@@ -5506,12 +5612,13 @@ A invocação tem atributos, e eles valem nas linhas de fora do dado: a Constitu
 
 Vender número é a única moeda extra que existe. É por isso que uma invocação de utilidade pura, que quase nunca vai rolar acerto, pode virar duas capacidades a mais. Um corpo montado para farejar, entrar em vão e voltar com a informação paga a própria capacidade com o acerto que ele nunca ia usar.
 
-### Os quatro tipos, e a vida
+### Tipos e vida
 
 Toda invocação é de um dos quatro tipos, e o tipo é o que decide a base da vida dela.
 
 > **`vida = base do tipo + (2 + a Constituição dela) × o seu nível`**
 
+**Tipos e vida**
 | tipo | base | nível 2 | nível 10 | nível 18 | nível 30 |
 |---|---|---|---|---|---|
 | `talismã` · `corpo amaldiçoado` | `1` | 5 | 21 | 37 | 61 |
@@ -5526,12 +5633,13 @@ O tipo também decide o que a mesa vê chegar. Um `talismã` é papel que se des
 
 A vida de um corpo é o que o capítulo 8, *Caminhos e Trilhas*, chama de **`h`** quando escreve a vida que cada Trilha concede.
 
-### O orçamento
+### Orçamento
 
 O orçamento é o que você gasta comprando `Traço` e `Comando`. Ele cresce nos mesmos marcos que governam atributo, refino e feitiço.
 
 > **O orçamento é `8` no nível 2, e cada marco dá `+4`.**
 
+**Orçamento**
 | nível | marcos | orçamento | o que dá para montar |
 |---|---|---|---|
 | 2 | 0 | **8** | dois `Traço` baratos, ou um dos caros |
@@ -5543,10 +5651,11 @@ O orçamento é o que você gasta comprando `Traço` e `Comando`. Ele cresce nos
 
 O orçamento compra capacidade: três `Traço` não sobem o seu acerto nem o dano dela. O teto de uma Rotina já governa a saída.
 
-### Três coisas que o orçamento não compra a preço nenhum
+### Limites do orçamento
 
 Estas três não têm preço em ponto nenhum, e nenhum mestre pode inventar um.
 
+**Limites do orçamento**
 | não pode | por quê |
 |---|---|
 | **dado de dano** | o teto de uma Rotina já governa a saída. Um `Traço` que dê `+1d6` não existe a preço nenhum |
@@ -5555,7 +5664,7 @@ Estas três não têm preço em ponto nenhum, e nenhum mestre pode inventar um.
 
 E nada do catálogo pode dar Defesa, acerto ou vida direto. Esses três já são a moeda do deslocamento, e comprá-los de novo por ponto seria pagar duas vezes pela mesma coisa.
 
-## O catálogo
+## Catálogo
 
 > **`Traço` é o que ela é.** Sempre ligado, sem gastar nada.
 > **`Comando` é o que ela faz** quando você gasta a Ação Padrão nela.
@@ -5564,12 +5673,13 @@ E nada do catálogo pode dar Defesa, acerto ou vida direto. Esses três já são
 
 São 19 entradas compráveis, mais o `Investir`, que custa `0` e toda invocação tem.
 
-#### Como ler as duas tabelas
+### Como ler as tabelas
 
 Cada linha diz quanto ela custa do orçamento, o nome que vai na ficha, e o efeito inteiro. Não há requisito em nenhuma delas, tirando a faixa mais longa do `Remoto`, que está adiante neste capítulo.
 
 ### `Traço`
 
+**Traço**
 | pontos | `Traço` | o que faz |
 |---|---|---|
 | **2** | `Escalada` | sobe parede e teto sem teste. Ela anda no reboco como anda no chão |
@@ -5592,6 +5702,7 @@ Os três de percepção (`Fala`, `Faro`, `Vigia`) são os que mais decidem sess�
 
 ### `Comando`
 
+**Comando**
 | pontos | `Comando` | o que faz |
 |---|---|---|
 | **0** | `Investir` | o ataque. **Toda invocação tem**, e é ele que entrega a cota da Rotina |
@@ -5606,10 +5717,11 @@ Os três de percepção (`Fala`, `Faro`, `Vigia`) são os que mais decidem sess�
 
 Os dois de `8` pontos são os que mudam a matemática do grupo inteiro. `Interpor` é o que mantém de pé quem tem pouca vida, e `Chamariz` é o que tira o inimigo de cima de quem estava prestes a cair.
 
-### Criar o seu
+### Traço e Comando próprios
 
 Você pode escrever `Traço` e `Comando` que não estão nas listas acima, e o catálogo serve de régua para isso. Escreva o efeito, ache na tabela abaixo o degrau em que ele cai, e leve para o mestre. A palavra final é dele, sempre em cima de uma entrada escrita, nunca do zero.
 
+**Régua de `Traço`**
 | pontos | `Traço` cai aqui quando |
 |---|---|
 | **2** | muda **como ela anda**, e só ela. `Escalada`, `Nado` |
@@ -5618,6 +5730,7 @@ Você pode escrever `Traço` e `Comando` que não estão nas listas acima, e o c
 | **7** | muda **que espaço ela ocupa**, a um passo de mexer no tabuleiro. `Miúdo` |
 | **8** | **encosta em outra criatura ou no tabuleiro**: carrega, prende, empurra, barra, alcança além do alcance, aparece onde não dava. `Voo`, `Montaria`, `Fisgada`, `Emboscada`, `Jorro`, `Graúdo`, `Remoto` |
 
+**Régua de `Comando`**
 | pontos | `Comando` cai aqui quando |
 |---|---|
 | **0** | é **o ataque**. `Investir`, que toda invocação tem |
@@ -5630,6 +5743,7 @@ Você pode escrever `Traço` e `Comando` que não estão nas listas acima, e o c
 
 Seis invocações conhecidas, montadas com o catálogo acima.
 
+**Montagens de exemplo**
 | invocação | montagem | pontos | cabe no nível |
 |---|---|---|---|
 | *Cão Divino* | `Faro` | 5 | **2** |
@@ -5643,15 +5757,16 @@ Três dos seis cabem já no nível 2, e os outros chegam nos marcos seguintes.
 
 > **Exemplo com a Trilha por cima.** A Mei escolhe a Trilha `Matilha` no nível 2, e é a Trilha que dá os cinco corpos dela: isso não custa nenhum ponto do orçamento. Com os `8` pontos que ela tem, ela compra `Miúdo` por `7`, e os cinco corpos passam por vãos que ninguém mais passa. Sobra `1` ponto, que não compra nada ainda e fica guardado até o nível 6.
 
-## A amarra, e as três faixas de alcance
+## Amarra e alcance
 
 > **A invocação tem de ficar a até 18 metros de você.**
 > Além disso ela **não pode ser comandada**: fica onde está, sem agir, até voltar ao alcance. Ela **não some**.
 
-Os 18 metros são o alcance base de Projétil, o mesmo número que o resto do manual usa como referência de distância. Na prática, a invocação anda até dois turnos de movimento à frente de você.
+Os 18 metros são o alcance base de Projétil, a referência de distância do sistema. Na prática, a invocação anda até dois turnos de movimento à frente de você.
 
 Se ela sumisse ao passar da amarra, o inimigo que a empurrasse para longe estaria apagando de graça o que você pagou em PE e em ação. Ficar parada custa a rodada e devolve o corpo.
 
+**Faixas de alcance**
 | faixa | o que é | quem alcança |
 |---|---|---|
 | **no combate** | os 18 metros da amarra | toda invocação |
@@ -5662,7 +5777,7 @@ Se ela sumisse ao passar da amarra, o inimigo que a empurrasse para longe estari
 
 > **O `Remoto` é a única entrada do catálogo inteiro com requisito, e ele vale só para a faixa de fora da cena.** Operar uma invocação a essa distância exige Restrição Celestial pelo ramo do corpo limitado, e uma técnica voltada a isso. Dentro da cena o `Remoto` funciona para qualquer um que pague os 8 pontos.
 
-## Quando ela cai, e quando ela morre de vez
+## Queda e morte
 
 A máquina de cair morrendo do capítulo 1, *Como Jogar*, não vale aqui.
 
@@ -5688,11 +5803,11 @@ Você paga os PE de novo, paga a Ação Padrão de novo, e o corpo que volta cai
 
 > **Exemplo.** O Kaito, nível 10, tem uma invocação de `técnica` com Constituição `1`, então a vida máxima dela é `2 + (2 + 1) × 10 = 32`. Ela está com `4` de vida e leva um golpe de `18`. O excedente é `14`, que não passa de `16`, que é metade de `32`; e `18` não é `32`. Ela some, mas não morreu de vez: no turno seguinte ele gasta `3` PE e a Ação Padrão, e ela volta com `16`.
 
-## O que ainda está sendo escrito
+## Em aberto
 
 Duas coisas vão aparecer na sua mesa antes de ganharem regra.
 
-**Invocação que não obedece.** Todo este capítulo supõe que ela obedece: você gasta a Ação Padrão e ela faz. Existem invocações na ficção que agem por conta própria, contra a vontade de quem as carrega, e elas não têm regra escrita ainda. Se a sua mesa quiser uma dessas, é acordo com o mestre.
+**Invocação que não obedece.** A regra supõe que ela obedece: você gasta a Ação Padrão e ela faz. Existem invocações na ficção que agem por conta própria, contra a vontade de quem as carrega, e elas não têm regra escrita ainda. Se a sua mesa quiser uma dessas, é acordo com o mestre.
 
 **Selar com talismã.** O talismã do material sela objeto amaldiçoado, e o alvo dela é o objeto amaldiçoado do capítulo 12, *Ferramenta Amaldiçoada*, que ainda não tem regra de selamento escrita. Por enquanto o `talismã` é um tipo de invocação como os outros três, com a vida dele, e selar não é uma entrada do catálogo.
 
@@ -5721,8 +5836,9 @@ Grau é reconhecimento; nível é poder. O Grau abre porta, dá acesso e pesa em
 
 > **Uma ficha nova começa no nível 2.** O nível 1 é opção de campanha, para a mesa que quiser jogar o personagem antes de ele ser feiticeiro.
 
-## A curva
+## Curva de XP
 
+**Curva de XP**
 | você está no nível | o próximo nível custa | em XP |
 |---|---|---|
 | **2 a 4** | 1 missão | 100 |
@@ -5740,8 +5856,9 @@ Do nível 2 ao 4 é uma missão por nível: a ficha entra em jogo e ganha corpo 
 
 Chegar ao nível 20 custa **6.300 XP** no total. Do 20 ao 30 são **8.200**.
 
-## O tamanho da missão
+## Tamanho da missão
 
+**Tamanho da missão**
 | tamanho | paga | o que é |
 |---|---|---|
 | **curta** | 50 | uma cena, um interrogatório, roleplay puro, uma escolta sem incidente |
@@ -5753,10 +5870,11 @@ Chegar ao nível 20 custa **6.300 XP** no total. Do 20 ao 30 são **8.200**.
 
 Missão de roleplay que qualquer Grau pode entrar é missão curta, e ela paga.
 
-## Um nível por missão, e nada se perde
+## Ritmo de subida
 
 > **Você sobe no máximo um nível por missão. O XP que sobrar fica acumulado e sai na próxima.**
 
+**Ritmo de subida**
 | no nível | curta | padrão | longa | final de arco |
 |---|---|---|---|---|
 | **2** | +50 | **1 nível** | 1 nível, +100 | 1 nível, +200 |
@@ -5766,8 +5884,9 @@ Missão de roleplay que qualquer Grau pode entrar é missão curta, e ela paga.
 
 Quem levou um final de arco no nível 2 sobe um nível na hora e entra na missão seguinte com 200 XP no bolso. Sobe de novo, e continua subindo até o acumulado acabar. O teto espalha a subida por várias sessões em vez de entregar três níveis de decisão de ficha numa noite só.
 
-## O desconto da semana
+## Desconto da semana
 
+**Desconto da semana**
 | missão da semana | paga |
 |---|---|
 | **1ª e 2ª** | 100% |
@@ -5786,13 +5905,13 @@ A contagem zera na virada da semana, e ninguém sai com zero. Moer mesa deixa de
 
 Uma missão perdida por azar de dado pesa diferente de uma abandonada na metade. O piso é metade porque seis horas de sessão terminando em nada fazem a pessoa não voltar; o teto é metade porque senão o sucesso deixa de significar.
 
-## Mestrar não dá XP
+## XP de quem mestra
 
 > **Mestrar paga na moeda que o sistema já tem separada: patente, contato, favor da instituição, acesso.**
 
 Um mestre ativo constrói patente e rede, e as duas abrem porta que nível nenhum abre.
 
-## O limiar do nível 20
+## Limiar do nível 20
 
 > **Você chega ao nível 20 por XP. Você passa dele por feito.**
 
@@ -5800,7 +5919,7 @@ Aos 6.300 de XP acumulado o personagem para no nível 20 até a mesa reconhecer 
 
 É o único ponto do jogo em que o eixo social e o eixo de poder se tocam, e eles se tocam uma vez só, na fronteira entre o mundano e o lendário. O que conta como feito é conversa de mesa, e a mesa fecha a lista antes de alguém chegar lá.
 
-## Como a mesa opera isso
+## Operação na mesa
 
 1. **O mestre posta a missão e declara o tamanho:** curta, padrão, longa ou final de arco.
 2. **A mesa acontece.**
@@ -5810,12 +5929,13 @@ Aos 6.300 de XP acumulado o personagem para no nível 20 até a mesa reconhecer 
 
 Não precisa de aprovação de ninguém, exceto no limiar do 20. E uma linha de missões paga a cada missão: quem entra no meio de uma linha recebe pelo que jogou.
 
-## O que cada nível entrega
+## Progressão por nível
 
 Na maior parte dos níveis, subir é o mesmo personagem com o número maior: você acerta um pouco mais, o feitiço custa a mesma coisa e rende igual, e cabe mais um feitiço na lista. De vez em quando o nível abre uma porta de verdade, e aí a ficha muda de forma: uma Classe nova, uma Liberação Máxima, um degrau de Caminho, um marco.
 
-Esta tabela é de consulta. Ache a sua linha e leia ela inteira.
+Ache a sua linha e leia ela inteira.
 
+**Progressão por nível**
 | nível | XP | maestria | espaços de feitiço | refino | Classe | Passiva | Classe 0 | o que este nível entrega |
 |---|---|---|---|---|---|---|---|---|
 | **1** | — | 1 | **2** | 1 | 1 | 1 | 2 | **Fundamento**, Passiva Livre, dois feitiços de Classe 0 |
@@ -5849,9 +5969,9 @@ Esta tabela é de consulta. Ache a sua linha e leia ela inteira.
 | 29 | 1.000 | 4 | **22** | 7 | 7 | 3 | 5 | — |
 | **30** | — | 4 | **24** | 8 | 7 | 3 | 5 | **marco** · degrau de **Caminho** · **3ª Liberação Máxima** · +2 espaços de feitiço |
 
-Nível em negrito é nível que entrega decisão nova: uma Classe, um marco, um degrau de Caminho, uma entrega de Trilha. Os espaços de feitiço correm no ritmo próprio deles e por isso aparecem também em linha sem negrito. Nos níveis que ficaram de fora, o personagem cresce só em número, e isso é de propósito: nem toda subida precisa de decisão de ficha.
+Nível em negrito é nível que entrega decisão nova: uma Classe, um marco, um degrau de Caminho, uma entrega de Trilha. Os espaços de feitiço correm no ritmo próprio deles e por isso aparecem também em linha sem negrito. Nos níveis que ficaram de fora, o personagem cresce só em número.
 
-#### Como ler cada coluna
+### Como ler cada coluna
 
 - **XP** é o que custa **sair** daquele nível, e ele é o mesmo dentro de cada faixa de três níveis. Uma missão padrão paga 100. O nível 30 é o topo e não tem custo.
 - **maestria** é o bônus que entra no seu ataque de conjuração, na CD dos seus feitiços e nas perícias em que você é treinado.
@@ -5861,7 +5981,7 @@ Nível em negrito é nível que entrega decisão nova: uma Classe, um marco, um 
 - **Passiva** é a maior Classe de Passiva que já abriu para você.
 - **Classe 0** é quantos feitiços grátis você carrega, e eles ficam fora da conta de espaços.
 
-#### Quantos feitiços você ganha, e quando
+### Feitiços por nível
 
 > **Espaços de feitiço conhecido = `2 + (nível ÷ 2)`, arredondando para baixo. Mais um por marco já alcançado.**
 
@@ -5871,7 +5991,7 @@ A parte de baixo da conta dá um feitiço novo **a cada nível par**. A parte de
 
 Esse espaço do marco existe porque Passiva custa espaço de feitiço conhecido, e a Expansão de Domínio também. Sem ele, quem monta técnica funda chegava ao nível 20 com dois feitiços na lista.
 
-#### Vida e PE não têm coluna
+### Vida e PE
 
 As duas dependem do seu Caminho, e cabem em duas linhas:
 
@@ -5879,7 +5999,7 @@ As duas dependem do seu Caminho, e cabem em duas linhas:
 >
 > **PE:** o PE por nível do seu Caminho vezes o seu nível.
 
-## Os marcos
+## Marcos
 
 A cada quatro níveis o personagem chega a um **marco**: os níveis **6, 10, 14, 18, 22, 26 e 30**. São sete na campanha inteira, e o último cai exatamente no nível 30.
 
@@ -5899,8 +6019,9 @@ Marco é o nível em que a ficha muda de forma. Nos outros níveis a subida acon
 
 A escolha é do momento: você decide no marco, e nada obriga você a repetir a escolha anterior.
 
-#### O que cada uma compra
+### Rotas do marco
 
+**Rotas do marco**
 | escolha | o que entra na ficha | quando ela é boa |
 |---|---|---|
 | **Corpo** | +1 num atributo | cedo, enquanto o seu atributo principal ainda não bateu no 6 |
@@ -5909,14 +6030,15 @@ A escolha é do momento: você decide no marco, e nada obriga você a repetir a 
 
 Você começa a campanha com nove pontos de atributo distribuídos na criação. A linha de graça dos sete marcos leva isso a dezesseis, e quem escolhe **Corpo** nos sete chega a vinte e três, espalhados por até cinco atributos com teto de 6 em cada.
 
-As três não compram a mesma coisa, e é por isso que nenhuma precisa de trava. Refino não vale nada para quem não tem aptidão: quem escolhe Leque sete vezes tem zero aptidões, e o refino dele fica sendo número morto. Quem escolhe Refino sete vezes tem dez aptidões e nenhuma Passiva a mais para querer.
+As três não compram a mesma coisa, e nenhuma precisa de trava. Refino não vale nada para quem não tem aptidão: quem escolhe Leque sete vezes tem zero aptidões, e o refino dele fica sendo número morto. Quem escolhe Refino sete vezes tem dez aptidões e nenhuma Passiva a mais para querer.
 
 > **Quem nunca escolhe Refino termina a campanha com zero aptidões.** A rota é legítima e está escrita aqui para ninguém descobrir isso no nível 20. Mesmo essa ficha não fica sem nada: `Cobrir-se de energia` e `Canalizar energia` vêm de graça no refino 1, e a primeira continua crescendo com o refino da linha passiva até 8. O que ela nunca vai ter é `Energia Reversa` nem `Barreira Simples`.
 
-### O refino de cada rota, marco a marco
+### Refino por rota
 
 O refino começa em `1`, sobe `+1` de graça em cada um dos sete marcos, e a escolha do marco pode somar mais `+1` até o teto de `10`. Três rotas, e a sua provavelmente fica entre elas:
 
+**Refino por rota**
 | rota | nv 6 | nv 10 | nv 14 | nv 18 | nv 22 | nv 26 | nv 30 |
 |---|---|---|---|---|---|---|---|
 | **especialista**, sempre Refino | `3` | `5` | `7` | `9` | **`10`** | `10` | `10` |
@@ -5929,8 +6051,9 @@ O especialista bate no teto no **nível 22**, e é exatamente aí que a escolha 
 
 > **Guardar marco não guarda refino.** A linha de graça sobe sozinha, e ela não espera você decidir. Quem deixa para investir tarde chega aos níveis altos com o refino da linha de baixo e ainda precisa de mais um marco para alcançar o degrau que queria. Gate de refino se paga com tempo, e o tempo não volta.
 
-### A maestria sobe em três marcos
+### Maestria
 
+**Maestria por marco**
 | marco | nv 6 | nv 10 | nv 14 | nv 18 | nv 22 | nv 26 | nv 30 |
 |---|---|---|---|---|---|---|---|
 | atributo, refino, espaço e escolha | sim | sim | sim | sim | sim | sim | sim |
@@ -5940,7 +6063,7 @@ Um marco sim, um não, começando pelo segundo. Nenhum marco fica vazio, e nenhu
 
 A maestria vai de 1 no nível 2 a 4 no nível 30, e o seu atributo principal vai de 3 na criação a 6 no teto. Os dois crescem `+3` na campanha inteira, e é esse empate que faz a chance de acertar e a chance de resistir não derivarem: o que sobe do seu lado sobe do lado de lá na mesma velocidade.
 
-### O teto de Passivas
+### Teto de Passivas
 
 Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda. Cada escolha de **Leque** abre uma vaga a mais no teto, e a Passiva que a própria escolha concede ocupa essa vaga nova. Uma rota pura de Leque termina com doze Passivas na ficha, e cinco delas continuam sendo as cinco pagas de sempre.
 

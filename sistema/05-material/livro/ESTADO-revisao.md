@@ -1,25 +1,36 @@
 # Estado da revisão · Manual da Guilda
 
-> ## ⚠ Passada de voz em andamento — leia antes de mexer
+> ## Passada de voz — concluída em 20/08/2026
 >
-> Desde 20/08/2026 corre uma **segunda revisão**, sobre a voz do texto, e ela está pela
-> metade. O documento que manda nela é a `REGRA-DE-VOZ.md`, nesta mesma pasta. Leia ela
-> antes desta seção histórica.
+> Uma **segunda revisão** passou por todo o livro, sobre a voz do texto. O documento que
+> manda nela é a `REGRA-DE-VOZ.md`, nesta mesma pasta. Leia ela antes de escrever qualquer
+> coisa nova no manual, e antes desta seção histórica.
 >
-> **11 dos 18 arquivos de `manual/` já passaram:** `90-apendice-bloquear` (piloto),
-> `10-como-jogar`, `11-o-turno`, `12-pericias-e-oficios`, `15-dano-e-condicoes`,
-> `20-criacao-de-personagem`, `25-origens`, `35-caminhos-e-trilhas`, `45-aptidoes-e-refino`,
-> `50-equipamento`, `55-ferramenta-amaldicoada`.
+> **Os 18 arquivos de `manual/` passaram.** O `conferir-voz.py` sai em zero.
 >
-> **Faltam 7:** `05-introducao`, `07-glossario`, `08-inicio-rapido` (a frente do livro, que
-> concentra 24 das 26 ocorrências de moldura), `60-invocacoes`, `70-descanso-e-recuperacao`,
-> `80-experiencia-e-progressao`, e `40-fundamento` — que sozinho é 96 achados e 59 tabelas
-> sem nome, e por isso ficou por último.
+> | | antes | depois |
+> |---|---|---|
+> | achados do `conferir-voz.py` | 507 | **0** |
+> | tabelas com nome | 1 | **212** |
+> | títulos começando com artigo | 131 | **0** |
+> | títulos que eram pergunta ou frase | 98 | **0** |
+> | o texto falando do próprio livro | 26 | **0** |
+> | referências a seção que não resolvem | 0 | **0** |
+> | palavras | 74.123 | **72.776** |
+> | **números de regra alterados** | — | **0** |
 >
-> **O PDF e o docx publicados em `finalizado/livro/` estão meio revisados de propósito**, e
-> mais atrasados que o fonte: eles foram gerados quando só 8 arquivos tinham passado. Isso
-> não é inconsistência de projeto — é uma passada que ainda não terminou. Foi decisão do
-> Mizuki publicar no meio, porque o conteúdo já melhorou e nenhum número de regra mudou.
+> As 1.347 palavras que saíram eram moldura de leitura, justificativa de projeto e
+> comparação com outros sistemas. Nenhuma regra, nenhum número, nenhuma exceção.
+>
+> **O que a passada não fez**, e continua valendo como trabalho futuro: rebaixar título de
+> exceção para negrito correndo no parágrafo; criar um segundo estilo de caixa para aviso
+> lateral (hoje o `>` serve só para resumo de regra); e quebrar o capítulo 9, que continua
+> sendo 15 mil palavras, um quinto do livro. Sobraram também **21 trechos marcados `TRIAR`**
+> pelo validador — o que o `conferir-voz.py --inventario` lista e não julga.
+>
+> **Uma redundância achada no caminho e não resolvida:** as tabelas de condição do
+> capítulo 9 repetem o conteúdo das do capítulo 4. Estão nomeadas de forma parecida de
+> propósito, para a duplicação ficar visível no índice remissivo.
 >
 > **Onde cada coisa mora, porque isto já custou um lote inteiro de trabalho perdido:**
 >
