@@ -1,19 +1,10 @@
 # Antes da primeira sessão
 
-Isto não é um capítulo do manual. É uma cena pronta, para quem nunca jogou sentar e jogar
-antes de ler o livro inteiro.
+Uma cena pronta para jogar hoje, sem ninguém ter lido o livro. Alguém lê em voz alta, ou
+com as próprias palavras, e a mesa roda a cena com a Kaori — a ficha pronta que vem logo
+abaixo.
 
-**Para quem serve:** um grupo que quer testar o sistema hoje à noite, sem ninguém ter lido
-nada. Alguém lê esta parte em voz alta ou com as próprias palavras, e a mesa roda a cena com
-a Kaori, a ficha pronta que vem logo abaixo.
-
-**Depois da cena**, o resto do livro faz sentido de um jeito diferente: você já rolou os dados
-que ele explica. A seção final desta parte diz para onde ir.
-
-**Isto não substitui o capítulo 1.** Ele é o dono do vocabulário do sistema, e o resto do
-manual usa os termos de lá sem redefinir. Esta parte só adianta o suficiente para uma cena.
-
-## Como jogar, em resumo
+## Regras da cena
 
 > **Role um `d20`, some o seu bônus, compare com a CD.** Igualou ou passou, você conseguiu.
 >
@@ -29,12 +20,11 @@ manual usa os termos de lá sem redefinir. Esta parte só adianta o suficiente p
 > É o que **você** rola quando alguma coisa acontece com você.
 
 Todo termo aqui tem explicação completa no capítulo 1 e no vocabulário do sistema, logo
-atrás. Esta caixa é só para não parar de ler agora.
+atrás.
 
-## A Kaori, pronta pra jogar
+## Kaori
 
-Feiticeira de nível 2, a mesma ficha de exemplo do capítulo 6 — os números não mudam entre
-uma parte e a outra deste livro.
+Feiticeira de nível 2, a mesma ficha de exemplo do capítulo 6.
 
 **Quem ela é.** O clã da Kaori perdeu o nome faz três gerações, e ela cresceu ouvindo a
 história de quem perdeu. A avó era a única que ainda sabia alguma coisa de valor — ervas,
@@ -46,6 +36,9 @@ procura briga; ela entra na frente de quem procura.
 
 **A técnica.** *"Tudo que eu prendo entre as minhas mãos fica mais pesado."* O Selo dela é
 físico: as duas mãos precisam se tocar antes de qualquer feitiço sair.
+
+**Kaori, nível 2**
+{: .tab-titulo }
 
 | | |
 |---|---|
@@ -71,7 +64,7 @@ físico: as duas mãos precisam se tocar antes de qualquer feitiço sair.
 > caem pela metade contra ela, e o deslocamento dela também cai pela metade. Sair dali não
 > custa nada.
 
-## A cena: o corredor da ala oeste
+## Corredor da ala oeste
 
 Leia (ou narre) isto para o grupo:
 
@@ -101,17 +94,13 @@ zero. *Isto é o `Corpo Duro` funcionando: ele não evita o golpe, evita o estra
 - **Recuar e negociar.** Nem toda cena precisa terminar em dano. Se o grupo tiver outra
   ideia, ela vale tanto quanto as duas de cima.
 
-Este manual não decide por vocês qual das três é a certa. É exatamente esse tipo de
-escolha, rodada após rodada, que o resto do livro existe para sustentar.
-
 **Se a maldição tivesse sobrevivido**, o turno dela viria de novo, e a cena continuaria
 até alguém desistir, fugir ou cair. **Se Kaori chegasse a `0` de vida**, ela escolheria
 entre `Aguentar` e `Insistir` — a regra está no capítulo 1, na seção *Vida a 0*, e ela é o momento mais decidido pelo jogador em todo o sistema.
 
-## Terminou a cena? O que vem depois
+## Depois da cena
 
-- **Quer entender por que cada número é aquele?** Capítulo 1, *Como Jogar*. É o único
-  capítulo que este livro pede para ler inteiro antes de qualquer outro.
+- **Quer entender por que cada número é aquele?** Capítulo 1, *Como Jogar*.
 - **Quer montar o seu próprio personagem?** Capítulo 6, *Criação de Personagem*, os oito
   passos — a Kaori acima é o exemplo completo de lá.
 - **Esbarrou numa palavra que não foi explicada?** O vocabulário do sistema, logo atrás

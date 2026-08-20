@@ -20,8 +20,8 @@ O teste é a pergunta que a frase responde:
 O jogador não precisa saber que o manual usa `Refino` 146 vezes, nem que o capítulo dono
 fica na metade. Isso era diagnóstico de revisão e virou texto por engano.
 
-A moldura de leitura vive **uma vez**, na tabela *Como este manual é organizado*, na
-introdução. Dentro do capítulo, nunca.
+A moldura de leitura vive **uma vez**, na introdução, na seção *Organização do manual*.
+Dentro do capítulo, nunca.
 
 ### Por que o mundo é assim fica; por que o livro é assim sai
 

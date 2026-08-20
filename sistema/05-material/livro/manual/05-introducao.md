@@ -4,16 +4,19 @@ Você vai criar um feiticeiro. Alguém que nasceu com energia amaldiçoada, ou q
 
 Este é um sistema de mesa feito para um servidor de guilda. Várias pessoas mestrando, e personagem que atravessa mesas diferentes com o mesmo dono. A ficha que você monta aqui pode sentar em mais de uma mesa, com mestres diferentes, e continuar sendo a mesma pessoa.
 
-## Do que você precisa
+## Material da mesa
 
 - **Um mestre.** Quem prepara a cena, interpreta todo mundo que não é personagem de jogador, e decide o que as regras não cobrem.
 - **Um grupo.** De cinco a sete jogadores é o tamanho que este sistema pressupõe, mas qualquer grupo funciona.
 - **Dados.** Um d20 e um punhado de d8 resolvem quase tudo. Aparecem também d4, d6, d10 e d12, quase sempre como dado de dano de arma.
 - **Uma ficha.** Papel, planilha ou o que a sua mesa usar.
 
-## Como este manual é organizado
+## Organização do manual
 
-Nem todo capítulo é para ler do começo ao fim. Metade deste livro é catálogo, e catálogo se abre quando você está montando alguma coisa. Cada capítulo diz, na primeira linha, se é para ler ou para consultar.
+Nem todo capítulo é para ler do começo ao fim. Metade dos capítulos é catálogo, e catálogo se abre quando você está montando alguma coisa. A coluna *Para quê* diz qual é qual.
+
+**Capítulos**
+{: .tab-titulo }
 
 | | Capítulo | Para quê |
 |---|---|---|
@@ -41,4 +44,4 @@ Nem todo capítulo é para ler do começo ao fim. Metade deste livro é catálog
 
 **Leia Como Jogar antes de qualquer outra coisa.** É o capítulo dono do vocabulário que todos os outros usam sem parar para explicar de novo. Depois dele, pular direto para o que te interessa funciona.
 
-**E se esbarrar num nome que ninguém te apresentou**, ele está no vocabulário, logo na página seguinte, com o número do capítulo que trata dele por extenso. Este manual é grande e algumas palavras aparecem muito antes do capítulo que é dono delas; o vocabulário existe para essa distância não te custar nada.
+**E se esbarrar num nome que ninguém te apresentou**, ele está no vocabulário, logo na página seguinte, com o número do capítulo que trata dele por extenso.

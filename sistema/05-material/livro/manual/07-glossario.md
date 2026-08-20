@@ -1,10 +1,11 @@
 # O vocabulário do sistema
 
-Esta parte é de consulta, não de leitura. Ela existe por um motivo medido: este manual usa a palavra `Refino` quase cento e cinquenta vezes, e o capítulo que explica o que ela é fica na metade do livro. Quando você esbarrar num nome que ainda não te foi apresentado, ele está aqui, com uma linha de explicação e o número do capítulo que trata dele por extenso.
+Cada termo vem com uma linha de explicação e o número do capítulo que trata dele por extenso. Nada aqui é regra completa.
 
-Nada aqui é regra completa. É o suficiente para você continuar lendo sem parar.
+## Rolagens
 
-## O que você rola
+**Rolagens**
+{: .tab-titulo }
 
 | Termo | O que é | Cap. |
 |---|---|---|
@@ -19,7 +20,10 @@ Nada aqui é regra completa. É o suficiente para você continuar lendo sem para
 | **Arredondamento** | Sempre para o lado que não te favorece. O que você paga sobe, o que você ganha desce | 1 |
 | **Rotina** | O dano que um personagem entrega numa rodada comum, sem gastar recurso guardado | 13 |
 
-## O que você tem
+## Números da ficha
+
+**Números da ficha**
+{: .tab-titulo }
 
 | Termo | O que é | Cap. |
 |---|---|---|
@@ -36,7 +40,10 @@ Nada aqui é regra completa. É o suficiente para você continuar lendo sem para
 | **Sequela** | O que você ganha ao levantar de uma queda. Encurta em uma rodada a janela da queda seguinte | 1 |
 | **Cicatriz** | Permanente, ganha na segunda queda. Não sai no descanso | 1 |
 
-## Quem o seu personagem é
+## Personagem
+
+**Personagem**
+{: .tab-titulo }
 
 | Termo | O que é | Cap. |
 |---|---|---|
@@ -50,7 +57,10 @@ Nada aqui é regra completa. É o suficiente para você continuar lendo sem para
 
 > **Cuidado com a palavra `Grau`.** Ela nomeia duas escadas de cinco casas que não se encostam: a **patente** de um feiticeiro e o **grau** de uma ferramenta amaldiçoada. Patente é reconhecimento; grau de ferramenta é a energia que a peça carrega. O capítulo 12 abre a diferença.
 
-## A sua técnica
+## Técnica
+
+**Técnica**
+{: .tab-titulo }
 
 | Termo | O que é | Cap. |
 |---|---|---|
@@ -76,7 +86,10 @@ Nada aqui é regra completa. É o suficiente para você continuar lendo sem para
 | **Expansão de Domínio** | O espaço fechado onde a sua técnica manda. Custa espaço de feitiço | 9 |
 | **Dano na alma** | Tira vida, Integridade e vida máxima no mesmo tanto. Entra cheio, e tem quatro estágios | 4 |
 
-## Como você cresce
+## Progressão
+
+**Progressão**
+{: .tab-titulo }
 
 | Termo | O que é | Cap. |
 |---|---|---|
@@ -85,7 +98,10 @@ Nada aqui é regra completa. É o suficiente para você continuar lendo sem para
 | **Aptidão** | O que qualquer feiticeiro pode aprender, independente da técnica. Custa marco, e só marco | 10 |
 | **Corpo**, **Refino**, **Leque** | As três escolhas que um marco oferece: mais atributo; mais refino e uma aptidão; ou mais feitiço e uma Passiva | 14 |
 
-## O turno
+## Turno
+
+**Turno**
+{: .tab-titulo }
 
 | Termo | O que é | Cap. |
 |---|---|---|
@@ -97,7 +113,10 @@ Nada aqui é regra completa. É o suficiente para você continuar lendo sem para
 | **Concentração** | Manter um efeito de pé. Um por vez, e tomar dano pede Teste de Resistência de Vigor | 2 |
 | **Cobertura** | O que está entre você e quem atira. Três degraus: Parcial, Boa e Total | 4 |
 
-## O que você carrega
+## Equipamento
+
+**Equipamento**
+{: .tab-titulo }
 
 | Termo | O que é | Cap. |
 |---|---|---|
@@ -107,9 +126,12 @@ Nada aqui é regra completa. É o suficiente para você continuar lendo sem para
 | **Invocação** | O que você põe em campo e comanda. Tem ficha própria, montada com orçamento | 13 |
 | **Amarra** | A invocação tem de ficar a até 18 metros de você, ou não pode ser comandada | 13 |
 
-## Palavras que este manual usa de um jeito próprio
+## Palavras com sentido próprio
 
-Todas estas significam outra coisa em outros sistemas de mesa. Se você já jogou, vale reparar:
+Estas palavras têm sentido próprio neste sistema.
+
+**Palavras com sentido próprio**
+{: .tab-titulo }
 
 | Palavra | Aqui ela quer dizer | E **não** quer dizer |
 |---|---|---|
