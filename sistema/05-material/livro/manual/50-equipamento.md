@@ -595,6 +595,6 @@ O punho vazio não é uma das 52. Ele não entra no catálogo, não tem categori
 
 Ele soma Força, como todo corpo a corpo. E vale como arma para todo efeito de regra: crítico, ataque extra, requisito de treino.
 
-O requisito de Força não pega o soco, e isso está escrito de propósito. O requisito existe para arma que você levanta, e não tem como alguém não alcançar o próprio punho.
+O requisito de Força não pega o soco. Ele existe para arma que você levanta, e não tem como alguém não alcançar o próprio punho.
 
 No topo da escada o soco bate mais forte que qualquer arma de uma mão do catálogo, e não faz nada além de bater. A Katana troca dois pontos de dado por `Versátil` e `Fineza`; o Machete troca um por `Rompe`. Quem soca abre mão de alcance, de `Par`, de `Oculta`, de `Talha` e de todo o resto. Em compensação, ninguém desarma um punho, ninguém confisca um punho na portaria, e o seu dano continua o mesmo depois de a sua arma ter ficado presa na parede.

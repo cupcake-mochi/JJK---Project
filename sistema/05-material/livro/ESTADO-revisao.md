@@ -25,8 +25,13 @@
 > **O que a passada não fez**, e continua valendo como trabalho futuro: rebaixar título de
 > exceção para negrito correndo no parágrafo; criar um segundo estilo de caixa para aviso
 > lateral (hoje o `>` serve só para resumo de regra); e quebrar o capítulo 9, que continua
-> sendo 15 mil palavras, um quinto do livro. Sobraram também **21 trechos marcados `TRIAR`**
-> pelo validador — o que o `conferir-voz.py --inventario` lista e não julga.
+> sendo 15 mil palavras, um quinto do livro.
+>
+> **Os trechos `TRIAR` foram lidos um a um.** Eram 21; quatro saíram (justificativa de
+> projeto: *"e é por isso que ela é um degrau de nível 27"*, dois *"de propósito"* sobre
+> balanceamento, e *"isso está escrito de propósito"*). Os **17 que sobraram ficam**: são
+> causa dentro da ficção, ou fato de mesa amarrado a número real. O
+> `conferir-voz.py --inventario` continua listando eles, e listar não é acusar.
 >
 > **Uma redundância achada no caminho e não resolvida:** as tabelas de condição do
 > capítulo 9 repetem o conteúdo das do capítulo 4. Estão nomeadas de forma parecida de

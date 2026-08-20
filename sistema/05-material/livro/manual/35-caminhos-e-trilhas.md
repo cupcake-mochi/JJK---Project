@@ -188,7 +188,7 @@ O que a `Brasa` acrescenta ao Bastião é alcance. Ela pega alvo que está fora 
 >
 > **Nível 27: `Fornalha`.** *Ação bônus para entrar. Dura até o fim da cena.* **Cada ataque seu carrega um feitiço de Classe 0 junto, e cada ataque tem de ser num alvo diferente.** E a sua **ação bônus deixa de lançar feitiço e vira um soco a mais**, num terceiro alvo. **São três socos, três alvos, três Classe 0.**
 
-*A `Fornalha` é a única coisa do sistema que põe golpe e feitiço no mesmo turno desse jeito, e é por isso que ela é um degrau de nível 27.*
+*A `Fornalha` é a única coisa do sistema que põe golpe e feitiço no mesmo turno desse jeito.*
 
 ## Vanguarda
 
@@ -587,7 +587,7 @@ Jogando de `Arremate`, você é o Emanador que precisa estar dentro do alcance d
 >
 > **Nível 19: `Crosta`.** Quando você conjura estando **adjacente a um inimigo**, você ganha **`maior Classe` de PV temporário**.
 >
-> **Nível 27: *vaga*.** *A casa existe e está vazia de propósito. A ficção dela é o capstone do molde: deixar de precisar encostar.*
+> **Nível 27: *vaga*.** *A casa existe e está vazia. A ficção dela é o capstone do molde: deixar de precisar encostar.*
 
 *A `Crosta` é o que torna o `Arremate` jogável de verdade a partir do 19: a mesma decisão que te põe em perigo, que é conjurar colado, passa a ser a que te dá casca. Antes disso, a sua sobrevivência depende do time.*
 
@@ -601,7 +601,7 @@ O Evocador chega acompanhado. Shikigami, talismã que vira bicho, maldição dom
 
 A instituição trata invocador com desconfiança educada, porque metade do que ele traz para o serviço já foi inimigo de alguém. Em compensação, um Evocador cobre chão que time nenhum cobre: batedor que entra na frente, corpo que segura a porta, olho num andar que ninguém subiu.
 
-Numa luta, o turno do Evocador quase sempre é uma ordem. A Ação Padrão dele vira ação de outra criatura, e o dano do grupo sai por ali. A ficha dele é frágil de propósito, e a maior parte do jogo é manter o corpo em campo e manter a si mesmo longe.
+Numa luta, o turno do Evocador quase sempre é uma ordem. A Ação Padrão dele vira ação de outra criatura, e o dano do grupo sai por ali. A ficha dele é frágil, e a maior parte do jogo é manter o corpo em campo e manter a si mesmo longe.
 
 Atributos naturais: **Inteligência** e **Essência**. O Evocador troca dano pessoal por presença de tabuleiro, corpos que absorvem ataque, flanqueiam e bloqueiam caminho.
 
