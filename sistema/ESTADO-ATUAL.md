@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 18/08/2026, na v0.104 (última peça fechada: **Dano e condições**, ampliada nesta versão com a penalidade de arma; antes dela, a **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 18/08/2026, na v0.105 (última peça fechada: **Dano e condições**, ampliada nesta versão com a penalidade de arma; antes dela, a **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.104.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezenove peças escritas** e **dezenove validadores**.
+**Versão v0.105.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezenove peças escritas** e **dezenove validadores**.
 
 **A v0.104 é a versão das dez condições no degrau errado.** *A `Condição Menor` e a `Condição Maior` do manual viraram uma Melhoria só, chamada `Condição`, e o preço dela é o **nível** da condição escolhida.* **O espalhamento dentro de um degrau caiu de `17,00×` para `4,26×`, que é o piso de qualquer corte em três degraus** — a busca exaustiva diz que nenhum outro faz melhor, e o filtro do projeto reprova a partir de `3,00×`. *Manual na v7.10, com dois feitiços prontos mudando: `Palma Trovejante` `5d8 → 6d8` e `Vala Comum` `9d8 → 11d8`.*
 
@@ -250,7 +250,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 
 **Feitiços conhecidos** = `2 + (nível ÷ 2)`, mais um por marco. Três no nível 2, dezesseis no 20. **O manual não conta feitiço desde a v7.7** — essa contagem tem um dono só, e é este documento.
 
-**Vinte e três perícias e onze ofícios.** Perícia tem atributo fixo; ofício não — o atributo muda com o que você faz. O Caminho dá **duas perícias fixas + quatro livres** e **um ofício fixo + um livre**; a Origem dá mais duas perícias. Oito de vinte e três, 35%.
+**Vinte e três perícias e onze ofícios.** Perícia tem atributo fixo; ofício não — o atributo muda com o que você faz. O Caminho dá **duas perícias fixas + quatro livres** e **dois ofícios livres**; a Origem dá mais duas perícias. Oito de vinte e três, 35%.
 
 **Feitiço de Toque** = os dados da Classe e nada mais (é o feitiço, e não soma arma nem Força). **Golpe simples** = arma + Força (é o Classe 0 físico). Um feitiço de Toque por turno; ataque extra é sempre simples.
 

@@ -70,20 +70,21 @@ _NUM = {'nove': 9, 'dez': 10, 'onze': 11, 'doze': 12, 'treze': 13, 'catorze': 14
 _m = re.search(r'## 5\. Os (\w+) of[ií]cios', _P7)
 OFICIOS_DECLARADOS = _NUM.get(_m.group(1).lower()) if _m else None
 
-# Cada Caminho fixa duas pericias e um oficio. O resto o jogador escolhe livre.
+# Cada Caminho fixa duas pericias. Oficio o Caminho NAO trava: os dois que ele
+# entrega sao livres (v0.105).
 CAMINHOS = {
-    'Bastiao':   {'pericias': ['Atletismo', 'Intimidacao'],       'oficio': 'Forja'},
-    'Vanguarda': {'pericias': ['Acrobacia', 'Percepcao'],         'oficio': 'Arrombamento'},
-    'Guia':      {'pericias': ['Persuasao', 'Medicina'],          'oficio': 'Herbalismo'},
-    'Emanador':  {'pericias': ['Ocultismo', 'Investigacao'],      'oficio': 'Caligrafia'},
-    'Evocador':  {'pericias': ['Religiao', 'Lidar com Animais'],  'oficio': 'Entalhador'},
+    'Bastiao':   {'pericias': ['Atletismo', 'Intimidacao']},
+    'Vanguarda': {'pericias': ['Acrobacia', 'Percepcao']},
+    'Guia':      {'pericias': ['Persuasao', 'Medicina']},
+    'Emanador':  {'pericias': ['Ocultismo', 'Investigacao']},
+    'Evocador':  {'pericias': ['Religiao', 'Lidar com Animais']},
 }
 # Sentir Energia NAO e fixa de ninguem, de proposito: ela e a mais rolada da mesa,
 # e fixa-la em um Caminho daria a ele uma escolha livre a mais na pratica. Livre
 # para todos, ela vira decisao — e o feiticeiro ruim de sentir energia passa a caber.
 
 CAM_FIXAS, CAM_LIVRES = 2, 4       # pericias que o Caminho entrega
-CAM_OF_FIXO, CAM_OF_LIVRE = 1, 1   # oficios que o Caminho entrega
+CAM_OF_FIXO, CAM_OF_LIVRE = 0, 2   # oficios que o Caminho entrega: os dois livres
 ORI_PERICIAS = 2                   # uma da lista da Origem + uma livre
 ORI_EXTRA = 1                      # mais um OFICIO livre, ou outra PERICIA no lugar
 FAIXA_TREINADA = (0.30, 0.42)
@@ -193,13 +194,11 @@ print(f'  {len(vistos)} nomes, todos unicos entre pericias e oficios.')
 # --------------------------------------------------------------------------
 bloco('4. AS FIXAS DE CADA CAMINHO')
 
-print(f"  {'Caminho':<12} {'pericias fixas':<34} {'oficio fixo':<14} atributos")
+print(f"  {'Caminho':<12} {'pericias fixas':<34} atributos")
 for nome, d in CAMINHOS.items():
     fora = [p for p in d['pericias'] if p not in TODAS]
-    if d['oficio'] not in OFICIOS:
-        fora.append(d['oficio'])
     atrs = [vistos[norma(p)] for p in d['pericias'] if norma(p) in vistos]
-    print(f"  {nome:<12} {' · '.join(d['pericias']):<34} {d['oficio']:<14} {' + '.join(a[:3] for a in atrs)}")
+    print(f"  {nome:<12} {' · '.join(d['pericias']):<34} {' + '.join(a[:3] for a in atrs)}")
     if len(d['pericias']) != CAM_FIXAS:
         erro(f'{nome} fixa {len(d["pericias"])} pericias, deveria fixar {CAM_FIXAS}')
     if fora:

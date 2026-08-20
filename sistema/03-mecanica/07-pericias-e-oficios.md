@@ -169,20 +169,22 @@ Forjar uma lâmina é **Força**, falsificar uma assinatura é **Destreza**, e s
 ## 6. De onde vem o treino
 
 > **O Caminho dá duas perícias fixas e mais quatro à sua escolha, de qualquer lugar do quadro.**
-> **Mais um ofício fixo e outro à sua escolha.**
+> **Mais dois ofícios à sua escolha.**
 > **A Origem dá mais duas perícias: uma da lista de quatro dela, e uma livre — de fora das seis que o Caminho te deu.**
 
 **Oito perícias de vinte e três e três ofícios de onze** — ou nove e dois, se você trocar o ofício livre da Origem por mais uma perícia.
 
 As duas fixas são a assinatura do Caminho — o que qualquer um daquele Caminho sabe fazer. As quatro livres são suas.
 
-| Caminho | Perícias fixas | Ofício fixo |
-|---|---|---|
-| **Bastião** | Atletismo · Intimidação | Forja |
-| **Vanguarda** | Acrobacia · Percepção | Arrombamento |
-| **Guia** | Persuasão · Medicina | Herbalismo |
-| **Emanador** | Ocultismo · Investigação | Caligrafia |
-| **Evocador** | Religião · Lidar com Animais | Entalhador |
+| Caminho | Perícias fixas |
+|---|---|
+| **Bastião** | Atletismo · Intimidação |
+| **Vanguarda** | Acrobacia · Percepção |
+| **Guia** | Persuasão · Medicina |
+| **Emanador** | Ocultismo · Investigação |
+| **Evocador** | Religião · Lidar com Animais |
+
+**O Caminho não trava ofício.** Os dois que ele entrega são livres. *Mudou na v0.105: até ali cada Caminho fixava um ofício (Forja no Bastião, Arrombamento na Vanguarda, Herbalismo no Guia, Caligrafia no Emanador, Entalhador no Evocador). O que um personagem faz com as mãos fora da luta não é assinatura de Caminho, e travar isso só reduzia a variedade de duas fichas do mesmo Caminho.*
 
 **Sentir Energia não é fixa de ninguém, e isso é escolha.** Ela é a mais rolada da mesa; fixá-la num Caminho daria àquele Caminho uma escolha livre a mais disfarçada. Livre para todos, ela vira decisão de ficha — e **o feiticeiro ruim de sentir energia passa a caber**, que é o Itadori do começo e é uma coisa boa de existir.
 
@@ -227,7 +229,7 @@ Os ofícios ficam entre **18% e 27% de propósito — dois ou três de onze**, c
 |---|---|---|
 | Perícias | 14 | 23 |
 | Ofícios | não existiam | 11 |
-| Caminho dá | 3 perícias | 2 fixas + 4 livres, mais 1 ofício fixo + 1 livre |
+| Caminho dá | 3 perícias | 2 fixas + 4 livres, mais 2 ofícios livres |
 | Origem dá | 2 perícias | 2 perícias |
 | Treinadas | 5 de 14 (36%) | 8 de 23 (35%) |
 | Perceber mora em | Inteligência | **Essência** |

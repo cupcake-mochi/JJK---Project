@@ -51,7 +51,7 @@ Duas leituras que importam para o mestre:
 
 ## 3. O quadro de perícias mora na peça 7
 
-**Vinte e três perícias e onze ofícios**, em `07-pericias-e-oficios.md`. O Caminho dá duas perícias fixas e mais quatro à escolha livre, além de um ofício fixo e outro livre; a Origem dá mais duas perícias. Oito de vinte e três.
+**Vinte e três perícias e onze ofícios**, em `07-pericias-e-oficios.md`. O Caminho dá duas perícias fixas e mais quatro à escolha livre, além de dois ofícios livres; a Origem dá mais duas perícias. Oito de vinte e três.
 
 *A lista de catorze que ficava aqui foi para `99-arquivo/secoes-substituidas/`.*
 

@@ -53,7 +53,7 @@ Ela dá seis coisas:
 |---|---|
 | **Uma perícia** | escolhida da lista de quatro da sua Origem |
 | **Uma perícia livre** | que a sua história justifique, e de fora das seis do seu Caminho |
-| **Um ofício livre** | ou, se você não quiser ofício, mais uma perícia |
+| **Dois ofícios livres** | o Caminho não trava nenhum dos dois |
 | **Um Teste de Resistência treinado** | qualquer um dos quatro. O outro vem do Caminho |
 | **Um traço não numérico** | um acesso, uma obrigação, um contato, uma marca no corpo, alguém atrás de você |
 | **Dois Legados** | os dois na criação, e o sistema nunca concede outro. Um é **Destranca** obrigatório — zero no dado, e é quem o personagem é; o outro sai de qualquer lista da Origem. **Peça 13** |
@@ -90,15 +90,15 @@ Pare aqui e vá para o Caminho. O resto da técnica volta no passo 5.
 
 O que ele te dá agora:
 
-| Caminho | vida no nv 1 | vida por nível | PE por nível | perícias fixas | ofício fixo |
-|---|---|---|---|---|---|
-| **Bastião** | 12 (d12) | 7 | 4 | Atletismo · Intimidação | Forja |
-| **Vanguarda** | 8 (d8) | 5 | 5 | Acrobacia · Percepção | Arrombamento |
-| **Guia** | 8 (d8) | 5 | 5 | Persuasão · Medicina | Herbalismo |
-| **Evocador** | 6 (d6) | 4 | 6 | Religião · Lidar com Animais | Entalhador |
-| **Emanador** | 6 (d6) | 4 | 6 | Ocultismo · Investigação | Caligrafia |
+| Caminho | vida no nv 1 | vida por nível | PE por nível | perícias fixas |
+|---|---|---|---|---|
+| **Bastião** | 12 (d12) | 7 | 4 | Atletismo · Intimidação |
+| **Vanguarda** | 8 (d8) | 5 | 5 | Acrobacia · Percepção |
+| **Guia** | 8 (d8) | 5 | 5 | Persuasão · Medicina |
+| **Evocador** | 6 (d6) | 4 | 6 | Religião · Lidar com Animais |
+| **Emanador** | 6 (d6) | 4 | 6 | Ocultismo · Investigação |
 
-Mais **quatro perícias à sua escolha**, de qualquer lugar do quadro, **um ofício livre** e **um Teste de Resistência treinado**.
+Mais **quatro perícias à sua escolha**, de qualquer lugar do quadro, **dois ofícios livres** e **um Teste de Resistência treinado**.
 
 **E a Trilha, que você escolhe agora junto do Caminho.** São três por Caminho, e a lista está na peça 6 — Muro · Punho · Brasa no Bastião, Estocada · Batedor · Executor na Vanguarda, e assim por diante. *Decidido na v0.27 e aplicado na v0.34:* a Trilha é **identidade, como o Caminho, e nasce com o personagem** — três lugares do material diziam que ela só chegava na primeira subida, e a confusão era a mesma dos feitiços, de contar a partir do nível 1 numa ficha que nasce no 2.
 

@@ -6,6 +6,22 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.105] — 18/08/2026
+
+**A versão em que o Caminho parou de travar ofício.** *Cada um dos cinco fixava um ofício desde a v0.22; agora os dois que o Caminho entrega são livres, e o jogador escolhe os dois.*
+
+### Alterado
+
+**O Caminho dá dois ofícios livres, e nenhum fixo.** Até aqui a tabela era `Forja` no Bastião, `Arrombamento` na Vanguarda, `Herbalismo` no Guia, `Caligrafia` no Emanador e `Entalhador` no Evocador.
+
+**O motivo é variedade de ficha, e ele vem de leitura de mesa.** As duas perícias fixas são a assinatura do Caminho: elas dizem o que qualquer um daquele Caminho sabe fazer numa missão. O ofício não faz esse trabalho. O que um personagem faz com as mãos fora da luta é história dele, e travar isso fazia duas fichas do mesmo Caminho nascerem com a mesma coluna preenchida sem que nenhuma das duas tivesse escolhido aquilo.
+
+**Nenhum número se moveu.** A conta de treino continua a mesma: duas perícias fixas, quatro livres, dois ofícios, mais as duas perícias da Origem e o extra dela. Quem gasta o extra da Origem em ofício fica com oito perícias e três ofícios; quem troca fica com nove e dois. As duas rotas continuam na faixa de 30% a 42% do quadro treinado, que é o que o `conferir-pericias.py` mede.
+
+**Cinco peças e um validador.** As peças 4, 5, 6, 7 e 8 diziam "um ofício fixo e um livre" e passaram a dizer "dois ofícios livres"; a tabela de Caminho da peça 7 e a da peça 8 perderam a coluna de ofício. No `conferir-pericias.py`, `CAM_OF_FIXO, CAM_OF_LIVRE` foi de `1, 1` para `0, 2`, e o mapa de ofício por Caminho saiu junto com a checagem que o conferia contra a lista de onze.
+
+---
+
 ## [0.104] — 18/08/2026
 
 **A versão das dez condições no degrau errado, e das três contradições numa tabela que ninguém conferia.** *A Melhoria `Condição` virou uma só e o preço dela é o nível; as cinco vagas de `Desliga` que estavam destravadas desde a v0.59 e a v0.103 fecharam; e a penalidade de arma, que três documentos esperavam, está escrita.* **Manual do Fundamento na v7.10.**

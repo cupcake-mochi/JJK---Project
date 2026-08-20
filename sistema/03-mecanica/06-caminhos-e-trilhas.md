@@ -344,7 +344,7 @@ Para as **habilidades** de Trilha, não há restrição nenhuma: elas podem chav
 
 ## 7. Perícias: a lista precisa crescer
 
-> *Resolvido na v0.15, revisado na v0.16.* O quadro completo está em `07-pericias-e-oficios.md`: **vinte e três perícias e onze ofícios**, com o Caminho dando **duas perícias fixas mais quatro à escolha livre**, e um ofício fixo mais um livre. A análise abaixo é o que levou a isso e fica registrada. Note que **Sentir Energia mora em Essência** desde a v0.16, não em Inteligência.
+> *Resolvido na v0.15, revisado na v0.16.* O quadro completo está em `07-pericias-e-oficios.md`: **vinte e três perícias e onze ofícios**, com o Caminho dando **duas perícias fixas mais quatro à escolha livre**, e dois ofícios livres. A análise abaixo é o que levou a isso e fica registrada. Note que **Sentir Energia mora em Essência** desde a v0.16, não em Inteligência.
 
 Você quer 6 a 8 perícias por Caminho, e um sistema recheado. A lista de catorze não suporta isso:
 

@@ -189,7 +189,7 @@ Três famílias são legais e o projeto **não sabe preçar**: `auxílio` (somar
 
 > *Esta família chamou-se `repertório` por algumas horas na v0.71, e a triagem matou o nome: **`Repertório` era a Trilha do Emanador.*** **O nome ficou LIVRE na v0.88**, quando a Trilha foi abandonada e o `Explosivo` entrou no lugar — *o argumento abaixo continua de pé por conta própria, e a colisão que o gerou não existe mais.* Uma palavra fazendo o trabalho de duas é o defeito que a v0.64 pagou para consertar, e ele reapareceu na peça que existe para cercar. **A família fica sem nome curto de propósito** — o que ela faz cabe em três palavras.
 
-> **Quanto treino o Caminho dá é da peça 7, e só de lá** — duas perícias fixas e quatro à escolha, mais um ofício fixo e um livre. *Esta seção guardava a própria cópia desses números até a v0.71; ela saiu porque um número que mora em dois documentos vai divergir, e o `conferir-pericias.py` já confere as listas contra a peça dona.*
+> **Quanto treino o Caminho dá é da peça 7, e só de lá** — duas perícias fixas e quatro à escolha, mais dois ofícios livres. *Esta seção guardava a própria cópia desses números até a v0.71; ela saiu porque um número que mora em dois documentos vai divergir, e o `conferir-pericias.py` já confere as listas contra a peça dona.*
 
 ### O que saiu do permitido, e por quê
 
