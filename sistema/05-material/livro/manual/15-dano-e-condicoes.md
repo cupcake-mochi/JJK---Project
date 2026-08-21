@@ -103,50 +103,200 @@ Um não puxa o outro. Um feitiço com o Tema `Fogo` só causa dano do tipo `Fogo
 
 ### Como ler
 
-Cada linha diz o nome, o efeito inteiro sem nada implícito, e como aquilo se parece na mesa. O nível de cada bloco está no título da seção. Onde a condição dá vantagem ou desvantagem, a coluna *o que faz* diz a quem.
+Cada condição abre dizendo **quando** ela vale. Depois vem um parágrafo por efeito, e cada
+efeito tem nome próprio: `Deslocamento`, `Seus ataques`, `Contra você`, `Ação`, `Testes` e
+`Sai quando`. Os mesmos seis nomes aparecem em todas as catorze, então quem aprende um
+reconhece nas outras.
+
+No fim do capítulo, a tabela `Condições em uma linha` traz as catorze resumidas, para
+consulta na mesa.
 
 ### Nível `Leve`
 
-**Condições de nível `Leve`**
-{: .tab-titulo }
+#### `Lento`
 
-| condição | o que faz | na cena |
-|---|---|---|
-| `Lento` | seu deslocamento cai pela metade e você não usa Ação Bônus | as pernas pesam e o turno rende menos; você chega, só que atrasado |
-| `Incapacitado` | você não pode `Bloquear`, e todo ataque corpo a corpo contra você é crítico | a guarda abriu e você não consegue fechar de volta; quem chegar perto acerta onde quiser |
-| `Derrubado` | você está no chão. Só se move rastejando, tem desvantagem nos seus ataques, e quem ataca você **a até 1,5 m tem vantagem**; quem ataca de longe tem desvantagem | você está de costas no chão olhando para cima, e a prioridade do turno vira levantar |
-| `Agarrado` | seu deslocamento é `0`. Acaba se quem agarrou ficar `Incapacitado`, ou se alguma coisa tirar você do alcance dele | tem uma mão fechada em você; dá para bater, dá para conjurar, e não dá para sair |
-| `Desarmado` | a sua arma está no chão ou na mão de outro. Você bate desarmado até pegar de volta | o barulho da lâmina caindo no concreto, e a decisão de gastar o turno pegando |
-| `Surdo` | você não ouve. Falha automática em teste que precise de audição, e **`−2` na iniciativa** | zumbido, e tudo que chega por trás chega sem aviso |
+Enquanto está `Lento`, você sofre os seguintes efeitos.
+
+**Deslocamento.** Cai pela metade.
+
+**Ação.** Você não usa Ação Bônus.
+
+*As pernas pesam e o turno rende menos; você chega, só que atrasado.*
+
+#### `Incapacitado`
+
+Enquanto está `Incapacitado`, você sofre os seguintes efeitos.
+
+**Ação.** Você não pode `Bloquear`.
+
+**Contra você.** Todo ataque corpo a corpo é crítico.
+
+*A guarda abriu e você não consegue fechar de volta; quem chegar perto acerta onde quiser.*
+
+#### `Derrubado`
+
+Você está no chão. Enquanto está `Derrubado`, você sofre os seguintes efeitos.
+
+**Deslocamento.** Só se move rastejando.
+
+**Seus ataques.** Desvantagem.
+
+**Contra você.** Vantagem a até **1,5 m**, desvantagem de mais longe.
+
+*Você está de costas no chão olhando para cima, e a prioridade do turno vira levantar.*
+
+#### `Agarrado`
+
+Enquanto está `Agarrado`, você sofre os seguintes efeitos.
+
+**Deslocamento.** É `0`.
+
+**Sai quando.** Quem agarrou ficar `Incapacitado`, ou alguma coisa tirar você do alcance dele.
+
+*Tem uma mão fechada em você; dá para bater, dá para conjurar, e não dá para sair.*
+
+#### `Desarmado`
+
+A sua arma está no chão ou na mão de outro. Enquanto está `Desarmado`, você sofre o seguinte
+efeito.
+
+**Seus ataques.** Você bate desarmado até pegar a arma de volta.
+
+*O barulho da lâmina caindo no concreto, e a decisão de gastar o turno pegando.*
+
+#### `Surdo`
+
+Você não ouve. Enquanto está `Surdo`, você sofre os seguintes efeitos.
+
+**Testes.** Falha automática no que precise de audição.
+
+**Iniciativa.** `−2`.
+
+*Zumbido, e tudo que chega por trás chega sem aviso.*
 
 ### Nível `Média`
 
-**Condições de nível `Média`**
-{: .tab-titulo }
+#### `Calado`
 
-| condição | o que faz | na cena |
-|---|---|---|
-| `Calado` | você não conjura. Nada que precise de voz, gesto ou Selo sai | você tenta e não sai nada; o resto da luta você vira alguém com as mãos e mais nada |
-| `Enfeitiçado` | você não ataca quem enfeitiçou nem mira efeito nocivo nele, e ele tem vantagem em teste social contra você | você continua você, e aquela pessoa passou a ter razão sobre tudo |
+Enquanto está `Calado`, você sofre o seguinte efeito.
+
+**Conjuração.** Você não conjura. Nada que precise de voz, gesto ou Selo sai.
+
+*Você tenta e não sai nada; o resto da luta você vira alguém com as mãos e mais nada.*
+
+#### `Enfeitiçado`
+
+Enquanto está `Enfeitiçado`, você sofre os seguintes efeitos.
+
+**Seus ataques.** Você não ataca quem enfeitiçou, nem mira efeito nocivo nele.
+
+**Contra você.** Ele tem vantagem em teste social contra você.
+
+*Você continua você, e aquela pessoa passou a ter razão sobre tudo.*
 
 ### Nível `Pesada`
-
-**Condições de nível `Pesada`**
-{: .tab-titulo }
-
-| condição | o que faz | na cena |
-|---|---|---|
-| `Petrificado` | você virou pedra. `Incapacitado`, deslocamento `0`, sem perceber nada em volta, quem ataca você tem vantagem, e você tem resistência a todo dano | você sai da luta inteiro e sem saber o que aconteceu enquanto isso |
-| `Impedido` | seu deslocamento é `0`, você tem desvantagem nos seus ataques e no Teste de Resistência Físico, e quem ataca você tem vantagem | alguma coisa te prendeu no lugar: teia, corrente, o chão fechando em cima do pé |
-| `Cego` | você não enxerga. Falha automática em teste que precise de vista, desvantagem nos seus ataques, e quem ataca você tem vantagem | você ataca na direção do barulho, e o grupo passa a te narrar a sala |
-| `Amedrontado` | desvantagem em ataque e em teste enquanto você enxergar a fonte do medo, e você não se aproxima dela de vontade própria | você sabe o que precisa ser feito e o corpo não avança |
-| `Envenenado` | desvantagem nos seus ataques e em todo teste de perícia | suor frio, mão tremendo, e tudo saindo pela metade |
-| `Atordoado` | você perde a Ação Padrão e não usa reação. Quem tem mais de uma Ação Padrão no turno (um chefe, um capanga grande) perde **uma**, e não todas | o mundo demora a voltar; a rodada passa por cima de você |
 
 > **Só as de nível `Pesada` dão Teste de Resistência no fim de cada turno do alvo.**
 > **E só cabe uma delas por feitiço.**
 
+#### `Petrificado`
+
+Você virou pedra. Enquanto está `Petrificado`, você sofre os seguintes efeitos.
+
+**Ação.** Você fica `Incapacitado`.
+
+**Deslocamento.** É `0`.
+
+**Testes.** Você não percebe nada em volta.
+
+**Contra você.** Vantagem.
+
+**Resistência.** A todo dano.
+
+*Você sai da luta inteiro e sem saber o que aconteceu enquanto isso.*
+
+#### `Impedido`
+
+Enquanto está `Impedido`, você sofre os seguintes efeitos.
+
+**Deslocamento.** É `0`.
+
+**Seus ataques.** Desvantagem.
+
+**Testes.** Desvantagem no Teste de Resistência Físico.
+
+**Contra você.** Vantagem.
+
+*Alguma coisa te prendeu no lugar: teia, corrente, o chão fechando em cima do pé.*
+
+#### `Cego`
+
+Você não enxerga. Enquanto está `Cego`, você sofre os seguintes efeitos.
+
+**Testes.** Falha automática no que precise de vista.
+
+**Seus ataques.** Desvantagem.
+
+**Contra você.** Vantagem.
+
+*Você ataca na direção do barulho, e o grupo passa a te narrar a sala.*
+
+#### `Amedrontado`
+
+Enquanto está `Amedrontado`, você sofre os seguintes efeitos.
+
+**Seus ataques.** Desvantagem, enquanto você enxergar a fonte do medo.
+
+**Testes.** Desvantagem, enquanto você enxergar a fonte do medo.
+
+**Deslocamento.** Você não se aproxima dela de vontade própria.
+
+*Você sabe o que precisa ser feito e o corpo não avança.*
+
+#### `Envenenado`
+
+Enquanto está `Envenenado`, você sofre os seguintes efeitos.
+
+**Seus ataques.** Desvantagem.
+
+**Testes.** Desvantagem em todo teste de perícia.
+
+*Suor frio, mão tremendo, e tudo saindo pela metade.*
+
+#### `Atordoado`
+
+Enquanto está `Atordoado`, você sofre os seguintes efeitos.
+
+**Ação.** Você perde a Ação Padrão e não usa reação. Quem tem mais de uma Ação Padrão no
+turno — um chefe, um capanga grande — perde **uma**, e não todas.
+
+*O mundo demora a voltar; a rodada passa por cima de você.*
+
 > **Exemplo.** A Rina fica `Atordoada`. Ela perde a Ação Padrão daquele turno e não usa reação, então ninguém leva ataque de oportunidade dela. A Defesa continua a mesma: `Atordoado` não abre a guarda de ninguém. No fim do turno dela, como é uma condição `Pesada`, ela faz o Teste de Resistência e pode sair sozinha.
+
+### Condições em uma linha
+
+Para consulta na mesa. O efeito inteiro de cada uma está acima, na entrada dela.
+
+**Condições em uma linha**
+{: .tab-titulo }
+
+| condição | nível | o que faz |
+|---|---|---|
+| `Lento` | `Leve` | deslocamento pela metade, sem Ação Bônus |
+| `Incapacitado` | `Leve` | não `Bloqueia`, e todo ataque corpo a corpo contra você é crítico |
+| `Derrubado` | `Leve` | rasteja; desvantagem nos seus ataques; vantagem a quem ataca de perto |
+| `Agarrado` | `Leve` | deslocamento `0` |
+| `Desarmado` | `Leve` | bate desarmado até pegar a arma de volta |
+| `Surdo` | `Leve` | falha no que precise de audição, `−2` na iniciativa |
+| `Calado` | `Média` | não conjura |
+| `Enfeitiçado` | `Média` | não ataca quem enfeitiçou; ele tem vantagem social contra você |
+| `Petrificado` | `Pesada` | `Incapacitado`, deslocamento `0`, resistência a todo dano |
+| `Impedido` | `Pesada` | deslocamento `0`, desvantagem nos ataques e no Físico |
+| `Cego` | `Pesada` | falha no que precise de vista, desvantagem nos ataques |
+| `Amedrontado` | `Pesada` | desvantagem enquanto vir a fonte, e não se aproxima dela |
+| `Envenenado` | `Pesada` | desvantagem nos ataques e em todo teste de perícia |
+| `Atordoado` | `Pesada` | perde a Ação Padrão e a reação |
 
 ### `Atordoado` e `Incapacitado`
 

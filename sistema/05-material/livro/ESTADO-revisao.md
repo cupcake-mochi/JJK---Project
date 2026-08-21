@@ -179,6 +179,53 @@
 > Em `Teste`, `Maestria`, `Defesa` e `Integridade`. *As 12 diferenças do `guard_numeros.py` são
 > todas números derivados de fórmula já publicada, incluindo o `20` do `d20`.*
 
+
+> ### A terceira camada, aplicada às condições — 21/08/2026
+>
+> **A primeira tentativa reproduziu o defeito que ela queria consertar, e o Mizuki pegou.**
+> *Eu propus os rótulos dentro da célula de tabela: `Seus ataques.` Desvantagem. `Contra
+> você.` Vantagem.* **Ele leu e disse que o ponto virava vírgula, e que o negrito não indicava
+> que a explicação vinha em seguida — que é exatamente onde a leitora travou no `colado`.**
+>
+> *Fui ver a formatação real do PHB, com `pdftotext -layout` em vez do texto corrido:*
+>
+> ```
+> Amedrontado [Condição]
+> Enquanto tem a condição Amedrontado, você sofre os
+> seguintes efeitos.
+>   Testes de Atributo e Ataques Afetados. Você tem
+> Desvantagem em testes de atributo e jogadas de ataque…
+>   Não Pode Se Aproximar. Você não pode se aproximar…
+> ```
+>
+> **O que separa os efeitos não é o ponto — é a quebra de parágrafo, com indentação.** *O
+> rótulo só fecha o nome de um bloco que já estava visualmente isolado.* **Rótulo no começo de
+> bloco funciona; rótulo no meio de frase corrida vira pontuação decorativa** — e foi por isso
+> que o `Atordoado`, que tem um efeito só, ficou bom na primeira tentativa e os outros não.
+>
+> **Decisão do Mizuki: seguir o PHB de verdade.** As catorze condições saíram da tabela e
+> viraram entradas em prosa, cada uma com frase de âncora (*"Enquanto está `X`, você sofre os
+> seguintes efeitos"*) e um parágrafo por efeito. **A tabela virou `Condições em uma linha`, no
+> fim da seção, para consulta na mesa.**
+>
+> *O vocabulário de nomes de efeito é fechado e reutilizado, como o do PHB:* `Deslocamento` ·
+> `Seus ataques` · `Contra você` · `Ação` · `Testes` · `Sai quando`, mais `Conjuração`,
+> `Iniciativa` e `Resistência` onde a condição pede. **São 9 nomes para 14 condições; o PHB usa
+> 13 para as 14 dele.**
+>
+> *Conferido depois: as catorze mantiveram todos os efeitos, verificados um a um por
+> palavra-chave contra o texto antigo.* **As 7 diferenças do `guard_numeros.py` são valores que
+> agora aparecem duas vezes — na entrada e no sumário.**
+>
+> ### A varredura pedida: o defeito não era generalizado
+>
+> *Varrido o livro inteiro atrás de parágrafo de regra com três ou mais efeitos amontoados.*
+> **Cinco resultados, e nenhum é o defeito:** um é a entrada de `Atordoado` recém-escrita, dois
+> são listas legítimas (*"movimento, Ação Padrão e Ação Bônus de uma vez só"*), e dois —
+> `Provocar` e `Puxar a Linha` — são um efeito de duas faces, não efeitos independentes.
+>
+> **O problema estava concentrado nas condições, e fechou.**
+
 > ### E o que a passada ainda nem começou
 >
 > **As outras 21 seções que enterram a tabela.** As piores: `Aptidões de barreira` (511
@@ -193,8 +240,8 @@
 > **Nada disto foi commitado ainda.** Arquivos tocados: `REGRA-DE-VOZ.md`, `conferir-voz.py`,
 > `manual/07-glossario.md`, `manual/12-pericias-e-oficios.md`, `manual/15-dano-e-condicoes.md`,
 > `manual/35-caminhos-e-trilhas.md`, `manual/50-equipamento.md` (reordenado inteiro),
-> `manual/08-inicio-rapido.md`, `manual/10-como-jogar.md`, `manual/25-origens.md`, e este
-> documento.
+> `manual/08-inicio-rapido.md`, `manual/10-como-jogar.md`, `manual/25-origens.md`,
+> `manual/15-dano-e-condicoes.md` (as 14 condições reescritas), e este documento.
 >
 > **Verde em tudo:** `conferir-voz.py --estrito` sai `0`, os 19 validadores de `03-mecanica`
 > saem `0` com `PULADA=0`, e o `conferir-repositorio.py` sai verde.
