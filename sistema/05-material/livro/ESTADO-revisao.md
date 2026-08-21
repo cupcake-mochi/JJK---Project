@@ -317,6 +317,30 @@
 > > **Isso não é defeito por si — pode ser densidade boa —, mas é a medida a olhar se algum
 > > jogador reclamar que habilidade de Trilha é seca ou difícil de imaginar em jogo.**
 >
+> ### ⚠ Achado que não é de redação: `vida temporária` não tem regra — 21/08/2026
+>
+> **Oito efeitos concedem vida temporária e nada no projeto diz como ela funciona.** *`Apoio`
+> (Forma), `Fluxo` (Passiva Classe 2), `Aprumo` (Trilha Executor), `Crosta` (Trilha Arremate),
+> e mais quatro citações em feitiços prontos.* **Procurado no manual inteiro e nas 19 peças de
+> `03-mecanica`: não existe definição em lugar nenhum.**
+>
+> Quatro perguntas ficam sem resposta, e todas aparecem na primeira mesa que usar `Apoio`:
+>
+> - **empilha ou substitui**, quando duas fontes dão ao mesmo tempo?
+> - **some quando** — fim da cena, descanso curto, descanso longo?
+> - **é gasta antes da vida real?** *O `Braseiro` diz isso para energia temporária —* **"gasta
+>   como PE, e gasta primeiro"** *—, mas ninguém diz para vida.*
+> - **pode passar do máximo de vida?**
+>
+> *O PHB tem entrada de glossário para isso e remete ao capítulo de dano.* **Aqui o termo
+> escapou de toda checagem porque nunca foi escrito entre crases** — a marca que este livro usa
+> para dizer "isto é termo do sistema". *A checagem de termo sem destino não alcança palavra
+> que não foi marcada.*
+>
+> **Não foi escrito, e é de propósito:** as quatro respostas são decisão de design, e pelo
+> menos uma delas mexe no preço do `Apoio` e do `Fluxo`, que têm peça dona em `03-mecanica`.
+> **É trabalho de peça, não de passada de texto.**
+
 > ### O que fica para a próxima passada
 >
 > **Exemplo inline — 7 escritos, cerca de 38 seções a cobrir.** *Quatro no capítulo 1
