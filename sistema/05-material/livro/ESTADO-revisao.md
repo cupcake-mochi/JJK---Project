@@ -18,11 +18,14 @@
 > | frases com mais de 30 palavras | 11,3% | 9,2% | **4,0%** |
 > | "você" por mil palavras | 19,65 | 0,43 | **15,65** |
 > | "veja"/"consulte" por mil | **1,46** | 0,99 | **0,02** |
-> | exemplos por mil palavras | 0,61 | 1,41 | **0,06** |
+> | exemplo em **bloco** por mil | 0,00 | 0,38 | **0,49** |
+> | "Por exemplo," **inline** por mil | 0,58 | 0,58 | **0,08** |
+> | **parênteses** por mil | **6,67** | **6,72** | **1,13** |
 >
 > **O livro não tem problema de prolixidade** — é mais enxuto que os dois em toda medida de
-> tamanho. O problema é de **ausência**: remete 73 vezes menos que o D&D, e dá 10 vezes
-> menos exemplo. O jogador encontra um termo marcado e não tem para onde ir.
+> tamanho, e tem **mais** exemplo em bloco que o GURPS. *O D&D não usa bloco de exemplo
+> nenhuma vez em 397 páginas.* **O que falta é remissão — 73 vezes menos que o D&D — e
+> parêntese, que ele usa seis vezes mais.**
 >
 > *O caso que criou a regra:* uma leitora travou em `colado` no capítulo 11, com a definição
 > seis palavras adiante na mesma frase. Ela não leu como definição porque nada ali dizia que
@@ -127,6 +130,55 @@
 > *Duas frases minhas quebraram a regra `TABELA-VAGA` — diziam "a tabela" sem nome próprio — e
 > o `conferir-voz.py` pegou as duas.* **Corrigidas para citar o `Catálogo de armas` pelo nome.**
 >
+
+> ### Exemplos: o diagnóstico errou duas vezes, e a segunda foi de método
+>
+> **Primeiro erro, regex cego.** A conta original procurava `Exemplo:` com dois-pontos, e este
+> livro escreve `**Exemplo.**` com ponto: contou `2` onde havia `36`. *O livro tem `0,49`
+> exemplo em bloco por mil palavras, contra `0,38` do GURPS — e o D&D não tem nenhum.*
+>
+> **Segundo erro, e foi o Mizuki que apontou: medir marcador não é medir fenômeno.** *O D&D
+> exemplifica sem escrever "por exemplo" — salta direto para o caso concreto depois da
+> palavra-chave.* **Contar `Por exemplo,` subestimava ele.**
+>
+> A medição refeita em sete padrões achou o que realmente separa os três:
+>
+> | padrão | D&D | GURPS | este livro |
+> |---|---:|---:|---:|
+> | `Se você …,` | **0,77** | 0,03 | 0,13 |
+> | `como o/a/um/uma` | 1,25 | 1,34 | 0,52 |
+> | **parênteses** | **6,67** | **6,72** | **1,13** |
+> | dois-pontos + caso | 0,20 | 0,61 | **5,43** |
+>
+> **Este livro usa dois-pontos onde os dois usam parêntese** — escolha de estilo, não falta.
+> *Mas parêntese ele usa seis vezes menos, e é aí que mora a diferença.*
+>
+> ### O que os parênteses do PHB carregam, e é o achado da passada
+>
+> Classificados os 2.889 do PHB: **58% não são exemplo, são rótulo de categoria no ponto de
+> uso** — `(magia)` 391×, `(característica de classe)` 124×, `(talento)` 73×, `(perícia)` 18×.
+> **Toda vez que ele cita um termo, diz de que espécie aquilo é, ali na linha.**
+>
+> *Aqui a crase diz que a palavra é termo do sistema e não diz de que tipo.* **É a metade que
+> falta, e é a que fez uma leitora travar no `colado`.**
+>
+> ### Aplicado: 5 rótulos, de 34 candidatos
+>
+> *A regra escolhida foi uma por capítulo — o termo de outro capítulo vem rotulado na primeira
+> vez que aparece ali.* **Foram 34 candidatos e sobraram 5**, porque o livro já se anuncia
+> sozinho na maioria dos casos: *"a **Restrição** `Carregar`"*, *"a **Trilha** `Sutura`"*, ou a
+> frase anterior já abriu com *"**Condição** é um estado nomeado…"*.
+>
+> **Escritos:** `Derrubado` no início rápido e na Trilha Punho, e `Enfeitiçado`,
+> `Incapacitado` e `Amedrontado` nos traços de Origem. *Nenhum número mudou em nenhum dos três
+> arquivos.*
+>
+> ### Quatro exemplos inline no capítulo 1
+>
+> No formato do D&D — dentro da frase, entre 15 e 24 palavras, contra a mediana de `23` dele.
+> Em `Teste`, `Maestria`, `Defesa` e `Integridade`. *As 12 diferenças do `guard_numeros.py` são
+> todas números derivados de fórmula já publicada, incluindo o `20` do `d20`.*
+
 > ### E o que a passada ainda nem começou
 >
 > **As outras 21 seções que enterram a tabela.** As piores: `Aptidões de barreira` (511
@@ -140,8 +192,9 @@
 >
 > **Nada disto foi commitado ainda.** Arquivos tocados: `REGRA-DE-VOZ.md`, `conferir-voz.py`,
 > `manual/07-glossario.md`, `manual/12-pericias-e-oficios.md`, `manual/15-dano-e-condicoes.md`,
-> `manual/35-caminhos-e-trilhas.md`, `manual/50-equipamento.md` (reordenado inteiro), e
-> este documento.
+> `manual/35-caminhos-e-trilhas.md`, `manual/50-equipamento.md` (reordenado inteiro),
+> `manual/08-inicio-rapido.md`, `manual/10-como-jogar.md`, `manual/25-origens.md`, e este
+> documento.
 >
 > **Verde em tudo:** `conferir-voz.py --estrito` sai `0`, os 19 validadores de `03-mecanica`
 > saem `0` com `PULADA=0`, e o `conferir-repositorio.py` sai verde.

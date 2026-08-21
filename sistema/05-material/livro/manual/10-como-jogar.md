@@ -19,6 +19,8 @@ A **CD** é o número que a tarefa pede. Quem diz qual é o mestre, e ele tira d
 | 22 | difícil | reconhecer uma técnica que só aparece em três registros |
 | 26 | quase impossível | sair inteiro de uma coisa que não devia deixar ninguém sair |
 
+Por exemplo, numa CD 14 você precisa tirar 14 ou mais no d20 depois de somar o bônus: com bônus 3, um 11 no dado já basta.
+
 O bônus muda conforme o tipo de rolagem. As seções seguintes dizem o que entra em cada um.
 
 ### Teste de perícia
@@ -96,7 +98,7 @@ Inteligência não concede perícias extras. O que você é treinado vem da Orig
 |---|---|---|---|---|
 | maestria | 1 | 2 | 3 | 4 |
 
-Maestria é o bônus que mede o tempo de estrada do personagem. Ela entra em três lugares: no ataque de conjuração, na CD dos seus feitiços e nas perícias em que você é treinado. Ela fica fora da Defesa e fora de Teste de Resistência, que são os dois números que o sistema deixa crescer só por atributo e equipamento.
+Maestria é o bônus que mede o tempo de estrada do personagem. Ela entra em três lugares: no ataque de conjuração, na CD dos seus feitiços e nas perícias em que você é treinado. Por exemplo, no nível 6 a sua maestria é 1, e no nível 10 ela vira 2. Ela fica fora da Defesa e fora de Teste de Resistência, que são os dois números que o sistema deixa crescer só por atributo e equipamento.
 
 A ficha começa no **nível 2**, já com um feitiço. O nível 1 fica como opção de campanha, para quando a mesa quiser jogar o personagem de antes de ele ser feiticeiro.
 
@@ -139,7 +141,7 @@ Crítico só existe onde existe rolagem de acerto. Feitiço que resolve por Test
 
 > **Defesa = 10 + Destreza + proteção**
 
-Defesa é o número que o inimigo precisa igualar ou passar para te acertar. Ele rola contra ela; você não rola nada.
+Defesa é o número que o inimigo precisa igualar ou passar para te acertar. Ele rola contra ela; você não rola nada. Por exemplo, com Destreza 3 e um Traje de degrau 2, a sua Defesa é 15.
 
 **Proteção** é o que você veste ou o que você cobre. Cobrir-se de energia amaldiçoada dá proteção sem equipamento nenhum, e é aptidão básica de todo feiticeiro.
 
@@ -209,7 +211,7 @@ Sem atributo e sem valor inicial: no nível 1 você tem o PE de um nível.
 
 > **Integridade = 20 + 8 × (nível − 1).** Plana, igual para todo mundo.
 
-Integridade é a sua alma, e a alma é igual para todo mundo: nem o Caminho nem a Constituição mexem nela. Dano de alma passa por cima de corpo duro.
+Integridade é a sua alma, e a alma é igual para todo mundo: nem o Caminho nem a Constituição mexem nela. Dano de alma passa por cima de corpo duro. Por exemplo, no nível 2 a sua Integridade é 28, e no nível 10 ela é 92.
 
 Dano de alma tem quatro estágios, e eles estão no capítulo 4, *Dano, Condições e Cobertura*, na seção *Dano na alma*. O quarto é o fim da linha: *"você não é mais você, e o que sobra é decisão do mestre"*.
 

@@ -163,7 +163,7 @@ Onde o `Muro` segura o inimigo no lugar, o `Punho` arruma o campo empurrando. Jo
 
 > **Nível 2: `Engate`.** Quando você **acerta** um ataque na sua ação de atacar, você pode dar um golpe desarmado como **ação bônus**.
 >
-> **Nível 11: `Encontrão`.** Quando você acerta desarmado, **o alvo é empurrado até 3 m na direção que você escolher.** E **uma vez por rodada**, um alvo que você acertou faz um Teste de Resistência de Vigor; se falhar, fica **`Derrubado`**.
+> **Nível 11: `Encontrão`.** Quando você acerta desarmado, **o alvo é empurrado até 3 m na direção que você escolher.** E **uma vez por rodada**, um alvo que você acertou faz um Teste de Resistência de Vigor; se falhar, fica **`Derrubado`** (condição).
 >
 > **Nível 19: `Tropel`.** Quando o empurrão do nível 11 joga alguém contra outra criatura, **ela também é empurrada.** Cada uma faz um Teste de Resistência de Vigor: **quem passa segura a corrente, e ela para ali.** A distância total nunca passa do deslocamento do primeiro empurrado. *Vale só no empurrão do nível 11.*
 >

@@ -53,7 +53,7 @@ físico: as duas mãos precisam se tocar antes de qualquer feitiço sair.
 
 > **`Peso nas Mãos`** · Classe 1 · Toque
 > Ela toca o alvo com as duas mãos. **`d20 + 3` contra a Defesa dele.** Acertando: **3d8 de
-> dano de concussão**, e o alvo fica `Derrubado`.
+> dano de concussão**, e o alvo fica `Derrubado` (condição).
 
 > **`Corpo Duro`** · Reação, do Caminho Bastião
 > Ao ser atingida, ela reduz o dano em **`2` (o nível dela) `+ 1d6`**. Ela pode fazer isso

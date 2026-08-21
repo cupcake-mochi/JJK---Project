@@ -152,7 +152,7 @@ Fundamento, do jeito padrão.
 > **Gambiarra** — uma vez por dia, use um ofício que você não tem treinado como se tivesse. Você já resolveu isso com o que estava na mão.
 > *Na mesa:* aparece quando falta o especialista: fechadura, motor, curativo de emergência, papelada que precisa passar por um balcão.
 
-> **Desconfiado** — uma vez por cena, role com vantagem o Teste de Resistência contra ficar `Enfeitiçado`. Ninguém nunca te deu nada de graça, e você aprendeu cedo que quem se aproxima quer alguma coisa.
+> **Desconfiado** — uma vez por cena, role com vantagem o Teste de Resistência contra ficar `Enfeitiçado` (condição). Ninguém nunca te deu nada de graça, e você aprendeu cedo que quem se aproxima quer alguma coisa.
 > *Na mesa:* cena de sedução, de promessa boa demais, de maldição que fala bonito antes de encostar.
 
 #### Desliga
@@ -440,13 +440,13 @@ Fundamento, do jeito padrão.
 | Já Morri | uma condição nomeada (1) | por cena |
 | Método Velho | uma situação nomeada (1) | por cena |
 
-> **Corpo Emprestado** — dor não te para como para os outros: uma vez por cena, role com vantagem o Teste de Resistência contra ficar `Incapacitado`. O corpo avisa os outros e não avisa você.
+> **Corpo Emprestado** — dor não te para como para os outros: uma vez por cena, role com vantagem o Teste de Resistência contra ficar `Incapacitado` (condição). O corpo avisa os outros e não avisa você.
 > *Na mesa:* é o personagem que continua de pé na cena em que devia cair, e que só descobre o tamanho do estrago depois.
 
 > **Espasmo** — uma vez por cena, refaça um Teste de Resistência Físico ou de Vigor que você já tenha falhado. O corpo fez uma coisa que você não mandou, e quem estava aqui antes ainda está nos músculos.
 > *Na mesa:* boa desculpa para o mestre descrever o corpo agindo sozinho, na frente de quem conhecia o antigo dono.
 
-> **Já Morri** — uma vez por cena, role com vantagem o Teste de Resistência contra ficar `Amedrontado`. Você já esteve do outro lado e não achou grande coisa. Não mede risco como quem tem uma vida só.
+> **Já Morri** — uma vez por cena, role com vantagem o Teste de Resistência contra ficar `Amedrontado` (condição). Você já esteve do outro lado e não achou grande coisa. Não mede risco como quem tem uma vida só.
 > *Na mesa:* aparece contra maldição de terror e contra intimidação em cena social. Você é quem entra na sala que o resto do grupo evita.
 
 > **Método Velho** — uma vez por cena, um teste que envolva método antigo (ritual, selo, barreira velha, escrita morta) sai como se você fosse treinado nele. Era assim que se fazia no seu tempo.

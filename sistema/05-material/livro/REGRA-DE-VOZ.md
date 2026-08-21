@@ -8,6 +8,66 @@ marcadas com **(à mão)**.
 
 ---
 
+## Mede contra o PHB e o GURPS antes de mudar, e não copia nenhum dos dois
+
+Os dois manuais completos ficam fora do repositório, na pasta de PDFs do Mizuki, e o
+`pdftotext` extrai os dois em segundos. **Antes de mudar estrutura, formato ou ordem, veja como cada um resolve o mesmo
+problema** — mas a decisão sai da comparação, nunca da imitação.
+
+*Isto rendeu resultados opostos duas vezes na mesma passada, e é por isso que a regra é
+medir e não copiar:*
+
+> **O PHB tinha a solução, e ela entrou.** O rótulo de família entre colchetes — `Cone [Área
+> de Efeito]` — resolve termo cujo nome sozinho confunde, e ele só usa em 41 das cerca de 760
+> entradas do Glossário de Regras. Virou o `[Nível]` do `Leve`, `Média` e `Pesada`.
+>
+> **O PHB tinha a solução, e ela foi rejeitada.** Ele divide o catálogo de armas em
+> `simples/marcial × corpo a corpo/distância` **porque lá a proficiência é por arma**. Aqui o
+> treino mora na categoria, e são três listas. Copiar teria quebrado o vínculo entre categoria
+> e treino, que é regra. *A divisão saiu por lista de treino.*
+
+**Meça, não folheie.** O que decidiu as duas foi contar — 41 entradas rotuladas de 760, e 52
+armas em 13 categorias com 3 listas de treino. Impressão de leitura não separa o caso em que
+o modelo serve do caso em que ele mente.
+
+### As quatro camadas do PHB, e por que ninguém se perde nele
+
+Não é o "por exemplo" que segura o leitor — o PHB usa pouco, e o `Exemplo:` em bloco ele não
+usa **nenhuma vez** em 397 páginas. O que ele faz é montar toda regra em quatro camadas
+curtas, do geral ao específico:
+
+| camada | o que ela faz | tamanho medido |
+|---|---|---|
+| `Termo [Tipo]` | diz **de que espécie** é a coisa | 1 a 3 palavras |
+| frase de âncora | diz **quando** a regra vale, e nunca o que ela faz | mediana `14` palavras |
+| nome do efeito | dá **nome próprio a cada efeito**, em negrito correndo | 4 a 6 palavras |
+| a regra | o efeito em si | 15 a 21 palavras |
+
+*Medido nas 450 entradas do Glossário de Regras: 88% das frases de âncora cabem em 20
+palavras, e elas abrem com `Quando…`, `Enquanto…` ou `Se…` — o tempo antes do conteúdo.*
+
+**A camada que este livro mais pula é a terceira.** Onde o PHB escreve dois efeitos com nome
+cada, aqui os dois entram na mesma célula separados por vírgula. A informação é a mesma e a
+leitura de passar-o-olho não pega.
+
+> **Ao escrever ou reescrever regra, monte nesta ordem.** Não é decoração de estilo: cada
+> camada responde uma pergunta diferente, e quem lê rápido só lê as três primeiras.
+
+### Rótulo de categoria no ponto de uso
+
+O PHB responde *"que espécie de coisa é essa?"* dentro do texto corrido, entre parênteses, e
+faz isso o tempo todo: **58% dos 2.889 parênteses dele são rótulo** — `(magia)`, `(talento)`,
+`(perícia)`, `(característica de classe)`.
+
+**Aqui a crase diz que a palavra é termo do sistema, e não diz de que tipo.** É a metade que
+falta, e é a que fez uma leitora travar no `colado`.
+
+**A regra é uma por capítulo:** na **primeira** vez que um termo de outro capítulo aparece,
+ele vem com o rótulo. Depois disso, não. *Quem lê em ordem vê uma vez e segue; quem abre o
+livro no meio é atendido.* **(à mão)**
+
+---
+
 ## O livro não fala de si mesmo
 
 O teste é a pergunta que a frase responde:
