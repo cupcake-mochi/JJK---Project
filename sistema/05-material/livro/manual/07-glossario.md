@@ -33,6 +33,7 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **Pontos de vida** | O corpo. Vêm do Caminho mais a sua Constituição, a cada nível | 1 |
 | **Pontos de energia** (`PE`) | O combustível dos feitiços. PE por nível do Caminho × o seu nível | 1 |
 | **Integridade** | A vida da alma. `20 + 8 × (nível − 1)`, igual para todo mundo. Só volta com descanso longo | 1 |
+| **`Vida temporária`** | Anteparo, não vida. Gasta antes da vida real, não acumula, teto de metade da vida máxima, some no fim da cena | 1 |
 | **Proteção** | O que soma na Defesa: o uniforme que você veste, ou a energia com que você se cobre | 11 |
 | **Redução de Dano** | Desconto no dano que já passou pela Defesa. Não é a mesma coisa que proteção | 9 |
 | **Perícia** | Uma das vinte e três. Cada uma tem um atributo fixo. Sem treino você ainda tenta | 3 |

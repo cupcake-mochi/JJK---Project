@@ -197,6 +197,18 @@ Três reservas, e cada uma tem uma conta diferente. Vida é o corpo, energia é 
 
 > **Variante: rolar a vida.** Se a sua mesa preferir, role o dado do Caminho a cada nível em vez de pegar o valor fixo da tabela. Na média isso rende um pouco menos.
 
+### Vida temporária
+
+Algumas coisas dão **vida temporária**: a Forma `Apoio`, a Passiva `Fluxo`, e habilidades de Trilha como o `Aprumo` e a `Crosta`.
+
+> **Vida temporária é anteparo, e não vida.** Ela é **gasta antes** da vida real, **não acumula** — duas fontes, você fica com a maior, nunca com a soma —, tem **teto de metade da sua vida máxima**, e **some no fim da cena**.
+
+Por exemplo, com 40 de vida máxima o seu teto é 20: um efeito que daria 27 te deixa em 20, e um segundo efeito que daria 12 não soma nada, porque 20 é maior.
+
+**O mestre pode deixar ela atravessar para a cena seguinte** quando a preparação foi deliberada — quem se cobre antes de entrar no prédio não perde o que gastou porque a cena mudou de nome.
+
+Ela não sobe a sua vida máxima, não conta para `Insistir`, e não é cura: quem está a `0` de vida e recebe vida temporária continua a `0`.
+
 ### Pontos de energia
 
 **Pontos de energia** são o combustível dos seus feitiços, e o manual chama de **PE** nas tabelas. É o que acaba primeiro numa missão longa.

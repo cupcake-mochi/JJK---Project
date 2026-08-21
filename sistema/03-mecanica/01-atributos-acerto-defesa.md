@@ -207,6 +207,57 @@ Isso produz a imagem certa nos dois extremos. O **Emanador** cai pelo corpo ante
 
 **O próximo passo já está decidido, e não aplicado:** a Integridade vai escalar com **Essência**, virando uma segunda vida de verdade em vez de um número plano. Fica para a peça de dano de alma, com o contexto que ela vai trazer. Quando entrar, os dois eixos se cruzam em vez de empilhar — o Emanador de Essência alta fica com alma grossa e corpo fino, o exato oposto do Bastião.
 
+### 5.1.1 Vida temporária
+
+***Decisão do Mizuki na v0.108.*** **Oito efeitos do manual concediam vida temporária e nenhum
+documento do projeto dizia como ela funciona** — nem esta peça, nem as outras dezoito, nem o
+manual. *`Apoio`, `Fluxo`, `Aprumo`, `Crosta` e quatro feitiços prontos.*
+
+> **A vida temporária é anteparo, e não vida.** Ela **é gasta antes** da vida real, **não
+> acumula** — duas fontes, você fica com a maior, nunca com a soma —, **tem teto de metade da
+> sua vida máxima**, e **some no fim da cena**.
+>
+> **O mestre pode deixar ela atravessar para a cena seguinte** quando a preparação foi
+> deliberada: quem se cobre antes de entrar no prédio não perde o que gastou porque a cena
+> mudou de nome.
+
+**Cada uma das quatro tem razão, e três delas já estavam decididas por outro número:**
+
+**Gasta primeiro** — é o que o `Braseiro` já diz para energia temporária: *"gasta como PE, e
+gasta primeiro"*. Uma segunda resposta para a mesma pergunta seria divergência.
+
+**Some no fim da cena** — mesmo relógio da energia temporária do `Braseiro`, e é ele que
+sustenta o preço. *A régua do projeto diz que dano evitado converte `1` pra `1` (peça 11 §9),
+e um ponto de feitiço vale `1d8` = `4,5` de dano.* **O `Apoio` entrega `3` por ponto, que é
+`0,67×`** — um desconto de um terço que só se justifica se a vida temporária for desperdiçada
+com frequência. *Fosse ela até o descanso longo, seria quase sempre consumida, e o `Apoio`
+estaria subvendido em 50%.* **A duração curta é o que faz o preço fechar.**
+
+**Não acumula** — sem isso, duas fontes viram soma e a régua 1:1 quebra: dois `Apoio` de
+Classe 1 entregariam `18` de dano evitado por `6` pontos, contra os `27` de dano que os mesmos
+`6` pontos comprariam em `1d8`. *Com o teto, some rápido; sem o teto, empilhar é sempre melhor
+que atacar.*
+
+**Teto de metade da vida máxima** — e aqui a conta mostra que ele morde:
+
+| efeito | entrega | cortado pelo teto? |
+|---|---|---|
+| `Fluxo`, ao conjurar Classe 1 a 7 | `2` a `14` | **nunca** — fica bem abaixo |
+| `Apoio` puro, Classe 1 a 7 | `9` a `63` | **sempre**, em toda Classe |
+
+*Um `Apoio` de Classe 1 entrega `9` num Emanador de nível 2, cujo teto é `7`.* **O teto vira o
+limite real do `Apoio`, e não a Classe do feitiço.**
+
+> ***Decisão do Mizuki, com o corte à vista:*** **é freio de propósito.** *Vai existir
+> habilidade que passa da metade e é cortada, e vai existir habilidade que não chega perto —
+> é gestão de recurso, e é a mesma escolha que um jogador de d20 faz ao decidir em que altura
+> gasta a cura.* **Um `Apoio` puro no teto ainda é o feitiço que mais entrega valor bruto do
+> sistema; o que o teto impede é ele apagar uma luta sozinho.**
+
+**O que isto NÃO faz:** vida temporária não sobe a vida máxima, não conta para `Insistir`, e
+não é cura — quem está a `0` de vida e recebe vida temporária continua a `0` e continua
+caindo. *Ela previne dano que ainda não veio; não devolve o que já saiu.*
+
 ## 5.2 Crítico
 
 *Escrito na v0.25.* O crítico era usado e nunca tinha sido definido: o manual cita *"em crítico"* na Melhoria **Estilhaço** e para por aí, e o projeto não tinha uma linha sobre ele.

@@ -337,34 +337,74 @@
 > para dizer "isto é termo do sistema". *A checagem de termo sem destino não alcança palavra
 > que não foi marcada.*
 >
-> **Não foi escrito, e é de propósito:** as quatro respostas são decisão de design, e pelo
-> menos uma delas mexe no preço do `Apoio` e do `Fluxo`, que têm peça dona em `03-mecanica`.
-> **É trabalho de peça, não de passada de texto.**
+> **✔ FECHADO na v0.108.** *Decisão do Mizuki, com a conta na mesa:* **gasta antes da vida
+> real, não acumula (fica a maior, nunca a soma), teto de metade da vida máxima, e some no fim
+> da cena — com o mestre podendo deixar atravessar quando a preparação foi deliberada.**
+>
+> *A duração curta é o que sustenta o preço:* **o `Apoio` entrega `3` por ponto contra os `4,5`
+> que a régua 1:1 pediria, e o desconto de um terço só fecha se a vida temporária for
+> desperdiçada com frequência.** Fosse até o descanso longo, ele estaria subvendido em 50%.
+>
+> **O teto morde, e é de propósito:** *o `Fluxo` (`2` a `14`) nunca é cortado; o `Apoio` puro
+> (`9` a `63`) é cortado em toda Classe, inclusive na 1.* ***Decisão do Mizuki:*** *"vai
+> existir habilidade que passa e habilidade que não chega perto — é gestão de recurso, a mesma
+> escolha de em que altura gastar a cura."*
+>
+> **Escrito em `03-mecanica/01-atributos-acerto-defesa.md` §5.1.1** — numerada como subseção de
+> `5.1 Pontos de vida` **de propósito**: numerar como `5.2` empurraria as quatro seguintes e
+> quebraria cinco ponteiros vivos (`19-dano-e-condicoes` §5.2 e §5.5, `18-progressao` §5.3,
+> `15-invocacoes` §5.4 duas vezes). *A renumeração chegou a ser feita e foi revertida.*
+>
+> **E no manual**, capítulo 1, seção `Vida temporária`, mais entrada no vocabulário. *O termo
+> passou a ser escrito entre crases — antes ele escapava de toda checagem por não ser marcado.*
 
-> ### O que fica para a próxima passada
+> ### A fila, em ordem de quem retoma
 >
-> **Exemplo inline — 7 escritos, cerca de 38 seções a cobrir.** *Quatro no capítulo 1
-> (`Teste`, `Maestria`, `Defesa`, `Integridade`) e três na segunda rodada (`Limites` do
-> capítulo 2, `Rolagem de perícia` do 3, `Dano na alma` do 4).* **O formato está testado: 15 a
-> 24 palavras, dentro da frase, contra a mediana de `23` do D&D.**
+> **1 · Gatilho e duração nas habilidades — a lacuna que a medição apontou.**
+> *Comparadas as 74 daqui contra as 309 do PHB, elemento por elemento:*
 >
-> *O alvo foi estreitado por medida, e três filtros caíram no caminho:* das **55** seções de
-> regra geral sem exemplo, só **40** têm fórmula ou condicional que o leitor precisa aplicar —
-> o resto é declaração simples (`Nível inicial`) ou já é tabela de contas (`Passo 7`).
+> | elemento | aqui | PHB | |
+> |---|---:|---:|---|
+> | custo de ação | 41% | 28% | este livro diz **mais** |
+> | **gatilho — quando dispara** | 45% | 72% | **−27** |
+> | **duração — quanto dura** | 5% | 21% | **−16** |
+> | o que acontece | 54% | 69% | −15 |
 >
-> > ⚠ **Não tente achar as restantes por regex.** *Tentei quatro filtros e todos erraram:* o
-> > `Classe do feitiço` já traz *"Um feitiço de Classe 3 tem 9 pontos"* logo abaixo da fórmula,
-> > e o `Passo 4 · Atributos` traz *"uma distribuição legal, por exemplo, é 3 · 2 · 2 · 1 · 1"*
-> > no meio do parágrafo. **Nenhum dos dois usa marcador no início, e os dois já estão
-> > resolvidos.** *A lista de 38 é ponto de partida para leitura, não lista de trabalho.*
+> *As habilidades daqui têm mediana de `26` palavras contra `62` do PHB, e o que ficou de fora
+> na compressão foi o **quando** e o **até quando**.* **É isso que obriga o leitor a procurar
+> exemplo — e o conserto é escrever o gatilho, não acrescentar exemplo.**
 >
-> **A terceira camada fora das condições.** *A varredura não achou parágrafo de regra com
-> efeitos amontoados em nenhum outro lugar*, mas ela olhou prosa corrida. **Blocos `>` de
-> habilidade de Trilha e Caminho não foram examinados sob essa régua**, e são 74.
+> > ⚠ **Tem que ser lendo as 74 uma a uma.** *Um filtro automático deu 24 candidatos e quase
+> > todos eram falso positivo:* `Corpo Duro` e `Encontrão` são instantâneos, `Pique` e `Dobro`
+> > são permanentes, `Braseiro` **diz** a duração. **Regex não separa instantâneo de
+> > temporário.**
 >
-> **Da passada de voz, ainda aberto:** rebaixar título de exceção para negrito correndo, o
-> segundo estilo de caixa para aviso lateral, e quebrar o capítulo 9 — que continua com 15 mil
-> palavras, um quinto do livro.
+> **2 · Exemplo inline — 7 escritos, cerca de 38 seções a cobrir.**
+> *Quatro no capítulo 1 (`Teste`, `Maestria`, `Defesa`, `Integridade`) e três na segunda rodada
+> (`Limites`, `Rolagem de perícia`, `Dano na alma`).* **Formato testado: 15 a 24 palavras,
+> dentro da frase, contra a mediana de `23` do D&D.**
+>
+> *Das `55` seções de regra geral sem exemplo, só `40` têm fórmula ou condicional que o leitor
+> precisa aplicar — o resto é declaração simples ou já é tabela de contas.*
+>
+> > ⚠ **A lista de 38 é ponto de partida para leitura, não lista de trabalho.** *Quatro filtros
+> > erraram:* o `Classe do feitiço` já traz *"Um feitiço de Classe 3 tem 9 pontos"* logo abaixo
+> > da fórmula, e o `Passo 4 · Atributos` traz *"uma distribuição legal, por exemplo, é
+> > 3 · 2 · 2 · 1 · 1"* no meio do parágrafo. **Os dois já estão resolvidos.**
+>
+> **3 · As seis habilidades com três efeitos**, para a terceira camada: `Alicerce`,
+> `Não Acabou`, `Repuxo`, `Puxar a Linha`, `Encalço` e `Acelerar`. *Trabalho avulso, não fase —
+> o PHB usa a terceira camada em `15%` das habilidades dele e este livro já usa em `8%`.*
+>
+> **4 · Herdado da passada de voz**, e nenhum foi tocado: rebaixar título de exceção para
+> negrito correndo, o segundo estilo de caixa para aviso lateral, e **quebrar o capítulo 9** —
+> que continua com 15 mil palavras, um quinto do livro.
+>
+> ### Fora do livro
+>
+> **As três Trilhas do Evocador — `Servo`, `Matilha` e `Coro` — continuam sendo a próxima peça
+> de mecânica**, por decisão da v0.103. *Nada nesta passada encostou nelas.* **O dono dessa
+> fila é o `sistema/ESTADO-ATUAL.md`, não este documento.**
 >
 > ### Estado para retomar
 >

@@ -1,8 +1,10 @@
 # Estado atual do projeto
 
-Atualizado em 20/08/2026, na v0.107 (última peça fechada: **Dano e condições**, ampliada na v0.104 com a penalidade de arma; antes dela, a **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 21/08/2026, na v0.108 (última peça fechada: **Dano e condições**, ampliada na v0.104 com a penalidade de arma; antes dela, a **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.107.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezenove peças escritas** e **dezenove validadores**.
+**Versão v0.108.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezenove peças escritas** e **dezenove validadores**.
+
+**A v0.108 escreveu a regra de `vida temporária`, que oito efeitos usavam e nenhum documento definia, e passou o livro por uma revisão de vocabulário medida contra o D&D 2024 e o GURPS 4e.** *A regra mora na peça 1 §5.1.1; a revisão do livro está registrada em `05-material/livro/ESTADO-revisao.md`.*
 
 **A v0.107 fechou as duas divergências que a revisão do livro registrou na v0.106 e ninguém tinha investigado, e as duas moravam onde o bilhete não dizia.** *Ele chamou as duas de "bug do sistema, não do livro" e apontou para `03-mecanica/`.* **Uma está lá — a coluna de Passivas da peça 11 §4, errada em duas das três linhas. A outra estava no gerador do manual**, e consertar ela levou o Fundamento para a **v7.11**.
 
@@ -337,6 +339,21 @@ O manual do Fundamento **v7.11** (`manual/Fundamento-MANUAL-v7.docx`) é o subsi
 O `conferir-manual.py` falha se os dois lados divergirem, e a mensagem dele **nomeia o dono** em vez de acusar o projeto. Divergência ali é pedido de decisão.
 
 ## Pendências, da mais urgente à menos
+
+> **A fila do LIVRO não mora aqui.** *A passada de termos da v0.108 deixou quatro itens em
+> ordem — gatilho e duração nas 74 habilidades, exemplo inline em ~38 seções, a terceira camada
+> em seis blocos, e o que sobrou da passada de voz.* **Eles estão em
+> `05-material/livro/ESTADO-revisao.md`, na seção *A fila, em ordem de quem retoma*.** *Aqui
+> ficam só as pendências de mecânica.*
+>
+> ⚠ **E fica registrado um padrão que custou quatro diagnósticos naquela versão:** *medir o
+> marcador em vez do fenômeno.* **Quatro contas sobre o livro deram números altos e todas
+> estavam erradas** — o regex procurava `Exemplo:` e o texto escrevia `**Exemplo.**`; a conta
+> de exemplos ignorava a exemplificação sem marcador; a de "22 seções enterram a tabela" só via
+> um dos três formatos de regra, e o número real era zero. ***Quando um número sobre um
+> documento deste projeto parecer alto demais, o primeiro suspeito é o filtro, não o
+> documento.***
+
 
 1. ~~**Nome do sistema.**~~ **`Projeto - M`, decidido na v0.94.** *Aberto desde a v0.1; era a pendência mais velha que o projeto tinha.*
 2. **Se a perícia livre da Origem devia ser da lista também.** As listas existem desde a v0.22, mas a segunda perícia continua livre com aprovação — é o último lugar da criação em que um número depende de julgamento do mestre.

@@ -6,6 +6,86 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.108] — 21/08/2026
+
+**A versão em que o livro ganhou vocabulário navegável, e a régua para escrever nele saiu de dois manuais medidos em vez de opinião.** *O D&D 2024 e o GURPS 4e foram lidos inteiros — 397 e 576 páginas — e comparados com o Manual da Guilda em sete padrões de escrita.* **E uma regra que oito efeitos usavam desde sempre foi escrita pela primeira vez.**
+
+### Decidido — `vida temporária` tem regra, e ela nasceu de um buraco de oito anos-luz
+
+**Oito efeitos concediam vida temporária e nenhum documento do projeto dizia como ela funciona.** *`Apoio`, `Fluxo`, `Aprumo`, `Crosta` e quatro feitiços prontos.* **Procurado no manual inteiro e nas dezenove peças: nada.**
+
+> ***Decisão do Mizuki:*** **gasta antes da vida real · não acumula, fica a maior e nunca a soma · teto de metade da vida máxima · some no fim da cena.** *O mestre pode deixar atravessar para a cena seguinte quando a preparação foi deliberada.*
+
+**A duração curta é o que sustenta o preço, e isso não foi escolha de sabor.** *A régua do projeto diz que dano evitado converte `1` pra `1`, e um ponto de feitiço vale `1d8` = `4,5` de dano.* **O `Apoio` entrega `3` por ponto — `0,67×` —, e o desconto de um terço só fecha se a vida temporária for desperdiçada com frequência.** *Fosse ela até o descanso longo, como no d20, o `Apoio` estaria subvendido em 50%.*
+
+**O teto morde, e o Mizuki decidiu com o corte à vista:** *o `Fluxo` entrega de `2` a `14` e nunca é cortado; o `Apoio` puro entrega de `9` a `63` e é cortado em **toda** Classe, inclusive na 1.* ***"Vai existir habilidade que passa e habilidade que não chega perto — é gestão de recurso, a mesma escolha de em que altura gastar a cura."***
+
+> **Numerada `§5.1.1` da peça 1, e não `5.2`.** *Numerar como `5.2` empurraria as quatro seções seguintes e quebraria cinco ponteiros vivos — a peça 19 cita `§5.2` e `§5.5`, a 18 cita `§5.3`, a 15 cita `§5.4` duas vezes.* **A renumeração chegou a ser feita e foi revertida antes de fechar.**
+
+*O termo passou a ser escrito entre crases.* **Antes ele escapava de toda checagem por não ser marcado** — a checagem de termo sem destino só enxerga o que tem crase.
+
+### Adicionado — a checagem de termo sem destino, no `conferir-voz.py`
+
+**Termo entre crases é promessa: quem lê entende que aquilo é nome de coisa do sistema e sai procurando a definição.** *Uma leitora do playtest travou em `colado`, com a definição seis palavras adiante na mesma frase — ela não leu como definição porque nada ali dizia que era uma.*
+
+A checagem lê os dois lados: os termos saem do texto, os destinos saem do vocabulário e das estreias. Corte de `5` usos ou `3` capítulos. **O buraco foi de `71` para `0`, e o teto agora é zero permanente.**
+
+> **A maior parte não foi escrita — foi conserto de cinco pontos cegos do próprio validador**, cada um com perturbação positiva e negativa em cópia isolada: o encaixe `Nível N: \`Termo\`.` das habilidades (4 termos), título de seção (13), negrito sem crase do catálogo de Perícias (5), definição fora da segunda coluna da tabela (21), e o limiar de tamanho cortando por um caractere (5).
+
+### Alterado — as catorze condições viraram entradas em prosa
+
+**Formato do PHB: frase de âncora dizendo quando a condição vale, depois um parágrafo por efeito, cada um com nome próprio.** *Vocabulário fechado e reutilizado —* `Deslocamento` · `Seus ataques` · `Contra você` · `Ação` · `Testes` · `Sai quando` *—, nove nomes para catorze condições. A tabela virou `Condições em uma linha`, no fim da seção.*
+
+> **A primeira tentativa reproduziu o defeito que queria consertar, e o Mizuki pegou.** *Os rótulos foram propostos dentro da célula de tabela, e ele leu: o ponto virava vírgula, e o negrito não indicava que a explicação vinha em seguida.* **Fui ver a formatação real do PHB com `pdftotext -layout`: o que separa os efeitos não é o ponto, é a quebra de parágrafo com indentação.** *O rótulo só fecha o nome de um bloco que já está isolado na página.* **Onde não há parágrafo, a forma não funciona.**
+
+### Alterado — o capítulo 11 reordenado, e a divisão do PHB foi rejeitada por medida
+
+**O defeito não era a distância até a tabela; era que a tabela que chegava primeiro não servia para escolher arma.** *O `Índice A–Z` trazia `arma | categoria | treino` — nenhum dado de jogo — e os dados viviam espalhados em treze tabelas de grupo.*
+
+**A divisão do PHB não serve aqui.** *Lá a proficiência é por arma, então ele corta em `simples/marcial × corpo a corpo/distância`.* **Aqui o treino mora na categoria — treinar `Lâmina Longa` libera as oito — e são três listas: simples (26 armas), marcial (19) e de fogo (7).** *Copiar o corte quebraria o vínculo entre categoria e treino, que é regra.*
+
+| | antes | depois |
+|---|---:|---:|
+| capítulo | 601 linhas | **486** |
+| linhas de tabela no catálogo | 132 | **60** |
+| tabelas onde uma arma aparece | 14 | **1** |
+| armas | 52 | **52** |
+
+### Adicionado — vocabulário, remissões e rótulo de categoria
+
+**O vocabulário ganhou 49 entradas**, em três seções novas — `Condições`, `Formas, Melhorias e Restrições do Fundamento` e `Caminhos e Trilhas`. *Toda definição é texto que já existia em tabela ou prosa: nenhuma frase nova, nenhum número novo.*
+
+**Sete remissões**, achadas por medida e não por atacado: termo cuja primeira aparição no livro é fora do capítulo dono. *Eram 23 casos; 5 eram nome homônimo, 7 já apontavam, 3 são do início rápido que é autocontido de propósito, e 1 já estava coberto.*
+
+**Cinco rótulos de categoria, de 34 candidatos** — *o livro já se anuncia sozinho na maioria: "a **Restrição** `Carregar`", "a **Trilha** `Sutura`".* **O PHB rotula `40` das `767` entradas do glossário dele, 5%: é reserva para o nome que confunde, não prática geral.**
+
+**Sete exemplos inline**, no formato medido do D&D — 15 a 24 palavras, dentro da frase, contra a mediana de `23` dele.
+
+### Registrado — a `REGRA-DE-VOZ.md` ganhou o método, e ele diz que não é lei
+
+**Achado do Mizuki, e ele consertou três frases:** *o que os livros de sistema usam são metodologias, não regras — às vezes aplicam, às vezes não, às vezes trocam de forma no mesmo documento.* **As seções estavam redigidas como lei e induziriam erro.**
+
+*Medida a consistência do PHB: ela é **dentro de cada família**, e cada família tem a sua.* `[Área de Efeito]` 100% e abre com definição · `[Risco]` 100% e abre com descrição · `[Condição]` 86% e abre com âncora de tempo · `[Ação]` 55%. **Não existe "a forma do PHB".**
+
+> **A pergunta certa não é "qual é o padrão do livro", é "de que família é esta coisa, e que forma as irmãs dela já usam".**
+
+*E uma frase contradizia a própria ferramenta:* **"estreia de termo tem uma forma só"** *enquanto o `conferir-voz.py` reconhecia quatro.* Virou a tabela das quatro.
+
+### Achado — quatro diagnósticos meus caíram por medir o proxy, e não o fenômeno
+
+**O padrão se repetiu a versão inteira, e fica registrado porque vai se repetir:**
+
+| o que a conta dizia | o que era |
+|---|---|
+| *"o livro dá 10× menos exemplo que o D&D"* | o regex procurava `Exemplo:` e o livro escreve `**Exemplo.**` — contou `2` onde havia `36` |
+| *"o livro quase não exemplifica"* | contava só o marcador `Por exemplo,`; **o D&D exemplifica sem marcador**, e o Mizuki apontou |
+| *"22 seções enterram a tabela"* | o livro sinaliza regra de três formas e a conta só via uma — **o número real é zero** |
+| *"24 habilidades sem duração"* | quase todas instantâneas ou permanentes; o defeito real era outro |
+
+> **Quando um número sobre este livro parecer alto demais, o primeiro suspeito é o filtro.**
+
+---
+
 ## [0.107] — 20/08/2026
 
 **A versão em que as duas divergências que a revisão do livro registrou e ninguém investigou viraram conserto — e as duas moravam onde o bilhete não dizia.** *O `ESTADO-revisao.md` chamou as duas de "bug do sistema, não do livro" e apontou para `03-mecanica/`. Uma delas está lá; a outra estava no gerador do manual.* **Manual do Fundamento na v7.11.**
