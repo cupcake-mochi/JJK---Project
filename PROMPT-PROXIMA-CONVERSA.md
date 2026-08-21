@@ -1,60 +1,92 @@
 # Prompt para a próxima conversa
 
-Escrito no fim da v0.104, contra o estado real. Cole isto inteiro numa conversa nova.
-Renomeie o chat para o próximo número da sua sequência. *O último que teve nome escrito foi o **RPG - JJK15**, na v0.92.*
+Cole isto inteiro numa conversa nova. Renomeie o chat seguindo a sequência `RPG - JJK<n>` — pergunte a ele qual foi o último número, porque quem sabe é ele.
+
+> ## ⚠ Este arquivo não sabe em que versão o projeto está, e é de propósito
+>
+> **Ele não carrega número, régua, pendência nem "o que aconteceu na última versão".** Tudo isso tem dono em outro documento, e cópia diverge do dono — é a lição nº 9 do `README.md`, e ela já matou uma cópia dentro do próprio `sistema/ESTADO-ATUAL.md` na v0.32: ele guardava a lista de lições, e ela tinha parado em cinco enquanto o README chegava a nove.
+>
+> **O que mora aqui é só o que não muda quando a versão vira:** que projeto é este, onde ficam as coisas, como escrever arquivo neste mount, como rodar validador, e como conversar com ele.
+>
+> **Se você achar um número de versão ou uma régua escrita neste arquivo, isso é bug.** Apague e ponha o ponteiro para o dono.
 
 ---
 
-Projeto de RPG da Guilda (Jujutsu Kaisen), chamado **Projeto - M**. Estamos na **v0.104**.
+## O que é
 
-O número pulou de `0.99` para `0.100` e não para `1.00`, e foi decisão dele. `1.0` costuma querer dizer pronto para usar, e o playtest tem zero sessões.
+Projeto de RPG da Guilda (Jujutsu Kaisen), chamado **Projeto - M**. Sistema de mesa para um server de guilda com vários mestres ativos e personagem persistente entre mesas.
 
-**SÃO DOIS REPOSITÓRIOS, e a relação entre eles é de mão única.** O de TRABALHO é a fonte: `github.com/cupcake-mochi/JJK---Project`. Peças, validadores, CHANGELOG, ESTADO-ATUAL e os DESENHO moram lá. O de ENTREGA é artefato: `github.com/cupcake-mochi/JJK---PDF---RPG`, um recorte do material de mesa para o chat que vai escrever o PDF. **NADA NELE É EDITADO À MÃO**, com UMA exceção: o `README.md` dele, que não existe na fonte. Ele mora em `finalizado`, ignorado pelo `.gitignore` de lá e com `.git` próprio. **A PASTA LOCAL "Claude 2" É SEMPRE A MAIS ATUALIZADA** dos dois.
+O filtro que decide quase tudo: *dois mestres que nunca conversaram chegam ao mesmo número?*
 
-Os dois estavam na v0.104 no disco quando isto foi escrito, e o commit é dele. **Confira antes de começar:** leia o `logs/HEAD` de dentro do `.git` de cada um como arquivo. O recorte já atrasou duas versões numa sessão só.
+A numeração pulou de `0.99` para `0.100` em vez de `1.00`, e foi decisão dele. `1.0` costuma querer dizer pronto para usar, e o playtest tem zero sessões.
 
-> ⚠ **Não peça para ele sincronizar o Project.** Ele não consegue fazer isso sem abrir outra conversa, e você não precisa: clone os dois repositórios do GitHub e você lê o commit mais novo direto. O "Sync now" só importa para chat que leia o Project em vez de clonar.
+## São dois repositórios, e a relação é de mão única
 
----
+O de **trabalho** é a fonte. Peças, validadores, CHANGELOG, ESTADO-ATUAL e os DESENHO moram lá.
 
-## ⚠⚠ O MOUNT — leia isto antes de escrever qualquer arquivo
+O de **entrega** é artefato: um recorte do material de mesa, para quem for escrever o PDF. Ele mora em `finalizado`, com `.git` próprio, ignorado pelo `.gitignore` da fonte.
 
-**O arquivo fantasma existe e reproduz.** Sintoma: `ls` e `stat` mostram tamanho e inode certos, e `open()` devolve ENOENT enquanto os vizinhos da mesma pasta abrem. Um validador que morre com `FileNotFoundError` num arquivo que existe é isto, e não bug de código.
+**Nada na entrega é editado à mão, com uma exceção:** o `README.md` dela, que não existe na fonte. O resto é cópia byte a byte, e a checagem 7 do `conferir-repositorio.py` é a única coisa do projeto que atravessa os dois repositórios.
 
-Ele é intermitente e ninguém sabe o que o dispara. Na v0.101, 23 arquivos foram gravados sem um fantasma e depois 2 de 11 viraram — e outros dois da mesma pasta, na mesma chamada, passaram.
+**A pasta local dele é sempre a mais atualizada das duas.** Para saber em que commit cada uma está, leia o `logs/HEAD` de dentro do `.git` como arquivo — a entrega já atrasou duas versões numa sessão só.
 
-> ⚠ **REESCREVER POR CIMA NÃO CONSERTA.** O `README.md` disse o contrário da v0.28 até a v0.100, e é falso: a escrita nova também sai ENOENT. O `cat > arquivo` falha e o `cp` falha.
->
-> **O que conserta é escrever com OUTRO NOME e depois `mv` por cima.** O `mv` não precisa abrir o destino. Confira por md5 depois, dos dois lados.
->
-> E o `mv` também é o jeito de tirar arquivo da pasta, já que apagar não dá: mande para `_to_delete`, que o `.gitignore` segura, e peça para ele apagar a pasta a mão.
-
-> ⚠⚠ **A v0.104 foi escrita DUAS vezes, e a primeira se perdeu inteira.** *Uma conversa fez o trabalho todo dentro do container, bateu no limite de sessão antes de gravar, e o disco continuou na v0.103 — com o dono do projeto achando que estava tudo lá.* **Grave no disco a cada bloco fechado, e não no fim.** *Um checkpoint parcial no disco vale mais que uma versão inteira num container que some.*
-
-> **E existe um caminho melhor que o do painel, descoberto na v0.104: o `device_bash`.** *Ele roda `bash` na máquina dele, com a pasta montada, e escreve.* **O que funciona, e o que não funciona:**
->
-> - **`mv` de fora do mount para dentro FALHA.** Atravessar sistema de arquivos vira copiar-e-apagar, e o mount não deixa sobrescrever.
-> - **O que funciona:** mande **um `.tar.gz` só** pelo painel, grave ele em `_to_delete/`, extraia numa pasta de staging criada **DENTRO do mount**, embaixo de `_to_delete`, e aí `mv -f` arquivo por arquivo. **O `mv` dentro do mesmo sistema de arquivos passa.**
-> - **Confira por `md5sum` das duas pontas depois**, com a mesma lista e a mesma ordem. Na v0.104 bateram os 56 arquivos, três vezes seguidas.
-> - **Apagar continua não dando.** O que sobrar em `_to_delete/` fica para ele apagar a mão.
-> - **`device_bash` também roda os validadores no disco dele**, e é assim que se prova que o que chegou é o que roda.
-
-**O método que funcionou na v0.103, e é o que eu recomendo repetir:**
-
-1. **Clone os dois repositórios do GitHub para dentro do container e trabalhe lá.** `git`, `python3` e os validadores rodam sem drama. Para a checagem 7 rodar, ponha o clone da entrega dentro da fonte, numa pasta chamada `finalizado`.
-2. **Confira o disco contra o GitHub antes de começar, por `md5sum` arquivo a arquivo.** Dá para rodar o `md5sum` na máquina dele e comparar com o do container — ele lê a pasta inteira numa chamada só. Na v0.103 bateram os 154 arquivos versionados, e os três a mais no disco eram ignorados pelo git.
-3. **Para escrever de volta:** mande o arquivo pelo painel e depois grave no caminho do disco, com `force`. Depois confira `md5sum` dos dois lados, arquivo a arquivo. **A prova de que o trabalho está certo é o md5**, e é ele que acha o fantasma. Se algum sumir, grave de novo com outro nome e `mv` por cima.
-4. **Você não consegue apagar arquivo do mount, mas consegue MOVER**, e o `mv` é a ferramenta mais útil que você tem lá.
+> ⚠ **Não peça para ele sincronizar o Project.** Ele não consegue fazer isso sem abrir outra conversa, e você não precisa: clone os dois repositórios e leia o commit mais novo direto. O "Sync now" só importa para chat que leia o Project em vez de clonar.
 
 ---
+
+## Onde cada coisa é dona do seu número
+
+Este índice substitui tudo que costumava ser copiado para cá. **Vá ao dono; não confie em resumo, nem no meu, nem no de outra sessão.**
+
+| você quer saber | o dono é |
+|---|---|
+| em que versão o projeto está | a entrada do topo de `logs/CHANGELOG.md` |
+| o que as últimas versões fizeram, e **por quê** | `logs/CHANGELOG.md`, de cima para baixo |
+| as lições que custaram erro | `README.md`, seção *"Nove lições que custaram erro"* — fonte única, e ela cresce |
+| o que está aberto, e a fila do que vem | `sistema/ESTADO-ATUAL.md`, nas seções de pendências, de problemas de design e a de retomada, no fim |
+| qualquer régua ou número de balanço | a peça de `sistema/03-mecanica/` que é dona dele |
+| quantas peças, validadores e checagens existem | o **código** — e a checagem 9 do `conferir-repositorio.py` confere os documentos contra ele |
+| o que ainda não virou peça | os `DESENHO-*.md` e `LISTA-*.md` da raiz, e `sistema/03-mecanica/RASCUNHO-bloqueio.md` |
+| como ele gosta de trabalhar | `sistema/ESTADO-ATUAL.md`, na seção do fim |
+| onde ficam as skills de apoio | `sistema/skills/` |
+
+**Se `sistema/02-esqueleto/arquitetura.md` contradisser uma peça de `sistema/03-mecanica/`, a peça vence.**
+
+**Não leia de `sistema/99-arquivo/` para escrever peça nova.** É material morto, guardado com o motivo de ter morrido.
 
 ## Ordem de leitura
 
-`README.md`, em especial **"Nove lições que custaram erro"** — fonte única. Depois `sistema/ESTADO-ATUAL.md` INTEIRO (ele trunca; continue do offset). Depois `logs/CHANGELOG.md` de cima — v0.104, v0.103 e v0.102 são as três últimas. Depois os três DESENHO: trilhas, caminhos e manhas.
+`README.md`, em especial as **"Nove lições que custaram erro"**. Depois `sistema/ESTADO-ATUAL.md` **inteiro** — ele é grande e o leitor trunca; se vier aviso de leitura parcial, continue do offset em vez de responder pela primeira página, porque a seção de retomada é a última. Depois `logs/CHANGELOG.md` de cima, quantas entradas couberem. Depois a peça que for mexer.
+
+---
+
+## ⚠⚠ O mount — leia isto antes de escrever qualquer arquivo
+
+**O arquivo fantasma existe e reproduz.** Sintoma: `ls` e `stat` mostram tamanho e inode certos, e `open()` devolve ENOENT enquanto os vizinhos da mesma pasta abrem. Um validador que morre com `FileNotFoundError` num arquivo que existe é isto, e não bug de código. **O conteúdo no disco nunca esteve em risco.**
+
+Ele é intermitente e ninguém sabe o que o dispara. Numa leva, 23 arquivos foram gravados sem um fantasma e depois 2 de 11 viraram — e outros dois da mesma pasta, na mesma chamada, passaram.
+
+> **Escreva código pelo bash, com `cat > arquivo` e heredoc.** Arquivo que a ferramenta de escrita grava fica invisível para o `python3` com frequência. Para `.md` a ferramenta de escrita serve.
+>
+> **Depois de escrever, confira que o bash lê o arquivo de volta — antes de rodar validador, não depois.** Um validador que falha por arquivo sumido parece erro de conteúdo e custa uma rodada de investigação errada.
+>
+> ⚠ **Reescrever por cima nem sempre conserta.** O `README.md` afirmou o contrário da v0.28 até a v0.100. **O que conserta é escrever com OUTRO NOME e depois `mv` por cima** — o `mv` não precisa abrir o destino. Confira por md5 depois, dos dois lados.
+>
+> **Apagar não dá; mover dá.** Mande para `_to_delete/`, que o `.gitignore` segura, e peça para ele apagar a pasta a mão.
+
+> ⚠⚠ **Grave no disco a cada bloco fechado, e não no fim.** Uma versão inteira já se perdeu assim: a conversa fez o trabalho todo dentro do container, bateu no limite de sessão antes de gravar, e o disco ficou uma versão atrás com o dono do projeto achando que estava tudo lá. **Um checkpoint parcial no disco vale mais que uma versão inteira num container que some.**
+
+**Se a sua interface tiver container próprio**, o caminho que funciona é clonar os dois repositórios e trabalhar lá — `git`, `python3` e os validadores rodam sem drama. Para a checagem 7 rodar, ponha o clone da entrega dentro da fonte, numa pasta chamada `finalizado`. Confira o disco contra o clone por `md5sum` arquivo a arquivo antes de começar e depois de gravar; **a prova de que o trabalho chegou é o md5**, e é ele que acha o fantasma.
+
+> Para escrever de volta em lote: um `.tar.gz` só, gravado em `_to_delete/`, extraído numa pasta de staging criada **dentro** do mount, e aí `mv -f` arquivo por arquivo. **`mv` de fora do mount para dentro falha** — atravessar sistema de arquivos vira copiar-e-apagar, e o mount não deixa sobrescrever. Dentro do mesmo sistema de arquivos passa.
+
+> **Se a sua ferramenta abrir worktree dentro da pasta**, ele é uma cópia inteira do repositório dentro do repositório. O `conferir-repositorio.py` e o `.gitignore` já pulam `.claude` por causa disso, desde a v0.107 — se você criar cópia de trabalho em outro lugar da árvore, o validador vai ler ela como material e acusar cada ponteiro duas vezes.
+
+---
 
 ## Os validadores
 
-**São 22:** dezenove em `sistema/03-mecanica`, o `conferir-repositorio.py` da raiz, e o `pac7.py` e o `v7.py` de `manual/matematica`. O `conferir-nomes.py` leva 21 segundos, então ele não cabe junto de outro numa chamada curta.
+Cada peça tem um validador dono, e checagem nova vai no validador da peça que ela confere — nunca num arquivo novo. **Nada de valor fica escrito dentro do validador:** o número se lê do documento dono.
 
 ```bash
 cd sistema/03-mecanica && for v in conferir-*.py; do python3 "$v"; done
@@ -62,131 +94,91 @@ cd ../..  && python3 conferir-repositorio.py
 cd manual/matematica && for v in pac7.py v7.py; do python3 "$v"; done
 ```
 
-> ⚠ **CINCO validadores leem o `.docx` do manual**, e sem o `python-docx` eles pulam checagem. **A lista mudou na v0.103 sem a contagem mudar:** o `conferir-atributos.py` saiu dela quando as condições foram para a peça 19, e o `conferir-dano.py` entrou no lugar. **Os cinco de hoje são `conferir-dano.py`, `conferir-manual.py`, `conferir-nomes.py`, `conferir-pericias.py` e `conferir-progressao.py`**, e a tabela de quanto cada um pula está em TRÊS documentos — `README.md`, `sistema/ESTADO-ATUAL.md` e `sistema/LEIA-ME.md`.
+O `conferir-nomes.py` leva uns 20 segundos, então ele não cabe junto de outro numa chamada curta.
+
+> ⚠ **Alguns validadores leem o `.docx` do manual, e sem o `python-docx` eles PULAM checagem em vez de falhar** — saem verdes sem terem conferido nada, com código 0. Um deles pula tudo, no `except ImportError`, antes da primeira checagem.
 >
-> Os cinco dizem que pularam. O `subir.sh` também acusa: validador que pulou sai como `ok*` em amarelo, com o motivo do lado. Mesmo assim, **leia a saída em vez do código de retorno**.
+> **Conte as PULADAs; um verde que pulou não prova nada.** Instale com `pip install python-docx --break-system-packages`.
 >
-> No container: `pip install python-docx --break-system-packages`.
+> **Quantos são e quanto cada um pula: leia do CÓDIGO, não da saída.** Uma versão contou pela saída, escreveu um número errado em quatro documentos, e ele sobreviveu duas versões. Contar sintoma não é contar causa.
 
-E desde a v0.102 **a contagem de checagens de cada validador tem dono, e o dono é o CÓDIGO**. A checagem 9 conta os blocos numerados e confere contra todo documento que publica o número. Uma checagem = um bloco numerado; sub-bloco conta para o bloco pai.
+**Rode de `sistema/03-mecanica/`**, porque é o que o `subir.sh` faz e o que a documentação supõe. *O motivo antigo — "de outro lugar eles pulam em silêncio" — parou de reproduzir na v0.38; hoje todos resolvem o caminho por `__file__`.*
 
-## NÃO RODE GIT NA PASTA DELE
+### Todo número novo ganha teste negativo
 
-Sai com "loose object is corrupt" e o repositório está inteiro — é o mount. E `git status` cria um lock dentro do `.git` que trava o `subir.sh`. **Commit é sempre do Mizuki, nos dois repositórios.** Para ver em que commit a pasta está, leia o `logs/HEAD` de dentro do `.git` como arquivo.
+Perturbe o valor e prove que a checagem certa acende. Três regras, cada uma paga com uma versão perdida:
 
-No container, num clone do GitHub, o git funciona normalmente. Use isso.
+1. **Numa cópia isolada**, nunca nos arquivos reais.
+2. **Confira que a base passa na cópia antes de perturbar.** Cópia mal montada faz todas as perturbações acenderem — vermelhos que parecem prova e não são.
+3. **Confira por `diff` que a perturbação mudou o arquivo** antes de ler o resultado. `sed` que não bate produz um "não acendeu" falso.
 
-Ele tem duas contas de GitHub e troca com `gh auth switch --user cupcake-mochi`. O da fonte é `jjk` e `./subir.sh`, com a mensagem deixada em `mensagem-de-commit.txt`. O da entrega precisa do comando COMPLETO com a mensagem pronta — ele não sabe o que escrever nela.
+**E separe a regra aplicada do limite de design.** Uma checagem que se mede contra a própria constante sai verde quando você perturba a constante — é a lição nº 8, e ela apareceu em três versões seguidas. Sempre que der, acrescente um contra-teste que prove que a checagem não é trivialmente verdadeira.
 
-## COMO FALAR COM ELE
+### Antes de batizar qualquer coisa
+
+```bash
+cd sistema/03-mecanica && python3 conferir-nomes.py --candidatos Nome Outro Terceiro
+```
+
+Ela pega substring e já matou mais de dez nomes que pareciam livres. **Não pega três coisas, e você tem que pegar:** colisão de *sentido* (o nome sai `LIVRE` e ainda briga com o que o sistema já faz com aquela palavra), colisão com o hobby (*move*, *vantagem*, *condição*, *crítico* carregam significado herdado — procure o termo em `sistema/01-pesquisa/` antes) e categoria (escrever substantivo mais adjetivo faz o validador ler o adjetivo como nome da categoria).
+
+---
+
+## ⚠ Não rode git na pasta dele
+
+Sai com `loose object is corrupt` e **o repositório está inteiro** — é o mount. Pior: `git status` cria um `.git/index.lock` que o sandbox não consegue apagar, e um lock preso trava o `subir.sh`. Vale para tudo, inclusive `log` e `fsck`.
+
+Para ver em que commit a pasta está, leia o `logs/HEAD` de dentro do `.git` como arquivo. Num clone dentro de container, o git funciona normalmente.
+
+**O commit é sempre dele, nos dois repositórios.** Você lê, edita e valida; ele commita.
+
+Ele tem duas contas de GitHub e troca com `gh auth switch --user cupcake-mochi`. Na fonte é `./subir.sh`, que roda todos os validadores e se recusa a commitar se algum falhar, usando a mensagem deixada pronta em `mensagem-de-commit.txt`. **A entrega precisa do comando completo com a mensagem já escrita** — ele não sabe o que pôr nela.
+
+### Fechar versão
+
+**A entrada do topo do `logs/CHANGELOG.md` é a dona da versão do projeto.** Subir o número no `README.md`, no `sistema/ESTADO-ATUAL.md` ou no `sistema/LEIA-ME.md` sem escrever a entrada **falha** o `conferir-repositorio.py`.
+
+Peça nova ou validador novo **quebra a contagem** até os três documentos e a entrada do CHANGELOG subirem juntos. Mas o validador confere a contagem, **não a prosa** — as listas de comandos e as seções em texto passam por baixo dele. **Quando fechar peça, releia as listas à mão.**
+
+Meia peça não é peça: trabalho em andamento vive como `RASCUNHO-*.md`, sem número na frente. Peça substituída vai para `sistema/99-arquivo/` com cabeçalho dizendo de onde saiu, o que a substituiu, em que versão, **por que morreu** e o que dela sobreviveu.
+
+**E a entrega não se atualiza sozinha.** Quando uma peça, um desenho ou o manual mudam, a cópia em `finalizado` fica velha e a checagem 7 acusa. O `README.md` dela é escrito à mão e carrega a versão do recorte e a do manual.
+
+**Antes de fechar, revisão cética — inclusive contra o que você mesmo acabou de escrever.** Metade dos achados grandes do CHANGELOG saiu daí.
+
+---
+
+## Como falar com ele
 
 Diga em que estado está cada coisa que você mostrar: **FEITO**, **PRECISO DE VOCÊ** ou **SÓ PARA VOCÊ SABER**.
 
-Uma ideia por parágrafo, frase curta. Nada de ponteiro de seção no meio da frase. Número sempre com a unidade por extenso. Termo do projeto vem com a tradução colada na primeira vez. Escolha de sabor é dele — traga as opções com o número e o trade-off já calculados. **Mas não pergunte o que a conta responde.**
+Uma ideia por parágrafo, frase curta. Nada de ponteiro de seção no meio da frase. Número sempre com a unidade por extenso. Termo do projeto vem com a tradução colada na primeira vez.
 
-Quando ele disser que não entendeu, procure o defeito antes de reexplicar. Nas duas últimas vezes ele estava certo, e reexplicar melhor teria enterrado os dois achados.
+**Escolha de sabor é dele** — quantos itens numa lista, quais são, como se chamam, em que ordem aparecem. Traga as opções com o número e o trade-off de cada uma já calculados, e pergunte. Várias rodadas curtas, nunca uma proposta grande pronta. **Mas não pergunte o que a conta responde:** se dominância, deriva ou o filtro multi-mestre já decidem, rode a conta e apresente o resultado.
 
----
+Mostre o resultado no chat, não só no arquivo — ele quer ler o que foi escrito sem abrir o documento. E antes de entrar numa peça, mostre o que ela tem hoje.
 
-## ⚠⚠ A LIÇÃO DESTA LEVA
+**Número vem de conta rodada, nunca de intuição.** Escreva o script, rode, mostre a tabela.
 
-**Um número marcado como "não reconstrói" é dívida, e não curiosidade.**
+**Documento não pode ter cara de saída de IA.** Seções de tamanhos diferentes, sem simetria forçada, sem "além disso" e "em suma". Português informal, e nunca português de Portugal.
 
-O `Derrubado` do nível 11 do `Punho` passou da v0.74 até a v0.103 declarado como órfão, e o que ele era não era mistério: era o preço lendo a entrega errada. **Ele valia o `Derrubado` PERMANENTE, e o texto da entrega escreve dois portões que o preço não lia.**
-
-Com os portões, aquela Trilha caiu de `6,09` para `4,94` de um orçamento de `5,00` — e o estouro de `22%` que estava aceito por decisão nunca foi escolha.
-
-**E quando você mexer num número que outros citam como precedente, procure quem cita.** Quatro decisões de estouro apontavam para o `Punho`. Nenhum número delas se moveu; o que se moveu foi qual precedente elas citam.
-
-## E A SEGUNDA, QUE É A LIÇÃO Nº 8 PELA QUARTA VEZ
-
-**Uma checagem que se mede contra a própria constante sai verde na perturbação que importa.**
-
-A checagem 4 do `conferir-dano.py` comparava o manual contra a lista escrita **dentro do próprio validador**, e não contra a peça. Renomear uma condição na peça saía verde. **Quem achou foi o arnês de perturbação, e não a revisão.**
-
-E ele achou mais duas: uma checagem que procurava uma frase OU outra (meia porta é porta aberta), e duas perturbações mal miradas, que trocavam uma ocorrência de uma âncora que aparece duas vezes no mesmo arquivo. **O arnês ganhou um modo que troca todas.**
-
-## E A TERCEIRA, QUE É DE VALIDADOR
-
-**Uma checagem que só aceita uma resposta obriga o documento a mentir.**
-
-A checagem 6 do `conferir-legados.py` exigia que toda vaga reservada dissesse *"espera a peça de X"*. Quando a peça nascia, a vaga continuava dizendo que esperava. **Ao ganhar o segundo caminho — "destravada pela peça N, e por escrever" — ela achou na hora as duas vagas que a peça 16 destravou na v0.59 e que estavam quarenta e quatro versões escritas como esperando.**
+> **Quando ele disser que não entendeu, procure o defeito antes de reexplicar.** Nas vezes em que isso aconteceu ele estava certo, e reexplicar melhor teria enterrado o achado.
 
 ---
 
-## O QUE AS TRÊS ÚLTIMAS VERSÕES FIZERAM
+## As armadilhas que mais voltam
 
-**v0.101** — três lugares diziam verde escondendo que não conferiram. O `subir.sh` jogava a saída do validador fora; dois validadores imprimiam `TUDO OK` sem ter aberto o manual. Os três consertados, e o parágrafo do mount do `README.md` estava dando a saída errada desde a v0.28.
+Elas moram no `README.md`, nas *"Nove lições que custaram erro"*, e é de lá que se lê. Esta é amostra, não lista:
 
-**v0.102** — o quick-start foi abandonado, e a contagem de checagens ganhou dono. Nasceu a checagem 9, a única do projeto em que o dono do número é o código.
-
-**v0.103** — a peça de dano e condições entrou, e é a peça 19. Vinte e seis lugares em oito documentos esperavam por ela. A régua não precisou ser inventada: o manual preça condição em dano desde sempre. Nasceu o `conferir-dano.py`, com dez checagens.
-
----
-
-## RÉGUAS QUE VALEM HOJE
-
-A fatia é `5,08` de dano por rodada. A Trilha leva `5` e o Caminho leva `3`. O degrau de Caminho é `2 · 7 · 15 · 30` e a entrega de Trilha é `2 · 11 · 19 · 27`, e o dono dos dois é a linha de orçamento do topo do desenho de caminhos.
-
-O vão `físico − conjurador` é `9 · 10 · 11 · 12`, e é exatamente um golpe simples. `+1` no seu acerto vale `10,80` de dano por rodada. Vantagem e rerrolar valem os mesmos `25` pontos percentuais. Dano evitado converte 1 pra 1, e isso inclui PV temporário, resistência e redução.
-
-Um marco compra `+1` de atributo, que são `2,13` fatias. Um Classe 0 causa `27` no nível 30. A Rotina é `floor(3,5 × Classe)` dados. Chefe faz `72` por rodada no nível 30 e capanga faz `38`. Uma luta dura `3,3` rodadas.
-
-**A régua de condição existe desde a v0.103, e é a peça 19.** As três bandas — `1/7`, `2/7` e `3/7` da Rotina — dão o **nível** de cada condição: `Leve`, `Média` ou `Pesada`. **Tirar uma custa `1` ponto de energia por nível.** *Desde a v0.104 o manual vende **uma** Melhoria `Condição`, e o preço dela é o nível* — a `Condição Menor` e a `Condição Maior` não existem mais. **São seis `Leve`, duas `Média` e seis `Pesada`.**
-
-Espaços de feitiço conhecido = `2 + nível ÷ 2`, mais `1` por marco. Dono: a peça 18, desde a v0.99.
-
-## RÉGUAS QUE NÃO EXISTEM
-
-Gastar PE não tem preço. E "uma aptidão a mais" não tem régua — foi isso que matou o `Repertório`.
-
-*A régua de condição saiu desta lista na v0.103.*
+- **"Esse número já inclui o que eu estou somando nele?"** É o erro mais teimoso do projeto.
+- **Antes de aceitar um preço, veja se o termo que ele usa existe** — e se existe, vá ler a regra pendurada nele.
+- **Tensão de preço às vezes é lacuna de texto disfarçada.**
+- **Decisão registrada não é decisão aplicada.** Decisão que termina em "corrigir em três lugares" precisa de alguém conferindo os três.
+- **Sintoma não diz onde consertar.** Registro de pendência costuma anotar onde a coisa apareceu e chutar a pasta — confirme lendo o texto real antes de procurar onde o bilhete manda.
+- **Aviso que parou de reproduzir é dívida.** Um procedimento com motivo errado envelhece pior que um sem motivo nenhum.
+- **Número sobre a ferramenta se lê da ferramenta**, e não da saída dela.
+- **Pesquise antes de inventar.** Se a sua proposta vai afirmar o que outro sistema faz, qual o modo de falha documentado de alguma coisa ou o que o material original estabelece, procure antes de escrever.
 
 ---
 
-## O QUE FICA ABERTO, POR TAMANHO
-
-Nada trava jogar. Uma ficha de nível 2 fecha, roda uma missão inteira e sobe de nível.
-
-**Regra que falta**
-
-* **As três Trilhas do Evocador** — `Servo`, `Matilha` e `Coro`. Paradas desde a v0.82, e **elas são a próxima peça, por decisão dele na v0.103**. Quando voltarem, o total de 89 entradas da peça 17 muda e a checagem 1 do `conferir-catalogo.py` acusa.
-* **O manual cobra `Média` por dez condições que a conta preça em outro tier, e seis delas ele subvende.** `Cego`, `Impedido` e `Envenenado` valem `Pesada` e custam `Média`. Consertar é mexer na tabela de Melhoria do manual e regerar o `.docx`, e é decisão dele.
-* **A `Cicatriz`**, e se a `Energia Reversa` limpa Sequela. As duas ficaram fora do escopo da v0.103.
-* **A penalidade por empunhar arma sem treino ou sem requisito.** A peça 14 e a peça 16 apontam para a peça 19, que existe, e o item continua aberto lá dentro.
-
-**Material que falta, e não é regra**
-
-* **O PDF.** Ele está escrevendo direto, a partir do repositório de entrega. **A pergunta de se ele nasce jogável nas primeiras páginas saiu da lista do projeto na v0.103, por decisão dele** — é trabalho dele, e o que o repositório faz é mandar o material para a entrega.
-* **Playtest.** A pasta de playtest está vazia desde a v0.1. Todo número do sistema é previsão.
-
-**Pendência pequena**
-
-* **Cinco das sete vagas de `Desliga` estão destravadas e nenhuma foi escrita.** Duas pela peça 16 na v0.59, três pela peça 19 na v0.103. Escrever é trabalho, não conserto de texto.
-* A perícia livre da Origem — último lugar da criação em que um número depende de julgamento do mestre.
-* Como a `Torrente` cobra o segundo feitiço da rodada, contra a regra de ouro nº 6.
-* O ofício não passa no filtro multi-mestre. Conserto escrito: tabela com o atributo padrão de cada um.
-* A curva de refino das três rotas ainda mora no esqueleto, que é documento de projeto e não peça. É a última fonte da progressão fora de uma peça, e o candidato natural é a peça 11.
-* **Duas réguas de rolagem divergem por `9,4` vezes.** `+1` no seu acerto vale `10,80` (`10%` da Rotina de `108`); `1` ponto percentual na rolagem de um aliado vale `0,230` (`1%` da ação de atacar de `23,00`). Por ponto percentual são `2,16` contra `0,230`. **`9,4` = `4,7` de escopo × `2` de conversão** — a sua régua é relativa e a do aliado é absoluta. *A v0.103 publicava `4,7`, que é só a razão das bases.* Mexer nisso repreçaria o `Guiar`, o `Estampido` e o `Ajudar` de uma vez. Detalhe na peça 19 §7.
-
-**Peças que ainda nem entraram na fila**
-
-Técnica Marcial e Estilo da Sombra (as duas destravam rotas de Origem), depois Objeto amaldiçoado, Dano de alma com Essência na Integridade, Pactos e Bestiário.
-
----
-
-## ⚠ A PRIMEIRA COISA A FAZER, SE ELE NÃO PEDIR OUTRA
-
-**As três Trilhas do Evocador — `Servo`, `Matilha` e `Coro`.** Decisão dele na v0.103, e ela acabou com as duas respostas que o projeto tinha para "o que vem agora": a peça 16 dizia que a Técnica Marcial era a seguinte, e ela foi corrigida.
-
-As três são o sistema de invocação visto de dentro, e a peça 15 é a máquina. **O `Servo` tem um rascunho pronto** no rascunho de Trilhas, e a régua daquele documento fechou na v0.61 e foi reformulada na v0.68 — o preço saiu da entrega e foi para a Trilha inteira, e cada entrada declara a taxa de disparo.
-
-> ⚠⚠ **E a primeira coisa a fazer DENTRO delas é ler o que já está escrito, não escrever régua.** O projeto foi inventar régua que o manual já publicava quatro vezes: na v0.80, na v0.86, na v0.92 e na v0.103. **Quando o manual disser "isso não é conta minha", procure quem pegou; quando ele não disser nada, procure a tabela antes de escrever uma.**
-
-**A régua vem antes do catálogo.** É a única recomendação de método que o rascunho de Trilhas faz, e a diferença entre a peça 13 fechar em uma versão e a peça 14 gastar seis.
-
-> **E a peça 15 deixou duas regras penduradas que essas três Trilhas vão encostar:** quando a vida cheia da invocação reinvocada volta, e o que acontece com a invocação quando o DONO cai. *Enquanto as duas não fecharem, nenhuma entrega de Trilha que mexa nelas tem contra o que ser medida.*
-
----
-
-**Links:** `https://github.com/cupcake-mochi/JJK---Project.git` · `https://github.com/cupcake-mochi/JJK---PDF---RPG.git`
+**Links:** fonte em `https://github.com/cupcake-mochi/JJK---Project.git` · entrega em `https://github.com/cupcake-mochi/JJK---PDF---RPG.git`

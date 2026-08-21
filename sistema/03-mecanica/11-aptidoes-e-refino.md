@@ -175,7 +175,7 @@ As aptidões herdam a escada das Passivas do manual. **Ela não mede quanto — 
 
 *A terceira coluna é a prova de que a leitura não foi inventada aqui:* as seis da Classe Passiva 1 são todas *"você sabe"* ou *"você não sofre"*, e as sete da 2 **disparam quando alguma coisa acontece** — quatro delas com limite escrito (`Recomposição`, `Segunda Natureza`, `Costura` e o *"da cena"* do `Eco`), a `Contramedida` presa à reação, e `Fluxo` e `Peso da Presença` presas só ao gatilho. **A escada estava na tabela do manual; o que faltava era alguém escrever o que ela separa.**
 
-> *E aí aparece uma frouxidão que vale registrar sem consertar aqui:* **o `Fluxo` e o `Peso da Presença` não trazem limite de uso nenhum**, e a definição desta linha pede *"com limite de uso por cena ou por descanso"*. *Os dois continuam reativos — o que falta é o relógio.* **É pergunta para o dono da lista, que é o manual, e não para esta peça.**
+> *E duas delas não trazem relógio nenhum, o que parece frouxidão e não é:* **o `Fluxo` cobra um feitiço de Classe 3 ou mais para disparar, e o `Peso da Presença` só pega inimigo fraco e ainda passa por TR.** *O que a Classe Passiva 2 pede é **gatilho**, e não contador* — uma Passiva de Classe 1 melhorada, presa a uma condição que já custa caro, cabe nesta linha inteira. **A definição escrita na tabela do manual é que está mais estreita do que a lista que ela abriga**, e isso é pergunta para o dono da lista.
 
 Uma Classe Passiva 3 não é "uma Classe Passiva 1 maior": é uma coisa de outro formato. **Farejador** — *"você sente se alguém conjurou num lugar nas últimas 24 horas"* — não fica obsoleta porque uma permanente existe; ela faz algo que nenhuma permanente faz.
 

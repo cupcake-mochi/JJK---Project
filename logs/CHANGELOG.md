@@ -48,11 +48,15 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 *Oito perturbações conferidas em cópia isolada — cinco do lado da peça (o traço voltando na linha 3, um nome faltando na 2, a ordem trocada na 1, um nome trocado na 3, e a tabela mudando de forma) e três do lado do `.docx` (a `Escama` virando Classe 2, a `Regra Própria` ganhando altura fixa, e o cabeçalho da tabela mudando).*
 
-### Registrado — dois `Classe Passiva 2` sem relógio, e a pergunta é do manual
+### Registrado — dois `Classe Passiva 2` sem relógio, e o diagnóstico estava errado
 
-**O `Fluxo` e o `Peso da Presença` não trazem limite de uso nenhum**, e a linha que os abriga se define como *"efeito reativo, **com limite de uso por cena ou por descanso**"*. *Os dois continuam reativos — o que falta é o relógio.*
+**O `Fluxo` e o `Peso da Presença` não trazem limite de uso nenhum**, e a linha que os abriga se define como *"efeito reativo, **com limite de uso por cena ou por descanso**"*. *Isto entrou na peça 11 §4 como frouxidão a registrar — e foi escrito sem ler o que as duas fazem.*
 
-**Fica registrado na peça 11 §4 e não consertado**, porque o dono da lista de Passivas é o manual, e mexer no formato de duas Passivas publicadas é decisão de leva de manual e não efeito colateral de um conserto de coluna.
+> **Elas já têm freio; ele só não é um relógio.** *O `Fluxo` só dispara ao conjurar **Classe 3 ou mais**, que é caro por si; o `Peso da Presença` só pega inimigo **fraco**, uma vez por turno dele, e ainda passa por TR.* **Decisão do Mizuki: o que a Classe Passiva 2 pede é gatilho, e não contador** — uma Passiva de Classe 1 melhorada, presa a uma condição que já custa caro, cabe na linha inteira.
+
+**O que está estreito é a definição escrita na tabela do manual, e não a lista que ela abriga** — e essa continua sendo pergunta para o dono da lista, que é o manual. *A peça 11 §4 passou a registrar isso, em vez do diagnóstico anterior.*
+
+*É a armadilha de sempre, na direção menos esperada:* **antes de aceitar um preço, veja se o termo que ele usa existe — e o mesmo vale para aceitar que um preço FALTA.** *Duas linhas de tabela lidas teriam evitado o registro errado.*
 
 ### Fechado — os três documentos do livro que carregavam as duas como pendência
 
