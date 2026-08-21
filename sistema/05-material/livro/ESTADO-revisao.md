@@ -1,6 +1,6 @@
 # Estado da revisão · Manual da Guilda
 
-> ## Passada de termos — FASES 1 e 3 CONCLUÍDAS, fase 4 começada em 21/08/2026
+> ## Passada de termos — CONCLUÍDA em 21/08/2026
 >
 > **Terceira revisão, sobre o vocabulário.** Nasceu de duas reclamações de playtest: jogador
 > novo não se contextualiza, e leitor de leitura dinâmica encontra um termo e não acha a
@@ -226,14 +226,51 @@
 >
 > **O problema estava concentrado nas condições, e fechou.**
 
-> ### E o que a passada ainda nem começou
+
+> ### As "21 seções que enterram a tabela" não existem — 21/08/2026
 >
-> **As outras 21 seções que enterram a tabela.** As piores: `Aptidões de barreira` (511
-> palavras de regra antes da primeira tabela), `Regra rápida do turno` (514), `Tipos de dano`
-> (549), e as oito Origens com cerca de 350 cada.
+> **O diagnóstico era meu e estava errado.** *A conta original mediu "palavras até a primeira
+> tabela" e concluiu que 22 seções enterravam o conteúdo principal.* **Refeita contra os três
+> formatos que este livro usa para sinalizar regra — subseção própria, bloco `>` e `**Nome**
+> —`, o número real é zero.**
 >
-> **Exemplos.** A medida que abriu esta passada continua valendo: **0,06 exemplo por mil
-> palavras**, contra `0,61` do D&D e `1,41` do GURPS. *Nada foi feito nesta frente.*
+> Das 26 seções com 150 ou mais palavras de prosa antes da regra:
+>
+> | o que sinaliza a regra | quantas |
+> |---|---:|
+> | subseção própria (`Efeito na ficha`, `Características do Bastião`) | 13 |
+> | regra direta logo depois da prosa | 9 |
+> | nada | 4 |
+>
+> *E as quatro sem sinalização não são defeito:* `Presença em campo` e `Regra Própria` são
+> prosa explicativa; `Combinações inviáveis` **abre** com a regra; e `Lâmina Longa` só aparece
+> assim porque a consolidação do catálogo tirou a tabela dela, nesta mesma passada.
+>
+> **O comparativo com o PHB fica registrado, porque ele vale para escrita nova:** *ele gasta
+> mediana de `81` palavras de prosa antes da primeira entrega de nível, com 75% em até `120` e
+> um único caso acima de `200`.* **As oito Origens deste livro gastam de `223` a `286`** — mas
+> a regra delas vive sob `### Efeito na ficha`, então quem procura acha pelo sumário. *É lore
+> densa por decisão, não conteúdo enterrado.*
+>
+> > **O erro se repetiu quatro vezes nesta passada, sempre igual:** presumir o formato e medir
+> > o proxy em vez do fenômeno. *Aconteceu com o regex de `Exemplo:`, com a contagem de
+> > `Por exemplo,`, com o classificador de tabela do catálogo de armas, e aqui.* **Quando um
+> > número sobre este livro parecer alto demais, o primeiro suspeito é o filtro.**
+
+> ### O que fica para a próxima passada
+>
+> **Exemplo inline.** Este livro tem `0,08` por mil palavras contra `0,58` dos dois sistemas.
+> *Quatro foram escritos no capítulo 1 e o resto do livro não foi coberto.* **É a única frente
+> desta passada que ficou pela metade de propósito** — o formato está definido e testado, e o
+> que falta é repetição.
+>
+> **A terceira camada fora das condições.** *A varredura não achou parágrafo de regra com
+> efeitos amontoados em nenhum outro lugar*, mas ela olhou prosa corrida. **Blocos `>` de
+> habilidade de Trilha e Caminho não foram examinados sob essa régua**, e são 74.
+>
+> **Da passada de voz, ainda aberto:** rebaixar título de exceção para negrito correndo, o
+> segundo estilo de caixa para aviso lateral, e quebrar o capítulo 9 — que continua com 15 mil
+> palavras, um quinto do livro.
 >
 > ### Estado para retomar
 >
