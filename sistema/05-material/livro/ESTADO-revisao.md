@@ -257,6 +257,36 @@
 > > `Por exemplo,`, com o classificador de tabela do catálogo de armas, e aqui.* **Quando um
 > > número sobre este livro parecer alto demais, o primeiro suspeito é o filtro.**
 
+
+> ### Metodologia não é lei, e o PHB prova isso — 21/08/2026
+>
+> **Observação do Mizuki, e ela consertou a `REGRA-DE-VOZ.md`:** *o que os livros de sistema
+> usam são metodologias, não regras — às vezes aplicam, às vezes não, às vezes trocam de
+> forma dentro do mesmo documento.* **As seções que esta passada escreveu estavam redigidas
+> como lei, e isso induziria erro em quem escrevesse depois.**
+>
+> Medido no PHB, a consistência dele é **dentro de cada família**, e cada família tem a sua:
+>
+> | família | segue a forma da família | como a forma abre |
+> |---|---:|---|
+> | `[Área de Efeito]` | 100% | *"Um Cone **é** uma área que…"* — definição |
+> | `[Risco]` | 100% | *"Uma criatura **pode**…"* — descrição |
+> | `[Condição]` | 86% | *"**Enquanto** tem a condição X…"* — âncora de tempo |
+> | `[Ação]` | 55% | *"**Quando** executa a ação X…"* |
+>
+> **E o rótulo de categoria aparece em `40` das `767` entradas — 5%.** *Não é prática geral: é
+> reservado ao nome que sozinho confunde.*
+>
+> **Três frases foram reescritas:** *"as quatro camadas do PHB"* virou *"a forma da família
+> condição"*; *"a regra é uma por capítulo"* virou critério de dúvida, não de posição; e
+> *"estreia de termo tem uma forma só"* virou a tabela das **quatro** formas que o livro já
+> usa e o `conferir-voz.py` já reconhece — *porque a regra escrita contradizia a própria
+> ferramenta, e nenhuma das duas estava errada sozinha.*
+>
+> > **A pergunta certa não é "qual é o padrão do livro", é "de que família é esta coisa, e que
+> > forma as irmãs dela já usam".** Forma nova só quando a família é nova — e aí ela entra na
+> > `REGRA-DE-VOZ.md` e no validador junto.
+
 > ### O que fica para a próxima passada
 >
 > **Exemplo inline.** Este livro tem `0,08` por mil palavras contra `0,58` dos dois sistemas.

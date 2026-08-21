@@ -30,11 +30,29 @@ medir e não copiar:*
 armas em 13 categorias com 3 listas de treino. Impressão de leitura não separa o caso em que
 o modelo serve do caso em que ele mente.
 
-### As quatro camadas do PHB, e por que ninguém se perde nele
+### ⚠ Isto tudo é metodologia, e não lei — o próprio PHB não obedece
+
+**Nenhum livro de sistema segue uma forma única, e medir o PHB mostra isso.** A consistência
+dele é **dentro de cada família de coisa**, e cada família tem a sua:
+
+| família | quantas seguem a forma da família | como a forma abre |
+|---|---:|---|
+| `[Área de Efeito]` | 100% | *"Um Cone **é** uma área que…"* — definição |
+| `[Risco]` | 100% | *"Uma criatura **pode**…"* — descrição |
+| `[Condição]` | 86% | *"**Enquanto** tem a condição X…"* — âncora de tempo |
+| `[Ação]` | 55% | *"**Quando** executa a ação X…"* |
+
+**Não existe "a forma do PHB".** Existe a forma da condição, a forma da ação, a forma da área
+— e o mesmo documento carrega todas ao mesmo tempo. *Copiar uma delas para onde ela não
+pertence é o erro que a comparação com o modelo mais convida a cometer.*
+
+> **A pergunta certa não é "qual é o padrão", é "de que família é esta coisa, e qual forma as
+> irmãs dela já usam".** Forma nova só quando a família é nova.
+
+### As quatro camadas, que são a forma da família *condição*
 
 Não é o "por exemplo" que segura o leitor — o PHB usa pouco, e o `Exemplo:` em bloco ele não
-usa **nenhuma vez** em 397 páginas. O que ele faz é montar toda regra em quatro camadas
-curtas, do geral ao específico:
+usa **nenhuma vez** em 397 páginas. Nas condições ele monta assim, do geral ao específico:
 
 | camada | o que ela faz | tamanho medido |
 |---|---|---|
@@ -44,14 +62,16 @@ curtas, do geral ao específico:
 | a regra | o efeito em si | 15 a 21 palavras |
 
 *Medido nas 450 entradas do Glossário de Regras: 88% das frases de âncora cabem em 20
-palavras, e elas abrem com `Quando…`, `Enquanto…` ou `Se…` — o tempo antes do conteúdo.*
+palavras.* **As catorze condições deste livro foram reescritas nessa forma na v0.108.**
 
-**A camada que este livro mais pula é a terceira.** Onde o PHB escreve dois efeitos com nome
-cada, aqui os dois entram na mesma célula separados por vírgula. A informação é a mesma e a
-leitura de passar-o-olho não pega.
-
-> **Ao escrever ou reescrever regra, monte nesta ordem.** Não é decoração de estilo: cada
-> camada responde uma pergunta diferente, e quem lê rápido só lê as três primeiras.
+> ⚠ **A terceira camada depende de quebra de parágrafo.** O rótulo em negrito fecha o nome de
+> um bloco que **já está isolado na página** — não é ele que separa os efeitos. *Enfiado numa
+> célula de tabela, ou no meio de uma frase corrida, o ponto vira vírgula decorativa e o
+> leitor não entende que a explicação vem em seguida.* **Foi assim que a primeira tentativa de
+> aplicar isto falhou, e é o mesmo defeito que travou uma leitora no `colado`.**
+>
+> **Onde não há parágrafo, não use esta forma.** A tabela `Condições em uma linha` existe para
+> esse caso: consulta rápida, uma linha, sem camadas.
 
 ### Rótulo de categoria no ponto de uso
 
@@ -62,9 +82,17 @@ faz isso o tempo todo: **58% dos 2.889 parênteses dele são rótulo** — `(mag
 **Aqui a crase diz que a palavra é termo do sistema, e não diz de que tipo.** É a metade que
 falta, e é a que fez uma leitora travar no `colado`.
 
-**A regra é uma por capítulo:** na **primeira** vez que um termo de outro capítulo aparece,
-ele vem com o rótulo. Depois disso, não. *Quem lê em ordem vê uma vez e segue; quem abre o
-livro no meio é atendido.* **(à mão)**
+**Mas ele rotula pouco, e é de propósito: só `40` das `767` entradas do Glossário de Regras
+levam rótulo — 5%.** *O rótulo é reservado ao nome que sozinho confunde;* `Cone` precisa
+porque cone também é forma de área e palavra comum, `Bardo` não precisa porque ninguém erra.
+
+**O critério é a dúvida, não a posição:** rotule quando o leitor não teria como saber de que
+espécie é a coisa — e só a primeira vez em cada capítulo, para quem abre o livro no meio.
+*Onde a frase já diz o tipo em português — "a **Restrição** `Carregar`", "a **Trilha**
+`Sutura`" —, o rótulo sobra.* **(à mão)**
+
+*Na v0.108 isso deu 5 rótulos escritos de 34 candidatos: 29 caíram porque o livro já se
+anunciava sozinho.*
 
 ---
 
@@ -151,15 +179,22 @@ na mesma frase, seis palavras depois. Ela não leu como definição porque **nad
 que era uma**: o termo vinha marcado, e texto marcado no livro inteiro significa *isso é
 explicado em outro lugar*. Ela fez o certo com um livro que estava errado.
 
-**Estreia de termo tem uma forma só:**
+**O que a estreia precisa ter é uma marca de que ali está a definição.** A forma varia com a
+família, e o livro já tem quatro que funcionam — todas reconhecidas pelo `conferir-voz.py`:
 
-```markdown
-**`Termo`** — o que ele é, em uma frase.
-```
+| forma | onde ela é a certa |
+|---|---|
+| `### Termo` | a coisa é grande o bastante para ter seção |
+| `**`Termo`** — texto` | estreia dentro de prosa |
+| `> **Nível N: `Termo`.** …` | habilidade de Trilha ou Caminho — 74 usos |
+| linha do vocabulário | termo que vive numa tabela |
 
-O travessão é o que diz *estou definindo isto agora*. Não confundir com o negrito de
-rebaixar título — **`Dano maciço.`** com ponto abre um bloco sobre uma coisa já conhecida;
-com travessão, apresenta uma coisa nova.
+*O travessão é a marca da segunda: ele diz **estou definindo isto agora**.* **Não confundir
+com o negrito de rebaixar título** — **`Dano maciço.`** com ponto abre um bloco sobre coisa
+já conhecida; com travessão, apresenta coisa nova.
+
+> **Forma nova exige motivo.** Se nenhuma das quatro serve, a família é nova — e aí a forma
+> entra aqui e no validador junto, não só no texto.
 
 **E todo termo que o livro usa de verdade tem entrada no vocabulário.** O corte é `5` usos,
 ou aparecer em `3` capítulos — abaixo disso o termo é local e a estreia no lugar basta.
