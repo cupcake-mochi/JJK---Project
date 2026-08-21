@@ -4,6 +4,40 @@ Registro do que muda entre uma leva de material e a seguinte. Cada versão fecha
 
 Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Removido` e `Decidido` (decisão de design que fecha uma pergunta em aberto).
 
+**Toda entrada fecha com `→ Continua em`**, uma linha dizendo onde o trabalho seguinte pega. *Decisão do Mizuki na v0.110:* **quem abre o CHANGELOG numa conversa nova precisa achar o ponto de retomada sem ler o repositório inteiro.** A linha aponta para o documento dono da fila, e não repete o que ela diz.
+
+---
+
+## [0.111] — 21/08/2026
+
+**A versão que mediu antes de quebrar, e descobriu que o capítulo 9 não precisa ser quebrado.**
+
+### Decidido — toda entrada do CHANGELOG fecha com `→ Continua em`
+
+***Decisão do Mizuki:*** **quem abre este arquivo numa conversa nova precisa achar o ponto de retomada sem ler o repositório inteiro.** *A linha aponta para o documento dono da fila e não repete o que ela diz.* **Aplicada retroativamente nas entradas da v0.109 e da v0.110.**
+
+### Achado — "quebrar o capítulo 9" era premissa da v0.106, e ela não se sustenta
+
+**A passada de voz registrou o Fundamento como grande demais — 15 mil palavras, um quinto do livro — e deixou "quebrar" na fila desde então.** *Medido contra o PHB, o número está certo e a conclusão não:*
+
+| | proporção do livro |
+|---|---:|
+| PHB cap.3, Classes | **36,2%** |
+| PHB cap.7, Magias | **35,6%** |
+| este cap.9, Fundamento | **21,0%** |
+
+**O PHB tem dois capítulos que passam de um terço do livro cada, e os dois são o coração do sistema dele.** *Um quinto é modesto para o capítulo que carrega técnica e feitiço inteiros.*
+
+**E a estrutura já é a da fonte: regra na frente, catálogo atrás.** *`Melhorias por família`, `Restrições`, `Feitiços prontos` e `Fundamentos prontos` somam `5.357` palavras — `35%` do capítulo — e são consulta, não leitura corrida.* **Tirando eles sobram `10.132` palavras, praticamente iguais ao capítulo 7 (`10.213`) e ao 8 (`9.592`).**
+
+> **Quebrar por tamanho seria copiar um problema que a fonte não tem.** *O item sai da fila como não-trabalho, e o motivo fica escrito para ninguém reabrir.*
+
+### Registrado — o que sobrou da revisão do livro, e por que não é texto
+
+*Dois itens, os dois pequenos:* **rebaixar título de exceção para negrito correndo** — o `conferir-voz.py` não alcança, é triagem à mão — e **a caixa de aviso lateral**, que *pede CSS novo no `build/`* e por isso não é trabalho de redação.
+
+→ **Continua em** `05-material/livro/ESTADO-revisao.md`: a fila da revisão fechou. O que resta são os dois itens acima, e **fora do livro** a próxima peça de mecânica continua sendo as três Trilhas do Evocador — `Servo`, `Matilha` e `Coro` —, por decisão da v0.103, com a fila delas em `sistema/ESTADO-ATUAL.md`.
+
 ---
 
 ## [0.110] — 21/08/2026
@@ -40,6 +74,8 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 > **São sete casos em três versões, e o mecanismo nunca mudou: medir presença de palavra-chave numa população onde boa parte dos itens não precisa daquele elemento.** *O filtro de exemplo foi refinado quatro vezes e errou nas quatro, porque cada versão presumia um formato de exemplificação e o livro usava outro.* **Este livro exemplifica e sinaliza muito mais do que qualquer contagem automática enxerga.**
 
+→ **Continua em** `05-material/livro/ESTADO-revisao.md`: a fila fechou nos itens 1 a 3, e sobrou o **item 4** — rebaixar título de exceção, a caixa de aviso lateral (pede CSS novo no `build/`), e **quebrar o capítulo 9**, que tem 15 mil palavras.
+
 ---
 
 ## [0.109] — 21/08/2026
@@ -69,6 +105,8 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 **O PHB tem mais gatilho porque as habilidades dele são mais longas e condicionais — mediana de `62` palavras contra `26` daqui —, e não porque estas estejam incompletas.**
 
 > **É a quinta conta desta sequência que dá número alto por medir presença de palavra-chave numa população onde a maioria dos itens não precisa daquele elemento.** *As outras quatro estão na entrada da v0.108.* **O padrão está registrado no `sistema/ESTADO-ATUAL.md`, acima das pendências, porque ele vai voltar.**
+
+→ **Continua em** `05-material/livro/ESTADO-revisao.md`, na seção *A fila, em ordem de quem retoma* — itens 2 a 4.
 
 ---
 

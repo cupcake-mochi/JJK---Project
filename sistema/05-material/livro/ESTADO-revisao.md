@@ -420,9 +420,31 @@
 > `Corpo Duro` e o `Puxar Para Si` fazem isso desde sempre. *A terceira camada cabe aqui
 > porque a quebra existe; foi por não existir que ela falhou na tabela de condições.*
 >
-> **4 · Herdado da passada de voz**, e nenhum foi tocado: rebaixar título de exceção para
-> negrito correndo, o segundo estilo de caixa para aviso lateral, e **quebrar o capítulo 9** —
-> que continua com 15 mil palavras, um quinto do livro.
+> **4 · Herdado da passada de voz — e "quebrar o capítulo 9" não se sustenta.**
+>
+> ***Medido contra o PHB, a premissa cai:***
+>
+> | | proporção do livro |
+> |---|---:|
+> | PHB cap.3, Classes | **36,2%** |
+> | PHB cap.7, Magias | **35,6%** |
+> | este cap.9, Fundamento | **21,0%** |
+>
+> **O PHB tem dois capítulos que passam de um terço do livro cada.** *Um capítulo carregar um
+> quinto é normal quando ele é o coração do sistema — e o Fundamento é, como Classes e Magias
+> são lá.*
+>
+> **E a estrutura já é a mesma da fonte: regra na frente, catálogo atrás.** *`Melhorias por
+> família`, `Restrições`, `Feitiços prontos` e `Fundamentos prontos` somam `5.357` palavras —
+> `35%` do capítulo — e são consulta, não leitura.* **Tirando eles, sobram `10.132` palavras de
+> leitura corrida, praticamente iguais ao capítulo 7 (`10.213`) e ao 8 (`9.592`).**
+>
+> *A percepção de "um quinto do livro" estava certa no número e errada na conclusão.*
+> **Quebrar por tamanho seria copiar um problema que a fonte não tem.**
+>
+> **Continuam abertos os outros dois**, e os dois são pequenos: *rebaixar título de exceção
+> para negrito correndo* — o `conferir-voz.py` não alcança, é à mão — e *a caixa de aviso
+> lateral*, que **pede CSS novo no `build/`** e por isso não é trabalho de texto.
 >
 > ### Fora do livro
 >
