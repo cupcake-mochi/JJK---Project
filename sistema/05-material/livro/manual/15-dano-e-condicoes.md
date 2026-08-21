@@ -89,7 +89,7 @@ Um não puxa o outro. Um feitiço com o Tema `Fogo` só causa dano do tipo `Fogo
 | 3/4 | **3** | Desvantagem em ataques e Testes de Resistência. Você não conjura acima de metade da sua Classe máxima. |
 | Toda | **4** | Você não é mais você. O que sobra é decisão do mestre. |
 
-**Cura comum não devolve o que a alma perdeu.** Só descanso longo, ou a Melhoria `Remenda`. O descanso longo devolve toda a Integridade e a vida máxima, e limpa os estágios.
+**Cura comum não devolve o que a alma perdeu.** Só descanso longo, ou a Melhoria `Remenda`, no capítulo 9, *Fundamento*. O descanso longo devolve toda a Integridade e a vida máxima, e limpa os estágios.
 
 **Nenhum feitiço passa de 2 × Classe em dados na alma.**
 

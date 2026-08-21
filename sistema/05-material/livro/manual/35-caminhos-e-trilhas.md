@@ -320,7 +320,7 @@ Arco longo, treino de clã, silêncio. A rota do `Yumi` troca cadência por prec
 
 A besta é ferramenta de quem trabalha sozinho e não tem tempo de recarregar. Essa rota resolve a manivela de uma vez e usa o impacto do virote para tirar o inimigo do lugar, o que faz dela a única das três que também administra posicionamento.
 
-> **Nível 2: `Manivela`.** As suas bestas **deixam de carregar `Munição`**, você nunca recarrega.
+> **Nível 2: `Manivela`.** As suas bestas **deixam de carregar `Munição`** — a propriedade de arma do capítulo 11, *Equipamento* —, você nunca recarrega.
 >
 > **Nível 11: `Mirar`.** Você ganha a ação **`Mirar`**, e os seus ataques com arma de longo alcance somam **`+2` no acerto**.
 >
@@ -374,6 +374,8 @@ Enquanto o `Batedor` administra o campo e a `Estocada` administra a rodada, o `E
 | `Arma Grande` | arma de duas mãos | rerrolar `1` e `2` no dado de dano |
 
 > **Todo estilo pede alguma coisa, e o pedido é regra.** Um estilo sem porta ficaria disponível para toda ficha, e aí ninguém escolheria os outros.
+
+O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 11, *Equipamento*.
 
 ## Guia
 

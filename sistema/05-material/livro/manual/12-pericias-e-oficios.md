@@ -71,7 +71,7 @@ Nenhuma perícia mora em Constituição. Constituição governa os pontos de vid
 
 #### Destreza
 
-**Acrobacia** — equilíbrio, cair sem se machucar, escapar de um agarrão, passar por espaço apertado. Aparece quando o chão trai: viga estreita, telhado molhado, o corredor desabando enquanto vocês correm. Também é o que tira você de um `Agarrado`.
+**Acrobacia** — equilíbrio, cair sem se machucar, escapar de um agarrão, passar por espaço apertado. Aparece quando o chão trai: viga estreita, telhado molhado, o corredor desabando enquanto vocês correm. Também é o que tira você de um `Agarrado`, no capítulo 4, *Dano, Condições e Cobertura*.
 
 **Furtividade** — mover-se sem ser visto nem ouvido. É a perícia de infiltração e de emboscada, e a que decide se a cena começa com o grupo escolhendo o momento ou com o inimigo escolhendo por ele.
 

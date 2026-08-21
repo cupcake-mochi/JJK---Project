@@ -1,6 +1,6 @@
 # Estado da revisão · Manual da Guilda
 
-> ## Passada de termos — FASE 1 CONCLUÍDA em 21/08/2026, fases 3 e 4 abertas
+> ## Passada de termos — FASES 1 e 3 CONCLUÍDAS em 21/08/2026, fase 4 aberta
 >
 > **Terceira revisão, sobre o vocabulário.** Nasceu de duas reclamações de playtest: jogador
 > novo não se contextualiza, e leitor de leitura dinâmica encontra um termo e não acha a
@@ -75,11 +75,26 @@
 > [Condição]` —, e ele só rotula onde o nome sozinho confunde.* **O GURPS não tem equivalente:
 > usa `Leve`/`Média`/`Pesada` como percentual de custo e nunca dá entrada a eles.**
 >
-> ### E o que a passada ainda nem começou
+> ### Fase 3 — remissões, feita por medida e não por atacado
 >
-> **Fase 3 — remissões.** Hoje são **8** em 374 seções, e 5 delas num capítulo só. O formato
-> `seção *Nome*` já existe e o `conferir-voz.py` já valida se o alvo existe. É escrita, não
-> engenharia.
+> **O alvo não foi "espalhar ponteiro", foi achar onde ele falta de verdade:** termo cuja
+> **primeira aparição no livro** é fora do capítulo dono, porque aí o leitor encontra a
+> palavra antes de ela ter sido apresentada. **Eram 23 casos**, e a triagem derrubou a maior
+> parte:
+>
+> | | quantos | por quê |
+> |---|---:|---|
+> | falso positivo por nome homônimo | 5 | `Reação`, `Condição` e `Carregar` são Melhorias do capítulo 9, não os conceitos gerais; `Yumi` e `Arma de Fogo` são rotas da Trilha Batedor, não as armas do catálogo |
+> | já apontavam | 7 | o livro já remetia onde alguém pensou nisso |
+> | não devem apontar | 3 | os três do `08-inicio-rapido`, que é autocontido de propósito — a ficha da Kaori traz o efeito inteiro na hora |
+> | já cobertos pela linha seguinte | 1 | `Destranca`, coberto pelo ponteiro logo abaixo da tabela |
+> | **remissões escritas** | **7** | `Agarrado`, `Remenda`, `Munição`, `Traje`, `Revestimento`, `Estigma` |
+>
+> *O total de ponteiros no formato `capítulo N, *Nome*` foi de 42 para 49.* **O
+> `guard_numeros.py` acusou 5 diferenças nos quatro arquivos, e todas são o número do capítulo
+> recém-escrito.** Nenhum número de regra se moveu.
+>
+> ### E o que a passada ainda nem começou
 >
 > **Fase 4 — reordenação e exemplos.** **22 seções** têm mais de 250 palavras de regra antes
 > da primeira tabela. As piores: `Aptidões de barreira` (511), `Regra rápida do turno` (514),
@@ -91,7 +106,8 @@
 > ### Estado para retomar
 >
 > **Nada disto foi commitado ainda.** Arquivos tocados: `REGRA-DE-VOZ.md`, `conferir-voz.py`,
-> `manual/07-glossario.md`, e este documento.
+> `manual/07-glossario.md`, `manual/12-pericias-e-oficios.md`, `manual/15-dano-e-condicoes.md`,
+> `manual/35-caminhos-e-trilhas.md`, `manual/50-equipamento.md`, e este documento.
 >
 > **Verde em tudo:** `conferir-voz.py --estrito` sai `0`, os 19 validadores de `03-mecanica`
 > saem `0` com `PULADA=0`, e o `conferir-repositorio.py` sai verde.

@@ -128,7 +128,7 @@ De Revestimento a sua Destreza já não conta na Defesa, então o teto do escudo
 
 São 52, divididas em treze categorias. A categoria diz o que a coisa é, de onde vem o dano dela e em qual lista de treino ela cai.
 
-Nenhuma arma deste catálogo fere maldição sozinha. Contra maldição, o que resolve é energia amaldiçoada no golpe ou uma ferramenta amaldiçoada na mão, que é uma arma daqui mais um `Estigma` e tem capítulo próprio. O catálogo abaixo continua valendo inteiro contra gente, contra bicho e contra parede.
+Nenhuma arma deste catálogo fere maldição sozinha. Contra maldição, o que resolve é energia amaldiçoada no golpe ou uma ferramenta amaldiçoada na mão, que é uma arma daqui mais um `Estigma`, no capítulo 12, *Ferramenta Amaldiçoada*. O catálogo abaixo continua valendo inteiro contra gente, contra bicho e contra parede.
 
 ### Como ler uma arma
 
