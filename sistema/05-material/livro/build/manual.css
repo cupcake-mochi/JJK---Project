@@ -403,6 +403,21 @@ ol > li::before {
 .destaque > :last-child { margin-bottom: 0; }
 .destaque table { margin: 2mm 0 3mm 0; }
 
+/* ---------- aviso (o que saber ANTES da regra) ---------- */
+/* Segundo estilo de caixa, pedido pela passada de voz da v0.106 e escrito na
+   v0.111. O `.destaque` carrega a regra; o `.aviso` carrega o que o leitor
+   precisa saber antes de aplicar ela. Sem fundo, para nao competir com a caixa
+   de regra na mesma pagina. */
+.aviso {
+  border-left: 2.4pt solid var(--selo);
+  padding: 1mm 6mm 0 6mm;
+  margin: 4mm 0 5mm 0;
+  font-size: 9.4pt;
+  break-inside: avoid;
+}
+.aviso p { margin-bottom: 2.2mm; }
+.aviso > :last-child { margin-bottom: 0; }
+
 /* ---------- tabelas ---------- */
 .tab-titulo {
   font-family: "Barlow Condensed", sans-serif;

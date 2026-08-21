@@ -53,9 +53,7 @@ O refino cresce de +7 a +9 numa campanha, e atributo e maestria crescem +3. Um n
 
 A `Projetar energia` é a única que põe refino em dano, e o dano dela é baixo o bastante para nunca competir com um feitiço. A proteção de `Cobrir-se de energia` entra na sua Defesa, e por isso usa `1/3 do refino` em vez do valor cheio.
 
-#### Arredondamento
-
-> **Toda divisão de refino arredonda para baixo.** Refino 5 dividido por 2 dá 2.
+> **Arredondamento.** Toda divisão de refino arredonda para baixo: refino 5 dividido por 2 dá 2.
 
 ## Marco
 

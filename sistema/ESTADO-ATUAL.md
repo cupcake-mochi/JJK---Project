@@ -1,8 +1,10 @@
 # Estado atual do projeto
 
-Atualizado em 21/08/2026, na v0.111 (última peça fechada: **Dano e condições**, ampliada na v0.104 com a penalidade de arma; antes dela, a **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 21/08/2026, na v0.112 (última peça fechada: **Dano e condições**, ampliada na v0.104 com a penalidade de arma; antes dela, a **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.111.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezenove peças escritas** e **dezenove validadores**.
+**Versão v0.112.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezenove peças escritas** e **dezenove validadores**.
+
+**A v0.112 achou que o `.pdf` e o `.docx` publicados do livro estavam três versões atrasados** — *sem as condições reescritas, sem o capítulo 11 reordenado, sem o vocabulário novo e sem a regra de `vida temporária`.* **Nenhum validador acusa: o recorte da checagem 7 não inclui `livro/`.** *Regerados e copiados.* **E o segundo estilo de caixa, o `.aviso`, entrou pronto e sem uso — marcar os oito candidatos é decisão do Mizuki.**
 
 **A v0.111 mediu o capítulo 9 antes de quebrar e descobriu que ele não precisa ser quebrado** — *o PHB tem dois capítulos acima de `35%` do livro, e o Fundamento é `21%`.* **Tirando os catálogos de consulta, ele tem `10.132` palavras de leitura corrida, praticamente iguais ao capítulo 7.** *O item saiu da fila como não-trabalho.* **E toda entrada do CHANGELOG passou a fechar com `→ Continua em`.**
 

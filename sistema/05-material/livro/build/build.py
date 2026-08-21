@@ -164,10 +164,27 @@ def trata_tabelas(soup):
 
 
 def trata_destaques(soup):
-    """blockquote do Markdown vira caixa de destaque."""
+    """blockquote do Markdown vira caixa de destaque.
+
+    A caixa padrao e' `.destaque`: resumo de regra, o uso de longe mais comum.
+    Um blockquote marcado com `{: .aviso }` no fonte vira `.aviso` — a caixa de
+    borda, para o que o leitor precisa saber ANTES de aplicar a regra, e nao a
+    regra em si. O attr_list poe a classe no proprio blockquote, e e' por isso
+    que ela e' lida antes de o conteudo mudar de tag.
+    """
     for bq in soup.find_all("blockquote"):
+        # O attr_list nunca marca o blockquote: ele poe a classe no PRIMEIRO
+        # <p> de dentro. Medido — as tres formas de escrever `{: .aviso }` no
+        # fonte caem todas ali. Ler do blockquote devolvia sempre None.
+        primeiro = bq.find("p")
+        classes = (primeiro.get("class") or []) if primeiro else []
+        eh_aviso = "aviso" in classes
+        if eh_aviso:
+            primeiro["class"] = [c for c in classes if c != "aviso"] or None
+            if not primeiro["class"]:
+                del primeiro["class"]
         aside = soup.new_tag("aside")
-        aside["class"] = ["destaque"]
+        aside["class"] = ["aviso"] if eh_aviso else ["destaque"]
         for child in list(bq.children):
             aside.append(child.extract())
         bq.replace_with(aside)

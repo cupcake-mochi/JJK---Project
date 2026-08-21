@@ -8,6 +8,34 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.112] — 21/08/2026
+
+**A versão dos dois itens pequenos que sobraram da revisão do livro — e de um defeito bem maior achado ao rodar o build para testá-los.**
+
+### Corrigido — o PDF publicado do livro estava três versões atrasado
+
+**O `.pdf` e o `.docx` de `finalizado/livro/` eram de antes da v0.108.** *Não tinham as catorze condições reescritas, o capítulo 11 reordenado, as 49 entradas novas do vocabulário, as sete remissões, nem a regra de `vida temporária`.* **Quem baixasse a entrega levava o livro de antes de todo esse trabalho.**
+
+> **E nenhum validador acusa.** *A checagem 7 do `conferir-repositorio.py` compara md5 de peça, desenho, manual do Fundamento e ficha — `livro/` nunca entrou nesse recorte.* **O defeito só apareceu porque o build foi rodado para testar outra coisa.**
+
+*Os dois regerados e copiados para a entrega.*
+
+### Adicionado — `.aviso`, o segundo estilo de caixa
+
+**Pedido pela passada de voz da v0.106:** *hoje todo `>` do fonte vira a mesma caixa, e são 261 delas carregando duas coisas diferentes* — a regra que se aplica na mesa, e o que o leitor precisa saber **antes** de aplicar. *O `.destaque` fica com a regra; o `.aviso` fica com o resto, sem fundo, para não competir na mesma página.*
+
+**A máquina está pronta e sem uso: 261 `.destaque`, 0 `.aviso`.** *Marcar os oito candidatos — `Paralisado não existe neste sistema`, `Cuidado com a palavra Grau`, `a mesa escolhe`, e as consequências de rota — muda a aparência do PDF publicado e é decisão do Mizuki.*
+
+> ⚠ **O teste pegou um defeito que teria ido para o repositório calado.** *O código lia a classe do `blockquote`, e o `attr_list` **nunca** marca o blockquote — ele põe a classe no primeiro `<p>` de dentro.* **As três formas de escrever `{: .aviso }` no fonte caem todas ali**, medido. *Sem o teste, a caixa nova existiria sem funcionar, e o defeito só apareceria quando alguém tentasse usar.*
+
+### Alterado — dois títulos de exceção rebaixados
+
+*`Arredondamento` no capítulo 10 e `Frações` no 5 viraram negrito correndo dentro da caixa.* **Dos 83 títulos `####` do livro, 43 são encaixe repetido** — `Destranca` 8×, `Ajusta` 8×, `Traços` e `Perícias` e `Criação` 7× cada — *que a `REGRA-DE-VOZ.md` manda manter*, **e 14 são as entradas de condição escritas na v0.108.** *Sobraram dois de verdade.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: a fila da revisão do livro **fechou**. O que resta do livro é aplicar o `.aviso` nos oito candidatos, quando o Mizuki decidir. Fora dele, a próxima peça de mecânica continua sendo as três Trilhas do Evocador — `Servo`, `Matilha` e `Coro` —, **e o Mizuki pediu para deixar elas paradas por enquanto.**
+
+---
+
 ## [0.111] — 21/08/2026
 
 **A versão que mediu antes de quebrar, e descobriu que o capítulo 9 não precisa ser quebrado.**

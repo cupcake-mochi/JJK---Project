@@ -73,9 +73,7 @@ A metade é sempre metade do **máximo**, nunca metade do que sobrou. Um Emanado
 
 A Integridade volta inteira em qualquer lugar. É a única coisa que o ambiente não toca: não precisa de enfermaria quem precisa é do músculo.
 
-#### Frações
-
-> **Arredonde para baixo, e o que você recupera nunca fica abaixo de 1.**
+> **Frações.** Arredonde para baixo, e o que você recupera nunca fica abaixo de 1.
 
 O piso de 1 não desfaz um zero escrito. Quando a tabela `Degraus de Exaustão` diz que no degrau 3 você recupera **nada**, ela diz nada: o piso existe para a conta que deu 0,4.
 
