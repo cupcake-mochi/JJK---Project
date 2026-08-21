@@ -142,6 +142,6 @@ Quem usa a Restrição `Carregar` mantém o movimento e a Ação Bônus no turno
 
 > **Feitiço em Ação Bônus ou Reação só permite mais um de Classe 0 no turno.**
 
-É a trava que impede dois feitiços grandes no mesmo turno.
+É a trava que impede dois feitiços grandes no mesmo turno. Por exemplo, se você conjurou um feitiço de Classe 3 na Ação Bônus, o que ainda cabe na Ação Padrão é um Classe 0, e nada maior.
 
 A Reação é uma só, e três coisas disputam ela: ataque de oportunidade, a ação `Preparar` e conjurar pela Melhoria `Reação`. Gastar a Reação com uma delas é abrir mão das outras até o seu próximo turno começar.

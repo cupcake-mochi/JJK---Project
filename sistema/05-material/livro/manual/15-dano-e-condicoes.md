@@ -71,7 +71,7 @@ Um não puxa o outro. Um feitiço com o Tema `Fogo` só causa dano do tipo `Fogo
 
 ### Dano na alma
 
-**Integridade é a vida da alma**, e a fórmula dela é `20 + 8 × (nível − 1)`, do capítulo 1, *Como Jogar*.
+**Integridade é a vida da alma**, e a fórmula dela é `20 + 8 × (nível − 1)`, do capítulo 1, *Como Jogar*. Por exemplo, 6 de dano na alma tiram 6 de vida, 6 de Integridade, e derrubam a sua vida máxima em 6 até o próximo descanso longo.
 
 > **Cada ponto de dano na alma tira 1 de vida, 1 de Integridade, e derruba a sua vida máxima em 1** até o próximo descanso longo.
 >

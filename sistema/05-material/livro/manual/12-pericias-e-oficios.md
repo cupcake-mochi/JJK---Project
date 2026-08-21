@@ -26,7 +26,7 @@ A regra prática: se é uma ferramenta ou um procedimento que alguém te ensinou
 > **Ofício = `d20` + o atributo que a situação pede + maestria, se você for treinado.**
 > Sem treino, você normalmente não consegue tentar.
 
-Ser **treinado** quer dizer ter aquela perícia ou aquele ofício marcado na ficha; a seção *Treino* diz de onde vêm as marcas. **Maestria** é o bônus que cresce com o nível, e a escada dela está no capítulo 1, *Como Jogar*. O mestre põe uma **CD**, o número que a sua rolagem precisa alcançar para você conseguir o que queria.
+Ser **treinado** quer dizer ter aquela perícia ou aquele ofício marcado na ficha; a seção *Treino* diz de onde vêm as marcas. **Maestria** é o bônus que cresce com o nível, e a escada dela está no capítulo 1, *Como Jogar*. O mestre põe uma **CD**, o número que a sua rolagem precisa alcançar para você conseguir o que queria. Por exemplo, com Destreza 3 e maestria 1, uma `Furtividade` treinada rola `d20 + 4`; sem treino, `d20 + 3`.
 
 ### Atributo fixo ou variável
 

@@ -287,12 +287,52 @@
 > > forma as irmãs dela já usam".** Forma nova só quando a família é nova — e aí ela entra na
 > > `REGRA-DE-VOZ.md` e no validador junto.
 
+> ### A rota validada para a próxima passada — 21/08/2026
+>
+> **Duas rotas estavam na mesa, e medir contra o PHB descartou uma e reduziu a outra.**
+>
+> *Rota B — aplicar as camadas aos 74 blocos de habilidade de Trilha e Caminho:* **descartada
+> como frente.** O PHB usa a terceira camada em apenas **15%** das `309` habilidades de nível
+> dele, e este livro já usa em `8%` (6 de 74). *A diferença não justifica passada.* **As seis
+> entram como trabalho avulso, não como fase.**
+>
+> *Rota A — exemplo inline:* **mantida, mas com o alvo corrigido.** O PHB escreve
+> `Por exemplo,` dentro de habilidade em **2%** dos casos — *ele não exemplifica ali, e
+> imitar isso nas Trilhas seria copiar o que a fonte não faz.* **Ele exemplifica nas regras
+> gerais.**
+>
+> Separadas as 74 seções sem exemplo por tipo:
+>
+> | tipo | quantas | o que o PHB faz |
+> |---|---:|---|
+> | **regra geral** | **55** | é onde ele exemplifica — `0,58` por mil |
+> | habilidade de Trilha/Caminho | 19 | quase não exemplifica — 2% |
+>
+> **A rota é: exemplo inline nas 55 seções de regra geral, e nenhum nas 19 de habilidade.**
+> *Prioridade pela ordem de leitura — `08`, `11`, `12`, `15`, `20` primeiro, que é o que um
+> jogador novo encontra antes de qualquer outra coisa.*
+>
+> > **Um número achado no caminho, e ele é do livro, não do método:** as habilidades daqui têm
+> > **mediana de `26` palavras** contra `62` do PHB. *Elas são menos da metade do tamanho.*
+> > **Isso não é defeito por si — pode ser densidade boa —, mas é a medida a olhar se algum
+> > jogador reclamar que habilidade de Trilha é seca ou difícil de imaginar em jogo.**
+>
 > ### O que fica para a próxima passada
 >
-> **Exemplo inline.** Este livro tem `0,08` por mil palavras contra `0,58` dos dois sistemas.
-> *Quatro foram escritos no capítulo 1 e o resto do livro não foi coberto.* **É a única frente
-> desta passada que ficou pela metade de propósito** — o formato está definido e testado, e o
-> que falta é repetição.
+> **Exemplo inline — 7 escritos, cerca de 38 seções a cobrir.** *Quatro no capítulo 1
+> (`Teste`, `Maestria`, `Defesa`, `Integridade`) e três na segunda rodada (`Limites` do
+> capítulo 2, `Rolagem de perícia` do 3, `Dano na alma` do 4).* **O formato está testado: 15 a
+> 24 palavras, dentro da frase, contra a mediana de `23` do D&D.**
+>
+> *O alvo foi estreitado por medida, e três filtros caíram no caminho:* das **55** seções de
+> regra geral sem exemplo, só **40** têm fórmula ou condicional que o leitor precisa aplicar —
+> o resto é declaração simples (`Nível inicial`) ou já é tabela de contas (`Passo 7`).
+>
+> > ⚠ **Não tente achar as restantes por regex.** *Tentei quatro filtros e todos erraram:* o
+> > `Classe do feitiço` já traz *"Um feitiço de Classe 3 tem 9 pontos"* logo abaixo da fórmula,
+> > e o `Passo 4 · Atributos` traz *"uma distribuição legal, por exemplo, é 3 · 2 · 2 · 1 · 1"*
+> > no meio do parágrafo. **Nenhum dos dois usa marcador no início, e os dois já estão
+> > resolvidos.** *A lista de 38 é ponto de partida para leitura, não lista de trabalho.*
 >
 > **A terceira camada fora das condições.** *A varredura não achou parágrafo de regra com
 > efeitos amontoados em nenhum outro lugar*, mas ela olhou prosa corrida. **Blocos `>` de
