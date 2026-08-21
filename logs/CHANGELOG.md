@@ -6,6 +6,36 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.109] — 21/08/2026
+
+**A versão que leu as 74 habilidades de Trilha e Caminho uma a uma, achou uma lacuna em vez das dezenas que a conta previa, e achou de graça um defeito maior no caminho.**
+
+### Corrigido — `vida temporária` tinha três grafias, e duas ficavam fora da própria regra
+
+**A v0.108 escreveu a regra de `vida temporária` e três efeitos não usavam esse nome.** *O `Aprumo` da Trilha `Executor` e a `Crosta` da Trilha `Arremate` diziam **"PV temporário"**; a Melhoria `Rasga Escudo` dizia **"pontos de vida temporários"**.*
+
+**Ninguém saberia se as três têm o mesmo teto de metade da vida máxima, o mesmo relógio de fim de cena e a mesma regra de não acumular** — que é exatamente o que a regra nova responde para quem escreve `vida temporária`. *Unificadas nas três.*
+
+> *O termo escapou de toda checagem por não estar entre crases até a v0.108, e as três grafias divergentes existiam desde que cada habilidade foi escrita.* **Uma regra nova não alcança o texto que chama a coisa por outro nome.**
+
+### Corrigido — o `Aterro` não dizia se depende do `Alicerce`
+
+**A Trilha `Muro` tem o `Alicerce` no nível 2, que liga e desliga — *"enquanto o `Alicerce` estiver de pé"* — e o `Aterro` no nível 11, que descrevia uma aura de terreno difícil sem dizer se ela precisa do `Alicerce`.** *Dois mestres resolveriam diferente, e é o filtro do projeto reprovando.*
+
+**A fonte já respondia:** *o `DESENHO-trilhas.md` classifica o `Aterro` como `permanente`, e o preço de `0,71` fatias foi calculado assim.* **Era informação perdida na transposição, não decisão nova** — o manual ganhou *"Sempre ligado, e não depende do `Alicerce`"*.
+
+### Achado — a lacuna de gatilho e duração não existia, e foi o quinto caso do mesmo erro
+
+**A medição da v0.108 dizia que estas habilidades têm `45%` de gatilho contra `72%` do PHB, e `5%` de duração contra `21%`.** *Lidas as 74, a lacuna real é uma.*
+
+*As sem gatilho são **permanentes*** — `Estopim`, `Rebote`, `Ferrolho`, `Empunhadura`. *As sem duração são **instantâneas*** — `Corpo Duro`, `Encontrão`, `Sentinela`, `Rompante`. *E as de efeito contínuo dizem:* `Acelerar` traz `2× por cena`, `Ápice` traz `1× por cena`, `Segundo Corpo` traz *uma vez por descanso curto*, `Braseiro` traz *some no fim da cena*.
+
+**O PHB tem mais gatilho porque as habilidades dele são mais longas e condicionais — mediana de `62` palavras contra `26` daqui —, e não porque estas estejam incompletas.**
+
+> **É a quinta conta desta sequência que dá número alto por medir presença de palavra-chave numa população onde a maioria dos itens não precisa daquele elemento.** *As outras quatro estão na entrada da v0.108.* **O padrão está registrado no `sistema/ESTADO-ATUAL.md`, acima das pendências, porque ele vai voltar.**
+
+---
+
 ## [0.108] — 21/08/2026
 
 **A versão em que o livro ganhou vocabulário navegável, e a régua para escrever nele saiu de dois manuais medidos em vez de opinião.** *O D&D 2024 e o GURPS 4e foram lidos inteiros — 397 e 576 páginas — e comparados com o Manual da Guilda em sete padrões de escrita.* **E uma regra que oito efeitos usavam desde sempre foi escrita pela primeira vez.**

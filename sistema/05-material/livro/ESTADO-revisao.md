@@ -360,24 +360,25 @@
 
 > ### A fila, em ordem de quem retoma
 >
-> **1 · Gatilho e duração nas habilidades — a lacuna que a medição apontou.**
-> *Comparadas as 74 daqui contra as 309 do PHB, elemento por elemento:*
+> **1 · ~~Gatilho e duração nas habilidades~~ — FEITO, e o buraco não existia.**
+> *As 74 foram lidas uma a uma, nos cinco Caminhos.* **Uma lacuna real:** o `Aterro` não dizia
+> se dependia do `Alicerce` estar de pé — *a fonte respondia (`DESENHO-trilhas.md` classifica
+> ele como `permanente`, e o preço de `0,71` fatias foi calculado assim), e a informação se
+> perdeu na transposição.* **Corrigido com o texto da fonte, não com decisão nova.**
 >
-> | elemento | aqui | PHB | |
-> |---|---:|---:|---|
-> | custo de ação | 41% | 28% | este livro diz **mais** |
-> | **gatilho — quando dispara** | 45% | 72% | **−27** |
-> | **duração — quanto dura** | 5% | 21% | **−16** |
-> | o que acontece | 54% | 69% | −15 |
+> ⚠ **O `−27` de gatilho e o `−16` de duração eram o mesmo erro de método pela quinta vez.**
+> *A conta mediu presença de palavra-chave numa população onde a maioria não precisa do
+> elemento:* as sem gatilho são **permanentes** (`Estopim`, `Rebote`, `Ferrolho`,
+> `Empunhadura`), as sem duração são **instantâneas** (`Corpo Duro`, `Encontrão`, `Sentinela`,
+> `Rompante`), e as de efeito contínuo **dizem** — `Acelerar` traz `2× por cena`, `Ápice` traz
+> `1× por cena`, `Segundo Corpo` traz *uma vez por descanso curto*. **O PHB tem mais gatilho
+> porque as habilidades dele são mais longas e condicionais, não porque estas estejam
+> incompletas.**
 >
-> *As habilidades daqui têm mediana de `26` palavras contra `62` do PHB, e o que ficou de fora
-> na compressão foi o **quando** e o **até quando**.* **É isso que obriga o leitor a procurar
-> exemplo — e o conserto é escrever o gatilho, não acrescentar exemplo.**
->
-> > ⚠ **Tem que ser lendo as 74 uma a uma.** *Um filtro automático deu 24 candidatos e quase
-> > todos eram falso positivo:* `Corpo Duro` e `Encontrão` são instantâneos, `Pique` e `Dobro`
-> > são permanentes, `Braseiro` **diz** a duração. **Regex não separa instantâneo de
-> > temporário.**
+> **O que a leitura rendeu foi outro achado: `vida temporária` tinha três grafias.**
+> *`Aprumo` e `Crosta` diziam "PV temporário"; a Melhoria `Rasga Escudo` dizia "pontos de vida
+> temporários".* **As três ficariam fora da regra escrita na v0.108, e ninguém saberia se elas
+> têm o mesmo teto e a mesma duração.** *Unificadas.*
 >
 > **2 · Exemplo inline — 7 escritos, cerca de 38 seções a cobrir.**
 > *Quatro no capítulo 1 (`Teste`, `Maestria`, `Defesa`, `Integridade`) e três na segunda rodada

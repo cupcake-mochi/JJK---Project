@@ -143,7 +143,7 @@ Jogando de `Muro`, você chega na cena procurando o ponto certo de parar de anda
 
 > **Nível 2: `Alicerce`.** *Ação bônus.* Você se firma no lugar. **Enquanto o `Alicerce` estiver de pé, o dano de dois tipos à sua escolha cai pela metade contra você, e o seu deslocamento é metade do normal.** Sair dele não custa nada. **Os tipos se escolhem no fim de cada descanso longo.**
 >
-> **Nível 11: `Aterro`.** O chão a **4,5 m** em volta de você é terreno difícil para inimigos, cada metro custa dois. **E todo deslocamento forçado contra você, seja empurrão, puxão ou arremesso, tem metade da distância.**
+> **Nível 11: `Aterro`.** *Sempre ligado, e não depende do `Alicerce`.* O chão a **4,5 m** em volta de você é terreno difícil para inimigos, cada metro custa dois. **E todo deslocamento forçado contra você, seja empurrão, puxão ou arremesso, tem metade da distância.**
 >
 > **Nível 19: `Escora`.** O `Absorver` do seu Caminho ganha **mais usos, iguais a metade da sua Constituição**, e **qualquer um deles pode ser gasto num aliado que você enxergue a até 9 m.** Continua custando a sua Reação.
 >
@@ -352,7 +352,7 @@ Enquanto o `Batedor` administra o campo e a `Estocada` administra a rodada, o `E
 
 > **Nível 2: `Pegada`.** Você escolhe um **estilo de luta**, e ele vale a campanha inteira. *Cada estilo pede um jeito diferente de segurar a arma, e é isso que impede um de ser a versão melhor do outro.*
 >
-> **Nível 11: `Aprumo`.** *Ação bônus.* Você ganha **`1d10 + o seu atributo de ataque`** de PV temporário, Força ou Destreza, o que a sua ficha usa para bater. **`Metade desse atributo` usos**, e eles voltam no descanso curto.
+> **Nível 11: `Aprumo`.** *Ação bônus.* Você ganha **`1d10 + o seu atributo de ataque`** de `vida temporária`, Força ou Destreza, o que a sua ficha usa para bater. **`Metade desse atributo` usos**, e eles voltam no descanso curto.
 >
 > **Nível 19: `Revide`.** *Reação.* Quando alguém a até `1,5 m` faz um ataque contra você, **acertando ou errando**, você pode gastar a sua Reação para atacar essa criatura.
 >
@@ -587,7 +587,7 @@ Jogando de `Arremate`, você é o Emanador que precisa estar dentro do alcance d
 >
 > **Nível 11: `Rebote`.** A sua ação de Atacar passa a dar **dois golpes**.
 >
-> **Nível 19: `Crosta`.** Quando você conjura estando **adjacente a um inimigo**, você ganha **`maior Classe` de PV temporário**.
+> **Nível 19: `Crosta`.** Quando você conjura estando **adjacente a um inimigo**, você ganha **`maior Classe` de `vida temporária`**.
 >
 > **Nível 27: *vaga*.** *A casa existe e está vazia. A ficção dela é o capstone do molde: deixar de precisar encostar.*
 

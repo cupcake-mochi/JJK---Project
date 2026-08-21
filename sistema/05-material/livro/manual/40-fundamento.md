@@ -808,7 +808,7 @@ O dano que continua doendo depois do golpe: queima que volta, corte que piora co
 | `Remate` | `Média` | +25% de dano contra alvo abaixo de metade da vida. Não entra num feitiço que tenha uma `Condicional` ligada à vida do alvo. |
 | `Estilhaço` | `Leve` | Em crítico, ou quando o alvo erra o Teste de Resistência por 5 ou mais, metade dos dados respinga em quem estiver do lado. |
 | `Quebra Coisa` | `Leve` | Dano dobrado contra barreiras, objetos e estruturas. |
-| `Rasga Escudo` | `Média` | O dano ignora pontos de vida temporários e barreiras: bate direto na vida. |
+| `Rasga Escudo` | `Média` | O dano ignora `vida temporária` e barreiras: bate direto na vida. |
 | `Sem Cura` | `Média` | O alvo não pode receber cura até o fim do próximo turno dele. |
 
 ### Tempo

@@ -1,8 +1,10 @@
 # Estado atual do projeto
 
-Atualizado em 21/08/2026, na v0.108 (última peça fechada: **Dano e condições**, ampliada na v0.104 com a penalidade de arma; antes dela, a **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 21/08/2026, na v0.109 (última peça fechada: **Dano e condições**, ampliada na v0.104 com a penalidade de arma; antes dela, a **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.108.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezenove peças escritas** e **dezenove validadores**.
+**Versão v0.109.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezenove peças escritas** e **dezenove validadores**.
+
+**A v0.109 leu as 74 habilidades de Trilha e Caminho uma a uma e achou que `vida temporária` tinha três grafias** — *`Aprumo` e `Crosta` diziam "PV temporário", a Melhoria `Rasga Escudo` dizia "pontos de vida temporários"*, **e as três ficavam de fora da regra que a v0.108 tinha acabado de escrever.** *Unificadas. O `Aterro` também passou a dizer que não depende do `Alicerce`, informação que a fonte já tinha e a transposição perdeu.*
 
 **A v0.108 escreveu a regra de `vida temporária`, que oito efeitos usavam e nenhum documento definia, e passou o livro por uma revisão de vocabulário medida contra o D&D 2024 e o GURPS 4e.** *A regra mora na peça 1 §5.1.1; a revisão do livro está registrada em `05-material/livro/ESTADO-revisao.md`.*
 
