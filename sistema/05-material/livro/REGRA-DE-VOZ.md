@@ -80,6 +80,37 @@ Caso específico e exceção não precisam de título próprio. Viram negrito co
 parágrafo, como o PHB faz: **`Dano maciço.`** e o texto segue na mesma linha. Não entra no
 sumário, não quebra página, e o degrau `####` deixa de proliferar. **(à mão)**
 
+## Todo termo tem um destino
+
+Termo entre crases é promessa: o leitor entende que aquilo é nome de coisa do sistema, e
+sai procurando onde a coisa é explicada. Se não achar, ele para de confiar na crase — e aí
+para de procurar até quando teria achado.
+
+Uma leitora do playtest travou em `colado`, no capítulo de equipamento. A definição estava
+na mesma frase, seis palavras depois. Ela não leu como definição porque **nada ali dizia
+que era uma**: o termo vinha marcado, e texto marcado no livro inteiro significa *isso é
+explicado em outro lugar*. Ela fez o certo com um livro que estava errado.
+
+**Estreia de termo tem uma forma só:**
+
+```markdown
+**`Termo`** — o que ele é, em uma frase.
+```
+
+O travessão é o que diz *estou definindo isto agora*. Não confundir com o negrito de
+rebaixar título — **`Dano maciço.`** com ponto abre um bloco sobre uma coisa já conhecida;
+com travessão, apresenta uma coisa nova.
+
+**E todo termo que o livro usa de verdade tem entrada no vocabulário.** O corte é `5` usos,
+ou aparecer em `3` capítulos — abaixo disso o termo é local e a estreia no lugar basta.
+
+O `conferir-voz.py` conta os que ficaram sem destino e falha se o número subir. Ele não
+exige que o buraco feche de uma vez; exige que ele não cresça.
+
+*O que fica de fora:* nome próprio de item de catálogo — arma, feitiço pronto, Trilha — que
+já vive numa tabela com a coluna que o explica. O destino dele é o catálogo, e o índice A–Z
+do capítulo é o que leva até lá.
+
 ## Os encaixes
 
 Mesma pergunta, mesmo nome, no livro inteiro. O leitor aprende uma vez e reconhece em

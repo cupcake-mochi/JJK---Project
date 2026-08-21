@@ -17,6 +17,8 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **Teste de Resistência** | O que **você** rola quando algo acontece com você. São quatro: Físico, Vigor, Intelecto e Espírito | 1 |
 | **Defesa** | `10` + Destreza + proteção. O número que o inimigo precisa alcançar para te acertar | 1 |
 | **Crítico** | `20` natural numa rolagem de acerto. Dobra os dados da arma ou da Classe, e nada mais | 1 |
+| **`Bloquear`** | Regra opcional: role `2d10 + (Defesa − 11)` e use no lugar da Defesa parada. A mesa escolhe se usa | 15 |
+| **`Aparar`** | O duplo 10 no `Bloquear`. O ataque não acerta, e você pode gastar a Reação para revidar com `+3` de dano | 15 |
 | **Arredondamento** | Sempre para o lado que não te favorece. O que você paga sobe, o que você ganha desce | 1 |
 | **Rotina** | O dano que um personagem entrega numa rodada comum, sem gastar recurso guardado | 13 |
 
@@ -36,6 +38,9 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **Perícia** | Uma das vinte e três. Cada uma tem um atributo fixo. Sem treino você ainda tenta | 3 |
 | **Ofício** | Um dos onze. Não tem atributo fixo, e sem treino você **não** tenta | 3 |
 | **Condição** | Estado nomeado que muda o que você consegue fazer. São catorze, em três níveis: `Leve`, `Média` e `Pesada` | 4 |
+| **`Leve`** [Nível] | O menor dos três níveis. Como preço de Melhoria, custa metade da Classe; como condição, sai por `1` ponto de energia | 4 |
+| **`Média`** [Nível] | O nível do meio. Como preço, custa a Classe; como condição, sai por `2` pontos de energia | 4 |
+| **`Pesada`** [Nível] | O maior. Como preço, custa Classe e meia; como condição, sai por `3` pontos de energia. Dá Teste de Resistência no fim de cada turno do alvo | 4 |
 | **Exaustão** | Relógio de descanso, em três degraus. **Não é condição neste sistema** | 5 |
 | **Sequela** | O que você ganha ao levantar de uma queda. Encurta em uma rodada a janela da queda seguinte | 1 |
 | **Cicatriz** | Permanente, ganha na segunda queda. Não sai no descanso | 1 |
@@ -112,6 +117,26 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **Rodada inteira** | Custa movimento, Ação Padrão e Ação Bônus de uma vez. A Reação continua sua | 2 |
 | **Concentração** | Manter um efeito de pé. Um por vez, e tomar dano pede Teste de Resistência de Vigor | 2 |
 | **Cobertura** | O que está entre você e quem atira. Três degraus: Parcial, Boa e Total | 4 |
+| **`Agarrar`** | Opção do `Atacar`. Aplica a condição `Agarrado` | 2 |
+
+## Condições
+
+Catorze estados nomeados, em três níveis. `Leve`, `Média` e `Pesada` também nomeiam custo de
+Melhoria — são escadas diferentes que usam as mesmas três palavras. O capítulo 4 separa as duas.
+
+**Condições**
+{: .tab-titulo }
+
+| Termo | O que é | Cap. |
+|---|---|---|
+| **`Agarrado`** | Seu deslocamento é `0`. Acaba se quem agarrou ficar `Incapacitado`, ou se algo tirar você do alcance dele | 4 |
+| **`Amedrontado`** | Desvantagem em ataque e em teste enquanto você enxergar a fonte do medo, e você não se aproxima dela de vontade própria | 4 |
+| **`Atordoado`** | Você perde a Ação Padrão e não usa reação | 4 |
+| **`Cego`** | Você não enxerga. Falha automática em teste que precise de vista, desvantagem nos seus ataques, e quem ataca você tem vantagem | 4 |
+| **`Derrubado`** | Está no chão, de pé no medidor. Vantagem a quem ataca de perto | 1 |
+| **`Desarmado`** | A sua arma está no chão ou na mão de outro. Você bate desarmado até pegar de volta | 4 |
+| **`Enfeitiçado`** | Você não ataca quem enfeitiçou nem mira efeito nocivo nele, e ele tem vantagem em teste social contra você | 4 |
+| **`Lento`** | Seu deslocamento cai pela metade e você não usa Ação Bônus | 4 |
 
 ## Equipamento
 
@@ -125,6 +150,57 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **`Desgaste`** | Ferramenta usada demais antes de chegar em você: cada uso derruba o grau dela em um | 12 |
 | **Invocação** | O que você põe em campo e comanda. Tem ficha própria, montada com orçamento | 13 |
 | **Amarra** | A invocação tem de ficar a até 18 metros de você, ou não pode ser comandada | 13 |
+| **`Emaranha`** | Propriedade de arma: você pode `Agarrar` sem largar a arma | 11 |
+| **`Fineza`** | Propriedade de arma: no corpo a corpo, troca Força por Destreza no acerto e no dano | 11 |
+| **`Longo Alcance`** | Propriedade de arma: ela alcança à distância, em metros | 11 |
+| **`Oculta`** | Propriedade de arma: dá para esconder no corpo, com um teste de `Prestidigitação` | 11 |
+| **`Par`** | Propriedade de arma: role dois dados de dano e fique com o melhor | 11 |
+| **`Rompe`** | Propriedade de arma: vantagem contra objeto e estrutura | 11 |
+| **`Talha`** | Propriedade de arma: `−1` no `Bloquear` de quem se defende | 11 |
+| **`Versátil`** | Propriedade de arma: nas duas mãos, o dado sobe um passo | 11 |
+| **`Vestida`** | Propriedade de arma: não ocupa a mão | 11 |
+| **`Volumosa`** | Propriedade de arma: não dá para esconder, e atrapalha em espaço apertado | 11 |
+| **`Remoto`** | Traço de invocação: funciona além dos 18 metros da amarra | 13 |
+| **`Vigia`** | Traço de invocação: o que ela vê e ouve, você vê e ouve | 13 |
+| **`Voo`** | Traço de invocação: voa, e o terreno para de valer para ela | 13 |
+
+## Formas, Melhorias e Restrições do Fundamento
+
+**Fundamento**
+{: .tab-titulo }
+
+| Termo | O que é | Cap. |
+|---|---|---|
+| **`Projétil`** | Forma: 18 m, um alvo, rolagem de acerto | 9 |
+| **`Toque`** | Forma: 1,5 m, um alvo. `Projétil` com `Corpo a Corpo` embutida | 9 |
+| **`Explosão`** | Forma: esfera de raio 3 m, num ponto a até 18 m, Teste de Resistência | 9 |
+| **`Cone`** | Forma: 4,5 m saindo de você, Teste de Resistência | 9 |
+| **`Linha`** | Forma: 18 m por 1,5 m, Teste de Resistência | 9 |
+| **`Apoio`** | Forma: um aliado a até 9 m, sem dano; o que sobra vira vida temporária | 9 |
+| **`Onda`** | Forma: esfera de raio 3 m centrada em você, pega todos os aliados dentro | 9 |
+| **`Efeito`** | Forma: fora de combate, sem dano | 9 |
+| **`Corpo a Corpo`** | Restrição: `Projétil` vira `Toque`, `Explosão` vira `Aura`. `Cone` e `Linha` não pegam | 9 |
+| **`Condicional`** | Restrição: só funciona quando uma condição de cena ou de alvo é verdadeira | 9 |
+| **`Gesto`** | Restrição: precisa das duas mãos livres e de falar em voz audível | 9 |
+| **`Parado`** | Restrição: você não se move no turno em que conjura | 9 |
+| **`Uma Vez`** | Restrição: uma vez por cena | 9 |
+| **`Fura`** | Melhoria: ignora até `3 × Classe` de Redução de Dano | 9 |
+| **`Longe`** | Melhoria: sobe um degrau na escada de alcance. Pode comprar duas vezes | 9 |
+| **`Maior`** | Melhoria: sobe um degrau de tamanho de área. Pode comprar duas vezes | 9 |
+| **`Precisão`** | Melhoria: `+2` na rolagem de acerto, ou `+2` na CD do Teste de Resistência | 9 |
+
+## Caminhos e Trilhas
+
+**Trilhas**
+{: .tab-titulo }
+
+| Termo | O que é | Cap. |
+|---|---|---|
+| **`Elo`** | Trilha do Guia: o que outra pessoa fez chega mais longe | 8 |
+| **`Sutura`** | Trilha do Guia: Energia Reversa cedo, e nos outros | 8 |
+| **`Torrente`** | Trilha do Emanador: mais de um feitiço na rodada, e a energia acaba | 8 |
+| **`Explosivo`** | Trilha do Emanador: um feitiço só, e ele sai maior | 8 |
+| **`Arremate`** | Trilha do Emanador: o feitiço acontece onde a mão chega | 8 |
 
 ## Palavras com sentido próprio
 

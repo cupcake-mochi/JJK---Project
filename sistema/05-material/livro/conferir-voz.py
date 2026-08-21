@@ -100,6 +100,91 @@ def entradas_do_glossario(manual, arquivo):
     return saida
 
 
+
+# --- termo sem destino: a checagem que nasceu do caso do `colado`. -----------
+#
+# Termo entre crases e' promessa. Quem le entende "isto e' nome de coisa do
+# sistema" e sai procurando onde a coisa e' explicada; se nao achar, para de
+# confiar na crase e para de procurar. Uma leitora do playtest travou em
+# `colado` com a definicao seis palavras adiante, na mesma frase — porque nada
+# ali dizia que aquilo era uma definicao.
+#
+# Os DOIS lados sao lidos: os termos saem do texto do manual, e o destino sai do
+# 07-glossario.md e das estreias em formato de definicao. Nenhuma lista de termo
+# fica escrita aqui dentro.
+#
+# O corte e' o da REGRA-DE-VOZ.md: 5 usos, ou aparecer em 3 capitulos. Abaixo
+# disso o termo e' local e a estreia no lugar basta.
+CORTE_USOS, CORTE_CAPITULOS = 5, 3
+
+# Trava de crescimento, e nao meta. O buraco nao precisa fechar de uma vez —
+# precisa NAO CRESCER enquanto fecha. Medido na v0.108; baixe o numero conforme
+# as entradas forem escritas, nunca suba.
+TETO_SEM_DESTINO = 0      # fechado na v0.108: todo termo que passa o corte tem destino.
+                          # Daqui em diante o teto e ZERO — termo novo sem entrada no
+                          # vocabulario, ou sem estreia definida, falha o --estrito.
+
+TERMO_CRASE = re.compile(r"`([^`\n]{2,40})`")
+NOME_DE_COISA = re.compile(r"^[A-ZÁ-Ú][A-Za-zÁ-úá-ú \-]*$")
+# Crase opcional: o catálogo de Perícias define no formato "**Termo** — texto",
+# sem crase dentro do negrito (05 casos achados na v0.108, todo o catálogo de
+# Perícias). Os dois formatos valem como estreia.
+ESTREIA = re.compile(r"\*\*`?([^`*\n]{2,40})`?\*\*\s*[—–-]\s")
+# O encaixe de habilidade de Trilha/Caminho: "Nível N: `Termo`." — 74 usos em
+# 35-caminhos-e-trilhas.md, tão sistemático quanto os títulos de seção. Conta
+# como destino pelo mesmo motivo que um título "###" conta.
+ESTREIA_NIVEL = re.compile(r"N[íi]vel \d+:\s*`([^`\n]{2,40})`\.")
+# Título de seção — o formato mais usado do livro (362 ocorrências). Faltou aqui
+# na primeira versão da checagem, e o próprio `Cobrir-se de energia` provou o
+# buraco: tinha `### Cobrir-se de energia` e ainda assim contava como órfão.
+TITULO = re.compile(r"(?m)^#{2,6}\s+`?([^`\n]{2,40})`?\s*$")
+# O rotulo de familia entre colchetes — "**`Leve`** [Nível]" — e o padrao que o
+# PHB 2024 usa nas 41 entradas ambiguas do Glossario de Regras dele ("Cone [Área
+# de Efeito]", "Surdo [Condição]"). Ele so rotula onde o nome sozinho confunde.
+LINHA_GLOSSARIO = re.compile(r"^\|\s*\*\*`?([^`*|]{2,40})`?\*\*(?:\s*\[[^\]]+\])?\s*\|")
+
+
+def termos_sem_destino(manual):
+    """Termos que o livro usa de verdade e nao explica em lugar nenhum.
+
+    Devolve (sem_destino, examinados). Destino vale de dois jeitos: entrada no
+    vocabulario, ou estreia no formato de definicao da REGRA-DE-VOZ.
+    """
+    arquivos = sorted(f for f in os.listdir(manual) if f.endswith(".md"))
+    textos = {f: open(os.path.join(manual, f), encoding="utf-8").read() for f in arquivos}
+
+    destinos = set()
+    for f, t in textos.items():
+        for m in ESTREIA.findall(t):
+            destinos.add(m.strip().lower())
+        for m in ESTREIA_NIVEL.findall(t):
+            destinos.add(m.strip().lower())
+        for m in TITULO.findall(t):
+            destinos.add(m.strip().lower())
+        if f.startswith("07-"):
+            for linha in t.split("\n"):
+                m = LINHA_GLOSSARIO.match(linha)
+                if m:
+                    destinos.add(m.group(1).strip().lower())
+
+    usos, capitulos = {}, {}
+    for f, t in textos.items():
+        if f.startswith("07-"):
+            continue
+        for m in TERMO_CRASE.findall(t):
+            m = m.strip()
+            if not NOME_DE_COISA.match(m) or len(m.split()) > 3:
+                continue
+            usos[m] = usos.get(m, 0) + 1
+            capitulos.setdefault(m, set()).add(f)
+
+    examinados = [t for t in usos
+                  if usos[t] >= CORTE_USOS or len(capitulos[t]) >= CORTE_CAPITULOS]
+    sem = sorted((t for t in examinados if t.lower() not in destinos),
+                 key=lambda t: -usos[t])
+    return [(t, usos[t], sorted(capitulos[t])) for t in sem], examinados
+
+
 def confere(caminho):
     achados = []
     avisos = []
@@ -215,7 +300,20 @@ def main():
     print(f"  {len(titulos)} títulos de seção; {len(quebradas)} referência(s) apontando para título que não existe.")
     for arq, alvo in quebradas:
         print(f"      REF-QUEBRADA  {arq} -> *{alvo}*")
-    if estrito and (soma or quebradas):
+
+    sem, examinados = termos_sem_destino(MANUAL)
+    print(f"\n  {len(examinados)} termos passam o corte de {CORTE_USOS} usos ou {CORTE_CAPITULOS} capítulos;"
+          f" {len(sem)} sem destino — nem entrada no vocabulário, nem estreia definida.")
+    if inventario:
+        for termo, n, caps in sem:
+            print(f"      SEM-DESTINO  `{termo}`  {n}x em {len(caps)} cap: {', '.join(c[:2] for c in caps)}")
+    elif sem:
+        print("      (--inventario lista quais)")
+    estourou = TETO_SEM_DESTINO is not None and len(sem) > TETO_SEM_DESTINO
+    if estourou:
+        print(f"      !! o teto é {TETO_SEM_DESTINO} e são {len(sem)} — entrou termo novo sem destino")
+
+    if estrito and (soma or quebradas or estourou):
         sys.exit(1)
 
 

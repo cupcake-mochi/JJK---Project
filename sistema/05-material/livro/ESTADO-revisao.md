@@ -1,5 +1,104 @@
 # Estado da revisão · Manual da Guilda
 
+> ## Passada de termos — FASE 1 CONCLUÍDA em 21/08/2026, fases 3 e 4 abertas
+>
+> **Terceira revisão, sobre o vocabulário.** Nasceu de duas reclamações de playtest: jogador
+> novo não se contextualiza, e leitor de leitura dinâmica encontra um termo e não acha a
+> definição. A regra que manda nela é a seção *Todo termo tem um destino* da
+> `REGRA-DE-VOZ.md`.
+>
+> ### O diagnóstico, medido contra D&D 2024 e GURPS 4e
+>
+> Os dois manuais foram lidos inteiros (397 e 576 páginas) e medidos junto com este livro:
+>
+> | | D&D 2024 | GURPS 4e | este livro |
+> |---|---:|---:|---:|
+> | palavras por frase (mediana) | 16 | 14 | **13** |
+> | palavras por parágrafo (mediana) | 41 | 83 | **35** |
+> | frases com mais de 30 palavras | 11,3% | 9,2% | **4,0%** |
+> | "você" por mil palavras | 19,65 | 0,43 | **15,65** |
+> | "veja"/"consulte" por mil | **1,46** | 0,99 | **0,02** |
+> | exemplos por mil palavras | 0,61 | 1,41 | **0,06** |
+>
+> **O livro não tem problema de prolixidade** — é mais enxuto que os dois em toda medida de
+> tamanho. O problema é de **ausência**: remete 73 vezes menos que o D&D, e dá 10 vezes
+> menos exemplo. O jogador encontra um termo marcado e não tem para onde ir.
+>
+> *O caso que criou a regra:* uma leitora travou em `colado` no capítulo 11, com a definição
+> seis palavras adiante na mesma frase. Ela não leu como definição porque nada ali dizia que
+> era uma. **Ela fez o certo com um livro que estava errado.**
+>
+> ### Feito nesta passada
+>
+> **A checagem de termo sem destino entrou no `conferir-voz.py`.** Ela lê os dois lados — os
+> termos saem do texto, os destinos saem do glossário e das estreias — e o teto é trava de
+> crescimento, não meta. Corte: `5` usos, ou aparecer em `3` capítulos.
+>
+> **O buraco caiu de 71 para 5 termos**, e a maior parte não foi escrita — foi conserto de
+> cinco pontos cegos do próprio validador, cada um testado com perturbação positiva e
+> negativa em cópia isolada:
+>
+> | o que ele não reconhecia como destino | termos que escondia |
+> |---|---:|
+> | o encaixe `Nível N: `Termo`.` das habilidades de Trilha e Caminho | 4 |
+> | título de seção `##` a `######` | 13 |
+> | negrito sem crase, `**Termo** —`, do catálogo de Perícias | 5 |
+> | definição fora da segunda coluna da tabela | 21 |
+> | limiar de tamanho cortando por um caractere, e célula não marcada | 5 |
+>
+> **O glossário ganhou 49 entradas**, em três seções novas — `Condições`, `Formas, Melhorias
+> e Restrições do Fundamento` e `Caminhos e Trilhas` — mais linhas em `Rolagens`, `Números da
+> ficha`, `Turno` e `Equipamento`. *Toda definição é texto que já existia numa tabela ou em
+> prosa do livro:* nenhuma frase nova, nenhum número novo. O `guard_numeros.py` acusou 26
+> diferenças, todas citação de capítulo ou valor copiado de tabela existente, conferidas uma
+> a uma contra a fonte.
+>
+> **O teto está em `0` e daqui em diante ele é ZERO.** Termo novo que passe o corte sem
+> entrada no vocabulário nem estreia definida falha o `conferir-voz.py --estrito`.
+>
+> ### O falso alarme que a leitura das fontes desfez
+>
+> **`Leve`, `Média` e `Pesada` somam 177 usos, e eu diagnostiquei ambiguidade onde não
+> havia.** *A peça 19 §2.3 de `03-mecanica` registra a decisão com todas as letras: o nível de
+> uma condição **é** o tier de preço do manual — a mesma escada, de propósito.* E o manual já
+> escreve isso em dois lugares, o capítulo 4 e o capítulo 9, na mesma frase: *o nível faz duas
+> coisas — é o que a condição custa para comprar, e o que custa para tirar*.
+>
+> **Não era decisão de design; era falta de entrada no índice**, igual aos outros 44. *Ler a
+> peça-fonte antes de propor derrubou um lote inteiro de "cruzamento entre duas peças" para
+> redação simples.*
+>
+> ### O rótulo de família veio do PHB 2024
+>
+> As três entradas usam **`Leve`** `[Nível]`, com o rótulo entre colchetes. *É o padrão das 41
+> entradas ambíguas do Glossário de Regras do PHB — `Cone [Área de Efeito]`, `Surdo
+> [Condição]` —, e ele só rotula onde o nome sozinho confunde.* **O GURPS não tem equivalente:
+> usa `Leve`/`Média`/`Pesada` como percentual de custo e nunca dá entrada a eles.**
+>
+> ### E o que a passada ainda nem começou
+>
+> **Fase 3 — remissões.** Hoje são **8** em 374 seções, e 5 delas num capítulo só. O formato
+> `seção *Nome*` já existe e o `conferir-voz.py` já valida se o alvo existe. É escrita, não
+> engenharia.
+>
+> **Fase 4 — reordenação e exemplos.** **22 seções** têm mais de 250 palavras de regra antes
+> da primeira tabela. As piores: `Aptidões de barreira` (511), `Regra rápida do turno` (514),
+> `Tipos de dano` (549), e as oito Origens com cerca de 350 cada. No capítulo 11, a seção
+> `Armas` passa **151 linhas** de regra antes da primeira arma concreta, e depois o catálogo
+> se fragmenta em uma tabela por grupo. *O D&D gasta distância parecida, mas as quatro
+> tabelas dele ficam coladas e a prosa dos grupos vem depois.*
+>
+> ### Estado para retomar
+>
+> **Nada disto foi commitado ainda.** Arquivos tocados: `REGRA-DE-VOZ.md`, `conferir-voz.py`,
+> `manual/07-glossario.md`, e este documento.
+>
+> **Verde em tudo:** `conferir-voz.py --estrito` sai `0`, os 19 validadores de `03-mecanica`
+> saem `0` com `PULADA=0`, e o `conferir-repositorio.py` sai verde.
+>
+> *O glossário do livro não entra no recorte da entrega, então esta passada não mexe em
+> `finalizado/`.* **Commit é só do repositório de trabalho.**
+
 > ## Passada de voz — concluída em 20/08/2026
 >
 > Uma **segunda revisão** passou por todo o livro, sobre a voz do texto. O documento que
