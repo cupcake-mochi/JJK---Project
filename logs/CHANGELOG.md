@@ -8,6 +8,24 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.114] — 21/08/2026
+
+**O buraco de validador que a v0.112 achou por acaso fechou.**
+
+### Adicionado — a checagem 7.1 passou a cobrir `livro/`
+
+**Na v0.112 o `.pdf` publicado do livro estava três versões atrasado** — *sem as catorze condições reescritas, sem o capítulo 11 reordenado, sem as 49 entradas novas do vocabulário e sem a regra de `vida temporária`* — **e nenhum validador acusou, porque `livro/` nunca esteve no recorte da checagem 7.** *Ele só apareceu porque o build foi rodado para testar outra coisa.*
+
+*O recorte foi de `29` para `31` arquivos:* **o `.pdf` e o `.docx` de revisão entraram**, com a fonte sendo o que o build gera em `05-material/livro/` — *não o fonte `.md`, porque o que a entrega carrega é o artefato, e é ele que envelhece calado.*
+
+> **O piso subiu de `27` para `29` com o motivo escrito**, e a contagem de checagens **não se moveu**: continuam `188` em `20` validadores. *Isto ampliou o recorte de um bloco que já existia; não criou bloco novo.*
+
+**Quatro perturbações conferidas em cópia isolada, com a base passando antes de cada uma:** *o `.pdf` da entrega envelhecido acende `a copia na entrega esta VELHA`; o `.docx` sumindo acende `a entrega nao tem copia de`; e o contra-teste do piso — subido para `40` — prova que a guarda de contagem não é trivialmente verdadeira, acusando `o recorte deveria ter pelo menos 40 e eu montei 31`.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. A fila do livro está **vazia** e não há item de validador aberto. A próxima peça de mecânica são as três Trilhas do Evocador — `Servo`, `Matilha` e `Coro` —, **paradas por decisão do Mizuki**.
+
+---
+
 ## [0.113] — 21/08/2026
 
 **A caixa de aviso saiu do papel: nove blocos do livro deixaram de parecer regra.**

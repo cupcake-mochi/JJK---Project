@@ -563,11 +563,23 @@ else:
     for f in ('ficha-em-branco.docx', 'ficha-exemplo-kaori.docx'):
         ESPERADO.append((os.path.join(RAIZ, 'sistema', '05-material', f),
                          os.path.join(ENT, 'ficha', f)))
+    # O livro entrou no recorte na v0.114, e o motivo foi um defeito real: na
+    # v0.112 o .pdf publicado estava TRES versoes atrasado — sem as condicoes
+    # reescritas, sem o capitulo 11 reordenado, sem o vocabulario novo e sem a
+    # regra de vida temporaria — e ninguem acusou, porque `livro/` nunca esteve
+    # aqui. Ele so apareceu porque o build foi rodado para testar outra coisa.
+    #
+    # A fonte e' o que o build gera em 05-material/livro/, e nao o fonte .md:
+    # o que a entrega carrega e' o artefato, e e' ele que envelhece calado.
+    LIVRO = os.path.join(RAIZ, 'sistema', '05-material', 'livro')
+    for f in ('Projeto-M-Manual-da-Guilda.pdf',
+              'Projeto-M-Manual-da-Guilda-REVISAO.docx'):
+        ESPERADO.append((os.path.join(LIVRO, f), os.path.join(ENT, 'livro', f)))
 
     # guarda de contagem: se o recorte encolher, ela acusa em vez de conferir
     # menos em silencio. Piso = 17 pecas + 4 desenhos + 2 avulsos + 2 do manual
-    # + 2 fichas, e ele so' cresce.
-    PISO_RECORTE = 27
+    # + 2 fichas + 2 do livro, e ele so' cresce.
+    PISO_RECORTE = 29
     if len(ESPERADO) < PISO_RECORTE:
         erro(f'7.1: o recorte deveria ter pelo menos {PISO_RECORTE} arquivos e eu montei '
              f'{len(ESPERADO)} — a lista mudou de forma e esta checagem parou de conferir')
