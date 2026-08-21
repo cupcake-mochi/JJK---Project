@@ -1,7 +1,7 @@
 # CRIAÇÃO DE PERSONAGEM
 
 **Fase 4, oitava peça.** A soma de tudo, na ordem em que você preenche a ficha.
-Versão v0.21, atualizada na v0.22 e na v0.24 — 08/08/2026
+Versão v0.21, atualizada na v0.22 e na v0.24, com o recorte de Pactos na v0.116 — 08/08/2026
 
 Esta peça não inventa regra nova. Ela junta as sete anteriores e o manual do Fundamento na ordem em que a pessoa senta e preenche.
 
@@ -130,11 +130,12 @@ Aqui você abre o manual do Fundamento. É a parte longa, e é a que faz o perso
 
 Você já tem a Regra. Falta:
 
-1. **Descrição** — de onde a técnica veio, como ela aparece, o que as pessoas veem quando ela age. Sem efeito mecânico, e é o que faz duas técnicas iguais parecerem diferentes.
-2. **Famílias** — duas **Livres** (as Melhorias delas custam metade da Classe a menos) e três **Fechadas** (você nunca compra nada delas). É aqui que duas técnicas com a mesma Regra viram personagens diferentes.
-3. **Selo** — o gesto, a condição ou o objeto que a sua técnica exige. Não custa nem devolve ponto; ele é identidade, mais uma trava: Restrição que o Selo já obriga não devolve ponto.
-4. **Passiva Livre** — uma, de graça, para todo mundo. Ela não rola dado, não muda número e não faz ninguém rolar.
-5. **Os feitiços.** No nível 2 você tem **Classe 1**, dois feitiços de **Classe 0** (grátis, não ocupam espaço) e **três feitiços conhecidos**, montados pelo orçamento da Classe 1. Três é o que a fórmula `2 + (nível ÷ 2)` dá no nível 2 — dois de toda ficha, mais o do próprio nível 2.
+1. **O atributo da técnica** — **um dos cinco, escolhido agora e travado.** É ele que entra no seu ataque de conjuração e na CD dos seus feitiços. *Escolha o que a sua técnica é: Inteligência para quem calcula, Essência para quem sente, Força para o feiticeiro que conjura batendo.* **Vale a pena apontar para um atributo que você já ia levar alto** — se ele ficar para trás, a sua técnica fica junto.
+2. **Descrição** — de onde a técnica veio, como ela aparece, o que as pessoas veem quando ela age. Sem efeito mecânico, e é o que faz duas técnicas iguais parecerem diferentes.
+3. **Famílias** — duas **Livres** (as Melhorias delas custam metade da Classe a menos) e três **Fechadas** (você nunca compra nada delas). É aqui que duas técnicas com a mesma Regra viram personagens diferentes.
+4. **Selo** — o gesto, a condição ou o objeto que a sua técnica exige. Não custa nem devolve ponto; ele é identidade, mais uma trava: Restrição que o Selo já obriga não devolve ponto.
+5. **Passiva Livre** — uma, de graça, para todo mundo. Ela não rola dado, não muda número e não faz ninguém rolar.
+6. **Os feitiços.** No nível 2 você tem **Classe 1**, dois feitiços de **Classe 0** (grátis, não ocupam espaço) e **três feitiços conhecidos**, montados pelo orçamento da Classe 1. Três é o que a fórmula `2 + (nível ÷ 2)` dá no nível 2 — dois de toda ficha, mais o do próprio nível 2.
 
 **A Regra da técnica é lida por outra pessoa antes de entrar em jogo.** É uma das travas de mundo compartilhado, e existe porque quem escreveu sabe o que quis dizer — quem vai arbitrar, não.
 
@@ -175,12 +176,12 @@ Pontos de Energia    = PE por nível do Caminho × 2
 Defesa               = 10 + Destreza + 1     (a proteção de cobrir-se de energia)
 Iniciativa           = d20 + Destreza
 Deslocamento         = 9 metros
-Ataque corpo a corpo = d20 + Força
-Ataque à distância   = d20 + Destreza
-Ataque de conjuração = d20 + 3
-CD de feitiço        = 13
+Ataque corpo a corpo = d20 + Força + 1
+Ataque à distância   = d20 + Destreza + 1
+Ataque de conjuração = d20 + atributo da técnica + 1
+CD de feitiço        = 8 + atributo da técnica + maestria
 Perícia treinada     = d20 + atributo + 1
-Teste de Resistência = d20 + atributo do TR, +2 se treinado
+Teste de Resistência = d20 + atributo do TR + 1   (a maestria, e só se treinado)
 ```
 
 **No refino 1 você já tem duas aptidões, de graça:** **cobrir-se de energia**, que dá proteção sem equipamento, e **canalizar energia**, que é o que permite ferir uma maldição com o corpo ou com a arma. Elas são básicas de qualquer feiticeiro e por isso não custam nada — as aptidões que você comprar depois melhoram o que já existe.
@@ -191,9 +192,46 @@ Teste de Resistência = d20 + atributo do TR, +2 se treinado
 
 **Opcional, e a maioria dos personagens começa sem.**
 
-Pacto é o que você trocou por poder. Ele permite quase qualquer coisa desde que o preço seja real, e por isso tem a mesma trava da Regra da técnica: **uma frase, verificável pela mesa, simétrica, sem dano direto, com limite.**
+Pacto é o que você trocou por poder.
 
-> **Provisório.** A regra completa de Pactos ainda não foi escrita. Até lá, pacto na criação só entra com aprovação do mestre e com o preço escrito na ficha.
+### Três das quatro formas de pacto já têm dono, e o dono é o manual — v0.116
+
+*A pendência dizia "a regra completa de Pactos ainda não foi escrita", e foi escrita assim desde a v0.21.* **Indo escrever, a maior parte já estava.** As quatro formas que a obra usa, cada uma contra a máquina que já a resolve:
+
+| a forma, na obra | quem já é dono | onde |
+|---|---|---|
+| *"a minha técnica fica maior sob uma condição que eu aceitei"* | **Restrição**, por feitiço | manual §4 — dezoito entradas, mais a `Restrição Própria` |
+| *"a minha técnica impõe uma regra ao mundo: julgamento, aposta, **contrato**, **dívida**, sorte"* | **Regra Própria**, por técnica | manual §3. *As cinco palavras são dele, e um dos três exemplos publicados é literalmente uma Dívida cobrada uma vez por cena* |
+| *"eu troquei uma coisa antes de a campanha começar"* | **Legado**, na criação | peça 13 — três formatos, catálogo de 81 entradas, régua e validador |
+| *"eu e mais alguém fechamos um trato, aqui, na mesa"* | **ninguém** | — |
+
+**Três de quatro, e o manual escreve `contrato` e `dívida` com essas palavras.** *É o mesmo defeito que a v0.80, a v0.86 e a v0.92 acharam três vezes: o projeto procurando uma régua que já tinha dono.*
+
+### E a trava que estava escrita aqui era cópia — v0.116
+
+*O parágrafo desta seção dizia que Pacto tem **"a mesma trava da Regra da técnica: uma frase, verificável pela mesa, simétrica, sem dano direto, com limite"**.* **Aqueles cinco requisitos não são "a mesma trava": eles são a lista da `Regra Própria` do manual, na ordem, sem uma palavra a mais.**
+
+> *Uma frase · Verificável: a mesa aponta o momento em que ela disparou · Simétrica: vale contra você nas mesmas condições · Sem dano direto: gera recurso, condição ou obrigação · Com limite por cena.*
+
+**Uma cópia sem dono declarado é a lição nº 9 esperando acontecer**, e esta já estava a uma palavra de divergir: a do manual diz *"com limite **por cena**"* e a daqui dizia só *"com limite"*. **A partir daqui esta seção aponta em vez de repetir.**
+
+### O que sobra é uma coisa só, e é a mais perigosa das quatro
+
+**O pacto feito durante o jogo, entre dois personagens.** *As outras três acontecem quando alguém escreve a ficha, com o mestre lendo; esta acontece no meio de uma cena, e o personagem sai dela e vai para a mesa de outro mestre carregando o que foi combinado.* **É o filtro de mundo compartilhado no pior caso que ele tem.**
+
+> **Provisório, e o recorte é este.** *Pacto entre personagens não tem regra, e na criação ele não entra: quem quiser começar com um usa a `Regra Própria` do manual ou um `Legado` da peça 13, que é onde essa ficção já mora.* **O mestre continua podendo abrir um em jogo, e o preço vai escrito na ficha — o que não existe ainda é a régua que faz dois mestres cobrarem o mesmo.**
+
+**Quatro coisas ficam decididas antes da régua, e as quatro saem de medida que já existe:**
+
+**1. Ele é a quarta economia de poder, e por isso nasce com o teto mínimo.** *O `arquitetura.md` chama as aptidões de "o risco maior da estrutura inteira" por serem a segunda economia; o Legado é a terceira e a peça 9 §2 registra que ele "nasceu com o teto mínimo" exatamente por isso.* **A quarta não pode nascer mais solta que a terceira.**
+
+**2. Ele não entrega saída.** *Toda camada que entrega dano por rodada tem orçamento medido: o Caminho leva `3` fatias, a Trilha leva `5`, e a v0.73 chegou nesse par dobrando o orçamento duas vezes e medindo o resultado.* **Pacto é a única camada do sistema sem número nenhum**, e somar saída por fora dela desfaz a única conta que amarra as outras.
+
+**3. Ele não pode ser preçado por julgamento.** *A `Restrição Própria` do manual pode — "você propõe a dor, o mestre define quanto ela devolve" —, e ela aguenta isso porque **é revisada**: "depois de três sessões, o mestre revisa; as que nunca atrapalharam são trocadas".* **Um pacto que atravessa sete mesas não tem quem o revise.** *A saída conhecida é a da peça 13: formatos travados nos próprios termos, e não escada de preço.*
+
+**4. E ele não pode repetir o que as outras três já fazem.** *Se um Pacto conseguir escrever o que uma `Restrição` escreve, existem duas respostas para a mesma pergunta — e a mais barata das duas vence.*
+
+*E o nome `Voto` está ocupado: ele mora dentro do `Golpe do Voto`, que é Liberação Máxima pronta no manual.* **`Pacto`, `Trato`, `Cláusula` e `Penhor` saíram `LIVRE` na triagem e ficam registrados.**
 
 ---
 
@@ -217,7 +255,7 @@ Pacto é o que você trocou por poder. Ele permite quase qualquer coisa desde qu
 
 **Atributos.** Força 3 · Constituição 2 · Destreza 2 · Inteligência 1 · Essência 1. *(nove pontos, nenhum acima de 3)* — **TR Físico travado em Força**.
 
-**Técnica.** *Famílias Livres:* Controle e Castigo. *Fechadas:* Amparo, Área, Auxiliares — ela não cura, não pega área e não dá suporte. *Selo:* as duas mãos precisam se tocar antes. *Passiva Livre:* ela sabe o peso exato de qualquer coisa que encoste nela.
+**Técnica.** *Atributo da técnica:* **Força** — a Regra dela é peso, e peso é o que ela já faz com o corpo. *Famílias Livres:* Controle e Castigo. *Fechadas:* Amparo, Área, Auxiliares — ela não cura, não pega área e não dá suporte. *Selo:* as duas mãos precisam se tocar antes. *Passiva Livre:* ela sabe o peso exato de qualquer coisa que encoste nela.
 
 **Perícias — oito.** Do Caminho, fixas: Atletismo e Intimidação. Do Caminho, livres: Sentir Energia, Percepção, Sobrevivência e Intuição. Da Origem: Hierarquia e História.
 
@@ -232,12 +270,12 @@ Pacto é o que você trocou por poder. Ele permite quase qualquer coisa desde qu
 | PE | 4 × 2 | **8** |
 | Defesa | 10 + 2 + 1 | **13** |
 | Iniciativa | d20 + 2 | |
-| Ataque corpo a corpo | d20 + 3 | |
-| Ataque de conjuração | d20 + 2 + 1 | **d20 + 3** |
-| CD dos feitiços dela | 10 + 2 + 1 | **13** |
+| Ataque corpo a corpo | d20 + 3 + 1 | **d20 + 4** |
+| Ataque de conjuração | d20 + 3 + 1 | **d20 + 4** |
+| CD dos feitiços dela | 8 + 3 + 1 | **12** |
 | Atletismo (treinado) | d20 + 3 + 1 | **d20 + 4** |
 
-Repare que ela acerta igual com o soco e com o feitiço — **d20 + 3 nos dois**. Isso não é coincidência: o `2 + maestria` do ataque de conjuração foi calibrado exatamente para o conjurador empatar com o guerreiro, do nível 2 ao 30.
+Repare que ela acerta igual com o soco e com o feitiço — **d20 + 4 nos dois**. Isso não é coincidência: **a técnica dela usa Força**, o mesmo atributo do soco, e as duas rolagens levam maestria. *Se ela tivesse apontado a técnica para Essência 1, o feitiço sairia em `d20 + 2` e o soco continuaria em `d20 + 4`* — **é essa escolha que a v0.117 pôs na criação, no lugar do `2` fixo que valia para todo mundo.**
 
 ---
 
@@ -249,7 +287,7 @@ Sete perguntas, e todas têm resposta objetiva:
 2. **O Teste de Resistência Físico está travado** em Força ou Destreza?
 3. **São oito perícias e três ofícios — ou nove e dois?** As duas rotas são legais; o que não pode é somar as duas. E as duas perícias fixas e o ofício fixo do Caminho precisam estar entre eles.
 4. **São dois Testes de Resistência treinados**, um da Origem e um do Caminho?
-5. **A Regra da técnica cabe em uma frase**, é verificável pela mesa e não tem número?
+5. **A Regra da técnica cabe em uma frase**, é verificável pela mesa e não tem número? **E o atributo da técnica está declarado na ficha?**
 6. **Alguém que não seja o dono leu a técnica?**
 7. **Os três feitiços conhecidos fecham no orçamento da Classe 1?** Três pontos cada.
 
@@ -257,7 +295,7 @@ E a que sustenta as sete: **o mestre pode recusar mesmo quando passa em tudo.** 
 
 ## Em aberto
 
-- **A regra de Pactos**, que hoje é só uma trava e uma promessa.
+- **A regra de Pactos**, e o recorte dela encolheu na v0.116. *Três das quatro formas já têm dono — `Restrição` e `Regra Própria` no manual, `Legado` na peça 13 —, e a trava que estava escrita aqui era cópia da lista da `Regra Própria`.* **O que falta é uma só: pacto entre dois personagens, fechado durante o jogo**, com as quatro travas de projeto já escritas no Passo 8.
 - ~~**Equipamento.** A tabela de proteção não existe, então a ficha nasce **só** com a proteção 1 de cobrir-se de energia.~~ **Fechada na v0.48, na peça 14:** `Traje` e `Revestimento` com três degraus cada, e escudo com três. *A ficha continua nascendo só com a proteção 1 de cobrir-se de energia — o que mudou é que agora existe o que vestir por cima.* **Traje e Revestimento desligam a proteção de energia; o escudo SOMA com ela**, decidido na v0.42.
 - ~~**Quantas Trilhas um personagem acumula, e em que níveis.**~~ **Fechada na v0.55, na v0.60 e na v0.65:** uma Trilha por ficha, com entregas nos níveis `2 · 11 · 19 · 27`, e troca total de Trilha permitida no 11, no 19 e no 27. *A primeira continua vindo no nível 2, junto do Caminho; **o que ela entrega com número continua sendo a peça de Trilhas**, que não existe.*
 - **Se vinte a quarenta minutos é real.** É estimativa, e o playtest mede.

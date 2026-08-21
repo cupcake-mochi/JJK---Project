@@ -8,6 +8,250 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.117] — 21/08/2026
+
+**A versão que refez a base de acerto do sistema — e o que a destravou não foi validador nenhum: foi o Mizuki olhando a Defesa que a mesa alcança.**
+
+> ***"Notei que defesa vai estar chegando em picos de 20-22 se considerar com buffs menores. Isso exige a soma da maestria."***
+
+**Ele está certo, e a peça 1 media contra um alvo de Defesa 17.**
+
+### Achado — o acerto derivava `−15pp` na campanha, e nenhum validador via
+
+**A peça 11 §6 diz que a proteção de cobrir-se é `1/3 do refino + 1`, e a peça 14 §3 deriva o teto de Defesa em `20` somando os `4` dela no refino `10`.** *O `conferir-atributos.py` segurava a proteção em `1` — o valor do nível 2 — desde o conserto de 06/08.*
+
+| alvo que investe em Destreza e carrega refino | nv2 | nv10 | nv18 | nv26 | nv30 |
+|---|---|---|---|---|---|
+| Defesa, com a proteção andando junto | 14 | 16 | 18 | 20 | **20** |
+| Defesa como o validador media | 14 | 15 | 16 | 17 | 17 |
+
+**Com o alvo certo, a Defesa cresce `+6` na campanha — Destreza `+3` e proteção `+3` — e o acerto crescia `+3`:**
+
+| | nv2 | nv10 | nv18 | nv26 | nv30 | deriva |
+|---|---|---|---|---|---|---|
+| `d20 + atributo` (físico, como estava) | 50% | 45% | 40% | 35% | **35%** | **`−15pp`** |
+| `d20 + 2 + maestria` (conjuração, como estava) | 50% | 45% | 40% | 35% | **35%** | **`−15pp`** |
+| **`d20 + atributo + maestria`** | 55% | 55% | 55% | 55% | **55%** | **`0`** |
+
+> **É a lição nº 1 pela terceira vez, e a própria peça denunciava.** *A seção 7 da peça 1 lista, com todas as letras, o que tem de entrar no teste: **"atributo, PROTEÇÃO, equipamento"**.* **O conserto de 06/08 trouxe o atributo e parou ali** — a palavra do meio ficou cento e nove versões dentro de um validador que a ignorava. *Uma frase certa escrita ao lado de um teste que não a obedece sobrevive muito mais tempo que uma frase errada.*
+
+### Decidido — a base nova, e a CD não acompanha
+
+| | antes | agora |
+|---|---|---|
+| ataque corpo a corpo | `d20 + Força` | **`d20 + Força + maestria`** |
+| ataque à distância | `d20 + Destreza` | **`d20 + Destreza + maestria`** |
+| ataque de conjuração | `d20 + 2 + maestria` | **`d20 + atributo da técnica + maestria`** |
+| CD de feitiço | `10 + 2 + maestria` | **`8 + atributo da técnica + maestria`** |
+| Teste de Resistência | `d20 + atributo (+2 se treinado)` | **`d20 + atributo + maestria`**, e a maestria só se treinado |
+
+**A maestria virou a marca do treino, e ela aparece dos dois lados de cada rolagem.** *No acerto, o `+6` do alvo é involuntário — a proteção sobe sozinha na linha de graça do marco. Na CD, o `+6` do alvo é **comprado**: a maestria só entra no Teste de Resistência que a ficha treinou.*
+
+> **O `8` da CD não é escolha de gosto: ele É a chance de quem treinou.** *`8 + atributo + maestria` contra `d20 + atributo + maestria` deixa exatamente `8` no dado, e `d20 ≥ 8` é `65%` — o mesmo que o `+2` fixo entregava.*
+
+| Teste de Resistência | nv2 | nv10 | nv18 | nv26 | nv30 | deriva |
+|---|---|---|---|---|---|---|
+| **treinado** | 65% | 65% | 65% | 65% | **65%** | **`0`** |
+| **sem treino** — era `55%` plano | 60% | 55% | 50% | 45% | **45%** | **`−15pp`** |
+
+***Decisão do Mizuki: o não-treinado ficar para trás deixou de ser defeito e virou o preço.*** *Toda ficha treina dois Testes de Resistência de quatro, e os outros dois viram o lugar por onde um chefe entra.* **Isso inverte a decisão da peça 4 §1, que fica registrada lá com o motivo:** *a frase estava certa e a conclusão mudou quando a CD passou a crescer `+6`, porque aí o `+2` fixo deixou de segurar o treinado — ele afundava junto.*
+
+### Registrado — buff plano não deriva, e é isso que responde à observação sobre escudo
+
+***O Mizuki levantou que feitiço de Defesa, escudo e habilidade vão existir e têm de entrar na conta.*** **Entram, e a conta diz que eles mudam o nível e não a inclinação:**
+
+| Defesa do alvo difícil | nv2 | nv10 | nv18 | nv30 | deriva |
+|---|---|---|---|---|---|
+| sem nada por cima | 55% | 55% | 55% | 55% | `0` |
+| `+2` — Manha `+1` e escudo `+1` | 45% | 45% | 45% | 45% | `0` |
+| `+4` — escudo 3 e Manha, o topo do que existe | 35% | 35% | 35% | 35% | `0` |
+
+**Um `+1` de escudo vale `+1` no nível 2 e `+1` no 30 — ele não cresce.** *Só a proteção de cobrir-se cresce, e foi por ela que a maestria entrou.* **Quanto um acerto vale contra um alvo empilhado é calibragem; a inclinação é o que não pode estar errada.**
+
+> **E a varredura achou a assimetria que decide a CD:** *sobem a **Defesa**, permanente e plano — escudo `+1` a `+3`, Manha `+1`, Trilha `+2`, uniforme. Sobem o **Teste de Resistência** — só vantagem, e só `1× por cena`* (`Repetição`, `Conversa de Jantar`, `Corpo Emprestado`, `Já Morri`, `Desconfiado`, `Meio e Meio`). **Nada no projeto soma um número permanente num Teste de Resistência**, e é por isso que a maestria de quem treinou é o único termo que pode acompanhar a CD.
+
+> ***Decisão do Mizuki: a técnica declara um atributo na criação, e pode ser qualquer um dos cinco.*** *Com isso o `2 + maestria` morreu, e com ele a "troca do `2` por um atributo" que a v0.116 tinha achado que não funcionava em nenhuma leitura.* **O objetivo dela virou o padrão.**
+
+**A oscilação que sobra é de `5pp` e é irredutível:** *a proteção sobe um ponto a cada quatro níveis e a maestria a cada oito, então as duas escadas ficam meio degrau fora de fase.* **Ponta a ponta a deriva é zero, e o validador cobra as duas coisas separadamente** — tolerância `5` na oscilação, tolerância `0` nas pontas.
+
+### Corrigido — o `Estopim` ganhou referente de graça
+
+**O `Estopim`, nível 11 da Trilha `Explosivo`, soma "o atributo da sua técnica" no dano e estava preçado em `1,18` fatia contra um atributo que não existia.** *A v0.116 registrou isso como defeito vivo e impresso no livro.* **Agora toda ficha declara um, e o preço supunha exatamente um atributo investido de `3` a `6` — o degrau não se moveu.**
+
+### O que a mudança cobra, e de quem
+
+**Ela cobra ter um atributo no teto.** *O `2 + maestria` chegava a `6` sozinho sem a ficha pagar nada.*
+
+| o feitiço acerta | nv2 | nv10 | nv18 | nv30 |
+|---|---|---|---|---|
+| atributo da técnica levado ao teto | 55% | 55% | 55% | **55%** |
+| atributo parado em `3` desde a criação | 55% | 50% | 45% | **40%** |
+| sem treino na arma (a maestria não entra) | 50% | 45% | 40% | **35%** |
+
+**E ela não cobra dos Caminhos físicos, porque o atributo é livre** — *era essa a objeção que a v0.116 levantou, e "qualquer atributo" a desmonta:* **o Bastião aponta a técnica para a Força que ele já leva ao teto e paga zero.**
+
+> **⚠ Declarado e mandado para o playtest: Constituição é a escolha ótima de quem só conjura.** *Todo Caminho tem um atributo que já faz dois trabalhos, mas o segundo trabalho da Constituição vale para todo mundo.* **Não quebra número — o acerto continua em `55%` —, mas apaga a cor da escolha.**
+
+### Alterado — dezessete arquivos, e o livro foi regerado
+
+*Peças 1, 6, 8 e 19; `conferir-atributos.py`, `conferir-criacao.py` e `conferir-invocacoes.py`; o gerador da ficha; cinco capítulos do livro e o `HANDOFF`; e o `DESENHO-trilhas.md`.*
+
+**A checagem 18 do `conferir-invocacoes.py` mudou de referência, e a antiga tinha ficado errada.** *Ela comparava o acerto derivado contra **um atributo investido** (`+3`), o que valia enquanto o acerto tinha um termo só.* **O alvo do acerto sempre teve dois termos que crescem — a Defesa —, então a comparação certa é contra ela.** *Os dois lados continuam lidos de peças diferentes: o acerto da peça 1, a Defesa das peças 2 e 11.*
+
+**A penalidade de arma sem treino da peça 19 §6 ganhou a metade que faltava.** *Aquela seção dizia que "usar arma sem treino tira o bônus de proficiência" não atravessava do d20 porque "aqui a rolagem de ataque não tem esse termo".* **Agora tem.** ***Decisão do Mizuki: as duas valem.*** *Sem treino você não soma a maestria **e** rola com desvantagem.* **Medido, elas cobram coisas diferentes:** a desvantagem custa `25pp` em todo nível, e perder a maestria custa `5pp` no nível 2 e `20pp` no 30 — *a primeira é plana e a segunda cresce, então a porta fica mais fechada a cada nível.*
+
+**Sete perturbações conferidas em cópia isolada:** *tirar a maestria do acerto acende `−15pp`; congelar a proteção em `1` acende `+15pp` pelo outro lado; trocar o divisor da proteção de `1/3` para `1/2` acende `−10pp`; **mudar a base da CD de `8` para `10` acusa que o treinado deixou de resistir `65%`**; voltar o `+2` fixo no TR acende deriva no treinado; e **tirar a maestria da CD acende que não treinar parou de custar alguma coisa**.* **E entrou uma guarda que mede a base ANTIGA contra o alvo novo:** se `2 + maestria` parar de cair `15pp`, ou a proteção parou de crescer ou aquela linha virou decoração.
+
+**O livro foi regerado inteiro:** `.pdf` de **237 páginas**, `.docx` de revisão e o `TEXTO.md`. *O `conferir-voz.py` passa com `0` termos sem destino.*
+
+### ⚠⚠ Registrado e NÃO consertado — o repreço do catálogo
+
+**A revisão cética da versão achou que três constantes de preço saíam da taxa de acerto que a peça 1 §6 publicava, e as três se moveram junto com a base.**
+
+| constante | era | virou | quem usa |
+|---|---|---|---|
+| acertar, um ataque | `50%` | **`55%`** | todo degrau gateado em *"quando você acerta"* |
+| acertar com dois ataques | `75%` | **`79,75%`** | `1 − (1 − p)²`, e a fatia mede no nível 30 |
+| o alvo falhar o Teste de Resistência | `45%` | **`35%`** treinado · **`40%` a `55%`** sem treino | todo degrau gateado em TR |
+| a vantagem | `+25pp` | `+24,75pp` | **não move nada** |
+
+**No exemplar medido — o `Derrubado` do nível 11 do `Punho`, que a v0.103 preçou em `0,56` fatia com `8,45 × 75% × 45%` — a Trilha fica entre `4,82` e `5,07` de `5,00`, conforme o modelo de alvo.** *Cabe na banda que o projeto já aceita, e é por isso que não é urgente.* **O que não cabe é o número ter parado de ser derivado**, que é a lição nº 8 por outra porta.
+
+> **Não foi consertado aqui de propósito, e o motivo é de método:** *são as 89 entradas da peça 17, e repreçar uma só produz um catálogo com dois modelos dentro.* **A fatia NÃO se move** — ela sai de dano evitado, `1` pra `1` (o `Alicerce` e as outras duas âncoras do `DESENHO-trilhas.md`), e não da taxa de acerto. *Então o repreço é dos degraus, não da régua.*
+
+***E ele precisa de uma decisão antes de começar: contra qual alvo um degrau gateado em Teste de Resistência se preça.*** *O `45%` velho era a falha de um TR plano; hoje existem dois alvos.* **O arredondamento do projeto — "o que você ganha desce" — aponta para o treinado, que é `35%`**, e é a mesma direção do "caso difícil" que o acerto já usa.
+
+*Marcado nos três donos: a peça 19 §2.2, o `DESENHO-trilhas.md` no ponto do `Punho`, e o `ESTADO-ATUAL`.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **A fila é a que o Mizuki fechou nesta conversa:** *Bênçãos como contraparte física (peça 11 §6.8 tem a régua e a contagem), depois a régua de Pactos com os quatro tipos e a cota de metade da Essência.* **As duas pendências desta versão foram fechadas pelo Mizuki na mesma conversa:** *arma sem treino perde a maestria **e** leva desvantagem; e a cota de Pactos é metade da **Essência** — `1` na criação, `3` no teto —, com os contratuais fora do limite.*
+
+---
+
+## [0.116] — 21/08/2026
+
+**As três pendências da v0.115 fecharam, e nenhuma delas fechou por decisão de sabor — as três tinham resposta em conta ou em contagem.** *E a pergunta solta do Mizuki, sobre as rolagens de conjuração usarem atributo, destampou uma frase errada que estava em três documentos desde a v0.9.*
+
+### Decidido — o gate Origem × Caminho não é gate
+
+**A pergunta era *"veto ou desaconselhado, e espera a Técnica Marcial ou fecha antes"*, e as duas metades caíram na medição.**
+
+*Ela supunha que existe um Caminho barato em PE para onde mandar uma Origem sem PE.* **Não existe: os cinco entregam PE, e o menor é o `4` do Bastião.** *A contradição com o "sem PE, zero, absoluto" da Restrição Celestial acontece com os cinco.*
+
+**E o que quebra não é a contradição de vocabulário — é um invariante que já tem dono e validador.**
+
+| | vida/nível | PE/nível | soma hoje | soma com o PE valendo zero |
+|---|---|---|---|---|
+| Bastião | 7 | 4 | 11 | **7** |
+| Vanguarda · Guia | 5 | 5 | 10 | 5 |
+| Evocador · Emanador | 4 | 6 | 10 | **4** |
+
+**O espalhamento vai de `1` para `3`, e o `conferir-atributos.py` reprova acima de `2`.** *O Bastião passa a valer `1,75×` o Emanador na única moeda que ainda paga: para essa Origem, e só para ela, escolher Caminho deixa de ser sabor.*
+
+> ***A saída é a quarta, e não estava na pergunta: a coluna não some, ela troca de moeda.*** **O Caminho entrega `4` a `6` por nível, e quem não tem energia gasta esse mesmo número na máquina da Técnica Marcial.** *A soma volta a `10` e `11`, os cinco Caminhos continuam abertos, e não há o que vetar.*
+
+**E fecha ANTES da Técnica Marcial porque é contrato SOBRE ela, e não conteúdo dela** — o molde do teto de Defesa da peça 14 §3, em que ninguém escreve o número e a peça que chega depois obedece. *O contrário seria deixar a peça que não existe escolher o próprio orçamento, que é a única recomendação de método que o `RASCUNHO-trilhas.md` §3 faz: **a régua vem antes do catálogo**.*
+
+**As três saídas que a pergunta oferecia foram medidas e reprovaram.** *Veto por Caminho leva o espalhamento de `3` para `2` e passa raspando, ao preço de dois dos cinco Caminhos — e não desfaz a dominância que sobra, porque `7` contra `5` continua sendo `1,4×`. Veto global é a mesma conta, pior. E "desaconselhar" é a forma de **o ofício não passa no filtro do multi-mestre** e de **o mestre declara o que foi uma luta**, os dois na lista de problemas de design abertos do `ESTADO-ATUAL`, os dois abertos pelo mesmo motivo.*
+
+**A peça 6 e a peça 9 passaram a se citar**, que era o buraco: *nenhuma das duas mencionava a outra, então a combinação nunca tinha sido conferida por ninguém.*
+
+### Decidido — as Bênçãos não espelham as aptidões, e a contagem é o argumento
+
+**Treze das catorze aptidões são construídas em cima da energia amaldiçoada.** *A décima quarta é a `Aptidão Própria`, que é **formato** e não conteúdo — e é a única que atravessa.* **Espelhar entrada por entrada nunca foi a escolha pior: é impossível.**
+
+*As duas que pareciam candidatas foram conferidas na fonte:* **o kokusen é energia aplicada no impacto dentro de um milionésimo de segundo, e a `Pétala` cobre o usuário de energia — é a energia que revida, não o corpo.** *E a Maki ganha energia amaldiçoada mais tarde na obra; a Origem daqui modela o estado de energia zero, que é o do Toji do começo ao fim.*
+
+> **E metade do buraco já estava tapada, em duas peças que ninguém tinha somado.** *`canalizar energia` — ferir maldição — é a **ferramenta amaldiçoada** da peça 16, e a peça 5 §3 já dizia que a Maki "só compete porque a ferramenta carrega a energia por ela". `cobrir-se de energia` é o **uniforme** da peça 14, que roda a dominância por uma rota chamada literalmente `sem energia nenhuma`. E as quatro anti-domínio são o `Anátema` e o `Quebranto`, também da peça 16, cujo gate foi escrito sem a metade de refino de propósito.* **Três peças responderam pedaços desta pergunta em versões diferentes sem que nenhuma soubesse.**
+
+**O tamanho da lista é derivado, e são doze**, todas custando um marco: *o §3 da peça 11 fixa que a rota pura de Refino precisa de dez, e a rota pura de Lapidação é a mesma rota com outro nome.* **Mais a `Bênção Própria`, que é a única entrada que espelha de verdade.**
+
+**E o marco perde um dos três eixos para quem não escreve Fundamento:** *o `Leque` compra `+1 feitiço e uma Passiva`, e as duas coisas são do Fundamento.* **Sobram `Corpo` e `Lapidação`.** *Isso não tira poder, tira opção — e a folga de duas entradas no catálogo é o que impede a rota de virar corredor.*
+
+> **⚠ E a decisão da v0.38 nunca tinha sido aplicada.** *O `ESTADO-ATUAL` dizia "aplicado na peça 9 na v0.39"; o que a v0.39 aplicou foi a outra metade, a do Corpo Amaldiçoado virando misto.* **As palavras `Bênção` e `Lapidação` não apareciam em peça nenhuma do projeto** — só naquele documento e numa nota lateral da peça 13. *Setenta e sete versões no meio do caminho, e é a mesma lição de sempre: decisão registrada não é decisão aplicada.*
+
+### Decidido — Pactos: três das quatro formas já tinham dono, e o dono é o manual
+
+| a forma, na obra | quem já é dono |
+|---|---|
+| *"a minha técnica fica maior sob uma condição que eu aceitei"* | **Restrição**, por feitiço — manual §4 |
+| *"a minha técnica impõe uma regra ao mundo: julgamento, aposta, **contrato**, **dívida**, sorte"* | **Regra Própria**, por técnica — manual §3 |
+| *"eu troquei uma coisa antes de a campanha começar"* | **Legado**, na criação — peça 13 |
+| *"eu e mais alguém fechamos um trato, aqui, na mesa"* | **ninguém** |
+
+**As cinco palavras da segunda linha são do manual, e um dos três exemplos publicados dele é literalmente uma Dívida cobrada uma vez por cena.** *É o quarto exemplar do mesmo defeito em trinta e seis versões — o Classe 0 da v0.80, a ação `Mirar` da v0.86 e a régua do `Efeito Próprio` da v0.92: **o projeto procurando uma régua que já tinha dono**.*
+
+> **⚠ E a trava que estava escrita na peça 8 era cópia.** *Ela dizia que Pacto tem "a mesma trava da Regra da técnica: uma frase, verificável pela mesa, simétrica, sem dano direto, com limite".* **Aqueles cinco requisitos são a lista da `Regra Própria` do manual, na ordem, sem uma palavra a mais** — e já tinha divergido em uma: a do manual diz *"com limite **por cena**"*. *A peça 8 passou a apontar em vez de repetir.*
+
+**O que sobra é uma forma só, e é a mais perigosa das quatro:** *o pacto entre dois personagens, fechado no meio de uma cena, que o personagem carrega para a mesa do próximo mestre.* **Na criação ele não entra** — quem quiser começar com um usa a `Regra Própria` ou um `Legado`, que é onde a ficção já mora.
+
+**Quatro travas de projeto ficaram escritas antes da régua, e as quatro saem de medida que já existe:** *ele é a quarta economia de poder e nasce com o teto mínimo, como a terceira nasceu; ele não entrega saída, porque toda camada que entrega dano por rodada tem orçamento medido e essa não tem nenhum; ele não pode ser preçado por julgamento, porque a `Restrição Própria` só aguenta isso por ser revisada em três sessões e um pacto que atravessa sete mesas não tem quem o revise; e ele não pode repetir o que as outras três já fazem.*
+
+*`Voto` saiu `DENTRO` na triagem — ele mora no `Golpe do Voto`, Liberação Máxima pronta do manual.* **`Pacto`, `Trato`, `Cláusula` e `Penhor` saíram `LIVRE` e ficam registrados.**
+
+### ⚠⚠ Achado — a troca do `2` por um atributo não tem versão que funcione
+
+***O Mizuki perguntou se as rolagens de conjuração não deviam usar atributo como as outras, e a validação achou coisa maior que a pergunta.***
+
+**`2 + maestria` e o atributo investido não "crescem no mesmo ritmo": eles são o MESMO NÚMERO, nível por nível.**
+
+| | nv2 | nv6 | nv10 | nv14 | nv18 | nv22 | nv26 | nv30 |
+|---|---|---|---|---|---|---|---|---|
+| `2 + maestria` | 3 | 3 | 4 | 4 | 5 | 5 | 6 | 6 |
+| o atributo investido | 3 | 3 | 4 | 4 | 5 | 5 | 6 | 6 |
+
+**E é isso que proíbe somar os dois.** *A peça 1 §5, a peça 6 §6 e o capítulo 9 do livro dizem, desde a v0.9, que uma habilidade de Caminho pode "trocar o `2` fixo por um atributo" e que **"a troca é neutra em balanço porque os dois crescem igual"**.*
+
+| como ler a frase | o bônus, do nv2 ao nv30 | o que acontece |
+|---|---|---|
+| o `2` sai, a maestria fica → `atributo + maestria` | `4` a `10` | **acerto de `50%` para `70%`**, e o alvo de `65%` para `45%` no TR. **`+15pp` de deriva** |
+| `2 + maestria` inteiro sai → `atributo` | `3` a `6` | idêntico para quem leva o atributo ao teto, **pior para todos os outros e nunca melhor** — entrada morta |
+
+**Ou quebra a regra que governa tudo, ou ninguém pega.** *A frase sobreviveu treze versões porque comparava o par errado: media `2 + maestria` (`+3`) contra `atributo` (`+3`) — mas a troca substitui só o `2`, que cresce `+0`.* **Trocar uma constante por uma coisa que cresce acrescenta o crescimento dela àquele lado.**
+
+> **E existe uma entrega publicada pendurada nisto: o `Estopim`, nível 11 da Trilha `Explosivo`, preçado em `1,18` fatia.** *Ele soma "o seu **atributo de conjuração**" no dano de todo feitiço, e o livro escreve no mesmo capítulo que **"não existe 'atributo de conjuração' na ficha padrão, e nenhum feitiço pede um"**.* **Nenhuma habilidade de Emanador concede a troca** — ela saiu do Caminho no `DESENHO-caminhos.md` e foi para uma Trilha, e a Trilha que a leva é o `Compasso`, que é da Vanguarda e troca o atributo **da arma**. *Três leituras possíveis, três mestres, três respostas.*
+
+### Registrado — a validação da proposta das rolagens, e ela reprova
+
+*A proposta era **todas as rolagens virarem `atributo + maestria`, com a maestria entrando só se treinado**, inclusive nos Testes de Resistência.*
+
+**Primeiro, a premissa: hoje não são dois formatos, são três.** *O acerto físico é `d20 + Força` e `d20 + Destreza`, **sem maestria nenhuma** — e a peça 19 §6 depende disso: empunhar arma sem treino não pode custar bônus de acerto porque não há o que tirar.*
+
+| a rolagem | hoje | a proposta | deriva |
+|---|---|---|---|
+| conjuração contra Defesa | `50%` em todo nível | `55%` → `70%` | **`+15pp`** |
+| acerto físico, se ganhar maestria | `50%` em todo nível | `55%` → `70%` | **`+15pp`** |
+| TR treinado, se o `+2` virar maestria | `65%` em todo nível | `60%` → `75%` | **`+15pp`** |
+| TR **sem** treino, se a CD mudar junto | `55%` em todo nível | `50%` → `35%` | **`−15pp`** |
+
+**A quarta linha decide.** *Só o TR mudando, treinar deixa de valer `10` pontos percentuais fixos e passa a valer `5` no nível 2 e `20` no 30.* **Com a CD mudando junto, o treinado volta a ficar plano e o não-treinado despenca** — e a peça 4 §1 já tinha escrito o nome disso antes de o número existir: *"quem não é treinado ficaria para trás um ponto por vez até virar sentença"*. **Toda ficha tem dois TRs sem treino, e são eles que um chefe escolhe.**
+
+**Existe uma versão que passa, e é a proposta sem a soma: `conjuração = d20 + atributo`, `CD = 10 + atributo`.** *Zero deriva, e zero número mudado para quem leva o atributo ao teto.* **Ela resolveria os dois defeitos acima de uma vez** — todo mundo passaria a ter um atributo de conjuração, o `Estopim` ganharia referente, e a "troca" viraria escolher **qual** atributo, que é atributo por atributo e aí sim é neutra.
+
+**E o motivo de ela não ter sido aplicada: o preço não é do Emanador, é dos outros quatro Caminhos.** *Toda ficha tem Fundamento.*
+
+| o feitiço de um Bastião típico acerta | nv2 | nv10 | nv18 | nv30 |
+|---|---|---|---|---|
+| hoje, com `2 + maestria` | 50% | 50% | 50% | 50% |
+| com atributo, Essência em 0 | 35% | 30% | 25% | **20%** |
+| com atributo, Essência 3 e parada | 50% | 45% | 40% | 35% |
+| com atributo, Essência no teto | 50% | 50% | 50% | 50% |
+
+**Para segurar os `50%` ele precisa de Essência 6 — seis dos `16` a `23` pontos de atributo da campanha inteira.** *Uma ficha enche entre dois e três atributos de cinco; hoje o conjurador precisa de Constituição e do atributo do TR que quer aguentar, e com a troca passa a precisar de três.* **O `2 + maestria` não é conforto do Emanador: é o que faz o Fundamento ser universal em vez de imposto sobre os Caminhos físicos.**
+
+> **Do outro lado, e a pergunta aponta para algo real:** *os cinco atributos governam corpo, defesa, vida, saber e perceber, e **nenhum governa a técnica** — que é a coisa que a ficha inteira existe para ter.* **Um Emanador de Inteligência 0 e Essência 0 conjura exatamente igual a um de Inteligência 6 e Essência 6.** *A escolha é entre técnica universal e técnica que custa ficha, e ela é do Mizuki. **Nada foi aplicado, e o livro não foi mexido.***
+
+### Corrigido — dois validadores com ponto cego, os dois destampados pelas edições desta versão
+
+**O `conferir-legados.py` chamava de Origem qualquer título de nível 3 da peça 9.** *O comentário dizia "os títulos que têm bloco de Legados" e o código não conferia isso — ele excluía **um** título pelo nome, o único que existia em 2026-08.* **Bastou a peça 9 ganhar três subseções para as três virarem "Origem sem lista no catálogo".** *Agora o filtro faz o que a frase diz: é Origem o título cujo bloco carrega a linha de Legados da tabela.* **Três perturbações conferidas em cópia isolada:** *tirar a linha de uma Origem derruba a contagem e acende as checagens 7, 9 e 10; mudar o formato da linha acende a guarda de `SETUP`, que é nova; e acrescentar uma subseção de prosa passa, que é o conserto.*
+
+**O `conferir-nomes.py` não sabia ler `Restrição Própria`.** *O gatilho da checagem 4 lê `Restrição` mais a palavra seguinte e cobra ela na lista de Restrições — e a entrada do manual se chama `Restrição Própria` inteira, então "Própria" nunca ia estar lá.* **Já existia a guarda para `Restrição Celestial`, que é Origem; faltava a mesma guarda para os termos do núcleo do manual.** *Ninguém tinha citado o termo pelo nome em peça nenhuma, então o buraco só apareceu quando a peça 8 citou.* **Perturbação e contra-teste conferidos:** *uma `Restrição Bigorna` inventada continua acendendo, e tirar `Restricao Propria` do núcleo do manual faz a guarda cair — ela não é trivialmente verdadeira.*
+
+*A contagem de checagens não se moveu: continuam `188` em `20` validadores.* **Os dois consertos ampliaram extrator, não criaram bloco.**
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **A decisão que ficou na mesa é a da peça 1 §9** — matar a troca do `2` por um atributo ou mudar a base para `conjuração = d20 + atributo` —, *e ela é a única coisa aberta hoje que já está impressa no livro*. Fora dela, a próxima peça de mecânica continua sendo as três Trilhas do Evocador — `Servo`, `Matilha` e `Coro` —, **paradas por decisão do Mizuki**.
+
+---
+
 ## [0.115] — 21/08/2026
 
 **A versão que caçou três pontos citados em commit e nunca levantados na retomada — e achou três situações diferentes atrás de uma pergunta só.**

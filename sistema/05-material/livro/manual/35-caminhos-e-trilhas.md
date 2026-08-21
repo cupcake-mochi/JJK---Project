@@ -282,7 +282,7 @@ Jogando de `Estocada`, você tem a rodada mais cheia da Vanguarda e a decisão m
 >
 > **Nível 27: `Ferrão`.** Se o feitiço que você conjurou na Ação Padrão **acertou**, o **primeiro** golpe da sua ação bônus carrega um **feitiço de Classe 0** junto. *O Classe 0 acompanha o golpe: se o golpe erra, ele não sai.*
 
-*O `Compasso` também muda a sua ficha fora da luta, porque a partir dele o seu atributo de conjuração é o mesmo que bate. Uma Vanguarda de `Estocada` pode montar personagem com Força baixa e ainda ser perigosa de arma na mão, e isso abre espaço para uma pessoa muito mais interessante socialmente do que o brutamontes de sempre.*
+*O `Compasso` também muda a sua ficha fora da luta, porque a partir dele a arma bate com o mesmo atributo que a sua técnica usa. Uma Vanguarda de `Estocada` pode montar personagem com Força baixa e ainda ser perigosa de arma na mão, e isso abre espaço para uma pessoa muito mais interessante socialmente do que o brutamontes de sempre.*
 
 *O que a Trilha compra é o que a Vanguarda perdia: conjurar gasta a ação padrão, então usar a sua técnica custava todos os ataques da rodada. Aqui não custa mais.*
 
@@ -569,7 +569,7 @@ Jogando de `Explosivo`, quase toda entrega da Trilha melhora a mesma coisa, que 
 
 > **Nível 2: `Pavio`.** Quando o feitiço que você conjura é **o único feitiço de dano daquele turno**, **rerrole todo dado de dano dele que cair em `1` ou `2`.**
 >
-> **Nível 11: `Estopim`.** Todo feitiço seu soma o **seu atributo de conjuração** no dano.
+> **Nível 11: `Estopim`.** Todo feitiço seu soma o **atributo da sua técnica** no dano.
 >
 > **Nível 19: `Rompante`.** Ao conjurar um feitiço que resolve por rolagem de acerto, você pode gastar **`a Classe` dele em PE** para rolar aquele ataque **com vantagem**. *Num Classe 7 são `7` PE, além dos `21` do próprio feitiço.*
 >

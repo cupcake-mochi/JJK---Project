@@ -1,7 +1,7 @@
 # APTIDÕES E DEGRAUS DE REFINO
 
 **Fase 4, décima primeira peça.** O eixo do controle: o que o refino é, o que ele governa, e o que se compra com ele.
-Versão v0.27 — 11/08/2026
+Versão v0.27, com as Bênçãos na v0.116 — 11/08/2026
 
 O `arquitetura.md` chama esta camada de *"o risco maior da estrutura inteira"*, e o motivo está escrito lá: aptidões são uma **segunda economia de poder**, e ela nasceu sem teto. O Fundamento tem orçamento, teto e validador; Barreira Simples, Cortina, Domínio Simples e o resto acontecem em combate e não passam por nenhum deles.
 
@@ -613,6 +613,58 @@ As outras duas quebram nas pontas: com `2 ×` você se defende uma vez e acabou 
 
 > **A aptidão não custa espaço de feitiço, e a `Passiva Própria` do manual custa.** *São duas economias, e a seção 4 já dizia isso.* **Quem quiser a mesma ficção com Classe Passiva 3 tem a `Passiva Própria` do lado do manual, pagando em espaço.** *A porta existe; ela só não é esta.*
 
+## 6.8. As Bênçãos e a Lapidação — e o catálogo não pode espelhar este
+
+*A pergunta está aberta desde a v0.38 e mora no §10 desta peça, em *"O que ainda não foi decidido"*: **o catálogo das Bênçãos espelha o das aptidões entrada por entrada, ou tem lista própria?** A v0.116 foi responder e a contagem respondeu antes de qualquer conta.*
+
+**A Restrição Celestial pelo ramo da Maki não tem energia amaldiçoada — nenhuma, não pouca.** *Então ela não tem aptidão nem refino: tem **Bênçãos** e **Lapidação**, a mesma máquina com outra métrica.* **A regra está na peça 9 §5, onde ela devia estar desde a v0.39.**
+
+### A contagem: treze das catorze morrem, e a que sobra não tem conteúdo
+
+| # | aptidão | o que ela gasta | sobrevive sem energia? |
+|---|---|---|---|
+| 1 | `Cobrir-se de energia` | a energia, no nome | **não** |
+| 2 | `Canalizar energia` | a energia — e é ela que fere maldição | **não** |
+| 3 | `Projetar energia` | idem | **não** |
+| 4 | `Cesta Oca de Vime` | uma esfera de barreira | **não** |
+| 5 | `Domínio Simples` | um domínio próprio | **não** |
+| 6 | `Pétala` | *cobre o corpo de energia*, e é ela que devolve o golpe | **não** |
+| 7 | `Extensão de Domínio` | idem | **não** |
+| 8 | `Barreira Simples` | barreira | **não** |
+| 9 | `Cortina` | barreira | **não** |
+| 10 | `Energia Reversa` | o nome | **não** |
+| 11–13 | `Kokusen` · `Melhorado` · `Constante` | energia aplicada no impacto | **não** |
+| 14 | `Aptidão Própria` | nada — ela é **formato**, e não conteúdo | **sim, e é a única** |
+
+**Uma de catorze, e é a que não diz o que faz.** *Espelhar entrada por entrada nunca foi uma escolha pior: é impossível, e a razão é estrutural — este catálogo inteiro é construído em cima do recurso que aquela Origem não tem.* **A pergunta some, e o que fica no lugar dela é uma lista própria com tamanho derivado.**
+
+*As duas conferidas na fonte, porque as duas pareciam candidatas:* **o kokusen é energia amaldiçoada aplicada no impacto dentro de um milionésimo de segundo, e a `Pétala` cobre o usuário de energia — é a energia que revida, não o corpo.** *A Maki ganha energia amaldiçoada mais tarde na obra, depois da morte da Mai; a Origem daqui modela o estado de energia zero, que é o do Toji do começo ao fim.*
+
+### E metade do buraco já estava tapada, em duas peças que ninguém tinha somado
+
+**As duas gratuitas do refino 1 têm substituto, e nenhum dos dois é uma Bênção.**
+
+| o que a aptidão grátis faz | quem faz por ela |
+|---|---|
+| `canalizar energia` — **ferir maldição** | a **ferramenta amaldiçoada**, peça 16. *A peça 5 §3 já dizia: a Maki "só compete porque a ferramenta carrega a energia por ela"* |
+| `cobrir-se de energia` — **proteção sem equipamento** | o **uniforme**, peça 14. *Aquela peça roda a dominância por três rotas de proteção, e a terceira é literalmente `sem energia nenhuma` — escrita para esta ficha* |
+
+**E as quatro anti-domínio também.** *A peça 16 §6 tem o `Anátema` — "o contato anula técnica amaldiçoada", que é a Lança Invertida do Céu — e o `Quebranto`, que anula um feitiço como Reação.* **O gate delas foi escrito de propósito sem a metade de refino, para não trancar a peça na cara de quem não tem refino nenhum.** *Três peças responderam pedaços desta pergunta em versões diferentes sem que nenhuma delas soubesse que estava respondendo.*
+
+### O tamanho da lista é derivado, e são doze
+
+**Ela não escolhe o próprio tamanho.** *O §3 desta peça fixa que a rota pura de Refino precisa de **dez** aptidões — sete marcos, com os três últimos levando duas —, e o catálogo tem doze que custam marco, com duas de folga.* **A rota pura de Lapidação é a mesma rota com outro nome, então ela pede os mesmos dez.**
+
+> **Doze Bênçãos, todas custando um marco.** *Nenhuma gratuita, porque as duas gratuitas daqui têm dono fora do catálogo.* **Mais a `Bênção Própria`, que é a única entrada que espelha de verdade** — ela é formato, e formato atravessa.
+
+**E o marco perde um dos três eixos, para as duas rotas que não escrevem Fundamento.** *O `Leque` compra `+1 feitiço e uma Passiva`, e as duas coisas são do Fundamento.* **Sobram `Corpo` e `Lapidação`** — e a linha de graça perde o `+1 espaço de feitiço`, que também não tem onde cair. *Isso não tira poder: tira opção.* **O efeito medido é que a rota sem energia é empurrada para a Lapidação mais forte do que uma ficha comum é empurrada para o Refino**, porque ela não tem um segundo eixo de poder para onde ir. *A folga de duas entradas no catálogo continua de pé, e é ela que impede a rota de virar corredor.*
+
+### O que ainda espera a Técnica Marcial, e é só isto
+
+**O conteúdo das doze.** *Elas são o que um corpo sobre-humano faz, e o tamanho de cada uma é a mesma pergunta de magnitude que a peça 16 §2 já registrou como sendo da Técnica Marcial:* ***"o dano por rodada da rota sem energia — magnitude, e ela é peça"***. **Escrever as doze antes dela seria escolher o orçamento da peça que ainda não existe**, que é o erro que o `RASCUNHO-trilhas.md` §3 registra como a única recomendação de método dele: *a régua vem antes do catálogo*.
+
+*O que NÃO espera mais:* **se espelha ou não** (não espelha, e a contagem é o argumento), **quantas são** (doze), **o que as escala** (a Lapidação, `1` a `10`, mesmos degraus do §5), **e o que não precisa entrar** (ferir maldição, proteção e anti-domínio, que já têm dono em outras duas peças).
+
 ## 7. O que faltava, e por que já não falta
 
 
@@ -786,7 +838,7 @@ E os dois **correm em sentidos opostos**: a vantagem é auto-regulada e dá pouc
 > **Destravado na v0.28.** A Expansão tem regra no manual v7.7, então as quatro anti-domínio — Domínio Simples, Pétala, Cesta Oca de Vime e Extensão de Domínio — já podem ser escritas com número. **É a próxima coisa da fila**, e o que elas medem agora existe: Acerto por rolagem na incompleta, Acerto que acontece na completa, barreira de `50 × metade do refino` e duração de `metade do refino` em rodadas.
 
 - **O que cada uma das catorze faz, com número**, e o gate e o teto de refino das que estão marcadas acima.
-- **O catálogo das Bênçãos**, e se ele espelha o das aptidões entrada por entrada ou tem lista própria.
+- ~~**O catálogo das Bênçãos**, e se ele espelha o das aptidões entrada por entrada ou tem lista própria.~~ **RESPONDIDO na v0.116, e está na seção 6.8:** *não espelha, e não por escolha — **treze das catorze aptidões são construídas em cima da energia amaldiçoada**, e a décima quarta é formato.* **Lista própria, doze entradas, todas custando marco.** *O conteúdo delas continua esperando a Técnica Marcial; o tamanho, a métrica e o que fica de fora não esperam mais.*
 - **Como o Acerto e o Efeito se precificam** — a expansão é comprada com espaço de feitiço, e nada diz ainda quanto de cada um cabe por espaço.
 - **A métrica da Aptidão Própria.** O `arquitetura.md` sugere a mesma pergunta do Efeito Próprio — *"em quantas cenas por arco isso importa?"*, com o mesmo "na dúvida, erre para o lado que não infla".
 - **O teto de cada aptidão**, já que nem toda uma usa o refino cheio — o clash de expansões usa, canalizar não.

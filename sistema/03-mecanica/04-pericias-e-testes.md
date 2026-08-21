@@ -14,20 +14,24 @@ Versão v0.12, encurtada na v0.21 — 06/08/2026
 
 Uma frase, sem exceção. Maestria é o que marca o treino — é o número que diz *isto aqui eu faço melhor que os outros*.
 
-### Por que treino funciona aqui diferente do Teste de Resistência
+### Por que o treino é a MESMA coisa nos dois — e por que já não foi
 
-No Teste de Resistência, ser treinado vale **+2 fixo**. Na perícia, vale **maestria**, que cresce. Isso parece inconsistência e não é: **a oposição é diferente.**
+> **Perícia, ofício e Teste de Resistência: treinado soma maestria. Sem treino, só o atributo.**
 
-A CD de uma perícia é fixa pela dificuldade da tarefa. Uma fechadura comum é a mesma fechadura no nível 2 e no 30 — o mundo não cresce junto. Então o treino pode crescer sem quebrar nada, e é justamente aí que o personagem sente que evoluiu.
+*Isso mudou na v0.117, e a decisão anterior está registrada abaixo porque ela era boa e o que a derrubou foi um número, não uma opinião.*
 
-A CD de um Teste de Resistência cresce, porque quem conjura fica melhor. Se o treino também crescesse, quem não é treinado ficaria para trás um ponto por vez até virar sentença — a espiral do d20 que já foi diagnosticada na peça 1. Por isso ali o treino é flat.
+**Até a v0.116 o treino valia `+2` fixo no Teste de Resistência e maestria na perícia**, e o motivo escrito era este: a CD de uma perícia é fixa pela dificuldade da tarefa — uma fechadura comum é a mesma fechadura no nível 2 e no 30 —, enquanto a CD de um Teste de Resistência cresce com quem conjura. *Se o treino também crescesse, quem não treinou ficaria para trás um ponto por vez.*
 
-| | contra o quê | o que o treino soma |
-|---|---|---|
-| Perícia | dificuldade fixa da tarefa | maestria (cresce) |
-| Teste de Resistência | CD que cresce com o conjurador | +2 (fixo) |
+**A frase estava certa e a conclusão inverteu quando a CD passou a crescer `+6`.** *A peça 1 §5.0 tem a conta:* com `CD = 8 + atributo + maestria`, um TR de `atributo + 2` cai de `70%` para `55%` na campanha. **O `+2` fixo deixou de segurar o treinado; ele passou a afundar junto com o não-treinado.**
 
-A regra por trás das duas é a mesma da peça 1: **os dois lados de uma rolagem disputada precisam crescer no mesmo ritmo.** Na perícia, um lado não cresce — então o outro pode.
+| | contra o quê | o que o treino soma | quem fica para trás |
+|---|---|---|---|
+| **Perícia · Ofício** | dificuldade fixa da tarefa | maestria | ninguém — o mundo não cresce |
+| **Teste de Resistência** | CD que cresce `+6` | maestria | **o TR que você não treinou, `−15pp`** |
+
+***Decisão do Mizuki: o não-treinado ficar para trás deixou de ser defeito e virou o preço.*** *Toda ficha treina dois Testes de Resistência de quatro, e os outros dois são o lugar por onde um chefe entra — cada vez mais, conforme a campanha anda.*
+
+**A regra por trás continua sendo a mesma da peça 1: os dois lados de uma rolagem disputada precisam crescer no mesmo ritmo.** *Na perícia, um lado não cresce — então o outro pode crescer sozinho.* **No Teste de Resistência os dois crescem `+6`, e quem não paga o treino sai da igualdade de propósito.**
 
 ## 2. A escada de dificuldade
 

@@ -1,8 +1,66 @@
 # Estado atual do projeto
 
-Atualizado em 21/08/2026, na v0.115 (última peça fechada: **Dano e condições**, ampliada na v0.104 com a penalidade de arma; antes dela, a **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 21/08/2026, na v0.117 (última peça fechada: **Dano e condições**, ampliada na v0.104 com a penalidade de arma; antes dela, a **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.115.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezenove peças escritas** e **dezenove validadores**.
+**Versão v0.117.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezenove peças escritas** e **dezenove validadores**.
+
+> **⚠⚠ E a v0.117 deixa UM encadeamento aberto, achado na revisão cética dela: o repreço do catálogo.** *Três constantes de preço saíam da taxa de acerto que a peça 1 §6 publicava, e as três se moveram:*
+>
+> | constante | era | virou | quem usa |
+> |---|---|---|---|
+> | acertar, um ataque | `50%` | **`55%`** | todo degrau gateado em *"quando você acerta"* |
+> | acertar com dois ataques | `75%` | **`79,75%`** | `1 − (1 − p)²`, e a fatia mede no nível 30 |
+> | o alvo falhar o Teste de Resistência | `45%` | **`35%`** treinado · **`40%` a `55%`** sem treino | todo degrau gateado em TR |
+> | a vantagem | `+25pp` | `+24,75pp` | — **não move nada** |
+>
+> **O tamanho: `+10%` num degrau gateado em acerto simples, `+6,3%` em dois ataques, e `−22%` ou `+22%` num gateado em TR, conforme o modelo de alvo.** *No exemplar medido — o `Derrubado` do nível 11 do `Punho` — a Trilha fica entre `4,82` e `5,07` de `5,00`, contra os `4,94` publicados.* **Cabe na banda, e é por isso que não é urgente; mas o número parou de ser derivado, e isso é o que a lição nº 8 existe para pegar.**
+>
+> **Não foi consertado na v0.117 de propósito:** *são as 89 entradas da peça 17, e repreçar uma só produz um catálogo com dois modelos dentro.* **A fatia NÃO se move** — ela sai de dano evitado, `1` pra `1`, e não da taxa de acerto —, então o repreço é dos degraus e não da régua. ***E a decisão que ele precisa antes de começar: contra qual alvo um degrau gateado em TR se preça — o que treinou aquele TR ou o que não treinou.*** *O arredondamento do projeto — "o que você ganha desce" — aponta para o treinado, que é `35%`.*
+
+**A v0.116 fechou as três pendências que a v0.115 levantou, e as três fecharam por medida em vez de por decisão.** *O gate Origem × Caminho não era gate; o catálogo das Bênçãos não podia espelhar; e a regra de Pactos já tinha três quartos escritos, no manual.* **E a pergunta do Mizuki sobre as rolagens de conjuração destampou uma frase errada que estava em três documentos desde a v0.9.**
+
+**A v0.117 refez a base de acerto do sistema, e o que a destravou foi uma observação de mesa do Mizuki:** *"a Defesa vai estar chegando em picos de 20-22"*. **Ele está certo, e a peça 1 media contra um alvo de Defesa 17.**
+
+> **⚠⚠ O acerto derivava `−15pp` na campanha, e nenhum validador via.** *A peça 11 §6 diz que a proteção de cobrir-se é `1/3 do refino + 1`, e a peça 14 §3 deriva o teto de Defesa em `20` somando os `4` dela no refino `10`.* **O `conferir-atributos.py` segurava a proteção em `1` — o valor do nível 2 — desde a v0.8.** *Com o alvo certo, a Defesa cresce `+6` na campanha (Destreza `+3`, proteção `+3`) e o acerto crescia `+3`: `50%` no nível 2 e `35%` no 30.*
+>
+> **É a lição nº 1 pela terceira vez, e a própria peça denunciava:** *o §7 dela lista "atributo, **proteção**, equipamento" como o que tem de entrar no teste.* **O conserto da v0.8 trouxe o atributo e parou ali.** *Uma frase certa ao lado de um teste que não a obedece sobrevive muito mais que uma frase errada.*
+
+***Decisão do Mizuki, e a conta fecha nas duas metades:***
+
+| | antes | agora |
+|---|---|---|
+| ataque corpo a corpo | `d20 + Força` | **`d20 + Força + maestria`** |
+| ataque à distância | `d20 + Destreza` | **`d20 + Destreza + maestria`** |
+| ataque de conjuração | `d20 + 2 + maestria` | **`d20 + atributo da técnica + maestria`** |
+| CD de feitiço | `10 + 2 + maestria` | **`8 + atributo da técnica + maestria`** |
+| Teste de Resistência | `d20 + atributo (+2 se treinado)` | **`d20 + atributo + maestria`**, e a maestria só se treinado |
+
+**A maestria virou a marca do treino, e ela aparece dos dois lados de cada rolagem.** *No acerto, o `+6` do alvo é involuntário — a proteção sobe sozinha na linha de graça do marco. Na CD, o `+6` do alvo é comprado: a maestria só entra no Teste de Resistência que a ficha treinou.*
+
+> **O `8` da CD não é escolha de gosto: ele É a chance de quem treinou.** *`8 + atributo + maestria` contra `d20 + atributo + maestria` deixa exatamente `8` no dado, e `d20 ≥ 8` é `65%` — o mesmo que o `+2` fixo entregava.* **Quem treinou resiste hoje o que resistia antes; a mudança inteira caiu no TR que ninguém treinou**, que sai de `55%` plano para `60% → 45%`.
+
+***Decisão do Mizuki: isso é o preço de não treinar, e é para doer.*** *Toda ficha treina dois Testes de Resistência de quatro, e os outros dois viram o lugar por onde um chefe entra — cada vez mais, conforme a campanha anda.* **E vale para arma também: sem treino você não soma a maestria E rola com desvantagem.**
+
+> **Buff plano não deriva, e é isso que responde à observação sobre escudo e feitiço de Defesa.** *Um `+1` de escudo vale `+1` no nível 2 e `+1` no 30 — mesmo com `+4` por cima, o topo do que existe, a deriva continua `0` e o acerto só cai de `55%` para `35%` em todo nível.* **Buff plano é calibragem de quanto um acerto vale; só a proteção de cobrir-se cresce, e foi ela que puxou a maestria.**
+
+**A técnica declara um atributo na criação — qualquer um dos cinco — e ele não muda.** *Com isso o `2 + maestria` morreu, a "troca do `2` por um atributo" deixou de existir como mecanismo, e o `Estopim` do `Explosivo` ganhou referente de graça.* **O acerto passa a ser `55%` do nível 2 ao 30, com uma oscilação irredutível de `5pp` no meio** — a proteção sobe a cada quatro níveis e a maestria a cada oito.
+
+> **⚠ Declarado e mandado para o playtest: Constituição é a escolha ótima de técnica de quem só conjura.** *Todo Caminho tem um atributo que já faz dois trabalhos, mas o segundo trabalho da Constituição vale para todo mundo.* **Não quebra número — o acerto continua em `55%` —, mas apaga a cor da escolha.**
+
+> **⚠⚠ E a v0.117 deixa UM encadeamento aberto, achado na revisão cética dela: o repreço do catálogo.** *Três constantes de preço saíam da taxa de acerto que a peça 1 §6 publicava, e as três se moveram:*
+>
+> | constante | era | virou | quem usa |
+> |---|---|---|---|
+> | acertar, um ataque | `50%` | **`55%`** | todo degrau gateado em *"quando você acerta"* |
+> | acertar com dois ataques | `75%` | **`79,75%`** | `1 − (1 − p)²`, e a fatia mede no nível 30 |
+> | o alvo falhar o Teste de Resistência | `45%` | **`35%`** treinado · **`40%` a `55%`** sem treino | todo degrau gateado em TR |
+> | a vantagem | `+25pp` | `+24,75pp` | — **não move nada** |
+>
+> **O tamanho: `+10%` num degrau gateado em acerto simples, `+6,3%` em dois ataques, e `−22%` ou `+22%` num gateado em TR, conforme o modelo de alvo.** *No exemplar medido — o `Derrubado` do nível 11 do `Punho` — a Trilha fica entre `4,82` e `5,07` de `5,00`, contra os `4,94` publicados.* **Cabe na banda, e é por isso que não é urgente; mas o número parou de ser derivado, e isso é o que a lição nº 8 existe para pegar.**
+>
+> **Não foi consertado na v0.117 de propósito:** *são as 89 entradas da peça 17, e repreçar uma só produz um catálogo com dois modelos dentro.* **A fatia NÃO se move** — ela sai de dano evitado, `1` pra `1`, e não da taxa de acerto —, então o repreço é dos degraus e não da régua. ***E a decisão que ele precisa antes de começar: contra qual alvo um degrau gateado em TR se preça — o que treinou aquele TR ou o que não treinou.*** *O arredondamento do projeto — "o que você ganha desce" — aponta para o treinado, que é `35%`.*
+
+**A v0.116 fechou as três pendências que a v0.115 levantou, e as três fecharam por medida em vez de por decisão.** *O gate Origem × Caminho não era gate; o catálogo das Bênçãos não podia espelhar; e a regra de Pactos já tinha três quartos escritos, no manual.*
 
 **A v0.114 pôs `livro/` no recorte da checagem 7** — *o `.pdf` publicado podia envelhecer sem ninguém acusar, e foi o que aconteceu na v0.112.* **O recorte foi de 29 para 31 arquivos; a contagem de checagens não mudou.**
 
@@ -234,15 +292,15 @@ As duas guardam **procedimento e nunca conteúdo** — apontam para o `README.md
 **Quatro Testes de Resistência:** Físico (Força ou Destreza, travado na criação), Vigor (Constituição), Intelecto (Inteligência), Espírito (Essência).
 
 ```
-Ataque corpo a corpo = d20 + Força
-Ataque à distância   = d20 + Destreza
-Ataque de conjuração = d20 + 2 + maestria
+Ataque corpo a corpo = d20 + Força + maestria
+Ataque à distância   = d20 + Destreza + maestria
+Ataque de conjuração = d20 + atributo da técnica + maestria
 Defesa               = 10 + Destreza + proteção
 Pontos de vida       = (inicial do Caminho + Con) + (por nível do Caminho + Con) × (nv − 1)
 Pontos de energia    = PE por nível do Caminho × nível   (sem atributo, sem inicial)
 Integridade          = 20 + 8 × (nível − 1)   (plana — sem Caminho, sem Constituição)
-CD de feitiço        = 10 + 2 + maestria
-Teste de Resistência = d20 + atributo do TR (+2 se treinado)
+CD de feitiço        = 8 + atributo da técnica + maestria
+Teste de Resistência = d20 + atributo do TR + maestria (só se treinado)
 Perícia              = d20 + atributo + maestria (só se treinado)
 Crítico              = 20 natural, e dobra os dados (só onde há rolagem de acerto)
 Ofício               = d20 + o atributo que a situação pede + maestria (só se treinado)
@@ -501,15 +559,27 @@ Isso é a camada de aptidão da **Técnica Marcial**, que o material já descrev
 
 ### A Expansão de Domínio, escrita — manual v7.7
 
-### Três pendências mencionadas em commit e não levantadas aqui — achadas na v0.115
+### Três pendências mencionadas em commit — levantadas na v0.115, FECHADAS na v0.116
 
-*O Mizuki pediu para verificar três pontos que sabia terem sido citados em versões passadas, sem aparecer nesta lista de retomada. Os três são reais, e são três situações diferentes.*
+*O Mizuki pediu para verificar três pontos que sabia terem sido citados em versões passadas sem aparecer nesta lista. A v0.115 achou os três; a v0.116 fechou os três, e **nenhum deles fechou por decisão de sabor** — os três tinham resposta em conta ou em contagem.*
 
-**As Bênçãos e a Lapidação — pendência já registrada, na peça errada de se procurar.** A Restrição Celestial pelo ramo da Maki não tem energia, então aptidão e refino viram **Bênçãos** e **Lapidação**, decidido na v0.38 e aplicado na peça 9 na v0.39. *O que falta está escrito, só que na seção "O que ainda não foi decidido" da **peça 11** (`11-aptidoes-e-refino.md`), não aqui:* **o catálogo das Bênçãos, e se ele espelha o das aptidões entrada por entrada ou tem lista própria.** Depende da mesma máquina de Técnica Marcial que trava as outras duas rotas.
+**1 · As Bênçãos — não espelham, e não é escolha.** *A pergunta era se o catálogo das Bênçãos copia o das aptidões entrada por entrada ou tem lista própria.* **Das catorze aptidões, treze são construídas em cima da energia amaldiçoada e a décima quarta é formato e não conteúdo** — só a `Aptidão Própria` atravessa. *A contagem está na **peça 11 §6.8**, com o kokusen e a `Pétala` conferidos na fonte.* **Lista própria, doze entradas, todas custando um marco**, e o tamanho é derivado: a rota pura de Lapidação precisa de dez, igual à de Refino.
 
-**Pactos — pendência já registrada, marcada `Provisório` na própria peça.** A peça 8 (`08-criacao-de-personagem.md`), Passo 8: *"A regra completa de Pactos ainda não foi escrita. Até lá, pacto na criação só entra com aprovação do mestre e com o preço escrito na ficha."* Mesma trava da Regra de técnica — frase verificável, simétrica, sem dano direto, com limite —, e nada além disso existe hoje.
+> **E metade do buraco já estava tapada, em duas peças que ninguém tinha somado.** *`canalizar energia` — ferir maldição — é a **ferramenta amaldiçoada** da peça 16; `cobrir-se de energia` é o **uniforme** da peça 14, que já roda a dominância por uma rota chamada literalmente `sem energia nenhuma`; e as quatro anti-domínio são o `Anátema` e o `Quebranto`, também da peça 16.* **Três peças responderam pedaços desta pergunta em versões diferentes sem saber.**
 
-> **⚠ Achado novo, sem registro em nenhuma peça: nada trava Origem sem PE de escolher Caminho construído em PE.** *A peça 6 (Caminhos) não cita Origem nenhuma; a peça 9 não cita Caminho nenhum — a checagem entre as duas simplesmente não existe.* **O caso afiado é a Restrição Celestial pelo ramo da Maki e do Toji com o Emanador:** a Origem diz "sem PE", zero absoluto, e o Emanador entrega `PE por nível: 6` como número que cresce todo nível — **contradição de regra**, não desperdício de escolha. *O caso brando é Sem Técnica com o Emanador: mantém PE, mas sem Fundamento, e o kit inteiro do Emanador (`Sangria`, `Resquício`, `Modelagem`, `Fonte`, `Acelerar`, `Vazão`, `Cheia`, `Transbordo`) é construído em cima de feitiço — não quebra, só não tem onde gastar.* **Registrado na peça 9 §8, `Em aberto`.** Falta decidir o formato do gate — global, por Caminho, veto ou só desaconselhado — e se ele espera a Técnica Marcial ou pode fechar antes.
+> **⚠ E a decisão da v0.38 nunca tinha sido aplicada.** *Este documento dizia "aplicado na peça 9 na v0.39"; o que a v0.39 aplicou foi a outra metade, a do Corpo Amaldiçoado.* **As palavras `Bênção` e `Lapidação` não existiam em peça nenhuma.** *Agora existem, na peça 9 §5, com a escada de Lapidação `1` a `10` e os degraus herdados da peça 11 §5.*
+
+**2 · Pactos — três das quatro formas já tinham dono, e o dono é o manual.** *A peça 8 Passo 8 prometia "a regra completa" desde a v0.21.* **`Restrição` cobre "a minha técnica fica maior sob uma condição"; `Regra Própria` cobre "a minha técnica impõe uma regra ao mundo" — e o manual escreve `contrato` e `dívida` com essas palavras, com um exemplo pronto de Dívida; `Legado` cobre "eu troquei uma coisa antes da campanha".** *Sobra uma: **pacto entre dois personagens, fechado durante o jogo**, que é a forma que atravessa mesas e por isso a mais perigosa.*
+
+> **⚠ E a trava que estava escrita ali era cópia.** *Os cinco requisitos — "uma frase, verificável, simétrica, sem dano direto, com limite" — **são a lista da `Regra Própria` do manual**, na ordem.* **E já tinha divergido em uma palavra: a do manual diz "com limite POR CENA".** *A peça 8 passou a apontar em vez de repetir, e ficaram escritas as quatro travas de projeto que qualquer régua futura tem de obedecer.*
+
+**3 · O gate Origem × Caminho — não era gate.** *A pergunta era "veto ou desaconselhado, e espera a Técnica Marcial ou fecha antes".* **As duas metades caíram na medição.** *Não existe Caminho barato em PE — os cinco entregam, e o menor é o `4` do Bastião —, então a contradição é com os cinco e não com o Emanador.* **E o que quebra tem dono e validador: com a coluna de PE valendo zero, a soma `vida + PE` da peça 6 §5 vai de `10`–`11` para `7 · 5 · 5 · 4 · 4`** — espalhamento `3` contra a tolerância `2` do `conferir-atributos.py`, e o Bastião passa a entregar `1,75×` o Emanador na única moeda que ainda paga.
+
+> **A saída é a quarta, e não estava na pergunta: a coluna não some, ela troca de moeda.** *Quem não tem energia gasta o mesmo número por nível na máquina da Técnica Marcial.* **A soma volta a `10` e `11`, os cinco Caminhos continuam abertos, e não há o que vetar.** *E fecha ANTES da Técnica Marcial porque é contrato SOBRE ela — o molde do teto de Defesa da peça 14 §3, em que ninguém escreve o número e a peça que chega depois obedece.*
+>
+> **As três saídas que a pergunta oferecia reprovaram, e estão medidas na peça 9 §8.** *Veto por Caminho passa raspando e custa dois dos cinco Caminhos; veto global é pior; e "desaconselhar" é o problema de design nº 3 e nº 5 desta lista, os dois abertos pelo mesmo motivo.*
+>
+> **A peça 6 e a peça 9 passaram a se citar.** *Era esse o buraco: nenhuma das duas mencionava a outra, então a combinação nunca tinha sido conferida.*
 
 *Decidido depois da v0.26.* Ela **não é aptidão** e não mora nesta peça: mora no manual, no molde de uma Passiva, **comprada trocando espaços de feitiço conhecido**, com gate duplo de nível e refino, em dois degraus.
 
@@ -587,7 +657,8 @@ Nenhum validador pega estes — eles vieram de rodar os testes da skill de desig
    >
    > **⚠ Este item ficou nove versões escrito como aberto depois de fechar**, contradizendo a linha de abertura deste mesmo arquivo, que desde a v0.89 diz que ele era *"o único problema de design que tinha sobrado"*. *Achado na v0.98, e é a lição de que decisão registrada não é decisão aplicada — desta vez aplicada à lista que registra as decisões.*
 
-5. **"O mestre declara o que foi uma luta" é discricionariedade que vira número.** *Aceito de propósito na v0.26*, e é a única coisa da peça 10 sem lista fechada por baixo — a declaração muda quantos degraus de exaustão o grupo acumula, e isso muda quanto PE o respiro devolve. A aposta é que ninguém está em melhor posição de dizer se aquilo foi uma luta do que quem acabou de dirigir a cena. Se dois mestres divergirem no playtest, o conserto é o do ambiente propício: fechar a lista.
+5. ~~**⚠⚠ A troca do `2` fixo por um atributo não tem versão que funcione.**~~ **FECHADO na v0.117**, e não pelo lado que a pergunta esperava: *o `2` morreu junto com o mecanismo, e o acerto passou a levar maestria para acompanhar a proteção que cresce do outro lado.* **O `Estopim` do `Explosivo` ganhou referente sem ninguém mexer no preço dele.**
+6. **"O mestre declara o que foi uma luta" é discricionariedade que vira número.** *Aceito de propósito na v0.26*, e é a única coisa da peça 10 sem lista fechada por baixo — a declaração muda quantos degraus de exaustão o grupo acumula, e isso muda quanto PE o respiro devolve. A aposta é que ninguém está em melhor posição de dizer se aquilo foi uma luta do que quem acabou de dirigir a cena. Se dois mestres divergirem no playtest, o conserto é o do ambiente propício: fechar a lista.
 
 *Resolvidos na v0.26:* os **três buracos de regra** que estavam aqui — a fórmula do PE máximo (ela já estava no manual, na tabela de "quantas vezes você lança o seu melhor feitiço"), o arredondamento e o que conta como luta. E o **tamanho dos degraus de exaustão**: a escada nunca esteve desordenada, ela é ordenada por **consequência**, e o degrau 1 e o degrau 3 valem exatamente os mesmos −25 pp porque os dois são desvantagem. O que estava errado era o texto prometer "leve"; o `conferir-descanso.py` agora confere magnitude.
 
@@ -619,7 +690,7 @@ Vale ter isso à mão, porque o material é grande e engana. *Medido na v0.33, e
 | o que falta | por que não trava uma missão de nível 2 |
 |---|---|
 | ~~Tabela de proteção~~ | **fechada na v0.48**, na peça 14: Traje e Revestimento com três degraus cada, e escudo com três |
-| Regra de Pactos | é opcional na criação |
+| Regra de Pactos | é opcional na criação — e desde a v0.116 ela é **uma forma só**: pacto entre dois personagens, fechado em jogo. As outras três têm dono no manual e na peça 13 |
 | Trilhas com número | a Trilha é escolhida no nível 2, mas o que ela entrega chega depois |
 | ~~Aptidões e degraus de refino~~ | **fechada na v0.27**, na peça 11 — e as quatro anti-domínio na v0.29. *Continuam valendo só do nível 6 em diante* |
 
@@ -868,7 +939,7 @@ As duas são economias de poder novas, e construir a quarta e a quinta antes de 
 | **Objeto amaldiçoado** | **a maldição presa em forma de objeto** — não é item imbuído de energia: *é* a coisa. Resto de feiticeiro antigo, que encarna quando um receptáculo compatível o consome. *Entrou na lista na v0.49, escondido dentro da palavra "ferramenta".* **Duas Origens inteiras são construídas em cima dele** — Receptáculo é comer um dedo, Reencarnado é ter virado um |
 | **Ferramenta amaldiçoada** | **arma forjada para canalizar energia**, com graus, que até quem não é feiticeiro consegue usar. Prometida desde a peça 5 §5 e declinada pela peça 14 §8 item 2, que a mandou para tópico próprio *"com graus e forja"*. **É o único jeito de ferir maldição sem energia própria** — a Maki e o Toji |
 | **Dano de alma, com Essência na Integridade** | já decidido, não aplicado |
-| **Pactos** | a camada mais perigosa de escrever solta |
+| **Pactos** | a camada mais perigosa de escrever solta — e desde a v0.116 ela é **um quarto do que parecia**: só o pacto entre dois personagens fechado em jogo, com as quatro travas de projeto já escritas na peça 8, Passo 8 |
 | **Bestiário** | sai da matemática de inimigo que o manual já tem |
 
 ~~E uma coisa solta que não é peça: o nome do sistema.~~ **Batizado na v0.94: `Projeto - M`.** *Era a pendência mais velha do projeto — aberta na v0.1 e fechada 93 versões depois.*
@@ -887,7 +958,7 @@ As duas são economias de poder novas, e construir a quarta e a quinta antes de 
 
 | falta | como se contorna |
 |---|---|
-| Regra de Pactos | pacto na criação só com aprovação do mestre e preço escrito na ficha |
+| Regra de Pactos | **na criação ele não entra** — quem quiser começar com um usa a `Regra Própria` do manual ou um `Legado` da peça 13, que é onde essa ficção já mora. *Recorte fechado na v0.116* |
 | ~~Tabela de proteção~~ | **fechada na v0.48**, na peça 14. A ficha continua nascendo com a proteção 1 de cobrir-se; o que mudou é que agora existe o que vestir por cima, e o escudo **soma** em vez de desligar |
 | Trilhas com número | a Trilha é escolhida na criação, junto do Caminho. O que ela entrega é a peça de Trilhas |
 

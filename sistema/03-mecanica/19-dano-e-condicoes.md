@@ -136,10 +136,14 @@
 | portão | taxa | dono |
 |---|---|---|
 | você acertou, com dois ataques no nível 30 | `75%` | é o mesmo gate do `Engate`, na mesma Trilha |
-| o alvo falhou o Teste de Resistência | `45%` | peça 1 §6 |
+| o alvo falhou o Teste de Resistência | `45%` ⚠ | peça 1 §6 — **e o dono mudou na v0.117** |
 | **juntos** | **`33,8%`** | |
 
 **Com os portões o degrau vale `2,85` de dano por rodada, que é `0,56` fatia — e não `1,71`.**
+
+> **⚠⚠ Os dois portões desta tabela deixaram de ter dono na v0.117, e o número não foi refeito.** *O `45%` era a falha de um Teste de Resistência plano de `55%`; hoje o TR **treinado** falha `35%` e o **sem treino** falha `40%` no nível 2 e `55%` no 30.* **E o `75%` é `1 − (1 − 0,50)²`, com o acerto de `50%` que a peça 1 §6 publicava; ele hoje é `55%`, então dois ataques dão `79,75%`.**
+>
+> *Refazer esta conta muda o `Punho`:* **`0,44` fatia lendo o TR treinado, `0,69` lendo o sem treino, contra os `0,56` publicados.** *As três cabem na banda — o `Punho` fica entre `4,82` e `5,07` de `5,00` —, mas o número parou de ser derivado.* **Não foi mexido aqui de propósito: ele é um de oitenta e nove, e consertar um só produz um catálogo com dois modelos dentro.** *O escopo está registrado no `ESTADO-ATUAL`.*
 
 | o `Punho`, de `5,00` fatias | |
 |---|---|
@@ -339,7 +343,11 @@
 
 **A regra do requisito é a mesma do d20 de 2024, e nem o número mudou.** *Lá ela é de proteção: "se a tabela mostra um valor de Força na coluna Força, aquela proteção reduz o deslocamento de quem a veste em `10` pés, a menos que ele tenha Força igual ou maior".* **`10` pés são `0,3048 × 10` = `3,05 m`, e esta peça anda em `1,5 m`** — os `3 m` são o mesmo passo, não um arredondamento generoso. *E o requisito de Força de arma desta peça já existe desde a v0.47, na peça 14 §5.5, gateando `d10` e `d12` no corpo a corpo.*
 
-**A do treino não atravessa, e o motivo é estrutural.** *No d20, usar arma sem treino tira o bônus de proficiência da rolagem de ataque.* **Aqui a rolagem de ataque não tem esse termo:** a peça 1 §3 escreve `Ataque corpo a corpo = d20 + Força` e `Ataque à distância = d20 + Destreza`, e a maestria só entra em perícia e em conjuração. *Não há o que tirar.*
+**A do treino não atravessava quando esta seção foi escrita, e passou a atravessar na v0.117.** *No d20, usar arma sem treino tira o bônus de proficiência da rolagem de ataque.* **Naquela época a rolagem daqui não tinha esse termo** — a peça 1 escrevia `Ataque corpo a corpo = d20 + Força`, e a maestria só entrava em perícia e em conjuração.
+
+> ***Decisão do Mizuki na v0.117: as duas valem, e é para doer.*** **Sem treino você não soma a maestria E rola com desvantagem.**
+>
+> *Medido, as duas cobram coisas diferentes:* **a desvantagem custa `25` pontos percentuais em todo nível; perder a maestria custa `5pp` no nível 2 e `20pp` no 30.** *A primeira é plana e a segunda cresce — juntas, empunhar sem treino fica pior a cada nível, que é exatamente o que se quer de uma porta fechada.*
 
 **O que existe é desvantagem, e ela foi medida antes de ser escolhida:**
 

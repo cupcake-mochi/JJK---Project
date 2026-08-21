@@ -47,12 +47,12 @@ físico: as duas mãos precisam se tocar antes de qualquer feitiço sair.
 | **PE** | 8 |
 | **Defesa** | 13 |
 | **Iniciativa** | `d20 + 2` |
-| **Ataque corpo a corpo (soco)** | `d20 + 3`, dano `d4 + 3` |
-| **Ataque de conjuração** | `d20 + 3` |
-| **CD dos feitiços dela** | 13 |
+| **Ataque corpo a corpo (soco)** | `d20 + 4`, dano `d4 + 3` |
+| **Ataque de conjuração** | `d20 + 4` — a técnica dela usa **Força** |
+| **CD dos feitiços dela** | 12 |
 
 > **`Peso nas Mãos`** · Classe 1 · Toque
-> Ela toca o alvo com as duas mãos. **`d20 + 3` contra a Defesa dele.** Acertando: **3d8 de
+> Ela toca o alvo com as duas mãos. **`d20 + 4` contra a Defesa dele.** Acertando: **3d8 de
 > dano de concussão**, e o alvo fica `Derrubado` (condição).
 
 > **`Corpo Duro`** · Reação, do Caminho Bastião
@@ -89,8 +89,8 @@ zero. *Isto é o `Corpo Duro` funcionando: ele não evita o golpe, evita o estra
 - **Gastar a Ação Bônus em `Alicerce`.** Se ela sabe que a luta vai continuar, plantar os
   pés agora corta o próximo golpe `Cortante` pela metade — e a maldição ataca com garra.
 - **Gastar a Ação Padrão em `Peso nas Mãos`.** Precisa estar a `1,5 m`: ela anda até lá com
-  o movimento e toca. Rola `d20 + 3` contra a Defesa 12 da maldição: tira 12, soma 3, fica
-  15. Acertou. `3d8` de dano: sai 14. **A maldição, com 14 de vida, cai.**
+  o movimento e toca. Rola `d20 + 4` contra a Defesa 12 da maldição: tira 12, soma 4, fica
+  16. Acertou. `3d8` de dano: sai 14. **A maldição, com 14 de vida, cai.**
 - **Recuar e negociar.** Nem toda cena precisa terminar em dano. Se o grupo tiver outra
   ideia, ela vale tanto quanto as duas de cima.
 

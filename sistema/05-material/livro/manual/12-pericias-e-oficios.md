@@ -202,4 +202,4 @@ Além dessas duas, você escolhe um extra: um ofício livre, ou mais uma períci
 
 ### Testes de Resistência
 
-A Origem treina um Teste de Resistência, o Caminho treina outro. Ser treinado num Teste de Resistência vale **+2 fixo**, e a lista dos quatro está no capítulo 1, *Como Jogar*.
+A Origem treina um Teste de Resistência, o Caminho treina outro. Ser treinado num Teste de Resistência vale **a maestria**, igual à perícia e ao ofício, e a lista dos quatro está no capítulo 1, *Como Jogar*.

@@ -1,7 +1,7 @@
 # DE ONDE VEM O NÚMERO
 
 **Fase 4, primeira peça.** Atributos, maestria, rolagem de acerto, defesa e Testes de Resistência.
-Versão v0.9, ampliada até a v0.19, corrigida na v0.24, com crítico na v0.25 e com PE máximo e arredondamento na v0.26 — 10/08/2026
+Versão v0.9, ampliada até a v0.19, corrigida na v0.24, com crítico na v0.25, com PE máximo e arredondamento na v0.26, e com a base de acerto refeita na v0.117 — 10/08/2026
 
 > **Três mudanças posteriores vivem aqui.** Os **pontos de vida** ganharam fórmula na v0.17 e passaram a variar por Caminho na v0.19 (seção 5.1) — até então Constituição não tinha número nenhum. E desde a v0.16, **Inteligência sabe e Essência percebe**: Sentir Energia e Percepção mudaram de atributo, o inverso do que a v0.8 tinha decidido.
 
@@ -73,30 +73,116 @@ Como o TR Físico usa o melhor de dois, ele fica acima dos outros três. O perso
 ```
 Maestria             = 1, +1 a cada 8 níveis
 
-Ataque corpo a corpo = d20 + Força
-Ataque à distância   = d20 + Destreza
-Ataque de conjuração = d20 + 2 + maestria
+Ataque corpo a corpo = d20 + Força + maestria
+Ataque à distância   = d20 + Destreza + maestria
+Ataque de conjuração = d20 + atributo da técnica + maestria
 Defesa               = 10 + Destreza + proteção
 Pontos de vida       = (vida inicial do Caminho + Constituição)
                        + (vida por nível do Caminho + Constituição) × (nível − 1)
 Pontos de energia    = PE por nível do Caminho × nível   (sem atributo, sem valor inicial)
 Integridade          = 20 + 8 × (nível − 1)      (plana, sem Caminho e sem Constituição)
-CD de feitiço        = 10 + 2 + maestria      (o mesmo bônus do ataque de conjuração)
-Teste de Resistência = d20 + atributo do TR (+2 se treinado)
+CD de feitiço        = 8 + atributo da técnica + maestria
+Teste de Resistência = d20 + atributo do TR + maestria   (a maestria só entra se treinado)
 Perícia              = d20 + atributo + maestria   (a maestria só entra se treinado)
 ```
 
-**Nenhum número aparece dos dois lados da mesma rolagem.** Maestria está no ataque de conjuração, na CD e nas perícias. Não está na defesa, não está no Teste de Resistência. Não há valor que se anule — era essa a objeção, e ela some quando o ritmo é corrigido.
+**A maestria é a marca do treino, e ela só aparece onde você treinou** — nas três rolagens de acerto, nas perícias, nos ofícios e no Teste de Resistência que a sua ficha treinou. *Ela não está na Defesa, que é passiva.*
 
-O **2 + maestria** existe por um motivo específico: substituir um atributo. O guerreiro soma Força; o conjurador soma um valor que cresce no mesmo ritmo de um atributo **sem exigir que ele invista num atributo específico**. É o que permite espalhar a ficha sem que a técnica fique para trás.
+> **A técnica declara um atributo, na criação, e ele não muda.** *Qualquer um dos cinco.* **É esse atributo que entra no acerto de conjuração e na CD dos seus feitiços** — o feiticeiro que conjura pela Força existe, e ele é o molde do Todo.
 
-O 2 não é escolha de gosto: é o número que faz `2 + maestria` valer exatamente o mesmo que um atributo investido, do nível 2 ao 30. Com 5, o conjurador acertava 15 pontos percentuais a mais que o guerreiro a campanha inteira — o que seria dar de graça, já que o dano dele já vem do orçamento do feitiço.
+### 5.0 A maestria é a marca do treino, e ela aparece dos dois lados de cada rolagem
 
-Uma habilidade de Caminho pode **trocar o 2 fixo por um atributo** — é assim que nasce o feiticeiro que conjura pela Força, no molde do Todo. A troca é neutra em balanço porque os dois crescem igual.
+*Escrito na v0.117, e ele é o conserto de uma deriva que estava viva e que nenhum validador via.*
 
-**Proteção** é o que você veste ou o que você cobre. Cobrir-se de energia amaldiçoada dá proteção sem equipamento — por isso é aptidão básica de todo feiticeiro. Como no d20 clássico, uniforme pesado pode limitar quanta Destreza entra na Defesa, o que dá um teto útil sem precisar de regra nova.
+**Uma rolagem disputada tem duas fichas, e a maestria entra na de quem treinou — nos dois papéis.**
 
-Defesa evita ser acertado; **Redução de Dano reduz o que passou**. O Fundamento já usa RD na Melhoria Fura.
+| | quem rola | contra o quê | o que cresce de cada lado |
+|---|---|---|---|
+| **acerto** | atacante: `atributo + maestria` | a **Defesa** | Destreza `+3` **e a proteção, que vai de `1` a `4`** |
+| **CD** | a sua CD: `8 + atributo + maestria` | o **Teste de Resistência** | atributo `+3` **e a maestria de quem treinou** |
+
+**Os dois lados crescem `+6` nas duas rolagens, e é isso que faz a chance não derivar.**
+
+*Do lado do acerto, o `+6` do alvo é involuntário:* **a proteção de cobrir-se é `1/3 do refino + 1` (peça 11 §6), e o refino sobe sozinho na linha de graça do marco.** *Ninguém escolhe — todo mundo chega lá.*
+
+*Do lado da CD, o `+6` do alvo é comprado:* **a maestria só entra no Teste de Resistência que a ficha treinou**, e cada ficha treina dois de quatro. **Nos outros dois ela cresce `+3` contra uma CD que cresce `+6`, e cai `15` pontos percentuais na campanha.**
+
+> ***Decisão do Mizuki na v0.117: isso é o preço de não treinar, e é para doer.*** *O TR que você treinou fica plano; o que você não treinou vira o lugar por onde um chefe entra, e vira mais a cada nível.*
+
+### O `8` da CD não é escolha de gosto: ele É a chance de quem treinou
+
+**`8 + atributo + maestria` contra `d20 + atributo + maestria` deixa exatamente `8` no dado.** *E `d20 ≥ 8` é `65%`.*
+
+| | nv2 | nv10 | nv18 | nv26 | nv30 | deriva |
+|---|---|---|---|---|---|---|
+| **treinado** — hoje e antes da v0.117 | 65% | 65% | 65% | 65% | **65%** | **`0`** |
+| **sem treino** — era `55%` plano | 60% | 55% | 50% | 45% | **45%** | **`−15pp`** |
+
+**Quem treinou resiste hoje exatamente o que resistia ontem.** *O `+2` fixo entregava `65%` e a maestria entrega `65%`, e a mudança inteira caiu no TR que ninguém treinou.* **Com base `10` o não-treinado terminaria em `35%`; o `8` é o que segura ele em `45%`, que ainda é moeda no ar.**
+
+### Buff plano não deriva, e é por isso que só a proteção puxou a maestria
+
+*O Mizuki levantou que escudo, feitiço e habilidade vão subir a Defesa, e que isso tem de entrar na conta.* **Entra, e a conta diz que eles mudam o nível e não a inclinação:**
+
+| Defesa do alvo difícil | nv2 | nv10 | nv18 | nv30 | deriva |
+|---|---|---|---|---|---|
+| sem nada por cima | 55% | 55% | 55% | 55% | `0` |
+| `+1` de escudo | 50% | 50% | 50% | 50% | `0` |
+| `+2` — Manha `+1` e escudo `+1` | 45% | 45% | 45% | 45% | `0` |
+| `+4` — escudo 3 e Manha, o topo do que existe | 35% | 35% | 35% | 35% | `0` |
+
+**Um `+1` de escudo vale `+1` no nível 2 e `+1` no 30 — ele não cresce.** *Só a proteção de cobrir-se cresce, e foi por ela que a maestria entrou no acerto.* **Quanto um acerto vale contra um alvo empilhado é escolha de calibragem; a inclinação é o que não pode estar errada.**
+
+### O que a v0.116 achou, e o que a v0.117 fez com isso
+
+> ⚠⚠ **Até a v0.116, esta seção dizia que uma habilidade de Caminho podia "trocar o `2` fixo por um atributo", e que "a troca é neutra em balanço porque os dois crescem igual".** *A frase estava em três documentos — aqui, na peça 6 §6 e no capítulo 9 do livro — desde a v0.9, e ela nunca foi neutra.*
+
+**O que a v0.116 mediu, e que continua sendo o motivo de o `2 + maestria` ter morrido:**
+
+| | nv2 | nv6 | nv10 | nv14 | nv18 | nv22 | nv26 | nv30 |
+|---|---|---|---|---|---|---|---|---|
+| `2 + maestria` | 3 | 3 | 4 | 4 | 5 | 5 | 6 | 6 |
+| o atributo investido | 3 | 3 | 4 | 4 | 5 | 5 | 6 | 6 |
+
+**Eles não "crescem no mesmo ritmo": eram o mesmo número em todo nível.** *Então trocar só o `2` deixava `atributo + maestria` — e a frase media `2 + maestria` (`+3`) contra `atributo` (`+3`) para concluir que a troca era neutra, quando a troca substituía apenas o `2`, que cresce `+0`.* **A outra leitura, trocar o termo inteiro, empatava na melhor das hipóteses e ninguém pegaria.** *Ou quebrava a regra que governa tudo, ou era entrada morta.*
+
+### E a deriva de `−15pp` que ninguém via, porque o validador segurava a proteção em 1
+
+***Achado na v0.117, e ele veio de uma observação de mesa do Mizuki:*** *"a Defesa vai estar chegando em picos de 20-22"*. **Ele está certo, e a seção 6 media contra um alvo de Defesa 17.**
+
+**A peça 14 §3 deriva o teto de Defesa em `20` somando `10` + atributo `6` + os `4` de cobrir-se no refino `10`.** *Este documento media o "caso difícil" contra `10 + Destreza investida + proteção 1` — a proteção do nível 2, congelada.* **Dois documentos descrevendo o mesmo alvo com quatro pontos de diferença, e a peça 14 é quem está certa**, porque a proteção é `1/3 do refino + 1` e o refino sobe sozinho na linha de graça do marco.
+
+| alvo que investe em Destreza e carrega refino | nv2 | nv10 | nv18 | nv26 | nv30 |
+|---|---|---|---|---|---|
+| Defesa, com a proteção andando junto | 14 | 16 | 18 | 20 | **20** |
+| Defesa como a seção 6 media | 14 | 15 | 16 | 17 | 17 |
+
+**Com o alvo certo, o acerto de HOJE derivava `−15pp`:**
+
+| | nv2 | nv10 | nv18 | nv26 | nv30 | deriva |
+|---|---|---|---|---|---|---|
+| `d20 + atributo` (físico, como estava) | 50% | 45% | 40% | 35% | **35%** | **`−15pp`** |
+| `d20 + 2 + maestria` (conjuração, como estava) | 50% | 45% | 40% | 35% | **35%** | **`−15pp`** |
+| **`d20 + atributo + maestria`** | 55% | 55% | 55% | 55% | **55%** | **`0`** |
+
+**Os dois lados crescem `+6`, e é por isso que fecha.** *A Defesa ganha `+3` de Destreza e `+3` de proteção; o acerto ganha `+3` de atributo e `+3` de maestria.* **A oscilação que sobra é de `5pp` e é irredutível:** a proteção sobe um ponto a cada quatro níveis e a maestria sobe a cada oito, então as duas escadas ficam meio degrau fora de fase — e meio degrau de d20 é `5pp`. *O validador aceita `5` de tolerância nesta checagem, e só nela, com o motivo escrito no código.*
+
+> **É a lição nº 1 pela terceira vez, e desta vez a própria peça denunciava.** *A seção 7 diz, com todas as letras: "tudo que cresce numa campanha precisa entrar no teste — atributo, **proteção**, equipamento".* **O validador foi corrigido na v0.8 para variar o atributo do defensor, e a proteção ficou para trás no `1`.** *Uma frase certa escrita ao lado de um teste que não a obedece sobrevive muito mais tempo que uma frase errada.*
+
+### O que a mudança cobra, e de quem
+
+**Ela cobra ter um atributo no teto.** *Hoje o `2 + maestria` chega a `6` sozinho, sem a ficha pagar nada; agora quem deixa todos os atributos no meio fica para trás.*
+
+| o feitiço acerta | nv2 | nv10 | nv18 | nv30 |
+|---|---|---|---|---|
+| atributo da técnica levado ao teto | 55% | 55% | 55% | **55%** |
+| atributo parado em `3` desde a criação | 55% | 50% | 45% | **40%** |
+| sem treino na arma (a maestria não entra) | 50% | 45% | 40% | **35%** |
+
+**E ela não cobra dos Caminhos físicos, porque o atributo é livre.** *Era essa a objeção da v0.116 — que um Bastião precisaria de Essência 6 — e ela morre com "qualquer atributo":* **o Bastião aponta a técnica para a Força que ele já leva ao teto, e paga zero.** *Cada Caminho aponta para o atributo que já é natural dele, e a única ficha que perde é a que não leva nenhum ao teto.*
+
+> **⚠ Declarado, e vai para o playtest: Constituição é a escolha ótima de quem só conjura.** *Todo Caminho tem um atributo que já faz dois trabalhos — Força bate, Destreza atira e defende, Essência percebe e negocia —, mas o segundo trabalho da Constituição vale para todo mundo.* **Um conjurador puro que aponte a técnica para Constituição paga zero e ainda é o mais duro da mesa.** *Não quebra número nenhum — o acerto continua em `55%` como o de todo mundo —, mas apaga a cor da escolha: "Inteligência sabe, Essência percebe" deixa de significar alguma coisa para a técnica.* **Fica como está, por decisão do Mizuki de que o atributo é livre, e vira pergunta de mesa: *alguém escolheu um atributo de técnica que não fosse o mais alto que já tinha?***
+
 
 ## 5.1 Pontos de vida
 
@@ -429,25 +515,28 @@ Porque na quarta ela nunca aconteceria. Com a vida **não voltando no descanso c
 
 ## 6. O que a conta produz
 
-Contra um alvo que **também investiu** em Destreza e tem proteção 1 — o caso difícil —, **em qualquer nível do 2 ao 30**:
+O caso difícil é um alvo que **investiu em Destreza** *e* **carrega refino**, então a proteção de cobrir-se dele anda junto: Defesa `14` no nível 2 e `20` no 30.
 
-| quem ataca | acerta |
-|---|---|
-| corpo a corpo com Força investida | 50% |
-| à distância com Destreza investida | 50% |
-| conjuração (2 + maestria) | 50% |
+| quem ataca | nv2 | nv10 | nv18 | nv26 | nv30 |
+|---|---|---|---|---|---|
+| corpo a corpo, Força investida e treinado | 55% | 55% | 55% | 55% | 55% |
+| à distância, Destreza investida e treinado | 55% | 55% | 55% | 55% | 55% |
+| conjuração, atributo da técnica no teto | 55% | 55% | 55% | 55% | 55% |
 
-Deriva: **zero**, e os três empatados. O guerreiro e o conjurador acertam igual do começo ao fim. Contra alvo que não investiu em defesa, os três sobem juntos.
+Deriva: **zero ponta a ponta**, e os três empatados. *A oscilação de `5pp` no meio da tabela é irredutível e o §5 explica: a proteção sobe a cada quatro níveis e a maestria a cada oito.*
+
+> *Este bloco dizia `50%` e media contra proteção `1` — a do nível 2, congelada. **Corrigido na v0.117**, e a correção é o que trouxe a maestria para o acerto.*
 
 ### Teste de Resistência
 
 Contra um alvo que investiu no atributo do TR:
 
-| | sem treino | treinado |
-|---|---|---|
-| chance de resistir | 55% | 65% |
+| | nv2 | nv10 | nv18 | nv26 | nv30 |
+|---|---|---|---|---|---|
+| **treinado** | 65% | 65% | 65% | 65% | **65%** |
+| **sem treino** | 60% | 55% | 50% | 45% | **45%** |
 
-Também sem deriva: a CD cresce por maestria (+3 na campanha) e o resistente cresce por atributo (+3). Treinar vale 10 pontos percentuais, sempre.
+**O treinado não deriva, e o não-treinado deriva de propósito.** *Toda ficha treina dois Testes de Resistência de quatro (peça 7 §6), então toda ficha carrega dois pontos moles que ficam mais moles.* **É o preço de não treinar, e a §5.0 tem a decisão.**
 
 ### Perícias — o único lugar onde crescer é o ponto
 
@@ -480,6 +569,10 @@ Ele testava se a chance mudava com o nível **mantendo os atributos fixos**. Só
 O valor fixo nunca foi o problema. O problema era o **ritmo**. E o conserto não foi tirar o número fixo — foi fazer a maestria andar na velocidade certa, e depois calibrar o fixo em 2 para o conjurador empatar com o guerreiro em vez de ficar 15 pontos percentuais na frente.
 
 **A lição que fica para o resto do projeto:** verificar invariância contra o nível não basta. Tudo que cresce numa campanha precisa entrar no teste — atributo, proteção, equipamento. O validador foi corrigido para variar os atributos junto com o nível.
+
+> **⚠⚠ E ele aconteceu de novo, na mesma seção, com a palavra do meio — v0.117.** *Esta lição lista três coisas que têm de entrar no teste: **atributo, proteção, equipamento**. O conserto da v0.8 trouxe o atributo e parou ali.* **A proteção ficou congelada em `1` por cento e nove versões**, dentro do validador que esta seção existe para explicar. *Enquanto isso a peça 14 §3 derivava o teto de Defesa somando os `4` de cobrir-se no refino `10` — os dois documentos descrevendo o mesmo alvo com quatro pontos de diferença.*
+>
+> **O que fez a diferença aparecer não foi validador nenhum: foi o Mizuki olhando a Defesa que a mesa alcança e dizendo que ela chega a `20`.** *A frase certa estava escrita aqui o tempo todo, ao lado de um teste que não a obedecia — e uma frase certa ao lado de um teste que a contradiz sobrevive muito mais que uma frase errada.*
 
 ---
 
@@ -521,6 +614,8 @@ A tabela de letalidade do Fundamento mostra 1,7 a 2,0 rodadas porque supõe que 
 
 ## 9. Em aberto
 
+- ~~**⚠⚠ A troca do `2` por um atributo não tem versão que funcione.**~~ **FECHADO na v0.117:** *o `2 + maestria` morreu, o atributo da técnica entrou no lugar dele, e a maestria passou a somar no acerto para pagar a proteção que cresce do outro lado.* **O `Estopim` do `Explosivo` ganhou referente de graça** — todo mundo passa a ter um atributo de técnica.
+- **Se Constituição vira o atributo de técnica de todo conjurador puro.** *Declarado na seção 5, e é pergunta de mesa e não de conta:* o acerto continua em `55%` seja qual for o atributo, mas o segundo trabalho da Constituição vale para todo mundo e o dos outros quatro não.
 - **Se Força precisa de um segundo trabalho.** Ela tem uma perícia só, e a lista de vinte e três não conserta isso.
 - **Se Constituição virou obrigatória** (seção 5.1). É a pergunta de playtest número um.
 - **Se o extremo frágil é frágil demais**: um Emanador de Constituição 0 cai em 1,7 rodadas no nível 30.

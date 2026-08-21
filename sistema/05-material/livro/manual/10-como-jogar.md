@@ -106,11 +106,13 @@ A ficha começa no **nível 2**, já com um feitiço. O nível 1 fica como opç�
 
 Três rolagens, uma para cada jeito de machucar alguém. Todas comparam com a **Defesa** do alvo, e todas seguem a mesma regra do teste: igualou ou passou, acertou.
 
-> **Ataque corpo a corpo = d20 + Força**
-> **Ataque à distância = d20 + Destreza**
-> **Ataque de conjuração = d20 + 2 + maestria**
+> **Ataque corpo a corpo = d20 + Força + maestria**
+> **Ataque à distância = d20 + Destreza + maestria**
+> **Ataque de conjuração = d20 + o atributo da sua técnica + maestria**
 
-O `2 + maestria` cresce sozinho: um Emanador de Força 0 acerta os feitiços dele igual a qualquer um. Algumas habilidades de Caminho trocam esse 2 fixo por um atributo, e é assim que nasce o feiticeiro que conjura pela Força. Quando for o caso, a habilidade diz.
+As três têm a mesma forma: **um atributo, mais a maestria.** O atributo do corpo a corpo é a Força e o do tiro é a Destreza; o da conjuração é aquele que você escolheu quando escreveu a técnica, e ele pode ser qualquer um dos cinco. O feiticeiro que conjura pela Força existe, e é só isso que ele é.
+
+A maestria entra porque a Defesa de quem você ataca cresce por dois caminhos — o atributo dele e a energia com que ele se cobre —, e um lado que cresce por dois precisa do outro crescendo por dois também.
 
 Nem todo feitiço rola acerto. Um feitiço resolve de três jeitos, e o capítulo 9, *Fundamento*, diz qual é o de cada um:
 
@@ -123,9 +125,9 @@ Nem todo feitiço rola acerto. Um feitiço resolve de três jeitos, e o capítul
 | **Teste de Resistência** | o alvo rola contra a CD do seu feitiço |
 | **Automático** | acontece, sem rolagem de nenhum dos dois lados |
 
-> **CD de feitiço = 10 + 2 + maestria.** É o mesmo bônus do ataque de conjuração, dez pontos acima.
+> **CD de feitiço = 8 + o atributo da sua técnica + maestria.**
 
-> **Exemplo.** Mei está no nível 10, então a maestria dela é 2. O ataque de conjuração dela é d20 + 4, e a CD de qualquer feitiço dela é 14. Ela tem duas versões da mesma técnica na ficha: uma que pede acerto e uma que pede Teste de Resistência. O alvo é um mestre-maldição com Defesa 17 e Teste de Resistência de Espírito alto. Ela escolhe a de acerto, porque 17 contra d20+4 é uma aposta melhor do que a CD 14 contra a resistência daquele bicho.
+> **Exemplo.** Mei está no nível 10, então a maestria dela é 2, e a técnica dela usa Essência, que ela tem em 4. O ataque de conjuração dela é `d20 + 6` e a CD de qualquer feitiço dela é 14. Ela tem duas versões da mesma técnica na ficha: uma que pede acerto e uma que pede Teste de Resistência. O alvo é um mestre-maldição com Defesa 17 e Teste de Resistência de Espírito alto. Ela escolhe a de acerto, porque 17 contra `d20 + 6` é uma aposta melhor do que a CD 14 contra a resistência daquele bicho.
 
 ### Crítico
 
@@ -169,7 +171,10 @@ Um **Teste de Resistência** é o que você rola quando alguma coisa acontece co
 
 O TR Físico é o único que escolhe entre dois atributos, e essa escolha é feita uma vez na criação. Ela diz como o seu personagem sai da frente de uma explosão: quem travou em Força planta o pé e absorve, quem travou em Destreza salta.
 
-Você é treinado em **dois dos quatro**: a sua Origem treina um, o seu Caminho treina outro. O treino vale +2 fixo aqui. Maestria não entra em Teste de Resistência nunca.
+Você é treinado em **dois dos quatro**: a sua Origem treina um, o seu Caminho treina outro. **No Teste de Resistência que você treinou, você soma a maestria; nos outros dois, só o atributo.** É a mesma marca de treino da perícia e do ofício.
+
+{: .aviso }
+> Os dois Testes de Resistência que você não treinou ficam para trás conforme a campanha anda — de `60%` de chance de resistir no nível 2 para `45%` no 30. Não é descuido: é o preço de não treinar, e é por ali que um chefe vai entrar.
 
 > **Exemplo.** Kaito travou o TR Físico em Destreza, que é 4, e a Origem dele treinou justamente esse. Um feitiço de área de CD 15 explode do lado dele: ele rola 9 no d20, soma 4 de Destreza e 2 de treino, dá 15. Igualou, então resistiu.
 

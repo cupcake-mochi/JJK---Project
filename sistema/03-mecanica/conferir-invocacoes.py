@@ -228,10 +228,12 @@ MAESTRIA_INI = int(m.group(1)) if m else None
 MAESTRIA_PASSO = {'oito': 8, 'quatro': 4, 'seis': 6}.get(m.group(2)) if m else None
 if MAESTRIA_INI is None:
     erro('SETUP', 'peca 1 SS2: nao achei a regra da maestria')
-m = re.search(r'Ataque de conjuração\s*=\s*d20 \+ (\d+) \+ maestria', P1)
-FIXO_CONJ = int(m.group(1)) if m else None
-if FIXO_CONJ is None:
-    erro('SETUP', 'peca 1: nao achei o fixo do ataque de conjuracao')
+# v0.117: o ataque de conjuracao deixou de ter fixo. Ele e `atributo + maestria`,
+# e o atributo cresce +3 na campanha como qualquer atributo investido — que e
+# exatamente o que a checagem 18 precisa saber para medir o ritmo do dono.
+if not re.search(r'Ataque de conjuração\s*=\s*d20 \+ atributo da técnica \+ maestria', P1):
+    erro('SETUP', 'peca 1: o ataque de conjuracao nao e mais `atributo da tecnica + '
+                  'maestria` — a checagem 18 mede o ritmo do dono a partir dele')
 
 # --- peca 3 SS3: o alcance base de Projetil, que e a amarra ------------------
 m = re.search(r'O alcance base de Projétil é (\d+) m', P3)
@@ -1091,8 +1093,13 @@ def maestria(nv):
     return MAESTRIA_INI + (nv - 1) // MAESTRIA_PASSO
 
 
+def atributo_investido(nv):
+    """peca 2 SS3: comeca em 3 na criacao e vai ate o teto 6, no passo da maestria."""
+    return min(6, 3 + (nv - 1) // MAESTRIA_PASSO)
+
+
 def acerto_dono(nv):
-    return FIXO_CONJ + maestria(nv)
+    return atributo_investido(nv) + maestria(nv)
 
 
 nvs = sorted(ORCAMENTO)
@@ -1108,16 +1115,26 @@ for desl in (0, -1, -2):
     if c != base_cresce:
         erro('RITMO', f'o deslocamento {desl:+d} muda o RITMO da linha ({c} contra '
                       f'{base_cresce}) — deslocamento fixo nao pode derivar')
+# O ALVO do acerto e a DEFESA, e ela tambem tem dois termos que crescem: a Destreza
+# do alvo (teto da peca 2) e a protecao de cobrir-se (peca 11 SS6, `1/3 do refino + 1`,
+# com o refino topando em 10 pela peca 11 SS3). Ate a v0.116 esta checagem comparava o
+# acerto contra UM atributo, porque o acerto tinha um termo so. Com a base da v0.117 ele
+# tem dois, e o alvo dele sempre teve dois — a comparacao certa e contra a Defesa.
 ATRIBUTO_CRESCE = TETO_ATR - 3
-if base_cresce != ATRIBUTO_CRESCE:
-    erro('RITMO', f'o acerto derivado cresce +{base_cresce} e um atributo investido cresce '
-                  f'+{ATRIBUTO_CRESCE} (teto {TETO_ATR} da peca 2 contra o {3} da criacao) — '
-                  'os dois lados da rolagem deixaram de crescer no mesmo ritmo')
+PROTECAO_CRESCE = (TETO_REF // 3 + 1) - (1 // 3 + 1)
+DEFESA_CRESCE = ATRIBUTO_CRESCE + PROTECAO_CRESCE
+print(f'  {"a Defesa do alvo cresce":<28}{"":<8}{"":<8}+{DEFESA_CRESCE:<9}'
+      f'(Destreza +{ATRIBUTO_CRESCE}, protecao +{PROTECAO_CRESCE})')
+if base_cresce != DEFESA_CRESCE:
+    erro('RITMO', f'o acerto derivado cresce +{base_cresce} e a Defesa do alvo cresce '
+                  f'+{DEFESA_CRESCE} (Destreza +{ATRIBUTO_CRESCE} da peca 2, protecao '
+                  f'+{PROTECAO_CRESCE} da peca 11) — os dois lados da rolagem deixaram '
+                  'de crescer no mesmo ritmo')
 else:
-    print(f'  contra-teste: a maestria da peca 1 sobe 1 a cada {MAESTRIA_PASSO} niveis, e o '
-          f'acerto da invocacao anda +{base_cresce} junto com ela —')
-    print(f'  a checagem le o ritmo da PECA 1 e o compara com o teto de atributo da PECA 2, '
-          'e nao consigo mesma.')
+    print(f'  contra-teste: os dois lados sao lidos de PECAS DIFERENTES — o acerto da peca 1'
+          f' e a Defesa das pecas 2 e 11.')
+    print(f'  Perturbar a maestria, o teto de atributo ou o teto de refino desencaixa '
+          'a igualdade, e nenhum dos tres mora aqui dentro.')
 
 # =============================================================================
 # 19. VIDA — a formula no molde da peca 1

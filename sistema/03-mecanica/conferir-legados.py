@@ -64,9 +64,20 @@ for ln in sec10.split('\n'):
 if len(DEGRAUS) != 4:
     erro('SETUP', f'esperava 4 degraus na peca 10, achei {len(DEGRAUS)}: {DEGRAUS}')
 
-# Origens: dos titulos de nivel 3 da peca 9 que tem bloco de Legados
-ORIGENS_P9 = [t.strip() for t in re.findall(r'^### (.+)$', P9, re.M)
-              if 'Legado tem teto' not in t]
+# Origens: dos titulos de nivel 3 da peca 9 que tem bloco de Legados.
+#
+# Ate a v0.116 isto era `re.findall('^### ')` menos UM titulo excluido pelo nome
+# ('Legado tem teto'). O comentario dizia "que tem bloco de Legados" e o codigo
+# nao conferia isso — ele so conhecia a excecao que existia em 2026-08. Bastou a
+# peca 9 ganhar tres subsecoes novas para as tres virarem "Origem sem lista no
+# catalogo". Agora o filtro faz o que a frase diz: e Origem o titulo cujo bloco
+# carrega a LINHA de Legados da tabela, que as sete tem e mais ninguem tem.
+_BLOCOS_P9 = re.split(r'^### ', P9, flags=re.M)[1:]
+ORIGENS_P9 = [b.split('\n', 1)[0].strip() for b in _BLOCOS_P9
+              if re.search(r'^\|\s*\*\*Legados\*\*\s*\|', b, re.M)]
+if not ORIGENS_P9:
+    erro('SETUP', 'nenhum titulo de nivel 3 da peca 9 tem linha de Legados — '
+                  'o extrator de Origem parou de extrair')
 
 # ---------------------------------------------------------------- parse do catalogo
 CAT = PECA.split('## 9. O catálogo')[1] if '## 9. O catálogo' in PECA else PECA

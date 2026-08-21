@@ -668,7 +668,16 @@ else:
     # validador novo quando as condicoes mudaram de casa. TODAS sao "nome de
     # validador", que e' a primeira das duas familias ja declaradas — nenhuma
     # familia nova. O teto vai a 104, que e' a mesma folga de cinco.
-    PISO_CITACOES, TETO_BRANCOS = 120, 104
+    #
+    # v0.117: 107 brancas. As oito novas saem das secoes que a v0.116 e a v0.117
+    # escreveram — a peca 9 §8 citando o conferir-atributos.py, a peca 11 §6.8
+    # citando o conferir-equipamento.py e caminhos da arvore da fonte, a peca 1
+    # §5.0 e a peca 19 §2.2 apontando para os donos das constantes que se moveram.
+    # Conferidas uma a uma: TODAS sao "nome de validador" ou "caminho de arquivo
+    # de trabalho", que sao as duas familias declaradas la em cima — nenhuma
+    # familia nova, e nenhuma delas e material de mesa. O teto vai a 112, que e'
+    # a mesma folga de cinco.
+    PISO_CITACOES, TETO_BRANCOS = 120, 112
     if vistos_e < PISO_CITACOES:
         erro(f'7.2: achei so {vistos_e} citacoes na entrega, e o piso e {PISO_CITACOES} — '
              f'o extrator mudou de forma e esta checagem parou de conferir')

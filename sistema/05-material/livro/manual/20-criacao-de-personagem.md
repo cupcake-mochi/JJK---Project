@@ -182,10 +182,10 @@ Nada aqui é escolha. Você copia da tabela e faz a conta.
 | Deslocamento | 9 metros |
 | Ataque corpo a corpo | d20 + Força |
 | Ataque à distância | d20 + Destreza |
-| Ataque de conjuração | d20 + 3 |
+| Ataque de conjuração | d20 + atributo da técnica + maestria |
 | CD de feitiço | 13 |
 | Perícia treinada | d20 + atributo + 1 |
-| Teste de Resistência | d20 + atributo do TR, +2 se treinado |
+| Teste de Resistência | d20 + atributo do TR + maestria, e a maestria só se treinado |
 
 No refino 1 você já tem duas aptidões, de graça: `cobrir-se de energia`, que dá proteção sem equipamento, e `canalizar energia`, que permite ferir uma maldição com o corpo ou com a arma. São básicas de qualquer feiticeiro.
 
@@ -249,9 +249,9 @@ Força 3 · Constituição 2 · Destreza 2 · Inteligência 1 · Essência 1. No
 | PE | 4 × 2 | **8** |
 | Defesa | 10 + 2 + 1 | **13** |
 | Iniciativa | d20 + 2 | |
-| Ataque corpo a corpo | d20 + 3 | |
-| Ataque de conjuração | d20 + 2 + 1 | **d20 + 3** |
-| CD dos feitiços dela | 10 + 2 + 1 | **13** |
+| Ataque corpo a corpo | d20 + 3 + 1 | **d20 + 4** |
+| Ataque de conjuração | d20 + 3 + 1 | **d20 + 4** |
+| CD dos feitiços dela | 8 + 3 + 1 | **12** |
 | Atletismo (treinado) | d20 + 3 + 1 | **d20 + 4** |
 
 ## Checklist do mestre

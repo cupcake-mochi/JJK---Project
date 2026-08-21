@@ -476,6 +476,13 @@ if manual:
     BATIZADOS = {norma(n) for _, n in TODOS}
     # "Restricao Celestial" e Origem: o gatilho de Restricao acha "Celestial" ali
     # e nao e erro. Isso vale so para o gatilho, nao para as listas de Familia.
+    #
+    # E o mesmo vale para o proprio manual — v0.116. "Restricao Propria" e termo
+    # do NUCLEO_DO_MANUAL, entao o gatilho de Restricao lia "Propria" e cobrava
+    # ela na LISTA de Restricoes, onde ela nunca vai estar: a entrada da tabela
+    # se chama "Restricao Propria" inteira. Ninguem tinha citado o termo pelo
+    # nome em peca nenhuma, entao o buraco so apareceu quando a peca 8 citou.
+    COMPOSTOS = BATIZADOS | {norma(t) for t in NUCLEO_DO_MANUAL}
     PREFIXO = {'Restricao': 'restricao', 'Melhoria': 'melhoria', 'Forma': 'forma'}
     achou = False
     for arq, txt in sorted(vivos.items()):
@@ -495,9 +502,11 @@ if manual:
                     k = norma(n)
                     if k in validos or k in BATIZADOS:
                         continue
-                    # "Restricao Celestial" e Origem, nao Restricao mal citada
+                    # "Restricao Celestial" e Origem e "Restricao Propria" e termo
+                    # do manual — nos dois casos o gatilho pegou a segunda palavra
+                    # de um nome composto, e nenhum dos dois e citacao errada.
                     pre = PREFIXO.get(cat)
-                    if pre and f'{pre} {k}' in BATIZADOS:
+                    if pre and f'{pre} {k}' in COMPOSTOS:
                         continue
                     outra = next((c for c, l in CATEGORIAS.items()
                                   if k in {norma(x) for x in l}), None)

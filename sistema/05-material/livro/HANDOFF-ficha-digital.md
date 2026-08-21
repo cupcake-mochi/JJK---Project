@@ -61,8 +61,8 @@ Campos de escolha: nome, jogador, patente (começa Grau 4), Caminho, Trilha, Ori
 | Iniciativa | `d20 + Destreza` |
 | Deslocamento | `9 m` |
 | Maestria | `1`, e sobe `+1` a cada oito níveis (chega a 4) |
-| CD de feitiço | `10 + 2 + maestria` |
-| Ataque de conjuração | `d20 + 2 + maestria` |
+| CD de feitiço | `10 + atributo da técnica` |
+| Ataque de conjuração | `d20 + atributo da técnica + maestria` |
 | Ataque corpo a corpo | `d20 + Força` |
 | Ataque à distância | `d20 + Destreza` |
 | Perícia treinada | `d20 + atributo + maestria` |

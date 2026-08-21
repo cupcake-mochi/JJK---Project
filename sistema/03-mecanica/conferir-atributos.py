@@ -14,18 +14,19 @@ A REGRA QUE GOVERNA TUDO:
 
 CONTRATO DE INVARIANTES:
   Maestria             = 1, +1 a cada 8 niveis
-  Ataque corpo a corpo = d20 + Forca
-  Ataque a distancia   = d20 + Destreza
-  Ataque de conjuracao = d20 + 2 + maestria
+  Ataque corpo a corpo = d20 + Forca + maestria
+  Ataque a distancia   = d20 + Destreza + maestria
+  Ataque de conjuracao = d20 + atributo da tecnica + maestria
   Defesa               = 10 + Destreza + protecao
-  CD de feitico        = 10 + 2 + maestria
-  Teste de Resistencia = d20 + atributo do TR (+2 se treinado)
+  CD de feitico        = 8 + atributo da tecnica + maestria
+  Teste de Resistencia = d20 + atributo do TR + maestria (so se treinado)
   Pericia              = d20 + atributo + maestria (maestria so entra se treinado)
   Pontos de vida       = (inicial do Caminho + Con) + (por nivel do Caminho + Con) x (nivel-1)
   Integridade          = 20 + 8 x (nivel - 1)   — plana, sem Caminho e sem Constituicao
 
   1. Acerto NAO deriva na campanha — nem fisico nem de conjuracao.
-  2. Teste de Resistencia NAO deriva — nem treinado nem sem treino.
+  2. Teste de Resistencia TREINADO nao deriva; o SEM TREINO deriva para baixo,
+     de proposito — e o preco de nao treinar (v0.117).
   3. Ser treinado vale exatamente 10 pontos percentuais.
   4. Pericia DEVE derivar para cima: e o unico lugar onde crescer e o ponto.
   5. Nenhum termo aparece dos dois lados da mesma rolagem.
@@ -43,6 +44,24 @@ PONTO CEGO CORRIGIDO EM 06/08:
   A versao anterior testava invariancia mantendo os atributos FIXOS. Isso verifica
   se o nivel cancela, mas nao se a CAMPANHA cancela — o defensor investe em Destreza
   e vai de 3 a 6. Todo teste aqui agora varia o atributo junto com o nivel.
+
+SEGUNDO PONTO CEGO, CORRIGIDO NA v0.117 — e e o mesmo erro na palavra do meio:
+  A peca 1 §7 manda por no teste "atributo, PROTECAO, equipamento". O conserto de
+  06/08 trouxe o atributo e parou. A protecao ficou congelada em 1 — o valor do
+  nivel 2 — enquanto a peca 11 §6 diz que ela e `1/3 do refino + 1` e a peca 14 §3
+  deriva o teto de Defesa somando os 4 dela no refino 10.
+
+  Com a protecao andando junto, a Defesa do alvo dificil cresce +6 na campanha
+  (Destreza +3, protecao +3) e o acerto de antes crescia +3. Deriva real: -15pp.
+  Por isso a base mudou: o acerto passou a levar maestria, e agora cresce +6.
+
+  A CD leva maestria e o Teste de Resistencia tambem — mas so quem TREINOU o TR.
+  Com isso o treinado fica plano em 65% e o nao-treinado cai 15pp na campanha, que
+  e o preco de nao treinar (decisao do Mizuki, peca 1 SS5.0).
+
+  E o 8 da CD nao e escolha de gosto: `8 + atr + M` contra `d20 + atr + M` deixa
+  exatamente 8 no dado, e p(d20 >= 8) = 65% — o mesmo que o `+2` fixo entregava.
+  Quem treinou resiste hoje o que resistia antes; a mudanca inteira caiu no resto.
 """
 import os
 import sys
@@ -53,16 +72,55 @@ from dados import soma, p_ao_menos  # noqa: E402
 
 D20 = soma([20])
 NIVEIS = [2, 6, 10, 14, 18, 22, 26, 30]
-FIXO = 2
 ERROS = []
 _PULADAS = []
 
 
 def maestria(nv):   return 1 + max(0, nv - 2) // 8
 def investido(nv):  return min(6, 3 + max(0, nv - 2) // 8)   # o atributo de quem investe
-def conjuracao(nv): return FIXO + maestria(nv)
-def defesa(nv, des, prot): return 10 + des + prot
-def cd(nv, prec=0): return 10 + conjuracao(nv) + 2 * prec
+
+# A curva de refino das tres rotas mora na peca 11 §3.1. O alvo dificil herda a do
+# MEIO A MEIO, que e a curva que o ESTADO-ATUAL da ao chefe.
+REFINO_MEIO = {2: 1, 6: 3, 10: 4, 14: 6, 18: 7, 22: 9, 26: 10, 30: 10}
+
+
+def protecao(ref):
+    """cobrir-se de energia, peca 11 §6: 1/3 do refino + 1.
+
+    Ganho, entao arredonda pra BAIXO (peca 1 §5.4). No refino 1 da 1, que e o que
+    a peca 8 imprime na ficha de nivel 2; no refino 10 da 4, que e o numero que a
+    peca 14 §3 usa para derivar o teto de Defesa em 20.
+    """
+    return ref // 3 + 1
+
+
+def defesa(nv, des, prot=None):
+    """Se ninguem passar protecao, ela ANDA JUNTO com o refino — v0.117."""
+    if prot is None:
+        prot = protecao(REFINO_MEIO[nv])
+    return 10 + des + prot
+
+
+def acerto(nv, atr=None, treinado=True):
+    """d20 + atributo + maestria. A maestria so entra se treinado."""
+    if atr is None:
+        atr = investido(nv)
+    return atr + (maestria(nv) if treinado else 0)
+
+
+BASE_CD = 8   # e a chance de quem treinou: p(d20 >= 8) = 65%
+
+
+def cd(nv, prec=0, atr=None):
+    """8 + atributo da tecnica + maestria."""
+    if atr is None:
+        atr = investido(nv)
+    return BASE_CD + atr + maestria(nv) + 2 * prec
+
+
+def tr(nv, treinado):
+    """d20 + atributo do TR + maestria, e a maestria so se treinado."""
+    return investido(nv) + (maestria(nv) if treinado else 0)
 # Caminho: (dado, vida no nivel 1, vida por nivel, PE por nivel)
 CAMINHO = {
     'Bastiao':   (12, 12, 7, 4),
@@ -117,8 +175,10 @@ def erro(msg):
 
 
 def sem_deriva(nome, valores, tolerancia=0):
+    # o 1e-9 e ruido de ponto flutuante: 11/20 * 100 sai 55.00000000000001, e sem
+    # ele uma deriva de exatos 5pp estoura uma tolerancia de 5.
     d = max(valores) - min(valores)
-    if d > tolerancia:
+    if d > tolerancia + 1e-9:
         erro(f'{nome}: deriva de {d:.0f}pp na campanha (tolerancia {tolerancia})')
     return d
 
@@ -133,16 +193,35 @@ if maestria(30) - maestria(2) != investido(30) - investido(2):
 
 print()
 print('=' * 88)
-print('1. ACERTO — contra alvo que INVESTE em Destreza (3 -> 6) com protecao 1')
+print('1. ACERTO — alvo que INVESTE em Destreza (3->6) E carrega refino (protecao 1->4)')
 print('=' * 88)
+print('  Defesa do alvo dificil, nivel a nivel: '
+      + ' '.join(str(defesa(nv, investido(nv))) for nv in NIVEIS))
 print(f"  {'quem ataca':<38}" + ''.join(f'nv{nv:<4}' for nv in NIVEIS) + '  deriva')
+# TOLERANCIA 5 e irredutivel, e so aqui: a protecao sobe um ponto a cada QUATRO
+# niveis e a maestria a cada OITO, entao as duas escadas ficam meio degrau fora de
+# fase. Meio degrau de d20 e 5pp. Ponta a ponta a deriva e zero — o que oscila e o
+# meio. Perturbar a maestria ou a protecao estoura os 5 na hora.
 for nome, bonus in [
-    ('corpo a corpo (Forca investida)', investido),
-    ('a distancia (Destreza investida)', investido),
-    ('conjuracao (2 + maestria)', conjuracao),
+    ('corpo a corpo (Forca investida, treinado)', acerto),
+    ('a distancia (Destreza investida, treinado)', acerto),
+    ('conjuracao (atributo da tecnica no teto)', acerto),
 ]:
-    vals = [pct(defesa(nv, investido(nv), 1) - bonus(nv)) for nv in NIVEIS]
-    print(f'  {nome:<38}' + ''.join(f'{v:3.0f}%  ' for v in vals) + f'  {sem_deriva(nome, vals):.0f}pp')
+    vals = [pct(defesa(nv, investido(nv)) - bonus(nv)) for nv in NIVEIS]
+    print(f'  {nome:<38}' + ''.join(f'{v:3.0f}%  ' for v in vals)
+          + f'  {sem_deriva(nome, vals, tolerancia=5):.0f}pp')
+    if vals[0] != vals[-1]:
+        erro(f'{nome}: ponta a ponta o acerto vai de {vals[0]:.0f}% a {vals[-1]:.0f}% — '
+             f'a deriva de campanha tem de ser ZERO, e a oscilacao do meio nao conta')
+
+# 1b. o que a base ANTIGA fazia contra o mesmo alvo — guarda contra reintroducao
+antigo = [pct(defesa(nv, investido(nv)) - (2 + maestria(nv))) for nv in NIVEIS]
+print(f'  {"[base antiga: 2 + maestria]":<38}' + ''.join(f'{v:3.0f}%  ' for v in antigo)
+      + f'  {antigo[-1]-antigo[0]:+.0f}pp')
+if antigo[-1] >= antigo[0]:
+    erro('a base antiga (2 + maestria) parou de derivar contra o alvo dificil — '
+         'ou a protecao parou de crescer, ou esta linha virou decoracao')
+print('  A base antiga cai 15pp na campanha, e e por isso que ela morreu na v0.117.')
 
 print()
 print('=' * 88)
@@ -151,14 +230,24 @@ print('=' * 88)
 print(f"  {'estado':<38}" + ''.join(f'nv{nv:<4}' for nv in NIVEIS) + '  deriva')
 res = {}
 for tre in (False, True):
-    vals = [pct(cd(nv) - (investido(nv) + (2 if tre else 0))) for nv in NIVEIS]
-    rot = 'treinado (+2)' if tre else 'sem treino'
+    vals = [pct(cd(nv) - tr(nv, tre)) for nv in NIVEIS]
+    rot = 'treinado (atributo + maestria)' if tre else 'sem treino (so o atributo)'
     res[tre] = vals
-    print(f'  {rot:<38}' + ''.join(f'{v:3.0f}%  ' for v in vals) + f'  {sem_deriva(rot, vals):.0f}pp')
-for i, nv in enumerate(NIVEIS):
-    d = res[True][i] - res[False][i]
-    if abs(d - 10) > 1e-9:
-        erro(f'nivel {nv}: treino vale {d:.0f}pp, esperado 10pp')
+    # O TREINADO nao pode derivar; o NAO-TREINADO deve derivar para baixo, e isso e
+    # decisao (peca 1 SS5.0). Medir os dois com a mesma tolerancia apagaria a decisao.
+    if tre:
+        print(f'  {rot:<38}' + ''.join(f'{v:3.0f}%  ' for v in vals)
+              + f'  {sem_deriva(rot, vals):.0f}pp')
+    else:
+        d = vals[-1] - vals[0]
+        print(f'  {rot:<38}' + ''.join(f'{v:3.0f}%  ' for v in vals) + f'  {d:+.0f}pp')
+        if d >= 0:
+            erro('o TR sem treino parou de ficar para tras — nao treinar deixou de '
+                 'custar alguma coisa, e a decisao da peca 1 SS5.0 virou decoracao')
+if abs(res[True][0] - 65) > 1e-9 or abs(res[True][-1] - 65) > 1e-9:
+    erro(f'o TR treinado resiste {res[True][0]:.0f}% e nao 65% — a base {BASE_CD} da CD '
+         f'existe para deixar exatamente {BASE_CD} no dado, e p(d20>={BASE_CD}) e 65%')
+print(f'  o treinado fica plano em 65%, que e p(d20 >= {BASE_CD}) — a base da CD E essa chance.')
 print('  treinar vale 10pp em todos os niveis.')
 
 print()
@@ -168,7 +257,7 @@ print('=' * 88)
 ok = True
 for nv in NIVEIS:
     for tre in (False, True):
-        b = investido(nv) + (2 if tre else 0)
+        b = tr(nv, tre)
         d = pct(cd(nv) - b) - pct(cd(nv, prec=1) - b)
         if abs(d - 10) > 1e-9:
             erro(f'nv {nv}, treinado={tre}: Precisao vale {d:.0f}pp')
@@ -193,10 +282,17 @@ print('=' * 88)
 print('5. NENHUM TERMO DOS DOIS LADOS DA MESMA ROLAGEM')
 print('=' * 88)
 lados = {
-    'acerto de conjuracao': ({'2 fixo', 'maestria'}, {'Destreza', 'protecao'}),
-    'Teste de Resistencia': ({'2 fixo', 'maestria'}, {'atributo do TR', 'treino +2'}),
+    'acerto de conjuracao': ({'atributo da tecnica', 'maestria'}, {'Destreza', 'protecao'}),
+    'acerto fisico':        ({'Forca ou Destreza', 'maestria'}, {'Destreza', 'protecao'}),
+    'Teste de Resistencia': ({'atributo da tecnica', 'maestria de quem conjura'},
+                             {'atributo do TR', 'maestria de quem resiste'}),
     'pericia':              ({'CD da dificuldade'}, {'atributo', 'maestria'}),
 }
+# A linha do acerto fisico tem 'Destreza' dos dois lados de proposito e NAO e erro:
+# quem atira soma a propria Destreza e quem se defende soma a DELE. Sao duas fichas.
+# O que a checagem procura e o mesmo termo da MESMA ficha nos dois lados.
+lados['acerto fisico'] = ({'Forca ou Destreza do atacante', 'maestria'},
+                          {'Destreza do alvo', 'protecao'})
 for nome, (a, b) in lados.items():
     comum = a & b
     print(f'  {nome:<24} ataque {sorted(a)}  vs  defesa {sorted(b)}'
@@ -212,8 +308,8 @@ print('  A referencia NAO e a tabela do manual, que nao tem atributo nenhum.')
 print('  E o outro atributo que ja compra sobrevivencia: Destreza, pela Defesa.\n')
 print(f"  {'nivel':<8}{'Des 1->6 (erra mais)':>22}{'Con 1->6 (aguenta mais)':>26}{'razao':>9}")
 for nv in NIVEIS:
-    a1 = p_ao_menos(D20, defesa(nv, 1, 0) - conjuracao(nv))
-    a6 = p_ao_menos(D20, defesa(nv, 6, 0) - conjuracao(nv))
+    a1 = p_ao_menos(D20, defesa(nv, 1, 0) - acerto(nv))
+    a6 = p_ao_menos(D20, defesa(nv, 6, 0) - acerto(nv))
     g_des = a1 / a6 - 1
     g_con = vida(nv, 6) / vida(nv, 1) - 1
     razao = (1 + g_con) / (1 + g_des)
@@ -286,7 +382,7 @@ else:
     print('  Parelha: a troca couro-contra-combustivel e sabor, nao degrau de poder.')
 
 print(f"\n  as tres alavancas de sobrevivencia, no nv10, do menor valor ao maior:")
-b = conjuracao(10)
+b = acerto(10)
 g_cam = vida(10, CON_TIPICA, hi_c) / vida(10, CON_TIPICA, lo_c) - 1
 g_con = vida(10, 6) / vida(10, 0) - 1
 g_des = p_ao_menos(D20, defesa(10, 1, 0) - b) / p_ao_menos(D20, defesa(10, 6, 0) - b) - 1

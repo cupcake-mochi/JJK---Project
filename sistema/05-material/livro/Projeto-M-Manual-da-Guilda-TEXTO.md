@@ -78,6 +78,8 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **Teste de Resistência** | O que **você** rola quando algo acontece com você. São quatro: Físico, Vigor, Intelecto e Espírito | 1 |
 | **Defesa** | `10` + Destreza + proteção. O número que o inimigo precisa alcançar para te acertar | 1 |
 | **Crítico** | `20` natural numa rolagem de acerto. Dobra os dados da arma ou da Classe, e nada mais | 1 |
+| **`Bloquear`** | Regra opcional: role `2d10 + (Defesa − 11)` e use no lugar da Defesa parada. A mesa escolhe se usa | 15 |
+| **`Aparar`** | O duplo 10 no `Bloquear`. O ataque não acerta, e você pode gastar a Reação para revidar com `+3` de dano | 15 |
 | **Arredondamento** | Sempre para o lado que não te favorece. O que você paga sobe, o que você ganha desce | 1 |
 | **Rotina** | O dano que um personagem entrega numa rodada comum, sem gastar recurso guardado | 13 |
 
@@ -90,11 +92,15 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **Pontos de vida** | O corpo. Vêm do Caminho mais a sua Constituição, a cada nível | 1 |
 | **Pontos de energia** (`PE`) | O combustível dos feitiços. PE por nível do Caminho × o seu nível | 1 |
 | **Integridade** | A vida da alma. `20 + 8 × (nível − 1)`, igual para todo mundo. Só volta com descanso longo | 1 |
+| **`Vida temporária`** | Anteparo, não vida. Gasta antes da vida real, não acumula, teto de metade da vida máxima, some no fim da cena | 1 |
 | **Proteção** | O que soma na Defesa: o uniforme que você veste, ou a energia com que você se cobre | 11 |
 | **Redução de Dano** | Desconto no dano que já passou pela Defesa. Não é a mesma coisa que proteção | 9 |
 | **Perícia** | Uma das vinte e três. Cada uma tem um atributo fixo. Sem treino você ainda tenta | 3 |
 | **Ofício** | Um dos onze. Não tem atributo fixo, e sem treino você **não** tenta | 3 |
 | **Condição** | Estado nomeado que muda o que você consegue fazer. São catorze, em três níveis: `Leve`, `Média` e `Pesada` | 4 |
+| **`Leve`** [Nível] | O menor dos três níveis. Como preço de Melhoria, custa metade da Classe; como condição, sai por `1` ponto de energia | 4 |
+| **`Média`** [Nível] | O nível do meio. Como preço, custa a Classe; como condição, sai por `2` pontos de energia | 4 |
+| **`Pesada`** [Nível] | O maior. Como preço, custa Classe e meia; como condição, sai por `3` pontos de energia. Dá Teste de Resistência no fim de cada turno do alvo | 4 |
 | **Exaustão** | Relógio de descanso, em três degraus. **Não é condição neste sistema** | 5 |
 | **Sequela** | O que você ganha ao levantar de uma queda. Encurta em uma rodada a janela da queda seguinte | 1 |
 | **Cicatriz** | Permanente, ganha na segunda queda. Não sai no descanso | 1 |
@@ -113,7 +119,6 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **Patente** | O seu reconhecimento na instituição, de Grau 4 a Grau 1. Todo personagem começa **Grau 4** | 7 |
 
 > **Cuidado com a palavra `Grau`.** Ela nomeia duas escadas de cinco casas que não se encostam: a **patente** de um feiticeiro e o **grau** de uma ferramenta amaldiçoada. Patente é reconhecimento; grau de ferramenta é a energia que a peça carrega. O capítulo 12 abre a diferença.
-
 ## Técnica
 
 **Técnica**
@@ -163,6 +168,24 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **Rodada inteira** | Custa movimento, Ação Padrão e Ação Bônus de uma vez. A Reação continua sua | 2 |
 | **Concentração** | Manter um efeito de pé. Um por vez, e tomar dano pede Teste de Resistência de Vigor | 2 |
 | **Cobertura** | O que está entre você e quem atira. Três degraus: Parcial, Boa e Total | 4 |
+| **`Agarrar`** | Opção do `Atacar`. Aplica a condição `Agarrado` | 2 |
+
+## Condições
+
+Catorze estados nomeados, em três níveis. `Leve`, `Média` e `Pesada` também nomeiam custo de
+Melhoria — são escadas diferentes que usam as mesmas três palavras. O capítulo 4 separa as duas.
+
+**Condições**
+| Termo | O que é | Cap. |
+|---|---|---|
+| **`Agarrado`** | Seu deslocamento é `0`. Acaba se quem agarrou ficar `Incapacitado`, ou se algo tirar você do alcance dele | 4 |
+| **`Amedrontado`** | Desvantagem em ataque e em teste enquanto você enxergar a fonte do medo, e você não se aproxima dela de vontade própria | 4 |
+| **`Atordoado`** | Você perde a Ação Padrão e não usa reação | 4 |
+| **`Cego`** | Você não enxerga. Falha automática em teste que precise de vista, desvantagem nos seus ataques, e quem ataca você tem vantagem | 4 |
+| **`Derrubado`** | Está no chão, de pé no medidor. Vantagem a quem ataca de perto | 1 |
+| **`Desarmado`** | A sua arma está no chão ou na mão de outro. Você bate desarmado até pegar de volta | 4 |
+| **`Enfeitiçado`** | Você não ataca quem enfeitiçou nem mira efeito nocivo nele, e ele tem vantagem em teste social contra você | 4 |
+| **`Lento`** | Seu deslocamento cai pela metade e você não usa Ação Bônus | 4 |
 
 ## Equipamento
 
@@ -174,6 +197,53 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **`Desgaste`** | Ferramenta usada demais antes de chegar em você: cada uso derruba o grau dela em um | 12 |
 | **Invocação** | O que você põe em campo e comanda. Tem ficha própria, montada com orçamento | 13 |
 | **Amarra** | A invocação tem de ficar a até 18 metros de você, ou não pode ser comandada | 13 |
+| **`Emaranha`** | Propriedade de arma: você pode `Agarrar` sem largar a arma | 11 |
+| **`Fineza`** | Propriedade de arma: no corpo a corpo, troca Força por Destreza no acerto e no dano | 11 |
+| **`Longo Alcance`** | Propriedade de arma: ela alcança à distância, em metros | 11 |
+| **`Oculta`** | Propriedade de arma: dá para esconder no corpo, com um teste de `Prestidigitação` | 11 |
+| **`Par`** | Propriedade de arma: role dois dados de dano e fique com o melhor | 11 |
+| **`Rompe`** | Propriedade de arma: vantagem contra objeto e estrutura | 11 |
+| **`Talha`** | Propriedade de arma: `−1` no `Bloquear` de quem se defende | 11 |
+| **`Versátil`** | Propriedade de arma: nas duas mãos, o dado sobe um passo | 11 |
+| **`Vestida`** | Propriedade de arma: não ocupa a mão | 11 |
+| **`Volumosa`** | Propriedade de arma: não dá para esconder, e atrapalha em espaço apertado | 11 |
+| **`Remoto`** | Traço de invocação: funciona além dos 18 metros da amarra | 13 |
+| **`Vigia`** | Traço de invocação: o que ela vê e ouve, você vê e ouve | 13 |
+| **`Voo`** | Traço de invocação: voa, e o terreno para de valer para ela | 13 |
+
+## Formas, Melhorias e Restrições do Fundamento
+
+**Fundamento**
+| Termo | O que é | Cap. |
+|---|---|---|
+| **`Projétil`** | Forma: 18 m, um alvo, rolagem de acerto | 9 |
+| **`Toque`** | Forma: 1,5 m, um alvo. `Projétil` com `Corpo a Corpo` embutida | 9 |
+| **`Explosão`** | Forma: esfera de raio 3 m, num ponto a até 18 m, Teste de Resistência | 9 |
+| **`Cone`** | Forma: 4,5 m saindo de você, Teste de Resistência | 9 |
+| **`Linha`** | Forma: 18 m por 1,5 m, Teste de Resistência | 9 |
+| **`Apoio`** | Forma: um aliado a até 9 m, sem dano; o que sobra vira vida temporária | 9 |
+| **`Onda`** | Forma: esfera de raio 3 m centrada em você, pega todos os aliados dentro | 9 |
+| **`Efeito`** | Forma: fora de combate, sem dano | 9 |
+| **`Corpo a Corpo`** | Restrição: `Projétil` vira `Toque`, `Explosão` vira `Aura`. `Cone` e `Linha` não pegam | 9 |
+| **`Condicional`** | Restrição: só funciona quando uma condição de cena ou de alvo é verdadeira | 9 |
+| **`Gesto`** | Restrição: precisa das duas mãos livres e de falar em voz audível | 9 |
+| **`Parado`** | Restrição: você não se move no turno em que conjura | 9 |
+| **`Uma Vez`** | Restrição: uma vez por cena | 9 |
+| **`Fura`** | Melhoria: ignora até `3 × Classe` de Redução de Dano | 9 |
+| **`Longe`** | Melhoria: sobe um degrau na escada de alcance. Pode comprar duas vezes | 9 |
+| **`Maior`** | Melhoria: sobe um degrau de tamanho de área. Pode comprar duas vezes | 9 |
+| **`Precisão`** | Melhoria: `+2` na rolagem de acerto, ou `+2` na CD do Teste de Resistência | 9 |
+
+## Caminhos e Trilhas
+
+**Trilhas**
+| Termo | O que é | Cap. |
+|---|---|---|
+| **`Elo`** | Trilha do Guia: o que outra pessoa fez chega mais longe | 8 |
+| **`Sutura`** | Trilha do Guia: Energia Reversa cedo, e nos outros | 8 |
+| **`Torrente`** | Trilha do Emanador: mais de um feitiço na rodada, e a energia acaba | 8 |
+| **`Explosivo`** | Trilha do Emanador: um feitiço só, e ele sai maior | 8 |
+| **`Arremate`** | Trilha do Emanador: o feitiço acontece onde a mão chega | 8 |
 
 ## Palavras com sentido próprio
 
@@ -192,6 +262,7 @@ Estas palavras têm sentido próprio neste sistema.
 | **Refino** | quanto da sua energia não se perde | melhorar um item |
 
 > **`Paralisado` não existe neste sistema.** O que outros jogos chamam assim se chama `Atordoado` aqui.
+
 
 ---
 
@@ -245,13 +316,13 @@ físico: as duas mãos precisam se tocar antes de qualquer feitiço sair.
 | **PE** | 8 |
 | **Defesa** | 13 |
 | **Iniciativa** | `d20 + 2` |
-| **Ataque corpo a corpo (soco)** | `d20 + 3`, dano `d4 + 3` |
-| **Ataque de conjuração** | `d20 + 3` |
-| **CD dos feitiços dela** | 13 |
+| **Ataque corpo a corpo (soco)** | `d20 + 4`, dano `d4 + 3` |
+| **Ataque de conjuração** | `d20 + 4` — a técnica dela usa **Força** |
+| **CD dos feitiços dela** | 12 |
 
 > **`Peso nas Mãos`** · Classe 1 · Toque
-> Ela toca o alvo com as duas mãos. **`d20 + 3` contra a Defesa dele.** Acertando: **3d8 de
-> dano de concussão**, e o alvo fica `Derrubado`.
+> Ela toca o alvo com as duas mãos. **`d20 + 4` contra a Defesa dele.** Acertando: **3d8 de
+> dano de concussão**, e o alvo fica `Derrubado` (condição).
 
 > **`Corpo Duro`** · Reação, do Caminho Bastião
 > Ao ser atingida, ela reduz o dano em **`2` (o nível dela) `+ 1d6`**. Ela pode fazer isso
@@ -287,8 +358,8 @@ zero. *Isto é o `Corpo Duro` funcionando: ele não evita o golpe, evita o estra
 - **Gastar a Ação Bônus em `Alicerce`.** Se ela sabe que a luta vai continuar, plantar os
   pés agora corta o próximo golpe `Cortante` pela metade — e a maldição ataca com garra.
 - **Gastar a Ação Padrão em `Peso nas Mãos`.** Precisa estar a `1,5 m`: ela anda até lá com
-  o movimento e toca. Rola `d20 + 3` contra a Defesa 12 da maldição: tira 12, soma 3, fica
-  15. Acertou. `3d8` de dano: sai 14. **A maldição, com 14 de vida, cai.**
+  o movimento e toca. Rola `d20 + 4` contra a Defesa 12 da maldição: tira 12, soma 4, fica
+  16. Acertou. `3d8` de dano: sai 14. **A maldição, com 14 de vida, cai.**
 - **Recuar e negociar.** Nem toda cena precisa terminar em dano. Se o grupo tiver outra
   ideia, ela vale tanto quanto as duas de cima.
 
@@ -329,6 +400,8 @@ A **CD** é o número que a tarefa pede. Quem diz qual é o mestre, e ele tira d
 | 18 | média | escalar a fachada de um prédio na chuva, mentir para quem já desconfia |
 | 22 | difícil | reconhecer uma técnica que só aparece em três registros |
 | 26 | quase impossível | sair inteiro de uma coisa que não devia deixar ninguém sair |
+
+Por exemplo, numa CD 14 você precisa tirar 14 ou mais no d20 depois de somar o bônus: com bônus 3, um 11 no dado já basta.
 
 O bônus muda conforme o tipo de rolagem. As seções seguintes dizem o que entra em cada um.
 
@@ -403,7 +476,7 @@ Inteligência não concede perícias extras. O que você é treinado vem da Orig
 |---|---|---|---|---|
 | maestria | 1 | 2 | 3 | 4 |
 
-Maestria é o bônus que mede o tempo de estrada do personagem. Ela entra em três lugares: no ataque de conjuração, na CD dos seus feitiços e nas perícias em que você é treinado. Ela fica fora da Defesa e fora de Teste de Resistência, que são os dois números que o sistema deixa crescer só por atributo e equipamento.
+Maestria é o bônus que mede o tempo de estrada do personagem. Ela entra em três lugares: no ataque de conjuração, na CD dos seus feitiços e nas perícias em que você é treinado. Por exemplo, no nível 6 a sua maestria é 1, e no nível 10 ela vira 2. Ela fica fora da Defesa e fora de Teste de Resistência, que são os dois números que o sistema deixa crescer só por atributo e equipamento.
 
 A ficha começa no **nível 2**, já com um feitiço. O nível 1 fica como opção de campanha, para quando a mesa quiser jogar o personagem de antes de ele ser feiticeiro.
 
@@ -411,11 +484,13 @@ A ficha começa no **nível 2**, já com um feitiço. O nível 1 fica como opç�
 
 Três rolagens, uma para cada jeito de machucar alguém. Todas comparam com a **Defesa** do alvo, e todas seguem a mesma regra do teste: igualou ou passou, acertou.
 
-> **Ataque corpo a corpo = d20 + Força**
-> **Ataque à distância = d20 + Destreza**
-> **Ataque de conjuração = d20 + 2 + maestria**
+> **Ataque corpo a corpo = d20 + Força + maestria**
+> **Ataque à distância = d20 + Destreza + maestria**
+> **Ataque de conjuração = d20 + o atributo da sua técnica + maestria**
 
-O `2 + maestria` cresce sozinho: um Emanador de Força 0 acerta os feitiços dele igual a qualquer um. Algumas habilidades de Caminho trocam esse 2 fixo por um atributo, e é assim que nasce o feiticeiro que conjura pela Força. Quando for o caso, a habilidade diz.
+As três têm a mesma forma: **um atributo, mais a maestria.** O atributo do corpo a corpo é a Força e o do tiro é a Destreza; o da conjuração é aquele que você escolheu quando escreveu a técnica, e ele pode ser qualquer um dos cinco. O feiticeiro que conjura pela Força existe, e é só isso que ele é.
+
+A maestria entra porque a Defesa de quem você ataca cresce por dois caminhos — o atributo dele e a energia com que ele se cobre —, e um lado que cresce por dois precisa do outro crescendo por dois também.
 
 Nem todo feitiço rola acerto. Um feitiço resolve de três jeitos, e o capítulo 9, *Fundamento*, diz qual é o de cada um:
 
@@ -426,9 +501,9 @@ Nem todo feitiço rola acerto. Um feitiço resolve de três jeitos, e o capítul
 | **Teste de Resistência** | o alvo rola contra a CD do seu feitiço |
 | **Automático** | acontece, sem rolagem de nenhum dos dois lados |
 
-> **CD de feitiço = 10 + 2 + maestria.** É o mesmo bônus do ataque de conjuração, dez pontos acima.
+> **CD de feitiço = 8 + o atributo da sua técnica + maestria.**
 
-> **Exemplo.** Mei está no nível 10, então a maestria dela é 2. O ataque de conjuração dela é d20 + 4, e a CD de qualquer feitiço dela é 14. Ela tem duas versões da mesma técnica na ficha: uma que pede acerto e uma que pede Teste de Resistência. O alvo é um mestre-maldição com Defesa 17 e Teste de Resistência de Espírito alto. Ela escolhe a de acerto, porque 17 contra d20+4 é uma aposta melhor do que a CD 14 contra a resistência daquele bicho.
+> **Exemplo.** Mei está no nível 10, então a maestria dela é 2, e a técnica dela usa Essência, que ela tem em 4. O ataque de conjuração dela é `d20 + 6` e a CD de qualquer feitiço dela é 14. Ela tem duas versões da mesma técnica na ficha: uma que pede acerto e uma que pede Teste de Resistência. O alvo é um mestre-maldição com Defesa 17 e Teste de Resistência de Espírito alto. Ela escolhe a de acerto, porque 17 contra `d20 + 6` é uma aposta melhor do que a CD 14 contra a resistência daquele bicho.
 
 ### Crítico
 
@@ -444,7 +519,7 @@ Crítico só existe onde existe rolagem de acerto. Feitiço que resolve por Test
 
 > **Defesa = 10 + Destreza + proteção**
 
-Defesa é o número que o inimigo precisa igualar ou passar para te acertar. Ele rola contra ela; você não rola nada.
+Defesa é o número que o inimigo precisa igualar ou passar para te acertar. Ele rola contra ela; você não rola nada. Por exemplo, com Destreza 3 e um Traje de degrau 2, a sua Defesa é 15.
 
 **Proteção** é o que você veste ou o que você cobre. Cobrir-se de energia amaldiçoada dá proteção sem equipamento nenhum, e é aptidão básica de todo feiticeiro.
 
@@ -470,7 +545,9 @@ Um **Teste de Resistência** é o que você rola quando alguma coisa acontece co
 
 O TR Físico é o único que escolhe entre dois atributos, e essa escolha é feita uma vez na criação. Ela diz como o seu personagem sai da frente de uma explosão: quem travou em Força planta o pé e absorve, quem travou em Destreza salta.
 
-Você é treinado em **dois dos quatro**: a sua Origem treina um, o seu Caminho treina outro. O treino vale +2 fixo aqui. Maestria não entra em Teste de Resistência nunca.
+Você é treinado em **dois dos quatro**: a sua Origem treina um, o seu Caminho treina outro. **No Teste de Resistência que você treinou, você soma a maestria; nos outros dois, só o atributo.** É a mesma marca de treino da perícia e do ofício.
+
+> Os dois Testes de Resistência que você não treinou ficam para trás conforme a campanha anda — de `60%` de chance de resistir no nível 2 para `45%` no 30. Não é descuido: é o preço de não treinar, e é por ali que um chefe vai entrar.
 
 > **Exemplo.** Kaito travou o TR Físico em Destreza, que é 4, e a Origem dele treinou justamente esse. Um feitiço de área de CD 15 explode do lado dele: ele rola 9 no d20, soma 4 de Destreza e 2 de treino, dá 15. Igualou, então resistiu.
 
@@ -495,6 +572,17 @@ Três reservas, e cada uma tem uma conta diferente. Vida é o corpo, energia é 
 > **Exemplo.** Mei é Vanguarda, Constituição 3, nível 4. Nível 1: 8 + 3 = 11. Cada um dos três níveis seguintes: 5 + 3 = 8. Total: 11 + 24 = **35 de vida**.
 
 > **Variante: rolar a vida.** Se a sua mesa preferir, role o dado do Caminho a cada nível em vez de pegar o valor fixo da tabela. Na média isso rende um pouco menos.
+### Vida temporária
+
+Algumas coisas dão **vida temporária**: a Forma `Apoio`, a Passiva `Fluxo`, e habilidades de Trilha como o `Aprumo` e a `Crosta`.
+
+> **Vida temporária é anteparo, e não vida.** Ela é **gasta antes** da vida real, **não acumula** — duas fontes, você fica com a maior, nunca com a soma —, tem **teto de metade da sua vida máxima**, e **some no fim da cena**.
+
+Por exemplo, com 40 de vida máxima o seu teto é 20: um efeito que daria 27 te deixa em 20, e um segundo efeito que daria 12 não soma nada, porque 20 é maior.
+
+**O mestre pode deixar ela atravessar para a cena seguinte** quando a preparação foi deliberada — quem se cobre antes de entrar no prédio não perde o que gastou porque a cena mudou de nome.
+
+Ela não sobe a sua vida máxima, não conta para `Insistir`, e não é cura: quem está a `0` de vida e recebe vida temporária continua a `0`.
 
 ### Pontos de energia
 
@@ -510,7 +598,7 @@ Sem atributo e sem valor inicial: no nível 1 você tem o PE de um nível.
 
 > **Integridade = 20 + 8 × (nível − 1).** Plana, igual para todo mundo.
 
-Integridade é a sua alma, e a alma é igual para todo mundo: nem o Caminho nem a Constituição mexem nela. Dano de alma passa por cima de corpo duro.
+Integridade é a sua alma, e a alma é igual para todo mundo: nem o Caminho nem a Constituição mexem nela. Dano de alma passa por cima de corpo duro. Por exemplo, no nível 2 a sua Integridade é 28, e no nível 10 ela é 92.
 
 Dano de alma tem quatro estágios, e eles estão no capítulo 4, *Dano, Condições e Cobertura*, na seção *Dano na alma*. O quarto é o fim da linha: *"você não é mais você, e o que sobra é decisão do mestre"*.
 
@@ -725,7 +813,7 @@ Quem usa a Restrição `Carregar` mantém o movimento e a Ação Bônus no turno
 
 > **Feitiço em Ação Bônus ou Reação só permite mais um de Classe 0 no turno.**
 
-É a trava que impede dois feitiços grandes no mesmo turno.
+É a trava que impede dois feitiços grandes no mesmo turno. Por exemplo, se você conjurou um feitiço de Classe 3 na Ação Bônus, o que ainda cabe na Ação Padrão é um Classe 0, e nada maior.
 
 A Reação é uma só, e três coisas disputam ela: ataque de oportunidade, a ação `Preparar` e conjurar pela Melhoria `Reação`. Gastar a Reação com uma delas é abrir mão das outras até o seu próximo turno começar.
 
@@ -760,7 +848,7 @@ A regra prática: se é uma ferramenta ou um procedimento que alguém te ensinou
 > **Ofício = `d20` + o atributo que a situação pede + maestria, se você for treinado.**
 > Sem treino, você normalmente não consegue tentar.
 
-Ser **treinado** quer dizer ter aquela perícia ou aquele ofício marcado na ficha; a seção *Treino* diz de onde vêm as marcas. **Maestria** é o bônus que cresce com o nível, e a escada dela está no capítulo 1, *Como Jogar*. O mestre põe uma **CD**, o número que a sua rolagem precisa alcançar para você conseguir o que queria.
+Ser **treinado** quer dizer ter aquela perícia ou aquele ofício marcado na ficha; a seção *Treino* diz de onde vêm as marcas. **Maestria** é o bônus que cresce com o nível, e a escada dela está no capítulo 1, *Como Jogar*. O mestre põe uma **CD**, o número que a sua rolagem precisa alcançar para você conseguir o que queria. Por exemplo, com Destreza 3 e maestria 1, uma `Furtividade` treinada rola `d20 + 4`; sem treino, `d20 + 3`.
 
 ### Atributo fixo ou variável
 
@@ -803,7 +891,7 @@ Nenhuma perícia mora em Constituição. Constituição governa os pontos de vid
 
 #### Destreza
 
-**Acrobacia** — equilíbrio, cair sem se machucar, escapar de um agarrão, passar por espaço apertado. Aparece quando o chão trai: viga estreita, telhado molhado, o corredor desabando enquanto vocês correm. Também é o que tira você de um `Agarrado`.
+**Acrobacia** — equilíbrio, cair sem se machucar, escapar de um agarrão, passar por espaço apertado. Aparece quando o chão trai: viga estreita, telhado molhado, o corredor desabando enquanto vocês correm. Também é o que tira você de um `Agarrado`, no capítulo 4, *Dano, Condições e Cobertura*.
 
 **Furtividade** — mover-se sem ser visto nem ouvido. É a perícia de infiltração e de emboscada, e a que decide se a cena começa com o grupo escolhendo o momento ou com o inimigo escolhendo por ele.
 
@@ -928,7 +1016,7 @@ Além dessas duas, você escolhe um extra: um ofício livre, ou mais uma períci
 
 ### Testes de Resistência
 
-A Origem treina um Teste de Resistência, o Caminho treina outro. Ser treinado num Teste de Resistência vale **+2 fixo**, e a lista dos quatro está no capítulo 1, *Como Jogar*.
+A Origem treina um Teste de Resistência, o Caminho treina outro. Ser treinado num Teste de Resistência vale **a maestria**, igual à perícia e ao ofício, e a lista dos quatro está no capítulo 1, *Como Jogar*.
 
 ---
 
@@ -1006,7 +1094,7 @@ Um não puxa o outro. Um feitiço com o Tema `Fogo` só causa dano do tipo `Fogo
 
 ### Dano na alma
 
-**Integridade é a vida da alma**, e a fórmula dela é `20 + 8 × (nível − 1)`, do capítulo 1, *Como Jogar*.
+**Integridade é a vida da alma**, e a fórmula dela é `20 + 8 × (nível − 1)`, do capítulo 1, *Como Jogar*. Por exemplo, 6 de dano na alma tiram 6 de vida, 6 de Integridade, e derrubam a sua vida máxima em 6 até o próximo descanso longo.
 
 > **Cada ponto de dano na alma tira 1 de vida, 1 de Integridade, e derruba a sua vida máxima em 1** até o próximo descanso longo.
 >
@@ -1022,7 +1110,7 @@ Um não puxa o outro. Um feitiço com o Tema `Fogo` só causa dano do tipo `Fogo
 | 3/4 | **3** | Desvantagem em ataques e Testes de Resistência. Você não conjura acima de metade da sua Classe máxima. |
 | Toda | **4** | Você não é mais você. O que sobra é decisão do mestre. |
 
-**Cura comum não devolve o que a alma perdeu.** Só descanso longo, ou a Melhoria `Remenda`. O descanso longo devolve toda a Integridade e a vida máxima, e limpa os estágios.
+**Cura comum não devolve o que a alma perdeu.** Só descanso longo, ou a Melhoria `Remenda`, no capítulo 9, *Fundamento*. O descanso longo devolve toda a Integridade e a vida máxima, e limpa os estágios.
 
 **Nenhum feitiço passa de 2 × Classe em dados na alma.**
 
@@ -1036,44 +1124,198 @@ Um não puxa o outro. Um feitiço com o Tema `Fogo` só causa dano do tipo `Fogo
 
 ### Como ler
 
-Cada linha diz o nome, o efeito inteiro sem nada implícito, e como aquilo se parece na mesa. O nível de cada bloco está no título da seção. Onde a condição dá vantagem ou desvantagem, a coluna *o que faz* diz a quem.
+Cada condição abre dizendo **quando** ela vale. Depois vem um parágrafo por efeito, e cada
+efeito tem nome próprio: `Deslocamento`, `Seus ataques`, `Contra você`, `Ação`, `Testes` e
+`Sai quando`. Os mesmos seis nomes aparecem em todas as catorze, então quem aprende um
+reconhece nas outras.
+
+No fim do capítulo, a tabela `Condições em uma linha` traz as catorze resumidas, para
+consulta na mesa.
 
 ### Nível `Leve`
 
-**Condições de nível `Leve`**
-| condição | o que faz | na cena |
-|---|---|---|
-| `Lento` | seu deslocamento cai pela metade e você não usa Ação Bônus | as pernas pesam e o turno rende menos; você chega, só que atrasado |
-| `Incapacitado` | você não pode `Bloquear`, e todo ataque corpo a corpo contra você é crítico | a guarda abriu e você não consegue fechar de volta; quem chegar perto acerta onde quiser |
-| `Derrubado` | você está no chão. Só se move rastejando, tem desvantagem nos seus ataques, e quem ataca você **a até 1,5 m tem vantagem**; quem ataca de longe tem desvantagem | você está de costas no chão olhando para cima, e a prioridade do turno vira levantar |
-| `Agarrado` | seu deslocamento é `0`. Acaba se quem agarrou ficar `Incapacitado`, ou se alguma coisa tirar você do alcance dele | tem uma mão fechada em você; dá para bater, dá para conjurar, e não dá para sair |
-| `Desarmado` | a sua arma está no chão ou na mão de outro. Você bate desarmado até pegar de volta | o barulho da lâmina caindo no concreto, e a decisão de gastar o turno pegando |
-| `Surdo` | você não ouve. Falha automática em teste que precise de audição, e **`−2` na iniciativa** | zumbido, e tudo que chega por trás chega sem aviso |
+#### `Lento`
+
+Enquanto está `Lento`, você sofre os seguintes efeitos.
+
+**Deslocamento.** Cai pela metade.
+
+**Ação.** Você não usa Ação Bônus.
+
+*As pernas pesam e o turno rende menos; você chega, só que atrasado.*
+
+#### `Incapacitado`
+
+Enquanto está `Incapacitado`, você sofre os seguintes efeitos.
+
+**Ação.** Você não pode `Bloquear`.
+
+**Contra você.** Todo ataque corpo a corpo é crítico.
+
+*A guarda abriu e você não consegue fechar de volta; quem chegar perto acerta onde quiser.*
+
+#### `Derrubado`
+
+Você está no chão. Enquanto está `Derrubado`, você sofre os seguintes efeitos.
+
+**Deslocamento.** Só se move rastejando.
+
+**Seus ataques.** Desvantagem.
+
+**Contra você.** Vantagem a até **1,5 m**, desvantagem de mais longe.
+
+*Você está de costas no chão olhando para cima, e a prioridade do turno vira levantar.*
+
+#### `Agarrado`
+
+Enquanto está `Agarrado`, você sofre os seguintes efeitos.
+
+**Deslocamento.** É `0`.
+
+**Sai quando.** Quem agarrou ficar `Incapacitado`, ou alguma coisa tirar você do alcance dele.
+
+*Tem uma mão fechada em você; dá para bater, dá para conjurar, e não dá para sair.*
+
+#### `Desarmado`
+
+A sua arma está no chão ou na mão de outro. Enquanto está `Desarmado`, você sofre o seguinte
+efeito.
+
+**Seus ataques.** Você bate desarmado até pegar a arma de volta.
+
+*O barulho da lâmina caindo no concreto, e a decisão de gastar o turno pegando.*
+
+#### `Surdo`
+
+Você não ouve. Enquanto está `Surdo`, você sofre os seguintes efeitos.
+
+**Testes.** Falha automática no que precise de audição.
+
+**Iniciativa.** `−2`.
+
+*Zumbido, e tudo que chega por trás chega sem aviso.*
 
 ### Nível `Média`
 
-**Condições de nível `Média`**
-| condição | o que faz | na cena |
-|---|---|---|
-| `Calado` | você não conjura. Nada que precise de voz, gesto ou Selo sai | você tenta e não sai nada; o resto da luta você vira alguém com as mãos e mais nada |
-| `Enfeitiçado` | você não ataca quem enfeitiçou nem mira efeito nocivo nele, e ele tem vantagem em teste social contra você | você continua você, e aquela pessoa passou a ter razão sobre tudo |
+#### `Calado`
+
+Enquanto está `Calado`, você sofre o seguinte efeito.
+
+**Conjuração.** Você não conjura. Nada que precise de voz, gesto ou Selo sai.
+
+*Você tenta e não sai nada; o resto da luta você vira alguém com as mãos e mais nada.*
+
+#### `Enfeitiçado`
+
+Enquanto está `Enfeitiçado`, você sofre os seguintes efeitos.
+
+**Seus ataques.** Você não ataca quem enfeitiçou, nem mira efeito nocivo nele.
+
+**Contra você.** Ele tem vantagem em teste social contra você.
+
+*Você continua você, e aquela pessoa passou a ter razão sobre tudo.*
 
 ### Nível `Pesada`
-
-**Condições de nível `Pesada`**
-| condição | o que faz | na cena |
-|---|---|---|
-| `Petrificado` | você virou pedra. `Incapacitado`, deslocamento `0`, sem perceber nada em volta, quem ataca você tem vantagem, e você tem resistência a todo dano | você sai da luta inteiro e sem saber o que aconteceu enquanto isso |
-| `Impedido` | seu deslocamento é `0`, você tem desvantagem nos seus ataques e no Teste de Resistência Físico, e quem ataca você tem vantagem | alguma coisa te prendeu no lugar: teia, corrente, o chão fechando em cima do pé |
-| `Cego` | você não enxerga. Falha automática em teste que precise de vista, desvantagem nos seus ataques, e quem ataca você tem vantagem | você ataca na direção do barulho, e o grupo passa a te narrar a sala |
-| `Amedrontado` | desvantagem em ataque e em teste enquanto você enxergar a fonte do medo, e você não se aproxima dela de vontade própria | você sabe o que precisa ser feito e o corpo não avança |
-| `Envenenado` | desvantagem nos seus ataques e em todo teste de perícia | suor frio, mão tremendo, e tudo saindo pela metade |
-| `Atordoado` | você perde a Ação Padrão e não usa reação. Quem tem mais de uma Ação Padrão no turno (um chefe, um capanga grande) perde **uma**, e não todas | o mundo demora a voltar; a rodada passa por cima de você |
 
 > **Só as de nível `Pesada` dão Teste de Resistência no fim de cada turno do alvo.**
 > **E só cabe uma delas por feitiço.**
 
+#### `Petrificado`
+
+Você virou pedra. Enquanto está `Petrificado`, você sofre os seguintes efeitos.
+
+**Ação.** Você fica `Incapacitado`.
+
+**Deslocamento.** É `0`.
+
+**Testes.** Você não percebe nada em volta.
+
+**Contra você.** Vantagem.
+
+**Resistência.** A todo dano.
+
+*Você sai da luta inteiro e sem saber o que aconteceu enquanto isso.*
+
+#### `Impedido`
+
+Enquanto está `Impedido`, você sofre os seguintes efeitos.
+
+**Deslocamento.** É `0`.
+
+**Seus ataques.** Desvantagem.
+
+**Testes.** Desvantagem no Teste de Resistência Físico.
+
+**Contra você.** Vantagem.
+
+*Alguma coisa te prendeu no lugar: teia, corrente, o chão fechando em cima do pé.*
+
+#### `Cego`
+
+Você não enxerga. Enquanto está `Cego`, você sofre os seguintes efeitos.
+
+**Testes.** Falha automática no que precise de vista.
+
+**Seus ataques.** Desvantagem.
+
+**Contra você.** Vantagem.
+
+*Você ataca na direção do barulho, e o grupo passa a te narrar a sala.*
+
+#### `Amedrontado`
+
+Enquanto está `Amedrontado`, você sofre os seguintes efeitos.
+
+**Seus ataques.** Desvantagem, enquanto você enxergar a fonte do medo.
+
+**Testes.** Desvantagem, enquanto você enxergar a fonte do medo.
+
+**Deslocamento.** Você não se aproxima dela de vontade própria.
+
+*Você sabe o que precisa ser feito e o corpo não avança.*
+
+#### `Envenenado`
+
+Enquanto está `Envenenado`, você sofre os seguintes efeitos.
+
+**Seus ataques.** Desvantagem.
+
+**Testes.** Desvantagem em todo teste de perícia.
+
+*Suor frio, mão tremendo, e tudo saindo pela metade.*
+
+#### `Atordoado`
+
+Enquanto está `Atordoado`, você sofre os seguintes efeitos.
+
+**Ação.** Você perde a Ação Padrão e não usa reação. Quem tem mais de uma Ação Padrão no
+turno — um chefe, um capanga grande — perde **uma**, e não todas.
+
+*O mundo demora a voltar; a rodada passa por cima de você.*
+
 > **Exemplo.** A Rina fica `Atordoada`. Ela perde a Ação Padrão daquele turno e não usa reação, então ninguém leva ataque de oportunidade dela. A Defesa continua a mesma: `Atordoado` não abre a guarda de ninguém. No fim do turno dela, como é uma condição `Pesada`, ela faz o Teste de Resistência e pode sair sozinha.
+
+### Condições em uma linha
+
+Para consulta na mesa. O efeito inteiro de cada uma está acima, na entrada dela.
+
+**Condições em uma linha**
+| condição | nível | o que faz |
+|---|---|---|
+| `Lento` | `Leve` | deslocamento pela metade, sem Ação Bônus |
+| `Incapacitado` | `Leve` | não `Bloqueia`, e todo ataque corpo a corpo contra você é crítico |
+| `Derrubado` | `Leve` | rasteja; desvantagem nos seus ataques; vantagem a quem ataca de perto |
+| `Agarrado` | `Leve` | deslocamento `0` |
+| `Desarmado` | `Leve` | bate desarmado até pegar a arma de volta |
+| `Surdo` | `Leve` | falha no que precise de audição, `−2` na iniciativa |
+| `Calado` | `Média` | não conjura |
+| `Enfeitiçado` | `Média` | não ataca quem enfeitiçou; ele tem vantagem social contra você |
+| `Petrificado` | `Pesada` | `Incapacitado`, deslocamento `0`, resistência a todo dano |
+| `Impedido` | `Pesada` | deslocamento `0`, desvantagem nos ataques e no Físico |
+| `Cego` | `Pesada` | falha no que precise de vista, desvantagem nos ataques |
+| `Amedrontado` | `Pesada` | desvantagem enquanto vir a fonte, e não se aproxima dela |
+| `Envenenado` | `Pesada` | desvantagem nos ataques e em todo teste de perícia |
+| `Atordoado` | `Pesada` | perde a Ação Padrão e a reação |
 
 ### `Atordoado` e `Incapacitado`
 
@@ -1088,7 +1330,6 @@ Nenhuma das duas contém a outra. Escolher uma para aplicar é escolher o que vo
 `Paralisado` não existe neste sistema. O que outros jogos chamam assim se chama `Atordoado` aqui, e não há um terceiro degrau que some os dois.
 
 > **Metade do `Incapacitado` só aparece se a sua mesa usa `Bloquear`.** A outra metade — todo ataque corpo a corpo contra você é crítico — vale sempre, com `Bloquear` ligado ou não.
-
 ### `Inconsciente`, `Exaustão` e `Invisível`
 
 Estas três não são condição.
@@ -1216,9 +1457,7 @@ A metade é sempre metade do **máximo**, nunca metade do que sobrou. Um Emanado
 
 A Integridade volta inteira em qualquer lugar. É a única coisa que o ambiente não toca: não precisa de enfermaria quem precisa é do músculo.
 
-#### Frações
-
-> **Arredonde para baixo, e o que você recupera nunca fica abaixo de 1.**
+> **Frações.** Arredonde para baixo, e o que você recupera nunca fica abaixo de 1.
 
 O piso de 1 não desfaz um zero escrito. Quando a tabela `Degraus de Exaustão` diz que no degrau 3 você recupera **nada**, ela diz nada: o piso existe para a conta que deu 0,4.
 
@@ -1494,10 +1733,10 @@ Nada aqui é escolha. Você copia da tabela e faz a conta.
 | Deslocamento | 9 metros |
 | Ataque corpo a corpo | d20 + Força |
 | Ataque à distância | d20 + Destreza |
-| Ataque de conjuração | d20 + 3 |
+| Ataque de conjuração | d20 + atributo da técnica + maestria |
 | CD de feitiço | 13 |
 | Perícia treinada | d20 + atributo + 1 |
-| Teste de Resistência | d20 + atributo do TR, +2 se treinado |
+| Teste de Resistência | d20 + atributo do TR + maestria, e a maestria só se treinado |
 
 No refino 1 você já tem duas aptidões, de graça: `cobrir-se de energia`, que dá proteção sem equipamento, e `canalizar energia`, que permite ferir uma maldição com o corpo ou com a arma. São básicas de qualquer feiticeiro.
 
@@ -1559,9 +1798,9 @@ Força 3 · Constituição 2 · Destreza 2 · Inteligência 1 · Essência 1. No
 | PE | 4 × 2 | **8** |
 | Defesa | 10 + 2 + 1 | **13** |
 | Iniciativa | d20 + 2 | |
-| Ataque corpo a corpo | d20 + 3 | |
-| Ataque de conjuração | d20 + 2 + 1 | **d20 + 3** |
-| CD dos feitiços dela | 10 + 2 + 1 | **13** |
+| Ataque corpo a corpo | d20 + 3 + 1 | **d20 + 4** |
+| Ataque de conjuração | d20 + 3 + 1 | **d20 + 4** |
+| CD dos feitiços dela | 8 + 3 + 1 | **12** |
 | Atletismo (treinado) | d20 + 3 + 1 | **d20 + 4** |
 
 ## Checklist do mestre
@@ -1731,7 +1970,7 @@ Fundamento, do jeito padrão.
 > **Gambiarra** — uma vez por dia, use um ofício que você não tem treinado como se tivesse. Você já resolveu isso com o que estava na mão.
 > *Na mesa:* aparece quando falta o especialista: fechadura, motor, curativo de emergência, papelada que precisa passar por um balcão.
 
-> **Desconfiado** — uma vez por cena, role com vantagem o Teste de Resistência contra ficar `Enfeitiçado`. Ninguém nunca te deu nada de graça, e você aprendeu cedo que quem se aproxima quer alguma coisa.
+> **Desconfiado** — uma vez por cena, role com vantagem o Teste de Resistência contra ficar `Enfeitiçado` (condição). Ninguém nunca te deu nada de graça, e você aprendeu cedo que quem se aproxima quer alguma coisa.
 > *Na mesa:* cena de sedução, de promessa boa demais, de maldição que fala bonito antes de encostar.
 
 #### Desliga
@@ -2001,13 +2240,13 @@ Fundamento, do jeito padrão.
 | Já Morri | uma condição nomeada (1) | por cena |
 | Método Velho | uma situação nomeada (1) | por cena |
 
-> **Corpo Emprestado** — dor não te para como para os outros: uma vez por cena, role com vantagem o Teste de Resistência contra ficar `Incapacitado`. O corpo avisa os outros e não avisa você.
+> **Corpo Emprestado** — dor não te para como para os outros: uma vez por cena, role com vantagem o Teste de Resistência contra ficar `Incapacitado` (condição). O corpo avisa os outros e não avisa você.
 > *Na mesa:* é o personagem que continua de pé na cena em que devia cair, e que só descobre o tamanho do estrago depois.
 
 > **Espasmo** — uma vez por cena, refaça um Teste de Resistência Físico ou de Vigor que você já tenha falhado. O corpo fez uma coisa que você não mandou, e quem estava aqui antes ainda está nos músculos.
 > *Na mesa:* boa desculpa para o mestre descrever o corpo agindo sozinho, na frente de quem conhecia o antigo dono.
 
-> **Já Morri** — uma vez por cena, role com vantagem o Teste de Resistência contra ficar `Amedrontado`. Você já esteve do outro lado e não achou grande coisa. Não mede risco como quem tem uma vida só.
+> **Já Morri** — uma vez por cena, role com vantagem o Teste de Resistência contra ficar `Amedrontado` (condição). Você já esteve do outro lado e não achou grande coisa. Não mede risco como quem tem uma vida só.
 > *Na mesa:* aparece contra maldição de terror e contra intimidação em cena social. Você é quem entra na sala que o resto do grupo evita.
 
 > **Método Velho** — uma vez por cena, um teste que envolva método antigo (ritual, selo, barreira velha, escrita morta) sai como se você fosse treinado nele. Era assim que se fazia no seu tempo.
@@ -2596,9 +2835,10 @@ A fantasia do `Muro` é a do feiticeiro que planta os dois pés e vira geografia
 
 Jogando de `Muro`, você chega na cena procurando o ponto certo de parar de andar. Das três Trilhas do Bastião, essa é a que menos rola dado de ataque: o seu turno rende quando o inimigo desiste de ir aonde queria ir. Em troca, você é a ficha mais difícil de derrubar da mesa inteira, e a única que faz o inimigo pagar pedágio só por estar perto.
 
-> **Nível 2: `Alicerce`.** *Ação bônus.* Você se firma no lugar. **Enquanto o `Alicerce` estiver de pé, o dano de dois tipos à sua escolha cai pela metade contra você, e o seu deslocamento é metade do normal.** Sair dele não custa nada. **Os tipos se escolhem no fim de cada descanso longo.**
+> **Nível 2: `Alicerce`.** *Ação bônus.* Você se firma no lugar. **Enquanto o `Alicerce` estiver de pé, o dano de dois tipos à sua escolha cai pela metade contra você, e o seu deslocamento é metade do normal.**
+> **Sair dele não custa nada**, e **os tipos se escolhem no fim de cada descanso longo**.
 >
-> **Nível 11: `Aterro`.** O chão a **4,5 m** em volta de você é terreno difícil para inimigos, cada metro custa dois. **E todo deslocamento forçado contra você, seja empurrão, puxão ou arremesso, tem metade da distância.**
+> **Nível 11: `Aterro`.** *Sempre ligado, e não depende do `Alicerce`.* O chão a **4,5 m** em volta de você é terreno difícil para inimigos, cada metro custa dois. **E todo deslocamento forçado contra você, seja empurrão, puxão ou arremesso, tem metade da distância.**
 >
 > **Nível 19: `Escora`.** O `Absorver` do seu Caminho ganha **mais usos, iguais a metade da sua Constituição**, e **qualquer um deles pode ser gasto num aliado que você enxergue a até 9 m.** Continua custando a sua Reação.
 >
@@ -2618,7 +2858,7 @@ Onde o `Muro` segura o inimigo no lugar, o `Punho` arruma o campo empurrando. Jo
 
 > **Nível 2: `Engate`.** Quando você **acerta** um ataque na sua ação de atacar, você pode dar um golpe desarmado como **ação bônus**.
 >
-> **Nível 11: `Encontrão`.** Quando você acerta desarmado, **o alvo é empurrado até 3 m na direção que você escolher.** E **uma vez por rodada**, um alvo que você acertou faz um Teste de Resistência de Vigor; se falhar, fica **`Derrubado`**.
+> **Nível 11: `Encontrão`.** Quando você acerta desarmado, **o alvo é empurrado até 3 m na direção que você escolher.** E **uma vez por rodada**, um alvo que você acertou faz um Teste de Resistência de Vigor; se falhar, fica **`Derrubado`** (condição).
 >
 > **Nível 19: `Tropel`.** Quando o empurrão do nível 11 joga alguém contra outra criatura, **ela também é empurrada.** Cada uma faz um Teste de Resistência de Vigor: **quem passa segura a corrente, e ela para ali.** A distância total nunca passa do deslocamento do primeiro empurrado. *Vale só no empurrão do nível 11.*
 >
@@ -2732,7 +2972,7 @@ Jogando de `Estocada`, você tem a rodada mais cheia da Vanguarda e a decisão m
 >
 > **Nível 27: `Ferrão`.** Se o feitiço que você conjurou na Ação Padrão **acertou**, o **primeiro** golpe da sua ação bônus carrega um **feitiço de Classe 0** junto. *O Classe 0 acompanha o golpe: se o golpe erra, ele não sai.*
 
-*O `Compasso` também muda a sua ficha fora da luta, porque a partir dele o seu atributo de conjuração é o mesmo que bate. Uma Vanguarda de `Estocada` pode montar personagem com Força baixa e ainda ser perigosa de arma na mão, e isso abre espaço para uma pessoa muito mais interessante socialmente do que o brutamontes de sempre.*
+*O `Compasso` também muda a sua ficha fora da luta, porque a partir dele a arma bate com o mesmo atributo que a sua técnica usa. Uma Vanguarda de `Estocada` pode montar personagem com Força baixa e ainda ser perigosa de arma na mão, e isso abre espaço para uma pessoa muito mais interessante socialmente do que o brutamontes de sempre.*
 
 *O que a Trilha compra é o que a Vanguarda perdia: conjurar gasta a ação padrão, então usar a sua técnica custava todos os ataques da rodada. Aqui não custa mais.*
 
@@ -2771,11 +3011,12 @@ Arco longo, treino de clã, silêncio. A rota do `Yumi` troca cadência por prec
 
 A besta é ferramenta de quem trabalha sozinho e não tem tempo de recarregar. Essa rota resolve a manivela de uma vez e usa o impacto do virote para tirar o inimigo do lugar, o que faz dela a única das três que também administra posicionamento.
 
-> **Nível 2: `Manivela`.** As suas bestas **deixam de carregar `Munição`**, você nunca recarrega.
+> **Nível 2: `Manivela`.** As suas bestas **deixam de carregar `Munição`** — a propriedade de arma do capítulo 11, *Equipamento* —, você nunca recarrega.
 >
 > **Nível 11: `Mirar`.** Você ganha a ação **`Mirar`**, e os seus ataques com arma de longo alcance somam **`+2` no acerto**.
 >
-> **Nível 19: `Repuxo`.** Ao disparar, **uma vez por rodada**, o alvo faz um Teste de Resistência de Vigor; numa falha, é empurrado **`1,5 m × maestria`** na direção oposta. E você **deixa de sofrer desvantagem por estar colado**.
+> **Nível 19: `Repuxo`.** Ao disparar, **uma vez por rodada**, o alvo faz um Teste de Resistência de Vigor; numa falha, é empurrado **`1,5 m × maestria`** na direção oposta.
+> **E você deixa de sofrer desvantagem por estar colado**, o tempo todo.
 >
 > **Nível 27: `Dobro`.** O `Mirar` passa a valer para o **ataque básico e o extra**.
 
@@ -2783,7 +3024,8 @@ A besta é ferramenta de quem trabalha sozinho e não tem tempo de recarregar. E
 
 Pólvora, ruído e uma profissão que finge não usar isso. É a rota que funciona no aperto: corredor estreito, sala pequena, inimigo colado em você. Quem escolhe `Arma de Fogo` aceita chamar atenção de todo mundo num raio de quarteirão, e o resto do time precisa contar com isso no plano.
 
-> **Nível 2: `Ferrolho`.** A sua arma de fogo só força recarga no **`1` natural**, e não no `1` ou `2`. E você **deixa de sofrer desvantagem por estar colado**.
+> **Nível 2: `Ferrolho`.** A sua arma de fogo só força recarga no **`1` natural**, e não no `1` ou `2`.
+> **E você deixa de sofrer desvantagem por estar colado**, o tempo todo.
 >
 > **Nível 11: `Mirar`.** Você ganha a ação **`Mirar`**, e os seus ataques com arma de longo alcance somam **`+2` no acerto**.
 >
@@ -2803,7 +3045,7 @@ Enquanto o `Batedor` administra o campo e a `Estocada` administra a rodada, o `E
 
 > **Nível 2: `Pegada`.** Você escolhe um **estilo de luta**, e ele vale a campanha inteira. *Cada estilo pede um jeito diferente de segurar a arma, e é isso que impede um de ser a versão melhor do outro.*
 >
-> **Nível 11: `Aprumo`.** *Ação bônus.* Você ganha **`1d10 + o seu atributo de ataque`** de PV temporário, Força ou Destreza, o que a sua ficha usa para bater. **`Metade desse atributo` usos**, e eles voltam no descanso curto.
+> **Nível 11: `Aprumo`.** *Ação bônus.* Você ganha **`1d10 + o seu atributo de ataque`** de `vida temporária`, Força ou Destreza, o que a sua ficha usa para bater. **`Metade desse atributo` usos**, e eles voltam no descanso curto.
 >
 > **Nível 19: `Revide`.** *Reação.* Quando alguém a até `1,5 m` faz um ataque contra você, **acertando ou errando**, você pode gastar a sua Reação para atacar essa criatura.
 >
@@ -2823,6 +3065,8 @@ Enquanto o `Batedor` administra o campo e a `Estocada` administra a rodada, o `E
 | `Arma Grande` | arma de duas mãos | rerrolar `1` e `2` no dado de dano |
 
 > **Todo estilo pede alguma coisa, e o pedido é regra.** Um estilo sem porta ficaria disponível para toda ficha, e aí ninguém escolheria os outros.
+
+O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 11, *Equipamento*.
 
 ## Guia
 
@@ -3009,7 +3253,7 @@ Jogando de `Explosivo`, quase toda entrega da Trilha melhora a mesma coisa, que 
 
 > **Nível 2: `Pavio`.** Quando o feitiço que você conjura é **o único feitiço de dano daquele turno**, **rerrole todo dado de dano dele que cair em `1` ou `2`.**
 >
-> **Nível 11: `Estopim`.** Todo feitiço seu soma o **seu atributo de conjuração** no dano.
+> **Nível 11: `Estopim`.** Todo feitiço seu soma o **atributo da sua técnica** no dano.
 >
 > **Nível 19: `Rompante`.** Ao conjurar um feitiço que resolve por rolagem de acerto, você pode gastar **`a Classe` dele em PE** para rolar aquele ataque **com vantagem**. *Num Classe 7 são `7` PE, além dos `21` do próprio feitiço.*
 >
@@ -3030,7 +3274,7 @@ Jogando de `Arremate`, você é o Emanador que precisa estar dentro do alcance d
 >
 > **Nível 11: `Rebote`.** A sua ação de Atacar passa a dar **dois golpes**.
 >
-> **Nível 19: `Crosta`.** Quando você conjura estando **adjacente a um inimigo**, você ganha **`maior Classe` de PV temporário**.
+> **Nível 19: `Crosta`.** Quando você conjura estando **adjacente a um inimigo**, você ganha **`maior Classe` de `vida temporária`**.
 >
 > **Nível 27: *vaga*.** *A casa existe e está vazia. A ficção dela é o capstone do molde: deixar de precisar encostar.*
 
@@ -3164,34 +3408,26 @@ Cada feitiço é montado na Classe que o seu nível já liberou, e *Números da 
 
 ### Atributo da técnica
 
-A resposta curta é que, por padrão, **a sua técnica não usa atributo nenhum**. Isso confunde quem vem de outros sistemas, então vale abrir.
+**Toda técnica usa um atributo, e você escolhe qual quando escreve ela.** Um dos cinco, na criação, e ele não muda depois.
 
-> **Ataque de conjuração = d20 + 2 + maestria**
+> **Ataque de conjuração = d20 + o atributo da sua técnica + maestria**
 > **Maestria** começa em 1 e sobe um ponto a cada oito níveis.
 
-O `2 + maestria` faz para o conjurador o trabalho que a Força faz para quem bate com o braço: ele cresce sozinho, no mesmo ritmo de um atributo em que a pessoa investe a campanha inteira. A diferença é que ele não te cobra nada. Você distribui os seus pontos de atributo onde quiser, e a sua técnica não fica para trás por causa disso.
+É a mesma forma do soco e do tiro — atributo mais maestria —, e é de propósito: **o feitiço não tem uma regra própria de acertar.** Uma técnica de cálculo usa Inteligência, uma de leitura de energia usa Essência, e o feiticeiro que conjura batendo usa Força. O molde é o Todo.
 
-**Ataque e CD por nível**
-| Seu nível | Maestria | Ataque de conjuração | CD dos seus feitiços |
-|---|---|---|---|
-| 2 a 9 | 1 | d20 + 3 | 13 |
-| 10 a 17 | 2 | d20 + 4 | 14 |
-| 18 a 25 | 3 | d20 + 5 | 15 |
-| 26 a 30 | 4 | d20 + 6 | 16 |
+**Ataque e CD de um atributo levado ao teto**
+| Seu nível | Maestria | Atributo | Ataque de conjuração | CD dos seus feitiços |
+|---|---|---|---|---|
+| 2 a 9 | 1 | 3 | d20 + 4 | 12 |
+| 10 a 17 | 2 | 4 | d20 + 6 | 14 |
+| 18 a 25 | 3 | 5 | d20 + 8 | 16 |
+| 26 a 30 | 4 | 6 | d20 + 10 | 18 |
 
-Não existe coluna de atributo ali. Não existe "atributo de conjuração" na ficha padrão, e nenhum feitiço pede um.
+Esta tabela supõe que você levou o atributo da técnica até o topo. Se ele ficar parado, a sua técnica fica junto — e é essa a escolha que a linha de cima esconde.
 
-**O que muda isso é o Caminho.** Algumas habilidades de Caminho trocam esse `2` fixo por um atributo, e a habilidade diz qual. É assim que nasce o feiticeiro que conjura pela Força, no molde do Todo, e as duas trocas mais comuns são por **Inteligência** ou por **Essência**. Quando você pega uma dessas habilidades, o `2` sai e o atributo entra no lugar:
+**Escolha o atributo que o seu personagem já ia querer alto.** As perícias que ele usa, o Teste de Resistência que ele quer aguentar, uma Trilha que soma o mesmo atributo no dano: se alguma dessas coisas já puxa um atributo para cima, aponte a técnica para ele. Apontar para um atributo que você não pretende pagar é a armadilha desta página.
 
-> Sem a troca: `d20 + 2 + maestria`.
-> Com a troca: `d20 + atributo + maestria`.
-> A CD acompanha, porque ela é sempre o seu bônus de conjuração dez pontos acima.
-
-**Quando vale a pena.** A conta é direta: com o atributo em 2 a troca não muda nada, abaixo de 2 você perde, acima de 2 você ganha a diferença. Mas tem um segundo efeito que pesa mais que o primeiro. Depois da troca, aquele atributo passa a carregar todo feitiço que você lança, para sempre. Isso é ótimo se você já ia investir nele de qualquer jeito, e é uma armadilha se você pegou a habilidade e deixou o atributo em 1: aí você trocou um número que crescia sozinho por um que você esqueceu de pagar.
-
-Vale a pena, então, quando o atributo já é natural do seu personagem por outros motivos: as perícias que ele usa, o Teste de Resistência que ele quer aguentar, uma Trilha que soma o mesmo atributo no dano. Se nada disso for verdade, fique com o `2` fixo.
-
-**Qual dos dois, Inteligência ou Essência.** A divisória é uma frase: **Inteligência sabe, Essência percebe.**
+> Nada te obriga a escolher Inteligência ou Essência. Elas são as mais comuns porque quase toda técnica é análise ou percepção — mas a regra é *um dos cinco*, e a ficção decide.
 
 **Inteligência ou Essência**
 | Inteligência | Essência |
@@ -3208,10 +3444,11 @@ Na prática, Essência é o atributo que a maioria dos conjuradores acaba queren
 
 Metade dos seus feitiços deixa a rolagem com o alvo: ele é quem rola contra você. O número que ele precisa passar é a sua **CD de feitiço**.
 
-> **CD de feitiço = 10 + 2 + maestria.**
-> É o mesmo bônus do ataque de conjuração, dez pontos acima.
+> **CD de feitiço = 8 + o atributo da sua técnica + maestria.**
 
-É por isso que os dois nunca descolam. Se o seu ataque de conjuração é `d20 + 4`, a sua CD é 14. Se uma habilidade de Caminho trocar o `2` por um atributo, os dois se mexem juntos.
+**O `8` não é um número escolhido: ele é a chance de quem treinou.** Quem resiste rola `d20 + o atributo daquele Teste + a maestria dele, se ele treinou aquele Teste` — e quando os dois lados têm atributo e maestria, o que sobra no dado é exatamente `8`. **Passar `8` num d20 é `65%`, e é isso que um Teste de Resistência treinado vale, do nível 2 ao 30.**
+
+**Quem não treinou aquele Teste não soma a maestria, e cai para trás conforme a campanha anda** — de `60%` no nível 2 para `45%` no 30. Toda ficha treina dois Testes de Resistência de quatro; os outros dois são o lugar por onde um chefe entra.
 
 **Você tem uma CD só.** Ela não muda de feitiço para feitiço, não sobe com a Classe e não se compra com pontos. É um número da ficha, como a sua Defesa.
 
@@ -3694,6 +3931,8 @@ Feitiço que carrega pelo menos uma Melhoria da família **Controle** ganha um b
 
 O bônus vale só contra os efeitos de Controle do feitiço. O Teste de Resistência do dano, quando existe, fica como está.
 
+Por exemplo, num Classe 4 o teto é 16 dados: sobrar até 4 dados de dano já dá a rodada extra, e sobrar zero dá também o `+2` na CD.
+
 **Controle**
 | Feitiço de Classe 5 · 15 pontos · teto 20 · um quarto = 5 | Dano final | O que ganha |
 |---|---|---|
@@ -3857,7 +4096,7 @@ O dano que continua doendo depois do golpe: queima que volta, corte que piora co
 | `Remate` | `Média` | +25% de dano contra alvo abaixo de metade da vida. Não entra num feitiço que tenha uma `Condicional` ligada à vida do alvo. |
 | `Estilhaço` | `Leve` | Em crítico, ou quando o alvo erra o Teste de Resistência por 5 ou mais, metade dos dados respinga em quem estiver do lado. |
 | `Quebra Coisa` | `Leve` | Dano dobrado contra barreiras, objetos e estruturas. |
-| `Rasga Escudo` | `Média` | O dano ignora pontos de vida temporários e barreiras: bate direto na vida. |
+| `Rasga Escudo` | `Média` | O dano ignora `vida temporária` e barreiras: bate direto na vida. |
 | `Sem Cura` | `Média` | O alvo não pode receber cura até o fim do próximo turno dele. |
 
 ### Tempo
@@ -4409,9 +4648,7 @@ O refino cresce de +7 a +9 numa campanha, e atributo e maestria crescem +3. Um n
 
 A `Projetar energia` é a única que põe refino em dano, e o dano dela é baixo o bastante para nunca competir com um feitiço. A proteção de `Cobrir-se de energia` entra na sua Defesa, e por isso usa `1/3 do refino` em vez do valor cheio.
 
-#### Arredondamento
-
-> **Toda divisão de refino arredonda para baixo.** Refino 5 dividido por 2 dá 2.
+> **Arredondamento.** Toda divisão de refino arredonda para baixo: refino 5 dividido por 2 dá 2.
 
 ## Marco
 
@@ -4430,7 +4667,6 @@ A cada marco a ficha ganha três coisas de graça e escolhe uma quarta.
 O refino no teto acontece cedo para quem investe: a partir do nível 22, a metade "mais um de refino" da escolha não teria onde cair. É por isso que ela troca de moeda e entrega a segunda aptidão.
 
 > **Quem nunca escolhe Refino termina a campanha com zero aptidões.** A rota existe e é legítima: ela troca dez aptidões por sete pontos de atributo a mais. Está escrito aqui para ninguém descobrir isso no nível 20.
-
 Mesmo essa ficha não fica sem nada. `Cobrir-se de energia` e `Canalizar energia` vêm de graça no refino 1, e a primeira continua crescendo com o refino passivo até 8. O que ela nunca vai ter é `Energia Reversa` nem `Barreira Simples`.
 
 *O marco é do capítulo 14, __Experiência e Progressão__: é lá que estão os sete níveis em que ele cai, quanto refino cada rota junta marco a marco, e o que Corpo e Leque compram. Aqui interessa só a escolha de Refino, que é a que vira aptidão.*
@@ -4510,7 +4746,7 @@ Estas duas chegam com a ficha, no refino 1, sem custar marco nenhum. Elas são o
 
 A primeira coisa que se ensina, e a que nunca se desliga. Você espalha a sua energia por cima da pele e deixa ligada: uma casca que não aparece, que aguenta o impacto que quebraria o osso de uma pessoa comum. Quem enxerga energia vê a camada acender no instante do golpe. Quem não enxerga vê alguém apanhar e continuar de pé.
 
-A Reação é a versão concentrada disso. Em vez de espalhar, você joga a camada inteira no ponto onde o golpe vai chegar, e fica descoberto no resto do corpo até se recompor.
+A Reação é a versão concentrada disso. Em vez de espalhar, você joga a camada inteira no ponto onde o golpe vai chegar, e fica descoberto no resto do corpo até se recompor. Por exemplo, com refino 6 a sua proteção passiva é 3, e a Reação desconta 9 de um golpe por 2 PE.
 
 > **Cobrir-se de energia** — sem Traje e sem Revestimento, a sua proteção é `1/3 do refino + 1`. Escudo soma com ela.
 >
@@ -4574,7 +4810,7 @@ Feiticeiro que acerta um passa a entender a própria energia de um jeito que tre
 >
 > Gate: nenhum. O refino escala a chance no d100.
 
-O +50% entra em cima do crítico que já dobrou os dados. Um crítico entrega dois punhados de dado; um kokusen entrega três.
+O +50% entra em cima do crítico que já dobrou os dados. Um crítico entrega dois punhados de dado; um kokusen entrega três. Por exemplo, com refino 6 o kokusen sai em 12 ou menos no d100 — 12% dos seus críticos corpo a corpo.
 
 O `+2` acumulado é a memória do personagem. Quem passou a noite inteira quase acertando está mais perto do que estava quando a briga começou.
 
@@ -4918,20 +5154,20 @@ Fora da rolagem de Defesa, escudo é a peça que decide cena de corredor: com um
 De Revestimento a sua Destreza já não conta na Defesa, então o teto do escudo não te cobra nada: a Torre é a resposta. Na rota sem uniforme, contando com a proteção de energia, o Broquel é o que menos atrapalha.
 
 > **Aviso para quem tem `Selo` = `Gesto`.** Pegar um escudo ocupa a mão e desliga a sua técnica inteira. É o Selo funcionando: se o gesto é obrigatório para conjurar, sem a mão você não conjura. Para essa gente, escudo nunca esteve no menu.
-
 ## Armas
 
 São 52, divididas em treze categorias. A categoria diz o que a coisa é, de onde vem o dano dela e em qual lista de treino ela cai.
 
-Nenhuma arma deste catálogo fere maldição sozinha. Contra maldição, o que resolve é energia amaldiçoada no golpe ou uma ferramenta amaldiçoada na mão, que é uma arma daqui mais um `Estigma` e tem capítulo próprio. O catálogo abaixo continua valendo inteiro contra gente, contra bicho e contra parede.
+Nenhuma arma deste catálogo fere maldição sozinha. Contra maldição, o que resolve é energia amaldiçoada no golpe ou uma ferramenta amaldiçoada na mão, que é uma arma daqui mais um `Estigma`, no capítulo 12, *Ferramenta Amaldiçoada*. O catálogo abaixo continua valendo inteiro contra gente, contra bicho e contra parede.
 
 ### Como ler uma arma
 
-Toda tabela do catálogo tem as mesmas cinco colunas, nesta ordem:
+O `Catálogo de armas` tem seis colunas, nesta ordem:
 
-**arma** · **mão** · **dado** · **propriedades** · **requer Força**
+**arma** · **categoria** · **mão** · **dado** · **propriedades** · **requer Força**
 
 - **arma** — o nome. Nome japonês vem com a tradução entre parênteses.
+- **categoria** — a família dela, e é onde o treino mora: treinar uma categoria libera todas as armas dela.
 - **mão** — `1` ou `2`. Arma de duas mãos não deixa espaço para escudo.
 - **dado** — o dado de dano que você rola quando acerta.
 - **propriedades** — o que a arma faz de diferente das outras. As restrições aparecem nessa mesma lista.
@@ -5061,66 +5297,68 @@ O requisito e o treino são gates diferentes e não se substituem. Um olha o seu
 
 ## Catálogo
 
-Este catálogo é para consultar. Ache a arma pelo nome no primeiro índice, ou pelo que você quer que ela faça no segundo.
+Este catálogo é para consultar. O `Catálogo de armas` traz as 52 armas com tudo que decide o golpe, em três blocos, um por lista de treino. Depois dele vem o índice por propriedade, para quando você sabe o que quer que a arma faça e não qual é o nome dela. As treze categorias, no fim, dizem o que cada família é na mão e na cena.
 
-### Índice A–Z
+### Armas por treino
 
-**Índice A–Z**
-| arma | categoria | treino |
-|---|---|---|
-| Bastão | Porrete | simples |
-| Besta | Balestra | simples |
-| Besta de Uma Mão | Balestra | simples |
-| Bō | Porrete | simples |
-| Canivete | Lâmina Curta | simples |
-| Cassetete | Porrete | simples |
-| Chakram | Arremesso | simples |
-| Chicote | Flexível | marcial |
-| Corrente | Flexível | marcial |
-| Daikyū | Yumi | marcial |
-| Espada Longa | Lâmina Longa | marcial |
-| Espadão | Lâmina Longa | marcial |
-| Espingarda | Arma de Fogo | de fogo |
-| Faca | Lâmina Curta | simples |
-| Foice | Ceifa | simples |
-| Hankyū | Yumi | marcial |
-| Kama | Ceifa | simples |
-| Kanabō | Massa | simples |
-| Katana | Lâmina Longa | marcial |
-| Kunai | Arremesso | simples |
-| Kusarigama | Ceifa | simples |
-| Lança | Armas Longas | marcial |
-| Maça | Massa | simples |
-| Machadinha | Machado | marcial |
-| Machado | Machado | marcial |
-| Machado de Guerra | Machado | marcial |
-| Machete | Lâmina Longa | marcial |
-| Manriki | Flexível | marcial |
-| Marreta | Massa | simples |
-| Maul | Massa | simples |
-| Metralhadora Pesada | Arma de Fogo | de fogo |
-| Naginata | Armas Longas | marcial |
-| Nodachi | Lâmina Longa | marcial |
-| Nunchaku | Porrete | simples |
-| Odachi | Lâmina Longa | marcial |
-| Pistola | Arma de Fogo | de fogo |
-| Punhal | Lâmina Curta | simples |
-| Rapieira | Lâmina Longa | marcial |
-| Revólver | Arma de Fogo | de fogo |
-| Rifle | Arma de Fogo | de fogo |
-| Rifle de Precisão | Arma de Fogo | de fogo |
-| Sai | Lâmina Curta | simples |
-| Shuriken | Arremesso | simples |
-| Soqueira | Manopla | simples |
-| Submetralhadora | Arma de Fogo | de fogo |
-| Taco | Massa | simples |
-| Tanto | Lâmina Curta | simples |
-| Tekko | Manopla | simples |
-| Tessen | Arremesso | simples |
-| Tonfa | Porrete | simples |
-| Wakizashi | Lâmina Longa | marcial |
-| Yari | Armas Longas | marcial |
-
+**Catálogo de armas**
+| arma | categoria | mão | dado | propriedades | requer Força |
+|---|---|---|---|---|---|
+| **Treino simples** | | | | | |
+| Bastão | Porrete | 1 | **d6** | `Versátil` · `Alcance` · `Rompe` | — |
+| Besta | Balestra | 2 | **2d8** | `Longo Alcance` · `Munição` · `Rompe` | 3 |
+| Besta de Uma Mão | Balestra | 1 | **1d10** | `Longo Alcance` · `Munição` · `Oculta` | — |
+| Bō | Porrete | 2 | **d10** | `Alcance` · `Emaranha` | 3 |
+| Canivete | Lâmina Curta | 1 | **d4** | `Fineza` · `Oculta` · `Rompe` | — |
+| Cassetete | Porrete | 1 | **d6** | `Oculta` · `Vestida` | — |
+| Chakram | Arremesso | 1 | **d4** | `Longo Alcance` · `Fineza` · `Oculta` | — |
+| Faca | Lâmina Curta | 1 | **d6** | `Fineza` · `Rompe` | — |
+| Foice | Ceifa | 2 | **d10** | `Emaranha` · `Talha` | 3 |
+| Kama | Ceifa | 1 | **d6** | `Par` · `Rompe` | — |
+| Kanabō | Massa | 2 | **d12** | `Talha` | 3 |
+| Kunai | Arremesso | 1 | **d6** | `Longo Alcance` · `Oculta` | — |
+| Kusarigama | Ceifa | 2 | **d8** | `Alcance` · `Emaranha` · `Longo Alcance` | — |
+| Maça | Massa | 1 | **d8** | `Talha` | — |
+| Marreta | Massa | 2 | **d10** | `Rompe` · `Talha` | 3 |
+| Maul | Massa | 2 | **d12** | `Rompe` | 3 |
+| Nunchaku | Porrete | 1 | **d6** | `Par` · `Emaranha` | — |
+| Punhal | Lâmina Curta | 1 | **d6** | `Fineza` · `Longo Alcance` | — |
+| Sai | Lâmina Curta | 1 | **d6** | `Fineza` · `Par` | — |
+| Shuriken | Arremesso | 1 | **d4** | `Longo Alcance` · `Oculta` · `Par` | — |
+| Soqueira | Manopla | 1 | **d4** | `Vestida` · `Oculta` · `Par` | — |
+| Taco | Massa | 1 | **d8** | `Versátil` · `Oculta` | — |
+| Tanto | Lâmina Curta | 1 | **d6** | `Fineza` · `Oculta` | — |
+| Tekko | Manopla | 1 | **d4** | `Vestida` · `Par` · `Oculta` | — |
+| Tessen | Arremesso | 1 | **d4** | `Longo Alcance` · `Oculta` · `Vestida` | — |
+| Tonfa | Porrete | 1 | **d6** | `Par` · `Vestida` | — |
+| **Treino marcial** | | | | | |
+| Chicote | Flexível | 1 | **d4** | `Alcance` · `Emaranha` · `Oculta` | — |
+| Corrente | Flexível | 2 | **d8** | `Alcance` · `Emaranha` · `Rompe` | — |
+| Daikyū | Yumi | 2 | **1d10** | `Longo Alcance` | — |
+| Espada Longa | Lâmina Longa | 1 | **d8** | `Versátil` · `Rompe` | — |
+| Espadão | Lâmina Longa | 2 | **d12** | `Alcance` | 3 |
+| Hankyū | Yumi | 2 | **1d8** | `Longo Alcance` · `Oculta` | — |
+| Katana | Lâmina Longa | 1 | **d8** | `Versátil` · `Fineza` | — |
+| Lança | Armas Longas | 1 | **d6** | `Alcance` · `Longo Alcance` | — |
+| Machadinha | Machado | 1 | **d6** | `Longo Alcance` · `Rompe` | — |
+| Machado | Machado | 1 | **d8** | `Rompe` | — |
+| Machado de Guerra | Machado | 2 | **d12** | `Rompe` · `Talha` · `Volumosa` | 3 |
+| Machete | Lâmina Longa | 1 | **d8** | `Rompe` | — |
+| Manriki | Flexível | 1 | **d6** | `Emaranha` · `Oculta` | — |
+| Naginata | Armas Longas | 2 | **d10** | `Alcance` · `Rompe` | 3 |
+| Nodachi | Lâmina Longa | 2 | **d12** | `Alcance` · `Rompe` · `Volumosa` | 3 |
+| Odachi | Lâmina Longa | 2 | **d12** | `Alcance` · `Talha` · `Embainhada` | 3 |
+| Rapieira | Lâmina Longa | 1 | **d6** | `Fineza` · `Talha` | — |
+| Wakizashi | Lâmina Longa | 1 | **d8** | `Oculta` | — |
+| Yari | Armas Longas | 2 | **d10** | `Alcance` · `Talha` | 3 |
+| **Treino de fogo** | | | | | |
+| Espingarda | Arma de Fogo | 2 | **2d8** | `Longo Alcance` · `Munição` · `Rompe` | 3 |
+| Metralhadora Pesada | Arma de Fogo | 2 | **2d10** | `Longo Alcance` · `Munição` · `Rompe` · `Volumosa` | 3 |
+| Pistola | Arma de Fogo | 1 | **1d10** | `Longo Alcance` · `Munição` · `Oculta` | — |
+| Revólver | Arma de Fogo | 1 | **1d10** | `Longo Alcance` · `Munição` · `Oculta` | — |
+| Rifle | Arma de Fogo | 2 | **2d8** | `Longo Alcance` · `Munição` · `Talha` | 3 |
+| Rifle de Precisão | Arma de Fogo | 2 | **2d10** | `Longo Alcance` · `Munição` | 3 |
+| Submetralhadora | Arma de Fogo | 2 | **2d6** | `Longo Alcance` · `Munição` · `Par` · `Oculta` | — |
 ### Índice por propriedade
 
 **Índice por propriedade**
@@ -5147,14 +5385,6 @@ Treino simples. Todas carregam `Fineza`, então o dano delas sai de Destreza.
 
 Lâmina curta é briga de distância zero. Você entra por dentro da guarda, encosta e corta, e o que decide o golpe é leitura de corpo e mão rápida. É também a categoria que passa por qualquer lugar sem levantar pergunta: uma faca cabe no bolso do casaco e continua lá durante a entrevista inteira.
 
-**Lâmina Curta**
-| arma | mão | dado | propriedades | requer Força |
-|---|---|---|---|---|
-| Tanto | 1 | **d6** | `Fineza` · `Oculta` | — |
-| Punhal | 1 | **d6** | `Fineza` · `Longo Alcance` | — |
-| Canivete | 1 | **d4** | `Fineza` · `Oculta` · `Rompe` | — |
-| Faca | 1 | **d6** | `Fineza` · `Rompe` | — |
-| Sai | 1 | **d6** | `Fineza` · `Par` | — |
 
 ### Lâmina Longa
 
@@ -5162,17 +5392,6 @@ Treino marcial. O dano sai de Força, ou de Destreza nas duas que carregam `Fine
 
 Lâmina longa se luta com o corpo inteiro: o pé escolhe a distância, o quadril faz o corte, e o braço só entrega. As de uma mão deixam a outra livre para escudo, para segurar alguém ou para fechar um selo. As de duas trocam essa mão por alcance e por dado grande, e quem empunha uma delas está declarando que não pretende se esconder de ninguém.
 
-**Lâmina Longa**
-| arma | mão | dado | propriedades | requer Força |
-|---|---|---|---|---|
-| Machete | 1 | **d8** | `Rompe` | — |
-| Wakizashi | 1 | **d8** | `Oculta` | — |
-| Rapieira | 1 | **d6** | `Fineza` · `Talha` | — |
-| Katana | 1 | **d8** | `Versátil` · `Fineza` | — |
-| Espada Longa | 1 | **d8** | `Versátil` · `Rompe` | — |
-| Espadão | 2 | **d12** | `Alcance` | 3 |
-| Odachi | 2 | **d12** | `Alcance` · `Talha` · `Embainhada` | 3 |
-| Nodachi | 2 | **d12** | `Alcance` · `Rompe` · `Volumosa` | 3 |
 
 Odachi e Nodachi são a mesma lâmina longa demais para o cinto, com a mesma mão e o mesmo dado. A diferença está em como cada uma resolve o tamanho: o Odachi se carrega nas costas e precisa de tempo ou de ajuda para sacar, o Nodachi você saca sozinho e carrega à mostra. Se a sua mesa costuma começar cena já em briga, o Odachi vai chegar atrasado em algumas delas.
 
@@ -5182,14 +5401,6 @@ Treino simples. O dano sai de Força.
 
 Massa fere com peso chegando rápido, e peso não perde o fio. É a arma que continua funcionando depois de uma noite inteira batendo em concreto, e a que menos se importa com o que o alvo vestiu por cima.
 
-**Massa**
-| arma | mão | dado | propriedades | requer Força |
-|---|---|---|---|---|
-| Maça | 1 | **d8** | `Talha` | — |
-| Marreta | 2 | **d10** | `Rompe` · `Talha` | 3 |
-| Kanabō | 2 | **d12** | `Talha` | 3 |
-| Maul | 2 | **d12** | `Rompe` | 3 |
-| Taco | 1 | **d8** | `Versátil` · `Oculta` | — |
 
 ### Porrete
 
@@ -5197,14 +5408,6 @@ Treino simples. O dano sai de Força.
 
 Porrete é madeira e controle. Você acerta, empurra, prende, afasta e a cena continua com todo mundo vivo. É a categoria de quem trabalha perto de civil e precisa poder errar o alvo sem abrir um buraco na parede.
 
-**Porrete**
-| arma | mão | dado | propriedades | requer Força |
-|---|---|---|---|---|
-| Bastão | 1 | **d6** | `Versátil` · `Alcance` · `Rompe` | — |
-| Bō | 2 | **d10** | `Alcance` · `Emaranha` | 3 |
-| Cassetete | 1 | **d6** | `Oculta` · `Vestida` | — |
-| Tonfa | 1 | **d6** | `Par` · `Vestida` | — |
-| Nunchaku | 1 | **d6** | `Par` · `Emaranha` | — |
 
 ### Manopla
 
@@ -5212,11 +5415,6 @@ Treino simples. O dano sai de Força.
 
 Manopla é o soco com uma peça de metal por cima. Ela vai vestida: você chega de mãos vazias em qualquer portaria e continua armado do outro lado. Quem luta assim briga colado, e usa o corpo inteiro como parte da arma.
 
-**Manopla**
-| arma | mão | dado | propriedades | requer Força |
-|---|---|---|---|---|
-| Soqueira | 1 | **d4** | `Vestida` · `Oculta` · `Par` | — |
-| Tekko | 1 | **d4** | `Vestida` · `Par` · `Oculta` | — |
 
 O Tekko é a soqueira japonesa: mesma linha da Soqueira, mesmo gasto, mesma regra. O que muda é de onde ela veio.
 
@@ -5226,12 +5424,6 @@ Treino marcial. O dano sai de Força.
 
 Machado concentra o peso na ponta e cobra o gesto inteiro: quem erra fica aberto por um instante. Em compensação, o que ele acerta ele abre, e isso vale para porta trancada, grade e assoalho tanto quanto para o que estiver do outro lado.
 
-**Machado**
-| arma | mão | dado | propriedades | requer Força |
-|---|---|---|---|---|
-| Machado | 1 | **d8** | `Rompe` | — |
-| Machado de Guerra | 2 | **d12** | `Rompe` · `Talha` · `Volumosa` | 3 |
-| Machadinha | 1 | **d6** | `Longo Alcance` · `Rompe` | — |
 
 O Machado tem a mesma linha do Machete, lá na Lâmina Longa: `d8`, uma mão, `Rompe`. A escolha entre os dois é de sabor, e as duas categorias caem no mesmo balde de treino.
 
@@ -5241,12 +5433,6 @@ Treino simples. O dano sai de Força.
 
 Ceifa puxa. A curva da lâmina engancha braço, perna, cano de andaime e o cabo da arma do outro, e o golpe costuma terminar com o alvo mais perto de você do que ele gostaria. É a categoria de quem prefere escolher onde o inimigo vai estar.
 
-**Ceifa**
-| arma | mão | dado | propriedades | requer Força |
-|---|---|---|---|---|
-| Foice | 2 | **d10** | `Emaranha` · `Talha` | 3 |
-| Kama | 1 | **d6** | `Par` · `Rompe` | — |
-| Kusarigama | 2 | **d8** | `Alcance` · `Emaranha` · `Longo Alcance` | — |
 
 ### Armas Longas
 
@@ -5254,12 +5440,6 @@ Treino marcial. O dano sai de Força. É a única categoria em que o `Alcance` c
 
 Arma longa serve para decidir a distância. Você mantém a coisa a três metros e ela gasta o turno inteiro só para chegar ao ponto onde a luta começaria. Em corredor e em vão de porta, uma lança sozinha segura uma passagem enquanto o resto do grupo faz o trabalho.
 
-**Armas Longas**
-| arma | mão | dado | propriedades | requer Força |
-|---|---|---|---|---|
-| Naginata | 2 | **d10** | `Alcance` · `Rompe` | 3 |
-| Yari | 2 | **d10** | `Alcance` · `Talha` | 3 |
-| Lança | 1 | **d6** | `Alcance` · `Longo Alcance` | — |
 
 ### Flexível
 
@@ -5267,12 +5447,6 @@ Treino marcial. O dano sai de Força.
 
 Corrente e chicote fazem curva. O golpe contorna guarda, escudo e quina de parede, e ninguém aprende a ler a trajetória numa luta só. O dado é pequeno em todas as três: o que a categoria entrega é alcance e `Emaranha`.
 
-**Flexível**
-| arma | mão | dado | propriedades | requer Força |
-|---|---|---|---|---|
-| Corrente | 2 | **d8** | `Alcance` · `Emaranha` · `Rompe` | — |
-| Chicote | 1 | **d4** | `Alcance` · `Emaranha` · `Oculta` | — |
-| Manriki | 1 | **d6** | `Emaranha` · `Oculta` | — |
 
 ### Arremesso
 
@@ -5280,13 +5454,6 @@ Treino simples. O dano sai de Força: o arremesso sai do corpo.
 
 Arremesso resolve seis metros na hora, sem trocar de arma e sem sair da briga de perto. Todas as quatro escondem, e todas cabem numa cena em que você precisa acertar alguma coisa do outro lado da sala antes que ela termine de se virar.
 
-**Arremesso**
-| arma | mão | dado | propriedades | requer Força |
-|---|---|---|---|---|
-| Kunai | 1 | **d6** | `Longo Alcance` · `Oculta` | — |
-| Shuriken | 1 | **d4** | `Longo Alcance` · `Oculta` · `Par` | — |
-| Tessen | 1 | **d4** | `Longo Alcance` · `Oculta` · `Vestida` | — |
-| Chakram | 1 | **d4** | `Longo Alcance` · `Fineza` · `Oculta` | — |
 
 ### Yumi
 
@@ -5294,11 +5461,6 @@ Treino marcial. O dano sai de Destreza: o arco se puxa, e puxar é coisa do corp
 
 Yumi é o arco japonês, assimétrico e alto, puxado até passar da orelha. Atirar com ele é postura e respiração antes de ser mira. O disparo sai calado, e é isso que faz um arco resolver um vigia no fim do corredor sem acordar os outros três.
 
-**Yumi**
-| arma | mão | dado | propriedades | requer Força |
-|---|---|---|---|---|
-| Hankyū *(arco curto)* | 2 | **1d8** | `Longo Alcance` · `Oculta` | — |
-| Daikyū *(arco longo)* | 2 | **1d10** | `Longo Alcance` | — |
 
 O daikyū passa de dois metros e se carrega nas costas. O hankyū fica entre 45 e 160 cm: é o arco de espaço apertado e de montaria, e é por isso que ele esconde e o outro não. Nenhum dos dois ganha do outro: o Daikyū tem o dado maior, o Hankyū tem a propriedade a mais.
 
@@ -5308,11 +5470,6 @@ Treino simples. **Não soma atributo nenhum**: a energia já está armazenada na
 
 A besta guarda a força por você. Quem atira aponta e solta, e por isso ela é a arma que qualquer um do grupo pega emprestada e usa igual. O preço vem depois do disparo, na hora de armar de novo.
 
-**Balestra**
-| arma | mão | dado | propriedades | requer Força |
-|---|---|---|---|---|
-| Besta de Uma Mão | 1 | **1d10** | `Longo Alcance` · `Munição` · `Oculta` | — |
-| Besta | 2 | **2d8** | `Longo Alcance` · `Munição` · `Rompe` | 3 |
 
 ### Arma de Fogo
 
@@ -5320,16 +5477,6 @@ Lista de treino própria, sozinha. **Não soma atributo nenhum**, pelo mesmo mot
 
 Arma de fogo resolve distância e barulho no mesmo gesto. Ela cobra treino próprio e devolve o tiro mais rápido do catálogo, com o custo de que a cena discreta acaba no primeiro disparo: a partir dali existe polícia, existe testemunha e existe relatório para alguém escrever depois.
 
-**Arma de Fogo**
-| arma | mão | dado | propriedades | requer Força |
-|---|---|---|---|---|
-| Pistola | 1 | **1d10** | `Longo Alcance` · `Munição` · `Oculta` | — |
-| Revólver | 1 | **1d10** | `Longo Alcance` · `Munição` · `Oculta` | — |
-| Submetralhadora | 2 | **2d6** | `Longo Alcance` · `Munição` · `Par` · `Oculta` | — |
-| Espingarda | 2 | **2d8** | `Longo Alcance` · `Munição` · `Rompe` | 3 |
-| Rifle | 2 | **2d8** | `Longo Alcance` · `Munição` · `Talha` | 3 |
-| Rifle de Precisão | 2 | **2d10** | `Longo Alcance` · `Munição` | 3 |
-| Metralhadora Pesada | 2 | **2d10** | `Longo Alcance` · `Munição` · `Rompe` · `Volumosa` | 3 |
 
 Pistola e Revólver têm a mesma linha de regra. A diferença entre os dois está na faixa: a Pistola vai a 9 m, o Revólver a 12 m.
 
@@ -6033,7 +6180,6 @@ Você começa a campanha com nove pontos de atributo distribuídos na criação.
 As três não compram a mesma coisa, e nenhuma precisa de trava. Refino não vale nada para quem não tem aptidão: quem escolhe Leque sete vezes tem zero aptidões, e o refino dele fica sendo número morto. Quem escolhe Refino sete vezes tem dez aptidões e nenhuma Passiva a mais para querer.
 
 > **Quem nunca escolhe Refino termina a campanha com zero aptidões.** A rota é legítima e está escrita aqui para ninguém descobrir isso no nível 20. Mesmo essa ficha não fica sem nada: `Cobrir-se de energia` e `Canalizar energia` vêm de graça no refino 1, e a primeira continua crescendo com o refino da linha passiva até 8. O que ela nunca vai ter é `Energia Reversa` nem `Barreira Simples`.
-
 ### Refino por rota
 
 O refino começa em `1`, sobe `+1` de graça em cada um dos sete marcos, e a escolha do marco pode somar mais `+1` até o teto de `10`. Três rotas, e a sua provavelmente fica entre elas:
@@ -6075,7 +6221,6 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 *fonte: `manual/90-apendice-bloquear.md`*
 
 > **Defesa parada ou `Bloquear`: a mesa escolhe.** Combinem antes da primeira sessão, e a resposta vale para todo mundo — jogadores e inimigos. Nenhum número de nenhum outro capítulo muda por causa dessa escolha.
-
 A sua Defesa é um número parado: o inimigo rola contra ela e você não rola nada. Se a sua mesa preferir rolar para se defender, usa `Bloquear`.
 
 ## Rolagem de Bloquear
@@ -6143,5 +6288,6 @@ Se um escudo, uma aptidão, um Legado ou uma ferramenta der `+1` na Defesa e nã
 A condição `Incapacitado` cita `Bloquear` diretamente: quem está `Incapacitado` não pode bloquear, e todo ataque corpo a corpo contra ele é crítico.
 
 > **Se a sua mesa não usa `Bloquear`, o `Incapacitado` é só o crítico no corpo a corpo.** É a metade que vale sempre, e ela sozinha já paga o preço da condição.
+
 
 ---

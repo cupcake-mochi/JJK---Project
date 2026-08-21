@@ -200,7 +200,7 @@ E **um extra que você escolhe: um ofício livre, ou mais uma perícia no lugar 
 
 ### Testes de Resistência
 
-Sem mudança desde a peça 4: **a Origem treina um, o Caminho treina outro.** Dois de quatro, e treinado vale +2 fixo — não maestria. O motivo está na peça 4, seção 1: a CD de um Teste de Resistência cresce com o conjurador, e a de uma perícia não.
+Sem mudança desde a peça 4: **a Origem treina um, o Caminho treina outro.** Dois de quatro, e treinado vale **maestria** — a mesma marca de treino da perícia e do ofício. *Isso mudou na v0.117, e o motivo está na peça 4, seção 1: a CD de um Teste de Resistência passou a crescer `+6`, então o treino tem de crescer junto. **O que fica para trás é o TR que você não treinou, e isso é o preço.***
 
 ## 7. Por que vinte e três, e por que quatro livres
 

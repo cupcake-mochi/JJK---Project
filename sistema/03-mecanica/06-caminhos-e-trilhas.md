@@ -298,6 +298,10 @@ E é a leitura correta da obra: as maldições do Geto individualmente são frá
 
 **A soma é o número que importa.** Com ela praticamente igual nos cinco, a troca "couro contra combustível" é escolha de sabor e não degrau de poder — e o validador falha se a diferença passar de 2.
 
+> **E é a soma que decide o que uma Origem sem energia amaldiçoada recebe daqui — v0.116.** *Esta peça não citava Origem nenhuma e a peça 9 não citava Caminho nenhum, então a combinação nunca tinha sido conferida:* **a Restrição Celestial pelo ramo da Maki diz *"sem PE"*, e os cinco Caminhos entregam PE.** *Com a coluna valendo zero, a soma cai para `7 · 5 · 5 · 4 · 4` — espalhamento `3`, e o validador acende.*
+>
+> **A regra que sai disso é da peça 9 §5, e ela não é gate:** *a coluna `por nível` vem inteira, e quem não tem energia gasta o mesmo número em outra moeda.* **O tamanho é herdado desta tabela; o nome e o que ele compra são da Técnica Marcial.** *O argumento inteiro, com as três saídas que reprovaram, está na peça 9 §8.*
+
 *Corrigido na v0.15, revisado na v0.19.* A regra original dizia "6 nos Caminhos de técnica, 4 nos físicos", e o **Guia não era nem um nem outro** — ficava sem número. A divisão em duas famílias não cobria os cinco Caminhos, então ela virou uma escada de três degraus com cada Caminho nomeado.
 
 O Guia e a Vanguarda ficam no meio, em 5. Os dois vivem entre bater e conjurar: o Guia estende efeito alheio e recupera, a Vanguarda alterna feitiço de Toque com golpe simples. Nenhum dos dois é conjurador puro nem lutador puro, e o 5 diz isso.
@@ -338,7 +342,14 @@ Sua quarta observação está certa e o mecanismo já existe na lista do que um 
 - **Bastião** canaliza com Força.
 - **Vanguarda** canaliza com Destreza.
 
-A troca é **neutra em balanço** porque os dois crescem +3 na campanha — foi exatamente isso que a peça 1 verificou. E ela não cria imposto porque é opcional: quem não quiser especializar fica no 2 fixo e não perde nada.
+> ⚠⚠ **A troca do `2` por um atributo MORREU na v0.117, e com ela o `2` — este parágrafo inteiro deixou de valer.**
+>
+> *Ele dizia que a troca era "neutra em balanço porque os dois crescem +3 na campanha, e foi exatamente isso que a peça 1 verificou".* **A peça 1 verificou que `2 + maestria` VALE um atributo investido — os dois eram o mesmo número em todo nível.** *A troca não substituía o termo inteiro: substituía só o `2`, que cresce `+0`. O resultado crescia `+6` contra `+3`.*
+>
+> **Hoje não existe `2` para trocar.** *O acerto de conjuração é `d20 + atributo da técnica + maestria` e a CD é `10 + atributo da técnica`, e o atributo é declarado na criação — qualquer um dos cinco.* **O que este Caminho concede não é mais "trocar o fixo": é o que sempre foi na prática — o Emanador aponta a técnica para Inteligência ou Essência, o Bastião para Força, a Vanguarda para Destreza.** *Isso deixou de ser habilidade e virou escolha de criação, na peça 1 §5.*
+
+**O que sobrevive deste parágrafo é a segunda metade, e ela ficou mais verdadeira:** múltiplos atributos por Caminho passa, e não cria imposto — *quem não quiser especializar aponta a técnica para o atributo que já ia levar ao teto de qualquer jeito, e não perde nada.*
+
 
 Para as **habilidades** de Trilha, não há restrição nenhuma: elas podem chavear em qualquer atributo que faça sentido. Nada nelas entra numa rolagem disputada onde o ritmo importa.
 

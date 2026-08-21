@@ -79,10 +79,10 @@ function pagina1(f) {
      'Deslocamento','—',                          '9 m'],
     ['Maestria',    '—',                          String(X.MAESTRIA),
      'Refino',      '—',                          String(X.REFINO)],
-    ['CD de feitiço', `10 + 2 + maestria`,        String(10 + 2 + X.MAESTRIA),
-     'Conjuração',  `d20 + 2 + maestria`,         `d20 + ${2 + X.MAESTRIA}`],
-    ['Corpo a corpo', 'd20 + Força',              num('cac'),
-     'À distância', 'd20 + Destreza',             num('distancia')],
+    ['CD de feitiço', `8 + atr. + maestria`,      num('cd'),
+     'Conjuração',  `d20 + atr. + maestria`,      num('conjuracao')],
+    ['Corpo a corpo', 'd20 + Força + maestria',   num('cac'),
+     'À distância', 'd20 + Des + maestria',       num('distancia')],
   ], [15, 22, 11, 15, 22, 15], { boldCols: [0, 3], centerCols: [2, 5] }));
   out.push(NOTA(`A proteção ${X.PROTECAO} não é equipamento: ela é **cobrir-se de energia**, aptidão gratuita do refino ${X.REFINO} ` +
                 `(\`1/3 do refino + 1\`). Ela vale sem uniforme, sem armadura e sem escudo — vestir qualquer um deles a desliga. ` +
@@ -134,6 +134,11 @@ function pagina2(f) {
     V(t, 'regra'), 2));
   out.push(NOTA('É o que você carrega a campanha inteira: **a técnica nunca muda**, o que evolui é o que você consegue fazer com ela. ' +
                 'A Regra é lida por outra pessoa antes de entrar em jogo — quem escreveu sabe o que quis dizer; quem vai arbitrar, não.'));
+
+  out.push(BLOCO('o atributo da técnica — um dos cinco, escolhido na criação e travado',
+    V(t, 'atributo'), 1));
+  out.push(NOTA('É ele que entra no **ataque de conjuração** e na **CD dos seus feitiços**, na página 1. ' +
+                'Se ele ficar para trás, a sua técnica fica junto.'));
 
   out.push(BLOCO('descrição — de onde ela veio, como ela aparece, o que as pessoas veem',
     V(t, 'descricao'), 2));
@@ -206,7 +211,7 @@ function pagina3(f) {
   out.push(BLOCO('a instituição — o que ela sabe de você, e o que ela não sabe', V(l, 'instituicao'), 2));
 
   out.push(BLOCO('pacto — opcional, e a maioria começa sem', V(l, 'pacto'), 2));
-  out.push(NOTA('**Provisório:** a regra de Pactos ainda não foi escrita. Até lá, pacto na criação só entra com aprovação do mestre e com o preço escrito aqui — uma frase, verificável, simétrica, sem dano direto, com limite.'));
+  out.push(NOTA('**Provisório:** pacto entre personagens ainda não tem regra, e **na criação ele não entra** — quem quiser começar com um usa a `Regra Própria` do manual ou um `Legado`, que é onde essa ficção já mora.'));
 
   // --- a tira de referencia: SO' o que e estrutural e nao envelhece
   out.push(FAIXA('Referência rápida'));

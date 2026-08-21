@@ -45,36 +45,29 @@ Cada feitiço é montado na Classe que o seu nível já liberou, e *Números da 
 
 ### Atributo da técnica
 
-A resposta curta é que, por padrão, **a sua técnica não usa atributo nenhum**. Isso confunde quem vem de outros sistemas, então vale abrir.
+**Toda técnica usa um atributo, e você escolhe qual quando escreve ela.** Um dos cinco, na criação, e ele não muda depois.
 
-> **Ataque de conjuração = d20 + 2 + maestria**
+> **Ataque de conjuração = d20 + o atributo da sua técnica + maestria**
 > **Maestria** começa em 1 e sobe um ponto a cada oito níveis.
 
-O `2 + maestria` faz para o conjurador o trabalho que a Força faz para quem bate com o braço: ele cresce sozinho, no mesmo ritmo de um atributo em que a pessoa investe a campanha inteira. A diferença é que ele não te cobra nada. Você distribui os seus pontos de atributo onde quiser, e a sua técnica não fica para trás por causa disso.
+É a mesma forma do soco e do tiro — atributo mais maestria —, e é de propósito: **o feitiço não tem uma regra própria de acertar.** Uma técnica de cálculo usa Inteligência, uma de leitura de energia usa Essência, e o feiticeiro que conjura batendo usa Força. O molde é o Todo.
 
-**Ataque e CD por nível**
+**Ataque e CD de um atributo levado ao teto**
 {: .tab-titulo }
 
-| Seu nível | Maestria | Ataque de conjuração | CD dos seus feitiços |
-|---|---|---|---|
-| 2 a 9 | 1 | d20 + 3 | 13 |
-| 10 a 17 | 2 | d20 + 4 | 14 |
-| 18 a 25 | 3 | d20 + 5 | 15 |
-| 26 a 30 | 4 | d20 + 6 | 16 |
+| Seu nível | Maestria | Atributo | Ataque de conjuração | CD dos seus feitiços |
+|---|---|---|---|---|
+| 2 a 9 | 1 | 3 | d20 + 4 | 12 |
+| 10 a 17 | 2 | 4 | d20 + 6 | 14 |
+| 18 a 25 | 3 | 5 | d20 + 8 | 16 |
+| 26 a 30 | 4 | 6 | d20 + 10 | 18 |
 
-Não existe coluna de atributo ali. Não existe "atributo de conjuração" na ficha padrão, e nenhum feitiço pede um.
+Esta tabela supõe que você levou o atributo da técnica até o topo. Se ele ficar parado, a sua técnica fica junto — e é essa a escolha que a linha de cima esconde.
 
-**O que muda isso é o Caminho.** Algumas habilidades de Caminho trocam esse `2` fixo por um atributo, e a habilidade diz qual. É assim que nasce o feiticeiro que conjura pela Força, no molde do Todo, e as duas trocas mais comuns são por **Inteligência** ou por **Essência**. Quando você pega uma dessas habilidades, o `2` sai e o atributo entra no lugar:
+**Escolha o atributo que o seu personagem já ia querer alto.** As perícias que ele usa, o Teste de Resistência que ele quer aguentar, uma Trilha que soma o mesmo atributo no dano: se alguma dessas coisas já puxa um atributo para cima, aponte a técnica para ele. Apontar para um atributo que você não pretende pagar é a armadilha desta página.
 
-> Sem a troca: `d20 + 2 + maestria`.
-> Com a troca: `d20 + atributo + maestria`.
-> A CD acompanha, porque ela é sempre o seu bônus de conjuração dez pontos acima.
-
-**Quando vale a pena.** A conta é direta: com o atributo em 2 a troca não muda nada, abaixo de 2 você perde, acima de 2 você ganha a diferença. Mas tem um segundo efeito que pesa mais que o primeiro. Depois da troca, aquele atributo passa a carregar todo feitiço que você lança, para sempre. Isso é ótimo se você já ia investir nele de qualquer jeito, e é uma armadilha se você pegou a habilidade e deixou o atributo em 1: aí você trocou um número que crescia sozinho por um que você esqueceu de pagar.
-
-Vale a pena, então, quando o atributo já é natural do seu personagem por outros motivos: as perícias que ele usa, o Teste de Resistência que ele quer aguentar, uma Trilha que soma o mesmo atributo no dano. Se nada disso for verdade, fique com o `2` fixo.
-
-**Qual dos dois, Inteligência ou Essência.** A divisória é uma frase: **Inteligência sabe, Essência percebe.**
+{: .aviso }
+> Nada te obriga a escolher Inteligência ou Essência. Elas são as mais comuns porque quase toda técnica é análise ou percepção — mas a regra é *um dos cinco*, e a ficção decide.
 
 **Inteligência ou Essência**
 {: .tab-titulo }
@@ -93,10 +86,11 @@ Na prática, Essência é o atributo que a maioria dos conjuradores acaba queren
 
 Metade dos seus feitiços deixa a rolagem com o alvo: ele é quem rola contra você. O número que ele precisa passar é a sua **CD de feitiço**.
 
-> **CD de feitiço = 10 + 2 + maestria.**
-> É o mesmo bônus do ataque de conjuração, dez pontos acima.
+> **CD de feitiço = 8 + o atributo da sua técnica + maestria.**
 
-É por isso que os dois nunca descolam. Se o seu ataque de conjuração é `d20 + 4`, a sua CD é 14. Se uma habilidade de Caminho trocar o `2` por um atributo, os dois se mexem juntos.
+**O `8` não é um número escolhido: ele é a chance de quem treinou.** Quem resiste rola `d20 + o atributo daquele Teste + a maestria dele, se ele treinou aquele Teste` — e quando os dois lados têm atributo e maestria, o que sobra no dado é exatamente `8`. **Passar `8` num d20 é `65%`, e é isso que um Teste de Resistência treinado vale, do nível 2 ao 30.**
+
+**Quem não treinou aquele Teste não soma a maestria, e cai para trás conforme a campanha anda** — de `60%` no nível 2 para `45%` no 30. Toda ficha treina dois Testes de Resistência de quatro; os outros dois são o lugar por onde um chefe entra.
 
 **Você tem uma CD só.** Ela não muda de feitiço para feitiço, não sobe com a Classe e não se compra com pontos. É um número da ficha, como a sua Defesa.
 

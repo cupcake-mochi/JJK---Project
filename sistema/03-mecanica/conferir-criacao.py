@@ -171,6 +171,28 @@ else:
     if max(int(g) for g in m.groups()) > 3:
         erro('a ficha de exemplo tem atributo acima de 3, e a criacao proibe')
 
+# v0.117: a CD e o acerto de conjuracao passaram a depender do ATRIBUTO DA TECNICA,
+# e a ficha de exemplo declara qual e. Sem ler isso daqui, a checagem voltaria a ter
+# um numero escrito na mao — que e a licao no 8.
+m = re.search(r'\*Atributo da técnica:\*\s*\*\*(\w+)\*\*', P8)
+ATR_TEC_NOME = m.group(1) if m else None
+if ATR_TEC_NOME is None:
+    erro('a ficha de exemplo nao declara o atributo da tecnica — desde a v0.117 a CD '
+         'e o acerto de conjuracao saem dele')
+    ATR_TEC = None
+else:
+    ATR_TEC = {'Força': FOR, 'Constituição': CON, 'Destreza': DES}.get(ATR_TEC_NOME)
+    if ATR_TEC is None:
+        m2 = re.search(r'Inteligência (\d+) · Essência (\d+)', P8)
+        if m2:
+            ATR_TEC = {'Inteligência': int(m2.group(1)),
+                       'Essência': int(m2.group(2))}.get(ATR_TEC_NOME)
+    if ATR_TEC is None:
+        erro(f'a ficha declara a tecnica em "{ATR_TEC_NOME}" e esse atributo nao esta '
+             'na linha de atributos dela')
+    else:
+        print(f'  atributo da tecnica: {ATR_TEC_NOME} {ATR_TEC}')
+
 m = re.search(r'\*\*Caminho\.\*\*\s*(\w+)', P8)
 CAM = m.group(1) if m else None
 if CAM not in CAMINHOS:
@@ -182,7 +204,7 @@ else:
         'integridade': 20 + 8 * (NIVEL - 1),
         'pe':          c['pe_nv'] * NIVEL,
         'defesa':      10 + DES + PROTECAO,
-        'cd':          10 + 2 + MAESTRIA,
+        'cd':          8 + (ATR_TEC if ATR_TEC is not None else 0) + MAESTRIA,
     }
     print(f'\n  {"campo":<14}{"publicado":>11}{"pela formula":>15}')
     for k in ('vida', 'integridade', 'pe', 'defesa', 'cd'):
@@ -204,12 +226,11 @@ else:
 bloco('2. O BLOCO DE FORMULAS — o passo 7 bate com a peca 1?')
 
 for rotulo, rx8, esperado, porque in (
+    # v0.117: o passo 7 deixou de imprimir numero nestas duas, porque elas passaram
+    # a depender do atributo que a tecnica escolhe. O que se confere agora e a FORMA.
     ('ataque de conjuracao',
-     r'Ataque de conjuração\s*=\s*d20 \+ (\d+)', 2 + MAESTRIA,
-     '2 + maestria'),
-    ('CD de feitico',
-     r'CD de feitiço\s*=\s*(\d+)', 10 + 2 + MAESTRIA,
-     '10 + 2 + maestria'),
+     r'Ataque de conjuração\s*=\s*d20 \+ atributo da técnica \+ (\d+)', MAESTRIA,
+     'atributo da tecnica + maestria'),
     ('Integridade',
      r'Integridade\s*=\s*(\d+)', 20 + 8 * (NIVEL - 1),
      '20 + 8 x (nivel - 1)'),
@@ -229,6 +250,22 @@ for rotulo, rx8, esperado, porque in (
         erro(f'o passo 7 diz {rotulo} = {achado} e a formula ({porque}) da {esperado}')
     else:
         print(f'  [x] {rotulo:<22} = {achado}   ({porque})')
+
+# A CD deixou de ter numero no passo 7 na v0.117 — ela depende do atributo que a
+# tecnica escolheu, e a ficha de exemplo e quem imprime o valor. Aqui se confere a
+# FORMA nos dois lados, e a instancia da Kaori e conferida no bloco 4.
+for rot, rx, alvo in (
+    ('o passo 7', r'CD de feitiço\s*=\s*8 \+ atributo da técnica \+ maestria', P8),
+    ('a peca 1',  r'CD de feitiço\s*=\s*8 \+ atributo da técnica \+ maestria', P1),
+):
+    if not re.search(rx, alvo):
+        erro(f'{rot} nao diz mais "CD de feitiço = 8 + atributo da técnica + maestria" — '
+             'a base 8 e a chance de quem treinou resistir, e ela nao e livre')
+    else:
+        print(f'  [x] {rot:<22} escreve a CD como 8 + atributo da tecnica + maestria')
+if not re.search(r'Teste de Resistência\s*=\s*d20 \+ atributo do TR \+ maestria', P1):
+    erro('a peca 1 nao diz mais que o Teste de Resistencia leva maestria — sem ela do '
+         'lado de quem resiste, a CD de 8 + atributo + maestria deriva -15pp')
 
 if not re.search(r'Defesa\s*=\s*10 \+ Destreza \+ proteção', P1):
     erro('a peca 1 nao diz mais "Defesa = 10 + Destreza + protecao" — se a formula '
