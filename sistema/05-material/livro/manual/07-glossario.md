@@ -62,6 +62,7 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **Patente** | O seu reconhecimento na instituição, de Grau 4 a Grau 1. Todo personagem começa **Grau 4** | 7 |
 
 > **Cuidado com a palavra `Grau`.** Ela nomeia duas escadas de cinco casas que não se encostam: a **patente** de um feiticeiro e o **grau** de uma ferramenta amaldiçoada. Patente é reconhecimento; grau de ferramenta é a energia que a peça carrega. O capítulo 12 abre a diferença.
+{: .aviso }
 
 ## Técnica
 
@@ -222,3 +223,4 @@ Estas palavras têm sentido próprio neste sistema.
 | **Refino** | quanto da sua energia não se perde | melhorar um item |
 
 > **`Paralisado` não existe neste sistema.** O que outros jogos chamam assim se chama `Atordoado` aqui.
+{: .aviso }

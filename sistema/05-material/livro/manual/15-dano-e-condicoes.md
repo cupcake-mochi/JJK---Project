@@ -313,6 +313,7 @@ Nenhuma das duas contém a outra. Escolher uma para aplicar é escolher o que vo
 `Paralisado` não existe neste sistema. O que outros jogos chamam assim se chama `Atordoado` aqui, e não há um terceiro degrau que some os dois.
 
 > **Metade do `Incapacitado` só aparece se a sua mesa usa `Bloquear`.** A outra metade — todo ataque corpo a corpo contra você é crítico — vale sempre, com `Bloquear` ligado ou não.
+{: .aviso }
 
 ### `Inconsciente`, `Exaustão` e `Invisível`
 

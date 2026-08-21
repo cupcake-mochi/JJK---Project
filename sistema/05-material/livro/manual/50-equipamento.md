@@ -123,6 +123,7 @@ Fora da rolagem de Defesa, escudo é a peça que decide cena de corredor: com um
 De Revestimento a sua Destreza já não conta na Defesa, então o teto do escudo não te cobra nada: a Torre é a resposta. Na rota sem uniforme, contando com a proteção de energia, o Broquel é o que menos atrapalha.
 
 > **Aviso para quem tem `Selo` = `Gesto`.** Pegar um escudo ocupa a mão e desliga a sua técnica inteira. É o Selo funcionando: se o gesto é obrigatório para conjurar, sem a mão você não conjura. Para essa gente, escudo nunca esteve no menu.
+{: .aviso }
 
 ## Armas
 

@@ -8,6 +8,36 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.113] — 21/08/2026
+
+**A caixa de aviso saiu do papel: nove blocos do livro deixaram de parecer regra.**
+
+### Alterado — nove blocos marcados como `.aviso`
+
+*Aprovado pelo Mizuki depois de ver as duas versões da página 233 lado a lado.* **Até aqui todo `>` do fonte virava a mesma caixa com fundo, e ela carregava duas coisas diferentes: a regra que se aplica na mesa, e o que o leitor precisa saber antes de aplicar.**
+
+Os nove são de três tipos, e nenhum é regra:
+
+| tipo | onde |
+|---|---|
+| **decisão de mesa** | *"Defesa parada ou `Bloquear`: a mesa escolhe"* · *"Variante: rolar a vida"* · *"se a sua mesa usa `Bloquear`"* (2×) |
+| **desambiguação** | *"Cuidado com a palavra `Grau`"* · *"`Paralisado` não existe neste sistema"* |
+| **consequência de rota** | *"Quem nunca escolhe Refino termina a campanha com zero aptidões"* (2×) · *"Aviso para quem tem `Selo` = `Gesto`"* |
+
+**Ficaram 253 `.destaque` e 9 `.aviso`.** *O aviso perdeu o fundo e ficou com a barra à esquerda; a caixa de regra voltou a ser a única coisa que salta na página.* **Nenhum número mudou em nenhum dos sete arquivos.**
+
+> *Efeito colateral medido, e ele é bom:* **cada aviso encolheu uma linha**, porque a caixa compacta ocupa menos. *Num livro de 233 páginas isso soma.*
+
+### Corrigido — a marca `{: .aviso }` tem lugar certo, e ele não é óbvio
+
+**No primeiro teste ela foi para dentro do bloco e partiu a citação em duas.** *O `attr_list` precisa da linha **imediatamente depois** do bloco inteiro — se o `>` continua na linha seguinte, a marca no meio quebra o bloco.* **Todos os nove são de uma linha, conferido antes de aplicar.**
+
+*E o `.pdf` e o `.docx` foram regerados e copiados para a entrega.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: a fila do livro está **vazia**. A próxima peça de mecânica são as três Trilhas do Evocador — `Servo`, `Matilha` e `Coro` —, **paradas por decisão do Mizuki**. Sobra um item de validador: *estender a checagem 7 do `conferir-repositorio.py` para cobrir `livro/`*, porque hoje o `.pdf` publicado pode envelhecer sem ninguém acusar — foi o que aconteceu na v0.112.
+
+---
+
 ## [0.112] — 21/08/2026
 
 **A versão dos dois itens pequenos que sobraram da revisão do livro — e de um defeito bem maior achado ao rodar o build para testá-los.**

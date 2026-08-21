@@ -72,6 +72,7 @@ A cada marco a ficha ganha três coisas de graça e escolhe uma quarta.
 O refino no teto acontece cedo para quem investe: a partir do nível 22, a metade "mais um de refino" da escolha não teria onde cair. É por isso que ela troca de moeda e entrega a segunda aptidão.
 
 > **Quem nunca escolhe Refino termina a campanha com zero aptidões.** A rota existe e é legítima: ela troca dez aptidões por sete pontos de atributo a mais. Está escrito aqui para ninguém descobrir isso no nível 20.
+{: .aviso }
 
 Mesmo essa ficha não fica sem nada. `Cobrir-se de energia` e `Canalizar energia` vêm de graça no refino 1, e a primeira continua crescendo com o refino passivo até 8. O que ela nunca vai ter é `Energia Reversa` nem `Barreira Simples`.
 

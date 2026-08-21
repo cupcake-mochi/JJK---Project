@@ -196,6 +196,7 @@ Três reservas, e cada uma tem uma conta diferente. Vida é o corpo, energia é 
 > **Exemplo.** Mei é Vanguarda, Constituição 3, nível 4. Nível 1: 8 + 3 = 11. Cada um dos três níveis seguintes: 5 + 3 = 8. Total: 11 + 24 = **35 de vida**.
 
 > **Variante: rolar a vida.** Se a sua mesa preferir, role o dado do Caminho a cada nível em vez de pegar o valor fixo da tabela. Na média isso rende um pouco menos.
+{: .aviso }
 
 ### Vida temporária
 

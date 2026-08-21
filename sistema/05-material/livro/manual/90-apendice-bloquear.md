@@ -1,6 +1,7 @@
 # Apêndice · Bloquear
 
 > **Defesa parada ou `Bloquear`: a mesa escolhe.** Combinem antes da primeira sessão, e a resposta vale para todo mundo — jogadores e inimigos. Nenhum número de nenhum outro capítulo muda por causa dessa escolha.
+{: .aviso }
 
 A sua Defesa é um número parado: o inimigo rola contra ela e você não rola nada. Se a sua mesa preferir rolar para se defender, usa `Bloquear`.
 
@@ -71,3 +72,4 @@ Se um escudo, uma aptidão, um Legado ou uma ferramenta der `+1` na Defesa e nã
 A condição `Incapacitado` cita `Bloquear` diretamente: quem está `Incapacitado` não pode bloquear, e todo ataque corpo a corpo contra ele é crítico.
 
 > **Se a sua mesa não usa `Bloquear`, o `Incapacitado` é só o crítico no corpo a corpo.** É a metade que vale sempre, e ela sozinha já paga o preço da condição.
+{: .aviso }
