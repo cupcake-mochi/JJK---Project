@@ -8,6 +8,26 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.115] — 21/08/2026
+
+**A versão que caçou três pontos citados em commit e nunca levantados na retomada — e achou três situações diferentes atrás de uma pergunta só.**
+
+### Registrado — três pendências, verificadas uma a uma
+
+**As Bênçãos e a Lapidação.** *Já registrado, na peça errada de se procurar.* A Restrição Celestial pelo ramo da Maki não tem energia, então aptidão e refino viram Bênçãos e Lapidação — decidido na v0.38, aplicado na peça 9 na v0.39. **O que falta está escrito desde então na peça 11, seção "O que ainda não foi decidido": o catálogo das Bênçãos**, e se ele espelha o das aptidões ou tem lista própria.
+
+**Pactos.** *Já registrado, marcado `Provisório` na própria peça 8, Passo 8:* *"A regra completa de Pactos ainda não foi escrita."* Mesma trava da Regra de técnica — frase verificável, simétrica, sem dano direto, com limite — e nada além disso existe hoje.
+
+> **⚠ Achado novo, sem registro em nenhuma peça: nada trava Origem sem PE de escolher Caminho construído em PE.** *A peça 6 não cita Origem; a peça 9 não cita Caminho — a checagem entre as duas simplesmente não existe.* **O caso afiado é a Restrição Celestial (Maki/Toji) com o Emanador**: a Origem diz "sem PE", zero absoluto, e o Emanador entrega `PE por nível: 6` crescendo todo nível — **contradição de regra**, não desperdício de escolha. *O caso brando é Sem Técnica com o Emanador: mantém PE, mas sem Fundamento, e o kit inteiro do Emanador é construído em feitiço — não quebra, só não tem onde gastar.*
+
+**Escrito nos dois donos:** a peça 9 (`09-origens.md` §8, `Em aberto`) ganhou o achado com a régua completa, e o `sistema/ESTADO-ATUAL.md` ganhou os três, com ponteiro para onde cada um mora de verdade.
+
+*Nenhum número de regra mudou — é registro de pendência, não conserto.* **A entrega ressincronizada**, porque a peça 9 mudou.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *Três pendências mencionadas em commit e não levantadas aqui*. **O Mizuki vai abordar os três numa conversa nova**: fechar o catálogo das Bênçãos (peça 11), escrever a regra de Pactos (peça 8), e decidir o formato do gate Origem × Caminho — se é veto ou só desaconselhado, e se espera a Técnica Marcial ou fecha antes (peça 9 §8). As Trilhas do Evocador continuam paradas por decisão do Mizuki.
+
+---
+
 ## [0.114] — 21/08/2026
 
 **O buraco de validador que a v0.112 achou por acaso fechou.**

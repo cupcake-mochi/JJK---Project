@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 21/08/2026, na v0.114 (última peça fechada: **Dano e condições**, ampliada na v0.104 com a penalidade de arma; antes dela, a **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 21/08/2026, na v0.115 (última peça fechada: **Dano e condições**, ampliada na v0.104 com a penalidade de arma; antes dela, a **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.114.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezenove peças escritas** e **dezenove validadores**.
+**Versão v0.115.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezenove peças escritas** e **dezenove validadores**.
 
 **A v0.114 pôs `livro/` no recorte da checagem 7** — *o `.pdf` publicado podia envelhecer sem ninguém acusar, e foi o que aconteceu na v0.112.* **O recorte foi de 29 para 31 arquivos; a contagem de checagens não mudou.**
 
@@ -500,6 +500,16 @@ Isso é a camada de aptidão da **Técnica Marcial**, que o material já descrev
 *A prosa da peça 9 chama o Estilo da Sombra de "técnica de espada e corpo", e isso ficou mais estreito que a própria mecânica do projeto. Corrigir quando a peça sair.*
 
 ### A Expansão de Domínio, escrita — manual v7.7
+
+### Três pendências mencionadas em commit e não levantadas aqui — achadas na v0.115
+
+*O Mizuki pediu para verificar três pontos que sabia terem sido citados em versões passadas, sem aparecer nesta lista de retomada. Os três são reais, e são três situações diferentes.*
+
+**As Bênçãos e a Lapidação — pendência já registrada, na peça errada de se procurar.** A Restrição Celestial pelo ramo da Maki não tem energia, então aptidão e refino viram **Bênçãos** e **Lapidação**, decidido na v0.38 e aplicado na peça 9 na v0.39. *O que falta está escrito, só que na seção "O que ainda não foi decidido" da **peça 11** (`11-aptidoes-e-refino.md`), não aqui:* **o catálogo das Bênçãos, e se ele espelha o das aptidões entrada por entrada ou tem lista própria.** Depende da mesma máquina de Técnica Marcial que trava as outras duas rotas.
+
+**Pactos — pendência já registrada, marcada `Provisório` na própria peça.** A peça 8 (`08-criacao-de-personagem.md`), Passo 8: *"A regra completa de Pactos ainda não foi escrita. Até lá, pacto na criação só entra com aprovação do mestre e com o preço escrito na ficha."* Mesma trava da Regra de técnica — frase verificável, simétrica, sem dano direto, com limite —, e nada além disso existe hoje.
+
+> **⚠ Achado novo, sem registro em nenhuma peça: nada trava Origem sem PE de escolher Caminho construído em PE.** *A peça 6 (Caminhos) não cita Origem nenhuma; a peça 9 não cita Caminho nenhum — a checagem entre as duas simplesmente não existe.* **O caso afiado é a Restrição Celestial pelo ramo da Maki e do Toji com o Emanador:** a Origem diz "sem PE", zero absoluto, e o Emanador entrega `PE por nível: 6` como número que cresce todo nível — **contradição de regra**, não desperdício de escolha. *O caso brando é Sem Técnica com o Emanador: mantém PE, mas sem Fundamento, e o kit inteiro do Emanador (`Sangria`, `Resquício`, `Modelagem`, `Fonte`, `Acelerar`, `Vazão`, `Cheia`, `Transbordo`) é construído em cima de feitiço — não quebra, só não tem onde gastar.* **Registrado na peça 9 §8, `Em aberto`.** Falta decidir o formato do gate — global, por Caminho, veto ou só desaconselhado — e se ele espera a Técnica Marcial ou pode fechar antes.
 
 *Decidido depois da v0.26.* Ela **não é aptidão** e não mora nesta peça: mora no manual, no molde de uma Passiva, **comprada trocando espaços de feitiço conhecido**, com gate duplo de nível e refino, em dois degraus.
 
