@@ -132,11 +132,12 @@ Nenhuma arma deste catálogo fere maldição sozinha. Contra maldição, o que r
 
 ### Como ler uma arma
 
-Toda tabela do catálogo tem as mesmas cinco colunas, nesta ordem:
+O `Catálogo de armas` tem seis colunas, nesta ordem:
 
-**arma** · **mão** · **dado** · **propriedades** · **requer Força**
+**arma** · **categoria** · **mão** · **dado** · **propriedades** · **requer Força**
 
 - **arma** — o nome. Nome japonês vem com a tradução entre parênteses.
+- **categoria** — a família dela, e é onde o treino mora: treinar uma categoria libera todas as armas dela.
 - **mão** — `1` ou `2`. Arma de duas mãos não deixa espaço para escudo.
 - **dado** — o dado de dano que você rola quando acerta.
 - **propriedades** — o que a arma faz de diferente das outras. As restrições aparecem nessa mesma lista.
@@ -278,68 +279,70 @@ O requisito e o treino são gates diferentes e não se substituem. Um olha o seu
 
 ## Catálogo
 
-Este catálogo é para consultar. Ache a arma pelo nome no primeiro índice, ou pelo que você quer que ela faça no segundo.
+Este catálogo é para consultar. O `Catálogo de armas` traz as 52 armas com tudo que decide o golpe, em três blocos, um por lista de treino. Depois dele vem o índice por propriedade, para quando você sabe o que quer que a arma faça e não qual é o nome dela. As treze categorias, no fim, dizem o que cada família é na mão e na cena.
 
-### Índice A–Z
+### Armas por treino
 
-**Índice A–Z**
+**Catálogo de armas**
 {: .tab-titulo }
 
-| arma | categoria | treino |
-|---|---|---|
-| Bastão | Porrete | simples |
-| Besta | Balestra | simples |
-| Besta de Uma Mão | Balestra | simples |
-| Bō | Porrete | simples |
-| Canivete | Lâmina Curta | simples |
-| Cassetete | Porrete | simples |
-| Chakram | Arremesso | simples |
-| Chicote | Flexível | marcial |
-| Corrente | Flexível | marcial |
-| Daikyū | Yumi | marcial |
-| Espada Longa | Lâmina Longa | marcial |
-| Espadão | Lâmina Longa | marcial |
-| Espingarda | Arma de Fogo | de fogo |
-| Faca | Lâmina Curta | simples |
-| Foice | Ceifa | simples |
-| Hankyū | Yumi | marcial |
-| Kama | Ceifa | simples |
-| Kanabō | Massa | simples |
-| Katana | Lâmina Longa | marcial |
-| Kunai | Arremesso | simples |
-| Kusarigama | Ceifa | simples |
-| Lança | Armas Longas | marcial |
-| Maça | Massa | simples |
-| Machadinha | Machado | marcial |
-| Machado | Machado | marcial |
-| Machado de Guerra | Machado | marcial |
-| Machete | Lâmina Longa | marcial |
-| Manriki | Flexível | marcial |
-| Marreta | Massa | simples |
-| Maul | Massa | simples |
-| Metralhadora Pesada | Arma de Fogo | de fogo |
-| Naginata | Armas Longas | marcial |
-| Nodachi | Lâmina Longa | marcial |
-| Nunchaku | Porrete | simples |
-| Odachi | Lâmina Longa | marcial |
-| Pistola | Arma de Fogo | de fogo |
-| Punhal | Lâmina Curta | simples |
-| Rapieira | Lâmina Longa | marcial |
-| Revólver | Arma de Fogo | de fogo |
-| Rifle | Arma de Fogo | de fogo |
-| Rifle de Precisão | Arma de Fogo | de fogo |
-| Sai | Lâmina Curta | simples |
-| Shuriken | Arremesso | simples |
-| Soqueira | Manopla | simples |
-| Submetralhadora | Arma de Fogo | de fogo |
-| Taco | Massa | simples |
-| Tanto | Lâmina Curta | simples |
-| Tekko | Manopla | simples |
-| Tessen | Arremesso | simples |
-| Tonfa | Porrete | simples |
-| Wakizashi | Lâmina Longa | marcial |
-| Yari | Armas Longas | marcial |
-
+| arma | categoria | mão | dado | propriedades | requer Força |
+|---|---|---|---|---|---|
+| **Treino simples** | | | | | |
+| Bastão | Porrete | 1 | **d6** | `Versátil` · `Alcance` · `Rompe` | — |
+| Besta | Balestra | 2 | **2d8** | `Longo Alcance` · `Munição` · `Rompe` | 3 |
+| Besta de Uma Mão | Balestra | 1 | **1d10** | `Longo Alcance` · `Munição` · `Oculta` | — |
+| Bō | Porrete | 2 | **d10** | `Alcance` · `Emaranha` | 3 |
+| Canivete | Lâmina Curta | 1 | **d4** | `Fineza` · `Oculta` · `Rompe` | — |
+| Cassetete | Porrete | 1 | **d6** | `Oculta` · `Vestida` | — |
+| Chakram | Arremesso | 1 | **d4** | `Longo Alcance` · `Fineza` · `Oculta` | — |
+| Faca | Lâmina Curta | 1 | **d6** | `Fineza` · `Rompe` | — |
+| Foice | Ceifa | 2 | **d10** | `Emaranha` · `Talha` | 3 |
+| Kama | Ceifa | 1 | **d6** | `Par` · `Rompe` | — |
+| Kanabō | Massa | 2 | **d12** | `Talha` | 3 |
+| Kunai | Arremesso | 1 | **d6** | `Longo Alcance` · `Oculta` | — |
+| Kusarigama | Ceifa | 2 | **d8** | `Alcance` · `Emaranha` · `Longo Alcance` | — |
+| Maça | Massa | 1 | **d8** | `Talha` | — |
+| Marreta | Massa | 2 | **d10** | `Rompe` · `Talha` | 3 |
+| Maul | Massa | 2 | **d12** | `Rompe` | 3 |
+| Nunchaku | Porrete | 1 | **d6** | `Par` · `Emaranha` | — |
+| Punhal | Lâmina Curta | 1 | **d6** | `Fineza` · `Longo Alcance` | — |
+| Sai | Lâmina Curta | 1 | **d6** | `Fineza` · `Par` | — |
+| Shuriken | Arremesso | 1 | **d4** | `Longo Alcance` · `Oculta` · `Par` | — |
+| Soqueira | Manopla | 1 | **d4** | `Vestida` · `Oculta` · `Par` | — |
+| Taco | Massa | 1 | **d8** | `Versátil` · `Oculta` | — |
+| Tanto | Lâmina Curta | 1 | **d6** | `Fineza` · `Oculta` | — |
+| Tekko | Manopla | 1 | **d4** | `Vestida` · `Par` · `Oculta` | — |
+| Tessen | Arremesso | 1 | **d4** | `Longo Alcance` · `Oculta` · `Vestida` | — |
+| Tonfa | Porrete | 1 | **d6** | `Par` · `Vestida` | — |
+| **Treino marcial** | | | | | |
+| Chicote | Flexível | 1 | **d4** | `Alcance` · `Emaranha` · `Oculta` | — |
+| Corrente | Flexível | 2 | **d8** | `Alcance` · `Emaranha` · `Rompe` | — |
+| Daikyū | Yumi | 2 | **1d10** | `Longo Alcance` | — |
+| Espada Longa | Lâmina Longa | 1 | **d8** | `Versátil` · `Rompe` | — |
+| Espadão | Lâmina Longa | 2 | **d12** | `Alcance` | 3 |
+| Hankyū | Yumi | 2 | **1d8** | `Longo Alcance` · `Oculta` | — |
+| Katana | Lâmina Longa | 1 | **d8** | `Versátil` · `Fineza` | — |
+| Lança | Armas Longas | 1 | **d6** | `Alcance` · `Longo Alcance` | — |
+| Machadinha | Machado | 1 | **d6** | `Longo Alcance` · `Rompe` | — |
+| Machado | Machado | 1 | **d8** | `Rompe` | — |
+| Machado de Guerra | Machado | 2 | **d12** | `Rompe` · `Talha` · `Volumosa` | 3 |
+| Machete | Lâmina Longa | 1 | **d8** | `Rompe` | — |
+| Manriki | Flexível | 1 | **d6** | `Emaranha` · `Oculta` | — |
+| Naginata | Armas Longas | 2 | **d10** | `Alcance` · `Rompe` | 3 |
+| Nodachi | Lâmina Longa | 2 | **d12** | `Alcance` · `Rompe` · `Volumosa` | 3 |
+| Odachi | Lâmina Longa | 2 | **d12** | `Alcance` · `Talha` · `Embainhada` | 3 |
+| Rapieira | Lâmina Longa | 1 | **d6** | `Fineza` · `Talha` | — |
+| Wakizashi | Lâmina Longa | 1 | **d8** | `Oculta` | — |
+| Yari | Armas Longas | 2 | **d10** | `Alcance` · `Talha` | 3 |
+| **Treino de fogo** | | | | | |
+| Espingarda | Arma de Fogo | 2 | **2d8** | `Longo Alcance` · `Munição` · `Rompe` | 3 |
+| Metralhadora Pesada | Arma de Fogo | 2 | **2d10** | `Longo Alcance` · `Munição` · `Rompe` · `Volumosa` | 3 |
+| Pistola | Arma de Fogo | 1 | **1d10** | `Longo Alcance` · `Munição` · `Oculta` | — |
+| Revólver | Arma de Fogo | 1 | **1d10** | `Longo Alcance` · `Munição` · `Oculta` | — |
+| Rifle | Arma de Fogo | 2 | **2d8** | `Longo Alcance` · `Munição` · `Talha` | 3 |
+| Rifle de Precisão | Arma de Fogo | 2 | **2d10** | `Longo Alcance` · `Munição` | 3 |
+| Submetralhadora | Arma de Fogo | 2 | **2d6** | `Longo Alcance` · `Munição` · `Par` · `Oculta` | — |
 ### Índice por propriedade
 
 **Índice por propriedade**
@@ -368,16 +371,6 @@ Treino simples. Todas carregam `Fineza`, então o dano delas sai de Destreza.
 
 Lâmina curta é briga de distância zero. Você entra por dentro da guarda, encosta e corta, e o que decide o golpe é leitura de corpo e mão rápida. É também a categoria que passa por qualquer lugar sem levantar pergunta: uma faca cabe no bolso do casaco e continua lá durante a entrevista inteira.
 
-**Lâmina Curta**
-{: .tab-titulo }
-
-| arma | mão | dado | propriedades | requer Força |
-|---|---|---|---|---|
-| Tanto | 1 | **d6** | `Fineza` · `Oculta` | — |
-| Punhal | 1 | **d6** | `Fineza` · `Longo Alcance` | — |
-| Canivete | 1 | **d4** | `Fineza` · `Oculta` · `Rompe` | — |
-| Faca | 1 | **d6** | `Fineza` · `Rompe` | — |
-| Sai | 1 | **d6** | `Fineza` · `Par` | — |
 
 ### Lâmina Longa
 
@@ -385,19 +378,6 @@ Treino marcial. O dano sai de Força, ou de Destreza nas duas que carregam `Fine
 
 Lâmina longa se luta com o corpo inteiro: o pé escolhe a distância, o quadril faz o corte, e o braço só entrega. As de uma mão deixam a outra livre para escudo, para segurar alguém ou para fechar um selo. As de duas trocam essa mão por alcance e por dado grande, e quem empunha uma delas está declarando que não pretende se esconder de ninguém.
 
-**Lâmina Longa**
-{: .tab-titulo }
-
-| arma | mão | dado | propriedades | requer Força |
-|---|---|---|---|---|
-| Machete | 1 | **d8** | `Rompe` | — |
-| Wakizashi | 1 | **d8** | `Oculta` | — |
-| Rapieira | 1 | **d6** | `Fineza` · `Talha` | — |
-| Katana | 1 | **d8** | `Versátil` · `Fineza` | — |
-| Espada Longa | 1 | **d8** | `Versátil` · `Rompe` | — |
-| Espadão | 2 | **d12** | `Alcance` | 3 |
-| Odachi | 2 | **d12** | `Alcance` · `Talha` · `Embainhada` | 3 |
-| Nodachi | 2 | **d12** | `Alcance` · `Rompe` · `Volumosa` | 3 |
 
 Odachi e Nodachi são a mesma lâmina longa demais para o cinto, com a mesma mão e o mesmo dado. A diferença está em como cada uma resolve o tamanho: o Odachi se carrega nas costas e precisa de tempo ou de ajuda para sacar, o Nodachi você saca sozinho e carrega à mostra. Se a sua mesa costuma começar cena já em briga, o Odachi vai chegar atrasado em algumas delas.
 
@@ -407,16 +387,6 @@ Treino simples. O dano sai de Força.
 
 Massa fere com peso chegando rápido, e peso não perde o fio. É a arma que continua funcionando depois de uma noite inteira batendo em concreto, e a que menos se importa com o que o alvo vestiu por cima.
 
-**Massa**
-{: .tab-titulo }
-
-| arma | mão | dado | propriedades | requer Força |
-|---|---|---|---|---|
-| Maça | 1 | **d8** | `Talha` | — |
-| Marreta | 2 | **d10** | `Rompe` · `Talha` | 3 |
-| Kanabō | 2 | **d12** | `Talha` | 3 |
-| Maul | 2 | **d12** | `Rompe` | 3 |
-| Taco | 1 | **d8** | `Versátil` · `Oculta` | — |
 
 ### Porrete
 
@@ -424,16 +394,6 @@ Treino simples. O dano sai de Força.
 
 Porrete é madeira e controle. Você acerta, empurra, prende, afasta e a cena continua com todo mundo vivo. É a categoria de quem trabalha perto de civil e precisa poder errar o alvo sem abrir um buraco na parede.
 
-**Porrete**
-{: .tab-titulo }
-
-| arma | mão | dado | propriedades | requer Força |
-|---|---|---|---|---|
-| Bastão | 1 | **d6** | `Versátil` · `Alcance` · `Rompe` | — |
-| Bō | 2 | **d10** | `Alcance` · `Emaranha` | 3 |
-| Cassetete | 1 | **d6** | `Oculta` · `Vestida` | — |
-| Tonfa | 1 | **d6** | `Par` · `Vestida` | — |
-| Nunchaku | 1 | **d6** | `Par` · `Emaranha` | — |
 
 ### Manopla
 
@@ -441,13 +401,6 @@ Treino simples. O dano sai de Força.
 
 Manopla é o soco com uma peça de metal por cima. Ela vai vestida: você chega de mãos vazias em qualquer portaria e continua armado do outro lado. Quem luta assim briga colado, e usa o corpo inteiro como parte da arma.
 
-**Manopla**
-{: .tab-titulo }
-
-| arma | mão | dado | propriedades | requer Força |
-|---|---|---|---|---|
-| Soqueira | 1 | **d4** | `Vestida` · `Oculta` · `Par` | — |
-| Tekko | 1 | **d4** | `Vestida` · `Par` · `Oculta` | — |
 
 O Tekko é a soqueira japonesa: mesma linha da Soqueira, mesmo gasto, mesma regra. O que muda é de onde ela veio.
 
@@ -457,14 +410,6 @@ Treino marcial. O dano sai de Força.
 
 Machado concentra o peso na ponta e cobra o gesto inteiro: quem erra fica aberto por um instante. Em compensação, o que ele acerta ele abre, e isso vale para porta trancada, grade e assoalho tanto quanto para o que estiver do outro lado.
 
-**Machado**
-{: .tab-titulo }
-
-| arma | mão | dado | propriedades | requer Força |
-|---|---|---|---|---|
-| Machado | 1 | **d8** | `Rompe` | — |
-| Machado de Guerra | 2 | **d12** | `Rompe` · `Talha` · `Volumosa` | 3 |
-| Machadinha | 1 | **d6** | `Longo Alcance` · `Rompe` | — |
 
 O Machado tem a mesma linha do Machete, lá na Lâmina Longa: `d8`, uma mão, `Rompe`. A escolha entre os dois é de sabor, e as duas categorias caem no mesmo balde de treino.
 
@@ -474,14 +419,6 @@ Treino simples. O dano sai de Força.
 
 Ceifa puxa. A curva da lâmina engancha braço, perna, cano de andaime e o cabo da arma do outro, e o golpe costuma terminar com o alvo mais perto de você do que ele gostaria. É a categoria de quem prefere escolher onde o inimigo vai estar.
 
-**Ceifa**
-{: .tab-titulo }
-
-| arma | mão | dado | propriedades | requer Força |
-|---|---|---|---|---|
-| Foice | 2 | **d10** | `Emaranha` · `Talha` | 3 |
-| Kama | 1 | **d6** | `Par` · `Rompe` | — |
-| Kusarigama | 2 | **d8** | `Alcance` · `Emaranha` · `Longo Alcance` | — |
 
 ### Armas Longas
 
@@ -489,14 +426,6 @@ Treino marcial. O dano sai de Força. É a única categoria em que o `Alcance` c
 
 Arma longa serve para decidir a distância. Você mantém a coisa a três metros e ela gasta o turno inteiro só para chegar ao ponto onde a luta começaria. Em corredor e em vão de porta, uma lança sozinha segura uma passagem enquanto o resto do grupo faz o trabalho.
 
-**Armas Longas**
-{: .tab-titulo }
-
-| arma | mão | dado | propriedades | requer Força |
-|---|---|---|---|---|
-| Naginata | 2 | **d10** | `Alcance` · `Rompe` | 3 |
-| Yari | 2 | **d10** | `Alcance` · `Talha` | 3 |
-| Lança | 1 | **d6** | `Alcance` · `Longo Alcance` | — |
 
 ### Flexível
 
@@ -504,14 +433,6 @@ Treino marcial. O dano sai de Força.
 
 Corrente e chicote fazem curva. O golpe contorna guarda, escudo e quina de parede, e ninguém aprende a ler a trajetória numa luta só. O dado é pequeno em todas as três: o que a categoria entrega é alcance e `Emaranha`.
 
-**Flexível**
-{: .tab-titulo }
-
-| arma | mão | dado | propriedades | requer Força |
-|---|---|---|---|---|
-| Corrente | 2 | **d8** | `Alcance` · `Emaranha` · `Rompe` | — |
-| Chicote | 1 | **d4** | `Alcance` · `Emaranha` · `Oculta` | — |
-| Manriki | 1 | **d6** | `Emaranha` · `Oculta` | — |
 
 ### Arremesso
 
@@ -519,15 +440,6 @@ Treino simples. O dano sai de Força: o arremesso sai do corpo.
 
 Arremesso resolve seis metros na hora, sem trocar de arma e sem sair da briga de perto. Todas as quatro escondem, e todas cabem numa cena em que você precisa acertar alguma coisa do outro lado da sala antes que ela termine de se virar.
 
-**Arremesso**
-{: .tab-titulo }
-
-| arma | mão | dado | propriedades | requer Força |
-|---|---|---|---|---|
-| Kunai | 1 | **d6** | `Longo Alcance` · `Oculta` | — |
-| Shuriken | 1 | **d4** | `Longo Alcance` · `Oculta` · `Par` | — |
-| Tessen | 1 | **d4** | `Longo Alcance` · `Oculta` · `Vestida` | — |
-| Chakram | 1 | **d4** | `Longo Alcance` · `Fineza` · `Oculta` | — |
 
 ### Yumi
 
@@ -535,13 +447,6 @@ Treino marcial. O dano sai de Destreza: o arco se puxa, e puxar é coisa do corp
 
 Yumi é o arco japonês, assimétrico e alto, puxado até passar da orelha. Atirar com ele é postura e respiração antes de ser mira. O disparo sai calado, e é isso que faz um arco resolver um vigia no fim do corredor sem acordar os outros três.
 
-**Yumi**
-{: .tab-titulo }
-
-| arma | mão | dado | propriedades | requer Força |
-|---|---|---|---|---|
-| Hankyū *(arco curto)* | 2 | **1d8** | `Longo Alcance` · `Oculta` | — |
-| Daikyū *(arco longo)* | 2 | **1d10** | `Longo Alcance` | — |
 
 O daikyū passa de dois metros e se carrega nas costas. O hankyū fica entre 45 e 160 cm: é o arco de espaço apertado e de montaria, e é por isso que ele esconde e o outro não. Nenhum dos dois ganha do outro: o Daikyū tem o dado maior, o Hankyū tem a propriedade a mais.
 
@@ -551,13 +456,6 @@ Treino simples. **Não soma atributo nenhum**: a energia já está armazenada na
 
 A besta guarda a força por você. Quem atira aponta e solta, e por isso ela é a arma que qualquer um do grupo pega emprestada e usa igual. O preço vem depois do disparo, na hora de armar de novo.
 
-**Balestra**
-{: .tab-titulo }
-
-| arma | mão | dado | propriedades | requer Força |
-|---|---|---|---|---|
-| Besta de Uma Mão | 1 | **1d10** | `Longo Alcance` · `Munição` · `Oculta` | — |
-| Besta | 2 | **2d8** | `Longo Alcance` · `Munição` · `Rompe` | 3 |
 
 ### Arma de Fogo
 
@@ -565,18 +463,6 @@ Lista de treino própria, sozinha. **Não soma atributo nenhum**, pelo mesmo mot
 
 Arma de fogo resolve distância e barulho no mesmo gesto. Ela cobra treino próprio e devolve o tiro mais rápido do catálogo, com o custo de que a cena discreta acaba no primeiro disparo: a partir dali existe polícia, existe testemunha e existe relatório para alguém escrever depois.
 
-**Arma de Fogo**
-{: .tab-titulo }
-
-| arma | mão | dado | propriedades | requer Força |
-|---|---|---|---|---|
-| Pistola | 1 | **1d10** | `Longo Alcance` · `Munição` · `Oculta` | — |
-| Revólver | 1 | **1d10** | `Longo Alcance` · `Munição` · `Oculta` | — |
-| Submetralhadora | 2 | **2d6** | `Longo Alcance` · `Munição` · `Par` · `Oculta` | — |
-| Espingarda | 2 | **2d8** | `Longo Alcance` · `Munição` · `Rompe` | 3 |
-| Rifle | 2 | **2d8** | `Longo Alcance` · `Munição` · `Talha` | 3 |
-| Rifle de Precisão | 2 | **2d10** | `Longo Alcance` · `Munição` | 3 |
-| Metralhadora Pesada | 2 | **2d10** | `Longo Alcance` · `Munição` · `Rompe` · `Volumosa` | 3 |
 
 Pistola e Revólver têm a mesma linha de regra. A diferença entre os dois está na faixa: a Pistola vai a 9 m, o Revólver a 12 m.
 

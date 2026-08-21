@@ -1,6 +1,6 @@
 # Estado da revisão · Manual da Guilda
 
-> ## Passada de termos — FASES 1 e 3 CONCLUÍDAS em 21/08/2026, fase 4 aberta
+> ## Passada de termos — FASES 1 e 3 CONCLUÍDAS, fase 4 começada em 21/08/2026
 >
 > **Terceira revisão, sobre o vocabulário.** Nasceu de duas reclamações de playtest: jogador
 > novo não se contextualiza, e leitor de leitura dinâmica encontra um termo e não acha a
@@ -94,20 +94,54 @@
 > `guard_numeros.py` acusou 5 diferenças nos quatro arquivos, e todas são o número do capítulo
 > recém-escrito.** Nenhum número de regra se moveu.
 >
+> ### Fase 4 — o capítulo 11 reordenado, e a validação contrariou o modelo
+>
+> **O defeito não era a distância até a tabela; era que a tabela que chegava primeiro não
+> servia para escolher arma.** *O `Índice A–Z` trazia `arma | categoria | treino` — três
+> colunas, nenhum dado de jogo — e os dados viviam espalhados em treze tabelas de grupo.*
+> **Não existia no capítulo nenhuma tabela que permitisse comparar duas armas.**
+>
+> **A divisão do PHB não serve aqui, e medir mostrou por quê.** *Lá a proficiência é por arma,
+> então ele corta em `simples/marcial × corpo a corpo/distância`.* **Neste sistema o treino
+> mora na categoria** — treinar `Lâmina Longa` libera as oito —, **e são três listas, não
+> duas: simples (26 armas), marcial (19) e de fogo (7).** Copiar o corte do PHB quebraria o
+> vínculo entre categoria e treino, que é regra.
+>
+> **O que ficou:** uma tabela só, `Catálogo de armas`, com `arma | categoria | mão | dado |
+> propriedades | requer Força`, em três blocos por lista de treino e alfabética dentro de cada
+> bloco. O `Índice por propriedade` continua. As treze categorias perderam a tabela e
+> mantiveram as **70 linhas de prosa** que descrevem cada família.
+>
+> | | antes | depois |
+> |---|---:|---:|
+> | capítulo inteiro | 601 linhas | **486** |
+> | linhas de tabela no catálogo | 132 | **60** |
+> | tabelas onde a arma aparece | 14 | **1** |
+> | armas | 52 | **52** |
+>
+> *Conferido depois da reescrita: nenhuma das 52 armas se perdeu, nenhuma tabela de grupo
+> sobrou órfã, e o `guard_numeros.py` acusou 6 diferenças — todas do texto de abertura
+> reescrito (`52` armas, `seis` colunas em vez de `cinco`, `treze` categorias, `três` blocos).*
+> **Nenhuma notação de dado mudou.**
+>
+> *Duas frases minhas quebraram a regra `TABELA-VAGA` — diziam "a tabela" sem nome próprio — e
+> o `conferir-voz.py` pegou as duas.* **Corrigidas para citar o `Catálogo de armas` pelo nome.**
+>
 > ### E o que a passada ainda nem começou
 >
-> **Fase 4 — reordenação e exemplos.** **22 seções** têm mais de 250 palavras de regra antes
-> da primeira tabela. As piores: `Aptidões de barreira` (511), `Regra rápida do turno` (514),
-> `Tipos de dano` (549), e as oito Origens com cerca de 350 cada. No capítulo 11, a seção
-> `Armas` passa **151 linhas** de regra antes da primeira arma concreta, e depois o catálogo
-> se fragmenta em uma tabela por grupo. *O D&D gasta distância parecida, mas as quatro
-> tabelas dele ficam coladas e a prosa dos grupos vem depois.*
+> **As outras 21 seções que enterram a tabela.** As piores: `Aptidões de barreira` (511
+> palavras de regra antes da primeira tabela), `Regra rápida do turno` (514), `Tipos de dano`
+> (549), e as oito Origens com cerca de 350 cada.
+>
+> **Exemplos.** A medida que abriu esta passada continua valendo: **0,06 exemplo por mil
+> palavras**, contra `0,61` do D&D e `1,41` do GURPS. *Nada foi feito nesta frente.*
 >
 > ### Estado para retomar
 >
 > **Nada disto foi commitado ainda.** Arquivos tocados: `REGRA-DE-VOZ.md`, `conferir-voz.py`,
 > `manual/07-glossario.md`, `manual/12-pericias-e-oficios.md`, `manual/15-dano-e-condicoes.md`,
-> `manual/35-caminhos-e-trilhas.md`, `manual/50-equipamento.md`, e este documento.
+> `manual/35-caminhos-e-trilhas.md`, `manual/50-equipamento.md` (reordenado inteiro), e
+> este documento.
 >
 > **Verde em tudo:** `conferir-voz.py --estrito` sai `0`, os 19 validadores de `03-mecanica`
 > saem `0` com `PULADA=0`, e o `conferir-repositorio.py` sai verde.
