@@ -16,7 +16,7 @@ abaixo.
 > **Atacar** = `d20` + Força (corpo a corpo), Destreza (à distância) ou `2` + maestria
 > (conjuração), contra a **Defesa** do alvo.
 >
-> **Teste de Resistência** = `d20` + o atributo daquele Teste, `+2` se você for treinado.
+> **Teste de Resistência** = `d20` + o atributo daquele Teste + `maestria`, e a maestria só se você for treinado.
 > É o que **você** rola quando alguma coisa acontece com você.
 
 Todo termo aqui tem explicação completa no capítulo 1 e no vocabulário do sistema, logo

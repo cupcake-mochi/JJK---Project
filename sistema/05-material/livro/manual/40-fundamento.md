@@ -94,7 +94,7 @@ Metade dos seus feitiços deixa a rolagem com o alvo: ele é quem rola contra vo
 
 **Você tem uma CD só.** Ela não muda de feitiço para feitiço, não sobe com a Classe e não se compra com pontos. É um número da ficha, como a sua Defesa.
 
-**O que o alvo rola.** Um **Teste de Resistência**: `d20 + o atributo daquele Teste`, mais 2 se ele for treinado nele. Igualou ou passou a sua CD, ele resistiu. Nos feitiços de área (`Explosão`, `Aura`, `Cone`, `Linha`) resistir quer dizer levar metade dos dados, salvo se você tiver comprado a Restrição `Tudo ou Nada`.
+**O que o alvo rola.** Um **Teste de Resistência**: `d20 + o atributo daquele Teste`, mais a maestria dele se ele for treinado nele. Igualou ou passou a sua CD, ele resistiu. Nos feitiços de área (`Explosão`, `Aura`, `Cone`, `Linha`) resistir quer dizer levar metade dos dados, salvo se você tiver comprado a Restrição `Tudo ou Nada`.
 
 **O que mexe na CD.** Só três coisas sobem a sua CD, e todas são compradas por feitiço:
 

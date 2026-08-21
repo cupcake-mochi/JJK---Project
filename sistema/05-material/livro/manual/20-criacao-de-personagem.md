@@ -180,10 +180,10 @@ Nada aqui é escolha. Você copia da tabela e faz a conta.
 | Defesa | 10 + Destreza + 1 |
 | Iniciativa | d20 + Destreza |
 | Deslocamento | 9 metros |
-| Ataque corpo a corpo | d20 + Força |
-| Ataque à distância | d20 + Destreza |
+| Ataque corpo a corpo | d20 + Força + maestria |
+| Ataque à distância | d20 + Destreza + maestria |
 | Ataque de conjuração | d20 + atributo da técnica + maestria |
-| CD de feitiço | 13 |
+| CD de feitiço | 8 + atributo da técnica + maestria |
 | Perícia treinada | d20 + atributo + 1 |
 | Teste de Resistência | d20 + atributo do TR + maestria, e a maestria só se treinado |
 

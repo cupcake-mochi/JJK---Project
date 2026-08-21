@@ -287,7 +287,7 @@ abaixo.
 > **Atacar** = `d20` + Força (corpo a corpo), Destreza (à distância) ou `2` + maestria
 > (conjuração), contra a **Defesa** do alvo.
 >
-> **Teste de Resistência** = `d20` + o atributo daquele Teste, `+2` se você for treinado.
+> **Teste de Resistência** = `d20` + o atributo daquele Teste + `maestria`, e a maestria só se você for treinado.
 > É o que **você** rola quando alguma coisa acontece com você.
 
 Todo termo aqui tem explicação completa no capítulo 1 e no vocabulário do sistema, logo
@@ -476,7 +476,7 @@ Inteligência não concede perícias extras. O que você é treinado vem da Orig
 |---|---|---|---|---|
 | maestria | 1 | 2 | 3 | 4 |
 
-Maestria é o bônus que mede o tempo de estrada do personagem. Ela entra em três lugares: no ataque de conjuração, na CD dos seus feitiços e nas perícias em que você é treinado. Por exemplo, no nível 6 a sua maestria é 1, e no nível 10 ela vira 2. Ela fica fora da Defesa e fora de Teste de Resistência, que são os dois números que o sistema deixa crescer só por atributo e equipamento.
+Maestria é o bônus que mede o tempo de estrada do personagem, e ela é **a marca do treino**: entra nas três rolagens de acerto, na CD dos seus feitiços, e em toda perícia, ofício e Teste de Resistência em que você é treinado. Por exemplo, no nível 6 a sua maestria é 1, e no nível 10 ela vira 2. Ela fica de fora da Defesa, que é passiva — e de fora do Teste de Resistência que você **não** treinou.
 
 A ficha começa no **nível 2**, já com um feitiço. O nível 1 fica como opção de campanha, para quando a mesa quiser jogar o personagem de antes de ele ser feiticeiro.
 
@@ -533,7 +533,7 @@ Estar atrás de alguma coisa sobe a sua Defesa, e a cobertura Total tira você d
 
 Um **Teste de Resistência** é o que você rola quando alguma coisa acontece com você e você tenta segurar a barra. O ataque parte do outro lado; a rolagem é sua. São quatro.
 
-> **Teste de Resistência = d20 + atributo do TR, mais 2 se você for treinado nele.**
+> **Teste de Resistência = d20 + atributo do TR + maestria, e a maestria só se você for treinado nele.**
 
 **Testes de Resistência**
 | Teste de Resistência | Usa | Serve para |
@@ -549,7 +549,7 @@ Você é treinado em **dois dos quatro**: a sua Origem treina um, o seu Caminho 
 
 > Os dois Testes de Resistência que você não treinou ficam para trás conforme a campanha anda — de `60%` de chance de resistir no nível 2 para `45%` no 30. Não é descuido: é o preço de não treinar, e é por ali que um chefe vai entrar.
 
-> **Exemplo.** Kaito travou o TR Físico em Destreza, que é 4, e a Origem dele treinou justamente esse. Um feitiço de área de CD 15 explode do lado dele: ele rola 9 no d20, soma 4 de Destreza e 2 de treino, dá 15. Igualou, então resistiu.
+> **Exemplo.** Kaito está no nível 10, então a maestria dele é 2. Ele travou o TR Físico em Destreza, que é 4, e a Origem dele treinou justamente esse. Um feitiço de área de CD 15 explode do lado dele: ele rola 9 no d20, soma 4 de Destreza e 2 de maestria, dá 15. Igualou, então resistiu. **Se o feitiço tivesse ido pelo Intelecto, que ele não treinou, ele somaria só a Inteligência.**
 
 ## Vida, energia e alma
 
@@ -1731,10 +1731,10 @@ Nada aqui é escolha. Você copia da tabela e faz a conta.
 | Defesa | 10 + Destreza + 1 |
 | Iniciativa | d20 + Destreza |
 | Deslocamento | 9 metros |
-| Ataque corpo a corpo | d20 + Força |
-| Ataque à distância | d20 + Destreza |
+| Ataque corpo a corpo | d20 + Força + maestria |
+| Ataque à distância | d20 + Destreza + maestria |
 | Ataque de conjuração | d20 + atributo da técnica + maestria |
-| CD de feitiço | 13 |
+| CD de feitiço | 8 + atributo da técnica + maestria |
 | Perícia treinada | d20 + atributo + 1 |
 | Teste de Resistência | d20 + atributo do TR + maestria, e a maestria só se treinado |
 
@@ -3452,7 +3452,7 @@ Metade dos seus feitiços deixa a rolagem com o alvo: ele é quem rola contra vo
 
 **Você tem uma CD só.** Ela não muda de feitiço para feitiço, não sobe com a Classe e não se compra com pontos. É um número da ficha, como a sua Defesa.
 
-**O que o alvo rola.** Um **Teste de Resistência**: `d20 + o atributo daquele Teste`, mais 2 se ele for treinado nele. Igualou ou passou a sua CD, ele resistiu. Nos feitiços de área (`Explosão`, `Aura`, `Cone`, `Linha`) resistir quer dizer levar metade dos dados, salvo se você tiver comprado a Restrição `Tudo ou Nada`.
+**O que o alvo rola.** Um **Teste de Resistência**: `d20 + o atributo daquele Teste`, mais a maestria dele se ele for treinado nele. Igualou ou passou a sua CD, ele resistiu. Nos feitiços de área (`Explosão`, `Aura`, `Cone`, `Linha`) resistir quer dizer levar metade dos dados, salvo se você tiver comprado a Restrição `Tudo ou Nada`.
 
 **O que mexe na CD.** Só três coisas sobem a sua CD, e todas são compradas por feitiço:
 
