@@ -380,22 +380,45 @@
 > temporários".* **As três ficariam fora da regra escrita na v0.108, e ninguém saberia se elas
 > têm o mesmo teto e a mesma duração.** *Unificadas.*
 >
-> **2 · Exemplo inline — 7 escritos, cerca de 38 seções a cobrir.**
-> *Quatro no capítulo 1 (`Teste`, `Maestria`, `Defesa`, `Integridade`) e três na segunda rodada
-> (`Limites`, `Rolagem de perícia`, `Dano na alma`).* **Formato testado: 15 a 24 palavras,
-> dentro da frase, contra a mediana de `23` do D&D.**
+> **2 · ~~Exemplo inline~~ — FEITO, e o alvo era 13 seções, não 38.**
+> *Dez exemplos escritos ao todo:* **capítulo 1** — `Teste`, `Maestria`, `Defesa`,
+> `Integridade`; **capítulo 2** — `Limites`; **capítulo 3** — `Rolagem de perícia`;
+> **capítulo 4** — `Dano na alma`; **capítulo 9** — `Controle`; **capítulo 10** —
+> `Cobrir-se de energia` e `Kokusen`. *Formato: 15 a 24 palavras, dentro da frase, contra a
+> mediana de `23` do D&D.*
 >
-> *Das `55` seções de regra geral sem exemplo, só `40` têm fórmula ou condicional que o leitor
-> precisa aplicar — o resto é declaração simples ou já é tabela de contas.*
+> **O alvo caiu de 38 para 13 ao excluir seção que já tem tabela**, e dos 13 só 3 precisaram de
+> texto novo. *O resto já se resolve sozinho, de quatro jeitos que nenhum filtro pega:*
 >
-> > ⚠ **A lista de 38 é ponto de partida para leitura, não lista de trabalho.** *Quatro filtros
-> > erraram:* o `Classe do feitiço` já traz *"Um feitiço de Classe 3 tem 9 pontos"* logo abaixo
-> > da fórmula, e o `Passo 4 · Atributos` traz *"uma distribuição legal, por exemplo, é
-> > 3 · 2 · 2 · 1 · 1"* no meio do parágrafo. **Os dois já estão resolvidos.**
+> | seção | por que não precisava |
+> |---|---|
+> | `Passos` | a seção **seguinte** é o *Exemplo guiado: o primeiro feitiço da Régua* |
+> | `Rolagem de Bloquear` | o apêndice tem uma seção `## Exemplo` inteira, com a Rina |
+> | `Feitiços por nível` | já traz *"São 3 no nível 2, 16 no nível 20 e 24 no nível 30"* |
+> | `Coro` | já traz *"Com uma invocação, cada um entrega metade"* |
+> | `Técnica Máxima`, `Energia` | tabela com os valores por faixa de nível |
+> | `Marco`, `Marcos` | lista de escolhas concretas, não fórmula |
 >
-> **3 · As seis habilidades com três efeitos**, para a terceira camada: `Alicerce`,
-> `Não Acabou`, `Repuxo`, `Puxar a Linha`, `Encalço` e `Acelerar`. *Trabalho avulso, não fase —
-> o PHB usa a terceira camada em `15%` das habilidades dele e este livro já usa em `8%`.*
+> ⚠ **Sexto caso do mesmo erro, e o mais teimoso porque o filtro foi refinado quatro vezes.**
+> *Toda versão do filtro presumia um formato de exemplificação e o livro usava outro:* exemplo
+> na seção vizinha, exemplo em seção própria de nível `##`, instância concreta sem marcador,
+> tabela no lugar de frase. **O livro exemplifica muito mais do que qualquer contagem
+> automática consegue enxergar.**
+>
+> **3 · ~~As seis habilidades com três efeitos~~ — FEITO, e eram três, não seis.**
+> *Quatro das seis não tinham três efeitos: tinham **um** efeito com partes.* `Não Acabou` dá
+> Reação, movimento e golpe **do mesmo gatilho**; `Puxar a Linha` e `Encalço` são efeito com
+> condição; `Acelerar` já traz exemplo próprio. **O contador somava palavras-chave distintas,
+> não efeitos independentes — sétimo caso.**
+>
+> **As que tinham dois efeitos genuinamente separados, colados por um "E", ganharam a segunda
+> linha:** `Repuxo` (o empurrão, e o fim da desvantagem por estar colado), `Ferrolho` (a
+> recarga, e a mesma desvantagem), e `Alicerce` (o benefício e o custo numa linha, como sair e
+> quando se escolhe na outra).
+>
+> *Não foi preciso formato novo:* **o livro já usa quebra de linha dentro do bloco `>`** — o
+> `Corpo Duro` e o `Puxar Para Si` fazem isso desde sempre. *A terceira camada cabe aqui
+> porque a quebra existe; foi por não existir que ela falhou na tabela de condições.*
 >
 > **4 · Herdado da passada de voz**, e nenhum foi tocado: rebaixar título de exceção para
 > negrito correndo, o segundo estilo de caixa para aviso lateral, e **quebrar o capítulo 9** —

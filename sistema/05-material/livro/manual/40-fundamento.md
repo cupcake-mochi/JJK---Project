@@ -623,6 +623,8 @@ Feitiço que carrega pelo menos uma Melhoria da família **Controle** ganha um b
 
 O bônus vale só contra os efeitos de Controle do feitiço. O Teste de Resistência do dano, quando existe, fica como está.
 
+Por exemplo, num Classe 4 o teto é 16 dados: sobrar até 4 dados de dano já dá a rodada extra, e sobrar zero dá também o `+2` na CD.
+
 **Controle**
 {: .tab-titulo }
 

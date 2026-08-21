@@ -141,7 +141,8 @@ A fantasia do `Muro` é a do feiticeiro que planta os dois pés e vira geografia
 
 Jogando de `Muro`, você chega na cena procurando o ponto certo de parar de andar. Das três Trilhas do Bastião, essa é a que menos rola dado de ataque: o seu turno rende quando o inimigo desiste de ir aonde queria ir. Em troca, você é a ficha mais difícil de derrubar da mesa inteira, e a única que faz o inimigo pagar pedágio só por estar perto.
 
-> **Nível 2: `Alicerce`.** *Ação bônus.* Você se firma no lugar. **Enquanto o `Alicerce` estiver de pé, o dano de dois tipos à sua escolha cai pela metade contra você, e o seu deslocamento é metade do normal.** Sair dele não custa nada. **Os tipos se escolhem no fim de cada descanso longo.**
+> **Nível 2: `Alicerce`.** *Ação bônus.* Você se firma no lugar. **Enquanto o `Alicerce` estiver de pé, o dano de dois tipos à sua escolha cai pela metade contra você, e o seu deslocamento é metade do normal.**
+> **Sair dele não custa nada**, e **os tipos se escolhem no fim de cada descanso longo**.
 >
 > **Nível 11: `Aterro`.** *Sempre ligado, e não depende do `Alicerce`.* O chão a **4,5 m** em volta de você é terreno difícil para inimigos, cada metro custa dois. **E todo deslocamento forçado contra você, seja empurrão, puxão ou arremesso, tem metade da distância.**
 >
@@ -324,7 +325,8 @@ A besta é ferramenta de quem trabalha sozinho e não tem tempo de recarregar. E
 >
 > **Nível 11: `Mirar`.** Você ganha a ação **`Mirar`**, e os seus ataques com arma de longo alcance somam **`+2` no acerto**.
 >
-> **Nível 19: `Repuxo`.** Ao disparar, **uma vez por rodada**, o alvo faz um Teste de Resistência de Vigor; numa falha, é empurrado **`1,5 m × maestria`** na direção oposta. E você **deixa de sofrer desvantagem por estar colado**.
+> **Nível 19: `Repuxo`.** Ao disparar, **uma vez por rodada**, o alvo faz um Teste de Resistência de Vigor; numa falha, é empurrado **`1,5 m × maestria`** na direção oposta.
+> **E você deixa de sofrer desvantagem por estar colado**, o tempo todo.
 >
 > **Nível 27: `Dobro`.** O `Mirar` passa a valer para o **ataque básico e o extra**.
 
@@ -332,7 +334,8 @@ A besta é ferramenta de quem trabalha sozinho e não tem tempo de recarregar. E
 
 Pólvora, ruído e uma profissão que finge não usar isso. É a rota que funciona no aperto: corredor estreito, sala pequena, inimigo colado em você. Quem escolhe `Arma de Fogo` aceita chamar atenção de todo mundo num raio de quarteirão, e o resto do time precisa contar com isso no plano.
 
-> **Nível 2: `Ferrolho`.** A sua arma de fogo só força recarga no **`1` natural**, e não no `1` ou `2`. E você **deixa de sofrer desvantagem por estar colado**.
+> **Nível 2: `Ferrolho`.** A sua arma de fogo só força recarga no **`1` natural**, e não no `1` ou `2`.
+> **E você deixa de sofrer desvantagem por estar colado**, o tempo todo.
 >
 > **Nível 11: `Mirar`.** Você ganha a ação **`Mirar`**, e os seus ataques com arma de longo alcance somam **`+2` no acerto**.
 >

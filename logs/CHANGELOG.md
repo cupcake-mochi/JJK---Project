@@ -6,6 +6,42 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.110] — 21/08/2026
+
+**A versão em que a fila da revisão do livro fechou, e três dos quatro itens dela renderam menos trabalho do que a conta previa — sempre pelo mesmo motivo.**
+
+### Adicionado — três exemplos inline, no formato medido do D&D
+
+*`Controle` no capítulo 9, `Cobrir-se de energia` e `Kokusen` no 10.* **Somam dez no livro, todos entre 15 e 24 palavras, dentro da frase, contra a mediana de `23` do PHB.**
+
+> *Os dois de refino usam `refino 6` porque ele divide exato nas duas fórmulas — `6/3 + 1` e `1,5 × 6` —, então o exemplo não depende do arredondamento, que é regra à parte.*
+
+### Alterado — três habilidades com dois efeitos colados por um "E"
+
+**O `Repuxo` juntava o empurrão e o fim da desvantagem por estar colado; o `Ferrolho` juntava a recarga e a mesma desvantagem; o `Alicerce` juntava benefício, custo, como sair e quando se escolhe.** *Os efeitos independentes ganharam linha própria dentro do bloco.*
+
+**Não foi preciso formato novo:** *o `Corpo Duro` e o `Puxar Para Si` já usam quebra de linha dentro do bloco `>` desde sempre.* **A terceira camada cabe aqui porque a quebra existe — foi por ela não existir que a mesma tentativa falhou na tabela de condições, na v0.108.**
+
+### Achado — o sexto e o sétimo caso do erro de contar proxy
+
+**A fila previa `38` seções sem exemplo e `6` habilidades com três efeitos. Os números reais foram `3` e `3`.**
+
+*Excluindo seção que já tem tabela, as 38 viraram 13; e das 13, dez já se exemplificavam de quatro jeitos que filtro nenhum pega:*
+
+| seção | o que o filtro não via |
+|---|---|
+| `Passos` | a seção **seguinte** é o *Exemplo guiado: o primeiro feitiço da Régua* |
+| `Rolagem de Bloquear` | o apêndice tem uma seção `## Exemplo` inteira, com a Rina |
+| `Feitiços por nível` | traz *"São 3 no nível 2, 16 no nível 20 e 24 no nível 30"* |
+| `Coro` | traz *"Com uma invocação, cada um entrega metade"* |
+| `Técnica Máxima`, `Energia` | tabela com os valores por faixa de nível |
+
+**E das seis habilidades, quatro tinham um efeito com partes, não três efeitos:** *o `Não Acabou` dá Reação, movimento e golpe **do mesmo gatilho**.* **O contador somava palavras-chave distintas.**
+
+> **São sete casos em três versões, e o mecanismo nunca mudou: medir presença de palavra-chave numa população onde boa parte dos itens não precisa daquele elemento.** *O filtro de exemplo foi refinado quatro vezes e errou nas quatro, porque cada versão presumia um formato de exemplificação e o livro usava outro.* **Este livro exemplifica e sinaliza muito mais do que qualquer contagem automática enxerga.**
+
+---
+
 ## [0.109] — 21/08/2026
 
 **A versão que leu as 74 habilidades de Trilha e Caminho uma a uma, achou uma lacuna em vez das dezenas que a conta previa, e achou de graça um defeito maior no caminho.**
