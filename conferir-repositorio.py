@@ -734,6 +734,90 @@ else:
                      'sistema/03-mecanica/17-catalogo-de-entregas.md',
                      r'^\| \*\*total\*\* \| \*\*(\d+)\*\*')
 
+    # -- 7.4: a entrega esta SINCRONIZADA no disco, mas foi COMMITADA? --------
+    #
+    # Nasceu na v0.121, e o buraco que ela fecha ficou aberto CINCO versoes.
+    #
+    # A 7.1 compara md5 e responde "o recorte esta atualizado?". A resposta era
+    # sim da v0.116 a v0.120 — e nenhuma delas tinha ido para o GitHub do PDF: o
+    # ultimo commit da entrega era o da v0.115, com quinze arquivos modificados
+    # parados no disco. Sao perguntas diferentes, e so uma tinha checagem.
+    #
+    # O `subir.sh` nao alcanca isso: ele cuida do repositorio de trabalho, e a
+    # entrega tem repositorio proprio desde a v0.82.
+    #
+    # Ela PULA em vez de falhar quando nao consegue ler o git — clone sem `.git`,
+    # git ausente, ou o mount recusando. Um verde que pulou nao e um verde, e o
+    # rodape diz que pulou.
+    #
+    # A ORDEM importa, e a primeira versao desta checagem a ignorou: o `subir.sh`
+    # roda o validador ANTES de commitar, e a entrega so e commitada DEPOIS. Entao
+    # no momento em que esta checagem roda, a entrega esta sempre suja e sempre
+    # uma versao atras. Tratar isso como erro travava o subir.sh contra si mesmo.
+    # O que e' defeito e' a DERIVA: duas versoes ou mais.
+    print()
+    print('  7.4 A entrega esta commitada, e nao so sincronizada no disco?')
+    _git_ent = os.path.join(ENT, '.git')
+    if not os.path.exists(_git_ent):
+        PULADAS.append('7.4 — finalizado/ nao e repositorio git neste clone')
+        print('    ~~ PULADA. finalizado/ nao tem .git aqui.')
+    else:
+        import subprocess
+
+        def _git(*args):
+            try:
+                r = subprocess.run(['git', '-C', ENT] + list(args),
+                                   capture_output=True, text=True, timeout=20)
+                return r.stdout.strip() if r.returncode == 0 else None
+            except Exception:
+                return None
+
+        _sujo = _git('status', '--porcelain')
+        _ultimo = _git('log', '-1', '--pretty=%s')
+        if _sujo is None or _ultimo is None:
+            PULADAS.append('7.4 — nao consegui ler o git de finalizado/')
+            print('    ~~ PULADA. o git de finalizado/ nao respondeu.')
+        else:
+            if _sujo:
+                _n = len(_sujo.split('\n'))
+                aviso(f'7.4: a entrega tem {_n} arquivo(s) modificado(s) — commite ela '
+                      'depois deste commit: `git add -A && git commit && git push` '
+                      'dentro de finalizado/')
+            else:
+                print('    [x] a entrega nao tem mudanca pendente')
+
+            # a versao do ultimo commit contra o dono, que e o topo do CHANGELOG
+            _m_ent = re.search(r'v(\d+\.\d+)', _ultimo or '')
+            _m_don = re.search(r'^## \[(\d+\.\d+)\]', ler('logs/CHANGELOG.md'), re.M)
+            if not _m_don:
+                erro('7.4: nao achei a versao no topo do CHANGELOG')
+            elif not _m_ent:
+                erro(f'7.4: o ultimo commit da entrega nao diz versao nenhuma '
+                     f'({_ultimo!r}) — a mensagem precisa carregar `vN.NN` para esta '
+                     'checagem saber se ela ficou para tras')
+            else:
+                def _chave(v):
+                    a, b = v.split('.')
+                    return (int(a), int(b))
+                _ent_k, _don_k = _chave(_m_ent.group(1)), _chave(_m_don.group(1))
+                # UMA versao atras e o estado normal: o `subir.sh` roda ANTES de a
+                # entrega ser commitada, entao no momento desta checagem ela sempre
+                # esta uma atras. DUAS ou mais e deriva — foi o que ficou cinco
+                # versoes aberto. Bloquear a de UMA travava o subir.sh contra si
+                # mesmo, e foi o defeito que a v0.121 introduziu e consertou na hora.
+                _atras = (_don_k[0] - _ent_k[0]) * 1000 + (_don_k[1] - _ent_k[1])
+                if _atras >= 2:
+                    erro(f'7.4: o ultimo commit da entrega e da v{_m_ent.group(1)} e o '
+                         f'CHANGELOG esta na v{_m_don.group(1)} — o recorte no GitHub '
+                         'do PDF ficou DUAS ou mais versoes para tras')
+                elif _atras == 1:
+                    print(f'    [x] a entrega esta na v{_m_ent.group(1)} e o CHANGELOG '
+                          f'na v{_m_don.group(1)} — uma atras, que e o normal antes de '
+                          'ela ser commitada')
+                else:
+                    print(f'    [x] o ultimo commit da entrega e da v{_m_ent.group(1)}, '
+                          f'e o CHANGELOG esta na v{_m_don.group(1)}')
+
     print()
     print('  A entrega e artefato e nao tem validador proprio. Esta checagem e a unica')
     print('  coisa do projeto que atravessa os dois repositorios.')

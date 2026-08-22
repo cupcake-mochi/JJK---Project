@@ -8,6 +8,49 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.121] — 21/08/2026
+
+**A entrega ficou cinco versões sincronizada no disco e não commitada, e o validador saía verde o tempo todo.**
+
+### Achado — a checagem 7.1 responde uma pergunta, e a que faltava era outra
+
+**O último commit do repositório do PDF era o recorte da v0.115.** *As v0.116, v0.117, v0.117.1, v0.118, v0.119 e v0.120 estavam todas na `finalizado/` no disco — quinze arquivos modificados, parados.*
+
+> **A 7.1 compara md5 entre a entrega e a fonte, e responde *"o recorte está atualizado?"*.** *A resposta era **sim**, em todas as cinco.* **Ela nunca perguntou *"o recorte foi commitado?"*** — e são perguntas diferentes, com só uma delas tendo checagem.
+
+*E o `subir.sh` não alcança: ele cuida do repositório de trabalho, e a entrega tem repositório próprio desde a v0.82.*
+
+**Quem achou foi o Mizuki**, perguntando se não ia commitar no repositório do PDF também.
+
+### Adicionado — a checagem 7.4
+
+> **Ela lê o git da `finalizado/`**, acusa mudança pendente, e compara a versão do último commit contra o topo do `CHANGELOG`, que é o dono da versão do projeto.
+
+**Ela PULA em vez de falhar** quando não consegue ler o git — clone sem `.git`, git ausente, ou o mount recusando. *Um verde que pulou não é um verde, e o rodapé diz que pulou.*
+
+**Três perturbações conferidas:**
+
+| perturbação | o que acende |
+|---|---|
+| um arquivo modificado e não commitado na entrega | *"a entrega tem 1 arquivo(s) modificado(s) e NAO commitado(s)"* |
+| o `CHANGELOG` avança e o commit da entrega fica para trás | *"o último commit da entrega é da v0.120 e o CHANGELOG está na v0.125"* |
+| a entrega deixa de ser repositório git | **PULA**, e diz que pulou |
+| a entrega **uma** versão atrás | passa, dizendo que é o estado normal |
+
+*A segunda é exatamente o caso que ficou cinco versões aberto.*
+
+> **⚠⚠ E a primeira versão dela travava o `subir.sh` contra si mesmo.** *Ela tratava como erro duas coisas que são o estado NORMAL no meio do fluxo: a entrega suja e a entrega uma versão atrás.* **O `subir.sh` roda o validador ANTES de commitar, e a entrega só é commitada DEPOIS — então no momento da checagem ela está sempre suja e sempre uma atrás.** *O commit da v0.121 falhou na primeira tentativa, e a mensagem de erro mandava commitar a entrega para poder commitar o trabalho que ainda não existia.*
+>
+> **Consertado na hora:** *a entrega suja virou **aviso**, e a versão atrasada só é erro a partir de **duas**.* **O que é defeito é a DERIVA, não o intervalo entre os dois commits.** *As duas perturbações continuam acendendo — duas atrás e cinco atrás —, e a de uma atrás passa com a linha dizendo que é o normal.*
+
+**E ela cobra uma coisa da mensagem de commit da entrega: ela precisa carregar `vN.NN`.** *Sem isso a checagem não tem como saber se o recorte ficou para trás, e ela diz isso em vez de passar calada.*
+
+*A contagem de checagens não se moveu: continuam `190` em `20` validadores.* **Sub-bloco conta para o bloco pai**, que é a definição que a checagem 9 usa desde a v0.102.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **A próxima peça é a Técnica Marcial**, e ela entra com o orçamento já contratado — o `PE` que o Caminho entrega, lido como `Pontos de Esforço` na rota sem energia. *As doze Bênçãos da peça 11 §6.8 esperam ela para ganhar texto.*
+
+---
+
 ## [0.120] — 21/08/2026
 
 **Uma decisão de uma linha que apagou a maior pergunta que a Técnica Marcial ia herdar.**

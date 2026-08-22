@@ -1,8 +1,12 @@
 # Estado atual do projeto
 
-Atualizado em 21/08/2026, na v0.120 (última peça fechada: **Dano e condições**, ampliada na v0.104 com a penalidade de arma; antes dela, a **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 21/08/2026, na v0.121 (última peça fechada: **Dano e condições**, ampliada na v0.104 com a penalidade de arma; antes dela, a **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.120.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezenove peças escritas** e **dezenove validadores**.
+**Versão v0.121.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezenove peças escritas** e **dezenove validadores**.
+
+> **⚠⚠ A entrega ficou CINCO versões sincronizada no disco e não commitada, e nenhum validador acusava.** *O último commit do repositório do PDF era o recorte da v0.115, com quinze arquivos parados.* **A checagem 7.1 compara md5 e responde *"o recorte está atualizado?"* — a resposta era sim.** *Ela nunca perguntou se ele tinha sido commitado, e são perguntas diferentes.* **Achado pelo Mizuki, perguntando se não ia commitar no outro repositório também.**
+>
+> *Fechado pela **checagem 7.4** da v0.121: ela lê o git da `finalizado/`, acusa mudança pendente, e compara a versão do último commit contra o topo do `CHANGELOG`.* **Ela PULA em vez de falhar quando não consegue ler o git**, e o rodapé diz que pulou.
 
 ***Decisão do Mizuki na v0.120: `PE` passa a ler de dois jeitos — `Pontos de Energia` e `Pontos de Esforço`.*** *A sigla é a mesma no livro inteiro, e nenhuma regra pergunta qual das duas você tem.* **Isso fecha a última pergunta que a Técnica Marcial ia herdar:** *ela atende duas rotas com economias diferentes — o Corpo Amaldiçoado tem energia, a Restrição Celestial sem energia não —, e a alternativa era inventar uma moeda com nome próprio.* **Aí toda habilidade de Caminho que cobra `PE` precisaria de segunda redação, e são quatro Caminhos com kit que cobra PE.** *Com uma sigla só, nenhuma precisa.*
 
