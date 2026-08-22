@@ -8,6 +8,50 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.128] — 22/08/2026
+
+**O prompt de retomada, reescrito para a passada de texto que a v0.125 e a v0.126 não fecharam.**
+
+*Leva de um arquivo só. Ela existe porque o Mizuki leu o PDF publicado e achou três frases que as duas passadas anteriores deixaram passar — e porque o contexto daquela conversa estava no fim.*
+
+### O que ele achou, e são três famílias diferentes
+
+| onde | a frase | a família |
+|---|---|---|
+| `35-caminhos-e-trilhas.md:198` | *"resolveu o problema da técnica cara comprando aço"* | **metáfora no lugar da regra** |
+| `42-tecnica-marcial.md:130` | *"nada disto morde"* | **aviso escrito de trás para frente** — a informação presta, a embalagem não |
+| `25-origens.md:945` | *"Oito das nove rotas já rodam…"* | **contabilidade do projeto vazando para o livro** |
+
+> **A terceira é a MESMA família que a v0.126 cortou** — as cinco linhas de *"texto único, compartilhado pelas cinco Origens principais"*. **Aquela passada não pegou tudo**, e é isso que justifica uma leitura texto por texto em vez de mais uma varredura.
+
+### Decidido — as duas listas de perícia da Restrição Celestial
+
+***Decisão do Mizuki:*** **`corpo pela técnica` tira quatro de Inteligência + Essência; `sem energia` tira quatro de Destreza + Força.**
+
+**Medido antes de virar prompt, e são três coisas:**
+
+- **O poço de Destreza + Força tem exatamente CINCO perícias** — `Atletismo`, `Acrobacia`, `Furtividade`, `Pontaria`, `Prestidigitação`. *Escolher quatro de cinco é apertado, e é o que a Origem é.* **O de Inteligência + Essência tem dezoito.**
+- **Nenhuma outra Origem tem lista por RAMO.** *As cinco escritas têm uma só, e isto abre forma nova.*
+- **O ramo sem energia não pode ter `Sentir Energia`** — peça 9 §5. *O poço já a exclui por acaso, e vale conferir que nada no texto contradiz.*
+
+> **⚠ O Corpo Amaldiçoado continua sem lista, e ele NÃO decidiu essa.** *O prompt manda perguntar com as opções medidas, em vez de inventar.*
+
+### O que o prompt carrega
+
+*Caminho de toda a documentação, os dois repositórios, os três manuais do hobby que vão em anexo, o tamanho de cada um dos 18 arquivos do livro, e o método.* **Mais duas armadilhas medidas nesta sessão:**
+
+> **Cortar sem ler o que a frase segurava some regra** — a `REGRA-DE-VOZ.md` tem a exceção escrita, e ela é a única.
+>
+> **E esta classe de defeito não se acha por medida.** *Na v0.126 as duas réguas contáveis passaram nos dois capítulos que estavam errados.* **A própria régua de voz declara isso: decidir se uma frase é fato mal-vestido ou enfeite está fora do alcance do validador.**
+
+### E o validador pegou um ponteiro pendurado dentro do prompt
+
+*A primeira escrita citava `-TEXTO.md` como nome de arquivo solto, e ele não resolve.* **A checagem 2 do `conferir-repositorio.py` acusou na primeira rodada.** *Nenhum número se moveu: continuam `21` validadores e `203` checagens.*
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`, que é o dono desta fila. **A decisão de qual das três diagramações fica continua aberta.**
+
+---
+
 ## [0.127] — 22/08/2026
 
 **A leva de conserto da diagramação, e ela saiu de uma leitura do Mizuki página a página.**
