@@ -38,12 +38,16 @@ Um turno contém quatro recursos, e eles são independentes:
 
 | Recurso | Quantos | O que faz |
 |---|---|---|
-| **Movimento** | até 9 m | pode ser dividido antes, durante e depois da ação |
+| **Ação de Movimento** | uma, e ela vale até 9 m de deslocamento | pode ser dividida antes, durante e depois da ação |
 | **Ação padrão** | uma | atacar, conjurar, a maioria das coisas |
 | **Ação bônus** | uma | só o que a regra disser explicitamente que é ação bônus |
 | **Reação** | uma, e ela volta no começo do seu turno | responde a um gatilho, e vale fora do seu turno |
 
-**Rodada inteira** (o que o Fundamento chama de Ação Completa) não é um quinto recurso: é gastar movimento, ação padrão e ação bônus de uma vez.
+> ***O primeiro slot se chamava `Movimento` até a v0.122, e o rename é decisão do Mizuki.*** *Ele virou `Ação de Movimento` quando o §3.2 passou a cobrar dele uma coisa que não é andar — sacar o segundo item do turno.* **A partir do momento em que um slot compra duas coisas diferentes, ele é uma ação e não uma medida**, e é assim que o d20 sempre chamou.
+>
+> **`Ação de Movimento` é o SLOT; `deslocamento` é a DISTÂNCIA que ele compra, e são coisas diferentes.** *Nada que diga `deslocamento` mudou de sentido — `+3 m`, `metade do deslocamento`, `perde o deslocamento do próximo turno` continuam sendo metros.* **O que ganhou nome foi o lugar do turno em que eles são gastos.**
+
+**Rodada inteira** (o que o Fundamento chama de Ação Completa) não é um quinto recurso: é gastar a Ação de Movimento, a ação padrão e a ação bônus de uma vez.
 
 **Deslocamento base: 9 metros.** O número não é arbitrário — ele conversa com o resto das distâncias do Fundamento. O alcance base de Projétil é 18 m, então um turno de movimento fecha metade da distância de um duelo. A escada de área começa em raio de 3 m, então sair de uma explosão custa um terço do seu movimento. E os +6 m de Passo e Pressa são acréscimos que importam sem dobrar nada.
 
@@ -92,6 +96,33 @@ A Passiva **Mão Firme** cobre os dois, e o manual v7.6 diz isso com todas as le
 **`Preparar` custa duas coisas por uma, e é isso que segura ela.** *Você gasta a Ação Padrão **agora** e a Reação **depois**.* **Se o gatilho não acontecer até o começo do seu próximo turno, a ação se perde.** *Preparar uma conjuração continua exigindo a Melhoria **Reação**, pela mesma regra da seção 3 — o slot não muda o que a Reação permite.*
 
 > **Colisão declarada e aceita:** o manual usa *"dois turnos de **preparo**"* numa regra de Restrição, e ali a palavra é tempo de conjuração. **São coisas diferentes com a mesma raiz**, e o nome fica porque *"preparar uma ação"* é vocabulário que todo jogador já traz de casa.
+
+## 3.2 Sacar e guardar — v0.122
+
+*Escrita porque a peça 20 destampou que ela não existia.* **A lista de doze ações não tem nenhuma que seja sacar arma, e o `Desarmado` da peça 19 diz *"você bate desarmado até pegar de volta"* sem dizer quanto custa pegar.** *Buraco antigo e uniforme para todo mundo, e agora com uma rota inteira dependendo dele.*
+
+***Decisão do Mizuki, e ela é a do d20:***
+
+> **Sacar ou guardar UM item — inclusive arma — não custa nada.** Uma vez por turno.
+> **A partir do segundo, sacar ou guardar custa a sua Ação de Movimento inteira.** *Não meia, não `3 m`: a Ação de Movimento do turno.*
+
+**Trocar de arma é sacar e guardar, então é DOIS.** *Guardar a que está na mão é o primeiro e sai de graça; sacar a outra é o segundo e custa a Ação de Movimento.* **Largar no chão não é guardar — largar é de graça e sempre**, e é isso que faz *"solta e saca"* ser mais rápido que *"troca"*, ao preço de deixar a arma no chão.
+
+*Por que a Ação de Movimento e não a Bônus:* **a Bônus já disputa com `Ímpeto` e `Campo`**, duas das doze Bênçãos, e com o que os Caminhos entregam. *A de Movimento é o único dos quatro slots que ninguém compra por habilidade, então cobrar dela não desliga kit de ninguém — ela cobra posição, que é o recurso que o combate deste sistema já usa.*
+
+> **E isso é o degrau que uma Passiva pode comprar.** *Decisão do Mizuki:* **uma Passiva ou aptidão pode dizer que o segundo saque sai de graça, e ela cabe na Classe Passiva 1** — *"efeito pequeno, condicional, ou de informação"*, pela peça 11 §4. *A `Descarga` da Vanguarda e a `Fiel` da peça 16 já vivem nessa vizinhança.*
+
+### ⚠ Isso reprecifica o `Desarmado`, e o número fica devendo
+
+**A peça 19 preça o `Desarmado` em `3,45` de dano por rodada — `0,68` fatia — supondo que você bate desarmado até recuperar a arma.** *Com esta regra, quem carrega reserva saca outra **de graça**, porque é o primeiro saque do turno.*
+
+| a ficha | o que o `Desarmado` custa a ela |
+|---|---|
+| carrega arma reserva | **nada** — o saque da reserva é o primeiro do turno |
+| já sacou alguma coisa neste turno | a Ação de Movimento |
+| não tem reserva | o que a peça 19 preçou: bater desarmado até recuperar |
+
+**O preço publicado passou a descrever só a terceira linha.** *Fica registrado e não corrigido nesta versão, porque repreçar uma condição mexe na régua das catorze e no catálogo de Melhorias do manual — e a régua vem antes do catálogo.*
 
 ### `Agarrar` e `Derrubar` são opção do ataque, e não ação
 

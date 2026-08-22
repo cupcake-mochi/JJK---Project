@@ -8,6 +8,67 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.123] — 22/08/2026
+
+**A regra de sacar arma, que não existia — e o segundo catálogo que a triagem não enxergava.**
+
+*A v0.122 fechou a Técnica Marcial e deixou duas coisas marcadas como buraco de outra peça. Esta versão fecha uma delas e mede a outra.*
+
+### Adicionado — sacar e guardar, e o slot do turno virou `Ação de Movimento`
+
+*A peça 20 destampou que a regra não existia: a lista de doze ações não tem nenhuma que seja sacar arma, e o `Desarmado` diz "até pegar de volta" sem dizer quanto custa pegar.*
+
+***Decisão do Mizuki, e ela é a do d20:*** **sacar ou guardar UM item não custa nada, uma vez por turno; do segundo em diante custa a Ação de Movimento inteira.** *Trocar de arma é sacar e guardar, então é dois. Largar no chão não é guardar — largar é de graça e sempre.*
+
+> ***E o primeiro slot do turno mudou de nome: `Movimento` virou `Ação de Movimento`.*** *Decisão do Mizuki: a partir do momento em que um slot compra duas coisas diferentes — andar e sacar —, ele é uma ação e não uma medida.* **`Ação de Movimento` é o SLOT e `deslocamento` é a DISTÂNCIA que ele compra**, e nada que diga `deslocamento` mudou de sentido. *As `68` ocorrências da palavra continuam sendo metros.*
+
+*Por que a Ação de Movimento e não a Bônus:* **a Bônus já disputa com `Ímpeto` e `Campo`, duas das doze Bênçãos.** *A de Movimento é o único dos quatro slots que ninguém compra por habilidade, então cobrar dela não desliga kit de ninguém.* ***E o Mizuki declarou o degrau: uma Passiva pode comprar o segundo saque de graça, e ela cabe na Classe Passiva 1.***
+
+### ⚠ Registrado e NÃO corrigido — a regra de saque reprecifica o `Desarmado`
+
+**A peça 19 preça o `Desarmado` em `3,45` de dano por rodada supondo que você bate desarmado até recuperar a arma.** *Com a regra nova, quem carrega reserva saca outra **de graça**, porque é o primeiro saque do turno.*
+
+| a ficha | o que o `Desarmado` custa a ela |
+|---|---|
+| carrega arma reserva | **nada** |
+| já sacou alguma coisa neste turno | a Ação de Movimento |
+| não tem reserva | o que a peça 19 preçou |
+
+**O preço publicado passou a descrever só a terceira linha.** *Não corrigido aqui de propósito: repreçar uma condição mexe na régua das catorze e no catálogo de Melhorias do manual, e a régua vem antes do catálogo.* **Marcado nos dois donos — a peça 19 no ponto do `Desarmado`, e a peça 3 §3.2.**
+
+> *Efeito colateral bom, e ele fecha o §7 da peça 20 mais limpo do que estava escrito:* **a marcial desarmada saca uma das outras duas de graça.** *A resposta dos três grupos deixa de custar até a Ação de Movimento.*
+
+### ⚠⚠ Achado — a triagem tinha um SEGUNDO catálogo cego, e ele quase custou o nome da peça
+
+***`Kata` está dentro de `Katana`*** — *uma das 52 armas, do grupo `Lâmina Longa`, e a rota de arma da peça 20 empunha exatamente ela.* **A triagem devolveu `LIVRE`, por dois motivos diferentes:**
+
+**1 · Ela era cega para as 52 armas.** *Mesma classe do buraco dos Legados achado horas antes, e a mesma causa: um catálogo que mora numa peça e nunca chegou ao vocabulário.* **Consertado no mesmo molde — ele lê do `conferir-equipamento.py`, que é quem lê a peça 14.**
+
+**2 · O veredito `DENTRO` só olha termo COMPOSTO, com fronteira de palavra.** *É por isso que `Fôlego` morreu dentro de `Roubo de Fôlego` e `Kata` sobreviveu dentro de `Katana`: `Katana` é uma palavra só, e não há fronteira depois de `Kata`.* **Entrou o veredito `prefixo`**, que acende quando o candidato é o começo ou o fim de um termo de uma palavra só, a partir de quatro letras.
+
+> ***Decisão do Mizuki: o `Kata` fica.*** *"A galera vai gostar da referência, não tem problema a colisão."* **É colisão de som e não de sentido** — uma Kata não **é** uma Katana, e o critério da v0.40 é *"se preocupe quando o nome bate de frente com o nome de algo que é REALMENTE aquilo"*. *Registrada em `ACEITAS`, que é o que separa aceito de não percebido.*
+
+**Três perturbações conferidas, mais contra-teste:** *o extrator de armas parando de extrair, devolvendo menos que as treze categorias comportam, e o arquivo sumindo.* **Contra-teste: sem a checagem de prefixo, `Katan` volta a sair `LIVRE`.**
+
+### ⚠⚠ Medido — o livro está CINCO versões atrás, e nenhum validador acusa
+
+*A última regeração inteira foi na v0.117.*
+
+| o que o livro não tem | entrou na |
+|---|---|
+| as catorze Bênçãos e a Lapidação | **v0.118** — `0` ocorrências |
+| o ramo virar `sem energia` | v0.118 — ele ainda diz `Energia pelo corpo` em dois lugares |
+| `Pontos de Esforço` | **v0.120** — `0` ocorrências |
+| a Técnica Marcial | v0.122 — não existe capítulo |
+
+**E ele publica dez linhas que viraram falsas** — *"Seis das nove rotas já rodam"*, *"Técnica Marcial, que está sendo escrita"*, *"a ficha desta Origem ainda não fecha"*.
+
+> **A checagem 7 do `conferir-repositorio.py` compara md5 do RECORTE da entrega contra a fonte, e não o CONTEÚDO do livro contra as peças.** *São perguntas diferentes, e só uma tem checagem — é a mesma forma do achado da v0.121, por outra porta.* **Fica registrado como dívida medida, e não consertado aqui: regerar o livro é trabalho próprio e tem fila própria.**
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **A fila não mudou: as três Trilhas do Evocador.** *O que esta versão acrescentou à lista de dívidas é o repreço do `Desarmado` e o livro, que está cinco versões atrás e não tem checagem que o alcance.*
+
+---
+
 ## [0.122] — 22/08/2026
 
 **A Técnica Marcial, e ela é o Fundamento com o corpo no lugar da energia — nenhum número novo, e duas rotas na criação.**

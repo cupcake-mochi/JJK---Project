@@ -64,6 +64,12 @@ Esta peça é a que mais chegou com contrato assinado por outras, e vale listar 
 
 **Os três nomes passaram na triagem nas duas direções.** *`Assinatura`, que era o candidato natural para o `Ōgi`, saiu **OCUPADO**: já é Restrição no manual — "o feitiço deixa uma marca visível que dura 1 hora e aponta para você".*
 
+> **⚠ E o `Kata` carrega uma colisão ACEITA, declarada aqui em vez de esquecida.** *`Kata` é prefixo de **`Katana`**, que é uma das 52 armas, do grupo `Lâmina Longa` — e a rota de arma empunha exatamente essa.* **Na mesa, em voz alta, uma sílaba separa as duas.**
+>
+> ***Decisão do Mizuki: fica.*** *"A galera vai gostar da referência, não tem problema a colisão."* **É colisão de som e não de sentido:** uma Kata não **é** uma Katana, e o critério da v0.40 é *"se preocupe quando o nome bate de frente com o nome de algo que é REALMENTE aquilo"*.
+>
+> **A triagem devolvia `LIVRE` por dois buracos, e os dois foram fechados na mesma versão:** *ela era cega para as **52 armas** da peça 14, e o veredito `DENTRO` só olha termo composto com fronteira de palavra — por isso `Fôlego` morreu dentro de `Roubo de Fôlego` e `Kata` sobreviveu dentro de `Katana`.* **Entrou o veredito `prefixo`, que pega esta classe.**
+
 *`Kata` e `Ōgi` vêm com a tradução entre parênteses, que é a regra que a peça 14 §5.1.2 fixou para `Yumi`, `Hankyū` e `Daikyū`: **quem não conhece o termo não pode ficar travado numa linha de tabela.***
 
 > **Por que renomear em vez de reusar.** *A `Liberação Máxima` e a `Técnica Máxima` são as duas coisas do manual que carregam "a sua técnica" no nome, e uma rota que não tem técnica inata usando as palavras da que tem produz a pergunta errada na mesa.* **Renomear custa zero número e compra a leitura de primeira.** *A Expansão não ganhou substituto porque ela não está sendo renomeada: ela não existe aqui.*

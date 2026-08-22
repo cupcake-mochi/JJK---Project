@@ -171,6 +171,8 @@
 | **`Derrubado`** | `Leve` | você está no chão. Só se move rastejando, tem desvantagem nos seus ataques, e quem ataca você **a até 1,5 m tem vantagem** — quem ataca de longe tem desvantagem |
 | **`Agarrado`** | `Leve` | seu deslocamento é `0`. Acaba se quem agarrou ficar `Incapacitado`, ou se alguma coisa tirar você do alcance dele |
 | **`Desarmado`** | `Leve` | a sua arma está no chão ou na mão de outro. Você bate desarmado até pegar de volta |
+
+> **⚠ O preço do `Desarmado` ficou devendo desde a v0.122, e o motivo é a peça 3 §3.2.** *Ela fixou que sacar ou guardar UM item não custa nada — então quem carrega arma reserva saca outra de graça, e a condição custa zero para ele.* **Os `3,45` de dano por rodada da §2.2 descrevem hoje só a ficha sem reserva.** *Não foi corrigido lá porque repreçar uma condição mexe na régua das catorze e no catálogo de Melhorias do manual.*
 | **`Surdo`** | `Leve` | você não ouve. Falha automático em teste que precise de audição, e **`−2` na iniciativa** |
 
 ### 3.2 As duas de nível `Média`

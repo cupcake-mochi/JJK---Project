@@ -213,6 +213,39 @@ try:
 except FileNotFoundError:
     pass
 
+# AS 52 ARMAS vem do conferir-equipamento.py, que e quem le a PECA 14. Mesmo
+# molde das pericias e dos Legados: sem segunda lista, entrada nova chega sozinha.
+#
+# ⚠ Achado na v0.122, uma hora depois do buraco dos Legados e na mesma familia:
+# `Kata` saiu LIVRE estando DENTRO de `Katana`, que e uma das 52 — e a rota de
+# arma da peca 20 empunha exatamente essa arma. A triagem so olhava o vocabulario
+# do manual, e as armas moram na peca 14.
+ARMAS = []
+try:
+    _spec14 = importlib.util.spec_from_file_location(
+        'conferir_equipamento', os.path.join(AQUI, 'conferir-equipamento.py'))
+    _mod14 = importlib.util.module_from_spec(_spec14)
+    with _ctx.redirect_stdout(_io.StringIO()):
+        try:
+            _spec14.loader.exec_module(_mod14)
+        except SystemExit:
+            pass
+    _a = getattr(_mod14, 'ARMAS', None)
+    ARMAS = sorted({(x[0] if isinstance(x, (list, tuple)) else
+                     (x.get('nome') if isinstance(x, dict) else str(x)))
+                    for x in (_a or [])})
+    ARMAS = [a for a in ARMAS if a and isinstance(a, str)]
+    # GUARDA: o piso e DERIVADO — a peca 14 declara treze categorias, e nenhuma
+    # tem menos de duas armas, entao menos que isso e' extrator quebrado.
+    if not ARMAS:
+        erro('conferir-equipamento.py nao devolveu arma nenhuma: a triagem ficou cega '
+             'para o catalogo de armas da peca 14')
+    elif len(ARMAS) < 26:
+        erro(f'o catalogo da peca 14 devolveu {len(ARMAS)} armas, e as treze categorias '
+             'nao cabem em menos de 26 — extrator quebrado')
+except Exception as _e:
+    erro(f'nao consegui ler o catalogo de armas do conferir-equipamento.py: {_e}')
+
 # NOMES BATIZADOS QUE NAO TEM CATALOGO NENHUM, e por isso precisam de lista.
 # Esta lista e DIVIDA e nao inventario: cada entrada e um nome que vive solto na
 # prosa e devia ter dono. Achado na v0.87, quando `Rescaldo` saiu LIVRE na
@@ -231,14 +264,24 @@ TODOS = ([('Caminho', c) for c in CAMINHOS]
 # pericia e oficio ja tem dono no conferir-pericias.py.
 UNIVERSO = (TODOS + [('pericia', p) for p in PERICIAS]
             + [('oficio', o) for o in OFICIOS]
-            + [('Legado do catalogo', l) for l in LEGADOS_CATALOGO])
+            + [('Legado do catalogo', l) for l in LEGADOS_CATALOGO]
+            + [('arma do catalogo', a) for a in ARMAS])
 
 # --------------------------------------------------------------------------
 # COLISOES CONHECIDAS E ACEITAS DE PROPOSITO
 # --------------------------------------------------------------------------
 # Nao falham. Aparecem no relatorio com o motivo, para separar "aceito" de
 # "nao percebido". Mesma regra do conferir-pericias.py.
-ACEITAS = {}
+ACEITAS = {
+    # v0.122, decisao do Mizuki: "pode deixar kata, a galera vai gostar da
+    # referencia, nao tem problema a colisao". `Kata` e' prefixo de `Katana`,
+    # que e' uma das 52 armas — e a rota de arma da peca 20 empunha justamente
+    # ela. Colisao de SOM e nao de sentido: uma Kata nao E uma Katana, e o
+    # criterio da v0.40 e' "se preocupe quando o nome bate de frente com algo
+    # que REALMENTE e aquilo".
+    'Kata': 'prefixo de `Katana` (arma da peca 14). Aceita na v0.122 — colisao '
+            'de som, e a referencia e de proposito',
+}
 
 # Termo morto -> onde ele morreu. So conta quando aparece CAPITALIZADO: em
 # minuscula ("nao potencia", "linha de frente") e palavra comum, nao o termo.
@@ -638,12 +681,36 @@ else:
                 elif len(cand.split()) > 1 and re.search(
                         r'(?<![0-9a-z])' + re.escape(norma(x)) + r'(?![0-9a-z])', k):
                     dentro.append(f'carrega "{x}" ({c}) dentro dele')
+        # PREFIXO: o candidato e o comeco (ou o fim) de um termo de UMA palavra
+        # so. O DENTRO nao pega isso, porque ele exige fronteira de palavra e
+        # termo composto — e foi por ai que `Kata` escapou de `Katana` na v0.122,
+        # com a rota de arma da peca 20 empunhando exatamente essa arma.
+        # So conta a partir de 4 letras: abaixo disso todo nome curto acende.
+        prefixos = []
+        if len(k) >= 4:
+            for cat, n in UNIVERSO:
+                nn = norma(n)
+                if nn != k and len(nn.split()) == 1 and (
+                        nn.startswith(k) or nn.endswith(k)):
+                    prefixos.append(f'{"comeca" if nn.startswith(k) else "termina"} '
+                                    f'"{n}" ({cat})')
+            for c, lista in CATEGORIAS.items():
+                for x in lista:
+                    xx = norma(x)
+                    if xx != k and len(xx.split()) == 1 and (
+                            xx.startswith(k) or xx.endswith(k)):
+                        prefixos.append(f'{"comeca" if xx.startswith(k) else "termina"} '
+                                        f'"{x}" ({c})')
+
         fracas = [f'a uma letra de "{x}" ({c})'
                   for c, lista in CATEGORIAS.items() for x in lista if perto(cand, x)]
         if duros:
             print(f'  OCUPADO  {cand:<16} {"; ".join(dict.fromkeys(duros))[:62]}')
         elif dentro:
             print(f'  DENTRO   {cand:<16} {"; ".join(dict.fromkeys(dentro))[:62]}')
+        elif prefixos:
+            # nao mata: e' aviso de mesa em voz alta, do mesmo peso do `fraco`
+            print(f'  prefixo  {cand:<16} {"; ".join(dict.fromkeys(prefixos))[:62]}')
         elif fracas:
             print(f'  fraco    {cand:<16} {fracas[0]}')
         elif k in {norma(m) for m in MORTOS}:

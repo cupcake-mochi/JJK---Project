@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 21/08/2026, na v0.121 (última peça fechada: **Dano e condições**, ampliada na v0.104 com a penalidade de arma; antes dela, a **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 22/08/2026, na v0.123 (última peça fechada: **Dano e condições**, ampliada na v0.104 com a penalidade de arma; antes dela, a **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.122.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte peças escritas** e **vinte validadores**.
+**Versão v0.123.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte peças escritas** e **vinte validadores**.
 
 ***A TÉCNICA MARCIAL FECHOU na v0.122, e é a peça 20.*** **As rotas de Origem foram de `6/9` para `8/9`** — Corpo Amaldiçoado e Restrição Celestial pelo ramo sem energia. *A nona é `Sem Técnica`, e **decisão do Mizuki: ela tem criação própria e vem depois**.*
 
@@ -356,7 +356,9 @@ Teste de Resistência = d20 + atributo do TR + maestria (só se treinado)
 Perícia              = d20 + atributo + maestria (só se treinado)
 Crítico              = 20 natural, e dobra os dados (só onde há rolagem de acerto)
 Ofício               = d20 + o atributo que a situação pede + maestria (só se treinado)
-Turno                = movimento 9 m + ação padrão + ação bônus + reação
+Turno                = Ação de Movimento (9 m) + ação padrão + ação bônus + reação
+                       Sacar ou guardar UM item é grátis; do segundo em diante
+                       custa a Ação de Movimento inteira (peça 3 §3.2)
 Iniciativa           = d20 + Destreza
 Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce,
                        e o que você ganha nunca fica abaixo de 1
