@@ -158,7 +158,17 @@ def trata_tabelas(soup):
         # a tabela de armas e a de progressao. O corte e' o NUMERO DE COLUNAS e
         # nao a largura em caracteres: celula de prosa quebra bem numa coluna
         # estreita, e ela e' quem domina qualquer medida por caractere.
-        if ncols >= 4:
+        # Tabela de largura inteira: o corte e' GRADE, e nao numero de coluna
+        # nem largura em caractere.
+        #
+        # `ncols >= 4` foi a primeira regra e produzia 40 tabelas — 40 furos no
+        # fluxo de duas colunas, e cada furo deixa meia pagina vazia. Largura em
+        # caractere tambem nao serve: ela conta celula de prosa como se nao
+        # quebrasse, e marcaria 176 de 211.
+        #
+        # O que nao cabe numa coluna de 236pt e' a GRADE que se varre com o olho:
+        # cinco colunas ou mais, ou quatro com corpo longo. Sao 26.
+        if ncols >= 5 or (ncols == 4 and len(rows) >= 10):
             classes.append("plena")
             # E a que enche uma pagina sozinha comeca em pagina propria. Sem
             # isso o titulo dela (mesmo virado `<caption>`) fica no pe da coluna
@@ -213,6 +223,35 @@ def trata_destaques(soup):
         for child in list(bq.children):
             aside.append(child.extract())
         bq.replace_with(aside)
+
+
+def tira_rotulo_repetido(soup):
+    """Titulo de tabela que repete o titulo da secao logo acima sai.
+
+    Sao 32 no livro — `#### Base por Classe` seguido de `**Base por Classe**`
+    com `{: .tab-titulo }`. Impresso, o leitor le o mesmo rotulo duas vezes
+    seguidas, e numa coluna estreita eles ficam colados.
+
+    O corte e' no BUILD e nao no fonte: o `conferir-voz.py` exige que toda tabela
+    tenha nome, e o nome continua la para o texto poder apontar para ela.
+    """
+    def chave(s):
+        s = unicodedata.normalize("NFKD", s)
+        s = "".join(c for c in s if not unicodedata.combining(c))
+        return re.sub(r"[^a-z0-9]", "", s.lower())
+
+    n = 0
+    for p in list(soup.find_all("p")):
+        if "tab-titulo" not in (p.get("class") or []):
+            continue
+        ant = p.find_previous_sibling()
+        if ant is None or ant.name not in ("h2", "h3", "h4", "h5", "h6"):
+            continue
+        if chave(ant.get_text(" ", strip=True)) != chave(p.get_text(" ", strip=True)):
+            continue
+        p.decompose()
+        n += 1
+    return n
 
 
 def segmenta_colunas(soup):
@@ -356,6 +395,7 @@ def md_para_html(md_text, prefixo_id, achados=None):
     soup = BeautifulSoup(html, "html.parser")
     trata_destaques(soup)
     trata_tabelas(soup)
+    tira_rotulo_repetido(soup)
     cola_chamada(soup)
     if VARIANTE == "duas":
         segmenta_colunas(soup)

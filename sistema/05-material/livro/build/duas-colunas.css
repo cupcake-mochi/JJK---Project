@@ -23,20 +23,32 @@
 
 /* ---------- mancha: mais estreita nas margens, para as colunas caberem ------ */
 @page {
-  margin: 16mm 18mm 18mm 20mm;
+  margin: 16mm 18mm 16mm 20mm;
 }
 @page :left {
-  margin: 16mm 20mm 18mm 18mm;
+  margin: 16mm 20mm 16mm 18mm;
 }
 
 /* ---------- o corpo em duas colunas ---------- */
 .c2 {
   columns: 2;
   column-gap: 7mm;
-  column-fill: auto;
+  /* `balance` e nao `auto`. Com `auto` a coluna da esquerda enche ate' o fim
+     antes de a direita comecar — e como cada bloco `.c2` termina onde uma tabela
+     larga interrompe o fluxo, o bloco curto saia com a coluna da direita VAZIA.
+     Era a metade das paginas quebradas que o Mizuki apontou. */
+  column-fill: balance;
 }
 
-body { font-size: 9.4pt; }
+body {
+  font-size: 9.4pt;
+  /* 1,62 é entrelinha de linha longa. Numa coluna de 236pt ela fica larga, e
+     larga demais custa linha: as quatro páginas quase vazias do primeiro corte
+     eram de duas a sete linhas transbordando para uma página que o capítulo
+     seguinte já ia deixar em branco. O Guia do Mestre 5e anda em 1,20; 1,45 é o
+     meio-termo que mantém a cor da mancha desta casa. */
+  line-height: 1.45;
+}
 
 /* Título de seção dentro da coluna, como nos manuais do hobby: ele mede a
    coluna e não a página. Os corpos descem junto com o corpo do texto. */

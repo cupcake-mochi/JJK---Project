@@ -45,15 +45,6 @@ Um marco de Lapidação compra **uma Bênção**. Duas do catálogo não custam 
 
 As Bênçãos usam a mesma escada das Passivas e das aptidões, e ela está no capítulo 9, *Fundamento*.
 
-**Classe Passiva**
-{: .tab-titulo }
-
-| Classe Passiva | o que cabe nela |
-|---|---|
-| **1** | efeito pequeno, condicional, ou de informação |
-| **2** | efeito reativo, com limite de uso por cena ou por descanso |
-| **3** | permanente. Muda como você joga |
-
 A Classe Passiva não cobra nada aqui: o marco compra uma de qualquer altura. Quem separa as alturas é o gate.
 
 ### Gate

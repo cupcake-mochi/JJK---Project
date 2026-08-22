@@ -90,36 +90,13 @@ Um marco de Refino compra **uma aptidão**, de qualquer altura que o seu refino 
 
 ### Classe Passiva
 
-As aptidões usam a mesma escada das Passivas, e cada degrau dela cabe uma forma diferente de efeito.
+As aptidões usam a mesma escada das Passivas, e ela está no capítulo 9, *Fundamento*.
 
-**Classe Passiva**
-{: .tab-titulo }
-
-| Classe Passiva | o que cabe nela |
-|---|---|
-| **1** | efeito pequeno, condicional, ou de informação |
-| **2** | efeito reativo, com limite de uso por cena ou por descanso |
-| **3** | permanente. Muda como você joga |
-
-`Farejador`, que te diz se alguém conjurou num lugar nas últimas 24 horas, é Classe Passiva 1 e faz uma coisa que permanente nenhuma faz. A escada mede formato, e o degrau alto é sempre a permanência.
-
-Na aptidão, a Classe Passiva não cobra nada: o marco compra uma de qualquer altura, e o preço é o mesmo. Quem separa as alturas é o gate. E como o refino escala o que a aptidão entrega, uma Classe Passiva 1 no refino 10 rende bem mais do que no refino 2.
+Aqui ela não cobra nada: o marco compra uma aptidão de qualquer altura, e o preço é o mesmo. Quem separa as alturas é o gate. E como o refino escala o que a aptidão entrega, uma Classe Passiva 1 no refino 10 rende bem mais do que no refino 2.
 
 ### Gate
 
-Cada aptidão declara o próprio requisito. Os formatos que aparecem no catálogo:
-
-**Gate**
-{: .tab-titulo }
-
-| formato | quem paga |
-|---|---|
-| **nenhum** | ninguém. Basta ter o marco |
-| **nível** | o tempo. Você joga e chega |
-| **refino** | a linha passiva do marco, que sobe +1 sem escolha nenhuma |
-| **nível e refino** | os dois juntos |
-| **outra aptidão** | um marco a mais, antes de a aptidão gateada abrir |
-| **Origem** | a criação de personagem, uma vez |
+Cada aptidão declara o próprio requisito, e ele está na linha dela no catálogo: nenhum, nível, refino, os dois juntos, outra aptidão, ou Origem.
 
 `Cortina` é a única que hoje exige outra aptidão: ela pede `Barreira Simples`, porque cortina é a barreira maior. As três de kokusen são alternativas entre si, e nenhuma exige a outra.
 

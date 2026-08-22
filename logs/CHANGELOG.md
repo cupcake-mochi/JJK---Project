@@ -8,6 +8,59 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.127] — 22/08/2026
+
+**A leva de conserto da diagramação, e ela saiu de uma leitura do Mizuki página a página.**
+
+> ***O que ele achou:*** *"tem algumas quebras que acabam ficando com o problema antigo, aonde um texto, tabela, ou pouca coisa, acabam criando uma segunda página aonde tem só ela e nada mais"* — **na variante de duas colunas.** *E, nas duas: **"algumas tabelas e textos que não são realmente necessários"**, com a de `Gate` e a de `Classe Passiva` nomeadas.*
+
+### Corrigido — a coluna da direita vazia, e a causa era uma palavra de CSS
+
+**O `.c2` estava com `column-fill: auto`.** *Com `auto` a coluna da esquerda enche até o fim antes de a direita começar — e como cada bloco de duas colunas termina onde uma tabela larga interrompe o fluxo, todo bloco curto saía com a coluna da direita VAZIA.*
+
+**Trocado por `balance`.** *Era metade das páginas quebradas.*
+
+### Corrigido — a tabela larga interrompia o fluxo 40 vezes
+
+**O corte de `ncols >= 4` marcava `40` tabelas de `211` como largura inteira**, e cada uma é um furo no fluxo de colunas. *Largura em caracteres, que foi a segunda tentativa, marcaria `176` — ela conta célula de prosa como se não quebrasse.*
+
+> **O que não cabe numa coluna de 236pt é a GRADE que se varre com o olho.** *Cinco colunas ou mais, ou quatro com corpo longo:* **`26` tabelas**, catorze furos a menos.
+
+### Corrigido — 32 rótulos duplicados
+
+***`#### Base por Classe` seguido de `**Base por Classe**` com `{: .tab-titulo }`.*** **São 32 no livro**, e impresso o leitor lê o mesmo rótulo duas vezes seguidas.
+
+*Cortado no BUILD e não no fonte:* **o `conferir-voz.py` exige que toda tabela tenha nome, e o nome continua lá para o texto poder apontar para ela.**
+
+### Corrigido — a entrelinha de 1,62 numa coluna de 236pt
+
+**As quatro páginas quase vazias que sobravam eram de duas a sete linhas transbordando** para uma página que o capítulo seguinte já ia deixar em branco.
+
+> **`1,62` é entrelinha de linha longa.** *O Guia do Mestre 5e anda em `1,20`.* **`1,45` é o meio-termo que mantém a cor da mancha desta casa e devolve uma linha a cada dez.**
+
+### Removido — as duas tabelas que ele nomeou, e ele tinha razão nas duas
+
+| a tabela | por que ela sai |
+|---|---|
+| `Classe Passiva`, no capítulo 11 e no 12 | é cópia da tabela do capítulo 9, que é a dona. *Virou ponteiro* |
+| `Gate`, no capítulo 11 | explicava "quem paga" cada formato de gate — e cada aptidão já declara o gate dela na própria linha do catálogo |
+
+### As três, medidas de novo
+
+| | v0.126 | v0.127 |
+|---|---|---|
+| `-A-atual` | 256 | **256** — snapshot, não se regera |
+| coluna única | 253 | **251** |
+| duas colunas | 167 | **143** |
+
+**A de duas colunas tirou `113` páginas do livro original**, e os defeitos de diagramação caíram para `4` páginas de desnível de coluna e `4` quase vazias, em `143`. *Antes desta leva eram `9` e `4` em `157`.*
+
+> **⚠ E o diagnóstico de páginas curtas precisou de filtro duas vezes.** *Primeiro para excluir fim de capítulo — capítulo novo sempre abre em página nova.* **Depois para excluir abertura na contagem de desnível.** *Sem os dois, a medida acusava `9` onde havia `4`.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **A decisão de qual diagramação fica continua aberta**, e ela vira uma linha do `build.py`.
+
+---
+
 ## [0.126] — 22/08/2026
 
 **Três diagramações para o Mizuki comparar, e a de duas colunas tira 86 páginas do livro.**

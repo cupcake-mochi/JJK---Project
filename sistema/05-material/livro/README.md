@@ -19,6 +19,8 @@ PDF"*. É esse PDF, escrito direto a partir desta pasta.
 | `Projeto-M-Manual-da-Guilda-A-atual.pdf` | **snapshot**, guardado a mão na v0.126 para comparar. Não se regera |
 | `Projeto-M-Manual-da-Guilda-REVISAO.docx` | mesmo conteúdo, sem diagramação |
 | `Projeto-M-Manual-da-Guilda-TEXTO.md` | texto corrido, para revisão |
+| `ESTADO-revisao.md` | o registro da revisão: números antes/depois, o que mudou e por quê |
+| `REMOCOES-material-de-mestre.md` | o que saiu do livro do jogador, e onde cada coisa precisa voltar a existir (a maior parte aponta para um futuro livro do mestre, que não existe ainda) |
 
 ## Três diagramações, para comparar
 
@@ -27,14 +29,18 @@ PDF"*. É esse PDF, escrito direto a partir desta pasta.
 | | páginas | o que ela é |
 |---|---|---|
 | `-A-atual` | 256 | o que estava publicado antes desta leva. Snapshot, não se regera |
-| *(sem sufixo)* | 253 | a mesma coisa, com as quebras de página consertadas e o sumário em duas colunas |
-| `-C-duas-colunas` | 167 | corpo em duas colunas a 9,4pt, tabela de 4+ colunas em largura inteira |
+| *(sem sufixo)* | 251 | a mesma coisa, com as quebras de página consertadas e o sumário em duas colunas |
+| `-C-duas-colunas` | 143 | corpo em duas colunas a 9,4pt com entrelinha 1,45, e grade de 5+ colunas em largura inteira |
 
 **A geometria da C não é gosto: ela foi medida em três manuais do hobby.** *Guia do Mestre 5e em A4, Caldeirão de Tasha e PHB 2024* — 83%, 92% e 92% das páginas em duas colunas, com corpo entre 9,1 e 9,3pt. **A mancha copiada é a do Guia do Mestre**, que é o único dos três em A4.
 
 > **⚠ O WeasyPrint 69 não implementa `column-span: all`.** *Medido: um `h2` e uma `table` marcados com ele continuaram presos dentro da coluna da esquerda.* **Por isso a tabela larga não escapa pelo CSS — ela é tirada do fluxo de colunas no `build.py`, em `segmenta_colunas`.** *Se um dia o WeasyPrint passar a implementar, aquela função vira uma linha de CSS.*
-| `ESTADO-revisao.md` | o registro da revisão de organização: números antes/depois, o que mudou e por quê |
-| `REMOCOES-material-de-mestre.md` | o que saiu do livro do jogador, e onde cada coisa precisa voltar a existir (a maior parte aponta para um futuro livro do mestre, que não existe ainda) |
+
+**Três coisas que a v0.127 mediu e que valem para qualquer mexida futura:**
+
+- **`column-fill` é `balance`, e não `auto`.** *Com `auto` a coluna da esquerda enche antes de a direita começar, e todo bloco curto sai com a direita vazia.*
+- **O corte de tabela larga é a GRADE, não o número de colunas nem a largura em caracteres.** *`ncols >= 4` marcava 40 tabelas e furava o fluxo 40 vezes; largura em caracteres marcaria 176, porque conta célula de prosa como se não quebrasse.*
+- **Entrelinha de coluna estreita é 1,45 e não 1,62.** *O que sobrava de página quase vazia eram duas a sete linhas transbordando.*
 
 ## Como regerar
 
