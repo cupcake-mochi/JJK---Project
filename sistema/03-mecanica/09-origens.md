@@ -229,7 +229,13 @@ A troca é sempre desproporcional para os dois lados: você perde muito e ganha 
 
 **Os cinco Caminhos entregam PE, e nenhum entrega zero** — `4` no Bastião, `5` na Vanguarda e no Guia, `6` no Evocador e no Emanador. *Uma Origem que diz "sem PE" com todas as letras entra em contradição com os cinco, e não só com o Emanador.*
 
-> **A coluna `por nível` do Caminho vem inteira, e quem não tem energia amaldiçoada recebe ela em outra moeda, no mesmo tamanho.** *O Bastião entrega `4`, o Emanador entrega `6`, e este ramo gasta esse mesmo número na máquina da Técnica Marcial.*
+> **A coluna `por nível` do Caminho vem inteira, e ela continua se chamando `PE`.** *O Bastião entrega `4`, o Emanador entrega `6`, e este ramo gasta esse mesmo número.*
+
+***Decisão do Mizuki na v0.120: `PE` passa a ler de dois jeitos.*** **`Pontos de Energia` para quem tem energia amaldiçoada, `Pontos de Esforço` para quem não tem** — e a sigla é a mesma no livro inteiro.
+
+**Isso resolve o problema no lugar certo.** *A alternativa era inventar uma moeda com nome próprio, e aí toda habilidade de Caminho que cobra `PE` precisaria de uma segunda linha dizendo o que o restringido gasta.* **São `4` Caminhos com kit que cobra PE, e o restringido pode escolher qualquer um deles.** *Com uma sigla só, nenhuma habilidade precisa de segunda redação.*
+
+> **É o padrão que o glossário já usa para sinônimo:** *a sigla é o termo mecânico, e as duas leituras são sabor.* **Nenhuma regra pergunta qual das duas você tem** — se perguntasse, seriam duas coisas com um nome, e não uma coisa com dois.
 
 **O tamanho não é escolha da Técnica Marcial — ele é herdado.** *A peça 6 §5 mantém `vida + PE por nível` em `10` nos quatro Caminhos e `11` no Bastião, e é essa soma parelha que faz escolher Caminho ser sabor em vez de degrau de poder; o `conferir-atributos.py` falha se ela variar mais que `2`.* **Com a coluna valendo zero, a soma vira `7 · 5 · 5 · 4 · 4` — espalhamento `3`, e o Bastião fica `1,75×` o Emanador na única moeda que ainda paga.** *O argumento inteiro está no §8.*
 

@@ -1,8 +1,10 @@
 # Estado atual do projeto
 
-Atualizado em 21/08/2026, na v0.119 (última peça fechada: **Dano e condições**, ampliada na v0.104 com a penalidade de arma; antes dela, a **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 21/08/2026, na v0.120 (última peça fechada: **Dano e condições**, ampliada na v0.104 com a penalidade de arma; antes dela, a **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.119.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezenove peças escritas** e **dezenove validadores**.
+**Versão v0.120.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezenove peças escritas** e **dezenove validadores**.
+
+***Decisão do Mizuki na v0.120: `PE` passa a ler de dois jeitos — `Pontos de Energia` e `Pontos de Esforço`.*** *A sigla é a mesma no livro inteiro, e nenhuma regra pergunta qual das duas você tem.* **Isso fecha a última pergunta que a Técnica Marcial ia herdar:** *ela atende duas rotas com economias diferentes — o Corpo Amaldiçoado tem energia, a Restrição Celestial sem energia não —, e a alternativa era inventar uma moeda com nome próprio.* **Aí toda habilidade de Caminho que cobra `PE` precisaria de segunda redação, e são quatro Caminhos com kit que cobra PE.** *Com uma sigla só, nenhuma precisa.*
 
 > **✔ O repreço do catálogo FECHOU na v0.119, e ele era menor do que parecia.** *A v0.117 mudou três constantes de preço, e a v0.118 registrou o escopo como "as 89 entradas da peça 17".* **Medido: são SETE entradas.**
 >

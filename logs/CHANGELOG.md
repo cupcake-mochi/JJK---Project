@@ -8,6 +8,28 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.120] — 21/08/2026
+
+**Uma decisão de uma linha que apagou a maior pergunta que a Técnica Marcial ia herdar.**
+
+### Decidido — `PE` lê de dois jeitos, e a sigla é a mesma
+
+***Decisão do Mizuki:*** **`Pontos de Energia` para quem tem energia amaldiçoada, `Pontos de Esforço` para quem não tem.** *A sigla `PE` é a mesma no livro inteiro.*
+
+**O problema que ela resolve.** *A Técnica Marcial atende duas rotas com economias diferentes:* o **Corpo Amaldiçoado** tem PE, aptidões e refino normais; a **Restrição Celestial sem energia** não tem nenhum dos três. *Até aqui o `contrato de moeda` da peça 9 §5 dizia que a segunda recebe a coluna do Caminho **"em outra moeda"**, e deixava o nome para a Técnica Marcial escolher.*
+
+**A alternativa era inventar uma moeda com nome próprio — e ela cobra caro num lugar que ninguém tinha olhado.** *Quatro dos cinco Caminhos têm kit que cobra `PE`, e o restringido pode escolher qualquer um deles.* **Com duas moedas, toda habilidade de Caminho que cobra PE precisaria de uma segunda linha dizendo o que o restringido gasta.** *Com uma sigla só, nenhuma precisa de segunda redação.*
+
+> **É o padrão que a régua de escrita já usa para sinônimo:** *a sigla é o termo mecânico e as duas leituras são sabor.* **Nenhuma regra pergunta qual das duas você tem** — se perguntasse, seriam duas coisas com um nome, e não uma coisa com dois.
+
+*`Esforço` e `Pontos de Esforço` passaram na triagem, os dois `LIVRE` nas duas direções.*
+
+**Aplicado na peça 9 §5 e na peça 6 §5.** *Nenhum número se moveu: a coluna continua sendo `4` no Bastião e `6` no Emanador, e o que muda é só como ela se chama na ficha de quem não tem energia.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **A próxima peça é a Técnica Marcial**, e ela entra sem a pergunta das duas economias: *o orçamento dela é o `PE` que o Caminho já entrega, e o que falta decidir é **o que esse PE compra** na rota sem energia.* **As doze Bênçãos da peça 11 §6.8 esperam ela para ganhar texto.**
+
+---
+
 ## [0.119] — 21/08/2026
 
 **A versão que mediu o repreço do catálogo e decidiu não aplicar — e o escopo era um oitavo do que estava registrado.**
