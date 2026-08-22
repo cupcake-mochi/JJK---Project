@@ -1,5 +1,62 @@
 # Estado da revisão · Manual da Guilda
 
+## Diagramação — v0.126, 22/08/2026
+
+**Três variantes no disco, e a escolha é do Mizuki.** *Ele leu o PDF e perguntou se não seria melhor em colunas, dando o sumário como exemplo — seis páginas para achar um capítulo.*
+
+| | páginas | sumário | o que ela é |
+|---|---|---|---|
+| `-A-atual` | 256 | 6 páginas | snapshot do publicado na v0.125, não se regera |
+| *(sem sufixo)* | 253 | **3 páginas** | quebras consertadas, sumário em duas colunas |
+| `-C-duas-colunas` | **167** | **2 páginas** | corpo em duas colunas a 9,4pt |
+
+### A medida que decidiu
+
+*Três manuais do hobby, lidos com extrator de posição de palavra:*
+
+| livro | duas colunas | corpo |
+|---|---|---|
+| Guia do Mestre 5e (A4) | 83% | ~9,3pt |
+| Caldeirão de Tasha | 92% | ~9,3pt |
+| PHB 2024 | 92% | ~9,1pt |
+
+> **A primeira medida deu `66%` de UMA coluna e estava errada.** *Ela procurava faixa vertical vazia no miolo — e título, tabela e abertura atravessam as duas colunas e apagam a faixa.* **O sinal certo é a margem esquerda das linhas.** *Sétimo caso do mesmo erro aqui: medir o marcador em vez do fenômeno.*
+
+**A mancha copiada é a do Guia do Mestre**, o único dos três em A4: colunas de ~245pt, goteira de 20pt, margens externas de 12 a 15mm contra os 26 a 32mm que este livro usava.
+
+### O que precisou ser resolvido no build
+
+> **⚠ O WeasyPrint 69 não implementa `column-span: all`** — medido com caso mínimo: um `h2` e uma `table` marcados com ele continuaram presos na coluna da esquerda.
+
+**A `segmenta_colunas` do `build.py` faz o trabalho:** sequência de elementos estreitos vira `<div class="c2">`, e a tabela larga fica solta entre eles, em largura inteira. *O corte é o **número de colunas** — quatro ou mais, `40` de `211` tabelas.* **Largura em caracteres não serve: célula de prosa quebra bem numa coluna estreita, e é ela que domina a medida.**
+
+**E as duas que enchem uma página sozinha começam numa** — o catálogo de 52 armas e a tabela de progressão. *Sem isso o título ficava no pé da coluna anterior, mesmo virado `<caption>`.*
+
+### As quebras de página, e o diagnóstico que se desmontou
+
+**O defeito real era título + frase de chamada + caixa**, com os dois primeiros no pé de uma página e a caixa na seguinte.
+
+> **`break-before: avoid` em toda caixa reprovou com número:** *são `253` caixas, e a versão com ela ficou com as mesmas oito páginas curtas e **nove páginas a mais**.* **O alvo certo é o par, reconhecido pelo texto — parágrafo terminado em dois-pontos seguido de caixa.** *São oito no livro, e a `cola_chamada` cola os oito.*
+
+| eu contei | era |
+|---|---|
+| 8 páginas curtas | **2** — seis eram fim de capítulo, e capítulo abre em página nova |
+| 7 títulos órfãos | **0** — os sete eram célula de tabela com o mesmo texto de uma seção |
+
+### A quebra dura dentro das caixas
+
+**Ela dependia de onde o autor apertou Enter no `.md`.** *Em coluna larga não aparecia, porque as linhas do fonte têm ~90 caracteres.* **Numa coluna de 236pt a caixa saía picotada no meio da frase.** *Agora a quebra dura só entra em linha de regra — fórmula, nome em negrito na frente, linha curta —, e prosa longa reflui.*
+
+### Revisão de texto
+
+*Varredura mecânica nos 17 capítulos.* **Um achado real:** a linha *"Sem Técnica — texto único, compartilhado pelas cinco Origens principais"*, cinco vezes, uma em cada lista de `Destranca`. **Ela fala do livro e não do jogo**, que é o que a seção *O livro não fala de si mesmo* proíbe. *Trocada pelo que a entrada faz.*
+
+> **O `conferir-voz.py` não pega esta**, porque a `MOLDURA` dele procura "este manual", "este livro" e "este capítulo". **Fica registrado e NÃO virou regex** — expressão feita para casar uma frase só é o aviso que dá o motivo errado.
+
+*O resto da varredura: `224` suspeitas de espaço antes de pontuação, todas a linha `{: .tab-titulo }`; `2` palavras repetidas, as duas corretas (`Mei Mei` é nome, e `quem te fez fez` é sujeito mais verbo); `2` termos com e sem crase, os dois seguindo a convenção de crase na estreia e seco na prosa.*
+
+---
+
 ## Sincronização com a fonte — v0.124 e v0.125, 22/08/2026
 
 **O livro estava cinco versões atrás, e não era passada de texto: era conteúdo faltando.** *A v0.123 mediu e registrou a dívida; esta versão paga ela e põe uma checagem em cima para ela não voltar.*

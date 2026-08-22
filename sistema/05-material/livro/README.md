@@ -13,9 +13,26 @@ PDF"*. É esse PDF, escrito direto a partir desta pasta.
 | `build/build_docx.py` | markdown → `.docx` de revisão, sem diagramação — para comentar |
 | `build/build_txt.py` | markdown → texto corrido, um arquivo só — para Ctrl+F e diff |
 | `build/manual.css`, `marcas.css` | a diagramação. `marcas.css` é gerado pelo `build.py`, não editar à mão |
-| `Projeto-M-Manual-da-Guilda.pdf` | o livro compilado |
+| `build/duas-colunas.css` | a folha extra da diagramação de duas colunas, com a medida dos três manuais do hobby escrita no topo |
+| `Projeto-M-Manual-da-Guilda.pdf` | o livro compilado, em coluna única |
+| `Projeto-M-Manual-da-Guilda-C-duas-colunas.pdf` | o mesmo conteúdo em duas colunas |
+| `Projeto-M-Manual-da-Guilda-A-atual.pdf` | **snapshot**, guardado a mão na v0.126 para comparar. Não se regera |
 | `Projeto-M-Manual-da-Guilda-REVISAO.docx` | mesmo conteúdo, sem diagramação |
 | `Projeto-M-Manual-da-Guilda-TEXTO.md` | texto corrido, para revisão |
+
+## Três diagramações, para comparar
+
+*Decisão em aberto na v0.126 — o Mizuki pediu as três lado a lado.*
+
+| | páginas | o que ela é |
+|---|---|---|
+| `-A-atual` | 256 | o que estava publicado antes desta leva. Snapshot, não se regera |
+| *(sem sufixo)* | 253 | a mesma coisa, com as quebras de página consertadas e o sumário em duas colunas |
+| `-C-duas-colunas` | 167 | corpo em duas colunas a 9,4pt, tabela de 4+ colunas em largura inteira |
+
+**A geometria da C não é gosto: ela foi medida em três manuais do hobby.** *Guia do Mestre 5e em A4, Caldeirão de Tasha e PHB 2024* — 83%, 92% e 92% das páginas em duas colunas, com corpo entre 9,1 e 9,3pt. **A mancha copiada é a do Guia do Mestre**, que é o único dos três em A4.
+
+> **⚠ O WeasyPrint 69 não implementa `column-span: all`.** *Medido: um `h2` e uma `table` marcados com ele continuaram presos dentro da coluna da esquerda.* **Por isso a tabela larga não escapa pelo CSS — ela é tirada do fluxo de colunas no `build.py`, em `segmenta_colunas`.** *Se um dia o WeasyPrint passar a implementar, aquela função vira uma linha de CSS.*
 | `ESTADO-revisao.md` | o registro da revisão de organização: números antes/depois, o que mudou e por quê |
 | `REMOCOES-material-de-mestre.md` | o que saiu do livro do jogador, e onde cada coisa precisa voltar a existir (a maior parte aponta para um futuro livro do mestre, que não existe ainda) |
 
@@ -29,10 +46,14 @@ cai para uma fonte substituta e a diagramação sai errada, sem avisar.
 
 ```bash
 cd build
-python3 build.py         # PDF
-python3 build_docx.py    # docx de revisão
-python3 build_txt.py     # texto corrido
+python3 build.py            # PDF em coluna única
+python3 build.py --duas     # PDF em duas colunas
+python3 build_docx.py       # docx de revisão
+python3 build_txt.py        # texto corrido
 ```
+
+O `manual.html` é intermediário e as duas variantes sobrescrevem ele. Rodar as duas em
+sequência é seguro; ler o `.html` depois só mostra a última.
 
 ## O que já mudou aqui, e o que ainda não
 

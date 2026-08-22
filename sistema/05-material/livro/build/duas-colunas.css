@@ -1,0 +1,98 @@
+/* Projeto - M · Manual da Guilda — diagramação de DUAS COLUNAS
+ *
+ * Folha adicional, aplicada depois da manual.css quando o build roda com
+ * `--duas`. Ela não substitui nada: só reaperta a mancha e liga as colunas.
+ *
+ * Os números saem de medir três manuais do hobby, e não de gosto:
+ *
+ *   | livro                  | páginas de 2 colunas | corpo   |
+ *   |------------------------|---------------------|---------|
+ *   | Guia do Mestre 5e (A4) | 83%                 | ~9,3pt  |
+ *   | Caldeirão de Tasha     | 92%                 | ~9,3pt  |
+ *   | PHB 2024               | 92%                 | ~9,1pt  |
+ *
+ * O Guia do Mestre é o mais próximo daqui — A4, 595pt de largura — e a mancha
+ * dele é: coluna esquerda de 35 a 285pt, direita de 305 a 553pt. Goteira de
+ * 20pt, colunas de ~245pt. É essa a geometria copiada abaixo.
+ *
+ * O que NÃO dá para fazer: `column-span: all`. O WeasyPrint 69 não implementa —
+ * medido, um `h2` e uma `table` marcados com ele continuaram presos na coluna da
+ * esquerda. Por isso a tabela de quatro colunas ou mais sai do fluxo de colunas
+ * lá no `build.py`, em `segmenta_colunas`, e chega aqui já como bloco solto.
+ */
+
+/* ---------- mancha: mais estreita nas margens, para as colunas caberem ------ */
+@page {
+  margin: 16mm 18mm 18mm 20mm;
+}
+@page :left {
+  margin: 16mm 20mm 18mm 18mm;
+}
+
+/* ---------- o corpo em duas colunas ---------- */
+.c2 {
+  columns: 2;
+  column-gap: 7mm;
+  column-fill: auto;
+}
+
+body { font-size: 9.4pt; }
+
+/* Título de seção dentro da coluna, como nos manuais do hobby: ele mede a
+   coluna e não a página. Os corpos descem junto com o corpo do texto. */
+h2 { font-size: 15pt; margin: 6mm 0 2.6mm 0; }
+h3 { font-size: 11.6pt; margin: 4.6mm 0 1.8mm 0; }
+h4 { font-size: 8.8pt; margin: 4mm 0 1.6mm 0; }
+h5 { font-size: 9.6pt; margin: 3.6mm 0 1.6mm 0; }
+
+p { margin-bottom: 2.8mm; }
+
+/* Caixa e tabela ficam mais apertadas para caber na coluna. */
+.destaque { padding: 3mm 4mm 1mm 4mm; margin: 3mm 0 3.6mm 0; }
+.aviso    { padding: .8mm 4mm 0 4mm; margin: 3mm 0 3.6mm 0; font-size: 8.6pt; }
+
+table { font-size: 8.5pt; line-height: 1.32; margin: 2.4mm 0 4mm 0; }
+th, td { padding: 1.2mm 1.8mm; }
+.tab-titulo { font-size: 8pt; margin: 3.6mm 0 -1mm 0; }
+
+/* ---------- tabela de largura inteira ---------- */
+/* Ela chega solta do `.c2`, então já ocupa a mancha toda. O que muda aqui é só
+   o corpo: numa linha de 493pt a tabela pode respirar mais que dentro de uma
+   coluna de 236pt. */
+table.plena { font-size: 9pt; line-height: 1.38; }
+table.plena th, table.plena td { padding: 1.5mm 2.2mm; }
+
+/* ---------- sumário e índice, que já eram multi-coluna ---------- */
+.sum-corpo { columns: 3; column-gap: 7mm; }
+.sum-cap a { font-size: 10.6pt; }
+.sum-sec a { font-size: 8.4pt; }
+.sum-cap a::after, .sum-sec a::after { font-size: 7.6pt; }
+.ix-cols { columns: 3; column-gap: 7mm; }
+
+/* ---------- abertura de capítulo ---------- */
+/* Ela fica fora do `.c2`, então atravessa a mancha inteira, como no hobby. */
+.abertura { margin-bottom: 8mm; }
+.abertura h1 { font-size: 34pt; }
+
+/* ---------- fichas de duas colunas ---------- */
+/* A `.ficha` é rótulo/valor com valor longo. Numa coluna de 236pt ela fica alta
+   demais; o rótulo encolhe para o valor ter onde correr. */
+table.ficha td.rot { font-size: 8.2pt; }
+
+/* ---------- título da tabela plena ---------- */
+/* Ele é `<caption>` e não parágrafo solto: assim ele não fica no pé de uma
+   coluna com a tabela na página seguinte. Ver `segmenta_colunas` no build.py. */
+table.plena > caption {
+  caption-side: top;
+  text-align: left;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 8pt;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--selo);
+  padding-bottom: 1.2mm;
+}
+
+/* Tabela que enche uma página sozinha começa numa. Ver `trata_tabelas`. */
+table.pagina-propria { break-before: page; }

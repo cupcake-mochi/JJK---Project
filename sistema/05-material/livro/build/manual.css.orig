@@ -96,12 +96,7 @@ html {
 }
 body { margin: 0; }
 
-p { margin: 0 0 3.4mm 0; orphans: 3; widows: 3; }
-
-/* Frase de chamada + caixa, coladas pelo build.py. Ver `cola_chamada` lá: o
-   `break-before: avoid` em toda caixa foi medido e custou nove páginas sem
-   consertar nada. */
-.par { break-inside: avoid; }
+p { margin: 0 0 3.4mm 0; orphans: 2; widows: 2; }
 strong { font-weight: 600; }
 em { font-style: italic; }
 
@@ -250,16 +245,10 @@ hr {
   border-bottom: 2pt solid var(--selo);
   string-set: capitulo content(), secao "";
 }
-/* Duas colunas, e o motivo é medido: em coluna única o sumário ocupava SEIS
-   páginas, e um sumário que se lê rolando seis páginas não resolve o problema
-   que um sumário existe para resolver. Barlow Condensed é estreita o bastante
-   para o nome da seção caber em 233pt com a linha de pontos. */
-.sum-corpo { columns: 2; column-gap: 9mm; }
-.sum-parte { break-after: avoid; }
-.sum-cap { margin-top: 5mm; break-after: avoid; break-inside: avoid; }
+.sum-cap { margin-top: 5mm; break-after: avoid; }
 .sum-cap a {
   font-family: "Barlow Condensed", sans-serif;
-  font-size: 12.5pt;
+  font-size: 14pt;
   font-weight: 600;
   color: var(--selo);
   text-decoration: none;
@@ -273,19 +262,19 @@ hr {
   color: var(--acento);
   font-weight: 400;
 }
-.sum-sec { padding-left: 5mm; break-inside: avoid; }
+.sum-sec { padding-left: 7mm; }
 .sum-sec a {
   font-family: "Barlow Condensed", sans-serif;
-  font-size: 9.6pt;
+  font-size: 10.5pt;
   color: var(--tinta);
   text-decoration: none;
   display: block;
-  padding: .3mm 0;
+  padding: .4mm 0;
 }
 .sum-cap a::after, .sum-sec a::after {
   content: leader('. ') target-counter(attr(href), page);
   color: var(--cinza);
-  font-size: 8.6pt;
+  font-size: 9.5pt;
 }
 .sum-cap a::after { color: var(--selo); }
 

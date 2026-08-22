@@ -129,7 +129,7 @@ Fundamento, do jeito padrão.
 > **Sem Patente** — você nunca entrou na instituição, e ela sabe disso. Patente não te obriga a nada: ordem de superior é conselho, e a hierarquia te trata como o que você é, alguém que não deve nada e a quem não se deve nada.
 > *Na mesa:* você é quem pode recusar uma ordem em cena, na frente de todo mundo, sem consequência disciplinar. O resto da equipe não pode.
 
-> **Sem Técnica** — texto único, compartilhado pelas cinco Origens principais. Ver *Sem Técnica*, mais adiante.
+> **Sem Técnica** — você tem energia amaldiçoada e a técnica não veio junto. O texto está adiante, em *Legado de Sem Técnica*.
 
 #### Ajusta
 
@@ -228,7 +228,7 @@ Fundamento, do jeito padrão. O passageiro mora na ficção da mesa, e a montage
 > **O Que Ele Quer** — escreva na ficha o que ele quer, e não é o que você quer. Uma vez por descanso longo, você pode ceder: entregue a ele uma coisa que ele queria, e ele te dá passagem para o que você precisava. O mestre narra os dois lados. O que você cedeu fica escrito na ficha, e não sai de lá.
 > *Na mesa:* é o botão que o jogador aperta quando a campanha está perdida. Cada aperto deixa marca permanente na ficha, e o grupo vê a conta crescer.
 
-> **Sem Técnica** — texto único, compartilhado pelas cinco Origens principais. Ver *Sem Técnica*, mais adiante.
+> **Sem Técnica** — você tem energia amaldiçoada e a técnica não veio junto. O texto está adiante, em *Legado de Sem Técnica*.
 
 #### Ajusta
 
@@ -331,7 +331,7 @@ Fundamento, do jeito padrão.
 > **Treino de Berço** — o seu clã ensina uma coisa que não se aprende fora dele. Escreva na ficha o que é. Quem quiser aquilo tem que passar pela sua família, ou por você.
 > *Na mesa:* é a razão pela qual gente que não gosta de você continua procurando você.
 
-> **Sem Técnica** — texto único, compartilhado pelas cinco Origens principais. Ver *Sem Técnica*, mais adiante. Um Descendente Sem Técnica é alguém com nome de peso e nenhuma técnica de clã.
+> **Sem Técnica** — você tem energia amaldiçoada e a técnica não veio junto. O texto está adiante, em *Legado de Sem Técnica*. Um Descendente Sem Técnica é alguém com nome de peso e nenhuma técnica de clã.
 
 #### Ajusta
 
@@ -432,7 +432,7 @@ Fundamento, do jeito padrão.
 > **Enterrado** — você guardou uma coisa antes de morrer, e nunca voltou para buscar. Escreva o que é e onde está. Continua lá, se o lugar ainda existir. Faz tempo demais para alguém ter tido motivo de mexer.
 > *Na mesa:* põe no mapa um ponto que só você conhece, e um lugar que mudou de dono várias vezes desde então.
 
-> **Sem Técnica** — texto único, compartilhado pelas cinco Origens principais. Ver *Sem Técnica*, mais adiante.
+> **Sem Técnica** — você tem energia amaldiçoada e a técnica não veio junto. O texto está adiante, em *Legado de Sem Técnica*.
 
 #### Ajusta
 
@@ -530,7 +530,7 @@ Fundamento, do jeito padrão.
 > **Devagar** — o seu corpo não envelhece no calendário dos outros. Escreva há quanto tempo você existe e com que idade você parece. Quem te conheceu antes vai notar; você não.
 > *Na mesa:* abre a campanha para o passado. Gente que te conheceu há trinta anos está viva, velha, e vai reagir ao te ver igual.
 
-> **Sem Técnica** — texto único, compartilhado pelas cinco Origens principais. Ver *Sem Técnica*, mais adiante.
+> **Sem Técnica** — você tem energia amaldiçoada e a técnica não veio junto. O texto está adiante, em *Legado de Sem Técnica*.
 
 #### Ajusta
 

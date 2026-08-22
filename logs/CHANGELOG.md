@@ -8,6 +8,93 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.126] — 22/08/2026
+
+**Três diagramações para o Mizuki comparar, e a de duas colunas tira 86 páginas do livro.**
+
+> ***Pergunta dele, lendo o PDF:*** *"não sei se é uma opção boa, mas não seria melhor fazer o sistema ser dividido em colunas?"* **E o exemplo que ele deu foi o sumário — seis páginas para achar um capítulo.**
+
+### Medido — os manuais do hobby, e a resposta é sim
+
+*Três livros lidos com o extrator de posição de palavra, e não folheados:*
+
+| livro | páginas em duas colunas | corpo |
+|---|---|---|
+| Guia do Mestre 5e (A4) | **83%** | ~9,3pt |
+| Caldeirão de Tasha (Letter) | **92%** | ~9,3pt |
+| PHB 2024 (Letter) | **92%** | ~9,1pt |
+
+> **A primeira medida que eu fiz deu `66%` de UMA coluna, e ela estava errada.** *Ela procurava uma faixa vertical vazia no meio da página — e título, tabela e abertura atravessam as duas colunas e apagam a faixa.* **O sinal certo é a margem ESQUERDA das linhas: num miolo de duas colunas existem dois pontos de partida, e o segundo cai perto da metade.** *Sétimo caso do mesmo erro neste projeto — medir o marcador em vez do fenômeno.*
+
+**A mancha copiada é a do Guia do Mestre**, que é o único dos três em A4: colunas de ~245pt, goteira de 20pt, margens externas de 12 a 15mm contra os 26 a 32mm daqui.
+
+### Adicionado — `build.py --duas`, e o que ela precisou resolver
+
+> **⚠ O WeasyPrint 69 não implementa `column-span: all`.** *Medido com um caso mínimo: um `h2` e uma `table` marcados com ele continuaram presos dentro da coluna da esquerda.* **Sem ele, a única forma de uma tabela larga atravessar as colunas é ela não estar DENTRO do bloco de colunas.**
+
+**Entrou a `segmenta_colunas` no `build.py`:** *sequência de elementos estreitos vira um `<div class="c2">`, e cada tabela larga fica solta entre eles.* **O corte é o NÚMERO DE COLUNAS da tabela, e não a largura dela em caracteres** — célula de prosa quebra bem numa coluna estreita, e é ela que domina qualquer medida por caractere. *Quatro colunas ou mais: `40` tabelas de `211`.*
+
+**E as duas que enchem uma página sozinha começam em página própria** — o catálogo de 52 armas e a tabela de progressão. *Sem isso o título delas ficava no pé da coluna anterior, mesmo virado `<caption>`: o `break-after: avoid` é largado pelo WeasyPrint quando o bloco seguinte tem de quebrar de qualquer jeito, e uma tabela de 55 linhas sempre tem.*
+
+### Corrigido — a quebra de página que o print dele mostrava
+
+**O padrão era título + frase de chamada + caixa:** *os dois primeiros ficavam no pé de uma página e a caixa ia para a seguinte, deixando o leitor com "Leia (ou narre) isto para o grupo:" e nada para ler.*
+
+> **`break-before: avoid` em TODA caixa foi a primeira tentativa, e ela reprovou com número.** *São `253` caixas no livro; a versão com ela ficou com as MESMAS oito páginas curtas e **nove páginas a mais**.* **O alvo certo é o par, e ele se reconhece pelo texto** — parágrafo terminado em dois-pontos seguido de caixa. *São oito no livro inteiro, e a `cola_chamada` cola os oito.*
+
+**E o resto do diagnóstico desmontou quando a medida ficou honesta.** *A primeira varredura acusou `8` páginas curtas e `7` títulos órfãos.* **Medido direito: `2` páginas curtas — uma é a ficha técnica, por desenho — e `zero` títulos órfãos.**
+
+| o que eu contei | o que era |
+|---|---|
+| 8 páginas curtas | 6 delas eram fim de capítulo, e capítulo novo sempre abre em página nova |
+| 7 títulos órfãos | os 7 eram célula de tabela com o mesmo texto de uma seção |
+
+### Corrigido — a quebra dura dentro das caixas dependia de onde o autor apertou Enter
+
+**A regra antiga quebrava entre quaisquer duas linhas de citação.** *Em coluna larga isso não aparecia, porque as linhas do fonte têm ~90 caracteres e enchem a linha impressa.* **Numa coluna de 236pt a mesma caixa saía picotada no meio da frase.**
+
+> **Agora a quebra dura só entra onde ela carrega sentido:** *fórmula, entrada com nome em negrito na frente, linha curta.* **Prosa longa e sem marca reflui.** *Isso melhora as três variantes — era defeito latente, e a coluna estreita só revelou.*
+
+### Corrigido na revisão de texto — cinco linhas de contabilidade editorial no livro do jogador
+
+***"Sem Técnica — texto único, compartilhado pelas cinco Origens principais."*** **Ela aparecia cinco vezes, uma em cada lista de `Destranca`, e ela fala do LIVRO e não do jogo** — que é o que a seção *O livro não fala de si mesmo* da `REGRA-DE-VOZ.md` proíbe.
+
+*Trocada pelo que a entrada faz:* **"você tem energia amaldiçoada e a técnica não veio junto".**
+
+> **O `conferir-voz.py` não pega esta.** *A `MOLDURA` dele procura "este manual", "este livro", "este capítulo" — e esta frase não usa nenhuma das três.* **Fica registrado e NÃO virou regex:** *uma expressão criada para casar uma frase só é a armadilha do aviso que dá o motivo errado.*
+
+### O resto da revisão de texto, e o que ela achou
+
+*Varredura mecânica nos 17 capítulos:* **palavra repetida, espaço duplo, vírgula sem espaço, parêntese desbalanceado, crase ímpar, frase repetida, minúscula depois de ponto.**
+
+| suspeita | achados | reais |
+|---|---|---|
+| espaço antes de pontuação | 224 | **0** — todas eram a linha `{: .tab-titulo }` |
+| palavra repetida | 2 | **0** — *"Mei Mei"* é nome, e *"quem te fez fez"* está certo |
+| frase repetida | 38 | **1** — a de contabilidade acima |
+| minúscula depois de ponto | 2 | **0** — `d20` e `Devol.` |
+| termo com e sem crase | 2 | **0** — `Kata` e `Refino` seguem a convenção: crase na estreia, seco na prosa |
+
+**Notação: `144` usos de `m` abreviado contra `21` de "metros" por extenso, e a divisão é por registro** — a regra abrevia, a prosa escreve. *Decimal é vírgula em `56` de `56`.*
+
+### As três, medidas
+
+| | páginas | o que ela é |
+|---|---|---|
+| `-A-atual` | **256** | o que estava publicado. Snapshot guardado a mão, não se regera |
+| *(sem sufixo)* | **253** | a mesma, com as quebras consertadas e o sumário em duas colunas |
+| `-C-duas-colunas` | **167** | corpo em duas colunas a 9,4pt, tabela de 4+ colunas em largura inteira |
+
+**O sumário foi de `6` páginas para `3`**, e é o item que ele nomeou. *Na variante C ele cabe em `2`, com três colunas.*
+
+**A variante C tem `79%` das páginas em duas colunas**, contra `83%` do Guia do Mestre. *A diferença são as tabelas largas, que aqui são mais frequentes.*
+
+***Nenhuma das três é a escolhida — a decisão é do Mizuki, e é por isso que as três existem no disco.*** *O `Projeto-M-Manual-da-Guilda.pdf` continua sendo o de coluna única, que é o que a entrega carrega.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **Falta a decisão de qual diagramação fica**, e ela vira uma linha de `build.py`. *A fila de mecânica não mudou: as três Trilhas do Evocador.*
+
+---
+
 ## [0.125] — 22/08/2026
 
 **Os dois capítulos que a v0.124 escreveu nasceram com a arquitetura que o resto do livro já tinha perdido.**
