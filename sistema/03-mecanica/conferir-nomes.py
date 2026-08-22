@@ -113,7 +113,11 @@ LEGADOS = ['Instinto Bruto', 'Aprendi Apanhando', 'A Voz de Dentro',
 SISTEMA = ['Maestria', 'Refino', 'Trilha', 'Caminho', 'Legado', 'Exaustao',
            'Pericia', 'Oficio', 'Golpe canalizado', 'Golpe simples',
            'Ambiente propicio', 'Descanso curto', 'Descanso longo',
-           'Tecnica Marcial', 'Estilo da Sombra']
+           'Tecnica Marcial', 'Estilo da Sombra',
+           # os tres renomes da peca 20, batizados na v0.122. Sem eles aqui a
+           # triagem deixaria rebatizar `Kata` daqui a dez versoes, que e o que
+           # aconteceu com `Rescaldo` ate a v0.87.
+           'Kata', 'Ruptura', 'Ogi', 'Bencao', 'Lapidacao']
 
 # Onde cada nome e definido. Na checagem 2, o arquivo de definicao nao conta.
 DEFINIDO_EM = {
@@ -143,6 +147,43 @@ try:
     OFICIOS = list(_mod.OFICIOS)
 except Exception as _e:
     print(f'  (nao consegui ler as listas do conferir-pericias.py: {_e})')
+
+# AS 81 ENTRADAS DE LEGADO vem do conferir-legados.py, que e quem le a PECA 13 —
+# a dona do catalogo desde a v0.39. Mesmo molde das pericias logo acima: nao
+# existe segunda lista aqui, entao entrada nova na peca chega na triagem sozinha.
+#
+# ⚠ Ate a v0.122 a triagem so conhecia os CATORZE nomes da lista LEGADOS acima,
+# que sao os que moravam na peca 9 antes de a peca 13 existir. Medido naquela
+# versao: 77 de 97 nomes de Legado saiam LIVRE. `Talhe` — Legado do Feto, "uma
+# vez por cena voce nao fica Agarrado" — quase foi batizado de novo por causa
+# disso. E a mesma classe de buraco que a v0.88 achou com as condicoes do manual.
+LEGADOS_CATALOGO = []
+try:
+    _spec13 = importlib.util.spec_from_file_location(
+        'conferir_legados', os.path.join(AQUI, 'conferir-legados.py'))
+    _mod13 = importlib.util.module_from_spec(_spec13)
+    with _ctx.redirect_stdout(_io.StringIO()):
+        try:
+            _spec13.loader.exec_module(_mod13)
+        except SystemExit:
+            pass
+    LEGADOS_CATALOGO = sorted({e[2] for e in _mod13.entradas})
+    # GUARDA: extrator que para de extrair sai em silencio, e ai a triagem volta
+    # a mentir LIVRE sem ninguem notar. Os dois numeros sao DERIVADOS: o piso e a
+    # propria lista de 14 que a peca 9 deixou, e cada lista de Origem da peca 13
+    # tem de contribuir com pelo menos uma entrada.
+    _listas = {e[0] for e in _mod13.entradas}
+    if not LEGADOS_CATALOGO:
+        erro('conferir-legados.py nao devolveu nenhuma entrada: a triagem ficou '
+             'cega para o catalogo inteiro da peca 13')
+    elif len(LEGADOS_CATALOGO) < len(LEGADOS):
+        erro(f'o catalogo da peca 13 devolveu {len(LEGADOS_CATALOGO)} nomes, menos '
+             f'que os {len(LEGADOS)} que a peca 9 ja tinha — extrator quebrado')
+    elif len(_listas) < 2:
+        erro(f'o catalogo da peca 13 devolveu entradas de {len(_listas)} lista(s) de '
+             'Origem so: o extrator parou de andar pelas secoes')
+except Exception as _e:
+    erro(f'nao consegui ler o catalogo de Legados do conferir-legados.py: {_e}')
 
 # As ENTREGAS de Trilha, os degraus de Caminho e as Manhas sao lidos da PECA 17,
 # que e a dona da enumeracao desde a v0.85. Nao existe segunda lista aqui — se a
@@ -188,7 +229,9 @@ TODOS = ([('Caminho', c) for c in CAMINHOS]
 
 # Usada so para triar nome candidato (--candidatos), nao nas cinco checagens:
 # pericia e oficio ja tem dono no conferir-pericias.py.
-UNIVERSO = TODOS + [('pericia', p) for p in PERICIAS] + [('oficio', o) for o in OFICIOS]
+UNIVERSO = (TODOS + [('pericia', p) for p in PERICIAS]
+            + [('oficio', o) for o in OFICIOS]
+            + [('Legado do catalogo', l) for l in LEGADOS_CATALOGO])
 
 # --------------------------------------------------------------------------
 # COLISOES CONHECIDAS E ACEITAS DE PROPOSITO

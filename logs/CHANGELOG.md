@@ -8,6 +8,174 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.122] — 22/08/2026
+
+**A Técnica Marcial, e ela é o Fundamento com o corpo no lugar da energia — nenhum número novo, e duas rotas na criação.**
+
+> ***O plano é do Mizuki, inteiro:*** *"todas as mecânicas restantes se mantêm, só muda um pouco a narrativa pro marcial. O que vai mudar? Juntamente ao escolher as famílias, eles vão ter 2 decisões."*
+
+### Adicionado — a peça 20, e o que ela decidiu
+
+**A pergunta que ela existia para responder era `o que esse PE compra na rota sem energia`**, e a resposta é **a mesma coisa que ele compra no Fundamento**: pontos de montagem, na conta de `3 × Classe`.
+
+*Isso não é economia de trabalho — é a conta da peça 16 §2.* **A arma comum não escala e a Rotina escala**, então fechar a distância por qualquer outro caminho pediria `95` de dano por rodada no nível 30. **Isso é o Fundamento inteiro, e não um subsistema ao lado dele.**
+
+| a criação | rota de arma | rota de ferramenta |
+|---|---|---|
+| o que se escolhe | **três** das treze categorias de arma, diferentes entre si | **uma** ferramenta sob medida, como objeto de apoio |
+| o que se recebe | uma arma de grau 4 de cada, e treino nas três | o objeto, de grau 4 |
+| o atributo | **Força ou Destreza**, e os três grupos acertam por ele | **qualquer um dos cinco** |
+| o Selo | ter uma das três em uso | ter a ferramenta em uso |
+
+**Três renomes, e os originais continuam sendo do Fundamento:** *`feitiço` virou **`Kata`** (型), `Liberação Máxima` virou **`Ruptura`**, e `Técnica Máxima` virou **`Ōgi`** (奥義).*
+
+> ***`Assinatura` era o candidato natural do `Ōgi` e saiu OCUPADO:*** *já é Restrição no manual — "o feitiço deixa uma marca visível que dura 1 hora e aponta para você".* **`Ōgi` é o termo de arte marcial para a técnica que uma escola guarda, e ele faz par direto com `Kata`:** a Kata é a forma que se treina, o Ōgi é a que se guarda.
+
+### Decidido — os três grupos não dão Manha, e a conta é o argumento
+
+**A `Escola de Arma` da Vanguarda também escolhe categoria de arma, e ela dá a `Manha` daquela categoria.** *Um leitor que chega pela peça 20 vai perguntar se três grupos dão três Manhas.*
+
+| | fatias | quanto é |
+|---|---|---|
+| as três mais baratas | 2,10 | 70,0% de um Caminho |
+| **três Manhas médias** | **2,93** | **97,6% de um Caminho inteiro** |
+| as três mais caras | 3,42 | 114,0% de um Caminho |
+
+**Um Caminho custa `3` fatias na campanha inteira.** *Três Manhas de graça na criação é um Caminho inteiro entregue antes do nível 3 — e uma Vanguarda de Técnica Marcial ficaria com quatro categorias.* **A conta reprova, então não foi pergunta.**
+
+### Decidido — o atributo, e por que os grupos ficam presos a ele
+
+***Decisão do Mizuki, contra três leituras medidas.*** *O caso afiado é a arma pedindo Força e a ficha tendo declarado Inteligência.*
+
+| no nível 30 | o seu acerto | o alvo treinado resiste |
+|---|---|---|
+| a base do sistema | 60% | **65%** |
+| declara um atributo, e o acerto usa ele | **35%** | 90% |
+| acerto pela arma, CD pelo declarado | 60% | **90%** |
+| **os três grupos acertam pelo atributo declarado** | **60%** | **65%** |
+
+**Só a terceira mantém as duas metades da rolagem vivas, e ela não precisa de regra nova: é uma trava na escolha dos grupos.** *Sobram `8` grupos fechando em Força e `6` em Destreza, e a `Lâmina Longa` está nos dois por causa da `Fineza`.*
+
+> **⚠ E o que isso fecha, declarado: nenhum grupo de arma acerta por Inteligência, Essência ou Constituição.** *A rota de arma é sempre Força ou Destreza.* **O restringido de Inteligência alta continua sendo ficha legítima — e ele vai pela rota de ferramenta**, que é exatamente a divisão que a v0.118 abriu ao trocar `energia pelo corpo` por `sem energia`.
+
+### Decidido — o golpe simples da rota de ferramenta depende do objeto
+
+**`Canalizar energia` já faz arma comum ferir maldição** — decisão registrada na peça 14 §5 —, **e quem não tem energia não tem essa aptidão.** *A v0.118 registrou a dívida com este nome: "o `canalizar` em golpe vai ganhar mecânica quando a Técnica Marcial chegar".*
+
+**O mecanismo é o Selo: toda Kata passa pelo equipamento, e o equipamento é ferramenta de grau 4.** *Então toda Kata fere maldição nas duas rotas, sem regra nova.* **Sobra o golpe simples**, que não é Kata e sai de graça.
+
+***Decisão do Mizuki:*** *"o objeto é uma ferramenta amaldiçoada, então ela pode ferir maldições a depender do objeto"* — **e o objeto declara qual dos dois é na criação**, numa linha da ficha, no lugar onde o Fundamento anota o tipo de dano.
+
+| nível | golpe simples que morre | ataque extra do nível 7 | somado | em fatias |
+|---|---|---|---|---|
+| 10 | 6,5 | 10 | 16,5 | **3,25** |
+| **30** | 10,5 | 12 | **22,5** | **4,43** |
+
+**Uma Vanguarda que escolha um objeto que o golpe não atravessa perde `4,43` fatias contra maldição no nível 30**, quando uma Trilha inteira vale `5,00`. *Fica como armadilha avisada e não como porta fechada — é o que o manual faz com o atributo da técnica.*
+
+> **E perder o dado de arma, sozinho, custa `0,20` fatia no nível 30.** *O soco tem dado próprio.* **O que custa é a porta, não o dado.**
+
+### ⚠⚠ Achado — o Selo virar equipamento põe a ficha inteira atrás de uma condição `Leve`
+
+**O `Desarmado` da peça 19 vale `0,68` fatia**, porque foi preçado contra uma ficha em que a arma é uma fonte de dano entre outras. **Contra uma marcial de arma única, ele apagaria a Kata junto:**
+
+| nível | maior Classe | Kata cheia | contra o preço publicado |
+|---|---|---|---|
+| 9 | 3 | 40 | 11,6× |
+| **17 a 30** | **5** | **67** | **19,4×** |
+
+> **`19,4×` contra um filtro de dominância que reprova a partir de `3,00×`.** *Uma condição `Leve` valeria mais que qualquer Melhoria `Pesada` do catálogo, e valeria isso contra uma Origem só.*
+
+**O desenho já tinha a resposta, e ela é o motivo mecânico de os grupos serem três:** *a Kata vale com arma de qualquer um dos três, e o `Desarmado` tira uma.* **Na rota de ferramenta o objeto de apoio não ocupa a mão de arma, e a condição não alcança ele.** *Nas duas, o `Desarmado` volta a valer os `0,68` que a peça 19 publica.*
+
+### ⚠⚠ Achado — a triagem era cega para o catálogo de Legados inteiro
+
+***Ela quase deixou um nome errado entrar nesta versão.*** *`Talhe` foi o candidato original do Fundamento de exemplo da rota de arma, saiu **`LIVRE`**, e **já é Legado do Feto** — "uma vez por cena, você não fica `Agarrado`".*
+
+**Medido: `77` de `97` nomes de Legado saíam `LIVRE`.** *O `LEGADOS` do `conferir-nomes.py` era uma lista escrita à mão com **catorze** nomes — os que moravam na peça 9 **antes de a peça 13 existir**, na v0.39.* **Oitenta e três versões de catálogo que a triagem nunca enxergou.**
+
+> **Consertado no molde que aquele arquivo já usava para as perícias: ele lê do dono.** *O `conferir-legados.py` já extrai as entradas da peça 13, então a triagem passou a importar de lá — **não existe segunda lista**, e entrada nova na peça chega na triagem sozinha.*
+>
+> **Entrou só no universo da triagem, e não nas cinco checagens**, porque o catálogo já tem validador próprio. *Mesma regra que vale para perícia e ofício naquele arquivo.*
+
+**Quatro perturbações conferidas em cópia isolada, com a base passando antes e depois:** *o extrator parando de extrair acende "a triagem ficou cega para o catálogo inteiro"; devolvendo menos que os catorze da peça 9 acende "extrator quebrado"; parando de andar pelas seções acende "uma lista de Origem só"; e o arquivo sumindo acende o import.* **Contra-teste: sem o conserto, `Talhe`, `Cabo` e `Armaria` voltam a sair `LIVRE`.**
+
+> **⚠ E a primeira rodada do arnês mentiu, do jeito exato que o método avisa.** *A perturbação 1 saiu **verde** e o `diff` acusava mudança — mas a mudança era de outra linha: a minha substituição errou a indentação e não bateu.* **`diff` que só pergunta "o arquivo mudou?" não serve; ele tem de perguntar "a MINHA mudança entrou?".** *Refeito com o alvo conferido, as quatro acendem.*
+
+### Corrigido — três argumentos que a peça 20 tornou falsos
+
+**1 · O `Leque` volta, e ele tinha três documentos dizendo que não tinha onde cair.** *A peça 11 §6.8 escrevia que a rota sem energia perde um dos três eixos do marco, porque o `Leque` compra `+1 feitiço e uma Passiva` e as duas coisas são do Fundamento.* **A Técnica Marcial tem `Kata`, Passivas e espaços — então o `Leque` tem onde cair, e o `+1 espaço` da linha de graça também.** *O marco dela volta a ter os três eixos.*
+
+**Nenhum número se move com isso**, e vale dizer por quê: *o `10` de picks da rota pura de Lapidação sai dos sete marcos com os três últimos levando duas, e não de quantos eixos existem.*
+
+**2 · O argumento da Expansão virou falso, e a decisão não.** *A peça 9 §5 e a peça 11 §6.8 justificavam negá-la assim: "a Expansão é comprada com espaço de feitiço, e esta rota não tem lista de feitiço para gastar — então a negação não custa nada a ela".* **Com lista, negar passa a custar `2` ou `3` espaços de verdade.**
+
+> ***A decisão continua de pé porque ela nunca foi de preço*** — *decisão do Mizuki na v0.118: "é realmente só algo da obra que infelizmente tem de ser adaptado e vai ser meio fortinho mesmo".* **O que ela ganha é atravessar barreira e não ser alcançada pelo Acerto garantido; o que ela paga é não ter a camada.** *Troca declarada, e não conta que fecha.*
+>
+> *Fica registrado porque argumento errado envelhece pior que argumento nenhum: daqui a dez versões alguém rederiva pela frase antiga, acha que ela virou falsa, e reabre a decisão inteira.*
+
+**3 · A vaga de `Desliga` do Corpo Amaldiçoado destravou.** *A peça 13 §10 dizia que as duas que sobraram "esperam peça que ainda não existe".* **Uma delas esperava esta.** *O que falta nela é escrita e não peça, e alvo de `Desliga` é escopo da peça 13.*
+
+### Adicionado — o texto das cinco Bênçãos que faltavam
+
+*A peça 11 §6.8 fechava dizendo que "o texto das doze" esperava esta peça.* **Sete tinham bloco de regra desde a v0.118; cinco tinham só a linha da tabela.**
+
+**`Faro` · `Sem Pegada` · `Antecipar` · `Assombro` · `Vigília`**, as cinco escritas, e **nenhuma delas precisou de número novo** — as cinco são Classe Passiva 1 ou 2, e a escada do §4 é quem dimensiona.
+
+> **`Faro` e `Sem Pegada` são contraparte uma da outra de propósito:** *uma acha rastro, a outra apaga rastro, e duas fichas desta Origem numa perseguição empatam.* **`Antecipar` é a `Leitura` do manual lida pela postura em vez de pela energia**, e é por isso que ela alcança quem não conjura. **`Assombro` é a `Peso da Presença` num alvo escolhido**, com relógio de `1×` por cena no lugar do corte de força. **E `Vigília` conta um degrau de exaustão a menos**, que é o degrau que a peça 10 §4 já numera.
+>
+> **⚠ E `Vigília` ganhou a trava que ela precisava:** *com três degraus e um a menos, o pior caso continua sendo dois.* **Se a escada de exaustão ganhar um quarto degrau, esta entrada tem de ser relida** — um a menos de quatro é uma fração diferente de um a menos de três.
+
+### O validador — doze checagens, e o par declarado
+
+**O `conferir-marcial.py` não tem valor de regra dentro dele.** *Orçamento, fatia, Rotina, condição, escada de grau e catálogo de arma saem dos donos; o único bloco com número na mão é o `LIMITES DE DESIGN`, declarado à parte.*
+
+> **A checagem 3 e a checagem 9 se medem por eixos OPOSTOS, e o par fica declarado.** *A 3 pergunta se a rota recebe demais — três Manhas seriam `97,6%` de um Caminho. A 9 pergunta se ela é frágil demais — com um grupo só o `Desarmado` vale `19,4×`.* **Uma rota de um grupo passaria na 3 com folga e reprovaria na 9**, e é por isso que as duas precisam existir juntas.
+
+**A checagem 2 traz contra-teste embutido:** *ela recalcula o espalhamento de `vida + PE` com a coluna valendo zero e falha se ele passar — porque se passasse, esta peça não estaria segurando nada e a checagem seria trivialmente verdadeira.*
+
+**Dez perturbações conferidas em cópia isolada, com a base passando antes e depois de cada uma.** *A da Manha, a dos grupos diferentes, a de um grupo só, a do grupo em atributo mental, a da contagem que para de bater com a lista, a da Expansão negada só pela Origem, a do teto de `Estigma`, a do PE do Caminho indo a zero, a do argumento velho voltando a viver na peça 9, e o contra-teste da checagem 2.*
+
+> **⚠ E duas delas não acenderam na primeira rodada, pelo mesmo defeito meu: a checagem procurava a frase no ARQUIVO INTEIRO.** *`diferentes entre si` aparece três vezes na peça 20 e `não se move` aparece duas — então apagar a regra do §4.1 deixava uma cópia em outro lugar satisfazendo a checagem.* **As duas foram ancoradas na seção onde a regra mora**, e a mensagem de erro diz isso com todas as letras.
+
+*A contagem foi de `190` para `202` checagens, em `21` validadores.*
+
+### Achado na revisão cética — a Expansão escapava pelo Corpo Amaldiçoado
+
+**A primeira redação desta peça negava a Expansão citando a v0.118**, que diz *"quem não tem energia nunca tem Expansão de Domínio"*. ***O Corpo Amaldiçoado TEM energia*** — cadáver de mutação abrupta produz a própria, uns três meses depois de acordar —, **então aquela frase não alcança ele, e um mestre lendo a peça concluiria que o Panda compra domínio.**
+
+***Decisão do Mizuki, e ela é da peça: a Técnica Marcial não tem Expansão de Domínio, tenha a ficha energia ou não.*** *O motivo é o que a Expansão é — "a mesma técnica estendida sobre o território em volta" —, e a Técnica Marcial não tem técnica inata para estender.* **A peça ganhou o §3.2, e a checagem 8 passou a cobrar a negação própria em vez da citada.**
+
+### Achado na revisão cética — o Corpo Amaldiçoado não paga a escolha do objeto
+
+**Ele tem aptidões e refino normais, então tem o `canalizar energia` de graça no refino `1`.** *O golpe simples dele fere maldição pela aptidão, seja qual for o objeto.* **A escolha entre "coisa que o golpe atravessa" e "coisa que você só carrega" é da Restrição Celestial sem energia, e só dela** — que é quem paga por não ter aptidão nenhuma. *Escrito na peça, porque sem isso as duas Origens pareciam pagar o mesmo preço.*
+
+### Corrigido — os três renomes não estavam protegidos contra rebatismo
+
+*`Kata`, `Ruptura` e `Ōgi` nasceram batizados e fora do vocabulário do `conferir-nomes.py`.* **Era o defeito do `Rescaldo`, que a v0.87 achou: nome que vive solto na prosa sai `LIVRE` na triagem e pode ser rebatizado dez versões depois.** *Entraram na lista de termos de sistema, junto com `Bênção` e `Lapidação`, que estavam soltos desde a v0.118.*
+
+> **E isso quebrou a checagem 12, que exigia `LIVRE` — corrigida, e a correção é a lição.** *Um nome batizado sai `OCUPADO` **como ele mesmo**, e isso é o certo.* **Uma checagem que exige `LIVRE` do que a peça acabou de batizar só passa antes do batismo e falha no dia seguinte.** *Ela passou a separar "OCUPADO como termo do próprio projeto" de "OCUPADO por outro motivo", e ganhou contra-teste: se os três deixarem de estar protegidos, ela acende.*
+
+### ⚠⚠ Achado no commit — a minha varredura de validadores era falso-verde
+
+***O `./subir.sh` reprovou o commit da v0.122, e ele estava certo.*** *O `conferir-catalogo.py` tinha o bloco de `LIMITES DE DESIGN` com `PECAS_ESPERADAS = 19` escrito à mão, e a pasta passou a ter `20`.* **Isso é o tripwire funcionando: peça nova tem de passar por lá, e é por isso que aquele número é escrito e não derivado.**
+
+**O que não estava certo era a varredura que eu tinha rodado antes de entregar.** *Ela procurava a linha `>>> N PROBLEMA(S)` na saída de cada validador — e o `conferir-catalogo.py` reprova imprimindo `>>> FALHOU`, que é outro formato.* **Ele saiu `ok` num laço que nunca olhou para ele.**
+
+> **O critério certo é o código de saída, e o `subir.sh` sempre usou ele** — `if saida_val="$(python3 "$1" 2>&1)"`. *Eu inventei um critério pior do que o que a casa já tinha.*
+>
+> **É a mesma família do aviso que o `README` publica sobre o `python-docx`:** *um verde que não conferiu não é um verde.* **A diferença é que aqui quem não conferiu foi o laço, e não o validador.** *Casar formato de saída é frágil por construção; código de saída é a única coisa que todos os vinte e três concordam em falar.*
+
+*Nenhum número de regra se moveu com isso: o `conferir-catalogo.py` passou a esperar `20`, e os vinte e três saem com `0`.*
+
+### O que ela destrava
+
+**As rotas de Origem foram de `6/9` para `8/9`** — Corpo Amaldiçoado e Restrição Celestial pelo ramo sem energia. *A nona é `Sem Técnica`, e **decisão do Mizuki: ela tem criação própria e vem depois**.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **A fila é a mesma de antes desta versão: as três Trilhas do Evocador** — `Servo`, `Matilha` e `Coro` —, paradas por decisão do Mizuki desde a v0.82. *Fora delas, o que a peça 20 deixou pendurado é a vaga de `Desliga` que ela destravou, na peça 13, e o custo de sacar uma arma, que é buraco da peça 3 e da peça 19.*
+
+---
+
 ## [0.121] — 21/08/2026
 
 **A entrega ficou cinco versões sincronizada no disco e não commitada, e o validador saía verde o tempo todo.**

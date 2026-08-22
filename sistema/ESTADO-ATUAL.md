@@ -2,7 +2,21 @@
 
 Atualizado em 21/08/2026, na v0.121 (última peça fechada: **Dano e condições**, ampliada na v0.104 com a penalidade de arma; antes dela, a **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.121.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezenove peças escritas** e **dezenove validadores**.
+**Versão v0.122.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte peças escritas** e **vinte validadores**.
+
+***A TÉCNICA MARCIAL FECHOU na v0.122, e é a peça 20.*** **As rotas de Origem foram de `6/9` para `8/9`** — Corpo Amaldiçoado e Restrição Celestial pelo ramo sem energia. *A nona é `Sem Técnica`, e **decisão do Mizuki: ela tem criação própria e vem depois**.*
+
+> **Ela é o Fundamento com o corpo no lugar da energia, e não tem número novo nenhum.** *Pontos são `3 × Classe`, o PE é o mesmo número, o que sobra de ponto vira `1d8`.* **O que muda é a criação: onde o Fundamento escreve um Selo, ela escolhe três grupos de arma ou uma ferramenta sob medida.**
+>
+> **Três renomes:** *`feitiço` virou **`Kata`** (型), `Liberação Máxima` virou **`Ruptura`**, e `Técnica Máxima` virou **`Ōgi`** (奥義).* **A Expansão de Domínio não ganhou substituto — ela não existe nesta peça, e a negação é da peça e não da Origem.** *O Corpo Amaldiçoado TEM energia, então a decisão da v0.118 sozinha não alcançava ele.*
+>
+> **O Selo virou equipamento, e é isso que resolve ferir maldição:** *toda Kata passa pelo equipamento, e o equipamento é ferramenta de grau 4.* **Sobra o golpe simples, e aí depende do objeto** — decisão do Mizuki, declarada numa linha da ficha na criação.
+>
+> **⚠ E o Selo-equipamento põe a ficha inteira atrás de uma condição de nível `Leve`.** *Contra uma marcial de arma única, o `Desarmado` valeria `19,4×` o preço que a peça 19 publica, contra um filtro que reprova em `3,00×`.* **É por isso que os grupos são TRÊS** — a Kata vale com arma de qualquer um deles, e a condição tira uma.
+>
+> **E três grupos não dão Manha.** *Três Manhas médias somam `2,93` fatias, que é `97,6%` de um Caminho inteiro entregue antes do nível 3.*
+
+> **⚠⚠ E a triagem era cega para o catálogo de Legados inteiro.** *`77` de `97` nomes saíam `LIVRE`, porque o `conferir-nomes.py` carregava uma lista escrita à mão com **catorze** — os que moravam na peça 9 antes de a peça 13 existir, na v0.39.* **Ela quase deixou `Talhe` — que é Legado do Feto — ser batizado de novo nesta versão.** *Consertado: ele lê do dono, no mesmo molde que já usava para as perícias.*
 
 > **⚠⚠ A entrega ficou CINCO versões sincronizada no disco e não commitada, e nenhum validador acusava.** *O último commit do repositório do PDF era o recorte da v0.115, com quinze arquivos parados.* **A checagem 7.1 compara md5 e responde *"o recorte está atualizado?"* — a resposta era sim.** *Ela nunca perguntou se ele tinha sido commitado, e são perguntas diferentes.* **Achado pelo Mizuki, perguntando se não ia commitar no outro repositório também.**
 >
@@ -419,6 +433,8 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/conferir-progressao.py` | as **oito** checagens da peça 18: cada coluna reconstruída a partir do dono, a fórmula dos espaços contra a tabela da peça 11, e a cópia de três fichas da peça 2 |
 | `03-mecanica/19-dano-e-condicoes.md` | **a régua de condição** — quanto vale cada uma das catorze, em dano por rodada e em nível —, mais as catorze condições, os catorze tipos de dano e a cobertura, que vieram da peça 1 |
 | `03-mecanica/conferir-dano.py` | as **onze** checagens da peça 19, e a nona sai da pasta: ela bate as duas entregas publicadas que aplicam condição contra a régua. *A décima primeira entrou na v0.104, com a penalidade de arma* |
+| `03-mecanica/20-tecnica-marcial.md` | **a rota de criação de quem não escreve Fundamento**: a máquina herdada, as duas rotas — três grupos de arma, ou uma ferramenta sob medida —, o Selo que virou equipamento, e os três renomes `Kata`, `Ruptura` e `Ōgi` |
+| `03-mecanica/conferir-marcial.py` | as **doze** checagens da peça 20, e o par declarado entre a 3 e a 9: uma pergunta se a rota recebe demais, a outra se ela é frágil demais |
 | `05-material/gerador-ficha/` | o gerador da ficha (Node: `node make.js`), e os dois `.docx` que ele produz |
 | `conferir-repositorio.py` | a árvore, as referências mortas, os números que moram em mais de um documento, os **ponteiros de seção** — todo `peça N §M` citado tem de apontar para seção que existe, desde a v0.54 —, o **mapa** desta tabela contra a pasta, a **entrega** contra a fonte, a **pendência morta** desde a v0.100 — nenhum item de "Em aberto" pode pedir coisa que já existe —, e, **desde a v0.102**, a **contagem de checagens de cada validador, lida do código** |
 | `99-arquivo/` | material morto, com LEIA-ME próprio. Não leia de lá para escrever peça nova |
@@ -965,7 +981,7 @@ O motivo é o pilar 1, e está escrito na peça 5: *"se o Caminho desse dano, do
 
 | peça | por que só depois |
 |---|---|
-| **Técnica Marcial** | ~~bloqueada por equipamento~~ — **destravada na v0.48**, e é a peça que a vaga de Desliga do Corpo Amaldiçoado espera. *O que ela ainda precisa é de ferramenta amaldiçoada para a Maki e o Toji ferirem maldição* |
+| ~~**Técnica Marcial**~~ | **FECHADA na v0.122, e é a peça 20.** *Destravada na v0.48 por Equipamento, e liberada de vez na v0.59, quando a ferramenta amaldiçoada virou a peça 16.* **Ela destravou a vaga de `Desliga` do Corpo Amaldiçoado, e escrever a vaga é escopo da peça 13** |
 | **Estilo da Sombra** | está **bloqueado pelas aptidões** — a rota da Shoko é literalmente "o poder vem de aptidão" |
 
 As duas são economias de poder novas, e construir a quarta e a quinta antes de a segunda ter teto escrito é o erro que o esqueleto já avisou.
@@ -989,8 +1005,8 @@ As duas são economias de poder novas, e construir a quarta e a quinta antes de 
 | Latente · Receptáculo · Descendente · Reencarnado · Feto | **sim** — vão para o Fundamento |
 | Restrição Celestial, ramo do Kokichi Muta | **sim** — Fundamento, com o corpo limitado na ficha |
 | qualquer uma **+ Sem Técnica** | não — falta Aptidão ou Estilo da Sombra |
-| Corpo Amaldiçoado | não — falta Técnica Marcial |
-| Restrição Celestial, ramo da Maki | não — falta Técnica Marcial |
+| Corpo Amaldiçoado | **sim** — Técnica Marcial, a peça 20, na v0.122 |
+| Restrição Celestial, ramo da Maki | **sim** — Técnica Marcial mais Bênçãos e Lapidação, na v0.122 |
 
 **E três coisas que a criação ainda contorna**, cada uma com a saída escrita no ponto do texto onde ela pesa:
 

@@ -9,7 +9,7 @@ Sistema de RPG de mesa em desenvolvimento, ambientado no universo de Jujutsu Kai
 | `00-fundacao/` | Pitch de design e decisões que valem para o projeto inteiro |
 | `01-pesquisa/` | Dossiê de metodologia, referências e análise do espaço de design |
 | `02-esqueleto/` | Arquitetura do sistema: subsistemas, como se conectam, o que cada um resolve |
-| `03-mecanica/` | As peças de regra, numeradas na ordem em que foram escritas, e os dezenove validadores |
+| `03-mecanica/` | As peças de regra, numeradas na ordem em que foram escritas, e os vinte validadores |
 | `04-playtest/` | Roteiro de teste, formulários e retorno organizado por tema |
 | `05-material/` | A **ficha de personagem** (e o gerador dela) e o **livro/**, o Manual da Guilda completo |
 | `99-arquivo/` | **Material morto.** Nada aqui é regra corrente — ver o `LEIA-ME.md` de lá |
@@ -42,7 +42,7 @@ A pasta `skills/` guarda o `SKILL.md` de cada uma mais os arquivos de apoio. ~~*
 
 ## Versão atual
 
-**v0.121.** Fases 0 a 3 fechadas; a Fase 4 (mecânica) está em andamento com **dezenove peças escritas e dezenove validadores passando**. O manual do Fundamento está na **v7.11**, e ele é um subsistema fechado — a técnica e o feitiço já funcionam. O `.pdf` **está na mesma versão do `.docx`** desde a v0.93 — ele deixou de ser exportado a mão.
+**v0.122.** Fases 0 a 3 fechadas; a Fase 4 (mecânica) está em andamento com **vinte peças escritas e vinte validadores passando**. O manual do Fundamento está na **v7.11**, e ele é um subsistema fechado — a técnica e o feitiço já funcionam. O `.pdf` **está na mesma versão do `.docx`** desde a v0.93 — ele deixou de ser exportado a mão.
 
 **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas**, por seis das nove rotas de Origem. Desde a v0.32 não sobrou peça de regra travando ninguém nessa faixa: das dezessete coisas que uma ficha de nível 2 precisa, **treze existem, e as quatro que faltam não mordem nessa faixa**. O que falta para as outras três rotas, e a ordem do resto, está no `ESTADO-ATUAL.md`.
 

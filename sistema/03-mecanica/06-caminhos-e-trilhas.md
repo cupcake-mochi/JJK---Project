@@ -301,6 +301,8 @@ E é a leitura correta da obra: as maldições do Geto individualmente são frá
 > **E é a soma que decide o que uma Origem sem energia amaldiçoada recebe daqui — v0.116.** *Esta peça não citava Origem nenhuma e a peça 9 não citava Caminho nenhum, então a combinação nunca tinha sido conferida:* **a Restrição Celestial pelo ramo da Maki diz *"sem PE"*, e os cinco Caminhos entregam PE.** *Com a coluna valendo zero, a soma cai para `7 · 5 · 5 · 4 · 4` — espalhamento `3`, e o validador acende.*
 >
 > **A regra que sai disso é da peça 9 §5, e ela não é gate:** *a coluna `por nível` vem inteira, e ela continua se chamando `PE`* — **`Pontos de Energia` para quem tem energia, `Pontos de Esforço` para quem não tem, e a sigla é a mesma.** *O tamanho é herdado desta tabela; **o que o PE compra** na rota sem energia é da Técnica Marcial.* *O argumento inteiro, com as três saídas que reprovaram, está na peça 9 §8.*
+>
+> **E a resposta chegou na v0.122, na peça 20: o `PE` compra a mesma coisa que compra no Fundamento** — pontos de montagem, na conta de `3 × Classe`. *Nenhum número desta tabela se moveu, e ela continua sendo a dona da coluna.*
 
 *Corrigido na v0.15, revisado na v0.19.* A regra original dizia "6 nos Caminhos de técnica, 4 nos físicos", e o **Guia não era nem um nem outro** — ficava sem número. A divisão em duas famílias não cobria os cinco Caminhos, então ela virou uma escada de três degraus com cada Caminho nomeado.
 

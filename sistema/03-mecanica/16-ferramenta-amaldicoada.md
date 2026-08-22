@@ -239,11 +239,13 @@ O `conferir-ferramenta.py` roda **dezesseis checagens**, e **nenhum valor fica e
 
 | destrava | como |
 |---|---|
-| **`Técnica Marcial`** | ela precisa desta para a Maki e o Toji **ferirem maldição**. *Esta linha dizia "é a peça seguinte" e ela deu ao projeto duas respostas para "o que vem agora" — **corrigida na v0.103, por decisão do Mizuki: as próximas são as três Trilhas do Evocador***
-| **2 das 9 rotas de Origem** | Corpo Amaldiçoado e Restrição Celestial ramo Maki — **6/9 → 8/9** |
+| **`Técnica Marcial`** | ela precisava desta para a Maki e o Toji **ferirem maldição**, e **fechou na v0.122: é a peça 20**. *Esta linha dizia "é a peça seguinte" e ela deu ao projeto duas respostas para "o que vem agora" — **corrigida na v0.103, por decisão do Mizuki***
+| **2 das 9 rotas de Origem** | Corpo Amaldiçoado e Restrição Celestial ramo Maki — **6/9 → 8/9**, e o `8/9` chegou de fato na v0.122 |
 | **2 das 7 vagas de Desliga** | a `Armaria` do Descendente e a Restrição Celestial, as duas na peça 13 §8 |
 
 **O que ela não destrava:** Trilha nenhuma, e nenhuma peça de regra. *Ela é acesso, não economia nova.*
+
+> **E a peça 20 usa esta aqui em dois lugares que vale saber.** *A rota de arma entrega **três** ferramentas de grau 4 na criação, uma por grupo escolhido; a de ferramenta entrega **um objeto de apoio** de grau 4.* **O teto de `Estigma` do §5 não se move em nenhuma das duas**, porque grau 4 não dá `Estigma` e porque o teto conta pelas mãos e não pela mochila. *Tudo acima do grau 4 continua sendo desta peça, no ritmo do §7.*
 
 **Em aberto:**
 

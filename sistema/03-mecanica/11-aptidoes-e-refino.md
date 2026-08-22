@@ -700,7 +700,15 @@ As outras duas quebram nas pontas: com `2 ×` você se defende uma vez e acabou 
 
 > **Catorze Bênçãos: `cobrir-se` e `estímulo muscular` grátis na Lapidação `1`, doze compradas com marco.** *A forma espelha o catálogo de aptidões espaço por espaço — duas grátis, doze pagas —, mesmo o conteúdo não espelhando quase nada.* **Mais a `Bênção Própria`, que é a única entrada que espelha de verdade** — ela é formato, e formato atravessa.
 
-**E o marco perde um dos três eixos, para as duas rotas que não escrevem Fundamento.** *O `Leque` compra `+1 feitiço e uma Passiva`, e as duas coisas são do Fundamento.* **Sobram `Corpo` e `Lapidação`** — e a linha de graça perde o `+1 espaço de feitiço`, que também não tem onde cair. *Isso não tira poder: tira opção.* **O efeito medido é que a rota sem energia é empurrada para a Lapidação mais forte do que uma ficha comum é empurrada para o Refino**, porque ela não tem um segundo eixo de poder para onde ir. *A folga de duas entradas no catálogo continua de pé, e é ela que impede a rota de virar corredor.*
+> **⚠⚠ Este parágrafo dizia o contrário até a v0.122, e ele era verdade quando foi escrito.** *Ele dizia: "o marco perde um dos três eixos, para as duas rotas que não escrevem Fundamento — o `Leque` compra `+1 feitiço e uma Passiva`, e as duas coisas são do Fundamento. Sobram `Corpo` e `Lapidação`, e a linha de graça perde o `+1 espaço de feitiço`, que também não tem onde cair."*
+>
+> **A peça 20 deu lista a ela.** *A Técnica Marcial é a máquina do Fundamento com o corpo no lugar da energia: ela tem `Kata`, tem Passivas e tem espaços de feitiço conhecido.* **Então o `Leque` tem onde cair, e o `+1 espaço` da linha de graça também.**
+
+**O marco desta rota tem os três eixos, iguais aos de todo mundo: `Corpo`, `Lapidação` e `Leque`.**
+
+**Nenhum número se move com isso, e vale dizer por quê.** *O `10` de picks que a rota pura de Lapidação precisa sai dos sete marcos com os três últimos levando duas, e ele mora no §3 — ele não depende de quantos eixos existem, e sim de quantas vezes você escolhe o mesmo.* **A folga de duas entradas no catálogo continua de pé, e é ela que impede a rota de virar corredor.**
+
+*O que se move é a pressão:* **a frase antiga concluía que "a rota sem energia é empurrada para a Lapidação mais forte do que uma ficha comum é empurrada para o Refino, porque ela não tem um segundo eixo de poder para onde ir".** *Ela tem, e a conclusão cai junto com a premissa.*
 
 ### As doze pagas
 
@@ -758,7 +766,31 @@ As outras duas quebram nas pontas: com `2 ×` você se defende uma vez e acabou 
 
 **`Faro`, `Sem Pegada`, `Antecipar`, `Assombro` e `Vigília` não têm número**, e isso é a escada de Classe Passiva funcionando. *A `1` é "efeito pequeno, condicional, ou de informação" (§4), e quatro delas moram ali.*
 
-*O `Faro` acha rastro de feiticeiro e lê o que uma técnica fez — é o buraco que o `Presságio` da peça 16 tapa por fora, e que a Origem tem porque não pode ter `Sentir Energia`.* **O `Vigília` é Classe Passiva 2 porque ele encosta na escada de exaustão da peça 10 §4**, que tem três degraus numerados: ele segura um.
+**As cinco ganharam texto na v0.122**, junto com a peça 20 — *era o que a seção "O que ainda espera a Técnica Marcial" listava, e o motivo era saber contra o que medir uma rodada desta rota.*
+
+> **`Faro` · Classe Passiva 1.** Você segue rastro de feiticeiro e de maldição pelo que o corpo deles deixou — cheiro, marca, o que ficou fora do lugar. **E, encostando no que uma técnica fez, você sabe o que ela fez ali**, sem saber de quem é.
+
+*É o buraco que o `Presságio` da peça 16 tapa por fora, e que a Origem tem porque **não pode ter `Sentir Energia`** — a única perícia do sistema que uma Origem inteira não alcança.* **Ele não diz onde a coisa está agora e não identifica ninguém:** rastro é passado, e é isso que o mantém na Classe Passiva 1.
+
+> **`Sem Pegada` · Classe Passiva 1.** Você não deixa rastro físico: pegada, cheiro, marca, som de passo. **Nem `Faro`, nem cão, nem técnica de rastreamento acham por onde você passou.**
+> *Quem te viu passar continua sabendo. Isto apaga o vestígio, não a testemunha.*
+
+*A contraparte declarada é o `Faro`, que é a Bênção logo acima, e as duas se anulam de propósito — **duas fichas desta Origem numa perseguição empatam**, o que é o resultado certo.* **Não é furtividade:** `Furtividade` continua sendo a perícia, e esta entrada não soma nada nela.
+
+> **`Antecipar` · Classe Passiva 1 · Inteligência 4.** No começo do combate, escolha uma criatura que você enxerga. **Até o fim da cena, você sabe qual foi a última ação que ela tomou e se ela se moveu antes de agir.**
+> *Você lê o corpo: peso, guarda, para onde os olhos foram. Energia não entra nisso.*
+
+*Ela é a contraparte da `Leitura` do manual — "você identifica a Classe e a Forma de qualquer feitiço conjurado a até 18 m" —, e a diferença é a fonte: **a `Leitura` lê energia, e esta lê postura.*** **Por isso ela alcança quem não conjura, e é pior contra quem conjura de longe.**
+
+> **`Assombro` · Classe Passiva 1 · Essência 4.** Uma vez por cena, ao entrar numa cena ou ao ser visto pela primeira vez, escolha uma criatura que enxerga você. **Ela faz um Teste de Resistência de Espírito contra a CD da sua técnica ou fica `Amedrontada` até o fim do próximo turno dela.**
+
+*O molde é a `Peso da Presença` do manual, que faz isso em área contra inimigos fracos e sem escolher.* **Esta escolhe um e não tem corte de força, e o relógio de `1×` por cena é o que separa as duas.** *A CD sai da peça 1: `8 + atributo da técnica + maestria`, e o gate de Essência é o atributo que a alimenta — a trava do §5 vale, então **a Essência não entra duas vezes**.*
+
+> **`Vigília` · Classe Passiva 2.** **Você conta um degrau de exaustão a menos do que tem**, para todo efeito. O degrau continua marcado na ficha; o que muda é o que ele cobra de você.
+
+*A peça 10 §4 tem três degraus numerados, e ele segura um.* **É Classe Passiva 2 e não 1 porque ele encosta numa escada com preço**, e a escada de Classe do §4 põe "efeito reativo, com limite" na 2. *Ela é o que o Toji é na obra: o corpo não para quando devia.*
+
+> **⚠ E ela não vira imunidade, porque a escada não tem degrau zero.** *Com três degraus e um a menos, o pior caso continua sendo dois — e o descanso longo continua limpando pelo mesmo ritmo.* **Se a escada de exaustão ganhar um quarto degrau, esta entrada tem de ser relida**, porque um a menos de quatro é uma fração diferente de um a menos de três.
 
 #### Por que só cinco gates, e não doze
 
@@ -806,9 +838,13 @@ As outras duas quebram nas pontas: com `2 ×` você se defende uma vez e acabou 
 
 > **⚠ E o tamanho das duas listas é derivado, não fixo — isso importa porque elas vão crescer.** *O Mizuki já registrou que pretende acrescentar aptidões ao catálogo do feiticeiro.* **As doze pagas de cada lado saem de uma conta só: a rota pura precisa de `10` (sete marcos, os três últimos levando duas), e o catálogo carrega `+2` de folga para que escolher qual deixar de fora seja escolha e não falta de cardápio.** *Se o marco mudar, as duas listas mudam junto; se o catálogo do feiticeiro crescer, a folga cresce e o piso de `10` não se move.* **O número que não pode ser copiado à mão é o `10`, e ele mora no §3.**
 
-### O que ainda espera a Técnica Marcial, e é só isto
+### ~~O que ainda espera a Técnica Marcial~~ — nada mais espera, desde a v0.122
 
-**O texto das doze, e só ele.** *O tamanho de cada uma é a mesma pergunta de magnitude que a peça 16 §2 já registrou como sendo da Técnica Marcial:* ***"o dano por rodada da rota sem energia — magnitude, e ela é peça"***. **Escrever as doze antes dela seria escolher o orçamento da peça que ainda não existe**, que é o erro que o `RASCUNHO-trilhas.md` §3 registra como a única recomendação de método dele: *a régua vem antes do catálogo*.
+**O que faltava era o texto de cinco das doze, e ele está escrito acima.** *`Faro`, `Sem Pegada`, `Antecipar`, `Assombro` e `Vigília` tinham só a linha da tabela; as outras sete já tinham bloco de regra desde a v0.118.*
+
+*O motivo da espera era o que a peça 16 §2 registrou:* ***"o dano por rodada da rota sem energia — magnitude, e ela é peça"***. **Escrever as doze antes dela seria escolher o orçamento da peça que ainda não existia**, que é o erro que o `RASCUNHO-trilhas.md` §3 registra como a única recomendação de método dele: *a régua vem antes do catálogo*.
+
+> **E a régua chegou menor do que a espera fazia parecer.** *A peça 20 não inventou orçamento nenhum: ela herdou o do Fundamento inteiro.* **Então as cinco não precisaram de número — precisaram de saber contra o que uma rodada desta rota se mede**, e a resposta é *contra a mesma coisa que a de todo mundo*.
 
 *O que NÃO espera mais:* **se espelha** (o conteúdo não, a forma sim), **quantas são** (catorze: duas grátis e doze pagas, mais a `Bênção Própria`), **as duas gratuitas** (`cobrir-se` portada e o `Estímulo Muscular`, as duas escritas acima com número), **o que as escala** (a Lapidação, `1` a `10`, mesmos degraus do §5), **como as doze se separam** (gate de atributo, o sexto formato), **e o que não precisa entrar** (ferir maldição e anti-domínio, que já têm dono na peça 16).
 

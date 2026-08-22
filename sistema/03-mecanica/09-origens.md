@@ -175,7 +175,7 @@ Cadáver Amaldiçoado de Mutação Abrupta, na linguagem da instituição. Você
 | **O que muda** | sem Fundamento, porque **não existe técnica inata para escrever**. Mas **você tem energia amaldiçoada**: cadáver de mutação abrupta produz a própria, uns três meses depois de acordar. Então PE, aptidões e refino normais — e **Técnica Marcial** no lugar do Fundamento |
 | **Traços** | *quem te fez, e o que essa pessoa esperava* · *o que as pessoas acham que você é* · *o núcleo que você ainda não usou na frente de ninguém* |
 | **Legados** | **as listas estão na peça 13** — um `Destranca` obrigatório e mais um de qualquer lista |
-| **Criação** | **Técnica Marcial** — *não existe ainda* |
+| **Criação** | **Técnica Marcial** — peça 20, fechada na v0.122 |
 
 ---
 
@@ -198,7 +198,7 @@ A troca é sempre desproporcional para os dois lados: você perde muito e ganha 
 | **O que muda** | *corpo pela técnica:* Fundamento normal, corpo com limitação escrita na ficha<br>*sem energia:* sem Fundamento, sem PE, sem feitiço de Toque, sem Sentir Energia — e acesso a ferramenta amaldiçoada como eixo de poder |
 | **Traços** | *o clã que te descartou* · *a pessoa que te olha e vê o que você perdeu* · *a ferramenta que te acompanha desde criança* |
 | **Legados** | **as listas estão na peça 13** — um `Destranca` obrigatório e mais um de qualquer lista |
-| **Criação** | *corpo pela técnica:* **Fundamento** normal · *sem energia:* **Técnica Marcial** — *não existe ainda* |
+| **Criação** | *corpo pela técnica:* **Fundamento** normal · *sem energia:* **Técnica Marcial** — peça 20, fechada na v0.122 |
 
 ### O ramo da Maki tem Bênçãos e Lapidação, e isso estava decidido desde a v0.38
 
@@ -221,7 +221,11 @@ A troca é sempre desproporcional para os dois lados: você perde muito e ganha 
 
 > ***Em troca, e a troca é declarada: quem não tem energia nunca tem Expansão de Domínio.*** *Nem incompleta, nem completa.*
 
-**Isso não passou por régua de preço, e é decisão.** *A Expansão é comprada com espaço de feitiço, e esta rota não tem lista de feitiço para gastar — então a negação não custa nada a ela, e o que ela paga é não ter a camada inteira.* **A `Liberação Máxima` e a `Técnica Máxima` ganham substituto quando a Técnica Marcial chegar; a Expansão não ganha.**
+**Isso não passou por régua de preço, e é decisão do Mizuki** — *"é realmente só algo da obra que infelizmente tem de ser adaptado e vai ser meio fortinho mesmo"*. **O que ela ganha é atravessar barreira e não ser alcançada pelo Acerto garantido; o que ela paga é não ter a camada inteira.** *Troca declarada, e não conta que fecha.*
+
+> **⚠ O argumento que estava escrito aqui virou falso na v0.122, e a decisão não.** *Ele dizia: "a Expansão é comprada com espaço de feitiço, e esta rota não tem lista de feitiço para gastar — então a negação não custa nada a ela".* **A peça 20 deu lista a ela:** a Técnica Marcial tem `Kata`, Passivas e espaços, então negar a Expansão passou a custar `2` ou `3` espaços de verdade. *A decisão continua de pé porque ela nunca foi de preço; o que precisou ser reescrito foi o motivo embaixo dela.*
+
+**A `Liberação Máxima` e a `Técnica Máxima` ganharam substituto na peça 20 — `Ruptura` e `Ōgi`.** *A Expansão não ganhou, e não é renome: ela não existe aqui.*
 
 > *Por que as quatro anti-domínio da peça 11 §6.5 não entram no catálogo dela: as quatro existem para anular Acerto garantido, e ela já não é alcançada por ele.* **A peça 16 §6 ainda dá o `Anátema` e o `Quebranto` por outro caminho, para quem quiser.**
 
@@ -241,6 +245,8 @@ A troca é sempre desproporcional para os dois lados: você perde muito e ganha 
 
 **O que a Técnica Marcial decide é o nome da moeda e o que ela compra. O que ela não decide é quanto.**
 
+> **Ela decidiu na v0.122, e é a peça 20.** *O que o `PE` compra é o mesmo que ele compra no Fundamento — pontos de montagem, na conta de `3 × Classe` —, porque a peça 16 §2 já tinha medido que fechar a distância de dano por outro caminho pediria `95` de dano por rodada no nível 30.* **Isso é o Fundamento inteiro, e não um subsistema ao lado dele.**
+
 ## 6. Para onde cada Origem manda
 
 | Origem | rota de criação | jogável hoje |
@@ -251,11 +257,13 @@ A troca é sempre desproporcional para os dois lados: você perde muito e ganha 
 | Reencarnado | Fundamento | **sim** |
 | Feto | Fundamento | **sim** |
 | *qualquer uma* **+ Sem Técnica** | Aptidão ou Estilo da Sombra | não — falta a peça |
-| Corpo Amaldiçoado | Técnica Marcial | não — falta a peça |
+| Corpo Amaldiçoado | Técnica Marcial | **sim** — peça 20, na v0.122 |
 | Restrição Celestial · corpo pela técnica | Fundamento | **sim** |
-| Restrição Celestial · sem energia | Técnica Marcial | não — falta a peça |
+| Restrição Celestial · sem energia | Técnica Marcial | **sim** — peça 20, na v0.122 |
 
-**Seis das nove rotas já rodam**, porque o Fundamento existe e está validado. As três que faltam dependem de um subsistema paralelo, e ele é a peça seguinte.
+**Oito das nove rotas já rodam.** *Seis pelo Fundamento, que existe e está validado desde sempre, e duas pela Técnica Marcial, que fechou na v0.122.*
+
+**A que falta é `Sem Técnica`**, e ela não espera a peça 20: ***decisão do Mizuki — aquela rota tem criação própria, e vem depois.*** *O que ela espera continua sendo Aptidão ou Estilo da Sombra.*
 
 **A Origem não fecha Caminho nenhum, e isso é decisão medida — o §8 tem a conta.** *O que existe é uma combinação que rende menos do que parece, e ela fica escrita aqui em vez de barrada:* **Sem Técnica com o Emanador.** *A Origem mantém PE e aptidões, então o bolso continua sendo gasto; o que não chega é o kit do Caminho — `Sangria`, `Resquício`, `Modelagem`, `Fonte`, `Acelerar`, `Vazão`, `Cheia` e `Transbordo` são todos construídos em cima de feitiço, e Sem Técnica não escreve Fundamento.* **É escolha cara, não regra quebrada, e quem escolhe merece saber antes e não no nível 11.**
 
@@ -275,7 +283,7 @@ O caso do Yuta continua existindo **na ficção** — a instituição pode class
 
 ## 8. Em aberto
 
-- **Técnica Marcial e Estilo da Sombra.** Três das nove rotas dependem deles. *A `Técnica Marcial` é a próxima da fila desde a v0.59, quando a ferramenta amaldiçoada — que ela precisava para a Maki e o Toji ferirem maldição — virou a peça 16.*
+- ~~**Técnica Marcial e Estilo da Sombra.** Três das nove rotas dependem deles.~~ **A Técnica Marcial fechou na v0.122, e é a peça 20.** *Ela destravou duas das três — Corpo Amaldiçoado e o ramo sem energia da Restrição Celestial —, e as rotas foram de `6/9` para `8/9`.* **A que sobra é `Sem Técnica`, e ela espera Aptidão ou Estilo da Sombra**, que continuam sem peça.
 - **A Aptidão como rota de criação.** A Shoko existe na obra e não existe na regra. *Os degraus de refino **estão escritos desde a v0.27**, na peça 11, e a `Energia Reversa` desde a v0.78 — o que falta é a máquina de construção da rota, e ela não pode ser "os outros menos o Fundamento".*
 - ~~**Se um Legado por ficha é pouco.**~~ **Respondido na v0.38, e nas duas direções.** A peça 13 deu **mais opções por Origem** — de dois para uma média de doze — *e* subiu a ficha para **dois Legados**, contra o que esta linha dizia. O motivo de reabrir está lá: opção de ficção que disputa vaga com opção mecânica fica em branco, e os Traços do D&D 5e são o exemplar documentado. **O teto de poder continua em um**, porque o segundo é obrigatoriamente `Destranca` e Destranca é zero no dado.
 - ~~**Se a perícia livre da Origem devia ser da lista também.**~~ **Fechado na v0.104, e não pelo lado que a pergunta esperava.** *A saída não foi prender ela na lista da Origem — foi tirar a aprovação e pôr no lugar uma trava contável:* **ela continua livre, e só não pode ser uma das seis que o seu Caminho já te deu.** *A história continua justificando, e o mestre continua lendo — o que ele não faz mais é decidir um número.* **E a trava não é nova: a peça 7 §6 já publicava `8 de 23` perícias treinadas por ficha, e esse total só fecha se as duas da Origem não repetirem as seis do Caminho.** *O número supunha a regra; agora ela está escrita.*
