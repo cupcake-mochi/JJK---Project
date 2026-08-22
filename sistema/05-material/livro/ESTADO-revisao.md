@@ -1,14 +1,14 @@
 # Estado da revisão · Manual da Guilda
 
-## Sincronização com a fonte — v0.124, 22/08/2026
+## Sincronização com a fonte — v0.124 e v0.125, 22/08/2026
 
 **O livro estava cinco versões atrás, e não era passada de texto: era conteúdo faltando.** *A v0.123 mediu e registrou a dívida; esta versão paga ela e põe uma checagem em cima para ela não voltar.*
 
 | | antes | depois |
 |---|---|---|
 | capítulos numerados | 15 | **17** |
-| palavras | 74.222 | **81.016** |
-| páginas | 237 | **259** |
+| palavras | 74.222 | **79.362** |
+| páginas | 237 | **256** |
 | Legados publicados | 80 | **85** |
 
 **Dois capítulos entraram, e a posição dos dois é decisão do Mizuki:** `42-tecnica-marcial.md` como o **capítulo 10**, colado no Fundamento, e `47-bencaos-e-lapidacao.md` como o **12**, colado em Aptidões e Refino. *O prefixo dos arquivos-fonte tem folga, então nenhum arquivo foi renumerado — o que desloca é o número impresso, do 10 em diante.*

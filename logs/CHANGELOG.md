@@ -8,6 +8,67 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.125] — 22/08/2026
+
+**Os dois capítulos que a v0.124 escreveu nasceram com a arquitetura que o resto do livro já tinha perdido.**
+
+> ***Achado do Mizuki, lendo o PDF:*** *"frases de efeito introduziam ao mecânico, frases desnecessárias eram colocadas, tabelas apresentando informações que um player não quer e nem precisa ver".* **E o veredito: *"aqui precisa do mesmo polimento que o restante do livro recebeu"*.**
+
+### Medido — e a medida não achava o defeito
+
+*Antes de cortar, tentei derivar o corte de um número, e os dois que existiam passaram:*
+
+| a régua | Técnica Marcial | Bênçãos | os 18 já polidos |
+|---|---|---|---|
+| palavras de prosa antes da primeira regra | `0` | `116` | mediana `39`, máximo `128` |
+| proporção de prosa solta | `56,1%` | `55,5%` | mediana `47,9%` |
+
+**Os dois capítulos passavam em qualquer régua contável.** *O de Técnica Marcial abria em bloco de regra, então marcava `0` na primeira medida.* **O defeito era de ESPÉCIE e não de quantidade**, e a `REGRA-DE-VOZ.md` já diz isso com todas as letras: *decidir se uma frase é fato mal-vestido ou enfeite* está na lista do que fica **fora do alcance do validador**.
+
+> *Fica registrado porque é a sexta vez que este projeto mede o marcador em vez do fenômeno* — a v0.110 tem quatro numa passada só. **A diferença é que desta vez o número não estava errado: ele estava certo e não era sobre a coisa.**
+
+### Cortado — as três famílias que ele nomeou
+
+**1 · Frase de efeito abrindo o mecânico.** *"E o equipamento é a técnica. Sem ele na mão, você é uma pessoa com um plano."* — saiu do bloco de abertura da Técnica Marcial.
+
+**2 · Texto inicial sem regra dentro.** *O parágrafo de 78 palavras que abria o capítulo 10 explicando que "o sistema trata isso com o mesmo peso" não entregava regra nenhuma.* **O capítulo passa a abrir dizendo de quem ele é, em uma frase, e cai no bloco de regra.**
+
+**3 · Tabela que o jogador não precisa ver.** *Três saíram:*
+
+| a tabela | por que ela sai |
+|---|---|
+| `Fundamento e Técnica Marcial` | comparava as duas coluna a coluna. **A pergunta do jogador é como se cria, e não o que difere** — a regra "tudo do capítulo 9 vale aqui" mais os três renomes e as duas subtrações diz o mesmo em menos |
+| `Lapidação por marco` | é a `Refino por marco` do capítulo 11 com outro nome, casa por casa. **Virou ponteiro** |
+| `Esteio no teto` | quatro CDs derivados de um piso que a regra ao lado já publica |
+
+**E saiu junto todo o argumento de balanceamento que tinha escapado:** *"a melhor arma do catálogo faz doze pontos e meio por rodada no nível 30"*, *"perder o dado da arma custa um ponto de dano por rodada"*, *"uma ficha tem entre 16 e 23 pontos de atributo"*. **Isso é `REMOCOES-material-de-mestre.md`, e a régua de lá é de v0.106:** *o que prova que o número está balanceado sai; o que o jogador consulta para jogar o turno dele fica.*
+
+### O que NÃO saiu
+
+**Nenhuma regra e nenhum número de regra.** *O `guard_numeros.py` acusou `11` diferenças num capítulo e `31` no outro, e as `42` foram lidas uma a uma contra a linha que as carregava.*
+
+**As catorze Bênçãos continuam com seção própria, caixa de regra e linha de `Gate` — conferido pelas catorze.** *Os degraus de marco `6 · 10 · 14 · 18 · 22 · 26 · 30` deixaram de ser copiados no capítulo 12 e passaram a ser ponteiro para a tabela do 11, que é a lição nº 9 pelo lado certo: um número, um dono.*
+
+> **⚠ E uma coisa mudou de lugar em vez de sair.** *O capítulo 10 dizia que a rota sem energia atravessa barreira de energia e escapa do Acerto garantido de uma Expansão completa.* **Isso agora mora só na `Cobrir-se`, no capítulo 12, que é a Bênção dona do efeito.** *Era a mesma regra escrita em dois capítulos.*
+
+### Medido depois
+
+| | v0.124 | v0.125 |
+|---|---|---|
+| capítulo 10 | 2.587 palavras | **1.789** |
+| capítulo 12 | 3.019 palavras | **1.996** |
+| prosa solta no 10 | 56,1% | **44,2%** |
+| prosa solta no 12 | 55,5% | **37,1%** |
+| livro | 81.016 palavras · 259 páginas | **79.362 · 256** |
+
+**O `conferir-voz.py --estrito` voltou a `16` trechos de triagem à mão — o número que o livro tinha ANTES da v0.124.** *Eram `21` com os dois capítulos novos dentro.* **Os capítulos novos deixaram de contribuir com prosa marcada**, e o título `O que some` — que caía em duas regras de título de uma vez, artigo e pergunta — virou `Selo e Expansão de Domínio`.
+
+*Nenhum validador se moveu: continuam `21` validadores e `203` checagens.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **A fila de mecânica não mudou: as três Trilhas do Evocador.** *Da v0.124 continuam abertas a Reação da `cobrir-se` portada, que é decisão da peça 11, e o repreço do `Desarmado`, que é da peça 19.*
+
+---
+
 ## [0.124] — 22/08/2026
 
 **O livro alcançou a fonte, e a pergunta que ninguém fazia ganhou dono.**

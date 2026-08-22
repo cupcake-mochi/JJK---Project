@@ -1,10 +1,14 @@
 # Estado atual do projeto
 
-Atualizado em 22/08/2026, na v0.124 (última peça fechada: **Dano e condições**, ampliada na v0.104 com a penalidade de arma; antes dela, a **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 22/08/2026, na v0.125 (última peça fechada: **Dano e condições**, ampliada na v0.104 com a penalidade de arma; antes dela, a **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.124.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte peças escritas** e **vinte validadores**.
+**Versão v0.125.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte peças escritas** e **vinte validadores**.
 
-***O LIVRO ALCANÇOU A FONTE na v0.124, e ele estava cinco versões atrás.*** **Dois capítulos entraram — `Técnica Marcial` como o 10 e `Bênçãos e Lapidação` como o 12 —, e o Manual da Guilda foi de 15 para 17 capítulos, de 74.222 para 81.016 palavras, de 237 para 259 páginas.**
+***O LIVRO ALCANÇOU A FONTE na v0.124, e ele estava cinco versões atrás.*** **Dois capítulos entraram — `Técnica Marcial` como o 10 e `Bênçãos e Lapidação` como o 12 —, e o Manual da Guilda foi de 15 para 17 capítulos.**
+
+> **E a v0.125 cortou os dois ao molde do resto do livro, por achado do Mizuki lendo o PDF:** *frase de efeito abrindo o mecânico, texto inicial sem regra dentro, e tabela mostrando o que o jogador não precisa ver.* **Os dois capítulos foram de `5.597` para `3.785` palavras, e o livro fechou em `79.362` palavras e `256` páginas.**
+>
+> ***E as duas réguas contáveis que eu tinha passavam:*** *prosa antes da primeira regra dava `0` e `116`, contra máximo `128` nos já polidos; proporção de prosa solta dava `56%` e `55%`, contra mediana de `48%`.* **O defeito era de espécie e não de quantidade — que é o que a `REGRA-DE-VOZ.md` já declara fora do alcance do validador.**
 
 > ***As duas posições são decisão do Mizuki, e a conta foi levada medida:*** *colar a Técnica Marcial no Fundamento custava `44` mudanças de número contra `9` no fim de "O personagem".* **Ele pagou a mais cara pelo argumento do leitor** — quem monta Corpo Amaldiçoado lê o Fundamento, vê que não serve, e a alternativa está na página seguinte. *O prefixo dos arquivos-fonte tem folga, então nenhum arquivo foi renumerado; o que desloca é o número impresso do capítulo, e ele desloca do 10 em diante.*
 
