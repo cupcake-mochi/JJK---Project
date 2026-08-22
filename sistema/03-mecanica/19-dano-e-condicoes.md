@@ -136,7 +136,7 @@
 | portão | taxa | dono |
 |---|---|---|
 | você acertou, com dois ataques no nível 30 | `75%` | é o mesmo gate do `Engate`, na mesma Trilha |
-| o alvo falhou o Teste de Resistência | `45%` ⚠ | peça 1 §6 — **e o dono mudou na v0.117** |
+| o alvo falhou o Teste de Resistência | `45%` ⚠ | peça 1 §6 — **o dono mudou na v0.117, e a v0.119 mediu: contra o alvo treinado é `35%`** |
 | **juntos** | **`33,8%`** | |
 
 **Com os portões o degrau vale `2,85` de dano por rodada, que é `0,56` fatia — e não `1,71`.**

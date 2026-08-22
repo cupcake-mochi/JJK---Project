@@ -143,6 +143,10 @@ Ele anula o excedente e deixa o aliado com `1` de vida. **O que ele compra não 
 
 *A troca do fixo do acerto por atributo **saiu daqui e vai para uma Trilha**, por decisão sua. O Caminho passa a ser uma progressão de três perguntas: **como você lança · o que você tem · quanto custa.***
 
+> **⚠ Ela nunca chegou em Trilha nenhuma, e a v0.119 mediu isso.** *A decisão saiu daqui e não aterrissou: nenhuma das quinze recebeu a troca.* **A `Empunhadura` do `Arremate` e o `Compasso` da `Estocada` trocam o atributo da ARMA, que é outra coisa.**
+>
+> **E a v0.117 tornou a pergunta muda:** *o ataque de conjuração passou a ser `d20 + atributo da técnica + maestria`, então toda ficha declara um atributo de técnica na criação.* **O que ia virar entrega de Trilha virou linha de base para todo mundo.** *Fica registrado porque decisão que sai de um lugar e não chega em outro some sem deixar rastro — e esta ficou dezenove versões no ar.*
+
 ### nível 2 · quatro candidatos, e o seu é o melhor com uma correção
 
 *Você chamou `Alcance Longo` de fraco e propôs troca de vida por energia. **Medi as quatro.***

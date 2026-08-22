@@ -686,7 +686,11 @@ Aquele `11,50` é a linha de comparação do §2 da **peça 5**, e ela usa `1d10
 >
 > **Acertar com dois ataques é `75%` — o mesmo gate que o `Engate` já usa nesta Trilha. Falhar um Teste de Resistência é `45%`, da peça 1 §6. Juntos, `33,8%`.**
 >
-> **⚠⚠ Os dois números mudaram de dono na v0.117 e este preço não foi refeito.** *Com o acerto em `55%`, dois ataques dão `79,75%`; e a falha de TR virou `35%` (treinado) ou `40%` a `55%` (sem treino).* **O escopo do repreço está no `ESTADO-ATUAL`, e ele é do catálogo inteiro — não deste degrau.**
+> **⚠⚠ Os dois números mudaram de dono na v0.117, e a v0.119 mediu o quanto — sem refazer o preço.** *Com o acerto em `55%`, dois ataques dão `79,75%`; e a falha de TR virou `35%` contra o alvo treinado, que é o caso difícil que o acerto já usa.*
+>
+> **O `Derrubado` deste degrau iria de `0,56` para `0,46`** — ele é o único do catálogo que DESCE, porque a queda da falha de TR é maior que a subida do acerto. *O `Punho` inteiro iria de `4,94` para `5,12`.*
+>
+> ***Decisão do Mizuki na v0.119: medir e não aplicar.*** *As sete entradas afetadas se movem entre `−0,10` e `+0,28` fatia, e as três Trilhas continuam dentro da banda que o projeto já aceita.* **A conta está registrada no `CHANGELOG`; os números publicados ficam como estão.**
 >
 > ***Decisão do Mizuki na v0.103: corrigir o preço e deixar em `4,94`.*** *As `0,06` fatia de folga são ruído — `0,30` de dano por rodada, e este documento já tratou `0,16` como ruído antes.* **Nenhuma linha de texto de mesa se moveu: o que estava errado era a conta, e não o desenho.**
 >

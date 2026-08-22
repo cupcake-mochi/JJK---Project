@@ -8,6 +8,61 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.119] — 21/08/2026
+
+**A versão que mediu o repreço do catálogo e decidiu não aplicar — e o escopo era um oitavo do que estava registrado.**
+
+### Medido — sete entradas, e não as 89 da peça 17
+
+*A v0.117 mudou três constantes de preço quando a base de acerto mudou, e a v0.118 registrou o escopo como "as 89 entradas".* **Medido, são sete.**
+
+| entrada | antes | depois |
+|---|---|---|
+| `Punho` nv2 `Engate` · nv27 segundo soco | 1,70 | 1,81 |
+| `Punho` nv11 `Derrubado` | 0,56 | **0,46** |
+| `Punho` nv27 vantagem | 0,28 | 0,34 |
+| `Estocada` nv27 `Ferrão` | 1,33 | **1,61** |
+| `Brasa` — vantagem no Classe 0 | 1,12 | 1,19 |
+| Manha `Encaixe` | 1,00 | 1,06 |
+
+**Nos totais: `Punho` `4,94` → `5,12`, `Estocada` `5,02` → `5,30`.** *O `Punho` cruza o orçamento de `5,00`, e a `Estocada` vira a segunda maior do catálogo depois da `Brasa`.*
+
+**O `Derrubado` é o único que DESCE.** *A falha de Teste de Resistência caiu de `45%` para `35%` contra o alvo treinado, e essa queda é maior que a subida do acerto.*
+
+> ***O alvo escolhido é o TREINADO, e a escolha é do arredondamento da peça 1 §5.4*** — *"o que você ganha desce"*. **É a mesma escolha de caso difícil que o acerto já usa.**
+
+### O que encolheu o escopo: separar as taxas que SÃO o acerto das que só parecem
+
+**A varredura achou `19` ocorrências de `75%` e `23` de `50%` nos três `DESENHO`.** *Quase nenhuma é a taxa de acerto.*
+
+| a taxa | o que ela mede de verdade | se move? |
+|---|---|---|
+| `75%` do `Revide` | a chance de **um ataque inimigo** te alcançar — economia de ação do chefe | **não** |
+| `50%` do `Talho` e do `Palmo` | a chance de o alvo **já ter levado dano seu** — taxa de cenário | **não** |
+| `60/28/44%` das outras Manhas | gatilho próprio de cada uma | **não** |
+| `75%` do `Engate`, do `Encaixe` e do `Punho` | **acertar com dois ataques** | **sim** |
+| `50%` duplo do `Ferrão` | **o feitiço acertou, e o golpe acertou** | **sim** |
+
+***Decisão do Mizuki: medir e não aplicar.*** *As três Trilhas continuam dentro da banda que o projeto já aceita — a `Brasa` está entre `7,06` e `9,42` desde a v0.81.* **Os números publicados ficam como estão, e a conta fica registrada nos três donos:** *a peça 19 §2.2, o `DESENHO-trilhas.md` no ponto do `Punho`, e o `ESTADO-ATUAL`.*
+
+> **E fica uma pergunta que esta versão não responde.** *A fatia (`5,08`) foi calibrada contra dano evitado e não se move.* **Mas o ORÇAMENTO de `5` fatias por Trilha foi fixado como fração do que o personagem faz, e o que ele faz subiu com o acerto novo.** *Se o orçamento subir junto, os três estouros somem sozinhos* — e mexer nele reabre a v0.73 inteira.
+
+### Achado — a troca do fixo do acerto saiu do Caminho e nunca chegou em Trilha nenhuma
+
+*O `DESENHO-caminhos.md` registra, no Emanador: **"a troca do fixo do acerto por atributo saiu daqui e vai para uma Trilha, por decisão sua"**.* **Ela não chegou.** *Nenhuma das quinze recebeu — a `Empunhadura` do `Arremate` e o `Compasso` da `Estocada` trocam o atributo da **arma**, que é outra coisa.*
+
+**E a v0.117 tornou a pergunta muda:** *o ataque de conjuração passou a ser `d20 + atributo da técnica + maestria`, então toda ficha declara um atributo de técnica na criação.* **O que ia virar entrega de Trilha virou linha de base para todo mundo.**
+
+> *Fica registrado porque decisão que sai de um lugar e não chega em outro some sem deixar rastro.* **Esta ficou dezenove versões no ar, e quem a achou foi o Mizuki perguntando se a Trilha do Emanador não precisava mudar.**
+
+### Corrigido — dois parágrafos duplicados no `ESTADO-ATUAL`
+
+*O bloco do repreço aparecia **duas vezes**, nas linhas 7 e 88, com quatro parágrafos longos idênticos.* **Duplicata que a v0.118 criou ao inserir o resumo do topo.** *É a lição nº 9 dentro do documento que é lido no começo de toda conversa — e as duas cópias já teriam divergido na primeira vez que alguém editasse uma.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **Com o repreço fechado, não sobra dívida de número aberta.** *A próxima peça é a **Técnica Marcial**, que destrava três das nove rotas de Origem e dá o motor de dano da rota sem energia — e sem ela as doze Bênçãos ficam com nome, gate e Classe Passiva, mas sem texto.*
+
+---
+
 ## [0.118] — 21/08/2026
 
 **A versão das Bênçãos como CONTRAPARTE — e ela existe porque o Mizuki leu o que a v0.116 escreveu e disse que o ponto era outro.**

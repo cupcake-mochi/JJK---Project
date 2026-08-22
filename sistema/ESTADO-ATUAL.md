@@ -1,21 +1,27 @@
 # Estado atual do projeto
 
-Atualizado em 21/08/2026, na v0.118 (última peça fechada: **Dano e condições**, ampliada na v0.104 com a penalidade de arma; antes dela, a **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 21/08/2026, na v0.119 (última peça fechada: **Dano e condições**, ampliada na v0.104 com a penalidade de arma; antes dela, a **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.118.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezenove peças escritas** e **dezenove validadores**.
+**Versão v0.119.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **dezenove peças escritas** e **dezenove validadores**.
 
-> **⚠⚠ E a v0.117 deixa UM encadeamento aberto, achado na revisão cética dela: o repreço do catálogo.** *Três constantes de preço saíam da taxa de acerto que a peça 1 §6 publicava, e as três se moveram:*
+> **✔ O repreço do catálogo FECHOU na v0.119, e ele era menor do que parecia.** *A v0.117 mudou três constantes de preço, e a v0.118 registrou o escopo como "as 89 entradas da peça 17".* **Medido: são SETE entradas.**
 >
-> | constante | era | virou | quem usa |
-> |---|---|---|---|
-> | acertar, um ataque | `50%` | **`55%`** | todo degrau gateado em *"quando você acerta"* |
-> | acertar com dois ataques | `75%` | **`79,75%`** | `1 − (1 − p)²`, e a fatia mede no nível 30 |
-> | o alvo falhar o Teste de Resistência | `45%` | **`35%`** treinado · **`40%` a `55%`** sem treino | todo degrau gateado em TR |
-> | a vantagem | `+25pp` | `+24,75pp` | — **não move nada** |
+> | entrada | antes | depois |
+> |---|---|---|
+> | `Punho` nv2 `Engate` · nv27 segundo soco | 1,70 | 1,81 |
+> | `Punho` nv11 `Derrubado` | 0,56 | **0,46** |
+> | `Punho` nv27 vantagem | 0,28 | 0,34 |
+> | `Estocada` nv27 `Ferrão` | 1,33 | **1,61** |
+> | `Brasa` — vantagem no Classe 0 | 1,12 | 1,19 |
+> | Manha `Encaixe` | 1,00 | 1,06 |
 >
-> **O tamanho: `+10%` num degrau gateado em acerto simples, `+6,3%` em dois ataques, e `−22%` ou `+22%` num gateado em TR, conforme o modelo de alvo.** *No exemplar medido — o `Derrubado` do nível 11 do `Punho` — a Trilha fica entre `4,82` e `5,07` de `5,00`, contra os `4,94` publicados.* **Cabe na banda, e é por isso que não é urgente; mas o número parou de ser derivado, e isso é o que a lição nº 8 existe para pegar.**
+> **O `Derrubado` é o único que DESCE** — a falha de Teste de Resistência caiu de `45%` para `35%` contra o alvo treinado, e essa queda é maior que a subida do acerto. *Nos totais: `Punho` `4,94` → `5,12`, `Estocada` `5,02` → `5,30`.*
 >
-> **Não foi consertado na v0.117 de propósito:** *são as 89 entradas da peça 17, e repreçar uma só produz um catálogo com dois modelos dentro.* **A fatia NÃO se move** — ela sai de dano evitado, `1` pra `1`, e não da taxa de acerto —, então o repreço é dos degraus e não da régua. ***E a decisão que ele precisa antes de começar: contra qual alvo um degrau gateado em TR se preça — o que treinou aquele TR ou o que não treinou.*** *O arredondamento do projeto — "o que você ganha desce" — aponta para o treinado, que é `35%`.*
+> **O que encolheu o escopo foi separar as taxas que SÃO o acerto das que só parecem.** *O `75%` do `Revide` é a chance de um ataque inimigo te alcançar — economia de ação do chefe. O `50%` do `Talho` e do `Palmo` é taxa de cenário. Os `60/28/44%` das outras Manhas são gatilhos próprios.* **Nenhum deles se move.**
+>
+> ***Decisão do Mizuki: medir e NÃO aplicar.*** *As três Trilhas continuam dentro da banda que o projeto já aceita — a `Brasa` está entre `7,06` e `9,42` e ninguém reclamou.* **A conta fica no `CHANGELOG` da v0.119; os números publicados ficam como estão.**
+>
+> **E fica uma pergunta que a v0.119 não responde:** *a fatia (`5,08`) foi calibrada contra dano evitado e não se move; mas o **orçamento** de `5` fatias por Trilha foi fixado como fração do que o personagem faz, e o que ele faz subiu com o acerto novo.* **Se o orçamento subir junto, os três estouros somem sozinhos** — e mexer nele reabre a v0.73 inteira.
 
 **A v0.118 escreveu as Bênçãos como CONTRAPARTE, e o Mizuki corrigiu o que a v0.116 tinha entendido errado.** *Aquela versão delegou as duas vagas gratuitas inteiras para fora do catálogo — proteção para o uniforme, o resto para a ferramenta — e concluiu "doze entradas, nenhuma gratuita".* **O ponto nunca foi espelhar nem delegar: era ser a contraparte, com o mesmo peso e o mesmo lugar na ficha.**
 
@@ -85,18 +91,6 @@ Atualizado em 21/08/2026, na v0.118 (última peça fechada: **Dano e condições
 
 > **⚠ Declarado e mandado para o playtest: Constituição é a escolha ótima de técnica de quem só conjura.** *Todo Caminho tem um atributo que já faz dois trabalhos, mas o segundo trabalho da Constituição vale para todo mundo.* **Não quebra número — o acerto continua em `55%` —, mas apaga a cor da escolha.**
 
-> **⚠⚠ E a v0.117 deixa UM encadeamento aberto, achado na revisão cética dela: o repreço do catálogo.** *Três constantes de preço saíam da taxa de acerto que a peça 1 §6 publicava, e as três se moveram:*
->
-> | constante | era | virou | quem usa |
-> |---|---|---|---|
-> | acertar, um ataque | `50%` | **`55%`** | todo degrau gateado em *"quando você acerta"* |
-> | acertar com dois ataques | `75%` | **`79,75%`** | `1 − (1 − p)²`, e a fatia mede no nível 30 |
-> | o alvo falhar o Teste de Resistência | `45%` | **`35%`** treinado · **`40%` a `55%`** sem treino | todo degrau gateado em TR |
-> | a vantagem | `+25pp` | `+24,75pp` | — **não move nada** |
->
-> **O tamanho: `+10%` num degrau gateado em acerto simples, `+6,3%` em dois ataques, e `−22%` ou `+22%` num gateado em TR, conforme o modelo de alvo.** *No exemplar medido — o `Derrubado` do nível 11 do `Punho` — a Trilha fica entre `4,82` e `5,07` de `5,00`, contra os `4,94` publicados.* **Cabe na banda, e é por isso que não é urgente; mas o número parou de ser derivado, e isso é o que a lição nº 8 existe para pegar.**
->
-> **Não foi consertado na v0.117 de propósito:** *são as 89 entradas da peça 17, e repreçar uma só produz um catálogo com dois modelos dentro.* **A fatia NÃO se move** — ela sai de dano evitado, `1` pra `1`, e não da taxa de acerto —, então o repreço é dos degraus e não da régua. ***E a decisão que ele precisa antes de começar: contra qual alvo um degrau gateado em TR se preça — o que treinou aquele TR ou o que não treinou.*** *O arredondamento do projeto — "o que você ganha desce" — aponta para o treinado, que é `35%`.*
 
 **A v0.116 fechou as três pendências que a v0.115 levantou, e as três fecharam por medida em vez de por decisão.** *O gate Origem × Caminho não era gate; o catálogo das Bênçãos não podia espelhar; e a regra de Pactos já tinha três quartos escritos, no manual.*
 
