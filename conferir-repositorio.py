@@ -1203,6 +1203,261 @@ print('  O DONO AQUI E O CODIGO, e e a unica checagem do projeto em que ele e.')
 print('  Uma checagem = um bloco numerado. Sub-bloco conta para o bloco pai.')
 
 
+
+# --------------------------------------------------------------------------
+bloco('10. O LIVRO CONTRA AS PECAS — o conteudo, e nao o recorte')
+
+# A checagem 7 pergunta "o RECORTE da entrega esta atualizado?" e responde por
+# md5. Esta pergunta outra coisa: "o CONTEUDO do livro bate com as pecas?".
+#
+# Ate a v0.124 ninguem fazia a segunda, e o livro passou CINCO versoes atras da
+# fonte sem nenhum validador acusar: sem as catorze Bencaos, sem a Tecnica
+# Marcial, com `Energia pelo corpo` num ramo que a peca 9 ja tinha renomeado, e
+# com a formula de Teste de Resistencia que a v0.117 aposentou impressa em tres
+# lugares. E' a mesma forma do achado da v0.121 — duas perguntas parecidas, uma
+# so' com checagem — por outra porta.
+#
+# Nada de valor de regra mora aqui. Os termos saem do conferir-nomes.py, os
+# Legados da peca 13, a ordem dos capitulos do build.py e os titulos de peca dos
+# proprios arquivos. O que esta escrito aqui e' TETO de divida, e ele so' desce.
+
+import ast as _ast
+import unicodedata as _ud
+
+_LIVRO = os.path.join(RAIZ, 'sistema', '05-material', 'livro')
+_LIVRO_MD = os.path.join(_LIVRO, 'manual')
+
+
+def _sa(s):
+    """sem acento e em minuscula, para comparar termo contra prosa"""
+    return ''.join(c for c in _ud.normalize('NFKD', s)
+                   if not _ud.combining(c)).lower()
+
+
+def _lista_py(caminho, nome):
+    """Le uma lista de literais de um .py SEM executar o arquivo.
+
+    Importar o conferir-nomes.py rodaria as cinco checagens dele no meio desta
+    saida; o ast le a atribuicao e mais nada.
+    """
+    try:
+        arvore = _ast.parse(open(caminho, encoding='utf-8').read())
+    except (OSError, SyntaxError):
+        return None
+    for no in arvore.body:
+        if not isinstance(no, _ast.Assign):
+            continue
+        for alvo in no.targets:
+            if getattr(alvo, 'id', None) != nome:
+                continue
+            try:
+                return list(_ast.literal_eval(no.value))
+            except ValueError:
+                return None
+    return None
+
+
+def _capitulos_de(caminho, nome):
+    """So' os nomes de arquivo de uma das tres listas de capitulo."""
+    bruto = _lista_py(caminho, nome)
+    if bruto is None:
+        return None
+    return [i[0] if isinstance(i, (tuple, list)) else i for i in bruto]
+
+
+if not os.path.isdir(_LIVRO_MD):
+    PULADAS.append('10: sistema/05-material/livro/manual nao existe — NADA da '
+                   'checagem 10 rodou')
+    print('  ~~ PULADA. o livro nao esta nesta arvore.')
+    print('     NADA da checagem 10 rodou.')
+else:
+    _ARQ_LIVRO = sorted(f for f in os.listdir(_LIVRO_MD) if f.endswith('.md'))
+    _TXT_LIVRO = {f: open(os.path.join(_LIVRO_MD, f), encoding='utf-8').read()
+                  for f in _ARQ_LIVRO}
+    _TUDO10 = _sa('\n'.join(_TXT_LIVRO.values()))
+
+    # -- 10.1: as TRES listas de capitulo tem de bater. ---------------------
+    # Licao no 9 na forma mais crua: build.py, build_docx.py e conferir-voz.py
+    # carregam a ordem dos capitulos cada um por conta, e nenhum validador
+    # comparava as tres. Capitulo novo entra em uma e some das outras duas.
+    _B_PY = os.path.join(_LIVRO, 'build', 'build.py')
+    _B_DOCX = os.path.join(_LIVRO, 'build', 'build_docx.py')
+    _VOZ = os.path.join(_LIVRO, 'conferir-voz.py')
+
+    _CHAPTERS = _lista_py(_B_PY, 'CHAPTERS')
+    _CAP_BUILD = _capitulos_de(_B_PY, 'CHAPTERS')
+    _FRENTE = _capitulos_de(_B_PY, 'FRONT')
+    _CAP_DOCX = _capitulos_de(_B_DOCX, 'CHAPTERS')
+    _CAP_VOZ = _capitulos_de(_VOZ, 'CAPITULOS')
+
+    if None in (_CHAPTERS, _CAP_BUILD, _FRENTE, _CAP_DOCX, _CAP_VOZ):
+        erro('10.1: nao consegui ler a lista de capitulos de um dos tres arquivos '
+             '(build.py, build_docx.py, conferir-voz.py) — o extrator quebrou, e as '
+             'sub-checagens 10.1 a 10.3 pararam de conferir')
+        _CHAPTERS, _CAP_BUILD, _FRENTE = _CHAPTERS or [], _CAP_BUILD or [], _FRENTE or []
+    else:
+        if _CAP_VOZ != _CAP_BUILD:
+            erro('10.1: o conferir-voz.py numera os capitulos em outra ordem que o '
+                 f'build.py.\n       build.py:     {_CAP_BUILD}\n       '
+                 f'conferir-voz: {_CAP_VOZ}')
+        _ESP_DOCX = list(_FRENTE) + list(_CAP_BUILD)
+        if _CAP_DOCX != _ESP_DOCX:
+            _so_d = [c for c in _CAP_DOCX if c not in _ESP_DOCX]
+            _so_b = [c for c in _ESP_DOCX if c not in _CAP_DOCX]
+            erro('10.1: o build_docx.py nao carrega os mesmos capitulos que o build.py '
+                 '(frente + corpo, na ordem).'
+                 + (f' So no docx: {_so_d}.' if _so_d else '')
+                 + (f' Faltando no docx: {_so_b}.' if _so_b else '')
+                 + (' A ordem difere.' if not _so_d and not _so_b else ''))
+        else:
+            print(f'  [x] as tres listas de capitulo batem — {len(_CAP_BUILD)} '
+                  f'numerados e {len(_FRENTE)} de frente, nos tres arquivos')
+
+    # -- 10.2: nenhum .md do livro fica de fora, e nenhuma lista aponta para
+    #          arquivo que nao existe. --------------------------------------
+    _DECL = set(_CAP_BUILD) | set(_FRENTE)
+    _orfaos = sorted(set(_ARQ_LIVRO) - _DECL)
+    _fantasmas = sorted(_DECL - set(_ARQ_LIVRO))
+    if _orfaos:
+        erro(f'10.2: {len(_orfaos)} arquivo(s) em livro/manual/ que capitulo nenhum '
+             'carrega — eles nao entram no PDF: ' + ', '.join(_orfaos))
+    if _fantasmas:
+        erro('10.2: o build aponta para arquivo que nao existe: ' + ', '.join(_fantasmas))
+    if not _orfaos and not _fantasmas:
+        print(f'  [x] os {len(_ARQ_LIVRO)} arquivos de livro/manual/ estao todos '
+              'declarados, e todo declarado existe')
+
+    # -- 10.3: referencia cruzada por numero. -------------------------------
+    # O livro aponta capitulo por NUMERO, e o numero desloca quando um capitulo
+    # entra no meio. Onde a referencia carrega o titulo junto, da' para conferir
+    # as duas metades uma contra a outra.
+    _NUM_CAP = {}
+    for _i10, _item in enumerate(_CHAPTERS, 1):
+        _NUM_CAP[_sa(_item[1])] = _i10
+    _RX_REF10 = re.compile(r'cap[ií]tulos?\s+(\d+),\s*(?:\*|__)([^*_\n]+)(?:\*|__)')
+    _refs10 = _ruins10 = 0
+    for _f10 in _ARQ_LIVRO:
+        for _i10, _l10 in enumerate(_TXT_LIVRO[_f10].split('\n'), 1):
+            for _m10 in _RX_REF10.finditer(_l10):
+                _n10, _t10 = int(_m10.group(1)), _sa(_m10.group(2).strip())
+                if _t10 not in _NUM_CAP:
+                    continue          # aponta para SECAO, e nao para capitulo
+                _refs10 += 1
+                if _NUM_CAP[_t10] != _n10:
+                    _ruins10 += 1
+                    erro(f'10.3: {_f10}:{_i10} diz "capitulo {_n10}, '
+                         f'{_m10.group(2).strip()}" e aquele capitulo e o {_NUM_CAP[_t10]}')
+    _PISO10 = 40
+    if _refs10 < _PISO10:
+        erro(f'10.3: so achei {_refs10} referencia(s) cruzada(s) com titulo e o piso e '
+             f'{_PISO10} — a forma como o livro aponta capitulo mudou, e esta '
+             'sub-checagem parou de conferir')
+    elif not _ruins10:
+        print(f'  [x] as {_refs10} referencias `capitulo N, Titulo` apontam para o '
+              'capitulo certo')
+
+    # -- 10.4: vocabulario batizado que o livro nao publica. ----------------
+    # A lista sai do SISTEMA do conferir-nomes.py, que e' quem protege nome
+    # batizado de ser rebatizado. Um termo que so' aparece em linha de citacao
+    # (`>`) nas pecas e' HISTORIA — convencao da v0.81 —, e o livro nao tem de
+    # publicar termo morto: o `Golpe canalizado` morreu na v0.81 e continua na
+    # lista justamente para ninguem reusar o nome.
+    _SIS10 = _lista_py(os.path.join(MEC, 'conferir-nomes.py'), 'SISTEMA')
+    if not _SIS10:
+        PULADAS.append('10.4: nao consegui ler o SISTEMA do conferir-nomes.py — o '
+                       'vocabulario batizado nao foi conferido contra o livro')
+        print('  ~~ PULADA. 10.4 nao leu o SISTEMA do conferir-nomes.py.')
+    else:
+        _vivos10 = set()
+        for _p10 in sorted(f for f in os.listdir(MEC) if re.match(r'^\d\d-.*\.md$', f)):
+            for _l10 in open(os.path.join(MEC, _p10), encoding='utf-8'):
+                if _l10.lstrip().startswith('>'):
+                    continue
+                _sl10 = _sa(_l10)
+                for _t10 in _SIS10:
+                    if _sa(_t10) in _sl10:
+                        _vivos10.add(_t10)
+        _fora10 = sorted(t for t in _vivos10 if _sa(t) not in _TUDO10)
+        # TETO de divida, e nao inventario: ele nao exige que o buraco feche de
+        # uma vez, exige que ele NAO CRESCA. Mesma forma do teto do conferir-voz.
+        _TETO10 = 0
+        if len(_fora10) > _TETO10:
+            erro(f'10.4: {len(_fora10)} termo(s) batizado(s) e vivo(s) nas pecas que o '
+                 f'livro nao publica (teto {_TETO10}): ' + ', '.join(_fora10)
+                 + ' — o livro esta atras da fonte')
+        else:
+            print(f'  [x] os {len(_vivos10)} termos de sistema vivos nas pecas '
+                  'aparecem no livro')
+
+    # -- 10.5: o catalogo de Legados, peca 13 contra o capitulo de Origens. --
+    # A peca escreve `> **Nome** — ...` e lista o mesmo nome numa tabela; a
+    # intersecao das duas coisas descarta negrito de prosa. O livro tem de ter
+    # todos. Foi por aqui que os cinco Desliga escritos na v0.104 ficaram vinte
+    # versoes na peca e ausentes do livro.
+    _P13 = os.path.join(MEC, '13-legados.md')
+    _CAP_ORIG = os.path.join(_LIVRO_MD, '25-origens.md')
+    if not os.path.exists(_P13) or not os.path.exists(_CAP_ORIG):
+        PULADAS.append('10.5: peca 13 ou capitulo de Origens do livro nao encontrado')
+        print('  ~~ PULADA. 10.5 nao achou a peca 13 ou o 25-origens.md.')
+    else:
+        _RX_DEF10 = re.compile(r'^>\s*\*\*([^*\n]+?)\*\*\s*[—–-]', re.M)
+        _RX_TAB10 = re.compile(r'^\|\s*\*?\*?([^*|\n]+?)\*?\*?\s*\|', re.M)
+        _t13 = open(_P13, encoding='utf-8').read()
+        _legados = ({m.group(1).strip() for m in _RX_DEF10.finditer(_t13)}
+                    & {m.group(1).strip() for m in _RX_TAB10.finditer(_t13)})
+        _defsliv = {m.group(1).strip() for m in
+                    _RX_DEF10.finditer(open(_CAP_ORIG, encoding='utf-8').read())}
+        _PISO_LEG = 60
+        if len(_legados) < _PISO_LEG:
+            erro(f'10.5: so extrai {len(_legados)} Legado(s) da peca 13 e o piso e '
+                 f'{_PISO_LEG} — o extrator quebrou e esta sub-checagem parou de conferir')
+        else:
+            _faltam10 = sorted(l for l in _legados if l not in _defsliv)
+            if _faltam10:
+                erro(f'10.5: {len(_faltam10)} Legado(s) escrito(s) na peca 13 que o '
+                     'capitulo de Origens do livro nao publica: ' + ', '.join(_faltam10))
+            else:
+                print(f'  [x] os {len(_legados)} Legados escritos na peca 13 estao '
+                      'todos no livro')
+
+    # -- 10.6: pendencia morta DENTRO do livro. -----------------------------
+    # E' a checagem 8 apontada para o outro lado: la ela pergunta se uma peca
+    # pede coisa que ja existe; aqui, se o LIVRO diz que uma peca esta sendo
+    # escrita quando ela ja esta na pasta. O livro dizia isso da Tecnica Marcial
+    # em oito linhas, duas versoes depois de a peca 20 fechar.
+    _RX_GAP10 = re.compile(r'est[áa] sendo escrit|em desenvolvimento|'
+                           r'ainda n[ãa]o fecha|falta a pe[çc]a', re.I)
+    _titulos10 = {}
+    for _p10 in sorted(f for f in os.listdir(MEC) if re.match(r'^\d\d-.*\.md$', f)):
+        with open(os.path.join(MEC, _p10), encoding='utf-8') as _fh:
+            _h1 = _fh.readline().lstrip('# ').strip()
+        _h1 = re.sub(r'^\d+\s*[—·\-]\s*', '', _h1)
+        _h1 = re.split(r'\s+[—–]\s+', _h1)[0].strip()
+        # Titulo de uma palavra so' e' generico demais: `ORIGENS` casaria com
+        # qualquer frase que fale de Origem numa linha de pendencia legitima.
+        if len(_h1.split()) >= 2:
+            _titulos10[_h1] = _p10
+    _mortas10 = []
+    for _f10 in _ARQ_LIVRO:
+        for _i10, _l10 in enumerate(_TXT_LIVRO[_f10].split('\n'), 1):
+            if not _RX_GAP10.search(_l10):
+                continue
+            _sl10 = _sa(_l10)
+            for _t10, _p10 in _titulos10.items():
+                if _sa(_t10) in _sl10:
+                    _mortas10.append((_f10, _i10, _t10, _p10))
+    if _mortas10:
+        for _f10, _i10, _t10, _p10 in _mortas10:
+            erro(f'10.6: {_f10}:{_i10} anuncia "{_t10}" como pendente, e ela e a peca '
+                 f'{_p10}')
+    else:
+        print(f'  [x] nenhuma linha do livro anuncia como pendente uma das '
+              f'{len(_titulos10)} pecas que existem')
+
+    print()
+    print('  A checagem 7 pergunta se o RECORTE esta atualizado; esta pergunta se o')
+    print('  CONTEUDO esta. Sao perguntas diferentes, e ate a v0.124 so uma tinha dono.')
+
 # --------------------------------------------------------------------------
 print()
 print('=' * 88)

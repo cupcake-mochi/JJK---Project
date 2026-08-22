@@ -90,7 +90,7 @@ Revestimento é placa, acolchoamento e peso, montado para aguentar o golpe de fr
 
 > **Traje e Revestimento desligam a sua proteção passiva de energia amaldiçoada.** Vestido, a sua proteção é a do uniforme, e só ela. Escudo soma por cima, sempre.
 
-A Reação de cobrir-se continua disponível de uniforme. Ninguém tira o colete no meio do golpe. Ela é a aptidão `Cobrir-se de energia`, e o preço dela está no capítulo 10, *Aptidões e Refino*.
+A Reação de cobrir-se continua disponível de uniforme. Ninguém tira o colete no meio do golpe. Ela é a aptidão `Cobrir-se de energia`, e o preço dela está no capítulo 11, *Aptidões e Refino*.
 
 ## Escudo
 
@@ -129,7 +129,7 @@ De Revestimento a sua Destreza já não conta na Defesa, então o teto do escudo
 
 São 52, divididas em treze categorias. A categoria diz o que a coisa é, de onde vem o dano dela e em qual lista de treino ela cai.
 
-Nenhuma arma deste catálogo fere maldição sozinha. Contra maldição, o que resolve é energia amaldiçoada no golpe ou uma ferramenta amaldiçoada na mão, que é uma arma daqui mais um `Estigma`, no capítulo 12, *Ferramenta Amaldiçoada*. O catálogo abaixo continua valendo inteiro contra gente, contra bicho e contra parede.
+Nenhuma arma deste catálogo fere maldição sozinha. Contra maldição, o que resolve é energia amaldiçoada no golpe ou uma ferramenta amaldiçoada na mão, que é uma arma daqui mais um `Estigma`, no capítulo 14, *Ferramenta Amaldiçoada*. O catálogo abaixo continua valendo inteiro contra gente, contra bicho e contra parede.
 
 ### Como ler uma arma
 
@@ -166,7 +166,7 @@ São doze. Propriedade é o que a arma é: ela já está impressa na linha do ca
 | `Vestida` | Não ocupa a mão |
 | `Talha` | A arma é ruim de aparar: **−1** no `Bloquear` de quem se defende |
 
-> **`Talha` é a única das doze ligada ao `Bloquear`**, a rolagem de `2d10` que a sua mesa pode usar no lugar da Defesa estática — o capítulo 15 explica a escolha. Onde a mesa usa a Defesa estática, as nove armas com `Talha` seguem valendo por tudo o mais que elas são: dado, alcance, o resto das propriedades. Só esse `−1` específico não tem onde entrar.
+> **`Talha` é a única das doze ligada ao `Bloquear`**, a rolagem de `2d10` que a sua mesa pode usar no lugar da Defesa estática — o capítulo 17 explica a escolha. Onde a mesa usa a Defesa estática, as nove armas com `Talha` seguem valendo por tudo o mais que elas são: dado, alcance, o resto das propriedades. Só esse `−1` específico não tem onde entrar.
 
 Três delas decidem cena fora de combate com frequência. `Oculta` é a que deixa você entrar armado numa reunião, num velório ou numa portaria com detector. `Rompe` é a que abre cadeado, grade, alçapão e tampa de bueiro sem esperar ninguém. `Vestida` é a que responde quando alguém manda você largar tudo o que está na mão.
 
@@ -264,7 +264,11 @@ Um Caminho conjurador não pega espadão de graça: ele precisa da Trilha que co
 
 As duas listas chegam ao mesmo teto de dado, na uma mão e nas duas. O que muda entre elas é o tipo de arma. O lado marcial fica com o alcance, e o simples fica com a ocultação e com o `Par`.
 
-> **Sem treino, você não empunha.** Hoje isso é proibição pura. A regra de penalidade para quem pega assim mesmo está sendo escrita.
+> **Sem treino, você tem desvantagem na rolagem de ataque com aquela arma.**
+>
+> **Sem o requisito de Força dela, o seu deslocamento cai 3 metros enquanto você a estiver empunhando.**
+
+As duas se somam, e somadas elas fecham a porta na prática: quem pega uma arma que não é sua rola pior e anda menos. Não é proibição escrita, e o resultado é quase o mesmo.
 
 ## Requisito de Força
 

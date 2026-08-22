@@ -98,7 +98,7 @@ Inteligência não concede perícias extras. O que você é treinado vem da Orig
 |---|---|---|---|---|
 | maestria | 1 | 2 | 3 | 4 |
 
-Maestria é o bônus que mede o tempo de estrada do personagem. Ela entra em três lugares: no ataque de conjuração, na CD dos seus feitiços e nas perícias em que você é treinado. Por exemplo, no nível 6 a sua maestria é 1, e no nível 10 ela vira 2. Ela fica fora da Defesa e fora de Teste de Resistência, que são os dois números que o sistema deixa crescer só por atributo e equipamento.
+Maestria é o bônus que mede o tempo de estrada do personagem. Ela entra em toda rolagem de ataque, na CD dos seus feitiços, e no que você treinou: perícia, ofício e Teste de Resistência. Por exemplo, no nível 6 a sua maestria é 1, e no nível 10 ela vira 2. Ela fica fora da Defesa, que é o único número que o sistema deixa crescer só por atributo e equipamento.
 
 A ficha começa no **nível 2**, já com um feitiço. O nível 1 fica como opção de campanha, para quando a mesa quiser jogar o personagem de antes de ele ser feiticeiro.
 
@@ -157,7 +157,7 @@ Estar atrás de alguma coisa sobe a sua Defesa, e a cobertura Total tira você d
 
 Um **Teste de Resistência** é o que você rola quando alguma coisa acontece com você e você tenta segurar a barra. O ataque parte do outro lado; a rolagem é sua. São quatro.
 
-> **Teste de Resistência = d20 + atributo do TR, mais 2 se você for treinado nele.**
+> **Teste de Resistência = d20 + atributo do TR + maestria, e a maestria só entra se você for treinado nele.**
 
 **Testes de Resistência**
 {: .tab-titulo }

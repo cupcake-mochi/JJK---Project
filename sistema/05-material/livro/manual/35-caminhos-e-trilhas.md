@@ -51,7 +51,7 @@ E duas coisas que quase todo degrau daqui menciona:
 
 ### Treino de arma
 
-**O seu Caminho decide quais armas você pode empunhar.** Treino mora na categoria: treinar uma categoria libera todas as armas dela, e o catálogo inteiro está no capítulo 11, *Equipamento*.
+**O seu Caminho decide quais armas você pode empunhar.** Treino mora na categoria: treinar uma categoria libera todas as armas dela, e o catálogo inteiro está no capítulo 13, *Equipamento*.
 
 > **Os dois Caminhos de corpo a corpo — Bastião e Vanguarda — treinam as treze categorias.** Qualquer arma do catálogo é deles.
 >
@@ -59,7 +59,7 @@ E duas coisas que quase todo degrau daqui menciona:
 
 **Para um conjurador empunhar o resto, a porta é a Trilha.** É o que faz a `Empunhadura` do `Arremate`, no nível 2: ela concede um grupo de arma à sua escolha e ainda troca Força por Inteligência ou Essência naquele grupo. Um Emanador de espadão existe, e paga por isso com a escolha de Trilha.
 
-> **Sem treino, você não empunha.** A regra de penalidade para quem pega assim mesmo está sendo escrita.
+> **Sem treino, você tem desvantagem na rolagem de ataque com aquela arma**, e sem o requisito de Força dela o seu deslocamento cai 3 metros enquanto você a estiver empunhando. O capítulo 13, *Equipamento*, tem as duas.
 
 ### Limites
 
@@ -321,7 +321,7 @@ Arco longo, treino de clã, silêncio. A rota do `Yumi` troca cadência por prec
 
 A besta é ferramenta de quem trabalha sozinho e não tem tempo de recarregar. Essa rota resolve a manivela de uma vez e usa o impacto do virote para tirar o inimigo do lugar, o que faz dela a única das três que também administra posicionamento.
 
-> **Nível 2: `Manivela`.** As suas bestas **deixam de carregar `Munição`** — a propriedade de arma do capítulo 11, *Equipamento* —, você nunca recarrega.
+> **Nível 2: `Manivela`.** As suas bestas **deixam de carregar `Munição`** — a propriedade de arma do capítulo 13, *Equipamento* —, você nunca recarrega.
 >
 > **Nível 11: `Mirar`.** Você ganha a ação **`Mirar`**, e os seus ataques com arma de longo alcance somam **`+2` no acerto**.
 >
@@ -378,7 +378,7 @@ Enquanto o `Batedor` administra o campo e a `Estocada` administra a rodada, o `E
 
 > **Todo estilo pede alguma coisa, e o pedido é regra.** Um estilo sem porta ficaria disponível para toda ficha, e aí ninguém escolheria os outros.
 
-O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 11, *Equipamento*.
+O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 13, *Equipamento*.
 
 ## Guia
 
@@ -651,7 +651,7 @@ Atributos naturais: **Inteligência** e **Essência**. O Evocador troca dano pes
 >
 > Vale saber o tamanho disso antes de escolher este Caminho. A Trilha é a maior fatia do que um personagem faz, e hoje o Evocador joga com os quatro degraus de Caminho, que estão prontos. Se a sua mesa quiser um Evocador agora, combine com o mestre o que ocupa essas quatro casas até elas saírem.
 
-**O que cada Trilha concede** é o corpo que você põe em campo. O resto da ficha da invocação você monta com o orçamento do capítulo 13, *Invocações*, por cima do que está na tabela.
+**O que cada Trilha concede** é o corpo que você põe em campo. O resto da ficha da invocação você monta com o orçamento do capítulo 15, *Invocações*, por cima do que está na tabela.
 
 **Trilhas do Evocador**
 {: .tab-titulo }
@@ -662,7 +662,7 @@ Atributos naturais: **Inteligência** e **Essência**. O Evocador troca dano pes
 | `Matilha` | os cinco corpos | o da ficha | `5 × h`, em pool com cascata |
 | `Coro` | atacar e comandar na mesma rodada | o da ficha | `h` |
 
-*`h` é a vida de uma invocação pela fórmula do capítulo 13, __Invocações__, que já conta o tipo dela e o seu nível.*
+*`h` é a vida de uma invocação pela fórmula do capítulo 15, __Invocações__, que já conta o tipo dela e o seu nível.*
 
 #### Servo
 
@@ -676,4 +676,4 @@ Atributos naturais: **Inteligência** e **Essência**. O Evocador troca dano pes
 
 *Você e a invocação lutam juntos.* A fantasia é a da dupla que treinou junto: você entra na luta com o corpo, e os dois se cobrem. O `Coro` é a exceção de economia de ação: ele **ataca e comanda na mesma rodada**. O golpe é uma **Ação Bônus**, e ele só existe se a Ação Padrão daquele turno **comandou, e a invocação atacou**. O corpo dele é o mais frágil dos três, e é o único cuja queda deixa o kit funcionando: você continua batendo.
 
-> **Você e todas as suas invocações somados entregam a mesma saída de dano que você entregaria sozinho.** Com uma invocação, cada um entrega metade. Com três, cada um entrega um quarto. **A máquina completa (orçamento por nível, `Traço`, `Comando`, a amarra, morte e retorno) está no capítulo 13, *Invocações*.**
+> **Você e todas as suas invocações somados entregam a mesma saída de dano que você entregaria sozinho.** Com uma invocação, cada um entrega metade. Com três, cada um entrega um quarto. **A máquina completa (orçamento por nível, `Traço`, `Comando`, a amarra, morte e retorno) está no capítulo 15, *Invocações*.**

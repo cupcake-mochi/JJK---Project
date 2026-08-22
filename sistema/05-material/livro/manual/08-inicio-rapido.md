@@ -10,14 +10,14 @@ abaixo.
 >
 > **Vantagem:** role dois `d20` e fique com o melhor. **Desvantagem:** fique com o pior.
 >
-> **O seu turno tem quatro coisas:** Movimento, uma Ação Padrão, uma Ação Bônus (só se
-> alguma coisa na ficha disser isso com todas as letras) e uma Reação.
+> **O seu turno tem quatro coisas:** uma Ação de Movimento, uma Ação Padrão, uma Ação Bônus
+> (só se alguma coisa na ficha disser isso com todas as letras) e uma Reação.
 >
-> **Atacar** = `d20` + Força (corpo a corpo), Destreza (à distância) ou `2` + maestria
-> (conjuração), contra a **Defesa** do alvo.
+> **Atacar** = `d20` + maestria + Força (corpo a corpo), Destreza (à distância) ou o
+> atributo da sua técnica (conjuração), contra a **Defesa** do alvo.
 >
-> **Teste de Resistência** = `d20` + o atributo daquele Teste, `+2` se você for treinado.
-> É o que **você** rola quando alguma coisa acontece com você.
+> **Teste de Resistência** = `d20` + o atributo daquele Teste, mais a maestria se você for
+> treinado nele. É o que **você** rola quando alguma coisa acontece com você.
 
 Todo termo aqui tem explicação completa no capítulo 1 e no vocabulário do sistema, logo
 atrás.

@@ -262,10 +262,13 @@ Fundamento, do jeito padrão. O passageiro mora na ficção da mesa, e a montage
 | Legado | Apaga | Relógio |
 |---|---|---|
 | Máscara | ser sentido pelo que você é | sempre |
-| *vaga reservada* | dano e condições, em desenvolvimento | — |
+| Revezamento | ficar `Impedido` | por descanso longo |
 
 > **Máscara** — quem sente a sua energia amaldiçoada sente a dele. Você não aparece como o que é. Em troca, o que essas pessoas concluem sobre você costuma ser bem pior do que a verdade. Elas agem de acordo com essa conclusão.
 > *Na mesa:* resolve infiltração e barreira de detecção, e cria a cena em que o aliado que chegou depois te ataca primeiro.
+
+> **Revezamento** — prender você prende um dos dois: uma vez por descanso longo, você não fica `Impedido`. Ele empurra, e o seu corpo vai junto porque não é só seu. Em troca, quem estava olhando viu — naquele momento não era você que se mexia. O mestre diz o que as pessoas presentes passaram a achar de você, e elas agem de acordo.
+> *Na mesa:* tira o grupo da cena em que prender você era o plano do inimigo, e cobra em reputação na cena seguinte.
 
 ## Descendente
 
@@ -362,10 +365,13 @@ Fundamento, do jeito padrão.
 | Legado | Apaga | Relógio |
 |---|---|---|
 | Coleira | ser localizado ou rastreado | sempre |
-| *vaga reservada* | ferramenta amaldiçoada, em desenvolvimento | — |
+| Cabo | ficar `Desarmado` | por cena |
 
 > **Coleira** — o seu clã te selou na infância: técnica nenhuma te localiza, te rastreia ou te encontra à distância. Em troca, o selo é dos dois lados: a sua família sempre sabe onde você está, e nunca precisou perguntar.
 > *Na mesa:* o grupo pode se esconder do inimigo inteiro por sua causa, e nunca da sua casa. Toda fuga tem uma testemunha garantida.
+
+> **Cabo** — a sua mão conhece o cabo antes de a cabeça mandar: uma vez por cena, você não fica `Desarmado`, e a ferramenta escorrega e volta. Em troca, você não larga ela quando devia: quem revista acha, quem te vê armado te trata como armado, e você não atravessa lugar nenhum como civil.
+> *Na mesa:* a peça do clã não sai da sua mão, e nenhuma porta que peça gente desarmada se abre para você.
 
 ## Reencarnado
 
@@ -459,10 +465,13 @@ Fundamento, do jeito padrão.
 
 | Legado | Apaga | Relógio |
 |---|---|---|
+| Usado | ficar `Derrubado` | por cena |
 | *vaga reservada* | objeto amaldiçoado, em desenvolvimento | — |
-| *vaga reservada* | dano e condições, em desenvolvimento | — |
 
-O Reencarnado é a única Origem sem Desliga escrito hoje. As duas vagas dele dependem de assuntos que estão sendo escritos: objeto amaldiçoado, e dano e condições. Enquanto isso, o segundo Legado de um Reencarnado sai do `Destranca` ou do `Ajusta`.
+> **Usado** — este corpo já esteve em estado muito pior que este, e levantou: uma vez por cena, você não fica `Derrubado`. Em troca, ele cobra depois — o mestre diz uma coisa pequena que o seu corpo passa a fazer errado até o fim da cena, e ela é sua e não dele.
+> *Na mesa:* você levanta na rodada em que o grupo precisava que alguém levantasse, e sai da cena devendo alguma coisa que o mestre escolhe.
+
+A segunda vaga do Reencarnado depende de um assunto que está sendo escrito: objeto amaldiçoado. Enquanto isso, o segundo Legado de um Reencarnado sai do `Destranca` ou do `Ajusta`.
 
 ## Feto
 
@@ -555,10 +564,13 @@ Fundamento, do jeito padrão.
 | Legado | Apaga | Relógio |
 |---|---|---|
 | Sangue que Não é Sangue | comer, dormir, respirar | sempre |
-| *vaga reservada* | dano e condições, em desenvolvimento | — |
+| Talhe | ficar `Agarrado` | por cena |
 
 > **Sangue que Não é Sangue** — você não precisa comer, dormir nem respirar como um humano. Isso resolve problemas que param os outros. Em troca, cria problemas que os outros não têm, e nenhum deles tem nome ainda, porque ninguém precisou nomear fome para gente que come.
 > *Na mesa:* água funda, gás, soterramento, vigília de vários dias. E a cena em que o grupo senta para comer e você fica olhando.
+
+> **Talhe** — você foi guardado antes de andar, e o corpo aprendeu a sair: uma vez por cena, você não fica `Agarrado`. Em troca, você sai por onde couber — quem te agarrou escolhe se você larga uma coisa que estava na sua mão ou termina o movimento fora da posição em que queria estar.
+> *Na mesa:* nenhum agarrão prende você duas vezes na mesma cena, e sair sempre custa a sua arma ou o seu lugar.
 
 ## Sem Técnica
 
@@ -622,9 +634,9 @@ A lista de quatro desta Origem está sendo escrita.
 
 #### Criação
 
-Técnica Marcial, que está sendo escrita.
+Técnica Marcial, no capítulo 10.
 
-> **A ficha desta Origem ainda não fecha.** O poder dela sai da Técnica Marcial, a economia de poder física que substitui a técnica amaldiçoada. Dá para escolher os Legados abaixo e escrever a ficção inteira; o resto espera a peça.
+Você tem energia amaldiçoada, então tem PE, aptidões e refino como qualquer feiticeiro tem — inclusive `canalizar energia`, que faz o seu golpe simples ferir maldição. O que você não tem é técnica inata para escrever, e é a Técnica Marcial que ocupa esse lugar.
 
 ### Legados do Corpo Amaldiçoado
 
@@ -746,7 +758,7 @@ Técnica Marcial, que está sendo escrita.
 | Legado | Apaga | Relógio |
 |---|---|---|
 | Ferro Velho | os degraus de exaustão | sempre |
-| *vaga reservada* | Técnica Marcial, em desenvolvimento | — |
+| *vaga reservada* | alvo ainda não escolhido | — |
 
 > **Ferro Velho** — os degraus de exaustão não te alcançam. Você dorme só porque combinaram que era hora. Em troca, você também não sente quando está perto de quebrar: o seu corpo para de uma vez, sem aviso antes.
 > *Na mesa:* apaga a conta de descanso do grupo inteiro quando é você quem faz o turno. E entrega ao mestre o direito de te derrubar do nada.
@@ -761,7 +773,7 @@ São dois ramos opostos, e você escolhe um na criação.
 
 **Corpo pela técnica.** O corpo não funciona, e em troca a energia é enorme. É o Kokichi Muta: pele que não aguenta sol, membros que faltam, dor constante, e energia suficiente para operar cadáveres amaldiçoados a uma distância absurda. O Mechamaru é o boneco que ele pilota. O corpo que aparece na escola é a ferramenta; a Origem é a pessoa que ficou em casa.
 
-**Energia pelo corpo.** Você nasceu sem energia amaldiçoada, nenhuma, e em troca o corpo é sobre-humano. É a Maki e o Toji. Você não conjura, não canaliza e não sente energia. Fere maldição com ferramenta amaldiçoada, e enxerga o mundo jujutsu de fora.
+**Sem energia.** Você nasceu sem energia amaldiçoada, nenhuma, e em troca o corpo recebeu a troca. É a Maki e o Toji. Você não conjura, não canaliza e não sente energia. Fere maldição com ferramenta amaldiçoada, e enxerga o mundo jujutsu de fora. O que a Origem fixa é a perda, e não o que você constrói em cima dela: um restringido que nunca levantou peso e resolve tudo pela cabeça é uma ficha tão legítima quanto o Toji.
 
 Os clãs tratam os dois ramos como defeito de nascença, e tratam pior o segundo. Uma criança que nasce sem energia dentro de uma família do meio cresce sendo tratada como erro de produção, e o meio inteiro aceita isso com naturalidade. A instituição, por sua vez, é pragmática: gente com Restrição Celestial costuma render mais que a média, e a papelada acompanha o rendimento. Você vai ser útil, vai ser exibido, e vai ouvir a mesma frase sobre o seu corpo a vida inteira, dita por gente que acha que está sendo gentil.
 
@@ -772,8 +784,10 @@ Os clãs tratam os dois ramos como defeito de nascença, e tratam pior o segundo
 
 | Ramo | O que muda | Criação |
 |---|---|---|
-| **Corpo pela técnica** | Fundamento normal, corpo com limitação escrita na ficha | Fundamento |
-| **Energia pelo corpo** | sem Fundamento, sem PE, sem feitiço de Toque, sem Sentir Energia, e acesso a ferramenta amaldiçoada como eixo de poder | Técnica Marcial, que está sendo escrita |
+| **Corpo pela técnica** | Fundamento normal, corpo com limitação escrita na ficha | Fundamento, no capítulo 9 |
+| **Sem energia** | sem Fundamento, sem feitiço de Toque, sem Sentir Energia, sem aptidão e sem refino. No lugar deles, **Bênçãos e Lapidação**, e acesso a ferramenta amaldiçoada como eixo de poder | Técnica Marcial, no capítulo 10, com o capítulo 12 no lugar do 11 |
+
+O `PE` do seu Caminho continua chegando. Nesta rota ele se lê **Pontos de Esforço** em vez de Pontos de Energia: é a mesma sigla, o mesmo número e a mesma coluna, e nenhuma regra do livro pergunta qual das duas você tem.
 
 #### Perícias
 
@@ -839,17 +853,15 @@ A lista de quatro desta Origem está sendo escrita.
 > **Li Tudo** — uma vez por cena, refaça um teste de Ocultismo ou Investigação que você falhou. Você teve tempo parado que ninguém mais teve.
 > *Na mesa:* segura a investigação quando o dado trava, que é onde a sessão costuma morrer.
 
-### Legados: Energia pelo Corpo
+### Legados: Sem Energia
 
-*Sem energia nenhuma, e o corpo é sobre-humano. Você não tem PE, feitiço de Toque nem Sentir Energia: o seu poder vem da Técnica Marcial.*
-
-> **A ficha deste ramo ainda não fecha.** O poder dele sai da Técnica Marcial, que está sendo escrita. Dá para escolher os Legados abaixo; o resto espera a peça. O ramo Corpo pela Técnica, acima, já roda hoje.
+*Sem energia nenhuma, e o corpo recebeu a troca. Você não tem feitiço de Toque nem Sentir Energia: o seu poder vem da Técnica Marcial, e o seu eixo de controle são as Bênçãos.*
 
 #### Destranca
 
 *Escolha um destes, obrigatoriamente.*
 
-**Destranca · Energia pelo Corpo**
+**Destranca · Sem Energia**
 {: .tab-titulo }
 
 | Legado | O que ele desenha | Relógio |
@@ -873,7 +885,7 @@ A lista de quatro desta Origem está sendo escrita.
 
 #### Ajusta
 
-**Ajusta · Energia pelo Corpo**
+**Ajusta · Sem Energia**
 {: .tab-titulo }
 
 | Legado | Alcança | Relógio |
@@ -897,7 +909,7 @@ A lista de quatro desta Origem está sendo escrita.
 
 ### Legados: Desliga
 
-*Vale para Corpo pela Técnica e para Energia pelo Corpo.*
+*Vale para Corpo pela Técnica e para Sem Energia.*
 
 **Desliga da Restrição Celestial**
 {: .tab-titulo }
@@ -905,10 +917,13 @@ A lista de quatro desta Origem está sendo escrita.
 | Legado | Apaga | Relógio |
 |---|---|---|
 | Peso Real | ser enganado por barreira, véu e ferramenta | sempre |
-| *vaga reservada* | ferramenta amaldiçoada, em desenvolvimento | — |
+| Assinado | ficar `Cego` | por descanso longo |
 
 > **Peso Real** — você percebe ferramenta amaldiçoada, barreira e véu pelo tato e pelo peso. O que engana feiticeiro não engana você. Em troca, o aviso vem sem nome: você sente que tem alguma coisa ali, e nunca o que é.
 > *Na mesa:* você é o detector de armadilha do grupo em terreno preparado, e o que você entrega é um aviso que ninguém sabe interpretar sem investigar.
+
+> **Assinado** — você nunca leu o mundo pela energia, e o resto do corpo cobriu: uma vez por descanso longo, você não fica `Cego`. Em troca, a troca não foi só essa. Escreva na ficha uma coisa comum que você nunca vai conseguir fazer, e ela não volta, em nível nenhum.
+> *Na mesa:* a cena de escuro e de clarão não tira você do jogo, e a ficha carrega uma limitação permanente que o mestre pode usar em qualquer outra.
 
 ## Rotas de criação
 
@@ -923,8 +938,8 @@ A lista de quatro desta Origem está sendo escrita.
 | Reencarnado | Fundamento | **sim** |
 | Feto | Fundamento | **sim** |
 | *qualquer uma* **+ Sem Técnica** | Aptidão ou Estilo da Sombra | não: está sendo escrita |
-| Corpo Amaldiçoado | Técnica Marcial | não: está sendo escrita |
+| Corpo Amaldiçoado | Técnica Marcial | **sim** |
 | Restrição Celestial · corpo pela técnica | Fundamento | **sim** |
-| Restrição Celestial · sem energia | Técnica Marcial | não: está sendo escrita |
+| Restrição Celestial · sem energia | Técnica Marcial | **sim** |
 
-Seis das nove rotas já rodam, porque o Fundamento está pronto. As três que faltam esperam a Técnica Marcial e o Estilo da Sombra. Nas três, você pode escrever a ficção inteira e escolher os dois Legados hoje; o que falta é a montagem do poder.
+Oito das nove rotas já rodam: seis pelo Fundamento e duas pela Técnica Marcial. A que falta é Sem Técnica, e ela espera uma máquina de criação própria. Nela, você pode escrever a ficção inteira e escolher os dois Legados hoje; o que falta é a montagem do poder.

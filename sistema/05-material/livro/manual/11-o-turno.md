@@ -21,7 +21,7 @@ A ordem sai uma vez e vale enquanto a cena durar. Ninguém rola de novo a cada r
 
 | Recurso | Quanto | O que faz |
 |---|---|---|
-| Movimento | até 9 metros | pode ser dividido antes, durante e depois da ação |
+| Ação de Movimento | uma | compra até 9 metros de deslocamento, e o segundo saque do turno |
 | Ação Padrão | uma | atacar, conjurar, a maior parte das coisas |
 | Ação Bônus | uma | só o que a regra disser, com todas as letras, que é Ação Bônus |
 | Reação | uma | responde a um gatilho, vale fora do seu turno, e volta no começo do seu turno |
@@ -32,11 +32,23 @@ O slot de Ação Bônus fica vazio na maioria dos turnos da maioria das fichas, 
 
 ### Deslocamento
 
+**Ação de Movimento** é o slot do turno; **deslocamento** é a distância que ele compra. Onde a sua ficha disser `+3 m`, `metade do deslocamento` ou `perde o deslocamento do próximo turno`, está falando de metros.
+
 O seu deslocamento base é 9 metros, e você corta esse total em quantos pedaços quiser dentro do turno. Dá para andar 3 metros, atacar, e andar os 6 que sobraram. É assim que alguém sai de trás de uma coluna, dá o golpe e volta para trás dela no mesmo turno.
+
+### Sacar e guardar
+
+> **Sacar ou guardar um item — inclusive arma — não custa nada. Uma vez por turno.**
+>
+> **Do segundo em diante, sacar ou guardar custa a sua Ação de Movimento inteira.** Não meia, não 3 metros: a Ação de Movimento do turno.
+
+**Trocar de arma é sacar e guardar, então é dois.** Guardar a que está na mão é o primeiro e sai de graça; sacar a outra é o segundo, e custa a Ação de Movimento.
+
+**Largar no chão não é guardar.** Largar é de graça e é sempre. É por isso que *soltar e sacar* sai mais rápido que *trocar*, ao preço de deixar a arma no chão.
 
 ### Rodada inteira
 
-Algumas coisas custam a rodada inteira: movimento, Ação Padrão e Ação Bônus de uma vez só. A Reação continua sua.
+Algumas coisas custam a rodada inteira: Ação de Movimento, Ação Padrão e Ação Bônus de uma vez só. A Reação continua sua.
 
 > **Exemplo.** A Rina abre o turno andando 6 metros até a porta do depósito. Gasta a Ação Padrão em `Atacar` a maldição que estava esperando atrás dela, e ainda tem 3 metros sobrando, que usa para sair do vão da porta. A Ação Bônus dela fica parada: nada na ficha da Rina diz que é Ação Bônus, e sem isso o slot não faz nada.
 

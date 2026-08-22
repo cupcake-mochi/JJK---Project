@@ -1,5 +1,56 @@
 # Estado da revisão · Manual da Guilda
 
+## Sincronização com a fonte — v0.124, 22/08/2026
+
+**O livro estava cinco versões atrás, e não era passada de texto: era conteúdo faltando.** *A v0.123 mediu e registrou a dívida; esta versão paga ela e põe uma checagem em cima para ela não voltar.*
+
+| | antes | depois |
+|---|---|---|
+| capítulos numerados | 15 | **17** |
+| palavras | 74.222 | **81.016** |
+| páginas | 237 | **259** |
+| Legados publicados | 80 | **85** |
+
+**Dois capítulos entraram, e a posição dos dois é decisão do Mizuki:** `42-tecnica-marcial.md` como o **capítulo 10**, colado no Fundamento, e `47-bencaos-e-lapidacao.md` como o **12**, colado em Aptidões e Refino. *O prefixo dos arquivos-fonte tem folga, então nenhum arquivo foi renumerado — o que desloca é o número impresso, do 10 em diante.*
+
+### O que estava atrás, item por item
+
+| o que faltava no livro | entrou na |
+|---|---|
+| as catorze Bênçãos e a Lapidação | v0.118 — era capítulo inteiro |
+| o ramo `Energia pelo corpo` virar `sem energia` | v0.118 |
+| o sexto formato de gate — requisito de atributo | v0.118 |
+| `PE` lendo como `Pontos de Esforço` | v0.120 |
+| a Técnica Marcial, e os renomes `Kata` · `Ruptura` · `Ōgi` | v0.122 |
+| `Ação de Movimento` e a regra de sacar e guardar | v0.123 |
+| cinco Legados de `Desliga` | v0.104 |
+| a penalidade de arma sem treino e sem requisito | v0.104 |
+| a regra de Pactos, que fechou como três formas com dono | v0.116 |
+
+### ⚠⚠ E um achado que não estava na lista: a fórmula de acerto da v0.117
+
+**A lista da v0.123 media termo ausente. Isto é número publicado errado, e são cinco lugares.**
+
+| onde | o livro dizia | a fonte diz |
+|---|---|---|
+| cap. 1, *Testes de Resistência* | `d20 + atributo, mais 2 se treinado` | `+ maestria`, e só se treinado |
+| cap. 1, *Maestria* | *"três lugares"*, e **fora** do Teste de Resistência | toda rolagem de ataque, a CD, e o que você treinou |
+| início rápido | `Atacar = d20 + Força` | `d20 + maestria + Força` |
+| início rápido | `Teste de Resistência … +2` | a maestria |
+| cap. 6, *Números do nível 2* | `CD de feitiço` valendo `13` | `8 + atributo da técnica + maestria` |
+
+> **O `13` é o rastro mais claro: ele é `10 + 2 + maestria`, a CD que a v0.117 aposentou.** *Um número solto onde as linhas vizinhas são fórmula.* **As três linhas de ataque da mesma tabela também tinham perdido o `+ 1` da maestria.**
+
+### A checagem que fecha isso
+
+**Entrou a checagem 10 do `conferir-repositorio.py`.** *A 7 pergunta se o **recorte** da entrega está atualizado, por md5; a 10 pergunta se o **conteúdo** do livro bate com as peças.* **Seis sub-blocos: as três listas de capítulo, os órfãos da pasta, a referência cruzada por número, o vocabulário batizado, o catálogo de Legados, e pendência morta dentro do livro.**
+
+> **A 10.1 nasceu de um defeito real desta versão: `build.py`, `build_docx.py` e `conferir-voz.py` carregam a ordem dos capítulos cada um por conta, e nada comparava os três.** *Capítulo novo entra num e some dos outros dois.*
+
+*Rodada de fechamento, com `--estrito`:* **o `conferir-voz.py` sai com `0` achados, `0` referência quebrada e `0` termo sem destino.** *Ele só sai com código `1` quando recebe `--estrito`, e o `subir.sh` não roda ele — vale saber isso antes de ler um verde dele como prova.*
+
+---
+
 > ## Passada de termos — CONCLUÍDA em 21/08/2026
 >
 > **Terceira revisão, sobre o vocabulário.** Nasceu de duas reclamações de playtest: jogador

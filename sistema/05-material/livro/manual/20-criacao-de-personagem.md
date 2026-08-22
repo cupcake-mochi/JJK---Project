@@ -51,7 +51,9 @@ As listas de perícia, os traços e as rotas estão no capítulo 7, *Origens e L
 
 A Origem não dá ponto de atributo nenhum, e não decide a sua patente: todo personagem começa **Grau 4**, venha de onde vier.
 
-> **Nem toda Origem fecha ficha hoje.** Três das nove rotas de criação dependem de regra que ainda está sendo escrita. O fim do capítulo 7, *Origens e Legados*, diz quais rodam; confira antes de se apegar a uma escolha.
+> **Nem toda Origem fecha ficha hoje.** Uma das nove rotas de criação depende de regra que ainda está sendo escrita, e é a Sem Técnica. O fim do capítulo 7, *Origens e Legados*, diz quais rodam; confira antes de se apegar a uma escolha.
+
+> **Duas rotas não montam poder pelo Fundamento**, e sim pela Técnica Marcial, no capítulo 10: o Corpo Amaldiçoado e a Restrição Celestial pelo ramo sem energia. Se for o seu caso, o Passo 2 e o Passo 3 valem igual — o que muda é o capítulo que você abre para montar.
 
 ## Passo 2 · Regra da técnica
 
@@ -180,10 +182,10 @@ Nada aqui é escolha. Você copia da tabela e faz a conta.
 | Defesa | 10 + Destreza + 1 |
 | Iniciativa | d20 + Destreza |
 | Deslocamento | 9 metros |
-| Ataque corpo a corpo | d20 + Força |
-| Ataque à distância | d20 + Destreza |
-| Ataque de conjuração | d20 + atributo da técnica + maestria |
-| CD de feitiço | 13 |
+| Ataque corpo a corpo | d20 + Força + 1 |
+| Ataque à distância | d20 + Destreza + 1 |
+| Ataque de conjuração | d20 + atributo da técnica + 1 |
+| CD de feitiço | 8 + atributo da técnica + maestria |
 | Perícia treinada | d20 + atributo + 1 |
 | Teste de Resistência | d20 + atributo do TR + maestria, e a maestria só se treinado |
 
@@ -195,9 +197,19 @@ No refino 1 você já tem duas aptidões, de graça: `cobrir-se de energia`, que
 
 Opcional, e a maioria dos personagens começa sem.
 
-Pacto é o que você trocou por poder. Ele permite quase qualquer coisa desde que o preço seja real, e carrega a mesma trava da Regra da técnica: uma frase, verificável pela mesa, simétrica, sem dano direto, com limite.
+Pacto é o que você trocou por poder, e três das quatro formas dele já têm onde morar:
 
-> **Está sendo escrita.** A regra completa de Pactos ainda não fechou. Até lá, pacto na criação só entra com aprovação do mestre e com o preço escrito na ficha.
+**Formas de pacto**
+{: .tab-titulo }
+
+| O que você quer dizer | Onde isso se escreve |
+|---|---|
+| *"a minha técnica fica maior sob uma condição que eu aceitei"* | **Restrição**, por feitiço, no capítulo 9 |
+| *"a minha técnica impõe uma regra ao mundo"* | **`Regra Própria`**, por técnica, no capítulo 9 |
+| *"eu troquei uma coisa antes de a campanha começar"* | **Legado**, na criação, no capítulo 7 |
+| *"eu e mais alguém fechamos um trato, aqui, na mesa"* | ainda não tem regra |
+
+> **Pacto entre personagens não entra na criação.** Quem quiser começar com um usa a `Regra Própria` ou um Legado, que é onde essa ficção já mora. O mestre continua podendo abrir um em jogo, com o preço escrito na ficha.
 
 ## Exemplo
 

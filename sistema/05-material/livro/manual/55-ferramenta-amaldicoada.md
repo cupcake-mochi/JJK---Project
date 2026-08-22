@@ -52,7 +52,7 @@ O que o grau escolhe é o **formato** do `Estigma`: se ele é pequeno e condicio
 | **1** | Classe 3: permanente, muda como você joga | 13 | as forjadas de topo |
 | **especial** | Classe 3, e ela é única no mundo | 13 | Nuvem Divertida · Lança Invertida do Céu · Corrente de Mil Milhas |
 
-As Classes são as mesmas do capítulo 10, *Aptidões e Refino*, e o nível mínimo é o de lá: uma aptidão de Classe 2 pede nível 7, uma de Classe 3 pede nível 13, e Classe 1 não pede nada.
+As Classes são as mesmas do capítulo 11, *Aptidões e Refino*, e o nível mínimo é o de lá: uma aptidão de Classe 2 pede nível 7, uma de Classe 3 pede nível 13, e Classe 1 não pede nada.
 
 ### Grau e refino
 
@@ -169,7 +169,7 @@ Cada tabela de Classe traz o nome e **quando o `Estigma` age**: sempre ligado, n
 >
 > **`Cisão`** — o golpe dela causa dano de alma no lugar do dano de vida. O corpo do alvo não mostra nada, e o que rasga está por baixo. É uma troca: contra alvo de alma dura, você vai sentir falta do dano normal.
 >
-> **`Insondável`** — enquanto a ponta dela estiver escondida, o alcance dela é **na cena**. Enquanto ninguém consegue ver onde a lâmina termina, ela termina onde você quiser. As três faixas de alcance estão no capítulo 13, *Invocações*.
+> **`Insondável`** — enquanto a ponta dela estiver escondida, o alcance dela é **na cena**. Enquanto ninguém consegue ver onde a lâmina termina, ela termina onde você quiser. As três faixas de alcance estão no capítulo 15, *Invocações*.
 >
 > **`Contrapeso`** — ela ignora o requisito de Força da arma. Qualquer um empunha, e o peso da coisa se resolve sozinho na mão de quem a segura.
 

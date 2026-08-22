@@ -1,8 +1,22 @@
 # Estado atual do projeto
 
-Atualizado em 22/08/2026, na v0.123 (última peça fechada: **Dano e condições**, ampliada na v0.104 com a penalidade de arma; antes dela, a **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 22/08/2026, na v0.124 (última peça fechada: **Dano e condições**, ampliada na v0.104 com a penalidade de arma; antes dela, a **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.123.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte peças escritas** e **vinte validadores**.
+**Versão v0.124.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte peças escritas** e **vinte validadores**.
+
+***O LIVRO ALCANÇOU A FONTE na v0.124, e ele estava cinco versões atrás.*** **Dois capítulos entraram — `Técnica Marcial` como o 10 e `Bênçãos e Lapidação` como o 12 —, e o Manual da Guilda foi de 15 para 17 capítulos, de 74.222 para 81.016 palavras, de 237 para 259 páginas.**
+
+> ***As duas posições são decisão do Mizuki, e a conta foi levada medida:*** *colar a Técnica Marcial no Fundamento custava `44` mudanças de número contra `9` no fim de "O personagem".* **Ele pagou a mais cara pelo argumento do leitor** — quem monta Corpo Amaldiçoado lê o Fundamento, vê que não serve, e a alternativa está na página seguinte. *O prefixo dos arquivos-fonte tem folga, então nenhum arquivo foi renumerado; o que desloca é o número impresso do capítulo, e ele desloca do 10 em diante.*
+
+> **⚠⚠ E apareceu um achado que não estava na lista de dívidas: a v0.117 mudou a base de acerto e o livro ficou com a fórmula velha em CINCO lugares.** *A lista da v0.123 media termo ausente; isto é número publicado errado.* **O mais claro é o `CD de feitiço | 13` do capítulo de criação: `13` é `10 + 2 + maestria`, a CD que aquela versão aposentou** — um número solto onde as linhas vizinhas são fórmula. *Junto com ele, o Teste de Resistência com `+2` em dois lugares, o parágrafo dizendo que a maestria fica FORA do Teste de Resistência, e as três linhas de ataque sem o `+ 1`.*
+
+> **Entrou a checagem 10 do `conferir-repositorio.py`, com seis sub-blocos e onze perturbações conferidas.** *A checagem 7 pergunta se o **recorte** da entrega está atualizado; a 10 pergunta se o **conteúdo** do livro bate com as peças.* **São perguntas diferentes, e até aqui só uma tinha dono — a mesma forma do achado da v0.121, por outra porta.** *A contagem foi de `202` para `203` checagens.*
+>
+> *A 10.1 é a lição nº 9 na forma mais crua que este projeto já teve:* **`build.py`, `build_docx.py` e `conferir-voz.py` carregavam a ordem dos capítulos cada um por conta, e nada comparava os três.** *Capítulo novo entra em um e some dos outros dois.*
+>
+> **⚠ E três perturbações saíram VERDES na primeira rodada, pelo mesmo defeito: elas eram menores do que o conjunto que a checagem mede.** *Trocar uma ocorrência de `Lapidação` num livro que tem `43`; renomear um capítulo quando o piso conta `69` referências.* **É a família do achado da v0.122 — `diff` que pergunta "mudou?" em vez de "a minha mudança entrou?".**
+
+> **⚠ Fica uma pergunta aberta na peça 11, e ela é de regra e não de sabor: a `cobrir-se` portada das Bênçãos não herda a Reação.** *A do feiticeiro tem duas metades — proteção passiva, e a Reação de `1,5 × refino` de Redução de Dano por `2` PE. A §6.8 porta só a primeira, e não diz nada da segunda.* **O livro foi escrito fiel à fonte; inventar a Reação lá seria pôr no livro um número que peça nenhuma é dona.** *A rota tem `PE` para gastar desde a v0.120, então a porta está aberta pelo lado da economia.*
 
 ***A TÉCNICA MARCIAL FECHOU na v0.122, e é a peça 20.*** **As rotas de Origem foram de `6/9` para `8/9`** — Corpo Amaldiçoado e Restrição Celestial pelo ramo sem energia. *A nona é `Sem Técnica`, e **decisão do Mizuki: ela tem criação própria e vem depois**.*
 

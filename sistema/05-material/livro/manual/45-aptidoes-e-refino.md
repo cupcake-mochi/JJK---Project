@@ -6,6 +6,8 @@ Aptidão se ensina. Ela passa de mestre para aluno, de escola de espada para esc
 
 Quem compra aptidão é o **refino**, o eixo de controle da sua ficha. Poder é quanto você tem. Refino é quanto você não desperdiça.
 
+> **Sem energia amaldiçoada não existe refino nem aptidão.** Uma ficha nessa situação usa **Lapidação** e **Bênçãos** no lugar dos dois, no capítulo 12, *Bênçãos e Lapidação*. A máquina é a mesma casa por casa; o que muda é o conteúdo do catálogo.
+
 ## Refino
 
 Energia amaldiçoada vaza. Ela escapa do corpo de quem produz, o tempo todo, e é por isso que um feiticeiro fareja outro a um quarteirão de distância. O refino mede quanto da sua você segura.
@@ -76,7 +78,7 @@ O refino no teto acontece cedo para quem investe: a partir do nível 22, a metad
 
 Mesmo essa ficha não fica sem nada. `Cobrir-se de energia` e `Canalizar energia` vêm de graça no refino 1, e a primeira continua crescendo com o refino passivo até 8. O que ela nunca vai ter é `Energia Reversa` nem `Barreira Simples`.
 
-*O marco é do capítulo 14, __Experiência e Progressão__: é lá que estão os sete níveis em que ele cai, quanto refino cada rota junta marco a marco, e o que Corpo e Leque compram. Aqui interessa só a escolha de Refino, que é a que vira aptidão.*
+*O marco é do capítulo 16, __Experiência e Progressão__: é lá que estão os sete níveis em que ele cai, quanto refino cada rota junta marco a marco, e o que Corpo e Leque compram. Aqui interessa só a escolha de Refino, que é a que vira aptidão.*
 
 ## Aptidões
 

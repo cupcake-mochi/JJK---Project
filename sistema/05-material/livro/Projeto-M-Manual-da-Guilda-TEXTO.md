@@ -74,14 +74,14 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **CD** | O número que a tarefa pede. Quem diz qual é o mestre, numa escada de 10 a 26 | 1 |
 | **Vantagem** | Role dois `d20` e fique com o melhor | 1 |
 | **Desvantagem** | Role dois `d20` e fique com o pior | 1 |
-| **Maestria** | Bônus que mede tempo de estrada. Começa em 1 e sobe a cada oito níveis. Entra no ataque de conjuração, na CD dos seus feitiços e nas perícias treinadas | 1 |
+| **Maestria** | Bônus que mede tempo de estrada. Começa em 1 e sobe a cada oito níveis. Entra em toda rolagem de ataque, na CD dos seus feitiços, e no que você treinou — perícia, ofício e Teste de Resistência | 1 |
 | **Teste de Resistência** | O que **você** rola quando algo acontece com você. São quatro: Físico, Vigor, Intelecto e Espírito | 1 |
 | **Defesa** | `10` + Destreza + proteção. O número que o inimigo precisa alcançar para te acertar | 1 |
 | **Crítico** | `20` natural numa rolagem de acerto. Dobra os dados da arma ou da Classe, e nada mais | 1 |
-| **`Bloquear`** | Regra opcional: role `2d10 + (Defesa − 11)` e use no lugar da Defesa parada. A mesa escolhe se usa | 15 |
-| **`Aparar`** | O duplo 10 no `Bloquear`. O ataque não acerta, e você pode gastar a Reação para revidar com `+3` de dano | 15 |
+| **`Bloquear`** | Regra opcional: role `2d10 + (Defesa − 11)` e use no lugar da Defesa parada. A mesa escolhe se usa | 17 |
+| **`Aparar`** | O duplo 10 no `Bloquear`. O ataque não acerta, e você pode gastar a Reação para revidar com `+3` de dano | 17 |
 | **Arredondamento** | Sempre para o lado que não te favorece. O que você paga sobe, o que você ganha desce | 1 |
-| **Rotina** | O dano que um personagem entrega numa rodada comum, sem gastar recurso guardado | 13 |
+| **Rotina** | O dano que um personagem entrega numa rodada comum, sem gastar recurso guardado | 15 |
 
 ## Números da ficha
 
@@ -90,10 +90,10 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 |---|---|---|
 | **Atributo** | Cinco, de 0 a 6: Força, Destreza, Constituição, Inteligência, Essência. O número **é** o modificador | 1 |
 | **Pontos de vida** | O corpo. Vêm do Caminho mais a sua Constituição, a cada nível | 1 |
-| **Pontos de energia** (`PE`) | O combustível dos feitiços. PE por nível do Caminho × o seu nível | 1 |
+| **Pontos de energia** (`PE`) | O combustível dos feitiços. PE por nível do Caminho × o seu nível. Numa ficha sem energia amaldiçoada a mesma sigla se lê **Pontos de Esforço**, e nenhuma regra pergunta qual das duas você tem | 1 |
 | **Integridade** | A vida da alma. `20 + 8 × (nível − 1)`, igual para todo mundo. Só volta com descanso longo | 1 |
 | **`Vida temporária`** | Anteparo, não vida. Gasta antes da vida real, não acumula, teto de metade da vida máxima, some no fim da cena | 1 |
-| **Proteção** | O que soma na Defesa: o uniforme que você veste, ou a energia com que você se cobre | 11 |
+| **Proteção** | O que soma na Defesa: o uniforme que você veste, ou a energia com que você se cobre | 13 |
 | **Redução de Dano** | Desconto no dano que já passou pela Defesa. Não é a mesma coisa que proteção | 9 |
 | **Perícia** | Uma das vinte e três. Cada uma tem um atributo fixo. Sem treino você ainda tenta | 3 |
 | **Ofício** | Um dos onze. Não tem atributo fixo, e sem treino você **não** tenta | 3 |
@@ -115,10 +115,10 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **Origem** | De onde vem o seu poder. Sete, mais a sub-origem Sem Técnica | 7 |
 | **Legado** | O que você já trazia, das listas da sua Origem. Dois por ficha | 7 |
 | **Traço** | Marca de história vinda da Origem, sem número | 7 |
-| **Pacto** | O que você trocou por poder. Opcional, e a regra completa ainda está sendo escrita | 6 |
+| **Pacto** | O que você trocou por poder. Opcional. Três das quatro formas dele são `Restrição`, `Regra Própria` ou Legado; a quarta, o trato entre dois personagens, não entra na criação | 6 |
 | **Patente** | O seu reconhecimento na instituição, de Grau 4 a Grau 1. Todo personagem começa **Grau 4** | 7 |
 
-> **Cuidado com a palavra `Grau`.** Ela nomeia duas escadas de cinco casas que não se encostam: a **patente** de um feiticeiro e o **grau** de uma ferramenta amaldiçoada. Patente é reconhecimento; grau de ferramenta é a energia que a peça carrega. O capítulo 12 abre a diferença.
+> **Cuidado com a palavra `Grau`.** Ela nomeia duas escadas de cinco casas que não se encostam: a **patente** de um feiticeiro e o **grau** de uma ferramenta amaldiçoada. Patente é reconhecimento; grau de ferramenta é a energia que a peça carrega. O capítulo 14 abre a diferença.
 ## Técnica
 
 **Técnica**
@@ -138,7 +138,7 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **Classe 0** | O feitiço grátis: não gasta PE, não ocupa espaço na lista e não se monta | 9 |
 | **Passiva** | Efeito que fica ligado sozinho. Custa espaço de feitiço | 9 |
 | **Classe Passiva** | A altura de uma Passiva, de Livre a 3. Diz quantos espaços ela cobra e em que nível abre | 9 |
-| **Espaço de feitiço** | `2 + (nível ÷ 2)`, arredondando para baixo, mais um por marco. É a moeda que Passiva e Expansão de Domínio também gastam | 14 |
+| **Espaço de feitiço** | `2 + (nível ÷ 2)`, arredondando para baixo, mais um por marco. É a moeda que Passiva e Expansão de Domínio também gastam | 16 |
 | **Ampliar** | Lançar um feitiço que você conhece numa Classe maior, pagando o PE da Classe nova | 9 |
 | **Liberação Máxima** | Feitiço à parte, escrito antes da sessão, de Classe 3 ou mais. Rompe o limite de dano num alvo só. Nos níveis 10, 20 e 30 | 9 |
 | **Técnica Máxima** | O golpe de dano fixo que carrega o nome da técnica. Do nível 17 em diante | 9 |
@@ -146,15 +146,39 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **Expansão de Domínio** | O espaço fechado onde a sua técnica manda. Custa espaço de feitiço | 9 |
 | **Dano na alma** | Tira vida, Integridade e vida máxima no mesmo tanto. Entra cheio, e tem quatro estágios | 4 |
 
+## Técnica Marcial
+
+Quem não escreve Fundamento monta o poder aqui. A máquina é a mesma; três nomes mudam.
+
+**Técnica Marcial**
+| Termo | O que é | Cap. |
+|---|---|---|
+| **Técnica Marcial** | O Fundamento com o corpo no lugar da energia. Mesmo orçamento, mesma montagem, e o equipamento no lugar do Selo | 10 |
+| **`Kata`** | O feitiço desta rota: mesma Classe, mesmos pontos, mesmo custo | 10 |
+| **`Ruptura`** | A Liberação Máxima desta rota. Nos níveis 10, 20 e 30 | 10 |
+| **`Ōgi`** | A Técnica Máxima desta rota. Do nível 17 em diante | 10 |
+
+## Bênçãos e Lapidação
+
+O eixo de controle de quem não tem energia amaldiçoada nenhuma, no lugar do refino e das aptidões.
+
+**Bênçãos e Lapidação**
+| Termo | O que é | Cap. |
+|---|---|---|
+| **Lapidação** | Quanto do que o corpo tem chega até o fim do movimento. Começa em 1, teto 10. Sobe `+1` de graça em cada marco | 12 |
+| **Bênção** | O que um corpo sem energia aprende a fazer. Catorze, e custa marco | 12 |
+| **`Cobrir-se`** | Bênção de graça: proteção `1/3 da Lapidação + 1`, e barreira de energia não segura você | 12 |
+| **`Estímulo Muscular`** | Bênção de graça: vantagem numa perícia e num Teste de Resistência escolhidos, `1×` por cena | 12 |
+
 ## Progressão
 
 **Progressão**
 | Termo | O que é | Cap. |
 |---|---|---|
-| **Marco** | Um dos sete níveis em que a ficha muda de forma: **6, 10, 14, 18, 22, 26 e 30** | 14 |
-| **Refino** | Quanto da sua energia você não desperdiça. Começa em 1, teto 10. Sobe `+1` de graça em cada marco | 10 |
-| **Aptidão** | O que qualquer feiticeiro pode aprender, independente da técnica. Custa marco, e só marco | 10 |
-| **Corpo**, **Refino**, **Leque** | As três escolhas que um marco oferece: mais atributo; mais refino e uma aptidão; ou mais feitiço e uma Passiva | 14 |
+| **Marco** | Um dos sete níveis em que a ficha muda de forma: **6, 10, 14, 18, 22, 26 e 30** | 16 |
+| **Refino** | Quanto da sua energia você não desperdiça. Começa em 1, teto 10. Sobe `+1` de graça em cada marco | 11 |
+| **Aptidão** | O que qualquer feiticeiro pode aprender, independente da técnica. Custa marco, e só marco | 11 |
+| **Corpo**, **Refino**, **Leque** | As três escolhas que um marco oferece: mais atributo; mais refino e uma aptidão; ou mais feitiço e uma Passiva. Numa ficha sem energia, o eixo do meio é **Lapidação** e entrega Bênção | 16 |
 
 ## Turno
 
@@ -162,11 +186,13 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | Termo | O que é | Cap. |
 |---|---|---|
 | **Rodada** | Todo mundo teve o seu turno. 6 segundos | 2 |
+| **Ação de Movimento** | Uma por turno. Compra até 9 metros de deslocamento, e o segundo saque do turno | 2 |
 | **Ação Padrão** | Uma por turno. Atacar, conjurar, a maior parte das coisas | 2 |
 | **Ação Bônus** | Uma por turno, e só o que a regra disser com todas as letras que é Ação Bônus | 2 |
 | **Reação** | Uma por turno, responde a um gatilho e vale fora do seu turno | 2 |
-| **Rodada inteira** | Custa movimento, Ação Padrão e Ação Bônus de uma vez. A Reação continua sua | 2 |
+| **Rodada inteira** | Custa a Ação de Movimento, a Ação Padrão e a Ação Bônus de uma vez. A Reação continua sua | 2 |
 | **Concentração** | Manter um efeito de pé. Um por vez, e tomar dano pede Teste de Resistência de Vigor | 2 |
+| **`Estudar`** | Ação Padrão: um teste sobre uma criatura ou objeto que você enxerga, para saber o que ele é e o que ele vai fazer | 2 |
 | **Cobertura** | O que está entre você e quem atira. Três degraus: Parcial, Boa e Total | 4 |
 | **`Agarrar`** | Opção do `Atacar`. Aplica a condição `Agarrado` | 2 |
 
@@ -192,24 +218,24 @@ Melhoria — são escadas diferentes que usam as mesmas três palavras. O capít
 **Equipamento**
 | Termo | O que é | Cap. |
 |---|---|---|
-| **Ferramenta amaldiçoada** | Arma forjada para ferir maldição. Tem grau, de 4 a especial | 12 |
-| **`Estigma`** | O efeito que uma ferramenta carrega. O grau dela decide o formato | 12 |
-| **`Desgaste`** | Ferramenta usada demais antes de chegar em você: cada uso derruba o grau dela em um | 12 |
-| **Invocação** | O que você põe em campo e comanda. Tem ficha própria, montada com orçamento | 13 |
-| **Amarra** | A invocação tem de ficar a até 18 metros de você, ou não pode ser comandada | 13 |
-| **`Emaranha`** | Propriedade de arma: você pode `Agarrar` sem largar a arma | 11 |
-| **`Fineza`** | Propriedade de arma: no corpo a corpo, troca Força por Destreza no acerto e no dano | 11 |
-| **`Longo Alcance`** | Propriedade de arma: ela alcança à distância, em metros | 11 |
-| **`Oculta`** | Propriedade de arma: dá para esconder no corpo, com um teste de `Prestidigitação` | 11 |
-| **`Par`** | Propriedade de arma: role dois dados de dano e fique com o melhor | 11 |
-| **`Rompe`** | Propriedade de arma: vantagem contra objeto e estrutura | 11 |
-| **`Talha`** | Propriedade de arma: `−1` no `Bloquear` de quem se defende | 11 |
-| **`Versátil`** | Propriedade de arma: nas duas mãos, o dado sobe um passo | 11 |
-| **`Vestida`** | Propriedade de arma: não ocupa a mão | 11 |
-| **`Volumosa`** | Propriedade de arma: não dá para esconder, e atrapalha em espaço apertado | 11 |
-| **`Remoto`** | Traço de invocação: funciona além dos 18 metros da amarra | 13 |
-| **`Vigia`** | Traço de invocação: o que ela vê e ouve, você vê e ouve | 13 |
-| **`Voo`** | Traço de invocação: voa, e o terreno para de valer para ela | 13 |
+| **Ferramenta amaldiçoada** | Arma forjada para ferir maldição. Tem grau, de 4 a especial | 14 |
+| **`Estigma`** | O efeito que uma ferramenta carrega. O grau dela decide o formato | 14 |
+| **`Desgaste`** | Ferramenta usada demais antes de chegar em você: cada uso derruba o grau dela em um | 14 |
+| **Invocação** | O que você põe em campo e comanda. Tem ficha própria, montada com orçamento | 15 |
+| **Amarra** | A invocação tem de ficar a até 18 metros de você, ou não pode ser comandada | 15 |
+| **`Emaranha`** | Propriedade de arma: você pode `Agarrar` sem largar a arma | 13 |
+| **`Fineza`** | Propriedade de arma: no corpo a corpo, troca Força por Destreza no acerto e no dano | 13 |
+| **`Longo Alcance`** | Propriedade de arma: ela alcança à distância, em metros | 13 |
+| **`Oculta`** | Propriedade de arma: dá para esconder no corpo, com um teste de `Prestidigitação` | 13 |
+| **`Par`** | Propriedade de arma: role dois dados de dano e fique com o melhor | 13 |
+| **`Rompe`** | Propriedade de arma: vantagem contra objeto e estrutura | 13 |
+| **`Talha`** | Propriedade de arma: `−1` no `Bloquear` de quem se defende | 13 |
+| **`Versátil`** | Propriedade de arma: nas duas mãos, o dado sobe um passo | 13 |
+| **`Vestida`** | Propriedade de arma: não ocupa a mão | 13 |
+| **`Volumosa`** | Propriedade de arma: não dá para esconder, e atrapalha em espaço apertado | 13 |
+| **`Remoto`** | Traço de invocação: funciona além dos 18 metros da amarra | 15 |
+| **`Vigia`** | Traço de invocação: o que ela vê e ouve, você vê e ouve | 15 |
+| **`Voo`** | Traço de invocação: voa, e o terreno para de valer para ela | 15 |
 
 ## Formas, Melhorias e Restrições do Fundamento
 
@@ -281,14 +307,14 @@ abaixo.
 >
 > **Vantagem:** role dois `d20` e fique com o melhor. **Desvantagem:** fique com o pior.
 >
-> **O seu turno tem quatro coisas:** Movimento, uma Ação Padrão, uma Ação Bônus (só se
-> alguma coisa na ficha disser isso com todas as letras) e uma Reação.
+> **O seu turno tem quatro coisas:** uma Ação de Movimento, uma Ação Padrão, uma Ação Bônus
+> (só se alguma coisa na ficha disser isso com todas as letras) e uma Reação.
 >
-> **Atacar** = `d20` + Força (corpo a corpo), Destreza (à distância) ou `2` + maestria
-> (conjuração), contra a **Defesa** do alvo.
+> **Atacar** = `d20` + maestria + Força (corpo a corpo), Destreza (à distância) ou o
+> atributo da sua técnica (conjuração), contra a **Defesa** do alvo.
 >
-> **Teste de Resistência** = `d20` + o atributo daquele Teste, `+2` se você for treinado.
-> É o que **você** rola quando alguma coisa acontece com você.
+> **Teste de Resistência** = `d20` + o atributo daquele Teste, mais a maestria se você for
+> treinado nele. É o que **você** rola quando alguma coisa acontece com você.
 
 Todo termo aqui tem explicação completa no capítulo 1 e no vocabulário do sistema, logo
 atrás.
@@ -476,7 +502,7 @@ Inteligência não concede perícias extras. O que você é treinado vem da Orig
 |---|---|---|---|---|
 | maestria | 1 | 2 | 3 | 4 |
 
-Maestria é o bônus que mede o tempo de estrada do personagem. Ela entra em três lugares: no ataque de conjuração, na CD dos seus feitiços e nas perícias em que você é treinado. Por exemplo, no nível 6 a sua maestria é 1, e no nível 10 ela vira 2. Ela fica fora da Defesa e fora de Teste de Resistência, que são os dois números que o sistema deixa crescer só por atributo e equipamento.
+Maestria é o bônus que mede o tempo de estrada do personagem. Ela entra em toda rolagem de ataque, na CD dos seus feitiços, e no que você treinou: perícia, ofício e Teste de Resistência. Por exemplo, no nível 6 a sua maestria é 1, e no nível 10 ela vira 2. Ela fica fora da Defesa, que é o único número que o sistema deixa crescer só por atributo e equipamento.
 
 A ficha começa no **nível 2**, já com um feitiço. O nível 1 fica como opção de campanha, para quando a mesa quiser jogar o personagem de antes de ele ser feiticeiro.
 
@@ -533,7 +559,7 @@ Estar atrás de alguma coisa sobe a sua Defesa, e a cobertura Total tira você d
 
 Um **Teste de Resistência** é o que você rola quando alguma coisa acontece com você e você tenta segurar a barra. O ataque parte do outro lado; a rolagem é sua. São quatro.
 
-> **Teste de Resistência = d20 + atributo do TR, mais 2 se você for treinado nele.**
+> **Teste de Resistência = d20 + atributo do TR + maestria, e a maestria só entra se você for treinado nele.**
 
 **Testes de Resistência**
 | Teste de Resistência | Usa | Serve para |
@@ -696,7 +722,7 @@ A ordem sai uma vez e vale enquanto a cena durar. Ninguém rola de novo a cada r
 **Recursos do turno**
 | Recurso | Quanto | O que faz |
 |---|---|---|
-| Movimento | até 9 metros | pode ser dividido antes, durante e depois da ação |
+| Ação de Movimento | uma | compra até 9 metros de deslocamento, e o segundo saque do turno |
 | Ação Padrão | uma | atacar, conjurar, a maior parte das coisas |
 | Ação Bônus | uma | só o que a regra disser, com todas as letras, que é Ação Bônus |
 | Reação | uma | responde a um gatilho, vale fora do seu turno, e volta no começo do seu turno |
@@ -707,11 +733,23 @@ O slot de Ação Bônus fica vazio na maioria dos turnos da maioria das fichas, 
 
 ### Deslocamento
 
+**Ação de Movimento** é o slot do turno; **deslocamento** é a distância que ele compra. Onde a sua ficha disser `+3 m`, `metade do deslocamento` ou `perde o deslocamento do próximo turno`, está falando de metros.
+
 O seu deslocamento base é 9 metros, e você corta esse total em quantos pedaços quiser dentro do turno. Dá para andar 3 metros, atacar, e andar os 6 que sobraram. É assim que alguém sai de trás de uma coluna, dá o golpe e volta para trás dela no mesmo turno.
+
+### Sacar e guardar
+
+> **Sacar ou guardar um item — inclusive arma — não custa nada. Uma vez por turno.**
+>
+> **Do segundo em diante, sacar ou guardar custa a sua Ação de Movimento inteira.** Não meia, não 3 metros: a Ação de Movimento do turno.
+
+**Trocar de arma é sacar e guardar, então é dois.** Guardar a que está na mão é o primeiro e sai de graça; sacar a outra é o segundo, e custa a Ação de Movimento.
+
+**Largar no chão não é guardar.** Largar é de graça e é sempre. É por isso que *soltar e sacar* sai mais rápido que *trocar*, ao preço de deixar a arma no chão.
 
 ### Rodada inteira
 
-Algumas coisas custam a rodada inteira: movimento, Ação Padrão e Ação Bônus de uma vez só. A Reação continua sua.
+Algumas coisas custam a rodada inteira: Ação de Movimento, Ação Padrão e Ação Bônus de uma vez só. A Reação continua sua.
 
 > **Exemplo.** A Rina abre o turno andando 6 metros até a porta do depósito. Gasta a Ação Padrão em `Atacar` a maldição que estava esperando atrás dela, e ainda tem 3 metros sobrando, que usa para sair do vão da porta. A Ação Bônus dela fica parada: nada na ficha da Rina diz que é Ação Bônus, e sem isso o slot não faz nada.
 
@@ -1614,7 +1652,9 @@ As listas de perícia, os traços e as rotas estão no capítulo 7, *Origens e L
 
 A Origem não dá ponto de atributo nenhum, e não decide a sua patente: todo personagem começa **Grau 4**, venha de onde vier.
 
-> **Nem toda Origem fecha ficha hoje.** Três das nove rotas de criação dependem de regra que ainda está sendo escrita. O fim do capítulo 7, *Origens e Legados*, diz quais rodam; confira antes de se apegar a uma escolha.
+> **Nem toda Origem fecha ficha hoje.** Uma das nove rotas de criação depende de regra que ainda está sendo escrita, e é a Sem Técnica. O fim do capítulo 7, *Origens e Legados*, diz quais rodam; confira antes de se apegar a uma escolha.
+
+> **Duas rotas não montam poder pelo Fundamento**, e sim pela Técnica Marcial, no capítulo 10: o Corpo Amaldiçoado e a Restrição Celestial pelo ramo sem energia. Se for o seu caso, o Passo 2 e o Passo 3 valem igual — o que muda é o capítulo que você abre para montar.
 
 ## Passo 2 · Regra da técnica
 
@@ -1731,10 +1771,10 @@ Nada aqui é escolha. Você copia da tabela e faz a conta.
 | Defesa | 10 + Destreza + 1 |
 | Iniciativa | d20 + Destreza |
 | Deslocamento | 9 metros |
-| Ataque corpo a corpo | d20 + Força |
-| Ataque à distância | d20 + Destreza |
-| Ataque de conjuração | d20 + atributo da técnica + maestria |
-| CD de feitiço | 13 |
+| Ataque corpo a corpo | d20 + Força + 1 |
+| Ataque à distância | d20 + Destreza + 1 |
+| Ataque de conjuração | d20 + atributo da técnica + 1 |
+| CD de feitiço | 8 + atributo da técnica + maestria |
 | Perícia treinada | d20 + atributo + 1 |
 | Teste de Resistência | d20 + atributo do TR + maestria, e a maestria só se treinado |
 
@@ -1746,9 +1786,17 @@ No refino 1 você já tem duas aptidões, de graça: `cobrir-se de energia`, que
 
 Opcional, e a maioria dos personagens começa sem.
 
-Pacto é o que você trocou por poder. Ele permite quase qualquer coisa desde que o preço seja real, e carrega a mesma trava da Regra da técnica: uma frase, verificável pela mesa, simétrica, sem dano direto, com limite.
+Pacto é o que você trocou por poder, e três das quatro formas dele já têm onde morar:
 
-> **Está sendo escrita.** A regra completa de Pactos ainda não fechou. Até lá, pacto na criação só entra com aprovação do mestre e com o preço escrito na ficha.
+**Formas de pacto**
+| O que você quer dizer | Onde isso se escreve |
+|---|---|
+| *"a minha técnica fica maior sob uma condição que eu aceitei"* | **Restrição**, por feitiço, no capítulo 9 |
+| *"a minha técnica impõe uma regra ao mundo"* | **`Regra Própria`**, por técnica, no capítulo 9 |
+| *"eu troquei uma coisa antes de a campanha começar"* | **Legado**, na criação, no capítulo 7 |
+| *"eu e mais alguém fechamos um trato, aqui, na mesa"* | ainda não tem regra |
+
+> **Pacto entre personagens não entra na criação.** Quem quiser começar com um usa a `Regra Própria` ou um Legado, que é onde essa ficção já mora. O mestre continua podendo abrir um em jogo, com o preço escrito na ficha.
 
 ## Exemplo
 
@@ -2072,10 +2120,13 @@ Fundamento, do jeito padrão. O passageiro mora na ficção da mesa, e a montage
 | Legado | Apaga | Relógio |
 |---|---|---|
 | Máscara | ser sentido pelo que você é | sempre |
-| *vaga reservada* | dano e condições, em desenvolvimento | — |
+| Revezamento | ficar `Impedido` | por descanso longo |
 
 > **Máscara** — quem sente a sua energia amaldiçoada sente a dele. Você não aparece como o que é. Em troca, o que essas pessoas concluem sobre você costuma ser bem pior do que a verdade. Elas agem de acordo com essa conclusão.
 > *Na mesa:* resolve infiltração e barreira de detecção, e cria a cena em que o aliado que chegou depois te ataca primeiro.
+
+> **Revezamento** — prender você prende um dos dois: uma vez por descanso longo, você não fica `Impedido`. Ele empurra, e o seu corpo vai junto porque não é só seu. Em troca, quem estava olhando viu — naquele momento não era você que se mexia. O mestre diz o que as pessoas presentes passaram a achar de você, e elas agem de acordo.
+> *Na mesa:* tira o grupo da cena em que prender você era o plano do inimigo, e cobra em reputação na cena seguinte.
 
 ## Descendente
 
@@ -2166,10 +2217,13 @@ Fundamento, do jeito padrão.
 | Legado | Apaga | Relógio |
 |---|---|---|
 | Coleira | ser localizado ou rastreado | sempre |
-| *vaga reservada* | ferramenta amaldiçoada, em desenvolvimento | — |
+| Cabo | ficar `Desarmado` | por cena |
 
 > **Coleira** — o seu clã te selou na infância: técnica nenhuma te localiza, te rastreia ou te encontra à distância. Em troca, o selo é dos dois lados: a sua família sempre sabe onde você está, e nunca precisou perguntar.
 > *Na mesa:* o grupo pode se esconder do inimigo inteiro por sua causa, e nunca da sua casa. Toda fuga tem uma testemunha garantida.
+
+> **Cabo** — a sua mão conhece o cabo antes de a cabeça mandar: uma vez por cena, você não fica `Desarmado`, e a ferramenta escorrega e volta. Em troca, você não larga ela quando devia: quem revista acha, quem te vê armado te trata como armado, e você não atravessa lugar nenhum como civil.
+> *Na mesa:* a peça do clã não sai da sua mão, e nenhuma porta que peça gente desarmada se abre para você.
 
 ## Reencarnado
 
@@ -2257,10 +2311,13 @@ Fundamento, do jeito padrão.
 **Desliga do Reencarnado**
 | Legado | Apaga | Relógio |
 |---|---|---|
+| Usado | ficar `Derrubado` | por cena |
 | *vaga reservada* | objeto amaldiçoado, em desenvolvimento | — |
-| *vaga reservada* | dano e condições, em desenvolvimento | — |
 
-O Reencarnado é a única Origem sem Desliga escrito hoje. As duas vagas dele dependem de assuntos que estão sendo escritos: objeto amaldiçoado, e dano e condições. Enquanto isso, o segundo Legado de um Reencarnado sai do `Destranca` ou do `Ajusta`.
+> **Usado** — este corpo já esteve em estado muito pior que este, e levantou: uma vez por cena, você não fica `Derrubado`. Em troca, ele cobra depois — o mestre diz uma coisa pequena que o seu corpo passa a fazer errado até o fim da cena, e ela é sua e não dele.
+> *Na mesa:* você levanta na rodada em que o grupo precisava que alguém levantasse, e sai da cena devendo alguma coisa que o mestre escolhe.
+
+A segunda vaga do Reencarnado depende de um assunto que está sendo escrito: objeto amaldiçoado. Enquanto isso, o segundo Legado de um Reencarnado sai do `Destranca` ou do `Ajusta`.
 
 ## Feto
 
@@ -2347,10 +2404,13 @@ Fundamento, do jeito padrão.
 | Legado | Apaga | Relógio |
 |---|---|---|
 | Sangue que Não é Sangue | comer, dormir, respirar | sempre |
-| *vaga reservada* | dano e condições, em desenvolvimento | — |
+| Talhe | ficar `Agarrado` | por cena |
 
 > **Sangue que Não é Sangue** — você não precisa comer, dormir nem respirar como um humano. Isso resolve problemas que param os outros. Em troca, cria problemas que os outros não têm, e nenhum deles tem nome ainda, porque ninguém precisou nomear fome para gente que come.
 > *Na mesa:* água funda, gás, soterramento, vigília de vários dias. E a cena em que o grupo senta para comer e você fica olhando.
+
+> **Talhe** — você foi guardado antes de andar, e o corpo aprendeu a sair: uma vez por cena, você não fica `Agarrado`. Em troca, você sai por onde couber — quem te agarrou escolhe se você larga uma coisa que estava na sua mão ou termina o movimento fora da posição em que queria estar.
+> *Na mesa:* nenhum agarrão prende você duas vezes na mesma cena, e sair sempre custa a sua arma ou o seu lugar.
 
 ## Sem Técnica
 
@@ -2414,9 +2474,9 @@ A lista de quatro desta Origem está sendo escrita.
 
 #### Criação
 
-Técnica Marcial, que está sendo escrita.
+Técnica Marcial, no capítulo 10.
 
-> **A ficha desta Origem ainda não fecha.** O poder dela sai da Técnica Marcial, a economia de poder física que substitui a técnica amaldiçoada. Dá para escolher os Legados abaixo e escrever a ficção inteira; o resto espera a peça.
+Você tem energia amaldiçoada, então tem PE, aptidões e refino como qualquer feiticeiro tem — inclusive `canalizar energia`, que faz o seu golpe simples ferir maldição. O que você não tem é técnica inata para escrever, e é a Técnica Marcial que ocupa esse lugar.
 
 ### Legados do Corpo Amaldiçoado
 
@@ -2526,7 +2586,7 @@ Técnica Marcial, que está sendo escrita.
 | Legado | Apaga | Relógio |
 |---|---|---|
 | Ferro Velho | os degraus de exaustão | sempre |
-| *vaga reservada* | Técnica Marcial, em desenvolvimento | — |
+| *vaga reservada* | alvo ainda não escolhido | — |
 
 > **Ferro Velho** — os degraus de exaustão não te alcançam. Você dorme só porque combinaram que era hora. Em troca, você também não sente quando está perto de quebrar: o seu corpo para de uma vez, sem aviso antes.
 > *Na mesa:* apaga a conta de descanso do grupo inteiro quando é você quem faz o turno. E entrega ao mestre o direito de te derrubar do nada.
@@ -2541,7 +2601,7 @@ São dois ramos opostos, e você escolhe um na criação.
 
 **Corpo pela técnica.** O corpo não funciona, e em troca a energia é enorme. É o Kokichi Muta: pele que não aguenta sol, membros que faltam, dor constante, e energia suficiente para operar cadáveres amaldiçoados a uma distância absurda. O Mechamaru é o boneco que ele pilota. O corpo que aparece na escola é a ferramenta; a Origem é a pessoa que ficou em casa.
 
-**Energia pelo corpo.** Você nasceu sem energia amaldiçoada, nenhuma, e em troca o corpo é sobre-humano. É a Maki e o Toji. Você não conjura, não canaliza e não sente energia. Fere maldição com ferramenta amaldiçoada, e enxerga o mundo jujutsu de fora.
+**Sem energia.** Você nasceu sem energia amaldiçoada, nenhuma, e em troca o corpo recebeu a troca. É a Maki e o Toji. Você não conjura, não canaliza e não sente energia. Fere maldição com ferramenta amaldiçoada, e enxerga o mundo jujutsu de fora. O que a Origem fixa é a perda, e não o que você constrói em cima dela: um restringido que nunca levantou peso e resolve tudo pela cabeça é uma ficha tão legítima quanto o Toji.
 
 Os clãs tratam os dois ramos como defeito de nascença, e tratam pior o segundo. Uma criança que nasce sem energia dentro de uma família do meio cresce sendo tratada como erro de produção, e o meio inteiro aceita isso com naturalidade. A instituição, por sua vez, é pragmática: gente com Restrição Celestial costuma render mais que a média, e a papelada acompanha o rendimento. Você vai ser útil, vai ser exibido, e vai ouvir a mesma frase sobre o seu corpo a vida inteira, dita por gente que acha que está sendo gentil.
 
@@ -2550,8 +2610,10 @@ Os clãs tratam os dois ramos como defeito de nascença, e tratam pior o segundo
 **Ramos da Restrição Celestial**
 | Ramo | O que muda | Criação |
 |---|---|---|
-| **Corpo pela técnica** | Fundamento normal, corpo com limitação escrita na ficha | Fundamento |
-| **Energia pelo corpo** | sem Fundamento, sem PE, sem feitiço de Toque, sem Sentir Energia, e acesso a ferramenta amaldiçoada como eixo de poder | Técnica Marcial, que está sendo escrita |
+| **Corpo pela técnica** | Fundamento normal, corpo com limitação escrita na ficha | Fundamento, no capítulo 9 |
+| **Sem energia** | sem Fundamento, sem feitiço de Toque, sem Sentir Energia, sem aptidão e sem refino. No lugar deles, **Bênçãos e Lapidação**, e acesso a ferramenta amaldiçoada como eixo de poder | Técnica Marcial, no capítulo 10, com o capítulo 12 no lugar do 11 |
+
+O `PE` do seu Caminho continua chegando. Nesta rota ele se lê **Pontos de Esforço** em vez de Pontos de Energia: é a mesma sigla, o mesmo número e a mesma coluna, e nenhuma regra do livro pergunta qual das duas você tem.
 
 #### Perícias
 
@@ -2613,17 +2675,15 @@ A lista de quatro desta Origem está sendo escrita.
 > **Li Tudo** — uma vez por cena, refaça um teste de Ocultismo ou Investigação que você falhou. Você teve tempo parado que ninguém mais teve.
 > *Na mesa:* segura a investigação quando o dado trava, que é onde a sessão costuma morrer.
 
-### Legados: Energia pelo Corpo
+### Legados: Sem Energia
 
-*Sem energia nenhuma, e o corpo é sobre-humano. Você não tem PE, feitiço de Toque nem Sentir Energia: o seu poder vem da Técnica Marcial.*
-
-> **A ficha deste ramo ainda não fecha.** O poder dele sai da Técnica Marcial, que está sendo escrita. Dá para escolher os Legados abaixo; o resto espera a peça. O ramo Corpo pela Técnica, acima, já roda hoje.
+*Sem energia nenhuma, e o corpo recebeu a troca. Você não tem feitiço de Toque nem Sentir Energia: o seu poder vem da Técnica Marcial, e o seu eixo de controle são as Bênçãos.*
 
 #### Destranca
 
 *Escolha um destes, obrigatoriamente.*
 
-**Destranca · Energia pelo Corpo**
+**Destranca · Sem Energia**
 | Legado | O que ele desenha | Relógio |
 |---|---|---|
 | Descartado | o clã que te jogou fora | sem relógio |
@@ -2645,7 +2705,7 @@ A lista de quatro desta Origem está sendo escrita.
 
 #### Ajusta
 
-**Ajusta · Energia pelo Corpo**
+**Ajusta · Sem Energia**
 | Legado | Alcança | Relógio |
 |---|---|---|
 | Sentido Treinado | maldição (1) | por cena |
@@ -2667,16 +2727,19 @@ A lista de quatro desta Origem está sendo escrita.
 
 ### Legados: Desliga
 
-*Vale para Corpo pela Técnica e para Energia pelo Corpo.*
+*Vale para Corpo pela Técnica e para Sem Energia.*
 
 **Desliga da Restrição Celestial**
 | Legado | Apaga | Relógio |
 |---|---|---|
 | Peso Real | ser enganado por barreira, véu e ferramenta | sempre |
-| *vaga reservada* | ferramenta amaldiçoada, em desenvolvimento | — |
+| Assinado | ficar `Cego` | por descanso longo |
 
 > **Peso Real** — você percebe ferramenta amaldiçoada, barreira e véu pelo tato e pelo peso. O que engana feiticeiro não engana você. Em troca, o aviso vem sem nome: você sente que tem alguma coisa ali, e nunca o que é.
 > *Na mesa:* você é o detector de armadilha do grupo em terreno preparado, e o que você entrega é um aviso que ninguém sabe interpretar sem investigar.
+
+> **Assinado** — você nunca leu o mundo pela energia, e o resto do corpo cobriu: uma vez por descanso longo, você não fica `Cego`. Em troca, a troca não foi só essa. Escreva na ficha uma coisa comum que você nunca vai conseguir fazer, e ela não volta, em nível nenhum.
+> *Na mesa:* a cena de escuro e de clarão não tira você do jogo, e a ficha carrega uma limitação permanente que o mestre pode usar em qualquer outra.
 
 ## Rotas de criação
 
@@ -2689,11 +2752,11 @@ A lista de quatro desta Origem está sendo escrita.
 | Reencarnado | Fundamento | **sim** |
 | Feto | Fundamento | **sim** |
 | *qualquer uma* **+ Sem Técnica** | Aptidão ou Estilo da Sombra | não: está sendo escrita |
-| Corpo Amaldiçoado | Técnica Marcial | não: está sendo escrita |
+| Corpo Amaldiçoado | Técnica Marcial | **sim** |
 | Restrição Celestial · corpo pela técnica | Fundamento | **sim** |
-| Restrição Celestial · sem energia | Técnica Marcial | não: está sendo escrita |
+| Restrição Celestial · sem energia | Técnica Marcial | **sim** |
 
-Seis das nove rotas já rodam, porque o Fundamento está pronto. As três que faltam esperam a Técnica Marcial e o Estilo da Sombra. Nas três, você pode escrever a ficção inteira e escolher os dois Legados hoje; o que falta é a montagem do poder.
+Oito das nove rotas já rodam: seis pelo Fundamento e duas pela Técnica Marcial. A que falta é Sem Técnica, e ela espera uma máquina de criação própria. Nela, você pode escrever a ficção inteira e escolher os dois Legados hoje; o que falta é a montagem do poder.
 
 ---
 
@@ -2749,7 +2812,7 @@ E duas coisas que quase todo degrau daqui menciona:
 
 ### Treino de arma
 
-**O seu Caminho decide quais armas você pode empunhar.** Treino mora na categoria: treinar uma categoria libera todas as armas dela, e o catálogo inteiro está no capítulo 11, *Equipamento*.
+**O seu Caminho decide quais armas você pode empunhar.** Treino mora na categoria: treinar uma categoria libera todas as armas dela, e o catálogo inteiro está no capítulo 13, *Equipamento*.
 
 > **Os dois Caminhos de corpo a corpo — Bastião e Vanguarda — treinam as treze categorias.** Qualquer arma do catálogo é deles.
 >
@@ -2757,7 +2820,7 @@ E duas coisas que quase todo degrau daqui menciona:
 
 **Para um conjurador empunhar o resto, a porta é a Trilha.** É o que faz a `Empunhadura` do `Arremate`, no nível 2: ela concede um grupo de arma à sua escolha e ainda troca Força por Inteligência ou Essência naquele grupo. Um Emanador de espadão existe, e paga por isso com a escolha de Trilha.
 
-> **Sem treino, você não empunha.** A regra de penalidade para quem pega assim mesmo está sendo escrita.
+> **Sem treino, você tem desvantagem na rolagem de ataque com aquela arma**, e sem o requisito de Força dela o seu deslocamento cai 3 metros enquanto você a estiver empunhando. O capítulo 13, *Equipamento*, tem as duas.
 
 ### Limites
 
@@ -3011,7 +3074,7 @@ Arco longo, treino de clã, silêncio. A rota do `Yumi` troca cadência por prec
 
 A besta é ferramenta de quem trabalha sozinho e não tem tempo de recarregar. Essa rota resolve a manivela de uma vez e usa o impacto do virote para tirar o inimigo do lugar, o que faz dela a única das três que também administra posicionamento.
 
-> **Nível 2: `Manivela`.** As suas bestas **deixam de carregar `Munição`** — a propriedade de arma do capítulo 11, *Equipamento* —, você nunca recarrega.
+> **Nível 2: `Manivela`.** As suas bestas **deixam de carregar `Munição`** — a propriedade de arma do capítulo 13, *Equipamento* —, você nunca recarrega.
 >
 > **Nível 11: `Mirar`.** Você ganha a ação **`Mirar`**, e os seus ataques com arma de longo alcance somam **`+2` no acerto**.
 >
@@ -3066,7 +3129,7 @@ Enquanto o `Batedor` administra o campo e a `Estocada` administra a rodada, o `E
 
 > **Todo estilo pede alguma coisa, e o pedido é regra.** Um estilo sem porta ficaria disponível para toda ficha, e aí ninguém escolheria os outros.
 
-O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 11, *Equipamento*.
+O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 13, *Equipamento*.
 
 ## Guia
 
@@ -3333,7 +3396,7 @@ Atributos naturais: **Inteligência** e **Essência**. O Evocador troca dano pes
 >
 > Vale saber o tamanho disso antes de escolher este Caminho. A Trilha é a maior fatia do que um personagem faz, e hoje o Evocador joga com os quatro degraus de Caminho, que estão prontos. Se a sua mesa quiser um Evocador agora, combine com o mestre o que ocupa essas quatro casas até elas saírem.
 
-**O que cada Trilha concede** é o corpo que você põe em campo. O resto da ficha da invocação você monta com o orçamento do capítulo 13, *Invocações*, por cima do que está na tabela.
+**O que cada Trilha concede** é o corpo que você põe em campo. O resto da ficha da invocação você monta com o orçamento do capítulo 15, *Invocações*, por cima do que está na tabela.
 
 **Trilhas do Evocador**
 | Trilha | O que ela concede | Orçamento do corpo | Vida do corpo |
@@ -3342,7 +3405,7 @@ Atributos naturais: **Inteligência** e **Essência**. O Evocador troca dano pes
 | `Matilha` | os cinco corpos | o da ficha | `5 × h`, em pool com cascata |
 | `Coro` | atacar e comandar na mesma rodada | o da ficha | `h` |
 
-*`h` é a vida de uma invocação pela fórmula do capítulo 13, __Invocações__, que já conta o tipo dela e o seu nível.*
+*`h` é a vida de uma invocação pela fórmula do capítulo 15, __Invocações__, que já conta o tipo dela e o seu nível.*
 
 #### Servo
 
@@ -3356,7 +3419,7 @@ Atributos naturais: **Inteligência** e **Essência**. O Evocador troca dano pes
 
 *Você e a invocação lutam juntos.* A fantasia é a da dupla que treinou junto: você entra na luta com o corpo, e os dois se cobrem. O `Coro` é a exceção de economia de ação: ele **ataca e comanda na mesma rodada**. O golpe é uma **Ação Bônus**, e ele só existe se a Ação Padrão daquele turno **comandou, e a invocação atacou**. O corpo dele é o mais frágil dos três, e é o único cuja queda deixa o kit funcionando: você continua batendo.
 
-> **Você e todas as suas invocações somados entregam a mesma saída de dano que você entregaria sozinho.** Com uma invocação, cada um entrega metade. Com três, cada um entrega um quarto. **A máquina completa (orçamento por nível, `Traço`, `Comando`, a amarra, morte e retorno) está no capítulo 13, *Invocações*.**
+> **Você e todas as suas invocações somados entregam a mesma saída de dano que você entregaria sozinho.** Com uma invocação, cada um entrega metade. Com três, cada um entrega um quarto. **A máquina completa (orçamento por nível, `Traço`, `Comando`, a amarra, morte e retorno) está no capítulo 15, *Invocações*.**
 
 ---
 
@@ -3785,7 +3848,7 @@ Com o Fundamento escrito, os feitiços saem dele. Montar um feitiço é uma cont
 
 ### Teto de feitiços
 
-Antes de montar o primeiro, veja quantos você tem direito de escrever. A conta é do capítulo 14, *Experiência e Progressão*, e está repetida aqui porque é agora que você precisa dela.
+Antes de montar o primeiro, veja quantos você tem direito de escrever. A conta é do capítulo 16, *Experiência e Progressão*, e está repetida aqui porque é agora que você precisa dela.
 
 > **Espaços de feitiço conhecido = `2 + (nível ÷ 2)`, arredondando para baixo. Mais um por marco já alcançado.**
 > Os marcos são os níveis **6, 10, 14, 18, 22, 26 e 30**.
@@ -4339,7 +4402,7 @@ Estender a sua técnica sobre o terreno: por alguns instantes, o lugar em volta 
 Ela é **comprada**, com espaços de feitiço conhecido, e só abre quando o seu nível e o seu **refino** alcançam os dois mínimos.
 
 > **Refino, em uma linha.**
-> O refino é o eixo de controle da sua ficha: quanto da sua energia você não desperdiça. Ele é do capítulo 10, *Aptidões e Refino*, sobe com os seus marcos e vai de 1 a 10.
+> O refino é o eixo de controle da sua ficha: quanto da sua energia você não desperdiça. Ele é do capítulo 11, *Aptidões e Refino*, sobe com os seus marcos e vai de 1 a 10.
 > Aqui ele é lido em três lugares e nada mais: **o requisito**, **o desconto lá dentro** e **quanto tempo o domínio fica de pé.**
 
 ### Degraus
@@ -4455,7 +4518,7 @@ Duas notas acompanham as oito: Restrição que o seu Selo já obriga não devolv
 | **26** | Classe 7. |
 | **30** | A terceira Liberação Máxima. |
 
-O Fundamento manda na Classe, na Liberação Máxima e em quando cada Classe Passiva abre. Quantos feitiços você conhece é conta de *Experiência e Progressão*: a fórmula está resumida em *Criando feitiços*, e a progressão nível a nível mora no capítulo 14, *Experiência e Progressão*.
+O Fundamento manda na Classe, na Liberação Máxima e em quando cada Classe Passiva abre. Quantos feitiços você conhece é conta de *Experiência e Progressão*: a fórmula está resumida em *Criando feitiços*, e a progressão nível a nível mora no capítulo 16, *Experiência e Progressão*.
 
 O que continua valendo aqui: **Passiva é paga com espaços dessa lista**, a **Expansão de Domínio** também, e as **Liberações Máximas ficam de fora**, porque elas não ocupam espaço.
 
@@ -4595,7 +4658,219 @@ Os do grupo Conceito quase sempre pedem uma Passiva de `Regra Própria` para fun
 ---
 
 
-# Capítulo 10 · Aptidões e Refino
+# Capítulo 10 · Técnica Marcial
+
+*fonte: `manual/42-tecnica-marcial.md`*
+
+> **Técnica Marcial é o Fundamento com o corpo no lugar da energia.** Mesma máquina, mesmo orçamento, mesma conta de montagem.
+>
+> **O que muda é a criação:** onde o Fundamento escreve um Selo, ela escolhe **três grupos de arma** ou **uma ferramenta sob medida**.
+>
+> **E o equipamento é a técnica.** Sem ele na mão, você é uma pessoa com um plano.
+
+Duas rotas de criação chegam aqui em vez de chegarem ao Fundamento: o **Corpo Amaldiçoado** e a **Restrição Celestial pelo ramo sem energia**. As duas estão no capítulo 7, *Origens e Legados*, e é lá que você descobre se é o seu caso.
+
+Quem chega aqui não escreve técnica inata. O que essa pessoa tem é o corpo, o treino e o que ela carrega na mão — e o sistema trata isso com o mesmo peso, com os mesmos pontos e com o mesmo teto que trata uma técnica amaldiçoada. Uma pessoa sem energia nenhuma alcança uma maldição de nível 30 porque o que ela empunha alcança, e porque o que ela faz com aquilo tem montagem, custo e Classe como qualquer feitiço tem.
+
+## Máquina herdada
+
+**Tudo que o capítulo 9, *Fundamento*, diz continua valendo aqui.** Pontos são `3 × Classe`, o custo em PE é o mesmo número, o que sobra de ponto vira `1d8` de dano, Melhorias e Restrições obedecem os mesmos tetos, e a sua lista tem `2 + (nível ÷ 2)` espaços, mais um por marco.
+
+O que muda cabe em três renomes e duas subtrações.
+
+**Fundamento e Técnica Marcial**
+| No Fundamento | Na Técnica Marcial |
+|---|---|
+| Descrição, com tipo de dano | igual |
+| Regra — a frase que contorna a técnica | igual |
+| duas Famílias Livres, três Fechadas | igual, e quem justifica é o que você empunha |
+| Selo | **sai.** No lugar dele, o equipamento |
+| feitiço | **`Kata`** |
+| Liberação Máxima | **`Ruptura`** |
+| Técnica Máxima | **`Ōgi`** |
+| Passiva Livre e Passivas pagas | igual |
+| Classe 0 | igual |
+| Expansão de Domínio | **não existe aqui** |
+| aptidões e refino | **Bênçãos e Lapidação**, para quem não tem energia |
+
+Nenhum número novo aparece nesta tabela, e isso não é atalho. Uma arma comum entrega dano de arma comum: a melhor do catálogo faz doze pontos e meio por rodada no nível 30, num sistema em que o que se espera de alguém naquele nível passa de cem. A distância entre as duas coisas não se fecha com um bônus, com uma manobra nem com uma escola de espada — ela tem o tamanho de um Fundamento inteiro. Então a resposta é dar o Fundamento, com outro nome e outra ficção em cima.
+
+### `Kata`
+
+**`Kata`** (型, a forma que se treina) — a aplicação concreta do que você sabe fazer, montada com pontos. É o feitiço com outro nome: mesma Classe, mesmos pontos, mesmo custo em PE, mesmo teto de Melhoria e de Restrição. Onde o capítulo 9 escreve *feitiço*, leia `Kata`.
+
+Uma Kata não é um golpe que você inventa na hora. É uma sequência que o seu personagem treinou até sair sozinha, e ela sai igual toda vez — do mesmo jeito que um feitiço sai igual toda vez.
+
+### `Ruptura`
+
+**`Ruptura`** — a única Kata que passa do limite de dano contra um alvo só. Uma no nível 10, uma no 20 e uma no 30. **`+Classe` em dados, custa a rodada inteira, `+50%` de PE**, e o preço se escolhe na hora: `Vazio`, `Sangue` ou `Peso`.
+
+É a Liberação Máxima do capítulo 9, com as mesmas regras e o mesmo lugar na progressão. O nome muda porque *Liberação Máxima* fala de soltar energia, e aqui não há energia para soltar: o que se rompe é o limite do próprio corpo.
+
+### `Ōgi`
+
+**`Ōgi`** (奥義, a técnica que a escola guarda) — o golpe de dano fixo, do nível 17 em diante. **Dano pela faixa de nível, orçamento de montagem à parte, `5 × maior Classe` de PE**, e não aceita Restrição.
+
+É a Técnica Máxima do capítulo 9. Uma escola de arma guarda um golpe que não se ensina para qualquer um, e é esse.
+
+## Rotas
+
+Na criação, depois da Descrição e da Regra, você escolhe uma das duas. **A escolha é uma vez e não muda**, como o Caminho e a Trilha.
+
+### Rota de arma
+
+> **Escolha três das treze categorias de arma, diferentes entre si.** As treze estão no capítulo 13, *Equipamento*.
+> **Você recebe uma arma de cada uma, de grau 4.** Grau 4 fere maldição e não dá `Estigma` nenhum — capítulo 14, *Ferramenta Amaldiçoada*.
+> **Você é treinado nas três**, seja qual for a lista de treino do seu Caminho.
+> **As suas Katas valem com qualquer arma amaldiçoada desses três grupos.**
+
+É a rota de quem não tem energia e compete porque a ferramenta carrega a energia por ela.
+
+**A peça específica é descartável, o grupo não.** Se a sua lâmina quebrou no meio da missão e você pegou outra do chão, as suas Katas continuam — é a mesma regra que a `Escola de Arma` da Vanguarda usa, no capítulo 8.
+
+#### Limites
+
+**Os três grupos entregam arma, treino e o Selo. Manha nenhuma.** Uma Vanguarda desta rota continua escolhendo **uma** categoria na `Escola de Arma`, e pode escolher uma que não seja das três.
+
+**As três armas começam em grau 4, e param aí.** Subir de grau é assunto do capítulo 14, pelo mesmo ritmo que vale para todo mundo.
+
+**Três armas na mochila não são três `Estigma`.** O teto conta pelo que está na mão, e não pelo que está guardado.
+
+#### Atributo
+
+A sua técnica declara um atributo na criação, como toda técnica declara — capítulo 9, *Fundamento*, na seção *Atributo da técnica*. Aqui ele decide também quais grupos você pode escolher:
+
+> **Os três grupos têm de acertar pelo atributo que você declarou.**
+
+Sem essa trava, metade do seu kit trabalha com um atributo e a outra metade com outro, e uma das duas fica para trás na campanha inteira. O catálogo de armas só tem duas respostas para *"que atributo acerta com essa arma?"*, então a trava é menos apertada do que parece:
+
+**Grupos por atributo de acerto**
+| Atributo | Grupos | Quais |
+|---|---|---|
+| **Força** | 8 | Lâmina Longa · Massa · Porrete · Manopla · Machado · Ceifa · Armas Longas · Flexível |
+| **Destreza** | 6 | Lâmina Curta · Lâmina Longa · Arremesso · Yumi · Balestra · Arma de Fogo |
+
+A `Lâmina Longa` está nas duas porque a Rapieira e a Katana carregam `Fineza`.
+
+> **Nenhum grupo de arma acerta por Inteligência, Essência ou Constituição.** Esta rota é sempre Força ou Destreza. Se a sua ficha é a pessoa que resolve com a cabeça, a rota é a de baixo.
+
+### Rota de ferramenta
+
+> **Escolha uma ferramenta amaldiçoada sob medida, de grau 4, na forma de objeto de apoio** — a categoria que o capítulo 14 abre ao lado do catálogo de armas.
+> **Ela não tem dado de arma**, e não precisa ter: as suas Katas nunca somaram o dado do equipamento.
+> **Ela declara na criação se o seu golpe simples atravessa por ela.**
+> **As suas Katas valem só com ela.**
+
+É a rota do restringido que não é espadachim. Uma armadura construída por engenharia, uma câmera amaldiçoada, uma maleta, um instrumento — a coisa que a pessoa fez porque não tinha o que o resto do mundo tem.
+
+**Ela declara qualquer um dos cinco atributos**, e quem justifica é a ficção do objeto, do mesmo jeito que o Fundamento aprova um feitiço contra a Descrição. Uma armadura de engenharia acerta por Inteligência; um instrumento que se toca acerta por Essência.
+
+> **Se a ficção for armadura, ela É o seu uniforme.** Não some com o `Traje` nem com o `Revestimento` do capítulo 13 — ela é um dos dois, e usa os números de lá.
+
+## Selo
+
+O Fundamento escreve um Selo: uma coisa que você sempre faz para conjurar. Aqui o Selo não se escreve, porque a rota já fixou qual é.
+
+> **O seu Selo é ter o equipamento em uso.** Uma das três armas, ou a ferramenta.
+
+Ele funciona como qualquer outro Selo: não custa ponto, não devolve ponto e não dá bônus. E ele cobra as duas mesmas coisas que o capítulo 9 já cobra de todo Selo:
+
+**Restrição contra o Selo**
+| A Restrição | O que acontece |
+|---|---|
+| qualquer uma que peça *"estar com a minha arma"* | **não devolve ponto.** O Selo já obriga isso |
+| `Gesto`, que pede as duas mãos livres | quase invendável nesta rota, e sem-arma nenhuma numa arma de duas mãos |
+
+## Ferir maldição
+
+Uma arma comum não fere maldição. Quem tem energia resolve isso com `canalizar energia`, a aptidão de graça do refino 1 — e quem não tem energia não tem aptidão nenhuma.
+
+O Selo resolve para as duas rotas, sem regra nova:
+
+> **Toda Kata passa pelo equipamento, e o equipamento é ferramenta amaldiçoada de grau 4.** Então toda Kata fere maldição, nas duas rotas.
+
+Sobra o golpe simples, que não é Kata e sai de graça em todo turno.
+
+**Golpe simples e maldição**
+| Rota | O golpe simples |
+|---|---|
+| **arma** | sai por uma das três, que são grau 4. **Fere maldição** |
+| **ferramenta** | é o soco, e soco não fere maldição. **Depende do objeto** |
+
+Na rota de ferramenta, o objeto declara qual dos dois é na criação — uma linha da ficha, escrita junto da Descrição, no mesmo lugar em que o Fundamento anota o tipo de dano.
+
+> **Coisa que o golpe atravessa** — armadura, manopla, máscara, coturno. O seu golpe simples fere maldição.
+> **Coisa que você só carrega** — câmera, lanterna, maleta, instrumento. O seu golpe simples não fere maldição, e as suas Katas continuam ferindo.
+
+> **⚠ Escolha com cuidado, porque ela cobra tarde.** O ataque extra que Bastião e Vanguarda ganham no nível 7 é um golpe simples solto. Se o seu objeto é do tipo que você só carrega, esses dois Caminhos passam a valer bem menos na sua ficha: contra maldição, o que você perde no nível 30 é quase o que uma Trilha inteira entrega.
+
+**Perder o dado da arma, sozinho, não é o problema.** O soco tem dado próprio, e a diferença entre ele e a maior arma de duas mãos é um ponto de dano por rodada no nível 30. O que custa é a porta, não o dado.
+
+> **Se a sua Origem for o Corpo Amaldiçoado, nada disto morde.** Você tem energia amaldiçoada, então tem aptidões e refino normais, e com eles o `canalizar energia` de graça no refino 1: o seu golpe simples fere maldição seja qual for o objeto. Você continua precisando do equipamento, porque ele é o Selo, e sem Selo não sai Kata.
+
+## `Desarmado`
+
+Pôr o Selo num objeto põe a sua ficha inteira atrás de uma condição — e a condição existe, no capítulo 4: **`Desarmado`**, quando alguém tira a sua arma da sua mão.
+
+É por isso que os grupos são **três**, e não um:
+
+> **Rota de arma:** a Kata vale com arma de qualquer um dos três grupos. Tiraram uma, sobram duas, e a sua ficha não para.
+> **Rota de ferramenta:** objeto de apoio não ocupa a mão de arma, e o `Desarmado` não alcança ele.
+
+Sacar a segunda é o primeiro saque do seu turno, então sai de graça — capítulo 2, *O Turno*, na seção *Sacar e guardar*. Só do segundo item em diante o saque custa a sua Ação de Movimento.
+
+## Expansão de Domínio
+
+> **A Técnica Marcial não tem Expansão de Domínio.** Nem incompleta, nem completa, tenha a sua ficha energia amaldiçoada ou não.
+
+Uma Expansão é a mesma técnica inata estendida sobre o território em volta. Esta rota não tem técnica inata para estender: ela tem corpo, treino e equipamento, e nada disso vira lugar.
+
+O que a rota ganha em troca está no capítulo 12, *Bênçãos e Lapidação*, e vale só para quem não tem energia nenhuma: o `cobrir-se` dela atravessa barreira de energia, e o Acerto garantido de uma Expansão completa não alcança ela.
+
+## Marco
+
+**O marco desta rota tem os três eixos**, iguais aos de todo mundo: `Corpo`, o eixo de controle, e `Leque`. A Técnica Marcial tem lista de Katas, tem Passivas e tem espaços — então o `Leque` compra o que ele sempre comprou, e o espaço de graça de cada marco tem onde cair.
+
+O eixo de controle muda de nome com a Origem: quem tem energia amaldiçoada leva `Refino` e aptidões, no capítulo 11; quem não tem leva `Lapidação` e Bênçãos, no capítulo 12.
+
+## Técnicas Marciais prontas
+
+Duas, uma de cada rota, prontas para usar como estão ou para servir de régua na hora de escrever a sua. As duas param onde a criação de personagem para: Descrição, Regra, atributo, rota, Famílias e a Passiva. `Ruptura` e `Ōgi` não aparecem porque só chegam nos níveis 10 e 17, e são escritas na hora.
+
+### Fisga
+
+**Ficha de Técnica Marcial**
+| | |
+|---|---|
+| **Descrição** | Ela não aprendeu nada elegante. Aprendeu a segurar peso, a alcançar mais longe do que o braço dela alcança, e a não largar. O que ela faz com uma arma é o que qualquer um faria, feito rápido demais para dar tempo de responder. Tipo de dano: corte. |
+| **Regra** | *"Alcançar antes, e não soltar."* |
+| **Atributo** | Força |
+| **Grupos** | Armas Longas · Ceifa · Flexível |
+| **Livres** | Alcance · Controle |
+| **Fechadas** | Amparo · Auxiliares · Área |
+| **Passiva** | `Raiz` (Classe Passiva 1): você não é movido à força nem derrubado contra a sua vontade |
+
+Os três grupos fecham em Força, e os três carregam `Alcance` e `Emaranha` — é isso que justifica as duas Famílias Livres. `Amparo` está Fechada porque nenhuma das três cura ninguém: nesta rota, as armas são a régua que o mestre lê.
+
+### Bancada
+
+**Ficha de Técnica Marcial**
+| | |
+|---|---|
+| **Descrição** | Ele nasceu sem nada e leu tudo. A armadura é dele: fez, refez, e conhece cada solda. Ela não tem energia amaldiçoada nenhuma dentro — o que ela tem é a maldição que ele prendeu no chassi e um sistema que ele entende melhor que o fabricante entenderia. Tipo de dano: impacto. |
+| **Regra** | *"Resolver o problema com a peça certa."* |
+| **Atributo** | Inteligência |
+| **Ferramenta** | uma armadura de corpo inteiro. **Coisa que o golpe atravessa** — os punhos dela são dele |
+| **Livres** | Auxiliares · Amparo |
+| **Fechadas** | Área · Marca · Castigo |
+| **Passiva** | `Leitura` (Classe Passiva 1): você identifica a Classe e a Forma de qualquer feitiço conjurado a até 18 m |
+
+A armadura da Bancada é o `Revestimento` do capítulo 13, com os números publicados lá — ela não é proteção nova. E `Amparo` é Livre porque a ficção aguenta: uma arma que cura é difícil de justificar, e uma bancada de engenharia não é.
+
+---
+
+
+# Capítulo 11 · Aptidões e Refino
 
 *fonte: `manual/45-aptidoes-e-refino.md`*
 
@@ -4604,6 +4879,8 @@ Aptidão é o que qualquer feiticeiro pode aprender, venha a energia de onde vie
 Aptidão se ensina. Ela passa de mestre para aluno, de escola de espada para escola de espada, e dois feiticeiros de técnicas opostas sabem exatamente as mesmas quatro coisas contra um domínio. É o repertório comum da profissão, e é o que faz a mesa inteira falar a mesma língua no meio de uma luta.
 
 Quem compra aptidão é o **refino**, o eixo de controle da sua ficha. Poder é quanto você tem. Refino é quanto você não desperdiça.
+
+> **Sem energia amaldiçoada não existe refino nem aptidão.** Uma ficha nessa situação usa **Lapidação** e **Bênçãos** no lugar dos dois, no capítulo 12, *Bênçãos e Lapidação*. A máquina é a mesma casa por casa; o que muda é o conteúdo do catálogo.
 
 ## Refino
 
@@ -4669,7 +4946,7 @@ O refino no teto acontece cedo para quem investe: a partir do nível 22, a metad
 > **Quem nunca escolhe Refino termina a campanha com zero aptidões.** A rota existe e é legítima: ela troca dez aptidões por sete pontos de atributo a mais. Está escrito aqui para ninguém descobrir isso no nível 20.
 Mesmo essa ficha não fica sem nada. `Cobrir-se de energia` e `Canalizar energia` vêm de graça no refino 1, e a primeira continua crescendo com o refino passivo até 8. O que ela nunca vai ter é `Energia Reversa` nem `Barreira Simples`.
 
-*O marco é do capítulo 14, __Experiência e Progressão__: é lá que estão os sete níveis em que ele cai, quanto refino cada rota junta marco a marco, e o que Corpo e Leque compram. Aqui interessa só a escolha de Refino, que é a que vira aptidão.*
+*O marco é do capítulo 16, __Experiência e Progressão__: é lá que estão os sete níveis em que ele cai, quanto refino cada rota junta marco a marco, e o que Corpo e Leque compram. Aqui interessa só a escolha de Refino, que é a que vira aptidão.*
 
 ## Aptidões
 
@@ -5037,7 +5314,329 @@ A regra da Expansão está no capítulo 9, *Fundamento*, e é lá que ela é mon
 ---
 
 
-# Capítulo 11 · Equipamento
+# Capítulo 12 · Bênçãos e Lapidação
+
+*fonte: `manual/47-bencaos-e-lapidacao.md`*
+
+Bênção é o que um corpo sem energia amaldiçoada aprende a fazer no lugar do que os outros fazem com energia. Ela não depende da sua técnica, não depende do seu equipamento, e não se compra com espaço de Kata.
+
+Bênção e Lapidação valem para **uma** rota de criação: a Restrição Celestial pelo ramo **sem energia**, no capítulo 7, *Origens e Legados*. Uma ficha com energia amaldiçoada — inclusive o Corpo Amaldiçoado, que produz a própria — usa refino e aptidões, no capítulo 11, *Aptidões e Refino*.
+
+Quem compra Bênção é a **Lapidação**. É a mesma máquina do refino, com outra métrica: poder é quanto você tem, e Lapidação é quanto o corpo já foi trabalhado.
+
+## Lapidação
+
+Um corpo humano tem folga. Ele para antes de arrebentar, dorme quando ainda daria para seguir, e desiste de um peso que ele aguentaria mais dez segundos. A Lapidação mede quanto dessa folga o seu personagem já gastou treinando — não a força que ele tem, mas o quanto do que ele tem chega até o fim do movimento.
+
+Alguém de Lapidação 1 é uma pessoa bem treinada, e uma pessoa bem treinada perde para uma maldição. Alguém de Lapidação 10 faz o que o corpo faz no último segundo antes de morrer, de propósito, sem custo e sempre que precisar.
+
+Na ficha, a Lapidação é um número de 1 a 10. Toda ficha começa em 1, e ela sobe nos marcos: os níveis **6, 10, 14, 18, 22, 26 e 30**.
+
+> **Cada marco te dá +1 de Lapidação de graça. Se você escolher Lapidação no marco, você ganha mais +1.**
+
+São os mesmos degraus do refino, casa por casa. Sete marcos de graça mais o 1 do começo fecham em Lapidação 8 sem escolher nada; quem escolhe Lapidação em todos bate no teto no nível 22.
+
+**Lapidação por marco**
+| marco | quem nunca escolhe Lapidação | quem sempre escolhe |
+|---|---|---|
+| começo da ficha | 1 | 1 |
+| 6 | 2 | 3 |
+| 10 | 3 | 5 |
+| 14 | 4 | 7 |
+| 18 | 5 | 9 |
+| 22 | 6 | **10** |
+| 26 | 7 | 10 |
+| 30 | **8** | 10 |
+
+### Efeito da Lapidação
+
+A Lapidação cresce de +7 a +9 numa campanha, e atributo e maestria crescem +3. Ela fica trancada fora das rolagens disputadas pelo mesmo motivo que o refino fica.
+
+> **A Lapidação nunca entra num número disputado contra alguém que cresce mais devagar que ela.** Ela fica fora de acerto, CD, defesa, Teste de Resistência e dano.
+
+Onde ela entra é em custo, em quantas vezes por cena, em alcance e duração, e em magnitude fora de disputa — a proteção de `Cobrir-se` e o piso do `Esteio`.
+
+> **Arredondamento.** Toda divisão de Lapidação arredonda para baixo: Lapidação 5 dividido por 2 dá 2.
+
+## Marco
+
+O seu marco tem os três eixos que todo mundo tem. O do meio é que se chama diferente.
+
+> **Passivo:** +1 ponto de atributo, +1 de Lapidação e +1 espaço de Kata.
+>
+> **Escolha, uma das três:**
+>
+> **Corpo** — mais um ponto de atributo.
+>
+> **Lapidação** — mais um de Lapidação, e uma Bênção. **Se a sua Lapidação já estiver no teto, você leva duas Bênçãos no lugar.**
+>
+> **Leque** — mais uma Kata, que só pode ser Kata, e uma Passiva.
+
+> **Quem nunca escolhe Lapidação termina a campanha com zero Bênçãos pagas.** A rota existe e é legítima: ela troca dez Bênçãos por sete pontos de atributo a mais. Está escrito aqui para ninguém descobrir isso no nível 20.
+Mesmo essa ficha não fica sem nada. `Cobrir-se` e `Estímulo Muscular` vêm de graça na Lapidação 1, e a primeira continua crescendo com a Lapidação passiva até 8.
+
+## Bênçãos
+
+Um marco de Lapidação compra **uma Bênção**. Duas do catálogo não custam marco nenhum: `Cobrir-se` e `Estímulo Muscular` já estão na sua ficha desde a Lapidação 1.
+
+> **Bênção não custa espaço de Kata.** Espaço de Kata é a moeda das Passivas. As duas economias são separadas: Bênção custa marco, e só marco.
+
+### Classe Passiva
+
+As Bênçãos usam a mesma escada das Passivas e das aptidões, e ela está no capítulo 9, *Fundamento*.
+
+**Classe Passiva**
+| Classe Passiva | o que cabe nela |
+|---|---|
+| **1** | efeito pequeno, condicional, ou de informação |
+| **2** | efeito reativo, com limite de uso por cena ou por descanso |
+| **3** | permanente. Muda como você joga |
+
+A Classe Passiva não cobra nada aqui: o marco compra uma de qualquer altura. Quem separa as alturas é o gate.
+
+### Gate
+
+Cinco Bênçãos pedem um **atributo**, e nenhuma outra pede coisa nenhuma.
+
+> **Gate de atributo:** você precisa daquele atributo em **4** ou mais para pegar a Bênção.
+
+Um gate de atributo diz de que corpo — ou de que cabeça — aquela coisa sai. Ele existe para as doze pagas se separarem dentro de uma Origem só: uma ficha tem entre 16 e 23 pontos de atributo ao longo da campanha inteira e enche dois ou três de cinco, então cada gate que você passa é um que você deixou de passar.
+
+> **⚠ Uma Bênção gateada num atributo não soma aquele atributo na rolagem dela.** Ou você paga para destravar, ou usa na conta — nunca os dois.
+
+Os cinco gates são um por atributo. Seja qual for a rota que a sua ficha seguiu, ela alcança alguma coisa deste catálogo — e nenhuma ficha alcança as cinco.
+
+## Catálogo
+
+Catorze entradas.
+
+### Como ler uma Bênção
+
+Cada entrada aparece duas vezes. Primeiro nesta tabela, com três campos: **nome**, **gate** e **Classe Passiva**. Depois na seção dela, com uma descrição do que ela é e uma caixa com a regra.
+
+Traço na coluna de gate quer dizer que ela não pede nada. Traço na de Classe Passiva quer dizer que a entrada não declara uma.
+
+**Como ler uma Bênção**
+| Bênção | Gate | Classe Passiva |
+|---|---|---|
+| Cobrir-se | grátis na Lapidação 1 | — |
+| Estímulo Muscular | grátis na Lapidação 1 | — |
+| Ímpeto | Destreza 4 | 2 |
+| Casco | Constituição 4 | 3 |
+| Presilha | Força 4 | 2 |
+| Vigília | — | 2 |
+| Esteio | — | 3 |
+| Faro | — | 1 |
+| Sem Pegada | — | 1 |
+| Vulto | — | 2 |
+| Antecipar | Inteligência 4 | 1 |
+| Campo | — | 1 |
+| Assombro | Essência 4 | 1 |
+| Bênção Própria | uma vez na ficha inteira | 1 ou 2 |
+
+## Bênçãos de graça
+
+Estas duas chegam com a ficha, na Lapidação 1, sem custar marco nenhum. Elas são o que separa alguém que treinou muito de alguém que treinou até o corpo mudar de regra.
+
+### Cobrir-se
+
+O feiticeiro espalha energia por cima da pele e apanha atrás dela. Você não tem energia, e o efeito é o mesmo: o golpe chega e o corpo já está no lugar certo, já contraído, já girando com ele em vez de contra. Quem assiste de fora não entende por que o osso não quebrou.
+
+É a mesma função que a `Cobrir-se de energia` do capítulo 11 faz, na mesma faixa, com outro recurso pagando.
+
+> **Cobrir-se** — sem Traje e sem Revestimento, a sua proteção é `1/3 da Lapidação + 1`. Escudo soma com ela.
+>
+> Gate: grátis na Lapidação 1. A Lapidação escala a proteção.
+
+Ela sai de cena assim que Traje ou Revestimento entram na conta, como a do feiticeiro sai. E ela é o piso que faz a queda de três andares e o teto que cede não matarem ninguém desta Origem.
+
+**E ela carrega duas coisas que a do feiticeiro não carrega:**
+
+> **Barreira de energia não segura você.** `Barreira Simples` e `Cortina` não valem contra você.
+>
+> **O Acerto garantido de uma Expansão de Domínio completa não alcança você.** Você não é alvo legível para ele. O Efeito continua acontecendo em volta, e uma Expansão incompleta funciona normalmente, porque o Acerto dela rola.
+
+Em troca, quem não tem energia nunca tem Expansão de Domínio — nem incompleta, nem completa. É a troca inteira, e ela está declarada nos dois lados.
+
+### Estímulo Muscular
+
+Você aprendeu a mandar no que o corpo faz sozinho. Antes do movimento que importa, você acerta a respiração, trava o que precisa travar e solta o resto — e o que sai é o seu melhor, e não a sua média.
+
+> **Estímulo Muscular** — escolha **uma perícia** e **um Teste de Resistência** na criação, e eles não mudam.
+>
+> **`1×` por cena, e `2×` se a sua Lapidação for `10`.** Cada uso dá **vantagem** numa rolagem de um dos dois.
+>
+> Gate: grátis na Lapidação 1.
+
+A escolha é sua e não precisa ser física. `Ocultismo` mais `Intelecto` é uma ficha tão legítima quanto `Atletismo` mais `Físico`.
+
+## Bênçãos de corpo
+
+Cinco coisas que o corpo passa a fazer. Três delas pedem atributo, e as três pedem atributos diferentes.
+
+### Ímpeto
+
+Você atravessa o vão antes de alguém decidir o que fazer com você. E o chão para de ser um requisito: parede, água e ar servem enquanto você não parar.
+
+> **Ímpeto** — como Ação Bônus, você se move até o seu deslocamento sem provocar ataque de oportunidade.
+>
+> **E o chão deixa de ser obrigatório:** você anda em parede, em água e no ar enquanto estiver se movendo. Se terminar o movimento sem apoio, você cai.
+>
+> Gate: Destreza 4. Classe Passiva 2.
+
+### Casco
+
+O golpe entra e não derruba. Não é que doa menos — é que o que ele acerta continua funcionando.
+
+> **Casco** — você ganha **`+1` de vida a cada dois níveis** e **`+1`** em todo Teste de Resistência de Vigor.
+>
+> Gate: Constituição 4. Classe Passiva 3.
+
+### Presilha
+
+Você pega, e o que você pegou não sai. Agarrar, derrubar e tirar alguém do lugar param de depender de sorte.
+
+> **Presilha** — quando você erra uma rolagem para **agarrar, derrubar ou tirar alguém do lugar**, role de novo. Uma vez por rodada.
+>
+> Gate: Força 4. Classe Passiva 2.
+
+### Vigília
+
+O corpo não para quando devia parar. Duas noites em claro, três dias de missão, e você ainda está tomando a decisão certa quando os outros já não estão.
+
+> **Vigília** — você conta **um degrau de exaustão a menos** do que tem, para todo efeito.
+>
+> O degrau continua marcado na ficha. O que muda é o que ele cobra de você.
+>
+> Gate: nenhum. Classe Passiva 2.
+
+Ela não vira imunidade: a escada de exaustão do capítulo 5 tem três degraus e não tem degrau zero, então o pior caso continua sendo dois. E o descanso longo continua limpando no mesmo ritmo.
+
+### Esteio
+
+Existe uma coisa que você não erra, porque você já a fez tantas vezes que o pior dia seu ainda é bom. O dado deixa de te trair nela.
+
+> **Esteio** — escolha **um atributo** na criação. Num Teste de Resistência daquele atributo, se o `d20` sair abaixo da sua **Lapidação**, ele vale a sua Lapidação.
+>
+> **O piso nunca passa do atributo escolhido mais `2`** — então o máximo dele é `8`.
+>
+> Gate: nenhum. Classe Passiva 3.
+
+O teto é o que separa o `Esteio` de imunidade. Contra a CD de um conjurador do seu nível o `d20` precisa sempre de 8, e o piso só chega lá quando o atributo escolhido chega a 6. Abaixo disso ele resolve o teste médio e deixa o difícil de pé.
+
+**Esteio no teto**
+| o que você precisa tirar | com `Esteio` no teto |
+|---|---|
+| CD 10 — rotina | automático |
+| CD 14 — fácil | automático |
+| CD 18 — média | ainda rola |
+| CD 22 — difícil | ainda rola |
+
+## Bênçãos de perseguição
+
+Duas, e uma anula a outra. Duas fichas desta Origem numa perseguição empatam.
+
+### Faro
+
+O corpo acha o que a energia acharia. Cheiro, marca, o que ficou fora do lugar, o galho quebrado na altura errada. Você não sente energia amaldiçoada — ninguém desta Origem sente —, e mesmo assim chega no mesmo lugar.
+
+> **Faro** — você segue rastro de feiticeiro e de maldição pelo que o corpo deles deixou.
+>
+> **E, encostando no que uma técnica fez, você sabe o que ela fez ali** — sem saber de quem é.
+>
+> Gate: nenhum. Classe Passiva 1.
+
+Ela não diz onde a coisa está agora e não identifica ninguém. Vestígio é passado.
+
+### Sem Pegada
+
+Você não deixa por onde te seguirem. Não é furtividade: `Furtividade` continua sendo a perícia, e esta Bênção não soma nada nela.
+
+> **Sem Pegada** — você não deixa rastro físico: pegada, cheiro, marca, som de passo. **Nem `Faro`, nem cão, nem técnica de rastreamento acham por onde você passou.**
+>
+> Gate: nenhum. Classe Passiva 1.
+
+Quem te viu passar continua sabendo. Isto apaga o vestígio, não a testemunha.
+
+## Bênçãos de combate
+
+Quatro coisas que acontecem quando a cena abre.
+
+### Vulto
+
+Você percebe sem enxergar. Deslocamento de ar, o som que a sala devolve, o peso de alguém no assoalho — e dentro de uma distância você sabe onde está tudo, com os olhos fechados ou no escuro completo.
+
+> **Vulto** — você percebe tudo o que estiver a **`1,5 m × metade da Lapidação`** de você sem precisar enxergar.
+>
+> Gate: nenhum. Classe Passiva 2.
+
+No teto são 7,5 metros.
+
+### Antecipar
+
+Você lê a intenção no corpo: peso, guarda, para onde os olhos foram. Um feiticeiro lê a energia do outro e sabe o que vem; você lê a postura e chega na mesma resposta.
+
+> **Antecipar** — no começo do combate, escolha uma criatura que você enxerga. **Até o fim da cena, você sabe qual foi a última ação que ela tomou e se ela se moveu antes de agir.**
+>
+> Gate: Inteligência 4. Classe Passiva 1.
+
+Ela alcança quem não conjura, que é onde a leitura por energia falha — e é pior contra quem conjura de longe, onde não há postura para ler.
+
+### Campo
+
+Você olha para alguém uma vez e já sabe o que precisa saber. Onde os outros gastam o turno estudando, você gastou o tempo de entrar na sala.
+
+> **Campo** — a ação **`Estudar`** custa a sua Ação Bônus em vez da Ação Padrão, **uma vez por cena**.
+>
+> Gate: nenhum. Classe Passiva 1.
+
+O `Ler o Ambiente` continua custando o que custava: ele é sobre o lugar, e o `Estudar` é sobre a criatura.
+
+### Assombro
+
+Você assusta sem ter energia para assustar. É a forma de entrar, o que você já fez e o que a pessoa conclui olhando para você — e ela conclui antes de decidir se acredita.
+
+> **Assombro** — uma vez por cena, ao entrar numa cena ou ao ser visto pela primeira vez, escolha uma criatura que enxerga você.
+>
+> **Ela faz um Teste de Resistência de Espírito contra a CD da sua técnica ou fica `Amedrontado` até o fim do próximo turno dela.**
+>
+> Gate: Essência 4. Classe Passiva 1.
+
+A CD é a da sua técnica, do capítulo 9: `8 + atributo da técnica + maestria`. Se o atributo da sua técnica for Essência, a trava do gate vale — a Essência não entra duas vezes.
+
+## Escrever uma Bênção
+
+### Bênção Própria
+
+A vaga em branco do catálogo. É a coisa que o seu personagem descobriu que o corpo dele faz, pequena o bastante para nunca ter virado regra escrita, e específica o bastante para ninguém mais na mesa fazer igual.
+
+> **Bênção Própria** — você escreve, com o mestre, uma Bênção que não está no catálogo. Antes da sessão, e nunca no meio dela. Ela é Classe Passiva 1 ou 2, nunca 3, e você só pode pegá-la uma vez na ficha inteira.
+>
+> A ficha registra duas coisas: a frase, e a resposta de *"em quantas cenas por arco isso vai importar?"*.
+>
+> Gate: uma vez na ficha inteira. Classe Passiva 1 ou 2.
+
+A régua é a mesma da `Aptidão Própria`, no capítulo 11, e vale inteira: uma frase, verificável, sem dado de dano, com limite por cena se for Classe Passiva 2, e não pode repetir uma das doze do catálogo com outro nome nem entregar uma que o seu gate não alcança.
+
+**Peso e degrau**
+| em quantas cenas por arco | o peso | o degrau |
+|---|---|---|
+| uma | Leve | Classe Passiva 1 |
+| metade | Média | Classe Passiva 2 |
+| quase toda | Pesada | Classe Passiva 3 |
+
+> **Na dúvida, Pesada.** Pesada é Classe Passiva 3, e a Classe Passiva 3 está fora do que a `Bênção Própria` alcança. Então dúvida reprova a proposta.
+
+E existe um requisito a mais deste lado, que sai do que cada atributo faz:
+
+> **Uma Bênção gateada em Constituição ou em Força não pode ser bônus, vantagem ou rerrolagem numa perícia.** Ela tem de ser **feito**: sobrevivência, recuperação, ou uma coisa que o corpo passa a poder fazer.
+
+O motivo está no quadro de perícias do capítulo 3: Inteligência tem 11 perícias, Essência 7, Destreza 4, Força 1 e Constituição nenhuma. Quanto menos perícias o atributo do gate tem, mais a entrada tem de ser feito em vez de rolagem — e numa gateada em Constituição, feito é a única forma que sobra.
+
+---
+
+
+# Capítulo 13 · Equipamento
 
 *fonte: `manual/50-equipamento.md`*
 
@@ -5125,7 +5724,7 @@ Revestimento é placa, acolchoamento e peso, montado para aguentar o golpe de fr
 
 > **Traje e Revestimento desligam a sua proteção passiva de energia amaldiçoada.** Vestido, a sua proteção é a do uniforme, e só ela. Escudo soma por cima, sempre.
 
-A Reação de cobrir-se continua disponível de uniforme. Ninguém tira o colete no meio do golpe. Ela é a aptidão `Cobrir-se de energia`, e o preço dela está no capítulo 10, *Aptidões e Refino*.
+A Reação de cobrir-se continua disponível de uniforme. Ninguém tira o colete no meio do golpe. Ela é a aptidão `Cobrir-se de energia`, e o preço dela está no capítulo 11, *Aptidões e Refino*.
 
 ## Escudo
 
@@ -5158,7 +5757,7 @@ De Revestimento a sua Destreza já não conta na Defesa, então o teto do escudo
 
 São 52, divididas em treze categorias. A categoria diz o que a coisa é, de onde vem o dano dela e em qual lista de treino ela cai.
 
-Nenhuma arma deste catálogo fere maldição sozinha. Contra maldição, o que resolve é energia amaldiçoada no golpe ou uma ferramenta amaldiçoada na mão, que é uma arma daqui mais um `Estigma`, no capítulo 12, *Ferramenta Amaldiçoada*. O catálogo abaixo continua valendo inteiro contra gente, contra bicho e contra parede.
+Nenhuma arma deste catálogo fere maldição sozinha. Contra maldição, o que resolve é energia amaldiçoada no golpe ou uma ferramenta amaldiçoada na mão, que é uma arma daqui mais um `Estigma`, no capítulo 14, *Ferramenta Amaldiçoada*. O catálogo abaixo continua valendo inteiro contra gente, contra bicho e contra parede.
 
 ### Como ler uma arma
 
@@ -5193,7 +5792,7 @@ São doze. Propriedade é o que a arma é: ela já está impressa na linha do ca
 | `Vestida` | Não ocupa a mão |
 | `Talha` | A arma é ruim de aparar: **−1** no `Bloquear` de quem se defende |
 
-> **`Talha` é a única das doze ligada ao `Bloquear`**, a rolagem de `2d10` que a sua mesa pode usar no lugar da Defesa estática — o capítulo 15 explica a escolha. Onde a mesa usa a Defesa estática, as nove armas com `Talha` seguem valendo por tudo o mais que elas são: dado, alcance, o resto das propriedades. Só esse `−1` específico não tem onde entrar.
+> **`Talha` é a única das doze ligada ao `Bloquear`**, a rolagem de `2d10` que a sua mesa pode usar no lugar da Defesa estática — o capítulo 17 explica a escolha. Onde a mesa usa a Defesa estática, as nove armas com `Talha` seguem valendo por tudo o mais que elas são: dado, alcance, o resto das propriedades. Só esse `−1` específico não tem onde entrar.
 
 Três delas decidem cena fora de combate com frequência. `Oculta` é a que deixa você entrar armado numa reunião, num velório ou numa portaria com detector. `Rompe` é a que abre cadeado, grade, alçapão e tampa de bueiro sem esperar ninguém. `Vestida` é a que responde quando alguém manda você largar tudo o que está na mão.
 
@@ -5281,7 +5880,11 @@ Um Caminho conjurador não pega espadão de graça: ele precisa da Trilha que co
 
 As duas listas chegam ao mesmo teto de dado, na uma mão e nas duas. O que muda entre elas é o tipo de arma. O lado marcial fica com o alcance, e o simples fica com a ocultação e com o `Par`.
 
-> **Sem treino, você não empunha.** Hoje isso é proibição pura. A regra de penalidade para quem pega assim mesmo está sendo escrita.
+> **Sem treino, você tem desvantagem na rolagem de ataque com aquela arma.**
+>
+> **Sem o requisito de Força dela, o seu deslocamento cai 3 metros enquanto você a estiver empunhando.**
+
+As duas se somam, e somadas elas fecham a porta na prática: quem pega uma arma que não é sua rola pior e anda menos. Não é proibição escrita, e o resultado é quase o mesmo.
 
 ## Requisito de Força
 
@@ -5502,7 +6105,7 @@ No topo da escada o soco bate mais forte que qualquer arma de uma mão do catál
 ---
 
 
-# Capítulo 12 · Ferramenta Amaldiçoada
+# Capítulo 14 · Ferramenta Amaldiçoada
 
 *fonte: `manual/55-ferramenta-amaldicoada.md`*
 
@@ -5554,7 +6157,7 @@ O que o grau escolhe é o **formato** do `Estigma`: se ele é pequeno e condicio
 | **1** | Classe 3: permanente, muda como você joga | 13 | as forjadas de topo |
 | **especial** | Classe 3, e ela é única no mundo | 13 | Nuvem Divertida · Lança Invertida do Céu · Corrente de Mil Milhas |
 
-As Classes são as mesmas do capítulo 10, *Aptidões e Refino*, e o nível mínimo é o de lá: uma aptidão de Classe 2 pede nível 7, uma de Classe 3 pede nível 13, e Classe 1 não pede nada.
+As Classes são as mesmas do capítulo 11, *Aptidões e Refino*, e o nível mínimo é o de lá: uma aptidão de Classe 2 pede nível 7, uma de Classe 3 pede nível 13, e Classe 1 não pede nada.
 
 ### Grau e refino
 
@@ -5663,7 +6266,7 @@ Cada tabela de Classe traz o nome e **quando o `Estigma` age**: sempre ligado, n
 >
 > **`Cisão`** — o golpe dela causa dano de alma no lugar do dano de vida. O corpo do alvo não mostra nada, e o que rasga está por baixo. É uma troca: contra alvo de alma dura, você vai sentir falta do dano normal.
 >
-> **`Insondável`** — enquanto a ponta dela estiver escondida, o alcance dela é **na cena**. Enquanto ninguém consegue ver onde a lâmina termina, ela termina onde você quiser. As três faixas de alcance estão no capítulo 13, *Invocações*.
+> **`Insondável`** — enquanto a ponta dela estiver escondida, o alcance dela é **na cena**. Enquanto ninguém consegue ver onde a lâmina termina, ela termina onde você quiser. As três faixas de alcance estão no capítulo 15, *Invocações*.
 >
 > **`Contrapeso`** — ela ignora o requisito de Força da arma. Qualquer um empunha, e o peso da coisa se resolve sozinho na mão de quem a segura.
 
@@ -5687,7 +6290,7 @@ Uma ferramenta por faixa de grau, entregue nesse ritmo, dá cinco na campanha in
 ---
 
 
-# Capítulo 13 · Invocações
+# Capítulo 15 · Invocações
 
 *fonte: `manual/60-invocacoes.md`*
 
@@ -5956,12 +6559,12 @@ Duas coisas vão aparecer na sua mesa antes de ganharem regra.
 
 **Invocação que não obedece.** A regra supõe que ela obedece: você gasta a Ação Padrão e ela faz. Existem invocações na ficção que agem por conta própria, contra a vontade de quem as carrega, e elas não têm regra escrita ainda. Se a sua mesa quiser uma dessas, é acordo com o mestre.
 
-**Selar com talismã.** O talismã do material sela objeto amaldiçoado, e o alvo dela é o objeto amaldiçoado do capítulo 12, *Ferramenta Amaldiçoada*, que ainda não tem regra de selamento escrita. Por enquanto o `talismã` é um tipo de invocação como os outros três, com a vida dele, e selar não é uma entrada do catálogo.
+**Selar com talismã.** O talismã do material sela objeto amaldiçoado, e o alvo dela é o objeto amaldiçoado do capítulo 14, *Ferramenta Amaldiçoada*, que ainda não tem regra de selamento escrita. Por enquanto o `talismã` é um tipo de invocação como os outros três, com a vida dele, e selar não é uma entrada do catálogo.
 
 ---
 
 
-# Capítulo 14 · Experiência e Progressão
+# Capítulo 16 · Experiência e Progressão
 
 *fonte: `manual/80-experiencia-e-progressao.md`*
 
@@ -6216,7 +6819,7 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 ---
 
 
-# Capítulo 15 · Apêndice · Bloquear
+# Capítulo 17 · Apêndice · Bloquear
 
 *fonte: `manual/90-apendice-bloquear.md`*
 

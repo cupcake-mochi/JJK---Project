@@ -8,6 +8,117 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.124] — 22/08/2026
+
+**O livro alcançou a fonte, e a pergunta que ninguém fazia ganhou dono.**
+
+*A v0.123 mediu que o livro estava cinco versões atrás e registrou a dívida sem consertar. Esta versão paga as duas metades: o conteúdo, e a checagem que impede a dívida de voltar.*
+
+### Adicionado — dois capítulos, e o livro foi de 15 para 17
+
+***Decisão do Mizuki, as duas:*** **a Técnica Marcial entra como capítulo 10, colado no Fundamento**, e **as catorze Bênçãos ganham capítulo próprio, colado em Aptidões e Refino** — o 12.
+
+| entra | palavras | o que custou de renumeração |
+|---|---|---|
+| `42-tecnica-marcial.md` · capítulo 10 | 2.587 | 17 referências e 27 linhas do glossário |
+| `47-bencaos-e-lapidacao.md` · capítulo 12 | 3.019 | 14 referências e 25 linhas do glossário |
+
+**O prefixo do arquivo tem folga de propósito, então nenhum arquivo foi renumerado.** *O número do CAPÍTULO desloca de qualquer jeito, e ele é o que o livro usa para apontar:* **do 10 em diante todo capítulo subiu, e o Apêndice foi de 15 para 17.**
+
+> **A conta da renumeração foi medida antes de perguntar, e as três posições tinham preço diferente:** *colado no Fundamento custava `44` mudanças de número, depois da Ferramenta Amaldiçoada custava `19`, e no fim de "O personagem" custava `9`.* **Ele escolheu a mais cara**, e o argumento é o do leitor: quem monta Corpo Amaldiçoado lê o Fundamento, vê que não serve, e a alternativa está na página seguinte.
+
+**O de Técnica Marcial leva a máquina inteira** — a tabela do que muda, os três renomes com a tradução dos kanjis, as duas rotas, a trava do atributo, ferir maldição, o `Desarmado` e dois Fundamentos prontos, `Fisga` e `Bancada`. **O de Bênçãos espelha o de Aptidões seção por seção:** Lapidação, marco, Classe Passiva, gate, catálogo, as duas de graça e as doze pagas.
+
+*O que ficou de fora dos dois é o mesmo que fica de fora do resto do livro:* **fatia, dominância e a conta que derivou o número.** *Isso é `REMOCOES-material-de-mestre.md`, e continua valendo.*
+
+### Corrigido — a v0.117 mudou o acerto e o livro ficou com a fórmula velha em cinco lugares
+
+***Achado nesta versão, e ele não estava na lista de dívidas da v0.123.*** *Aquela lista media termo ausente; isto é número publicado errado.*
+
+| onde | o livro dizia | a fonte diz |
+|---|---|---|
+| capítulo 1, *Testes de Resistência* | `d20 + atributo do TR, mais 2 se treinado` | `d20 + atributo + maestria`, e a maestria só se treinado |
+| capítulo 1, *Maestria* | *"entra em três lugares"*, e **fora** do Teste de Resistência | entra em toda rolagem de ataque, na CD e no que você treinou |
+| início rápido | `Atacar = d20 + Força`, sem maestria | `d20 + maestria + Força` |
+| início rápido | `Teste de Resistência ... +2 se treinado` | a maestria |
+| capítulo 6, *Números do nível 2* | `CD de feitiço | 13` | `8 + atributo da técnica + maestria` |
+
+> **O `13` é o rastro mais claro de todos: ele é `10 + 2 + maestria`, a CD que a v0.117 aposentou.** *Um número solto onde as linhas vizinhas são fórmula.*
+
+**As três linhas de ataque daquela tabela também perderam o `+ 1` da maestria.** *A peça 8 publica as três com ele desde a v0.117; a transposição parou antes.*
+
+### Corrigido — o resto do que a v0.123 mediu
+
+- **As catorze Bênçãos e a Lapidação:** eram `0` ocorrências, e agora são capítulo.
+- **O ramo `Energia pelo corpo` virou `sem energia`**, com o motivo escrito: o que a Origem fixa é a perda, e não o que se constrói em cima dela.
+- **`PE` lendo como `Pontos de Esforço`:** era `0` ocorrências, e entrou no glossário e no capítulo de Origens.
+- **A Técnica Marcial deixou de ser anunciada como pendente em oito linhas**, e as rotas foram de `Seis das nove` para `Oito das nove`.
+- **`Ação de Movimento` e a regra de sacar e guardar** entraram no capítulo do turno e no glossário.
+- **A penalidade de arma existe desde a v0.104**, e dois capítulos ainda diziam que ela estava sendo escrita.
+- **A regra de Pactos fechou na v0.116**, e o livro repetia a trava da `Regra Própria` como se fosse dela — a cópia sem dono que aquela versão tinha acabado de tirar da peça 8.
+
+### Adicionado — cinco Legados que a v0.104 escreveu e o livro nunca publicou
+
+**`Revezamento` · `Cabo` · `Usado` · `Talhe` · `Assinado`.** *Eram as cinco vagas de `Desliga` que a peça 19 e a peça 16 destravaram, preenchidas na v0.104.* **O livro continuava imprimindo `vaga reservada` nas cinco linhas**, vinte versões depois.
+
+*Medido: a peça 13 tem `85` entradas escritas e o livro tinha `80`.* **Sobra uma vaga de verdade — a de objeto amaldiçoado, no Reencarnado —, e a do Corpo Amaldiçoado passou a dizer que o alvo ainda não foi escolhido, em vez de dizer que a peça está sendo escrita.**
+
+### Adicionado — a checagem 10 do `conferir-repositorio.py`
+
+> **A checagem 7 pergunta *"o RECORTE da entrega está atualizado?"* e responde por md5. A 10 pergunta *"o CONTEÚDO do livro bate com as peças?"*.** *São perguntas diferentes, e até aqui só uma tinha dono — a mesma forma do achado da v0.121, por outra porta.*
+
+Seis sub-blocos, e **nenhum valor de regra escrito dentro dela**:
+
+| # | o que ela confere | de onde ela lê |
+|---|---|---|
+| 10.1 | as três listas de capítulo batem | `build.py` · `build_docx.py` · `conferir-voz.py` |
+| 10.2 | todo `.md` do livro está declarado, e todo declarado existe | a pasta |
+| 10.3 | toda `capítulo N, *Título*` aponta para o capítulo certo | a ordem do `build.py` |
+| 10.4 | todo termo batizado e **vivo** nas peças aparece no livro | o `SISTEMA` do `conferir-nomes.py` |
+| 10.5 | todo Legado escrito na peça 13 está no livro | a peça 13 |
+| 10.6 | o livro não anuncia como pendente uma peça que existe | os títulos de `03-mecanica/` |
+
+> **A 10.1 é a lição nº 9 na forma mais crua que este projeto já teve.** *Três arquivos carregavam a ordem dos capítulos, cada um por conta, e nenhum validador comparava os três.* **Capítulo novo entra em um e some dos outros dois, e o PDF sai sem ele sem avisar.**
+
+> **A 10.4 precisou separar termo vivo de termo morto, e a regra é derivada.** *Um termo que só aparece em linha de citação (`>`) nas peças é **história** — a convenção da v0.81 — e o livro não tem de publicar nome morto.* **O `Golpe canalizado` morreu na v0.81 e continua na lista de propriedade justamente para ninguém reusar o nome.** *É o contra-teste do arnês: pondo ele numa linha viva, a checagem passa a cobrar ele do livro.*
+
+**Onze perturbações conferidas em cópia isolada, com a base passando antes e depois de cada uma.** *As seis sub-checagens, três guardas de extrator, a guarda de piso da referência cruzada, e o contra-teste do termo morto.*
+
+> **⚠ E três delas saíram VERDES na primeira rodada, pelo mesmo defeito meu: a perturbação era menor do que o que a checagem mede.** *Trocar UMA ocorrência de `Lapidação` num livro que tem `43`; renomear UM capítulo quando o piso conta as `69` referências; trocar UM `> **` quando o extrator conta `85` Legados.* **A perturbação tem de ser do tamanho do conjunto que a checagem mede** — é a família do achado da v0.122, onde o `diff` perguntava "mudou?" em vez de "a minha mudança entrou?".
+>
+> *E a quarta forma do mesmo erro apareceu no conserto: `>  **` com dois espaços não quebra nada, porque o `\s*` do regex aceita.* **Uma perturbação que o alvo tolera é um verde que não conferiu.**
+
+*A contagem foi de `202` para `203` checagens, em `21` validadores.*
+
+### Medido e NÃO aplicado — a `cobrir-se` das Bênçãos não herda a Reação
+
+**A `Cobrir-se de energia` do feiticeiro tem duas metades:** *a proteção passiva `1/3 do refino + 1`, e a Reação que concentra a camada num golpe — `1,5 × refino` de Redução de Dano por `2` PE.*
+
+**A peça 11 §6.8 porta só a primeira.** *Ela escreve "mesma curva de `1` a `4`, mesmas regras de interação — Traje e Revestimento desligam, escudo soma", e não diz nada da Reação.*
+
+> **O livro foi escrito fiel à fonte: a Bênção `Cobrir-se` dá proteção e mais nada.** *Inventar a Reação aqui seria pôr no livro um número que peça nenhuma é dona — a lição nº 9 pela porta da frente.*
+>
+> ***Fica como pergunta para a peça 11, e ela não é de sabor:*** *se a rota sem energia deve ter a Reação defensiva que o feiticeiro tem, ou se não ter é parte do que ela paga.* **Ela tem `PE` para gastar — a v0.120 garantiu isso —, então a porta está aberta pelo lado da economia.**
+
+### Alterado — o `conferir-voz.py` continua saindo `0` quando acha problema
+
+*Ele só sai `1` com `--estrito`, e o `subir.sh` não roda ele.* **Rodado com `--estrito` nesta versão: `0` achados, `0` referência quebrada, `0` termo sem destino.** *Registrado como o que é — um validador que reporta e não trava —, e não consertado aqui: mudar o código de saída dele é decisão que muda o fluxo de commit.*
+
+### O livro, medido
+
+| | antes | depois |
+|---|---|---|
+| capítulos numerados | 15 | **17** |
+| palavras | 74.222 | **81.016** |
+| páginas do PDF | 237 | **259** |
+| Legados publicados | 80 | **85** |
+
+**A `guard_numeros.py` rodou arquivo por arquivo, contra a versão anterior já renumerada**, para separar o que a renumeração mexeu do que o conteúdo mexeu. *Nove capítulos saíram com `0` diferença; nos outros, toda diferença é linha nova ou o conserto da v0.117.* **Nenhum número de regra se moveu por acidente.**
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **A fila de mecânica não mudou: as três Trilhas do Evocador**, paradas por decisão do Mizuki. *O que esta versão acrescenta à lista de dívidas é a Reação da `cobrir-se` portada, que é da peça 11, e o repreço do `Desarmado`, que a v0.123 mediu e continua na peça 19.*
+
+---
+
 ## [0.123] — 22/08/2026
 
 **A regra de sacar arma, que não existia — e o segundo catálogo que a triagem não enxergava.**

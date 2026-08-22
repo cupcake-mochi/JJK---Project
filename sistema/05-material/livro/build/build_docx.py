@@ -31,7 +31,9 @@ CHAPTERS = [
     ("25-origens.md", "Origens e Legados"),  # o .md já traz este título
     ("35-caminhos-e-trilhas.md", "Caminhos e Trilhas"),
     ("40-fundamento.md", "Fundamento"),
+    ("42-tecnica-marcial.md", "Técnica Marcial"),
     ("45-aptidoes-e-refino.md", "Aptidões e Refino"),
+    ("47-bencaos-e-lapidacao.md", "Bênçãos e Lapidação"),
     ("50-equipamento.md", "Equipamento"),
     ("55-ferramenta-amaldicoada.md", "Ferramenta Amaldiçoada"),
     ("60-invocacoes.md", "Invocações"),

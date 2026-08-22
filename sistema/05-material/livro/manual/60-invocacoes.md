@@ -287,4 +287,4 @@ Duas coisas vão aparecer na sua mesa antes de ganharem regra.
 
 **Invocação que não obedece.** A regra supõe que ela obedece: você gasta a Ação Padrão e ela faz. Existem invocações na ficção que agem por conta própria, contra a vontade de quem as carrega, e elas não têm regra escrita ainda. Se a sua mesa quiser uma dessas, é acordo com o mestre.
 
-**Selar com talismã.** O talismã do material sela objeto amaldiçoado, e o alvo dela é o objeto amaldiçoado do capítulo 12, *Ferramenta Amaldiçoada*, que ainda não tem regra de selamento escrita. Por enquanto o `talismã` é um tipo de invocação como os outros três, com a vida dele, e selar não é uma entrada do catálogo.
+**Selar com talismã.** O talismã do material sela objeto amaldiçoado, e o alvo dela é o objeto amaldiçoado do capítulo 14, *Ferramenta Amaldiçoada*, que ainda não tem regra de selamento escrita. Por enquanto o `talismã` é um tipo de invocação como os outros três, com a vida dele, e selar não é uma entrada do catálogo.
