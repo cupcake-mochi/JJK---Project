@@ -1066,7 +1066,7 @@ else:
         print('  [x] nenhuma Classe de Passiva aparece sem as duas palavras.')
 
 # --------------------------------------------------------------------------
-bloco('6. A CURVA DAS TRES ROTAS — ela cai da regra, e nao da tabela')
+bloco('8. A CURVA DAS TRES ROTAS — ela cai da regra, e nao da tabela')
 # --------------------------------------------------------------------------
 # A curva veio do 02-esqueleto/arquitetura.md §4.3 para a peca 11 §3 na v0.104:
 # ela era a ultima fonte de progressao do projeto fora de uma peca de regra.
@@ -1128,6 +1128,95 @@ else:
             else:
                 print('  [x] o refino 7 cai no nivel 14 e no 26, que e o gate que a '
                       'secao 5 publica')
+
+# --------------------------------------------------------------------------
+bloco('9. LAPIDACAO — a contraparte le os mesmos numeros do refino, ou diverge')
+# A Lapidacao (peca 11 SS6.8) e o refino da rota sem energia amaldicoada. Ela NAO
+# tem numero proprio: a peca escreve que ela e "a mesma maquina, com outra metrica"
+# e que os degraus sao "os mesmos da peca 11 SS5".
+#
+# Isso e exatamente a licao no 9 esperando acontecer — um numero que mora em dois
+# documentos vai divergir, e nao e "se", e "quando". Ate a v0.118 nada comparava
+# os dois: mexer na curva do refino deixaria a Lapidacao para tras em silencio.
+#
+# A checagem NAO guarda valor nenhum. Ela le os dois lados do proprio texto e
+# compara. Se a peca parar de escrever a Lapidacao, ela acusa que parou.
+SEC68 = ''
+_m = re.search(r'^## 6\.8\..*?(?=^## 7\.)', PECA11, re.S | re.M)
+if _m:
+    SEC68 = _m.group(0)
+if not SEC68:
+    erro('9: nao achei a secao 6.8 da peca 11 — a Lapidacao perdeu a casa dela, '
+         'e esta checagem parou de conferir')
+else:
+    _lap_teto = re.search(r'tem teto `(\d+)`', SEC68) or re.search(
+        r'Lapidação.{0,80}?teto `(\d+)`', SEC68, re.S)
+    _lap_ini = re.search(r'Lapidação começa em `(\d+)`', SEC68)
+    _lap_passo = re.search(r'sobe `\+(\d+)` de graça em cada marco', SEC68)
+    # a peca 9 SS5 tambem publica a escada — e ela e a copia que a mesa le primeiro
+    with open(os.path.join(AQUI, '09-origens.md'), encoding='utf-8') as _f:
+        PECA09 = _f.read()
+    _p9 = re.search(r'A Lapidação começa em `(\d+)`, sobe `\+(\d+)` de graça em cada '
+                    r'marco, tem teto `(\d+)`', PECA09)
+
+    achados = {}
+    if _lap_ini:   achados['inicio'] = int(_lap_ini.group(1))
+    if _lap_passo: achados['passo'] = int(_lap_passo.group(1))
+    if _lap_teto:  achados['teto'] = int(_lap_teto.group(1))
+    if _p9:
+        achados.setdefault('inicio', int(_p9.group(1)))
+        achados.setdefault('passo', int(_p9.group(2)))
+        achados.setdefault('teto', int(_p9.group(3)))
+
+    # o refino: o inicio e o passo saem da curva das tres rotas, e o teto do topo
+    # dela. Nenhum dos tres esta escrito aqui — os tres sao derivados do CURVA.
+    ref_ini = 1                      # toda ficha comeca no refino 1 (SS3 desta peca)
+    ref_passo = 1                    # a linha de graca do marco sobe +1
+    ref_teto = TETO_REFINO
+    esperado = {'inicio': ref_ini, 'passo': ref_passo, 'teto': ref_teto}
+
+    faltando = [k for k in esperado if k not in achados]
+    if faltando:
+        erro(f'9: a peca nao escreve mais {faltando} da Lapidacao — sem isso a '
+             'contraparte deixa de ser conferivel contra o refino')
+    else:
+        print(f"  {'':<12}{'refino':<10}{'Lapidacao':<12}")
+        for k in ('inicio', 'passo', 'teto'):
+            bate = achados[k] == esperado[k]
+            print(f'  {k:<12}{esperado[k]:<10}{achados[k]:<12}{"ok" if bate else "<<< DIVERGIU"}')
+            if not bate:
+                erro(f'9: a Lapidacao tem {k} = {achados[k]} e o refino tem '
+                     f'{esperado[k]} — a peca 11 SS6.8 diz que ela e "a mesma '
+                     'maquina, com outra metrica", e ela deixou de ser')
+
+    # os gates: a SS6.8 promete "os mesmos degraus da peca 11 SS5"
+    if 'mesmos da peça 11 §5' not in SEC68 and 'mesmos degraus' not in SEC68:
+        erro('9: a secao 6.8 parou de dizer que os degraus da Lapidacao sao os '
+             'mesmos do refino — se eles se separaram, cada um precisa do proprio '
+             'argumento; se nao, a frase e o que segura a copia')
+    else:
+        # Os gates da Lapidacao NAO moram na 6.8 de proposito: a 6.8 aponta para o
+        # SS5 em vez de copiar, e quem escreve os numeros e a peca 9 SS5, que e a
+        # copia que a mesa le primeiro. E dela que a checagem le.
+        _g = re.search(r'Classe Passiva 2 na Lapidação (\d+), Classe Passiva 3 na (\d+)',
+                       PECA09)
+        if not _g:
+            erro('9: a peca 9 SS5 nao publica mais os degraus da Lapidacao — ela e a '
+                 'copia que a mesa le primeiro, e sem ela nada compara os dois lados')
+        if _g:
+            g2, g3 = int(_g.group(1)), int(_g.group(2))
+            # os do refino saem da SS5, lida do texto e nao escrita aqui
+            _r = re.search(r'Classe Passiva 2 no refino (\d+)', PECA11)
+            _r3 = re.search(r'Classe Passiva 3 no refino (\d+)', PECA11)
+            if _r and _r3:
+                if (g2, g3) != (int(_r.group(1)), int(_r3.group(1))):
+                    erro(f'9: os gates da Lapidacao sao {g2} e {g3} e os do refino sao '
+                         f'{_r.group(1)} e {_r3.group(1)} — os dois lados divergiram')
+                else:
+                    print(f'  gates       {_r.group(1)} e {_r3.group(1)}'
+                          f'{"":<4}{g2} e {g3}{"":<7}ok')
+        print('  Nenhum destes valores esta escrito dentro deste validador: os do')
+        print('  refino sao derivados da CURVA e os da Lapidacao sao lidos do texto.')
 
 # --------------------------------------------------------------------------
 print()

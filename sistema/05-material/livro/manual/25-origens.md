@@ -925,6 +925,6 @@ A lista de quatro desta Origem está sendo escrita.
 | *qualquer uma* **+ Sem Técnica** | Aptidão ou Estilo da Sombra | não: está sendo escrita |
 | Corpo Amaldiçoado | Técnica Marcial | não: está sendo escrita |
 | Restrição Celestial · corpo pela técnica | Fundamento | **sim** |
-| Restrição Celestial · energia pelo corpo | Técnica Marcial | não: está sendo escrita |
+| Restrição Celestial · sem energia | Técnica Marcial | não: está sendo escrita |
 
 Seis das nove rotas já rodam, porque o Fundamento está pronto. As três que faltam esperam a Técnica Marcial e o Estilo da Sombra. Nas três, você pode escrever a ficção inteira e escolher os dois Legados hoje; o que falta é a montagem do poder.

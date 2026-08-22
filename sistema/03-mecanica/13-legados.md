@@ -914,7 +914,7 @@ E a assimetria some junto: *você* reconhece, *você* sabe quando um morre. Não
 
 ### Restrição Celestial — *você trocou uma coisa por outra antes de nascer, e não foi você que assinou*
 
-> **Esta é a única Origem com sub-escolha antes do Legado, e ela já existia — só não estava ligada à lista.** A peça 9 separa os dois ramos na criação: *corpo pela técnica* conjura com o Fundamento normal, *energia pelo corpo* vai para a Técnica Marcial e não tem PE, feitiço de Toque nem Sentir Energia. **O ramo vem antes, e gateia Destranca e Ajusta.**
+> **Esta é a única Origem com sub-escolha antes do Legado, e ela já existia — só não estava ligada à lista.** A peça 9 separa os dois ramos na criação: *corpo pela técnica* conjura com o Fundamento normal, *sem energia* vai para a Técnica Marcial e não tem PE, feitiço de Toque nem Sentir Energia. *O segundo se chamava `energia pelo corpo` até a v0.117.* **O ramo vem antes, e gateia Destranca e Ajusta.**
 >
 > E os dois Legados que já existiam **já eram um por ramo**, sem ninguém ter marcado: *Alcance Impossível* só faz sentido em quem opera de longe, *Peso Real* só em quem lê o mundo sem energia.
 

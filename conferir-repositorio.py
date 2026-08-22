@@ -970,21 +970,43 @@ bloco('9. CONTAGEM DE CHECAGENS — o codigo e o dono, e os documentos sao copia
 _RX_BLOCO = re.compile(r"""(?:^|\\n|['"])\s*(?:=|\s)*(\d+)[.)]\s+[A-ZÁÂÃÀÉÊÍÓÔÕÚÇ]""")
 
 
-def _contar_blocos(caminho):
-    nums = set()
+def _contar_blocos(caminho, repetidos=None):
+    """Os numeros de bloco de um validador.
+
+    v0.118: passou a devolver tambem os REPETIDOS, e o motivo e um defeito real.
+    O `set()` come numero duplicado em silencio: um validador com dois blocos `6`
+    conta 6 uma vez so, entao a checagem nova que alguem escreveu com um numero ja
+    usado fica INVISIVEL na contagem — e a guarda de buraco nao pega, porque nao
+    existe buraco. Aconteceu no conferir-aptidoes.py, que tinha dois `6` desde a
+    v0.104 e ganhou um segundo `7` quando a checagem da Lapidacao foi escrita.
+    """
+    nums, vistos = set(), []
     for _l in open(caminho, encoding='utf-8'):
         if not re.match(r"^\s*(bloco|print)\(", _l):
             continue
         for _m in _RX_BLOCO.finditer(_l):
-            nums.add(int(_m.group(1)))
+            _n = int(_m.group(1))
+            if _n in nums and repetidos is not None:
+                repetidos.append((os.path.basename(caminho), _n))
+            nums.add(_n)
+            vistos.append(_n)
     return nums
 
 
-_VAL9 = {}
+_VAL9, _REPETIDOS = {}, []
 for _f9 in sorted(os.listdir(MEC)):
     if re.match(r'^conferir-.*\.py$', _f9):
-        _VAL9[_f9] = _contar_blocos(os.path.join(MEC, _f9))
-_VAL9['conferir-repositorio.py'] = _contar_blocos(os.path.join(RAIZ, 'conferir-repositorio.py'))
+        _VAL9[_f9] = _contar_blocos(os.path.join(MEC, _f9), _REPETIDOS)
+_VAL9['conferir-repositorio.py'] = _contar_blocos(
+    os.path.join(RAIZ, 'conferir-repositorio.py'), _REPETIDOS)
+
+# guarda 0: numero de bloco REPETIDO. Ele nao abre buraco, entao a guarda 2 nao o
+# pega — e ele faz a contagem MENTIR PARA BAIXO, escondendo a checagem mais nova.
+if _REPETIDOS:
+    erro('9: bloco numerado repetido em ' + ', '.join(
+        f'{_v} (o {_n} duas vezes)' for _v, _n in _REPETIDOS)
+        + ' — o `set()` da contagem come o segundo, entao a checagem mais nova '
+          'fica invisivel no total. Renumere.')
 
 # guarda 1: validador sem bloco numerado e' extrator quebrado, nao validador vazio
 _mudos = sorted(v for v, n in _VAL9.items() if not n)

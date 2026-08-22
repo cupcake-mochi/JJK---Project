@@ -1,7 +1,7 @@
 # ORIGENS
 
 **Fase 4, nona peça.** De onde veio o seu poder.
-Versão v0.22, com as Bênçãos e o contrato de moeda na v0.116 — 07/08/2026
+Versão v0.22, com as Bênçãos e o contrato de moeda na v0.116, com a correção de contraparte na v0.117 — 07/08/2026
 
 Esta peça fecha a maior lacuna da criação de personagem: até aqui, a Origem era escrita livre e o mestre aprovava de olho.
 
@@ -187,14 +187,18 @@ A troca é sempre desproporcional para os dois lados: você perde muito e ganha 
 
 **Corpo pela técnica.** O corpo não funciona, e em troca a energia é enorme. É o **Kokichi Muta**: pele que não aguenta sol, membros que faltam, dor constante — e energia suficiente para operar cadáveres amaldiçoados a uma distância absurda. *O **Mechamaru** é o boneco que ele pilota, não ele.* O corpo que aparece na escola é a ferramenta; a Origem é a pessoa que ficou em casa.
 
-**Energia pelo corpo.** Você nasceu sem energia amaldiçoada — não pouca, nenhuma — e em troca o corpo é sobre-humano. É a **Maki** e o **Toji**. Você não conjura, não canaliza e não sente energia; fere maldição com ferramenta amaldiçoada, e enxerga o mundo jujutsu de fora.
+**Sem energia.** Você nasceu sem energia amaldiçoada — não pouca, nenhuma — e o corpo recebeu a troca. É a **Maki** e o **Toji**. Você não conjura, não canaliza e não sente energia; fere maldição com ferramenta amaldiçoada, e enxerga o mundo jujutsu de fora.
+
+> **O ramo se chamava `energia pelo corpo` até a v0.117, e o nome prometia mais do que a regra entrega.** ***Decisão do Mizuki:*** *o que a Origem fixa é a **perda** — energia nenhuma —, e não o que você constrói em cima dela.* **As Bênçãos se separam por gate de atributo, e um gate em Inteligência é tão legal quanto um em Força**, então um restringido que nunca levantou peso é uma ficha legítima. *O nome antigo dizia que não era.*
+>
+> *O outro ramo continua sendo `corpo pela técnica`, e a assimetria é de propósito: o corpo do Kokichi não é escolha dele — é a troca, escrita na ficha. A da Maki fixa só o que sumiu.*
 
 | | |
 |---|---|
-| **O que muda** | *corpo pela técnica:* Fundamento normal, corpo com limitação escrita na ficha<br>*energia pelo corpo:* sem Fundamento, sem PE, sem feitiço de Toque, sem Sentir Energia — e acesso a ferramenta amaldiçoada como eixo de poder |
+| **O que muda** | *corpo pela técnica:* Fundamento normal, corpo com limitação escrita na ficha<br>*sem energia:* sem Fundamento, sem PE, sem feitiço de Toque, sem Sentir Energia — e acesso a ferramenta amaldiçoada como eixo de poder |
 | **Traços** | *o clã que te descartou* · *a pessoa que te olha e vê o que você perdeu* · *a ferramenta que te acompanha desde criança* |
 | **Legados** | **as listas estão na peça 13** — um `Destranca` obrigatório e mais um de qualquer lista |
-| **Criação** | *corpo pela técnica:* **Fundamento** normal · *energia pelo corpo:* **Técnica Marcial** — *não existe ainda* |
+| **Criação** | *corpo pela técnica:* **Fundamento** normal · *sem energia:* **Técnica Marcial** — *não existe ainda* |
 
 ### O ramo da Maki tem Bênçãos e Lapidação, e isso estava decidido desde a v0.38
 
@@ -204,7 +208,22 @@ A troca é sempre desproporcional para os dois lados: você perde muito e ganha 
 >
 > **A Lapidação começa em `1`, sobe `+1` de graça em cada marco, tem teto `10`, e é ela que gateia as Bênçãos.** *Os degraus são os mesmos da peça 11 §5: Classe Passiva 2 na Lapidação 4, Classe Passiva 3 na 7.*
 
-**O que ela não herda é o catálogo.** *A peça 11 §6.8 tem a contagem: das catorze aptidões, **treze são construídas em cima da energia amaldiçoada** e a décima quarta é formato, não conteúdo.* **Espelhar entrada por entrada não é escolha ruim — é impossível.**
+**O que ela não herda é o conteúdo do catálogo — a forma, sim.** *A peça 11 §6.8 tem a contagem: das catorze aptidões, **treze são construídas em cima da energia amaldiçoada** e a décima quarta é formato, não conteúdo.* **Espelhar conteúdo entrada por entrada não é escolha ruim — é impossível.**
+
+**A forma espelha: catorze Bênçãos, duas grátis na Lapidação `1` e doze pagas.** *As duas grátis são a `cobrir-se` portada — `1/3 da Lapidação + 1`, a mesma fórmula com outro recurso — e o `Estímulo Muscular`. **As doze pagas estão na peça 11 §6.8**, com nome, Classe Passiva e gate.*
+
+### O corpo atravessa o que a energia levantou
+
+**A `cobrir-se` deste ramo carrega duas coisas que a do feiticeiro não carrega**, e as duas são o que a Restrição é na obra:
+
+> **Barreira de energia não te segura.** Você atravessa `Barreira Simples` e `Cortina` como se elas não estivessem lá.
+> **E o Acerto garantido de uma Expansão de Domínio completa não te alcança** — você não é alvo legível para ele. *O Efeito continua acontecendo em volta de você, e a Expansão incompleta funciona normal, porque o Acerto dela rola.*
+
+> ***Em troca, e a troca é declarada: quem não tem energia nunca tem Expansão de Domínio.*** *Nem incompleta, nem completa.*
+
+**Isso não passou por régua de preço, e é decisão.** *A Expansão é comprada com espaço de feitiço, e esta rota não tem lista de feitiço para gastar — então a negação não custa nada a ela, e o que ela paga é não ter a camada inteira.* **A `Liberação Máxima` e a `Técnica Máxima` ganham substituto quando a Técnica Marcial chegar; a Expansão não ganha.**
+
+> *Por que as quatro anti-domínio da peça 11 §6.5 não entram no catálogo dela: as quatro existem para anular Acerto garantido, e ela já não é alcançada por ele.* **A peça 16 §6 ainda dá o `Anátema` e o `Quebranto` por outro caminho, para quem quiser.**
 
 ### O que o Caminho entrega a quem não tem PE: o contrato de moeda
 
@@ -228,7 +247,7 @@ A troca é sempre desproporcional para os dois lados: você perde muito e ganha 
 | *qualquer uma* **+ Sem Técnica** | Aptidão ou Estilo da Sombra | não — falta a peça |
 | Corpo Amaldiçoado | Técnica Marcial | não — falta a peça |
 | Restrição Celestial · corpo pela técnica | Fundamento | **sim** |
-| Restrição Celestial · energia pelo corpo | Técnica Marcial | não — falta a peça |
+| Restrição Celestial · sem energia | Técnica Marcial | não — falta a peça |
 
 **Seis das nove rotas já rodam**, porque o Fundamento existe e está validado. As três que faltam dependem de um subsistema paralelo, e ele é a peça seguinte.
 

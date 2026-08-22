@@ -8,6 +8,154 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.118] — 21/08/2026
+
+**A versão das Bênçãos como CONTRAPARTE — e ela existe porque o Mizuki leu o que a v0.116 escreveu e disse que o ponto era outro.**
+
+> ***"O ponto não é espelhar, mas sim ser a contraparte."***
+
+### Corrigido — a v0.116 delegou as duas vagas gratuitas para fora, e isso subestimava a pergunta
+
+**Aquela versão concluiu "lista própria, doze entradas, todas custando marco, nenhuma gratuita"**, mandando a proteção para o uniforme (peça 14) e o resto para a ferramenta amaldiçoada (peça 16). *Ferir maldição de fato continua sendo da ferramenta — isso estava certo.* **Proteção sem equipamento não devia ter sido delegada:** é exatamente o tipo de coisa que uma contraparte precisa ter, com o mesmo peso e o mesmo lugar na ficha.
+
+> **Catorze Bênçãos: duas grátis na Lapidação `1` e doze pagas.** *A FORMA espelha o catálogo de aptidões espaço por espaço — duas grátis, doze pagas —, mesmo o conteúdo não espelhando quase nada.*
+
+### Adicionado — as duas gratuitas, com número
+
+**`Cobrir-se`, portada sem inventar número:** `1/3 da Lapidação + 1`, grátis na Lapidação `1`. *Mesma curva de `1` a `4`, mesmas interações — Traje e Revestimento desligam, escudo soma.* **Não move o teto de Defesa da peça 14 §3**, porque é a MESMA função na MESMA faixa `1`–`10` — não é recurso novo, é o de sempre com outro nome. *E fecha o buraco que a peça 14 §9 registrava desde a v0.48: "sem energia nenhuma… não tem cobrir-se para desligar" era verdade e deixou de ser.*
+
+**`Estímulo Muscular`, conteúdo novo:**
+
+> Escolha **uma perícia** e **um Teste de Resistência** na criação. **`1/5 da Lapidação` usos por cena, mínimo `1`**, cada um dando **vantagem** numa rolagem de um dos dois.
+
+***Decisão do Mizuki: ela não nasce valendo zero.*** *A primeira leitura foi dar a ela o peso de `canalizar energia`, que vale "nada — vive no orçamento do Fundamento".* **O `canalizar` em golpe vai ganhar mecânica quando a Técnica Marcial chegar, e a contraparte não pode ficar esperando isso valendo nada.**
+
+**Os três números saem de regra que já existe, e nenhum é escolha nova:**
+
+| a peça | o que ela decide |
+|---|---|
+| peça 11 §2 | frequência é um dos cinco eixos que o refino pode escalar — mesma forma do `1/3` da `cobrir-se` |
+| peça 10 §5 | *"uma perícia nomeada, um Teste de Resistência nomeado"* é literalmente a forma que ela declara segura para `por cena` |
+| peça 1 §5.4 | o arredondamento: ganho desce, e nunca abaixo de `1` |
+
+*Na prática: `1` uso da Lapidação `1` à `9`, e `2` só na `10`.* **A rota que nunca escolhe Lapidação fica em `1` a campanha inteira; a que sempre escolhe ganha o segundo uso no nível 22.**
+
+> ***O divisor é `5` e não `3`, e a decisão é do Mizuki:*** ***"se for pra ser em uma perícia e um TR, honestamente"***. *Com `1/3` ela chegava a `3` usos por cena, e num gatilho de duas coisas nomeadas isso é muito.* **E isso resolve sozinho a comparação com o Legado `Repetição`**, que a primeira redação tinha de declarar como diferença aceita: a Bênção agora vale o mesmo `1×` por cena que ele durante quase toda a campanha.
+
+> **⚠ "Escolha um atributo" foi medido e reprovou.** *Era a forma mais elegante — deixava a Bênção seguir a rota mental ou física da ficha.* **O quadro da peça 7 §2 a derruba: Força `1` perícia, Destreza `4`, Essência `7`, Inteligência `11`, Constituição `0`.** *Espalhamento de `11` para `0` numa entrada gratuita.* **Uma perícia nomeada mais um TR nomeado dá `1 + 1` para todo mundo, e continua deixando a escolha ser mental.**
+
+*Declarado: a Bênção é mais larga que o Legado `Repetição` (soma uma perícia) e cresce (ele não). Nenhuma contém a outra pelo teste da peça 13 §2, e a diferença é de propósito — esta rota perde o Fundamento inteiro, o eixo `Leque` do marco e a linha de espaço de feitiço.*
+
+### Adicionado — o SEXTO formato de gate: requisito de atributo
+
+***Decisão do Mizuki:*** **as doze pagas são mecânica física de verdade, e se separam por gate de atributo — inclusive os mentais**, para cada ficha escolher a área que quer seguir.
+
+> **Um gate de atributo só é legal quando a entrada mede aquele atributo fazendo o que ele já faz.** *Não é para tornar caro; é para dizer de que corpo — ou de que cabeça — aquela coisa sai.*
+
+**O preço dele está medido na peça 1 §5:** *uma ficha tem entre `16` e `23` pontos de atributo na campanha, contra um teto somado de `30`* — **ela enche dois ou três atributos de cinco**, então um gate alto obriga a escolher uma rota e abrir mão de outra.
+
+**A trava: uma Bênção gateada num atributo NÃO pode somar aquele atributo na rolagem dela.** *Senão o atributo entra dos dois lados — você paga para destravar e paga de novo para usar, e a entrada vira imposto em cima de quem já escolheu aquela rota.*
+
+### Decidido — o atributo do gate decide a FORMA da entrada, e não só quem entra
+
+***Achado do Mizuki, e ele é maior que o caso que o produziu:*** ***"seria ideal colocar habilidades que não envolvem perícias nas que têm requisitos de Constituição"***.
+
+**O quadro da peça 7 §2 obriga, e é a mesma conta que reprovou o "escolha um atributo" das gratuitas:**
+
+| atributo do gate | perícias | a entrada pode ser sobre perícia? |
+|---|---|---|
+| Inteligência | 11 | sim, e sobra |
+| Essência | 7 | sim |
+| Destreza | 4 | sim |
+| **Força** | **1** | quase não — `Atletismo` vira a entrada inteira |
+| **Constituição** | **0** | **não. Não existe perícia para ela** |
+
+> **Quanto menos perícias o atributo do gate tem, mais a entrada tem de ser FEITO em vez de rolagem.** *Numa gateada em Constituição, feito é a única forma possível.*
+
+**E "feito" não é palavra vaga: o projeto já tem as duas formas dela escritas** — o `Destranca` da peça 13 é *zero no dado*, e a escada de Classe Passiva da §4 abre com *"efeito pequeno, condicional, ou de informação"*.
+
+*O levantamento externo, que o Mizuki mandou fazer, concorda nas duas fontes:* **em D&D os dois feats que existem para Constituição — `Tough` e `Durable` — não tocam em teste de perícia nenhum** (vida por nível; vantagem na salvaguarda de morte e recuperação gastando dado de vida). **E a obra pede o mesmo:** *a Restrição Celestial é troca de energia por físico, e o que o Toji faz com ela é `sheer physical prowess` — derrubar o Gojo antes do despertar dele com zero energia amaldiçoada.* **Nada disso é teste de perícia.**
+
+> **A trava fica escrita, e é ela que impede o catálogo de virar cinco listas de bônus de perícia:** *uma Bênção gateada em **Constituição** ou em **Força** não pode ser bônus, vantagem ou rerrolagem numa perícia.* **Ela é feito — sobrevivência, recuperação, ou uma coisa que o corpo passa a poder fazer.**
+
+### Decidido — `energia pelo corpo` virou `sem energia`
+
+***Decisão do Mizuki.*** *O nome antigo prometia corpo, e com gate de atributo um restringido de Inteligência alta que nunca levantou peso é ficha legítima.* **O que a Origem fixa é a PERDA — energia nenhuma — e não o que você constrói em cima dela.**
+
+*O outro ramo continua `corpo pela técnica`, e a assimetria é de propósito: o corpo do Kokichi não é escolha dele, é a troca escrita na ficha; o da Maki fixa só o que sumiu.* **Trocado na peça 9 §5 e §6, na peça 13 §9 e no capítulo de Origens do livro, com nota histórica nos três.**
+
+### Decidido — a `Bênção Própria`, e o teto dela é da ficha
+
+***Decisão do Mizuki: quem não tem energia também escreve a própria.*** **Mesmo molde da `Aptidão Própria` da §6.7** — `Classe Passiva 1 ou 2, nunca 3`, sem valor numérico próprio, e não pode repetir uma das doze com outro nome nem entregar uma que o gate não alcança.
+
+**O `uma vez na ficha` é da FICHA e não do catálogo:** vale para o feiticeiro e para o sem energia igual, e nenhuma ficha carrega duas.
+
+> **⚠ E o tamanho das duas listas é derivado, não fixo — isso importa porque elas vão crescer.** *O Mizuki registrou que pretende acrescentar aptidões ao catálogo do feiticeiro.* **As doze pagas saem de uma conta só: a rota pura precisa de `10` (sete marcos, os três últimos levando duas), e o catálogo carrega `+2` de folga.** *Se o catálogo crescer, a folga cresce e o piso de `10` não se move.* **O número que não pode ser copiado à mão é o `10`, e ele mora no §3.**
+
+### Adicionado — as doze Bênçãos pagas, e o catálogo fechou
+
+*Escritas com o Mizuki, uma a uma, em duas rodadas.* **`Ímpeto` · `Casco` · `Faro` · `Presilha` · `Vulto` · `Sem Pegada` · `Antecipar` · `Assombro` · `Vigília` · `Campo` · `Esteio` · `Bênção Própria`.**
+
+**Cinco gates de atributo, um por atributo — e cinco é o teto que a conta permite.**
+
+*A rota pura de Lapidação escolhe Lapidação nos sete marcos, então **não escolhe `Corpo` nenhuma vez**: ela tem `9` da criação mais `7` da linha de graça, e o melhor arranjo é `6/6/4/0/0`.* **Dois atributos no teto e um terceiro em `4` — ela passa em três gates de cinco.**
+
+| Bênçãos com gate | a rota pura alcança |
+|---|---|
+| 3 | 10,8 |
+| **5** | **10,0** |
+| 6 | 9,6 |
+| 12 | 7,2 |
+
+**Ela precisa de `10` picks de `12`.** *Gatear as doze, que foi a primeira ideia, a deixaria alcançando `7`.* ***Decisão do Mizuki: cinco, separação máxima e folga zero***, contra a alternativa de três, que devolveria a folga que o §3 pede mas deixaria dois atributos sem cor.
+
+**Três números foram medidos antes de virar regra:**
+
+*O `Casco` dá `+1` de vida a cada DOIS níveis, e não a cada um.* **A trava da peça 1 §5.1 — média dos dados mais Constituição típica perto de `8`, tolerância `1,0` — vai a `8,5` com o passo de dois e a `9,0` com o de um.** *O primeiro cabe; o segundo estoura.*
+
+*O `Esteio` é a `Indomitable Might` do Bárbaro: se o `d20` sair abaixo da Lapidação num Teste de Resistência do atributo escolhido, ele vale a Lapidação.* **O teto de `atributo escolhido + 2` é o que separa a Bênção de imunidade:** contra a CD de um conjurador do mesmo nível o `d20` precisa sempre de `8`, e o piso só alcança essa altura quando o atributo chega a `6`. *Sem o teto, ela viraria passe automático a partir do nível 22.*
+
+*O `Campo` baixa a ação `Estudar` para Ação Bônus, `1× por cena`.* **O relógio não é decoração: a peça 3 §3.1 põe `1× por cena` no `Ler o Ambiente` porque a ação obriga o mestre a produzir conteúdo.** *A separação por alvo continua de pé e é ela que impede as duas de se dominarem — o `Ler o Ambiente` é sobre o lugar.*
+
+> **⚠ A triagem reprovou CINCO dos onze nomes escolhidos, e um sexto caiu junto.** *`Passo` e `Trava` são Melhoria no manual, `Peso` é Tema, `Fôlego` mora dentro de `Roubo de Fôlego` e `Fundo` dentro de `Limpa Fundo`.* **E o `Sem Rastro` também: `Rastro` é Melhoria.** *Trocados por `Ímpeto`, `Presilha`, `Assombro`, `Vigília`, `Esteio` e `Sem Pegada`.* **Seis de doze nomes reprovando é o maior lote que a triagem já derrubou de uma vez.**
+
+### Decidido — o `cobrir-se` deles atravessa barreira, e a Expansão é o preço
+
+> **Barreira de energia não os segura** — `Barreira Simples` e `Cortina` não valem contra eles.
+> **E o Acerto garantido de uma Expansão completa não os alcança**: eles não são alvo legível para ele. *O Efeito continua acontecendo em volta, e a incompleta funciona normal, porque o Acerto dela rola.*
+>
+> ***Em troca: quem não tem energia nunca tem Expansão de Domínio.*** *Nem incompleta, nem completa.*
+
+***Isso não passou por régua de preço, e é decisão do Mizuki:*** *"é realmente só algo da obra que infelizmente tem de ser adaptado e vai ser meio fortinho mesmo".* **A Expansão é comprada com espaço de feitiço, e esta rota não tem lista para gastar** — então negá-la não custa nada a ela, e o que ela paga é não ter a camada. *A `Liberação Máxima` e a `Técnica Máxima` ganham substituto na Técnica Marcial; a Expansão não ganha.*
+
+> *E isso fecha por que as quatro anti-domínio não entram no catálogo dela: as quatro existem para anular Acerto garantido, e ela já não é alcançada por ele.* **A peça 16 §6 ainda dá o `Anátema` e o `Quebranto` por outro caminho.**
+
+> **O PORQUÊ desta troca fica nos logs e não vai para o livro** — decisão do Mizuki. *O livro publica a regra; o argumento de por que ela é forte mora aqui.*
+
+### Corrigido — três dívidas que esta própria leva criou, e o Mizuki mandou consertar
+
+**1 · O `1/5` era degrau único vestido de fórmula.** *`1/5 da Lapidação, mínimo 1` só morde uma vez em dez pontos: o piso de `1` carrega a Lapidação `1` à `9` e o divisor só age no `10`.* **É o defeito que a v0.68 achou no arredondamento do `Servo` — fórmula que a escala nunca deixa morder vira letra morta.** *A regra passou a dizer o que faz:* **`1×` por cena, e `2×` na Lapidação `10`.** *Fica registrado que, se um dia precisar escalar de verdade, o divisor é `1/4` — ele daria `2` a partir da `8`, alcançando também quem nunca escolhe Lapidação.*
+
+**2 · A peça 14 dizia que existem TRÊS rotas de proteção, e virou mentira nesta versão.** *A terceira era `sem energia nenhuma`, "que não tem cobrir-se para desligar".* **Ao dar a `cobrir-se` portada àquela Origem, a terceira rota colapsou na primeira — são duas.** *O `conferir-equipamento.py` **sempre implementou duas**: a terceira só existia no texto da especificação, então nenhum validador acusava.* **Afirmação errada num documento, protegida por um validador que não a alcança — a lição nº 9 no formato mais silencioso dela.** *Corrigido no §8 e no §9 daquela peça, com o motivo.*
+
+**3 · A Lapidação não tinha validador nenhum, e ela é cópia de número por construção.** *A peça 11 §6.8 escreve que ela é "a mesma máquina, com outra métrica" e que os degraus são "os mesmos da peça 11 §5" — início `1`, `+1` por marco, teto `10`, gates `4` e `7`.* **Nada comparava os dois: mexer na curva do refino deixaria a Lapidação para trás em silêncio.**
+
+> **Entrou a checagem `9` do `conferir-aptidoes.py`, e ela não guarda valor nenhum.** *Os números do refino são derivados da `CURVA` e os da Lapidação são lidos do texto — da peça 9 §5, que é a cópia que a mesa lê primeiro.* **Cinco perturbações conferidas:** *o teto divergindo, um gate divergindo, a §6.8 parando de prometer os mesmos degraus, a peça 9 parando de publicar os degraus, e — o caso que motivou tudo — **subir o teto do refino e ver a Lapidação ser pega ficando para trás**.*
+
+### ⚠⚠ Achado — a contagem de checagens estava mentindo para baixo, e escrever a checagem nova destampou
+
+**O `conferir-aptidoes.py` tinha DOIS blocos numerados `6` desde a v0.104**, e a checagem da Lapidação nasceu como um segundo `7`. *O extrator da checagem 9 do `conferir-repositorio.py` usa `set()`:* **número de bloco repetido é comido em silêncio, e a checagem mais nova fica invisível no total.**
+
+**A guarda que existia procurava BURACO na numeração, e repetição não abre buraco.** *Por isso ela passava verde com dois `6` no mesmo arquivo.*
+
+> **A contagem real era `190`, não `188`** — dois blocos escondidos atrás de números repetidos. *O `188` estava publicado desde a v0.114 e ninguém tinha como saber.*
+
+**Entrou a guarda `0` da checagem 9**, que acusa bloco numerado repetido e diz por que ele importa. *Perturbação conferida: reintroduzir o `7` duplicado acende `bloco numerado repetido em conferir-aptidoes.py (o 7 duas vezes)`.* **E os blocos do `conferir-aptidoes.py` foram renumerados para bater com a ordem de execução: `1` a `9`, sem repetição.**
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **O que falta das Bênçãos é o TEXTO das doze pagas**, e ele espera a Técnica Marcial pelo motivo da peça 16 §2 — magnitude é peça. *Fora delas, continua aberto o **repreço do catálogo** que a v0.117 registrou, e ele precisa de uma decisão: contra qual alvo um degrau gateado em Teste de Resistência se preça.*
+
+---
+
 ## [0.117] — 21/08/2026
 
 **A versão que refez a base de acerto do sistema — e o que a destravou não foi validador nenhum: foi o Mizuki olhando a Defesa que a mesa alcança.**
