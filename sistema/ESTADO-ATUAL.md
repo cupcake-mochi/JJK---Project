@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 22/08/2026, na v0.129 (última peça fechada: **Dano e condições**, ampliada na v0.104 com a penalidade de arma; antes dela, a **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 22/08/2026, na v0.130 (última peça fechada: **Dano e condições**, ampliada na v0.104 com a penalidade de arma; antes dela, a **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.129.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte peças escritas** e **vinte validadores**.
+**Versão v0.130.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte peças escritas** e **vinte validadores**.
 
 ***DECISÃO ABERTA, e ela é do Mizuki: qual das três diagramações do livro fica.*** *As três estão no disco, em `05-material/livro/`, para comparar.*
 

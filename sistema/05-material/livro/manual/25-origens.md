@@ -578,7 +578,7 @@ Fundamento, do jeito padrão.
 
 O meio te trata de acordo. Ninguém te chama para a missão que precisa de uma técnica específica; te chamam para as outras noventa. Isso significa carga de trabalho e pouca vitrine, e significa também que você aprende o ofício de verdade, porque o serviço nunca para. Quem vem de clã e nasce Sem Técnica costuma carregar uma vergonha que a família não deixa esquecer. Quem vem de fora costuma nem saber que devia estar constrangido, e trabalha melhor por isso.
 
-Sem Técnica se soma a uma das cinco Origens principais. Você continua sendo Latente, Receptáculo, Descendente, Reencarnado ou Feto, com a marca de que a técnica não veio junto. Um Descendente Sem Técnica é o caso da Miwa: nome de peso, nenhuma técnica de clã.
+Sem Técnica se soma a uma das cinco Origens principais. Você continua sendo Latente, Receptáculo, Descendente, Reencarnado ou Feto, com a marca de que a técnica não veio junto. Na obra isso é a Miwa: nome de peso, nenhuma técnica de clã.
 
 O poder vem de dois lugares.
 
@@ -769,7 +769,7 @@ A troca é sempre desproporcional para os dois lados: você perde muito e ganha 
 
 São dois ramos opostos, e você escolhe um na criação.
 
-**Corpo pela técnica.** O corpo não funciona, e em troca a energia é enorme. É o Kokichi Muta: pele que não aguenta sol, membros que faltam, dor constante, e energia suficiente para operar cadáveres amaldiçoados a uma distância absurda. O Mechamaru é o boneco que ele pilota. O corpo que aparece na escola é a ferramenta; a Origem é a pessoa que ficou em casa.
+**Corpo pela técnica.** O corpo não funciona, e em troca a energia é enorme. É o Kokichi Muta: pele que não aguenta sol, membros que faltam, dor constante, e energia suficiente para operar cadáveres amaldiçoados a uma distância absurda. Ele pilota o Mechamaru de casa. O boneco vai à escola; a Origem descreve quem ficou.
 
 **Sem energia.** Você nasceu sem energia amaldiçoada, nenhuma, e em troca o corpo recebeu a troca. É a Maki e o Toji. Você não conjura, não canaliza e não sente energia. Fere maldição com ferramenta amaldiçoada, e enxerga o mundo jujutsu de fora. O que a Origem fixa é a perda, e não o que você constrói em cima dela: um restringido que nunca levantou peso e resolve tudo pela cabeça é uma ficha tão legítima quanto o Toji.
 

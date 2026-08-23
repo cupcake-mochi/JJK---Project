@@ -404,7 +404,7 @@ Treino simples. O dano sai de Força.
 Manopla é o soco com uma peça de metal por cima. Ela vai vestida: você chega de mãos vazias em qualquer portaria e continua armado do outro lado. Quem luta assim briga colado, e usa o corpo inteiro como parte da arma.
 
 
-O Tekko é a soqueira japonesa: mesma linha da Soqueira, mesmo gasto, mesma regra. O que muda é de onde ela veio.
+O Tekko e a Soqueira têm a mesma linha, o mesmo gasto e a mesma regra. O que muda é de onde cada uma veio.
 
 ### Machado
 

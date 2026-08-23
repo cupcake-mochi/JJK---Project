@@ -151,7 +151,7 @@ Estar atrás de alguma coisa sobe a sua Defesa, e a cobertura Total tira você d
 
 ## Testes de Resistência
 
-Um **Teste de Resistência** é o que você rola quando alguma coisa acontece com você e você tenta segurar a barra. O ataque parte do outro lado; a rolagem é sua. São quatro.
+**Você rola um Teste de Resistência** quando alguma coisa acontece com você e você tenta segurar a barra. O ataque parte do outro lado; a rolagem é sua. São quatro.
 
 > **Teste de Resistência = d20 + atributo do TR + maestria, e a maestria só entra se você for treinado nele.**
 
@@ -165,7 +165,7 @@ Um **Teste de Resistência** é o que você rola quando alguma coisa acontece co
 | **Intelecto** | Inteligência | controle mental, ilusão, dissociação |
 | **Espírito** | Essência | vontade, determinação, não se dobrar |
 
-O TR Físico é o único que escolhe entre dois atributos, e essa escolha é feita uma vez na criação. Ela diz como o seu personagem sai da frente de uma explosão: quem travou em Força planta o pé e absorve, quem travou em Destreza salta.
+**Só o TR Físico escolhe entre dois atributos**, e essa escolha é feita uma vez na criação. Ela diz como o seu personagem sai da frente de uma explosão: quem travou em Força planta o pé e absorve, quem travou em Destreza salta.
 
 Você é treinado em **dois dos quatro**: a sua Origem treina um, o seu Caminho treina outro. **No Teste de Resistência que você treinou, você soma a maestria; nos outros dois, só o atributo.** É a mesma marca de treino da perícia e do ofício.
 
@@ -176,7 +176,7 @@ Você é treinado em **dois dos quatro**: a sua Origem treina um, o seu Caminho 
 
 ## Vida, energia e alma
 
-Três reservas, e cada uma tem uma conta diferente. Vida é o corpo, energia é o combustível, Integridade é a alma. O **Caminho** é a escolha de criação que define os números abaixo; o capítulo 6, *Criação de Personagem*, explica o que cada Caminho é.
+Três reservas, e cada uma tem uma conta diferente. Vida é o corpo, energia é o combustível, Integridade é a alma. O **Caminho** define os números abaixo, e você escolhe ele na criação; o capítulo 6, *Criação de Personagem*, explica o que cada Caminho é.
 
 ### Pontos de vida
 

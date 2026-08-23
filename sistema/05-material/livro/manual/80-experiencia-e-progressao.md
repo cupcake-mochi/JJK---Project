@@ -195,7 +195,7 @@ As duas dependem do seu Caminho, e cabem em duas linhas:
 
 A cada quatro níveis o personagem chega a um **marco**: os níveis **6, 10, 14, 18, 22, 26 e 30**. São sete na campanha inteira, e o último cai exatamente no nível 30.
 
-Marco é o nível em que a ficha muda de forma. Nos outros níveis a subida acontece sozinha e você só anota; no marco você para, olha a ficha e decide uma coisa. Na mesa, é onde o personagem volta da missão diferente de como saiu: mais forte no corpo, mais fino no controle da própria energia, ou com um jeito novo de usar a técnica que ele já tinha.
+Marco é o nível em que a ficha muda de forma. Nos outros níveis a subida acontece sozinha e você só anota; no marco você para, olha a ficha e decide uma coisa. Você volta da missão diferente de como saiu: mais forte no corpo, mais fino no controle da própria energia, ou com um jeito novo de usar a técnica que já tinha.
 
 > **De graça, em todo marco:** +1 ponto de atributo, +1 de refino e +1 espaço de feitiço.
 >

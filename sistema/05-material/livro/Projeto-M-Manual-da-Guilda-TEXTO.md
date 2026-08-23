@@ -551,7 +551,7 @@ Estar atrás de alguma coisa sobe a sua Defesa, e a cobertura Total tira você d
 
 ## Testes de Resistência
 
-Um **Teste de Resistência** é o que você rola quando alguma coisa acontece com você e você tenta segurar a barra. O ataque parte do outro lado; a rolagem é sua. São quatro.
+**Você rola um Teste de Resistência** quando alguma coisa acontece com você e você tenta segurar a barra. O ataque parte do outro lado; a rolagem é sua. São quatro.
 
 > **Teste de Resistência = d20 + atributo do TR + maestria, e a maestria só entra se você for treinado nele.**
 
@@ -563,7 +563,7 @@ Um **Teste de Resistência** é o que você rola quando alguma coisa acontece co
 | **Intelecto** | Inteligência | controle mental, ilusão, dissociação |
 | **Espírito** | Essência | vontade, determinação, não se dobrar |
 
-O TR Físico é o único que escolhe entre dois atributos, e essa escolha é feita uma vez na criação. Ela diz como o seu personagem sai da frente de uma explosão: quem travou em Força planta o pé e absorve, quem travou em Destreza salta.
+**Só o TR Físico escolhe entre dois atributos**, e essa escolha é feita uma vez na criação. Ela diz como o seu personagem sai da frente de uma explosão: quem travou em Força planta o pé e absorve, quem travou em Destreza salta.
 
 Você é treinado em **dois dos quatro**: a sua Origem treina um, o seu Caminho treina outro. **No Teste de Resistência que você treinou, você soma a maestria; nos outros dois, só o atributo.** É a mesma marca de treino da perícia e do ofício.
 
@@ -573,7 +573,7 @@ Você é treinado em **dois dos quatro**: a sua Origem treina um, o seu Caminho 
 
 ## Vida, energia e alma
 
-Três reservas, e cada uma tem uma conta diferente. Vida é o corpo, energia é o combustível, Integridade é a alma. O **Caminho** é a escolha de criação que define os números abaixo; o capítulo 6, *Criação de Personagem*, explica o que cada Caminho é.
+Três reservas, e cada uma tem uma conta diferente. Vida é o corpo, energia é o combustível, Integridade é a alma. O **Caminho** define os números abaixo, e você escolhe ele na criação; o capítulo 6, *Criação de Personagem*, explica o que cada Caminho é.
 
 ### Pontos de vida
 
@@ -844,7 +844,7 @@ Quem usa a Restrição `Carregar` mantém o movimento e a Ação Bônus no turno
 
 É a trava que impede dois feitiços grandes no mesmo turno. Por exemplo, se você conjurou um feitiço de Classe 3 na Ação Bônus, o que ainda cabe na Ação Padrão é um Classe 0, e nada maior.
 
-A Reação é uma só, e três coisas disputam ela: ataque de oportunidade, a ação `Preparar` e conjurar pela Melhoria `Reação`. Gastar a Reação com uma delas é abrir mão das outras até o seu próximo turno começar.
+Você tem **uma Reação só**, e três coisas disputam ela: ataque de oportunidade, a ação `Preparar` e conjurar pela Melhoria `Reação`. Gastar a Reação com uma delas é abrir mão das outras até o seu próximo turno começar.
 
 ---
 
@@ -889,7 +889,7 @@ Um ofício rende diferente na mão de cada personagem. O mesmo `Arrombamento` é
 
 Qualquer um pode tentar escalar e falhar. Ninguém forja uma lâmina por tentativa. Quando o mestre achar que dá para improvisar, tipo dirigir um carro automático em linha reta ou fazer um curativo torto, ele libera a rolagem sem a maestria.
 
-> **Exemplo.** A Rina é uma Vanguarda de nível 6. Destreza 4, Inteligência 2, maestria 1. Ela é treinada em `Furtividade` e no ofício `Arrombamento`.
+> **Exemplo.** A Rina joga de Vanguarda, no nível 6. Destreza 4, Inteligência 2, maestria 1. Ela é treinada em `Furtividade` e no ofício `Arrombamento`.
 >
 > Para entrar no depósito sem ser vista ela rola `Furtividade`, que é Destreza: `d20 + 4 + 1`, ou seja `d20 + 5`.
 >
@@ -2406,7 +2406,7 @@ Fundamento, do jeito padrão.
 
 O meio te trata de acordo. Ninguém te chama para a missão que precisa de uma técnica específica; te chamam para as outras noventa. Isso significa carga de trabalho e pouca vitrine, e significa também que você aprende o ofício de verdade, porque o serviço nunca para. Quem vem de clã e nasce Sem Técnica costuma carregar uma vergonha que a família não deixa esquecer. Quem vem de fora costuma nem saber que devia estar constrangido, e trabalha melhor por isso.
 
-Sem Técnica se soma a uma das cinco Origens principais. Você continua sendo Latente, Receptáculo, Descendente, Reencarnado ou Feto, com a marca de que a técnica não veio junto. Um Descendente Sem Técnica é o caso da Miwa: nome de peso, nenhuma técnica de clã.
+Sem Técnica se soma a uma das cinco Origens principais. Você continua sendo Latente, Receptáculo, Descendente, Reencarnado ou Feto, com a marca de que a técnica não veio junto. Na obra isso é a Miwa: nome de peso, nenhuma técnica de clã.
 
 O poder vem de dois lugares.
 
@@ -2585,7 +2585,7 @@ A troca é sempre desproporcional para os dois lados: você perde muito e ganha 
 
 São dois ramos opostos, e você escolhe um na criação.
 
-**Corpo pela técnica.** O corpo não funciona, e em troca a energia é enorme. É o Kokichi Muta: pele que não aguenta sol, membros que faltam, dor constante, e energia suficiente para operar cadáveres amaldiçoados a uma distância absurda. O Mechamaru é o boneco que ele pilota. O corpo que aparece na escola é a ferramenta; a Origem é a pessoa que ficou em casa.
+**Corpo pela técnica.** O corpo não funciona, e em troca a energia é enorme. É o Kokichi Muta: pele que não aguenta sol, membros que faltam, dor constante, e energia suficiente para operar cadáveres amaldiçoados a uma distância absurda. Ele pilota o Mechamaru de casa. O boneco vai à escola; a Origem descreve quem ficou.
 
 **Sem energia.** Você nasceu sem energia amaldiçoada, nenhuma, e em troca o corpo recebeu a troca. É a Maki e o Toji. Você não conjura, não canaliza e não sente energia. Fere maldição com ferramenta amaldiçoada, e enxerga o mundo jujutsu de fora. O que a Origem fixa é a perda, e não o que você constrói em cima dela: um restringido que nunca levantou peso e resolve tudo pela cabeça é uma ficha tão legítima quanto o Toji.
 
@@ -2757,9 +2757,8 @@ Quem é do ramo sem energia não alcança `Sentir Energia` por lugar nenhum: ela
 
 *fonte: `manual/35-caminhos-e-trilhas.md`*
 
-O Caminho é o seu lugar na equipe, e você escolhe ele na criação. A Trilha diz quem você é dentro do Caminho, e ela nasce junto com ele, no nível 2. São cinco Caminhos, três Trilhas em cada um.
+**O Caminho diz o seu lugar na equipe**, e você escolhe ele na criação. A Trilha diz quem você é dentro do Caminho, e ela nasce junto com ele, no nível 2. São cinco Caminhos, três Trilhas em cada um.
 
-O Caminho é o jeito que o seu treino pegou: a resposta que o seu corpo dá quando a sala fica perigosa. É também o que entra no relatório da missão quando alguém pergunta o que cada um estava fazendo lá dentro. Quem segurou a porta, quem cortou, quem manteve o time de pé, quem despejou técnica, quem trouxe corpo emprestado.
 
 ## Como ler um Caminho
 
@@ -2843,7 +2842,7 @@ E duas coisas que quase todo degrau daqui menciona:
 
 *O corpo é a resposta: aguentar, encarar, prender.*
 
-O Bastião entra primeiro na sala e sai por último. Em campo ele é o corpo que a maldição enxerga: fica na porta, fica na frente do civil, fica entre o time e a coisa. Quem escolhe esse Caminho costuma ser gente que descobriu cedo que aguenta mais pancada que os outros e resolveu fazer disso um trabalho, com ou sem técnica boa para acompanhar.
+O Bastião entra primeiro na sala e sai por último. Em campo ele é o corpo que a maldição enxerga: fica na porta, fica na frente do civil, fica entre o time e a coisa. Quem escolhe o Bastião descobriu cedo que aguenta mais pancada que os outros e resolveu fazer disso um trabalho, com ou sem técnica boa para acompanhar.
 
 ### Características do Bastião
 
@@ -2874,7 +2873,7 @@ O Bastião entra primeiro na sala e sai por último. Em campo ele é o corpo que
 > **Nível 30: `Segurar`.** *Reação.* Quando alguém ao seu alcance **se move, conjura ou ataca**, você pode tentar `Agarrar` ou `Derrubar` essa pessoa. **A ação dela acontece de qualquer jeito.**
 > **Enquanto você tiver alguém agarrado, você se move junto com ela, e o deslocamento dela cai pela metade.**
 
-*O `Corpo Duro` é o que faz o time aceitar que você entre primeiro: a sua Constituição vira quantas vezes por dia o grupo pode errar de leve. O `Puxar Para Si`, no 15, muda o planejamento inteiro da mesa, porque a partir dali os outros podem se expor de propósito sabendo que existe alguém para desmanchar o erro. E o `Segurar` resolve a cena de fuga: informante correndo, maldição tentando trocar de prédio, alvo que ia sumir no meio da multidão.*
+*O `Corpo Duro` faz o time aceitar que você entre primeiro: a sua Constituição vira quantas vezes por dia o grupo pode errar de leve. O `Puxar Para Si`, no 15, muda o planejamento inteiro da mesa, porque a partir dali os outros podem se expor de propósito sabendo que existe alguém para desmanchar o erro. E o `Segurar` resolve a cena de fuga: informante correndo, maldição tentando trocar de prédio, alvo que ia sumir no meio da multidão.*
 
 ### Trilha: Muro
 
@@ -2899,7 +2898,7 @@ Quem joga de `Muro` planta os dois pés e vira geografia: escolhe um corredor, u
 
 *Você bate mais vezes, e cada vez que bate alguém sai do lugar.*
 
-Quem joga de `Punho` briga sem arma no meio, socando até a formação do inimigo desmanchar. O molde é o brigão de rua que entrou para a instituição já sabendo apanhar e aprendeu técnica depois, meio de má vontade. Na mesa você olha o mapa antes de olhar a vida do alvo, porque o que decide a rodada é para onde a pessoa voa.
+Quem joga de `Punho` briga sem arma no meio, socando até a formação do inimigo desmanchar — o brigão de rua que entrou para a instituição já sabendo apanhar e aprendeu técnica depois, meio de má vontade. Na mesa você olha o mapa antes de olhar a vida do alvo, porque o que decide a rodada é para onde a pessoa voa.
 
 > **Nível 2: `Engate`.** Quando você **acerta** um ataque na sua ação de atacar, você pode dar um golpe desarmado como **ação bônus**.
 >
@@ -2968,9 +2967,9 @@ A Vanguarda encosta a lâmina onde ela precisa encostar, e chega lá antes do re
 
 Ter escola de arma quer dizer que alguém te ensinou aquela categoria de verdade, do jeito antigo: repetição, forma, um professor corrigindo o seu pulso até a coisa virar reflexo. Duas pessoas com a mesma espada na mão fazem coisas diferentes com ela, e a diferença é a escola.
 
-A Manha é o que a sua categoria sabe fazer além de causar dano. Você usa a da categoria que escolheu na `Escola de Arma`, e ela vale com qualquer arma daquela categoria: a escola é do tipo de arma, e a peça específica é descartável. Se a sua lâmina quebrou no meio da missão e você pegou outra do chão, a Manha continua.
+A Manha entrega o que a sua categoria sabe fazer além de causar dano. Você usa a da categoria que escolheu na `Escola de Arma`, e ela vale com qualquer arma daquela categoria: a escola é do tipo de arma, e a peça específica é descartável. Se a sua lâmina quebrou no meio da missão e você pegou outra do chão, a Manha continua.
 
-Na mesa, é a Manha que dá identidade à sua ficha. Você vira a pessoa do machado, a pessoa da corrente, a pessoa do fuzil, e o grupo aprende a jogar em volta do que a sua arma faz com a posição do inimigo.
+A Manha dá identidade à sua ficha. Você vira a pessoa do machado, a pessoa da corrente, a pessoa do fuzil, e o grupo aprende a jogar em volta do que a sua arma faz com a posição do inimigo.
 
 **Manhas**
 | Categoria | Manha | O que faz |
@@ -2995,7 +2994,7 @@ Na mesa, é a Manha que dá identidade à sua ficha. Você vira a pessoa do mach
 
 *A arma faz o que a luta pedir, e o que ela pede muda toda rodada.*
 
-O molde é o lutador que troca de ferramenta mais rápido do que o inimigo troca de plano: espada na mão e técnica saindo por cima, na mesma rodada. Jogando de `Estocada`, a decisão de cada turno é qual feitiço vale gastar a ação padrão, sabendo que o golpe da bônus depende do que ele fez.
+Quem joga de `Estocada` troca de ferramenta mais rápido do que o inimigo troca de plano: espada na mão e técnica saindo por cima, na mesma rodada. A decisão de cada turno é qual feitiço vale gastar a ação padrão, sabendo que o golpe da bônus depende do que ele fez.
 
 > **Nível 2: `Compasso`.** Você usa a ação **Conjurar** na ação padrão e dá um **golpe com arma do grupo escolhido** como ação bônus.
 > **E naquele grupo de armas, o acerto e o dano usam Essência ou Inteligência** no lugar de Força ou Destreza. **O requisito de Força para empunhar continua valendo.**
@@ -3071,7 +3070,7 @@ Pólvora, ruído e uma profissão que finge não usar isso. É a rota que funcio
 
 *Você mata o que ninguém consegue matar.*
 
-O molde é o profissional sem técnica grande e sem gritaria: uma lâmina, um alvo, e a paciência de trocar golpe até acabar. Jogar assim é aceitar um turno simples e uma ficha teimosa — você bate, apanha, repõe casca e bate de novo, e o inimigo acaba antes de você.
+Quem joga de `Executor` trabalha sem técnica grande e sem gritaria: uma lâmina, um alvo, e a paciência de trocar golpe até acabar. Você aceita um turno simples e uma ficha teimosa: bate, apanha, repõe casca e bate de novo, e o inimigo acaba antes de você.
 
 > **Nível 2: `Pegada`.** Você escolhe um **estilo de luta**, e ele vale a campanha inteira. *Cada estilo pede um jeito diferente de segurar a arma, e é isso que impede um de ser a versão melhor do outro.*
 >
@@ -3081,7 +3080,7 @@ O molde é o profissional sem técnica grande e sem gritaria: uma lâmina, um al
 >
 > **Nível 27: `Retomada`.** Quando você **erra uma rolagem de ataque**, role de novo e use o segundo resultado. **`Maestria` vezes por dia.**
 
-*O `Aprumo` é o que faz o `Executor` ser escalado para missão longa: ele repõe casca sozinho, sem gastar PE e sem depender de ninguém do time. Numa campanha em que a cura é escassa, isso é o que permite encadear duas ou três lutas no mesmo dia.*
+*O `Aprumo` repõe casca sozinho, sem gastar PE e sem depender de ninguém do time. Numa campanha em que a cura é escassa, isso é o que permite encadear duas ou três lutas no mesmo dia.*
 
 #### Estilos da `Pegada`
 
@@ -3120,7 +3119,7 @@ O Guia faz o efeito de outra pessoa durar mais, pegar mais gente ou chegar mais 
 
 *Perícia, ofício e Teste de Resistência entram na ficha uma vez, na criação. O quadro completo das vinte e três perícias e dos onze ofícios está no capítulo 3, __Perícias e Ofícios__.*
 
-> **O Guia é o único Caminho sem ataque extra, por nenhuma rota.** Quem quiser lutar de Guia paga pela técnica, como todo mundo. Em troca, o degrau do nível 7 dele entrega duas coisas em vez de uma.
+> ****Nenhuma rota dá ataque extra ao Guia.**** Quem quiser lutar de Guia paga pela técnica, como todo mundo. Em troca, o degrau do nível 7 dele entrega duas coisas em vez de uma.
 
 ### Degraus do Guia
 
@@ -3133,7 +3132,7 @@ O Guia faz o efeito de outra pessoa durar mais, pegar mais gente ou chegar mais 
 >
 > **Nível 30: `Ninguém Cai`.** *Reação.* Quando um aliado que você enxerga chegaria a 0 de vida, **ele fica com `1`** e **o dano excedente é anulado.**
 
-*O `Guiar` é a entrega mais usada da ficha inteira, e a maior parte do uso dela acontece fora de combate: a negociação que o grupo não podia perder, a fechadura, o teste de perícia que decidia a missão. Metade da sua Essência somada depois da rolagem cabe em qualquer cena em que alguém do time abre a boca ou põe a mão em alguma coisa.*
+*O `Guiar` rende mais fora de combate do que dentro: a negociação que o grupo não podia perder, a fechadura, o teste de perícia que decidia a missão. Metade da sua Essência somada depois da rolagem cabe em qualquer cena em que alguém do time abre a boca ou põe a mão em alguma coisa.*
 
 *O `Puxar a Linha` resolve o aliado inconsciente, o aliado agarrado por decisão ruim e o aliado que entrou num lugar de onde não ia sair. A parte de ele não poder recusar é o que faz a entrega funcionar sob fogo.*
 
@@ -3141,7 +3140,7 @@ O Guia faz o efeito de outra pessoa durar mais, pegar mais gente ou chegar mais 
 
 *O que outra pessoa fez chega mais longe, dura mais e pega mais gente do que ela conseguiria sozinha.*
 
-O molde é quem amplifica: você escolhe uma pessoa, e enquanto o elo estiver de pé o que ela faz chega mais longe. A ficha do `Elo` quase não causa dano, e a sua decisão de cada cena é em quem você está pendurado agora.
+Quem joga de `Elo` amplifica: você escolhe uma pessoa, e enquanto o elo estiver de pé o que ela faz chega mais longe. A ficha do `Elo` quase não causa dano, e a sua decisão de cada cena é em quem você está pendurado agora.
 
 > **Nível 2: `Nó`.** **Ação Bônus.** Escolha um aliado **que você enxerga**: vocês dois formam um **elo**. Ao formar, escolha **ataques de arma** ou **ataques de feitiço**, enquanto o elo durar, **os dois membros ganham `+1` de acerto** naquele tipo de ataque.
 > **O elo dura até você formar outro**, e **não se quebra por distância**.
@@ -3160,7 +3159,7 @@ O molde é quem amplifica: você escolhe uma pessoa, e enquanto o elo estiver de
 
 *O dano que já aconteceu não é definitivo enquanto você estiver na sala.*
 
-O molde é o médico de campo do grupo, a pessoa que a instituição manda junto quando a missão tem chance real de alguém não voltar. A Trilha entrega a `Energia Reversa` sem os gates de nível e de refino que o resto da ficha paga, e no meio da luta a sua decisão é quem vale a energia.
+A `Sutura` põe o médico de campo no grupo — a pessoa que a instituição manda junto quando a missão tem chance real de alguém não voltar. A Trilha entrega a `Energia Reversa` sem os gates de nível e de refino que o resto da ficha paga, e no meio da luta a sua decisão é quem vale a energia.
 
 > **Nível 2: `Agulha`.** Você ganha a aptidão **`Energia Reversa`** **sem os gates de nível e de refino**. *Por uso, você não pode gastar mais que **`metade da sua maestria`** em PE.*
 >
@@ -3171,7 +3170,7 @@ O molde é o médico de campo do grupo, a pessoa que a instituição manda junto
 >
 > **Nível 27: `Cerzido`.** O teto por uso vai a **`a sua maior Classe`** em PE, e você **rerrola `1` e `2`** em todos os seus dados de cura, ficando com o segundo resultado.
 
-*O `Enxerto` é a entrega que mais resolve cena: veneno, paralisia, maldição pequena grudada em alguém, condição que o grupo não tinha como tirar de outro jeito. Ele faz isso com o mesmo uso da cura, então a decisão vira quanto do teto você gasta consertando o corpo e quanto gasta tirando a coisa de cima dele.*
+*O `Enxerto` limpa veneno, paralisia, maldição pequena grudada em alguém, e condição que o grupo não tinha como tirar de outro jeito. Ele faz isso com o mesmo uso da cura, então a decisão vira quanto do teto você gasta consertando o corpo e quanto gasta tirando a coisa de cima dele.*
 
 > **`Energia Reversa` não cura dano de alma.** Nenhum degrau desta Trilha alcança isso.
 
@@ -3191,7 +3190,7 @@ Quem joga de `Perímetro` anda com uma área em volta do corpo, e dentro dela o 
 >
 > **Nível 27: `Portão`.** A `Sentinela` passa a disparar **quando o ataque do inimigo acerta também**, e **quando um alvo sai do `Chão` por movimento voluntário**.
 
-*O `Encalço` é a entrega que atravessa a cena inteira, dentro ou fora de combate: ele dura até o fim, ele pega perícia, e um alvo marcado erra a fuga, erra a mentira e erra a escalada. Numa perseguição pela cidade, é ele que decide.*
+*O `Encalço` atravessa a cena inteira, dentro e fora de combate: ele dura até o fim, ele pega perícia, e um alvo marcado erra a fuga, erra a mentira e erra a escalada. Numa perseguição pela cidade, é ele que decide.*
 
 ## Emanador
 
@@ -3230,7 +3229,7 @@ O Emanador apostou tudo na técnica. Corpo pouco, energia muita, e um repertóri
 > **Nível 30: `Fonte`.** Feitiços de **Classe 3 ou menos custam metade do PE**.
 > **E um feitiço de Classe 2 à sua escolha, de dano ou de condição, passa a custar `0`.**
 
-*A `Modelagem` é o que faz o Emanador improvisar sem ter previsto: você chegou com o feitiço montado para uma coisa e o alvo é outra, e a peça se remonta na hora. A `Segunda Leitura` faz o mesmo em escala de missão, e muda o preparo do grupo: com um briefing decente, você dorme e acorda com a ficha desenhada para aquele alvo específico.*
+*A `Modelagem` deixa o Emanador improvisar sem ter previsto: você chegou com o feitiço montado para uma coisa e o alvo é outra, e a peça se remonta na hora. A `Segunda Leitura` faz o mesmo em escala de missão, e muda o preparo do grupo: com um briefing decente, você dorme e acorda com a ficha desenhada para aquele alvo específico.*
 
 *A `Sangria` se auto-limita no calendário: `1/8` cabe exatamente quatro vezes antes de você ter perdido metade da vida, e o dia esperado tem três a quatro lutas.*
 
@@ -3238,7 +3237,7 @@ O Emanador apostou tudo na técnica. Corpo pouco, energia muita, e um repertóri
 
 *Você lança até a energia acabar, e ela acaba.*
 
-O molde é o feiticeiro que abre a torneira: dois feitiços na mesma rodada, técnica em cima de técnica, e um bolso de PE que some rápido. A Trilha te dá a rodada grande e cobra o resto da missão, então a decisão real é em qual luta do dia você abre a torneira.
+Quem joga de `Torrente` abre a torneira: dois feitiços na mesma rodada, técnica em cima de técnica, e um bolso de PE que some rápido. A Trilha te dá a rodada grande e cobra o resto da missão, então a decisão real é em qual luta do dia você abre a torneira.
 
 > **Nível 2: `Acelerar`.** *`2×` por cena.* Você conjura um feitiço da sua **ação padrão como ação bônus**, pagando **`Classe e meia` de PE a mais**, arredondando para cima. *Num Classe 7 são `11` de PE.*
 > Naquele turno, o outro feitiço que você lançar **não passa de `Classe 0`**.
@@ -3251,13 +3250,13 @@ O molde é o feiticeiro que abre a torneira: dois feitiços na mesma rodada, té
 
 *A `Cheia` premia a rodada calma, e é ela que segura a Trilha nas cenas longas: nos turnos em que você não abre a torneira, o feitiço único sai mais consistente. As duas metades da `Torrente` se revezam ao longo da luta.*
 
-> **O `Transbordo` é a única exceção à regra global de arredondamento**, que sempre desce. Ela vale aqui e em lugar nenhum mais.
+> **Só o `Transbordo` arredonda para cima**; a regra global sempre desce. Ela vale aqui e em lugar nenhum mais.
 
 ### Trilha: Explosivo
 
 *Um feitiço só na rodada, e ele sai maior.*
 
-O molde é o artilheiro: você passa duas rodadas se posicionando e resolve a luta na terceira. Quase toda entrega da Trilha melhora a mesma coisa, que é o feitiço único do seu turno — você escolhe o momento em que o alvo está agrupado ou exposto e transforma uma rolagem em cena inteira.
+Quem joga de `Explosivo` trabalha como artilheiro: passa duas rodadas se posicionando e resolve a luta na terceira. Quase toda entrega da Trilha melhora a mesma coisa, que é o feitiço único do seu turno — você escolhe o momento em que o alvo está agrupado ou exposto e transforma uma rolagem em cena inteira.
 
 > **Nível 2: `Pavio`.** Quando o feitiço que você conjura é **o único feitiço de dano daquele turno**, **rerrole todo dado de dano dele que cair em `1` ou `2`.**
 >
@@ -3273,7 +3272,7 @@ O molde é o artilheiro: você passa duas rodadas se posicionando e resolve a lu
 
 *O feitiço chega junto com você.*
 
-O molde é o conjurador que precisa encostar: ele briga de mão, e o feitiço é o que acontece quando a mão chega. Jogando de `Arremate`, você precisa estar dentro do alcance do inimigo para render, e boa parte da Trilha existe para você sobreviver ao lugar em que ela te obriga a ficar.
+Quem joga de `Arremate` precisa encostar: briga de mão, e o feitiço sai quando a mão chega. Você precisa estar dentro do alcance do inimigo para render, e boa parte da Trilha existe para você sobreviver ao lugar em que ela te obriga a ficar.
 
 > **Nível 2: `Empunhadura`.** Escolha um **grupo de arma**. Você é treinado nele, e naquele grupo **o acerto e o dano usam Inteligência ou Essência**. *O requisito de Força para empunhar continua valendo.*
 > **E quando você ataca com uma arma daquele grupo na Ação Padrão, você pode conjurar um feitiço de Classe na Ação Bônus.**
@@ -3284,9 +3283,9 @@ O molde é o conjurador que precisa encostar: ele briga de mão, e o feitiço é
 >
 > **Nível 27: *vaga*.** *A casa existe e está vazia. A ficção dela é o capstone do molde: deixar de precisar encostar.*
 
-*A `Crosta` é o que torna o `Arremate` jogável de verdade a partir do 19: a mesma decisão que te põe em perigo, que é conjurar colado, passa a ser a que te dá casca. Antes disso, a sua sobrevivência depende do time.*
+*A `Crosta` sustenta o `Arremate` a partir do 19: a mesma decisão que te põe em perigo, que é conjurar colado, passa a ser a que te dá casca. Antes disso, a sua sobrevivência depende do time.*
 
-> **O `Arremate` é uma das duas Trilhas que ganham ataque extra pela Trilha em vez do Caminho.** A outra é o `Coro`. **O golpe é uma Ação Bônus, e ele só existe se a Ação Padrão daquele turno conjurou ou atacou com a arma do grupo escolhido.** A trava que continua valendo é a de sempre: um feitiço de Toque por turno, e ataque extra é sempre golpe simples.
+> **O `Arremate` ganha ataque extra pela Trilha, e não pelo Caminho.** A outra assim é o `Coro`. A outra é o `Coro`. **O golpe é uma Ação Bônus, e ele só existe se a Ação Padrão daquele turno conjurou ou atacou com a arma do grupo escolhido.** A trava que continua valendo é a de sempre: um feitiço de Toque por turno, e ataque extra é sempre golpe simples.
 
 ## Evocador
 
@@ -3323,7 +3322,7 @@ O Evocador chega acompanhado. Shikigami, talismã que vira bicho, maldição dom
 >
 > **Nível 30: `Segundo Corpo`.** **Uma vez por descanso curto, invocar não custa a ação padrão**, só o PE.
 
-*A `Coleira` é a entrega que faz a invocação servir fora de combate: treinada nas perícias da ficha dela, ela vira o que entra no duto, o que fareja, o que fica de vigia enquanto o grupo dorme. E o `Escudo de Osso` é o que compra a rodada em que você ia cair, o que importa muito numa ficha de 4 de vida por nível.*
+*A `Coleira` faz a invocação servir fora de combate: treinada nas perícias da ficha dela, ela vira o que entra no duto, o que fareja, o que fica de vigia enquanto o grupo dorme. E o `Escudo de Osso` é o que compra a rodada em que você ia cair, o que importa muito numa ficha de 4 de vida por nível.*
 
 ### Trilhas do Evocador
 
@@ -3344,15 +3343,15 @@ O Evocador chega acompanhado. Shikigami, talismã que vira bicho, maldição dom
 
 #### Servo
 
-*Uma invocação, forte.* A fantasia é a do parceiro: um corpo só, com nome, que anda com você a campanha inteira e que a mesa aprende a conhecer tanto quanto conhece o seu personagem. O corpo do `Servo` tem a vida do bando inteiro da `Matilha` num só, e o orçamento dele é o da ficha mais metade: é onde ele fica na frente. Perder esse corpo é perder o kit, então jogar de `Servo` é jogar com medo de perder uma coisa só.
+*Uma invocação, forte.* O `Servo` põe em campo um corpo só, com nome, que anda com você a campanha inteira. Ele carrega a vida do bando inteiro da `Matilha` num corpo, e o orçamento dele é o da ficha mais metade. Perder esse corpo tira o kit da mesa de uma vez.
 
 #### Matilha
 
-*Muitos corpos fracos.* A fantasia é a do bando: você chega na cena ocupando mais chão que qualquer outra ficha do sistema, e a sua vantagem é estar em cinco lugares ao mesmo tempo. A `Matilha` é **uma ficha com cinco corpos**: uma barra de vida só, e o dano que passa de um corpo cascateia para o seguinte. Os cinco continuam no campo, cada um com a sua posição. **A rodada dela se resolve em pool**, os cinco d20 saem de uma vez, conta-se os acertos, e o dano dos que acertaram se soma. Cada corpo declara o próprio alvo **antes** da rolagem.
+*Muitos corpos fracos.* A `Matilha` põe cinco corpos em campo, e a sua vantagem é estar em cinco lugares ao mesmo tempo. Ela conta como **uma ficha com cinco corpos**: uma barra de vida só, e o dano que passa de um corpo cascateia para o seguinte. Os cinco continuam no campo, cada um com a sua posição. **A rodada dela se resolve em pool**, os cinco d20 saem de uma vez, conta-se os acertos, e o dano dos que acertaram se soma. Cada corpo declara o próprio alvo **antes** da rolagem.
 
 #### Coro
 
-*Você e a invocação lutam juntos.* A fantasia é a da dupla que treinou junto: você entra na luta com o corpo, e os dois se cobrem. O `Coro` é a exceção de economia de ação: ele **ataca e comanda na mesma rodada**. O golpe é uma **Ação Bônus**, e ele só existe se a Ação Padrão daquele turno **comandou, e a invocação atacou**. O corpo dele é o mais frágil dos três, e é o único cuja queda deixa o kit funcionando: você continua batendo.
+*Você e a invocação lutam juntos.* No `Coro` você entra na luta junto com o corpo, e os dois se cobrem. Ele **ataca e comanda na mesma rodada**, e abre exceção na economia de ação. O golpe é uma **Ação Bônus**, e ele só existe se a Ação Padrão daquele turno **comandou, e a invocação atacou**. O corpo dele é o mais frágil dos três, e é o único cuja queda deixa o kit funcionando: você continua batendo.
 
 > **Você e todas as suas invocações somados entregam a mesma saída de dano que você entregaria sozinho.** Com uma invocação, cada um entrega metade. Com três, cada um entrega um quarto. **A máquina completa (orçamento por nível, `Traço`, `Comando`, a amarra, morte e retorno) está no capítulo 15, *Invocações*.**
 
@@ -3411,7 +3410,7 @@ Cada feitiço é montado na Classe que o seu nível já liberou, e *Números da 
 > **Ataque de conjuração = d20 + o atributo da sua técnica + maestria**
 > **Maestria** começa em 1 e sobe um ponto a cada oito níveis.
 
-É a mesma forma do soco e do tiro — atributo mais maestria —, e é de propósito: **o feitiço não tem uma regra própria de acertar.** Uma técnica de cálculo usa Inteligência, uma de leitura de energia usa Essência, e o feiticeiro que conjura batendo usa Força. O molde é o Todo.
+É a mesma forma do soco e do tiro — atributo mais maestria —, e é de propósito: **o feitiço não tem uma regra própria de acertar.** Uma técnica de cálculo usa Inteligência, uma de leitura de energia usa Essência, e o feiticeiro que conjura batendo usa Força. Na obra, o Todo conjura assim.
 
 **Ataque e CD de um atributo levado ao teto**
 | Seu nível | Maestria | Atributo | Ataque de conjuração | CD dos seus feitiços |
@@ -3566,7 +3565,7 @@ A média nunca se afasta mais de 3 pontos da conta em d8.
 
 ## Escrevendo o seu Fundamento
 
-O Fundamento é a técnica inata do personagem. Ele é escrito uma vez, na criação, junto com o mestre, e não muda depois: o que evolui com os níveis são os feitiços que saem dele. Um Fundamento completo tem cinco partes, e esta seção percorre uma por uma.
+**Você escreve o Fundamento uma vez**, na criação, junto com o mestre, e ele não muda depois: o que evolui com os níveis são os feitiços que saem dele. Um Fundamento completo tem cinco partes, e esta seção percorre uma por uma.
 
 > **Na criação, você escreve:**
 > **1.** A **Descrição** da técnica, com o tipo de dano dela.
@@ -3626,13 +3625,13 @@ As Formas, que são o jeito como o feitiço sai, também têm Família: `Explos�
 
 ### Selo
 
-O Selo é uma coisa que o seu personagem sempre precisa fazer para conjurar, seja qual for o feitiço: um gesto, um som, uma condição visível. É a assinatura da técnica, o que a mesa vê ou ouve toda vez que ela entra em cena.
+Para conjurar, o seu personagem sempre faz a mesma coisa, seja qual for o feitiço: um gesto, um som, uma condição visível. É a assinatura da técnica, o que a mesa vê ou ouve toda vez que ela entra em cena.
 
 Bater palma. · Dizer o nome do feitiço. · Estar enxergando o alvo. · Ter tocado no alvo nesta cena. · Estar pisando no chão.
 
 O Selo não mexe em ponto nenhum: não custa, não devolve e não dá bônus. Ele existe para dar corpo à técnica e para criar jogo, porque quem conhece o seu Selo sabe o que procurar quando você se mexe. A única regra mecânica ligada a ele aparece nas Restrições: como o Selo já é uma obrigação sua, **uma Restrição que cobra a mesma coisa que ele não devolve ponto**.
 
-O Selo é uma coisa só, e a mesa consegue apontar o momento em que aconteceu. Se você precisa de mais de uma frase para explicar, aquilo virou condição de cena ou de alvo, e isso se compra por feitiço, com a Restrição `Condicional`.
+O seu Selo tem uma parte só, e a mesa consegue apontar o momento em que ela aconteceu. Se você precisa de mais de uma frase para explicar, aquilo virou condição de cena ou de alvo, e isso se compra por feitiço, com a Restrição `Condicional`.
 
 **É Selo ou é `Condicional`**
 | É Selo | Vira `Condicional` |
@@ -3722,7 +3721,7 @@ Algumas técnicas funcionam impondo uma regra ao mundo: julgamento, aposta, cont
 - Sem dano direto: gera recurso, condição ou obrigação.
 - Com limite por cena.
 
-A `Regra Própria` é a única Passiva que pode ser comprada em Classe Passiva 1 desde o nível 1. Quando os níveis liberarem as alturas maiores, ela sobe para 2 e 3 pagando só a diferença de espaços.
+**Só a `Regra Própria` pode ser comprada em Classe Passiva 1 desde o nível 1.** Quando os níveis liberarem as alturas maiores, ela sobe para 2 e 3 pagando só a diferença de espaços.
 
 *"Quem me atacar sabendo que eu não revidei acumula uma Dívida. Cobro uma por cena."*
 *"Quando eu aposto e ganho, meu próximo teste na cena tem vantagem. Uma vez por cena."*
@@ -4136,7 +4135,7 @@ A mão que segura quem caiu. Funcionam com as Formas `Cura`, `Apoio` e `Onda` e,
 |---|---|---|
 | `Efeito Próprio` | o mestre decide | Uma mecânica que não existe em lugar nenhum desta lista. Um deslocamento junto com o dano, um efeito que só funciona em superfície molhada, o que for. Um por feitiço, combinado antes da sessão e nunca no meio dela. Não pertence a nenhuma Família, então Família Fechada não bloqueia. |
 
-A Restrição equivalente é a `Restrição Própria`, no fim de *As Restrições*.
+Do lado das Restrições, a equivalente dela se chama `Restrição Própria`, no fim de *As Restrições*.
 
 ## Restrições
 
@@ -4196,7 +4195,7 @@ Restrição precisa ser uma coisa que a mesa consegue apontar acontecendo, e alg
 
 **Duas Restrições não podem cobrar a mesma coisa:** dois turnos de preparo, duas condições no seu corpo, dois jeitos de te entregar. Se as duas doem no mesmo momento, a segunda não devolve nada.
 
-**Restrição que o seu Selo já obriga não devolve ponto.** O Selo é uma obrigação que você já tem, e vender a mesma dor duas vezes não vale ponto novo.
+**Restrição que o seu Selo já obriga não devolve ponto.** Você já carrega o Selo de qualquer jeito, e vender a mesma dor duas vezes não vale ponto novo.
 
 Depois de três sessões, o mestre revisa as Restrições em jogo. As que nunca atrapalharam são trocadas.
 
@@ -4257,7 +4256,7 @@ Feitiço de `Efeito` custa PE igual a qualquer outro e ocupa espaço na sua list
 
 ## Liberação Máxima
 
-No nível 10, o personagem aprende a romper o próprio limite. A Liberação Máxima é o único feitiço capaz de passar dos pontos da Classe em dano contra um alvo só. É o pico de dano que a ficha alcança, e por isso ela é contada: você só tem as que os níveis deram.
+No nível 10, o personagem aprende a romper o próprio limite. **Só a Liberação Máxima passa dos pontos da Classe em dano contra um alvo só.** É o pico de dano que a ficha alcança, e por isso ela é contada: você só tem as que os níveis deram.
 
 Liberação não se improvisa. Ela é escrita antes da sessão, montada como qualquer feitiço, e fica anotada na ficha com nome próprio.
 
@@ -4314,7 +4313,7 @@ Se a sua mesa quiser que pese mais, use uma vez por cena em vez do recarregament
 > `O Fim da Linha`: Forma `Linha` (`Leve` na Classe 5: 3 pontos) + `Muito Longe` (`Média`: 5 pontos) = 8 dos 8 pontos de montagem. A linha sobe da base de 18 m até o fim da escada: 60 m. **24d8 = 108 de dano** em tudo na linha. Rodada inteira, 25 de PE.
 > `Ponto Final`: `Projétil` (grátis) + `Fura` (`Média`: 5 pontos) = 5 dos 8; os 3 que sobram se perdem. **24d8 = 108**, ignorando 15 de Redução de Dano (3 × Classe 5). Rodada inteira, 25 de PE.
 
-**Expansão de Domínio e Técnica Máxima são peças separadas.** A Técnica Máxima é o topo da sua técnica inata; o domínio é a mesma técnica estendida sobre o território em volta. Uma técnica feita de domínio continua tendo Técnica Máxima como qualquer outra.
+**Expansão de Domínio e Técnica Máxima são peças separadas.** A Técnica Máxima fecha o topo da sua técnica inata; o domínio estende a mesma técnica sobre o território em volta. Uma técnica feita de domínio continua tendo Técnica Máxima como qualquer outra.
 
 ## Expandindo o seu Domínio
 
@@ -4615,7 +4614,7 @@ Três coisas mudam de nome e duas somem.
 
 > **Você não tem Selo.** O equipamento ocupa o lugar dele.
 >
-> **Você não tem Expansão de Domínio.** Nem incompleta, nem completa, tenha a sua ficha energia amaldiçoada ou não. Uma Expansão é a técnica inata estendida sobre o território em volta, e esta rota não tem técnica inata para estender.
+> **Você não tem Expansão de Domínio.** Nem incompleta, nem completa, tenha a sua ficha energia amaldiçoada ou não. Uma Expansão estende a técnica inata sobre o território em volta, e esta rota não tem técnica inata para estender.
 
 **E quem não tem energia amaldiçoada troca refino e aptidões por Lapidação e Bênçãos**, no capítulo 12.
 
@@ -4807,7 +4806,7 @@ Sete marcos de graça mais o 1 do começo fecham em refino 8 sem você escolher 
 | Teste de Resistência | magnitude fora de disputa: Redução de Dano, proteção |
 | dano | disputa contra outro refino, como o clash de expansões |
 
-A `Projetar energia` é a única que põe refino em dano. A proteção de `Cobrir-se de energia` entra na sua Defesa, e por isso usa `1/3 do refino` em vez do valor cheio.
+**Só a `Projetar energia` põe refino em dano.** A proteção de `Cobrir-se de energia` entra na sua Defesa, e por isso usa `1/3 do refino` em vez do valor cheio.
 
 > **Arredondamento.** Toda divisão de refino arredonda para baixo: refino 5 dividido por 2 dá 2.
 
@@ -5182,7 +5181,7 @@ Bênção e Lapidação valem para **uma** rota de criação: a Restrição Cele
 
 Um corpo humano tem folga: ele para antes de arrebentar e desiste de um peso que aguentaria mais dez segundos. A Lapidação mede quanto dessa folga o seu personagem já gastou treinando.
 
-> **A Lapidação é um número de 1 a 10.** Toda ficha começa em 1, e ela sobe nos marcos: **`+1` de graça em cada um, e mais `+1` se você escolher Lapidação no marco**.
+> **A Lapidação vai de `1` a `10`.** Toda ficha começa em 1, e ela sobe nos marcos: **`+1` de graça em cada um, e mais `+1` se você escolher Lapidação no marco**.
 >
 > **São os mesmos degraus do refino, casa por casa** — a tabela `Refino por marco` do capítulo 11 vale para ela, trocando o nome.
 
@@ -5790,7 +5789,7 @@ Treino simples. O dano sai de Força.
 Manopla é o soco com uma peça de metal por cima. Ela vai vestida: você chega de mãos vazias em qualquer portaria e continua armado do outro lado. Quem luta assim briga colado, e usa o corpo inteiro como parte da arma.
 
 
-O Tekko é a soqueira japonesa: mesma linha da Soqueira, mesmo gasto, mesma regra. O que muda é de onde ela veio.
+O Tekko e a Soqueira têm a mesma linha, o mesmo gasto e a mesma regra. O que muda é de onde cada uma veio.
 
 ### Machado
 
@@ -5896,7 +5895,7 @@ Para quem tem energia amaldiçoada, uma ferramenta é conveniência: uma lâmina
 
 > **Como se sintoniza uma ferramenta está sendo escrito.** Quanto tempo leva, o que se gasta e se dá para desfazer é acordo com o seu mestre por enquanto.
 
-A arma por baixo continua sendo a arma de sempre: ela custa os mesmos pontos que qualquer outra do catálogo, `3` numa mão e `5` em duas. O `Estigma` é uma camada por cima disso, e não devolve nem cobra ponto de arma.
+A arma por baixo continua sendo a arma de sempre: ela custa os mesmos pontos que qualquer outra do catálogo, `3` numa mão e `5` em duas. O `Estigma` entra como camada por cima disso, e não devolve nem cobra ponto de arma.
 
 Uma ferramenta carrega **um** `Estigma`. Nunca dois.
 
@@ -6104,7 +6103,7 @@ Fora de combate a conta some e a invocação vira mão de obra. Ela entra no dut
 
 A conta se fecha sozinha na mesa: comandar custa a sua Ação Padrão, então numa rodada ou você bate ou elas batem. Não dá para somar os dois.
 
-A Trilha `Coro` é a única exceção, e ela ataca e comanda na mesma rodada. O texto dela está no capítulo 8, *Caminhos e Trilhas*.
+**Só a Trilha `Coro` escapa disso**: ela ataca e comanda na mesma rodada. O texto dela está no capítulo 8, *Caminhos e Trilhas*.
 
 ## Ficha da invocação
 
@@ -6520,7 +6519,7 @@ As duas dependem do seu Caminho, e cabem em duas linhas:
 
 A cada quatro níveis o personagem chega a um **marco**: os níveis **6, 10, 14, 18, 22, 26 e 30**. São sete na campanha inteira, e o último cai exatamente no nível 30.
 
-Marco é o nível em que a ficha muda de forma. Nos outros níveis a subida acontece sozinha e você só anota; no marco você para, olha a ficha e decide uma coisa. Na mesa, é onde o personagem volta da missão diferente de como saiu: mais forte no corpo, mais fino no controle da própria energia, ou com um jeito novo de usar a técnica que ele já tinha.
+Marco é o nível em que a ficha muda de forma. Nos outros níveis a subida acontece sozinha e você só anota; no marco você para, olha a ficha e decide uma coisa. Você volta da missão diferente de como saiu: mais forte no corpo, mais fino no controle da própria energia, ou com um jeito novo de usar a técnica que já tinha.
 
 > **De graça, em todo marco:** +1 ponto de atributo, +1 de refino e +1 espaço de feitiço.
 >

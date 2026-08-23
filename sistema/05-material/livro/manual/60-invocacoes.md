@@ -41,7 +41,7 @@ Fora de combate a conta some e a invocação vira mão de obra. Ela entra no dut
 
 A conta se fecha sozinha na mesa: comandar custa a sua Ação Padrão, então numa rodada ou você bate ou elas batem. Não dá para somar os dois.
 
-A Trilha `Coro` é a única exceção, e ela ataca e comanda na mesma rodada. O texto dela está no capítulo 8, *Caminhos e Trilhas*.
+**Só a Trilha `Coro` escapa disso**: ela ataca e comanda na mesma rodada. O texto dela está no capítulo 8, *Caminhos e Trilhas*.
 
 ## Ficha da invocação
 

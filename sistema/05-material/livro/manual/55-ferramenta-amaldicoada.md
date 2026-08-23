@@ -16,7 +16,7 @@ Para quem tem energia amaldiçoada, uma ferramenta é conveniência: uma lâmina
 
 > **Como se sintoniza uma ferramenta está sendo escrito.** Quanto tempo leva, o que se gasta e se dá para desfazer é acordo com o seu mestre por enquanto.
 
-A arma por baixo continua sendo a arma de sempre: ela custa os mesmos pontos que qualquer outra do catálogo, `3` numa mão e `5` em duas. O `Estigma` é uma camada por cima disso, e não devolve nem cobra ponto de arma.
+A arma por baixo continua sendo a arma de sempre: ela custa os mesmos pontos que qualquer outra do catálogo, `3` numa mão e `5` em duas. O `Estigma` entra como camada por cima disso, e não devolve nem cobra ponto de arma.
 
 Uma ferramenta carrega **um** `Estigma`. Nunca dois.
 

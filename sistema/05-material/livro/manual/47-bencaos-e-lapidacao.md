@@ -8,7 +8,7 @@ Bênção e Lapidação valem para **uma** rota de criação: a Restrição Cele
 
 Um corpo humano tem folga: ele para antes de arrebentar e desiste de um peso que aguentaria mais dez segundos. A Lapidação mede quanto dessa folga o seu personagem já gastou treinando.
 
-> **A Lapidação é um número de 1 a 10.** Toda ficha começa em 1, e ela sobe nos marcos: **`+1` de graça em cada um, e mais `+1` se você escolher Lapidação no marco**.
+> **A Lapidação vai de `1` a `10`.** Toda ficha começa em 1, e ela sobe nos marcos: **`+1` de graça em cada um, e mais `+1` se você escolher Lapidação no marco**.
 >
 > **São os mesmos degraus do refino, casa por casa** — a tabela `Refino por marco` do capítulo 11 vale para ela, trocando o nome.
 

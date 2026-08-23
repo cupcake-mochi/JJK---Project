@@ -8,6 +8,79 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.130] — 23/08/2026
+
+**A conversão: o livro parou de escrever definição em forma de equação, e o número entrou na faixa dos quatro manuais.**
+
+*Decisão do Mizuki depois de ver o comparativo da v0.129:* ***"eu acho melhor converter (…) no livro todo mesmo, é ideal manter um numero proximo dos 0,5 - 0,4 que nem os outros livros"***.
+
+### Medido antes e depois
+
+| corpus | equações *"X é o Y"* | por mil frases |
+|---|---:|---:|
+| Caldeirão de Tasha | 1 | `0,3` |
+| PHB 2024 | 2 | `0,7` |
+| GURPS 4e | 10 | `0,9` |
+| Guia do Mestre 5e | 5 | `1,3` |
+| **média dos quatro** | | **`0,4`** |
+| Projeto - M, na v0.129 | 33 | `5,3` |
+| **Projeto - M, agora** | **1** | **`0,3`** |
+
+**Trinta e três convertidas, em treze capítulos.** *Nenhuma foi cortada: todas viraram a mesma informação em predicado direto ou em segunda pessoa, que é a forma que os quatro usam.*
+
+| antes | agora |
+|---|---|
+| *"Um Teste de Resistência é o que você rola quando…"* | **"Você rola um Teste de Resistência quando…"** |
+| *"A Liberação Máxima é o único feitiço capaz de passar dos pontos da Classe"* | **"Só a Liberação Máxima passa dos pontos da Classe"** |
+| *"A `Projetar energia` é a única que põe refino em dano"* | **"Só a `Projetar energia` põe refino em dano"** |
+| *"O Guia é o único Caminho sem ataque extra, por nenhuma rota"* | **"Nenhuma rota dá ataque extra ao Guia"** |
+| *"O Selo é uma coisa que o seu personagem sempre precisa fazer para conjurar"* | **"Para conjurar, o seu personagem sempre faz a mesma coisa"** |
+
+> **⚠ A primeira extração dizia `0,00` e estava errada.** *O regex exigia a frase fechar em `80` caracteres, e quinze equações tinham predicado mais longo que isso.* **A janela larga achou as quinze.** *Décimo caso de medir o marcador em vez do fenômeno neste projeto — e o segundo seguido pego antes de virar decisão, porque duas medidas independentes discordaram e eu fui olhar em vez de escolher a que me convinha.*
+
+### Removido — a fórmula de enquadramento que os quatro não usam
+
+**`O molde é` e `A fantasia é a do` apareciam `12` vezes.** *Nos quatro manuais somados: **zero**.*
+
+**Convertidas para a forma do PHB, que descreve quem faz a coisa, em presente simples:** *"Bárbaros que seguem a Trilha do Berserker direcionam sua Fúria principalmente para a violência".*
+
+| antes | agora |
+|---|---|
+| *"O molde é o artilheiro: você passa duas rodadas se posicionando"* | **"Quem joga de `Explosivo` trabalha como artilheiro: passa duas rodadas se posicionando"** |
+| *"A fantasia é a do bando: você chega na cena ocupando mais chão que qualquer outra ficha do sistema"* | **"A `Matilha` põe cinco corpos em campo"** |
+| *"O molde é o médico de campo do grupo"* | **"A `Sutura` põe o médico de campo no grupo"** |
+
+*Saíram junto o `Na mesa, é` e o `Jogando de`, que faziam o mesmo trabalho.* **Sobrou zero das quatro fórmulas.**
+
+### E uma segunda definição de Caminho que ninguém tinha visto
+
+**O capítulo 8 definia Caminho duas vezes, em linhas seguidas.** *A primeira — "o Caminho diz o seu lugar na equipe" — é a que a tabela e o capítulo 6 usam.* **A segunda era "o Caminho é o jeito que o seu treino pegou: a resposta que o seu corpo dá quando a sala fica perigosa", mais um parágrafo sobre o relatório de missão.** *Cortada.*
+
+### O que NÃO mudou
+
+**Nenhum número de regra.** *`guard_numeros.py` nos treze arquivos mexidos, com a seção `NOTAÇÃO E NÚMERO` recortada e conferida separado: **idêntica nos treze**, de `33` a `1.078` ocorrências cada.* **As únicas diferenças são `um`, `uma`, `duas` e `cinco` — artigo indefinido que a conversão mexeu.**
+
+> **⚠ E a primeira conferência disso estava mal recortada.** *Um `grep -A9` atravessava da seção de notação para a de numeral por extenso, e eu cheguei a imprimir "zero diferença" antes de ter provado.* **Refeito com o recorte certo, entre um cabeçalho e o outro.**
+
+**Dez regras conferidas de pé depois da conversão:** *só o TR Físico escolhe entre dois atributos; uma Reação por turno com três coisas disputando; só a Liberação Máxima passa dos pontos da Classe; a Lapidação vai de `1` a `10`; o Selo não custa, não devolve e não dá bônus.*
+
+### Medido depois
+
+| | v0.129 | v0.130 |
+|---|---|---|
+| palavras do livro | 76.870 | **76.629** |
+| equações por mil frases | 5,3 | **0,3** — média dos quatro: 0,4 |
+| fórmula `O molde é` / `A fantasia é` | 12 | **0** |
+| coluna única | 248 páginas | **248** |
+| duas colunas | 141 páginas | **141** |
+| `conferir-voz --estrito` | 0 achados · 15 triagens | **0 achados · 15 triagens** |
+
+*Nenhum validador se moveu: continuam `21` validadores e `203` checagens.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **A decisão de qual das três diagramações fica continua aberta.** *A fila de mecânica não mudou: as três Trilhas do Evocador.*
+
+---
+
 ## [0.129] — 22/08/2026
 
 **A passada de texto que era leitura e não varredura, e as duas listas de perícia que fechavam a Restrição Celestial.**

@@ -51,7 +51,7 @@ Sete marcos de graça mais o 1 do começo fecham em refino 8 sem você escolher 
 | Teste de Resistência | magnitude fora de disputa: Redução de Dano, proteção |
 | dano | disputa contra outro refino, como o clash de expansões |
 
-A `Projetar energia` é a única que põe refino em dano. A proteção de `Cobrir-se de energia` entra na sua Defesa, e por isso usa `1/3 do refino` em vez do valor cheio.
+**Só a `Projetar energia` põe refino em dano.** A proteção de `Cobrir-se de energia` entra na sua Defesa, e por isso usa `1/3 do refino` em vez do valor cheio.
 
 > **Arredondamento.** Toda divisão de refino arredonda para baixo: refino 5 dividido por 2 dá 2.
 

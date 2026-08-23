@@ -38,7 +38,7 @@ Um ofício rende diferente na mão de cada personagem. O mesmo `Arrombamento` é
 
 Qualquer um pode tentar escalar e falhar. Ninguém forja uma lâmina por tentativa. Quando o mestre achar que dá para improvisar, tipo dirigir um carro automático em linha reta ou fazer um curativo torto, ele libera a rolagem sem a maestria.
 
-> **Exemplo.** A Rina é uma Vanguarda de nível 6. Destreza 4, Inteligência 2, maestria 1. Ela é treinada em `Furtividade` e no ofício `Arrombamento`.
+> **Exemplo.** A Rina joga de Vanguarda, no nível 6. Destreza 4, Inteligência 2, maestria 1. Ela é treinada em `Furtividade` e no ofício `Arrombamento`.
 >
 > Para entrar no depósito sem ser vista ela rola `Furtividade`, que é Destreza: `d20 + 4 + 1`, ou seja `d20 + 5`.
 >

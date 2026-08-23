@@ -1,8 +1,7 @@
 # Caminhos e Trilhas
 
-O Caminho é o seu lugar na equipe, e você escolhe ele na criação. A Trilha diz quem você é dentro do Caminho, e ela nasce junto com ele, no nível 2. São cinco Caminhos, três Trilhas em cada um.
+**O Caminho diz o seu lugar na equipe**, e você escolhe ele na criação. A Trilha diz quem você é dentro do Caminho, e ela nasce junto com ele, no nível 2. São cinco Caminhos, três Trilhas em cada um.
 
-O Caminho é o jeito que o seu treino pegou: a resposta que o seu corpo dá quando a sala fica perigosa. É também o que entra no relatório da missão quando alguém pergunta o que cada um estava fazendo lá dentro. Quem segurou a porta, quem cortou, quem manteve o time de pé, quem despejou técnica, quem trouxe corpo emprestado.
 
 ## Como ler um Caminho
 
@@ -92,7 +91,7 @@ E duas coisas que quase todo degrau daqui menciona:
 
 *O corpo é a resposta: aguentar, encarar, prender.*
 
-O Bastião entra primeiro na sala e sai por último. Em campo ele é o corpo que a maldição enxerga: fica na porta, fica na frente do civil, fica entre o time e a coisa. Quem escolhe esse Caminho costuma ser gente que descobriu cedo que aguenta mais pancada que os outros e resolveu fazer disso um trabalho, com ou sem técnica boa para acompanhar.
+O Bastião entra primeiro na sala e sai por último. Em campo ele é o corpo que a maldição enxerga: fica na porta, fica na frente do civil, fica entre o time e a coisa. Quem escolhe o Bastião descobriu cedo que aguenta mais pancada que os outros e resolveu fazer disso um trabalho, com ou sem técnica boa para acompanhar.
 
 ### Características do Bastião
 
@@ -125,7 +124,7 @@ O Bastião entra primeiro na sala e sai por último. Em campo ele é o corpo que
 > **Nível 30: `Segurar`.** *Reação.* Quando alguém ao seu alcance **se move, conjura ou ataca**, você pode tentar `Agarrar` ou `Derrubar` essa pessoa. **A ação dela acontece de qualquer jeito.**
 > **Enquanto você tiver alguém agarrado, você se move junto com ela, e o deslocamento dela cai pela metade.**
 
-*O `Corpo Duro` é o que faz o time aceitar que você entre primeiro: a sua Constituição vira quantas vezes por dia o grupo pode errar de leve. O `Puxar Para Si`, no 15, muda o planejamento inteiro da mesa, porque a partir dali os outros podem se expor de propósito sabendo que existe alguém para desmanchar o erro. E o `Segurar` resolve a cena de fuga: informante correndo, maldição tentando trocar de prédio, alvo que ia sumir no meio da multidão.*
+*O `Corpo Duro` faz o time aceitar que você entre primeiro: a sua Constituição vira quantas vezes por dia o grupo pode errar de leve. O `Puxar Para Si`, no 15, muda o planejamento inteiro da mesa, porque a partir dali os outros podem se expor de propósito sabendo que existe alguém para desmanchar o erro. E o `Segurar` resolve a cena de fuga: informante correndo, maldição tentando trocar de prédio, alvo que ia sumir no meio da multidão.*
 
 ### Trilha: Muro
 
@@ -150,7 +149,7 @@ Quem joga de `Muro` planta os dois pés e vira geografia: escolhe um corredor, u
 
 *Você bate mais vezes, e cada vez que bate alguém sai do lugar.*
 
-Quem joga de `Punho` briga sem arma no meio, socando até a formação do inimigo desmanchar. O molde é o brigão de rua que entrou para a instituição já sabendo apanhar e aprendeu técnica depois, meio de má vontade. Na mesa você olha o mapa antes de olhar a vida do alvo, porque o que decide a rodada é para onde a pessoa voa.
+Quem joga de `Punho` briga sem arma no meio, socando até a formação do inimigo desmanchar — o brigão de rua que entrou para a instituição já sabendo apanhar e aprendeu técnica depois, meio de má vontade. Na mesa você olha o mapa antes de olhar a vida do alvo, porque o que decide a rodada é para onde a pessoa voa.
 
 > **Nível 2: `Engate`.** Quando você **acerta** um ataque na sua ação de atacar, você pode dar um golpe desarmado como **ação bônus**.
 >
@@ -221,9 +220,9 @@ A Vanguarda encosta a lâmina onde ela precisa encostar, e chega lá antes do re
 
 Ter escola de arma quer dizer que alguém te ensinou aquela categoria de verdade, do jeito antigo: repetição, forma, um professor corrigindo o seu pulso até a coisa virar reflexo. Duas pessoas com a mesma espada na mão fazem coisas diferentes com ela, e a diferença é a escola.
 
-A Manha é o que a sua categoria sabe fazer além de causar dano. Você usa a da categoria que escolheu na `Escola de Arma`, e ela vale com qualquer arma daquela categoria: a escola é do tipo de arma, e a peça específica é descartável. Se a sua lâmina quebrou no meio da missão e você pegou outra do chão, a Manha continua.
+A Manha entrega o que a sua categoria sabe fazer além de causar dano. Você usa a da categoria que escolheu na `Escola de Arma`, e ela vale com qualquer arma daquela categoria: a escola é do tipo de arma, e a peça específica é descartável. Se a sua lâmina quebrou no meio da missão e você pegou outra do chão, a Manha continua.
 
-Na mesa, é a Manha que dá identidade à sua ficha. Você vira a pessoa do machado, a pessoa da corrente, a pessoa do fuzil, e o grupo aprende a jogar em volta do que a sua arma faz com a posição do inimigo.
+A Manha dá identidade à sua ficha. Você vira a pessoa do machado, a pessoa da corrente, a pessoa do fuzil, e o grupo aprende a jogar em volta do que a sua arma faz com a posição do inimigo.
 
 **Manhas**
 {: .tab-titulo }
@@ -250,7 +249,7 @@ Na mesa, é a Manha que dá identidade à sua ficha. Você vira a pessoa do mach
 
 *A arma faz o que a luta pedir, e o que ela pede muda toda rodada.*
 
-O molde é o lutador que troca de ferramenta mais rápido do que o inimigo troca de plano: espada na mão e técnica saindo por cima, na mesma rodada. Jogando de `Estocada`, a decisão de cada turno é qual feitiço vale gastar a ação padrão, sabendo que o golpe da bônus depende do que ele fez.
+Quem joga de `Estocada` troca de ferramenta mais rápido do que o inimigo troca de plano: espada na mão e técnica saindo por cima, na mesma rodada. A decisão de cada turno é qual feitiço vale gastar a ação padrão, sabendo que o golpe da bônus depende do que ele fez.
 
 > **Nível 2: `Compasso`.** Você usa a ação **Conjurar** na ação padrão e dá um **golpe com arma do grupo escolhido** como ação bônus.
 > **E naquele grupo de armas, o acerto e o dano usam Essência ou Inteligência** no lugar de Força ou Destreza. **O requisito de Força para empunhar continua valendo.**
@@ -326,7 +325,7 @@ Pólvora, ruído e uma profissão que finge não usar isso. É a rota que funcio
 
 *Você mata o que ninguém consegue matar.*
 
-O molde é o profissional sem técnica grande e sem gritaria: uma lâmina, um alvo, e a paciência de trocar golpe até acabar. Jogar assim é aceitar um turno simples e uma ficha teimosa — você bate, apanha, repõe casca e bate de novo, e o inimigo acaba antes de você.
+Quem joga de `Executor` trabalha sem técnica grande e sem gritaria: uma lâmina, um alvo, e a paciência de trocar golpe até acabar. Você aceita um turno simples e uma ficha teimosa: bate, apanha, repõe casca e bate de novo, e o inimigo acaba antes de você.
 
 > **Nível 2: `Pegada`.** Você escolhe um **estilo de luta**, e ele vale a campanha inteira. *Cada estilo pede um jeito diferente de segurar a arma, e é isso que impede um de ser a versão melhor do outro.*
 >
@@ -336,7 +335,7 @@ O molde é o profissional sem técnica grande e sem gritaria: uma lâmina, um al
 >
 > **Nível 27: `Retomada`.** Quando você **erra uma rolagem de ataque**, role de novo e use o segundo resultado. **`Maestria` vezes por dia.**
 
-*O `Aprumo` é o que faz o `Executor` ser escalado para missão longa: ele repõe casca sozinho, sem gastar PE e sem depender de ninguém do time. Numa campanha em que a cura é escassa, isso é o que permite encadear duas ou três lutas no mesmo dia.*
+*O `Aprumo` repõe casca sozinho, sem gastar PE e sem depender de ninguém do time. Numa campanha em que a cura é escassa, isso é o que permite encadear duas ou três lutas no mesmo dia.*
 
 #### Estilos da `Pegada`
 
@@ -379,7 +378,7 @@ O Guia faz o efeito de outra pessoa durar mais, pegar mais gente ou chegar mais 
 
 *Perícia, ofício e Teste de Resistência entram na ficha uma vez, na criação. O quadro completo das vinte e três perícias e dos onze ofícios está no capítulo 3, __Perícias e Ofícios__.*
 
-> **O Guia é o único Caminho sem ataque extra, por nenhuma rota.** Quem quiser lutar de Guia paga pela técnica, como todo mundo. Em troca, o degrau do nível 7 dele entrega duas coisas em vez de uma.
+> ****Nenhuma rota dá ataque extra ao Guia.**** Quem quiser lutar de Guia paga pela técnica, como todo mundo. Em troca, o degrau do nível 7 dele entrega duas coisas em vez de uma.
 
 ### Degraus do Guia
 
@@ -392,7 +391,7 @@ O Guia faz o efeito de outra pessoa durar mais, pegar mais gente ou chegar mais 
 >
 > **Nível 30: `Ninguém Cai`.** *Reação.* Quando um aliado que você enxerga chegaria a 0 de vida, **ele fica com `1`** e **o dano excedente é anulado.**
 
-*O `Guiar` é a entrega mais usada da ficha inteira, e a maior parte do uso dela acontece fora de combate: a negociação que o grupo não podia perder, a fechadura, o teste de perícia que decidia a missão. Metade da sua Essência somada depois da rolagem cabe em qualquer cena em que alguém do time abre a boca ou põe a mão em alguma coisa.*
+*O `Guiar` rende mais fora de combate do que dentro: a negociação que o grupo não podia perder, a fechadura, o teste de perícia que decidia a missão. Metade da sua Essência somada depois da rolagem cabe em qualquer cena em que alguém do time abre a boca ou põe a mão em alguma coisa.*
 
 *O `Puxar a Linha` resolve o aliado inconsciente, o aliado agarrado por decisão ruim e o aliado que entrou num lugar de onde não ia sair. A parte de ele não poder recusar é o que faz a entrega funcionar sob fogo.*
 
@@ -400,7 +399,7 @@ O Guia faz o efeito de outra pessoa durar mais, pegar mais gente ou chegar mais 
 
 *O que outra pessoa fez chega mais longe, dura mais e pega mais gente do que ela conseguiria sozinha.*
 
-O molde é quem amplifica: você escolhe uma pessoa, e enquanto o elo estiver de pé o que ela faz chega mais longe. A ficha do `Elo` quase não causa dano, e a sua decisão de cada cena é em quem você está pendurado agora.
+Quem joga de `Elo` amplifica: você escolhe uma pessoa, e enquanto o elo estiver de pé o que ela faz chega mais longe. A ficha do `Elo` quase não causa dano, e a sua decisão de cada cena é em quem você está pendurado agora.
 
 > **Nível 2: `Nó`.** **Ação Bônus.** Escolha um aliado **que você enxerga**: vocês dois formam um **elo**. Ao formar, escolha **ataques de arma** ou **ataques de feitiço**, enquanto o elo durar, **os dois membros ganham `+1` de acerto** naquele tipo de ataque.
 > **O elo dura até você formar outro**, e **não se quebra por distância**.
@@ -419,7 +418,7 @@ O molde é quem amplifica: você escolhe uma pessoa, e enquanto o elo estiver de
 
 *O dano que já aconteceu não é definitivo enquanto você estiver na sala.*
 
-O molde é o médico de campo do grupo, a pessoa que a instituição manda junto quando a missão tem chance real de alguém não voltar. A Trilha entrega a `Energia Reversa` sem os gates de nível e de refino que o resto da ficha paga, e no meio da luta a sua decisão é quem vale a energia.
+A `Sutura` põe o médico de campo no grupo — a pessoa que a instituição manda junto quando a missão tem chance real de alguém não voltar. A Trilha entrega a `Energia Reversa` sem os gates de nível e de refino que o resto da ficha paga, e no meio da luta a sua decisão é quem vale a energia.
 
 > **Nível 2: `Agulha`.** Você ganha a aptidão **`Energia Reversa`** **sem os gates de nível e de refino**. *Por uso, você não pode gastar mais que **`metade da sua maestria`** em PE.*
 >
@@ -430,7 +429,7 @@ O molde é o médico de campo do grupo, a pessoa que a instituição manda junto
 >
 > **Nível 27: `Cerzido`.** O teto por uso vai a **`a sua maior Classe`** em PE, e você **rerrola `1` e `2`** em todos os seus dados de cura, ficando com o segundo resultado.
 
-*O `Enxerto` é a entrega que mais resolve cena: veneno, paralisia, maldição pequena grudada em alguém, condição que o grupo não tinha como tirar de outro jeito. Ele faz isso com o mesmo uso da cura, então a decisão vira quanto do teto você gasta consertando o corpo e quanto gasta tirando a coisa de cima dele.*
+*O `Enxerto` limpa veneno, paralisia, maldição pequena grudada em alguém, e condição que o grupo não tinha como tirar de outro jeito. Ele faz isso com o mesmo uso da cura, então a decisão vira quanto do teto você gasta consertando o corpo e quanto gasta tirando a coisa de cima dele.*
 
 > **`Energia Reversa` não cura dano de alma.** Nenhum degrau desta Trilha alcança isso.
 
@@ -450,7 +449,7 @@ Quem joga de `Perímetro` anda com uma área em volta do corpo, e dentro dela o 
 >
 > **Nível 27: `Portão`.** A `Sentinela` passa a disparar **quando o ataque do inimigo acerta também**, e **quando um alvo sai do `Chão` por movimento voluntário**.
 
-*O `Encalço` é a entrega que atravessa a cena inteira, dentro ou fora de combate: ele dura até o fim, ele pega perícia, e um alvo marcado erra a fuga, erra a mentira e erra a escalada. Numa perseguição pela cidade, é ele que decide.*
+*O `Encalço` atravessa a cena inteira, dentro e fora de combate: ele dura até o fim, ele pega perícia, e um alvo marcado erra a fuga, erra a mentira e erra a escalada. Numa perseguição pela cidade, é ele que decide.*
 
 ## Emanador
 
@@ -491,7 +490,7 @@ O Emanador apostou tudo na técnica. Corpo pouco, energia muita, e um repertóri
 > **Nível 30: `Fonte`.** Feitiços de **Classe 3 ou menos custam metade do PE**.
 > **E um feitiço de Classe 2 à sua escolha, de dano ou de condição, passa a custar `0`.**
 
-*A `Modelagem` é o que faz o Emanador improvisar sem ter previsto: você chegou com o feitiço montado para uma coisa e o alvo é outra, e a peça se remonta na hora. A `Segunda Leitura` faz o mesmo em escala de missão, e muda o preparo do grupo: com um briefing decente, você dorme e acorda com a ficha desenhada para aquele alvo específico.*
+*A `Modelagem` deixa o Emanador improvisar sem ter previsto: você chegou com o feitiço montado para uma coisa e o alvo é outra, e a peça se remonta na hora. A `Segunda Leitura` faz o mesmo em escala de missão, e muda o preparo do grupo: com um briefing decente, você dorme e acorda com a ficha desenhada para aquele alvo específico.*
 
 *A `Sangria` se auto-limita no calendário: `1/8` cabe exatamente quatro vezes antes de você ter perdido metade da vida, e o dia esperado tem três a quatro lutas.*
 
@@ -499,7 +498,7 @@ O Emanador apostou tudo na técnica. Corpo pouco, energia muita, e um repertóri
 
 *Você lança até a energia acabar, e ela acaba.*
 
-O molde é o feiticeiro que abre a torneira: dois feitiços na mesma rodada, técnica em cima de técnica, e um bolso de PE que some rápido. A Trilha te dá a rodada grande e cobra o resto da missão, então a decisão real é em qual luta do dia você abre a torneira.
+Quem joga de `Torrente` abre a torneira: dois feitiços na mesma rodada, técnica em cima de técnica, e um bolso de PE que some rápido. A Trilha te dá a rodada grande e cobra o resto da missão, então a decisão real é em qual luta do dia você abre a torneira.
 
 > **Nível 2: `Acelerar`.** *`2×` por cena.* Você conjura um feitiço da sua **ação padrão como ação bônus**, pagando **`Classe e meia` de PE a mais**, arredondando para cima. *Num Classe 7 são `11` de PE.*
 > Naquele turno, o outro feitiço que você lançar **não passa de `Classe 0`**.
@@ -512,13 +511,13 @@ O molde é o feiticeiro que abre a torneira: dois feitiços na mesma rodada, té
 
 *A `Cheia` premia a rodada calma, e é ela que segura a Trilha nas cenas longas: nos turnos em que você não abre a torneira, o feitiço único sai mais consistente. As duas metades da `Torrente` se revezam ao longo da luta.*
 
-> **O `Transbordo` é a única exceção à regra global de arredondamento**, que sempre desce. Ela vale aqui e em lugar nenhum mais.
+> **Só o `Transbordo` arredonda para cima**; a regra global sempre desce. Ela vale aqui e em lugar nenhum mais.
 
 ### Trilha: Explosivo
 
 *Um feitiço só na rodada, e ele sai maior.*
 
-O molde é o artilheiro: você passa duas rodadas se posicionando e resolve a luta na terceira. Quase toda entrega da Trilha melhora a mesma coisa, que é o feitiço único do seu turno — você escolhe o momento em que o alvo está agrupado ou exposto e transforma uma rolagem em cena inteira.
+Quem joga de `Explosivo` trabalha como artilheiro: passa duas rodadas se posicionando e resolve a luta na terceira. Quase toda entrega da Trilha melhora a mesma coisa, que é o feitiço único do seu turno — você escolhe o momento em que o alvo está agrupado ou exposto e transforma uma rolagem em cena inteira.
 
 > **Nível 2: `Pavio`.** Quando o feitiço que você conjura é **o único feitiço de dano daquele turno**, **rerrole todo dado de dano dele que cair em `1` ou `2`.**
 >
@@ -534,7 +533,7 @@ O molde é o artilheiro: você passa duas rodadas se posicionando e resolve a lu
 
 *O feitiço chega junto com você.*
 
-O molde é o conjurador que precisa encostar: ele briga de mão, e o feitiço é o que acontece quando a mão chega. Jogando de `Arremate`, você precisa estar dentro do alcance do inimigo para render, e boa parte da Trilha existe para você sobreviver ao lugar em que ela te obriga a ficar.
+Quem joga de `Arremate` precisa encostar: briga de mão, e o feitiço sai quando a mão chega. Você precisa estar dentro do alcance do inimigo para render, e boa parte da Trilha existe para você sobreviver ao lugar em que ela te obriga a ficar.
 
 > **Nível 2: `Empunhadura`.** Escolha um **grupo de arma**. Você é treinado nele, e naquele grupo **o acerto e o dano usam Inteligência ou Essência**. *O requisito de Força para empunhar continua valendo.*
 > **E quando você ataca com uma arma daquele grupo na Ação Padrão, você pode conjurar um feitiço de Classe na Ação Bônus.**
@@ -545,9 +544,9 @@ O molde é o conjurador que precisa encostar: ele briga de mão, e o feitiço é
 >
 > **Nível 27: *vaga*.** *A casa existe e está vazia. A ficção dela é o capstone do molde: deixar de precisar encostar.*
 
-*A `Crosta` é o que torna o `Arremate` jogável de verdade a partir do 19: a mesma decisão que te põe em perigo, que é conjurar colado, passa a ser a que te dá casca. Antes disso, a sua sobrevivência depende do time.*
+*A `Crosta` sustenta o `Arremate` a partir do 19: a mesma decisão que te põe em perigo, que é conjurar colado, passa a ser a que te dá casca. Antes disso, a sua sobrevivência depende do time.*
 
-> **O `Arremate` é uma das duas Trilhas que ganham ataque extra pela Trilha em vez do Caminho.** A outra é o `Coro`. **O golpe é uma Ação Bônus, e ele só existe se a Ação Padrão daquele turno conjurou ou atacou com a arma do grupo escolhido.** A trava que continua valendo é a de sempre: um feitiço de Toque por turno, e ataque extra é sempre golpe simples.
+> **O `Arremate` ganha ataque extra pela Trilha, e não pelo Caminho.** A outra assim é o `Coro`. A outra é o `Coro`. **O golpe é uma Ação Bônus, e ele só existe se a Ação Padrão daquele turno conjurou ou atacou com a arma do grupo escolhido.** A trava que continua valendo é a de sempre: um feitiço de Toque por turno, e ataque extra é sempre golpe simples.
 
 ## Evocador
 
@@ -586,7 +585,7 @@ O Evocador chega acompanhado. Shikigami, talismã que vira bicho, maldição dom
 >
 > **Nível 30: `Segundo Corpo`.** **Uma vez por descanso curto, invocar não custa a ação padrão**, só o PE.
 
-*A `Coleira` é a entrega que faz a invocação servir fora de combate: treinada nas perícias da ficha dela, ela vira o que entra no duto, o que fareja, o que fica de vigia enquanto o grupo dorme. E o `Escudo de Osso` é o que compra a rodada em que você ia cair, o que importa muito numa ficha de 4 de vida por nível.*
+*A `Coleira` faz a invocação servir fora de combate: treinada nas perícias da ficha dela, ela vira o que entra no duto, o que fareja, o que fica de vigia enquanto o grupo dorme. E o `Escudo de Osso` é o que compra a rodada em que você ia cair, o que importa muito numa ficha de 4 de vida por nível.*
 
 ### Trilhas do Evocador
 
@@ -609,14 +608,14 @@ O Evocador chega acompanhado. Shikigami, talismã que vira bicho, maldição dom
 
 #### Servo
 
-*Uma invocação, forte.* A fantasia é a do parceiro: um corpo só, com nome, que anda com você a campanha inteira e que a mesa aprende a conhecer tanto quanto conhece o seu personagem. O corpo do `Servo` tem a vida do bando inteiro da `Matilha` num só, e o orçamento dele é o da ficha mais metade: é onde ele fica na frente. Perder esse corpo é perder o kit, então jogar de `Servo` é jogar com medo de perder uma coisa só.
+*Uma invocação, forte.* O `Servo` põe em campo um corpo só, com nome, que anda com você a campanha inteira. Ele carrega a vida do bando inteiro da `Matilha` num corpo, e o orçamento dele é o da ficha mais metade. Perder esse corpo tira o kit da mesa de uma vez.
 
 #### Matilha
 
-*Muitos corpos fracos.* A fantasia é a do bando: você chega na cena ocupando mais chão que qualquer outra ficha do sistema, e a sua vantagem é estar em cinco lugares ao mesmo tempo. A `Matilha` é **uma ficha com cinco corpos**: uma barra de vida só, e o dano que passa de um corpo cascateia para o seguinte. Os cinco continuam no campo, cada um com a sua posição. **A rodada dela se resolve em pool**, os cinco d20 saem de uma vez, conta-se os acertos, e o dano dos que acertaram se soma. Cada corpo declara o próprio alvo **antes** da rolagem.
+*Muitos corpos fracos.* A `Matilha` põe cinco corpos em campo, e a sua vantagem é estar em cinco lugares ao mesmo tempo. Ela conta como **uma ficha com cinco corpos**: uma barra de vida só, e o dano que passa de um corpo cascateia para o seguinte. Os cinco continuam no campo, cada um com a sua posição. **A rodada dela se resolve em pool**, os cinco d20 saem de uma vez, conta-se os acertos, e o dano dos que acertaram se soma. Cada corpo declara o próprio alvo **antes** da rolagem.
 
 #### Coro
 
-*Você e a invocação lutam juntos.* A fantasia é a da dupla que treinou junto: você entra na luta com o corpo, e os dois se cobrem. O `Coro` é a exceção de economia de ação: ele **ataca e comanda na mesma rodada**. O golpe é uma **Ação Bônus**, e ele só existe se a Ação Padrão daquele turno **comandou, e a invocação atacou**. O corpo dele é o mais frágil dos três, e é o único cuja queda deixa o kit funcionando: você continua batendo.
+*Você e a invocação lutam juntos.* No `Coro` você entra na luta junto com o corpo, e os dois se cobrem. Ele **ataca e comanda na mesma rodada**, e abre exceção na economia de ação. O golpe é uma **Ação Bônus**, e ele só existe se a Ação Padrão daquele turno **comandou, e a invocação atacou**. O corpo dele é o mais frágil dos três, e é o único cuja queda deixa o kit funcionando: você continua batendo.
 
 > **Você e todas as suas invocações somados entregam a mesma saída de dano que você entregaria sozinho.** Com uma invocação, cada um entrega metade. Com três, cada um entrega um quarto. **A máquina completa (orçamento por nível, `Traço`, `Comando`, a amarra, morte e retorno) está no capítulo 15, *Invocações*.**

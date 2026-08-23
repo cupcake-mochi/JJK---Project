@@ -50,7 +50,7 @@ Cada feitiço é montado na Classe que o seu nível já liberou, e *Números da 
 > **Ataque de conjuração = d20 + o atributo da sua técnica + maestria**
 > **Maestria** começa em 1 e sobe um ponto a cada oito níveis.
 
-É a mesma forma do soco e do tiro — atributo mais maestria —, e é de propósito: **o feitiço não tem uma regra própria de acertar.** Uma técnica de cálculo usa Inteligência, uma de leitura de energia usa Essência, e o feiticeiro que conjura batendo usa Força. O molde é o Todo.
+É a mesma forma do soco e do tiro — atributo mais maestria —, e é de propósito: **o feitiço não tem uma regra própria de acertar.** Uma técnica de cálculo usa Inteligência, uma de leitura de energia usa Essência, e o feiticeiro que conjura batendo usa Força. Na obra, o Todo conjura assim.
 
 **Ataque e CD de um atributo levado ao teto**
 {: .tab-titulo }
@@ -224,7 +224,7 @@ A média nunca se afasta mais de 3 pontos da conta em d8.
 
 ## Escrevendo o seu Fundamento
 
-O Fundamento é a técnica inata do personagem. Ele é escrito uma vez, na criação, junto com o mestre, e não muda depois: o que evolui com os níveis são os feitiços que saem dele. Um Fundamento completo tem cinco partes, e esta seção percorre uma por uma.
+**Você escreve o Fundamento uma vez**, na criação, junto com o mestre, e ele não muda depois: o que evolui com os níveis são os feitiços que saem dele. Um Fundamento completo tem cinco partes, e esta seção percorre uma por uma.
 
 > **Na criação, você escreve:**
 > **1.** A **Descrição** da técnica, com o tipo de dano dela.
@@ -286,13 +286,13 @@ As Formas, que são o jeito como o feitiço sai, também têm Família: `Explos�
 
 ### Selo
 
-O Selo é uma coisa que o seu personagem sempre precisa fazer para conjurar, seja qual for o feitiço: um gesto, um som, uma condição visível. É a assinatura da técnica, o que a mesa vê ou ouve toda vez que ela entra em cena.
+Para conjurar, o seu personagem sempre faz a mesma coisa, seja qual for o feitiço: um gesto, um som, uma condição visível. É a assinatura da técnica, o que a mesa vê ou ouve toda vez que ela entra em cena.
 
 Bater palma. · Dizer o nome do feitiço. · Estar enxergando o alvo. · Ter tocado no alvo nesta cena. · Estar pisando no chão.
 
 O Selo não mexe em ponto nenhum: não custa, não devolve e não dá bônus. Ele existe para dar corpo à técnica e para criar jogo, porque quem conhece o seu Selo sabe o que procurar quando você se mexe. A única regra mecânica ligada a ele aparece nas Restrições: como o Selo já é uma obrigação sua, **uma Restrição que cobra a mesma coisa que ele não devolve ponto**.
 
-O Selo é uma coisa só, e a mesa consegue apontar o momento em que aconteceu. Se você precisa de mais de uma frase para explicar, aquilo virou condição de cena ou de alvo, e isso se compra por feitiço, com a Restrição `Condicional`.
+O seu Selo tem uma parte só, e a mesa consegue apontar o momento em que ela aconteceu. Se você precisa de mais de uma frase para explicar, aquilo virou condição de cena ou de alvo, e isso se compra por feitiço, com a Restrição `Condicional`.
 
 **É Selo ou é `Condicional`**
 {: .tab-titulo }
@@ -390,7 +390,7 @@ Algumas técnicas funcionam impondo uma regra ao mundo: julgamento, aposta, cont
 - Sem dano direto: gera recurso, condição ou obrigação.
 - Com limite por cena.
 
-A `Regra Própria` é a única Passiva que pode ser comprada em Classe Passiva 1 desde o nível 1. Quando os níveis liberarem as alturas maiores, ela sobe para 2 e 3 pagando só a diferença de espaços.
+**Só a `Regra Própria` pode ser comprada em Classe Passiva 1 desde o nível 1.** Quando os níveis liberarem as alturas maiores, ela sobe para 2 e 3 pagando só a diferença de espaços.
 
 *"Quem me atacar sabendo que eu não revidei acumula uma Dívida. Cobro uma por cena."*
 *"Quando eu aposto e ganho, meu próximo teste na cena tem vantagem. Uma vez por cena."*
@@ -852,7 +852,7 @@ A mão que segura quem caiu. Funcionam com as Formas `Cura`, `Apoio` e `Onda` e,
 |---|---|---|
 | `Efeito Próprio` | o mestre decide | Uma mecânica que não existe em lugar nenhum desta lista. Um deslocamento junto com o dano, um efeito que só funciona em superfície molhada, o que for. Um por feitiço, combinado antes da sessão e nunca no meio dela. Não pertence a nenhuma Família, então Família Fechada não bloqueia. |
 
-A Restrição equivalente é a `Restrição Própria`, no fim de *As Restrições*.
+Do lado das Restrições, a equivalente dela se chama `Restrição Própria`, no fim de *As Restrições*.
 
 ## Restrições
 
@@ -916,7 +916,7 @@ Restrição precisa ser uma coisa que a mesa consegue apontar acontecendo, e alg
 
 **Duas Restrições não podem cobrar a mesma coisa:** dois turnos de preparo, duas condições no seu corpo, dois jeitos de te entregar. Se as duas doem no mesmo momento, a segunda não devolve nada.
 
-**Restrição que o seu Selo já obriga não devolve ponto.** O Selo é uma obrigação que você já tem, e vender a mesma dor duas vezes não vale ponto novo.
+**Restrição que o seu Selo já obriga não devolve ponto.** Você já carrega o Selo de qualquer jeito, e vender a mesma dor duas vezes não vale ponto novo.
 
 Depois de três sessões, o mestre revisa as Restrições em jogo. As que nunca atrapalharam são trocadas.
 
@@ -981,7 +981,7 @@ Feitiço de `Efeito` custa PE igual a qualquer outro e ocupa espaço na sua list
 
 ## Liberação Máxima
 
-No nível 10, o personagem aprende a romper o próprio limite. A Liberação Máxima é o único feitiço capaz de passar dos pontos da Classe em dano contra um alvo só. É o pico de dano que a ficha alcança, e por isso ela é contada: você só tem as que os níveis deram.
+No nível 10, o personagem aprende a romper o próprio limite. **Só a Liberação Máxima passa dos pontos da Classe em dano contra um alvo só.** É o pico de dano que a ficha alcança, e por isso ela é contada: você só tem as que os níveis deram.
 
 Liberação não se improvisa. Ela é escrita antes da sessão, montada como qualquer feitiço, e fica anotada na ficha com nome próprio.
 
@@ -1040,7 +1040,7 @@ Se a sua mesa quiser que pese mais, use uma vez por cena em vez do recarregament
 > `O Fim da Linha`: Forma `Linha` (`Leve` na Classe 5: 3 pontos) + `Muito Longe` (`Média`: 5 pontos) = 8 dos 8 pontos de montagem. A linha sobe da base de 18 m até o fim da escada: 60 m. **24d8 = 108 de dano** em tudo na linha. Rodada inteira, 25 de PE.
 > `Ponto Final`: `Projétil` (grátis) + `Fura` (`Média`: 5 pontos) = 5 dos 8; os 3 que sobram se perdem. **24d8 = 108**, ignorando 15 de Redução de Dano (3 × Classe 5). Rodada inteira, 25 de PE.
 
-**Expansão de Domínio e Técnica Máxima são peças separadas.** A Técnica Máxima é o topo da sua técnica inata; o domínio é a mesma técnica estendida sobre o território em volta. Uma técnica feita de domínio continua tendo Técnica Máxima como qualquer outra.
+**Expansão de Domínio e Técnica Máxima são peças separadas.** A Técnica Máxima fecha o topo da sua técnica inata; o domínio estende a mesma técnica sobre o território em volta. Uma técnica feita de domínio continua tendo Técnica Máxima como qualquer outra.
 
 ## Expandindo o seu Domínio
 

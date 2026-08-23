@@ -32,7 +32,7 @@ Três coisas mudam de nome e duas somem.
 
 > **Você não tem Selo.** O equipamento ocupa o lugar dele.
 >
-> **Você não tem Expansão de Domínio.** Nem incompleta, nem completa, tenha a sua ficha energia amaldiçoada ou não. Uma Expansão é a técnica inata estendida sobre o território em volta, e esta rota não tem técnica inata para estender.
+> **Você não tem Expansão de Domínio.** Nem incompleta, nem completa, tenha a sua ficha energia amaldiçoada ou não. Uma Expansão estende a técnica inata sobre o território em volta, e esta rota não tem técnica inata para estender.
 
 **E quem não tem energia amaldiçoada troca refino e aptidões por Lapidação e Bênçãos**, no capítulo 12.
 
