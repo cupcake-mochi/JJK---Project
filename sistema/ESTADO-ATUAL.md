@@ -2,7 +2,7 @@
 
 Atualizado em 23/08/2026, na v0.131 (última peça fechada: **Dano e condições**, ampliada na v0.104 com a penalidade de arma; antes dela, a **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com doze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.132.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e uma peças escritas** e **vinte e um validadores**.
+**Versão v0.133.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e uma peças escritas** e **vinte e um validadores**.
 
 ***A pendência mais velha da peça 6 fechou na v0.131, e ela estava aberta desde a v0.14 — cento e dezessete versões.*** **Como a `Torrente` cobra o segundo feitiço da rodada, contra a regra de ouro nº 6.**
 

@@ -2,7 +2,7 @@
 
 **O sistema se chama `Projeto - M`**, batizado na v0.94 — era a pendência mais velha que existia aqui, aberta na v0.1. Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.132** · manual do Fundamento na **v7.11** · **vinte e uma peças de regra** e **vinte e um validadores passando** · o Manual da Guilda em **17 capítulos**.
+**Versão v0.133** · manual do Fundamento na **v7.11** · **vinte e uma peças de regra** e **vinte e um validadores passando** · o Manual da Guilda em **17 capítulos**.
 
 ---
 
@@ -68,7 +68,7 @@ Depois disso, a ordem de leitura é a da próxima seção, e os validadores são
     └── skills/                          cópia de trabalho das sete skills de apoio
 ```
 
-Um arquivo `RASCUNHO-*.md` em `03-mecanica/` é levantamento engatilhado, não peça — ele não leva número justamente por isso, e o `conferir-repositorio.py` falha se algum tomar. **Hoje são três:** `RASCUNHO-bloqueio.md` (a regra opcional de rolar a defesa, fechada em desenho na v0.43), `RASCUNHO-clash-de-expansoes.md`, e o `RASCUNHO-trilhas.md`, que a **v0.54** abriu e que é a posição 1 da fila. *Eram cinco até a v0.58, quando o de Invocações virou a peça 15, e quatro até a v0.59, quando o de ferramenta amaldiçoada virou a peça 16 — que é o caminho que um rascunho existe para fazer, duas versões seguidas.*
+Um arquivo `RASCUNHO-*.md` em `03-mecanica/` é levantamento engatilhado, não peça — ele não leva número justamente por isso, e o `conferir-repositorio.py` falha se algum tomar. **Hoje são quatro:** `RASCUNHO-bloqueio.md` (a regra opcional de rolar a defesa, fechada em desenho na v0.43), `RASCUNHO-clash-de-expansoes.md`, o `RASCUNHO-trilhas.md`, que a **v0.54** abriu e que é a posição 1 da fila, e o `RASCUNHO-pactos.md`, aberto na **v0.133** com a direção de desenho, o levantamento da fonte e a conta do orçamento já feitos. *Eram cinco até a v0.58, quando o de Invocações virou a peça 15, e quatro até a v0.59, quando o de ferramenta amaldiçoada virou a peça 16 — que é o caminho que um rascunho existe para fazer, duas versões seguidas.*
 
 **`_backup/` não entra no repositório** — ele guarda o estado da pasta antes da reorganização, e o `.gitignore` o segura.
 

@@ -8,6 +8,59 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.133] — 23/08/2026
+
+**Pactos ganhou rascunho, e ele já vem com a direção de desenho, o levantamento da fonte e a conta do orçamento fechados.**
+
+*O recorte que existia desde a v0.116 — "só o pacto entre dois personagens, fechado em jogo" — **foi ampliado pelo Mizuki**.* **São quatro formas, e elas pedem capítulo próprio:** *permanente, temporário, `Promessa` e de restrição.*
+
+### Três decisões dele, e as três estão registradas
+
+| decisão | o que ela fecha |
+|---|---|
+| **o teto do permanente é metade da Essência, SEM piso** | Essência `0` e `1` ficam com zero. É **exceção declarada** ao arredondamento da peça 1 §5.4, que diz que o que se ganha nunca fica abaixo de `1` |
+| **a forma entre duas partes chama `Promessa`** | `Contrato` reprovou na triagem — é `Tema` no manual |
+| **Pacto entrega saída e ganha orçamento** | *mas sem tabela de preço por caso: "é difícil numerar esses casos, no máximo colocamos exemplos"* |
+
+**A terceira é a que mais decide, e ela tem forma conhecida.** *Orçamento como **teto** e não como escada é exatamente a saída que a trava nº 3 da peça 8 já nomeava — "formatos travados nos próprios termos, e não escada de preço", que é o molde da peça 13.*
+
+### ⚠⚠ A conta quase saiu com a base trocada, e é a segunda vez neste projeto
+
+**O projeto publica `27,7%` DA FICHA, e não da Rotina.** *Dividir pela Rotina dá `37,6%`, que parece o mesmo número e não é.* **É o mesmo troca-base que a v0.74 achou na conta da v0.73** — lá o `36%` registrado era o `+35,8% da Rotina` copiado com a base trocada.
+
+*Pego antes de entrar em documento nenhum, e o script passou a imprimir as duas bases lado a lado, com a errada marcada.*
+
+| | valor |
+|---|---|
+| o que a ficha faz no nível 30, a `+35,8%` | **`146,66`** |
+| Caminho `3` + Trilha `5` = `8` fatias | `40,64` = **`27,7%`** ✔ reconstrói o publicado |
+
+**E a faixa legal de orçamento para Pacto é `0,5` a `2` fatias, e só ela.** *A trava nº 1 fecha o resto sozinha: Pacto é a **quarta** economia de poder, e a peça 9 §2 registra que o Legado — a terceira — nasceu com o teto mínimo por isso.* **A `3` ele passa o Caminho; a `5` ele empata com a Trilha.**
+
+### O que a fonte deu de graça
+
+**Duas famílias, e as duas batem com o desenho do Mizuki:** *auto-imposto, que a própria energia cobra e não precisa de segunda parte; e entre partes, em que **todos têm de aceitar por vontade própria** — ameaça não fecha pacto.*
+
+**E o câmbio é explícito, o que resolve a régua de magnitude sem inventar nada:** *promessa pequena, ganho pequeno; promessa que arrisca a vida, ganho enorme.*
+
+> **O Hakari do braço é o exemplar exato da forma temporária.** *Na explosão de vapor ele fez um pacto na hora: jogou a energia que protegia o braço esquerdo para o resto do corpo, **e perdeu o braço**.* **Instantâneo, no meio da luta, com perda física permanente.**
+>
+> **E a `Promessa` do Mechamaru dá o formato de TRÊS termos:** *o que eu dou, o que eu recebo, e **a cláusula que eu acrescento** — ele exigiu que não encostassem em ninguém de Kyoto.* **Sem a terceira, `Promessa` vira troca e não acordo.**
+
+### A lista das nove ideias
+
+*O Mizuki mandou nove penalidades escritas por um amigo, para os pactos de restrição.* **A leitura que importa: elas não são modificadores, são mecânicas de estrutura** — e é por isso que passam na regra de *"nunca valores numéricos"* mesmo tendo número dentro. *Nenhuma delas mexe em acerto, Defesa ou perícia.*
+
+> **⚠ Duas usam `BT`, que é vocabulário morto** — `Bônus de Treinamento` virou **maestria**. *E a `Fragmentação` reescreve a Integridade e o `Catatau` entra no `conferir-orcamento.py`:* **cada uma que entrar passa pelo validador da peça dona, e não pelo de Pactos.**
+
+### O que NÃO mudou
+
+**Nenhuma peça, nenhum validador, nenhum número publicado.** *Rascunho não é peça — ele não leva número na frente justamente por isso, e o `conferir-repositorio.py` falha se algum tomar.* **Os rascunhos foram de três para quatro.**
+
+→ **Continua em** `sistema/03-mecanica/RASCUNHO-pactos.md`, na seção *O que falta decidir*. **São cinco itens, em ordem de dependência**, e o primeiro é o tamanho do orçamento dentro da faixa medida.
+
+---
+
 ## [0.132] — 23/08/2026
 
 **Objeto amaldiçoado virou a peça 21, e ela é a primeira peça de vocabulário do projeto: não cria número nenhum.**
