@@ -117,6 +117,53 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 *O `couro`/`combustível` era o resto da coluna `a troca` que a v0.130 tinha cortado da tabela.*
 
+### Achado de jogador — o capítulo 12 passou por leitor de verdade, e cinco coisas caíram
+
+***Alguns jogadores leram as Bênçãos e não gostaram.*** *É o primeiro retorno de leitura externa que este projeto recebe — `04-playtest/` continua vazia, mas isto é leitura, e ela achou o que três passadas minhas não acharam.*
+
+| o que eles apontaram | o conserto |
+|---|---|
+| *"Mesmo essa ficha não fica sem nada"* é frase de efeito | reescrita pela frente |
+| `Cobrir-se` é nome ruim | virou **`Defesa sem Armadura`** |
+| `gate` não existe em português | virou **`Requisito`** no livro inteiro |
+| `Presilha` diz *"erra"* onde cabe *"falha"* | trocado |
+| `Faro` promete demais | limitado ao **superficial** |
+| `Antecipar` é estranho e inútil | **mecânica nova** |
+
+### `gate` → `Requisito`, e ele não era termo batizado
+
+**`53` ocorrências no livro, em seis formas** — `Gate`, `gate`, `gates`, `gateada`, `gateado`, `gateiam`. ***Decisão do Mizuki:*** *a palavra não existe em português e fica estranha num manual, e colidir com o "requisito de Força" da peça 14 não é problema.*
+
+> **As peças e os validadores ficaram com `gate`, e isso é decisão.** *Elas são argumento de design e código, e o leitor delas sou eu.* **O livro é que é do jogador.**
+
+*Conferido antes de trocar: `gate` **não** está na lista de nomes batizados, então a checagem 10.4 do `conferir-repositorio.py` não cobra ele do livro.* **E as três ocorrências que sobraram são o `Engate`**, que é nome próprio da Trilha `Punho`.
+
+> **⚠ E a troca automática quebrou duas coisas, as duas pegas na revisão:** *uma concordância — "gateada em Constituição ou em Força" virou "com requisito de Constituição ou **em** Força" — e uma **colisão de sentido**: a lista de cinco regras da `Aptidão Própria` também se chamava "os cinco requisitos".* **Ela virou "as cinco travas", que é vocabulário que o projeto já usa.**
+
+### `Antecipar` — mecânica nova, e ela sobe de Classe Passiva
+
+**A antiga era informação que a mesa não usava:** *"no começo do combate, escolha uma criatura que você enxerga; até o fim da cena você sabe qual foi a última ação que ela tomou"*.
+
+> ***Decisão do Mizuki:*** **quando você FALHA num Teste de Resistência contra um efeito, você passa a rolar com vantagem contra aquele mesmo efeito pelo resto da cena.**
+
+*Sem relógio, e o que a segura é o preço de entrada: **sem a falha, ela não liga**.*
+
+**Ela subiu de Classe Passiva `1` para `2`, e o espelho com o catálogo de aptidões quebrou de propósito.** *A faixa da `1` é "efeito pequeno, condicional, ou de informação", e vantagem sem limite de uso não cabe ali.* ***Decisão dele:*** *"não tem problema quebrar um pouco o espelho se for necessário".*
+
+### O renome, e o que ele obrigou
+
+**`Cobrir-se` das Bênçãos virou `Defesa sem Armadura`**, que é o eco do Bárbaro do PHB. *A triagem devolveu `LIVRE` nas duas direções, junto com `Couraça` e `Rijeza`.* **Trocado na peça 11, na peça 9, no livro e no vocabulário** — e a `Cobrir-se de energia` do capítulo 11, que é outra coisa, ficou como estava.
+
+### O que não mudou
+
+**Nenhum número de regra fora o do `Antecipar`, que era o ponto.** *`guard_numeros.py` acusou `1`→`2` no capítulo 12, e as duas ocorrências foram lidas contra a linha: a do catálogo e a da caixa de regra do `Antecipar`.* **A seção `NOTAÇÃO E NÚMERO` é idêntica em todos os outros arquivos.**
+
+### Entrou na fila
+
+**Itens menores — consumível e afins.** ***Levantado pelo Mizuki:*** *talismã pronto, remédio, corda, lanterna, o kit que o `Herbalismo` usa.* **A peça 14 §8 tem a régua de itens comuns em três camadas com a terceira desligada, e nada disso tem preço nem lista.**
+
+*E o **Pacto** voltou para a lista de retomada: ele estava em "depois de todas essas" e eu não o trouxe quando mostrei a fila.* **Desde a v0.116 ele é um quarto do que parecia** — só o pacto entre dois personagens fechado em jogo.
+
 ### O que NÃO mudou
 
 **Nenhum número de regra.** *`guard_numeros.py` nos catorze arquivos mexidos, com a seção `NOTAÇÃO E NÚMERO` isolada: **idêntica nos catorze**, de `33` a `1.078` ocorrências.*
@@ -133,7 +180,7 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 | | v0.129 | v0.130 |
 |---|---|---|
-| palavras do livro | 76.870 | **76.638** |
+| palavras do livro | 76.870 | **76.664** |
 | equações por mil frases | 5,3 | **0,3** — média dos quatro: 0,4 |
 | fórmula `O molde é` / `A fantasia é` | 12 | **0** |
 | coluna única | 248 páginas | **248** |

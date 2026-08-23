@@ -230,11 +230,11 @@ A troca é sempre desproporcional para os dois lados: você perde muito e ganha 
 
 **O que ela não herda é o conteúdo do catálogo — a forma, sim.** *A peça 11 §6.8 tem a contagem: das catorze aptidões, **treze são construídas em cima da energia amaldiçoada** e a décima quarta é formato, não conteúdo.* **Espelhar conteúdo entrada por entrada não é escolha ruim — é impossível.**
 
-**A forma espelha: catorze Bênçãos, duas grátis na Lapidação `1` e doze pagas.** *As duas grátis são a `cobrir-se` portada — `1/3 da Lapidação + 1`, a mesma fórmula com outro recurso — e o `Estímulo Muscular`. **As doze pagas estão na peça 11 §6.8**, com nome, Classe Passiva e gate.*
+**A forma espelha: catorze Bênçãos, duas grátis na Lapidação `1` e doze pagas.** *As duas grátis são a `Defesa sem Armadura` portada — `1/3 da Lapidação + 1`, a mesma fórmula com outro recurso — e o `Estímulo Muscular`. **As doze pagas estão na peça 11 §6.8**, com nome, Classe Passiva e gate.*
 
 ### O corpo atravessa o que a energia levantou
 
-**A `cobrir-se` deste ramo carrega duas coisas que a do feiticeiro não carrega**, e as duas são o que a Restrição é na obra:
+**A `Defesa sem Armadura` deste ramo carrega duas coisas que a do feiticeiro não carrega**, e as duas são o que a Restrição é na obra:
 
 > **Barreira de energia não te segura.** Você atravessa `Barreira Simples` e `Cortina` como se elas não estivessem lá.
 > **E o Acerto garantido de uma Expansão de Domínio completa não te alcança** — você não é alvo legível para ele. *O Efeito continua acontecendo em volta de você, e a Expansão incompleta funciona normal, porque o Acerto dela rola.*

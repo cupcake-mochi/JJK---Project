@@ -724,7 +724,7 @@ As outras duas quebram nas pontas: com `2 ×` você se defende uma vez e acabou 
 | 4 | **`Presilha`** | agarrar, derrubar e tirar do lugar param de falhar | 2 | **Força 4** |
 | 5 | **`Vulto`** | você percebe sem enxergar | 2 | — |
 | 6 | **`Sem Pegada`** | você não deixa por onde te seguirem | 1 | — |
-| 7 | **`Antecipar`** | você lê a intenção no corpo, e não na energia | 1 | **Inteligência 4** |
+| 7 | **`Antecipar`** | o efeito que já te pegou uma vez pega menos na segunda | 2 | **Inteligência 4** |
 | 8 | **`Assombro`** | você assusta sem ter energia para assustar | 1 | **Essência 4** |
 | 9 | **`Vigília`** | o corpo não para quando devia | 2 | — |
 | 10 | **`Campo`** | você lê o lugar e o alvo mais rápido que os outros | 1 | — |
@@ -764,7 +764,9 @@ As outras duas quebram nas pontas: com `2 ×` você se defende uma vez e acabou 
 
 #### As que não precisam
 
-**`Faro`, `Sem Pegada`, `Antecipar`, `Assombro` e `Vigília` não têm número**, e isso é a escada de Classe Passiva funcionando. *A `1` é "efeito pequeno, condicional, ou de informação" (§4), e quatro delas moram ali.*
+**`Faro`, `Sem Pegada`, `Assombro` e `Vigília` não têm número**, e isso é a escada de Classe Passiva funcionando. *A `1` é "efeito pequeno, condicional, ou de informação" (§4), e três delas moram ali.*
+
+> **⚠ O `Antecipar` subiu para Classe Passiva `2` na v0.130, e o espelho com o catálogo de aptidões quebrou de propósito.** ***Achado dos jogadores, e o Mizuki concordou:*** *a versão antiga — "você sabe qual foi a última ação que ela tomou" — era informação que a mesa não usava.* **A nova entrega vantagem sem limite de uso, e vantagem sem limite não cabe na faixa da `1`**, que é *"efeito pequeno, condicional, ou de informação"*. *O que a segura não é relógio: é ter de **falhar primeiro**.*
 
 **As cinco ganharam texto na v0.122**, junto com a peça 20 — *era o que a seção "O que ainda espera a Técnica Marcial" listava, e o motivo era saber contra o que medir uma rodada desta rota.*
 
@@ -777,7 +779,9 @@ As outras duas quebram nas pontas: com `2 ×` você se defende uma vez e acabou 
 
 *A contraparte declarada é o `Faro`, que é a Bênção logo acima, e as duas se anulam de propósito — **duas fichas desta Origem numa perseguição empatam**, o que é o resultado certo.* **Não é furtividade:** `Furtividade` continua sendo a perícia, e esta entrada não soma nada nela.
 
-> **`Antecipar` · Classe Passiva 1 · Inteligência 4.** No começo do combate, escolha uma criatura que você enxerga. **Até o fim da cena, você sabe qual foi a última ação que ela tomou e se ela se moveu antes de agir.**
+> **`Antecipar` · Classe Passiva 2 · Inteligência 4.** Quando você **falha** num Teste de Resistência contra um efeito, você passa a rolar **com vantagem** contra aquele mesmo efeito pelo resto da cena.
+>
+> *O corpo aprende o golpe apanhando dele. Ela não tem relógio, e o que a limita é o preço de entrada: sem a falha, ela não liga.*
 > *Você lê o corpo: peso, guarda, para onde os olhos foram. Energia não entra nisso.*
 
 *Ela é a contraparte da `Leitura` do manual — "você identifica a Classe e a Forma de qualquer feitiço conjurado a até 18 m" —, e a diferença é a fonte: **a `Leitura` lê energia, e esta lê postura.*** **Por isso ela alcança quem não conjura, e é pior contra quem conjura de longe.**
@@ -846,7 +850,7 @@ As outras duas quebram nas pontas: com `2 ×` você se defende uma vez e acabou 
 
 > **E a régua chegou menor do que a espera fazia parecer.** *A peça 20 não inventou orçamento nenhum: ela herdou o do Fundamento inteiro.* **Então as cinco não precisaram de número — precisaram de saber contra o que uma rodada desta rota se mede**, e a resposta é *contra a mesma coisa que a de todo mundo*.
 
-*O que NÃO espera mais:* **se espelha** (o conteúdo não, a forma sim), **quantas são** (catorze: duas grátis e doze pagas, mais a `Bênção Própria`), **as duas gratuitas** (`cobrir-se` portada e o `Estímulo Muscular`, as duas escritas acima com número), **o que as escala** (a Lapidação, `1` a `10`, mesmos degraus do §5), **como as doze se separam** (gate de atributo, o sexto formato), **e o que não precisa entrar** (ferir maldição e anti-domínio, que já têm dono na peça 16).
+*O que NÃO espera mais:* **se espelha** (o conteúdo não, a forma sim), **quantas são** (catorze: duas grátis e doze pagas, mais a `Bênção Própria`), **as duas gratuitas** (`Defesa sem Armadura` portada e o `Estímulo Muscular`, as duas escritas acima com número), **o que as escala** (a Lapidação, `1` a `10`, mesmos degraus do §5), **como as doze se separam** (gate de atributo, o sexto formato), **e o que não precisa entrar** (ferir maldição e anti-domínio, que já têm dono na peça 16).
 
 ## 7. O que faltava, e por que já não falta
 

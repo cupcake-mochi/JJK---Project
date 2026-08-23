@@ -14,7 +14,7 @@ Um corpo humano tem folga: ele para antes de arrebentar e desiste de um peso que
 
 > **A Lapidação nunca entra num número disputado contra alguém que cresce mais devagar que ela.** Ela fica fora de acerto, CD, defesa, Teste de Resistência e dano.
 
-Onde ela entra é em custo, em quantas vezes por cena, em alcance e duração, e em magnitude fora de disputa — a proteção de `Cobrir-se` e o piso do `Esteio`.
+Onde ela entra é em custo, em quantas vezes por cena, em alcance e duração, e em magnitude fora de disputa — a proteção de `Defesa sem Armadura` e o piso do `Esteio`.
 
 > **Arredondamento.** Toda divisão de Lapidação arredonda para baixo: Lapidação 5 dividido por 2 dá 2.
 
@@ -33,11 +33,11 @@ Onde ela entra é em custo, em quantas vezes por cena, em alcance e duração, e
 > **Quem nunca escolhe Lapidação termina a campanha com zero Bênçãos pagas.** A rota existe e é legítima: ela troca dez Bênçãos por sete pontos de atributo a mais. Está escrito aqui para ninguém descobrir isso no nível 20.
 {: .aviso }
 
-Mesmo essa ficha não fica sem nada. `Cobrir-se` e `Estímulo Muscular` vêm de graça na Lapidação 1, e a primeira continua crescendo com a Lapidação passiva até 8.
+`Defesa sem Armadura` e `Estímulo Muscular` vêm de graça na Lapidação 1, então nenhuma ficha fica sem Bênção nenhuma. A primeira continua crescendo com a Lapidação passiva até 8.
 
 ## Bênçãos
 
-Um marco de Lapidação compra **uma Bênção**. Duas do catálogo não custam marco nenhum: `Cobrir-se` e `Estímulo Muscular` já estão na sua ficha desde a Lapidação 1.
+Um marco de Lapidação compra **uma Bênção**. Duas do catálogo não custam marco nenhum: `Defesa sem Armadura` e `Estímulo Muscular` já estão na sua ficha desde a Lapidação 1.
 
 > **Bênção não custa espaço de Kata.** Espaço de Kata é a moeda das Passivas. As duas economias são separadas: Bênção custa marco, e só marco.
 
@@ -45,17 +45,17 @@ Um marco de Lapidação compra **uma Bênção**. Duas do catálogo não custam 
 
 As Bênçãos usam a mesma escada das Passivas e das aptidões, e ela está no capítulo 9, *Fundamento*.
 
-A Classe Passiva não cobra nada aqui: o marco compra uma de qualquer altura. Quem separa as alturas é o gate.
+A Classe Passiva não cobra nada aqui: o marco compra uma de qualquer altura. Quem separa as alturas é o requisito.
 
-### Gate
+### Requisito
 
 Cinco Bênçãos pedem um **atributo**, e nenhuma outra pede coisa nenhuma.
 
-> **Gate de atributo:** você precisa daquele atributo em **4** ou mais para pegar a Bênção.
+> **Requisito de atributo:** você precisa daquele atributo em **4** ou mais para pegar a Bênção.
 >
-> **⚠ Uma Bênção gateada num atributo não soma aquele atributo na rolagem dela.** Ou você paga para destravar, ou usa na conta — nunca os dois.
+> **⚠ Uma Bênção com requisito de atributo não soma aquele atributo na rolagem dela.** Ou você paga para destravar, ou usa na conta — nunca os dois.
 
-Os cinco gates são um por atributo, e nenhuma ficha alcança os cinco.
+Os cinco requisitos são um por atributo, e nenhuma ficha alcança os cinco.
 
 ## Catálogo
 
@@ -63,16 +63,16 @@ Catorze entradas.
 
 ### Como ler uma Bênção
 
-Cada entrada aparece duas vezes. Primeiro nesta tabela, com três campos: **nome**, **gate** e **Classe Passiva**. Depois na seção dela, com uma caixa de regra.
+Cada entrada aparece duas vezes. Primeiro nesta tabela, com três campos: **nome**, **requisito** e **Classe Passiva**. Depois na seção dela, com uma caixa de regra.
 
-Traço na coluna de gate quer dizer que ela não pede nada. Traço na de Classe Passiva quer dizer que a entrada não declara uma.
+Traço na coluna de requisito quer dizer que ela não pede nada. Traço na de Classe Passiva quer dizer que a entrada não declara uma.
 
 **Como ler uma Bênção**
 {: .tab-titulo }
 
-| Bênção | Gate | Classe Passiva |
+| Bênção | Requisito | Classe Passiva |
 |---|---|---|
-| Cobrir-se | grátis na Lapidação 1 | — |
+| Defesa sem Armadura | grátis na Lapidação 1 | — |
 | Estímulo Muscular | grátis na Lapidação 1 | — |
 | Ímpeto | Destreza 4 | 2 |
 | Casco | Constituição 4 | 3 |
@@ -82,7 +82,7 @@ Traço na coluna de gate quer dizer que ela não pede nada. Traço na de Classe 
 | Faro | — | 1 |
 | Sem Pegada | — | 1 |
 | Vulto | — | 2 |
-| Antecipar | Inteligência 4 | 1 |
+| Antecipar | Inteligência 4 | 2 |
 | Campo | — | 1 |
 | Assombro | Essência 4 | 1 |
 | Bênção Própria | uma vez na ficha inteira | 1 ou 2 |
@@ -91,17 +91,17 @@ Traço na coluna de gate quer dizer que ela não pede nada. Traço na de Classe 
 
 Estas duas chegam com a ficha, na Lapidação 1, sem custar marco nenhum.
 
-### Cobrir-se
+### Defesa sem Armadura
 
-O golpe chega e o corpo já está no lugar certo, já contraído, já girando com ele em vez de contra. É a mesma função que a `Cobrir-se de energia` do capítulo 11 faz, na mesma faixa, com outro recurso pagando.
+O golpe chega e o corpo já está no lugar certo, já contraído, já girando com ele em vez de contra. Ela faz a mesma coisa que a `Cobrir-se de energia` do capítulo 11 faz, na mesma faixa, com outro recurso pagando.
 
-> **Cobrir-se** — sem Traje e sem Revestimento, a sua proteção é `1/3 da Lapidação + 1`. Escudo soma com ela.
+> **Defesa sem Armadura** — sem Traje e sem Revestimento, a sua proteção é `1/3 da Lapidação + 1`. Escudo soma com ela.
 >
 > **Barreira de energia não segura você.** `Barreira Simples` e `Cortina` não valem contra você.
 >
 > **O Acerto garantido de uma Expansão de Domínio completa não alcança você.** O Efeito continua acontecendo em volta, e uma Expansão incompleta funciona normalmente, porque o Acerto dela rola.
 >
-> Gate: grátis na Lapidação 1. A Lapidação escala a proteção.
+> Requisito: grátis na Lapidação 1. A Lapidação escala a proteção.
 
 Ela sai de cena assim que Traje ou Revestimento entram na conta. Em troca das duas linhas acima, quem não tem energia nunca tem Expansão de Domínio.
 
@@ -113,7 +113,7 @@ Você aprendeu a mandar no que o corpo faz sozinho. Antes do movimento que decid
 >
 > **`1×` por cena, e `2×` se a sua Lapidação for `10`.** Cada uso dá **vantagem** numa rolagem de um dos dois.
 >
-> Gate: grátis na Lapidação 1.
+> Requisito: grátis na Lapidação 1.
 
 A escolha não precisa ser física. `Ocultismo` mais `Intelecto` é uma ficha tão legítima quanto `Atletismo` mais `Físico`.
 
@@ -125,19 +125,19 @@ A escolha não precisa ser física. `Ocultismo` mais `Intelecto` é uma ficha t�
 >
 > **E o chão deixa de ser obrigatório:** você anda em parede, em água e no ar enquanto estiver se movendo. Se terminar o movimento sem apoio, você cai.
 >
-> Gate: Destreza 4. Classe Passiva 2.
+> Requisito: Destreza 4. Classe Passiva 2.
 
 ### Casco
 
 > **Casco** — você ganha **`+1` de vida a cada dois níveis** e **`+1`** em todo Teste de Resistência de Vigor.
 >
-> Gate: Constituição 4. Classe Passiva 3.
+> Requisito: Constituição 4. Classe Passiva 3.
 
 ### Presilha
 
-> **Presilha** — quando você erra uma rolagem para **agarrar, derrubar ou tirar alguém do lugar**, role de novo. Uma vez por rodada.
+> **Presilha** — quando você **falha** numa rolagem para **agarrar, derrubar ou tirar alguém do lugar**, role de novo. Uma vez por rodada.
 >
-> Gate: Força 4. Classe Passiva 2.
+> Requisito: Força 4. Classe Passiva 2.
 
 ### Vigília
 
@@ -145,7 +145,7 @@ A escolha não precisa ser física. `Ocultismo` mais `Intelecto` é uma ficha t�
 >
 > O degrau continua marcado na ficha. O que muda é o que ele cobra de você.
 >
-> Gate: nenhum. Classe Passiva 2.
+> Requisito: nenhum. Classe Passiva 2.
 
 Ela não vira imunidade: a escada de exaustão do capítulo 5 tem três degraus e não tem degrau zero, então o pior caso continua sendo dois. E o descanso longo continua limpando no mesmo ritmo.
 
@@ -155,7 +155,7 @@ Ela não vira imunidade: a escada de exaustão do capítulo 5 tem três degraus 
 >
 > **O piso nunca passa do atributo escolhido mais `2`** — então o máximo dele é `8`.
 >
-> Gate: nenhum. Classe Passiva 3.
+> Requisito: nenhum. Classe Passiva 3.
 
 Contra a CD de um conjurador do seu nível o `d20` precisa sempre de 8, e o piso só chega lá quando o atributo escolhido chega a 6. Abaixo disso ele resolve o teste médio e deixa o difícil de pé.
 
@@ -167,9 +167,9 @@ Duas, e uma anula a outra. Duas fichas desta Origem numa perseguição empatam.
 
 > **Faro** — você segue rastro de feiticeiro e de maldição pelo que o corpo deles deixou: cheiro, marca, o que ficou fora do lugar.
 >
-> **E, encostando no que uma técnica fez, você sabe o que ela fez ali** — sem saber de quem é.
+> **E, encostando no que uma técnica fez, você sabe o superficial do que ela fez ali** — o tipo de coisa que aconteceu, e nunca o detalhe nem de quem é.
 >
-> Gate: nenhum. Classe Passiva 1.
+> Requisito: nenhum. Classe Passiva 1.
 
 Ela não diz onde a coisa está agora e não identifica ninguém. Vestígio é passado.
 
@@ -177,7 +177,7 @@ Ela não diz onde a coisa está agora e não identifica ninguém. Vestígio é p
 
 > **Sem Pegada** — você não deixa rastro físico: pegada, cheiro, marca, som de passo. **Nem `Faro`, nem cão, nem técnica de rastreamento acham por onde você passou.**
 >
-> Gate: nenhum. Classe Passiva 1.
+> Requisito: nenhum. Classe Passiva 1.
 
 Não é furtividade: `Furtividade` continua sendo a perícia, e esta Bênção não soma nada nela. E quem te viu passar continua sabendo — isto apaga o vestígio, não a testemunha.
 
@@ -187,23 +187,23 @@ Não é furtividade: `Furtividade` continua sendo a perícia, e esta Bênção n
 
 > **Vulto** — você percebe tudo o que estiver a **`1,5 m × metade da Lapidação`** de você sem precisar enxergar.
 >
-> Gate: nenhum. Classe Passiva 2.
+> Requisito: nenhum. Classe Passiva 2.
 
 No teto são 7,5 metros.
 
 ### Antecipar
 
-> **Antecipar** — no começo do combate, escolha uma criatura que você enxerga. **Até o fim da cena, você sabe qual foi a última ação que ela tomou e se ela se moveu antes de agir.**
+> **Antecipar** — quando você **falha** num Teste de Resistência contra um efeito, você passa a rolar **com vantagem** contra aquele mesmo efeito pelo resto da cena.
 >
-> Gate: Inteligência 4. Classe Passiva 1.
+> Requisito: Inteligência 4. Classe Passiva 2.
 
-Você lê a postura, e não a energia: ela alcança quem não conjura, e é pior contra quem conjura de longe.
+O corpo aprende o golpe apanhando dele. Ela não tem limite de uso, e o que a segura é o preço de entrada: sem a falha, ela não liga.
 
 ### Campo
 
 > **Campo** — a ação **`Estudar`** custa a sua Ação Bônus em vez da Ação Padrão, **uma vez por cena**.
 >
-> Gate: nenhum. Classe Passiva 1.
+> Requisito: nenhum. Classe Passiva 1.
 
 O `Ler o Ambiente` continua custando o que custava: ele é sobre o lugar, e o `Estudar` é sobre a criatura.
 
@@ -213,9 +213,9 @@ O `Ler o Ambiente` continua custando o que custava: ele é sobre o lugar, e o `E
 >
 > **Ela faz um Teste de Resistência de Espírito contra a CD da sua técnica ou fica `Amedrontado` até o fim do próximo turno dela.**
 >
-> Gate: Essência 4. Classe Passiva 1.
+> Requisito: Essência 4. Classe Passiva 1.
 
-A CD é a da sua técnica, do capítulo 9: `8 + atributo da técnica + maestria`. Se o atributo da sua técnica for Essência, a trava do gate vale — a Essência não entra duas vezes.
+A CD é a da sua técnica, do capítulo 9: `8 + atributo da técnica + maestria`. Se o atributo da sua técnica for Essência, a trava do requisito vale — a Essência não entra duas vezes.
 
 ## Escrever uma Bênção
 
@@ -227,13 +227,13 @@ A vaga em branco do catálogo: a coisa que o seu personagem descobriu que o corp
 >
 > A ficha registra duas coisas: a frase, e a resposta de *"em quantas cenas por arco isso vai importar?"*.
 >
-> Gate: uma vez na ficha inteira. Classe Passiva 1 ou 2.
+> Requisito: uma vez na ficha inteira. Classe Passiva 1 ou 2.
 
-A régua é a mesma da `Aptidão Própria`, no capítulo 11, e vale inteira: uma frase, verificável, sem dado de dano, com limite por cena se for Classe Passiva 2, e não pode repetir uma das doze do catálogo com outro nome nem entregar uma que o seu gate não alcança.
+A régua é a mesma da `Aptidão Própria`, no capítulo 11, e vale inteira: uma frase, verificável, sem dado de dano, com limite por cena se for Classe Passiva 2, e não pode repetir uma das doze do catálogo com outro nome nem entregar uma que o seu requisito não alcança.
 
 > **Na dúvida, Pesada.** Pesada é Classe Passiva 3, e a Classe Passiva 3 está fora do que a `Bênção Própria` alcança. Então dúvida reprova a proposta.
 
-E existe um requisito a mais deste lado:
+E existe uma trava a mais deste lado:
 
-> **Uma Bênção gateada em Constituição ou em Força não pode ser bônus, vantagem ou rerrolagem numa perícia.** Ela tem de ser **feito**: sobrevivência, recuperação, ou uma coisa que o corpo passa a poder fazer.
+> **Uma Bênção com requisito de Constituição ou de Força não pode ser bônus, vantagem ou rerrolagem numa perícia.** Ela tem de ser **feito**: sobrevivência, recuperação, ou uma coisa que o corpo passa a poder fazer.
 

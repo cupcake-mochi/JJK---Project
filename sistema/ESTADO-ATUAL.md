@@ -1052,6 +1052,7 @@ As duas são economias de poder novas, e construir a quarta e a quinta antes de 
 | **Ferramenta amaldiçoada** | **arma forjada para canalizar energia**, com graus, que até quem não é feiticeiro consegue usar. Prometida desde a peça 5 §5 e declinada pela peça 14 §8 item 2, que a mandou para tópico próprio *"com graus e forja"*. **É o único jeito de ferir maldição sem energia própria** — a Maki e o Toji |
 | **Dano de alma, com Essência na Integridade** | já decidido, não aplicado |
 | **Pactos** | a camada mais perigosa de escrever solta — e desde a v0.116 ela é **um quarto do que parecia**: só o pacto entre dois personagens fechado em jogo, com as quatro travas de projeto já escritas na peça 8, Passo 8 |
+| **Itens menores** | *levantado pelo Mizuki na v0.131.* **Consumível e afins** — o que se compra, se gasta e acaba: talismã pronto, remédio, corda, lanterna, o kit que o `Herbalismo` usa. **A peça 14 tem a régua de itens comuns em três camadas, com a terceira desligada** (§8), e nada disso tem preço nem lista |
 | **Bestiário** | sai da matemática de inimigo que o manual já tem |
 
 ~~E uma coisa solta que não é peça: o nome do sistema.~~ **Batizado na v0.94: `Projeto - M`.** *Era a pendência mais velha do projeto — aberta na v0.1 e fechada 93 versões depois.*

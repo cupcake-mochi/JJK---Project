@@ -90,9 +90,9 @@ Um marco de Refino compra **uma aptidão**, de qualquer altura que o seu refino 
 
 As aptidões usam a mesma escada das Passivas, e ela está no capítulo 9, *Fundamento*.
 
-Aqui ela não cobra nada: o marco compra uma aptidão de qualquer altura, e o preço é o mesmo. Quem separa as alturas é o gate. E como o refino escala o que a aptidão entrega, uma Classe Passiva 1 no refino 10 rende bem mais do que no refino 2.
+Aqui ela não cobra nada: o marco compra uma aptidão de qualquer altura, e o preço é o mesmo. Quem separa as alturas é o requisito. E como o refino escala o que a aptidão entrega, uma Classe Passiva 1 no refino 10 rende bem mais do que no refino 2.
 
-### Gate
+### Requisito
 
 Cada aptidão declara o próprio requisito, e ele está na linha dela no catálogo: nenhum, nível, refino, os dois juntos, outra aptidão, ou Origem.
 
@@ -104,27 +104,27 @@ Catorze entradas.
 
 ### Como ler uma aptidão
 
-Cada entrada aparece duas vezes. Primeiro nesta tabela, com quatro campos: **nome**, **gate**, **Classe Passiva** e **o que o refino escala**. Depois na seção dela, com uma descrição do que ela é e uma caixa com a regra.
+Cada entrada aparece duas vezes. Primeiro nesta tabela, com quatro campos: **nome**, **requisito**, **Classe Passiva** e **o que o refino escala**. Depois na seção dela, com uma descrição do que ela é e uma caixa com a regra.
 
 Traço na coluna de Classe Passiva quer dizer que a entrada não declara uma. Traço na última coluna quer dizer que o refino não mexe naquela aptidão.
 
 **Como ler uma aptidão**
 {: .tab-titulo }
 
-| Aptidão | Gate | Classe Passiva | O que o refino escala |
+| Aptidão | Requisito | Classe Passiva | O que o refino escala |
 |---|---|---|---|
 | Cobrir-se de energia | grátis no refino 1 | — | a proteção, e a Redução de Dano da Reação |
 | Canalizar energia | grátis no refino 1 | — | — |
-| Projetar energia | sem gate | — | o dano |
+| Projetar energia | sem requisito | — | o dano |
 | Energia Reversa | refino 7 e nível 13 | 3 | — |
-| Kokusen | sem gate | — | a chance no d100 |
+| Kokusen | sem requisito | — | a chance no d100 |
 | Kokusen Melhorado | refino 5 e nível 14 | — | vantagem no d100 |
 | Kokusen Constante | refino 5 | — | a chance no d100 |
-| Cesta Oca de Vime | sem gate | 1 | — |
+| Cesta Oca de Vime | sem requisito | 1 | — |
 | Domínio Simples | refino 4 e nível 7 | 2 | o raio |
 | Pétala | refino 4 e nível 7 | 2 | quantos Acertos ela devolve |
 | Extensão de Domínio | refino 7 e nível 13 | 3 | a duração |
-| Barreira Simples | sem gate | — | a vida do domo |
+| Barreira Simples | sem requisito | — | a vida do domo |
 | Cortina | exige a `Barreira Simples` | — | a vida dela |
 | Aptidão Própria | uma vez na ficha inteira | 1 ou 2 | conforme o que for escrito |
 
@@ -142,7 +142,7 @@ Como Reação, em vez de espalhar a camada você joga ela inteira no ponto onde 
 >
 > Como Reação, você concentra a energia no impacto: Redução de Dano de `1,5 × refino` num golpe, por **2 PE**. Você fica sem proteção até o fim do seu próximo turno.
 >
-> Gate: grátis no refino 1. O refino escala a proteção e a Redução de Dano da Reação.
+> Requisito: grátis no refino 1. O refino escala a proteção e a Redução de Dano da Reação.
 
 A proteção é um piso. Ela sustenta o feiticeiro que não investiu em corpo nenhum, e sai de cena assim que Traje ou Revestimento entram na conta.
 
@@ -154,7 +154,7 @@ Mão nua atravessa maldição sem machucar. Para o golpe encostar de verdade, a 
 
 > **Canalizar energia** — você conjura feitiço de Toque. Um feitiço de Toque é um feitiço de Forma Toque, sem Melhoria e sem Restrição: mesma Classe, mesmo orçamento de pontos, mesmo custo em PE.
 >
-> Gate: grátis no refino 1.
+> Requisito: grátis no refino 1.
 
 Ela é a porta de toda técnica de contato. Sem ela, tudo o que a sua ficha faz precisa sair de longe, e encostar num inimigo vira uma decisão sem recompensa.
 
@@ -168,7 +168,7 @@ Você junta energia na mão e solta, sem técnica e sem forma. Sai como um borr�
 
 > **Projetar energia** — você dispara energia crua. O dano é `refino`, e ela não gasta PE.
 >
-> Gate: nenhum. O refino escala o dano.
+> Requisito: nenhum. O refino escala o dano.
 
 `Projetar energia` é o que sobra quando o combustível acaba. Ela existe para o turno em que o seu PE zerou, a luta ainda não terminou e você continua precisando fazer alguma coisa.
 
@@ -180,7 +180,7 @@ Toda energia amaldiçoada é negativa. Multiplicar uma negativa por outra dá po
 
 > **Energia Reversa** — ação padrão. Gaste até `a sua maior Classe` de PE e recupere `1d8` de vida por PE gasto, em você.
 >
-> Gate: refino 7 e nível 13. Classe Passiva 3.
+> Requisito: refino 7 e nível 13. Classe Passiva 3.
 
 > **A `Energia Reversa` cura só você.** Curar outra pessoa é o degrau raro: quem faz isso é a Trilha `Sutura`, e é lá que se paga por isso.
 
@@ -198,7 +198,7 @@ Feiticeiro que acerta um passa a entender a própria energia de um jeito que tre
 >
 > Cada d100 falhado empurra o próximo em **+2**, e o acumulado zera no descanso longo.
 >
-> Gate: nenhum. O refino escala a chance no d100.
+> Requisito: nenhum. O refino escala a chance no d100.
 
 O +50% entra em cima do crítico que já dobrou os dados. Um crítico entrega dois punhados de dado; um kokusen entrega três. Por exemplo, com refino 6 o kokusen sai em 12 ou menos no d100 — 12% dos seus críticos corpo a corpo.
 
@@ -210,7 +210,7 @@ Você já acertou um antes, e o corpo guardou o tempo. A segunda tentativa da me
 
 > **Kokusen Melhorado** — mesma regra do `Kokusen`, exceto que você rola dois d100 e fica com o melhor.
 >
-> Gate: refino 5 e nível 14. O refino escala a vantagem no d100.
+> Requisito: refino 5 e nível 14. O refino escala a vantagem no d100.
 
 ### Kokusen Constante
 
@@ -218,7 +218,7 @@ Você parou de esperar pela sorte e passou a mirar o instante. A janela continua
 
 > **Kokusen Constante** — mesma regra do `Kokusen`, exceto que a base sobe para `3 × refino`.
 >
-> Gate: refino 5. O refino escala a chance no d100.
+> Requisito: refino 5. O refino escala a chance no d100.
 
 > **As três empilham, nesta ordem: a base é `3 × refino`, e a vantagem da `Kokusen Melhorado` rola em cima dela.** Com as três na ficha, o d100 sai em 51% no refino 10. Nenhuma delas exige a outra.
 
@@ -260,7 +260,7 @@ Você trava as mãos num símbolo e uma esfera de energia se fecha em volta do s
 
 > **Cesta Oca de Vime** — você faz o símbolo e uma esfera se fecha em volta de você. Enquanto você o segurar, o Acerto de uma Expansão não te alcança, e você não faz mais nada. Ela não tem duração, não pede teste e não custa PE: enquanto o símbolo estiver de pé, ela está de pé.
 >
-> Gate: nenhum. Classe Passiva 1.
+> Requisito: nenhum. Classe Passiva 1.
 
 A `Cesta Oca de Vime` anula o Acerto e mais nada: o Efeito da Expansão continua acontecendo em cima de você. Em troca ela não quebra, e é a única das quatro assim.
 
@@ -272,7 +272,7 @@ Um domínio em miniatura, com os seus pés no centro. Você derrama energia no c
 
 > **Domínio Simples** — um domínio pequeno em volta de você, de raio `1,5 m + refino ÷ 2`. Dentro dele o Acerto de uma Expansão não acontece, e ele cobre quem estiver no raio. Custa `1 × a sua maior Classe` de PE por rodada, e ela quebra se os seus pés saírem do chão.
 >
-> Gate: refino 4 e nível 7. Classe Passiva 2. O refino escala o raio.
+> Requisito: refino 4 e nível 7. Classe Passiva 2. O refino escala o raio.
 
 É o único dos quatro que protege o grupo, e isso muda a cena inteira: uma pessoa da mesa vira o abrigo, e o resto decide se vale a pena sair dele. Em compensação, quem segura o círculo vira um poste no meio da luta.
 
@@ -291,7 +291,7 @@ A energia sobe pela pele e fica esperando. Quando o Acerto encosta em você, ela
 
 > **Pétala** — a energia cobre o seu corpo e devolve o golpe. Quando o Acerto de uma Expansão te alcança, ele é anulado no ponto de contato, `refino ÷ 2` vezes por cena. Custa `1 × a sua maior Classe` de PE por rodada, e ela cai se você perder a concentração.
 >
-> Gate: refino 4 e nível 7. Classe Passiva 2. O refino escala quantos Acertos ela devolve.
+> Requisito: refino 4 e nível 7. Classe Passiva 2. O refino escala quantos Acertos ela devolve.
 
 É a resposta de quem se recusa a parar de lutar dentro de um domínio. Ela nunca cobre a Expansão inteira: a completa dispara o Acerto ao abrir e no começo de cada turno de quem a levantou, e sempre sobra um.
 
@@ -311,7 +311,7 @@ Você abre um domínio e não põe técnica nenhuma dentro dele: fica só a cama
 
 > **Extensão de Domínio** — você se envolve numa camada fina de domínio sem técnica dentro. Ela anula o Acerto de uma Expansão, anula qualquer técnica que encostar nela, e faz o seu ataque acertar independentemente da técnica do alvo. Dura `refino` rodadas e custa `1,5 × a sua maior Classe` de PE por rodada. Enquanto ela estiver de pé, você não usa a sua técnica.
 >
-> Gate: refino 7 e nível 13. Classe Passiva 3. O refino escala a duração.
+> Requisito: refino 7 e nível 13. Classe Passiva 3. O refino escala a duração.
 
 Ela é a única das quatro que ganha a luta em vez de sobreviver a ela. Contra um inimigo que depende inteiro da técnica dele, é a aptidão que decide a cena: você desliga o que ele sabe fazer e resolve no braço.
 
@@ -329,7 +329,7 @@ Um domo de energia que você monta num lugar e deixa ali. Ele fecha passagem nos
 
 > **Barreira Simples** — um domo de raio `6 m`, ancorado no lugar onde você o ergueu, que bloqueia passagem e linha de efeito nos dois sentidos. Ele tem `5 × refino` de pontos de vida, e cai quando você fica `Inconsciente`.
 >
-> Gate: nenhum. O refino escala a vida do domo.
+> Requisito: nenhum. O refino escala a vida do domo.
 
 O domo fica onde foi erguido. Você não leva ele junto, e é por isso que ele serve para fechar um cômodo, uma porta, uma escada.
 
@@ -341,7 +341,7 @@ A cortina cai sobre o lugar inteiro e o mundo comum para de enxergar o que acont
 
 > **Cortina** — mesma preparação de um minuto da `Barreira Simples`, exceto que ela cobre um lugar inteiro: um prédio, uma escola, um quarteirão. Ela esconde o que está dentro de quem não é feiticeiro, e você pendura uma condição sobre quem atravessa. Ela tem `20 × refino` de pontos de vida, e cai quando você fica `Inconsciente`.
 >
-> Gate: exige a `Barreira Simples`. O refino escala a vida dela.
+> Requisito: exige a `Barreira Simples`. O refino escala a vida dela.
 
 A `Cortina` custa dois marcos, porque você precisa da `Barreira Simples` antes. Quem não escolhe Refino pelo menos duas vezes não levanta cortina nenhuma.
 
@@ -371,7 +371,7 @@ A vaga em branco do catálogo. É o truque que o seu feiticeiro desenvolveu mane
 >
 > A ficha registra duas coisas: a frase, e a resposta de *"em quantas cenas por arco isso vai importar?"*.
 >
-> Gate: uma vez na ficha inteira. Classe Passiva 1 ou 2.
+> Requisito: uma vez na ficha inteira. Classe Passiva 1 ou 2.
 
 A resposta dessa pergunta é o que decide o degrau:
 
@@ -386,11 +386,11 @@ A resposta dessa pergunta é o que decide o degrau:
 
 > **Na dúvida, Pesada.** Pesada é Classe Passiva 3, e a Classe Passiva 3 está fora do que a `Aptidão Própria` alcança. Então dúvida reprova a proposta.
 
-Os cinco requisitos:
+As cinco travas:
 
 1. **Uma frase.**
 2. **Verificável**: a mesa aponta o momento em que ela disparou.
-3. **Não é atalho**: ela não repete uma das treze outras entradas do catálogo com outro nome, e não entrega uma que o seu gate ainda não alcança.
+3. **Não é atalho**: ela não repete uma das treze outras entradas do catálogo com outro nome, e não entrega uma que o seu requisito ainda não alcança.
 4. **Sem dado de dano.**
 5. **Com limite por cena**, se ela for Classe Passiva 2.
 
@@ -421,7 +421,7 @@ Os feitiços que você conhece:
 
 São três no nível 2 e doze no nível 20. Cada Passiva e cada pedaço de Expansão que você comprar sai desse mesmo bolo — e o espaço que todo marco solta de graça entra nele também.
 
-As Passivas gateiam por nível: Classe Passiva 1 no nível 1, Classe Passiva 2 no 7, Classe Passiva 3 no 13. **A lista de quais Passivas existem em cada altura é uma só, e está no capítulo 9, *Fundamento*.**
+As Passivas pedem nível: Classe Passiva 1 no nível 1, Classe Passiva 2 no 7, Classe Passiva 3 no 13. **A lista de quais Passivas existem em cada altura é uma só, e está no capítulo 9, *Fundamento*.**
 
 > **Você paga no máximo cinco Passivas.** Cada escolha de Leque no marco sobe o teto em uma vaga, e a Passiva que o Leque concede ocupa a vaga nova. As pagas continuam sendo cinco.
 

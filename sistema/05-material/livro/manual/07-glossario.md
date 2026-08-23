@@ -118,7 +118,7 @@ O eixo de controle de quem não tem energia amaldiçoada nenhuma, no lugar do re
 |---|---|---|
 | **Lapidação** | Quanto do que o corpo tem chega até o fim do movimento. Começa em 1, teto 10. Sobe `+1` de graça em cada marco | 12 |
 | **Bênção** | O que um corpo sem energia aprende a fazer. Catorze, e custa marco | 12 |
-| **`Cobrir-se`** | Bênção de graça: proteção `1/3 da Lapidação + 1`, e barreira de energia não segura você | 12 |
+| **`Defesa sem Armadura`** | Bênção de graça: proteção `1/3 da Lapidação + 1`, e barreira de energia não segura você | 12 |
 | **`Estímulo Muscular`** | Bênção de graça: vantagem numa perícia e num Teste de Resistência escolhidos, `1×` por cena | 12 |
 
 ## Progressão

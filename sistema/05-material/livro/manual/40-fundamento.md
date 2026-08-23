@@ -382,7 +382,7 @@ A Livre entrega o dado cru: você vê o medo na cor de alguém, e descobrir o mo
 
 #### Regra Própria
 
-Algumas técnicas funcionam impondo uma regra ao mundo: julgamento, aposta, contrato, dívida, sorte. Para essas existe a `Regra Própria`, escrita junto com o mestre antes de a campanha começar, obedecendo cinco requisitos:
+Algumas técnicas funcionam impondo uma regra ao mundo: julgamento, aposta, contrato, dívida, sorte. Para essas existe a `Regra Própria`, escrita junto com o mestre antes de a campanha começar, obedecendo cinco travas:
 
 - Uma frase.
 - Verificável: a mesa aponta o momento em que ela disparou.

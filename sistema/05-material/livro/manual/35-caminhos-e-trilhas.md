@@ -418,9 +418,9 @@ Quem joga de `Elo` amplifica: você escolhe uma pessoa, e enquanto o elo estiver
 
 *O dano que já aconteceu não é definitivo enquanto você estiver na sala.*
 
-A `Sutura` põe o médico de campo no grupo — a pessoa que a instituição manda junto quando a missão tem chance real de alguém não voltar. A Trilha entrega a `Energia Reversa` sem os gates de nível e de refino que o resto da ficha paga, e no meio da luta a sua decisão é quem vale a energia.
+A `Sutura` põe o médico de campo no grupo — a pessoa que a instituição manda junto quando a missão tem chance real de alguém não voltar. A Trilha entrega a `Energia Reversa` sem os requisitos de nível e de refino que o resto da ficha paga, e no meio da luta a sua decisão é quem vale a energia.
 
-> **Nível 2: `Agulha`.** Você ganha a aptidão **`Energia Reversa`** **sem os gates de nível e de refino**. *Por uso, você não pode gastar mais que **`metade da sua maestria`** em PE.*
+> **Nível 2: `Agulha`.** Você ganha a aptidão **`Energia Reversa`** **sem os requisitos de nível e de refino**. *Por uso, você não pode gastar mais que **`metade da sua maestria`** em PE.*
 >
 > **Nível 11: `Enxerto`.** A sua `Energia Reversa` passa a **curar os outros**, e o teto por uso sobe para **`a sua maestria`** em PE.
 > **E o mesmo uso pode tirar uma condição:** gaste **`1` PE por nível da condição**, e ele sai do mesmo teto da cura. *Condição sem nível declarado conta como **nível 1**.*

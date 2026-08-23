@@ -274,10 +274,10 @@ As duas se somam, e somadas elas fecham a porta na prática: quem pega uma arma 
 Três coisas que essa frase decide, e vale ler as três:
 
 - **O requisito lê o dado impresso na linha da arma.** O passo do `Versátil` não conta. Katana, Espada Longa e Taco chegam a `d10` nas duas mãos sem pedir Força nenhuma.
-- **O `Yumi` não é gateado.** As duas ficam no fundo da escada do tiro, e o arco paga em Destreza.
+- **O `Yumi` não é com requisito.** As duas ficam no fundo da escada do tiro, e o arco paga em Destreza.
 - **Nenhuma arma pede mais que Força 3**, que é o teto da criação. O requisito resolve acesso: quem investiu Força não paga nada a mais por arma nenhuma. O único item deste capítulo que pede acima disso é o escudo **Torre**, com Força 5.
 
-O requisito e o treino são gates diferentes e não se substituem. Um olha o seu corpo, o outro olha o que você aprendeu. Um Emanador com Força 6 passa no primeiro e para no segundo.
+O requisito e o treino são requisitos diferentes e não se substituem. Um olha o seu corpo, o outro olha o que você aprendeu. Um Emanador com Força 6 passa no primeiro e para no segundo.
 
 ## Catálogo
 

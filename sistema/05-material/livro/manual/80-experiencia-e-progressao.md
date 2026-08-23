@@ -246,7 +246,7 @@ A faixa é de `4` a `7` no nível 14 e de `6` a `10` no nível 22: duas fichas d
 
 O especialista bate no teto no **nível 22**, e é aí que a escolha de Refino troca de moeda: dali em diante ela entrega duas aptidões no lugar do degrau que não teria mais onde cair.
 
-> **Guardar marco não guarda refino.** A linha de graça sobe sozinha, e ela não espera você decidir. Quem deixa para investir tarde chega aos níveis altos com o refino da linha de baixo e ainda precisa de mais um marco para alcançar o degrau que queria. Gate de refino se paga com tempo, e o tempo não volta.
+> **Guardar marco não guarda refino.** A linha de graça sobe sozinha, e ela não espera você decidir. Quem deixa para investir tarde chega aos níveis altos com o refino da linha de baixo e ainda precisa de mais um marco para alcançar o degrau que queria. Requisito de refino se paga com tempo, e o tempo não volta.
 
 ### Maestria
 
