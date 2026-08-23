@@ -260,7 +260,6 @@ O especialista bate no teto no **nível 22**, e é aí que a escolha de Refino t
 
 Um marco sim, um não, começando pelo segundo.
 
-A maestria vai de 1 no nível 2 a 4 no nível 30, e o seu atributo principal vai de 3 na criação a 6 no teto.
 
 ### Teto de Passivas
 

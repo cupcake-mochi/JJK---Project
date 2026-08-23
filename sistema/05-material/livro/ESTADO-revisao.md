@@ -2,9 +2,9 @@
 
 ## Leitura texto por texto — v0.129, 22/08/2026
 
-**Os 20 arquivos lidos inteiros, com os olhos, e não por regex.** *Motivo: o Mizuki leu o PDF publicado e achou três frases que a v0.125 e a v0.126 tinham deixado passar. As três eram amostra de três famílias, e as três famílias apareceram em **15 dos 20 capítulos**.*
+**Os 20 arquivos lidos inteiros, com os olhos, e não por regex.** *Motivo: o Mizuki leu o PDF publicado e achou três frases que a v0.125 e a v0.126 tinham deixado passar. As três eram amostra de três famílias, e as três famílias apareceram em **17 dos 20 capítulos**.*
 
-**`79.711` → `79.011` palavras.** *Nenhum número de regra se moveu.*
+**`79.711` → `78.176` palavras, em duas passadas.** *Nenhum número de regra se moveu.*
 
 ### As três famílias, e o conserto de cada uma
 
@@ -20,7 +20,7 @@
 
 ***"todo canto q tiver apresentação de informação, 'é balanceado por isso', comparativo e afins, informações que um player não precisa, é no máximo 'interessante saber' pode REMOVER".***
 
-**A régua do `REMOCOES-material-de-mestre.md` já dizia isso desde a v0.106**, e a v0.125 só a aplicou nos dois capítulos que tinham acabado de nascer. *Esta passada aplicou nos outros dezoito.* **Saíram nove blocos de prova de balanceamento**, entre eles a derivação do `8` da CD com `65%`, `60%` e `45%`, e o argumento do espaço do marco — que morava em **dois** capítulos com as mesmas palavras.
+**A régua do `REMOCOES-material-de-mestre.md` já dizia isso desde a v0.106**, e a v0.125 só a aplicou nos dois capítulos que tinham acabado de nascer. *Esta passada aplicou nos outros dezoito.* **Saíram nove blocos de prova de balanceamento na primeira leva e mais quinze na segunda**, entre eles a derivação do `8` da CD com `65%`, `60%` e `45%`, e o argumento do espaço do marco — que morava em **dois** capítulos com as mesmas palavras.
 
 ### ⚠⚠ Duas frases tinham virado mentira, e medida nenhuma acha isso
 
@@ -34,8 +34,27 @@
 ### O método, e ele é o que dá para repetir
 
 - **`guard_numeros.py` a cada arquivo**, e cada diferença lida contra a linha que a carregava.
-- **Uma segunda medida por cima:** contar os numerais só das linhas do `diff` e comparar com o delta do arquivo inteiro. *Se as duas baterem, nenhuma diferença veio de onde eu não olhei.* **Bateu nos quinze.**
+- **Uma segunda medida por cima:** contar os numerais só das linhas do `diff` e comparar com o delta do arquivo inteiro. *Se as duas baterem, nenhuma diferença veio de onde eu não olhei.* **Bateu nos dezessete.**
 - **Onde o corte encostou numa regra, a regra foi procurada de pé depois.** *`CD = 8 + atributo + maestria` em quatro lugares, `Missão falhada paga metade ou nada` na caixa, `o refino nunca entra num número disputado` na caixa.*
+
+### Segunda passada — e ela veio de ele perguntar se era só isso
+
+***"Então tudo que foi feito foram algumas poucas frases?"*** *Era: `708` palavras de `79.711`.* **A resposta honesta foi que eu tinha deixado quase a mesma quantidade de pé, em cima do muro — e a régua dele é mais larga do que eu tinha aplicado.**
+
+**Mais `827` palavras**, em conselho tático que a tabela ao lado resolve, prosa que reescreve a caixa de regra logo acima, e comparativo de arma contra arma.
+
+**E quatro tabelas**, achadas auditando as `209` por cabeçalho, por nome e por número de linhas:
+
+| tabela | onde | por que sai |
+|---|---|---|
+| `Peso e degrau` | cap. 12 | cópia da do cap. 11, logo depois da frase que já aponta para lá |
+| `Atordoado e Incapacitado` | cap. 9 | a do cap. 4, com o eixo virado |
+| `Atributos` | cap. 6 | a do cap. 1 — **e já tinha divergido** |
+| `Passivas` *(projeção)* | cap. 11 | quatro montagens hipotéticas em quatro níveis |
+
+> **A do cap. 6 é a lição nº 9 pega no ato:** *duas cópias da mesma tabela, e a segunda já tinha perdido "reconhecer uma técnica pelo catálogo" e "hierarquia" sem ninguém notar.*
+
+**Mais um ponteiro pendurado e um título:** *o cap. 9 mandava seguir "o checklist do mestre", que saiu do livro na v0.106 e foi para o livro do mestre.* **E o `Checklist do mestre` do cap. 6 — única seção do livro do jogador rotulada para o mestre, e em inglês — virou `Conferência da ficha`.**
 
 ### O que não mudou
 

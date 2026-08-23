@@ -190,7 +190,7 @@ Ela muda a forma das lutas longas e muda o que acontece entre elas. Um personage
 
 Quando o soco e a energia chegam no alvo dentro da mesma fração de instante, o espaço em volta do ponto de contato racha. Sai um estalo preto, curto, e o golpe entrega muito mais do que devia entregar. Ninguém acerta um kokusen de propósito: você percebe pelo barulho e pela cara de quem apanhou.
 
-Feiticeiro que acerta um passa a entender a própria energia de um jeito que treino nenhum ensina, e a mesa inteira lembra do dia. É uma aptidão que existe pelo momento em que alguém rola o d100 e todo mundo para de conversar.
+Feiticeiro que acerta um passa a entender a própria energia de um jeito que treino nenhum ensina, e a mesa inteira lembra do dia.
 
 ### Kokusen
 
@@ -231,7 +231,6 @@ Você parou de esperar pela sorte e passou a mirar o instante. A janela continua
 | 5 | 10% | 19,0% | 15,0% | 27,8% |
 | 10 | 20% | **36,0%** | 30,0% | **51,0%** |
 
-Ninguém monta ficha em cima de kokusen. Ele acontece com quem já estava batendo forte, e o que ele compra é o grito na mesa.
 
 ## Aptidões anti-domínio
 
@@ -421,16 +420,6 @@ Os feitiços que você conhece:
 > **`2 + (nível ÷ 2)`, arredondando para baixo, mais um por marco.**
 
 São três no nível 2 e doze no nível 20. Cada Passiva e cada pedaço de Expansão que você comprar sai desse mesmo bolo — e o espaço que todo marco solta de graça entra nele também.
-
-**Passivas**
-{: .tab-titulo }
-
-| montagem | nível 14 | nível 20 | nível 26 | nível 30 |
-|---|---|---|---|---|
-| só feitiço | 12 | 16 | 21 | 24 |
-| 3 Passivas de Classe Passiva 2 | 6 | 10 | 15 | 18 |
-| 3 Passivas de Classe Passiva 2 e Expansão completa | 3 | 7 | 12 | 15 |
-| 5 Passivas de Classe Passiva 3 e Expansão completa | 0 | 0 | 3 | 6 |
 
 As Passivas gateiam por nível: Classe Passiva 1 no nível 1, Classe Passiva 2 no 7, Classe Passiva 3 no 13. **A lista de quais Passivas existem em cada altura é uma só, e está no capítulo 9, *Fundamento*.**
 

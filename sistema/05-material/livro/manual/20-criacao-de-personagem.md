@@ -115,12 +115,7 @@ A Trilha é escolhida agora, junto do Caminho, e nasce com o personagem. São tr
 
 O número **é** o modificador. Não existe valor separado nem tabela de conversão. A escala vai de 0 a 6, e 6 é o topo humano. Uma distribuição legal, por exemplo, é 3 · 2 · 2 · 1 · 1.
 
-**Atributos**
-{: .tab-titulo }
-
-| | Força | Destreza | Constituição | Inteligência | Essência |
-|---|---|---|---|---|---|
-| **governa** | ataque corpo a corpo, agarrar, quebrar, carregar | ataque à distância, **Defesa**, **iniciativa** | **pontos de vida** | conhecimento, investigação | **perceber energia**, trato social, Pactos |
+O que cada atributo governa está na tabela `Atributos` do capítulo 1, *Como Jogar*.
 
 Inteligência sabe; Essência percebe. Sentir energia amaldiçoada é a sua energia reagindo à de outro.
 
@@ -268,9 +263,9 @@ Força 3 · Constituição 2 · Destreza 2 · Inteligência 1 · Essência 1. No
 | CD dos feitiços dela | 8 + 3 + 1 | **12** |
 | Atletismo (treinado) | d20 + 3 + 1 | **d20 + 4** |
 
-## Checklist do mestre
+## Conferência da ficha
 
-Sete perguntas, e todas têm resposta objetiva.
+Sete perguntas, e todas têm resposta objetiva. Você mesmo passa por elas antes de entregar.
 
 1. **Os atributos somam nove, e nenhum passa de 3?**
 2. **O Teste de Resistência Físico está travado** em Força ou Destreza?

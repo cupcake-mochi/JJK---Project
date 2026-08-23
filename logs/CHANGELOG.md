@@ -12,7 +12,7 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 **A passada de texto que era leitura e não varredura, e as duas listas de perícia que fechavam a Restrição Celestial.**
 
-*Os 20 arquivos do livro lidos inteiros, com os olhos. As três frases que o Mizuki achou no PDF publicado eram amostra de três famílias, e as três famílias apareceram em **15 dos 20 capítulos**.* **O livro foi de `79.711` para `79.011` palavras.**
+*Os 20 arquivos do livro lidos inteiros, com os olhos. As três frases que o Mizuki achou no PDF publicado eram amostra de três famílias, e as três famílias apareceram em **15 dos 20 capítulos**.* **O livro foi de `79.711` para `78.176` palavras, em duas passadas.**
 
 ### As três que ele nomeou, e o conserto de cada uma
 
@@ -82,9 +82,47 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 *A contagem não se moveu: a 5.1.1 é sub-bloco da 5.1, e sub-bloco conta para o bloco pai.* **Continuam `21` validadores e `203` checagens.**
 
+### Segunda passada — a régua larga, e as tabelas
+
+***Ele leu o resultado da primeira e perguntou se era só isso.*** *Era: `708` palavras de `79.711`.* **A resposta honesta foi que eu tinha deixado quase a mesma quantidade de pé, em cima do muro, e ele mandou cortar.**
+
+**Mais `827` palavras em 15 trechos.** *Conselho tático que a tabela ao lado já resolve, prosa que reescreve a caixa de regra logo acima, comparativo de arma contra arma, e a derivação do empate maestria/atributo.*
+
+**Total das duas passadas: `79.711` → `78.176`, ou `1,9%` do livro.**
+
+### Removido — quatro tabelas, e uma delas já tinha divergido
+
+*Auditei as `209` tabelas por cabeçalho, por nome e por número de linhas.*
+
+| tabela | onde | por que sai |
+|---|---|---|
+| `Peso e degrau` | cap. 12 | cópia casa por casa da do cap. 11, **logo depois da frase que já aponta para lá** |
+| `Atordoado e Incapacitado` | cap. 9 | a mesma comparação do cap. 4, com o eixo virado. O cap. 4 é o dono das condições |
+| `Atributos` | cap. 6 | cópia da do cap. 1 — e **já tinha perdido** *"reconhecer uma técnica pelo catálogo"* e *"hierarquia"* |
+| `Passivas` *(a de projeção)* | cap. 11 | quatro montagens hipotéticas em quatro níveis. **Mesma forma da projeção de gates que a v0.106 já tinha cortado** |
+
+> **A do cap. 6 é a lição nº 9 pega no ato.** *Duas cópias da mesma tabela em dois capítulos, e a segunda já estava mais pobre que a primeira sem ninguém ter notado.* **Virou ponteiro para o cap. 1, que é o dono.**
+
+### Corrigido — um ponteiro pendurado, e um título que era do mestre
+
+**O cap. 9 mandava seguir *"o checklist do mestre"*, e esse checklist saiu do livro na v0.106.** *A régua do `REMOCOES` mandou o `Aprovar` de oito caixas para o livro do mestre, e a frase que apontava para ele ficou.* **Um leitor procuraria e não acharia.** *Reescrita: as oito regras de ouro são a conferência, e ponto.*
+
+**E o cap. 6 tinha a única seção do livro do jogador rotulada para o mestre — `Checklist do mestre`, em inglês.** *As sete perguntas são sobre a ficha de quem está lendo.* **Virou `Conferência da ficha`, com a linha dizendo que é você mesmo quem passa por elas.**
+
+*E a tabela `Restrições` do cap. 13 virou `Restrições de arma`:* **ela colidia de nome com as Restrições do Fundamento, que são outra coisa.**
+
+### As quatro perguntas dele, respondidas com medida
+
+| pergunta | resposta |
+|---|---|
+| tabela que não serve como adicional? | **4 saíram**, de `209` para `205`. Zero sem nome, zero cabeçalho repetido entre capítulos |
+| prosa desnecessária? | **30 trechos** nas duas passadas. Varredura por marcador de argumento devolve `13`, e ao abrir, `11` são regra ou ficção do mundo |
+| conteúdo sem utilidade? | os `295` parágrafos sem termo mecânico são descrição de Origem, de Caminho e de condição — ficção do mundo, que a régua manda ficar |
+| informação que vale mais pro mestre? | **1 achado**, o título acima. As outras `81` menções a *"o mestre"* são **quem arbitra**, que é regra que o jogador precisa saber |
+
 ### O que NÃO saiu
 
-**Nenhuma regra e nenhum número de regra.** *O `guard_numeros.py` rodou nos quinze arquivos mexidos, e cada diferença foi lida contra a linha que a carregava — e conferida por uma segunda medida, que conta só as linhas do `diff`.* **As duas medidas bateram nos quinze.**
+**Nenhuma regra e nenhum número de regra.** *O `guard_numeros.py` rodou nos dezessete arquivos mexidos, e cada diferença foi lida contra a linha que a carregava — e conferida por uma segunda medida, que conta só as linhas do `diff`.* **As duas medidas bateram nos dezessete, e cada número que sumiu foi conferido de pé em outro capítulo — 30 provas de dono, todas passando.**
 
 > **Onde o corte encostou numa regra, a regra foi conferida de pé depois:** *`CD de feitiço = 8 + o atributo da sua técnica + maestria` continua em quatro lugares; `Missão falhada paga metade ou nada` continua na caixa; `o refino nunca entra num número disputado` continua na caixa.*
 
@@ -92,10 +130,11 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 | | v0.128 | v0.129 |
 |---|---|---|
-| palavras do livro | 79.711 | **79.011** |
-| capítulos mexidos | — | **15 de 20** |
-| coluna única | 251 páginas | **251** |
+| palavras do livro | 79.711 | **78.176** |
+| capítulos mexidos | — | **17 de 20** |
+| coluna única | 251 páginas | **250** |
 | duas colunas | 143 páginas | **142** |
+| tabelas | 209 | **205** |
 | `conferir-voz --estrito` | 0 achados · 16 triagens | **0 achados · 16 triagens** |
 | termos com destino | 91 de 91 | **93 de 93** |
 

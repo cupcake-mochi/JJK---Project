@@ -19,9 +19,7 @@ Não existe "a primeira do dia é grátis". **Fora de combate, ação não custa
 
 ### Presença em campo
 
-Pôr uma invocação em campo põe um segundo boneco no mapa e um segundo bloco de anotação ao lado da sua ficha. Você descreve o corpo uma vez, no início, e daí em diante ele é presença: entra nas descrições do mestre, atrapalha caminho, ocupa a atenção dos inimigos e assusta o civil que abriu a porta errada. Quem está do outro lado passa a ter duas coisas para resolver, e uma delas anda sozinha.
 
-O seu turno também muda de forma. Antes ele tinha uma pergunta; agora tem duas: onde eu ando, e o que ela faz. Comandar consome a sua Ação Padrão, então a rodada não comporta as duas coisas grandes, e a escolha entre bater você ou mandar ela bater é o miolo de jogar assim. Quem joga bem de Evocador costuma passar rodadas inteiras sem atacar nenhuma vez com o próprio corpo.
 
 Fora de combate a conta some e a invocação vira mão de obra. Ela entra no duto na frente do grupo, fica de vigia a noite inteira na única porta que ninguém quer atravessar, carrega o ferido até a rua, cava o que precisa ser cavado. Uma boa parte do valor de uma invocação nunca aparece numa rolagem de ataque.
 
@@ -70,7 +68,7 @@ A invocação tem atributos, e eles valem nas linhas de fora do dado: a Constitu
 | `−1` de Defesa | **devolve `4` pontos** |
 | `+1` em qualquer linha | **proibido** |
 
-Vender número é a única moeda extra que existe. É por isso que uma invocação de utilidade pura, que quase nunca vai rolar acerto, pode virar duas capacidades a mais. Um corpo montado para farejar, entrar em vão e voltar com a informação paga a própria capacidade com o acerto que ele nunca ia usar.
+Vender número é a única moeda extra que existe: fora do orçamento, não há outro jeito de comprar capacidade.
 
 ### Tipos e vida
 
@@ -89,7 +87,6 @@ Toda invocação é de um dos quatro tipos, e o tipo é o que decide a base da v
 
 *As colunas de nível mostram a conta com a Constituição dela em `0`. Cada ponto de Constituição soma o seu nível inteiro à vida.*
 
-Só a base muda entre os quatro tipos, e o por-nível é igual em todos: a diferença que o tipo faz é a mesma em todo nível, e ela é de dois pontos de vida no máximo.
 
 O tipo também decide o que a mesa vê chegar. Um `talismã` é papel que se desdobra e cresce. Um `corpo amaldiçoado` é carne que já foi de alguém. Uma invocação de `técnica` é feita da sua própria energia, e some do jeito que veio. Uma `maldição domada` é uma coisa que quis te matar antes de aceitar andar do seu lado, e todo mundo na cena sabe disso.
 
@@ -263,7 +260,6 @@ A máquina de cair morrendo do capítulo 1, *Como Jogar*, não vale aqui.
 > **Área causa o dano uma vez, na barra dela**, e não uma vez por corpo.
 > **E a invocação é vulnerável a área: o dano dobra.**
 
-Área continua sendo a jogada certa contra muitos corpos. Um golpe único tiraria um corpo; o mesmo tamanho de dano em área, com o dobro, tira dois.
 
 > **Ela morre em definitivo se o excedente passar de metade da vida máxima, ou se um único golpe causar a vida máxima inteira.**
 > O talismã se desfaz, o corpo se perde, a invocação de técnica ou a maldição domada é exorcizada.

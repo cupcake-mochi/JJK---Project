@@ -460,7 +460,6 @@ Contribuir de verdade quer dizer estar em condição de fazer diferença naquela
 
 > Quando o grupo inteiro precisa passar por alguma coisa (atravessar sem ser notado, aguentar o frio), **metade do grupo passando resolve**.
 
-Assim o personagem de Destreza 1 não arruína sozinho a furtividade de quatro pessoas. Ele ainda tropeça na cena; o grupo é que não paga por isso.
 
 ### Falha
 
@@ -655,7 +654,6 @@ Quem desaba pelo Insistir não levanta com um ponto de cura. Só acorda com uma 
 | **Aguentar** | janela de 3 rodadas, e acorda com 1 de cura | fora da luta desde já, 1 Sequela |
 | **Insistir** | 3 rodadas agindo | 7/8 da vida máxima, 1 Sequela, e só acorda com metade da máxima original |
 
-Nenhuma das duas é sempre a melhor. Com cura sobrando no grupo, Aguentar sai barato. Sem cura, Aguentar só adia o fim e Insistir compra três rodadas de ação. Se você é o último de pé, Insistir. Se o chefe está quase caindo, Insistir compra exatamente as rodadas que faltam.
 
 O custo do Insistir usa o arredondamento de sempre: ele é uma coisa que você paga, então ele sobe.
 
@@ -769,7 +767,6 @@ Doze ações têm regra escrita. Você continua podendo tentar o que não está 
 | **Estudar** | um teste de `Sentir Energia`, `Ocultismo`, `Medicina` ou `História` sobre uma criatura ou objeto que você enxerga |
 | **Usar objeto** | usar um objeto não mágico |
 
-Quatro delas são o turno de quem decidiu não atacar: `Correr` é o turno de quem precisa atravessar o galpão inteiro, `Desengajar` é o turno de quem está encostado no inimigo errado e quer sair sem levar um golpe de graça, `Esquivar` é o turno de quem prefere aguentar mais uma rodada de pé, e `Esconder` é o turno de quem quer sumir antes que a próxima onda entre pela porta. Nenhuma delas causa dano, e todas mudam o que acontece com você na rodada seguinte.
 
 ### Agarrar e Derrubar
 
@@ -1706,10 +1703,7 @@ A Trilha é escolhida agora, junto do Caminho, e nasce com o personagem. São tr
 
 O número **é** o modificador. Não existe valor separado nem tabela de conversão. A escala vai de 0 a 6, e 6 é o topo humano. Uma distribuição legal, por exemplo, é 3 · 2 · 2 · 1 · 1.
 
-**Atributos**
-| | Força | Destreza | Constituição | Inteligência | Essência |
-|---|---|---|---|---|---|
-| **governa** | ataque corpo a corpo, agarrar, quebrar, carregar | ataque à distância, **Defesa**, **iniciativa** | **pontos de vida** | conhecimento, investigação | **perceber energia**, trato social, Pactos |
+O que cada atributo governa está na tabela `Atributos` do capítulo 1, *Como Jogar*.
 
 Inteligência sabe; Essência percebe. Sentir energia amaldiçoada é a sua energia reagindo à de outro.
 
@@ -1847,9 +1841,9 @@ Força 3 · Constituição 2 · Destreza 2 · Inteligência 1 · Essência 1. No
 | CD dos feitiços dela | 8 + 3 + 1 | **12** |
 | Atletismo (treinado) | d20 + 3 + 1 | **d20 + 4** |
 
-## Checklist do mestre
+## Conferência da ficha
 
-Sete perguntas, e todas têm resposta objetiva.
+Sete perguntas, e todas têm resposta objetiva. Você mesmo passa por elas antes de entregar.
 
 1. **Os atributos somam nove, e nenhum passa de 3?**
 2. **O Teste de Resistência Físico está travado** em Força ou Destreza?
@@ -4106,14 +4100,7 @@ Numa Classe 5, aplicar uma `Leve` custa 3 pontos, uma `Média` custa 5 e uma `Pe
 | `Envenenado` | Desvantagem nos seus ataques e em todo teste de perícia. |
 | `Atordoado` | Você perde a Ação Padrão e não usa reação. Quem tem mais de uma Ação Padrão no turno perde só UMA delas, e guarda as demais. |
 
-**`Atordoado` e `Incapacitado` atacam eixos diferentes, e não se empilham.** Um tira ação, o outro tira defesa:
-
-**`Atordoado` e `Incapacitado`**
-| | `Atordoado` | `Incapacitado` |
-|---|---|---|
-| **O que tira** | parte do turno: uma Ação Padrão e a reação | a defesa |
-| **O alvo ainda** | se defende normalmente | age normalmente |
-| **Nível** | `Pesada` | `Leve` |
+**`Atordoado` e `Incapacitado` atacam eixos diferentes, e não se empilham.** Um tira ação e o outro tira defesa, e o capítulo 4, *Dano, Condições e Cobertura*, abre a diferença.
 
 E o `Atordoado` cobra uma Ação Padrão só, e nunca o turno inteiro: quem age mais de uma vez por rodada perde uma das ações e guarda as outras.
 
@@ -4255,7 +4242,6 @@ Nenhuma Restrição do capítulo devolve `Pesada`, e a Própria também não. Du
 
 > **Na dúvida, para que lado errar.**
 > `Efeito Próprio` na dúvida é `Pesada`. `Restrição Própria` na dúvida é `Leve`.
-> Os dois erram para o mesmo lado: o que não infla o feitiço. Uma Melhoria cara e uma Restrição barata custam ao jogador um pouco de orçamento; o contrário custa o balanço da mesa inteira.
 
 As travas valem igual: a Própria precisa ser uma coisa que a mesa consegue apontar acontecendo, não pode cobrar o que a outra Restrição do feitiço já cobra, e não pode repetir o que o seu Selo já obriga. Se ela limita **quando** o feitiço sai, ela conta como Restrição de frequência para a regra abaixo.
 
@@ -4476,7 +4462,7 @@ O Acerto do Megumi *reforça* em vez de *atingir*, e é o que dá para fazer com
 
 ## Regras de ouro
 
-Oito regras seguram o sistema inteiro. Se um feitiço passar por todas, ele é legal, e o checklist do mestre segue exatamente esta lista.
+Oito regras seguram o sistema inteiro. Se um feitiço passar pelas oito, ele é legal.
 
 **Regras de ouro**
 | # | Regra |
@@ -5013,7 +4999,7 @@ Ela muda a forma das lutas longas e muda o que acontece entre elas. Um personage
 
 Quando o soco e a energia chegam no alvo dentro da mesma fração de instante, o espaço em volta do ponto de contato racha. Sai um estalo preto, curto, e o golpe entrega muito mais do que devia entregar. Ninguém acerta um kokusen de propósito: você percebe pelo barulho e pela cara de quem apanhou.
 
-Feiticeiro que acerta um passa a entender a própria energia de um jeito que treino nenhum ensina, e a mesa inteira lembra do dia. É uma aptidão que existe pelo momento em que alguém rola o d100 e todo mundo para de conversar.
+Feiticeiro que acerta um passa a entender a própria energia de um jeito que treino nenhum ensina, e a mesa inteira lembra do dia.
 
 ### Kokusen
 
@@ -5052,7 +5038,6 @@ Você parou de esperar pela sorte e passou a mirar o instante. A janela continua
 | 5 | 10% | 19,0% | 15,0% | 27,8% |
 | 10 | 20% | **36,0%** | 30,0% | **51,0%** |
 
-Ninguém monta ficha em cima de kokusen. Ele acontece com quem já estava batendo forte, e o que ele compra é o grito na mesa.
 
 ## Aptidões anti-domínio
 
@@ -5230,14 +5215,6 @@ Os feitiços que você conhece:
 > **`2 + (nível ÷ 2)`, arredondando para baixo, mais um por marco.**
 
 São três no nível 2 e doze no nível 20. Cada Passiva e cada pedaço de Expansão que você comprar sai desse mesmo bolo — e o espaço que todo marco solta de graça entra nele também.
-
-**Passivas**
-| montagem | nível 14 | nível 20 | nível 26 | nível 30 |
-|---|---|---|---|---|
-| só feitiço | 12 | 16 | 21 | 24 |
-| 3 Passivas de Classe Passiva 2 | 6 | 10 | 15 | 18 |
-| 3 Passivas de Classe Passiva 2 e Expansão completa | 3 | 7 | 12 | 15 |
-| 5 Passivas de Classe Passiva 3 e Expansão completa | 0 | 0 | 3 | 6 |
 
 As Passivas gateiam por nível: Classe Passiva 1 no nível 1, Classe Passiva 2 no 7, Classe Passiva 3 no 13. **A lista de quais Passivas existem em cada altura é uma só, e está no capítulo 9, *Fundamento*.**
 
@@ -5481,20 +5458,11 @@ A vaga em branco do catálogo: a coisa que o seu personagem descobriu que o corp
 
 A régua é a mesma da `Aptidão Própria`, no capítulo 11, e vale inteira: uma frase, verificável, sem dado de dano, com limite por cena se for Classe Passiva 2, e não pode repetir uma das doze do catálogo com outro nome nem entregar uma que o seu gate não alcança.
 
-**Peso e degrau**
-| em quantas cenas por arco | o peso | o degrau |
-|---|---|---|
-| uma | Leve | Classe Passiva 1 |
-| metade | Média | Classe Passiva 2 |
-| quase toda | Pesada | Classe Passiva 3 |
-
 > **Na dúvida, Pesada.** Pesada é Classe Passiva 3, e a Classe Passiva 3 está fora do que a `Bênção Própria` alcança. Então dúvida reprova a proposta.
 
 E existe um requisito a mais deste lado:
 
 > **Uma Bênção gateada em Constituição ou em Força não pode ser bônus, vantagem ou rerrolagem numa perícia.** Ela tem de ser **feito**: sobrevivência, recuperação, ou uma coisa que o corpo passa a poder fazer.
-
-O quadro de perícias do capítulo 3 obriga: Inteligência tem 11 perícias, Essência 7, Destreza 4, Força 1 e Constituição nenhuma.
 
 ---
 
@@ -5661,7 +5629,7 @@ Três delas decidem cena fora de combate com frequência. `Oculta` é a que deix
 
 Restrição é defeito de verdade. Ela aparece na mesma coluna das propriedades.
 
-**Restrições**
+**Restrições de arma**
 | restrição | o que é |
 |---|---|
 | `Volumosa` | Não dá para esconder, e atrapalha em espaço apertado |
@@ -5739,7 +5707,6 @@ O `Yumi` não carrega `Munição`. Flecha existe na ficção, e uma flecha se en
 
 Um Caminho conjurador não pega espadão de graça: ele precisa da Trilha que concede o grupo, como a `Empunhadura` do `Arremate`. O quadro de cada Caminho está no capítulo 8, *Caminhos e Trilhas*.
 
-As duas listas chegam ao mesmo teto de dado, na uma mão e nas duas. O que muda entre elas é o tipo de arma. O lado marcial fica com o alcance, e o simples fica com a ocultação e com o `Par`.
 
 > **Sem treino, você tem desvantagem na rolagem de ataque com aquela arma.**
 >
@@ -5961,7 +5928,7 @@ Ele soma Força, como todo corpo a corpo. E vale como arma para todo efeito de r
 
 O requisito de Força não pega o soco. Ele existe para arma que você levanta, e não tem como alguém não alcançar o próprio punho.
 
-No topo da escada o soco bate mais forte que qualquer arma de uma mão do catálogo, e não faz nada além de bater. A Katana troca dois pontos de dado por `Versátil` e `Fineza`; o Machete troca um por `Rompe`. Quem soca abre mão de alcance, de `Par`, de `Oculta`, de `Talha` e de todo o resto. Em compensação, ninguém desarma um punho, ninguém confisca um punho na portaria, e o seu dano continua o mesmo depois de a sua arma ter ficado presa na parede.
+O soco não tem propriedade nenhuma, então ele abre mão de alcance, de `Par`, de `Oculta` e de todo o resto. Em troca, ninguém desarma um punho e ninguém confisca um punho na portaria: a condição `Desarmado` não alcança quem bate com a mão.
 
 ---
 
@@ -6174,9 +6141,7 @@ Não existe "a primeira do dia é grátis". **Fora de combate, ação não custa
 
 ### Presença em campo
 
-Pôr uma invocação em campo põe um segundo boneco no mapa e um segundo bloco de anotação ao lado da sua ficha. Você descreve o corpo uma vez, no início, e daí em diante ele é presença: entra nas descrições do mestre, atrapalha caminho, ocupa a atenção dos inimigos e assusta o civil que abriu a porta errada. Quem está do outro lado passa a ter duas coisas para resolver, e uma delas anda sozinha.
 
-O seu turno também muda de forma. Antes ele tinha uma pergunta; agora tem duas: onde eu ando, e o que ela faz. Comandar consome a sua Ação Padrão, então a rodada não comporta as duas coisas grandes, e a escolha entre bater você ou mandar ela bater é o miolo de jogar assim. Quem joga bem de Evocador costuma passar rodadas inteiras sem atacar nenhuma vez com o próprio corpo.
 
 Fora de combate a conta some e a invocação vira mão de obra. Ela entra no duto na frente do grupo, fica de vigia a noite inteira na única porta que ninguém quer atravessar, carrega o ferido até a rua, cava o que precisa ser cavado. Uma boa parte do valor de uma invocação nunca aparece numa rolagem de ataque.
 
@@ -6221,7 +6186,7 @@ A invocação tem atributos, e eles valem nas linhas de fora do dado: a Constitu
 | `−1` de Defesa | **devolve `4` pontos** |
 | `+1` em qualquer linha | **proibido** |
 
-Vender número é a única moeda extra que existe. É por isso que uma invocação de utilidade pura, que quase nunca vai rolar acerto, pode virar duas capacidades a mais. Um corpo montado para farejar, entrar em vão e voltar com a informação paga a própria capacidade com o acerto que ele nunca ia usar.
+Vender número é a única moeda extra que existe: fora do orçamento, não há outro jeito de comprar capacidade.
 
 ### Tipos e vida
 
@@ -6238,7 +6203,6 @@ Toda invocação é de um dos quatro tipos, e o tipo é o que decide a base da v
 
 *As colunas de nível mostram a conta com a Constituição dela em `0`. Cada ponto de Constituição soma o seu nível inteiro à vida.*
 
-Só a base muda entre os quatro tipos, e o por-nível é igual em todos: a diferença que o tipo faz é a mesma em todo nível, e ela é de dois pontos de vida no máximo.
 
 O tipo também decide o que a mesa vê chegar. Um `talismã` é papel que se desdobra e cresce. Um `corpo amaldiçoado` é carne que já foi de alguém. Uma invocação de `técnica` é feita da sua própria energia, e some do jeito que veio. Uma `maldição domada` é uma coisa que quis te matar antes de aceitar andar do seu lado, e todo mundo na cena sabe disso.
 
@@ -6396,7 +6360,6 @@ A máquina de cair morrendo do capítulo 1, *Como Jogar*, não vale aqui.
 > **Área causa o dano uma vez, na barra dela**, e não uma vez por corpo.
 > **E a invocação é vulnerável a área: o dano dobra.**
 
-Área continua sendo a jogada certa contra muitos corpos. Um golpe único tiraria um corpo; o mesmo tamanho de dano em área, com o dobro, tira dois.
 
 > **Ela morre em definitivo se o excedente passar de metade da vida máxima, ou se um único golpe causar a vida máxima inteira.**
 > O talismã se desfaz, o corpo se perde, a invocação de técnica ou a maldição domada é exorcizada.
@@ -6671,7 +6634,6 @@ O especialista bate no teto no **nível 22**, e é aí que a escolha de Refino t
 
 Um marco sim, um não, começando pelo segundo.
 
-A maestria vai de 1 no nível 2 a 4 no nível 30, e o seu atributo principal vai de 3 na criação a 6 no teto.
 
 ### Teto de Passivas
 

@@ -74,7 +74,6 @@ Doze ações têm regra escrita. Você continua podendo tentar o que não está 
 | **Estudar** | um teste de `Sentir Energia`, `Ocultismo`, `Medicina` ou `História` sobre uma criatura ou objeto que você enxerga |
 | **Usar objeto** | usar um objeto não mágico |
 
-Quatro delas são o turno de quem decidiu não atacar: `Correr` é o turno de quem precisa atravessar o galpão inteiro, `Desengajar` é o turno de quem está encostado no inimigo errado e quer sair sem levar um golpe de graça, `Esquivar` é o turno de quem prefere aguentar mais uma rodada de pé, e `Esconder` é o turno de quem quer sumir antes que a próxima onda entre pela porta. Nenhuma delas causa dano, e todas mudam o que acontece com você na rodada seguinte.
 
 ### Agarrar e Derrubar
 

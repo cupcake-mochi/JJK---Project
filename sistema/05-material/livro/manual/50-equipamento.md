@@ -172,7 +172,7 @@ Três delas decidem cena fora de combate com frequência. `Oculta` é a que deix
 
 Restrição é defeito de verdade. Ela aparece na mesma coluna das propriedades.
 
-**Restrições**
+**Restrições de arma**
 {: .tab-titulo }
 
 | restrição | o que é |
@@ -260,7 +260,6 @@ O `Yumi` não carrega `Munição`. Flecha existe na ficção, e uma flecha se en
 
 Um Caminho conjurador não pega espadão de graça: ele precisa da Trilha que concede o grupo, como a `Empunhadura` do `Arremate`. O quadro de cada Caminho está no capítulo 8, *Caminhos e Trilhas*.
 
-As duas listas chegam ao mesmo teto de dado, na uma mão e nas duas. O que muda entre elas é o tipo de arma. O lado marcial fica com o alcance, e o simples fica com a ocultação e com o `Par`.
 
 > **Sem treino, você tem desvantagem na rolagem de ataque com aquela arma.**
 >
@@ -486,4 +485,4 @@ Ele soma Força, como todo corpo a corpo. E vale como arma para todo efeito de r
 
 O requisito de Força não pega o soco. Ele existe para arma que você levanta, e não tem como alguém não alcançar o próprio punho.
 
-No topo da escada o soco bate mais forte que qualquer arma de uma mão do catálogo, e não faz nada além de bater. A Katana troca dois pontos de dado por `Versátil` e `Fineza`; o Machete troca um por `Rompe`. Quem soca abre mão de alcance, de `Par`, de `Oculta`, de `Talha` e de todo o resto. Em compensação, ninguém desarma um punho, ninguém confisca um punho na portaria, e o seu dano continua o mesmo depois de a sua arma ter ficado presa na parede.
+O soco não tem propriedade nenhuma, então ele abre mão de alcance, de `Par`, de `Oculta` e de todo o resto. Em troca, ninguém desarma um punho e ninguém confisca um punho na portaria: a condição `Desarmado` não alcança quem bate com a mão.

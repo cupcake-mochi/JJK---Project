@@ -231,19 +231,9 @@ A vaga em branco do catálogo: a coisa que o seu personagem descobriu que o corp
 
 A régua é a mesma da `Aptidão Própria`, no capítulo 11, e vale inteira: uma frase, verificável, sem dado de dano, com limite por cena se for Classe Passiva 2, e não pode repetir uma das doze do catálogo com outro nome nem entregar uma que o seu gate não alcança.
 
-**Peso e degrau**
-{: .tab-titulo }
-
-| em quantas cenas por arco | o peso | o degrau |
-|---|---|---|
-| uma | Leve | Classe Passiva 1 |
-| metade | Média | Classe Passiva 2 |
-| quase toda | Pesada | Classe Passiva 3 |
-
 > **Na dúvida, Pesada.** Pesada é Classe Passiva 3, e a Classe Passiva 3 está fora do que a `Bênção Própria` alcança. Então dúvida reprova a proposta.
 
 E existe um requisito a mais deste lado:
 
 > **Uma Bênção gateada em Constituição ou em Força não pode ser bônus, vantagem ou rerrolagem numa perícia.** Ela tem de ser **feito**: sobrevivência, recuperação, ou uma coisa que o corpo passa a poder fazer.
 
-O quadro de perícias do capítulo 3 obriga: Inteligência tem 11 perícias, Essência 7, Destreza 4, Força 1 e Constituição nenhuma.

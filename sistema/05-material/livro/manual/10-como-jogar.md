@@ -54,7 +54,6 @@ Contribuir de verdade quer dizer estar em condição de fazer diferença naquela
 
 > Quando o grupo inteiro precisa passar por alguma coisa (atravessar sem ser notado, aguentar o frio), **metade do grupo passando resolve**.
 
-Assim o personagem de Destreza 1 não arruína sozinho a furtividade de quatro pessoas. Ele ainda tropeça na cena; o grupo é que não paga por isso.
 
 ### Falha
 
@@ -264,7 +263,6 @@ Quem desaba pelo Insistir não levanta com um ponto de cura. Só acorda com uma 
 | **Aguentar** | janela de 3 rodadas, e acorda com 1 de cura | fora da luta desde já, 1 Sequela |
 | **Insistir** | 3 rodadas agindo | 7/8 da vida máxima, 1 Sequela, e só acorda com metade da máxima original |
 
-Nenhuma das duas é sempre a melhor. Com cura sobrando no grupo, Aguentar sai barato. Sem cura, Aguentar só adia o fim e Insistir compra três rodadas de ação. Se você é o último de pé, Insistir. Se o chefe está quase caindo, Insistir compra exatamente as rodadas que faltam.
 
 O custo do Insistir usa o arredondamento de sempre: ele é uma coisa que você paga, então ele sobe.
 

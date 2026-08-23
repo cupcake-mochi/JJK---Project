@@ -747,16 +747,7 @@ Numa Classe 5, aplicar uma `Leve` custa 3 pontos, uma `Média` custa 5 e uma `Pe
 | `Envenenado` | Desvantagem nos seus ataques e em todo teste de perícia. |
 | `Atordoado` | Você perde a Ação Padrão e não usa reação. Quem tem mais de uma Ação Padrão no turno perde só UMA delas, e guarda as demais. |
 
-**`Atordoado` e `Incapacitado` atacam eixos diferentes, e não se empilham.** Um tira ação, o outro tira defesa:
-
-**`Atordoado` e `Incapacitado`**
-{: .tab-titulo }
-
-| | `Atordoado` | `Incapacitado` |
-|---|---|---|
-| **O que tira** | parte do turno: uma Ação Padrão e a reação | a defesa |
-| **O alvo ainda** | se defende normalmente | age normalmente |
-| **Nível** | `Pesada` | `Leve` |
+**`Atordoado` e `Incapacitado` atacam eixos diferentes, e não se empilham.** Um tira ação e o outro tira defesa, e o capítulo 4, *Dano, Condições e Cobertura*, abre a diferença.
 
 E o `Atordoado` cobra uma Ação Padrão só, e nunca o turno inteiro: quem age mais de uma vez por rodada perde uma das ações e guarda as outras.
 
@@ -914,7 +905,6 @@ Nenhuma Restrição do capítulo devolve `Pesada`, e a Própria também não. Du
 
 > **Na dúvida, para que lado errar.**
 > `Efeito Próprio` na dúvida é `Pesada`. `Restrição Própria` na dúvida é `Leve`.
-> Os dois erram para o mesmo lado: o que não infla o feitiço. Uma Melhoria cara e uma Restrição barata custam ao jogador um pouco de orçamento; o contrário custa o balanço da mesa inteira.
 
 As travas valem igual: a Própria precisa ser uma coisa que a mesa consegue apontar acontecendo, não pode cobrar o que a outra Restrição do feitiço já cobra, e não pode repetir o que o seu Selo já obriga. Se ela limita **quando** o feitiço sai, ela conta como Restrição de frequência para a regra abaixo.
 
@@ -1147,7 +1137,7 @@ O Acerto do Megumi *reforça* em vez de *atingir*, e é o que dá para fazer com
 
 ## Regras de ouro
 
-Oito regras seguram o sistema inteiro. Se um feitiço passar por todas, ele é legal, e o checklist do mestre segue exatamente esta lista.
+Oito regras seguram o sistema inteiro. Se um feitiço passar pelas oito, ele é legal.
 
 **Regras de ouro**
 {: .tab-titulo }
