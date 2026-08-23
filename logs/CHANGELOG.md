@@ -12,7 +12,7 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 **A passada de texto que era leitura e não varredura, e as duas listas de perícia que fechavam a Restrição Celestial.**
 
-*Os 20 arquivos do livro lidos inteiros, com os olhos. As três frases que o Mizuki achou no PDF publicado eram amostra de três famílias, e as três famílias apareceram em **15 dos 20 capítulos**.* **O livro foi de `79.711` para `78.176` palavras, em duas passadas.**
+*Os 20 arquivos do livro lidos inteiros, com os olhos. As três frases que o Mizuki achou no PDF publicado eram amostra de três famílias, e as três famílias apareceram em **15 dos 20 capítulos**.* **O livro foi de `79.711` para `76.870` palavras, em três passadas — `3,6%`.**
 
 ### As três que ele nomeou, e o conserto de cada uma
 
@@ -120,6 +120,46 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 | conteúdo sem utilidade? | os `295` parágrafos sem termo mecânico são descrição de Origem, de Caminho e de condição — ficção do mundo, que a régua manda ficar |
 | informação que vale mais pro mestre? | **1 achado**, o título acima. As outras `81` menções a *"o mestre"* são **quem arbitra**, que é regra que o jogador precisa saber |
 
+### Terceira passada — a releitura, e a régua veio dos três manuais
+
+***Ele perguntou se eu tinha lido o documento todo. Metade: a primeira passada foi leitura, a segunda foi anotação mais script.*** *Esta é a releitura, e ela começou medindo os manuais do hobby em vez de opinar.*
+
+**Seis marcas de escrita, contadas nos quatro e no nosso.** *Duas saltaram:*
+
+| marca | PHB 2024 | Tasha | Guia 5e | GURPS | **nosso, antes** |
+|---|---|---|---|---|---|
+| equação *"X é o Y"*, por mil frases | `0,2` | `0,3` | `0,6` | `0,4` | **`7,1`** |
+| abertura de classe, ou de Caminho | chamada + **`0`** parágrafos | — | — | — | chamada + **`4`** |
+| abertura de subclasse, ou de Trilha | chamada + **`1`** parágrafo | — | — | — | chamada + **`2`** |
+
+> **⚠ A primeira medida da equação deu `38,6` e estava enviesada.** *O regex pegava a forma com artigo definido e não pegava a com artigo indefinido, que é como o PHB escreve definição — "Uma subclasse é uma especialização que…".* **Refeito simétrico nos cinco corpora, com o mesmo separador de frase: `7,1` contra `0,2` a `0,6`.** *Nono caso do mesmo erro neste projeto, e o primeiro pego antes de virar decisão.*
+
+### Reescrito — os 17 blocos de Caminho e de Trilha, no molde medido
+
+**O PHB abre uma classe com uma chamada de uma linha e cai na regra.** *A prosa de ficção só existe na subclasse, e é um parágrafo: "Bárbaros que seguem a Trilha do Berserker direcionam sua Fúria principalmente para a violência…"* **Nunca "A Trilha do Berserker é o bárbaro que…".**
+
+**Os cinco Caminhos foram de quatro parágrafos para um, e as doze Trilhas de dois para um.** *Saíram a ficção institucional — "a instituição escala Bastião para missão com gente para tirar do meio" —, a descrição do turno, e a linha de atributos, que a tabela logo abaixo já publica.* **`1.218` palavras num capítulo só.**
+
+*E com elas saíram as sete equações de caracterização:* **"a `Brasa` é o Bastião que não largou a técnica"**, "o `Punho` é o Bastião de mão limpa", "a `Torrente` é o Emanador que gasta", "o `Explosivo` é o Emanador que espera", "o `Perímetro` é o Guia que trabalha o chão", e as duas definições repetidas de Caminho.
+
+> **A decisão não foi copiar.** *O PHB vai a zero parágrafo na classe porque tem arte e um capítulo de lore ao lado.* **Aqui o Caminho carrega identidade, então ele fica com um** — o mesmo que o PHB dá à subclasse. *A régua da casa manda medir e não imitar, e a diferença entre `0` e `1` é onde isso fica registrado.*
+
+### Removido — uma coluna inteira de metáfora dentro de uma tabela
+
+**A coluna `a troca` da tabela `Vida e PE por Caminho`:** *"menos combustível, mais couro"*, *"meio a meio"*, *"combustível cheio, canhão de vidro"*. **Os números da mesma linha já dizem exatamente isso.** *Achada varrendo as `205` tabelas atrás de coluna sem nenhum termo mecânico dentro — e ela foi a única das `52` candidatas que era só sabor.*
+
+### ⚠⚠ E um superlativo que era FALSO
+
+***"A `Fornalha` é a única coisa do sistema que põe golpe e feitiço no mesmo turno desse jeito."*** **O `Ferrão`, nível 27 da `Estocada`, faz a mesma coisa** — o primeiro golpe da ação bônus carrega um Classe 0 junto. *A frase se salvava pelo "desse jeito", que é hedge e não regra.* **Cortada.**
+
+*Mais cinco caracterizações reescritas:* "a `Descarga` é a entrega que decide emboscada" · "o `Rompante` é a entrega que decide chefe" · "a Forma é o corpo do feitiço" · "a `Restrição Própria` é o espelho do `Efeito Próprio`" · "a Reação é a versão concentrada disso".
+
+**Das `23` equações que sobraram no livro, `17` são definição ou regra** — a mesma forma que o PHB usa nas duas vezes em que usa. *O que saiu foi caracterização.*
+
+### Costura conferida
+
+*Cortar parágrafo deixa o vizinho pendurado, e isso a primeira passada não tinha checado.* **Varredura por parágrafo que abre em anafórico — "E", "Ela", "Isso", "Em troca", "Em compensação" — com o vizinho de cima alterado: `0` órfãos.**
+
 ### O que NÃO saiu
 
 **Nenhuma regra e nenhum número de regra.** *O `guard_numeros.py` rodou nos dezessete arquivos mexidos, e cada diferença foi lida contra a linha que a carregava — e conferida por uma segunda medida, que conta só as linhas do `diff`.* **As duas medidas bateram nos dezessete, e cada número que sumiu foi conferido de pé em outro capítulo — 30 provas de dono, todas passando.**
@@ -130,13 +170,14 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 | | v0.128 | v0.129 |
 |---|---|---|
-| palavras do livro | 79.711 | **78.176** |
-| capítulos mexidos | — | **17 de 20** |
-| coluna única | 251 páginas | **250** |
-| duas colunas | 143 páginas | **142** |
+| palavras do livro | 79.711 | **76.870** |
+| capítulos mexidos | — | **18 de 20** |
+| coluna única | 251 páginas | **248** |
+| duas colunas | 143 páginas | **141** |
 | tabelas | 209 | **205** |
-| `conferir-voz --estrito` | 0 achados · 16 triagens | **0 achados · 16 triagens** |
-| termos com destino | 91 de 91 | **93 de 93** |
+| equação *"X é o Y"* por mil frases | 7,1 | **5,0** — PHB: 0,2 |
+| `conferir-voz --estrito` | 0 achados · 16 triagens | **0 achados · 15 triagens** |
+| termos com destino | 91 de 91 | **89 de 89** |
 
 → **Continua em** `sistema/ESTADO-ATUAL.md`. **A decisão de qual das três diagramações fica continua aberta**, e ela vira uma linha do `build.py`. *A fila de mecânica não mudou: as três Trilhas do Evocador.*
 

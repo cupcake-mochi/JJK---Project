@@ -460,7 +460,6 @@ Contribuir de verdade quer dizer estar em condição de fazer diferença naquela
 
 > Quando o grupo inteiro precisa passar por alguma coisa (atravessar sem ser notado, aguentar o frio), **metade do grupo passando resolve**.
 
-
 ### Falha
 
 Toda falha empurra a cena para algum lugar. O mestre pediu a rolagem porque o resultado importava, então o dado ruim tem que mudar a situação tanto quanto o dado bom mudaria. Uma falha entrega uma destas três coisas:
@@ -499,7 +498,7 @@ Inteligência não concede perícias extras. O que você é treinado vem da Orig
 |---|---|---|---|---|
 | maestria | 1 | 2 | 3 | 4 |
 
-Maestria é o bônus que mede o tempo de estrada do personagem. Ela entra em toda rolagem de ataque, na CD dos seus feitiços, e no que você treinou: perícia, ofício e Teste de Resistência. Por exemplo, no nível 6 a sua maestria é 1, e no nível 10 ela vira 2. Ela fica fora da Defesa, que é o único número que o sistema deixa crescer só por atributo e equipamento.
+Maestria é o bônus que mede o tempo de estrada do personagem. Ela entra em toda rolagem de ataque, na CD dos seus feitiços, e no que você treinou: perícia, ofício e Teste de Resistência. Por exemplo, no nível 6 a sua maestria é 1, e no nível 10 ela vira 2. Ela fica fora da Defesa.
 
 A ficha começa no **nível 2**, já com um feitiço. O nível 1 fica como opção de campanha, para quando a mesa quiser jogar o personagem de antes de ele ser feiticeiro.
 
@@ -582,13 +581,13 @@ Três reservas, e cada uma tem uma conta diferente. Vida é o corpo, energia é 
 > **Em cada nível depois, você recebe a vida por nível do seu Caminho, mais a sua Constituição de novo.**
 
 **Vida e PE por Caminho**
-| Caminho | dado | vida no nível 1 | por nível | PE por nível | a troca |
-|---|---|---|---|---|---|
-| **Bastião** | d12 | 12 | 7 | 4 | menos combustível, mais couro |
-| **Vanguarda** | d8 | 8 | 5 | 5 | meio a meio |
-| **Guia** | d8 | 8 | 5 | 5 | meio a meio |
-| **Evocador** | d6 | 6 | 4 | 6 | combustível cheio, e corpos na frente |
-| **Emanador** | d6 | 6 | 4 | 6 | combustível cheio, canhão de vidro |
+| Caminho | dado | vida no nível 1 | por nível | PE por nível |
+|---|---|---|---|---|
+| **Bastião** | d12 | 12 | 7 | 4 |
+| **Vanguarda** | d8 | 8 | 5 | 5 |
+| **Guia** | d8 | 8 | 5 | 5 |
+| **Evocador** | d6 | 6 | 4 | 6 |
+| **Emanador** | d6 | 6 | 4 | 6 |
 
 > **Exemplo.** Mei é Vanguarda, Constituição 3, nível 4. Nível 1: 8 + 3 = 11. Cada um dos três níveis seguintes: 5 + 3 = 8. Total: 11 + 24 = **35 de vida**.
 
@@ -654,7 +653,6 @@ Quem desaba pelo Insistir não levanta com um ponto de cura. Só acorda com uma 
 | **Aguentar** | janela de 3 rodadas, e acorda com 1 de cura | fora da luta desde já, 1 Sequela |
 | **Insistir** | 3 rodadas agindo | 7/8 da vida máxima, 1 Sequela, e só acorda com metade da máxima original |
 
-
 O custo do Insistir usa o arredondamento de sempre: ele é uma coisa que você paga, então ele sobe.
 
 > **Exemplo.** Kaito tem 80 de vida máxima e chega a 0 com o chefe quase morto. Ele escolhe Insistir. Na primeira rodada paga 10 (1/8 de 80), na segunda 20, na terceira 40. Se o chefe não cair até lá, Kaito desaba na quarta.
@@ -667,7 +665,7 @@ O custo do Insistir usa o arredondamento de sempre: ele é uma coisa que você p
 >
 > Sequela some no descanso longo. Vida máxima e Integridade voltam junto, como sempre.
 
-Sequela deixa as suas rolagens exatamente como estavam. Você levanta tão competente quanto era, e o que encurtou foi a próxima queda: onde antes havia três rodadas de janela, agora há duas.
+Sequela deixa as suas rolagens exatamente como estavam. O que encurta é a próxima queda: onde antes havia três rodadas de janela, agora há duas.
 
 ### Inconsciente
 
@@ -2847,12 +2845,6 @@ E duas coisas que quase todo degrau daqui menciona:
 
 O Bastião entra primeiro na sala e sai por último. Em campo ele é o corpo que a maldição enxerga: fica na porta, fica na frente do civil, fica entre o time e a coisa. Quem escolhe esse Caminho costuma ser gente que descobriu cedo que aguenta mais pancada que os outros e resolveu fazer disso um trabalho, com ou sem técnica boa para acompanhar.
 
-A instituição escala Bastião para missão com gente para tirar do meio: prédio com morador dentro, escola, hospital, qualquer lugar onde o civil é a parte difícil do serviço. Também é o Caminho que os instrutores mandam junto de aluno novo, porque ele é a única garantia real de que o aluno volta.
-
-Numa luta, o turno do Bastião decide onde a briga acontece e quem apanha nela. Ele fecha corredor, chama ataque para si, agarra o que ia embora. O dano dele é honesto e nunca é o motivo de ele estar ali.
-
-Atributos naturais: **Força** e **Constituição**. É o único Caminho com 7 de vida por nível, e paga isso com o bolso de PE mais apertado dos cinco: o Bastião conjura pouco, e cada feitiço dele pesa na conta do dia.
-
 ### Características do Bastião
 
 **Características do Bastião**
@@ -2888,9 +2880,7 @@ Atributos naturais: **Força** e **Constituição**. É o único Caminho com 7 d
 
 *O espaço em volta de você deixa de ser do inimigo.*
 
-A fantasia do `Muro` é a do feiticeiro que planta os dois pés e vira geografia. Ele escolhe um corredor, uma porta, uma linha no chão, e dali em diante o combate acontece nos termos dele.
-
-Jogando de `Muro`, você chega na cena procurando o ponto certo de parar de andar. Das três Trilhas do Bastião, essa é a que menos rola dado de ataque: o seu turno rende quando o inimigo desiste de ir aonde queria ir. Em troca, você é a ficha mais difícil de derrubar da mesa inteira, e a única que faz o inimigo pagar pedágio só por estar perto.
+Quem joga de `Muro` planta os dois pés e vira geografia: escolhe um corredor, uma porta, uma linha no chão, e dali em diante o combate acontece nos termos dele. Você chega na cena procurando o ponto certo de parar de andar, e o seu turno rende quando o inimigo desiste de ir aonde queria ir.
 
 > **Nível 2: `Alicerce`.** *Ação bônus.* Você se firma no lugar. **Enquanto o `Alicerce` estiver de pé, o dano de dois tipos à sua escolha cai pela metade contra você, e o seu deslocamento é metade do normal.**
 > **Sair dele não custa nada**, e **os tipos se escolhem no fim de cada descanso longo**.
@@ -2909,9 +2899,7 @@ Jogando de `Muro`, você chega na cena procurando o ponto certo de parar de anda
 
 *Você bate mais vezes, e cada vez que bate alguém sai do lugar.*
 
-O `Punho` é o Bastião de mão limpa: sem arma no meio, socando até a formação do inimigo desmanchar. O molde é o brigão de rua que entrou para a instituição já sabendo apanhar, e que aprendeu técnica depois, meio de má vontade.
-
-Onde o `Muro` segura o inimigo no lugar, o `Punho` arruma o campo empurrando. Jogando assim, você olha o mapa antes de olhar a vida do alvo, porque o que decide a rodada é para onde a pessoa voa. É a Trilha que abre linha de tiro para o resto do time e que separa o inimigo grande do bando dele.
+Quem joga de `Punho` briga sem arma no meio, socando até a formação do inimigo desmanchar. O molde é o brigão de rua que entrou para a instituição já sabendo apanhar e aprendeu técnica depois, meio de má vontade. Na mesa você olha o mapa antes de olhar a vida do alvo, porque o que decide a rodada é para onde a pessoa voa.
 
 > **Nível 2: `Engate`.** Quando você **acerta** um ataque na sua ação de atacar, você pode dar um golpe desarmado como **ação bônus**.
 >
@@ -2927,9 +2915,7 @@ Onde o `Muro` segura o inimigo no lugar, o `Punho` arruma o campo empurrando. Jo
 
 *O feitiço entra no meio dos socos.*
 
-A `Brasa` é o Bastião que não largou a técnica. O molde é o feiticeiro que abre no braço e fecha com energia: o soco é como ele chega, e o Classe 0 é o que ele faz depois de ter chegado.
-
-O que a `Brasa` acrescenta ao Bastião é alcance. Ela pega alvo que está fora do braço, aplica tipo de dano que soco nenhum aplica, e devolve um pouco de energia quando acerta, o que importa muito num Caminho com 4 de PE por nível. Se você escolheu o Bastião e ainda quer usar o Fundamento que montou, essa é a Trilha.
+Quem joga de `Brasa` abre no braço e fecha com energia: o soco é como você chega, e o Classe 0 é o que você faz depois de ter chegado. O que a Trilha acrescenta ao Bastião é alcance — ela pega alvo que está fora do braço, aplica tipo de dano que soco nenhum aplica, e devolve energia quando acerta.
 
 > **Nível 2: `Fagulha`.** Se você usou a ação de atacar neste turno, você pode lançar um feitiço de **Classe 0** como **ação bônus**. **E se algum dos seus socos acertou, esse feitiço é rolado com vantagem**, quando ele for um ataque.
 >
@@ -2940,19 +2926,12 @@ O que a `Brasa` acrescenta ao Bastião é alcance. Ela pega alvo que está fora 
 >
 > **Nível 27: `Fornalha`.** *Ação bônus para entrar. Dura até o fim da cena.* **Cada ataque seu carrega um feitiço de Classe 0 junto, e cada ataque tem de ser num alvo diferente.** E a sua **ação bônus deixa de lançar feitiço e vira um soco a mais**, num terceiro alvo. **São três socos, três alvos, três Classe 0.**
 
-*A `Fornalha` é a única coisa do sistema que põe golpe e feitiço no mesmo turno desse jeito.*
 
 ## Vanguarda
 
 *A arma é a resposta: alcançar, cortar, acabar.*
 
 A Vanguarda encosta a lâmina onde ela precisa encostar, e chega lá antes do resto. Em campo ela é quem entra no alcance do inimigo e fica lá: corta, reposiciona, corta de novo. Ela treinou arma como quem treina técnica — anos numa categoria só, com professor, com forma, com linhagem —, e a energia amaldiçoada dela existe e é usada, só que ela não é o motivo de a Vanguarda estar na sala.
-
-Quem escolhe Vanguarda costuma vir de clã com tradição marcial, de aluno que se deu bem no treino físico, ou de feiticeiro com técnica pequena que decidiu compensar pelo outro lado. A instituição escala Vanguarda quando a missão é acabar com alguma coisa em pouco tempo: exorcismo rápido, alvo único, extração de gente presa em prédio.
-
-Numa luta, o turno da Vanguarda é o mais direto dos cinco. Ela chega e bate, todo turno, e o que muda de personagem para personagem é **como** ela chega. É exatamente isso que as três Trilhas resolvem.
-
-Atributos naturais: **Destreza** e **Força**. A Vanguarda alterna feitiço de Toque e golpe simples ao longo da luta.
 
 ### Características da Vanguarda
 
@@ -3016,9 +2995,7 @@ Na mesa, é a Manha que dá identidade à sua ficha. Você vira a pessoa do mach
 
 *A arma faz o que a luta pedir, e o que ela pede muda toda rodada.*
 
-O molde é o lutador que troca de ferramenta mais rápido do que o inimigo troca de plano: espada na mão e técnica saindo por cima, na mesma rodada. É o feiticeiro que os instrutores usam de exemplo em demonstração, porque a ficha dele mostra o sistema inteiro funcionando junto.
-
-Jogando de `Estocada`, você tem a rodada mais cheia da Vanguarda e a decisão mais pesada da mesa: qual feitiço vale gastar a ação padrão, sabendo que o golpe da bônus depende do que ele fez. Você passa a luta lendo o inimigo para escolher entre condição e dano.
+O molde é o lutador que troca de ferramenta mais rápido do que o inimigo troca de plano: espada na mão e técnica saindo por cima, na mesma rodada. Jogando de `Estocada`, a decisão de cada turno é qual feitiço vale gastar a ação padrão, sabendo que o golpe da bônus depende do que ele fez.
 
 > **Nível 2: `Compasso`.** Você usa a ação **Conjurar** na ação padrão e dá um **golpe com arma do grupo escolhido** como ação bônus.
 > **E naquele grupo de armas, o acerto e o dano usam Essência ou Inteligência** no lugar de Força ou Destreza. **O requisito de Força para empunhar continua valendo.**
@@ -3037,9 +3014,7 @@ Jogando de `Estocada`, você tem a rodada mais cheia da Vanguarda e a decisão m
 
 *A luta acontece onde você decide, e você decide longe.*
 
-O `Batedor` trata distância como arma. Ele sobe, ele se afasta, ele escolhe o ângulo, e quando o inimigo finalmente chega perto a briga já está decidida há três rodadas. Quem joga assim passa a cena inteira pensando em linha de visão e rota de subida, e costuma ser o membro do time que enxerga o campo antes de todo mundo.
-
-É também a Trilha de Vanguarda que mais rende fora de combate. Vigilância de alvo, cobertura de quem entrou no prédio, o tiro que resolve a cena sem ninguém precisar atravessar a porta: a instituição manda `Batedor` quando quer informação antes de violência.
+Quem joga de `Batedor` trata distância como arma: sobe, se afasta, escolhe o ângulo, e quando o inimigo chega perto a briga já está decidida há três rodadas. Você passa a cena pensando em linha de visão e rota de subida, dentro e fora de combate — vigilância de alvo, cobertura de quem entrou no prédio, o tiro que resolve a cena sem ninguém precisar atravessar a porta.
 
 **A rota se escolhe no nível 2 e vale a campanha inteira.** As três resolvem o mesmo problema (onde a luta acontece) por portas diferentes: o `Yumi` atira de onde ninguém alcança, a `Arma de Fogo` atira de dentro do aperto, e a `Besta` empurra o inimigo para fora do problema.
 
@@ -3090,15 +3065,13 @@ Pólvora, ruído e uma profissão que finge não usar isso. É a rota que funcio
 >
 > **Nível 27: `Dobro`.** O `Mirar` passa a valer para o **ataque básico e o extra**.
 
-*A `Descarga` é a entrega que decide emboscada. Se o grupo abre a porta e encontra a sala cheia, ela é a diferença entre começar a luta atrás e começar com metade da sala já ferida.*
+*A `Descarga` abre a luta com um tiro por bala carregada, cada um num alvo. Se o grupo abre a porta e encontra a sala cheia, ela é a diferença entre começar a luta atrás e começar com metade da sala já ferida.*
 
 ### Trilha: Executor
 
 *Você mata o que ninguém consegue matar.*
 
-O molde é o profissional sem técnica grande e sem gritaria: uma lâmina, um alvo, e a paciência de trocar golpe até acabar. É o feiticeiro que a instituição chama quando o problema é um só e é grande demais, e que costuma chegar na cena depois de outro time ter voltado sem resultado.
-
-Enquanto o `Batedor` administra o campo e a `Estocada` administra a rodada, o `Executor` administra uma coisa só: ficar de pé mais tempo do que a coisa na frente dele. Jogar assim é aceitar um turno simples e uma ficha teimosa: você bate, apanha, repõe casca e bate de novo, e o inimigo acaba antes de você.
+O molde é o profissional sem técnica grande e sem gritaria: uma lâmina, um alvo, e a paciência de trocar golpe até acabar. Jogar assim é aceitar um turno simples e uma ficha teimosa — você bate, apanha, repõe casca e bate de novo, e o inimigo acaba antes de você.
 
 > **Nível 2: `Pegada`.** Você escolhe um **estilo de luta**, e ele vale a campanha inteira. *Cada estilo pede um jeito diferente de segurar a arma, e é isso que impede um de ser a versão melhor do outro.*
 >
@@ -3130,12 +3103,6 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 13, 
 *O outro é a resposta: estender, recuperar, reposicionar.*
 
 O Guia faz o efeito de outra pessoa durar mais, pegar mais gente ou chegar mais longe. Ele passa a luta olhando para os aliados: quem está prestes a falhar um teste, quem está no lugar errado, quem cai na próxima rodada. Quando ele age, o resultado aparece na ficha de outra pessoa.
-
-Quem escolhe Guia costuma ter cabeça de coordenação. Veterano que virou instrutor, médico de campo, o irmão mais velho do grupo, o feiticeiro que sabe o nome de todo mundo do turno. A instituição valoriza Guia e tem poucos, porque time com Guia volta com menos baixa, e isso aparece no relatório de missão antes de aparecer em qualquer outro lugar.
-
-Numa luta, o turno do Guia é o mais nervoso da mesa, porque quase tudo que ele faz responde a uma rolagem que acabou de sair. Ele é o Caminho que exige prestar atenção no dado dos outros.
-
-Atributo natural: **Essência**.
 
 ### Características do Guia
 
@@ -3174,9 +3141,7 @@ Atributo natural: **Essência**.
 
 *O que outra pessoa fez chega mais longe, dura mais e pega mais gente do que ela conseguiria sozinha.*
 
-O molde é quem amplifica. A ficha do `Elo` quase não causa dano, e mesmo assim é a razão de o dano dos outros sair. A fantasia é a da parceria declarada: você escolhe uma pessoa, e enquanto o elo estiver de pé vocês dois jogam melhor do que jogariam separados.
-
-Jogando de `Elo`, a sua decisão de cada cena é em quem você está pendurado agora. Onde a `Sutura` conserta o que já aconteceu, o `Elo` faz o que está para acontecer sair maior, e isso muda a conversa da mesa antes da luta começar: o grupo passa a perguntar quem vai receber o elo hoje.
+O molde é quem amplifica: você escolhe uma pessoa, e enquanto o elo estiver de pé o que ela faz chega mais longe. A ficha do `Elo` quase não causa dano, e a sua decisão de cada cena é em quem você está pendurado agora.
 
 > **Nível 2: `Nó`.** **Ação Bônus.** Escolha um aliado **que você enxerga**: vocês dois formam um **elo**. Ao formar, escolha **ataques de arma** ou **ataques de feitiço**, enquanto o elo durar, **os dois membros ganham `+1` de acerto** naquele tipo de ataque.
 > **O elo dura até você formar outro**, e **não se quebra por distância**.
@@ -3195,9 +3160,7 @@ Jogando de `Elo`, a sua decisão de cada cena é em quem você está pendurado a
 
 *O dano que já aconteceu não é definitivo enquanto você estiver na sala.*
 
-`Energia Reversa` é a aptidão que todo feiticeiro quer e quase ninguém alcança: ela pede nível e pede refino, e a maioria das fichas chega nela tarde ou nunca chega. A `Sutura` fura essa fila. O que a Trilha vende é chegar cedo numa coisa que o resto da ficha só alcança tarde, e curar os outros, que é mais raro ainda do que curar a si mesmo.
-
-O molde é o médico de campo do grupo, a pessoa que a instituição manda junto quando a missão tem chance real de alguém não voltar. Jogando de `Sutura`, você vira o motivo de o time aceitar serviço perigoso, e vira também quem decide, no meio da luta, quem vale a energia.
+O molde é o médico de campo do grupo, a pessoa que a instituição manda junto quando a missão tem chance real de alguém não voltar. A Trilha entrega a `Energia Reversa` sem os gates de nível e de refino que o resto da ficha paga, e no meio da luta a sua decisão é quem vale a energia.
 
 > **Nível 2: `Agulha`.** Você ganha a aptidão **`Energia Reversa`** **sem os gates de nível e de refino**. *Por uso, você não pode gastar mais que **`metade da sua maestria`** em PE.*
 >
@@ -3216,9 +3179,7 @@ O molde é o médico de campo do grupo, a pessoa que a instituição manda junto
 
 *Você escolhe onde todo mundo está.*
 
-O `Perímetro` é o Guia que trabalha o chão. Ele anda com uma área em volta do corpo, e dentro dela o inimigo rola pior, abre guarda e paga por tentar sair. A fantasia é a do feiticeiro de barreira em escala pessoal: a instituição usa barreira para isolar quarteirão, e essa Trilha é a versão que cabe numa pessoa e acompanha ela.
-
-Jogando de `Perímetro`, o seu trabalho é posicionamento. Você se coloca onde a área cobre o máximo de inimigo, e o resto do time luta dentro dela sem precisar saber por quê. O `Elo` escolhe uma pessoa para melhorar. O `Perímetro` escolhe um pedaço de chão, e todo mundo que estiver dentro piora.
+Quem joga de `Perímetro` anda com uma área em volta do corpo, e dentro dela o inimigo rola pior, abre guarda e paga por tentar sair. O seu trabalho é posicionamento: você se coloca onde a área cobre o máximo de inimigo, e o resto do time luta dentro dela sem precisar saber por quê.
 
 > **Nível 2: `Chão`.** Você tem uma área de **`9 m` a partir de você**, e ela anda com você.
 > **`1×` por rodada**, um inimigo dentro dela **rerrola um Teste de Resistência e fica com o pior**. *Você declara **antes** de o resultado ser lido.*
@@ -3237,12 +3198,6 @@ Jogando de `Perímetro`, o seu trabalho é posicionamento. Você se coloca onde 
 *A técnica é a resposta: mais feitiço, mais aptidão.*
 
 O Emanador apostou tudo na técnica. Corpo pouco, energia muita, e um repertório que resolve problema que arma nenhuma resolve. Quem escolhe esse Caminho gosta de ficha com botão: quer ter a resposta certa para a situação específica e aceita ser o mais frágil da sala em troca disso.
-
-A instituição trata Emanador como recurso caro. Ele é escalado para o que exige técnica de verdade, e boa parte do time em volta existe para ele chegar inteiro ao momento em que a técnica importa. Feiticeiro de clã com Fundamento antigo, pesquisador, aluno prodígio que nunca aprendeu a apanhar: os três acabam aqui.
-
-Numa luta, o turno do Emanador é o mais decidido antes de a luta começar. O que pesa é o repertório que ele montou e quanto PE sobrou do dia, e a pergunta que ele carrega da primeira rodada até a última é quando gastar.
-
-Atributos naturais: **Inteligência** e **Essência**. O Caminho é uma progressão de três perguntas: como você lança, o que você tem, quanto custa.
 
 ### Características do Emanador
 
@@ -3283,9 +3238,7 @@ Atributos naturais: **Inteligência** e **Essência**. O Caminho é uma progress
 
 *Você lança até a energia acabar, e ela acaba.*
 
-A `Torrente` é o Emanador que gasta. A fantasia é a do feiticeiro que abre a torneira: dois feitiços na mesma rodada, técnica em cima de técnica, e um bolso de PE que some rápido. Numa cena, é a ficha que resolve o problema em duas rodadas e passa as três seguintes olhando os outros trabalharem.
-
-Jogando de `Torrente`, você precisa de leitura de ritmo mais do que de qualquer outra coisa. A Trilha te dá a rodada grande e cobra o resto da missão, então a decisão real é em qual luta do dia você abre a torneira. Ela resolve a rodada com quantidade, e a irmã dela, o `Explosivo`, resolve com uma rolagem só.
+O molde é o feiticeiro que abre a torneira: dois feitiços na mesma rodada, técnica em cima de técnica, e um bolso de PE que some rápido. A Trilha te dá a rodada grande e cobra o resto da missão, então a decisão real é em qual luta do dia você abre a torneira.
 
 > **Nível 2: `Acelerar`.** *`2×` por cena.* Você conjura um feitiço da sua **ação padrão como ação bônus**, pagando **`Classe e meia` de PE a mais**, arredondando para cima. *Num Classe 7 são `11` de PE.*
 > Naquele turno, o outro feitiço que você lançar **não passa de `Classe 0`**.
@@ -3304,9 +3257,7 @@ Jogando de `Torrente`, você precisa de leitura de ritmo mais do que de qualquer
 
 *Um feitiço só na rodada, e ele sai maior.*
 
-O `Explosivo` é o Emanador que espera. Ele passa duas rodadas se posicionando e resolve a luta na terceira. A fantasia é a do artilheiro: a técnica dele é a coisa mais alta que vai acontecer naquela cena, e todo mundo na mesa sabe disso antes de o dado sair.
-
-Jogando de `Explosivo`, quase toda entrega da Trilha melhora a mesma coisa, que é o feitiço único do seu turno. Você joga com paciência, escolhe o momento em que o alvo está agrupado ou exposto, e transforma uma rolagem em cena inteira. É a Trilha mais simples de operar dos três Emanadores e a que mais pune impaciência.
+O molde é o artilheiro: você passa duas rodadas se posicionando e resolve a luta na terceira. Quase toda entrega da Trilha melhora a mesma coisa, que é o feitiço único do seu turno — você escolhe o momento em que o alvo está agrupado ou exposto e transforma uma rolagem em cena inteira.
 
 > **Nível 2: `Pavio`.** Quando o feitiço que você conjura é **o único feitiço de dano daquele turno**, **rerrole todo dado de dano dele que cair em `1` ou `2`.**
 >
@@ -3316,15 +3267,13 @@ Jogando de `Explosivo`, quase toda entrega da Trilha melhora a mesma coisa, que 
 >
 > **Nível 27: `Ápice`.** `1×` por cena, um feitiço seu soma **`metade da Classe` em dados de dano**, e você paga **`1` PE por dado extra**. *Num Classe 7 são `+3d8` por `3` PE.*
 
-*O `Rompante` é a entrega que decide chefe. Quando errar significa perder a rodada inteira e o PE junto, você paga a Classe em PE e compra a certeza, e é aí que o grupo descobre para que serviam os pontos que você guardou a manhã toda.*
+*O `Rompante` compra vantagem na rolagem em que errar custaria a rodada inteira e o PE junto — que é a de chefe, quase sempre.*
 
 ### Trilha: Arremate
 
 *O feitiço chega junto com você.*
 
-O molde é o conjurador que precisa encostar: ele briga de mão, e o feitiço é o que acontece quando a mão chega. A fantasia é a do feiticeiro que ninguém entende direito, porque ele tem repertório de Emanador e hábito de gente que apanha. Instrutor nenhum recomenda esse jeito de trabalhar, e ele funciona.
-
-Jogando de `Arremate`, você é o Emanador que precisa estar dentro do alcance do inimigo para render, com 4 de vida por nível para bancar isso. Boa parte da Trilha existe para você sobreviver ao lugar em que ela te obriga a ficar. A `Torrente` e o `Explosivo` decidem quando gastar. A pergunta do `Arremate` é onde estar.
+O molde é o conjurador que precisa encostar: ele briga de mão, e o feitiço é o que acontece quando a mão chega. Jogando de `Arremate`, você precisa estar dentro do alcance do inimigo para render, e boa parte da Trilha existe para você sobreviver ao lugar em que ela te obriga a ficar.
 
 > **Nível 2: `Empunhadura`.** Escolha um **grupo de arma**. Você é treinado nele, e naquele grupo **o acerto e o dano usam Inteligência ou Essência**. *O requisito de Força para empunhar continua valendo.*
 > **E quando você ataca com uma arma daquele grupo na Ação Padrão, você pode conjurar um feitiço de Classe na Ação Bônus.**
@@ -3344,12 +3293,6 @@ Jogando de `Arremate`, você é o Emanador que precisa estar dentro do alcance d
 *O que você trouxe é a resposta: invocações.*
 
 O Evocador chega acompanhado. Shikigami, talismã que vira bicho, maldição domada: o que ele põe em campo tem corpo próprio, anda por conta e obedece a ele. Quem escolhe esse Caminho gosta de jogar tabuleiro, contar espaço, flanquear, bloquear corredor, e usar corpo emprestado onde outro Caminho usaria o próprio.
-
-A instituição trata invocador com desconfiança educada, porque metade do que ele traz para o serviço já foi inimigo de alguém. Em compensação, um Evocador cobre chão que time nenhum cobre: batedor que entra na frente, corpo que segura a porta, olho num andar que ninguém subiu.
-
-Numa luta, o turno do Evocador quase sempre é uma ordem. A Ação Padrão dele vira ação de outra criatura, e o dano do grupo sai por ali. A ficha dele é frágil, e a maior parte do jogo é manter o corpo em campo e manter a si mesmo longe.
-
-Atributos naturais: **Inteligência** e **Essência**. O Evocador troca dano pessoal por presença de tabuleiro, corpos que absorvem ataque, flanqueiam e bloqueiam caminho.
 
 ### Características do Evocador
 
@@ -3897,7 +3840,7 @@ A **Régua** mede distâncias e cobra por elas. As Famílias Livres dela são Mi
 
 ### Formas
 
-A Forma é o corpo do feitiço: define quem ele atinge e como se resolve. Escolha uma por feitiço.
+A Forma define quem o feitiço atinge e como ele se resolve. Escolha uma por feitiço.
 
 **Formas**
 | Forma | Custa | O que é | Como resolve |
@@ -4225,7 +4168,7 @@ Uma Restrição devolve `Leve` ou `Média`, nunca `Pesada`. Duas `Média` já ba
 
 ### Restrição Própria
 
-Se a desvantagem que você imaginou não está na lista, escreva ela. A `Restrição Própria` é o espelho do `Efeito Próprio`: você propõe a dor, o mestre define quanto ela devolve.
+Se a desvantagem que você imaginou não está na lista, escreva ela. Você propõe a desvantagem e o mestre define quanto ela devolve, do mesmo jeito que o `Efeito Próprio` funciona do outro lado.
 
 **Restrição Própria**
 | Restrição | Devolve | O que muda |
@@ -4945,7 +4888,7 @@ Estas duas chegam com a ficha, no refino 1, sem custar marco nenhum. Elas são o
 
 A primeira coisa que se ensina, e a que nunca se desliga. Você espalha a sua energia por cima da pele e deixa ligada: uma casca que não aparece, que aguenta o impacto que quebraria o osso de uma pessoa comum. Quem enxerga energia vê a camada acender no instante do golpe. Quem não enxerga vê alguém apanhar e continuar de pé.
 
-A Reação é a versão concentrada disso. Em vez de espalhar, você joga a camada inteira no ponto onde o golpe vai chegar, e fica descoberto no resto do corpo até se recompor. Por exemplo, com refino 6 a sua proteção passiva é 3, e a Reação desconta 9 de um golpe por 2 PE.
+Como Reação, em vez de espalhar a camada você joga ela inteira no ponto onde o golpe vai chegar, e fica descoberto no resto do corpo até se recompor. Por exemplo, com refino 6 a sua proteção passiva é 3, e a Reação desconta 9 de um golpe por 2 PE.
 
 > **Cobrir-se de energia** — sem Traje e sem Revestimento, a sua proteção é `1/3 do refino + 1`. Escudo soma com ela.
 >

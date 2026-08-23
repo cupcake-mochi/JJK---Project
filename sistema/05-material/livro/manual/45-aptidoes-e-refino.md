@@ -136,7 +136,7 @@ Estas duas chegam com a ficha, no refino 1, sem custar marco nenhum. Elas são o
 
 A primeira coisa que se ensina, e a que nunca se desliga. Você espalha a sua energia por cima da pele e deixa ligada: uma casca que não aparece, que aguenta o impacto que quebraria o osso de uma pessoa comum. Quem enxerga energia vê a camada acender no instante do golpe. Quem não enxerga vê alguém apanhar e continuar de pé.
 
-A Reação é a versão concentrada disso. Em vez de espalhar, você joga a camada inteira no ponto onde o golpe vai chegar, e fica descoberto no resto do corpo até se recompor. Por exemplo, com refino 6 a sua proteção passiva é 3, e a Reação desconta 9 de um golpe por 2 PE.
+Como Reação, em vez de espalhar a camada você joga ela inteira no ponto onde o golpe vai chegar, e fica descoberto no resto do corpo até se recompor. Por exemplo, com refino 6 a sua proteção passiva é 3, e a Reação desconta 9 de um golpe por 2 PE.
 
 > **Cobrir-se de energia** — sem Traje e sem Revestimento, a sua proteção é `1/3 do refino + 1`. Escudo soma com ela.
 >

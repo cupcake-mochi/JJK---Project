@@ -518,7 +518,7 @@ A **Régua** mede distâncias e cobra por elas. As Famílias Livres dela são Mi
 
 ### Formas
 
-A Forma é o corpo do feitiço: define quem ele atinge e como se resolve. Escolha uma por feitiço.
+A Forma define quem o feitiço atinge e como ele se resolve. Escolha uma por feitiço.
 
 **Formas**
 {: .tab-titulo }
@@ -886,7 +886,7 @@ Uma Restrição devolve `Leve` ou `Média`, nunca `Pesada`. Duas `Média` já ba
 
 ### Restrição Própria
 
-Se a desvantagem que você imaginou não está na lista, escreva ela. A `Restrição Própria` é o espelho do `Efeito Próprio`: você propõe a dor, o mestre define quanto ela devolve.
+Se a desvantagem que você imaginou não está na lista, escreva ela. Você propõe a desvantagem e o mestre define quanto ela devolve, do mesmo jeito que o `Efeito Próprio` funciona do outro lado.
 
 **Restrição Própria**
 {: .tab-titulo }

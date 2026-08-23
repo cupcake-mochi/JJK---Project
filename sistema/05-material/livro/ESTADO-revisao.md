@@ -2,9 +2,9 @@
 
 ## Leitura texto por texto — v0.129, 22/08/2026
 
-**Os 20 arquivos lidos inteiros, com os olhos, e não por regex.** *Motivo: o Mizuki leu o PDF publicado e achou três frases que a v0.125 e a v0.126 tinham deixado passar. As três eram amostra de três famílias, e as três famílias apareceram em **17 dos 20 capítulos**.*
+**Os 20 arquivos lidos inteiros, com os olhos, e não por regex.** *Motivo: o Mizuki leu o PDF publicado e achou três frases que a v0.125 e a v0.126 tinham deixado passar. As três eram amostra de três famílias, e as três famílias apareceram em **18 dos 20 capítulos**.*
 
-**`79.711` → `78.176` palavras, em duas passadas.** *Nenhum número de regra se moveu.*
+**`79.711` → `76.870` palavras, em três passadas — `3,6%` do livro.** *Nenhum número de regra se moveu.*
 
 ### As três famílias, e o conserto de cada uma
 
@@ -56,9 +56,29 @@
 
 **Mais um ponteiro pendurado e um título:** *o cap. 9 mandava seguir "o checklist do mestre", que saiu do livro na v0.106 e foi para o livro do mestre.* **E o `Checklist do mestre` do cap. 6 — única seção do livro do jogador rotulada para o mestre, e em inglês — virou `Conferência da ficha`.**
 
+### Terceira passada — a releitura, com régua medida nos manuais do hobby
+
+*Ele perguntou se eu tinha lido o documento todo. Metade: a primeira foi leitura, a segunda foi anotação mais script.* **Esta é a releitura, e ela começou medindo.**
+
+**Seis marcas de escrita contadas no PHB 2024, no Caldeirão de Tasha, no Guia do Mestre 5e, no GURPS 4e e aqui.** *Duas saltaram, e uma delas é estrutural:*
+
+| marca | os quatro | nosso, antes |
+|---|---|---|
+| equação *"X é o Y"*, por mil frases | `0,2` a `0,6` | **`7,1`** |
+| parágrafos antes da primeira regra, numa classe | `0` | **`4`** |
+| parágrafos antes da primeira regra, numa subclasse | `1` | **`2`** |
+
+> **⚠ A primeira medida da equação deu `38,6` e estava torta** — o regex pegava a forma com artigo definido e não a com indefinido, que é como o PHB escreve definição. **Refeito simétrico: `7,1`.** *Nono caso de medir o marcador em vez do fenômeno, e o primeiro pego antes de virar decisão.*
+
+**Os 17 blocos de Caminho e Trilha foram reescritos no molde do PHB:** *chamada de uma linha, um parágrafo, e cai na regra.* **`1.218` palavras num capítulo só.**
+
+**E saíram:** *a coluna `a troca` da tabela de Caminhos, que era só metáfora;* **um superlativo falso** — *"a `Fornalha` é a única coisa do sistema que põe golpe e feitiço no mesmo turno"*, e o `Ferrão` da `Estocada` faz o mesmo —; *e cinco caracterizações reescritas.*
+
+**Costura conferida:** *varredura por parágrafo que abre em anafórico com o vizinho de cima alterado.* **`0` órfãos.**
+
 ### O que não mudou
 
-`conferir-voz.py --estrito` continua em **0 achados**, **0 referência quebrada** e **0 termo sem destino** — de `91` termos que passam o corte para `93`, todos com casa. *Os mesmos **16** trechos de triagem à mão de antes: nenhum corte desta passada saiu de um marcador do validador, e nenhum criou marcador novo.*
+`conferir-voz.py --estrito` continua em **0 achados**, **0 referência quebrada** e **0 termo sem destino** — de `91` termos que passam o corte para `89`, todos com casa. *E os trechos de triagem à mão foram de `16` para `15`: nenhum corte saiu de um marcador do validador, e nenhum criou marcador novo.*
 
 ---
 

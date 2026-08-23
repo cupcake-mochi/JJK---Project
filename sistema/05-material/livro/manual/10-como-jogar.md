@@ -54,7 +54,6 @@ Contribuir de verdade quer dizer estar em condição de fazer diferença naquela
 
 > Quando o grupo inteiro precisa passar por alguma coisa (atravessar sem ser notado, aguentar o frio), **metade do grupo passando resolve**.
 
-
 ### Falha
 
 Toda falha empurra a cena para algum lugar. O mestre pediu a rolagem porque o resultado importava, então o dado ruim tem que mudar a situação tanto quanto o dado bom mudaria. Uma falha entrega uma destas três coisas:
@@ -97,7 +96,7 @@ Inteligência não concede perícias extras. O que você é treinado vem da Orig
 |---|---|---|---|---|
 | maestria | 1 | 2 | 3 | 4 |
 
-Maestria é o bônus que mede o tempo de estrada do personagem. Ela entra em toda rolagem de ataque, na CD dos seus feitiços, e no que você treinou: perícia, ofício e Teste de Resistência. Por exemplo, no nível 6 a sua maestria é 1, e no nível 10 ela vira 2. Ela fica fora da Defesa, que é o único número que o sistema deixa crescer só por atributo e equipamento.
+Maestria é o bônus que mede o tempo de estrada do personagem. Ela entra em toda rolagem de ataque, na CD dos seus feitiços, e no que você treinou: perícia, ofício e Teste de Resistência. Por exemplo, no nível 6 a sua maestria é 1, e no nível 10 ela vira 2. Ela fica fora da Defesa.
 
 A ficha começa no **nível 2**, já com um feitiço. O nível 1 fica como opção de campanha, para quando a mesa quiser jogar o personagem de antes de ele ser feiticeiro.
 
@@ -187,13 +186,13 @@ Três reservas, e cada uma tem uma conta diferente. Vida é o corpo, energia é 
 **Vida e PE por Caminho**
 {: .tab-titulo }
 
-| Caminho | dado | vida no nível 1 | por nível | PE por nível | a troca |
-|---|---|---|---|---|---|
-| **Bastião** | d12 | 12 | 7 | 4 | menos combustível, mais couro |
-| **Vanguarda** | d8 | 8 | 5 | 5 | meio a meio |
-| **Guia** | d8 | 8 | 5 | 5 | meio a meio |
-| **Evocador** | d6 | 6 | 4 | 6 | combustível cheio, e corpos na frente |
-| **Emanador** | d6 | 6 | 4 | 6 | combustível cheio, canhão de vidro |
+| Caminho | dado | vida no nível 1 | por nível | PE por nível |
+|---|---|---|---|---|
+| **Bastião** | d12 | 12 | 7 | 4 |
+| **Vanguarda** | d8 | 8 | 5 | 5 |
+| **Guia** | d8 | 8 | 5 | 5 |
+| **Evocador** | d6 | 6 | 4 | 6 |
+| **Emanador** | d6 | 6 | 4 | 6 |
 
 > **Exemplo.** Mei é Vanguarda, Constituição 3, nível 4. Nível 1: 8 + 3 = 11. Cada um dos três níveis seguintes: 5 + 3 = 8. Total: 11 + 24 = **35 de vida**.
 
@@ -263,7 +262,6 @@ Quem desaba pelo Insistir não levanta com um ponto de cura. Só acorda com uma 
 | **Aguentar** | janela de 3 rodadas, e acorda com 1 de cura | fora da luta desde já, 1 Sequela |
 | **Insistir** | 3 rodadas agindo | 7/8 da vida máxima, 1 Sequela, e só acorda com metade da máxima original |
 
-
 O custo do Insistir usa o arredondamento de sempre: ele é uma coisa que você paga, então ele sobe.
 
 > **Exemplo.** Kaito tem 80 de vida máxima e chega a 0 com o chefe quase morto. Ele escolhe Insistir. Na primeira rodada paga 10 (1/8 de 80), na segunda 20, na terceira 40. Se o chefe não cair até lá, Kaito desaba na quarta.
@@ -276,7 +274,7 @@ O custo do Insistir usa o arredondamento de sempre: ele é uma coisa que você p
 >
 > Sequela some no descanso longo. Vida máxima e Integridade voltam junto, como sempre.
 
-Sequela deixa as suas rolagens exatamente como estavam. Você levanta tão competente quanto era, e o que encurtou foi a próxima queda: onde antes havia três rodadas de janela, agora há duas.
+Sequela deixa as suas rolagens exatamente como estavam. O que encurta é a próxima queda: onde antes havia três rodadas de janela, agora há duas.
 
 ### Inconsciente
 

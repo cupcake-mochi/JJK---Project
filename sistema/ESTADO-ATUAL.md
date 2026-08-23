@@ -9,8 +9,8 @@ Atualizado em 22/08/2026, na v0.129 (última peça fechada: **Dano e condições
 > | | páginas | o que ela é |
 > |---|---|---|
 > | `-A-atual` | **256** | o que estava publicado na v0.125. Snapshot guardado a mão, não se regera |
-> | *(sem sufixo)* | **251** | a mesma, com as quebras de página consertadas e o sumário em duas colunas |
-> | `-C-duas-colunas` | **142** | corpo em duas colunas a 9,4pt com entrelinha 1,45, e grade de 5+ colunas em largura inteira |
+> | *(sem sufixo)* | **248** | a mesma, com as quebras de página consertadas e o sumário em duas colunas |
+> | `-C-duas-colunas` | **141** | corpo em duas colunas a 9,4pt com entrelinha 1,45, e grade de 5+ colunas em largura inteira |
 >
 > **A geometria da C foi medida em três manuais do hobby, e não escolhida:** *Guia do Mestre 5e em A4, Caldeirão de Tasha e PHB 2024 — `83%`, `92%` e `92%` das páginas em duas colunas, com corpo entre `9,1` e `9,3pt`.* **A mancha copiada é a do Guia do Mestre, que é o único dos três em A4.**
 >
@@ -18,7 +18,7 @@ Atualizado em 22/08/2026, na v0.129 (última peça fechada: **Dano e condições
 >
 > **⚠ E o WeasyPrint 69 não implementa `column-span: all`**, medido com caso mínimo. *Por isso a tabela larga é tirada do fluxo de colunas no `build.py`, em `segmenta_colunas`, e não pelo CSS.*
 
-***A v0.129 leu o livro inteiro com os olhos, e as três frases do Mizuki eram amostra de três famílias que apareceram em 15 dos 20 capítulos.*** *`79.711` para `78.176` palavras, e nenhum número de regra se moveu.*
+***A v0.129 leu o livro inteiro com os olhos, e as três frases do Mizuki eram amostra de três famílias que apareceram em 15 dos 20 capítulos.*** *`79.711` para `76.870` palavras, em três passadas, e nenhum número de regra se moveu.*
 
 > **As três famílias:** *metáfora no lugar da regra* (a Vanguarda "comprando aço"), *aviso escrito de trás para frente* ("nada disto morde"), e *contabilidade do projeto vazando para o livro* ("oito das nove rotas já rodam").
 >
