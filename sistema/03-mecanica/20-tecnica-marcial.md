@@ -178,6 +178,14 @@ A peça 1 fixou na v0.117 que **a técnica declara um atributo na criação, qua
 
 > **⚠ E o que isso fecha, declarado: nenhum grupo de arma acerta por Inteligência, Essência ou Constituição.** *A rota de arma é sempre Força ou Destreza.* **Um restringido de Inteligência alta continua sendo ficha legítima — e ele vai pela rota de ferramenta**, que é exatamente a divisão que a v0.118 abriu quando trocou o nome do ramo de `energia pelo corpo` para `sem energia`.
 
+> **⚠⚠ ABERTO na v0.133, e é achado do Mizuki: a trava fecha uma ficha que devia caber.** *"Se não restringe, seria sempre obrigado a usar um atributo só — e aí não teríamos gente que por exemplo quer usar armas de fogo e armas de força."*
+>
+> **A `Arma de Fogo` é Destreza e o `Machado` é Força, e as duas listas acima não se cruzam nesses dois.** *Quem quer rifle e machado nos três grupos não tem escolha legal hoje: ou os três são de Força, ou os três são de Destreza.*
+>
+> **A saída que ele propõe é que a Kata acerte pelo atributo DA ARMA**, e ela já está medida na tabela acima como a terceira linha — *acerto pela arma, CD pelo declarado* —, que reprovou com o alvo resistindo `90%`. **Mas a medida foi feita no caso afiado, com o atributo declarado em `0`:** *lá o declarado era Inteligência e a arma pedia Força.* ***No caso do Mizuki os dois são físicos, e a ficha investe nos dois*** — é outro caso, e ele não foi medido.
+>
+> **O que precisa ser medido antes de mexer:** o acerto de cada arma pelo atributo dela, com a CD saindo do declarado, numa ficha que reparte pontos entre Força e Destreza em vez de encher um. *Se a CD aguentar, a trava vira "o atributo declarado tem de ser um dos que os seus grupos usam" e a ficha do rifle mais machado passa a caber.* **A checagem 4 do `conferir-marcial.py` é a dona desta amarra e muda junto.**
+
 **A rota de ferramenta declara qualquer um dos cinco, e a justificativa é a ficção da ferramenta** — a mesma régua que o Fundamento já usa para aprovar feitiço contra Descrição. *Uma armadura de engenharia acerta por Inteligência; um instrumento que se toca acerta por Essência.*
 
 ## 6. Ferir maldição — quem fere o quê

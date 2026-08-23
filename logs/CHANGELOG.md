@@ -69,7 +69,46 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 > **O orçamento não existe para preçar pacto: ele existe para fazer com que preçar pacto em dano não valha a pena.** *Quem gastar um pacto em dano leva um sétimo de um soco; quem gastar em acesso ou numa regra do mundo leva o pacto inteiro.* **A conta e a direção de desenho do Mizuki — *"o ideal de pactos é afetar coisas mais diretas e menos numéricas"* — chegam no mesmo lugar por caminhos diferentes.**
 
-→ **Continua em** `sistema/03-mecanica/RASCUNHO-pactos.md`. **Sobrou UM item aberto:** o tamanho do orçamento, dentro da faixa `0,5`–`2` fatias.
+### E o orçamento fechou em `1,50`, com um critério que não era o que eu estava olhando
+
+***Decisão do Mizuki, com os três argumentos dele:*** *pacto é adicional, o teto é mais abrangente, e o mestre aprova.*
+
+**A % da ficha mal se move entre o mínimo e o exagero — de `29,3%` a `31,7%`, dois pontos e meio.** *O que se move de verdade é se gastar um pacto em dano compensa,* **e é isso que decide.**
+
+| camada | cada pacto vale | **% de um golpe simples** |
+|---|---|---|
+| `1,00` | `1,69` | `14%` |
+| **`1,50`** | **`2,54`** | **`21%`** |
+| `2,00` | `3,39` | `28%` |
+| `2,50` | `4,23` | `35%` |
+
+> **`1,50` é o maior valor que ainda deixa dano ser escolha ruim.** *Abaixo de um quarto de um soco ninguém gasta pacto em dano; acima de um terço vira opção legítima, e o teto para de trabalhar.*
+
+**E o preço dos três argumentos está pago:** *a camada na ficha comum a `1,50` dá `30,1%`, que é exatamente o que o teto mínimo de `1,00` daria no pior caso.* **Subir o teto em `50%` custa, na mesa, o que o mínimo já custava no papel.**
+
+### ⚠ E um achado do Mizuki na peça 20, registrado e NÃO consertado
+
+**A trava do atributo fecha uma ficha que devia caber.** *`Arma de Fogo` é Destreza e `Machado` é Força, e a regra manda os três grupos acertarem pelo atributo declarado* — **então quem quer rifle e machado não tem escolha legal.**
+
+*A saída que ele propõe — a Kata acerta pelo atributo da arma — já está medida na peça como reprovada.* **Mas a medida foi feita no caso afiado, com o atributo declarado em `0`:** *lá o declarado era Inteligência e a arma pedia Força.* **No caso dele os dois são físicos e a ficha investe nos dois, e esse caso nunca foi medido.**
+
+*Registrado na peça 20 §5 com o que precisa ser medido antes de mexer, e a checagem 4 do `conferir-marcial.py` é a dona da amarra.*
+
+### E um corte de redundância no capítulo 12, achado pelo Mizuki lendo
+
+**A abertura de `Bênçãos` repetia as duas metades que a seção `Marco` acabava de dizer** — *"um marco de Lapidação compra uma Bênção"*, que já estava na linha do `Lapidação` sete linhas acima, e *"duas do catálogo não custam marco"*, que já estava no parágrafo imediatamente anterior.
+
+*Passou pela trava da `REGRA-DE-VOZ`:* **nenhuma das duas metades era dona única de fato nenhum.** *A seção passa a abrir na caixa que carrega o que ela realmente tem de novo — que Bênção não custa espaço de Kata.*
+
+> **`guard_numeros.py`: quatro diferenças, e as quatro são as palavras da frase que saiu.** *O `1` da Lapidação continua no parágrafo anterior, e o "um marco, uma Bênção" continua na linha do `Lapidação`.* **Nenhum número de regra se moveu.**
+
+| | antes | depois |
+|---|---|---|
+| palavras do livro | 77.583 | **77.554** |
+| coluna única | 252 páginas | **252** |
+| duas colunas | 142 páginas | **142** |
+
+→ **Continua em** `sistema/03-mecanica/RASCUNHO-pactos.md`. **Os cinco itens fecharam** — o que falta é escrever a peça 22 e o capítulo do livro.
 
 ---
 

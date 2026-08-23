@@ -129,9 +129,40 @@
 >
 > *É o teto empurrando a camada para onde o Mizuki já disse que ela devia estar: **"o ideal de pactos é afetar coisas mais diretas e menos numéricas, como na obra"**.* **A conta e a direção de desenho chegam no mesmo lugar por caminhos diferentes.**
 
+## 3.2 O orçamento fechou em `1,50`, e o critério não é a % da ficha
+
+***Decisão do Mizuki na v0.133, com os três argumentos dele:*** *pacto é **adicional** — nem toda ficha tem —, o teto é **mais abrangente**, e **o mestre aprova**. **Os três empurram para cima do mínimo, e a conta diz até onde.***
+
+**Primeiro, quantas fichas de verdade chegam no teto de quantidade:**
+
+| perfil | Essência | pactos permanentes |
+|---|---|---|
+| físico puro | `0`–`1` | **`0`** |
+| físico com sobra | `2` | `1` |
+| meio a meio | `3` | `1` |
+| conjurador de Essência | `4`–`5` | **`2`** |
+| Essência no teto | `6` | `3` |
+
+**Só quem põe Essência no teto chega a três.** *A ficha comum fica em `1` ou `2`, e é ela que o orçamento tem de servir.*
+
+| camada | por pacto | cada pacto vale | camada na ficha comum | **% de um golpe simples** |
+|---|---|---|---|---|
+| `1,00` | `0,33` | `1,69` | `29,3%` | `14%` |
+| **`1,50`** | **`0,50`** | **`2,54`** | **`30,1%`** | **`21%`** |
+| `2,00` | `0,67` | `3,39` | `30,9%` | `28%` |
+| `2,50` | `0,83` | `4,23` | `31,7%` | `35%` |
+
+> **O critério que decide não é a % da ficha — é a % de um soco.** *A % da ficha mal se move: de `29,3%` a `31,7%` são dois pontos e meio entre o mínimo e o exagero.* **O que se move de verdade é se gastar um pacto em dano compensa.**
+>
+> **Abaixo de um quarto de um golpe simples, gastar pacto em dano é obviamente ruim e ninguém faz.** *Acima de um terço, vira opção legítima — e aí o teto para de fazer o trabalho que ele existe para fazer.*
+>
+> ***`1,50` é o maior valor que ainda deixa dano ser escolha ruim: `21%` de um soco.*** **A `2,00` já está em `28%`, encostando na beirada; a `2,50` em `35%`, do outro lado dela.**
+
+**E o preço dos três argumentos do Mizuki está pago:** *a camada na ficha comum a `1,50` dá `30,1%` — exatamente o que o teto mínimo de `1,00` daria no pior caso.* **Ou seja: subir o teto em `50%` custa, na mesa, o que o teto mínimo já custava no papel.** *É a folga que "pacto é adicional" compra.*
+
 ## 4. O que falta decidir, em ordem de dependência
 
-1. **O tamanho do orçamento**, dentro da faixa `0,5`–`2`. *Escolha de sabor, com a conta do §3.1 na mão.* **Único item ainda aberto.**
+1. ~~O tamanho do orçamento.~~ ***FECHADO na v0.133: `1,50` fatia de camada, `0,50` por pacto.*** *O argumento está no §3.2.*
 2. ~~A forma de cada uma das quatro.~~ ***Decidido: a forma é adicional, e fica como opcional na ficha.*** *Ninguém é obrigado a ter pacto, e a ficha nasce sem — no mesmo molde do Passo 8 da peça 8, que já dizia "opcional, e a maioria dos personagens começa sem".*
 3. ~~Se as quatro dividem o mesmo orçamento.~~ ***Decidido: só o permanente tem teto.*** *O §3.1 tem o argumento e a tabela.*
 4. ~~O que a `Promessa` cobra de quem quebra.~~ ***Decidido: é do mestre*** — *mas a peça cita o peso que a obra dá.* **Quebrar um pacto na fonte custa a energia amaldiçoada, e pode custar a vida.** *O texto precisa dizer isso com todas as letras, para o mestre não cobrar de leve uma coisa que a ficção trata como fatal.*

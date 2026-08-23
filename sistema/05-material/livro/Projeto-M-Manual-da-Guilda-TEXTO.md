@@ -5213,8 +5213,6 @@ Onde ela entra é em custo, em quantas vezes por cena, em alcance e duração, e
 
 ## Bênçãos
 
-Um marco de Lapidação compra **uma Bênção**. Duas do catálogo não custam marco nenhum: `Defesa sem Armadura` e `Estímulo Muscular` já estão na sua ficha desde a Lapidação 1.
-
 > **Bênção não custa espaço de Kata.** Espaço de Kata é a moeda das Passivas. As duas economias são separadas: Bênção custa marco, e só marco.
 
 ### Classe Passiva
