@@ -57,7 +57,19 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 **Nenhuma peça, nenhum validador, nenhum número publicado.** *Rascunho não é peça — ele não leva número na frente justamente por isso, e o `conferir-repositorio.py` falha se algum tomar.* **Os rascunhos foram de três para quatro.**
 
-→ **Continua em** `sistema/03-mecanica/RASCUNHO-pactos.md`, na seção *O que falta decidir*. **São cinco itens, em ordem de dependência**, e o primeiro é o tamanho do orçamento dentro da faixa medida.
+### E quatro dos cinco itens fecharam na mesma versão
+
+***Decisões do Mizuki, depois de ver a conta:*** **a forma é adicional e fica opcional na ficha**; **só o permanente tem teto** — *"não tem problema pactos temporários estourarem qualquer teto, porque quem irá segurar é o mestre"*; **o preço de quebrar uma `Promessa` é do mestre**, com o peso da obra citado; e **o catálogo leva os exemplos da obra mais a lista do amigo dele**.
+
+**O motivo por baixo da terceira não é de gosto, e ele separa as quatro sozinho: é o filtro multi-mestre.** *O permanente entra na ficha e aparece na mesa de alguém que nunca viu aquele pacto nascer; o temporário morre na cena, e o mestre que aprovou é o mesmo que aguenta o resultado.*
+
+> **⚠⚠ E o teto tem de ser POR PACTO, não da camada.** *Se fosse da camada, um Essência `2` levaria num pacto só o que um Essência `6` divide em três* — **e aí investir em Essência pagaria menos, que é o contrário do que o teto de quantidade quer dizer.**
+
+**E aí aparece o que o orçamento faz de verdade.** *Num teto de camada `1,00`, cada pacto permanente vale `1,69` de dano por rodada — `14%` de um golpe simples e `6%` de um `Classe 0`.*
+
+> **O orçamento não existe para preçar pacto: ele existe para fazer com que preçar pacto em dano não valha a pena.** *Quem gastar um pacto em dano leva um sétimo de um soco; quem gastar em acesso ou numa regra do mundo leva o pacto inteiro.* **A conta e a direção de desenho do Mizuki — *"o ideal de pactos é afetar coisas mais diretas e menos numéricas"* — chegam no mesmo lugar por caminhos diferentes.**
+
+→ **Continua em** `sistema/03-mecanica/RASCUNHO-pactos.md`. **Sobrou UM item aberto:** o tamanho do orçamento, dentro da faixa `0,5`–`2` fatias.
 
 ---
 
