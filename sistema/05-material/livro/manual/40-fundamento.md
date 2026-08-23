@@ -62,7 +62,7 @@ Cada feitiço é montado na Classe que o seu nível já liberou, e *Números da 
 | 18 a 25 | 3 | 5 | d20 + 8 | 16 |
 | 26 a 30 | 4 | 6 | d20 + 10 | 18 |
 
-Esta tabela supõe que você levou o atributo da técnica até o topo. Se ele ficar parado, a sua técnica fica junto — e é essa a escolha que a linha de cima esconde.
+Esta tabela supõe que você levou o atributo da técnica até o topo. Se ele ficar parado, a sua técnica fica junto.
 
 **Escolha o atributo que o seu personagem já ia querer alto.** As perícias que ele usa, o Teste de Resistência que ele quer aguentar, uma Trilha que soma o mesmo atributo no dano: se alguma dessas coisas já puxa um atributo para cima, aponte a técnica para ele. Apontar para um atributo que você não pretende pagar é a armadilha desta página.
 
@@ -80,17 +80,11 @@ Esta tabela supõe que você levou o atributo da técnica até o topo. Se ele fi
 
 Uma técnica de análise, registro, cálculo ou memória cai em Inteligência. Uma técnica de leitura de energia, presença, voz ou vínculo cai em Essência. Sentir energia amaldiçoada é a sua energia reagindo à de outro, e por isso mora em Essência.
 
-Na prática, Essência é o atributo que a maioria dos conjuradores acaba querendo alto de qualquer jeito, porque ela carrega a perícia mais rolada da mesa e o Teste de Resistência de Espírito. Inteligência é a escolha de quem construiu o personagem em cima de saber coisas.
-
 ### CD de feitiço
 
 Metade dos seus feitiços deixa a rolagem com o alvo: ele é quem rola contra você. O número que ele precisa passar é a sua **CD de feitiço**.
 
 > **CD de feitiço = 8 + o atributo da sua técnica + maestria.**
-
-**O `8` não é um número escolhido: ele é a chance de quem treinou.** Quem resiste rola `d20 + o atributo daquele Teste + a maestria dele, se ele treinou aquele Teste` — e quando os dois lados têm atributo e maestria, o que sobra no dado é exatamente `8`. **Passar `8` num d20 é `65%`, e é isso que um Teste de Resistência treinado vale, do nível 2 ao 30.**
-
-**Quem não treinou aquele Teste não soma a maestria, e cai para trás conforme a campanha anda** — de `60%` no nível 2 para `45%` no 30. Toda ficha treina dois Testes de Resistência de quatro; os outros dois são o lugar por onde um chefe entra.
 
 **Você tem uma CD só.** Ela não muda de feitiço para feitiço, não sobe com a Classe e não se compra com pontos. É um número da ficha, como a sua Defesa.
 
@@ -150,7 +144,7 @@ Esta seção concentra os números que o resto do capítulo usa. Não precisa de
 
 A coluna **Nível** é quando aquela Classe abre para você. **Leve**, **Média** e **Pesada** são os três preços de Melhoria, e **Devol. máx** é o total que as Restrições de um feitiço podem devolver.
 
-**Esta é a única tabela de números do capítulo.** Todo valor de montagem que aparecer daqui para a frente sai daqui.
+Todo valor de montagem que aparecer daqui para a frente sai desta tabela.
 
 A coluna **Teto** é o máximo de dados de dano de um feitiço quando você soma todos os alvos e repetições. Contra um alvo só o limite é mais baixo: um feitiço comum para nos pontos da Classe. Quem alcança o teto num alvo só é a **Liberação Máxima**.
 
@@ -591,7 +585,7 @@ Você pode lançar qualquer feitiço que conhece numa Classe maior que a origina
 | Classe 3 | 9 | −2 | −2 | +3 | 8d8 = 36 | 9 |
 | Classe 5 | 15 | −3 | −3 | +5 | 14d8 = 63 | 15 |
 
-O dano sobe, a proporção não: em todas as Classes a Palma sai perto de 70% do teto, bem acima do quarto que o bônus de Controle exige. Ampliar aumenta o número e não muda a natureza do feitiço: quem não alcançava o bônus continua sem alcançar.
+Ampliar aumenta o número e não muda a natureza do feitiço: quem não alcançava o bônus de Controle continua sem alcançar, em Classe nenhuma.
 
 ### Cura
 
@@ -764,7 +758,7 @@ Numa Classe 5, aplicar uma `Leve` custa 3 pontos, uma `Média` custa 5 e uma `Pe
 | **O alvo ainda** | se defende normalmente | age normalmente |
 | **Nível** | `Pesada` | `Leve` |
 
-Tirar o que o alvo **faz** custa três vezes mais do que tirar o que **protege** ele. E o `Atordoado` cobra uma Ação Padrão só: um chefe age mais de uma vez por rodada, e apagar o turno dele com uma linha de Controle sairia barato demais.
+E o `Atordoado` cobra uma Ação Padrão só, e nunca o turno inteiro: quem age mais de uma vez por rodada perde uma das ações e guarda as outras.
 
 > **Três coisas que não são condição aqui.**
 > `Inconsciente` é cair morrendo, e tem regra própria no capítulo 1, *Como Jogar*: não é efeito de uma rodada.
@@ -1147,9 +1141,9 @@ Só a completa levanta barreira. Por dentro ela **não quebra**: quem está lá 
 | Hakari | todos recebem a informação do domínio | o pachinko, e a regeneração que ele paga |
 | Higuruma | ninguém no ambiente pode causar dano | o julgamento, e as punições que ele libera |
 
-O Megumi é o único incompleto da lista, e o Acerto dele *reforça* em vez de *atingir*: é o que dá para fazer quando o Acerto ainda rola. Os oito completos entregam coisas que não falham, e é isso que o terceiro espaço compra.
+O Acerto do Megumi *reforça* em vez de *atingir*, e é o que dá para fazer com uma incompleta, cujo Acerto ainda rola. Os completos da lista entregam coisas que não falham.
 
-E repare também que **Efeito quase nunca é dano**. Alcance, repertório, amplificação, uma mecânica nova, controle sobre quem o Acerto pega. O dano, quando existe, mora no Acerto.
+**Efeito quase nunca é dano.** Alcance, repertório, amplificação, uma mecânica nova, controle sobre quem o Acerto pega. O dano, quando existe, mora no Acerto.
 
 ## Regras de ouro
 

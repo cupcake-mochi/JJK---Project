@@ -2,8 +2,6 @@
 
 Equipamento mexe em três coisas: a sua Defesa, o dado que você rola quando bate, e o que dá para fazer com a coisa que está na sua mão. Nenhum item deste capítulo concede técnica.
 
-As regras de proteção, de escudo e de arma são para ler uma vez. O catálogo das 52 armas é para consultar na hora de escolher.
-
 ## Proteção
 
 > **Defesa = 10 + Destreza + proteção.**
@@ -284,7 +282,7 @@ O requisito e o treino são gates diferentes e não se substituem. Um olha o seu
 
 ## Catálogo
 
-Este catálogo é para consultar. O `Catálogo de armas` traz as 52 armas com tudo que decide o golpe, em três blocos, um por lista de treino. Depois dele vem o índice por propriedade, para quando você sabe o que quer que a arma faça e não qual é o nome dela. As treze categorias, no fim, dizem o que cada família é na mão e na cena.
+O `Catálogo de armas` traz as 52 armas com tudo que decide o golpe, em três blocos, um por lista de treino. Depois dele vem o índice por propriedade, para quando você sabe o que quer que a arma faça e não qual é o nome dela. As treze categorias, no fim, dizem o que cada família é na mão e na cena.
 
 ### Armas por treino
 
@@ -453,7 +451,7 @@ Treino marcial. O dano sai de Destreza: o arco se puxa, e puxar é coisa do corp
 Yumi é o arco japonês, assimétrico e alto, puxado até passar da orelha. Atirar com ele é postura e respiração antes de ser mira. O disparo sai calado, e é isso que faz um arco resolver um vigia no fim do corredor sem acordar os outros três.
 
 
-O daikyū passa de dois metros e se carrega nas costas. O hankyū fica entre 45 e 160 cm: é o arco de espaço apertado e de montaria, e é por isso que ele esconde e o outro não. Nenhum dos dois ganha do outro: o Daikyū tem o dado maior, o Hankyū tem a propriedade a mais.
+O daikyū passa de dois metros e se carrega nas costas. O hankyū fica entre 45 e 160 cm: é o arco de espaço apertado e de montaria, e é por isso que ele esconde e o outro não. O Daikyū tem o dado maior; o Hankyū tem a propriedade a mais.
 
 ### Balestra
 

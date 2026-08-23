@@ -172,6 +172,7 @@ Cadáver Amaldiçoado de Mutação Abrupta, na linguagem da instituição. Você
 
 | | |
 |---|---|
+| **Perícias** *(escolha uma)* | Atletismo · Percepção · Ocultismo · Intimidação |
 | **O que muda** | sem Fundamento, porque **não existe técnica inata para escrever**. Mas **você tem energia amaldiçoada**: cadáver de mutação abrupta produz a própria, uns três meses depois de acordar. Então PE, aptidões e refino normais — e **Técnica Marcial** no lugar do Fundamento |
 | **Traços** | *quem te fez, e o que essa pessoa esperava* · *o que as pessoas acham que você é* · *o núcleo que você ainda não usou na frente de ninguém* |
 | **Legados** | **as listas estão na peça 13** — um `Destranca` obrigatório e mais um de qualquer lista |
@@ -195,10 +196,29 @@ A troca é sempre desproporcional para os dois lados: você perde muito e ganha 
 
 | | |
 |---|---|
+| **Perícias** *(escolha uma)* | *corpo pela técnica:* Sentir Energia · Tecnologia · Ocultismo · Percepção<br>*sem energia:* Atletismo · Acrobacia · Furtividade · Pontaria |
 | **O que muda** | *corpo pela técnica:* Fundamento normal, corpo com limitação escrita na ficha<br>*sem energia:* sem Fundamento, sem PE, sem feitiço de Toque, sem Sentir Energia — e acesso a ferramenta amaldiçoada como eixo de poder |
 | **Traços** | *o clã que te descartou* · *a pessoa que te olha e vê o que você perdeu* · *a ferramenta que te acompanha desde criança* |
 | **Legados** | **as listas estão na peça 13** — um `Destranca` obrigatório e mais um de qualquer lista |
 | **Criação** | *corpo pela técnica:* **Fundamento** normal · *sem energia:* **Técnica Marcial** — peça 20, fechada na v0.122 |
+
+### A lista de perícia da Restrição Celestial sai por RAMO, e é a primeira do projeto assim
+
+***Decisão do Mizuki:*** **`corpo pela técnica` tira quatro do poço de Inteligência + Essência; `sem energia` tira quatro do de Destreza + Força.**
+
+**As cinco Origens principais têm uma lista só, escolhida a dedo pela ficção e não por atributo** — a do Latente mistura Essência, Inteligência e Destreza numa lista de quatro. *A Restrição Celestial abre forma nova por um motivo que as cinco não têm: os dois ramos dela são opostos por definição, e uma lista só teria de servir ao Kokichi e à Maki ao mesmo tempo.*
+
+> **O poço de Destreza + Força tem exatamente CINCO perícias** — `Atletismo`, `Acrobacia`, `Furtividade`, `Pontaria`, `Prestidigitação`. **A lista leva quatro, e a que fica de fora é a `Prestidigitação`**: mão-leve é o que menos combina com a Maki e o Toji.
+>
+> **O de Inteligência + Essência tem dezoito**, e a lista é `Sentir Energia` · `Tecnologia` · `Ocultismo` · `Percepção`.
+
+**O ramo sem energia não pode ter `Sentir Energia`** — o §5 dela diz *sem Sentir Energia* com todas as letras. *O poço já a exclui por acaso, porque ela é de Essência.* **Fica conferido que nada no texto contradiz.**
+
+*E o ramo sem energia é a primeira lista física do projeto:* **das vinte e três perícias, só `Furtividade` aparecia numa lista de Origem** — nem `Atletismo`, nem `Acrobacia`, nem `Pontaria`, nem `Prestidigitação` tinham dono até aqui.
+
+> **⚠ Duas dessas quatro são fixa de Caminho.** *`Atletismo` é do Bastião e `Acrobacia` é da Vanguarda*, então uma ficha desses dois Caminhos escolhe entre **três** e não entre quatro. **Isso não reprova no `conferir-pericias.py`** — a checagem 5.1 falha quando um Caminho fixa a lista **inteira**, e nenhum fixa mais de duas. *Fica declarado para não ser confundido com descuido depois.*
+
+**O Corpo Amaldiçoado ganhou lista a dedo, no molde das cinco principais:** `Atletismo` · `Percepção` · `Ocultismo` · `Intimidação`. ***Decisão do Mizuki:*** *ele não tem dois ramos, então não tem por que herdar a forma por poço.* **O corpo, os três núcleos que nunca dormem todos ao mesmo tempo, o que ele é feito, e o que as pessoas veem chegar.**
 
 ### O ramo da Maki tem Bênçãos e Lapidação, e isso estava decidido desde a v0.38
 

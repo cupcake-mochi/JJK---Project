@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 22/08/2026, na v0.128 (última peça fechada: **Dano e condições**, ampliada na v0.104 com a penalidade de arma; antes dela, a **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 22/08/2026, na v0.129 (última peça fechada: **Dano e condições**, ampliada na v0.104 com a penalidade de arma; antes dela, a **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com onze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.128.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte peças escritas** e **vinte validadores**.
+**Versão v0.129.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte peças escritas** e **vinte validadores**.
 
 ***DECISÃO ABERTA, e ela é do Mizuki: qual das três diagramações do livro fica.*** *As três estão no disco, em `05-material/livro/`, para comparar.*
 
@@ -10,13 +10,37 @@ Atualizado em 22/08/2026, na v0.128 (última peça fechada: **Dano e condições
 > |---|---|---|
 > | `-A-atual` | **256** | o que estava publicado na v0.125. Snapshot guardado a mão, não se regera |
 > | *(sem sufixo)* | **251** | a mesma, com as quebras de página consertadas e o sumário em duas colunas |
-> | `-C-duas-colunas` | **143** | corpo em duas colunas a 9,4pt com entrelinha 1,45, e grade de 5+ colunas em largura inteira |
+> | `-C-duas-colunas` | **142** | corpo em duas colunas a 9,4pt com entrelinha 1,45, e grade de 5+ colunas em largura inteira |
 >
 > **A geometria da C foi medida em três manuais do hobby, e não escolhida:** *Guia do Mestre 5e em A4, Caldeirão de Tasha e PHB 2024 — `83%`, `92%` e `92%` das páginas em duas colunas, com corpo entre `9,1` e `9,3pt`.* **A mancha copiada é a do Guia do Mestre, que é o único dos três em A4.**
 >
 > ***Escolhida a variante, ela vira uma linha do `build.py`*** — o `--duas` deixa de ser opção e vira padrão, ou some. *Enquanto isso o `Projeto-M-Manual-da-Guilda.pdf` continua sendo o de coluna única, e é ele que a entrega carrega.*
 >
 > **⚠ E o WeasyPrint 69 não implementa `column-span: all`**, medido com caso mínimo. *Por isso a tabela larga é tirada do fluxo de colunas no `build.py`, em `segmenta_colunas`, e não pelo CSS.*
+
+***A v0.129 leu o livro inteiro com os olhos, e as três frases do Mizuki eram amostra de três famílias que apareceram em 15 dos 20 capítulos.*** *`79.711` para `79.011` palavras, e nenhum número de regra se moveu.*
+
+> **As três famílias:** *metáfora no lugar da regra* (a Vanguarda "comprando aço"), *aviso escrito de trás para frente* ("nada disto morde"), e *contabilidade do projeto vazando para o livro* ("oito das nove rotas já rodam").
+>
+> ***Decisão dele, e ela abriu uma quarta:*** *"todo canto q tiver apresentação de informação, 'é balanceado por isso', comparativo e afins (…) pode REMOVER"*. **A régua do `REMOCOES-material-de-mestre.md` é de v0.106 e a v0.125 só a tinha aplicado em dois capítulos; esta aplicou nos outros dezoito.**
+>
+> **⚠⚠ E a leitura achou duas frases que tinham virado MENTIRA, sem ninguém mexer nelas.** *O capítulo 6 dizia "a Trilha ainda não entrega número" enquanto o capítulo 8 tem `19` blocos de nível escritos; e o capítulo 7 dizia que o segundo Legado do Reencarnado sai do `Destranca` ou do `Ajusta`, cinco versões depois de a v0.124 escrever o `Usado`, que é `Desliga`.* **Nenhuma regex acha as duas: as duas estão gramaticalmente perfeitas e falam de um estado do projeto que era verdade quando foram escritas.**
+>
+> ***É a terceira vez que este projeto registra o mesmo:*** *a v0.125 mediu duas réguas contáveis que passaram nos dois capítulos errados, a v0.126 cortou uma família e deixou o resto dela, e agora a v0.129 acha, lendo, o que as duas passadas deixaram.* **Decidir se uma frase é fato mal-vestido ou enfeite continua fora do alcance do validador, e a `REGRA-DE-VOZ.md` já declara isso.**
+
+***As duas listas de perícia da Restrição Celestial FECHARAM, e ela é a primeira Origem com lista por RAMO.*** **`corpo pela técnica` tira quatro do poço Inteligência + Essência; `sem energia` tira quatro do de Destreza + Força.** *O Corpo Amaldiçoado ganhou a dele a dedo, no molde das cinco principais — decisão do Mizuki, porque ele não tem dois ramos para separar.*
+
+> | Origem | lista |
+> |---|---|
+> | **Restrição Celestial · corpo pela técnica** | `Sentir Energia` · `Tecnologia` · `Ocultismo` · `Percepção` |
+> | **Restrição Celestial · sem energia** | `Atletismo` · `Acrobacia` · `Furtividade` · `Pontaria` |
+> | **Corpo Amaldiçoado** | `Atletismo` · `Percepção` · `Ocultismo` · `Intimidação` |
+>
+> ***O ramo sem energia é a primeira lista física do projeto:*** *das vinte e três perícias, só a `Furtividade` aparecia numa lista de Origem.* **O poço dele tem exatamente cinco, e a lista leva quatro — sai a `Prestidigitação`.**
+>
+> **⚠⚠ E o arnês achou que a lista de Origem morava DENTRO do validador.** *O `conferir-pericias.py` carregava as cinco escritas à mão e a mensagem de erro dele dizia "e a peca 09 diz quatro" — ele afirmava a regra da peça e guardava o dado dele mesmo.* **Hoje ele lê da peça, com guarda de contagem de `8` listas.** *Mesmo defeito que a v0.42 consertou para os ofícios, na peça vizinha.*
+>
+> **⚠ E o contra-teste que importava saía VERDE:** *a peça nega `Sentir Energia` ao ramo sem energia com todas as letras, e o poço a excluía **por acaso**.* **Entrou a checagem 5.1.1, que lê a negação do texto da peça em vez de guardá-la.** *Oito perturbações conferidas em cópia isolada, contra-teste incluído. A contagem não se moveu — sub-bloco conta para o bloco pai.*
 
 ***O LIVRO ALCANÇOU A FONTE na v0.124, e ele estava cinco versões atrás.*** **Dois capítulos entraram — `Técnica Marcial` como o 10 e `Bênçãos e Lapidação` como o 12 —, e o Manual da Guilda foi de 15 para 17 capítulos.**
 

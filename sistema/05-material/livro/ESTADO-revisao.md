@@ -1,5 +1,48 @@
 # Estado da revisão · Manual da Guilda
 
+## Leitura texto por texto — v0.129, 22/08/2026
+
+**Os 20 arquivos lidos inteiros, com os olhos, e não por regex.** *Motivo: o Mizuki leu o PDF publicado e achou três frases que a v0.125 e a v0.126 tinham deixado passar. As três eram amostra de três famílias, e as três famílias apareceram em **15 dos 20 capítulos**.*
+
+**`79.711` → `79.011` palavras.** *Nenhum número de regra se moveu.*
+
+### As três famílias, e o conserto de cada uma
+
+| família | o exemplar que ele achou | o conserto |
+|---|---|---|
+| **metáfora no lugar da regra** | *"a Vanguarda é o feiticeiro que resolveu o problema da técnica cara comprando aço"* | corta e escreve o que ela **faz** |
+| **aviso escrito de trás para frente** | *"se a sua Origem for o Corpo Amaldiçoado, nada disto morde"* | reescreve pela frente, sem cortar |
+| **contabilidade do projeto** | *"oito das nove rotas já rodam…"* | corta — a tabela ao lado já responde |
+
+> **A terceira levava uma permissão que nenhuma outra linha cobria** — *"você pode escrever a ficção inteira e escolher os dois Legados hoje"*. **Ela mudou de casa em vez de sair**, para a caixa da `Sem Técnica`. *Foi a exceção da `REGRA-DE-VOZ.md` fazendo o trabalho dela: comentário de efeito às vezes carrega regra que não está em mais lugar nenhum.*
+
+### A quarta família, por decisão do Mizuki nesta passada
+
+***"todo canto q tiver apresentação de informação, 'é balanceado por isso', comparativo e afins, informações que um player não precisa, é no máximo 'interessante saber' pode REMOVER".***
+
+**A régua do `REMOCOES-material-de-mestre.md` já dizia isso desde a v0.106**, e a v0.125 só a aplicou nos dois capítulos que tinham acabado de nascer. *Esta passada aplicou nos outros dezoito.* **Saíram nove blocos de prova de balanceamento**, entre eles a derivação do `8` da CD com `65%`, `60%` e `45%`, e o argumento do espaço do marco — que morava em **dois** capítulos com as mesmas palavras.
+
+### ⚠⚠ Duas frases tinham virado mentira, e medida nenhuma acha isso
+
+| onde | o que dizia | o que é verdade |
+|---|---|---|
+| cap. 6, *Criação de Personagem* | *"A Trilha ainda não entrega número (…) escolher agora não custa nada e não tranca nada"* | o cap. 8 tem **19** blocos `Nível 2:` escritos, e doze das quinze Trilhas entregam em 2, 11, 19 e 27 |
+| cap. 7, *Origens e Legados* | *"o segundo Legado de um Reencarnado sai do `Destranca` ou do `Ajusta`"* | a v0.124 escreveu o `Usado`, que é `Desliga` e é dele |
+
+> **As duas estão gramaticalmente perfeitas e falam de um estado do projeto que era verdade quando foram escritas.** *Nenhum validador as alcança, e nenhuma régua contável as acusa.* **É a mesma classe da terceira frase do Mizuki, e é por isso que esta passada foi leitura.**
+
+### O método, e ele é o que dá para repetir
+
+- **`guard_numeros.py` a cada arquivo**, e cada diferença lida contra a linha que a carregava.
+- **Uma segunda medida por cima:** contar os numerais só das linhas do `diff` e comparar com o delta do arquivo inteiro. *Se as duas baterem, nenhuma diferença veio de onde eu não olhei.* **Bateu nos quinze.**
+- **Onde o corte encostou numa regra, a regra foi procurada de pé depois.** *`CD = 8 + atributo + maestria` em quatro lugares, `Missão falhada paga metade ou nada` na caixa, `o refino nunca entra num número disputado` na caixa.*
+
+### O que não mudou
+
+`conferir-voz.py --estrito` continua em **0 achados**, **0 referência quebrada** e **0 termo sem destino** — de `91` termos que passam o corte para `93`, todos com casa. *Os mesmos **16** trechos de triagem à mão de antes: nenhum corte desta passada saiu de um marcador do validador, e nenhum criou marcador novo.*
+
+---
+
 ## Diagramação — v0.126, 22/08/2026
 
 **Três variantes no disco, e a escolha é do Mizuki.** *Ele leu o PDF e perguntou se não seria melhor em colunas, dando o sumário como exemplo — seis páginas para achar um capítulo.*

@@ -89,16 +89,48 @@ ORI_PERICIAS = 2                   # uma da lista da Origem + uma livre
 ORI_EXTRA = 1                      # mais um OFICIO livre, ou outra PERICIA no lugar
 FAIXA_TREINADA = (0.30, 0.42)
 
-# Cada Origem oferece quatro pericias e voce treina uma (peca 09).
-ORIGENS = {
-    'Latente':            ['Sentir Energia', 'Sobrevivencia', 'Furtividade', 'Intuicao'],
-    'Receptaculo':        ['Sentir Energia', 'Ocultismo', 'Intuicao', 'Religiao'],
-    'Descendente':        ['Hierarquia', 'Historia', 'Ocultismo', 'Persuasao'],
-    'Reencarnado':        ['Historia', 'Ocultismo', 'Investigacao', 'Intimidacao'],
-    'Feto':               ['Ocultismo', 'Medicina', 'Sentir Energia', 'Natureza'],
-}
-
 TODAS = [p for grupo in PERICIAS.values() for p in grupo]
+
+# Cada Origem oferece quatro pericias e voce treina uma (peca 09).
+#
+# v0.129: esta lista saiu daqui e passou a ser LIDA da peca 09, pelo mesmo motivo
+# que a de oficios saiu na v0.42 — ela morava em tres lugares (a peca, este
+# validador e o livro) e nenhum par era comparado. Licao no 9.
+# A Restricao Celestial e a primeira Origem com lista por RAMO: a celula dela traz
+# as duas separadas por <br>, cada uma com o nome do ramo em italico na frente.
+_P9 = open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                        '09-origens.md'), encoding='utf-8').read()
+_POR_NORMA = {norma(p): p for p in TODAS}
+
+
+def _le_origens(texto):
+    """{nome da Origem, ou 'Origem · ramo': [as quatro pericias]}, lido da peca 09."""
+    saida, atual = {}, None
+    for linha in texto.splitlines():
+        cab = re.match(r'#{3,4}\s+(.+?)\s*$', linha)
+        if cab:
+            atual = cab.group(1).strip()
+            continue
+        if atual is None or '**Perícias**' not in linha or linha.count('|') < 3:
+            continue
+        for pedaco in linha.split('|')[2].split('<br>'):
+            pedaco = pedaco.strip()
+            if not pedaco:
+                continue
+            ramo = re.match(r'\*([^*]+?):\*\s*(.+)$', pedaco)
+            chave = f'{atual} · {ramo.group(1).strip()}' if ramo else atual
+            corpo = ramo.group(2) if ramo else pedaco
+            # A peca e a fonte da LISTA; o quadro acima e a fonte da GRAFIA.
+            saida[chave] = [_POR_NORMA.get(norma(p.strip()), p.strip())
+                            for p in corpo.split('·') if p.strip()]
+    return saida
+
+
+ORIGENS = _le_origens(_P9)
+# Guarda de contagem: extrator que para de achar sai VERDE em silencio, e isso e a
+# licao no 8 por outra porta. Cinco principais + Corpo Amaldicoado + os DOIS ramos
+# da Restricao Celestial.
+ORIGENS_ESPERADAS = 8
 
 # Termos que ja significam outra coisa dentro do projeto.
 INTERNOS = {
@@ -252,16 +284,54 @@ print('  e nao sobra em que o resto do grupo brilhar. As duas rotas precisam cab
 
 # --------------------------------------------------------------------------
 bloco('5.1 AS LISTAS DE ORIGEM')
-print(f"  {'Origem':<16}{'oferece':>9}   pericias")
+print(f'  lidas da peca 09: {len(ORIGENS)} (esperadas {ORIGENS_ESPERADAS})')
+if len(ORIGENS) != ORIGENS_ESPERADAS:
+    erro(f'o extrator achou {len(ORIGENS)} listas de Origem na peca 09 e '
+         f'esperava {ORIGENS_ESPERADAS} — extrator que para de achar sai verde calado')
+print(f"\n  {'Origem':<34}{'oferece':>9}   pericias")
 for nome, lista in ORIGENS.items():
     fora = [p for p in lista if p not in TODAS]
-    print(f"  {nome:<16}{len(lista):>9}   {' · '.join(lista)}")
+    print(f"  {nome:<34}{len(lista):>9}   {' · '.join(lista)}")
     if len(lista) != 4:
         erro(f'{nome} oferece {len(lista)} pericias, e a peca 09 diz quatro')
     if fora:
         erro(f'{nome} oferece o que nao existe no quadro: {", ".join(fora)}')
     if len(set(map(norma, lista))) != len(lista):
         erro(f'{nome} repete uma pericia na propria lista')
+
+# 5.1.1 — o que a propria peca 09 NEGA aquela Origem nao pode voltar pela lista.
+# Ela nasceu do arnes da v0.129: o ramo sem energia diz "sem Sentir Energia" com
+# todas as letras, e o poco de Destreza+Forca a excluia POR ACASO. Perturbar a
+# lista pondo Sentir Energia nela saia VERDE — ninguem estava conferindo.
+# A negacao e LIDA da peca, e nao escrita aqui: licao no 9.
+print('\n  o que a peca 09 nega a uma Origem, conferido contra a lista dela:')
+_NEGA = {}
+_atual = None
+for _l in _P9.splitlines():
+    _c = re.match(r'#{3,4}\s+(.+?)\s*$', _l)
+    if _c:
+        _atual = _c.group(1).strip()
+        continue
+    if _atual is None or '**O que muda**' not in _l or _l.count('|') < 3:
+        continue
+    for _p in _l.split('|')[2].split('<br>'):
+        _r = re.match(r'\*([^*]+?):\*\s*(.+)$', _p.strip())
+        _k = f'{_atual} · {_r.group(1).strip()}' if _r else _atual
+        _corpo = _r.group(2) if _r else _p
+        _achados = [m.strip() for m in re.findall(r'sem ([A-ZÀ-Ü][\wÀ-ÿ ]*)', _corpo)]
+        _NEGA[_k] = [_POR_NORMA[norma(m)] for m in _achados if norma(m) in _POR_NORMA]
+
+_negadas = 0
+for nome, proibidas in _NEGA.items():
+    if not proibidas:
+        continue
+    _negadas += 1
+    print(f'    {nome:<40} nega {", ".join(proibidas)}')
+    for p in proibidas:
+        if norma(p) in {norma(x) for x in ORIGENS.get(nome, [])}:
+            erro(f'{nome} oferece {p} na lista de perícia, e o texto dela nega {p}')
+if _negadas == 0:
+    erro('nenhuma negacao "sem <Pericia>" foi lida da peca 09 — o extrator parou de achar')
 
 print('\n  Origem cuja lista o Caminho ja fixa por inteiro (a escolha da Origem morreria):')
 achou = False
@@ -274,7 +344,7 @@ if not achou:
     print('    nenhuma. Sobreposicao parcial e esperada — quem cair nela escolhe outra da lista.')
 
 usadas = {p for l in ORIGENS.values() for p in l}
-print(f'\n  as cinco Origens tocam {len(usadas)} das {total} pericias')
+print(f'\n  as {len(ORIGENS)} listas tocam {len(usadas)} das {total} pericias')
 
 bloco('6. TODA PERICIA E ALCANCAVEL')
 

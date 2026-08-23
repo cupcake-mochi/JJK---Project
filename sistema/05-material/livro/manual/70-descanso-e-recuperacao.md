@@ -113,7 +113,7 @@ Desvantagem é rolar dois d20 e ficar com o menor.
 
 **Em ambiente propício o descanso curto devolve 25% em qualquer degrau.** A exaustão só corta o combustível de quem está longe de casa.
 
-A ordem dos degraus tem lógica: o primeiro pega o que você faz fora de combate, o segundo pega posicionamento, e só o terceiro pega a rolagem de luta. Quem está cansado começa a falhar no que não mata antes de falhar no que mata. Isso não quer dizer que o degrau 1 seja leve, ele é do mesmo tamanho do degrau 3, e cai em cima de outra coisa.
+Os degraus sobem por consequência e não por tamanho: o primeiro pega o que você faz fora de combate, o segundo pega posicionamento, e só o terceiro pega a rolagem de luta. **O degrau 1 não é o leve** — ele tira o mesmo que o 3, em cima de outra coisa.
 
 ### Exaustão e Integridade ao mesmo tempo
 
@@ -153,8 +153,6 @@ A válvula só anda para um lado. O mestre nunca adiciona degrau fora da regra.
 | **por descanso longo** | a missão acaba | a menos frequente |
 
 `Por dia` e `por descanso longo` não são a mesma coisa, e a diferença aparece em missão comprida. Uma missão pode durar cinco dias: quem tem alguma coisa `por dia` recarrega cinco vezes; quem tem `por descanso longo` recarrega uma.
-
-Ninguém precisa decorar a escada. Ela existe para quando alguém perguntar *"isso volta antes ou depois daquilo?"*.
 
 ## Exemplo
 

@@ -96,7 +96,7 @@ zero. *Isto é o `Corpo Duro` funcionando: ele não evita o golpe, evita o estra
 
 **Se a maldição tivesse sobrevivido**, o turno dela viria de novo, e a cena continuaria
 até alguém desistir, fugir ou cair. **Se Kaori chegasse a `0` de vida**, ela escolheria
-entre `Aguentar` e `Insistir` — a regra está no capítulo 1, na seção *Vida a 0*, e ela é o momento mais decidido pelo jogador em todo o sistema.
+entre `Aguentar` e `Insistir`. A regra está no capítulo 1, na seção *Vida a 0*.
 
 ## Depois da cena
 
@@ -105,5 +105,3 @@ entre `Aguentar` e `Insistir` — a regra está no capítulo 1, na seção *Vida
   passos — a Kaori acima é o exemplo completo de lá.
 - **Esbarrou numa palavra que não foi explicada?** O vocabulário do sistema, logo atrás
   desta página, tem uma linha para cada termo e o capítulo que o explica por extenso.
-- **Vai mestrar?** Nada nesta parte é para o mestre especificamente — ela é a mesma cena
-  para todo mundo na mesa, jogando ou lendo sozinho.

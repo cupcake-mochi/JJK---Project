@@ -471,8 +471,6 @@ Fundamento, do jeito padrão.
 > **Usado** — este corpo já esteve em estado muito pior que este, e levantou: uma vez por cena, você não fica `Derrubado`. Em troca, ele cobra depois — o mestre diz uma coisa pequena que o seu corpo passa a fazer errado até o fim da cena, e ela é sua e não dele.
 > *Na mesa:* você levanta na rodada em que o grupo precisava que alguém levantasse, e sai da cena devendo alguma coisa que o mestre escolhe.
 
-A segunda vaga do Reencarnado depende de um assunto que está sendo escrito: objeto amaldiçoado. Enquanto isso, o segundo Legado de um Reencarnado sai do `Destranca` ou do `Ajusta`.
-
 ## Feto
 
 *Alguém te fez, peça por peça.*
@@ -596,13 +594,13 @@ Você não escreve Fundamento. Não tem Regra, não tem Famílias, não tem Selo
 
 Aptidão ou Estilo da Sombra.
 
-> **Sem Técnica não é jogável hoje.** O que falta é a máquina de criação: as duas rotas precisam de uma construção com a mesma dignidade que o Fundamento tem, dizendo quantas aptidões, com que orçamento, e o que se paga por elas. Está sendo escrita.
+> **Sem Técnica não fecha ficha hoje.** O que já dá para fazer é a ficção inteira: você escreve quem o personagem é e escolhe os dois Legados normalmente. O que falta é a montagem do poder — nem a Aptidão nem o Estilo da Sombra têm regra de construção, e sem ela a ficha para no meio.
 
 ### Legado de Sem Técnica
 
 Sem Técnica não amplia a conta de Legados. Ela é uma entrada de `Destranca` e ocupa uma das duas vagas, como qualquer outra. Cinco Origens compartilham esta entrada em vez de cada uma repetir o texto na própria lista: Latente, Receptáculo, Descendente, Reencarnado e Feto.
 
-> **Sem Técnica** — você tem energia amaldiçoada, e a técnica não veio junto: é outro caminho de poder. O seu poder não sai do Fundamento. Ele sai de aptidão ou de escola de espada, e é lá que você monta o personagem. O Estilo da Sombra está sendo escrito.
+> **Sem Técnica** — você tem energia amaldiçoada, e a técnica não veio junto: é outro caminho de poder. O seu poder não sai do Fundamento. Ele sai de aptidão ou de escola de espada, e é lá que você monta o personagem.
 
 Corpo Amaldiçoado e Restrição Celestial não aceitam Sem Técnica. As duas já vêm com uma troca própria embutida no lugar da técnica.
 
@@ -624,7 +622,7 @@ Sem Fundamento, porque não existe técnica inata para escrever. Você tem energ
 
 #### Perícias
 
-A lista de quatro desta Origem está sendo escrita.
+Escolha uma: Atletismo · Percepção · Ocultismo · Intimidação
 
 #### Traços
 
@@ -791,7 +789,17 @@ O `PE` do seu Caminho continua chegando. Nesta rota ele se lê **Pontos de Esfor
 
 #### Perícias
 
-A lista de quatro desta Origem está sendo escrita.
+A lista sai por ramo, e é a única Origem assim.
+
+**Perícias por ramo**
+{: .tab-titulo }
+
+| Ramo | Escolha uma |
+|---|---|
+| **Corpo pela técnica** | Sentir Energia · Tecnologia · Ocultismo · Percepção |
+| **Sem energia** | Atletismo · Acrobacia · Furtividade · Pontaria |
+
+Quem é do ramo sem energia não alcança `Sentir Energia` por lugar nenhum: ela é perícia de Essência, e essa é a percepção que a Origem não tem.
 
 #### Traços
 
@@ -941,5 +949,3 @@ A lista de quatro desta Origem está sendo escrita.
 | Corpo Amaldiçoado | Técnica Marcial | **sim** |
 | Restrição Celestial · corpo pela técnica | Fundamento | **sim** |
 | Restrição Celestial · sem energia | Técnica Marcial | **sim** |
-
-Oito das nove rotas já rodam: seis pelo Fundamento e duas pela Técnica Marcial. A que falta é Sem Técnica, e ela espera uma máquina de criação própria. Nela, você pode escrever a ficção inteira e escolher os dois Legados hoje; o que falta é a montagem do poder.

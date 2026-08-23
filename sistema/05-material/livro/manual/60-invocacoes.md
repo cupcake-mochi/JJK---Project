@@ -2,7 +2,7 @@
 
 Uma invocação é um corpo que anda no campo por sua conta e obedece você: um shikigami, um talismã que vira bicho, uma maldição que você domou. Ela se monta gastando um orçamento de pontos, numa mini ficha bem menor que a do seu personagem.
 
-Quem ganha o corpo é quem tem uma das três Trilhas do Evocador. **O que a Trilha concede não sai do orçamento**: ela entrega quantos corpos você tem e quanta vida cada um aguenta, e o orçamento desta página compra capacidade por cima disso. As três Trilhas estão no capítulo 8, *Caminhos e Trilhas*, com o número de cada uma. Nada na regra abaixo depende de ser Evocador, então ela vale igual no dia em que outra coisa der uma invocação a alguém.
+Quem ganha o corpo é quem tem uma das três Trilhas do Evocador. **O que a Trilha concede não sai do orçamento**: ela entrega quantos corpos você tem e quanta vida cada um aguenta, e o orçamento desta página compra capacidade por cima disso. As três Trilhas estão no capítulo 8, *Caminhos e Trilhas*, com o número de cada uma. Nada na regra abaixo depende de ser Evocador: ela vale para qualquer ficha que ganhe uma invocação, venha ela de onde vier.
 
 ## Regra rápida do turno
 
@@ -89,7 +89,7 @@ Toda invocação é de um dos quatro tipos, e o tipo é o que decide a base da v
 
 *As colunas de nível mostram a conta com a Constituição dela em `0`. Cada ponto de Constituição soma o seu nível inteiro à vida.*
 
-Só a base muda entre os quatro tipos, e o por-nível é igual em todos. Por isso a distância entre o tipo mais fraco e o mais forte encolhe conforme você sobe: **o tipo pesa na criação e vira sabor no fim da campanha.**
+Só a base muda entre os quatro tipos, e o por-nível é igual em todos: a diferença que o tipo faz é a mesma em todo nível, e ela é de dois pontos de vida no máximo.
 
 O tipo também decide o que a mesa vê chegar. Um `talismã` é papel que se desdobra e cresce. Um `corpo amaldiçoado` é carne que já foi de alguém. Uma invocação de `técnica` é feita da sua própria energia, e some do jeito que veio. Uma `maldição domada` é uma coisa que quis te matar antes de aceitar andar do seu lado, e todo mundo na cena sabe disso.
 
@@ -240,7 +240,7 @@ Três dos seis cabem já no nível 2, e os outros chegam nos marcos seguintes.
 
 Os 18 metros são o alcance base de Projétil, a referência de distância do sistema. Na prática, a invocação anda até dois turnos de movimento à frente de você.
 
-Se ela sumisse ao passar da amarra, o inimigo que a empurrasse para longe estaria apagando de graça o que você pagou em PE e em ação. Ficar parada custa a rodada e devolve o corpo.
+Empurrar a invocação para fora da amarra custa a ela a rodada, e não o corpo: ela volta a agir assim que você voltar ao alcance dela, ou ela do seu.
 
 **Faixas de alcance**
 {: .tab-titulo }

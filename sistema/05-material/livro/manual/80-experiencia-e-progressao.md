@@ -85,7 +85,7 @@ Quem levou um final de arco no nível 2 sobe um nível na hora e entra na missã
 | **5ª** | 12% |
 | **6ª** | 6% |
 
-A contagem zera na virada da semana, e ninguém sai com zero. Moer mesa deixa de compensar sozinho, sem proibir nada e sem ninguém precisar fiscalizar.
+A contagem zera na virada da semana, e ninguém sai com zero: a sexta missão ainda paga.
 
 **O desconto é individual.** Numa missão com quatro pessoas, uma pode estar na primeira missão da semana dela e outra na quarta. Cada um aplica o seu.
 
@@ -93,7 +93,7 @@ A contagem zera na virada da semana, e ninguém sai com zero. Moer mesa deixa de
 
 > **Missão falhada paga metade ou nada, e quem decide é o mestre.**
 
-Uma missão perdida por azar de dado pesa diferente de uma abandonada na metade. O piso é metade porque seis horas de sessão terminando em nada fazem a pessoa não voltar; o teto é metade porque senão o sucesso deixa de significar.
+Uma missão perdida por azar de dado pesa diferente de uma abandonada na metade, e é essa diferença que o mestre está lendo quando escolhe entre as duas.
 
 ## XP de quem mestra
 
@@ -107,7 +107,7 @@ Um mestre ativo constrói patente e rede, e as duas abrem porta que nível nenhu
 
 Aos 6.300 de XP acumulado o personagem para no nível 20 até a mesa reconhecer alguma coisa que ele fez. O XP continua acumulando e nada se perde: quando o feito acontece, o que estava guardado destrava de uma vez.
 
-É o único ponto do jogo em que o eixo social e o eixo de poder se tocam, e eles se tocam uma vez só, na fronteira entre o mundano e o lendário. O que conta como feito é conversa de mesa, e a mesa fecha a lista antes de alguém chegar lá.
+O que conta como feito é conversa de mesa, e a mesa fecha a lista antes de alguém chegar lá.
 
 ## Operação na mesa
 
@@ -181,7 +181,7 @@ São **3 no nível 2**, **16 no nível 20** e **24 no nível 30**, e a coluna *e
 
 A parte de baixo da conta dá um feitiço novo **a cada nível par**. A parte de cima é o espaço que cada **marco** solta de graça, então nos níveis 6, 10, 14, 18, 22, 26 e 30 entram dois de uma vez.
 
-Esse espaço do marco existe porque Passiva custa espaço de feitiço conhecido, e a Expansão de Domínio também. Sem ele, quem monta técnica funda chegava ao nível 20 com dois feitiços na lista.
+Passiva custa espaço de feitiço conhecido, e a Expansão de Domínio também: as três saem desta mesma coluna.
 
 ### Vida e PE
 
@@ -224,7 +224,7 @@ A escolha é do momento: você decide no marco, e nada obriga você a repetir a 
 
 Você começa a campanha com nove pontos de atributo distribuídos na criação. A linha de graça dos sete marcos leva isso a dezesseis, e quem escolhe **Corpo** nos sete chega a vinte e três, espalhados por até cinco atributos com teto de 6 em cada.
 
-As três não compram a mesma coisa, e nenhuma precisa de trava. Refino não vale nada para quem não tem aptidão: quem escolhe Leque sete vezes tem zero aptidões, e o refino dele fica sendo número morto. Quem escolhe Refino sete vezes tem dez aptidões e nenhuma Passiva a mais para querer.
+Refino não vale nada para quem não tem aptidão: quem escolhe Leque sete vezes tem zero aptidões, e o refino dele fica sendo número morto. Quem escolhe Refino sete vezes tem dez aptidões e nenhuma Passiva a mais para querer.
 
 > **Quem nunca escolhe Refino termina a campanha com zero aptidões.** A rota é legítima e está escrita aqui para ninguém descobrir isso no nível 20. Mesmo essa ficha não fica sem nada: `Cobrir-se de energia` e `Canalizar energia` vêm de graça no refino 1, e a primeira continua crescendo com o refino da linha passiva até 8. O que ela nunca vai ter é `Energia Reversa` nem `Barreira Simples`.
 {: .aviso }
@@ -242,9 +242,9 @@ O refino começa em `1`, sobe `+1` de graça em cada um dos sete marcos, e a esc
 | **meio a meio** | `3` | `4` | `6` | `7` | `9` | `10` | `10` |
 | **generalista**, nunca Refino | `2` | `3` | `4` | `5` | `6` | `7` | **`8`** |
 
-A faixa é de `4` a `7` no nível 14 e de `6` a `10` no nível 22. Diferencia sem virar caos: duas fichas do mesmo nível nunca ficam a mais de quatro degraus de distância.
+A faixa é de `4` a `7` no nível 14 e de `6` a `10` no nível 22: duas fichas do mesmo nível nunca ficam a mais de quatro degraus de distância.
 
-O especialista bate no teto no **nível 22**, e é exatamente aí que a escolha de Refino troca de moeda: dali em diante ela entrega duas aptidões no lugar do degrau que não teria mais onde cair. Nenhum dos três marcos finais fica com uma das mãos vazia.
+O especialista bate no teto no **nível 22**, e é aí que a escolha de Refino troca de moeda: dali em diante ela entrega duas aptidões no lugar do degrau que não teria mais onde cair.
 
 > **Guardar marco não guarda refino.** A linha de graça sobe sozinha, e ela não espera você decidir. Quem deixa para investir tarde chega aos níveis altos com o refino da linha de baixo e ainda precisa de mais um marco para alcançar o degrau que queria. Gate de refino se paga com tempo, e o tempo não volta.
 
@@ -258,9 +258,9 @@ O especialista bate no teto no **nível 22**, e é exatamente aí que a escolha 
 | atributo, refino, espaço e escolha | sim | sim | sim | sim | sim | sim | sim |
 | maestria sobe | — | **sim** | — | **sim** | — | **sim** | — |
 
-Um marco sim, um não, começando pelo segundo. Nenhum marco fica vazio, e nenhum junta dois ganhos grandes no mesmo nível.
+Um marco sim, um não, começando pelo segundo.
 
-A maestria vai de 1 no nível 2 a 4 no nível 30, e o seu atributo principal vai de 3 na criação a 6 no teto. Os dois crescem `+3` na campanha inteira, e é esse empate que faz a chance de acertar e a chance de resistir não derivarem: o que sobe do seu lado sobe do lado de lá na mesma velocidade.
+A maestria vai de 1 no nível 2 a 4 no nível 30, e o seu atributo principal vai de 3 na criação a 6 no teto.
 
 ### Teto de Passivas
 

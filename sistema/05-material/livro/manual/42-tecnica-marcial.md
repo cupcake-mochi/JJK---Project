@@ -127,7 +127,7 @@ Na rota de ferramenta, o objeto declara qual dos dois é na criação — uma li
 > **⚠ Escolha com cuidado, porque ela cobra tarde.** O ataque extra que Bastião e Vanguarda ganham no nível 7 é um golpe simples solto. Se o seu objeto é do tipo que você só carrega, esses dois Caminhos passam a valer bem menos na sua ficha.
 {: .aviso }
 
-> **Se a sua Origem for o Corpo Amaldiçoado, nada disto morde.** Você tem energia amaldiçoada, então tem aptidões e refino normais, e com eles o `canalizar energia` de graça no refino 1: o seu golpe simples fere maldição seja qual for o objeto. Você continua precisando do equipamento, porque ele é o Selo, e sem Selo não sai Kata.
+> **O Corpo Amaldiçoado fere maldição com o golpe simples, seja qual for o objeto.** Ele tem energia amaldiçoada, então tem aptidões e refino normais — e com eles o `canalizar energia` de graça no refino 1. **O equipamento continua obrigatório**, porque ele é o Selo, e sem Selo não sai Kata.
 
 ## `Desarmado`
 

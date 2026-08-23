@@ -8,6 +8,101 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.129] — 22/08/2026
+
+**A passada de texto que era leitura e não varredura, e as duas listas de perícia que fechavam a Restrição Celestial.**
+
+*Os 20 arquivos do livro lidos inteiros, com os olhos. As três frases que o Mizuki achou no PDF publicado eram amostra de três famílias, e as três famílias apareceram em **15 dos 20 capítulos**.* **O livro foi de `79.711` para `79.011` palavras.**
+
+### As três que ele nomeou, e o conserto de cada uma
+
+| onde | a frase | o que ela virou |
+|---|---|---|
+| `35-caminhos-e-trilhas` | *"a Vanguarda é o feiticeiro que resolveu o problema da técnica cara comprando aço"* | **o que ela faz** — entra no alcance do inimigo e fica lá |
+| `42-tecnica-marcial` | *"se a sua Origem for o Corpo Amaldiçoado, nada disto morde"* | **o aviso pela frente** — o Corpo Amaldiçoado fere maldição com o golpe simples seja qual for o objeto |
+| `25-origens` | *"oito das nove rotas já rodam…"* | **cortada.** A tabela `Rotas de criação`, logo acima, responde com uma coluna `Jogável hoje` |
+
+> **A terceira levava uma permissão que nenhuma outra linha cobria** — *"você pode escrever a ficção inteira e escolher os dois Legados hoje"*. **Ela não foi cortada junto: mudou de casa**, para a caixa da `Sem Técnica`, que é a dona do assunto. *É o molde do achado da v0.125, quando a regra da rota sem energia mudou de capítulo em vez de sair.*
+
+### Decidido — a quarta família saiu junto, e foi decisão dele
+
+***"todo canto q tiver apresentação de informação, 'é balanceado por isso', comparativo e afins, informações que um player não precisa, é no máximo 'interessante saber' pode REMOVER".***
+
+**A régua do `REMOCOES-material-de-mestre.md` é de v0.106 e a v0.125 só a aplicou em dois capítulos.** *Esta versão aplicou nos outros dezoito.*
+
+| o que saiu | onde |
+|---|---|
+| a derivação do `8` da CD, com `65%`, `60%` e `45%` | `40-fundamento` |
+| *"a Palma sai perto de `70%` do teto"* — o recibo da conta | `40-fundamento` |
+| *"um número que sobe três vezes mais rápido quebraria qualquer rolagem disputada"* | `45-aptidoes` |
+| *"sem ela, quem monta técnica funda chegava ao nível 20 com dois feitiços"* — **em dois capítulos** | `45-aptidoes` e `80-experiencia` |
+| *"é esse empate que faz a chance de acertar e a de resistir não derivarem"* | `80-experiencia` |
+| *"Diferencia sem virar caos"* · *"Nenhum marco fica vazio"* · *"Moer mesa deixa de compensar sozinho"* | `80-experiencia` |
+| *"a diferença entre a mesa mais avara e a mais generosa"* | `55-ferramenta` |
+| *"nenhum mestre precisa julgar se alguém está em combate"* | `45-aptidoes` |
+| *"a maestria entra porque a Defesa cresce por dois caminhos"* | `10-como-jogar` |
+
+> **O par `60%`/`45%` morava em DOIS capítulos**, no 1 e no 9, com os mesmos dois números. *Lição nº 9 dentro do próprio livro.* **Os dois recibos saíram, e o aviso que importa — não treinar dói, e é por ali que um chefe entra — ficou no capítulo 1.**
+
+### Corrigido — duas frases que tinham virado MENTIRA, e nenhuma medida acha isso
+
+**1 · O capítulo 6 dizia que a Trilha não entrega número.** *"**A Trilha ainda não entrega número.** Hoje ela é o nome e uma frase (…). Escolher agora não custa nada e não tranca nada."* **O capítulo 8 tem `19` blocos `Nível 2:` escritos**, e doze das quinze Trilhas entregam nos níveis 2, 11, 19 e 27. *Quem lesse a criação de personagem concluiria que a escolha era decorativa.* **Reescrito para o que é verdade, com as três do Evocador declaradas como a exceção.**
+
+**2 · O capítulo 7 dizia que o segundo Legado de um Reencarnado sai do `Destranca` ou do `Ajusta`.** *A v0.124 escreveu o `Usado`, que é `Desliga` e é dele.* **A frase ficou cinco versões excluindo uma entrada que existe.** *Cortada — a tabela ao lado já mostra as duas linhas.*
+
+> **As duas são da mesma família da terceira frase dele: contabilidade do projeto que envelheceu.** *Regex nenhuma acha as duas, porque as duas estão gramaticalmente perfeitas e falam de um estado do projeto que era verdade quando foram escritas.*
+
+### Decidido — as duas listas de perícia da Restrição Celestial, e a do Corpo Amaldiçoado
+
+***Decisão do Mizuki, as três:***
+
+| Origem | lista | de onde ela sai |
+|---|---|---|
+| **Restrição Celestial · corpo pela técnica** | `Sentir Energia` · `Tecnologia` · `Ocultismo` · `Percepção` | do poço Inteligência + Essência, que tem `18` |
+| **Restrição Celestial · sem energia** | `Atletismo` · `Acrobacia` · `Furtividade` · `Pontaria` | do poço Destreza + Força, que tem `5`. **Sai a `Prestidigitação`** |
+| **Corpo Amaldiçoado** | `Atletismo` · `Percepção` · `Ocultismo` · `Intimidação` | **a dedo**, no molde das cinco principais |
+
+> **A Restrição Celestial é a primeira Origem com lista por RAMO**, e a forma nova tem motivo: os dois ramos dela são opostos por definição, e uma lista só teria de servir ao Kokichi e à Maki ao mesmo tempo. **O Corpo Amaldiçoado não tem dois ramos, então não herdou a forma** — *decisão dele.*
+>
+> ***E o ramo sem energia é a primeira lista física do projeto.*** *Das vinte e três perícias, só a `Furtividade` aparecia numa lista de Origem: `Atletismo`, `Acrobacia`, `Pontaria` e `Prestidigitação` não tinham dono nenhum até aqui.*
+>
+> **⚠ Duas das quatro são fixa de Caminho** — `Atletismo` do Bastião e `Acrobacia` da Vanguarda —, então uma ficha desses dois escolhe entre três. *Declarado na peça, porque a checagem 5.1 só reprova quando um Caminho fixa a lista inteira.*
+
+### ⚠⚠ E o arnês achou um buraco aberto: a lista de Origem morava DENTRO do validador
+
+**O `conferir-pericias.py` carregava as cinco listas escritas à mão**, e a mensagem de erro dele dizia *"e a peca 09 diz quatro"* — ele **afirmava** a regra da peça e **guardava** o dado dele mesmo. *Terceira cópia sem ninguém comparando, no molde exato do que a v0.42 consertou para os ofícios.*
+
+**Agora ele LÊ da peça 09**, com guarda de contagem: `8` listas — cinco principais, o Corpo Amaldiçoado e os dois ramos.
+
+> **⚠ E o contra-teste que importava saía VERDE.** *A peça diz `sem Sentir Energia` para o ramo sem energia, com todas as letras; o poço de Destreza + Força a excluía **por acaso**.* **Perturbar a lista pondo `Sentir Energia` nela passava sem acender.** *Ninguém estava conferindo a negação — só o acaso do poço.*
+>
+> **Entrou a checagem 5.1.1, e a negação é LIDA da peça e não escrita no validador:** ela extrai todo `sem <Perícia>` do texto da Origem e falha se a lista devolver o que o texto tirou. **Com guarda própria:** se nenhuma negação for lida, ela acusa em vez de conferir zero em silêncio.
+>
+> ***Oito perturbações conferidas em cópia isolada, com a base passando antes de cada uma e o `diff` conferido:*** *lista com três, perícia que não existe no quadro, perícia repetida, linha apagada, `<br>` quebrado, `Sentir Energia` no ramo que a nega, a negação apagada do texto — e o **contra-teste**, trocando uma perícia numa Origem que não nega nada, que sai verde e prova que a checagem não é trivialmente verdadeira.*
+
+*A contagem não se moveu: a 5.1.1 é sub-bloco da 5.1, e sub-bloco conta para o bloco pai.* **Continuam `21` validadores e `203` checagens.**
+
+### O que NÃO saiu
+
+**Nenhuma regra e nenhum número de regra.** *O `guard_numeros.py` rodou nos quinze arquivos mexidos, e cada diferença foi lida contra a linha que a carregava — e conferida por uma segunda medida, que conta só as linhas do `diff`.* **As duas medidas bateram nos quinze.**
+
+> **Onde o corte encostou numa regra, a regra foi conferida de pé depois:** *`CD de feitiço = 8 + o atributo da sua técnica + maestria` continua em quatro lugares; `Missão falhada paga metade ou nada` continua na caixa; `o refino nunca entra num número disputado` continua na caixa.*
+
+### Medido depois
+
+| | v0.128 | v0.129 |
+|---|---|---|
+| palavras do livro | 79.711 | **79.011** |
+| capítulos mexidos | — | **15 de 20** |
+| coluna única | 251 páginas | **251** |
+| duas colunas | 143 páginas | **142** |
+| `conferir-voz --estrito` | 0 achados · 16 triagens | **0 achados · 16 triagens** |
+| termos com destino | 91 de 91 | **93 de 93** |
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **A decisão de qual das três diagramações fica continua aberta**, e ela vira uma linha do `build.py`. *A fila de mecânica não mudou: as três Trilhas do Evocador.*
+
+---
+
 ## [0.128] — 22/08/2026
 
 **O prompt de retomada, reescrito para a passada de texto que a v0.125 e a v0.126 não fecharam.**

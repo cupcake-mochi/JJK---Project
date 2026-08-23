@@ -68,7 +68,7 @@ Na mesa, esse degrau costuma ser a primeira peça que muda a cara de um personag
 
 Os dois dão um `Estigma` de Classe 3 e os dois pedem nível 13. A diferença é de ficção: uma ferramenta de grau 1 se forja, e uma especial é uma só que existe no mundo inteiro, com nome próprio e história conhecida. Quem carrega uma especial carrega junto a história dela: gente vai reconhecer a peça antes de reconhecer você.
 
-As três especiais citadas acima aparecem aqui como exemplar. A ficha de cada uma está sendo escrita.
+As três especiais citadas acima entram como exemplar, e nenhuma delas tem ficha escrita: quem quiser pôr uma em jogo monta com o mestre, dentro do que a Classe 3 permite.
 
 ### Grau e patente
 
@@ -106,7 +106,7 @@ Uma ferramenta de grau 1 com `Desgaste` dura **três missões** de uso antes de 
 | **uma arma mais dois apoios: o teto declarado** | **3** |
 | duas armas de uma mão mais dois apoios | 4 |
 
-A diferença inteira entre a mesa mais avara e a mais generosa cabe entre um e três `Estigmas`. Não existe ficha com cinco ferramentas: as mãos fecham um lado e o teto de dois apoios fecha o outro.
+Não existe ficha com cinco ferramentas: as mãos fecham um lado e o teto de dois apoios fecha o outro.
 
 ## Catálogo de `Estigma`
 

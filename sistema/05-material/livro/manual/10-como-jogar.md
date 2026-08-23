@@ -38,7 +38,7 @@ Cada perícia tem um atributo fixo, e o quadro completo (vinte e três perícias
 > **Desvantagem: role dois d20 e fique com o pior.**
 > O bônus é somado normalmente ao dado que ficou.
 
-Qualquer coisa pode ligar um dos dois: um Legado, uma condição, um aliado te ajudando, a posição em que você está. Na prática, vantagem transforma uma tentativa duvidosa numa tentativa boa, e desvantagem faz o contrário sem mexer em número nenhum da ficha.
+Qualquer coisa pode ligar um dos dois: um Legado, uma condição, um aliado te ajudando, a posição em que você está. Nenhum dos dois mexe em número da ficha — os dois mexem em quantos dados você joga.
 
 > **Exemplo.** Sousuke ataca alguém que está `Derrubado`, a um metro de distância. A condição dá vantagem a quem ataca de perto: ele rola dois d20, tira 6 e 17, e usa o 17.
 
@@ -110,9 +110,7 @@ Três rolagens, uma para cada jeito de machucar alguém. Todas comparam com a **
 > **Ataque à distância = d20 + Destreza + maestria**
 > **Ataque de conjuração = d20 + o atributo da sua técnica + maestria**
 
-As três têm a mesma forma: **um atributo, mais a maestria.** O atributo do corpo a corpo é a Força e o do tiro é a Destreza; o da conjuração é aquele que você escolheu quando escreveu a técnica, e ele pode ser qualquer um dos cinco. O feiticeiro que conjura pela Força existe, e é só isso que ele é.
-
-A maestria entra porque a Defesa de quem você ataca cresce por dois caminhos — o atributo dele e a energia com que ele se cobre —, e um lado que cresce por dois precisa do outro crescendo por dois também.
+As três têm a mesma forma: **um atributo, mais a maestria.** O atributo do corpo a corpo é a Força e o do tiro é a Destreza; o da conjuração é aquele que você escolheu quando escreveu a técnica, e ele pode ser qualquer um dos cinco.
 
 Nem todo feitiço rola acerto. Um feitiço resolve de três jeitos, e o capítulo 9, *Fundamento*, diz qual é o de cada um:
 
@@ -174,7 +172,7 @@ O TR Físico é o único que escolhe entre dois atributos, e essa escolha é fei
 Você é treinado em **dois dos quatro**: a sua Origem treina um, o seu Caminho treina outro. **No Teste de Resistência que você treinou, você soma a maestria; nos outros dois, só o atributo.** É a mesma marca de treino da perícia e do ofício.
 
 {: .aviso }
-> Os dois Testes de Resistência que você não treinou ficam para trás conforme a campanha anda — de `60%` de chance de resistir no nível 2 para `45%` no 30. Não é descuido: é o preço de não treinar, e é por ali que um chefe vai entrar.
+> Nos dois Testes de Resistência que você não treinou, você não soma a maestria — e a distância entre eles e os treinados só cresce conforme a campanha anda. É por ali que um chefe vai entrar.
 
 > **Exemplo.** Kaito travou o TR Físico em Destreza, que é 4, e a Origem dele treinou justamente esse. Um feitiço de área de CD 15 explode do lado dele: ele rola 9 no d20, soma 4 de Destreza e 2 de treino, dá 15. Igualou, então resistiu.
 

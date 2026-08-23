@@ -105,7 +105,7 @@ Nenhuma perícia mora em Constituição. Constituição governa os pontos de vid
 
 #### Essência
 
-**Sentir Energia** — perceber energia amaldiçoada. Notar o feiticeiro escondido, medir o tamanho de uma maldição antes de encostar nela, sacar que alguém está prestes a conjurar. É a perícia mais rolada da mesa, porque quase toda cena do jogo tem energia amaldiçoada em algum lugar dela, e é ela que diz se o grupo entra na sala ou dá meia-volta.
+**Sentir Energia** — perceber energia amaldiçoada. Notar o feiticeiro escondido, medir o tamanho de uma maldição antes de encostar nela, sacar que alguém está prestes a conjurar. Quase toda cena do jogo tem energia amaldiçoada em algum lugar, e é esta perícia que diz se o grupo entra na sala ou dá meia-volta.
 
 **Percepção** — notar o mundano: som, cheiro, movimento, a coisa que está fora do lugar, a pessoa suando frio. É a perícia de entrar num lugar novo e reparar em alguma coisa antes de ela virar problema.
 

@@ -195,13 +195,13 @@ O que a `Brasa` acrescenta ao Bastião é alcance. Ela pega alvo que está fora 
 
 *A arma é a resposta: alcançar, cortar, acabar.*
 
-A Vanguarda é o feiticeiro que resolveu o problema da técnica cara comprando aço. Ele treinou arma como quem treina técnica: anos numa categoria só, com professor, com forma, com linhagem. Energia amaldiçoada ele tem e usa, e o que ele faz melhor que todo mundo é encostar a lâmina onde precisa encostar.
+A Vanguarda encosta a lâmina onde ela precisa encostar, e chega lá antes do resto. Em campo ela é quem entra no alcance do inimigo e fica lá: corta, reposiciona, corta de novo. Ela treinou arma como quem treina técnica — anos numa categoria só, com professor, com forma, com linhagem —, e a energia amaldiçoada dela existe e é usada, só que ela não é o motivo de a Vanguarda estar na sala.
 
 Quem escolhe Vanguarda costuma vir de clã com tradição marcial, de aluno que se deu bem no treino físico, ou de feiticeiro com técnica pequena que decidiu compensar pelo outro lado. A instituição escala Vanguarda quando a missão é acabar com alguma coisa em pouco tempo: exorcismo rápido, alvo único, extração de gente presa em prédio.
 
 Numa luta, o turno da Vanguarda é o mais direto dos cinco. Ela chega e bate, todo turno, e o que muda de personagem para personagem é **como** ela chega. É exatamente isso que as três Trilhas resolvem.
 
-Atributos naturais: **Destreza** e **Força**. A Vanguarda alterna feitiço de Toque e golpe simples ao longo da luta, e é o Caminho com o número mais estável de dano por rodada.
+Atributos naturais: **Destreza** e **Força**. A Vanguarda alterna feitiço de Toque e golpe simples ao longo da luta.
 
 ### Características da Vanguarda
 
@@ -645,11 +645,9 @@ Atributos naturais: **Inteligência** e **Essência**. O Evocador troca dano pes
 
 ### Trilhas do Evocador
 
-> **As entregas de nível das três Trilhas do Evocador estão sendo escritas.**
+> **As três Trilhas do Evocador concedem o corpo da invocação, e mais nada.** As entregas de nível — as dos níveis 2, 11, 19 e 27 que as outras doze Trilhas têm — não existem nelas.
 >
-> Toda Trilha entrega alguma coisa nos níveis 2, 11, 19 e 27, e as três do Evocador não são exceção: essas doze entregas estão em desenvolvimento. O que já está fechado delas é o ponto de partida da invocação, na tabela abaixo.
->
-> Vale saber o tamanho disso antes de escolher este Caminho. A Trilha é a maior fatia do que um personagem faz, e hoje o Evocador joga com os quatro degraus de Caminho, que estão prontos. Se a sua mesa quiser um Evocador agora, combine com o mestre o que ocupa essas quatro casas até elas saírem.
+> **Um Evocador joga hoje com os quatro degraus de Caminho e com o corpo que a Trilha dá.** Se for a sua escolha, combine com o mestre o que ocupa essas quatro casas.
 
 **O que cada Trilha concede** é o corpo que você põe em campo. O resto da ficha da invocação você monta com o orçamento do capítulo 15, *Invocações*, por cima do que está na tabela.
 

@@ -2,7 +2,7 @@
 
 **O sistema se chama `Projeto - M`**, batizado na v0.94 — era a pendência mais velha que existia aqui, aberta na v0.1. Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.128** · manual do Fundamento na **v7.11** · **vinte peças de regra** e **vinte validadores passando** · o Manual da Guilda em **17 capítulos**.
+**Versão v0.129** · manual do Fundamento na **v7.11** · **vinte peças de regra** e **vinte validadores passando** · o Manual da Guilda em **17 capítulos**.
 
 ---
 

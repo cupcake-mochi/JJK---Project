@@ -112,7 +112,7 @@ São duas.
 
 > **`Ler o Ambiente`** — Ação Bônus, uma vez por cena. Teste de `Percepção` ou `Intuição` contra a dificuldade que o mestre puser. Num sucesso, o mestre te diz uma coisa daquele lugar que dê para usar: um objeto, um caminho, uma posição, um risco. Se não houver nada, ele diz isso e a ação não é gasta.
 
-`Provocar` é a ação de quem tem couro e quer que o golpe caia nele em vez de cair no Emanador de 12 de vida. Enquanto durar, você é o alvo mais fácil da sala.
+`Provocar` puxa o golpe para você: enquanto durar, você é o alvo mais fácil da sala, e quem foi provocado erra mais em qualquer outro. É a ação de quem tem couro para receber no lugar de quem não tem.
 
 `Ler o Ambiente` fala do lugar e só do lugar. Ela nunca diz nada sobre uma criatura. Quem quer saber do inimigo usa `Estudar`; quem quer revistar alguém usa `Vasculhar`; e as duas custam a Ação Padrão.
 

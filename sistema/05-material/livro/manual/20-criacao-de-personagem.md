@@ -51,7 +51,7 @@ As listas de perícia, os traços e as rotas estão no capítulo 7, *Origens e L
 
 A Origem não dá ponto de atributo nenhum, e não decide a sua patente: todo personagem começa **Grau 4**, venha de onde vier.
 
-> **Nem toda Origem fecha ficha hoje.** Uma das nove rotas de criação depende de regra que ainda está sendo escrita, e é a Sem Técnica. O fim do capítulo 7, *Origens e Legados*, diz quais rodam; confira antes de se apegar a uma escolha.
+> **A Sem Técnica não fecha ficha hoje.** Ela é a única assim, e a tabela `Rotas de criação`, no fim do capítulo 7, *Origens e Legados*, diz por qual rota cada uma das outras monta o poder.
 
 > **Duas rotas não montam poder pelo Fundamento**, e sim pela Técnica Marcial, no capítulo 10: o Corpo Amaldiçoado e a Restrição Celestial pelo ramo sem energia. Se for o seu caso, o Passo 2 e o Passo 3 valem igual — o que muda é o capítulo que você abre para montar.
 
@@ -105,7 +105,9 @@ Mais **quatro perícias à sua escolha**, de qualquer lugar do quadro, **dois of
 
 A Trilha é escolhida agora, junto do Caminho, e nasce com o personagem. São três por Caminho: Muro · Punho · Brasa no Bastião, Estocada · Batedor · Executor na Vanguarda, e assim por diante. A lista está no capítulo 8, *Caminhos e Trilhas*.
 
-> **A Trilha ainda não entrega número.** Hoje ela é o nome e uma frase: você escolhe, ela diz quem o seu personagem é dentro do Caminho, e o capítulo 8, *Caminhos e Trilhas*, fecha o que ela dá. Escolher agora não custa nada e não tranca nada.
+> **A Trilha já entrega no nível 2**, junto do primeiro degrau do Caminho, e volta a entregar nos níveis 11, 19 e 27. O texto de cada uma está no capítulo 8, *Caminhos e Trilhas*.
+>
+> **As três do Evocador são a exceção:** `Servo`, `Matilha` e `Coro` concedem o corpo da invocação, e as entregas de nível delas ainda não existem. Se for a sua escolha, combine com o mestre o que ocupa essas casas.
 
 ## Passo 4 · Atributos
 

@@ -38,8 +38,6 @@ Sete marcos de graça mais o 1 do começo fecham em refino 8 sem você escolher 
 
 ### Efeito do refino
 
-O refino cresce de +7 a +9 numa campanha, e atributo e maestria crescem +3. Um número que sobe três vezes mais rápido quebraria qualquer rolagem disputada em poucos níveis, então ele fica trancado fora delas.
-
 > **O refino nunca entra num número disputado contra alguém que cresce mais devagar que ele.** Ele fica fora de acerto, CD, defesa, Teste de Resistência e dano.
 
 **Efeito do refino**
@@ -53,7 +51,7 @@ O refino cresce de +7 a +9 numa campanha, e atributo e maestria crescem +3. Um n
 | Teste de Resistência | magnitude fora de disputa: Redução de Dano, proteção |
 | dano | disputa contra outro refino, como o clash de expansões |
 
-A `Projetar energia` é a única que põe refino em dano, e o dano dela é baixo o bastante para nunca competir com um feitiço. A proteção de `Cobrir-se de energia` entra na sua Defesa, e por isso usa `1/3 do refino` em vez do valor cheio.
+A `Projetar energia` é a única que põe refino em dano. A proteção de `Cobrir-se de energia` entra na sua Defesa, e por isso usa `1/3 do refino` em vez do valor cheio.
 
 > **Arredondamento.** Toda divisão de refino arredonda para baixo: refino 5 dividido por 2 dá 2.
 
@@ -71,7 +69,7 @@ A cada marco a ficha ganha três coisas de graça e escolhe uma quarta.
 >
 > **Leque** — mais um feitiço, que só pode ser feitiço, e uma Passiva.
 
-O refino no teto acontece cedo para quem investe: a partir do nível 22, a metade "mais um de refino" da escolha não teria onde cair. É por isso que ela troca de moeda e entrega a segunda aptidão.
+Quem escolhe Refino em todo marco bate no teto no nível 22. Dali em diante a metade "mais um de refino" não tem onde cair, e a escolha entrega a segunda aptidão no lugar dela.
 
 > **Quem nunca escolhe Refino termina a campanha com zero aptidões.** A rota existe e é legítima: ela troca dez aptidões por sete pontos de atributo a mais. Está escrito aqui para ninguém descobrir isso no nível 20.
 {: .aviso }
@@ -324,7 +322,7 @@ A duração é um teto. Segurar as dez rodadas no refino 10 custa 110 de PE, e q
 
 Barreira é ofício à parte. Ela não sai do Fundamento de ninguém, se aprende estudando, e o feiticeiro que sabe levantar uma boa é procurado por isso.
 
-> **As duas levam um minuto para levantar.** Um minuto são dez rodadas, e uma luta dura três ou quatro. As duas são ferramenta de preparação, e nenhum mestre precisa julgar se alguém "está em combate" para saber disso.
+> **As duas levam um minuto para levantar**, e um minuto são dez rodadas. As duas são ferramenta de preparação: elas nascem antes da briga, ou não nascem.
 
 ### Barreira Simples
 
@@ -362,7 +360,7 @@ A condição da `Cortina` fala de quem atravessa, e de mais nada.
 | impedir que quem está dentro saia | dar bônus a quem está dentro |
 | deixar passar quem você nomeou na hora de levantar | esconder de quem é feiticeiro, porque o efeito base já é o contrário |
 
-> **O tamanho da `Cortina` não tem metro, e isso é decisão.** Nada dentro dela se mede em metros, então dois mestres discordarem se ela pega um quarteirão ou dois não muda número nenhum. Quem quiser fechar uma distância com energia usa a `Barreira Simples`, que tem raio.
+> **O tamanho da `Cortina` não se mede em metros.** Ela cobre um lugar — um prédio, uma escola, um quarteirão —, e nada do que ela faz depende de distância. Quem precisa fechar uma distância com energia usa a `Barreira Simples`, que tem raio.
 
 ## Escrever uma aptidão
 
@@ -408,7 +406,7 @@ Três propostas, e uma delas é recusada:
 | *"uma vez por cena, quando um aliado a até 9 m falha um Teste de Resistência, ele rerrola"* | metade | Classe Passiva 2 | **passa** |
 | *"o seu deslocamento é `+3 m`"* | quase toda | Classe Passiva 3 | **recusada** |
 
-A terceira é o exemplo mais útil, porque ela é pequena. `+3 m` é barato, e mesmo assim está fora: a trava é de forma. Uma coisa que fica sempre ligada é Classe Passiva 3, no tamanho que for.
+A terceira mostra que a trava é de forma e não de tamanho: `+3 m` é pouca coisa, e mesmo assim está fora. Uma coisa que fica sempre ligada é Classe Passiva 3, no tamanho que for.
 
 > Quem quiser a mesma ficção com Classe Passiva 3 tem a `Passiva Própria`, do lado do Fundamento, pagando em espaço de feitiço. A porta existe, ela só não é esta.
 
@@ -422,7 +420,7 @@ Os feitiços que você conhece:
 
 > **`2 + (nível ÷ 2)`, arredondando para baixo, mais um por marco.**
 
-São três no nível 2 e doze no nível 20. Cada Passiva e cada pedaço de Expansão que você comprar sai desse mesmo bolo, e é para isso que serve a linha passiva do marco: sem ela, uma técnica funda de três Passivas mais Expansão completa chegava ao nível 20 com dois feitiços na lista.
+São três no nível 2 e doze no nível 20. Cada Passiva e cada pedaço de Expansão que você comprar sai desse mesmo bolo — e o espaço que todo marco solta de graça entra nele também.
 
 **Passivas**
 {: .tab-titulo }
