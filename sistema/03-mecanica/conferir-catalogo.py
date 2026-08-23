@@ -17,7 +17,7 @@ saem dos DESENHO-*.md, e as contagens saem da propria pasta. O unico bloco com
 valor na mao e o LIMITES DE DESIGN abaixo, declarado a parte da regra aplicada,
 que e a licao no 8: uma checagem nao pode se medir contra a propria constante.
 
-Dez checagens:
+Doze checagens:
   1. TOTAIS    — a tabela de totais bate com o contado das tabelas de cima.
   2. SOMAS     — as duas somas do total fecham por caminhos diferentes.
   3. INDICE    — todo nome do indice existe no DESENHO dono dele.
@@ -29,6 +29,9 @@ Dez checagens:
   9. VALOR     — toda Classe que a linha de preco cobra aparece no bloco de regra.
  10. CALENDARIO — o degrau de Caminho publicado sai do DESENHO-caminhos.md, que
                   e o dono, e o calendario aposentado nao sobrou vivo.
+ 11. CAPITALIZACAO — todo nome batizado do indice comeca com maiuscula.
+ 12. PRECO     — toda entrega de Trilha tem fatia legivel, e o total do cabecalho
+                 cai dentro do que as linhas somam.
 
 Roda de sistema/03-mecanica/. NAO le o .docx e NAO precisa de python-docx —
 entao nao existe caminho por onde ele saia verde tendo pulado checagem.
@@ -500,6 +503,109 @@ if _conf < com_nome:
                f'nome — a 11a esta conferindo menos do que existe, em vez de acusar')
 if not [e for e in erros if e.startswith('[11]')]:
     print('  [x] nenhuma das entradas batizadas do indice tem nome em minuscula.')
+
+# ================================================================ 12. PRECO
+# Nasceu na v0.131, e ela e a licao no 9 numa direcao que nenhuma outra alcanca
+# neste validador: aqui o buraco nao era um numero divergindo de outro, era um
+# numero que NAO EXISTIA. A linha do nivel 2 da Torrente publicava `(a base)` na
+# coluna de fatias — texto onde as outras 59 linhas tem numero — e com isso uma
+# entrega de 2,87 fatias ficou cinquenta versoes fora da conta da Trilha dela.
+#
+# O `(a base)` aparecia UMA vez no arquivo inteiro. Uma celula que nao le como
+# numero e o unico jeito de uma entrega escapar do total sem que nada acuse:
+# somar quatro linhas e comparar com o cabecalho da verde, porque a linha muda
+# nao entra em nenhum dos dois lados.
+#
+# 12.1 — toda linha de preco tem fatia legivel como numero.
+# 12.2 — o total do cabecalho cai dentro da faixa que as linhas somam.
+#
+# Zero declarado NAO reprova: `0,00` e um preco, e o nivel 27 do Arremate esta
+# vago com `0,00` de proposito. O que reprova e a AUSENCIA de preco.
+print('\n' + '=' * 88)
+print('12. PRECO — toda entrega de Trilha tem fatia legivel, e o total bate com as linhas')
+print('=' * 88)
+
+# LIMITE DE DESIGN, declarado a parte da regra aplicada (licao no 8):
+# a tolerancia existe porque o documento arredonda cada linha em centavo, entao
+# quatro linhas podem somar 0,01 longe do total. Ela nao e a regra; a regra le.
+TOL_POR_LINHA = 0.02
+
+def _fatias_da_celula(cel):
+    """Os numeros de fatia de uma celula. Faixa `a a b` volta com os dois."""
+    limpo = re.sub(r'[*`]', '', cel)
+    return [float(x.replace(',', '.')) for x in re.findall(r'\d+,\d{2}', limpo)]
+
+def _coluna_de_fatias(linha_cab):
+    cels = [c.strip().lower() for c in linha_cab.strip().strip('|').split('|')]
+    for i, c in enumerate(cels):
+        if c == 'fatias':
+            return i
+    return None
+
+_lidas, _sem_preco, _totais_conferidos, _fora = 0, [], 0, []
+for _rot, (_a, _b) in sorted(SECAO.items(), key=lambda kv: kv[1][0]):
+    _cab_i = None
+    for _j in range(_a, _b):
+        if re.match(r'^\|\s*nv\s*\|', TRI[_j], re.I) and 'fatias' in TRI[_j].lower():
+            _cab_i = _j
+            break
+    if _cab_i is None:
+        continue
+    # _col nunca volta None aqui: o SECAO so guarda secao cuja tabela ja tem
+    # `fatias` no cabecalho. Renomear essa coluna faz a Trilha SUMIR do SECAO, e
+    # quem acusa isso e a checagem 3 — conferido no arnes da v0.131.
+    _col = _coluna_de_fatias(TRI[_cab_i])
+    _lo, _hi, _linhas = 0.0, 0.0, 0
+    for _k in range(_cab_i + 1, _b):
+        if not re.match(r'^\|\s*\*\*(2|11|19|27)\*\*\s*\|', TRI[_k]):
+            if _linhas and not TRI[_k].startswith('|'):
+                break
+            continue
+        _cels = [c.strip() for c in TRI[_k].strip().strip('|').split('|')]
+        if _col >= len(_cels):
+            erro('12', f'{_rot}: linha de preco com menos colunas que o cabecalho: '
+                       f'{TRI[_k].strip()[:70]}')
+            continue
+        _lidas += 1
+        _linhas += 1
+        _vals = _fatias_da_celula(_cels[_col])
+        if not _vals:
+            _sem_preco.append((_rot, TRI[_k].strip()[:80], _cels[_col]))
+            continue
+        _lo += min(_vals)
+        _hi += max(_vals)
+    # 12.2 — o total do cabecalho, quando ele publica um
+    _mt = re.search(r'((?:\d+,\d{2}(?:\s+a\s+)?)+)[`\s*]*de[`\s*]*\s*\d+,\d{2}',
+                    re.sub(r'[`*]', '', TRI[_a]))
+    if _mt and _linhas:
+        _pub = [float(x.replace(',', '.')) for x in re.findall(r'\d+,\d{2}', _mt.group(1))]
+        _tol = TOL_POR_LINHA * _linhas
+        for _p in _pub:
+            _totais_conferidos += 1
+            if not (_lo - _tol <= _p <= _hi + _tol):
+                _fora.append((_rot, _p, _lo, _hi))
+
+print(f'  {_lidas} linha(s) de preco lida(s) em {len(SECAO)} Trilha(s); '
+      f'{_totais_conferidos} total(is) de cabecalho recontado(s)')
+
+for _rot, _linha, _cel in _sem_preco:
+    erro('12', f'{_rot}: a coluna de fatias diz "{_cel}" e nao tem numero — uma entrega '
+               f'sem preco nao entra no total da Trilha, e nada mais acusa isso\n'
+               f'       {_linha}')
+for _rot, _p, _lo, _hi in _fora:
+    _faixa = f'{_lo:.2f}' if abs(_hi - _lo) < 0.005 else f'{_lo:.2f} a {_hi:.2f}'
+    erro('12', f'{_rot}: o cabecalho publica {_p:.2f} e as linhas somam {_faixa}')
+
+# guarda: se o extrator parar de casar, esta checagem fica verde de graca. O piso
+# e derivado — quatro linhas por Trilha achada —, e nao um numero escrito aqui.
+_PISO12 = 4 * len(SECAO)
+if _lidas < _PISO12:
+    erro('12', f'so li {_lidas} linha(s) de preco e as {len(SECAO)} Trilhas achadas dao '
+               f'{_PISO12} — o extrator parou de casar, e a checagem passou a conferir '
+               f'menos do que existe em vez de acusar')
+if not [e for e in erros if e.startswith('[12]')]:
+    print('  [x] nenhuma entrega de Trilha esta sem preco, e todo total de cabecalho')
+    print('      recontado cai dentro do que as linhas dele somam.')
 
 # ================================================================ veredito
 print('\n' + '=' * 88)

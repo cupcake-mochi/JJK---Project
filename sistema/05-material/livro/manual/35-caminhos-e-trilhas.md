@@ -503,7 +503,7 @@ Quem joga de `Torrente` abre a torneira: dois feitiços na mesma rodada, técnic
 > **Nível 2: `Acelerar`.** *`2×` por cena.* Você conjura um feitiço da sua **ação padrão como ação bônus**, pagando **`Classe e meia` de PE a mais**, arredondando para cima. *Num Classe 7 são `11` de PE.*
 > Naquele turno, o outro feitiço que você lançar **não passa de `Classe 0`**.
 >
-> **Nível 11: `Vazão`.** Aquele teto deixa de ser `Classe 0` e passa a ser **metade da sua maior Classe**, arredondando para baixo.
+> **Nível 11: `Vazão`.** Aquele teto passa a ser **metade da sua maior Classe**, arredondando para baixo — e nunca menos que `Classe 0`.
 >
 > **Nível 19: `Cheia`.** Quando o feitiço que você conjura é **o único feitiço daquele turno**, **rerrole todo dado de dano dele que cair em `1`, `2` ou `3`.** Você fica com o segundo resultado.
 >

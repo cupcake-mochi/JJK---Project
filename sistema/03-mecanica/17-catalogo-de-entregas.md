@@ -123,7 +123,7 @@ Uma por categoria de arma, todas com nome, todas em **`DESENHO-manhas.md`**, na 
 
 ## 7. O que o `conferir-catalogo.py` confere
 
-Onze checagens. **Nenhuma guarda valor:** os nomes saem das tabelas desta peça e os textos saem dos `DESENHO-*.md`.
+Doze checagens. **Nenhuma guarda valor:** os nomes saem das tabelas desta peça e os textos saem dos `DESENHO-*.md`.
 
 | # | a checagem | o que ela pega |
 |---|---|---|
@@ -133,9 +133,13 @@ Onze checagens. **Nenhuma guarda valor:** os nomes saem das tabelas desta peça 
 | **4** | todo nome em degrau dos `DESENHO` aparece aqui | entrada nova que ninguém indexou |
 | **5** | toda entrega de Trilha com nome tem bloco de regra escrito | preço sem texto de mesa — o furo que o Guia tinha até a v0.84 |
 | **6** | **bloco de regra não contradiz o gate da linha de preço** | **a `Estocada`**: linha de preço com gate e bloco dizendo `sempre` |
-| **7** | a contagem de peças e validadores desta pasta é `17` | peça ou validador novo entrando sem os três documentos subirem |
+| **7** | a contagem de peças e validadores desta pasta é `20` | peça ou validador novo entrando sem os três documentos subirem |
 | **8** | todo documento vivo que cita o total concorda com o contado | **esta peça virando a segunda fonte do próprio número** |
 | **9** | toda `Classe` que a linha de preço cobra aparece no bloco de regra | **a `Brasa`**: preço de `Classe 3` com o bloco publicando `Classe 2` |
+
+**A DÉCIMA SEGUNDA entrou na v0.131, e o buraco dela não era número divergindo de número: era número que NÃO EXISTIA.** *A linha do nível 2 da `Torrente` publicava `(a base)` na coluna de fatias — texto onde as outras 55 linhas têm número —, e com isso uma entrega de `2,87` fatias ficou cinquenta versões fora do total da Trilha dela.* **O `(a base)` aparecia UMA vez no `DESENHO-trilhas.md` inteiro.**
+
+> **Uma célula que não lê como número é o único jeito de uma entrega escapar do total sem nada acusar:** *somar as quatro linhas e comparar com o cabeçalho sai verde, porque a linha muda não entra em nenhum dos dois lados.* **Por isso ela tem duas metades:** a `12.1` cobra fatia legível em toda linha de preço, e a `12.2` reconta o total do cabeçalho contra o que as linhas somam. **Zero declarado não reprova** — `0,00` é preço, e o nível 27 do `Arremate` está vago com `0,00` de propósito; o que reprova é a ausência.
 
 **A décima entrou na v0.88, e ela é a primeira que não fala de entrega.** *A peça 6 §9 publicou o calendário de Caminho aposentado — `7 · 15 · 23 · 29` — como fato fechado por **dezoito versões**, e nenhum validador alcançava.* **Ela compara toda cópia viva contra o `DESENHO-caminhos.md`, que é o dono, e em dois eixos:** *a primeira metade pergunta se o valor bate; a segunda pergunta se o valor morto sumiu.* **E ela sabe quantas cópias existem** — se achar menos, alguém reescreveu a frase e ela parou de conferir em silêncio.
 

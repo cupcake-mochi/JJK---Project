@@ -232,6 +232,16 @@ O Fundamento já tem, e ela é a regra de ouro nº 6:
 
 É a trava que impede o turno duplo de feitiço grande. Ela só funciona porque ação bônus e ação padrão são recursos separados — o que só agora está escrito.
 
+### 6.1 Ela tem exatamente uma exceção, e é a Trilha `Torrente` — v0.131
+
+> **A `Vazão` e o `Transbordo` sobem o teto do segundo feitiço, de `Classe 0` para metade da sua maior Classe.** *Nada mais no sistema faz isso.*
+
+**Isto fica escrito aqui porque a regra acima é publicada como absoluta em cinco lugares** — nesta seção e em quatro do Manual da Guilda —, **e a exceção mora num sexto que nenhum deles cita.** *Dois mestres lendo o capítulo do turno e o capítulo dos Caminhos chegam a respostas diferentes, que é exatamente o filtro que este projeto usa para decidir.*
+
+**A exceção não é mais de uma ação por rodada.** *A `Torrente` gasta a Ação Padrão e a Ação Bônus, que é a conta normal de qualquer ficha; o que ela fura é o **tamanho** do segundo feitiço, não a quantidade.* **A peça 6 §9 tem a medida, e o preço está no `DESENHO-trilhas.md`.**
+
+> **E o teto dela nunca fica abaixo do `Classe 0` que esta regra já permite.** *Sem essa cláusula, no nível 11 a Trilha entregava um teto de `13` de dano onde a regra de ouro sozinha já dava `18`.*
+
 ## 7. O que esta peça deixa em aberto
 
 - **Se ação bônus deve existir mesmo.** Ela é a mais herdada das quatro, e a que mais custa em tempo de mesa: todo turno, todo jogador pergunta "tenho alguma coisa de ação bônus?". Duas peças do Fundamento dependem dela (Rápido e Parado). Vale medir no playtest quantos turnos realmente usam uma.

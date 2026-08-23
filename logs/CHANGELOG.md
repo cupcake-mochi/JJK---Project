@@ -8,6 +8,137 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.131] — 23/08/2026
+
+**A `Torrente` contra a regra de ouro nº 6: a pendência mais velha da peça 6 fechou, e a medida cobrou um preço que estava em zero.**
+
+*Ela estava aberta desde a **v0.14** — cento e dezessete versões.* **As três coisas que ela afirmava reprovaram, e o que ela pedia não precisava ser inventado.**
+
+### O que a pendência dizia, e o que a medida achou
+
+| a pendência | a medida |
+|---|---|
+| *"uma lista de pontos à parte é o modelo mais provável"* | **não existe moeda nova.** Ela cobra em PE, no preço que o manual já dá para a Melhoria `Rápido` — `Classe e meia`, arredondando para cima |
+| *"é o mesmo defeito da seção 4 — mais de uma ação por rodada"* | **não é.** A invocação põe um **corpo** a mais; a `Torrente` usa a Ação Padrão e a Ação Bônus que a ficha já tem |
+| *"o conserto que funcionou lá provavelmente serve aqui"* | **não serve, e ele é mais apertado que a regra que ia vigiar** |
+
+### O conserto da invocação aplicado, e por que ele quebra
+
+*"Os feitiços que você lança numa rodada, somados, entregam uma Rotina."*
+
+| nível | maior Classe | o feitiço sozinho | Rotina | folga para o segundo | o `Classe 0` que a regra nº 6 já permite |
+|---|---|---|---|---|---|
+| 11 | 3 | `40` | `45` | **`5`** | `18` |
+| 21 | 6 | `81` | `94` | **`13`** | `22` |
+| 30 | 7 | `94` | `108` | **`14`** | `27` |
+
+> **Aplicá-lo tornaria ilegal o `Classe 0` que o Fundamento dá de graça, em todo nível do 5 em diante.** *A leitura alternativa — cada feitiço entrega metade da Rotina — dá a mesma folga de `14` e ainda exige cortar o feitiço grande de `94` para `54`, coisa para a qual o sistema não tem mecanismo.*
+
+**A razão é estrutural.** *Corpo multiplica: uma invocação dobra a saída por rodada, três quadruplicam, e foi contra essa escada que o teto somado foi escrito.* **Feitiço não multiplica** — a ficha tem uma Ação Padrão e uma Ação Bônus, e o número de feitiços por rodada trava em **dois, em todo nível, para sempre.**
+
+> **E o que a `Torrente` é de verdade: a primeira coisa do sistema que faz a regra de ouro nº 6 trabalhar.** *A peça 6 §3 já media que ninguém alcança o segundo feitiço pelo Fundamento — pôr `Rápido` no feitiço grande derruba a rodada de `94` para `72`.* **A regra estava escrita e era inalcançável.**
+
+### ⚠⚠ O `Acelerar` estava preçado em ZERO, e ele entrega um `Classe 0` por rodada
+
+**A varredura do `Classe 0` fantasma da v0.81 listou cinco entregas recalculadas. O nível 2 da `Torrente` não entrou na lista, e ele é uma delas.**
+
+*O `Acelerar` joga o feitiço grande na Ação Bônus. A Ação Padrão fica livre, e um `Classe 0` cabe nela.*
+
+| | nv30 |
+|---|---|
+| conjurador sem a Trilha, peça 6 §3 | `94` — o feitiço sozinho |
+| com o `Acelerar` | `94` na bônus **+ `27` do `Classe 0` na padrão liberada** = `121` |
+
+**O preço disso já estava escrito neste CHANGELOG, na v0.81:** ***"Ganha um Classe 0 por rodada" vale `5,31` fatias, e o orçamento de uma Trilha é `5,00`.*** *À taxa de `54%` do relógio de `2×` por cena, são **`2,87` fatias**.*
+
+> **Duas rotas independentes dão o mesmo número:** `27 ÷ 5,08 × 0,54` e `5,31 × 0,54`.
+>
+> **Aquela era a única célula de fatia sem número no `DESENHO-trilhas.md` inteiro** — as outras treze tabelas de preço trazem número em todas as quatro linhas. *E a `Brasa` prece a mesma entrega, a `Fagulha`, em `4,08` fatias.* **Duas linhas do mesmo documento davam `4,08` e zero para a mesma coisa.**
+
+***Decisão do Mizuki: corrigir o preço, e o estouro fica.*** **A `Torrente` foi de `4,65` para `7,52` de `5,00` — `+50%`** —, e o precedente é a `Brasa`, entre `+41%` e `+88%`. *Ela entra abaixo do piso daquela faixa.*
+
+**O que segura ela, e nada disso é preço:** *a matriz diz `100%` ação/alvo e zero nas outras três colunas*; *a rodada de pico custa `44` de PE de um poço de `180`, que é `1,1` luta no dia*; *e o relógio é escolha por rodada e não botão de ligar.*
+
+> **⚠ E a dominância INVERTEU de sentido.** *Era o `Explosivo` sobre a `Torrente` por `1,20×`, e virou a `Torrente` sobre o `Explosivo` por `1,35×`* — **sem ninguém mexer no desenho de nenhuma das duas.** *Segunda vez que uma dominância deste projeto troca de sentido por conserto de preço; a primeira foi `Estocada` contra `Arma de Fogo`, na v0.81.* **Continua dentro do filtro, que reprova em `3,00×`.**
+
+### ⚠ A `Vazão` não entregava nada nos níveis 11 e 12
+
+**O `Classe 0` do manual cresce por FAIXA DE NÍVEL, e a `Vazão` cresce por Classe. As duas escadas se cruzam.**
+
+| nível | maior Classe | teto da `Vazão` | dano do teto | `Classe 0` | ganho |
+|---|---|---|---|---|---|
+| 11 | 3 | Classe 1 | `13` | `18` (4d8) | **−5** |
+| 12 | 3 | Classe 1 | `13` | `18` | **−5** |
+| 13 | 4 | Classe 2 | `27` | `18` | +9 |
+
+*Como "não passa de Classe 1" continua deixando um `Classe 0` passar, ninguém chegava a perder os `5`* — **a entrega valia zero por dois níveis.** *O que sobrava dela ali era acesso a Melhoria: um `Classe 0` só aceita `Leve`.*
+
+> **O texto dizia *"deixa de ser `Classe 0` **e passa a ser** metade da sua maior Classe"*, que é linguagem de troca.** *Um mestre lendo ao pé da letra cobrava `3` PE por `5` de dano a menos.* **É o defeito que matou a `Voz Grossa` na v0.80** — *"a entrega era um rebaixamento"* — no mesmo Caminho.
+
+***Decisão do Mizuki: cláusula de piso.*** **O teto nunca fica abaixo do `Classe 0` que a regra de ouro nº 6 já permite.** *Custa `0,00` fatia no nível 30, então o preço publicado não se move.*
+
+### Escrito na peça 3, porque a exceção não tinha ponteiro
+
+**A regra de ouro nº 6 é publicada como absoluta em cinco lugares** — a peça 3 §6 e quatro do Manual da Guilda — **e a exceção morava num sexto que nenhum deles citava.** *Dois mestres lendo o capítulo do turno e o capítulo dos Caminhos chegavam a respostas diferentes.*
+
+*Entrou a **§6.1 da peça 3**, e uma linha no capítulo 11 do livro.* **É a lição nº 5: tensão de preço às vezes é lacuna de texto disfarçada.**
+
+### Entrou a checagem 12 do `conferir-catalogo.py`, e o buraco dela é de outra espécie
+
+**Toda checagem de cópia deste projeto compara número contra número. Esta pergunta se o número EXISTE.**
+
+*Uma célula que não lê como número é o único jeito de uma entrega escapar do total sem nada acusar: somar as quatro linhas e comparar com o cabeçalho sai verde, porque a linha muda não entra em nenhum dos dois lados.*
+
+> **12.1** — toda linha de preço de Trilha tem fatia legível como número. **12.2** — o total do cabeçalho cai dentro do que as linhas somam, com tolerância de `0,02` por linha para o arredondamento de centavo.
+>
+> **Zero declarado NÃO reprova:** *`0,00` é preço, e o nível 27 do `Arremate` está vago com `0,00` de propósito.* **O que reprova é a ausência.**
+
+**Cinco perturbações acendendo e três contra-testes verdes, em cópia isolada, com a base conferida antes de cada uma e o `diff` conferido:**
+
+| perturbação | esperado | deu |
+|---|---|---|
+| `Acelerar` volta a `(a base)` | acende | acende, e a 12.2 junto |
+| fatia do `Punho` nv19 vira travessão | acende | acende |
+| cabeçalho da `Torrente` vai a `6,00` | acende | acende |
+| apaga duas linhas de preço do `Elo` | acende | acende, e a guarda de piso junto |
+| linha do `Transbordo` perde uma coluna | acende | acende |
+| **contra-teste:** cabeçalho `7,52` → `7,53` | verde | verde — é a tolerância de centavo |
+| **contra-teste:** reescreve prosa fora de tabela | verde | verde |
+| **contra-teste:** fatia e cabeçalho mudam JUNTOS | verde | verde — prova que ela mede a relação, não uma constante |
+
+> **⚠ Uma perturbação saiu por outra porta, e ela virou documentação em vez de conserto.** *Renomear a coluna `fatias` faz a Trilha inteira sumir do extrator de seções, e quem acusa é a **checagem 3**, não a 12.* **A guarda que eu tinha escrito para esse caso era código morto** — o `SECAO` só guarda seção cuja tabela já tem `fatias` no cabeçalho —, *e código morto que finge conferir é pior que nenhum.* **Removida, com o motivo escrito na linha.**
+
+*A contagem foi de `204` para `205` checagens, em `21` validadores.*
+
+> **A `12.1` é o contrário de "medir o marcador em vez do fenômeno", e por isso vale registrar a forma dela.** *A pergunta que este projeto sempre faz é "os números batem?" — e eles batiam: `1,38 + 1,78 + 1,49` dá `4,65`, que é o que o cabeçalho publicava.* **A pergunta que faltava era "todo mundo tem número?".**
+
+### E dois restos velhos que a leitura achou de passagem
+
+**A linha *"o estouro de `7%` está aceito"* era da época do `5,37`.** *Depois da repreçagem da v0.81 a Trilha publicava `4,65`, que é `7%` **abaixo** de `5,00`.* **A frase envelheceu de sinal trocado e ninguém releu.**
+
+**E a base da rodada de pico estava escrita como `98`, que não reconstrói de tabela nenhuma.** *A linha do conjurador da peça 6 §3 é `94` no nível 30, e `94 + 54` do `Classe 4` é exatamente o `148` do pico.* **Corrigido, com o percentual junto: `+50%` virou `+57%`.**
+
+*E a peça 17 dizia que a checagem 7 confere `17` peças e validadores, três versões depois de a pasta chegar a `20`.*
+
+### O que NÃO mudou
+
+**Nenhum número de regra do livro.** *`guard_numeros.py` nos dois arquivos mexidos, com a seção `NOTAÇÃO E NÚMERO` recortada separado da de numeral por extenso:* **`35-caminhos-e-trilhas` idêntico nos dois cortes** (`278` e `271` ocorrências); **`11-o-turno` com `4` diferenças, e as quatro na mesma frase acrescentada** — o `0` de `Classe 0`, o `11` de `nível 11`, o `metade` e o `uma`. *Conferido linha a linha contra o `diff`, que tem duas linhas.*
+
+### Medido depois
+
+| | v0.130 | v0.131 |
+|---|---|---|
+| palavras do livro | 76.664 | **76.696** |
+| coluna única | 248 páginas | **248** |
+| duas colunas | 141 páginas | **141** |
+| `conferir-voz --estrito` | 0 achados · 15 triagens | **0 achados · 15 triagens** |
+| checagens | 204 | **205** |
+| `Torrente` | `4,65` de `5,00` | **`7,52` de `5,00`** |
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **A fila de mecânica perdeu a `Torrente` e ficou com quatro:** *objeto amaldiçoado, Pactos, itens menores e as três Trilhas do Evocador.*
+
+---
+
 ## [0.130] — 23/08/2026
 
 **A conversão: o livro parou de escrever definição em forma de equação, e o número entrou na faixa dos quatro manuais.**

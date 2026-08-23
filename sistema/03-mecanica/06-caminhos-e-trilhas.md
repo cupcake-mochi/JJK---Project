@@ -415,7 +415,25 @@ Esse último ponto é um achado pequeno mas real: **escudo e Gesto se cancelam.*
 ## 9. Em aberto
 
 - ~~**Quantas Trilhas um personagem acumula** ao longo da campanha, e em que níveis.~~ **Fechada na v0.55 e na v0.60:** uma Trilha por ficha, entregas nos níveis `2 · 11 · 19 · 27`, e degrau de Caminho em `2 · 7 · 15 · 30`. *O calendário de Caminho era `7 · 15 · 23 · 29` até a v0.70, e o dono dele é o `DESENHO-caminhos.md`.*
-- **Como Torrente cobra o segundo feitiço da rodada.** Uma lista de pontos à parte é o modelo mais provável, e ela precisa ser precificada contra a regra de ouro nº 6. **É o mesmo defeito da seção 4** — mais de uma ação por rodada —, e o conserto que funcionou lá provavelmente serve aqui: *os feitiços que você lança numa rodada, somados, entregam uma Rotina*.
+- ~~**Como Torrente cobra o segundo feitiço da rodada.**~~ ***FECHADA na v0.131, e as três coisas que a pendência afirmava reprovaram na medida.*** *Ela ficou aberta desde a v0.14.*
+
+  > **Ela cobra em PE, no preço que o manual já dá para a Melhoria `Rápido`** — `Classe e meia`, arredondando para cima, que é a coluna `Pesada`. **Não existe lista de pontos à parte e não existe moeda nova.** *A pendência dizia que "uma lista de pontos à parte é o modelo mais provável", e o `RASCUNHO-trilhas.md` §4 mandava passar essa moeda pelo `conferir-orcamento.py` antes de ela ter número. Os dois ficam sem objeto.*
+
+  **E o conserto da seção 4 NÃO serve, medido em três níveis.** *Aquela seção diz "você e todas as suas invocações somados entregam uma Rotina", e a pendência propunha copiar a frase trocando corpo por feitiço.*
+
+  | nível | maior Classe | o feitiço sozinho | Rotina | folga para o segundo | o `Classe 0` que a regra de ouro nº 6 já permite |
+  |---|---|---|---|---|---|
+  | 11 | 3 | `40` | `45` | **`5`** | `18` |
+  | 21 | 6 | `81` | `94` | **`13`** | `22` |
+  | 30 | 7 | `94` | `108` | **`14`** | `27` |
+
+  > **O teto proposto é mais apertado que a regra que ele existia para vigiar.** *Aplicá-lo tornaria ilegal o `Classe 0` que o Fundamento concede de graça, em todo nível do 5 em diante.* **A leitura alternativa — cada feitiço entrega metade da Rotina — dá a mesma folga de `14` e ainda exige cortar o feitiço grande de `94` para `54`**, coisa para a qual o sistema não tem mecanismo.
+
+  **A razão é estrutural, e é ela que responde a pendência.** *A invocação põe um **corpo** a mais no campo, e corpo multiplica: um dobra a saída por rodada, três quadruplicam. Foi contra essa escada que o teto somado foi escrito.* **A `Torrente` não põe corpo nenhum** — ela usa a Ação Padrão e a Ação Bônus que a ficha já tem, e o número de feitiços por rodada **trava em dois, em todo nível, para sempre.** *Não existe escada para segurar.*
+
+  > **O que ela é de verdade: a primeira coisa do sistema que faz a regra de ouro nº 6 trabalhar.** *A seção 3 desta peça já media que ninguém alcança o segundo feitiço pelo Fundamento — pôr `Rápido` no feitiço grande derruba a rodada de `94` para `72`.* **A regra estava escrita e era inalcançável; a Trilha é a porta.**
+
+  ***E a medida cobrou preço: o `Acelerar` do nível 2 estava publicado em ZERO fatia.*** *Ele libera a Ação Padrão, e um `Classe 0` de `27` cabe nela — o que o `CHANGELOG` da v0.81 já preçava em `5,31` fatias por rodada, ou `2,87` à taxa de `54%` do relógio dela.* **A Trilha foi de `4,65` para `7,52` de `5,00`, com o estouro de `50%` aceito e declarado, no precedente da `Brasa`.** *A `Vazão` ganhou cláusula de piso na mesma versão, porque no nível 11 o teto dela ficava abaixo do `Classe 0`. A conta inteira está no `DESENHO-trilhas.md`.*
 - ~~**O que Elo, Sutura e Perímetro entregam** que valha o golpe por rodada que o Guia não tem (seção 3.1).~~ **Respondida na v0.61, e a resposta é um número:** eles valem **o vão desta seção**, e ele chega como o degrau de Caminho do nível 7 — o mesmo lugar em que o Bastião e a Vanguarda recebem o ataque extra. *Com isso os cinco Caminhos empatam em `+6%` da Rotina no nível 30. A conta está no `RASCUNHO-trilhas.md` §3.4; **o que cada uma das três entrega em ficção continua sendo a Q5.***
 
 *Resolvidos e tirados daqui:* os **nomes das Trilhas**, fechados na v0.24 — as seis que colidiam viraram Batedor, Executor, Sutura, Perímetro, Servo e Matilha, e o `conferir-nomes.py` falha se alguma voltar. E **se o Coro deixa o dono e a invocação agirem no mesmo turno**: deixa, e não custa nada, porque o orçamento dividido da seção 4 é teto de saída e não de número de ações (seção 3.1).

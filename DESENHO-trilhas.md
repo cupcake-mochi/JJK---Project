@@ -1209,21 +1209,23 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 
 *Decisão do Mizuki, e ela é mais simples que a escada que eu tinha desenhado.* **Em vez de o teto subir de degrau em degrau, a regra `metade da sua maior Classe` chega inteira no nível 11** — e daí em diante ela acompanha a sua maior Classe sem que ninguém escreva mais nada.
 
-| nível | maior Classe | teto | o segundo feitiço |
-|---|---|---|---|
-| 11 | 3 | `1` | `13` de dano |
-| 13 | 4 | `2` | `27` |
-| 21 | 6 | `3` | `40` |
-| 30 | 7 | `3` | `40` |
+| nível | maior Classe | teto | o segundo feitiço | o `Classe 0` naquele nível |
+|---|---|---|---|---|
+| 11 | 3 | `1` | `13` de dano | **`18`** |
+| 13 | 4 | `2` | `27` | `18` |
+| 21 | 6 | `3` | `40` | `22` |
+| 30 | 7 | `3` | `40` | `27` |
 
-**Esse degrau sozinho carrega `3,78` fatias no nível 30 — `76%` da Trilha.** *Sobram `1,22` para o 19 e o 27 juntos, e é um orçamento apertado de propósito.*
+> **⚠ A coluna da direita entrou na v0.131, e ela é o achado.** *Sem ela, a tabela mostra uma escada que só sobe — e esconde que **no nível 11 o teto está abaixo do `Classe 0` que ele substitui**.* **É por isso que a `Vazão` ganhou cláusula de piso.**
 
-## `Torrente` — `4,65` de `5,00` fatias — **REPREÇADA na v0.81**
+*O texto que estava aqui dizia que este degrau carrega `3,78` fatias, `76%` da Trilha — número da v0.79, antes de a repreçagem da v0.81 derrubar ele para `1,38`.* **Hoje ele é `18%` de uma Trilha de `7,52`, e o degrau maior é o `Acelerar`.**
+
+## `Torrente` — `7,52` de `5,00` fatias — **REPREÇADA na v0.81 e de novo na v0.131**
 
 | nv | nome | a entrega | forma | fatias | antes |
 |---|---|---|---|---|---|
-| **2** | **`Acelerar`** | `2×` por cena. Teto do outro feitiço: `Classe 0` | botão | *(a base)* | — |
-| **11** | **`Vazão`** | o teto vira metade da sua maior Classe | permanente | **1,38** | *3,78* |
+| **2** | **`Acelerar`** | `2×` por cena. Teto do outro feitiço: `Classe 0` | botão | **2,87** | *(a base)* |
+| **11** | **`Vazão`** | o teto vira metade da sua maior Classe, e nunca menos que o `Classe 0` | permanente | **1,38** | *3,78* |
 | **19** | **`Cheia`** | rerrolar `1`, `2` e `3` nos dados de dano quando o feitiço for o único da rodada | permanente | **1,78** | *0,10* |
 | **27** | **`Transbordo`** | a metade arredonda para CIMA | permanente | **1,49** | 1,49 |
 
@@ -1232,11 +1234,69 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 > **Nível 2 — `Acelerar`.** *`2×` por cena.* Você conjura um feitiço da sua **ação padrão como ação bônus**, pagando **`Classe e meia` de PE a mais**, arredondando para cima. *Num Classe 7 são `11` de PE — o preço que a coluna `Pesada` da tabela 81 dá.*
 > Naquele turno, o outro feitiço que você lançar **não passa de `Classe 0`** — que é o que a regra de ouro nº 6 já diz.
 >
-> **Nível 11 — `Vazão`.** Aquele teto deixa de ser `Classe 0` e passa a ser **metade da sua maior Classe**, arredondando para baixo.
+> **Nível 11 — `Vazão`.** Aquele teto passa a ser **metade da sua maior Classe**, arredondando para baixo — e **nunca menos que o `Classe 0`** que a regra de ouro nº 6 já permitia.
 >
 > **Nível 19 — `Cheia`.** Quando o feitiço que você conjura é **o único feitiço daquele turno**, **rerrole todo dado de dano dele que cair em `1`, `2` ou `3`.** Você fica com o segundo resultado.
 >
 > **Nível 27 — `Transbordo`.** Aquela metade passa a **arredondar para cima.** *Com Classe 7 o teto vai de `Classe 3` para `Classe 4`.*
+
+### ⚠⚠ O `Acelerar` estava preçado em ZERO, e ele entrega um `Classe 0` por rodada — v0.131
+
+**A varredura do `Classe 0` fantasma, na v0.81, listou cinco entregas recalculadas. O nível 2 desta Trilha não entrou na lista**, e ele é uma delas.
+
+*O `Acelerar` joga o feitiço grande na **Ação Bônus**. A Ação Padrão fica livre, e um `Classe 0` cabe nela* — que é o que a própria entrega escreve e o que a regra de ouro nº 6 permite.
+
+| | nv30 |
+|---|---|
+| conjurador sem a Trilha, pela peça 6 §3 | `94` — o feitiço sozinho |
+| com o `Acelerar` | `94` na bônus **+ `27` do `Classe 0` na padrão liberada** = `121` |
+| ganho | **`27` de dano**, em `54%` das rodadas |
+
+**O preço disso já estava escrito no projeto, e não numa Trilha.** *Do `CHANGELOG` da v0.81:* ***"Ganha um Classe 0 por rodada" vale `5,31` fatias, e o orçamento de uma Trilha é `5,00`.*** **A `54%`, isso é `2,87` fatias.**
+
+> **Duas rotas independentes dão o mesmo número:** `27 ÷ 5,08 × 0,54 = 2,87`, e `5,31 × 0,54 = 2,87`.
+
+**O `(a base)` que estava nesta linha era a única célula de fatia sem número no arquivo inteiro** — as outras treze tabelas de preço trazem número em todas as quatro linhas. *Hoje ele sobrevive só na coluna `antes`, que é histórico.* *E a `Brasa` prece a mesma entrega — a `Fagulha`, o `Classe 0` na ação bônus — em `4,08` fatias.* **Duas linhas do mesmo documento davam `4,08` e `zero` para a mesma coisa.**
+
+> **O modelo reproduz os três preços publicados antes de comparar**, que é o que faz a comparação valer: `Vazão` = `(40 − 27) × 0,54 ÷ 5,08 = 1,38`; `Transbordo` = `(54 − 40) × 0,54 ÷ 5,08 = 1,49`; `Cheia` = `9,05 ÷ 5,08 = 1,78`. **Só o nível 2 diverge.**
+
+***Decisão do Mizuki na v0.131: corrigir o preço e o estouro fica.*** *O precedente é a `Brasa`, entre `+41%` e `+88%` — e a `Torrente` fecha em `+50%`.*
+
+### ⚠ A `Vazão` não entregava nada nos níveis 11 e 12 — v0.131
+
+**O `Classe 0` do manual cresce por FAIXA DE NÍVEL, e a `Vazão` cresce por Classe.** *As duas escadas se cruzam, e no cruzamento a entrega fica atrás.*
+
+| nível | maior Classe | teto da `Vazão` | dano do teto | `Classe 0` | ganho |
+|---|---|---|---|---|---|
+| 11 | 3 | Classe 1 | `13` | `18` (4d8) | **−5** |
+| 12 | 3 | Classe 1 | `13` | `18` | **−5** |
+| 13 | 4 | Classe 2 | `27` | `18` | +9 |
+| 21 | 6 | Classe 3 | `40` | `22` | +18 |
+| 30 | 7 | Classe 3 | `40` | `27` | +13 |
+
+**Como *"não passa de Classe 1"* continua deixando um `Classe 0` passar, ninguém chegava a perder os `5`** — a pessoa lançava o `Classe 0` e a entrega valia **zero por dois níveis**. *O que sobrava dela nesses dois era acesso a Melhoria: um `Classe 0` só aceita `Leve`, um `Classe 1` aceita qualquer uma.*
+
+> **O texto dizia *"deixa de ser `Classe 0` **e passa a ser** metade da sua maior Classe"*, que é linguagem de TROCA.** *Um mestre lendo ao pé da letra cobrava `3` PE por `5` de dano a menos.* **É o defeito que matou a `Voz Grossa` na v0.80** — *"a entrega era um rebaixamento"* — na Trilha vizinha e no mesmo Caminho.
+
+***Decisão do Mizuki na v0.131: cláusula de piso.*** **O teto nunca fica abaixo do `Classe 0` que a regra de ouro nº 6 já permite.** *Custa `0,00` fatia no nível 30, onde o teto é `Classe 3` e já está acima — o preço publicado não se move.*
+
+### Por que o conserto da peça 6 §4 NÃO serve aqui — v0.131
+
+*A pendência da peça 6 §9 propunha copiar o conserto da invocação:* **os feitiços que você lança numa rodada, somados, entregam uma Rotina.**
+
+| nível | maior Classe | feitiço sozinho | Rotina | folga para o segundo | `Classe 0` que a regra nº 6 já permite |
+|---|---|---|---|---|---|
+| 11 | 3 | `40` | `45` | **`5`** | `18` |
+| 21 | 6 | `81` | `94` | **`13`** | `22` |
+| 30 | 7 | `94` | `108` | **`14`** | `27` |
+
+> **O teto proposto é mais apertado que a regra que ele existia para vigiar.** *Aplicá-lo tornaria ilegal o `Classe 0` que o Fundamento concede de graça, em todo nível do 5 em diante.*
+
+**A leitura alternativa — *cada feitiço entrega metade da Rotina* — dá a mesma folga de `14` e ainda exige cortar o feitiço grande de `94` para `54`**, coisa para a qual o sistema não tem mecanismo.
+
+**E a razão é estrutural, não de calibragem.** *A invocação põe um **corpo** a mais, e corpo multiplica: um dobra a saída, três quadruplicam. A `Torrente` não põe corpo nenhum* — ela usa a Ação Padrão e a Ação Bônus que a ficha já tem. **O número de feitiços trava em DOIS, em todo nível, para sempre.** *Não existe a escada que o teto somado foi escrito para segurar.*
+
+*Cai junto a outra metade da pendência: **"uma lista de pontos à parte é o modelo mais provável"**. Ela cobra em PE, no preço que o manual já dá para a Melhoria `Rápido`, e não existe moeda nova nenhuma.*
 
 ### Por que ela caiu de `5,37` para `2,97` antes de subir de novo
 
@@ -1267,10 +1327,12 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 
 | botão, no mesmo gate | ganho | fatias | total da Trilha |
 |---|---|---|---|
-| vantagem no feitiço grande | 21,59 | 4,25 | 7,22 |
-| rerrolar `1` | 4,22 | 0,83 | 3,70 |
-| rerrolar `1` e `2` | 7,24 | 1,42 | 4,29 |
-| **rerrolar `1`, `2` e `3`** | **9,05** | **1,78** | **4,65** |
+| vantagem no feitiço grande | 21,59 | 4,25 | 10,09 |
+| rerrolar `1` | 4,22 | 0,83 | 6,57 |
+| rerrolar `1` e `2` | 7,24 | 1,42 | 7,16 |
+| **rerrolar `1`, `2` e `3`** | **9,05** | **1,78** | **7,52** |
+
+> *⚠ A coluna do total foi refeita na v0.131, quando o `Acelerar` deixou de valer zero: os quatro totais subiram `2,87` cada.* **A escolha entre os quatro botões não muda** — o que se compara ali é a coluna do meio, e ela não se moveu.
 
 > ## ⚠ DUAS RERROLAGENS NO SISTEMA, E A DIFERENÇA É DECLARADA
 >
@@ -1284,15 +1346,21 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 
 > **O nível 27 é uma linha de texto e é o degrau mais caro da Trilha, e isso não é acidente.** O projeto arredonda sempre **para o lado que não te favorece** — é regra global da peça 1. **Inverter isso num lugar só é uma exceção legível**, que qualquer mestre lê e aplica igual. *E ela não oscila: do nível 27 ao 30 a maior Classe é sempre `7`, então o teto é sempre `Classe 4`.*
 
-**A matriz da `Torrente` no nível 30:** `4,65` em ação/alvo, e zero nas outras três colunas. *Ela é a Trilha mais monocromática do Emanador, e isso vai importar quando as três forem cruzadas.*
+**A matriz da `Torrente` no nível 30:** `7,52` em ação/alvo, e zero nas outras três colunas. *Ela é a Trilha mais monocromática do Emanador, e isso vai importar quando as três forem cruzadas.*
 
-> **O estouro de `7%` está aceito, e o precedente é do próprio Mizuki:** a `Brasa` fechou entre `41%` e `88%` acima e ficou. **Sete por cento é uma fração daquilo**, e cabe dentro da largura da própria banda de escrita.
+> **O estouro é de `50%` e está aceito, e o precedente é do próprio Mizuki:** a `Brasa` fechou entre `41%` e `88%` acima e ficou. **A `Torrente` entra abaixo do piso daquela faixa.**
 >
-> *⚠ O precedente citado aqui era o `Punho` em `22%`, e ele caiu na v0.103: aquele estouro era erro de preço.*
+> **Três coisas seguram ela, e nenhuma é preço:** *a matriz diz `100%` ação/alvo e zero nas outras três colunas — ela não faz nada fora de bater no alvo*; *o PE morde de verdade, com a rodada de pico a `44` de um poço de `180`, que é `1,1` luta no dia*; *e o relógio de `2×` por cena é escolha por rodada e não botão de ligar.*
+>
+> *⚠ Esta linha dizia **`7%`** até a v0.131, e ela era da época do `5,37`. Depois da repreçagem da v0.81 a Trilha publicava `4,65`, que é `7%` **abaixo** de `5,00` — a frase envelheceu de sinal trocado e ninguém releu.*
+>
+> *⚠ E o precedente citado aqui era o `Punho` em `22%`, que caiu na v0.103: aquele estouro era erro de preço.*
 
 > **E o PE virou freio de verdade nesta versão.** Uma rodada de pico no nível 30 custa **`44` de PE** — `21` do Classe 7, `11` da sobretaxa e `12` do Classe 4. **O pool de `180` cobre `4,1` rodadas, que é `1,1` luta.** *Ou seja: você torra uma luta inteira no dia, e a segunda você entra com o bolso vazio.* **É exatamente a ficção — você lança até a energia acabar, e ela acaba.**
 >
-> **A rodada de pico faz `148` de dano contra os `98` da base — `+50%` —, e ela acontece em `54%` das rodadas.** *E são DUAS ações, bônus e padrão, que é a contagem normal do conjurador: o `+18%` que a peça 6 §3.1 reprova é o mecanismo de **três** ações, e esta Trilha não usa ele.*
+> **A rodada de pico faz `148` de dano contra os `94` da base — `+57%` —, e ela acontece em `54%` das rodadas.** *E são DUAS ações, bônus e padrão, que é a contagem normal do conjurador: o `+18%` que a peça 6 §3.1 reprova é o mecanismo de **três** ações, e esta Trilha não usa ele.*
+>
+> *⚠ A base escrita aqui era `98`, e ela não reconstrói de tabela nenhuma. **A linha do conjurador da peça 6 §3 é `94` no nível 30** — o feitiço sozinho —, e `94 + 54` do `Classe 4` é exatamente o `148` do pico. Corrigido na v0.131, com o percentual junto.*
 
 > **Duas coisas ficam declaradas e não consertadas.** A Trilha **não passa** a trava *"nenhuma entrega depende de outra"* — o 11, o 19 e o 27 penduram todos no `Acelerar` do nível 2. *É o desenho pedido, no mesmo molde do `Perímetro`.* **E o nível 2 dispara em `54%` das rodadas**, que é o limite baixo do *"permanente ou dispara muito"* que a trava do nível 2 exige.
 
@@ -1349,20 +1417,22 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 
 #### ⚠ A dominância, declarada
 
-**Com `5,57`, o `Explosivo` domina a `Torrente` por `1,20×`.** As duas são `100%` ação/alvo, e nenhuma tem coluna que a outra zere.
+**Com `7,52`, a `Torrente` domina o `Explosivo` por `1,35×`.** As duas são `100%` ação/alvo, e nenhuma tem coluna que a outra zere.
 
 | | ação/alvo | defesa | posicionamento | recuperação | total |
 |---|---|---|---|---|---|
-| `Torrente` | 4,65 | 0,00 | 0,00 | 0,00 | 4,65 |
+| **`Torrente`** | **7,52** | 0,00 | 0,00 | 0,00 | **7,52** |
 | `Arremate` | 2,36 | **1,38** | 0,00 | 0,00 | 3,74 |
-| **`Explosivo`** | **5,57** | 0,00 | 0,00 | 0,00 | **5,57** |
+| `Explosivo` | 5,57 | 0,00 | 0,00 | 0,00 | 5,57 |
 
-> **Ela é maior que a da `Arma de Fogo` sobre a `Estocada`, que é `1,06×` e está aceita.** *Mas ela continua dentro do filtro que reprova em `3,0×`, e a causa é a mesma das outras duas: **falta coluna, não sobra número.*** **O Emanador inteiro tem `posicionamento` e `recuperação` vazios nas três Trilhas** — e quem fechar essa lacuna é a peça de Caminhos, não uma destas.
+> **⚠ O SENTIDO INVERTEU na v0.131, e o tamanho cresceu.** *Era o `Explosivo` sobre a `Torrente` por `1,20×`, e passou a ser a `Torrente` sobre o `Explosivo` por `1,35×`* — **porque o `Acelerar` deixou de valer zero.** *É a segunda dominância deste projeto que troca de sentido sem ninguém mexer no desenho: a primeira foi `Estocada` contra `Arma de Fogo`, na v0.81.*
+>
+> **Ela continua dentro do filtro, que reprova em `3,0×`.** *E a causa é a mesma das outras duas: **falta coluna, não sobra número.*** **O Emanador inteiro tem `posicionamento` e `recuperação` vazios nas três Trilhas** — e quem fechar essa lacuna é a peça de Caminhos, não uma destas.
 
 #### O que este bloco deixa em aberto
 
 - ~~**⚠⚠ O `Estopim` pede um `atributo de conjuração`, e a ficha padrão não tem um.**~~ **RESOLVIDO na v0.117, e de graça:** *a base de acerto passou a ser `d20 + atributo da técnica + maestria`, então **toda ficha declara um atributo de técnica na criação**.* **O preço de `1,18` supunha um atributo investido de `3` a `6`, que é exatamente o que a ficha passou a ter** — o degrau não se moveu.
-- **⚠ A dominância sobre a `Torrente` é `1,20×` e fica declarada**, não consertada. *Se ela incomodar na mesa, o conserto é dar coluna ao `Arremate` ou ao `Explosivo`, e não cortar número.*
+- **⚠ A dominância da `Torrente` sobre o `Explosivo` é `1,35×` e fica declarada**, não consertada. *Ela era `1,20×` no sentido contrário até a v0.131.* **Se ela incomodar na mesa, o conserto é dar coluna ao `Arremate` ou ao `Explosivo`, e não cortar número.**
 - **O nome passou pela triagem e saiu `LIVRE`.** *`Estopim`, `Ápice`, `Auge`, `Rompante`, `Pavio`, `Estouro`, `Fagulha` e `Culminar` também saíram livres, e ficam registrados.*
 - **As doze entregas do Caminho continuam sem nome.**
 - **O `Repertório` morreu, e a ficção dele fica abaixo** — ela é boa e pode voltar num Caminho que tenha coluna para ela.
@@ -1445,10 +1515,12 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 
 | | ação/alvo | defesa | posicionamento | recuperação | total |
 |---|---|---|---|---|---|
-| `Torrente` | **4,65** | 0,00 | 0,00 | 0,00 | 4,65 |
+| `Torrente` | **7,52** | 0,00 | 0,00 | 0,00 | 7,52 |
 | `Arremate` | 2,36 | **1,38** | 0,00 | 0,00 | 3,74 |
 
-> **Nenhuma domina a outra, e quem segura isso é a coluna de defesa do `nv19` sozinha.** *A `Torrente` é `100%` ação/alvo; um `Arremate` que também fosse só ação/alvo e fechasse abaixo de `5,37` estaria dominado por definição.*
+> **A `Torrente` lidera por `2,01×`, e quem segura isso abaixo do filtro é a coluna de defesa do `nv19` do `Arremate` sozinha.** *A `Torrente` é `100%` ação/alvo; um `Arremate` que também fosse só ação/alvo estaria dominado por definição.* **O filtro reprova em `3,00×`.**
+>
+> *⚠ A `Torrente` valia `4,65` nesta tabela até a v0.131, e o texto dizia que nenhuma dominava a outra. **O que mudou foi o preço do `Acelerar`, não o desenho de nenhuma das duas.***
 >
 > **E isso deixa uma dívida para o `Repertório`:** ele vai precisar liderar em **posicionamento** ou em **recuperação**, que são as duas colunas ainda vazias do Caminho.
 
@@ -1476,7 +1548,7 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 
 - **Nada disto tem número.** É ficção, no método que fechou as nove primeiras: você revisa, e só depois eu preço as três de uma vez.
 - ~~O nível 7 do Caminho decide o que a `Torrente` pode ser.~~ **REFEITO na v0.80: a `Voz Grossa` morreu e virou o `Resquício`** — um Classe 0 na Ação Bônus quando a Padrão foi feitiço que não causa dano. *Ela morreu porque um Classe 0 causa `27` no nível 30 e um golpe simples causa `12`: a entrega era um rebaixamento.* **A ação bônus continua livre para a `Torrente` nas rodadas de dano** — o `Resquício` só dispara em rodada de controle.
-- ~~A `Torrente` travou numa régua que não existe.~~ **FECHADA na v0.79 em `5,37` e REPREÇADA na v0.81 para `4,65`.** *A saída foi preçar por **ritmo** e não por conversão de PE.* **A repreçagem veio do Classe 0: o `5,37` tinha sido calculado com o fantasma de `4,50`, e furar o teto vale `13` de dano e não `36`.** *O nível 19 velho morreu junto — ele premiava lançar `Classe 0`, que deixou de ser lixo — e no lugar entrou a entrega que hoje se chama `Cheia`.*
+- ~~A `Torrente` travou numa régua que não existe.~~ **FECHADA na v0.79 em `5,37`, REPREÇADA na v0.81 para `4,65` e de novo na v0.131 para `7,52`** — *desta vez porque o `Acelerar` estava preçado em zero e entrega um `Classe 0` por rodada.* *A saída foi preçar por **ritmo** e não por conversão de PE.* **A repreçagem veio do Classe 0: o `5,37` tinha sido calculado com o fantasma de `4,50`, e furar o teto vale `13` de dano e não `36`.** *O nível 19 velho morreu junto — ele premiava lançar `Classe 0`, que deixou de ser lixo — e no lugar entrou a entrega que hoje se chama `Cheia`.*
 - ~~O `Arremate` contradiz a peça 6 §3.1.~~ **APLICADO na v0.80**, com o motivo e o número da vida escritos na peça 6, e o `Coro` herdando.
 - **⚠ O `Arremate` fechou em `3,74` de `5,00` e o nível 27 dele ficou VAGO.** *A entrega que estava lá vale `0,00` com o Classe 0 certo — as duas metades se cancelam.* **Sobram `1,26` fatia, que são `6,40` de dano por rodada.** *A ficção do degrau é o capstone do Mahito: dentro do domínio ele deixa de precisar tocar.*
 - ~~Falta o `Repertório`, e ele precisa liderar em **posicionamento** ou **recuperação**.~~ **ABANDONADO na v0.81, e no lugar entrou o `Explosivo`.** *Foi exatamente a régua que faltava que o matou: "uma aptidão a mais" não converte em fatia e não tem como converter.*

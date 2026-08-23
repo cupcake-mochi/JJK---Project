@@ -155,4 +155,6 @@ Quem usa a Restrição `Carregar` mantém o movimento e a Ação Bônus no turno
 
 É a trava que impede dois feitiços grandes no mesmo turno. Por exemplo, se você conjurou um feitiço de Classe 3 na Ação Bônus, o que ainda cabe na Ação Padrão é um Classe 0, e nada maior.
 
+Uma Trilha sobe esse teto, e é a única do sistema: a `Torrente`, do Emanador. Do nível 11 em diante ela troca o Classe 0 por metade da sua maior Classe.
+
 Você tem **uma Reação só**, e três coisas disputam ela: ataque de oportunidade, a ação `Preparar` e conjurar pela Melhoria `Reação`. Gastar a Reação com uma delas é abrir mão das outras até o seu próximo turno começar.

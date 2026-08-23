@@ -677,7 +677,15 @@ else:
     # de trabalho", que sao as duas familias declaradas la em cima — nenhuma
     # familia nova, e nenhuma delas e material de mesa. O teto vai a 112, que e'
     # a mesma folga de cinco.
-    PISO_CITACOES, TETO_BRANCOS = 120, 112
+    #
+    # v0.131: 113 brancas. As DUAS novas saem da peca 6 SS9, quando a pendencia
+    # da Torrente fechou: ela passou a citar o RASCUNHO-trilhas.md (que ja esta
+    # na lista por decisao, cortado do recorte) e o conferir-orcamento.py, para
+    # dizer que a exigencia de passar a "moeda nova do Emanador" por ele ficou
+    # SEM OBJETO — nao existe moeda nova. Conferidas uma a uma pelo diff da lista
+    # branca antes e depois: as duas sao "nome de validador" e "arquivo cortado
+    # por decisao", as familias ja declaradas. O teto vai a 118, mesma folga.
+    PISO_CITACOES, TETO_BRANCOS = 120, 118
     if vistos_e < PISO_CITACOES:
         erro(f'7.2: achei so {vistos_e} citacoes na entrega, e o piso e {PISO_CITACOES} — '
              f'o extrator mudou de forma e esta checagem parou de conferir')
