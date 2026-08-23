@@ -8,6 +8,103 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.135] — 23/08/2026
+
+**Três achados do Mizuki lendo o que a v0.134 tinha acabado de subir, e os três são de regra.**
+
+*Nenhum deles é de Pactos.* **Os três encostam na rota que não tem energia amaldiçoada** — a Técnica Marcial e a Restrição Celestial pelo ramo sem energia —, e o terceiro abre um buraco que ninguém tinha visto em quinze versões.
+
+### 1 · As Passivas da Técnica Marcial não tinham exemplo
+
+*A tabela do §3 da peça 20 dizia que Passiva Livre e Passivas pagas ficam `igual`, e parava ali.* **"Igual" resolve a máquina e não resolve o exemplo:** os do capítulo do Fundamento são todos construídos em cima de energia amaldiçoada, e quem escreve uma rota de corpo não tinha em que se espelhar.
+
+**Entrou a §3.3 da peça 20 e a seção `Passivas` do capítulo 10, com sete exemplos de `Livre` a Classe Passiva `3`.** *A escada não mudou — ela continua sendo a do manual, com um dono só.*
+
+> **⚠ E dois dos sete já existiam.** *O `Raiz` e o `Leitura` estavam publicados **dentro das duas Técnicas Marciais prontas** do §9, e em lugar nenhum como exemplo.* **Quem lia a criação não passava por eles.**
+
+### 2 · A `Defesa sem Armadura` desligava demais
+
+*O livro dizia: "ela sai de cena assim que Traje ou Revestimento entram na conta".* **Aquela Bênção tem TRÊS linhas** — a proteção, atravessar barreira de energia, e não ser alcançada pelo Acerto garantido de uma Expansão completa.
+
+***Achado do Mizuki: só a proteção devia cair.*** **Ele está certo, e o motivo é de onde as outras duas vêm:** *elas não vêm de estar sem armadura — vêm de **não ter energia amaldiçoada**, e uniforme nenhum dá energia a ninguém.*
+
+**Vestir Traje ou Revestimento desliga a proteção e nada mais.**
+
+### 3 · ⚠⚠ O que atravessa é VOCÊ, e não o que você carrega
+
+***Achado do Mizuki, e ele é o que abre buraco:*** *ferramenta amaldiçoada e objeto amaldiçoado **emanam** energia, e é o que eles emanam que a barreira lê.*
+
+**O restringido entra na `Cortina`; o equipamento amaldiçoado dele fica do lado de fora.** *Escrito na peça 9 §5, que é a dona das duas linhas desde a v0.118.*
+
+> **Contra Expansão de Domínio isso não vale, e o texto diz por quê.** *O Acerto garantido dela lê **alvo**, e item nunca foi alvo legível* — **o que você carrega já atravessava domínio antes disto.** *Escrito para ninguém ler ganho onde não tem.*
+
+#### A saída é uma Passiva, e a altura dela já estava preçada
+
+***Direção do Mizuki: uma "maldição de bolso" que consome os itens e os esconde dentro do corpo, e que também serve para sacar mais de um item por turno.***
+
+> **`Bocado` · Classe Passiva 1.** *O que você carrega passa a viver dentro de você; sacar é tirar de si.* **Item amaldiçoado guardado nele para de emanar — `Barreira Simples` e `Cortina` deixam de segurar o item —, e você saca ou guarda DOIS itens de graça por turno em vez de um.**
+
+**⚠⚠ E a altura dela não precisou ser escolhida: ela estava escrita, e há doze versões.** *A peça 3 §3.2 fechou na v0.122 com uma decisão do Mizuki que diz, com todas as letras:* **"uma Passiva ou aptidão pode dizer que o segundo saque sai de graça, e ela cabe na Classe Passiva 1"**.
+
+> *Aquela linha ficou doze versões sem um exemplar, e este é o primeiro.* **É o quarto exemplar do mesmo padrão em vinte versões** — o Classe 0 da v0.80, a ação `Mirar` da v0.86 e a régua do `Efeito Próprio` da v0.92 são os outros três: **o projeto procurando um número que já tinha dono.** *A diferença é que desta vez ninguém procurou: fui ler a regra pendurada no termo antes de aceitar o preço, que é a lição nº 6.*
+
+**A outra metade — esconder o que emana — é acesso e não número.** *Ela não muda rolagem nenhuma e só existe quando alguém levantou barreira.* **Somadas, continuam em Classe Passiva `1`.**
+
+### A triagem matou dois nomes, e um deles ela tinha dado como LIVRE
+
+| nome | veredito | por quê |
+|---|---|---|
+| `Segunda Natureza` | **`OCUPADO`** | é **Passiva no manual**. *A triagem pegou esta sozinha* — o lugar virou o `Aliança` |
+| `Bolso` | **`LIVRE`, e reprovou mesmo assim** | *o projeto usa "bolso" para o orçamento de PE em **dez** lugares — "o bolso já é apertado".* **Colisão de sentido, que a triagem não pega** |
+
+**`Bocado` saiu livre nas duas direções, e não aparece uma vez em minúscula na pasta.** *Ficam registrados, também livres:* `Coldre`, `Estojo`, `Ninho`, `Alforje` e `Bornal`.
+
+### A checagem 13 do `conferir-marcial.py`
+
+**Ela mede RELAÇÃO e não constante.** *O `2` do `Bocado` não está escrito dentro dela: ela lê quantos saques a peça 3 §3.2 dá de graça hoje e quantos a Passiva entrega, e exige que a segunda seja a primeira **mais um*** — que é o que *"o segundo saque sai de graça"* quer dizer.
+
+**Quatro perturbações acendendo e um contra-teste verde**, em cópia isolada, com a base conferida antes e o `diff` conferido. *O contra-teste move os dois lados juntos, de `1→2` para `2→3`, e fica verde de propósito.*
+
+### ⚠ E o commit do projeto REPROVOU num ponteiro que só passava por acidente
+
+**O `subir.sh` recusou a v0.135**, e o motivo não era desta versão: *o `PROMPT-PROXIMA-CONVERSA.md` cita `finalizado/mensagem-de-commit.txt` na linha que explica como fechar versão, e a entrega tinha acabado de consumir o dela.*
+
+> **Aquele arquivo existe só entre "o assistente escreveu" e "o `subir.sh` consumiu" — o próprio script o apaga depois de commitar.** *A checagem de ponteiro só passava quando havia mensagem parada no disco*, e **passar por acidente é a mesma coisa que não conferir.**
+
+**Os dois arquivos de mensagem entraram numa lista `TRANSITORIOS` declarada, com o motivo escrito.** *Teste negativo conferido: um ponteiro morto de verdade continua acendendo.*
+
+### E a fila ganhou um item
+
+***Levantado pelo Mizuki na v0.135: faltam os itens iniciais que cada Caminho pode pegar.*** *A criação da peça 8 dá perícia, ofício, Trilha e técnica, e não diz com que equipamento o personagem sai de casa.* **A peça 14 tem as 52 armas e as duas classes de uniforme, e ninguém escreveu quais delas a criação entrega.**
+
+### O catálogo de restrição ganhou texto, por leitura dele
+
+***"a descrição ficou tão curtinha que acho que até tá difícil de entender".*** **As oito ideias eram uma linha cada, e quatro delas não davam para jogar:** *a `Fragmentação` não dizia quem escolhe a barra, o `Pacifismo` não dizia o que é o relógio de dias, o `Magnetismo` não dizia o que conta como ataque direcional — e o `Aquecendo` **lia como vida infinita**, porque dizia que a vida sobe por turno e não dizia onde ela para.*
+
+**As oito foram reescritas nos dois lados, e o `Aquecendo` ganhou o teto que faltava:** *ela sobe até a sua vida máxima de sempre, e para ali.*
+
+> **⚠ E o `conferir-orcamento.py` reprovou a descrição nova do `Catatau`, que é exatamente o que o rascunho tinha previsto.** *Ela dizia "levar dano gasta PE na mesma medida", e a checagem 5 daquele validador cobra que **todo custo em PE tenha quantidade** — "gasta PE" sem número não é preço, é um buraco que cada mesa preenche diferente.* **Reescrita com a conversão explícita: `1` para `1`.**
+>
+> **E o aviso de que `Aquecendo` não é a Restrição `Aquecer` saiu do livro**, por decisão dele — *"para ganhar espaço, não é necessário"*. **A colisão continua declarada na peça 22 §7.2**, que é onde registro de decisão mora.
+
+### Medido depois
+
+| | v0.134 | v0.135 |
+|---|---|---|
+| peças de regra · validadores | 22 · 22 | 22 · 22 |
+| checagens | 231 | **232** |
+| capítulos do livro | 18 | 18 |
+| palavras do livro | 78.840 | **79.540** |
+| coluna única | 258 páginas | **260** |
+| duas colunas | 146 páginas | **147** |
+| `conferir-voz --estrito` | 0 achados · 17 triagens | **0 achados · 17 triagens** |
+
+> **⚠ A entrega estava DUAS levas atrás.** *O último commit de `finalizado/` era o recorte da v0.133* — o de Pactos nunca subiu. **Esta leva leva as duas de uma vez.**
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **A fila de mecânica continua com dois:** *itens menores e as três Trilhas do Evocador.*
+
+---
+
 ## [0.134] — 23/08/2026
 
 **Pactos virou a peça 22, e ela é a quinta camada de personagem — a última que faltava ter régua.**

@@ -239,6 +239,12 @@ A troca é sempre desproporcional para os dois lados: você perde muito e ganha 
 > **Barreira de energia não te segura.** Você atravessa `Barreira Simples` e `Cortina` como se elas não estivessem lá.
 > **E o Acerto garantido de uma Expansão de Domínio completa não te alcança** — você não é alvo legível para ele. *O Efeito continua acontecendo em volta de você, e a Expansão incompleta funciona normal, porque o Acerto dela rola.*
 
+> **⚠ O que atravessa é VOCÊ, e não o que você está carregando.** *Ferramenta amaldiçoada e objeto amaldiçoado **emanam** energia, e é o que eles emanam que a barreira lê.* **`Barreira Simples` e `Cortina` seguram o seu equipamento amaldiçoado mesmo com você passando** — você entra, ele fica.
+>
+> *Isso não vale para a Expansão: o Acerto garantido dela lê **alvo**, e item não é alvo legível.* **O que você carrega atravessa o domínio junto com você.**
+>
+> **E a saída existe, no molde da peça 20: é uma Passiva.** *O `Bocado`, na peça 20 §3.3, guarda o item dentro do corpo — e lá dentro ele para de emanar.* **Ela custa um espaço de Kata, que é a moeda que esta rota tem.**
+
 > ***Em troca, e a troca é declarada: quem não tem energia nunca tem Expansão de Domínio.*** *Nem incompleta, nem completa.*
 
 **Isso não passou por régua de preço, e é decisão do Mizuki** — *"é realmente só algo da obra que infelizmente tem de ser adaptado e vai ser meio fortinho mesmo"*. **O que ela ganha é atravessar barreira e não ser alcançada pelo Acerto garantido; o que ela paga é não ter a camada inteira.** *Troca declarada, e não conta que fecha.*

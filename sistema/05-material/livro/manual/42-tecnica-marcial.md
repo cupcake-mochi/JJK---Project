@@ -144,6 +144,42 @@ Sacar a segunda é o primeiro saque do seu turno, então sai de graça — capí
 
 O eixo de controle muda de nome com a Origem: quem tem energia amaldiçoada leva `Refino` e aptidões, no capítulo 11; quem não tem leva `Lapidação` e Bênçãos, no capítulo 12.
 
+## Passivas
+
+Passiva é o que a sua técnica faz sem você mandar, e aqui ela funciona igual ao capítulo 9, *Fundamento*: a Livre é de graça, e as pagas custam espaços de Kata pela Classe Passiva.
+
+O que muda é de onde a ficção sai. Onde o capítulo 9 escreve energia, aqui se escreve corpo, treino e ferramenta.
+
+**Passivas de Técnica Marcial**
+{: .tab-titulo }
+
+| Classe Passiva | Exemplo | O que ele é |
+|---|---|---|
+| Livre | `Calo` | a sua mão reconhece pelo peso qualquer arma que você já empunhou uma vez |
+| 1 | `Bocado` | você guarda no corpo o que carrega |
+| 1 | `Raiz` | você não é movido à força nem derrubado contra a sua vontade |
+| 1 | `Leitura` | você identifica a Classe e a Forma de qualquer feitiço conjurado a até `18 m` |
+| 2 | `Segundo Fôlego` | quando você chega a `0` de vida, uma vez por descanso longo, escolher `Insistir` não custa a sua rodada |
+| 2 | `Contragolpe` | uma vez por cena, quando alguém erra um ataque corpo a corpo contra você, a sua próxima Kata contra ele não pode ser evitada por deslocamento |
+| 3 | `Aliança` | a sua arma nunca é desarmada, e ninguém além de você a empunha |
+
+Nenhuma delas é catálogo e nenhuma tem requisito. Passiva se escreve na hora, com o mestre. A tabela `Passivas de Técnica Marcial` está aqui para dar altura, não para escolher.
+
+### `Bocado`
+
+> **`Bocado`** — o que você carrega passa a viver dentro de você. Sacar é tirar de si.
+>
+> **Item amaldiçoado guardado assim para de emanar energia.** `Barreira Simples` e `Cortina` deixam de segurar ele, e ele atravessa com você.
+>
+> **Você saca ou guarda dois itens de graça por turno**, em vez de um.
+>
+> Requisito: nenhum. Classe Passiva 1.
+
+Ela existe para o buraco que a Restrição Celestial sem energia tem: o corpo dela atravessa barreira de energia e o equipamento amaldiçoado dela não. Veja o capítulo 12, *Bênçãos e Lapidação*.
+
+> **Contra Expansão de Domínio ela não muda nada.** O Acerto garantido lê alvo, e item nunca foi alvo — o que você carrega já atravessava domínio antes dela.
+{: .aviso }
+
 ## Técnicas Marciais prontas
 
 Duas, uma de cada rota. As duas param onde a criação de personagem para: Descrição, Regra, atributo, rota, Famílias e a Passiva. `Ruptura` e `Ōgi` não aparecem porque só chegam nos níveis 10 e 17, e são escritas na hora.

@@ -4724,6 +4724,38 @@ Sacar a segunda é o primeiro saque do seu turno, então sai de graça — capí
 
 O eixo de controle muda de nome com a Origem: quem tem energia amaldiçoada leva `Refino` e aptidões, no capítulo 11; quem não tem leva `Lapidação` e Bênçãos, no capítulo 12.
 
+## Passivas
+
+Passiva é o que a sua técnica faz sem você mandar, e aqui ela funciona igual ao capítulo 9, *Fundamento*: a Livre é de graça, e as pagas custam espaços de Kata pela Classe Passiva.
+
+O que muda é de onde a ficção sai. Onde o capítulo 9 escreve energia, aqui se escreve corpo, treino e ferramenta.
+
+**Passivas de Técnica Marcial**
+| Classe Passiva | Exemplo | O que ele é |
+|---|---|---|
+| Livre | `Calo` | a sua mão reconhece pelo peso qualquer arma que você já empunhou uma vez |
+| 1 | `Bocado` | você guarda no corpo o que carrega |
+| 1 | `Raiz` | você não é movido à força nem derrubado contra a sua vontade |
+| 1 | `Leitura` | você identifica a Classe e a Forma de qualquer feitiço conjurado a até `18 m` |
+| 2 | `Segundo Fôlego` | quando você chega a `0` de vida, uma vez por descanso longo, escolher `Insistir` não custa a sua rodada |
+| 2 | `Contragolpe` | uma vez por cena, quando alguém erra um ataque corpo a corpo contra você, a sua próxima Kata contra ele não pode ser evitada por deslocamento |
+| 3 | `Aliança` | a sua arma nunca é desarmada, e ninguém além de você a empunha |
+
+Nenhuma delas é catálogo e nenhuma tem requisito. Passiva se escreve na hora, com o mestre. A tabela `Passivas de Técnica Marcial` está aqui para dar altura, não para escolher.
+
+### `Bocado`
+
+> **`Bocado`** — o que você carrega passa a viver dentro de você. Sacar é tirar de si.
+>
+> **Item amaldiçoado guardado assim para de emanar energia.** `Barreira Simples` e `Cortina` deixam de segurar ele, e ele atravessa com você.
+>
+> **Você saca ou guarda dois itens de graça por turno**, em vez de um.
+>
+> Requisito: nenhum. Classe Passiva 1.
+
+Ela existe para o buraco que a Restrição Celestial sem energia tem: o corpo dela atravessa barreira de energia e o equipamento amaldiçoado dela não. Veja o capítulo 12, *Bênçãos e Lapidação*.
+
+> **Contra Expansão de Domínio ela não muda nada.** O Acerto garantido lê alvo, e item nunca foi alvo — o que você carrega já atravessava domínio antes dela.
 ## Técnicas Marciais prontas
 
 Duas, uma de cada rota. As duas param onde a criação de personagem para: Descrição, Regra, atributo, rota, Famílias e a Passiva. `Ruptura` e `Ōgi` não aparecem porque só chegam nos níveis 10 e 17, e são escritas na hora.
@@ -5280,7 +5312,12 @@ O golpe chega e o corpo já está no lugar certo, já contraído, já girando co
 >
 > Requisito: grátis na Lapidação 1. A Lapidação escala a proteção.
 
-Ela sai de cena assim que Traje ou Revestimento entram na conta. Em troca das duas linhas acima, quem não tem energia nunca tem Expansão de Domínio.
+**Vestir Traje ou Revestimento desliga só a proteção.** As outras duas linhas continuam valendo: elas vêm de você não ter energia amaldiçoada, e uniforme nenhum te dá uma.
+
+Em troca delas, quem não tem energia nunca tem Expansão de Domínio.
+
+> **O que atravessa é você, e não o que você carrega.** Ferramenta amaldiçoada e objeto amaldiçoado emanam energia, e é o que eles emanam que a barreira lê: você entra na `Cortina`, e o seu equipamento amaldiçoado fica do lado de fora. Contra Expansão de Domínio isso não vale — o Acerto garantido lê alvo, e item não é alvo.
+A saída é uma Passiva, e ela está no capítulo 10, *Técnica Marcial*: a `Bocado` guarda o item dentro do corpo, e lá dentro ele para de emanar.
 
 ### Estímulo Muscular
 
@@ -6534,16 +6571,15 @@ Nenhuma delas mexe em acerto, Defesa ou perícia. O que elas mudam é a estrutur
 **Ideias de restrição**
 | Ideia | O que ela faz |
 |---|---|
-| `Fragmentação` | a sua Integridade vira cinco barras, e o dano escolhe uma |
-| `Liberação irregular` | você rola, a cada turno, o teto de energia que consegue liberar nele |
-| `50/50` | a sua energia liga e desliga por turno, e desligada você recebe o dobro do dano |
-| `Pacifismo impraticável` | uma obrigação de ficção com relógio de dias correndo |
-| `Direcional` | o seu deslocamento perde a diagonal e a parada no meio |
-| `Magnetismo energético` | ataque direcional feito em outro alvo redireciona para você |
-| `Aquecendo` | você entra em combate com 1 de vida máxima, e ela sobe a cada turno |
-| `Catatau` | a sua vida e a sua energia andam juntas, nos dois sentidos |
+| `Fragmentação` | a sua Integridade deixa de ser uma barra só e vira **cinco**, cada uma com um quinto do total. Todo dano na alma cai numa delas, e **quem está causando escolhe qual**. Você aguenta o mesmo total e desmonta por partes, em vez de por igual |
+| `Liberação irregular` | a sua energia não sai no ritmo que você manda. **No começo de cada turno seu, role o teto de PE daquele turno** — é só isso que você gasta nele, com o poço cheio ou não. Nos turnos ruins o feitiço grande não sai |
+| `50/50` | a sua energia pisca. **Ela alterna: ligada num turno, desligada no seguinte**, e você sabe em qual está. No turno desligado você não conjura, **e todo dano que te acerta vem dobrado** |
+| `Pacifismo impraticável` | você jurou não fazer alguma coisa que o trabalho exige — não matar, não sacar primeiro, não usar a técnica contra gente. **O relógio dela corre em dias, e não em cenas:** quebrar não custa a rodada, custa o prazo inteiro que vem depois |
+| `Direcional` | você só anda em linha reta, e só para no fim. **Escolha uma direção no começo da Ação de Movimento e vá até gastar os metros ou bater em alguma coisa** — sem diagonal, sem curva, sem parar no meio |
+| `Magnetismo energético` | energia amaldiçoada em movimento é puxada para você. **Ataque que viaja em linha até outro alvo muda de rota e vem em você** — projétil, feixe, o que atravessa o espaço. Área e toque não, porque não viajam |
+| `Aquecendo` | o seu corpo demora a acordar. **Você entra em toda luta com a vida máxima em `1`, e ela sobe a cada turno seu até a sua vida máxima de sempre — e para ali.** Ela nunca passa dela. O perigo são os primeiros turnos, em que qualquer golpe te derruba |
+| `Catatau` | a sua vida e a sua energia são a mesma coisa, e a conversão é `1` para `1`: **cada `1` de dano que você leva tira `1` de PE, e cada `1` de PE que você gasta tira `1` de vida.** Conjurar te machuca, e apanhar te desarma |
 
-> **`Aquecendo` não é a Restrição `Aquecer`.** A Restrição é de feitiço e mora no capítulo 9, *Fundamento*; esta aqui é de ficha, e as duas podem existir na mesma mesa.
 ## Pactos na criação
 
 Pacto permanente, temporário e `Promessa` nascem em jogo, e nenhum dos três entra na criação de personagem, no capítulo 6, *Criação de Personagem*.

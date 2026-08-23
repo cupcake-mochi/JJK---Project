@@ -224,14 +224,14 @@ O que `0,50` fatia é, nas moedas em que alguém pergunta:
 
 | ideia | o que ela é, mecanicamente | a peça dona |
 |---|---|---|
-| **`Fragmentação`** | a Integridade vira cinco barras, e o dano escolhe barra | peça 1, Integridade |
-| **`Liberação irregular`** | teto de PE por turno, rolado | peça 1 §5.3 |
-| **`50/50`** | a energia liga e desliga por turno, e desligada dobra o dano recebido | peça 19 §4 |
-| **`Pacifismo impraticável`** | obrigação de ficção com relógio de dias | peça 10 §5 |
-| **`Direcional`** | o deslocamento perde a diagonal e a parada no meio | peça 3 |
-| **`Magnetismo energético`** | ataque direcional em outro alvo redireciona para você | peça 3 |
-| **`Aquecendo`** | você entra em combate com `1` de vida máxima, e ela sobe por turno | peça 1 §5.1 |
-| **`Catatau`** | vida e energia sincronizadas nos dois sentidos | peça 1 · `conferir-orcamento.py` |
+| **`Fragmentação`** | a sua Integridade deixa de ser uma barra só e vira **cinco**, cada uma com um quinto do total. Todo dano na alma cai numa delas, e **quem está causando escolhe qual** — você aguenta o mesmo total e desmonta por partes, em vez de por igual | peça 1, Integridade |
+| **`Liberação irregular`** | a sua energia não sai no ritmo que você manda. **No começo de cada turno seu, role o teto de PE daquele turno** — é só isso que você gasta nele, com o poço cheio ou não. Nos turnos ruins o feitiço grande não sai | peça 1 §5.3 |
+| **`50/50`** | a sua energia pisca. **Ela alterna: ligada num turno, desligada no seguinte**, e você sabe em qual está. No turno desligado você não conjura, **e todo dano que te acerta vem dobrado** | peça 19 §4 |
+| **`Pacifismo impraticável`** | você jurou não fazer alguma coisa que o trabalho exige — não matar, não sacar primeiro, não usar a técnica contra gente. **O relógio dela corre em DIAS e não em cenas:** quebrar não custa a rodada, custa o prazo inteiro que vem depois | peça 10 §5 |
+| **`Direcional`** | você só anda em linha reta, e só para no fim. **Escolha uma direção no começo da Ação de Movimento e vá até gastar os metros ou bater em alguma coisa** — sem diagonal, sem curva e sem parar no meio | peça 3 |
+| **`Magnetismo energético`** | energia amaldiçoada em movimento é puxada para você. **Ataque que viaja em linha até outro alvo muda de rota e vem em você** — projétil, feixe, o que atravessa o espaço. Área e toque não, porque não viajam. Você vira o para-raios da equipe sem ter escolhido | peça 3 |
+| **`Aquecendo`** | o seu corpo demora a acordar. **Você entra em toda luta com a vida máxima em `1`, e ela sobe a cada turno seu até a sua vida máxima de sempre — e para ali.** Ela nunca passa dela. O perigo são os primeiros turnos, em que qualquer golpe te derruba | peça 1 §5.1 |
+| **`Catatau`** | a sua vida e a sua energia são a mesma coisa, e a conversão é `1` para `1`: **cada `1` de dano que você leva tira `1` de PE, e cada `1` de PE que você gasta tira `1` de vida.** Conjurar te machuca, e apanhar te desarma | peça 1 · `conferir-orcamento.py` |
 
 > **⚠ `Aquecendo` colide de sentido com `Aquecer`, e a colisão fica declarada.** *`Aquecer` é **Restrição de feitiço** no manual — "não pode ser usado na primeira rodada do combate" —, e é a mesma ideia de estar frio no começo da luta, em outra camada.* **A triagem devolveu `LIVRE`, porque ela pega substring e não sentido.** ***Decisão do Mizuki: fica.*** *No molde do `Médio` da peça 14, que carrega duas colisões aceitas e escritas.*
 >

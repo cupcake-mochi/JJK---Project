@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-conferir-marcial.py — as doze checagens da peca 20, Tecnica Marcial.
+conferir-marcial.py — as treze checagens da peca 20, Tecnica Marcial.
 
 NENHUM VALOR DE REGRA MORA AQUI. Orcamento, fatia, Rotina, condicao, escada de
 grau e catalogo de arma saem dos documentos donos. O unico bloco com numero na
@@ -46,6 +46,7 @@ P13 = ler('13-legados.md')
 P14 = ler('14-equipamento.md')
 P16 = ler('16-ferramenta-amaldicoada.md')
 P19 = ler('19-dano-e-condicoes.md')
+P3  = ler('03-economia-de-acao-e-iniciativa.md')
 EST = ler(os.path.join(RAIZ, 'sistema', 'ESTADO-ATUAL.md'))
 MAN = ler(os.path.join(RAIZ, 'DESENHO-manhas.md'))
 
@@ -435,6 +436,50 @@ try:
         print('  [x] os tres renomes estao protegidos contra rebatismo')
 except Exception as e:
     pular(12, f'nao consegui rodar a triagem: {e}')
+
+
+
+# ============================================================ 13
+bloco('13. O `Bocado` NAO INVENTA O SAQUE DOBRADO — a peca 3 SS3.2 e a dona')
+
+# A metade do saque desta Passiva nao e' numero desta peca: a peca 3 SS3.2 ja
+# decidiu, na v0.122, que "uma Passiva ou aptidao pode dizer que o segundo saque
+# sai de graca, e ela cabe na Classe Passiva 1". Esta checagem confere que as
+# DUAS pontas continuam de acordo — a peca 3 permitindo e a peca 20 aplicando.
+#
+# Ela le o numero de itens dos DOIS lados em vez de guardar `2` aqui dentro:
+# a peca 3 diz quantos saem de graca hoje (UM), e a peca 20 diz quantos o
+# `Bocado` entrega (DOIS). O que se confere e' a RELACAO — o `Bocado` entrega
+# exatamente um a mais que a regra de base, que e' o que "o segundo saque sai
+# de graca" quer dizer. Perturbar qualquer um dos dois lados acende; mudar os
+# dois de forma coerente fica verde, e e' assim que tem de ser.
+_m_base = re.search(r'Sacar ou guardar (UM|DOIS|TRES) item', P3)
+_m_pass = re.search(r'saca ou guarda \*{0,2}(UM|DOIS|TRES)\*{0,2} itens? de graça',
+                    P20, re.I)
+_m_perm = re.search(r'uma Passiva ou aptid[ãa]o pode dizer que o segundo saque sai de graça',
+                    P3)
+_PALAVRA = {'um': 1, 'dois': 2, 'tres': 3}
+
+if not _m_base:
+    pular(13, 'nao achei a regra de base de sacar na peca 3 SS3.2')
+elif not _m_pass:
+    erro(13, 'a peca 20 nao diz quantos itens o `Bocado` saca de graca por turno — '
+             'a Passiva ficou sem a metade que a peca 3 SS3.2 preca')
+elif not _m_perm:
+    erro(13, 'a peca 3 SS3.2 nao permite mais que uma Passiva compre o segundo saque, '
+             'e o `Bocado` da peca 20 continua comprando — as duas pecas discordam')
+else:
+    _base = _PALAVRA[sa(_m_base.group(1)).lower()]
+    _pass = _PALAVRA[sa(_m_pass.group(1)).lower()]
+    print(f'  peca 3 SS3.2: de graca por turno .. {_base}')
+    print(f'  peca 20: o `Bocado` entrega ...... {_pass}')
+    if _pass != _base + 1:
+        erro(13, f'o `Bocado` entrega {_pass} saque(s) de graca e a base da peca 3 e '
+                 f'{_base} — a peca 3 preca "o SEGUNDO saque", que e exatamente '
+                 f'{_base + 1}, e nao {_pass}')
+    else:
+        print(f'  [x] o `Bocado` entrega um a mais que a base, que e o degrau que a '
+              f'peca 3 SS3.2 preca em Classe Passiva 1.')
 
 
 # ------------------------------------------------------------------ RODAPE

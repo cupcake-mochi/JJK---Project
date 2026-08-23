@@ -111,6 +111,8 @@ A Passiva **Mão Firme** cobre os dois, e o manual v7.6 diz isso com todas as le
 *Por que a Ação de Movimento e não a Bônus:* **a Bônus já disputa com `Ímpeto` e `Campo`**, duas das doze Bênçãos, e com o que os Caminhos entregam. *A de Movimento é o único dos quatro slots que ninguém compra por habilidade, então cobrar dela não desliga kit de ninguém — ela cobra posição, que é o recurso que o combate deste sistema já usa.*
 
 > **E isso é o degrau que uma Passiva pode comprar.** *Decisão do Mizuki:* **uma Passiva ou aptidão pode dizer que o segundo saque sai de graça, e ela cabe na Classe Passiva 1** — *"efeito pequeno, condicional, ou de informação"*, pela peça 11 §4. *A `Descarga` da Vanguarda e a `Fiel` da peça 16 já vivem nessa vizinhança.*
+>
+> **✔ E esse degrau ganhou o primeiro exemplar na v0.134: o `Bocado`, na peça 20 §3.3.** *Ele guarda o que você carrega dentro do corpo, e é por isso que o segundo saque sai de graça — a mão não vai à bainha, vai a você.* **Classe Passiva 1, exatamente como esta linha previu.**
 
 ### ⚠ Isso reprecifica o `Desarmado`, e o número fica devendo
 

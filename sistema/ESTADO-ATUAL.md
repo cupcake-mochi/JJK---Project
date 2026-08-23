@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 23/08/2026, na v0.134 (última peça fechada: **Pactos**, a peça 22, com o `conferir-pactos.py` e catorze checagens; antes dela, o **Objeto amaldiçoado, na v0.132**; antes dela, a **Técnica Marcial, na v0.122**; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 23/08/2026, na v0.135 (última peça fechada: **Pactos**, a peça 22, na v0.134, com o `conferir-pactos.py` e catorze checagens; antes dela, o **Objeto amaldiçoado, na v0.132**; antes dela, a **Técnica Marcial, na v0.122**; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.134.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e duas peças escritas** e **vinte e dois validadores**.
+**Versão v0.135.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e duas peças escritas** e **vinte e dois validadores**.
 
 ***PACTOS FECHOU na v0.134, e é a peça 22.*** **A quinta camada de personagem, e a última que faltava ter régua** — o Passo 8 da peça 8 prometia ela desde a v0.21, o que dá cento e treze versões.
 
@@ -39,6 +39,22 @@ Atualizado em 23/08/2026, na v0.134 (última peça fechada: **Pactos**, a peça 
 > **E a exceção ganhou ponteiro.** *A regra de ouro nº 6 era publicada como absoluta em cinco lugares e a exceção morava num sexto que nenhum deles citava.* **Entrou a §6.1 da peça 3 e uma linha no capítulo 11 do livro.**
 >
 > **Entrou a checagem 12 do `conferir-catalogo.py`, e o buraco dela é de outra espécie:** *toda checagem de cópia deste projeto compara número contra número; esta pergunta se o número **existe**.* **O `(a base)` daquela célula aparecia uma vez no `DESENHO-trilhas.md` inteiro.** *Cinco perturbações acendendo e três contra-testes verdes. A contagem foi de `204` para `205`.*
+
+***A v0.135 fechou três achados do Mizuki lendo, e nenhum deles era de Pactos.*** *Os três encostam na rota que não tem energia amaldiçoada, e o terceiro abriu um buraco que ninguém tinha visto.*
+
+> **As Passivas da Técnica Marcial não tinham exemplo.** *A tabela do §3 da peça 20 dizia `igual` e parava ali, e os exemplos do Fundamento são todos de energia amaldiçoada.* **Entrou a §3.3 daquela peça e a seção `Passivas` do capítulo 10, com sete exemplos.** *Dois deles — o `Raiz` e o `Leitura` — já estavam publicados dentro das duas Técnicas Marciais prontas, e em lugar nenhum como exemplo.*
+>
+> **A `Defesa sem Armadura` desligava demais.** *O livro dizia que ela sai de cena quando entra Traje ou Revestimento, e ela tem três linhas.* ***Achado dele: só a proteção cai.*** **As outras duas vêm de não ter energia amaldiçoada, e uniforme não dá energia a ninguém.**
+>
+> **⚠⚠ E o que atravessa é VOCÊ, e não o que você carrega.** *Ferramenta e objeto amaldiçoado emanam energia, e é o que eles emanam que a barreira lê:* **o restringido entra na `Cortina` e o equipamento amaldiçoado dele fica de fora.** *Escrito na peça 9 §5, que é a dona das duas linhas.* **Contra Expansão não vale — o Acerto garantido lê alvo, e item não é alvo.**
+>
+> **A saída é o `Bocado`, Classe Passiva 1, na peça 20 §3.3** — o item vive dentro do corpo e para de emanar, e você saca ou guarda **dois** itens de graça por turno.
+>
+> **⚠⚠ A altura dela não foi escolhida: ela estava escrita há doze versões.** *A peça 3 §3.2 fechou na v0.122 dizendo que "uma Passiva ou aptidão pode dizer que o segundo saque sai de graça, e ela cabe na Classe Passiva 1".* **Aquela linha ficou doze versões sem exemplar, e este é o primeiro.** *Quarto exemplar do mesmo padrão em vinte versões — o projeto procurando um número que já tinha dono.*
+>
+> **⚠ E a triagem matou dois nomes, um deles dando `LIVRE`.** *`Segunda Natureza` saiu `OCUPADO` — é Passiva no manual — e virou `Aliança`.* **`Bolso` saiu `LIVRE` e reprovou por SENTIDO: o projeto usa "bolso" para o orçamento de PE em dez lugares.** *Colisão de sentido continua fora do alcance da triagem.*
+>
+> *A checagem 13 do `conferir-marcial.py` mede a relação e não o `2`: quatro perturbações acendendo e um contra-teste verde.*
 
 ***Decisão do Mizuki na v0.130: as DUAS variantes ficam, e o `--duas` continua sendo opção do `build.py`.*** *Não é pendência — é escolha declarada. O que ela custa está escrito abaixo.*
 
@@ -528,7 +544,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/19-dano-e-condicoes.md` | **a régua de condição** — quanto vale cada uma das catorze, em dano por rodada e em nível —, mais as catorze condições, os catorze tipos de dano e a cobertura, que vieram da peça 1 |
 | `03-mecanica/conferir-dano.py` | as **onze** checagens da peça 19, e a nona sai da pasta: ela bate as duas entregas publicadas que aplicam condição contra a régua. *A décima primeira entrou na v0.104, com a penalidade de arma* |
 | `03-mecanica/20-tecnica-marcial.md` | **a rota de criação de quem não escreve Fundamento**: a máquina herdada, as duas rotas — três grupos de arma, ou uma ferramenta sob medida —, o Selo que virou equipamento, e os três renomes `Kata`, `Ruptura` e `Ōgi` |
-| `03-mecanica/conferir-marcial.py` | as **doze** checagens da peça 20, e o par declarado entre a 3 e a 9: uma pergunta se a rota recebe demais, a outra se ela é frágil demais |
+| `03-mecanica/conferir-marcial.py` | as **treze** checagens da peça 20, e o par declarado entre a 3 e a 9: uma pergunta se a rota recebe demais, a outra se ela é frágil demais |
 | `03-mecanica/21-objeto-amaldicoado.md` | **a peça de vocabulário**: onde as quatro coisas que carregam energia amaldiçoada se separam, a **atração** e o selo que a inverte, o `Kiko`, e os três resultados de encarnação que já eram três Origens |
 | `03-mecanica/conferir-objeto.py` | as **doze** checagens da peça 21, e o par declarado entre a 3 e a 8: uma pergunta se ela republica o que já tem dono, a outra se o que ela criou tem dono |
 | `03-mecanica/22-pactos.md` | **a quinta camada de personagem**: as quatro formas de pacto, o teto de quantidade do permanente, o orçamento como teto de dano, o catálogo de exemplo da obra e as oito ideias de restrição |
@@ -1098,6 +1114,7 @@ As duas são economias de poder novas, e construir a quarta e a quinta antes de 
 | **Ferramenta amaldiçoada** | **arma forjada para canalizar energia**, com graus, que até quem não é feiticeiro consegue usar. Prometida desde a peça 5 §5 e declinada pela peça 14 §8 item 2, que a mandou para tópico próprio *"com graus e forja"*. **É o único jeito de ferir maldição sem energia própria** — a Maki e o Toji |
 | **Dano de alma, com Essência na Integridade** | já decidido, não aplicado |
 | ~~**Pactos**~~ | **FECHADA na v0.134, e é a peça 22.** *O recorte encolheu na v0.116 e voltou a crescer na v0.133, quando o Mizuki abriu a forma que sobrava em quatro.* **As quatro travas do Passo 8 da peça 8 continuam sendo a fundação, e a peça 22 aponta para elas em vez de as repetir** |
+| **Itens iniciais por Caminho** | *levantado pelo Mizuki na v0.135.* **O que cada Caminho leva na mão quando a ficha nasce** — a criação da peça 8 dá perícia, ofício, Trilha e técnica, e não diz com que equipamento o personagem sai de casa. *A peça 14 tem as 52 armas e as duas classes de uniforme, e ninguém escreveu quais delas a criação entrega.* **Ela encosta em itens menores e provavelmente fecha junto** |
 | **Itens menores** | *levantado pelo Mizuki na v0.131.* **Consumível e afins** — o que se compra, se gasta e acaba: talismã pronto, remédio, corda, lanterna, o kit que o `Herbalismo` usa. **A peça 14 tem a régua de itens comuns em três camadas, com a terceira desligada** (§8), e nada disso tem preço nem lista |
 | **Bestiário** | sai da matemática de inimigo que o manual já tem |
 

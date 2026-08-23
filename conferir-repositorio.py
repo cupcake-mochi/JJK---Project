@@ -214,6 +214,18 @@ for _b, _d, _f in os.walk(RAIZ):
     _d[:] = [x for x in _d if x not in ('.git', '.claude', '_backup', '_to_delete', 'node_modules', '__pycache__')]
     TODOS_OS_NOMES.update(_f)
 
+# ARQUIVOS TRANSITORIOS — eles existem so' entre "o assistente escreveu" e "o
+# subir.sh consumiu", e o proprio subir.sh os APAGA depois de commitar. Um
+# documento que descreve o procedimento tem de poder nomear os dois, e nomear
+# nao e' apontar: eles nao sao recurso que alguem vai abrir.
+#
+# ⚠ Isto nasceu de uma falha real na v0.135: o PROMPT-PROXIMA-CONVERSA.md cita os
+# dois na linha que explica como fechar versao, e o subir.sh REPROVOU o commit do
+# projeto porque a entrega tinha acabado de consumir o dela. A checagem so'
+# passava por acidente — quando havia mensagem parada no disco —, e passar por
+# acidente e' a mesma coisa que nao conferir.
+TRANSITORIOS = {'mensagem-de-commit.txt', 'finalizado/mensagem-de-commit.txt'}
+
 vistos = 0
 mortas = 0
 for base, dirs, files in os.walk(RAIZ):
@@ -236,6 +248,8 @@ for base, dirs, files in os.walk(RAIZ):
             # "Habilidade/Sabedoria" tem barra e nao e caminho. So conta como
             # caminho o que tem extensao ou termina em barra.
             eh_caminho = '/' in alvo and (alvo.endswith('/') or re.search(r'\.\w{2,4}$', alvo))
+            if alvo in TRANSITORIOS:
+                continue
             if eh_caminho:
                 # tem que resolver de algum lugar plausivel
                 tentativas = [os.path.join(base, alvo),

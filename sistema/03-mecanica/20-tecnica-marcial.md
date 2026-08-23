@@ -84,6 +84,55 @@ Esta peça é a que mais chegou com contrato assinado por outras, e vale listar 
 
 > **E o Panda não tem domínio na obra**, que é a leitura de fora concordando com a de dentro.
 
+### 3.3 As Passivas ficaram sem exemplo, e uma rota de corpo precisa dos próprios
+
+*Achado do Mizuki na v0.134, lendo a criação: **"não [há] exemplos de passivas na criação de técnica de sem energia"**.* **A tabela do §3 dizia que Passiva Livre e Passivas pagas ficam `igual`, e parou ali.** *"Igual" resolve a máquina e não resolve o exemplo — os do capítulo do Fundamento são todos construídos em cima de energia amaldiçoada, e quem escreve uma rota de corpo não tem em que se espelhar.*
+
+**A escada não muda:** Classe Passiva `1`, `2` e `3` custam `1`, `2` e `3` espaços de Kata, e o que cabe em cada altura é o que o manual escreve. *A Passiva Livre continua de graça e continua sem número.*
+
+**O que muda é de onde a ficção sai.** *Onde o Fundamento escreve energia, aqui se escreve corpo, treino e ferramenta.*
+
+| Classe Passiva | exemplo | o que ele é |
+|---|---|---|
+| **Livre** | `Calo` | a sua mão reconhece pelo peso qualquer arma que você já empunhou uma vez |
+| **1** | **`Bocado`** | você guarda no corpo o que carrega. *A entrada inteira está abaixo* |
+| **1** | `Raiz` | você não é movido à força nem derrubado contra a sua vontade |
+| **1** | `Leitura` | você identifica a Classe e a Forma de qualquer feitiço conjurado a até `18 m` |
+| **2** | `Segundo Fôlego` | quando você chega a `0` de vida, uma vez por descanso longo você escolhe `Insistir` sem gastar a rodada |
+| **2** | `Contragolpe` | uma vez por cena, quando alguém erra um ataque corpo a corpo contra você, a sua próxima Kata contra ele não pode ser evitada por deslocamento |
+| **3** | `Aliança` | a sua arma nunca é desarmada, e ninguém além de você a empunha |
+
+> **⚠ Os dois de Classe Passiva `1` do meio já existiam, e é por isso que eles estão aqui.** *O `Raiz` é a Passiva da `Fisga` e o `Leitura` é a da `Bancada`, as duas Técnicas Marciais prontas do §9.* **Elas estavam publicadas dentro de duas fichas e em lugar nenhum como exemplo** — quem lia a criação não passava por elas.
+
+**Nenhum destes é catálogo, e nenhum tem gate.** *Passiva se escreve na hora, com o mestre, do jeito que o Fundamento sempre fez.* **A lista existe para dar altura, e não para escolher.**
+
+#### `Bocado` — Classe Passiva 1
+
+**Ela é a única desta lista que a peça 9 §5 precisa que exista**, e por isso ela é a única escrita inteira aqui.
+
+> **`Bocado`** — o que você carrega passa a viver dentro de você. Sacar é tirar de si.
+>
+> **Item amaldiçoado guardado no `Bocado` para de emanar energia.** `Barreira Simples` e `Cortina` deixam de segurar ele, e ele atravessa com você.
+>
+> **E você saca ou guarda DOIS itens de graça por turno**, em vez de um.
+
+**As duas metades são uma coisa só na ficção**, e cada uma tem dono diferente na regra:
+
+| a metade | de onde ela sai |
+|---|---|
+| **o saque dobrado** | **peça 3 §3.2**, que já decidiu que *"uma Passiva ou aptidão pode dizer que o segundo saque sai de graça, e ela cabe na Classe Passiva 1"*. **Este é o primeiro exemplar dela** |
+| **esconder o que emana** | **peça 9 §5**, que abre o buraco: o corpo do restringido atravessa barreira e o equipamento dele não |
+
+> **A altura não foi escolhida — ela estava escrita.** *A peça 3 §3.2 preçou o saque dobrado em Classe Passiva `1` na v0.122, e a metade de esconder é **acesso e não número**: ela não muda rolagem nenhuma e só existe quando alguém levantou barreira.* **Somadas, continuam em `1`.**
+>
+> **⚠ E ela não é porta dos fundos para a Expansão.** *O Acerto garantido de uma Expansão completa lê **alvo**, e item nunca foi alvo legível* — o que você carrega já atravessava domínio antes desta Passiva existir. **O `Bocado` não muda nada ali, e o texto diz isso para ninguém ler ganho onde não tem.**
+
+> **Os nomes passaram pela triagem, e ela matou dois — um por colisão que ela pega e outro por colisão que ela NÃO pega.**
+>
+> **`Segunda Natureza` saiu `OCUPADO`: é Passiva no manual.** *A triagem pegou essa sozinha, e o lugar virou o `Aliança`.*
+>
+> **`Bolso` saiu `LIVRE` e reprovou mesmo assim, por SENTIDO.** *O projeto usa "bolso" para o orçamento de PE em dez lugares — "o bolso já é apertado" —, e a triagem pega substring e não sentido.* **`Bocado` saiu livre nas duas direções e não aparece uma vez em minúscula na pasta.** *Ficam registrados, também livres:* `Coldre`, `Estojo`, `Ninho`, `Alforje` e `Bornal`.
+
 ## 4. As duas rotas
 
 Na criação, depois da Descrição e da Regra, você escolhe uma das duas. **A escolha é uma vez e não muda**, como o Caminho e a Trilha.
@@ -319,7 +368,7 @@ Contra uma marcial de arma única, ele apagaria a Kata junto:
 
 ## 10. O que o validador confere
 
-O `conferir-marcial.py` roda **doze checagens**, e nenhum valor de regra fica escrito dentro dele: orçamento, fatia, Rotina, condição e escada de grau saem dos documentos donos.
+O `conferir-marcial.py` roda **treze checagens**, e nenhum valor de regra fica escrito dentro dele: orçamento, fatia, Rotina, condição e escada de grau saem dos documentos donos.
 
 | # | o que ela confere | de onde ela lê | o teste negativo |
 |---|---|---|---|
@@ -335,6 +384,9 @@ O `conferir-marcial.py` roda **doze checagens**, e nenhum valor de regra fica es
 | 10 | ferir maldição continua sendo da ferramenta | peça 16 §2 | esta peça entregando a porta sem ferramenta acende |
 | 11 | o teto de `Estigma` na ficha não se moveu | peça 16 §5 | contar as três armas como três `Estigma` acende |
 | 12 | triagem de todo nome que a peça cria | o manual | nome colidindo acende |
+| 13 | o `Bocado` entrega **um saque a mais** que a base, e não um número próprio | **peça 3 §3.2** | mexer num dos dois lados sozinho acende |
+
+> **A checagem 13 mede RELAÇÃO e não constante.** *Ela não guarda o `2` do `Bocado`: ela lê quantos saques a peça 3 §3.2 dá de graça hoje e quantos a Passiva entrega, e exige que a segunda seja a primeira mais um* — que é o que *"o segundo saque sai de graça"* quer dizer. **Mudar os dois lados de forma coerente fica verde de propósito.**
 
 **A checagem 3 e a checagem 9 se medem por eixos opostos, e o par fica declarado.** *A 3 pergunta se a rota recebe demais; a 9 pergunta se ela é frágil demais.* **Uma rota com um grupo só passaria na 3 com folga e reprovaria na 9**, e é por isso que as duas precisam existir juntas.
 

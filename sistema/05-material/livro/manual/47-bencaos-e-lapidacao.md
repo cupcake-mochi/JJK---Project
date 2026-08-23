@@ -103,7 +103,14 @@ O golpe chega e o corpo já está no lugar certo, já contraído, já girando co
 >
 > Requisito: grátis na Lapidação 1. A Lapidação escala a proteção.
 
-Ela sai de cena assim que Traje ou Revestimento entram na conta. Em troca das duas linhas acima, quem não tem energia nunca tem Expansão de Domínio.
+**Vestir Traje ou Revestimento desliga só a proteção.** As outras duas linhas continuam valendo: elas vêm de você não ter energia amaldiçoada, e uniforme nenhum te dá uma.
+
+Em troca delas, quem não tem energia nunca tem Expansão de Domínio.
+
+> **O que atravessa é você, e não o que você carrega.** Ferramenta amaldiçoada e objeto amaldiçoado emanam energia, e é o que eles emanam que a barreira lê: você entra na `Cortina`, e o seu equipamento amaldiçoado fica do lado de fora. Contra Expansão de Domínio isso não vale — o Acerto garantido lê alvo, e item não é alvo.
+{: .aviso }
+
+A saída é uma Passiva, e ela está no capítulo 10, *Técnica Marcial*: a `Bocado` guarda o item dentro do corpo, e lá dentro ele para de emanar.
 
 ### Estímulo Muscular
 

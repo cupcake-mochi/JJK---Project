@@ -150,17 +150,14 @@ Nenhuma delas mexe em acerto, Defesa ou perícia. O que elas mudam é a estrutur
 
 | Ideia | O que ela faz |
 |---|---|
-| `Fragmentação` | a sua Integridade vira cinco barras, e o dano escolhe uma |
-| `Liberação irregular` | você rola, a cada turno, o teto de energia que consegue liberar nele |
-| `50/50` | a sua energia liga e desliga por turno, e desligada você recebe o dobro do dano |
-| `Pacifismo impraticável` | uma obrigação de ficção com relógio de dias correndo |
-| `Direcional` | o seu deslocamento perde a diagonal e a parada no meio |
-| `Magnetismo energético` | ataque direcional feito em outro alvo redireciona para você |
-| `Aquecendo` | você entra em combate com 1 de vida máxima, e ela sobe a cada turno |
-| `Catatau` | a sua vida e a sua energia andam juntas, nos dois sentidos |
-
-> **`Aquecendo` não é a Restrição `Aquecer`.** A Restrição é de feitiço e mora no capítulo 9, *Fundamento*; esta aqui é de ficha, e as duas podem existir na mesma mesa.
-{: .aviso }
+| `Fragmentação` | a sua Integridade deixa de ser uma barra só e vira **cinco**, cada uma com um quinto do total. Todo dano na alma cai numa delas, e **quem está causando escolhe qual**. Você aguenta o mesmo total e desmonta por partes, em vez de por igual |
+| `Liberação irregular` | a sua energia não sai no ritmo que você manda. **No começo de cada turno seu, role o teto de PE daquele turno** — é só isso que você gasta nele, com o poço cheio ou não. Nos turnos ruins o feitiço grande não sai |
+| `50/50` | a sua energia pisca. **Ela alterna: ligada num turno, desligada no seguinte**, e você sabe em qual está. No turno desligado você não conjura, **e todo dano que te acerta vem dobrado** |
+| `Pacifismo impraticável` | você jurou não fazer alguma coisa que o trabalho exige — não matar, não sacar primeiro, não usar a técnica contra gente. **O relógio dela corre em dias, e não em cenas:** quebrar não custa a rodada, custa o prazo inteiro que vem depois |
+| `Direcional` | você só anda em linha reta, e só para no fim. **Escolha uma direção no começo da Ação de Movimento e vá até gastar os metros ou bater em alguma coisa** — sem diagonal, sem curva, sem parar no meio |
+| `Magnetismo energético` | energia amaldiçoada em movimento é puxada para você. **Ataque que viaja em linha até outro alvo muda de rota e vem em você** — projétil, feixe, o que atravessa o espaço. Área e toque não, porque não viajam |
+| `Aquecendo` | o seu corpo demora a acordar. **Você entra em toda luta com a vida máxima em `1`, e ela sobe a cada turno seu até a sua vida máxima de sempre — e para ali.** Ela nunca passa dela. O perigo são os primeiros turnos, em que qualquer golpe te derruba |
+| `Catatau` | a sua vida e a sua energia são a mesma coisa, e a conversão é `1` para `1`: **cada `1` de dano que você leva tira `1` de PE, e cada `1` de PE que você gasta tira `1` de vida.** Conjurar te machuca, e apanhar te desarma |
 
 ## Pactos na criação
 
