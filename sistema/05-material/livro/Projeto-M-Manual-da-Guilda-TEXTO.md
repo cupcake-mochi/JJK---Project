@@ -78,8 +78,8 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **Teste de Resistência** | O que **você** rola quando algo acontece com você. São quatro: Físico, Vigor, Intelecto e Espírito | 1 |
 | **Defesa** | `10` + Destreza + proteção. O número que o inimigo precisa alcançar para te acertar | 1 |
 | **Crítico** | `20` natural numa rolagem de acerto. Dobra os dados da arma ou da Classe, e nada mais | 1 |
-| **`Bloquear`** | Regra opcional: role `2d10 + (Defesa − 11)` e use no lugar da Defesa parada. A mesa escolhe se usa | 17 |
-| **`Aparar`** | O duplo 10 no `Bloquear`. O ataque não acerta, e você pode gastar a Reação para revidar com `+3` de dano | 17 |
+| **`Bloquear`** | Regra opcional: role `2d10 + (Defesa − 11)` e use no lugar da Defesa parada. A mesa escolhe se usa | 18 |
+| **`Aparar`** | O duplo 10 no `Bloquear`. O ataque não acerta, e você pode gastar a Reação para revidar com `+3` de dano | 18 |
 | **Arredondamento** | Sempre para o lado que não te favorece. O que você paga sobe, o que você ganha desce | 1 |
 | **Rotina** | O dano que um personagem entrega numa rodada comum, sem gastar recurso guardado | 15 |
 
@@ -115,7 +115,8 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **Origem** | De onde vem o seu poder. Sete, mais a sub-origem Sem Técnica | 7 |
 | **Legado** | O que você já trazia, das listas da sua Origem. Dois por ficha | 7 |
 | **Traço** | Marca de história vinda da Origem, sem número | 7 |
-| **Pacto** | O que você trocou por poder. Opcional. Três das quatro formas dele são `Restrição`, `Regra Própria` ou Legado; a quarta, o trato entre dois personagens, não entra na criação | 6 |
+| **Pacto** | O que você trocou por poder. Opcional. Quatro formas: permanente, temporário, `Promessa` e de restrição. Só o permanente tem teto, e ele é metade da Essência | 16 |
+| **`Promessa`** | O pacto entre duas partes, com as duas aceitando. Tem três termos: o que eu dou, o que eu recebo, e a cláusula que eu acrescento | 16 |
 | **Patente** | O seu reconhecimento na instituição, de Grau 4 a Grau 1. Todo personagem começa **Grau 4** | 7 |
 
 > **Cuidado com a palavra `Grau`.** Ela nomeia duas escadas de cinco casas que não se encostam: a **patente** de um feiticeiro e o **grau** de uma ferramenta amaldiçoada. Patente é reconhecimento; grau de ferramenta é a energia que a peça carrega. O capítulo 14 abre a diferença.
@@ -138,7 +139,7 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **Classe 0** | O feitiço grátis: não gasta PE, não ocupa espaço na lista e não se monta | 9 |
 | **Passiva** | Efeito que fica ligado sozinho. Custa espaço de feitiço | 9 |
 | **Classe Passiva** | A altura de uma Passiva, de Livre a 3. Diz quantos espaços ela cobra e em que nível abre | 9 |
-| **Espaço de feitiço** | `2 + (nível ÷ 2)`, arredondando para baixo, mais um por marco. É a moeda que Passiva e Expansão de Domínio também gastam | 16 |
+| **Espaço de feitiço** | `2 + (nível ÷ 2)`, arredondando para baixo, mais um por marco. É a moeda que Passiva e Expansão de Domínio também gastam | 17 |
 | **Ampliar** | Lançar um feitiço que você conhece numa Classe maior, pagando o PE da Classe nova | 9 |
 | **Liberação Máxima** | Feitiço à parte, escrito antes da sessão, de Classe 3 ou mais. Rompe o limite de dano num alvo só. Nos níveis 10, 20 e 30 | 9 |
 | **Técnica Máxima** | O golpe de dano fixo que carrega o nome da técnica. Do nível 17 em diante | 9 |
@@ -175,10 +176,10 @@ O eixo de controle de quem não tem energia amaldiçoada nenhuma, no lugar do re
 **Progressão**
 | Termo | O que é | Cap. |
 |---|---|---|
-| **Marco** | Um dos sete níveis em que a ficha muda de forma: **6, 10, 14, 18, 22, 26 e 30** | 16 |
+| **Marco** | Um dos sete níveis em que a ficha muda de forma: **6, 10, 14, 18, 22, 26 e 30** | 17 |
 | **Refino** | Quanto da sua energia você não desperdiça. Começa em 1, teto 10. Sobe `+1` de graça em cada marco | 11 |
 | **Aptidão** | O que qualquer feiticeiro pode aprender, independente da técnica. Custa marco, e só marco | 11 |
-| **Corpo**, **Refino**, **Leque** | As três escolhas que um marco oferece: mais atributo; mais refino e uma aptidão; ou mais feitiço e uma Passiva. Numa ficha sem energia, o eixo do meio é **Lapidação** e entrega Bênção | 16 |
+| **Corpo**, **Refino**, **Leque** | As três escolhas que um marco oferece: mais atributo; mais refino e uma aptidão; ou mais feitiço e uma Passiva. Numa ficha sem energia, o eixo do meio é **Lapidação** e entrega Bênção | 17 |
 
 ## Turno
 
@@ -3781,7 +3782,7 @@ Com o Fundamento escrito, os feitiços saem dele. Montar um feitiço é uma cont
 
 ### Teto de feitiços
 
-Antes de montar o primeiro, veja quantos você tem direito de escrever. A conta é do capítulo 16, *Experiência e Progressão*, e está repetida aqui porque é agora que você precisa dela.
+Antes de montar o primeiro, veja quantos você tem direito de escrever. A conta é do capítulo 17, *Experiência e Progressão*, e está repetida aqui porque é agora que você precisa dela.
 
 > **Espaços de feitiço conhecido = `2 + (nível ÷ 2)`, arredondando para baixo. Mais um por marco já alcançado.**
 > Os marcos são os níveis **6, 10, 14, 18, 22, 26 e 30**.
@@ -4443,7 +4444,7 @@ Duas notas acompanham as oito: Restrição que o seu Selo já obriga não devolv
 | **26** | Classe 7. |
 | **30** | A terceira Liberação Máxima. |
 
-O Fundamento manda na Classe, na Liberação Máxima e em quando cada Classe Passiva abre. Quantos feitiços você conhece é conta de *Experiência e Progressão*: a fórmula está resumida em *Criando feitiços*, e a progressão nível a nível mora no capítulo 16, *Experiência e Progressão*.
+O Fundamento manda na Classe, na Liberação Máxima e em quando cada Classe Passiva abre. Quantos feitiços você conhece é conta de *Experiência e Progressão*: a fórmula está resumida em *Criando feitiços*, e a progressão nível a nível mora no capítulo 17, *Experiência e Progressão*.
 
 O que continua valendo aqui: **Passiva é paga com espaços dessa lista**, a **Expansão de Domínio** também, e as **Liberações Máximas ficam de fora**, porque elas não ocupam espaço.
 
@@ -4834,7 +4835,7 @@ Quem escolhe Refino em todo marco bate no teto no nível 22. Dali em diante a me
 > **Quem nunca escolhe Refino termina a campanha com zero aptidões.** A rota existe e é legítima: ela troca dez aptidões por sete pontos de atributo a mais. Está escrito aqui para ninguém descobrir isso no nível 20.
 Mesmo essa ficha não fica sem nada. `Cobrir-se de energia` e `Canalizar energia` vêm de graça no refino 1, e a primeira continua crescendo com o refino passivo até 8. O que ela nunca vai ter é `Energia Reversa` nem `Barreira Simples`.
 
-*O marco é do capítulo 16, __Experiência e Progressão__: é lá que estão os sete níveis em que ele cai, quanto refino cada rota junta marco a marco, e o que Corpo e Leque compram. Aqui interessa só a escolha de Refino, que é a que vira aptidão.*
+*O marco é do capítulo 17, __Experiência e Progressão__: é lá que estão os sete níveis em que ele cai, quanto refino cada rota junta marco a marco, e o que Corpo e Leque compram. Aqui interessa só a escolha de Refino, que é a que vira aptidão.*
 
 ## Aptidões
 
@@ -4846,9 +4847,11 @@ Um marco de Refino compra **uma aptidão**, de qualquer altura que o seu refino 
 
 ### Classe Passiva
 
-As aptidões usam a mesma escada das Passivas, e ela está no capítulo 9, *Fundamento*.
+**A Classe Passiva é o tamanho da aptidão.** Ela diz o quanto aquela entrada pode entregar, e é por ela que se lê quanto uma aptidão vale ao lado de outra. As aptidões usam a mesma escada das Passivas: a escada e o que cabe em cada altura estão no capítulo 9, *Fundamento*, na seção `Passivas`.
 
 Aqui ela não cobra nada: o marco compra uma aptidão de qualquer altura, e o preço é o mesmo. Quem separa as alturas é o requisito. E como o refino escala o que a aptidão entrega, uma Classe Passiva 1 no refino 10 rende bem mais do que no refino 2.
+
+**E se você for escrever uma `Aptidão Própria`, a escada do capítulo 9 é a base:** escolha a altura que a sua ideia alcança, e escreva dentro do que aquela linha permite.
 
 ### Requisito
 
@@ -5217,9 +5220,11 @@ Onde ela entra é em custo, em quantas vezes por cena, em alcance e duração, e
 
 ### Classe Passiva
 
-As Bênçãos usam a mesma escada das Passivas e das aptidões, e ela está no capítulo 9, *Fundamento*.
+**A Classe Passiva é o tamanho da Bênção.** Ela diz o quanto aquela entrada pode entregar, e é por ela que se lê quanto uma Bênção vale ao lado de outra. As Bênçãos usam a mesma escada das Passivas e das aptidões: a escada e o que cabe em cada altura estão no capítulo 9, *Fundamento*, na seção `Passivas`.
 
 A Classe Passiva não cobra nada aqui: o marco compra uma de qualquer altura. Quem separa as alturas é o requisito.
+
+**E se você for escrever uma `Bênção Própria`, a escada do capítulo 9 é a base:** escolha a altura que a sua ideia alcança, e escreva dentro do que aquela linha permite.
 
 ### Requisito
 
@@ -5566,7 +5571,7 @@ São doze. Propriedade é o que a arma é: ela já está impressa na linha do ca
 | `Vestida` | Não ocupa a mão |
 | `Talha` | A arma é ruim de aparar: **−1** no `Bloquear` de quem se defende |
 
-> **`Talha` é a única das doze ligada ao `Bloquear`**, a rolagem de `2d10` que a sua mesa pode usar no lugar da Defesa estática — o capítulo 17 explica a escolha. Onde a mesa usa a Defesa estática, as nove armas com `Talha` seguem valendo por tudo o mais que elas são: dado, alcance, o resto das propriedades. Só esse `−1` específico não tem onde entrar.
+> **`Talha` é a única das doze ligada ao `Bloquear`**, a rolagem de `2d10` que a sua mesa pode usar no lugar da Defesa estática — o capítulo 18 explica a escolha. Onde a mesa usa a Defesa estática, as nove armas com `Talha` seguem valendo por tudo o mais que elas são: dado, alcance, o resto das propriedades. Só esse `−1` específico não tem onde entrar.
 
 Três delas decidem cena fora de combate com frequência. `Oculta` é a que deixa você entrar armado numa reunião, num velório ou numa portaria com detector. `Rompe` é a que abre cadeado, grade, alçapão e tampa de bueiro sem esperar ninguém. `Vestida` é a que responde quando alguém manda você largar tudo o que está na mão.
 
@@ -6389,7 +6394,168 @@ Duas coisas vão aparecer na sua mesa antes de ganharem regra.
 ---
 
 
-# Capítulo 16 · Experiência e Progressão
+# Capítulo 16 · Pactos
+
+*fonte: `manual/65-pactos.md`*
+
+Pacto é uma troca. Você abre mão de alguma coisa e ganha outra, e quem cobra é a sua própria energia amaldiçoada — não existe juiz, não existe rolagem, e não existe desfazer.
+
+> **Pacto é opcional.** A ficha nasce sem nenhum, e a maioria dos personagens nunca fecha um.
+
+## Formas de pacto
+
+São quatro, e elas se separam por **quando** o pacto se fecha e por **quem vive com ele depois**.
+
+**Formas de pacto**
+| Forma | Quando se fecha | Teto |
+|---|---|---|
+| **permanente** | fora de cena, com o mestre lendo | metade da Essência |
+| **temporário** | Ação Bônus, no seu turno | não tem |
+| **`Promessa`** | entre duas partes, as duas aceitando | não tem |
+| **de restrição** | na criação, junto da Origem ou da técnica | não se aplica |
+
+O permanente é o único que vai para a ficha e viaja com o personagem. Os outros três nascem e morrem onde foram feitos, ou dependem de alguém do outro lado.
+
+> **Nenhuma forma de pacto se fecha sob ameaça.** Todo mundo envolvido aceita por vontade própria, ou não houve pacto — nem a metade que cobra, nem a que paga.
+
+### Câmbio
+
+Uma frase resolve o tamanho de qualquer pacto, e ela vale para as quatro formas:
+
+> **Promessa pequena, ganho pequeno. Promessa que arrisca a vida, ganho enorme.**
+
+É por ela que o mestre aprova ou recusa. Um pacto que pede muito e oferece pouco não é caro: ele não fecha.
+
+## Pacto permanente
+
+É o pacto do dia a dia — o efeito que fica ligado enquanto o personagem existir.
+
+> **Você fecha, na campanha inteira, um número de pactos permanentes igual a metade da sua Essência, arredondando para baixo.**
+>
+> **Sem piso.** Essência 0 e Essência 1 não fecham nenhum.
+
+**Pactos permanentes por Essência**
+| Essência | 0 | 1 | 2 | 3 | 4 | 5 | 6 |
+|---|---|---|---|---|---|---|---|
+| **Pactos** | 0 | 0 | 1 | 1 | 2 | 2 | 3 |
+
+Esta é a única linha de Pactos que entra na ficha, e a Essência é o atributo que a decide — a mesma que negocia, no capítulo 1, *Como Jogar*.
+
+> **Esta é a exceção à regra de arredondamento.** Em todo o resto do sistema, o que você ganha nunca fica abaixo de 1. Aqui fica: quem não investiu em Essência não tem pacto permanente nenhum.
+### Características de um pacto permanente
+
+Você escreve duas coisas, e o mestre lê as duas antes de aprovar: **o que você entrega** e **o que você recebe**.
+
+O que você entrega é da ficção, e o mestre cobra pelo câmbio. O que você recebe sai de uma lista curta.
+
+**O que um pacto permanente concede**
+| Concede | Quem alcança |
+|---|---|
+| pontos de energia | qualquer ficha |
+| uma aptidão | quem tem aptidão — capítulo 11, *Aptidões e Refino* |
+| um espaço de feitiço | quem escreve Fundamento — capítulo 9, *Fundamento* |
+| um estilo | só a sub-origem Sem Técnica, no capítulo 7, *Origens e Legados* |
+
+### Limites
+
+> **Pacto não mexe em número de rolagem.** Nem no seu acerto, nem na sua Defesa, nem em perícia nenhuma. Um pacto que promete qualquer um dos três está fora, e não é questão de tamanho.
+
+E se você pedir dano, o mestre te dá pouco: **um pacto permanente vale, em dano, cerca de um quinto de um golpe seu.** Pacto não é onde se compra dano — é onde se compra acesso, permissão, e coisa que o resto da ficha não sabe fazer.
+
+## Pacto temporário
+
+> **Como Ação Bônus, no seu turno, você fecha um pacto na hora.** Diga o que perde e o que ganha; o mestre aprova ou recusa na mesma frase.
+>
+> **A perda é física ou energética, e ela é de verdade.**
+
+O ganho morre na cena. A perda, não. Um braço que você entregou no meio da luta não volta porque a luta acabou, e é essa diferença que faz um pacto temporário ser decisão e não botão.
+
+Não existe teto aqui. Quem segura é o mestre, com o câmbio na mão.
+
+## Promessa
+
+`Promessa` é o pacto entre duas partes. As duas precisam saber o que está sendo combinado e aceitar.
+
+As duas partes não precisam ser dois personagens de jogador, nem dois feiticeiros. Uma delas pode ser a Guilda.
+
+> **Invocação não fecha `Promessa`** — ela não é uma segunda vontade, e a ficha dela sai da sua, no capítulo 15, *Invocações*. **Uma invocação senciente fecha**, e aí ela é uma das duas partes como qualquer outra.
+
+### Termos de uma Promessa
+
+**Termos de uma Promessa**
+| Termo | O que é |
+|---|---|
+| o que eu dou | a sua metade |
+| o que eu recebo | a metade do outro |
+| a cláusula | o que você acrescenta para proteger o que não quer perder |
+
+A terceira é a que faz uma `Promessa` ser acordo em vez de troca. Sem ela, os dois lados combinaram o preço e ninguém combinou o limite.
+
+### Quebrar uma Promessa
+
+> **Quebrar custa a sua energia amaldiçoada, e pode custar a sua vida.** Quanto exatamente é o mestre quem diz, mas não é multa: é perder o que faz de você um feiticeiro.
+
+Isso vale para quem quebra, e vale sozinho — ninguém precisa descobrir, ninguém precisa cobrar, e não existe recurso.
+
+## Pacto de restrição
+
+É o pacto que **não concede nada**. Ele escreve o preço de uma coisa que a sua ficha já tem: a Origem que já custou, o corpo que já veio limitado, o Legado que você já escolheu.
+
+Ninguém é obrigado a ter um. Quem escreve um está dando forma de regra a uma limitação que até então era só ficção.
+
+> **Um pacto de restrição não compra poder.** Se ele comprasse, ele seria uma `Restrição` de feitiço com outro nome — e essa já existe, no capítulo 9, *Fundamento*.
+
+E ele tem um segundo uso, do lado do mestre: quando alguém propõe um pacto temporário ou uma `Promessa`, a tabela `Ideias de restrição` é a lista do que um preço pesado parece.
+
+## Catálogo
+
+Duas listas, e **nenhuma das duas é fechada**. Elas existem para dar tamanho, não para limitar escolha.
+
+### Pactos da obra
+
+**Pactos da obra**
+| Pacto | Forma | O que foi trocado |
+|---|---|---|
+| Overtime | permanente | energia reduzida no horário de trabalho, em troca de energia acima do normal na hora extra |
+| Mostrar a mão | temporário | explicar a própria técnica ao adversário, em troca de a técnica ficar mais forte |
+| O braço | temporário | a energia que protegia um braço jogada para o resto do corpo — e o braço se perdeu |
+| O domínio | permanente | uma promessa que arrisca tudo, em troca de alguns minutos sem poder morrer |
+| Cura por informação | `Promessa` | um cura o corpo do outro; o outro entrega informação — com a cláusula de não encostar em ninguém de uma escola inteira |
+| Volta à vida | `Promessa` | trazer alguém de volta, em troca de um minuto de uso pleno do corpo, cobrado quando o outro lado quiser |
+| O carrasco | `Promessa` | jurar executar alguém, em troca do posto — e a segunda parte é a instituição, não uma pessoa |
+| Existência garantida | `Promessa` | parar de viver e não ferir ninguém, em troca de a própria existência ficar garantida — e ela atravessa mil anos |
+
+A segunda linha é a mais comum de todas na ficção, e é a que uma mesa vai imitar primeiro: o preço não é o corpo, é a vantagem de o inimigo não saber o que você faz.
+
+### Ideias de restrição
+
+Nenhuma delas mexe em acerto, Defesa ou perícia. O que elas mudam é a estrutura de como o personagem funciona.
+
+**Ideias de restrição**
+| Ideia | O que ela faz |
+|---|---|
+| `Fragmentação` | a sua Integridade vira cinco barras, e o dano escolhe uma |
+| `Liberação irregular` | você rola, a cada turno, o teto de energia que consegue liberar nele |
+| `50/50` | a sua energia liga e desliga por turno, e desligada você recebe o dobro do dano |
+| `Pacifismo impraticável` | uma obrigação de ficção com relógio de dias correndo |
+| `Direcional` | o seu deslocamento perde a diagonal e a parada no meio |
+| `Magnetismo energético` | ataque direcional feito em outro alvo redireciona para você |
+| `Aquecendo` | você entra em combate com 1 de vida máxima, e ela sobe a cada turno |
+| `Catatau` | a sua vida e a sua energia andam juntas, nos dois sentidos |
+
+> **`Aquecendo` não é a Restrição `Aquecer`.** A Restrição é de feitiço e mora no capítulo 9, *Fundamento*; esta aqui é de ficha, e as duas podem existir na mesma mesa.
+## Pactos na criação
+
+Pacto permanente, temporário e `Promessa` nascem em jogo, e nenhum dos três entra na criação de personagem, no capítulo 6, *Criação de Personagem*.
+
+O pacto de restrição é o único que a criação alcança, e ele se escreve junto da Origem ou da técnica.
+
+Quem quiser começar com uma troca já feita tem duas portas que não são Pactos: a `Regra Própria` da sua técnica, no capítulo 9, *Fundamento*, e o Legado da sua Origem, no capítulo 7, *Origens e Legados*.
+
+---
+
+
+# Capítulo 17 · Experiência e Progressão
 
 *fonte: `manual/80-experiencia-e-progressao.md`*
 
@@ -6643,7 +6809,7 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 ---
 
 
-# Capítulo 17 · Apêndice · Bloquear
+# Capítulo 18 · Apêndice · Bloquear
 
 *fonte: `manual/90-apendice-bloquear.md`*
 

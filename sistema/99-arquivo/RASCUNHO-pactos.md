@@ -1,3 +1,22 @@
+> # ARQUIVADO na v0.134
+>
+> **De onde saiu:** `sistema/03-mecanica/RASCUNHO-pactos.md`, aberto na v0.133.
+>
+> **O que o substituiu:** a **peça 22**, `sistema/03-mecanica/22-pactos.md`, com o `conferir-pactos.py` em cima dela.
+>
+> **Por que morreu:** ele era levantamento engatilhado, e o próprio texto dizia *"ele vira a peça 22 quando o catálogo e as travas estiverem escritos"*. **Os dois foram escritos.** *Mantido vivo ao lado da peça, ele viraria a segunda fonte do teto e do catálogo — a lição nº 9, dentro da camada que acabou de nascer.*
+>
+> **O que dele sobreviveu, e onde está agora:**
+>
+> - as **quatro formas**, o **teto de quantidade** e o **teto por pacto** → peça 22, §1 e §3
+> - o **catálogo da obra** → peça 22 §7.1, e ele **cresceu de cinco para oito** exemplares quando a fonte foi relida
+> - as **ideias de restrição** → peça 22 §7.2, e são **oito** e não nove: o título daqui dizia nove e a tabela tinha oito, e o Mizuki confirmou que eram oito
+> - a **conta do orçamento** → a entrada da v0.133 do CHANGELOG, que é a dona do argumento, e a derivação enxuta no §3.2 da peça
+>
+> **⚠ E duas coisas daqui não sobreviveram como estavam.** *A exceção ao arredondamento era declarada para Essência `0` e `1`, e ela é de **uma linha só** — a peça 1 §5.4 já escreve que o piso não desfaz zero escrito. E os `estilos` do §"o que o pacto concede" foram lidos aqui como os estilos de luta do `Executor`;* **eles são os do `Estilo da Sombra`, e só `Sem Técnica` alcança.**
+
+---
+
 # RASCUNHO · Pactos
 
 **Levantamento engatilhado, não peça.** *Aberto na v0.133, com a direção de desenho do Mizuki, o levantamento da fonte e a conta do orçamento já feitos.* **Ele vira a peça 22 quando o catálogo e as travas estiverem escritos.**

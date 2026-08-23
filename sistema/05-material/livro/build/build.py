@@ -50,6 +50,7 @@ CHAPTERS = [
     ("50-equipamento.md",            "Equipamento",             "具", None),
     ("55-ferramenta-amaldicoada.md", "Ferramenta Amaldiçoada",  "呪", None),
     ("60-invocacoes.md",             "Invocações",              "式", None),
+    ("65-pactos.md",                 "Pactos",                  "縛", None),
 
     ("80-experiencia-e-progressao.md", "Experiência e Progressão", "成", "A campanha"),
     ("90-apendice-bloquear.md",      "Apêndice · Bloquear",     "盾", None),

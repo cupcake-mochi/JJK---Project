@@ -1,8 +1,28 @@
 # Estado atual do projeto
 
-Atualizado em 23/08/2026, na v0.131 (última peça fechada: **Dano e condições**, ampliada na v0.104 com a penalidade de arma; antes dela, a **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com doze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 23/08/2026, na v0.134 (última peça fechada: **Pactos**, a peça 22, com o `conferir-pactos.py` e catorze checagens; antes dela, o **Objeto amaldiçoado, na v0.132**; antes dela, a **Técnica Marcial, na v0.122**; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.133.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e uma peças escritas** e **vinte e um validadores**.
+**Versão v0.134.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e duas peças escritas** e **vinte e dois validadores**.
+
+***PACTOS FECHOU na v0.134, e é a peça 22.*** **A quinta camada de personagem, e a última que faltava ter régua** — o Passo 8 da peça 8 prometia ela desde a v0.21, o que dá cento e treze versões.
+
+> **Quatro formas, e só uma tem teto.** *Permanente, temporário, `Promessa` e de restrição.* **O permanente é o único que atravessa mesa**, e o teto dele é `metade da Essência` arredondando para baixo, sem piso — `0 · 0 · 1 · 1 · 2 · 2 · 3` na escala inteira.
+>
+> **⚠ E a exceção ao arredondamento da peça 1 §5.4 é de UMA linha, e não de duas.** *Aquela seção já escreve o limite do próprio piso — "ele existe para o caso em que a conta produziu 0,4, não para desfazer um zero escrito".* **Essência `0` dá zero pela conta, e o piso já não a alcançava; só a Essência `1` é exceção de verdade.** *Uma linha é mais barata de declarar do que duas, e o texto que declarava as duas cobrava por uma que a peça 1 já resolvia sozinha.*
+>
+> **O teto por pacto é `0,50` fatia, e ele é DERIVADO:** a camada de `1,50` dividida pelos três pactos do pior caso, que é a Essência no teto. *`2,54` de dano por rodada, que é `21%` de um golpe simples no nível 30.* **O orçamento não existe para preçar pacto — existe para fazer com que preçar pacto em dano não valha a pena.**
+>
+> **⚠⚠ E indo escrever apareceu que duas das quatro coisas que um pacto pode dar precisam de tratamento OPOSTO.** *A decisão da v0.133 lista PE, aptidões, feitiços e estilos.* **PE tem preço em fatia — `1` PE por rodada vale `1,01`, pela peça 5 §4 — e passa pelo teto. Aptidão NÃO tem preço, e não pode ter:** *a régua de "uma aptidão a mais" é a que matou a Trilha `Repertório` na v0.81, porque ela vale a Trilha inteira para quem nunca escolhe Refino e um sétimo para quem sempre escolhe.* **Fica escrito com todas as letras para ninguém tentar de novo.**
+>
+> **⚠ E o `estilo` não era o que eu estava medindo.** *Eu preçei os estilos de luta do `Executor`, que custam de `0,33` a `0,79` fatia, e três dos cinco estouram o teto de um pacto.* ***Correção do Mizuki: são os do `Estilo da Sombra`, e só `Sem Técnica` alcança eles.*** **Aquela peça não existe, então o §3.5 escreve um contrato em vez de um número** — no molde do teto de Defesa da peça 14 §3, em que a peça que chega depois obedece.
+>
+> **O catálogo leva os exemplares da obra mais as ideias de restrição, e nenhum dos dois é lista fechada.** *A fonte rendeu quatro exemplares que o rascunho não tinha — `Mostrar a mão`, que é a forma temporária mais comum da obra inteira; o Yuta com os superiores, que prova que a segunda parte pode ser uma instituição; e o Kenjaku com os feiticeiros antigos, que é literalmente o Pacto que a peça 21 §3 tinha achado e mandado para cá.* **São oito exemplares e oito ideias.**
+>
+> **⚠ E a lista do amigo tinha oito, e não nove.** *O rascunho dizia "as nove ideias" no título e a tabela tinha oito linhas.* ***Confirmado com o Mizuki: eram oito mesmo.***
+>
+> **O `conferir-pactos.py` tem catorze checagens e nenhum valor escrito dentro.** *A checagem 2 é o par declarado, e ela mede RELAÇÃO: o `0,50` é recalculado como `camada ÷ (teto de atributo ÷ 2)`.* **Dezessete perturbações acendendo a checagem dona e três contra-testes verdes**, em cópia isolada, com a base conferida antes de cada uma e o `diff` conferido. *O contra-teste que importa muda a camada e o teto juntos, de forma coerente, e a checagem 2 fica verde de propósito.*
+>
+> **⚠ E a checagem 9 nasceu medindo o marcador em vez do fenômeno.** *Ela perguntava se as palavras `acerto`, `Defesa` e `perícia` aparecem numa linha de proibição — e aparecem, porque o §3.4 é essa linha.* **Pôr uma entrega de `+1` de Defesa noutra seção saía VERDE.** *Hoje ela procura a promessa e não a proibição.*
 
 ***A pendência mais velha da peça 6 fechou na v0.131, e ela estava aberta desde a v0.14 — cento e dezessete versões.*** **Como a `Torrente` cobra o segundo feitiço da rodada, contra a regra de ouro nº 6.**
 
@@ -511,6 +531,8 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/conferir-marcial.py` | as **doze** checagens da peça 20, e o par declarado entre a 3 e a 9: uma pergunta se a rota recebe demais, a outra se ela é frágil demais |
 | `03-mecanica/21-objeto-amaldicoado.md` | **a peça de vocabulário**: onde as quatro coisas que carregam energia amaldiçoada se separam, a **atração** e o selo que a inverte, o `Kiko`, e os três resultados de encarnação que já eram três Origens |
 | `03-mecanica/conferir-objeto.py` | as **doze** checagens da peça 21, e o par declarado entre a 3 e a 8: uma pergunta se ela republica o que já tem dono, a outra se o que ela criou tem dono |
+| `03-mecanica/22-pactos.md` | **a quinta camada de personagem**: as quatro formas de pacto, o teto de quantidade do permanente, o orçamento como teto de dano, o catálogo de exemplo da obra e as oito ideias de restrição |
+| `03-mecanica/conferir-pactos.py` | as **catorze** checagens da peça 22, e a segunda é o par declarado: o teto por pacto não está escrito nela, é `camada ÷ (teto de atributo ÷ 2)` — ela mede relação e não constante |
 | `05-material/gerador-ficha/` | o gerador da ficha (Node: `node make.js`), e os dois `.docx` que ele produz |
 | `conferir-repositorio.py` | a árvore, as referências mortas, os números que moram em mais de um documento, os **ponteiros de seção** — todo `peça N §M` citado tem de apontar para seção que existe, desde a v0.54 —, o **mapa** desta tabela contra a pasta, a **entrega** contra a fonte, a **pendência morta** desde a v0.100 — nenhum item de "Em aberto" pode pedir coisa que já existe —, e, **desde a v0.102**, a **contagem de checagens de cada validador, lida do código** |
 | `99-arquivo/` | material morto, com LEIA-ME próprio. Não leia de lá para escrever peça nova |
@@ -826,7 +848,7 @@ Vale ter isso à mão, porque o material é grande e engana. *Medido na v0.33, e
 | o que falta | por que não trava uma missão de nível 2 |
 |---|---|
 | ~~Tabela de proteção~~ | **fechada na v0.48**, na peça 14: Traje e Revestimento com três degraus cada, e escudo com três |
-| Regra de Pactos | é opcional na criação — e desde a v0.116 ela é **uma forma só**: pacto entre dois personagens, fechado em jogo. As outras três têm dono no manual e na peça 13 |
+| ~~Regra de Pactos~~ | **fechada na v0.134**, na peça 22: quatro formas, e só o permanente tem teto. *Ela continua sendo opcional na criação — a ficha nasce sem pacto nenhum —, e as outras três formas de troca continuam com o dono que já tinham, no manual e na peça 13* |
 | Trilhas com número | a Trilha é escolhida no nível 2, mas o que ela entrega chega depois |
 | ~~Aptidões e degraus de refino~~ | **fechada na v0.27**, na peça 11 — e as quatro anti-domínio na v0.29. *Continuam valendo só do nível 6 em diante* |
 
@@ -1075,7 +1097,7 @@ As duas são economias de poder novas, e construir a quarta e a quinta antes de 
 | **Objeto amaldiçoado** | **a maldição presa em forma de objeto** — não é item imbuído de energia: *é* a coisa. Resto de feiticeiro antigo, que encarna quando um receptáculo compatível o consome. *Entrou na lista na v0.49, escondido dentro da palavra "ferramenta".* **Duas Origens inteiras são construídas em cima dele** — Receptáculo é comer um dedo, Reencarnado é ter virado um |
 | **Ferramenta amaldiçoada** | **arma forjada para canalizar energia**, com graus, que até quem não é feiticeiro consegue usar. Prometida desde a peça 5 §5 e declinada pela peça 14 §8 item 2, que a mandou para tópico próprio *"com graus e forja"*. **É o único jeito de ferir maldição sem energia própria** — a Maki e o Toji |
 | **Dano de alma, com Essência na Integridade** | já decidido, não aplicado |
-| **Pactos** | a camada mais perigosa de escrever solta — e desde a v0.116 ela é **um quarto do que parecia**: só o pacto entre dois personagens fechado em jogo, com as quatro travas de projeto já escritas na peça 8, Passo 8 |
+| ~~**Pactos**~~ | **FECHADA na v0.134, e é a peça 22.** *O recorte encolheu na v0.116 e voltou a crescer na v0.133, quando o Mizuki abriu a forma que sobrava em quatro.* **As quatro travas do Passo 8 da peça 8 continuam sendo a fundação, e a peça 22 aponta para elas em vez de as repetir** |
 | **Itens menores** | *levantado pelo Mizuki na v0.131.* **Consumível e afins** — o que se compra, se gasta e acaba: talismã pronto, remédio, corda, lanterna, o kit que o `Herbalismo` usa. **A peça 14 tem a régua de itens comuns em três camadas, com a terceira desligada** (§8), e nada disso tem preço nem lista |
 | **Bestiário** | sai da matemática de inimigo que o manual já tem |
 
@@ -1095,7 +1117,7 @@ As duas são economias de poder novas, e construir a quarta e a quinta antes de 
 
 | falta | como se contorna |
 |---|---|
-| Regra de Pactos | **na criação ele não entra** — quem quiser começar com um usa a `Regra Própria` do manual ou um `Legado` da peça 13, que é onde essa ficção já mora. *Recorte fechado na v0.116* |
+| Regra de Pactos | **na criação as três formas de jogo não entram**, e isso não mudou com a peça 22 — quem quiser começar com uma troca já feita usa a `Regra Própria` do manual ou um `Legado` da peça 13. *A única das quatro que a criação alcança é o **pacto de restrição**, e ele não entrega benefício* |
 | ~~Tabela de proteção~~ | **fechada na v0.48**, na peça 14. A ficha continua nascendo com a proteção 1 de cobrir-se; o que mudou é que agora existe o que vestir por cima, e o escudo **soma** em vez de desligar |
 | Trilhas com número | a Trilha é escolhida na criação, junto do Caminho. O que ela entrega é a peça de Trilhas |
 

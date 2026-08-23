@@ -164,7 +164,7 @@ São doze. Propriedade é o que a arma é: ela já está impressa na linha do ca
 | `Vestida` | Não ocupa a mão |
 | `Talha` | A arma é ruim de aparar: **−1** no `Bloquear` de quem se defende |
 
-> **`Talha` é a única das doze ligada ao `Bloquear`**, a rolagem de `2d10` que a sua mesa pode usar no lugar da Defesa estática — o capítulo 17 explica a escolha. Onde a mesa usa a Defesa estática, as nove armas com `Talha` seguem valendo por tudo o mais que elas são: dado, alcance, o resto das propriedades. Só esse `−1` específico não tem onde entrar.
+> **`Talha` é a única das doze ligada ao `Bloquear`**, a rolagem de `2d10` que a sua mesa pode usar no lugar da Defesa estática — o capítulo 18 explica a escolha. Onde a mesa usa a Defesa estática, as nove armas com `Talha` seguem valendo por tudo o mais que elas são: dado, alcance, o resto das propriedades. Só esse `−1` específico não tem onde entrar.
 
 Três delas decidem cena fora de combate com frequência. `Oculta` é a que deixa você entrar armado numa reunião, num velório ou numa portaria com detector. `Rompe` é a que abre cadeado, grade, alçapão e tampa de bueiro sem esperar ninguém. `Vestida` é a que responde quando alguém manda você largar tudo o que está na mão.
 

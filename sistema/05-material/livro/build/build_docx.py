@@ -37,6 +37,7 @@ CHAPTERS = [
     ("50-equipamento.md", "Equipamento"),
     ("55-ferramenta-amaldicoada.md", "Ferramenta Amaldiçoada"),
     ("60-invocacoes.md", "Invocações"),
+    ("65-pactos.md", "Pactos"),
     ("80-experiencia-e-progressao.md", "Experiência e Progressão"),
     ("90-apendice-bloquear.md", "Apêndice · Bloquear"),
 ]

@@ -194,7 +194,7 @@ Teste de Resistência = d20 + atributo do TR + 1   (a maestria, e só se treinad
 
 Pacto é o que você trocou por poder.
 
-### Três das quatro formas de pacto já têm dono, e o dono é o manual — v0.116
+### As quatro formas de pacto têm dono, e três deles não são a peça de Pactos — v0.116, fechado na v0.134
 
 *A pendência dizia "a regra completa de Pactos ainda não foi escrita", e foi escrita assim desde a v0.21.* **Indo escrever, a maior parte já estava.** As quatro formas que a obra usa, cada uma contra a máquina que já a resolve:
 
@@ -203,7 +203,7 @@ Pacto é o que você trocou por poder.
 | *"a minha técnica fica maior sob uma condição que eu aceitei"* | **Restrição**, por feitiço | manual §4 — dezoito entradas, mais a `Restrição Própria` |
 | *"a minha técnica impõe uma regra ao mundo: julgamento, aposta, **contrato**, **dívida**, sorte"* | **Regra Própria**, por técnica | manual §3. *As cinco palavras são dele, e um dos três exemplos publicados é literalmente uma Dívida cobrada uma vez por cena* |
 | *"eu troquei uma coisa antes de a campanha começar"* | **Legado**, na criação | peça 13 — três formatos, catálogo de 81 entradas, régua e validador |
-| *"eu e mais alguém fechamos um trato, aqui, na mesa"* | **ninguém** | — |
+| *"eu e mais alguém fechamos um trato, aqui, na mesa"* | **a peça 22**, e ela abre em quatro formas próprias | peça 22 — teto, catálogo e o `conferir-pactos.py`, desde a v0.134 |
 
 **Três de quatro, e o manual escreve `contrato` e `dívida` com essas palavras.** *É o mesmo defeito que a v0.80, a v0.86 e a v0.92 acharam três vezes: o projeto procurando uma régua que já tinha dono.*
 
@@ -215,13 +215,15 @@ Pacto é o que você trocou por poder.
 
 **Uma cópia sem dono declarado é a lição nº 9 esperando acontecer**, e esta já estava a uma palavra de divergir: a do manual diz *"com limite **por cena**"* e a daqui dizia só *"com limite"*. **A partir daqui esta seção aponta em vez de repetir.**
 
-### O que sobra é uma coisa só, e é a mais perigosa das quatro
+### O que sobrava era a mais perigosa das quatro, e ela fechou na v0.134
 
 **O pacto feito durante o jogo, entre dois personagens.** *As outras três acontecem quando alguém escreve a ficha, com o mestre lendo; esta acontece no meio de uma cena, e o personagem sai dela e vai para a mesa de outro mestre carregando o que foi combinado.* **É o filtro de mundo compartilhado no pior caso que ele tem.**
 
-> **Provisório, e o recorte é este.** *Pacto entre personagens não tem regra, e na criação ele não entra: quem quiser começar com um usa a `Regra Própria` do manual ou um `Legado` da peça 13, que é onde essa ficção já mora.* **O mestre continua podendo abrir um em jogo, e o preço vai escrito na ficha — o que não existe ainda é a régua que faz dois mestres cobrarem o mesmo.**
+> **Ela é a peça 22, e o recorte cresceu antes de fechar.** *A v0.116 achou que sobrava uma forma só; **a v0.133 ampliou para quatro**, por decisão do Mizuki — permanente, temporário, `Promessa` e de restrição.* **Só o permanente tem teto, e ele é metade da Essência**, arredondando para baixo e sem piso.
+>
+> **Na criação ele continua sem entrar, e isso não mudou:** pacto é adicional e opcional, e a ficha nasce sem nenhum. *Quem quiser começar com um usa a `Regra Própria` do manual, um `Legado` da peça 13, ou escreve um pacto de restrição junto da Origem — que é a única das quatro formas que a criação alcança, e ela não entrega benefício.*
 
-**Quatro coisas ficam decididas antes da régua, e as quatro saem de medida que já existe:**
+**Quatro coisas ficaram decididas antes da régua, e as quatro saíram de medida que já existia. A peça 22 obedece as quatro:**
 
 **1. Ele é a quarta economia de poder, e por isso nasce com o teto mínimo.** *O `arquitetura.md` chama as aptidões de "o risco maior da estrutura inteira" por serem a segunda economia; o Legado é a terceira e a peça 9 §2 registra que ele "nasceu com o teto mínimo" exatamente por isso.* **A quarta não pode nascer mais solta que a terceira.**
 
@@ -295,7 +297,7 @@ E a que sustenta as sete: **o mestre pode recusar mesmo quando passa em tudo.** 
 
 ## Em aberto
 
-- **A regra de Pactos**, e o recorte dela encolheu na v0.116. *Três das quatro formas já têm dono — `Restrição` e `Regra Própria` no manual, `Legado` na peça 13 —, e a trava que estava escrita aqui era cópia da lista da `Regra Própria`.* **O que falta é uma só: pacto entre dois personagens, fechado durante o jogo**, com as quatro travas de projeto já escritas no Passo 8.
+- ~~**A regra de Pactos**, e o recorte dela encolheu na v0.116.~~ **FECHADA na v0.134, e é a peça 22.** *O recorte encolheu na v0.116 — três das quatro formas já tinham dono, `Restrição` e `Regra Própria` no manual e `Legado` na peça 13 — e **voltou a crescer na v0.133**, quando o Mizuki abriu a que sobrava em quatro formas próprias.* **As quatro travas deste Passo 8 continuam sendo a fundação dela, e a peça 22 aponta para elas em vez de as repetir.**
 - ~~**Equipamento.** A tabela de proteção não existe, então a ficha nasce **só** com a proteção 1 de cobrir-se de energia.~~ **Fechada na v0.48, na peça 14:** `Traje` e `Revestimento` com três degraus cada, e escudo com três. *A ficha continua nascendo só com a proteção 1 de cobrir-se de energia — o que mudou é que agora existe o que vestir por cima.* **Traje e Revestimento desligam a proteção de energia; o escudo SOMA com ela**, decidido na v0.42.
 - ~~**Quantas Trilhas um personagem acumula, e em que níveis.**~~ **Fechada na v0.55, na v0.60 e na v0.65:** uma Trilha por ficha, com entregas nos níveis `2 · 11 · 19 · 27`, e troca total de Trilha permitida no 11, no 19 e no 27. *A primeira continua vindo no nível 2, junto do Caminho; **o que ela entrega com número continua sendo a peça de Trilhas**, que não existe.*
 - **Se vinte a quarenta minutos é real.** É estimativa, e o playtest mede.

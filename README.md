@@ -2,7 +2,7 @@
 
 **O sistema se chama `Projeto - M`**, batizado na v0.94 — era a pendência mais velha que existia aqui, aberta na v0.1. Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.133** · manual do Fundamento na **v7.11** · **vinte e uma peças de regra** e **vinte e um validadores passando** · o Manual da Guilda em **17 capítulos**.
+**Versão v0.134** · manual do Fundamento na **v7.11** · **vinte e duas peças de regra** e **vinte e dois validadores passando** · o Manual da Guilda em **18 capítulos**.
 
 ---
 
@@ -61,14 +61,14 @@ Depois disso, a ordem de leitura é a da próxima seção, e os validadores são
     ├── 00-fundacao/                     os três pilares e as restrições do projeto
     ├── 01-pesquisa/                     dossiê de metodologia — a seção 8 lista as dez travas
     ├── 02-esqueleto/                    arquitetura: subsistemas e como se encaixam
-    ├── 03-mecanica/                     as vinte e uma peças de regra e os vinte e um validadores
+    ├── 03-mecanica/                     as vinte e duas peças de regra e os vinte e dois validadores
     ├── 04-playtest/                     vazia. Zero sessões desde a v0.1
     ├── 05-material/                     a ficha (e o gerador dela) e o livro/, o Manual da Guilda completo
     ├── 99-arquivo/                      material morto, com LEIA-ME próprio
     └── skills/                          cópia de trabalho das sete skills de apoio
 ```
 
-Um arquivo `RASCUNHO-*.md` em `03-mecanica/` é levantamento engatilhado, não peça — ele não leva número justamente por isso, e o `conferir-repositorio.py` falha se algum tomar. **Hoje são quatro:** `RASCUNHO-bloqueio.md` (a regra opcional de rolar a defesa, fechada em desenho na v0.43), `RASCUNHO-clash-de-expansoes.md`, o `RASCUNHO-trilhas.md`, que a **v0.54** abriu e que é a posição 1 da fila, e o `RASCUNHO-pactos.md`, aberto na **v0.133** com a direção de desenho, o levantamento da fonte e a conta do orçamento já feitos. *Eram cinco até a v0.58, quando o de Invocações virou a peça 15, e quatro até a v0.59, quando o de ferramenta amaldiçoada virou a peça 16 — que é o caminho que um rascunho existe para fazer, duas versões seguidas.*
+Um arquivo `RASCUNHO-*.md` em `03-mecanica/` é levantamento engatilhado, não peça — ele não leva número justamente por isso, e o `conferir-repositorio.py` falha se algum tomar. **Hoje são três:** `RASCUNHO-bloqueio.md` (a regra opcional de rolar a defesa, fechada em desenho na v0.43), `RASCUNHO-clash-de-expansoes.md` e o `RASCUNHO-trilhas.md`, que a **v0.54** abriu e que é a posição 1 da fila. *Eram cinco até a v0.58, quando o de Invocações virou a peça 15, e quatro até a v0.59, quando o de ferramenta amaldiçoada virou a peça 16 — que é o caminho que um rascunho existe para fazer, duas versões seguidas.* **O de Pactos fez o mesmo caminho na v0.134**, e foi para o `99-arquivo/` com o cabeçalho de sempre: **rascunho que virou peça e continua vivo ao lado dela é a segunda fonte da regra.**
 
 **`_backup/` não entra no repositório** — ele guarda o estado da pasta antes da reorganização, e o `.gitignore` o segura.
 

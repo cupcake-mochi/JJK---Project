@@ -76,7 +76,7 @@ Quem escolhe Refino em todo marco bate no teto no nível 22. Dali em diante a me
 
 Mesmo essa ficha não fica sem nada. `Cobrir-se de energia` e `Canalizar energia` vêm de graça no refino 1, e a primeira continua crescendo com o refino passivo até 8. O que ela nunca vai ter é `Energia Reversa` nem `Barreira Simples`.
 
-*O marco é do capítulo 16, __Experiência e Progressão__: é lá que estão os sete níveis em que ele cai, quanto refino cada rota junta marco a marco, e o que Corpo e Leque compram. Aqui interessa só a escolha de Refino, que é a que vira aptidão.*
+*O marco é do capítulo 17, __Experiência e Progressão__: é lá que estão os sete níveis em que ele cai, quanto refino cada rota junta marco a marco, e o que Corpo e Leque compram. Aqui interessa só a escolha de Refino, que é a que vira aptidão.*
 
 ## Aptidões
 
@@ -88,9 +88,11 @@ Um marco de Refino compra **uma aptidão**, de qualquer altura que o seu refino 
 
 ### Classe Passiva
 
-As aptidões usam a mesma escada das Passivas, e ela está no capítulo 9, *Fundamento*.
+**A Classe Passiva é o tamanho da aptidão.** Ela diz o quanto aquela entrada pode entregar, e é por ela que se lê quanto uma aptidão vale ao lado de outra. As aptidões usam a mesma escada das Passivas: a escada e o que cabe em cada altura estão no capítulo 9, *Fundamento*, na seção `Passivas`.
 
 Aqui ela não cobra nada: o marco compra uma aptidão de qualquer altura, e o preço é o mesmo. Quem separa as alturas é o requisito. E como o refino escala o que a aptidão entrega, uma Classe Passiva 1 no refino 10 rende bem mais do que no refino 2.
+
+**E se você for escrever uma `Aptidão Própria`, a escada do capítulo 9 é a base:** escolha a altura que a sua ideia alcança, e escreva dentro do que aquela linha permite.
 
 ### Requisito
 

@@ -8,6 +8,148 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.134] — 23/08/2026
+
+**Pactos virou a peça 22, e ela é a quinta camada de personagem — a última que faltava ter régua.**
+
+*O Passo 8 da peça 8 prometia "a regra completa" desde a v0.21, o que dá **cento e treze versões**.* **A v0.116 encolheu o recorte para uma forma; a v0.133 o Mizuki ampliou para quatro; esta escreveu as quatro.**
+
+### O teto é DERIVADO, e o `0,50` não está escrito em lugar nenhum
+
+**Só o pacto permanente tem teto**, porque é o único que atravessa mesa. Os outros três morrem na cena, dependem de alguém do outro lado, ou não entregam nada.
+
+```
+teto por pacto = camada ÷ pactos no pior caso  =  1,50 ÷ 3  =  0,50 fatia
+```
+
+*O pior caso é a Essência no teto, que é `6` pela peça 2 §1, e `6/2` dá três pactos.* **A camada de `1,50` é decisão da v0.133; o resto sai dela e do teto de atributo.**
+
+| o teto de um pacto vale | quanto | de onde sai |
+|---|---|---|
+| dano por rodada | `2,54` | `0,50 × 5,08`, e a fatia é do `DESENHO-trilhas.md` |
+| **de um golpe simples** | **`21%`** | o vão entre as duas colunas da peça 6 §3 dá `12` no nível 30 |
+| de PE por rodada | `0,49` | `1` PE por rodada vale `5,14` de dano, pela peça 5 §4 |
+
+### ⚠ A exceção ao arredondamento é de UMA linha, e não de duas
+
+***O rascunho declarava a exceção inteira, e ela é metade disso.*** *A peça 1 §5.4 escreve o limite do próprio piso: **"ele existe para o caso em que a conta produziu 0,4, não para desfazer um zero escrito"**.*
+
+| Essência | a conta | é exceção? |
+|---|---|---|
+| `0` | `0 ÷ 2 = 0` | **não** — zero escrito pela conta, e o piso já não o alcançava |
+| `1` | `1 ÷ 2 = 0,5` | **sim** — arredonda para `0`, e ali o piso de `1` seria acionado |
+
+**Uma linha é mais barata de declarar do que duas**, e o texto que declarava as duas cobrava por uma que a peça 1 já resolvia sozinha.
+
+### ⚠⚠ E das quatro coisas que um pacto concede, duas precisam de tratamento OPOSTO
+
+*A decisão da v0.133 lista **PE, aptidões, feitiços e estilos**. Indo preçar as quatro, elas se separaram em duas famílias.*
+
+| concede | tem preço em fatia? | quem segura |
+|---|---|---|
+| **PE** | **sim** — `1` PE/rodada = `1,01` fatia, peça 5 §4 | o teto |
+| **estilo** | **sim** | o teto, e o §3.5 |
+| **uma aptidão** | **não, e não pode ter** | o mestre |
+| **um espaço de feitiço** | **não** | o mestre |
+
+> **A régua de *"uma aptidão a mais"* não é descuido — ela não pode existir, e isso já custou uma Trilha.** *O `Repertório` do Emanador foi abandonado na v0.81 exatamente por depender dela: **ela vale a Trilha inteira para quem nunca escolhe Refino e um sétimo para quem sempre escolhe**.* **Fica escrito com todas as letras na peça, para ninguém tentar de novo daqui a três versões.**
+
+**O teto mede DANO, e só dano.** *O que não é dano não passa por ele, e quem aprova é o mestre* — que é onde a decisão da v0.133 já chegava por outro caminho: *"o orçamento não existe para preçar pacto; existe para fazer com que preçar pacto em dano não valha a pena"*.
+
+### ⚠ E o `estilo` não era o que eu estava medindo
+
+**Eu preçei os estilos de luta do `Executor` — a lista da `Pegada` —, e a conta reprovava:** *eles custam de `0,33` a `0,79` fatia, e **três dos cinco estouram o teto de um pacto em `1,58×`**.* Levei a colisão para o Mizuki com as opções medidas.
+
+***Correção dele: não são esses.*** *"os estilos q mencionei foram os de Estilo da Sombra, q alguns sem tecnicas vao poder ter acesso, mas so eles".*
+
+> **E aquela peça não existe.** *O `Estilo da Sombra` é uma das duas rotas que a peça 9 §4 manda a sub-origem `Sem Técnica` procurar, e é a nona rota de Origem — a única que não roda.*
+>
+> **Então o §3.5 escreve um CONTRATO em vez de um número:** quando o `Estilo da Sombra` for escrito, um estilo dele cabe em `0,50` fatia; se custar mais, ou cobra dois pactos, ou pacto não o concede. *É o molde do teto de Defesa da peça 14 §3 — ninguém escreve o número, e a peça que chega depois obedece.*
+
+**Perguntar custou uma rodada e evitou uma peça inteira preçada contra a coisa errada.**
+
+### A fonte rendeu quatro exemplares que o rascunho não tinha
+
+*O Mizuki pediu os pactos da obra no catálogo, e o levantamento foi refeito.* **São oito exemplares, e os quatro novos provam coisa que os cinco do rascunho não provavam:**
+
+| exemplar novo | o que só ele prova |
+|---|---|
+| **Mostrar a mão** | forma temporária em que **o preço não é o corpo, é a vantagem**. É a mais comum da obra inteira |
+| **Yuta ↔ os superiores** | a segunda parte de uma `Promessa` pode ser **uma instituição**, e não uma pessoa |
+| **Kenjaku ↔ os feiticeiros antigos** | `Promessa` que atravessa **mil anos** |
+| *(o quinto candidato caiu)* | **Ui Ui ↔ Mei Mei ficou de fora**: a fonte não estabelece o que o lado dele ganha, e catálogo com payoff incerto é pior que catálogo menor |
+
+> **A do Kenjaku é a que a peça 21 §3 já tinha achado e mandado para cá**, indo escrever objeto amaldiçoado: *"o que segura um objeto especial não é material nem barreira: é um trato com cláusula escrita, feito com alguém que já morreu"*. **Aquela peça fecha dizendo que a de Pactos começa por ali, e é o que esta fez.**
+
+### ⚠ A lista do amigo tinha OITO, e o rascunho dizia nove
+
+*O título do §4.1 dizia "as nove ideias" e a tabela tinha oito linhas — e o parágrafo logo abaixo dela dizia "as oito".* ***Confirmado com o Mizuki: eram oito mesmo.*** **Contagem no título que não bate com a tabela embaixo dele é a lição nº 9 dentro de um arquivo só.**
+
+***Decisão dele sobre o nome:*** **`Aquecendo` fica, com a colisão declarada.** *`Aquecer` é **Restrição de feitiço** no manual — "não pode ser usado na primeira rodada do combate" —, e é a mesma ideia em outra camada.* **A triagem devolveu `LIVRE`, porque ela pega substring e não sentido.** *No molde do `Médio` da peça 14, que carrega duas colisões aceitas e escritas.*
+
+### O `conferir-pactos.py`, e a checagem que mede relação
+
+**Catorze checagens, e nenhum valor escrito dentro.** *A fatia sai do `DESENHO-trilhas.md`, o teto de atributo da peça 2, o câmbio de PE da peça 5, o golpe simples da peça 6, o piso da peça 1, e as quatro travas da peça 8.*
+
+> **A checagem 2 é o par declarado, e ela mede RELAÇÃO e não constante.** *O `0,50` é recalculado como `camada ÷ (teto de atributo ÷ 2)`.* **Perturbar a camada sozinha acende; perturbar o teto de atributo da peça 2 sozinho acende; e mudar os dois de forma coerente fica VERDE de propósito.** *É esse contra-teste que prova que ela não está se medindo contra a própria constante — a lição nº 8.*
+
+**⚠ E a checagem 9 nasceu medindo o marcador em vez do fenômeno, pela segunda versão seguida.** *Ela perguntava se as palavras `acerto`, `Defesa` e `perícia` **aparecem** numa linha de proibição — e aparecem, porque o §3.4 é literalmente essa linha.* **Pôr uma entrega de `+1` de Defesa noutra seção saía VERDE.** *Hoje ela procura a **promessa** e não a proibição, em dois eixos, com o regex conferido contra as outras vinte e uma peças para não passar por estar quebrado.*
+
+**Dezessete perturbações acendendo a checagem dona e três contra-testes verdes**, em cópia isolada, com a base conferida antes de cada uma e o `diff` conferido em todas.
+
+### O livro ganhou o capítulo 16, e o deslocamento foi medido antes de escolher
+
+***Decisão do Mizuki, com as duas posições preçadas:*** **Pactos fecha a parte *O personagem*, depois de Invocações.**
+
+| posição | referências cruzadas a refazer |
+|---|---|
+| **capítulo 16, depois de Invocações** | **4** |
+| capítulo 13, colado nas Bênçãos | 22 |
+
+*A escolhida também é a ordem das cinco camadas que o sistema já declara — Origem, Caminho, Técnica, Refino e Aptidões, **Pactos** —, em que Pacto é a última.* **`Experiência e Progressão` foi de 16 para 17 e o `Apêndice · Bloquear` de 17 para 18**, com as quatro referências e mais **cinco linhas da coluna `Cap.` do vocabulário** refeitas na ordem descendente.
+
+**As três listas de capítulo subiram juntas** — `build.py`, `build_docx.py` e `conferir-voz.py` —, que é o que a checagem 10.1 do `conferir-repositorio.py` existe para cobrar.
+
+### E o pedido do Mizuki sobre a Classe Passiva
+
+***"colocar classe passiva em aptidão e refino ficou um pouco confuso (…) escrever de forma clara no tópico classe passiva desses capítulos".***
+
+**Os dois tópicos diziam de onde a escada vem e não diziam para que ela serve.** *Agora abrem com **"a Classe Passiva é o tamanho da aptidão"** — o quanto a entrada pode entregar, e como se lê uma ao lado da outra — e fecham mandando quem for escrever uma `Aptidão Própria` ou uma `Bênção Própria` usar a seção `Passivas` do capítulo 9 como base.*
+
+> **A escada não foi copiada para os dois capítulos**, e isso é de propósito: ela continua com um dono só, no capítulo 9. *Copiar as três alturas para cá seria a lição nº 9 em dois lugares novos de uma vez.*
+
+### O rascunho foi arquivado no dia em que a peça nasceu
+
+**`RASCUNHO-pactos.md` foi para o `99-arquivo/`**, com o cabeçalho que a convenção pede — de onde saiu, o que o substituiu, por que morreu e o que dele sobreviveu. *Os rascunhos em `03-mecanica/` foram de quatro para três.*
+
+> **Rascunho vivo ao lado da peça que ele gerou é a segunda fonte da regra**, e o teto e o catálogo estariam nos dois. *É o caminho que o de Invocações fez na v0.58 e o de ferramenta amaldiçoada na v0.59 — a diferença é que aqueles dois foram **renomeados** para a peça, e este virou arquivo porque a peça 22 foi escrita do zero.*
+
+**E o cabeçalho registra as duas coisas do rascunho que NÃO sobreviveram como estavam:** *a exceção ao arredondamento, que era declarada para duas linhas e é de uma; e os `estilos`, que ele lia como os do `Executor`.*
+
+### ⚠ Registrado e NÃO consertado
+
+- **A peça 8 §"Como este documento se lê" ainda diz que três das nove rotas não são jogáveis**, e que Técnica Marcial e Estilo da Sombra *"é a peça seguinte"*. **A Técnica Marcial é a peça 20 desde a v0.122, e as rotas são `8/9`.** *A linha está estável há doze versões e nenhum validador a alcança — ela fala de Origem em prosa, e a checagem 8 do `conferir-repositorio.py` procura pendência que pede peça pelo nome do arquivo.*
+
+### Medido depois
+
+| | v0.133 | v0.134 |
+|---|---|---|
+| peças de regra | 21 | **22** |
+| validadores | 21 | **22** |
+| checagens | 217 | **231** |
+| capítulos do livro | 17 | **18** |
+| palavras do livro | 77.554 | **78.840** |
+| coluna única | 252 páginas | **258** |
+| duas colunas | 142 páginas | **146** |
+| `conferir-voz --estrito` | 0 achados · 17 triagens | **0 achados · 17 triagens** |
+| rotas de Origem jogáveis | 8/9 | 8/9 |
+
+*As duas triagens que o capítulo novo criou foram cortadas antes de fechar — **"é pouco de propósito"** e **"e é por isso que cabem"** —, e as duas eram contabilidade de projeto vazando para o livro, que é a família que a v0.129 saiu para tirar.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **A fila de mecânica ficou com dois:** *itens menores e as três Trilhas do Evocador.*
+
+---
+
 ## [0.133] — 23/08/2026
 
 **Pactos ganhou rascunho, e ele já vem com a direção de desenho, o levantamento da fonte e a conta do orçamento fechados.**

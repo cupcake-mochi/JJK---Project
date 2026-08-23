@@ -41,9 +41,11 @@ Onde ela entra é em custo, em quantas vezes por cena, em alcance e duração, e
 
 ### Classe Passiva
 
-As Bênçãos usam a mesma escada das Passivas e das aptidões, e ela está no capítulo 9, *Fundamento*.
+**A Classe Passiva é o tamanho da Bênção.** Ela diz o quanto aquela entrada pode entregar, e é por ela que se lê quanto uma Bênção vale ao lado de outra. As Bênçãos usam a mesma escada das Passivas e das aptidões: a escada e o que cabe em cada altura estão no capítulo 9, *Fundamento*, na seção `Passivas`.
 
 A Classe Passiva não cobra nada aqui: o marco compra uma de qualquer altura. Quem separa as alturas é o requisito.
+
+**E se você for escrever uma `Bênção Própria`, a escada do capítulo 9 é a base:** escolha a altura que a sua ideia alcança, e escreva dentro do que aquela linha permite.
 
 ### Requisito
 

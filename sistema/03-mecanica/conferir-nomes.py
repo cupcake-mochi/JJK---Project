@@ -117,7 +117,10 @@ SISTEMA = ['Maestria', 'Refino', 'Trilha', 'Caminho', 'Legado', 'Exaustao',
            # os tres renomes da peca 20, batizados na v0.122. Sem eles aqui a
            # triagem deixaria rebatizar `Kata` daqui a dez versoes, que e o que
            # aconteceu com `Rescaldo` ate a v0.87.
-           'Kata', 'Ruptura', 'Ogi', 'Bencao', 'Lapidacao']
+           'Kata', 'Ruptura', 'Ogi', 'Bencao', 'Lapidacao',
+           # a forma de pacto entre duas partes, batizada na v0.133 e escrita
+           # na peca 22 na v0.134. `Contrato` reprovou aqui — e' Tema no manual.
+           'Promessa']
 
 # Onde cada nome e definido. Na checagem 2, o arquivo de definicao nao conta.
 DEFINIDO_EM = {

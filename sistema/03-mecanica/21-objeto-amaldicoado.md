@@ -62,7 +62,7 @@ O que muda de um para o outro é o que o grau escolhe:
 
 **Especial quer dizer duas coisas, e as duas são da fonte.** A primeira é que ele não se destrói: nem feiticeiro de topo quebra um. A segunda é que o que garante isso é um **Pacto** — quem virou objeto amaldiçoado parou de viver e não pode ferir ninguém, e em troca a existência dele fica garantida. *Quando o autor do Pacto desfaz o Pacto, todos encarnam de uma vez.*
 
-> **A regra de Pactos ainda não existe, e este é o caso mais bem documentado que ela vai encontrar.** *O que segura um objeto especial não é material nem barreira: é um trato com cláusula escrita, feito com alguém que já morreu.* **Quando a peça de Pactos chegar, ela começa por aqui.**
+> **Este é o caso mais bem documentado que a regra de Pactos encontrou.** *O que segura um objeto especial não é material nem barreira: é um trato com cláusula escrita, feito com alguém que já morreu.* **A peça 22 chegou na v0.134 e começou por aqui:** ele é o exemplar de `Promessa` que atravessa mil anos, no catálogo dela.
 
 ## 4. A atração
 
@@ -165,4 +165,4 @@ O `conferir-objeto.py` roda **doze checagens**, e **nenhum valor fica escrito de
 - **Quanto tempo um selo dura.** *Decidido como sendo do mestre*, e fica assim até o playtest pedir número. Se pedir, o degrau sai da escada da peça 10 e não de relógio novo.
 - **O catálogo de objetos com nome próprio.** Esta peça entrega a máquina e a família; os exemplares da obra aparecem como exemplo e não como ficha. **Se um dia existir catálogo, ele nasce aqui e não na peça 16** — objeto não é arma, e o fundo da peça 14 não o alcança.
 - **O que acontece com quem engole um objeto e não serve.** A fonte diz que morre, e este sistema não tem regra para isso porque a criação resolve antes: as três Origens já nascem do outro lado da porta. *Vira pergunta de verdade no dia em que uma mesa puser um objeto na mão de um personagem vivo.*
-- **`Pactos`.** O §3 registra que o que segura um objeto especial é Pacto com cláusula escrita, e é o caso mais bem documentado que aquela peça vai encontrar.
+- ~~**`Pactos`.**~~ **Fechada na v0.134, e é a peça 22.** *O §3 registra que o que segura um objeto especial é Pacto com cláusula escrita, e aquela peça levou o caso para o catálogo dela — como o exemplar de `Promessa` que atravessa mil anos.*

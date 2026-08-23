@@ -700,7 +700,17 @@ else:
     # SEM OBJETO — nao existe moeda nova. Conferidas uma a uma pelo diff da lista
     # branca antes e depois: as duas sao "nome de validador" e "arquivo cortado
     # por decisao", as familias ja declaradas. O teto vai a 118, mesma folga.
-    PISO_CITACOES, TETO_BRANCOS = 120, 118
+    #
+    # v0.134: 121 brancas. As CINCO novas saem da peca 22: ela cita o
+    # conferir-pactos.py duas vezes (o cabecalho da peca e o SS8, que e' a
+    # especificacao das catorze checagens) e o conferir-orcamento.py duas vezes
+    # no SS7.2, dizendo que a ideia `Catatau` passa pelo validador da peca DONA
+    # e nao pelo de Pactos; mais o conferir-pactos.py que a peca 8 passou a
+    # citar quando o Passo 8 dela deixou de anunciar a quarta forma como sem
+    # regra. Conferidas uma a uma: as cinco sao "nome de validador", que e' a
+    # primeira das duas familias declaradas la em cima — nenhuma familia nova,
+    # e nenhuma delas e material de mesa. O teto vai a 126, mesma folga de cinco.
+    PISO_CITACOES, TETO_BRANCOS = 120, 126
     if vistos_e < PISO_CITACOES:
         erro(f'7.2: achei so {vistos_e} citacoes na entrega, e o piso e {PISO_CITACOES} — '
              f'o extrator mudou de forma e esta checagem parou de conferir')

@@ -9,7 +9,7 @@ Sistema de RPG de mesa em desenvolvimento, ambientado no universo de Jujutsu Kai
 | `00-fundacao/` | Pitch de design e decisões que valem para o projeto inteiro |
 | `01-pesquisa/` | Dossiê de metodologia, referências e análise do espaço de design |
 | `02-esqueleto/` | Arquitetura do sistema: subsistemas, como se conectam, o que cada um resolve |
-| `03-mecanica/` | As peças de regra, numeradas na ordem em que foram escritas, e os vinte e um validadores |
+| `03-mecanica/` | As peças de regra, numeradas na ordem em que foram escritas, e os vinte e dois validadores |
 | `04-playtest/` | Roteiro de teste, formulários e retorno organizado por tema |
 | `05-material/` | A **ficha de personagem** (e o gerador dela) e o **livro/**, o Manual da Guilda completo |
 | `99-arquivo/` | **Material morto.** Nada aqui é regra corrente — ver o `LEIA-ME.md` de lá |
@@ -42,7 +42,7 @@ A pasta `skills/` guarda o `SKILL.md` de cada uma mais os arquivos de apoio. ~~*
 
 ## Versão atual
 
-**v0.133.** Fases 0 a 3 fechadas; a Fase 4 (mecânica) está em andamento com **vinte e uma peças escritas e vinte e um validadores passando**. O manual do Fundamento está na **v7.11**, e ele é um subsistema fechado — a técnica e o feitiço já funcionam. O `.pdf` **está na mesma versão do `.docx`** desde a v0.93 — ele deixou de ser exportado a mão.
+**v0.134.** Fases 0 a 3 fechadas; a Fase 4 (mecânica) está em andamento com **vinte e duas peças escritas e vinte e dois validadores passando**. O manual do Fundamento está na **v7.11**, e ele é um subsistema fechado — a técnica e o feitiço já funcionam. O `.pdf` **está na mesma versão do `.docx`** desde a v0.93 — ele deixou de ser exportado a mão.
 
 **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas**, por seis das nove rotas de Origem. Desde a v0.32 não sobrou peça de regra travando ninguém nessa faixa: das dezessete coisas que uma ficha de nível 2 precisa, **treze existem, e as quatro que faltam não mordem nessa faixa**. O que falta para as outras três rotas, e a ordem do resto, está no `ESTADO-ATUAL.md`.
 
@@ -64,6 +64,8 @@ cd sistema/03-mecanica && python3 conferir-nomes.py
 Os quatro últimos não leem o manual e não precisam de nada: o `conferir-criacao.py` confere a ficha de exemplo da peça 8 contra as fórmulas das outras peças, o `conferir-ficha.py` confere a ficha de `05-material/` contra os catálogos delas, o `conferir-legados.py` recalcula a tabela de totais da peça 13 e falha se o escrito não bater com o contado, e o `conferir-invocacoes.py` faz as trinta checagens da peça 15 sem guardar um número sequer dentro dele.
 
 ## A próxima peça
+
+**Pactos** fechou na v0.134 e é a peça 22, em `03-mecanica/22-pactos.md`, com o `conferir-pactos.py` e catorze checagens. Ela é a **quinta camada de personagem** e a **quarta economia de poder**, e abre em quatro formas — permanente, temporário, `Promessa` e de restrição. **Só o permanente tem teto**, e ele é metade da Essência arredondando para baixo, sem piso. *O Passo 8 da peça 8 prometia essa régua desde a v0.21.*
 
 **Catálogo de entregas** fechou na v0.85 e é a peça 17, em `03-mecanica/17-catalogo-de-entregas.md`, com o `conferir-catalogo.py` e doze checagens. Ela é um índice das **89 entradas** — 56 entregas de Trilha, 20 degraus de Caminho e as 13 Manhas — e não guarda preço nem texto de mesa: os dois continuam nos três `DESENHO-*.md` da raiz. **O validador dela é o primeiro do projeto que lê aqueles arquivos**, e a checagem que ele existe para ter é a que pega bloco de regra contradizendo o gate da linha de preço.
 
