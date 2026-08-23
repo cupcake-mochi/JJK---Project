@@ -8,6 +8,101 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.132] — 23/08/2026
+
+**Objeto amaldiçoado virou a peça 21, e ela é a primeira peça de vocabulário do projeto: não cria número nenhum.**
+
+*Ele estava na fila desde a **v0.49**, escondido dentro da palavra "ferramenta", e a v0.50 o pôs em último porque a conta dizia que ele destrava pouco.* **A conta estava certa: ele fechou uma vaga de `Desliga` e mais nada.** *O que ela não previa é que a peça teria conteúdo — e o conteúdo veio da fonte, não de desenho.*
+
+### O que o levantamento achou, e o que ele mudou
+
+**A linha entre objeto e ferramenta é mais simples do que o projeto escrevia.** *O japonês resolve por adição: `呪具` é **arma**, `呪物` é **objeto que não é arma**, e os dois se graduam pela mesma escada.* **A frase que o projeto citava define por exclusão** — *"tirando as ferramentas e os cadáveres, todo item com energia é objeto"* —, e exclusão obriga o leitor a conhecer as outras duas antes de entender a primeira.
+
+**⚠⚠ E são TRÊS Origens em cima dele, não duas.** *A fila da v0.50 e a peça 13 §8 falam de Receptáculo e Reencarnado. O Feto nunca entrou na conta.*
+
+| o que se engoliu | quem pode | o que sai | Origem |
+|---|---|---|---|
+| resto de feiticeiro, em pedaço | quase ninguém — **o objeto escolhe** | os dois ficam | Receptáculo |
+| ventre feito de propósito | **qualquer um**, mesmo sem talento | meio gente, meio maldição | Feto |
+| resto de feiticeiro, num corpo preparado | um corpo preparado de antemão | sobrou um | Reencarnado |
+
+> **E o projeto já sabia, sem ter ligado os pontos.** *O Feto tem um `Destranca` chamado **`Guardado`**, e o texto dele é "você foi objeto antes de ser pessoa".* **O Legado está escrito desde a v0.39, e a peça que explica o que ele quer dizer é esta.** *É o único dos três em que engolir o objeto é o que **produziu** a pessoa — os outros dois engoliram depois de já existir.*
+
+**Nenhuma das três mudou.** *As três rodam pelo Fundamento, e continuam rodando.* **O que elas ganharam é a explicação, não a mecânica.**
+
+### A coisa nomeada é a atração, e ela é o que fecha a vaga
+
+*A régua do `Desliga` da peça 13 §5 exige coisa nomeada existindo antes dele, e fecha dizendo que **"as peças que ainda não existem vão criar coisa nomeada nova"**.* **Sem uma, a vaga do Reencarnado não fechava — nem com a peça escrita.**
+
+> **Objeto amaldiçoado sem selo puxa maldição para perto dele.** *Não é técnica, não rola e não escolhe alvo.* **Enquanto o grupo carrega um sem selo, encontrar maldição deixa de ser coisa que se evita.**
+>
+> **E o selo não tampa a atração: ele vira ela do avesso** — objeto selado **empurra**, que é por que ele serve de amuleto. *E selo gasta: quando vence, a atração volta maior, porque nesse meio-tempo o objeto juntou o que o selo empurrou.*
+
+***Decisão do Mizuki: o `Desliga` chama `Conhecido`***, contra `Mobília`, `Quieto` e `Paisagem`. **Maldição que um objeto puxou não vem atrás de você: você já foi um, e para ela você é parte do lugar.** *Em troca, a atração também não te avisa.*
+
+**Ele não colide com os dois vizinhos que encostam.** *A `Máscara` do Receptáculo mexe em ser **sentido** pelo que você é; a `Coleira` do Descendente, em ser **localizado** por técnica.* **A atração não lê ninguém, não procura ninguém e não é técnica.**
+
+### As quatro pontas velhas da peça 13, e uma quinta
+
+*Levantadas pelo Mizuki, e as quatro existiam.* **A vaga do Corpo Amaldiçoado dizia "espera a peça de Técnica Marcial" e citava a peça 9 dizendo *"Técnica Marcial — não existe ainda"* — frase que aquela peça não escreve desde a v0.122.**
+
+| linha | dizia | desde quando era falso |
+|---|---|---|
+| a linha da tabela | *"espera a peça de Técnica Marcial"* | **v0.122** |
+| a nota abaixo dela | cita a peça 9 dizendo *"não existe ainda"* | **v0.122** |
+| a conta dos totais | as duas vagas *"esperam peça que ainda não existe"* | metade, desde a **v0.122** |
+| o item da metade 2 | **esta estava certa**, e era a que as outras três contradiziam | — |
+
+**E a quinta apareceu lendo: a conta dos totais era um retrato da v0.39.** *Ela dizia "só o Latente fecha a cota de Desliga hoje" e "quatro vagas no total" — com quatro Origens fechando a cota e uma vaga.* **Nada disso reproduzia, e nenhum validador alcançava, porque `conferir-legados.py` recontava a tabela e não a prosa em volta dela.**
+
+### O `conferir-objeto.py`, e o par que ele declara
+
+**Doze checagens, e nenhum valor escrito dentro.** *A escada de grau sai da peça 16, as Origens da peça 9, os Legados da peça 13, a lista de peças da pasta.*
+
+> **O par declarado é 3 e 8, e ele mede por eixos OPOSTOS.** *A 3 confere que esta peça **não escreve** o que já tem dono; a 8, que ela **é a única** a escrever o que é dela.* **Uma peça de vocabulário falha dos dois lados**, e cada checagem sozinha sai verde por motivo que a outra derrubaria.
+
+**⚠⚠ E o arnês achou dois defeitos no próprio validador, dos dois tipos que este projeto mais paga.**
+
+*A checagem 5 media o **marcador** em vez do fenômeno:* ela perguntava se cada rótulo de cadáver amaldiçoado **aparece** na peça — e os três aparecem também na tabela da família —, **então apagar a tabela inteira que existe para juntá-los saía VERDE.** *Hoje ela lê a tabela pelo cabeçalho e exige as três linhas.*
+
+*E as checagens 7 e 9 se mediam **contra a própria constante**:* os nomes `Guardado` e `Conhecido` estavam escritos dentro do código, então renomear o Legado nos dois documentos sairia verde **por acidente e não por acordo**. **Hoje os dois saem de uma tabela da peça 21, e o contra-teste que renomeia nos dois lados fica verde de propósito.** *Lição nº 8, pela quarta vez.*
+
+**Quinze perturbações acendendo e quatro contra-testes verdes**, em cópia isolada, com a base conferida antes de cada uma e o `diff` conferido.
+
+### E o `por_extenso` do conferir-repositorio.py morria no vinte
+
+**⚠ A peça 21 fez TRÊS checagens de contagem reprovarem por "não achei a linha", que é o jeito mais silencioso de uma checagem morrer:** *ela reprova por não ter encontrado o que medir, e não por ter medido e discordado.* **O mapa parava em `vinte` e o regex pegava uma palavra só** — `vinte e uma` são três. *Consertado nos dois: o mapa lê número composto, e os quatro regex de contagem aceitam ele.*
+
+### O livro
+
+**O capítulo 55 ganhou a seção da família e a de objeto amaldiçoado**, e ele **tinha** de mudar: a linha *"objeto amaldiçoado é outro assunto, e está sendo escrito"* e a vaga *"em desenvolvimento"* do capítulo 25 acendem a checagem 10.6 no instante em que a peça existe. *O `Conhecido` entrou no capítulo 25, que é o que a checagem 10.5 cobra.*
+
+> **Nenhum número de regra se moveu.** *`guard_numeros.py` nos dois arquivos, com a seção `NOTAÇÃO E NÚMERO` recortada separado:* **o capítulo 25 saiu idêntico** (`40` ocorrências), e as **três** diferenças do 55 são as três referências cruzadas novas — `capítulo 15`, `capítulo 4` e `capítulo 7`, cada uma `+1`. *As de numeral por extenso são prosa nova, e o `duas` que sumiu é o "São duas coisas" virando "São quatro".*
+>
+> **⚠ E eu tinha errado os três números de capítulo na primeira escrita.** *Invocações é o 15 e eu pus 14; dano é o 4 e eu pus 6; Origens é o 7 e eu pus 5.* **Achado conferindo contra a lista do `build.py` antes de rodar o validador.**
+
+**O `conferir-voz --estrito` acusou dois achados meus e os dois eram reais:** *um título que era frase — `Coisas que carregam energia amaldiçoada`, pelo `que` — e duas linhas em que o livro falava de si mesmo (`deste livro`, `neste livro`).* **Zerados.**
+
+### Medido depois
+
+| | v0.131 | v0.132 |
+|---|---|---|
+| peças de regra | 20 | **21** |
+| validadores | 20 | **21** |
+| checagens | 205 | **217** |
+| palavras do livro | 76.696 | **77.583** |
+| coluna única | 248 páginas | **252** |
+| duas colunas | 141 páginas | **142** |
+| `conferir-voz --estrito` | 0 achados · 15 triagens | **0 achados · 17 triagens** |
+| Legados escritos | 85 | **86** |
+| vagas de `Desliga` | 2 | **1** |
+
+*As duas triagens novas são causa dentro da ficção — o selo que inverte a atração, e o nome que alguém apagou de propósito. **Ficam.***
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **A fila de mecânica ficou com três:** *Pactos, itens menores e as três Trilhas do Evocador.*
+
+---
+
 ## [0.131] — 23/08/2026
 
 **A `Torrente` contra a regra de ouro nº 6: a pendência mais velha da peça 6 fechou, e a medida cobrou um preço que estava em zero.**

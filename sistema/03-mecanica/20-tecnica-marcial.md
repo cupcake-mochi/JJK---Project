@@ -338,13 +338,13 @@ O `conferir-marcial.py` roda **doze checagens**, e nenhum valor de regra fica es
 | **Restrição Celestial · sem energia** | Técnica Marcial mais Bênçãos e Lapidação |
 | **as rotas de Origem** | **6 de 9 → 8 de 9** |
 | **o texto das doze Bênçãos** | a magnitude que a peça 11 §6.8 esperava |
-| **1 das 2 vagas de `Desliga`** | a da Restrição Celestial, na peça 13 §8 |
+| **1 vaga de `Desliga`** | a da Restrição Celestial, na peça 13 §8 |
 
 **O que ela não destrava: Sem Técnica.** *Decisão do Mizuki: aquela rota tem criação própria e vem depois.* **A peça 9 §6 continua mandando ela para Aptidão ou Estilo da Sombra.**
 
 **Em aberto:**
 
 - **Quanto custa sacar uma arma.** *A peça 3 §3.1 tem doze ações e nenhuma é essa, e o `Desarmado` da peça 19 diz "até pegar de volta" sem preço.* **É buraco daquelas duas peças e não desta**, e ele é uniforme para todo mundo — o que mudou é que a rota de arma depende dele para o §7 funcionar como escrito.
-- **A vaga de `Desliga` do Corpo Amaldiçoado.** *A peça 13 §8 tem duas vagas: uma esperava esta peça e a outra espera objeto amaldiçoado.* **A primeira pode fechar agora**, e não fechou aqui porque alvo de `Desliga` é escopo da peça 13.
+- **A vaga de `Desliga` do Corpo Amaldiçoado.** *Ela é a única que sobrou na peça 13: a outra fechou na v0.132, com o `Conhecido`.* **Esta não espera peça nenhuma desde a v0.122** — ela esperava esta aqui —, e não fechou junto porque alvo de `Desliga` é escopo da peça 13.
 - **Nenhuma Kata publicada.** *Esta peça entrega a máquina e dois Fundamentos de exemplo; ela não abre catálogo de Kata pronta, do mesmo jeito que o manual entrega três Fundamentos prontos e não uma lista fechada de feitiços.*
 - **O texto de mesa.** *Como toda peça de `03-mecanica/`, esta é nota de design.* **O capítulo do livro sai dela, e é lá que a armadilha do §6 precisa aparecer onde o jogador escolhe** — não numa seção de argumento.

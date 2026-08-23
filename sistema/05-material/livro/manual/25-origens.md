@@ -465,8 +465,11 @@ Fundamento, do jeito padrão.
 
 | Legado | Apaga | Relógio |
 |---|---|---|
+| Conhecido | ser puxado pela atração de um objeto amaldiçoado | sempre |
 | Usado | ficar `Derrubado` | por cena |
-| *vaga reservada* | objeto amaldiçoado, em desenvolvimento | — |
+
+> **Conhecido** — maldição que um objeto amaldiçoado puxou não vem atrás de você. Você já foi um: para ela, você é parte do lugar, e não o que ela veio buscar. Em troca, a atração também não te avisa — o aperto que faz todo mundo do grupo olhar em volta quando tem objeto sem selo por perto não chega em você, e você entra sem perceber.
+> *Na mesa:* o grupo carrega um objeto e passa a noite sendo procurado; você dorme. E quando a sala está errada e todo mundo sente, você é o que entra primeiro.
 
 > **Usado** — este corpo já esteve em estado muito pior que este, e levantou: uma vez por cena, você não fica `Derrubado`. Em troca, ele cobra depois — o mestre diz uma coisa pequena que o seu corpo passa a fazer errado até o fim da cena, e ela é sua e não dele.
 > *Na mesa:* você levanta na rodada em que o grupo precisava que alguém levantasse, e sai da cena devendo alguma coisa que o mestre escolhe.

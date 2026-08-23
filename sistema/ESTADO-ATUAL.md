@@ -2,7 +2,7 @@
 
 Atualizado em 23/08/2026, na v0.131 (última peça fechada: **Dano e condições**, ampliada na v0.104 com a penalidade de arma; antes dela, a **Progressão, na v0.99**; antes dela, o **Catálogo de entregas, na v0.85** — ela é a peça 17 e tem o `conferir-catalogo.py` em cima dela, com doze checagens; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.131.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte peças escritas** e **vinte validadores**.
+**Versão v0.132.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e uma peças escritas** e **vinte e um validadores**.
 
 ***A pendência mais velha da peça 6 fechou na v0.131, e ela estava aberta desde a v0.14 — cento e dezessete versões.*** **Como a `Torrente` cobra o segundo feitiço da rodada, contra a regra de ouro nº 6.**
 
@@ -509,6 +509,8 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/conferir-dano.py` | as **onze** checagens da peça 19, e a nona sai da pasta: ela bate as duas entregas publicadas que aplicam condição contra a régua. *A décima primeira entrou na v0.104, com a penalidade de arma* |
 | `03-mecanica/20-tecnica-marcial.md` | **a rota de criação de quem não escreve Fundamento**: a máquina herdada, as duas rotas — três grupos de arma, ou uma ferramenta sob medida —, o Selo que virou equipamento, e os três renomes `Kata`, `Ruptura` e `Ōgi` |
 | `03-mecanica/conferir-marcial.py` | as **doze** checagens da peça 20, e o par declarado entre a 3 e a 9: uma pergunta se a rota recebe demais, a outra se ela é frágil demais |
+| `03-mecanica/21-objeto-amaldicoado.md` | **a peça de vocabulário**: onde as quatro coisas que carregam energia amaldiçoada se separam, a **atração** e o selo que a inverte, o `Kiko`, e os três resultados de encarnação que já eram três Origens |
+| `03-mecanica/conferir-objeto.py` | as **doze** checagens da peça 21, e o par declarado entre a 3 e a 8: uma pergunta se ela republica o que já tem dono, a outra se o que ela criou tem dono |
 | `05-material/gerador-ficha/` | o gerador da ficha (Node: `node make.js`), e os dois `.docx` que ele produz |
 | `conferir-repositorio.py` | a árvore, as referências mortas, os números que moram em mais de um documento, os **ponteiros de seção** — todo `peça N §M` citado tem de apontar para seção que existe, desde a v0.54 —, o **mapa** desta tabela contra a pasta, a **entrega** contra a fonte, a **pendência morta** desde a v0.100 — nenhum item de "Em aberto" pode pedir coisa que já existe —, e, **desde a v0.102**, a **contagem de checagens de cada validador, lida do código** |
 | `99-arquivo/` | material morto, com LEIA-ME próprio. Não leia de lá para escrever peça nova |
@@ -794,6 +796,12 @@ Nenhum validador pega estes — eles vieram de rodar os testes da skill de desig
 
 ## Marcado para o playtest
 
+> ***Decisão do Mizuki na v0.131: a `Torrente` inteira sai da lista de deveres e vai para o beta.*** *A pendência de regra dela fechou; o que sobrou são três perguntas que só a mesa responde, e nenhuma delas é trabalho de documento.* **Não reabra nenhuma das três sem retorno de jogador.**
+
+- **A `Torrente` estourando `50%` incomoda na mesa?** *Ela fecha em `7,52` de um orçamento de `5,00`, com o estouro aceito no precedente da `Brasa`.* **Três coisas seguram ela e nenhuma é preço:** a matriz dá `100%` ação/alvo e zero nas outras três colunas; a rodada de pico custa `44` de PE de um poço de `180`, que é `1,1` luta no dia; e o relógio de `2×` por cena é escolha por rodada. *Se ela pesar, o conserto está medido — mas ele é o orçamento de Trilha, e mexer nele reabre a v0.73 inteira.*
+- **Alguém sente falta da `Vazão` nos níveis 11 e 12?** *Nesses dois ela vale zero: o teto que ela dá é `13` de dano e o `Classe 0` que ela substitui já é `18`.* **A cláusula de piso tirou a armadilha de texto, não deu conteúdo aos dois níveis.** *Só começa a pagar no 13, quando a Classe 4 abre.*
+- **A luta dura mesmo `3,7` rodadas?** *A taxa de `54%` do `Acelerar` sai daí, e ela decide o preço da Trilha inteira.* **Se a luta for mais curta, o `2×` por cena vira taxa maior e a `Torrente` cresce; se for mais longa, ela encolhe sozinha.**
+- **Os `8` dados rerrolados por conjuração da `Cheia` cansam?** *Um `Classe 7` são `21d8`, e a janela de `1` a `3` mexe em `37%` deles.* **É preço de tempo de mesa, declarado, e é a primeira coisa a olhar nesta Trilha.**
 - **A correção da v0.16 passou do ponto?** Essência agora carrega a perícia mais rolada da mesa, o TR Espírito e os Pactos — e vai carregar a Integridade também. O peso está empatado com Inteligência em 39% cada, mas empate na planilha não é empate na mesa.
 - **Apareceu alguém com Constituição 0 ou 1?** Ela é a maior alavanca de sobrevivência do sistema — **+79% contra os +56% da Destreza**, os dois medidos de 1 a 6. *Corrigido na v0.24:* o par que estava escrito aqui era +113% contra +56%, e ele mistura bases — o 113% é de 0 a 6. Na mesma base a Constituição está na frente por 1,4×, não por 2×. Continua sendo a pergunta de playtest, com o tamanho certo. Se ninguém a zera, virou obrigatória, e o conserto é uma linha: ela volta a entrar só do segundo nível em diante.
 - **O espalhamento de vida de 3,2× incomoda?** O Evocador de Constituição 0 cai em 1,7 rodadas no nível 30; o Bastião de Constituição 6 aguenta 5,5.
@@ -895,7 +903,7 @@ Quatro peças, e a ordem é de **dependência**, não de tamanho. A ordem que el
 | ~~1~~ | ~~**Invocações**~~ | **fechada na v0.58** (peça 15), com o `conferir-invocacoes.py` e trinta checagens | rotas 6/9 → 6/9 · vagas 0 de 7 |
 | ~~2~~ | ~~**Ferramenta amaldiçoada**~~ | **fechada na v0.59** (peça 16): a máquina e o catálogo saíram na v0.55 e na v0.56, e o `conferir-ferramenta.py` tem **dezesseis** checagens | **rotas 6/9 → 8/9** · vagas 3 de 7 |
 | 1 | **Trilhas** | fecha com as quinze de uma vez, e agora nada mais a trava | toca **100% das fichas** |
-| 2 | **Objeto amaldiçoado** | a conta o pôs por último | rotas 6/9 → 6/9 · **vagas 1 de 7** |
+| ~~2~~ | ~~**Objeto amaldiçoado**~~ | **fechada na v0.132** (peça 21), com o `conferir-objeto.py` e doze checagens | rotas 8/9 → 8/9 · **fechou a vaga de `Desliga` do Reencarnado** |
 
 > **✔ A DUAS RESPOSTAS ACABOU NA v0.103.** *Esta fila dizia `Trilhas`; a peça 16 §9 dizia que a `Técnica Marcial` **é a peça seguinte**.* ***Decisão do Mizuki: são as três Trilhas do Evocador** — `Servo`, `Matilha` e `Coro`.* **A peça 16 foi corrigida junto**, e ela deixou de nomear a Técnica Marcial como a seguinte.
 >

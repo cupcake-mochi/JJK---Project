@@ -52,7 +52,7 @@ def ler(caminho):
 NIVEIS_DE_TRILHA = ['2', '11', '19', '27']
 PALAVRA_DE_PERMANENCIA = 'sempre'
 PALAVRAS_DE_GATE = ['quando', 'se o ', 'se a ', 'se voce', 'se você', 'condicional']
-PECAS_ESPERADAS = 20   # 19 ate a v0.121; a peca 20 e o conferir-marcial.py entraram na v0.122
+PECAS_ESPERADAS = 21   # 19 ate a v0.121; a peca 20 entrou na v0.122 e a 21 na v0.132
 
 PECA  = ler(os.path.join(AQUI, '17-catalogo-de-entregas.md'))
 TRI   = ler(os.path.join(RAIZ, 'DESENHO-trilhas.md')).split('\n')

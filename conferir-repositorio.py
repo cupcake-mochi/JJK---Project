@@ -117,17 +117,32 @@ for caminho, tipo in ESPERADO:
 # README, senao esta checagem vira mais uma copia para sair de sincronia — que e
 # exatamente o defeito que a checagem 4 do conferir-manual.py existe para pegar.
 # Ela ja saiu uma vez, quando o oitavo validador entrou e o "sete" ficou no codigo.
-NUMERO = {'uma': 1, 'duas': 2, 'tres': 3, 'quatro': 4, 'cinco': 5, 'seis': 6,
-          'sete': 7, 'oito': 8, 'nove': 9, 'dez': 10, 'onze': 11, 'doze': 12,
-          'treze': 13, 'catorze': 14, 'quinze': 15, 'dezesseis': 16,
-          'dezessete': 17, 'dezoito': 18, 'dezenove': 19, 'vinte': 20}
+NUMERO = {'uma': 1, 'um': 1, 'duas': 2, 'dois': 2, 'tres': 3, 'quatro': 4,
+          'cinco': 5, 'seis': 6, 'sete': 7, 'oito': 8, 'nove': 9, 'dez': 10,
+          'onze': 11, 'doze': 12, 'treze': 13, 'catorze': 14, 'quinze': 15,
+          'dezesseis': 16, 'dezessete': 17, 'dezoito': 18, 'dezenove': 19,
+          'vinte': 20, 'trinta': 30}
 
 
 def por_extenso(palavra):
-    chave = (palavra.lower()
+    """Le numero por extenso, inclusive COMPOSTO ("vinte e uma" = 21).
+
+    v0.132: ate aqui ele lia uma palavra so, e o mapa parava no vinte — entao a
+    peca 21 fazia as tres checagens de contagem dizerem "nao achei a linha", que
+    e' o jeito mais silencioso de uma checagem morrer: ela reprova por nao ter
+    encontrado o que medir, e nao por ter medido e discordado.
+    """
+    chave = (palavra.lower().strip()
              .replace('ê', 'e').replace('é', 'e').replace('ó', 'o')
              .replace('á', 'a').replace('ã', 'a').replace('í', 'i'))
-    return NUMERO.get(chave)
+    if chave in NUMERO:
+        return NUMERO[chave]
+    partes = [t for t in chave.split() if t != 'e']
+    if len(partes) == 2 and all(t in NUMERO for t in partes):
+        dez, un = NUMERO[partes[0]], NUMERO[partes[1]]
+        if dez % 10 == 0 and dez >= 20 and 1 <= un <= 9:
+            return dez + un
+    return None
 
 
 MEC = os.path.join(RAIZ, 'sistema', '03-mecanica')
@@ -136,7 +151,7 @@ vals = sorted(f for f in os.listdir(MEC) if f.startswith('conferir-') and f.ends
 print(f'\n  {len(pecas)} pecas de regra, {len(vals)} validadores.')
 
 readme = open(os.path.join(RAIZ, 'README.md'), encoding='utf-8').read()
-m = re.search(r'\*\*(\S+) peças de regra\*\* e \*\*(\S+) validadores', readme)
+m = re.search(r'\*\*([A-Za-zÀ-ÿ]+(?: e [A-Za-zÀ-ÿ]+)?) peças de regra\*\* e \*\*([A-Za-zÀ-ÿ]+(?: e [A-Za-zÀ-ÿ]+)?) validadores', readme)
 if not m:
     erro('nao achei no README a linha que conta as pecas e os validadores — se ela '
          'mudou de forma, esta checagem parou de conferir e precisa ser reescrita')
@@ -364,9 +379,9 @@ confere(
 print()
 for arq, rx, oque in (
     ('sistema/ESTADO-ATUAL.md',
-     r'\*\*(\S+) peças escritas\*\* e \*\*(\S+) validadores\*\*', 'a linha de abertura'),
+     r'\*\*([A-Za-zÀ-ÿ]+(?: e [A-Za-zÀ-ÿ]+)?) peças escritas\*\* e \*\*([A-Za-zÀ-ÿ]+(?: e [A-Za-zÀ-ÿ]+)?) validadores\*\*', 'a linha de abertura'),
     ('sistema/LEIA-ME.md',
-     r'\*\*(\S+) peças escritas e (\S+) validadores passando\*\*', 'a secao "Versao atual"'),
+     r'\*\*([A-Za-zÀ-ÿ]+(?: e [A-Za-zÀ-ÿ]+)?) peças escritas e ([A-Za-zÀ-ÿ]+(?: e [A-Za-zÀ-ÿ]+)?) validadores passando\*\*', 'a secao "Versao atual"'),
 ):
     m = re.search(rx, ler(arq))
     if not m:
@@ -732,8 +747,8 @@ else:
     _entrega_confere('a versao do manual', r'\*\*v(\d+\.\d+)\*\*',
                      'manual/gerador/COMO-USAR.txt',
                      r'GERADOR DO MANUAL — Fundamento v(\d+\.\d+)')
-    _entrega_confere('a contagem de pecas', r'as \*\*(\w+) peças\*\* de mecânica',
-                     'README.md', r'\*\*(\S+) peças de regra\*\*', extenso=True)
+    _entrega_confere('a contagem de pecas', r'as \*\*([A-Za-zÀ-ÿ]+(?: e [A-Za-zÀ-ÿ]+)?) peças\*\* de mecânica',
+                     'README.md', r'\*\*([A-Za-zÀ-ÿ]+(?: e [A-Za-zÀ-ÿ]+)?) peças de regra\*\*', extenso=True)
     _entrega_confere('a contagem de condicoes', r'as (\w+) condições',
                      'sistema/03-mecanica/'
                      + next(p for p in pecas if 'condicoes' in p),

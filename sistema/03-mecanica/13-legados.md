@@ -679,15 +679,17 @@ As duas dão **vantagem em Teste de Resistência**, e é o mesmo número. A dife
 
 **Enterrado é acesso puro**, no molde do *Sobrenome*: zero no dado, e o jogador puxa quando quer buscar. *E ele tem a mesma dependência que a **Armaria** do Descendente:* se o que está enterrado for ferramenta amaldiçoada, **a peça de equipamento decide o que isso vale** — hoje funciona como ficção e acesso, e esta entrada é das primeiras a reler quando a peça 2 da fila sair.
 
-#### As duas vagas de Desliga, e por que só uma fechou
+#### As duas vagas de Desliga, e as duas fecharam
 
 **Desliga**
 
 | Legado | apaga | relógio |
 |---|---|---|
-| *— vaga reservada —* | **espera a peça de objeto amaldiçoado** | — |
+| **Conhecido** | ser puxado pela atração de um objeto amaldiçoado | sempre |
 | **Usado** | ficar `Derrubado` | por cena |
 
+> **Conhecido** — maldição que um objeto amaldiçoado puxou **não vem atrás de você**. Você já foi um: para ela, você é parte do lugar, e não o que ela veio buscar. *Em troca, a atração também não te avisa — o aperto que faz todo mundo do grupo olhar em volta quando tem objeto sem selo por perto não chega em você, e você entra sem perceber.*
+>
 > **Usado** — este corpo já esteve em estado muito pior que este, e levantou: uma vez por cena, você **não fica `Derrubado`**. *Em troca, ele cobra depois — o mestre diz uma coisa pequena que o seu corpo passa a fazer errado até o fim da cena, e ela é sua e não dele.*
 
 
@@ -698,11 +700,15 @@ Sobrou **um** alvo legal no sistema inteiro pela enumeração da seção 8 — *
 
 > **Com a cota de dois, o alvo livre deixou de ser prêmio de quem chegou primeiro e virou decisão de encaixe.** Ele fica **reservado para o Corpo Amaldiçoado**, que é a lista seguinte — e a decisão custa alguma coisa lá, porque é a Origem que tem direito a ele pela ficção.
 
-**As duas vagas do Reencarnado esperam peças diferentes, de propósito.** Uma é **objeto amaldiçoado**, e a peça 9 escreve a dependência sem rodeio: o Kashimo *"aceitou virar **objeto amaldiçoado** e encarnar num corpo que o Kenjaku preparou"*. **A Origem inteira é a mecânica de objeto amaldiçoado vista de dentro.** A outra é a peça de dano e condições: o corpo emprestado é a ficção que mais pede efeito nomeado, e três Ajusta desta lista já disputam esse território.
+**As duas vagas do Reencarnado esperavam peças diferentes, de propósito, e as duas chegaram.** Uma era **objeto amaldiçoado**, e a peça 9 escrevia a dependência sem rodeio: o Kashimo *"aceitou virar **objeto amaldiçoado** e encarnar num corpo que o Kenjaku preparou"*. **A Origem inteira é a mecânica de objeto amaldiçoado vista de dentro.** A outra era a peça de dano e condições, e ela virou o `Usado` na v0.104.
 
-> **Esta vaga dizia "espera a peça de equipamento", e o *Enterrado* foi a pista falsa.** *Corrigido na v0.49.* Aquele Destranca diz *"você guardou uma coisa antes de morrer"* — e **a coisa não é necessariamente uma arma**, então ele nunca dependeu de equipamento. O que ele pede é objeto com regra, e objeto amaldiçoado **não tem peça dona em lugar nenhum do projeto**.
+> **Esta vaga dizia "espera a peça de equipamento", e o *Enterrado* foi a pista falsa.** *Corrigido na v0.49.* Aquele Destranca diz *"você guardou uma coisa antes de morrer"* — e **a coisa não é necessariamente uma arma**, então ele nunca dependeu de equipamento. O que ele pedia era objeto com regra, e **objeto amaldiçoado virou a peça 21 na v0.132.**
 
-**A lista fecha em nove escritos: quatro Destranca · quatro Ajusta · um Desliga escrito e um reservado.** Dominância dentro da lista: nenhuma — os quatro Destranca compram um segredo de antes, um credor, uma pessoa enganada e um objeto parado, e nenhum contém outro.
+**`Conhecido` apaga uma coisa nomeada, e ela é da peça 21 §4: a atração.** *A regra dela mora lá e não é repetida aqui.* **O que interessa a esta peça é que ninguém compra a atração** — ela não sai de tabela de preço nenhuma, é o que o mundo faz com quem carrega um objeto —, e por isso ela passa na trava do `Desliga`. *A troca está no próprio texto, como o formato exige, e ela é o espelho do benefício:* quem a atração não alcança também não é avisado por ela.
+
+> **O par que quase colide, e fica anotado.** *A `Máscara` do Receptáculo mexe em **ser sentido pelo que você é**; a `Coleira` do Descendente, em **ser localizado por técnica**.* **A atração não é nenhuma das duas** — ela não lê ninguém, não procura ninguém e não é técnica. *Se alguma das três for reescrita, é este o trio a reconferir.*
+
+**A lista fecha em dez escritos: quatro Destranca · quatro Ajusta · dois Desliga.** Dominância dentro da lista: nenhuma — os quatro Destranca compram um segredo de antes, um credor, uma pessoa enganada e um objeto parado, e nenhum contém outro.
 
 ### Corpo Amaldiçoado — *você não é uma pessoa; é uma coisa que alguém fez e que acordou*
 
@@ -805,13 +811,15 @@ Sobrou **um** alvo legal no sistema inteiro pela enumeração da seção 8 — *
 | Legado | apaga | relógio |
 |---|---|---|
 | **Ferro Velho** | os degraus de exaustão | sempre |
-| *— vaga reservada —* | **espera a peça de Técnica Marcial** | — |
+| *— vaga reservada —* | **destravada pela peça 20, e por escrever** | — |
 
 > **Ferro Velho** — cansaço não é uma coisa que acontece com você: os degraus de exaustão não te alcançam. Você não dorme porque precisa, dorme porque combinaram que era hora. *Em troca, você também não sente quando está perto de quebrar — o seu corpo não avisa antes, ele só para.*
 
-*A vaga espera **Técnica Marcial**, e a peça 9 já dizia isso na linha de criação desta Origem: **"Técnica Marcial — não existe ainda"**. Ela não usa ferramenta amaldiçoada e não é objeto amaldiçoado; o que ela não tem é a economia de poder que substitui o Fundamento nela.*
+*A vaga esperava **Técnica Marcial**, e ela **fechou na v0.122: é a peça 20**. O que falta nela é escrita, e não peça — alvo de `Desliga` é escopo daqui, e a peça 20 §11 registra a vaga em vez de tentar preencher de fora.*
 
-> **Esta vaga dizia "espera a peça de equipamento", e isso vinha de uma dependência de segunda mão.** *Corrigido na v0.49.* Técnica Marcial **estava** bloqueada por equipamento — e essa trava caiu na v0.48, quando a peça 14 fechou. **A vaga não esperava a peça que ela nomeava: esperava a peça que aquela destravava.** Agora ela nomeia a certa, e a certa é a próxima da fila.
+> **⚠ Esta vaga passou dez versões dizendo que esperava, e a peça que ela esperava já existia.** *Ela dizia "espera a peça de Técnica Marcial" e citava a peça 9 dizendo **"Técnica Marcial — não existe ainda"** — frase que aquela peça não escreve mais desde a v0.122, quando as linhas 179 e 203 passaram a dizer "peça 20, fechada na v0.122".* **Duas cópias de um estado do projeto, e a de fora envelheceu.** *Consertado na v0.132, junto com as outras três pontas do mesmo assunto neste arquivo.*
+>
+> **Antes disso ela dizia "espera a peça de equipamento", e isso vinha de uma dependência de segunda mão.** *Corrigido na v0.49.* Técnica Marcial **estava** bloqueada por equipamento — e essa trava caiu na v0.48, quando a peça 14 fechou. **A vaga não esperava a peça que ela nomeava: esperava a peça que aquela destravava.**
 
 #### As quatro configurações, e por que o Ajusta desta Origem é gatilhado
 
@@ -1096,15 +1104,15 @@ Quem não tem técnica não tem o que esconder. **Todo o resto funciona**, porqu
 | Latente | 4 | 4 | 2 | — | **10** |
 | Receptáculo | 4 | 4 | 2 | — | **10** |
 | Descendente | 5 | 4 | 2 | — | **11** |
-| Reencarnado | 4 | 4 | 1 | 1 | **9** |
+| Reencarnado | 4 | 4 | **2** | — | **10** |
 | Corpo Amaldiçoado | 4 | **12** | 1 | 1 | **17** |
 | Feto | 4 | 4 | 2 | — | **10** |
 | Restrição Celestial | **8** | **8** | 2 | — | **18** |
-| | **33** | **40** | **12** | **2** | **85** |
+| | **33** | **40** | **13** | **1** | **86** |
 
-**Mais o `Sem Técnica`** — uma entrada só, escrita fora das listas e compartilhada pelas cinco Origens que o aceitam. **Oitenta e seis no total.**
+**Mais o `Sem Técnica`** — uma entrada só, escrita fora das listas e compartilhada pelas cinco Origens que o aceitam. **Oitenta e sete no total.**
 
-**Oitenta e cinco entradas escritas, e duas vagas de Desliga declaradas.** *Eram sete até a v0.104: as cinco que a peça 19 e a peça 16 tinham destravado foram preenchidas, e as duas que sobram esperam peça que ainda não existe — `objeto amaldiçoado` e `Técnica Marcial`.* As duas Origens com sub-escolha — Corpo Amaldiçoado e Restrição Celestial — respondem por **35 delas**, e nas duas o jogador alcança bem menos do que o catálogo tem.
+**Oitenta e seis entradas escritas, e uma vaga de Desliga declarada.** *Eram sete vagas até a v0.104, duas até a v0.131 e uma agora.* **A que sobra é a do Corpo Amaldiçoado, e ela não espera peça nenhuma: a Técnica Marcial fechou na v0.122 e o que falta ali é escrita.** *A do Reencarnado fechou na v0.132, com o `Conhecido`, quando objeto amaldiçoado virou a peça 21.* As duas Origens com sub-escolha — Corpo Amaldiçoado e Restrição Celestial — respondem por **35 delas**, e nas duas o jogador alcança bem menos do que o catálogo tem.
 
 | | o jogador escolhe o segundo Legado entre |
 |---|---|
@@ -1114,17 +1122,15 @@ Quem não tem técnica não tem o que esconder. **Todo o resto funciona**, porqu
 
 *O Corpo Amaldiçoado fechou com **doze** Ajusta — três por configuração —, e o jogador alcança três. É a única Origem com Ajusta gatilhado, e a única que passa de dez entradas: dezessete escritas para quatro alcançáveis como segundo Legado.*
 
-**As sete listas estão escritas.** O que falta para a metade 2 fechar: o **Não Sou Gente** virar Passiva, e as **duas** vagas de Desliga que sobraram, que dependem de peça que ainda não existe. *O validador dos Legados existe desde a v0.39; as outras cinco vagas fecharam na v0.104.*
+**As sete listas estão escritas.** O que falta para a metade 2 fechar: o **Não Sou Gente** virar Passiva, e **uma** vaga de Desliga, a do Corpo Amaldiçoado — e ela não depende de peça nenhuma, porque a Técnica Marcial fechou na v0.122. *O validador dos Legados existe desde a v0.39; cinco vagas fecharam na v0.104 e a sexta na v0.132.*
 
-**O alvo livre acabou.** O *Ferro Velho* gastou os degraus de exaustão, que era o último da enumeração da seção 8 — **daqui para a frente, todo Desliga novo depende de peça nova criar coisa nomeada.** Feto e Restrição Celestial têm um Desliga escrito cada no catálogo antigo e vão entrar já com uma vaga aberta.
+**O alvo livre acabou.** O *Ferro Velho* gastou os degraus de exaustão, que era o último da enumeração da seção 8 — **daqui para a frente, todo Desliga novo depende de peça nova criar coisa nomeada.** *E foi exatamente assim que a vaga do Reencarnado fechou: a peça 21 nomeou a **atração**, e o `Conhecido` desliga ela.*
 
-**Só o Latente fecha a cota de Desliga hoje, e ele é o único que tinha dois alvos.** As outras três carregam vaga declarada — quatro no total, contra **um** alvo livre no sistema inteiro, que já está reservado para o Corpo Amaldiçoado. **A dívida de alvo é a conta desta régua, e ela é visível de propósito.**
+**Seis das sete Origens fecham a cota de dois hoje.** A que falta é o Corpo Amaldiçoado, e o que segura a vaga dele não é peça: é a decisão de qual coisa nomeada da Técnica Marcial vale a pena desligar. **A dívida de alvo é a conta desta régua, e ela é visível de propósito.**
 
 O Descendente leva cinco Destranca porque contém quatro clãs por dentro; o resto varia porque **o suprimento de alvo é estreito por construção**, e não porque alguma lista foi escrita com menos cuidado. *Uma Origem que fechasse em dez por ter dez seria a única prova de que a régua não está sendo aplicada.*
 
 > ~~**Quando equipamento fechar, a primeira coisa a fazer é voltar aqui**~~ — quatro vagas, e três delas esperavam essa peça ou a de dano e condições. **As duas peças existem: equipamento é a 14 desde a v0.48 e dano e condições é a 19 desde a v0.103, e ninguém voltou aqui em nenhuma das duas vezes.** *Decisão registrada não é decisão aplicada, duas vezes seguidas.*
-
-*Faltam três listas: Feto, Corpo Amaldiçoado e Restrição Celestial.*
 
 ## 10. O que fica para a outra metade
 
@@ -1133,7 +1139,7 @@ O catálogo, e as decisões de sabor que vêm com ele:
 - ~~**As três listas que faltam**~~ — **as sete fecharam na v0.38**, 81 entradas escritas.
 - ~~**Os três relógios fora da escada**~~ — **descidos**: *Aprendi Apanhando* e *A Voz de Dentro* para por dia, *O Que Ninguém Lembra* para por descanso longo.
 - ~~**O piso do Irmãos**~~ — **resolvido na lista do Feto**, pelo canon: a irmandade é definida por quem te fez, e o gatilho virou o jogador apontar alguém e dizer que é irmão.
-- **Sobraram DUAS vagas de Desliga.** *Eram sete.* **Uma continua esperando peça que não existe: `objeto amaldiçoado`, no Reencarnado.** ***E a outra DESTRAVOU na v0.122*** — *ela esperava a **Técnica Marcial**, no Corpo Amaldiçoado, e a Técnica Marcial é a peça 20.* **O que falta nela é escrita, e não peça:** alvo de `Desliga` é escopo daqui, e a peça 20 §11 registra a vaga em vez de tentar preencher de fora. **As cinco destravadas foram escritas na v0.104** — três que esperavam a peça 19 e duas que esperavam a peça 16 —, e todas as cinco só couberam porque a trava do `Desliga` foi relaxada na mesma versão: *ele passou a poder apagar condição uma vez, com o relógio saindo do nível dela.* *Reclassificadas na v0.49: as quatro que diziam "equipamento" nomeavam a peça errada, e nenhuma delas abriu quando aquela peça fechou.*
+- **Sobrou UMA vaga de Desliga.** *Eram sete.* **Ela é a do Corpo Amaldiçoado, e o que falta nela é escrita e não peça** — *a que ela aguardava fechou na v0.122 e é a peça 20.* **Alvo de `Desliga` é escopo daqui**, e a peça 20 §11 registra a vaga em vez de tentar preencher de fora. **A do Reencarnado fechou na v0.132**, com o `Conhecido`, quando objeto amaldiçoado virou a peça 21 e nomeou a atração. **As cinco destravadas foram escritas na v0.104** — três que esperavam a peça 19 e duas que esperavam a peça 16 —, e todas as cinco só couberam porque a trava do `Desliga` foi relaxada na mesma versão: *ele passou a poder apagar condição uma vez, com o relógio saindo do nível dela.* *Reclassificadas na v0.49: as quatro que diziam "equipamento" nomeavam a peça errada, e nenhuma delas abriu quando aquela peça fechou.*
 
   > **⚠ E as outras DUAS já destravaram, e ninguém voltou.** *Elas esperavam `ferramenta amaldiçoada`, que virou a peça 16 na v0.59 — a `Armaria` do Descendente e a Restrição Celestial.* **A peça 16 §9 registra que destrava as duas; esta peça continuava dizendo que elas esperam.** *Achado na v0.100, e a linha da tabela de cada uma continua dizendo `espera a peça de ferramenta amaldiçoada` — escrever as duas é trabalho, não conserto de texto.*
 - **O `Inédito` precisa da linha que o fecha para Sem Técnica** — é a única das 81 entradas que pressupõe técnica própria.
