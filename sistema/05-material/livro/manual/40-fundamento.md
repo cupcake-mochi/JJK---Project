@@ -1109,7 +1109,7 @@ Só a completa levanta barreira. Por dentro ela **não quebra**: quem está lá 
 *O mestre pode declarar que uma barreira cede fora dessa conta*: três domínios se atravessando, uma fraqueza que a ficção já estabeleceu, uma cena que pede. É exceção declarada, e não a régua.
 
 > **Rescaldo**
-> **Quando o domínio acaba, de qualquer jeito, a sua técnica queima.** Você desfez por vontade, o tempo correu, ou estilhaçaram a barreira: dá no mesmo.
+> **Quando o domínio acaba, de qualquer jeito, a sua técnica queima.** Vale igual nos três casos: você desfez por vontade, o tempo correu, ou estilhaçaram a barreira.
 > Pelo resto da cena a sua técnica não responde, e você fica com o Classe 0, com o corpo e com o que não for técnica.
 > Isso é **preço**: acontece em todo uso, e você já sabia disso quando abriu. É o que impede o domínio de ser mais uma linha da rotação.
 > Rescaldo e a exaustão do descanso não somam: são escadas diferentes, e esta aqui tem um degrau só.

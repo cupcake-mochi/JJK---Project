@@ -436,6 +436,92 @@ if _sec:
     else:
         print('  A isencao do requisito de Forca esta escrita.')
 
+# --------------------------------------------------- 12. TREINO POR CAMINHO
+bloco('12. TREINO POR CAMINHO — quem alcanca qual balde, lido da peca 6')
+#
+# Entrou na v0.130. A regra existia desde a v0.106 e morava SO no PDF do livro,
+# que e' artefato: a peca 14 SS5.4 ja dizia que o eixo de acesso e' o Caminho, e
+# QUAL Caminho pega o que nao estava escrito em peca nenhuma.
+#
+# NADA e' guardado aqui: os nomes de Caminho saem da peca 6 SS1, a tabela de
+# treino sai da peca 6 SS8.0, e cada categoria nomeada e' conferida contra a
+# peca 14, que e' a dona do catalogo.
+#
+# AS DUAS METADES, conferidas separadas (licao no 8):
+#   a) toda categoria nomeada EXISTE na peca 14
+#   b) os CINCO Caminhos aparecem na tabela
+# So a (a) sairia verde com um Caminho faltando; so a (b) sairia verde com uma
+# categoria inventada.
+P6 = ler('06-caminhos-e-trilhas.md')
+CAMINHOS_5 = ['Bastião', 'Vanguarda', 'Guia', 'Emanador', 'Evocador']
+
+try:
+    _s8 = P6[P6.index('### 8.0 Qual Caminho treina'):P6.index('### 8.1')]
+except ValueError:
+    _s8 = ''
+    erro('PECA 6 SS8.0: a secao de treino por Caminho sumiu — esta checagem parou de conferir')
+
+if _s8:
+    _linhas = [l for l in _s8.splitlines()
+               if l.startswith('|') and '---' not in l and 'treina' not in l]
+    if not _linhas:
+        erro('PECA 6 SS8.0: a tabela de treino sumiu da secao — extrator sem nada para ler')
+
+    _vistos, _cats = [], []
+    for _l in _linhas:
+        _c = [x.strip() for x in _l.strip().strip('|').split('|')]
+        if len(_c) < 3:
+            continue
+        _quem = [x for x in CAMINHOS_5 if x in _c[0]]
+        _vistos += _quem
+        # categoria nomeada = o que vem entre crases na ultima coluna
+        _n = re.findall(r'`([^`]+)`', _c[2])
+        _cats += _n
+        _quanto = 'as treze' if 'treze' in _c[1] else (', '.join(_n) or _c[1])
+        print(f'  {" · ".join(_quem):<24} {_quanto}')
+
+    # (a) toda categoria nomeada existe na peca 14
+    for _n in sorted(set(_cats)):
+        if _n not in EQ:
+            erro(f'PECA 6 SS8.0: o treino cita a categoria "{_n}", que nao existe na peca 14')
+    if _cats:
+        print(f'  {len(set(_cats))} categoria(s) nomeada(s), todas conferidas contra a peca 14.')
+
+    # (b) os cinco estao cobertos
+    _faltam = [c for c in CAMINHOS_5 if c not in _vistos]
+    if _faltam:
+        erro(f'PECA 6 SS8.0: {", ".join(_faltam)} nao aparece na tabela de treino — '
+             'Caminho sem balde declarado e o buraco que esta secao existe para fechar')
+    else:
+        print(f'  Os {len(CAMINHOS_5)} Caminhos aparecem na tabela.')
+
+    # a porta da Trilha, senao o conjurador fica trancado fora do marcial
+    if 'Empunhadura' not in _s8:
+        erro('PECA 6 SS8.0: a porta da Trilha nao esta escrita — sem ela o conjurador '
+             'que quer arma marcial nao tem rota nenhuma')
+    else:
+        print('  A porta da Trilha (`Empunhadura` do `Arremate`) esta escrita.')
+
+    # o livro e COPIA desta regra, e copia sem comparacao diverge (licao no 9)
+    _LIVRO = os.path.join(AQUI, '..', '05-material', 'livro', 'manual',
+                          '35-caminhos-e-trilhas.md')
+    if os.path.exists(_LIVRO):
+        # compara SEM crase: a peca marca categoria com `` e o livro nem sempre.
+        # A regra e' a mesma; a notacao e' que difere, e comparar literal daria
+        # falso positivo — foi o que aconteceu ao escrever esta checagem.
+        _lv = re.sub(r'`', '', open(_LIVRO, encoding='utf-8').read())
+        _bateu = 0
+        for _frase, _que in (('treinam as treze categorias', 'os dois marciais'),
+                             ('treinam Arma de Fogo e Balestra', 'os tres conjuradores')):
+            if _frase in _lv:
+                _bateu += 1
+            else:
+                erro(f'LIVRO cap. 8: a linha de treino de {_que} nao bate com a peca 6 SS8.0')
+        if _bateu == 2:
+            print('  O livro repete a mesma regra, conferido nas duas linhas.')
+    else:
+        aviso('nao achei o capitulo 8 do livro — a copia dele nao foi conferida')
+
 # ------------------------------------------------------------------- VEREDITO
 print('\n' + '=' * 88)
 for a in AVISOS: print(f'  aviso: {a}')

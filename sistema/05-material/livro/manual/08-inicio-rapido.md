@@ -82,7 +82,7 @@ dado, soma 2, fica com 13. A maldição, mais rápida, tira 16 com Destreza 3: a
 **2 — O turno da maldição.** Ela avança e ataca: `d20 + 3` contra a Defesa 13 de Kaori. Sai
 17: acertou. `1d6 + 2` de dano: sai 5. **Kaori pode gastar a Reação `Corpo Duro` agora.**
 Ela gasta um dos dois usos: reduz `2 + 1d6`, tira 4 no d6, reduz 6. O dano de 5 cai para
-zero. *Isto é o `Corpo Duro` funcionando: ele não evita o golpe, evita o estrago dele.*
+zero. *O `Corpo Duro` reduz o dano depois que o golpe já acertou; ele não faz o inimigo errar.*
 
 **3 — O turno de Kaori.** Três escolhas fazem sentido:
 

@@ -160,7 +160,7 @@ Ela é a porta de toda técnica de contato. Sem ela, tudo o que a sua ficha faz 
 
 ## Energia crua
 
-Duas aptidões que trabalham com a energia sem forma: uma joga fora, a outra vira do avesso.
+Duas aptidões trabalham com a energia sem forma. Uma dispara ela crua, a outra inverte o sinal dela.
 
 ### Projetar energia
 
@@ -321,7 +321,7 @@ A duração é um teto. Segurar as dez rodadas no refino 10 custa 110 de PE, e q
 
 Barreira é ofício à parte. Ela não sai do Fundamento de ninguém, se aprende estudando, e o feiticeiro que sabe levantar uma boa é procurado por isso.
 
-> **As duas levam um minuto para levantar**, e um minuto são dez rodadas. As duas são ferramenta de preparação: elas nascem antes da briga, ou não nascem.
+> **As duas levam um minuto para levantar**, e um minuto são dez rodadas. As duas são ferramenta de preparação, e se levantam antes da briga começar.
 
 ### Barreira Simples
 

@@ -63,9 +63,10 @@ A seção inteira, menos os dois pedaços movidos acima.
 | `PvP` | o corte de um terço no dano de feitiço em duelo | **Livro do mestre**, ou regra opcional no apêndice. É regra de verdade, não argumento |
 | `A curva` | dano por faixa de nível, comparando Rotina, feitiço, Liberação e Técnica Máxima | **Repo-fonte.** É prova de balanceamento |
 
-> ⚠ **`PvP` é o único item desta lista que é regra aplicável, não arbitragem.** Se a guilda
-> joga PvP, ela precisa desse número em algum lugar. Decidir se ele volta como apêndice
-> opcional (junto do `Bloquear`) ou se vai para o livro do mestre.
+> ✔ **`PvP` — decidido na v0.130, e ele vai para o livro do mestre.** *Decisão do Mizuki.*
+> **Ele é o único item desta lista que é regra aplicável e não arbitragem**, e continua sendo:
+> se a guilda jogar PvP antes de o livro do mestre existir, o número não está em lugar nenhum
+> que o jogador alcance. **O custo está aceito e declarado.**
 
 ### `O orçamento` — cap. 11 *Equipamento* · 310 palavras
 
@@ -222,9 +223,9 @@ Sobraram 4 tabelas de duas linhas, todas contraste de dois itens. O livro foi de
 
 ## 5 · Antes de commitar
 
-- [ ] Conferir as duas inferências sobre treino de arma (Guia, e Arma de Fogo para os marciais)
-- [ ] Decidir onde o `PvP` vai morar — apêndice opcional ou livro do mestre
-- [ ] Levar a regra de treino de arma por Caminho para o repo-fonte, com validador
+- [x] ~~Conferir as duas inferências sobre treino de arma~~ **as duas confirmadas pelo Mizuki na v0.130**
+- [x] ~~Decidir onde o `PvP` vai morar~~ **livro do mestre, v0.130**
+- [x] ~~Levar a regra de treino de arma por Caminho para o repo-fonte, com validador~~ **peça 6 §8.0 e checagem 12 do `conferir-equipamento.py`, v0.130**
 - [ ] O `Para o mestre` do cap. 9 está preservado em `sistema/03-mecanica/11-aptidoes-e-refino.md`
       e `manual/Fundamento-MANUAL-v7.docx` do repositório de trabalho — conferir antes de considerar perdido
 - [x] ~~As correções da rodada anterior (regra 5 das Regras de ouro ganhando *"Classe 3 ou

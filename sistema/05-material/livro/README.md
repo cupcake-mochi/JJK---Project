@@ -68,9 +68,10 @@ de material de mestre, e um quick-start jogável escrito direto no PDF — o mol
 decidiu, agora com texto de verdade dentro dele.
 
 **Ainda em aberto**, e registrado em `REMOCOES-material-de-mestre.md`:
-- o `PvP` cortado do capítulo 9 precisa de um lugar — apêndice opcional ou livro do mestre
-- treino de arma por Caminho foi escrito pela primeira vez aqui, e ainda não tem validador
-  nem existe em `sistema/03-mecanica/`
+- ~~o `PvP` cortado do capítulo 9 precisa de um lugar~~ **livro do mestre, decidido na v0.130**
+- ~~treino de arma por Caminho foi escrito pela primeira vez aqui, e ainda não tem validador~~
+  **foi para a peça 6 §8.0 na v0.130, com a checagem 12 do `conferir-equipamento.py` comparando
+  a peça contra este livro**
 - ~~duas divergências achadas no caminho, que são bug do sistema e não do livro: a regra 5
   das Regras de ouro do Fundamento, e a tabela de Classe Passiva 3 do capítulo de Aptidões~~
   **as duas fecharam na v0.107, do lado da fonte** — o texto do livro já estava certo

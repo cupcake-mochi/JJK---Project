@@ -26,7 +26,7 @@ Cada Caminho entrega quatro degraus, e eles chegam sempre nos mesmos níveis. A 
 
 ### Vida e energia
 
-Cada Caminho tem o próprio número de vida por nível e o próprio número de PE por nível, e os dois correm em sentidos contrários: quem tem mais couro tem menos combustível.
+Cada Caminho tem o próprio número de vida por nível e o próprio número de PE por nível, e os dois correm em sentidos contrários: quem tem mais vida por nível tem menos PE por nível.
 
 **Vida e energia por Caminho**
 {: .tab-titulo }

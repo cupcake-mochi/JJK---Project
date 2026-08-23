@@ -4,7 +4,7 @@ Atualizado em 22/08/2026, na v0.130 (última peça fechada: **Dano e condições
 
 **Versão v0.130.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte peças escritas** e **vinte validadores**.
 
-***DECISÃO ABERTA, e ela é do Mizuki: qual das três diagramações do livro fica.*** *As três estão no disco, em `05-material/livro/`, para comparar.*
+***Decisão do Mizuki na v0.130: as DUAS variantes ficam, e o `--duas` continua sendo opção do `build.py`.*** *Não é pendência — é escolha declarada. O que ela custa está escrito abaixo.*
 
 > | | páginas | o que ela é |
 > |---|---|---|
@@ -14,7 +14,7 @@ Atualizado em 22/08/2026, na v0.130 (última peça fechada: **Dano e condições
 >
 > **A geometria da C foi medida em três manuais do hobby, e não escolhida:** *Guia do Mestre 5e em A4, Caldeirão de Tasha e PHB 2024 — `83%`, `92%` e `92%` das páginas em duas colunas, com corpo entre `9,1` e `9,3pt`.* **A mancha copiada é a do Guia do Mestre, que é o único dos três em A4.**
 >
-> ***Escolhida a variante, ela vira uma linha do `build.py`*** — o `--duas` deixa de ser opção e vira padrão, ou some. *Enquanto isso o `Projeto-M-Manual-da-Guilda.pdf` continua sendo o de coluna única, e é ele que a entrega carrega.*
+> > **⚠ O preço de manter as duas é procedimento:** *toda mudança de texto obriga rodar os **dois** builds, e a entrega tem de escolher qual das duas publica.* **Hoje ela carrega a de coluna única**, e é essa que vai para `finalizado/livro/`. *Se um dia a escolha fechar, ela vira uma linha do `build.py` e a outra some.*
 >
 > **⚠ E o WeasyPrint 69 não implementa `column-span: all`**, medido com caso mínimo. *Por isso a tabela larga é tirada do fluxo de colunas no `build.py`, em `segmenta_colunas`, e não pelo CSS.*
 
@@ -538,7 +538,7 @@ O `conferir-manual.py` falha se os dois lados divergirem, e a mensagem dele **no
 
 
 1. ~~**Nome do sistema.**~~ **`Projeto - M`, decidido na v0.94.** *Aberto desde a v0.1; era a pendência mais velha que o projeto tinha.*
-2. **Se a perícia livre da Origem devia ser da lista também.** As listas existem desde a v0.22, mas a segunda perícia continua livre com aprovação — é o último lugar da criação em que um número depende de julgamento do mestre.
+2. ~~**Se a perícia livre da Origem devia ser da lista também.**~~ ***FECHADA na v0.130, por decisão do Mizuki: ela fica livre.*** *A segunda perícia da Origem continua vindo da ficção, com o mestre aprovando na leitura — "foi filho de médico, tem Medicina".* **É o único lugar da criação em que um número depende de julgamento, e o custo está aceito e declarado:** dois mestres podem aprovar coisas diferentes. *A troca é a Origem ter espaço de ficção na ficha, e ela vale mais que o fecho do filtro.*
 3. ~~Quantas Trilhas um personagem acumula, e em que níveis.~~ **Fechada na v0.55, na v0.60 e na v0.65:** uma por ficha, entregas em `2 · 11 · 19 · 27`. **A Trilha é fechada — não se pega emprestado das vizinhas —, e nos níveis 11, 19 e 27 dá para TROCAR de Trilha, com troca total.** **O degrau de Caminho mudou na v0.70 e é `2 · 7 · 15 · 30`** — três fatias nos níveis 2, 15 e 30, e o nível 7 de graça porque ele vale o vão `físico − conjurador` e é correção de base.
 
    > **O calendário novo custa vão e seca, e o preço está aceito e medido.** Contra o antigo `7 · 15 · 23 · 29`, o vão máximo entre entregas vai de **5 para 8 níveis** (entre o 19 e o 27) e a seca vai de **24 para 31 missões** (entre os marcos 22 e 26). *Quem carregava as duas métricas era o degrau do nível 23.* **Decisão do Mizuki na v0.71: fica, e o resto do sistema carrega o vão pelas camadas de cima.** O que se compra com ele é identidade de Caminho no nascimento, junto com a Trilha, e um capstone no 30 — o formato do Paladino de 2024, que a auditoria da v0.69 conferiu em `3 · 7 · 15 · 20`.
@@ -754,7 +754,7 @@ Nenhum validador pega estes — eles vieram de rodar os testes da skill de desig
 
 1. ~~**O Legado tem teto de quantidade, não de magnitude.**~~ **Fechado na v0.39, pela peça 13.** *Ficou aberto da v0.24 até lá.* A régua é de **três formatos travados nos próprios termos**, e não escada de preço: `Ajusta` mexe em número e carrega relógio da escada da peça 10, com a largura do gatilho escolhendo o degrau; `Desliga` só apaga o que ninguém comprou; `Destranca` é zero no dado e precisa de gatilho do jogador. **Os quatro que a régua reprovou saíram, cada um com destino escrito:** o *Não Sou Gente* mudou de camada e virou Passiva paga com espaço de feitiço, o *Irmãos* ganhou gatilho do jogador, o *Instinto Bruto* perdeu a metade morta e ficou só contra Intuição — que é Inteligência, e aí é troca de verdade —, e o *Alcance Impossível* morreu por ser técnica, que a peça 9 proíbe Origem de conceder.
 2. ~~**O Guia pode estar dominado pela Vanguarda.**~~ **FECHADO na v0.61, e ficou aberto da v0.20 até lá.** *Reformulado na v0.24*, quando a classificação que faltava foi escrita na peça 6 §3.1 — **Bastião e Vanguarda pelo Caminho; Arremate e Coro pela Trilha; o Guia por nenhuma rota** —, e a dominância virou uma pergunta com número: *o que Elo, Sutura e Perímetro entregam que valha um golpe por rodada?* **A Q3 de Trilhas respondeu: eles valem o vão, e o vão é o degrau de Caminho do nível 7.** O ataque extra saiu do nível 6 para o 7 na mesma versão, e a leitura que destravou tudo foi medir a base — **o conjurador está a −8% da Rotina e o físico a −2%: ninguém está acima, e o ataque extra é correção de base e não bônus.**
-3. **O ofício não passa no filtro do multi-mestre.** "O mestre escolhe o atributo na hora" faz dois mestres cobrarem coisas diferentes pelo mesmo ofício, com até cinco pontos de diferença. Conserto: tabela com o atributo padrão de cada um.
+3. ~~**O ofício não passa no filtro do multi-mestre.**~~ **FECHADO, e ele já estava — o registro é que ficou para trás.** *A peça 7 §5 publica o **atributo padrão de cada um dos onze**, com a perícia irmã ao lado: `Condução` Destreza, `Forja` Força, `Herbalismo` Inteligência, `Instrumento` Essência, e assim por diante.* **O conserto que este item pedia — "tabela com o atributo padrão de cada um" — é literalmente a tabela que está lá.** *Achado na v0.130, varrendo a fila: décimo primeiro caso de decisão aplicada e não desregistrada neste projeto.* **O mestre continua podendo mudar o atributo quando a situação pedir; o que ele não precisa mais é decidir do zero.**
 4. ~~**A escolha de refino no marco paga mal, e três marcos pagam zero.**~~ **FECHADO na v0.89, e ficou escrito como aberto até a v0.98.** *Entrou na v0.41.* *Achado pelo Mizuki na passada de Equipamento, e a conta confirmou pior do que o palpite.* O refino **passivo chega a 8** sem escolha nenhuma; sete escolhas de marco compram **+2**, e o teto 10 é alcançado no **nv22**. Do nv22 em diante a escolha *"refino e uma aptidão"* vira **só a aptidão**, enquanto *atributo* e *Leque* continuam valendo cheio — três marcos com um dos três eixos pela metade.
 
    | o que o +2 de refino compra | refino 8, de graça | refino 10, sete escolhas |
@@ -866,7 +866,7 @@ Quatro peças, e a ordem é de **dependência**, não de tamanho. A ordem que el
 | # | peça | destrava | depende de |
 |---|---|---|---|
 | ~~1~~ | ~~**Legados** — a régua de magnitude, e ~5 por Origem~~ | **fechada na v0.39** (peça 13): régua, catálogo de **81 entradas** e o `conferir-legados.py` | — |
-| ~~2~~ | ~~**Equipamento** — armas, escudos, uniformes~~ | **fechada na v0.48** (peça 14): as 52 armas com orçamento fechado, proteção, escudo, treino e requisito de Força, mais o `conferir-equipamento.py` com onze checagens | — |
+| ~~2~~ | ~~**Equipamento** — armas, escudos, uniformes~~ | **fechada na v0.48** (peça 14): as 52 armas com orçamento fechado, proteção, escudo, treino e requisito de Força, mais o `conferir-equipamento.py` com doze checagens | — |
 | ~~3~~ | ~~**Invocações** — o sistema de criação~~ | **fechada na v0.58** (peça 15), com o `conferir-invocacoes.py` e trinta checagens | — |
 | 4 | **Caminho, Trilhas e subtrilhas** — a árvore de cada um | o resto | **2 e 3** |
 

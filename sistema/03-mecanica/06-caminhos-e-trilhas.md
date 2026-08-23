@@ -374,6 +374,28 @@ A lista definitiva sai junto com o quadro de perícias completo, que é peça pr
 
 ## 8. Treinamento em equipamento
 
+### 8.0 Qual Caminho treina o quê — fechado na v0.130
+
+***Decisão do Mizuki.*** *Ela foi ditada na revisão do livro, na v0.106, e passou vinte e quatro versões existindo **só no PDF**, que é artefato.* **A peça 14 §5.4.1 já dizia que o eixo de acesso é o Caminho; qual Caminho pega o quê não estava escrito em peça nenhuma.**
+
+| Caminho | treina | quais categorias |
+|---|---|---|
+| **Bastião** · **Vanguarda** | **as treze** | Simples, Marciais e Arma de Fogo |
+| **Guia** · **Emanador** · **Evocador** | **duas** | `Arma de Fogo` e `Balestra` |
+
+> **Para um conjurador empunhar o resto, a porta é a Trilha.** *É o que faz a `Empunhadura` do `Arremate`, no nível 2: ela concede um grupo de arma à escolha e ainda troca Força por Inteligência ou Essência naquele grupo.* **Um Emanador de espadão existe, e paga com a escolha de Trilha.**
+
+**Duas coisas que esta linha decide, e as duas foram confirmadas pelo Mizuki na v0.130:**
+
+- **O Guia fica no lado conjurador.** *Ele é `5` de vida e `5` de PE, meio a meio, e nenhuma das três Trilhas dele — `Elo`, `Sutura`, `Perímetro` — tem conteúdo de arma.*
+- **"As treze" inclui `Arma de Fogo` para Bastião e Vanguarda.** *Com isso a rota `Arma de Fogo` do `Batedor` é **especialização** e não acesso, que é coerente com o texto dela: ela entrega `Ferrolho` e `Mirar`, e nunca treino.*
+
+> **⚠ A `Balestra` é a única categoria Simples que um conjurador pega de graça.** *As outras seis da lista Simples — `Lâmina Curta`, `Porrete`, `Ceifa`, `Arremesso`, `Manopla`, `Massa` — ficam atrás da Trilha para os três.* **A divisão simples/marcial da peça 14 §5.4.1 continua sendo sobre identidade e não sobre poder**, e esta linha não mexe nela: ela diz quem alcança cada balde, e não quanto cada balde entrega.
+
+*A penalidade de quem empunha sem treino é da peça 19 §6: desvantagem na rolagem de ataque, e `−3 m` de deslocamento se faltar o requisito de Força.*
+
+### 8.1 O que ainda não tem número
+
 Confirmado que precisa existir. Três categorias, e cada Caminho concede as suas:
 
 - **Armas:** simples, marciais, de fogo, ferramentas amaldiçoadas

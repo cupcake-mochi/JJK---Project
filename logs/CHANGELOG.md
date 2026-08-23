@@ -56,6 +56,71 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 **O capítulo 8 definia Caminho duas vezes, em linhas seguidas.** *A primeira — "o Caminho diz o seu lugar na equipe" — é a que a tabela e o capítulo 6 usam.* **A segunda era "o Caminho é o jeito que o seu treino pegou: a resposta que o seu corpo dá quando a sala fica perigosa", mais um parágrafo sobre o relatório de missão.** *Cortada.*
 
+### Fechada a fila pequena — sete itens, e dois eram menores do que a lista dizia
+
+*Decisão do Mizuki: fazer nesta conversa os itens `1`, `2`, `3`, `5`, `7` e `8` da fila, mais a varredura de remate.* **As Trilhas do Evocador e o objeto amaldiçoado ficaram para a próxima**, junto com a `Torrente`, que é o único de tamanho imprevisível — ele pode terminar num repreço, e repreço reabre a conta de fatia.
+
+| # | item | como fechou |
+|---|---|---|
+| 1 | qual diagramação fica | ***as DUAS ficam***, e o `--duas` continua sendo opção |
+| 2 | onde o `PvP` mora | ***livro do mestre***, com o custo declarado |
+| 3 | as duas inferências de treino | ***as duas confirmadas*** |
+| 5 | treino de arma no repo-fonte | **peça 6 §8.0 + checagem 12** |
+| 7 | ofício no filtro multi-mestre | **já estava feito** |
+| 8 | perícia livre da Origem | ***fica livre***, com o custo declarado |
+
+### ⚠⚠ O treino de arma passou 24 versões existindo só no PDF
+
+**A peça 14 §5.4 dizia que o eixo de acesso é o Caminho.** *Qual Caminho pega o quê nunca esteve escrito em peça nenhuma — a regra foi ditada pelo Mizuki na revisão do livro da v0.106 e ficou morando no artefato.*
+
+> **Bastião e Vanguarda treinam as treze categorias. Guia, Emanador e Evocador treinam `Arma de Fogo` e `Balestra`.** *Para um conjurador empunhar o resto, a porta é a Trilha — a `Empunhadura` do `Arremate`.*
+
+**Escrita na peça 6 §8.0**, que é a dona do que o Caminho concede, com as duas inferências da v0.106 confirmadas: *o Guia fica no lado conjurador, e "as treze" inclui `Arma de Fogo` para os dois marciais.*
+
+**E a `Balestra` é a única categoria Simples que um conjurador pega de graça** — as outras seis ficam atrás da Trilha. *Declarado na peça, porque é o tipo de assimetria que vira dúvida de mesa.*
+
+### Entrou a checagem 12 do `conferir-equipamento.py`, e ela é de mão dupla
+
+*Nada guardado dentro dela: os Caminhos saem da peça 6, as categorias são conferidas contra a peça 14, e o **livro é comparado contra a peça** — porque cópia sem comparação diverge.*
+
+> **⚠ E a comparação com o livro nasceu com falso positivo meu.** *A peça marca categoria com crase e o livro nem sempre; comparar literal acusou divergência onde a regra era a mesma.* **Consertado normalizando a crase antes de comparar** — e o `print` de sucesso passou a sair só quando as duas linhas batem, em vez de sair antes da conferência.
+
+**Sete perturbações conferidas em cópia isolada**, com a base passando antes de cada uma e o `diff` conferido: *seção apagada, Caminho fora da tabela, categoria inventada, porta da Trilha apagada, tabela apagada com a seção de pé, e o livro divergindo da peça.* **Mais o contra-teste**, mexendo noutro parágrafo da mesma peça: sai verde, e prova que a checagem não é trivialmente verdadeira.
+
+*A contagem foi de `203` para `204` checagens, em `21` validadores.*
+
+### ⚠ O ofício já estava consertado, e ninguém desregistrou
+
+**O problema de design nº 3 pedia "tabela com o atributo padrão de cada ofício".** *A peça 7 §5 publica os onze, com a perícia irmã ao lado: `Condução` Destreza, `Forja` Força, `Herbalismo` Inteligência, `Instrumento` Essência.* **É literalmente a tabela que o item pedia.** *Décimo primeiro caso de decisão aplicada e não desregistrada neste projeto.*
+
+### Decidido — as três que são de sabor
+
+**A diagramação: as duas ficam.** *Não é pendência, é escolha declarada.* **O preço é procedimento:** toda mudança de texto obriga rodar os dois builds, e a entrega escolhe qual publica — hoje a de coluna única.
+
+**O `PvP` vai para o livro do mestre.** *Ele é o único item da lista de remoções que é regra aplicável e não arbitragem, e continua sendo:* **se a guilda jogar PvP antes de o livro do mestre existir, o número não está em lugar nenhum que o jogador alcance.** *Custo aceito e declarado.*
+
+**A perícia livre da Origem fica livre.** *É o único lugar da criação em que um número depende de julgamento do mestre, e a troca é a Origem ter espaço de ficção na ficha.*
+
+### A varredura de remate, e o número não era o defeito
+
+**`51` remates depois de dois-pontos, fora enumeração e fora os que carregam número.** *Ao abrir, `46` são regra — "dois ajudando não dão vantagem duas vezes", "o requisito dela continua valendo".* **O GURPS 4e pratica `49` por mil e o PHB `34`: a forma é normal em manual.**
+
+**Cinco eram remate retórico, e esses foram convertidos:**
+
+| antes | agora |
+|---|---|
+| *"ele não evita o golpe, evita o estrago dele"* | **"reduz o dano depois que o golpe já acertou; ele não faz o inimigo errar"** |
+| *"quem tem mais couro tem menos combustível"* | **"quem tem mais vida por nível tem menos PE por nível"** |
+| *"uma joga fora, a outra vira do avesso"* | **"uma dispara ela crua, a outra inverte o sinal dela"** |
+| *"elas nascem antes da briga, ou não nascem"* | **"se levantam antes da briga começar"** |
+| *"dá no mesmo"* | **"vale igual nos três casos"** |
+
+*O `couro`/`combustível` era o resto da coluna `a troca` que a v0.130 tinha cortado da tabela.*
+
+### O que NÃO mudou
+
+**Nenhum número de regra.** *`guard_numeros.py` nos catorze arquivos mexidos, com a seção `NOTAÇÃO E NÚMERO` isolada: **idêntica nos catorze**, de `33` a `1.078` ocorrências.*
+
 ### O que NÃO mudou
 
 **Nenhum número de regra.** *`guard_numeros.py` nos treze arquivos mexidos, com a seção `NOTAÇÃO E NÚMERO` recortada e conferida separado: **idêntica nos treze**, de `33` a `1.078` ocorrências cada.* **As únicas diferenças são `um`, `uma`, `duas` e `cinco` — artigo indefinido que a conversão mexeu.**
@@ -68,14 +133,14 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 | | v0.129 | v0.130 |
 |---|---|---|
-| palavras do livro | 76.870 | **76.629** |
+| palavras do livro | 76.870 | **76.638** |
 | equações por mil frases | 5,3 | **0,3** — média dos quatro: 0,4 |
 | fórmula `O molde é` / `A fantasia é` | 12 | **0** |
 | coluna única | 248 páginas | **248** |
 | duas colunas | 141 páginas | **141** |
 | `conferir-voz --estrito` | 0 achados · 15 triagens | **0 achados · 15 triagens** |
 
-*Nenhum validador se moveu: continuam `21` validadores e `203` checagens.*
+*A contagem foi de `203` para `204` checagens, em `21` validadores.*
 
 → **Continua em** `sistema/ESTADO-ATUAL.md`. **A decisão de qual das três diagramações fica continua aberta.** *A fila de mecânica não mudou: as três Trilhas do Evocador.*
 
@@ -495,7 +560,7 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 **O `conferir-voz.py --estrito` voltou a `16` trechos de triagem à mão — o número que o livro tinha ANTES da v0.124.** *Eram `21` com os dois capítulos novos dentro.* **Os capítulos novos deixaram de contribuir com prosa marcada**, e o título `O que some` — que caía em duas regras de título de uma vez, artigo e pergunta — virou `Selo e Expansão de Domínio`.
 
-*Nenhum validador se moveu: continuam `21` validadores e `203` checagens.*
+*A contagem foi de `203` para `204` checagens, em `21` validadores.*
 
 → **Continua em** `sistema/ESTADO-ATUAL.md`. **A fila de mecânica não mudou: as três Trilhas do Evocador.** *Da v0.124 continuam abertas a Reação da `cobrir-se` portada, que é decisão da peça 11, e o repreço do `Desarmado`, que é da peça 19.*
 

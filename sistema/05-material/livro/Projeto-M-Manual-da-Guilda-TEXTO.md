@@ -377,7 +377,7 @@ dado, soma 2, fica com 13. A maldição, mais rápida, tira 16 com Destreza 3: a
 **2 — O turno da maldição.** Ela avança e ataca: `d20 + 3` contra a Defesa 13 de Kaori. Sai
 17: acertou. `1d6 + 2` de dano: sai 5. **Kaori pode gastar a Reação `Corpo Duro` agora.**
 Ela gasta um dos dois usos: reduz `2 + 1d6`, tira 4 no d6, reduz 6. O dano de 5 cai para
-zero. *Isto é o `Corpo Duro` funcionando: ele não evita o golpe, evita o estrago dele.*
+zero. *O `Corpo Duro` reduz o dano depois que o golpe já acertou; ele não faz o inimigo errar.*
 
 **3 — O turno de Kaori.** Três escolhas fazem sentido:
 
@@ -2781,7 +2781,7 @@ Cada Caminho entrega quatro degraus, e eles chegam sempre nos mesmos níveis. A 
 
 ### Vida e energia
 
-Cada Caminho tem o próprio número de vida por nível e o próprio número de PE por nível, e os dois correm em sentidos contrários: quem tem mais couro tem menos combustível.
+Cada Caminho tem o próprio número de vida por nível e o próprio número de PE por nível, e os dois correm em sentidos contrários: quem tem mais vida por nível tem menos PE por nível.
 
 **Vida e energia por Caminho**
 | | Bastião | Vanguarda | Guia | Evocador | Emanador |
@@ -4378,7 +4378,7 @@ Só a completa levanta barreira. Por dentro ela **não quebra**: quem está lá 
 *O mestre pode declarar que uma barreira cede fora dessa conta*: três domínios se atravessando, uma fraqueza que a ficção já estabeleceu, uma cena que pede. É exceção declarada, e não a régua.
 
 > **Rescaldo**
-> **Quando o domínio acaba, de qualquer jeito, a sua técnica queima.** Você desfez por vontade, o tempo correu, ou estilhaçaram a barreira: dá no mesmo.
+> **Quando o domínio acaba, de qualquer jeito, a sua técnica queima.** Vale igual nos três casos: você desfez por vontade, o tempo correu, ou estilhaçaram a barreira.
 > Pelo resto da cena a sua técnica não responde, e você fica com o Classe 0, com o corpo e com o que não for técnica.
 > Isso é **preço**: acontece em todo uso, e você já sabia disso quando abriu. É o que impede o domínio de ser mais uma linha da rotação.
 > Rescaldo e a exaustão do descanso não somam: são escadas diferentes, e esta aqui tem um degrau só.
@@ -4911,7 +4911,7 @@ Ela é a porta de toda técnica de contato. Sem ela, tudo o que a sua ficha faz 
 
 ## Energia crua
 
-Duas aptidões que trabalham com a energia sem forma: uma joga fora, a outra vira do avesso.
+Duas aptidões trabalham com a energia sem forma. Uma dispara ela crua, a outra inverte o sinal dela.
 
 ### Projetar energia
 
@@ -5064,7 +5064,7 @@ A duração é um teto. Segurar as dez rodadas no refino 10 custa 110 de PE, e q
 
 Barreira é ofício à parte. Ela não sai do Fundamento de ninguém, se aprende estudando, e o feiticeiro que sabe levantar uma boa é procurado por isso.
 
-> **As duas levam um minuto para levantar**, e um minuto são dez rodadas. As duas são ferramenta de preparação: elas nascem antes da briga, ou não nascem.
+> **As duas levam um minuto para levantar**, e um minuto são dez rodadas. As duas são ferramenta de preparação, e se levantam antes da briga começar.
 
 ### Barreira Simples
 
