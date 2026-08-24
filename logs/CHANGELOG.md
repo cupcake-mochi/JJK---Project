@@ -8,6 +8,95 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.142] — 24/08/2026
+
+**Dois achados do Mizuki lendo a v0.141, e o segundo é um defeito que eu mesmo criei na versão anterior.**
+
+### O `Contragolpe` estava confuso, e a régua decidiu ele sozinha
+
+***"Muda para ser algo BEM SIMPLES, pode até estourar um pouco."*** *Ele deu três relógios possíveis — `1×` por cena, `maestria`× por cena, ou metade da maestria — e mandou escolher em vez de perguntar.*
+
+**A entrega virou `vantagem` na próxima Kata**, no lugar de *"não pode ser evitada por deslocamento"*, que era uma regra de posicionamento escrita dentro de uma Passiva reativa.
+
+**E das três opções de relógio, duas caem por conta:**
+
+| opção | por quê |
+|---|---|
+| metade da maestria | **dá `0` no nível 7**, que é onde a Classe Passiva 2 abre. *A regra de arredondamento do sistema é "para o lado que não te favorece"* |
+| `1×` por cena | **dominado.** *A `Regra Própria` da `Bancada` já compra "uma vez por cena, vantagem no próximo teste" por **Classe Passiva 1**.* Pagar `2` espaços pelo mesmo `1×` é pagar o dobro |
+| **`maestria`× por cena** | **fica.** `1×` até o nível 9, `2×` do 10 ao 16, `3×` do 17 em diante |
+
+*E ela cai exatamente na definição que a tabela do manual dá para a altura:* **`Classe Passiva 2` = "efeito reativo, com limite de uso por cena ou por descanso".**
+
+### A ficção do `Bocado` estava errada, e a obra diz o contrário
+
+***Correção dele:*** *"é mais interessante mudar a narrativa para ser realmente que nem no Toji — é uma maldição que consegue armazenar os itens, ele apenas engole para ocultar dentro do corpo."*
+
+**Fui à fonte, e ele está certo.** *O Toji carrega uma maldição em forma de verme que funciona como inventário; ele comprime ela numa bola e engole **para esconder**, e é isso que o deixa andar armado sem deixar rastro de energia.* **O corpo não é o recipiente — a maldição é, e o corpo só esconde ela.**
+
+**O texto dizia o contrário:** *"o que você carrega fica dentro do seu corpo, e sacar é tirar de si"*. **Nenhuma regra mudou** — o que mudou é de onde a regra vem, e agora a linha `Energia` tem causa em vez de ser arbitrária: *a maldição engolida é que não emana.*
+
+### ⚠ E o aviso do `Bocado` ficou órfão na v0.141, por minha causa
+
+**Quando as sete Passivas entraram, o bloco de aviso sobre Expansão de Domínio não veio junto** — *ele ficou onde estava, que passou a ser **depois do `Aliança`***. **Publicado assim no PDF da v0.141:** *uma caixa dizendo "ela não muda nada" logo abaixo da Passiva que fala de arma nunca ser desarmada.*
+
+> **É a família do ponteiro pendurado, numa forma que eu não tinha visto:** *não é a frase que sobrevive ao bloco que ela anuncia — é o **bloco de nota** que sobrevive à entrada que ele comenta.* **A cura é a mesma, e agora ela nomeia o dono:** *o aviso passou a dizer `Bocado` com todas as letras, em vez de `ela`.*
+>
+> **Nenhum validador alcança isso.** *O `conferir-voz --estrito` saiu em `0` achados com a caixa órfã publicada.*
+
+### E entrou a primeira capa de arte, feita por ele
+
+**Ela é provisória e ele avisou que é** — o rótulo `v0.1` está impresso nela. *Kanji `呪` em pincel, com trilha de circuito saindo dele, sobre couro escuro.* **A capa do build era tipográfica — o `呪` desenhado por CSS —, e ela não morreu:** *a arte virou a página `1` e a tipográfica virou a `2`, porque a segunda carrega o título, o subtítulo, a lista dos 18 capítulos e a nota, e nada disso cabe dentro de uma imagem.*
+
+**Ela vive em `sistema/05-material/livro/arte/Capa-v0.1.jpg`, e o `build.py` só a usa se ela existir** — *sem o arquivo ele avisa e sai sem capa de arte, em vez de quebrar.*
+
+#### A proporção cortou o lado errado, e eu escrevi o motivo errado antes de medir
+
+**A arte é `0,747` e o A4 é `0,707`, então ela é RELATIVAMENTE MAIS LARGA que a página** — *e um `cover` corta pelos **lados**, não por cima.* **Eu tinha escrito "corte de ~5% na vertical" nesta entrada, e estava errado.**
+
+**O que o corte comeu foi o rótulo de versão**, que mora no canto inferior **direito**. *Achado do Mizuki, olhando o PDF: "o `0.1` ficou até quase comido pelo documento".*
+
+**A medida decidiu o conserto sozinha:**
+
+| | |
+|---|---|
+| para virar A4 mantendo a altura | cortar **`95 px`** na horizontal |
+| margem que o `v0.1` tinha à direita | **`65 px`** — *qualquer corte pela direita encosta nele* |
+| onde o kanji estava | centro em `971`, e o da página em `896` — **já `75 px` à direita** |
+
+**Os `95 px` saíram todos da ESQUERDA**, que ali é couro vazio. *O `v0.1` ficou intacto e o kanji **recentralizou** de quebra.* **O arquivo passou a ser `1697×2400`, que é proporção A4 exata — a sangria não corta mais nada.**
+
+#### E sobrava um fio branco de 1 a 2 px na direita
+
+**Achado dele também**, e ele não era da imagem: *medi as colunas de borda do arquivo e elas estão em `21` de brilho, num médio de `43`.* **Era arredondamento do WeasyPrint** — a borda da imagem cai em subpixel e o branco da página aparece por baixo.
+
+*Tentei sangria de `1mm` com a imagem transbordando, e ela **não resolveu**:* **o `overflow: hidden` da seção corta exatamente na borda da página, e o que passa dela é descartado antes de chegar no canvas.** *A última coluna continuou em `226`.*
+
+**O conserto foi trocar de mecanismo: a arte deixou de ser um `<img>` dentro da página e virou o FUNDO dela**, no `@page capa-arte`. *O canvas inteiro é da arte, e não existe borda para o branco aparecer.* **As quatro bordas foram para `20`, `41`, `63` e `14`.**
+
+#### O peso, e a decisão dele
+
+*Eu tinha recomprimido a arte de `2,7 MB` para `885 KB` por causa do peso no `.git` — dois PDFs e duas cópias por versão.* ***Decisão do Mizuki: qualidade antes de tudo.*** **A recompressão foi desfeita**, e o arquivo hoje tem `1,77 MB` — *o que encolheu foi o recorte dos `95 px` e a gravação sem subamostragem de cor, e não a qualidade.*
+
+**Os dois PDFs foram de `1,2 MB` para `2,9 MB`.**
+
+### Medido depois
+
+| | v0.141 | v0.142 |
+|---|---|---|
+| palavras do livro | 69.917 | **69.966** |
+| coluna única | 237 páginas | **238** |
+| duas colunas | 139 páginas | **140** |
+| peso do PDF | 1,2 MB | **2,9 MB** — a capa |
+| peças · validadores · checagens | 22 · 22 · 232 | iguais |
+| `conferir-voz --estrito` | 0 achados · 10 triagens | **0 achados · 10 triagens** |
+
+*`guard_numeros.py` no capítulo 10: nenhum número mudou.*
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`, **que foi reescrito para a próxima conversa:** *dano de alma, ligar o `Bloquear`, os três rascunhos e as quatro marcas de "está sendo escrito".*
+
+---
+
 ## [0.141] — 24/08/2026
 
 **A primeira passada de texto deste projeto que faz o livro CRESCER, e é de propósito.** *As sete Passivas de Técnica Marcial eram sete linhas de tabela, e viraram sete entradas escritas.*

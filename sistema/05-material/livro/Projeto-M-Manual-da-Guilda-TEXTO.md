@@ -4442,12 +4442,15 @@ Nenhuma delas é catálogo e nenhuma tem requisito. Passiva se escreve na hora, 
 >
 > **Saque.** Você saca ou guarda **dois** itens de graça por turno, em vez de um.
 >
-> **Onde o item fica.** O que você carrega fica dentro do seu corpo, e sacar é tirar de si.
+> **O que guarda.** Não é o seu corpo: é uma maldição pequena, presa a você, que engole o que você põe nela. Ela encolhe até caber na mão, e é ela que você engole — a carga vai junto.
 >
 > **Energia.** Item amaldiçoado guardado ali para de emanar. `Barreira Simples` e `Cortina` deixam de segurar ele, e ele atravessa com você.
 >
 > Classe Passiva 1.
 
+**Na obra:** o Toji guarda o arsenal inteiro numa maldição em forma de verme, comprime ela numa bola e engole. É assim que ele anda armado sem ninguém sentir energia nenhuma vindo dele.
+
+> **Contra Expansão de Domínio o `Bocado` não muda nada.** O Acerto garantido lê alvo, e item nunca foi alvo — o que você carrega atravessa domínio de qualquer jeito.
 ### `Raiz`
 
 > **`Raiz`** — vale contra qualquer coisa que tente tirar você do lugar.
@@ -4480,9 +4483,9 @@ Nenhuma delas é catálogo e nenhuma tem requisito. Passiva se escreve na hora, 
 
 > **`Contragolpe`** — vale quando alguém erra um ataque corpo a corpo contra você.
 >
-> **A resposta.** A sua próxima Kata contra ele não pode ser evitada por deslocamento.
+> **A resposta.** A sua próxima Kata contra ele tem **vantagem**.
 >
-> **Relógio.** Uma vez por cena.
+> **Relógio.** `maestria`× por cena.
 >
 > Classe Passiva 2.
 
@@ -4496,7 +4499,6 @@ Nenhuma delas é catálogo e nenhuma tem requisito. Passiva se escreve na hora, 
 >
 > Classe Passiva 3.
 
-> **Contra Expansão de Domínio ela não muda nada.** O Acerto garantido lê alvo, e item nunca foi alvo — o que você carrega atravessa domínio de qualquer jeito.
 ## Técnicas Marciais prontas
 
 Duas, uma de cada rota. As duas param onde a criação de personagem para: Descrição, Regra, atributo, rota, Famílias e a Passiva.

@@ -14,6 +14,7 @@ PDF"*. É esse PDF, escrito direto a partir desta pasta.
 | `build/build_txt.py` | markdown → texto corrido, um arquivo só — para Ctrl+F e diff |
 | `build/manual.css`, `marcas.css` | a diagramação. `marcas.css` é gerado pelo `build.py`, não editar à mão |
 | `build/duas-colunas.css` | a folha extra da diagramação de duas colunas, com a medida dos três manuais do hobby escrita no topo |
+| `arte/Capa-v0.1.jpg` | **a capa de arte**, provisória. O `build.py` usa ela se existir, e avisa e segue sem ela se não existir. *Ela já vem recortada em proporção A4 exata — `1697×2400` —, e é pintada como **fundo do `@page`** e não como `<img>`: com `<img>` sobrava um fio branco de 1 a 2 px na direita, porque o `overflow` corta na borda da página e o que passa dela não chega ao canvas* |
 | `Projeto-M-Manual-da-Guilda.pdf` | o livro compilado, em coluna única |
 | `Projeto-M-Manual-da-Guilda-C-duas-colunas.pdf` | o mesmo conteúdo em duas colunas |
 | `Projeto-M-Manual-da-Guilda-A-atual.pdf` | **snapshot**, guardado a mão na v0.126 para comparar. Não se regera |

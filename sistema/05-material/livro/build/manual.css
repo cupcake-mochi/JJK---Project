@@ -120,6 +120,28 @@ hr {
   margin: 6mm 0;
 }
 
+/* ---------- capa de arte ---------- */
+/* A arte e' o FUNDO DA PAGINA, e nao um <img> dentro dela.
+   Com <img>, mesmo com sangria, sobrava um fio branco de 1 a 2 px na direita:
+   o `overflow: hidden` da secao corta exatamente na borda, e o que passa dela
+   e' descartado antes de chegar no canvas. Pintando no `@page`, o canvas
+   inteiro e' da arte e nao existe borda para o branco aparecer.
+   O arquivo ja vem em proporcao A4 exata (1697x2400), entao o `cover` nao
+   corta nada — ele fica so como rede. */
+@page capa-arte {
+  margin: 0;
+  background: #22202c url("../arte/Capa-v0.1.jpg") center center / cover no-repeat;
+  @top-left { content: none } @top-right { content: none }
+  @bottom-right { content: none } @bottom-left { content: none }
+}
+.capa-arte {
+  page: capa-arte;
+  height: 297mm;
+  margin: 0;
+  padding: 0;
+  break-after: page;
+}
+
 /* ---------- capa ---------- */
 .capa {
   page: capa;

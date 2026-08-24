@@ -518,6 +518,21 @@ def main():
     sumario_dados = []
     notas = []
 
+    # ---------- capa de arte ----------
+    # A arte e pagina 1 e a capa tipografica virou pagina 2: ela carrega o
+    # sumario de capitulos e a nota, e nada disso cabe numa imagem.
+    # O caminho e relativo ao manual.html, que e' quem o WeasyPrint abre.
+    #
+    # O arquivo ja vem RECORTADO em proporcao A4 exata (1697x2400). A arte
+    # original era 1792x2400, que e mais larga que A4 — e o `cover` cortava
+    # pelos LADOS, comendo o rotulo de versao do canto inferior direito. Os
+    # 95 px sairam todos da ESQUERDA, que la e couro vazio.
+    CAPA = os.path.join(BASE, "..", "arte", "Capa-v0.1.jpg")
+    if os.path.exists(CAPA):
+        partes.append('\n<section class="capa-arte"></section>\n')
+    else:
+        print("  AVISO: arte/Capa-v0.1.jpg nao encontrada — saiu sem capa de arte.")
+
     # ---------- capa ----------
     itens_capa = "\n".join(f"<li>{t}</li>" for _, t, _, _ in CHAPTERS)
     partes.append(f"""
