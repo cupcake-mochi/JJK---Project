@@ -8,6 +8,102 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.137] — 24/08/2026
+
+**A sexta passada, e ela começou errada: eu fui no código e o Mizuki tinha dito para ler.**
+
+*O pedido era pente fino contra os quatro manuais do hobby — PHB 2024, Tasha, Guia do Mestre e GURPS 4e, os quatro em português e extraídos com o `pdftotext`.* **A medida me enganou três vezes seguidas antes de eu desistir dela.**
+
+### As três vezes que o marcador mentiu, na mesma tarefa
+
+| a medida | o que ela disse | o que era |
+|---|---|---|
+| equação `é o/a X que` | **25,4** por mil frases contra `1,8`–`5,7` deles | o regex casava `[ée]`, e **pegava a conjunção "e"**. Refeito só com o verbo: `19,9` |
+| antítese `não é X, é Y` | `3,1` — trinta vezes o pior deles | mesmo defeito. Com o verbo: **`0,3`, e três ocorrências no livro inteiro** |
+| antítese `, e não` | **14,8** contra `0,1`–`1,7` | *lendo as 47, quase todas eram regra:* **"perde uma, e não todas"**, *"e não vira dado"*, *"e não se empilham"*. **Cortar ali apagaria regra** |
+
+> **Décima, décima primeira e décima segunda vez que este projeto mede o marcador em vez do fenômeno.** *E a terceira é a que a v0.125 já tinha descrito com todas as letras:* **o número estava certo e não era sobre a coisa.** *Os quatro livros ficam baixos nessas marcas por registro de tradução, não por serem mais enxutos.*
+
+**Duas marcas que o Mizuki mandou cortar ficaram de pé, e o motivo é medida:** *analogia `como se`* — nosso `4,6`, deles `3,7` a `6,2` — *e* `em vez de` — nosso `5,2`, deles `0,1` a `6,9`. **Nos dois a gente já escreve como os quatro escrevem.**
+
+### Decidido — a ficção sai das Origens, dos Caminhos e das Trilhas
+
+***Decisão do Mizuki, depois de ver as oito Origens medidas por camada:*** *chamada de uma linha e `Na obra:` ficam; os três parágrafos de mundo saem.*
+
+**O precedente era da própria casa:** *a v0.129 mediu o PHB e cortou o Caminho de quatro parágrafos para um.* **A Origem tinha três e nunca tinha passado por aquela régua.**
+
+| o que saiu | palavras |
+|---|---|
+| 3 parágrafos × 8 Origens | −1.812 |
+| 1 parágrafo × 5 Caminhos e 12 Trilhas | −957 |
+| sabor das 13 categorias de arma, das 12 aptidões e das 14 condições | −1.550 |
+
+> **⚠ Dois blocos quase foram junto, e os `assert` seguraram.** *No `Batedor`, o script queria cortar a caixa da ação `Mirar` e a regra de escolher rota no nível 2 — cinco blocos de regra.* **No `Reencarnado`, a caixa `A diferença para Receptáculo`**, que é a dona daquela distinção desde que a v0.136 tirou a cópia dela do capítulo 14. *Os dois foram feitos à mão.*
+
+### ⚠⚠ O achado que veio de playtest: a regra estava na linha que o livro manda ler como não-regra
+
+***Um colega do Mizuki se perdeu escolhendo o `Arquivo`, do Descendente.*** *Indo ler, o defeito era estrutural e não de tom.*
+
+**O capítulo declara que a linha `Na mesa:` não é a regra.** *E no `Arquivo` a regra estava lá:*
+
+> ~~**Arquivo** — a sua família fez coisas com corpo que nunca foram publicadas. Escreva uma delas.~~
+> ~~*Na mesa:* **você é o único na equipe que reconhece o método quando ele reaparece.**~~
+
+*A linha de regra dizia só o que você **escreve**, e o que você **ganha** morava na linha que o leitor foi instruído a ler como cena.* **Ele leu certo um texto que estava errado.**
+
+**As 92 entradas de Legado foram reescritas em três partes fixas:** *o que você escreve na ficha · **o que você ganha, em voz direta** · o que isso limita.* **E as 84 linhas `Na mesa:` ganharam um exemplo curto**, por pedido dele — *"quem lê rápido não entende"*.
+
+### Decidido — nenhuma característica de ficha decide o que o PNJ faz
+
+***Levantado pelo Mizuki: "o `Palavra Dada` parece OBRIGAR o NPC a ter viés pro lado da pessoa, mesmo que não faça sentido."*** *E o palpite dele sobre onde procurar estava certo.*
+
+**O antecedente do PHB 2024 entrega valores de atributo, um Talento, perícias, ferramenta e equipamento — e nenhuma característica social.** *Em 2014 eles tinham traços como o `Abrigo dos Fiéis`, que prometia acolhida em qualquer templo; a revisão apagou essa camada inteira.* **E o Guia do Mestre põe a decisão numa escada de atitude — Amigável, Indiferente, Hostil — cujo eixo é risco e sacrifício**, com o Mestre no papel de todo PNJ.
+
+> **A régua que saiu disso, e ela vale para as 92:** *um `Destranca` diz o que existe no mundo por sua causa, o que você sabe, ou onde você entra.* **Ele nunca diz o que o outro faz.**
+
+**Dois violavam, e não os seis que o regex acusou** — *`O Professor Que Você Não Teve` e `Encomenda` ancoram uma pessoa e deixam a escolha dela de pé, que é a forma certa.* **Os dois reais eram `Alcunha`** (*"e reage antes de pensar"*, que ainda tirava a deliberação) **e `Palavra Dada`.**
+
+> **⚠ E a varredura completa achou mais dois fora dos `Destranca`:** *`Máscara` — "elas agem de acordo com essa conclusão" — e `Revezamento` — "o mestre diz o que as pessoas passaram a achar de você".* **Os dois são `Desliga`, e a primeira auditoria só tinha varrido os 38 `Destranca`.**
+
+### Corrigido — três coisas que a leitura achou e ninguém tinha pedido
+
+**1 · O `Legado de Sem Técnica` trouxe de volta a frase que a v0.126 cortou**, com outras palavras: *"Cinco Origens compartilham esta entrada **em vez de cada uma repetir o texto na própria lista**"*. **Onze versões depois, o livro voltou a explicar a própria diagramação.**
+
+**2 · O `Chão Duro` dizia *"qualquer lugar é ambiente propício"* e não dizia onde isso vale.** *Agora aponta para o capítulo 5.* **É o único número que ENTROU num capítulo nesta passada.**
+
+**3 · O meu próprio corte criou um defeito, e o `guard_numeros` pegou.** *O script de sabor engoliu o exemplo com a conta feita da `Cobrir-se de energia` — "com refino 6 a sua proteção passiva é 3, e a Reação desconta 9 de um golpe por 2 PE" —, e o `Como ler uma aptidão` passou a prometer "uma descrição do que ela é" numa seção que tinha acabado de perder as descrições.* **O exemplo voltou como `Exemplo`, e a frase foi reescrita.**
+
+### O que NÃO saiu
+
+**Nenhuma regra e nenhum número de regra.** *Em **cinco** dos nove arquivos mexidos o `guard_numeros` saiu com a notação de número **idêntica*** — 217 ocorrências no capítulo 11, 85 no 12, 72 no 14, 54 no 4, 40 no 7. *Nos outros quatro, cada diferença foi lida contra a linha que a carregava.*
+
+> **A tabela `Armas de tiro` saiu byte a byte idêntica**, e os dois números que sumiram do capítulo 13 eram **o tamanho do Broquel em centímetros**.
+
+### ⚠ E a medida de prosa não fechou onde eu disse que ia
+
+*Eu projetei que a prosa cairia de `78%` para perto dos `60%` do PHB.* **Ela foi para `76%`.**
+
+**O motivo é que a métrica era proxy ruim para o pedido:** *"frase sem número" conta como prosa toda regra escrita em sentença curta* — *"Você não usa Ação Bônus"*, *"Restrição paga Melhoria"* —, **e é disso que os capítulos 1, 2 e 18 são feitos.** *A narrativa saiu; o que ficou alto era regra o tempo todo.* **A medida honesta desta passada é a contagem de palavras, e não essa.**
+
+### Medido depois
+
+| | v0.136 | v0.137 |
+|---|---|---|
+| peças de regra · validadores · checagens | 22 · 22 · 232 | iguais |
+| capítulos do livro | 18 | 18 |
+| arquivos mexidos | — | **9 de 21** |
+| palavras do livro | 77.273 | **71.580** — `7,4%` |
+| coluna única | 256 páginas | **243** |
+| duas colunas | 144 páginas | **137** |
+| `conferir-voz --estrito` | 0 achados · 15 triagens | **0 achados · 11 triagens** |
+| entradas de Legado na forma nova | — | **92 de 92** |
+| linhas `Na mesa:` com exemplo | — | **84 de 84** |
+| entradas com o PNJ decidindo | 4 | **0** |
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **A fila de mecânica não mudou: itens iniciais por Caminho, itens menores e as três Trilhas do Evocador.** *Doze capítulos não precisaram de corte nesta passada — a medida de prosa mostra que o que sobrou neles é regra, e não narrativa.*
+
+---
+
 ## [0.136] — 24/08/2026
 
 **A quinta passada de texto, e ela achou três coisas que nenhuma das quatro anteriores podia achar: a moldura de leitura mentindo, uma promessa que a v0.134 tinha acabado de cumprir, e três defeitos de renderização que estavam no PDF publicado.**

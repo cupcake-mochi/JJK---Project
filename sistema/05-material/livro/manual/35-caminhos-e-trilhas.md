@@ -2,7 +2,6 @@
 
 **O Caminho diz o seu lugar na equipe**, e você escolhe ele na criação. A Trilha diz quem você é dentro do Caminho, e ela nasce junto com ele, no nível 2. São cinco Caminhos, três Trilhas em cada um.
 
-
 ## Como ler um Caminho
 
 Cada Caminho entrega quatro degraus, e eles chegam sempre nos mesmos níveis. A Trilha entrega outras quatro coisas, em níveis diferentes.
@@ -91,8 +90,6 @@ E duas coisas que quase todo degrau daqui menciona:
 
 *O corpo é a resposta: aguentar, encarar, prender.*
 
-O Bastião entra primeiro na sala e sai por último. Em campo ele é o corpo que a maldição enxerga: fica na porta, fica na frente do civil, fica entre o time e a coisa. Quem escolhe o Bastião descobriu cedo que aguenta mais pancada que os outros e resolveu fazer disso um trabalho, com ou sem técnica boa para acompanhar.
-
 ### Características do Bastião
 
 **Características do Bastião**
@@ -130,8 +127,6 @@ O Bastião entra primeiro na sala e sai por último. Em campo ele é o corpo que
 
 *O espaço em volta de você deixa de ser do inimigo.*
 
-Quem joga de `Muro` planta os dois pés e vira geografia: escolhe um corredor, uma porta, uma linha no chão, e dali em diante o combate acontece nos termos dele. Você chega na cena procurando o ponto certo de parar de andar, e o seu turno rende quando o inimigo desiste de ir aonde queria ir.
-
 > **Nível 2: `Alicerce`.** *Ação bônus.* Você se firma no lugar. **Enquanto o `Alicerce` estiver de pé, o dano de dois tipos à sua escolha cai pela metade contra você, e o seu deslocamento é metade do normal.**
 > **Sair dele não custa nada**, e **os tipos se escolhem no fim de cada descanso longo**.
 >
@@ -149,8 +144,6 @@ Quem joga de `Muro` planta os dois pés e vira geografia: escolhe um corredor, u
 
 *Você bate mais vezes, e cada vez que bate alguém sai do lugar.*
 
-Quem joga de `Punho` briga sem arma no meio, socando até a formação do inimigo desmanchar — o brigão de rua que entrou para a instituição já sabendo apanhar e aprendeu técnica depois, meio de má vontade. Na mesa você olha o mapa antes de olhar a vida do alvo, porque o que decide a rodada é para onde a pessoa voa.
-
 > **Nível 2: `Engate`.** Quando você **acerta** um ataque na sua ação de atacar, você pode dar um golpe desarmado como **ação bônus**.
 >
 > **Nível 11: `Encontrão`.** Quando você acerta desarmado, **o alvo é empurrado até 3 m na direção que você escolher.** E **uma vez por rodada**, um alvo que você acertou faz um Teste de Resistência de Vigor; se falhar, fica **`Derrubado`** (condição).
@@ -165,8 +158,6 @@ Quem joga de `Punho` briga sem arma no meio, socando até a formação do inimig
 
 *O feitiço entra no meio dos socos.*
 
-Quem joga de `Brasa` abre no braço e fecha com energia: o soco é como você chega, e o Classe 0 é o que você faz depois de ter chegado. O que a Trilha acrescenta ao Bastião é alcance — ela pega alvo que está fora do braço, aplica tipo de dano que soco nenhum aplica, e devolve energia quando acerta.
-
 > **Nível 2: `Fagulha`.** Se você usou a ação de atacar neste turno, você pode lançar um feitiço de **Classe 0** como **ação bônus**. **E se algum dos seus socos acertou, esse feitiço é rolado com vantagem**, quando ele for um ataque.
 >
 > **Nível 11: `Braseiro`.** Quando o seu Classe 0 acerta, você ganha **`2` de energia temporária.** Ela nunca passa de `2` acumulados e some no fim da cena. *Energia temporária gasta como PE, e gasta primeiro.*
@@ -176,12 +167,9 @@ Quem joga de `Brasa` abre no braço e fecha com energia: o soco é como você ch
 >
 > **Nível 27: `Fornalha`.** *Ação bônus para entrar. Dura até o fim da cena.* **Cada ataque seu carrega um feitiço de Classe 0 junto, e cada ataque tem de ser num alvo diferente.** E a sua **ação bônus deixa de lançar feitiço e vira um soco a mais**, num terceiro alvo. **São três socos, três alvos, três Classe 0.**
 
-
 ## Vanguarda
 
 *A arma é a resposta: alcançar, cortar, acabar.*
-
-A Vanguarda encosta a lâmina onde ela precisa encostar, e chega lá antes do resto. Em campo ela é quem entra no alcance do inimigo e fica lá: corta, reposiciona, corta de novo. Ela treinou arma como quem treina técnica — anos numa categoria só, com professor, com forma, com linhagem —, e a energia amaldiçoada dela existe e é usada, só que ela não é o motivo de a Vanguarda estar na sala.
 
 ### Características da Vanguarda
 
@@ -249,8 +237,6 @@ A Manha dá identidade à sua ficha. Você vira a pessoa do machado, a pessoa da
 
 *A arma faz o que a luta pedir, e o que ela pede muda toda rodada.*
 
-Quem joga de `Estocada` troca de ferramenta mais rápido do que o inimigo troca de plano: espada na mão e técnica saindo por cima, na mesma rodada. A decisão de cada turno é qual feitiço vale gastar a ação padrão, sabendo que o golpe da bônus depende do que ele fez.
-
 > **Nível 2: `Compasso`.** Você usa a ação **Conjurar** na ação padrão e dá um **golpe com arma do grupo escolhido** como ação bônus.
 > **E naquele grupo de armas, o acerto e o dano usam Essência ou Inteligência** no lugar de Força ou Destreza. **O requisito de Força para empunhar continua valendo.**
 >
@@ -268,9 +254,7 @@ Quem joga de `Estocada` troca de ferramenta mais rápido do que o inimigo troca 
 
 *A luta acontece onde você decide, e você decide longe.*
 
-Quem joga de `Batedor` trata distância como arma: sobe, se afasta, escolhe o ângulo, e quando o inimigo chega perto a briga já está decidida há três rodadas. Você passa a cena pensando em linha de visão e rota de subida, dentro e fora de combate — vigilância de alvo, cobertura de quem entrou no prédio, o tiro que resolve a cena sem ninguém precisar atravessar a porta.
-
-**A rota se escolhe no nível 2 e vale a campanha inteira.** As três resolvem o mesmo problema (onde a luta acontece) por portas diferentes: o `Yumi` atira de onde ninguém alcança, a `Arma de Fogo` atira de dentro do aperto, e a `Besta` empurra o inimigo para fora do problema.
+**A rota se escolhe no nível 2 e vale a campanha inteira.** O `Yumi` atira de onde ninguém alcança, a `Arma de Fogo` atira de dentro do aperto, e a `Besta` empurra o inimigo para fora do problema.
 
 As três concedem a mesma ação no nível 11 e estendem ela no 27:
 
@@ -325,8 +309,6 @@ Pólvora, ruído e uma profissão que finge não usar isso. É a rota que funcio
 
 *Você mata o que ninguém consegue matar.*
 
-Quem joga de `Executor` trabalha sem técnica grande e sem gritaria: uma lâmina, um alvo, e a paciência de trocar golpe até acabar. Você aceita um turno simples e uma ficha teimosa: bate, apanha, repõe casca e bate de novo, e o inimigo acaba antes de você.
-
 > **Nível 2: `Pegada`.** Você escolhe um **estilo de luta**, e ele vale a campanha inteira. *Cada estilo pede um jeito diferente de segurar a arma.*
 >
 > **Nível 11: `Aprumo`.** *Ação bônus.* Você ganha **`1d10 + o seu atributo de ataque`** de `vida temporária`, Força ou Destreza, o que a sua ficha usa para bater. **`Metade desse atributo` usos**, e eles voltam no descanso curto.
@@ -357,8 +339,6 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 13, 
 ## Guia
 
 *O outro é a resposta: estender, recuperar, reposicionar.*
-
-O Guia faz o efeito de outra pessoa durar mais, pegar mais gente ou chegar mais longe. Ele passa a luta olhando para os aliados: quem está prestes a falhar um teste, quem está no lugar errado, quem cai na próxima rodada. Quando ele age, o resultado aparece na ficha de outra pessoa.
 
 ### Características do Guia
 
@@ -399,8 +379,6 @@ O Guia faz o efeito de outra pessoa durar mais, pegar mais gente ou chegar mais 
 
 *O que outra pessoa fez chega mais longe, dura mais e pega mais gente do que ela conseguiria sozinha.*
 
-Quem joga de `Elo` amplifica: você escolhe uma pessoa, e enquanto o elo estiver de pé o que ela faz chega mais longe. A ficha do `Elo` quase não causa dano, e a sua decisão de cada cena é em quem você está pendurado agora.
-
 > **Nível 2: `Nó`.** **Ação Bônus.** Escolha um aliado **que você enxerga**: vocês dois formam um **elo**. Ao formar, escolha **ataques de arma** ou **ataques de feitiço**, enquanto o elo durar, **os dois membros ganham `+1` de acerto** naquele tipo de ataque.
 > **O elo dura até você formar outro**, e **não se quebra por distância**.
 >
@@ -417,8 +395,6 @@ Quem joga de `Elo` amplifica: você escolhe uma pessoa, e enquanto o elo estiver
 ### Trilha: Sutura
 
 *O dano que já aconteceu não é definitivo enquanto você estiver na sala.*
-
-A `Sutura` põe o médico de campo no grupo — a pessoa que a instituição manda junto quando a missão tem chance real de alguém não voltar. A Trilha entrega a `Energia Reversa` sem os requisitos de nível e de refino que o resto da ficha paga, e no meio da luta a sua decisão é quem vale a energia.
 
 > **Nível 2: `Agulha`.** Você ganha a aptidão **`Energia Reversa`** **sem os requisitos de nível e de refino**. *Por uso, você não pode gastar mais que **`metade da sua maestria`** em PE.*
 >
@@ -437,8 +413,6 @@ A `Sutura` põe o médico de campo no grupo — a pessoa que a instituição man
 
 *Você escolhe onde todo mundo está.*
 
-Quem joga de `Perímetro` anda com uma área em volta do corpo, e dentro dela o inimigo rola pior, abre guarda e paga por tentar sair. O seu trabalho é posicionamento: você se coloca onde a área cobre o máximo de inimigo, e o resto do time luta dentro dela sem precisar saber por quê.
-
 > **Nível 2: `Chão`.** Você tem uma área de **`9 m` a partir de você**, e ela anda com você.
 > **`1×` por rodada**, um inimigo dentro dela **rerrola um Teste de Resistência e fica com o pior**. *Você declara **antes** de o resultado ser lido.*
 >
@@ -454,8 +428,6 @@ Quem joga de `Perímetro` anda com uma área em volta do corpo, e dentro dela o 
 ## Emanador
 
 *A técnica é a resposta: mais feitiço, mais aptidão.*
-
-O Emanador apostou tudo na técnica. Corpo pouco, energia muita, e um repertório que resolve problema que arma nenhuma resolve. Quem escolhe esse Caminho gosta de ficha com botão: quer ter a resposta certa para a situação específica e aceita ser o mais frágil da sala em troca disso.
 
 ### Características do Emanador
 
@@ -498,8 +470,6 @@ O Emanador apostou tudo na técnica. Corpo pouco, energia muita, e um repertóri
 
 *Você lança até a energia acabar, e ela acaba.*
 
-Quem joga de `Torrente` abre a torneira: dois feitiços na mesma rodada, técnica em cima de técnica, e um bolso de PE que some rápido. A Trilha te dá a rodada grande e cobra o resto da missão, então a decisão real é em qual luta do dia você abre a torneira.
-
 > **Nível 2: `Acelerar`.** *`2×` por cena.* Você conjura um feitiço da sua **ação padrão como ação bônus**, pagando **`Classe e meia` de PE a mais**, arredondando para cima. *Num Classe 7 são `11` de PE.*
 > Naquele turno, o outro feitiço que você lançar **não passa de `Classe 0`**.
 >
@@ -517,8 +487,6 @@ Quem joga de `Torrente` abre a torneira: dois feitiços na mesma rodada, técnic
 
 *Um feitiço só na rodada, e ele sai maior.*
 
-Quem joga de `Explosivo` trabalha como artilheiro: passa duas rodadas se posicionando e resolve a luta na terceira. Quase toda entrega da Trilha melhora a mesma coisa, que é o feitiço único do seu turno — você escolhe o momento em que o alvo está agrupado ou exposto e transforma uma rolagem em cena inteira.
-
 > **Nível 2: `Pavio`.** Quando o feitiço que você conjura é **o único feitiço de dano daquele turno**, **rerrole todo dado de dano dele que cair em `1` ou `2`.**
 >
 > **Nível 11: `Estopim`.** Todo feitiço seu soma o **atributo da sua técnica** no dano.
@@ -532,8 +500,6 @@ Quem joga de `Explosivo` trabalha como artilheiro: passa duas rodadas se posicio
 ### Trilha: Arremate
 
 *O feitiço chega junto com você.*
-
-Quem joga de `Arremate` precisa encostar: briga de mão, e o feitiço sai quando a mão chega. Você precisa estar dentro do alcance do inimigo para render, e boa parte da Trilha existe para você sobreviver ao lugar em que ela te obriga a ficar.
 
 > **Nível 2: `Empunhadura`.** Escolha um **grupo de arma**. Você é treinado nele, e naquele grupo **o acerto e o dano usam Inteligência ou Essência**. *O requisito de Força para empunhar continua valendo.*
 > **E quando você ataca com uma arma daquele grupo na Ação Padrão, você pode conjurar um feitiço de Classe na Ação Bônus.**
@@ -551,8 +517,6 @@ Quem joga de `Arremate` precisa encostar: briga de mão, e o feitiço sai quando
 ## Evocador
 
 *O que você trouxe é a resposta: invocações.*
-
-O Evocador chega acompanhado. Shikigami, talismã que vira bicho, maldição domada: o que ele põe em campo tem corpo próprio, anda por conta e obedece a ele. Quem escolhe esse Caminho gosta de jogar tabuleiro, contar espaço, flanquear, bloquear corredor, e usar corpo emprestado onde outro Caminho usaria o próprio.
 
 ### Características do Evocador
 

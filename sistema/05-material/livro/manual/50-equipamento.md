@@ -8,8 +8,6 @@ Equipamento mexe em três coisas: a sua Defesa, o dado que você rola quando bat
 
 Existem duas classes de uniforme, e você usa uma ou outra: **Traje**, que é a leve, e **Revestimento**, que é a pesada. Cada uma tem três degraus.
 
-Feiticeiro trabalha em prédio de escritório, em escola, em estação de metrô, quase sempre com civil por perto e sem tempo de esvaziar o andar. O guarda-roupa sai daí. Escolher entre as duas classes é escolher em que tipo de missão você quer estar confortável.
-
 ### Como ler as tabelas de proteção
 
 Os três campos aparecem sempre na mesma ordem.
@@ -35,15 +33,9 @@ A classe leve. Nenhum degrau trava a sua Destreza, e só o de cima pede Força.
 
 Quem fabrica é o ofício **Alfaiate**. Quem não tem o ofício encomenda de quem tem.
 
-Traje é roupa cortada para um corpo só. Alguém tirou as suas medidas, ouviu o que você faz em campo e costurou em cima disso: reforço onde você costuma levar golpe, folga onde você precisa dobrar. De fora ele passa por uniforme escolar, por terno, por jaqueta de trabalho. É o que você veste quando a missão começa no meio de gente que não pode saber o que está acontecendo, e é o que deixa você continuar de pé numa cena de conversa, de infiltração ou de fuga por telhado.
-
 #### Situação do Traje
 
-O Traje é feito sob medida para você, e é aí que mora o benefício dele.
-
 > **Todo Traje carrega uma situação, e é uma só.** Escolha na criação, escreva na ficha como o seu traje é, e quando a cena estiver naquela condição você rola com **vantagem**: joga dois d20 e fica com o melhor. Vantagem não empilha, duas fontes valem uma.
-
-Na prática, você está dizendo ao alfaiate onde costuma se meter. Um traje curto e sem aba para quem vive em vão de ventilação, sola aderente para quem trabalha em beirada, tecido tratado para quem entra em incêndio.
 
 A lista é fechada e vale igual em toda mesa:
 
@@ -82,13 +74,11 @@ A classe pesada. Todo degrau trava a sua Destreza em 0 na Defesa, e todo degrau 
 | 2 | 5 | 0 | 4 |
 | 3 | 6 | 0 | 6 |
 
-Revestimento é placa, acolchoamento e peso, montado para aguentar o golpe de frente. Ninguém confunde aquilo com roupa: vestido, você já entrou na cena como uma coisa que a maldição vai ter que resolver. Ele é o uniforme de quem segura a porta enquanto os outros trabalham. Também é o que faz o supervisor esvaziar o quarteirão antes de te mandar entrar, porque com aquilo no corpo você não passa por civil em lugar nenhum, e a missão inteira passa a ser planejada em torno disso.
-
 #### Uniforme e energia amaldiçoada
 
 > **Traje e Revestimento desligam a sua proteção passiva de energia amaldiçoada.** Vestido, a sua proteção é a do uniforme, e só ela. Escudo soma por cima, sempre.
 
-A Reação de cobrir-se continua disponível de uniforme. Ninguém tira o colete no meio do golpe. Ela é a aptidão `Cobrir-se de energia`, e o preço dela está no capítulo 11, *Aptidões e Refino*.
+A Reação de cobrir-se continua disponível de uniforme. Ela é a aptidão `Cobrir-se de energia`, e o preço dela está no capítulo 11, *Aptidões e Refino*.
 
 ## Escudo
 
@@ -102,10 +92,6 @@ Três degraus. O escudo ocupa uma mão, soma com a sua proteção venha ela de o
 | 1 | **Broquel** | 1 | 5 | — |
 | 2 | **Médio** | 2 | 3 | 3 |
 | 3 | **Torre** | 3 | 1 | 5 |
-
-O Broquel é de punho, entre 15 e 45 cm: por isso ele quase não come Destreza e não pede Força. A Torre cobre o corpo e se planta no chão. Quanto mais escudo, menos braço sobra.
-
-Fora da rolagem de Defesa, escudo é a peça que decide cena de corredor: com uma Torre plantada no vão de porta, o resto do grupo trabalha atrás de você e a maldição precisa achar outro caminho.
 
 ### Escolha do degrau
 
@@ -223,7 +209,6 @@ O padrão de qualquer arma de mão é **1,5 m**. As Armas Longas chegam a **3 m*
 |---|---|---|
 | Punhal · Machadinha · Lança · Kunai · Shuriken · Tessen · Chakram · Kusarigama | 6 m | 18 m |
 
-
 ### Munição
 
 > **Recarregar é Ação Bônus.** Você recarrega quando tirar **1 ou 2 natural** no ataque, **ou** depois de **X** ataques, o que vier primeiro. O X é da arma.
@@ -259,7 +244,6 @@ O `Yumi` não carrega `Munição`. Flecha existe na ficção, e uma flecha se en
 > **Guia, Emanador e Evocador treinam Arma de Fogo e Balestra**, as duas que se aponta e dispara sem anos de forma.
 
 Um Caminho conjurador não pega espadão de graça: ele precisa da Trilha que concede o grupo, como a `Empunhadura` do `Arremate`. O quadro de cada Caminho está no capítulo 8, *Caminhos e Trilhas*.
-
 
 > **Sem treino, você tem desvantagem na rolagem de ataque com aquela arma.**
 >
@@ -370,15 +354,9 @@ O `Catálogo de armas` traz as 52 armas com tudo que decide o golpe, em três bl
 
 Treino simples. Todas carregam `Fineza`, então o dano delas sai de Destreza.
 
-Lâmina curta é briga de distância zero. Você entra por dentro da guarda, encosta e corta, e o que decide o golpe é leitura de corpo e mão rápida. É também a categoria que passa por qualquer lugar sem levantar pergunta: uma faca cabe no bolso do casaco e continua lá durante a entrevista inteira.
-
-
 ### Lâmina Longa
 
 Treino marcial. O dano sai de Força, ou de Destreza nas duas que carregam `Fineza`.
-
-Lâmina longa se luta com o corpo inteiro: o pé escolhe a distância, o quadril faz o corte, e o braço só entrega. As de uma mão deixam a outra livre para escudo, para segurar alguém ou para fechar um selo. As de duas trocam essa mão por alcance e por dado grande, e quem empunha uma delas está declarando que não pretende se esconder de ninguém.
-
 
 Odachi e Nodachi são a mesma lâmina longa demais para o cinto, com a mesma mão e o mesmo dado. A diferença está em como cada uma resolve o tamanho: o Odachi se carrega nas costas e precisa de tempo ou de ajuda para sacar, o Nodachi você saca sozinho e carrega à mostra. Se a sua mesa costuma começar cena já em briga, o Odachi vai chegar atrasado em algumas delas.
 
@@ -386,22 +364,13 @@ Odachi e Nodachi são a mesma lâmina longa demais para o cinto, com a mesma mã
 
 Treino simples. O dano sai de Força.
 
-Massa fere com peso chegando rápido, e peso não perde o fio. É a arma que continua funcionando depois de uma noite inteira batendo em concreto, e a que menos se importa com o que o alvo vestiu por cima.
-
-
 ### Porrete
 
 Treino simples. O dano sai de Força.
 
-Porrete é madeira e controle. Você acerta, empurra, prende, afasta e a cena continua com todo mundo vivo. É a categoria de quem trabalha perto de civil e precisa poder errar o alvo sem abrir um buraco na parede.
-
-
 ### Manopla
 
 Treino simples. O dano sai de Força.
-
-Manopla é o soco com uma peça de metal por cima. Ela vai vestida: você chega de mãos vazias em qualquer portaria e continua armado do outro lado. Quem luta assim briga colado, e usa o corpo inteiro como parte da arma.
-
 
 O Tekko e a Soqueira têm a mesma linha, o mesmo gasto e a mesma regra. O que muda é de onde cada uma veio.
 
@@ -409,45 +378,27 @@ O Tekko e a Soqueira têm a mesma linha, o mesmo gasto e a mesma regra. O que mu
 
 Treino marcial. O dano sai de Força.
 
-Machado concentra o peso na ponta e cobra o gesto inteiro: quem erra fica aberto por um instante. Em compensação, o que ele acerta ele abre, e isso vale para porta trancada, grade e assoalho tanto quanto para o que estiver do outro lado.
-
-
 O Machado tem a mesma linha do Machete, lá na Lâmina Longa: `d8`, uma mão, `Rompe`. A escolha entre os dois é de sabor, e as duas categorias caem no mesmo balde de treino.
 
 ### Ceifa
 
 Treino simples. O dano sai de Força.
 
-Ceifa puxa. A curva da lâmina engancha braço, perna, cano de andaime e o cabo da arma do outro, e o golpe costuma terminar com o alvo mais perto de você do que ele gostaria. É a categoria de quem prefere escolher onde o inimigo vai estar.
-
-
 ### Armas Longas
 
 Treino marcial. O dano sai de Força. É a única categoria em que o `Alcance` chega a 3 m.
-
-Arma longa serve para decidir a distância. Você mantém a coisa a três metros e ela gasta o turno inteiro só para chegar ao ponto onde a luta começaria. Em corredor e em vão de porta, uma lança sozinha segura uma passagem enquanto o resto do grupo faz o trabalho.
-
 
 ### Flexível
 
 Treino marcial. O dano sai de Força.
 
-Corrente e chicote fazem curva. O golpe contorna guarda, escudo e quina de parede, e ninguém aprende a ler a trajetória numa luta só. O dado é pequeno em todas as três: o que a categoria entrega é alcance e `Emaranha`.
-
-
 ### Arremesso
 
 Treino simples. O dano sai de Força: o arremesso sai do corpo.
 
-Arremesso resolve seis metros na hora, sem trocar de arma e sem sair da briga de perto. Todas as quatro escondem, e todas cabem numa cena em que você precisa acertar alguma coisa do outro lado da sala antes que ela termine de se virar.
-
-
 ### Yumi
 
 Treino marcial. O dano sai de Destreza: o arco se puxa, e puxar é coisa do corpo. As duas rolam um dado só e nenhuma delas carrega `Munição`.
-
-Yumi é o arco japonês, assimétrico e alto, puxado até passar da orelha. Atirar com ele é postura e respiração antes de ser mira. O disparo sai calado, e é isso que faz um arco resolver um vigia no fim do corredor sem acordar os outros três.
-
 
 O daikyū passa de dois metros e se carrega nas costas. O hankyū fica entre 45 e 160 cm: é o arco de espaço apertado e de montaria, e é por isso que ele esconde e o outro não. O Daikyū tem o dado maior; o Hankyū tem a propriedade a mais.
 
@@ -455,15 +406,9 @@ O daikyū passa de dois metros e se carrega nas costas. O hankyū fica entre 45 
 
 Treino simples. **Não soma atributo nenhum**: a energia já está armazenada na corda, e você só precisa mirar. Em troca, o dado é maior.
 
-A besta guarda a força por você. Quem atira aponta e solta, e por isso ela é a arma que qualquer um do grupo pega emprestada e usa igual. O preço vem depois do disparo, na hora de armar de novo.
-
-
 ### Arma de Fogo
 
 Lista de treino própria, sozinha. **Não soma atributo nenhum**, pelo mesmo motivo da Balestra.
-
-Arma de fogo resolve distância e barulho no mesmo gesto. Ela cobra treino próprio e devolve o tiro mais rápido do catálogo, com o custo de que a cena discreta acaba no primeiro disparo: a partir dali existe polícia, existe testemunha e existe relatório para alguém escrever depois.
-
 
 Pistola e Revólver têm a mesma linha de regra. A diferença entre os dois está na faixa: a Pistola vai a 9 m, o Revólver a 12 m.
 

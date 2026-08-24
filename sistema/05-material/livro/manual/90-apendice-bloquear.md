@@ -51,7 +51,7 @@ Na rodada seguinte a mesma maldição tira **19**. A Rina bloqueia e sai `10` e 
 | o dado mudou o resultado, sem extremo | 14,5% |
 | nada mudou; você rolou por rolar | 83,5% |
 
-> **Um em cada doze golpes vai passar porque você rolou, quando a sua Defesa parada teria segurado.** `Bloquear` não é defesa melhor. É a mesma defesa com variação, e os dois resultados de 1% são o que você está comprando.
+> **Um em cada doze golpes vai passar porque você rolou, quando a sua Defesa parada teria segurado.** `Bloquear` é a mesma defesa com variação, e os dois resultados de 1% são o que você está comprando.
 
 O outro preço é tempo de mesa: uma rolagem a mais por golpe recebido. Num combate de quatro rodadas com quatro personagens, isso passa de uma dúzia de rolagens novas.
 

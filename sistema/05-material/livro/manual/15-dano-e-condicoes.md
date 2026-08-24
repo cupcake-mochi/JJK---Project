@@ -121,8 +121,6 @@ Enquanto está `Lento`, você sofre os seguintes efeitos.
 
 **Ação.** Você não usa Ação Bônus.
 
-*As pernas pesam e o turno rende menos; você chega, só que atrasado.*
-
 #### `Incapacitado`
 
 Enquanto está `Incapacitado`, você sofre os seguintes efeitos.
@@ -130,8 +128,6 @@ Enquanto está `Incapacitado`, você sofre os seguintes efeitos.
 **Ação.** Você não pode `Bloquear`.
 
 **Contra você.** Todo ataque corpo a corpo é crítico.
-
-*A guarda abriu e você não consegue fechar de volta; quem chegar perto acerta onde quiser.*
 
 #### `Derrubado`
 
@@ -143,8 +139,6 @@ Você está no chão. Enquanto está `Derrubado`, você sofre os seguintes efeit
 
 **Contra você.** Vantagem a até **1,5 m**, desvantagem de mais longe.
 
-*Você está de costas no chão olhando para cima, e a prioridade do turno vira levantar.*
-
 #### `Agarrado`
 
 Enquanto está `Agarrado`, você sofre os seguintes efeitos.
@@ -153,16 +147,12 @@ Enquanto está `Agarrado`, você sofre os seguintes efeitos.
 
 **Sai quando.** Quem agarrou ficar `Incapacitado`, ou alguma coisa tirar você do alcance dele.
 
-*Tem uma mão fechada em você; dá para bater, dá para conjurar, e não dá para sair.*
-
 #### `Desarmado`
 
 A sua arma está no chão ou na mão de outro. Enquanto está `Desarmado`, você sofre o seguinte
 efeito.
 
 **Seus ataques.** Você bate desarmado até pegar a arma de volta.
-
-*O barulho da lâmina caindo no concreto, e a decisão de gastar o turno pegando.*
 
 #### `Surdo`
 
@@ -172,8 +162,6 @@ Você não ouve. Enquanto está `Surdo`, você sofre os seguintes efeitos.
 
 **Iniciativa.** `−2`.
 
-*Zumbido, e tudo que chega por trás chega sem aviso.*
-
 ### Nível `Média`
 
 #### `Calado`
@@ -182,8 +170,6 @@ Enquanto está `Calado`, você sofre o seguinte efeito.
 
 **Conjuração.** Você não conjura. Nada que precise de voz, gesto ou Selo sai.
 
-*Você tenta e não sai nada; o resto da luta você vira alguém com as mãos e mais nada.*
-
 #### `Enfeitiçado`
 
 Enquanto está `Enfeitiçado`, você sofre os seguintes efeitos.
@@ -191,8 +177,6 @@ Enquanto está `Enfeitiçado`, você sofre os seguintes efeitos.
 **Seus ataques.** Você não ataca quem enfeitiçou, nem mira efeito nocivo nele.
 
 **Contra você.** Ele tem vantagem em teste social contra você.
-
-*Você continua você, e aquela pessoa passou a ter razão sobre tudo.*
 
 ### Nível `Pesada`
 
@@ -213,8 +197,6 @@ Você virou pedra. Enquanto está `Petrificado`, você sofre os seguintes efeito
 
 **Resistência.** A todo dano.
 
-*Você sai da luta inteiro e sem saber o que aconteceu enquanto isso.*
-
 #### `Impedido`
 
 Enquanto está `Impedido`, você sofre os seguintes efeitos.
@@ -227,8 +209,6 @@ Enquanto está `Impedido`, você sofre os seguintes efeitos.
 
 **Contra você.** Vantagem.
 
-*Alguma coisa te prendeu no lugar: teia, corrente, o chão fechando em cima do pé.*
-
 #### `Cego`
 
 Você não enxerga. Enquanto está `Cego`, você sofre os seguintes efeitos.
@@ -238,8 +218,6 @@ Você não enxerga. Enquanto está `Cego`, você sofre os seguintes efeitos.
 **Seus ataques.** Desvantagem.
 
 **Contra você.** Vantagem.
-
-*Você ataca na direção do barulho, e o grupo passa a te narrar a sala.*
 
 #### `Amedrontado`
 
@@ -251,8 +229,6 @@ Enquanto está `Amedrontado`, você sofre os seguintes efeitos.
 
 **Deslocamento.** Você não se aproxima dela de vontade própria.
 
-*Você sabe o que precisa ser feito e o corpo não avança.*
-
 #### `Envenenado`
 
 Enquanto está `Envenenado`, você sofre os seguintes efeitos.
@@ -261,16 +237,12 @@ Enquanto está `Envenenado`, você sofre os seguintes efeitos.
 
 **Testes.** Desvantagem em todo teste de perícia.
 
-*Suor frio, mão tremendo, e tudo saindo pela metade.*
-
 #### `Atordoado`
 
 Enquanto está `Atordoado`, você sofre os seguintes efeitos.
 
 **Ação.** Você perde a Ação Padrão e não usa reação. Quem tem mais de uma Ação Padrão no
 turno — um chefe, um capanga grande — perde **uma**, e não todas.
-
-*O mundo demora a voltar; a rodada passa por cima de você.*
 
 > **Exemplo.** A Rina fica `Atordoada`. Ela perde a Ação Padrão daquele turno e não usa reação, então ninguém leva ataque de oportunidade dela. A Defesa continua a mesma: `Atordoado` não abre a guarda de ninguém. No fim do turno dela, como é uma condição `Pesada`, ela faz o Teste de Resistência e pode sair sozinha.
 

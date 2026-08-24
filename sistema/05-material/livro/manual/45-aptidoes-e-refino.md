@@ -104,7 +104,7 @@ Catorze entradas.
 
 ### Como ler uma aptidão
 
-Cada entrada aparece duas vezes. Primeiro nesta tabela, com quatro campos: **nome**, **requisito**, **Classe Passiva** e **o que o refino escala**. Depois na seção dela, com uma descrição do que ela é e uma caixa com a regra.
+Cada entrada aparece duas vezes. Primeiro nesta tabela, com quatro campos: **nome**, **requisito**, **Classe Passiva** e **o que o refino escala**. Depois na seção dela, na caixa de regra.
 
 Traço na coluna de Classe Passiva quer dizer que a entrada não declara uma. Traço na última coluna quer dizer que o refino não mexe naquela aptidão.
 
@@ -134,23 +134,19 @@ Estas duas chegam com a ficha, no refino 1, sem custar marco nenhum. Elas são o
 
 ### Cobrir-se de energia
 
-A primeira coisa que se ensina, e a que nunca se desliga. Você espalha a sua energia por cima da pele e deixa ligada: uma casca que não aparece, que aguenta o impacto que quebraria o osso de uma pessoa comum. Quem enxerga energia vê a camada acender no instante do golpe. Quem não enxerga vê alguém apanhar e continuar de pé.
-
-Como Reação, em vez de espalhar a camada você joga ela inteira no ponto onde o golpe vai chegar, e fica descoberto no resto do corpo até se recompor. Por exemplo, com refino 6 a sua proteção passiva é 3, e a Reação desconta 9 de um golpe por 2 PE.
-
 > **Cobrir-se de energia** — sem Traje e sem Revestimento, a sua proteção é `1/3 do refino + 1`. Escudo soma com ela.
 >
 > Como Reação, você concentra a energia no impacto: Redução de Dano de `1,5 × refino` num golpe, por **2 PE**. Você fica sem proteção até o fim do seu próximo turno.
 >
 > Requisito: grátis no refino 1. O refino escala a proteção e a Redução de Dano da Reação.
 
+> **Exemplo.** Com refino 6 a sua proteção passiva é 3, e a Reação desconta 9 de um golpe por 2 PE.
+
 A proteção é um piso. Ela sustenta o feiticeiro que não investiu em corpo nenhum, e sai de cena assim que Traje ou Revestimento entram na conta.
 
 Fora de combate ela decide as cenas em que ninguém está brigando: a queda de três andares, o teto que cede, o carro. Um feiticeiro atravessa isso e levanta.
 
 ### Canalizar energia
-
-Mão nua atravessa maldição sem machucar. Para o golpe encostar de verdade, a energia precisa sair pelo punho no exato momento em que ele chega. Canalizar é empurrar a técnica pela pele: o que era um soco vira feitiço na hora de resolver.
 
 > **Canalizar energia** — você conjura feitiço de Toque. Um feitiço de Toque é um feitiço de Forma Toque, sem Melhoria e sem Restrição: mesma Classe, mesmo orçamento de pontos, mesmo custo em PE.
 >
@@ -162,8 +158,6 @@ Ela é a porta de toda técnica de contato.
 
 ### Projetar energia
 
-Você junta energia na mão e solta, sem técnica e sem forma. Sai como um borrão que estala no ar e empurra o que acerta. Todo feiticeiro sabe fazer, ninguém se orgulha de fazer, e todo mundo já usou.
-
 > **Projetar energia** — você dispara energia crua. O dano é `refino`, e ela não gasta PE.
 >
 > Requisito: nenhum. O refino escala o dano.
@@ -171,10 +165,6 @@ Você junta energia na mão e solta, sem técnica e sem forma. Sai como um borr�
 `Projetar energia` é o que sobra quando o combustível acaba: o turno em que o seu PE zerou, a luta ainda não terminou e você continua precisando fazer alguma coisa.
 
 ### Energia Reversa
-
-Toda energia amaldiçoada é negativa. Multiplicar uma negativa por outra dá positivo, e energia positiva conserta carne. Quem consegue fechar essa conta dentro do próprio corpo fecha o corte enquanto ele ainda está abrindo.
-
-É a coisa mais difícil do catálogo de aprender, e quase ninguém aprende num treino. O feiticeiro costuma descobrir sozinho, no meio de estar morrendo, e depois passa anos tentando repetir de propósito.
 
 > **Energia Reversa** — ação padrão. Gaste até `a sua maior Classe` de PE e recupere `1d8` de vida por PE gasto, em você.
 >
@@ -186,9 +176,7 @@ Ela muda a forma das lutas longas e muda o que acontece entre elas: um personage
 
 ## Aptidões de kokusen
 
-Quando o soco e a energia chegam no alvo dentro da mesma fração de instante, o espaço em volta do ponto de contato racha. Sai um estalo preto, curto, e o golpe entrega muito mais do que devia entregar. Ninguém acerta um kokusen de propósito: você percebe pelo barulho e pela cara de quem apanhou.
-
-Feiticeiro que acerta um passa a entender a própria energia de um jeito que treino nenhum ensina, e a mesa inteira lembra do dia.
+Ninguém acerta um kokusen de propósito: você percebe pelo barulho e pela cara de quem apanhou.
 
 ### Kokusen
 
@@ -204,15 +192,11 @@ O `+2` acumulado é a memória do personagem. Quem passou a noite inteira quase 
 
 ### Kokusen Melhorado
 
-Você já acertou um antes, e o corpo guardou o tempo. A segunda tentativa da mesma noite sai mais perto do ponto do que a primeira.
-
 > **Kokusen Melhorado** — mesma regra do `Kokusen`, exceto que você rola dois d100 e fica com o melhor.
 >
 > Requisito: refino 5 e nível 14. O refino escala a vantagem no d100.
 
 ### Kokusen Constante
-
-Você parou de esperar pela sorte e passou a mirar o instante. A janela continua absurda de pequena, e você simplesmente acerta ela com mais frequência.
 
 > **Kokusen Constante** — mesma regra do `Kokusen`, exceto que a base sobe para `3 × refino`.
 >
@@ -229,12 +213,9 @@ Você parou de esperar pela sorte e passou a mirar o instante. A janela continua
 | 5 | 10% | 19,0% | 15,0% | 27,8% |
 | 10 | 20% | **36,0%** | 30,0% | **51,0%** |
 
-
 ## Aptidões anti-domínio
 
 Uma Expansão de Domínio completa não erra. O Acerto dela simplesmente acontece com quem está lá dentro, sem rolagem e sem Teste de Resistência, e nenhuma defesa da ficha encosta nele.
-
-Estas quatro são as respostas que o ofício inteiro desenvolveu para esse problema. Elas são a razão de um feiticeiro entrar numa luta contra alguém que tem domínio e sair vivo, e são conhecidas até por gente que nunca teve técnica nenhuma.
 
 > **As quatro anulam o Acerto de uma Expansão de Domínio. Nenhuma delas serve contra a Expansão incompleta.**
 >
@@ -252,8 +233,6 @@ Estas quatro são as respostas que o ofício inteiro desenvolveu para esse probl
 
 ### Cesta Oca de Vime
 
-Você trava as mãos num símbolo e uma esfera de energia se fecha em volta do seu corpo. Enquanto o símbolo estiver de pé, o Acerto passa por fora de você. Enquanto o símbolo estiver de pé, você também está fora da luta: as mãos ocupadas, a atenção inteira presa ali, e o mundo continuando sem a sua participação.
-
 > **Cesta Oca de Vime** — você faz o símbolo e uma esfera se fecha em volta de você. Enquanto você o segurar, o Acerto de uma Expansão não te alcança, e você não faz mais nada. Ela não tem duração, não pede teste e não custa PE: enquanto o símbolo estiver de pé, ela está de pé.
 >
 > Requisito: nenhum. Classe Passiva 1.
@@ -263,8 +242,6 @@ A `Cesta Oca de Vime` anula o Acerto e mais nada: o Efeito da Expansão continua
 Ela é a resposta de quem não tinha nada preparado. Chega já no primeiro marco de Refino de qualquer ficha, e é o que salva o feiticeiro de apoio, o estudante e a pessoa que estava passando na rua quando o domínio abriu.
 
 ### Domínio Simples
-
-Um domínio em miniatura, com os seus pés no centro. Você derrama energia no chão em volta e declara aquele círculo seu: dentro dele, o Acerto de outro domínio não tem por onde entrar. Ele se ensina em escola de espada e passa de mestre para aluno, e é por isso que feiticeiro sem técnica nenhuma aparece sabendo fazer.
 
 > **Domínio Simples** — um domínio pequeno em volta de você, de raio `1,5 m + refino ÷ 2`. Dentro dele o Acerto de uma Expansão não acontece, e ele cobre quem estiver no raio. Custa `1 × a sua maior Classe` de PE por rodada, e ela quebra se os seus pés saírem do chão.
 >
@@ -282,8 +259,6 @@ O raio nunca passa de um movimento:
 | raio | 1,5 m | 2,5 m | 3,5 m | 4,5 m | 5,5 m | **6,5 m** |
 
 ### Pétala
-
-A energia sobe pela pele e fica esperando. Quando o Acerto encosta em você, ela reage no ponto exato de contato e devolve o golpe, e quem estiver olhando vê a energia se abrir em volta do corpo por um instante. Você continua andando, continua batendo, e continua contando quantas vezes ainda dá para fazer isso.
 
 > **Pétala** — a energia cobre o seu corpo e devolve o golpe. Quando o Acerto de uma Expansão te alcança, ele é anulado no ponto de contato, `refino ÷ 2` vezes por cena. Custa `1 × a sua maior Classe` de PE por rodada, e ela cai se você perder a concentração.
 >
@@ -303,8 +278,6 @@ A energia sobe pela pele e fica esperando. Quando o Acerto encosta em você, ela
 
 ### Extensão de Domínio
 
-Você abre um domínio e não põe técnica nenhuma dentro dele: fica só a camada, colada no corpo, fina como uma segunda pele. Técnica que encosta nela se desfaz. O seu golpe atravessa a técnica do outro como se ela não estivesse ali. E ela cobra a sua própria técnica enquanto estiver de pé, porque a camada não distingue de quem é a energia que encostou.
-
 > **Extensão de Domínio** — você se envolve numa camada fina de domínio sem técnica dentro. Ela anula o Acerto de uma Expansão, anula qualquer técnica que encostar nela, e faz o seu ataque acertar independentemente da técnica do alvo. Dura `refino` rodadas e custa `1,5 × a sua maior Classe` de PE por rodada. Enquanto ela estiver de pé, você não usa a sua técnica.
 >
 > Requisito: refino 7 e nível 13. Classe Passiva 3. O refino escala a duração.
@@ -315,13 +288,9 @@ A duração é um teto. Segurar as dez rodadas no refino 10 custa 110 de PE, e q
 
 ## Aptidões de barreira
 
-Barreira é ofício à parte. Ela não sai do Fundamento de ninguém, se aprende estudando, e o feiticeiro que sabe levantar uma boa é procurado por isso.
-
 > **As duas levam um minuto para levantar**, e um minuto são dez rodadas. As duas são ferramenta de preparação, e se levantam antes da briga começar.
 
 ### Barreira Simples
-
-Um domo de energia que você monta num lugar e deixa ali. Ele fecha passagem nos dois sentidos: ninguém entra, ninguém sai, e feitiço nenhum atravessa. Levantar leva um minuto de mãos ocupadas, e por isso ele nasce antes da briga, quando alguém do grupo ainda está pensando.
 
 > **Barreira Simples** — um domo de raio `6 m`, ancorado no lugar onde você o ergueu, que bloqueia passagem e linha de efeito nos dois sentidos. Ele tem `5 × refino` de pontos de vida, e cai quando você fica `Inconsciente`.
 >
@@ -332,8 +301,6 @@ O domo fica onde foi erguido. Você não leva ele junto, e é por isso que ele s
 Fora de combate ela é uma porta que você fabrica: prende uma maldição num quarto até o grupo se organizar, corta o corredor por onde o reforço viria, isola a coisa que a investigação achou para ela continuar lá quando vocês voltarem. Numa cena de perseguição, ela é o jeito de decidir por onde o alvo vai ter que passar.
 
 ### Cortina
-
-A cortina cai sobre o lugar inteiro e o mundo comum para de enxergar o que acontece lá dentro. Quem não tem energia amaldiçoada olha para o prédio e vê um prédio; escuta o desabamento e não escuta nada. Cortina exige um nível de manejo que muitos feiticeiros poderosos nunca alcançaram, e as boas são encomendadas a quem sabe fazer.
 
 > **Cortina** — mesma preparação de um minuto da `Barreira Simples`, exceto que ela cobre um lugar inteiro: um prédio, uma escola, um quarteirão. Ela esconde o que está dentro de quem não é feiticeiro, e você pendura uma condição sobre quem atravessa. Ela tem `20 × refino` de pontos de vida, e cai quando você fica `Inconsciente`.
 >

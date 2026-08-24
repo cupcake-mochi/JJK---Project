@@ -53,7 +53,7 @@ A Origem não dá ponto de atributo nenhum, e não decide a sua patente: todo pe
 
 > **A Sem Técnica não fecha ficha hoje.** Ela é a única assim, e a tabela `Rotas de criação`, no fim do capítulo 7, *Origens e Legados*, diz por qual rota cada uma das outras monta o poder.
 
-> **Duas rotas não montam poder pelo Fundamento**, e sim pela Técnica Marcial, no capítulo 10: o Corpo Amaldiçoado e a Restrição Celestial pelo ramo sem energia. Se for o seu caso, o Passo 2 e o Passo 3 valem igual — o que muda é o capítulo que você abre para montar.
+> **Duas rotas montam poder pela Técnica Marcial, no capítulo 10:** o Corpo Amaldiçoado e a Restrição Celestial pelo ramo sem energia. Se for o seu caso, o Passo 2 e o Passo 3 valem igual — o que muda é o capítulo que você abre para montar.
 
 ## Passo 2 · Regra da técnica
 

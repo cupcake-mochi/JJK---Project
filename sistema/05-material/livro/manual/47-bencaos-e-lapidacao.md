@@ -6,7 +6,7 @@ Bênção e Lapidação valem para **uma** rota de criação: a Restrição Cele
 
 ## Lapidação
 
-Um corpo humano tem folga: ele para antes de arrebentar e desiste de um peso que aguentaria mais dez segundos. A Lapidação mede quanto dessa folga o seu personagem já gastou treinando.
+A Lapidação mede quanto da folga do corpo o seu personagem já gastou treinando.
 
 > **A Lapidação vai de `1` a `10`.** Toda ficha começa em 1, e ela sobe nos marcos: **`+1` de graça em cada um, e mais `+1` se você escolher Lapidação no marco**.
 >
@@ -93,8 +93,6 @@ Estas duas chegam com a ficha, na Lapidação 1, sem custar marco nenhum.
 
 ### Defesa sem Armadura
 
-O golpe chega e o corpo já está no lugar certo, já contraído, já girando com ele em vez de contra.
-
 > **Defesa sem Armadura** — sem Traje e sem Revestimento, a sua proteção é `1/3 da Lapidação + 1`. Escudo soma com ela.
 >
 > **Barreira de energia não segura você.** `Barreira Simples` e `Cortina` não valem contra você.
@@ -113,8 +111,6 @@ Quem não tem energia amaldiçoada nunca tem Expansão de Domínio — está no 
 A Passiva `Bocado`, no capítulo 10, *Técnica Marcial*, guarda o item dentro do corpo, e lá dentro ele para de emanar.
 
 ### Estímulo Muscular
-
-Você aprendeu a mandar no que o corpo faz sozinho. Antes do movimento que decide, você acerta a respiração, trava o que precisa travar e solta o resto.
 
 > **Estímulo Muscular** — escolha **uma perícia** e **um Teste de Resistência** na criação, e eles não mudam.
 >

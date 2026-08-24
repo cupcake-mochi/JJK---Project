@@ -1177,8 +1177,6 @@ Enquanto está `Lento`, você sofre os seguintes efeitos.
 
 **Ação.** Você não usa Ação Bônus.
 
-*As pernas pesam e o turno rende menos; você chega, só que atrasado.*
-
 #### `Incapacitado`
 
 Enquanto está `Incapacitado`, você sofre os seguintes efeitos.
@@ -1186,8 +1184,6 @@ Enquanto está `Incapacitado`, você sofre os seguintes efeitos.
 **Ação.** Você não pode `Bloquear`.
 
 **Contra você.** Todo ataque corpo a corpo é crítico.
-
-*A guarda abriu e você não consegue fechar de volta; quem chegar perto acerta onde quiser.*
 
 #### `Derrubado`
 
@@ -1199,8 +1195,6 @@ Você está no chão. Enquanto está `Derrubado`, você sofre os seguintes efeit
 
 **Contra você.** Vantagem a até **1,5 m**, desvantagem de mais longe.
 
-*Você está de costas no chão olhando para cima, e a prioridade do turno vira levantar.*
-
 #### `Agarrado`
 
 Enquanto está `Agarrado`, você sofre os seguintes efeitos.
@@ -1209,16 +1203,12 @@ Enquanto está `Agarrado`, você sofre os seguintes efeitos.
 
 **Sai quando.** Quem agarrou ficar `Incapacitado`, ou alguma coisa tirar você do alcance dele.
 
-*Tem uma mão fechada em você; dá para bater, dá para conjurar, e não dá para sair.*
-
 #### `Desarmado`
 
 A sua arma está no chão ou na mão de outro. Enquanto está `Desarmado`, você sofre o seguinte
 efeito.
 
 **Seus ataques.** Você bate desarmado até pegar a arma de volta.
-
-*O barulho da lâmina caindo no concreto, e a decisão de gastar o turno pegando.*
 
 #### `Surdo`
 
@@ -1228,8 +1218,6 @@ Você não ouve. Enquanto está `Surdo`, você sofre os seguintes efeitos.
 
 **Iniciativa.** `−2`.
 
-*Zumbido, e tudo que chega por trás chega sem aviso.*
-
 ### Nível `Média`
 
 #### `Calado`
@@ -1238,8 +1226,6 @@ Enquanto está `Calado`, você sofre o seguinte efeito.
 
 **Conjuração.** Você não conjura. Nada que precise de voz, gesto ou Selo sai.
 
-*Você tenta e não sai nada; o resto da luta você vira alguém com as mãos e mais nada.*
-
 #### `Enfeitiçado`
 
 Enquanto está `Enfeitiçado`, você sofre os seguintes efeitos.
@@ -1247,8 +1233,6 @@ Enquanto está `Enfeitiçado`, você sofre os seguintes efeitos.
 **Seus ataques.** Você não ataca quem enfeitiçou, nem mira efeito nocivo nele.
 
 **Contra você.** Ele tem vantagem em teste social contra você.
-
-*Você continua você, e aquela pessoa passou a ter razão sobre tudo.*
 
 ### Nível `Pesada`
 
@@ -1269,8 +1253,6 @@ Você virou pedra. Enquanto está `Petrificado`, você sofre os seguintes efeito
 
 **Resistência.** A todo dano.
 
-*Você sai da luta inteiro e sem saber o que aconteceu enquanto isso.*
-
 #### `Impedido`
 
 Enquanto está `Impedido`, você sofre os seguintes efeitos.
@@ -1283,8 +1265,6 @@ Enquanto está `Impedido`, você sofre os seguintes efeitos.
 
 **Contra você.** Vantagem.
 
-*Alguma coisa te prendeu no lugar: teia, corrente, o chão fechando em cima do pé.*
-
 #### `Cego`
 
 Você não enxerga. Enquanto está `Cego`, você sofre os seguintes efeitos.
@@ -1294,8 +1274,6 @@ Você não enxerga. Enquanto está `Cego`, você sofre os seguintes efeitos.
 **Seus ataques.** Desvantagem.
 
 **Contra você.** Vantagem.
-
-*Você ataca na direção do barulho, e o grupo passa a te narrar a sala.*
 
 #### `Amedrontado`
 
@@ -1307,8 +1285,6 @@ Enquanto está `Amedrontado`, você sofre os seguintes efeitos.
 
 **Deslocamento.** Você não se aproxima dela de vontade própria.
 
-*Você sabe o que precisa ser feito e o corpo não avança.*
-
 #### `Envenenado`
 
 Enquanto está `Envenenado`, você sofre os seguintes efeitos.
@@ -1317,16 +1293,12 @@ Enquanto está `Envenenado`, você sofre os seguintes efeitos.
 
 **Testes.** Desvantagem em todo teste de perícia.
 
-*Suor frio, mão tremendo, e tudo saindo pela metade.*
-
 #### `Atordoado`
 
 Enquanto está `Atordoado`, você sofre os seguintes efeitos.
 
 **Ação.** Você perde a Ação Padrão e não usa reação. Quem tem mais de uma Ação Padrão no
 turno — um chefe, um capanga grande — perde **uma**, e não todas.
-
-*O mundo demora a voltar; a rodada passa por cima de você.*
 
 > **Exemplo.** A Rina fica `Atordoada`. Ela perde a Ação Padrão daquele turno e não usa reação, então ninguém leva ataque de oportunidade dela. A Defesa continua a mesma: `Atordoado` não abre a guarda de ninguém. No fim do turno dela, como é uma condição `Pesada`, ela faz o Teste de Resistência e pode sair sozinha.
 
@@ -1643,7 +1615,7 @@ A Origem não dá ponto de atributo nenhum, e não decide a sua patente: todo pe
 
 > **A Sem Técnica não fecha ficha hoje.** Ela é a única assim, e a tabela `Rotas de criação`, no fim do capítulo 7, *Origens e Legados*, diz por qual rota cada uma das outras monta o poder.
 
-> **Duas rotas não montam poder pelo Fundamento**, e sim pela Técnica Marcial, no capítulo 10: o Corpo Amaldiçoado e a Restrição Celestial pelo ramo sem energia. Se for o seu caso, o Passo 2 e o Passo 3 valem igual — o que muda é o capítulo que você abre para montar.
+> **Duas rotas montam poder pela Técnica Marcial, no capítulo 10:** o Corpo Amaldiçoado e a Restrição Celestial pelo ramo sem energia. Se for o seu caso, o Passo 2 e o Passo 3 valem igual — o que muda é o capítulo que você abre para montar.
 
 ## Passo 2 · Regra da técnica
 
@@ -1910,7 +1882,7 @@ Legado é um benefício pequeno e específico que você trouxe de antes de a his
 
 Cada um dos três formatos se lê de um jeito.
 
-Quando uma entrada termina numa linha *Na mesa*, essa linha diz em que tipo de cena o Legado costuma aparecer e o que ele destrava para o grupo. A regra é o que veio antes dela.
+A regra de um Legado é a linha em negrito. Quando a entrada termina numa linha *Na mesa*, essa linha diz **em que cena aquilo aparece**, com um exemplo.
 
 ### Como ler um Destranca
 
@@ -1933,12 +1905,6 @@ Cada tabela de `Desliga` traz o que ele **apaga** e o **relógio**. A maioria do
 ## Latente
 
 *Você nasceu com. Ninguém te deu nada e ninguém te ensinou.*
-
-A técnica é sua desde sempre, e o que fez ela aparecer foi você, um susto, ou a vida. Um dia a coisa saiu da sua mão e não tinha ninguém por perto para explicar o que aquilo era. A maior parte dos Latentes passa anos achando que o problema é médico, ou espiritual, ou culpa deles.
-
-O meio jujutsu chega depois, e chega atrasado. Quando chega, chega avaliando: um feiticeiro de campo que sentiu alguma coisa, um professor de escola técnica atrás de aluno, ou gente pior que os dois. Um Descendente aprende o nome da própria técnica aos seis anos, junto com a tabuada. Você descobre que ela tem nome no dia em que alguém te olha e diz qual é. Daí vem a fama da Origem: Latente é onde mais tem gente que aprendeu errado antes de aprender certo, com vício de mão, gasto burro de energia e medo do próprio alcance.
-
-A instituição gosta de Latente e desconfia de Latente pelo mesmo motivo. Gosta porque você não deve favor a clã nenhum e ninguém te reivindica em reunião. Desconfia porque não existe registro do que você faz, e a única fonte sobre a sua técnica é você. É a Origem mais comum entre feiticeiros que não têm sobrenome, e a que mais aparece em pasta aberta quando alguém some da vista da escola por seis meses.
 
 **Na obra:** Nanami e Hakari, que não vêm de clã e construíram sozinhos o que fazem. O Junpei também: a técnica dele, Escória da Lua, era inata, e o que o Mahito fez foi mexer no cérebro dele para que ela despertasse antes da hora.
 
@@ -1973,16 +1939,17 @@ Fundamento, do jeito padrão.
 | Sem Patente | sem relógio |
 | Sem Técnica → ver *Sem Técnica* | sem relógio |
 
-> **O Jeito Errado** — escreva na ficha o que você aprendeu errado antes de aprender certo. Uma vez por dia, aponte alguém que esteja fazendo a mesma coisa errada. O mestre diz o que aquilo está custando a essa pessoa.
-> *Na mesa:* serve quando a equipe está olhando outro feiticeiro trabalhar, ou o estrago que um deles deixou para trás. Vira leitura de inimigo sem precisar de teste.
+> **O Jeito Errado** — **escreva na ficha o que você aprendeu errado antes de aprender certo. Uma vez por dia, aponte alguém fazendo a mesma coisa errada: o mestre diz o que aquilo está custando a essa pessoa.**
+> *Na mesa:* serve quando o grupo observa outro feiticeiro trabalhar. *Exemplo: o inimigo gasta energia demais em cada golpe, e você aponta isso antes de a luta começar.*
 
-> **O Professor Que Você Não Teve** — existe um feiticeiro que podia ter te ensinado e não ensinou. Escreva quem é e por que não. Essa pessoa está viva, sabe que você existe, e a escolha dela ainda está de pé.
+> **O Professor Que Você Não Teve** — **escreva na ficha um feiticeiro que podia ter te ensinado e não ensinou, e por quê. Essa pessoa está viva e sabe que você existe.** A escolha dela continua de pé.
+> *Na mesa:* serve quando o grupo precisa de alguém daquele nível. *Exemplo: ninguém ali sabe desfazer a barreira, e essa pessoa sabe — o que ela vai cobrar é com ela.*
 
-> **A Testemunha** — alguém sem energia amaldiçoada sabe o que você é, e nunca contou para ninguém. Escreva quem é e o que essa pessoa viu. Ela continua na vida dela, e continua sabendo.
-> *Na mesa:* é um endereço civil para onde a campanha pode voltar, e uma pessoa que o inimigo pode achar antes de você.
+> **A Testemunha** — **escreva na ficha alguém sem energia amaldiçoada que sabe o que você é e nunca contou.** Essa pessoa continua na vida dela, e continua sabendo.
+> *Na mesa:* serve quando o grupo precisa de um endereço fora do meio jujutsu. *Exemplo: vocês precisam sumir por uma noite, e existe uma casa que não está em registro nenhum.*
 
-> **Sem Patente** — você nunca entrou na instituição, e ela sabe disso. Patente não te obriga a nada: ordem de superior é conselho, e a hierarquia te trata como o que você é, alguém que não deve nada e a quem não se deve nada.
-> *Na mesa:* você é quem pode recusar uma ordem em cena, na frente de todo mundo, sem consequência disciplinar. O resto da equipe não pode.
+> **Sem Patente** — **você nunca entrou na instituição, e ela sabe disso. Patente não te obriga a nada: ordem de superior é conselho.** Você não deve nada à hierarquia, e ela não te deve nada.
+> *Na mesa:* serve quando a ordem que chega é ruim. *Exemplo: o supervisor manda o grupo entrar sem reforço, e você recusa em voz alta sem levar advertência.*
 
 > **Sem Técnica** — você tem energia amaldiçoada e a técnica não veio junto. O texto está adiante, em *Legado de Sem Técnica*.
 
@@ -1996,17 +1963,17 @@ Fundamento, do jeito padrão.
 | Gambiarra | qualquer ofício (10) | por dia |
 | Desconfiado | uma condição nomeada (1) | por cena |
 
-> **Aprendi Apanhando** — uma vez por dia, refaça um teste de perícia que você falhou. Você já errou isso antes.
-> *Na mesa:* é a rede que segura a cena travada por uma rolagem só. Uma por dia obriga a escolher qual falha valia desmanchar.
+> **Aprendi Apanhando** — **uma vez por dia, refaça um teste de perícia que você falhou.**
+> *Na mesa:* serve quando uma rolagem só trava a cena. *Exemplo: você falha em arrombar a porta com o inimigo chegando, e tenta de novo.*
 
-> **Instinto Bruto** — uma vez por cena, role Sentir Energia no lugar de Intuição, se disser como o seu jeito de sentir resolve aquilo.
-> *Na mesa:* leitura de gente virando leitura de energia. Rende em interrogatório, em sala cheia e em negociação com quem está mentindo com o corpo.
+> **Instinto Bruto** — **uma vez por cena, role `Sentir Energia` no lugar de `Intuição`**, dizendo como o seu jeito de sentir resolve aquilo.
+> *Na mesa:* serve quando o grupo precisa saber se alguém está mentindo. *Exemplo: o informante fala calmo, e a energia dele não.*
 
-> **Gambiarra** — uma vez por dia, use um ofício que você não tem treinado como se tivesse. Você já resolveu isso com o que estava na mão.
-> *Na mesa:* aparece quando falta o especialista: fechadura, motor, curativo de emergência, papelada que precisa passar por um balcão.
+> **Gambiarra** — **uma vez por dia, use um ofício em que você não é treinado como se fosse.**
+> *Na mesa:* serve quando falta o especialista. *Exemplo: ninguém do grupo tem `Condução`, e é você que tira a van do estacionamento.*
 
-> **Desconfiado** — uma vez por cena, role com vantagem o Teste de Resistência contra ficar `Enfeitiçado` (condição). Ninguém nunca te deu nada de graça, e você aprendeu cedo que quem se aproxima quer alguma coisa.
-> *Na mesa:* cena de sedução, de promessa boa demais, de maldição que fala bonito antes de encostar.
+> **Desconfiado** — **uma vez por cena, role com vantagem o Teste de Resistência contra ficar `Enfeitiçado`.**
+> *Na mesa:* serve contra quem convence antes de atacar. *Exemplo: a maldição fala com voz de gente e oferece uma saída fácil.*
 
 #### Desliga
 
@@ -2016,21 +1983,15 @@ Fundamento, do jeito padrão.
 | Inédito | ser reconhecido pelo catálogo | sempre |
 | Chão Duro | a diferença entre lugar propício e lugar ruim | sempre |
 
-> **Inédito** — a sua técnica não está em registro nenhum: ninguém a reconhece pelo catálogo, e preparar-se contra ela exige ter te visto fazer. Em troca, ninguém sabe te ajudar com ela pelo mesmo motivo: não existe quem tenha estudado o que você faz. *Não disponível para quem escolheu Sem Técnica: sem técnica própria, não há o que ficar de fora do catálogo.*
-> *Na mesa:* transforma reencontro com o mesmo inimigo numa corrida. Ele só sabe de você o que te viu fazer, e está aprendendo em tempo real.
+> **Inédito** — **a sua técnica não está em registro nenhum: ninguém a reconhece pelo catálogo, e quem quiser se preparar contra ela precisa ter te visto usar.** Em troca, ninguém sabe te ajudar com ela. *Não vale para quem escolheu Sem Técnica: sem técnica própria, não há o que ficar de fora do catálogo.*
+> *Na mesa:* serve no reencontro com o mesmo inimigo. *Exemplo: ele volta preparado para o que te viu fazer na primeira luta, e para nada além disso.*
 
-> **Chão Duro** — para você, qualquer lugar é ambiente propício. Você aprendeu a dormir no chão, comer o que tinha e acordar inteiro. Em troca, você não percebe quando os outros não estão aguentando; para você aquilo é terça-feira.
-> *Na mesa:* apaga a logística de viagem, de cerco e de vigília longa. E cria atrito com o companheiro que está no limite e não sabe pedir.
+> **Chão Duro** — **para você, qualquer lugar conta como ambiente propício**, no capítulo 5, *Descanso e Recuperação*. Em troca, você não percebe quando os outros não estão aguentando.
+> *Na mesa:* serve em missão longe da escola. *Exemplo: o grupo dorme no mato e acorda com metade do PE; você acorda cheio.*
 
 ## Receptáculo
 
 *Você carrega alguma coisa, e ela ainda está aí.*
-
-Um dedo, um selo, um feiticeiro de mil anos atrás. O que te habita divide o corpo com você, e você continua sendo você, com companhia. Tem quem tenha engolido por acidente, tem quem tenha engolido para salvar alguém na hora, e tem quem já tenha nascido com o hóspede dentro e só descoberto na adolescência.
-
-A convivência tem horário e humor. Ele dorme, ele acorda, ele opina, e ele sabe coisa que você não sabe. Quando ele resolve falar, você é o único que escuta, e quando ele resolve calar, você fica sem a metade da informação que estava usando para decidir. Boa parte do tempo de mesa de um Receptáculo é negociação interna: o que você aceita ouvir, o que você aceita dever, e o que você faz quando ele acerta.
-
-A instituição trata Receptáculo como material sob observação. Existe pasta, existe protocolo de contenção, e em quase todo caso existe uma ordem de execução assinada esperando gatilho. Você é útil enquanto for controlável, e o meio inteiro sabe disso. Feiticeiro de campo que vai trabalhar contigo quer saber o nome do que está dentro antes de virar as costas, e quem sabe o nome costuma tratar você pelo nome dele.
 
 **Na obra:** o Itadori, que come o dedo e passa a dividir o corpo com o Sukuna, e que tem técnica inata própria por baixo disso. E a Hana Kurusu, em quem o Anjo vive simbioticamente, sem sobrescrever a consciência dela.
 
@@ -2065,17 +2026,17 @@ Fundamento, do jeito padrão. O passageiro mora na ficção da mesa, e a montage
 | O Que Ele Quer | por descanso longo |
 | Sem Técnica → ver *Sem Técnica* | sem relógio |
 
-> **A Voz de Dentro** — uma vez por dia, pergunte ao mestre uma coisa sobre uma maldição ou técnica presente na cena. Ele responde com a verdade. O que está em você já viu aquilo.
-> *Na mesa:* é reconhecimento de inimigo no meio da luta, sem rolagem. Use na criatura que ninguém identificou e a cena inteira muda de plano.
+> **A Voz de Dentro** — **uma vez por dia, pergunte ao mestre uma coisa sobre uma maldição ou técnica presente na cena. Ele responde com a verdade.**
+> *Na mesa:* serve na criatura que ninguém identificou. *Exemplo: você pergunta do que aquilo se alimenta, e o grupo para de tentar resolver no braço.*
 
-> **De Antes de Você** — escolha uma pessoa, um lugar ou um clã que conheceu o que te habita, de quando ele ainda andava sozinho. Eles existem, e sabem o que você carrega. O que fazem com essa informação é outra conversa.
-> *Na mesa:* dá ao grupo uma porta de entrada em história antiga, com dono. Alguém lá dentro tem conta velha para acertar.
+> **De Antes de Você** — **escreva na ficha uma pessoa, um lugar ou um clã que conheceu o que te habita, de quando ele andava sozinho. Eles existem e sabem o que você carrega.** O que fazem com isso é com eles.
+> *Na mesa:* serve quando a missão encosta em história antiga. *Exemplo: o clã que o grupo foi investigar já lidou com o que está dentro de você.*
 
-> **Alcunha** — escreva como ele era chamado quando andava sozinho. Quem é do meio e ouve esse nome sabe o que é, e reage antes de pensar. Você pode dizer o nome em voz alta quando quiser. Não tem como despronunciar.
-> *Na mesa:* é uma arma social de uso único por sala. Dita a palavra, a negociação vira outra coisa, e você não escolhe qual.
+> **Alcunha** — **escreva na ficha como ele era chamado quando andava sozinho. Você pode dizer esse nome em voz alta quando quiser, e quem é do meio jujutsu sabe o que ele significa.** Dito, não dá para despronunciar.
+> *Na mesa:* serve numa sala em que ninguém sabe o que você carrega. *Exemplo: você diz o nome numa negociação, e a conversa passa a ser sobre isso — para melhor ou para pior.*
 
-> **O Que Ele Quer** — escreva na ficha o que ele quer, e não é o que você quer. Uma vez por descanso longo, você pode ceder: entregue a ele uma coisa que ele queria, e ele te dá passagem para o que você precisava. O mestre narra os dois lados. O que você cedeu fica escrito na ficha, e não sai de lá.
-> *Na mesa:* é o botão que o jogador aperta quando a campanha está perdida. Cada aperto deixa marca permanente na ficha, e o grupo vê a conta crescer.
+> **O Que Ele Quer** — **escreva na ficha o que ele quer, e que não é o que você quer. Uma vez por descanso longo, entregue a ele uma coisa que ele queria e ele te dá passagem para o que você precisava.** O mestre narra os dois lados, e o que você cedeu fica escrito na ficha para sempre.
+> *Na mesa:* serve quando a cena está perdida e o preço deixou de importar. *Exemplo: você cede o controle da mão direita por um minuto, e o golpe sai.*
 
 > **Sem Técnica** — você tem energia amaldiçoada e a técnica não veio junto. O texto está adiante, em *Legado de Sem Técnica*.
 
@@ -2089,16 +2050,16 @@ Fundamento, do jeito padrão. O passageiro mora na ficção da mesa, e a montage
 | Tranco | Teste de Resistência Físico (1) | por cena |
 | Passagem | qualquer rolagem | por dia |
 
-> **Não Sou Só Eu** — uma vez por cena, refaça um Teste de Resistência de Espírito que você falhou contra ser controlado, dominado ou lido.
-> *Na mesa:* segura o personagem contra o inimigo que ganha luta virando aliado contra aliado. Tem dois em casa, e convencer os dois dá trabalho.
+> **Não Sou Só Eu** — **uma vez por cena, refaça um Teste de Resistência de Espírito que você falhou contra ser controlado, dominado ou lido.**
+> *Na mesa:* serve contra quem ganha a luta virando aliado contra aliado. *Exemplo: a maldição tenta te pôr contra o grupo, e não pega.*
 
-> **Costume Antigo** — escolha uma perícia na criação: o que está em você já sabia fazer aquilo. Uma vez por cena, role essa perícia como se fosse treinada. Você lembra da sensação de fazer, sem lembrar de ter aprendido.
-> *Na mesa:* rende cena curta de estranhamento. O personagem faz bem uma coisa que nunca praticou, e quem está junto repara.
+> **Costume Antigo** — **escolha uma perícia na criação. Uma vez por cena, role essa perícia como se fosse treinada.**
+> *Na mesa:* serve quando o grupo precisa de uma perícia que ninguém tem. *Exemplo: você lê a inscrição do templo sem nunca ter estudado aquilo.*
 
-> **Tranco** — uma vez por cena, refaça um Teste de Resistência Físico que você falhou. Ele não quer morrer nesse corpo mais do que você.
-> *Na mesa:* é o segundo fôlego contra veneno, queda, agarrão e tudo que tenta te tirar da luta pelo corpo.
+> **Tranco** — **uma vez por cena, refaça um Teste de Resistência Físico que você falhou.**
+> *Na mesa:* serve contra veneno, queda e agarrão. *Exemplo: você falha em não cair do andaime, e tenta de novo.*
 
-> **Passagem** — uma vez por dia, você deixa ele assumir: refaça qualquer rolagem. Quando você volta, o mestre diz uma coisa que ele fez enquanto estava no comando. Você não estava lá para impedir.
+> **Passagem** — **uma vez por dia, você deixa ele assumir e refaz qualquer rolagem. Quando você volta, o mestre diz uma coisa que ele fez enquanto estava no comando.**
 
 #### Desliga
 
@@ -2108,21 +2069,15 @@ Fundamento, do jeito padrão. O passageiro mora na ficção da mesa, e a montage
 | Máscara | ser sentido pelo que você é | sempre |
 | Revezamento | ficar `Impedido` | por descanso longo |
 
-> **Máscara** — quem sente a sua energia amaldiçoada sente a dele. Você não aparece como o que é. Em troca, o que essas pessoas concluem sobre você costuma ser bem pior do que a verdade. Elas agem de acordo com essa conclusão.
-> *Na mesa:* resolve infiltração e barreira de detecção, e cria a cena em que o aliado que chegou depois te ataca primeiro.
+> **Máscara** — **quem sente a sua energia amaldiçoada sente a dele: você não aparece como o que é.** Em troca, o que essas pessoas concluem sobre você costuma ser pior do que a verdade.
+> *Na mesa:* serve em infiltração e contra barreira de detecção. *Exemplo: você atravessa a `Cortina` sem acender nada, e quem está do outro lado lê outra coisa.*
 
-> **Revezamento** — prender você prende um dos dois: uma vez por descanso longo, você não fica `Impedido`. Ele empurra, e o seu corpo vai junto porque não é só seu. Em troca, quem estava olhando viu — naquele momento não era você que se mexia. O mestre diz o que as pessoas presentes passaram a achar de você, e elas agem de acordo.
-> *Na mesa:* tira o grupo da cena em que prender você era o plano do inimigo, e cobra em reputação na cena seguinte.
+> **Revezamento** — **uma vez por descanso longo, você não fica `Impedido`.** Em troca, quem estava olhando viu que naquele momento não era você que se mexia.
+> *Na mesa:* serve quando prender você era o plano. *Exemplo: a técnica fecha o chão em volta dos seus pés e você sai mesmo assim, na frente de todo mundo.*
 
 ## Descendente
 
 *Você é de uma das famílias, e elas cobram.*
-
-A técnica veio no sangue, com nome, com histórico e com gente que sabe usá-la melhor do que você. Você teve professor desde criança, e teve expectativa desde criança. Antes dos dez anos você já sabia qual ramo da família ia te medir, em que idade, e o que aconteceria com quem não passasse.
-
-O meio te reconhece antes de te conhecer. Sobrenome abre porta e fecha porta na mesma proporção: quem odeia o seu clã não vai perguntar o que você acha dele antes de decidir o que acha de você. Cada família tem sua moeda de troca com o resto da sociedade jujutsu, e cada uma cobra a sua de você em particular: um cede nome, outro cede ferramenta, outro cede o arquivo de tudo que já fizeram com corpo, outro cede a palavra empenhada.
-
-Para a instituição, Descendente é funcionário e representante estrangeiro ao mesmo tempo. Os clãs financiam boa parte da estrutura, indicam nome para cargo, e vetam quem quiserem sem precisar explicar. Isso significa proteção de que ninguém mais dispõe, e significa que a sua ficha disciplinar passa pela sua família antes de passar por você. O tipo de pessoa que sai daí costuma ser alguém treinado cedo demais para uma vida que não escolheu, com relação complicada com a única coisa que sabe fazer bem.
 
 **Na obra:** Gojo, Inumaki, Kamo, Zen'in. As técnicas de clã têm nome próprio, e todo mundo do meio conhece.
 
@@ -2158,20 +2113,20 @@ Fundamento, do jeito padrão.
 | Treino de Berço | qualquer clã, inclusive o seu | sem relógio |
 | Sem Técnica → ver *Sem Técnica* | — | sem relógio |
 
-> **O Sobrenome** — em qualquer lugar da sociedade jujutsu você consegue audiência com quem importa. Conseguir audiência não é o mesmo que ser bem recebido.
-> *Na mesa:* pula a etapa de "como a gente chega até essa pessoa" e joga o grupo direto na sala difícil, que é onde a cena boa está.
+> **O Sobrenome** — **em qualquer lugar da sociedade jujutsu você consegue audiência com quem manda.** Você entra na sala; o que sai da conversa continua valendo o teste de sempre.
+> *Na mesa:* pula a etapa de achar a pessoa. *Exemplo: o grupo precisa falar com o chefe da vigilância da região, e você marca a reunião em vez de investigar como chegar nele.*
 
-> **Armaria** — a sua família guarda ferramenta amaldiçoada, e você sabe onde. Escreva na ficha qual peça é sua por direito e quem está com ela agora. Ela existe, é sua, e ninguém devolveu.
-> *Na mesa:* é um objetivo de campanha com endereço e com nome de quem vai reagir quando você for buscar.
+> **Armaria** — **escreva na ficha qual ferramenta amaldiçoada da sua família é sua por direito, e quem está com ela agora. Ela existe, é sua, e ninguém devolveu.**
+> *Na mesa:* serve quando o grupo precisa de uma ferramenta que ninguém tem. *Exemplo: a peça que resolveria a missão é sua por direito, e está na mão de outra pessoa.*
 
-> **Arquivo** — a sua família fez coisas com corpo que nunca foram publicadas. Escreva uma delas. Você cresceu sabendo, ninguém de fora sabe, e alguém lá dentro ainda acha que valeu a pena.
-> *Na mesa:* você é o único na equipe que reconhece o método quando ele reaparece. E é o único que tem motivo para esconder que reconheceu.
+> **Arquivo** — **escreva na ficha um experimento com corpo que a sua família fez e nunca publicou. Quando esse método aparecer numa cena, você reconhece na hora, sem teste.** Ninguém de fora sabe que a sua família fez aquilo.
+> *Na mesa:* serve quando o grupo encontra o método em uso. *Exemplo: os corpos da missão têm a mesma sutura, e você sabe qual é o processo e o que ele exige de quem faz.*
 
-> **Palavra Dada** — na sua família não se desperdiça palavra, e o meio inteiro sabe disso. Quando você promete alguma coisa, quem é do meio trata como vínculo e cobra, com o peso do seu sobrenome atrás.
-> *Na mesa:* faz do personagem a garantia do grupo em qualquer negociação. Cada promessa que ele empenha vira dívida que a mesa vai ter que pagar em cena.
+> **Palavra Dada** — **o meio jujutsu sabe que a sua família não desperdiça palavra.** Quando você empenha a sua, ela conta como garantia; o que o outro lado faz com isso continua sendo dele.
+> *Na mesa:* serve quando o grupo precisa que alguém garanta um acordo. *Exemplo: você promete devolver a ferramenta depois da missão, e o dono passa a ter com o que contar se decidir emprestar.*
 
-> **Treino de Berço** — o seu clã ensina uma coisa que não se aprende fora dele. Escreva na ficha o que é. Quem quiser aquilo tem que passar pela sua família, ou por você.
-> *Na mesa:* é a razão pela qual gente que não gosta de você continua procurando você.
+> **Treino de Berço** — **escreva na ficha uma coisa que só o seu clã ensina.** Quem quiser aprender aquilo passa pela sua família, ou por você.
+> *Na mesa:* põe você na rota de quem precisa daquilo. *Exemplo: um feiticeiro de outro clã procura o grupo porque precisa do selo que só a sua casa ensina.*
 
 > **Sem Técnica** — você tem energia amaldiçoada e a técnica não veio junto. O texto está adiante, em *Legado de Sem Técnica*. Um Descendente Sem Técnica é alguém com nome de peso e nenhuma técnica de clã.
 
@@ -2185,16 +2140,16 @@ Fundamento, do jeito padrão.
 | Repetição | um Teste de Resistência nomeado (1) | por cena |
 | Biblioteca | duas perícias (2) | por cena |
 
-> **Conversa de Jantar** — uma vez por cena, contra uma técnica de clã, você sabe o que vem: vantagem no Teste de Resistência contra ela. Você cresceu ouvindo falar dessas técnicas à mesa, com nome e com defeito.
-> *Na mesa:* brilha quando o antagonista é do meio, e é justamente aí que a campanha costuma doer mais.
+> **Conversa de Jantar** — **uma vez por cena, role com vantagem o Teste de Resistência contra uma técnica de clã.**
+> *Na mesa:* serve quando o antagonista é do meio. *Exemplo: o feiticeiro do outro lado usa a técnica da casa dele, e você já ouviu falar dos defeitos dela.*
 
-> **Etiqueta** — uma vez por cena, refaça um teste social que você falhou diante de alguém de patente ou clã superior ao seu. Você foi treinado para essa sala desde criança.
-> *Na mesa:* audiência, tribunal interno, jantar de família, reunião de clã. A cena em que a equipe inteira depende de uma frase sua.
+> **Etiqueta** — **uma vez por cena, refaça um teste social que você falhou diante de alguém de patente ou clã superior ao seu.**
+> *Na mesa:* serve em audiência, tribunal interno e reunião de clã. *Exemplo: você erra o tom com o chefe da casa e conserta antes de a porta fechar.*
 
-> **Repetição** — na criação, escolha um Teste de Resistência: é contra aquilo que a sua família te drilou, todo dia, por anos. Uma vez por cena, role-o com vantagem.
+> **Repetição** — **escolha um Teste de Resistência na criação. Uma vez por cena, role-o com vantagem.**
 
-> **Biblioteca** — uma vez por cena, refaça um teste de História ou Ocultismo que você falhou. A sua casa tinha os livros, e você foi obrigado a ler.
-> *Na mesa:* segura a cena de pesquisa, que é onde a campanha costuma parar por causa de um dado ruim.
+> **Biblioteca** — **uma vez por cena, refaça um teste de `História` ou `Ocultismo` que você falhou.**
+> *Na mesa:* serve na cena de pesquisa. *Exemplo: o grupo trava no arquivo por causa de um dado ruim, e você tenta de novo.*
 
 #### Desliga
 
@@ -2204,21 +2159,15 @@ Fundamento, do jeito padrão.
 | Coleira | ser localizado ou rastreado | sempre |
 | Cabo | ficar `Desarmado` | por cena |
 
-> **Coleira** — o seu clã te selou na infância: técnica nenhuma te localiza, te rastreia ou te encontra à distância. Em troca, o selo é dos dois lados: a sua família sempre sabe onde você está, e nunca precisou perguntar.
-> *Na mesa:* o grupo pode se esconder do inimigo inteiro por sua causa, e nunca da sua casa. Toda fuga tem uma testemunha garantida.
+> **Coleira** — **o seu clã te selou na infância: técnica nenhuma te localiza, te rastreia ou te encontra à distância.** Em troca, a sua família sempre sabe onde você está.
+> *Na mesa:* serve quando o grupo precisa sumir. *Exemplo: o inimigo perde vocês na cidade, e a sua casa não.*
 
-> **Cabo** — a sua mão conhece o cabo antes de a cabeça mandar: uma vez por cena, você não fica `Desarmado`, e a ferramenta escorrega e volta. Em troca, você não larga ela quando devia: quem revista acha, quem te vê armado te trata como armado, e você não atravessa lugar nenhum como civil.
-> *Na mesa:* a peça do clã não sai da sua mão, e nenhuma porta que peça gente desarmada se abre para você.
+> **Cabo** — **uma vez por cena, você não fica `Desarmado`: a arma escorrega e volta para a sua mão.** Em troca, você não larga ela quando devia, e não atravessa lugar nenhum como civil.
+> *Na mesa:* serve quando desarmar você era o plano. *Exemplo: a técnica arranca a sua lâmina, e ela volta antes de encostar no chão.*
 
 ## Reencarnado
 
 *Você já foi outra pessoa, e o corpo em que você está não nasceu seu.*
-
-Alguém te selou, te guardou e te trouxe de volta, ou você aceitou ser guardado. Você acordou num corpo preparado, e quem estava nele antes não está mais. Entre uma coisa e outra pode ter passado um século ou mil anos, e o mundo mudou de idioma, de moeda e de mapa no meio do caminho.
-
-Quase tudo o que você sabe está desatualizado. Você erra o nome dos clãs que mandam hoje, não reconhece metade da tecnologia que as pessoas usam para tarefas triviais, e leva um tempo até entender que a instituição virou burocracia. Em compensação, você sabe coisa que ninguém vivo sabe: onde as coisas estavam, quem fez o quê, como se fazia antes de alguém simplificar o método. E tem o detalhe de que o corpo em que você acordou teve uma vida, com endereço, documento e gente esperando na porta.
-
-A instituição não tem casinha para você. Reencarnado entra na papelada como incidente, e o registro do corpo continua dizendo outro nome. Quem descobre o que você é costuma descobrir por acidente, e reagir rápido: a leitura padrão do meio é que corpo ocupado por consciência antiga é obra de alguém, e alguém que faz isso está fazendo por algum motivo. O tipo de pessoa que aceita voltar é gente que deixou assunto aberto, ou gente que nunca teve o que fazer com paz.
 
 > **A diferença para Receptáculo.** Receptáculo é simbiose: os dois estão lá. Reencarnado é sobrescrita: sobrou um.
 
@@ -2255,14 +2204,17 @@ Fundamento, do jeito padrão.
 | Enterrado | sem relógio |
 | Sem Técnica → ver *Sem Técnica* | sem relógio |
 
-> **O Que Ninguém Lembra** — uma vez por descanso longo, você sabe um lugar, um nome ou uma técnica de antes do seu tempo, e isso responde uma dúvida que ninguém vivo responderia.
+> **O Que Ninguém Lembra** — **uma vez por descanso longo, você sabe um lugar, um nome ou uma técnica de antes do seu tempo, e isso responde uma dúvida que ninguém vivo responderia.**
+> *Na mesa:* serve quando a investigação trava. *Exemplo: o selo do porão tem duzentos anos, e você sabe quem o pôs ali e por quê.*
 
-> **Encomenda** — alguém pagou para você voltar. Escreva quem foi e qual era a condição do acordo. Essa pessoa está viva, considera o acordo aberto, e o que ela acha que comprou não é necessariamente o que você acha que vendeu.
+> **Encomenda** — **escreva na ficha quem pagou para você voltar e qual era a condição do acordo. Essa pessoa está viva e considera o acordo aberto.** O que ela acha que comprou pode não ser o que você acha que vendeu.
+> *Na mesa:* serve quando a campanha precisa de um credor. *Exemplo: a pessoa aparece no meio da missão cobrando o que combinaram.*
 
-> **Quem Morava Aqui** — este corpo teve uma vida. Escreva de quem ele era, e uma pessoa que ainda está esperando essa pessoa voltar. Ela não sabe que é você quem está aqui agora. Ela continua esperando, e continua procurando.
+> **Quem Morava Aqui** — **escreva na ficha de quem era este corpo, e uma pessoa que ainda espera essa pessoa voltar. Ela não sabe que é você quem está aqui.**
+> *Na mesa:* serve quando o grupo passa pela vida antiga do corpo. *Exemplo: alguém te chama pelo nome do antigo dono no meio da rua.*
 
-> **Enterrado** — você guardou uma coisa antes de morrer, e nunca voltou para buscar. Escreva o que é e onde está. Continua lá, se o lugar ainda existir. Faz tempo demais para alguém ter tido motivo de mexer.
-> *Na mesa:* põe no mapa um ponto que só você conhece, e um lugar que mudou de dono várias vezes desde então.
+> **Enterrado** — **escreva na ficha uma coisa que você guardou antes de morrer e onde ela está. Continua lá, se o lugar ainda existir.**
+> *Na mesa:* põe no mapa um ponto que só você conhece. *Exemplo: o grupo precisa de dinheiro ou de uma arma, e você sabe de um esconderijo de cem anos atrás.*
 
 > **Sem Técnica** — você tem energia amaldiçoada e a técnica não veio junto. O texto está adiante, em *Legado de Sem Técnica*.
 
@@ -2276,16 +2228,17 @@ Fundamento, do jeito padrão.
 | Já Morri | uma condição nomeada (1) | por cena |
 | Método Velho | uma situação nomeada (1) | por cena |
 
-> **Corpo Emprestado** — dor não te para como para os outros: uma vez por cena, role com vantagem o Teste de Resistência contra ficar `Incapacitado` (condição). O corpo avisa os outros e não avisa você.
-> *Na mesa:* é o personagem que continua de pé na cena em que devia cair, e que só descobre o tamanho do estrago depois.
+> **Corpo Emprestado** — **uma vez por cena, role com vantagem o Teste de Resistência contra ficar `Incapacitado`.** O corpo avisa os outros e não avisa você.
+> *Na mesa:* serve na cena em que você devia cair. *Exemplo: o golpe abre a sua guarda e você continua de pé, e só vê o estrago depois.*
 
-> **Espasmo** — uma vez por cena, refaça um Teste de Resistência Físico ou de Vigor que você já tenha falhado. O corpo fez uma coisa que você não mandou, e quem estava aqui antes ainda está nos músculos.
+> **Espasmo** — **uma vez por cena, refaça um Teste de Resistência Físico ou de Vigor que você falhou.**
+> *Na mesa:* serve quando o corpo tinha que ter respondido. *Exemplo: você não sai da frente do desabamento, e sai.*
 
-> **Já Morri** — uma vez por cena, role com vantagem o Teste de Resistência contra ficar `Amedrontado` (condição). Você já esteve do outro lado e não achou grande coisa. Não mede risco como quem tem uma vida só.
-> *Na mesa:* aparece contra maldição de terror e contra intimidação em cena social. Você é quem entra na sala que o resto do grupo evita.
+> **Já Morri** — **uma vez por cena, role com vantagem o Teste de Resistência contra ficar `Amedrontado`.**
+> *Na mesa:* serve contra maldição de terror e contra intimidação. *Exemplo: você é quem entra na sala que o resto do grupo evita.*
 
-> **Método Velho** — uma vez por cena, um teste que envolva método antigo (ritual, selo, barreira velha, escrita morta) sai como se você fosse treinado nele. Era assim que se fazia no seu tempo.
-> *Na mesa:* ruína, templo lacrado, documento em língua morta, barreira que ninguém abre há gerações. Você é o único que sabe por onde começar.
+> **Método Velho** — **uma vez por cena, um teste que envolva método antigo — ritual, selo, barreira velha, escrita morta — sai como se você fosse treinado nele.**
+> *Na mesa:* serve em ruína, templo lacrado e documento em língua morta. *Exemplo: a barreira do santuário não abre há gerações, e você sabe por onde começar.*
 
 #### Desliga
 
@@ -2295,20 +2248,15 @@ Fundamento, do jeito padrão.
 | Conhecido | ser puxado pela atração de um objeto amaldiçoado | sempre |
 | Usado | ficar `Derrubado` | por cena |
 
-> **Conhecido** — maldição que um objeto amaldiçoado puxou não vem atrás de você. Você já foi um: para ela, você é parte do lugar, e não o que ela veio buscar. Em troca, a atração também não te avisa — o aperto que faz todo mundo do grupo olhar em volta quando tem objeto sem selo por perto não chega em você, e você entra sem perceber.
-> *Na mesa:* o grupo carrega um objeto e passa a noite sendo procurado; você dorme. E quando a sala está errada e todo mundo sente, você é o que entra primeiro.
+> **Conhecido** — **maldição que um objeto amaldiçoado puxou não vem atrás de você.** Em troca, a atração também não te avisa: o aperto que faz o resto do grupo olhar em volta não chega em você.
+> *Na mesa:* serve quando o grupo carrega um objeto sem selo. *Exemplo: eles passam a noite sendo procurados e você dorme — e entra primeiro na sala errada, sem sentir nada.*
 
-> **Usado** — este corpo já esteve em estado muito pior que este, e levantou: uma vez por cena, você não fica `Derrubado`. Em troca, ele cobra depois — o mestre diz uma coisa pequena que o seu corpo passa a fazer errado até o fim da cena, e ela é sua e não dele.
+> **Usado** — **uma vez por cena, você não fica `Derrubado`.** Em troca, o mestre diz uma coisa pequena que o seu corpo passa a fazer errado até o fim da cena.
+> *Na mesa:* serve quando cair custava a rodada. *Exemplo: a onda te joga no chão e você não vai — e a sua mão esquerda para de fechar direito até a cena acabar.*
 
 ## Feto
 
 *Alguém te fez, peça por peça.*
-
-Meio humano, meio maldição, e as duas metades são de verdade. Nem todo Feto é Pintura da Morte, mas todo Feto é cria artificial de alguém que estava tentando alguma coisa. Existe um método, existe uma anotação em algum lugar dizendo o que deu certo e o que não deu, e existe uma numeração que veio antes do seu nome.
-
-O corpo funciona com regra própria. Envelhece em outro calendário, aguenta coisa que humano não aguenta, e falha em coisa que humano nem repara que está fazendo. Você pode ter passado décadas guardado antes de alguém decidir que estava na hora de você acordar, e esse tempo conta na sua cabeça mesmo sem ter contado no seu rosto. Você reconhece parente pelo que ele é, e não pelo que ele parece.
-
-Para a instituição você é, no papel, uma maldição com nome. Tem gente que assinaria a sua execução sem ler o resto da pasta, e tem gente do departamento técnico que quer te estudar por um motivo que não é carinho. Entre os dois grupos sobra um espaço estreito de gente que trabalha contigo porque você é bom no serviço, e essa é a rede de contato que um Feto costuma ter: pequena, prática e sem ilusão.
 
 **Na obra:** o Choso e os irmãos, ventres de Pintura da Morte, metade humano e metade maldição.
 
@@ -2343,16 +2291,17 @@ Fundamento, do jeito padrão.
 | Devagar | sem relógio |
 | Sem Técnica → ver *Sem Técnica* | sem relógio |
 
-> **Irmãos** — escreva quantos vocês eram e o que aconteceu com eles. Você reconhece um irmão quando encontra, e sabe quando um morre, esteja onde estiver. Nem todos se parecem com você: quem te fez fez outras coisas, em outros lugares, e algumas delas nasceram de gente.
+> **Irmãos** — **escreva na ficha quantos vocês eram e o que aconteceu com eles. Você reconhece um irmão quando encontra, e sabe quando um morre, esteja onde estiver.** Nem todos se parecem com você.
+> *Na mesa:* serve a qualquer momento, e o mestre escolhe quando. *Exemplo: no meio de outra cena você sente que um irmão acabou de morrer, e não sabe onde.*
 
-> **Numeração** — você é um número dentro do que alguém estava tentando. Escreva qual é o seu e quantos eram no total. Quem sabe do assunto reconhece a série.
-> *Na mesa:* transforma qualquer documento antigo em pista. Basta o número aparecer numa lista para a cena passar a ser sobre você.
+> **Numeração** — **escreva na ficha o seu número e quantos eram no total. Quem sabe do assunto reconhece a série.**
+> *Na mesa:* serve quando aparece documento antigo. *Exemplo: o registro que o grupo achou lista a sua série, e a investigação passa a ser sobre você.*
 
-> **Guardado** — antes de acordar você foi coisa, e alguém te teve. Escreva quem te guardou, onde, e por quanto tempo. Essa pessoa, ou o que sobrou dela, ainda tem a ver com você.
-> *Na mesa:* põe um lugar concreto no mapa e um dono para ele. Voltar lá é sempre uma decisão pesada, e por isso rende.
+> **Guardado** — **escreva na ficha quem te guardou antes de você acordar, onde, e por quanto tempo. Essa pessoa, ou o que sobrou dela, ainda tem a ver com você.**
+> *Na mesa:* põe um lugar concreto no mapa, com dono. *Exemplo: a missão passa perto de onde você ficou guardado, e alguém lá ainda te reconhece.*
 
-> **Devagar** — o seu corpo não envelhece no calendário dos outros. Escreva há quanto tempo você existe e com que idade você parece. Quem te conheceu antes vai notar; você não.
-> *Na mesa:* abre a campanha para o passado. Gente que te conheceu há trinta anos está viva, velha, e vai reagir ao te ver igual.
+> **Devagar** — **escreva na ficha há quanto tempo você existe e com que idade você parece. O seu corpo não envelhece no calendário dos outros.**
+> *Na mesa:* abre a campanha para o passado. *Exemplo: alguém que te conheceu há trinta anos está velho, e você não.*
 
 > **Sem Técnica** — você tem energia amaldiçoada e a técnica não veio junto. O texto está adiante, em *Legado de Sem Técnica*.
 
@@ -2366,17 +2315,17 @@ Fundamento, do jeito padrão.
 | Faro | maldição (1) | por cena |
 | Paciência | qualquer perícia | por dia |
 
-> **Meio e Meio** — uma vez por cena, role com vantagem um Teste de Resistência contra veneno ou doença. Metade de você não é feita de carne, e essa metade não escuta.
-> *Na mesa:* você é quem entra no lugar contaminado, prova o que ninguém prova e segura a maldição que trabalha por apodrecimento.
+> **Meio e Meio** — **uma vez por cena, role com vantagem um Teste de Resistência contra veneno ou doença.**
+> *Na mesa:* serve no lugar contaminado. *Exemplo: o porão está cheio de gás e é você que desce.*
 
-> **Como Se Monta** — uma vez por cena, refaça um teste de Medicina que você falhou. Você sabe do que corpo é feito porque alguém montou o seu na sua frente.
-> *Na mesa:* estabilizar companheiro caído, ler cadáver, entender o que uma técnica fez com o corpo da vítima.
+> **Como Se Monta** — **uma vez por cena, refaça um teste de `Medicina` que você falhou.**
+> *Na mesa:* serve para estabilizar caído e ler cadáver. *Exemplo: você falha em segurar o companheiro a 0 de vida, e tenta de novo.*
 
-> **Faro** — uma vez por cena, quando o que você procura é maldição, role Sentir Energia no lugar de Investigação. Você sente onde ela está, porque é parente.
-> *Na mesa:* corta a busca por prédio, por bairro ou por escombro, e devolve a cena para a parte em que a coisa aparece.
+> **Faro** — **uma vez por cena, quando o que você procura é maldição, role `Sentir Energia` no lugar de `Investigação`.**
+> *Na mesa:* corta a busca por prédio ou por escombro. *Exemplo: o grupo ia vasculhar três andares, e você aponta o certo.*
 
-> **Paciência** — uma vez por dia, refaça um teste de perícia feito enquanto você esperava, vigiava ou estava escondido sem se mexer. Você já passou mais tempo parado do que a maior parte das pessoas passa viva.
-> *Na mesa:* recompensa o plano de tocaia. O grupo pode escolher esperar sabendo que você aguenta a espera melhor do que o alvo.
+> **Paciência** — **uma vez por dia, refaça um teste de perícia feito enquanto você esperava, vigiava ou estava escondido sem se mexer.**
+> *Na mesa:* recompensa o plano de tocaia. *Exemplo: você falha na `Furtividade` na terceira hora de espera, e tenta de novo.*
 
 #### Desliga
 
@@ -2386,27 +2335,25 @@ Fundamento, do jeito padrão.
 | Sangue que Não é Sangue | comer, dormir, respirar | sempre |
 | Talhe | ficar `Agarrado` | por cena |
 
-> **Sangue que Não é Sangue** — você não precisa comer, dormir nem respirar como um humano. Isso resolve problemas que param os outros. Em troca, cria problemas que os outros não têm, e nenhum deles tem nome ainda, porque ninguém precisou nomear fome para gente que come.
-> *Na mesa:* água funda, gás, soterramento, vigília de vários dias. E a cena em que o grupo senta para comer e você fica olhando.
+> **Sangue que Não é Sangue** — **você não precisa comer, dormir nem respirar como um humano.** Em troca, o seu corpo tem necessidades que ninguém sabe nomear.
+> *Na mesa:* serve em água funda, gás, soterramento e vigília longa. *Exemplo: o corredor está inundado e é você que atravessa.*
 
-> **Talhe** — você foi guardado antes de andar, e o corpo aprendeu a sair: uma vez por cena, você não fica `Agarrado`. Em troca, você sai por onde couber — quem te agarrou escolhe se você larga uma coisa que estava na sua mão ou termina o movimento fora da posição em que queria estar.
-> *Na mesa:* nenhum agarrão prende você duas vezes na mesma cena, e sair sempre custa a sua arma ou o seu lugar.
+> **Talhe** — **uma vez por cena, você não fica `Agarrado`.** Em troca, você sai por onde couber: quem te agarrou escolhe se você larga o que estava na sua mão ou termina fora da posição que queria.
+> *Na mesa:* serve quando te agarrar era o plano. *Exemplo: a coisa fecha a mão em você, você sai, e a sua arma fica lá.*
 
 ## Sem Técnica
 
 *Você tem energia amaldiçoada e não tem técnica inata.*
 
-É mais comum do que a ficção faz parecer. A maior parte da gente que trabalha no meio jujutsu está nessa situação, e a estrutura inteira depende dessas pessoas: quem levanta véu, quem faz varredura de bairro, quem escolta, quem cura, quem sustenta a escola de pé enquanto os nomes grandes viajam.
-
-O meio te trata de acordo. Ninguém te chama para a missão que precisa de uma técnica específica; te chamam para as outras noventa. Isso significa carga de trabalho e pouca vitrine, e significa também que você aprende o ofício de verdade, porque o serviço nunca para. Quem vem de clã e nasce Sem Técnica costuma carregar uma vergonha que a família não deixa esquecer. Quem vem de fora costuma nem saber que devia estar constrangido, e trabalha melhor por isso.
-
-Sem Técnica se soma a uma das cinco Origens principais. Você continua sendo Latente, Receptáculo, Descendente, Reencarnado ou Feto, com a marca de que a técnica não veio junto. Na obra isso é a Miwa: nome de peso, nenhuma técnica de clã.
+**Sem Técnica se soma a uma das cinco Origens principais.** Você continua sendo Latente, Receptáculo, Descendente, Reencarnado ou Feto, com a marca de que a técnica não veio junto.
 
 O poder vem de dois lugares.
 
-**Aptidão.** Você foi fundo no que todo feiticeiro pode fazer, em vez de ter uma coisa que só você faz. É a Shoko Ieiri, cuja Energia Reversa vale mais do que a maior parte das técnicas.
+**Aptidão.** Você foi fundo no que todo feiticeiro pode fazer.
 
-**Estilo da Sombra.** Você aprendeu a matar maldição com técnica de espada e de corpo, sem precisar de técnica amaldiçoada. É a Miwa e o Kusakabe.
+**Estilo da Sombra.** Você mata maldição com técnica de espada e de corpo, sem técnica amaldiçoada.
+
+**Na obra:** a Miwa e o Kusakabe, pelo Estilo da Sombra; a Shoko Ieiri, pela Aptidão.
 
 ### Efeito na ficha
 
@@ -2420,21 +2367,15 @@ Aptidão ou Estilo da Sombra.
 
 ### Legado de Sem Técnica
 
-Sem Técnica não amplia a conta de Legados. Ela é uma entrada de `Destranca` e ocupa uma das duas vagas, como qualquer outra. Cinco Origens compartilham esta entrada em vez de cada uma repetir o texto na própria lista: Latente, Receptáculo, Descendente, Reencarnado e Feto.
+Sem Técnica não amplia a conta de Legados: ela é uma entrada de `Destranca` e ocupa uma das duas vagas, como qualquer outra. Cinco Origens alcançam ela — Latente, Receptáculo, Descendente, Reencarnado e Feto.
 
-> **Sem Técnica** — você tem energia amaldiçoada, e a técnica não veio junto: é outro caminho de poder. O seu poder não sai do Fundamento. Ele sai de aptidão ou de escola de espada, e é lá que você monta o personagem.
+> **Sem Técnica** — **você tem energia amaldiçoada e a técnica não veio junto. O seu poder não sai do Fundamento: sai de aptidão ou de escola de espada, e é lá que você monta o personagem.**
 
-Corpo Amaldiçoado e Restrição Celestial não aceitam Sem Técnica. As duas já vêm com uma troca própria embutida no lugar da técnica.
+Corpo Amaldiçoado e Restrição Celestial não aceitam Sem Técnica. As duas já vêm com uma troca própria no lugar da técnica.
 
 ## Corpo Amaldiçoado
 
 *Alguém te fez, e você acordou.*
-
-Cadáver Amaldiçoado de Mutação Abrupta, na linguagem da instituição. Você tem consciência e vontade própria. Técnica amaldiçoada e corpo humano você não tem, e ninguém sabe explicar direito por que a consciência apareceu: o método conhecido produz coisas que obedecem, e você faz perguntas.
-
-Quem te fez trabalhou com núcleos, e o arranjo deles é o que te decidiu. Três num corpo só é o jeito que funciona, porque três se equilibram e se vigiam. Dois brigam. Um não devia acordar. O que existe dentro de você conversa entre si de um jeito que você mesmo tem dificuldade de descrever para outra pessoa, e as pessoas perguntam.
-
-O meio jujutsu não sabe onde te colocar, e resolve isso de vários jeitos ruins. No papel você pode ser equipamento, aluno, prova de conceito ou pendência administrativa, dependendo de quem preencheu a ficha. Tem gente que fala de você em terceira pessoa na sua frente. Tem gente que te trata melhor do que trata os colegas humanos, e isso também é um jeito de dizer que você é exceção. Quem te fez tem opinião sobre tudo isso e quase nunca é chamado a dar.
 
 **Na obra:** o Panda, feito pelo Yaga, com três núcleos que ele troca à vontade: o de gorila, o de panda e o de tricerátops.
 
@@ -2472,15 +2413,17 @@ Você tem energia amaldiçoada, então tem PE, aptidões e refino como qualquer 
 | Inteiro | sem relógio |
 | Manutenção | sem relógio |
 
-> **Ninhada** — três seres num corpo só, obrigados a se olharem. É o método que funciona, e funcionou em você. Escreva o que são os três.
+> **Ninhada** — **três seres num corpo só, e é o arranjo que estabiliza. Escreva na ficha o que são os três.**
+> *Na mesa:* serve quando o grupo pede conselho. *Exemplo: os três discordam sobre entrar ou não, e você interpreta a discussão em voz alta.*
 
-> **Gêmeos** — foram dois, e dois não estabilizam. Vocês se revezam, e nenhum dos dois manda na hora da troca: quem escolhe a hora é o mestre. Vale combinar antes o que muda de uma para a outra.
+> **Gêmeos** — **foram dois, e dois não estabilizam. Vocês se revezam, e quem escolhe a hora da troca é o mestre.** Vale combinar antes o que muda de uma para a outra.
+> *Na mesa:* serve quando a troca cai na hora errada. *Exemplo: a outra assume no meio da negociação, e ela não sabe o que já foi combinado.*
 
-> **Inteiro** — um núcleo só, e mesmo assim você acordou. Pelo método conhecido isso não acontece.
-> *Na mesa:* você é a anomalia que os pesquisadores do meio querem abrir. Alguém está escrevendo sobre você agora.
+> **Inteiro** — **um núcleo só, e mesmo assim você acordou. Pelo método conhecido isso não acontece.**
+> *Na mesa:* serve quando alguém do meio descobre o que você é. *Exemplo: um pesquisador da escola quer te estudar, e não desiste.*
 
-> **Manutenção** — a consciência é sua; a energia é de quem te fez, e ela acaba. Escreva quem te abastece e o que ela cobra. Você decide quando ir.
-> *Na mesa:* põe um relógio na campanha inteira e uma pessoa a quem o grupo vai ter que voltar, gostando ou não.
+> **Manutenção** — **a consciência é sua; a energia é de quem te fez, e ela acaba. Escreva na ficha quem te abastece e o que essa pessoa cobra.** Você decide quando ir.
+> *Na mesa:* põe um relógio na campanha. *Exemplo: a energia começa a faltar no meio do arco, e voltar lá vira parte do plano.*
 
 #### Ajusta
 
@@ -2495,14 +2438,14 @@ Você tem energia amaldiçoada, então tem PE, aptidões e refino como qualquer 
 | Vigília | Iniciativa (1) | por cena |
 | Desempate | qualquer Teste de Resistência (4) | por dia |
 
-> **Rodízio** — escolha três perícias na criação, uma por ser. Uma vez por cena, role uma delas como se fosse treinada. Cada um sabia fazer uma coisa, e vocês três continuam sabendo.
-> *Na mesa:* cobre três buracos diferentes da equipe, um de cada vez, e dá nome a quem resolveu cada um.
+> **Rodízio** — **escolha três perícias na criação, uma por ser. Uma vez por cena, role uma delas como se fosse treinada.**
+> *Na mesa:* cobre três buracos da equipe, um de cada vez. *Exemplo: ninguém tem `Tecnologia`, e o segundo ser sabe.*
 
-> **Vigília** — uma vez por cena, role Iniciativa com vantagem. Nunca estão os três dormindo ao mesmo tempo.
-> *Na mesa:* emboscada contra o grupo deixa de ser emboscada contra você. É você quem abre a rodada.
+> **Vigília** — **uma vez por cena, role Iniciativa com vantagem.**
+> *Na mesa:* serve contra emboscada. *Exemplo: a coisa cai do teto e você age antes dela.*
 
-> **Desempate** — uma vez por dia, refaça um Teste de Resistência que você falhou. Dois cederam e o terceiro não, e é o terceiro que decide.
-> *Na mesa:* uso único e largo. Segure para o efeito que tiraria o personagem da cena de vez.
+> **Desempate** — **uma vez por dia, refaça um Teste de Resistência que você falhou.**
+> *Na mesa:* guarde para o efeito que tiraria o personagem da cena. *Exemplo: você falha contra `Petrificado`, e tenta de novo.*
 
 ##### Gêmeos
 
@@ -2513,14 +2456,14 @@ Você tem energia amaldiçoada, então tem PE, aptidões e refino como qualquer 
 | Nunca os Dois | Teste de Resistência de Intelecto (1) | por cena |
 | Palpite | qualquer perícia não treinada | por dia |
 
-> **Cabeça Trocada** — escolha uma perícia e um atributo na criação: é o jeito que a outra faz aquilo. Uma vez por cena, role essa perícia com esse atributo em vez do que ela pede.
-> *Na mesa:* é o momento em que a outra assume para fazer do jeito dela, na frente de quem está junto.
+> **Cabeça Trocada** — **escolha uma perícia e um atributo na criação. Uma vez por cena, role essa perícia com esse atributo em vez do que ela pede.**
+> *Na mesa:* serve quando o jeito de sempre não serve. *Exemplo: você rola `Persuasão` com Inteligência, porque a outra convence por argumento e não por presença.*
 
-> **Nunca os Dois** — uma vez por cena, refaça um Teste de Resistência de Intelecto que você falhou. Enquanto uma cede, a outra ainda está lá.
-> *Na mesa:* contra ilusão, leitura de mente e maldição que trabalha convencendo. Você é o alvo ruim para esse tipo de inimigo.
+> **Nunca os Dois** — **uma vez por cena, refaça um Teste de Resistência de Intelecto que você falhou.**
+> *Na mesa:* serve contra ilusão e leitura de mente. *Exemplo: a maldição te convence de que a saída é para o outro lado, e não cola.*
 
-> **Palpite** — uma vez por dia, role com vantagem um teste de perícia em que você não é treinado. Ela chuta, e ela chuta bem: você descobre junto com todo mundo.
-> *Na mesa:* resolve a perícia que ninguém da equipe tem, e rende a cena de todo mundo se virando para olhar.
+> **Palpite** — **uma vez por dia, role com vantagem um teste de perícia em que você não é treinado.**
+> *Na mesa:* resolve a perícia que ninguém tem. *Exemplo: alguém precisa ler o rastro e nenhum de vocês é treinado; você chuta bem.*
 
 ##### Inteiro
 
@@ -2531,14 +2474,14 @@ Você tem energia amaldiçoada, então tem PE, aptidões e refino como qualquer 
 | Teimosia | uma situação nomeada (1) | por cena |
 | Peça Única | uma perícia nomeada (1) | por cena |
 
-> **Feito de Uma Peça** — uma vez por cena, refaça um Teste de Resistência de Vigor que você falhou. Não existe parte sua que ceda antes das outras.
-> *Na mesa:* desgaste longo, fogo, frio, esforço que não acaba. Você é quem sustenta enquanto o resto do grupo trabalha.
+> **Feito de Uma Peça** — **uma vez por cena, refaça um Teste de Resistência de Vigor que você falhou.**
+> *Na mesa:* serve em desgaste longo, fogo e frio. *Exemplo: você falha em aguentar a fumaça e tenta de novo.*
 
-> **Teimosia** — uma vez por cena, refaça um teste para continuar fazendo uma coisa que você já começou (segurar, agarrar, sustentar, não largar). Ninguém aí dentro discorda de você no meio.
-> *Na mesa:* segurar a porta, prender o inimigo no lugar, não soltar quem está caindo. É o Legado da cena em que a equipe depende de você não largar.
+> **Teimosia** — **uma vez por cena, refaça um teste para continuar fazendo uma coisa que você já começou** — segurar, agarrar, sustentar, não largar.
+> *Na mesa:* serve quando a equipe depende de você não largar. *Exemplo: você escorrega segurando a porta, e segura de novo.*
 
-> **Peça Única** — escolha uma perícia treinada na criação. Uma vez por cena, role com vantagem. Você faz uma coisa, e faz bem.
-> *Na mesa:* declara desde a criação para que serve o personagem, e o grupo pode contar com isso toda cena.
+> **Peça Única** — **escolha uma perícia treinada na criação. Uma vez por cena, role com vantagem.**
+> *Na mesa:* declara desde a criação para que serve o personagem. *Exemplo: a sua é `Atletismo`, e é você que sobe.*
 
 ##### Manutenção
 
@@ -2549,14 +2492,14 @@ Você tem energia amaldiçoada, então tem PE, aptidões e refino como qualquer 
 | Recarga | duas perícias nomeadas (2) | por descanso curto |
 | Fiado | qualquer rolagem | por dia |
 
-> **Ajuste Fino** — escolha um ofício na criação: é o de quem te fez, e você viu por dentro como se faz. Uma vez por cena, role com vantagem.
-> *Na mesa:* você é a oficina ambulante da equipe naquele ofício, e cada uso lembra de quem você aprendeu.
+> **Ajuste Fino** — **escolha um ofício na criação. Uma vez por cena, role com vantagem.**
+> *Na mesa:* serve no ofício de quem te fez. *Exemplo: o seu é `Forja`, e o equipamento do grupo atravessa a campanha inteiro.*
 
-> **Recarga** — escolha duas perícias na criação: são as que ela calibrou em você. Uma vez por descanso curto, role uma delas com vantagem.
-> *Na mesa:* o relógio mais rápido da Origem. Rende em sessão de missão longa, com paradas curtas entre confrontos.
+> **Recarga** — **escolha duas perícias na criação. Uma vez por descanso curto, role uma delas com vantagem.**
+> *Na mesa:* é o relógio mais rápido da Origem. *Exemplo: numa missão de quatro confrontos você usa quatro vezes.*
 
-> **Fiado** — uma vez por dia, refaça qualquer rolagem que você falhou: ela cobre a diferença de onde estiver. Escreva na ficha o que você passou a dever, e isso não sai no descanso.
-> *Na mesa:* o grupo vê a dívida crescer sessão a sessão, e uma hora alguém vem cobrar. Essa hora é cena.
+> **Fiado** — **uma vez por dia, refaça qualquer rolagem que você falhou. Escreva na ficha o que você passou a dever, e isso não sai no descanso.**
+> *Na mesa:* a dívida cresce sessão a sessão. *Exemplo: você usa três vezes num arco, e na quarta quem te abastece vem cobrar.*
 
 #### Desliga
 
@@ -2566,21 +2509,20 @@ Você tem energia amaldiçoada, então tem PE, aptidões e refino como qualquer 
 | Ferro Velho | os degraus de exaustão | sempre |
 | *vaga reservada* | alvo ainda não escolhido | — |
 
-> **Ferro Velho** — os degraus de exaustão não te alcançam. Você dorme só porque combinaram que era hora. Em troca, você também não sente quando está perto de quebrar: o seu corpo para de uma vez, sem aviso antes.
+> **Ferro Velho** — **os degraus de exaustão não te alcançam.** Em troca, você não sente quando está perto de quebrar: o seu corpo para de uma vez, sem aviso.
+> *Na mesa:* serve em missão longa. *Exemplo: o grupo pega três degraus de exaustão na semana e você nenhum.*
 
 ## Restrição Celestial
 
 *Você trocou uma coisa por outra antes de nascer, e não foi você que assinou.*
 
-A troca é sempre desproporcional para os dois lados: você perde muito e ganha muito. Ninguém negociou, ninguém consultou, e não existe registro de quem cobrou. O meio jujutsu conhece o fenômeno há séculos, tem nome para ele e nunca conseguiu explicar por que acontece com quem acontece.
+**São dois ramos opostos, e você escolhe um na criação.**
 
-São dois ramos opostos, e você escolhe um na criação.
+**Corpo pela técnica.** O corpo não funciona, e em troca a energia é enorme.
 
-**Corpo pela técnica.** O corpo não funciona, e em troca a energia é enorme. É o Kokichi Muta: pele que não aguenta sol, membros que faltam, dor constante, e energia suficiente para operar cadáveres amaldiçoados a uma distância absurda. Ele pilota o Mechamaru de casa. O boneco vai à escola; a Origem descreve quem ficou.
+**Sem energia.** Você nasceu sem energia amaldiçoada nenhuma, e em troca o corpo recebeu a troca. Você não conjura, não canaliza e não sente energia, e fere maldição com ferramenta amaldiçoada. **A Origem fixa a perda e não o que você constrói em cima dela:** um restringido que nunca levantou peso e resolve tudo pela cabeça é uma ficha legítima.
 
-**Sem energia.** Você nasceu sem energia amaldiçoada, nenhuma, e em troca o corpo recebeu a troca. É a Maki e o Toji. Você não conjura, não canaliza e não sente energia. Fere maldição com ferramenta amaldiçoada, e enxerga o mundo jujutsu de fora. O que a Origem fixa é a perda, e não o que você constrói em cima dela: um restringido que nunca levantou peso e resolve tudo pela cabeça é uma ficha tão legítima quanto o Toji.
-
-Os clãs tratam os dois ramos como defeito de nascença, e tratam pior o segundo. Uma criança que nasce sem energia dentro de uma família do meio cresce sendo tratada como erro de produção, e o meio inteiro aceita isso com naturalidade. A instituição, por sua vez, é pragmática: gente com Restrição Celestial costuma render mais que a média, e a papelada acompanha o rendimento. Você vai ser útil, vai ser exibido, e vai ouvir a mesma frase sobre o seu corpo a vida inteira, dita por gente que acha que está sendo gentil.
+**Na obra:** o Kokichi Muta, pelo corpo; a Maki e o Toji, pela falta de energia.
 
 ### Efeito na ficha
 
@@ -2626,15 +2568,17 @@ Quem é do ramo sem energia não alcança `Sentir Energia` por lugar nenhum: ela
 | A Oferta | você já pensou no preço de um corpo que funcione | sem relógio |
 | Nunca Estive Lá | você conhece lugares onde o seu corpo nunca esteve | sem relógio |
 
-> **Nasci Assim** — escreva o que o seu corpo não faz, e o que isso te cobra todo dia: o que dói, o que falta, o que você não pode encarar. Não é segredo, e não tem conserto conhecido. Quem diz quando aquilo complica a cena é você.
+> **Nasci Assim** — **escreva na ficha o que o seu corpo não faz e o que isso te cobra todo dia. Quem diz quando aquilo complica a cena é você.** Não é segredo, e não tem conserto conhecido.
+> *Na mesa:* serve quando a cena pede o corpo. *Exemplo: o grupo precisa subir a escada de incêndio, e você diz o que isso te custa.*
 
-> **O Substituto** — o meio jujutsu conhece você por uma coisa que não é o seu corpo: um nome, uma voz, uma casca. Escreva o que é. Quase ninguém sabe que existe outra pessoa do outro lado, e quem sabe conta nos dedos.
-> *Na mesa:* o personagem pode estar em duas cenas ao mesmo tempo, e a revelação de quem está do outro lado é um marco de campanha inteiro.
+> **O Substituto** — **escreva na ficha a coisa pela qual o meio jujutsu te conhece, e que não é o seu corpo: um nome, uma voz, uma casca. Quase ninguém sabe que existe outra pessoa do outro lado.**
+> *Na mesa:* põe você em duas cenas ao mesmo tempo. *Exemplo: a casca está na reunião enquanto o seu corpo está em casa.*
 
-> **A Oferta** — você já pensou no que daria por um corpo que funcione, e já chegou a um número. Escreva qual é. Existe gente que vende esse tipo de coisa, e uma delas sabe que você existe.
+> **A Oferta** — **escreva na ficha o que você daria por um corpo que funcione. Existe gente que vende esse tipo de coisa, e uma delas sabe que você existe.**
+> *Na mesa:* serve quando o preço fica fácil de pagar. *Exemplo: no meio do arco a proposta volta, e agora ela custa menos do que custava.*
 
-> **Nunca Estive Lá** — a sua energia vai a lugares que você não vai. Escreva um lugar que você conhece de cor e onde o seu corpo nunca pisou, e o que você viu acontecer lá.
-> *Na mesa:* você é a planta baixa da equipe. Descreve o lugar antes de todo mundo chegar, e sabe o que aconteceu lá dentro.
+> **Nunca Estive Lá** — **escreva na ficha um lugar que você conhece de cor e onde o seu corpo nunca pisou, e o que você viu acontecer lá.**
+> *Na mesa:* você é a planta baixa da equipe. *Exemplo: o grupo vai entrar num prédio que você já vigiou de dentro sem estar lá.*
 
 #### Ajusta
 
@@ -2646,17 +2590,17 @@ Quem é do ramo sem energia não alcança `Sentir Energia` por lugar nenhum: ela
 | Insônia | qualquer perícia | por dia |
 | Li Tudo | duas perícias nomeadas (2) | por cena |
 
-> **Antena** — uma vez por cena, refaça um teste de Sentir Energia que você falhou. O seu alcance não é normal, e você passou a vida usando ele no lugar dos olhos.
-> *Na mesa:* varredura de área, detecção de emboscada, contagem de quantos são do outro lado da parede.
+> **Antena** — **uma vez por cena, refaça um teste de `Sentir Energia` que você falhou.**
+> *Na mesa:* serve em varredura e em emboscada. *Exemplo: você não sente ninguém do outro lado da parede, e conta de novo.*
 
-> **Do Meu Canto** — uma vez por cena, role com vantagem um teste feito sem sair do lugar em que você está. Você nunca precisou chegar perto para trabalhar.
-> *Na mesa:* recompensa a posição fixa. O personagem escolhe o canto no começo da cena e trabalha a cena inteira de lá.
+> **Do Meu Canto** — **uma vez por cena, role com vantagem um teste feito sem sair do lugar em que você está.**
+> *Na mesa:* recompensa a posição fixa. *Exemplo: você escolhe o canto na primeira rodada e trabalha a cena inteira de lá.*
 
-> **Insônia** — uma vez por dia, refaça um teste de perícia feito enquanto os outros dormiam. Dor não tem horário, e você aproveitou as horas.
-> *Na mesa:* a cena de madrugada, com o grupo dormindo, é sua. Pesquisa, vigília, conversa com quem também não dorme.
+> **Insônia** — **uma vez por dia, refaça um teste de perícia feito enquanto os outros dormiam.**
+> *Na mesa:* a cena de madrugada é sua. *Exemplo: o grupo dorme e você passa a noite no arquivo.*
 
-> **Li Tudo** — uma vez por cena, refaça um teste de Ocultismo ou Investigação que você falhou. Você teve tempo parado que ninguém mais teve.
-> *Na mesa:* segura a investigação quando o dado trava, que é onde a sessão costuma morrer.
+> **Li Tudo** — **uma vez por cena, refaça um teste de `Ocultismo` ou `Investigação` que você falhou.**
+> *Na mesa:* segura a investigação quando o dado trava. *Exemplo: a pista não sai no primeiro teste, e sai no segundo.*
 
 ### Legados: Sem Energia
 
@@ -2674,16 +2618,17 @@ Quem é do ramo sem energia não alcança `Sentir Energia` por lugar nenhum: ela
 | Desde Criança | a ferramenta que te acompanha desde sempre | sem relógio |
 | Aprendi a Ver | você não nasceu enxergando maldição | sem relógio |
 
-> **Descartado** — a sua família é do meio e te tratou como erro. Escreva quem te descartou e o que fizeram você fazer enquanto esteve lá. Eles continuam existindo, continuam achando que estavam certos, e você conhece a casa por dentro.
-> *Na mesa:* você é o mapa da casa do inimigo, e a única pessoa da equipe que sabe por onde se entra sem bater.
+> **Descartado** — **escreva na ficha quem da sua família te descartou e o que fizeram você fazer enquanto esteve lá. Você conhece a casa por dentro.**
+> *Na mesa:* você é o mapa da casa. *Exemplo: a missão leva o grupo até lá, e você sabe por onde se entra sem bater.*
 
-> **Dividido** — a sua restrição foi partida com alguém que nasceu junto de você. Escreva quem é e onde essa pessoa está. Enquanto os dois lados existirem, nenhum dos dois está inteiro.
-> *Na mesa:* entrega um NPC que a campanha vai perseguir, evitar ou enfrentar, e cuja existência mexe com o que o personagem é.
+> **Dividido** — **escreva na ficha quem nasceu junto de você e ficou com a outra metade da restrição, e onde essa pessoa está. Enquanto os dois existirem, nenhum dos dois está inteiro.**
+> *Na mesa:* põe uma pessoa no mundo que mexe com o que você é. *Exemplo: ela aparece do outro lado de uma missão, e o grupo tem que decidir o que faz.*
 
-> **Desde Criança** — existe uma ferramenta que anda com você desde antes de você escolher. Escreva o que é e como veio parar na sua mão. Quem entende de ferramenta reconhece aquela.
-> *Na mesa:* a peça tem história e tem quem a reconheça. Perder essa ferramenta é cena, e recuperá-la é arco.
+> **Desde Criança** — **escreva na ficha uma ferramenta que anda com você desde antes de você escolher, e como ela veio parar na sua mão. Quem entende de ferramenta reconhece aquela.**
+> *Na mesa:* a peça tem história e tem quem a reconheça. *Exemplo: o forjador da missão identifica a sua arma e quer saber como você a conseguiu.*
 
-> **Aprendi a Ver** — você não nasceu enxergando maldição, e a maior parte de quem te olha supõe que sim. Escreva como você resolveu isso: o que você usa, ou o que você treinou até substituir o que falta. O método tem limite próprio, e ele fica escrito na ficha junto.
+> **Aprendi a Ver** — **escreva na ficha como você resolveu não enxergar maldição: o que você usa, ou o que você treinou até substituir o que falta. O método tem limite próprio, e ele fica escrito junto.**
+> *Na mesa:* serve quando o método falha. *Exemplo: o que você usa para enxergar quebra no meio da missão, e o grupo passa a ser os seus olhos.*
 
 #### Ajusta
 
@@ -2695,17 +2640,17 @@ Quem é do ramo sem energia não alcança `Sentir Energia` por lugar nenhum: ela
 | Ninguém Viu | Furtividade (1) | por cena |
 | No Braço | qualquer perícia de Força ou Destreza | por dia |
 
-> **Sentido Treinado** — uma vez por cena, role Percepção no lugar de Sentir Energia. Você aprendeu a notar o que a energia mexe, em vez de senti-la direto.
-> *Na mesa:* é como o personagem participa da cena de detecção sem ter o sentido que todo mundo ali tem.
+> **Sentido Treinado** — **uma vez por cena, role `Percepção` no lugar de `Sentir Energia`.**
+> *Na mesa:* é como você entra na cena de detecção sem ter o sentido. *Exemplo: você não sente a maldição, e nota a poeira que ela move.*
 
-> **Couro** — uma vez por cena, refaça um Teste de Resistência Físico que você falhou. O corpo é a única coisa que a troca te deu, e ele é absurdo.
-> *Na mesa:* você é quem atravessa o que devia parar a equipe: queda, impacto, escombro, porta.
+> **Couro** — **uma vez por cena, refaça um Teste de Resistência Físico que você falhou.**
+> *Na mesa:* você atravessa o que devia parar a equipe. *Exemplo: a queda de dois andares não te tira da luta.*
 
-> **Ninguém Viu** — uma vez por cena, refaça um teste de Furtividade que você falhou. Você não emite nada, e passou a vida aproveitando isso.
-> *Na mesa:* nenhum feiticeiro te sente chegar. Em missão de infiltração você entra sozinho e os outros esperam.
+> **Ninguém Viu** — **uma vez por cena, refaça um teste de `Furtividade` que você falhou.**
+> *Na mesa:* nenhum feiticeiro te sente chegar. *Exemplo: em infiltração você entra sozinho e o resto espera.*
 
-> **No Braço** — uma vez por dia, refaça um teste de perícia de Força ou Destreza que você falhou.
-> *Na mesa:* a segunda chance na perseguição, na escalada e no agarrão, que é onde este personagem passa a maior parte do tempo.
+> **No Braço** — **uma vez por dia, refaça um teste de perícia de Força ou Destreza que você falhou.**
+> *Na mesa:* segunda chance em perseguição, escalada e agarrão. *Exemplo: você escorrega na fachada e segura na segunda tentativa.*
 
 ### Legados: Desliga
 
@@ -2717,10 +2662,11 @@ Quem é do ramo sem energia não alcança `Sentir Energia` por lugar nenhum: ela
 | Peso Real | ser enganado por barreira, véu e ferramenta | sempre |
 | Assinado | ficar `Cego` | por descanso longo |
 
-> **Peso Real** — você percebe ferramenta amaldiçoada, barreira e véu pelo tato e pelo peso. O que engana feiticeiro não engana você. Em troca, o aviso vem sem nome: você sente que tem alguma coisa ali, e nunca o que é.
-> *Na mesa:* você é o detector de armadilha do grupo em terreno preparado, e o que você entrega é um aviso que ninguém sabe interpretar sem investigar.
+> **Peso Real** — **você percebe ferramenta amaldiçoada, barreira e véu pelo tato e pelo peso, e o que engana feiticeiro não engana você.** Em troca, o aviso vem sem nome: você sente que tem alguma coisa ali, e nunca o que é.
+> *Na mesa:* você é o detector do grupo em terreno preparado. *Exemplo: você sente que o corredor tem barreira, e ninguém sabe de que tipo até investigar.*
 
-> **Assinado** — você nunca leu o mundo pela energia, e o resto do corpo cobriu: uma vez por descanso longo, você não fica `Cego`. Em troca, a troca não foi só essa. Escreva na ficha uma coisa comum que você nunca vai conseguir fazer, e ela não volta, em nível nenhum.
+> **Assinado** — **uma vez por descanso longo, você não fica `Cego`.** Em troca, escreva na ficha uma coisa comum que você nunca vai conseguir fazer, e ela não volta em nível nenhum.
+> *Na mesa:* a cena de escuro e de clarão não te tira do jogo. *Exemplo: a técnica estoura luz na sala e você continua agindo.*
 
 ## Rotas de criação
 
@@ -2745,7 +2691,6 @@ Quem é do ramo sem energia não alcança `Sentir Energia` por lugar nenhum: ela
 *fonte: `manual/35-caminhos-e-trilhas.md`*
 
 **O Caminho diz o seu lugar na equipe**, e você escolhe ele na criação. A Trilha diz quem você é dentro do Caminho, e ela nasce junto com ele, no nível 2. São cinco Caminhos, três Trilhas em cada um.
-
 
 ## Como ler um Caminho
 
@@ -2829,8 +2774,6 @@ E duas coisas que quase todo degrau daqui menciona:
 
 *O corpo é a resposta: aguentar, encarar, prender.*
 
-O Bastião entra primeiro na sala e sai por último. Em campo ele é o corpo que a maldição enxerga: fica na porta, fica na frente do civil, fica entre o time e a coisa. Quem escolhe o Bastião descobriu cedo que aguenta mais pancada que os outros e resolveu fazer disso um trabalho, com ou sem técnica boa para acompanhar.
-
 ### Características do Bastião
 
 **Características do Bastião**
@@ -2866,8 +2809,6 @@ O Bastião entra primeiro na sala e sai por último. Em campo ele é o corpo que
 
 *O espaço em volta de você deixa de ser do inimigo.*
 
-Quem joga de `Muro` planta os dois pés e vira geografia: escolhe um corredor, uma porta, uma linha no chão, e dali em diante o combate acontece nos termos dele. Você chega na cena procurando o ponto certo de parar de andar, e o seu turno rende quando o inimigo desiste de ir aonde queria ir.
-
 > **Nível 2: `Alicerce`.** *Ação bônus.* Você se firma no lugar. **Enquanto o `Alicerce` estiver de pé, o dano de dois tipos à sua escolha cai pela metade contra você, e o seu deslocamento é metade do normal.**
 > **Sair dele não custa nada**, e **os tipos se escolhem no fim de cada descanso longo**.
 >
@@ -2885,8 +2826,6 @@ Quem joga de `Muro` planta os dois pés e vira geografia: escolhe um corredor, u
 
 *Você bate mais vezes, e cada vez que bate alguém sai do lugar.*
 
-Quem joga de `Punho` briga sem arma no meio, socando até a formação do inimigo desmanchar — o brigão de rua que entrou para a instituição já sabendo apanhar e aprendeu técnica depois, meio de má vontade. Na mesa você olha o mapa antes de olhar a vida do alvo, porque o que decide a rodada é para onde a pessoa voa.
-
 > **Nível 2: `Engate`.** Quando você **acerta** um ataque na sua ação de atacar, você pode dar um golpe desarmado como **ação bônus**.
 >
 > **Nível 11: `Encontrão`.** Quando você acerta desarmado, **o alvo é empurrado até 3 m na direção que você escolher.** E **uma vez por rodada**, um alvo que você acertou faz um Teste de Resistência de Vigor; se falhar, fica **`Derrubado`** (condição).
@@ -2901,8 +2840,6 @@ Quem joga de `Punho` briga sem arma no meio, socando até a formação do inimig
 
 *O feitiço entra no meio dos socos.*
 
-Quem joga de `Brasa` abre no braço e fecha com energia: o soco é como você chega, e o Classe 0 é o que você faz depois de ter chegado. O que a Trilha acrescenta ao Bastião é alcance — ela pega alvo que está fora do braço, aplica tipo de dano que soco nenhum aplica, e devolve energia quando acerta.
-
 > **Nível 2: `Fagulha`.** Se você usou a ação de atacar neste turno, você pode lançar um feitiço de **Classe 0** como **ação bônus**. **E se algum dos seus socos acertou, esse feitiço é rolado com vantagem**, quando ele for um ataque.
 >
 > **Nível 11: `Braseiro`.** Quando o seu Classe 0 acerta, você ganha **`2` de energia temporária.** Ela nunca passa de `2` acumulados e some no fim da cena. *Energia temporária gasta como PE, e gasta primeiro.*
@@ -2912,12 +2849,9 @@ Quem joga de `Brasa` abre no braço e fecha com energia: o soco é como você ch
 >
 > **Nível 27: `Fornalha`.** *Ação bônus para entrar. Dura até o fim da cena.* **Cada ataque seu carrega um feitiço de Classe 0 junto, e cada ataque tem de ser num alvo diferente.** E a sua **ação bônus deixa de lançar feitiço e vira um soco a mais**, num terceiro alvo. **São três socos, três alvos, três Classe 0.**
 
-
 ## Vanguarda
 
 *A arma é a resposta: alcançar, cortar, acabar.*
-
-A Vanguarda encosta a lâmina onde ela precisa encostar, e chega lá antes do resto. Em campo ela é quem entra no alcance do inimigo e fica lá: corta, reposiciona, corta de novo. Ela treinou arma como quem treina técnica — anos numa categoria só, com professor, com forma, com linhagem —, e a energia amaldiçoada dela existe e é usada, só que ela não é o motivo de a Vanguarda estar na sala.
 
 ### Características da Vanguarda
 
@@ -2981,8 +2915,6 @@ A Manha dá identidade à sua ficha. Você vira a pessoa do machado, a pessoa da
 
 *A arma faz o que a luta pedir, e o que ela pede muda toda rodada.*
 
-Quem joga de `Estocada` troca de ferramenta mais rápido do que o inimigo troca de plano: espada na mão e técnica saindo por cima, na mesma rodada. A decisão de cada turno é qual feitiço vale gastar a ação padrão, sabendo que o golpe da bônus depende do que ele fez.
-
 > **Nível 2: `Compasso`.** Você usa a ação **Conjurar** na ação padrão e dá um **golpe com arma do grupo escolhido** como ação bônus.
 > **E naquele grupo de armas, o acerto e o dano usam Essência ou Inteligência** no lugar de Força ou Destreza. **O requisito de Força para empunhar continua valendo.**
 >
@@ -3000,9 +2932,7 @@ Quem joga de `Estocada` troca de ferramenta mais rápido do que o inimigo troca 
 
 *A luta acontece onde você decide, e você decide longe.*
 
-Quem joga de `Batedor` trata distância como arma: sobe, se afasta, escolhe o ângulo, e quando o inimigo chega perto a briga já está decidida há três rodadas. Você passa a cena pensando em linha de visão e rota de subida, dentro e fora de combate — vigilância de alvo, cobertura de quem entrou no prédio, o tiro que resolve a cena sem ninguém precisar atravessar a porta.
-
-**A rota se escolhe no nível 2 e vale a campanha inteira.** As três resolvem o mesmo problema (onde a luta acontece) por portas diferentes: o `Yumi` atira de onde ninguém alcança, a `Arma de Fogo` atira de dentro do aperto, e a `Besta` empurra o inimigo para fora do problema.
+**A rota se escolhe no nível 2 e vale a campanha inteira.** O `Yumi` atira de onde ninguém alcança, a `Arma de Fogo` atira de dentro do aperto, e a `Besta` empurra o inimigo para fora do problema.
 
 As três concedem a mesma ação no nível 11 e estendem ela no 27:
 
@@ -3057,8 +2987,6 @@ Pólvora, ruído e uma profissão que finge não usar isso. É a rota que funcio
 
 *Você mata o que ninguém consegue matar.*
 
-Quem joga de `Executor` trabalha sem técnica grande e sem gritaria: uma lâmina, um alvo, e a paciência de trocar golpe até acabar. Você aceita um turno simples e uma ficha teimosa: bate, apanha, repõe casca e bate de novo, e o inimigo acaba antes de você.
-
 > **Nível 2: `Pegada`.** Você escolhe um **estilo de luta**, e ele vale a campanha inteira. *Cada estilo pede um jeito diferente de segurar a arma.*
 >
 > **Nível 11: `Aprumo`.** *Ação bônus.* Você ganha **`1d10 + o seu atributo de ataque`** de `vida temporária`, Força ou Destreza, o que a sua ficha usa para bater. **`Metade desse atributo` usos**, e eles voltam no descanso curto.
@@ -3087,8 +3015,6 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 13, 
 ## Guia
 
 *O outro é a resposta: estender, recuperar, reposicionar.*
-
-O Guia faz o efeito de outra pessoa durar mais, pegar mais gente ou chegar mais longe. Ele passa a luta olhando para os aliados: quem está prestes a falhar um teste, quem está no lugar errado, quem cai na próxima rodada. Quando ele age, o resultado aparece na ficha de outra pessoa.
 
 ### Características do Guia
 
@@ -3127,8 +3053,6 @@ O Guia faz o efeito de outra pessoa durar mais, pegar mais gente ou chegar mais 
 
 *O que outra pessoa fez chega mais longe, dura mais e pega mais gente do que ela conseguiria sozinha.*
 
-Quem joga de `Elo` amplifica: você escolhe uma pessoa, e enquanto o elo estiver de pé o que ela faz chega mais longe. A ficha do `Elo` quase não causa dano, e a sua decisão de cada cena é em quem você está pendurado agora.
-
 > **Nível 2: `Nó`.** **Ação Bônus.** Escolha um aliado **que você enxerga**: vocês dois formam um **elo**. Ao formar, escolha **ataques de arma** ou **ataques de feitiço**, enquanto o elo durar, **os dois membros ganham `+1` de acerto** naquele tipo de ataque.
 > **O elo dura até você formar outro**, e **não se quebra por distância**.
 >
@@ -3145,8 +3069,6 @@ Quem joga de `Elo` amplifica: você escolhe uma pessoa, e enquanto o elo estiver
 ### Trilha: Sutura
 
 *O dano que já aconteceu não é definitivo enquanto você estiver na sala.*
-
-A `Sutura` põe o médico de campo no grupo — a pessoa que a instituição manda junto quando a missão tem chance real de alguém não voltar. A Trilha entrega a `Energia Reversa` sem os requisitos de nível e de refino que o resto da ficha paga, e no meio da luta a sua decisão é quem vale a energia.
 
 > **Nível 2: `Agulha`.** Você ganha a aptidão **`Energia Reversa`** **sem os requisitos de nível e de refino**. *Por uso, você não pode gastar mais que **`metade da sua maestria`** em PE.*
 >
@@ -3165,8 +3087,6 @@ A `Sutura` põe o médico de campo no grupo — a pessoa que a instituição man
 
 *Você escolhe onde todo mundo está.*
 
-Quem joga de `Perímetro` anda com uma área em volta do corpo, e dentro dela o inimigo rola pior, abre guarda e paga por tentar sair. O seu trabalho é posicionamento: você se coloca onde a área cobre o máximo de inimigo, e o resto do time luta dentro dela sem precisar saber por quê.
-
 > **Nível 2: `Chão`.** Você tem uma área de **`9 m` a partir de você**, e ela anda com você.
 > **`1×` por rodada**, um inimigo dentro dela **rerrola um Teste de Resistência e fica com o pior**. *Você declara **antes** de o resultado ser lido.*
 >
@@ -3182,8 +3102,6 @@ Quem joga de `Perímetro` anda com uma área em volta do corpo, e dentro dela o 
 ## Emanador
 
 *A técnica é a resposta: mais feitiço, mais aptidão.*
-
-O Emanador apostou tudo na técnica. Corpo pouco, energia muita, e um repertório que resolve problema que arma nenhuma resolve. Quem escolhe esse Caminho gosta de ficha com botão: quer ter a resposta certa para a situação específica e aceita ser o mais frágil da sala em troca disso.
 
 ### Características do Emanador
 
@@ -3224,8 +3142,6 @@ O Emanador apostou tudo na técnica. Corpo pouco, energia muita, e um repertóri
 
 *Você lança até a energia acabar, e ela acaba.*
 
-Quem joga de `Torrente` abre a torneira: dois feitiços na mesma rodada, técnica em cima de técnica, e um bolso de PE que some rápido. A Trilha te dá a rodada grande e cobra o resto da missão, então a decisão real é em qual luta do dia você abre a torneira.
-
 > **Nível 2: `Acelerar`.** *`2×` por cena.* Você conjura um feitiço da sua **ação padrão como ação bônus**, pagando **`Classe e meia` de PE a mais**, arredondando para cima. *Num Classe 7 são `11` de PE.*
 > Naquele turno, o outro feitiço que você lançar **não passa de `Classe 0`**.
 >
@@ -3243,8 +3159,6 @@ Quem joga de `Torrente` abre a torneira: dois feitiços na mesma rodada, técnic
 
 *Um feitiço só na rodada, e ele sai maior.*
 
-Quem joga de `Explosivo` trabalha como artilheiro: passa duas rodadas se posicionando e resolve a luta na terceira. Quase toda entrega da Trilha melhora a mesma coisa, que é o feitiço único do seu turno — você escolhe o momento em que o alvo está agrupado ou exposto e transforma uma rolagem em cena inteira.
-
 > **Nível 2: `Pavio`.** Quando o feitiço que você conjura é **o único feitiço de dano daquele turno**, **rerrole todo dado de dano dele que cair em `1` ou `2`.**
 >
 > **Nível 11: `Estopim`.** Todo feitiço seu soma o **atributo da sua técnica** no dano.
@@ -3258,8 +3172,6 @@ Quem joga de `Explosivo` trabalha como artilheiro: passa duas rodadas se posicio
 ### Trilha: Arremate
 
 *O feitiço chega junto com você.*
-
-Quem joga de `Arremate` precisa encostar: briga de mão, e o feitiço sai quando a mão chega. Você precisa estar dentro do alcance do inimigo para render, e boa parte da Trilha existe para você sobreviver ao lugar em que ela te obriga a ficar.
 
 > **Nível 2: `Empunhadura`.** Escolha um **grupo de arma**. Você é treinado nele, e naquele grupo **o acerto e o dano usam Inteligência ou Essência**. *O requisito de Força para empunhar continua valendo.*
 > **E quando você ataca com uma arma daquele grupo na Ação Padrão, você pode conjurar um feitiço de Classe na Ação Bônus.**
@@ -3277,8 +3189,6 @@ Quem joga de `Arremate` precisa encostar: briga de mão, e o feitiço sai quando
 ## Evocador
 
 *O que você trouxe é a resposta: invocações.*
-
-O Evocador chega acompanhado. Shikigami, talismã que vira bicho, maldição domada: o que ele põe em campo tem corpo próprio, anda por conta e obedece a ele. Quem escolhe esse Caminho gosta de jogar tabuleiro, contar espaço, flanquear, bloquear corredor, e usar corpo emprestado onde outro Caminho usaria o próprio.
 
 ### Características do Evocador
 
@@ -4863,7 +4773,7 @@ Catorze entradas.
 
 ### Como ler uma aptidão
 
-Cada entrada aparece duas vezes. Primeiro nesta tabela, com quatro campos: **nome**, **requisito**, **Classe Passiva** e **o que o refino escala**. Depois na seção dela, com uma descrição do que ela é e uma caixa com a regra.
+Cada entrada aparece duas vezes. Primeiro nesta tabela, com quatro campos: **nome**, **requisito**, **Classe Passiva** e **o que o refino escala**. Depois na seção dela, na caixa de regra.
 
 Traço na coluna de Classe Passiva quer dizer que a entrada não declara uma. Traço na última coluna quer dizer que o refino não mexe naquela aptidão.
 
@@ -4891,23 +4801,19 @@ Estas duas chegam com a ficha, no refino 1, sem custar marco nenhum. Elas são o
 
 ### Cobrir-se de energia
 
-A primeira coisa que se ensina, e a que nunca se desliga. Você espalha a sua energia por cima da pele e deixa ligada: uma casca que não aparece, que aguenta o impacto que quebraria o osso de uma pessoa comum. Quem enxerga energia vê a camada acender no instante do golpe. Quem não enxerga vê alguém apanhar e continuar de pé.
-
-Como Reação, em vez de espalhar a camada você joga ela inteira no ponto onde o golpe vai chegar, e fica descoberto no resto do corpo até se recompor. Por exemplo, com refino 6 a sua proteção passiva é 3, e a Reação desconta 9 de um golpe por 2 PE.
-
 > **Cobrir-se de energia** — sem Traje e sem Revestimento, a sua proteção é `1/3 do refino + 1`. Escudo soma com ela.
 >
 > Como Reação, você concentra a energia no impacto: Redução de Dano de `1,5 × refino` num golpe, por **2 PE**. Você fica sem proteção até o fim do seu próximo turno.
 >
 > Requisito: grátis no refino 1. O refino escala a proteção e a Redução de Dano da Reação.
 
+> **Exemplo.** Com refino 6 a sua proteção passiva é 3, e a Reação desconta 9 de um golpe por 2 PE.
+
 A proteção é um piso. Ela sustenta o feiticeiro que não investiu em corpo nenhum, e sai de cena assim que Traje ou Revestimento entram na conta.
 
 Fora de combate ela decide as cenas em que ninguém está brigando: a queda de três andares, o teto que cede, o carro. Um feiticeiro atravessa isso e levanta.
 
 ### Canalizar energia
-
-Mão nua atravessa maldição sem machucar. Para o golpe encostar de verdade, a energia precisa sair pelo punho no exato momento em que ele chega. Canalizar é empurrar a técnica pela pele: o que era um soco vira feitiço na hora de resolver.
 
 > **Canalizar energia** — você conjura feitiço de Toque. Um feitiço de Toque é um feitiço de Forma Toque, sem Melhoria e sem Restrição: mesma Classe, mesmo orçamento de pontos, mesmo custo em PE.
 >
@@ -4919,8 +4825,6 @@ Ela é a porta de toda técnica de contato.
 
 ### Projetar energia
 
-Você junta energia na mão e solta, sem técnica e sem forma. Sai como um borrão que estala no ar e empurra o que acerta. Todo feiticeiro sabe fazer, ninguém se orgulha de fazer, e todo mundo já usou.
-
 > **Projetar energia** — você dispara energia crua. O dano é `refino`, e ela não gasta PE.
 >
 > Requisito: nenhum. O refino escala o dano.
@@ -4928,10 +4832,6 @@ Você junta energia na mão e solta, sem técnica e sem forma. Sai como um borr�
 `Projetar energia` é o que sobra quando o combustível acaba: o turno em que o seu PE zerou, a luta ainda não terminou e você continua precisando fazer alguma coisa.
 
 ### Energia Reversa
-
-Toda energia amaldiçoada é negativa. Multiplicar uma negativa por outra dá positivo, e energia positiva conserta carne. Quem consegue fechar essa conta dentro do próprio corpo fecha o corte enquanto ele ainda está abrindo.
-
-É a coisa mais difícil do catálogo de aprender, e quase ninguém aprende num treino. O feiticeiro costuma descobrir sozinho, no meio de estar morrendo, e depois passa anos tentando repetir de propósito.
 
 > **Energia Reversa** — ação padrão. Gaste até `a sua maior Classe` de PE e recupere `1d8` de vida por PE gasto, em você.
 >
@@ -4943,9 +4843,7 @@ Ela muda a forma das lutas longas e muda o que acontece entre elas: um personage
 
 ## Aptidões de kokusen
 
-Quando o soco e a energia chegam no alvo dentro da mesma fração de instante, o espaço em volta do ponto de contato racha. Sai um estalo preto, curto, e o golpe entrega muito mais do que devia entregar. Ninguém acerta um kokusen de propósito: você percebe pelo barulho e pela cara de quem apanhou.
-
-Feiticeiro que acerta um passa a entender a própria energia de um jeito que treino nenhum ensina, e a mesa inteira lembra do dia.
+Ninguém acerta um kokusen de propósito: você percebe pelo barulho e pela cara de quem apanhou.
 
 ### Kokusen
 
@@ -4961,15 +4859,11 @@ O `+2` acumulado é a memória do personagem. Quem passou a noite inteira quase 
 
 ### Kokusen Melhorado
 
-Você já acertou um antes, e o corpo guardou o tempo. A segunda tentativa da mesma noite sai mais perto do ponto do que a primeira.
-
 > **Kokusen Melhorado** — mesma regra do `Kokusen`, exceto que você rola dois d100 e fica com o melhor.
 >
 > Requisito: refino 5 e nível 14. O refino escala a vantagem no d100.
 
 ### Kokusen Constante
-
-Você parou de esperar pela sorte e passou a mirar o instante. A janela continua absurda de pequena, e você simplesmente acerta ela com mais frequência.
 
 > **Kokusen Constante** — mesma regra do `Kokusen`, exceto que a base sobe para `3 × refino`.
 >
@@ -4984,12 +4878,9 @@ Você parou de esperar pela sorte e passou a mirar o instante. A janela continua
 | 5 | 10% | 19,0% | 15,0% | 27,8% |
 | 10 | 20% | **36,0%** | 30,0% | **51,0%** |
 
-
 ## Aptidões anti-domínio
 
 Uma Expansão de Domínio completa não erra. O Acerto dela simplesmente acontece com quem está lá dentro, sem rolagem e sem Teste de Resistência, e nenhuma defesa da ficha encosta nele.
-
-Estas quatro são as respostas que o ofício inteiro desenvolveu para esse problema. Elas são a razão de um feiticeiro entrar numa luta contra alguém que tem domínio e sair vivo, e são conhecidas até por gente que nunca teve técnica nenhuma.
 
 > **As quatro anulam o Acerto de uma Expansão de Domínio. Nenhuma delas serve contra a Expansão incompleta.**
 >
@@ -5005,8 +4896,6 @@ Estas quatro são as respostas que o ofício inteiro desenvolveu para esse probl
 
 ### Cesta Oca de Vime
 
-Você trava as mãos num símbolo e uma esfera de energia se fecha em volta do seu corpo. Enquanto o símbolo estiver de pé, o Acerto passa por fora de você. Enquanto o símbolo estiver de pé, você também está fora da luta: as mãos ocupadas, a atenção inteira presa ali, e o mundo continuando sem a sua participação.
-
 > **Cesta Oca de Vime** — você faz o símbolo e uma esfera se fecha em volta de você. Enquanto você o segurar, o Acerto de uma Expansão não te alcança, e você não faz mais nada. Ela não tem duração, não pede teste e não custa PE: enquanto o símbolo estiver de pé, ela está de pé.
 >
 > Requisito: nenhum. Classe Passiva 1.
@@ -5016,8 +4905,6 @@ A `Cesta Oca de Vime` anula o Acerto e mais nada: o Efeito da Expansão continua
 Ela é a resposta de quem não tinha nada preparado. Chega já no primeiro marco de Refino de qualquer ficha, e é o que salva o feiticeiro de apoio, o estudante e a pessoa que estava passando na rua quando o domínio abriu.
 
 ### Domínio Simples
-
-Um domínio em miniatura, com os seus pés no centro. Você derrama energia no chão em volta e declara aquele círculo seu: dentro dele, o Acerto de outro domínio não tem por onde entrar. Ele se ensina em escola de espada e passa de mestre para aluno, e é por isso que feiticeiro sem técnica nenhuma aparece sabendo fazer.
 
 > **Domínio Simples** — um domínio pequeno em volta de você, de raio `1,5 m + refino ÷ 2`. Dentro dele o Acerto de uma Expansão não acontece, e ele cobre quem estiver no raio. Custa `1 × a sua maior Classe` de PE por rodada, e ela quebra se os seus pés saírem do chão.
 >
@@ -5033,8 +4920,6 @@ O raio nunca passa de um movimento:
 | raio | 1,5 m | 2,5 m | 3,5 m | 4,5 m | 5,5 m | **6,5 m** |
 
 ### Pétala
-
-A energia sobe pela pele e fica esperando. Quando o Acerto encosta em você, ela reage no ponto exato de contato e devolve o golpe, e quem estiver olhando vê a energia se abrir em volta do corpo por um instante. Você continua andando, continua batendo, e continua contando quantas vezes ainda dá para fazer isso.
 
 > **Pétala** — a energia cobre o seu corpo e devolve o golpe. Quando o Acerto de uma Expansão te alcança, ele é anulado no ponto de contato, `refino ÷ 2` vezes por cena. Custa `1 × a sua maior Classe` de PE por rodada, e ela cai se você perder a concentração.
 >
@@ -5052,8 +4937,6 @@ A energia sobe pela pele e fica esperando. Quando o Acerto encosta em você, ela
 
 ### Extensão de Domínio
 
-Você abre um domínio e não põe técnica nenhuma dentro dele: fica só a camada, colada no corpo, fina como uma segunda pele. Técnica que encosta nela se desfaz. O seu golpe atravessa a técnica do outro como se ela não estivesse ali. E ela cobra a sua própria técnica enquanto estiver de pé, porque a camada não distingue de quem é a energia que encostou.
-
 > **Extensão de Domínio** — você se envolve numa camada fina de domínio sem técnica dentro. Ela anula o Acerto de uma Expansão, anula qualquer técnica que encostar nela, e faz o seu ataque acertar independentemente da técnica do alvo. Dura `refino` rodadas e custa `1,5 × a sua maior Classe` de PE por rodada. Enquanto ela estiver de pé, você não usa a sua técnica.
 >
 > Requisito: refino 7 e nível 13. Classe Passiva 3. O refino escala a duração.
@@ -5064,13 +4947,9 @@ A duração é um teto. Segurar as dez rodadas no refino 10 custa 110 de PE, e q
 
 ## Aptidões de barreira
 
-Barreira é ofício à parte. Ela não sai do Fundamento de ninguém, se aprende estudando, e o feiticeiro que sabe levantar uma boa é procurado por isso.
-
 > **As duas levam um minuto para levantar**, e um minuto são dez rodadas. As duas são ferramenta de preparação, e se levantam antes da briga começar.
 
 ### Barreira Simples
-
-Um domo de energia que você monta num lugar e deixa ali. Ele fecha passagem nos dois sentidos: ninguém entra, ninguém sai, e feitiço nenhum atravessa. Levantar leva um minuto de mãos ocupadas, e por isso ele nasce antes da briga, quando alguém do grupo ainda está pensando.
 
 > **Barreira Simples** — um domo de raio `6 m`, ancorado no lugar onde você o ergueu, que bloqueia passagem e linha de efeito nos dois sentidos. Ele tem `5 × refino` de pontos de vida, e cai quando você fica `Inconsciente`.
 >
@@ -5081,8 +4960,6 @@ O domo fica onde foi erguido. Você não leva ele junto, e é por isso que ele s
 Fora de combate ela é uma porta que você fabrica: prende uma maldição num quarto até o grupo se organizar, corta o corredor por onde o reforço viria, isola a coisa que a investigação achou para ela continuar lá quando vocês voltarem. Numa cena de perseguição, ela é o jeito de decidir por onde o alvo vai ter que passar.
 
 ### Cortina
-
-A cortina cai sobre o lugar inteiro e o mundo comum para de enxergar o que acontece lá dentro. Quem não tem energia amaldiçoada olha para o prédio e vê um prédio; escuta o desabamento e não escuta nada. Cortina exige um nível de manejo que muitos feiticeiros poderosos nunca alcançaram, e as boas são encomendadas a quem sabe fazer.
 
 > **Cortina** — mesma preparação de um minuto da `Barreira Simples`, exceto que ela cobre um lugar inteiro: um prédio, uma escola, um quarteirão. Ela esconde o que está dentro de quem não é feiticeiro, e você pendura uma condição sobre quem atravessa. Ela tem `20 × refino` de pontos de vida, e cai quando você fica `Inconsciente`.
 >
@@ -5181,7 +5058,7 @@ Bênção e Lapidação valem para **uma** rota de criação: a Restrição Cele
 
 ## Lapidação
 
-Um corpo humano tem folga: ele para antes de arrebentar e desiste de um peso que aguentaria mais dez segundos. A Lapidação mede quanto dessa folga o seu personagem já gastou treinando.
+A Lapidação mede quanto da folga do corpo o seu personagem já gastou treinando.
 
 > **A Lapidação vai de `1` a `10`.** Toda ficha começa em 1, e ela sobe nos marcos: **`+1` de graça em cada um, e mais `+1` se você escolher Lapidação no marco**.
 >
@@ -5264,8 +5141,6 @@ Estas duas chegam com a ficha, na Lapidação 1, sem custar marco nenhum.
 
 ### Defesa sem Armadura
 
-O golpe chega e o corpo já está no lugar certo, já contraído, já girando com ele em vez de contra.
-
 > **Defesa sem Armadura** — sem Traje e sem Revestimento, a sua proteção é `1/3 da Lapidação + 1`. Escudo soma com ela.
 >
 > **Barreira de energia não segura você.** `Barreira Simples` e `Cortina` não valem contra você.
@@ -5282,8 +5157,6 @@ Quem não tem energia amaldiçoada nunca tem Expansão de Domínio — está no 
 A Passiva `Bocado`, no capítulo 10, *Técnica Marcial*, guarda o item dentro do corpo, e lá dentro ele para de emanar.
 
 ### Estímulo Muscular
-
-Você aprendeu a mandar no que o corpo faz sozinho. Antes do movimento que decide, você acerta a respiração, trava o que precisa travar e solta o resto.
 
 > **Estímulo Muscular** — escolha **uma perícia** e **um Teste de Resistência** na criação, e eles não mudam.
 >
@@ -5424,8 +5297,6 @@ Equipamento mexe em três coisas: a sua Defesa, o dado que você rola quando bat
 
 Existem duas classes de uniforme, e você usa uma ou outra: **Traje**, que é a leve, e **Revestimento**, que é a pesada. Cada uma tem três degraus.
 
-Feiticeiro trabalha em prédio de escritório, em escola, em estação de metrô, quase sempre com civil por perto e sem tempo de esvaziar o andar. O guarda-roupa sai daí. Escolher entre as duas classes é escolher em que tipo de missão você quer estar confortável.
-
 ### Como ler as tabelas de proteção
 
 Os três campos aparecem sempre na mesma ordem.
@@ -5449,15 +5320,9 @@ A classe leve. Nenhum degrau trava a sua Destreza, e só o de cima pede Força.
 
 Quem fabrica é o ofício **Alfaiate**. Quem não tem o ofício encomenda de quem tem.
 
-Traje é roupa cortada para um corpo só. Alguém tirou as suas medidas, ouviu o que você faz em campo e costurou em cima disso: reforço onde você costuma levar golpe, folga onde você precisa dobrar. De fora ele passa por uniforme escolar, por terno, por jaqueta de trabalho. É o que você veste quando a missão começa no meio de gente que não pode saber o que está acontecendo, e é o que deixa você continuar de pé numa cena de conversa, de infiltração ou de fuga por telhado.
-
 #### Situação do Traje
 
-O Traje é feito sob medida para você, e é aí que mora o benefício dele.
-
 > **Todo Traje carrega uma situação, e é uma só.** Escolha na criação, escreva na ficha como o seu traje é, e quando a cena estiver naquela condição você rola com **vantagem**: joga dois d20 e fica com o melhor. Vantagem não empilha, duas fontes valem uma.
-
-Na prática, você está dizendo ao alfaiate onde costuma se meter. Um traje curto e sem aba para quem vive em vão de ventilação, sola aderente para quem trabalha em beirada, tecido tratado para quem entra em incêndio.
 
 A lista é fechada e vale igual em toda mesa:
 
@@ -5492,13 +5357,11 @@ A classe pesada. Todo degrau trava a sua Destreza em 0 na Defesa, e todo degrau 
 | 2 | 5 | 0 | 4 |
 | 3 | 6 | 0 | 6 |
 
-Revestimento é placa, acolchoamento e peso, montado para aguentar o golpe de frente. Ninguém confunde aquilo com roupa: vestido, você já entrou na cena como uma coisa que a maldição vai ter que resolver. Ele é o uniforme de quem segura a porta enquanto os outros trabalham. Também é o que faz o supervisor esvaziar o quarteirão antes de te mandar entrar, porque com aquilo no corpo você não passa por civil em lugar nenhum, e a missão inteira passa a ser planejada em torno disso.
-
 #### Uniforme e energia amaldiçoada
 
 > **Traje e Revestimento desligam a sua proteção passiva de energia amaldiçoada.** Vestido, a sua proteção é a do uniforme, e só ela. Escudo soma por cima, sempre.
 
-A Reação de cobrir-se continua disponível de uniforme. Ninguém tira o colete no meio do golpe. Ela é a aptidão `Cobrir-se de energia`, e o preço dela está no capítulo 11, *Aptidões e Refino*.
+A Reação de cobrir-se continua disponível de uniforme. Ela é a aptidão `Cobrir-se de energia`, e o preço dela está no capítulo 11, *Aptidões e Refino*.
 
 ## Escudo
 
@@ -5510,10 +5373,6 @@ Três degraus. O escudo ocupa uma mão, soma com a sua proteção venha ela de o
 | 1 | **Broquel** | 1 | 5 | — |
 | 2 | **Médio** | 2 | 3 | 3 |
 | 3 | **Torre** | 3 | 1 | 5 |
-
-O Broquel é de punho, entre 15 e 45 cm: por isso ele quase não come Destreza e não pede Força. A Torre cobre o corpo e se planta no chão. Quanto mais escudo, menos braço sobra.
-
-Fora da rolagem de Defesa, escudo é a peça que decide cena de corredor: com uma Torre plantada no vão de porta, o resto do grupo trabalha atrás de você e a maldição precisa achar outro caminho.
 
 ### Escolha do degrau
 
@@ -5619,7 +5478,6 @@ O padrão de qualquer arma de mão é **1,5 m**. As Armas Longas chegam a **3 m*
 |---|---|---|
 | Punhal · Machadinha · Lança · Kunai · Shuriken · Tessen · Chakram · Kusarigama | 6 m | 18 m |
 
-
 ### Munição
 
 > **Recarregar é Ação Bônus.** Você recarrega quando tirar **1 ou 2 natural** no ataque, **ou** depois de **X** ataques, o que vier primeiro. O X é da arma.
@@ -5651,7 +5509,6 @@ O `Yumi` não carrega `Munição`. Flecha existe na ficção, e uma flecha se en
 > **Guia, Emanador e Evocador treinam Arma de Fogo e Balestra**, as duas que se aponta e dispara sem anos de forma.
 
 Um Caminho conjurador não pega espadão de graça: ele precisa da Trilha que concede o grupo, como a `Empunhadura` do `Arremate`. O quadro de cada Caminho está no capítulo 8, *Caminhos e Trilhas*.
-
 
 > **Sem treino, você tem desvantagem na rolagem de ataque com aquela arma.**
 >
@@ -5758,15 +5615,9 @@ O `Catálogo de armas` traz as 52 armas com tudo que decide o golpe, em três bl
 
 Treino simples. Todas carregam `Fineza`, então o dano delas sai de Destreza.
 
-Lâmina curta é briga de distância zero. Você entra por dentro da guarda, encosta e corta, e o que decide o golpe é leitura de corpo e mão rápida. É também a categoria que passa por qualquer lugar sem levantar pergunta: uma faca cabe no bolso do casaco e continua lá durante a entrevista inteira.
-
-
 ### Lâmina Longa
 
 Treino marcial. O dano sai de Força, ou de Destreza nas duas que carregam `Fineza`.
-
-Lâmina longa se luta com o corpo inteiro: o pé escolhe a distância, o quadril faz o corte, e o braço só entrega. As de uma mão deixam a outra livre para escudo, para segurar alguém ou para fechar um selo. As de duas trocam essa mão por alcance e por dado grande, e quem empunha uma delas está declarando que não pretende se esconder de ninguém.
-
 
 Odachi e Nodachi são a mesma lâmina longa demais para o cinto, com a mesma mão e o mesmo dado. A diferença está em como cada uma resolve o tamanho: o Odachi se carrega nas costas e precisa de tempo ou de ajuda para sacar, o Nodachi você saca sozinho e carrega à mostra. Se a sua mesa costuma começar cena já em briga, o Odachi vai chegar atrasado em algumas delas.
 
@@ -5774,22 +5625,13 @@ Odachi e Nodachi são a mesma lâmina longa demais para o cinto, com a mesma mã
 
 Treino simples. O dano sai de Força.
 
-Massa fere com peso chegando rápido, e peso não perde o fio. É a arma que continua funcionando depois de uma noite inteira batendo em concreto, e a que menos se importa com o que o alvo vestiu por cima.
-
-
 ### Porrete
 
 Treino simples. O dano sai de Força.
 
-Porrete é madeira e controle. Você acerta, empurra, prende, afasta e a cena continua com todo mundo vivo. É a categoria de quem trabalha perto de civil e precisa poder errar o alvo sem abrir um buraco na parede.
-
-
 ### Manopla
 
 Treino simples. O dano sai de Força.
-
-Manopla é o soco com uma peça de metal por cima. Ela vai vestida: você chega de mãos vazias em qualquer portaria e continua armado do outro lado. Quem luta assim briga colado, e usa o corpo inteiro como parte da arma.
-
 
 O Tekko e a Soqueira têm a mesma linha, o mesmo gasto e a mesma regra. O que muda é de onde cada uma veio.
 
@@ -5797,45 +5639,27 @@ O Tekko e a Soqueira têm a mesma linha, o mesmo gasto e a mesma regra. O que mu
 
 Treino marcial. O dano sai de Força.
 
-Machado concentra o peso na ponta e cobra o gesto inteiro: quem erra fica aberto por um instante. Em compensação, o que ele acerta ele abre, e isso vale para porta trancada, grade e assoalho tanto quanto para o que estiver do outro lado.
-
-
 O Machado tem a mesma linha do Machete, lá na Lâmina Longa: `d8`, uma mão, `Rompe`. A escolha entre os dois é de sabor, e as duas categorias caem no mesmo balde de treino.
 
 ### Ceifa
 
 Treino simples. O dano sai de Força.
 
-Ceifa puxa. A curva da lâmina engancha braço, perna, cano de andaime e o cabo da arma do outro, e o golpe costuma terminar com o alvo mais perto de você do que ele gostaria. É a categoria de quem prefere escolher onde o inimigo vai estar.
-
-
 ### Armas Longas
 
 Treino marcial. O dano sai de Força. É a única categoria em que o `Alcance` chega a 3 m.
-
-Arma longa serve para decidir a distância. Você mantém a coisa a três metros e ela gasta o turno inteiro só para chegar ao ponto onde a luta começaria. Em corredor e em vão de porta, uma lança sozinha segura uma passagem enquanto o resto do grupo faz o trabalho.
-
 
 ### Flexível
 
 Treino marcial. O dano sai de Força.
 
-Corrente e chicote fazem curva. O golpe contorna guarda, escudo e quina de parede, e ninguém aprende a ler a trajetória numa luta só. O dado é pequeno em todas as três: o que a categoria entrega é alcance e `Emaranha`.
-
-
 ### Arremesso
 
 Treino simples. O dano sai de Força: o arremesso sai do corpo.
 
-Arremesso resolve seis metros na hora, sem trocar de arma e sem sair da briga de perto. Todas as quatro escondem, e todas cabem numa cena em que você precisa acertar alguma coisa do outro lado da sala antes que ela termine de se virar.
-
-
 ### Yumi
 
 Treino marcial. O dano sai de Destreza: o arco se puxa, e puxar é coisa do corpo. As duas rolam um dado só e nenhuma delas carrega `Munição`.
-
-Yumi é o arco japonês, assimétrico e alto, puxado até passar da orelha. Atirar com ele é postura e respiração antes de ser mira. O disparo sai calado, e é isso que faz um arco resolver um vigia no fim do corredor sem acordar os outros três.
-
 
 O daikyū passa de dois metros e se carrega nas costas. O hankyū fica entre 45 e 160 cm: é o arco de espaço apertado e de montaria, e é por isso que ele esconde e o outro não. O Daikyū tem o dado maior; o Hankyū tem a propriedade a mais.
 
@@ -5843,15 +5667,9 @@ O daikyū passa de dois metros e se carrega nas costas. O hankyū fica entre 45 
 
 Treino simples. **Não soma atributo nenhum**: a energia já está armazenada na corda, e você só precisa mirar. Em troca, o dado é maior.
 
-A besta guarda a força por você. Quem atira aponta e solta, e por isso ela é a arma que qualquer um do grupo pega emprestada e usa igual. O preço vem depois do disparo, na hora de armar de novo.
-
-
 ### Arma de Fogo
 
 Lista de treino própria, sozinha. **Não soma atributo nenhum**, pelo mesmo motivo da Balestra.
-
-Arma de fogo resolve distância e barulho no mesmo gesto. Ela cobra treino próprio e devolve o tiro mais rápido do catálogo, com o custo de que a cena discreta acaba no primeiro disparo: a partir dali existe polícia, existe testemunha e existe relatório para alguém escrever depois.
-
 
 Pistola e Revólver têm a mesma linha de regra. A diferença entre os dois está na faixa: a Pistola vai a 9 m, o Revólver a 12 m.
 
@@ -5887,13 +5705,9 @@ O soco não tem propriedade nenhuma, então ele abre mão de alcance, de `Par`, 
 >
 > **Uma ferramenta que você não sintonizou é arma comum, e nada mais.**
 
-Ferir maldição é a porta que separa o feiticeiro de quem não tem energia amaldiçoada. Quem conjura já atravessa essa porta de graça, pelo feitiço de Toque. Quem não conjura só atravessa com ferramenta na mão.
+Quem conjura fere maldição de graça, pelo feitiço de Toque. Quem não conjura só fere com ferramenta na mão.
 
 ## Ferramenta forjada
-
-Uma ferramenta amaldiçoada é um objeto que alguém encheu de energia amaldiçoada de propósito, martelada por martelada, até o material aprender a segurar aquilo. Isso leva tempo, custa a energia de quem forja e não sai barato: quem tem o ofício é pouca gente, trabalha por encomenda e conhece o nome de quase todas as peças boas que estão circulando. Ferramenta boa tem procedência, tem dono anterior e tem gente que se lembra dela.
-
-Para quem tem energia amaldiçoada, uma ferramenta é conveniência: uma lâmina que já corta maldição poupa o que você gastaria cobrindo o próprio punho. Para quem não tem, ela é o passaporte. Sem ferramenta, um corpo humano bem treinado atravessa uma maldição como atravessa fumaça, e a maldição continua ali, do outro lado, olhando. Com uma ferramenta de grau 4 na mão, a mesma pessoa entra na luta que o feiticeiro está lutando. É por isso que ninguém do meio jujutsu empresta ferramenta de bom grado.
 
 > **Como se sintoniza uma ferramenta está sendo escrito.** Quanto tempo leva, o que se gasta e se dá para desfazer é acordo com o seu mestre por enquanto.
 
@@ -5902,8 +5716,6 @@ A arma por baixo continua sendo a arma de sempre: mesmo dado, mesmas propriedade
 Uma ferramenta carrega **um** `Estigma`. Nunca dois.
 
 ## Ferramenta, objeto, cadáver e maldição solta
-
-O meio jujutsu separa as quatro por escrito, e a frase que faz isso é por exclusão: tirando as ferramentas amaldiçoadas e os cadáveres amaldiçoados, todo item que contém energia amaldiçoada é chamado de objeto amaldiçoado.
 
 Ferramenta é a que é arma. Objeto é a que não é arma.
 
@@ -5917,7 +5729,7 @@ Ferramenta é a que é arma. Objeto é a que não é arma.
 
 Ferramenta e objeto são ranqueados pela mesma escada, pela força da energia que carregam: grau 4 a grau 1, mais o especial.
 
-**Cadáver amaldiçoado aparece com três nomes, e os três são a mesma coisa.** A instituição diz *cadáver amaldiçoado*; a ficha de quem é um deles diz `Corpo Amaldiçoado`, que é a Origem; e a mesa diz o nome do boneco. O Kokichi Muta opera cadáveres amaldiçoados a distância, e a Origem dele é outra.
+**Cadáver amaldiçoado aparece com três nomes, e os três são a mesma coisa.** A instituição diz *cadáver amaldiçoado*; a ficha de quem é um deles diz `Corpo Amaldiçoado`, que é a Origem; e a mesa diz o nome do boneco.
 
 ## Objeto amaldiçoado
 
@@ -5925,23 +5737,19 @@ Ferramenta e objeto são ranqueados pela mesma escada, pela força da energia qu
 >
 > **Todo objeto amaldiçoado tem procedência.** Ele foi alguém, ou saiu de dentro de alguém.
 
-Uma espada forjada para canalizar energia continua sendo espada se ninguém pegar nela. Um dedo mumificado de feiticeiro não fica inerte porque está numa caixa. A ferramenta é ferramenta pelo que você faz com ela; o objeto é objeto pelo que ele é.
-
-Não existe objeto amaldiçoado sem história. Ele é resto de feiticeiro, é feto que não nasceu, é monge morto — sempre alguém, e sempre alguém de quem se sabe o nome ou de quem se perdeu o nome de propósito.
-
 ### Atração
 
 > **Um objeto amaldiçoado sem selo puxa maldição para perto dele.**
 
-Não é técnica, não rola dado e não escolhe alvo. É o que a energia presa nele faz com o que estiver em volta, do mesmo jeito que carniça atrai bicho e pelo mesmo motivo: tem alguma coisa ali que elas querem.
+Não é técnica, não rola dado e não escolhe alvo.
 
 Enquanto alguém do grupo carrega um objeto sem selo, encontrar maldição deixa de ser coisa que se evita. Ela chega.
 
-E a atração não passa com o tempo. Os dedos do Sukuna continuam puxando maldição mil anos depois de ele morrer.
+E a atração não passa com o tempo.
 
 ### Selo
 
-O selo não bloqueia a atração: ele vira ela do avesso. O objeto selado passa a empurrar maldição em vez de puxar, no princípio de combater veneno com veneno. É por isso que objeto amaldiçoado selado serve de amuleto, e é por isso que alguém andaria com um de propósito.
+O objeto selado empurra maldição em vez de puxar, e é por isso que ele serve de amuleto.
 
 E selo gasta. Ele enfraquece com o tempo, e quando vence a atração volta — maior do que estava, porque nesse meio-tempo o objeto ficou juntando o que o selo empurrou.
 
@@ -5953,9 +5761,7 @@ Quanto tempo um selo dura é decisão do seu mestre.
 
 **`Kiko`** — o depósito da escola onde os objetos de grau alto ficam trancados, selados um a um.
 
-A guarda dele não é fechadura, é barreira: a disposição dos prédios muda de lugar todo dia, e só uma porta entre mais de mil leva até lá.
-
-Existe um lugar, ele é da escola, e entregar o objeto é o procedimento. O que não quer dizer que o grupo vá fazer isso.
+Existe um lugar, ele é da escola, e entregar o objeto é o procedimento.
 
 ### Encarnação
 
@@ -5968,9 +5774,7 @@ Engolir um objeto amaldiçoado é o que faz o que está dentro dele ganhar corpo
 | ventre feito de propósito | qualquer um, mesmo quem não tem talento nenhum | meio gente, meio maldição | Feto |
 | resto de feiticeiro antigo, num corpo preparado de antemão | um corpo que alguém preparou para receber | sobrou um | Reencarnado |
 
-O Feto é o único dos três em que engolir o objeto é o que produziu a pessoa; os outros dois engoliram depois de já existir.
-
-Nada disso é escolha de criação. As três Origens já nascem do outro lado dessa porta, e isso aconteceu antes da primeira sessão. Veja o capítulo 7, *Origens e Legados*.
+Nada disso é escolha de criação: as três Origens já nascem do outro lado dessa porta. Veja o capítulo 7, *Origens e Legados*.
 
 ## Grau
 
@@ -5995,27 +5799,23 @@ Não existe requisito de refino para ferramenta amaldiçoada. Ela é a rota de q
 
 Ele não dá `Estigma` nenhum. Ferir maldição é a única coisa que um personagem sem energia amaldiçoada não consegue sozinho.
 
-Na mesa, esse degrau costuma ser a primeira peça que muda a cara de um personagem inteiro. Antes dela, o cara com a espingarda estava ali para tirar civil do prédio; depois dela, ele tem um alvo.
-
 ### Grau 1 e especial
 
-Os dois dão um `Estigma` de Classe 3 e os dois pedem nível 13. A diferença é de ficção: uma ferramenta de grau 1 se forja, e uma especial é uma só que existe no mundo inteiro, com nome próprio e história conhecida. Quem carrega uma especial carrega junto a história dela: gente vai reconhecer a peça antes de reconhecer você.
+Os dois dão um `Estigma` de Classe 3 e os dois pedem nível 13. A diferença é de ficção: uma de grau 1 se forja, e uma especial é única no mundo, com nome próprio.
 
-As três especiais citadas acima entram como exemplar, e nenhuma delas tem ficha escrita: quem quiser pôr uma em jogo monta com o mestre, dentro do que a Classe 3 permite.
+As três especiais nomeadas na tabela `Graus de ferramenta` não têm ficha escrita: quem quiser pôr uma em jogo monta com o mestre, dentro do que a Classe 3 permite.
 
 ### Grau e patente
 
 > **A sua patente não decide que ferramenta você pode portar. A ferramenta que você porta não mexe na sua patente.**
 
-São duas escadas de cinco casas com o mesmo nome, e elas não se encostam em lugar nenhum. Patente é reconhecimento; grau é a energia que a peça carrega.
+São duas escadas de cinco casas com o mesmo nome. Patente é reconhecimento; grau é a energia que a peça carrega.
 
 ## `Desgaste`
 
 > **`Desgaste`: a ferramenta ignora o nível mínimo do `Estigma` dela.**
 >
 > **Em troca, ela se gasta: a cada missão em que o `Estigma` foi usado, ela desce um grau. No grau 4 ela vira arma comum. Ela não volta.**
-
-Uma ferramenta com `Desgaste` é a peça que já foi usada demais por outra pessoa antes de chegar em você: ela ainda faz o que faz, e cada vez que faz, faz um pouco menos. Dá para ver acontecendo, e a mesa costuma tratar isso como relógio de campanha.
 
 O `Desgaste` compra o nível mínimo, e só ele. Ele nunca sobe a Classe do `Estigma`: Classe é formato, e formato não está à venda.
 
@@ -6057,13 +5857,13 @@ Cada tabela de Classe traz o nome e **quando o `Estigma` age**: sempre ligado, n
 | `Presságio` | sempre |
 | `Perene` | sempre |
 
-> **`Fiel`** — ela volta para a sua mão no seu turno. Não dá para te desarmar dela. Você a solta na queda, rola por três metros de escada e ela está de volta no seu punho antes de você terminar de levantar.
+> **`Fiel`** — ela volta para a sua mão no seu turno. Não dá para te desarmar dela.
 >
-> **`Aferido`** — ao encostar numa maldição, você sabe o grau dela. A instituição classifica maldição por grau, e ninguém acerta isso olhando de longe. O primeiro toque já responde a pergunta que decide se o grupo fica ou pede reforço.
+> **`Aferido`** — ao encostar numa maldição, você sabe o grau dela.
 >
-> **`Presságio`** — ela avisa que tem maldição perto, antes de você ver. Um zumbido no metal, um puxão na bainha, o cabo esfriando na mão. Numa investigação, é ela que diz em qual andar do prédio a coisa mora.
+> **`Presságio`** — ela avisa que tem maldição perto, antes de você ver.
 >
-> **`Perene`** — ela não quebra, não enferruja e funciona onde arma comum não funciona. Sai de baixo d'água, do fogo e de dez anos num porão com a mesma cara de sempre.
+> **`Perene`** — ela não quebra, não enferruja e funciona onde arma comum não funciona.
 
 ### Classe 2 · grau 2 · nível 7
 
@@ -6074,11 +5874,11 @@ Cada tabela de Classe traz o nome e **quando o `Estigma` age**: sempre ligado, n
 | `Avulsa` | Reação | *não declarado* |
 | `Bojo` | no seu turno | por descanso curto |
 
-> **`Quebranto`** — Reação: anula um feitiço que ia te acertar. Uma vez por cena. Você levanta a arma no caminho do golpe e ele termina ali, na lâmina, sem chegar em você.
+> **`Quebranto`** — Reação: anula um feitiço que ia te acertar. Uma vez por cena.
 >
-> **`Avulsa`** — Reação: a arma sai da sua mão e faz o ataque sozinha. Ela solta do punho, cruza o vão e trabalha no lugar onde você não conseguiria estar a tempo. **O limite de uso dela está sendo escrito**; até fechar, combine um com o seu mestre.
+> **`Avulsa`** — Reação: a arma sai da sua mão e faz o ataque sozinha. **O limite de uso dela está sendo escrito**; até fechar, combine um com o seu mestre.
 >
-> **`Bojo`** — uma vez por descanso curto, ela guarda um feitiço que você lançou e devolve ele depois, sem custo de PE. O feitiço fica dentro dela como um eco esperando a hora. É o único dos onze que só serve para quem conjura.
+> **`Bojo`** — uma vez por descanso curto, ela guarda um feitiço que você lançou e devolve ele depois, sem custo de PE. É o único dos onze que só serve para quem conjura.
 
 ### Classe 3 · grau 1 e especial · nível 13
 
@@ -6090,13 +5890,13 @@ Cada tabela de Classe traz o nome e **quando o `Estigma` age**: sempre ligado, n
 | `Insondável` | enquanto a ponta dela estiver escondida |
 | `Contrapeso` | sempre |
 
-> **`Anátema`** — o contato dela anula técnica amaldiçoada. Encostou, apagou. Numa cena montada em cima de uma técnica (a sala que se dobra, a corrente de água que persegue), esta é a peça que desmonta a cena inteira.
+> **`Anátema`** — o contato dela anula técnica amaldiçoada.
 >
-> **`Cisão`** — o golpe dela causa dano de alma no lugar do dano de vida. O corpo do alvo não mostra nada, e o que rasga está por baixo. É uma troca: contra alvo de alma dura, você vai sentir falta do dano normal.
+> **`Cisão`** — o golpe dela causa dano de alma no lugar do dano de vida. Contra alvo de alma dura, você vai sentir falta do dano normal.
 >
-> **`Insondável`** — enquanto a ponta dela estiver escondida, o alcance dela é **na cena**. Enquanto ninguém consegue ver onde a lâmina termina, ela termina onde você quiser. As três faixas de alcance estão no capítulo 15, *Invocações*.
+> **`Insondável`** — enquanto a ponta dela estiver escondida, o alcance dela é **na cena**. As três faixas de alcance estão no capítulo 15, *Invocações*.
 >
-> **`Contrapeso`** — ela ignora o requisito de Força da arma. Qualquer um empunha, e o peso da coisa se resolve sozinho na mão de quem a segura.
+> **`Contrapeso`** — ela ignora o requisito de Força da arma.
 
 ## Ritmo de entrega
 
@@ -6829,7 +6629,7 @@ Na rodada seguinte a mesma maldição tira **19**. A Rina bloqueia e sai `10` e 
 | o dado mudou o resultado, sem extremo | 14,5% |
 | nada mudou; você rolou por rolar | 83,5% |
 
-> **Um em cada doze golpes vai passar porque você rolou, quando a sua Defesa parada teria segurado.** `Bloquear` não é defesa melhor. É a mesma defesa com variação, e os dois resultados de 1% são o que você está comprando.
+> **Um em cada doze golpes vai passar porque você rolou, quando a sua Defesa parada teria segurado.** `Bloquear` é a mesma defesa com variação, e os dois resultados de 1% são o que você está comprando.
 
 O outro preço é tempo de mesa: uma rolagem a mais por golpe recebido. Num combate de quatro rodadas com quatro personagens, isso passa de uma dúzia de rolagens novas.
 
