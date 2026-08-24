@@ -1,3 +1,31 @@
+> # ARQUIVADO na v0.143
+>
+> **De onde saiu:** `sistema/03-mecanica/RASCUNHO-bloqueio.md`, escrito na v0.43.
+>
+> **O que o substituiu:** a **peça 23**, `sistema/03-mecanica/23-bloquear.md`, com o `conferir-bloquear.py` em cima dela.
+>
+> **Por que morreu:** ***decisão do Mizuki na v0.143*** — *"Bloqueio pode ligar, é uma mecânica que o jogador pode TOMAR, na hora que for receber um ataque, é uma mecânica real, não uma opcional."* **Este arquivo se declarava não-peça em cima de uma premissa que deixou de valer:** *"Não é peça. Isto é uma regra opcional, e ela vai para o tópico de regras quando aquele tópico existir."* **Com o Bloquear ligado por padrão, o tópico de regras opcionais não é mais o destino dela** — e mantê-lo vivo ao lado da peça faria dele a segunda fonte do dado, do `+3` e do invariante, que é a lição nº 9.
+>
+> **O que dele sobreviveu, e onde está agora:**
+>
+> - o **achado aritmético** (`E[d20] = 10,5` contra base `10`), a **família de dados neutros** e o **`2d10−1`** → peça 23, §1 e §2
+> - as **três saídas que não servem**, com o número de cada uma → peça 23 §1.1
+> - a **regra**, os **dois extremos** e a **conta do `+3`** → peça 23, §3
+> - o **invariante do modificador único** → peça 23 §4, e ele virou a checagem 2 do validador
+> - a **especificação das checagens** do §7 item 4 → peça 23 §8, ampliada de três para sete
+> - o **levantamento externo** → peça 23 §10, **com o GURPS corrigido contra o manual**
+> - o **tráfego de `16,5%`** e o que perguntar no playtest → peça 23 §7.1, e ele reproduziu exato na enumeração
+>
+> **⚠⚠ E três coisas daqui NÃO sobreviveram como estavam, porque estavam erradas.**
+>
+> 1. **A folga do nível 22.** *O §4 escrevia `9,0` contra `6,88` e concluía "a folga é `3,86`" — e `9,00 − 6,88` dá `2,12`.* **Eram duas grandezas com o mesmo nome:** a subtração, em dano esperado, e o teto do bônus em dano cru, que é a mesma coisa dividida pela taxa de acerto. *A conclusão — `+3` é o maior que cabe — nunca esteve errada.* **A aritmética escrita ao lado dela sobreviveu cem versões porque ninguém tinha um validador que subtraísse.**
+> 2. **O líquido do pacote.** *Publicado em `−0,154`, supondo `1%` para o `Aparar` e `1%` para a `Brecha`.* **As duas não têm a mesma chance:** a própria trava do `20` natural tira um vigésimo dos duplos-`10`, então o `Aparar` é `0,95%` e a `Brecha` é `1,00%`. *O valor certo é `−0,159`.* **E a porcentagem que ele publicava — `0,43%` "do golpe" — nunca declarou o denominador**, e a conta só fecha com um `36` que não aparece em documento nenhum do projeto. *Hoje ela é `0,66%` do golpe do chefe, que a peça 19 §2.1 publica.*
+> 3. **O que o GURPS faz.** *O §8 daqui afirmava "aparar e bloquear uma vez por turno cada, de graça", e citava entre aspas que o material admitiria não existir "consideração tática".* **Lido no manual da 4ª edição: só o bloqueio tem teto por turno; aparar tem penalidade cumulativa de `−4`; a defesa ativa é paga por manobra, não é de graça; e a frase entre aspas não existe no capítulo de combate.** *É a lição nº 6 na forma que ela toma quando o assunto é outro sistema.*
+>
+> **E uma coisa daqui foi FECHADA em vez de transportada:** *o item 1 do §7, "as condições que impedem Bloquear", chamado aqui de "a única peça do desenho que ainda não tem forma".* **Ela não precisava de forma — a peça 19 §3.4 já tinha respondido por outro caminho:** *só o `Incapacitado`, porque ele é a condição cujo eixo **é** a defesa.* **Acrescentar uma segunda repreçaria uma condição que já tem número publicado.**
+
+---
+
 # RASCUNHO — Bloquear
 
 **Não é peça.** Sem número na frente de propósito: meia peça não é peça, e um arquivo com dois dígitos quebraria a contagem do `conferir-repositorio.py`. Isto é uma regra opcional, e ela vai para o tópico de regras quando aquele tópico existir.

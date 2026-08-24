@@ -119,7 +119,7 @@
 
 **O `Surdo` valia zero, e por isso ele ganhou uma linha na v0.104.** *Até a v0.103 ele só fazia falhar teste que precise de audição, e não existe teste desses em combate neste sistema — era uma condição com preço de `Média` no manual e entrega nenhuma.* **Hoje ele também dá `−2` na iniciativa**, e a conta disso está no §3.7. *Na régua desta seção ele continua em `0,00`, porque iniciativa não é dano — e isso é sobre a régua, não sobre a condição.*
 
-**O `Incapacitado` é a segunda mais barata das treze, e o manual cobra `Pesada` por ela.** *Metade dela — "você não pode `Bloquear`" — depende de uma regra opcional que nem toda mesa liga, e a peça 1 já registrava isso.* **A outra metade, o crítico garantido no corpo a corpo, vale `11,00`.** *O que faltava era o tamanho.*
+**O `Incapacitado` é a segunda mais barata das treze, e o manual cobra `Pesada` por ela.** *Metade dela — "você não pode `Bloquear`" — vale praticamente zero, e a peça 23 §5.1 é quem mede.* **A outra metade, o crítico garantido no corpo a corpo, vale `11,00`.** *O que faltava era o tamanho.*
 
 **O `Impedido` engole o `Cego`.** *Ele tem as duas linhas do `Cego` — desvantagem nos ataques do alvo e vantagem para quem o ataca — mais deslocamento zero.* **Até a v0.103 os dois custavam `Média` no manual, e o `Impedido` era a melhor compra da tabela de Controle inteira.** *Hoje os dois custam `Pesada`, e a diferença entre eles caiu para `1,10×` — dominância que o filtro aceita.*
 
@@ -210,7 +210,13 @@
 
 > **`Paralisado` não existe como condição, e é decisão.** *Ele era o nome da que hoje se chama `Atordoado`.* **Um terceiro degrau que fosse a soma dos dois só teria sentido se custasse mais que `Pesada`, e a escada de preço do manual não tem degrau acima dela.**
 
-> **⚠ E metade do `Incapacitado` depende de uma regra opcional.** *O `Bloquear` — rolar `2d10` no lugar da Defesa estática — está no `RASCUNHO-bloqueio.md` e nem toda mesa vai usar.* **Onde ele estiver desligado, o `Incapacitado` é só o crítico no corpo a corpo**, que é a metade que sempre vale. *A conta da seção 2 já preça ele assim: as duas metades somadas dão `11,00`, e a do `Bloquear` entra como zero.*
+> **⚠⚠ E metade do `Incapacitado` vale zero — mas o motivo mudou na v0.143, e o novo é mais forte.** *Até a v0.142 esta seção dizia que a metade do `Bloquear` não contava porque ele era **regra opcional que nem toda mesa liga**.* **O `Bloquear` virou a peça 23 e passou a valer em toda mesa, e a metade continua valendo zero — por outro motivo:**
+>
+> > **O `Bloquear` é NEUTRO por construção.** *A média de `2d10` é `11`, que é exatamente o que a Defesa parada já supõe.* **Tirar de alguém uma rolagem cuja média é o número que ela substitui não tira nada.**
+>
+> *O que sobra são os dois extremos de cerca de `1%` — o `Aparar` e a `Brecha` —, e eles quase se cancelam.* **Medido por enumeração completa das `2.000` combinações, a metade vale `+0,02` de dano por rodada**, e o `Incapacitado` iria para `11,02`. *Abaixo da precisão que esta régua carrega: o golpe simples que entra nela varia `3,0` entre o nível 2 e o 30.* **O número publicado no §2.2 fica em `11,00`.**
+>
+> **Esta peça não precisa saber a geometria do `Bloquear` — ela precisa saber que ele é neutro, e quem prova isso é a checagem 1 do `conferir-bloquear.py`.** *É a única checagem do projeto que existe para sustentar um número de outra peça: se a neutralidade quebrar, o preço desta condição fica errado e ninguém mais estaria olhando.*
 
 > **O `Atordoado` cobra `uma` Ação Padrão de propósito.** *Um chefe do manual age mais de uma vez por rodada; tirar todas com uma condição só faria uma linha de feitiço apagar o turno de um chefe inteiro.* **Tirar uma ação de três é caro sem ser apagar a cena.**
 
@@ -458,7 +464,7 @@
 
 - **A `Cicatriz` continua sem mecânica.** *A peça 1 §5.5 registra que ela é permanente, não sai no descanso, e nada mais.* **Esta peça foi escrita com o escopo que o Mizuki fechou — a régua e as três seções que mudaram de casa —, e a `Cicatriz` ficou de fora dele.** *O que precisa ser resolvido continua o mesmo: o que ela faz, se tem teto por ficha, se some algum dia, e se a `Energia Reversa` limpa Sequela.*
 - **O `Surdo` lê `0,00` nesta régua mesmo depois do `−2` na iniciativa**, e o motivo é a régua e não a condição — ela mede dano por rodada, e a peça 15 §3.1 já publicou que ordem de iniciativa não move dano. *Enquanto a régua for essa, o degrau que contiver o `Surdo` vai ter dominância infinita no papel.* **O que falta é uma régua para o eixo de iniciativa**, e o projeto já tem duas decisões grandes tomadas nele — a saída A das Invocações e a recusa da iniciativa fixa da peça 3 — as duas sem número em fatia.
-- **As condições que impedem `Bloquear`.** *O `RASCUNHO-bloqueio.md` lista surpreendido, caído e agarrado, e aponta para cá.* **Duas das três têm nome agora — `Derrubado` e `Agarrado` —, e a terceira não existe como condição neste sistema.**
+- ~~**As condições que impedem `Bloquear`.**~~ **FECHADA na v0.143, e a resposta já estava escrita aqui.** *O rascunho listava surpreendido, caído e agarrado como candidatos e apontava para cá; a peça 23 §5 mediu e concluiu que **só o `Incapacitado`** desliga.* **O §3.4 desta peça já dizia por quê:** *ele é a condição cujo eixo **é** a defesa, e `Atordoado` e `Incapacitado` foram separados em v0.95 justamente para não se aninharem.* **Pôr a linha no `Derrubado` ou no `Agarrado` não seria escrever regra — seria repreçar duas condições que já têm número na régua da seção 2.** *A checagem 5 do `conferir-bloquear.py` lê esta seção e falha se uma segunda condição citar `Bloquear`.*
 - **Três vagas de `Desliga` da peça 13 esperam esta peça.** *Elas esperavam um alvo legal que só nascesse aqui.* **A régua da seção 2 cria alvo: o nível de uma condição é número, e a trava do `Desliga` proíbe encostar no que tem preço.** *Vale reler as três com isso na mão.*
 - **⚠ As duas réguas de rolagem divergem por `9,4` vezes, e não por `4,7` — e o `4,7` publicado media outra coisa.** *A v0.103 escreveu que `+1` no seu acerto vale `10,80` (que são `10%` da Rotina de `108`), que `1` ponto percentual na rolagem de um aliado vale `0,230` (que é `1%` da ação de atacar de `23,00`), e que **"a diferença é de `4,7` vezes"**.* **O `4,7` é `108 ÷ 23,00`: a razão entre as duas BASES.** *Isso é verdade e responde outra pergunta — quanto o seu escopo é maior que o do aliado.* **Lidas por ponto percentual, que é a única forma de compará-las, elas dão `2,16` contra `0,230`, e a razão é `9,39`.**
 

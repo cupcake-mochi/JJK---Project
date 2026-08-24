@@ -39,7 +39,6 @@ CHAPTERS = [
     ("60-invocacoes.md", "Invocações"),
     ("65-pactos.md", "Pactos"),
     ("80-experiencia-e-progressao.md", "Experiência e Progressão"),
-    ("90-apendice-bloquear.md", "Apêndice · Bloquear"),
 ]
 
 NOTES_HEADING = "## Notas de revisão"

@@ -1,4 +1,4 @@
-# Retomada — quatro tarefas antes do playtest, e elas foram escolhidas pelo Mizuki
+# Retomada — a alma, os dois rascunhos, e as marcas que são mais que quatro
 
 Pasta: `/media/mizuki/HD Externo II/Claude/Claude 2/`
 ⚠ Trabalhe na pasta PRINCIPAL, não em worktree. **Você não commita** — deixa a mensagem em
@@ -7,116 +7,109 @@ Pasta: `/media/mizuki/HD Externo II/Claude/Claude 2/`
 Leia primeiro, nesta ordem: `README.md` (a seção *"Nove lições que custaram erro"*),
 `sistema/ESTADO-ATUAL.md` **inteiro**, e o `logs/CHANGELOG.md` de cima até a v0.136.
 
-**Projeto na v0.142.** 22 peças · 22 validadores · 232 checagens. Livro em 18 capítulos,
-**69.966 palavras**, 237 páginas em coluna única e 139 em duas. Manual do Fundamento na
+**Projeto na v0.143.** 23 peças · 23 validadores · 239 checagens. Livro em **17 capítulos**,
+**69.825 palavras**, 237 páginas em coluna única e 139 em duas. Manual do Fundamento na
 **v7.12**. `conferir-voz --estrito` em 0 achados e 10 triagens.
 
 ---
 
-## O objetivo desta leva, e ele muda a prioridade de tudo
+## O que a v0.143 fechou, e o que ela deixou
 
-> ***"Vamos para algumas tarefas simples e vou mandar para os jogadores testarem."***
+**O `Bloquear` virou a peça 23 e deixou de ser opcional.** *O apêndice do capítulo 18 morreu e
+o conteúdo foi para o capítulo 1, colado na Defesa — decisão do Mizuki.* **A dívida da `Talha`
+foi paga, o `Incapacitado` não repreçou, e o rascunho foi para `99-arquivo/`.**
 
-**`04-playtest/` está vazia desde a v0.1, e todo número do sistema é previsão.** *Estas quatro
-tarefas foram escolhidas por ele para destravar a primeira mesa de teste, e não por tamanho nem
-por dependência.* **O critério de pronto aqui é "um jogador consegue usar isso na mesa sem
-perguntar", e não "a peça está elegante".**
+*A tarefa 2 da leva anterior está feita, e a 3 andou pela metade: dos três rascunhos, um virou
+peça. **Sobram dois.***
 
 ---
 
-## 1 · Dano de alma com Essência na Integridade — e ele quer a mecânica de alma INTEIRA validada
+## 1 · Dano de alma com Essência na Integridade — e a máquina de alma INTEIRA
 
 ***Palavras dele:*** *"Começando por 'dano de alma com essência na integridade' temos de validar
 toda mecânica de alma."*
 
-**O que já está decidido e nunca foi aplicado:** a Essência entra na Integridade. *Está na fila
-do `ESTADO-ATUAL` como "já decidido, não aplicado" há várias versões — **vá achar onde a decisão
-foi registrada no `CHANGELOG` antes de reimplementar do zero**, porque decisão registrada não é
-decisão aplicada, e reabrir uma que já fechou custa versão.*
+**A v0.143 já foi medir quem é dono da régua de Integridade, e a resposta é ruim: ninguém é dono
+da máquina. Ela está partida em quatro.**
 
-**O escopo NÃO é só aplicar a Essência.** Ele pediu a máquina de alma validada, e ela está
-espalhada:
-
-| onde | o que mora lá |
+| pedaço | dono hoje |
 |---|---|
-| `Toca a Alma` | a Melhoria que converte dano em dano de alma. Manual do Fundamento, e os feitiços prontos `Fissura` e `Sete Palmos` usam ela |
-| a Integridade | o recurso que o dano de alma consome |
-| peça 19 | a régua de condição e os catorze tipos de dano — o tipo `Alma` é um deles |
-| `Alinhavo` / `Remenda` | devolve `5 × Classe` de Integridade, uma vez por cena |
+| a fórmula `20 + 8 × (nível − 1)` | **peça 1**, na seção *"A Integridade fica de fora das duas"* |
+| os quatro estágios de dano de alma | **o manual do Fundamento** — peça nenhuma |
+| o tipo de dano `Alma`, um dos catorze | **peça 19** |
+| a recuperação por descanso longo | **peça 10** |
 
-**Comece medindo o que existe**, com `grep -rn "Integridade\|alma" sistema/03-mecanica/`, e monte
-a lista do que tem dono e do que não tem **antes** de propor. *A pergunta que provavelmente decide
-a tarefa: **quem é o dono da régua de Integridade hoje?** Se a resposta for "ninguém", essa é a
-peça que falta, e ela vem antes de qualquer número.*
+***Então a tarefa 1 provavelmente é a peça 24, e não uma aplicação.*** *A decisão "a Essência entra
+na Integridade" foi registrada lá atrás, junto com a decisão de a Integridade não levar
+Constituição, e as duas vezes ela aparece como **"entra junto com a peça de dano de alma"**.*
+**Essa peça nunca foi escrita.**
 
----
+> **⚠ E o maior risco dela está medido: mexer no número da Integridade bate no
+> `conferir-orcamento.py`.** *A quarta checagem dele diz que a Integridade no degrau 2 encarece
+> **todo feitiço em `1` ponto de energia por Classe**.* **Mudar a fórmula muda quando esse degrau
+> chega, e isso muda o bolso de todo conjurador em todo nível.** *É a checagem mais apertada do
+> projeto.*
 
-## 2 · O `Bloquear` LIGA, e ele deixou de ser opcional
+**Quem mais espera por isso:**
 
-***Palavras dele, e elas mudam a natureza da regra:*** *"Bloqueio pode ligar, é uma mecânica que
-o jogador pode TOMAR, na hora que for receber um ataque, é uma mecânica real, não uma opcional."*
-
-**Hoje ele é `sistema/03-mecanica/RASCUNHO-bloqueio.md`** — fechado em desenho desde a **v0.43**,
-e publicado no livro como **capítulo 18, `Apêndice · Bloquear`**, com a moldura de *"decisão de
-mesa: Defesa parada ou rolar `2d10` para se defender"*.
-
-**O que a decisão dele obriga:**
-
-1. **O rascunho vira peça numerada** — a próxima livre é a 23 —, e ela precisa nascer com o validador dono dela junto.
-   *Meia peça não é peça: `RASCUNHO-*` não leva número justamente por isso.*
-2. **⚠ Peça nova e validador novo QUEBRAM a contagem** até o `README`, o `ESTADO-ATUAL` e o
-   `LEIA-ME` subirem juntos — o `conferir-repositorio.py` conta os arquivos de peça e de validador
-   na pasta e compara com os três documentos. *Vão para 23 · 23.*
-3. **O capítulo 18 deixa de ser apêndice** e a moldura de "decisão de mesa" sai do livro inteiro.
-   *Procure com `grep -rn "Bloquear\|apêndice" sistema/05-material/livro/manual/` — a promessa
-   de opcionalidade está em mais lugares que o capítulo.*
-4. **A peça 19 tem uma dívida presa nisto:** o `Incapacitado` vale `11,00` fatias e **metade
-   dele — "você não pode `Bloquear`" — dependia de uma regra opcional que nem toda mesa liga.**
-   *Com o `Bloquear` ligado por padrão, essa metade passa a valer sempre, e o preço do
-   `Incapacitado` muda.* **Meça isso antes de fechar a peça, e se a conta apontar para repreço,
-   pare e pergunte.**
+| onde | o que muda |
+|---|---|
+| peça 5, a linha `recuperar Integridade` | reprovou na v0.70 e diz, escrito, *"quando a Essência entrar na Integridade, esta linha pode voltar a valer"* |
+| a lista de playtest do `ESTADO-ATUAL` | *"o estágio 4 de dano de alma dispara alguma vez?"* — hoje a alma é maior que o corpo em quatro dos cinco Caminhos |
+| a ficha e o `conferir-ficha.py` | `Integridade = 28` no nível 2 está escrito em três lugares |
+| `Toca a Alma`, `Fissura`, `Sete Palmos`, `Alinhavo`/`Remenda`, `Cisão` | usam a barra que a peça nova vai reescrever |
 
 ---
 
-## 3 · Os três rascunhos
-
-Depois do `Bloquear`, que já é um deles:
+## 2 · Os dois rascunhos que sobraram
 
 | rascunho | estado |
 |---|---|
-| `RASCUNHO-bloqueio.md` | **vira peça na tarefa 2** |
-| `RASCUNHO-clash-de-expansoes.md` | nunca foi triado. **Leia antes de propor qualquer coisa** |
-| `RASCUNHO-trilhas.md` | a régua das Trilhas. É de onde as três do Evocador saem, e a v0.68 reformulou ela |
+| ~~`RASCUNHO-bloqueio.md`~~ | **virou a peça 23 na v0.143.** Em `99-arquivo/`, com o cabeçalho dizendo por que morreu |
+| `RASCUNHO-clash-de-expansoes.md` | **nunca foi triado.** 76 linhas. **Leia antes de propor qualquer coisa** |
+| `RASCUNHO-trilhas.md` | 926 linhas, a régua das Trilhas. É de onde as três do Evocador saem, e a v0.68 reformulou ela |
 
 *Um rascunho que vira peça vai com cabeçalho para `99-arquivo/` dizendo de onde saiu, o que o
-substituiu, em que versão e **por que morreu**.*
+substituiu, em que versão e **por que morreu**.* **A v0.143 acrescentou uma quinta linha a esse
+cabeçalho, e ela vale a pena: *o que dele NÃO sobreviveu, porque estava errado*.**
 
 ---
 
-## 4 · As quatro marcas de "está sendo escrito" que o leitor vê
+## 3 · As marcas de "está sendo escrito" — e elas NÃO são quatro
 
-*Ele chamou de "marcas invisíveis" e imaginou que fosse simples. **Duas das quatro são**; as
-outras duas não.*
+***O prompt anterior dizia quatro. A entrada da v0.136 do CHANGELOG diz cinco. As duas listas são
+diferentes, e só duas marcas aparecem nas duas.*** **Varrendo o livro na v0.143, são oito.**
 
-| onde | o que o livro diz hoje | tamanho de verdade |
+| onde | o que o livro diz | tamanho |
 |---|---|---|
-| `25-origens.md:661` | `Sem Técnica` → *"não: está sendo escrita"* | **NÃO é simples.** Precisa de `Estilo da Sombra` **ou** `Aptidão como rota`, e as duas são peça |
-| `20-criacao-de-personagem.md:110` | as três Trilhas do Evocador | **NÃO é simples.** É a tarefa de doze entregas preçadas |
-| `55-ferramenta-amaldicoada.md:13` | como se sintoniza uma ferramenta — *"acordo com o mestre"* | **simples**, e cabe nesta leva |
-| `55-ferramenta-amaldicoada.md:192` | o `Estigma` `Avulsa` — *"o limite de uso dela está sendo escrito"* | **simples.** Um relógio, e a `Classe Passiva 2` do capítulo 10 dá o molde: `maestria`× por cena |
+| `25-origens.md` · tabela de rotas | `Sem Técnica` → *"não: está sendo escrita"* | **grande** — precisa de `Estilo da Sombra` **ou** `Aptidão como rota`, e as duas são peça |
+| `20-criacao-de-personagem.md` · Passo 3 | as três Trilhas do Evocador | **grande** — é a tarefa de doze entregas preçadas |
+| `35-caminhos-e-trilhas.md` · `Arremate` | *"Nível 27: vaga"* | média |
+| `55-ferramenta-amaldicoada.md` · abertura | como se sintoniza uma ferramenta | **simples** |
+| `55-ferramenta-amaldicoada.md` · Teto de `Estigma` | a lista de objeto de apoio e o preço dele | média |
+| `55-ferramenta-amaldicoada.md` · `Avulsa` | *"o limite de uso dela está sendo escrito"* | **simples** — a `Classe Passiva 2` dá o molde: `maestria`× por cena, e a v0.142 acabou de usar ele no `Contragolpe` |
+| `60-invocacoes.md` · Selar com talismã | a regra de selamento de objeto amaldiçoado | média |
+| peça 13 | a vaga reservada do `Desliga` do Corpo Amaldiçoado | média |
 
-**A decisão da v0.129 continua valendo, e ela não é contradita por esta tarefa:** *quando a frase
-de estado carrega uma permissão ou um limite que o jogador precisa, ela fica.* **O que sai é a
-frase; o que precisa entrar antes é a regra que ela estava substituindo.**
+> **⚠ Nenhum validador alcança essa família, e é por isso que as três listas divergiram.**
+> *Contagem escrita em frase não tem dono — quarta vez que este projeto registra isso, e a v0.143
+> achou mais três exemplares (`sete` armas com `Talha` sendo nove, e dois `catorze` para um
+> número que virou treze).* **Se você fechar alguma dessas marcas, considere escrever a checagem
+> que conta elas.**
+
+**A decisão da v0.129 continua valendo:** *quando a frase de estado carrega uma permissão ou um
+limite que o jogador precisa, ela fica.* **O que sai é a frase; o que precisa entrar antes é a
+regra que ela estava substituindo.**
 
 ---
 
 ## Uma dívida de texto, medida, que pega qualquer capítulo que você abrir
 
-**A v0.141 tornou as *quatro camadas* obrigatórias em toda entrada de catálogo** — está na
-régua de voz do livro e no procedimento de passada de texto, os dois em `sistema/05-material/livro/`. **Nove entradas do livro ainda estão fora,
-com doze rótulos em negrito longos demais para serem nome de efeito** *(acima das `4 a 6`
-palavras que o PHB entrega)*. **Seis das nove estão no capítulo 12, Bênçãos e Lapidação.**
+**A v0.141 tornou as *quatro camadas* obrigatórias em toda entrada de catálogo** — está na régua
+de voz do livro e no procedimento de passada de texto, os dois em `sistema/05-material/livro/`.
+**Nove entradas do livro ainda estão fora, com doze rótulos em negrito longos demais para serem
+nome de efeito** *(acima das `4 a 6` palavras que o PHB entrega)*. **Seis das nove estão no
+capítulo 12, Bênçãos e Lapidação.**
 
 *Não é tarefa desta leva, mas se você mexer num desses capítulos, conserte de passagem.*
 
@@ -124,7 +117,7 @@ palavras que o PHB entrega)*. **Seis das nove estão no capítulo 12, Bênçãos
 
 ## Método, e ele não é negociável
 
-- **Rode os validadores ANTES de mexer em número:** os 22 de `sistema/03-mecanica/`, o
+- **Rode os validadores ANTES de mexer em número:** os 23 de `sistema/03-mecanica/`, o
   `conferir-repositorio.py` da raiz, os dois de `manual/matematica/`, e o `conferir-voz.py
   --estrito` do livro.
 - **Meça o sucesso pelo CÓDIGO DE SAÍDA**, nunca casando texto da saída — eles reprovam em dois
@@ -138,36 +131,42 @@ palavras que o PHB entrega)*. **Seis das nove estão no capítulo 12, Bênçãos
   *Ela pega substring e não pega colisão de sentido — essa é sua.*
 - **Se mexer no livro:** `guard_numeros.py antes.md depois.md` a cada arquivo, com **cada**
   diferença lida contra a linha que a carregava. E os **quatro** builds: `build.py`,
-  `build.py --duas`, `build_docx.py` e `build_txt.py`.
+  `build.py --duas`, `build_docx.py` e `build_txt.py` — os três primeiros vão para a entrega, e
+  o texto corrido é o único que envelhece sem ninguém olhar.
 - **Escolha de sabor é dele**, em rodadas curtas, com o número e o trade-off já calculados.
-  **Mas não pergunte o que a conta responde** — na v0.141 uma pergunta sobre o `Calo` ia sair e
-  a regra da Passiva Livre já respondia ela.
+  **Mas não pergunte o que a conta responde.**
 - **Documento não pode ter cara de saída de IA.** Português informal, nunca de Portugal.
 
-### Três armadilhas medidas nas últimas cinco versões
+### Quatro armadilhas medidas nas últimas versões
 
 > **⚠ Verde não é fim.** *Na v0.139 os 22 validadores passavam com `PULADA = 0` e treze lugares
-> ainda diziam `catorze` para um número que tinha virado treze.* **Contagem escrita em frase não
-> tem dono** — a checagem 9 confere contagem de arquivo, não de prosa. **Releia as listas à mão.**
+> ainda diziam `catorze`.* **A v0.143 achou mais dois deles, dentro do próprio `conferir-dano.py`,
+> quatro linhas abaixo de uma linha que já dizia `treze`.** *Releia as listas à mão.*
 >
-> **⚠ Medir o marcador em vez do fenômeno erra para os DOIS lados.** *Na v0.140 a primeira
-> varredura de tabela redundante deu nove candidatas e **cinco eram falso positivo** — ela media
-> "as palavras voltam", e num capítulo onde o vocabulário satura isso acende sempre.* **Cortar
-> pela primeira medida teria apagado três tabelas boas.**
+> **⚠ Checagem que não consegue acender é pior que checagem nenhuma.** *Duas das minhas nasceram
+> VERDES na v0.143 e teriam ido para o commit.* **Uma procurava `-` num projeto que escreve `−`
+> (U+2212); a outra olhava uma janela de 400 caracteres que cortava a palavra que ela procurava.**
+> *O arnês pegou as duas. Sem ele, duas guardas que não guardam nada.*
 >
-> **⚠ Quando um bloco sai ou se move, o que fala dele vai junto.** *Cinco vezes em quatro
-> versões.* **E a v0.142 achou uma forma nova:** *não é a frase que sobrevive ao bloco — é o
-> **bloco de nota** que sobrevive à entrada que ele comentava.* **Nenhum validador alcança.**
+> **⚠ Frase morta não volta entre aspas.** *Um `grep` não distingue citação histórica de afirmação
+> viva.* **A peça 14 registra o bilhete velho da `Talha` em discurso indireto de propósito**, e diz
+> isso no próprio parágrafo. *Tentar ensinar a checagem a reconhecer "isto é citação" é medir o
+> marcador de novo.*
+>
+> **⚠ Renomear uma seção cria ponteiro pendurado dentro da própria versão.** *A v0.143 inseriu uma
+> `§2.2`, empurrou a antiga para `§2.3`, e três lugares continuaram apontando para `2.2` — dois
+> comentários de validador e uma linha do §10.* **Varra os ponteiros da peça contra os títulos dela
+> antes de fechar.**
 
 ## Onde as coisas moram
 
 | | |
 |---|---|
-| as peças de regra | `sistema/03-mecanica/`, 22 peças e 22 validadores |
+| as peças de regra | `sistema/03-mecanica/`, 23 peças e 23 validadores |
 | o catálogo de entregas | peça 17; os três `DESENHO-*.md` da raiz são os donos do preço |
-| a fonte do livro | `sistema/05-material/livro/manual/`, 21 arquivos |
+| a fonte do livro | `sistema/05-material/livro/manual/`, 20 arquivos |
+| os builds | `sistema/05-material/livro/build/` |
 | a régua de escrita | `sistema/05-material/livro/REGRA-DE-VOZ.md`, e o procedimento de passada de texto ao lado dela |
-| como regerar o livro | o `README.md` de `sistema/05-material/livro/` |
 | a entrega | `finalizado/`, git próprio, **precisa do commit dela depois do commit do projeto** |
 
 **Os dois repositórios:** `JJK---Project` (raiz) e `JJK---PDF---RPG` (`finalizado/`).
@@ -175,3 +174,9 @@ palavras que o PHB entrega)*. **Seis das nove estão no capítulo 12, Bênçãos
 
 ⚠ **Não rode git do sandbox.** Para ver onde o repositório está, leia `.git/refs/heads/main` e
 `.git/refs/remotes/origin/main` — ou `.git/packed-refs`, se os dois não existirem como arquivo.
+
+> **Uma sujeira que não é do projeto, mas atrapalha quem lê com `grep`:**
+> `sistema/05-material/livro/.claude/worktrees/magical-shtern-619941/` é uma **cópia inteira do
+> repositório na v0.138**, 11 MB, abandonada. *Ela está no `.gitignore` e o `conferir-repositorio.py`
+> já a exclui da varredura — então não quebra nada.* **Mas todo `grep -rn` cai nela e devolve
+> resultado em dobro, inclusive um CHANGELOG velho.** *Vale apagar, e é decisão do Mizuki.*

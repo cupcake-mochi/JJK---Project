@@ -584,8 +584,9 @@ else:
     ESPERADO += [
         (os.path.join(RAIZ, 'sistema', '02-esqueleto', 'arquitetura.md'),
          os.path.join(ENT, 'desenho', 'arquitetura.md')),
-        (os.path.join(MEC, 'RASCUNHO-bloqueio.md'),
-         os.path.join(ENT, 'desenho', 'RASCUNHO-bloqueio.md')),
+        # v0.143: o RASCUNHO-bloqueio.md saiu daqui. Ele virou a peca 23, e a
+        # copia dele foi para 99-arquivo/ — material morto nao vai para a
+        # entrega. O recorte nao encolheu: a peca nova entrou no lugar.
     ]
     for f in ('Fundamento-MANUAL-v7.docx', 'Fundamento-MANUAL-v7.pdf'):
         ESPERADO.append((os.path.join(RAIZ, 'manual', f), os.path.join(ENT, 'manual', f)))
@@ -724,7 +725,17 @@ else:
     # regra. Conferidas uma a uma: as cinco sao "nome de validador", que e' a
     # primeira das duas familias declaradas la em cima — nenhuma familia nova,
     # e nenhuma delas e material de mesa. O teto vai a 126, mesma folga de cinco.
-    PISO_CITACOES, TETO_BRANCOS = 120, 126
+    #
+    # v0.143: 128 brancas. As DUAS novas saem da peca 23, `Bloquear`: ela cita o
+    # conferir-bloquear.py no cabecalho e no SS8 (a especificacao das sete
+    # checagens), e o conferir-ficha.py no fim do SS8, dizendo que a linha
+    # `Defesa N · Bloquear 2d10+M` e conferida LA e nao aqui — aqui mora a
+    # matematica, la mora a impressao. Conferidas uma a uma: as duas sao "nome
+    # de validador", a primeira das duas familias declaradas la em cima.
+    # Validador NUNCA vai para a entrega, entao citar um sempre cai na branca —
+    # e' por isso que toda peca nova empurra este teto. O teto vai a 133, mesma
+    # folga de cinco.
+    PISO_CITACOES, TETO_BRANCOS = 120, 133
     if vistos_e < PISO_CITACOES:
         erro(f'7.2: achei so {vistos_e} citacoes na entrega, e o piso e {PISO_CITACOES} — '
              f'o extrator mudou de forma e esta checagem parou de conferir')

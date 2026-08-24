@@ -8,7 +8,7 @@ PDF"*. É esse PDF, escrito direto a partir desta pasta.
 
 | | |
 |---|---|
-| `manual/*.md` | **a fonte.** 18 arquivos, um por capítulo (ou peça de frente), com dois dígitos e um nome na frente do `.md`. É aqui que se edita |
+| `manual/*.md` | **a fonte.** 20 arquivos, um por capítulo (ou peça de frente), com dois dígitos e um nome na frente do `.md`. É aqui que se edita |
 | `build/build.py` | markdown → HTML semântico → PDF, via WeasyPrint. Gera também o índice remissivo |
 | `build/build_docx.py` | markdown → `.docx` de revisão, sem diagramação — para comentar |
 | `build/build_txt.py` | markdown → texto corrido, um arquivo só — para Ctrl+F e diff |

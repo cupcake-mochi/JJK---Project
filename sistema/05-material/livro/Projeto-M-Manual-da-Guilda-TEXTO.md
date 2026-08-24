@@ -50,7 +50,6 @@ Nem todo capítulo é para ler do começo ao fim. Metade dos capítulos é catá
 | **16** | Pactos | *consulta* · o que você troca com a sua própria energia, e o que ela cobra |
 | | **A CAMPANHA** | |
 | **17** | Experiência e Progressão | *consulta* · o que cada nível entrega, do 1 ao 30 |
-| **18** | Apêndice · Bloquear | *decisão de mesa* · Defesa parada ou rolar `2d10` pra se defender — os dois são regra do sistema |
 | | **Índice remissivo** | no fim: termo, e em que página ele aparece |
 
 **Grupo novo, sem ninguém ter lido nada?** Vá direto para *Antes da primeira sessão*. É uma cena pronta, com ficha e tudo, para jogar antes de estudar o resto.
@@ -81,8 +80,8 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **Teste de Resistência** | O que **você** rola quando algo acontece com você. São quatro: Físico, Vigor, Intelecto e Espírito | 1 |
 | **Defesa** | `10` + Destreza + proteção. O número que o inimigo precisa alcançar para te acertar | 1 |
 | **Crítico** | `20` natural numa rolagem de acerto. Dobra os dados da arma ou da Classe, e nada mais | 1 |
-| **`Bloquear`** | Regra opcional: role `2d10 + (Defesa − 11)` e use no lugar da Defesa parada. A mesa escolhe se usa | 18 |
-| **`Aparar`** | O duplo 10 no `Bloquear`. O ataque não acerta, e você pode gastar a Reação para revidar com `+3` de dano | 18 |
+| **`Bloquear`** | Ao ser atacado, role `2d10 + (Defesa − 11)` e use no lugar da Defesa parada. Na média dá a mesma Defesa | 1 |
+| **`Aparar`** | O duplo 10 no `Bloquear`. O ataque não acerta, e você pode gastar a Reação para revidar com `+3` de dano | 1 |
 | **Arredondamento** | Sempre para o lado que não te favorece. O que você paga sobe, o que você ganha desce | 1 |
 | **Rotina** | O dano que um personagem entrega numa rodada comum, sem gastar recurso guardado | 15 |
 
@@ -549,7 +548,7 @@ Crítico só existe onde existe rolagem de acerto. Feitiço que resolve por Test
 
 > **Defesa = 10 + Destreza + proteção**
 
-Defesa é o número que o inimigo precisa igualar ou passar para te acertar. Ele rola contra ela; você não rola nada. Por exemplo, com Destreza 3 e um Traje de degrau 2, a sua Defesa é 15.
+Defesa é o número que o inimigo precisa igualar ou passar para te acertar. Por exemplo, com Destreza 3 e um Traje de degrau 2, a sua Defesa é 15. Ela é um número parado, e por padrão você não rola nada — mas pode trocar ela por uma rolagem quando for atacado, e é a seção `Bloquear`, logo abaixo.
 
 **Proteção** é o que você veste ou o que você cobre. Cobrir-se de energia amaldiçoada dá proteção sem equipamento nenhum, e é aptidão básica de todo feiticeiro.
 
@@ -558,6 +557,56 @@ Defesa evita ser acertado. Reduzir o dano que já passou é outra coisa, chamada
 ### Cobertura
 
 Estar atrás de alguma coisa sobe a sua Defesa, e a cobertura Total tira você da lista de alvos possíveis. Os três degraus, com os números de cada um, estão no capítulo 4, *Dano, Condições e Cobertura*.
+
+## Bloquear
+
+> **Ao ser atacado, você pode `Bloquear`:** role `2d10 + (a sua Defesa − 11)` e use esse resultado no lugar da sua Defesa contra aquele ataque.
+>
+> `Bloquear` não custa nada, não gasta a sua Reação, e é de todo mundo — você, os seus aliados e os inimigos.
+
+**Na média dá exatamente a sua Defesa.** A média de `2d10` é 11, que é o número que a sua Defesa parada já supõe. Você troca um número certo por dois dados, e não ganha nem perde nada com a troca. O que você compra é variação.
+
+### Linha da ficha
+
+O `−11` some no número que a ficha imprime. Ela traz a linha pronta, do lado da Defesa:
+
+> **Defesa 17 · Bloquear 2d10+6**
+
+Na mesa você lê *"role 2d10+6"*, que dá o mesmo trabalho que *"role d20+7"*.
+
+### Aparar e Brecha
+
+> **Duplo 10, `Aparar`.** O ataque não acerta. Você pode gastar a sua Reação para atacar o agressor na hora, e esse ataque sai com `+3` de dano.
+>
+> **Duplo 1, `Brecha`.** O ataque acerta. O agressor pode gastar a Reação dele para atacar você de novo na hora, sem bônus nenhum.
+
+**O `Aparar` não anula um 20 natural.** Quem ataca continua rolando d20, e crítico fura guarda. Nenhuma regra de crítico muda por causa desta seção.
+
+> **Exemplo.** A Rina está com Defesa 17, então a linha dela é `Bloquear 2d10+6`. Uma maldição ataca e tira **18**: com a Defesa parada, isso acerta. Ela bloqueia, tira `7` e `4`, e com o `+6` dá **17** — o ataque acerta do mesmo jeito, e ela não perdeu nada por tentar.
+>
+> Na rodada seguinte a mesma maldição tira **19**. A Rina bloqueia e sai `10` e `10`: `Aparar`. O ataque não acerta, e ela ainda tem a Reação na mão. Aí vem a decisão — gastar a Reação para bater de volta com `+3` de dano, ou guardar ela para o capanga que ainda não agiu neste turno.
+
+### Limites
+
+> **`Bloquear` não vale em Teste de Resistência.** Só contra ataque com rolagem de acerto.
+>
+> **`Bloquear` usa exatamente o mesmo modificador da sua Defesa parada.** Nada pode aumentar um sem aumentar o outro — se um escudo, uma aptidão, um Legado ou uma ferramenta subir um lado só, a regra quebra.
+
+Quem está `Incapacitado` não pode `Bloquear`. É a única condição que desliga a rolagem, e ela está no capítulo 4, *Dano, Condições e Cobertura*.
+
+### Custo
+
+**Resultados de Bloquear**
+| o que acontece quando você rola | chance |
+|---|---|
+| `Aparar`, e a história é boa | 0,95% |
+| `Brecha`, e a história é ruim | 1,00% |
+| o dado mudou o resultado, sem extremo | 14,5% |
+| nada mudou; você rolou por rolar | 83,5% |
+
+> **Um em cada doze golpes vai passar porque você rolou, quando a sua Defesa parada teria segurado.** `Bloquear` é a mesma defesa com variação, e os dois resultados de cerca de 1% são o que você está comprando.
+
+O outro preço é tempo de mesa: uma rolagem a mais por golpe recebido. Num combate de quatro rodadas com quatro personagens, isso passa de uma dúzia de rolagens novas.
 
 ## Testes de Resistência
 
@@ -1352,7 +1401,7 @@ Nenhuma das duas contém a outra. Escolher uma para aplicar é escolher o que vo
 
 `Paralisado` não existe neste sistema. O que outros jogos chamam assim se chama `Atordoado` aqui, e não há um terceiro degrau que some os dois.
 
-> **Metade do `Incapacitado` só aparece se a sua mesa usa `Bloquear`.** A outra metade — todo ataque corpo a corpo contra você é crítico — vale sempre, com `Bloquear` ligado ou não.
+> **O `Incapacitado` é a única condição que desliga o `Bloquear`.** A rolagem está no capítulo 1, *Como Jogar*, e nenhuma outra condição desta lista encosta nela.
 ### `Inconsciente`, `Exaustão` e `Invisível`
 
 Estas três não são condição.
@@ -5286,7 +5335,7 @@ São doze. Propriedade é o que a arma é: ela já está impressa na linha do ca
 | `Vestida` | Não ocupa a mão |
 | `Talha` | A arma é ruim de aparar: **−1** no `Bloquear` de quem se defende |
 
-> **`Talha` é a única das doze ligada ao `Bloquear`**, a rolagem de `2d10` que a sua mesa pode usar no lugar da Defesa estática — o capítulo 18 explica a escolha. Onde a mesa usa a Defesa estática, as nove armas com `Talha` seguem valendo por tudo o mais que elas são: dado, alcance, o resto das propriedades. Só esse `−1` específico não tem onde entrar.
+> **`Talha` é a única das doze ligada ao `Bloquear`**, a rolagem de `2d10` que substitui a Defesa parada — ela está no capítulo 1, *Como Jogar*. O `−1` vale contra quem se defende de você, e não muda nada no seu próprio `Bloquear`.
 
 `Oculta` é a que deixa você entrar armado numa reunião, num velório ou numa portaria com detector. `Rompe` é a que abre cadeado, grade, alçapão e tampa de bueiro sem esperar ninguém. `Vestida` é a que responde quando alguém manda você largar tudo o que está na mão.
 
@@ -6410,82 +6459,5 @@ Um marco sim, um não, começando pelo segundo.
 ### Teto de Passivas
 
 Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda. Cada escolha de **Leque** abre uma vaga a mais no teto, e a Passiva que a própria escolha concede ocupa essa vaga nova. Uma rota pura de Leque termina com doze Passivas na ficha, e cinco delas continuam sendo as cinco pagas de sempre.
-
----
-
-
-# Capítulo 18 · Apêndice · Bloquear
-
-*fonte: `manual/90-apendice-bloquear.md`*
-
-> **Defesa parada ou `Bloquear`: a mesa escolhe.** Combinem antes da primeira sessão, e a resposta vale para todo mundo — jogadores e inimigos. Nenhum número de nenhum outro capítulo muda por causa dessa escolha.
-A sua Defesa é um número parado: o inimigo rola contra ela e você não rola nada. Se a sua mesa preferir rolar para se defender, usa `Bloquear`.
-
-## Rolagem de Bloquear
-
-> **A sua Defesa é `10 + Destreza + proteção`, e ela continua sendo o padrão.**
->
-> **Ao ser atacado, você pode `Bloquear`:** role `2d10 + (a sua Defesa − 11)` e use esse resultado no lugar da sua Defesa contra aquele ataque.
->
-> **Duplo 10, `Aparar`.** O ataque não acerta. Você pode gastar a sua Reação para atacar o agressor na hora, e esse ataque sai com `+3` de dano.
->
-> **Duplo 1, `Brecha`.** O ataque acerta. O agressor pode gastar a Reação dele para atacar você de novo na hora, sem bônus nenhum.
->
-> **O `Aparar` não anula um 20 natural.** Crítico fura guarda.
->
-> **`Bloquear` não vale em Teste de Resistência.** Só contra ataque com rolagem de acerto.
->
-> `Bloquear` não custa nada, não gasta a sua Reação, e é de todo mundo.
-
-### Linha da ficha
-
-O `−11` some no número que a ficha imprime. Ela traz a linha pronta, do lado da Defesa:
-
-> **Defesa 17 · Bloquear 2d10+6**
-
-Na mesa você lê *"role 2d10+6"*, que dá o mesmo trabalho que *"role d20+7"*.
-
-## Exemplo
-
-A Rina está com Defesa 17, então a linha dela é `Bloquear 2d10+6`. Uma maldição ataca e tira **18** no ataque: com a Defesa parada, isso acerta.
-
-Ela escolhe `Bloquear`. Tira `7` e `4`, que somados ao `+6` dão **17**. O ataque acerta do mesmo jeito, e ela não perdeu nada por tentar.
-
-Na rodada seguinte a mesma maldição tira **19**. A Rina bloqueia e sai `10` e `10`: `Aparar`. O ataque não acerta, e ela ainda tem a Reação na mão. Aí vem a decisão: gastar a Reação para bater de volta com `+3` de dano, ou guardar ela para o capanga que ainda não agiu neste turno.
-
-## Custo
-
-`Bloquear` é neutro na média: ele entrega tanto quanto tira.
-
-**Resultados de Bloquear**
-| o que acontece quando você rola | chance |
-|---|---|
-| `Aparar`, e a história é boa | 1,0% |
-| duplo 1, e a história é ruim | 1,0% |
-| o dado mudou o resultado, sem extremo | 14,5% |
-| nada mudou; você rolou por rolar | 83,5% |
-
-> **Um em cada doze golpes vai passar porque você rolou, quando a sua Defesa parada teria segurado.** `Bloquear` é a mesma defesa com variação, e os dois resultados de 1% são o que você está comprando.
-
-O outro preço é tempo de mesa: uma rolagem a mais por golpe recebido. Num combate de quatro rodadas com quatro personagens, isso passa de uma dúzia de rolagens novas.
-
-## Limites
-
-### Aparar e crítico
-
-Quem ataca continua rolando d20, e 20 natural continua sendo 20 natural. O `Aparar` para o golpe comum e não para o crítico. Nenhuma regra de crítico muda por causa deste apêndice.
-
-### Modificador compartilhado
-
-> **`Bloquear` usa exatamente o mesmo modificador da sua Defesa parada. Nada pode aumentar um sem aumentar o outro.**
-
-Se um escudo, uma aptidão, um Legado ou uma ferramenta der `+1` na Defesa e não no `Bloquear`, ou o contrário, a regra quebra.
-
-## Bloquear e Incapacitado
-
-A condição `Incapacitado` cita `Bloquear` diretamente: quem está `Incapacitado` não pode bloquear, e todo ataque corpo a corpo contra ele é crítico.
-
-> **Se a sua mesa não usa `Bloquear`, o `Incapacitado` é só o crítico no corpo a corpo.** É a metade que vale sempre, e ela sozinha já paga o preço da condição.
-
 
 ---

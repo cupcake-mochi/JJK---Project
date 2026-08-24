@@ -676,11 +676,19 @@ Quem decide são os outros três eixos:
 | **`Rompe`** | 1 | vantagem contra objeto e estrutura | *"Força governa agarrar, **quebrar**"* — peça 5 §1 |
 | **`Emaranha`** | 1 | dá acesso a agarrar sem largar a arma | *"Força governa **agarrar**"* — peça 5 §1 |
 | **`Vestida`** | 1 | não ocupa a mão | o §4 mede a mão livre, e `Selo`=`Gesto` depende dela |
-| **`Talha`** | 1 | a arma é ruim de bloquear: **−1 no `Bloquear` de quem se defende** | `RASCUNHO-bloqueio.md` §4 |
+| **`Talha`** | 1 | a arma é ruim de bloquear: **−1 no `Bloquear` de quem se defende** | peça 23 §3 |
 
-**A `Talha` bate no `Bloquear` e não na proteção, e isso foi escolha com motivo.** *Ideia do Mizuki: "uma propriedade que dificulta justamente no bloqueio."* A versão anterior dela ignorava `1` de proteção — e proteção esbarra no teto de Defesa, que é **derivado de três donos** e não aceita item mexendo nele. O `Bloquear` é rota **opcional que o defensor escolhe**, então a propriedade cria uma decisão em vez de um desconto.
+**A `Talha` bate no `Bloquear` e não na proteção, e isso foi escolha com motivo.** *Ideia do Mizuki: "uma propriedade que dificulta justamente no bloqueio."* A versão anterior dela ignorava `1` de proteção — e proteção esbarra no teto de Defesa, que é **derivado de três donos** e não aceita item mexendo nele. **O `Bloquear` é rota que o defensor escolhe golpe a golpe**, então a propriedade cria uma decisão em vez de um desconto.
 
-> **A dívida, escrita para não sumir: `Bloquear` é regra opcional.** Numa mesa que não a use, a `Talha` **vale zero** — e a arma pagou 1 ponto por ela. **O validador desta peça tem de acusar se alguma arma ficar dependendo só da `Talha`.** Hoje nenhuma fica: as sete que a carregam levam outra propriedade ou um dado que já as separa.
+> ***A dívida desta propriedade FOI PAGA na v0.143, e ela ficou aberta noventa e oito versões.*** *Ela nasceu na v0.45 com um bilhete ao lado, escrito para não sumir:* **enquanto o `Bloquear` fosse escolha da mesa, toda mesa que o deixasse desligado tinha uma `Talha` valendo zero — e a arma tinha pagado `1` ponto por ela.**
+>
+> *O bilhete está aqui em discurso indireto de propósito. A checagem 6 procura as frases de opcionalidade **por texto**, e um `grep` não distingue citação histórica de afirmação viva — então frase morta não volta entre aspas.*
+>
+> **O `Bloquear` virou a peça 23 e deixou de ser opcional.** *As **nove** armas que carregam a propriedade passam a receber o que compraram, em toda mesa:* `Rapieira` · `Odachi` · `Maça` · `Marreta` · `Kanabō` · `Machado de Guerra` · `Foice` · `Yari` · `Rifle`.
+>
+> **⚠ E o bilhete velho contava `sete`.** *São nove desde alguma versão que ninguém acompanhou, e o capítulo 13 do livro já publicava `nove`.* **Contagem escrita em frase não tem dono** — hoje a checagem 6 do `conferir-bloquear.py` conta as armas do catálogo e compara com o número escrito aqui.
+>
+> **E a checagem 7 deste validador não morreu junto com a dívida: ela mudou de pergunta.** *Ela nasceu perguntando "alguma arma depende só de uma regra que a mesa pode desligar?", e essa pergunta acabou.* **A que fica é a que sempre importou por baixo dela:** *uma arma cuja identidade paga inteira é `−1` num número alheio é uma arma sem identidade própria.* **A `Maça` e o `Kanabō` continuam declaradas**, por decisão do Mizuki na v0.48 — elas **são** as armas anti-guarda.
 >
 > **E o invariante do Bloquear continua inteiro.** Ele diz que *o modificador do defensor é o mesmo nos dois lados*; a `Talha` é do **atacante** e não toca em modificador nenhum do defensor.
 

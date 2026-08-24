@@ -67,6 +67,19 @@ def ler(caminho, rotulo):
 P6 = ler(os.path.join(AQUI, '06-caminhos-e-trilhas.md'), 'peca 6')
 P7 = ler(os.path.join(AQUI, '07-pericias-e-oficios.md'), 'peca 7')
 P8 = ler(os.path.join(AQUI, '08-criacao-de-personagem.md'), 'peca 8')
+
+# v0.143: a peca 23 SS2.3 poe a linha do Bloquear como OBRIGACAO da ficha —
+# e' ela que faz o `-11` nunca aparecer na mesa. Aqui mora a impressao; a
+# matematica mora no conferir-bloquear.py.
+_P23 = ler(os.path.join(AQUI, '23-bloquear.md'), 'peca 23')
+_m = re.search(r'`(\d+d\d+)\s*\+\s*\(a sua Defesa\s*[−-]\s*(\d+)\)`', _P23)
+if not _m:
+    erro('nao achei a formula do Bloquear na peca 23 — sem ela nao da para conferir '
+         'a linha da ficha')
+    DADO_BLO, OFF_BLO = None, None
+else:
+    DADO_BLO, OFF_BLO = _m.group(1), int(_m.group(2))
+
 P11 = ler(os.path.join(AQUI, '11-aptidoes-e-refino.md'), 'peca 11')
 P12 = ler(os.path.join(AQUI, '12-experiencia-e-progressao.md'), 'peca 12')
 DADOS = ler(os.path.join(GER, 'dados.js'), 'o dados.js do gerador da ficha')
@@ -301,6 +314,28 @@ checagens.append(('CLASSE', const_js_simples('CLASSE'),
                   'peca 8, passo 5'))
 
 # integridade, da peca 8
+# O modificador impresso na ficha de exemplo tem de ser a SUBTRACAO refeita, e
+# nao um numero que hoje calha de bater — licao no 9. Se a Defesa da Kaori mudar
+# e o Bloquear nao mudar junto, isto acende.
+_mk = ler(os.path.join(MAT, 'gerador-ficha', 'make.js'), 'make.js da ficha')
+_d = re.search(r"defesa:\s*'(\d+)'", _mk)
+_b = re.search(r"bloquear:\s*'(\d+d\d+)\s*\+\s*(\d+)'", _mk)
+if not (_d and _b):
+    erro('nao achei `defesa` e/ou `bloquear` nos numeros da ficha de exemplo do '
+         'make.js — a linha do Bloquear e obrigacao da peca 23 SS2.3')
+elif OFF_BLO is not None:
+    _esperado = int(_d.group(1)) - OFF_BLO
+    if _b.group(1) != DADO_BLO:
+        erro(f'a ficha de exemplo imprime `{_b.group(1)}` e a peca 23 diz '
+             f'`{DADO_BLO}`')
+    elif int(_b.group(2)) != _esperado:
+        erro(f'a ficha de exemplo imprime Bloquear +{_b.group(2)} e a Defesa dela e '
+             f'{_d.group(1)}: {_d.group(1)} - {OFF_BLO} = {_esperado}. O modificador '
+             f'do Bloquear e o da Defesa tem de ser a MESMA expressao (peca 23 SS4)')
+    else:
+        print(f'  [x] a linha do Bloquear da ficha de exemplo e derivada: '
+              f'Defesa {_d.group(1)} - {OFF_BLO} = +{_esperado}')
+
 m = re.search(r'Integridade\s*=\s*(\d+)', P8)
 checagens.append(('INTEGRIDADE', const_js('INTEGRIDADE'),
                   int(m.group(1)) if m else None, 'peca 8, passo 7'))
@@ -372,6 +407,9 @@ esperados = [
     (str(const_js('INTEGRIDADE')), 'a Integridade do nivel 2'),
     (str(const_js_simples('XP_PROXIMO')), 'o XP do proximo nivel'),
 ]
+if DADO_BLO:
+    esperados.append((f'{DADO_BLO} + (Defesa − {OFF_BLO})',
+                      'a formula do Bloquear, na linha colada na Defesa'))
 for arq in ('ficha-em-branco.docx', 'ficha-exemplo-kaori.docx'):
     p = os.path.join(MAT, arq)
     if not os.path.isfile(p):

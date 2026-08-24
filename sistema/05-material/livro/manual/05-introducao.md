@@ -40,7 +40,6 @@ Nem todo capítulo é para ler do começo ao fim. Metade dos capítulos é catá
 | **16** | Pactos | *consulta* · o que você troca com a sua própria energia, e o que ela cobra |
 | | **A CAMPANHA** | |
 | **17** | Experiência e Progressão | *consulta* · o que cada nível entrega, do 1 ao 30 |
-| **18** | Apêndice · Bloquear | *decisão de mesa* · Defesa parada ou rolar `2d10` pra se defender — os dois são regra do sistema |
 | | **Índice remissivo** | no fim: termo, e em que página ele aparece |
 
 **Grupo novo, sem ninguém ter lido nada?** Vá direto para *Antes da primeira sessão*. É uma cena pronta, com ficha e tudo, para jogar antes de estudar o resto.

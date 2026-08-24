@@ -8,6 +8,128 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.143] — 24/08/2026
+
+**O `Bloquear` deixou de ser opcional e virou a peça 23.** ***Decisão do Mizuki:*** *"Bloqueio pode ligar, é uma mecânica que o jogador pode TOMAR, na hora que for receber um ataque, é uma mecânica real, não uma opcional."*
+
+*O desenho é da v0.43 e não mudou uma linha. O que mudou foi o estatuto — e ele arrastou uma dívida de noventa e oito versões, dois erros de aritmética e um levantamento externo inteiro.*
+
+### O que a decisão obrigou
+
+**O `RASCUNHO-bloqueio.md` foi para `99-arquivo/` e nasceu `03-mecanica/23-bloquear.md`**, com o `conferir-bloquear.py` e **sete checagens**. *O rascunho se declarava não-peça em cima de uma premissa que deixou de valer:* **"isto é uma regra opcional, e ela vai para o tópico de regras quando aquele tópico existir."**
+
+***Decisão do Mizuki sobre onde ela mora no livro:*** *"fica fácil de ler e fica logo após a defesa, é simples, rápido."* **O capítulo 18, `Apêndice · Bloquear`, deixou de existir: o conteúdo virou a seção `Bloquear` do capítulo 1, entre a Cobertura e os Testes de Resistência.** *O livro foi de 18 para 17 capítulos.*
+
+> **A conta das três saídas foi levada medida antes da escolha, e ele pagou a do meio.** *Ficar no 18 e só perder o "Apêndice" do nome custava seis lugares de texto; virar capítulo 5 custava `~90` referências `capítulo N` mais as três listas de ordem — o dobro das `44` que a v0.124 chamou de "a mais cara". **Dissolver no capítulo 1 custou seis lugares mais duas linhas de contagem**, e é o que ele escolheu.*
+
+### ⚠⚠ O `Incapacitado` NÃO repreçou, e o motivo novo é melhor que o antigo
+
+**Metade daquela condição é *"você não pode `Bloquear`"*, e a peça 19 preçava essa metade em zero porque a regra era opcional.** *Com o `Bloquear` ligado, esse argumento morre — e a metade continua valendo zero, por um motivo que não depende de mesa nenhuma:*
+
+> **O `Bloquear` é NEUTRO por construção.** *A média de `2d10` é `11`, que é exatamente o que a Defesa parada já supõe.* **Tirar de alguém uma rolagem cuja média é o número que ela substitui não tira nada.**
+
+**Medido por enumeração completa das `2.000` combinações:** *o que sobra são os dois extremos de cerca de `1%`, e eles quase se cancelam.* **A metade vale `+0,02` de dano por rodada** — o `Incapacitado` iria para `11,02`, contra um teto de `Leve` de `15,43`. *Abaixo da precisão que a régua carrega: o golpe simples que entra nela varia `3,0` entre o nível 2 e o 30.* **O número publicado fica em `11,00`.**
+
+*A peça 19 passou a apontar para a 23 em vez de repetir a conta.* **A checagem 1 do `conferir-bloquear.py` é a única deste projeto que existe para sustentar um número de OUTRA peça:** *se a neutralidade quebrar, o preço daquela condição fica errado e ninguém mais estaria olhando.*
+
+### ⚠⚠ Dois erros de aritmética que estavam no rascunho desde a v0.43
+
+**O validador pegou os dois na primeira rodada, e a conclusão de nenhum deles estava errada — a conta escrita ao lado é que estava.**
+
+| o que o rascunho publicava | o que a conta dá |
+|---|---|
+| *"a Reação vale `9,0` contra os `6,88`, **e a folga é `3,86`**"* | `9,00 − 6,88` = **`2,12`**. Eram duas grandezas com o mesmo nome: a subtração, em dano esperado, e o **teto do bônus em dano cru**, que é ela dividida pela taxa de acerto e dá `3,85` |
+| líquido do pacote de extremos = **`−0,154`** | **`−0,159`.** Aquele número supunha `1%` para os dois extremos, e a própria trava do `20` natural faz o `Aparar` valer `0,95%` contra `1,00%` da `Brecha` |
+
+**E a porcentagem que ele publicava nunca declarou o denominador.** *`0,43%` "do golpe" — e a conta só fecha com um `36` que não aparece em documento nenhum do projeto.* **Hoje é `0,66%` do golpe do chefe, que a peça 19 §2.1 publica, e a checagem 3 falha se a peça parar de declarar contra o quê ela mede.**
+
+> ***O `+3` continua sendo o maior bônus que cabe.*** *A checagem 4 confere as duas grandezas separadas e falha se a peça publicar uma com o valor da outra.* **`+3` cabe com `0,85` de margem e `+4` estoura por `0,15`.**
+
+### ⚠ A dívida da `Talha` foi paga, e ela ficou aberta noventa e oito versões
+
+**A propriedade de arma custa `1` ponto e dá `−1` no `Bloquear` de quem se defende.** *Ela nasceu na v0.45 com um bilhete ao lado, escrito para não sumir: enquanto o `Bloquear` fosse escolha da mesa, toda mesa que o deixasse desligado tinha uma `Talha` valendo zero.* **As nove armas que a carregam passam a receber o que compraram, em toda mesa.**
+
+> **⚠ E o bilhete velho contava `sete`.** *São nove desde alguma versão que ninguém acompanhou, e o capítulo 13 do livro já publicava `nove`.* **Quarta ocorrência da mesma família nesta leva** — contagem escrita em frase não tem dono. *Hoje a checagem 6 conta as armas do catálogo, compara com o número escrito na peça 14, **e ainda confere a lista nominal***.
+
+**A checagem 7 do `conferir-equipamento.py` não morreu junto com a dívida: ela mudou de pergunta.** *Nasceu perguntando "alguma arma depende só de uma regra que a mesa pode desligar?", e essa pergunta acabou.* **A que fica é a que sempre importou por baixo dela: uma arma cuja identidade paga inteira é `−1` num número alheio é uma arma sem identidade própria.**
+
+### A pendência de cem versões não precisava ser escrita
+
+**O rascunho listava *"as condições que impedem Bloquear"* como *"a única peça do desenho que ainda não tem forma"*, e sugeria surpreendido, caído e agarrado.** *A resposta já estava na peça 19, escrita por outro caminho:*
+
+> ***Só o `Incapacitado`, porque ele é a condição cujo eixo É a defesa.*** *A decisão do Mizuki na v0.95 separou `Atordoado` de `Incapacitado` justamente para os dois não se aninharem — um tira parte do turno, o outro tira a defesa.*
+
+**E a alternativa tem preço, que é o argumento definitivo:** *pôr a linha no `Derrubado` ou no `Agarrado` não seria escrever regra — seria repreçar duas condições que já têm número publicado na régua das treze.* **A checagem 5 lê a peça 19 e falha se uma segunda condição citar `Bloquear`.**
+
+### ⚠⚠ O levantamento do GURPS estava errado em três pontos
+
+*O rascunho descrevia o sistema de memória de busca. Lido no manual da 4ª edição de luxo, páginas 374 a 377:*
+
+| o rascunho dizia | o manual diz |
+|---|---|
+| *"aparar e bloquear uma vez por turno cada"* | **só o bloqueio.** *"Só é possível bloquear um ataque por turno."* **Aparar não tem teto: tem penalidade cumulativa de `−4`** por tentativa extra com a mesma arma ou mão |
+| *"de graça"* | **a defesa ativa é paga por MANOBRA.** Quem escolhe Ataque Total *"não tem direito a qualquer jogada de defesa ativa"* |
+| *"o material admite que não existe consideração tática"* | **essa frase não existe no manual.** Publicada entre aspas sem dono |
+
+**As duas correções fortalecem a peça em vez de enfraquecer.** *O `−4` cumulativo é a mesma família do `−20%` do RuneQuest, então a saída que a peça recusa tem **dois** precedentes documentados e não um.* **E "pago por manobra" é um quinto mecanismo que o rascunho não listava** — e que este sistema não tem, porque a Ação Padrão não se divide em manobras. *É por isso que a resposta aqui teve de ser o dado e não o preço.*
+
+> **⚠ E o mesmo manual entregou, de graça, o precedente da linha de ficha:** *"Os valores das defesas ativas devem ser calculados previamente e registrados na planilha de personagem."* **O maior sistema de combate detalhado do hobby resolve o atrito da conta imprimindo o número pronto na ficha.**
+
+### A ficha imprime a linha, e isso saiu de "em aberto"
+
+**`Defesa 13 · Bloquear 2d10+2`**, na coluna da direita, **logo abaixo da Defesa** — é a adjacência que faz o `−11` nunca aparecer na mesa. *O `conferir-ficha.py` ganhou duas checagens:* **a fórmula tem de estar impressa nos dois `.docx`, e o modificador do exemplo é a SUBTRAÇÃO refeita** — `Defesa − 11` —, e não um número que hoje calha de bater.
+
+### ⚠⚠ E `2d10` na base `10` é a única configuração neutra que existe
+
+***Achado por um contra-teste que REPROVOU.*** *A ideia era provar que a checagem 1 mede uma relação e não o `2d10`: mudar a base para `12`, o dado para `2d12` e o offset para `13`, tudo coerente, deveria ficar verde.* **Ela acendeu, e estava certa.**
+
+| dado | média | faixa | base | deriva |
+|---|---|---|---|---|
+| **`2d10`** | `11` | `2` a `20` | `10` | **`+0,0000`** |
+| `2d12` | `13` | `2` a `24` | `12` | `+0,0007` |
+| `2d4` | `5` | `2` a `8` | `4` | `−0,0375` |
+
+**A média certa não basta: a faixa do dado tem de caber na do `d20`.** *`21` a `24` são resultados que o `d20` não alcança de jeito nenhum, e o `2d4` enviesa pelo lado estreito.* **A checagem 1 não pode ser enganada por mudança coerente porque não existe segunda configuração coerente** — o que prova que ela não é trivialmente verdadeira são as três perturbações independentes, cada uma acendendo sozinha.
+
+### ⚠ Duas checagens minhas nasceram VERDES sem conseguir acender
+
+*Registrado porque é o arnês fazendo o trabalho dele, e as duas teriam ido para o commit.*
+
+**A que procura quem mexe no número do `Bloquear` achou ZERO lugares — com a `Talha` escrita na peça 14 na frente dela.** *O menos deste projeto é `−` (U+2212) e o regex tinha `-`.* **Mesmo erro duas vezes na mesma versão:** *o primeiro me pegou lendo o dado da tabela do §2.*
+
+**E a que procura a frase de opcionalidade na peça 14 olhava os 400 caracteres antes dela** procurando a palavra `Talha`, que caía fora da janela. *Hoje ela procura quatro frases mortas diretamente.* **E daí saiu uma convenção:** *frase morta não volta entre aspas, porque um `grep` não distingue citação histórica de afirmação viva.* **A peça 14 registra o bilhete velho em discurso indireto, e diz isso no próprio parágrafo.**
+
+### O arnês
+
+**Cópia isolada, base conferida verde antes de cada perturbação, `diff` conferido.** *16 perturbações acendendo a checagem dona — o dado, a base da Defesa, o offset, os dois multiplicadores publicados, o bônus, a folga, o teto, o líquido, o denominador, uma segunda condição desligando o `Bloquear`, a contagem da `Talha`, a lista nominal dela, e as quatro frases mortas.* **Um contra-teste verde:** *mexer na folga, no teto e no bônus de forma coerente passa na checagem 4, que é o que prova que ela mede `folga ÷ acerto` e não o `+3`.*
+
+### O que ficou de pé, e é decisão declarada
+
+**Três coisas continuam em aberto na peça 23**, e nenhuma trava o playtest: *a Reação na ficha de inimigo, sem a qual a `Brecha` não vale contra inimigo; o gatilho que libera subir o `+3` se a decisão do nível 22 nunca aparecer na mesa; e quanto tempo de mesa a rolagem a mais custa de verdade — que é pergunta de cronômetro e a primeira da lista de playtest desta peça.*
+
+### Medido depois
+
+| | v0.142 | v0.143 |
+|---|---|---|
+| peças de regra · validadores | 22 · 22 | **23 · 23** |
+| checagens | 232 | **239** |
+| capítulos do livro | 18 | **17** |
+| palavras do livro | 69.966 | **69.825** |
+| coluna única | 238 páginas | **237** |
+| duas colunas | 140 páginas | **139** |
+| caixas `.aviso` | 17 | **15** |
+| `conferir-voz --estrito` | 0 achados · 10 triagens | **0 achados · 10 triagens** |
+
+*Os 23 validadores verdes com `PULADA = 0`, o `conferir-repositorio.py`, os dois de `manual/matematica/` e os quatro builds.* **As duas caixas de aviso que sumiram eram as do apêndice: a que dizia "a mesa escolhe" e a que dizia que metade do `Incapacitado` era condicional.**
+
+*`guard_numeros.py` nos cinco arquivos mexidos do livro, com cada diferença lida contra a linha que a carregava.* **A única que exigiu decisão foi o `nove` que saiu do capítulo 13** — ele era a única contagem em prosa das armas com `Talha`, e o catálogo do mesmo capítulo lista as nove. *O fato não se perdeu: mudou para um lugar que tem dono.*
+
+> **⚠ E o renome de uma seção criou três ponteiros pendurados dentro da própria versão.** *A `§2.2` nova empurrou a antiga para `§2.3`, e dois comentários de validador mais uma linha do §10 continuavam apontando para `2.2`.* **Achados varrendo os ponteiros da peça contra os títulos dela.**
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`, **reescrito:** *dano de alma com a mecânica de alma inteira, os dois rascunhos que sobraram, e as marcas de "está sendo escrito" — que são mais que quatro.*
+
+---
+
 ## [0.142] — 24/08/2026
 
 **Dois achados do Mizuki lendo a v0.141, e o segundo é um defeito que eu mesmo criei na versão anterior.**

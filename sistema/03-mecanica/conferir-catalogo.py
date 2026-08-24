@@ -24,7 +24,7 @@ Doze checagens:
   4. VOLTA     — todo nome batizado num degrau do DESENHO esta no indice.
   5. BLOCO     — toda entrega de Trilha com nome tem bloco de regra escrito.
   6. GATE      — bloco de regra nao contradiz o gate da linha de preco.
-  7. CONTAGEM  — a pasta tem 20 pecas e 20 validadores.
+  7. CONTAGEM  — a pasta tem 23 pecas e 23 validadores.
   8. COPIAS    — todo documento que cita o total concorda com o contado.
   9. VALOR     — toda Classe que a linha de preco cobra aparece no bloco de regra.
  10. CALENDARIO — o degrau de Caminho publicado sai do DESENHO-caminhos.md, que
@@ -52,8 +52,8 @@ def ler(caminho):
 NIVEIS_DE_TRILHA = ['2', '11', '19', '27']
 PALAVRA_DE_PERMANENCIA = 'sempre'
 PALAVRAS_DE_GATE = ['quando', 'se o ', 'se a ', 'se voce', 'se você', 'condicional']
-PECAS_ESPERADAS = 22   # 19 ate a v0.121; a peca 20 entrou na v0.122, a 21 na v0.132
-                       # e a 22, Pactos, na v0.134
+PECAS_ESPERADAS = 23   # 19 ate a v0.121; a peca 20 entrou na v0.122, a 21 na v0.132,
+                       # a 22, Pactos, na v0.134, e a 23, Bloquear, na v0.143
 
 PECA  = ler(os.path.join(AQUI, '17-catalogo-de-entregas.md'))
 TRI   = ler(os.path.join(RAIZ, 'DESENHO-trilhas.md')).split('\n')

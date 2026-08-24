@@ -316,7 +316,7 @@ if docx is None:
           '(pip install python-docx --break-system-packages)')
 else:
     _d = docx.Document(DOCX)
-    # v0.104: o manual publica as catorze em TRES tabelas, uma por nivel, e o
+    # v0.104: o manual publica as treze em TRES tabelas, uma por nivel, e o
     # cabecalho de cada uma e' "Nivel <tier>". A Melhoria que aplica condicao e'
     # uma so, chamada Condicao, e ela cobra o nivel.
     _man = {}
@@ -771,7 +771,7 @@ if _PULADAS:
         print('   -', p)
     print('    O que pulou NAO foi conferido. Um verde que pulou checagem nao e um verde.')
 else:
-    print('>>> TUDO OK — a regua reconstroi as catorze a partir dos donos, o nivel')
+    print('>>> TUDO OK — a regua reconstroi as treze a partir dos donos, o nivel')
     print('    de cada uma cai da banda do manual, os tipos de dano e a cobertura')
     print('    fecham, e as duas entregas publicadas batem com o portao que elas')
     print('    mesmas escrevem.')

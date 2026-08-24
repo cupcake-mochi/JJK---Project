@@ -68,6 +68,15 @@ VERSATIL_DECLARADAS = {'Katana', 'Espada Longa', 'Taco', 'Bastão'}   # SS8 item
 # Estas duas sao DECISAO DO MIZUKI na v0.48, com argumento escrito no SS5.2: a maca
 # e o kanabo SAO as armas anti-guarda, entao a Talha nelas e identidade e nao enfeite.
 # Uma TERCEIRA arma que dependa so dela falha.
+#
+# v0.143 — A PERGUNTA DESTA CHECAGEM MUDOU, e ela nao morreu junto com a divida.
+# Ela nasceu perguntando "alguma arma depende so de uma regra que a mesa pode
+# desligar?". O Bloquear virou a peca 23 e deixou de ser opcional, entao essa
+# pergunta acabou. A que fica e' a que sempre importou por baixo dela: uma arma
+# cuja identidade paga inteira e' `-1` num numero alheio e' uma arma sem
+# identidade propria — e isso vale com o Bloquear ligado do mesmo jeito.
+# A geometria do Bloquear e' do `conferir-bloquear.py`; aqui so mora o
+# orcamento de arma.
 SO_TALHA_ACEITA = {'Maça', 'Kanabō'}
 MEDIA_DADO = {'d4': 2.5, 'd6': 3.5, 'd8': 4.5, 'd10': 5.5, 'd12': 6.5,
               '1d8': 4.5, '1d10': 5.5, '2d6': 7.0, '2d8': 9.0, '2d10': 11.0}
@@ -317,11 +326,13 @@ else:
     print(f'  sob o requisito de Forca, o simples mantem {len(livres2)} arma(s) de duas maos.')
 
 # ------------------------------------------------------------------ 7. TALHA
-bloco('7. TALHA — regra opcional nao pode ser a unica identidade de uma arma')
+bloco('7. TALHA — ela nao pode ser a unica identidade paga de uma arma')
 so_talha = {a['nome'] for a in ARMAS if [sem_acento(x) for x in pagas(a)] == ['talha']}
 for n in sorted(so_talha - SO_TALHA_ACEITA):
-    erro(f'{n} tem a Talha como unica propriedade paga e nao esta declarada — numa mesa '
-         'que nao use o Bloquear ela vale zero, e a arma pagou 1 ponto por ela')
+    erro(f'{n} tem a Talha como unica propriedade paga e nao esta declarada — a '
+         'identidade inteira dela seria -1 no Bloquear de outra pessoa, e isso nao '
+         'e identidade de arma (v0.143: o motivo antigo era o Bloquear ser opcional, '
+         'e ele deixou de ser)')
 for n in sorted(SO_TALHA_ACEITA - so_talha):
     erro(f'{n} esta declarada como so-Talha e nao e mais — tire da declaracao')
 n_talha = sum(1 for a in ARMAS if 'talha' in {sem_acento(p) for p in a['props']})

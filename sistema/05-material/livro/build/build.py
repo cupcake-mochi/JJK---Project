@@ -53,7 +53,6 @@ CHAPTERS = [
     ("65-pactos.md",                 "Pactos",                  "縛", None),
 
     ("80-experiencia-e-progressao.md", "Experiência e Progressão", "成", "A campanha"),
-    ("90-apendice-bloquear.md",      "Apêndice · Bloquear",     "盾", None),
 ]
 
 # Frente do livro: não recebem número de capítulo.

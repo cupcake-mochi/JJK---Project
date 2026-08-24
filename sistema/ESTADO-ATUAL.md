@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 24/08/2026, na v0.142 (última peça fechada: **Pactos**, a peça 22, na v0.134, com o `conferir-pactos.py` e catorze checagens; antes dela, o **Objeto amaldiçoado, na v0.132**; antes dela, a **Técnica Marcial, na v0.122**; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 24/08/2026, na v0.143 (última peça fechada: **Bloquear**, a peça 23, na v0.143, com o `conferir-bloquear.py` e sete checagens; antes dela, **Pactos, na v0.134**; antes dela, o **Objeto amaldiçoado, na v0.132**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.142.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e duas peças escritas** e **vinte e dois validadores**.
+**Versão v0.143.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e três peças escritas** e **vinte e três validadores**.
 
 ***O `PETRIFICADO` SAIU na v0.139, e são treze condições.*** **Decisão do Mizuki:** *"ela segue um balanceamento que não planejo ter no sistema"*. **Seis `Leve`, duas `Média`, cinco `Pesada`**, e o manual do Fundamento foi para a **v7.12**.
 
@@ -411,7 +411,7 @@ python3 conferir-nomes.py --candidatos Vulto Matilha Bigorna
 
 | validador | pula | de quantas | o rodapé avisa? |
 |---|---|---|---|
-| `conferir-dano` | 1 — as catorze contra o manual | 10 | **sim** — `OK, mas 1 checagem(ns) PULARAM` |
+| `conferir-dano` | 1 — as treze contra o manual | 10 | **sim** — `OK, mas 1 checagem(ns) PULARAM` |
 | `conferir-manual` | **4 — todas.** Sai no `except ImportError` antes da primeira | 4 | avisa, e sai antes do rodapé |
 | `conferir-nomes` | 3 (as checagens 1, 3 e 4) | 5 | sim, **desde a v0.101** |
 | `conferir-pericias` | 1 (a que bate contra o Fundamento) | 8 | sim, **desde a v0.101** |
@@ -559,6 +559,8 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/conferir-objeto.py` | as **doze** checagens da peça 21, e o par declarado entre a 3 e a 8: uma pergunta se ela republica o que já tem dono, a outra se o que ela criou tem dono |
 | `03-mecanica/22-pactos.md` | **a quinta camada de personagem**: as quatro formas de pacto, o teto de quantidade do permanente, o orçamento como teto de dano, o catálogo de exemplo da obra e as oito ideias de restrição |
 | `03-mecanica/conferir-pactos.py` | as **catorze** checagens da peça 22, e a segunda é o par declarado: o teto por pacto não está escrito nela, é `camada ÷ (teto de atributo ÷ 2)` — ela mede relação e não constante |
+| `03-mecanica/23-bloquear.md` | **rolar para se defender**: o `2d10 + (Defesa − 11)`, por que o dado não é o d20, o `Aparar` e a `Brecha`, o invariante do modificador único, e a única condição que desliga |
+| `03-mecanica/conferir-bloquear.py` | as **sete** checagens da peça 23. **A checagem 1 é a única do projeto que existe para sustentar um número de OUTRA peça:** ela recalcula a neutralidade por enumeração das `2.000` combinações, e é dela que o `11,00` do `Incapacitado` na peça 19 depende |
 | `05-material/gerador-ficha/` | o gerador da ficha (Node: `node make.js`), e os dois `.docx` que ele produz |
 | `conferir-repositorio.py` | a árvore, as referências mortas, os números que moram em mais de um documento, os **ponteiros de seção** — todo `peça N §M` citado tem de apontar para seção que existe, desde a v0.54 —, o **mapa** desta tabela contra a pasta, a **entrega** contra a fonte, a **pendência morta** desde a v0.100 — nenhum item de "Em aberto" pode pedir coisa que já existe —, e, **desde a v0.102**, a **contagem de checagens de cada validador, lida do código** |
 | `99-arquivo/` | material morto, com LEIA-ME próprio. Não leia de lá para escrever peça nova |
@@ -1042,26 +1044,27 @@ Ele saiu por **regressão contra as seis classes publicadas**, e cinco fecham ex
 > **Esta lista tinha mais dois itens até a v0.59, e os dois já estavam prontos.** O **`conferir-equipamento.py`** entrou na **v0.48**, com a dominância rodando uma vez por rota de proteção — cobrir-se, uniforme e sem energia nenhuma, as três. E **os dois dados do `Yumi`** foram corrigidos na **v0.47**, na mesma versão que flagrou: `Daikyū` para `1d10`, `Hankyū` para `1d8`, fechando exatos em `4 de 4`. *Vencido em dois documentos ao mesmo tempo, porque a lista foi copiada em vez de apontada.*
 
 
-### Bloquear — a regra opcional que a v0.43 escreveu
+### ~~Bloquear — a regra opcional que a v0.43 escreveu~~ **FECHOU na v0.143, e é a peça 23**
 
-Mora em `03-mecanica/RASCUNHO-bloqueio.md`, e **não mudou número de peça nenhuma**. A Defesa continua sendo `10 + Destreza + proteção`, e continua sendo o padrão. Ela é a segunda frente aberta hoje, independente de Equipamento, e só entra em balanceamento quando o tópico de regras opcionais existir.
+***Decisão do Mizuki:*** *"Bloqueio pode ligar, é uma mecânica que o jogador pode TOMAR, na hora que for receber um ataque, é uma mecânica real, não uma opcional."* **O rascunho foi para `99-arquivo/` e virou `03-mecanica/23-bloquear.md`, com o `conferir-bloquear.py` e sete checagens.** *O desenho não mudou uma linha — o que mudou foi o estatuto.*
 
-> **Ao ser atacado, você pode Bloquear:** role `2d10 + (sua Defesa − 11)` no lugar da sua Defesa.
-> **Duplo 10 — Aparar:** não acerta, e você pode gastar a Reação para contra-atacar com **+3 de dano**.
-> **Duplo 1 — Brecha:** acerta, e o agressor pode gastar a Reação dele para atacar de novo, sem bônus.
-> O Aparar **não anula um 20 natural**, e Bloquear **não vale em Teste de Resistência**.
+> **⚠⚠ E o parágrafo que fechava esta seção dizia o CONTRÁRIO, com todas as letras:** *"o validador dela não pode ser arquivo novo… um `conferir-*.py` novo quebraria a contagem de treze por treze, e Bloquear não é peça."* **Ele foi escrito quando existiam treze peças, e a decisão do Mizuki o revoga.** *Fica registrado porque quem retomasse a tarefa sem ler até aqui seria contradito pelo próprio documento de retomada.*
 
-**O achado que sustenta tudo.** A resposta padrão do hobby para *"quero rolar minha defesa"* é *role d20 no lugar dos 10 da CA* — e ela dá **+2,5 pontos percentuais de graça, em todo ataque, para todo mundo**, porque `E[d20] = 10,5` e a base da Defesa é `10`. Oito buscas externas não acharam uma única discussão do problema. **Qualquer dado de média 10 é neutro por construção**, e o d20 não tem conserto: a média de um dado único sempre termina em `,5`, então o buraco é de meio ponto e nenhum modificador inteiro o fecha.
+**O que a v0.143 mediu, e nada disso estava previsto:**
 
-**O invariante, e ele é a peça frágil:**
+> **A dívida da `Talha` foi paga, e ela ficou aberta noventa e oito versões.** *A propriedade de arma custa `1` ponto e dá `−1` no Bloquear de quem se defende; a peça 14 registrava desde a v0.45 que numa mesa sem Bloquear ela valia zero.* **As nove armas que a carregam passam a receber o que compraram** — e o bilhete velho contava `sete`, com nove no catálogo desde alguma versão que ninguém acompanhou. *O capítulo 13 do livro já publicava `nove`.*
+>
+> **O preço do `Incapacitado` NÃO se move, e o motivo novo é melhor que o antigo.** *A peça 19 justificava o zero da metade do Bloquear dizendo que a regra era opcional.* **O motivo verdadeiro é que o Bloquear é neutro por construção:** *tirar de alguém uma rolagem cuja média é exatamente o número que ela substitui não tira nada.* **Medido em `+0,02` de dano por rodada, contra um teto de `Leve` com `4,41` de folga.** *A peça 19 aponta para a 23 em vez de repetir a conta, e a checagem 1 da 23 é a única do projeto que existe para sustentar um número de outra peça.*
+>
+> **E o item que ficava "em aberto" há cem versões não precisava ser escrito.** *"Quais condições impedem Bloquear" — o rascunho chamava isso de "a única peça do desenho que ainda não tem forma".* **Só o `Incapacitado`, porque ele é a condição cujo eixo *é* a defesa — e a peça 19 §3.4 já tinha decidido isso por outro caminho, quando separou `Atordoado` de `Incapacitado`.** *Acrescentar uma segunda repreçaria uma condição com número publicado.*
+>
+> **⚠⚠ E o validador achou dois erros de aritmética que estavam no rascunho desde a v0.43.** *A "folga do nível 22" era `9,00 − 6,88 = 2,12` e estava publicada como `3,86` — dois números com o mesmo nome, sendo o segundo o teto do bônus em dano cru. E o líquido do pacote supunha `1%` para os dois extremos, quando a própria trava do `20` natural faz o `Aparar` valer `0,95%` e a `Brecha` `1,00%`.* **A conclusão nunca esteve errada — `+3` continua sendo o maior bônus que cabe.** *O que estava errado era a conta escrita ao lado dela, e ela sobreviveu cem versões porque ninguém tinha um validador que subtraísse.*
+>
+> **⚠ E o levantamento do GURPS estava errado em três pontos**, porque tinha sido escrito de memória de busca. *Lido no manual da 4ª edição:* **só o bloqueio tem teto por turno; aparar tem penalidade cumulativa de `−4`; a defesa ativa é paga por manobra e não é de graça; e a frase que o rascunho publicava entre aspas não existe no capítulo de combate.** *Em compensação, o mesmo manual entregou o precedente da linha de ficha:* **"os valores das defesas ativas devem ser calculados previamente e registrados na planilha de personagem."**
 
-> **Bloquear usa exatamente o mesmo modificador da Defesa passiva. Nada pode aumentar um sem aumentar o outro.**
+*A Defesa continua sendo `10 + Destreza + proteção`, e a peça 1 continua dona dela.* **A regra é publicada no capítulo 1 do livro, colada na Defesa** — decisão do Mizuki, e o apêndice que era o capítulo 18 deixou de existir.
 
-`+1` de diferença vale 2,5pp — o tamanho exato do viés que a regra saiu para consertar. Um escudo, uma aptidão, um Legado ou um item que suba um lado só desfaz a mecânica inteira. **Isso vale para Equipamento**, que é a peça em andamento e a que mais mexe em Defesa.
-
-**Em aberto:** as condições que impedem Bloquear — surpreendido, caído, agarrado. *A peça 19 nomeia duas das três — `Derrubado` e `Agarrado` —, e a terceira não existe como condição neste sistema;* a linha na ficha (`Defesa 17 · Bloquear 2d10+6`, que é o que faz o `−1` nunca aparecer na mesa); e a Reação na ficha de inimigo, sem a qual a Brecha não funciona.
-
-**E o validador dela não pode ser arquivo novo.** As três checagens do §7 do rascunho são todas sobre a fórmula da Defesa, que é da **peça 1** — então elas vão para o `conferir-atributos.py`, do mesmo jeito que o Caído foi na v0.37. Um `conferir-*.py` novo quebraria a contagem de treze por treze, e Bloquear não é peça.
+**O que continua em aberto, e são três coisas:** *a Reação na ficha de inimigo, sem a qual a `Brecha` não vale contra inimigo; o gatilho de playtest que libera subir o `+3` se a decisão do nível 22 nunca aparecer na mesa; e quanto tempo de mesa a rolagem a mais custa de verdade.* **A linha `Defesa 17 · Bloquear 2d10+6` saiu de "em aberto": ela é obrigação da ficha, e o `conferir-ficha.py` é quem confere.**
 
 ### Decidido — o Caminho continua sem dar dados de dano
 

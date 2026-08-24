@@ -76,7 +76,7 @@ CAPITULOS = [
     "40-fundamento.md", "42-tecnica-marcial.md", "45-aptidoes-e-refino.md",
     "47-bencaos-e-lapidacao.md", "50-equipamento.md",
     "55-ferramenta-amaldicoada.md", "60-invocacoes.md", "65-pactos.md",
-    "80-experiencia-e-progressao.md", "90-apendice-bloquear.md",
+    "80-experiencia-e-progressao.md",
 ]
 
 
