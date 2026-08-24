@@ -1871,7 +1871,7 @@ Toda Origem abre pela frase que a resume, seguida do que é ser aquilo no mundo 
 
 Depois vem **Efeito na ficha**, sempre na mesma ordem: as **Perícias**, a lista de quatro de onde você escolhe uma; os **Traços**, três sugestões que você usa como estão ou troca por uma escrita por você; e a **Criação**, a rota por onde você monta o seu poder. As duas Origens especiais mexem nessa rota, e o texto delas diz como.
 
-Por último vêm os **Legados** da Origem, nos três formatos, cada um com a sua tabela e o texto de cada entrada.
+Por último vêm os **Legados** da Origem, nos três formatos.
 
 ## Legados
 
@@ -1888,19 +1888,19 @@ A regra de um Legado é a linha em negrito. Quando a entrada termina numa linha 
 
 Um Destranca abre uma porta: um lugar onde você é recebido, uma coisa que você sabe, uma pessoa que existe no mundo por sua causa. Ele nunca mexe em acerto, CD ou dano.
 
-Cada tabela de `Destranca` traz o nome e o **relógio**: quantas vezes por período você pode puxar o gatilho que arranca do mestre uma verdade que ele até então guardava. A maioria não tem relógio, e a afirmação vale sempre, sem contagem. Só quando o Destranca obriga o mestre a te entregar uma informação nova é que ele ganha relógio, pela mesma escada de sempre: por cena, por descanso curto, por dia, por descanso longo, do mais frequente ao mais raro.
+A maioria vale sempre, sem contagem. Só quando o Destranca obriga o mestre a te entregar uma informação nova é que ele ganha relógio, pela escada de sempre: por cena, por descanso curto, por dia, por descanso longo, do mais frequente ao mais raro.
 
 ### Como ler um Ajusta
 
 Um Ajusta mexe num número de uma rolagem. Quase sempre de um dos dois jeitos: você refaz um teste que já falhou, ou rola com **vantagem** (joga dois dados e fica com o melhor resultado).
 
-Cada tabela de `Ajusta` traz duas coisas além do nome. **Alcança** diz quantas coisas nomeadas o gatilho cobre: uma perícia só, uma condição só, ou uma categoria inteira (qualquer perícia, qualquer ofício). **Relógio** diz quantas vezes por período você pode usar, na mesma escada: por cena, por descanso curto, por dia, por descanso longo. Quanto mais largo o alcance, mais raro o relógio.
+Quanto mais largo o que ele alcança, mais raro o relógio dele: um que pega qualquer perícia vale por dia, e um que pega uma condição só vale por cena.
 
 ### Como ler um Desliga
 
 Um Desliga apaga uma coisa que aconteceria com você, sempre que a situação aparecer, sem rolagem nenhuma. Não existe "tentar" um Desliga; ou a situação bateu e ele age, ou não bateu.
 
-Cada tabela de `Desliga` traz o que ele **apaga** e o **relógio**. A maioria dos Desliga vale sempre, sem contagem, porque apagar algo pontualmente não pesa como uma rolagem extra. O texto de cada entrada também diz o que você paga em troca: nenhum Desliga é só ganho.
+A maioria vale sempre, sem contagem. E cada entrada diz o que você paga em troca: nenhum Desliga é só ganho.
 
 ## Latente
 
@@ -1930,15 +1930,6 @@ Fundamento, do jeito padrão.
 
 *Escolha um destes, obrigatoriamente.*
 
-**Destranca da Latente**
-| Legado | Relógio |
-|---|---|
-| O Jeito Errado | por dia |
-| O Professor Que Você Não Teve | sem relógio |
-| A Testemunha | sem relógio |
-| Sem Patente | sem relógio |
-| Sem Técnica → ver *Sem Técnica* | sem relógio |
-
 > **O Jeito Errado** — **escreva na ficha o que você aprendeu errado antes de aprender certo. Uma vez por dia, aponte alguém fazendo a mesma coisa errada: o mestre diz o que aquilo está custando a essa pessoa.**
 > *Na mesa:* serve quando o grupo observa outro feiticeiro trabalhar. *Exemplo: o inimigo gasta energia demais em cada golpe, e você aponta isso antes de a luta começar.*
 
@@ -1955,14 +1946,6 @@ Fundamento, do jeito padrão.
 
 #### Ajusta
 
-**Ajusta da Latente**
-| Legado | Alcança | Relógio |
-|---|---|---|
-| Aprendi Apanhando | qualquer perícia (23) | por dia |
-| Instinto Bruto | Intuição (1) | por cena |
-| Gambiarra | qualquer ofício (10) | por dia |
-| Desconfiado | uma condição nomeada (1) | por cena |
-
 > **Aprendi Apanhando** — **uma vez por dia, refaça um teste de perícia que você falhou.**
 > *Na mesa:* serve quando uma rolagem só trava a cena. *Exemplo: você falha em arrombar a porta com o inimigo chegando, e tenta de novo.*
 
@@ -1976,12 +1959,6 @@ Fundamento, do jeito padrão.
 > *Na mesa:* serve contra quem convence antes de atacar. *Exemplo: a maldição fala com voz de gente e oferece uma saída fácil.*
 
 #### Desliga
-
-**Desliga da Latente**
-| Legado | Apaga | Relógio |
-|---|---|---|
-| Inédito | ser reconhecido pelo catálogo | sempre |
-| Chão Duro | a diferença entre lugar propício e lugar ruim | sempre |
 
 > **Inédito** — **a sua técnica não está em registro nenhum: ninguém a reconhece pelo catálogo, e quem quiser se preparar contra ela precisa ter te visto usar.** Em troca, ninguém sabe te ajudar com ela. *Não vale para quem escolheu Sem Técnica: sem técnica própria, não há o que ficar de fora do catálogo.*
 > *Na mesa:* serve no reencontro com o mesmo inimigo. *Exemplo: ele volta preparado para o que te viu fazer na primeira luta, e para nada além disso.*
@@ -2017,15 +1994,6 @@ Fundamento, do jeito padrão. O passageiro mora na ficção da mesa, e a montage
 
 *Escolha um destes, obrigatoriamente.*
 
-**Destranca do Receptáculo**
-| Legado | Relógio |
-|---|---|
-| A Voz de Dentro | por dia |
-| De Antes de Você | sem relógio |
-| Alcunha | sem relógio |
-| O Que Ele Quer | por descanso longo |
-| Sem Técnica → ver *Sem Técnica* | sem relógio |
-
 > **A Voz de Dentro** — **uma vez por dia, pergunte ao mestre uma coisa sobre uma maldição ou técnica presente na cena. Ele responde com a verdade.**
 > *Na mesa:* serve na criatura que ninguém identificou. *Exemplo: você pergunta do que aquilo se alimenta, e o grupo para de tentar resolver no braço.*
 
@@ -2042,14 +2010,6 @@ Fundamento, do jeito padrão. O passageiro mora na ficção da mesa, e a montage
 
 #### Ajusta
 
-**Ajusta do Receptáculo**
-| Legado | Alcança | Relógio |
-|---|---|---|
-| Não Sou Só Eu | Teste de Resistência de Espírito, três situações nomeadas (3) | por cena |
-| Costume Antigo | uma perícia (1) | por cena |
-| Tranco | Teste de Resistência Físico (1) | por cena |
-| Passagem | qualquer rolagem | por dia |
-
 > **Não Sou Só Eu** — **uma vez por cena, refaça um Teste de Resistência de Espírito que você falhou contra ser controlado, dominado ou lido.**
 > *Na mesa:* serve contra quem ganha a luta virando aliado contra aliado. *Exemplo: a maldição tenta te pôr contra o grupo, e não pega.*
 
@@ -2062,12 +2022,6 @@ Fundamento, do jeito padrão. O passageiro mora na ficção da mesa, e a montage
 > **Passagem** — **uma vez por dia, você deixa ele assumir e refaz qualquer rolagem. Quando você volta, o mestre diz uma coisa que ele fez enquanto estava no comando.**
 
 #### Desliga
-
-**Desliga do Receptáculo**
-| Legado | Apaga | Relógio |
-|---|---|---|
-| Máscara | ser sentido pelo que você é | sempre |
-| Revezamento | ficar `Impedido` | por descanso longo |
 
 > **Máscara** — **quem sente a sua energia amaldiçoada sente a dele: você não aparece como o que é.** Em troca, o que essas pessoas concluem sobre você costuma ser pior do que a verdade.
 > *Na mesa:* serve em infiltração e contra barreira de detecção. *Exemplo: você atravessa a `Cortina` sem acender nada, e quem está do outro lado lê outra coisa.*
@@ -2103,26 +2057,16 @@ Fundamento, do jeito padrão.
 
 *Escolha um destes, obrigatoriamente.*
 
-**Destranca do Descendente**
-| Legado | O clã que ele desenha | Relógio |
-|---|---|---|
-| O Sobrenome | o clã do nome: *Gojo* | sem relógio |
-| Armaria | o clã da ferramenta: *Zen'in* | sem relógio |
-| Arquivo | o clã do corpo: *Kamo* | sem relógio |
-| Palavra Dada | o clã da voz: *Inumaki* | sem relógio |
-| Treino de Berço | qualquer clã, inclusive o seu | sem relógio |
-| Sem Técnica → ver *Sem Técnica* | — | sem relógio |
-
-> **O Sobrenome** — **em qualquer lugar da sociedade jujutsu você consegue audiência com quem manda.** Você entra na sala; o que sai da conversa continua valendo o teste de sempre.
+> **O Sobrenome** — **em qualquer lugar da sociedade jujutsu você consegue audiência com quem manda.** Você entra na sala; o que sai da conversa continua valendo o teste de sempre. *O clã do nome, como os Gojo.*
 > *Na mesa:* pula a etapa de achar a pessoa. *Exemplo: o grupo precisa falar com o chefe da vigilância da região, e você marca a reunião em vez de investigar como chegar nele.*
 
-> **Armaria** — **escreva na ficha qual ferramenta amaldiçoada da sua família é sua por direito, e quem está com ela agora. Ela existe, é sua, e ninguém devolveu.**
+> **Armaria** — **escreva na ficha qual ferramenta amaldiçoada da sua família é sua por direito, e quem está com ela agora. Ela existe, é sua, e ninguém devolveu.** *O clã da ferramenta, como os Zen'in.*
 > *Na mesa:* serve quando o grupo precisa de uma ferramenta que ninguém tem. *Exemplo: a peça que resolveria a missão é sua por direito, e está na mão de outra pessoa.*
 
-> **Arquivo** — **escreva na ficha um experimento com corpo que a sua família fez e nunca publicou. Quando esse método aparecer numa cena, você reconhece na hora, sem teste.** Ninguém de fora sabe que a sua família fez aquilo.
+> **Arquivo** — **escreva na ficha um experimento com corpo que a sua família fez e nunca publicou. Quando esse método aparecer numa cena, você reconhece na hora, sem teste.** Ninguém de fora sabe que a sua família fez aquilo. *O clã do corpo, como os Kamo.*
 > *Na mesa:* serve quando o grupo encontra o método em uso. *Exemplo: os corpos da missão têm a mesma sutura, e você sabe qual é o processo e o que ele exige de quem faz.*
 
-> **Palavra Dada** — **o meio jujutsu sabe que a sua família não desperdiça palavra.** Quando você empenha a sua, ela conta como garantia; o que o outro lado faz com isso continua sendo dele.
+> **Palavra Dada** — **o meio jujutsu sabe que a sua família não desperdiça palavra.** Quando você empenha a sua, ela conta como garantia; o que o outro lado faz com isso continua sendo dele. *O clã da voz, como os Inumaki.*
 > *Na mesa:* serve quando o grupo precisa que alguém garanta um acordo. *Exemplo: você promete devolver a ferramenta depois da missão, e o dono passa a ter com o que contar se decidir emprestar.*
 
 > **Treino de Berço** — **escreva na ficha uma coisa que só o seu clã ensina.** Quem quiser aprender aquilo passa pela sua família, ou por você.
@@ -2131,14 +2075,6 @@ Fundamento, do jeito padrão.
 > **Sem Técnica** — você tem energia amaldiçoada e a técnica não veio junto. O texto está adiante, em *Legado de Sem Técnica*. Um Descendente Sem Técnica é alguém com nome de peso e nenhuma técnica de clã.
 
 #### Ajusta
-
-**Ajusta do Descendente**
-| Legado | Alcança | Relógio |
-|---|---|---|
-| Conversa de Jantar | técnica de clã (1) | por cena |
-| Etiqueta | uma situação nomeada (1) | por cena |
-| Repetição | um Teste de Resistência nomeado (1) | por cena |
-| Biblioteca | duas perícias (2) | por cena |
 
 > **Conversa de Jantar** — **uma vez por cena, role com vantagem o Teste de Resistência contra uma técnica de clã.**
 > *Na mesa:* serve quando o antagonista é do meio. *Exemplo: o feiticeiro do outro lado usa a técnica da casa dele, e você já ouviu falar dos defeitos dela.*
@@ -2152,12 +2088,6 @@ Fundamento, do jeito padrão.
 > *Na mesa:* serve na cena de pesquisa. *Exemplo: o grupo trava no arquivo por causa de um dado ruim, e você tenta de novo.*
 
 #### Desliga
-
-**Desliga do Descendente**
-| Legado | Apaga | Relógio |
-|---|---|---|
-| Coleira | ser localizado ou rastreado | sempre |
-| Cabo | ficar `Desarmado` | por cena |
 
 > **Coleira** — **o seu clã te selou na infância: técnica nenhuma te localiza, te rastreia ou te encontra à distância.** Em troca, a sua família sempre sabe onde você está.
 > *Na mesa:* serve quando o grupo precisa sumir. *Exemplo: o inimigo perde vocês na cidade, e a sua casa não.*
@@ -2195,15 +2125,6 @@ Fundamento, do jeito padrão.
 
 *Escolha um destes, obrigatoriamente.*
 
-**Destranca do Reencarnado**
-| Legado | Relógio |
-|---|---|
-| O Que Ninguém Lembra | por descanso longo |
-| Encomenda | sem relógio |
-| Quem Morava Aqui | sem relógio |
-| Enterrado | sem relógio |
-| Sem Técnica → ver *Sem Técnica* | sem relógio |
-
 > **O Que Ninguém Lembra** — **uma vez por descanso longo, você sabe um lugar, um nome ou uma técnica de antes do seu tempo, e isso responde uma dúvida que ninguém vivo responderia.**
 > *Na mesa:* serve quando a investigação trava. *Exemplo: o selo do porão tem duzentos anos, e você sabe quem o pôs ali e por quê.*
 
@@ -2220,14 +2141,6 @@ Fundamento, do jeito padrão.
 
 #### Ajusta
 
-**Ajusta do Reencarnado**
-| Legado | Alcança | Relógio |
-|---|---|---|
-| Corpo Emprestado | uma condição nomeada (1) | por cena |
-| Espasmo | dois Testes de Resistência nomeados (2) | por cena |
-| Já Morri | uma condição nomeada (1) | por cena |
-| Método Velho | uma situação nomeada (1) | por cena |
-
 > **Corpo Emprestado** — **uma vez por cena, role com vantagem o Teste de Resistência contra ficar `Incapacitado`.** O corpo avisa os outros e não avisa você.
 > *Na mesa:* serve na cena em que você devia cair. *Exemplo: o golpe abre a sua guarda e você continua de pé, e só vê o estrago depois.*
 
@@ -2241,12 +2154,6 @@ Fundamento, do jeito padrão.
 > *Na mesa:* serve em ruína, templo lacrado e documento em língua morta. *Exemplo: a barreira do santuário não abre há gerações, e você sabe por onde começar.*
 
 #### Desliga
-
-**Desliga do Reencarnado**
-| Legado | Apaga | Relógio |
-|---|---|---|
-| Conhecido | ser puxado pela atração de um objeto amaldiçoado | sempre |
-| Usado | ficar `Derrubado` | por cena |
 
 > **Conhecido** — **maldição que um objeto amaldiçoado puxou não vem atrás de você.** Em troca, a atração também não te avisa: o aperto que faz o resto do grupo olhar em volta não chega em você.
 > *Na mesa:* serve quando o grupo carrega um objeto sem selo. *Exemplo: eles passam a noite sendo procurados e você dorme — e entra primeiro na sala errada, sem sentir nada.*
@@ -2282,15 +2189,6 @@ Fundamento, do jeito padrão.
 
 *Escolha um destes, obrigatoriamente.*
 
-**Destranca do Feto**
-| Legado | Relógio |
-|---|---|
-| Irmãos | sem relógio |
-| Numeração | sem relógio |
-| Guardado | sem relógio |
-| Devagar | sem relógio |
-| Sem Técnica → ver *Sem Técnica* | sem relógio |
-
 > **Irmãos** — **escreva na ficha quantos vocês eram e o que aconteceu com eles. Você reconhece um irmão quando encontra, e sabe quando um morre, esteja onde estiver.** Nem todos se parecem com você.
 > *Na mesa:* serve a qualquer momento, e o mestre escolhe quando. *Exemplo: no meio de outra cena você sente que um irmão acabou de morrer, e não sabe onde.*
 
@@ -2307,14 +2205,6 @@ Fundamento, do jeito padrão.
 
 #### Ajusta
 
-**Ajusta do Feto**
-| Legado | Alcança | Relógio |
-|---|---|---|
-| Meio e Meio | veneno e doença (1) | por cena |
-| Como Se Monta | Medicina (1) | por cena |
-| Faro | maldição (1) | por cena |
-| Paciência | qualquer perícia | por dia |
-
 > **Meio e Meio** — **uma vez por cena, role com vantagem um Teste de Resistência contra veneno ou doença.**
 > *Na mesa:* serve no lugar contaminado. *Exemplo: o porão está cheio de gás e é você que desce.*
 
@@ -2328,12 +2218,6 @@ Fundamento, do jeito padrão.
 > *Na mesa:* recompensa o plano de tocaia. *Exemplo: você falha na `Furtividade` na terceira hora de espera, e tenta de novo.*
 
 #### Desliga
-
-**Desliga do Feto**
-| Legado | Apaga | Relógio |
-|---|---|---|
-| Sangue que Não é Sangue | comer, dormir, respirar | sempre |
-| Talhe | ficar `Agarrado` | por cena |
 
 > **Sangue que Não é Sangue** — **você não precisa comer, dormir nem respirar como um humano.** Em troca, o seu corpo tem necessidades que ninguém sabe nomear.
 > *Na mesa:* serve em água funda, gás, soterramento e vigília longa. *Exemplo: o corredor está inundado e é você que atravessa.*
@@ -2405,14 +2289,6 @@ Você tem energia amaldiçoada, então tem PE, aptidões e refino como qualquer 
 
 *Escolha um destes, obrigatoriamente. A configuração que você escolhe aqui decide qual das quatro listas de Ajusta abaixo você alcança.*
 
-**Destranca do Corpo Amaldiçoado**
-| Legado | Relógio |
-|---|---|
-| Ninhada | sem relógio |
-| Gêmeos | sem relógio |
-| Inteiro | sem relógio |
-| Manutenção | sem relógio |
-
 > **Ninhada** — **três seres num corpo só, e é o arranjo que estabiliza. Escreva na ficha o que são os três.**
 > *Na mesa:* serve quando o grupo pede conselho. *Exemplo: os três discordam sobre entrar ou não, e você interpreta a discussão em voz alta.*
 
@@ -2431,13 +2307,6 @@ Você tem energia amaldiçoada, então tem PE, aptidões e refino como qualquer 
 
 ##### Ninhada
 
-**Ninhada**
-| Legado | Alcança | Relógio |
-|---|---|---|
-| Rodízio | três perícias nomeadas (3) | por cena |
-| Vigília | Iniciativa (1) | por cena |
-| Desempate | qualquer Teste de Resistência (4) | por dia |
-
 > **Rodízio** — **escolha três perícias na criação, uma por ser. Uma vez por cena, role uma delas como se fosse treinada.**
 > *Na mesa:* cobre três buracos da equipe, um de cada vez. *Exemplo: ninguém tem `Tecnologia`, e o segundo ser sabe.*
 
@@ -2448,13 +2317,6 @@ Você tem energia amaldiçoada, então tem PE, aptidões e refino como qualquer 
 > *Na mesa:* guarde para o efeito que tiraria o personagem da cena. *Exemplo: você falha contra `Petrificado`, e tenta de novo.*
 
 ##### Gêmeos
-
-**Gêmeos**
-| Legado | Alcança | Relógio |
-|---|---|---|
-| Cabeça Trocada | uma perícia nomeada (1) | por cena |
-| Nunca os Dois | Teste de Resistência de Intelecto (1) | por cena |
-| Palpite | qualquer perícia não treinada | por dia |
 
 > **Cabeça Trocada** — **escolha uma perícia e um atributo na criação. Uma vez por cena, role essa perícia com esse atributo em vez do que ela pede.**
 > *Na mesa:* serve quando o jeito de sempre não serve. *Exemplo: você rola `Persuasão` com Inteligência, porque a outra convence por argumento e não por presença.*
@@ -2467,13 +2329,6 @@ Você tem energia amaldiçoada, então tem PE, aptidões e refino como qualquer 
 
 ##### Inteiro
 
-**Inteiro**
-| Legado | Alcança | Relógio |
-|---|---|---|
-| Feito de Uma Peça | Teste de Resistência de Vigor (1) | por cena |
-| Teimosia | uma situação nomeada (1) | por cena |
-| Peça Única | uma perícia nomeada (1) | por cena |
-
 > **Feito de Uma Peça** — **uma vez por cena, refaça um Teste de Resistência de Vigor que você falhou.**
 > *Na mesa:* serve em desgaste longo, fogo e frio. *Exemplo: você falha em aguentar a fumaça e tenta de novo.*
 
@@ -2485,13 +2340,6 @@ Você tem energia amaldiçoada, então tem PE, aptidões e refino como qualquer 
 
 ##### Manutenção
 
-**Manutenção**
-| Legado | Alcança | Relógio |
-|---|---|---|
-| Ajuste Fino | um ofício nomeado (1) | por cena |
-| Recarga | duas perícias nomeadas (2) | por descanso curto |
-| Fiado | qualquer rolagem | por dia |
-
 > **Ajuste Fino** — **escolha um ofício na criação. Uma vez por cena, role com vantagem.**
 > *Na mesa:* serve no ofício de quem te fez. *Exemplo: o seu é `Forja`, e o equipamento do grupo atravessa a campanha inteiro.*
 
@@ -2502,12 +2350,6 @@ Você tem energia amaldiçoada, então tem PE, aptidões e refino como qualquer 
 > *Na mesa:* a dívida cresce sessão a sessão. *Exemplo: você usa três vezes num arco, e na quarta quem te abastece vem cobrar.*
 
 #### Desliga
-
-**Desliga do Corpo Amaldiçoado**
-| Legado | Apaga | Relógio |
-|---|---|---|
-| Ferro Velho | os degraus de exaustão | sempre |
-| *vaga reservada* | alvo ainda não escolhido | — |
 
 > **Ferro Velho** — **os degraus de exaustão não te alcançam.** Em troca, você não sente quando está perto de quebrar: o seu corpo para de uma vez, sem aviso.
 > *Na mesa:* serve em missão longa. *Exemplo: o grupo pega três degraus de exaustão na semana e você nenhum.*
@@ -2560,14 +2402,6 @@ Quem é do ramo sem energia não alcança `Sentir Energia` por lugar nenhum: ela
 
 *Escolha um destes, obrigatoriamente.*
 
-**Destranca · Corpo pela Técnica**
-| Legado | O que ele desenha | Relógio |
-|---|---|---|
-| Nasci Assim | o que o seu corpo não faz, e o que isso cobra todo dia | sem relógio |
-| O Substituto | as pessoas conhecem uma coisa que não é você | sem relógio |
-| A Oferta | você já pensou no preço de um corpo que funcione | sem relógio |
-| Nunca Estive Lá | você conhece lugares onde o seu corpo nunca esteve | sem relógio |
-
 > **Nasci Assim** — **escreva na ficha o que o seu corpo não faz e o que isso te cobra todo dia. Quem diz quando aquilo complica a cena é você.** Não é segredo, e não tem conserto conhecido.
 > *Na mesa:* serve quando a cena pede o corpo. *Exemplo: o grupo precisa subir a escada de incêndio, e você diz o que isso te custa.*
 
@@ -2581,14 +2415,6 @@ Quem é do ramo sem energia não alcança `Sentir Energia` por lugar nenhum: ela
 > *Na mesa:* você é a planta baixa da equipe. *Exemplo: o grupo vai entrar num prédio que você já vigiou de dentro sem estar lá.*
 
 #### Ajusta
-
-**Ajusta · Corpo pela Técnica**
-| Legado | Alcança | Relógio |
-|---|---|---|
-| Antena | Sentir Energia (1) | por cena |
-| Do Meu Canto | uma situação nomeada (1) | por cena |
-| Insônia | qualquer perícia | por dia |
-| Li Tudo | duas perícias nomeadas (2) | por cena |
 
 > **Antena** — **uma vez por cena, refaça um teste de `Sentir Energia` que você falhou.**
 > *Na mesa:* serve em varredura e em emboscada. *Exemplo: você não sente ninguém do outro lado da parede, e conta de novo.*
@@ -2610,14 +2436,6 @@ Quem é do ramo sem energia não alcança `Sentir Energia` por lugar nenhum: ela
 
 *Escolha um destes, obrigatoriamente.*
 
-**Destranca · Sem Energia**
-| Legado | O que ele desenha | Relógio |
-|---|---|---|
-| Descartado | o clã que te jogou fora | sem relógio |
-| Dividido | a sua restrição foi partida com outra pessoa | sem relógio |
-| Desde Criança | a ferramenta que te acompanha desde sempre | sem relógio |
-| Aprendi a Ver | você não nasceu enxergando maldição | sem relógio |
-
 > **Descartado** — **escreva na ficha quem da sua família te descartou e o que fizeram você fazer enquanto esteve lá. Você conhece a casa por dentro.**
 > *Na mesa:* você é o mapa da casa. *Exemplo: a missão leva o grupo até lá, e você sabe por onde se entra sem bater.*
 
@@ -2631,14 +2449,6 @@ Quem é do ramo sem energia não alcança `Sentir Energia` por lugar nenhum: ela
 > *Na mesa:* serve quando o método falha. *Exemplo: o que você usa para enxergar quebra no meio da missão, e o grupo passa a ser os seus olhos.*
 
 #### Ajusta
-
-**Ajusta · Sem Energia**
-| Legado | Alcança | Relógio |
-|---|---|---|
-| Sentido Treinado | maldição (1) | por cena |
-| Couro | Teste de Resistência Físico (1) | por cena |
-| Ninguém Viu | Furtividade (1) | por cena |
-| No Braço | qualquer perícia de Força ou Destreza | por dia |
 
 > **Sentido Treinado** — **uma vez por cena, role `Percepção` no lugar de `Sentir Energia`.**
 > *Na mesa:* é como você entra na cena de detecção sem ter o sentido. *Exemplo: você não sente a maldição, e nota a poeira que ela move.*
@@ -2655,12 +2465,6 @@ Quem é do ramo sem energia não alcança `Sentir Energia` por lugar nenhum: ela
 ### Legados: Desliga
 
 *Vale para Corpo pela Técnica e para Sem Energia.*
-
-**Desliga da Restrição Celestial**
-| Legado | Apaga | Relógio |
-|---|---|---|
-| Peso Real | ser enganado por barreira, véu e ferramenta | sempre |
-| Assinado | ficar `Cego` | por descanso longo |
 
 > **Peso Real** — **você percebe ferramenta amaldiçoada, barreira e véu pelo tato e pelo peso, e o que engana feiticeiro não engana você.** Em troca, o aviso vem sem nome: você sente que tem alguma coisa ali, e nunca o que é.
 > *Na mesa:* você é o detector do grupo em terreno preparado. *Exemplo: você sente que o corredor tem barreira, e ninguém sabe de que tipo até investigar.*

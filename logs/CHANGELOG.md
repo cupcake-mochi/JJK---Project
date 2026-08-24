@@ -8,6 +8,45 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.138] — 24/08/2026
+
+**Achado do Mizuki lendo o PDF da v0.137: as 26 tabelas de Legado do capítulo 7 diziam a mesma coisa que as entradas logo abaixo.**
+
+***"No fim serve de nada essas tabelas, recomendo a remoção."*** *E elas têm nome na régua da casa:* **a v0.106 fechou o critério — "tabela-prévia sai, tabela de contraste fica" — e cortou 19 delas do capítulo 8 por esse motivo exato.** *As de Origem sobreviveram àquela passada e a mais quatro.*
+
+### Só duas colunas carregavam alguma coisa, e as duas foram tratadas antes
+
+| coluna | o que era | destino |
+|---|---|---|
+| `Legado` · `Relógio` · `Apaga` | tudo repetido na entrada cinco linhas abaixo | **prévia, sai** |
+| `Alcança` — *"qualquer perícia (23)"*, *"Intuição (1)"* | o escopo já é visível na regra; **a contagem entre parênteses é a moeda de preço** | sai, e a régua *"quanto mais largo o alcance, mais raro o relógio"* passou para o `Como ler` |
+| `O clã que ele desenha` — *"o clã do nome: Gojo"* | **a única âncora na obra dos quatro `Destranca` do Descendente** | **salva:** foi para dentro das quatro entradas antes de a tabela sair |
+
+**Os quatro números que sumiram do capítulo eram `(23)`, `(4)`, `(3)` e `(3)`** — as contagens de escopo. *`vinte e três perícias` continua em sete lugares do livro, e o `Grau 4` da patente continua no capítulo.*
+
+### E quatro frases viraram mentira no ato, porque descreviam as tabelas
+
+*O `Como ler um Destranca`, o `Como ler um Ajusta` e o `Como ler um Desliga` abriam dizendo **"cada tabela de X traz…"**, e o fecho do `Como ler uma Origem` prometia **"cada um com a sua tabela"**.* **As quatro foram reescritas na mesma passada em que as tabelas saíram** — é o mesmo defeito que a v0.137 registrou quando o corte de sabor deixou o `Como ler uma aptidão` prometendo uma descrição que tinha acabado de sair.
+
+> **Terceira vez em duas versões que um corte meu cria um ponteiro pendurado.** *Vale como procedimento:* **quando um bloco sai, a frase que o anuncia sai junto, no mesmo commit.**
+
+### Medido depois
+
+| | v0.137 | v0.138 |
+|---|---|---|
+| peças de regra · validadores · checagens | 22 · 22 · 232 | iguais |
+| palavras do livro | 71.580 | **70.194** |
+| coluna única | 243 páginas | **239** |
+| duas colunas | 137 páginas | **136** |
+| tabelas do livro | 213 | **187** |
+| `conferir-voz --estrito` | 0 achados · 11 triagens | **0 achados · 11 triagens** |
+
+*O capítulo 7 saiu de `8.454` para `6.990` palavras — e, somando a v0.137, de `10.373` para `6.990`: **um terço do que era**.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **A fila de mecânica não mudou: itens iniciais por Caminho, itens menores e as três Trilhas do Evocador.**
+
+---
+
 ## [0.137] — 24/08/2026
 
 **A sexta passada, e ela começou errada: eu fui no código e o Mizuki tinha dito para ler.**
