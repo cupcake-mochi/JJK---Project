@@ -115,8 +115,6 @@ A tabela `Ideias de restrição` mostra o que um preço pesado parece, e serve t
 
 ## Catálogo
 
-**Nenhuma das duas listas é fechada.**
-
 ### Pactos da obra
 
 **Pactos da obra**

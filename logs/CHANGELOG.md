@@ -8,6 +8,66 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.141] — 24/08/2026
+
+**A primeira passada de texto deste projeto que faz o livro CRESCER, e é de propósito.** *As sete Passivas de Técnica Marcial eram sete linhas de tabela, e viraram sete entradas escritas.*
+
+***Achado do Mizuki lendo o PDF:*** *"entendo a vinda da tabela para ajudar e dar exemplos, mas ela não ajuda com essa descrição curta"*. **Ele está certo, e o motivo é medível: seis das sete existiam SÓ como linha de tabela** — na peça 20 e no livro. *Uma frase por Passiva, dentro de uma célula, era tudo o que o jogador tinha.*
+
+### O `Bocado` era o exemplar, e ele durou dezenove versões
+
+**Ele é a única das sete que já tinha entrada escrita, e ela abria com metáfora:** *"o que você carrega passa a viver dentro de você. Sacar é tirar de si."* **A regra que o jogador usa toda rodada — o saque a mais — estava no terceiro parágrafo, sem nome nenhum**, atrás de uma regra de barreira que quase nunca aparece na mesa.
+
+*A `REGRA-DE-VOZ.md` já tinha a forma certa desde a v0.108 — as **quatro camadas** —, e ela estava escrita como "a forma da família condição".* **Ninguém tinha dito que as Passivas eram dessa família, então o `Bocado` nunca foi trazido para lá.**
+
+### Decisão do Mizuki: as quatro camadas viram obrigação
+
+***"Colocar que é obrigatório seguir a nova metodologia de escrita."*** **Vale para condição, Bênção, aptidão, Passiva, `Estigma`, Legado e entrega de Trilha** — *qualquer coisa que o leitor procura pelo nome e lê sozinha.* **Escrito na `REGRA-DE-VOZ.md` e no `METODO-passada-de-texto.md`, nos dois.**
+
+**E o que está fora da forma tem sintoma medível: rótulo em negrito com mais de seis palavras.** *Nessa largura ele parou de ser **nome do efeito** e virou **a regra**, e o leitor perde o índice visual que existe para ele achar a linha que quer sem ler a entrada inteira.* **A régua das `4 a 6` palavras é a que o PHB entrega, e ela já estava escrita.**
+
+| medido na v0.141 | |
+|---|---|
+| entradas fora da forma | **9** |
+| rótulos longos demais | **12** |
+| onde elas se concentram | **6 das 9 no capítulo 12**, Bênçãos e Lapidação |
+
+*Fica como tarefa medida em vez de sweep no escuro.*
+
+### O `Calo` ia virar decisão de design, e não era
+
+**Das sete, seis tinham linha que já é regra inteira** — *`Raiz`, `Leitura`, `Segundo Fôlego`, `Contragolpe` e `Aliança` só precisavam mudar de forma.* **O `Calo` não:** *"a sua mão reconhece pelo peso qualquer arma que você já empunhou uma vez"* **não diz o que ele faz na mesa.**
+
+*A pergunta ia para o Mizuki, com opções preçadas contra a desvantagem de arma sem treino.* **Ela não precisou sair: a regra da Passiva Livre já responde.** *O capítulo 6 e o capítulo 9 escrevem, os dois, que ela **"não rola dado, não muda número e não faz ninguém rolar"*** — **então o `Calo` está completo, e dar treino de arma a ele quebraria a própria camada.**
+
+> *É o item 8 do procedimento funcionando:* **não pergunte o que a conta responde.** *A conta, aqui, era uma regra já publicada em dois capítulos.*
+
+### E a linha dos Pactos saiu, contra a minha recomendação
+
+***"Nenhuma das duas listas é fechada"*, do capítulo 16.** *Eu tinha segurado ela na v0.140 com o argumento de que era a única dona de uma permissão — o mestre pode inventar pacto fora da lista —, e a regra da casa é não cortar a única dona de um fato.*
+
+**Ele reafirmou, e a decisão é dele.** *E olhando de novo ele tem razão pelo outro lado:* **os dois títulos que ela governa já dizem sozinhos que a lista é aberta** — *`Pactos da obra` é recorte do material original, e `Ideias de restrição` se chama **ideias**.* **A permissão não estava só naquela frase: ela estava nos nomes das duas seções.**
+
+### Medido depois
+
+| | v0.140 | v0.141 |
+|---|---|---|
+| palavras do livro | 69.812 | **69.917** |
+| coluna única | 236 páginas | **237** |
+| duas colunas | 138 páginas | **139** |
+| tabelas do livro | 184 | **183** |
+| títulos de seção | 441 | **447** |
+| peças · validadores · checagens | 22 · 22 · 232 | iguais |
+| `conferir-voz --estrito` | 0 achados · 10 triagens | **0 achados · 10 triagens** |
+
+**O livro ganhou `105` palavras e uma página em cada diagramação**, *porque sete linhas de célula viraram sete entradas com nome de efeito.* **É a troca que a decisão comprou, e ela está declarada aqui para ninguém ler a subida como descuido.**
+
+*`guard_numeros.py` nos três arquivos mexidos.* **A única diferença de número foi um `1` a menos no capítulo 10** — *o `Bocado` era o único que declarava a Classe Passiva **duas** vezes, na célula da tabela e na entrada.* **Agora cada uma declara uma vez.**
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **A fila de mecânica é a mesma quatro**, *e a de texto ganhou uma: as nove entradas fora das quatro camadas.*
+
+---
+
 ## [0.140] — 24/08/2026
 
 **O Mizuki leu o PDF e apontou a mesma forma que a v0.138 já tinha cortado, ainda viva em outro capítulo:** *tabela que apresenta uma coisa que aparece de novo logo abaixo.* **Ele mandou o recorte da página como exemplo, e ela reaparece três vezes no capítulo 14.**

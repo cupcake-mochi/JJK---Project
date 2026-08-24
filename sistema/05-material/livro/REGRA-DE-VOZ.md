@@ -49,7 +49,15 @@ pertence é o erro que a comparação com o modelo mais convida a cometer.*
 > **A pergunta certa não é "qual é o padrão", é "de que família é esta coisa, e qual forma as
 > irmãs dela já usam".** Forma nova só quando a família é nova.
 
-### As quatro camadas, que são a forma da família *condição*
+### As quatro camadas, e elas são OBRIGATÓRIAS em toda entrada de catálogo
+
+*Elas nasceram como "a forma da família condição" e ficaram presas ali por doze versões.* **Decisão do Mizuki na v0.141: entrada de catálogo se escreve nesta forma, e não é escolha de quem está escrevendo.** *Vale para condição, Bênção, aptidão, Passiva, `Estigma`, Legado, entrega de Trilha — qualquer coisa que o leitor procura pelo nome e lê sozinha.*
+
+**O que ela substitui é o parágrafo-parede**, e ele tem sintoma: *a entrada abre com metáfora em vez de dizer quando a regra vale, e depois empilha três regras diferentes sem dar nome a nenhuma.* **Foi assim que o `Bocado` passou da v0.122 à v0.141** — *"o que você carrega passa a viver dentro de você. Sacar é tirar de si"* —, e a regra que o jogador usa toda rodada, o saque a mais, estava no terceiro parágrafo.
+
+> **O teste é de leitura, não de medida, e ele é curto:** *dá para achar a regra que você quer sem ler a entrada inteira?* **Se a resposta depende de ler tudo, os nomes de efeito estão faltando.**
+
+#### A forma, medida no PHB
 
 Não é o "por exemplo" que segura o leitor — o PHB usa pouco, e o `Exemplo:` em bloco ele não
 usa **nenhuma vez** em 397 páginas. Nas condições ele monta assim, do geral ao específico:

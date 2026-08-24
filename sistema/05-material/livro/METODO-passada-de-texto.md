@@ -136,6 +136,22 @@ Talento, perícias, ferramenta e equipamento — e nenhuma característica socia
 
 ---
 
+## Entrada de catálogo se escreve nas quatro camadas, e isso é obrigatório
+
+*Decisão do Mizuki na v0.141.* A forma está na `REGRA-DE-VOZ.md` e ela deixou de ser "a forma
+da família condição": vale para condição, Bênção, aptidão, Passiva, `Estigma`, Legado e entrega
+de Trilha — **qualquer coisa que o leitor procura pelo nome e lê sozinha.**
+
+O sintoma do que está fora é medível: **rótulo em negrito com mais de seis palavras.** Nessa
+largura ele parou de ser *nome do efeito* e virou *a regra*, e o leitor perde o índice visual
+que existe para ele achar a linha que quer sem ler a entrada inteira.
+
+*Medido na v0.141: **nove entradas, doze rótulos**, e seis das nove no capítulo das Bênçãos.*
+
+> **O `Bocado` foi o exemplar, e ele durou dezenove versões.** *Abria com metáfora — "o que você
+> carrega passa a viver dentro de você" — e a regra que o jogador usa toda rodada, o saque a
+> mais, estava no terceiro parágrafo sem nome nenhum.*
+
 ## Quando um bloco sai, a frase que anuncia ele sai junto
 
 No mesmo commit. Três vezes em duas versões um corte deixou ponteiro pendurado:
