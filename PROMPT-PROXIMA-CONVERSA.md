@@ -95,7 +95,7 @@ que se repreçaria junto.
 
 ---
 
-## 4 · A fila de mecânica, que não mudou nas quatro últimas versões
+## 4 · A fila de mecânica — três itens parados desde a v0.135, mais um novo
 
 Imediatas, na ordem em que fazem falta:
 
@@ -104,6 +104,12 @@ Imediatas, na ordem em que fazem falta:
 | **Itens iniciais por Caminho** | levantado na v0.135. A criação dá perícia, ofício, Trilha e técnica, e não diz com que equipamento o personagem sai de casa |
 | **Itens menores** | levantado na v0.131. Consumível, talismã pronto, remédio, corda, o kit do `Herbalismo`. Nada tem preço nem lista |
 | **Três Trilhas do Evocador** | `Servo`, `Matilha` e `Coro` dão o corpo da invocação, e as entregas dos níveis 2, 11, 19 e 27 não existem |
+| **O que cada ofício FAZ** | levantado na v0.139. Os onze ofícios são só uma rolagem de análise hoje. Falta a mecânica própria — o que cada um fabrica, e o que ele faz num descanso |
+
+> **A dos ofícios é a última das quatro, e é decisão sua.** *Ela é a versão **superficial**, no molde
+> do D&D — cada ofício fabrica alguma coisa e tem uso em descanso. **O aprofundamento vai para o
+> livro do mestre**, junto com a criação de item.* **Ela encosta em itens menores** — ofício sem
+> lista de item não tem o que produzir —, mas entra depois deles, como item próprio.
 
 Depois delas: **Estilo da Sombra** e **Aptidão como rota** (as duas que fazem a `Sem Técnica`
 fechar ficha — hoje é a única rota de Origem que não roda), **dano de alma com Essência na

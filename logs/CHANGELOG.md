@@ -73,6 +73,8 @@ A leitura achou seis coisas, e duas delas são ponteiro para o que não existe:
 
 **Os 22 validadores passavam, com `PULADA = 0`, e treze lugares ainda diziam `catorze`.** *A peça 19 em sete pontos — inclusive o título da seção 3 e a descrição da própria guarda de contagem da checagem 5 —, a peça 3, o `partD.js` em dois, o `README` e o `ESTADO-ATUAL` em dois.* **Nenhum validador alcança nenhum deles:** *são prosa, e a checagem 9 do `conferir-repositorio.py` confere contagem de arquivo, não contagem escrita em frase.*
 
+**E o `Projeto-M-Manual-da-Guilda-TEXTO.md` tinha ficado para trás.** *Ele é versionado, a v0.138 regerou ele, e o fecho da v0.139 achou ele ainda publicando o `Petrificado`.* **O `build_txt.py` não estava na conta dos "três builds" que o `METODO` escreve** — *e não estava porque os três são os do recorte da entrega, e o `TEXTO.md` não está no recorte.* **Os quatro rodam agora, e o `PROMPT` passou a listar os quatro com o motivo:** *o `TEXTO.md` é o único que envelhece sem ninguém olhar.*
+
 *E um número sobre a ferramenta estava errado havia tempo:* **o `README` e o `ESTADO-ATUAL` diziam que o `.pdf` do manual sai com `46` páginas, e ele sai com `49`.** *O `.pdf` da v0.137 já tinha 49.* **O `46` continua certo onde ele está datado** — na entrada da v0.93 do `COMO-USAR.txt`, que é história e não descrição de hoje.
 
 ### Medido depois
@@ -90,7 +92,9 @@ A leitura achou seis coisas, e duas delas são ponteiro para o que não existe:
 
 *O `.docx` do manual continua com 366 parágrafos e 90 tabelas, e o `.pdf` dele com 49 páginas — tirar uma linha de tabela não mexeu na paginação.*
 
-→ **Continua em** `sistema/ESTADO-ATUAL.md`. **A fila de mecânica não mudou: itens iniciais por Caminho, itens menores e as três Trilhas do Evocador.**
+> **E o `conferir-repositorio.py` pegou o fecho em flagrante, na última rodada.** *Eu escrevi `TEXTO.md` no `PROMPT`, com o nome curto, e ele reprovou:* ***"PROMPT-PROXIMA-CONVERSA.md cita `TEXTO.md`, e ele não existe em lugar nenhum"***. **É a checagem de referência morta funcionando contra o próprio documento que ensina a fechar versão** — e vale registrar que ela pega **apelido**, e não só ponteiro para arquivo apagado.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **A fila de mecânica ganhou um item depois do fecho:** *itens iniciais por Caminho, itens menores, as três Trilhas do Evocador, e — levantado pelo Mizuki lendo esta versão — **o que cada ofício FAZ**, que hoje é só uma rolagem de análise.*
 
 ---
 

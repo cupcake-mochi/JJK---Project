@@ -88,6 +88,8 @@ Sempre que der, adicione um **contra-teste**: prove que a alternativa que você 
 
 Isso não é só arrumação: `conferir-repositorio.py` conta peças (`NN-nome.md`) e validadores (`conferir-*.py`) na pasta e compara com o número escrito no `README`, no `ESTADO-ATUAL` e no `LEIA-ME`. **Arquivo novo com dois dígitos na frente, ou `conferir-*.py` novo, quebra a contagem** até os três documentos e a entrada do CHANGELOG subirem juntos.
 
+**Mas ele confere a contagem, não a prosa.** As listas de comandos, as seções em texto e as pendências passam por baixo dele — a v0.40 achou os três documentos parados na versão anterior com todos os validadores verdes, e a **v0.139** achou treze lugares ainda escrevendo `catorze` para um número que tinha virado treze. **Quando fechar peça, releia as listas à mão.**
+
 **Meia peça não é peça.** Trabalho em andamento vive como `RASCUNHO-*.md`, sem número na frente. Ele vira peça numerada quando fecha.
 
 E **nada de valor fica escrito dentro do validador**: leia o número do documento dono.
@@ -165,5 +167,7 @@ Antes de fechar qualquer coisa, passe por estas — cada uma já mordeu mais de 
 - **Contagem não é valor.** Meça peso de mesa, não quantidade.
 - **Um preço se mede somado, nunca sozinho.**
 - **Aviso que parou de reproduzir é dívida.** Um procedimento com motivo errado envelhece pior que um sem motivo nenhum.
+
+- **Número sobre a ferramenta se lê da ferramenta.** Documentar o comportamento de um validador pela saída dele, e não pelo código, é como o `"4, 2 e 1"` sobreviveu duas versões em quatro documentos — e como a paginação de um `.pdf` ficou publicada em `46` enquanto ele saía com `49`, até a v0.139.
 
 A lista completa e atualizada é a seção *"Nove lições que custaram erro"* do `README.md`. Leia de lá; não confie nesta amostra.
