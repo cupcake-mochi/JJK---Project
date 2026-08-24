@@ -882,6 +882,51 @@ else:
                     print(f'    [x] o ultimo commit da entrega e da v{_m_ent.group(1)}, '
                           f'e o CHANGELOG esta na v{_m_don.group(1)}')
 
+    # -- 7.5: o livro CONSTRUIDO e o livro da FONTE? ------------------------
+    #
+    # Nasceu na v0.146, de um defeito que passou por todo mundo. A v0.145 rodou os
+    # quatro builds, DEPOIS consertou um titulo em dois arquivos da fonte, e nao
+    # rodou os builds de novo. Os dois PDFs, o `.docx` e o `TEXTO.md` foram para o
+    # commit uma edicao atrasados.
+    #
+    # NENHUMA checagem podia pegar, e o motivo e estrutural: a 7.1 compara a copia
+    # da ENTREGA contra a copia do PROJETO, e as duas envelhecem juntas. Ninguem
+    # comparava o artefato contra o `.md` que o gerou.
+    #
+    # A guarda e por CONTEUDO e nao por data: git nao preserva mtime, entao um
+    # clone novo faria qualquer comparacao de data mentir nas duas direcoes.
+    print()
+    print('  7.5: o livro construido e o livro da fonte?')
+    _txt = os.path.join(RAIZ, 'sistema', '05-material', 'livro',
+                        'Projeto-M-Manual-da-Guilda-TEXTO.md')
+    _mandir = os.path.join(RAIZ, 'sistema', '05-material', 'livro', 'manual')
+    if not os.path.isfile(_txt):
+        erro('7.5: nao achei o Projeto-M-Manual-da-Guilda-TEXTO.md')
+    else:
+        with open(_txt, encoding='utf-8') as _f:
+            _conteudo = _f.read()
+        _m = re.search(r'<!-- fonte: ([0-9a-f]{40}) -->', _conteudo)
+        if not _m:
+            erro('7.5: o TEXTO.md nao carrega a impressao digital da fonte — rode '
+                 '`build_txt.py`. Sem ela ninguem sabe de que versao dos .md ele saiu')
+        else:
+            import glob as _gl
+            import hashlib as _hl
+            _h = _hl.sha1()
+            _arqs = sorted(_gl.glob(os.path.join(_mandir, '*.md')))
+            for _a in _arqs:
+                with open(_a, 'rb') as _f:
+                    _h.update(_f.read())
+            if not _arqs:
+                erro('7.5: nao achei arquivo nenhum em livro/manual/')
+            elif _h.hexdigest() != _m.group(1):
+                erro('7.5: a fonte do livro mudou depois do ultimo build — os dois PDFs, '
+                     'o .docx e o TEXTO.md estao atrasados. Rode os QUATRO builds antes '
+                     'de commitar')
+            else:
+                print(f'    [x] os {len(_arqs)} arquivos-fonte batem com a impressao '
+                      f'digital do ultimo build')
+
     print()
     print('  A entrega e artefato e nao tem validador proprio. Esta checagem e a unica')
     print('  coisa do projeto que atravessa os dois repositorios.')

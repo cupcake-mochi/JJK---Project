@@ -1225,7 +1225,7 @@ Um não puxa o outro. Um feitiço com o Tema `Fogo` só causa dano do tipo `Fogo
 
 **Nenhum feitiço passa de 2 × Classe em dados na alma.**
 
-#### Dano na alma que atravessa o corpo
+#### Dano direto na alma
 
 Existe um dano na alma que não leva o corpo junto: ele tira Integridade e **só** Integridade.
 
@@ -5796,7 +5796,7 @@ Cada entrada abre com o nome e diz **quando o `Estigma` age**: sempre ligado, na
 
 > **`Anátema`** — o contato dela anula técnica amaldiçoada.
 >
-> **`Cisão`** — o golpe dela atravessa o corpo: tira Integridade, e não tira vida nem vida máxima. É o *dano na alma que atravessa*, do capítulo 4, *Dano, Condições e Cobertura*. Contra alvo de alma dura, você vai sentir falta do dano normal.
+> **`Cisão`** — o golpe dela atravessa o corpo: tira Integridade, e não tira vida nem vida máxima. É *dano direto na alma*, do capítulo 4, *Dano, Condições e Cobertura*. Contra alvo de alma dura, você vai sentir falta do dano normal.
 >
 > **`Insondável`** — enquanto a ponta dela estiver escondida, o alcance dela é **na cena**. As três faixas de alcance estão no capítulo 15, *Invocações*.
 >
@@ -6478,3 +6478,5 @@ Um marco sim, um não, começando pelo segundo.
 Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda. Cada escolha de **Leque** abre uma vaga a mais no teto, e a Passiva que a própria escolha concede ocupa essa vaga nova. Uma rota pura de Leque termina com doze Passivas na ficha, e cinco delas continuam sendo as cinco pagas de sempre.
 
 ---
+
+<!-- fonte: 6aa314ea5790b5a604c09046d9ee325e3be56a8a -->

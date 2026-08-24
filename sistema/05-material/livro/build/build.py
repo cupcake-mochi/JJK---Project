@@ -259,6 +259,9 @@ def tira_rotulo_repetido(soup):
     return n
 
 
+TITULOS_MOVIDOS = []
+
+
 def segmenta_colunas(soup):
     """Parte o capitulo em blocos de duas colunas e blocos de largura inteira.
 
@@ -285,10 +288,27 @@ def segmenta_colunas(soup):
             and "plena" in (filhos[i + 1].get("class") or [])
         )
         if plena or titulo_de_plena:
+            # O TITULO DA SECAO VAI JUNTO COM A TABELA, e nao fica no fim da coluna.
+            #
+            # Achado do Mizuki lendo a pagina 137 da v0.145: o `### Maestria` ficava
+            # sozinho no pe da coluna da direita, com a tabela dele solta abaixo em
+            # largura inteira e um vao no meio. Nao e' quebra ruim — e' o titulo
+            # ficando do lado errado da fronteira entre um bloco de duas colunas e um
+            # bloco de largura inteira. Ele fecha o `c2`, e a tabela abre o `plena`.
+            #
+            # Como o titulo nao tem o que anunciar depois dele naquela coluna, ele sai
+            # do `c2` e entra no bloco de largura inteira, colado na tabela que ele
+            # nomeia. `break-after: avoid` nao resolve: ele amarra dentro do mesmo
+            # fluxo, e aqui sao dois fluxos diferentes.
+            cabecas = []
+            while atual and atual[-1].name in ("h2", "h3", "h4"):
+                cabecas.insert(0, atual.pop())
+            for _c in cabecas:
+                TITULOS_MOVIDOS.append(_c.get_text(" ", strip=True))
             if atual:
                 grupos.append(("c2", atual))
                 atual = []
-            bloco = [el]
+            bloco = list(cabecas) + [el]
             if titulo_de_plena:
                 bloco.append(filhos[i + 1])
                 i += 1
@@ -299,13 +319,29 @@ def segmenta_colunas(soup):
             # quebrar de qualquer jeito, e uma tabela de 55 linhas sempre tem.
             # Dentro da tabela ele viaja junto, por construção.
             if titulo_de_plena:
-                titulo, tabela = bloco
+                titulo, tabela = bloco[-2], bloco[-1]
                 cap = soup.new_tag("caption")
                 for filho in list(titulo.children):
                     cap.append(filho.extract())
                 titulo.decompose()
                 tabela.insert(0, cap)
-                bloco[:] = [tabela]
+                bloco[:] = list(cabecas) + [tabela]
+
+            # E SE A TABELA COMECA EM PAGINA PROPRIA, QUEM PULA A PAGINA E O TITULO.
+            #
+            # Segunda metade do achado do Mizuki, e ela so apareceu olhando o PDF:
+            # com o titulo colado na tabela, as tres tabelas que carregam
+            # `pagina-propria` deixavam o titulo no pe da pagina anterior e pulavam
+            # sozinhas — trocando o vao do meio da coluna por um titulo orfao no fim
+            # da pagina, que e pior. O `break-before: page` tem de sair da tabela e
+            # ir para o titulo, senao a quebra acontece ENTRE os dois.
+            if cabecas:
+                tab = bloco[-1]
+                cls = tab.get("class") or []
+                if "pagina-propria" in cls:
+                    tab["class"] = [c for c in cls if c != "pagina-propria"]
+                    h = cabecas[0]
+                    h["class"] = (h.get("class") or []) + ["puxa-pagina"]
         else:
             atual.append(el)
         i += 1
@@ -644,6 +680,11 @@ def main():
         f.write(gera_marcas(len(corpos), 18.0 if VARIANTE == "duas" else 32.0))
 
     print(f"HTML: {len(doc):,} caracteres, {len(corpos)} capítulos.")
+    if TITULOS_MOVIDOS:
+        print(f"  {len(TITULOS_MOVIDOS)} título(s) foram com a tabela larga em vez de "
+              f"ficar no pé da coluna:")
+        for _t in TITULOS_MOVIDOS:
+            print(f"    · {_t}")
     if notas:
         print(f"  notas de revisão descartadas (não vão pro PDF): {', '.join(notas)}")
     folhas = [CSS(CSS_MAIN), CSS(CSS_MARCAS)]

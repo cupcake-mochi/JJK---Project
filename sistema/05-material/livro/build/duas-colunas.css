@@ -108,3 +108,6 @@ table.plena > caption {
 
 /* Tabela que enche uma página sozinha começa numa. Ver `trata_tabelas`. */
 table.pagina-propria { break-before: page; }
+/* Quando um titulo de secao vem colado numa tabela de pagina propria, a quebra
+   sai da tabela e vem para ele — senao os dois se separam na fronteira. */
+h2.puxa-pagina, h3.puxa-pagina, h4.puxa-pagina { break-before: page; }

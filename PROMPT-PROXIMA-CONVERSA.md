@@ -7,13 +7,13 @@ Pasta: `/media/mizuki/HD Externo II/Claude/Claude 2/`
 Leia primeiro, nesta ordem: `README.md` (a seção *"Nove lições que custaram erro"*),
 `sistema/ESTADO-ATUAL.md` **inteiro**, e o `logs/CHANGELOG.md` de cima até a v0.136.
 
-**Projeto na v0.145.** 24 peças · 24 validadores · 251 checagens. Livro em **17 capítulos**,
-**70.057 palavras**, 239 páginas em coluna única e 139 em duas. Manual do Fundamento na
+**Projeto na v0.146.** 24 peças · 24 validadores · 251 checagens. Livro em **17 capítulos**,
+**70.052 palavras**, 239 páginas em coluna única e 139 em duas. Manual do Fundamento na
 **v7.13**. `conferir-voz --estrito` em 0 achados e 11 triagens.
 
 ---
 
-## O que a v0.145 fechou
+## O que a v0.145 e a v0.146 fecharam
 
 **A máquina de alma virou a peça 24, e ela foi RECOLHIDA e não escrita.** *A Integridade
 estava em toda ficha desde o nível 1 e os quatro estágios estavam publicados desde a v7.0 —
@@ -23,6 +23,17 @@ o que não existia era **dono da régua**.*
 meio da escala — ela É a fórmula publicada, em todo nível.* **O `Teste de Resistência de
 Espírito` que a v0.7 decidiu foi aplicado cento e trinta e sete versões depois**, e o
 `Cisão` virou a exceção declarada que atravessa o corpo.
+
+**A v0.146 consertou a diagramação e achou um defeito maior no caminho.** *O título de seção
+que caía na emenda entre o bloco de duas colunas e o bloco de largura inteira ficava órfão no
+pé da coluna — eram quatro no livro, e o Mizuki viu um deles lendo o PDF.*
+
+> **⚠⚠ E ela achou que o commit da v0.145 subiu os artefatos uma edição atrasados.** *Aquela
+> versão rodou os quatro builds, depois consertou um título na fonte, e não rodou de novo.*
+> **Nenhum validador podia pegar: a checagem 7.1 compara a cópia da entrega contra a cópia do
+> projeto, e as duas envelhecem juntas.** *Entrou a **checagem 7.5**, por conteúdo — o
+> `build_txt.py` grava um `sha1` da fonte no fim do `Projeto-M-Manual-da-Guilda-TEXTO.md`, e o `conferir-repositorio.py`
+> recalcula.* **Data não serve: o git não preserva `mtime`.**
 
 > **Três coisas quebradas estavam publicadas, e duas no mesmo PDF.** *O manual mandava rolar
 > um Teste de Resistência que não existe; o `Cisão` e o capítulo 15 diziam o oposto um do
@@ -159,7 +170,7 @@ capítulo 12, Bênçãos e Lapidação.**
 | a fonte do livro | `sistema/05-material/livro/manual/`, 20 arquivos |
 | os builds | `sistema/05-material/livro/build/` |
 | a régua de escrita | `sistema/05-material/livro/REGRA-DE-VOZ.md`, e o `METODO-passada-de-texto.md` ao lado |
-| a entrega | `finalizado/`, git próprio, **precisa do commit dela depois do commit do projeto** |
+| a entrega | `finalizado/`, git próprio, **sem `subir.sh` — é git à mão**, e o `README.md` da raiz tem a linha |
 
 **Os dois repositórios:** `JJK---Project` (raiz) e `JJK---PDF---RPG` (`finalizado/`).
 *Se o repositório for lido por um Project do Claude, **sincronize depois do push**.*

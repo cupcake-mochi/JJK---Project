@@ -8,6 +8,63 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.146] — 24/08/2026
+
+**Achado do Mizuki lendo o PDF da v0.145:** *"a `Maestria` (título) e o texto tá meio bugadinho, posicionamento… ficou meio como um vão"*. **Ele está certo, e não era quebra ruim: era o título ficando do lado errado da fronteira entre dois fluxos.**
+
+*E indo consertar, a leitura do próprio PDF achou que o commit da v0.145 tinha subido os artefatos uma edição atrasados — e que nenhum validador podia pegar isso.*
+
+### O título ficava no `c2` e a tabela abria o `plena`
+
+**O WeasyPrint 69 não implementa `column-span: all`**, então o `build.py` segmenta o capítulo à mão: sequência de elementos estreitos vira um bloco de duas colunas, e cada tabela larga fica solta entre eles, em largura inteira. *Isso está escrito na função desde a v0.130.*
+
+**O que ninguém tinha olhado é o que acontece com um título que cai exatamente na emenda.** *O `### Maestria` era o último elemento do bloco de duas colunas, e a tabela dele era o primeiro do bloco de largura inteira.* **Ele renderizava sozinho no pé da coluna da direita, com a tabela abaixo e um vão no meio.**
+
+> ***`break-after: avoid` não resolve isto***, e vale saber por quê: ele amarra dois elementos **dentro do mesmo fluxo**, e aqui são dois fluxos diferentes. *A cura é o título mudar de bloco.*
+
+**São quatro no livro, e o Mizuki viu um deles:** *`Catálogo` (perícias e ofícios), `Características do Caminho`, `Armas por treino` e `Maestria`.* **Os outros três tinham o mesmo defeito e ninguém tinha reparado.** *O `build.py` passou a listar quais viajaram, em toda rodada.*
+
+### ⚠⚠ E o conserto quebrou pior nas três tabelas de página própria
+
+**Com o título colado na tabela, as que carregam `pagina-propria` deixavam o título no pé da página anterior e pulavam sozinhas** — *trocando o vão do meio da coluna por um título órfão no fim da página, que é pior.* **O `break-before: page` estava na tabela, então a quebra caía ENTRE os dois.**
+
+***A quebra saiu da tabela e foi para o título.*** *O `build.py` move a classe quando há título junto, e o CSS ganhou a regra para os três níveis de título.* **`Armas por treino` agora abre a página 117 com o catálogo de 52 armas embaixo dele.**
+
+> **E o conserto inteiro custou ZERO página.** *A primeira versão — só mover o título — custava uma; com a quebra no lugar certo, as duas diagramações fecham nos mesmos números da v0.145.*
+
+### ⚠⚠ O commit da v0.145 subiu os artefatos uma edição atrasados
+
+**A v0.145 rodou os quatro builds, DEPOIS consertou um título em dois arquivos da fonte, e não rodou os builds de novo.** *Os dois PDFs, o `.docx` e o `TEXTO.md` foram para o commit com o título velho — `Dano na alma que atravessa o corpo` em vez de `Dano direto na alma`.*
+
+**Nenhum validador podia pegar, e o motivo é estrutural:** *a checagem 7.1 compara a cópia da **entrega** contra a cópia do **projeto**, e as duas envelhecem juntas.* **Ninguém comparava o artefato contra o `.md` que o gerou.**
+
+> **Entrou a checagem 7.5, e ela é por CONTEÚDO e não por data.** *O `build_txt.py` grava no fim do `TEXTO.md` um `sha1` da fonte inteira, e o `conferir-repositorio.py` recalcula.* **Data não serve: o git não preserva `mtime`, então um clone novo faria qualquer guarda por data mentir nas duas direções.**
+>
+> *Os dois lados usam `sorted(glob('manual/*.md'))` e não a lista de capítulos de nenhum script — assim eles não precisam concordar sobre lista nenhuma, e arquivo novo entra na conta sozinho.*
+>
+> **Arnês nas duas direções, com restauração conferida:** *impressão digital adulterada acende; arquivo-fonte mexido depois do build acende; base volta verde.*
+
+> **⚠ E a impressão digital inflava a contagem publicada em `4` palavras.** *O rodapé entrava na medida do próprio `build_txt.py`.* **A contagem passou a ser do livro e não do arquivo** — senão a métrica de palavras andaria sozinha em toda versão, que é a família de defeito que este projeto mais registra.
+
+### Medido depois
+
+| | v0.145 | v0.146 |
+|---|---|---|
+| peças de regra · validadores · checagens | 24 · 24 · 251 | iguais |
+| títulos órfãos na emenda de coluna | **4** | **0** |
+| coluna única | 239 páginas | **239** |
+| duas colunas | 139 páginas | **139** |
+| palavras do livro | 70.057 *(publicado)* | **70.052** |
+| `conferir-voz --estrito` | 0 achados · 11 triagens | **0 achados · 11 triagens** |
+
+> **⚠ As `70.057` da v0.145 estavam medidas antes do renome do título**, e é o mesmo defeito que a checagem 7.5 passou a guardar: *o número foi lido de um artefato que a fonte já tinha superado.* **A diferença de `5` palavras é exatamente o título encurtado nos dois lugares.**
+
+*Nenhum arquivo-fonte do livro mudou nesta versão* — o que mudou foi o `build.py`, o `build_txt.py`, o `duas-colunas.css` e o `conferir-repositorio.py`. **Por isso não há `guard_numeros.py` aqui: não existe `antes.md` diferente do `depois.md`.**
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **A fila não mudou:** *os dois rascunhos, as cinco marcas do livro, e a coluna de Integridade na tabela de inimigo — que fecha junto com a Reação que a peça 23 pediu.*
+
+---
+
 ## [0.145] — 24/08/2026
 
 **A máquina de alma virou a peça 24, e ela não foi escrita: foi RECOLHIDA.** ***Palavras dele:*** *"começando por 'dano de alma com essência na integridade' temos de validar toda mecânica de alma."*

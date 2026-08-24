@@ -7,6 +7,8 @@ Serve para revisão de texto: dá para ler no editor, buscar com Ctrl+F,
 comentar linha a linha e diferenciar contra a próxima versão. Nenhuma
 diagramação, nenhum HTML.
 """
+import glob
+import hashlib
 import os
 import re
 
@@ -54,12 +56,33 @@ def main():
             notas.append(titulo)
 
     texto = "\n".join(partes)
+    medida = texto   # sem o rodape: a contagem publicada e do livro
+
+    # IMPRESSAO DIGITAL DA FONTE, e ela existe por um defeito medido na v0.146.
+    #
+    # A v0.145 rodou os quatro builds, DEPOIS consertou um titulo em dois arquivos
+    # da fonte, e nao rodou os builds de novo. Os PDFs e este arquivo foram para o
+    # commit uma edicao atrasados, e nenhum validador acusou: a checagem 7.1 do
+    # `conferir-repositorio.py` compara a copia da entrega contra a copia do projeto
+    # — as duas envelhecem juntas — e nunca contra o `.md` que as gerou.
+    #
+    # Esta linha fecha isso pelo lado do conteudo, e nao pela data do arquivo: git
+    # nao preserva mtime, entao um clone novo faria qualquer guarda por data mentir.
+    # glob ordenado, e nao a lista CHAPTERS: assim os dois lados da guarda — este
+    # e a checagem 7.5 do conferir-repositorio.py — nao precisam concordar sobre
+    # nenhuma lista. Um arquivo novo em manual/ entra na conta sozinho.
+    fonte = hashlib.sha1()
+    for caminho in sorted(glob.glob(os.path.join(MANUAL_DIR, "*.md"))):
+        with open(caminho, "rb") as f:
+            fonte.update(f.read())
+    texto += f"\n<!-- fonte: {fonte.hexdigest()} -->\n"
+
     with open(OUT, "w", encoding="utf-8") as f:
         f.write(texto)
 
     print(f"texto: {OUT}")
     print(f"  {numero} capítulos numerados, {len(CHAPTERS) - numero} peças de frente.")
-    print(f"  {len(texto.split()):,} palavras, {len(texto):,} caracteres.")
+    print(f"  {len(medida.split()):,} palavras, {len(medida):,} caracteres.")
     if notas:
         print(f"  notas de revisão descartadas: {', '.join(notas)}")
 
