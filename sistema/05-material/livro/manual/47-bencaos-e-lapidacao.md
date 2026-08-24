@@ -59,8 +59,6 @@ Os cinco requisitos são um por atributo, e nenhuma ficha alcança os cinco.
 
 ## Catálogo
 
-Catorze entradas.
-
 ### Como ler uma Bênção
 
 Cada entrada aparece duas vezes. Primeiro nesta tabela, com três campos: **nome**, **requisito** e **Classe Passiva**. Depois na seção dela, com uma caixa de regra.

@@ -154,19 +154,9 @@ Onze entradas, agrupadas por Classe. A Classe diz o grau da ferramenta que pode 
 
 ### Como ler uma entrada
 
-Cada tabela de Classe traz o nome e **quando o `Estigma` age**: sempre ligado, na hora de um gatilho, ou como Reação. Quando existe limite de uso, ele aparece na coluna do relógio. O texto embaixo da tabela é a regra inteira.
+Cada entrada abre com o nome e diz **quando o `Estigma` age**: sempre ligado, na hora de um gatilho, ou como Reação. Quando existe limite de uso, ele vem escrito na própria entrada.
 
 ### Classe 1 · grau 3 · sem nível mínimo
-
-**`Estigma` de Classe 1**
-{: .tab-titulo }
-
-| `Estigma` | Quando age |
-|---|---|
-| `Fiel` | no seu turno |
-| `Aferido` | ao encostar numa maldição |
-| `Presságio` | sempre |
-| `Perene` | sempre |
 
 > **`Fiel`** — ela volta para a sua mão no seu turno. Não dá para te desarmar dela.
 >
@@ -178,15 +168,6 @@ Cada tabela de Classe traz o nome e **quando o `Estigma` age**: sempre ligado, n
 
 ### Classe 2 · grau 2 · nível 7
 
-**`Estigma` de Classe 2**
-{: .tab-titulo }
-
-| `Estigma` | Quando age | Relógio |
-|---|---|---|
-| `Quebranto` | Reação | por cena |
-| `Avulsa` | Reação | *não declarado* |
-| `Bojo` | no seu turno | por descanso curto |
-
 > **`Quebranto`** — Reação: anula um feitiço que ia te acertar. Uma vez por cena.
 >
 > **`Avulsa`** — Reação: a arma sai da sua mão e faz o ataque sozinha. **O limite de uso dela está sendo escrito**; até fechar, combine um com o seu mestre.
@@ -194,16 +175,6 @@ Cada tabela de Classe traz o nome e **quando o `Estigma` age**: sempre ligado, n
 > **`Bojo`** — uma vez por descanso curto, ela guarda um feitiço que você lançou e devolve ele depois, sem custo de PE. É o único dos onze que só serve para quem conjura.
 
 ### Classe 3 · grau 1 e especial · nível 13
-
-**`Estigma` de Classe 3**
-{: .tab-titulo }
-
-| `Estigma` | Quando age |
-|---|---|
-| `Anátema` | ao encostar |
-| `Cisão` | sempre |
-| `Insondável` | enquanto a ponta dela estiver escondida |
-| `Contrapeso` | sempre |
 
 > **`Anátema`** — o contato dela anula técnica amaldiçoada.
 >

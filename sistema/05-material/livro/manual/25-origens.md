@@ -21,8 +21,6 @@ São sete Origens. Cinco principais (Latente, Receptáculo, Descendente, Reencar
 
 ### Limites
 
-Três coisas ficam de fora.
-
 #### Atributo
 
 Nenhuma Origem dá ponto de atributo. Ser recipiente de alguma coisa te dá um passageiro, e o corpo continua exatamente o que era.

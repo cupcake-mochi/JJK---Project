@@ -8,6 +8,86 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.140] — 24/08/2026
+
+**O Mizuki leu o PDF e apontou a mesma forma que a v0.138 já tinha cortado, ainda viva em outro capítulo:** *tabela que apresenta uma coisa que aparece de novo logo abaixo.* **Ele mandou o recorte da página como exemplo, e ela reaparece três vezes no capítulo 14.**
+
+*E na mesma passada ele levantou uma família nova, que nenhuma versão tinha olhado:* **a frase curta de abertura de tópico que só conta o que o leitor já está vendo.** *Os exemplos dele foram `"Catorze entradas."` e `"Nenhuma das duas listas é fechada."`*
+
+### A régua que faltava saiu do PHB, e ela é medível
+
+**Até aqui o critério da v0.106 era qualitativo** — *"prévia é quando todas as colunas repetem o texto adjacente; contraste é quando a tabela põe os itens num eixo que a prosa não alcança"*. **O PHB 2024 declara o dele por escrito, no capítulo 5:**
+
+> *"Os talentos deste capítulo estão organizados **por categoria**… Todos os talentos estão listados **alfabeticamente** na tabela Talentos."*
+
+**A tabela-índice dele ordena por um eixo diferente do texto.** *Alfabética contra agrupada por categoria — e é isso que ela entrega, porque a prosa não consegue estar nas duas ordens ao mesmo tempo.* **Dá dois números que se medem sozinhos: a ordem é a mesma?, e a que distância está a última entrada que a tabela indexa?**
+
+| tabela | linhas | alcance | ordem |
+|---|---|---|---|
+| `Como ler uma Bênção` | 14 | **136 linhas** | igual |
+| `Trilhas do Evocador` | 3 | 11 linhas | igual |
+| `Estigma` de Classe 1 e 3 | 4 | **7 linhas** | igual |
+| `Estigma` de Classe 2 | 3 | **5 linhas** | igual |
+
+*A do PHB indexa mais de quarenta talentos ao longo de vinte páginas, em outra ordem.* **As três de `Estigma` indexam quatro linhas que começam no parágrafo seguinte.**
+
+### O que saiu, e o que foi salvo antes
+
+**As três tabelas de `Estigma` saíram inteiras.** *Cada uma trazia `nome` e `quando age`, e as quatro entradas logo abaixo diziam a mesma coisa com todas as letras — `Fiel | no seu turno` contra "ela volta para a sua mão no seu turno".* **A `Relógio` da Classe 2 era o mesmo caso:** *`por cena`, `não declarado`, `por descanso curto` estão nas três entradas.*
+
+**A tabela do Evocador não saiu: perdeu uma coluna.** *Medindo célula a célula, `O que ela concede` volta em `100%`, `100%` e `50%` — as três entradas abrem repetindo ela.* **Mas a `Vida do corpo` aparece ZERO vezes na prosa das três.** *`5 × h` e `h` só existem ali.* **É o caso do `Alcança` da v0.138 outra vez: a coluna que carrega o número fica, e a tabela vira comparação de número entre as três Trilhas — que é o que ela existe para ser.**
+
+> **⚠ E o corte ia criar um ponteiro pendurado, o quarto em três versões.** *O `### Como ler uma entrada` daquele capítulo descrevia as tabelas — **"cada tabela de Classe traz…"**, **"ele aparece na coluna do relógio"**.* **Ele foi reescrito no mesmo commit, e agora descreve a entrada.** *Só apareceu porque a leitura foi do bloco inteiro, e não da tabela isolada.*
+
+### As cinco frases que só contavam o que estava logo abaixo
+
+| onde | o que dizia | o que vinha na linha seguinte |
+|---|---|---|
+| `45-aptidões` · `## Catálogo` | *"Catorze entradas."* | a tabela com catorze linhas |
+| `47-bênçãos` · `## Catálogo` | *"Catorze entradas."* | a tabela com catorze linhas |
+| `11-o-turno` · `## Ações de Ação Bônus` | *"São duas."* | as duas, uma embaixo da outra |
+| `25-origens` · `### Limites` | *"Três coisas ficam de fora."* | os três `####` |
+| `07-glossário` · `## Palavras com sentido próprio` | *"Estas palavras têm sentido próprio neste sistema."* | a tabela delas |
+
+*A última é a mais limpa das cinco: ela repete o próprio título com três palavras a mais.*
+
+### A que NÃO saiu, e o motivo é regra da casa
+
+***"Nenhuma das duas listas é fechada"*, do capítulo 16, fica.** *O Mizuki apontou ela junto com as outras, e ela tem a mesma cara: uma linha solta embaixo de um título.* **Mas ela é a única dona de uma permissão** — *procurei a frase em todo o capítulo e ela não está escrita em nenhum outro lugar.* **Cortar apaga o único ponto que diz que o mestre pode inventar pacto fora da lista.**
+
+*É a regra do `METODO-passada-de-texto.md`, e ela custou três linhas de regra na v0.136:* **comentário de efeito às vezes carrega a única cópia de um fato.**
+
+### O método errou primeiro, e vale mais que o resultado
+
+**A primeira varredura deu NOVE candidatas e cinco eram falso positivo.** *Ela media "as palavras da tabela voltam no texto de baixo" — e num capítulo em que `Trilha`, `Caminho` e `nível` saturam a página, isso acende sempre.*
+
+| tabela | eco da primeira medida | o que era |
+|---|---|---|
+| `Recursos do turno` | `80%` | quatro recursos lado a lado, **nenhum repetido** abaixo |
+| `Resolução de feitiço` | `93%` | as três formas lado a lado, **nenhuma repetida** |
+| `Entregas por nível` | `98%` | a escada de sete níveis, **nenhuma repetida** |
+
+> **A medida certa não é eco de palavra: é correspondência UM-PARA-UM** — cada linha da tabela virando uma entrada logo abaixo, na mesma ordem. *Trocada a medida, as nove viraram cinco, e as cinco sobreviveram à leitura.* **Se eu tivesse cortado pela primeira, teria apagado três tabelas boas.**
+>
+> ***Lição nº 8, de novo, e desta vez ela quase me pegou no sentido contrário:*** *medir o marcador em vez do fenômeno não erra só para menos — erra para mais, e um falso positivo em passada de texto apaga coisa que estava certa.*
+
+### Medido depois
+
+| | v0.139 | v0.140 |
+|---|---|---|
+| palavras do livro | 69.972 | **69.812** |
+| coluna única | 238 páginas | **236** |
+| duas colunas | 138 páginas | **138** |
+| tabelas do livro | 187 | **184** |
+| peças · validadores · checagens | 22 · 22 · 232 | iguais |
+| `conferir-voz --estrito` | 0 achados · 10 triagens | **0 achados · 10 triagens** |
+
+*As duas colunas não se moveram: as três tabelas de `Estigma` eram estreitas e viviam dentro do fluxo, então tirar elas devolve linha e não página.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **A fila de mecânica é a mesma quatro:** *itens iniciais por Caminho, itens menores, as três Trilhas do Evocador, e o que cada ofício faz.*
+
+---
+
 ## [0.139] — 24/08/2026
 
 **O `Petrificado` saiu do sistema inteiro, e é decisão do Mizuki:** ***"ela segue um balanceamento que não planejo ter no sistema"***.

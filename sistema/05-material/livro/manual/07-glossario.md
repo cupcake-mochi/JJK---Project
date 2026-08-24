@@ -245,8 +245,6 @@ Melhoria — são escadas diferentes que usam as mesmas três palavras. O capít
 
 ## Palavras com sentido próprio
 
-Estas palavras têm sentido próprio neste sistema.
-
 **Palavras com sentido próprio**
 {: .tab-titulo }
 

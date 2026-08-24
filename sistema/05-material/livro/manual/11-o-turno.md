@@ -105,8 +105,6 @@ As duas gastam a Ação Padrão para trocar informação por tempo, e a diferen�
 
 ## Ações de Ação Bônus
 
-São duas.
-
 > **`Provocar`** — Ação Bônus. Teste de `Provocar` contra o Teste de Resistência de Espírito do alvo. Se ele falhar, até o começo do seu próximo turno ele ataca com desvantagem qualquer alvo que não seja você, e com vantagem contra você.
 
 > **`Ler o Ambiente`** — Ação Bônus, uma vez por cena. Teste de `Percepção` ou `Intuição` contra a dificuldade que o mestre puser. Num sucesso, o mestre te diz uma coisa daquele lugar que dê para usar: um objeto, um caminho, uma posição, um risco. Se não houver nada, ele diz isso e a ação não é gasta.

@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 24/08/2026, na v0.139 (última peça fechada: **Pactos**, a peça 22, na v0.134, com o `conferir-pactos.py` e catorze checagens; antes dela, o **Objeto amaldiçoado, na v0.132**; antes dela, a **Técnica Marcial, na v0.122**; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 24/08/2026, na v0.140 (última peça fechada: **Pactos**, a peça 22, na v0.134, com o `conferir-pactos.py` e catorze checagens; antes dela, o **Objeto amaldiçoado, na v0.132**; antes dela, a **Técnica Marcial, na v0.122**; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.139.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e duas peças escritas** e **vinte e dois validadores**.
+**Versão v0.140.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e duas peças escritas** e **vinte e dois validadores**.
 
 ***O `PETRIFICADO` SAIU na v0.139, e são treze condições.*** **Decisão do Mizuki:** *"ela segue um balanceamento que não planejo ter no sistema"*. **Seis `Leve`, duas `Média`, cinco `Pesada`**, e o manual do Fundamento foi para a **v7.12**.
 

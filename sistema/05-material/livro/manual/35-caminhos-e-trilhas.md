@@ -562,11 +562,11 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 13, 
 **Trilhas do Evocador**
 {: .tab-titulo }
 
-| Trilha | O que ela concede | Orçamento do corpo | Vida do corpo |
-|---|---|---|---|
-| `Servo` | um corpo forte | **o da ficha mais metade**, arredondando para baixo | **`5 × h`** |
-| `Matilha` | os cinco corpos | o da ficha | `5 × h`, em pool com cascata |
-| `Coro` | atacar e comandar na mesma rodada | o da ficha | `h` |
+| Trilha | Orçamento do corpo | Vida do corpo |
+|---|---|---|
+| `Servo` | **o da ficha mais metade**, arredondando para baixo | **`5 × h`** |
+| `Matilha` | o da ficha | `5 × h`, em pool com cascata |
+| `Coro` | o da ficha | `h` |
 
 *`h` é a vida de uma invocação pela fórmula do capítulo 15, __Invocações__, que já conta o tipo dela e o seu nível.*
 

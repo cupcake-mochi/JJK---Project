@@ -285,8 +285,6 @@ Melhoria — são escadas diferentes que usam as mesmas três palavras. O capít
 
 ## Palavras com sentido próprio
 
-Estas palavras têm sentido próprio neste sistema.
-
 **Palavras com sentido próprio**
 | Palavra | Aqui ela quer dizer | E **não** quer dizer |
 |---|---|---|
@@ -806,8 +804,6 @@ Preparar uma conjuração continua exigindo a Melhoria `Reação`. O slot não m
 As duas gastam a Ação Padrão para trocar informação por tempo, e a diferença é a distância. `Vasculhar` é mão no objeto: revistar o corpo, abrir a gaveta, apalpar a parede atrás de um vão. `Estudar` é olhar com atenção de longe: ler a energia de uma maldição, reconhecer o formato de um selo, avaliar quanto sangue aquele ferido ainda aguenta perder.
 
 ## Ações de Ação Bônus
-
-São duas.
 
 > **`Provocar`** — Ação Bônus. Teste de `Provocar` contra o Teste de Resistência de Espírito do alvo. Se ele falhar, até o começo do seu próximo turno ele ataca com desvantagem qualquer alvo que não seja você, e com vantagem contra você.
 
@@ -1870,8 +1866,6 @@ São sete Origens. Cinco principais (Latente, Receptáculo, Descendente, Reencar
 | **A rota de criação** | por onde você monta o seu poder |
 
 ### Limites
-
-Três coisas ficam de fora.
 
 #### Atributo
 
@@ -3054,11 +3048,11 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 13, 
 **O que cada Trilha concede** é o corpo que você põe em campo. O resto da ficha da invocação você monta com o orçamento do capítulo 15, *Invocações*, por cima do que está na tabela.
 
 **Trilhas do Evocador**
-| Trilha | O que ela concede | Orçamento do corpo | Vida do corpo |
-|---|---|---|---|
-| `Servo` | um corpo forte | **o da ficha mais metade**, arredondando para baixo | **`5 × h`** |
-| `Matilha` | os cinco corpos | o da ficha | `5 × h`, em pool com cascata |
-| `Coro` | atacar e comandar na mesma rodada | o da ficha | `h` |
+| Trilha | Orçamento do corpo | Vida do corpo |
+|---|---|---|
+| `Servo` | **o da ficha mais metade**, arredondando para baixo | **`5 × h`** |
+| `Matilha` | o da ficha | `5 × h`, em pool com cascata |
+| `Coro` | o da ficha | `h` |
 
 *`h` é a vida de uma invocação pela fórmula do capítulo 15, __Invocações__, que já conta o tipo dela e o seu nível.*
 
@@ -4591,8 +4585,6 @@ Cada aptidão declara o próprio requisito, e ele está na linha dela no catálo
 
 ## Catálogo
 
-Catorze entradas.
-
 ### Como ler uma aptidão
 
 Cada entrada aparece duas vezes. Primeiro nesta tabela, com quatro campos: **nome**, **requisito**, **Classe Passiva** e **o que o refino escala**. Depois na seção dela, na caixa de regra.
@@ -4930,8 +4922,6 @@ Cinco Bênçãos pedem um **atributo**, e nenhuma outra pede coisa nenhuma.
 Os cinco requisitos são um por atributo, e nenhuma ficha alcança os cinco.
 
 ## Catálogo
-
-Catorze entradas.
 
 ### Como ler uma Bênção
 
@@ -5667,17 +5657,9 @@ Onze entradas, agrupadas por Classe. A Classe diz o grau da ferramenta que pode 
 
 ### Como ler uma entrada
 
-Cada tabela de Classe traz o nome e **quando o `Estigma` age**: sempre ligado, na hora de um gatilho, ou como Reação. Quando existe limite de uso, ele aparece na coluna do relógio. O texto embaixo da tabela é a regra inteira.
+Cada entrada abre com o nome e diz **quando o `Estigma` age**: sempre ligado, na hora de um gatilho, ou como Reação. Quando existe limite de uso, ele vem escrito na própria entrada.
 
 ### Classe 1 · grau 3 · sem nível mínimo
-
-**`Estigma` de Classe 1**
-| `Estigma` | Quando age |
-|---|---|
-| `Fiel` | no seu turno |
-| `Aferido` | ao encostar numa maldição |
-| `Presságio` | sempre |
-| `Perene` | sempre |
 
 > **`Fiel`** — ela volta para a sua mão no seu turno. Não dá para te desarmar dela.
 >
@@ -5689,13 +5671,6 @@ Cada tabela de Classe traz o nome e **quando o `Estigma` age**: sempre ligado, n
 
 ### Classe 2 · grau 2 · nível 7
 
-**`Estigma` de Classe 2**
-| `Estigma` | Quando age | Relógio |
-|---|---|---|
-| `Quebranto` | Reação | por cena |
-| `Avulsa` | Reação | *não declarado* |
-| `Bojo` | no seu turno | por descanso curto |
-
 > **`Quebranto`** — Reação: anula um feitiço que ia te acertar. Uma vez por cena.
 >
 > **`Avulsa`** — Reação: a arma sai da sua mão e faz o ataque sozinha. **O limite de uso dela está sendo escrito**; até fechar, combine um com o seu mestre.
@@ -5703,14 +5678,6 @@ Cada tabela de Classe traz o nome e **quando o `Estigma` age**: sempre ligado, n
 > **`Bojo`** — uma vez por descanso curto, ela guarda um feitiço que você lançou e devolve ele depois, sem custo de PE. É o único dos onze que só serve para quem conjura.
 
 ### Classe 3 · grau 1 e especial · nível 13
-
-**`Estigma` de Classe 3**
-| `Estigma` | Quando age |
-|---|---|
-| `Anátema` | ao encostar |
-| `Cisão` | sempre |
-| `Insondável` | enquanto a ponta dela estiver escondida |
-| `Contrapeso` | sempre |
 
 > **`Anátema`** — o contato dela anula técnica amaldiçoada.
 >

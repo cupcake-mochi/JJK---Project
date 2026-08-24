@@ -100,8 +100,6 @@ Cada aptidão declara o próprio requisito, e ele está na linha dela no catálo
 
 ## Catálogo
 
-Catorze entradas.
-
 ### Como ler uma aptidão
 
 Cada entrada aparece duas vezes. Primeiro nesta tabela, com quatro campos: **nome**, **requisito**, **Classe Passiva** e **o que o refino escala**. Depois na seção dela, na caixa de regra.
