@@ -4,9 +4,9 @@ aparecem no texto (tutorial Corte Medido, tabela de Ampliar, Tecnica Maxima,
 PE das Liberacoes, tabela de cura, conversao d6/d12).
 
 Mudancas v6 -> v7 refletidas aqui:
-  - LENTO virou MEDIA (v7.3). Lento e Acao Completa: engole movimento + acao bonus +
+  - LENTO virou MEDIA (v7.3). Atrasar e Acao Completa: engole movimento + acao bonus +
     acao padrao, ou seja, CONTEM o Parado (que so tira o movimento). Com os dois
-    devolvendo Leve, o Lento era dominado — mesma devolucao, dor estritamente maior.
+    devolvendo Leve, o Atrasar era dominado — mesma devolucao, dor estritamente maior.
   - AQUECER virou LEVE (v7.3). E a unica Restricao de frequencia cujo custo some depois
     da rodada 1, e o personagem tem outros feiticos pra cobrir aquele turno. Devolvendo
     Media, era a melhor das quatro por larga margem. Nenhum dos 35 prontos usa Aquecer.
@@ -20,7 +20,7 @@ Mudancas v6 -> v7 refletidas aqui:
     metade do teto em TODO Classe, entao o bonus antigo era automatico, nao escolha.
   - Selo NAO da mais +1 ponto na Classe 2+. (Nenhum dos 35 prontos usava; a busca
     exaustiva do v6 nunca modelou esse ponto. Remover alinhou texto e modelo.)
-  - Tabela de Ampliar corrigida: a versao v6 esquecia a devolucao do Lento da
+  - Tabela de Ampliar corrigida: a versao v6 esquecia a devolucao do Atrasar da
     Palma Trovejante (dizia 3d8/4d8/7d8; o certo e 4d8/6d8/10d8).
   - Fio Preso: com Fica, a duracao sobe do degrau "uma semana" pro seguinte,
     "ate alguem desfazer" (regra da secao 5; o v6 imprimia "por uma semana").
@@ -103,8 +103,8 @@ for a in [
  ("Chicote",1,'Linha',[],[]),
  ("Perfurar",1,'Projetil',[("Precisao",'L')],[("Parado",'L')]),
  ("Golpe Cru",1,'Toque',[],[]),
- ("Palma Trovejante",2,'Cone',[("Condicao: Derrubado",'L')],[("Lento",'M')]),
- ("Lanca Negra",2,'Projetil',[("Fura",'M')],[("Lento",'M')]),
+ ("Palma Trovejante",2,'Cone',[("Condicao: Derrubado",'L')],[("Atrasar",'M')]),
+ ("Lanca Negra",2,'Projetil',[("Fura",'M')],[("Atrasar",'M')]),
  ("Faisca em Cadeia",2,'Projetil',[("Salto",'M')],[("Gesto",'L')],False,2),
  ("Sopro",2,'Cura',[],[]),
  ("Vento a Favor",2,'Apoio',[("Impulso",'L'),("Pressa",'M')],[]),
@@ -116,7 +116,7 @@ for a in [
  ("Hora Morta",3,'Efeito',[("Longe",'L')],[]),
  ("Fissura",3,'Projetil',[("Toca a Alma",'L')],[],False,0,True),
  ("Prisao de Sombras",4,'Explosao',[("Condicao: Atordoado",'P'),("Escolher",'M')],[("Sangra",'M')]),
- ("Julgamento Vertical",4,'Linha',[("Fura",'M'),("Precisao",'L')],[("Lento",'M')]),
+ ("Julgamento Vertical",4,'Linha',[("Fura",'M'),("Precisao",'L')],[("Atrasar",'M')]),
  ("Roubo de Folego",4,'Projetil',[("Sugar",'M'),("Remate",'M')],[("Condicional: alvo que te acertou",'M')]),
  ("Passo do Espelho",4,'Toque',[("Rapido",'P'),("Passo",'L')],[("Recuo",'M')]),
  ("Muralha",4,'Apoio',[("Anteparo",'M'),("Guarda",'M')],[("Parado",'L')]),
@@ -124,8 +124,8 @@ for a in [
  ("Alinhavo",4,'Cura',[("Remenda",'P')],[("Gesto",'L')]),
  ("Purga Escarlate",5,'Projetil',[("Inescapavel",'M')],[]),
  ("Chuva de Agulhas",5,'Projetil',[("Rajada",'L'),("Precisao",'L')],[("Parado",'L')]),
- ("Vala Comum",5,'Explosao',[("Maior",'L'),("Condicao: Derrubado",'L')],[("Lento",'M')]),
- ("Fim de Turno",5,'Explosao',[("Escolher",'M')],[("Lento",'M')]),
+ ("Vala Comum",5,'Explosao',[("Maior",'L'),("Condicao: Derrubado",'L')],[("Atrasar",'M')]),
+ ("Fim de Turno",5,'Explosao',[("Escolher",'M')],[("Atrasar",'M')]),
  ("Segunda Vida",5,'Cura',[("Levanta",'P')],[("Uma Vez",'L'),("Gesto",'L')]),
  ("Fio Preso",5,'Efeito',[("Fica",'M')],[]),
  ("Sete Palmos",5,'Toque',[("Toca a Alma",'L')],[],False,0,True),
@@ -137,8 +137,8 @@ print("  ATE ALGUEM DESFAZER. (v6 dizia 'por uma semana' — corrigido no v7.)")
 print("-"*168)
 print("LIBERACOES MAXIMAS (Classe 3+, fora da lista de conhecidos, +Classe em dados, PE +50% arredondando pra cima)")
 gv=b("Golpe do Voto",5,'Projetil',[],[],True)
-ra=b("Rachadura",3,'Linha',[],[("Lento",'M')],True)
-sf=b("Sentenca Final",5,'Explosao',[("Escolher",'M')],[("Lento",'M')],True)
+ra=b("Rachadura",3,'Linha',[],[("Atrasar",'M')],True)
+sf=b("Sentenca Final",5,'Explosao',[("Escolher",'M')],[("Atrasar",'M')],True)
 check(gv==20 and dano(20)==90 and math.ceil(15*1.5)==23, "Golpe do Voto: 20d8=90, 23 PE")
 check(ra==12 and dano(12)==54 and math.ceil(9*1.5)==14,  "Rachadura: 12d8=54, 14 PE")
 check(sf==17 and dano(17)==76 and math.ceil(15*1.5)==23, "Sentenca Final: 17d8=76, 23 PE")
@@ -146,10 +146,10 @@ check(sf<=4*5, f"Sentenca Final cabe no teto da Liberacao ({sf}<=20)")
 
 print("-"*168)
 print("EXEMPLO DE ABERTURA — Lanca Negra (a Restricao paga a Melhoria inteira)")
-ln=b("Lanca Negra (abertura)",2,'Projetil',[("Fura",'M')],[("Lento",'M')])
+ln=b("Lanca Negra (abertura)",2,'Projetil',[("Fura",'M')],[("Atrasar",'M')])
 check(ln==6 and dano(6)==27, "Lanca Negra: 6d8 = 27, o dano cheio da Classe 2")
 check(ln==3*2, "Lanca Negra bate no teto contra um alvo (pontos da Classe), sem passar dele")
-print("  A devolucao do Lento (2) cobre exatamente a Fura (2): dano cheio + Fura de graca.")
+print("  A devolucao do Atrasar (2) cobre exatamente a Fura (2): dano cheio + Fura de graca.")
 print("  E o teto contra um alvo segura em 6 — Restricao nunca passa disso.")
 print("-"*168)
 print("TUTORIAL DA SECAO 2 — Corte Medido (feitico da Regua: Mira e Alcance Livres)")
@@ -160,16 +160,16 @@ check(prF(2,'L',True)==1, "Precisao na Familia Livre, Classe 2: minimo 1 ponto")
 check(3*2==6, "Fura na Classe 2 ignora 3 x 2 = 6 de RD")
 
 print("-"*168)
-print("TABELA DE AMPLIAR — Palma Trovejante completa (Cone + Derrubado + Lento) por Classe")
+print("TABELA DE AMPLIAR — Palma Trovejante completa (Cone + Derrubado + Atrasar) por Classe")
 print("v0.104: o Derrubado e Leve. Antes disto a tabela dizia 5d8/7d8/12d8, com o Derrubado em Media.")
 esperado={2:6,3:8,5:14}
-# v0.104: o Derrubado e' nivel Leve, e o nivel E' o preco. O Lento continua Media.
+# v0.104: o Derrubado e' nivel Leve, e o nivel E' o preco. O Atrasar continua Media.
 for G in (2,3,5):
     custo=pr(G,'L')+pr(G,'L'); dev=pr(G,'M')
     dd=3*G-max(0,custo-dev)
     ctrl="+1 rodada" if dd<=(4*G)//4 else "nada"
     prop=dd/(4*G)*100
-    print(f"  Classe {G}: {3*G} pts - Cone {pr(G,'L')} - Derrubado {pr(G,'L')} + Lento {dev} = {dd}d8 = {dano(dd)}"
+    print(f"  Classe {G}: {3*G} pts - Cone {pr(G,'L')} - Derrubado {pr(G,'L')} + Atrasar {dev} = {dd}d8 = {dano(dd)}"
           f"  (Controle: {ctrl}; {prop:.0f}% do teto; PE {3*G})")
     check(dd==esperado[G], f"Ampliar Classe {G}: esperado {esperado[G]}d8")
     # v0.104: com o Derrubado em Leve a Palma sobe de ~60% para ~70% do teto —
@@ -265,7 +265,7 @@ print("  Dados na alma = metade dos dados finais, arredondando pra baixo. Teto n
 print("  Alinhavo: alem da cura, devolve 5 x Classe = 20 de Integridade (Remenda, uma vez por cena).")
 print("  Classe 0 nao entra: nao se monta.")
 print("  Selo v7: identidade + trava (Restricao que o Selo ja obriga nao devolve ponto). SEM bonus de ponto.")
-print("  Restricao Propria (v7.2): customizada, devolve Leve ou Media, conta no limite de 2.\n  Lento = Media e Aquecer = Leve desde a v7.3.")
+print("  Restricao Propria (v7.2): customizada, devolve Leve ou Media, conta no limite de 2.\n  Atrasar = Media e Aquecer = Leve desde a v7.3.")
 print()
 if ERROS:
     print(f">>> {len(ERROS)} ERRO(S):"); [print("   ",e) for e in ERROS]

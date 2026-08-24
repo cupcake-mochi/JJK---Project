@@ -2,7 +2,7 @@
 
 **O sistema se chama `Projeto - M`**, batizado na v0.94 — era a pendência mais velha que existia aqui, aberta na v0.1. Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.138** · manual do Fundamento na **v7.11** · **vinte e duas peças de regra** e **vinte e dois validadores passando** · o Manual da Guilda em **18 capítulos**.
+**Versão v0.139** · manual do Fundamento na **v7.12** · **vinte e duas peças de regra** e **vinte e dois validadores passando** · o Manual da Guilda em **18 capítulos**.
 
 ---
 
@@ -51,8 +51,8 @@ Depois disso, a ordem de leitura é a da próxima seção, e os validadores são
 │   ├── CHANGELOG.md                     o porquê de cada decisão, da v0.1 até a versão atual
 │   └── CHANGELOG-manual-v6-para-v7.md   o changelog do manual, antes de ele entrar aqui
 ├── manual/
-│   ├── Fundamento-MANUAL-v7.docx        v7.11 — o manual gerado
-│   ├── Fundamento-MANUAL-v7.pdf         v7.11 — o mesmo do .docx desde a v0.93
+│   ├── Fundamento-MANUAL-v7.docx        v7.12 — o manual gerado
+│   ├── Fundamento-MANUAL-v7.pdf         v7.12 — o mesmo do .docx desde a v0.93
 │   ├── gerador/                         Node + docx. `node make.js` recria o .docx do zero
 │   └── matematica/                      pac7.py e v7.py, os validadores do manual
 └── sistema/
@@ -127,7 +127,7 @@ python3 conferir-invocacoes.py   # o teto somado, o catálogo, a régua, a morte
 python3 conferir-ferramenta.py   # o fundo, o gate herdado, a escada de grau, o teto na ficha
 python3 conferir-catalogo.py     # o índice das 89 entradas contra os três DESENHO da raiz
 python3 conferir-progressao.py   # as nove colunas da tabela de progressão contra os donos
-python3 conferir-dano.py         # a régua de condição, as catorze, os tipos de dano e a cobertura
+python3 conferir-dano.py         # a régua de condição, as treze, os tipos de dano e a cobertura
 ```
 
 **Os cinco últimos são de outra natureza, e vale saber por quê.** Os onze primeiros conferem **regra** — *a fórmula deriva certo?*.
@@ -215,7 +215,7 @@ cp Fundamento-MANUAL-v7.docx ../Fundamento-MANUAL-v7.docx
 
 `manual/gerador/COMO-USAR.txt` diz onde mexer em cada parte e traz o histórico de mudanças de cada versão do manual. **Rode `pac7.py` antes de gerar** se você mexeu em número, exemplo ou feitiço pronto.
 
-O `.pdf` **está na v7.11, igual ao `.docx`**, desde a v0.93 — ele passou sete versões do manual atrasado porque era exportado a mão pelo Word. *Hoje sai de `soffice --headless --convert-to pdf`: 46 páginas.*
+O `.pdf` **está na v7.12, igual ao `.docx`**, desde a v0.93 — ele passou sete versões do manual atrasado porque era exportado a mão pelo Word. *Hoje sai de `soffice --headless --convert-to pdf`: 49 páginas.*
 
 ---
 

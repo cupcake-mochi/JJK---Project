@@ -451,7 +451,7 @@ Escolha uma: Atletismo · Percepção · Ocultismo · Intimidação
 
 Técnica Marcial, no capítulo 10.
 
-Você tem energia amaldiçoada, então tem PE, aptidões e refino como qualquer feiticeiro tem — inclusive `canalizar energia`, que faz o seu golpe simples ferir maldição. O que você não tem é técnica inata para escrever, e é a Técnica Marcial que ocupa esse lugar.
+Você tem energia amaldiçoada, então tem PE, aptidões e refino como qualquer feiticeiro tem — inclusive `Canalizar energia`, que faz o seu golpe simples ferir maldição. O que você não tem é técnica inata para escrever, e é a Técnica Marcial que ocupa esse lugar.
 
 ### Legados do Corpo Amaldiçoado
 
@@ -484,7 +484,7 @@ Você tem energia amaldiçoada, então tem PE, aptidões e refino como qualquer 
 > *Na mesa:* serve contra emboscada. *Exemplo: a coisa cai do teto e você age antes dela.*
 
 > **Desempate** — **uma vez por dia, refaça um Teste de Resistência que você falhou.**
-> *Na mesa:* guarde para o efeito que tiraria o personagem da cena. *Exemplo: você falha contra `Petrificado`, e tenta de novo.*
+> *Na mesa:* guarde para o efeito que tiraria o personagem da cena. *Exemplo: você falha contra `Atordoado`, e tenta de novo.*
 
 ##### Gêmeos
 

@@ -94,7 +94,7 @@ const montar = [
 
   H2('Ampliar'),
   P('Você pode lançar qualquer feitiço que conhece numa Classe maior que o original, até a sua Classe máximo, pagando o PE da Classe novo. Refaça a conta inteira com os números novos: pontos, preços de Melhoria e devoluções de Restrição mudam todos juntos.'),
-  TBL(['Palma Trovejante · Classe', 'Pontos', 'Cone (Leve)', 'Derrubado (Leve)', 'Lento (devolve)', 'Dano', 'PE'],
+  TBL(['Palma Trovejante · Classe', 'Pontos', 'Cone (Leve)', 'Derrubado (Leve)', 'Atrasar (devolve)', 'Dano', 'PE'],
     [
       ['Classe 2 (original)', '6', '−1', '−1', '+2', '6d8 = 27', '6'],
       ['Classe 3', '9', '−2', '−2', '+3', '8d8 = 36', '9'],

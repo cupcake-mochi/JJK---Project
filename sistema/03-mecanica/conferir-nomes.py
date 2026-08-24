@@ -398,7 +398,7 @@ try:
                 temas += [x.strip() for x in r.cells[1].text.split('·') if x.strip()]
     CATEGORIAS['Tema'] = temas
 
-    # As catorze condicoes do manual moram nas TRES TABELAS de nivel — uma por
+    # As treze condicoes do manual moram nas TRES TABELAS de nivel — uma por
     # tier, cabecalho "Nivel <tier>". Ate a v0.88 nenhuma entrava no vocabulario,
     # e ONZE DAS DOZE saiam LIVRE na triagem; a unica que nao saia era `Lento`, e
     # por acidente, porque ela tambem e Restricao. Foi esse buraco que deixou a
@@ -437,9 +437,9 @@ try:
     if len(CATEGORIAS['Familia']) != 9:
         erro(f'o manual devolveu {len(CATEGORIAS["Familia"])} Familias, e sao nove — '
              f'a extracao quebrou e as checagens 1 e 4 nao valem')
-    if len(CATEGORIAS['Condicao']) != 14:
-        erro(f'o manual devolveu {len(CATEGORIAS["Condicao"])} Condicoes, e sao catorze '
-             f'desde a v7.9 — seis Leve, duas Media e seis Pesada desde a v0.104. A '
+    if len(CATEGORIAS['Condicao']) != 13:
+        erro(f'o manual devolveu {len(CATEGORIAS["Condicao"])} Condicoes, e sao treze '
+             f'desde a v7.12 — seis Leve, duas Media e cinco Pesada. A '
              f'extracao quebrou e a triagem voltou a ser cega para elas')
     if len(CATEGORIAS['Fundamento pronto']) != 3:
         erro(f'o manual devolveu {len(CATEGORIAS["Fundamento pronto"])} Fundamentos '

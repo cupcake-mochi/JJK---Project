@@ -38,7 +38,7 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **Redução de Dano** | Desconto no dano que já passou pela Defesa. Não é a mesma coisa que proteção | 9 |
 | **Perícia** | Uma das vinte e três. Cada uma tem um atributo fixo. Sem treino você ainda tenta | 3 |
 | **Ofício** | Um dos onze. Não tem atributo fixo, e sem treino você **não** tenta | 3 |
-| **Condição** | Estado nomeado que muda o que você consegue fazer. São catorze, em três níveis: `Leve`, `Média` e `Pesada` | 4 |
+| **Condição** | Estado nomeado que muda o que você consegue fazer. São treze, em três níveis: `Leve`, `Média` e `Pesada` | 4 |
 | **`Leve`** [Nível] | O menor dos três níveis. Como preço de Melhoria, custa metade da Classe; como condição, sai por `1` ponto de energia | 4 |
 | **`Média`** [Nível] | O nível do meio. Como preço, custa a Classe; como condição, sai por `2` pontos de energia | 4 |
 | **`Pesada`** [Nível] | O maior. Como preço, custa Classe e meia; como condição, sai por `3` pontos de energia. Dá Teste de Resistência no fim de cada turno do alvo | 4 |
@@ -154,7 +154,7 @@ O eixo de controle de quem não tem energia amaldiçoada nenhuma, no lugar do re
 
 ## Condições
 
-Catorze estados nomeados, em três níveis. `Leve`, `Média` e `Pesada` também nomeiam custo de
+Treze estados nomeados, em três níveis. `Leve`, `Média` e `Pesada` também nomeiam custo de
 Melhoria — são escadas diferentes que usam as mesmas três palavras. O capítulo 4 separa as duas.
 
 **Condições**
@@ -165,11 +165,16 @@ Melhoria — são escadas diferentes que usam as mesmas três palavras. O capít
 | **`Agarrado`** | Seu deslocamento é `0`. Acaba se quem agarrou ficar `Incapacitado`, ou se algo tirar você do alcance dele | 4 |
 | **`Amedrontado`** | Desvantagem em ataque e em teste enquanto você enxergar a fonte do medo, e você não se aproxima dela de vontade própria | 4 |
 | **`Atordoado`** | Você perde a Ação Padrão e não usa reação | 4 |
+| **`Calado`** | Você não conjura. Nada que precise de voz, gesto ou Selo sai | 4 |
 | **`Cego`** | Você não enxerga. Falha automática em teste que precise de vista, desvantagem nos seus ataques, e quem ataca você tem vantagem | 4 |
 | **`Derrubado`** | Está no chão, de pé no medidor. Vantagem a quem ataca de perto | 1 |
 | **`Desarmado`** | A sua arma está no chão ou na mão de outro. Você bate desarmado até pegar de volta | 4 |
 | **`Enfeitiçado`** | Você não ataca quem enfeitiçou nem mira efeito nocivo nele, e ele tem vantagem em teste social contra você | 4 |
+| **`Envenenado`** | Desvantagem nos seus ataques e em todo teste de perícia | 4 |
+| **`Impedido`** | Deslocamento `0`, desvantagem nos seus ataques e no Teste de Resistência Físico, e vantagem para quem te ataca | 4 |
+| **`Incapacitado`** | Você não pode `Bloquear`, e todo ataque corpo a corpo contra você é crítico | 4 |
 | **`Lento`** | Seu deslocamento cai pela metade e você não usa Ação Bônus | 4 |
+| **`Surdo`** | Não ouve. Falha automática em teste que precise de audição, e `−2` na iniciativa | 4 |
 
 ## Equipamento
 
@@ -207,12 +212,15 @@ Melhoria — são escadas diferentes que usam as mesmas três palavras. O capít
 | **`Projétil`** | Forma: 18 m, um alvo, rolagem de acerto | 9 |
 | **`Toque`** | Forma: 1,5 m, um alvo. `Projétil` com `Corpo a Corpo` embutida | 9 |
 | **`Explosão`** | Forma: esfera de raio 3 m, num ponto a até 18 m, Teste de Resistência | 9 |
+| **`Aura`** | Forma: esfera de raio 3 m centrada em você. `Explosão` com `Corpo a Corpo` embutida | 9 |
 | **`Cone`** | Forma: 4,5 m saindo de você, Teste de Resistência | 9 |
 | **`Linha`** | Forma: 18 m por 1,5 m, Teste de Resistência | 9 |
+| **`Cura`** | Forma: um aliado a até 9 m, e os dados viram cura | 9 |
 | **`Apoio`** | Forma: um aliado a até 9 m, sem dano; o que sobra vira vida temporária | 9 |
 | **`Onda`** | Forma: esfera de raio 3 m centrada em você, pega todos os aliados dentro | 9 |
 | **`Efeito`** | Forma: fora de combate, sem dano | 9 |
 | **`Corpo a Corpo`** | Restrição: `Projétil` vira `Toque`, `Explosão` vira `Aura`. `Cone` e `Linha` não pegam | 9 |
+| **`Atrasar`** | Restrição: o feitiço custa a rodada inteira — sem movimento, sem Ação Bônus, sem mais nada naquele turno | 9 |
 | **`Condicional`** | Restrição: só funciona quando uma condição de cena ou de alvo é verdadeira | 9 |
 | **`Gesto`** | Restrição: precisa das duas mãos livres e de falar em voz audível | 9 |
 | **`Parado`** | Restrição: você não se move no turno em que conjura | 9 |

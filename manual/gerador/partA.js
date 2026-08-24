@@ -14,7 +14,7 @@ const cover = [
     children: [new TextRun({ text: 'manual do jogador e do mestre', size: 24, italics: true, color: C.grey })] }),
   new Paragraph({ alignment: AlignmentType.CENTER,
     border: { top: { style: BorderStyle.SINGLE, size: 8, color: C.crimson, space: 14 } },
-    children: [new TextRun({ text: 'Níveis 1–20  ·  Faixa lendária 21–30  ·  Versão 7.11', size: 20, color: C.grey })] }),
+    children: [new TextRun({ text: 'Níveis 1–20  ·  Faixa lendária 21–30  ·  Versão 7.12', size: 20, color: C.grey })] }),
   new Paragraph({ children: [new PageBreak()] }),
 ];
 
@@ -76,7 +76,7 @@ const inicio = [
 
   H2('Um feitiço em números'),
   BOX('LANÇA NEGRA · CLASSE 2 · PROJÉTIL', [
-    'Classe 2 dá **6 pontos**. A Melhoria **Fura** custa 2 e faz o feitiço ignorar até 6 de Redução de Dano. A Restrição **Lento** devolve 2, em troca de a conjuração custar a rodada inteira.',
+    'Classe 2 dá **6 pontos**. A Melhoria **Fura** custa 2 e faz o feitiço ignorar até 6 de Redução de Dano. A Restrição **Atrasar** devolve 2, em troca de a conjuração custar a rodada inteira.',
     '6 − 2 + 2 = 6 pontos sobrando.  **Dano: 6d8 (média 27). Custo: 6 de PE.**',
     'A Restrição pagou a Melhoria inteira, e o feitiço saiu com o dano cheio da Classe — é exatamente pra isso que Restrição serve. O que ela nunca faz é passar disso: 6 pontos continuam sendo o máximo de dados de uma Classe 2 contra um alvo.',
   ]),

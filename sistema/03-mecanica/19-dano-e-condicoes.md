@@ -1,6 +1,6 @@
 # 19 · Dano e condições
 
-**Fase 4, décima nona peça.** O que uma condição vale, quais são as catorze, de que tipo o dano é, e o que cobertura faz.
+**Fase 4, décima nona peça.** O que uma condição vale, quais são as treze, de que tipo o dano é, e o que cobertura faz.
 
 **Ela é a peça que mais gente estava esperando: vinte e seis lugares em oito documentos citam ela pelo nome.** *E metade dela já estava escrita — em três seções da peça 1 declaradas, no próprio texto, como guarda provisória.*
 
@@ -16,7 +16,7 @@
 |---|---|---|
 | os catorze tipos de dano, em três grupos | peça 1 §8.1 | v0.74 |
 | a cobertura, nos três degraus | peça 1 §8.2 | v0.94 |
-| as catorze condições, e o que cada uma faz | peça 1 §8.3 | v0.95 |
+| as condições, e o que cada uma faz | peça 1 §8.3 | v0.95 |
 
 **Na peça 1 as três viraram ponteiro**, com o número e o motivo. *É o mesmo trato que o `ESTADO-ATUAL` já fazia com vocabulário que ainda não tinha peça.*
 
@@ -75,11 +75,10 @@
 > **Benefício que só o corpo a corpo colhe conta UM aliado.** *É a leitura do `Abalo`, a Manha da Massa.*
 > **Benefício que qualquer atacante colhe conta TRÊS.** *É a leitura do `Estampido`, a Manha da Arma de Fogo, que supõe mesa de quatro.*
 
-**As catorze, aplicadas num chefe, no nível 30:**
+**As treze, aplicadas num chefe, no nível 30:**
 
 | condição | dano por rodada | fatias | nível |
 |---|---|---|---|
-| **`Petrificado`** | `100,25` | `19,73` | `Pesada` |
 | **`Impedido`** | `58,65` | `11,55` | `Pesada` |
 | **`Cego`** | `53,25` | `10,48` | `Pesada` |
 | **`Amedrontado`** | `41,40` | `8,15` | `Pesada` |
@@ -94,7 +93,9 @@
 | **`Desarmado`** | `3,45` | `0,68` | `Leve` |
 | **`Surdo`** | `0,00` | `0,00` | `Leve` |
 
-**Seis `Leve`, duas `Média`, seis `Pesada`.**
+**Seis `Leve`, duas `Média`, cinco `Pesada`.**
+
+> **O `Petrificado` saiu na v0.139, e é decisão do Mizuki:** *"ela segue um balanceamento que não planejo ter no sistema"*. **Ele era a mais cara da régua, em `19,73` fatias** — `217%` do teto da `Pesada` —, e o argumento que ele carregava passou para o `Impedido`. *A remoção foi do sistema inteiro: esta peça, o `conferir-dano.py`, o gerador do manual e os cinco lugares do livro.*
 
 ### 2.3 O nível de uma condição é o tier dela
 
@@ -112,17 +113,19 @@
 
 > **E ela bate, degrau por degrau, com a escada de exaustão da peça 10 §4.** *Aquela tem três degraus numerados, e tirar o terceiro custa `3` de energia — então ela só sai a partir da maestria `3`, que é o nível 17.* **Duas escadas construídas separadas, e as duas caem em `1 · 2 · 3` com a mesma virada no mesmo nível.**
 
-> **O `Enxerto` já cobrava *"`1` PE por nível da condição"* desde a v0.84, e nível nenhum existia.** *A entrega dizia que condição sem nível declarado conta como nível `1`* — então, até esta peça, tirar `Petrificado` custava o mesmo que tirar `Surdo`.
+> **O `Enxerto` já cobrava *"`1` PE por nível da condição"* desde a v0.84, e nível nenhum existia.** *A entrega dizia que condição sem nível declarado conta como nível `1`* — então, até esta peça, tirar `Impedido` custava o mesmo que tirar `Surdo`.
 
 ### 2.4 Quatro coisas que a conta achou, e nenhuma foi procurada
 
 **O `Surdo` valia zero, e por isso ele ganhou uma linha na v0.104.** *Até a v0.103 ele só fazia falhar teste que precise de audição, e não existe teste desses em combate neste sistema — era uma condição com preço de `Média` no manual e entrega nenhuma.* **Hoje ele também dá `−2` na iniciativa**, e a conta disso está no §3.7. *Na régua desta seção ele continua em `0,00`, porque iniciativa não é dano — e isso é sobre a régua, não sobre a condição.*
 
-**O `Incapacitado` é a segunda mais barata das catorze, e o manual cobra `Pesada` por ela.** *Metade dela — "você não pode `Bloquear`" — depende de uma regra opcional que nem toda mesa liga, e a peça 1 já registrava isso.* **A outra metade, o crítico garantido no corpo a corpo, vale `11,00`.** *O que faltava era o tamanho.*
+**O `Incapacitado` é a segunda mais barata das treze, e o manual cobra `Pesada` por ela.** *Metade dela — "você não pode `Bloquear`" — depende de uma regra opcional que nem toda mesa liga, e a peça 1 já registrava isso.* **A outra metade, o crítico garantido no corpo a corpo, vale `11,00`.** *O que faltava era o tamanho.*
 
 **O `Impedido` engole o `Cego`.** *Ele tem as duas linhas do `Cego` — desvantagem nos ataques do alvo e vantagem para quem o ataca — mais deslocamento zero.* **Até a v0.103 os dois custavam `Média` no manual, e o `Impedido` era a melhor compra da tabela de Controle inteira.** *Hoje os dois custam `Pesada`, e a diferença entre eles caiu para `1,10×` — dominância que o filtro aceita.*
 
-**Três passam do teto da `Pesada`, e o manual já diz o que fazer com isso.** *O `Cego` fica em `115%`, o `Impedido` em `127%` e o `Petrificado` em `217%`.* **A regra que o manual dá para a Restrição escrita à mão, virada do avesso, resolve:** *"se a dor que você escreveu parece valer mais que uma Média, ela provavelmente são duas Restrições disfarçadas de uma — separe."* **Uma condição que passa do teto da `Pesada` é mais de uma condição escrita como uma**, e o `Petrificado` diz isso no próprio texto: ele é `Incapacitado`, mais deslocamento zero, mais não perceber nada, mais vantagem para quem ataca.
+**Duas passam do teto da `Pesada`, e o manual já diz o que fazer com isso.** *O `Cego` fica em `115%` e o `Impedido` em `127%`.* **A regra que o manual dá para a Restrição escrita à mão, virada do avesso, resolve:** *"se a dor que você escreveu parece valer mais que uma Média, ela provavelmente são duas Restrições disfarçadas de uma — separe."* **Uma condição que passa do teto da `Pesada` é mais de uma condição escrita como uma**, e o `Impedido` diz isso no próprio texto: ele é o `Cego` inteiro mais deslocamento zero, que é o que o parágrafo acima já mede em `1,10×`.
+
+> **Eram três até a v0.139, e a terceira era o `Petrificado`, em `217%`.** *Ele era o exemplar mais claro deste argumento — `Incapacitado`, mais deslocamento zero, mais não perceber nada, mais vantagem para quem ataca, tudo vendido como uma condição só.* **Com ele fora, quem carrega o argumento é o `Impedido`, que prova a mesma coisa com metade da força.**
 
 ### 2.5 O que a régua reconstrói, e o que ela conserta
 
@@ -156,7 +159,7 @@
 
 ---
 
-## 3. As catorze condições
+## 3. As treze condições
 
 *Escritas na v0.95, na peça 1. Mudaram de casa nesta versão, com o nível acrescentado.*
 
@@ -172,7 +175,7 @@
 | **`Agarrado`** | `Leve` | seu deslocamento é `0`. Acaba se quem agarrou ficar `Incapacitado`, ou se alguma coisa tirar você do alcance dele |
 | **`Desarmado`** | `Leve` | a sua arma está no chão ou na mão de outro. Você bate desarmado até pegar de volta |
 
-> **⚠ O preço do `Desarmado` ficou devendo desde a v0.122, e o motivo é a peça 3 §3.2.** *Ela fixou que sacar ou guardar UM item não custa nada — então quem carrega arma reserva saca outra de graça, e a condição custa zero para ele.* **Os `3,45` de dano por rodada da §2.2 descrevem hoje só a ficha sem reserva.** *Não foi corrigido lá porque repreçar uma condição mexe na régua das catorze e no catálogo de Melhorias do manual.*
+> **⚠ O preço do `Desarmado` ficou devendo desde a v0.122, e o motivo é a peça 3 §3.2.** *Ela fixou que sacar ou guardar UM item não custa nada — então quem carrega arma reserva saca outra de graça, e a condição custa zero para ele.* **Os `3,45` de dano por rodada da §2.2 descrevem hoje só a ficha sem reserva.** *Não foi corrigido lá porque repreçar uma condição mexe na régua das treze e no catálogo de Melhorias do manual.*
 | **`Surdo`** | `Leve` | você não ouve. Falha automático em teste que precise de audição, e **`−2` na iniciativa** |
 
 ### 3.2 As duas de nível `Média`
@@ -182,20 +185,19 @@
 | **`Calado`** | `Média` | você não conjura. Nada que precise de voz, gesto ou Selo sai |
 | **`Enfeitiçado`** | `Média` | você não ataca quem enfeitiçou nem mira efeito nocivo nele, e ele tem vantagem em teste social contra você |
 
-### 3.3 As seis de nível `Pesada`
+### 3.3 As cinco de nível `Pesada`
 
 | condição | nível | o que faz |
 |---|---|---|
-| **`Petrificado`** | `Pesada` | você virou pedra. `Incapacitado`, deslocamento `0`, sem perceber nada em volta, quem ataca você tem vantagem — e você tem resistência a todo dano |
 | **`Impedido`** | `Pesada` | seu deslocamento é `0`, você tem desvantagem nos seus ataques e no Teste de Resistência Físico, e quem ataca você tem vantagem |
 | **`Cego`** | `Pesada` | você não enxerga. Falha automático em teste que precise de vista, tem desvantagem nos seus ataques, e quem ataca você tem vantagem |
 | **`Amedrontado`** | `Pesada` | desvantagem em ataque e teste enquanto enxergar a fonte do medo, e você não se aproxima dela de vontade própria |
 | **`Envenenado`** | `Pesada` | desvantagem nos seus ataques e em todo teste de perícia |
 | **`Atordoado`** | `Pesada` | **você perde a Ação Padrão e não usa reação.** *Quem tem mais de uma Ação Padrão no turno — um chefe, um capanga grande — perde **uma**, não todas* |
 
-> **Só as de nível `Pesada` dão Teste de Resistência no fim de cada turno do alvo, e só cabe uma delas por feitiço.** *Até a v0.103 essas duas linhas andavam com a `Condição Maior`, que era um pacote de cinco nomes.* **Elas passaram a andar com o degrau de cima porque é ele que precisa de amortecedor** — e as cinco de antes não eram as cinco mais duras: o `Incapacitado` estava lá dentro, e ele é a segunda mais barata das catorze.
+> **Só as de nível `Pesada` dão Teste de Resistência no fim de cada turno do alvo, e só cabe uma delas por feitiço.** *Até a v0.103 essas duas linhas andavam com a `Condição Maior`, que era um pacote de cinco nomes.* **Elas passaram a andar com o degrau de cima porque é ele que precisa de amortecedor** — e as cinco de antes não eram as cinco mais duras: o `Incapacitado` estava lá dentro, e ele é a segunda mais barata das treze.
 
-> **⚠⚠ As duas colunas viraram uma na v0.104, e a que ficou é o nível.** *Até a v0.103 o manual cobrava `Média` por qualquer uma das nove `Menor` e `Pesada` por qualquer uma das cinco `Maior` — um preço só para coisas que valem de `0,00` a `19,73` fatias.* **Hoje o nível faz as duas coisas:** ele é o preço de **comprar** a condição num feitiço e é o custo em energia de **tirar** ela. *A conta que decidiu isso está no §3.6.*
+> **⚠⚠ As duas colunas viraram uma na v0.104, e a que ficou é o nível.** *Até a v0.103 o manual cobrava `Média` por qualquer uma das nove `Menor` e `Pesada` por qualquer uma das cinco `Maior` — um preço só para coisas que valem de `0,00` a `11,55` fatias.* **Hoje o nível faz as duas coisas:** ele é o preço de **comprar** a condição num feitiço e é o custo em energia de **tirar** ela. *A conta que decidiu isso está no §3.6.*
 
 ### 3.4 As duas que não seguem o d20, e por quê
 
@@ -229,17 +231,25 @@
 | | pior espalhamento dentro de um degrau |
 |---|---|
 | o manual até a v7.8 | **`17,00×`** — o `Impedido` contra o `Desarmado`, os dois por `Média` |
-| promover as três, mantendo os dois pacotes | `9,11×` — o `Petrificado` contra o `Incapacitado` |
+| promover as três, mantendo os dois pacotes | `9,11×` — o `Petrificado` contra o `Incapacitado` *(medido na v0.104, com o `Petrificado` ainda na lista)* |
 | **o nível como preço** | **`4,26×`** — o `Lento` contra o `Desarmado` |
 
-> **O filtro de dominância deste projeto reprova a partir de `3,00×`.** *Nenhuma das três passa* — e a razão disso não é a escolha, é a escada: **`4,26×` é o piso de qualquer corte em três degraus.** *Rodei a busca exaustiva sobre as catorze; nenhuma outra partição em três faz melhor.* **O que sobra de dominância é o preço de a tabela do manual ter três degraus e as condições valerem de `0,00` a `100,25` de dano por rodada.**
+> **O filtro de dominância deste projeto reprova a partir de `3,00×`.** *Nenhuma das três passa* — e a razão disso não era a escolha, era a escada: **`4,26×` era o piso de qualquer corte em três degraus.** *Busca exaustiva sobre as catorze, na v0.104; nenhuma outra partição em três fazia melhor.* **O que sobrava de dominância era o preço de a tabela do manual ter três degraus e as condições valerem de `0,00` a `100,25` de dano por rodada.**
 
-**O que muda de verdade na mesa:** dez das catorze trocam de degrau — três sobem e sete descem.
+> **⚠⚠ A v0.139 tentou refazer o corte depois de o `Petrificado` sair, e a tentativa REPROVOU.** *Com treze condições, uma busca exaustiva sobre o espalhamento acha uma partição de `2,44×` — a que sobe o `Lento` e o `Incapacitado` para `Média`.* **Ela foi aplicada, rodada contra os validadores, e desfeita.**
+>
+> **O que ela quebrou é a checagem 3, que é o invariante desta peça:** *o valor medido de cada condição tem de cair na **banda** que o nível dela implica, e as bandas saem da tabela de preço do manual — `1/7`, `2/7` e `3/7` da Rotina.* **No nível 30 o teto da `Leve` é `15,43` de dano por rodada. O `Lento` vale `14,70` e o `Incapacitado` `11,00`: os dois cabem em `Leve` pela conta.** *Pôr os dois em `Média` faz o jogador pagar preço de `Média` por coisa que vale `Leve`.*
+>
+> ***A conclusão, e ela é o oposto do que a busca sugeria:*** **a partição não é escolha livre — a banda a obriga.** *Ela força `6 Leve · 2 Média · 3 Pesada`, mais o `Impedido` e o `Cego` acima do teto, que é exatamente o que está publicado.* **O `4,26×` do degrau `Leve` é o preço de obedecer a banda, e não falta de otimização.**
+>
+> *Fica registrado como lição nº 8 pelo texto: a busca mediu **espalhamento**, que é livre; a peça mede **banda**, que é derivada. Otimizar o eixo errado produz um resultado que parece melhor e reprova na checagem que importa.*
+
+**O que muda de verdade na mesa:** dez das treze trocam de degrau — três sobem e sete descem.
 
 | sobe | `Cego`, `Impedido` e `Envenenado`, de `Média` para `Pesada` |
 |---|---|
 | **desce** | `Enfeitiçado` de `Pesada` para `Média`; `Lento`, `Incapacitado`, `Derrubado`, `Agarrado`, `Desarmado` e `Surdo` de `Média` para `Leve` |
-| **fica** | `Petrificado`, `Amedrontado` e `Atordoado` em `Pesada`; `Calado` em `Média` |
+| **fica** | `Amedrontado` e `Atordoado` em `Pesada`; `Calado` em `Média` |
 
 > **O `Impedido` deixa de ser a melhor compra da tabela de Controle.** *Ele entregava `11,55` fatias pelo mesmo preço que o `Desarmado`, que entrega `0,68`.* **Era a maior dominância viva do manual, e a régua da seção 2 existia para achar ela.**
 
@@ -386,10 +396,10 @@
 | # | o que ela confere |
 |---|---|
 | **1** | **as âncoras existem nos donos.** Cada número que a régua usa aparece no documento que esta peça declara como dono dele. Âncora que sumiu do dono é régua sem chão |
-| **2** | **a régua reconstrói as catorze.** Cada valor da tabela do §2.2 é recalculado a partir das âncoras e comparado com o publicado. *E, desde a v0.104, ela também reconstrói a razão entre as duas réguas de rolagem — e cobra que ela seja exatamente o dobro da razão das bases* |
+| **2** | **a régua reconstrói as treze.** Cada valor da tabela do §2.2 é recalculado a partir das âncoras e comparado com o publicado. *E, desde a v0.104, ela também reconstrói a razão entre as duas réguas de rolagem — e cobra que ela seja exatamente o dobro da razão das bases* |
 | **3** | **o nível de cada condição sai da banda.** O `Leve`/`Média`/`Pesada` publicado bate com `1/7`, `2/7` e `3/7` da Rotina, e as bandas saem da tabela de Classe do manual |
-| **4** | **as catorze batem com o manual**, nas duas direções: nome e **nível**, tabela por tabela — e o manual vende **uma** Melhoria `Condição`, cobrando o nível. *Lê o `.docx`, então **pula** sem o `python-docx` — e diz que pulou* |
-| **5** | **nenhuma condição fica sem nível**, e o nível é um dos três. Guarda de contagem: são catorze, seis `Leve`, duas `Média` e seis `Pesada` |
+| **4** | **as treze batem com o manual**, nas duas direções: nome e **nível**, tabela por tabela — e o manual vende **uma** Melhoria `Condição`, cobrando o nível. *Lê o `.docx`, então **pula** sem o `python-docx` — e diz que pulou* |
+| **5** | **nenhuma condição fica sem nível**, e o nível é um dos três. Guarda de contagem: são treze, seis `Leve`, duas `Média` e cinco `Pesada` |
 | **6** | **a escada de quem cura fecha.** O teto de energia por uso em cada faixa de maestria cobre exatamente os tiers que o §2.3 publica, e ela bate com a escada de exaustão da peça 10 |
 | **7** | **os catorze tipos de dano**, os três grupos, os pesos `60/30/10` e a tabela de quantos tipos você resiste, recontada em vez de guardada |
 | **8** | **a cobertura**: os três degraus, os dois números de cada um, e a `Total` sem número |
@@ -457,5 +467,5 @@
   > **O contra-teste fecha com o mesmo número, e ele já está publicado noutro documento.** *Lido pela sua régua, o `Ajudar` — que são `25` pontos percentuais — valeria `54,00` de dano por rodada em vez dos `5,75` que o `DESENHO-caminhos` publica.* **`54,00 ÷ 5,75` = `9,4`**, e o `54,00` é exatamente o que o `DESENHO-manhas` já escreve para vantagem. *Mais que uma Trilha inteira, que são `25,40`.*
 
   **Continua marcado e não consertado, e agora com o tamanho certo:** mexer nisso repreçaria o `Guiar`, o `Estampido` e o `Ajudar` de uma vez.
-- **O valor de uma condição depende de em quem ela cai.** *Contra um capanga de `38` de dano por rodada, em vez de um chefe de `72`, seis das catorze mudam de nível.* **A tabela publicada é a do chefe, porque é contra ele que as entregas de Trilha foram preçadas** — e o validador confere as duas colunas.
-- **`Petrificado` só é a maior da lista porque o grupo pode trocar de alvo.** *A resistência a todo dano dele entra como zero, com o motivo escrito.* **Se o grupo insistir em bater na estátua, ele vira negativo contra um capanga** — e isso é decisão de mesa, não de conta.
+- **O valor de uma condição depende de em quem ela cai.** *Contra um capanga de `38` de dano por rodada, em vez de um chefe de `72`, seis das treze mudam de nível.* **A tabela publicada é a do chefe, porque é contra ele que as entregas de Trilha foram preçadas** — e o validador confere as duas colunas.
+- **O `Impedido` é a maior da lista desde a v0.139, quando o `Petrificado` saiu.** *Ele é o `Cego` inteiro mais deslocamento `0`, e a diferença entre os dois é `1,10×` — dominância que o filtro aceita.*

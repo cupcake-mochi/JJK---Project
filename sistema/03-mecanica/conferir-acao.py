@@ -40,13 +40,13 @@ RESTRICOES = {
     'Peso Morto':    ('Leve',  {'meio_movimento', 'meio_movimento_proximo'}, 'dois turnos'),
     'Fragil':        ('Leve',  {'risco_perder_efeito'},                      'ate o proximo'),
     'Tudo ou Nada':  ('Leve',  {'chance_de_zerar'},                          'na hora'),
-    'Lento':         ('Media', {'movimento', 'acao_bonus', 'acao_padrao'},   'este turno'),
+    'Atrasar':       ('Media', {'movimento', 'acao_bonus', 'acao_padrao'},   'este turno'),
     'Corpo a Corpo': ('Media', {'distancia'},                                'permanente'),
     'Sangra':        ('Media', {'vida'},                                     'na hora'),
     'Recuo':         ('Media', {'corpo_condicao_menor'},                     'ate o proximo'),
     'Sem Volta':     ('Media', {'proximo_turno_inteiro'},                    'condicional'),
     # DECISAO v0.11: quem carrega mantem movimento e acao bonus no turno de carga.
-    # Sem isso, Carregar = Lento + espera + risco, e fica dominado.
+    # Sem isso, Carregar = Atrasar + espera + risco, e fica dominado.
     'Carregar':      ('Media', {'acao_padrao_anterior', 'risco_perder_tudo'}, 'turno anterior'),
 }
 

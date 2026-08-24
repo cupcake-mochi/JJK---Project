@@ -49,7 +49,7 @@ Os pontos de energia amaldiçoada que você gasta para conjurar.
 
 Os 25% valem em qualquer lugar. O que o ambiente propício faz é **proteger esse número da exaustão**: fora dele, cada degrau de exaustão corta um pedaço, até sobrar nada.
 
-Vida não volta sozinha no respiro entre lutas, porque quem conserta gente neste mundo é a Energia Reversa. O que já cura no descanso curto, como a Passiva `Reversão`, continua valendo o que vale.
+Vida não volta sozinha no respiro entre lutas, porque quem conserta gente neste mundo é a Energia Reversa. O que já cura no descanso curto continua valendo o que vale.
 
 ### Descanso longo
 

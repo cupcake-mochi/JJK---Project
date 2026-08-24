@@ -95,7 +95,7 @@ Um não puxa o outro. Um feitiço com o Tema `Fogo` só causa dano do tipo `Fogo
 
 ## Condições
 
-**Condição** é um estado nomeado que muda o que você consegue fazer enquanto durar. São catorze, e cada uma tem um **nível**: `Leve`, `Média` ou `Pesada`.
+**Condição** é um estado nomeado que muda o que você consegue fazer enquanto durar. São treze, e cada uma tem um **nível**: `Leve`, `Média` ou `Pesada`.
 
 > **O nível faz duas coisas, e são as duas contas que a condição pede.**
 > É o que ela **custa para comprar** dentro de um feitiço.
@@ -105,10 +105,10 @@ Um não puxa o outro. Um feitiço com o Tema `Fogo` só causa dano do tipo `Fogo
 
 Cada condição abre dizendo **quando** ela vale. Depois vem um parágrafo por efeito, e cada
 efeito tem nome próprio: `Deslocamento`, `Seus ataques`, `Contra você`, `Ação`, `Testes` e
-`Sai quando`. Os mesmos seis nomes aparecem em todas as catorze, então quem aprende um
+`Sai quando`. Os mesmos seis nomes aparecem em todas as treze, então quem aprende um
 reconhece nas outras.
 
-No fim do capítulo, a tabela `Condições em uma linha` traz as catorze resumidas, para
+No fim do capítulo, a tabela `Condições em uma linha` traz as treze resumidas, para
 consulta na mesa.
 
 ### Nível `Leve`
@@ -183,20 +183,6 @@ Enquanto está `Enfeitiçado`, você sofre os seguintes efeitos.
 > **Só as de nível `Pesada` dão Teste de Resistência no fim de cada turno do alvo.**
 > **E só cabe uma delas por feitiço.**
 
-#### `Petrificado`
-
-Você virou pedra. Enquanto está `Petrificado`, você sofre os seguintes efeitos.
-
-**Ação.** Você fica `Incapacitado`.
-
-**Deslocamento.** É `0`.
-
-**Testes.** Você não percebe nada em volta.
-
-**Contra você.** Vantagem.
-
-**Resistência.** A todo dano.
-
 #### `Impedido`
 
 Enquanto está `Impedido`, você sofre os seguintes efeitos.
@@ -263,7 +249,6 @@ Para consulta na mesa. O efeito inteiro de cada uma está na entrada dela.
 | `Surdo` | `Leve` | falha no que precise de audição, `−2` na iniciativa |
 | `Calado` | `Média` | não conjura |
 | `Enfeitiçado` | `Média` | não ataca quem enfeitiçou; ele tem vantagem social contra você |
-| `Petrificado` | `Pesada` | `Incapacitado`, deslocamento `0`, resistência a todo dano |
 | `Impedido` | `Pesada` | deslocamento `0`, desvantagem nos ataques e no Físico |
 | `Cego` | `Pesada` | falha no que precise de vista, desvantagem nos ataques |
 | `Amedrontado` | `Pesada` | desvantagem enquanto vir a fonte, e não se aproxima dela |
@@ -305,7 +290,7 @@ A `Exaustão` engana: em outros jogos ela é condição, aqui não. Quem for esc
 ### Comprar uma condição
 
 > **Existe uma Melhoria `Condição`, uma só, e o preço dela é o nível da condição que você escolheu.**
-> Escolher `Derrubado` custa `Leve`. Escolher `Petrificado` custa `Pesada`.
+> Escolher `Derrubado` custa `Leve`. Escolher `Atordoado` custa `Pesada`.
 
 Você aponta a condição nas tabelas acima, lê o nível dela, e esse é o preço. Não existe pacote nem grupo de compra.
 

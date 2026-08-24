@@ -1,4 +1,4 @@
-GERADOR DO MANUAL — Fundamento v7.11
+GERADOR DO MANUAL — Fundamento v7.12
 
 Recria o .docx do zero. Precisa de Node.js.
 
@@ -31,6 +31,28 @@ ORDEM DAS SEÇÕES (v7)
   4 Restrições → 5 Fora de combate → 6 Liberação Máxima → 7 Técnica Máxima →
   8 Regras de ouro → 9 Progressão → 10 Feitiços prontos → 11 Para o mestre →
   Apêndice
+
+O QUE MUDOU NA v7.12
+  - A CONDICAO "PETRIFICADO" SAIU (partD.js). A tabela de nivel Pesada foi de
+    seis linhas para cinco, e o manual passa a publicar TREZE condicoes: seis
+    Leve, duas Media, cinco Pesada.
+  - POR QUE: decisao do Mizuki na v0.139 do projeto — "ela segue um balanceamento
+    que nao planejo ter no sistema". Ela era a mais cara da regua da peca 19, em
+    19,73 fatias, que sao 217% do teto da Pesada.
+  - JUNTO SAIU a frase da caixa "Por que as tres tabelas nao sao menores e
+    maiores" que citava ela como exemplo de espalhamento, e a contagem de
+    "dez das catorze" virou "dez das treze".
+  - ATENCAO: os catorze TIPOS DE DANO nao mudaram. So as condicoes viraram treze.
+  - A RESTRICAO "LENTO" VIROU "ATRASAR" (partC.js, partD.js, partF.js, e o
+    pac7.py junto). O nome carregava DUAS regras diferentes: a Restricao de Acao
+    Completa e a condicao Lento, que e deslocamento pela metade sem Acao Bonus.
+    A condicao FICA com o nome; quem se mudou foi a Restricao.
+  - POR QUE AGORA: e o mesmo par que ja tinha enganado a triagem de nomes — o
+    conferir-nomes.py registra que "Lento" era a unica das condicoes que nao
+    saia LIVRE, e saia OCUPADO por acidente, porque o nome tambem era Restricao.
+  - NENHUM NUMERO MUDOU com a troca: os 35 feiticos prontos, a tabela de Ampliar
+    e as tres Liberacoes Maximas continuam com os mesmos pontos, dados e PE.
+    O pac7.py conferiu depois da troca.
 
 O QUE MUDOU NA v7.11
   - REGRA DE OURO No 5 GANHOU O "CLASSE 3 OU MAIS" (partE.js). Ela dizia so

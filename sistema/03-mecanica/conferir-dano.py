@@ -4,7 +4,7 @@
 
 A peca 19 publica UMA regua nova (quanto vale uma condicao) e hospeda tres
 secoes que vieram da peca 1: os catorze tipos de dano, a cobertura e as
-catorze condicoes. As tres eram guarda provisoria la, com o aviso escrito.
+treze condicoes. As tres eram guarda provisoria la, com o aviso escrito.
 
 NENHUM VALOR DE REGRA ESTA ESCRITO AQUI. Toda ancora e' lida do documento que
 a peca declara como dono dela, e a regua e' recalculada a partir das ancoras
@@ -143,7 +143,7 @@ else:
 
 
 # --------------------------------------------------------------------------
-bloco('2. A REGUA — as catorze reconstroem a partir das ancoras?')
+bloco('2. A REGUA — as treze reconstroem a partir das ancoras?')
 # --------------------------------------------------------------------------
 
 
@@ -177,7 +177,7 @@ CRITICO = 2 * DADO_DO_SOCO
 INICIATIVA = 0.0
 
 
-def catorze(alvo):
+def condicoes(alvo):
     d = desvantagem(alvo)
     return [
         ('Derrubado', 'Menor', vantagem(1) + metros(4.5)),
@@ -193,11 +193,10 @@ def catorze(alvo):
         ('Enfeitiçado', 'Maior', acoes(alvo, 1.0)),
         ('Atordoado', 'Maior', acoes(alvo, 1.0) + acoes(alvo, 0.5)),
         ('Incapacitado', 'Maior', CRITICO),
-        ('Petrificado', 'Maior', acoes(alvo, CHEFE_ACOES) + CRITICO + vantagem(ALIADOS)),
     ]
 
 
-CALC = {n: (t, v) for n, t, v in catorze(CHEFE)}
+CALC = {n: (t, v) for n, t, v in condicoes(CHEFE)}
 
 # a tabela publicada no §2.2
 _pub = {}
@@ -207,14 +206,14 @@ for _l in TXT.split('\n'):
     if _m:
         _pub[_m.group(1)] = (num(_m.group(2)), num(_m.group(3)), _m.group(4))
 
-if len(_pub) != 14:
-    erro(f'2: a tabela do §2.2 tem {len(_pub)} linha(s) e eu esperava 14 — ela mudou '
+if len(_pub) != 13:
+    erro(f'2: a tabela do §2.2 tem {len(_pub)} linha(s) e eu esperava 13 — ela mudou '
          'de forma e esta checagem parou de conferir')
 else:
     _mau = 0
     for _n, (_dano, _fat, _tier) in _pub.items():
         if _n not in CALC:
-            erro(f'2: a peca publica "{_n}", que nao esta na lista de catorze')
+            erro(f'2: a peca publica "{_n}", que nao esta na lista de treze')
             _mau += 1
             continue
         _esp = CALC[_n][1]
@@ -227,8 +226,8 @@ else:
                  f'peca publica {_fat:.2f}')
             _mau += 1
     if not _mau:
-        print(f'  [x] as 14 linhas do §2.2 reconstroem a partir das ancoras')
-        print(f'  [x] as 14 conversoes em fatia batem com a fatia lida do dono')
+        print(f'  [x] as 13 linhas do §2.2 reconstroem a partir das ancoras')
+        print(f'  [x] as 13 conversoes em fatia batem com a fatia lida do dono')
 
 
 # v0.104: AS DUAS REGUAS DE ROLAGEM, e o quanto elas divergem. A v0.103
@@ -293,7 +292,7 @@ for _n, (_dano, _fat, _tier) in _pub.items():
         _mau += 1
 if _pub and not _mau:
     _c = {t: sum(1 for v in _pub.values() if v[2] == t) for t, _ in BANDAS}
-    print(f'  [x] as 14 caem na banda que a conta diz: '
+    print(f'  [x] as 13 caem na banda que a conta diz: '
           f'{_c["Leve"]} Leve · {_c["Média"]} Média · {_c["Pesada"]} Pesada')
 
 _acima = [n for n, (d, _, _) in _pub.items() if d > ROTINA_30 * 3 / 7]
@@ -305,7 +304,7 @@ if _acima:
 
 
 # --------------------------------------------------------------------------
-bloco('4. O MANUAL — as catorze da peca sao as catorze do manual, nos dois sentidos')
+bloco('4. O MANUAL — as treze da peca sao as treze do manual, nos dois sentidos')
 # --------------------------------------------------------------------------
 try:
     import docx
@@ -313,7 +312,7 @@ except ImportError:
     docx = None
 
 if docx is None:
-    pulou('4. as catorze contra o manual — sem python-docx '
+    pulou('4. as treze contra o manual — sem python-docx '
           '(pip install python-docx --break-system-packages)')
 else:
     _d = docx.Document(DOCX)
@@ -329,9 +328,9 @@ else:
     if sorted(_man) != ['Leve', 'Média', 'Pesada']:
         erro(f'4: o manual publica as tabelas de nivel {sorted(_man)} e eu esperava '
              'Leve, Média e Pesada — ou o manual mudou, ou a extracao parou de achar')
-    elif sum(len(v) for v in _man.values()) != 14:
+    elif sum(len(v) for v in _man.values()) != 13:
         erro(f'4: as tres tabelas do manual somam {sum(len(v) for v in _man.values())} '
-             'condicoes e eu esperava 14')
+             'condicoes e eu esperava 13')
     else:
         # os nomes E os niveis vem DA PECA, e nao de lista escrita aqui dentro:
         # uma checagem que se mede contra a propria constante sai verde na
@@ -339,7 +338,7 @@ else:
         _pm = {}
         for _sec in ('### 3.1 As seis de nível `Leve`',
                      '### 3.2 As duas de nível `Média`',
-                     '### 3.3 As seis de nível `Pesada`'):
+                     '### 3.3 As cinco de nível `Pesada`'):
             _a = TXT.find(_sec)
             if _a < 0:
                 erro(f'4: nao achei a secao "{_sec}" na peca — ela mudou de forma e '
@@ -352,9 +351,9 @@ else:
                 _mm = re.match(r'\|\s*\*\*`([^`]+)`\*\*\s*\|\s*`(Leve|Média|Pesada)`\s*\|', _li)
                 if _mm:
                     _pm[_mm.group(1)] = _mm.group(2)
-        if len(_pm) != 14:
-            erro(f'4: li {len(_pm)} condicao(oes) das tabelas §3.1 a §3.3 e esperava 14')
-        _calc = {n for n, _, _ in catorze(CHEFE)}
+        if len(_pm) != 13:
+            erro(f'4: li {len(_pm)} condicao(oes) das tabelas §3.1 a §3.3 e esperava 13')
+        _calc = {n for n, _, _ in condicoes(CHEFE)}
         _fora_regua = sorted(set(_pm) - _calc)
         if _fora_regua:
             erro('4: a peca publica condicao que a regua do §2.2 nao preca: '
@@ -443,9 +442,9 @@ for _l in TXT.split('\n'):
     if _m:
         _mesa[_m.group(1)] = _m.group(2)
 
-if len(_mesa) != 14:
+if len(_mesa) != 13:
     erro(f'5: as tabelas do §3.1 a §3.3 trazem {len(_mesa)} condicao(oes) com nivel '
-         'e eu esperava 14 — elas mudaram de forma e esta checagem parou de conferir')
+         'e eu esperava 13 — elas mudaram de forma e esta checagem parou de conferir')
 else:
     _div = [n for n, t in _mesa.items() if _pub.get(n, (0, 0, None))[2] != t]
     if _div:

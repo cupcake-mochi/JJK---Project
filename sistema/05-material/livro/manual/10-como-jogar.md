@@ -40,7 +40,7 @@ Cada perícia tem um atributo fixo, e o quadro completo (vinte e três perícias
 
 Qualquer coisa pode ligar um dos dois: um Legado, uma condição, um aliado te ajudando, a posição em que você está. Nenhum dos dois mexe em número da ficha — os dois mexem em quantos dados você joga.
 
-> **Exemplo.** Sousuke ataca alguém que está `Derrubado`, a um metro de distância. A condição dá vantagem a quem ataca de perto: ele rola dois d20, tira 6 e 17, e usa o 17.
+> **Exemplo.** Sousuke ataca alguém que está `Derrubado`, a 1,5 m de distância. A condição dá vantagem a quem ataca de perto: ele rola dois d20, tira 6 e 17, e usa o 17.
 
 ### Ajudar
 
@@ -133,7 +133,7 @@ Nem todo feitiço rola acerto. Um feitiço resolve de três jeitos, e o capítul
 
 Crítico só existe onde existe rolagem de acerto. Feitiço que resolve por Teste de Resistência ou por Automático nunca crita, e isso vale também para as Melhorias que compram precisão tirando a rolagem de ataque.
 
-> **Exemplo.** Sousuke acerta com uma lâmina de 2d6 e Força 4. No 20 natural ele rola 4d6 e soma 4. A Força continua entrando uma vez só.
+> **Exemplo.** Sousuke acerta com uma Espada Longa, de d8, e Força 4. No 20 natural ele rola 2d8 e soma 4. A Força continua entrando uma vez só.
 
 ## Defesa
 
@@ -169,8 +169,8 @@ Estar atrás de alguma coisa sobe a sua Defesa, e a cobertura Total tira você d
 
 Você é treinado em **dois dos quatro**: a sua Origem treina um, o seu Caminho treina outro. **No Teste de Resistência que você treinou, você soma a maestria; nos outros dois, só o atributo.** É a mesma marca de treino da perícia e do ofício.
 
-{: .aviso }
 > Nos dois Testes de Resistência que você não treinou, você não soma a maestria — e a distância entre eles e os treinados só cresce conforme a campanha anda. É por ali que um chefe vai entrar.
+{: .aviso }
 
 > **Exemplo.** Kaito travou o TR Físico em Destreza, que é 4, e a Origem dele treinou justamente esse. Um feitiço de área de CD 15 explode do lado dele: ele rola 9 no d20, soma 4 de Destreza e 2 de treino, dá 15. Igualou, então resistiu.
 
@@ -293,7 +293,7 @@ Chegar a 0 de vida tem nome próprio: `Inconsciente`, o estado descrito nesta se
 
 **Condição** é um estado nomeado que muda o que você consegue fazer enquanto durar. Ficar `Cego` no meio de uma briga, levar um golpe que te deixa `Atordoado`, ser agarrado e não sair mais do lugar: tudo isso é condição. Cada uma tem um nível, e o nível é o que ela custa quando alguém monta um feitiço para aplicá-la.
 
-São catorze, e elas têm capítulo próprio: o capítulo 4, *Dano, Condições e Cobertura*. Lá está o efeito de cada uma por extenso, o nível de cada uma, o que não conta como condição neste sistema, e como se tira uma condição de alguém.
+São treze, e elas têm capítulo próprio: o capítulo 4, *Dano, Condições e Cobertura*. Lá está o efeito de cada uma por extenso, o nível de cada uma, o que não conta como condição neste sistema, e como se tira uma condição de alguém.
 
 ## Notação e nomes
 

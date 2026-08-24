@@ -8,6 +8,92 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.139] — 24/08/2026
+
+**O `Petrificado` saiu do sistema inteiro, e é decisão do Mizuki:** ***"ela segue um balanceamento que não planejo ter no sistema"***.
+
+**Ele era a condição mais cara da régua da peça 19** — `100,25` de dano por rodada, `19,73` fatias, **`217%` do teto da `Pesada`** —, e a própria peça já dizia o que isso significava: *uma condição que passa do teto da `Pesada` é mais de uma condição escrita como uma*. **São treze condições agora: seis `Leve`, duas `Média` e cinco `Pesada`.** Manual do Fundamento na **v7.12**.
+
+### Onde ele morava, e o que ficou no lugar dele
+
+| onde | o que aconteceu |
+|---|---|
+| peça 19 §2.2, §3.3 e a tabela de consulta | a linha saiu, e as contagens do texto desceram junto |
+| `conferir-dano.py` | a função `catorze()` virou `condicoes()`, e cinco guardas de contagem foram para `13` |
+| `conferir-legados.py` e `conferir-nomes.py` | as guardas de extração — uma trava o relógio de Legado, a outra a triagem de nome |
+| `partD.js` | a tabela `Nível Pesada` foi de seis linhas para cinco |
+| o livro, em cinco lugares | a entrada em prosa, a linha da tabela de consulta, o vocabulário, o exemplo de preço e o exemplo do `Desempate` |
+
+**O argumento que ele carregava não morreu, mudou de dono.** *Ele era o exemplar mais limpo de "isto são duas condições vendidas como uma": `Incapacitado`, mais deslocamento `0`, mais não perceber nada em volta, mais vantagem para quem ataca.* **Hoje quem prova a mesma coisa é o `Impedido`, que é o `Cego` inteiro mais deslocamento `0`** — com metade da força, e essa é a conta de perder o exemplar bom.
+
+### A tentativa de refazer o corte reprovou, e isso rendeu mais do que ela ter dado certo
+
+**Com treze condições, uma busca exaustiva sobre o espalhamento acha uma partição melhor que a publicada: `2,44×` contra `4,26×`**, subindo o `Lento` e o `Incapacitado` para `Média`. *Ela foi aplicada, rodada contra os validadores, e desfeita.*
+
+**O que ela quebrou é a checagem 3, que é o invariante da peça:** o valor medido de cada condição tem de cair na **banda** que o nível dela implica, e as bandas saem da tabela de preço do manual — `1/7`, `2/7` e `3/7` da Rotina. **No nível 30 o teto da `Leve` é `15,43` de dano por rodada; o `Lento` vale `14,70` e o `Incapacitado` `11,00`.** *Os dois cabem em `Leve` pela conta, e pôr os dois em `Média` faz o jogador pagar preço de `Média` por coisa que vale `Leve`.*
+
+> **A partição não é escolha livre — a banda obriga ela.** *Ela força `6 Leve · 2 Média · 3 Pesada`, mais o `Impedido` e o `Cego` acima do teto, que é exatamente o que já estava publicado.* **O `4,26×` é o preço de obedecer a banda, e não falta de otimização.**
+>
+> ***É a lição nº 8 numa forma que ela ainda não tinha tomado:*** *a busca mediu **espalhamento**, que é livre; a peça mede **banda**, que é derivada.* **Otimizar o eixo errado produz um resultado que parece melhor e reprova na checagem que importa.** *E ela só apareceu porque a mudança foi aplicada e rodada — lida no papel, uma partição de `2,44×` parece ganho puro.*
+
+### A Restrição `Lento` virou `Atrasar`, porque o nome estava sendo duas regras
+
+**Existiam duas coisas chamadas `Lento`:** *a Restrição, que custa a rodada inteira e é Ação Completa, e a condição, que é deslocamento pela metade sem Ação Bônus.* **A condição fica com o nome. Quem se mudou foi a Restrição.**
+
+*E a colisão já tinha enganado a própria triagem de nomes:* o comentário do `conferir-nomes.py` registra que, das condições do manual, **`Lento` era a única que não saía `LIVRE`** — e saía `OCUPADO` por acidente, porque o nome também era Restrição. **A triagem via a colisão e dava o motivo errado dela.**
+
+**Nenhum número mudou com a troca.** *Os 35 feitiços prontos, a tabela de `Ampliar` e as três Liberações Máximas continuam com os mesmos pontos, dados e PE — o `pac7.py` conferiu depois.* **Ela atravessou o gerador (`partC`, `partD`, `partF`), o `pac7.py`, a peça 3, o `conferir-acao.py`, o esqueleto da skill de balanceamento e o livro.**
+
+### A sétima passada de texto, e o método dela virou arquivo
+
+**O `livro/METODO-passada-de-texto.md` diz o que fazer com cada uma das oito marcas, e o `livro/medir-voz.py` produz elas.** *Os dois existem separados de propósito — **o script mede e o documento julga** —, e a regra que o documento carrega é a que custou três diagnósticos errados na v0.137:* **número alto não é ordem de corte.**
+
+A leitura achou seis coisas, e duas delas são ponteiro para o que não existe:
+
+| o que estava escrito | o que era |
+|---|---|
+| *"a Passiva `Reversão`"*, no capítulo 5 | **`Reversão` não aparece em lugar nenhum do livro.** Ponteiro para uma Passiva que nunca foi escrita |
+| *"os três grupos fecham em Força, e os três carregam `Alcance` e `Emaranha`"*, no capítulo 10 | **as Famílias Livres daquela ficha são `Alcance` e `Controle`**, e estão na linha logo acima. A frase nomeava uma que não estava lá |
+| *"mais 2 se ele for treinado"*, no Teste de Resistência do capítulo 9 | **é a maestria**, e o capítulo 1 já escrevia assim. O `2` é o valor dela no nível 2, congelado numa frase que vale em todo nível |
+| *"uma lâmina de 2d6"*, no exemplo de crítico | **nenhuma arma do catálogo tem `2d6`.** Virou `Espada Longa`, de `d8`, que existe |
+| *"a um metro de distância"*, no exemplo de vantagem | o sistema mede corpo a corpo em **`1,5 m`** |
+| `canalizar energia` e `cobrir-se de energia`, em cinco lugares | são nomes de aptidão, e nome de aptidão abre em maiúscula. *Onde as duas aparecem como prosa e não como nome, continuam minúsculas — são dois lugares, e os dois estão certos assim* |
+
+**E o vocabulário estava incompleto sem ninguém notar:** *entraram cinco condições — `Calado`, `Envenenado`, `Impedido`, `Incapacitado` e `Surdo` — e três termos do Fundamento — `Aura`, `Cura` e `Atrasar`.* **O `conferir-voz.py` não acusava, e com razão:** *ele cobra que todo termo que passa o corte tenha **destino**, e destino é entrada no vocabulário **ou** estreia definida — as oito tinham estreia.*
+
+**Duas marcas de `{: .aviso }` estavam antes do bloco em vez de depois**, e o atributo só pega no bloco anterior. *As dezessete do livro estão do lado certo agora.*
+
+### O capítulo 3 trocou duas tabelas por uma, e a diagramação cobrou
+
+**A tabela de perícias por atributo dizia quantas cada atributo leva; o catálogo em prosa dizia o que cada uma faz.** *Quem queria o atributo de uma perícia tinha que caçar o nome dela dentro de uma célula de onze itens.* **Virou um catálogo só, de 34 linhas — nome · tipo · atributo · sem treino** —, e as contagens por atributo viraram uma frase embaixo dele.
+
+> **⚠ E ela é a terceira tabela do livro que começa em página própria.** *Eram duas desde a v0.127: o catálogo de 52 armas e a tabela de progressão.* **É por isso que a diagramação de duas colunas SOBE duas páginas numa versão em que o livro perdeu 222 palavras.** *O comentário do `build.py` que declara o corte de 20 linhas dizia "duas" e foi consertado na mesma passada.*
+
+### O que o fecho achou, com tudo já verde
+
+**Os 22 validadores passavam, com `PULADA = 0`, e treze lugares ainda diziam `catorze`.** *A peça 19 em sete pontos — inclusive o título da seção 3 e a descrição da própria guarda de contagem da checagem 5 —, a peça 3, o `partD.js` em dois, o `README` e o `ESTADO-ATUAL` em dois.* **Nenhum validador alcança nenhum deles:** *são prosa, e a checagem 9 do `conferir-repositorio.py` confere contagem de arquivo, não contagem escrita em frase.*
+
+*E um número sobre a ferramenta estava errado havia tempo:* **o `README` e o `ESTADO-ATUAL` diziam que o `.pdf` do manual sai com `46` páginas, e ele sai com `49`.** *O `.pdf` da v0.137 já tinha 49.* **O `46` continua certo onde ele está datado** — na entrada da v0.93 do `COMO-USAR.txt`, que é história e não descrição de hoje.
+
+### Medido depois
+
+| | v0.138 | v0.139 |
+|---|---|---|
+| condições | 14 | **13** |
+| manual do Fundamento | v7.11 | **v7.12** |
+| peças de regra · validadores · checagens | 22 · 22 · 232 | iguais |
+| palavras do livro | 70.194 | **69.972** |
+| coluna única | 239 páginas | **238** |
+| duas colunas | 136 páginas | **138** |
+| tabelas do livro | 187 | **187** |
+| `conferir-voz --estrito` | 0 achados · 11 triagens | **0 achados · 10 triagens** |
+
+*O `.docx` do manual continua com 366 parágrafos e 90 tabelas, e o `.pdf` dele com 49 páginas — tirar uma linha de tabela não mexeu na paginação.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **A fila de mecânica não mudou: itens iniciais por Caminho, itens menores e as três Trilhas do Evocador.**
+
+---
+
 ## [0.138] — 24/08/2026
 
 **Achado do Mizuki lendo o PDF da v0.137: as 26 tabelas de Legado do capítulo 7 diziam a mesma coisa que as entradas logo abaixo.**

@@ -49,7 +49,7 @@ const melhorias = [
 
   H2('Controle'),
   CAT([
-    ['Condição', 'o nível dela', 'Aplica uma das catorze condições. O preço é o nível dela — Leve, Média ou Pesada —, na tabela logo abaixo. Dura uma rodada. As de nível Pesada dão Teste de Resistência no fim de cada turno do alvo, e cabe só uma delas por feitiço.'],
+    ['Condição', 'o nível dela', 'Aplica uma das treze condições. O preço é o nível dela — Leve, Média ou Pesada —, na tabela logo abaixo. Dura uma rodada. As de nível Pesada dão Teste de Resistência no fim de cada turno do alvo, e cabe só uma delas por feitiço.'],
     ['Terreno', 'Leve', 'A área vira terreno difícil, ou fica obscurecida, por uma rodada.'],
     ['Anteparo', 'Média', 'Deixa uma parede ou escudo com 10 × Classe de pontos de vida, por 1 minuto.'],
     ['Prende', 'Média', 'O alvo não sai do lugar até o fim do próximo turno dele. Ele pode gastar a ação pra tentar um Teste de Resistência e se soltar.'],
@@ -59,7 +59,7 @@ const melhorias = [
   ]),
 
   H2('As condições, uma a uma'),
-  P('São catorze, e cada uma tem um **nível**: Leve, Média ou Pesada. O nível faz duas coisas ao mesmo tempo — é o **preço** da Melhoria Condição que aplica ela, e é o que custa em energia pra **tirar** ela de alguém (1 ponto por nível). Uma condição dura uma rodada.'),
+  P('São treze, e cada uma tem um **nível**: Leve, Média ou Pesada. O nível faz duas coisas ao mesmo tempo — é o **preço** da Melhoria Condição que aplica ela, e é o que custa em energia pra **tirar** ela de alguém (1 ponto por nível). Uma condição dura uma rodada.'),
   P('As três tabelas abaixo são as catorze separadas por nível. Numa Classe 5, por exemplo, aplicar uma Leve custa 3 pontos, uma Média custa 5 e uma Pesada custa 8.'),
   TBL(['Nível Leve', 'O que faz'],
     [
@@ -79,7 +79,6 @@ const melhorias = [
 
   TBL(['Nível Pesada', 'O que faz'],
     [
-      ['Petrificado', 'Virou pedra. Incapacitado, deslocamento 0, sem perceber o que está em volta, vantagem para quem te ataca — e resistência a todo dano.'],
       ['Impedido', 'Deslocamento 0, desvantagem nos seus ataques e no Teste de Resistência Físico, e vantagem para quem te ataca.'],
       ['Cego', 'Não enxerga. Falha automático em teste que precise de vista, desvantagem nos seus ataques, vantagem para quem te ataca.'],
       ['Amedrontado', 'Desvantagem em ataque e teste enquanto enxergar a fonte do medo, e você não se aproxima dela de vontade própria.'],
@@ -89,8 +88,8 @@ const melhorias = [
 
   BOX('Por que as três tabelas não são "menores" e "maiores"', [
     'Até a v7.8 as condições eram vendidas em dois pacotes: Condição Menor por Média e Condição Maior por Pesada. Um preço só, para coisas muito diferentes.',
-    'A conta mediu as catorze e o espalhamento dentro de um pacote chegava a dezessete vezes: o Impedido custava o mesmo que o Surdo, e o Incapacitado custava o mesmo que o Petrificado.',
-    'Agora cada condição custa o que ela vale. Dez das catorze estavam no degrau errado — três eram baratas demais e sete eram caras demais.',
+    'A conta mediu as condições uma a uma e o espalhamento dentro de um pacote chegava a dezessete vezes: o Impedido custava o mesmo que o Surdo, e o Incapacitado custava o mesmo que o Amedrontado.',
+    'Agora cada condição custa o que ela vale. Dez das treze estavam no degrau errado — três eram baratas demais e sete eram caras demais.',
   ], 'info'),
 
   BOX('Atordoado e Incapacitado atacam eixos diferentes, e não se empilham', [
@@ -181,7 +180,7 @@ const restricoes = [
   TBL(['Restrição', 'Devolve', 'O que muda'],
     [
       ['Corpo a Corpo', 'Média', 'Projétil vira Toque (1,5 m). Explosão vira Aura, centrada em você. Cone e Linha já saem de você, então não podem pegar esta.'],
-      ['Lento', 'Média', 'Custa a rodada inteira (Ação Completa): você não se move, não usa ação bônus e não faz mais nada naquele turno.'],
+      ['Atrasar', 'Média', 'Custa a rodada inteira (Ação Completa): você não se move, não usa ação bônus e não faz mais nada naquele turno.'],
       ['Parado', 'Leve', 'Você não se move no turno em que conjura. A ação bônus continua sua.'],
       ['Gesto', 'Leve', 'Precisa das duas mãos livres e de falar em voz audível.'],
       ['Sangra', 'Média', 'Você toma 2 × Classe de dano que nada reduz.'],

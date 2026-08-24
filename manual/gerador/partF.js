@@ -20,8 +20,8 @@ const pacotes = [
 
   H2('Classe 2 · 6 pontos · 6 PE'),
   PT([
-    ['Palma Trovejante', 'Cone (−1) · Derrubado (−1) · Lento (+2)', '6d8 = 27 + Derrubado por uma rodada'],
-    ['Lança Negra', 'Projétil · Fura (−2) · Lento (+2)', '6d8 = 27, fura 6 de RD. O Lento pagou a Fura inteira'],
+    ['Palma Trovejante', 'Cone (−1) · Derrubado (−1) · Atrasar (+2)', '6d8 = 27 + Derrubado por uma rodada'],
+    ['Lança Negra', 'Projétil · Fura (−2) · Atrasar (+2)', '6d8 = 27, fura 6 de RD. O Atrasar pagou a Fura inteira'],
     ['Faísca em Cadeia', 'Projétil · Salto (−2) · Gesto (+1)', '5d8 = 22 e 2d8 = 9 no segundo alvo'],
     ['Sopro', 'Cura (−2)', 'cura 4d8 = 18'],
     ['Vento a Favor', 'Apoio · Impulso (−1) · Pressa (−2)', '9 de vida temporária, vantagem no próximo teste, +6 m sem provocar ataque'],
@@ -41,7 +41,7 @@ const pacotes = [
   H2('Classe 4 · 12 pontos · 12 PE'),
   PT([
     ['Prisão de Sombras', 'Explosão (−2) · Atordoado (−6) · Escolher (−4) · Sangra (+4)', '4d8 = 18 + Atordoado durando uma rodada a mais; você toma 8'],
-    ['Julgamento Vertical', 'Linha (−2) · Fura (−4) · Precisão (−2) · Lento (+4)', '8d8 = 36, fura 12 de RD, +2 na CD'],
+    ['Julgamento Vertical', 'Linha (−2) · Fura (−4) · Precisão (−2) · Atrasar (+4)', '8d8 = 36, fura 12 de RD, +2 na CD'],
     ['Roubo de Fôlego', 'Projétil · Sugar (−4) · Remate (−4) · Condicional: o alvo te acertou desde o seu último turno (+4)', '8d8 = 36, cura 9, +25% em alvo abaixo de metade'],
     ['Passo do Espelho', 'Toque (Corpo a Corpo +4) · Rápido (−6) · Passo (−2) · Recuo (+4)', '12d8 = 54 como Ação Bônus, no toque'],
     ['Muralha', 'Apoio · Anteparo (−4) · Guarda (−4) · Parado (+2)', 'parede com 40 de vida, aliado com +2 de defesa e 18 de vida temporária'],
@@ -53,8 +53,8 @@ const pacotes = [
   PT([
     ['Purga Escarlate', 'Projétil · Inescapável (−5)', '10d8 = 45 automático, sem acerto e sem resistência'],
     ['Chuva de Agulhas', 'Projétil · Rajada (−3) · Precisão (−3) · Parado (+3)', '12d8 = 54 em 6 tiros, +2 cada'],
-    ['Vala Comum', 'Explosão (−3) · Maior (−3) · Derrubado (−3) · Lento (+5)', '11d8 = 49 num raio de 4,5 m, todos Derrubados por uma rodada'],
-    ['Fim de Turno', 'Explosão (−3) · Escolher (−5) · Lento (+5)', '12d8 = 54 num raio de 3 m, só em quem você escolher'],
+    ['Vala Comum', 'Explosão (−3) · Maior (−3) · Derrubado (−3) · Atrasar (+5)', '11d8 = 49 num raio de 4,5 m, todos Derrubados por uma rodada'],
+    ['Fim de Turno', 'Explosão (−3) · Escolher (−5) · Atrasar (+5)', '12d8 = 54 num raio de 3 m, só em quem você escolher'],
     ['Segunda Vida', 'Cura (−5) · Levanta (−8) · Uma Vez (+3) · Gesto (+3)', 'cura 8d8 = 36, ou levanta um aliado caído com 25'],
     ['Fio Preso', 'Efeito · Fica (−5)', 'um bairro de onde ninguém sai, até alguém desfazer'],
     ['Sete Palmos', 'Toque (Corpo a Corpo +5) · Toca a Alma (−3)', '15 dados viram 7d8 = 31 na alma, no toque'],
@@ -62,11 +62,11 @@ const pacotes = [
 
   H2('Liberações Máximas'),
   P('Escritas antes da sessão, Classe 3 ou mais, fora da lista de feitiços conhecidos. Todas custam a rodada inteira, 50% a mais de PE e o preço escolhido na hora.'),
-  P('Repare na **Rachadura**: o Lento devolveria 3 pontos, mas a Linha só custou 2 — e devolução nunca passa do que foi gasto em Melhoria, então o terceiro ponto some sem virar dado.'),
+  P('Repare na **Rachadura**: o Atrasar devolveria 3 pontos, mas a Linha só custou 2 — e devolução nunca passa do que foi gasto em Melhoria, então o terceiro ponto some sem virar dado.'),
   PT([
     ['Golpe do Voto', 'Classe 5 · Projétil (nada mais)', '20d8 = 90, o máximo do nível 20. 23 PE'],
-    ['Rachadura', 'Classe 3 · Linha (−2) · Lento (+3, só 2 aproveitados)', '12d8 = 54 numa linha de 18 m — o teto da Classe 3. 14 PE'],
-    ['Sentença Final', 'Classe 5 · Explosão (−3) · Escolher (−5) · Lento (+5)', '17d8 = 76 num raio de 3 m, só em quem você escolher. 23 PE'],
+    ['Rachadura', 'Classe 3 · Linha (−2) · Atrasar (+3, só 2 aproveitados)', '12d8 = 54 numa linha de 18 m — o teto da Classe 3. 14 PE'],
+    ['Sentença Final', 'Classe 5 · Explosão (−3) · Escolher (−5) · Atrasar (+5)', '17d8 = 76 num raio de 3 m, só em quem você escolher. 23 PE'],
   ]),
 
   H2('Técnicas Máximas'),

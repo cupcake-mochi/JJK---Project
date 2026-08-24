@@ -17,7 +17,7 @@ O que o manual já declara, no glossário: `Ação | Padrão · Bônus · Reaç�
 | Passo, Pressa | **Ataque de oportunidade.** As duas dizem "sem provocar". Provocar o quê? |
 | Adianta | **Iniciativa.** A Melhoria dá +2 na CD se você conjurar antes de qualquer inimigo agir. |
 | Fica, Mão Firme | **Concentração.** Uma exige, a outra protege de dano até 10. |
-| Parado, Lento | **Movimento como recurso separado.** Parado tira o movimento e mantém a ação bônus. |
+| Parado, Atrasar | **Movimento como recurso separado.** Parado tira o movimento e mantém a ação bônus. |
 
 ## 2. O teste da premissa herdada
 
@@ -124,7 +124,7 @@ A Passiva **Mão Firme** cobre os dois, e o manual v7.6 diz isso com todas as le
 | já sacou alguma coisa neste turno | a Ação de Movimento |
 | não tem reserva | o que a peça 19 preçou: bater desarmado até recuperar |
 
-**O preço publicado passou a descrever só a terceira linha.** *Fica registrado e não corrigido nesta versão, porque repreçar uma condição mexe na régua das catorze e no catálogo de Melhorias do manual — e a régua vem antes do catálogo.*
+**O preço publicado passou a descrever só a terceira linha.** *Fica registrado e não corrigido nesta versão, porque repreçar uma condição mexe na régua das treze e no catálogo de Melhorias do manual — e a régua vem antes do catálogo.*
 
 ### `Agarrar` e `Derrubar` são opção do ataque, e não ação
 
@@ -171,7 +171,7 @@ Conferindo o catálogo existente contra essa régua:
 | Peso Morto | Leve | metade do movimento, dois turnos | sim |
 | Frágil | Leve | risco de perder o efeito | sim |
 | Tudo ou Nada | Leve | chance de zerar | sim |
-| Lento | Média | movimento + bônus + padrão | sim |
+| Atrasar | Média | movimento + bônus + padrão | sim |
 | Corpo a Corpo | Média | a distância inteira, para sempre | sim |
 | Sangra | Média | vida | sim |
 | Recuo | Média | condição no corpo até o próximo turno | sim |
@@ -182,22 +182,22 @@ Conferindo o catálogo existente contra essa régua:
 
 ### O caso Carregar, que a v7.3 deixou em aberto
 
-O changelog da v7.3 registrou a tensão: *"Carregar (Média) fica na mesma faixa do Lento e dói mais, porque consome dois turnos e ainda arrisca perder o feitiço se você tomar dano."*
+O changelog da v7.3 registrou a tensão: *"Carregar (Média) fica na mesma faixa do Atrasar e dói mais, porque consome dois turnos e ainda arrisca perder o feitiço se você tomar dano."*
 
 Com a régua na mão, a resposta é mais simples do que parecia, e não exige mexer em preço.
 
-**Lento** consome três recursos, todos neste turno, sem risco. **Carregar** consome um recurso do turno anterior mais o risco. São conjuntos diferentes, em turnos diferentes — não há dominância de conjunto.
+**Atrasar** consome três recursos, todos neste turno, sem risco. **Carregar** consome um recurso do turno anterior mais o risco. São conjuntos diferentes, em turnos diferentes — não há dominância de conjunto.
 
 O problema é que **o texto do manual não diz se quem carrega pode se mover no turno de carga.** E é isso que decide:
 
-- Se **pode se mover**, Carregar tem um upside que Lento não tem: você fica móvel enquanto prepara. Os dois valem Média por caminhos diferentes, e o par se resolve sozinho.
-- Se **não pode**, Carregar vira Lento com espera e risco por cima, e aí está dominado de verdade.
+- Se **pode se mover**, Carregar tem um upside que Atrasar não tem: você fica móvel enquanto prepara. Os dois valem Média por caminhos diferentes, e o par se resolve sozinho.
+- Se **não pode**, Carregar vira Atrasar com espera e risco por cima, e aí está dominado de verdade.
 
-**A decisão: quem usa Carregar mantém o movimento e a ação bônus no turno de carga.** Só a ação padrão vai embora. É a leitura mais natural do texto atual, é o que torna a peça distinta de Lento, e — o mais importante — **não muda nenhum dos 35 feitiços prontos**, porque nenhum deles usa Carregar.
+**A decisão: quem usa Carregar mantém o movimento e a ação bônus no turno de carga.** Só a ação padrão vai embora. É a leitura mais natural do texto atual, é o que torna a peça distinta de Atrasar, e — o mais importante — **não muda nenhum dos 35 feitiços prontos**, porque nenhum deles usa Carregar.
 
 Um item que estava aberto há duas versões se resolve escrevendo uma frase que já estava implícita. Vale registrar por quê: **tensão de preço às vezes é lacuna de texto disfarçada.** Antes de mexer no número, confira se a regra diz o que você acha que ela diz.
 
-*E na v0.26 a mesma lição pegou o mesmo item de novo.* A Restrição continuava dizendo *"você gasta um turno **concentrado**"*, e era essa palavra — só ela — que fazia Carregar e Concentração parecerem a mesma regra com dois testes diferentes. Ela saiu, e o preço não precisou de nenhum ajuste: o par Lento contra Carregar continua fechando pelos conjuntos de recurso, como esta seção já tinha resolvido.
+*E na v0.26 a mesma lição pegou o mesmo item de novo.* A Restrição continuava dizendo *"você gasta um turno **concentrado**"*, e era essa palavra — só ela — que fazia Carregar e Concentração parecerem a mesma regra com dois testes diferentes. Ela saiu, e o preço não precisou de nenhum ajuste: o par Atrasar contra Carregar continua fechando pelos conjuntos de recurso, como esta seção já tinha resolvido.
 
 ## 5. Iniciativa
 

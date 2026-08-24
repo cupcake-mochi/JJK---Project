@@ -1,8 +1,18 @@
 # Estado atual do projeto
 
-Atualizado em 24/08/2026, na v0.138 (última peça fechada: **Pactos**, a peça 22, na v0.134, com o `conferir-pactos.py` e catorze checagens; antes dela, o **Objeto amaldiçoado, na v0.132**; antes dela, a **Técnica Marcial, na v0.122**; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 24/08/2026, na v0.139 (última peça fechada: **Pactos**, a peça 22, na v0.134, com o `conferir-pactos.py` e catorze checagens; antes dela, o **Objeto amaldiçoado, na v0.132**; antes dela, a **Técnica Marcial, na v0.122**; a regra opcional do **Bloquear** continua em `03-mecanica/RASCUNHO-bloqueio.md`). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.138.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e duas peças escritas** e **vinte e dois validadores**.
+**Versão v0.139.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e duas peças escritas** e **vinte e dois validadores**.
+
+***O `PETRIFICADO` SAIU na v0.139, e são treze condições.*** **Decisão do Mizuki:** *"ela segue um balanceamento que não planejo ter no sistema"*. **Seis `Leve`, duas `Média`, cinco `Pesada`**, e o manual do Fundamento foi para a **v7.12**.
+
+> **Ele era a mais cara da régua da peça 19** — `19,73` fatias, `217%` do teto da `Pesada` —, e o argumento que ele carregava (*condição acima do teto é mais de uma condição escrita como uma*) **passou para o `Impedido`**, que é o `Cego` inteiro mais deslocamento `0`.
+>
+> **⚠⚠ E a tentativa de refazer o corte de degraus REPROVOU, com o resultado que parecia melhor.** *Com treze, a busca exaustiva acha uma partição de `2,44×` contra os `4,26×` publicados — subindo o `Lento` e o `Incapacitado` para `Média`.* **Ela quebra a checagem 3, que é o invariante da peça:** *o `Lento` vale `14,70` e o `Incapacitado` `11,00` contra um teto de `Leve` de `15,43` — os dois cabem em `Leve` pela conta, e cobrar `Média` por eles é cobrar caro.* ***A partição não é escolha livre: a banda obriga ela.*** **A busca mediu espalhamento, que é livre; a peça mede banda, que é derivada.**
+>
+> **E a Restrição `Lento` virou `Atrasar` na mesma versão**, porque o nome era duas regras ao mesmo tempo: a Restrição de Ação Completa e a condição de deslocamento pela metade. *A condição fica com o nome.* **Nenhum número mudou — os 35 feitiços prontos, o `Ampliar` e as três Liberações Máximas passaram no `pac7.py` depois da troca.**
+>
+> **⚠ E o fecho achou treze lugares ainda escrevendo `catorze`, com os 22 validadores verdes e `PULADA = 0`.** *Prosa não tem dono: a checagem 9 do `conferir-repositorio.py` confere contagem de arquivo, não contagem escrita em frase.* **Junto foi a paginação do `.pdf` do manual, publicada como `46` no `README` e aqui quando ela é `49` desde antes da v0.137.**
 
 ***PACTOS FECHOU na v0.134, e é a peça 22.*** **A quinta camada de personagem, e a última que faltava ter régua** — o Passo 8 da peça 8 prometia ela desde a v0.21, o que dá cento e treze versões.
 
@@ -36,7 +46,7 @@ Atualizado em 24/08/2026, na v0.138 (última peça fechada: **Pactos**, a peça 
 >
 > **⚠ A `Vazão` não entregava nada nos níveis 11 e 12.** *O `Classe 0` cresce por faixa de nível e ela cresce por Classe: no nível 11 o teto dela é `13` de dano e o `Classe 0` já é `18`.* ***Decisão dele: cláusula de piso*** — o teto nunca fica abaixo do `Classe 0`. **Custa `0,00` fatia no nível 30.**
 >
-> **E a exceção ganhou ponteiro.** *A regra de ouro nº 6 era publicada como absoluta em cinco lugares e a exceção morava num sexto que nenhum deles citava.* **Entrou a §6.1 da peça 3 e uma linha no capítulo 11 do livro.**
+> **E a exceção ganhou ponteiro.** *A regra de ouro nº 6 era publicada como absoluta em cinco lugares e a exceção morava num sexto que nenhum deles citava.* **Entrou a §6.1 da peça 3 e uma linha no capítulo 2 do livro, `O Turno`.** *Este ponteiro dizia "capítulo 11" até a v0.139, lendo o prefixo do arquivo `11-o-turno.md` como número de capítulo — e o capítulo 11 de verdade é `Aptidões e Refino`, que não tem uma ocorrência de `Torrente`.*
 >
 > **Entrou a checagem 12 do `conferir-catalogo.py`, e o buraco dela é de outra espécie:** *toda checagem de cópia deste projeto compara número contra número; esta pergunta se o número **existe**.* **O `(a base)` daquela célula aparecia uma vez no `DESENHO-trilhas.md` inteiro.** *Cinco perturbações acendendo e três contra-testes verdes. A contagem foi de `204` para `205`.*
 
@@ -384,7 +394,7 @@ python3 conferir-invocacoes.py   # o teto somado, o catálogo, a régua, a morte
 python3 conferir-ferramenta.py   # o fundo, o gate herdado, a escada de grau, o teto na ficha
 python3 conferir-catalogo.py     # o índice das 89 entradas contra os três DESENHO da raiz
 python3 conferir-progressao.py   # as nove colunas da tabela de progressão contra os donos
-python3 conferir-dano.py         # a régua de condição, as catorze, os tipos de dano e a cobertura
+python3 conferir-dano.py         # a régua de condição, as treze, os tipos de dano e a cobertura
 ```
 
 **Três naturezas diferentes, e vale saber qual é qual.** Onze conferem **regra** — *a fórmula deriva certo?*. *(O `conferir-equipamento.py` faltava nesta lista desde a v0.48 e entrou na v0.58 — o `subir.sh` sempre o rodou, porque varre por glob; quem rodasse à mão pelo documento rodava um a menos.)* O `conferir-criacao.py` confere **instância** — *a ficha publicada na peça 8 obedece à fórmula?* —, e nasceu na v0.34 porque os dois erros daquela versão passaram por baixo de todos os outros: a peça 8 é a única que produz uma ficha inteira, e ela envelhece toda vez que outra peça mexe num número. O `conferir-ficha.py` confere **material**, que é a cópia que vira personagem em sete mesas. E o `conferir-legados.py`, o décimo terceiro, confere **catálogo**: ele recalcula a tabela de totais da peça 13 e falha se o escrito não bater com o contado. O `conferir-invocacoes.py`, que entrou na v0.58, faz as quatro naturezas de uma vez — regra, catálogo, instância e **busca exaustiva** —, porque a peça 15 é máquina de construção e não lista.
@@ -541,7 +551,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/conferir-catalogo.py` | as **doze** checagens da peça 17, e **o primeiro validador que sai da pasta**: ele lê os três `DESENHO-*.md` da raiz |
 | `03-mecanica/18-progressao.md` | **a tabela de progressão** — o que se ganha em cada nível, do 1 ao 30, numa tabela só. Nove das dez colunas são cópia com dono declarado; a décima, o tamanho da lista de feitiços, nasce aqui |
 | `03-mecanica/conferir-progressao.py` | as **oito** checagens da peça 18: cada coluna reconstruída a partir do dono, a fórmula dos espaços contra a tabela da peça 11, e a cópia de três fichas da peça 2 |
-| `03-mecanica/19-dano-e-condicoes.md` | **a régua de condição** — quanto vale cada uma das catorze, em dano por rodada e em nível —, mais as catorze condições, os catorze tipos de dano e a cobertura, que vieram da peça 1 |
+| `03-mecanica/19-dano-e-condicoes.md` | **a régua de condição** — quanto vale cada uma das treze, em dano por rodada e em nível —, mais as treze condições, os catorze tipos de dano e a cobertura, que vieram da peça 1 |
 | `03-mecanica/conferir-dano.py` | as **onze** checagens da peça 19, e a nona sai da pasta: ela bate as duas entregas publicadas que aplicam condição contra a régua. *A décima primeira entrou na v0.104, com a penalidade de arma* |
 | `03-mecanica/20-tecnica-marcial.md` | **a rota de criação de quem não escreve Fundamento**: a máquina herdada, as duas rotas — três grupos de arma, ou uma ferramenta sob medida —, o Selo que virou equipamento, e os três renomes `Kata`, `Ruptura` e `Ōgi` |
 | `03-mecanica/conferir-marcial.py` | as **treze** checagens da peça 20, e o par declarado entre a 3 e a 9: uma pergunta se a rota recebe demais, a outra se ela é frágil demais |
@@ -555,7 +565,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 
 **Duas peças foram parcialmente substituídas e trazem o aviso no topo:** as seções 3 e 4 da peça 4 saíram para a peça 7, e a seção 3 e o quadro de Caminhos da peça 5 saíram para a peça 6.
 
-O manual do Fundamento **v7.11** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 366 parágrafos e 90 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na v7.11, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 46 páginas.
+O manual do Fundamento **v7.12** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 366 parágrafos e 90 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na v7.12, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 49 páginas.
 
 **Quem é dono da versão do manual:** a primeira linha de `manual/gerador/COMO-USAR.txt`. Toda outra cópia — a capa em `partA.js`, este arquivo, o `README.md`, o `LEIA-ME.md` e o `arquitetura.md` — é cópia, e o `conferir-repositorio.py` falha se alguma divergir. *Ele nasceu na v0.33, depois de a capa do manual passar três versões dizendo 7.5.*
 

@@ -216,9 +216,9 @@ _secT = _secT[:_secT.find('\n')]
 DEGRAU_POR_NIVEL = {}
 for _n, _d in re.findall(r'`(Leve|Média|Pesada)` → \*\*([^*]+)\*\*', _secT):
     DEGRAU_POR_NIVEL[_n] = _d.strip()
-if len(NIVEL_DA_CONDICAO) != 14:
+if len(NIVEL_DA_CONDICAO) != 13:
     erro('4', f'li {len(NIVEL_DA_CONDICAO)} condicao(oes) com nivel na peca 19 e '
-              'esperava 14 — a extracao quebrou e a trava do relogio nao vale')
+              'esperava 13 — a extracao quebrou e a trava do relogio nao vale')
 elif len(DEGRAU_POR_NIVEL) != 3:
     erro('4', 'a peca 13 nao publica mais os tres degraus de relogio por nivel de '
               'condicao, no formato que esta checagem le')

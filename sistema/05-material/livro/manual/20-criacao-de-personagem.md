@@ -186,7 +186,7 @@ Nada aqui é escolha. Você copia da tabela e faz a conta.
 | Perícia treinada | d20 + atributo + 1 |
 | Teste de Resistência | d20 + atributo do TR + maestria, e a maestria só se treinado |
 
-No refino 1 você já tem duas aptidões, de graça: `cobrir-se de energia`, que dá proteção sem equipamento, e `canalizar energia`, que permite ferir uma maldição com o corpo ou com a arma. São básicas de qualquer feiticeiro.
+No refino 1 você já tem duas aptidões, de graça: `Cobrir-se de energia`, que dá proteção sem equipamento, e `Canalizar energia`, que permite ferir uma maldição com o corpo ou com a arma. São básicas de qualquer feiticeiro.
 
 > **Toda ficha de nível 2 nasce com proteção 1.** É o `+1` que entra na Defesa acima. Sem Traje e sem Revestimento, a sua proteção é `1/3 do refino + 1`, que no refino 1 dá 1. Escudo soma com ela; Traje e Revestimento desligam.
 

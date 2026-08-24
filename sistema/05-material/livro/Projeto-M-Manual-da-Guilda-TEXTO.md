@@ -36,7 +36,7 @@ Nem todo capítulo é para ler do começo ao fim. Metade dos capítulos é catá
 | **1** | Como Jogar | *ler* · o dado, o teste, o acerto, a defesa, e o que acontece quando a vida acaba |
 | **2** | O Turno | *ler* · a iniciativa e as doze ações |
 | **3** | Perícias e Ofícios | *ler, depois consultar* · as vinte e três perícias e os onze ofícios |
-| **4** | Dano, Condições e Cobertura | *consulta* · os catorze tipos de dano, as catorze condições, e a mureta no meio do caminho |
+| **4** | Dano, Condições e Cobertura | *consulta* · os catorze tipos de dano, as treze condições, e a mureta no meio do caminho |
 | **5** | Descanso e Recuperação | *ler* · o que volta entre uma luta e a seguinte |
 | | **O PERSONAGEM** | |
 | **6** | Criação de Personagem | *ler, com a ficha na mão* · oito passos, de vinte a quarenta minutos |
@@ -53,11 +53,11 @@ Nem todo capítulo é para ler do começo ao fim. Metade dos capítulos é catá
 | **18** | Apêndice · Bloquear | *decisão de mesa* · Defesa parada ou rolar `2d10` pra se defender — os dois são regra do sistema |
 | | **Índice remissivo** | no fim: termo, e em que página ele aparece |
 
-**Grupo novo, sem ninguém ter lido nada?** Vá direto para *Antes da primeira sessão*, logo depois desta introdução. É uma cena pronta, com ficha e tudo, para jogar antes de estudar o resto.
+**Grupo novo, sem ninguém ter lido nada?** Vá direto para *Antes da primeira sessão*. É uma cena pronta, com ficha e tudo, para jogar antes de estudar o resto.
 
 **Leia Como Jogar antes de qualquer outra coisa.** É o capítulo dono do vocabulário que todos os outros usam sem parar para explicar de novo. Depois dele, pular direto para o que te interessa funciona.
 
-**E se esbarrar num nome que ninguém te apresentou**, ele está no vocabulário, logo na página seguinte, com o número do capítulo que trata dele por extenso.
+**E se esbarrar num nome que ninguém te apresentou**, ele está no vocabulário do sistema, com o número do capítulo que trata dele por extenso.
 
 ---
 
@@ -100,7 +100,7 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **Redução de Dano** | Desconto no dano que já passou pela Defesa. Não é a mesma coisa que proteção | 9 |
 | **Perícia** | Uma das vinte e três. Cada uma tem um atributo fixo. Sem treino você ainda tenta | 3 |
 | **Ofício** | Um dos onze. Não tem atributo fixo, e sem treino você **não** tenta | 3 |
-| **Condição** | Estado nomeado que muda o que você consegue fazer. São catorze, em três níveis: `Leve`, `Média` e `Pesada` | 4 |
+| **Condição** | Estado nomeado que muda o que você consegue fazer. São treze, em três níveis: `Leve`, `Média` e `Pesada` | 4 |
 | **`Leve`** [Nível] | O menor dos três níveis. Como preço de Melhoria, custa metade da Classe; como condição, sai por `1` ponto de energia | 4 |
 | **`Média`** [Nível] | O nível do meio. Como preço, custa a Classe; como condição, sai por `2` pontos de energia | 4 |
 | **`Pesada`** [Nível] | O maior. Como preço, custa Classe e meia; como condição, sai por `3` pontos de energia. Dá Teste de Resistência no fim de cada turno do alvo | 4 |
@@ -202,7 +202,7 @@ O eixo de controle de quem não tem energia amaldiçoada nenhuma, no lugar do re
 
 ## Condições
 
-Catorze estados nomeados, em três níveis. `Leve`, `Média` e `Pesada` também nomeiam custo de
+Treze estados nomeados, em três níveis. `Leve`, `Média` e `Pesada` também nomeiam custo de
 Melhoria — são escadas diferentes que usam as mesmas três palavras. O capítulo 4 separa as duas.
 
 **Condições**
@@ -211,11 +211,16 @@ Melhoria — são escadas diferentes que usam as mesmas três palavras. O capít
 | **`Agarrado`** | Seu deslocamento é `0`. Acaba se quem agarrou ficar `Incapacitado`, ou se algo tirar você do alcance dele | 4 |
 | **`Amedrontado`** | Desvantagem em ataque e em teste enquanto você enxergar a fonte do medo, e você não se aproxima dela de vontade própria | 4 |
 | **`Atordoado`** | Você perde a Ação Padrão e não usa reação | 4 |
+| **`Calado`** | Você não conjura. Nada que precise de voz, gesto ou Selo sai | 4 |
 | **`Cego`** | Você não enxerga. Falha automática em teste que precise de vista, desvantagem nos seus ataques, e quem ataca você tem vantagem | 4 |
 | **`Derrubado`** | Está no chão, de pé no medidor. Vantagem a quem ataca de perto | 1 |
 | **`Desarmado`** | A sua arma está no chão ou na mão de outro. Você bate desarmado até pegar de volta | 4 |
 | **`Enfeitiçado`** | Você não ataca quem enfeitiçou nem mira efeito nocivo nele, e ele tem vantagem em teste social contra você | 4 |
+| **`Envenenado`** | Desvantagem nos seus ataques e em todo teste de perícia | 4 |
+| **`Impedido`** | Deslocamento `0`, desvantagem nos seus ataques e no Teste de Resistência Físico, e vantagem para quem te ataca | 4 |
+| **`Incapacitado`** | Você não pode `Bloquear`, e todo ataque corpo a corpo contra você é crítico | 4 |
 | **`Lento`** | Seu deslocamento cai pela metade e você não usa Ação Bônus | 4 |
+| **`Surdo`** | Não ouve. Falha automática em teste que precise de audição, e `−2` na iniciativa | 4 |
 
 ## Equipamento
 
@@ -249,12 +254,15 @@ Melhoria — são escadas diferentes que usam as mesmas três palavras. O capít
 | **`Projétil`** | Forma: 18 m, um alvo, rolagem de acerto | 9 |
 | **`Toque`** | Forma: 1,5 m, um alvo. `Projétil` com `Corpo a Corpo` embutida | 9 |
 | **`Explosão`** | Forma: esfera de raio 3 m, num ponto a até 18 m, Teste de Resistência | 9 |
+| **`Aura`** | Forma: esfera de raio 3 m centrada em você. `Explosão` com `Corpo a Corpo` embutida | 9 |
 | **`Cone`** | Forma: 4,5 m saindo de você, Teste de Resistência | 9 |
 | **`Linha`** | Forma: 18 m por 1,5 m, Teste de Resistência | 9 |
+| **`Cura`** | Forma: um aliado a até 9 m, e os dados viram cura | 9 |
 | **`Apoio`** | Forma: um aliado a até 9 m, sem dano; o que sobra vira vida temporária | 9 |
 | **`Onda`** | Forma: esfera de raio 3 m centrada em você, pega todos os aliados dentro | 9 |
 | **`Efeito`** | Forma: fora de combate, sem dano | 9 |
 | **`Corpo a Corpo`** | Restrição: `Projétil` vira `Toque`, `Explosão` vira `Aura`. `Cone` e `Linha` não pegam | 9 |
+| **`Atrasar`** | Restrição: o feitiço custa a rodada inteira — sem movimento, sem Ação Bônus, sem mais nada naquele turno | 9 |
 | **`Condicional`** | Restrição: só funciona quando uma condição de cena ou de alvo é verdadeira | 9 |
 | **`Gesto`** | Restrição: precisa das duas mãos livres e de falar em voz audível | 9 |
 | **`Parado`** | Restrição: você não se move no turno em que conjura | 9 |
@@ -450,7 +458,7 @@ Cada perícia tem um atributo fixo, e o quadro completo (vinte e três perícias
 
 Qualquer coisa pode ligar um dos dois: um Legado, uma condição, um aliado te ajudando, a posição em que você está. Nenhum dos dois mexe em número da ficha — os dois mexem em quantos dados você joga.
 
-> **Exemplo.** Sousuke ataca alguém que está `Derrubado`, a um metro de distância. A condição dá vantagem a quem ataca de perto: ele rola dois d20, tira 6 e 17, e usa o 17.
+> **Exemplo.** Sousuke ataca alguém que está `Derrubado`, a 1,5 m de distância. A condição dá vantagem a quem ataca de perto: ele rola dois d20, tira 6 e 17, e usa o 17.
 
 ### Ajudar
 
@@ -537,7 +545,7 @@ Nem todo feitiço rola acerto. Um feitiço resolve de três jeitos, e o capítul
 
 Crítico só existe onde existe rolagem de acerto. Feitiço que resolve por Teste de Resistência ou por Automático nunca crita, e isso vale também para as Melhorias que compram precisão tirando a rolagem de ataque.
 
-> **Exemplo.** Sousuke acerta com uma lâmina de 2d6 e Força 4. No 20 natural ele rola 4d6 e soma 4. A Força continua entrando uma vez só.
+> **Exemplo.** Sousuke acerta com uma Espada Longa, de d8, e Força 4. No 20 natural ele rola 2d8 e soma 4. A Força continua entrando uma vez só.
 
 ## Defesa
 
@@ -572,7 +580,6 @@ Estar atrás de alguma coisa sobe a sua Defesa, e a cobertura Total tira você d
 Você é treinado em **dois dos quatro**: a sua Origem treina um, o seu Caminho treina outro. **No Teste de Resistência que você treinou, você soma a maestria; nos outros dois, só o atributo.** É a mesma marca de treino da perícia e do ofício.
 
 > Nos dois Testes de Resistência que você não treinou, você não soma a maestria — e a distância entre eles e os treinados só cresce conforme a campanha anda. É por ali que um chefe vai entrar.
-
 > **Exemplo.** Kaito travou o TR Físico em Destreza, que é 4, e a Origem dele treinou justamente esse. Um feitiço de área de CD 15 explode do lado dele: ele rola 9 no d20, soma 4 de Destreza e 2 de treino, dá 15. Igualou, então resistiu.
 
 ## Vida, energia e alma
@@ -686,7 +693,7 @@ Chegar a 0 de vida tem nome próprio: `Inconsciente`, o estado descrito nesta se
 
 **Condição** é um estado nomeado que muda o que você consegue fazer enquanto durar. Ficar `Cego` no meio de uma briga, levar um golpe que te deixa `Atordoado`, ser agarrado e não sair mais do lugar: tudo isso é condição. Cada uma tem um nível, e o nível é o que ela custa quando alguém monta um feitiço para aplicá-la.
 
-São catorze, e elas têm capítulo próprio: o capítulo 4, *Dano, Condições e Cobertura*. Lá está o efeito de cada uma por extenso, o nível de cada uma, o que não conta como condição neste sistema, e como se tira uma condição de alguém.
+São treze, e elas têm capítulo próprio: o capítulo 4, *Dano, Condições e Cobertura*. Lá está o efeito de cada uma por extenso, o nível de cada uma, o que não conta como condição neste sistema, e como se tira uma condição de alguém.
 
 ## Notação e nomes
 
@@ -885,9 +892,9 @@ A regra prática: se é uma ferramenta ou um procedimento que alguém te ensinou
 
 Ser **treinado** quer dizer ter aquela perícia ou aquele ofício marcado na ficha; a seção *Treino* diz de onde vêm as marcas. **Maestria** é o bônus que cresce com o nível, e a escada dela está no capítulo 1, *Como Jogar*. O mestre põe uma **CD**, o número que a sua rolagem precisa alcançar para você conseguir o que queria. Por exemplo, com Destreza 3 e maestria 1, uma `Furtividade` treinada rola `d20 + 4`; sem treino, `d20 + 3`.
 
-### Atributo fixo ou variável
+### Atributo do ofício
 
-Forjar uma lâmina é Força. Falsificar uma assinatura é Destreza. Saber qual selo o papel pede é Inteligência. As três coisas são o mesmo ofício, `Caligrafia` ou `Forja`, e o mestre escolhe o atributo na hora, do mesmo jeito que escolhe a dificuldade.
+Forjar uma lâmina é Força. Falsificar uma assinatura é Destreza. Saber qual selo o papel pede é Inteligência. As três coisas são o mesmo ofício, `Caligrafia` ou `Forja`, e o mestre escolhe o atributo na hora, do mesmo jeito que escolhe a dificuldade. Perícia não faz isso: o atributo dela é o da tabela e não muda.
 
 Um ofício rende diferente na mão de cada personagem. O mesmo `Arrombamento` é uma coisa para quem tem Destreza 4 e outra para quem tem Inteligência 4, e as duas fichas passam por portas diferentes.
 
@@ -901,82 +908,110 @@ Qualquer um pode tentar escalar e falhar. Ninguém forja uma lâmina por tentati
 >
 > Chegando na porta, ela usa `Arrombamento`. O mestre decide que forçar aquela tranca é trabalho de mão e cobra Destreza: `d20 + 4 + 1` de novo. Se a tranca fosse eletrônica ele teria cobrado Inteligência, e o mesmo ofício sairia `d20 + 2 + 1`. Três a menos, porque a Rina é boa com as mãos e não com o sistema.
 
-## Perícias
+## Catálogo
 
-### Inteligência e Essência
+**Perícias e ofícios**
+| Nome | Tipo | Atributo | Sem treino |
+|---|---|---|---|
+| Atletismo | perícia | Força | `d20` + atributo |
+| Acrobacia | perícia | Destreza | `d20` + atributo |
+| Furtividade | perícia | Destreza | `d20` + atributo |
+| Pontaria | perícia | Destreza | `d20` + atributo |
+| Prestidigitação | perícia | Destreza | `d20` + atributo |
+| Investigação | perícia | Inteligência | `d20` + atributo |
+| Intuição | perícia | Inteligência | `d20` + atributo |
+| Ocultismo | perícia | Inteligência | `d20` + atributo |
+| Religião | perícia | Inteligência | `d20` + atributo |
+| História | perícia | Inteligência | `d20` + atributo |
+| Hierarquia | perícia | Inteligência | `d20` + atributo |
+| Medicina | perícia | Inteligência | `d20` + atributo |
+| Sobrevivência | perícia | Inteligência | `d20` + atributo |
+| Natureza | perícia | Inteligência | `d20` + atributo |
+| Lidar com Animais | perícia | Inteligência | `d20` + atributo |
+| Tecnologia | perícia | Inteligência | `d20` + atributo |
+| Sentir Energia | perícia | Essência | `d20` + atributo |
+| Percepção | perícia | Essência | `d20` + atributo |
+| Persuasão | perícia | Essência | `d20` + atributo |
+| Enganação | perícia | Essência | `d20` + atributo |
+| Intimidação | perícia | Essência | `d20` + atributo |
+| Atuação | perícia | Essência | `d20` + atributo |
+| Provocar | perícia | Essência | `d20` + atributo |
+| Condução | ofício | o que a situação pedir | não rola |
+| Arrombamento | ofício | o que a situação pedir | não rola |
+| Herbalismo | ofício | o que a situação pedir | não rola |
+| Forja | ofício | o que a situação pedir | não rola |
+| Caligrafia | ofício | o que a situação pedir | não rola |
+| Burocracia | ofício | o que a situação pedir | não rola |
+| Entalhador | ofício | o que a situação pedir | não rola |
+| Alfaiate | ofício | o que a situação pedir | não rola |
+| Culinária | ofício | o que a situação pedir | não rola |
+| Instrumento | ofício | o que a situação pedir | não rola |
+| Jogatina | ofício | o que a situação pedir | não rola |
 
+Inteligência leva 11 das 23 perícias, Essência 7, Destreza 4 e Força 1. **Nenhuma perícia mora em Constituição** — ela governa os pontos de vida e o Teste de Resistência de Vigor.
+
+> **`Sentir Energia` não existe para a Restrição Celestial pelo ramo sem energia.** Aquele ramo não tem energia amaldiçoada nenhuma, e não é caso de rolar sem treino: a perícia não entra na ficha. Está no capítulo 7, *Origens e Legados*.
 **Inteligência sabe, Essência percebe.** Inteligência é o que você estudou: o catálogo de maldições, o que aconteceu, como o corpo funciona, quem manda em quem. Essência é o que você capta: a energia no ar, o barulho no corredor, a mentira na voz de alguém.
 
-**Perícias por atributo**
-| Atributo | Perícias | Quantas |
-|---|---|---|
-| **Força** | Atletismo | 1 |
-| **Destreza** | Acrobacia · Furtividade · Pontaria · Prestidigitação | 4 |
-| **Inteligência** | Investigação · Intuição · Ocultismo · Religião · História · Hierarquia · Medicina · Sobrevivência · Natureza · Lidar com Animais · Tecnologia | 11 |
-| **Essência** | Sentir Energia · Percepção · Persuasão · Enganação · Intimidação · Atuação · Provocar | 7 |
-| **Constituição** | — | 0 |
+## Perícias
 
-Nenhuma perícia mora em Constituição. Constituição governa os pontos de vida e o Teste de Resistência de Vigor.
+### Força
 
-### Catálogo
+**Atletismo** — correr, escalar, nadar, saltar, carregar quem não anda. A cena em que o obstáculo é o terreno.
 
-#### Força
+### Destreza
 
-**Atletismo** — correr, escalar, nadar, saltar, carregar alguém que não consegue andar. É a perícia das cenas em que o obstáculo é o terreno: a grade que precisa ser vencida antes da maldição chegar, o companheiro desmaiado que alguém tem que tirar dali, os três andares de escada que separam o grupo do telhado.
+**Acrobacia** — equilíbrio, cair sem se machucar, passar por espaço apertado. Também é o que tira você de um `Agarrado`, no capítulo 4, *Dano, Condições e Cobertura*.
 
-#### Destreza
+**Furtividade** — mover-se sem ser visto nem ouvido. Decide se a cena começa com o grupo escolhendo o momento, ou com o inimigo.
 
-**Acrobacia** — equilíbrio, cair sem se machucar, escapar de um agarrão, passar por espaço apertado. Aparece quando o chão trai: viga estreita, telhado molhado, o corredor desabando enquanto vocês correm. Também é o que tira você de um `Agarrado`, no capítulo 4, *Dano, Condições e Cobertura*.
+**Pontaria** — acertar o que é pequeno, o que está longe ou o que se mexe, fora de uma rolagem de ataque. O arremesso que resolve a cena antes de virar combate.
 
-**Furtividade** — mover-se sem ser visto nem ouvido. É a perícia de infiltração e de emboscada, e a que decide se a cena começa com o grupo escolhendo o momento ou com o inimigo escolhendo por ele.
+**Prestidigitação** — mão rápida: esconder um objeto, tirar do bolso alheio, trocar uma coisa por outra. A cena com plateia.
 
-**Pontaria** — acertar o que é pequeno, o que está longe ou o que se mexe, fora de uma rolagem de ataque. Serve para o arremesso que resolve a cena sem virar combate: a chave jogada pela grade, o talismã colado na testa da coisa antes que ela vire, a pedra que acerta o interruptor no fim do corredor.
+### Inteligência
 
-**Prestidigitação** — mão rápida: esconder um objeto, tirar do bolso alheio, trocar uma coisa por outra na frente de quem está olhando. É a perícia da cena com plateia, em que a dificuldade é fazer sem ninguém ver.
+**Investigação** — vasculhar, deduzir, ligar duas pistas que ninguém tinha ligado. A cena de local, e o padrão que se repete.
 
-#### Inteligência
+**Intuição** — ler a pessoa pelo que ela faz: a inconsistência, o detalhe que não fecha, a motivação atrás do pedido. Perceber que alguém está nervoso é `Percepção`.
 
-**Investigação** — vasculhar, deduzir, ligar duas pistas que ninguém tinha ligado. É a perícia de cena de local: o apartamento onde alguém sumiu, a sala onde a barreira foi montada, o padrão que se repete nos três desaparecimentos.
+**Ocultismo** — maldições, técnicas conhecidas, barreiras, o funcionamento da energia amaldiçoada. O nome da coisa, o grau dela, e o que costuma matá-la.
 
-**Intuição** — ler a pessoa pelo que ela faz: a inconsistência na história, o detalhe que não fecha, a motivação atrás do pedido. É dedução sobre gente, e por isso é Inteligência. Aparece na cena de negociação e de interrogatório, quando o grupo precisa decidir se o informante está entregando ou vendendo. Perceber que alguém está nervoso é `Percepção`.
+**Religião** — xintoísmo, budismo, exorcismo, templo, ritual, o que os selos querem dizer. O lugar antigo, e o rito que precisa ser feito na ordem certa.
 
-**Ocultismo** — maldições, técnicas conhecidas, barreiras, o funcionamento da energia amaldiçoada. O lado técnico. É o que você rola quando a coisa na sua frente já foi catalogada por alguém e você quer saber o nome dela, o grau dela e o que costuma matá-la.
+**História** — o que aconteceu e quem estava lá, no mundo comum e no registro das famílias. A cena de arquivo: por que este clã odeia aquele.
 
-**Religião** — xintoísmo, budismo, exorcismo, templo, ritual, o que os selos querem dizer. O lado sagrado, que é de onde o jujutsu veio antes de virar instituição. Resolve cena de lugar antigo: o santuário que ninguém cuida há quarenta anos, o rito que precisa ser feito na ordem certa, a inscrição na pedra que explica por que aquilo está preso ali.
+**Hierarquia** — os clãs, a política, quem manda em quem. Diz o que você pode pedir, a quem, e o que vai custar.
 
-**História** — o que aconteceu e quem estava lá, no mundo comum e no registro das famílias. É a perícia da cena de arquivo e da cena de conversa longa: entender por que este clã odeia aquele, saber que já houve uma missão neste endereço em 1974.
+**Medicina** — ferimento, veneno, doença, corpo. É o saber; a prática de campo é o ofício `Herbalismo`.
 
-**Hierarquia** — os clãs, a política, quem manda em quem e quem deve o quê a quem. Diz o que você pode pedir, a quem, e o que vai custar. Resolve a cena política: a sala de reunião, o superior que precisa autorizar, o favor que alguém pode cobrar de volta depois.
+**Sobrevivência** — aguentar o ambiente, achar água e abrigo, se orientar, e seguir um rastro, seja pegada ou resíduo de energia.
 
-**Medicina** — ferimento, veneno, doença, corpo. É o saber: olhar um corpo e dizer o que aconteceu, quanto tempo aquela pessoa tem, o que aquele veneno faz. A prática de campo é o ofício `Herbalismo`.
+**Natureza** — planta, bicho, clima, terreno. O que é venenoso, que vale enche, quando a chuva vem.
 
-**Sobrevivência** — aguentar o ambiente, achar água e abrigo, se orientar, e seguir um rastro, seja pegada ou resíduo de energia. É a perícia da missão fora da cidade e da perseguição longa, quando a pergunta da cena é *"para onde foi?"*.
+**Lidar com Animais** — acalmar, montar, conduzir, mandar num bicho. Vale para invocação que ainda não te obedece direito.
 
-**Natureza** — planta, bicho, clima, terreno. O que é o quê, o que é venenoso, quando a chuva vem. Aparece antes da cena dar errado: saber que aquele vale enche, que aquela fruta mata, que o cheiro no ar é de queimada e não de maldição.
+**Tecnologia** — computador, câmera, rede, equipamento moderno. A câmera antes de a equipe entrar, o celular da vítima, o registro de acesso.
 
-**Lidar com Animais** — acalmar, montar, conduzir, mandar num bicho. Vale para o que não é bicho mas se comporta como um: uma invocação que ainda não te obedece direito responde a essa perícia.
+### Essência
 
-**Tecnologia** — computador, câmera, rede, equipamento moderno. Resolve a cena de prédio moderno: a câmera que precisa ser desligada antes de a equipe entrar, o celular da vítima, o registro de acesso que diz quem passou pela porta.
+**Sentir Energia** — perceber energia amaldiçoada: o feiticeiro escondido, o tamanho de uma maldição, quem está prestes a conjurar.
 
-#### Essência
+**Percepção** — notar o mundano: som, cheiro, movimento, a coisa fora do lugar, a pessoa suando frio.
 
-**Sentir Energia** — perceber energia amaldiçoada. Notar o feiticeiro escondido, medir o tamanho de uma maldição antes de encostar nela, sacar que alguém está prestes a conjurar. Quase toda cena do jogo tem energia amaldiçoada em algum lugar, e é esta perícia que diz se o grupo entra na sala ou dá meia-volta.
+**Persuasão** — convencer, negociar, conseguir que façam o que você quer porque querem. Termina com as duas partes de pé.
 
-**Percepção** — notar o mundano: som, cheiro, movimento, a coisa que está fora do lugar, a pessoa suando frio. É a perícia de entrar num lugar novo e reparar em alguma coisa antes de ela virar problema.
+**Enganação** — mentir, blefar, se passar por outro. Termina com alguém acreditando em coisa que não é verdade, e o relógio correndo.
 
-**Persuasão** — convencer, negociar, conseguir que façam o que você quer porque querem. A cena dela termina com as duas partes de pé e sem rancor.
+**Intimidação** — ameaçar, dominar pela presença, fazer alguém **recuar**. O capanga que abre a porta, a testemunha que decide falar.
 
-**Enganação** — mentir, blefar, se passar por outro. A cena dela termina com alguém acreditando em alguma coisa que não é verdade, e com o relógio contando até ele descobrir.
+**Atuação** — representar, cantar, tocar para uma plateia. A infiltração longa: você não mente uma frase, vive um disfarce.
 
-**Intimidação** — ameaçar, dominar pela presença, fazer alguém **recuar**. Resolve a cena em que o grupo quer que aquilo pare sem precisar bater: o capanga que abre a porta, a testemunha que decide falar, a coisa que resolve procurar comida em outro bairro.
-
-**Atuação** — representar, cantar, tocar para uma plateia, sustentar um personagem que não é você. É a perícia da infiltração longa, em que você não mente uma frase e sim vive um disfarce por uma noite inteira.
-
-**Provocar** — tirar alguém do sério, fazer perder a linha, forçar a vir para cima de você. É o oposto de `Intimidação`: uma faz recuar, a outra faz **avançar**. Em combate ela tem ação própria, `Provocar`, no capítulo 2, *O Turno*.
+**Provocar** — tirar alguém do sério, forçar a vir para cima de você. É o oposto de `Intimidação`: uma faz recuar, a outra faz **avançar**. Em combate ela tem ação própria, `Provocar`, no capítulo 2, *O Turno*.
 
 ### Técnica do inimigo
 
-Não existe perícia para isso, porque são duas perguntas diferentes e cada uma já tem casa.
+Não existe perícia para isso. São duas perguntas diferentes, e cada uma já tem casa.
 
 **Ocultismo e Sentir Energia**
 | `Ocultismo` reconhece o que você está vendo | `Sentir Energia` lê como a energia se move |
@@ -988,29 +1023,29 @@ O Nanami trabalha pelo `Ocultismo`. O Todo, pelo `Sentir Energia`.
 
 ## Ofícios
 
-Ofício é o que o personagem sabe fazer porque alguém sentou com ele e ensinou. Cada entrada diz o que ele cobre e onde ele aparece numa missão.
+Ofício é o que o personagem sabe fazer porque alguém sentou com ele e ensinou.
 
-**Condução** — carro, moto, van, o que estiver na garagem. É a cena de chegar a tempo e a cena de sair inteiro: a perseguição pela marginal, o recuo com dois feridos no banco de trás.
+**Condução** — carro, moto, van, o que estiver na garagem. Chegar a tempo, e sair inteiro com dois feridos atrás.
 
-**Arrombamento** — tranca, alarme, cofre, janela que não devia abrir. É o ofício que decide se o grupo entra pela porta escolhida por ele ou pela porta que o inimigo deixou aberta de propósito.
+**Arrombamento** — tranca, alarme, cofre, janela que não devia abrir. Decide por qual porta o grupo entra.
 
-**Herbalismo** — planta que cura, planta que mata, chá, unguento, e o que dá para fazer no mato quando não tem hospital. Aparece no acampamento e na volta da missão, quando alguém está mal e o hospital fica a três horas dali.
+**Herbalismo** — planta que cura, planta que mata, chá, unguento. O acampamento, e a volta da missão com alguém mal.
 
-**Forja** — fazer, afiar e manter arma, e cuidar de ferramenta amaldiçoada sem estragar o que tem dentro. É o ofício do tempo entre missões, e o que evita que o equipamento do grupo vire sucata ao longo da campanha.
+**Forja** — fazer, afiar e manter arma, e cuidar de ferramenta amaldiçoada sem estragar o que tem dentro.
 
-**Caligrafia** — talismã, papel de barreira, documento oficial. E documento oficial que não é oficial. Serve tanto para preparar a missão quanto para atravessar uma recepção com um crachá que ninguém deveria ter.
+**Caligrafia** — talismã, papel de barreira, documento oficial. E documento oficial que não é oficial.
 
-**Burocracia** — a máquina jujutsu por dentro: relatório, requisição, quem assina o quê, como se pede uma janela e como se encobre o que não devia ter sido visto. É o ofício da cena que acontece depois da luta, quando alguém tem que explicar o prédio destruído.
+**Burocracia** — relatório, requisição, quem assina o quê, como se encobre o que não devia ter sido visto. A cena depois da luta.
 
-**Entalhador** — madeira, pedra, osso. Fazer o corpo que vai receber alguma coisa. Aparece quando o grupo precisa de um recipiente, um selo físico ou um boneco que aguente o que vai ser posto dentro dele.
+**Entalhador** — madeira, pedra, osso. O corpo que vai receber alguma coisa: recipiente, selo físico, boneco.
 
-**Alfaiate** — tecido, corte, remendo. O uniforme que aguenta energia amaldiçoada sai daqui, e o traje sob medida também. O de prateleira veste todo mundo e ninguém.
+**Alfaiate** — tecido, corte, remendo. O uniforme que aguenta energia amaldiçoada sai daqui, e o traje sob medida também.
 
-**Culinária** — cozinhar de verdade, para gente ou para o que aceitar comida. É o ofício das cenas de descanso, e o de quem negocia com coisa que quer ser agradada antes de ser convencida.
+**Culinária** — cozinhar de verdade, para gente ou para o que aceitar comida. As cenas de descanso, e o que quer ser agradado.
 
-**Instrumento** — um instrumento, escolhido no treino. Toca numa festa, num velório, num templo, ou para segurar a atenção de uma sala inteira enquanto os outros trabalham.
+**Instrumento** — um instrumento, escolhido no treino. A festa, o velório, o templo, ou segurar a atenção de uma sala inteira.
 
-**Jogatina** — carta, dado, aposta, e ler a mesa enquanto joga. Serve para entrar em ambiente fechado pela porta social: a sala de mahjong nos fundos, o cara que só conversa se você sentar e perder algum dinheiro primeiro.
+**Jogatina** — carta, dado, aposta, e ler a mesa enquanto joga. A porta social: a sala de mahjong nos fundos.
 
 > **Não existe Primeiros Socorros, e `Herbalismo` não cobre o mesmo.** Estancar sangue no meio da missão vira cena em vez de rolagem: ou alguém tem cura de verdade, ou a consequência acontece.
 
@@ -1047,7 +1082,7 @@ Além dessas duas, você escolhe um extra: um ofício livre, ou mais uma períci
 | um ofício | 8 | 3 |
 | mais uma perícia | 9 | 2 |
 
-> **Exemplo.** O Kaito é Guia. Ele já entra com as fixas `Persuasão` e `Medicina`. Nas quatro livres do Caminho ele pega `Sentir Energia`, `Ocultismo`, `Percepção` e `Atletismo`, e nos dois ofícios livres pega `Herbalismo` e `Caligrafia`. A Origem dele dá mais duas perícias. No extra ele escolhe a perícia em vez do ofício, e fecha a ficha com 9 perícias e 2 ofícios: ele lê talismã, mas não tem quem arrombe uma porta no grupo.
+> **Exemplo.** O Kaito é Guia. Ele já entra com as fixas `Persuasão` e `Medicina`. Nas quatro livres do Caminho ele pega `Sentir Energia`, `Ocultismo`, `Percepção` e `Atletismo`, e nos dois ofícios livres pega `Herbalismo` e `Caligrafia`. A Origem dele dá mais duas perícias. No extra ele escolhe a perícia em vez do ofício, e fecha a ficha com 9 perícias e 2 ofícios: ele lê talismã, mas não arromba uma porta.
 
 ### Testes de Resistência
 
@@ -1151,7 +1186,7 @@ Um não puxa o outro. Um feitiço com o Tema `Fogo` só causa dano do tipo `Fogo
 
 ## Condições
 
-**Condição** é um estado nomeado que muda o que você consegue fazer enquanto durar. São catorze, e cada uma tem um **nível**: `Leve`, `Média` ou `Pesada`.
+**Condição** é um estado nomeado que muda o que você consegue fazer enquanto durar. São treze, e cada uma tem um **nível**: `Leve`, `Média` ou `Pesada`.
 
 > **O nível faz duas coisas, e são as duas contas que a condição pede.**
 > É o que ela **custa para comprar** dentro de um feitiço.
@@ -1161,10 +1196,10 @@ Um não puxa o outro. Um feitiço com o Tema `Fogo` só causa dano do tipo `Fogo
 
 Cada condição abre dizendo **quando** ela vale. Depois vem um parágrafo por efeito, e cada
 efeito tem nome próprio: `Deslocamento`, `Seus ataques`, `Contra você`, `Ação`, `Testes` e
-`Sai quando`. Os mesmos seis nomes aparecem em todas as catorze, então quem aprende um
+`Sai quando`. Os mesmos seis nomes aparecem em todas as treze, então quem aprende um
 reconhece nas outras.
 
-No fim do capítulo, a tabela `Condições em uma linha` traz as catorze resumidas, para
+No fim do capítulo, a tabela `Condições em uma linha` traz as treze resumidas, para
 consulta na mesa.
 
 ### Nível `Leve`
@@ -1239,20 +1274,6 @@ Enquanto está `Enfeitiçado`, você sofre os seguintes efeitos.
 > **Só as de nível `Pesada` dão Teste de Resistência no fim de cada turno do alvo.**
 > **E só cabe uma delas por feitiço.**
 
-#### `Petrificado`
-
-Você virou pedra. Enquanto está `Petrificado`, você sofre os seguintes efeitos.
-
-**Ação.** Você fica `Incapacitado`.
-
-**Deslocamento.** É `0`.
-
-**Testes.** Você não percebe nada em volta.
-
-**Contra você.** Vantagem.
-
-**Resistência.** A todo dano.
-
 #### `Impedido`
 
 Enquanto está `Impedido`, você sofre os seguintes efeitos.
@@ -1317,7 +1338,6 @@ Para consulta na mesa. O efeito inteiro de cada uma está na entrada dela.
 | `Surdo` | `Leve` | falha no que precise de audição, `−2` na iniciativa |
 | `Calado` | `Média` | não conjura |
 | `Enfeitiçado` | `Média` | não ataca quem enfeitiçou; ele tem vantagem social contra você |
-| `Petrificado` | `Pesada` | `Incapacitado`, deslocamento `0`, resistência a todo dano |
 | `Impedido` | `Pesada` | deslocamento `0`, desvantagem nos ataques e no Físico |
 | `Cego` | `Pesada` | falha no que precise de vista, desvantagem nos ataques |
 | `Amedrontado` | `Pesada` | desvantagem enquanto vir a fonte, e não se aproxima dela |
@@ -1353,7 +1373,7 @@ A `Exaustão` engana: em outros jogos ela é condição, aqui não. Quem for esc
 ### Comprar uma condição
 
 > **Existe uma Melhoria `Condição`, uma só, e o preço dela é o nível da condição que você escolheu.**
-> Escolher `Derrubado` custa `Leve`. Escolher `Petrificado` custa `Pesada`.
+> Escolher `Derrubado` custa `Leve`. Escolher `Atordoado` custa `Pesada`.
 
 Você aponta a condição nas tabelas acima, lê o nível dela, e esse é o preço. Não existe pacote nem grupo de compra.
 
@@ -1442,7 +1462,7 @@ Os pontos de energia amaldiçoada que você gasta para conjurar.
 
 Os 25% valem em qualquer lugar. O que o ambiente propício faz é **proteger esse número da exaustão**: fora dele, cada degrau de exaustão corta um pedaço, até sobrar nada.
 
-Vida não volta sozinha no respiro entre lutas, porque quem conserta gente neste mundo é a Energia Reversa. O que já cura no descanso curto, como a Passiva `Reversão`, continua valendo o que vale.
+Vida não volta sozinha no respiro entre lutas, porque quem conserta gente neste mundo é a Energia Reversa. O que já cura no descanso curto continua valendo o que vale.
 
 ### Descanso longo
 
@@ -1738,7 +1758,7 @@ Nada aqui é escolha. Você copia da tabela e faz a conta.
 | Perícia treinada | d20 + atributo + 1 |
 | Teste de Resistência | d20 + atributo do TR + maestria, e a maestria só se treinado |
 
-No refino 1 você já tem duas aptidões, de graça: `cobrir-se de energia`, que dá proteção sem equipamento, e `canalizar energia`, que permite ferir uma maldição com o corpo ou com a arma. São básicas de qualquer feiticeiro.
+No refino 1 você já tem duas aptidões, de graça: `Cobrir-se de energia`, que dá proteção sem equipamento, e `Canalizar energia`, que permite ferir uma maldição com o corpo ou com a arma. São básicas de qualquer feiticeiro.
 
 > **Toda ficha de nível 2 nasce com proteção 1.** É o `+1` que entra na Defesa acima. Sem Traje e sem Revestimento, a sua proteção é `1/3 do refino + 1`, que no refino 1 dá 1. Escudo soma com ela; Traje e Revestimento desligam.
 
@@ -2281,7 +2301,7 @@ Escolha uma: Atletismo · Percepção · Ocultismo · Intimidação
 
 Técnica Marcial, no capítulo 10.
 
-Você tem energia amaldiçoada, então tem PE, aptidões e refino como qualquer feiticeiro tem — inclusive `canalizar energia`, que faz o seu golpe simples ferir maldição. O que você não tem é técnica inata para escrever, e é a Técnica Marcial que ocupa esse lugar.
+Você tem energia amaldiçoada, então tem PE, aptidões e refino como qualquer feiticeiro tem — inclusive `Canalizar energia`, que faz o seu golpe simples ferir maldição. O que você não tem é técnica inata para escrever, e é a Técnica Marcial que ocupa esse lugar.
 
 ### Legados do Corpo Amaldiçoado
 
@@ -2314,7 +2334,7 @@ Você tem energia amaldiçoada, então tem PE, aptidões e refino como qualquer 
 > *Na mesa:* serve contra emboscada. *Exemplo: a coisa cai do teto e você age antes dela.*
 
 > **Desempate** — **uma vez por dia, refaça um Teste de Resistência que você falhou.**
-> *Na mesa:* guarde para o efeito que tiraria o personagem da cena. *Exemplo: você falha contra `Petrificado`, e tenta de novo.*
+> *Na mesa:* guarde para o efeito que tiraria o personagem da cena. *Exemplo: você falha contra `Atordoado`, e tenta de novo.*
 
 ##### Gêmeos
 
@@ -3098,7 +3118,7 @@ Cada feitiço é montado na Classe que o seu nível já liberou, e *Números da 
 > **`Lança Negra` · Classe 2 · Projétil**
 > Classe 2 dá **6 pontos**.
 > A Melhoria `Fura` custa 2 e faz o feitiço ignorar até 6 de Redução de Dano.
-> A Restrição `Lento` devolve 2, em troca de a conjuração custar a rodada inteira.
+> A Restrição `Atrasar` devolve 2, em troca de a conjuração custar a rodada inteira.
 > 6 − 2 + 2 = **6 pontos sobrando**.
 > **Dano: 6d8 (média 27). Custo: 6 de PE.**
 >
@@ -3126,7 +3146,6 @@ Esta tabela supõe que você levou o atributo da técnica até o topo. Se ele fi
 **Escolha o atributo que o seu personagem já ia querer alto.** As perícias que ele usa, o Teste de Resistência que ele quer aguentar, uma Trilha que soma o mesmo atributo no dano: se alguma dessas coisas já puxa um atributo para cima, aponte a técnica para ele. Apontar para um atributo que você não pretende pagar é a armadilha.
 
 > Nada te obriga a escolher Inteligência ou Essência. Elas são as mais comuns porque quase toda técnica é análise ou percepção — mas a regra é *um dos cinco*, e a ficção decide.
-
 **Inteligência ou Essência**
 | Inteligência | Essência |
 |---|---|
@@ -3144,7 +3163,7 @@ Metade dos seus feitiços deixa a rolagem com o alvo: ele é quem rola contra vo
 
 **Você tem uma CD só.** Ela não muda de feitiço para feitiço, não sobe com a Classe e não se compra com pontos. É um número da ficha, como a sua Defesa.
 
-**O que o alvo rola.** Um **Teste de Resistência**: `d20 + o atributo daquele Teste`, mais 2 se ele for treinado nele. Igualou ou passou a sua CD, ele resistiu. Nos feitiços de área (`Explosão`, `Aura`, `Cone`, `Linha`) resistir quer dizer levar metade dos dados, salvo se você tiver comprado a Restrição `Tudo ou Nada`.
+**O que o alvo rola.** Um **Teste de Resistência**: `d20 + o atributo daquele Teste`, mais a maestria se ele for treinado nele. Igualou ou passou a sua CD, ele resistiu. Nos feitiços de área (`Explosão`, `Aura`, `Cone`, `Linha`) resistir quer dizer levar metade dos dados, salvo se você tiver comprado a Restrição `Tudo ou Nada`.
 
 **O que mexe na CD.** Só três coisas sobem a sua CD, e todas são compradas por feitiço:
 
@@ -3589,7 +3608,7 @@ Se uma Melhoria subir mais degraus do que a escada tem, ela para no último degr
 Você pode lançar qualquer feitiço que conhece numa Classe maior que a original, até a sua Classe máxima, pagando o PE da Classe nova. Refaça a conta inteira com os números novos: pontos, preços de Melhoria e devoluções de Restrição mudam todos juntos.
 
 **Ampliar**
-| `Palma Trovejante` · Classe | Pontos | `Cone` (Leve) | `Derrubado` (Leve) | `Lento` (devolve) | Dano | PE |
+| `Palma Trovejante` · Classe | Pontos | `Cone` (Leve) | `Derrubado` (Leve) | `Atrasar` (devolve) | Dano | PE |
 |---|---|---|---|---|---|---|
 | Classe 2 (original) | 6 | −1 | −1 | +2 | 6d8 = 27 | 6 |
 | Classe 3 | 9 | −2 | −2 | +3 | 8d8 = 36 | 9 |
@@ -3697,7 +3716,7 @@ O inimigo sai da luta sem cair morto: no chão, preso, ou lutando contra o próp
 **Controle**
 | Melhoria | Custo | O que faz |
 |---|---|---|
-| `Condição` | o nível dela | Aplica uma das catorze condições. O preço é o nível dela (`Leve`, `Média` ou `Pesada`), na tabela logo abaixo. Dura uma rodada. As de nível `Pesada` dão Teste de Resistência no fim de cada turno do alvo, e cabe só uma delas por feitiço. |
+| `Condição` | o nível dela | Aplica uma das treze condições. O preço é o nível dela (`Leve`, `Média` ou `Pesada`), na tabela logo abaixo. Dura uma rodada. As de nível `Pesada` dão Teste de Resistência no fim de cada turno do alvo, e cabe só uma delas por feitiço. |
 | `Terreno` | `Leve` | A área vira terreno difícil, ou fica obscurecida, por uma rodada. |
 | `Anteparo` | `Média` | Deixa uma parede ou escudo com 10 × Classe de pontos de vida, por 1 minuto. |
 | `Prende` | `Média` | O alvo não sai do lugar até o fim do próximo turno dele. Ele pode gastar a ação para tentar um Teste de Resistência e se soltar. |
@@ -3707,7 +3726,7 @@ O inimigo sai da luta sem cair morto: no chão, preso, ou lutando contra o próp
 
 ### Condições
 
-São catorze, e cada uma tem um **nível**: `Leve`, `Média` ou `Pesada`. O nível faz duas coisas ao mesmo tempo. Ele é o **preço** da Melhoria `Condição` que aplica ela, e é o que custa em energia para **tirar** ela de alguém (1 ponto por nível). Uma condição dura uma rodada.
+São treze, e cada uma tem um **nível**: `Leve`, `Média` ou `Pesada`. O nível faz duas coisas ao mesmo tempo. Ele é o **preço** da Melhoria `Condição` que aplica ela, e é o que custa em energia para **tirar** ela de alguém (1 ponto por nível). Uma condição dura uma rodada.
 
 Numa Classe 5, aplicar uma `Leve` custa 3 pontos, uma `Média` custa 5 e uma `Pesada` custa 8.
 
@@ -3730,7 +3749,6 @@ Numa Classe 5, aplicar uma `Leve` custa 3 pontos, uma `Média` custa 5 e uma `Pe
 **Condições `Pesada`**
 | Nível `Pesada` | O que faz |
 |---|---|
-| `Petrificado` | Virou pedra. `Incapacitado`, deslocamento 0, sem perceber o que está em volta, vantagem para quem te ataca, e resistência a todo dano. |
 | `Impedido` | Deslocamento 0, desvantagem nos seus ataques e no Teste de Resistência Físico, e vantagem para quem te ataca. |
 | `Cego` | Não enxerga. Falha automática em teste que precise de vista, desvantagem nos seus ataques, vantagem para quem te ataca. |
 | `Amedrontado` | Desvantagem em ataque e teste enquanto enxergar a fonte do medo, e você não se aproxima dela de vontade própria. |
@@ -3840,7 +3858,7 @@ Uma Restrição devolve `Leve` ou `Média`, nunca `Pesada`. Duas `Média` já ba
 | Restrição | Devolve | O que muda |
 |---|---|---|
 | `Corpo a Corpo` | `Média` | `Projétil` vira `Toque` (1,5 m). `Explosão` vira `Aura`, centrada em você. `Cone` e `Linha` já saem de você, então não podem pegar esta. |
-| `Lento` | `Média` | Custa a rodada inteira (Ação Completa): você não se move, não usa ação bônus e não faz mais nada naquele turno. |
+| `Atrasar` | `Média` | Custa a rodada inteira (Ação Completa): você não se move, não usa ação bônus e não faz mais nada naquele turno. |
 | `Parado` | `Leve` | Você não se move no turno em que conjura. A ação bônus continua sua. |
 | `Gesto` | `Leve` | Precisa das duas mãos livres e de falar em voz audível. |
 | `Sangra` | `Média` | Você toma 2 × Classe de dano que nada reduz. |
@@ -4159,8 +4177,8 @@ Trinta e cinco feitiços montados e conferidos, para usar como estão ou como re
 **Classe 2 · 6 pontos · 6 PE**
 | Nome | Como foi montado | Resultado |
 |---|---|---|
-| `Palma Trovejante` | `Cone` (−1) · `Derrubado` (−1) · `Lento` (+2) | 6d8 = 27 + `Derrubado` por uma rodada |
-| `Lança Negra` | `Projétil` · `Fura` (−2) · `Lento` (+2) | 6d8 = 27, fura 6 de RD. O `Lento` pagou a `Fura` inteira |
+| `Palma Trovejante` | `Cone` (−1) · `Derrubado` (−1) · `Atrasar` (+2) | 6d8 = 27 + `Derrubado` por uma rodada |
+| `Lança Negra` | `Projétil` · `Fura` (−2) · `Atrasar` (+2) | 6d8 = 27, fura 6 de RD. O `Atrasar` pagou a `Fura` inteira |
 | `Faísca em Cadeia` | `Projétil` · `Salto` (−2) · `Gesto` (+1) | 5d8 = 22 e 2d8 = 9 no segundo alvo |
 | `Sopro` | `Cura` (−2) | cura 4d8 = 18 |
 | `Vento a Favor` | `Apoio` · `Impulso` (−1) · `Pressa` (−2) | 9 de vida temporária, vantagem no próximo teste, +6 m sem provocar ataque |
@@ -4184,7 +4202,7 @@ Trinta e cinco feitiços montados e conferidos, para usar como estão ou como re
 | Nome | Como foi montado | Resultado |
 |---|---|---|
 | `Prisão de Sombras` | `Explosão` (−2) · `Atordoado` (−6) · `Escolher` (−4) · `Sangra` (+4) | 4d8 = 18 + `Atordoado` durando uma rodada a mais; você toma 8 |
-| `Julgamento Vertical` | `Linha` (−2) · `Fura` (−4) · `Precisão` (−2) · `Lento` (+4) | 8d8 = 36, fura 12 de RD, +2 na CD |
+| `Julgamento Vertical` | `Linha` (−2) · `Fura` (−4) · `Precisão` (−2) · `Atrasar` (+4) | 8d8 = 36, fura 12 de RD, +2 na CD |
 | `Roubo de Fôlego` | `Projétil` · `Sugar` (−4) · `Remate` (−4) · `Condicional`: o alvo te acertou desde o seu último turno (+4) | 8d8 = 36, cura 9, +25% em alvo abaixo de metade |
 | `Passo do Espelho` | `Toque` (`Corpo a Corpo` +4) · `Rápido` (−6) · `Passo` (−2) · `Recuo` (+4) | 12d8 = 54 como Ação Bônus, no toque |
 | `Muralha` | `Apoio` · `Anteparo` (−4) · `Guarda` (−4) · `Parado` (+2) | parede com 40 de vida, aliado com +2 de defesa e 18 de vida temporária |
@@ -4198,8 +4216,8 @@ Trinta e cinco feitiços montados e conferidos, para usar como estão ou como re
 |---|---|---|
 | `Purga Escarlate` | `Projétil` · `Inescapável` (−5) | 10d8 = 45 automático, sem acerto e sem resistência |
 | `Chuva de Agulhas` | `Projétil` · `Rajada` (−3) · `Precisão` (−3) · `Parado` (+3) | 12d8 = 54 em 6 tiros, +2 cada |
-| `Vala Comum` | `Explosão` (−3) · `Maior` (−3) · `Derrubado` (−3) · `Lento` (+5) | 11d8 = 49 num raio de 4,5 m, todos `Derrubados` por uma rodada |
-| `Fim de Turno` | `Explosão` (−3) · `Escolher` (−5) · `Lento` (+5) | 12d8 = 54 num raio de 3 m, só em quem você escolher |
+| `Vala Comum` | `Explosão` (−3) · `Maior` (−3) · `Derrubado` (−3) · `Atrasar` (+5) | 11d8 = 49 num raio de 4,5 m, todos `Derrubados` por uma rodada |
+| `Fim de Turno` | `Explosão` (−3) · `Escolher` (−5) · `Atrasar` (+5) | 12d8 = 54 num raio de 3 m, só em quem você escolher |
 | `Segunda Vida` | `Cura` (−5) · `Levanta` (−8) · `Uma Vez` (+3) · `Gesto` (+3) | cura 8d8 = 36, ou levanta um aliado caído com 25 |
 | `Fio Preso` | `Efeito` · `Fica` (−5) | um bairro de onde ninguém sai, até alguém desfazer |
 | `Sete Palmos` | `Toque` (`Corpo a Corpo` +5) · `Toca a Alma` (−3) | 15 dados viram 7d8 = 31 na alma, no toque |
@@ -4208,14 +4226,14 @@ Trinta e cinco feitiços montados e conferidos, para usar como estão ou como re
 
 Escritas antes da sessão, Classe 3 ou mais, fora da lista de feitiços conhecidos. Todas custam a rodada inteira, 50% a mais de PE e o preço escolhido na hora.
 
-Repare na `Rachadura`: o `Lento` devolveria 3 pontos, mas a `Linha` só custou 2, e devolução nunca passa do que foi gasto em Melhoria, então o terceiro ponto some sem virar dado.
+Repare na `Rachadura`: o `Atrasar` devolveria 3 pontos, mas a `Linha` só custou 2, e devolução nunca passa do que foi gasto em Melhoria, então o terceiro ponto some sem virar dado.
 
 **Liberações Máximas**
 | Nome | Como foi montado | Resultado |
 |---|---|---|
 | `Golpe do Voto` | Classe 5 · `Projétil` (nada mais) | 20d8 = 90, o máximo do nível 20. 23 PE |
-| `Rachadura` | Classe 3 · `Linha` (−2) · `Lento` (+3, só 2 aproveitados) | 12d8 = 54 numa linha de 18 m, o teto da Classe 3. 14 PE |
-| `Sentença Final` | Classe 5 · `Explosão` (−3) · `Escolher` (−5) · `Lento` (+5) | 17d8 = 76 num raio de 3 m, só em quem você escolher. 23 PE |
+| `Rachadura` | Classe 3 · `Linha` (−2) · `Atrasar` (+3, só 2 aproveitados) | 12d8 = 54 numa linha de 18 m, o teto da Classe 3. 14 PE |
+| `Sentença Final` | Classe 5 · `Explosão` (−3) · `Escolher` (−5) · `Atrasar` (+5) | 17d8 = 76 num raio de 3 m, só em quem você escolher. 23 PE |
 
 ### Técnicas Máximas
 
@@ -4373,7 +4391,7 @@ Ele funciona como qualquer outro Selo: não custa ponto, não devolve ponto e n�
 
 ## Ferir maldição
 
-Uma arma comum não fere maldição. Quem tem energia resolve isso com `canalizar energia`, a aptidão de graça do refino 1 — e quem não tem energia não tem aptidão nenhuma.
+Uma arma comum não fere maldição. Quem tem energia resolve isso com `Canalizar energia`, a aptidão de graça do refino 1 — e quem não tem energia não tem aptidão nenhuma.
 
 > **Toda Kata passa pelo equipamento, e o equipamento é ferramenta amaldiçoada de grau 4.** Então toda Kata fere maldição, nas duas rotas.
 
@@ -4391,7 +4409,7 @@ Na rota de ferramenta, o objeto declara qual dos dois é na criação — uma li
 > **Coisa que você só carrega** — câmera, lanterna, maleta, instrumento. O seu golpe simples não fere maldição, e as suas Katas continuam ferindo.
 
 > **⚠ Escolha com cuidado, porque ela cobra tarde.** O ataque extra que Bastião e Vanguarda ganham no nível 7 é um golpe simples solto. Se o seu objeto é do tipo que você só carrega, esses dois Caminhos passam a valer bem menos na sua ficha.
-> **O Corpo Amaldiçoado fere maldição com o golpe simples, seja qual for o objeto.** Ele tem energia amaldiçoada, então tem aptidões e refino normais — e com eles o `canalizar energia` de graça no refino 1. **O equipamento continua obrigatório**, porque ele é o Selo, e sem Selo não sai Kata.
+> **O Corpo Amaldiçoado fere maldição com o golpe simples, seja qual for o objeto.** Ele tem energia amaldiçoada, então tem aptidões e refino normais — e com eles o `Canalizar energia` de graça no refino 1. **O equipamento continua obrigatório**, porque ele é o Selo, e sem Selo não sai Kata.
 
 ## `Desarmado`
 
@@ -4455,7 +4473,7 @@ Duas, uma de cada rota. As duas param onde a criação de personagem para: Descr
 | **Fechadas** | Amparo · Auxiliares · Área |
 | **Passiva** | `Raiz` (Classe Passiva 1): você não é movido à força nem derrubado contra a sua vontade |
 
-Os três grupos fecham em Força, e os três carregam `Alcance` e `Emaranha` — é isso que justifica as duas Famílias Livres. `Amparo` está Fechada porque nenhuma das três cura ninguém.
+`Amparo` está Fechada porque nenhuma das três cura ninguém.
 
 ### Bancada
 

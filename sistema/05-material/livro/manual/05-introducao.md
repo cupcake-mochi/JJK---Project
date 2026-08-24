@@ -26,7 +26,7 @@ Nem todo capítulo é para ler do começo ao fim. Metade dos capítulos é catá
 | **1** | Como Jogar | *ler* · o dado, o teste, o acerto, a defesa, e o que acontece quando a vida acaba |
 | **2** | O Turno | *ler* · a iniciativa e as doze ações |
 | **3** | Perícias e Ofícios | *ler, depois consultar* · as vinte e três perícias e os onze ofícios |
-| **4** | Dano, Condições e Cobertura | *consulta* · os catorze tipos de dano, as catorze condições, e a mureta no meio do caminho |
+| **4** | Dano, Condições e Cobertura | *consulta* · os catorze tipos de dano, as treze condições, e a mureta no meio do caminho |
 | **5** | Descanso e Recuperação | *ler* · o que volta entre uma luta e a seguinte |
 | | **O PERSONAGEM** | |
 | **6** | Criação de Personagem | *ler, com a ficha na mão* · oito passos, de vinte a quarenta minutos |
@@ -43,8 +43,8 @@ Nem todo capítulo é para ler do começo ao fim. Metade dos capítulos é catá
 | **18** | Apêndice · Bloquear | *decisão de mesa* · Defesa parada ou rolar `2d10` pra se defender — os dois são regra do sistema |
 | | **Índice remissivo** | no fim: termo, e em que página ele aparece |
 
-**Grupo novo, sem ninguém ter lido nada?** Vá direto para *Antes da primeira sessão*, logo depois desta introdução. É uma cena pronta, com ficha e tudo, para jogar antes de estudar o resto.
+**Grupo novo, sem ninguém ter lido nada?** Vá direto para *Antes da primeira sessão*. É uma cena pronta, com ficha e tudo, para jogar antes de estudar o resto.
 
 **Leia Como Jogar antes de qualquer outra coisa.** É o capítulo dono do vocabulário que todos os outros usam sem parar para explicar de novo. Depois dele, pular direto para o que te interessa funciona.
 
-**E se esbarrar num nome que ninguém te apresentou**, ele está no vocabulário, logo na página seguinte, com o número do capítulo que trata dele por extenso.
+**E se esbarrar num nome que ninguém te apresentou**, ele está no vocabulário do sistema, com o número do capítulo que trata dele por extenso.

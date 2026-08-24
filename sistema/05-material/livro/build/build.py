@@ -174,8 +174,13 @@ def trata_tabelas(soup):
             # E a que enche uma pagina sozinha comeca em pagina propria. Sem
             # isso o titulo dela (mesmo virado `<caption>`) fica no pe da coluna
             # anterior e o corpo vai para a pagina seguinte — medido no catalogo
-            # de armas. Sao DUAS tabelas no livro: o catalogo de 52 armas e a
-            # tabela de progressao. O corte de 20 linhas e' declarado aqui.
+            # de armas. Eram DUAS ate a v0.138 — o catalogo de 52 armas e a
+            # tabela de progressao — e sao TRES desde a v0.139, quando o capitulo
+            # 3 trocou a tabela de pericia por atributo por um catalogo unico de
+            # 34 linhas. O corte de 20 linhas e' declarado aqui.
+            #
+            # E' isso que faz a diagramacao de duas colunas SUBIR de pagina numa
+            # versao em que o livro perdeu palavra: cada uma destas comeca pagina.
             if len(rows) >= 20:
                 classes.append("pagina-propria")
 

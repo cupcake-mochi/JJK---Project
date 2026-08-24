@@ -131,10 +131,10 @@ def relatorio_busca():
 # >>> ADAPTE
 RESTRICOES = {
     'Parado':        {'preco': 'L', 'consome': {'movimento'}},
-    # 'Lento' esta em 'L' de proposito: e o estado ANTES do conserto, para o
+    # 'Atrasar' esta em 'L' de proposito: e o estado ANTES do conserto, para o
     # esqueleto demonstrar a deteccao rodando. Depois de subir para 'M', o par
     # deixa de aparecer — que e o resultado desejado.
-    'Lento':         {'preco': 'L', 'consome': {'movimento', 'acao_bonus', 'acao_padrao'}},
+    'Atrasar':       {'preco': 'L', 'consome': {'movimento', 'acao_bonus', 'acao_padrao'}},
     'Gesto':         {'preco': 'L', 'consome': {'maos', 'voz'}},
     'Carregar':      {'preco': 'M', 'consome': {'turno_anterior', 'risco_perder'}},
     'Corpo a Corpo': {'preco': 'M', 'consome': {'distancia'}},

@@ -105,7 +105,7 @@ Ele funciona como qualquer outro Selo: não custa ponto, não devolve ponto e n�
 
 ## Ferir maldição
 
-Uma arma comum não fere maldição. Quem tem energia resolve isso com `canalizar energia`, a aptidão de graça do refino 1 — e quem não tem energia não tem aptidão nenhuma.
+Uma arma comum não fere maldição. Quem tem energia resolve isso com `Canalizar energia`, a aptidão de graça do refino 1 — e quem não tem energia não tem aptidão nenhuma.
 
 > **Toda Kata passa pelo equipamento, e o equipamento é ferramenta amaldiçoada de grau 4.** Então toda Kata fere maldição, nas duas rotas.
 
@@ -127,7 +127,7 @@ Na rota de ferramenta, o objeto declara qual dos dois é na criação — uma li
 > **⚠ Escolha com cuidado, porque ela cobra tarde.** O ataque extra que Bastião e Vanguarda ganham no nível 7 é um golpe simples solto. Se o seu objeto é do tipo que você só carrega, esses dois Caminhos passam a valer bem menos na sua ficha.
 {: .aviso }
 
-> **O Corpo Amaldiçoado fere maldição com o golpe simples, seja qual for o objeto.** Ele tem energia amaldiçoada, então tem aptidões e refino normais — e com eles o `canalizar energia` de graça no refino 1. **O equipamento continua obrigatório**, porque ele é o Selo, e sem Selo não sai Kata.
+> **O Corpo Amaldiçoado fere maldição com o golpe simples, seja qual for o objeto.** Ele tem energia amaldiçoada, então tem aptidões e refino normais — e com eles o `Canalizar energia` de graça no refino 1. **O equipamento continua obrigatório**, porque ele é o Selo, e sem Selo não sai Kata.
 
 ## `Desarmado`
 
@@ -197,7 +197,7 @@ Duas, uma de cada rota. As duas param onde a criação de personagem para: Descr
 | **Fechadas** | Amparo · Auxiliares · Área |
 | **Passiva** | `Raiz` (Classe Passiva 1): você não é movido à força nem derrubado contra a sua vontade |
 
-Os três grupos fecham em Força, e os três carregam `Alcance` e `Emaranha` — é isso que justifica as duas Famílias Livres. `Amparo` está Fechada porque nenhuma das três cura ninguém.
+`Amparo` está Fechada porque nenhuma das três cura ninguém.
 
 ### Bancada
 

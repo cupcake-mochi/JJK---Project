@@ -37,7 +37,7 @@ Cada feitiço é montado na Classe que o seu nível já liberou, e *Números da 
 > **`Lança Negra` · Classe 2 · Projétil**
 > Classe 2 dá **6 pontos**.
 > A Melhoria `Fura` custa 2 e faz o feitiço ignorar até 6 de Redução de Dano.
-> A Restrição `Lento` devolve 2, em troca de a conjuração custar a rodada inteira.
+> A Restrição `Atrasar` devolve 2, em troca de a conjuração custar a rodada inteira.
 > 6 − 2 + 2 = **6 pontos sobrando**.
 > **Dano: 6d8 (média 27). Custo: 6 de PE.**
 >
@@ -66,8 +66,8 @@ Esta tabela supõe que você levou o atributo da técnica até o topo. Se ele fi
 
 **Escolha o atributo que o seu personagem já ia querer alto.** As perícias que ele usa, o Teste de Resistência que ele quer aguentar, uma Trilha que soma o mesmo atributo no dano: se alguma dessas coisas já puxa um atributo para cima, aponte a técnica para ele. Apontar para um atributo que você não pretende pagar é a armadilha.
 
-{: .aviso }
 > Nada te obriga a escolher Inteligência ou Essência. Elas são as mais comuns porque quase toda técnica é análise ou percepção — mas a regra é *um dos cinco*, e a ficção decide.
+{: .aviso }
 
 **Inteligência ou Essência**
 {: .tab-titulo }
@@ -88,7 +88,7 @@ Metade dos seus feitiços deixa a rolagem com o alvo: ele é quem rola contra vo
 
 **Você tem uma CD só.** Ela não muda de feitiço para feitiço, não sobe com a Classe e não se compra com pontos. É um número da ficha, como a sua Defesa.
 
-**O que o alvo rola.** Um **Teste de Resistência**: `d20 + o atributo daquele Teste`, mais 2 se ele for treinado nele. Igualou ou passou a sua CD, ele resistiu. Nos feitiços de área (`Explosão`, `Aura`, `Cone`, `Linha`) resistir quer dizer levar metade dos dados, salvo se você tiver comprado a Restrição `Tudo ou Nada`.
+**O que o alvo rola.** Um **Teste de Resistência**: `d20 + o atributo daquele Teste`, mais a maestria se ele for treinado nele. Igualou ou passou a sua CD, ele resistiu. Nos feitiços de área (`Explosão`, `Aura`, `Cone`, `Linha`) resistir quer dizer levar metade dos dados, salvo se você tiver comprado a Restrição `Tudo ou Nada`.
 
 **O que mexe na CD.** Só três coisas sobem a sua CD, e todas são compradas por feitiço:
 
@@ -575,7 +575,7 @@ Você pode lançar qualquer feitiço que conhece numa Classe maior que a origina
 **Ampliar**
 {: .tab-titulo }
 
-| `Palma Trovejante` · Classe | Pontos | `Cone` (Leve) | `Derrubado` (Leve) | `Lento` (devolve) | Dano | PE |
+| `Palma Trovejante` · Classe | Pontos | `Cone` (Leve) | `Derrubado` (Leve) | `Atrasar` (devolve) | Dano | PE |
 |---|---|---|---|---|---|---|
 | Classe 2 (original) | 6 | −1 | −1 | +2 | 6d8 = 27 | 6 |
 | Classe 3 | 9 | −2 | −2 | +3 | 8d8 = 36 | 9 |
@@ -695,7 +695,7 @@ O inimigo sai da luta sem cair morto: no chão, preso, ou lutando contra o próp
 
 | Melhoria | Custo | O que faz |
 |---|---|---|
-| `Condição` | o nível dela | Aplica uma das catorze condições. O preço é o nível dela (`Leve`, `Média` ou `Pesada`), na tabela logo abaixo. Dura uma rodada. As de nível `Pesada` dão Teste de Resistência no fim de cada turno do alvo, e cabe só uma delas por feitiço. |
+| `Condição` | o nível dela | Aplica uma das treze condições. O preço é o nível dela (`Leve`, `Média` ou `Pesada`), na tabela logo abaixo. Dura uma rodada. As de nível `Pesada` dão Teste de Resistência no fim de cada turno do alvo, e cabe só uma delas por feitiço. |
 | `Terreno` | `Leve` | A área vira terreno difícil, ou fica obscurecida, por uma rodada. |
 | `Anteparo` | `Média` | Deixa uma parede ou escudo com 10 × Classe de pontos de vida, por 1 minuto. |
 | `Prende` | `Média` | O alvo não sai do lugar até o fim do próximo turno dele. Ele pode gastar a ação para tentar um Teste de Resistência e se soltar. |
@@ -705,7 +705,7 @@ O inimigo sai da luta sem cair morto: no chão, preso, ou lutando contra o próp
 
 ### Condições
 
-São catorze, e cada uma tem um **nível**: `Leve`, `Média` ou `Pesada`. O nível faz duas coisas ao mesmo tempo. Ele é o **preço** da Melhoria `Condição` que aplica ela, e é o que custa em energia para **tirar** ela de alguém (1 ponto por nível). Uma condição dura uma rodada.
+São treze, e cada uma tem um **nível**: `Leve`, `Média` ou `Pesada`. O nível faz duas coisas ao mesmo tempo. Ele é o **preço** da Melhoria `Condição` que aplica ela, e é o que custa em energia para **tirar** ela de alguém (1 ponto por nível). Uma condição dura uma rodada.
 
 Numa Classe 5, aplicar uma `Leve` custa 3 pontos, uma `Média` custa 5 e uma `Pesada` custa 8.
 
@@ -734,7 +734,6 @@ Numa Classe 5, aplicar uma `Leve` custa 3 pontos, uma `Média` custa 5 e uma `Pe
 
 | Nível `Pesada` | O que faz |
 |---|---|
-| `Petrificado` | Virou pedra. `Incapacitado`, deslocamento 0, sem perceber o que está em volta, vantagem para quem te ataca, e resistência a todo dano. |
 | `Impedido` | Deslocamento 0, desvantagem nos seus ataques e no Teste de Resistência Físico, e vantagem para quem te ataca. |
 | `Cego` | Não enxerga. Falha automática em teste que precise de vista, desvantagem nos seus ataques, vantagem para quem te ataca. |
 | `Amedrontado` | Desvantagem em ataque e teste enquanto enxergar a fonte do medo, e você não se aproxima dela de vontade própria. |
@@ -858,7 +857,7 @@ Uma Restrição devolve `Leve` ou `Média`, nunca `Pesada`. Duas `Média` já ba
 | Restrição | Devolve | O que muda |
 |---|---|---|
 | `Corpo a Corpo` | `Média` | `Projétil` vira `Toque` (1,5 m). `Explosão` vira `Aura`, centrada em você. `Cone` e `Linha` já saem de você, então não podem pegar esta. |
-| `Lento` | `Média` | Custa a rodada inteira (Ação Completa): você não se move, não usa ação bônus e não faz mais nada naquele turno. |
+| `Atrasar` | `Média` | Custa a rodada inteira (Ação Completa): você não se move, não usa ação bônus e não faz mais nada naquele turno. |
 | `Parado` | `Leve` | Você não se move no turno em que conjura. A ação bônus continua sua. |
 | `Gesto` | `Leve` | Precisa das duas mãos livres e de falar em voz audível. |
 | `Sangra` | `Média` | Você toma 2 × Classe de dano que nada reduz. |
@@ -1199,8 +1198,8 @@ Trinta e cinco feitiços montados e conferidos, para usar como estão ou como re
 
 | Nome | Como foi montado | Resultado |
 |---|---|---|
-| `Palma Trovejante` | `Cone` (−1) · `Derrubado` (−1) · `Lento` (+2) | 6d8 = 27 + `Derrubado` por uma rodada |
-| `Lança Negra` | `Projétil` · `Fura` (−2) · `Lento` (+2) | 6d8 = 27, fura 6 de RD. O `Lento` pagou a `Fura` inteira |
+| `Palma Trovejante` | `Cone` (−1) · `Derrubado` (−1) · `Atrasar` (+2) | 6d8 = 27 + `Derrubado` por uma rodada |
+| `Lança Negra` | `Projétil` · `Fura` (−2) · `Atrasar` (+2) | 6d8 = 27, fura 6 de RD. O `Atrasar` pagou a `Fura` inteira |
 | `Faísca em Cadeia` | `Projétil` · `Salto` (−2) · `Gesto` (+1) | 5d8 = 22 e 2d8 = 9 no segundo alvo |
 | `Sopro` | `Cura` (−2) | cura 4d8 = 18 |
 | `Vento a Favor` | `Apoio` · `Impulso` (−1) · `Pressa` (−2) | 9 de vida temporária, vantagem no próximo teste, +6 m sem provocar ataque |
@@ -1228,7 +1227,7 @@ Trinta e cinco feitiços montados e conferidos, para usar como estão ou como re
 | Nome | Como foi montado | Resultado |
 |---|---|---|
 | `Prisão de Sombras` | `Explosão` (−2) · `Atordoado` (−6) · `Escolher` (−4) · `Sangra` (+4) | 4d8 = 18 + `Atordoado` durando uma rodada a mais; você toma 8 |
-| `Julgamento Vertical` | `Linha` (−2) · `Fura` (−4) · `Precisão` (−2) · `Lento` (+4) | 8d8 = 36, fura 12 de RD, +2 na CD |
+| `Julgamento Vertical` | `Linha` (−2) · `Fura` (−4) · `Precisão` (−2) · `Atrasar` (+4) | 8d8 = 36, fura 12 de RD, +2 na CD |
 | `Roubo de Fôlego` | `Projétil` · `Sugar` (−4) · `Remate` (−4) · `Condicional`: o alvo te acertou desde o seu último turno (+4) | 8d8 = 36, cura 9, +25% em alvo abaixo de metade |
 | `Passo do Espelho` | `Toque` (`Corpo a Corpo` +4) · `Rápido` (−6) · `Passo` (−2) · `Recuo` (+4) | 12d8 = 54 como Ação Bônus, no toque |
 | `Muralha` | `Apoio` · `Anteparo` (−4) · `Guarda` (−4) · `Parado` (+2) | parede com 40 de vida, aliado com +2 de defesa e 18 de vida temporária |
@@ -1244,8 +1243,8 @@ Trinta e cinco feitiços montados e conferidos, para usar como estão ou como re
 |---|---|---|
 | `Purga Escarlate` | `Projétil` · `Inescapável` (−5) | 10d8 = 45 automático, sem acerto e sem resistência |
 | `Chuva de Agulhas` | `Projétil` · `Rajada` (−3) · `Precisão` (−3) · `Parado` (+3) | 12d8 = 54 em 6 tiros, +2 cada |
-| `Vala Comum` | `Explosão` (−3) · `Maior` (−3) · `Derrubado` (−3) · `Lento` (+5) | 11d8 = 49 num raio de 4,5 m, todos `Derrubados` por uma rodada |
-| `Fim de Turno` | `Explosão` (−3) · `Escolher` (−5) · `Lento` (+5) | 12d8 = 54 num raio de 3 m, só em quem você escolher |
+| `Vala Comum` | `Explosão` (−3) · `Maior` (−3) · `Derrubado` (−3) · `Atrasar` (+5) | 11d8 = 49 num raio de 4,5 m, todos `Derrubados` por uma rodada |
+| `Fim de Turno` | `Explosão` (−3) · `Escolher` (−5) · `Atrasar` (+5) | 12d8 = 54 num raio de 3 m, só em quem você escolher |
 | `Segunda Vida` | `Cura` (−5) · `Levanta` (−8) · `Uma Vez` (+3) · `Gesto` (+3) | cura 8d8 = 36, ou levanta um aliado caído com 25 |
 | `Fio Preso` | `Efeito` · `Fica` (−5) | um bairro de onde ninguém sai, até alguém desfazer |
 | `Sete Palmos` | `Toque` (`Corpo a Corpo` +5) · `Toca a Alma` (−3) | 15 dados viram 7d8 = 31 na alma, no toque |
@@ -1254,7 +1253,7 @@ Trinta e cinco feitiços montados e conferidos, para usar como estão ou como re
 
 Escritas antes da sessão, Classe 3 ou mais, fora da lista de feitiços conhecidos. Todas custam a rodada inteira, 50% a mais de PE e o preço escolhido na hora.
 
-Repare na `Rachadura`: o `Lento` devolveria 3 pontos, mas a `Linha` só custou 2, e devolução nunca passa do que foi gasto em Melhoria, então o terceiro ponto some sem virar dado.
+Repare na `Rachadura`: o `Atrasar` devolveria 3 pontos, mas a `Linha` só custou 2, e devolução nunca passa do que foi gasto em Melhoria, então o terceiro ponto some sem virar dado.
 
 **Liberações Máximas**
 {: .tab-titulo }
@@ -1262,8 +1261,8 @@ Repare na `Rachadura`: o `Lento` devolveria 3 pontos, mas a `Linha` só custou 2
 | Nome | Como foi montado | Resultado |
 |---|---|---|
 | `Golpe do Voto` | Classe 5 · `Projétil` (nada mais) | 20d8 = 90, o máximo do nível 20. 23 PE |
-| `Rachadura` | Classe 3 · `Linha` (−2) · `Lento` (+3, só 2 aproveitados) | 12d8 = 54 numa linha de 18 m, o teto da Classe 3. 14 PE |
-| `Sentença Final` | Classe 5 · `Explosão` (−3) · `Escolher` (−5) · `Lento` (+5) | 17d8 = 76 num raio de 3 m, só em quem você escolher. 23 PE |
+| `Rachadura` | Classe 3 · `Linha` (−2) · `Atrasar` (+3, só 2 aproveitados) | 12d8 = 54 numa linha de 18 m, o teto da Classe 3. 14 PE |
+| `Sentença Final` | Classe 5 · `Explosão` (−3) · `Escolher` (−5) · `Atrasar` (+5) | 17d8 = 76 num raio de 3 m, só em quem você escolher. 23 PE |
 
 ### Técnicas Máximas
 

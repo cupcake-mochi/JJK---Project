@@ -28,9 +28,9 @@ A regra prática: se é uma ferramenta ou um procedimento que alguém te ensinou
 
 Ser **treinado** quer dizer ter aquela perícia ou aquele ofício marcado na ficha; a seção *Treino* diz de onde vêm as marcas. **Maestria** é o bônus que cresce com o nível, e a escada dela está no capítulo 1, *Como Jogar*. O mestre põe uma **CD**, o número que a sua rolagem precisa alcançar para você conseguir o que queria. Por exemplo, com Destreza 3 e maestria 1, uma `Furtividade` treinada rola `d20 + 4`; sem treino, `d20 + 3`.
 
-### Atributo fixo ou variável
+### Atributo do ofício
 
-Forjar uma lâmina é Força. Falsificar uma assinatura é Destreza. Saber qual selo o papel pede é Inteligência. As três coisas são o mesmo ofício, `Caligrafia` ou `Forja`, e o mestre escolhe o atributo na hora, do mesmo jeito que escolhe a dificuldade.
+Forjar uma lâmina é Força. Falsificar uma assinatura é Destreza. Saber qual selo o papel pede é Inteligência. As três coisas são o mesmo ofício, `Caligrafia` ou `Forja`, e o mestre escolhe o atributo na hora, do mesmo jeito que escolhe a dificuldade. Perícia não faz isso: o atributo dela é o da tabela e não muda.
 
 Um ofício rende diferente na mão de cada personagem. O mesmo `Arrombamento` é uma coisa para quem tem Destreza 4 e outra para quem tem Inteligência 4, e as duas fichas passam por portas diferentes.
 
@@ -44,84 +44,114 @@ Qualquer um pode tentar escalar e falhar. Ninguém forja uma lâmina por tentati
 >
 > Chegando na porta, ela usa `Arrombamento`. O mestre decide que forçar aquela tranca é trabalho de mão e cobra Destreza: `d20 + 4 + 1` de novo. Se a tranca fosse eletrônica ele teria cobrado Inteligência, e o mesmo ofício sairia `d20 + 2 + 1`. Três a menos, porque a Rina é boa com as mãos e não com o sistema.
 
-## Perícias
+## Catálogo
 
-### Inteligência e Essência
+**Perícias e ofícios**
+{: .tab-titulo }
+
+| Nome | Tipo | Atributo | Sem treino |
+|---|---|---|---|
+| Atletismo | perícia | Força | `d20` + atributo |
+| Acrobacia | perícia | Destreza | `d20` + atributo |
+| Furtividade | perícia | Destreza | `d20` + atributo |
+| Pontaria | perícia | Destreza | `d20` + atributo |
+| Prestidigitação | perícia | Destreza | `d20` + atributo |
+| Investigação | perícia | Inteligência | `d20` + atributo |
+| Intuição | perícia | Inteligência | `d20` + atributo |
+| Ocultismo | perícia | Inteligência | `d20` + atributo |
+| Religião | perícia | Inteligência | `d20` + atributo |
+| História | perícia | Inteligência | `d20` + atributo |
+| Hierarquia | perícia | Inteligência | `d20` + atributo |
+| Medicina | perícia | Inteligência | `d20` + atributo |
+| Sobrevivência | perícia | Inteligência | `d20` + atributo |
+| Natureza | perícia | Inteligência | `d20` + atributo |
+| Lidar com Animais | perícia | Inteligência | `d20` + atributo |
+| Tecnologia | perícia | Inteligência | `d20` + atributo |
+| Sentir Energia | perícia | Essência | `d20` + atributo |
+| Percepção | perícia | Essência | `d20` + atributo |
+| Persuasão | perícia | Essência | `d20` + atributo |
+| Enganação | perícia | Essência | `d20` + atributo |
+| Intimidação | perícia | Essência | `d20` + atributo |
+| Atuação | perícia | Essência | `d20` + atributo |
+| Provocar | perícia | Essência | `d20` + atributo |
+| Condução | ofício | o que a situação pedir | não rola |
+| Arrombamento | ofício | o que a situação pedir | não rola |
+| Herbalismo | ofício | o que a situação pedir | não rola |
+| Forja | ofício | o que a situação pedir | não rola |
+| Caligrafia | ofício | o que a situação pedir | não rola |
+| Burocracia | ofício | o que a situação pedir | não rola |
+| Entalhador | ofício | o que a situação pedir | não rola |
+| Alfaiate | ofício | o que a situação pedir | não rola |
+| Culinária | ofício | o que a situação pedir | não rola |
+| Instrumento | ofício | o que a situação pedir | não rola |
+| Jogatina | ofício | o que a situação pedir | não rola |
+
+Inteligência leva 11 das 23 perícias, Essência 7, Destreza 4 e Força 1. **Nenhuma perícia mora em Constituição** — ela governa os pontos de vida e o Teste de Resistência de Vigor.
+
+> **`Sentir Energia` não existe para a Restrição Celestial pelo ramo sem energia.** Aquele ramo não tem energia amaldiçoada nenhuma, e não é caso de rolar sem treino: a perícia não entra na ficha. Está no capítulo 7, *Origens e Legados*.
+{: .aviso }
 
 **Inteligência sabe, Essência percebe.** Inteligência é o que você estudou: o catálogo de maldições, o que aconteceu, como o corpo funciona, quem manda em quem. Essência é o que você capta: a energia no ar, o barulho no corredor, a mentira na voz de alguém.
 
-**Perícias por atributo**
-{: .tab-titulo }
+## Perícias
 
-| Atributo | Perícias | Quantas |
-|---|---|---|
-| **Força** | Atletismo | 1 |
-| **Destreza** | Acrobacia · Furtividade · Pontaria · Prestidigitação | 4 |
-| **Inteligência** | Investigação · Intuição · Ocultismo · Religião · História · Hierarquia · Medicina · Sobrevivência · Natureza · Lidar com Animais · Tecnologia | 11 |
-| **Essência** | Sentir Energia · Percepção · Persuasão · Enganação · Intimidação · Atuação · Provocar | 7 |
-| **Constituição** | — | 0 |
+### Força
 
-Nenhuma perícia mora em Constituição. Constituição governa os pontos de vida e o Teste de Resistência de Vigor.
+**Atletismo** — correr, escalar, nadar, saltar, carregar quem não anda. A cena em que o obstáculo é o terreno.
 
-### Catálogo
+### Destreza
 
-#### Força
+**Acrobacia** — equilíbrio, cair sem se machucar, passar por espaço apertado. Também é o que tira você de um `Agarrado`, no capítulo 4, *Dano, Condições e Cobertura*.
 
-**Atletismo** — correr, escalar, nadar, saltar, carregar alguém que não consegue andar. É a perícia das cenas em que o obstáculo é o terreno: a grade que precisa ser vencida antes da maldição chegar, o companheiro desmaiado que alguém tem que tirar dali, os três andares de escada que separam o grupo do telhado.
+**Furtividade** — mover-se sem ser visto nem ouvido. Decide se a cena começa com o grupo escolhendo o momento, ou com o inimigo.
 
-#### Destreza
+**Pontaria** — acertar o que é pequeno, o que está longe ou o que se mexe, fora de uma rolagem de ataque. O arremesso que resolve a cena antes de virar combate.
 
-**Acrobacia** — equilíbrio, cair sem se machucar, escapar de um agarrão, passar por espaço apertado. Aparece quando o chão trai: viga estreita, telhado molhado, o corredor desabando enquanto vocês correm. Também é o que tira você de um `Agarrado`, no capítulo 4, *Dano, Condições e Cobertura*.
+**Prestidigitação** — mão rápida: esconder um objeto, tirar do bolso alheio, trocar uma coisa por outra. A cena com plateia.
 
-**Furtividade** — mover-se sem ser visto nem ouvido. É a perícia de infiltração e de emboscada, e a que decide se a cena começa com o grupo escolhendo o momento ou com o inimigo escolhendo por ele.
+### Inteligência
 
-**Pontaria** — acertar o que é pequeno, o que está longe ou o que se mexe, fora de uma rolagem de ataque. Serve para o arremesso que resolve a cena sem virar combate: a chave jogada pela grade, o talismã colado na testa da coisa antes que ela vire, a pedra que acerta o interruptor no fim do corredor.
+**Investigação** — vasculhar, deduzir, ligar duas pistas que ninguém tinha ligado. A cena de local, e o padrão que se repete.
 
-**Prestidigitação** — mão rápida: esconder um objeto, tirar do bolso alheio, trocar uma coisa por outra na frente de quem está olhando. É a perícia da cena com plateia, em que a dificuldade é fazer sem ninguém ver.
+**Intuição** — ler a pessoa pelo que ela faz: a inconsistência, o detalhe que não fecha, a motivação atrás do pedido. Perceber que alguém está nervoso é `Percepção`.
 
-#### Inteligência
+**Ocultismo** — maldições, técnicas conhecidas, barreiras, o funcionamento da energia amaldiçoada. O nome da coisa, o grau dela, e o que costuma matá-la.
 
-**Investigação** — vasculhar, deduzir, ligar duas pistas que ninguém tinha ligado. É a perícia de cena de local: o apartamento onde alguém sumiu, a sala onde a barreira foi montada, o padrão que se repete nos três desaparecimentos.
+**Religião** — xintoísmo, budismo, exorcismo, templo, ritual, o que os selos querem dizer. O lugar antigo, e o rito que precisa ser feito na ordem certa.
 
-**Intuição** — ler a pessoa pelo que ela faz: a inconsistência na história, o detalhe que não fecha, a motivação atrás do pedido. É dedução sobre gente, e por isso é Inteligência. Aparece na cena de negociação e de interrogatório, quando o grupo precisa decidir se o informante está entregando ou vendendo. Perceber que alguém está nervoso é `Percepção`.
+**História** — o que aconteceu e quem estava lá, no mundo comum e no registro das famílias. A cena de arquivo: por que este clã odeia aquele.
 
-**Ocultismo** — maldições, técnicas conhecidas, barreiras, o funcionamento da energia amaldiçoada. O lado técnico. É o que você rola quando a coisa na sua frente já foi catalogada por alguém e você quer saber o nome dela, o grau dela e o que costuma matá-la.
+**Hierarquia** — os clãs, a política, quem manda em quem. Diz o que você pode pedir, a quem, e o que vai custar.
 
-**Religião** — xintoísmo, budismo, exorcismo, templo, ritual, o que os selos querem dizer. O lado sagrado, que é de onde o jujutsu veio antes de virar instituição. Resolve cena de lugar antigo: o santuário que ninguém cuida há quarenta anos, o rito que precisa ser feito na ordem certa, a inscrição na pedra que explica por que aquilo está preso ali.
+**Medicina** — ferimento, veneno, doença, corpo. É o saber; a prática de campo é o ofício `Herbalismo`.
 
-**História** — o que aconteceu e quem estava lá, no mundo comum e no registro das famílias. É a perícia da cena de arquivo e da cena de conversa longa: entender por que este clã odeia aquele, saber que já houve uma missão neste endereço em 1974.
+**Sobrevivência** — aguentar o ambiente, achar água e abrigo, se orientar, e seguir um rastro, seja pegada ou resíduo de energia.
 
-**Hierarquia** — os clãs, a política, quem manda em quem e quem deve o quê a quem. Diz o que você pode pedir, a quem, e o que vai custar. Resolve a cena política: a sala de reunião, o superior que precisa autorizar, o favor que alguém pode cobrar de volta depois.
+**Natureza** — planta, bicho, clima, terreno. O que é venenoso, que vale enche, quando a chuva vem.
 
-**Medicina** — ferimento, veneno, doença, corpo. É o saber: olhar um corpo e dizer o que aconteceu, quanto tempo aquela pessoa tem, o que aquele veneno faz. A prática de campo é o ofício `Herbalismo`.
+**Lidar com Animais** — acalmar, montar, conduzir, mandar num bicho. Vale para invocação que ainda não te obedece direito.
 
-**Sobrevivência** — aguentar o ambiente, achar água e abrigo, se orientar, e seguir um rastro, seja pegada ou resíduo de energia. É a perícia da missão fora da cidade e da perseguição longa, quando a pergunta da cena é *"para onde foi?"*.
+**Tecnologia** — computador, câmera, rede, equipamento moderno. A câmera antes de a equipe entrar, o celular da vítima, o registro de acesso.
 
-**Natureza** — planta, bicho, clima, terreno. O que é o quê, o que é venenoso, quando a chuva vem. Aparece antes da cena dar errado: saber que aquele vale enche, que aquela fruta mata, que o cheiro no ar é de queimada e não de maldição.
+### Essência
 
-**Lidar com Animais** — acalmar, montar, conduzir, mandar num bicho. Vale para o que não é bicho mas se comporta como um: uma invocação que ainda não te obedece direito responde a essa perícia.
+**Sentir Energia** — perceber energia amaldiçoada: o feiticeiro escondido, o tamanho de uma maldição, quem está prestes a conjurar.
 
-**Tecnologia** — computador, câmera, rede, equipamento moderno. Resolve a cena de prédio moderno: a câmera que precisa ser desligada antes de a equipe entrar, o celular da vítima, o registro de acesso que diz quem passou pela porta.
+**Percepção** — notar o mundano: som, cheiro, movimento, a coisa fora do lugar, a pessoa suando frio.
 
-#### Essência
+**Persuasão** — convencer, negociar, conseguir que façam o que você quer porque querem. Termina com as duas partes de pé.
 
-**Sentir Energia** — perceber energia amaldiçoada. Notar o feiticeiro escondido, medir o tamanho de uma maldição antes de encostar nela, sacar que alguém está prestes a conjurar. Quase toda cena do jogo tem energia amaldiçoada em algum lugar, e é esta perícia que diz se o grupo entra na sala ou dá meia-volta.
+**Enganação** — mentir, blefar, se passar por outro. Termina com alguém acreditando em coisa que não é verdade, e o relógio correndo.
 
-**Percepção** — notar o mundano: som, cheiro, movimento, a coisa que está fora do lugar, a pessoa suando frio. É a perícia de entrar num lugar novo e reparar em alguma coisa antes de ela virar problema.
+**Intimidação** — ameaçar, dominar pela presença, fazer alguém **recuar**. O capanga que abre a porta, a testemunha que decide falar.
 
-**Persuasão** — convencer, negociar, conseguir que façam o que você quer porque querem. A cena dela termina com as duas partes de pé e sem rancor.
+**Atuação** — representar, cantar, tocar para uma plateia. A infiltração longa: você não mente uma frase, vive um disfarce.
 
-**Enganação** — mentir, blefar, se passar por outro. A cena dela termina com alguém acreditando em alguma coisa que não é verdade, e com o relógio contando até ele descobrir.
-
-**Intimidação** — ameaçar, dominar pela presença, fazer alguém **recuar**. Resolve a cena em que o grupo quer que aquilo pare sem precisar bater: o capanga que abre a porta, a testemunha que decide falar, a coisa que resolve procurar comida em outro bairro.
-
-**Atuação** — representar, cantar, tocar para uma plateia, sustentar um personagem que não é você. É a perícia da infiltração longa, em que você não mente uma frase e sim vive um disfarce por uma noite inteira.
-
-**Provocar** — tirar alguém do sério, fazer perder a linha, forçar a vir para cima de você. É o oposto de `Intimidação`: uma faz recuar, a outra faz **avançar**. Em combate ela tem ação própria, `Provocar`, no capítulo 2, *O Turno*.
+**Provocar** — tirar alguém do sério, forçar a vir para cima de você. É o oposto de `Intimidação`: uma faz recuar, a outra faz **avançar**. Em combate ela tem ação própria, `Provocar`, no capítulo 2, *O Turno*.
 
 ### Técnica do inimigo
 
-Não existe perícia para isso, porque são duas perguntas diferentes e cada uma já tem casa.
+Não existe perícia para isso. São duas perguntas diferentes, e cada uma já tem casa.
 
 **Ocultismo e Sentir Energia**
 {: .tab-titulo }
@@ -135,29 +165,29 @@ O Nanami trabalha pelo `Ocultismo`. O Todo, pelo `Sentir Energia`.
 
 ## Ofícios
 
-Ofício é o que o personagem sabe fazer porque alguém sentou com ele e ensinou. Cada entrada diz o que ele cobre e onde ele aparece numa missão.
+Ofício é o que o personagem sabe fazer porque alguém sentou com ele e ensinou.
 
-**Condução** — carro, moto, van, o que estiver na garagem. É a cena de chegar a tempo e a cena de sair inteiro: a perseguição pela marginal, o recuo com dois feridos no banco de trás.
+**Condução** — carro, moto, van, o que estiver na garagem. Chegar a tempo, e sair inteiro com dois feridos atrás.
 
-**Arrombamento** — tranca, alarme, cofre, janela que não devia abrir. É o ofício que decide se o grupo entra pela porta escolhida por ele ou pela porta que o inimigo deixou aberta de propósito.
+**Arrombamento** — tranca, alarme, cofre, janela que não devia abrir. Decide por qual porta o grupo entra.
 
-**Herbalismo** — planta que cura, planta que mata, chá, unguento, e o que dá para fazer no mato quando não tem hospital. Aparece no acampamento e na volta da missão, quando alguém está mal e o hospital fica a três horas dali.
+**Herbalismo** — planta que cura, planta que mata, chá, unguento. O acampamento, e a volta da missão com alguém mal.
 
-**Forja** — fazer, afiar e manter arma, e cuidar de ferramenta amaldiçoada sem estragar o que tem dentro. É o ofício do tempo entre missões, e o que evita que o equipamento do grupo vire sucata ao longo da campanha.
+**Forja** — fazer, afiar e manter arma, e cuidar de ferramenta amaldiçoada sem estragar o que tem dentro.
 
-**Caligrafia** — talismã, papel de barreira, documento oficial. E documento oficial que não é oficial. Serve tanto para preparar a missão quanto para atravessar uma recepção com um crachá que ninguém deveria ter.
+**Caligrafia** — talismã, papel de barreira, documento oficial. E documento oficial que não é oficial.
 
-**Burocracia** — a máquina jujutsu por dentro: relatório, requisição, quem assina o quê, como se pede uma janela e como se encobre o que não devia ter sido visto. É o ofício da cena que acontece depois da luta, quando alguém tem que explicar o prédio destruído.
+**Burocracia** — relatório, requisição, quem assina o quê, como se encobre o que não devia ter sido visto. A cena depois da luta.
 
-**Entalhador** — madeira, pedra, osso. Fazer o corpo que vai receber alguma coisa. Aparece quando o grupo precisa de um recipiente, um selo físico ou um boneco que aguente o que vai ser posto dentro dele.
+**Entalhador** — madeira, pedra, osso. O corpo que vai receber alguma coisa: recipiente, selo físico, boneco.
 
-**Alfaiate** — tecido, corte, remendo. O uniforme que aguenta energia amaldiçoada sai daqui, e o traje sob medida também. O de prateleira veste todo mundo e ninguém.
+**Alfaiate** — tecido, corte, remendo. O uniforme que aguenta energia amaldiçoada sai daqui, e o traje sob medida também.
 
-**Culinária** — cozinhar de verdade, para gente ou para o que aceitar comida. É o ofício das cenas de descanso, e o de quem negocia com coisa que quer ser agradada antes de ser convencida.
+**Culinária** — cozinhar de verdade, para gente ou para o que aceitar comida. As cenas de descanso, e o que quer ser agradado.
 
-**Instrumento** — um instrumento, escolhido no treino. Toca numa festa, num velório, num templo, ou para segurar a atenção de uma sala inteira enquanto os outros trabalham.
+**Instrumento** — um instrumento, escolhido no treino. A festa, o velório, o templo, ou segurar a atenção de uma sala inteira.
 
-**Jogatina** — carta, dado, aposta, e ler a mesa enquanto joga. Serve para entrar em ambiente fechado pela porta social: a sala de mahjong nos fundos, o cara que só conversa se você sentar e perder algum dinheiro primeiro.
+**Jogatina** — carta, dado, aposta, e ler a mesa enquanto joga. A porta social: a sala de mahjong nos fundos.
 
 > **Não existe Primeiros Socorros, e `Herbalismo` não cobre o mesmo.** Estancar sangue no meio da missão vira cena em vez de rolagem: ou alguém tem cura de verdade, ou a consequência acontece.
 
@@ -198,7 +228,7 @@ Além dessas duas, você escolhe um extra: um ofício livre, ou mais uma períci
 | um ofício | 8 | 3 |
 | mais uma perícia | 9 | 2 |
 
-> **Exemplo.** O Kaito é Guia. Ele já entra com as fixas `Persuasão` e `Medicina`. Nas quatro livres do Caminho ele pega `Sentir Energia`, `Ocultismo`, `Percepção` e `Atletismo`, e nos dois ofícios livres pega `Herbalismo` e `Caligrafia`. A Origem dele dá mais duas perícias. No extra ele escolhe a perícia em vez do ofício, e fecha a ficha com 9 perícias e 2 ofícios: ele lê talismã, mas não tem quem arrombe uma porta no grupo.
+> **Exemplo.** O Kaito é Guia. Ele já entra com as fixas `Persuasão` e `Medicina`. Nas quatro livres do Caminho ele pega `Sentir Energia`, `Ocultismo`, `Percepção` e `Atletismo`, e nos dois ofícios livres pega `Herbalismo` e `Caligrafia`. A Origem dele dá mais duas perícias. No extra ele escolhe a perícia em vez do ofício, e fecha a ficha com 9 perícias e 2 ofícios: ele lê talismã, mas não arromba uma porta.
 
 ### Testes de Resistência
 
