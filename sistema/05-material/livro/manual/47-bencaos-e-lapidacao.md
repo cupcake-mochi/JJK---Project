@@ -30,7 +30,7 @@ Onde ela entra é em custo, em quantas vezes por cena, em alcance e duração, e
 >
 > **Leque** — mais uma Kata, que só pode ser Kata, e uma Passiva.
 
-> **Quem nunca escolhe Lapidação termina a campanha com zero Bênçãos pagas.** A rota existe e é legítima: ela troca dez Bênçãos por sete pontos de atributo a mais. Está escrito aqui para ninguém descobrir isso no nível 20.
+> **Quem nunca escolhe Lapidação termina a campanha com zero Bênçãos pagas.** A rota existe e é legítima: ela troca dez Bênçãos por sete pontos de atributo a mais.
 {: .aviso }
 
 `Defesa sem Armadura` e `Estímulo Muscular` vêm de graça na Lapidação 1, então nenhuma ficha fica sem Bênção nenhuma. A primeira continua crescendo com a Lapidação passiva até 8.
@@ -41,7 +41,7 @@ Onde ela entra é em custo, em quantas vezes por cena, em alcance e duração, e
 
 ### Classe Passiva
 
-**A Classe Passiva é o tamanho da Bênção.** Ela diz o quanto aquela entrada pode entregar, e é por ela que se lê quanto uma Bênção vale ao lado de outra. As Bênçãos usam a mesma escada das Passivas e das aptidões: a escada e o que cabe em cada altura estão no capítulo 9, *Fundamento*, na seção `Passivas`.
+**A Classe Passiva é o tamanho da Bênção**, e diz o quanto aquela entrada pode entregar. As Bênçãos usam a mesma escada das Passivas e das aptidões: a escada e o que cabe em cada altura estão no capítulo 9, *Fundamento*, na seção `Passivas`.
 
 A Classe Passiva não cobra nada aqui: o marco compra uma de qualquer altura. Quem separa as alturas é o requisito.
 
@@ -93,7 +93,7 @@ Estas duas chegam com a ficha, na Lapidação 1, sem custar marco nenhum.
 
 ### Defesa sem Armadura
 
-O golpe chega e o corpo já está no lugar certo, já contraído, já girando com ele em vez de contra. Ela faz a mesma coisa que a `Cobrir-se de energia` do capítulo 11 faz, na mesma faixa, com outro recurso pagando.
+O golpe chega e o corpo já está no lugar certo, já contraído, já girando com ele em vez de contra.
 
 > **Defesa sem Armadura** — sem Traje e sem Revestimento, a sua proteção é `1/3 da Lapidação + 1`. Escudo soma com ela.
 >
@@ -103,14 +103,14 @@ O golpe chega e o corpo já está no lugar certo, já contraído, já girando co
 >
 > Requisito: grátis na Lapidação 1. A Lapidação escala a proteção.
 
-**Vestir Traje ou Revestimento desliga só a proteção.** As outras duas linhas continuam valendo: elas vêm de você não ter energia amaldiçoada, e uniforme nenhum te dá uma.
+**Vestir Traje ou Revestimento desliga só a proteção.** A barreira e o Acerto garantido continuam valendo: eles vêm de você não ter energia amaldiçoada, e uniforme nenhum te dá uma.
 
-Em troca delas, quem não tem energia nunca tem Expansão de Domínio.
+Quem não tem energia amaldiçoada nunca tem Expansão de Domínio — está no capítulo 10, *Técnica Marcial*.
 
 > **O que atravessa é você, e não o que você carrega.** Ferramenta amaldiçoada e objeto amaldiçoado emanam energia, e é o que eles emanam que a barreira lê: você entra na `Cortina`, e o seu equipamento amaldiçoado fica do lado de fora. Contra Expansão de Domínio isso não vale — o Acerto garantido lê alvo, e item não é alvo.
 {: .aviso }
 
-A saída é uma Passiva, e ela está no capítulo 10, *Técnica Marcial*: a `Bocado` guarda o item dentro do corpo, e lá dentro ele para de emanar.
+A Passiva `Bocado`, no capítulo 10, *Técnica Marcial*, guarda o item dentro do corpo, e lá dentro ele para de emanar.
 
 ### Estímulo Muscular
 
@@ -164,11 +164,7 @@ Ela não vira imunidade: a escada de exaustão do capítulo 5 tem três degraus 
 >
 > Requisito: nenhum. Classe Passiva 3.
 
-Contra a CD de um conjurador do seu nível o `d20` precisa sempre de 8, e o piso só chega lá quando o atributo escolhido chega a 6. Abaixo disso ele resolve o teste médio e deixa o difícil de pé.
-
 ## Bênçãos de perseguição
-
-Duas, e uma anula a outra. Duas fichas desta Origem numa perseguição empatam.
 
 ### Faro
 
@@ -204,7 +200,7 @@ No teto são 7,5 metros.
 >
 > Requisito: Inteligência 4. Classe Passiva 2.
 
-O corpo aprende o golpe apanhando dele. Ela não tem limite de uso, e o que a segura é o preço de entrada: sem a falha, ela não liga.
+O corpo aprende o golpe apanhando dele. Ela não tem limite de uso, e sem a falha ela não liga.
 
 ### Campo
 
@@ -240,7 +236,7 @@ A régua é a mesma da `Aptidão Própria`, no capítulo 11, e vale inteira: uma
 
 > **Na dúvida, Pesada.** Pesada é Classe Passiva 3, e a Classe Passiva 3 está fora do que a `Bênção Própria` alcança. Então dúvida reprova a proposta.
 
-E existe uma trava a mais deste lado:
+E existe uma trava a mais:
 
 > **Uma Bênção com requisito de Constituição ou de Força não pode ser bônus, vantagem ou rerrolagem numa perícia.** Ela tem de ser **feito**: sobrevivência, recuperação, ou uma coisa que o corpo passa a poder fazer.
 

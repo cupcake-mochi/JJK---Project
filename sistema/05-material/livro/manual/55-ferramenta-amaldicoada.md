@@ -16,15 +16,15 @@ Para quem tem energia amaldiçoada, uma ferramenta é conveniência: uma lâmina
 
 > **Como se sintoniza uma ferramenta está sendo escrito.** Quanto tempo leva, o que se gasta e se dá para desfazer é acordo com o seu mestre por enquanto.
 
-A arma por baixo continua sendo a arma de sempre: ela custa os mesmos pontos que qualquer outra do catálogo, `3` numa mão e `5` em duas. O `Estigma` entra como camada por cima disso, e não devolve nem cobra ponto de arma.
+A arma por baixo continua sendo a arma de sempre: mesmo dado, mesmas propriedades, mesmo requisito de Força. O `Estigma` entra como camada por cima disso, e não muda nada dela.
 
 Uma ferramenta carrega **um** `Estigma`. Nunca dois.
 
 ## Ferramenta, objeto, cadáver e maldição solta
 
-São quatro, e três delas têm nome parecido. O meio jujutsu separa as quatro por escrito, e a frase que faz isso é por exclusão: tirando as ferramentas amaldiçoadas e os cadáveres amaldiçoados, todo item que contém energia amaldiçoada é chamado de objeto amaldiçoado.
+O meio jujutsu separa as quatro por escrito, e a frase que faz isso é por exclusão: tirando as ferramentas amaldiçoadas e os cadáveres amaldiçoados, todo item que contém energia amaldiçoada é chamado de objeto amaldiçoado.
 
-Por adição fica mais fácil. Ferramenta é a que é arma. Objeto é a que não é arma.
+Ferramenta é a que é arma. Objeto é a que não é arma.
 
 **Coisas com energia amaldiçoada**
 {: .tab-titulo }
@@ -36,7 +36,7 @@ Por adição fica mais fácil. Ferramenta é a que é arma. Objeto é a que não
 | cadáver amaldiçoado | coisa sem vida que ganhou movimento próprio, com um núcleo no lugar do coração | capítulo 15, *Invocações* |
 | maldição solta | a maldição sem forma de coisa nenhuma. É o que se exorciza | capítulo 4, *Dano, Condições e Cobertura* |
 
-Ferramenta e objeto são ranqueados pela mesma escada, pela força da energia que carregam: grau 4 a grau 1, mais o especial. O que muda é o que cada um é.
+Ferramenta e objeto são ranqueados pela mesma escada, pela força da energia que carregam: grau 4 a grau 1, mais o especial.
 
 **Cadáver amaldiçoado aparece com três nomes, e os três são a mesma coisa.** A instituição diz *cadáver amaldiçoado*; a ficha de quem é um deles diz `Corpo Amaldiçoado`, que é a Origem; e a mesa diz o nome do boneco. O Kokichi Muta opera cadáveres amaldiçoados a distância, e a Origem dele é outra.
 
@@ -46,7 +46,7 @@ Ferramenta e objeto são ranqueados pela mesma escada, pela força da energia qu
 >
 > **Todo objeto amaldiçoado tem procedência.** Ele foi alguém, ou saiu de dentro de alguém.
 
-Uma espada forjada para canalizar energia continua sendo espada se ninguém pegar nela. Um dedo mumificado de feiticeiro não fica inerte porque está numa caixa. É essa a diferença: a ferramenta é ferramenta pelo que você faz com ela, e o objeto é objeto pelo que ele é.
+Uma espada forjada para canalizar energia continua sendo espada se ninguém pegar nela. Um dedo mumificado de feiticeiro não fica inerte porque está numa caixa. A ferramenta é ferramenta pelo que você faz com ela; o objeto é objeto pelo que ele é.
 
 Não existe objeto amaldiçoado sem história. Ele é resto de feiticeiro, é feto que não nasceu, é monge morto — sempre alguém, e sempre alguém de quem se sabe o nome ou de quem se perdeu o nome de propósito.
 
@@ -56,7 +56,7 @@ Não existe objeto amaldiçoado sem história. Ele é resto de feiticeiro, é fe
 
 Não é técnica, não rola dado e não escolhe alvo. É o que a energia presa nele faz com o que estiver em volta, do mesmo jeito que carniça atrai bicho e pelo mesmo motivo: tem alguma coisa ali que elas querem.
 
-Enquanto alguém do grupo carrega um objeto sem selo, encontrar maldição deixa de ser coisa que se evita. Ela chega. O mestre não precisa inventar motivo para a cena acontecer, porque o motivo está na mochila.
+Enquanto alguém do grupo carrega um objeto sem selo, encontrar maldição deixa de ser coisa que se evita. Ela chega.
 
 E a atração não passa com o tempo. Os dedos do Sukuna continuam puxando maldição mil anos depois de ele morrer.
 
@@ -66,7 +66,7 @@ O selo não bloqueia a atração: ele vira ela do avesso. O objeto selado passa 
 
 E selo gasta. Ele enfraquece com o tempo, e quando vence a atração volta — maior do que estava, porque nesse meio-tempo o objeto ficou juntando o que o selo empurrou.
 
-São três estados, e nenhum deles é neutro: selo novo empurra, selo vencido puxa, e sem selo puxa desde sempre. Não existe objeto amaldiçoado que não faça nada.
+Selo novo empurra, selo vencido puxa, e sem selo puxa desde sempre. Não existe objeto amaldiçoado que não faça nada.
 
 Quanto tempo um selo dura é decisão do seu mestre.
 
@@ -76,11 +76,11 @@ Quanto tempo um selo dura é decisão do seu mestre.
 
 A guarda dele não é fechadura, é barreira: a disposição dos prédios muda de lugar todo dia, e só uma porta entre mais de mil leva até lá.
 
-Isto responde a pergunta que toda mesa faz na primeira vez que o grupo acha um objeto: existe um lugar, ele é da escola, e entregar o objeto é o procedimento. O que não quer dizer que o grupo vá fazer isso.
+Existe um lugar, ele é da escola, e entregar o objeto é o procedimento. O que não quer dizer que o grupo vá fazer isso.
 
 ### Encarnação
 
-Engolir um objeto amaldiçoado é o que faz o que está dentro dele ganhar corpo. Três Origens nascem daí, e as três nascem de um jeito diferente.
+Engolir um objeto amaldiçoado é o que faz o que está dentro dele ganhar corpo. Três Origens nascem daí.
 
 **Resultados de encarnação**
 {: .tab-titulo }
@@ -91,13 +91,13 @@ Engolir um objeto amaldiçoado é o que faz o que está dentro dele ganhar corpo
 | ventre feito de propósito | qualquer um, mesmo quem não tem talento nenhum | meio gente, meio maldição | Feto |
 | resto de feiticeiro antigo, num corpo preparado de antemão | um corpo que alguém preparou para receber | sobrou um | Reencarnado |
 
-Receptáculo é simbiose: os dois estão lá. Reencarnado é sobrescrita: sobrou um. E o Feto é o único dos três em que engolir o objeto é o que produziu a pessoa — os outros dois engoliram depois de já existir.
+O Feto é o único dos três em que engolir o objeto é o que produziu a pessoa; os outros dois engoliram depois de já existir.
 
-Nada disso é escolha de criação. As três Origens já nascem do outro lado dessa porta, e o que está escrito aqui é o que aconteceu antes da primeira sessão. Veja o capítulo 7, *Origens e Legados*.
+Nada disso é escolha de criação. As três Origens já nascem do outro lado dessa porta, e isso aconteceu antes da primeira sessão. Veja o capítulo 7, *Origens e Legados*.
 
 ## Grau
 
-O que o grau escolhe é o **formato** do `Estigma`: se ele é pequeno e condicional, se é reativo com limite de uso, ou se é permanente.
+O que o grau escolhe é o **formato** do `Estigma`.
 
 **Graus de ferramenta**
 {: .tab-titulo }
@@ -118,7 +118,7 @@ Não existe requisito de refino para ferramenta amaldiçoada. Ela é a rota de q
 
 ### Grau 4
 
-Ele não dá `Estigma` nenhum. Ferir maldição é a única coisa que um personagem sem energia amaldiçoada não consegue sozinho. Uma ferramenta de grau 4 é o que põe essa pessoa na mesma luta que o feiticeiro.
+Ele não dá `Estigma` nenhum. Ferir maldição é a única coisa que um personagem sem energia amaldiçoada não consegue sozinho.
 
 Na mesa, esse degrau costuma ser a primeira peça que muda a cara de um personagem inteiro. Antes dela, o cara com a espingarda estava ali para tirar civil do prédio; depois dela, ele tem um alvo.
 
@@ -246,6 +246,6 @@ O único nível mínimo obrigatório é o do `Estigma`, na tabela de grau.
 | 1 | **26** | 18 a 23 |
 | especial | **30** | 24 a 29 |
 
-Uma ferramenta por faixa de grau, entregue nesse ritmo, dá cinco na campanha inteira. Cada uma delas rende cena própria: onde estava guardada, de quem era, e o que a pessoa que a perdeu vai querer fazer a respeito.
+Uma ferramenta por faixa de grau, entregue nesse ritmo, dá cinco na campanha inteira.
 
-> **Uma especial aparece uma vez por arco.** O que segura o topo desta escada é escassez: cada uma delas é única no mundo, e o mundo não fabrica mais.
+> **Uma especial aparece uma vez por arco.** Cada uma delas é única no mundo, e o mundo não fabrica mais.

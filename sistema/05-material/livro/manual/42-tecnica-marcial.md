@@ -47,7 +47,7 @@ Na criação, depois da Descrição e da Regra, você escolhe uma das duas. **A 
 > **Você é treinado nas três**, seja qual for a lista de treino do seu Caminho.
 > **As suas Katas valem com qualquer arma amaldiçoada desses três grupos.**
 
-A peça específica é descartável, o grupo não. Se a sua lâmina quebrou no meio da missão e você pegou outra do chão, as suas Katas continuam.
+Se a sua lâmina quebrou no meio da missão, qualquer outra arma amaldiçoada dos seus três grupos serve, e as suas Katas continuam.
 
 #### Limites
 
@@ -75,7 +75,7 @@ O catálogo de armas só tem duas respostas para *"que atributo acerta com essa 
 
 A `Lâmina Longa` está nas duas porque a Rapieira e a Katana carregam `Fineza`.
 
-> **Nenhum grupo de arma acerta por Inteligência, Essência ou Constituição.** Esta rota é sempre Força ou Destreza. Se a sua ficha é a pessoa que resolve com a cabeça, a rota é a de baixo.
+> **Nenhum grupo de arma acerta por Inteligência, Essência ou Constituição.** Esta rota é sempre Força ou Destreza. Se a sua ficha é a pessoa que resolve com a cabeça, a rota é a de ferramenta.
 
 ### Rota de ferramenta
 
@@ -101,7 +101,7 @@ Ele funciona como qualquer outro Selo: não custa ponto, não devolve ponto e n�
 | A Restrição | O que acontece |
 |---|---|
 | qualquer uma que peça *"estar com a minha arma"* | **não devolve ponto.** O Selo já obriga isso |
-| `Gesto`, que pede as duas mãos livres | quase invendável nesta rota, e sem-arma nenhuma numa arma de duas mãos |
+| `Gesto`, que pede as duas mãos livres | quase invendável nesta rota, e impossível numa arma de duas mãos |
 
 ## Ferir maldição
 
@@ -131,7 +131,7 @@ Na rota de ferramenta, o objeto declara qual dos dois é na criação — uma li
 
 ## `Desarmado`
 
-Pôr o Selo num objeto põe a sua ficha atrás de uma condição — `Desarmado`, no capítulo 4, quando alguém tira a sua arma da sua mão. É por isso que os grupos são **três**, e não um:
+Pôr o Selo num objeto põe a sua ficha atrás de uma condição — `Desarmado`, no capítulo 4, quando alguém tira a sua arma da sua mão.
 
 > **Rota de arma:** a Kata vale com arma de qualquer um dos três grupos. Tiraram uma, sobram duas.
 > **Rota de ferramenta:** objeto de apoio não ocupa a mão de arma, e o `Desarmado` não alcança ele.
@@ -148,7 +148,7 @@ O eixo de controle muda de nome com a Origem: quem tem energia amaldiçoada leva
 
 Passiva é o que a sua técnica faz sem você mandar, e aqui ela funciona igual ao capítulo 9, *Fundamento*: a Livre é de graça, e as pagas custam espaços de Kata pela Classe Passiva.
 
-O que muda é de onde a ficção sai. Onde o capítulo 9 escreve energia, aqui se escreve corpo, treino e ferramenta.
+Onde o capítulo 9 escreve energia, aqui se escreve corpo, treino e ferramenta.
 
 **Passivas de Técnica Marcial**
 {: .tab-titulo }
@@ -163,7 +163,7 @@ O que muda é de onde a ficção sai. Onde o capítulo 9 escreve energia, aqui s
 | 2 | `Contragolpe` | uma vez por cena, quando alguém erra um ataque corpo a corpo contra você, a sua próxima Kata contra ele não pode ser evitada por deslocamento |
 | 3 | `Aliança` | a sua arma nunca é desarmada, e ninguém além de você a empunha |
 
-Nenhuma delas é catálogo e nenhuma tem requisito. Passiva se escreve na hora, com o mestre. A tabela `Passivas de Técnica Marcial` está aqui para dar altura, não para escolher.
+Nenhuma delas é catálogo e nenhuma tem requisito. Passiva se escreve na hora, com o mestre.
 
 ### `Bocado`
 
@@ -175,14 +175,12 @@ Nenhuma delas é catálogo e nenhuma tem requisito. Passiva se escreve na hora, 
 >
 > Requisito: nenhum. Classe Passiva 1.
 
-Ela existe para o buraco que a Restrição Celestial sem energia tem: o corpo dela atravessa barreira de energia e o equipamento amaldiçoado dela não. Veja o capítulo 12, *Bênçãos e Lapidação*.
-
-> **Contra Expansão de Domínio ela não muda nada.** O Acerto garantido lê alvo, e item nunca foi alvo — o que você carrega já atravessava domínio antes dela.
+> **Contra Expansão de Domínio ela não muda nada.** O Acerto garantido lê alvo, e item nunca foi alvo — o que você carrega atravessa domínio de qualquer jeito.
 {: .aviso }
 
 ## Técnicas Marciais prontas
 
-Duas, uma de cada rota. As duas param onde a criação de personagem para: Descrição, Regra, atributo, rota, Famílias e a Passiva. `Ruptura` e `Ōgi` não aparecem porque só chegam nos níveis 10 e 17, e são escritas na hora.
+Duas, uma de cada rota. As duas param onde a criação de personagem para: Descrição, Regra, atributo, rota, Famílias e a Passiva.
 
 ### Fisga
 

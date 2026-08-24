@@ -8,6 +8,148 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.136] — 24/08/2026
+
+**A quinta passada de texto, e ela achou três coisas que nenhuma das quatro anteriores podia achar: a moldura de leitura mentindo, uma promessa que a v0.134 tinha acabado de cumprir, e três defeitos de renderização que estavam no PDF publicado.**
+
+*Os dois exemplares que o Mizuki nomeou eram do capítulo 16 e os dois saíram. A família deles apareceu em mais seis capítulos.* **Os 19 arquivos mexidos são 19 de 21 — só o vocabulário e o início rápido passaram limpos.**
+
+### As duas dele, e por que o validador não as pegava
+
+| a frase | o que ela era | o que ficou |
+|---|---|---|
+| *"Duas listas, e nenhuma das duas é fechada. Elas existem para dar tamanho, não para limitar escolha."* | antítese mais *"isto existe para"* | **`Nenhuma das duas listas é fechada.`** — a regra sozinha |
+| *"São quatro, e elas se separam por quando o pacto se fecha e por quem vive com ele depois."* | narração da tabela logo abaixo, e *"quem vive com ele depois"* é o filtro multi-mestre | **cortada.** A tabela `Formas de pacto` tem a coluna `Quando se fecha` |
+
+> **As duas passavam limpas no `--estrito`, e continuam sendo o tipo de coisa que só leitura acha.** *A `MOLDURA` do validador procura "este manual", "este livro", "este capítulo"* — **e as duas não usam nenhuma das três.** É o mesmo registro que a v0.126 abriu e não virou regex, pelo mesmo motivo: expressão feita para casar uma frase só é a armadilha do aviso que dá o motivo errado.
+
+**A mesma forma estava em mais seis lugares**, e todos saíram: *"A tabela `Passivas de Técnica Marcial` está aqui para dar altura, não para escolher"* · *"A lista existe para ele não precisar decidir do zero, não para amarrá-lo"* · *"Um estilo sem porta ficaria disponível para toda ficha"* · *"Esta seção concentra os números que o resto do capítulo usa"* · *"e está repetida aqui porque é agora que você precisa dela"* · *"o resto do capítulo é para montá-la"*.
+
+### ⚠⚠ A tabela `Capítulos` da introdução estava três capítulos e quatro números atrás
+
+**A introdução é o único lugar do livro onde a moldura de leitura pode viver**, pela régua de voz — *e era ela que estava mentindo.*
+
+| a tabela dizia | o livro tem |
+|---|---|
+| `10` Aptidões e Refino | `10` **Técnica Marcial**, e Aptidões é a `11` |
+| — | `12` **Bênçãos e Lapidação**, que não estava listada |
+| `11` a `13` Equipamento · Ferramenta · Invocações | `13` a `15` |
+| — | `16` **Pactos**, que não estava listada |
+| `14` Experiência · `15` Apêndice | `17` e `18` |
+
+**Três capítulos inteiros não apareciam, e todo ponteiro do livro contradizia a tabela.** *O glossário já numera pela escala de 18 capítulos; quem estava sozinho era o sumário em prosa da introdução.*
+
+> **Nenhum validador alcança isso**, e vale registrar por quê: o `conferir-repositorio.py` confere ponteiro de **seção**, o `conferir-voz.py` confere referência a **título**, e número de capítulo dentro de célula de tabela não é nem um nem outro.
+
+### ⚠ E o Passo 8 da criação ainda dizia que pacto entre personagens *"ainda não tem regra"*
+
+**A v0.134 escreveu a peça 22 e o capítulo 16 inteiro.** *A quarta linha da tabela do Passo 8 continuou dizendo que aquela forma não tinha dono* — **duas versões dizendo o contrário uma da outra, no mesmo livro.**
+
+*A peça-fonte tinha sido consertada na v0.134 e aponta para a peça 22; o manual não foi junto.* **É a lição nº 9 pelo lado ruim: decisão registrada não é decisão aplicada.**
+
+**A linha passou a apontar para o capítulo 16**, e a caixa que dizia *"quem quiser começar com um usa a `Regra Própria` ou um Legado"* virou o que o capítulo 16 escreve: **das quatro formas, só o pacto de restrição entra na criação.**
+
+> **E a tabela mudou de nome junto.** *Ela se chamava `Formas de pacto`, e o capítulo 16 tem outra tabela com esse nome exato.* **Duas tabelas com o mesmo nome quebram a convenção de chamar tabela pelo nome** — virou `Onde cada forma de pacto se escreve`.
+
+### Três defeitos que estavam no PDF, e nenhum era de texto
+
+**Estes o `conferir-voz.py` não vê porque ele lê o `.md`, e o defeito só existe depois do build.**
+
+| onde | o que estava acontecendo |
+|---|---|
+| `50-equipamento` | **faltava uma linha em branco** antes de `### Índice por propriedade`, e o título virou uma **célula de lixo dentro da tabela de 52 armas**. A seção ficou sem título no PDF e fora do sumário |
+| `35-caminhos-e-trilhas` | `****Nenhuma rota dá ataque extra ao Guia.****` — **quatro asteriscos**, que o Markdown renderiza como itálico dentro de negrito **com um `*` vazando dos dois lados** |
+| `35-caminhos-e-trilhas` | *"A outra assim é o `Coro`. A outra é o `Coro`."* — **a mesma frase duas vezes**, sobra de edição |
+
+*A varredura que achou os dois primeiros procura bloco colado no `.md` — tabela seguida de título, título seguido de tabela, `{: ... }` seguido de título — e devolveu **um** achado em 21 arquivos.* **O do asterisco quádruplo saiu de comparar o `.md` com o HTML gerado.**
+
+### Corrigido — mais quatro frases que envelheceram sem ninguém mexer nelas
+
+**1 · O `Como ler uma Origem` mandava procurar uma seção que não existe.** *Ele dizia "Depois vem **O que muda**", e as oito Origens escrevem `Efeito na ficha` desde algum rename que ninguém acompanhou.* **Quem seguisse o guia de leitura procurava um título que o livro não tem.**
+
+**2 · Dois órfãos da remoção do orçamento de arma, que é de v0.106.** *O `O orçamento` e a coluna `gasta` saíram do capítulo de Equipamento naquela versão.* **Ficaram para trás:** *"ela custa os mesmos pontos que qualquer outra do catálogo, `3` numa mão e `5` em duas"*, no capítulo 14, e *"o Tekko e a Soqueira têm a mesma linha, **o mesmo gasto** e a mesma regra"*, no 13. **O capítulo 13 tem hoje zero ocorrências de "pontos" e de "orçamento"** — os dois apontavam para uma moeda que o livro do jogador não tem mais.
+
+**3 · `Marco` usado com o sentido solto.** *O capítulo 8 dizia "você ganha alguma coisa em quase todo marco da campanha".* **Os marcos são `6 · 10 · 14 · 18 · 22 · 26 · 30`, e as entregas de Caminho e Trilha são `2 · 7 · 11 · 15 · 19 · 27 · 30`:** só o 30 coincide. *Termo do sistema usado como palavra comum, e a tabela ao lado já publica os níveis certos.*
+
+**4 · O capítulo 17 se contradizia em dois parágrafos seguidos.** *Um dizia que quem escolhe Leque sempre fica com "o refino sendo número morto"; a caixa logo abaixo dizia que a `Cobrir-se de energia` **continua crescendo com o refino da linha passiva até 8**.* **A frase do número morto saiu — ela era comparativo de rota e estava errada.**
+
+### Removido — a contabilidade de projeto que sobrou das quatro passadas
+
+***"Está escrito aqui para ninguém descobrir isso no nível 20"* aparecia três vezes**, palavra por palavra, nos capítulos 11, 12 e 17. *O aviso que importa ficou nos três; a frase que fala do livro saiu dos três.*
+
+| o que saiu | onde |
+|---|---|
+| *"um pacto permanente vale, em dano, cerca de um quinto de um golpe seu"* | `65-pactos` — é o teto de `0,50` fatia traduzido, e fatia é moeda de projeto |
+| *"na mesma faixa, com outro recurso pagando"* | `47-bênçãos` — prova de que duas camadas empatam |
+| *"e é isso que faz mesa aberta funcionar"* | `80-experiência` — o filtro multi-mestre |
+| *"e é isso que faz dois mestres diferentes chamarem o mesmo momento de descanso"* | `70-descanso` — o mesmo filtro |
+| *"Na prática, um conjurador gasta PE em cerca de metade das rodadas de luta do dia"* | `40-fundamento` — orçamento de encontro |
+| *"o dia esperado tem três a quatro lutas"* | `35-caminhos` — idem |
+| *"`+1` de diferença entre os dois lados vale dois pontos e meio percentuais"* | `90-apêndice` — o recibo da derivação que a v0.106 já tinha tirado |
+| *"duas fichas do mesmo nível nunca ficam a mais de quatro degraus de distância"* | `80-experiência` — prova de aperto de curva |
+| *"Contra a CD de um conjurador do seu nível o `d20` precisa sempre de 8, e o piso só chega lá quando o atributo escolhido chega a 6"* | `47-bênçãos` — projeção por rota de investimento, que a régua do `REMOCOES` manda sair |
+
+**E oito trechos de material de mestre**, todos escritos para quem prepara e não para quem joga: *"o mestre não precisa inventar motivo para a cena acontecer"* · *"o mestre perde a alavanca de encerrar um arco pelo desgaste do grupo"* · *"é por essa aptidão que o mestre pode jogar o grupo dentro de um prédio desabando"* · *"dá ao mestre um credor que pode aparecer em qualquer sessão"* · *"Cada uma delas rende cena própria"* · *"um arco inteiro cabe nessa única informação"* · *"Quando der para declarar isso na abertura da missão, declare"* · *"A diferença entre as duas é de que máquina o mestre usa para dizer sim ou não"*.
+
+### Decidido — as 16 linhas `Na mesa:` que falavam com o mestre saem inteiras
+
+***Decisão do Mizuki, depois da conta:*** *das **86** linhas `Na mesa:` do capítulo 7, **16** eram escritas para quem prepara e não para quem joga* — *"dá ao mestre um credor"*, *"o mestre pode marcar quando quiser"*, *"boa desculpa para o mestre descrever o corpo agindo sozinho"*.
+
+**As 16 saíram inteiras, e o custo está aceito:** *o capítulo fica com 70 entradas terminando em `Na mesa:` e 16 sem*, e a assimetria aparece na página. *A alternativa era virar as 16 para a voz do jogador, e ele preferiu o corte.*
+
+> **⚠ E três delas eram a única dona de um fato.** *A régua manda reescrever a regra com todas as letras **antes** de a frase sair, e foi o que aconteceu:*
+>
+> | Legado | o que só o `Na mesa:` dizia | onde foi parar |
+> |---|---|---|
+> | `Gêmeos` | **quem escolhe a hora da troca** — a regra dizia só que nenhum dos dois manda | na caixa de regra: *"quem escolhe a hora é o mestre"* |
+> | `Nasci Assim` | **quem invoca a limitação em cena** | na caixa: *"quem diz quando aquilo complica a cena é você"* |
+> | `Aprendi a Ver` | **o método tem limite próprio** | na caixa, junto do que se escreve na ficha |
+>
+> *As outras treze só repetiam, do lado do mestre, o que a caixa de regra já dizia.*
+
+**O `guard_numeros.py` saiu com a notação de número IDÊNTICA** — `40` ocorrências dos dois lados —, e as quatro diferenças de numeral por extenso são as das 16 linhas cortadas, menos o `uma` que voltou na caixa do `Gêmeos`.
+
+> **⚠⚠ E o filtro que escolhia as 16 errou duas vezes antes de acertar, sem escrever nada.** *A primeira versão comparava `'o mestre' in linha` em Python, sensível a maiúscula, e perdia as duas que abrem em **"O mestre"**: `14` em vez de `16`.* **A segunda pôs `\bo mestre\b` e caiu para `11`, porque `pelo mestre` e `ao mestre` não têm fronteira de palavra antes do `o`.** *O que salvou as duas vezes foi um `assert` de contagem antes da escrita* — **décimo primeiro caso de medir o marcador em vez do fenômeno, e o primeiro em que a trava segurou o erro dentro do script.**
+
+### Corrigido — quatro ponteiros por posição, que é o que passa a mentir quando a página quebra
+
+*"no quadro acima"* → **`Vida e PE por Caminho`** · *"da tabela acima"* → **`Progressão por nível`** · *"a rota é a de baixo"* → **a rota de ferramenta** · *"o índice por propriedade, depois dele"* → **`Índice por propriedade`**. *Mais três referências a linha de tabela por número de ordem — "A terceira é a que…", "A segunda linha é a mais comum…", "Os quatro primeiros são arquétipos de clã…" — todas cortadas.*
+
+### O que NÃO saiu
+
+**Nenhuma regra e nenhum número de regra.** *O `guard_numeros.py` rodou nos 19 arquivos, e as **104 diferenças** foram lidas uma a uma contra a linha que as carregava.*
+
+> **E foram conferidas por uma segunda medida, contra um corpus independente:** *o `manual.html` gerado **antes** desta passada.* **Nenhum numeral por extenso e nenhuma notação de dado sumiu do livro — 27 tipos de notação antes, 27 depois, e nenhuma contagem caiu.**
+>
+> ⚠ **A primeira tentativa dessa segunda medida saiu falso-negativa**, e vale o registro: *o `glob` do corpus "antes" devolveu lista vazia, e a comparação respondeu **"sumiram: nenhum"** com zero arquivos dos dois lados.* **Décimo caso do mesmo erro neste projeto — medir o marcador em vez do fenômeno —, e o conserto foi um `assert` que reprova corpus vazio antes de comparar.**
+
+*Os cinco números que zeraram dentro de um arquivo foram conferidos de pé um por um:* **`dez aptidões`** continua na peça do capítulo 11 · **`6` missões** continua na `Curva de XP` · o teto `8` e o requisito `4` do `Esteio` continuam na caixa dele · o **`14`** era o número de capítulo velho da introdução · o **`5`** era a metade morta do orçamento de arma.
+
+### O que ficou de pé, e é decisão declarada
+
+**As cinco marcas de "isto ainda está sendo escrito" continuam no livro.** *Como se sintoniza uma ferramenta · a lista de objeto de apoio · o limite de uso da `Avulsa` · a vaga do nível 27 do `Arremate` · a vaga reservada do `Desliga` do Corpo Amaldiçoado.* **A v0.129 já tinha decidido isso** quando mudou a permissão da `Sem Técnica` de casa em vez de cortar: **quando a frase de estado carrega uma permissão ou um limite que o jogador precisa, ela fica.** *As que só contavam o estado do projeto foram as que saíram.*
+
+### Medido depois
+
+| | v0.135 | v0.136 |
+|---|---|---|
+| peças de regra · validadores | 22 · 22 | 22 · 22 |
+| checagens | 232 | 232 |
+| capítulos do livro | 18 | 18 |
+| arquivos do livro mexidos | — | **19 de 21** |
+| palavras do livro | 79.540 | **77.273** — `2,9%` |
+| coluna única | 260 páginas | **256** |
+| duas colunas | 147 páginas | **144** |
+| linhas `Na mesa:` no cap. 7 | 86 | **70** |
+| `conferir-voz --estrito` | 0 achados · 17 triagens | **0 achados · 15 triagens** |
+| termos com destino | 89 de 89 | **86 de 86** |
+
+*As duas triagens que saíram eram `de propósito` de verdade* — **"e é de propósito: o feitiço não tem uma regra própria de acertar"** e **"os feitiços são fracos de propósito"**. *As 15 que sobraram foram lidas de novo e são todas "por que o mundo é assim", que a régua manda ficar.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **A fila de mecânica não mudou: itens iniciais por Caminho e as três Trilhas do Evocador.** *Fica registrado que o capítulo 7 tem hoje 70 entradas com linha `Na mesa:` e 16 sem, por decisão de corte — se a assimetria incomodar na leitura do PDF, o conserto é escrever as 16 na voz do jogador, e não devolver as antigas.*
+
+---
+
 ## [0.135] — 23/08/2026
 
 **Três achados do Mizuki lendo o que a v0.134 tinha acabado de subir, e os três são de regra.**

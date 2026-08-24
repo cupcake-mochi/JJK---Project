@@ -50,7 +50,7 @@ Cada feitiço é montado na Classe que o seu nível já liberou, e *Números da 
 > **Ataque de conjuração = d20 + o atributo da sua técnica + maestria**
 > **Maestria** começa em 1 e sobe um ponto a cada oito níveis.
 
-É a mesma forma do soco e do tiro — atributo mais maestria —, e é de propósito: **o feitiço não tem uma regra própria de acertar.** Uma técnica de cálculo usa Inteligência, uma de leitura de energia usa Essência, e o feiticeiro que conjura batendo usa Força. Na obra, o Todo conjura assim.
+É a mesma forma do soco e do tiro — atributo mais maestria: **o feitiço não tem uma regra própria de acertar.** Uma técnica de cálculo usa Inteligência, uma de leitura de energia usa Essência, e o feiticeiro que conjura batendo usa Força. Na obra, o Todo conjura assim.
 
 **Ataque e CD de um atributo levado ao teto**
 {: .tab-titulo }
@@ -64,7 +64,7 @@ Cada feitiço é montado na Classe que o seu nível já liberou, e *Números da 
 
 Esta tabela supõe que você levou o atributo da técnica até o topo. Se ele ficar parado, a sua técnica fica junto.
 
-**Escolha o atributo que o seu personagem já ia querer alto.** As perícias que ele usa, o Teste de Resistência que ele quer aguentar, uma Trilha que soma o mesmo atributo no dano: se alguma dessas coisas já puxa um atributo para cima, aponte a técnica para ele. Apontar para um atributo que você não pretende pagar é a armadilha desta página.
+**Escolha o atributo que o seu personagem já ia querer alto.** As perícias que ele usa, o Teste de Resistência que ele quer aguentar, uma Trilha que soma o mesmo atributo no dano: se alguma dessas coisas já puxa um atributo para cima, aponte a técnica para ele. Apontar para um atributo que você não pretende pagar é a armadilha.
 
 {: .aviso }
 > Nada te obriga a escolher Inteligência ou Essência. Elas são as mais comuns porque quase toda técnica é análise ou percepção — mas a regra é *um dos cinco*, e a ficção decide.
@@ -120,8 +120,6 @@ Metade dos seus feitiços deixa a rolagem com o alvo: ele é quem rola contra vo
 
 ## Números da montagem
 
-Esta seção concentra os números que o resto do capítulo usa. Não precisa decorar nada: volte aqui sempre que um trecho citar um valor.
-
 > **Pontos** = 3 × Classe
 > **Teto de dano** = 4 × Classe em dados
 > **Devolução máxima** = 2 × Classe
@@ -143,8 +141,6 @@ Esta seção concentra os números que o resto do capítulo usa. Não precisa de
 | **7** | 26 | 21 | 4 | 7 | 11 | 14 | +7 | 28 | 21d8 = 94 | 14d8 = 63 |
 
 A coluna **Nível** é quando aquela Classe abre para você. **Leve**, **Média** e **Pesada** são os três preços de Melhoria, e **Devol. máx** é o total que as Restrições de um feitiço podem devolver.
-
-Todo valor de montagem que aparecer daqui para a frente sai desta tabela.
 
 A coluna **Teto** é o máximo de dados de dano de um feitiço quando você soma todos os alvos e repetições. Contra um alvo só o limite é mais baixo: um feitiço comum para nos pontos da Classe. Quem alcança o teto num alvo só é a **Liberação Máxima**.
 
@@ -184,7 +180,7 @@ Com um conjurador ganhando 6 PE por nível, isso dá:
 > **Essa última coluna é um teto, e não um dia.**
 > Ela responde uma pergunta só: quantas vezes cabe, se você não fizer mais nada com o seu PE.
 > Um dia de verdade tem outras despesas ao mesmo tempo. Tem efeito que cobra PE **por rodada** enquanto está ligado, e a Integridade encarece todo feitiço quando o segundo estágio dela acende.
-> Na prática, um conjurador gasta PE em cerca de **metade das rodadas de luta do dia** e passa a outra metade no Classe 0, no golpe simples e no que for de graça. Leia a coluna como limite superior.
+> Leia a coluna como limite superior.
 
 ### Classe 0
 
@@ -224,7 +220,7 @@ A média nunca se afasta mais de 3 pontos da conta em d8.
 
 ## Escrevendo o seu Fundamento
 
-**Você escreve o Fundamento uma vez**, na criação, junto com o mestre, e ele não muda depois: o que evolui com os níveis são os feitiços que saem dele. Um Fundamento completo tem cinco partes, e esta seção percorre uma por uma.
+**Você escreve o Fundamento uma vez**, na criação, junto com o mestre, e ele não muda depois: o que evolui com os níveis são os feitiços que saem dele. Um Fundamento completo tem cinco partes.
 
 > **Na criação, você escreve:**
 > **1.** A **Descrição** da técnica, com o tipo de dano dela.
@@ -290,7 +286,7 @@ Para conjurar, o seu personagem sempre faz a mesma coisa, seja qual for o feiti�
 
 Bater palma. · Dizer o nome do feitiço. · Estar enxergando o alvo. · Ter tocado no alvo nesta cena. · Estar pisando no chão.
 
-O Selo não mexe em ponto nenhum: não custa, não devolve e não dá bônus. Ele existe para dar corpo à técnica e para criar jogo, porque quem conhece o seu Selo sabe o que procurar quando você se mexe. A única regra mecânica ligada a ele aparece nas Restrições: como o Selo já é uma obrigação sua, **uma Restrição que cobra a mesma coisa que ele não devolve ponto**.
+O Selo não mexe em ponto nenhum: não custa, não devolve e não dá bônus. Ele dá corpo à técnica, e quem conhece o seu Selo sabe o que procurar quando você se mexe. A única regra mecânica ligada a ele aparece nas Restrições: como o Selo já é uma obrigação sua, **uma Restrição que cobra a mesma coisa que ele não devolve ponto**.
 
 O seu Selo tem uma parte só, e a mesa consegue apontar o momento em que ela aconteceu. Se você precisa de mais de uma frase para explicar, aquilo virou condição de cena ou de alvo, e isso se compra por feitiço, com a Restrição `Condicional`.
 
@@ -398,9 +394,9 @@ Algumas técnicas funcionam impondo uma regra ao mundo: julgamento, aposta, cont
 
 ## Fundamentos prontos
 
-Três Fundamentos completos, prontos para usar como estão ou para servir de régua na hora de escrever o seu. O primeiro deles, a **Régua**, volta em *Criando feitiços* para montar o primeiro feitiço do capítulo.
+Três Fundamentos completos, prontos para usar como estão ou para servir de régua na hora de escrever o seu. A **Régua** volta em *Criando feitiços* para montar o primeiro feitiço do capítulo.
 
-Os três param onde a criação de personagem para: Descrição, Regra, Famílias, Selo e, quando a técnica pede, a Passiva. Liberação Máxima e Técnica Máxima não aparecem aqui porque só chegam nos níveis 10 e 17, e são escritas na hora.
+Os três param onde a criação de personagem para: Descrição, Regra, Famílias, Selo e, quando a técnica pede, a Passiva.
 
 ### Régua
 
@@ -443,15 +439,15 @@ Os três param onde a criação de personagem para: Descrição, Regra, Família
 | **Selo** | Falar a aposta em voz alta. |
 | **Passiva** | `Regra Própria` (Classe Passiva 1 na criação, subindo com os níveis): *"quando eu aposto e ganho, meu próximo teste na cena tem vantagem. Uma vez por cena."* |
 
-O orçamento da Banca mora na Passiva. Os feitiços são fracos de propósito: a técnica guarda o poder para quando a conta fecha, e a `Regra Própria` é onde ela fecha.
+O orçamento da Banca mora na Passiva: os feitiços são fracos, a técnica guarda o poder para quando a conta fecha, e a `Regra Própria` é onde ela fecha.
 
 ## Criando feitiços
 
-Com o Fundamento escrito, os feitiços saem dele. Montar um feitiço é uma conta curta: escolher o tamanho, escolher como ele sai, gastar os pontos e dar um nome. Esta seção percorre os passos e depois monta um feitiço completo, do zero, para você ver a conta acontecendo.
+Com o Fundamento escrito, os feitiços saem dele. Montar um feitiço é uma conta curta: escolher o tamanho, escolher como ele sai, gastar os pontos e dar um nome.
 
 ### Teto de feitiços
 
-Antes de montar o primeiro, veja quantos você tem direito de escrever. A conta é do capítulo 17, *Experiência e Progressão*, e está repetida aqui porque é agora que você precisa dela.
+Antes de montar o primeiro, veja quantos você tem direito de escrever. A conta é do capítulo 17, *Experiência e Progressão*.
 
 > **Espaços de feitiço conhecido = `2 + (nível ÷ 2)`, arredondando para baixo. Mais um por marco já alcançado.**
 > Os marcos são os níveis **6, 10, 14, 18, 22, 26 e 30**.
@@ -627,7 +623,7 @@ Por exemplo, num Classe 4 o teto é 16 dados: sobrar até 4 dados de dano já d�
 
 Uma condição sozinha nunca dispara o bônus. Para chegar no primeiro degrau você compra duas peças de Controle, ou uma condição e alguma outra coisa cara. E para o segundo, o feitiço precisa sair sem um único dado de dano.
 
-Falta uma peça nesta história: o feitiço que rompe o limite de dano contra um alvo só. Ela chega no nível 10, e tem seção própria em *Liberação Máxima*.
+O feitiço que rompe o limite de dano contra um alvo só chega no nível 10, em *Liberação Máxima*.
 
 ## Melhorias por família
 
@@ -711,8 +707,6 @@ O inimigo sai da luta sem cair morto: no chão, preso, ou lutando contra o próp
 
 São catorze, e cada uma tem um **nível**: `Leve`, `Média` ou `Pesada`. O nível faz duas coisas ao mesmo tempo. Ele é o **preço** da Melhoria `Condição` que aplica ela, e é o que custa em energia para **tirar** ela de alguém (1 ponto por nível). Uma condição dura uma rodada.
 
-Cada condição custa o que ela vale. `Impedido` e `Surdo` pesam coisas muito diferentes numa luta.
-
 Numa Classe 5, aplicar uma `Leve` custa 3 pontos, uma `Média` custa 5 e uma `Pesada` custa 8.
 
 **Condições `Leve`**
@@ -748,8 +742,6 @@ Numa Classe 5, aplicar uma `Leve` custa 3 pontos, uma `Média` custa 5 e uma `Pe
 | `Atordoado` | Você perde a Ação Padrão e não usa reação. Quem tem mais de uma Ação Padrão no turno perde só UMA delas, e guarda as demais. |
 
 **`Atordoado` e `Incapacitado` atacam eixos diferentes, e não se empilham.** Um tira ação e o outro tira defesa, e o capítulo 4, *Dano, Condições e Cobertura*, abre a diferença.
-
-E o `Atordoado` cobra uma Ação Padrão só, e nunca o turno inteiro: quem age mais de uma vez por rodada perde uma das ações e guarda as outras.
 
 > **Três coisas que não são condição aqui.**
 > `Inconsciente` é cair morrendo, e tem regra própria no capítulo 1, *Como Jogar*: não é efeito de uma rodada.
@@ -912,7 +904,7 @@ As travas valem igual: a Própria precisa ser uma coisa que a mesa consegue apon
 
 Restrição precisa ser uma coisa que a mesa consegue apontar acontecendo, e algumas combinações são proibidas de saída.
 
-**As suas duas Restrições não podem ser as duas de frequência.** `Uma Vez`, `Condicional`, `Aquecer`, `Dívida` e qualquer `Restrição Própria` que faça a mesma coisa limitam quando o feitiço sai; escolha no máximo uma delas. Duas juntas devolvem o orçamento inteiro em troca de um feitiço que quase nunca é conjurado, e que, quando sai, é sempre o pico.
+**As suas duas Restrições não podem ser as duas de frequência.** `Uma Vez`, `Condicional`, `Aquecer`, `Dívida` e qualquer `Restrição Própria` que faça a mesma coisa limitam quando o feitiço sai; escolha no máximo uma delas.
 
 **Duas Restrições não podem cobrar a mesma coisa:** dois turnos de preparo, duas condições no seu corpo, dois jeitos de te entregar. Se as duas doem no mesmo momento, a segunda não devolve nada.
 
@@ -1085,8 +1077,6 @@ Um domínio tem duas peças, e elas fazem coisas diferentes. Escreva as duas com
 > **Duas réguas para o Acerto, e elas já existem neste capítulo.**
 > **Se o seu Acerto é dano que sempre acerta**, a régua é a Melhoria `Inescapável`: ela custa uma `Média` e proíbe o feitiço de ter qualquer outra peça. Um Acerto que entrega dano garantido paga o mesmo tipo de preço: ele é o feitiço inteiro, e não sobra orçamento para mais nada em cima.
 > **Se o seu Acerto é uma regra sobre o ambiente**, a régua são os requisitos da `Regra Própria`: uma frase, verificável, sem número solto. O mestre aponta o momento em que ela vale, e ela vale igual para todo mundo lá dentro, inclusive para você.
-> A diferença entre as duas é de que máquina o mestre usa para dizer sim ou não.
-
 ### Abrir o Domínio
 
 **Custa a rodada inteira.** A incompleta cobra **6 × a sua maior Classe** de PE; a completa, **8 ×**.
@@ -1099,8 +1089,7 @@ Um domínio tem duas peças, e elas fazem coisas diferentes. Escreva as duas com
 
 **Dura metade do refino em rodadas**, no mínimo uma.
 
-> **A expansão conta como feitiço para a regra de ouro nº 6.**
-> Se alguma coisa algum dia baixar o custo de abrir para Ação Bônus, a regra nº 6 passa a valer sozinha: *feitiço em Ação Bônus ou Reação só permite mais um de Classe 0 no turno.* Ou seja, quem abrir domínio em Ação Bônus não lança mais nada de peso naquele turno.
+> **A expansão conta como feitiço para a regra de ouro nº 6:** *feitiço em Ação Bônus ou Reação só permite mais um de Classe 0 no turno.*
 
 ### Barreira e Rescaldo
 
@@ -1111,7 +1100,7 @@ Só a completa levanta barreira. Por dentro ela **não quebra**: quem está lá 
 > **Rescaldo**
 > **Quando o domínio acaba, de qualquer jeito, a sua técnica queima.** Vale igual nos três casos: você desfez por vontade, o tempo correu, ou estilhaçaram a barreira.
 > Pelo resto da cena a sua técnica não responde, e você fica com o Classe 0, com o corpo e com o que não for técnica.
-> Isso é **preço**: acontece em todo uso, e você já sabia disso quando abriu. É o que impede o domínio de ser mais uma linha da rotação.
+> Isso é **preço**: acontece em todo uso, e você já sabia disso quando abriu.
 > Rescaldo e a exaustão do descanso não somam: são escadas diferentes, e esta aqui tem um degrau só.
 
 ### Domínios da obra
@@ -1290,7 +1279,7 @@ Montadas com o orçamento da faixa 17 a 20: 8 pontos nos preços da Classe 5.
 
 ## Apêndice
 
-*Os termos deste capítulo estão no glossário do livro, logo depois da introdução.*
+*Os termos deste capítulo estão no vocabulário do sistema.*
 
 ### Ficha de feitiço
 

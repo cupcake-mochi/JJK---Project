@@ -28,7 +28,7 @@ A ordem sai uma vez e vale enquanto a cena durar. Ninguém rola de novo a cada r
 
 Os quatro são independentes. Você tem os quatro em todo turno seu, e gastar um não mexe nos outros. Também não dá para trocar: abrir mão da Ação Padrão não compra movimento nem uma segunda Ação Bônus.
 
-O slot de Ação Bônus fica vazio na maioria dos turnos da maioria das fichas, e isso é normal. Ele só acende quando alguma coisa escrita na sua ficha diz **Ação Bônus** com todas as letras.
+O slot de Ação Bônus fica vazio na maioria dos turnos da maioria das fichas. Ele só acende quando alguma coisa escrita na sua ficha diz **Ação Bônus** com todas as letras.
 
 ### Deslocamento
 
@@ -54,7 +54,7 @@ Algumas coisas custam a rodada inteira: Ação de Movimento, Ação Padrão e A�
 
 ## Ações de Ação Padrão
 
-Doze ações têm regra escrita. Você continua podendo tentar o que não está aqui; é aqui que o mestre não precisa arbitrar nada.
+Doze ações têm regra escrita, e você continua podendo tentar o que não está aqui.
 
 **Ações de Ação Padrão**
 {: .tab-titulo }
@@ -111,7 +111,7 @@ São duas.
 
 > **`Ler o Ambiente`** — Ação Bônus, uma vez por cena. Teste de `Percepção` ou `Intuição` contra a dificuldade que o mestre puser. Num sucesso, o mestre te diz uma coisa daquele lugar que dê para usar: um objeto, um caminho, uma posição, um risco. Se não houver nada, ele diz isso e a ação não é gasta.
 
-`Provocar` puxa o golpe para você: enquanto durar, você é o alvo mais fácil da sala, e quem foi provocado erra mais em qualquer outro. É a ação de quem tem couro para receber no lugar de quem não tem.
+`Provocar` puxa o golpe para você: enquanto durar, você é o alvo mais fácil da sala, e quem foi provocado erra mais em qualquer outro.
 
 `Ler o Ambiente` fala do lugar e só do lugar. Ela nunca diz nada sobre uma criatura. Quem quer saber do inimigo usa `Estudar`; quem quer revistar alguém usa `Vasculhar`; e as duas custam a Ação Padrão.
 
@@ -153,7 +153,7 @@ Quem usa a Restrição `Carregar` mantém o movimento e a Ação Bônus no turno
 
 > **Feitiço em Ação Bônus ou Reação só permite mais um de Classe 0 no turno.**
 
-É a trava que impede dois feitiços grandes no mesmo turno. Por exemplo, se você conjurou um feitiço de Classe 3 na Ação Bônus, o que ainda cabe na Ação Padrão é um Classe 0, e nada maior.
+Por exemplo, se você conjurou um feitiço de Classe 3 na Ação Bônus, o que ainda cabe na Ação Padrão é um Classe 0, e nada maior.
 
 Uma Trilha sobe esse teto, e é a única do sistema: a `Torrente`, do Emanador. Do nível 11 em diante ela troca o Classe 0 por metade da sua maior Classe.
 

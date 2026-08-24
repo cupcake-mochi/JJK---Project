@@ -131,7 +131,7 @@ Não existe perícia para isso, porque são duas perguntas diferentes e cada uma
 | *"Isso é uma técnica de troca, e troca sempre tem um custo."* | *"Ela gasta muito no começo de cada golpe. Se eu forçar três seguidos, ela seca."* |
 | Você conhece o catálogo | Você não precisa saber o nome do que está acontecendo |
 
-O Nanami faz a primeira. O Todo faz a segunda.
+O Nanami trabalha pelo `Ocultismo`. O Todo, pelo `Sentir Energia`.
 
 ## Ofícios
 

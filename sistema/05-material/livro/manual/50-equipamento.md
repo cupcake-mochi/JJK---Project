@@ -166,7 +166,7 @@ São doze. Propriedade é o que a arma é: ela já está impressa na linha do ca
 
 > **`Talha` é a única das doze ligada ao `Bloquear`**, a rolagem de `2d10` que a sua mesa pode usar no lugar da Defesa estática — o capítulo 18 explica a escolha. Onde a mesa usa a Defesa estática, as nove armas com `Talha` seguem valendo por tudo o mais que elas são: dado, alcance, o resto das propriedades. Só esse `−1` específico não tem onde entrar.
 
-Três delas decidem cena fora de combate com frequência. `Oculta` é a que deixa você entrar armado numa reunião, num velório ou numa portaria com detector. `Rompe` é a que abre cadeado, grade, alçapão e tampa de bueiro sem esperar ninguém. `Vestida` é a que responde quando alguém manda você largar tudo o que está na mão.
+`Oculta` é a que deixa você entrar armado numa reunião, num velório ou numa portaria com detector. `Rompe` é a que abre cadeado, grade, alçapão e tampa de bueiro sem esperar ninguém. `Vestida` é a que responde quando alguém manda você largar tudo o que está na mão.
 
 ### Restrições
 
@@ -265,13 +265,11 @@ Um Caminho conjurador não pega espadão de graça: ele precisa da Trilha que co
 >
 > **Sem o requisito de Força dela, o seu deslocamento cai 3 metros enquanto você a estiver empunhando.**
 
-As duas se somam, e somadas elas fecham a porta na prática: quem pega uma arma que não é sua rola pior e anda menos. Não é proibição escrita, e o resultado é quase o mesmo.
+As duas se somam: quem pega uma arma que não é sua rola pior e anda menos.
 
 ## Requisito de Força
 
 > **Força 3 nos dois degraus de cima de cada escada de dado.** No corpo a corpo, `d10` e `d12`. No tiro, `2d8` e `2d10`. São 16 armas das 52.
-
-Três coisas que essa frase decide, e vale ler as três:
 
 - **O requisito lê o dado impresso na linha da arma.** O passo do `Versátil` não conta. Katana, Espada Longa e Taco chegam a `d10` nas duas mãos sem pedir Força nenhuma.
 - **O `Yumi` não é com requisito.** As duas ficam no fundo da escada do tiro, e o arco paga em Destreza.
@@ -281,7 +279,7 @@ O requisito e o treino são requisitos diferentes e não se substituem. Um olha 
 
 ## Catálogo
 
-O `Catálogo de armas` traz as 52 armas com tudo que decide o golpe, em três blocos, um por lista de treino. Depois dele vem o índice por propriedade, para quando você sabe o que quer que a arma faça e não qual é o nome dela. As treze categorias, no fim, dizem o que cada família é na mão e na cena.
+O `Catálogo de armas` traz as 52 armas com tudo que decide o golpe, em três blocos, um por lista de treino. O `Índice por propriedade` serve para quando você sabe o que quer que a arma faça e não qual é o nome dela.
 
 ### Armas por treino
 
@@ -345,6 +343,7 @@ O `Catálogo de armas` traz as 52 armas com tudo que decide o golpe, em três bl
 | Rifle | Arma de Fogo | 2 | **2d8** | `Longo Alcance` · `Munição` · `Talha` | 3 |
 | Rifle de Precisão | Arma de Fogo | 2 | **2d10** | `Longo Alcance` · `Munição` | 3 |
 | Submetralhadora | Arma de Fogo | 2 | **2d6** | `Longo Alcance` · `Munição` · `Par` · `Oculta` | — |
+
 ### Índice por propriedade
 
 **Índice por propriedade**

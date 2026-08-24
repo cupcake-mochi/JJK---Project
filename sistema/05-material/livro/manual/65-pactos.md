@@ -2,11 +2,9 @@
 
 Pacto é uma troca. Você abre mão de alguma coisa e ganha outra, e quem cobra é a sua própria energia amaldiçoada — não existe juiz, não existe rolagem, e não existe desfazer.
 
-> **Pacto é opcional.** A ficha nasce sem nenhum, e a maioria dos personagens nunca fecha um.
+> **Pacto é opcional.** A ficha nasce sem nenhum.
 
 ## Formas de pacto
-
-São quatro, e elas se separam por **quando** o pacto se fecha e por **quem vive com ele depois**.
 
 **Formas de pacto**
 {: .tab-titulo }
@@ -18,21 +16,19 @@ São quatro, e elas se separam por **quando** o pacto se fecha e por **quem vive
 | **`Promessa`** | entre duas partes, as duas aceitando | não tem |
 | **de restrição** | na criação, junto da Origem ou da técnica | não se aplica |
 
-O permanente é o único que vai para a ficha e viaja com o personagem. Os outros três nascem e morrem onde foram feitos, ou dependem de alguém do outro lado.
-
 > **Nenhuma forma de pacto se fecha sob ameaça.** Todo mundo envolvido aceita por vontade própria, ou não houve pacto — nem a metade que cobra, nem a que paga.
 
 ### Câmbio
 
-Uma frase resolve o tamanho de qualquer pacto, e ela vale para as quatro formas:
+O câmbio resolve o tamanho de qualquer pacto, e vale para as quatro formas:
 
 > **Promessa pequena, ganho pequeno. Promessa que arrisca a vida, ganho enorme.**
 
-É por ela que o mestre aprova ou recusa. Um pacto que pede muito e oferece pouco não é caro: ele não fecha.
+É por ele que o mestre aprova ou recusa: um pacto que pede muito e oferece pouco não fecha.
 
 ## Pacto permanente
 
-É o pacto do dia a dia — o efeito que fica ligado enquanto o personagem existir.
+O efeito de um pacto permanente fica ligado enquanto o personagem existir.
 
 > **Você fecha, na campanha inteira, um número de pactos permanentes igual a metade da sua Essência, arredondando para baixo.**
 >
@@ -45,7 +41,7 @@ Uma frase resolve o tamanho de qualquer pacto, e ela vale para as quatro formas:
 |---|---|---|---|---|---|---|---|
 | **Pactos** | 0 | 0 | 1 | 1 | 2 | 2 | 3 |
 
-Esta é a única linha de Pactos que entra na ficha, e a Essência é o atributo que a decide — a mesma que negocia, no capítulo 1, *Como Jogar*.
+Esta é a única linha de Pactos que entra na ficha.
 
 > **Esta é a exceção à regra de arredondamento.** Em todo o resto do sistema, o que você ganha nunca fica abaixo de 1. Aqui fica: quem não investiu em Essência não tem pacto permanente nenhum.
 {: .aviso }
@@ -54,7 +50,7 @@ Esta é a única linha de Pactos que entra na ficha, e a Essência é o atributo
 
 Você escreve duas coisas, e o mestre lê as duas antes de aprovar: **o que você entrega** e **o que você recebe**.
 
-O que você entrega é da ficção, e o mestre cobra pelo câmbio. O que você recebe sai de uma lista curta.
+O que você entrega é da ficção, e o mestre cobra pelo câmbio. O que você recebe sai da tabela `O que um pacto permanente concede`.
 
 **O que um pacto permanente concede**
 {: .tab-titulo }
@@ -70,7 +66,7 @@ O que você entrega é da ficção, e o mestre cobra pelo câmbio. O que você r
 
 > **Pacto não mexe em número de rolagem.** Nem no seu acerto, nem na sua Defesa, nem em perícia nenhuma. Um pacto que promete qualquer um dos três está fora, e não é questão de tamanho.
 
-E se você pedir dano, o mestre te dá pouco: **um pacto permanente vale, em dano, cerca de um quinto de um golpe seu.** Pacto não é onde se compra dano — é onde se compra acesso, permissão, e coisa que o resto da ficha não sabe fazer.
+E se você pedir dano, o mestre te dá pouco. Pacto compra acesso, permissão, e coisa que o resto da ficha não sabe fazer.
 
 ## Pacto temporário
 
@@ -78,9 +74,9 @@ E se você pedir dano, o mestre te dá pouco: **um pacto permanente vale, em dan
 >
 > **A perda é física ou energética, e ela é de verdade.**
 
-O ganho morre na cena. A perda, não. Um braço que você entregou no meio da luta não volta porque a luta acabou, e é essa diferença que faz um pacto temporário ser decisão e não botão.
+O ganho morre na cena. A perda, não. Um braço que você entregou no meio da luta não volta porque a luta acabou.
 
-Não existe teto aqui. Quem segura é o mestre, com o câmbio na mão.
+Não existe teto aqui. Quem segura é o mestre, pelo câmbio.
 
 ## Promessa
 
@@ -101,11 +97,9 @@ As duas partes não precisam ser dois personagens de jogador, nem dois feiticeir
 | o que eu recebo | a metade do outro |
 | a cláusula | o que você acrescenta para proteger o que não quer perder |
 
-A terceira é a que faz uma `Promessa` ser acordo em vez de troca. Sem ela, os dois lados combinaram o preço e ninguém combinou o limite.
-
 ### Quebrar uma Promessa
 
-> **Quebrar custa a sua energia amaldiçoada, e pode custar a sua vida.** Quanto exatamente é o mestre quem diz, mas não é multa: é perder o que faz de você um feiticeiro.
+> **Quebrar custa a sua energia amaldiçoada, e pode custar a sua vida.** Quanto exatamente é o mestre quem diz.
 
 Isso vale para quem quebra, e vale sozinho — ninguém precisa descobrir, ninguém precisa cobrar, e não existe recurso.
 
@@ -115,13 +109,13 @@ Isso vale para quem quebra, e vale sozinho — ninguém precisa descobrir, ningu
 
 Ninguém é obrigado a ter um. Quem escreve um está dando forma de regra a uma limitação que até então era só ficção.
 
-> **Um pacto de restrição não compra poder.** Se ele comprasse, ele seria uma `Restrição` de feitiço com outro nome — e essa já existe, no capítulo 9, *Fundamento*.
+> **Um pacto de restrição não compra poder.** A limitação que devolve pontos é a `Restrição` de feitiço, no capítulo 9, *Fundamento*.
 
-E ele tem um segundo uso, do lado do mestre: quando alguém propõe um pacto temporário ou uma `Promessa`, a tabela `Ideias de restrição` é a lista do que um preço pesado parece.
+A tabela `Ideias de restrição` mostra o que um preço pesado parece, e serve também para quem vai propor um pacto temporário ou uma `Promessa`.
 
 ## Catálogo
 
-Duas listas, e **nenhuma das duas é fechada**. Elas existem para dar tamanho, não para limitar escolha.
+**Nenhuma das duas listas é fechada.**
 
 ### Pactos da obra
 
@@ -139,11 +133,9 @@ Duas listas, e **nenhuma das duas é fechada**. Elas existem para dar tamanho, n
 | O carrasco | `Promessa` | jurar executar alguém, em troca do posto — e a segunda parte é a instituição, não uma pessoa |
 | Existência garantida | `Promessa` | parar de viver e não ferir ninguém, em troca de a própria existência ficar garantida — e ela atravessa mil anos |
 
-A segunda linha é a mais comum de todas na ficção, e é a que uma mesa vai imitar primeiro: o preço não é o corpo, é a vantagem de o inimigo não saber o que você faz.
-
 ### Ideias de restrição
 
-Nenhuma delas mexe em acerto, Defesa ou perícia. O que elas mudam é a estrutura de como o personagem funciona.
+Nenhuma delas mexe em acerto, Defesa ou perícia.
 
 **Ideias de restrição**
 {: .tab-titulo }

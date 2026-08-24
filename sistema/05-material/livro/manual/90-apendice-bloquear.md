@@ -65,7 +65,7 @@ Quem ataca continua rolando d20, e 20 natural continua sendo 20 natural. O `Apar
 
 > **`Bloquear` usa exatamente o mesmo modificador da sua Defesa parada. Nada pode aumentar um sem aumentar o outro.**
 
-Se um escudo, uma aptidão, um Legado ou uma ferramenta der `+1` na Defesa e não no `Bloquear`, ou o contrário, a regra quebra: `+1` de diferença entre os dois lados vale dois pontos e meio percentuais.
+Se um escudo, uma aptidão, um Legado ou uma ferramenta der `+1` na Defesa e não no `Bloquear`, ou o contrário, a regra quebra.
 
 ## Bloquear e Incapacitado
 

@@ -276,7 +276,7 @@ turno — um chefe, um capanga grande — perde **uma**, e não todas.
 
 ### Condições em uma linha
 
-Para consulta na mesa. O efeito inteiro de cada uma está acima, na entrada dela.
+Para consulta na mesa. O efeito inteiro de cada uma está na entrada dela.
 
 **Condições em uma linha**
 {: .tab-titulo }

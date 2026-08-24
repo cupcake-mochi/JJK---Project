@@ -33,11 +33,14 @@ Nem todo capítulo é para ler do começo ao fim. Metade dos capítulos é catá
 | **7** | Origens e Legados | *consulta* · de onde vem o seu poder, e o que você já trazia |
 | **8** | Caminhos e Trilhas | *consulta* · o seu lugar numa equipe |
 | **9** | Fundamento | *ler uma vez, depois consultar* · a sua técnica, e como se monta feitiço com ela |
-| **10** | Aptidões e Refino | *consulta* · o que qualquer feiticeiro pode aprender, técnica à parte |
-| **11** a **13** | Equipamento · Ferramenta Amaldiçoada · Invocações | *consulta* · o que você carrega e o que você põe em campo |
+| **10** | Técnica Marcial | *consulta* · a mesma máquina do Fundamento, com o corpo e o equipamento no lugar da energia |
+| **11** | Aptidões e Refino | *consulta* · o que qualquer feiticeiro pode aprender, técnica à parte |
+| **12** | Bênçãos e Lapidação | *consulta* · o que entra no lugar dos dois para quem não tem energia amaldiçoada |
+| **13** a **15** | Equipamento · Ferramenta Amaldiçoada · Invocações | *consulta* · o que você carrega e o que você põe em campo |
+| **16** | Pactos | *consulta* · o que você troca com a sua própria energia, e o que ela cobra |
 | | **A CAMPANHA** | |
-| **14** | Experiência e Progressão | *consulta* · o que cada nível entrega, do 1 ao 30 |
-| **15** | Apêndice · Bloquear | *decisão de mesa* · Defesa parada ou rolar `2d10` pra se defender — os dois são regra do sistema |
+| **17** | Experiência e Progressão | *consulta* · o que cada nível entrega, do 1 ao 30 |
+| **18** | Apêndice · Bloquear | *decisão de mesa* · Defesa parada ou rolar `2d10` pra se defender — os dois são regra do sistema |
 | | **Índice remissivo** | no fim: termo, e em que página ele aparece |
 
 **Grupo novo, sem ninguém ter lido nada?** Vá direto para *Antes da primeira sessão*, logo depois desta introdução. É uma cena pronta, com ficha e tudo, para jogar antes de estudar o resto.

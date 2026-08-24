@@ -6,15 +6,11 @@ O combustível volta em dois momentos, e os dois são de ficção.
 >
 > **Descanso longo: a missão acabou.** Você parou de trabalhar.
 
-Não existe contagem de horas em lugar nenhum deste capítulo. O gatilho é o que aconteceu na história, e é isso que faz dois mestres diferentes chamarem o mesmo momento de descanso.
+Não existe contagem de horas: o gatilho é o que aconteceu na história.
 
 ## Cena
 
-`Por cena` é o relógio mais usado do manual, então a palavra precisa de definição própria.
-
 > **Quem conta é o mestre.** Uma cena pode ser uma sala, um segmento de salas, ou um combate. **Ela acaba quando a pressão daquele pedaço acaba**: o inimigo caiu, a porta fechou, o grupo saiu dali.
-
-É a mesma forma da contagem de luta, mais adiante, e pelo mesmo motivo: *"isso foi uma cena?"* é pergunta sobre o pedaço de jogo que aquele mestre acabou de dirigir.
 
 ## Ambiente propício
 
@@ -30,9 +26,7 @@ Contam como propício:
 - um hospital, jujutsu ou comum
 - um veículo de apoio, com o kit dentro
 
-> **O mestre tem a palavra final, sempre.** A lista existe para ele não precisar decidir do zero, não para amarrá-lo. Um santuário abandonado com um velho que já foi feiticeiro pode ser propício; a escola sob ataque pode não ser.
-
-Quando der para declarar isso na abertura da missão, declare: vira informação tática, e o grupo planeja em cima dela em vez de descobrir na hora.
+> **O mestre tem a palavra final, sempre.** Um santuário abandonado com um velho que já foi feiticeiro pode ser propício; a escola sob ataque pode não ser.
 
 ## Recuperação
 
@@ -113,7 +107,7 @@ Desvantagem é rolar dois d20 e ficar com o menor.
 
 **Em ambiente propício o descanso curto devolve 25% em qualquer degrau.** A exaustão só corta o combustível de quem está longe de casa.
 
-Os degraus sobem por consequência e não por tamanho: o primeiro pega o que você faz fora de combate, o segundo pega posicionamento, e só o terceiro pega a rolagem de luta. **O degrau 1 não é o leve** — ele tira o mesmo que o 3, em cima de outra coisa.
+**O degrau 1 não é o leve** — ele tira o mesmo que o 3, em cima de outra coisa.
 
 ### Exaustão e Integridade ao mesmo tempo
 
@@ -134,11 +128,11 @@ Desvantagem não empilha com desvantagem, e dois cortes de deslocamento não se 
 
 ### Teto
 
-A exaustão para no terceiro degrau. Uma missão de campo de três dias com quatro lutas por dia acumula três degraus e trava ali: o grupo fica pior, sabe **quanto** pior, e escolhe se continua.
+A exaustão para no terceiro degrau. Uma missão de campo de três dias com quatro lutas por dia acumula três degraus e trava ali.
 
 > **O mestre pode tirar um degrau quando a ficção pedir.** Uma noite de sono de verdade, um chá que alguém sabia fazer, um dia parado.
 
-A válvula só anda para um lado. O mestre nunca adiciona degrau fora da regra.
+O mestre nunca adiciona degrau fora da regra.
 
 ## Relógios
 

@@ -2,11 +2,9 @@
 
 Uma invocação é um corpo que anda no campo por sua conta e obedece você: um shikigami, um talismã que vira bicho, uma maldição que você domou. Ela se monta gastando um orçamento de pontos, numa mini ficha bem menor que a do seu personagem.
 
-Quem ganha o corpo é quem tem uma das três Trilhas do Evocador. **O que a Trilha concede não sai do orçamento**: ela entrega quantos corpos você tem e quanta vida cada um aguenta, e o orçamento desta página compra capacidade por cima disso. As três Trilhas estão no capítulo 8, *Caminhos e Trilhas*, com o número de cada uma. Nada na regra abaixo depende de ser Evocador: ela vale para qualquer ficha que ganhe uma invocação, venha ela de onde vier.
+Quem ganha o corpo é quem tem uma das três Trilhas do Evocador. **O que a Trilha concede não sai do orçamento**: ela entrega quantos corpos você tem e quanta vida cada um aguenta, e o orçamento compra capacidade por cima disso. As três Trilhas estão no capítulo 8, *Caminhos e Trilhas*, com o número de cada uma. Nada na regra abaixo depende de ser Evocador: ela vale para qualquer ficha que ganhe uma invocação, venha ela de onde vier.
 
 ## Regra rápida do turno
-
-Comece por aqui. Isto é o que você precisa saber para jogar com uma invocação já montada; o resto do capítulo é para montá-la.
 
 > **Invocar custa `1 × a sua maior Classe` de PE e a sua Ação Padrão.**
 > **Comandar a invocação custa a sua Ação Padrão, toda rodada.** Sobram o seu movimento, a sua Ação Bônus e a sua Reação.
@@ -18,8 +16,6 @@ Não existe "a primeira do dia é grátis". **Fora de combate, ação não custa
 > **Exemplo.** O Kaito está no nível 10 e a maior Classe dele é `3`, então invocar custa `3` PE. Ele entra no prédio abandonado com a invocação já de pé, porque invocou no carro e ali a ação não custou nada. Na rodada 1 da luta ele gasta a Ação Padrão comandando: a invocação ataca. Ele ainda anda `9` metros e usa a Ação Bônus dele. Na rodada 2 ele decide bater ele mesmo, e nesse turno a invocação não faz nada, porque ninguém a comandou.
 
 ### Presença em campo
-
-
 
 Fora de combate a conta some e a invocação vira mão de obra. Ela entra no duto na frente do grupo, fica de vigia a noite inteira na única porta que ninguém quer atravessar, carrega o ferido até a rua, cava o que precisa ser cavado. Uma boa parte do valor de uma invocação nunca aparece numa rolagem de ataque.
 
@@ -33,8 +29,6 @@ Fora de combate a conta some e a invocação vira mão de obra. Ela entra no dut
 | Seu nível | 1 a 4 | 5 a 8 | 9 a 12 | 13 a 16 | 17 a 20 | 21 a 25 | 26 a 30 |
 |---|---|---|---|---|---|---|---|
 | **Rotina** | 13 | 31 | 45 | 63 | 76 | 94 | 108 |
-
-É contra esse número que o teto abaixo se mede.
 
 > **Você e todas as suas invocações somados entregam uma Rotina.**
 > Com uma invocação, cada um entrega metade. Com três, cada um entrega um quarto.
@@ -52,7 +46,7 @@ A ficha dela é derivada da sua: cada linha ou copia um número seu, ou sai de u
 > **Linha que encara dado** (acerto, Defesa, Teste de Resistência) **= o seu número**, com um deslocamento fixo por cima.
 > **Linha fora de dado** (vida, movimento) **= fórmula própria, com o atributo dela dentro.**
 
-A invocação tem atributos, e eles valem nas linhas de fora do dado: a Constituição dela entra na vida, e a Força e a Destreza dela entram como deslocamento. Os três deslocam o número uma vez e param por aí. Nenhum deles faz a invocação crescer mais rápido que você ao longo da campanha.
+A invocação tem atributos, e eles valem nas linhas de fora do dado: a Constituição dela entra na vida, e a Força e a Destreza dela entram como deslocamento. Os três deslocam o número uma vez e param por aí.
 
 ### Deslocamento
 
@@ -163,7 +157,7 @@ Cada linha diz quanto ela custa do orçamento, o nome que vai na ficha, e o efei
 
 > **O `Graúdo` e o `Miúdo` são o mesmo eixo em degraus diferentes, e o que os separa é quem sofre.** O `Miúdo` passa por um vão, e isso é coisa que a invocação faz consigo mesma. O `Graúdo` barra passagem, e barrar é o inimigo perdendo movimento.
 
-Os três de percepção (`Fala`, `Faro`, `Vigia`) são os que mais decidem sessão fora de luta. Uma invocação com `Vigia` transforma toda cena de vigilância: o grupo fica no carro e a invocação fica no telhado. Uma com `Fala` faz o interrogatório, o recado e a negociação em lugar onde nenhum de vocês podia aparecer.
+Uma invocação com `Vigia` transforma toda cena de vigilância: o grupo fica no carro e a invocação fica no telhado. Uma com `Fala` faz o interrogatório, o recado e a negociação em lugar onde nenhum de vocês podia aparecer.
 
 ### `Comando`
 
@@ -182,7 +176,7 @@ Os três de percepção (`Fala`, `Faro`, `Vigia`) são os que mais decidem sess�
 
 `Cavar` faz buraco no chão; `Emboscada` é ela **saindo** dele. Os dois funcionam sozinhos.
 
-Os dois de `8` pontos são os que mudam a matemática do grupo inteiro. `Interpor` é o que mantém de pé quem tem pouca vida, e `Chamariz` é o que tira o inimigo de cima de quem estava prestes a cair.
+`Interpor` é o que mantém de pé quem tem pouca vida, e `Chamariz` é o que tira o inimigo de cima de quem estava prestes a cair.
 
 ### Traço e Comando próprios
 
@@ -225,8 +219,6 @@ Seis invocações conhecidas, montadas com o catálogo acima.
 | *Serpente* | `Emboscada` + `Agarrar` | 12 | 6 |
 | *Sapo* | `Fisgada` + `Agarrar` | 12 | 6 |
 | *Nue* completo | `Voo` + `Montaria` | 16 | 10 |
-
-Três dos seis cabem já no nível 2, e os outros chegam nos marcos seguintes.
 
 > **Exemplo com a Trilha por cima.** A Mei escolhe a Trilha `Matilha` no nível 2, e é a Trilha que dá os cinco corpos dela: isso não custa nenhum ponto do orçamento. Com os `8` pontos que ela tem, ela compra `Miúdo` por `7`, e os cinco corpos passam por vãos que ninguém mais passa. Sobra `1` ponto, que não compra nada ainda e fica guardado até o nível 6.
 

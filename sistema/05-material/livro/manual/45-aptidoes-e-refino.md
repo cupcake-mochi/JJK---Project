@@ -2,7 +2,7 @@
 
 Aptidão é o que qualquer feiticeiro pode aprender, venha a energia de onde vier: cobrir-se de energia, levantar uma barreira, ficar de pé dentro de uma Expansão de Domínio. Ela não depende da sua técnica.
 
-Aptidão se ensina. Ela passa de mestre para aluno, de escola de espada para escola de espada, e dois feiticeiros de técnicas opostas sabem exatamente as mesmas quatro coisas contra um domínio. É o repertório comum da profissão, e é o que faz a mesa inteira falar a mesma língua no meio de uma luta.
+Aptidão se ensina. Ela passa de mestre para aluno, de escola de espada para escola de espada, e dois feiticeiros de técnicas opostas sabem exatamente as mesmas quatro coisas contra um domínio. É o repertório comum da profissão.
 
 Quem compra aptidão é o **refino**, o eixo de controle da sua ficha. Poder é quanto você tem. Refino é quanto você não desperdiça.
 
@@ -19,8 +19,6 @@ Um feiticeiro de refino 1 gasta muito para fazer pouco. A camada em volta do cor
 Na ficha, o refino é um número de 1 a 10. Toda ficha começa em 1, e ele sobe nos marcos: os níveis **6, 10, 14, 18, 22, 26 e 30**, sete ao longo da campanha inteira.
 
 > **Cada marco te dá +1 de refino de graça. Se você escolher Refino no marco, você ganha mais +1.**
-
-Sete marcos de graça mais o 1 do começo fecham em refino 8 sem você escolher nada. Quem escolhe Refino em todos eles bate no teto no nível 22.
 
 **Refino por marco**
 {: .tab-titulo }
@@ -51,7 +49,7 @@ Sete marcos de graça mais o 1 do começo fecham em refino 8 sem você escolher 
 | Teste de Resistência | magnitude fora de disputa: Redução de Dano, proteção |
 | dano | disputa contra outro refino, como o clash de expansões |
 
-**Só a `Projetar energia` põe refino em dano.** A proteção de `Cobrir-se de energia` entra na sua Defesa, e por isso usa `1/3 do refino` em vez do valor cheio.
+**Só a `Projetar energia` põe refino em dano.** A proteção de `Cobrir-se de energia` entra na sua Defesa, e usa `1/3 do refino`.
 
 > **Arredondamento.** Toda divisão de refino arredonda para baixo: refino 5 dividido por 2 dá 2.
 
@@ -71,12 +69,12 @@ A cada marco a ficha ganha três coisas de graça e escolhe uma quarta.
 
 Quem escolhe Refino em todo marco bate no teto no nível 22. Dali em diante a metade "mais um de refino" não tem onde cair, e a escolha entrega a segunda aptidão no lugar dela.
 
-> **Quem nunca escolhe Refino termina a campanha com zero aptidões.** A rota existe e é legítima: ela troca dez aptidões por sete pontos de atributo a mais. Está escrito aqui para ninguém descobrir isso no nível 20.
+> **Quem nunca escolhe Refino termina a campanha com zero aptidões.** A rota existe e é legítima: ela troca dez aptidões por sete pontos de atributo a mais.
 {: .aviso }
 
 Mesmo essa ficha não fica sem nada. `Cobrir-se de energia` e `Canalizar energia` vêm de graça no refino 1, e a primeira continua crescendo com o refino passivo até 8. O que ela nunca vai ter é `Energia Reversa` nem `Barreira Simples`.
 
-*O marco é do capítulo 17, __Experiência e Progressão__: é lá que estão os sete níveis em que ele cai, quanto refino cada rota junta marco a marco, e o que Corpo e Leque compram. Aqui interessa só a escolha de Refino, que é a que vira aptidão.*
+*O marco é do capítulo 17, __Experiência e Progressão__: é lá que estão os sete níveis em que ele cai, quanto refino cada rota junta marco a marco, e o que Corpo e Leque compram.*
 
 ## Aptidões
 
@@ -88,9 +86,9 @@ Um marco de Refino compra **uma aptidão**, de qualquer altura que o seu refino 
 
 ### Classe Passiva
 
-**A Classe Passiva é o tamanho da aptidão.** Ela diz o quanto aquela entrada pode entregar, e é por ela que se lê quanto uma aptidão vale ao lado de outra. As aptidões usam a mesma escada das Passivas: a escada e o que cabe em cada altura estão no capítulo 9, *Fundamento*, na seção `Passivas`.
+**A Classe Passiva é o tamanho da aptidão**, e diz o quanto aquela entrada pode entregar. As aptidões usam a mesma escada das Passivas: a escada e o que cabe em cada altura estão no capítulo 9, *Fundamento*, na seção `Passivas`.
 
-Aqui ela não cobra nada: o marco compra uma aptidão de qualquer altura, e o preço é o mesmo. Quem separa as alturas é o requisito. E como o refino escala o que a aptidão entrega, uma Classe Passiva 1 no refino 10 rende bem mais do que no refino 2.
+Aqui ela não cobra nada: o marco compra uma aptidão de qualquer altura, e o preço é o mesmo. Quem separa as alturas é o requisito.
 
 **E se você for escrever uma `Aptidão Própria`, a escada do capítulo 9 é a base:** escolha a altura que a sua ideia alcança, e escreva dentro do que aquela linha permite.
 
@@ -148,7 +146,7 @@ Como Reação, em vez de espalhar a camada você joga ela inteira no ponto onde 
 
 A proteção é um piso. Ela sustenta o feiticeiro que não investiu em corpo nenhum, e sai de cena assim que Traje ou Revestimento entram na conta.
 
-Fora de combate ela decide as cenas em que ninguém está brigando: a queda de três andares, o teto que cede, o carro. Um feiticeiro atravessa isso e levanta, e é por essa aptidão que o mestre pode jogar o grupo dentro de um prédio desabando sem matar ninguém.
+Fora de combate ela decide as cenas em que ninguém está brigando: a queda de três andares, o teto que cede, o carro. Um feiticeiro atravessa isso e levanta.
 
 ### Canalizar energia
 
@@ -158,11 +156,9 @@ Mão nua atravessa maldição sem machucar. Para o golpe encostar de verdade, a 
 >
 > Requisito: grátis no refino 1.
 
-Ela é a porta de toda técnica de contato. Sem ela, tudo o que a sua ficha faz precisa sair de longe, e encostar num inimigo vira uma decisão sem recompensa.
+Ela é a porta de toda técnica de contato.
 
 ## Energia crua
-
-Duas aptidões trabalham com a energia sem forma. Uma dispara ela crua, a outra inverte o sinal dela.
 
 ### Projetar energia
 
@@ -172,7 +168,7 @@ Você junta energia na mão e solta, sem técnica e sem forma. Sai como um borr�
 >
 > Requisito: nenhum. O refino escala o dano.
 
-`Projetar energia` é o que sobra quando o combustível acaba. Ela existe para o turno em que o seu PE zerou, a luta ainda não terminou e você continua precisando fazer alguma coisa.
+`Projetar energia` é o que sobra quando o combustível acaba: o turno em que o seu PE zerou, a luta ainda não terminou e você continua precisando fazer alguma coisa.
 
 ### Energia Reversa
 
@@ -184,9 +180,9 @@ Toda energia amaldiçoada é negativa. Multiplicar uma negativa por outra dá po
 >
 > Requisito: refino 7 e nível 13. Classe Passiva 3.
 
-> **A `Energia Reversa` cura só você.** Curar outra pessoa é o degrau raro: quem faz isso é a Trilha `Sutura`, e é lá que se paga por isso.
+> **A `Energia Reversa` cura só você.** Curar outra pessoa é o degrau raro, e quem faz isso é a Trilha `Sutura`.
 
-Ela muda a forma das lutas longas e muda o que acontece entre elas. Um personagem com Energia Reversa não precisa voltar para casa depois de cada cena, e o mestre perde a alavanca de encerrar um arco pelo desgaste do grupo. Quando você monta uma sequência de cenas sem descanso, é esta aptidão que decide se ela aperta alguém.
+Ela muda a forma das lutas longas e muda o que acontece entre elas: um personagem com Energia Reversa não precisa voltar para casa depois de cada cena.
 
 ## Aptidões de kokusen
 
@@ -243,8 +239,6 @@ Estas quatro são as respostas que o ofício inteiro desenvolveu para esse probl
 > **As quatro anulam o Acerto de uma Expansão de Domínio. Nenhuma delas serve contra a Expansão incompleta.**
 >
 > A incompleta não tem acerto garantido: o Acerto dela rola. Contra ela você se defende com Defesa e com Teste de Resistência, como se defende de tudo o mais no jogo.
-
-O que separa as quatro é quanta liberdade você tem enquanto está protegido.
 
 **Aptidões anti-domínio**
 {: .tab-titulo }
@@ -315,7 +309,7 @@ Você abre um domínio e não põe técnica nenhuma dentro dele: fica só a cama
 >
 > Requisito: refino 7 e nível 13. Classe Passiva 3. O refino escala a duração.
 
-Ela é a única das quatro que ganha a luta em vez de sobreviver a ela. Contra um inimigo que depende inteiro da técnica dele, é a aptidão que decide a cena: você desliga o que ele sabe fazer e resolve no braço.
+Contra um inimigo que depende inteiro da técnica dele, você desliga o que ele sabe fazer e resolve no braço.
 
 A duração é um teto. Segurar as dez rodadas no refino 10 custa 110 de PE, e quem tem pouco PE fica seco antes do fim.
 
@@ -347,7 +341,7 @@ A cortina cai sobre o lugar inteiro e o mundo comum para de enxergar o que acont
 
 A `Cortina` custa dois marcos, porque você precisa da `Barreira Simples` antes. Quem não escolhe Refino pelo menos duas vezes não levanta cortina nenhuma.
 
-Ela é a aptidão que muda a campanha inteira, e quase todo o valor dela está fora de combate. Com uma cortina, a mesa luta no meio da rua às três da tarde, fecha uma escola sem evacuar ninguém, prende uma pessoa específica dentro de um quarteirão até resolver o que fazer com ela. E ela funciona na direção contrária também: achar uma cortina já levantada é descobrir que alguém preparou aquilo com antecedência, e um arco inteiro cabe nessa única informação.
+Quase todo o valor dela está fora de combate. Com uma cortina, a mesa luta no meio da rua às três da tarde, fecha uma escola sem evacuar ninguém, prende uma pessoa específica dentro de um quarteirão até resolver o que fazer com ela. E ela funciona na direção contrária também: achar uma cortina já levantada é descobrir que alguém preparou aquilo com antecedência.
 
 A condição da `Cortina` fala de quem atravessa, e de mais nada.
 
@@ -407,13 +401,13 @@ Três propostas, e uma delas é recusada:
 | *"uma vez por cena, quando um aliado a até 9 m falha um Teste de Resistência, ele rerrola"* | metade | Classe Passiva 2 | **passa** |
 | *"o seu deslocamento é `+3 m`"* | quase toda | Classe Passiva 3 | **recusada** |
 
-A terceira mostra que a trava é de forma e não de tamanho: `+3 m` é pouca coisa, e mesmo assim está fora. Uma coisa que fica sempre ligada é Classe Passiva 3, no tamanho que for.
+A trava é de forma e não de tamanho: `+3 m` é pouca coisa, e mesmo assim está fora. Uma coisa que fica sempre ligada é Classe Passiva 3, no tamanho que for.
 
-> Quem quiser a mesma ficção com Classe Passiva 3 tem a `Passiva Própria`, do lado do Fundamento, pagando em espaço de feitiço. A porta existe, ela só não é esta.
+> Quem quiser a mesma ficção com Classe Passiva 3 tem a `Passiva Própria`, do lado do Fundamento, pagando em espaço de feitiço.
 
 ## Passivas
 
-As Passivas são do capítulo 9, *Fundamento*. O que segue é o preço delas.
+As Passivas são do capítulo 9, *Fundamento*.
 
 > **Passiva custa espaço de feitiço conhecido, e a Expansão de Domínio também.** Quanto mais alta a Classe Passiva, mais espaço a Passiva cobra. Aptidão não entra nessa conta.
 
@@ -429,4 +423,4 @@ As Passivas pedem nível: Classe Passiva 1 no nível 1, Classe Passiva 2 no 7, C
 
 ## Expansão de Domínio
 
-A regra da Expansão está no capítulo 9, *Fundamento*, e é lá que ela é montada e paga. Deste capítulo você só precisa de duas coisas, e as duas já estão acima: ela gasta espaço de feitiço, como Passiva; e o Acerto dela é o que as quatro aptidões anti-domínio anulam, contanto que a Expansão seja a completa.
+A regra da Expansão está no capítulo 9, *Fundamento*, e é lá que ela é montada e paga. Ela gasta espaço de feitiço, como Passiva, e o Acerto dela é o que as quatro aptidões anti-domínio anulam, contanto que a Expansão seja a completa.

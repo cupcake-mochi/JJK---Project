@@ -1,6 +1,6 @@
 # Experiência e Progressão
 
-Você sobe de nível gastando XP, e o XP vem de missão. A regra inteira cabe em cinco linhas.
+Você sobe de nível gastando XP, e o XP vem de missão.
 
 > **Cada nível custa um número inteiro de missões, e esse número sobe uma missão a cada três níveis.**
 >
@@ -12,7 +12,7 @@ Você sobe de nível gastando XP, e o XP vem de missão. A regra inteira cabe em
 >
 > **Do nível 20 para o 21, além do XP é preciso um feito.**
 
-O XP não muda com o seu nível nem com o Grau de quem está na mesa. Um nível 8 e um nível 14 na mesma missão levam os mesmos 100, e é isso que faz mesa aberta funcionar: quem está atrás sobe mais rápido sozinho, porque cada nível custa mais que o anterior.
+O XP não muda com o seu nível nem com o Grau de quem está na mesa. Um nível 8 e um nível 14 na mesma missão levam os mesmos 100, e quem está atrás sobe mais rápido sozinho, porque cada nível custa mais que o anterior.
 
 Grau é reconhecimento; nível é poder. O Grau abre porta, dá acesso e pesa em conversa, e não paga XP.
 
@@ -35,8 +35,6 @@ Grau é reconhecimento; nível é poder. O Grau abre porta, dá acesso e pesa em
 | **23 a 25** | 8 | 800 |
 | **26 a 28** | 9 | 900 |
 | **29** | 10 | 1.000 |
-
-Do nível 2 ao 4 é uma missão por nível: a ficha entra em jogo e ganha corpo antes de qualquer decisão pesada. Do 17 em diante são seis missões por nível, e subir vira coisa de arco inteiro.
 
 Chegar ao nível 20 custa **6.300 XP** no total. Do 20 ao 30 são **8.200**.
 
@@ -70,7 +68,7 @@ Missão de roleplay que qualquer Grau pode entrar é missão curta, e ela paga.
 | **8** | +50 | +100 | +200 | **1 nível** |
 | **12 e acima** | +50 | +100 | +200 | +300 |
 
-Quem levou um final de arco no nível 2 sobe um nível na hora e entra na missão seguinte com 200 XP no bolso. Sobe de novo, e continua subindo até o acumulado acabar. O teto espalha a subida por várias sessões em vez de entregar três níveis de decisão de ficha numa noite só.
+Quem levou um final de arco no nível 2 sobe um nível na hora e entra na missão seguinte com 200 XP no bolso. Sobe de novo, e continua subindo até o acumulado acabar.
 
 ## Desconto da semana
 
@@ -120,8 +118,6 @@ O que conta como feito é conversa de mesa, e a mesa fecha a lista antes de algu
 Não precisa de aprovação de ninguém, exceto no limiar do 20. E uma linha de missões paga a cada missão: quem entra no meio de uma linha recebe pelo que jogou.
 
 ## Progressão por nível
-
-Na maior parte dos níveis, subir é o mesmo personagem com o número maior: você acerta um pouco mais, o feitiço custa a mesma coisa e rende igual, e cabe mais um feitiço na lista. De vez em quando o nível abre uma porta de verdade, e aí a ficha muda de forma: uma Classe nova, uma Liberação Máxima, um degrau de Caminho, um marco.
 
 Ache a sua linha e leia ela inteira.
 
@@ -177,7 +173,7 @@ Nível em negrito é nível que entrega decisão nova: uma Classe, um marco, um 
 
 > **Espaços de feitiço conhecido = `2 + (nível ÷ 2)`, arredondando para baixo. Mais um por marco já alcançado.**
 
-São **3 no nível 2**, **16 no nível 20** e **24 no nível 30**, e a coluna *espaços de feitiço* da tabela acima já traz a conta pronta em cada linha.
+São **3 no nível 2**, **16 no nível 20** e **24 no nível 30**, e a coluna *espaços de feitiço* da tabela `Progressão por nível` já traz a conta pronta em cada linha.
 
 A parte de baixo da conta dá um feitiço novo **a cada nível par**. A parte de cima é o espaço que cada **marco** solta de graça, então nos níveis 6, 10, 14, 18, 22, 26 e 30 entram dois de uma vez.
 
@@ -224,9 +220,7 @@ A escolha é do momento: você decide no marco, e nada obriga você a repetir a 
 
 Você começa a campanha com nove pontos de atributo distribuídos na criação. A linha de graça dos sete marcos leva isso a dezesseis, e quem escolhe **Corpo** nos sete chega a vinte e três, espalhados por até cinco atributos com teto de 6 em cada.
 
-Refino não vale nada para quem não tem aptidão: quem escolhe Leque sete vezes tem zero aptidões, e o refino dele fica sendo número morto. Quem escolhe Refino sete vezes tem dez aptidões e nenhuma Passiva a mais para querer.
-
-> **Quem nunca escolhe Refino termina a campanha com zero aptidões.** A rota é legítima e está escrita aqui para ninguém descobrir isso no nível 20. Mesmo essa ficha não fica sem nada: `Cobrir-se de energia` e `Canalizar energia` vêm de graça no refino 1, e a primeira continua crescendo com o refino da linha passiva até 8. O que ela nunca vai ter é `Energia Reversa` nem `Barreira Simples`.
+> **Quem nunca escolhe Refino termina a campanha com zero aptidões.** A rota é legítima. Mesmo essa ficha não fica sem nada: `Cobrir-se de energia` e `Canalizar energia` vêm de graça no refino 1, e a primeira continua crescendo com o refino da linha passiva até 8. O que ela nunca vai ter é `Energia Reversa` nem `Barreira Simples`.
 {: .aviso }
 
 ### Refino por rota
@@ -241,8 +235,6 @@ O refino começa em `1`, sobe `+1` de graça em cada um dos sete marcos, e a esc
 | **especialista**, sempre Refino | `3` | `5` | `7` | `9` | **`10`** | `10` | `10` |
 | **meio a meio** | `3` | `4` | `6` | `7` | `9` | `10` | `10` |
 | **generalista**, nunca Refino | `2` | `3` | `4` | `5` | `6` | `7` | **`8`** |
-
-A faixa é de `4` a `7` no nível 14 e de `6` a `10` no nível 22: duas fichas do mesmo nível nunca ficam a mais de quatro degraus de distância.
 
 O especialista bate no teto no **nível 22**, e é aí que a escolha de Refino troca de moeda: dali em diante ela entrega duas aptidões no lugar do degrau que não teria mais onde cair.
 

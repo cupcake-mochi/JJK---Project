@@ -192,11 +192,11 @@ No refino 1 você já tem duas aptidões, de graça: `cobrir-se de energia`, que
 
 ## Passo 8 · Pactos
 
-Opcional, e a maioria dos personagens começa sem.
+Opcional, e a ficha nasce sem nenhum.
 
-Pacto é o que você trocou por poder, e três das quatro formas dele já têm onde morar:
+Pacto é o que você trocou por poder, e as quatro formas dele têm onde morar:
 
-**Formas de pacto**
+**Onde cada forma de pacto se escreve**
 {: .tab-titulo }
 
 | O que você quer dizer | Onde isso se escreve |
@@ -204,9 +204,9 @@ Pacto é o que você trocou por poder, e três das quatro formas dele já têm o
 | *"a minha técnica fica maior sob uma condição que eu aceitei"* | **Restrição**, por feitiço, no capítulo 9 |
 | *"a minha técnica impõe uma regra ao mundo"* | **`Regra Própria`**, por técnica, no capítulo 9 |
 | *"eu troquei uma coisa antes de a campanha começar"* | **Legado**, na criação, no capítulo 7 |
-| *"eu e mais alguém fechamos um trato, aqui, na mesa"* | ainda não tem regra |
+| *"eu e mais alguém fechamos um trato, aqui, na mesa"* | **Pactos**, no capítulo 16 |
 
-> **Pacto entre personagens não entra na criação.** Quem quiser começar com um usa a `Regra Própria` ou um Legado, que é onde essa ficção já mora. O mestre continua podendo abrir um em jogo, com o preço escrito na ficha.
+> **Das quatro formas do capítulo 16, só o pacto de restrição entra na criação**, e ele se escreve junto da Origem ou da técnica. As outras três nascem em jogo.
 
 ## Exemplo
 

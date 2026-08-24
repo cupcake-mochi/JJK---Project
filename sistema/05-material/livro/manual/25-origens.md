@@ -39,7 +39,7 @@ Todo personagem começa **Grau 4**, venha de onde vier. A patente é eixo social
 
 Toda Origem abre pela frase que a resume, seguida do que é ser aquilo no mundo e de quem a carrega na obra.
 
-Depois vem **O que muda**, sempre na mesma ordem: as **Perícias**, a lista de quatro de onde você escolhe uma; os **Traços**, três sugestões que você usa como estão ou troca por uma escrita por você; e a **Criação**, a rota por onde você monta o seu poder. As duas Origens especiais mexem nessa rota, e o texto delas diz como.
+Depois vem **Efeito na ficha**, sempre na mesma ordem: as **Perícias**, a lista de quatro de onde você escolhe uma; os **Traços**, três sugestões que você usa como estão ou troca por uma escrita por você; e a **Criação**, a rota por onde você monta o seu poder. As duas Origens especiais mexem nessa rota, e o texto delas diz como.
 
 Por último vêm os **Legados** da Origem, nos três formatos, cada um com a sua tabela e o texto de cada entrada.
 
@@ -121,7 +121,6 @@ Fundamento, do jeito padrão.
 > *Na mesa:* serve quando a equipe está olhando outro feiticeiro trabalhar, ou o estrago que um deles deixou para trás. Vira leitura de inimigo sem precisar de teste.
 
 > **O Professor Que Você Não Teve** — existe um feiticeiro que podia ter te ensinado e não ensinou. Escreva quem é e por que não. Essa pessoa está viva, sabe que você existe, e a escolha dela ainda está de pé.
-> *Na mesa:* você entrega ao mestre um NPC competente com motivo pronto para negar ajuda. Ele volta na hora em que o grupo mais precisa de alguém desse nível.
 
 > **A Testemunha** — alguém sem energia amaldiçoada sabe o que você é, e nunca contou para ninguém. Escreva quem é e o que essa pessoa viu. Ela continua na vida dela, e continua sabendo.
 > *Na mesa:* é um endereço civil para onde a campanha pode voltar, e uma pessoa que o inimigo pode achar antes de você.
@@ -252,7 +251,6 @@ Fundamento, do jeito padrão. O passageiro mora na ficção da mesa, e a montage
 > *Na mesa:* é o segundo fôlego contra veneno, queda, agarrão e tudo que tenta te tirar da luta pelo corpo.
 
 > **Passagem** — uma vez por dia, você deixa ele assumir: refaça qualquer rolagem. Quando você volta, o mestre diz uma coisa que ele fez enquanto estava no comando. Você não estava lá para impedir.
-> *Na mesa:* o recurso mais largo do Receptáculo, e o único que devolve consequência escrita pelo mestre. Cada uso rende gancho de cena para depois.
 
 #### Desliga
 
@@ -302,7 +300,7 @@ Fundamento, do jeito padrão.
 
 #### Destranca
 
-*Escolha um destes, obrigatoriamente. Os quatro primeiros são arquétipos de clã; o quinto é para quem inventou o próprio; o sexto é a mesma sub-origem que as outras quatro Origens principais também alcançam.*
+*Escolha um destes, obrigatoriamente.*
 
 **Destranca do Descendente**
 {: .tab-titulo }
@@ -352,7 +350,6 @@ Fundamento, do jeito padrão.
 > *Na mesa:* audiência, tribunal interno, jantar de família, reunião de clã. A cena em que a equipe inteira depende de uma frase sua.
 
 > **Repetição** — na criação, escolha um Teste de Resistência: é contra aquilo que a sua família te drilou, todo dia, por anos. Uma vez por cena, role-o com vantagem.
-> *Na mesa:* declara na ficha, desde a criação, contra o que a sua casa tinha medo. Isso já é ficção pronta para o mestre usar.
 
 > **Biblioteca** — uma vez por cena, refaça um teste de História ou Ocultismo que você falhou. A sua casa tinha os livros, e você foi obrigado a ler.
 > *Na mesa:* segura a cena de pesquisa, que é onde a campanha costuma parar por causa de um dado ruim.
@@ -421,13 +418,10 @@ Fundamento, do jeito padrão.
 | Sem Técnica → ver *Sem Técnica* | sem relógio |
 
 > **O Que Ninguém Lembra** — uma vez por descanso longo, você sabe um lugar, um nome ou uma técnica de antes do seu tempo, e isso responde uma dúvida que ninguém vivo responderia.
-> *Na mesa:* é a chave que destrava investigação parada. O mestre entrega um fato que ele estava guardando, e a sessão anda.
 
 > **Encomenda** — alguém pagou para você voltar. Escreva quem foi e qual era a condição do acordo. Essa pessoa está viva, considera o acordo aberto, e o que ela acha que comprou não é necessariamente o que você acha que vendeu.
-> *Na mesa:* dá ao mestre um credor que pode aparecer em qualquer sessão cobrando, e um motivo pronto para a campanha ir aonde ele quiser.
 
 > **Quem Morava Aqui** — este corpo teve uma vida. Escreva de quem ele era, e uma pessoa que ainda está esperando essa pessoa voltar. Ela não sabe que é você quem está aqui agora. Ela continua esperando, e continua procurando.
-> *Na mesa:* uma cena de reencontro que o jogador vai adiar o máximo que puder, e que o mestre pode marcar quando quiser.
 
 > **Enterrado** — você guardou uma coisa antes de morrer, e nunca voltou para buscar. Escreva o que é e onde está. Continua lá, se o lugar ainda existir. Faz tempo demais para alguém ter tido motivo de mexer.
 > *Na mesa:* põe no mapa um ponto que só você conhece, e um lugar que mudou de dono várias vezes desde então.
@@ -450,7 +444,6 @@ Fundamento, do jeito padrão.
 > *Na mesa:* é o personagem que continua de pé na cena em que devia cair, e que só descobre o tamanho do estrago depois.
 
 > **Espasmo** — uma vez por cena, refaça um Teste de Resistência Físico ou de Vigor que você já tenha falhado. O corpo fez uma coisa que você não mandou, e quem estava aqui antes ainda está nos músculos.
-> *Na mesa:* boa desculpa para o mestre descrever o corpo agindo sozinho, na frente de quem conhecia o antigo dono.
 
 > **Já Morri** — uma vez por cena, role com vantagem o Teste de Resistência contra ficar `Amedrontado` (condição). Você já esteve do outro lado e não achou grande coisa. Não mede risco como quem tem uma vida só.
 > *Na mesa:* aparece contra maldição de terror e contra intimidação em cena social. Você é quem entra na sala que o resto do grupo evita.
@@ -472,7 +465,6 @@ Fundamento, do jeito padrão.
 > *Na mesa:* o grupo carrega um objeto e passa a noite sendo procurado; você dorme. E quando a sala está errada e todo mundo sente, você é o que entra primeiro.
 
 > **Usado** — este corpo já esteve em estado muito pior que este, e levantou: uma vez por cena, você não fica `Derrubado`. Em troca, ele cobra depois — o mestre diz uma coisa pequena que o seu corpo passa a fazer errado até o fim da cena, e ela é sua e não dele.
-> *Na mesa:* você levanta na rodada em que o grupo precisava que alguém levantasse, e sai da cena devendo alguma coisa que o mestre escolhe.
 
 ## Feto
 
@@ -520,7 +512,6 @@ Fundamento, do jeito padrão.
 | Sem Técnica → ver *Sem Técnica* | sem relógio |
 
 > **Irmãos** — escreva quantos vocês eram e o que aconteceu com eles. Você reconhece um irmão quando encontra, e sabe quando um morre, esteja onde estiver. Nem todos se parecem com você: quem te fez fez outras coisas, em outros lugares, e algumas delas nasceram de gente.
-> *Na mesa:* o mestre ganha um alarme que ele pode tocar a qualquer momento, no meio de qualquer cena, e que muda tudo o que o personagem ia fazer naquela sessão.
 
 > **Numeração** — você é um número dentro do que alguém estava tentando. Escreva qual é o seu e quantos eram no total. Quem sabe do assunto reconhece a série.
 > *Na mesa:* transforma qualquer documento antigo em pista. Basta o número aparecer numa lista para a cena passar a ser sobre você.
@@ -656,10 +647,8 @@ Você tem energia amaldiçoada, então tem PE, aptidões e refino como qualquer 
 | Manutenção | sem relógio |
 
 > **Ninhada** — três seres num corpo só, obrigados a se olharem. É o método que funciona, e funcionou em você. Escreva o que são os três.
-> *Na mesa:* o jogador ganha três vozes para interpretar, e o mestre ganha três opiniões para consultar quando o grupo pedir conselho.
 
-> **Gêmeos** — foram dois, e dois não estabilizam. Vocês se revezam, e nenhum dos dois manda na hora da troca.
-> *Na mesa:* a troca acontece na hora errada, e é o mestre quem escolhe a hora. Vale combinar antes o que muda de uma para a outra.
+> **Gêmeos** — foram dois, e dois não estabilizam. Vocês se revezam, e nenhum dos dois manda na hora da troca: quem escolhe a hora é o mestre. Vale combinar antes o que muda de uma para a outra.
 
 > **Inteiro** — um núcleo só, e mesmo assim você acordou. Pelo método conhecido isso não acontece.
 > *Na mesa:* você é a anomalia que os pesquisadores do meio querem abrir. Alguém está escrevendo sobre você agora.
@@ -762,7 +751,6 @@ Você tem energia amaldiçoada, então tem PE, aptidões e refino como qualquer 
 | *vaga reservada* | alvo ainda não escolhido | — |
 
 > **Ferro Velho** — os degraus de exaustão não te alcançam. Você dorme só porque combinaram que era hora. Em troca, você também não sente quando está perto de quebrar: o seu corpo para de uma vez, sem aviso antes.
-> *Na mesa:* apaga a conta de descanso do grupo inteiro quando é você quem faz o turno. E entrega ao mestre o direito de te derrubar do nada.
 
 ## Restrição Celestial
 
@@ -828,14 +816,12 @@ Quem é do ramo sem energia não alcança `Sentir Energia` por lugar nenhum: ela
 | A Oferta | você já pensou no preço de um corpo que funcione | sem relógio |
 | Nunca Estive Lá | você conhece lugares onde o seu corpo nunca esteve | sem relógio |
 
-> **Nasci Assim** — escreva o que o seu corpo não faz, e o que isso te cobra todo dia: o que dói, o que falta, o que você não pode encarar. Não é segredo, e não tem conserto conhecido.
-> *Na mesa:* dá ao mestre uma lista pronta de coisas que complicam qualquer cena, e ao jogador o direito de dizer quando complicam.
+> **Nasci Assim** — escreva o que o seu corpo não faz, e o que isso te cobra todo dia: o que dói, o que falta, o que você não pode encarar. Não é segredo, e não tem conserto conhecido. Quem diz quando aquilo complica a cena é você.
 
 > **O Substituto** — o meio jujutsu conhece você por uma coisa que não é o seu corpo: um nome, uma voz, uma casca. Escreva o que é. Quase ninguém sabe que existe outra pessoa do outro lado, e quem sabe conta nos dedos.
 > *Na mesa:* o personagem pode estar em duas cenas ao mesmo tempo, e a revelação de quem está do outro lado é um marco de campanha inteiro.
 
 > **A Oferta** — você já pensou no que daria por um corpo que funcione, e já chegou a um número. Escreva qual é. Existe gente que vende esse tipo de coisa, e uma delas sabe que você existe.
-> *Na mesa:* é um antagonista com proposta, e a proposta é boa. O mestre pode voltar com ela toda vez que o preço ficar mais fácil de pagar.
 
 > **Nunca Estive Lá** — a sua energia vai a lugares que você não vai. Escreva um lugar que você conhece de cor e onde o seu corpo nunca pisou, e o que você viu acontecer lá.
 > *Na mesa:* você é a planta baixa da equipe. Descreve o lugar antes de todo mundo chegar, e sabe o que aconteceu lá dentro.
@@ -891,8 +877,7 @@ Quem é do ramo sem energia não alcança `Sentir Energia` por lugar nenhum: ela
 > **Desde Criança** — existe uma ferramenta que anda com você desde antes de você escolher. Escreva o que é e como veio parar na sua mão. Quem entende de ferramenta reconhece aquela.
 > *Na mesa:* a peça tem história e tem quem a reconheça. Perder essa ferramenta é cena, e recuperá-la é arco.
 
-> **Aprendi a Ver** — você não nasceu enxergando maldição, e a maior parte de quem te olha supõe que sim. Escreva como você resolveu isso: o que você usa, ou o que você treinou até substituir o que falta.
-> *Na mesa:* dá um método visível na ficha, com limite próprio, que o mestre pode atrapalhar em cena para complicar uma missão inteira.
+> **Aprendi a Ver** — você não nasceu enxergando maldição, e a maior parte de quem te olha supõe que sim. Escreva como você resolveu isso: o que você usa, ou o que você treinou até substituir o que falta. O método tem limite próprio, e ele fica escrito na ficha junto.
 
 #### Ajusta
 
@@ -934,7 +919,6 @@ Quem é do ramo sem energia não alcança `Sentir Energia` por lugar nenhum: ela
 > *Na mesa:* você é o detector de armadilha do grupo em terreno preparado, e o que você entrega é um aviso que ninguém sabe interpretar sem investigar.
 
 > **Assinado** — você nunca leu o mundo pela energia, e o resto do corpo cobriu: uma vez por descanso longo, você não fica `Cego`. Em troca, a troca não foi só essa. Escreva na ficha uma coisa comum que você nunca vai conseguir fazer, e ela não volta, em nível nenhum.
-> *Na mesa:* a cena de escuro e de clarão não tira você do jogo, e a ficha carrega uma limitação permanente que o mestre pode usar em qualquer outra.
 
 ## Rotas de criação
 

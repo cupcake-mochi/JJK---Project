@@ -21,7 +21,7 @@ A **CD** é o número que a tarefa pede. Quem diz qual é o mestre, e ele tira d
 
 Por exemplo, numa CD 14 você precisa tirar 14 ou mais no d20 depois de somar o bônus: com bônus 3, um 11 no dado já basta.
 
-O bônus muda conforme o tipo de rolagem. As seções seguintes dizem o que entra em cada um.
+O bônus muda conforme o tipo de rolagem.
 
 ### Teste de perícia
 
@@ -108,7 +108,7 @@ Três rolagens, uma para cada jeito de machucar alguém. Todas comparam com a **
 > **Ataque à distância = d20 + Destreza + maestria**
 > **Ataque de conjuração = d20 + o atributo da sua técnica + maestria**
 
-As três têm a mesma forma: **um atributo, mais a maestria.** O atributo do corpo a corpo é a Força e o do tiro é a Destreza; o da conjuração é aquele que você escolheu quando escreveu a técnica, e ele pode ser qualquer um dos cinco.
+O atributo da conjuração é aquele que você escolheu quando escreveu a técnica, e ele pode ser qualquer um dos cinco.
 
 Nem todo feitiço rola acerto. Um feitiço resolve de três jeitos, e o capítulo 9, *Fundamento*, diz qual é o de cada um:
 
@@ -176,7 +176,7 @@ Você é treinado em **dois dos quatro**: a sua Origem treina um, o seu Caminho 
 
 ## Vida, energia e alma
 
-Três reservas, e cada uma tem uma conta diferente. Vida é o corpo, energia é o combustível, Integridade é a alma. O **Caminho** define os números abaixo, e você escolhe ele na criação; o capítulo 6, *Criação de Personagem*, explica o que cada Caminho é.
+Vida é o corpo, energia é o combustível, Integridade é a alma. O **Caminho** define os números abaixo, e você escolhe ele na criação; o capítulo 6, *Criação de Personagem*, explica o que cada Caminho é.
 
 ### Pontos de vida
 
@@ -231,14 +231,14 @@ Dano de alma tem quatro estágios, e eles estão no capítulo 4, *Dano, Condiç�
 
 ## Arredondamento
 
-Boa parte das contas do sistema cai em fração. Uma frase resolve todas.
+Boa parte das contas do sistema cai em fração.
 
 > **Arredonde sempre para o lado que não te favorece.**
 > O que você **paga** sobe. O que você **ganha** desce. E o que você ganha nunca fica abaixo de 1.
 
 > **Exemplo.** Você recupera 2,5 de PE num descanso curto: recupera 2. Um efeito te cobra 2,5 de PE: você paga 3.
 
-A regra vale para a conta que cai na sua mão na mesa. Número que já está impresso numa tabela você copia e segue: a vida por nível do Caminho, por exemplo, já vem arredondada no quadro acima.
+A regra vale para a conta que cai na sua mão na mesa. Número que já está impresso numa tabela você copia e segue: a vida por nível do Caminho, por exemplo, já vem arredondada na tabela `Vida e PE por Caminho`.
 
 O piso de 1 é sobre arredondamento. Quando uma regra diz que você recupera **nada**, ela diz nada, e o piso não desfaz um zero escrito.
 

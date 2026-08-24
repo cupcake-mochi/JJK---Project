@@ -5,7 +5,7 @@
 
 ## Como ler um Caminho
 
-Cada Caminho entrega quatro degraus, e eles chegam sempre nos mesmos níveis. A Trilha entrega outras quatro coisas, em níveis diferentes: você ganha alguma coisa em quase todo marco da campanha.
+Cada Caminho entrega quatro degraus, e eles chegam sempre nos mesmos níveis. A Trilha entrega outras quatro coisas, em níveis diferentes.
 
 **Entregas por nível**
 {: .tab-titulo }
@@ -327,7 +327,7 @@ Pólvora, ruído e uma profissão que finge não usar isso. É a rota que funcio
 
 Quem joga de `Executor` trabalha sem técnica grande e sem gritaria: uma lâmina, um alvo, e a paciência de trocar golpe até acabar. Você aceita um turno simples e uma ficha teimosa: bate, apanha, repõe casca e bate de novo, e o inimigo acaba antes de você.
 
-> **Nível 2: `Pegada`.** Você escolhe um **estilo de luta**, e ele vale a campanha inteira. *Cada estilo pede um jeito diferente de segurar a arma, e é isso que impede um de ser a versão melhor do outro.*
+> **Nível 2: `Pegada`.** Você escolhe um **estilo de luta**, e ele vale a campanha inteira. *Cada estilo pede um jeito diferente de segurar a arma.*
 >
 > **Nível 11: `Aprumo`.** *Ação bônus.* Você ganha **`1d10 + o seu atributo de ataque`** de `vida temporária`, Força ou Destreza, o que a sua ficha usa para bater. **`Metade desse atributo` usos**, e eles voltam no descanso curto.
 >
@@ -350,7 +350,7 @@ Quem joga de `Executor` trabalha sem técnica grande e sem gritaria: uma lâmina
 | `Defesa` | vestindo `Traje` ou `Revestimento` | `+1` de Defesa |
 | `Arma Grande` | arma de duas mãos | rerrolar `1` e `2` no dado de dano |
 
-> **Todo estilo pede alguma coisa, e o pedido é regra.** Um estilo sem porta ficaria disponível para toda ficha, e aí ninguém escolheria os outros.
+> **Todo estilo pede alguma coisa, e o pedido é regra.**
 
 O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 13, *Equipamento*.
 
@@ -378,7 +378,7 @@ O Guia faz o efeito de outra pessoa durar mais, pegar mais gente ou chegar mais 
 
 *Perícia, ofício e Teste de Resistência entram na ficha uma vez, na criação. O quadro completo das vinte e três perícias e dos onze ofícios está no capítulo 3, __Perícias e Ofícios__.*
 
-> ****Nenhuma rota dá ataque extra ao Guia.**** Quem quiser lutar de Guia paga pela técnica, como todo mundo. Em troca, o degrau do nível 7 dele entrega duas coisas em vez de uma.
+> **Nenhuma rota dá ataque extra ao Guia.** Quem quiser lutar de Guia paga pela técnica, como todo mundo.
 
 ### Degraus do Guia
 
@@ -492,7 +492,7 @@ O Emanador apostou tudo na técnica. Corpo pouco, energia muita, e um repertóri
 
 *A `Modelagem` deixa o Emanador improvisar sem ter previsto: você chegou com o feitiço montado para uma coisa e o alvo é outra, e a peça se remonta na hora. A `Segunda Leitura` faz o mesmo em escala de missão, e muda o preparo do grupo: com um briefing decente, você dorme e acorda com a ficha desenhada para aquele alvo específico.*
 
-*A `Sangria` se auto-limita no calendário: `1/8` cabe exatamente quatro vezes antes de você ter perdido metade da vida, e o dia esperado tem três a quatro lutas.*
+*O `1/8` cabe exatamente quatro vezes antes de você ter perdido metade da vida.*
 
 ### Trilha: Torrente
 
@@ -546,7 +546,7 @@ Quem joga de `Arremate` precisa encostar: briga de mão, e o feitiço sai quando
 
 *A `Crosta` sustenta o `Arremate` a partir do 19: a mesma decisão que te põe em perigo, que é conjurar colado, passa a ser a que te dá casca. Antes disso, a sua sobrevivência depende do time.*
 
-> **O `Arremate` ganha ataque extra pela Trilha, e não pelo Caminho.** A outra assim é o `Coro`. A outra é o `Coro`. **O golpe é uma Ação Bônus, e ele só existe se a Ação Padrão daquele turno conjurou ou atacou com a arma do grupo escolhido.** A trava que continua valendo é a de sempre: um feitiço de Toque por turno, e ataque extra é sempre golpe simples.
+> **O `Arremate` ganha ataque extra pela Trilha, e não pelo Caminho.** A outra assim é o `Coro`. **O golpe é uma Ação Bônus, e ele só existe se a Ação Padrão daquele turno conjurou ou atacou com a arma do grupo escolhido.** A trava que continua valendo é a de sempre: um feitiço de Toque por turno, e ataque extra é sempre golpe simples.
 
 ## Evocador
 
