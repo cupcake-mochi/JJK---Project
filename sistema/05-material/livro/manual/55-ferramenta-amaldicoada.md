@@ -8,9 +8,22 @@
 
 Quem conjura fere maldição de graça, pelo feitiço de Toque. Quem não conjura só fere com ferramenta na mão.
 
-## Ferramenta forjada
+## Sintonizar
 
-> **Como se sintoniza uma ferramenta está sendo escrito.** Quanto tempo leva, o que se gasta e se dá para desfazer é acordo com o seu mestre por enquanto.
+> **Sintonizar custa um descanso curto dedicado àquela ferramenta, com ela na mão.** Um descanso, uma ferramenta.
+>
+> **Desfazer custa outro descanso curto**, e você faz isso quando quiser.
+>
+> **Não custa PE.**
+
+Enquanto você não sintoniza, a ferramenta é a arma comum que está por baixo dela: o dado e as propriedades valem, o `Estigma` não.
+
+Quantas você carrega sintonizadas ao mesmo tempo já está resolvido pelo `Teto de Estigma` — são as suas mãos, mais dois objetos de apoio.
+
+> **Se a sua mesa preferir, sintonizar pode custar um descanso longo.** Combinem antes da primeira sessão. Com o descanso curto, a ferramenta que você achar no meio da missão serve na luta seguinte; com o longo, ela serve na próxima missão.
+{: .aviso }
+
+## Ferramenta forjada
 
 A arma por baixo continua sendo a arma de sempre: mesmo dado, mesmas propriedades, mesmo requisito de Força. O `Estigma` entra como camada por cima disso, e não muda nada dela.
 
@@ -170,7 +183,7 @@ Cada entrada abre com o nome e diz **quando o `Estigma` age**: sempre ligado, na
 
 > **`Quebranto`** — Reação: anula um feitiço que ia te acertar. Uma vez por cena.
 >
-> **`Avulsa`** — Reação: a arma sai da sua mão e faz o ataque sozinha. **O limite de uso dela está sendo escrito**; até fechar, combine um com o seu mestre.
+> **`Avulsa`** — Reação, quando um inimigo no seu alcance te ataca: a arma sai da sua mão e ataca ele. Duas vezes por cena.
 >
 > **`Bojo`** — uma vez por descanso curto, ela guarda um feitiço que você lançou e devolve ele depois, sem custo de PE. É o único dos onze que só serve para quem conjura.
 

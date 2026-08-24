@@ -1,4 +1,4 @@
-# Retomada — a alma, os dois rascunhos, e as marcas que são mais que quatro
+# Retomada — a alma, os dois rascunhos, e as cinco marcas que sobraram
 
 Pasta: `/media/mizuki/HD Externo II/Claude/Claude 2/`
 ⚠ Trabalhe na pasta PRINCIPAL, não em worktree. **Você não commita** — deixa a mensagem em
@@ -7,20 +7,28 @@ Pasta: `/media/mizuki/HD Externo II/Claude/Claude 2/`
 Leia primeiro, nesta ordem: `README.md` (a seção *"Nove lições que custaram erro"*),
 `sistema/ESTADO-ATUAL.md` **inteiro**, e o `logs/CHANGELOG.md` de cima até a v0.136.
 
-**Projeto na v0.143.** 23 peças · 23 validadores · 239 checagens. Livro em **17 capítulos**,
-**69.825 palavras**, 237 páginas em coluna única e 139 em duas. Manual do Fundamento na
+**Projeto na v0.144.** 23 peças · 23 validadores · 240 checagens. Livro em **17 capítulos**,
+**69.919 palavras**, 237 páginas em coluna única e 139 em duas. Manual do Fundamento na
 **v7.12**. `conferir-voz --estrito` em 0 achados e 10 triagens.
 
 ---
 
-## O que a v0.143 fechou, e o que ela deixou
+## O que a v0.143 e a v0.144 fecharam
 
-**O `Bloquear` virou a peça 23 e deixou de ser opcional.** *O apêndice do capítulo 18 morreu e
-o conteúdo foi para o capítulo 1, colado na Defesa — decisão do Mizuki.* **A dívida da `Talha`
-foi paga, o `Incapacitado` não repreçou, e o rascunho foi para `99-arquivo/`.**
+**A v0.143 pôs o `Bloquear` como peça 23 e tirou ele do apêndice.** *A dívida da `Talha` foi paga,
+o `Incapacitado` não repreçou, e o rascunho foi para `99-arquivo/`.*
 
-*A tarefa 2 da leva anterior está feita, e a 3 andou pela metade: dos três rascunhos, um virou
-peça. **Sobram dois.***
+**A v0.144 fechou as duas marcas simples do livro.** *Sintonizar uma ferramenta custa um descanso
+curto — com a variante declarada do descanso longo —, e o `Estigma` `Avulsa` ganhou gatilho e
+relógio de `2×` por cena.* **O `conferir-ferramenta.py` foi de dezesseis para dezessete checagens.**
+
+*Das quatro tarefas da leva, a 2 está feita, a 3 andou um terço, e a 4 andou duas de sete.*
+
+> **⚠⚠ E as marcas de "isto ainda não existe" agora TÊM CONTAGEM COM DONO.** *Cinco contagens
+> desta família deram cinco números — este prompt já disse `4`, o CHANGELOG da v0.136 disse `5`, uma
+> varredura à mão disse `8`, e o regex acha `7`.* **A `REGRA-DE-VOZ.md` declara o número e a
+> fronteira, e o `conferir-voz.py` reconta e falha nas duas direções.** *Não confie em contagem
+> desta família escrita em prosa — inclusive na deste arquivo. **Rode o validador.***
 
 ---
 
@@ -75,31 +83,27 @@ cabeçalho, e ela vale a pena: *o que dele NÃO sobreviveu, porque estava errado
 
 ---
 
-## 3 · As marcas de "está sendo escrito" — e elas NÃO são quatro
+## 3 · As cinco marcas que sobraram — e o validador é quem conta
 
-***O prompt anterior dizia quatro. A entrada da v0.136 do CHANGELOG diz cinco. As duas listas são
-diferentes, e só duas marcas aparecem nas duas.*** **Varrendo o livro na v0.143, são oito.**
+**São `7` linhas no livro, e elas se agrupam em cinco assuntos.** *Saída do `conferir-voz.py`,
+que agora lista arquivo e linha de cada uma.*
 
-| onde | o que o livro diz | tamanho |
+| assunto | onde | tamanho |
 |---|---|---|
-| `25-origens.md` · tabela de rotas | `Sem Técnica` → *"não: está sendo escrita"* | **grande** — precisa de `Estilo da Sombra` **ou** `Aptidão como rota`, e as duas são peça |
-| `20-criacao-de-personagem.md` · Passo 3 | as três Trilhas do Evocador | **grande** — é a tarefa de doze entregas preçadas |
-| `35-caminhos-e-trilhas.md` · `Arremate` | *"Nível 27: vaga"* | média |
-| `55-ferramenta-amaldicoada.md` · abertura | como se sintoniza uma ferramenta | **simples** |
-| `55-ferramenta-amaldicoada.md` · Teto de `Estigma` | a lista de objeto de apoio e o preço dele | média |
-| `55-ferramenta-amaldicoada.md` · `Avulsa` | *"o limite de uso dela está sendo escrito"* | **simples** — a `Classe Passiva 2` dá o molde: `maestria`× por cena, e a v0.142 acabou de usar ele no `Contragolpe` |
-| `60-invocacoes.md` · Selar com talismã | a regra de selamento de objeto amaldiçoado | média |
-| peça 13 | a vaga reservada do `Desliga` do Corpo Amaldiçoado | média |
+| **as três Trilhas do Evocador** | `20-criacao-de-personagem.md:110` e `35-caminhos-e-trilhas.md:558` | **grande** — é a tarefa de doze entregas preçadas, e o `RASCUNHO-trilhas.md` é a régua dela |
+| **`Sem Técnica`** | `25-origens.md:659` | **grande** — precisa de `Estilo da Sombra` **ou** `Aptidão como rota`, e as duas são peça |
+| **o objeto de apoio** | `55-ferramenta-amaldicoada.md:150` | média — falta a lista do que conta e o preço. *O teto de dois já vale, e a v0.144 fechou a sintonização ao lado disso* |
+| **a invocação que não obedece** | `60-invocacoes.md:276` | média — a peça 15 supõe que ela obedece, e a obra tem invocação que não |
+| **as duas de Invocações que esperam outra peça** | `60-invocacoes.md:268` e `:278` | média — quando a vida cheia volta, e selar objeto amaldiçoado |
 
-> **⚠ Nenhum validador alcança essa família, e é por isso que as três listas divergiram.**
-> *Contagem escrita em frase não tem dono — quarta vez que este projeto registra isso, e a v0.143
-> achou mais três exemplares (`sete` armas com `Talha` sendo nove, e dois `catorze` para um
-> número que virou treze).* **Se você fechar alguma dessas marcas, considere escrever a checagem
-> que conta elas.**
+*Fora da contagem, por fronteira declarada na `REGRA-DE-VOZ.md`:* **a vaga do nível 27 do
+`Arremate`** *(a casa existe, está vazia, e a ficção dela está escrita — é conteúdo, não buraco)*,
+**as variantes de mesa** *(padrão escrito mais efeito publicado)*, e **o que mora nas peças e não
+no livro** *(a vaga reservada do `Desliga` na peça 13)*.
 
-**A decisão da v0.129 continua valendo:** *quando a frase de estado carrega uma permissão ou um
-limite que o jogador precisa, ela fica.* **O que sai é a frase; o que precisa entrar antes é a
-regra que ela estava substituindo.**
+**A decisão da v0.129 continua valendo por cima disso:** *quando a frase de estado carrega uma
+permissão ou um limite que o jogador precisa, ela fica.* **O que a contagem faz não é mandar
+cortar — é impedir que uma marca nova entre sem ninguém ver.**
 
 ---
 

@@ -564,7 +564,7 @@ Estar atrás de alguma coisa sobe a sua Defesa, e a cobertura Total tira você d
 >
 > `Bloquear` não custa nada, não gasta a sua Reação, e é de todo mundo — você, os seus aliados e os inimigos.
 
-**Na média dá exatamente a sua Defesa.** A média de `2d10` é 11, que é o número que a sua Defesa parada já supõe. Você troca um número certo por dois dados, e não ganha nem perde nada com a troca. O que você compra é variação.
+**Na média dá exatamente a sua Defesa.** A média de `2d10` é 11, que é o número que a sua Defesa parada já supõe. Você troca um número certo por dois dados, e não ganha nem perde nada com a troca.
 
 ### Linha da ficha
 
@@ -572,7 +572,7 @@ O `−11` some no número que a ficha imprime. Ela traz a linha pronta, do lado 
 
 > **Defesa 17 · Bloquear 2d10+6**
 
-Na mesa você lê *"role 2d10+6"*, que dá o mesmo trabalho que *"role d20+7"*.
+Na mesa você lê *"role 2d10+6"*.
 
 ### Aparar e Brecha
 
@@ -580,9 +580,9 @@ Na mesa você lê *"role 2d10+6"*, que dá o mesmo trabalho que *"role d20+7"*.
 >
 > **Duplo 1, `Brecha`.** O ataque acerta. O agressor pode gastar a Reação dele para atacar você de novo na hora, sem bônus nenhum.
 
-**O `Aparar` não anula um 20 natural.** Quem ataca continua rolando d20, e crítico fura guarda. Nenhuma regra de crítico muda por causa desta seção.
+**O `Aparar` não anula um 20 natural.** Quem ataca continua rolando d20, e crítico fura guarda.
 
-> **Exemplo.** A Rina está com Defesa 17, então a linha dela é `Bloquear 2d10+6`. Uma maldição ataca e tira **18**: com a Defesa parada, isso acerta. Ela bloqueia, tira `7` e `4`, e com o `+6` dá **17** — o ataque acerta do mesmo jeito, e ela não perdeu nada por tentar.
+> **Exemplo.** A Rina está com Defesa 17, então a linha dela é `Bloquear 2d10+6`. Uma maldição ataca e tira **18**: com a Defesa parada, isso acerta. Ela bloqueia, tira `7` e `4`, e com o `+6` dá **17** — o ataque acerta do mesmo jeito.
 >
 > Na rodada seguinte a mesma maldição tira **19**. A Rina bloqueia e sai `10` e `10`: `Aparar`. O ataque não acerta, e ela ainda tem a Reação na mão. Aí vem a decisão — gastar a Reação para bater de volta com `+3` de dano, ou guardar ela para o capanga que ainda não agiu neste turno.
 
@@ -596,15 +596,7 @@ Quem está `Incapacitado` não pode `Bloquear`. É a única condição que desli
 
 ### Custo
 
-**Resultados de Bloquear**
-| o que acontece quando você rola | chance |
-|---|---|
-| `Aparar`, e a história é boa | 0,95% |
-| `Brecha`, e a história é ruim | 1,00% |
-| o dado mudou o resultado, sem extremo | 14,5% |
-| nada mudou; você rolou por rolar | 83,5% |
-
-> **Um em cada doze golpes vai passar porque você rolou, quando a sua Defesa parada teria segurado.** `Bloquear` é a mesma defesa com variação, e os dois resultados de cerca de 1% são o que você está comprando.
+> **Um em cada doze golpes vai passar porque você rolou, quando a sua Defesa parada teria segurado.** O `Aparar` e a `Brecha` saem em cerca de 1% das rolagens cada um, e são eles que você está comprando.
 
 O outro preço é tempo de mesa: uma rolagem a mais por golpe recebido. Num combate de quatro rodadas com quatro personagens, isso passa de uma dúzia de rolagens novas.
 
@@ -5617,9 +5609,20 @@ O soco não tem propriedade nenhuma, então ele abre mão de alcance, de `Par`, 
 
 Quem conjura fere maldição de graça, pelo feitiço de Toque. Quem não conjura só fere com ferramenta na mão.
 
-## Ferramenta forjada
+## Sintonizar
 
-> **Como se sintoniza uma ferramenta está sendo escrito.** Quanto tempo leva, o que se gasta e se dá para desfazer é acordo com o seu mestre por enquanto.
+> **Sintonizar custa um descanso curto dedicado àquela ferramenta, com ela na mão.** Um descanso, uma ferramenta.
+>
+> **Desfazer custa outro descanso curto**, e você faz isso quando quiser.
+>
+> **Não custa PE.**
+
+Enquanto você não sintoniza, a ferramenta é a arma comum que está por baixo dela: o dado e as propriedades valem, o `Estigma` não.
+
+Quantas você carrega sintonizadas ao mesmo tempo já está resolvido pelo `Teto de Estigma` — são as suas mãos, mais dois objetos de apoio.
+
+> **Se a sua mesa preferir, sintonizar pode custar um descanso longo.** Combinem antes da primeira sessão. Com o descanso curto, a ferramenta que você achar no meio da missão serve na luta seguinte; com o longo, ela serve na próxima missão.
+## Ferramenta forjada
 
 A arma por baixo continua sendo a arma de sempre: mesmo dado, mesmas propriedades, mesmo requisito de Força. O `Estigma` entra como camada por cima disso, e não muda nada dela.
 
@@ -5771,7 +5774,7 @@ Cada entrada abre com o nome e diz **quando o `Estigma` age**: sempre ligado, na
 
 > **`Quebranto`** — Reação: anula um feitiço que ia te acertar. Uma vez por cena.
 >
-> **`Avulsa`** — Reação: a arma sai da sua mão e faz o ataque sozinha. **O limite de uso dela está sendo escrito**; até fechar, combine um com o seu mestre.
+> **`Avulsa`** — Reação, quando um inimigo no seu alcance te ataca: a arma sai da sua mão e ataca ele. Duas vezes por cena.
 >
 > **`Bojo`** — uma vez por descanso curto, ela guarda um feitiço que você lançou e devolve ele depois, sem custo de PE. É o único dos onze que só serve para quem conjura.
 

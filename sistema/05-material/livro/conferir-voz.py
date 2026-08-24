@@ -11,6 +11,7 @@ Aqui só entra o que a REGRA-DE-VOZ.md manda.
     python3 conferir-voz.py --so 40          só os arquivos que casam com "40"
     python3 conferir-voz.py --estrito        sai 1 se achar qualquer coisa
 """
+import glob
 import os
 import re
 import sys
@@ -249,6 +250,48 @@ def refs_quebradas(manual, arquivos):
     return titulos, quebradas
 
 
+# --------------------------------------------------------------------------
+# v0.144: as marcas de "isto ainda nao existe". Esta familia foi contada cinco
+# vezes por documentos diferentes e deu cinco numeros diferentes — 4, 5, 8, 7 —
+# porque nenhuma contagem tinha validador. Aqui ela ganha um.
+#
+# O NUMERO NAO MORA AQUI: ele e' lido da REGRA-DE-VOZ.md, que declara junto a
+# FRONTEIRA — o que conta como marca e o que nao conta (vaga declarada, variante
+# de mesa, e o que mora nas pecas). Sem a fronteira escrita, a proxima contagem
+# volta a divergir, que e' exatamente o que aconteceu ate aqui.
+MARCAS_PENDENCIA = [
+    ("sendo-escrito", re.compile(r"sendo escrit\w*", re.I)),
+    ("pergunte-ao-mestre",
+     re.compile(r"(?:acordo|combine|combinem)\s+com\s+o\s+(?:seu\s+)?mestre", re.I)),
+    ("sem-regra",
+     re.compile(r"ainda não (?:tem|têm) regra"
+                r"|não (?:tem|têm) regra[^.]{0,30}escrita ainda"
+                r"|não tem regra de \w+ escrita", re.I)),
+]
+
+
+def marcas_de_pendencia(manual):
+    """As marcas do livro, e o numero que a REGRA-DE-VOZ declara."""
+    achadas = []
+    for caminho in sorted(glob.glob(os.path.join(manual, "*.md"))):
+        nome = os.path.basename(caminho)
+        with open(caminho, encoding="utf-8") as fh:
+            for i, linha in enumerate(fh, 1):
+                for forma, rx in MARCAS_PENDENCIA:
+                    if rx.search(linha):
+                        achadas.append((nome, i, forma, linha.strip()))
+                        break
+    teto = None
+    regua = os.path.join(os.path.dirname(manual), "REGRA-DE-VOZ.md")
+    if os.path.isfile(regua):
+        with open(regua, encoding="utf-8") as fh:
+            m = re.search(r"O livro carrega `(\d+)` marcas de regra que ainda não existe",
+                          fh.read())
+        if m:
+            teto = int(m.group(1))
+    return achadas, teto
+
+
 def main():
     inventario = "--inventario" in sys.argv
     estrito = "--estrito" in sys.argv
@@ -314,7 +357,17 @@ def main():
     if estourou:
         print(f"      !! o teto é {TETO_SEM_DESTINO} e são {len(sem)} — entrou termo novo sem destino")
 
-    if estrito and (soma or quebradas or estourou):
+    marcas, teto_marcas = marcas_de_pendencia(MANUAL)
+    print(f"\n  {len(marcas)} marca(s) de regra que ainda não existe; o dono diz {teto_marcas}.")
+    for arq, n, forma, txt in marcas:
+        print(f"      PENDENTE[{forma}]  {arq}:{n}  {txt[:70]}")
+    marcas_estourou = teto_marcas is not None and len(marcas) != teto_marcas
+    if marcas_estourou:
+        print(f"      !! a REGRA-DE-VOZ.md declara {teto_marcas} e o livro tem "
+              f"{len(marcas)} — ou entrou marca nova, ou uma foi fechada e o "
+              f"número não desceu junto")
+
+    if estrito and (soma or quebradas or estourou or marcas_estourou):
         sys.exit(1)
 
 

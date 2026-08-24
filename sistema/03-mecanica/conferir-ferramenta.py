@@ -13,7 +13,7 @@ o teto e o catalogo saem da PROPRIA PECA 16. O unico bloco com valor na mao e o
 LIMITES DE DESIGN abaixo, declarado a parte da regra aplicada — que e a licao
 no 8: uma checagem nao pode se medir contra a propria constante.
 
-Dezesseis checagens, as do SS7 do rascunho que virou o SS8 da peca:
+Dezessete checagens, as do SS7 do rascunho que virou o SS8 da peca:
    1. FUNDO       — a camada nao fura o fundo de Equipamento.
    2. UM-ESTIGMA  — um Estigma por ferramenta, nunca dois.
    3. GATE        — o gate lido da peca 11 SS6, nunca de constante.
@@ -29,7 +29,9 @@ Dezesseis checagens, as do SS7 do rascunho que virou o SS8 da peca:
   13. SEM-ENERGIA — a rota sem energia nenhuma, medida ponta a ponta.
   14. TRIAGEM     — todo nome que a peca cria, e a colisao de sentido declarada.
   15. DESLIGA     — as duas vagas da peca 13 SS8 contra a trava do Desliga.
-  16. SINTONIA    — ferramenta nao sintonizada = arma comum, nos dois sentidos.
+  16. SINTONIA    — nao sintonizada = arma comum, e a regra de sintonizar existe.
+  17. RELOGIO     — todo Estigma de Classe 2 tem limite de uso, e nenhum e letra
+                    morta contra o teto de Reacoes que uma luta cabe.
 
 O PAR DECLARADO: a 3 e a 9 leem a mesma amarra por dois lados — a 3 confere que
 o gate vem da peca 11, a 9 confere que a escada de grau vem daqui. Elas NAO sao
@@ -77,6 +79,7 @@ P11 = ler('11-aptidoes-e-refino.md')
 P09 = ler('09-origens.md')
 P06 = ler('06-caminhos-e-trilhas.md')
 P02 = ler('02-economia-de-atributos.md')
+P01 = ler('01-atributos-acerto-defesa.md')   # v0.144: o tamanho da luta, para a 17
 
 def secao(txt, n):
     """Recorta TODOS os blocos cujo numero de secao seja n, concatenados.
@@ -526,6 +529,94 @@ if sem_pagar:
 else:
     print('  [x] sentido 2: nenhuma entrada entrega efeito sem o pagamento correspondente')
 
+# v0.144: a terceira linha do SS1 e' de v0.55 e ficou oitenta e oito versoes sem
+# dizer COMO se sintoniza — o livro mandava combinar com o mestre. O SS1.1 fechou.
+# Estas quatro leem a regra nova, e nenhuma delas guarda numero: o custo e' um
+# DESCANSO, e descanso e' peca 10.
+if not re.search(r'Sintonizar custa um descanso curto', S1):
+    erro('16', 'o SS1.1 nao escreve o custo de sintonizar — sem ele o livro volta '
+               'a mandar o jogador combinar com o mestre')
+else:
+    print('  [x] sintonizar tem custo escrito: um descanso curto dedicado')
+if not re.search(r'[Dd]esfazer custa outro descanso curto', S1):
+    erro('16', 'o SS1.1 nao escreve como se DESFAZ a sintonizacao — o PHB fecha as '
+               'duas pontas, e uma regra que so liga prende a ficha ao primeiro item')
+else:
+    print('  [x] desfazer tem custo escrito, e e o mesmo do PHB')
+if not re.search(r'[Nn]ão custa PE, e não pode custar|[Nn]ão custa PE', S1):
+    erro('16', 'o SS1.1 parou de declarar que sintonizar nao custa PE — a ferramenta '
+               'e a rota de quem NAO tem energia, pela peca 9 SS5')
+else:
+    print('  [x] nao custa PE, e o motivo esta escrito ao lado')
+# O relogio de HORAS e' o que a peca 10 recusa por escrito, e por motivo
+# multi-mestre. Se alguem escrever "leva N horas" aqui, a heranca se perde.
+_horas = re.search(r'sintoniz\w*[^.\n]{0,80}?(\d+)\s*(hora|minuto)', S1, re.I)
+if _horas:
+    erro('16', f'o SS1.1 fixa relogio de {_horas.group(1)} {_horas.group(2)}(s) para '
+               f'sintonizar — a peca 10 SS1 recusa relogio de horas de proposito, e '
+               f'e dai que o custo herda o filtro multi-mestre')
+else:
+    print('  [x] nenhum relogio de horas: o custo e um descanso, e descanso e peca 10')
+
+# ================================================================ 17. RELOGIO
+print('\n 17. RELOGIO — Classe 2 promete limite de uso, e ele tem de morder')
+# A propria peca define a Classe 2 como "reativo, COM LIMITE DE USO por cena ou
+# por descanso". Ate a v0.143 uma das tres entradas nao tinha nenhum, e o livro
+# mandava combinar com o mestre. Esta checagem le a promessa do titulo e cobra
+# ela de cada entrada — a promessa nao esta escrita aqui dentro.
+_m = re.search(r'^### Classe 2 · [^\n]*?—\s*(.+)$', S6, re.M)
+if not _m:
+    erro('17', 'nao achei o titulo da Classe 2 no SS6 — e dele que sai a promessa '
+               'de limite de uso')
+else:
+    _promessa = _m.group(1)
+    if not re.search(r'limite de uso', _promessa):
+        erro('17', f'o titulo da Classe 2 nao promete mais limite de uso: '
+                   f'"{_promessa}" — se a promessa sumiu, esta checagem parou de '
+                   f'ter chao')
+    else:
+        print(f'  o titulo promete: "{_promessa.strip()}"')
+        _c2 = {n: d for n, d in CATALOGO.items() if d['classe'] == 2}
+        if len(_c2) != 3:
+            erro('17', f'esperava 3 Estigma de Classe 2 e li {len(_c2)} — a tabela '
+                       f'mudou de forma')
+        _RELOGIO = re.compile(r'(uma|duas|três|\d+)\s+vez(?:es)?\s+por\s+'
+                              r'(cena|descanso\s+\w+)', re.I)
+        _EXT = {'uma': 1, 'duas': 2, 'três': 3}
+        _mudos, _usos = [], {}
+        for n, d in sorted(_c2.items()):
+            mm = _RELOGIO.search(d['texto'])
+            if not mm:
+                _mudos.append(n); continue
+            q = _EXT.get(mm.group(1).lower()) or int(mm.group(1))
+            _usos[n] = (q, mm.group(2).lower())
+            print(f'    {n:<12} {q}x por {mm.group(2)}')
+        for n in _mudos:
+            erro('17', f'o `{n}` e Classe 2 e nao escreve limite de uso, e o titulo '
+                       f'da Classe promete um')
+        # A LETRA MORTA: a Reacao volta no comeco do seu turno, entao uma luta
+        # cabe no maximo <rodadas> Reacoes. Relogio por cena acima disso nao
+        # limita nada. O numero de rodadas e LIDO da peca 1, nunca escrito aqui.
+        _mr = re.search(r'combate dura de ([\d,]+) a ([\d,]+) rodadas', P01)
+        if not _mr:
+            erro('17', 'nao achei "combate dura de N a N rodadas" na peca 1 — sem o '
+                       'tamanho da luta nao da para saber se um relogio morde')
+        else:
+            _lo, _hi = (float(x.replace(',', '.')) for x in _mr.groups())
+            _teto = (_lo + _hi) / 2
+            print(f'    teto de Reacoes por luta, lido da peca 1: {_teto:.1f}')
+            for n, (q, rel) in _usos.items():
+                if 'cena' not in rel:
+                    continue
+                if not re.search(r'Reação', CATALOGO[n]['texto']):
+                    continue
+                if q >= _teto:
+                    erro('17', f'o `{n}` pede {q} usos por cena e a Reacao so cabe '
+                               f'{_teto:.1f} vezes numa luta — o relogio e letra '
+                               f'morta, e a entrada vale o mesmo que sem relogio')
+                else:
+                    print(f'  [x] o {n} morde: {q} usos contra teto de {_teto:.1f}')
+
 # ================================================================ veredito
 print('\n' + '=' * 88)
 if avisos:
@@ -535,6 +626,6 @@ if erros:
     for e in erros: print('    ' + e)
     sys.exit(1)
 print('>>> TUDO OK — o fundo sai da peca 14, o gate sai da peca 11, os marcos saem')
-print('    da peca 2, a rota sai da peca 9, e as 16 checagens do SS8 fecham sem')
+print('    da peca 2, a rota sai da peca 9, e as 17 checagens do SS8 fecham sem')
 print('    nenhum valor de regra escrito dentro deste arquivo.')
 print('=' * 88)

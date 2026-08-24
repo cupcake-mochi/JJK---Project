@@ -8,6 +8,134 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.144] — 24/08/2026
+
+**As duas marcas simples do livro fecharam, e a segunda mudou de tamanho no meio da conta.** ***Decisão do Mizuki:*** *"vamos pelas simples"* — sintonizar uma ferramenta, e o limite de uso do `Estigma` `Avulsa`.
+
+*As duas eram frases que mandavam o jogador **parar e perguntar ao mestre**, que é exatamente o oposto do critério que ele deu para esta leva: **um jogador consegue usar isso na mesa sem perguntar**.*
+
+### Sintonizar — aberto desde a v0.55, e três dos números já tinham dono
+
+**A peça 16 §1 declarava desde sempre que *"uma ferramenta que você não sintonizou é uma arma comum"*, e nunca disse COMO se sintoniza.** *Oitenta e oito versões, com o livro mandando combinar com o mestre.*
+
+> **Sintonizar custa um descanso curto dedicado àquela ferramenta, com ela na mão. Desfazer custa outro descanso curto. Não custa PE.**
+
+**E os três números que essa regra precisaria fixar, ela não fixa — porque os três já tinham dono:**
+
+| o que outra regra precisaria ter | por que aqui não precisa |
+|---|---|
+| **quanto tempo leva** | o descanso curto desta casa **não tem relógio de horas**, por decisão da peça 10 §1 — e o motivo escrito lá é o filtro multi-mestre: *"'dá para descansar uma hora aqui?' é exatamente o tipo de pergunta que cada um responde diferente"* |
+| **quantas ao mesmo tempo** | o §5 da própria peça 16 já limita, e limita por **estrutura**: as mãos, mais dois apoios |
+| **o que se gasta** | zero, e **o zero é obrigatório** — a ferramenta é a rota de quem **não tem** energia amaldiçoada, pela peça 9 §5. Cobrar PE fecharia a peça na cara da Origem que ela existe para atender |
+
+***Decisão do Mizuki: o padrão é o descanso curto, e a mesa pode subir para descanso longo.*** **Escrito como variante DECLARADA, com o efeito medido ao lado — e não como "acordo com o mestre".** *Com o curto, a ferramenta achada no meio da missão entra na luta seguinte; com o longo, ela serve na próxima missão.* **É o molde do §7 daquela peça, que publica o nível sugerido de cada grau e a faixa para quem preferir espalhar.**
+
+> **A diferença que importa, e ela é o filtro multi-mestre:** *a frase antiga dizia "é acordo com o seu mestre por enquanto", e uma mesa **não tinha o que combinar** — não existia regra.* **Agora existe padrão escrito, a variação tem consequência publicada, e a mesa declara qual usa antes da primeira sessão — não no meio da cena.**
+
+#### ⚠⚠ Uma cláusula do PHB foi lida e RECUSADA, e ela é um falso amigo
+
+**O PHB 2024 tem a regra inteira, e ela tem quatro partes.** *Duas esta peça já escrevia desde a v0.55 — "sem sintonizar, só os benefícios não-mágicos" e o teto de itens. As outras duas foram importadas.*
+
+**A quinta não.** *Lá, desfazer a sintonização vale* **"a menos que o item seja amaldiçoado"** — *item amaldiçoado gruda em quem o pegou.* **Neste sistema TODA ferramenta é amaldiçoada, e a palavra quer dizer outra coisa:** lá é *maligno*, aqui é *feito de energia amaldiçoada*. **Importar tornaria toda ferramenta permanente, que é o oposto do que ela faz na obra** — a Maki troca de arma o tempo todo.
+
+*Fica registrado porque a palavra é a mesma nos dois sistemas.*
+
+### ⚠⚠ O `Avulsa` não era "só um relógio", e o molde previsto reprova
+
+**O `PROMPT` previa a resposta pronta:** *"um relógio, e a `Classe Passiva 2` do capítulo 10 dá o molde: `maestria`× por cena"*. **Ele reprova, por dois lados que só apareceram na conta.**
+
+**Primeiro, o teto duro.** *A Reação volta no começo do seu turno, e uma luta dura `3,7` rodadas — peça 1 §8.* **Então nenhuma ficha gasta mais de `3,7` Reações por luta, e relógio acima disso é letra morta.** *Do nível 26 em diante o `maestria`× pede `4`, e vira o "sem relógio" com outro nome.*
+
+**Segundo, o berço.** *Ele vale `1×` do nível 7 ao 9, que é exatamente onde a Classe 2 abre.*
+
+| relógio | fatias | pior razão contra os irmãos de Classe 2 | filtro de `3,00×` |
+|---|---|---|---|
+| `1×` por cena | `0,37` | `3,49×` | **reprova, em todo nível** |
+| `maestria`× por cena | `0,37` a `1,35` | `3,49×` no nível 7 | **reprova no berço** |
+| **`2×` por cena** | **`0,73`** | **`1,75×`** | **passa em todo nível** |
+| sem relógio | `1,35` | `1,65×` | passa, e vale `6,4%` da Rotina — mais que um Classe 3 |
+
+***Decisão do Mizuki: `2×` por cena.*** **E o gatilho reusa máquina que já existe:** *o ataque de oportunidade da peça 3 §2 dispara quando alguém **sai** do seu alcance; este dispara quando alguém **ataca** você dentro dele.* **Uma palavra trocada, e a ficção fecha** — é a espada-mão do Haruta.
+
+> **⚠⚠ E a medida destampou uma dívida que não é desta versão: os onze `Estigma` nunca foram preçados uns contra os outros.** *A peça 16 confere que nenhum dá dado de dano, que nenhum cresce com refino, e mede o **teto** de quantos cabem na ficha — mas nunca mediu quanto cada um vale.* **O `Quebranto` sai em `1,28` fatias, `6,0%` da Rotina no nível 30, contra `1,6%` do `Contrapeso`, que é Classe 3.**
+>
+> ***O `2×` foi escolhido justamente por não depender disso:*** *ele passa no filtro contra o `Quebranto` medido no melhor caso dele.* **Quando essa dívida for paga, este número não se move por causa dela.**
+
+### ⚠⚠ As marcas de "isto ainda não existe" ganharam contagem com dono
+
+***Cinco contagens desta família, cinco números diferentes, e nenhuma tinha validador.***
+
+| quem contou | disse |
+|---|---|
+| o `PROMPT` de retomada | `4` |
+| o CHANGELOG da v0.136 | `5` |
+| a varredura à mão desta conversa | `8` |
+| o regex, depois de duas fecharem | `7` |
+
+**A `REGRA-DE-VOZ.md` passou a declarar o número E a fronteira**, e o `conferir-voz.py` reconta. *A fronteira estava implícita, e é ela que fazia as contagens divergirem:* **vaga declarada não conta** — o `Nível 27: vaga` do `Arremate` diz que a casa existe, está vazia e qual é a ficção dela —, **variante de mesa não conta**, e **o que mora nas peças não conta**, porque esta contagem é do livro.
+
+*A checagem acende nas duas direções, conferido em cópia isolada:* **marca nova que entra sem ninguém ver, e marca fechada sem o número descer junto.**
+
+> **E ela achou uma que nenhuma das quatro contagens tinha visto:** *"Quando a vida cheia volta ainda está sendo decidido"*, no capítulo 15. **São `7`.**
+
+### O validador da peça 16 foi de dezesseis para dezessete checagens
+
+**A 17 lê a promessa do próprio título da Classe 2** — *"reativo, com limite de uso por cena ou por descanso"* — **e cobra ela de cada uma das três entradas.** *Até a v0.143, uma das três não tinha relógio nenhum, e a definição da Classe prometia um.*
+
+**Junto vai a trava de letra morta:** *o teto de Reações que uma luta cabe é lido da peça 1, nunca escrito no validador.* **Pôr `4×` por cena numa entrada de Reação acende.**
+
+*E a 16 ganhou quatro sub-checagens: o custo de sintonizar existe, o desfazer existe, o PE continua zero, e **nenhum relógio de horas** — porque é dali que o custo herda o filtro multi-mestre.*
+
+> **⚠ A matriz de dominância dos três Classe 2 NÃO virou checagem, e o motivo é método.** *Preçar o `Quebranto` e o `Bojo` exigiria enfiar no validador um modelo que documento nenhum é dono.* **Isso é a lição nº 8 pelo avesso: uma checagem medindo contra constante que ela mesma inventou.** *A conta fica nesta entrada e na peça; a checagem fica de fora até os onze terem preço com dono.*
+
+### Arnês
+
+**Cópia isolada, base conferida verde antes de cada perturbação, `diff` conferido.** *Nove perturbações acendendo a checagem dona — o relógio some, o relógio vira letra morta, o irmão perde o dele, o título para de prometer, a luta encolhe, e as quatro metades da regra de sintonizar.* **Um contra-teste verde:** *luta de `7,0` rodadas com o `Avulsa` a `4×` — o relógio volta a morder, e a 17 não acusa. É o que prova que ela mede a **relação** e não o número `2`.*
+
+> **⚠ E uma perturbação minha saiu errada antes de a checagem sair.** *Tirei `"acordo com o mestre"` de uma linha esperando a contagem cair, e ela não caiu — **aquela linha carrega duas marcas**, e a outra continuava anunciando regra que não existe.* **A checagem estava certa e o teste é que estava mal montado.**
+
+### A passada de texto no que ESTA versão escreveu, pedida por ele antes do commit
+
+***"Compare se possuem antítese, textos teatrais, tabelas inúteis e textos desnecessários, caso tenha, os apague."***
+
+**A medida do livro inteiro não serve para isso, e vale registrar por quê:** *as oito marcas do `medir-voz.py` são médias de `2.987` frases.* **Duas seções novas de `544` e `132` palavras não movem nenhuma delas.** *Foi preciso recortar só o texto novo e medir ele sozinho.*
+
+**Seis coisas saíram, e duas eram cegas para os validadores:**
+
+| o que saiu | por quê |
+|---|---|
+| **a tabela `Resultados de Bloquear`**, com as quatro linhas | *estatística de projeto no livro do jogador* — `83,5%` das rolagens não mudam nada é argumento de desenho. **A caixa logo abaixo já era a versão jogável dela**, e ficou |
+| *"Nenhuma regra de crítico muda por causa desta seção"* | **MOLDURA — o livro falando do próprio livro.** *O `conferir-voz.py` não pega porque ele procura "este manual", "este livro" e "este capítulo"* |
+| *"O que você compra é variação"* | frase de efeito. *A frase anterior já diz, e o `Custo` diz de novo* |
+| *"que dá o mesmo trabalho que role d20+7"* | justificativa de design — *"olha, não é mais trabalhoso"* |
+| *"e ela não perdeu nada por tentar"*, no exemplo | **terceira vez que a neutralidade era reafirmada** na mesma seção |
+| *"mais abaixo"*, no capítulo 14 | **ponteiro por posição**, que é o que passa a mentir quando a página quebra. *A v0.136 consertou quatro destes* |
+
+**E três nas peças, que são documento de desenho e podem ser densas — mas antítese pura sai igual:** *"Não é nerf, é deleção"* saiu; *"o `+3` é **literalmente** o mesmo número"* perdeu a ênfase vazia; e *"não é economia, é que os três já têm dono"* virou a afirmação direta.
+
+> **O `guard_numeros.py` explica as oito diferenças do capítulo 1 uma a uma**, e as seis de notação são exatamente a tabela cortada mais o `d20+7`. **O capítulo 14 saiu com número IDÊNTICO nos dois eixos.**
+
+### Medido depois
+
+| | v0.143 | v0.144 |
+|---|---|---|
+| peças de regra · validadores | 23 · 23 | 23 · 23 |
+| checagens | 239 | **240** |
+| marcas de "ainda não existe" no livro | 9 | **7**, e agora com dono |
+| palavras do livro | 69.825 | **69.832** |
+| coluna única · duas colunas | 237 · 139 | **237 · 139** |
+| tabelas do livro | 183 | **182** |
+| caixas `.aviso` | 15 | **16** |
+| `conferir-voz --estrito` | 0 achados · 10 triagens | **0 achados · 10 triagens** |
+
+*Os 23 validadores verdes com `PULADA = 0`, o `conferir-repositorio.py`, os dois de `manual/matematica/` e os quatro builds.* **O livro ficou `7` palavras maior que a v0.143** — *a regra de sintonizar entrou inteira, as duas frases de "combine com o mestre" saíram, e a passada de texto devolveu `87` palavras de enfeite.*
+
+*`guard_numeros.py` no capítulo 14:* **notação de número IDÊNTICA**, `69` ocorrências dos dois lados. *As quatro diferenças de numeral por extenso são as palavras novas — `dois objetos de apoio`, `Duas vezes por cena`, `no meio da missão`, e os três `um descanso`.*
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **A fila é a mesma:** *dano de alma com a máquina de alma inteira — que é a peça 24 e não uma aplicação —, os dois rascunhos, e as cinco marcas que sobraram, todas de tamanho médio ou grande.*
+
+---
+
 ## [0.143] — 24/08/2026
 
 **O `Bloquear` deixou de ser opcional e virou a peça 23.** ***Decisão do Mizuki:*** *"Bloqueio pode ligar, é uma mecânica que o jogador pode TOMAR, na hora que for receber um ataque, é uma mecânica real, não uma opcional."*

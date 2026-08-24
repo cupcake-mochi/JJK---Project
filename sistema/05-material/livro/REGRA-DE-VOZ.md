@@ -81,6 +81,28 @@ palavras.* **As catorze condições deste livro foram reescritas nessa forma na 
 > **Onde não há parágrafo, não use esta forma.** A tabela `Condições em uma linha` existe para
 > esse caso: consulta rápida, uma linha, sem camadas.
 
+### As marcas de "isto ainda não existe", e elas TÊM CONTAGEM
+
+*Escrito na v0.144, e ele nasceu de uma contagem que deu errado cinco vezes seguidas.* **O prompt de retomada dizia quatro, o CHANGELOG da v0.136 dizia cinco, a varredura à mão de uma versão disse oito, e o regex acha sete.** *Toda contagem desta família até hoje deu um número diferente, e nenhuma delas tinha validador.*
+
+> **O livro carrega `7` marcas de regra que ainda não existe.** *Esse número é o dono, e o `conferir-voz.py` recontá e falha se ele subir.*
+
+**O que conta como marca, e são três formas:**
+
+| forma | o sintoma |
+|---|---|
+| **está sendo escrito** | a frase diz que a regra está em produção |
+| **pergunte ao mestre** | a frase manda combinar com o mestre, ou diz que é acordo com ele |
+| **não tem regra** | a frase diz, com todas as letras, que a regra não existe |
+
+**O que NÃO conta, e a fronteira é escrita para não virar discussão:**
+
+- **A vaga declarada.** *O `Nível 27: vaga` do `Arremate` diz que a casa existe, está vazia e qual é a ficção dela.* **Isso é conteúdo, e não buraco:** o leitor sabe o que tem ali e o que não tem.
+- **A variante de mesa.** *"Se a sua mesa preferir, sintonizar pode custar um descanso longo"* **tem padrão escrito e o efeito da variação publicado ao lado.** *A mesa escolhe entre duas coisas que existem — ela não está preenchendo um vazio.*
+- **O que mora nas peças e não no livro.** *A vaga reservada do `Desliga` na peça 13, por exemplo.* **Esta contagem é do livro**, porque é o livro que o jogador lê.
+
+***A decisão da v0.129 continua valendo por cima disto:*** *quando a frase de estado carrega uma permissão ou um limite que o jogador precisa, ela fica.* **O que a contagem faz não é mandar cortar — é impedir que uma marca nova entre sem ninguém ver.**
+
 ### Rótulo de categoria no ponto de uso
 
 O PHB responde *"que espécie de coisa é essa?"* dentro do texto corrido, entre parênteses, e

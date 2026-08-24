@@ -28,7 +28,7 @@ E isso reprova pelo critério da casa: *"enumere as montagens legais e conte qua
 
 **Cobrar a Reação.** A Reação de cobrir-se já dá Redução de Dano de `1,5 × refino` por `2` PE, pela peça 11 §6. O bloqueio evita `2,5%` do golpe. Ela perde de **`8×` a `12×`** em todo nível — vira letra morta. *E a janela é estreita dos dois lados: de graça vira automático, com preço vira nunca. Não existe preço intermediário, porque a Reação é o único espaço defensivo do sistema.*
 
-**Risco no fracasso — dano extra se o bloqueio falhar.** O dano extra que **equilibra** é `5,26%` do golpe: `1,9` de dano no nível 14. A proposta que estava na mesa era *"nível em dano"*, que é de **`7×` a `8×`** maior — e faz bloquear ficar de `28%` a `35%` **pior**. Não é nerf, é deleção. *O buraco não tem ponte: qualquer penalidade grande o bastante para dar medo já mata a opção, porque a vantagem que ela precisa cancelar é `2,5` pontos percentuais e mais nada.*
+**Risco no fracasso — dano extra se o bloqueio falhar.** O dano extra que **equilibra** é `5,26%` do golpe: `1,9` de dano no nível 14. A proposta que estava na mesa era *"nível em dano"*, que é de **`7×` a `8×`** maior, e faz bloquear ficar de `28%` a `35%` **pior**. A opção morre. *O buraco não tem ponte: qualquer penalidade grande o bastante para dar medo já mata a opção, porque a vantagem que ela precisa cancelar é `2,5` pontos percentuais e mais nada.*
 
 **Penalidade cumulativa por bloqueio na rodada**, no molde do `−20%` do RuneQuest. Traduzida para d20, `−1` por bloqueio extra: o primeiro vale `+2,5pp` e **o segundo já vale `−2,5pp`**. É *"uma vez por rodada"* com outro nome, e o pedido era justamente valer em ataques múltiplos.
 
@@ -117,7 +117,7 @@ E a regra declara a própria neutralidade, o que resolve o *"nem pode parecer va
 | metade do nível | `15,13` | `0,40%` | **morre** |
 | o nível inteiro | `23,38` | `0,07%` | **morre** |
 
-**Fixo e percentual empatam, e o motivo é que o golpe simples quase não cresce:** o dado é fixo e a Força trava em `6`, então o dano vai de `9,5` no nível 2 a `12,5` no nível 14 e para ali. `+25%` disso é **sempre `2,4` a `3,1`** — o `+3` é literalmente o mesmo número, sem conta de porcentagem na mesa.
+**Fixo e percentual empatam, e o motivo é que o golpe simples quase não cresce:** o dado é fixo e a Força trava em `6`, então o dano vai de `9,5` no nível 2 a `12,5` no nível 14 e para ali. `+25%` disso é **sempre `2,4` a `3,1`** — o `+3` é o mesmo número, sem conta de porcentagem na mesa.
 
 **Quem manda no teto é o nível 22:** é lá que a Reação vale `9,00` contra os `6,88` do ataque de oportunidade base, e a folga é `2,12` de dano esperado. *Um ponto de bônus só rende quando o contra-ataque acerta, então em dano cru ele vale `2,12 ÷ 0,55`:* **o teto do bônus é `3,85` de dano cru.** **`+3` cabe com `0,85` de margem; `+4` estoura por `0,15` e a decisão morre.**
 

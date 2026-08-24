@@ -2,7 +2,7 @@
 
 **Fase 4, décima sexta peça.** A arma forjada para canalizar energia — o que ela é, o que ela dá, quando ela entra na ficha e por que ela não é uma arma com mais pontos.
 
-*Fechada na v0.59. A máquina é da v0.55, o catálogo da v0.56 e da v0.57, e o `conferir-ferramenta.py` com dezesseis checagens entrou junto com esta peça. O rascunho que a produziu foi apagado ao virar peça — o argumento dele está nas entradas da v0.54 à v0.59 do `logs/CHANGELOG.md`, e este documento é o dono de tudo que está escrito aqui.*
+*Fechada na v0.59. A máquina é da v0.55, o catálogo da v0.56 e da v0.57, e o `conferir-ferramenta.py` entrou junto com esta peça. O rascunho que a produziu foi apagado ao virar peça — o argumento dele está nas entradas da v0.54 à v0.59 do `logs/CHANGELOG.md`, e este documento é o dono de tudo que está escrito aqui.*
 
 Ela existe por uma dívida escrita em quatro documentos, não por vontade de ter itens mágicos. A peça 5 §3 diz que a Maki *"só compete porque a ferramenta amaldiçoada carrega a energia por ela"*; a peça 5 §5 deixou o preço dela em aberto; a peça 14 §8 mandou ela para tópico próprio; e a peça 13 §8 tem **duas vagas de Desliga** esperando o alvo que só esta peça cria.
 
@@ -19,6 +19,54 @@ Ela existe por uma dívida escrita em quatro documentos, não por vontade de ter
 A terceira linha é a que deixa esta peça existir sem furar Equipamento. A arma por baixo continua gastando o **fundo exato** que a peça 14 §5 cobra — `3` numa mão, `5` em duas —, e o `Estigma` é camada por cima, nunca ponto a mais. **O catálogo das 52 continua sendo o chão.**
 
 E a primeira linha resolve a pendência da peça 5 sem inventar economia: ferir maldição é a porta que separa o feiticeiro da pessoa comum, e a ferramenta é o jeito que a obra dá para quem não tem energia atravessar essa porta.
+
+### 1.1 Como se sintoniza, e como se desfaz
+
+*A terceira linha do §1 é de v0.55 e a pergunta que ela abre ficou oitenta e oito versões sem resposta: **o livro mandava combinar com o mestre.** Fechada na v0.144.*
+
+> **Sintonizar custa um descanso curto dedicado àquela ferramenta, com ela na mão.** Um descanso, uma ferramenta.
+>
+> **Desfazer custa outro descanso curto**, e você pode fazer isso quando quiser.
+>
+> **Não custa PE, e não pode custar.**
+
+**Os três números que essa regra precisaria fixar já têm dono, e é por isso que ela não os fixa.**
+
+| o que outra regra precisaria fixar | por que aqui não precisa |
+|---|---|
+| **quanto tempo leva** | o descanso curto desta casa **não tem relógio de horas**, por decisão registrada na peça 10 §1. O gatilho é de ficção — *a luta acabou* — e é isso que faz dois mestres arbitrarem igual |
+| **quantas ferramentas ao mesmo tempo** | o §5 já limita, e limita por **estrutura**: as mãos, mais dois apoios. Não é um número que o mestre decora — é o que cabe no corpo |
+| **o que se gasta** | nada. *E o zero é obrigatório, não preguiça* — a ferramenta é a rota de quem **não tem energia amaldiçoada**, pela peça 9 §5. Cobrar PE fecharia a peça na cara da Origem que ela existe para atender |
+
+***O custo herda o filtro multi-mestre de graça, e é por isso que ele é um descanso e não uma hora.*** *A peça 10 escreve o motivo com todas as letras:* **"numa Guilda com cinco a sete mestres, 'dá para descansar uma hora aqui?' é exatamente o tipo de pergunta que cada um responde diferente."**
+
+#### A variante do descanso longo — declarada, e não "acordo com o mestre"
+
+***Decisão do Mizuki: o padrão é o descanso curto, e a mesa pode subir para descanso longo.*** **A diferença é de ritmo, e ela está medida:**
+
+| a mesa cobra | a ferramenta achada no meio da missão | o que isso faz com a mesa |
+|---|---|---|
+| **descanso curto** *(padrão)* | entra na luta seguinte | achar item é recompensa de **cena** |
+| descanso longo | só serve na **próxima** missão | achar item é recompensa de **arco**, e vale mais por demorar |
+
+> **Isto não é a mesma coisa que a frase que saiu do livro.** *Ela dizia "é acordo com o seu mestre por enquanto", e uma mesa não tinha o que combinar — não existia regra.* **Aqui existe padrão escrito, e a variação tem o efeito dela publicado ao lado.** *É o molde do §7 desta peça, que dá o nível sugerido de cada grau e a faixa para quem preferir espalhar — e o do teto de Defesa da peça 14 §8, cuja terceira camada nasce desligada.*
+>
+> **A diferença que importa para o filtro multi-mestre:** *dois mestres que nunca conversaram, lendo isto, chegam ao mesmo lugar em qualquer das duas — porque as duas são o mesmo gatilho de ficção, e a mesa declara qual usa **antes** da primeira sessão, e não no meio da cena.*
+
+#### O levantamento externo, e o que dele NÃO foi importado
+
+*O PHB 2024 tem a regra inteira, no capítulo de Equipamento, e ela tem quatro partes. **Duas delas esta peça já escrevia desde a v0.55**, e as outras duas são exatamente as que estavam faltando.*
+
+| o que o PHB decide | aqui |
+|---|---|
+| sem sintonizar, **só os benefícios não-mágicos** | **já estava**, no §1: *"uma ferramenta que você não sintonizou é uma arma comum"* |
+| **no máximo três itens** ao mesmo tempo | **já estava**, no §5 — e por estrutura, que é mais apertado que um número solto |
+| sintonizar exige **um descanso curto focado só naquele item, em contato físico** | **importado**, e é o padrão acima |
+| desfazer exige **outro descanso curto** | **importado** |
+
+> **⚠⚠ E uma cláusula do PHB foi lida e RECUSADA, porque ela quer dizer outra coisa aqui.** *Lá, desfazer vale* **"a menos que o item seja amaldiçoado"** — *item amaldiçoado gruda em quem o pegou.* **Neste sistema toda ferramenta é amaldiçoada**, e a palavra não tem o mesmo sentido: lá ela quer dizer *maligno*, aqui quer dizer *feito de energia amaldiçoada*. **Importar a cláusula tornaria toda ferramenta permanente, que é o oposto do que ela faz na obra** — a Maki troca de arma o tempo todo.
+>
+> *Fica registrado porque a palavra é a mesma nos dois sistemas e o falso amigo é fácil de não ver.*
 
 ## 2. Por que grau não pode ser "mais ponto de arma"
 
@@ -157,10 +205,31 @@ A régua é a das Classes da **peça 11 §4**, e o degrau de cada entrada foi de
 | `Estigma` | o que faz | de onde veio |
 |---|---|---|
 | **`Quebranto`** | **Reação:** anula um feitiço que ia te acertar. Uma vez por cena | a Corda Negra, *"perturba e cancela técnica alheia"* |
-| **`Avulsa`** | **Reação:** a arma sai da sua mão e faz o ataque sozinha | a espada-mão do Haruta |
+| **`Avulsa`** | **Reação, quando um inimigo no seu alcance te ataca:** a arma sai da sua mão e ataca ele. **Duas vezes por cena** | a espada-mão do Haruta |
 | **`Bojo`** | uma vez por descanso curto, ela **guarda um feitiço que você lançou e o devolve sem custo de PE** | o Osso de Dragão, *"acumula e ejeta energia"* |
 
 *O `Bojo` cobra em **custo**, que é um dos eixos que a peça 11 §2 autoriza por escrito. Ele é o único dos onze que só serve a feiticeiro, e isso é aceito: **grau 4 é a entrada de quem não tem energia**, e o resto da escada não precisa ser neutro.*
+
+#### O gatilho e o relógio do `Avulsa`, e os dois saíram de conta
+
+*Ele era a única das onze entradas sem limite de uso escrito, e o livro mandava combinar um com o mestre. **Fechado na v0.144**, e as duas metades foram derivadas em vez de escolhidas.*
+
+**O gatilho reusa máquina que já existe.** *O ataque de oportunidade da peça 3 §2 dispara quando alguém **sai** do seu alcance; este dispara quando alguém **ataca** você dentro dele.* **Uma palavra trocada, e a ficção fecha:** a arma sai da mão e revida sozinha, que é o que a espada-mão do Haruta faz.
+
+**O relógio tem um teto duro que nenhum número pode furar:** *a Reação volta no começo do seu turno, e uma luta dura `3,7` rodadas* — peça 1 §8. **Então o máximo que qualquer ficha consegue gastar são `3,7` Reações por luta, e relógio acima disso é letra morta.**
+
+| relógio | fatias | pior razão contra os irmãos de Classe 2 | filtro de `3,00×` |
+|---|---|---|---|
+| `1×` por cena | `0,37` | `3,49×` | **reprova, em todo nível** |
+| `maestria`× por cena | `0,37` a `1,35` | `3,49×` no nível 7 | **reprova onde a Classe 2 abre** |
+| **`2×` por cena** | **`0,73`** | **`1,75×`** | **passa em todo nível** |
+| sem relógio | `1,35` | `1,65×` | passa, e vale `6,4%` da Rotina — mais que um Classe 3 |
+
+> **O `maestria`× por cena morre por onde ninguém olha: pelo berço.** *Ele vale `1×` do nível 7 ao 9, que é exatamente onde a Classe 2 abre — reprova lá e só passa depois.* **E do nível 26 em diante ele pede `4` usos contra um teto de `3,7`: vira o "sem relógio" com outro nome.** *É o mesmo defeito de letra morta do arredondamento do `Servo` na v0.68 — a fórmula existe e não tem o que raspar.*
+>
+> **⚠⚠ E a medida destampou uma dívida que não é desta versão: os onze `Estigma` nunca foram preçados uns contra os outros.** *Esta peça confere que nenhum dá dado de dano, que nenhum cresce com refino, e mede o **teto** de quantos cabem na ficha — mas nunca mediu quanto cada um vale.* **Rodando agora, o `Quebranto` sai em `1,28` fatias, que é `6,0%` da Rotina no nível 30, contra `1,6%` do `Contrapeso`, que é Classe 3.** *O modelo o preça no melhor caso dele — anular uma ação inteira de chefe, mirada em você —, e se o gatilho for mais estreito ele cai.*
+>
+> ***O `2×` foi escolhido justamente por não depender disso:*** *ele passa no filtro contra o `Quebranto` medido no melhor caso.* **Se um dia os onze forem preçados de verdade, este número não se move por causa disso.**
 
 ### Classe 3 · grau 1 e especial — permanente, muda como você joga
 
@@ -210,7 +279,7 @@ A coluna do meio segue a cadência de marco da peça 2 §3 — um marco sim, um 
 
 ## 8. O que o validador confere
 
-O `conferir-ferramenta.py` roda **dezesseis checagens**, e **nenhum valor fica escrito dentro dele**: teto, gate, fundo, Rotina e orçamento saem dos documentos donos. O único bloco com número na mão é o `LIMITES DE DESIGN`, declarado à parte da regra aplicada — que é a lição nº 8.
+O `conferir-ferramenta.py` roda **dezessete checagens**, e **nenhum valor fica escrito dentro dele**: teto, gate, fundo, Rotina e orçamento saem dos documentos donos. O único bloco com número na mão é o `LIMITES DE DESIGN`, declarado à parte da regra aplicada — que é a lição nº 8.
 
 | # | o que ela confere | de onde ela lê | o teste negativo |
 |---|---|---|---|
@@ -229,7 +298,8 @@ O `conferir-ferramenta.py` roda **dezesseis checagens**, e **nenhum valor fica e
 | 13 | a rota sem energia nenhuma, medida ponta a ponta | peça 9 §5 | a rota da Maki sem acesso acende |
 | 14 | triagem de todo nome que a peça cria | o manual | nome colidindo acende |
 | 15 | as duas vagas de Desliga da peça 13 §8 | peça 13 §8 | vaga sem alvo legal acende |
-| 16 | ferramenta não sintonizada = arma comum, nos dois sentidos | esta peça §1 | efeito sem pagamento acende |
+| 16 | não sintonizada = arma comum, **e a regra de sintonizar existe**: custo escrito, desfazer escrito, sem PE, e **sem relógio de horas** | esta peça §1 e §1.1, peça 9 §5, peça 10 §1 | apagar o custo acende; escrever *"leva 1 hora"* acende, porque é dali que o filtro multi-mestre é herdado |
+| **17** | **todo `Estigma` de Classe 2 tem limite de uso escrito, e nenhum é letra morta** — a promessa é lida do próprio título da Classe, e o teto de Reações que uma luta cabe é lido da peça 1 | esta peça §6 e peça 1 §8 | tirar o relógio de uma das três acende; pôr `4×` por cena numa entrada de Reação acende, porque a luta só cabe `3,7` |
 
 **A checagem 3 e a checagem 9 leem a mesma amarra por dois lados, e o par está declarado.** A 3 confere que o gate vem da peça 11; a 9 confere que a escada de grau vem daqui. Elas não são independentes: se a escada do §7 virasse gate, a 3 morreria e a 9 continuaria verde sozinha. *Declarar o par é o que impede a dupla de sair verde por motivos que se cancelam.*
 

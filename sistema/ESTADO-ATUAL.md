@@ -1,8 +1,26 @@
 # Estado atual do projeto
 
-Atualizado em 24/08/2026, na v0.143 (última peça fechada: **Bloquear**, a peça 23, na v0.143, com o `conferir-bloquear.py` e sete checagens; antes dela, **Pactos, na v0.134**; antes dela, o **Objeto amaldiçoado, na v0.132**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 24/08/2026, na v0.144 (última peça fechada: **Bloquear**, a peça 23, na v0.143, com o `conferir-bloquear.py` e sete checagens; antes dela, **Pactos, na v0.134**; antes dela, o **Objeto amaldiçoado, na v0.132**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.143.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e três peças escritas** e **vinte e três validadores**.
+**Versão v0.144.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e três peças escritas** e **vinte e três validadores**.
+
+***A v0.144 fechou as duas marcas simples do livro, e a segunda mudou de tamanho no meio.*** **Sintonizar uma ferramenta custa um descanso curto**, e o `Avulsa` ganhou gatilho e relógio.
+
+> **A sintonização estava aberta desde a v0.55 — oitenta e oito versões —, e o livro mandava combinar com o mestre.** *Fechada na peça 16 §1.1, no molde do PHB 2024, e **três dos números que essa regra precisaria ter já tinham dono**: o tempo é um descanso curto (peça 10), o teto é estrutural (o §5 daquela peça, mãos mais dois apoios), e o custo em PE é zero — obrigatório, porque a ferramenta é a rota de quem **não tem** energia.*
+>
+> ***Decisão do Mizuki: o padrão é descanso curto, e a mesa pode subir para longo.*** **Escrito como variante declarada, com o efeito medido ao lado** — no molde da tabela de ritmo de entrega daquela peça, e não como *"acordo com o mestre"*. *Com o curto, a ferramenta achada no meio da missão entra na luta seguinte; com o longo, ela serve na próxima missão.*
+>
+> **⚠ Uma cláusula do PHB foi lida e RECUSADA:** *lá, desfazer a sintonização não vale se o item for **amaldiçoado**.* **Aqui toda ferramenta é amaldiçoada, e a palavra quer dizer outra coisa** — lá é *maligno*, aqui é *feito de energia amaldiçoada*. *Importar tornaria toda ferramenta permanente, e a Maki troca de arma o tempo todo.*
+
+> ***E o `Avulsa` não era "só um relógio".*** *O prompt previa o molde da `Classe Passiva 2` — `maestria`× por cena.* **Ele reprova por dois lados que só apareceram na conta:** *vale `1×` do nível 7 ao 9, que é onde a Classe 2 abre e onde o filtro de dominância acusa; e do 26 em diante pede `4` usos contra um teto de `3,7` Reações por luta, virando letra morta.*
+>
+> ***Decisão do Mizuki: `2×` por cena.*** **É o único relógio que passa no filtro de `3,00×` em todo nível e ainda morde de verdade.** *O gatilho reusa máquina que existe: o ataque de oportunidade dispara quando alguém **sai** do seu alcance, e este quando alguém **ataca** você dentro dele.*
+>
+> **⚠⚠ E a medida destampou uma dívida: os onze `Estigma` nunca foram preçados uns contra os outros.** *O `Quebranto` sai em `1,28` fatias, `6,0%` da Rotina no nível 30, contra `1,6%` do `Contrapeso`, que é **Classe 3**.* **Não é trabalho de agora — repreçar os onze é versão própria.** *O `2×` foi escolhido justamente por passar contra o `Quebranto` medido no melhor caso dele, então este número não se move quando essa dívida for paga.*
+
+> ***E as marcas de "isto ainda não existe" ganharam CONTAGEM COM DONO, porque cinco contagens deram cinco números.*** *O prompt de retomada dizia quatro, o CHANGELOG da v0.136 dizia cinco, a varredura à mão desta conversa disse oito, e o regex acha sete.* **Nenhuma delas tinha validador.**
+>
+> **Hoje a `REGRA-DE-VOZ.md` declara o número e a FRONTEIRA — o que conta e o que não conta —, e o `conferir-voz.py` reconta e falha nas duas direções:** *marca nova que entra sem ninguém ver, e marca fechada sem o número descer junto.* **São `7`.** *Vaga declarada e variante de mesa não contam, e o motivo está escrito ao lado do número.*
 
 ***O `PETRIFICADO` SAIU na v0.139, e são treze condições.*** **Decisão do Mizuki:** *"ela segue um balanceamento que não planejo ter no sistema"*. **Seis `Leve`, duas `Média`, cinco `Pesada`**, e o manual do Fundamento foi para a **v7.12**.
 
@@ -530,7 +548,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/13-legados.md` | **a régua de magnitude e o catálogo de 81 entradas**, nos três formatos (Destranca · Ajusta · Desliga), com a cota de Desliga e as vagas declaradas |
 | `03-mecanica/14-equipamento.md` | proteção, escudo, **as 52 armas** com fundo `3/5`, treino, requisito de Força e a divisão simples/marcial |
 | `03-mecanica/16-ferramenta-amaldicoada.md` | **a camada por cima da arma**: a escada de grau, o `Estigma`, o gate herdado da peça 11, o `Desgaste`, o teto na ficha e as onze entradas |
-| `03-mecanica/conferir-ferramenta.py` | as **dezesseis** checagens da peça 16, e o par declarado entre a 3 e a 9 |
+| `03-mecanica/conferir-ferramenta.py` | as **dezessete** checagens da peça 16, e o par declarado entre a 3 e a 9. *A 17 entrou na v0.144: ela lê a promessa de limite de uso do próprio título da Classe 2 e cobra ela de cada entrada, com o teto de Reações por luta lido da peça 1* |
 | `03-mecanica/15-invocacoes.md` | **o sistema de criação de invocação**: a casa de iniciativa, o pool da Matilha, a ficha derivada, o custo, a morte, o retorno e o catálogo de 19 entradas |
 | `03-mecanica/conferir-atributos.py` | acerto, defesa, TR, perícia, vida, PE máximo e a deriva contra o nível |
 | `03-mecanica/conferir-acao.py` | a régua das Restrições, a dominância entre elas e o `Adianta` |
@@ -951,7 +969,7 @@ Quatro peças, e a ordem é de **dependência**, não de tamanho. A ordem que el
 | # | peça | por que aqui | move o contador? |
 |---|---|---|---|
 | ~~1~~ | ~~**Invocações**~~ | **fechada na v0.58** (peça 15), com o `conferir-invocacoes.py` e trinta checagens | rotas 6/9 → 6/9 · vagas 0 de 7 |
-| ~~2~~ | ~~**Ferramenta amaldiçoada**~~ | **fechada na v0.59** (peça 16): a máquina e o catálogo saíram na v0.55 e na v0.56, e o `conferir-ferramenta.py` tem **dezesseis** checagens | **rotas 6/9 → 8/9** · vagas 3 de 7 |
+| ~~2~~ | ~~**Ferramenta amaldiçoada**~~ | **fechada na v0.59** (peça 16): a máquina e o catálogo saíram na v0.55 e na v0.56, e o `conferir-ferramenta.py` tem **dezessete** checagens | **rotas 6/9 → 8/9** · vagas 3 de 7 |
 | 1 | **Trilhas** | fecha com as quinze de uma vez, e agora nada mais a trava | toca **100% das fichas** |
 | ~~2~~ | ~~**Objeto amaldiçoado**~~ | **fechada na v0.132** (peça 21), com o `conferir-objeto.py` e doze checagens | rotas 8/9 → 8/9 · **fechou a vaga de `Desliga` do Reencarnado** |
 
