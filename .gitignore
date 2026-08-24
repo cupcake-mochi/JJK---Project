@@ -41,3 +41,7 @@ sistema/05-material/livro/build/manual.html
 # repositorio dentro do repositorio — o `git add -A` do subir.sh o pegaria como
 # repositorio embutido. O conferir-repositorio.py pula `.claude` pelo mesmo motivo.
 **/.claude/worktrees/
+
+# PDFs de sistemas de terceiros. Ficam no disco como referencia de medida,
+# nunca no repositorio — sao material comercial de outra pessoa.
+PDFs - Sistemas Extras/
