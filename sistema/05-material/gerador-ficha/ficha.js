@@ -75,7 +75,7 @@ function pagina1(f) {
      'Defesa',      `10 + Des + ${X.PROTECAO}`,   num('defesa')],
     ['Energia',     linhaPE,                      num('pe'),
      'Bloquear',    '2d10 + (Defesa − 11)',       num('bloquear')],
-    ['Integridade', `20 + 8 × (nível − 1)`,       String(X.INTEGRIDADE),
+    ['Integridade', `${X.INTEGRIDADE_NV} + Essência`,  num('integridade'),
      'Iniciativa',  'd20 + Des',                  num('iniciativa')],
     ['Maestria',    '—',                          String(X.MAESTRIA),
      'Deslocamento','—',                          '9 m'],

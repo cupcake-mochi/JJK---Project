@@ -70,11 +70,16 @@ const PONTOS_POR_FEITICO = 3 * CLASSE;
 const CONHECIDOS = 2 + Math.floor(NIVEL / 2);   // peca 8, formula da v0.27
 const CLASSE_0 = 2;                             // manual
 const XP_PROXIMO = 100;                         // peca 12, faixa "2 a 4"
-const INTEGRIDADE = 20 + 8 * (NIVEL - 1);
+// peca 24 SS2: Integridade = 20 + (Essencia + 5) x (nivel - 1). Ela deixou de ser
+// constante na v0.145 — a ficha em branco imprime a FORMULA, como ja faz com a vida.
+const INTEGRIDADE_BASE = 20;
+const INTEGRIDADE_POR_NIVEL = 5;
+const INTEGRIDADE_NV = INTEGRIDADE_BASE + INTEGRIDADE_POR_NIVEL * (NIVEL - 1);
 const PONTOS_ATRIBUTO = 9;
 const TETO_ATRIBUTO = 3;
 
 module.exports = { PERICIAS, OFICIOS, CAMINHOS, ORIGENS, ORIGENS_ESPECIAIS,
   SUB_ORIGEM, TRS, ATRIBUTOS, FAMILIAS, NIVEL, MAESTRIA, REFINO, PROTECAO,
-  CLASSE, PONTOS_POR_FEITICO, CONHECIDOS, CLASSE_0, XP_PROXIMO, INTEGRIDADE,
+  CLASSE, PONTOS_POR_FEITICO, CONHECIDOS, CLASSE_0, XP_PROXIMO,
+  INTEGRIDADE_BASE, INTEGRIDADE_POR_NIVEL, INTEGRIDADE_NV,
   PONTOS_ATRIBUTO, TETO_ATRIBUTO };

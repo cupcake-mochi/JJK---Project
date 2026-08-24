@@ -94,6 +94,16 @@ P12 = ler('12-experiencia-e-progressao.md')
 # ==========================================================================
 bloco('0. DE ONDE VEM CADA NUMERO — lendo os donos')
 
+# A formula da Integridade e' da peca 24, e ela e' lida de la — nunca copiada.
+_p24 = os.path.join(AQUI, '24-dano-de-alma.md')
+with open(_p24, encoding='utf-8') as _f:
+    _m24 = re.search(r'Integridade = (\d+) \+ \(Essência \+ (\d+)\) × \(nível − 1\)',
+                     _f.read())
+if not _m24:
+    print('  !! nao achei a formula da Integridade na peca 24')
+    sys.exit(1)
+INTEG_BASE, INTEG_POR_NV = int(_m24.group(1)), int(_m24.group(2))
+
 NIVEL = 2       # a ficha padrao. E' o unico numero desta pagina, e a peca 8 o
                 # afirma em tres lugares; a checagem 2 confere que ele nao mudou.
 
@@ -160,9 +170,10 @@ m = re.search(r'\*\*Atributos\.\*\*\s*Força (\d+) · Constituição (\d+) · De
               r'Inteligência (\d+) · Essência (\d+)', P8)
 if not m:
     erro('nao achei a linha de atributos da ficha de exemplo')
-    FOR = CON = DES = None
+    FOR = CON = DES = ESS = None
 else:
     FOR, CON, DES = int(m.group(1)), int(m.group(2)), int(m.group(3))
+    ESS = int(m.group(5))   # peca 24: a Integridade depende dela
     soma = sum(int(g) for g in m.groups())
     print(f'  atributos da Kaori: For {FOR} · Con {CON} · Des {DES} · '
           f'Int {m.group(4)} · Ess {m.group(5)}  (somam {soma})')
@@ -201,7 +212,7 @@ else:
     c = CAMINHOS[CAM]
     esperado = {
         'vida':        (c['vida1'] + CON) + (c['vida_nv'] + CON) * (NIVEL - 1),
-        'integridade': 20 + 8 * (NIVEL - 1),
+        'integridade': INTEG_BASE + (ESS + INTEG_POR_NV) * (NIVEL - 1),
         'pe':          c['pe_nv'] * NIVEL,
         'defesa':      10 + DES + PROTECAO,
         'cd':          8 + (ATR_TEC if ATR_TEC is not None else 0) + MAESTRIA,
@@ -232,8 +243,8 @@ for rotulo, rx8, esperado, porque in (
      r'Ataque de conjuração\s*=\s*d20 \+ atributo da técnica \+ (\d+)', MAESTRIA,
      'atributo da tecnica + maestria'),
     ('Integridade',
-     r'Integridade\s*=\s*(\d+)', 20 + 8 * (NIVEL - 1),
-     '20 + 8 x (nivel - 1)'),
+     r'Integridade\s*=\s*(\d+) \+ Essência', INTEG_BASE + INTEG_POR_NV * (NIVEL - 1),
+     'a formula da peca 24 no nivel 2, e o Passo 7 nao pode imprimir numero fixo'),
     ('pericia treinada',
      r'Perícia treinada\s*=\s*d20 \+ atributo \+ (\d+)', MAESTRIA,
      'atributo + maestria'),

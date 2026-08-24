@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 24/08/2026, na v0.144 (última peça fechada: **Bloquear**, a peça 23, na v0.143, com o `conferir-bloquear.py` e sete checagens; antes dela, **Pactos, na v0.134**; antes dela, o **Objeto amaldiçoado, na v0.132**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 24/08/2026, na v0.145 (última peça fechada: **Dano de alma e Integridade**, a peça 24, na v0.145, com o `conferir-alma.py` e onze checagens; antes dela, **Bloquear, na v0.143**; antes dela, o **Objeto amaldiçoado, na v0.132**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.144.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e três peças escritas** e **vinte e três validadores**.
+**Versão v0.145.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e quatro peças escritas** e **vinte e quatro validadores**.
 
 ***A v0.144 fechou as duas marcas simples do livro, e a segunda mudou de tamanho no meio.*** **Sintonizar uma ferramenta custa um descanso curto**, e o `Avulsa` ganhou gatilho e relógio.
 
@@ -413,6 +413,7 @@ python3 conferir-ferramenta.py   # o fundo, o gate herdado, a escada de grau, o 
 python3 conferir-catalogo.py     # o índice das 89 entradas contra os três DESENHO da raiz
 python3 conferir-progressao.py   # as nove colunas da tabela de progressão contra os donos
 python3 conferir-dano.py         # a régua de condição, as treze, os tipos de dano e a cobertura
+python3 conferir-alma.py         # a Integridade com Essência, os quatro estágios, o TR e a exceção
 ```
 
 **Três naturezas diferentes, e vale saber qual é qual.** Onze conferem **regra** — *a fórmula deriva certo?*. *(O `conferir-equipamento.py` faltava nesta lista desde a v0.48 e entrou na v0.58 — o `subir.sh` sempre o rodou, porque varre por glob; quem rodasse à mão pelo documento rodava um a menos.)* O `conferir-criacao.py` confere **instância** — *a ficha publicada na peça 8 obedece à fórmula?* —, e nasceu na v0.34 porque os dois erros daquela versão passaram por baixo de todos os outros: a peça 8 é a única que produz uma ficha inteira, e ela envelhece toda vez que outra peça mexe num número. O `conferir-ficha.py` confere **material**, que é a cópia que vira personagem em sete mesas. E o `conferir-legados.py`, o décimo terceiro, confere **catálogo**: ele recalcula a tabela de totais da peça 13 e falha se o escrito não bater com o contado. O `conferir-invocacoes.py`, que entrou na v0.58, faz as quatro naturezas de uma vez — regra, catálogo, instância e **busca exaustiva** —, porque a peça 15 é máquina de construção e não lista.
@@ -486,7 +487,7 @@ Ataque de conjuração = d20 + atributo da técnica + maestria
 Defesa               = 10 + Destreza + proteção
 Pontos de vida       = (inicial do Caminho + Con) + (por nível do Caminho + Con) × (nv − 1)
 Pontos de energia    = PE por nível do Caminho × nível   (sem atributo, sem inicial)
-Integridade          = 20 + 8 × (nível − 1)   (plana — sem Caminho, sem Constituição)
+Integridade          = 20 + (Essência + 5) × (nível − 1)   (sem Caminho, sem Constituição)
 CD de feitiço        = 8 + atributo da técnica + maestria
 Teste de Resistência = d20 + atributo do TR + maestria (só se treinado)
 Perícia              = d20 + atributo + maestria (só se treinado)
@@ -578,6 +579,8 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/22-pactos.md` | **a quinta camada de personagem**: as quatro formas de pacto, o teto de quantidade do permanente, o orçamento como teto de dano, o catálogo de exemplo da obra e as oito ideias de restrição |
 | `03-mecanica/conferir-pactos.py` | as **catorze** checagens da peça 22, e a segunda é o par declarado: o teto por pacto não está escrito nela, é `camada ÷ (teto de atributo ÷ 2)` — ela mede relação e não constante |
 | `03-mecanica/23-bloquear.md` | **rolar para se defender**: o `2d10 + (Defesa − 11)`, por que o dado não é o d20, o `Aparar` e a `Brecha`, o invariante do modificador único, e a única condição que desliga |
+| `03-mecanica/24-dano-de-alma.md` | **a máquina de alma inteira**: a Integridade com Essência dentro, os quatro estágios, o acoplamento com a vida, a exceção que atravessa o corpo, e o Teste de Resistência de Espírito que a v0.7 decidiu e ninguém aplicou |
+| `03-mecanica/conferir-alma.py` | as **onze** checagens da peça 24. *A 1 reconstrói a curva a partir de **três** donos independentes — a peça 24, o teto de atributo da peça 2 e a curva original lida do manual — e a 4 é a única do projeto que mede **consequência**: se o estágio 4 sumir da campanha, nenhuma outra checagem acusaria* |
 | `03-mecanica/conferir-bloquear.py` | as **sete** checagens da peça 23. **A checagem 1 é a única do projeto que existe para sustentar um número de OUTRA peça:** ela recalcula a neutralidade por enumeração das `2.000` combinações, e é dela que o `11,00` do `Incapacitado` na peça 19 depende |
 | `05-material/gerador-ficha/` | o gerador da ficha (Node: `node make.js`), e os dois `.docx` que ele produz |
 | `conferir-repositorio.py` | a árvore, as referências mortas, os números que moram em mais de um documento, os **ponteiros de seção** — todo `peça N §M` citado tem de apontar para seção que existe, desde a v0.54 —, o **mapa** desta tabela contra a pasta, a **entrega** contra a fonte, a **pendência morta** desde a v0.100 — nenhum item de "Em aberto" pode pedir coisa que já existe —, e, **desde a v0.102**, a **contagem de checagens de cada validador, lida do código** |
@@ -585,7 +588,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 
 **Duas peças foram parcialmente substituídas e trazem o aviso no topo:** as seções 3 e 4 da peça 4 saíram para a peça 7, e a seção 3 e o quadro de Caminhos da peça 5 saíram para a peça 6.
 
-O manual do Fundamento **v7.12** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 366 parágrafos e 90 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na v7.12, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 49 páginas.
+O manual do Fundamento **v7.13** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 366 parágrafos e 90 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na v7.13, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 49 páginas.
 
 **Quem é dono da versão do manual:** a primeira linha de `manual/gerador/COMO-USAR.txt`. Toda outra cópia — a capa em `partA.js`, este arquivo, o `README.md`, o `LEIA-ME.md` e o `arquitetura.md` — é cópia, e o `conferir-repositorio.py` falha se alguma divergir. *Ele nasceu na v0.33, depois de a capa do manual passar três versões dizendo 7.5.*
 
@@ -870,10 +873,10 @@ Nenhum validador pega estes — eles vieram de rodar os testes da skill de desig
 - **Alguém sente falta da `Vazão` nos níveis 11 e 12?** *Nesses dois ela vale zero: o teto que ela dá é `13` de dano e o `Classe 0` que ela substitui já é `18`.* **A cláusula de piso tirou a armadilha de texto, não deu conteúdo aos dois níveis.** *Só começa a pagar no 13, quando a Classe 4 abre.*
 - **A luta dura mesmo `3,7` rodadas?** *A taxa de `54%` do `Acelerar` sai daí, e ela decide o preço da Trilha inteira.* **Se a luta for mais curta, o `2×` por cena vira taxa maior e a `Torrente` cresce; se for mais longa, ela encolhe sozinha.**
 - **Os `8` dados rerrolados por conjuração da `Cheia` cansam?** *Um `Classe 7` são `21d8`, e a janela de `1` a `3` mexe em `37%` deles.* **É preço de tempo de mesa, declarado, e é a primeira coisa a olhar nesta Trilha.**
-- **A correção da v0.16 passou do ponto?** Essência agora carrega a perícia mais rolada da mesa, o TR Espírito e os Pactos — e vai carregar a Integridade também. O peso está empatado com Inteligência em 39% cada, mas empate na planilha não é empate na mesa.
+- **A correção da v0.16 passou do ponto?** *Essência carrega a perícia mais rolada da mesa, o TR Espírito, os Pactos, é candidata a atributo da técnica — e, **desde a v0.145**, o tamanho da Integridade.* **São cinco trabalhos contra os dois da Constituição.** O peso estava empatado com Inteligência em 39% cada antes do quinto, e empate na planilha não é empate na mesa.
 - **Apareceu alguém com Constituição 0 ou 1?** Ela é a maior alavanca de sobrevivência do sistema — **+79% contra os +56% da Destreza**, os dois medidos de 1 a 6. *Corrigido na v0.24:* o par que estava escrito aqui era +113% contra +56%, e ele mistura bases — o 113% é de 0 a 6. Na mesma base a Constituição está na frente por 1,4×, não por 2×. Continua sendo a pergunta de playtest, com o tamanho certo. Se ninguém a zera, virou obrigatória, e o conserto é uma linha: ela volta a entrar só do segundo nível em diante.
 - **O espalhamento de vida de 3,2× incomoda?** O Evocador de Constituição 0 cai em 1,7 rodadas no nível 30; o Bastião de Constituição 6 aguenta 5,5.
-- **O estágio 4 de dano de alma dispara alguma vez?** Hoje a alma é maior que o corpo em quatro dos cinco Caminhos, então quase todo mundo cai antes. Muda quando a Essência entrar na Integridade.
+- **O estágio 4 de dano de alma dispara alguma vez?** *A alma é a barra menor em `33,3%` das fichas da grade, e nas outras duas terças partes o corpo acaba antes.* **A Essência entrou na v0.145 e a fração NÃO se moveu** — o que mudou foi quem está nela: antes era quem investiu Constituição, por acidente; agora é quem não investiu Essência, de propósito. *Continua sendo pergunta de mesa.*
 - **Intuição está em cima do muro.** "Ler a pessoa" tem cara de perceber e ela ficou em Inteligência como dedução. Se rolarem Percepção no lugar dela, muda de casa.
 - **Provocar e Intimidação vão brigar?** Uma faz recuar, a outra faz avançar. Claro escrito, vago em jogo.
 - **Força tem uma perícia só**, e a lista não conserta. O conserto barato, se doer, é Força somar em pontos de vida.
@@ -1143,7 +1146,7 @@ As duas são economias de poder novas, e construir a quarta e a quinta antes de 
 |---|---|
 | **Objeto amaldiçoado** | **a maldição presa em forma de objeto** — não é item imbuído de energia: *é* a coisa. Resto de feiticeiro antigo, que encarna quando um receptáculo compatível o consome. *Entrou na lista na v0.49, escondido dentro da palavra "ferramenta".* **Duas Origens inteiras são construídas em cima dele** — Receptáculo é comer um dedo, Reencarnado é ter virado um |
 | **Ferramenta amaldiçoada** | **arma forjada para canalizar energia**, com graus, que até quem não é feiticeiro consegue usar. Prometida desde a peça 5 §5 e declinada pela peça 14 §8 item 2, que a mandou para tópico próprio *"com graus e forja"*. **É o único jeito de ferir maldição sem energia própria** — a Maki e o Toji |
-| **Dano de alma, com Essência na Integridade** | já decidido, não aplicado |
+| ~~**Dano de alma, com Essência na Integridade**~~ | **FECHADA na v0.145, e é a peça 24.** *Ela não foi escrita, foi recolhida: a máquina estava partida em cinco donos e nenhum era dono da régua.* **A Integridade virou `20 + (Essência + 5) × (nível − 1)`**, o Teste de Resistência de Espírito que a v0.7 decidiu foi aplicado cento e trinta e sete versões depois, e o `Cisão` virou a exceção declarada que atravessa o corpo |
 | ~~**Pactos**~~ | **FECHADA na v0.134, e é a peça 22.** *O recorte encolheu na v0.116 e voltou a crescer na v0.133, quando o Mizuki abriu a forma que sobrava em quatro.* **As quatro travas do Passo 8 da peça 8 continuam sendo a fundação, e a peça 22 aponta para elas em vez de as repetir** |
 | **Itens iniciais por Caminho** | *levantado pelo Mizuki na v0.135.* **O que cada Caminho leva na mão quando a ficha nasce** — a criação da peça 8 dá perícia, ofício, Trilha e técnica, e não diz com que equipamento o personagem sai de casa. *A peça 14 tem as 52 armas e as duas classes de uniforme, e ninguém escreveu quais delas a criação entrega.* **Ela encosta em itens menores e provavelmente fecha junto** |
 | **Itens menores** | *levantado pelo Mizuki na v0.131.* **Consumível e afins** — o que se compra, se gasta e acaba: talismã pronto, remédio, corda, lanterna, o kit que o `Herbalismo` usa. **A peça 14 tem a régua de itens comuns em três camadas, com a terceira desligada** (§8), e nada disso tem preço nem lista |

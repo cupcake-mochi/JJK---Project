@@ -22,7 +22,8 @@ CONTRATO DE INVARIANTES:
   Teste de Resistencia = d20 + atributo do TR + maestria (so se treinado)
   Pericia              = d20 + atributo + maestria (maestria so entra se treinado)
   Pontos de vida       = (inicial do Caminho + Con) + (por nivel do Caminho + Con) x (nivel-1)
-  Integridade          = 20 + 8 x (nivel - 1)   — plana, sem Caminho e sem Constituicao
+  Integridade          = 20 + (Essencia + 5) x (nivel - 1)   — sem Caminho e sem
+                         Constituicao. A dona e a peca 24, desde a v0.145
 
   1. Acerto NAO deriva na campanha — nem fisico nem de conjuracao.
   2. Teste de Resistencia TREINADO nao deriva; o SEM TREINO deriva para baixo,
@@ -151,8 +152,47 @@ def vida(nv, con, cam='Guia'):
     return (ini + con) + (porniv + con) * (nv - 1)
 
 
-def integridade(nv): return 20 + 8 * (nv - 1)
-def vida_manual(nv): return 20 + 8 * (nv - 1)
+# v0.145: a Integridade mudou de dono e ganhou Essencia — peca 24 SS2.
+# ATE A v0.144 ESTAS DUAS FUNCOES ERAM A MESMA EXPRESSAO LITERAL, e a checagem 8
+# comparava uma com a outra: ela era trivialmente verdadeira e nao conseguia
+# acender (licao no 8). Agora cada uma le do SEU dono, que sao arquivos diferentes.
+import re as _re_i
+
+def _le(caminho, padrao, oquê):
+    try:
+        with open(caminho, encoding='utf-8') as f:
+            m = _re_i.search(padrao, f.read())
+    except OSError:
+        m = None
+    if not m:
+        print(f'  !! nao consegui ler {oquê} de {os.path.basename(caminho)}')
+        sys.exit(1)
+    return m
+
+_m = _le(os.path.join(AQUI, '24-dano-de-alma.md'),
+         r'Integridade = (\d+) \+ \(Essência \+ (\d+)\) × \(nível − 1\)',
+         'a formula da Integridade')
+INTEG_BASE, INTEG_POR_NV = int(_m.group(1)), int(_m.group(2))
+
+_m = _le(os.path.join(AQUI, '..', '..', 'manual', 'gerador', 'partF.js'),
+         r'Vida de personagem = (\d+) \+ (\d+) × \(nível − 1\)',
+         'a curva original do manual')
+MAN_BASE, MAN_POR = int(_m.group(1)), int(_m.group(2))
+
+_m = _le(os.path.join(AQUI, '02-economia-de-atributos.md'),
+         r'\*\*Teto do atributo:\s*(\d+)\.', 'o teto de atributo')
+TETO_ATRIBUTO = int(_m.group(1))
+ESS_REFERENCIA = TETO_ATRIBUTO // 2      # o meio da escala, peca 24 SS2
+
+
+def integridade(nv, ess=None):
+    if ess is None:
+        ess = ESS_REFERENCIA
+    return INTEG_BASE + (ess + INTEG_POR_NV) * (nv - 1)
+
+
+def vida_manual(nv):
+    return MAN_BASE + MAN_POR * (nv - 1)
 
 
 def pe_maximo(nv, cam):
@@ -392,7 +432,7 @@ if max(g_cam, g_con, g_des) / min(g_cam, g_con, g_des) > 2.5:
 
 print()
 print('=' * 88)
-print('8. INTEGRIDADE NAO LEVA CAMINHO NEM CONSTITUICAO')
+print('8. INTEGRIDADE NAO LEVA CAMINHO NEM CONSTITUICAO — E LEVA ESSENCIA')
 print('=' * 88)
 print(f"  {'nivel':<8}{'Integridade':>13}{'Emanador Con3':>16}{'Bastiao Con3':>15}   quem acaba primeiro")
 for nv in [2, 10, 18, 30]:
@@ -400,17 +440,18 @@ for nv in [2, 10, 18, 30]:
     frag, duro = vida(nv, CON_TIPICA, lo_c), vida(nv, CON_TIPICA, hi_c)
     quem = 'o corpo, nos dois' if duro < i else f'a alma do {hi_c}, so ele'
     print(f'  nv{nv:<6}{i:>13}{frag:>16}{duro:>15}   {quem}')
-    if integridade(nv) != vida_manual(nv):
-        erro(f'nv{nv}: Integridade saiu da formula original do manual — a tabela de '
-             f'estagios de dano de alma precisaria ser refeita')
-print('\n  A Integridade e exatamente a formula que o manual ja tem, e nao muda nenhuma')
-print('  tabela: os quatro estagios continuam valendo.')
-print('\n  ATENCAO, efeito colateral da vida menor: a alma virou a reserva MAIOR em quatro')
-print('  dos cinco Caminhos. Quem nao e Bastiao cai pelo corpo antes de a alma acabar,')
-print('  entao o estagio 4 de dano de alma quase nunca dispara. Isso muda quando a')
-print('  Essencia entrar na Integridade.')
-print('\n  PENDENTE E JA DECIDIDO: a Integridade vai escalar com Essencia, virando uma')
-print('  segunda vida de verdade. Entra junto com a peca de dano de alma.')
+    if integridade(nv, ESS_REFERENCIA) != vida_manual(nv):
+        erro(f'nv{nv}: com Essencia {ESS_REFERENCIA} a Integridade deixou de reproduzir '
+             f'a curva do manual ({integridade(nv, ESS_REFERENCIA)} contra '
+             f'{vida_manual(nv)}) — a tabela de estagios foi calibrada nela')
+print(f'\n  Com Essencia {ESS_REFERENCIA} — o meio da escala 0-{TETO_ATRIBUTO} — a formula reproduz')
+print('  exatamente a curva do manual, entao a tabela de estagios continua calibrada.')
+print(f'  A coluna acima usa Essencia {ESS_REFERENCIA}; Essencia 0 da {integridade(30, 0)} no nv30 e')
+print(f'  Essencia {TETO_ATRIBUTO} da {integridade(30, TETO_ATRIBUTO)}.')
+print('\n  A dona da maquina de alma inteira e a PECA 24, desde a v0.145: a formula, os')
+print('  quatro estagios, o acoplamento com a vida e o Teste de Resistencia de Espirito.')
+print('  Esta checagem so guarda o que e desta peca — que a Integridade nao leva Caminho')
+print('  nem Constituicao. Quem mede a consequencia da Essencia e o conferir-alma.py.')
 
 # --------------------------------------------------------------------------
 print()

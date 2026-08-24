@@ -306,6 +306,8 @@
 > | **Elementais** | `Fogo` · `Frio` · `Elétrico` · `Ácido` · `Trovejante` · `Veneno` | **30%** |
 > | **Especiais** | `Radiante` · `Necrótico` · `Psíquico` · `Energia Reversa` · `Alma` | **10%** |
 
+> **⚠ O `Alma` é o único dos catorze que não bate só na vida, e a máquina dele NÃO é desta peça.** *Ele tira `1` de vida, `1` de Integridade e derruba a vida máxima em `1`, e tem quatro estágios em cima disso.* **Tudo isso é a peça 24**, que fechou na v0.145 — *aqui ele é um tipo de dano como os outros treze, e é só isso que esta peça afirma sobre ele.*
+
 **Os Temas do manual não são taxonomia, e é por isso que esta lista existe.** *Decisão do Mizuki:* eles são **exemplos para quem cria técnica**, não uma classificação fechada do que o dano pode ser. **A colisão entre as duas coisas é aceita e fica declarada** em vez de esquecida:
 
 | o tipo | colide com |

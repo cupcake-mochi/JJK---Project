@@ -265,9 +265,13 @@ Sem atributo e sem valor inicial: no nível 1 você tem o PE de um nível.
 
 ### Integridade
 
-> **Integridade = 20 + 8 × (nível − 1).** Plana, igual para todo mundo.
+> **Integridade = 20 + (Essência + 5) × (nível − 1).**
 
-Integridade é a sua alma, e a alma é igual para todo mundo: nem o Caminho nem a Constituição mexem nela. Dano de alma passa por cima de corpo duro. Por exemplo, no nível 2 a sua Integridade é 28, e no nível 10 ela é 92.
+Integridade é a sua alma. Nem o Caminho nem a Constituição mexem nela — dano de alma passa por cima de corpo duro. Quem manda no tamanho dela é a **Essência**, e é por isso que ela é a única reserva em que um corpo duro pode ser frágil.
+
+Toda ficha começa com os mesmos 20: você nasce com a alma que nasceu, e o que a Essência muda é o quanto ela cresce daí em diante.
+
+> **Exemplo.** Kaori tem Essência 1. No nível 2 a Integridade dela é `20 + 6 = 26`; no nível 10, `20 + 6 × 9 = 74`. Um Emanador de Essência 5 no nível 10 teria `110`.
 
 Dano de alma tem quatro estágios, e eles estão no capítulo 4, *Dano, Condições e Cobertura*, na seção *Dano na alma*. O quarto é o fim da linha: *"você não é mais você, e o que sobra é decisão do mestre"*.
 

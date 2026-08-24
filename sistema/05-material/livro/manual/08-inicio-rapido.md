@@ -43,7 +43,7 @@ físico: as duas mãos precisam se tocar antes de qualquer feitiço sair.
 | | |
 |---|---|
 | **Vida** | 23 |
-| **Integridade** | 28 |
+| **Integridade** | 26 |
 | **PE** | 8 |
 | **Defesa** | 13 |
 | **Iniciativa** | `d20 + 2` |

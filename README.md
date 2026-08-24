@@ -2,7 +2,7 @@
 
 **O sistema se chama `Projeto - M`**, batizado na v0.94 — era a pendência mais velha que existia aqui, aberta na v0.1. Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.144** · manual do Fundamento na **v7.12** · **vinte e três peças de regra** e **vinte e três validadores passando** · o Manual da Guilda em **17 capítulos**.
+**Versão v0.145** · manual do Fundamento na **v7.13** · **vinte e quatro peças de regra** e **vinte e quatro validadores passando** · o Manual da Guilda em **17 capítulos**.
 
 ---
 
@@ -51,8 +51,8 @@ Depois disso, a ordem de leitura é a da próxima seção, e os validadores são
 │   ├── CHANGELOG.md                     o porquê de cada decisão, da v0.1 até a versão atual
 │   └── CHANGELOG-manual-v6-para-v7.md   o changelog do manual, antes de ele entrar aqui
 ├── manual/
-│   ├── Fundamento-MANUAL-v7.docx        v7.12 — o manual gerado
-│   ├── Fundamento-MANUAL-v7.pdf         v7.12 — o mesmo do .docx desde a v0.93
+│   ├── Fundamento-MANUAL-v7.docx        v7.13 — o manual gerado
+│   ├── Fundamento-MANUAL-v7.pdf         v7.13 — o mesmo do .docx desde a v0.93
 │   ├── gerador/                         Node + docx. `node make.js` recria o .docx do zero
 │   └── matematica/                      pac7.py e v7.py, os validadores do manual
 └── sistema/
@@ -61,7 +61,7 @@ Depois disso, a ordem de leitura é a da próxima seção, e os validadores são
     ├── 00-fundacao/                     os três pilares e as restrições do projeto
     ├── 01-pesquisa/                     dossiê de metodologia — a seção 8 lista as dez travas
     ├── 02-esqueleto/                    arquitetura: subsistemas e como se encaixam
-    ├── 03-mecanica/                     as vinte e três peças de regra e os vinte e três validadores
+    ├── 03-mecanica/                     as vinte e quatro peças de regra e os vinte e quatro validadores
     ├── 04-playtest/                     vazia. Zero sessões desde a v0.1
     ├── 05-material/                     a ficha (e o gerador dela) e o livro/, o Manual da Guilda completo
     ├── 99-arquivo/                      material morto, com LEIA-ME próprio
@@ -128,6 +128,7 @@ python3 conferir-ferramenta.py   # o fundo, o gate herdado, a escada de grau, o 
 python3 conferir-catalogo.py     # o índice das 89 entradas contra os três DESENHO da raiz
 python3 conferir-progressao.py   # as nove colunas da tabela de progressão contra os donos
 python3 conferir-dano.py         # a régua de condição, as treze, os tipos de dano e a cobertura
+python3 conferir-alma.py         # a Integridade com Essência, os quatro estágios, o TR e a exceção
 ```
 
 **Os cinco últimos são de outra natureza, e vale saber por quê.** Os onze primeiros conferem **regra** — *a fórmula deriva certo?*.
@@ -215,7 +216,7 @@ cp Fundamento-MANUAL-v7.docx ../Fundamento-MANUAL-v7.docx
 
 `manual/gerador/COMO-USAR.txt` diz onde mexer em cada parte e traz o histórico de mudanças de cada versão do manual. **Rode `pac7.py` antes de gerar** se você mexeu em número, exemplo ou feitiço pronto.
 
-O `.pdf` **está na v7.12, igual ao `.docx`**, desde a v0.93 — ele passou sete versões do manual atrasado porque era exportado a mão pelo Word. *Hoje sai de `soffice --headless --convert-to pdf`: 49 páginas.*
+O `.pdf` **está na v7.13, igual ao `.docx`**, desde a v0.93 — ele passou sete versões do manual atrasado porque era exportado a mão pelo Word. *Hoje sai de `soffice --headless --convert-to pdf`: 49 páginas.*
 
 ---
 

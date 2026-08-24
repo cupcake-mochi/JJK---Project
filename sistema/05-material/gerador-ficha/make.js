@@ -20,7 +20,8 @@ const KAORI = {
                'Inteligência': '1', 'Essência': '1' },
   // o `bloquear` NAO e' escolha: e' `defesa - 11`, e o conferir-ficha.py refaz
   // a subtracao. A peca 23 SS4 diz que os dois lados usam a MESMA expressao.
-  numeros: { vida: '23', pe: '8', defesa: '13', bloquear: '2d10 + 2',
+  numeros: { vida: '23', integridade: '26', pe: '8', defesa: '13',
+             bloquear: '2d10 + 2',
              iniciativa: 'd20 + 2',
              cac: 'd20 + 4', distancia: 'd20 + 3',
              cd: '12', conjuracao: 'd20 + 4' },

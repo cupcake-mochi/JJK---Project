@@ -199,7 +199,7 @@ Três famílias são legais e o projeto **não sabe preçar**: `auxílio` (somar
 |---|---|
 | **estender duração** | morreu na **v0.68** — `+1` rodada custa de `11` a `43` fatias conforme o comprimento do efeito, e não existe efeito curto o bastante para ela caber. *Continua valendo para aptidão, que tem orçamento de um marco inteiro* |
 | **recuperar ferimento** | reprovou na **v0.70** — vale `0,00` para quem não cai, e o Bastião do nível 30 aguenta `11,7` rodadas contra uma luta de `3,7`. O eixo que decide quanto ela vale é **em quem o mestre resolve bater**, que é a mesma família de defeito que matou a Casca |
-| **recuperar Integridade** | reprovou na **v0.70** — dano de alma esvazia as duas barras ao mesmo tempo, e **o corpo acaba antes em três das quatro fichas**. *Quando a Essência entrar na Integridade, esta linha pode voltar a valer* |
+| **recuperar Integridade** | reprovou na **v0.70** — dano de alma esvazia as duas barras ao mesmo tempo, e o corpo acaba antes na maioria das fichas. **A Essência entrou na Integridade na v0.145, e a linha CONTINUA reprovada:** *a alma é a barra menor em `33,3%` da grade contra `33,6%` antes — a fração não se moveu, mudou só quem está nela.* **A entrega continua valendo `0,00` para dois terços dos alvos**, que é a mesma família de defeito da linha acima. *O bilhete que prometia reabrir foi medido pela peça 24 §6.1 e não se sustentou* |
 | **recuperar condição** | **liberada na v0.103**: a peça 19 dá nível a cada condição, e tirar uma custa `1` ponto de energia por nível |
 
 ### Os papéis moram na peça 6

@@ -171,7 +171,7 @@ Maestria             = 1
 Refino               = 1
 Pontos de vida       = (vida inicial do Caminho + Constituição)
                        + (vida por nível do Caminho + Constituição)
-Integridade          = 28
+Integridade          = 25 + Essência
 Pontos de Energia    = PE por nível do Caminho × 2
 Defesa               = 10 + Destreza + 1     (a proteção de cobrir-se de energia)
 Iniciativa           = d20 + Destreza
@@ -268,7 +268,7 @@ Pacto é o que você trocou por poder.
 | | conta | resultado |
 |---|---|---|
 | Vida | (12 + 2) + (7 + 2) | **23** |
-| Integridade | 20 + 8 | **28** |
+| Integridade | 25 + 1 | **26** |
 | PE | 4 × 2 | **8** |
 | Defesa | 10 + 2 + 1 | **13** |
 | Iniciativa | d20 + 2 | |

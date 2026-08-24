@@ -80,7 +80,8 @@ Defesa               = 10 + Destreza + proteção
 Pontos de vida       = (vida inicial do Caminho + Constituição)
                        + (vida por nível do Caminho + Constituição) × (nível − 1)
 Pontos de energia    = PE por nível do Caminho × nível   (sem atributo, sem valor inicial)
-Integridade          = 20 + 8 × (nível − 1)      (plana, sem Caminho e sem Constituição)
+Integridade          = 20 + (Essência + 5) × (nível − 1)   (sem Caminho e sem Constituição
+                                                            — a dona é a peça 24)
 CD de feitiço        = 8 + atributo da técnica + maestria
 Teste de Resistência = d20 + atributo do TR + maestria   (a maestria só entra se treinado)
 Perícia              = d20 + atributo + maestria   (a maestria só entra se treinado)
@@ -277,21 +278,19 @@ Traduzido em rodadas sob foco, no nível 30:
 
 O extremo de baixo é duro: um Emanador que zerou Constituição cai em menos de duas rodadas de foco. Isso é escolha dele, e a ficção acompanha — conjurador puro que não cuidou do corpo morre rápido em Jujutsu Kaisen. Mas é o número a acompanhar em playtest antes de qualquer outro.
 
-### A Integridade fica de fora das duas
+### A Integridade fica de fora das duas, e a dona dela é a peça 24
 
 O manual diz *"Integridade = vida máxima"*. Com Caminho e Constituição na vida, essa frase daria de graça a um corpo duro uma **alma dura**, e dano de alma é justamente o que deveria ignorar o corpo — o que o Mahito faz não passa pelo músculo.
 
-> **Integridade = 20 + 8 × (nível − 1).** Plana, igual para todo mundo.
+> **Integridade = 20 + (Essência + 5) × (nível − 1).** Sem Caminho e sem Constituição.
 
-É exatamente a fórmula que o manual já tem, sem nenhum número mexido. Muda uma frase e não muda uma tabela: onde o manual diz *"Integridade = vida máxima"*, leia **"Integridade é a alma, e a alma é igual para todo mundo"**. Os quatro estágios de dano de alma continuam valendo do jeito que estão.
+**A fórmula, os quatro estágios, o acoplamento com a vida e a recuperação moram na peça 24**, que fechou na v0.145. *Esta seção guarda só o que é desta peça: por que a Integridade não leva os dois números que a vida leva.*
 
-**Com a vida do corpo menor que antes, a alma passou a ser a reserva maior para quase todo mundo.** No nível 30 com Constituição 3, o Emanador tem 212 de corpo contra 252 de alma; só o Bastião inverte, com 305 contra 252.
+**O motivo é o mesmo de sempre, e ele sobrevive à Essência entrar:** Caminho é treino e Constituição é corpo, e nenhum dos dois deveria comprar alma. *O que a peça 24 acrescentou foi o eixo que faltava — a Essência —, e o `20` continua plano porque toda ficha nasce com a mesma alma.*
 
-Isso produz a imagem certa nos dois extremos. O **Emanador** cai pelo corpo antes de a alma acabar — ele morre inteiro. O **Bastião** é o único que sobrevive tempo suficiente para a alma acabar primeiro: ele fica de pé com 53 de vida ainda no medidor, sem ser mais ele. É exatamente o que o Mahito faz com quem é duro demais para morrer de porrada.
+> **⚠ Esta seção passou setenta e cinco versões prometendo isso.** *O texto dizia "o próximo passo já está decidido, e não aplicado", desde a v0.70.* **Foi aplicado na v0.145, e os dois eixos se cruzam como estava previsto:** o Bastião de Essência `0` fica com `165` de alma contra `395` de corpo, e o Emanador de Essência `6` com `339` de alma contra `122`.
 
-**Fica marcado como coisa a acompanhar:** com a alma maior que o corpo em quatro dos cinco Caminhos, o estágio 4 de dano de alma quase nunca dispara — a pessoa cai antes. Isso muda quando a Essência entrar.
-
-**O próximo passo já está decidido, e não aplicado:** a Integridade vai escalar com **Essência**, virando uma segunda vida de verdade em vez de um número plano. Fica para a peça de dano de alma, com o contexto que ela vai trazer. Quando entrar, os dois eixos se cruzam em vez de empilhar — o Emanador de Essência alta fica com alma grossa e corpo fino, o exato oposto do Bastião.
+> **⚠⚠ E a frase que esta seção publicava sobre o estágio 4 estava medindo a variável errada.** *Ela dizia que "a alma é maior que o corpo em quatro dos cinco Caminhos", e isso é verdade **em Constituição 3** — que era a coluna em que a medida tinha sido feita.* **Quem decidia era a Constituição e não o Caminho:** com Con `0` o estágio 4 não disparava em Caminho nenhum, e com Con `6` disparava nos cinco a partir do nível 10. *A peça 24 §1.1 registra a correção.*
 
 ### 5.1.1 Vida temporária
 
@@ -381,7 +380,7 @@ Uma primeira redação desta seção dizia que *"a fórmula já estava no manual
 
 **Se um dia o PE por nível de um Caminho mudar, a coluna do manual muda junto** — e é isso, e não uma tabela vencendo a outra, que o `conferir-manual.py` está lá para não deixar passar em silêncio.
 
-**É a única reserva do sistema que é uma linha reta.** A vida tem um valor inicial e soma atributo; a Integridade tem um valor inicial. O PE não tem nem um nem outro — ele é a taxa vezes o nível, e passa pela origem.
+**É a única reserva do sistema que é uma linha reta.** A vida tem um valor inicial e soma atributo; a Integridade tem um valor inicial e — **desde a v0.145** — soma atributo também. O PE não tem nem um nem outro: ele é a taxa vezes o nível, e passa pela origem.
 
 Isso tem um efeito pequeno e que vale saber: como a vida perde um nível na parte que escala (`nível − 1`) e o PE não, a razão entre os dois **sobe devagar** ao longo da campanha. Num Emanador de Constituição 3 ela vai de 0,75 no nível 2 a 0,85 no 30; num Bastião, de 0,32 a 0,39. O personagem alto nível tem proporcionalmente mais combustível do que couro do que tinha no começo — pouco, e sempre no mesmo sentido.
 
@@ -476,9 +475,9 @@ Nenhum conjunto contém o outro, pelo teste da peça 3. Com cura sobrando no gru
 
 ### O estado terminal já estava escrito, e era inalcançável
 
-O manual tem os quatro estágios de dano de alma, e o quarto diz: ***"Você não é mais você. O que sobra é decisão do mestre."***
+A peça 24 §4 tem os quatro estágios de dano de alma, e o quarto diz: ***"você não é mais você — o que sobra é decisão do mestre."***
 
-**Isso é a trava 6 com outras palavras** — morte declarada por mesa —, e ninguém nunca chegou nele. A seção 5.1 explica por quê: a alma é maior que o corpo em quatro dos cinco Caminhos, então *"a pessoa cai antes"*. Ligar o fim da janela ao estágio 4 destrava a máquina que já existia, sem inventar estado novo nem contador novo.
+**Isso é a trava 6 com outras palavras** — morte declarada por mesa —, e por dano de alma quase ninguém chega nele: **a alma é a barra menor em um terço das fichas**, e nas outras duas o corpo acaba antes. *A peça 24 §2.1 tem a medida sobre a grade inteira.* **Ligar o fim da janela ao estágio 4 destrava a máquina que já existia**, sem inventar estado novo nem contador novo — e é por essa porta que ele dispara para todo mundo, porque quem some pelo corpo passa por aqui.
 
 ### Duas coisas que a conta recusou
 

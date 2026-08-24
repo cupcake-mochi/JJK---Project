@@ -191,7 +191,7 @@ Cada entrada abre com o nome e diz **quando o `Estigma` age**: sempre ligado, na
 
 > **`Anátema`** — o contato dela anula técnica amaldiçoada.
 >
-> **`Cisão`** — o golpe dela causa dano de alma no lugar do dano de vida. Contra alvo de alma dura, você vai sentir falta do dano normal.
+> **`Cisão`** — o golpe dela atravessa o corpo: tira Integridade, e não tira vida nem vida máxima. É *dano direto na alma*, do capítulo 4, *Dano, Condições e Cobertura*. Contra alvo de alma dura, você vai sentir falta do dano normal.
 >
 > **`Insondável`** — enquanto a ponta dela estiver escondida, o alcance dela é **na cena**. As três faixas de alcance estão no capítulo 15, *Invocações*.
 >

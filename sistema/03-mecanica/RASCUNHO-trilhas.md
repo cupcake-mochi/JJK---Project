@@ -416,7 +416,7 @@ Toda entrega é fração de alguma coisa. **Se essa coisa não crescer no ritmo 
 
 | denominador | dono | cresce | contra a Rotina | deriva? |
 |---|---|---|---|---|
-| Integridade `20 + 8(nv−1)` | peça 1 | 9,00× | 1,08 | não |
+| Integridade `20 + (Ess+5)(nv−1)` | **peça 24** | `6,60×` a `10,94×` | `0,79` a `1,31` | **depende da Essência, desde a v0.145** — em Essência `3` é o `9,00×`/`1,08` de sempre |
 | **o número de entregas** | a Q2 | 8,00× | 0,96 | não |
 | Classe de feitiço | o manual | 7,00× | 0,84 | não |
 | ~~refino passivo~~ | peça 11 §2 | 8,00× | 0,96 | **proibido, e não é por derivar** |

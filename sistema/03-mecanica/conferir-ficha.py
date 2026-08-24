@@ -102,12 +102,13 @@ def const_js(nome):
         return int(expr)
     except ValueError:
         pass
-    # expressoes simples usadas no dados.js
-    ctx = {}
-    for k in ('NIVEL', 'MAESTRIA', 'REFINO', 'CLASSE'):
-        v = const_js_simples(k)
-        if v is not None:
-            ctx[k] = v
+    # expressoes simples usadas no dados.js. O ctx leva TODA constante inteira
+    # do arquivo — antes ele levava quatro escritas a mao, e uma constante nova
+    # que se apoiasse noutra devolvia None em silencio (v0.145).
+    ctx = {k: int(x) for k, x in re.findall(r'const (\w+)\s*=\s*(\d+);', DADOS)}
+
+    def val(tok):
+        return int(tok) if tok.isdigit() else ctx.get(tok)
     e = expr.replace('Math.floor', '//INT//')
     try:
         if '//INT//' in e:
@@ -120,9 +121,12 @@ def const_js(nome):
         m2 = re.match(r'(\d+) \* (\w+)', e)
         if m2:
             return int(m2.group(1)) * ctx.get(m2.group(2), 0)
-        m2 = re.match(r'(\d+) \+ (\d+) \* \((\w+) - (\d+)\)', e)
+        # `A + B * (NIVEL - 1)`, com A e B numero OU nome de outra constante
+        m2 = re.match(r'(\w+) \+ (\w+) \* \((\w+) - (\d+)\)', e)
         if m2:
-            return int(m2.group(1)) + int(m2.group(2)) * (ctx.get(m2.group(3), 0) - int(m2.group(4)))
+            a, b, nv = val(m2.group(1)), val(m2.group(2)), ctx.get(m2.group(3))
+            if None not in (a, b, nv):
+                return a + b * (nv - int(m2.group(4)))
     except Exception:
         return None
     return None
@@ -336,8 +340,10 @@ elif OFF_BLO is not None:
         print(f'  [x] a linha do Bloquear da ficha de exemplo e derivada: '
               f'Defesa {_d.group(1)} - {OFF_BLO} = +{_esperado}')
 
-m = re.search(r'Integridade\s*=\s*(\d+)', P8)
-checagens.append(('INTEGRIDADE', const_js('INTEGRIDADE'),
+# v0.145: a Integridade deixou de ser constante — ela leva Essencia (peca 24 SS2).
+# O que o gerador guarda e' a BASE do nivel 2, e o passo 7 imprime `N + Essencia`.
+m = re.search(r'Integridade\s*=\s*(\d+) \+ Essência', P8)
+checagens.append(('INTEGRIDADE_NV', const_js('INTEGRIDADE_NV'),
                   int(m.group(1)) if m else None, 'peca 8, passo 7'))
 
 # xp do proximo nivel, da peca 12
@@ -404,7 +410,8 @@ def texto_do_docx(caminho):
 
 esperados = [
     (f'10 + Des + {const_js("PROTECAO")}', 'a formula da Defesa com a protecao atual'),
-    (str(const_js('INTEGRIDADE')), 'a Integridade do nivel 2'),
+    (f"{const_js('INTEGRIDADE_NV')} + Essência",
+     'a CONTA da Integridade, e nao um numero — ela depende da Essencia'),
     (str(const_js_simples('XP_PROXIMO')), 'o XP do proximo nivel'),
 ]
 if DADO_BLO:

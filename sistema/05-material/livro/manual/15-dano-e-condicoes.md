@@ -71,13 +71,13 @@ Um não puxa o outro. Um feitiço com o Tema `Fogo` só causa dano do tipo `Fogo
 
 ### Dano na alma
 
-**Integridade é a vida da alma**, e a fórmula dela é `20 + 8 × (nível − 1)`, do capítulo 1, *Como Jogar*. Por exemplo, 6 de dano na alma tiram 6 de vida, 6 de Integridade, e derrubam a sua vida máxima em 6 até o próximo descanso longo.
+**Integridade é a vida da alma**, e a fórmula dela é `20 + (Essência + 5) × (nível − 1)`, do capítulo 1, *Como Jogar*. Por exemplo, 6 de dano na alma tiram 6 de vida, 6 de Integridade, e derrubam a sua vida máxima em 6 até o próximo descanso longo.
 
 > **Cada ponto de dano na alma tira 1 de vida, 1 de Integridade, e derruba a sua vida máxima em 1** até o próximo descanso longo.
 >
 > **Dano na alma entra cheio**, sem redução pela metade.
 >
-> Ao receber, faça um **Teste de Resistência de Integridade** contra a CD do atacante. Numa falha, você também avança um estágio na hora, mesmo que a fração ainda não tenha fechado.
+> Ao receber, faça um **Teste de Resistência de Espírito** contra a CD do atacante. Numa falha, você também avança um estágio na hora, mesmo que a fração ainda não tenha fechado.
 
 **Estágios de dano na alma**
 {: .tab-titulo }
@@ -92,6 +92,16 @@ Um não puxa o outro. Um feitiço com o Tema `Fogo` só causa dano do tipo `Fogo
 **Cura comum não devolve o que a alma perdeu.** Só descanso longo, ou a Melhoria `Remenda`, no capítulo 9, *Fundamento*. O descanso longo devolve toda a Integridade e a vida máxima, e limpa os estágios.
 
 **Nenhum feitiço passa de 2 × Classe em dados na alma.**
+
+#### Dano direto na alma
+
+Existe um dano na alma que não leva o corpo junto: ele tira Integridade e **só** Integridade.
+
+> **Dano na alma que atravessa não tira vida e não derruba a vida máxima.** Ele desconta da Integridade, e os estágios valem igual.
+
+Isso não é o padrão — é exceção, e ela precisa estar escrita no efeito. **Hoje existe uma:** o `Cisão`, no capítulo 14, *Ferramenta Amaldiçoada*.
+
+**Contra quem não é personagem jogador, a Integridade é a vida máxima dele.** Um inimigo não tem Caminho nem Constituição, então não tem por onde a fórmula acima passar — a alma dele é do tamanho do corpo. *Na prática: atravessar não é atalho de dano contra um chefe. O que ele ganha é passar por resistência e redução, e empurrar o alvo pelos quatro estágios.*
 
 ## Condições
 

@@ -56,7 +56,7 @@ Campos de escolha: nome, jogador, patente (começa Grau 4), Caminho, Trilha, Ori
 |---|---|
 | Vida | `(inicial do Caminho + Con) + (por nível do Caminho + Con) × (nível − 1)` |
 | Energia (PE) | `PE por nível do Caminho × nível` |
-| Integridade | `20 + 8 × (nível − 1)` |
+| Integridade | `20 + (Essência + 5) × (nível − 1)` |
 | Defesa | `10 + Destreza + proteção` |
 | Iniciativa | `d20 + Destreza` |
 | Deslocamento | `9 m` |

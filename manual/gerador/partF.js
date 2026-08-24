@@ -134,7 +134,7 @@ const mestre = [
   BOX(null, ['**Integridade = vida máxima.** É a vida da alma.']),
   GAP(100),
   BUL('Cada ponto de dano na alma tira 1 de vida, 1 de Integridade e derruba a sua vida máxima em 1, até o próximo descanso longo. Cura não devolve o que a alma perdeu: só descanso longo, ou a Melhoria **Remenda**.'),
-  BUL('Dano na alma entra cheio, sem redução pela metade. Ao receber, faça um **Teste de Resistência de Integridade** contra a CD do atacante: no fracasso, você também avança um estágio na hora, mesmo que a fração ainda não tenha fechado.'),
+  BUL('Dano na alma entra cheio, sem redução pela metade. Ao receber, faça um **Teste de Resistência de Espírito** contra a CD do atacante: no fracasso, você também avança um estágio na hora, mesmo que a fração ainda não tenha fechado.'),
   BUL('Nenhum feitiço passa de **2 × Classe** em dados na alma.'),
   BUL('Descanso longo devolve toda a Integridade e a vida máxima, e limpa os estágios.'),
   GAP(100),

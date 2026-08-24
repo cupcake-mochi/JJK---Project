@@ -93,7 +93,7 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **Atributo** | Cinco, de 0 a 6: Força, Destreza, Constituição, Inteligência, Essência. O número **é** o modificador | 1 |
 | **Pontos de vida** | O corpo. Vêm do Caminho mais a sua Constituição, a cada nível | 1 |
 | **Pontos de energia** (`PE`) | O combustível dos feitiços. PE por nível do Caminho × o seu nível. Numa ficha sem energia amaldiçoada a mesma sigla se lê **Pontos de Esforço**, e nenhuma regra pergunta qual das duas você tem | 1 |
-| **Integridade** | A vida da alma. `20 + 8 × (nível − 1)`, igual para todo mundo. Só volta com descanso longo | 1 |
+| **Integridade** | A vida da alma. `20 + (Essência + 5) × (nível − 1)`. Só volta com descanso longo | 1 |
 | **`Vida temporária`** | Anteparo, não vida. Gasta antes da vida real, não acumula, teto de metade da vida máxima, some no fim da cena | 1 |
 | **Proteção** | O que soma na Defesa: o uniforme que você veste, ou a energia com que você se cobre | 13 |
 | **Redução de Dano** | Desconto no dano que já passou pela Defesa. Não é a mesma coisa que proteção | 9 |
@@ -347,7 +347,7 @@ físico: as duas mãos precisam se tocar antes de qualquer feitiço sair.
 | | |
 |---|---|
 | **Vida** | 23 |
-| **Integridade** | 28 |
+| **Integridade** | 26 |
 | **PE** | 8 |
 | **Defesa** | 13 |
 | **Iniciativa** | `d20 + 2` |
@@ -666,9 +666,13 @@ Sem atributo e sem valor inicial: no nível 1 você tem o PE de um nível.
 
 ### Integridade
 
-> **Integridade = 20 + 8 × (nível − 1).** Plana, igual para todo mundo.
+> **Integridade = 20 + (Essência + 5) × (nível − 1).**
 
-Integridade é a sua alma, e a alma é igual para todo mundo: nem o Caminho nem a Constituição mexem nela. Dano de alma passa por cima de corpo duro. Por exemplo, no nível 2 a sua Integridade é 28, e no nível 10 ela é 92.
+Integridade é a sua alma. Nem o Caminho nem a Constituição mexem nela — dano de alma passa por cima de corpo duro. Quem manda no tamanho dela é a **Essência**, e é por isso que ela é a única reserva em que um corpo duro pode ser frágil.
+
+Toda ficha começa com os mesmos 20: você nasce com a alma que nasceu, e o que a Essência muda é o quanto ela cresce daí em diante.
+
+> **Exemplo.** Kaori tem Essência 1. No nível 2 a Integridade dela é `20 + 6 = 26`; no nível 10, `20 + 6 × 9 = 74`. Um Emanador de Essência 5 no nível 10 teria `110`.
 
 Dano de alma tem quatro estágios, e eles estão no capítulo 4, *Dano, Condições e Cobertura*, na seção *Dano na alma*. O quarto é o fim da linha: *"você não é mais você, e o que sobra é decisão do mestre"*.
 
@@ -1201,13 +1205,13 @@ Um não puxa o outro. Um feitiço com o Tema `Fogo` só causa dano do tipo `Fogo
 
 ### Dano na alma
 
-**Integridade é a vida da alma**, e a fórmula dela é `20 + 8 × (nível − 1)`, do capítulo 1, *Como Jogar*. Por exemplo, 6 de dano na alma tiram 6 de vida, 6 de Integridade, e derrubam a sua vida máxima em 6 até o próximo descanso longo.
+**Integridade é a vida da alma**, e a fórmula dela é `20 + (Essência + 5) × (nível − 1)`, do capítulo 1, *Como Jogar*. Por exemplo, 6 de dano na alma tiram 6 de vida, 6 de Integridade, e derrubam a sua vida máxima em 6 até o próximo descanso longo.
 
 > **Cada ponto de dano na alma tira 1 de vida, 1 de Integridade, e derruba a sua vida máxima em 1** até o próximo descanso longo.
 >
 > **Dano na alma entra cheio**, sem redução pela metade.
 >
-> Ao receber, faça um **Teste de Resistência de Integridade** contra a CD do atacante. Numa falha, você também avança um estágio na hora, mesmo que a fração ainda não tenha fechado.
+> Ao receber, faça um **Teste de Resistência de Espírito** contra a CD do atacante. Numa falha, você também avança um estágio na hora, mesmo que a fração ainda não tenha fechado.
 
 **Estágios de dano na alma**
 | Integridade perdida | Estágio | O que pega |
@@ -1220,6 +1224,16 @@ Um não puxa o outro. Um feitiço com o Tema `Fogo` só causa dano do tipo `Fogo
 **Cura comum não devolve o que a alma perdeu.** Só descanso longo, ou a Melhoria `Remenda`, no capítulo 9, *Fundamento*. O descanso longo devolve toda a Integridade e a vida máxima, e limpa os estágios.
 
 **Nenhum feitiço passa de 2 × Classe em dados na alma.**
+
+#### Dano na alma que atravessa o corpo
+
+Existe um dano na alma que não leva o corpo junto: ele tira Integridade e **só** Integridade.
+
+> **Dano na alma que atravessa não tira vida e não derruba a vida máxima.** Ele desconta da Integridade, e os estágios valem igual.
+
+Isso não é o padrão — é exceção, e ela precisa estar escrita no efeito. **Hoje existe uma:** o `Cisão`, no capítulo 14, *Ferramenta Amaldiçoada*.
+
+**Contra quem não é personagem jogador, a Integridade é a vida máxima dele.** Um inimigo não tem Caminho nem Constituição, então não tem por onde a fórmula acima passar — a alma dele é do tamanho do corpo. *Na prática: atravessar não é atalho de dano contra um chefe. O que ele ganha é passar por resistência e redução, e empurrar o alvo pelos quatro estágios.*
 
 ## Condições
 
@@ -1783,7 +1797,7 @@ Nada aqui é escolha. Você copia da tabela e faz a conta.
 | Maestria | 1 |
 | Refino | 1 |
 | Pontos de vida | (vida inicial do Caminho + Constituição) + (vida por nível do Caminho + Constituição) |
-| Integridade | 28 |
+| Integridade | 25 + Essência |
 | Pontos de Energia | PE por nível do Caminho × 2 |
 | Defesa | 10 + Destreza + 1 |
 | Iniciativa | d20 + Destreza |
@@ -1859,7 +1873,7 @@ Força 3 · Constituição 2 · Destreza 2 · Inteligência 1 · Essência 1. No
 | | Conta | Resultado |
 |---|---|---|
 | Vida | (12 + 2) + (7 + 2) | **23** |
-| Integridade | fixa | **28** |
+| Integridade | 25 + 1 | **26** |
 | PE | 4 × 2 | **8** |
 | Defesa | 10 + 2 + 1 | **13** |
 | Iniciativa | d20 + 2 | |
@@ -5782,7 +5796,7 @@ Cada entrada abre com o nome e diz **quando o `Estigma` age**: sempre ligado, na
 
 > **`Anátema`** — o contato dela anula técnica amaldiçoada.
 >
-> **`Cisão`** — o golpe dela causa dano de alma no lugar do dano de vida. Contra alvo de alma dura, você vai sentir falta do dano normal.
+> **`Cisão`** — o golpe dela atravessa o corpo: tira Integridade, e não tira vida nem vida máxima. É o *dano na alma que atravessa*, do capítulo 4, *Dano, Condições e Cobertura*. Contra alvo de alma dura, você vai sentir falta do dano normal.
 >
 > **`Insondável`** — enquanto a ponta dela estiver escondida, o alcance dela é **na cena**. As três faixas de alcance estão no capítulo 15, *Invocações*.
 >

@@ -236,13 +236,17 @@ A régua é a das Classes da **peça 11 §4**, e o degrau de cada entrada foi de
 | `Estigma` | o que faz | de onde veio |
 |---|---|---|
 | **`Anátema`** | **o contato anula técnica amaldiçoada** | a Lança Invertida do Céu |
-| **`Cisão`** | o golpe dela **causa dano de alma no lugar do dano de vida** | a Katana de Alma Partida |
+| **`Cisão`** | o golpe dela **atravessa o corpo — tira Integridade, e não tira vida nem vida máxima** | a Katana de Alma Partida |
 | **`Insondável`** | enquanto a ponta dela estiver escondida, o alcance dela é **na cena** | a Corrente de Mil Milhas |
 | **`Contrapeso`** | ela **ignora o requisito de Força** da arma | a Nuvem Divertida, que qualquer um empunha |
 
 > **O `Cisão` é Classe 3 e não Classe 2, e a obra é quem manda.** A Katana de Alma Partida não faz uma coisa uma vez por cena — **ela corta a alma, sempre**, e é isso que ela é.
 >
-> **E permanente aqui não é upgrade, o que é o que faz ele caber.** A Integridade é `20 + 8 × (nível − 1)` e não tem Caminho nem Constituição dentro. **Trocar dano de vida por dano de alma é pior contra quatro dos cinco Caminhos e melhor contra um** — é troca, não escada. *É literalmente o que "muda como você joga" quer dizer.*
+> **E permanente aqui não é upgrade, o que é o que faz ele caber.** *A Integridade é `20 + (Essência + 5) × (nível − 1)`, da peça 24 §2, e não tem Caminho nem Constituição dentro.* **Bater na alma em vez do corpo é pior contra dois terços das fichas e melhor contra um terço** — é troca, não escada. *É literalmente o que "muda como você joga" quer dizer.*
+>
+> **⚠⚠ Este `Estigma` é a ÚNICA exceção do sistema ao acoplamento do §3.1 da peça 24**, e até a v0.145 ele contradizia o capítulo 15 do livro sem que ninguém acusasse: *a regra geral diz que dano de alma tira vida junto, e esta linha diz que ele substitui a vida.* **Os dois estavam publicados no mesmo PDF.** *A obra decidiu a favor desta linha — a Katana de Alma Partida atravessa dureza física e reforço de energia amaldiçoada —, e a peça 24 §3.2 escreveu a distinção que faltava.*
+>
+> ***E o preço não se moveu, porque ele sempre foi escrito para esta leitura.*** *Medido nos quatro arquétipos e no chefe do nível 30: a exceção **nunca** mata mais rápido que a leitura acoplada, porque aquela pega a menor das duas barras e esta pega só a alma.* **Consertar o vocabulário enfraquece o `Cisão`, e é isso que devolve o "é troca, não escada" que este parágrafo já afirmava.**
 
 *O `Insondável` usa as três faixas de alcance que a peça 15 fixou — **no combate · na cena · fora da cena** —, em vez de criar metragem própria. **Um número, um dono.***
 

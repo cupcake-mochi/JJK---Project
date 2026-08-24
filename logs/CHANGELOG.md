@@ -8,6 +8,136 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.145] — 24/08/2026
+
+**A máquina de alma virou a peça 24, e ela não foi escrita: foi RECOLHIDA.** ***Palavras dele:*** *"começando por 'dano de alma com essência na integridade' temos de validar toda mecânica de alma."*
+
+*A Integridade está em toda ficha desde o nível 1 e os quatro estágios estão publicados desde a v7.0 do manual. O que não existia era **dono da régua** — e o preço disso foram três contradições publicadas, duas delas dentro do mesmo PDF.*
+
+### A máquina estava partida em cinco, e o pedaço do meio ninguém citava
+
+| pedaço | dono até a v0.144 |
+|---|---|
+| a fórmula | peça 1 §5.1 |
+| os quatro estágios | **o manual** — peça nenhuma |
+| **o acoplamento com a vida** | **o manual**, e *nenhum documento do projeto repetia essa linha* |
+| o tipo `Alma` | peça 19 §4 |
+| a recuperação | peça 10 §2 |
+
+**O quinto pedaço é o que decide tudo** — *"cada ponto de dano na alma tira 1 de vida, 1 de Integridade e derruba a vida máxima em 1"* — **e duas peças foram escritas supondo o contrário dele.**
+
+### ⚠⚠ O manual mandava rolar um Teste de Resistência que não existe
+
+**Ele nomeava a própria Integridade como se ela fosse um dos Testes de Resistência**, e o livro publicava isso no capítulo 15. *Este sistema tem quatro, e a Integridade é reserva — reserva não é modificador.*
+
+***A decisão que resolve isso é da v0.7:*** *o dano de alma força o TR de Espírito, e a Integridade volta a ser só reserva.* **Cento e trinta e sete versões registrada e nunca aplicada em lugar nenhum.**
+
+> **O `conferir-manual.py` não pegava, e o motivo é fino:** *ele casa `Teste de Resistência de <atributo>`, e `Integridade` é palavra conhecida daqui.* **Uma composição de duas palavras válidas passa por baixo de um validador de vocabulário.**
+>
+> *O nome morto **não** foi repetido em lugar nenhum, nem entre aspas.* **A checagem 6 varre o projeto e o gerador atrás dele**, e é a convenção que a v0.143 pagou para escrever: um `grep` não distingue citação histórica de afirmação viva. **Manual na v7.13.**
+
+### ⚠⚠ O `Cisão` e o capítulo 15 diziam o oposto um do outro, no mesmo PDF
+
+*A peça 16 §4 escreve que o golpe dele causa dano de alma **no lugar do** dano de vida, e o livro completa: "contra alvo de alma dura, você vai sentir falta do dano normal".* **Pela regra do manual isso nunca foi troca** — era o mesmo dano de vida, mais a Integridade, mais a vida máxima. *O argumento preçado daquela peça, "é troca, não escada", estava montado na leitura que o manual nega.*
+
+***A obra decidiu, e a favor do `Cisão`.*** *A Katana de Alma Partida atravessa dureza física e reforço de energia amaldiçoada e bate direto na alma; e o ferimento dela não fecha com Energia Reversa a menos que o alvo enxergue os contornos da própria alma.* **O manual já acertava essa segunda metade — `Cura` não devolve o que a alma perdeu —, e vale registrar que acertava.**
+
+> ***Decisão do Mizuki: vira exceção declarada.*** **O §3.2 escreve a distinção que faltava**, e o vocabulário veio do GURPS 4e, que escreve a mesma coisa com todas as letras para os Pontos de Fadiga: *alguns ataques causam dano em PF **"em vez, ou além"** de PV.*
+>
+> ***E o preço não se moveu, porque ele sempre foi escrito para esta leitura.*** *Medido nos quatro arquétipos e no chefe do nível 30: a exceção **nunca** é mais rápida que a regra acoplada — aquela pega a menor das duas barras e esta pega só a alma.* **Consertar o vocabulário ENFRAQUECE o `Cisão`, e é isso que devolve o "é troca, não escada" que a peça já afirmava.**
+
+### E o inimigo não tinha Integridade em lugar nenhum
+
+**Ninguém escreveu, em peça nenhuma.** *Hoje isso não mordia, porque dano de alma tira vida junto — o efeito funciona pela vida mesmo sem a segunda barra existir.* **Com a exceção, o `Cisão` ficaria sem alvo contra inimigo**, que é a mesma forma do item aberto da peça 23 §9 sobre a Reação.
+
+> **A saída não é número novo: é a linha que o manual sempre teve.** *"Integridade = vida máxima" foi substituída pela peça 1 **para o personagem**, porque personagem tem Caminho e Constituição.* **Inimigo não tem nenhum dos dois, então o motivo da substituição não o alcança e a regra original continua valendo para ele.**
+>
+> *Com ela, o `Cisão` contra o chefe do nível 30 é exatamente `1,0×` a velocidade de bater normal.* **O que ele ganha são as outras duas coisas, e as duas são canon:** atravessar resistência e redução, e empurrar o chefe pelos quatro estágios. *O estágio 3 dá desvantagem nos ataques dele.*
+
+### A fórmula, e a conta escolheu sozinha entre quatro
+
+> ### `Integridade = 20 + (Essência + 5) × (nível − 1)`
+
+**O `8` do manual se abre em `5 + 3`, e o `3` não é escolha: é o meio da escala `0–6` da peça 2 §1.** ***Com Essência 3 esta fórmula É a fórmula publicada, em todo nível, sem uma unidade de diferença.***
+
+| forma | nv30, Ess `0 · 3 · 6` | estágio 4 dispara | veredito |
+|---|---|---|---|
+| **`20 + (Ess+5)(nv−1)`** | `165 · 252 · 339` | **33,3%** | **fica** |
+| `20 + (Ess+8)(nv−1)` | `252 · 339 · 426` | `10,7%` | **reprova** — só sobe, e mata o estágio 4 |
+| `(20+Ess) + (Ess+5)(nv−1)` | `165 · 255 · 345` | `31,4%` | perde: não reproduz a curva publicada em nível nenhum |
+| `20 + 8(nv−1) + 8×Ess` | `252 · 276 · 300` | `19,2%` | **reprova** — `2,7×` no nível 2 e `1,19×` no 30: domina cedo e some tarde |
+
+*A grade é `5` Caminhos × Con `0–6` × Ess `0–6` em quatro níveis — `980` fichas.* **A escolhida move a taxa em `0,3` ponto percentual: ela não muda quanto o estágio 4 acontece, muda COM QUEM.**
+
+> **O `20` fica plano de propósito.** *A Constituição entra na vida em dois lugares e a Essência entra num só — `+30` contra `+29` no nível 30.* **A diferença de um ponto na campanha inteira é a vida inicial, que a alma não tem: um Caminho é treino, e ninguém treina a alma com que nasceu.**
+
+**E o cruzamento que a peça 1 prometia desde a v0.70 aconteceu:** *o Bastião de Essência `0` vai de `252` para `165` de alma contra `395` de corpo; o Emanador de Essência `6` vai para `339` contra `122`.*
+
+> **⚠ O preço é real e simétrico.** *No nível 30 o degrau 2 chega com `82` de dano de alma em vez de `126` para quem tem Essência `0` — **`−34,5%`**, ou `2,7` acertos de `Sete Palmos` em vez de `4,1`.* **Quem paga é o conjurador de Essência baixa, e ele existe: a v0.117 pôs o atributo da técnica na criação, e a ficha da peça 8 conjura com Força.** *Essência `6` chega `+34,5%` mais tarde.*
+>
+> **⚠ E o `conferir-orcamento.py` NÃO lê essa fórmula, nem antes nem depois.** *A checagem 4 dele modela "você está no degrau 2" e mede o bolso dali.* **O acoplamento é de desenho e não de validador** — o `PROMPT` anunciava o contrário, e vale saber qual é antes de escolher o tamanho da mudança.
+
+### ⚠ E "a alma é maior que o corpo em quatro dos cinco Caminhos" era uma frase de Constituição 3
+
+*Ela estava na peça 1, no `ESTADO-ATUAL` e na lista de playtest.* **A variável nunca foi o Caminho:** com Con `0` o estágio 4 não disparava em Caminho nenhum, e com Con `6` disparava nos cinco a partir do nível 10. *A medida tinha sido feita na coluna de Con `3` e a conclusão saiu dela sem o "em Con 3" junto.*
+
+### ⚠⚠ Uma checagem do `conferir-atributos.py` comparava uma constante consigo mesma
+
+**`integridade(nv)` e `vida_manual(nv)` eram a MESMA expressão literal**, e a checagem 8 daquele validador comparava as duas. *Ela não conseguia falhar — em nenhuma perturbação, desde a v0.17.* **Hoje cada uma lê do SEU dono, que são arquivos diferentes:** a fórmula vem da peça 24 e a curva original vem do `partF.js` do manual.
+
+### O `recuperar Integridade` da peça 5 NÃO voltou, e isso foi medido
+
+*Aquela peça carregava, desde a v0.70, um bilhete dizendo que a linha "pode voltar a valer quando a Essência entrar na Integridade".* **Ela não volta:** *a alma é a barra menor em `33,3%` da grade contra `33,6%` antes — a fração não se moveu.* **A entrega continua valendo `0,00` para dois terços dos alvos**, que é a mesma família que matou o `recuperar ferimento` e a Passiva `Casca`. *O bilhete foi corrigido em vez de continuar prometendo uma reabertura que a conta não sustenta.*
+
+### O arnês, e ele achou dois defeitos meus
+
+**Cópia isolada, base conferida verde antes de cada perturbação, `diff` conferido.** *20 perturbações acendendo a checagem dona e 3 contra-testes verdes.*
+
+> **⚠ A checagem 2 estava lendo a descrição de si mesma.** *Ela procurava a frase "meio da escala" no arquivo inteiro, e a tabela do §7 — que é a lista das checagens — carrega uma cópia dela.* **Apagar a declaração do §2 saía VERDE.** *Hoje ela recorta o §2 e procura só lá.*
+>
+> **⚠⚠ E a checagem 8 nasceu VAZIA — descoberta por ausência.** *Nenhuma perturbação conseguia acender ela, e o motivo é que ela comparava `min(vida, alma)` com `alma`:* **`alma ≥ min(vida, alma)` é verdade em aritmética, não em regra.** *Lição nº 8 na forma mais pura.* **Reescrita: o que sustenta o preço do `Cisão` não é aquela desigualdade — é o §3.1 acoplar as três barras.** *Se ele parar, "atravessar" vira o que todo mundo faz e a distinção some.*
+>
+> **Os dois contra-testes que importam falharam na primeira montagem, e eles é que estavam errados:** *eu mudei a fórmula e deixei a ficha de exemplo publicando o número velho.* **Contra-teste pela metade acusa o validador de um defeito que é do teste.**
+
+### ⚠ E um defeito de método que vale para quem editar por script neste mount
+
+**Eu truncei o `partA.js` do gerador do manual**, com `open(p,'w').write(open(p).read()...)` numa linha só: *o Python abre o arquivo para escrita — e zera ele — antes de avaliar a leitura de dentro.* **Restaurado byte a byte do worktree, que está no mesmo commit, e conferido por `md5sum`.** *Ler para uma variável ANTES de abrir para escrita, sempre.*
+
+### Levantamento externo — quatro sistemas com segunda barra
+
+| sistema | a barra | tamanho vem de | acoplamento com o corpo |
+|---|---|---|---|
+| **GURPS 4e**, p. 16 e 328 | Pontos de Fadiga | **um atributo (HT)** | *"em vez, ou além"* de PV; a perda de PV só liga em `0 PF` |
+| **Call of Cthulhu 7e** | Sanity | POW, teto `99 − Mythos` | nenhum — e o que cai de vez é o **teto** |
+| **D&D 5e, Guia do Mestre** | Sanidade *(opcional)* | **um sexto atributo**, com TR próprio | nenhum — a loucura corrói o valor em `1` |
+| **D&D 5e 2024** | Exaustão | nada: contador `0` a `6` | nenhum — pega d20 e deslocamento |
+
+**O GURPS decidiu duas coisas desta peça.** *Um atributo dimensionar a reserva **e** ser o que se rola por ela é a forma padrão e não acúmulo — é o que a Constituição já faz com a vida e o TR Vigor.* **E os outros três resolveram diferente do que esta peça faz:** *nos três a segunda barra não toca o corpo.* **Aqui ela toca, e a razão não é de sistema: é que na obra a alma vem antes do corpo.**
+
+### Medido depois
+
+| | v0.144 | v0.145 |
+|---|---|---|
+| peças de regra · validadores | 23 · 23 | **24 · 24** |
+| checagens | 240 | **251** |
+| manual do Fundamento | v7.12 | **v7.13** |
+| palavras do livro | 69.832 | **70.057** |
+| coluna única | 237 páginas | **239** |
+| duas colunas | 139 páginas | **139** |
+| tabelas do livro | 182 | **182** |
+| caixas `.aviso` | 16 | **16** |
+| `conferir-voz --estrito` | 0 achados · 10 triagens | **0 achados · 11 triagens** |
+
+*Os 24 validadores verdes com `PULADA = 0`, o `conferir-repositorio.py`, os dois de `manual/matematica/` e os quatro builds.* **O `.pdf` do manual continua com 49 páginas** — trocar uma palavra não mexeu na paginação.
+
+*`guard_numeros.py` nos seis capítulos mexidos, com cada diferença lida contra a linha que a carregava.* **As de `28 → 26` são a ficha da Kaori, que tem Essência `1`; as de `8 → 5` são a fórmula trocando de forma; e as duas que ENTRARAM são ponteiros de capítulo** — o `4` no capítulo 14 e o `14` no capítulo 4, que passaram a se citar.
+
+> **⚠ Um título novo reprovou no `conferir-voz`, e a régua estava certa.** *`Dano na alma que atravessa o corpo` é frase e não nome — o validador reprova qualquer título com "que".* **Virou `Dano direto na alma`**, sem batizar nada: a triagem já devolvia `Alma` como dentro de `Toca a Alma` e `Integridade` como termo do manual, *e uma peça que recolhe não deve nomear nada de novo.*
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **Sobraram os dois rascunhos e as cinco marcas do livro** — *e a peça 24 §8 abriu três itens, dos quais o mais concreto é a coluna de Integridade na tabela de inimigo do manual, que é irmã da Reação que a peça 23 pediu.*
+
+---
+
 ## [0.144] — 24/08/2026
 
 **As duas marcas simples do livro fecharam, e a segunda mudou de tamanho no meio da conta.** ***Decisão do Mizuki:*** *"vamos pelas simples"* — sintonizar uma ferramenta, e o limite de uso do `Estigma` `Avulsa`.

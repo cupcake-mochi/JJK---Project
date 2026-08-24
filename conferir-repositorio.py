@@ -733,9 +733,15 @@ else:
     # matematica, la mora a impressao. Conferidas uma a uma: as duas sao "nome
     # de validador", a primeira das duas familias declaradas la em cima.
     # Validador NUNCA vai para a entrega, entao citar um sempre cai na branca —
-    # e' por isso que toda peca nova empurra este teto. O teto vai a 133, mesma
-    # folga de cinco.
-    PISO_CITACOES, TETO_BRANCOS = 120, 133
+    # e' por isso que toda peca nova empurra este teto.
+    #
+    # v0.145: a peca 24 entrou citando SEIS validadores — conferir-alma.py duas
+    # vezes (o cabecalho e a tabela do SS7), conferir-orcamento.py duas (o SS2.4,
+    # que mede o degrau 2, e o aviso de que ele nao le a formula), mais o
+    # conferir-atributos.py e o conferir-manual.py uma vez cada. Conferidas uma a
+    # uma: as seis sao "nome de validador", a primeira das duas familias declaradas
+    # la em cima. O teto vai a 140, mesma folga de cinco sobre as 135 de hoje.
+    PISO_CITACOES, TETO_BRANCOS = 120, 140
     if vistos_e < PISO_CITACOES:
         erro(f'7.2: achei so {vistos_e} citacoes na entrega, e o piso e {PISO_CITACOES} — '
              f'o extrator mudou de forma e esta checagem parou de conferir')

@@ -1,4 +1,4 @@
-GERADOR DO MANUAL — Fundamento v7.12
+GERADOR DO MANUAL — Fundamento v7.13
 
 Recria o .docx do zero. Precisa de Node.js.
 
@@ -31,6 +31,21 @@ ORDEM DAS SEÇÕES (v7)
   4 Restrições → 5 Fora de combate → 6 Liberação Máxima → 7 Técnica Máxima →
   8 Regras de ouro → 9 Progressão → 10 Feitiços prontos → 11 Para o mestre →
   Apêndice
+
+O QUE MUDOU NA v7.13
+
+  A secao 11 mandava rolar um Teste de Resistencia com o nome da propria
+  Integridade, e esse Teste de Resistencia nao existe: o projeto tem quatro
+  (Fisico, Vigor, Intelecto, Espirito) e a Integridade e reserva, nao
+  modificador. Passa a ser o Teste de Resistencia de ESPIRITO.
+
+  A decisao e da v0.7 do projeto e ficou 137 versoes registrada sem ser
+  aplicada. A peca 24 (`Dano de alma e Integridade`) e a dona da maquina
+  inteira desde a v0.145, e o `conferir-alma.py` varre o projeto e o gerador
+  atras do nome morto.
+
+  Nenhum numero mudou. O pac7.py e o v7.py passam sem alteracao.
+
 
 O QUE MUDOU NA v7.12
   - A CONDICAO "PETRIFICADO" SAIU (partD.js). A tabela de nivel Pesada foi de
