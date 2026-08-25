@@ -161,6 +161,9 @@ O recorte foi o que o pedido dava: **336 linhas que entraram depois da v0.137** 
 |---|---|---|
 | peças de regra · validadores · checagens | 24 · 24 · 251 | iguais |
 | entradas do catálogo · Manhas | 90 · 14 | iguais |
+| palavras do livro | 70.590 | **70.771** |
+| coluna única | 242 páginas | **243** |
+| duas colunas | 139 páginas | **141** |
 | tabelas do livro | 181 | **181** |
 | termos que passam o corte de destino | 89 | **91** |
 | termos sem destino | 0 | **0** |
@@ -169,9 +172,11 @@ O recorte foi o que o pedido dava: **336 linhas que entraram depois da v0.137** 
 | ponteiros por posição no livro | **14** | **0** |
 | validadores que não parseiam em 3.11 | **1** | **0** |
 
-> **⚠⚠ PALAVRAS E PÁGINAS FICARAM POR MEDIR, e o motivo é que os quatro builds não rodaram.** *A máquina em que esta passada foi feita não tem `weasyprint` nem as quatro fontes do projeto, e sem elas o WeasyPrint cai para substituta e a diagramação sai errada **sem avisar**.*
+> **As três medidas de cima saíram do build do Mizuki, e não desta passada.** *A máquina em que o texto foi lido não tem `weasyprint` nem as quatro fontes do projeto, e sem elas a diagramação sai errada **sem avisar** — então os quatro builds ficaram para ele.* **A contagem de palavras é a do `build_txt.py`, sem o rodapé da impressão digital**, que é a correção da v0.146.
 >
-> **Rodar só o `build_txt.py` seria pior que não rodar nenhum:** *ele grava o `sha1` da fonte no `TEXTO.md`, e a checagem 7.5 ficaria VERDE com os dois PDFs ainda na v0.147.* **A checagem acende até os quatro rodarem, e é ela fazendo o trabalho para o qual a v0.146 escreveu ela.**
+> *Rodar só o `build_txt.py` teria sido pior que não rodar nenhum:* **ele grava o `sha1` da fonte, e a checagem 7.5 ficaria VERDE com os dois PDFs ainda na v0.147.** *A checagem acendeu, e foi ela que segurou.*
+
+> **O livro cresceu `181` palavras numa passada de corte, e isso não é contradição.** *Saíram o `Na obra:` do `Bocado`, o parágrafo de tempo de mesa do `Bloquear` e os três blocos repetidos do `Criar o seu Legado`.* **Entraram a metade que faltava do par simétrico, a linha da `Versado`, as duas linhas da substituição `Classe`/`Kata`, três entradas de vocabulário e catorze ponteiros que passaram a nomear a tabela em vez de apontar para ela.** *Ponteiro por nome é mais comprido que "a tabela acima", e é esse o preço que ele cobra.*
 
 *`guard_numeros.py` em todos os arquivos mexidos, com cada diferença lida contra a linha que a carregava.* **Onze dos treze capítulos saíram com a notação de número IDÊNTICA** — *as diferenças que existiram são todas de linha nova nomeando tabela, de exemplo movido de aptidão, ou de linha de vocabulário.*
 
