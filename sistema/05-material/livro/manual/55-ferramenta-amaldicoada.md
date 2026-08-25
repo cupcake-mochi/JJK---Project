@@ -6,6 +6,8 @@
 >
 > **Uma ferramenta que você não sintonizou é arma comum, e nada mais.**
 
+**Objeto de apoio** é a ferramenta que você carrega sem empunhar: um anel, um cordão, uma peça costurada no forro do casaco.
+
 Quem conjura fere maldição de graça, pelo feitiço de Toque. Quem não conjura só fere com ferramenta na mão.
 
 ## Sintonizar
@@ -147,7 +149,7 @@ Uma ferramenta de grau 1 com `Desgaste` dura **três missões** de uso antes de 
 
 > **A arma tem teto pelas mãos. O apoio tem teto de dois.**
 
-**Objeto de apoio** é a ferramenta que você carrega sem empunhar: um anel, um cordão, uma peça costurada no forro do casaco. A lista do que conta como apoio e o preço dele estão sendo escritos; o teto de dois já vale desde agora.
+A lista do que conta como apoio e o preço dele estão sendo escritos; o teto de dois já vale desde agora.
 
 **Teto de `Estigma`**
 {: .tab-titulo }

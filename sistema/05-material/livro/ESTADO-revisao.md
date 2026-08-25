@@ -1,5 +1,35 @@
 # Estado da revisão · Manual da Guilda
 
+## Sétima passada — v0.148, 25/08/2026
+
+**Pedida com o livro já fechado**, e o recorte era o que o pedido dava: *"novos textos foram adicionados sem revisão"*. **336 linhas que entraram depois da v0.137**, em 19 dos 20 arquivos.
+
+**Dezoito achados, e nenhum saiu de validador.** *O `conferir-voz --estrito` estava em `0` achados, `7` marcas contra um dono que diz `7`, `0` termos sem destino; os 24 de `03-mecanica/` verdes com `PULADA = 0`.* **A medida escolheu onde olhar e não achou nada — os dezoito saíram de ler**, que é o que o passo 2 do `METODO-passada-de-texto.md` diz e o que continua sendo verdade na sétima vez.
+
+### As três famílias desta passada
+
+**A enumeração fechada que um item novo quebrou.** *A caixa de Teste de Resistência das Manhas listava as sete que não pedem, e a `Versado` entrou quarenta linhas abaixo, na mesma versão.* **A frase virou mentira sem ninguém mexer nela — só porque a lista ao lado cresceu.**
+
+**A regra que existe e não alcança o capítulo certo.** *O capítulo 10 dizia "onde o capítulo 9 escreve feitiço, leia `Kata`", e os degraus de Trilha são o capítulo 8.* **A substituição nunca chegou lá**, e era isso que deixava a `Brasa` sem resposta numa ficha sem energia.
+
+**O segundo dono que nasce divergente.** *O `Criar o seu Legado` reexplicou os três formatos de Legado no fim do capítulo em que eles já estavam explicados no começo — e as duas cópias já discordavam em cinco pontos no commit que criou a segunda.* **A lição nº 9 sem precisar do "quando".**
+
+### O que o validador não podia pegar, e por quê
+
+**Duas coisas ficaram claras ao consertar, e as duas são de código.**
+
+O `TABELA-VAGA` tinha **dois furos ao mesmo tempo**: três ponteiros estavam dentro de linha de tabela e o laço fazia `continue` antes da checagem; oito escreviam `na tabela` ou `nas tabelas`, e a expressão procurava `\ba tabela\b`. **Alargado e movido, ele achou três que a leitura não achou** — um deles apontava por *página*.
+
+E a checagem 13 do `conferir-ferramenta.py` **exigia uma frase que uma decisão de trinta e uma versões atrás tinha aposentado**. *Consertar a peça fazia o validador acender, e por isso ninguém consertou.* **Reescrita para ler a linha da regra e proibir a frase morta de voltar** — e o contra-teste é o achado: com ela de volta, o validador antigo saía verde.
+
+### O que não mudou
+
+**Nenhum número de regra.** *`guard_numeros.py` em todos os arquivos mexidos, com cada diferença lida contra a linha que a carregava; onze dos treze capítulos saíram com a notação idêntica.*
+
+**E palavras e páginas ficaram por medir.** *Os quatro builds não rodaram: a máquina desta passada não tem `weasyprint` nem as quatro fontes do projeto.* **A checagem 7.5 acende até eles rodarem, e é para isso que ela existe.**
+
+---
+
 ## Leitura texto por texto — v0.129, 22/08/2026
 
 **Os 20 arquivos lidos inteiros, com os olhos, e não por regex.** *Motivo: o Mizuki leu o PDF publicado e achou três frases que a v0.125 e a v0.126 tinham deixado passar. As três eram amostra de três famílias, e as três famílias apareceram em **18 dos 20 capítulos**.*

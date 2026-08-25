@@ -510,22 +510,36 @@ cruzado.**
 
 ---
 
-## A fila do que sobrou — três, e nenhuma espera decisão
+## A fila fechou — as três últimas, e a que virou decisão
 
-1. **O `Na obra:` do `Bocado`** (§10) — ou as sete Passivas ganham um, ou esta perde o dela.
-2. **O `objeto de apoio` definido 147 linhas depois de ser usado** (§9) — a definição sobe, ou a
-   abertura ganha ponteiro.
-3. **A trava de volta no dano na arma**, se você quiser — precisa de um gancho novo.
+**O `Na obra:` do `Bocado` saiu.** *Forma da família Origem emprestada para uma entrada de catálogo, e só para uma das sete Passivas.* **A camada `O que guarda` já contava a mesma coisa** — *"é uma maldição pequena, presa a você, que engole o que você põe nela"* —, sem o nome próprio. **É uma linha para restaurar, se você quiser o Toji de volta.**
 
-> **E o §12 não é conserto, é aviso:** *o `Bocado` e a `Versado` mexem no mesmo botão, e numa
-> ficha que tem os dois a `Versado` fica valendo só o `+1`.* **Vale saber antes de precificar
-> qualquer uma das duas.**
+**O `objeto de apoio` ganhou estreia onde o termo aparece.** *Ele era usado na caixa de abertura do capítulo e na linha 21, e definido na 150.* **A definição subiu; a pendência do preço e da lista continua no `Teto de Estigma`, que é onde ela é operacional** — e a contagem de marcas não se moveu.
+
+**A trava do dano na arma não volta.** ***Decisão sua:*** *"não precisa ter a trava. Ambos não podem ser desligados mesmo, não é para desligar caso use uniforme."*
+
+### E o lado sem energia estava apontado errado também
+
+***Palavras suas:*** *"o `Defesa sem Armadura` também acabei apontando errado, o dano extra deveria estar no `Estímulo Muscular`, eu inverti tudo."*
+
+**Movido.** *Com isso o dano na arma passou a morar nas duas aptidões que o Mizuki pretendia desde o começo — `Canalizar energia` de um lado, `Estímulo Muscular` do outro —, e nenhuma das duas tem estado de ligado e desligado.* **Traje e Revestimento continuam desligando só a proteção, e agora a frase que diz isso está certa.**
 
 ---
 
-## O que ainda falta para fechar versão
+## Fechado na v0.148
 
-- **Os quatro builds**, na sua máquina, com as fontes instaladas. *A checagem 7.5 vai acender
-  até lá, e é ela fazendo o trabalho para o qual a v0.146 escreveu ela.*
-- **A entrada do `CHANGELOG`**, que é a dona da versão.
-- **O `ESTADO-revisao.md`**, que é o registro desta pasta.
+**A entrada do `CHANGELOG` está escrita, e ela é a dona da versão.** *Os três documentos que publicam o número — `README`, `ESTADO-ATUAL` e `LEIA-ME` — subiram junto, e o `conferir-repositorio.py` confere isso.* **O `ESTADO-revisao.md` desta pasta ganhou a seção da sétima passada.**
+
+| | estado |
+|---|---|
+| achados | **18**, e `17` viraram conserto |
+| o décimo oitavo | a sobreposição `Bocado` × `Versado` — **aviso, não conserto** |
+| validadores de `03-mecanica` | 24 verdes, `PULADA = 0` |
+| `conferir-voz --estrito` | `0` achados · `0` sem destino · `7` marcas |
+| `manual/matematica` | os dois verdes |
+| ponteiros por posição | de `14` para `0` |
+| validadores que não parseiam em 3.11 | de `1` para `0` |
+
+> **⚠⚠ O QUE FALTA É SEU, E É UMA COISA SÓ: os quatro builds.** *`build.py`, `build.py --duas`, `build_docx.py`, `build_txt.py`, na sua máquina, com as fontes instaladas.* **A checagem 7.5 vai acender até lá.**
+
+> **E fica uma dívida escrita, sem prazo:** *o dano na arma não tem peça, não tem validador e não tem conta rodada.* **É o único dado do sistema nessa situação.**

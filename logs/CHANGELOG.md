@@ -8,6 +8,121 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.148] — 25/08/2026
+
+**A sétima passada de texto, e ela foi pedida com o livro já fechado:** *"novos textos foram adicionados sem revisão, acredito que vale a pena ter essa passada"*. **Dezoito achados. Nenhum saiu de validador** — o `conferir-voz --estrito` estava em `0`, os 24 de `03-mecanica/` verdes com `PULADA = 0`, as 251 checagens fechando. *É o passo 2 do `METODO-passada-de-texto.md` pela sétima vez seguida: a medida escolhe onde olhar, e ler é o que acha.*
+
+O recorte foi o que o pedido dava: **336 linhas que entraram depois da v0.137** em 19 dos 20 arquivos — o `Criar o seu Legado`, a `Versado`, a caixa de Teste de Resistência das Manhas e o dano na arma, todos da v0.147; mais o `Bloquear` que virou capítulo na v0.143 e as sete Passivas da v0.141.
+
+### ⚠⚠ A frase que a v0.116 matou estava viva em três lugares, e um deles era um validador
+
+**A peça 9 §5 ainda escrevia *"sem PE"* na linha da Restrição Celestial sem energia** — e o §5 do mesmo arquivo, três seções abaixo, diz o contrário com todas as letras: *"a coluna `por nível` do Caminho vem inteira, e ela continua se chamando `PE`"*. **O livro já estava certo. A fonte é que estava atrás.**
+
+> ***E é por isso que ela sobreviveu trinta e uma versões:*** **a checagem 13 do `conferir-ferramenta.py` EXIGIA a frase.** *Ela casava o literal `sem Fundamento, sem PE, sem (…), sem Sentir Energia`.* **Consertar a peça fazia o validador acender.**
+>
+> *Valor de regra escrito dentro do validador — a coisa que a lição nº 9 proíbe — segurando no lugar exatamente aquilo que uma decisão registrada tinha mandado tirar.* **"Decisão registrada não é decisão aplicada" ganhou o exemplar mais caro que este projeto tem.**
+
+**A checagem foi reescrita:** *ela lê a **linha da regra**, cobra os três itens que a rota realmente não tem, e **proíbe** a frase aposentada de voltar àquela linha.* **Arnês de três perturbações, e o contra-teste é o achado inteiro:** *a frase morta voltando acende no novo e **saía VERDE no antigo**.* As outras duas acendem nos dois, então nenhuma cobertura se perdeu.
+
+*A citação da peça 16 §201 também repetia a frase, e foi corrigida.* **A da linha 305 não:** *ali `sem PE` quer dizer "sintonizar não custa PE", que é fato vivo — a primeira versão da lista contou duas e são uma.*
+
+### O `Custo` do `Bloquear` publicava metade de um par simétrico
+
+**O capítulo 1 abria dizendo que a troca é neutra e fechava dizendo que ela cobra.** *"Um em cada doze golpes vai passar porque você rolou"* — número certo, `8,2%`, enumerado nas 2.000 combinações. **Mas ele é metade:** a peça 23 §7.1 escreve *"o tráfego é `16,5%`, dividido igual: `8,2%` salvou e `8,2%` traiu"*, e a checagem 3 do `conferir-bloquear.py` existe para falhar se os dois divergirem.
+
+> **E a frase não foi escrita para o jogador.** *Ela é cópia literal de uma seção chamada `O que medir no playtest`, cuja linha seguinte é instrução ao mestre.* **Material de mestre que atravessou levando o enquadramento junto.**
+
+**As duas metades entraram, e o parágrafo de tempo de mesa saiu.**
+
+### A trava do `Desliga` contradizia seis dos treze publicados
+
+***Decisão do Mizuki:*** *a trava estava errada.* **O `Criar o seu Legado` dizia *"ele só apaga o que ninguém comprou — nunca anula uma habilidade, um feitiço ou um item de outra ficha"*, e cinco dos treze são da forma "você não fica `<condição>`"** — condição é a coisa mais comprada do sistema. *O exemplar mais cru é o `Usado`, que apaga o `Derrubado` que a Manha `Abalo` entrega.*
+
+> **Ela virou `Ele nunca desliga a ficha de outra pessoa: o que ele apaga é o que chega em você`**, e foi escrita no `Como ler um Desliga`, que é a dona. **Conferido: os treze passam.**
+
+**E isso fechou o segundo dono junto.** *O `Criar o seu Legado` explicava os três formatos uma segunda vez, e as duas cópias já tinham divergido em cinco pontos no mesmo commit que criou a segunda.* **As duas linhas boas subiram para as donas — o `nunca decide o que outra pessoa faz` e o `carrega relógio sempre`, este conferido nas 40 entradas — e o `Criar` passou a apontar pelas três seções.**
+
+### Classe e Kata: a regra existia e não alcançava o capítulo certo
+
+***Achado do Mizuki:*** *"já que existem os dois agora, Katas seguem as mesmas regras que feitiços."* **A substituição já estava escrita** — capítulo 10, na entrada da `Kata`: *"Onde o capítulo 9 escreve feitiço, leia `Kata`."*
+
+> **O capítulo 9 é o Fundamento. Os degraus de Trilha são o capítulo 8.** *A substituição nunca os alcançou, e era por isso que a `Brasa` numa ficha sem energia não tinha resposta — e que a cláusula `Classe 0` da `Defesa sem Armadura` descrevia uma situação sem caso.*
+
+**Dois consertos e nenhuma reescrita de degrau:** *a regra do capítulo 10 passou a nomear os dois capítulos, e o capítulo 8 ganhou a linha que diz isso de dentro.* **Os vinte e cinco degraus continuam dizendo `feitiço`, e agora isso está certo** — reescrever os vinte e cinco criaria vinte e cinco lugares para divergir.
+
+### ⚠ E o exemplo daquela cláusula apontava para o degrau errado
+
+**Ela dizia *"como no nível 2 da `Brasa`, que põe um `Classe 0` junto do soco"*.** *O nível 2 é a `Fagulha`, e ela lança o `Classe 0` **na Ação Bônus**, separada do golpe — ela não põe nada junto de nada.* **Quem põe um `Classe 0` junto de cada ataque é a `Fornalha`, nível 27.**
+
+*A regra existia para um caso, e o exemplo dela citava um caso em que ela não acende.* **Trocado nos dois capítulos.**
+
+### O dano na arma estava nas duas aptidões erradas
+
+***Palavras dele:*** *"o dano extra das aptidões está no `Cobrir-se`, mova para o `Canalizar`… o `Defesa sem Armadura` também apontei errado, deveria estar no `Estímulo Muscular`, eu inverti tudo."*
+
+**Movido nos dois lados**, e **sem trava nenhum dos dois** — *decisão dele: "ambos não podem ser desligados mesmo, não é para desligar caso use uniforme".* *A condição antiga era "enquanto a proteção estiver de pé", e ela caía junto com Traje ou Revestimento; as duas casas novas não têm estado de ligado e desligado.*
+
+> **⚠ E fica registrado o buraco que apareceu ao mexer:** *este dano não tem peça e não tem validador.* **Ele mora só no livro, em dois capítulos, sem dono em `03-mecanica/`** — o único dado do sistema nessa situação. *Casa com o que a v0.147 já declarou: "futuramente a gente balanceia isso".*
+
+### O `TABELA-VAGA` tinha dois furos, e eles explicam os catorze ponteiros
+
+**A leitura achou onze ponteiros por posição.** *O `conferir-voz.py` lia `0`, e a causa está no código e não na saída:*
+
+- **Três estavam dentro de linha de tabela**, e o laço fazia `continue` em toda linha que começa com `|` **antes** de chegar na checagem.
+- **Oito escreviam `na tabela`, `pela tabela`, `nas tabelas` ou `o catálogo acima`**, e a expressão procurava `\ba tabela\b`.
+
+**Alargado e movido, ele achou TRÊS que a leitura não achou** — *um deles apontava por **página**: "o vocabulário do sistema, logo atrás desta página".* **Quatro perturbações, uma por furo, e as quatro saíam verdes no antigo.**
+
+### Adicionado
+
+- **`Brecha` no vocabulário**, ao lado do `Aparar`. *Os dois são os extremos da mesma rolagem e só um estava lá.*
+- **`Versado` no vocabulário** — *ela cruzou o corte de `5` usos por causa dos ponteiros novos.*
+- **`Brasa` no vocabulário** — *ela cruzou para três capítulos por causa do exemplo do nível 27, e o `conferir-voz` acusou no mesmo commit.*
+- **A linha da `Versado` na caixa de Teste de Resistência das Manhas.** *A enumeração fechada listava sete que não pedem, e a `Versado` era a oitava.* **Somar ela na lista dos sete teria criado outra mentira** — ela tem relógio próprio, e a frase diz que aquelas sete não têm.
+- **O ponteiro da `Escola de Arma` para a `Versado`**, que não existia em lugar nenhum.
+- **A estreia de `objeto de apoio`** onde o termo aparece pela primeira vez. *Ele era usado na linha 3 e definido na 150.*
+
+### Alterado
+
+- **A `Versado` abre pela âncora** e usa `Relógio.`, o rótulo das sete Passivas. *Ela abria pela regra.*
+- **O aviso do objeto de apoio nomeia a rota a que ele se aplica.** *Ele assustava o Corpo Amaldiçoado e a isenção dele vinha no parágrafo seguinte — a família "aviso escrito de trás para frente".*
+- **Catorze ponteiros por posição viraram ponteiro por nome.**
+- **O typo da `Natureza`**, aberto na v0.139: *"que vale enche"* → *"qual vale enche"*.
+
+### Removido
+
+- **O `Na obra:` do `Bocado`.** *Forma da família Origem emprestada para uma entrada de catálogo, e só para uma das sete Passivas.* **A camada `O que guarda` já contava a mesma coisa sem o nome próprio.**
+- **O parágrafo de tempo de mesa do `Custo` do `Bloquear`.**
+
+### Decidido
+
+- **O `conferir-bloquear.py` parseia em Python 3.11.** *Aspa simples dentro de f-string, que a PEP 701 só liberou no 3.12 — o único dos 48 `.py` do repositório.* **Rodava na máquina do Mizuki e não rodava na de mais ninguém com 3.11.**
+- **Os vinte e cinco degraus de Trilha não serão reescritos.** *Uma dona só para a substituição, em vez de vinte e cinco cópias.*
+
+### Medido depois
+
+| | v0.147 | v0.148 |
+|---|---|---|
+| peças de regra · validadores · checagens | 24 · 24 · 251 | iguais |
+| entradas do catálogo · Manhas | 90 · 14 | iguais |
+| tabelas do livro | 181 | **181** |
+| termos que passam o corte de destino | 89 | **91** |
+| termos sem destino | 0 | **0** |
+| marcas de "ainda não existe" | 7 | **7** |
+| `conferir-voz --estrito` | 0 achados · 11 triagens | **0 achados · 11 triagens** |
+| ponteiros por posição no livro | **14** | **0** |
+| validadores que não parseiam em 3.11 | **1** | **0** |
+
+> **⚠⚠ PALAVRAS E PÁGINAS FICARAM POR MEDIR, e o motivo é que os quatro builds não rodaram.** *A máquina em que esta passada foi feita não tem `weasyprint` nem as quatro fontes do projeto, e sem elas o WeasyPrint cai para substituta e a diagramação sai errada **sem avisar**.*
+>
+> **Rodar só o `build_txt.py` seria pior que não rodar nenhum:** *ele grava o `sha1` da fonte no `TEXTO.md`, e a checagem 7.5 ficaria VERDE com os dois PDFs ainda na v0.147.* **A checagem acende até os quatro rodarem, e é ela fazendo o trabalho para o qual a v0.146 escreveu ela.**
+
+*`guard_numeros.py` em todos os arquivos mexidos, com cada diferença lida contra a linha que a carregava.* **Onze dos treze capítulos saíram com a notação de número IDÊNTICA** — *as diferenças que existiram são todas de linha nova nomeando tabela, de exemplo movido de aptidão, ou de linha de vocabulário.*
+
+→ **Continua em** `sistema/05-material/livro/PENTE-FINO-v0.147.md`, que traz os dezoito com o que entrou em cada um. **A fila está vazia de texto:** *o que falta são os quatro builds, na máquina do Mizuki.* **E fica uma dívida escrita, sem prazo: o dano na arma precisa de peça, de validador e de conta.**
+
+---
+
 ## [0.147] — 25/08/2026
 
 **Cinco achados do Mizuki lendo o PDF, e um deles reverte uma decisão que a v0.82 tinha medido e fechado.** *Nenhum saiu de validador: os cinco vieram de olhar a página.*

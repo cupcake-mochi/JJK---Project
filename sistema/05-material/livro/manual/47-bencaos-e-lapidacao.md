@@ -97,11 +97,7 @@ Estas duas chegam com a ficha, na Lapidação 1, sem custar marco nenhum.
 >
 > **O Acerto garantido de uma Expansão de Domínio completa não alcança você.** O Efeito continua acontecendo em volta, e uma Expansão incompleta funciona normalmente, porque o Acerto dela rola.
 >
-> **Dano na arma.** Enquanto a proteção estiver de pé, os seus ataques **com arma** causam `1d4` de dano a mais a cada `3` pontos de Lapidação — `1d4` na Lapidação `3`, `2d4` na `6`, `3d4` na `9`. **Na Lapidação `10` os dados viram `d6`.**
->
-> **Só arma.** Ele não entra em Kata nenhuma. E se o mesmo ataque já estiver carregando uma Kata de dano de `Classe 0` ou mais, este dano **não** se soma por cima — **é o caso do nível 27 da `Brasa`, em que cada ataque leva uma junto.** *Nesta rota o degrau de Trilha entrega Kata e não feitiço, e o capítulo 8, *Caminhos e Trilhas*, diz isso na abertura.*
->
-> Requisito: grátis na Lapidação 1. A Lapidação escala a proteção e o dano na arma.
+> Requisito: grátis na Lapidação 1. A Lapidação escala a proteção.
 
 **Vestir Traje ou Revestimento desliga só a proteção.** A barreira e o Acerto garantido continuam valendo: eles vêm de você não ter energia amaldiçoada, e uniforme nenhum te dá uma.
 
@@ -118,7 +114,13 @@ A Passiva `Bocado`, no capítulo 10, *Técnica Marcial*, guarda o item dentro do
 >
 > **`1×` por cena, e `2×` se a sua Lapidação for `10`.** Cada uso dá **vantagem** numa rolagem de um dos dois.
 >
-> Requisito: grátis na Lapidação 1.
+> **Dano na arma.** Os seus ataques **com arma** causam `1d4` de dano a mais a cada `3` pontos de Lapidação — `1d4` na Lapidação `3`, `2d4` na `6`, `3d4` na `9`. **Na Lapidação `10` os dados viram `d6`.**
+>
+> **Só arma.** Ele não entra em Kata nenhuma. E se o mesmo ataque já estiver carregando uma Kata de dano de `Classe 0` ou mais, este dano **não** se soma por cima — **é o caso do nível 27 da `Brasa`, em que cada ataque leva uma junto.** *Nesta rota o degrau de Trilha entrega Kata e não feitiço, e o capítulo 8, *Caminhos e Trilhas*, diz isso na abertura.*
+>
+> Requisito: grátis na Lapidação 1. A Lapidação escala o dano na arma e o número de usos.
+
+> **Exemplo.** Com Lapidação 6, o soco e a lâmina levam `2d4` de dano a mais.
 
 A escolha não precisa ser física. `Ocultismo` mais `Intelecto` é uma ficha tão legítima quanto `Atletismo` mais `Físico`.
 

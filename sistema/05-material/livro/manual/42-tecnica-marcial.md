@@ -172,8 +172,6 @@ Nenhuma delas é catálogo e nenhuma tem requisito. Passiva se escreve na hora, 
 >
 > Classe Passiva 1.
 
-**Na obra:** o Toji guarda o arsenal inteiro numa maldição em forma de verme, comprime ela numa bola e engole. É assim que ele anda armado sem ninguém sentir energia nenhuma vindo dele.
-
 > **Contra Expansão de Domínio o `Bocado` não muda nada.** O Acerto garantido lê alvo, e item nunca foi alvo — o que você carrega atravessa domínio de qualquer jeito.
 {: .aviso }
 
