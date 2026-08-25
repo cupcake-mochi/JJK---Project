@@ -113,7 +113,7 @@ E duas coisas que quase todo degrau daqui menciona:
 > **Nível 2: `Corpo Duro`.** *Reação.* Ao ser atingido, você reduz o dano em **o seu nível + 1d6**. Isso é o `Absorver`.
 > **Você tem usos iguais à sua Constituição, e eles voltam no descanso longo.**
 >
-> **Nível 7: Ataque extra.** Você ganha **um golpe simples solto por rodada**. Ele não exige a Ação de Atacar: acontece junto do que a sua Ação Padrão fez naquele turno, inclusive quando ela conjurou.
+> **Nível 7: Ataque extra.** Você ganha **um golpe simples por rodada**. Ele exige a Ação de Atacar: acontece junto do que a sua Ação Padrão fez naquele turno, e só nesse caso — a não ser que uma habilidade diga o contrário.
 >
 > **Nível 15: `Puxar Para Si`.** *Reação.* Quando um inimigo a até 1,5 m ataca **outra pessoa**, o ataque passa a ter **você** como alvo.
 > **Gastando `2` PE, você aplica o `Absorver` no mesmo golpe**, sem gastar um uso dele.
@@ -193,7 +193,7 @@ E duas coisas que quase todo degrau daqui menciona:
 
 > **Nível 2: `Escola de Arma`.** **Escolha uma das treze categorias de arma.** Com armas daquela categoria você usa a **Manha** dela. *As treze estão na seção seguinte.*
 >
-> **Nível 7: Ataque extra.** Você ganha **um golpe simples solto por rodada**. Ele não exige a Ação de Atacar: acontece junto do que a sua Ação Padrão fez naquele turno, inclusive quando ela conjurou.
+> **Nível 7: Ataque extra.** Você ganha **um golpe simples por rodada**. Ele exige a Ação de Atacar: acontece junto do que a sua Ação Padrão fez naquele turno, e só nesse caso — a não ser que uma habilidade diga o contrário.
 >
 > **Nível 15: `Não Cede`.** **Quando você falha num Teste de Resistência, role de novo e use o segundo resultado.**
 > **`Maestria` vezes por descanso curto (`1` no nível 2, `4` no 30) e no máximo uma por rodada.**
@@ -215,23 +215,45 @@ A Manha dá identidade à sua ficha. Você vira a pessoa do machado, a pessoa da
 **Manhas**
 {: .tab-titulo }
 
-| Categoria | Manha | O que faz |
-|---|---|---|
-| Lâmina Curta | `Talho` | `+1` no acerto contra alvo que já levou dano seu nesta luta |
-| Lâmina Longa | `Raspão` | o ataque que **erra** ainda causa o seu atributo |
-| Massa | `Abalo` | o alvo cai: condição `Derrubado` |
-| Porrete | `Tranco` | desvantagem no próximo ataque do alvo |
-| Manopla | `Encaixe` | `+2` de Defesa até o seu próximo turno, se você acertou |
-| Machado | `Racho` | o golpe pega um segundo alvo ao seu alcance |
-| Ceifa | `Gancho` | você puxa o alvo `6 m` para perto de você |
-| Armas Longas | `Espeto` | você empurra o alvo `6 m`, e ele não te acompanha |
-| Flexível | `Laço` | o alvo perde o deslocamento inteiro do próximo turno |
-| Arremesso | `Palmo` | `+1` no acerto do próximo arremesso contra o mesmo alvo |
-| Yumi | `Zunido` | o tiro que **erra** ainda causa o seu atributo |
-| Balestra | `Prego` | o alvo perde `9 m` do deslocamento do próximo turno |
-| Arma de Fogo | `Estampido` | todo aliado que enxerga tem `+1` no próximo ataque contra o alvo |
+| Categoria | Manha | O que faz | Teste de Resistência |
+|---|---|---|---|
+| Lâmina Curta | `Talho` | `+1` no acerto contra alvo que já levou dano seu nesta luta | — |
+| Lâmina Longa | `Raspão` | o ataque que **erra** ainda causa o seu atributo | — |
+| Massa | `Abalo` | o alvo cai: condição `Derrubado` | **Físico** |
+| Porrete | `Tranco` | desvantagem no próximo ataque do alvo | **Vigor** |
+| Manopla | `Encaixe` | `+2` de Defesa até o seu próximo turno, se você acertou | — |
+| Machado | `Racho` | o golpe pega um segundo alvo ao seu alcance | — |
+| Ceifa | `Gancho` | você puxa o alvo `6 m` para perto de você | **Físico** |
+| Armas Longas | `Espeto` | você empurra o alvo `6 m`, e ele não te acompanha | **Físico** |
+| Flexível | `Laço` | o alvo perde o deslocamento inteiro do próximo turno | **Físico** |
+| Arremesso | `Palmo` | `+1` no acerto do próximo arremesso contra o mesmo alvo | — |
+| Yumi | `Zunido` | o tiro que **erra** ainda causa o seu atributo | — |
+| Balestra | `Prego` | o alvo perde `9 m` do deslocamento do próximo turno | **Vigor** |
+| Arma de Fogo | `Estampido` | todo aliado que enxerga tem `+1` no próximo ataque contra o alvo | — |
+
+> **Manha que mexe no alvo pede Teste de Resistência, e dispara uma vez por rodada.**
+>
+> **Quando.** Você acertou o ataque, e a Manha da sua categoria tem Teste de Resistência na tabela `Manhas`.
+>
+> **Como.** O alvo rola o Teste de Resistência que a tabela `Manhas` nomeia, contra a sua CD. Se passar, o efeito não acontece — o dano do golpe acontece do mesmo jeito.
+>
+> **Uma vez por rodada.** Não importa quantos golpes você deu: a Manha cobra Teste de Resistência de um alvo por rodada, e você escolhe qual.
+>
+> **As que não pedem** são as que mexem em você ou no seu próprio dado — `Talho`, `Raspão`, `Encaixe`, `Racho`, `Palmo`, `Zunido` e `Estampido`. *Elas não fazem ninguém rolar nada, e por isso também não têm limite por rodada.*
 
 > **A Manha nunca é dado de dano.** Ela mexe em onde as pessoas estão, em quem é atingido, e em quanto a próxima rolagem custa. Valor fixo de dano ela pode dar. Dado de dano é assunto do equipamento.
+
+#### `Versado`
+
+Quem troca de arma no meio da luta pode levar esta **no lugar da Manha da sua categoria**.
+
+> **`Versado`** — guardar uma arma e sacar outra passa a ser **um gesto só**, e não dois. Até o começo do seu próximo turno, você tem **`+1` no acerto** com a arma que acabou de sacar.
+>
+> **Quando.** Uma vez por rodada, no seu turno.
+>
+> **O que ela substitui.** A Manha da categoria que você escolheu na `Escola de Arma`. Você não leva as duas.
+
+*Sacar ou guardar um item já é de graça no turno; do segundo em diante custa a Ação de Movimento inteira, no capítulo 2, `O Turno`. É esse segundo gesto que a `Versado` paga.*
 
 ### Trilha: Estocada
 

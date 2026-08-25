@@ -165,22 +165,17 @@ Conjurar um feitiço custa **3 × Classe** de PE, o mesmo número dos pontos del
 
 Com um conjurador ganhando 6 PE por nível, isso dá:
 
-**Energia**
+**Valores dos feitiços de Classe 1 a 7**
 {: .tab-titulo }
 
-| Nível | PE total | Maior Classe | Custo | Quantas vezes você lança o seu melhor feitiço |
-|---|---|---|---|---|
-| 1 | 6 | 1 | 3 | 2 |
-| 5 | 30 | 2 | 6 | 5 |
-| 9 | 54 | 3 | 9 | 6 |
-| 13 | 78 | 4 | 12 | 6 |
-| 17 | 102 | 5 | 15 | 6 |
-| 20 | 120 | 5 | 15 | 8 |
-
-> **Essa última coluna é um teto, e não um dia.**
-> Ela responde uma pergunta só: quantas vezes cabe, se você não fizer mais nada com o seu PE.
-> Um dia de verdade tem outras despesas ao mesmo tempo. Tem efeito que cobra PE **por rodada** enquanto está ligado, e a Integridade encarece todo feitiço quando o segundo estágio dela acende.
-> Leia a coluna como limite superior.
+| Nível | PE total | Maior Classe | Custo |
+|---|---|---|---|
+| 1 | 6 | 1 | 3 |
+| 5 | 30 | 2 | 6 |
+| 9 | 54 | 3 | 9 |
+| 13 | 78 | 4 | 12 |
+| 17 | 102 | 5 | 15 |
+| 20 | 120 | 5 | 15 |
 
 ### Classe 0
 

@@ -731,28 +731,26 @@ else:
 # --------------------------------------------------------------------------
 # 4h. A FORMA DO ATAQUE EXTRA — e nao so o numero dele
 #
-# Escrita na v0.82. A peca 6 SS3.1 declarava esta divida com todas as letras:
-# "Nenhum conferir-*.py le a forma do ataque extra: o conferir-manual confere a
-# coluna Rotina contra a qual ele foi aprovado, e nenhum falha se alguem trocar
-# o slot ou apagar o gate."
+# Escrita na v0.82 para guardar a forma "golpe SOLTO"; INVERTIDA na v0.147, quando
+# o Mizuki reverteu aquela decisao. O motivo da inversao esta na peca 6 SS3.1 e ele
+# e concreto: com o golpe solto, o `Bote` — nivel 19 da `Estocada` — comprava por
+# 2,46 fatias uma coisa que ja acontecia sozinha. Entrega preçada valendo zero.
 #
-# O QUE ELA GUARDA, e sao DUAS METADES INDEPENDENTES de proposito — uma checagem
-# que so procurasse a frase afirmativa sairia verde se alguem ADICIONASSE a frase
-# contraria sem apagar a primeira:
-#   (a) a peca 6 declara que o ataque extra e um golpe SOLTO por rodada e que ele
-#       NAO exige a Acao de Atacar;
-#   (b) nenhuma linha VIVA da peca 6 afirma o contrario.
+# O QUE ELA GUARDA AGORA, e sao TRES metades independentes de proposito:
+#   (a) a peca 6 declara que o ataque extra EXIGE a Acao de Atacar;
+#   (b) nenhuma linha VIVA da peca 6 afirma o contrario — a forma velha nao pode
+#       voltar por descuido, e a tabela historica dela mora num bloco de citacao;
+#   (c) a VALVULA continua escrita: "a nao ser que uma habilidade diga o contrario".
+#       Sem ela o `Bote` morre de novo, e a inversao inteira perde o motivo.
 #
-# POR QUE A FORMA IMPORTA, e o numero esta no documento e nao aqui: com o ataque
-# extra preso a Acao de Atacar, dois golpes rendem 23 no nivel 30 contra 27 de um
-# Classe 0 que toda ficha tem de graca. A habilidade de nivel 7 de dois Caminhos
-# perderia para o botao gratis, e o fisico e o conjurador ficariam identicos.
+# A (c) e a que importa mais, e ela e nova. As duas primeiras guardam a forma; a
+# terceira guarda o que a forma existe para permitir.
 #
-# A METADE NUMERICA JA TEM DONO: e a 4f, que exige o vao = um golpe simples em
-# todo nivel e proibe ele de encolher. Se a forma virar "exige a Acao de Atacar",
-# o vao vai a zero e a 4f acende junto. As duas se cobrem por eixos diferentes.
+# O PRECO DESTA FORMA ESTA MEDIDO E ACEITO: dois golpes rendem 23 no nivel 30
+# contra 27 de um Classe 0 gratis, entao a Acao de Atacar fica dominada pelo botao
+# que toda ficha tem. A v0.82 recusou a forma por isso; a v0.147 a escolhe sabendo.
 print()
-print('  4h. a FORMA do ataque extra na peca 6 — golpe solto, nao Acao de Atacar')
+print('  4h. a FORMA do ataque extra na peca 6 — exige a Acao de Atacar, com valvula')
 
 if not os.path.exists(_p6):
     erro('nao achei a peca 6 para conferir a forma do ataque extra')
@@ -765,41 +763,51 @@ else:
             return True
         return _s.startswith('*') and not _s.startswith('**')
 
-    # (a) a declaracao afirmativa existe?
-    _decl = re.search(r'ataque extra.{0,80}golpe\s+SOLTO|golpe\s+SOLTO.{0,80}ataque extra',
-                      _txt6, re.I | re.S)
-    _nega = re.search(r'ataque extra.{0,120}n[aã]o exige a A[cç][aã]o de Atacar',
-                      _txt6, re.I | re.S)
-    if not (_decl and _nega):
+    # (a) a declaracao afirmativa existe — e ela e a LINHA DE REGRA, nao o titulo
+    #     da secao. O arnes pegou a primeira versao desta checagem passando no
+    #     proprio titulo "O ataque extra EXIGE a Acao de Atacar": apagar a regra
+    #     saia VERDE. Mesmo defeito da checagem 2 do conferir-alma.py.
+    _regra6 = [l for l in _txt6.splitlines()
+               if re.search(r'ganha um golpe simples por rodada', l, re.I)]
+    _regra6 = _regra6[0] if _regra6 else ''
+    _decl = _regra6 and re.search(r'exige a A[cç][aã]o de Atacar', _regra6, re.I)
+    if not _decl:
         erro('peca 6: a forma do ataque extra nao esta declarada. Ela precisa dizer '
-             'que ele e um golpe SOLTO por rodada e que NAO exige a Acao de Atacar '
-             '— e a checagem 4f depende disso, porque e essa forma que faz o vao '
-             'ser um golpe simples em vez de zero')
+             'que ele EXIGE a Acao de Atacar — foi a inversao da v0.147, e o que ela '
+             'existe para consertar e o `Bote` da `Estocada` valer zero')
     else:
-        print('    [x] a peca 6 declara o ataque extra como golpe solto por rodada')
+        print('    [x] a peca 6 declara que o ataque extra exige a Acao de Atacar')
 
-    # (b) nenhuma linha viva afirma o contrario
+    # (b) a forma velha nao pode voltar viva
     _contra = []
     for _n, _lin in enumerate(_txt6.splitlines(), 1):
-        if not re.search(r'ataque extra', _lin, re.I):
+        if not re.search(r'ataque extra|golpe simples', _lin, re.I):
             continue
-        if not re.search(r'(sempre\s+)?exige a A[cç][aã]o de Atacar|'
-                         r'so (acontece|sai) (com|na) a? ?A[cç][aã]o de Atacar',
-                         _lin, re.I):
-            continue
-        if re.search(r'n[aã]o exige a A[cç][aã]o de Atacar', _lin, re.I):
+        if not re.search(r'n[aã]o exige a A[cç][aã]o de Atacar|golpe\s+SOLTO|'
+                         r'golpe simples solto', _lin, re.I):
             continue
         if _historica_h(_lin):
             continue
         _contra.append(_n)
     for _n in _contra:
-        erro(f'peca 6, linha {_n}: ela prende o ataque extra a Acao de Atacar. '
-             f'Com essa forma dois golpes rendem 23 no nivel 30 contra 27 de um '
-             f'Classe 0 gratis — a entrega de nivel 7 fica dominada pelo botao que '
-             f'toda ficha ja tem, e o vao da 4f vai a zero. Se for nota historica, '
-             f'ela vai num bloco de citacao')
+        erro(f'peca 6, linha {_n}: a forma VELHA do ataque extra voltou — golpe solto, '
+             f'sem exigir a Acao de Atacar. Ela foi invertida na v0.147, e com ela o '
+             f'`Bote` da `Estocada` volta a valer zero com preco de 2,46 fatias. Se for '
+             f'nota historica, ela vai num bloco de citacao')
     if not _contra:
-        print('    [x] nenhuma linha viva prende o ataque extra a Acao de Atacar')
+        print('    [x] a forma velha so aparece em nota historica')
+
+    # (c) A VALVULA — e ela e o motivo de a inversao caber.
+    #     Tambem na LINHA DE REGRA: o paragrafo que explica a valvula carrega uma
+    #     segunda copia dela, e o arnes mostrou que apagar a valvula da regra saia
+    #     verde por causa dessa copia.
+    if not re.search(r'a n[aã]o ser que uma habilidade diga o contr[aá]rio', _regra6, re.I):
+        erro('peca 6: sumiu a valvula "a nao ser que uma habilidade diga o contrario". '
+             'Sem ela nenhuma entrega de Trilha consegue comprar a excecao, e o `Bote` '
+             'volta a ser letra morta — que e exatamente o defeito que a v0.147 saiu '
+             'para consertar')
+    else:
+        print('    [x] a valvula continua escrita: habilidade pode dizer o contrario')
 
     # (c) o gate do golpe do Arremate e do Coro continua escrito — a outra metade
     #     da forma que a propria peca disse que nenhum validador guardava

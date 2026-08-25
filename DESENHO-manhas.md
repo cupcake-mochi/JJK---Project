@@ -63,21 +63,22 @@ As bases todas saem de documento dono:
 
 ## O catálogo
 
-| categoria | Manha | o que faz | trava | fatias |
-|---|---|---|---|---|
-| **Lâmina Curta** | `Talho` | `+1` no acerto contra alvo que já levou dano seu nesta luta | 50% | **1,06** |
-| **Lâmina Longa** | `Raspão` | o ataque que **erra** ainda causa o seu atributo | — | **1,18** |
-| **Massa** | `Abalo` | o alvo cai — condição `Derrubado` | 60% | **1,00** |
-| **Porrete** | `Tranco` | desvantagem no próximo ataque do alvo | 28% | **0,99** |
-| **Manopla** | `Encaixe` | `+2` de Defesa até o seu próximo turno, se você acertou | 75% | **1,00** |
-| **Machado** | `Racho` | o golpe pega um segundo alvo ao seu alcance | 44% | **1,00** |
-| **Ceifa** | `Gancho` | você puxa o alvo `6 m` para perto de você | — | **0,71** |
-| **Armas Longas** | `Espeto` | você empurra o alvo `6 m` e ele não te acompanha | — | **0,71** |
-| **Flexível** | `Laço` | o alvo perde o deslocamento inteiro do próximo turno | — | **1,06** |
-| **Arremesso** | `Palmo` | `+1` no acerto do próximo arremesso contra o mesmo alvo | 50% | **1,06** |
-| **Yumi** | `Zunido` | o tiro que **erra** ainda causa o seu atributo | — | **1,18** |
-| **Balestra** | `Prego` | o alvo perde `9 m` do deslocamento do próximo turno | — | **1,06** |
-| **Arma de Fogo** | `Estampido` | todo aliado que enxerga tem `+1` no próximo ataque contra o alvo | — | **0,68** |
+| categoria | Manha | o que faz | TR | trava | fatias |
+|---|---|---|---|---|---|
+| **Lâmina Curta** | `Talho` | `+1` no acerto contra alvo que já levou dano seu nesta luta | — | 50% | **1,06** |
+| **Lâmina Longa** | `Raspão` | o ataque que **erra** ainda causa o seu atributo | — | — | **1,18** |
+| **Massa** | `Abalo` | o alvo cai — condição `Derrubado` | **Físico** | 60% | **1,00** |
+| **Porrete** | `Tranco` | desvantagem no próximo ataque do alvo | **Vigor** | 28% | **0,99** |
+| **Manopla** | `Encaixe` | `+2` de Defesa até o seu próximo turno, se você acertou | — | 75% | **1,00** |
+| **Machado** | `Racho` | o golpe pega um segundo alvo ao seu alcance | — | 44% | **1,00** |
+| **Ceifa** | `Gancho` | você puxa o alvo `6 m` para perto de você | **Físico** | — | **0,71** |
+| **Armas Longas** | `Espeto` | você empurra o alvo `6 m` e ele não te acompanha | **Físico** | — | **0,71** |
+| **Flexível** | `Laço` | o alvo perde o deslocamento inteiro do próximo turno | **Físico** | — | **1,06** |
+| **Arremesso** | `Palmo` | `+1` no acerto do próximo arremesso contra o mesmo alvo | — | 50% | **1,06** |
+| **Yumi** | `Zunido` | o tiro que **erra** ainda causa o seu atributo | — | — | **1,18** |
+| **Balestra** | `Prego` | o alvo perde `9 m` do deslocamento do próximo turno | **Vigor** | — | **1,06** |
+| **Arma de Fogo** | `Estampido` | todo aliado que enxerga tem `+1` no próximo ataque contra o alvo | — | — | **0,68** |
+| *(no lugar da sua)* | `Versado` | guardar e sacar viram um gesto só, e `+1` no acerto com a arma nova | — | — | **não medida** |
 
 > **Média `0,98` fatia. A menor é o `Estampido` em `0,68`, a maior é o `Raspão` e o `Zunido` em `1,18`.**
 > **Dominância entre a maior e a menor: `1,74×`** — o filtro do projeto reprova em `3,00×`. *Comparação: o `Guiar` do Guia vale `0,68` no mesmo degrau, e o `Absorver` do Bastião vale `1,60`. As treze cabem inteiras dentro do que os outros Caminhos já praticam.*
@@ -99,7 +100,9 @@ As bases todas saem de documento dono:
 
 ## O que este bloco deixa em aberto
 
-- **A trava do `Abalo` é `60%` e ela precisa de gatilho escrito.** Hoje o número existe e a frase que o produz não — é o mesmo defeito do `15%` do `Servo`, que a `LISTA-gatilhos` existe em parte para não deixar repetir.
+- ~~**A trava do `Abalo` é `60%` e ela precisa de gatilho escrito.**~~ **FECHADO na v0.147:** *o gatilho é o Teste de Resistência.* **Toda Manha que mexe no ALVO passou a pedir Teste de Resistência e a disparar uma vez por rodada** — decisão do Mizuki, e ela estava faltando desde que as treze entraram na v0.82.
+- **⚠⚠ E isso abriu uma dívida de preço em QUATRO delas.** *O `Gancho`, o `Espeto`, o `Laço` e o `Prego` foram preçados com trava `—`, que quer dizer sem portão nenhum.* **Agora eles têm um, e os `0,71 · 0,71 · 1,06 · 1,06` publicados passam a valer mais do que a entrega entrega.** *Repreçar as treze é versão própria, no mesmo molde da dívida dos onze `Estigma` — e fazer meio dela deixaria o catálogo com dois modelos dentro.*
+- **A `Versado` não tem fatia medida, e a forma dela diz onde ela cai.** *Ela entrega `+1` no acerto num relógio próprio, que é exatamente a forma do `Talho` e do `Palmo` — os dois preçados em `1,06` com trava de `50%`.* **Se a taxa de troca de arma na mesa for parecida, ela cai na mesma casa.** *Fica declarado como não medido em vez de escrito como se fosse.*
 - **`Raspão` e `Zunido` são a mesma entrega em duas categorias.** *O 5e faz igual — `Graze` está no Greatsword e nas armas de haste —, mas fica declarado em vez de escondido.*
 - **O `Estampido` é o único que preça rolagem de aliado**, e ele supõe três aliados na mesa. *Numa mesa de dois ele cai para `0,45` fatia.*
 - **Nenhuma das treze foi medida contra as Trilhas da Vanguarda.** A matriz de dominância daquele Caminho fechou na v0.77 sem elas.

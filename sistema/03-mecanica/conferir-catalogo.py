@@ -95,9 +95,14 @@ def fatia_da_peca(inicio, fim):
     b = PECA.find(fim) if fim else len(PECA)
     return PECA[a:b] if a >= 0 else ''
 
-S3 = fatia_da_peca('## 3. As 56 entregas de Trilha', '## 4. Os 20 degraus')
-S4 = fatia_da_peca('## 4. Os 20 degraus', '## 5. As 13 Manhas')
-S5 = fatia_da_peca('## 5. As 13 Manhas', '## 6. Os totais')
+# Os ancoras sao o NUMERO DA SECAO e nao o titulo inteiro: a v0.147 acrescentou a
+# `Versado` e o titulo virou "As 14 Manhas". Com o titulo antigo escrito aqui, as
+# duas fatias vizinhas se abriram uma dentro da outra e o extrator devolveu 24
+# degraus e 0 Manhas — numeros que nao existem, vindos de ancora vencida e nao de
+# conteudo errado. Contagem no ancora e a licao no 9 pela porta do parser.
+S3 = fatia_da_peca('## 3. As ', '## 4. Os ')
+S4 = fatia_da_peca('## 4. Os ', '## 5. As ')
+S5 = fatia_da_peca('## 5. As ', '## 6. Os totais')
 S6 = fatia_da_peca('## 6. Os totais', '## 7. O que')
 
 def linhas_de_catalogo(secao):

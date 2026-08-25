@@ -271,7 +271,7 @@ Ela ganha, e o mecanismo é o Selo:
 | 18 | 8,5 | 11 | 19,5 | **3,84** | 25,7% |
 | **30** | 10,5 | 12 | **22,5** | **4,43** | **20,8%** |
 
-*O ataque extra do nível 7 é um golpe simples solto — peça 6 §3.1 —, e ele é o degrau que os cinco Caminhos recebem de graça naquele nível.* **Uma Vanguarda que escolha um objeto que o golpe não atravessa perde `4,43` fatias contra maldição no nível 30**, quando uma Trilha inteira vale `5,00`.
+*O ataque extra do nível 7 é um golpe simples que sai na Ação de Atacar — peça 6 §3.1 —, e ele é o degrau que os cinco Caminhos recebem de graça naquele nível.* **Uma Vanguarda que escolha um objeto que o golpe não atravessa perde `4,43` fatias contra maldição no nível 30**, quando uma Trilha inteira vale `5,00`.
 
 > **Fica como armadilha avisada e não como porta fechada, e isso é o jeito da casa.** *O manual faz igual com o atributo da técnica: "apontar para um atributo que você não pretende pagar é a armadilha desta página".* **O aviso: se o seu objeto é do tipo que você só carrega, Bastião e Vanguarda ficam caros — os dois pagam metade do que entregam em golpe simples.**
 

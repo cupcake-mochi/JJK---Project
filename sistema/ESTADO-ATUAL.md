@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 24/08/2026, na v0.146 (última peça fechada: **Dano de alma e Integridade**, a peça 24, na v0.145, com o `conferir-alma.py` e onze checagens; antes dela, **Bloquear, na v0.143**; antes dela, o **Objeto amaldiçoado, na v0.132**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 25/08/2026, na v0.147 (última peça fechada: **Dano de alma e Integridade**, a peça 24, na v0.145, com o `conferir-alma.py` e onze checagens; antes dela, **Bloquear, na v0.143**; antes dela, o **Objeto amaldiçoado, na v0.132**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.146.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e quatro peças escritas** e **vinte e quatro validadores**.
+**Versão v0.147.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e quatro peças escritas** e **vinte e quatro validadores**.
 
 ***A v0.144 fechou as duas marcas simples do livro, e a segunda mudou de tamanho no meio.*** **Sintonizar uma ferramenta custa um descanso curto**, e o `Avulsa` ganhou gatilho e relógio.
 
@@ -160,7 +160,7 @@ Atualizado em 24/08/2026, na v0.146 (última peça fechada: **Dano de alma e Int
 
 ***Decisão do Mizuki na v0.120: `PE` passa a ler de dois jeitos — `Pontos de Energia` e `Pontos de Esforço`.*** *A sigla é a mesma no livro inteiro, e nenhuma regra pergunta qual das duas você tem.* **Isso fecha a última pergunta que a Técnica Marcial ia herdar:** *ela atende duas rotas com economias diferentes — o Corpo Amaldiçoado tem energia, a Restrição Celestial sem energia não —, e a alternativa era inventar uma moeda com nome próprio.* **Aí toda habilidade de Caminho que cobra `PE` precisaria de segunda redação, e são quatro Caminhos com kit que cobra PE.** *Com uma sigla só, nenhuma precisa.*
 
-> **✔ O repreço do catálogo FECHOU na v0.119, e ele era menor do que parecia.** *A v0.117 mudou três constantes de preço, e a v0.118 registrou o escopo como "as 89 entradas da peça 17".* **Medido: são SETE entradas.**
+> **✔ O repreço do catálogo FECHOU na v0.119, e ele era menor do que parecia.** *A v0.117 mudou três constantes de preço, e a v0.118 registrou o escopo como "as 90 entradas da peça 17".* **Medido: são SETE entradas.**
 >
 > | entrada | antes | depois |
 > |---|---|---|
@@ -410,7 +410,7 @@ python3 conferir-ficha.py        # a ficha de 05-material contra os catálogos d
 python3 conferir-legados.py      # os três formatos, a cota de Desliga, as vagas e os totais
 python3 conferir-invocacoes.py   # o teto somado, o catálogo, a régua, a morte e o orçamento
 python3 conferir-ferramenta.py   # o fundo, o gate herdado, a escada de grau, o teto na ficha
-python3 conferir-catalogo.py     # o índice das 89 entradas contra os três DESENHO da raiz
+python3 conferir-catalogo.py     # o índice das 90 entradas contra os três DESENHO da raiz
 python3 conferir-progressao.py   # as nove colunas da tabela de progressão contra os donos
 python3 conferir-dano.py         # a régua de condição, as treze, os tipos de dano e a cobertura
 python3 conferir-alma.py         # a Integridade com Essência, os quatro estágios, o TR e a exceção
@@ -566,7 +566,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/conferir-criacao.py` | **a instância, não a regra**: a ficha de exemplo da peça 8 contra as fórmulas, a proteção da aptidão gratuita, a Trilha na criação e se o catálogo citado existe |
 | `03-mecanica/conferir-ficha.py` | **o material contra a regra**: as 23 perícias, os 11 ofícios, os 5 Caminhos, as 15 Trilhas e as constantes do nível 2 que a ficha imprime, contra as peças donas |
 | `03-mecanica/conferir-invocacoes.py` | as **trinta** checagens da peça 15, sem um número guardado dentro dele — e a busca exaustiva das 21.502 montagens que gastam o orçamento cheio no nível 30 |
-| `03-mecanica/17-catalogo-de-entregas.md` | **o índice das 89 entradas** — 56 entregas de Trilha, 20 degraus de Caminho e as 13 Manhas —, com a regra de contagem e o ponteiro de onde o texto de cada uma mora |
+| `03-mecanica/17-catalogo-de-entregas.md` | **o índice das 90 entradas** — 56 entregas de Trilha, 20 degraus de Caminho e as 14 Manhas —, com a regra de contagem e o ponteiro de onde o texto de cada uma mora |
 | `03-mecanica/conferir-catalogo.py` | as **doze** checagens da peça 17, e **o primeiro validador que sai da pasta**: ele lê os três `DESENHO-*.md` da raiz |
 | `03-mecanica/18-progressao.md` | **a tabela de progressão** — o que se ganha em cada nível, do 1 ao 30, numa tabela só. Nove das dez colunas são cópia com dono declarado; a décima, o tamanho da lista de feitiços, nasce aqui |
 | `03-mecanica/conferir-progressao.py` | as **oito** checagens da peça 18: cada coluna reconstruída a partir do dono, a fórmula dos espaços contra a tabela da peça 11, e a cópia de três fichas da peça 2 |
@@ -978,7 +978,7 @@ Quatro peças, e a ordem é de **dependência**, não de tamanho. A ordem que el
 
 > **✔ A DUAS RESPOSTAS ACABOU NA v0.103.** *Esta fila dizia `Trilhas`; a peça 16 §9 dizia que a `Técnica Marcial` **é a peça seguinte**.* ***Decisão do Mizuki: são as três Trilhas do Evocador** — `Servo`, `Matilha` e `Coro`.* **A peça 16 foi corrigida junto**, e ela deixou de nomear a Técnica Marcial como a seguinte.
 >
-> *As três estão paradas desde a v0.82, e ele mesmo tinha decidido que ficariam por último. Elas fecham as quinze Trilhas e tiram o Evocador de ser o único Caminho sem Trilha com número.* **Quando entrarem, o total de 89 entradas da peça 17 muda e a checagem 1 do `conferir-catalogo.py` acusa.**
+> *As três estão paradas desde a v0.82, e ele mesmo tinha decidido que ficariam por último. Elas fecham as quinze Trilhas e tiram o Evocador de ser o único Caminho sem Trilha com número.* **Quando entrarem, o total de 90 entradas da peça 17 muda e a checagem 1 do `conferir-catalogo.py` acusa.**
 
 > **As posições 2 e 3 ganharam rascunho na v0.54**, e os dois têm o mesmo formato do de Invocações — perguntas em ordem de dependência, com o que a conta já fecha separado do que é sabor.
 >

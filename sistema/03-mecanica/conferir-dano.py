@@ -631,7 +631,11 @@ else:
     else:
         print(f'  [x] o Abalo: Derrubado permanente em {_d:.2f}, e o desenho concorda')
 
-_m = re.search(r'\| \*\*Massa\*\* \| `Abalo` \|[^|]*\| (\d+)% \| \*\*(\d+,\d+)\*\* \|', _txtm)
+# A trava e a fatia sao as DUAS ULTIMAS colunas, e o regex le por ai: a v0.147
+# inseriu uma coluna `TR` no meio da tabela e a versao anterior deste padrao,
+# que contava colunas da esquerda, parou de casar — 'nao achei a linha do Abalo'
+# quando a linha estava la, so com um campo a mais antes dela.
+_m = re.search(r'\| \*\*Massa\*\* \| `Abalo` \|.*\| (\d+)% \| \*\*(\d+,\d+)\*\* \|', _txtm)
 if not _m:
     erro('9: nao achei a linha do Abalo no catalogo do DESENHO-manhas')
 else:

@@ -8,6 +8,112 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.147] — 25/08/2026
+
+**Cinco achados do Mizuki lendo o PDF, e um deles reverte uma decisão que a v0.82 tinha medido e fechado.** *Nenhum saiu de validador: os cinco vieram de olhar a página.*
+
+### ⚠⚠ O ataque extra volta a exigir a Ação de Atacar, e o motivo é uma entrega que valia zero
+
+***Palavras dele:*** *"ataque extra tá escrito completamente errado… isso tornava antes a habilidade `Bote` do `Estocada` inútil."*
+
+> **Você ganha um golpe simples por rodada. Ele exige a Ação de Atacar: acontece junto do que a sua Ação Padrão fez naquele turno, e só nesse caso — a não ser que uma habilidade diga o contrário.**
+
+**A v0.82 tinha decidido o oposto — golpe SOLTO, que acontece inclusive quando a Ação Padrão conjura — e ela mediu o custo da alternativa antes de recusá-la:** *com o ataque extra preso à Ação de Atacar, dois golpes rendem `23` no nível 30 contra `27` de um Classe 0 grátis, e a Ação de Atacar fica dominada pelo botão que toda ficha já tem.* **Essa medida continua de pé.**
+
+> ***O que a v0.82 não podia ver é o `Bote`, e ele é de duas versões depois.*** *Nível 19 da `Estocada`, `2,46` fatias: "quando o feitiço que você conjura na Ação Padrão é de condição e não de dano, você pode usar o seu ataque extra na Ação Bônus".* **Com o golpe solto, aquilo já acontecia sozinho.** *Uma entrega publicada e preçada que não entrega nada é pior do que uma dominância declarada — e as duas estavam medidas.*
+>
+> **A cláusula final é a válvula, e é ela que faz a forma nova funcionar:** *"a não ser que uma habilidade diga o contrário"*. **Sem ela o `Bote` morre de novo**, e é por ela que qualquer Trilha futura compra a exceção em vez de recebê-la de graça.
+
+**A checagem `4h` do `conferir-manual.py` foi INVERTIDA**, e ganhou uma terceira metade: *ela guardava a forma antiga; agora guarda a nova, proíbe a velha de voltar viva, e **cobra a válvula**.*
+
+> **⚠ E duas das três metades nasceram sem conseguir acender.** *A afirmativa passava no próprio título da seção — `O ataque extra EXIGE a Ação de Atacar` —, e a da válvula passava numa segunda cópia dela, no parágrafo que a explica.* **Apagar a regra saía VERDE nas duas.** *Hoje as duas leem a LINHA DE REGRA e não o arquivo.* **Terceira vez em três versões que uma checagem minha se lê na própria descrição.**
+
+> **⚠⚠ O que esta inversão deixa ABERTO está declarado na peça 6 §3.1, e não foi fechado:** *o vão `físico − conjurador` foi construído sobre a forma antiga, e é ele que paga o degrau de nível 7 dos cinco Caminhos.* **Nenhum número publicado foi mexido, de propósito** — repreçar aquele degrau é versão própria, e fazer metade deixaria o catálogo com dois modelos dentro.
+
+### Os `Traços` saíram das oito Origens
+
+***Palavras dele:*** *"ele é bem do inútil e não adiciona em nada já que existem os `Destranca`."*
+
+**Sete blocos de três sugestões de ficção saíram**, e no lugar de cada um entrou o que o leitor precisa saber ali: **`Você começa toda a ficha com um Destranca e um Ajusta ou Desliga`.** *Uma linha, no lugar de três bullets que não viravam regra.*
+
+**E entrou a seção que faltava: `Criar o seu Legado`.** *As listas de cada Origem sempre foram exemplo e nunca disseram isso.* **Os três grupos ganharam descrição curta e direta — o que cada um é, e o que ele nunca faz** —, mais as três travas que valem para qualquer Legado escrito pelo jogador: *não dar técnica, não decidir o que um PNJ faz, e não entregar acerto, Defesa ou vida direto.*
+
+**A tabela `Rotas de criação` saiu**, por pedido dele. *Ela indexava nove linhas que as próprias Origens já dizem.*
+
+> **⚠ E o corte dela ia derrubar a contagem de marcas de `7` para `6`, sem a marca ter fechado.** *A linha `+ Sem Técnica … não: está sendo escrita` era a única que o `conferir-voz.py` enxergava daquela pendência — e o fato continua vivo, no aviso dentro da própria Origem.* **O aviso passou a carregar a marca**, e a contagem voltou a `7`. *O validador acusou a queda no mesmo commit em que ela aconteceu, que é para isso que a v0.144 escreveu ele.*
+
+### As Manhas que mexem no alvo passaram a pedir Teste de Resistência
+
+***Achado dele:*** *"foi esquecido nas Manhas da Vanguarda o fator que TODAS as que aplicam efeitos precisa de um TR e só pode ser procado uma vez por rodada."*
+
+**Seis das treze mexem no alvo, e as seis ganharam Teste de Resistência e limite de uma vez por rodada:** *`Abalo`, `Gancho`, `Espeto` e `Laço` pelo **Físico**; `Tranco` e `Prego` pelo **Vigor**.* **As outras sete mexem em você ou no seu próprio dado, e por isso não pedem nada e não têm limite.**
+
+> **O molde já existia na casa:** *o `Encontrão`, nível 11 do Bastião, escreve exatamente isso desde a v0.87 — "uma vez por rodada, um alvo que você acertou faz um Teste de Resistência de Vigor".*
+>
+> **✔ E isso FECHA uma pendência aberta do `DESENHO-manhas.md`:** *"a trava do `Abalo` é `60%` e ela precisa de gatilho escrito — hoje o número existe e a frase que o produz não."* **O gatilho é o Teste de Resistência.**
+>
+> **⚠⚠ E abriu uma dívida de preço em QUATRO.** *O `Gancho`, o `Espeto`, o `Laço` e o `Prego` foram preçados com trava `—`, que quer dizer sem portão nenhum.* **Agora eles têm um, e os `0,71 · 0,71 · 1,06 · 1,06` publicados valem mais do que a entrega entrega.** *Repreçar as treze é versão própria, no molde da dívida dos onze `Estigma`.*
+
+### A `Versado`, e ela é a décima quarta Manha
+
+***Pedido dele:*** *uma Manha para quem troca de arma no meio da luta.*
+
+> **`Versado`** — guardar uma arma e sacar outra viram **um gesto só**, e até o começo do seu próximo turno você tem **`+1` no acerto** com a arma que sacou. *Uma vez por rodada.* **Ela se leva no lugar da Manha da sua categoria.**
+
+**O que ela paga é o segundo gesto:** *a peça 3 §3.2 dá o primeiro saque de graça e cobra a Ação de Movimento inteira do segundo em diante.*
+
+> **⚠ `Versátil` saiu `LIVRE` na triagem e foi RECUSADO.** *Ele é propriedade de arma no catálogo do capítulo 13 — `Katana`, `Espada Longa`, `Taco` e `Bastão` carregam ela.* **Colisão de sentido é o que a triagem não pega, e é a quarta vez que este projeto registra isso.** *`Versado` saiu livre nas duas direções, e foi o próprio Mizuki quem ofereceu.*
+>
+> *Ela não tem fatia medida, e a forma diz onde ela cai:* **`+1` no acerto com relógio próprio é a forma do `Talho` e do `Palmo`, os dois em `1,06` com trava de `50%`.** *Fica declarada como não medida em vez de escrita como se fosse.*
+
+**O catálogo da peça 17 foi de `89` para `90` entradas**, e as quatro cópias do número subiram junto.
+
+> **⚠⚠ E o extrator do `conferir-catalogo.py` estava ancorado no TÍTULO com a contagem dentro.** *`fatia_da_peca('## 4. Os 20 degraus', '## 5. As 13 Manhas')`* — **renomear a seção para `As 14 Manhas` abriu as duas fatias uma dentro da outra, e ele devolveu `24` degraus e `0` Manhas.** *Números que não existem, vindos de âncora vencida e não de conteúdo errado.* **É a lição nº 9 pela porta do parser: contagem escrita dentro de um âncora envelhece igual a contagem escrita em prosa.** *Os âncoras passaram a ser o número da seção.*
+
+### A tabela de energia do Fundamento perdeu a coluna que ninguém usa
+
+***Palavras dele:*** *"a tabela de energia… `quantas vezes você lança o seu melhor feitiço` — isso é inútil, nenhum player quer saber disso."*
+
+**A coluna saiu, e com ela o parágrafo de quatro linhas que existia só para explicar como lê-la.** *E o rótulo `Energia` virou `Valores dos feitiços de Classe 1 a 7`, porque ele vinha logo depois da Liberação Máxima e da Técnica Máxima e fazia parecer que a tabela era sobre elas.*
+
+> **A tabela do MANUAL não se moveu.** *Ela é uma das quatro compartilhadas e o dono dela é o projeto — ela segura o `6` do Emanador, a fórmula do PE máximo e o orçamento de missão.* **O que saiu foi a cópia dela no livro do jogador.**
+
+### E o `cobrir-se` ganhou mecânica de dano — a `Defesa sem Armadura` junto
+
+***Decisão dele:*** *"notei que o `cobrir-se` não recebeu mecânica."*
+
+> **Enquanto a proteção estiver de pé, os seus ataques com arma causam `1d4` a mais a cada `3` pontos de refino** — `1d4` no `3`, `2d4` no `6`, `3d4` no `9`. **No refino `10` os dados viram `d6`.**
+
+**A `Defesa sem Armadura` recebe a mesma coisa, escalando com Lapidação.**
+
+**Duas travas, e as duas são dele:** *o dano **só vale em ataque com arma** — não entra em feitiço nem em Kata —, e **se o ataque já estiver somando um feitiço de dano de `Classe 0` ou mais, ele não se soma por cima.* **O exemplar é o nível 2 da `Brasa`, que põe um `Classe 0` junto do soco.**
+
+> ***Declarado como não balanceado, por decisão dele:*** *"futuramente a gente balanceia isso, só faz a modificação."* **Nenhuma conta foi rodada em cima destes dados, e o registro diz isso em vez de fingir que foram.**
+
+### Medido depois
+
+| | v0.146 | v0.147 |
+|---|---|---|
+| peças de regra · validadores · checagens | 24 · 24 · 251 | iguais |
+| entradas do catálogo | 89 | **90** |
+| Manhas | 13 | **14** |
+| palavras do livro | 70.052 | **70.590** |
+| coluna única | 239 páginas | **242** |
+| duas colunas | 139 páginas | **139** |
+| tabelas do livro | 182 | **181** |
+| marcas de "ainda não existe" | 7 | **7** |
+| `conferir-voz --estrito` | 0 achados · 11 triagens | **0 achados · 11 triagens** |
+
+*Os 24 validadores verdes com `PULADA = 0`, o `conferir-repositorio.py`, os dois de `manual/matematica/` e os quatro builds.* **As duas colunas não se moveram**, e a coluna única subiu três — *as sete linhas de `Destrancas`, a seção `Criar o seu Legado`, a `Versado` e os dois blocos de dano na arma pesam mais do que os sete blocos de `Traços` e a coluna do Fundamento que saíram.*
+
+*`guard_numeros.py` nos seis capítulos mexidos, com cada diferença lida contra a linha que a carregava.* **O capítulo 6, das Origens, saiu com a notação de número IDÊNTICA** — *os `Traços` que saíram não carregavam número nenhum, e é isso que faz o corte deles ser barato.*
+
+> **⚠ E a checagem 7.5, que nasceu ontem, pegou o build atrasado nesta versão.** *Os seis arquivos-fonte tinham mudado e os quatro artefatos ainda eram os da v0.146.* **Primeira vez que ela acende de verdade.**
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **Duas dívidas de preço novas**, e as duas são versão própria: *o vão do nível 7, que a inversão do ataque extra deixou pendurado, e as quatro Manhas que ganharam portão sem repreço.* **Nenhuma trava a mesa.**
+
+---
+
 ## [0.146] — 24/08/2026
 
 **Achado do Mizuki lendo o PDF da v0.145:** *"a `Maestria` (título) e o texto tá meio bugadinho, posicionamento… ficou meio como um vão"*. **Ele está certo, e não era quebra ruim: era o título ficando do lado errado da fronteira entre dois fluxos.**

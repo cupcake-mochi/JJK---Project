@@ -67,13 +67,15 @@ Nenhuma quantidade de requisito de Força, nenhuma tabela de arma e nenhum ajust
 >
 > **A peça 6 §3.1 sempre teve a linha `feitiço de Toque + golpe simples` marcada como EXISTENTE na tabela dos três turnos.** *O que faltava não era refazer conta — era dizer de onde o golpe vinha, e aquela seção já tinha escrito a resposta como "anotado, não decidido".*
 >
-> **De onde ele vem: do ataque extra do nível 7, que é um golpe solto por rodada e não exige a Ação de Atacar.** *Decidido na v0.82 e escrito na peça 6 §3.1, com validador em cima.*
+> **De onde ele vem: do ataque extra do nível 7, que é um golpe simples por rodada e EXIGE a Ação de Atacar.** *Escrito na peça 6 §3.1, com validador em cima.* **A v0.147 inverteu a forma que a v0.82 tinha decidido**, e o motivo está lá.
 >
-> **A alternativa foi medida antes de ser descartada, senão isto seria gosto e não conta.** Com o ataque extra preso à Ação de Atacar, dois golpes rendem `23` no nível 30 e **um Classe 0 grátis rende `27`**. *A habilidade de nível 7 de dois Caminhos perderia para o botão que toda ficha já tem, ninguém usaria a Ação de Atacar, e o físico e o conjurador terminariam idênticos em `60,50` de dano por rodada.*
+> **⚠⚠ E A v0.147 INVERTEU ESTA DECISÃO, por achado de mesa.** *A v0.82 tinha medido o custo da alternativa e registrado: com o ataque extra preso à Ação de Atacar, dois golpes rendem `23` no nível 30 contra `27` de um Classe 0 grátis, e a Ação de Atacar fica dominada pelo botão que toda ficha já tem.* **Essa medida continua de pé, e o Mizuki decidiu pagar ela.**
 >
-> ***O achado é do Mizuki, e ele veio de uma pergunta e não de uma conta:*** *"já é um ataque extra, é uma mecânica forte, não acho que precisa disso."* **Ele estava certo, e três mensagens de orçamento tinham sido construídas em cima da premissa errada.**
+> ***O motivo dele é concreto e a v0.82 não podia tê-lo visto:*** *o `Bote`, nível 19 da `Estocada`, entrega "usar o ataque extra na Ação Bônus quando o feitiço da Padrão for de condição".* **Com o golpe solto, isso já acontecia sozinho — o `Bote` valia ZERO e estava preçado em `2,46` fatias.** *Uma entrega publicada que não entrega nada é pior do que uma dominância declarada.*
 >
-> **Nenhum número se moveu.** O vão continua `9 · 10 · 11 · 12`, o nível 7 continua de graça nos cinco Caminhos, e o `Arremate` e o `Resquício` continuam como estavam.
+> **A forma nova traz a válvula que faltava:** *"a não ser que uma habilidade diga o contrário"*. **É por ela que o `Bote` volta a valer, e é ela que qualquer Trilha futura usa para comprar a exceção em vez de recebê-la de graça.**
+>
+> **⚠ O que isso deixa em aberto está declarado na peça 6 §3.1**, e não foi fechado nesta versão: *o vão `físico − conjurador` foi construído sobre a forma antiga, e ele é quem paga o degrau de nível 7 dos cinco Caminhos.*
 
 A obra já deu a resposta, e ela é uma das aptidões básicas que todo feiticeiro tem: **você empurra energia amaldiçoada pelo corpo e pela arma.** É por isso que um feiticeiro consegue ferir uma maldição e uma pessoa comum não.
 

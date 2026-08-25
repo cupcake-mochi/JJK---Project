@@ -28,7 +28,7 @@ Ela não estava escrita em lugar nenhum, e é por isso que a contagem publicada 
 | as três rotas do `Batedor` | **12** — três rotas × quatro níveis | a rota se escolhe no nível 2 e vale a campanha. **A matriz da Vanguarda já entra com cinco linhas e não três** justamente porque as três são fichas diferentes |
 | a `Pegada` do `Executor` | **4** | a lista de estilos é menu de um degrau. Quem escolhe estilo continua sendo um `Executor` |
 | a `Sintonia` do Evocador | **4** | mesma forma da `Pegada` — `Presa`, `Casco` e `Voz` são três linhas de um degrau, não três Trilhas |
-| a `Escola de Arma` da Vanguarda | **1 degrau + 13 Manhas** | o degrau é um; as Manhas são catálogo próprio, e por isso elas têm seção separada aqui |
+| a `Escola de Arma` da Vanguarda | **1 degrau + 14 Manhas** | o degrau é um; as Manhas são catálogo próprio, e por isso elas têm seção separada aqui |
 
 *Sem essa regra a contagem não fecha duas vezes seguidas do mesmo jeito, e foi o que aconteceu: a v0.84 publicou `48` entregas com a divisão `Estocada 4 · Batedor 8 · o resto 5`, e recontando dos arquivos sai outra divisão com o mesmo total. **Total que fecha por caminhos diferentes é total que ninguém está conferindo.***
 
@@ -98,11 +98,13 @@ O nível 7 do Bastião e o da Vanguarda são **a mesma coisa** — o ataque extr
 
 *O degrau continua sendo a unidade: são vinte, e não vinte e um nem dezenove.*
 
-## 5. As 13 Manhas
+## 5. As 14 Manhas
 
-Uma por categoria de arma, todas com nome, todas em **`DESENHO-manhas.md`**, na seção *"O catálogo"*.
+Treze são uma por categoria de arma; a décima quarta se leva **no lugar** da sua. Todas com nome, todas em **`DESENHO-manhas.md`**, na seção *"O catálogo"*.
 
-`Talho` · `Raspão` · `Abalo` · `Tranco` · `Encaixe` · `Racho` · `Gancho` · `Espeto` · `Laço` · `Palmo` · `Zunido` · `Prego` · `Estampido`
+`Talho` · `Raspão` · `Abalo` · `Tranco` · `Encaixe` · `Racho` · `Gancho` · `Espeto` · `Laço` · `Palmo` · `Zunido` · `Prego` · `Estampido` · `Versado`
+
+> **A `Versado` entrou na v0.147 e ela não é de categoria nenhuma.** *Ela existe para quem troca de arma no meio da luta, e por isso substitui a Manha da categoria escolhida em vez de somar com ela.* **Conta como entrada própria pela regra da seção 1** — ela tem nome e regra próprios, e não é menu dentro de degrau.
 
 > **Elas são a única das três famílias sem bloco de regra separado.** *O texto de mesa delas é a coluna `o que faz` da própria tabela de preço.* **Então a checagem de "tabela e bloco batem" não tem o que comparar aqui** — e isso é propriedade do formato, não dívida.
 
@@ -112,8 +114,8 @@ Uma por categoria de arma, todas com nome, todas em **`DESENHO-manhas.md`**, na 
 |---|---|---|---|---|
 | entregas de Trilha | **56** | 55 | **0** | 1 |
 | degraus de Caminho | **20** | 20 | 0 | 0 |
-| Manhas | **13** | 13 | 0 | 0 |
-| **total** | **89** | **88** | **0** | **1** |
+| Manhas | **14** | 14 | 0 | 0 |
+| **total** | **90** | **89** | **0** | **1** |
 
 **Nenhum nome falta.** *As 21 vagas que existiam na v0.86 fecharam na v0.87 — o Bastião inteiro, a `Estocada`, a `Torrente` e o `Batedor`.* **A única casa sem nome do sistema é a vaga do `Arremate`, e ela é de propósito.**
 

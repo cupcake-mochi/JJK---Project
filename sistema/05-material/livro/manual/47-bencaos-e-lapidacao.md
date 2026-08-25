@@ -97,7 +97,11 @@ Estas duas chegam com a ficha, na Lapidação 1, sem custar marco nenhum.
 >
 > **O Acerto garantido de uma Expansão de Domínio completa não alcança você.** O Efeito continua acontecendo em volta, e uma Expansão incompleta funciona normalmente, porque o Acerto dela rola.
 >
-> Requisito: grátis na Lapidação 1. A Lapidação escala a proteção.
+> **Dano na arma.** Enquanto a proteção estiver de pé, os seus ataques **com arma** causam `1d4` de dano a mais a cada `3` pontos de Lapidação — `1d4` na Lapidação `3`, `2d4` na `6`, `3d4` na `9`. **Na Lapidação `10` os dados viram `d6`.**
+>
+> **Só arma.** Ele não entra em feitiço nem em Kata. E se o seu ataque já estiver somando um feitiço de dano de `Classe 0` ou mais, este dano **não** se soma por cima.
+>
+> Requisito: grátis na Lapidação 1. A Lapidação escala a proteção e o dano na arma.
 
 **Vestir Traje ou Revestimento desliga só a proteção.** A barreira e o Acerto garantido continuam valendo: eles vêm de você não ter energia amaldiçoada, e uniforme nenhum te dá uma.
 

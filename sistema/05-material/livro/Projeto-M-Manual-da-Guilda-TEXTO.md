@@ -1938,7 +1938,7 @@ Todo personagem começa **Grau 4**, venha de onde vier. A patente é eixo social
 
 Toda Origem abre pela frase que a resume, seguida do que é ser aquilo no mundo e de quem a carrega na obra.
 
-Depois vem **Efeito na ficha**, sempre na mesma ordem: as **Perícias**, a lista de quatro de onde você escolhe uma; os **Traços**, três sugestões que você usa como estão ou troca por uma escrita por você; e a **Criação**, a rota por onde você monta o seu poder. As duas Origens especiais mexem nessa rota, e o texto delas diz como.
+Depois vem **Efeito na ficha**, sempre na mesma ordem: as **Perícias**, a lista de quatro de onde você escolhe uma; os **Destrancas**, que dizem quantos Legados a ficha leva; e a **Criação**, a rota por onde você monta o seu poder. As duas Origens especiais mexem nessa rota, e o texto delas diz como.
 
 Por último vêm os **Legados** da Origem, nos três formatos.
 
@@ -1983,11 +1983,9 @@ A maioria vale sempre, sem contagem. E cada entrada diz o que você paga em troc
 
 Escolha uma: Sentir Energia · Sobrevivência · Furtividade · Intuição
 
-#### Traços
+#### Destrancas
 
-- o professor que você não teve
-- a primeira vez em que quase morreu
-- alguém comum que sabe o que você é
+Você começa toda a ficha com um `Destranca` e um `Ajusta` ou `Desliga`.
 
 #### Criação
 
@@ -2047,11 +2045,9 @@ Fundamento, do jeito padrão.
 
 Escolha uma: Sentir Energia · Ocultismo · Intuição · Religião
 
-#### Traços
+#### Destrancas
 
-- o que ele quer, e não é o que você quer
-- a testemunha do dia em que aconteceu
-- a instituição sabe, e está observando
+Você começa toda a ficha com um `Destranca` e um `Ajusta` ou `Desliga`.
 
 #### Criação
 
@@ -2110,11 +2106,9 @@ Fundamento, do jeito padrão. O passageiro mora na ficção da mesa, e a montage
 
 Escolha uma: Hierarquia · História · Ocultismo · Persuasão
 
-#### Traços
+#### Destrancas
 
-- o casamento que já decidiram por você
-- o parente que você não pode desapontar
-- o ramo do clã que perdeu, e você é dele
+Você começa toda a ficha com um `Destranca` e um `Ajusta` ou `Desliga`.
 
 #### Criação
 
@@ -2178,11 +2172,9 @@ Fundamento, do jeito padrão.
 
 Escolha uma: História · Ocultismo · Investigação · Intimidação
 
-#### Traços
+#### Destrancas
 
-- o motivo pelo qual você aceitou voltar
-- alguém que te reconheceu de antes
-- a família do corpo que você está usando
+Você começa toda a ficha com um `Destranca` e um `Ajusta` ou `Desliga`.
 
 #### Criação
 
@@ -2242,11 +2234,9 @@ Fundamento, do jeito padrão.
 
 Escolha uma: Ocultismo · Medicina · Sentir Energia · Natureza
 
-#### Traços
+#### Destrancas
 
-- os irmãos, e o que aconteceu com eles
-- quem te fez, e onde essa pessoa está
-- o corpo que não envelhece igual
+Você começa toda a ficha com um `Destranca` e um `Ajusta` ou `Desliga`.
 
 #### Criação
 
@@ -2316,7 +2306,7 @@ Você não escreve Fundamento. Não tem Regra, não tem Famílias, não tem Selo
 
 Aptidão ou Estilo da Sombra.
 
-> **Sem Técnica não fecha ficha hoje.** O que já dá para fazer é a ficção inteira: você escreve quem o personagem é e escolhe os dois Legados normalmente. O que falta é a montagem do poder — nem a Aptidão nem o Estilo da Sombra têm regra de construção, e sem ela a ficha para no meio.
+> **Sem Técnica não fecha ficha hoje, e ela está sendo escrita.** O que já dá para fazer é a ficção inteira: você escreve quem o personagem é e escolhe os dois Legados normalmente. O que falta é a montagem do poder — nem a Aptidão nem o Estilo da Sombra têm regra de construção escrita ainda, e sem ela a ficha para no meio.
 
 ### Legado de Sem Técnica
 
@@ -2340,11 +2330,9 @@ Sem Fundamento, porque não existe técnica inata para escrever. Você tem energ
 
 Escolha uma: Atletismo · Percepção · Ocultismo · Intimidação
 
-#### Traços
+#### Destrancas
 
-- quem te fez, e o que essa pessoa esperava
-- o que as pessoas acham que você é
-- o núcleo que você ainda não usou na frente de ninguém
+Você começa toda a ficha com um `Destranca` e um `Ajusta` ou `Desliga`.
 
 #### Criação
 
@@ -2457,11 +2445,9 @@ A lista sai por ramo, e é a única Origem assim.
 
 Quem é do ramo sem energia não alcança `Sentir Energia` por lugar nenhum: ela é perícia de Essência, e essa é a percepção que a Origem não tem.
 
-#### Traços
+#### Destrancas
 
-- o clã que te descartou
-- a pessoa que te olha e vê o que você perdeu
-- a ferramenta que te acompanha desde criança
+Você começa toda a ficha com um `Destranca` e um `Ajusta` ou `Desliga`.
 
 ### Legados: Corpo pela Técnica
 
@@ -2541,20 +2527,25 @@ Quem é do ramo sem energia não alcança `Sentir Energia` por lugar nenhum: ela
 > **Assinado** — **uma vez por descanso longo, você não fica `Cego`.** Em troca, escreva na ficha uma coisa comum que você nunca vai conseguir fazer, e ela não volta em nível nenhum.
 > *Na mesa:* a cena de escuro e de clarão não te tira do jogo. *Exemplo: a técnica estoura luz na sala e você continua agindo.*
 
-## Rotas de criação
+## Criar o seu Legado
 
-**Rotas de criação**
-| Origem | Rota de criação | Jogável hoje |
-|---|---|---|
-| Latente | Fundamento | **sim** |
-| Receptáculo | Fundamento | **sim** |
-| Descendente | Fundamento | **sim** |
-| Reencarnado | Fundamento | **sim** |
-| Feto | Fundamento | **sim** |
-| *qualquer uma* **+ Sem Técnica** | Aptidão ou Estilo da Sombra | não: está sendo escrita |
-| Corpo Amaldiçoado | Técnica Marcial | **sim** |
-| Restrição Celestial · corpo pela técnica | Fundamento | **sim** |
-| Restrição Celestial · sem energia | Técnica Marcial | **sim** |
+As listas de cada Origem são exemplo, e não limite. Se nenhuma entrada serve para o personagem que você escreveu, você escreve a sua — do grupo que quiser — e leva ao mestre antes da primeira sessão.
+
+Use as publicadas como molde. Cada grupo tem uma forma fixa, e é ela que o mestre vai olhar.
+
+> **`Destranca`** — abre uma porta. Um lugar onde você é recebido, uma coisa que você sabe, uma pessoa que existe no mundo por sua causa. **Não mexe em acerto, CD nem dano, e nunca decide o que outra pessoa faz.** Só ganha relógio quando obriga o mestre a te entregar informação nova.
+
+> **`Ajusta`** — mexe num número de uma rolagem, quase sempre refazendo um teste falhado ou dando vantagem. **Ele carrega relógio sempre, e quanto mais largo o alcance, mais raro o relógio:** o que pega qualquer perícia vale por dia; o que pega uma situação só vale por cena.
+
+> **`Desliga`** — apaga uma coisa que aconteceria com você, sem rolagem, toda vez que a situação aparecer. **Ele só apaga o que ninguém comprou** — nunca anula uma habilidade, um feitiço ou um item de outra ficha. **E ele cobra uma troca escrita:** nenhum `Desliga` é só ganho.
+
+**A conta não muda.** Você continua levando um `Destranca` e um `Ajusta` ou `Desliga`, seja escrito por você ou tirado da lista.
+
+**Três coisas que nenhum Legado criado pode fazer**, e elas valem para os três grupos:
+
+- **dar técnica.** Técnica vem da Origem e do Fundamento, e Legado nenhum concede uma.
+- **decidir o que um personagem do mestre faz.** Você diz o que existe no mundo por sua causa; o que a pessoa faz com isso continua sendo dela.
+- **entregar acerto, Defesa ou vida direto.** Esses três são a moeda do resto do sistema.
 
 ---
 
@@ -2668,7 +2659,7 @@ E duas coisas que quase todo degrau daqui menciona:
 > **Nível 2: `Corpo Duro`.** *Reação.* Ao ser atingido, você reduz o dano em **o seu nível + 1d6**. Isso é o `Absorver`.
 > **Você tem usos iguais à sua Constituição, e eles voltam no descanso longo.**
 >
-> **Nível 7: Ataque extra.** Você ganha **um golpe simples solto por rodada**. Ele não exige a Ação de Atacar: acontece junto do que a sua Ação Padrão fez naquele turno, inclusive quando ela conjurou.
+> **Nível 7: Ataque extra.** Você ganha **um golpe simples por rodada**. Ele exige a Ação de Atacar: acontece junto do que a sua Ação Padrão fez naquele turno, e só nesse caso — a não ser que uma habilidade diga o contrário.
 >
 > **Nível 15: `Puxar Para Si`.** *Reação.* Quando um inimigo a até 1,5 m ataca **outra pessoa**, o ataque passa a ter **você** como alvo.
 > **Gastando `2` PE, você aplica o `Absorver` no mesmo golpe**, sem gastar um uso dele.
@@ -2746,7 +2737,7 @@ E duas coisas que quase todo degrau daqui menciona:
 
 > **Nível 2: `Escola de Arma`.** **Escolha uma das treze categorias de arma.** Com armas daquela categoria você usa a **Manha** dela. *As treze estão na seção seguinte.*
 >
-> **Nível 7: Ataque extra.** Você ganha **um golpe simples solto por rodada**. Ele não exige a Ação de Atacar: acontece junto do que a sua Ação Padrão fez naquele turno, inclusive quando ela conjurou.
+> **Nível 7: Ataque extra.** Você ganha **um golpe simples por rodada**. Ele exige a Ação de Atacar: acontece junto do que a sua Ação Padrão fez naquele turno, e só nesse caso — a não ser que uma habilidade diga o contrário.
 >
 > **Nível 15: `Não Cede`.** **Quando você falha num Teste de Resistência, role de novo e use o segundo resultado.**
 > **`Maestria` vezes por descanso curto (`1` no nível 2, `4` no 30) e no máximo uma por rodada.**
@@ -2766,23 +2757,45 @@ A Manha entrega o que a sua categoria sabe fazer além de causar dano. Você usa
 A Manha dá identidade à sua ficha. Você vira a pessoa do machado, a pessoa da corrente, a pessoa do fuzil, e o grupo aprende a jogar em volta do que a sua arma faz com a posição do inimigo.
 
 **Manhas**
-| Categoria | Manha | O que faz |
-|---|---|---|
-| Lâmina Curta | `Talho` | `+1` no acerto contra alvo que já levou dano seu nesta luta |
-| Lâmina Longa | `Raspão` | o ataque que **erra** ainda causa o seu atributo |
-| Massa | `Abalo` | o alvo cai: condição `Derrubado` |
-| Porrete | `Tranco` | desvantagem no próximo ataque do alvo |
-| Manopla | `Encaixe` | `+2` de Defesa até o seu próximo turno, se você acertou |
-| Machado | `Racho` | o golpe pega um segundo alvo ao seu alcance |
-| Ceifa | `Gancho` | você puxa o alvo `6 m` para perto de você |
-| Armas Longas | `Espeto` | você empurra o alvo `6 m`, e ele não te acompanha |
-| Flexível | `Laço` | o alvo perde o deslocamento inteiro do próximo turno |
-| Arremesso | `Palmo` | `+1` no acerto do próximo arremesso contra o mesmo alvo |
-| Yumi | `Zunido` | o tiro que **erra** ainda causa o seu atributo |
-| Balestra | `Prego` | o alvo perde `9 m` do deslocamento do próximo turno |
-| Arma de Fogo | `Estampido` | todo aliado que enxerga tem `+1` no próximo ataque contra o alvo |
+| Categoria | Manha | O que faz | Teste de Resistência |
+|---|---|---|---|
+| Lâmina Curta | `Talho` | `+1` no acerto contra alvo que já levou dano seu nesta luta | — |
+| Lâmina Longa | `Raspão` | o ataque que **erra** ainda causa o seu atributo | — |
+| Massa | `Abalo` | o alvo cai: condição `Derrubado` | **Físico** |
+| Porrete | `Tranco` | desvantagem no próximo ataque do alvo | **Vigor** |
+| Manopla | `Encaixe` | `+2` de Defesa até o seu próximo turno, se você acertou | — |
+| Machado | `Racho` | o golpe pega um segundo alvo ao seu alcance | — |
+| Ceifa | `Gancho` | você puxa o alvo `6 m` para perto de você | **Físico** |
+| Armas Longas | `Espeto` | você empurra o alvo `6 m`, e ele não te acompanha | **Físico** |
+| Flexível | `Laço` | o alvo perde o deslocamento inteiro do próximo turno | **Físico** |
+| Arremesso | `Palmo` | `+1` no acerto do próximo arremesso contra o mesmo alvo | — |
+| Yumi | `Zunido` | o tiro que **erra** ainda causa o seu atributo | — |
+| Balestra | `Prego` | o alvo perde `9 m` do deslocamento do próximo turno | **Vigor** |
+| Arma de Fogo | `Estampido` | todo aliado que enxerga tem `+1` no próximo ataque contra o alvo | — |
+
+> **Manha que mexe no alvo pede Teste de Resistência, e dispara uma vez por rodada.**
+>
+> **Quando.** Você acertou o ataque, e a Manha da sua categoria tem Teste de Resistência na tabela `Manhas`.
+>
+> **Como.** O alvo rola o Teste de Resistência que a tabela `Manhas` nomeia, contra a sua CD. Se passar, o efeito não acontece — o dano do golpe acontece do mesmo jeito.
+>
+> **Uma vez por rodada.** Não importa quantos golpes você deu: a Manha cobra Teste de Resistência de um alvo por rodada, e você escolhe qual.
+>
+> **As que não pedem** são as que mexem em você ou no seu próprio dado — `Talho`, `Raspão`, `Encaixe`, `Racho`, `Palmo`, `Zunido` e `Estampido`. *Elas não fazem ninguém rolar nada, e por isso também não têm limite por rodada.*
 
 > **A Manha nunca é dado de dano.** Ela mexe em onde as pessoas estão, em quem é atingido, e em quanto a próxima rolagem custa. Valor fixo de dano ela pode dar. Dado de dano é assunto do equipamento.
+
+#### `Versado`
+
+Quem troca de arma no meio da luta pode levar esta **no lugar da Manha da sua categoria**.
+
+> **`Versado`** — guardar uma arma e sacar outra passa a ser **um gesto só**, e não dois. Até o começo do seu próximo turno, você tem **`+1` no acerto** com a arma que acabou de sacar.
+>
+> **Quando.** Uma vez por rodada, no seu turno.
+>
+> **O que ela substitui.** A Manha da categoria que você escolheu na `Escola de Arma`. Você não leva as duas.
+
+*Sacar ou guardar um item já é de graça no turno; do segundo em diante custa a Ação de Movimento inteira, no capítulo 2, `O Turno`. É esse segundo gesto que a `Versado` paga.*
 
 ### Trilha: Estocada
 
@@ -3281,20 +3294,15 @@ Conjurar um feitiço custa **3 × Classe** de PE, o mesmo número dos pontos del
 
 Com um conjurador ganhando 6 PE por nível, isso dá:
 
-**Energia**
-| Nível | PE total | Maior Classe | Custo | Quantas vezes você lança o seu melhor feitiço |
-|---|---|---|---|---|
-| 1 | 6 | 1 | 3 | 2 |
-| 5 | 30 | 2 | 6 | 5 |
-| 9 | 54 | 3 | 9 | 6 |
-| 13 | 78 | 4 | 12 | 6 |
-| 17 | 102 | 5 | 15 | 6 |
-| 20 | 120 | 5 | 15 | 8 |
-
-> **Essa última coluna é um teto, e não um dia.**
-> Ela responde uma pergunta só: quantas vezes cabe, se você não fizer mais nada com o seu PE.
-> Um dia de verdade tem outras despesas ao mesmo tempo. Tem efeito que cobra PE **por rodada** enquanto está ligado, e a Integridade encarece todo feitiço quando o segundo estágio dela acende.
-> Leia a coluna como limite superior.
+**Valores dos feitiços de Classe 1 a 7**
+| Nível | PE total | Maior Classe | Custo |
+|---|---|---|---|
+| 1 | 6 | 1 | 3 |
+| 5 | 30 | 2 | 6 |
+| 9 | 54 | 3 | 9 |
+| 13 | 78 | 4 | 12 |
+| 17 | 102 | 5 | 15 |
+| 20 | 120 | 5 | 15 |
 
 ### Classe 0
 
@@ -4457,7 +4465,7 @@ Na rota de ferramenta, o objeto declara qual dos dois é na criação — uma li
 > **Coisa que o golpe atravessa** — armadura, manopla, máscara, coturno. O seu golpe simples fere maldição.
 > **Coisa que você só carrega** — câmera, lanterna, maleta, instrumento. O seu golpe simples não fere maldição, e as suas Katas continuam ferindo.
 
-> **⚠ Escolha com cuidado, porque ela cobra tarde.** O ataque extra que Bastião e Vanguarda ganham no nível 7 é um golpe simples solto. Se o seu objeto é do tipo que você só carrega, esses dois Caminhos passam a valer bem menos na sua ficha.
+> **⚠ Escolha com cuidado, porque ela cobra tarde.** O ataque extra que Bastião e Vanguarda ganham no nível 7 é um golpe simples, e ele sai na Ação de Atacar. Se o seu objeto é do tipo que você só carrega, esses dois Caminhos passam a valer bem menos na sua ficha.
 > **O Corpo Amaldiçoado fere maldição com o golpe simples, seja qual for o objeto.** Ele tem energia amaldiçoada, então tem aptidões e refino normais — e com eles o `Canalizar energia` de graça no refino 1. **O equipamento continua obrigatório**, porque ele é o Selo, e sem Selo não sai Kata.
 
 ## `Desarmado`
@@ -4723,9 +4731,13 @@ Estas duas chegam com a ficha, no refino 1, sem custar marco nenhum. Elas são o
 >
 > Como Reação, você concentra a energia no impacto: Redução de Dano de `1,5 × refino` num golpe, por **2 PE**. Você fica sem proteção até o fim do seu próximo turno.
 >
-> Requisito: grátis no refino 1. O refino escala a proteção e a Redução de Dano da Reação.
+> **Dano na arma.** Enquanto a proteção estiver de pé, os seus ataques **com arma** causam `1d4` de dano a mais a cada `3` pontos de refino — `1d4` no refino `3`, `2d4` no `6`, `3d4` no `9`. **No refino `10` os dados viram `d6`.**
+>
+> **Só arma.** Ele não entra em feitiço nem em Kata. E se o seu ataque já estiver somando um feitiço de dano de `Classe 0` ou mais — como no nível 2 da `Brasa`, que põe um `Classe 0` junto do soco —, este dano **não** se soma por cima.
+>
+> Requisito: grátis no refino 1. O refino escala a proteção, o dano na arma e a Redução de Dano da Reação.
 
-> **Exemplo.** Com refino 6 a sua proteção passiva é 3, e a Reação desconta 9 de um golpe por 2 PE.
+> **Exemplo.** Com refino 6 a sua proteção passiva é 3, o soco dela leva `2d4` a mais, e a Reação desconta 9 de um golpe por 2 PE.
 
 A proteção é um piso. Ela sustenta o feiticeiro que não investiu em corpo nenhum, e sai de cena assim que Traje ou Revestimento entram na conta.
 
@@ -5063,7 +5075,11 @@ Estas duas chegam com a ficha, na Lapidação 1, sem custar marco nenhum.
 >
 > **O Acerto garantido de uma Expansão de Domínio completa não alcança você.** O Efeito continua acontecendo em volta, e uma Expansão incompleta funciona normalmente, porque o Acerto dela rola.
 >
-> Requisito: grátis na Lapidação 1. A Lapidação escala a proteção.
+> **Dano na arma.** Enquanto a proteção estiver de pé, os seus ataques **com arma** causam `1d4` de dano a mais a cada `3` pontos de Lapidação — `1d4` na Lapidação `3`, `2d4` na `6`, `3d4` na `9`. **Na Lapidação `10` os dados viram `d6`.**
+>
+> **Só arma.** Ele não entra em feitiço nem em Kata. E se o seu ataque já estiver somando um feitiço de dano de `Classe 0` ou mais, este dano **não** se soma por cima.
+>
+> Requisito: grátis na Lapidação 1. A Lapidação escala a proteção e o dano na arma.
 
 **Vestir Traje ou Revestimento desliga só a proteção.** A barreira e o Acerto garantido continuam valendo: eles vêm de você não ter energia amaldiçoada, e uniforme nenhum te dá uma.
 
@@ -6479,4 +6495,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: 6aa314ea5790b5a604c09046d9ee325e3be56a8a -->
+<!-- fonte: a6a2f70a82c8d6064cb8ac03f3180ceaf4a6c514 -->

@@ -235,11 +235,21 @@ Com um golpe na Ação Bônus, o conjurador de perto cai exatamente na linha do 
 
 > **O que isso destrava:** toda entrega de Trilha que se pendura em *"se você usou a ação de atacar"* **não dispara na rodada em que o personagem canaliza.** *É o que faz o nível 2 da `Brasa` ser preçado por taxa em vez de somado no pico.*
 >
-> ## O ataque extra é um golpe SOLTO por rodada — decidido na v0.82
+> ## O ataque extra EXIGE a Ação de Atacar — invertido na v0.147
 >
-> **Ele não exige a Ação de Atacar.** *Quem tem ataque extra ganha um golpe simples por rodada, e ele acontece junto do que a Ação Padrão fez naquele turno — inclusive quando ela conjurou.*
+> > **Você ganha um golpe simples por rodada. Ele exige a Ação de Atacar: acontece junto do que a sua Ação Padrão fez naquele turno, e só nesse caso — a não ser que uma habilidade diga o contrário.**
 >
-> **Isto é o que faz o `105,5` da linha do físico reconstruir**, e a v0.81 já tinha escrito a leitura sem decidir por ela.
+> ***Decisão do Mizuki na v0.147, e ela reverte a da v0.82.*** *O motivo é uma entrega publicada que valia zero:* **o `Bote`, nível 19 da `Estocada`, compra "usar o ataque extra na Ação Bônus quando o feitiço da Padrão for de condição" por `2,46` fatias.** *Com o golpe solto, aquilo já acontecia sozinho.* **Uma entrega preçada que não entrega nada é pior do que uma dominância declarada, e as duas estavam medidas.**
+>
+> **A cláusula final é a válvula, e ela é o que faz a forma nova funcionar:** *"a não ser que uma habilidade diga o contrário"*. **É por ela que o `Bote` volta a valer, e é onde qualquer Trilha futura compra a exceção em vez de recebê-la de graça.**
+>
+> ### ⚠⚠ O que esta inversão deixa ABERTO, e não foi fechado na v0.147
+>
+> **O vão `físico − conjurador` do §3 foi construído sobre a forma antiga**, e é ele que paga o degrau de nível 7 dos cinco Caminhos. *A tabela abaixo é da v0.82 e continua aqui como o que era verdade sob aquela forma — ela não descreve mais a regra.*
+>
+> **As duas coisas que precisam ser refeitas quando alguém pegar isto:** *o vão em si, que sob a forma nova vale zero na rodada em que o físico conjura; e as três Trilhas cujo preço se pendura nele.* **Nenhum número publicado foi mexido nesta versão, de propósito** — repreçar o degrau de nível 7 dos cinco Caminhos é versão própria, e fazer meio dela deixaria o catálogo com dois modelos dentro.
+>
+> #### A leitura da v0.82, que a inversão aposentou
 >
 > | a rodada, no nível 30 | conjurador | físico | a diferença |
 > |---|---|---|---|
@@ -248,9 +258,9 @@ Com um golpe na Ação Bônus, o conjurador de perto cai exatamente na linha do 
 >
 > **A diferença é a mesma nas duas, e ela é exatamente um golpe simples** — que é o que a tabela do §3 publica como o vão, `9 · 10 · 11 · 12` por faixa de nível. *A conta reproduz uma coisa que não foi posta nela.*
 >
-> **A alternativa reprova, e por dominância e não por orçamento.** Com o ataque extra preso à Ação de Atacar, dois golpes rendem `23` e o Classe 0 que toda ficha já tem de graça rende `27`. **A habilidade de nível 7 de dois Caminhos perderia para o botão grátis**, a Ação de Atacar nunca seria usada, e os dois perfis terminariam idênticos em `60,50` por rodada.
+> **E o custo da forma nova está medido, desde a v0.82:** com o ataque extra preso à Ação de Atacar, dois golpes rendem `23` e o Classe 0 que toda ficha tem de graça rende `27`. **A Ação de Atacar fica dominada pelo botão grátis.** *Aquela versão usou isso para recusar a forma; esta versão a escolhe sabendo o preço.*
 >
-> ***Achado do Mizuki, perguntando por que o ataque extra precisaria de pagamento nenhum.***
+> ***A decisão de pagar esse preço é do Mizuki, e o que ela compra é o `Bote` deixar de ser letra morta.***
 >
 > **E a v0.81 registrou no CHANGELOG a frase contrária** — *"o ataque extra sempre exige a Ação de Atacar, como no 5e"*. *Ela contradizia a tabela dos três turnos acima, que já marcava a linha do físico como existente. **Esta seção é a dona; o CHANGELOG registra o que se pensou naquele dia.***
 

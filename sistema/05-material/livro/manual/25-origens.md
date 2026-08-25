@@ -37,7 +37,7 @@ Todo personagem começa **Grau 4**, venha de onde vier. A patente é eixo social
 
 Toda Origem abre pela frase que a resume, seguida do que é ser aquilo no mundo e de quem a carrega na obra.
 
-Depois vem **Efeito na ficha**, sempre na mesma ordem: as **Perícias**, a lista de quatro de onde você escolhe uma; os **Traços**, três sugestões que você usa como estão ou troca por uma escrita por você; e a **Criação**, a rota por onde você monta o seu poder. As duas Origens especiais mexem nessa rota, e o texto delas diz como.
+Depois vem **Efeito na ficha**, sempre na mesma ordem: as **Perícias**, a lista de quatro de onde você escolhe uma; os **Destrancas**, que dizem quantos Legados a ficha leva; e a **Criação**, a rota por onde você monta o seu poder. As duas Origens especiais mexem nessa rota, e o texto delas diz como.
 
 Por último vêm os **Legados** da Origem, nos três formatos.
 
@@ -82,11 +82,9 @@ A maioria vale sempre, sem contagem. E cada entrada diz o que você paga em troc
 
 Escolha uma: Sentir Energia · Sobrevivência · Furtividade · Intuição
 
-#### Traços
+#### Destrancas
 
-- o professor que você não teve
-- a primeira vez em que quase morreu
-- alguém comum que sabe o que você é
+Você começa toda a ficha com um `Destranca` e um `Ajusta` ou `Desliga`.
 
 #### Criação
 
@@ -146,11 +144,9 @@ Fundamento, do jeito padrão.
 
 Escolha uma: Sentir Energia · Ocultismo · Intuição · Religião
 
-#### Traços
+#### Destrancas
 
-- o que ele quer, e não é o que você quer
-- a testemunha do dia em que aconteceu
-- a instituição sabe, e está observando
+Você começa toda a ficha com um `Destranca` e um `Ajusta` ou `Desliga`.
 
 #### Criação
 
@@ -209,11 +205,9 @@ Fundamento, do jeito padrão. O passageiro mora na ficção da mesa, e a montage
 
 Escolha uma: Hierarquia · História · Ocultismo · Persuasão
 
-#### Traços
+#### Destrancas
 
-- o casamento que já decidiram por você
-- o parente que você não pode desapontar
-- o ramo do clã que perdeu, e você é dele
+Você começa toda a ficha com um `Destranca` e um `Ajusta` ou `Desliga`.
 
 #### Criação
 
@@ -277,11 +271,9 @@ Fundamento, do jeito padrão.
 
 Escolha uma: História · Ocultismo · Investigação · Intimidação
 
-#### Traços
+#### Destrancas
 
-- o motivo pelo qual você aceitou voltar
-- alguém que te reconheceu de antes
-- a família do corpo que você está usando
+Você começa toda a ficha com um `Destranca` e um `Ajusta` ou `Desliga`.
 
 #### Criação
 
@@ -341,11 +333,9 @@ Fundamento, do jeito padrão.
 
 Escolha uma: Ocultismo · Medicina · Sentir Energia · Natureza
 
-#### Traços
+#### Destrancas
 
-- os irmãos, e o que aconteceu com eles
-- quem te fez, e onde essa pessoa está
-- o corpo que não envelhece igual
+Você começa toda a ficha com um `Destranca` e um `Ajusta` ou `Desliga`.
 
 #### Criação
 
@@ -415,7 +405,7 @@ Você não escreve Fundamento. Não tem Regra, não tem Famílias, não tem Selo
 
 Aptidão ou Estilo da Sombra.
 
-> **Sem Técnica não fecha ficha hoje.** O que já dá para fazer é a ficção inteira: você escreve quem o personagem é e escolhe os dois Legados normalmente. O que falta é a montagem do poder — nem a Aptidão nem o Estilo da Sombra têm regra de construção, e sem ela a ficha para no meio.
+> **Sem Técnica não fecha ficha hoje, e ela está sendo escrita.** O que já dá para fazer é a ficção inteira: você escreve quem o personagem é e escolhe os dois Legados normalmente. O que falta é a montagem do poder — nem a Aptidão nem o Estilo da Sombra têm regra de construção escrita ainda, e sem ela a ficha para no meio.
 
 ### Legado de Sem Técnica
 
@@ -439,11 +429,9 @@ Sem Fundamento, porque não existe técnica inata para escrever. Você tem energ
 
 Escolha uma: Atletismo · Percepção · Ocultismo · Intimidação
 
-#### Traços
+#### Destrancas
 
-- quem te fez, e o que essa pessoa esperava
-- o que as pessoas acham que você é
-- o núcleo que você ainda não usou na frente de ninguém
+Você começa toda a ficha com um `Destranca` e um `Ajusta` ou `Desliga`.
 
 #### Criação
 
@@ -560,11 +548,9 @@ A lista sai por ramo, e é a única Origem assim.
 
 Quem é do ramo sem energia não alcança `Sentir Energia` por lugar nenhum: ela é perícia de Essência, e essa é a percepção que a Origem não tem.
 
-#### Traços
+#### Destrancas
 
-- o clã que te descartou
-- a pessoa que te olha e vê o que você perdeu
-- a ferramenta que te acompanha desde criança
+Você começa toda a ficha com um `Destranca` e um `Ajusta` ou `Desliga`.
 
 ### Legados: Corpo pela Técnica
 
@@ -644,19 +630,22 @@ Quem é do ramo sem energia não alcança `Sentir Energia` por lugar nenhum: ela
 > **Assinado** — **uma vez por descanso longo, você não fica `Cego`.** Em troca, escreva na ficha uma coisa comum que você nunca vai conseguir fazer, e ela não volta em nível nenhum.
 > *Na mesa:* a cena de escuro e de clarão não te tira do jogo. *Exemplo: a técnica estoura luz na sala e você continua agindo.*
 
-## Rotas de criação
+## Criar o seu Legado
 
-**Rotas de criação**
-{: .tab-titulo }
+As listas de cada Origem são exemplo, e não limite. Se nenhuma entrada serve para o personagem que você escreveu, você escreve a sua — do grupo que quiser — e leva ao mestre antes da primeira sessão.
 
-| Origem | Rota de criação | Jogável hoje |
-|---|---|---|
-| Latente | Fundamento | **sim** |
-| Receptáculo | Fundamento | **sim** |
-| Descendente | Fundamento | **sim** |
-| Reencarnado | Fundamento | **sim** |
-| Feto | Fundamento | **sim** |
-| *qualquer uma* **+ Sem Técnica** | Aptidão ou Estilo da Sombra | não: está sendo escrita |
-| Corpo Amaldiçoado | Técnica Marcial | **sim** |
-| Restrição Celestial · corpo pela técnica | Fundamento | **sim** |
-| Restrição Celestial · sem energia | Técnica Marcial | **sim** |
+Use as publicadas como molde. Cada grupo tem uma forma fixa, e é ela que o mestre vai olhar.
+
+> **`Destranca`** — abre uma porta. Um lugar onde você é recebido, uma coisa que você sabe, uma pessoa que existe no mundo por sua causa. **Não mexe em acerto, CD nem dano, e nunca decide o que outra pessoa faz.** Só ganha relógio quando obriga o mestre a te entregar informação nova.
+
+> **`Ajusta`** — mexe num número de uma rolagem, quase sempre refazendo um teste falhado ou dando vantagem. **Ele carrega relógio sempre, e quanto mais largo o alcance, mais raro o relógio:** o que pega qualquer perícia vale por dia; o que pega uma situação só vale por cena.
+
+> **`Desliga`** — apaga uma coisa que aconteceria com você, sem rolagem, toda vez que a situação aparecer. **Ele só apaga o que ninguém comprou** — nunca anula uma habilidade, um feitiço ou um item de outra ficha. **E ele cobra uma troca escrita:** nenhum `Desliga` é só ganho.
+
+**A conta não muda.** Você continua levando um `Destranca` e um `Ajusta` ou `Desliga`, seja escrito por você ou tirado da lista.
+
+**Três coisas que nenhum Legado criado pode fazer**, e elas valem para os três grupos:
+
+- **dar técnica.** Técnica vem da Origem e do Fundamento, e Legado nenhum concede uma.
+- **decidir o que um personagem do mestre faz.** Você diz o que existe no mundo por sua causa; o que a pessoa faz com isso continua sendo dela.
+- **entregar acerto, Defesa ou vida direto.** Esses três são a moeda do resto do sistema.
