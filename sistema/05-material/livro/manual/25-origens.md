@@ -54,7 +54,7 @@ A regra de um Legado é a linha em negrito. Quando a entrada termina numa linha 
 
 ### Como ler um Destranca
 
-Um Destranca abre uma porta: um lugar onde você é recebido, uma coisa que você sabe, uma pessoa que existe no mundo por sua causa. Ele nunca mexe em acerto, CD ou dano.
+Um Destranca abre uma porta: um lugar onde você é recebido, uma coisa que você sabe, uma pessoa que existe no mundo por sua causa. Ele nunca mexe em acerto, CD ou dano, e nunca decide o que outra pessoa faz.
 
 A maioria vale sempre, sem contagem. Só quando o Destranca obriga o mestre a te entregar uma informação nova é que ele ganha relógio, pela escada de sempre: por cena, por descanso curto, por dia, por descanso longo, do mais frequente ao mais raro.
 
@@ -62,11 +62,11 @@ A maioria vale sempre, sem contagem. Só quando o Destranca obriga o mestre a te
 
 Um Ajusta mexe num número de uma rolagem. Quase sempre de um dos dois jeitos: você refaz um teste que já falhou, ou rola com **vantagem** (joga dois dados e fica com o melhor resultado).
 
-Quanto mais largo o que ele alcança, mais raro o relógio dele: um que pega qualquer perícia vale por dia, e um que pega uma condição só vale por cena.
+Ele carrega relógio sempre, e quanto mais largo o que ele alcança, mais raro o relógio: um que pega qualquer perícia vale por dia, e um que pega uma condição só vale por cena.
 
 ### Como ler um Desliga
 
-Um Desliga apaga uma coisa que aconteceria com você, sempre que a situação aparecer, sem rolagem nenhuma. Não existe "tentar" um Desliga; ou a situação bateu e ele age, ou não bateu.
+Um Desliga apaga uma coisa que aconteceria com você, sempre que a situação aparecer, sem rolagem nenhuma. Não existe "tentar" um Desliga; ou a situação bateu e ele age, ou não bateu. **Ele nunca desliga a ficha de outra pessoa:** o que ele apaga é o que chega em você.
 
 A maioria vale sempre, sem contagem. E cada entrada diz o que você paga em troca: nenhum Desliga é só ganho.
 
@@ -634,13 +634,7 @@ Você começa toda a ficha com um `Destranca` e um `Ajusta` ou `Desliga`.
 
 As listas de cada Origem são exemplo, e não limite. Se nenhuma entrada serve para o personagem que você escreveu, você escreve a sua — do grupo que quiser — e leva ao mestre antes da primeira sessão.
 
-Use as publicadas como molde. Cada grupo tem uma forma fixa, e é ela que o mestre vai olhar.
-
-> **`Destranca`** — abre uma porta. Um lugar onde você é recebido, uma coisa que você sabe, uma pessoa que existe no mundo por sua causa. **Não mexe em acerto, CD nem dano, e nunca decide o que outra pessoa faz.** Só ganha relógio quando obriga o mestre a te entregar informação nova.
-
-> **`Ajusta`** — mexe num número de uma rolagem, quase sempre refazendo um teste falhado ou dando vantagem. **Ele carrega relógio sempre, e quanto mais largo o alcance, mais raro o relógio:** o que pega qualquer perícia vale por dia; o que pega uma situação só vale por cena.
-
-> **`Desliga`** — apaga uma coisa que aconteceria com você, sem rolagem, toda vez que a situação aparecer. **Ele só apaga o que ninguém comprou** — nunca anula uma habilidade, um feitiço ou um item de outra ficha. **E ele cobra uma troca escrita:** nenhum `Desliga` é só ganho.
+Use as publicadas como molde. **A forma de cada grupo está em *Como ler um Destranca*, *Como ler um Ajusta* e *Como ler um Desliga*, no começo deste capítulo**, e é ela que o mestre vai olhar.
 
 **A conta não muda.** Você continua levando um `Destranca` e um `Ajusta` ou `Desliga`, seja escrito por você ou tirado da lista.
 

@@ -238,6 +238,7 @@ Melhoria — são escadas diferentes que usam as mesmas três palavras. O capít
 
 | Termo | O que é | Cap. |
 |---|---|---|
+| **`Brasa`** | Trilha do Bastião: conjura pequeno e bate na sequência | 8 |
 | **`Elo`** | Trilha do Guia: o que outra pessoa fez chega mais longe | 8 |
 | **`Sutura`** | Trilha do Guia: Energia Reversa cedo, e nos outros | 8 |
 | **`Torrente`** | Trilha do Emanador: mais de um feitiço na rodada, e a energia acaba | 8 |

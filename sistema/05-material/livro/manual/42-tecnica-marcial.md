@@ -14,7 +14,7 @@ Três coisas mudam de nome e duas somem.
 
 ### `Kata`
 
-**`Kata`** (型, a forma que se treina) — a sua aplicação concreta, montada com pontos. Mesma Classe, mesmos pontos, mesmo custo em PE, mesmo teto de Melhoria e de Restrição. **Onde o capítulo 9 escreve *feitiço*, leia `Kata`.**
+**`Kata`** (型, a forma que se treina) — a sua aplicação concreta, montada com pontos. Mesma Classe, mesmos pontos, mesmo custo em PE, mesmo teto de Melhoria e de Restrição. **Onde o capítulo 9, *Fundamento*, ou o capítulo 8, *Caminhos e Trilhas*, escreve *feitiço*, leia `Kata`.** Os degraus de Trilha que conjuram valem igual: a Classe é a mesma, o custo em PE é o mesmo, e o que sai da sua mão é Kata.
 
 ### `Ruptura`
 

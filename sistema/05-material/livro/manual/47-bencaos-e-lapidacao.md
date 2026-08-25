@@ -99,7 +99,7 @@ Estas duas chegam com a ficha, na Lapidação 1, sem custar marco nenhum.
 >
 > **Dano na arma.** Enquanto a proteção estiver de pé, os seus ataques **com arma** causam `1d4` de dano a mais a cada `3` pontos de Lapidação — `1d4` na Lapidação `3`, `2d4` na `6`, `3d4` na `9`. **Na Lapidação `10` os dados viram `d6`.**
 >
-> **Só arma.** Ele não entra em feitiço nem em Kata. E se o seu ataque já estiver somando um feitiço de dano de `Classe 0` ou mais, este dano **não** se soma por cima.
+> **Só arma.** Ele não entra em Kata nenhuma. E se o mesmo ataque já estiver carregando uma Kata de dano de `Classe 0` ou mais, este dano **não** se soma por cima — **é o caso do nível 27 da `Brasa`, em que cada ataque leva uma junto.** *Nesta rota o degrau de Trilha entrega Kata e não feitiço, e o capítulo 8, *Caminhos e Trilhas*, diz isso na abertura.*
 >
 > Requisito: grátis na Lapidação 1. A Lapidação escala a proteção e o dano na arma.
 

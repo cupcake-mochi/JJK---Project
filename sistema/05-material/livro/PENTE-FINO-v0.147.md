@@ -431,7 +431,7 @@ nenhuma cobertura foi perdida.*
 > `beautifulsoup4` e `weasyprint`, e faltam as quatro fontes do projeto — sem elas o WeasyPrint
 > cai para substituta e a diagramação sai errada **sem avisar**, que é o que o `README` da pasta
 > avisa.* **Rodar só o `build_txt.py` seria pior que não rodar nenhum:** *ele grava o `sha1` da
-> fonte no `TEXTO.md`, e a checagem 7.5 ficaria VERDE com os dois PDFs ainda velhos.*
+> fonte no `Projeto-M-Manual-da-Guilda-TEXTO.md`, e a checagem 7.5 ficaria VERDE com os dois PDFs ainda velhos.*
 >
 > **Na sua máquina, rode os quatro antes de fechar a versão** — `build.py`, `build.py --duas`,
 > `build_docx.py`, `build_txt.py`. *A checagem 7.5 vai acender até lá, e é ela fazendo o
@@ -439,25 +439,83 @@ nenhuma cobertura foi perdida.*
 
 ---
 
-## A fila do que sobrou — cinco, e três esperam você
+## Segunda leva — as suas duas decisões, e um achado que elas destaparam
 
-**Dois dependem de decisão sua**, e eu não escrevo regra por cima de escolha de sabor:
+### A trava do `Desliga` foi reescrita, e ela mudou de casa
 
-1. **A trava do `Desliga`** (§1). *Três saídas escritas lá em cima; a que eu apostaria é a
-   terceira — a trava vale só para `Desliga` escrito pelo jogador —, mas é sua.* **Enquanto ela
-   não fecha, o §7 fica pela metade:** *a dona única dos três formatos de Legado depende de
-   qual frase o `Desliga` vai carregar.*
-2. **A cláusula `Classe 0` do capítulo 12** (§6). *Ou ela sai, ou o capítulo 8 ganha a linha que
-   diz o que uma Trilha conjuradora faz numa ficha sem energia.* **A segunda é buraco de
-   sistema, não de texto, e é versão própria.**
+***Decisão sua:*** *a trava estava errada.* **Ela virou `Ele nunca desliga a ficha de outra
+pessoa: o que ele apaga é o que chega em você`** — e foi escrita no `Como ler um Desliga`, que
+é a dona, não no `Criar o seu Legado`, que era o segundo dono.
 
-**Três não dependem de ninguém, e são texto:**
+*Conferi os treze contra a frase nova:* **os treze passam.** `Coleira`, `Usado`, `Cabo`,
+`Talhe`, `Revezamento` e `Assinado` apagam coisa que alguém comprou — e continuam certos,
+porque nenhum deles encosta na ficha do outro: eles param o que chega.
 
-3. **Dona única para os três formatos de Legado** (§7) — o `Destranca` e o `Ajusta` dá para
-   fechar hoje; o `Desliga` espera o item 1.
-4. **O `Na obra:` do `Bocado`** (§10) — ou as sete Passivas ganham um, ou esta perde o dela.
-5. **O `objeto de apoio` definido 147 linhas depois de ser usado** (§9) — a definição sobe, ou a
+**Com isso o §7 fechou junto.** *As duas linhas boas que só existiam embaixo subiram para as
+donas — o `nunca decide o que outra pessoa faz` no `Destranca`, e o `carrega relógio sempre`
+no `Ajusta`* —, e o `Criar o seu Legado` deixou de repetir os três formatos: ele aponta pelas
+três seções e guarda só o que é dele, que é a permissão de escrever o seu e as três travas.
+
+### Classe e Kata: a regra existia e não alcançava o capítulo certo
+
+***Palavras suas:*** *"Já que existe os dois agora, Katas seguem as mesmas regras que
+feitiços."* **A regra já estava escrita** — capítulo 10, na entrada da `Kata`: *"Onde o capítulo
+9 escreve feitiço, leia `Kata`."*
+
+> **O capítulo 9 é o Fundamento. Os degraus de Trilha são o capítulo 8.** *A substituição nunca
+> os alcançou, e é exatamente por isso que a `Brasa` numa ficha sem energia não tinha resposta.*
+
+**Foram dois consertos e nenhuma reescrita de degrau:** *a regra do capítulo 10 passou a nomear
+os dois capítulos, e o capítulo 8 ganhou a linha que diz isso de dentro, na caixa que já
+explica o que os degraus querem dizer.* **Vinte e cinco degraus continuam dizendo `feitiço`, e
+agora isso está certo** — reescrever os vinte e cinco criaria vinte e cinco lugares para
+divergir, que é a lição nº 9 pela porta da frente.
+
+### ⚠ E o exemplo que a v0.147 escreveu apontava para o degrau errado
+
+**A cláusula dizia *"como no nível 2 da `Brasa`, que põe um `Classe 0` junto do soco"*.** *O
+nível 2 é a `Fagulha`, e ela lança o `Classe 0` **na Ação Bônus**, separado do golpe — ela não
+põe nada junto de nada.* **Quem põe um `Classe 0` junto de cada ataque é a `Fornalha`, nível
+27.**
+
+*Ou seja: a regra existia para um caso, e o exemplo dela citava um caso em que ela não
+acende.* **Trocado para o nível 27 nos dois capítulos.**
+
+### O dano na arma mudou de aptidão — e isso mexe no balanço
+
+***Palavras suas:*** *"o último commit colocou o dano extra das aptidões no cobrir-se, mova
+para o Canalizar."* **Movido.** *(Ele entrou na v0.147, não no meu commit — o meu não tocou
+aquele arquivo.)*
+
+> **⚠⚠ E a mudança de casa tira uma trava, sem eu ter escolhido isso.** *No `Cobrir-se` o dano
+> valia **"enquanto a proteção estiver de pé"** — e Traje ou Revestimento desligam a proteção,
+> então desligavam o dano junto.* **O `Canalizar energia` não tem estado de ligado e desligado:
+> ele é de graça e vale sempre.** *Escrevi sem condição, que é o único jeito coerente ali —
+> mas o efeito é que **um feiticeiro de Traje agora leva os `d4` que antes não levava**.*
+>
+> **Se você quiser a trava de volta, é uma frase**, e ela precisa de um gancho novo, porque o
+> gancho antigo era a proteção.
+
+> **E vale registrar um buraco que apareceu ao mexer:** *este dano não tem peça e não tem
+> validador — ele mora só no livro, em dois capítulos, sem dono em `03-mecanica/`.* **É o único
+> dado do sistema nessa situação**, e casa com o que a v0.147 já declarou: *"futuramente a gente
+> balanceia isso"*.
+
+### E a `Brasa` entrou no vocabulário
+
+*Consequência direta do exemplo que você pediu:* **com ele, a `Brasa` passou a aparecer em três
+capítulos e cruzou o corte de destino.** *O `conferir-voz.py` acusou na hora — teto `0`, achou
+`1`.* **Ela entrou na tabela `Trilhas` do vocabulário, na forma das outras cinco que já tinham
+cruzado.**
+
+---
+
+## A fila do que sobrou — três, e nenhuma espera decisão
+
+1. **O `Na obra:` do `Bocado`** (§10) — ou as sete Passivas ganham um, ou esta perde o dela.
+2. **O `objeto de apoio` definido 147 linhas depois de ser usado** (§9) — a definição sobe, ou a
    abertura ganha ponteiro.
+3. **A trava de volta no dano na arma**, se você quiser — precisa de um gancho novo.
 
 > **E o §12 não é conserto, é aviso:** *o `Bocado` e a `Versado` mexem no mesmo botão, e numa
 > ficha que tem os dois a `Versado` fica valendo só o `+1`.* **Vale saber antes de precificar
@@ -467,7 +525,7 @@ nenhuma cobertura foi perdida.*
 
 ## O que ainda falta para fechar versão
 
-- **Os quatro builds**, na sua máquina, com as fontes instaladas.
-- **A entrada do `CHANGELOG`**, que é a dona da versão. *Ela não foi escrita: a versão não
-  fecha enquanto as duas decisões acima estiverem abertas.*
+- **Os quatro builds**, na sua máquina, com as fontes instaladas. *A checagem 7.5 vai acender
+  até lá, e é ela fazendo o trabalho para o qual a v0.146 escreveu ela.*
+- **A entrada do `CHANGELOG`**, que é a dona da versão.
 - **O `ESTADO-revisao.md`**, que é o registro desta pasta.

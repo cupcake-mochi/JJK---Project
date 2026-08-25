@@ -136,13 +136,9 @@ Estas duas chegam com a ficha, no refino 1, sem custar marco nenhum. Elas são o
 >
 > Como Reação, você concentra a energia no impacto: Redução de Dano de `1,5 × refino` num golpe, por **2 PE**. Você fica sem proteção até o fim do seu próximo turno.
 >
-> **Dano na arma.** Enquanto a proteção estiver de pé, os seus ataques **com arma** causam `1d4` de dano a mais a cada `3` pontos de refino — `1d4` no refino `3`, `2d4` no `6`, `3d4` no `9`. **No refino `10` os dados viram `d6`.**
->
-> **Só arma.** Ele não entra em feitiço nem em Kata. E se o seu ataque já estiver somando um feitiço de dano de `Classe 0` ou mais — como no nível 2 da `Brasa`, que põe um `Classe 0` junto do soco —, este dano **não** se soma por cima.
->
-> Requisito: grátis no refino 1. O refino escala a proteção, o dano na arma e a Redução de Dano da Reação.
+> Requisito: grátis no refino 1. O refino escala a proteção e a Redução de Dano da Reação.
 
-> **Exemplo.** Com refino 6 a sua proteção passiva é 3, o soco dela leva `2d4` a mais, e a Reação desconta 9 de um golpe por 2 PE.
+> **Exemplo.** Com refino 6 a sua proteção passiva é 3, e a Reação desconta 9 de um golpe por 2 PE.
 
 A proteção é um piso. Ela sustenta o feiticeiro que não investiu em corpo nenhum, e sai de cena assim que Traje ou Revestimento entram na conta.
 
@@ -152,9 +148,15 @@ Fora de combate ela decide as cenas em que ninguém está brigando: a queda de t
 
 > **Canalizar energia** — você conjura feitiço de Toque. Um feitiço de Toque é um feitiço de Forma Toque, sem Melhoria e sem Restrição: mesma Classe, mesmo orçamento de pontos, mesmo custo em PE.
 >
-> Requisito: grátis no refino 1.
+> **Dano na arma.** Os seus ataques **com arma** causam `1d4` de dano a mais a cada `3` pontos de refino — `1d4` no refino `3`, `2d4` no `6`, `3d4` no `9`. **No refino `10` os dados viram `d6`.**
+>
+> **Só arma.** Ele não entra em feitiço nem em Kata. E se o mesmo ataque já estiver carregando um feitiço de dano de `Classe 0` ou mais — como no nível 27 da `Brasa`, em que cada ataque leva um junto —, este dano **não** se soma por cima.
+>
+> Requisito: grátis no refino 1. O refino escala o dano na arma.
 
-Ela é a porta de toda técnica de contato.
+Ela é a porta de toda técnica de contato, e é ela que põe energia no que a sua mão carrega.
+
+> **Exemplo.** Com refino 6, o soco e a lâmina levam `2d4` de dano a mais.
 
 ## Energia crua
 

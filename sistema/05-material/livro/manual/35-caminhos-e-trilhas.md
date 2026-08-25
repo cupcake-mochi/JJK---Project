@@ -47,6 +47,8 @@ E duas coisas que quase todo degrau daqui menciona:
 > **Golpe simples** — arma mais Força. É o que você faz quando não canaliza.
 > **Um feitiço de Toque por turno.** Ataque extra é sempre golpe simples.
 
+> **Se a sua ficha monta o poder na Técnica Marcial, onde um degrau daqui diz *feitiço* ou *conjurar*, leia `Kata`.** Mesma Classe, mesmo custo em PE, mesmo degrau. **São as duas rotas do capítulo 10, *Técnica Marcial***, e elas escolhem Caminho e Trilha como todo mundo.
+
 ### Treino de arma
 
 **O seu Caminho decide quais armas você pode empunhar.** Treino mora na categoria: treinar uma categoria libera todas as armas dela, e o catálogo inteiro está no capítulo 13, *Equipamento*.
