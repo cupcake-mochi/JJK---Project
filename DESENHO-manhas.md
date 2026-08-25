@@ -83,6 +83,52 @@ As bases todas saem de documento dono:
 > **Média `0,97` fatia. A menor é o `Espeto` e o `Laço` em `0,53`, a maior é o `Raspão`, o `Zunido` e o `Gancho` em `1,18`.**
 > **Dominância entre a maior e a menor: `2,22×`** — o filtro do projeto reprova em `3,00×`. *Comparação: o `Guiar` do Guia vale `0,68` no mesmo degrau, e o `Absorver` do Bastião vale `1,60`. As treze cabem inteiras dentro do que os outros Caminhos já praticam.*
 
+## De onde vem cada trava — escrito na v0.156
+
+*A coluna `trava` teve quatro fontes diferentes por quatro versões e nenhuma delas escrita. Isto não repreça nada: dá dono a cada número.*
+
+**Toda trava cai numa destas quatro famílias, e a família diz de onde o número sai:**
+
+| família | de onde o número sai | quem usa |
+|---|---|---|
+| **portão de acerto** | `1 − (1 − acerto)²` — pelo menos um dos dois golpes acerta | `Talho` · `Encaixe` |
+| **portão de Teste de Resistência** | a taxa de **falha** do TR, peça 19 §2.5 | `Abalo` · `Tranco` · `Espeto` · `Laço` · `Prego` |
+| **taxa de cenário** | não deriva de portão nenhum: é quantas vezes a mesa oferece a situação | `Racho` · `Palmo` |
+| **sem portão** | a taxa natural já está dentro do valor bruto | `Raspão` · `Zunido` · `Gancho` · `Estampido` |
+
+**Manha por Manha:**
+
+| Manha | trava | família | de onde ela sai | bate? |
+|---|---|---|---|---|
+| `Talho` | `75%` | acerto | `1 − 0,50²`, com o acerto de `50%` | ⚠ o acerto é `55%`; daria `79,75%` |
+| `Raspão` | `—` | sem portão | o `6,00` já é `2 × 50%` de erro `× 6` | ✔ |
+| `Abalo` | `60%` | Teste de Resistência | **não deriva** — a falha do TR é `35%` | ⚠ |
+| `Tranco` | `28%` | Teste de Resistência | **não deriva** — nem `35%`, nem `45%` | ⚠ |
+| `Encaixe` | `75%` | acerto | `1 − 0,50²` | ⚠ o acerto é `55%` |
+| `Racho` | `44%` | cenário | quantas vezes existe um segundo alvo ao alcance | ✔ *(declarada)* |
+| `Gancho` | `—` | sem portão | dano fixo em todo acerto, e o `6,00` já traz o acerto | ✔ |
+| `Espeto` | `—` | Teste de Resistência | **o TR não está no preço** | ⚠ |
+| `Laço` | `—` | Teste de Resistência | **o TR não está no preço** | ⚠ |
+| `Palmo` | `50%` | cenário | quantas vezes o próximo arremesso vai no mesmo alvo | ✔ *(declarada)* |
+| `Zunido` | `—` | sem portão | igual ao `Raspão` | ✔ |
+| `Prego` | `—` | Teste de Resistência | **o TR não está no preço** | ⚠ |
+| `Estampido` | `—` | sem portão | o `3,45` já traz a taxa do aliado | ✔ |
+
+### ⚠⚠ A dívida que isto destampou, medida e NÃO aplicada
+
+**Sete das treze têm trava que não deriva do portão que ela diz usar.** *E a causa é uma só: os dois portões perderam o dono na v0.117 e ninguém refez o catálogo.*
+
+| portão | era | é hoje | efeito |
+|---|---|---|---|
+| falha de Teste de Resistência | `45%` | **`35%`** contra alvo treinado | preço com TR **cai `22%`** |
+| pelo menos um de dois golpes acerta | `75%` | **`79,75%`** | preço com esse portão **sobe `6%`** |
+
+**Se as sete fossem refeitas honestamente, a banda iria para `6,2×`** — `Espeto` e `Laço` a `0,19`, `Prego` a `0,37`, contra um filtro que reprova em `3,00×`. *Não é repreço: é reequilibrar treze entradas.*
+
+> ***Decisão do Mizuki: medir e não aplicar***, no mesmo molde da v0.119 — *"as três Trilhas continuam dentro da banda que o projeto já aceita"*. **O motivo dele é de desenho e não de conta:** *as armas carregam propriedade própria, e uma Manha justa no papel deixa de ser justa na mão de quem escolheu a categoria por outro motivo.*
+>
+> **O que muda com esta versão é que a dívida deixa de ser invisível.** *Antes ela era um travessão numa coluna; agora ela tem família, fonte e tamanho, e o validador não deixa entrar Manha nova sem os três.*
+
 ## A leva da v0.154 — cinco mexidas do Mizuki lendo o catálogo
 
 *Nenhuma saiu de validador. As cinco vieram de ele ler as entradas e perguntar como cada uma acontece na mesa.*

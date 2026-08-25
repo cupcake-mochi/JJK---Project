@@ -8,6 +8,64 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.156] — 25/08/2026
+
+**A coluna `trava` do catálogo de Manhas ganhou dono, e nenhum preço se moveu.** *Ela teve quatro fontes diferentes por quatro versões e nenhuma escrita — e foi assim que o Teste de Resistência de três entradas ficou fora do preço sem ninguém ver.*
+
+### As quatro famílias, e agora elas estão escritas
+
+| família | de onde o número sai | quem usa |
+|---|---|---|
+| **portão de acerto** | `1 − (1 − acerto)²` | `Talho` · `Encaixe` |
+| **portão de Teste de Resistência** | a taxa de **falha** do TR, peça 19 §2.5 | `Abalo` · `Tranco` · `Espeto` · `Laço` · `Prego` |
+| **taxa de cenário** | não deriva de portão: é quantas vezes a mesa oferece a situação | `Racho` · `Palmo` |
+| **sem portão** | a taxa natural já está dentro do valor bruto | `Raspão` · `Zunido` · `Gancho` · `Estampido` |
+
+**Sete das treze têm trava que não deriva do portão que ela diz usar**, e a tabela nomeia cada uma:
+
+- **`Espeto`, `Laço` e `Prego`** têm Teste de Resistência desde a v0.147 e trava `—`: **o TR nunca entrou no preço.**
+- **O `Abalo` publica `60%` e a v0.147 declarou que o gatilho dele é o TR** — *mas o `60%` já estava lá, e ninguém conferiu se ele batia.* **A falha do TR é `35%`; a `60%` não vem de lugar nenhum.**
+- **O `Tranco` publica `28%`**, que não é `35%` nem `45%`: um terceiro número sem derivação.
+- **O `Talho` e o `Encaixe` usam `75%`**, que é `1 − 0,50²` — e o acerto virou `55%` na v0.117, então hoje seria `79,75%`.
+
+### ⚠⚠ A causa é uma só, e a peça 19 já a registrava
+
+**Os dois portões perderam o dono na v0.117 e ninguém refez o catálogo.**
+
+| portão | era | é hoje | efeito no preço |
+|---|---|---|---|
+| falha de Teste de Resistência | `45%` | **`35%`** treinado | **cai `22%`** |
+| pelo menos um de dois golpes acerta | `75%` | **`79,75%`** | **sobe `6%`** |
+
+*A peça 19 §2.5 escreve isso desde a v0.119, e ninguém tinha ligado ao catálogo de Manhas.* **Refazendo as sete honestamente, a banda vai para `6,2×`** — `Espeto` e `Laço` a `0,19`, `Prego` a `0,37` — *contra um filtro que reprova em `3,00×`.* **Não seria repreço: seria reequilibrar treze entradas.**
+
+> ***Decisão do Mizuki: medir e não aplicar***, no molde da v0.119. **E o motivo dele é de desenho, não de conta:** *"muito complicado fazer as Manhas ficarem justas, porque as armas em si têm habilidades"*. **Uma Manha justa no papel deixa de ser justa na mão de quem escolheu a categoria pela propriedade da arma.**
+>
+> **O que muda é que a dívida deixou de ser invisível.** *Antes ela era um travessão numa coluna; agora ela tem família, fonte e tamanho — e o validador não deixa entrar Manha nova sem os três.*
+
+### A checagem 14
+
+**Entrou a `DERIVACAO DAS TRAVAS` no `conferir-catalogo.py`.** *Ela não confere preço:* **confere que toda Manha do catálogo está na tabela de derivação, que a família dela é uma das quatro declaradas, e que a tabela de famílias não encolheu.**
+
+*Arnês em cópia isolada, base conferida rodando de verdade antes:* **quatro perturbações acendendo** — *Manha nova sem derivação, uma linha de derivação sumindo, uma família saindo da tabela, e família inventada fora das quatro* — **e um contra-teste verde**, com a trava mudando de valor e a família ficando.
+
+### Medido depois
+
+| | v0.155 | v0.156 |
+|---|---|---|
+| peças de regra · validadores | 24 · 24 | iguais |
+| checagens no total | 257 | **258** |
+| checagens do `conferir-catalogo.py` | 13 | **14** |
+| Manhas com trava sem fonte escrita | **13** | **0** |
+| Manhas cuja trava não deriva do portão | 7 | **7, e agora nomeadas** |
+| palavras do livro | 71.086 | **71.086** |
+
+*Os 24 validadores verdes com `PULADA = 0`, o `conferir-repositorio.py` e os dois de `manual/matematica/`.* **O livro não foi tocado nesta versão** — a mudança é toda no `DESENHO-manhas.md` e no validador —, *então os quatro builds não precisam rodar e a checagem 7.5 continua verde com os artefatos da v0.155.*
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **Sobram duas dívidas de preço** — *as Manhas supondo dois ataques, e o dano na arma sem peça nem conta* — **e a de repreçar as sete contra os portões novos, agora medida e declarada como não aplicada.**
+
+---
+
 ## [0.155] — 25/08/2026
 
 **A dívida do vão do nível 7 FECHOU, e ela estava aberta desde a v0.147.** *O diagnóstico não era o que a dívida dizia: o ataque extra não virou letra morta — o **vão** é que deixou de ser um número.*

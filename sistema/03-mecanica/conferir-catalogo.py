@@ -666,6 +666,50 @@ else:
     else:
         print('  [x] a banda recontada bate com a publicada, e ela passa no filtro.')
 
+# ================================================================ 14
+# v0.156: toda trava do catalogo de Manhas tem de apontar para a familia de onde
+# ela sai. A coluna teve quatro fontes por quatro versoes e nenhuma escrita — e
+# foi assim que o TR de tres entradas ficou fora do preco sem ninguem ver.
+#
+# Esta checagem NAO confere preco. Ela confere que toda Manha esta na tabela de
+# derivacao, que a familia dela e uma das declaradas, e que a tabela de familias
+# nao encolheu. O preco continua sendo decisao registrada.
+print()
+print('=' * 88)
+print('14. A DERIVACAO DAS TRAVAS — toda Manha diz de onde a trava dela sai')
+print('=' * 88)
+
+_cat, _der = [], {}
+for _l in MAN.split('\n'):
+    _m = re.match(r'\|\s*\*\*[^|]+\*\*\s*\|\s*`([^`]+)`\s*\|.*\|\s*\*\*[\d,]+\*\*\s*\|\s*$', _l)
+    if _m:
+        _cat.append(_m.group(1))
+    _d = re.match(r'\|\s*`([^`]+)`\s*\|\s*`?([^|`]+?)`?\s*\|\s*(acerto|Teste de Resistência|cenário|sem portão)\s*\|', _l)
+    if _d:
+        _der[_d.group(1)] = _d.group(3)
+
+_fam = set(re.findall(r'^\|\s*\*\*(portão de acerto|portão de Teste de Resistência|'
+                      r'taxa de cenário|sem portão)\*\*\s*\|', MAN, re.M))
+
+if len(_fam) != 4:
+    erro('14', f'a tabela de familias de trava tem {len(_fam)} linha(s) e devem ser 4 — '
+               f'ela encolheu, e a checagem passaria a aceitar trava sem fonte')
+elif len(_cat) < 10:
+    erro('14', f'so li {len(_cat)} Manha(s) no catalogo — o extrator parou de casar')
+else:
+    _fora = [m for m in _cat if m not in _der]
+    print(f'  {len(_cat)} Manhas no catalogo, {len(_der)} na tabela de derivacao, '
+          f'{len(_fam)} familias declaradas')
+    if _fora:
+        erro('14', f'sem derivacao escrita: {", ".join(_fora)} — toda trava tem de '
+                   f'dizer de que familia ela sai, senao a proxima medida diverge')
+    else:
+        _por = {}
+        for _m2, _f in _der.items():
+            _por[_f] = _por.get(_f, 0) + 1
+        print('     ' + ' · '.join(f'{k}: {v}' for k, v in sorted(_por.items())))
+        print('  [x] toda Manha do catalogo aponta para a familia de onde a trava dela sai.')
+
 # ================================================================ veredito
 print('\n' + '=' * 88)
 if avisos:

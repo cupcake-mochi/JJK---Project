@@ -1,4 +1,4 @@
-# Retomada — v0.155, e o que sobrou é preço, playtest e dois rascunhos
+# Retomada — v0.156, e o que sobrou é preço, playtest e dois rascunhos
 
 Pasta: `/media/mizuki/HD Externo II/Claude/Claude 2/`
 ⚠ Trabalhe na pasta PRINCIPAL, não em worktree. **Você não commita** — deixa a mensagem em
@@ -7,7 +7,7 @@ Pasta: `/media/mizuki/HD Externo II/Claude/Claude 2/`
 Leia primeiro, nesta ordem: `README.md` (a seção *"Nove lições que custaram erro"*),
 `sistema/ESTADO-ATUAL.md` **inteiro**, e o `logs/CHANGELOG.md` de cima até a v0.140.
 
-**Projeto na v0.155.** 24 peças · 24 validadores · **257 checagens**. Livro em 17 capítulos,
+**Projeto na v0.156.** 24 peças · 24 validadores · **258 checagens**. Livro em 17 capítulos,
 **71.086 palavras**, **243** páginas em coluna única e **141** em duas. Manual do Fundamento na
 **v7.14**. `conferir-voz --estrito` em 0 achados, 0 termos sem destino, 11 triagens, **7 marcas
 de "isto ainda não existe" e 0 rótulos longos demais em 52 entradas de catálogo**.
@@ -84,7 +84,7 @@ lição nº 8 aplicada ao reconhecedor em vez de ao valor.
 |---|---|---|
 | **o vão do nível 7** | v0.147 | o vão `físico − conjurador` foi construído sobre a forma antiga do ataque extra, e é ele que paga o degrau dos cinco Caminhos. **Diagnóstico fechado na v0.154; falta a escolha entre A e C** |
 | **as Manhas supõem DOIS ataques** | v0.154 | o `Raspão` publica `6,00`, e `6,00` só fecha com dois (`2 × 50% × 6`). **Do nível 2 ao 6 a Vanguarda tem um**, então `Talho`, `Raspão`, `Racho` e `Zunido` entregam metade por cinco níveis. *Consertar mexe no orçamento da Vanguarda inteira* |
-| **três Manhas com portão** | v0.147 | `Espeto`, `Laço` e `Prego` foram preçados com trava `—`, e o Teste de Resistência deles não entra no preço. **Eram quatro: o `Gancho` saiu do grupo na v0.154, quando perdeu o TR** |
+| **as sete travas que não derivam** | v0.147 | `Espeto`, `Laço` e `Prego` não têm o TR no preço; o `60%` do `Abalo` e o `28%` do `Tranco` não vêm de portão nenhum; e o `75%` do `Talho` e do `Encaixe` é do acerto velho. **Medida e declarada NÃO aplicada na v0.156** — refazer põe a banda em `6,2×` |
 | **o dano na arma** | v0.148 | **não tem peça, não tem validador e não tem conta.** Mora só no livro, em `Canalizar energia` e `Estímulo Muscular`. É o único dado do sistema nessa situação |
 
 ### 2 · As sete marcas de "isto ainda não existe" — cinco assuntos
