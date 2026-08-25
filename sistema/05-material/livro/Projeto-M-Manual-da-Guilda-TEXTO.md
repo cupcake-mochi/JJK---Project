@@ -2760,15 +2760,15 @@ A Manha dá identidade à sua ficha. Você vira a pessoa do machado, a pessoa da
 **Manhas**
 | Categoria | Manha | O que faz | Teste de Resistência |
 |---|---|---|---|
-| Lâmina Curta | `Talho` | `+1` no acerto contra alvo que já levou dano seu nesta luta | — |
+| Lâmina Curta | `Talho` | `+1` no acerto do seu próximo ataque contra um alvo que levou dano seu neste turno | — |
 | Lâmina Longa | `Raspão` | o ataque que **erra** ainda causa o seu atributo | — |
 | Massa | `Abalo` | o alvo cai: condição `Derrubado` | **Físico** |
 | Porrete | `Tranco` | desvantagem no próximo ataque do alvo | **Vigor** |
-| Manopla | `Encaixe` | `+2` de Defesa até o seu próximo turno, se você acertou | — |
+| Manopla | `Encaixe` | `+2` de Defesa até o seu próximo turno, se você acertou. Uma vez por rodada | — |
 | Machado | `Racho` | o golpe pega um segundo alvo ao seu alcance | — |
-| Ceifa | `Gancho` | você puxa o alvo `6 m` para perto de você | **Físico** |
-| Armas Longas | `Espeto` | você empurra o alvo `6 m`, e ele não te acompanha | **Físico** |
-| Flexível | `Laço` | o alvo perde o deslocamento inteiro do próximo turno | **Físico** |
+| Ceifa | `Gancho` | o corte rasga: o alvo leva o seu atributo de novo no início do próximo turno dele | — |
+| Armas Longas | `Espeto` | você empurra o alvo `4,5 m` | **Físico** |
+| Flexível | `Laço` | o alvo perde metade do deslocamento do próximo turno | **Físico** |
 | Arremesso | `Palmo` | `+1` no acerto do próximo arremesso contra o mesmo alvo | — |
 | Yumi | `Zunido` | o tiro que **erra** ainda causa o seu atributo | — |
 | Balestra | `Prego` | o alvo perde `9 m` do deslocamento do próximo turno | **Vigor** |
@@ -2782,7 +2782,9 @@ A Manha dá identidade à sua ficha. Você vira a pessoa do machado, a pessoa da
 >
 > **Uma vez por rodada.** Não importa quantos golpes você deu: a Manha cobra Teste de Resistência de um alvo por rodada, e você escolhe qual.
 >
-> **As que não pedem** são as que mexem em você ou no seu próprio dado — `Talho`, `Raspão`, `Encaixe`, `Racho`, `Palmo`, `Zunido` e `Estampido`. *Elas não fazem ninguém rolar nada, e por isso também não têm limite por rodada.*
+> **As que não pedem** são as que mexem em você, no seu próprio dado ou só no dano — `Talho`, `Raspão`, `Encaixe`, `Racho`, `Gancho`, `Palmo`, `Zunido` e `Estampido`. *Elas não fazem ninguém rolar nada.*
+>
+> **O `Encaixe` é a única delas com limite.** A Defesa não empilha: ele vale **uma vez por rodada**, por mais golpes que você dê.
 >
 > **A `Versado` também não pede** — ela mexe no seu acerto e em mais nada. *O relógio dela é próprio, e a entrada dela diz qual.*
 
@@ -6519,4 +6521,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: 322b48a7b168490b4173d141e62944837737a13b -->
+<!-- fonte: 71630ce64c4af098626dd8ab77530860924c717e -->

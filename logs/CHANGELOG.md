@@ -8,6 +8,85 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.154] — 25/08/2026
+
+**Cinco Manhas mexidas por leitura do Mizuki, e a leva começou por outro assunto.** *Ele foi olhar a dívida do vão do nível 7, e a conta mostrou que o ataque extra e as Manhas estão amarrados — o que levou ele a reler o catálogo entrada por entrada.*
+
+### O que a conta do vão achou, antes de qualquer Manha se mexer
+
+**A taxa que faltava não era pergunta de playtest: ela estava no bloco 1 do `conferir-orcamento.py`.** *`3` lutas × `3,5` rodadas = `10,5` rodadas de luta por dia, e o poço de PE diz quantas cabem.* **Bastião conjura `19%` a `48%` das rodadas; Vanguarda e Guia `29%` a `67%`; Evocador e Emanador `38%` a `76%`.** *O resto — nas palavras do próprio validador — "vai para Classe 0, golpe simples e projetar energia, que não custam PE".*
+
+> ***E o diagnóstico do vão mudou de forma:*** *o ataque extra não virou letra morta.* **Com o dano na arma do refino dentro, a Ação de Atacar rende `34` contra `27` do Classe 0 grátis no nível 30 — `1,26×` — e não está dominada em nível nenhum.** *A dívida continua aberta, e o que sobrou dela é repreço.*
+
+### As cinco, e três mudaram de preço
+
+| Manha | agora | preço |
+|---|---|---|
+| `Talho` | `+1` no **próximo ataque** contra alvo que levou dano seu **neste turno** | `1,06` → **`0,80`** |
+| `Encaixe` | **uma vez por rodada** | `1,00` → `1,00` |
+| `Gancho` | **o corte rasga**: o alvo leva o seu atributo de novo no início do próximo turno dele | `0,71` → **`1,18`** |
+| `Espeto` | empurra **`4,5 m`** | `0,71` → **`0,53`** |
+| `Laço` | perde **metade** do deslocamento | `1,06` → **`0,53`** |
+
+**Média `0,97` contra `0,98` — a leva é neutra no orçamento, e o que mudou foi a distribuição.**
+
+> **O `Encaixe` era o único furo de regra: ele não tinha limite e a Defesa empilhava.** *Com dois golpes na Ação de Atacar ele dava `+4`, e o preço sempre supôs `+2`.*
+>
+> **⚠ E duas das quatro observações dele já estavam escritas.** *O aviso de "uma vez por rodada" do `Abalo` e do `Tranco` mora na caixa que governa a tabela inteira.* **Escrever de novo em cada entrada criaria treze cópias de uma regra que tem um dono** — lição nº 9 pela porta do texto de mesa.
+
+### ⚠⚠ O `Gancho` não podia ser consertado por alcance, e as duas saídas óbvias reprovaram
+
+***Achado dele:*** *"quase nunca ela vai ter alcance para puxar o alvo"*. **Ele está certo:** *puxar exige que o alvo esteja no seu alcance, e se ele já está, puxar não entrega nada.*
+
+**Dar alcance à Manha reprova pela peça 14:** *`Alcance` é propriedade de arma, medida em metros, padrão `1,5 m`, e aquela peça escreve que "propriedade não é escolha: é o que a arma é".* **E a ficção cai no mesmo lugar: a `Ceifa` é Foice · Kama · Kusarigama, e só o Kusarigama tem corrente.**
+
+> *O levantamento externo confirma a forma:* **o 5e puxa a distância — `Thorn Whip`, `Lightning Lure` — mas sempre como magia com alcance próprio**, nunca como propriedade pendurada no alcance corpo a corpo.
+
+**Fechar a distância em vez de puxar reprova por entregar ZERO.** *A peça 3 publica que a Ação de Movimento vale `9 m` e "pode ser dividida antes, durante e depois da ação".* **"Deslocar-se `6 m` em direção ao alvo e atacar em sequência" é o turno base, que todo personagem tem no nível 1.** *É o defeito do `Bote` outra vez: entrada publicada e preçada que não entrega nada.*
+
+***Decisão do Mizuki: o `Gancho` para de ser sobre mover*** — dano de valor fixo, que o desenho já declarava legal, no molde do `Raspão`.
+
+### ⚠ O `3 m` do `Espeto` reprovou por número, e o `4,5 m` é o meio-termo
+
+*`3 m` dá `0,35`, que é exatamente a linha que a tabela do 5e daquele desenho já mede e recusa — `Push · Slow`, `0,35`, **fraca**.* **A banda iria a `3,33×` contra um filtro que reprova em `3,00×`.** *Com `4,5 m` ela fica em `2,22×`, e quem manda no piso passa a ser o `Laço`.*
+
+### A checagem 13, e o padrão que o Mizuki achou sozinho
+
+**Entrou a `BANDA DAS MANHAS` no `conferir-catalogo.py`:** *ela relê as treze fatias da tabela, reconta a banda e a dominância, e compara contra a linha publicada e contra o filtro — os três lidos do documento, nenhum escrito no validador.* **Havia preço por entrada e filtro declarado, e nada comparava os dois.**
+
+> ***E o achado dele vale para mais de uma entrada:*** *"nem sempre todo mundo vai ter ataque extra, só nv7"*. **Toda Manha cujo efeito precisa de um "próximo ataque" no mesmo turno nasce morta do nível 2 ao 6.** *Foi por isso que o `Palmo` voltou a não ter duração máxima, e é por isso que o `Talho` ficou escrito como "o seu próximo ataque" e não "o próximo ataque neste turno".*
+
+### ⚠⚠ E a leva destampou uma dívida que já tinha quatro versões
+
+**As Manhas foram preçadas supondo DOIS ataques por rodada.** *O `Raspão` publica `6,00`, e `6,00` só fecha com dois: `2 × 50%` de erro `× 6` de atributo. Com um ataque dá `3,00`.*
+
+**Do nível 2 ao 6 a Vanguarda tem um ataque** — o extra é o degrau do nível 7. *Então as quatro que escalam por ataque — `Talho`, `Raspão`, `Racho` e `Zunido` — entregam metade do preço publicado por cinco níveis.* **Registrado sem conserto: as duas saídas mexem no orçamento da Vanguarda inteira.**
+
+> **⚠ Este erro foi meu primeiro, e num número que eu tinha entregue.** *Eu somei o segundo ataque em cima do `6,00` do `Raspão`, que já o continha, e publiquei o degrau do nível 7 em `1,25` fatia quando ele é `0,85`.* **Lição nº 2 — "esse número já inclui o que eu estou somando nele?" — no oitavo exemplar registrado.**
+
+### Medido depois
+
+| | v0.153 | v0.154 |
+|---|---|---|
+| peças de regra · validadores | 24 · 24 | iguais |
+| checagens no total | 255 | **256** |
+| checagens do `conferir-catalogo.py` | 12 | **13** |
+| Manhas · entradas do catálogo | 14 · 90 | iguais |
+| banda das Manhas | 0,68–1,18 · `1,74×` | **0,53–1,18 · `2,22×`** |
+| média das Manhas | 0,98 | **0,97** |
+| Manhas sem limite que empilhavam | **1** — o `Encaixe` | **0** |
+| palavras do livro | 70.982 | **71.013** |
+| coluna única · duas colunas | 243 · 141 | **243 · 141** |
+| `conferir-voz --estrito` | 0 achados · 11 triagens | **0 achados · 11 triagens** |
+
+*Os 24 validadores verdes com `PULADA = 0`, o `conferir-repositorio.py`, os dois de `manual/matematica/` e os quatro builds.* **O manual do Fundamento não foi tocado: as Manhas são da peça 17 e do livro.**
+
+*`guard_numeros.py` no capítulo 8.* **Cinco diferenças, as cinco explicadas e todas intencionais** — *o `4,5` novo do `Espeto`; os dois `6 m` que saíram, do `Gancho` e do `Espeto`; a `metade` do `Laço`; o `um alvo` do `Talho`; e as duas `uma vez por rodada` do `Encaixe`.*
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **A dívida do vão do nível 7 continua aberta**, agora com a taxa derivada e o diagnóstico fechado: *o que falta é escolher entre repreçar o degrau para baixo ou trocar o que o nível 7 entrega.*
+
+---
+
 ## [0.153] — 25/08/2026
 
 **A dívida de texto do item 5 fechou, e o que a destravou foi reconstruir a DEFINIÇÃO em vez de escolher entre os números.** *Três versões tentaram remedir a mesma coisa e acharam três coisas — `209`, `4`, e uma contagem descartada —, porque o par publicado na v0.141 nunca teve definição escrita.*

@@ -125,7 +125,7 @@ Treze são uma por categoria de arma; a décima quarta se leva **no lugar** da s
 
 ## 7. O que o `conferir-catalogo.py` confere
 
-Doze checagens. **Nenhuma guarda valor:** os nomes saem das tabelas desta peça e os textos saem dos `DESENHO-*.md`.
+Treze checagens. **Nenhuma guarda valor:** os nomes saem das tabelas desta peça e os textos saem dos `DESENHO-*.md`.
 
 | # | a checagem | o que ela pega |
 |---|---|---|

@@ -1,4 +1,4 @@
-# Retomada — v0.153, e o que sobrou é preço, playtest e dois rascunhos
+# Retomada — v0.154, e o que sobrou é preço, playtest e dois rascunhos
 
 Pasta: `/media/mizuki/HD Externo II/Claude/Claude 2/`
 ⚠ Trabalhe na pasta PRINCIPAL, não em worktree. **Você não commita** — deixa a mensagem em
@@ -7,12 +7,12 @@ Pasta: `/media/mizuki/HD Externo II/Claude/Claude 2/`
 Leia primeiro, nesta ordem: `README.md` (a seção *"Nove lições que custaram erro"*),
 `sistema/ESTADO-ATUAL.md` **inteiro**, e o `logs/CHANGELOG.md` de cima até a v0.140.
 
-**Projeto na v0.153.** 24 peças · 24 validadores · **255 checagens**. Livro em 17 capítulos,
-**70.982 palavras**, **243** páginas em coluna única e **141** em duas. Manual do Fundamento na
+**Projeto na v0.154.** 24 peças · 24 validadores · **256 checagens**. Livro em 17 capítulos,
+**71.013 palavras**, **243** páginas em coluna única e **141** em duas. Manual do Fundamento na
 **v7.14**. `conferir-voz --estrito` em 0 achados, 0 termos sem destino, 11 triagens, **7 marcas
 de "isto ainda não existe" e 0 rótulos longos demais em 52 entradas de catálogo**.
 
-> **Os quatro builds rodaram na v0.153, e a checagem 7.5 está verde.** *Antes de eles valerem,
+> **Os quatro builds rodaram na v0.154, e a checagem 7.5 está verde.** *Antes de eles valerem,
 > o controle da v0.151 foi rodado de novo:* **reconstruindo a partir da fonte de antes das
 > edições, a coluna única saiu com `243` páginas e `3.034.652` bytes contra `3.034.648` do build
 > anterior** — *quatro bytes, e eles são o carimbo de data do PDF.*
@@ -70,12 +70,21 @@ lição nº 8 aplicada ao reconhecedor em vez de ao valor.
 
 ## A fila, e nenhuma trava a mesa
 
-### 1 · TRÊS dívidas de preço, e as três são versão própria
+### 1 · QUATRO dívidas de preço, e a primeira já tem diagnóstico fechado
+
+> **⚠⚠ O vão foi medido na v0.154, e o problema não é o que a dívida dizia.** *A taxa que faltava não era pergunta de playtest — ela sai do bloco 1 do `conferir-orcamento.py`: `10,5` rodadas de luta por dia, e o poço de PE diz quantas cabem.* **Com o dano na arma dentro, a Ação de Atacar rende `1,26×` o Classe 0 grátis e NÃO está dominada** — o ataque extra não virou letra morta.
+>
+> ***O que quebrou é outra coisa:*** **o vão parou de ser um número.** *Na forma da v0.82 o físico e o conjurador faziam a mesma Ação Padrão e o físico tinha uma coisa a mais — subtração limpa. Na forma da v0.147 o físico **escolhe** entre atacar e conjurar, então "físico − conjurador" virou comparação entre duas decisões, e o resultado muda com o poço de PE do Caminho e com a Manha da ficha.*
+>
+> **Medido: o degrau do nível 7 vale `0,46` fatia sem Manha e `0,85` com uma que escala, contra `2,36` publicado.** *E a forma inverteu — publicado ele CRESCE com o nível, derivado ele ENCOLHE, porque a rodada sem PE fica mais rara conforme o poço cresce.*
+>
+> ***A escolha que sobrou é do Mizuki, e são duas:*** **A · repreçar para baixo** — mas aí o degrau vale menos que a menor Manha do catálogo, que é o tamanho que este projeto já chamou de entrada morta duas vezes. **C · trocar o que o nível 7 entrega** a Bastião e Vanguarda — mas aí ele deixa de ser "correção de base", que é o argumento que a peça faz há trinta versões.
 
 | dívida | desde | o que é |
 |---|---|---|
-| **o vão do nível 7** | v0.147 | o vão `físico − conjurador` foi construído sobre a forma antiga do ataque extra, e é ele que paga o degrau dos cinco Caminhos. A inversão deixou pendurado, de propósito |
-| **quatro Manhas** | v0.147 | `Gancho`, `Espeto`, `Laço` e `Prego` foram preçados com trava `—`. Agora têm portão, e os `0,71 · 0,71 · 1,06 · 1,06` valem mais do que a entrega entrega |
+| **o vão do nível 7** | v0.147 | o vão `físico − conjurador` foi construído sobre a forma antiga do ataque extra, e é ele que paga o degrau dos cinco Caminhos. **Diagnóstico fechado na v0.154; falta a escolha entre A e C** |
+| **as Manhas supõem DOIS ataques** | v0.154 | o `Raspão` publica `6,00`, e `6,00` só fecha com dois (`2 × 50% × 6`). **Do nível 2 ao 6 a Vanguarda tem um**, então `Talho`, `Raspão`, `Racho` e `Zunido` entregam metade por cinco níveis. *Consertar mexe no orçamento da Vanguarda inteira* |
+| **três Manhas com portão** | v0.147 | `Espeto`, `Laço` e `Prego` foram preçados com trava `—`, e o Teste de Resistência deles não entra no preço. **Eram quatro: o `Gancho` saiu do grupo na v0.154, quando perdeu o TR** |
 | **o dano na arma** | v0.148 | **não tem peça, não tem validador e não tem conta.** Mora só no livro, em `Canalizar energia` e `Estímulo Muscular`. É o único dado do sistema nessa situação |
 
 ### 2 · As sete marcas de "isto ainda não existe" — cinco assuntos

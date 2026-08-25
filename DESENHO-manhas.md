@@ -65,23 +65,61 @@ As bases todas saem de documento dono:
 
 | categoria | Manha | o que faz | TR | trava | fatias |
 |---|---|---|---|---|---|
-| **Lâmina Curta** | `Talho` | `+1` no acerto contra alvo que já levou dano seu nesta luta | — | 50% | **1,06** |
+| **Lâmina Curta** | `Talho` | `+1` no acerto do seu próximo ataque contra um alvo que levou dano seu neste turno | — | 75% | **0,80** |
 | **Lâmina Longa** | `Raspão` | o ataque que **erra** ainda causa o seu atributo | — | — | **1,18** |
 | **Massa** | `Abalo` | o alvo cai — condição `Derrubado` | **Físico** | 60% | **1,00** |
 | **Porrete** | `Tranco` | desvantagem no próximo ataque do alvo | **Vigor** | 28% | **0,99** |
-| **Manopla** | `Encaixe` | `+2` de Defesa até o seu próximo turno, se você acertou | — | 75% | **1,00** |
+| **Manopla** | `Encaixe` | `+2` de Defesa até o seu próximo turno, se você acertou. Uma vez por rodada | — | 75% | **1,00** |
 | **Machado** | `Racho` | o golpe pega um segundo alvo ao seu alcance | — | 44% | **1,00** |
-| **Ceifa** | `Gancho` | você puxa o alvo `6 m` para perto de você | **Físico** | — | **0,71** |
-| **Armas Longas** | `Espeto` | você empurra o alvo `6 m` e ele não te acompanha | **Físico** | — | **0,71** |
-| **Flexível** | `Laço` | o alvo perde o deslocamento inteiro do próximo turno | **Físico** | — | **1,06** |
+| **Ceifa** | `Gancho` | o corte rasga: o alvo leva o seu atributo de novo no início do próximo turno dele | — | — | **1,18** |
+| **Armas Longas** | `Espeto` | você empurra o alvo `4,5 m` | **Físico** | — | **0,53** |
+| **Flexível** | `Laço` | o alvo perde metade do deslocamento do próximo turno | **Físico** | — | **0,53** |
 | **Arremesso** | `Palmo` | `+1` no acerto do próximo arremesso contra o mesmo alvo | — | 50% | **1,06** |
 | **Yumi** | `Zunido` | o tiro que **erra** ainda causa o seu atributo | — | — | **1,18** |
 | **Balestra** | `Prego` | o alvo perde `9 m` do deslocamento do próximo turno | **Vigor** | — | **1,06** |
 | **Arma de Fogo** | `Estampido` | todo aliado que enxerga tem `+1` no próximo ataque contra o alvo | — | — | **0,68** |
 | *(no lugar da sua)* | `Versado` | guardar e sacar viram um gesto só, e `+1` no acerto com a arma nova | — | — | **não medida** |
 
-> **Média `0,98` fatia. A menor é o `Estampido` em `0,68`, a maior é o `Raspão` e o `Zunido` em `1,18`.**
-> **Dominância entre a maior e a menor: `1,74×`** — o filtro do projeto reprova em `3,00×`. *Comparação: o `Guiar` do Guia vale `0,68` no mesmo degrau, e o `Absorver` do Bastião vale `1,60`. As treze cabem inteiras dentro do que os outros Caminhos já praticam.*
+> **Média `0,97` fatia. A menor é o `Espeto` e o `Laço` em `0,53`, a maior é o `Raspão`, o `Zunido` e o `Gancho` em `1,18`.**
+> **Dominância entre a maior e a menor: `2,22×`** — o filtro do projeto reprova em `3,00×`. *Comparação: o `Guiar` do Guia vale `0,68` no mesmo degrau, e o `Absorver` do Bastião vale `1,60`. As treze cabem inteiras dentro do que os outros Caminhos já praticam.*
+
+## A leva da v0.154 — cinco mexidas do Mizuki lendo o catálogo
+
+*Nenhuma saiu de validador. As cinco vieram de ele ler as entradas e perguntar como cada uma acontece na mesa.*
+
+| Manha | antes | agora | preço |
+|---|---|---|---|
+| `Talho` | `+1` contra alvo que levou dano seu **nesta luta** | `+1` no **próximo ataque** contra alvo que levou dano seu **neste turno** | `1,06` → **`0,80`** |
+| `Encaixe` | sem limite | **uma vez por rodada** | `1,00` → `1,00` |
+| `Gancho` | puxa o alvo `6 m` | **o corte rasga**: o alvo leva o seu atributo de novo no início do próximo turno dele | `0,71` → **`1,18`** |
+| `Espeto` | empurra `6 m`, e ele não te acompanha | empurra **`4,5 m`** | `0,71` → **`0,53`** |
+| `Laço` | perde o deslocamento **inteiro** | perde **metade** do deslocamento | `1,06` → **`0,53`** |
+
+**O `Encaixe` era o único furo de regra da leva: ele não tinha limite e a Defesa empilhava.** *Com dois golpes na Ação de Atacar ele dava `+4`, e o preço de `1,00` sempre supôs `+2`.* **A entrada nomeia o limite agora, e o `+2` volta a ser o que estava preçado.**
+
+> **⚠ O `3 m` que o Mizuki pediu para o `Espeto` reprovou, e por número.** *Ele dá `0,35` — que é exatamente a linha que a tabela do 5e acima já mede e recusa: `Push · Slow`, `0,35`, **fraca**.* **A banda iria a `3,33×` contra um filtro que reprova em `3,00×`.** *`4,5 m` entrega o encurtamento e mantém o filtro; e quem manda no piso da banda é o `Laço`, não o `Espeto`.*
+
+### ⚠⚠ O `Gancho` não podia ser consertado por alcance, e o motivo é regra
+
+***Achado do Mizuki:*** *"quase nunca ela vai ter alcance para puxar o alvo"*. **Ele está certo, e a causa é estrutural:** *puxar exige que o alvo esteja no seu alcance, e se ele já está, puxar não entrega nada.*
+
+**A saída óbvia — dar `6 m` de alcance à Manha — reprova pela peça 14:** *`Alcance` é **propriedade de arma**, medida em metros, padrão `1,5 m`, e aquela peça escreve que "propriedade não é escolha: é o que a arma é".* **Uma Manha que concede alcance sobrescreveria uma propriedade de arma numa das treze categorias.**
+
+> **E a ficção também não fechava, pelo mesmo lugar.** *A `Ceifa` é **Foice · Kama · Kusarigama**, e só o Kusarigama tem corrente.* **Dar `6 m` à categoria dá corrente à foice e à kama.**
+>
+> *O levantamento externo confirma a forma:* o 5e puxa a distância — `Thorn Whip` a `9 m`, `Lightning Lure` a `4,5 m` — **mas sempre como magia com alcance próprio**, nunca como propriedade pendurada no alcance corpo a corpo.
+
+**A segunda saída — fechar a distância em vez de puxar — reprova por entregar zero.** *A peça 3 publica que a Ação de Movimento vale `9 m` e "pode ser dividida antes, durante e depois da ação".* **"Deslocar-se até `6 m` em direção ao alvo e atacar em sequência" é o turno base**, que todo personagem tem no nível 1. *É o defeito do `Bote`: entrada publicada e preçada que não entrega nada.*
+
+***Decisão do Mizuki: o `Gancho` para de ser sobre mover.*** **Ele vira dano de valor fixo, que a seção *Duas decisões* acima já declarou legal** — e é o que uma foice faz. *Sem alcance, sem Teste de Resistência, no molde do `Raspão`.*
+
+### ⚠⚠ E a leva destampou uma dívida: as Manhas foram preçadas supondo DOIS ataques
+
+**O `Raspão` publica `6,00` de dano por rodada, e `6,00` só fecha com dois ataques:** *`2 × 50%` de erro `× 6` de atributo. Com um ataque dá `3,00`.*
+
+> **Do nível 2 ao 6 a Vanguarda tem um ataque por rodada** — o ataque extra é o degrau de Caminho do nível **7**. **Então as quatro Manhas que escalam por ataque — `Talho`, `Raspão`, `Racho` e `Zunido` — entregam metade do preço publicado por cinco níveis.**
+
+*Isso não é efeito desta leva: já era assim desde a v0.82, e nenhum documento escrevia.* **Fica registrado sem conserto**, porque consertar é escolher entre repreçar as quatro contra o nível 2 — e aí elas ficam grandes do 7 em diante — ou aceitar que o degrau do nível 2 da Vanguarda cresce sozinho no 7. *As duas mexem no orçamento da Vanguarda inteira, e isso é versão própria.*
 
 ## Os nomes, e os cinco que morreram na triagem
 

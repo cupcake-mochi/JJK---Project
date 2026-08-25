@@ -614,6 +614,58 @@ if not [e for e in erros if e.startswith('[12]')]:
     print('  [x] nenhuma entrega de Trilha esta sem preco, e todo total de cabecalho')
     print('      recontado cai dentro do que as linhas dele somam.')
 
+# ================================================================ 13
+# v0.154: a BANDA das Manhas. O catalogo delas tem preco por entrada e um
+# filtro de dominancia declarado, e ate aqui nada comparava os dois — a leva
+# daquela versao mexeu em cinco entradas e tres delas mudaram de preco.
+#
+# Nenhum numero mora aqui: as fatias saem da tabela do DESENHO-manhas.md, o
+# filtro sai da frase que o declara, e a banda publicada sai da linha que a
+# publica. A checagem so' compara.
+print()
+print('=' * 88)
+print('13. A BANDA DAS MANHAS — o catalogo contra o filtro de dominancia')
+print('=' * 88)
+
+_fatias = {}
+for _l in MAN.split('\n'):
+    _m = re.match(r'\|\s*\*\*[^|]+\*\*\s*\|\s*`([^`]+)`\s*\|.*\|\s*\*\*(\d+,\d+)\*\*\s*\|\s*$', _l)
+    if _m:
+        _fatias[_m.group(1)] = float(_m.group(2).replace(',', '.'))
+
+_filtro = re.search(r'o filtro do projeto reprova em `(\d+,\d+)×`', MAN)
+_pub = re.search(r'A menor é [^.]*?em `(\d+,\d+)`, a maior é [^.]*?em `(\d+,\d+)`', MAN)
+_pubdom = re.search(r'Dominância entre a maior e a menor: `(\d+,\d+)×`', MAN)
+
+if len(_fatias) < 10:
+    erro('13', f'so li {len(_fatias)} preco(s) na tabela do DESENHO-manhas.md — o '
+               f'extrator parou de casar e a banda passou a ser medida sobre um '
+               f'pedaco do catalogo')
+elif not (_filtro and _pub and _pubdom):
+    erro('13', 'o DESENHO-manhas.md nao publica a banda, a dominancia ou o filtro — '
+               'sem os tres esta checagem nao tem contra o que comparar')
+else:
+    _lo, _hi = min(_fatias.values()), max(_fatias.values())
+    _dom = _hi / _lo
+    _f = float(_filtro.group(1).replace(',', '.'))
+    _plo = float(_pub.group(1).replace(',', '.'))
+    _phi = float(_pub.group(2).replace(',', '.'))
+    _pd = float(_pubdom.group(1).replace(',', '.'))
+    print(f'  {len(_fatias)} Manhas com preco; banda medida {_lo:.2f} a {_hi:.2f}, '
+          f'dominancia {_dom:.2f}x')
+    print(f'  o documento publica {_plo:.2f} a {_phi:.2f}, dominancia {_pd:.2f}x, '
+          f'filtro {_f:.2f}x')
+    if abs(_lo - _plo) > 0.005 or abs(_hi - _phi) > 0.005:
+        erro('13', f'a banda publicada e {_plo:.2f}-{_phi:.2f} e a tabela da '
+                   f'{_lo:.2f}-{_hi:.2f} — o texto e a tabela divergiram')
+    elif abs(_dom - _pd) > 0.01:
+        erro('13', f'a dominancia publicada e {_pd:.2f}x e a recontada da {_dom:.2f}x')
+    elif _dom >= _f:
+        erro('13', f'a dominancia das Manhas e {_dom:.2f}x e o filtro reprova em '
+                   f'{_f:.2f}x — o catalogo saiu da banda')
+    else:
+        print('  [x] a banda recontada bate com a publicada, e ela passa no filtro.')
+
 # ================================================================ veredito
 print('\n' + '=' * 88)
 if avisos:
