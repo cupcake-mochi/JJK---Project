@@ -82,6 +82,7 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **Crítico** | `20` natural numa rolagem de acerto. Dobra os dados da arma ou da Classe, e nada mais | 1 |
 | **`Bloquear`** | Ao ser atacado, role `2d10 + (Defesa − 11)` e use no lugar da Defesa parada. Na média dá a mesma Defesa | 1 |
 | **`Aparar`** | O duplo 10 no `Bloquear`. O ataque não acerta, e você pode gastar a Reação para revidar com `+3` de dano | 1 |
+| **`Brecha`** | O duplo 1 no `Bloquear`. O ataque acerta, e o agressor pode gastar a Reação dele para atacar de novo | 1 |
 | **Arredondamento** | Sempre para o lado que não te favorece. O que você paga sobe, o que você ganha desce | 1 |
 | **Rotina** | O dano que um personagem entrega numa rodada comum, sem gastar recurso guardado | 15 |
 
@@ -276,11 +277,13 @@ Melhoria — são escadas diferentes que usam as mesmas três palavras. O capít
 **Trilhas**
 | Termo | O que é | Cap. |
 |---|---|---|
+| **`Brasa`** | Trilha do Bastião: conjura pequeno e bate na sequência | 8 |
 | **`Elo`** | Trilha do Guia: o que outra pessoa fez chega mais longe | 8 |
 | **`Sutura`** | Trilha do Guia: Energia Reversa cedo, e nos outros | 8 |
 | **`Torrente`** | Trilha do Emanador: mais de um feitiço na rodada, e a energia acaba | 8 |
 | **`Explosivo`** | Trilha do Emanador: um feitiço só, e ele sai maior | 8 |
 | **`Arremate`** | Trilha do Emanador: o feitiço acontece onde a mão chega | 8 |
+| **`Versado`** | Manha da Vanguarda: trocar de arma vira um gesto só. Leva-se no lugar da Manha da categoria | 8 |
 
 ## Palavras com sentido próprio
 
@@ -407,8 +410,8 @@ entre `Aguentar` e `Insistir`. A regra está no capítulo 1, na seção *Vida a 
 - **Quer entender por que cada número é aquele?** Capítulo 1, *Como Jogar*.
 - **Quer montar o seu próprio personagem?** Capítulo 6, *Criação de Personagem*, os oito
   passos — a Kaori acima é o exemplo completo de lá.
-- **Esbarrou numa palavra que não foi explicada?** O vocabulário do sistema, logo atrás
-  desta página, tem uma linha para cada termo e o capítulo que o explica por extenso.
+- **Esbarrou numa palavra que não foi explicada?** O vocabulário do sistema tem uma
+  linha para cada termo e o capítulo que o explica por extenso.
 
 ---
 
@@ -548,7 +551,7 @@ Crítico só existe onde existe rolagem de acerto. Feitiço que resolve por Test
 
 > **Defesa = 10 + Destreza + proteção**
 
-Defesa é o número que o inimigo precisa igualar ou passar para te acertar. Por exemplo, com Destreza 3 e um Traje de degrau 2, a sua Defesa é 15. Ela é um número parado, e por padrão você não rola nada — mas pode trocar ela por uma rolagem quando for atacado, e é a seção `Bloquear`, logo abaixo.
+Defesa é o número que o inimigo precisa igualar ou passar para te acertar. Por exemplo, com Destreza 3 e um Traje de degrau 2, a sua Defesa é 15. Ela é um número parado, e por padrão você não rola nada — mas pode trocar ela por uma rolagem quando for atacado, e é a seção `Bloquear`.
 
 **Proteção** é o que você veste ou o que você cobre. Cobrir-se de energia amaldiçoada dá proteção sem equipamento nenhum, e é aptidão básica de todo feiticeiro.
 
@@ -596,9 +599,9 @@ Quem está `Incapacitado` não pode `Bloquear`. É a única condição que desli
 
 ### Custo
 
-> **Um em cada doze golpes vai passar porque você rolou, quando a sua Defesa parada teria segurado.** O `Aparar` e a `Brecha` saem em cerca de 1% das rolagens cada um, e são eles que você está comprando.
-
-O outro preço é tempo de mesa: uma rolagem a mais por golpe recebido. Num combate de quatro rodadas com quatro personagens, isso passa de uma dúzia de rolagens novas.
+> **O que você paga é variação, e não média.** Um em cada doze golpes vai passar porque você rolou, quando a sua Defesa parada teria segurado — e um em cada doze vai ser segurado quando ela teria deixado passar. **É a mesma taxa dos dois lados**, e é ela que faz a troca fechar em zero.
+>
+> **O que você compra são os dois extremos.** O `Aparar` e a `Brecha` saem em cerca de 1% das rolagens cada um.
 
 ## Testes de Resistência
 
@@ -1028,7 +1031,7 @@ Inteligência leva 11 das 23 perícias, Essência 7, Destreza 4 e Força 1. **Ne
 
 **Sobrevivência** — aguentar o ambiente, achar água e abrigo, se orientar, e seguir um rastro, seja pegada ou resíduo de energia.
 
-**Natureza** — planta, bicho, clima, terreno. O que é venenoso, que vale enche, quando a chuva vem.
+**Natureza** — planta, bicho, clima, terreno. O que é venenoso, qual vale enche, quando a chuva vem.
 
 **Lidar com Animais** — acalmar, montar, conduzir, mandar num bicho. Vale para invocação que ainda não te obedece direito.
 
@@ -1186,7 +1189,7 @@ O número do dano vem da arma ou do feitiço. O tipo diz quem resiste a ele e co
 
 **`Energia Reversa`** — a energia que conserta gente, usada para o contrário. Num corpo comum ela é ferimento em cima do que já existe; é o dano que mais desmonta quem confiava na própria recuperação.
 
-**`Alma`** — passa por couro, armadura e barreira, e bate na coisa que você é. Ele gasta Integridade em vez de vida, tem quatro estágios próprios, e não se resiste com músculo. Quem toma dano de `Alma` continua de pé e volta menos do que era. Os quatro estágios estão logo abaixo.
+**`Alma`** — passa por couro, armadura e barreira, e bate na coisa que você é. Ele gasta Integridade em vez de vida, tem quatro estágios próprios, e não se resiste com músculo. Quem toma dano de `Alma` continua de pé e volta menos do que era. Os quatro estágios estão na tabela `Estágios de dano na alma`.
 
 ### Nomes repetidos
 
@@ -1426,7 +1429,7 @@ A `Exaustão` engana: em outros jogos ela é condição, aqui não. Quem for esc
 > **Existe uma Melhoria `Condição`, uma só, e o preço dela é o nível da condição que você escolheu.**
 > Escolher `Derrubado` custa `Leve`. Escolher `Atordoado` custa `Pesada`.
 
-Você aponta a condição nas tabelas acima, lê o nível dela, e esse é o preço. Não existe pacote nem grupo de compra.
+Você aponta a condição na tabela `Condições em uma linha`, lê o nível dela, e esse é o preço. Não existe pacote nem grupo de compra.
 
 > **Exemplo.** O Kaito está montando um feitiço de Classe 2 que derruba quem for acertado. Ele compra a Melhoria `Condição` e escolhe `Derrubado`, que é `Leve`. Numa Classe 2 isso custa `1` ponto, e ele fica com o resto do orçamento em dados de dano. Se ele quisesse `Impedido`, que é `Pesada`, o mesmo feitiço pagaria `3` e sairia bem menor.
 
@@ -1955,7 +1958,7 @@ A regra de um Legado é a linha em negrito. Quando a entrada termina numa linha 
 
 ### Como ler um Destranca
 
-Um Destranca abre uma porta: um lugar onde você é recebido, uma coisa que você sabe, uma pessoa que existe no mundo por sua causa. Ele nunca mexe em acerto, CD ou dano.
+Um Destranca abre uma porta: um lugar onde você é recebido, uma coisa que você sabe, uma pessoa que existe no mundo por sua causa. Ele nunca mexe em acerto, CD ou dano, e nunca decide o que outra pessoa faz.
 
 A maioria vale sempre, sem contagem. Só quando o Destranca obriga o mestre a te entregar uma informação nova é que ele ganha relógio, pela escada de sempre: por cena, por descanso curto, por dia, por descanso longo, do mais frequente ao mais raro.
 
@@ -1963,11 +1966,11 @@ A maioria vale sempre, sem contagem. Só quando o Destranca obriga o mestre a te
 
 Um Ajusta mexe num número de uma rolagem. Quase sempre de um dos dois jeitos: você refaz um teste que já falhou, ou rola com **vantagem** (joga dois dados e fica com o melhor resultado).
 
-Quanto mais largo o que ele alcança, mais raro o relógio dele: um que pega qualquer perícia vale por dia, e um que pega uma condição só vale por cena.
+Ele carrega relógio sempre, e quanto mais largo o que ele alcança, mais raro o relógio: um que pega qualquer perícia vale por dia, e um que pega uma condição só vale por cena.
 
 ### Como ler um Desliga
 
-Um Desliga apaga uma coisa que aconteceria com você, sempre que a situação aparecer, sem rolagem nenhuma. Não existe "tentar" um Desliga; ou a situação bateu e ele age, ou não bateu.
+Um Desliga apaga uma coisa que aconteceria com você, sempre que a situação aparecer, sem rolagem nenhuma. Não existe "tentar" um Desliga; ou a situação bateu e ele age, ou não bateu. **Ele nunca desliga a ficha de outra pessoa:** o que ele apaga é o que chega em você.
 
 A maioria vale sempre, sem contagem. E cada entrada diz o que você paga em troca: nenhum Desliga é só ganho.
 
@@ -2344,7 +2347,7 @@ Você tem energia amaldiçoada, então tem PE, aptidões e refino como qualquer 
 
 #### Destranca
 
-*Escolha um destes, obrigatoriamente. A configuração que você escolhe aqui decide qual das quatro listas de Ajusta abaixo você alcança.*
+*Escolha um destes, obrigatoriamente. A configuração que você escolhe aqui decide qual das quatro listas de Ajusta você alcança.*
 
 > **Ninhada** — **três seres num corpo só, e é o arranjo que estabiliza. Escreva na ficha o que são os três.**
 > *Na mesa:* serve quando o grupo pede conselho. *Exemplo: os três discordam sobre entrar ou não, e você interpreta a discussão em voz alta.*
@@ -2531,13 +2534,7 @@ Você começa toda a ficha com um `Destranca` e um `Ajusta` ou `Desliga`.
 
 As listas de cada Origem são exemplo, e não limite. Se nenhuma entrada serve para o personagem que você escreveu, você escreve a sua — do grupo que quiser — e leva ao mestre antes da primeira sessão.
 
-Use as publicadas como molde. Cada grupo tem uma forma fixa, e é ela que o mestre vai olhar.
-
-> **`Destranca`** — abre uma porta. Um lugar onde você é recebido, uma coisa que você sabe, uma pessoa que existe no mundo por sua causa. **Não mexe em acerto, CD nem dano, e nunca decide o que outra pessoa faz.** Só ganha relógio quando obriga o mestre a te entregar informação nova.
-
-> **`Ajusta`** — mexe num número de uma rolagem, quase sempre refazendo um teste falhado ou dando vantagem. **Ele carrega relógio sempre, e quanto mais largo o alcance, mais raro o relógio:** o que pega qualquer perícia vale por dia; o que pega uma situação só vale por cena.
-
-> **`Desliga`** — apaga uma coisa que aconteceria com você, sem rolagem, toda vez que a situação aparecer. **Ele só apaga o que ninguém comprou** — nunca anula uma habilidade, um feitiço ou um item de outra ficha. **E ele cobra uma troca escrita:** nenhum `Desliga` é só ganho.
+Use as publicadas como molde. **A forma de cada grupo está em *Como ler um Destranca*, *Como ler um Ajusta* e *Como ler um Desliga*, no começo deste capítulo**, e é ela que o mestre vai olhar.
 
 **A conta não muda.** Você continua levando um `Destranca` e um `Ajusta` ou `Desliga`, seja escrito por você ou tirado da lista.
 
@@ -2596,6 +2593,8 @@ E duas coisas que quase todo degrau daqui menciona:
 > **Feitiço de Toque** — os dados da Classe, e nada mais. Arma e atributo ficam de fora da conta.
 > **Golpe simples** — arma mais Força. É o que você faz quando não canaliza.
 > **Um feitiço de Toque por turno.** Ataque extra é sempre golpe simples.
+
+> **Se a sua ficha monta o poder na Técnica Marcial, onde um degrau daqui diz *feitiço* ou *conjurar*, leia `Kata`.** Mesma Classe, mesmo custo em PE, mesmo degrau. **São as duas rotas do capítulo 10, *Técnica Marcial***, e elas escolhem Caminho e Trilha como todo mundo.
 
 ### Treino de arma
 
@@ -2735,7 +2734,7 @@ E duas coisas que quase todo degrau daqui menciona:
 
 ### Degraus da Vanguarda
 
-> **Nível 2: `Escola de Arma`.** **Escolha uma das treze categorias de arma.** Com armas daquela categoria você usa a **Manha** dela. *As treze estão na seção seguinte.*
+> **Nível 2: `Escola de Arma`.** **Escolha uma das treze categorias de arma.** Com armas daquela categoria você usa a **Manha** dela. *As treze estão na seção seguinte, e a `Versado` também — ela se leva no lugar da Manha da sua categoria.*
 >
 > **Nível 7: Ataque extra.** Você ganha **um golpe simples por rodada**. Ele exige a Ação de Atacar: acontece junto do que a sua Ação Padrão fez naquele turno, e só nesse caso — a não ser que uma habilidade diga o contrário.
 >
@@ -2782,6 +2781,8 @@ A Manha dá identidade à sua ficha. Você vira a pessoa do machado, a pessoa da
 > **Uma vez por rodada.** Não importa quantos golpes você deu: a Manha cobra Teste de Resistência de um alvo por rodada, e você escolhe qual.
 >
 > **As que não pedem** são as que mexem em você ou no seu próprio dado — `Talho`, `Raspão`, `Encaixe`, `Racho`, `Palmo`, `Zunido` e `Estampido`. *Elas não fazem ninguém rolar nada, e por isso também não têm limite por rodada.*
+>
+> **A `Versado` também não pede** — ela mexe no seu acerto e em mais nada. *O relógio dela é próprio, e a entrada dela diz qual.*
 
 > **A Manha nunca é dado de dano.** Ela mexe em onde as pessoas estão, em quem é atingido, e em quanto a próxima rolagem custa. Valor fixo de dano ela pode dar. Dado de dano é assunto do equipamento.
 
@@ -2789,9 +2790,13 @@ A Manha dá identidade à sua ficha. Você vira a pessoa do machado, a pessoa da
 
 Quem troca de arma no meio da luta pode levar esta **no lugar da Manha da sua categoria**.
 
-> **`Versado`** — guardar uma arma e sacar outra passa a ser **um gesto só**, e não dois. Até o começo do seu próximo turno, você tem **`+1` no acerto** com a arma que acabou de sacar.
+> **`Versado`** — vale quando você troca de arma no seu turno.
 >
-> **Quando.** Uma vez por rodada, no seu turno.
+> **O gesto.** Guardar uma arma e sacar outra passa a ser **um gesto só**, e não dois.
+>
+> **A mira.** Até o começo do seu próximo turno, você tem **`+1` no acerto** com a arma que acabou de sacar.
+>
+> **Relógio.** Uma vez por rodada.
 >
 > **O que ela substitui.** A Manha da categoria que você escolheu na `Escola de Arma`. Você não leva as duas.
 
@@ -3482,7 +3487,7 @@ A Livre entrega o dado cru: você vê o medo na cor de alguém, e descobrir o mo
 | `Afinidade` | 3 | Escolha um tema da sua Regra. Feitiços daquele tema ignoram cobertura leve e resistência ao seu tipo de dano. |
 | `Reserva Profunda` | 3 | Seu PE máximo sobe em 3 × a sua maior Classe. |
 | `Regra Própria` | 1 a 3 | Sua técnica impõe uma regra ao mundo. Ver abaixo. |
-| `Passiva Própria` | 1 a 3 | Qualquer outra coisa, montada com o mestre na escala da tabela acima. |
+| `Passiva Própria` | 1 a 3 | Qualquer outra coisa, montada com o mestre na escala das outras entradas desta tabela. |
 
 #### Regra Própria
 
@@ -3773,7 +3778,7 @@ O inimigo sai da luta sem cair morto: no chão, preso, ou lutando contra o próp
 **Controle**
 | Melhoria | Custo | O que faz |
 |---|---|---|
-| `Condição` | o nível dela | Aplica uma das treze condições. O preço é o nível dela (`Leve`, `Média` ou `Pesada`), na tabela logo abaixo. Dura uma rodada. As de nível `Pesada` dão Teste de Resistência no fim de cada turno do alvo, e cabe só uma delas por feitiço. |
+| `Condição` | o nível dela | Aplica uma das treze condições. O preço é o nível dela (`Leve`, `Média` ou `Pesada`), e a seção *Condições* traz as três listas. Dura uma rodada. As de nível `Pesada` dão Teste de Resistência no fim de cada turno do alvo, e cabe só uma delas por feitiço. |
 | `Terreno` | `Leve` | A área vira terreno difícil, ou fica obscurecida, por uma rodada. |
 | `Anteparo` | `Média` | Deixa uma parede ou escudo com 10 × Classe de pontos de vida, por 1 minuto. |
 | `Prende` | `Média` | O alvo não sai do lugar até o fim do próximo turno dele. Ele pode gastar a ação para tentar um Teste de Resistência e se soltar. |
@@ -3977,7 +3982,7 @@ De graça e sem rolar nada, você faz qualquer coisa que caiba na sua Regra e pa
 
 1. Não rola dado e não faz ninguém rolar.
 2. Não tira nem dá vida, não aplica condição, não mexe em rolagem de ninguém e não move nada que resista.
-3. A escala cabe na Classe 0 da tabela de `Efeito`, logo abaixo: coisa de mão.
+3. A escala cabe na Classe 0 da tabela `Forma Efeito`: coisa de mão.
 
 Falhou em um dos três, é feitiço: monte e pague. Passou nos três, funciona, mesmo que resolva a cena.
 
@@ -3999,7 +4004,7 @@ A régua geral é essa: **perceber é Livre, interferir é feitiço**. E o que v
 
 ### Forma Efeito
 
-Quando a coisa é grande o bastante para mudar uma cena, monte um feitiço com a Forma `Efeito`. Ele não causa dano e não rola dado: a Classe define sozinha o que o efeito alcança e por quanto tempo dura, pela tabela abaixo.
+Quando a coisa é grande o bastante para mudar uma cena, monte um feitiço com a Forma `Efeito`. Ele não causa dano e não rola dado: a Classe define sozinha o que o efeito alcança e por quanto tempo dura, pela tabela `Forma Efeito`.
 
 Num feitiço de `Efeito`, os pontos da Classe servem só para comprar Melhorias. Ponto que sobrar não vira nada, porque a escala já está paga pela Classe.
 
@@ -4361,7 +4366,7 @@ Três coisas mudam de nome e duas somem.
 
 ### `Kata`
 
-**`Kata`** (型, a forma que se treina) — a sua aplicação concreta, montada com pontos. Mesma Classe, mesmos pontos, mesmo custo em PE, mesmo teto de Melhoria e de Restrição. **Onde o capítulo 9 escreve *feitiço*, leia `Kata`.**
+**`Kata`** (型, a forma que se treina) — a sua aplicação concreta, montada com pontos. Mesma Classe, mesmos pontos, mesmo custo em PE, mesmo teto de Melhoria e de Restrição. **Onde o capítulo 9, *Fundamento*, ou o capítulo 8, *Caminhos e Trilhas*, escreve *feitiço*, leia `Kata`.** Os degraus de Trilha que conjuram valem igual: a Classe é a mesma, o custo em PE é o mesmo, e o que sai da sua mão é Kata.
 
 ### `Ruptura`
 
@@ -4465,7 +4470,7 @@ Na rota de ferramenta, o objeto declara qual dos dois é na criação — uma li
 > **Coisa que o golpe atravessa** — armadura, manopla, máscara, coturno. O seu golpe simples fere maldição.
 > **Coisa que você só carrega** — câmera, lanterna, maleta, instrumento. O seu golpe simples não fere maldição, e as suas Katas continuam ferindo.
 
-> **⚠ Escolha com cuidado, porque ela cobra tarde.** O ataque extra que Bastião e Vanguarda ganham no nível 7 é um golpe simples, e ele sai na Ação de Atacar. Se o seu objeto é do tipo que você só carrega, esses dois Caminhos passam a valer bem menos na sua ficha.
+> **⚠ Na Restrição Celestial pelo ramo sem energia, escolha com cuidado — ela cobra tarde.** O ataque extra que Bastião e Vanguarda ganham no nível 7 é um golpe simples, e ele sai na Ação de Atacar. Se o seu objeto é do tipo que você só carrega, esses dois Caminhos passam a valer bem menos na sua ficha.
 > **O Corpo Amaldiçoado fere maldição com o golpe simples, seja qual for o objeto.** Ele tem energia amaldiçoada, então tem aptidões e refino normais — e com eles o `Canalizar energia` de graça no refino 1. **O equipamento continua obrigatório**, porque ele é o Selo, e sem Selo não sai Kata.
 
 ## `Desarmado`
@@ -4510,8 +4515,6 @@ Nenhuma delas é catálogo e nenhuma tem requisito. Passiva se escreve na hora, 
 > **Energia.** Item amaldiçoado guardado ali para de emanar. `Barreira Simples` e `Cortina` deixam de segurar ele, e ele atravessa com você.
 >
 > Classe Passiva 1.
-
-**Na obra:** o Toji guarda o arsenal inteiro numa maldição em forma de verme, comprime ela numa bola e engole. É assim que ele anda armado sem ninguém sentir energia nenhuma vindo dele.
 
 > **Contra Expansão de Domínio o `Bocado` não muda nada.** O Acerto garantido lê alvo, e item nunca foi alvo — o que você carrega atravessa domínio de qualquer jeito.
 ### `Raiz`
@@ -4731,13 +4734,9 @@ Estas duas chegam com a ficha, no refino 1, sem custar marco nenhum. Elas são o
 >
 > Como Reação, você concentra a energia no impacto: Redução de Dano de `1,5 × refino` num golpe, por **2 PE**. Você fica sem proteção até o fim do seu próximo turno.
 >
-> **Dano na arma.** Enquanto a proteção estiver de pé, os seus ataques **com arma** causam `1d4` de dano a mais a cada `3` pontos de refino — `1d4` no refino `3`, `2d4` no `6`, `3d4` no `9`. **No refino `10` os dados viram `d6`.**
->
-> **Só arma.** Ele não entra em feitiço nem em Kata. E se o seu ataque já estiver somando um feitiço de dano de `Classe 0` ou mais — como no nível 2 da `Brasa`, que põe um `Classe 0` junto do soco —, este dano **não** se soma por cima.
->
-> Requisito: grátis no refino 1. O refino escala a proteção, o dano na arma e a Redução de Dano da Reação.
+> Requisito: grátis no refino 1. O refino escala a proteção e a Redução de Dano da Reação.
 
-> **Exemplo.** Com refino 6 a sua proteção passiva é 3, o soco dela leva `2d4` a mais, e a Reação desconta 9 de um golpe por 2 PE.
+> **Exemplo.** Com refino 6 a sua proteção passiva é 3, e a Reação desconta 9 de um golpe por 2 PE.
 
 A proteção é um piso. Ela sustenta o feiticeiro que não investiu em corpo nenhum, e sai de cena assim que Traje ou Revestimento entram na conta.
 
@@ -4747,9 +4746,15 @@ Fora de combate ela decide as cenas em que ninguém está brigando: a queda de t
 
 > **Canalizar energia** — você conjura feitiço de Toque. Um feitiço de Toque é um feitiço de Forma Toque, sem Melhoria e sem Restrição: mesma Classe, mesmo orçamento de pontos, mesmo custo em PE.
 >
-> Requisito: grátis no refino 1.
+> **Dano na arma.** Os seus ataques **com arma** causam `1d4` de dano a mais a cada `3` pontos de refino — `1d4` no refino `3`, `2d4` no `6`, `3d4` no `9`. **No refino `10` os dados viram `d6`.**
+>
+> **Só arma.** Ele não entra em feitiço nem em Kata. E se o mesmo ataque já estiver carregando um feitiço de dano de `Classe 0` ou mais — como no nível 27 da `Brasa`, em que cada ataque leva um junto —, este dano **não** se soma por cima.
+>
+> Requisito: grátis no refino 1. O refino escala o dano na arma.
 
-Ela é a porta de toda técnica de contato.
+Ela é a porta de toda técnica de contato, e é ela que põe energia no que a sua mão carrega.
+
+> **Exemplo.** Com refino 6, o soco e a lâmina levam `2d4` de dano a mais.
 
 ## Energia crua
 
@@ -5075,11 +5080,7 @@ Estas duas chegam com a ficha, na Lapidação 1, sem custar marco nenhum.
 >
 > **O Acerto garantido de uma Expansão de Domínio completa não alcança você.** O Efeito continua acontecendo em volta, e uma Expansão incompleta funciona normalmente, porque o Acerto dela rola.
 >
-> **Dano na arma.** Enquanto a proteção estiver de pé, os seus ataques **com arma** causam `1d4` de dano a mais a cada `3` pontos de Lapidação — `1d4` na Lapidação `3`, `2d4` na `6`, `3d4` na `9`. **Na Lapidação `10` os dados viram `d6`.**
->
-> **Só arma.** Ele não entra em feitiço nem em Kata. E se o seu ataque já estiver somando um feitiço de dano de `Classe 0` ou mais, este dano **não** se soma por cima.
->
-> Requisito: grátis na Lapidação 1. A Lapidação escala a proteção e o dano na arma.
+> Requisito: grátis na Lapidação 1. A Lapidação escala a proteção.
 
 **Vestir Traje ou Revestimento desliga só a proteção.** A barreira e o Acerto garantido continuam valendo: eles vêm de você não ter energia amaldiçoada, e uniforme nenhum te dá uma.
 
@@ -5094,7 +5095,13 @@ A Passiva `Bocado`, no capítulo 10, *Técnica Marcial*, guarda o item dentro do
 >
 > **`1×` por cena, e `2×` se a sua Lapidação for `10`.** Cada uso dá **vantagem** numa rolagem de um dos dois.
 >
-> Requisito: grátis na Lapidação 1.
+> **Dano na arma.** Os seus ataques **com arma** causam `1d4` de dano a mais a cada `3` pontos de Lapidação — `1d4` na Lapidação `3`, `2d4` na `6`, `3d4` na `9`. **Na Lapidação `10` os dados viram `d6`.**
+>
+> **Só arma.** Ele não entra em Kata nenhuma. E se o mesmo ataque já estiver carregando uma Kata de dano de `Classe 0` ou mais, este dano **não** se soma por cima — **é o caso do nível 27 da `Brasa`, em que cada ataque leva uma junto.** *Nesta rota o degrau de Trilha entrega Kata e não feitiço, e o capítulo 8, *Caminhos e Trilhas*, diz isso na abertura.*
+>
+> Requisito: grátis na Lapidação 1. A Lapidação escala o dano na arma e o número de usos.
+
+> **Exemplo.** Com Lapidação 6, o soco e a lâmina levam `2d4` de dano a mais.
 
 A escolha não precisa ser física. `Ocultismo` mais `Intelecto` é uma ficha tão legítima quanto `Atletismo` mais `Físico`.
 
@@ -5322,7 +5329,7 @@ De Revestimento a sua Destreza já não conta na Defesa, então o teto do escudo
 
 São 52, divididas em treze categorias. A categoria diz o que a coisa é, de onde vem o dano dela e em qual lista de treino ela cai.
 
-Nenhuma arma deste catálogo fere maldição sozinha. Contra maldição, o que resolve é energia amaldiçoada no golpe ou uma ferramenta amaldiçoada na mão, que é uma arma daqui mais um `Estigma`, no capítulo 14, *Ferramenta Amaldiçoada*. O catálogo abaixo continua valendo inteiro contra gente, contra bicho e contra parede.
+Nenhuma arma deste catálogo fere maldição sozinha. Contra maldição, o que resolve é energia amaldiçoada no golpe ou uma ferramenta amaldiçoada na mão, que é uma arma daqui mais um `Estigma`, no capítulo 14, *Ferramenta Amaldiçoada*. O catálogo de armas continua valendo inteiro contra gente, contra bicho e contra parede.
 
 ### Como ler uma arma
 
@@ -5637,6 +5644,8 @@ O soco não tem propriedade nenhuma, então ele abre mão de alcance, de `Par`, 
 >
 > **Uma ferramenta que você não sintonizou é arma comum, e nada mais.**
 
+**Objeto de apoio** é a ferramenta que você carrega sem empunhar: um anel, um cordão, uma peça costurada no forro do casaco.
+
 Quem conjura fere maldição de graça, pelo feitiço de Toque. Quem não conjura só fere com ferramenta na mão.
 
 ## Sintonizar
@@ -5666,7 +5675,7 @@ Ferramenta é a que é arma. Objeto é a que não é arma.
 | O que é | Como se reconhece | Onde está a regra |
 |---|---|---|
 | ferramenta amaldiçoada | foi forjada para canalizar energia. Você empunha, e ela fere maldição | este capítulo |
-| objeto amaldiçoado | é a maldição presa numa forma de objeto. Você carrega, e o que está dentro dele age | logo abaixo |
+| objeto amaldiçoado | é a maldição presa numa forma de objeto. Você carrega, e o que está dentro dele age | este capítulo, *Objeto amaldiçoado* |
 | cadáver amaldiçoado | coisa sem vida que ganhou movimento próprio, com um núcleo no lugar do coração | capítulo 15, *Invocações* |
 | maldição solta | a maldição sem forma de coisa nenhuma. É o que se exorciza | capítulo 4, *Dano, Condições e Cobertura* |
 
@@ -5770,7 +5779,7 @@ Uma ferramenta de grau 1 com `Desgaste` dura **três missões** de uso antes de 
 
 > **A arma tem teto pelas mãos. O apoio tem teto de dois.**
 
-**Objeto de apoio** é a ferramenta que você carrega sem empunhar: um anel, um cordão, uma peça costurada no forro do casaco. A lista do que conta como apoio e o preço dele estão sendo escritos; o teto de dois já vale desde agora.
+A lista do que conta como apoio e o preço dele estão sendo escritos; o teto de dois já vale desde agora.
 
 **Teto de `Estigma`**
 | A ficha carrega | `Estigmas` |
@@ -6008,7 +6017,7 @@ Uma invocação com `Vigia` transforma toda cena de vigilância: o grupo fica no
 
 ### Traço e Comando próprios
 
-Você pode escrever `Traço` e `Comando` que não estão nas listas acima, e o catálogo serve de régua para isso. Escreva o efeito, ache na tabela abaixo o degrau em que ele cai, e leve para o mestre. A palavra final é dele, sempre em cima de uma entrada escrita, nunca do zero.
+Você pode escrever `Traço` e `Comando` fora dos dois catálogos, e as réguas servem de medida para isso. Escreva o efeito, ache na régua do que você está escrevendo — a de `Traço` ou a de `Comando` — o degrau em que ele cai, e leve para o mestre. A palavra final é dele, sempre em cima de uma entrada escrita, nunca do zero.
 
 **Régua de `Traço`**
 | pontos | `Traço` cai aqui quando |
@@ -6030,7 +6039,7 @@ Você pode escrever `Traço` e `Comando` que não estão nas listas acima, e o c
 
 ### Montagens de exemplo
 
-Seis invocações conhecidas, montadas com o catálogo acima.
+Seis invocações conhecidas, montadas com os catálogos `Traço` e `Comando`.
 
 **Montagens de exemplo**
 | invocação | montagem | pontos | cabe no nível |
@@ -6495,4 +6504,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: a6a2f70a82c8d6064cb8ac03f3180ceaf4a6c514 -->
+<!-- fonte: 68e0be7364fd0b7e3fa2e8ab1629d6edfb92754d -->
