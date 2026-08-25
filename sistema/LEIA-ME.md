@@ -42,7 +42,7 @@ A pasta `skills/` guarda o `SKILL.md` de cada uma mais os arquivos de apoio. ~~*
 
 ## Versão atual
 
-**v0.151.** Fases 0 a 3 fechadas; a Fase 4 (mecânica) está em andamento com **vinte e quatro peças escritas e vinte e quatro validadores passando**. O manual do Fundamento está na **v7.14**, e ele é um subsistema fechado — a técnica e o feitiço já funcionam. O `.pdf` **está na mesma versão do `.docx`** desde a v0.93 — ele deixou de ser exportado a mão.
+**v0.152.** Fases 0 a 3 fechadas; a Fase 4 (mecânica) está em andamento com **vinte e quatro peças escritas e vinte e quatro validadores passando**. O manual do Fundamento está na **v7.14**, e ele é um subsistema fechado — a técnica e o feitiço já funcionam. O `.pdf` **está na mesma versão do `.docx`** desde a v0.93 — ele deixou de ser exportado a mão.
 
 **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas**, por seis das nove rotas de Origem. Desde a v0.32 não sobrou peça de regra travando ninguém nessa faixa: das dezessete coisas que uma ficha de nível 2 precisa, **treze existem, e as quatro que faltam não mordem nessa faixa**. O que falta para as outras três rotas, e a ordem do resto, está no `ESTADO-ATUAL.md`.
 
@@ -69,7 +69,7 @@ Os quatro últimos não leem o manual e não precisam de nada: o `conferir-criac
 
 **Catálogo de entregas** fechou na v0.85 e é a peça 17, em `03-mecanica/17-catalogo-de-entregas.md`, com o `conferir-catalogo.py` e doze checagens. Ela é um índice das **90 entradas** — 56 entregas de Trilha, 20 degraus de Caminho e as 14 Manhas — e não guarda preço nem texto de mesa: os dois continuam nos três `DESENHO-*.md` da raiz. **O validador dela é o primeiro do projeto que lê aqueles arquivos**, e a checagem que ele existe para ter é a que pega bloco de regra contradizendo o gate da linha de preço.
 
-**Ferramenta amaldiçoada** fechou na v0.59 e é a peça 16, em `03-mecanica/16-ferramenta-amaldicoada.md`, com o `conferir-ferramenta.py` e dezoito checagens. A máquina é da v0.55, o catálogo de `Estigma` da v0.56 e da v0.57 — onze entradas. A escada de grau do antigo §6 virou **ritmo de entrega e não gate**, porque como gate ela anulava o gate herdado da peça 11 e deixava o `Desgaste` sem nada para comprar.
+**Ferramenta amaldiçoada** fechou na v0.59 e é a peça 16, em `03-mecanica/16-ferramenta-amaldicoada.md`, com o `conferir-ferramenta.py` e dezenove checagens. A máquina é da v0.55, o catálogo de `Estigma` da v0.56 e da v0.57 — **dez** entradas desde a v0.152, quando o `Bojo` foi arrancado. A escada de grau do antigo §6 virou **ritmo de entrega e não gate**, porque como gate ela anulava o gate herdado da peça 11 e deixava o `Desgaste` sem nada para comprar.
 
 *Invocações saiu desta seção na v0.58*, quando virou a **peça 15** com o `conferir-invocacoes.py` em cima dela.
 

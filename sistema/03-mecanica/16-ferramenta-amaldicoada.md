@@ -202,9 +202,9 @@ A máquina é da casa e já foi validada — é o §5.0.4 de Equipamento, onde `
 | **3 — o teto declarado** | **43%** |
 | 4 — o extremo | 57% |
 
-## 6. O catálogo — onze `Estigma`
+## 6. O catálogo — dez `Estigma`
 
-A régua é a das Classes da **peça 11 §4**, e o degrau de cada entrada foi derivado dela, não escolhido depois. **Nenhuma das onze dá dado de dano, nenhuma cresce com refino, nenhuma soma número numa rolagem disputada** — rodado entrada por entrada.
+A régua é a das Classes da **peça 11 §4**, e o degrau de cada entrada foi derivado dela, não escolhido depois. **Nenhuma das dez dá dado de dano, nenhuma cresce com refino, nenhuma soma número numa rolagem disputada** — rodado entrada por entrada.
 
 ### Classe 1 · grau 3 — efeito pequeno, condicional ou de informação
 
@@ -223,13 +223,10 @@ A régua é a das Classes da **peça 11 §4**, e o degrau de cada entrada foi de
 |---|---|---|
 | **`Quebranto`** | **Reação:** anula um feitiço que ia te acertar. Uma vez por cena | a Corda Negra, *"perturba e cancela técnica alheia"* |
 | **`Avulsa`** | **Reação, quando um inimigo no seu alcance te ataca:** a arma sai da sua mão e ataca ele. **Duas vezes por cena** | a espada-mão do Haruta |
-| **`Bojo`** | uma vez por descanso curto, ela **guarda um feitiço que você lançou e o devolve sem custo de PE** | o Osso de Dragão, *"acumula e ejeta energia"* |
-
-*O `Bojo` cobra em **custo**, que é um dos eixos que a peça 11 §2 autoriza por escrito. Ele é o único dos onze que só serve a feiticeiro, e isso é aceito: **grau 4 é a entrada de quem não tem energia**, e o resto da escada não precisa ser neutro.*
 
 #### O gatilho e o relógio do `Avulsa`, e os dois saíram de conta
 
-*Ele era a única das onze entradas sem limite de uso escrito, e o livro mandava combinar um com o mestre. **Fechado na v0.144**, e as duas metades foram derivadas em vez de escolhidas.*
+*Ele era a única das entradas sem limite de uso escrito, e o livro mandava combinar um com o mestre. **Fechado na v0.144**, e as duas metades foram derivadas em vez de escolhidas.*
 
 **O gatilho reusa máquina que já existe.** *O ataque de oportunidade da peça 3 §2 dispara quando alguém **sai** do seu alcance; este dispara quando alguém **ataca** você dentro dele.* **Uma palavra trocada, e a ficção fecha:** a arma sai da mão e revida sozinha, que é o que a espada-mão do Haruta faz.
 
@@ -244,15 +241,101 @@ A régua é a das Classes da **peça 11 §4**, e o degrau de cada entrada foi de
 
 > **O `maestria`× por cena morre por onde ninguém olha: pelo berço.** *Ele vale `1×` do nível 7 ao 9, que é exatamente onde a Classe 2 abre — reprova lá e só passa depois.* **E do nível 26 em diante ele pede `4` usos contra um teto de `3,7`: vira o "sem relógio" com outro nome.** *É o mesmo defeito de letra morta do arredondamento do `Servo` na v0.68 — a fórmula existe e não tem o que raspar.*
 >
-> **⚠⚠ E a medida destampou uma dívida que não é desta versão: os onze `Estigma` nunca foram preçados uns contra os outros.** *Esta peça confere que nenhum dá dado de dano, que nenhum cresce com refino, e mede o **teto** de quantos cabem na ficha — mas nunca mediu quanto cada um vale.* **Rodando agora, o `Quebranto` sai em `1,28` fatias, que é `6,0%` da Rotina no nível 30, contra `1,6%` do `Contrapeso`, que é Classe 3.** *O modelo o preça no melhor caso dele — anular uma ação inteira de chefe, mirada em você —, e se o gatilho for mais estreito ele cai.*
+> **⚠⚠ E a medida destampou uma dívida — que a v0.152 pagou, e com o escopo trocado.** *A v0.144 escreveu ela como "os onze `Estigma` nunca foram preçados uns contra os outros", e essa comparação a doutrina do projeto proíbe.*
 >
-> ***O `2×` foi escolhido justamente por não depender disso:*** *ele passa no filtro contra o `Quebranto` medido no melhor caso.* **Se um dia os onze forem preçados de verdade, este número não se move por causa disso.**
+> ***O `2×` do `Avulsa` foi escolhido justamente por não depender disso:*** *ele passa no filtro contra o `Quebranto` medido no melhor caso.* **O repreço da v0.152 não moveu este número.**
+
+### 6.1 O corte é DENTRO da Classe, nunca entre Classes
+
+***Achado da v0.152, e ele encolheu a dívida antes de pagá-la.*** *A dívida estava escrita em quatro documentos como "os onze uns contra os outros", e duas coisas do próprio projeto dizem que essa conta não existe.*
+
+**A peça 11 §4 diz que a escada de Classe não mede tamanho:** *"Ela não mede quanto — mede o quê"*, e *"uma Classe Passiva 3 não é uma Classe Passiva 1 maior: é uma coisa de outro formato"*. **E o §7 desta peça diz que o jogador nunca escolhe entre elas:** *o `Estigma` é entregue pelo mestre, num ritmo que põe grau 3 por volta do nível 10 e grau 1 por volta do 26.* **Dezesseis níveis separam os dois — não existe a mesa em que alguém compara um `Quebranto` com um `Contrapeso`.**
+
+> **A v0.144 já tinha medido do jeito certo, e não registrou que aquilo era a regra.** *A tabela do relógio do `Avulsa` compara "a pior razão contra os **irmãos de Classe 2**".* **Dentro do degrau, nunca entre degraus.**
+
+**Medido com o corte certo, a `Classe 1` e a `Classe 3` não têm dominância para achar:**
+
+| degrau | o que a conta acha |
+|---|---|
+| **`Classe 1`** | as quatro leem `0,00` no eixo de dano e fazem quatro coisas diferentes. *É o argumento do `Farejador` da peça 11 §4 — "não fica obsoleta porque uma permanente existe; ela faz algo que nenhuma permanente faz"* |
+| **`Classe 2`** | `Quebranto` `1,28` · `Avulsa` `0,73` — razão `1,75×`, dentro do filtro de `3,00×` |
+| **`Classe 3`** | o `Cisão` lê `0,00` e está **certo** — a v0.145 mediu que ele é `1,0×` a velocidade de bater normal, e troca de barra não é ganho. O `Insondável` mede alcance *"na cena"*, e o projeto não tem moeda para esse eixo |
+
+**E a dívida encolhida rendeu duas coisas de verdade, as duas na §6.2 e na §6.3.**
+
+#### Os preços publicados, num lugar só
+
+*Quatro das dez entradas têm preço INCONDICIONAL. As outras seis entregam informação, posição, robustez — ou um número que depende da ficha —, e o projeto não tem moeda para esses eixos.*
+
+| `Estigma` | Classe | fatias |
+|---|---|---|
+| `Anátema` | 3 | `3,07` |
+| `Quebranto` | 2 | `1,28` |
+| `Avulsa` | 2 | `0,73` |
+| `Cisão` | 3 | `0,00` |
+
+**Esta tabela é a dona dos preços, e a checagem 19 do validador lê ela.** *As contas de cada um moram na seção que os decidiu; o que faltava era um lugar em que a comparação entre irmãos pudesse ser feita sem reparsear três formatos de tabela.*
+
+> **⚠⚠ O `Contrapeso` ESTAVA nesta tabela, em `0,34`, e sair dela foi o segundo achado da v0.152.** *A checagem nova acendeu na primeira rodada: o `Anátema` entregava `9,03×` ele.* **Mas o piso é que estava errado, e a prova é que até o `Quebranto` reprovava contra ele, em `3,76×` — e o `Quebranto` é a entrada calibrada que o projeto usa como referência desde a v0.144.**
+>
+> ***Quando o piso reprova a régua, o suspeito é o piso.*** *E a própria peça já dizia o que ele é, no §6.3: "vale `+2,0` de dano médio para quem tem Força `0` a `2`, e **zero** para quem tem Força `3`", e "encolhe com o nível, que é o oposto de derivar".* **Ele é condicional à ficha.** *O `Quebranto` e o `Anátema` não são — os dois valem o mesmo em qualquer build.*
+>
+> ***Decisão do Mizuki: o piso sai.*** **O `Contrapeso` fica declarado sem moeda, ao lado do `Insondável`** — não porque ninguém mediu, mas porque o número que existe dele descreve um subconjunto de fichas e não a entrada. *O `Cisão` fica, com `0,00`: aquele zero é incondicional, e a v0.145 mediu que ele é `1,0×` a velocidade de bater normal em qualquer ficha.*
+>
+> **A consequência é que a `Classe 3` passa a ter UMA entrada com preço, e a razão dela deixa de existir.** *Isso é honesto: as quatro entradas daquele degrau — anular técnica, cortar a alma, alcance na cena e dispensar requisito de Força — não competem no mesmo eixo.* **A checagem continua com dentes:** *ela tem guarda de contagem, então a tabela encolher acende, e no dia em que um segundo `Estigma` de `Classe 3` ganhar preço incondicional ela volta a comparar.*
+
+### 6.2 O `Bojo` foi ARRANCADO, e ele reprovava por `7,85×` dentro da própria Classe
+
+**Ele era o único dos `Estigma` que entregava PE em vez de dano, e por isso nunca tinha passado por conta nenhuma.** *Mas o projeto tem essa moeda com dono: `1` PE por rodada vale `1,01` fatia, pela peça 5 §4 — é a mesma que a peça 22 §3 usa para preçar pacto.*
+
+*Um feitiço custa `3 × Classe` de PE, e `uma vez por descanso curto` é **uma vez por luta**, pela escada de relógios da peça 10 §5.* **No nível 30, guardar o maior feitiço devolve `21` de PE por luta.**
+
+| `Classe 2` | fatias |
+|---|---|
+| **`Bojo`, como estava** | **`5,73`** |
+| `Quebranto` | `1,28` |
+| `Avulsa` | `0,73` |
+
+**`7,85×` entre o maior e o menor do degrau, contra um filtro que reprova a partir de `3,00×`** — e `4,49×` o `Quebranto`, que é a entrada contra a qual a v0.144 calibrou o `Avulsa`.
+
+**Dois consertos passavam na conta**, e estão registrados porque o argumento vale para a próxima entrada que cobrar em PE: *descer o relógio para `por descanso longo` dava `1,91` fatias e `2,62×`; travar a Classe do feitiço guardado em `2` dava `1,64` e `2,24×`.* **Travar em `3` ainda reprovava, em `3,37×`.**
+
+> ***Decisão do Mizuki: arrancar.*** *"Remove, não sei ao certo como balancear."* **Segunda entrada arrancada desta peça depois de escrita, e pelo motivo oposto ao da primeira:** *a `Vazadura` passava na conta e era regra ruim; o `Bojo` era boa ficção e não fechava em conta nenhuma que não o desfigurasse.*
+>
+> **E o catálogo NÃO foi recomposto para onze.** *Quando a `Vazadura` saiu, o `Bojo` entrou no lugar dela e a contagem ficou parada.* **Escrever uma entrada para fechar contagem é o defeito que a régua da peça 13 nasceu para achar** — são **dez**, e dez é o número.
+
+### 6.3 O `Anátema` não estava sem número: estava sem TEXTO
+
+**Ele era publicado, na peça e no livro, como uma frase:** *"o contato dela anula técnica amaldiçoada"*. **Um `Classe 3` permanente — o degrau que "muda como você joga" — sem dizer o quê anula, por quanto tempo, nem se "contato" exige acertar.** *O irmão dele de `Classe 2`, o `Quebranto`, tem os três limites escritos.*
+
+*E era justamente ele que o exemplo do `Desgaste` no livro entregava a um personagem de nível 4.*
+
+***Decisão do Mizuki:***
+
+> **`Anátema`** — o contato dela **ignora e anula energia amaldiçoada**.
+> **E como Reação, ela anula um feitiço que vem em você:** role um **Teste de Resistência Físico contra a CD do conjurador**.
+
+**A trava que ele pediu é a que segura a entrada, e a conta diz por quanto:**
+
+| a forma | dano por rodada | fatias | contra o `Quebranto` | |
+|---|---|---|---|---|
+| **sem relógio, com o Teste de Resistência** | **`15,60`** | **`3,07`** | **`2,41×`** | **passa** |
+| sem relógio e **sem** o Teste de Resistência | `24,00` | `4,72` | `3,70×` | **reprova** |
+| com relógio de `1×` por cena | `4,22` | `0,83` | `0,65×` | passa, e vira o `Quebranto` |
+
+*A convenção de "sem relógio" é a da v0.144: o teto é a Reação, e uma luta cabe `3,7` delas.* **O Teste de Resistência corta `35%` do valor, e sem ele a entrada reprovaria.**
+
+> **E a taxa NÃO deriva, que é o que faz ela caber.** *`CD = 8 + atributo + maestria` contra `TR = d20 + atributo + maestria`, e os dois lados crescem no mesmo ritmo:* **`65%` para quem treinou, do nível 2 ao 30, sem uma oscilação.** *É a calibragem da v0.117, e é a lição nº 1 do `README` funcionando de graça.*
+>
+> **⚠ Para quem NÃO treinou o Físico, ela cai de `60%` no nível 2 para `45%` no 30** — e isso é o preço de não treinar que a v0.117 declarou, aplicado aqui sem regra nova.
+
+> **⚠ A metade permanente — *"o contato ignora e anula energia amaldiçoada"* — fica sem número, e o registro diz isso.** *Ela é a Lança Invertida do Céu, e é ela que faz a entrada ser `Classe 3` em vez de `Classe 2`.* **O que ela alcança na mesa depende de quanta energia o alvo tem de pé, e o projeto não tem moeda para "energia de pé".** *Fica declarada como não medida em vez de escrita como se tivesse sido.*
 
 ### Classe 3 · grau 1 e especial — permanente, muda como você joga
 
 | `Estigma` | o que faz | de onde veio |
 |---|---|---|
-| **`Anátema`** | **o contato anula técnica amaldiçoada** | a Lança Invertida do Céu |
+| **`Anátema`** | **o contato dela ignora e anula energia amaldiçoada.** *E como **Reação**, ela anula um feitiço que vem em você: role um **Teste de Resistência Físico contra a CD do conjurador*** | a Lança Invertida do Céu |
 | **`Cisão`** | o golpe dela **atravessa o corpo — tira Integridade, e não tira vida nem vida máxima** | a Katana de Alma Partida |
 | **`Insondável`** | enquanto a ponta dela estiver escondida, o alcance dela é **na cena** | a Corrente de Mil Milhas |
 | **`Contrapeso`** | ela **ignora o requisito de Força** da arma | a Nuvem Divertida, que qualquer um empunha |
@@ -273,7 +356,9 @@ A régua é a das Classes da **peça 11 §4**, e o degrau de cada entrada foi de
 
 **A `Vazadura`** ignorava a Redução de Dano do alvo, e saiu na v0.57 depois de escrita. *Ela tinha passado na conta* — a fração que ela anula anda só 3,3 pontos percentuais em vinte e oito níveis, então ela não derivava —, **e passar na conta não é o mesmo que ser uma boa regra.** A RD é o produto que a peça 11 §6 vende por 2 PE, e um item que a apaga é um item que responde a uma escolha de outro jogador com um "não".
 
-*Fica registrado porque o método é o que sobrevive: a conta diz o que é legal, e ela não diz o que deve existir.* No lugar dela entrou o `Bojo`, e o catálogo continua com onze.
+*Fica registrado porque o método é o que sobrevive: a conta diz o que é legal, e ela não diz o que deve existir.* No lugar dela entrou o `Bojo`, e o catálogo foi para onze.
+
+**E o `Bojo` saiu na v0.152, pelo motivo oposto ao dela.** *A `Vazadura` passava na conta e era regra ruim; o `Bojo` era boa ficção — o Osso de Dragão, que acumula e ejeta energia — e reprovava em `7,85×` dentro da própria Classe.* **Os dois consertos que passavam estão medidos na §6.2, e a decisão do Mizuki foi arrancar em vez de escolher entre eles.** *O catálogo ficou em **dez**, e não foi recomposto: entrada escrita para fechar contagem é o defeito que a régua da peça 13 existe para achar.*
 
 ## 7. Quando ela entra na mesa — ritmo, e não gate
 
@@ -300,7 +385,7 @@ A coluna do meio segue a cadência de marco da peça 2 §3 — um marco sim, um 
 
 ## 8. O que o validador confere
 
-O `conferir-ferramenta.py` roda **dezoito checagens**, e **nenhum valor fica escrito dentro dele**: teto, gate, fundo, Rotina e orçamento saem dos documentos donos. O único bloco com número na mão é o `LIMITES DE DESIGN`, declarado à parte da regra aplicada — que é a lição nº 8.
+O `conferir-ferramenta.py` roda **dezenove checagens**, e **nenhum valor fica escrito dentro dele**: teto, gate, fundo, Rotina e orçamento saem dos documentos donos. O único bloco com número na mão é o `LIMITES DE DESIGN`, declarado à parte da regra aplicada — que é a lição nº 8.
 
 | # | o que ela confere | de onde ela lê | o teste negativo |
 |---|---|---|---|

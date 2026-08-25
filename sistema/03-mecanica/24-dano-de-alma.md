@@ -181,9 +181,13 @@
 
 > **A entrega continua valendo `0,00` para dois terços dos alvos, e é isso que a reprova** — a mesma família que matou o `recuperar ferimento` e a Passiva `Casca`. **O bilhete da peça 5 foi corrigido para dizer isso**, em vez de continuar prometendo uma reabertura que a conta não sustenta.
 
-### 6.2 Os onze `Estigma` continuam sem preço uns contra os outros
+### 6.2 ~~Os onze `Estigma` continuam sem preço uns contra os outros~~ **FECHADA na v0.152**
 
-*A dívida é da v0.144 e não é desta peça.* **O `Cisão` não foi repreçado aqui, e o §3.2 mostra por quê: a mudança de vocabulário só o enfraquece.** *Preçar os onze exige um modelo que documento nenhum é dono, e enfiar esse modelo num validador seria a lição nº 8 pelo avesso.*
+*A dívida era da v0.144 e nunca foi desta peça.* **O `Cisão` não foi repreçado aqui, e o §3.2 mostra por quê: a mudança de vocabulário só o enfraquece.**
+
+> ***E ela fechou com o escopo trocado.*** *"Preçar os onze uns contra os outros" pedia uma comparação que a peça 11 §4 proíbe — a escada de Classe **não mede quanto, mede o quê** — e que o §7 da peça 16 torna impossível na mesa, porque o `Estigma` é entregue num ritmo que separa os degraus por dezesseis níveis.* **O corte certo é dentro da Classe, e está na peça 16 §6.1.**
+>
+> **O `Cisão` continua em `0,00` na tabela de preços daquela peça, e o zero é incondicional:** *a v0.145 mediu que ele é `1,0×` a velocidade de bater normal em qualquer ficha.* **É o único zero do catálogo que sobreviveu à revisão** — o do `Contrapeso` saiu, por ser condicional à Força da ficha.
 
 ### 6.3 A Cicatriz continua sem mecânica
 

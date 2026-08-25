@@ -322,7 +322,10 @@ if sujas:
     erro('8', f'entrada(s) carregando magnitude: {sujas}')
 else:
     print(f'  [x] as {len(CATALOGO)} entradas passaram: nenhuma com dado, nenhuma com refino')
-if not re.search(r'[Nn]enhuma das onze dá dado de dano|nenhuma cresce com refino', P16):
+# ⚠ este regex dizia "nenhuma das ONZE" ate a v0.152, e a contagem dentro dele
+# fazia ele deixar de achar no dia em que o catalogo mudasse de tamanho. Licao no 9
+# num regex — o mesmo defeito que a ancora do dado do soco teve na v0.151.
+if not re.search(r'[Nn]enhuma das \w+ dá dado de dano|nenhuma cresce com refino', P16):
     aviso('a peca nao declara a trava do SS6 por escrito (nenhuma da dado / cresce com refino)')
 
 # ================================================================ 9. ESCADA (par com a 3)
@@ -601,8 +604,10 @@ else:
     else:
         print(f'  o titulo promete: "{_promessa.strip()}"')
         _c2 = {n: d for n, d in CATALOGO.items() if d['classe'] == 2}
-        if len(_c2) != 3:
-            erro('17', f'esperava 3 Estigma de Classe 2 e li {len(_c2)} — a tabela '
+        # guarda de contagem: eram TRES ate a v0.151 e o `Bojo` foi arrancado na
+        # v0.152 — ele reprovava por 7,85x dentro da propria Classe (SS6.2).
+        if len(_c2) != 2:
+            erro('17', f'esperava 2 Estigma de Classe 2 e li {len(_c2)} — a tabela '
                        f'mudou de forma')
         _RELOGIO = re.compile(r'(uma|duas|três|\d+)\s+vez(?:es)?\s+por\s+'
                               r'(cena|descanso\s+\w+)', re.I)
@@ -640,6 +645,84 @@ else:
                                f'morta, e a entrada vale o mesmo que sem relogio')
                 else:
                     print(f'  [x] o {n} morde: {q} usos contra teto de {_teto:.1f}')
+
+# ================================================== 19. IRMAOS (o corte da SS6.1)
+print('\n 19. IRMAOS — a dominancia se mede DENTRO da Classe, nunca entre Classes')
+# v0.152. A divida estava escrita em quatro documentos como "os onze uns contra os
+# outros", e duas coisas do projeto dizem que essa conta nao existe:
+#   - a peca 11 SS4: "Ela nao mede quanto — mede o QUE";
+#   - o SS7 desta peca: o Estigma e ENTREGUE, num ritmo que separa grau 3 do grau 1
+#     por dezesseis niveis. O jogador nunca escolhe entre Classes.
+# A v0.144 ja media assim ("a pior razao contra os IRMAOS de Classe 2") sem
+# registrar que era regra. Esta checagem cobra que a peca declare o corte, e que
+# nenhuma entrada com preco publicado domine um irmao DA MESMA Classe.
+_s61 = secao(P16, 6)
+if not re.search(r'DENTRO da Classe, nunca entre Classes|dentro de cada Classe', _s61 or ''):
+    erro('19', 'a peca parou de declarar que a dominancia se mede dentro da Classe — '
+               'sem essa linha, a proxima conta volta a comparar Classe 2 com Classe 3, '
+               'que e o eixo que a peca 11 SS4 proibe')
+else:
+    print('  [x] a peca declara o corte: dentro do degrau, nunca entre degraus')
+
+# o filtro e LIDO do dono, nunca escrito aqui
+_mf = re.search(r'filtro (?:de dominância )?(?:do projeto )?(?:reprova )?a partir de `?(\d,\d\d)`?', P16) \
+      or re.search(r'reprova a partir de `?(\d,\d\d)`?', P16)
+if not _mf:
+    erro('19', 'nao achei o filtro de dominancia escrito na peca — sem ele esta '
+               'checagem nao tem contra o que comparar')
+else:
+    _FILTRO = float(_mf.group(1).replace(',', '.'))
+    print(f'  filtro lido da peca: {_FILTRO:.2f}x')
+    # ⚠ os precos tem UM dono: a tabela "Os precos publicados, num lugar so" do
+    # SS6.1. Antes dela eles moravam em tres tabelas de formatos diferentes, e a
+    # primeira versao desta checagem lia so uma das tres — ela saia VERDE sem
+    # nunca ter visto a Classe 3. Achado pelo arnes da v0.152.
+    _mt = re.search(r'#### Os preços publicados, num lugar só(.*?)(?=\n#{1,4} |\Z)',
+                    _s61 or '', re.S)
+    _precos, _lidos = {}, 0
+    if not _mt:
+        erro('19', 'nao achei a tabela "Os precos publicados, num lugar so" no SS6.1 '
+                   '— ela e a dona dos precos, e sem ela esta checagem nao compara nada')
+    else:
+        for _li in _mt.group(1).split('\n'):
+            _mp = re.match(r'^\|\s*`([^`]+)`\s*\|\s*(\d)\s*\|\s*`(\d,\d\d)`\s*\|', _li)
+            if not _mp:
+                continue
+            _lidos += 1
+            _n, _cl, _v = _mp.group(1), int(_mp.group(2)), float(_mp.group(3).replace(',', '.'))
+            if _n not in CATALOGO:
+                erro('19', f'a tabela de precos publica `{_n}`, que nao esta no catalogo')
+            elif CATALOGO[_n]['classe'] != _cl:
+                erro('19', f'a tabela de precos poe `{_n}` na Classe {_cl} e o catalogo '
+                           f'diz Classe {CATALOGO[_n]["classe"]}')
+            else:
+                _precos.setdefault(_cl, {})[_n] = _v
+        # guarda de contagem: sem ela, a tabela encolher deixa esta checagem verde
+        # sao QUATRO desde a v0.152, quando o Contrapeso saiu por ser condicional
+        # a ficha. Se a tabela encolher, esta checagem cobre menos e fica calada.
+        if _lidos < 4:
+            erro('19', f'a tabela de precos tem {_lidos} linha(s) e eu esperava pelo '
+                       f'menos 4 — ela encolheu, e a comparacao entre irmaos passou a '
+                       f'cobrir menos do que cobria')
+        else:
+            print(f'  {_lidos} preco(s) lidos do dono, em {len(_precos)} Classe(s)')
+    if _precos:
+        _mau = 0
+        for _cl, _ents in sorted(_precos.items()):
+            _nz = {n: v for n, v in _ents.items() if v > 0}
+            if len(_nz) < 2:
+                print(f'  Classe {_cl}: {len(_nz)} entrada(s) com preco — razao nao existe')
+                continue
+            _r = max(_nz.values()) / min(_nz.values())
+            _alvo = max(_nz, key=_nz.get)
+            if _r >= _FILTRO:
+                erro('19', f'na Classe {_cl} o `{_alvo}` entrega {_r:.2f}x o menor '
+                           f'irmao dela, contra um filtro de {_FILTRO:.2f}x')
+                _mau += 1
+            else:
+                print(f'  [x] Classe {_cl}: {len(_nz)} com preco, razao {_r:.2f}x')
+        if not _mau:
+            print('  [x] nenhuma entrada domina um irmao da mesma Classe')
 
 # ================================================================ veredito
 print('\n' + '=' * 88)

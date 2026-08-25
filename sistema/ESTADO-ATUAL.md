@@ -1,8 +1,20 @@
 # Estado atual do projeto
 
-Atualizado em 25/08/2026, na v0.151 (última peça fechada: **Dano de alma e Integridade**, a peça 24, na v0.145, com o `conferir-alma.py` e onze checagens; antes dela, **Bloquear, na v0.143**; antes dela, o **Objeto amaldiçoado, na v0.132**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 25/08/2026, na v0.152 (última peça fechada: **Dano de alma e Integridade**, a peça 24, na v0.145, com o `conferir-alma.py` e onze checagens; antes dela, **Bloquear, na v0.143**; antes dela, o **Objeto amaldiçoado, na v0.132**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.151.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e quatro peças escritas** e **vinte e quatro validadores**.
+**Versão v0.152.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e quatro peças escritas** e **vinte e quatro validadores**.
+
+***A v0.152 pagou a primeira das quatro dívidas de preço, e ela encolheu antes de ser paga.*** **A dívida dizia "os onze `Estigma` nunca foram preçados uns contra os outros", e duas coisas do próprio projeto dizem que essa conta não existe.**
+
+> **A peça 11 §4 diz que a escada de Classe não mede tamanho** — *"ela não mede quanto, mede o quê"* — **e o §7 da peça 16 diz que o jogador nunca escolhe entre elas:** *o `Estigma` é entregue pelo mestre, num ritmo que põe grau 3 por volta do nível 10 e grau 1 por volta do 26.* **A v0.144 já media do jeito certo — "a pior razão contra os irmãos de Classe 2" — e não registrou que aquilo era a regra.**
+>
+> **Com o corte certo, sobraram duas coisas, e as duas eram grandes.**
+>
+> ***O `Bojo` reprovava por `7,85×` dentro da própria Classe.*** *Ele entregava PE em vez de dano e por isso nunca tinha passado por conta nenhuma — mas o projeto tem essa moeda com dono, `1` PE por rodada vale `1,01` fatia, pela peça 5 §4.* **`21` de PE por luta no nível 30 dão `5,73` fatias, contra `1,28` do `Quebranto` e `0,73` do `Avulsa`.** ***Decisão do Mizuki: arrancar*** — *"não sei ao certo como balancear"*. **O catálogo ficou em dez e não foi recomposto.**
+>
+> ***O `Anátema` não estava sem número: estava sem TEXTO.*** *Uma frase — "o contato dela anula técnica amaldiçoada" — num `Classe 3` permanente, sem dizer o quê anula, por quanto tempo, nem se "contato" exige acertar.* ***Decisão do Mizuki:*** **o contato ignora e anula energia amaldiçoada, e como Reação ela anula um feitiço que vem em você, com um Teste de Resistência Físico contra a CD do conjurador.** *A trava é o que segura a entrada: `2,41×` o `Quebranto` com ela, `3,70×` sem.*
+>
+> **⚠⚠ E a checagem nova acendeu na primeira rodada, num lugar que não era o esperado.** *O `Anátema` entregava `9,03×` o `Contrapeso` dentro da `Classe 3` — mas até o `Quebranto` reprovava contra aquele piso, em `3,76×`.* ***Quando o piso reprova a régua, o suspeito é o piso.*** **O `Contrapeso` vale `+2,0` para quem tem Força `0` a `2` e zero para quem tem Força `3`: ele é condicional à ficha.** *Decisão do Mizuki: ele sai da tabela de preços, e fica declarado sem moeda ao lado do `Insondável`.*
 
 ***A v0.151 mexeu em duas linhas de regra que o Mizuki leu e estranhou, e as duas estavam mesmo erradas.*** **O `Incapacitado` era uma condição `Leve` a um `d12` de estourar a própria banda, e o `Cerca` era a única linha de Controle que prendia um alvo sem dizer como aquilo acaba.**
 
@@ -34,7 +46,7 @@ Atualizado em 25/08/2026, na v0.151 (última peça fechada: **Dano de alma e Int
 >
 > ***Decisão do Mizuki: `2×` por cena.*** **É o único relógio que passa no filtro de `3,00×` em todo nível e ainda morde de verdade.** *O gatilho reusa máquina que existe: o ataque de oportunidade dispara quando alguém **sai** do seu alcance, e este quando alguém **ataca** você dentro dele.*
 >
-> **⚠⚠ E a medida destampou uma dívida: os onze `Estigma` nunca foram preçados uns contra os outros.** *O `Quebranto` sai em `1,28` fatias, `6,0%` da Rotina no nível 30, contra `1,6%` do `Contrapeso`, que é **Classe 3**.* **Não é trabalho de agora — repreçar os onze é versão própria.** *O `2×` foi escolhido justamente por passar contra o `Quebranto` medido no melhor caso dele, então este número não se move quando essa dívida for paga.*
+> **⚠⚠ E a medida destampou uma dívida, que a v0.152 pagou com o escopo trocado.** *Ela estava escrita como "os onze `Estigma` nunca foram preçados uns contra os outros", e essa comparação a peça 11 §4 proíbe.* **O `2×` do `Avulsa` foi escolhido justamente por passar contra o `Quebranto` medido no melhor caso dele, e o repreço não moveu este número.*
 
 > ***E as marcas de "isto ainda não existe" ganharam CONTAGEM COM DONO, porque cinco contagens deram cinco números.*** *O prompt de retomada dizia quatro, o CHANGELOG da v0.136 dizia cinco, a varredura à mão desta conversa disse oito, e o regex acha sete.* **Nenhuma delas tinha validador.**
 >
@@ -567,7 +579,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/13-legados.md` | **a régua de magnitude e o catálogo de 81 entradas**, nos três formatos (Destranca · Ajusta · Desliga), com a cota de Desliga e as vagas declaradas |
 | `03-mecanica/14-equipamento.md` | proteção, escudo, **as 52 armas** com fundo `3/5`, treino, requisito de Força e a divisão simples/marcial |
 | `03-mecanica/16-ferramenta-amaldicoada.md` | **a camada por cima da arma**: a escada de grau, o `Estigma`, o gate herdado da peça 11, o `Desgaste`, o teto na ficha e as onze entradas |
-| `03-mecanica/conferir-ferramenta.py` | as **dezoito** checagens da peça 16, e o par declarado entre a 3 e a 9. *A 17 entrou na v0.144: ela lê a promessa de limite de uso do próprio título da Classe 2 e cobra ela de cada entrada, com o teto de Reações por luta lido da peça 1* |
+| `03-mecanica/conferir-ferramenta.py` | as **dezenove** checagens da peça 16, e o par declarado entre a 3 e a 9. *A 19 entrou na v0.152: ela mede dominância **dentro** da Classe, que é o único corte que a peça 11 §4 autoriza, e lê os preços de uma tabela com dono só.* *A 17 entrou na v0.144: ela lê a promessa de limite de uso do próprio título da Classe 2 e cobra ela de cada entrada, com o teto de Reações por luta lido da peça 1* |
 | `03-mecanica/15-invocacoes.md` | **o sistema de criação de invocação**: a casa de iniciativa, o pool da Matilha, a ficha derivada, o custo, a morte, o retorno e o catálogo de 19 entradas |
 | `03-mecanica/conferir-atributos.py` | acerto, defesa, TR, perícia, vida, PE máximo e a deriva contra o nível |
 | `03-mecanica/conferir-acao.py` | a régua das Restrições, a dominância entre elas e o `Adianta` |
@@ -990,7 +1002,7 @@ Quatro peças, e a ordem é de **dependência**, não de tamanho. A ordem que el
 | # | peça | por que aqui | move o contador? |
 |---|---|---|---|
 | ~~1~~ | ~~**Invocações**~~ | **fechada na v0.58** (peça 15), com o `conferir-invocacoes.py` e trinta checagens | rotas 6/9 → 6/9 · vagas 0 de 7 |
-| ~~2~~ | ~~**Ferramenta amaldiçoada**~~ | **fechada na v0.59** (peça 16): a máquina e o catálogo saíram na v0.55 e na v0.56, e o `conferir-ferramenta.py` tem **dezoito** checagens | **rotas 6/9 → 8/9** · vagas 3 de 7 |
+| ~~2~~ | ~~**Ferramenta amaldiçoada**~~ | **fechada na v0.59** (peça 16): a máquina e o catálogo saíram na v0.55 e na v0.56, e o `conferir-ferramenta.py` tem **dezenove** checagens | **rotas 6/9 → 8/9** · vagas 3 de 7 |
 | 1 | **Trilhas** | fecha com as quinze de uma vez, e agora nada mais a trava | toca **100% das fichas** |
 | ~~2~~ | ~~**Objeto amaldiçoado**~~ | **fechada na v0.132** (peça 21), com o `conferir-objeto.py` e doze checagens | rotas 8/9 → 8/9 · **fechou a vaga de `Desliga` do Reencarnado** |
 

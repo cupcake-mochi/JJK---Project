@@ -8,6 +8,116 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.152] — 25/08/2026
+
+**A primeira das quatro dívidas de preço foi paga, e ela encolheu antes de ser paga.** *A dívida estava escrita em quatro documentos como **"os onze `Estigma` nunca foram preçados uns contra os outros"** — e duas coisas do próprio projeto dizem que essa conta não existe.*
+
+### ⚠⚠ O escopo estava errado, e a v0.144 já media do jeito certo sem saber
+
+**A peça 11 §4 diz, com todas as letras, que a escada de Classe não mede tamanho:** *"Ela não mede quanto — mede o quê"*, e *"uma Classe Passiva 3 não é uma Classe Passiva 1 maior: é uma coisa de outro formato"*.
+
+**E o §7 da peça 16 diz que o jogador nunca escolhe entre elas.** *O `Estigma` é entregue pelo mestre, num ritmo que põe grau 3 por volta do nível 10 e grau 1 por volta do 26.* **Dezesseis níveis separam os dois: não existe a mesa em que alguém compara um `Quebranto` com um `Contrapeso`.**
+
+> **A v0.144 já tinha medido no eixo certo.** *A tabela do relógio do `Avulsa` compara "a pior razão contra os **irmãos de Classe 2**".* **Dentro do degrau, nunca entre degraus — e ela não registrou que aquilo era a regra.**
+
+*Escrito agora, na peça 16 §6.1, com a checagem 19 em cima.* **Medido com o corte certo, a `Classe 1` não tem dominância para achar:** *as quatro leem `0,00` no eixo de dano e fazem quatro coisas diferentes, que é o argumento do `Farejador` da peça 11.*
+
+### O `Bojo` foi ARRANCADO — ele reprovava por `7,85×` dentro da própria Classe
+
+**Ele era o único `Estigma` que entregava PE em vez de dano, e por isso nunca tinha passado por conta nenhuma.** *Mas o projeto tem essa moeda com dono: `1` PE por rodada vale `1,01` fatia, pela peça 5 §4 — a mesma que a peça 22 usa para preçar pacto.*
+
+*Um feitiço custa `3 × Classe` de PE, e `uma vez por descanso curto` é **uma vez por luta**, pela escada de relógios da peça 10 §5.* **No nível 30 ele devolvia `21` de PE por luta.**
+
+| `Classe 2` | fatias |
+|---|---|
+| **`Bojo`, como estava** | **`5,73`** |
+| `Quebranto` | `1,28` |
+| `Avulsa` | `0,73` |
+
+**`7,85×` entre o maior e o menor do degrau, e `4,49×` o `Quebranto`** — que é a entrada contra a qual a v0.144 calibrou o `Avulsa`.
+
+**Dois consertos passavam**, e ficam registrados porque o argumento vale para a próxima entrada que cobrar em PE: *descer o relógio para `por descanso longo` dava `1,91` fatias e `2,62×`; travar a Classe do feitiço guardado em `2` dava `1,64` e `2,24×`.* **Travar em `3` ainda reprovava, em `3,37×`.**
+
+> ***Decisão do Mizuki: arrancar.*** *"Remove, não sei ao certo como balancear."* **Segunda entrada arrancada desta peça depois de escrita, e pelo motivo oposto ao da primeira:** *a `Vazadura` passava na conta e era regra ruim; o `Bojo` era boa ficção e não fechava em conta nenhuma que não o desfigurasse.*
+>
+> **E o catálogo NÃO foi recomposto para onze.** *Quando a `Vazadura` saiu, o `Bojo` entrou no lugar dela e a contagem ficou parada em onze.* **Escrever entrada para fechar contagem é o defeito que a régua da peça 13 existe para achar — são dez.**
+
+### O `Anátema` não estava sem número: estava sem TEXTO
+
+**Ele era publicado, na peça e no livro, como uma frase:** *"o contato dela anula técnica amaldiçoada"*. **Um `Classe 3` permanente — o degrau que "muda como você joga" — sem dizer o quê anula, por quanto tempo, nem se "contato" exige acertar.** *O irmão dele de `Classe 2`, o `Quebranto`, tem os três limites escritos.*
+
+*E era justamente ele que o exemplo do `Desgaste` no livro entregava a um personagem de nível 4.*
+
+***Decisão do Mizuki:***
+
+> **`Anátema`** — o contato dela **ignora e anula energia amaldiçoada**. E como **Reação**, ela anula um feitiço que vem em você: role um **Teste de Resistência Físico contra a CD do conjurador**.
+
+| a forma | dano por rodada | fatias | contra o `Quebranto` | |
+|---|---|---|---|---|
+| **sem relógio, com o Teste de Resistência** | **`15,60`** | **`3,07`** | **`2,41×`** | **passa** |
+| sem relógio e **sem** o Teste de Resistência | `24,00` | `4,72` | `3,70×` | **reprova** |
+| com relógio de `1×` por cena | `4,22` | `0,83` | `0,65×` | passa, e vira o `Quebranto` |
+
+**A trava que ele pediu é o que segura a entrada: o Teste de Resistência corta `35%` do valor, e sem ele ela reprovaria.** *A convenção de "sem relógio" é a da v0.144 — o teto é a Reação, e uma luta cabe `3,7` delas.*
+
+> **E a taxa NÃO deriva, que é o que faz ela caber.** *`CD = 8 + atributo + maestria` contra `TR = d20 + atributo + maestria`:* **`65%` para quem treinou, do nível 2 ao 30, sem uma oscilação.** *É a calibragem da v0.117 trabalhando de graça.* **Para quem não treinou o Físico ela cai de `60%` no nível 2 para `45%` no 30**, que é o preço de não treinar que aquela versão declarou.
+
+*A metade permanente — "o contato ignora e anula energia amaldiçoada" — fica declarada como **não medida**: ela é a Lança Invertida do Céu, e o projeto não tem moeda para "energia de pé".*
+
+### ⚠⚠ A checagem nova acendeu na primeira rodada, e o defeito era o PISO
+
+**A checagem 19 acusou o `Anátema` entregando `9,03×` o `Contrapeso` dentro da `Classe 3`.** *E a saída não era mexer no `Anátema`:*
+
+| contra o piso da `Classe 3` | fatias | | |
+|---|---|---|---|
+| `Anátema` sem relógio | `3,07` | `9,03×` | reprova |
+| `Anátema` `2×` por cena | `1,66` | `4,88×` | reprova |
+| `Anátema` `1×` por cena | `0,83` | `2,44×` | passa |
+| **o `Quebranto`, uma Classe abaixo** | **`1,28`** | **`3,76×`** | **reprova** |
+
+***Até o `Quebranto` reprovava contra aquele piso*** — e ele é a entrada calibrada que o projeto usa como referência desde a v0.144. **Quando o piso reprova a régua, o suspeito é o piso.**
+
+**E a própria peça já dizia o que o `Contrapeso` é:** *"vale `+2,0` de dano médio para quem tem Força `0` a `2`, e **zero** para quem tem Força `3`"*, e *"encolhe com o nível, que é o oposto de derivar"*. **Ele é condicional à ficha; o `Quebranto` e o `Anátema` valem o mesmo em qualquer build.**
+
+> ***Decisão do Mizuki: o piso sai.*** **O `Contrapeso` fica declarado sem moeda, ao lado do `Insondável`** — *não porque ninguém mediu, mas porque o número que existe dele descreve um subconjunto de fichas e não a entrada.* **O `Cisão` fica, com `0,00`:** *aquele zero é incondicional, e a v0.145 mediu que ele é `1,0×` a velocidade de bater normal em qualquer ficha.*
+>
+> *A `Classe 3` passa a ter uma entrada com preço, e a razão dela deixa de existir.* **Isso é honesto: anular técnica, cortar a alma, alcance na cena e dispensar requisito de Força não competem no mesmo eixo.**
+
+### A checagem 19, e os preços ganharam um dono só
+
+**Ela cobra duas coisas:** *que a peça declare o corte — dentro do degrau, nunca entre degraus — e que nenhuma entrada com preço publicado domine um irmão da mesma Classe.* **O filtro de `3,00×` é lido da peça, nunca escrito no validador.**
+
+> **⚠ E a primeira versão dela saía VERDE sem nunca ter visto a `Classe 3`.** *Os preços moravam em três tabelas de formatos diferentes, e o regex lia só uma das três.* **Entrou a tabela `Os preços publicados, num lugar só` no §6.1** — *uma lista, um dono* —, e a checagem passou a ler dela, com guarda de contagem, com o nome conferido contra o catálogo e com a Classe conferida contra a tabela dona.
+
+*Junto foram duas contagens escritas dentro do validador:* **a guarda de `3` Estigma de `Classe 2` virou `2`, e o regex da checagem 8 dizia `nenhuma das ONZE dá dado de dano`** — *contagem dentro de um padrão, que deixa de achar no dia em que o catálogo muda de tamanho.* **É a lição nº 9 num regex, e o mesmo defeito que a âncora do dado do soco teve na v0.151.**
+
+### O arnês
+
+*Cópia isolada, base conferida verde antes de cada perturbação, `diff` conferido.* **Oito perturbações: seis acendendo a checagem dona e dois contra-testes** — *o `Bojo` voltando ao catálogo com o preço dele, a peça parando de declarar o corte, a tabela de preços encolhendo, um `Estigma` na Classe errada, um nome fora do catálogo, o filtro sumindo da peça; e verdes o `Avulsa` subindo dentro do filtro e o texto de uma entrada sem preço mudando.*
+
+### Medido depois
+
+| | v0.151 | v0.152 |
+|---|---|---|
+| peças de regra · validadores | 24 · 24 | iguais |
+| checagens no total | 254 | **255** |
+| checagens do `conferir-ferramenta.py` | 18 | **19** |
+| entradas do catálogo de `Estigma` | 11 | **10** |
+| entradas com preço publicado | **3, em três formatos** | **4, num lugar só** |
+| contagens escritas dentro do validador | **2** | **0** |
+| dívidas de preço abertas | 4 | **3** |
+| palavras do livro | 70.988 | **70.977** |
+| coluna única · duas colunas | 243 · 141 | **243 · 141** |
+| `conferir-voz --estrito` | 0 achados · 11 triagens | **0 achados · 11 triagens** |
+
+*Os 24 validadores verdes com `PULADA = 0`, o `conferir-repositorio.py`, os dois de `manual/matematica/` e os quatro builds.* **O manual do Fundamento não se moveu: o catálogo de `Estigma` é da peça 16 e do livro, e não do `.docx`.**
+
+*`guard_numeros.py` no capítulo 16 do livro.* **Quatro diferenças, as quatro explicadas:** *os dois `onze` eram a frase do `Bojo` e a contagem de entradas; o `dez` novo é a contagem; o `um` é "anula **um** feitiço" do `Anátema`; e o `uma` era "**uma** vez por descanso curto" do `Bojo`.* **E foi o `guard_numeros` que achou o `Onze entradas` que tinha sobrado no livro.**
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **Sobram três dívidas de preço:** *o vão do nível 7, as quatro Manhas com portão novo, e o dano na arma — que continua sem peça, sem validador e sem conta.*
+
+---
+
 ## [0.151] — 25/08/2026
 
 **Duas linhas de regra que o Mizuki leu e estranhou, e as duas estavam mesmo erradas.** *Nenhuma saiu de validador: os 24 estavam verdes com `PULADA = 0` e as 252 checagens fechando.* **Uma condição `Leve` estava a um `d12` de estourar a própria banda, e a única linha de Controle sem porta de saída estava vendida pela metade do preço da que tem.**

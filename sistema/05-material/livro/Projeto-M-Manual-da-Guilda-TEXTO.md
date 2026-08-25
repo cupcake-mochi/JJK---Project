@@ -5810,7 +5810,7 @@ Não existe ficha com cinco ferramentas: as mãos fecham um lado e o teto de doi
 
 ## Catálogo de `Estigma`
 
-Onze entradas, agrupadas por Classe. A Classe diz o grau da ferramenta que pode carregar aquele `Estigma`, e diz o nível mínimo junto.
+Dez entradas, agrupadas por Classe. A Classe diz o grau da ferramenta que pode carregar aquele `Estigma`, e diz o nível mínimo junto.
 
 ### Como ler uma entrada
 
@@ -5831,12 +5831,10 @@ Cada entrada abre com o nome e diz **quando o `Estigma` age**: sempre ligado, na
 > **`Quebranto`** — Reação: anula um feitiço que ia te acertar. Uma vez por cena.
 >
 > **`Avulsa`** — Reação, quando um inimigo no seu alcance te ataca: a arma sai da sua mão e ataca ele. Duas vezes por cena.
->
-> **`Bojo`** — uma vez por descanso curto, ela guarda um feitiço que você lançou e devolve ele depois, sem custo de PE. É o único dos onze que só serve para quem conjura.
 
 ### Classe 3 · grau 1 e especial · nível 13
 
-> **`Anátema`** — o contato dela anula técnica amaldiçoada.
+> **`Anátema`** — o contato dela **ignora e anula energia amaldiçoada**. E como **Reação**, ela anula um feitiço que vem em você: role um **Teste de Resistência Físico contra a CD do conjurador**.
 >
 > **`Cisão`** — o golpe dela atravessa o corpo: tira Integridade, e não tira vida nem vida máxima. É *dano direto na alma*, do capítulo 4, *Dano, Condições e Cobertura*. Contra alvo de alma dura, você vai sentir falta do dano normal.
 >
@@ -6521,4 +6519,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: 50cb5eacb948aca9f557d3f92dd50c0c4d6c2dff -->
+<!-- fonte: d4a0d1934330bf5ddbcb3343e0e0224b79e8b2fc -->

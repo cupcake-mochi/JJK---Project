@@ -1,4 +1,4 @@
-# Retomada — v0.151, e o que sobrou é preço, playtest e dois rascunhos
+# Retomada — v0.152, e o que sobrou é preço, playtest e dois rascunhos
 
 Pasta: `/media/mizuki/HD Externo II/Claude/Claude 2/`
 ⚠ Trabalhe na pasta PRINCIPAL, não em worktree. **Você não commita** — deixa a mensagem em
@@ -7,8 +7,8 @@ Pasta: `/media/mizuki/HD Externo II/Claude/Claude 2/`
 Leia primeiro, nesta ordem: `README.md` (a seção *"Nove lições que custaram erro"*),
 `sistema/ESTADO-ATUAL.md` **inteiro**, e o `logs/CHANGELOG.md` de cima até a v0.140.
 
-**Projeto na v0.151.** 24 peças · 24 validadores · **254 checagens**. Livro em 17 capítulos,
-**70.988 palavras**, **243** páginas em coluna única e **141** em duas. Manual do Fundamento na
+**Projeto na v0.152.** 24 peças · 24 validadores · **255 checagens**. Livro em 17 capítulos,
+**70.977 palavras**, **243** páginas em coluna única e **141** em duas. Manual do Fundamento na
 **v7.14**. `conferir-voz --estrito` em 0 achados, 0 termos sem destino e 11 triagens.
 
 > **Os quatro builds e o `.pdf` do manual rodaram na v0.151, e a checagem 7.5 está verde.**
@@ -67,11 +67,12 @@ pegou as sete. *Nenhuma teria sido pega lendo o código.*
 
 ## A fila, e nenhuma trava a mesa
 
-### 1 · Quatro dívidas de preço, e as quatro são versão própria
+### 1 · TRÊS dívidas de preço, e as três são versão própria
+
+> **✔ A dos `Estigma` fechou na v0.152, e ela encolheu antes de fechar.** *O escopo "os onze uns contra os outros" pedia uma comparação que a peça 11 §4 proíbe — a escada de Classe **não mede quanto, mede o quê**.* **O corte é dentro do degrau, está na peça 16 §6.1, e a checagem 19 guarda ele.** *O `Bojo` foi arrancado (reprovava em `7,85×`), o `Anátema` ganhou texto, e o `Contrapeso` saiu da tabela de preços por ser condicional à ficha.*
 
 | dívida | desde | o que é |
 |---|---|---|
-| **os onze `Estigma`** | v0.144 | nunca foram preçados uns contra os outros. O `Quebranto` sai em `1,28` fatias, `6,0%` da Rotina no nível 30, contra `1,6%` do `Contrapeso`, que é Classe 3 |
 | **o vão do nível 7** | v0.147 | o vão `físico − conjurador` foi construído sobre a forma antiga do ataque extra, e é ele que paga o degrau dos cinco Caminhos. A inversão deixou pendurado, de propósito |
 | **quatro Manhas** | v0.147 | `Gancho`, `Espeto`, `Laço` e `Prego` foram preçados com trava `—`. Agora têm portão, e os `0,71 · 0,71 · 1,06 · 1,06` valem mais do que a entrega entrega |
 | **o dano na arma** | v0.148 | **não tem peça, não tem validador e não tem conta.** Mora só no livro, em `Canalizar energia` e `Estímulo Muscular`. É o único dado do sistema nessa situação |
