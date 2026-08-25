@@ -154,7 +154,18 @@ Os dois dão um `Estigma` de Classe 3. A diferença é de ficção: grau 1 se fo
 ## 4. `Desgaste` — a restrição que compra o gate
 
 > **`Desgaste` — a ferramenta ignora o gate de nível do `Estigma` dela.**
-> **Em troca ela se gasta: a cada missão em que o `Estigma` foi usado, ela desce um grau. No grau 4 ela é arma comum, e não volta.**
+> **Em troca ela tem um número fixo de missões.** Cada missão em que o `Estigma` for usado gasta uma; quando elas acabam, ela é arma comum, e não volta.
+> **Dentro da missão o uso é livre** — usar dez vezes gasta o mesmo que usar uma.
+
+**Missões de `Desgaste`**
+
+| grau | missões |
+|---|---|
+| 3 | 1 |
+| 2 | 2 |
+| 1 e especial | 3 |
+
+**Grau 4 não entra**, e o motivo é estrutural: ele não dá `Estigma` nenhum, e é o `Estigma` que o `Desgaste` destrava.
 
 A máquina é da casa e já foi validada — é o §5.0.4 de Equipamento, onde `Volumosa`, `Embainhada` e `Comprida` devolvem 1 ponto, uma camada acima. **Restrição de verdade compra acesso.**
 
@@ -163,6 +174,12 @@ A máquina é da casa e já foi validada — é o §5.0.4 de Equipamento, onde `
 **O prazo tem tamanho medido:** a peça 12 §5 diz que um nível custa de **1 a 10 missões padrão**. Uma ferramenta de grau 1 com `Desgaste` dura **três missões** de uso antes de virar arma comum — perto de um nível inteiro de campanha na faixa baixa, e uma fração na alta.
 
 *É a Corda Negra: trabalho de Lança Invertida na mão de quem não tem nível para isso, e ela não dura.*
+
+> **⚠⚠ O contador era DESCIDA DE GRAU até a v0.150, e ela contradizia a tabela do §3.** *A regra dizia "a cada missão em que o `Estigma` foi usado, ela desce um grau", e o grau é o que escolhe a **Classe** do `Estigma`: grau 1 é Classe 3, grau 2 é Classe 2, grau 3 é Classe 1.* **Uma ferramenta descendo trocava de `Estigma` no meio do caminho — ou perdia o dela sem virar arma comum.**
+>
+> ***O exemplo publicado mostrava isso e ninguém tinha lido:*** *ele punha o `Anátema`, que é Classe 3, funcionando em grau 2 e em grau 3, que não carregam Classe 3.* **A regra reprovava contra a própria tabela, em texto que estava no livro.**
+>
+> ***Decisão do Mizuki na v0.150:*** *"fica confuso ela perder grau; acredito que ter uma quantidade de usos fixa baseada no grau é melhor."* **Os números não se moveram** — grau 1 já dava três missões, grau 2 duas e grau 3 uma —, *o que mudou é que eles pararam de ser derivados de uma escada correndo para trás.* **E a ferramenta mantém o `Estigma` até o fim**, que é o que a ficção sempre prometeu.
 
 ## 5. O teto na ficha, e ele é de mão
 
@@ -283,7 +300,7 @@ A coluna do meio segue a cadência de marco da peça 2 §3 — um marco sim, um 
 
 ## 8. O que o validador confere
 
-O `conferir-ferramenta.py` roda **dezessete checagens**, e **nenhum valor fica escrito dentro dele**: teto, gate, fundo, Rotina e orçamento saem dos documentos donos. O único bloco com número na mão é o `LIMITES DE DESIGN`, declarado à parte da regra aplicada — que é a lição nº 8.
+O `conferir-ferramenta.py` roda **dezoito checagens**, e **nenhum valor fica escrito dentro dele**: teto, gate, fundo, Rotina e orçamento saem dos documentos donos. O único bloco com número na mão é o `LIMITES DE DESIGN`, declarado à parte da regra aplicada — que é a lição nº 8.
 
 | # | o que ela confere | de onde ela lê | o teste negativo |
 |---|---|---|---|
@@ -304,6 +321,7 @@ O `conferir-ferramenta.py` roda **dezessete checagens**, e **nenhum valor fica e
 | 15 | as duas vagas de Desliga da peça 13 §8 | peça 13 §8 | vaga sem alvo legal acende |
 | 16 | não sintonizada = arma comum, **e a regra de sintonizar existe**: custo escrito, desfazer escrito, sem PE, e **sem relógio de horas** | esta peça §1 e §1.1, peça 9 §5, peça 10 §1 | apagar o custo acende; escrever *"leva 1 hora"* acende, porque é dali que o filtro multi-mestre é herdado |
 | **17** | **todo `Estigma` de Classe 2 tem limite de uso escrito, e nenhum é letra morta** — a promessa é lida do próprio título da Classe, e o teto de Reações que uma luta cabe é lido da peça 1 | esta peça §6 e peça 1 §8 | tirar o relógio de uma das três acende; pôr `4×` por cena numa entrada de Reação acende, porque a luta só cabe `3,7` |
+| **18** | **o contador de missões do `Desgaste`**, contra a escada de grau: a tabela cobre exatamente os graus que têm `Estigma`, mais Classe pede mais missão, e a prosa bate com a tabela | esta peça §4 e §3 | tirar um grau da tabela acende; o grau 1 durando menos que o grau 3 acende; **e devolver a descida de grau acende — sem acender na história citada, que o arnês conferiu à parte** |
 
 **A checagem 3 e a checagem 9 leem a mesma amarra por dois lados, e o par está declarado.** A 3 confere que o gate vem da peça 11; a 9 confere que a escada de grau vem daqui. Elas não são independentes: se a escada do §7 virasse gate, a 3 morreria e a 9 continuaria verde sozinha. *Declarar o par é o que impede a dupla de sair verde por motivos que se cancelam.*
 

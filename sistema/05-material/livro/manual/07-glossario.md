@@ -186,7 +186,7 @@ Melhoria — são escadas diferentes que usam as mesmas três palavras. O capít
 |---|---|---|
 | **Ferramenta amaldiçoada** | Arma forjada para ferir maldição. Tem grau, de 4 a especial | 14 |
 | **`Estigma`** | O efeito que uma ferramenta carrega. O grau dela decide o formato | 14 |
-| **`Desgaste`** | Ferramenta usada demais antes de chegar em você: cada uso derruba o grau dela em um | 14 |
+| **`Desgaste`** | A ferramenta dispensa o nível mínimo do `Estigma`, e em troca dura um número fixo de missões | 14 |
 | **Invocação** | O que você põe em campo e comanda. Tem ficha própria, montada com orçamento | 15 |
 | **Amarra** | A invocação tem de ficar a até 18 metros de você, ou não pode ser comandada | 15 |
 | **`Emaranha`** | Propriedade de arma: você pode `Agarrar` sem largar a arma | 13 |

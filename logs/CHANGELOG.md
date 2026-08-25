@@ -8,6 +8,63 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.150] — 25/08/2026
+
+**O `Desgaste` deixou de descer de grau, e virou contador de missões.** ***Pedido do Mizuki:*** *"fica confuso ela perder grau; acredito que ter uma quantidade de usos fixa baseada no grau é melhor."* **Indo escrever, apareceu que a regra antiga reprovava contra a tabela do §3 — e que o exemplo publicado mostrava isso.**
+
+### ⚠⚠ A regra velha contradizia a própria tabela, dentro do livro
+
+**O grau é o que escolhe a Classe do `Estigma`:** *grau 1 é Classe 3, grau 2 é Classe 2, grau 3 é Classe 1.* **E o `Desgaste` mandava a ferramenta descer um grau por missão usada** — então, descendo, ela trocava de `Estigma` no meio do caminho, ou perdia o dela sem virar arma comum. *Nada no texto dizia qual dos dois.*
+
+> ***O exemplo publicado no capítulo 14 mostrava o defeito com todas as letras:*** *ele punha o `Anátema` — que é **Classe 3**, e só grau 1 e especial carregam Classe 3 — funcionando em **grau 2** e em **grau 3**.* **Estava no livro do jogador, e nenhuma das dezoito checagens da peça alcançava.**
+
+### O contador, e os números não se moveram
+
+> **`Desgaste` — a ferramenta ignora o gate de nível do `Estigma` dela.** *Em troca ela tem um número fixo de missões: cada missão em que o `Estigma` for usado gasta uma, e dentro da missão o uso é livre.*
+
+| grau | missões |
+|---|---|
+| 3 | 1 |
+| 2 | 2 |
+| 1 e especial | 3 |
+
+**São exatamente os números que a descida de grau produzia** — grau 1 dava três missões, grau 2 duas, grau 3 uma. *O que mudou é que eles pararam de ser derivados de uma escada correndo para trás, e passaram a estar escritos.* **E a ferramenta mantém o `Estigma` até o fim**, que é o que a ficção sempre prometeu.
+
+*O **grau 4** fica declarado fora, e não apenas ausente da tabela:* **ele não dá `Estigma` nenhum, e é o `Estigma` que o `Desgaste` destrava.**
+
+### ⚠ E o vocabulário descrevia uma terceira regra
+
+**A linha do `Desgaste` no vocabulário do sistema dizia:** *"Ferramenta usada demais antes de chegar em você: **cada uso** derruba o grau dela em um."*
+
+**Duas coisas erradas numa linha só.** *O gatilho era **uso** e a regra sempre foi **missão**; e a ficção — "usada demais antes de chegar em você" — inventa um histórico que a regra não tem, porque o `Desgaste` é uma propriedade da ferramenta e não um passado dela.* **A sétima passada de texto, três versões atrás, não pegou** — ela leu o capítulo e não cruzou a linha do vocabulário contra ele.
+
+### A checagem 18, e ela nasceu cega uma vez
+
+**Entrou a `DESGASTE-MISSAO` no `conferir-ferramenta.py`, com cinco sub-checagens** — *a tabela cobre exatamente os graus que têm `Estigma`; mais Classe pede mais missão, com a ordem lida do §3 e não escrita aqui; a prosa e a tabela dizem o mesmo para o grau 1; o grau 4 está declarado fora; e a descida de grau não volta.*
+
+> **⚠⚠ A quinta nasceu apagando a regra em vez da história, e só o arnês achou.** *A primeira versão excluía as linhas de citação (`>`), no molde da convenção da v0.81 — e a regra do §4 **também** mora dentro de um bloco de citação.* **A perturbação que devolvia a descida de grau à REGRA saía VERDE**, porque a checagem tinha ficado cega justamente no lugar em que a regra vive.
+>
+> ***O que separa regra de história aqui é a ASPA***, e não o `>`: o §4 registra a regra morta como texto citado. **Com isso a checagem acende na regressão e não acende na história** — as duas conferidas à parte.
+
+**É a quarta checagem desta leva de trabalho que nasceu sem conseguir acender, ou acendendo no lugar errado.** *As outras três foram a `4h` do `conferir-manual` na v0.147, a `13` do `conferir-ferramenta` na v0.148, e esta.* **O arnês pegou as quatro, e nenhuma delas teria sido pega lendo o código.**
+
+### Medido depois
+
+| | v0.149 | v0.150 |
+|---|---|---|
+| peças de regra · validadores | 24 · 24 | iguais |
+| checagens no total | 251 | **252** |
+| checagens do `conferir-ferramenta.py` | 17 | **18** |
+| lugares que descreviam o `Desgaste` | **3, e os 3 diferentes** | **3, e os 3 iguais** |
+
+> **A checagem 9 do `conferir-repositorio.py` pegou QUATRO documentos dizendo "dezessete"** — a peça 16, duas linhas do `ESTADO-ATUAL` e o `LEIA-ME`. *É o guarda de número com dois donos fazendo o trabalho dele no mesmo commit em que o número mudou.*
+
+*Nada do livro mudou de tamanho a ponto de exigir remedição, mas o capítulo 14 mudou de texto:* **os quatro builds precisam rodar.**
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`, reescrito nesta versão contra o estado real.
+
+---
+
 ## [0.149] — 25/08/2026
 
 **A cópia para a entrega passou a ser do `subir.sh`, e a lista dela ganhou dono.** *Pedido do Mizuki depois de a v0.148 reprovar no `subir.sh` por exatamente isso.*

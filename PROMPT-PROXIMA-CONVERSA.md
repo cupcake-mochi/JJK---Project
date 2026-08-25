@@ -1,114 +1,117 @@
-# Retomada — a alma fechou, e sobraram os dois rascunhos e as cinco marcas
+# Retomada — v0.150, e o que sobrou é preço, playtest e dois rascunhos
 
 Pasta: `/media/mizuki/HD Externo II/Claude/Claude 2/`
 ⚠ Trabalhe na pasta PRINCIPAL, não em worktree. **Você não commita** — deixa a mensagem em
-`mensagem-de-commit.txt` e em `finalizado/mensagem-de-commit.txt`, e avisa.
+`mensagem-de-commit.txt` e avisa. *A entrega, desde a v0.149, o `subir.sh` copia sozinho.*
 
 Leia primeiro, nesta ordem: `README.md` (a seção *"Nove lições que custaram erro"*),
-`sistema/ESTADO-ATUAL.md` **inteiro**, e o `logs/CHANGELOG.md` de cima até a v0.136.
+`sistema/ESTADO-ATUAL.md` **inteiro**, e o `logs/CHANGELOG.md` de cima até a v0.140.
 
-**Projeto na v0.146.** 24 peças · 24 validadores · 251 checagens. Livro em **17 capítulos**,
-**70.052 palavras**, 239 páginas em coluna única e 139 em duas. Manual do Fundamento na
-**v7.13**. `conferir-voz --estrito` em 0 achados e 11 triagens.
+**Projeto na v0.150.** 24 peças · 24 validadores · **252 checagens**. Livro em 17 capítulos,
+**70.771 palavras**, **243** páginas em coluna única e **141** em duas. Manual do Fundamento na
+**v7.13**. `conferir-voz --estrito` em 0 achados, 0 termos sem destino e 11 triagens.
 
----
-
-## O que a v0.145 e a v0.146 fecharam
-
-**A máquina de alma virou a peça 24, e ela foi RECOLHIDA e não escrita.** *A Integridade
-estava em toda ficha desde o nível 1 e os quatro estágios estavam publicados desde a v7.0 —
-o que não existia era **dono da régua**.*
-
-**A Integridade passou a ser `20 + (Essência + 5) × (nível − 1)`.** *Com Essência `3` — o
-meio da escala — ela É a fórmula publicada, em todo nível.* **O `Teste de Resistência de
-Espírito` que a v0.7 decidiu foi aplicado cento e trinta e sete versões depois**, e o
-`Cisão` virou a exceção declarada que atravessa o corpo.
-
-**A v0.146 consertou a diagramação e achou um defeito maior no caminho.** *O título de seção
-que caía na emenda entre o bloco de duas colunas e o bloco de largura inteira ficava órfão no
-pé da coluna — eram quatro no livro, e o Mizuki viu um deles lendo o PDF.*
-
-> **⚠⚠ E ela achou que o commit da v0.145 subiu os artefatos uma edição atrasados.** *Aquela
-> versão rodou os quatro builds, depois consertou um título na fonte, e não rodou de novo.*
-> **Nenhum validador podia pegar: a checagem 7.1 compara a cópia da entrega contra a cópia do
-> projeto, e as duas envelhecem juntas.** *Entrou a **checagem 7.5**, por conteúdo — o
-> `build_txt.py` grava um `sha1` da fonte no fim do `Projeto-M-Manual-da-Guilda-TEXTO.md`, e o `conferir-repositorio.py`
-> recalcula.* **Data não serve: o git não preserva `mtime`.**
-
-> **Três coisas quebradas estavam publicadas, e duas no mesmo PDF.** *O manual mandava rolar
-> um Teste de Resistência que não existe; o `Cisão` e o capítulo 15 diziam o oposto um do
-> outro; e "a alma é maior que o corpo em quatro dos cinco Caminhos" era uma frase de
-> Constituição 3 sendo carregada como fato geral.*
-
-> **⚠ E o arnês achou dois defeitos meus, um deles por ausência.** *A checagem 2 lia a
-> descrição de si mesma na tabela do §7. E a checagem 8 nasceu **vazia** — nenhuma
-> perturbação conseguia acender ela, porque `alma ≥ min(vida, alma)` é verdade em
-> aritmética e não em regra.* **Quando montar arnês, olhe as checagens que NENHUMA
-> perturbação alcança: é lá que mora a lição nº 8.**
+> **⚠ Os quatro builds estão por rodar.** *A v0.150 mexeu no capítulo 14 e os artefatos são da
+> v0.148.* **A checagem 7.5 acende até eles rodarem** — é ela fazendo o trabalho para o qual a
+> v0.146 escreveu ela.
 
 ---
 
-## 1 · Os dois rascunhos, e um deles nunca foi triado
+## O que as últimas seis versões fecharam
+
+**A v0.147 foi cinco achados de leitura do Mizuki, e um deles reverteu a v0.82** — o ataque
+extra voltou a exigir a Ação de Atacar, porque a forma solta fazia o `Bote` da `Estocada` valer
+zero.
+
+**A v0.148 foi a sétima passada de texto: dezoito achados, e nenhum saiu de validador.** *O
+`conferir-voz --estrito` estava em `0` quando ela começou.* **Dezessete viraram conserto.**
+
+**A v0.149 pôs a cópia para a entrega dentro do `subir.sh`**, com a lista saindo de
+`conferir-repositorio.py --recorte` — a mesma de onde a checagem 7.1 lê.
+
+**A v0.150 tirou a descida de grau do `Desgaste`** e pôs contador de missões no lugar.
+
+---
+
+## ⚠⚠ A lição que estas seis versões custaram, e ela é nova
+
+**QUATRO checagens nasceram sem conseguir acender, ou acendendo no lugar errado**, e o arnês
+pegou as quatro. *Nenhuma teria sido pega lendo o código.*
+
+| versão | a checagem | o defeito |
+|---|---|---|
+| v0.147 | `4h` do `conferir-manual` | passava no próprio título da seção que ela conferia |
+| v0.148 | `13` do `conferir-ferramenta` | **exigia** uma frase que a v0.116 tinha aposentado — e por isso a frase morta sobreviveu 31 versões em dois documentos |
+| v0.148 | `TABELA-VAGA` do `conferir-voz` | dois furos ao mesmo tempo, e os catorze ponteiros do livro escapavam pelos dois |
+| v0.150 | `18.5` do `conferir-ferramenta` | excluía linha de citação para pular história — **e a regra mora numa linha de citação também** |
+
+> **O que separa regra de história neste projeto nem sempre é o `>`.** *Na peça 16 é a **aspa**:
+> a regra morta está citada entre aspas, e a regra viva não.* **Confira nos dois sentidos:** a
+> perturbação que quebra a regra tem de acender, e a história citada tem de ficar verde.
+
+---
+
+## A fila, e nenhuma trava a mesa
+
+### 1 · Quatro dívidas de preço, e as quatro são versão própria
+
+| dívida | desde | o que é |
+|---|---|---|
+| **os onze `Estigma`** | v0.144 | nunca foram preçados uns contra os outros. O `Quebranto` sai em `1,28` fatias, `6,0%` da Rotina no nível 30, contra `1,6%` do `Contrapeso`, que é Classe 3 |
+| **o vão do nível 7** | v0.147 | o vão `físico − conjurador` foi construído sobre a forma antiga do ataque extra, e é ele que paga o degrau dos cinco Caminhos. A inversão deixou pendurado, de propósito |
+| **quatro Manhas** | v0.147 | `Gancho`, `Espeto`, `Laço` e `Prego` foram preçados com trava `—`. Agora têm portão, e os `0,71 · 0,71 · 1,06 · 1,06` valem mais do que a entrega entrega |
+| **o dano na arma** | v0.148 | **não tem peça, não tem validador e não tem conta.** Mora só no livro, em `Canalizar energia` e `Estímulo Muscular`. É o único dado do sistema nessa situação |
+
+### 2 · As sete marcas de "isto ainda não existe" — cinco assuntos
+
+*O `conferir-voz.py` conta e falha nas duas direções. Dois são grandes:*
+
+- **As três Trilhas do Evocador** — doze entregas preçadas, e o `RASCUNHO-trilhas.md` é a régua.
+- **`Sem Técnica`** — precisa de `Estilo da Sombra` **ou** `Aptidão como rota`, e as duas são
+  peça própria. **É a nona rota, a única que não fecha ficha.**
+
+E três médios: o **objeto de apoio** (falta a lista do que conta e o preço), a **invocação que
+não obedece**, e as **duas de Invocações** que esperam outra peça.
+
+> **⚠⚠ Existe uma sexta pendência de Invocações que a contagem NÃO enxerga:** *"o que acontece
+> com a invocação quando o DONO cai".* **Ela não está escrita em lugar nenhum que alguém vá
+> olhar** — nem na peça, nem no livro, nem na seção *Em aberto* do capítulo 15. *E o
+> `ESTADO-ATUAL` declara que ela e a "vida cheia" **travam as Trilhas do Evocador**.*
+
+### 3 · Meia versão que fecha duas coisas de uma vez
+
+**O inimigo não tem linha de Integridade na tabela do manual** (peça 24 §9) e **não tem Reação
+na ficha** (peça 23 §9). *São o mesmo trabalho: imprimir a coluna.* **As duas fecham juntas.**
+
+### 4 · Os dois rascunhos
 
 | rascunho | estado |
 |---|---|
 | `RASCUNHO-clash-de-expansoes.md` | **nunca foi triado.** 76 linhas. **Leia antes de propor qualquer coisa** |
-| `RASCUNHO-trilhas.md` | 926 linhas, a régua das Trilhas. É de onde as três do Evocador saem, e a v0.68 reformulou ela |
+| `RASCUNHO-trilhas.md` | 926 linhas, a régua das Trilhas. É de onde as três do Evocador saem |
 
-> **⚠ O de clash aponta quatro vezes para "a peça 12" como quem vai resolver ele, e a peça
-> 12 hoje é *Experiência e Progressão*.** *Ele é da v0.28, de quando a numeração era outra.*
-> **O `conferir-repositorio.py` não pega porque `peça 12` sem `§` não é ponteiro de seção.**
-> *Quem abrir o rascunho para triar vai ler um encaminhamento para o lugar errado.*
+> **⚠ O de clash aponta quatro vezes para "a peça 12" como quem vai resolver ele, e a peça 12
+> hoje é *Experiência e Progressão*.** *Ele é da v0.28, de quando a numeração era outra.* **O
+> `conferir-repositorio.py` não pega porque `peça 12` sem `§` não é ponteiro de seção.**
 
-*Um rascunho que vira peça vai com cabeçalho para `99-arquivo/` dizendo de onde saiu, o que o
-substituiu, em que versão, **por que morreu**, e — desde a v0.143 — **o que dele NÃO
-sobreviveu, porque estava errado**.*
+### 5 · Dívida de texto, e ela não é leva
 
-## 2 · As cinco marcas que sobraram — e o validador é quem conta
+**Nove entradas do livro ainda estão fora das quatro camadas, com doze rótulos em negrito longos
+demais para serem nome de efeito.** *Seis das nove no capítulo 12.* **Medido na v0.141 e não
+re-medido desde** — uma tentativa na v0.149 contou a coisa errada e foi descartada.
 
-**São `7` linhas no livro, e elas se agrupam em cinco assuntos.** *Saída do `conferir-voz.py`,
-que lista arquivo e linha de cada uma.* **Nenhuma foi fechada na v0.145** — aquela versão não
-encostou no livro por esse lado.
+*Se você abrir um desses capítulos por outro motivo, conserte de passagem.*
 
-| assunto | onde | tamanho |
-|---|---|---|
-| **as três Trilhas do Evocador** | `20-criacao-de-personagem.md:110` e `35-caminhos-e-trilhas.md:558` | **grande** — doze entregas preçadas, e o `RASCUNHO-trilhas.md` é a régua |
-| **`Sem Técnica`** | `25-origens.md:659` | **grande** — precisa de `Estilo da Sombra` **ou** `Aptidão como rota`, e as duas são peça |
-| **o objeto de apoio** | `55-ferramenta-amaldicoada.md:150` | média — falta a lista do que conta e o preço |
-| **a invocação que não obedece** | `60-invocacoes.md:276` | média — a peça 15 supõe que ela obedece, e a obra tem invocação que não |
-| **as duas de Invocações que esperam outra peça** | `60-invocacoes.md:268` e `:278` | média — quando a vida cheia volta, e selar objeto amaldiçoado |
+---
 
-> **⚠⚠ E existe uma sexta pendência de Invocações que NÃO tem marca e NÃO tem linha na peça.**
-> *O `ESTADO-ATUAL` e o CHANGELOG da v0.67 registram **duas** dívidas da peça 15: "quando a
-> vida cheia volta" e **"o que acontece com a invocação quando o DONO cai"**.* **A primeira
-> está escrita na peça (§3.5) e tem marca no livro. A segunda não existe em lugar nenhum
-> que alguém vá olhar** — a seção "Em aberto" do capítulo 15 lista outras duas coisas.
->
-> **Isso importa porque o `ESTADO-ATUAL` declara que as duas travam as Trilhas do Evocador:**
-> *"enquanto as duas não fecharem, nenhuma entrega de Trilha que mexa nelas tem contra o que
-> ser medida."* **A contagem de `7` não a enxerga, porque a contagem é do livro.**
+## O que NÃO é tarefa
 
-## 3 · A dívida de texto, medida, que pega qualquer capítulo que você abrir
+**As peças carregam 94 linhas vivas em *Em aberto*, e a maior parte é pergunta de playtest:**
+*se Força precisa de um segundo trabalho, se três lutas de graça é o número certo, se alguém
+escolhe o Leque.* **Elas esperam mesa, não conserto.**
 
-**A v0.141 tornou as *quatro camadas* obrigatórias em toda entrada de catálogo.** **Nove
-entradas do livro ainda estão fora, com doze rótulos em negrito longos demais para serem nome
-de efeito** *(acima das `4 a 6` palavras que o PHB entrega)*. **Seis das nove estão no
-capítulo 12, Bênçãos e Lapidação.**
-
-*Não é tarefa de leva nenhuma, mas se você mexer num desses capítulos, conserte de passagem.*
-
-## 4 · O que a peça 24 deixou aberto, e o mais concreto é irmão de um item da peça 23
-
-1. **O inimigo não tem linha de Integridade na tabela do manual.** *A peça 24 §3.3 resolve por
-   derivação — é a vida máxima dele —, então nada fica indefinido.* **O que falta é a tabela
-   imprimir a coluna**, no padrão do ambiente propício. *Mesma forma do item da peça 23 §9,
-   que pede a Reação na ficha de inimigo — **as duas fecham juntas, e é meia versão**.*
-2. **A Essência passa a fazer cinco trabalhos** — Integridade, TR Espírito, sete perícias,
-   Pactos, e candidata a atributo da técnica. *A Constituição faz dois.* **Já estava marcado
-   para o playtest antes desta peça; ela pôs o quinto.**
-3. **Quanto o estágio 3 vale contra um chefe.** *Desvantagem nos ataques dele numa luta de
-   `3,7` rodadas é grande, e ninguém mediu.* **É o que decide se o `Cisão` está barato**, e
-   encosta na dívida de preço dos onze `Estigma`, que é versão própria.
+> **`04-playtest/` continua vazia. Zero sessões desde a v0.1, e todo número do sistema é
+> previsão.** *É o maior item aberto do projeto, e o `README` diz isso na cara.*
 
 ---
 
@@ -124,42 +127,39 @@ capítulo 12, Bênçãos e Lapidação.**
   base passa antes, que o `diff` entrou, e ponha **contra-teste**.
   ***E confira que cada checagem tem pelo menos uma perturbação que a acende*** — a que
   nenhuma alcança é a que não pode falhar.
-- **Contra-teste coerente mexe em TUDO que a mudança implica.** *Os dois da v0.145 acenderam
-  na primeira montagem porque eu mudei a fórmula e deixei a ficha publicando o número velho —
-  e o erro era do teste, não do validador.*
+- **Contra-teste coerente mexe em TUDO que a mudança implica.**
 - **Nada de valor fica escrito dentro do validador.** Leia do documento dono.
 - **Cada peça tem um validador dono.** Checagem nova vai no validador da peça que ela confere.
 - **Antes de batizar qualquer coisa:** `python3 conferir-nomes.py --candidatos Nome Outro`.
   *Ela pega substring e não pega colisão de sentido — essa é sua.*
 - **Se mexer no livro:** `guard_numeros.py antes.md depois.md` a cada arquivo, com **cada**
-  diferença lida contra a linha que a carregava. E os **quatro** builds: `build.py`,
-  `build.py --duas`, `build_docx.py` e `build_txt.py`.
+  diferença lida contra a linha que a carregava. E os **quatro** builds.
 - **Escolha de sabor é dele**, em rodadas curtas, com o número e o trade-off já calculados.
   **Mas não pergunte o que a conta responde.**
 - **Documento não pode ter cara de saída de IA.** Português informal, nunca de Portugal.
 
-### Cinco armadilhas medidas nas últimas versões
+### Armadilhas medidas, e as duas primeiras são as que mais mordem
 
-> **⚠ Verde não é fim.** *Na v0.139 os 22 validadores passavam com `PULADA = 0` e treze
-> lugares ainda diziam `catorze`.* **A v0.145 fechou com tudo verde e quatro lugares ainda
-> publicando a fórmula velha da Integridade** — um deles dentro do `conferir-atributos.py`.
-> *Releia as listas à mão.*
+> **⚠⚠ Verde não é fim, e a v0.148 é o exemplar mais caro.** *Ela começou com o
+> `conferir-voz --estrito` em `0` achados, os 24 validadores verdes e as 251 checagens
+> fechando — e a leitura achou **dezoito** coisas.* **Nenhuma delas tinha marca, regex ou
+> checagem que pegasse.**
 >
 > **⚠⚠ Uma checagem pode se medir contra si mesma sem ninguém ver, por DEZENAS de versões.**
 > *No `conferir-atributos.py`, `integridade(nv)` e `vida_manual(nv)` eram a mesma expressão
-> literal desde a v0.17, e a checagem 8 comparava as duas.* **Ela nunca pôde falhar.**
+> literal desde a v0.17.* **Ela nunca pôde falhar.**
 >
-> **⚠ Frase morta não volta entre aspas.** *Um `grep` não distingue citação histórica de
-> afirmação viva.* **A peça 24 registra o nome do Teste de Resistência aposentado em discurso
-> indireto**, e o `conferir-alma.py` varre o projeto e o gerador atrás do nome morto.
+> **⚠ Frase morta não volta entre aspas — e frase morta EXIGIDA por um validador não sai
+> nunca.** *É a v0.148: a checagem 13 do `conferir-ferramenta` casava o literal que continha o
+> `sem PE` aposentado.* **Consertar a peça fazia o validador acender, então ninguém consertou.**
 >
-> **⚠ Ponteiro em tempo presente vira mentira no ato.** *A peça 24 dizia que a peça 5
-> "carrega um bilhete dizendo X" — e o bilhete tinha sido corrigido na mesma versão.*
+> **⚠ Ponteiro em tempo presente vira mentira no ato.**
 >
 > **⚠⚠ Editar por script neste mount tem uma armadilha de uma linha.**
 > `open(p,'w').write(open(p).read()...)` **trunca o arquivo**: o Python abre para escrita — e
-> zera — antes de avaliar a leitura de dentro. *Aconteceu com o `partA.js` na v0.145.*
-> **Leia para uma variável ANTES de abrir para escrita.**
+> zera — antes de avaliar a leitura de dentro. **Leia para uma variável ANTES de abrir para
+> escrita.** *E se um `assert` matar o script depois do `replace` e antes do `write`, a
+> mudança não foi gravada — aconteceu na v0.150, e o validador pegou.*
 
 ## Onde as coisas moram
 
@@ -170,7 +170,8 @@ capítulo 12, Bênçãos e Lapidação.**
 | a fonte do livro | `sistema/05-material/livro/manual/`, 20 arquivos |
 | os builds | `sistema/05-material/livro/build/` |
 | a régua de escrita | `sistema/05-material/livro/REGRA-DE-VOZ.md`, e o `METODO-passada-de-texto.md` ao lado |
-| a entrega | `finalizado/`, git próprio, **sem `subir.sh` — é git à mão**, e o `README.md` da raiz tem a linha |
+| a última passada de texto | `sistema/05-material/livro/PENTE-FINO-v0.147.md`, com os dezoito achados e o que entrou em cada um |
+| a entrega | `finalizado/`, git próprio. **O `subir.sh` copia; o commit é à mão** |
 
 **Os dois repositórios:** `JJK---Project` (raiz) e `JJK---PDF---RPG` (`finalizado/`).
 *Se o repositório for lido por um Project do Claude, **sincronize depois do push**.*
@@ -182,5 +183,4 @@ capítulo 12, Bênçãos e Lapidação.**
 > `sistema/05-material/livro/.claude/worktrees/magical-shtern-619941/` é uma **cópia inteira do
 > repositório na v0.138**, 11 MB, abandonada. *Ela está no `.gitignore` e o `conferir-repositorio.py`
 > já a exclui.* **Mas todo `grep -rn` cai nela e devolve resultado em dobro — e ela tem um link
-> quebrado que faz `shutil.copytree` estourar**, o que mordeu ao montar o arnês da v0.145.
-> *Vale apagar, e é decisão do Mizuki.*
+> quebrado que faz `shutil.copytree` estourar.** *Vale apagar, e é decisão do Mizuki.*

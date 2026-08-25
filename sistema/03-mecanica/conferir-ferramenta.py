@@ -643,6 +643,81 @@ else:
 
 # ================================================================ veredito
 print('\n' + '=' * 88)
+# ======================================================== 18. DESGASTE-MISSAO
+# O contador de missoes do Desgaste, nascido na v0.150 quando ele deixou de ser
+# descida de grau. NENHUM valor mora aqui: a tabela sai do SS4 e a Classe de cada
+# grau sai do SS3, que e a mesma fonte da checagem 9.
+#
+# Ela existe porque a regra ANTIGA contradizia a tabela do SS3 e ninguem tinha
+# lido: descendo de grau, a ferramenta trocava de Classe de Estigma no meio do
+# caminho — e o exemplo publicado punha um Estigma de Classe 3 funcionando em
+# grau 2 e grau 3, que nao carregam Classe 3.
+print('\n 18. DESGASTE-MISSAO — o contador do SS4 contra a escada do SS3')
+
+MISSOES = {}
+for _m in re.finditer(r'^\| ([^|\n]+?) \| (\d+) \|\s*$', S4, re.M):
+    _rot, _n = _m.group(1).strip(), int(_m.group(2))
+    if _rot in ('grau', '---'):
+        continue
+    for _g in re.findall(r'especial|[1234]', _rot):
+        MISSOES[_g] = _n
+
+# 18.1 — a tabela cobre exatamente os graus que TEM Estigma, e nenhum outro
+_com_estigma = {g for g, (cl, _) in ESCADA.items() if cl}
+if not MISSOES:
+    erro('18', 'nao achei a tabela de missoes do Desgaste no SS4 — ou ela sumiu, '
+               'ou mudou de forma e esta checagem parou de conferir')
+elif set(MISSOES) != _com_estigma:
+    erro('18', f'a tabela de missoes cobre {sorted(MISSOES)} e os graus com Estigma '
+               f'sao {sorted(_com_estigma)} — o Desgaste compra gate de Estigma, entao '
+               f'os dois conjuntos tem de ser o mesmo')
+else:
+    print(f'  [x] a tabela cobre os {len(MISSOES)} graus que tem Estigma, e so eles')
+
+    # 18.2 — mais Classe pede mais missao. A ordem e DERIVADA do SS3, nao escrita aqui.
+    _pares = sorted(((ESCADA[g][0], MISSOES[g], g) for g in MISSOES), key=lambda p: p[0])
+    _fora = [(a, b) for a, b in zip(_pares, _pares[1:]) if b[1] < a[1]]
+    if _fora:
+        erro('18', f'o contador anda para tras contra a Classe: {_fora} — uma ferramenta '
+                   f'de Classe maior nao pode durar menos missoes que uma de Classe menor')
+    else:
+        print(f'  [x] mais Classe, mais missao: {[(g, m) for _, m, g in _pares]}')
+
+    # 18.3 — o numero da PROSA e o da tabela sao o mesmo. Duas copias, um dono.
+    _pr = re.search(r'grau 1 com `Desgaste` dura \*\*(\w+) missões\*\*', S4)
+    if not _pr:
+        erro('18', 'nao achei a frase que publica o prazo do grau 1 no SS4 — a segunda '
+                   'copia do numero sumiu ou mudou de forma')
+    else:
+        _EXT = {'uma': 1, 'duas': 2, 'três': 3, 'tres': 3, 'quatro': 4, 'cinco': 5}
+        _lido = _EXT.get(_pr.group(1))
+        if _lido != MISSOES.get('1'):
+            erro('18', f'a prosa do SS4 diz "{_pr.group(1)}" missoes para o grau 1 e a '
+                       f'tabela diz {MISSOES.get("1")} — duas copias do mesmo numero')
+        else:
+            print(f'  [x] a prosa e a tabela dizem o mesmo para o grau 1: {_lido}')
+
+    # 18.4 — o grau sem Estigma fica DECLARADO de fora, e nao so' ausente
+    if not re.search(r'[Gg]rau 4 n[ãa]o entra', S4):
+        erro('18', 'o SS4 nao declara que o grau 4 fica de fora — ausencia da linha nao '
+                   'e a mesma coisa que a regra dizer que ele nao entra')
+    else:
+        print('  [x] o grau 4 esta declarado fora, e nao apenas ausente da tabela')
+
+    # 18.5 — e a descida de grau nao pode voltar: era ela que contradizia o SS3.
+    #
+    # O que separa regra de historia aqui NAO e o `>`: a regra do SS4 mora dentro
+    # de um bloco de citacao tambem. E a ASPA — o SS4 registra a regra morta como
+    # texto citado, e o arnes provou a diferenca: excluindo por `>`, a perturbacao
+    # que devolve a descida de grau a REGRA saia VERDE, porque a checagem tinha
+    # ficado cega justamente no lugar em que a regra vive.
+    _regra_viva = re.sub(r'"[^"\n]*"', '', P16)
+    if re.search(r'desce um grau|desce para grau|derruba o grau', _regra_viva):
+        erro('18', 'a peca voltou a fazer o Desgaste DESCER DE GRAU — isso contradiz a '
+                   'tabela do SS3, porque o grau escolhe a Classe do Estigma')
+    else:
+        print('  [x] nada faz a ferramenta descer de grau')
+
 if avisos:
     for a in avisos: print(f'  aviso: {a}')
 if erros:
@@ -650,6 +725,6 @@ if erros:
     for e in erros: print('    ' + e)
     sys.exit(1)
 print('>>> TUDO OK — o fundo sai da peca 14, o gate sai da peca 11, os marcos saem')
-print('    da peca 2, a rota sai da peca 9, e as 17 checagens do SS8 fecham sem')
+print('    da peca 2, a rota sai da peca 9, e as 18 checagens do SS8 fecham sem')
 print('    nenhum valor de regra escrito dentro deste arquivo.')
 print('=' * 88)
