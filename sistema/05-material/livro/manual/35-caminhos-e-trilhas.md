@@ -116,6 +116,8 @@ E duas coisas que quase todo degrau daqui menciona:
 > **Você tem usos iguais à sua Constituição, e eles voltam no descanso longo.**
 >
 > **Nível 7: Ataque extra.** Você ganha **um golpe simples por rodada**. Ele exige a Ação de Atacar: acontece junto do que a sua Ação Padrão fez naquele turno, e só nesse caso — a não ser que uma habilidade diga o contrário.
+> **E `Não Pega`.** *Reação.* Quando você faz um Teste de Resistência **Físico** contra um efeito que causa metade do dano no sucesso: passando, você não sofre nada; falhando, você sofre metade. **Você não usa a `Não Pega` enquanto estiver `Incapacitado`.**
+> **E `Ainda de Pé`.** *Uma vez por cena.* Quando você é reduzido a **metade da sua vida ou menos**, você recupera `1d8 + metade do seu nível`. **Não custa ação nenhuma.**
 >
 > **Nível 15: `Puxar Para Si`.** *Reação.* Quando um inimigo a até 1,5 m ataca **outra pessoa**, o ataque passa a ter **você** como alvo.
 > **Gastando `2` PE, você aplica o `Absorver` no mesmo golpe**, sem gastar um uso dele.

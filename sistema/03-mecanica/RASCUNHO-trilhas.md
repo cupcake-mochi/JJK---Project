@@ -345,7 +345,17 @@ A peça 6 §3 mede a linha de base assim, e a leitura dela muda tudo:
 
 > **O vão vale hoje entre `1,77` e `2,36` fatias** — contra as `3` do Caminho inteiro. *Na escala velha ele valia de `3,2` a `5,5`, e era isso que o fazia não caber como um degrau de oito. **Com o preço morando na Trilha e não na entrega, ele é só uma entrega grande** — que é o que o §3.4-B abaixo já dizia.*
 
-> **A regra: o degrau do nível 7 substitui uma fatia, e ele vale exatamente o vão.** Quem já tem rota para ataque extra — **Bastião e Vanguarda pelo Caminho, `Arremate` e `Coro` pela Trilha** — recebe **o ataque extra no lugar dele**. Quem não tem recebe o degrau grande.
+> **A regra: o degrau do nível 7 substitui uma fatia.** Quem já tem rota para ataque extra — **Bastião e Vanguarda pelo Caminho, `Arremate` e `Coro` pela Trilha** — recebe **o ataque extra mais uma segunda metade**. Quem não tem recebe o degrau grande, em `2,36`.
+
+> **⚠⚠ A frase "ele vale exatamente o vão" morreu na v0.155, e o motivo é que o vão morreu como número.** *A v0.147 pôs o ataque extra de volta dentro da Ação de Atacar, e a Ação de Atacar não inclui o feitiço de Toque — então o físico passou a **escolher** entre atacar e conjurar, e `físico − conjurador` deixou de ser uma subtração.* **Medido: o ataque extra vale de `0,53` a `1,68` fatia conforme refino e Manha, contra os `2,36` que a tabela abaixo publica.**
+>
+> | nível 7 | ataque extra | + a metade nova | total |
+> |---|---|---|---|
+> | **Bastião** — `Ainda de Pé` | `0,83` | `1,10` | **`1,93`** |
+> | **Vanguarda** — `Não Pega` | `0,92` | `1,18` | **`2,10`** |
+> | Guia · Emanador · Evocador | — | — | `2,36` |
+>
+> **A conta inteira mora na peça 6 §3.1**, com a taxa derivada do bloco 1 do `conferir-orcamento.py` e a diferença de `−0,44` e `−0,26` declarada. *A tabela de vão logo acima fica como leitura da v0.80: ela continua descrevendo a linha de base, e não o preço do degrau.*
 
 E aí os cinco Caminhos empatam, com o resto do calendário inalterado:
 

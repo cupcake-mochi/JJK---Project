@@ -1,8 +1,22 @@
 # Estado atual do projeto
 
-Atualizado em 25/08/2026, na v0.154 (última peça fechada: **Dano de alma e Integridade**, a peça 24, na v0.145, com o `conferir-alma.py` e onze checagens; antes dela, **Bloquear, na v0.143**; antes dela, o **Objeto amaldiçoado, na v0.132**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 25/08/2026, na v0.155 (última peça fechada: **Dano de alma e Integridade**, a peça 24, na v0.145, com o `conferir-alma.py` e onze checagens; antes dela, **Bloquear, na v0.143**; antes dela, o **Objeto amaldiçoado, na v0.132**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.154.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e quatro peças escritas** e **vinte e quatro validadores**.
+**Versão v0.155.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e quatro peças escritas** e **vinte e quatro validadores**.
+
+***A v0.155 fechou a dívida do vão do nível 7, aberta desde a v0.147 — e o diagnóstico não era o que a dívida dizia.*** **O ataque extra não virou letra morta: o VÃO é que deixou de ser um número.**
+
+> **Na forma da v0.82 o físico e o conjurador faziam a mesma Ação Padrão e o físico tinha uma coisa a mais** — subtração limpa, e dava um golpe simples. *A v0.147 devolveu o ataque extra à Ação de Atacar, e a Ação de Atacar não inclui o feitiço de Toque: o físico passou a **escolher**, e a subtração virou comparação entre duas decisões.* **Medido, o ataque extra vale de `0,53` a `1,68` fatia conforme refino e Manha — dispersão de `3,2×` dentro do mesmo Caminho, contra `2,36` publicado.**
+>
+> **A taxa que faltava não era pergunta de playtest: estava no bloco 1 do `conferir-orcamento.py`.** *`10,5` rodadas de luta por dia, e o poço de PE diz quantas cabem — Bastião conjura `48%`, Vanguarda `67%`, Emanador `76%`.* **O resto é onde o ataque extra vive.**
+>
+> ***Decisão do Mizuki: o nível 7 ganha uma segunda metade, e ela não pode ser dano*** — *qualquer coisa que ande junto do ataque herda a dispersão.* **`Ainda de Pé` no Bastião (`1d8 + metade do nível` de cura, `1×` por cena, sem custo de ação) e `Não Pega` na Vanguarda (o `Evasion` do 5e como Reação, desligado pelo `Incapacitado`).** *Totais `1,93` e `2,10` contra `2,36` dos outros três, com a diferença **declarada**.*
+>
+> **⚠⚠ O custo de ação da `Ainda de Pé` foi escolhido por medida:** *a Reação do Bastião está tomada pelos outros três degraus dele e a Ação Bônus pelas três Trilhas — a `Fagulha` põe um `Classe 0` de `27` ali toda rodada.* **Curar `19,5` gastando aquilo dá saldo `−7,5`.**
+>
+> **Entrou a checagem 6 do `conferir-manual.py`**, que lê os três totais e falha se a diferença passar de `0,50` fatia. *Ela pegou um arredondamento meu na primeira rodada, e o arnês pegou dois defeitos fora do código — uma base **falsamente verde** (a cópia não tinha o `.docx` no caminho, então o validador pulou tudo e saiu `0`) e um contra-teste incoerente.*
+
+***A v0.154 mexeu em cinco Manhas por leitura dele***, e o `Gancho` parou de ser sobre mover — dar alcance à Manha reprova pela peça 14, e fechar a distância entrega zero porque o turno base já dá `9 m` divisíveis. *Banda `0,53`–`1,18`, dominância `2,22×`, com a checagem 13 do `conferir-catalogo.py` em cima.*
 
 ***A v0.153 fechou a dívida de texto do livro, e o que a destravou foi reconstruir a DEFINIÇÃO em vez de escolher entre os números.*** **Três versões mediram a mesma coisa e acharam três coisas — `209`, `4`, e uma contagem descartada —, porque o par publicado na v0.141 nunca teve definição escrita.**
 

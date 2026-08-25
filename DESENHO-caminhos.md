@@ -2,7 +2,9 @@
 
 *Fechado com o retorno do Mizuki. **Dois achados de conta apareceram nesta passada, e os dois vêm de propostas dele:** o nível 7 do Emanador fecha o vão por construção, e a `Presa` do Evocador estoura no nível 2 se a trava for por corpo.*
 
-> **Orçamento:** Caminho em `2 · 7 · 15 · 30`, Trilha em `2 · 11 · 19 · 27`. **O Caminho leva `3` fatias** (níveis 2, 15 e 30); **o nível 7 é de graça**, porque vale o vão `físico − conjurador` e é correção de base.
+> **Orçamento:** Caminho em `2 · 7 · 15 · 30`, Trilha em `2 · 11 · 19 · 27`. **O Caminho leva `3` fatias** (níveis 2, 15 e 30); **o nível 7 é de graça**, porque é correção de base.
+>
+> **⚠ Ele deixou de valer o vão na v0.155.** *O vão parou de ser um número quando a v0.147 devolveu o ataque extra à Ação de Atacar.* **Hoje o nível 7 é ataque extra mais uma segunda metade — `Ainda de Pé` no Bastião, `Não Pega` na Vanguarda —, e o degrau grande dos outros três fica em `2,36` com a diferença declarada.** *A conta mora na peça 6 §3.1.*
 >
 > **⚠ O vão mudou na v0.80, e ele mudou de `7,00` para `12` no nível 30.** *A linha do conjurador da peça 6 §3 somava um Classe 0 de `4,50` que não existe no manual — o Classe 0 tem tabela própria lá, com `2d8` a `6d8` por faixa de nível, e ele gasta a Ação Padrão, então não cabe junto do feitiço grande.* **O vão é exatamente um golpe simples: `9 · 10 · 11 · 12`.**
 >

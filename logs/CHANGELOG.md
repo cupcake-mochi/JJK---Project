@@ -8,6 +8,82 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.155] — 25/08/2026
+
+**A dívida do vão do nível 7 FECHOU, e ela estava aberta desde a v0.147.** *O diagnóstico não era o que a dívida dizia: o ataque extra não virou letra morta — o **vão** é que deixou de ser um número.*
+
+### ⚠⚠ O que quebrou não era o preço, era a definição
+
+**Na forma da v0.82 o físico e o conjurador faziam a mesma Ação Padrão e o físico tinha uma coisa a mais.** *`físico − conjurador` era subtração limpa, e dava um golpe simples: `9 · 10 · 11 · 12`.*
+
+**A v0.147 devolveu o ataque extra à Ação de Atacar, e a Ação de Atacar não inclui o feitiço de Toque.** *Então o físico passou a **escolher** entre atacar e conjurar — e a subtração virou comparação entre duas decisões.*
+
+> **O resultado muda com o poço de PE do Caminho e com o que a ficha empilhou na arma:**
+
+| o ataque extra vale | fatias |
+|---|---|
+| ficha nua | `0,53` |
+| refino `8` + Manha | `0,92` |
+| refino `10` + Manha | `1,68` |
+
+***Dispersão de `3,2×` dentro do mesmo Caminho, contra `2,36` publicado.*** **E a dispersão não é da v0.147** — o golpe sempre carregou o que estava empilhado nele. *O que aquela versão fez foi tirar o golpe da rodada de feitiço, encolhendo o degrau e **invertendo a forma dele**: publicado ele cresce com o nível, derivado ele encolhe.*
+
+### A taxa não era pergunta de playtest — ela estava no validador
+
+**O bloco 1 do `conferir-orcamento.py` já publicava o que faltava:** *`3` lutas × `3,5` rodadas = `10,5` rodadas de luta por dia, e o poço de PE diz quantas cabem.* **Bastião conjura `48%` das rodadas no nível 30, Vanguarda `67%`, Emanador `76%`** — e o resto, nas palavras do próprio validador, *"vai para Classe 0, golpe simples e projetar energia, que não custam PE"*.
+
+### ***Decisão do Mizuki: o nível 7 ganha uma segunda metade, e ela não anda no ataque***
+
+**A compensação não podia ser dano.** *Qualquer coisa que ande junto do ataque herda a dispersão de `3,2×`.* **Tinha de ser moeda que não sobe no ataque, para valer igual em toda montagem.**
+
+| nível 7 | ataque extra | + a metade nova | total | vs `2,36` |
+|---|---|---|---|---|
+| **Bastião** — `Ainda de Pé` | `0,83` | `1,10` | **`1,93`** | `−0,43` |
+| **Vanguarda** — `Não Pega` | `0,92` | `1,18` | **`2,10`** | `−0,26` |
+
+> **`Ainda de Pé`** — *uma vez por cena, sem custo de ação.* **Quando você é reduzido a metade da vida ou menos, recupera `1d8 + metade do nível`.**
+>
+> **`Não Pega`** — *Reação.* **No Teste de Resistência Físico contra efeito de metade-no-sucesso: passando não sofre nada, falhando sofre metade.** *Desligada pelo `Incapacitado`.*
+
+**Os dois relógios saíram de conta, não de gosto.** *A cura: `1` de cura = `1` de dano evitado pela régua da v0.76, e `1×` por cena dá `1,10` contra `2,19` de `2×`.* **A `Não Pega`: um efeito de TR-para-metade custa `16,20` esperados e ela derruba para `4,20`** — *taxa declarada de `50%` das rodadas com efeito qualificado, no molde da taxa do `Batedor` parado.*
+
+> **⚠⚠ E o custo de ação da `Ainda de Pé` foi escolhido por MEDIDA.** *A primeira forma era Ação Bônus.* **Mas a Reação do Bastião está tomada pelos outros três degraus dele, e a Ação Bônus está tomada pelas três Trilhas — a `Fagulha` põe um `Classe 0` de `27` ali toda rodada.** *Curar `19,5` gastando aquilo dá saldo `−7,5`, e a entrada viraria letra morta para `Punho` e `Brasa`.* **É a família do `Avulsa` a `4` usos e do `Bote` com o golpe solto: entrega preçada que a economia de ação já ocupou.**
+
+### A diferença fica declarada, e a distância entre os dois é resíduo
+
+***Decisão do Mizuki: declarar em vez de descer o degrau grande para `2,05`.*** *`0,30` fatia é `6%` de uma Trilha, dentro do que o projeto já aceita — a `Brasa` estoura entre `41%` e `88%`.*
+
+**A distância entre Bastião e Vanguarda é `0,18`, menor que qualquer Manha do catálogo**, e ela é o resíduo da Manha: *a Vanguarda dobra uma no segundo golpe e o Bastião não tem nenhuma; em troca o Bastião passa `52%` das rodadas sem PE contra `33%` dela.* **As duas forças quase se cancelam.**
+
+### A checagem 6, e ela acendeu na primeira rodada
+
+**Entrou no `conferir-manual.py`, que é o dono da peça 6:** *ela lê os três totais da tabela do §3.1, confere contra a frase que declara a diferença, e falha se a diferença passar de `0,50` fatia.* **O degrau existe para os cinco receberem a mesma coisa, e até aqui nada conferia isso.**
+
+> **⚠ Ela pegou um erro meu de arredondamento no primeiro `run`:** *`2,36 − 1,93 = 0,43`, e eu tinha escrito `−0,44` — o valor sem arredondar.* **A tabela e a frase divergiam por `0,01`, e a checagem existe exatamente para isso.**
+>
+> **⚠⚠ E o arnês pegou dois defeitos meus, os dois fora do código.** *A primeira base saiu **falsamente verde**: a cópia isolada não tinha o `.docx` no caminho que o validador procura, então ele **pulou** as checagens e saiu `0` sem conferir nada.* **É a pulada que o `README` avisa, dentro do próprio arnês.** *E o contra-teste mudava a tabela sem mudar a frase junto — ele não era coerente, e acendia com razão.*
+
+### Medido depois
+
+| | v0.154 | v0.155 |
+|---|---|---|
+| peças de regra · validadores | 24 · 24 | iguais |
+| checagens no total | 256 | **257** |
+| checagens do `conferir-manual.py` | 5 | **6** |
+| dívidas de preço abertas | 4 | **3** |
+| degraus de nível 7 sem preço próprio | **5** | **0** |
+| palavras do livro | 71.013 | **71.086** |
+| coluna única · duas colunas | 243 · 141 | **243 · 141** |
+| `conferir-voz --estrito` | 0 achados · 11 triagens | **0 achados · 11 triagens** |
+
+*Os 24 validadores verdes com `PULADA = 0`, o `conferir-repositorio.py`, os dois de `manual/matematica/` e os quatro builds.* **`Ainda de Pé` e `Não Pega` passaram na triagem como `LIVRE` nas duas direções.**
+
+*`guard_numeros.py` no capítulo 8.* **Quatro diferenças, as quatro das duas entradas novas** — *o `1d8` da cura; os quatro `metade` (meia vida, metade do nível, metade no sucesso, sofre metade); e os `um`/`uma` das duas frases.*
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **Sobram três dívidas de preço:** *as três Manhas com portão não preçado, as Manhas supondo dois ataques, e o dano na arma sem peça.*
+
+---
+
 ## [0.154] — 25/08/2026
 
 **Cinco Manhas mexidas por leitura do Mizuki, e a leva começou por outro assunto.** *Ele foi olhar a dívida do vão do nível 7, e a conta mostrou que o ataque extra e as Manhas estão amarrados — o que levou ele a reler o catálogo entrada por entrada.*

@@ -1,4 +1,4 @@
-# Retomada — v0.154, e o que sobrou é preço, playtest e dois rascunhos
+# Retomada — v0.155, e o que sobrou é preço, playtest e dois rascunhos
 
 Pasta: `/media/mizuki/HD Externo II/Claude/Claude 2/`
 ⚠ Trabalhe na pasta PRINCIPAL, não em worktree. **Você não commita** — deixa a mensagem em
@@ -7,8 +7,8 @@ Pasta: `/media/mizuki/HD Externo II/Claude/Claude 2/`
 Leia primeiro, nesta ordem: `README.md` (a seção *"Nove lições que custaram erro"*),
 `sistema/ESTADO-ATUAL.md` **inteiro**, e o `logs/CHANGELOG.md` de cima até a v0.140.
 
-**Projeto na v0.154.** 24 peças · 24 validadores · **256 checagens**. Livro em 17 capítulos,
-**71.013 palavras**, **243** páginas em coluna única e **141** em duas. Manual do Fundamento na
+**Projeto na v0.155.** 24 peças · 24 validadores · **257 checagens**. Livro em 17 capítulos,
+**71.086 palavras**, **243** páginas em coluna única e **141** em duas. Manual do Fundamento na
 **v7.14**. `conferir-voz --estrito` em 0 achados, 0 termos sem destino, 11 triagens, **7 marcas
 de "isto ainda não existe" e 0 rótulos longos demais em 52 entradas de catálogo**.
 
@@ -70,7 +70,7 @@ lição nº 8 aplicada ao reconhecedor em vez de ao valor.
 
 ## A fila, e nenhuma trava a mesa
 
-### 1 · QUATRO dívidas de preço, e a primeira já tem diagnóstico fechado
+### 1 · TRÊS dívidas de preço
 
 > **⚠⚠ O vão foi medido na v0.154, e o problema não é o que a dívida dizia.** *A taxa que faltava não era pergunta de playtest — ela sai do bloco 1 do `conferir-orcamento.py`: `10,5` rodadas de luta por dia, e o poço de PE diz quantas cabem.* **Com o dano na arma dentro, a Ação de Atacar rende `1,26×` o Classe 0 grátis e NÃO está dominada** — o ataque extra não virou letra morta.
 >

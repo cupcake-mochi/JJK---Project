@@ -243,13 +243,48 @@ Com um golpe na Ação Bônus, o conjurador de perto cai exatamente na linha do 
 >
 > **A cláusula final é a válvula, e ela é o que faz a forma nova funcionar:** *"a não ser que uma habilidade diga o contrário"*. **É por ela que o `Bote` volta a valer, e é onde qualquer Trilha futura compra a exceção em vez de recebê-la de graça.**
 >
-> ### ⚠⚠ O que esta inversão deixa ABERTO, e não foi fechado na v0.147
+> ### ✔ O que esta inversão deixou aberto FECHOU na v0.155
 >
-> **O vão `físico − conjurador` do §3 foi construído sobre a forma antiga**, e é ele que paga o degrau de nível 7 dos cinco Caminhos. *A tabela abaixo é da v0.82 e continua aqui como o que era verdade sob aquela forma — ela não descreve mais a regra.*
+> **O vão `físico − conjurador` do §3 foi construído sobre a forma antiga**, e é ele que pagava o degrau de nível 7 dos cinco Caminhos. *A tabela do fim desta seção é da v0.82 e fica como o que era verdade sob aquela forma — ela não descreve mais a regra.*
 >
-> **As duas coisas que precisam ser refeitas quando alguém pegar isto:** *o vão em si, que sob a forma nova vale zero na rodada em que o físico conjura; e as três Trilhas cujo preço se pendura nele.* **Nenhum número publicado foi mexido nesta versão, de propósito** — repreçar o degrau de nível 7 dos cinco Caminhos é versão própria, e fazer meio dela deixaria o catálogo com dois modelos dentro.
+> ***O achado da v0.155: o vão parou de ser um número.*** *Na forma da v0.82 os dois faziam a mesma Ação Padrão e o físico tinha uma coisa a mais — subtração limpa. Na forma de hoje o físico **escolhe** entre atacar e conjurar, então `físico − conjurador` virou comparação entre duas decisões* — **e o resultado muda com o poço de PE do Caminho e com o que a ficha empilhou na arma.**
 >
-> #### A leitura da v0.82, que a inversão aposentou
+> | | vale | por quê |
+> |---|---|---|
+> | ataque extra, ficha nua | `0,53` | só arma, Força e crítico |
+> | ataque extra, refino `8` + Manha | `0,92` | o `2º` golpe dobra a Manha e o dano na arma |
+> | ataque extra, refino `10` + Manha | `1,68` | `3d6` de dano na arma em cada golpe |
+>
+> **A dispersão é `3,2×` dentro do mesmo Caminho, e ela não é da v0.147:** *o golpe sempre carregou o que estava empilhado nele.* **O que a v0.147 fez foi tirar o golpe da rodada de feitiço — e com isso encolher o degrau e INVERTER a forma dele**, que publicado crescia com o nível e derivado encolhe.
+>
+> #### A taxa, e ela é derivada e não perguntada
+>
+> **O bloco 1 do `conferir-orcamento.py` já publicava o que faltava:** *`3` lutas × `3,5` rodadas = `10,5` rodadas de luta por dia, e o poço de PE diz quantas cabem.* **Bastião conjura `48%` das rodadas no nível 30, Vanguarda `67%`, Emanador `76%`** — e o resto, nas palavras do próprio validador, *"vai para Classe 0, golpe simples e projetar energia, que não custam PE"*. **É nessas que o ataque extra vive.**
+>
+> #### ***Decisão do Mizuki: o nível 7 ganha uma segunda metade, e ela não anda no ataque***
+>
+> **A compensação não pode ser dano.** *Qualquer coisa que ande junto do ataque herda a dispersão de `3,2×` e o problema volta.* **Ela tem de ser numa moeda que não sobe no ataque, e aí vale igual para toda montagem.**
+>
+> | | nível 7 | ataque extra | + a metade nova | total |
+> |---|---|---|---|---|
+> | **Bastião** | ataque extra + `Ainda de Pé` | `0,83` | `1,10` | **`1,93`** |
+> | **Vanguarda** | ataque extra + `Não Pega` | `0,92` | `1,18` | **`2,10`** |
+> | Guia · Emanador · Evocador | o degrau grande | — | — | `2,36` |
+>
+> **A `Ainda de Pé` é `1d8 + metade do nível` de cura, `1×` por cena, sem custo de ação.** *`1` de cura = `1` de dano evitado, pela régua da v0.76.* **O relógio não foi escolhido: `1×` por cena dá `1,10` e `2×` daria `2,19`, que estoura.**
+>
+> **A `Não Pega` é o `Evasion` do 5e** — sucesso anula, falha vira metade — **como Reação, e desligada pelo `Incapacitado`.** *Um efeito de TR-para-metade custa `16,20` esperados; ela derruba para `4,20`, evitando `12,00`.* ***Taxa declarada: `50%` das rodadas trazem um efeito qualificado*** — no molde da taxa do `Batedor` parado, escrita e não suposta.
+>
+> > **⚠ E o custo de ação foi escolhido por medida, não por sabor.** *A Reação do Bastião está tomada pelos três outros degraus dele, e a Ação Bônus está tomada pelas três Trilhas — a `Fagulha` põe um `Classe 0` de `27` ali toda rodada.* **Curar `19,5` gastando aquilo dá saldo `−7,5`, e a entrada viraria letra morta para `Punho` e `Brasa`.** *Por isso a `Ainda de Pé` não custa ação: é o único slot livre que o Bastião tem no nível 7.*
+>
+> #### A diferença que fica, e ela é declarada
+>
+> **Bastião `−0,43` e Vanguarda `−0,26` contra o degrau grande de `2,36`.** *Os dois ficam abaixo, e a distância entre eles é `0,18` — menor que qualquer Manha do catálogo.* **O resíduo é a Manha:** *a Vanguarda dobra uma no segundo golpe e o Bastião não tem nenhuma; em troca o Bastião passa `52%` das rodadas sem PE contra `33%` dela, e o ataque extra rende mais nele.* **As duas forças quase se cancelam.**
+>
+> ***Decisão do Mizuki: a diferença fica declarada em vez de o degrau grande descer para `2,05`.*** *`0,30` fatia é `6%` de uma Trilha, e cabe no que o projeto já aceita — a `Brasa` estoura entre `41%` e `88%` e ficou.*
+>
+> ### A leitura da v0.82, que a inversão aposentou
+>
 >
 > | a rodada, no nível 30 | conjurador | físico | a diferença |
 > |---|---|---|---|

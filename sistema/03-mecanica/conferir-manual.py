@@ -1050,6 +1050,53 @@ else:
 
 
 # --------------------------------------------------------------------------
+# 6: os cinco degraus de nivel 7, comparados entre si.
+#
+# v0.155. O degrau do nivel 7 existe para que os cinco Caminhos recebam a mesma
+# coisa, e ate aqui nada conferia isso — a regra dizia "vale exatamente o vao" e
+# o vao deixou de ser um numero quando a v0.147 devolveu o ataque extra a Acao
+# de Atacar. Hoje a peca 6 §3.1 publica os tres totais e declara a diferenca.
+#
+# Nenhum numero mora aqui: os tres saem da tabela da peca, e o teto da diferenca
+# sai da frase que o declara.
+print()
+print('  6. os cinco degraus de nivel 7, e a diferenca declarada')
+
+_t6 = open(_p6, encoding='utf-8').read() if os.path.exists(_p6) else ''
+_tot = {}
+for _l in _t6.split('\n'):
+    _m = re.match(r'>?\s*\|\s*\*\*(Bastião|Vanguarda)\*\*\s*\|[^|]*\|'
+                  r'\s*`([\d,]+)`\s*\|\s*`([\d,]+)`\s*\|\s*\*\*`([\d,]+)`\*\*\s*\|', _l)
+    if _m:
+        _tot[_m.group(1)] = float(_m.group(4).replace(',', '.'))
+_mg = re.search(r'Guia · Emanador · Evocador \| o degrau grande \| — \| — \| `([\d,]+)` \|', _t6)
+_grande = float(_mg.group(1).replace(',', '.')) if _mg else None
+_md = re.search(r'Bastião `−([\d,]+)` e Vanguarda `−([\d,]+)` contra o degrau grande', _t6)
+
+if len(_tot) != 2 or _grande is None or not _md:
+    erro('6: nao consegui ler os tres totais do nivel 7 na peca 6 §3.1 — a tabela '
+         'ou a linha da diferenca declarada mudou de forma, e esta checagem parou '
+         'de conferir em vez de acusar')
+else:
+    _db = float(_md.group(1).replace(',', '.'))
+    _dv = float(_md.group(2).replace(',', '.'))
+    print(f"     Bastiao {_tot['Bastião']:.2f} · Vanguarda {_tot['Vanguarda']:.2f} · "
+          f"os outros tres {_grande:.2f}")
+    _erro_b = abs((_grande - _tot['Bastião']) - _db)
+    _erro_v = abs((_grande - _tot['Vanguarda']) - _dv)
+    if _erro_b > 0.005 or _erro_v > 0.005:
+        erro(f'6: a peca declara a diferenca em -{_db:.2f} e -{_dv:.2f}, e os totais '
+             f'dao -{_grande-_tot["Bastião"]:.2f} e -{_grande-_tot["Vanguarda"]:.2f} '
+             f'— a tabela e a frase divergiram')
+    elif max(_db, _dv) > 0.50:
+        erro(f'6: a diferenca declarada chegou a {max(_db,_dv):.2f} fatia, e o degrau '
+             f'do nivel 7 existe para os cinco receberem a mesma coisa — acima de '
+             f'0,50 ela deixa de ser residuo e vira degrau desigual')
+    else:
+        print('     [x] os totais batem com a diferenca declarada, e ela cabe no teto.')
+
+
+# --------------------------------------------------------------------------
 print()
 print('=' * 88)
 if FALHAS:
