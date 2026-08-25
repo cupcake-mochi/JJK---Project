@@ -84,6 +84,16 @@ ANCORAS = {
     'ponto_arma': (P14, r'0,33'),
     'fundo': (P14, r'fundo\D{0,30}\b5\b|\b5\b\D{0,20}em duas'),
     'evitado': (DTRI, r'dano evitado `1` pra `1`'),
+    # v0.151: o Incapacitado deixou de ser um numero escrito aqui dentro e passou
+    # a ser derivado, entao as pecas que sustentam a derivacao viraram ancora.
+    'nat20': (P01, r'20 natural numa rolagem de acerto é crítico'),
+    'critico_escopo': (P01, r'Dobra só os dados do que rolou o acerto'),
+    'critico_exclui_aptidao': (P01, r'nem dados que vieram de aptidão ou Bênção'),
+    'critico_exclui_junto': (P01, r'nem feitiço que viajou junto do ataque'),
+    # ⚠ o padrao NAO pode conter o `10`: uma ancora cujo padrao carrega o valor
+    # some quando o dono muda de valor, que e' exatamente quando ela precisa achar.
+    # Achado pelo arnes da v0.151, com o contra-teste coerente d10 -> d12.
+    'dado_do_soco': (P14, r'teto é `d\d+`'),
 }
 
 FATIA = 5.08
@@ -97,7 +107,9 @@ PP_VANTAGEM = 25.0
 PP_ALIADO = 0.230
 ALIADOS = 3
 METRO = 0.60
-DADO_DO_SOCO = 5.5
+DADO_DO_SOCO = 5.5      # formato: a leitura abaixo substitui, e a checagem 10 acusa
+P_NAT20 = 0.05          # 20 natural num d20 (peca 1 §5.2)
+GOLPES_POR_RODADA = 2   # a acao de aliado sao DOIS golpes simples (DESENHO-caminhos)
 ACAO_DE_ALIADO = 23.00
 PONTO_DE_ARMA = 0.33
 FUNDO_DE_DUAS_MAOS = 5
@@ -141,6 +153,18 @@ if _m:
 else:
     erro('1: nao achei "chefe ... em N de dano por rodada" no DESENHO-trilhas')
 
+# v0.151: o dado do soco no teto e' o que o critico dobra, e ele e' da peca 14
+# §5.0.6. Ate aqui o 5,5 estava escrito neste arquivo — que e' a coisa que a
+# licao no 9 proibe, no numero que carrega a condicao inteira.
+_m = re.search(r'teto é `d(\d+)`', ler(P14))
+if _m:
+    _faces = int(_m.group(1))
+    DADO_DO_SOCO = (1 + _faces) / 2
+    print(f'  [x] o dado do soco foi lido do dono: d{_faces}, medio {DADO_DO_SOCO:.2f}')
+else:
+    erro('1: nao achei o teto do dado do soco na peca 14 — a regua do Incapacitado '
+         'depende dele, e sem ele ela roda com o valor de formato deste arquivo')
+
 
 # --------------------------------------------------------------------------
 bloco('2. A REGUA — as treze reconstroem a partir das ancoras?')
@@ -164,7 +188,21 @@ def acoes(alvo, quantas):
     return alvo * (quantas / CHEFE_ACOES)
 
 
-CRITICO = 2 * DADO_DO_SOCO
+# v0.151: o Incapacitado. O critico NAO cria acerto — ele troca um golpe normal
+# por um critico nas vezes em que o golpe ja ia acertar, e o 20 natural ja
+# entregava isso em 5% delas. Entao o ganho e' (acerto - nat20) x dados dobrados,
+# e nao os dados soltos.
+#
+# Ate a v0.150 esta linha era `2 * DADO_DO_SOCO` = 11,00: ela contava o dado
+# dobrado em 100% dos golpes — o que so faz sentido se o critico sempre acertasse
+# — e cobrava ZERO pelo acerto garantido, que sozinho vale 11,50. Duas metades da
+# mesma leitura, e a peca cobrava uma.
+#
+# E o que decide a BANDA nao e este numero: e o ESCOPO do critico, que a peca 1
+# §5.2 fecha em "dobra so os dados do que rolou o acerto". Somando o dano na arma
+# do refino 10 este ganho vai a 14,40, que e' 93% do teto da Leve; com arma d12,
+# 15,30, que e' 99%. As tres ancoras `critico_*` guardam essa linha no dono.
+CRITICO = GOLPES_POR_RODADA * (ACERTO - P_NAT20) * DADO_DO_SOCO
 
 # v0.104: o Surdo ganhou -2 na iniciativa, e nesta regua isso vale ZERO — nao por
 # esquecimento. A peca 15 §3.1 ja rodou o contra-teste: 'que fracao do meu dano da
@@ -258,6 +296,50 @@ else:
     else:
         print(f'  [x] as duas reguas divergem {_razao:.2f}x = {_escopo:.2f} de escopo '
               f'x 2 de conversao, e a peca publica {_pub_r:.2f}')
+
+
+# --- 2.1 (v0.151): QUAL ROLAGEM o Incapacitado alcanca. -----------------------
+# A regua acima entra com o dado da ARMA, e isso so' esta certo se a condicao
+# alcancar so' o ataque corpo a corpo. Este sistema tem TRES rolagens de ataque, e
+# o feitico de Toque sai a 1,5 m e e' de CONJURACAO — entao "corpo a corpo" sem a
+# linha de exclusao e' a palavra que dois mestres leem diferente.
+#
+# O tamanho: um feitico de Toque Classe 7 sao 24 dados, e dobrar isso uma vez por
+# turno vale 48,60 de dano por rodada — acima do teto da Pesada, vindo de uma
+# condicao Leve. Achado do Mizuki na v0.151.
+_lin = [l for l in TXT.split('\n')
+        if re.match(r'\|\s*\*\*`Incapacitado`\*\*\s*\|\s*`Leve`\s*\|', l)]
+if len(_lin) != 1:
+    erro(f'2: achei {len(_lin)} linha(s) do `Incapacitado` na tabela de mesa do §3.1 '
+         'e esperava 1 — ela mudou de forma e esta sub-checagem parou de conferir')
+else:
+    _l = _lin[0]
+    # ⚠ Nao basta a PALAVRA: a frase diz "conjuração" duas vezes, uma para excluir
+    # a rolagem e outra para explicar que o feitico de Toque e' dela. Procurar so'
+    # a palavra fazia tirar a EXCLUSAO sair VERDE — marcador em vez de fenomeno,
+    # achado pelo arnes da v0.151. Hoje cobra o nome inteiro da rolagem E uma
+    # negacao ao lado dele, nos dois sentidos.
+    def _excluida(rolagem):
+        return re.search(rolagem + r'[^.]{0,60}(?:não|nem)', _l) or \
+               re.search(r'(?:não|nem)[^.]{0,60}' + rolagem, _l)
+
+    _faltou = []
+    if not re.search(r'corpo a corpo', _l):
+        _faltou.append('ela parou de dizer `corpo a corpo`')
+    if not _excluida(r'ataque de conjuração'):
+        _faltou.append('ela parou de excluir o ATAQUE DE CONJURACAO — e o feitico de '
+                       'Toque e conjuracao mesmo saindo a 1,5 m, entao um Classe 7 '
+                       'dobrado vale 48,60, acima do teto da Pesada')
+    if not _excluida(r'ataque à distância'):
+        _faltou.append('ela parou de excluir o ATAQUE A DISTANCIA')
+    if _faltou:
+        for _f in _faltou:
+            erro('2: a linha do `Incapacitado` no §3.1 — ' + _f + '. A regua do §2.2 '
+                 'entra com o dado da ARMA, e ela so fecha se a condicao alcancar '
+                 'so o ataque corpo a corpo')
+    else:
+        print('  [x] o `Incapacitado` do §3.1 alcanca so o corpo a corpo, e nomeia '
+              'as duas rolagens que ficam de fora')
 
 
 # --------------------------------------------------------------------------

@@ -694,7 +694,7 @@ O inimigo sai da luta sem cair morto: no chão, preso, ou lutando contra o próp
 | `Terreno` | `Leve` | A área vira terreno difícil, ou fica obscurecida, por uma rodada. |
 | `Anteparo` | `Média` | Deixa uma parede ou escudo com 10 × Classe de pontos de vida, por 1 minuto. |
 | `Prende` | `Média` | O alvo não sai do lugar até o fim do próximo turno dele. Ele pode gastar a ação para tentar um Teste de Resistência e se soltar. |
-| `Cerca` | `Leve` | O alvo não consegue se aproximar de você até o fim do próximo turno dele. |
+| `Cerca` | `Leve` | O alvo não consegue se aproximar de você até o fim do próximo turno dele. Acaba assim que você causar dano a ele — inclusive o dano do próprio feitiço que comprou esta Melhoria. |
 | `Puxa` | `Média` | Todo mundo na área é puxado 6 m na direção do centro. |
 | `Desarma o Feitiço` | `Média` | Cancela um efeito contínuo ou uma barreira de Classe igual ou menor que a sua. |
 
@@ -710,7 +710,7 @@ Numa Classe 5, aplicar uma `Leve` custa 3 pontos, uma `Média` custa 5 e uma `Pe
 | Nível `Leve` | O que faz |
 |---|---|
 | `Lento` | Deslocamento pela metade, e sem Ação Bônus. |
-| `Incapacitado` | Você não pode Bloquear, e todo ataque corpo a corpo contra você é crítico. |
+| `Incapacitado` | Você não pode Bloquear, e todo ataque corpo a corpo que acertar você é crítico. Só ele: conjuração e ataque à distância não, e o feitiço de Toque é conjuração mesmo encostado em você. |
 | `Derrubado` | No chão. Só se move rastejando, desvantagem nos seus ataques, e quem ataca de até 1,5 m tem vantagem; de longe, desvantagem. |
 | `Agarrado` | Deslocamento 0. Acaba se quem agarrou ficar `Incapacitado`, ou se algo te tirar do alcance dele. |
 | `Desarmado` | A sua arma está no chão ou na mão de outro. Você bate desarmado até pegar de volta. |

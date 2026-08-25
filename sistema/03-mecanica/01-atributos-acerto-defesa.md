@@ -348,8 +348,12 @@ caindo. *Ela previne dano que ainda não veio; não devolve o que já saiu.*
 *Escrito na v0.25.* O crítico era usado e nunca tinha sido definido: o manual cita *"em crítico"* na Melhoria **Estilhaço** e para por aí, e o projeto não tinha uma linha sobre ele.
 
 > **20 natural numa rolagem de acerto é crítico. Você dobra os dados.**
-> Dobra os dados da arma, se for arma; os dados da Classe, se for feitiço ou feitiço de Toque.
-> **Nada mais dobra** — nem Força, nem dados que vieram de Melhoria, nem dano fixo.
+> **Dobra só os dados do que rolou o acerto:** os dados da arma, se foi ataque com arma; os dados da Classe, se foi feitiço ou feitiço de Toque.
+> **Nada mais dobra** — nem Força, nem dados que vieram de Melhoria, nem dano fixo, nem dados que vieram de aptidão ou Bênção, nem feitiço que viajou junto do ataque, que tem crítico próprio.
+
+**A frase "só os dados do que rolou o acerto" é da v0.151, e ela é a regra; a lista é exemplo.** *Até ali a exclusão era uma lista de três, escrita na v0.25 — e o sistema criou duas fontes de dado que ela não nomeava.* **O dano na arma do `cobrir-se` e do `Estímulo Muscular` entrou na v0.147, e ele são dados de aptidão numa rolagem de arma; e a `Fornalha` põe um `Classe 0` junto de cada ataque desde a v0.81.** *Uma lista fechada envelhece a cada peça nova; um princípio não.*
+
+> **O tamanho disso foi medido na v0.151, e ele decide uma banda.** *A condição `Incapacitado` faz todo ataque corpo a corpo que acertar você virar crítico, e o que ela vale é `(taxa de acerto − taxa de 20 natural) × dados dobrados`.* **Com só o dado da arma ela vale `4,95` de dano por rodada, que é `32%` do teto da banda `Leve`. Somando o dano na arma do refino `10` ela vai a `14,40`, que é `93%` do mesmo teto — e com arma `d12`, `15,30`, que é `99%`.** *A peça 19 §2.4 tem a tabela inteira.* **Sem esta linha, uma condição `Leve` estava a um `d12` de estourar a própria banda.**
 
 Três coisas caem dessa frase, e nenhuma delas precisa de regra a mais.
 

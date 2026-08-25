@@ -218,7 +218,7 @@ Melhoria — são escadas diferentes que usam as mesmas três palavras. O capít
 | **`Enfeitiçado`** | Você não ataca quem enfeitiçou nem mira efeito nocivo nele, e ele tem vantagem em teste social contra você | 4 |
 | **`Envenenado`** | Desvantagem nos seus ataques e em todo teste de perícia | 4 |
 | **`Impedido`** | Deslocamento `0`, desvantagem nos seus ataques e no Teste de Resistência Físico, e vantagem para quem te ataca | 4 |
-| **`Incapacitado`** | Você não pode `Bloquear`, e todo ataque corpo a corpo contra você é crítico | 4 |
+| **`Incapacitado`** | Você não pode `Bloquear`, e todo ataque corpo a corpo que acertar você é crítico — só ele, e não conjuração nem tiro | 4 |
 | **`Lento`** | Seu deslocamento cai pela metade e você não usa Ação Bônus | 4 |
 | **`Surdo`** | Não ouve. Falha automática em teste que precise de audição, e `−2` na iniciativa | 4 |
 
@@ -540,8 +540,8 @@ Nem todo feitiço rola acerto. Um feitiço resolve de três jeitos, e o capítul
 ### Crítico
 
 > **20 natural numa rolagem de acerto é crítico. Você dobra os dados.**
-> Dobra os dados da arma, se for arma; os dados da Classe, se for feitiço ou feitiço de Toque.
-> **Nada mais dobra**: nem Força, nem dados que vieram de Melhoria, nem dano fixo.
+> **Dobra só os dados do que rolou o acerto:** os dados da arma, se foi ataque com arma; os dados da Classe, se foi feitiço ou feitiço de Toque.
+> **Nada mais dobra**: nem Força, nem dados que vieram de Melhoria, nem dano fixo, nem dados que vieram de aptidão ou Bênção, nem feitiço que viajou junto do ataque, que tem crítico próprio.
 
 Crítico só existe onde existe rolagem de acerto. Feitiço que resolve por Teste de Resistência ou por Automático nunca crita, e isso vale também para as Melhorias que compram precisão tirando a rolagem de ataque.
 
@@ -1272,7 +1272,9 @@ Enquanto está `Incapacitado`, você sofre os seguintes efeitos.
 
 **Ação.** Você não pode `Bloquear`.
 
-**Contra você.** Todo ataque corpo a corpo é crítico.
+**Contra você.** Todo ataque corpo a corpo **que acertar** é crítico.
+
+**Só o corpo a corpo.** *Ataque de conjuração e ataque à distância não críticam por causa desta condição — e o feitiço de Toque é conjuração, mesmo saindo encostado em você.* O crítico dobra o dado da arma e mais nada; o capítulo 1, `Crítico`, é quem diz o que entra.
 
 #### `Derrubado`
 
@@ -1385,7 +1387,7 @@ Para consulta na mesa. O efeito inteiro de cada uma está na entrada dela.
 | condição | nível | o que faz |
 |---|---|---|
 | `Lento` | `Leve` | deslocamento pela metade, sem Ação Bônus |
-| `Incapacitado` | `Leve` | não `Bloqueia`, e todo ataque corpo a corpo contra você é crítico |
+| `Incapacitado` | `Leve` | não `Bloqueia`, e todo ataque corpo a corpo que acertar é crítico — só ele |
 | `Derrubado` | `Leve` | rasteja; desvantagem nos seus ataques; vantagem a quem ataca de perto |
 | `Agarrado` | `Leve` | deslocamento `0` |
 | `Desarmado` | `Leve` | bate desarmado até pegar a arma de volta |
@@ -3782,7 +3784,7 @@ O inimigo sai da luta sem cair morto: no chão, preso, ou lutando contra o próp
 | `Terreno` | `Leve` | A área vira terreno difícil, ou fica obscurecida, por uma rodada. |
 | `Anteparo` | `Média` | Deixa uma parede ou escudo com 10 × Classe de pontos de vida, por 1 minuto. |
 | `Prende` | `Média` | O alvo não sai do lugar até o fim do próximo turno dele. Ele pode gastar a ação para tentar um Teste de Resistência e se soltar. |
-| `Cerca` | `Leve` | O alvo não consegue se aproximar de você até o fim do próximo turno dele. |
+| `Cerca` | `Leve` | O alvo não consegue se aproximar de você até o fim do próximo turno dele. Acaba assim que você causar dano a ele — inclusive o dano do próprio feitiço que comprou esta Melhoria. |
 | `Puxa` | `Média` | Todo mundo na área é puxado 6 m na direção do centro. |
 | `Desarma o Feitiço` | `Média` | Cancela um efeito contínuo ou uma barreira de Classe igual ou menor que a sua. |
 
@@ -3796,7 +3798,7 @@ Numa Classe 5, aplicar uma `Leve` custa 3 pontos, uma `Média` custa 5 e uma `Pe
 | Nível `Leve` | O que faz |
 |---|---|
 | `Lento` | Deslocamento pela metade, e sem Ação Bônus. |
-| `Incapacitado` | Você não pode Bloquear, e todo ataque corpo a corpo contra você é crítico. |
+| `Incapacitado` | Você não pode Bloquear, e todo ataque corpo a corpo que acertar você é crítico. Só ele: conjuração e ataque à distância não, e o feitiço de Toque é conjuração mesmo encostado em você. |
 | `Derrubado` | No chão. Só se move rastejando, desvantagem nos seus ataques, e quem ataca de até 1,5 m tem vantagem; de longe, desvantagem. |
 | `Agarrado` | Deslocamento 0. Acaba se quem agarrou ficar `Incapacitado`, ou se algo te tirar do alcance dele. |
 | `Desarmado` | A sua arma está no chão ou na mão de outro. Você bate desarmado até pegar de volta. |
@@ -6519,4 +6521,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: 35860e0df68b5f2d291648c66c55bfa795b8464e -->
+<!-- fonte: 50cb5eacb948aca9f557d3f92dd50c0c4d6c2dff -->

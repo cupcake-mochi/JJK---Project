@@ -982,6 +982,74 @@ else:
 
 
 # --------------------------------------------------------------------------
+bloco('5. O PORTAO DAS LINHAS DE CONTROLE — quem prende o alvo diz como solta')
+# --------------------------------------------------------------------------
+# v0.151. O `Cerca` passou nove versoes sendo a UNICA linha de Controle que
+# prendia um alvo e nao dizia como aquilo acaba: o `Prende` cobra acao mais Teste
+# de Resistencia, o `Anteparo` tem pontos de vida, o `Desarma o Feitico` tem
+# portao de Classe, e as condicoes `Pesada` dao Teste de Resistencia no fim de
+# cada turno. Ele nao tinha nada, e custava metade do `Prende`.
+#
+# ⚠ A classificacao NAO esta escrita aqui dentro. Quem escolhe as linhas que
+# precisam de portao e' o texto do proprio manual: a linha fala do ALVO, e ela
+# dura alem do instante. `Terreno` e `Anteparo` falam da area e da parede;
+# `Puxa` e `Desarma o Feitico` acontecem e acabam. Nenhum dos quatro entra, e
+# nenhum deles esta nomeado neste arquivo.
+
+_tc = _tabela_com(['Melhoria', 'O que faz'])
+_ctrl = []
+if _tc is None:
+    erro('5: nao achei a tabela de Melhorias no .docx — a checagem do portao de '
+         'Controle ficou sem chao')
+else:
+    # o catalogo tem uma tabela por Familia, todas com o mesmo cabecalho: a de
+    # Controle e' a que carrega a Melhoria `Condicao`.
+    for _t5 in _D.tables:
+        _h5 = ' | '.join(c.text.strip() for c in _t5.rows[0].cells)
+        if 'Melhoria' not in _h5 or 'O que faz' not in _h5:
+            continue
+        _linhas5 = [[c.text.strip() for c in r.cells] for r in _t5.rows[1:]]
+        if any(l and l[0] == 'Condição' for l in _linhas5):
+            _ctrl = _linhas5
+            break
+
+if not _ctrl:
+    erro('5: nao achei a tabela de Controle no .docx (a que carrega a Melhoria '
+         '`Condição`) — ou o catalogo mudou de forma, ou a extracao parou de achar')
+elif len(_ctrl) != 7:
+    erro(f'5: a tabela de Controle tem {len(_ctrl)} linha(s) e eu esperava 7 — a '
+         'familia mudou de tamanho e esta checagem parou de cobrir ela')
+else:
+    _DURA = (r'até o fim do próximo turno', r'por uma rodada', r'por 1 minuto',
+             r'Dura uma rodada')
+    _SAI = (r'Teste de Resistência', r'pontos de vida', r'Acaba', r'se soltar')
+    _presos, _sem = [], []
+    for _nome5, _custo5, _txt5 in _ctrl:
+        _fala_do_alvo = re.search(r'\bO alvo\b|\bAplica uma\b', _txt5)
+        _dura = any(re.search(_d, _txt5) for _d in _DURA)
+        if not (_fala_do_alvo and _dura):
+            continue
+        _presos.append(_nome5)
+        if not any(re.search(_s, _txt5) for _s in _SAI):
+            _sem.append(_nome5)
+    if len(_presos) < 3:
+        erro(f'5: so {len(_presos)} linha(s) de Controle prendem um alvo por mais de '
+             'um instante, e eu esperava pelo menos 3 (`Condição`, `Prende` e '
+             '`Cerca`) — a selecao perdeu o chao e esta checagem parou de cobrir')
+    elif _sem:
+        erro('5: ' + ', '.join(f'`{n}`' for n in _sem) + ' prende(m) o alvo por mais '
+             'de um instante e nao diz(em) como aquilo acaba — toda linha de Controle '
+             'que segura alguem tem de nomear a saida, senao ela e um portao a menos '
+             'pelo mesmo preco')
+    else:
+        print(f'  {len(_presos)} linha(s) de Controle seguram o alvo alem do instante: '
+              + ', '.join(_presos))
+        print('  e as ' + str(len(_presos)) + ' nomeiam a saida.')
+        _fora = [n for n, _, _ in _ctrl if n not in _presos]
+        print('  fora da selecao, por nao segurarem alvo nenhum: ' + ', '.join(_fora))
+
+
+# --------------------------------------------------------------------------
 print()
 print('=' * 88)
 if FALHAS:

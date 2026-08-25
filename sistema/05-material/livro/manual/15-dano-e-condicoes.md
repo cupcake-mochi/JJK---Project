@@ -137,7 +137,9 @@ Enquanto está `Incapacitado`, você sofre os seguintes efeitos.
 
 **Ação.** Você não pode `Bloquear`.
 
-**Contra você.** Todo ataque corpo a corpo é crítico.
+**Contra você.** Todo ataque corpo a corpo **que acertar** é crítico.
+
+**Só o corpo a corpo.** *Ataque de conjuração e ataque à distância não críticam por causa desta condição — e o feitiço de Toque é conjuração, mesmo saindo encostado em você.* O crítico dobra o dado da arma e mais nada; o capítulo 1, `Crítico`, é quem diz o que entra.
 
 #### `Derrubado`
 
@@ -252,7 +254,7 @@ Para consulta na mesa. O efeito inteiro de cada uma está na entrada dela.
 | condição | nível | o que faz |
 |---|---|---|
 | `Lento` | `Leve` | deslocamento pela metade, sem Ação Bônus |
-| `Incapacitado` | `Leve` | não `Bloqueia`, e todo ataque corpo a corpo contra você é crítico |
+| `Incapacitado` | `Leve` | não `Bloqueia`, e todo ataque corpo a corpo que acertar é crítico — só ele |
 | `Derrubado` | `Leve` | rasteja; desvantagem nos seus ataques; vantagem a quem ataca de perto |
 | `Agarrado` | `Leve` | deslocamento `0` |
 | `Desarmado` | `Leve` | bate desarmado até pegar a arma de volta |

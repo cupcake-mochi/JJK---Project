@@ -641,6 +641,85 @@ print('  Aguentar e Insistir: nenhum contem o outro. A escolha existe nos dois s
 
 
 print('=' * 88)
+print('10. O ESCOPO DO CRITICO — a secao 5.2, e o que ele NAO dobra')
+print('=' * 88)
+
+# v0.151. O que uma condicao como o `Incapacitado` vale nao sai do numero dela:
+# sai de QUANTOS DADOS o critico dobra. A peca 19 §2.4 mediu: com so o dado da
+# arma o ganho e' 32% do teto da banda Leve; somando o dano na arma do refino 10
+# ele vira 93%, e com arma d12, 99%. Uma condicao Leve a um d12 de estourar a
+# propria banda.
+#
+# A regra da v0.25 era uma LISTA de tres exclusoes — Forca, Melhoria, dano fixo —
+# e o sistema criou duas fontes de dado que a lista nao nomeava: o dano na arma do
+# `cobrir-se` e do `Estimulo Muscular` (v0.147), que e' dado de aptidao numa
+# rolagem de arma, e o `Classe 0` que a `Fornalha` poe junto de cada ataque.
+#
+# ⚠ E esta checagem le a LINHA DE REGRA, e nao a secao. A secao explica a regra
+# com as mesmas palavras, entao procurar no texto inteiro faria ela passar na
+# propria descricao — que e o defeito que a v0.147, a v0.148 e a v0.150 pagaram,
+# uma vez cada.
+
+_sec52 = TXT.split('## 5.2 Crítico')[1].split('\n## ')[0] if '## 5.2 Crítico' in TXT else ''
+if not _sec52:
+    erro('10: nao achei a secao 5.2 da peca 1 — ela mudou de titulo e esta '
+         'checagem parou de conferir o escopo do critico')
+else:
+    # ⚠ o recorte se ancora na PROPRIA REGRA, e nao no primeiro bloco de citacao
+    # da secao. Achado pelo arnes da v0.151: com "o primeiro `>`", tirar o `>` da
+    # primeira linha fazia o recorte pular para o resto do bloco — que ainda tinha
+    # as tres exigencias — e a perturbacao saia VERDE. A secao tem outros blocos de
+    # citacao, entao "o primeiro" nao e' endereco de nada.
+    _blocos, _atual = [], []
+    for _l in _sec52.split('\n'):
+        if _l.startswith('>'):
+            _atual.append(_l)
+        elif _atual:
+            _blocos.append('\n'.join(_atual))
+            _atual = []
+    if _atual:
+        _blocos.append('\n'.join(_atual))
+    _regra = next((_b for _b in _blocos if 'Você dobra os dados' in _b), '')
+    if not _regra:
+        erro('10: nenhum bloco de citacao do §5.2 contem a regra do critico — ela '
+             'deixou de morar numa linha de regra, e o recorte desta checagem '
+             'ficou sem chao')
+    else:
+        _cobra = [
+            ('o principio', r'[Dd]obra só os dados do que rolou o acerto',
+             'a linha de regra do §5.2 nao diz mais que o critico dobra SO os dados '
+             'do que rolou o acerto — sem o principio, a exclusao vira uma lista '
+             'fechada e ela envelhece a cada peca nova'),
+            ('dado de aptidao', r'aptidão|Bênção',
+             'a linha de regra do §5.2 parou de excluir dado que veio de aptidao ou '
+             'Bencao — e o dano na arma do cobrir-se e do Estimulo Muscular e' + "'" + ' '
+             'exatamente isso. A peca 19 §2.4 mede: isso leva o Incapacitado de '
+             '32% para 93% do teto da banda Leve'),
+            ('feitico que viaja junto', r'viajou junto do ataque|viaja junto do ataque',
+             'a linha de regra do §5.2 parou de excluir feitico que viaja junto do '
+             'ataque — e a Fornalha poe um Classe 0 em cada ataque. A peca 19 §2.4 '
+             'mede: isso leva o Incapacitado a 190% do teto da Leve, ou seja, Media'),
+        ]
+        _faltou = 0
+        for _rot, _rx, _msg in _cobra:
+            if not _re.search(_rx, _regra):
+                erro('10: ' + _msg)
+                _faltou += 1
+        if not _faltou:
+            print(f'  a linha de regra tem {len(_cobra)} de {len(_cobra)} exigencias: '
+                  'o principio e as duas exclusoes que a v0.151 nomeou.')
+            print('  (lida do bloco de citacao, nao da secao — a prosa repete as mesmas')
+            print('   palavras, e procurar nela faria a checagem passar em si mesma.)')
+
+    # o `20` natural e a chance dele continuam escritos: a peca 19 le os dois
+    if not _re.search(r'20 natural numa rolagem de acerto é crítico', _sec52):
+        erro('10: o §5.2 parou de dizer que 20 natural e critico — a peca 19 le essa '
+             'linha como ancora, e sem ela a regua do Incapacitado fica sem chao')
+    else:
+        print('  o 20 natural continua escrito, e e dele que a peca 19 tira a taxa de 5%.')
+
+
+print('=' * 88)
 if ERROS:
     print(f'>>> {len(ERROS)} PROBLEMA(S):')
     for e in ERROS:

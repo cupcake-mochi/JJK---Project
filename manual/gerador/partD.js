@@ -53,18 +53,18 @@ const melhorias = [
     ['Terreno', 'Leve', 'A área vira terreno difícil, ou fica obscurecida, por uma rodada.'],
     ['Anteparo', 'Média', 'Deixa uma parede ou escudo com 10 × Classe de pontos de vida, por 1 minuto.'],
     ['Prende', 'Média', 'O alvo não sai do lugar até o fim do próximo turno dele. Ele pode gastar a ação pra tentar um Teste de Resistência e se soltar.'],
-    ['Cerca', 'Leve', 'O alvo não consegue se aproximar de você até o fim do próximo turno dele.'],
+    ['Cerca', 'Leve', 'O alvo não consegue se aproximar de você até o fim do próximo turno dele. Acaba assim que você causar dano a ele — inclusive o dano do próprio feitiço que comprou esta Melhoria.'],
     ['Puxa', 'Média', 'Todo mundo na área é puxado 6 m na direção do centro.'],
     ['Desarma o Feitiço', 'Média', 'Cancela um efeito contínuo ou uma barreira de Classe igual ou menor que o seu.'],
   ]),
 
   H2('As condições, uma a uma'),
   P('São treze, e cada uma tem um **nível**: Leve, Média ou Pesada. O nível faz duas coisas ao mesmo tempo — é o **preço** da Melhoria Condição que aplica ela, e é o que custa em energia pra **tirar** ela de alguém (1 ponto por nível). Uma condição dura uma rodada.'),
-  P('As três tabelas abaixo são as catorze separadas por nível. Numa Classe 5, por exemplo, aplicar uma Leve custa 3 pontos, uma Média custa 5 e uma Pesada custa 8.'),
+  P('As três tabelas abaixo são as treze separadas por nível. Numa Classe 5, por exemplo, aplicar uma Leve custa 3 pontos, uma Média custa 5 e uma Pesada custa 8.'),
   TBL(['Nível Leve', 'O que faz'],
     [
       ['Lento', 'Deslocamento pela metade, e sem Ação Bônus.'],
-      ['Incapacitado', 'Você não pode Bloquear, e todo ataque corpo a corpo contra você é crítico.'],
+      ['Incapacitado', 'Você não pode Bloquear, e todo ataque corpo a corpo que acertar você é crítico. Só ele: conjuração e ataque à distância não, e o feitiço de Toque é conjuração mesmo encostado em você.'],
       ['Derrubado', 'No chão. Só se move rastejando, desvantagem nos seus ataques, e quem ataca de até 1,5 m tem vantagem — de longe, desvantagem.'],
       ['Agarrado', 'Deslocamento 0. Acaba se quem agarrou ficar Incapacitado, ou se algo te tirar do alcance dele.'],
       ['Desarmado', 'A sua arma está no chão ou na mão de outro. Você bate desarmado até pegar de volta.'],
@@ -95,7 +95,7 @@ const melhorias = [
   BOX('Atordoado e Incapacitado atacam eixos diferentes, e não se empilham', [
     'Atordoado tira PARTE do turno: uma Ação Padrão e a reação. Você continua se defendendo.',
     'Incapacitado não tira turno nenhum — tira a DEFESA. Você age e não se protege.',
-    'E eles não custam o mesmo: Atordoado é Pesada e Incapacitado é Leve. Tirar o que o alvo FAZ custa três vezes mais que tirar o que PROTEGE ele — e a conta concorda, porque em dano por rodada um vale pouco mais de três vezes o outro.',
+    'E eles não custam o mesmo: Atordoado é Pesada e Incapacitado é Leve. Tirar o que o alvo FAZ custa três vezes mais que tirar o que PROTEGE ele.',
     'O Atordoado cobra uma Ação Padrão só de propósito: um chefe age mais de uma vez por rodada, e apagar o turno dele com uma linha de Controle sairia barato demais.',
   ], 'info'),
 

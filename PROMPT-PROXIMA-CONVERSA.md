@@ -1,4 +1,4 @@
-# Retomada — v0.150, e o que sobrou é preço, playtest e dois rascunhos
+# Retomada — v0.151, e o que sobrou é preço, playtest e dois rascunhos
 
 Pasta: `/media/mizuki/HD Externo II/Claude/Claude 2/`
 ⚠ Trabalhe na pasta PRINCIPAL, não em worktree. **Você não commita** — deixa a mensagem em
@@ -7,17 +7,18 @@ Pasta: `/media/mizuki/HD Externo II/Claude/Claude 2/`
 Leia primeiro, nesta ordem: `README.md` (a seção *"Nove lições que custaram erro"*),
 `sistema/ESTADO-ATUAL.md` **inteiro**, e o `logs/CHANGELOG.md` de cima até a v0.140.
 
-**Projeto na v0.150.** 24 peças · 24 validadores · **252 checagens**. Livro em 17 capítulos,
-**70.771 palavras**, **243** páginas em coluna única e **141** em duas. Manual do Fundamento na
-**v7.13**. `conferir-voz --estrito` em 0 achados, 0 termos sem destino e 11 triagens.
+**Projeto na v0.151.** 24 peças · 24 validadores · **254 checagens**. Livro em 17 capítulos,
+**70.988 palavras**, **243** páginas em coluna única e **141** em duas. Manual do Fundamento na
+**v7.14**. `conferir-voz --estrito` em 0 achados, 0 termos sem destino e 11 triagens.
 
-> **⚠ Os quatro builds estão por rodar.** *A v0.150 mexeu no capítulo 14 e os artefatos são da
-> v0.148.* **A checagem 7.5 acende até eles rodarem** — é ela fazendo o trabalho para o qual a
-> v0.146 escreveu ela.
+> **Os quatro builds e o `.pdf` do manual rodaram na v0.151, e a checagem 7.5 está verde.**
+> *Foi conferido que a máquina reproduz a diagramação antes de o build valer:* **reconstruindo a
+> partir da fonte de antes das edições, a coluna única saiu com `243` páginas e o mesmo tamanho
+> em bytes do build anterior.**
 
 ---
 
-## O que as últimas seis versões fecharam
+## O que as últimas sete versões fecharam
 
 **A v0.147 foi cinco achados de leitura do Mizuki, e um deles reverteu a v0.82** — o ataque
 extra voltou a exigir a Ação de Atacar, porque a forma solta fazia o `Bote` da `Estocada` valer
@@ -31,12 +32,22 @@ zero.
 
 **A v0.150 tirou a descida de grau do `Desgaste`** e pôs contador de missões no lugar.
 
+**A v0.151 consertou duas linhas de regra que ele leu e estranhou.** *O `Incapacitado` era uma
+condição `Leve` a um `d12` de estourar a própria banda — o preço publicado, `11,00`, era metade de
+uma leitura da frase, e virou `4,95` derivado. E o `Cerca` era a única linha de Controle que
+prendia um alvo sem dizer como aquilo acaba; ganhou o portão do `Santuário` do 5e.*
+
 ---
 
 ## ⚠⚠ A lição que estas seis versões custaram, e ela é nova
 
-**QUATRO checagens nasceram sem conseguir acender, ou acendendo no lugar errado**, e o arnês
-pegou as quatro. *Nenhuma teria sido pega lendo o código.*
+**SETE checagens nasceram sem conseguir acender, ou acendendo no lugar errado**, e o arnês
+pegou as sete. *Nenhuma teria sido pega lendo o código.*
+
+> **⚠ E a v0.151 acrescentou um modo de falha do próprio arnês:** *a base da cópia ficou poluída
+> por um diagnóstico à mão e **passou assim**, porque a poluição era coerente — a peça 14 em `d12`
+> e a peça 19 em `5,85` fecham entre si.* **"Confira que a base passa antes" não basta: confira o
+> ESTADO da base, linha a linha, e não só o código de saída.**
 
 | versão | a checagem | o defeito |
 |---|---|---|
@@ -44,6 +55,9 @@ pegou as quatro. *Nenhuma teria sido pega lendo o código.*
 | v0.148 | `13` do `conferir-ferramenta` | **exigia** uma frase que a v0.116 tinha aposentado — e por isso a frase morta sobreviveu 31 versões em dois documentos |
 | v0.148 | `TABELA-VAGA` do `conferir-voz` | dois furos ao mesmo tempo, e os catorze ponteiros do livro escapavam pelos dois |
 | v0.150 | `18.5` do `conferir-ferramenta` | excluía linha de citação para pular história — **e a regra mora numa linha de citação também** |
+| v0.151 | `10` do `conferir-atributos` | recortava "o primeiro bloco de citação da seção", e a seção tem outros — tirar o `>` da primeira linha da regra saía **verde** |
+| v0.151 | `2.1` do `conferir-dano` | media a PALAVRA `conjuração`, e a frase a diz duas vezes — tirar a exclusão saía **verde** |
+| v0.151 | a âncora do dado do soco | o padrão carregava o valor (`` teto é `d10` ``), então mudar o dono a fazia **sumir** em vez de reler |
 
 > **O que separa regra de história neste projeto nem sempre é o `>`.** *Na peça 16 é a **aspa**:
 > a regra morta está citada entre aspas, e a regra viva não.* **Confira nos dois sentidos:** a

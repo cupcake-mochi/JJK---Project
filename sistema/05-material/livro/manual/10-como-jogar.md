@@ -128,8 +128,8 @@ Nem todo feitiço rola acerto. Um feitiço resolve de três jeitos, e o capítul
 ### Crítico
 
 > **20 natural numa rolagem de acerto é crítico. Você dobra os dados.**
-> Dobra os dados da arma, se for arma; os dados da Classe, se for feitiço ou feitiço de Toque.
-> **Nada mais dobra**: nem Força, nem dados que vieram de Melhoria, nem dano fixo.
+> **Dobra só os dados do que rolou o acerto:** os dados da arma, se foi ataque com arma; os dados da Classe, se foi feitiço ou feitiço de Toque.
+> **Nada mais dobra**: nem Força, nem dados que vieram de Melhoria, nem dano fixo, nem dados que vieram de aptidão ou Bênção, nem feitiço que viajou junto do ataque, que tem crítico próprio.
 
 Crítico só existe onde existe rolagem de acerto. Feitiço que resolve por Teste de Resistência ou por Automático nunca crita, e isso vale também para as Melhorias que compram precisão tirando a rolagem de ataque.
 

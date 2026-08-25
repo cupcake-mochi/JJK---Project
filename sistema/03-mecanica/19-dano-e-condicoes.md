@@ -68,7 +68,9 @@
 | `1` ponto de arma | `0,33` por rodada | peça 14 §4 |
 | o fundo de uma arma de duas mãos | `5` pontos | peça 14 §5 |
 | dano evitado | converte `1` pra `1` | peça 5 §4 |
-| o crítico dobra os dados, e só os dados | — | peça 1 §5.2 |
+| o `20` natural, e a chance dele | `5%` | peça 1 §5.2 |
+| **o escopo do crítico** | dobra **só os dados do que rolou o acerto** | peça 1 §5.2 |
+| o dado do soco no teto | `d10`, então `5,5` | peça 14 §5.0.6 |
 
 **E duas convenções, as duas lidas de entrega publicada:**
 
@@ -87,9 +89,9 @@
 | **`Calado`** | `24,00` | `4,72` | `Média` |
 | **`Enfeitiçado`** | `24,00` | `4,72` | `Média` |
 | **`Lento`** | `14,70` | `2,89` | `Leve` |
-| **`Incapacitado`** | `11,00` | `2,17` | `Leve` |
 | **`Derrubado`** | `8,45` | `1,66` | `Leve` |
 | **`Agarrado`** | `5,40` | `1,06` | `Leve` |
+| **`Incapacitado`** | `4,95` | `0,97` | `Leve` |
 | **`Desarmado`** | `3,45` | `0,68` | `Leve` |
 | **`Surdo`** | `0,00` | `0,00` | `Leve` |
 
@@ -119,7 +121,44 @@
 
 **O `Surdo` valia zero, e por isso ele ganhou uma linha na v0.104.** *Até a v0.103 ele só fazia falhar teste que precise de audição, e não existe teste desses em combate neste sistema — era uma condição com preço de `Média` no manual e entrega nenhuma.* **Hoje ele também dá `−2` na iniciativa**, e a conta disso está no §3.7. *Na régua desta seção ele continua em `0,00`, porque iniciativa não é dano — e isso é sobre a régua, não sobre a condição.*
 
-**O `Incapacitado` é a segunda mais barata das treze, e o manual cobra `Pesada` por ela.** *Metade dela — "você não pode `Bloquear`" — vale praticamente zero, e a peça 23 §5.1 é quem mede.* **A outra metade, o crítico garantido no corpo a corpo, vale `11,00`.** *O que faltava era o tamanho.*
+**O `Incapacitado` é a terceira mais barata das treze, e o manual cobrava `Pesada` por ela.** *Metade dela — "você não pode `Bloquear`" — vale praticamente zero, e a peça 23 §5.1 é quem mede.* **A outra metade, o crítico no corpo a corpo, vale `4,95`.** *O que faltava era o tamanho.*
+
+> **⚠⚠ E o `11,00` que ficou publicado da v0.103 à v0.150 não era nenhuma das duas leituras da frase — era metade de uma delas.** *Ele é `2 golpes × 5,5` de dado extra: conta o dado dobrado em **100%** dos golpes, o que só faz sentido se o crítico sempre acertasse, e depois cobra **zero** pelo acerto garantido, que sozinho vale `11,50`.* **Duas metades da mesma leitura, e a peça cobrava uma.** *E a frase "segunda mais barata das treze" era falsa desde a v0.103: com `11,00` ela era a quinta.*
+
+***Decisão do Mizuki na v0.151: a leitura é "todo ataque corpo a corpo QUE ACERTAR você é crítico", que é como a mesa já joga*** — e é a forma da fonte, o `Paralisado` do PHB 2024: *"Qualquer jogada de ataque **que o atinge** é um Acerto Crítico se o atacante estiver a até 1,5 metro"*. **Lá ela vem junto de vantagem para quem ataca; aqui não vem, e é de propósito.**
+
+**A conta, com um aliado corpo a corpo e os dois golpes que o nível 7 dá:**
+
+> **`ganho = 2 golpes × (acerto − chance de 20 natural) × dados dobrados`**
+> **`2 × (0,50 − 0,05) × 5,5 = 4,95` de dano por rodada.**
+
+*O crítico não cria acerto: ele troca um golpe normal por um crítico nas vezes em que o golpe já ia acertar, e o `20` natural já entregava isso em `5%` delas.*
+
+> **⚠⚠ E o que decide a banda não é o número — é o ESCOPO do crítico, e ele foi medido antes de a peça 1 fechar a regra.**
+>
+> | o que o crítico dobra | ganho | do teto da `Leve` |
+> |---|---|---|
+> | só o dado impresso da arma — soco `d10` | **`4,95`** | **`32%`** |
+> | só o dado impresso da arma — arma `d12` | `5,85` | `38%` |
+> | \+ o dano na arma do refino `10` (`3d6`) | `14,40` | **`93%`** |
+> | o mesmo, com arma `d12` | `15,30` | **`99%`** |
+> | \+ um `Classe 0` junto do ataque (a `Fornalha`) | `29,25` | `190%` — vira `Média` |
+>
+> **Sem a trava de escopo, uma condição `Leve` fica a um `d12` de estourar a própria banda, e um degrau de Trilha a joga para `Média` sozinho.** *A peça 1 §5.2 passou a dizer "dobra só os dados do que rolou o acerto", e a lista de exclusão virou exemplo em vez de ser a regra.* ***Palavras do Mizuki:*** *"dobrar dado de dano é mt coisa".*
+>
+> *A conclusão não depende da dívida de acerto do §2.5:* **a `55%` o número vira `5,50` e a banda não se move.**
+
+> **⚠⚠ E o segundo eixo do escopo é QUAL ROLAGEM entra, não só quais dados.** ***Achado do Mizuki:*** *"critar tudo como feitiço e ataques a distância eu não apoio, deixa apenas pros ataques corpo a corpo mesmo."* **Este sistema tem três rolagens de ataque — corpo a corpo, à distância e de conjuração —, e o **feitiço de Toque acontece a `1,5 m` e é de conjuração**.** *"Corpo a corpo" sem essa linha é a palavra que dois mestres leem diferente.*
+>
+> | o que a condição alcança | ganho | banda |
+> |---|---|---|
+> | **só ataque corpo a corpo — o publicado** | **`4,95`** | **`Leve`** |
+> | \+ ataque à distância, com `2d10` no teto | `9,90` | `Leve` |
+> | \+ feitiço de Toque `Classe 3` | `20,25` | `Média` |
+> | \+ feitiço de Toque `Classe 5` | `34,43` | `Pesada` |
+> | \+ feitiço de Toque `Classe 7` | **`48,60`** | **acima do teto da `Pesada`** |
+>
+> **Um feitiço de Toque no topo sozinho vale mais que qualquer `Pesada`, e a `Classe 3` já joga a condição para `Média`.** *O `Classe 7` é a Rotina inteira em dados — `24d8` —, e dobrar isso uma vez por turno passa dos `46,29` do teto.* **A linha ficou escrita nas quatro cópias: só o ataque corpo a corpo entra.**
 
 **O `Impedido` engole o `Cego`.** *Ele tem as duas linhas do `Cego` — desvantagem nos ataques do alvo e vantagem para quem o ataca — mais deslocamento zero.* **Até a v0.103 os dois custavam `Média` no manual, e o `Impedido` era a melhor compra da tabela de Controle inteira.** *Hoje os dois custam `Pesada`, e a diferença entre eles caiu para `1,10×` — dominância que o filtro aceita.*
 
@@ -170,7 +209,7 @@
 | condição | nível | o que faz |
 |---|---|---|
 | **`Lento`** | `Leve` | seu deslocamento cai pela metade e você não usa Ação Bônus |
-| **`Incapacitado`** | `Leve` | **você não pode `Bloquear`, e todo ataque corpo a corpo contra você é crítico** |
+| **`Incapacitado`** | `Leve` | **você não pode `Bloquear`, e todo ataque corpo a corpo que acertar você é crítico** — *só ele: ataque de conjuração e ataque à distância não, e o feitiço de Toque é de conjuração mesmo encostado em você* |
 | **`Derrubado`** | `Leve` | você está no chão. Só se move rastejando, tem desvantagem nos seus ataques, e quem ataca você **a até 1,5 m tem vantagem** — quem ataca de longe tem desvantagem |
 | **`Agarrado`** | `Leve` | seu deslocamento é `0`. Acaba se quem agarrou ficar `Incapacitado`, ou se alguma coisa tirar você do alcance dele |
 | **`Desarmado`** | `Leve` | a sua arma está no chão ou na mão de outro. Você bate desarmado até pegar de volta |
@@ -195,7 +234,7 @@
 | **`Envenenado`** | `Pesada` | desvantagem nos seus ataques e em todo teste de perícia |
 | **`Atordoado`** | `Pesada` | **você perde a Ação Padrão e não usa reação.** *Quem tem mais de uma Ação Padrão no turno — um chefe, um capanga grande — perde **uma**, não todas* |
 
-> **Só as de nível `Pesada` dão Teste de Resistência no fim de cada turno do alvo, e só cabe uma delas por feitiço.** *Até a v0.103 essas duas linhas andavam com a `Condição Maior`, que era um pacote de cinco nomes.* **Elas passaram a andar com o degrau de cima porque é ele que precisa de amortecedor** — e as cinco de antes não eram as cinco mais duras: o `Incapacitado` estava lá dentro, e ele é a segunda mais barata das treze.
+> **Só as de nível `Pesada` dão Teste de Resistência no fim de cada turno do alvo, e só cabe uma delas por feitiço.** *Até a v0.103 essas duas linhas andavam com a `Condição Maior`, que era um pacote de cinco nomes.* **Elas passaram a andar com o degrau de cima porque é ele que precisa de amortecedor** — e as cinco de antes não eram as cinco mais duras: o `Incapacitado` estava lá dentro, e ele é a terceira mais barata das treze.
 
 > **⚠⚠ As duas colunas viraram uma na v0.104, e a que ficou é o nível.** *Até a v0.103 o manual cobrava `Média` por qualquer uma das nove `Menor` e `Pesada` por qualquer uma das cinco `Maior` — um preço só para coisas que valem de `0,00` a `11,55` fatias.* **Hoje o nível faz as duas coisas:** ele é o preço de **comprar** a condição num feitiço e é o custo em energia de **tirar** ela. *A conta que decidiu isso está no §3.6.*
 
@@ -214,7 +253,7 @@
 >
 > > **O `Bloquear` é NEUTRO por construção.** *A média de `2d10` é `11`, que é exatamente o que a Defesa parada já supõe.* **Tirar de alguém uma rolagem cuja média é o número que ela substitui não tira nada.**
 >
-> *O que sobra são os dois extremos de cerca de `1%` — o `Aparar` e a `Brecha` —, e eles quase se cancelam.* **Medido por enumeração completa das `2.000` combinações, a metade vale `+0,02` de dano por rodada**, e o `Incapacitado` iria para `11,02`. *Abaixo da precisão que esta régua carrega: o golpe simples que entra nela varia `3,0` entre o nível 2 e o 30.* **O número publicado no §2.2 fica em `11,00`.**
+> *O que sobra são os dois extremos de cerca de `1%` — o `Aparar` e a `Brecha` —, e eles quase se cancelam.* **Medido por enumeração completa das `2.000` combinações, a metade vale `+0,02` de dano por rodada**, e o `Incapacitado` iria para `4,97`. *Abaixo da precisão que esta régua carrega: o golpe simples que entra nela varia `3,0` entre o nível 2 e o 30.* **O número publicado no §2.2 fica em `4,95`.**
 >
 > **Esta peça não precisa saber a geometria do `Bloquear` — ela precisa saber que ele é neutro, e quem prova isso é a checagem 1 do `conferir-bloquear.py`.** *É a única checagem do projeto que existe para sustentar um número de outra peça: se a neutralidade quebrar, o preço desta condição fica errado e ninguém mais estaria olhando.*
 
@@ -244,7 +283,9 @@
 
 > **⚠⚠ A v0.139 tentou refazer o corte depois de o `Petrificado` sair, e a tentativa REPROVOU.** *Com treze condições, uma busca exaustiva sobre o espalhamento acha uma partição de `2,44×` — a que sobe o `Lento` e o `Incapacitado` para `Média`.* **Ela foi aplicada, rodada contra os validadores, e desfeita.**
 >
-> **O que ela quebrou é a checagem 3, que é o invariante desta peça:** *o valor medido de cada condição tem de cair na **banda** que o nível dela implica, e as bandas saem da tabela de preço do manual — `1/7`, `2/7` e `3/7` da Rotina.* **No nível 30 o teto da `Leve` é `15,43` de dano por rodada. O `Lento` vale `14,70` e o `Incapacitado` `11,00`: os dois cabem em `Leve` pela conta.** *Pôr os dois em `Média` faz o jogador pagar preço de `Média` por coisa que vale `Leve`.*
+> **O que ela quebrou é a checagem 3, que é o invariante desta peça:** *o valor medido de cada condição tem de cair na **banda** que o nível dela implica, e as bandas saem da tabela de preço do manual — `1/7`, `2/7` e `3/7` da Rotina.* **No nível 30 o teto da `Leve` é `15,43` de dano por rodada. O `Lento` vale `14,70` e o `Incapacitado` valia `11,00`: os dois cabiam em `Leve` pela conta.** *Pôr os dois em `Média` faz o jogador pagar preço de `Média` por coisa que vale `Leve`.*
+>
+> **⚠ E a v0.151 refez o `Incapacitado` para `4,95`, o que só fortalece isto:** *ele passou a caber em `Leve` com `68%` de folga, contra os `29%` que a tentativa da v0.139 disputava.*
 >
 > ***A conclusão, e ela é o oposto do que a busca sugeria:*** **a partição não é escolha livre — a banda a obriga.** *Ela força `6 Leve · 2 Média · 3 Pesada`, mais o `Impedido` e o `Cego` acima do teto, que é exatamente o que está publicado.* **O `4,26×` do degrau `Leve` é o preço de obedecer a banda, e não falta de otimização.**
 >
@@ -417,7 +458,9 @@
 
 > **A checagem 9 é a que esta peça existe para ter.** *Ela é a única que sai da pasta, junto com a do `conferir-catalogo.py` — e é ela que pegaria o `Punho` de novo se alguém reescrever o texto da entrega sem mexer no preço, ou o contrário.*
 
-### As vinte e sete perturbações, em cópia isolada
+### As trinta e duas perturbações, em cópia isolada
+
+> **⚠ Este título dizia `vinte e sete` e a tabela tinha vinte e oito** — contagem escrita em frase, sem dono, que é a lição nº 9 na forma mais barata que ela tem. *As quatro últimas são da v0.151; a diferença de um é anterior a ela.*
 
 *Com a base conferida verde na cópia antes de cada uma, com o `diff` comparado antes e depois, e com o veredito lido da checagem que estava sendo testada — nunca o código de retorno do programa.* **As quinze de baixo são da v0.104**, e as sete primeiras delas atravessam o `.docx`: perturbar o manual quer dizer mexer no gerador e rodar o `node make.js` de novo.
 
@@ -451,6 +494,12 @@
 | **2** | **contra-teste: a razão publicada some da peça** | acende | acende |
 | 2 | **contra-teste:** mexer em prosa sem mexer em número | verde | verde |
 | 9 | **contra-teste:** mexer no texto de outro degrau do `Punho` | verde | verde |
+| **2** | **o `Incapacitado` volta para o `11,00` da v0.150** | acende | acende |
+| **1** | **o escopo do crítico some da peça 1** | acende | acende |
+| **1** | **o dado do soco muda na peça 14 e o valor publicado não** | acende | acende |
+| **2** | **contra-teste: os DOIS mudam juntos — `d12` e `5,85`** | fica verde | fica verde |
+
+> **⚠⚠ E o par de baixo achou um defeito na âncora que a v0.151 tinha acabado de escrever.** *O padrão dela era `` teto é `d10` `` — com o valor dentro.* **Trocar o dado do soco para `d12` na peça 14 fazia a âncora "sumir" e acender a checagem 1 pelo motivo errado**, em vez de a régua reler `6,5` e a checagem 2 comparar. *Uma âncora cujo padrão carrega o valor é a lição nº 8 em miniatura: ela deixa de achar exatamente quando o dono muda, que é quando ela precisa achar.* **Hoje o padrão é `` teto é `d\d+` `` e o valor sai do grupo.**
 
 > **⚠⚠ E o arnês achou TRÊS defeitos no validador antes de ele valer, e um deles é a lição nº 8.**
 >

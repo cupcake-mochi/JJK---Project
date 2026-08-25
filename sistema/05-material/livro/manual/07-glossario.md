@@ -173,7 +173,7 @@ Melhoria — são escadas diferentes que usam as mesmas três palavras. O capít
 | **`Enfeitiçado`** | Você não ataca quem enfeitiçou nem mira efeito nocivo nele, e ele tem vantagem em teste social contra você | 4 |
 | **`Envenenado`** | Desvantagem nos seus ataques e em todo teste de perícia | 4 |
 | **`Impedido`** | Deslocamento `0`, desvantagem nos seus ataques e no Teste de Resistência Físico, e vantagem para quem te ataca | 4 |
-| **`Incapacitado`** | Você não pode `Bloquear`, e todo ataque corpo a corpo contra você é crítico | 4 |
+| **`Incapacitado`** | Você não pode `Bloquear`, e todo ataque corpo a corpo que acertar você é crítico — só ele, e não conjuração nem tiro | 4 |
 | **`Lento`** | Seu deslocamento cai pela metade e você não usa Ação Bônus | 4 |
 | **`Surdo`** | Não ouve. Falha automática em teste que precise de audição, e `−2` na iniciativa | 4 |
 

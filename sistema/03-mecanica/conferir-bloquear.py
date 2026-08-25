@@ -108,6 +108,44 @@ OFFSET = int(_m.group(3))
 print(f'  a base da Defesa, lida da peca 1: {BASE_DEFESA}')
 print(f'  o offset escrito na regra da peca 23: {OFFSET}')
 
+# --- 1.1 (v0.151): o valor do `Incapacitado` mora na peca 19 e esta peca o CITA.
+# A v0.151 repreçou aquela condicao de 11,00 para 4,95, os 24 validadores sairam
+# verdes, e esta peca continuou publicando 11,00 e 11,02 — porque ninguem comparava
+# as duas copias. Licao no 9, no numero que esta peca existe para sustentar.
+_m19 = re.search(r'\|\s*\*\*`Incapacitado`\*\*\s*\|\s*`([\d,]+)`\s*\|', T19)
+if not _m19:
+    erro(1, 'nao achei a linha do `Incapacitado` na tabela do SS2.2 da peca 19 — '
+            'esta peca cita o valor dela e ficou sem o dono para comparar')
+else:
+    _v19 = float(_m19.group(1).replace(',', '.'))
+    # ⚠ Nao existe lista de formas de citar: a primeira versao desta sub-checagem
+    # casava "iria para" e "em", e o §5.1 citava o numero numa TERCEIRA forma —
+    # que sobreviveu ao repreco com a checagem verde. Hoje ela pega TODO `N,NN`
+    # que apareça a menos de 200 caracteres da palavra `Incapacitado`, e a peca 23
+    # e' obrigada a nao guardar numeral historico: o valor velho fica em discurso
+    # indireto, que e' a convencao que a v0.143 pagou para escrever.
+    _achou = []
+    for _mi in re.finditer(r'Incapacitado', T23):
+        _jan = T23[max(0, _mi.start() - 200): _mi.end() + 200]
+        _achou += re.findall(r'`(\d+,\d{2})`', _jan)
+    _aqui = sorted({float(x.replace(',', '.')) for x in _achou})
+    # guarda de contagem: sem ela, a peca parar de citar o valor deixa esta
+    # sub-checagem VERDE e calada — que e' a licao no 8 por outra porta. Sao DOIS
+    # valores distintos hoje: o da peca 19 e ele mais o `+0,02` da metade.
+    if len(_aqui) < 2:
+        erro(1, f'a peca 23 cita {len(_aqui)} valor(es) do `Incapacitado` e eu '
+                'esperava 2 — ela parou de citar, ou mudou de forma, e esta '
+                'sub-checagem deixaria de comparar as duas copias em silencio')
+    else:
+        # o `+0,02` da metade do Bloquear e' o unico desvio legal
+        _fora = [v for v in _aqui if abs(v - _v19) > 0.05 and abs(v - _v19 - 0.02) > 0.005]
+        if _fora:
+            erro(1, f'a peca 23 publica o `Incapacitado` em {_fora} e a peca 19, que '
+                    f'e a dona, publica {_v19:.2f} — as duas copias divergiram')
+        else:
+            print(f'  [x] o `Incapacitado` citado aqui bate com a peca 19: '
+                  f'{_v19:.2f} de dano por rodada, em {len(_aqui)} citacao(oes)')
+
 MEDIA_DADO = QTD * (FACES + 1) / 2.0
 CASOS = list(product(range(1, 21), *[range(1, FACES + 1)] * QTD))
 N = float(len(CASOS))

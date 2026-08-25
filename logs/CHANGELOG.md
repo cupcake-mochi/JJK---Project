@@ -8,6 +8,156 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.151] — 25/08/2026
+
+**Duas linhas de regra que o Mizuki leu e estranhou, e as duas estavam mesmo erradas.** *Nenhuma saiu de validador: os 24 estavam verdes com `PULADA = 0` e as 252 checagens fechando.* **Uma condição `Leve` estava a um `d12` de estourar a própria banda, e a única linha de Controle sem porta de saída estava vendida pela metade do preço da que tem.**
+
+### ⚠⚠ O `Incapacitado` publicava um preço que não era leitura nenhuma da frase dele
+
+***Palavras dele:*** *"o incapacitado, a condição, ser leve é bem… fora da curva (…) o fator q causa sempre critico nos ataques corpo a corpo é bem forte."*
+
+**A frase era *"você não pode `Bloquear`, e todo ataque corpo a corpo CONTRA você é crítico"*, e ela tem duas leituras.** *Se crítico for só o dado dobrado, vale `4,95` de dano por rodada. Se "é crítico" quiser dizer que ele acerta — e crítico é acerto —, vale `21,95`, que é `Média`.*
+
+> **O `11,00` publicado da v0.103 à v0.150 não é nenhuma das duas: é metade de uma.** *Ele é `2 golpes × 5,5` de dado extra — **conta o dado dobrado em `100%` dos golpes**, o que só faz sentido se o crítico sempre acertasse, e depois **cobra zero pelo acerto garantido**, que sozinho vale `11,50`.* **Duas metades da mesma leitura, e a peça cobrava uma.**
+>
+> *O número não tinha derivação escrita em lugar nenhum — a peça dizia "vale `11,00`" e parava ali, e o validador guardava `CRITICO = 2 * DADO_DO_SOCO` sem um comentário.*
+
+***Decisão do Mizuki: a leitura é "todo ataque corpo a corpo QUE ACERTAR você é crítico"***, *"é assim q é abordado atualmente"*. **É a forma da fonte:** o `Paralisado` do PHB 2024 escreve *"Qualquer jogada de ataque **que o atinge** é um Acerto Crítico se o atacante estiver a até 1,5 metro"*. *Lá ela vem junto de vantagem para quem ataca; aqui não vem, e é de propósito.*
+
+**O preço passa a ser derivado, e não escrito:**
+
+> **`2 golpes × (acerto − chance de 20 natural) × dados dobrados` = `2 × (0,50 − 0,05) × 5,5` = `4,95`.**
+
+*O crítico não cria acerto: ele troca um golpe normal por um crítico nas vezes em que o golpe já ia acertar, e o `20` natural já entregava isso em `5%` delas.* **Ele continua `Leve` — agora com `68%` de folga na banda, contra os `29%` de antes.**
+
+### ⚠⚠ E o que decide a banda não é o número: é o ESCOPO do crítico
+
+***Pedido dele:*** *"valide a opção de critar so o dano da ARMA (corpo a corpo), para manter como leve. Pq dobrar dado de dano é mt coisa."* **A conta valida, e com folga medida.**
+
+| o que o crítico dobra | ganho | do teto da `Leve` | banda |
+|---|---|---|---|
+| só o dado impresso da arma — soco `d10` | **`4,95`** | **`32%`** | `Leve` |
+| só o dado impresso da arma — arma `d12` | `5,85` | `38%` | `Leve` |
+| \+ o dano na arma do refino `10` (`3d6`) | `14,40` | **`93%`** | `Leve` no fio |
+| o mesmo, com arma `d12` | `15,30` | **`99%`** | `Leve` por `0,13` |
+| \+ um `Classe 0` junto do ataque (a `Fornalha`) | `29,25` | `190%` | vira `Média` |
+
+**A regra da v0.25 era uma LISTA de três exclusões — Força, Melhoria, dano fixo — e o sistema criou duas fontes de dado que a lista não nomeava.** *O dano na arma do `cobrir-se` e do `Estímulo Muscular` entrou na v0.147, três versões atrás, e é dado de aptidão numa rolagem de arma; e a `Fornalha` põe um `Classe 0` junto de cada ataque desde a v0.81.*
+
+> **A peça 1 §5.2 passou a abrir com o princípio: *"dobra só os dados do que rolou o acerto"*.** *A lista continua, como exemplo, e ganhou os dois nomes que faltavam.* **Uma lista fechada envelhece a cada peça nova; um princípio não.**
+
+*A conclusão não depende da dívida de acerto da peça 19 §2.5:* **a `55%` o número vira `5,50` e a banda não se move.**
+
+### O `Cerca` era a única linha de Controle que prendia um alvo sem dizer como aquilo acaba
+
+***Palavras dele:*** *"acho q vale a pena revisar o `cerca` da criação de feitiços, é uma modificação q estranhamente pode ser exploitável com facilidade."*
+
+**Ele dizia só *"o alvo não consegue se aproximar de você até o fim do próximo turno dele"*, por `Leve` — metade do preço do `Prende`, que faz coisa parecida e cobra ação mais Teste de Resistência para soltar.**
+
+> **Pelo eixo que a régua sabe medir, ele está certo.** *Negar 9 metros vale `5,40` de dano por rodada, que é `Leve` certinho — e é por isso que nada acusou em nove versões.*
+>
+> **Pelo eixo que ela não mede, ele é outra coisa.** *Contra um chefe corpo a corpo que está indo em você, o `Cerca` não custa 9 metros a ele: custa o turno.* **`24,00` por ação negada, `72,00` pelas três — contra um teto de `Pesada` de `46,29`.** *O valor oscila de perto de zero, quando o inimigo tem alcance ou outro alvo, até acima da `Pesada`. Média nenhuma preça isso.*
+
+**Todo vizinho dele tem portão, e ele não tinha nenhum.** *O `Prende` cobra ação mais Teste de Resistência; o `Anteparo` tem pontos de vida; o `Puxa` é instantâneo; o `Desarma o Feitiço` tem portão de Classe; as condições `Pesada` dão Teste de Resistência no fim de cada turno.*
+
+> **E a fonte confirma pelo tamanho.** *O parente mais próximo no 5e é o `Santuário`: uma magia inteira de 1º círculo mais Ação Bônus, com **três** portões que o `Cerca` não tinha — salvaguarda de Sabedoria a cada tentativa, não protege contra área, e **acaba no instante em que o protegido ataca, conjura ou causa dano**.* **Esse último é exatamente o que o `Cerca` fazia, porque ele é comprado em cima de um feitiço de dano.**
+
+***Decisão do Mizuki: o molde do `Santuário`, e ele continua `Leve`.***
+
+> **`Cerca`** — *o alvo não consegue se aproximar de você até o fim do próximo turno dele.* **Acaba assim que você causar dano a ele — inclusive o dano do próprio feitiço que comprou esta Melhoria.**
+
+**A cláusula final é o que impede a entrada morta.** *Sem ela o portão ficaria escondido: o jogador compraria a Melhoria num feitiço de dano e descobriria na mesa que ela nunca chega a valer.* **Escrita assim, a linha diz sozinha onde ela mora — no feitiço que gastou tudo em Controle, que é o que o bônus de Controle já premia.**
+
+*Subir para `Média` foi medido e não conserta:* **no `Média` ele continua sendo negação dura sem saída, valendo até `72,00` no duelo.** *O que tampa a oscilação é a porta, não o degrau.*
+
+### Duas checagens novas, e as duas leem fenômeno em vez de marcador
+
+**A `10` do `conferir-atributos.py` — o escopo do crítico.** *Ela cobra o princípio e as duas exclusões da **linha de regra** do §5.2, e não da seção: a prosa dali explica a regra com as mesmas palavras, e procurar no texto inteiro faria a checagem passar na própria descrição.* **É o defeito que a v0.147, a v0.148 e a v0.150 pagaram, uma vez cada.**
+
+**A `5` do `conferir-manual.py` — o portão das linhas de Controle.** *Ela lê a tabela do `.docx` e seleciona as linhas que **falam do alvo** e **duram além do instante**, pelo texto do próprio manual, e cobra que cada uma nomeie a saída.* **A seleção pega `Condição`, `Prende` e `Cerca`, e deixa `Terreno`, `Anteparo`, `Puxa` e `Desarma o Feitiço` de fora — sem que nenhum dos sete esteja nomeado dentro do validador.**
+
+**E o `CRITICO` do `conferir-dano.py` deixou de ser um número escrito lá dentro.** *Ele era `2 * DADO_DO_SOCO`; hoje é `GOLPES × (ACERTO − P_NAT20) × DADO_DO_SOCO`, e o dado do soco é **lido da peça 14** em vez de guardado.*
+
+### O arnês, e ele achou cinco defeitos meus
+
+*Cópia isolada, base conferida verde antes de cada perturbação, `diff` conferido.* **Vinte e oito perturbações: vinte e duas acendendo a checagem dona e seis contra-testes.**
+
+> **⚠ O recorte da linha de regra pegava "o primeiro bloco de citação da seção", e a seção tem outros.** *Tirar o `>` da primeira linha fazia o recorte pular para o resto do bloco — que ainda tinha as três exigências — e a perturbação saía **VERDE**.* **Hoje ele procura o bloco que contém a própria regra.**
+>
+> **⚠⚠ E a âncora do dado do soco tinha o valor dentro do padrão: `` teto é `d10` ``.** *Trocar o dado para `d12` na peça 14 fazia a âncora **sumir** e acender a checagem 1 pelo motivo errado, em vez de a régua reler `6,5` e a checagem 2 comparar.* **Uma âncora cujo padrão carrega o valor deixa de achar exatamente quando o dono muda — que é quando ela precisa achar.** *Lição nº 8, numa âncora. O padrão virou `` teto é `d\d+` ``.*
+>
+> **⚠⚠ E a sub-checagem `2.1` nasceu medindo a PALAVRA em vez da exclusão.** *A frase diz `conjuração` duas vezes — uma para excluir a rolagem, outra para explicar que o feitiço de Toque é dela.* **Tirar a exclusão saía VERDE**, porque a palavra sobrevivia na segunda metade. *Hoje ela cobra o nome inteiro da rolagem **com uma negação ao lado**, nos dois sentidos.*
+>
+> **⚠ E os outros dois, na sub-checagem `1.1`, estão contados na seção dela.**
+>
+> **⚠ E a base da cópia ficou poluída uma vez, e ela PASSOU assim.** *Um diagnóstico à mão deixou a peça 14 em `d12` e a peça 19 em `5,85` — perturbadas de forma **coerente**, então os validadores saíam verdes.* **"Confira que a base passa antes" não basta quando a poluição é coerente: a cópia foi refeita do zero e o estado da base conferido linha a linha antes de rodar.**
+
+### ⚠⚠ E a revisão cética achou o número repreçado vivo numa TERCEIRA peça
+
+**A peça 23 cita o preço do `Incapacitado` — ela existe para sustentar ele.** *Depois de o repreço estar aplicado, os 24 validadores verdes e o `conferir-repositorio.py` fechando, uma varredura à mão achou `11,00` e `11,02` ainda publicados em dois lugares daquela peça.*
+
+> **Nenhuma checagem comparava as duas cópias.** *A checagem 1 do `conferir-bloquear.py` recalcula a neutralidade do Bloquear por enumeração — ela prova o `+0,02`, e nunca leu o número da peça 19 em cima do qual ela se soma.* **Lição nº 9 no número que aquela peça existe para sustentar.**
+
+**Entrou a sub-checagem `1.1`:** *ela lê o valor da tabela do §2.2 da peça 19 e falha se a peça 23 publicar outro.* *Ela é sub-bloco, então a peça 23 continua com sete checagens.*
+
+> **⚠⚠ E ela nasceu com o mesmo buraco que existia para fechar.** *A primeira versão casava duas formas de citar — `iria para` e `em` — e o §5.1 citava o número numa **terceira**, que foi exatamente a que sobreviveu ao repreço com o validador verde.* **Uma lista de formas de citar é uma lista fechada, e o texto sempre acha a forma que falta.** *Hoje ela pega todo `` `N,NN` `` a menos de `200` caracteres da palavra `Incapacitado`, e a peça é obrigada a não guardar numeral histórico — o valor velho fica em discurso indireto, que é a convenção que a v0.143 pagou para escrever.*
+>
+> **⚠ E o arnês achou o terceiro defeito: sem guarda de contagem, a peça parar de citar o valor deixava a sub-checagem VERDE e calada.** *Ela exige `2` valores distintos — o da peça 19 e ele mais o `+0,02` da metade do Bloquear.*
+
+### ⚠⚠ E o segundo eixo do escopo é QUAL ROLAGEM entra — segundo achado dele, na mesma leva
+
+***Palavras dele:*** *"Incapacitado critar tudo como feitiço e ataques a distância eu n apoio, volta pelo menos essa parte, deixa apenas pros ataques corpo a corpo mesmo."*
+
+**Este sistema tem TRÊS rolagens de ataque — corpo a corpo, à distância e de conjuração —, e o feitiço de Toque sai a `1,5 m` e é de CONJURAÇÃO.** *"Todo ataque corpo a corpo" sem a linha de exclusão é exatamente a palavra que dois mestres leem diferente.*
+
+| o que a condição alcança | ganho | banda |
+|---|---|---|
+| **só ataque corpo a corpo — o que fica** | **`4,95`** | **`Leve`** |
+| \+ ataque à distância, `2d10` no teto | `9,90` | `Leve` |
+| \+ feitiço de Toque `Classe 3` | `20,25` | `Média` |
+| \+ feitiço de Toque `Classe 5` | `34,43` | `Pesada` |
+| \+ feitiço de Toque `Classe 7` | **`48,60`** | **acima do teto da `Pesada`** |
+
+**Um feitiço de Toque `Classe 7` é a Rotina inteira em dados — `24d8` —, e dobrar isso uma vez por turno passa dos `46,29` do teto da `Pesada`.** *Uma condição `Leve` valendo mais que qualquer `Pesada`, por uma palavra que ninguém tinha desambiguado.* **A `Classe 3` já bastava para jogar a condição em `Média`.**
+
+> **A linha ficou nas quatro cópias:** *"todo ataque corpo a corpo que acertar você é crítico. **Só ele**: conjuração e ataque à distância não, e o feitiço de Toque é conjuração mesmo encostado em você."*
+
+**E ela ganhou guarda:** *a sub-checagem `2.1` do `conferir-dano.py` lê a linha da tabela de mesa do §3.1 e cobra as três coisas — que ela diga `corpo a corpo`, e que nomeie as outras duas rolagens **com uma negação ao lado***. *A régua do §2.2 entra com o dado da ARMA, e ela só fecha se a condição alcançar só o corpo a corpo.*
+
+### Três achados de passagem
+
+- **O gerador do manual dizia *"as três tabelas abaixo são as CATORZE separadas por nível"*, uma linha depois de dizer *"são treze"*.** *Sobra do `Petrificado`, que saiu na v0.139.* **A varredura daquela versão achou treze lugares e não achou este** — o livro já dizia `treze`, e quem estava atrás era o gerador.
+- **A peça 19 afirmava que o `Incapacitado` era *"a segunda mais barata das treze"*, e ele era o quinto.** *Falso desde a v0.103, em dois parágrafos.* **Com `4,95` ele é o terceiro, e a frase foi corrigida com o número junto.**
+- **O título da tabela de perturbações da peça 19 dizia `vinte e sete` e a tabela tinha vinte e oito.** *Contagem escrita em frase, sem dono.* **São trinta e duas agora.**
+
+### Medido depois
+
+| | v0.150 | v0.151 |
+|---|---|---|
+| peças de regra · validadores | 24 · 24 | iguais |
+| checagens no total | 252 | **254** |
+| checagens do `conferir-atributos.py` | 10 | **11** |
+| checagens do `conferir-manual.py` | 4 | **5** |
+| manual do Fundamento | v7.13 | **v7.14** |
+| o `Incapacitado`, em dano por rodada | `11,00` | **`4,95`** |
+| folga dele na banda `Leve` | `29%` | **`68%`** |
+| linhas de Controle que seguram alvo sem portão | **1** | **0** |
+| valores de regra escritos dentro do `conferir-dano.py` | **1** — o dado do soco | **0** |
+| cópias do preço do `Incapacitado` sem guarda | **1** — a peça 23 | **0** |
+| palavras do livro | 70.771 | **70.988** |
+| coluna única · duas colunas | 243 · 141 | **243 · 141** |
+| `conferir-voz --estrito` | 0 achados · 11 triagens | **0 achados · 11 triagens** |
+
+*Os 24 validadores verdes com `PULADA = 0`, o `conferir-repositorio.py`, os dois de `manual/matematica/` e os quatro builds.* **O `.pdf` do manual continua com 49 páginas, e as duas diagramações do livro não se moveram** — `158` palavras a mais não valem uma página em nenhuma das duas.
+
+> **Os quatro builds rodaram AQUI, e isso foi conferido antes de valer.** *A v0.148 registrou que a máquina em que o texto é lido pode não ter o WeasyPrint nem as quatro fontes, e que sem elas a diagramação sai errada **sem avisar**.* **Controle rodado: reconstruindo a partir da fonte de antes das edições, o PDF de coluna única saiu com `243` páginas e o mesmo tamanho em bytes do build do Mizuki.**
+
+*`guard_numeros.py` nos quatro capítulos mexidos do livro.* **Três saíram com a notação de número IDÊNTICA**; *a única diferença é um `1` a mais no capítulo 4, e ele é o ponteiro novo para o capítulo 1 — ponteiro por nome, não por posição.*
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **A fila não mudou**, e as duas dívidas que esta versão encosta continuam abertas de propósito: *o dano na arma continua sem peça, sem validador e sem conta, e os onze `Estigma` continuam sem preço uns contra os outros.*
+
+---
+
 ## [0.150] — 25/08/2026
 
 **O `Desgaste` deixou de descer de grau, e virou contador de missões.** ***Pedido do Mizuki:*** *"fica confuso ela perder grau; acredito que ter uma quantidade de usos fixa baseada no grau é melhor."* **Indo escrever, apareceu que a regra antiga reprovava contra a tabela do §3 — e que o exemplo publicado mostrava isso.**

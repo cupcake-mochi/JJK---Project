@@ -1,4 +1,4 @@
-GERADOR DO MANUAL — Fundamento v7.13
+GERADOR DO MANUAL — Fundamento v7.14
 
 Recria o .docx do zero. Precisa de Node.js.
 
@@ -31,6 +31,37 @@ ORDEM DAS SEÇÕES (v7)
   4 Restrições → 5 Fora de combate → 6 Liberação Máxima → 7 Técnica Máxima →
   8 Regras de ouro → 9 Progressão → 10 Feitiços prontos → 11 Para o mestre →
   Apêndice
+
+O QUE MUDOU NA v7.14
+
+  Duas linhas de regra e uma contagem, todas achadas pelo Mizuki lendo.
+
+  1) A condicao Incapacitado dizia "todo ataque corpo a corpo CONTRA voce e
+     critico". Como critico e acerto, a frase lia como acerto automatico, e nao
+     era isso que a mesa jogava. Passa a ser "todo ataque corpo a corpo QUE
+     ACERTAR voce e critico", que e a forma da fonte (Paralisado, PHB 2024).
+     O preco na regua da peca 19 foi de 11,00 para 4,95 de dano por rodada.
+     Ela continua de nivel Leve, agora com 68% de folga na banda.
+
+     E a linha ganhou a exclusao que faltava: SO o ataque corpo a corpo entra.
+     Ataque de conjuracao e ataque a distancia nao, e o feitico de Toque e' de
+     conjuracao mesmo saindo a 1,5 m. Sem essa linha, um feitico de Toque de
+     Classe 7 dobrado vale 48,60 de dano por rodada — acima do teto da Pesada,
+     vindo de uma condicao Leve.
+
+  2) A Melhoria Cerca (Controle, Leve) nao tinha porta de saida nenhuma — era a
+     unica linha de Controle nessa situacao. Ganhou o portao do Santuario do 5e:
+     acaba assim que voce causar dano ao alvo, inclusive o dano do proprio
+     feitico que comprou ela. Com isso ela deixa de combinar dano e protecao na
+     mesma acao, e passa a viver no feitico que gastou tudo em Controle — que e
+     o que o bonus de Controle ja premia.
+
+  3) A secao 3 dizia "as tres tabelas abaixo sao as CATORZE separadas por
+     nivel", uma linha depois de dizer "sao treze". Sobra do Petrificado, que
+     saiu na v7.12. Passa a dizer treze.
+
+  Nenhum numero do Fundamento mudou. O pac7.py e o v7.py passam sem alteracao.
+
 
 O QUE MUDOU NA v7.13
 
