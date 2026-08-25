@@ -48,7 +48,19 @@ REVISAR = re.compile(
     r"o que importa|não à toa|é exatamente esse|nada mais, nada menos",
     re.I,
 )
-POSICAO = re.compile(r"(?i:\ba tabela\b)(?!\s+[`*A-ZÀ-Ü])")
+# Ponteiro por POSICAO. Duas formas, e a segunda entrou depois: ate a setima
+# passada esta checagem so' via `a tabela` em linha de PROSA, e os onze ponteiros
+# que o livro carregava escaparam pelos dois furos ao mesmo tempo — tres estavam
+# dentro de linha de tabela (o laco fazia `continue` antes de chegar aqui) e oito
+# escreviam `na tabela`, `pela tabela`, `nas tabelas` ou `o catalogo acima`, que
+# a expressao nao alcancava. O gatilho agora e' a PALAVRA DE POSICAO ao lado da
+# coisa apontada, e nao o artigo.
+POSICAO = re.compile(
+    r"(?i:\b(?:tabelas?|cat[áa]logos?|listas?|quadros?|r[ée]guas?)\b"
+    r"[^.\n]{0,24}?\b(?:acima|abaixo|ao lado)\b)"
+    r"|(?i:\blogo\s+(?:abaixo|acima|adiante|atr[áa]s)\b)"
+    r"|(?i:\ba tabela\b)(?!\s+[`*A-ZÀ-Ü])"
+)
 
 # Os encaixes da REGRA-DE-VOZ.md: nome fixo, reusado no livro inteiro. Ficam
 # de fora das checagens de título — "Como ler" começa com "Como" de propósito.
@@ -215,6 +227,10 @@ def confere(caminho):
             if not any(".tab-titulo" in x for x in janela):
                 achados.append((i, "TABELA-SEM-NOME", linhas[i - 2].strip()[:56]))
             continue
+        # A checagem de POSICAO vem ANTES do continue das linhas de tabela: celula
+        # de tabela tambem aponta, e era por aqui que tres dos onze passavam.
+        if POSICAO.search(linha):
+            achados.append((i, "TABELA-VAGA", linha.strip()[:76]))
         if linha.startswith("|"):
             continue
 
@@ -224,8 +240,6 @@ def confere(caminho):
             m = REVISAR.search(linha)
             ini = max(0, m.start() - 46)
             avisos.append((i, linha.strip()[ini:m.end() + 40]))
-        if POSICAO.search(linha):
-            achados.append((i, "TABELA-VAGA", linha.strip()[:76]))
     return achados, avisos
 
 

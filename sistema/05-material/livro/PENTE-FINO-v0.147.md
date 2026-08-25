@@ -88,10 +88,19 @@ diz 'sem PE' com todas as letras entra em contradição com os cinco"*. A linha 
 está riscada, com **FECHADO na v0.116** do lado. A peça 6, na linha 313, escreve a regra que
 saiu daquilo: *"a coluna `por nível` vem inteira, e ela continua se chamando `PE`"*.
 
-> **A frase morta já se espalhou.** *A peça 16 cita ela duas vezes — nas linhas 201 e 305 —
-> como se fosse a regra viva: "está na peça 9 §5, junto de `sem PE` e `sem feitiço de Toque`".*
-> **Três lugares carregam hoje uma frase que uma quarta linha do mesmo arquivo declara
-> aposentada há trinta e uma versões.**
+> **A frase morta se espalhou, e o pior lugar não é um documento.** *A peça 16 cita ela na
+> linha 201, como se fosse a regra viva: "está na peça 9 §5, junto de `sem PE` e `sem feitiço
+> de Toque`".* **E a checagem 13 do `conferir-ferramenta.py` EXIGIA ela**, casando a frase
+> literal `sem Fundamento, sem PE, sem (…), sem Sentir Energia`.
+>
+> ***É por isso que ela sobreviveu trinta e uma versões:*** *consertar a peça fazia o validador
+> acender.* **Valor de regra escrito dentro do validador — a coisa que o `README` proíbe com
+> todas as letras — segurando no lugar a frase que a v0.116 tinha matado.**
+
+> **⚠ E uma correção do que a primeira versão desta lista dizia.** *Ela afirmava que a peça 16
+> citava a frase **duas** vezes, nas linhas 201 e 305.* **A da linha 305 é outra coisa:** ali
+> `sem PE` quer dizer *sintonizar não custa PE*, que é fato vivo e certo. **Uma citação, não
+> duas** — e a linha 305 não deve ser mexida.
 
 *Nenhum validador podia pegar.* A checagem 10 do `conferir-repositorio.py` pergunta se o livro
 publica o que as peças escrevem — **presença**, não **concordância**. Ela conta os 20 termos e
@@ -383,24 +392,82 @@ Vale registrar, senão a próxima leitura refaz.
 
 ---
 
-## A fila, se for para aplicar
+## O que já foi aplicado — 25/08/2026, depois de você voltar
 
-*Ordem por custo, não por importância — os três primeiros grupos não mexem em número nenhum e
-o `guard_numeros.py` sai idêntico.*
+**Onze dos dezesseis fecharam.** *Cada arquivo passou pelo `guard_numeros.py` com cada
+diferença lida contra a linha que a carregava, e o `conferir-voz.py --estrito` volta em `0`.*
 
-1. **Uma frase cada:** o typo da `Natureza`, a ordem do aviso do objeto de apoio (§8), a
-   âncora da `Versado` (§ menores), o ponteiro para a `Versado` dentro da `Escola de Arma` (§5),
-   e a `Versado` entrando na enumeração da caixa de Teste de Resistência (§4).
-2. **Dona única para os três formatos de Legado** (§7), ficando com a versão boa de cada linha.
-3. **A metade que falta no `Custo` do `Bloquear`** (§3), e o corte do parágrafo de tempo de mesa.
-4. **Os onze ponteiros por posição** (§ menores) — e, junto, os dois furos do `TABELA-VAGA`,
-   que são no validador e não no texto.
-5. **A trava do `Desliga`** (§1) — precisa da sua decisão entre as três saídas antes de virar
-   texto.
-6. **A cláusula `Classe 0` do capítulo 12** (§6) — precisa que a pergunta da Trilha conjuradora
-   numa ficha sem energia feche antes.
-7. **O *"sem PE"* da peça 9 §5** (§2) e as duas citações dele na peça 16 — é a fonte que muda,
-   não o livro, e é a única da lista que mexe em peça de regra.
+| achado | o que entrou |
+|---|---|
+| **15** | o typo da `Natureza` virou *"qual vale enche"* |
+| **8** | o aviso do objeto de apoio abre nomeando a rota: *"Na Restrição Celestial pelo ramo sem energia…"* |
+| **5** | a `Escola de Arma` passou a apontar para a `Versado`, e ela entrou no vocabulário |
+| **4** | a caixa de Teste de Resistência ganhou a linha da `Versado` — com o relógio próprio dela dito, que era a armadilha de somar ela na lista dos sete |
+| **11** | a `Versado` abre pela âncora e usa `Relógio.`, o mesmo rótulo das sete Passivas |
+| **13** | a `Brecha` entrou no vocabulário, ao lado do `Aparar` |
+| **3** | o `Custo` do `Bloquear` ganhou a metade que faltava, e o parágrafo de tempo de mesa saiu |
+| **14** | os **catorze** ponteiros por posição — os onze que eu tinha achado, mais três que o validador alargado pegou |
+| **2** | a peça 9 §5 parou de dizer *"sem PE"*, a citação da peça 16 foi corrigida, **e a checagem 13 foi reescrita** |
+| **16** | o `conferir-bloquear.py` parseia em 3.11 |
 
-> **O `conferir-bloquear.py` é independente de tudo isso** e pode ir sozinho, a qualquer
-> momento.
+> **Os três que o validador alargado achou e eu não:** *`08-inicio-rapido:106`, que apontava
+> por **página** — "o vocabulário do sistema, logo atrás desta página" —, `25-origens:446` e a
+> segunda metade da linha `60-invocacoes:183`, que eu tinha consertado pela metade.*
+
+### O arnês, nos dois validadores mexidos
+
+**`conferir-voz.py` — o `TABELA-VAGA` tinha dois furos, e os dois foram medidos.** *Três dos
+onze ponteiros estavam dentro de linha de tabela e o laço fazia `continue` antes da checagem;
+os outros oito escreviam `na tabela`, `pela tabela`, `nas tabelas` ou `o catálogo acima`, que
+o `\ba tabela\b` não alcançava.* **Quatro perturbações, uma por furo: as quatro acendem no
+alargado e as quatro saíam VERDES no antigo.**
+
+**`conferir-ferramenta.py` §13 — três perturbações.** *A frase aposentada voltando à linha
+acende no novo e **saía verde no antigo**, que é o contra-teste inteiro deste achado. As
+outras duas — sumir o `sem Fundamento`, sumir o `sem Sentir Energia` — acendem nos dois, então
+nenhuma cobertura foi perdida.*
+
+> **⚠⚠ OS QUATRO BUILDS NÃO FORAM RODADOS, e não dá para rodar daqui.** *Faltam `markdown`,
+> `beautifulsoup4` e `weasyprint`, e faltam as quatro fontes do projeto — sem elas o WeasyPrint
+> cai para substituta e a diagramação sai errada **sem avisar**, que é o que o `README` da pasta
+> avisa.* **Rodar só o `build_txt.py` seria pior que não rodar nenhum:** *ele grava o `sha1` da
+> fonte no `TEXTO.md`, e a checagem 7.5 ficaria VERDE com os dois PDFs ainda velhos.*
+>
+> **Na sua máquina, rode os quatro antes de fechar a versão** — `build.py`, `build.py --duas`,
+> `build_docx.py`, `build_txt.py`. *A checagem 7.5 vai acender até lá, e é ela fazendo o
+> trabalho para o qual a v0.146 escreveu ela.*
+
+---
+
+## A fila do que sobrou — cinco, e três esperam você
+
+**Dois dependem de decisão sua**, e eu não escrevo regra por cima de escolha de sabor:
+
+1. **A trava do `Desliga`** (§1). *Três saídas escritas lá em cima; a que eu apostaria é a
+   terceira — a trava vale só para `Desliga` escrito pelo jogador —, mas é sua.* **Enquanto ela
+   não fecha, o §7 fica pela metade:** *a dona única dos três formatos de Legado depende de
+   qual frase o `Desliga` vai carregar.*
+2. **A cláusula `Classe 0` do capítulo 12** (§6). *Ou ela sai, ou o capítulo 8 ganha a linha que
+   diz o que uma Trilha conjuradora faz numa ficha sem energia.* **A segunda é buraco de
+   sistema, não de texto, e é versão própria.**
+
+**Três não dependem de ninguém, e são texto:**
+
+3. **Dona única para os três formatos de Legado** (§7) — o `Destranca` e o `Ajusta` dá para
+   fechar hoje; o `Desliga` espera o item 1.
+4. **O `Na obra:` do `Bocado`** (§10) — ou as sete Passivas ganham um, ou esta perde o dela.
+5. **O `objeto de apoio` definido 147 linhas depois de ser usado** (§9) — a definição sobe, ou a
+   abertura ganha ponteiro.
+
+> **E o §12 não é conserto, é aviso:** *o `Bocado` e a `Versado` mexem no mesmo botão, e numa
+> ficha que tem os dois a `Versado` fica valendo só o `+1`.* **Vale saber antes de precificar
+> qualquer uma das duas.**
+
+---
+
+## O que ainda falta para fechar versão
+
+- **Os quatro builds**, na sua máquina, com as fontes instaladas.
+- **A entrada do `CHANGELOG`**, que é a dona da versão. *Ela não foi escrita: a versão não
+  fecha enquanto as duas decisões acima estiverem abertas.*
+- **O `ESTADO-revisao.md`**, que é o registro desta pasta.

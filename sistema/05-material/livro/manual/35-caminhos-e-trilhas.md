@@ -191,7 +191,7 @@ E duas coisas que quase todo degrau daqui menciona:
 
 ### Degraus da Vanguarda
 
-> **Nível 2: `Escola de Arma`.** **Escolha uma das treze categorias de arma.** Com armas daquela categoria você usa a **Manha** dela. *As treze estão na seção seguinte.*
+> **Nível 2: `Escola de Arma`.** **Escolha uma das treze categorias de arma.** Com armas daquela categoria você usa a **Manha** dela. *As treze estão na seção seguinte, e a `Versado` também — ela se leva no lugar da Manha da sua categoria.*
 >
 > **Nível 7: Ataque extra.** Você ganha **um golpe simples por rodada**. Ele exige a Ação de Atacar: acontece junto do que a sua Ação Padrão fez naquele turno, e só nesse caso — a não ser que uma habilidade diga o contrário.
 >
@@ -240,6 +240,8 @@ A Manha dá identidade à sua ficha. Você vira a pessoa do machado, a pessoa da
 > **Uma vez por rodada.** Não importa quantos golpes você deu: a Manha cobra Teste de Resistência de um alvo por rodada, e você escolhe qual.
 >
 > **As que não pedem** são as que mexem em você ou no seu próprio dado — `Talho`, `Raspão`, `Encaixe`, `Racho`, `Palmo`, `Zunido` e `Estampido`. *Elas não fazem ninguém rolar nada, e por isso também não têm limite por rodada.*
+>
+> **A `Versado` também não pede** — ela mexe no seu acerto e em mais nada. *O relógio dela é próprio, e a entrada dela diz qual.*
 
 > **A Manha nunca é dado de dano.** Ela mexe em onde as pessoas estão, em quem é atingido, e em quanto a próxima rolagem custa. Valor fixo de dano ela pode dar. Dado de dano é assunto do equipamento.
 
@@ -247,9 +249,13 @@ A Manha dá identidade à sua ficha. Você vira a pessoa do machado, a pessoa da
 
 Quem troca de arma no meio da luta pode levar esta **no lugar da Manha da sua categoria**.
 
-> **`Versado`** — guardar uma arma e sacar outra passa a ser **um gesto só**, e não dois. Até o começo do seu próximo turno, você tem **`+1` no acerto** com a arma que acabou de sacar.
+> **`Versado`** — vale quando você troca de arma no seu turno.
 >
-> **Quando.** Uma vez por rodada, no seu turno.
+> **O gesto.** Guardar uma arma e sacar outra passa a ser **um gesto só**, e não dois.
+>
+> **A mira.** Até o começo do seu próximo turno, você tem **`+1` no acerto** com a arma que acabou de sacar.
+>
+> **Relógio.** Uma vez por rodada.
 >
 > **O que ela substitui.** A Manha da categoria que você escolheu na `Escola de Arma`. Você não leva as duas.
 

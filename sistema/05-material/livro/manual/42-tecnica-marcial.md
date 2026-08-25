@@ -124,7 +124,7 @@ Na rota de ferramenta, o objeto declara qual dos dois é na criação — uma li
 > **Coisa que o golpe atravessa** — armadura, manopla, máscara, coturno. O seu golpe simples fere maldição.
 > **Coisa que você só carrega** — câmera, lanterna, maleta, instrumento. O seu golpe simples não fere maldição, e as suas Katas continuam ferindo.
 
-> **⚠ Escolha com cuidado, porque ela cobra tarde.** O ataque extra que Bastião e Vanguarda ganham no nível 7 é um golpe simples, e ele sai na Ação de Atacar. Se o seu objeto é do tipo que você só carrega, esses dois Caminhos passam a valer bem menos na sua ficha.
+> **⚠ Na Restrição Celestial pelo ramo sem energia, escolha com cuidado — ela cobra tarde.** O ataque extra que Bastião e Vanguarda ganham no nível 7 é um golpe simples, e ele sai na Ação de Atacar. Se o seu objeto é do tipo que você só carrega, esses dois Caminhos passam a valer bem menos na sua ficha.
 {: .aviso }
 
 > **O Corpo Amaldiçoado fere maldição com o golpe simples, seja qual for o objeto.** Ele tem energia amaldiçoada, então tem aptidões e refino normais — e com eles o `Canalizar energia` de graça no refino 1. **O equipamento continua obrigatório**, porque ele é o Selo, e sem Selo não sai Kata.

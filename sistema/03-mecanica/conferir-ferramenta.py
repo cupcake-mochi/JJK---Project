@@ -433,12 +433,36 @@ print('\n 13. SEM-ENERGIA — a rota sem energia nenhuma, ponta a ponta')
 S09_5 = secao(P09, 5)
 # v0.81: o termo 'golpe canalizado' morreu — ele nao existe no manual e virou
 # 'feiticco de Toque'. A checagem aceita os dois para nao quebrar em nota historica,
-# e o que ela guarda e a ROTA (sem Fundamento, sem PE, sem Sentir Energia).
-m = re.search(r'sem Fundamento, sem PE, sem (?:golpe canalizado|feitiço de Toque), sem Sentir Energia', S09_5)
-if not m:
-    erro('13', 'nao achei a rota "energia pelo corpo" na peca 9 SS5')
+# e o que ela guarda e a ROTA.
+#
+# ATE A v0.147 ELA EXIGIA A FRASE 'sem PE', E ERA ELA QUE SEGURAVA A FRASE MORTA.
+# A v0.116 aposentou o 'sem PE' — o contrato de moeda, no proprio SS5, decide que a
+# coluna `por nivel` do Caminho vem inteira e continua se chamando PE. Mas esta
+# checagem casava uma FRASE LITERAL que incluia o 'sem PE', entao consertar a peca
+# fazia o validador acender, e por isso a frase sobreviveu 31 versoes em tres lugares.
+# Valor de regra escrito dentro do validador — a coisa que o README proibe.
+#
+# Hoje ela le a LINHA DA REGRA (a do ramo sem energia), cobra os tres itens que a
+# rota realmente nao tem, e PROIBE a frase aposentada de voltar aquela linha. O
+# 'sem PE' entre aspas na prosa do contrato de moeda e' citacao e nao conta.
+_linha_rota = next((l for l in S09_5.split('\n')
+                    if '*sem energia:*' in l and '**O que muda**' in l), '')
+_FALTAS = ['sem Fundamento', 'sem Sentir Energia']
+_faltando = [f for f in _FALTAS if f not in _linha_rota]
+if not re.search(r'sem (?:golpe canalizado|feitiço de Toque)', _linha_rota):
+    _faltando.append('sem feitico de Toque')
+if not _linha_rota:
+    erro('13', 'nao achei a linha da rota sem energia na tabela da peca 9 SS5')
+elif _faltando:
+    erro('13', 'a linha da rota sem energia na peca 9 SS5 nao escreve a rota inteira; '
+               'falta: ' + ', '.join(_faltando))
+elif re.search(r'sem PE\b', _linha_rota):
+    erro('13', 'a linha da rota sem energia voltou a dizer "sem PE" — a v0.116 '
+               'aposentou a frase, e o contrato de moeda do proprio SS5 diz que a '
+               'coluna `por nivel` do Caminho vem inteira e se le Pontos de Esforco')
 else:
-    print('  peca 9 SS5: sem Fundamento, sem PE, sem feitico de Toque, sem Sentir Energia')
+    print('  peca 9 SS5: sem Fundamento, sem feitico de Toque, sem Sentir Energia')
+    print('  [x] e a linha NAO diz "sem PE": o contrato de moeda da v0.116 esta aplicado')
     if 'ferramenta amaldiçoada' not in S09_5:
         erro('13', 'a peca 9 nao nomeia ferramenta amaldicoada como o eixo de poder da rota')
     else:

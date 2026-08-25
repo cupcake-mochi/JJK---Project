@@ -231,7 +231,7 @@ if _fora:
                    f'o invariante do SS4 diz que nada sobe um lado sem subir o outro')
 else:
     print(f'  [x] {len(_suspeitas)} lugar(es) mexem no numero do Bloquear, e '
-          f'{"todos sao a `Talha`" if _suspeitas else "nenhum e' de outra peca"}')
+          f'{"todos sao a `Talha`" if _suspeitas else "nenhum e de outra peca"}')
 
 
 # ==========================================================================

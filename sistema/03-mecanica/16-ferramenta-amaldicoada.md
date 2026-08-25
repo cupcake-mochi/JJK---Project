@@ -198,7 +198,7 @@ A régua é a das Classes da **peça 11 §4**, e o degrau de cada entrada foi de
 | **`Presságio`** | ela avisa que há maldição perto, **antes de você ver** | — |
 | **`Perene`** | ela não quebra, não enferruja e funciona onde arma comum não funciona | as forjadas antigas que atravessam eras |
 
-> **O `Presságio` existe por causa de uma ficha específica, e vale escrever qual.** A Restrição Celestial pelo ramo da Maki não tem **Sentir Energia** — está na peça 9 §5, junto de *sem PE* e *sem feitiço de Toque*. **É a única perícia do sistema que uma Origem inteira não pode ter**, e a ferramenta é o jeito que a obra dá para ela compensar. *A entrada não foi desenhada e depois justificada: ela saiu do buraco.*
+> **O `Presságio` existe por causa de uma ficha específica, e vale escrever qual.** A Restrição Celestial pelo ramo da Maki não tem **Sentir Energia** — está na peça 9 §5, junto de *sem Fundamento* e *sem feitiço de Toque*. **É a única perícia do sistema que uma Origem inteira não pode ter**, e a ferramenta é o jeito que a obra dá para ela compensar. *A entrada não foi desenhada e depois justificada: ela saiu do buraco.*
 
 ### Classe 2 · grau 2 — reativo, com limite de uso por cena ou por descanso
 

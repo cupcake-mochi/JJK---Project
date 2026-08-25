@@ -19,6 +19,7 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **Crítico** | `20` natural numa rolagem de acerto. Dobra os dados da arma ou da Classe, e nada mais | 1 |
 | **`Bloquear`** | Ao ser atacado, role `2d10 + (Defesa − 11)` e use no lugar da Defesa parada. Na média dá a mesma Defesa | 1 |
 | **`Aparar`** | O duplo 10 no `Bloquear`. O ataque não acerta, e você pode gastar a Reação para revidar com `+3` de dano | 1 |
+| **`Brecha`** | O duplo 1 no `Bloquear`. O ataque acerta, e o agressor pode gastar a Reação dele para atacar de novo | 1 |
 | **Arredondamento** | Sempre para o lado que não te favorece. O que você paga sobe, o que você ganha desce | 1 |
 | **Rotina** | O dano que um personagem entrega numa rodada comum, sem gastar recurso guardado | 15 |
 
@@ -242,6 +243,7 @@ Melhoria — são escadas diferentes que usam as mesmas três palavras. O capít
 | **`Torrente`** | Trilha do Emanador: mais de um feitiço na rodada, e a energia acaba | 8 |
 | **`Explosivo`** | Trilha do Emanador: um feitiço só, e ele sai maior | 8 |
 | **`Arremate`** | Trilha do Emanador: o feitiço acontece onde a mão chega | 8 |
+| **`Versado`** | Manha da Vanguarda: trocar de arma vira um gesto só. Leva-se no lugar da Manha da categoria | 8 |
 
 ## Palavras com sentido próprio
 

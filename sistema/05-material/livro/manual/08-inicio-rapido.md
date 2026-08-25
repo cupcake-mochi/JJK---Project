@@ -103,5 +103,5 @@ entre `Aguentar` e `Insistir`. A regra está no capítulo 1, na seção *Vida a 
 - **Quer entender por que cada número é aquele?** Capítulo 1, *Como Jogar*.
 - **Quer montar o seu próprio personagem?** Capítulo 6, *Criação de Personagem*, os oito
   passos — a Kaori acima é o exemplo completo de lá.
-- **Esbarrou numa palavra que não foi explicada?** O vocabulário do sistema, logo atrás
-  desta página, tem uma linha para cada termo e o capítulo que o explica por extenso.
+- **Esbarrou numa palavra que não foi explicada?** O vocabulário do sistema tem uma
+  linha para cada termo e o capítulo que o explica por extenso.

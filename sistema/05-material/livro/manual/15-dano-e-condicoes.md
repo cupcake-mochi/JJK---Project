@@ -50,7 +50,7 @@ O número do dano vem da arma ou do feitiço. O tipo diz quem resiste a ele e co
 
 **`Energia Reversa`** — a energia que conserta gente, usada para o contrário. Num corpo comum ela é ferimento em cima do que já existe; é o dano que mais desmonta quem confiava na própria recuperação.
 
-**`Alma`** — passa por couro, armadura e barreira, e bate na coisa que você é. Ele gasta Integridade em vez de vida, tem quatro estágios próprios, e não se resiste com músculo. Quem toma dano de `Alma` continua de pé e volta menos do que era. Os quatro estágios estão logo abaixo.
+**`Alma`** — passa por couro, armadura e barreira, e bate na coisa que você é. Ele gasta Integridade em vez de vida, tem quatro estágios próprios, e não se resiste com músculo. Quem toma dano de `Alma` continua de pé e volta menos do que era. Os quatro estágios estão na tabela `Estágios de dano na alma`.
 
 ### Nomes repetidos
 
@@ -302,7 +302,7 @@ A `Exaustão` engana: em outros jogos ela é condição, aqui não. Quem for esc
 > **Existe uma Melhoria `Condição`, uma só, e o preço dela é o nível da condição que você escolheu.**
 > Escolher `Derrubado` custa `Leve`. Escolher `Atordoado` custa `Pesada`.
 
-Você aponta a condição nas tabelas acima, lê o nível dela, e esse é o preço. Não existe pacote nem grupo de compra.
+Você aponta a condição na tabela `Condições em uma linha`, lê o nível dela, e esse é o preço. Não existe pacote nem grupo de compra.
 
 > **Exemplo.** O Kaito está montando um feitiço de Classe 2 que derruba quem for acertado. Ele compra a Melhoria `Condição` e escolhe `Derrubado`, que é `Leve`. Numa Classe 2 isso custa `1` ponto, e ele fica com o resto do orçamento em dados de dano. Se ele quisesse `Impedido`, que é `Pesada`, o mesmo feitiço pagaria `3` e sairia bem menor.
 

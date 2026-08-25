@@ -39,7 +39,7 @@ Ferramenta é a que é arma. Objeto é a que não é arma.
 | O que é | Como se reconhece | Onde está a regra |
 |---|---|---|
 | ferramenta amaldiçoada | foi forjada para canalizar energia. Você empunha, e ela fere maldição | este capítulo |
-| objeto amaldiçoado | é a maldição presa numa forma de objeto. Você carrega, e o que está dentro dele age | logo abaixo |
+| objeto amaldiçoado | é a maldição presa numa forma de objeto. Você carrega, e o que está dentro dele age | este capítulo, *Objeto amaldiçoado* |
 | cadáver amaldiçoado | coisa sem vida que ganhou movimento próprio, com um núcleo no lugar do coração | capítulo 15, *Invocações* |
 | maldição solta | a maldição sem forma de coisa nenhuma. É o que se exorciza | capítulo 4, *Dano, Condições e Cobertura* |
 

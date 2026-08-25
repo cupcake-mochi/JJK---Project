@@ -127,7 +127,7 @@ Inteligência leva 11 das 23 perícias, Essência 7, Destreza 4 e Força 1. **Ne
 
 **Sobrevivência** — aguentar o ambiente, achar água e abrigo, se orientar, e seguir um rastro, seja pegada ou resíduo de energia.
 
-**Natureza** — planta, bicho, clima, terreno. O que é venenoso, que vale enche, quando a chuva vem.
+**Natureza** — planta, bicho, clima, terreno. O que é venenoso, qual vale enche, quando a chuva vem.
 
 **Lidar com Animais** — acalmar, montar, conduzir, mandar num bicho. Vale para invocação que ainda não te obedece direito.
 

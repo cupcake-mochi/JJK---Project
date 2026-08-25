@@ -180,7 +180,7 @@ Uma invocação com `Vigia` transforma toda cena de vigilância: o grupo fica no
 
 ### Traço e Comando próprios
 
-Você pode escrever `Traço` e `Comando` que não estão nas listas acima, e o catálogo serve de régua para isso. Escreva o efeito, ache na tabela abaixo o degrau em que ele cai, e leve para o mestre. A palavra final é dele, sempre em cima de uma entrada escrita, nunca do zero.
+Você pode escrever `Traço` e `Comando` fora dos dois catálogos, e as réguas servem de medida para isso. Escreva o efeito, ache na régua do que você está escrevendo — a de `Traço` ou a de `Comando` — o degrau em que ele cai, e leve para o mestre. A palavra final é dele, sempre em cima de uma entrada escrita, nunca do zero.
 
 **Régua de `Traço`**
 {: .tab-titulo }
@@ -206,7 +206,7 @@ Você pode escrever `Traço` e `Comando` que não estão nas listas acima, e o c
 
 ### Montagens de exemplo
 
-Seis invocações conhecidas, montadas com o catálogo acima.
+Seis invocações conhecidas, montadas com os catálogos `Traço` e `Comando`.
 
 **Montagens de exemplo**
 {: .tab-titulo }

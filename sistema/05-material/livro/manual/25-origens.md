@@ -443,7 +443,7 @@ Você tem energia amaldiçoada, então tem PE, aptidões e refino como qualquer 
 
 #### Destranca
 
-*Escolha um destes, obrigatoriamente. A configuração que você escolhe aqui decide qual das quatro listas de Ajusta abaixo você alcança.*
+*Escolha um destes, obrigatoriamente. A configuração que você escolhe aqui decide qual das quatro listas de Ajusta você alcança.*
 
 > **Ninhada** — **três seres num corpo só, e é o arranjo que estabiliza. Escreva na ficha o que são os três.**
 > *Na mesa:* serve quando o grupo pede conselho. *Exemplo: os três discordam sobre entrar ou não, e você interpreta a discussão em voz alta.*

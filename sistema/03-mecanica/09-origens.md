@@ -197,7 +197,7 @@ A troca é sempre desproporcional para os dois lados: você perde muito e ganha 
 | | |
 |---|---|
 | **Perícias** *(escolha uma)* | *corpo pela técnica:* Sentir Energia · Tecnologia · Ocultismo · Percepção<br>*sem energia:* Atletismo · Acrobacia · Furtividade · Pontaria |
-| **O que muda** | *corpo pela técnica:* Fundamento normal, corpo com limitação escrita na ficha<br>*sem energia:* sem Fundamento, sem PE, sem feitiço de Toque, sem Sentir Energia — e acesso a ferramenta amaldiçoada como eixo de poder |
+| **O que muda** | *corpo pela técnica:* Fundamento normal, corpo com limitação escrita na ficha<br>*sem energia:* sem Fundamento, sem feitiço de Toque, sem Sentir Energia, sem aptidão e sem refino — e acesso a ferramenta amaldiçoada como eixo de poder.<br>**O `PE` do Caminho vem inteiro e se lê `Pontos de Esforço`** — o contrato de moeda, logo abaixo neste §5 |
 | **Traços** | *o clã que te descartou* · *a pessoa que te olha e vê o que você perdeu* · *a ferramenta que te acompanha desde criança* |
 | **Legados** | **as listas estão na peça 13** — um `Destranca` obrigatório e mais um de qualquer lista |
 | **Criação** | *corpo pela técnica:* **Fundamento** normal · *sem energia:* **Técnica Marcial** — peça 20, fechada na v0.122 |

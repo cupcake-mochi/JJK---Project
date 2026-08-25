@@ -369,7 +369,7 @@ A Livre entrega o dado cru: você vê o medo na cor de alguém, e descobrir o mo
 | `Afinidade` | 3 | Escolha um tema da sua Regra. Feitiços daquele tema ignoram cobertura leve e resistência ao seu tipo de dano. |
 | `Reserva Profunda` | 3 | Seu PE máximo sobe em 3 × a sua maior Classe. |
 | `Regra Própria` | 1 a 3 | Sua técnica impõe uma regra ao mundo. Ver abaixo. |
-| `Passiva Própria` | 1 a 3 | Qualquer outra coisa, montada com o mestre na escala da tabela acima. |
+| `Passiva Própria` | 1 a 3 | Qualquer outra coisa, montada com o mestre na escala das outras entradas desta tabela. |
 
 #### Regra Própria
 
@@ -690,7 +690,7 @@ O inimigo sai da luta sem cair morto: no chão, preso, ou lutando contra o próp
 
 | Melhoria | Custo | O que faz |
 |---|---|---|
-| `Condição` | o nível dela | Aplica uma das treze condições. O preço é o nível dela (`Leve`, `Média` ou `Pesada`), na tabela logo abaixo. Dura uma rodada. As de nível `Pesada` dão Teste de Resistência no fim de cada turno do alvo, e cabe só uma delas por feitiço. |
+| `Condição` | o nível dela | Aplica uma das treze condições. O preço é o nível dela (`Leve`, `Média` ou `Pesada`), e a seção *Condições* traz as três listas. Dura uma rodada. As de nível `Pesada` dão Teste de Resistência no fim de cada turno do alvo, e cabe só uma delas por feitiço. |
 | `Terreno` | `Leve` | A área vira terreno difícil, ou fica obscurecida, por uma rodada. |
 | `Anteparo` | `Média` | Deixa uma parede ou escudo com 10 × Classe de pontos de vida, por 1 minuto. |
 | `Prende` | `Média` | O alvo não sai do lugar até o fim do próximo turno dele. Ele pode gastar a ação para tentar um Teste de Resistência e se soltar. |
@@ -916,7 +916,7 @@ De graça e sem rolar nada, você faz qualquer coisa que caiba na sua Regra e pa
 
 1. Não rola dado e não faz ninguém rolar.
 2. Não tira nem dá vida, não aplica condição, não mexe em rolagem de ninguém e não move nada que resista.
-3. A escala cabe na Classe 0 da tabela de `Efeito`, logo abaixo: coisa de mão.
+3. A escala cabe na Classe 0 da tabela `Forma Efeito`: coisa de mão.
 
 Falhou em um dos três, é feitiço: monte e pague. Passou nos três, funciona, mesmo que resolva a cena.
 
@@ -940,7 +940,7 @@ A régua geral é essa: **perceber é Livre, interferir é feitiço**. E o que v
 
 ### Forma Efeito
 
-Quando a coisa é grande o bastante para mudar uma cena, monte um feitiço com a Forma `Efeito`. Ele não causa dano e não rola dado: a Classe define sozinha o que o efeito alcança e por quanto tempo dura, pela tabela abaixo.
+Quando a coisa é grande o bastante para mudar uma cena, monte um feitiço com a Forma `Efeito`. Ele não causa dano e não rola dado: a Classe define sozinha o que o efeito alcança e por quanto tempo dura, pela tabela `Forma Efeito`.
 
 Num feitiço de `Efeito`, os pontos da Classe servem só para comprar Melhorias. Ponto que sobrar não vira nada, porque a escala já está paga pela Classe.
 

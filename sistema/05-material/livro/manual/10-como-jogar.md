@@ -139,7 +139,7 @@ Crítico só existe onde existe rolagem de acerto. Feitiço que resolve por Test
 
 > **Defesa = 10 + Destreza + proteção**
 
-Defesa é o número que o inimigo precisa igualar ou passar para te acertar. Por exemplo, com Destreza 3 e um Traje de degrau 2, a sua Defesa é 15. Ela é um número parado, e por padrão você não rola nada — mas pode trocar ela por uma rolagem quando for atacado, e é a seção `Bloquear`, logo abaixo.
+Defesa é o número que o inimigo precisa igualar ou passar para te acertar. Por exemplo, com Destreza 3 e um Traje de degrau 2, a sua Defesa é 15. Ela é um número parado, e por padrão você não rola nada — mas pode trocar ela por uma rolagem quando for atacado, e é a seção `Bloquear`.
 
 **Proteção** é o que você veste ou o que você cobre. Cobrir-se de energia amaldiçoada dá proteção sem equipamento nenhum, e é aptidão básica de todo feiticeiro.
 
@@ -187,9 +187,9 @@ Quem está `Incapacitado` não pode `Bloquear`. É a única condição que desli
 
 ### Custo
 
-> **Um em cada doze golpes vai passar porque você rolou, quando a sua Defesa parada teria segurado.** O `Aparar` e a `Brecha` saem em cerca de 1% das rolagens cada um, e são eles que você está comprando.
-
-O outro preço é tempo de mesa: uma rolagem a mais por golpe recebido. Num combate de quatro rodadas com quatro personagens, isso passa de uma dúzia de rolagens novas.
+> **O que você paga é variação, e não média.** Um em cada doze golpes vai passar porque você rolou, quando a sua Defesa parada teria segurado — e um em cada doze vai ser segurado quando ela teria deixado passar. **É a mesma taxa dos dois lados**, e é ela que faz a troca fechar em zero.
+>
+> **O que você compra são os dois extremos.** O `Aparar` e a `Brecha` saem em cerca de 1% das rolagens cada um.
 
 ## Testes de Resistência
 
