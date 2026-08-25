@@ -81,6 +81,33 @@ palavras.* **As catorze condições deste livro foram reescritas nessa forma na 
 > **Onde não há parágrafo, não use esta forma.** A tabela `Condições em uma linha` existe para
 > esse caso: consulta rápida, uma linha, sem camadas.
 
+#### O rótulo longo demais TEM CONTAGEM, e ela levou três versões para ter dono
+
+*A v0.141 mediu **nove entradas com doze rótulos**, seis delas no capítulo 12, e publicou o par sem escrever a definição.* **Sem definição escrita, duas versões seguidas tentaram remedir e acharam outra coisa:** *a v0.149 contou o fenômeno errado e foi descartada; a v0.152 achou `209` com um regex que pega toda caixa de regra do livro, parou, e com um recorte próprio chegou a `4`.*
+
+> **O livro carrega `0` rótulos longos demais, em `52` entradas de catálogo.** *Os dois números são o dono, e o `conferir-voz.py` reconta e falha nos dois sentidos.*
+
+**A v0.153 fechou a diferença reconstruindo a definição, em vez de escolher entre os números.** *O par da v0.141 reproduz **exato** — `9` entradas, `12` rótulos, `6` delas no capítulo 12 — se a entrada se qualifica por ter rótulo longo **dentro da caixa de regra** e os rótulos são contados **na seção inteira** dela.* **Ela mede uma metade do par por um recorte e a outra por outro, e é isso que a torna irreproduzível para quem tente adivinhar depois.** *Endireitada — toda entrada, rótulo na seção inteira —, o mesmo texto dá `11` entradas e `14` rótulos, ainda com `6` entradas no capítulo 12.*
+
+*E a v0.138, medida pelas duas, dá o mesmo:* **nada foi consertado de passagem na v0.147 nem na v0.148.**
+
+**A definição publicada é a endireitada:**
+
+| | |
+|---|---|
+| **entrada de catálogo** | seção-folha `###` ou `####` cujo nome está publicado numa **tabela do próprio capítulo**, e que abre pela camada 1 — `**<o nome dela>** — âncora` dentro da caixa de regra, ou uma âncora em prosa que a nomeia |
+| **rótulo longo demais** | negrito **abrindo parágrafo**, com mais de `6` palavras, na seção daquela entrada |
+
+**A lista das entradas não mora no validador: ela mora na tabela que o livro publica** — a `Como ler uma Bênção`, a `Condições em uma linha`, a `Como ler uma aptidão`. *Renomeie uma entrada e a checagem para de achar ela, então a contagem de `52` é guarda: ela falha se subir e se descer.*
+
+**O que NÃO conta, e a fronteira é escrita para não virar discussão:**
+
+- **Caixa de regra fora de entrada.** *O livro tem `253` delas, e o regex que as pega devolve mais de duzentos.* **A camada 3 só vale para entrada de catálogo** — seção de regra escreve como quiser.
+- **Rótulo dentro de célula de tabela.** *A própria régua já diz isso acima: sem quebra de parágrafo, o negrito não é camada 3.*
+- **`Estigma`, Legado e entrega de Trilha.** *As três famílias se escrevem em **uma linha** dentro de caixa compartilhada — `**`Fiel`** — ela volta para a sua mão`.* **Onde não há parágrafo, a camada 3 não se aplica**, e a obrigação das quatro camadas alcança elas no dia em que virarem seção.
+
+> ***A lição que as três versões custaram:*** *o par "entradas, rótulos" tem uma metade estável e uma instável.* **Os rótulos batem em todo recorte razoável; as entradas mudam de número conforme o que você chama de entrada** — `4`, `6`, `7`, `9`, `32` ou `95`, pela mesma frase lida de seis jeitos. *Por isso a definição vem antes do número, e não depois.*
+
 ### As marcas de "isto ainda não existe", e elas TÊM CONTAGEM
 
 *Escrito na v0.144, e ele nasceu de uma contagem que deu errado cinco vezes seguidas.* **O prompt de retomada dizia quatro, o CHANGELOG da v0.136 dizia cinco, a varredura à mão de uma versão disse oito, e o regex acha sete.** *Toda contagem desta família até hoje deu um número diferente, e nenhuma delas tinha validador.*

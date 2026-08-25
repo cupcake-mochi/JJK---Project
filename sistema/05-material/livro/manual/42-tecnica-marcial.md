@@ -61,7 +61,7 @@ Se a sua lâmina quebrou no meio da missão, qualquer outra arma amaldiçoada do
 
 A sua técnica declara um atributo na criação, como toda técnica declara — capítulo 9, *Fundamento*, na seção *Atributo da técnica*.
 
-> **Os três grupos têm de acertar pelo atributo que você declarou.**
+> **Acerto dos três grupos.** Eles têm de acertar pelo atributo que você declarou.
 
 O catálogo de armas só tem duas respostas para *"que atributo acerta com essa arma?"*, então sobra escolha:
 
@@ -75,7 +75,7 @@ O catálogo de armas só tem duas respostas para *"que atributo acerta com essa 
 
 A `Lâmina Longa` está nas duas porque a Rapieira e a Katana carregam `Fineza`.
 
-> **Nenhum grupo de arma acerta por Inteligência, Essência ou Constituição.** Esta rota é sempre Força ou Destreza. Se a sua ficha é a pessoa que resolve com a cabeça, a rota é a de ferramenta.
+> **Só Força e Destreza.** Nenhum grupo de arma acerta por Inteligência, Essência ou Constituição. Se a sua ficha é a pessoa que resolve com a cabeça, a rota é a de ferramenta.
 
 ### Rota de ferramenta
 

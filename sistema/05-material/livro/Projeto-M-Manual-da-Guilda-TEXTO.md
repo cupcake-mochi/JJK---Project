@@ -3143,7 +3143,7 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 13, 
 
 *Você e a invocação lutam juntos.* No `Coro` você entra na luta junto com o corpo, e os dois se cobrem. Ele **ataca e comanda na mesma rodada**, e abre exceção na economia de ação. O golpe é uma **Ação Bônus**, e ele só existe se a Ação Padrão daquele turno **comandou, e a invocação atacou**. O corpo dele é o mais frágil dos três, e é o único cuja queda deixa o kit funcionando: você continua batendo.
 
-> **Você e todas as suas invocações somados entregam a mesma saída de dano que você entregaria sozinho.** Com uma invocação, cada um entrega metade. Com três, cada um entrega um quarto. **A máquina completa (orçamento por nível, `Traço`, `Comando`, a amarra, morte e retorno) está no capítulo 15, *Invocações*.**
+> **A saída é uma só.** Você e todas as suas invocações somados entregam a mesma saída de dano que você entregaria sozinho. Com uma invocação, cada um entrega metade. Com três, cada um entrega um quarto. **A máquina completa (orçamento por nível, `Traço`, `Comando`, a amarra, morte e retorno) está no capítulo 15, *Invocações*.**
 
 ---
 
@@ -3501,7 +3501,7 @@ Algumas técnicas funcionam impondo uma regra ao mundo: julgamento, aposta, cont
 - Sem dano direto: gera recurso, condição ou obrigação.
 - Com limite por cena.
 
-**Só a `Regra Própria` pode ser comprada em Classe Passiva 1 desde o nível 1.** Quando os níveis liberarem as alturas maiores, ela sobe para 2 e 3 pagando só a diferença de espaços.
+**Altura na compra.** Só a `Regra Própria` pode ser comprada em Classe Passiva 1 desde o nível 1. Quando os níveis liberarem as alturas maiores, ela sobe para 2 e 3 pagando só a diferença de espaços.
 
 *"Quem me atacar sabendo que eu não revidei acumula uma Dívida. Cobro uma por cena."*
 *"Quando eu aposto e ganho, meu próximo teste na cena tem vantagem. Uma vez por cena."*
@@ -4415,7 +4415,7 @@ Se a sua lâmina quebrou no meio da missão, qualquer outra arma amaldiçoada do
 
 A sua técnica declara um atributo na criação, como toda técnica declara — capítulo 9, *Fundamento*, na seção *Atributo da técnica*.
 
-> **Os três grupos têm de acertar pelo atributo que você declarou.**
+> **Acerto dos três grupos.** Eles têm de acertar pelo atributo que você declarou.
 
 O catálogo de armas só tem duas respostas para *"que atributo acerta com essa arma?"*, então sobra escolha:
 
@@ -4427,7 +4427,7 @@ O catálogo de armas só tem duas respostas para *"que atributo acerta com essa 
 
 A `Lâmina Longa` está nas duas porque a Rapieira e a Katana carregam `Fineza`.
 
-> **Nenhum grupo de arma acerta por Inteligência, Essência ou Constituição.** Esta rota é sempre Força ou Destreza. Se a sua ficha é a pessoa que resolve com a cabeça, a rota é a de ferramenta.
+> **Só Força e Destreza.** Nenhum grupo de arma acerta por Inteligência, Essência ou Constituição. Se a sua ficha é a pessoa que resolve com a cabeça, a rota é a de ferramenta.
 
 ### Rota de ferramenta
 
@@ -4806,7 +4806,7 @@ O `+2` acumulado é a memória do personagem. Quem passou a noite inteira quase 
 >
 > Requisito: refino 5. O refino escala a chance no d100.
 
-> **As três empilham, nesta ordem: a base é `3 × refino`, e a vantagem da `Kokusen Melhorado` rola em cima dela.** Com as três na ficha, o d100 sai em 51% no refino 10. Nenhuma delas exige a outra.
+> **As três empilham.** Nesta ordem: a base é `3 × refino`, e a vantagem da `Kokusen Melhorado` rola em cima dela. Com as três na ficha, o d100 sai em 51% no refino 10. Nenhuma delas exige a outra.
 
 **Kokusen Constante**
 | refino | só a `Kokusen` | só com a `Melhorado` | só com a `Constante` | com as duas |
@@ -4916,7 +4916,7 @@ A condição da `Cortina` fala de quem atravessa, e de mais nada.
 | impedir que quem está dentro saia | dar bônus a quem está dentro |
 | deixar passar quem você nomeou na hora de levantar | esconder de quem é feiticeiro, porque o efeito base já é o contrário |
 
-> **O tamanho da `Cortina` não se mede em metros.** Ela cobre um lugar — um prédio, uma escola, um quarteirão —, e nada do que ela faz depende de distância. Quem precisa fechar uma distância com energia usa a `Barreira Simples`, que tem raio.
+> **Tamanho.** A `Cortina` não se mede em metros: ela cobre um lugar — um prédio, uma escola, um quarteirão —, e nada do que ela faz depende de distância. Quem precisa fechar uma distância com energia usa a `Barreira Simples`, que tem raio.
 
 ## Escrever uma aptidão
 
@@ -5080,22 +5080,22 @@ Estas duas chegam com a ficha, na Lapidação 1, sem custar marco nenhum.
 >
 > **Barreira de energia não segura você.** `Barreira Simples` e `Cortina` não valem contra você.
 >
-> **O Acerto garantido de uma Expansão de Domínio completa não alcança você.** O Efeito continua acontecendo em volta, e uma Expansão incompleta funciona normalmente, porque o Acerto dela rola.
+> **Expansão de Domínio.** O Acerto garantido de uma Expansão completa não alcança você. O Efeito continua acontecendo em volta, e uma Expansão incompleta funciona normalmente, porque o Acerto dela rola.
 >
 > Requisito: grátis na Lapidação 1. A Lapidação escala a proteção.
 
-**Vestir Traje ou Revestimento desliga só a proteção.** A barreira e o Acerto garantido continuam valendo: eles vêm de você não ter energia amaldiçoada, e uniforme nenhum te dá uma.
+**Traje e Revestimento.** Vestir um dos dois desliga só a proteção. A barreira e o Acerto garantido continuam valendo: eles vêm de você não ter energia amaldiçoada, e uniforme nenhum te dá uma.
 
 Quem não tem energia amaldiçoada nunca tem Expansão de Domínio — está no capítulo 10, *Técnica Marcial*.
 
-> **O que atravessa é você, e não o que você carrega.** Ferramenta amaldiçoada e objeto amaldiçoado emanam energia, e é o que eles emanam que a barreira lê: você entra na `Cortina`, e o seu equipamento amaldiçoado fica do lado de fora. Contra Expansão de Domínio isso não vale — o Acerto garantido lê alvo, e item não é alvo.
+> **Você atravessa, o equipamento não.** Ferramenta amaldiçoada e objeto amaldiçoado emanam energia, e é o que eles emanam que a barreira lê: você entra na `Cortina`, e o seu equipamento amaldiçoado fica do lado de fora. Contra Expansão de Domínio isso não vale — o Acerto garantido lê alvo, e item não é alvo.
 A Passiva `Bocado`, no capítulo 10, *Técnica Marcial*, guarda o item dentro do corpo, e lá dentro ele para de emanar.
 
 ### Estímulo Muscular
 
 > **Estímulo Muscular** — escolha **uma perícia** e **um Teste de Resistência** na criação, e eles não mudam.
 >
-> **`1×` por cena, e `2×` se a sua Lapidação for `10`.** Cada uso dá **vantagem** numa rolagem de um dos dois.
+> **Usos.** `1×` por cena, e `2×` se a sua Lapidação for `10`. Cada uso dá **vantagem** numa rolagem de um dos dois.
 >
 > **Dano na arma.** Os seus ataques **com arma** causam `1d4` de dano a mais a cada `3` pontos de Lapidação — `1d4` na Lapidação `3`, `2d4` na `6`, `3d4` na `9`. **Na Lapidação `10` os dados viram `d6`.**
 >
@@ -5113,7 +5113,7 @@ A escolha não precisa ser física. `Ocultismo` mais `Intelecto` é uma ficha t�
 
 > **Ímpeto** — como Ação Bônus, você se move até o seu deslocamento sem provocar ataque de oportunidade.
 >
-> **E o chão deixa de ser obrigatório:** você anda em parede, em água e no ar enquanto estiver se movendo. Se terminar o movimento sem apoio, você cai.
+> **Sem chão.** Você anda em parede, em água e no ar enquanto estiver se movendo. Se terminar o movimento sem apoio, você cai.
 >
 > Requisito: Destreza 4. Classe Passiva 2.
 
@@ -5143,7 +5143,7 @@ Ela não vira imunidade: a escada de exaustão do capítulo 5 tem três degraus 
 
 > **Esteio** — escolha **um atributo** na criação. Num Teste de Resistência daquele atributo, se o `d20` sair abaixo da sua **Lapidação**, ele vale a sua Lapidação.
 >
-> **O piso nunca passa do atributo escolhido mais `2`** — então o máximo dele é `8`.
+> **Teto do piso.** Ele nunca passa do atributo escolhido mais `2`, então o máximo dele é `8`.
 >
 > Requisito: nenhum. Classe Passiva 3.
 
@@ -5153,7 +5153,7 @@ Ela não vira imunidade: a escada de exaustão do capítulo 5 tem três degraus 
 
 > **Faro** — você segue rastro de feiticeiro e de maldição pelo que o corpo deles deixou: cheiro, marca, o que ficou fora do lugar.
 >
-> **E, encostando no que uma técnica fez, você sabe o superficial do que ela fez ali** — o tipo de coisa que aconteceu, e nunca o detalhe nem de quem é.
+> **Vestígio de técnica.** Encostando no que uma técnica fez, você sabe o superficial do que ela fez ali: o tipo de coisa que aconteceu, e nunca o detalhe nem de quem é.
 >
 > Requisito: nenhum. Classe Passiva 1.
 
@@ -5197,7 +5197,7 @@ O `Ler o Ambiente` continua custando o que custava: ele é sobre o lugar, e o `E
 
 > **Assombro** — uma vez por cena, ao entrar numa cena ou ao ser visto pela primeira vez, escolha uma criatura que enxerga você.
 >
-> **Ela faz um Teste de Resistência de Espírito contra a CD da sua técnica ou fica `Amedrontado` até o fim do próximo turno dela.**
+> **O que ela rola.** Um Teste de Resistência de Espírito contra a CD da sua técnica, ou ela fica `Amedrontado` até o fim do próximo turno dela.
 >
 > Requisito: Essência 4. Classe Passiva 1.
 
@@ -6519,4 +6519,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: d4a0d1934330bf5ddbcb3343e0e0224b79e8b2fc -->
+<!-- fonte: 322b48a7b168490b4173d141e62944837737a13b -->

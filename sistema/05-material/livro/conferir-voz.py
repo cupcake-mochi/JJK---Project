@@ -306,6 +306,136 @@ def marcas_de_pendencia(manual):
     return achadas, teto
 
 
+# --------------------------------------------------------------------------
+# v0.153: o rotulo em negrito longo demais para ser nome de efeito, dentro de
+# entrada de catalogo. A v0.141 mediu 9 entradas e 12 rotulos e publicou o par
+# sem escrever a definicao; a v0.149 e a v0.152 tentaram remedir e acharam
+# outra coisa, porque cada uma inventou o proprio recorte.
+#
+# OS NUMEROS NAO MORAM AQUI: saem da REGRA-DE-VOZ.md, que declara junto a
+# FRONTEIRA. E sao DOIS: o de rotulos e a divida, e o de entradas e' GUARDA —
+# sem ele, renomear uma tabela faz o reconhecedor achar zero entrada, logo zero
+# rotulo, e a checagem passa verde para sempre sem ter conferido nada.
+# E o CORTE tambem sai da regua: ele e' valor de regra, e valor de regra dentro
+# de validador e' a licao no 9 pela porta do codigo. Se a linha sumir da
+# REGRA-DE-VOZ.md a checagem falha em voz alta em vez de cair num padrao.
+ROTULO_ABRE = re.compile(r"^\s*(?:>\s*)*\*\*(.+?)\*\*")
+CAMADA_1 = re.compile(r"\s*\*\*(.+?)\*\*\s*[—–-]")
+
+
+def _limpo(t):
+    return re.sub(r"\s+", " ", re.sub(r"[`*_]", "", t)).strip().lower()
+
+
+def _palavras(t):
+    t = re.sub(r"`[^`]*`", "X", re.sub(r"[*_]", "", t))
+    return len([p for p in re.split(r"[\s—–]+", t) if re.search(r"\w", p)])
+
+
+def _abre_paragrafo(linhas, i):
+    if i == 0:
+        return True
+    ant = linhas[i - 1].rstrip()
+    return ant == "" or re.fullmatch(r"\s*>\s*", ant) is not None
+
+
+def _nomes_de_tabela(linhas):
+    """Primeira coluna de toda tabela do capitulo — o catalogo que o LIVRO publica."""
+    nomes = set()
+    for linha in linhas:
+        if not linha.startswith("|"):
+            continue
+        celulas = [c.strip() for c in linha.strip("|").split("|")]
+        if not celulas or set(celulas[0]) <= set("-: "):
+            continue
+        n = _limpo(celulas[0])
+        if n and len(n) < 40:
+            nomes.add(n)
+    return nomes
+
+
+def _secoes_folha(linhas):
+    """Seccoes ### e #### sem subseccao dentro.
+
+    O corte fecha em QUALQUER cabecalho de nivel igual ou menor — inclusive `##`
+    e `#`. Sem isso o corpo de uma `###` vaza pela `##` seguinte e vai ate a
+    proxima `###`, e a checagem passa a cobrar de uma entrada o rotulo que mora
+    tres seccoes adiante. Mesmo defeito de recorte que a v0.151 pagou.
+    """
+    marcas = []
+    for i, linha in enumerate(linhas):
+        m = re.match(r"^(#{1,6}) ", linha)
+        if m:
+            marcas.append((i, len(m.group(1)), linha[len(m.group(1)) + 1:].strip()))
+    saida = []
+    for k, (i, nivel, titulo) in enumerate(marcas):
+        if nivel not in (3, 4):
+            continue
+        fim = len(linhas)
+        for j in range(k + 1, len(marcas)):
+            if marcas[j][1] <= nivel:
+                fim = marcas[j][0]
+                break
+        folha = not any(marcas[j][0] < fim for j in range(k + 1, len(marcas)))
+        if folha:
+            saida.append((titulo, linhas[i + 1:fim], i + 1))
+    return saida
+
+
+def _abre_pela_camada_1(titulo, corpo):
+    """A entrada abre dizendo o proprio nome: caixa `**Nome** — ancora`, ou
+    ancora em prosa que nomeia ela (o formato das condicoes)."""
+    t = _limpo(titulo)
+    i = 0
+    while i < len(corpo) and not corpo[i].strip():
+        i += 1
+    if i >= len(corpo):
+        return False
+    if corpo[i].lstrip().startswith(">"):
+        m = CAMADA_1.match(re.sub(r"^\s*>\s?", "", corpo[i]))
+        return bool(m and _limpo(m.group(1)) == t)
+    return t in _limpo(corpo[i]) and not ROTULO_ABRE.match(corpo[i])
+
+
+def _regua_do_rotulo(manual):
+    """(corte, teto_rotulos, teto_entradas), tudo lido da REGRA-DE-VOZ.md."""
+    regua = os.path.join(os.path.dirname(manual), "REGRA-DE-VOZ.md")
+    if not os.path.isfile(regua):
+        return None, None, None
+    texto = open(regua, encoding="utf-8").read()
+    m = re.search(r"negrito \*\*abrindo parágrafo\*\*, com mais de `(\d+)` palavras", texto)
+    corte = int(m.group(1)) if m else None
+    m = re.search(r"O livro carrega `(\d+)` rótulos longos demais, em `(\d+)` "
+                  r"entradas de catálogo", texto)
+    return corte, (int(m.group(1)) if m else None), (int(m.group(2)) if m else None)
+
+
+def entradas_de_catalogo(manual):
+    """Devolve (rotulos_longos, n_entradas, teto_rotulos, teto_entradas, corte)."""
+    corte, teto_r, teto_e = _regua_do_rotulo(manual)
+    if corte is None:
+        return None, 0, teto_r, teto_e, None
+    longos, n_entradas = [], 0
+    for nome in CAPITULOS:
+        caminho = os.path.join(manual, nome)
+        if not os.path.isfile(caminho):
+            continue
+        linhas = open(caminho, encoding="utf-8").read().split("\n")
+        nomes = _nomes_de_tabela(linhas)
+        for titulo, corpo, off in _secoes_folha(linhas):
+            if _limpo(titulo) not in nomes or not _abre_pela_camada_1(titulo, corpo):
+                continue
+            n_entradas += 1
+            for k, linha in enumerate(corpo):
+                if not _abre_paragrafo(corpo, k):
+                    continue
+                m = ROTULO_ABRE.match(linha)
+                if m and _palavras(m.group(1)) > corte:
+                    longos.append((nome, off + k + 1, titulo,
+                                   _palavras(m.group(1)), m.group(1)))
+    return longos, n_entradas, teto_r, teto_e, corte
+
+
 def main():
     inventario = "--inventario" in sys.argv
     estrito = "--estrito" in sys.argv
@@ -381,7 +511,28 @@ def main():
               f"{len(marcas)} — ou entrou marca nova, ou uma foi fechada e o "
               f"número não desceu junto")
 
-    if estrito and (soma or quebradas or estourou or marcas_estourou):
+    longos, n_entradas, teto_rot, teto_ent, corte = entradas_de_catalogo(MANUAL)
+    if corte is None:
+        print("\n  !! a REGRA-DE-VOZ.md não declara o corte de palavras do rótulo —"
+              " a checagem ROTULO-LONGO não tem régua para aplicar")
+        rotulo_estourou, entrada_estourou = True, False
+    else:
+        print(f"\n  {n_entradas} entrada(s) de catálogo; {len(longos)} rótulo(s) em negrito"
+              f" com mais de {corte} palavras. O dono diz {teto_rot} em {teto_ent}.")
+        for arq, n, titulo, p, txt in longos:
+            print(f"      ROTULO-LONGO  {arq}:{n}  ### {titulo}  ({p}p)  {txt[:56]}")
+        rotulo_estourou = teto_rot is not None and len(longos) != teto_rot
+        entrada_estourou = teto_ent is not None and n_entradas != teto_ent
+    if rotulo_estourou and longos is not None:
+        print(f"      !! a REGRA-DE-VOZ.md declara {teto_rot} rótulo(s) longo(s) e o livro"
+              f" tem {len(longos)} — entrada de catálogo saiu das quatro camadas")
+    if entrada_estourou:
+        print(f"      !! a REGRA-DE-VOZ.md declara {teto_ent} entrada(s) de catálogo e o"
+              f" reconhecedor achou {n_entradas} — ou entrou entrada nova, ou ele ficou"
+              f" cego (tabela renomeada, camada 1 quebrada) e a contagem de rótulo não vale")
+
+    if estrito and (soma or quebradas or estourou or marcas_estourou
+                    or rotulo_estourou or entrada_estourou):
         sys.exit(1)
 
 

@@ -8,6 +8,90 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.153] — 25/08/2026
+
+**A dívida de texto do item 5 fechou, e o que a destravou foi reconstruir a DEFINIÇÃO em vez de escolher entre os números.** *Três versões tentaram remedir a mesma coisa e acharam três coisas — `209`, `4`, e uma contagem descartada —, porque o par publicado na v0.141 nunca teve definição escrita.*
+
+### ⚠⚠ O primeiro trabalho não era consertar texto: era descobrir por que `4` não era `6`
+
+**A v0.152 parou aqui, e parar foi certo.** *Ela tinha um recorte que dava `4` entradas no capítulo 12 contra as `6` que a v0.141 publicou, e as duas explicações possíveis — outra definição, ou conserto de passagem na v0.147 e na v0.148 — levam a trabalhos opostos.*
+
+**A segunda caiu por medida.** *A cópia abandonada da v0.138 tem o livro inteiro daquela versão.* **Medida com o mesmo filtro, ela dá exatamente o mesmo que hoje** — e o `diff` do capítulo 12 mostra que as edições da v0.147 e da v0.148 ali só **acrescentaram** rótulos, os três curtos e na forma certa (`Dano na arma.`, `Só arma.`, `Exemplo.`). *Nada foi consertado de passagem.*
+
+**Então era a primeira, e ela foi reconstruída.** *Vinte e seis recortes rodados sobre o mesmo texto: o capítulo 12 cai em `4`, `6`, `7` ou `8` entradas, e o livro inteiro em qualquer coisa entre `18` e `223`, conforme o que se chama de entrada e de rótulo.*
+
+> ***O par da v0.141 reproduz EXATO — `9` entradas, `12` rótulos, `6` delas no capítulo 12*** *— com uma definição torta: a entrada se qualifica por ter rótulo longo **dentro da caixa de regra**, e os rótulos são contados **na seção inteira** dela.* **Uma metade do par medida por um recorte, a outra por outro** — e é isso que a fez irreproduzível por três versões.
+
+**Os dois erros da v0.152 quase se cancelaram.** *Ela recortou "entrada" como *toda `###` depois do bloco `Como ler`* — que varre seção de regra para dentro e perde as entradas escritas em `####`, como as treze condições — e exigiu que o rótulo **terminasse em ponto**, o que derruba três defeitos reais de uma vez: o `Ímpeto`, que fecha em dois-pontos, e o `Esteio` e o `Faro`, que não fecham em nada.*
+
+### A definição endireitada, e ela tem dono
+
+**Endireitada — toda entrada de catálogo, rótulo contado na seção inteira —, o mesmo texto dava `11` entradas e `14` rótulos**, ainda com `6` entradas no capítulo 12. *É essa que foi publicada, porque a torta é a que não sobrevive a quem a reler.*
+
+| | |
+|---|---|
+| **entrada de catálogo** | seção-folha `###` ou `####` cujo nome está numa **tabela do próprio capítulo**, e que abre pela camada 1 — `**<o nome dela>** — âncora`, ou âncora em prosa que a nomeia |
+| **rótulo longo demais** | negrito **abrindo parágrafo**, com mais de `6` palavras, na seção daquela entrada |
+
+**A lista das entradas não mora no validador: ela mora na tabela que o livro publica** — a `Como ler uma Bênção`, a `Condições em uma linha`, a `Como ler uma aptidão`. *A `REGRA-DE-VOZ.md` declara os dois números e a fronteira; a `METODO-passada-de-texto.md` deixou de repetir o par e passou a apontar.*
+
+> **A fronteira é escrita para não virar discussão:** *caixa de regra fora de entrada não conta — o livro tem `253` delas, e é daí que sai o `209`; rótulo em célula de tabela não conta, porque sem quebra de parágrafo o negrito não é camada 3; e `Estigma`, Legado e entrega de Trilha não contam, porque as três se escrevem em **uma linha** dentro de caixa compartilhada.*
+
+### Os catorze rótulos, em onze entradas e cinco capítulos
+
+*Cada um virou `**nome do efeito.**` mais a regra, que é a camada 3 da régua.*
+
+| capítulo | entrada | de | para |
+|---|---|---|---|
+| 8 | `Coro` | 17 palavras | **`A saída é uma só.`** |
+| 9 | `Regra Própria` | 14 | **`Altura na compra.`** |
+| 10 | `Atributo` | 11 e 10 | **`Acerto dos três grupos.`** · **`Só Força e Destreza.`** |
+| 11 | `Kokusen Constante` · `Cortina` | 18 e 9 | **`As três empilham.`** · **`Tamanho.`** |
+| 12 | `Defesa sem Armadura` | 12, 8 e 11 | **`Expansão de Domínio.`** · **`Traje e Revestimento.`** · **`Você atravessa, o equipamento não.`** |
+| 12 | `Estímulo Muscular` · `Ímpeto` · `Esteio` | 11, 7 e 9 | **`Usos.`** · **`Sem chão.`** · **`Teto do piso.`** |
+| 12 | `Faro` · `Assombro` | 16 e 24 | **`Vestígio de técnica.`** · **`O que ela rola.`** |
+
+*O `Assombro` era o pior: `24` palavras, a regra inteira em negrito, no lugar em que o nome do efeito deveria estar.* **`Vestígio` passou na triagem como `LIVRE`, e é a palavra que o `Sem Pegada` já usa duas seções adiante.**
+
+### A checagem, e a guarda que ela precisava ter
+
+**Entrou o `ROTULO-LONGO` no `conferir-voz.py`, no molde das `7` marcas: o número mora na régua e o validador reconta.** *E ele lê **dois** números, não um.*
+
+> **O de rótulos é a dívida; o de entradas é GUARDA.** *Sem ela, renomear uma tabela faz o reconhecedor achar zero entrada, logo zero rótulo — e a checagem passa verde para sempre sem ter conferido nada.* **É a lição nº 8 no reconhecedor em vez de no valor.**
+
+**⚠ E o recorte de seção nasceu com o defeito da v0.151, de novo.** *Ele fechava a `###` só no próximo `###`, e não em `##` — então o corpo de uma entrada vazava três seções adiante e ela era cobrada por rótulo que não era dela.* **Duas das quatro primeiras acusações eram esse vazamento**, e só apareceram porque o número não fechava.
+
+### O arnês
+
+*Cópia isolada, base conferida verde **e lida linha a linha** antes de cada caso, cópia refeita do zero a cada perturbação.* **Dez casos: seis acendendo e quatro contra-testes verdes.**
+
+*Acendem:* rótulo alongado numa entrada; o rótulo velho do `Assombro` voltando; rótulo alongado noutro capítulo; entrada renomeada só na tabela; camada 1 quebrada; e o número da régua descendo sem o livro descer junto.
+*Ficam verdes:* negrito longo em seção de **regra**; negrito longo dentro de **célula de tabela**; rótulo novo curto; e a entrada renomeada nos **dois** lados.
+
+> **⚠ E o arnês pegou dois defeitos meus, os dois nas perturbações.** *A regressão do `Assombro` não fechava o `**`, então o rótulo sumia em vez de voltar, e ela saía **verde** pelo motivo errado.* **E o contra-teste da célula mexia na PRIMEIRA coluna — que é a lista de entradas —, então ele acendia a guarda em vez de testar a célula.** *Perturbação que não reproduz o defeito não prova nada, e as duas pareciam certas lendo.*
+
+### Medido depois
+
+| | v0.152 | v0.153 |
+|---|---|---|
+| peças de regra · validadores · checagens | 24 · 24 · 255 | iguais |
+| entradas de catálogo no livro | *sem dono* | **52** |
+| rótulos longos demais | **14**, sem dono e sem validador | **0**, com os dois |
+| definições publicadas do mesmo número | **3, e as 3 diferentes** | **1** |
+| palavras do livro | 70.977 | **70.982** |
+| coluna única · duas colunas | 243 · 141 | **243 · 141** |
+| `conferir-voz --estrito` | 0 achados · 11 triagens | **0 achados · 11 triagens** |
+
+*Os 24 validadores verdes com `PULADA = 0`, o `conferir-repositorio.py`, os dois de `manual/matematica/` e os quatro builds.* **Nenhum número de sistema se moveu: é trabalho de forma, e o manual do Fundamento não foi tocado.**
+
+> **Os quatro builds rodaram AQUI, e o controle da v0.151 foi rodado antes de eles valerem.** *Reconstruindo a partir da fonte de antes das edições, a coluna única saiu com `243` páginas e `3.034.652` bytes contra os `3.034.648` do build anterior* — **quatro bytes, e eles são o carimbo de data do PDF.**
+
+*`guard_numeros.py` nos cinco arquivos mexidos.* **Três saíram com a notação de número IDÊNTICA**, e as três diferenças dos outros dois foram isoladas linha a linha: *o `uma` do capítulo 8 é o `uma só` do rótulo novo; o `um` e o `dois` do capítulo 12 saem os dois da **mesma** linha, o `Vestir um dos dois` que substituiu os dois nomes próprios que moravam dentro do negrito.* **Revertendo só aquela linha, a notação volta a bater** — conferido.
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **A fila de mecânica é a mesma**, e a dívida de texto saiu dela: *sobram as três dívidas de preço, as sete marcas de "isto ainda não existe" e os dois rascunhos.*
+
+---
+
 ## [0.152] — 25/08/2026
 
 **A primeira das quatro dívidas de preço foi paga, e ela encolheu antes de ser paga.** *A dívida estava escrita em quatro documentos como **"os onze `Estigma` nunca foram preçados uns contra os outros"** — e duas coisas do próprio projeto dizem que essa conta não existe.*

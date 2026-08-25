@@ -206,7 +206,7 @@ O `+2` acumulado é a memória do personagem. Quem passou a noite inteira quase 
 >
 > Requisito: refino 5. O refino escala a chance no d100.
 
-> **As três empilham, nesta ordem: a base é `3 × refino`, e a vantagem da `Kokusen Melhorado` rola em cima dela.** Com as três na ficha, o d100 sai em 51% no refino 10. Nenhuma delas exige a outra.
+> **As três empilham.** Nesta ordem: a base é `3 × refino`, e a vantagem da `Kokusen Melhorado` rola em cima dela. Com as três na ficha, o d100 sai em 51% no refino 10. Nenhuma delas exige a outra.
 
 **Kokusen Constante**
 {: .tab-titulo }
@@ -326,7 +326,7 @@ A condição da `Cortina` fala de quem atravessa, e de mais nada.
 | impedir que quem está dentro saia | dar bônus a quem está dentro |
 | deixar passar quem você nomeou na hora de levantar | esconder de quem é feiticeiro, porque o efeito base já é o contrário |
 
-> **O tamanho da `Cortina` não se mede em metros.** Ela cobre um lugar — um prédio, uma escola, um quarteirão —, e nada do que ela faz depende de distância. Quem precisa fechar uma distância com energia usa a `Barreira Simples`, que tem raio.
+> **Tamanho.** A `Cortina` não se mede em metros: ela cobre um lugar — um prédio, uma escola, um quarteirão —, e nada do que ela faz depende de distância. Quem precisa fechar uma distância com energia usa a `Barreira Simples`, que tem raio.
 
 ## Escrever uma aptidão
 

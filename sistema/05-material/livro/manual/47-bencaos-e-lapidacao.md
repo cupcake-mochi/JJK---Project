@@ -95,15 +95,15 @@ Estas duas chegam com a ficha, na Lapidação 1, sem custar marco nenhum.
 >
 > **Barreira de energia não segura você.** `Barreira Simples` e `Cortina` não valem contra você.
 >
-> **O Acerto garantido de uma Expansão de Domínio completa não alcança você.** O Efeito continua acontecendo em volta, e uma Expansão incompleta funciona normalmente, porque o Acerto dela rola.
+> **Expansão de Domínio.** O Acerto garantido de uma Expansão completa não alcança você. O Efeito continua acontecendo em volta, e uma Expansão incompleta funciona normalmente, porque o Acerto dela rola.
 >
 > Requisito: grátis na Lapidação 1. A Lapidação escala a proteção.
 
-**Vestir Traje ou Revestimento desliga só a proteção.** A barreira e o Acerto garantido continuam valendo: eles vêm de você não ter energia amaldiçoada, e uniforme nenhum te dá uma.
+**Traje e Revestimento.** Vestir um dos dois desliga só a proteção. A barreira e o Acerto garantido continuam valendo: eles vêm de você não ter energia amaldiçoada, e uniforme nenhum te dá uma.
 
 Quem não tem energia amaldiçoada nunca tem Expansão de Domínio — está no capítulo 10, *Técnica Marcial*.
 
-> **O que atravessa é você, e não o que você carrega.** Ferramenta amaldiçoada e objeto amaldiçoado emanam energia, e é o que eles emanam que a barreira lê: você entra na `Cortina`, e o seu equipamento amaldiçoado fica do lado de fora. Contra Expansão de Domínio isso não vale — o Acerto garantido lê alvo, e item não é alvo.
+> **Você atravessa, o equipamento não.** Ferramenta amaldiçoada e objeto amaldiçoado emanam energia, e é o que eles emanam que a barreira lê: você entra na `Cortina`, e o seu equipamento amaldiçoado fica do lado de fora. Contra Expansão de Domínio isso não vale — o Acerto garantido lê alvo, e item não é alvo.
 {: .aviso }
 
 A Passiva `Bocado`, no capítulo 10, *Técnica Marcial*, guarda o item dentro do corpo, e lá dentro ele para de emanar.
@@ -112,7 +112,7 @@ A Passiva `Bocado`, no capítulo 10, *Técnica Marcial*, guarda o item dentro do
 
 > **Estímulo Muscular** — escolha **uma perícia** e **um Teste de Resistência** na criação, e eles não mudam.
 >
-> **`1×` por cena, e `2×` se a sua Lapidação for `10`.** Cada uso dá **vantagem** numa rolagem de um dos dois.
+> **Usos.** `1×` por cena, e `2×` se a sua Lapidação for `10`. Cada uso dá **vantagem** numa rolagem de um dos dois.
 >
 > **Dano na arma.** Os seus ataques **com arma** causam `1d4` de dano a mais a cada `3` pontos de Lapidação — `1d4` na Lapidação `3`, `2d4` na `6`, `3d4` na `9`. **Na Lapidação `10` os dados viram `d6`.**
 >
@@ -130,7 +130,7 @@ A escolha não precisa ser física. `Ocultismo` mais `Intelecto` é uma ficha t�
 
 > **Ímpeto** — como Ação Bônus, você se move até o seu deslocamento sem provocar ataque de oportunidade.
 >
-> **E o chão deixa de ser obrigatório:** você anda em parede, em água e no ar enquanto estiver se movendo. Se terminar o movimento sem apoio, você cai.
+> **Sem chão.** Você anda em parede, em água e no ar enquanto estiver se movendo. Se terminar o movimento sem apoio, você cai.
 >
 > Requisito: Destreza 4. Classe Passiva 2.
 
@@ -160,7 +160,7 @@ Ela não vira imunidade: a escada de exaustão do capítulo 5 tem três degraus 
 
 > **Esteio** — escolha **um atributo** na criação. Num Teste de Resistência daquele atributo, se o `d20` sair abaixo da sua **Lapidação**, ele vale a sua Lapidação.
 >
-> **O piso nunca passa do atributo escolhido mais `2`** — então o máximo dele é `8`.
+> **Teto do piso.** Ele nunca passa do atributo escolhido mais `2`, então o máximo dele é `8`.
 >
 > Requisito: nenhum. Classe Passiva 3.
 
@@ -170,7 +170,7 @@ Ela não vira imunidade: a escada de exaustão do capítulo 5 tem três degraus 
 
 > **Faro** — você segue rastro de feiticeiro e de maldição pelo que o corpo deles deixou: cheiro, marca, o que ficou fora do lugar.
 >
-> **E, encostando no que uma técnica fez, você sabe o superficial do que ela fez ali** — o tipo de coisa que aconteceu, e nunca o detalhe nem de quem é.
+> **Vestígio de técnica.** Encostando no que uma técnica fez, você sabe o superficial do que ela fez ali: o tipo de coisa que aconteceu, e nunca o detalhe nem de quem é.
 >
 > Requisito: nenhum. Classe Passiva 1.
 
@@ -214,7 +214,7 @@ O `Ler o Ambiente` continua custando o que custava: ele é sobre o lugar, e o `E
 
 > **Assombro** — uma vez por cena, ao entrar numa cena ou ao ser visto pela primeira vez, escolha uma criatura que enxerga você.
 >
-> **Ela faz um Teste de Resistência de Espírito contra a CD da sua técnica ou fica `Amedrontado` até o fim do próximo turno dela.**
+> **O que ela rola.** Um Teste de Resistência de Espírito contra a CD da sua técnica, ou ela fica `Amedrontado` até o fim do próximo turno dela.
 >
 > Requisito: Essência 4. Classe Passiva 1.
 

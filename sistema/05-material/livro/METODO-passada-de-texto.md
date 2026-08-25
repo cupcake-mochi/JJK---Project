@@ -146,7 +146,9 @@ O sintoma do que está fora é medível: **rótulo em negrito com mais de seis p
 largura ele parou de ser *nome do efeito* e virou *a regra*, e o leitor perde o índice visual
 que existe para ele achar a linha que quer sem ler a entrada inteira.
 
-*Medido na v0.141: **nove entradas, doze rótulos**, e seis das nove no capítulo das Bênçãos.*
+**O número tem dono desde a v0.153, e o dono é a `REGRA-DE-VOZ.md`** — ela declara quantos rótulos longos o livro carrega, em quantas entradas, e a **fronteira** de quem conta. *O `conferir-voz.py` reconta e falha nos dois sentidos.*
+
+> **⚠ Não copie o número para cá.** *A v0.141 mediu e publicou o par sem escrever a definição, e as duas versões seguintes que tentaram remedir acharam outra coisa — `209` numa, `4` na outra.* **Uma contagem sem fronteira escrita não é medida: é lembrança.**
 
 > **O `Bocado` foi o exemplar, e ele durou dezenove versões.** *Abria com metáfora — "o que você
 > carrega passa a viver dentro de você" — e a regra que o jogador usa toda rodada, o saque a

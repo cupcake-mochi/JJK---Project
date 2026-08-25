@@ -1,8 +1,22 @@
 # Estado atual do projeto
 
-Atualizado em 25/08/2026, na v0.152 (última peça fechada: **Dano de alma e Integridade**, a peça 24, na v0.145, com o `conferir-alma.py` e onze checagens; antes dela, **Bloquear, na v0.143**; antes dela, o **Objeto amaldiçoado, na v0.132**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 25/08/2026, na v0.153 (última peça fechada: **Dano de alma e Integridade**, a peça 24, na v0.145, com o `conferir-alma.py` e onze checagens; antes dela, **Bloquear, na v0.143**; antes dela, o **Objeto amaldiçoado, na v0.132**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.152.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e quatro peças escritas** e **vinte e quatro validadores**.
+**Versão v0.153.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e quatro peças escritas** e **vinte e quatro validadores**.
+
+***A v0.153 fechou a dívida de texto do livro, e o que a destravou foi reconstruir a DEFINIÇÃO em vez de escolher entre os números.*** **Três versões mediram a mesma coisa e acharam três coisas — `209`, `4`, e uma contagem descartada —, porque o par publicado na v0.141 nunca teve definição escrita.**
+
+> **O primeiro trabalho não era consertar texto: era descobrir por que `4` não era `6`.** *A cópia abandonada da v0.138 tem o livro daquela versão inteiro, e medida com o mesmo filtro ela dá **exatamente o mesmo que hoje** — então nada foi consertado de passagem na v0.147 nem na v0.148.* **A explicação era a outra, e ela foi reconstruída: vinte e seis recortes rodados sobre o mesmo texto, e o capítulo 12 cai em `4`, `6`, `7` ou `8` conforme o que se chama de entrada.**
+>
+> ***O par da v0.141 reproduz EXATO — `9` entradas, `12` rótulos, `6` no capítulo 12 — com uma definição TORTA:*** *a entrada se qualifica por ter rótulo longo dentro da **caixa de regra**, e os rótulos são contados na **seção inteira** dela.* **Uma metade do par medida por um recorte e a outra por outro, e é isso que a fez irreproduzível por três versões.**
+>
+> **Endireitada — toda entrada, rótulo na seção inteira — o mesmo texto dava `11` entradas e `14` rótulos.** *É essa que foi publicada, e os catorze foram pagos: cada um virou `**nome do efeito.**` mais a regra.* **O pior era o `Assombro`, com `24` palavras — a regra inteira em negrito, no lugar em que o nome deveria estar.**
+>
+> **Entrou o `ROTULO-LONGO` no `conferir-voz.py`, e ele lê DOIS números da `REGRA-DE-VOZ.md`.** *O de rótulos é a dívida — hoje `0`; o de entradas é **guarda** — `52`.* ***Sem a guarda, renomear uma tabela faz o reconhecedor achar zero entrada, logo zero rótulo, e a checagem passa verde para sempre sem ter conferido nada.***
+>
+> **⚠ E o recorte de seção nasceu com o defeito da v0.151, de novo:** *ele fechava a `###` só na próxima `###`, e não em `##`.* **Duas das quatro primeiras acusações eram o corpo de uma entrada vazando três seções adiante**, e só apareceram porque o número não fechava.
+>
+> **⚠⚠ O arnês pegou dois defeitos meus, e os dois estavam nas PERTURBAÇÕES.** *A regressão do `Assombro` não fechava o `**`, então o rótulo sumia em vez de voltar e ela saía **verde** pelo motivo errado; e o contra-teste da célula mexia na primeira coluna, que é a lista de entradas, então ele acendia a guarda em vez de testar a célula.* **Perturbação que não reproduz o defeito não prova nada, e as duas pareciam certas lendo.**
 
 ***A v0.152 pagou a primeira das quatro dívidas de preço, e ela encolheu antes de ser paga.*** **A dívida dizia "os onze `Estigma` nunca foram preçados uns contra os outros", e duas coisas do próprio projeto dizem que essa conta não existe.**
 
@@ -1181,7 +1195,7 @@ As duas são economias de poder novas, e construir a quarta e a quinta antes de 
 | **Itens iniciais por Caminho** | *levantado pelo Mizuki na v0.135.* **O que cada Caminho leva na mão quando a ficha nasce** — a criação da peça 8 dá perícia, ofício, Trilha e técnica, e não diz com que equipamento o personagem sai de casa. *A peça 14 tem as 52 armas e as duas classes de uniforme, e ninguém escreveu quais delas a criação entrega.* **Ela encosta em itens menores e provavelmente fecha junto** |
 | **Itens menores** | *levantado pelo Mizuki na v0.131.* **Consumível e afins** — o que se compra, se gasta e acaba: talismã pronto, remédio, corda, lanterna, o kit que o `Herbalismo` usa. **A peça 14 tem a régua de itens comuns em três camadas, com a terceira desligada** (§8), e nada disso tem preço nem lista |
 | **O que cada ofício FAZ** | *levantado pelo Mizuki na v0.139.* **Hoje os onze ofícios são só uma rolagem de análise** — o capítulo 3 diz o que cada um cobre e que o mestre escolhe o atributo na hora, e para por aí. *Falta a mecânica própria, no molde do D&D:* **o que cada um FABRICA, e o que ele faz num descanso.** *`Herbalismo` produz remédio, `Caligrafia` produz talismã, `Forja` conserta e afia — nada disso tem regra.* **Decisão dele: aqui é a versão superficial; o aprofundamento vai para o livro do mestre.** *Ela encosta em **itens menores** — ofício sem lista de item não tem o que produzir — mas é item próprio no fim da fila* |
-| **As nove entradas fora das quatro camadas** | *medido na v0.141.* **A forma de entrada de catálogo virou obrigatória** — `REGRA-DE-VOZ.md` e `METODO-passada-de-texto.md` —, e o livro tem **nove entradas com doze rótulos em negrito longos demais para serem nome de efeito**, acima das `4 a 6` palavras que o PHB entrega. *Seis das nove estão no capítulo 12, Bênçãos e Lapidação.* **É trabalho de forma, não de regra: nenhum número muda** |
+| ~~**As entradas fora das quatro camadas**~~ | **FECHADA na v0.153, e o número ganhou dono e validador.** *Medida na v0.141 e nunca re-medida, ela sobreviveu porque o par publicado não tinha definição escrita — e as duas versões que tentaram remedir acharam `209` e `4`.* **Reconstruída, endireitada e paga: `14` rótulos em `11` entradas, e hoje o livro carrega `0` em `52`.** *A régua declara os dois números e a fronteira; o `ROTULO-LONGO` do `conferir-voz.py` reconta e falha nos dois sentidos.* **Nenhum número de sistema se moveu** |
 | **Bestiário** | sai da matemática de inimigo que o manual já tem |
 
 ~~E uma coisa solta que não é peça: o nome do sistema.~~ **Batizado na v0.94: `Projeto - M`.** *Era a pendência mais velha do projeto — aberta na v0.1 e fechada 93 versões depois.*
