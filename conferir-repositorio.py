@@ -59,6 +59,66 @@ FALHAS = []
 AVISOS = []
 PULADAS = []
 
+MEC = os.path.join(RAIZ, 'sistema', '03-mecanica')
+pecas = sorted(f for f in os.listdir(MEC) if re.match(r'^\d\d-.*\.md$', f))
+
+
+# ============================================================ O RECORTE DA ENTREGA
+# DONO UNICO da lista de arquivos que a entrega carrega.
+#
+# Ate a v0.148 esta lista morava so' dentro da checagem 7.1, e a copia para
+# finalizado/ era feita a mao. Ela derivou QUATRO vezes por causa disso — cinco
+# versoes na v0.121, duas na v0.135, uma pulada na v0.145, e duas pecas mais os
+# dois artefatos na v0.148 — e toda vez o conserto foi o mesmo `cp` digitado de
+# novo. Agora o subir.sh copia antes de rodar os validadores, e ele pede a lista
+# AQUI: uma lista, um dono, e nao existe uma segunda para divergir.
+#
+# A 7.1 nao virou enfeite com isso. Ela continua pegando tres coisas que a copia
+# do subir.sh nao pega: quem editar a entrega direto, quem rodar este validador
+# a mao, e a propria copia falhando.
+#
+# Isto mora AQUI EM CIMA, antes da checagem 1, por um motivo mecanico: os dois
+# modos abaixo saem sem imprimir checagem nenhuma, e a saida deles e' lida por
+# script — um cabecalho no meio dela quebraria o `read` do subir.sh.
+def recorte_da_entrega():
+    """Os pares (fonte, copia) do recorte. `--recorte` imprime com TAB no meio."""
+    ent = os.path.join(RAIZ, 'finalizado')
+    pares = [(os.path.join(MEC, f), os.path.join(ent, 'regra', f)) for f in pecas]
+    for f in sorted(os.listdir(RAIZ)):
+        if re.match(r'^(DESENHO|LISTA)-.*\.md$', f):
+            pares.append((os.path.join(RAIZ, f), os.path.join(ent, 'desenho', f)))
+    pares.append((os.path.join(RAIZ, 'sistema', '02-esqueleto', 'arquitetura.md'),
+                  os.path.join(ent, 'desenho', 'arquitetura.md')))
+    for f in ('Fundamento-MANUAL-v7.docx', 'Fundamento-MANUAL-v7.pdf'):
+        pares.append((os.path.join(RAIZ, 'manual', f), os.path.join(ent, 'manual', f)))
+    for f in ('ficha-em-branco.docx', 'ficha-exemplo-kaori.docx'):
+        pares.append((os.path.join(RAIZ, 'sistema', '05-material', f),
+                      os.path.join(ent, 'ficha', f)))
+    # A fonte do livro e' o ARTEFATO que o build gera, e nao o .md — o que a
+    # entrega carrega e' o compilado, e e' ele que envelhece calado (v0.114).
+    livro = os.path.join(RAIZ, 'sistema', '05-material', 'livro')
+    for f in ('Projeto-M-Manual-da-Guilda.pdf',
+              'Projeto-M-Manual-da-Guilda-REVISAO.docx'):
+        pares.append((os.path.join(livro, f), os.path.join(ent, 'livro', f)))
+    return pares
+
+
+def versao_do_recorte():
+    """A versao que a entrega declara. O dono e' a entrada do topo do CHANGELOG."""
+    m = re.search(r'^## \[(\d+\.\d+)\]',
+                  open(os.path.join(RAIZ, 'logs', 'CHANGELOG.md'), encoding='utf-8').read(),
+                  re.MULTILINE)
+    return m.group(1) if m else ''
+
+
+if '--recorte' in sys.argv:
+    for _o, _d in recorte_da_entrega():
+        print(f'{_o}\t{_d}')
+    raise SystemExit(0)
+if '--versao-recorte' in sys.argv:
+    print(versao_do_recorte())
+    raise SystemExit(0)
+
 
 def erro(msg):
     FALHAS.append(msg)
@@ -145,8 +205,6 @@ def por_extenso(palavra):
     return None
 
 
-MEC = os.path.join(RAIZ, 'sistema', '03-mecanica')
-pecas = sorted(f for f in os.listdir(MEC) if re.match(r'^\d\d-.*\.md$', f))
 vals = sorted(f for f in os.listdir(MEC) if f.startswith('conferir-') and f.endswith('.py'))
 print(f'\n  {len(pecas)} pecas de regra, {len(vals)} validadores.')
 
@@ -577,34 +635,7 @@ else:
     # -- 7.1: toda copia bate byte a byte com a fonte. ------------------------
     # A entrega nao tem validador proprio e nenhum outro atravessa repositorio.
     # Ate aqui, a unica forma de saber se ela estava velha era md5 na mao.
-    ESPERADO = [(os.path.join(MEC, f), os.path.join(ENT, 'regra', f)) for f in pecas]
-    for f in sorted(os.listdir(RAIZ)):
-        if re.match(r'^(DESENHO|LISTA)-.*\.md$', f):
-            ESPERADO.append((os.path.join(RAIZ, f), os.path.join(ENT, 'desenho', f)))
-    ESPERADO += [
-        (os.path.join(RAIZ, 'sistema', '02-esqueleto', 'arquitetura.md'),
-         os.path.join(ENT, 'desenho', 'arquitetura.md')),
-        # v0.143: o RASCUNHO-bloqueio.md saiu daqui. Ele virou a peca 23, e a
-        # copia dele foi para 99-arquivo/ — material morto nao vai para a
-        # entrega. O recorte nao encolheu: a peca nova entrou no lugar.
-    ]
-    for f in ('Fundamento-MANUAL-v7.docx', 'Fundamento-MANUAL-v7.pdf'):
-        ESPERADO.append((os.path.join(RAIZ, 'manual', f), os.path.join(ENT, 'manual', f)))
-    for f in ('ficha-em-branco.docx', 'ficha-exemplo-kaori.docx'):
-        ESPERADO.append((os.path.join(RAIZ, 'sistema', '05-material', f),
-                         os.path.join(ENT, 'ficha', f)))
-    # O livro entrou no recorte na v0.114, e o motivo foi um defeito real: na
-    # v0.112 o .pdf publicado estava TRES versoes atrasado — sem as condicoes
-    # reescritas, sem o capitulo 11 reordenado, sem o vocabulario novo e sem a
-    # regra de vida temporaria — e ninguem acusou, porque `livro/` nunca esteve
-    # aqui. Ele so apareceu porque o build foi rodado para testar outra coisa.
-    #
-    # A fonte e' o que o build gera em 05-material/livro/, e nao o fonte .md:
-    # o que a entrega carrega e' o artefato, e e' ele que envelhece calado.
-    LIVRO = os.path.join(RAIZ, 'sistema', '05-material', 'livro')
-    for f in ('Projeto-M-Manual-da-Guilda.pdf',
-              'Projeto-M-Manual-da-Guilda-REVISAO.docx'):
-        ESPERADO.append((os.path.join(LIVRO, f), os.path.join(ENT, 'livro', f)))
+    ESPERADO = recorte_da_entrega()
 
     # guarda de contagem: se o recorte encolher, ela acusa em vez de conferir
     # menos em silencio. Piso = 17 pecas + 4 desenhos + 2 avulsos + 2 do manual

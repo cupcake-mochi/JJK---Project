@@ -2,7 +2,7 @@
 
 **O sistema se chama `Projeto - M`**, batizado na v0.94 — era a pendência mais velha que existia aqui, aberta na v0.1. Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.148** · manual do Fundamento na **v7.13** · **vinte e quatro peças de regra** e **vinte e quatro validadores passando** · o Manual da Guilda em **17 capítulos**.
+**Versão v0.149** · manual do Fundamento na **v7.13** · **vinte e quatro peças de regra** e **vinte e quatro validadores passando** · o Manual da Guilda em **17 capítulos**.
 
 ---
 
@@ -177,14 +177,28 @@ jjk               # o atalho que entra nesta pasta
 
 Ele roda **todos os validadores** — os de `03-mecanica/`, o `conferir-repositorio.py` e os dois de `manual/matematica/` —, mostra o que mudou, commita e dá push, e **se recusa a commitar se algum falhar**. *Quantos são, exatamente, está na linha de versão no topo deste arquivo, e só lá — este parágrafo já disse "dezoito" e "quinze" enquanto eram dezenove e dezesseis, porque contagem copiada envelhece na versão seguinte (lição nº 9).*
 
-### E a entrega é commitada À MÃO, porque ela não tem script
+### A entrega: o `subir.sh` copia, e você commita
 
-**`finalizado/` é um repositório separado e não tem `subir.sh`.** *O `.gitignore` dele já
-segura o `mensagem-de-commit.txt`, então `add -A` é seguro.*
+**`finalizado/` é um repositório separado e não tem `subir.sh` próprio.** *O `.gitignore` dele
+já segura o `mensagem-de-commit.txt`, então `add -A` é seguro.*
+
+**Desde a v0.148 a cópia é do script.** *O passo `0. a entrega` roda antes dos validadores,
+copia o que estiver velho, acerta a linha `Recorte da vX.Y.` do `README` da entrega, e **diz na
+tela cada arquivo que mexeu**.* Se a entrega mudou, ele lembra o comando no fim — e o lembrete
+está num `trap`, então ele aparece **também quando o script sai cedo**, que é quando dá para
+esquecer.
 
 ```bash
-cd finalizado && git add -A && git commit -F mensagem-de-commit.txt && git push
+cd finalizado && git add -A && git commit -m "recorte da v0.148" && git push && cd ..
 ```
+
+> **A lista de arquivos não mora no `subir.sh`.** *Ela sai de `conferir-repositorio.py
+> --recorte`, que é o mesmo lugar de onde a checagem 7.1 lê* — **uma lista, um dono**. E a
+> versão sai de `--versao-recorte`, cujo dono é a entrada do topo do `CHANGELOG`. *Os dois modos
+> imprimem e saem sem rodar checagem nenhuma, para a saída poder ser lida por script.*
+
+> **A 7.1 não virou enfeite com isso.** *Ela continua pegando três coisas que a cópia não pega:
+> quem editar a entrega direto, quem rodar o validador à mão, e a própria cópia falhando.*
 
 > **A ordem normal é projeto primeiro, entrega depois** — o `subir.sh` roda a checagem 7.4
 > antes de a entrega ser commitada, e por isso ela aceita a entrega estar **uma** versão
@@ -192,10 +206,10 @@ cd finalizado && git add -A && git commit -F mensagem-de-commit.txt && git push
 > antes, senão o `subir.sh` do projeto se recusa a rodar. *Aconteceu na v0.146, porque o
 > commit da entrega da v0.145 foi pulado.*
 
-> **Isto ficou sem estar escrito em lugar nenhum até a v0.146**, e a entrega já derivou por
-> isso três vezes — cinco versões na v0.121, duas na v0.135, e uma pulada na v0.145.
-> *A entrega se declara "artefato, não fonte" no próprio `.gitignore`, então o script não vai
-> para lá: a instrução mora aqui, que é onde o procedimento do projeto mora.*
+> **A entrega derivou QUATRO vezes por ser manual** — cinco versões na v0.121, duas na v0.135,
+> uma pulada na v0.145, e duas peças mais os dois artefatos na v0.148. *Nas quatro o conserto foi
+> o mesmo `cp` digitado de novo, e nas quatro alguém teve de lembrar.* **Foi a quarta que pagou
+> o passo 0.**
 
 Desde a v0.33 isso inclui uma trava a mais: **subir a versão no README, no `ESTADO-ATUAL` ou no `LEIA-ME` sem escrever a entrada do `CHANGELOG` falha o `conferir-repositorio.py`.** A entrada do topo do CHANGELOG é o dono da versão do projeto. Um commit que registra regra quebrada é pior que nenhum commit: daqui a três versões ninguém sabe em qual commit ela entrou.
 

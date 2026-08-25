@@ -60,6 +60,75 @@ subir_para_o_remoto() {
 }
 
 # --------------------------------------------------------------------------
+# A entrega e' um repositorio SEPARADO e nao tem script proprio. Ate a v0.148 a
+# copia era digitada a mao, e ela derivou quatro vezes: cinco versoes na v0.121,
+# duas na v0.135, uma pulada na v0.145, e duas pecas mais os dois artefatos na
+# v0.148. Toda vez o conserto foi o mesmo `cp`, e toda vez alguem teve de
+# lembrar. Agora ele acontece aqui, ANTES dos validadores, para a checagem 7 ver
+# o estado sincronizado.
+#
+# A lista NAO mora aqui. Ela sai de `conferir-repositorio.py --recorte`, que e' o
+# mesmo lugar de onde a checagem 7.1 le — uma lista, um dono. E a versao sai de
+# `--versao-recorte`, cujo dono e' a entrada do topo do CHANGELOG.
+#
+# Nada disso e' silencioso: cada arquivo copiado aparece na tela. Um conserto que
+# ninguem ve e' pior que o defeito, porque ele esconde que a entrega estava velha.
+echo
+echo "=== 0. a entrega ==="
+
+ENT="$RAIZ/finalizado"
+copiados=0
+
+if [ ! -d "$ENT" ]; then
+    amarelo "  finalizado/ nao existe neste clone — nada a sincronizar."
+    echo "     (ele e' ignorado pelo .gitignore, entao um clone limpo nao carrega o recorte)"
+else
+    while IFS="$(printf '\t')" read -r fonte copia; do
+        [ -n "$fonte" ] || continue
+        if [ ! -f "$fonte" ]; then
+            amarelo "  falta a FONTE: ${fonte#$RAIZ/}"
+            continue
+        fi
+        if [ ! -f "$copia" ] || ! cmp -s "$fonte" "$copia"; then
+            mkdir -p "$(dirname "$copia")"
+            if cp "$fonte" "$copia"; then
+                printf '  copiado  %s\n' "${copia#$RAIZ/}"
+                copiados=$((copiados + 1))
+            else
+                vermelho "  FALHOU ao copiar para ${copia#$RAIZ/}"
+                exit 1
+            fi
+        fi
+    done < <(python3 conferir-repositorio.py --recorte 2>/dev/null)
+
+    # A versao do recorte no README da entrega — o unico arquivo escrito a mao la.
+    RME_ENT="$ENT/README.md"
+    VER_ENT="$(python3 conferir-repositorio.py --versao-recorte 2>/dev/null)"
+    if [ -f "$RME_ENT" ] && [ -n "$VER_ENT" ]; then
+        if ! grep -q "\*\*Recorte da v$VER_ENT\.\*\*" "$RME_ENT"; then
+            sed -i -E "s/\*\*Recorte da v[0-9]+\.[0-9]+\.\*\*/**Recorte da v$VER_ENT.**/g" "$RME_ENT"
+            printf '  ajustado finalizado/README.md — recorte agora diz v%s\n' "$VER_ENT"
+            copiados=$((copiados + 1))
+        fi
+    fi
+
+    if [ "$copiados" -eq 0 ]; then
+        verde "  a entrega ja estava em dia."
+    fi
+fi
+
+# O lembrete vai num trap e nao no fim do script, porque o script tem TRES
+# saidas antes do fim: validador reprovado, nada a commitar, e so'-push. Nas tres
+# a entrega ja foi mexida, e nas tres o lembrete precisa aparecer.
+lembrete_entrega() {
+    [ "${copiados:-0}" -gt 0 ] || return 0
+    echo
+    amarelo "A entrega mudou (${copiados} arquivo(s)) e ela commita A MAO — nao tem script:"
+    echo "  cd finalizado && git add -A && git commit -m \"recorte da v${VER_ENT:-}\" && git push && cd .."
+}
+trap lembrete_entrega EXIT
+
+# --------------------------------------------------------------------------
 echo
 echo "=== 1. os validadores ==="
 

@@ -8,6 +8,62 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.149] — 25/08/2026
+
+**A cópia para a entrega passou a ser do `subir.sh`, e a lista dela ganhou dono.** *Pedido do Mizuki depois de a v0.148 reprovar no `subir.sh` por exatamente isso.*
+
+### O defeito era procedimento, e ele já tinha custado quatro versões
+
+**`finalizado/` é um repositório separado, não tem script próprio, e a cópia era digitada à mão.** *Ela derivou quatro vezes: cinco versões na v0.121, duas na v0.135, uma pulada na v0.145, e — na v0.148 — duas peças mais os dois artefatos do livro.* **Nas quatro o conserto foi o mesmo `cp`, e nas quatro alguém teve de lembrar.**
+
+> *A v0.146 escreveu a instrução no `README` porque ela não estava em lugar nenhum.* **Instrução escrita não é passo executado**, e a v0.148 provou isso três versões depois: a instrução estava lá, e a entrega derivou de novo.
+
+### O passo 0, e a lista com um dono só
+
+**Entrou o passo `0. a entrega`, antes dos validadores**, para a checagem 7 ver o estado sincronizado. Ele copia o que estiver velho, acerta a linha `Recorte da vX.Y.` do `README` da entrega, e **diz na tela cada arquivo que mexeu**.
+
+> **A lista NÃO mora no `subir.sh`.** *Ela sai de `conferir-repositorio.py --recorte`, que é o mesmo lugar de onde a checagem 7.1 lê.* **Uma lista, um dono** — e a versão sai de `--versao-recorte`, cujo dono é a entrada do topo deste arquivo. *Escrever a lista no script criaria a segunda cópia que a lição nº 9 existe para não deixar existir, e ela divergiria na primeira peça nova.*
+
+**A construção da lista virou a função `recorte_da_entrega()`**, e ela subiu para o topo do validador, antes da checagem 1. *O motivo é mecânico: os dois modos saem sem imprimir checagem nenhuma, e a saída deles é lida por script — um cabeçalho no meio quebraria o `read` do `subir.sh`.* **Foi a primeira tentativa que falhou:** *com a função no meio do arquivo, `--recorte` saía com a checagem 1 inteira na frente dos pares.*
+
+### O lembrete vai num `trap`, e isso não é detalhe
+
+**O `subir.sh` tem TRÊS saídas antes do fim** — validador reprovado, nada a commitar, e só-push. *Nas três a entrega já foi mexida, e nas três o lembrete precisa aparecer.* **Com ele escrito no fim do script, a saída que mais importa — a do validador reprovado — era justamente a que não mostrava nada.**
+
+### E a 7.1 não virou enfeite
+
+*A pergunta é legítima: se o script copia antes, a checagem não passa a ser sempre verde?* **Ela continua pegando três coisas que a cópia não pega:** *quem editar a entrega direto, quem rodar o validador à mão fora do `subir.sh`, e a própria cópia falhando.* **E o passo 0 nunca é silencioso** — um conserto que ninguém vê é pior que o defeito, porque ele esconde que a entrega estava velha.
+
+### O arnês
+
+*Quatro casos, num clone isolado com um `finalizado/` montado a partir do próprio `--recorte`.*
+
+| o caso | o que o passo 0 fez |
+|---|---|
+| `finalizado/` não existe | avisou e seguiu, sem tocar em nada |
+| tudo em dia | **no-op**, e disse *"a entrega já estava em dia"* |
+| só a versão do `README` velha | acertou a linha e disse qual |
+| duas peças velhas, uma sumida, um artefato corrompido | copiou as três e disse cada uma |
+
+> **O contra-teste é o que fecha:** *na mesma perturbação, o `subir.sh` **antigo** reprovava com `7.1` e `7.3` vermelhos, e o novo passa.* **E as duas falhas que sumiram são exatamente as duas que o passo existe para tirar** — nada mais mudou de cor.
+
+*O `trap` foi conferido na saída que mais importa:* **com um validador reprovando, o lembrete aparece.**
+
+### Medido depois
+
+| | v0.148 | v0.149 |
+|---|---|---|
+| peças de regra · validadores · checagens | 24 · 24 · 251 | iguais |
+| lugares que montam a lista do recorte | **2** — a checagem 7.1 e o `cp` da mão | **1** |
+| saídas do `subir.sh` que esquecem o lembrete | **3** | **0** |
+| vezes que a entrega derivou por ser manual | 4 | *— o passo 0 é a resposta* |
+
+*Nada do livro mudou nesta versão, então os quatro builds não precisam rodar de novo: a checagem 7.5 continua verde com os artefatos da v0.148.*
+
+→ **Continua em** `sistema/05-material/livro/PENTE-FINO-v0.147.md`, que é a fila da passada de texto. **Ela está vazia.**
+
+---
+
 ## [0.148] — 25/08/2026
 
 **A sétima passada de texto, e ela foi pedida com o livro já fechado:** *"novos textos foram adicionados sem revisão, acredito que vale a pena ter essa passada"*. **Dezoito achados. Nenhum saiu de validador** — o `conferir-voz --estrito` estava em `0`, os 24 de `03-mecanica/` verdes com `PULADA = 0`, as 251 checagens fechando. *É o passo 2 do `METODO-passada-de-texto.md` pela sétima vez seguida: a medida escolhe onde olhar, e ler é o que acha.*
