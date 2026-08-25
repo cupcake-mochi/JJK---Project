@@ -229,7 +229,7 @@ Melhoria — são escadas diferentes que usam as mesmas três palavras. O capít
 |---|---|---|
 | **Ferramenta amaldiçoada** | Arma forjada para ferir maldição. Tem grau, de 4 a especial | 14 |
 | **`Estigma`** | O efeito que uma ferramenta carrega. O grau dela decide o formato | 14 |
-| **`Desgaste`** | Ferramenta usada demais antes de chegar em você: cada uso derruba o grau dela em um | 14 |
+| **`Desgaste`** | A ferramenta dispensa o nível mínimo do `Estigma`, e em troca dura um número fixo de missões | 14 |
 | **Invocação** | O que você põe em campo e comanda. Tem ficha própria, montada com orçamento | 15 |
 | **Amarra** | A invocação tem de ficar a até 18 metros de você, ou não pode ser comandada | 15 |
 | **`Emaranha`** | Propriedade de arma: você pode `Agarrar` sem largar a arma | 13 |
@@ -5765,15 +5765,30 @@ São duas escadas de cinco casas com o mesmo nome. Patente é reconhecimento; gr
 
 ## `Desgaste`
 
+O `Desgaste` é um efeito que algumas ferramentas podem ter, em troca de não terem nível mínimo. Ele nunca sobe a Classe do `Estigma`: Classe é formato, e formato não está à venda.
+
 > **`Desgaste`: a ferramenta ignora o nível mínimo do `Estigma` dela.**
 >
-> **Em troca, ela se gasta: a cada missão em que o `Estigma` foi usado, ela desce um grau. No grau 4 ela vira arma comum. Ela não volta.**
+> **Em troca, ela tem um número fixo de missões.** Cada missão em que você usar o `Estigma` gasta uma. Quando elas acabam, ela vira arma comum, e não volta.
+>
+> **Dentro da missão o uso é livre.** Usar dez vezes gasta o mesmo que usar uma.
 
-O `Desgaste` compra o nível mínimo, e só ele. Ele nunca sobe a Classe do `Estigma`: Classe é formato, e formato não está à venda.
+**Missões de `Desgaste`**
+| Grau | Missões |
+|---|---|
+| **3** | 1 |
+| **2** | 2 |
+| **1** e **especial** | 3 |
 
-Uma ferramenta de grau 1 com `Desgaste` dura **três missões** de uso antes de virar arma comum.
+Grau 4 não entra: ele não dá `Estigma` nenhum, e é o `Estigma` que o `Desgaste` destrava.
 
-> **Exemplo.** O Ryo é nível 4 e ganha uma corrente de grau 1 com `Desgaste`. O `Estigma` dela é `Anátema`, que pediria nível 13; com o `Desgaste`, ele usa hoje. Na primeira missão ele encosta a corrente numa técnica e anula o efeito: fim da missão, a corrente desce para grau 2. Na segunda ele usa de novo: grau 3. Na terceira: grau 4, e o que sobra na mão dele é uma corrente que fere maldição e nada mais. Se ele tivesse guardado o `Anátema` para a missão que importava, teria três usos para gastar em três momentos escolhidos.
+**Ela não desce de grau, e não troca de `Estigma`.** O que acaba é o número de missões.
+
+> **Exemplo.** O Ryo é nível 4 e ganha uma corrente de grau 1 com `Desgaste`. O `Estigma` dela é `Anátema`, que pediria nível 13; com o `Desgaste`, ele usa hoje, e a corrente tem **três missões**.
+>
+> Na primeira ele encosta a corrente em quatro técnicas diferentes, no mesmo dia: **gastou uma missão**, e não quatro. Na segunda ele não saca a corrente uma vez sequer: **não gastou nada**. Na terceira e na quarta ele usa de novo, e acabaram as três — o que sobra na mão dele é uma corrente que fere maldição e nada mais.
+>
+> **A decisão é em que missão sacar, e não quantas vezes.**
 
 ## Teto de `Estigma`
 
@@ -6504,4 +6519,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: 68e0be7364fd0b7e3fa2e8ab1629d6edfb92754d -->
+<!-- fonte: 35860e0df68b5f2d291648c66c55bfa795b8464e -->
