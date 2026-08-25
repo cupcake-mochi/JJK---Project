@@ -115,6 +115,24 @@ na ficha** (peça 23 §9). *São o mesmo trabalho: imprimir a coluna.* **As duas
 demais para serem nome de efeito.** *Seis das nove no capítulo 12.* **Medido na v0.141 e não
 re-medido desde** — uma tentativa na v0.149 contou a coisa errada e foi descartada.
 
+> **⚠⚠ E a v0.152 tentou re-medir e PAROU, porque o filtro óbvio dá `209`.** *Um regex que pega
+> todo rótulo em negrito abrindo parágrafo devolve `209` em 19 capítulos, contra os `12`
+> publicados.* **Ele conta as caixas de regra do livro inteiro, e a camada 3 só vale para
+> **entrada de catálogo** — condição, Bênção, aptidão, Passiva, `Estigma`, Legado, entrega de
+> Trilha.** *Terceira contagem desta família a dar um número diferente; é a lição de medir o
+> marcador em vez do fenômeno, e a `REGRA-DE-VOZ.md` já avisa que a camada 3 depende de quebra
+> de parágrafo.*
+>
+> **O recorte que funciona:** *dentro de cada capítulo de catálogo, corte as seções `###` que
+> são **entrada** (as que vêm depois do bloco `Como ler …`), e só nelas conte rótulo em negrito
+> abrindo parágrafo com mais de `6` palavras.* **Rodado assim no capítulo 12 dá `4` entradas e
+> `6` rótulos, das `14` Bênçãos** — e **não** reproduz os `6` de entradas que a v0.141 publicou.
+>
+> ***Primeiro trabalho de quem pegar isto: fechar essa diferença antes de consertar uma linha.***
+> *Ou a v0.141 contou por outra definição, ou duas entradas foram consertadas de passagem nas
+> passadas de texto da v0.147 e da v0.148.* **O número não tem dono e nunca teve validador —
+> e essa é a metade da dívida que ninguém escreveu.**
+
 *Se você abrir um desses capítulos por outro motivo, conserte de passagem.*
 
 ---
