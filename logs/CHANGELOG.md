@@ -123,6 +123,53 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 >
 > **⚠ E a sub-checagem do incentivo nasceu SEM PERTURBAÇÃO QUE A ACENDESSE.** *Ela lia a curva do `CURVA` escrito no topo do validador — uma terceira cópia —, então perturbar a tabela da peça acendia a checagem 8 e não ela.* **Hoje ela lê a tabela da §3, que é a mesma que a checagem 8 reconstrói da regra.**
 
+### A dívida das Manhas com UM ataque, medida — e a descrição dela estava errada em quatro pontos
+
+**A v0.154 registrou que as Manhas foram preçadas supondo dois ataques por rodada e nomeou quatro entradas: `Talho`, `Raspão`, `Racho` e `Zunido`.** *A Vanguarda tem um golpe do nível 2 ao 6 — o ataque extra é o degrau de Caminho do nível 7.*
+
+**A derivação de cada uma foi reconstruída das bases publicadas e conferida contra o catálogo: as treze reproduzem, com no máximo `0,015` fatia de diferença.** *Então o que segue é conta.*
+
+| Manha | `2` ataques | `1` ataque | |
+|---|---|---|---|
+| `Raspão` · `Zunido` · `Gancho` | `1,18` | **`0,59`** | caem pela metade — a fórmula tem o número de golpes dentro |
+| `Encaixe` | `1,00` | **`0,67`** | cai um terço, e quem move é o **portão** |
+| `Talho` | `0,80` | **`1,06`** | **ele SOBE `33%`** |
+| `Racho` | `1,00` | `1,00` | não se move: a fórmula publicada já usa **um** golpe |
+
+***O `Gancho` e o `Encaixe` não estavam na lista, o `Racho` estava e não se move, e o `Talho` faz o contrário do que a nota dizia.***
+
+### O catálogo não quebra com um ataque — ele encolhe
+
+| | banda | dominância | média |
+|---|---|---|---|
+| nível 7 ao 30 | `0,53`–`1,18` | `2,22×` | `0,94` |
+| **nível 2 ao 6** | `0,53`–`1,06` | **`2,00×`** | **`0,80`** |
+
+**A dominância MELHORA**, e o filtro do projeto reprova em `3,00×` — os dois mundos passam com folga. *O que cai é a média:* **o degrau do nível 2 do Caminho vale uma fatia, e a Vanguarda entrega `0,80` dela por cinco níveis. Ele cresce `18%` sozinho no nível 7.**
+
+> ***Decisão do Mizuki: declarar e não mexer***, no molde da v0.119 e da v0.156. **As duas alternativas foram medidas e ficam registradas:**
+>
+> **A · repreçar as que caem contra o nível 2** — no nível 7 em diante elas vão a `2,00` cada, a banda abre para `0,53`–`2,00` e a dominância vai a **`3,76×`: reprova no filtro.**
+> **C · tirar o número de golpes da fórmula** — as três viram `uma vez por rodada` com a magnitude dobrada e ficam em `1,18` nos dois mundos. *Passa, e o custo é sabor:* **a Manha para de ficar melhor quando o ataque extra chega, que é justamente o que a `Escola de Arma` promete.**
+
+### ⚠⚠ E a média publicada não reconstruía, em DOIS documentos
+
+**O `DESENHO-manhas.md` publicava média `0,97` e as treze somadas dão `0,94`.** *O `0,98` de antes da leva da v0.154 reproduz exato, então o erro entrou junto com os cinco preços novos.* **Nenhuma checagem lê média — a `13` lê banda e dominância.**
+
+**E a peça 20 §4.1 estava pior: a tabela inteira dela era de antes da v0.154, e sobreviveu quatro versões.** *`2,10` · `2,93` · `3,42` fatias, contra `1,74` · `2,81` · `3,54` hoje.*
+
+> ***O `conferir-marcial.py` calculava o número certo o tempo todo*** — *ele lê do dono e imprimia `0.94` e `93.8%` na tela* —, **e nada comparava o que ele calcula com o que a peça publica.** *Lição nº 9 com o validador do lado certo e o documento do lado errado.*
+
+### Duas sub-checagens, e a contagem não se move
+
+**A `13.1` do `conferir-catalogo.py`** recalcula a banda do mundo de um ataque a partir de uma tabela nova no `DESENHO-manhas.md` — *quem escala com o número de golpes, e quanto vale com um só*. **Ela cobra coerência nos dois sentidos:** *quem está declarada como não escalando tem de valer o mesmo preço do catálogo, e quem está declarada como escalando não pode valer o mesmo.* *Sete perturbações acendendo e três contra-testes verdes.*
+
+**A `3.1` do `conferir-marcial.py`** compara as três linhas da tabela do §4.1 contra o catálogo e o orçamento de Caminho, que é o que faltava. *Cinco perturbações acendendo e dois contra-testes verdes, com os **dois** validadores rodando em cada caso.* **O contra-teste que importa muda o preço de uma Manha e acompanha nos cinco lugares que aquilo implica** — catálogo, tabela de um golpe, média, banda do mundo de um golpe e a tabela da peça 20 —, *e sai verde nos dois.*
+
+> *As duas são sub-blocos, então elas contam para a `13` e para a `3`:* **a contagem continua em `259`.**
+>
+> **⚠ E o arnês da `3.1` pegou um defeito meu antes de o resultado valer.** *O contra-teste coerente tinha uma troca **sem efeito** dentro dele — texto igual dos dois lados —, e a função de perturbação falhou em vez de deixar passar.* **"Confira que o `diff` entrou" fez o trabalho dele no arnês, e não no código.**
+
 ### ⚠⚠ E a contagem de checagens estava mentindo PARA BAIXO de novo, por um rótulo em minúscula
 
 **Fechando a versão, o `conferir-repositorio.py` disse `258` com a checagem nova dentro — e ela devia dizer `259`.** *O projeto publicava `258` e o código tinha `257`, desde a v0.155.*
@@ -149,7 +196,9 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 | checagens invisíveis para a contagem | **1** | **0** |
 | dados do sistema sem peça, sem validador e sem conta | **1** | **0** |
 | frases da peça 11 contradizendo o livro | **3** | **0** |
-| dívidas de preço abertas | 4 | **3** |
+| dívidas de preço abertas | 4 | **1** — *e ela é a das sete travas, medida e não aplicada* |
+| números publicados da média das Manhas | **2, e os 2 errados** | **2, e os 2 certos** |
+| a banda das Manhas com **um** ataque | *sem dono* | `0,53`–`1,06` · `2,00×` · média `0,80` |
 | palavras do livro | 71.086 | **71.167** |
 | coluna única · duas colunas | 243 · 141 | **243 · 141** |
 | `conferir-voz --estrito` | 0 achados · 11 triagens | **0 achados · 11 triagens** |

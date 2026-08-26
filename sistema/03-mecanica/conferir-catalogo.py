@@ -666,6 +666,83 @@ else:
     else:
         print('  [x] a banda recontada bate com a publicada, e ela passa no filtro.')
 
+# --- 13.1 --------------------------------------------------------------
+# v0.158: a MESMA banda no mundo de UM ataque por rodada. A Vanguarda tem um
+# golpe do nivel 2 ao 6 — o ataque extra e' o degrau de Caminho do nivel 7 —,
+# e as Manhas foram todas precadas supondo dois.
+#
+# A v0.154 registrou isso em prosa e nomeou quatro entradas de cabeca. Medida
+# entrada por entrada na v0.158, a lista estava errada em dois pontos e faltavam
+# duas. O conserto nao foi de preco: foi dar DONO ao numero, no molde da tabela
+# de derivacao das travas da checagem 14.
+#
+# Nada aqui esta escrito neste arquivo: a tabela `Com um ataque por rodada` do
+# DESENHO-manhas diz quem escala e quanto vale, e a banda daquele mundo e'
+# RECONTADA dela. O filtro e' o mesmo da 13, lido do documento, e comparado
+# DEPOIS da reconta — regra aplicada e limite de design separados (licao no 8).
+print()
+print('  13.1 a mesma banda com UM ataque por rodada — os niveis 2 a 6')
+
+_um = {}
+_escala = {}
+for _l in MAN.split('\n'):
+    _m = re.match(r'\|\s*`([^`]+)`\s*\|\s*(sim|não)\s*\|\s*`(\d+,\d+)`\s*\|\s*$', _l)
+    if _m:
+        _um[_m.group(1)] = float(_m.group(3).replace(',', '.'))
+        _escala[_m.group(1)] = _m.group(2) == 'sim'
+
+_pub1 = re.search(r'A banda daquele mundo é `(\d+,\d+)`–`(\d+,\d+)`, a dominância é '
+                  r'`(\d+,\d+)×` e a média é `(\d+,\d+)`', MAN)
+
+if not _fatias or len(_fatias) < 10:
+    erro('13', '13.1: sem a tabela de precos da 13 nao ha contra o que comparar o '
+               'mundo de um ataque')
+elif len(_um) != len(_fatias):
+    erro('13', f'13.1: a tabela `Com um ataque por rodada` tem {len(_um)} linha(s) e o '
+               f'catalogo tem {len(_fatias)} Manha(s) — Manha nova sem essa linha faz '
+               'a banda daquele mundo ser medida sobre um pedaco do catalogo')
+elif sorted(_um) != sorted(_fatias):
+    _fora = sorted(set(_um) ^ set(_fatias))
+    erro('13', f'13.1: os nomes das duas tabelas nao batem — {_fora}')
+elif not _pub1:
+    erro('13', '13.1: o DESENHO-manhas nao publica mais a banda, a dominancia e a '
+               'media do mundo de um ataque — sem elas a reconta nao tem par')
+else:
+    # coerencia da propria declaracao: quem NAO escala tem de valer o mesmo preco
+    _incoerente = [n for n in _um
+                   if not _escala[n] and abs(_um[n] - _fatias[n]) > 0.005]
+    _parada = [n for n in _um if _escala[n] and abs(_um[n] - _fatias[n]) <= 0.005]
+    _lo1, _hi1 = min(_um.values()), max(_um.values())
+    _dom1 = _hi1 / _lo1
+    _med1 = sum(_um.values()) / len(_um)
+    _plo1 = float(_pub1.group(1).replace(',', '.'))
+    _phi1 = float(_pub1.group(2).replace(',', '.'))
+    _pd1 = float(_pub1.group(3).replace(',', '.'))
+    _pm1 = float(_pub1.group(4).replace(',', '.'))
+    print(f'       {len(_um)} Manhas declaradas; {sum(_escala.values())} escalam com o '
+          f'numero de golpes')
+    print(f'       banda recontada {_lo1:.2f} a {_hi1:.2f}, dominancia {_dom1:.2f}x, '
+          f'media {_med1:.2f}')
+    if _incoerente:
+        erro('13', f'13.1: {_incoerente} esta(o) declarada(s) como NAO escalando e o '
+                   'valor com um golpe difere do preco do catalogo — a declaracao '
+                   'contradiz a propria tabela')
+    elif _parada:
+        erro('13', f'13.1: {_parada} esta(o) declarada(s) como escalando e o valor com '
+                   'um golpe e igual ao do catalogo — ou ela nao escala, ou o numero '
+                   'ficou para tras')
+    elif (abs(_lo1 - _plo1) > 0.005 or abs(_hi1 - _phi1) > 0.005
+          or abs(_dom1 - _pd1) > 0.01 or abs(_med1 - _pm1) > 0.005):
+        erro('13', f'13.1: o documento publica {_plo1:.2f}-{_phi1:.2f}, {_pd1:.2f}x e '
+                   f'media {_pm1:.2f} para o mundo de um ataque, e a tabela reconta '
+                   f'{_lo1:.2f}-{_hi1:.2f}, {_dom1:.2f}x e {_med1:.2f}')
+    elif _dom1 >= _f:
+        erro('13', f'13.1: com um ataque a dominancia e {_dom1:.2f}x e o filtro reprova '
+                   f'em {_f:.2f}x — o catalogo sai da banda nos niveis 2 a 6, que e '
+                   'exatamente onde a Vanguarda comeca')
+    else:
+        print('       [x] a banda de um ataque reconta da tabela dona e passa no filtro.')
+
 # ================================================================ 14
 # v0.156: toda trava do catalogo de Manhas tem de apontar para a familia de onde
 # ela sai. A coluna teve quatro fontes por quatro versoes e nenhuma escrita — e

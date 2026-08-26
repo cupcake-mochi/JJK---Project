@@ -154,13 +154,15 @@ Na criação, depois da Descrição e da Regra, você escolhe uma das duas. **A 
 
 **A `Escola de Arma` da Vanguarda também escolhe categoria de arma, e ela dá a `Manha` daquela categoria.** *Um leitor que chega aqui vindo de lá vai perguntar se três grupos dão três Manhas, e dois mestres vão responder diferente se ninguém escrever.*
 
-As treze Manhas estão no `DESENHO-manhas.md`, e a média delas é `0,98` fatia:
+As treze Manhas estão no `DESENHO-manhas.md`, e a média delas é `0,94` fatia:
 
 | se três grupos dessem Manha | fatias | quanto é isso |
 |---|---|---|
-| as três mais baratas | 2,10 | 70,0% de um Caminho |
-| **três Manhas médias** | **2,93** | **97,6% de um Caminho inteiro** |
-| as três mais caras | 3,42 | 114,0% de um Caminho |
+| as três mais baratas | 1,74 | 58,0% de um Caminho |
+| **três Manhas médias** | **2,81** | **93,8% de um Caminho inteiro** |
+| as três mais caras | 3,54 | 118,0% de um Caminho |
+
+> **⚠ Esta tabela era de antes da v0.154, e ela sobreviveu quatro versões.** *Aquela versão mexeu em cinco preços do catálogo, e a média foi de `0,98` para `0,94`.* **O `conferir-marcial.py` calculava o número certo o tempo todo — ele lê do dono —, e nada comparava o que ele calcula com o que esta seção publica.** *Desde a v0.158 a checagem 3 compara, e a conclusão não se moveu: três Manhas continuam sendo quase um Caminho inteiro.*
 
 **Um Caminho custa `3` fatias na campanha inteira, e uma fatia é `5,08` de dano por rodada.** *Três Manhas de graça na criação é um Caminho inteiro de graça, entregue antes do nível 3 — e uma Vanguarda de Técnica Marcial ficaria com quatro categorias.*
 

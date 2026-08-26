@@ -148,6 +148,40 @@ else:
             print(f'  [x] tres Manhas seriam {tres/cam*100:.1f}% de um Caminho inteiro: '
                   'e por isso que os grupos nao dao Manha')
 
+        # 3.1 (v0.158) — a TABELA que a peca publica contra o que esta conta da.
+        # Ela e' copia do calculo acima, e ate aqui nada comparava as duas: a
+        # tabela do SS4.1 ficou QUATRO versoes com os numeros de antes da v0.154,
+        # que mexeu em cinco precos do catalogo. O validador acertava o tempo
+        # todo, porque le do dono; quem envelheceu foi a copia impressa.
+        _tab = {}
+        for _l in P20.split('\n'):
+            _m3 = re.match(r'\|\s*\*{0,2}(as três mais baratas|três Manhas médias|'
+                           r'as três mais caras)\*{0,2}\s*\|\s*\*{0,2}([\d,]+)\*{0,2}'
+                           r'\s*\|\s*\*{0,2}([\d,]+)% de um Caminho', _l)
+            if _m3:
+                _tab[_m3.group(1)] = (num(_m3.group(2)), num(_m3.group(3)))
+        _esp = {
+            'as três mais baratas': sum(sorted(vals)[:3]),
+            'três Manhas médias': tres,
+            'as três mais caras': sum(sorted(vals)[-3:]),
+        }
+        if len(_tab) != 3:
+            erro(3, f'li {len(_tab)} linha(s) na tabela de tres grupos do SS4.1 e '
+                    'esperava 3 — ela mudou de forma, e a comparacao abaixo passaria '
+                    'verde sem conferir nada')
+        else:
+            _mau3 = []
+            for _k, (_pf, _pp) in _tab.items():
+                _ef = _esp[_k]
+                if abs(_ef - _pf) > 0.015 or abs(_ef / cam * 100 - _pp) > 0.15:
+                    _mau3.append(f'{_k}: a peca diz {_pf:.2f} fatias e {_pp:.1f}%, '
+                                 f'e o catalogo da {_ef:.2f} e {_ef/cam*100:.1f}%')
+            if _mau3:
+                erro(3, '3.1: a tabela do SS4.1 divergiu do catalogo — ' + ' · '.join(_mau3))
+            else:
+                print('  [x] 3.1 as tres linhas da tabela do SS4.1 reconstroem do '
+                      'catalogo e do orcamento de Caminho')
+
 if not re.search(r'Manha nenhuma', P20):
     erro(3, 'a peca 20 nao diz, com todas as letras, que os tres grupos nao dao Manha')
 else:

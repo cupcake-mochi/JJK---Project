@@ -52,23 +52,19 @@ buraco nenhum.** *A checagem 6 do `conferir-manual.py`, escrita na v0.155, nasce
 
 ## A fila, e nenhuma trava a mesa
 
-### 1 · TRÊS dívidas de preço
+### 1 · NENHUMA dívida de preço aberta — as três que sobravam viraram decisão declarada
 
-> **⚠⚠ O vão do nível 7 tem diagnóstico fechado desde a v0.154, e o que falta é a ESCOLHA.** *A taxa que faltava não era pergunta de playtest — ela sai do bloco 1 do `conferir-orcamento.py`: `10,5` rodadas de luta por dia, e o poço de PE diz quantas cabem.* **Com o dano na arma dentro, a Ação de Atacar rende `1,89×` o Classe 0 grátis no nível 30 e NÃO está dominada.**
+> **⚠⚠ Este arquivo carregou uma dívida MORTA por três versões, e quem achou foi o Mizuki lendo a fila.** *O **vão do nível 7** fechou na v0.155 — o `CHANGELOG` e o `ESTADO-ATUAL` dizem isso com todas as letras desde então —, e este prompt continuou publicando o texto da v0.154, com o bloco de aviso e a escolha entre A e C.*
 >
-> ***O que quebrou é outra coisa:*** **o vão parou de ser um número.** *Na forma da v0.82 o físico e o conjurador faziam a mesma Ação Padrão e o físico tinha uma coisa a mais — subtração limpa. Na forma da v0.147 o físico **escolhe** entre atacar e conjurar, então "físico − conjurador" virou comparação entre duas decisões.*
->
-> **Medido: o degrau do nível 7 vale `0,46` fatia sem Manha e `0,85` com uma que escala, contra `2,36` publicado.** *E a forma inverteu — publicado ele CRESCE com o nível, derivado ele ENCOLHE.*
->
-> ***A escolha que sobrou é do Mizuki, e são duas:*** **A · repreçar para baixo** — mas aí o degrau vale menos que a menor Manha do catálogo. **C · trocar o que o nível 7 entrega** a Bastião e Vanguarda — mas aí ele deixa de ser "correção de base", que é o argumento que a peça faz há trinta versões.
+> **Ele foi copiado de novo na v0.158, para dentro de uma versão que rodou os 24 validadores.** *Nenhum deles alcança este arquivo.* **Lição nº 9 no documento que existe para dizer onde o trabalho parou:** *dívida fechada precisa ser desregistrada, e a linha `→ Continua em` do topo do `CHANGELOG` é quem manda.*
 
 | dívida | desde | o que é |
 |---|---|---|
-| **o vão do nível 7** | v0.147 | o vão `físico − conjurador` foi construído sobre a forma antiga do ataque extra, e é ele que paga o degrau dos cinco Caminhos. **Diagnóstico fechado na v0.154; falta a escolha entre A e C** |
-| **as Manhas supõem DOIS ataques** | v0.154 | o `Raspão` publica `6,00`, e `6,00` só fecha com dois (`2 × 50% × 6`). **Do nível 2 ao 6 a Vanguarda tem um**, então `Talho`, `Raspão`, `Racho` e `Zunido` entregam metade por cinco níveis. *Consertar mexe no orçamento da Vanguarda inteira* |
-| **a 7.4 mede o rótulo, não o conteúdo** | v0.156 | ela lê a **mensagem** do último commit da entrega e tira o `vN.NN` dali. *Uma entrega sincronizada lê como "duas versões atrás" se a mensagem for copiada da vez passada.* **O conserto é ela ler a linha `Recorte da vX.Y` do `README` da entrega no último commit** |
-| **as sete travas que não derivam** | v0.147 | `Espeto`, `Laço` e `Prego` não têm o TR no preço; o `60%` do `Abalo` e o `28%` do `Tranco` não vêm de portão nenhum; e o `75%` do `Talho` e do `Encaixe` é do acerto velho. **Medida e declarada NÃO aplicada na v0.156** — refazer põe a banda em `6,2×` |
-| ~~**o dano na arma**~~ | v0.148 | ***PAGA na v0.158.*** **Peça 11 §6.9**, com a escada, o argumento do incentivo, o invariante medido nos 29 níveis e a checagem 10 do `conferir-aptidoes.py` |
+| ~~**as Manhas supõem DOIS ataques**~~ | v0.154 | ***MEDIDA na v0.158, e declarada não aplicada.*** *A descrição estava errada em quatro pontos:* **quem cai pela metade é `Raspão`, `Zunido` e `Gancho`; o `Encaixe` cai um terço pelo portão; o `Talho` SOBE; o `Racho` não se move.** *Banda `0,53`–`1,06` e dominância `2,00×` do nível 2 ao 6 — **a dominância melhora**. O que cai é a média, de `0,94` para `0,80`.* **Sub-checagem `13.1` do `conferir-catalogo.py` em cima** |
+| **a 7.4 mede o rótulo, não o conteúdo** | v0.156 | ela lê a **mensagem** do último commit da entrega e tira o `vN.NN` dali. *Uma entrega sincronizada lê como "duas versões atrás" se a mensagem for copiada da vez passada.* **O conserto é ela ler a linha `Recorte da vX.Y` do `README` da entrega no último commit.** *Não é dívida de preço — é de validador* |
+| **as sete travas que não derivam** | v0.147 | `Espeto`, `Laço` e `Prego` não têm o TR no preço; o `60%` do `Abalo` e o `28%` do `Tranco` não vêm de portão nenhum; e o `75%` do `Talho` e do `Encaixe` é do acerto velho. **Medida e declarada NÃO aplicada na v0.156** — refazer põe a banda em `6,2×`. *Decisão dele, não trabalho pendente* |
+| ~~**o vão do nível 7**~~ | v0.147 | ***FECHADA na v0.155.*** *O nível 7 ganhou uma segunda metade que não anda no ataque —* **`Ainda de Pé` no Bastião e `Não Pega` na Vanguarda**, *totais `1,93` e `2,10` contra `2,36`, com a diferença declarada e a checagem 6 do `conferir-manual.py` em cima* |
+| ~~**o dano na arma**~~ | v0.148 | ***FECHADA na v0.158.*** **Peça 11 §6.9**, com a escada, o argumento do incentivo, o invariante medido nos 29 níveis e a checagem 10 do `conferir-aptidoes.py` |
 
 ### 2 · As sete marcas de "isto ainda não existe" — cinco assuntos
 

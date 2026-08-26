@@ -80,7 +80,9 @@ As bases todas saem de documento dono:
 | **Arma de Fogo** | `Estampido` | todo aliado que enxerga tem `+1` no próximo ataque contra o alvo | — | — | **0,68** |
 | *(no lugar da sua)* | `Versado` | guardar e sacar viram um gesto só, e `+1` no acerto com a arma nova | — | — | **não medida** |
 
-> **Média `0,97` fatia. A menor é o `Espeto` e o `Laço` em `0,53`, a maior é o `Raspão`, o `Zunido` e o `Gancho` em `1,18`.**
+> **Média `0,94` fatia. A menor é o `Espeto` e o `Laço` em `0,53`, a maior é o `Raspão`, o `Zunido` e o `Gancho` em `1,18`.**
+>
+> *⚠ A média publicada era `0,97` da v0.154 até a v0.158, e ela não reconstrói: somando as treze e dividindo dá `0,94`.* **O `0,98` de antes da leva reproduz exato**, então o erro entrou junto com os cinco preços novos. *Nenhuma checagem lê média — a `13` lê banda e dominância —, e foi por isso que ela passou.*
 > **Dominância entre a maior e a menor: `2,22×`** — o filtro do projeto reprova em `3,00×`. *Comparação: o `Guiar` do Guia vale `0,68` no mesmo degrau, e o `Absorver` do Bastião vale `1,60`. As treze cabem inteiras dentro do que os outros Caminhos já praticam.*
 
 ## De onde vem cada trava — escrito na v0.156
@@ -163,9 +165,62 @@ As bases todas saem de documento dono:
 
 **O `Raspão` publica `6,00` de dano por rodada, e `6,00` só fecha com dois ataques:** *`2 × 50%` de erro `× 6` de atributo. Com um ataque dá `3,00`.*
 
-> **Do nível 2 ao 6 a Vanguarda tem um ataque por rodada** — o ataque extra é o degrau de Caminho do nível **7**. **Então as quatro Manhas que escalam por ataque — `Talho`, `Raspão`, `Racho` e `Zunido` — entregam metade do preço publicado por cinco níveis.**
+> **Do nível 2 ao 6 a Vanguarda tem um ataque por rodada** — o ataque extra é o degrau de Caminho do nível **7**.
 
-*Isso não é efeito desta leva: já era assim desde a v0.82, e nenhum documento escrevia.* **Fica registrado sem conserto**, porque consertar é escolher entre repreçar as quatro contra o nível 2 — e aí elas ficam grandes do 7 em diante — ou aceitar que o degrau do nível 2 da Vanguarda cresce sozinho no 7. *As duas mexem no orçamento da Vanguarda inteira, e isso é versão própria.*
+*Isso não é efeito da leva da v0.154: já era assim desde a v0.82, e nenhum documento escrevia.*
+
+## O mundo de UM ataque, medido na v0.158
+
+**A v0.154 nomeou quatro entradas de cabeça — `Talho`, `Raspão`, `Racho` e `Zunido`.** *Rodada entrada por entrada, a lista estava errada em dois pontos e faltavam duas.*
+
+**A derivação de cada uma foi reconstruída a partir das bases da seção acima e conferida contra o catálogo: as treze reproduzem, com no máximo `0,015` fatia de diferença.** *Então o que segue é conta e não leitura.*
+
+| Manha | `2` ataques | `1` ataque | de onde a diferença sai |
+|---|---|---|---|
+| `Raspão` · `Zunido` | `1,18` | **`0,59`** | a fórmula é `golpes × erro × atributo`, e o número de golpes está nela |
+| `Gancho` | `1,18` | **`0,59`** | idem, com o acerto no lugar do erro |
+| `Encaixe` | `1,00` | **`0,67`** | quem move é o **portão**, não a magnitude: *pelo menos um de dois acerta* vira `50%` |
+| `Talho` | `0,80` | **`1,06`** | **ele SOBE.** O `+1` cai no seu único ataque em vez de num de dois, e o portão cai junto |
+| `Racho` | `1,00` | `1,00` | a fórmula publicada já usa **um** golpe — `11,50`, e não `23,00` |
+| as outras oito | — | iguais | não têm o número de golpes na fórmula nem no portão |
+
+**O catálogo não quebra com um ataque: ele encolhe.**
+
+| | banda | dominância | média |
+|---|---|---|---|
+| nível 7 ao 30 | `0,53`–`1,18` | `2,22×` | `0,94` |
+| **nível 2 ao 6** | `0,53`–`1,06` | **`2,00×`** | **`0,80`** |
+
+***A dominância MELHORA com um ataque***, e o filtro do projeto reprova em `3,00×` — os dois mundos passam com folga. **O que cai é a média:** *o degrau do nível 2 do Caminho vale uma fatia, e a Vanguarda entrega `0,80` dela por cinco níveis.* **Ele cresce `18%` sozinho no nível 7, e ninguém tinha escrito isso.**
+
+> ***Decisão do Mizuki na v0.158: declarar e não mexer***, no molde da v0.119 e da v0.156.
+>
+> **As duas alternativas foram medidas, e ficam registradas porque o argumento vale para a próxima entrada que escalar por ataque.**
+>
+> **A · repreçar as que caem contra o nível 2.** *Elas passam a valer uma fatia com um ataque, e no nível 7 em diante vão a `2,00` cada.* **A banda abre para `0,53`–`2,00` e a dominância vai a `3,76×`: reprova no filtro.**
+>
+> **C · tirar o número de golpes da fórmula.** *As três viram `uma vez por rodada` com a magnitude dobrada, e ficam em `1,18` nos dois mundos — banda e dominância iguais do nível 2 ao 30, e a média do nível 2 sobe para `0,93`.* **Ela passa, e o que custa é sabor:** *a Manha para de ficar melhor quando o ataque extra chega, e é justamente isso que a `Escola de Arma` promete.*
+
+**O que muda com esta versão é que a dívida deixou de ser um parágrafo.** *A coluna abaixo declara, entrada por entrada, se ela escala com o número de golpes e quanto vale com um só, e a sub-checagem `13.1` do `conferir-catalogo.py` recalcula a banda daquele mundo a partir dela.* **Manha nova sem essa linha não entra.**
+
+**Com um ataque por rodada**
+| Manha | escala com o número de golpes? | com `1` golpe |
+|---|---|---|
+| `Talho` | sim | `1,06` |
+| `Raspão` | sim | `0,59` |
+| `Abalo` | não | `1,00` |
+| `Tranco` | não | `0,99` |
+| `Encaixe` | sim | `0,67` |
+| `Racho` | não | `1,00` |
+| `Gancho` | sim | `0,59` |
+| `Espeto` | não | `0,53` |
+| `Laço` | não | `0,53` |
+| `Palmo` | não | `1,06` |
+| `Zunido` | sim | `0,59` |
+| `Prego` | não | `1,06` |
+| `Estampido` | não | `0,68` |
+
+> **A banda daquele mundo é `0,53`–`1,06`, a dominância é `2,00×` e a média é `0,80`.** *Os três são recontados desta tabela, e o filtro de `3,00×` é comparado depois — a régua aplicada e o limite de design ficam separados de propósito.*
 
 ## Os nomes, e os cinco que morreram na triagem
 

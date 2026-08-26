@@ -20,6 +20,16 @@ Atualizado em 25/08/2026, na v0.158 (última peça fechada: **Dano de alma e Int
 >
 > **A checagem 10 do `conferir-aptidoes.py` não guarda valor nenhum**, e ela lê a exceção do teto como RELAÇÃO — *o refino em que ela dispara, as faces novas, e se ela acrescenta um dado*. **Vinte e uma perturbações: dezoito acendendo e três contra-testes verdes**, e o que importa é o que reverte para `3d6` de forma coerente em todos os lugares e sai **verde**. *A primeira versão dela reprovava esse contra-teste, porque lia a exceção pelo literal.*
 >
+> ***E a mesma versão mediu a dívida das Manhas com UM ataque, e a descrição dela estava errada em quatro pontos.*** *A v0.154 nomeou `Talho`, `Raspão`, `Racho` e `Zunido` de cabeça.* **Reconstruídas das bases e conferidas contra o catálogo — as treze reproduzem —, quem cai pela metade é `Raspão`, `Zunido` e `Gancho`; o `Encaixe` cai um terço pelo PORTÃO; o `Talho` SOBE `33%`; e o `Racho` não se move.**
+>
+> > **O catálogo não quebra com um ataque: ele encolhe.** *Banda `0,53`–`1,06` e dominância `2,00×` do nível 2 ao 6, contra `0,53`–`1,18` e `2,22×` do 7 ao 30 — **a dominância melhora**, e o filtro reprova em `3,00×`.* **O que cai é a média, de `0,94` para `0,80`: o degrau do nível 2 da Vanguarda entrega `80%` de uma fatia por cinco níveis, e cresce `18%` sozinho no nível 7.**
+> >
+> > ***Decisão do Mizuki: declarar e não mexer***, no molde da v0.119 e da v0.156. *Repreçar contra o nível 2 põe a dominância em `3,76×` e reprova; tirar o número de golpes da fórmula passa, e custa a Manha parar de ficar melhor quando o ataque extra chega.*
+> >
+> > **⚠⚠ E a média publicada não reconstruía, em DOIS documentos.** *O `DESENHO-manhas.md` dizia `0,97` e as treze somadas dão `0,94`; e a tabela da peça 20 §4.1 era inteira de antes da v0.154 — quatro versões.* **O `conferir-marcial.py` calculava o número certo o tempo todo, porque lê do dono, e nada comparava o que ele calcula com o que a peça publica.**
+> >
+> > *Entraram duas sub-checagens — a `13.1` do `conferir-catalogo.py`, que reconta a banda do mundo de um golpe a partir de uma tabela nova no desenho, e a `3.1` do `conferir-marcial.py`.* **As duas contam para o bloco pai, então a contagem não se moveu.**
+>
 > **⚠⚠ E fechando a versão apareceu que a contagem de checagens mentia para baixo, por um rótulo em minúscula.** *A checagem 6 do `conferir-manual.py`, da v0.155, nasceu como `print('  6. os cinco degraus…')` — e o extrator da checagem 9 exige maiúscula depois do número.* **Ela nunca existiu para a contagem: o projeto publicava `258` e o código tinha `257`.** *É o irmão do defeito da v0.118, e as duas guardas daquela versão não pegam este caso — elas procuram buraco e repetição, e um bloco invisível não abre buraco.*
 
 ***A v0.155 fechou a dívida do vão do nível 7, aberta desde a v0.147 — e o diagnóstico não era o que a dívida dizia.*** **O ataque extra não virou letra morta: o VÃO é que deixou de ser um número.**
