@@ -8,6 +8,57 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.169] — 26/08/2026
+
+**Duas coisas que a v0.168 deixou de pé, e a primeira ia derrubar a próxima versão.** *Nenhuma das duas reprovava hoje — e é exatamente por isso que elas atravessaram tantas versões.*
+
+### ⚠⚠ O aviso da 7.2 funcionou, e ninguém atendeu ele por seis versões
+
+**A v0.162 trocou o teto escrito à mão por `contagem desta versão + folga declarada`**, com aviso quando a contagem passa da base e erro só quando a folga acaba. *O motivo estava escrito: "teto sem folga fica calado até a próxima citação e aí reprova".*
+
+> **O aviso cumpriu a parte dele — ele falou.** *E a base ficou em `142` da v0.163 até agora.* **A v0.168 abriu já em `144`, então entre a v0.164 e a v0.167 entraram DUAS que nunca foram itemizadas**, e ela mesma somou mais duas. *Resultado: `146` contra um teto de `147` — a próxima citação branca reprovava, e o capítulo novo do livro é feito de citação.*
+
+***Aviso que ninguém atende é teto sem folga com um passo a mais.***
+
+**As duas da v0.168 saem pelo diff**, contra a árvore da entrega da v0.167 reconstruída: *a peça 13 passou a citar o `conferir-legados.py`* — ela afirma o que a checagem 8 **de fato** confere, depois de a v0.168 descobrir que o ponteiro antigo daquela seção nunca pousou — *e a peça 25 cita o `conferir-sem-tecnica.py` no §10.* **As duas são "nome de validador".**
+
+> **As duas órfãs do meio não dava para itemizar sem a árvore daquelas versões, então a base foi refeita pelo outro lado — e ele é mais forte.** *As `146` foram RECLASSIFICADAS uma a uma:* **`119` "nome de validador", `13` "caminho da árvore de trabalho" e `14` "arquivo cortado do recorte por decisão"** — `RASCUNHO-trilhas.md` 9×, `ESTADO-ATUAL.md` e `dados.js` 2× cada, `pitch-de-design.md` 1×. *Nenhuma família nova, e nenhuma delas é material de mesa, que é a pergunta que aquela guarda existe para fazer.*
+
+**Base em `146`, folga `5`, teto `151`.** *Arnês de três degraus: uma citação nova avisa, cinco avisam no teto, seis reprovam.*
+
+### O README da entrega publicava a mesma contagem duas vezes, e elas discordavam
+
+**Quatro afirmações dele já tinham dono na checagem 7.3 — a versão do recorte, a versão do manual, a contagem de peças, a de condições e o total do catálogo.** *A contagem de capítulos não tinha, e foi a que divergiu.*
+
+| onde | o que dizia |
+|---|---|
+| a linha do recorte | **17 capítulos**, 245 páginas |
+| a tabela de pastas | **18 capítulos**, 238 páginas |
+| o fim da seção de tamanho | *"o livro fechou em 230 páginas"* |
+
+> **Três contagens de página e duas de capítulo, num arquivo só.** *Lição nº 9 sem precisar de dois documentos.*
+
+**A contagem de capítulos ganhou dono e checagem** — o `README.md` do projeto, que é onde ela já morava. **A paginação NÃO ganhou**, e isso é decisão: *ela não tem dono em documento nenhum do projeto, e inventar um seria escrever número para fechar checagem.* **O conserto dela foi o outro: ela passa a aparecer UMA vez na entrega**, na linha do recorte.
+
+**E a tabela do plano do livro tinha duas linhas numeradas `4`.** *A de cima entrou na v0.145, quando a peça 24 fechou, no lugar errado e sem apagar a de baixo — o índice lia `1, 4, 2, 3, 4, 5`.* **A seção inteira virou história declarada:** *o livro saiu com `17` capítulos e não com os dezesseis do plano, e divergiu em três lugares — `Caminhos` e `Trilhas` viraram um só, as `Manhas` foram para dentro dele, e entraram três que o plano não previa.*
+
+### Adicionado
+
+- **A sub-checagem `a contagem de capítulos do livro` na 7.3**, com o `README.md` do projeto como dono. *Seis perturbações: cinco acendendo e um contra-teste que move o dono e as duas cópias juntos e sai **verde** — ela mede a relação, e não a constante.*
+
+### Alterado
+
+- **A base da lista branca da 7.2 foi de `142` para `146`**, com as duas novas itemizadas e as `146` reclassificadas por família.
+- **O `README.md` da entrega** — a contagem de capítulos passou a bater nos dois lugares, a paginação ficou em um só, a linha duplicada do capítulo 4 sumiu, e a seção do plano se declara história.
+
+### Decidido
+
+- **A paginação do livro continua sem dono, e fica assim.** *Ela é propriedade do artefato construído, não de um documento — e a saída foi tirar as cópias, não inventar um dono para elas.*
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **A v0.170 é o capítulo de mesa de `Sem Técnica`**, em arquivo próprio, no molde do `42-tecnica-marcial.md`.
+
+---
+
 ## [0.168] — 26/08/2026
 
 **`Sem Técnica` virou a peça 25, e a nona rota de Origem fechou.** *Ela estava na fila desde a v0.122, quando a Técnica Marcial destravou as outras duas e ficou decidido que esta tem criação própria e vem depois. "Depois" chegou quando as quinze Trilhas fecharam na v0.164 e a fila da mecânica ficou sem item.*

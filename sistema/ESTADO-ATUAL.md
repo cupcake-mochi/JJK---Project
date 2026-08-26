@@ -1,8 +1,18 @@
 # Estado atual do projeto
 
-Atualizado em 26/08/2026, na v0.168 (última peça fechada: **Sem Técnica**, a peça 25, na v0.168, com o `conferir-sem-tecnica.py` e doze checagens; antes dela, **Dano de alma e Integridade, na v0.145**; antes dela, o **Bloquear, na v0.143**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 26/08/2026, na v0.169 (última peça fechada: **Sem Técnica**, a peça 25, na v0.168, com o `conferir-sem-tecnica.py` e doze checagens; antes dela, **Dano de alma e Integridade, na v0.145**; antes dela, o **Bloquear, na v0.143**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.168.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e cinco peças escritas** e **vinte e cinco validadores**.
+**Versão v0.169.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e cinco peças escritas** e **vinte e cinco validadores**.
+
+***A v0.169 é limpeza, e as duas coisas que ela pegou não reprovavam — é por isso que elas atravessaram tantas versões.***
+
+> **⚠⚠ O aviso da checagem 7.2 funcionou, e ninguém atendeu ele por seis versões.** *A v0.162 trocou o teto escrito à mão por `contagem desta versão + folga declarada`, justamente para a linha falar na primeira citação nova em vez de na sexta.* **Ela falou, e a base ficou em `142` da v0.163 até agora:** a v0.168 abriu já em `144` — duas entraram entre a v0.164 e a v0.167 sem ninguém itemizar — e somou mais duas. *`146` contra um teto de `147`.* **A próxima citação branca reprovava, e capítulo de livro é feito de citação.** ***Aviso que ninguém atende é teto sem folga com um passo a mais.***
+>
+> *As duas da v0.168 saem pelo diff contra a árvore da entrega da v0.167 reconstruída — a peça 13 citando o `conferir-legados.py` e a peça 25 citando o `conferir-sem-tecnica.py`, as duas "nome de validador".* **As duas órfãs do meio não dava para itemizar sem a árvore daquelas versões, então a base foi refeita pelo outro lado:** as `146` foram **reclassificadas uma a uma** — `119` nome de validador, `13` caminho da árvore de trabalho e `14` arquivo cortado do recorte por decisão. *Nenhuma família nova.* **Base `146`, folga `5`, teto `151`**, com arnês de três degraus.
+>
+> **E o README da entrega publicava a contagem de capítulos DUAS vezes, discordando de si mesmo** — `17` na linha do recorte e `18` na tabela de pastas —, mais **três** contagens de página (`245`, `238` e `230`) e uma linha de índice duplicada: o capítulo 4 aparecia em dois lugares desde a v0.145, e o índice lia `1, 4, 2, 3, 4, 5`. *Lição nº 9 sem precisar de dois documentos.*
+>
+> **A contagem de capítulos ganhou dono e checagem na 7.3** — o `README.md` do projeto, que é onde ela já morava. **A paginação NÃO ganhou, e isso é decisão:** *ela não tem dono em documento nenhum do projeto, e inventar um seria escrever número para fechar checagem.* **O conserto dela foi o outro: ela passou a aparecer uma vez só.** *Seis perturbações na checagem nova, e o contra-teste move o dono e as duas cópias juntos e sai **verde**.*
 
 ***A v0.168 fechou `Sem Técnica`, e com ela a nona rota de Origem.*** *A peça 25 estava na fila desde a v0.122 — quarenta e seis versões —, e o que ela precisava não era um sistema paralelo: era o Fundamento com uma aptidão aberta por baixo.*
 

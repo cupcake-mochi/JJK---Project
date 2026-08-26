@@ -792,7 +792,28 @@ else:
     # pelo diff antes/depois: e "nome de validador", a primeira das duas familias
     # declaradas. *E o aviso desta linha disparou na PRIMEIRA citacao nova, que e
     # exatamente o que a v0.162 escreveu ele para fazer.*
-    BRANCAS_AQUI, FOLGA = 142, 5
+    #
+    # ⚠⚠ v0.169: 146, e a base ficou parada SEIS versoes. O aviso da v0.162
+    # cumpriu a parte dele — ele falou —, e ninguem reescreveu a base: a v0.168
+    # abriu ja em 144, entao entre a v0.164 e a v0.167 entraram DUAS que nunca
+    # foram itemizadas. *Aviso que ninguem atende e' teto sem folga com passo
+    # extra*, e foi ele que trouxe a contagem a UMA citacao do teto de 147.
+    #
+    # As DUAS da v0.168 saem pelo diff antes/depois, contra a arvore da entrega
+    # da v0.167 reconstruida: a peca 13 passou a citar o conferir-legados.py (ela
+    # afirma o que a checagem 8 DE FATO confere, depois de descobrir que o
+    # ponteiro antigo daquela secao nunca pousou), e a peca 25 cita o
+    # conferir-sem-tecnica.py no SS10. As duas sao "nome de validador".
+    #
+    # As duas orfas do meio nao dava para itemizar sem a arvore daquelas versoes,
+    # entao a base foi refeita pelo outro lado, que e' mais forte: as 146 foram
+    # RECLASSIFICADAS uma a uma, e todas caem nas familias ja declaradas —
+    # 119 "nome de validador", 13 "caminho da arvore de trabalho" e 14 "arquivo
+    # cortado do recorte por decisao" (RASCUNHO-trilhas.md 9x, ESTADO-ATUAL.md e
+    # dados.js 2x cada, pitch-de-design.md 1x). Nenhuma familia nova, e nenhuma
+    # delas e material de mesa — que e' a pergunta que esta guarda existe para
+    # fazer.
+    BRANCAS_AQUI, FOLGA = 146, 5
     PISO_CITACOES, TETO_BRANCOS = 120, BRANCAS_AQUI + FOLGA
     if vistos_e < PISO_CITACOES:
         erro(f'7.2: achei so {vistos_e} citacoes na entrega, e o piso e {PISO_CITACOES} — '
@@ -854,6 +875,15 @@ else:
     _entrega_confere('o total de entradas do catalogo', r'das \*\*(\d+) entradas\*\*',
                      'sistema/03-mecanica/17-catalogo-de-entregas.md',
                      r'^\| \*\*total\*\* \| \*\*(\d+)\*\*')
+    # v0.169. O README da entrega publicava a contagem de capitulos DUAS vezes e
+    # elas discordavam: a linha do recorte dizia `17 capitulos` e a tabela de
+    # pastas dizia `18 capitulos, 238 paginas`, num arquivo so'. Licao no 9 dentro
+    # de um arquivo — e as outras quatro afirmacoes dele ja tinham dono aqui, so'
+    # esta nao tinha. A paginacao NAO entra: ela nao tem dono em documento nenhum
+    # do projeto, e inventar um seria escrever numero para fechar checagem. O
+    # conserto dela foi outro — ela passou a aparecer UMA vez na entrega.
+    _entrega_confere('a contagem de capitulos do livro', r'\*\*(\d+) capítulos\*\*',
+                     'README.md', r'o Manual da Guilda em \*\*(\d+) capítulos\*\*')
 
     # -- 7.4: a entrega esta SINCRONIZADA no disco, mas foi COMMITADA? --------
     #

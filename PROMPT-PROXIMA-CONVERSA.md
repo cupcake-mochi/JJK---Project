@@ -1,4 +1,4 @@
-# Retomada — a v0.168 fechou, e a v0.169 é o capítulo de mesa de `Sem Técnica`
+# Retomada — a v0.169 fechou, e a v0.170 é o capítulo de mesa de `Sem Técnica`
 
 Pasta: `/media/mizuki/HD Externo II/Claude/Claude 2/`
 ⚠ Trabalhe na pasta PRINCIPAL, não em worktree. **Você não commita** — deixa a mensagem em
@@ -6,7 +6,10 @@ Pasta: `/media/mizuki/HD Externo II/Claude/Claude 2/`
 
 > ## Estado no disco
 >
-> **A v0.168 está fechada e validada, e a `mensagem-de-commit.txt` da raiz é a dela.**
+> **A v0.169 está fechada e validada, e a `mensagem-de-commit.txt` da raiz é a dela.**
+> *Ela é uma versão de limpeza: a base da lista branca da 7.2 (que estava a UMA citação de
+> reprovar) e o `README.md` da entrega, que publicava a contagem de capítulos duas vezes
+> discordando de si mesma.*
 > *Os 25 validadores de `03-mecanica/`, os quatro de `manual/matematica/` e o `conferir-voz.py
 > --estrito` saem `0` com `PULADA = 0`.* **O `conferir-repositorio.py` sai `1` por três coisas, e
 > as três são da ENTREGA** — o passo 0 do `./subir.sh` resolve as três antes de rodar validador.
@@ -17,7 +20,7 @@ Leia primeiro, nesta ordem: `README.md` (a seção *"Nove lições que custaram 
 
 ---
 
-## A v0.169 — o capítulo de mesa de `Sem Técnica`
+## A v0.170 — o capítulo de mesa de `Sem Técnica`, em ARQUIVO PRÓPRIO
 
 **A regra existe e está escrita; o que falta é o texto longo.** *A v0.168 pôs no capítulo 25 o
 mínimo para o livro parar de contradizer a peça: a seção `Criação` ganhou a semente e a tabela
@@ -25,16 +28,23 @@ mínimo para o livro parar de contradizer a peça: a seção `Criação` ganhou 
 pendência saiu.* **O que ela NÃO tem é o capítulo com a dignidade dos outros** — a peça 20 ganhou
 o `42-tecnica-marcial.md` inteiro, e esta rota tem quatro parágrafos dentro do capítulo de Origens.
 
+***Decisão do Mizuki: capítulo próprio, no molde do `42-tecnica-marcial.md`.*** *As duas são rota
+de criação que herda a máquina do Fundamento, e a peça 20 é o precedente direto.*
+
 | a decidir | o que já está resolvido |
 |---|---|
-| **se ela vira capítulo próprio** ou fica dentro do 25 | a peça 20 virou capítulo próprio, e é o precedente |
+| **onde ele entra na ordem** | a peça 20 virou o `42-`, logo depois do `40-fundamento.md` |
 | **o que entra do §5** — a Regra sair da semente | a peça 25 §5 tem os dois exemplos de frase |
 | **os dois Fundamentos de exemplo** | `Redoma` e `Sutura Fria`, prontos no §9 da peça |
 
-> **Se virar capítulo novo:** ele entra na lista de capítulos dos **três** arquivos que a
-> checagem 10.1 do `conferir-repositorio.py` compara, e o `conferir-voz.py` cobra `{: .tab-titulo }`
-> em toda tabela. **E o `guard_numeros.py antes.md depois.md` roda a cada arquivo**, com CADA
-> diferença lida contra a linha que a carregava, mais os **quatro** builds.
+> **⚠ O que capítulo novo custa, e é tudo mecânico:** ele entra na lista de capítulos dos **três**
+> arquivos que a checagem 10.1 do `conferir-repositorio.py` compara, **a contagem do livro sobe de
+> `17` para `18`** — e ela tem dono e checagem desde a v0.169, o `README.md` do projeto, com a
+> cópia na entrega —, e a seção `Sem Técnica` do capítulo 25 vira ponteiro curto.
+>
+> **E o `conferir-voz.py` cobra `{: .tab-titulo }` em toda tabela.** *O `guard_numeros.py antes.md
+> depois.md` roda a cada arquivo, com CADA diferença lida contra a linha que a carregava, mais os
+> **quatro** builds.*
 
 ## Depois dela
 
@@ -48,9 +58,11 @@ o `42-tecnica-marcial.md` inteiro, e esta rota tem quatro parágrafos dentro do 
    - **⚠ A peça 11 §6 justifica *"o refino não escala a `Energia Reversa`"* citando uma §2 que a
      v0.158 substituiu.** *A decisão pode ficar; o argumento caiu há dez versões.* **A peça 25 §6
      já registra isso por escrito, então quem for pagar tem o diagnóstico pronto.**
-3. **Uma dívida de contagem que sobrou no `sistema/LEIA-ME.md`:** *ele publica o livro em
-   `230` páginas, e o build de hoje dá `245` e `142`.* **A contagem de rotas daquele arquivo foi
-   consertada na v0.168; a de páginas não.**
+3. ~~**Uma dívida de contagem no `sistema/LEIA-ME.md`** — ele publicava o livro em `230`
+   páginas.~~ **Paga na v0.169**, e pelo mesmo lado da entrega: *a paginação não tem dono em
+   documento nenhum do projeto, então ela saiu da linha em vez de ser atualizada.* **As outras
+   três cópias de `230` ficam — as três dizem "na v0.106" com todas as letras, e naquela versão
+   eram `230` mesmo.**
 
 > **`04-playtest/` continua vazia. Zero sessões desde a v0.1, e todo número do sistema é
 > previsão.** *É o maior item aberto do projeto.*
@@ -144,6 +156,7 @@ v0.134 que "quando o `Estilo da Sombra` for escrito, um estilo dele cabe no teto
 | o catálogo de entregas | peça 17; os três `DESENHO-*.md` da raiz são os donos do preço |
 | a fonte do livro | `sistema/05-material/livro/manual/`, 20 arquivos |
 | a régua de escrita | `sistema/05-material/livro/REGRA-DE-VOZ.md` — **`3` marcas de pendência** |
+| a lista branca da 7.2 | base `146`, folga `5`, **teto `151`** — o comentário dela no `conferir-repositorio.py` é o dono |
 | o gerador do manual | `manual/gerador/`, e o `COMO-USAR.txt` é o dono da versão dele |
 | a entrega | `finalizado/`, git próprio. **O `subir.sh` copia; o commit é à mão** |
 
