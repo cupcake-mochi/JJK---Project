@@ -20,7 +20,7 @@ marcas de "isto ainda não existe" e 0 rótulos longos demais em 52 entradas de 
 
 ## O que a v0.159 fechou
 
-**A ficha de inimigo ganhou as duas linhas que faltavam nela**, e elas eram o mesmo trabalho:
+**O inimigo ganhou as duas linhas que faltavam nele**, e elas eram o mesmo trabalho:
 *a peça 24 §8 pedia a Integridade dele desde a v0.145 e a peça 23 §9 pedia a Reação desde a
 v0.143, as duas apontando para a mesma seção do manual.* **Nenhum número do sistema se moveu.**
 
@@ -83,7 +83,13 @@ cada vez que o manual muda de versão.* **Foi à mão nesta versão, nas quatro 
 > `` `v7.9` `` histórico entre crases na mesma página.** *Um `sed` cego que acerte as quatro hoje
 > apaga história amanhã, e a 7.3 já grita alto.* **Decisão registrada, não dívida.**
 
-### 4 · As sete marcas de "isto ainda não existe" — cinco assuntos
+### 4 · ⚠ NÃO existe ficha de inimigo, e três documentos falam dela
+
+**O manual não tem bloco de inimigo.** *A seção `Inimigos` é uma tabela de nível → vida e dano mais prosa; o apêndice tem `Ficha de feitiço` e nada equivalente.* **Montar um inimigo pede NOVE números com QUATRO donos** — o manual (vida, dano, e a Integridade e a Reação desde a v0.159), a peça 19 (as `3` ações do chefe e a falha de TR de `35%`), a peça 1 (a Defesa do alvo difícil, que é régua de medida), e o `ESTADO-ATUAL`, que declara na seção do clash que o inimigo carrega refino e aptidões.
+
+> **Juntar os nove é o `Bestiário`**, que está no fim da fila com uma linha só. *Ele é peça, e não meia versão* — e a linha do clash é dono provisório dentro de um documento de retomada, que é o padrão de "vocabulário que ainda não tem peça".
+
+### 5 · As sete marcas de "isto ainda não existe" — cinco assuntos
 
 *O `conferir-voz.py` conta e falha nas duas direções. Dois são grandes:*
 
@@ -99,7 +105,7 @@ não obedece**, e as **duas de Invocações** que esperam outra peça.
 > olhar** — nem na peça, nem no livro, nem na seção *Em aberto* do capítulo 15. *E o
 > `ESTADO-ATUAL` declara que ela e a "vida cheia" **travam as Trilhas do Evocador**.*
 
-### 5 · Os dois rascunhos
+### 6 · Os dois rascunhos
 
 | rascunho | estado |
 |---|---|

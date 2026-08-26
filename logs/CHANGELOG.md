@@ -10,7 +10,7 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ## [0.159] — 25/08/2026
 
-**A ficha de inimigo ganhou as duas linhas que faltavam nela, e elas eram o mesmo trabalho.** *A peça 24 §8 pedia a Integridade do inimigo desde a v0.145 e a peça 23 §9 pedia a Reação dele desde a v0.143 — as duas apontando para a mesma seção do manual, e nenhuma das duas sabendo da outra.* **Fecharam juntas, e nenhum número do sistema se moveu.**
+**O inimigo ganhou as duas linhas que faltavam nele, e elas eram o mesmo trabalho.** *A peça 24 §8 pedia a Integridade do inimigo desde a v0.145 e a peça 23 §9 pedia a Reação dele desde a v0.143 — as duas apontando para a mesma seção do manual, e nenhuma das duas sabendo da outra.* **Fecharam juntas, e nenhum número do sistema se moveu.**
 
 ### As duas pendências descreviam o conserto errado, e as duas do mesmo jeito
 
@@ -107,6 +107,27 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 >
 > *A entrada do `PENTE-FINO-v0.147.md` diz `11` e **fica**: naquela versão eram onze mesmo.* **Retrato datado não é cópia divergente.**
 
+### ⚠⚠ E NÃO existe ficha de inimigo, apesar de três documentos falarem dela
+
+***Achado do Mizuki lendo o fecho, depois do primeiro commit desta versão, e ele derrubou a redação dela.*** *A entrada abria com "a ficha de inimigo ganhou as duas linhas que faltavam nela", e isso promete um artefato que não está lá.* **Corrigido aqui em vez de virar v0.160: o que mudou foi o texto, e a versão é a mesma.**
+
+**O manual não tem bloco de inimigo.** *A seção `Inimigos` é uma tabela de nível do grupo → vida e dano, mais duas frases; o apêndice tem `Ficha de feitiço` e nada equivalente do outro lado.* **O que entrou são duas linhas dizendo ao mestre o que anotar — e é isso que as duas pendências pediam, cada uma no tamanho de uma linha.**
+
+**Montar um inimigo hoje pede NOVE números, e eles têm QUATRO donos:**
+
+| o número | dono |
+|---|---|
+| vida e dano por nível, chefe e capanga | **o manual**, a tabela da seção `Inimigos` |
+| Integridade e Reação | **o manual**, desde esta versão |
+| as `3` ações do chefe por rodada | peça 19 §2.1 |
+| a falha de Teste de Resistência, `35%` contra o alvo treinado | peça 19 §2.5 |
+| a Defesa do alvo difícil | peça 1 §6 — *e ela é régua de medida, não número de mesa* |
+| refino e aptidões | **o `ESTADO-ATUAL`**, na seção do clash, que declara que o inimigo carrega os dois *"na ficha dele"* |
+
+> **Nenhum documento junta os nove**, e um dos donos é o `ESTADO-ATUAL` — que é o padrão de *"vocabulário que ainda não tem peça"* aparecendo de novo. **Juntar isso é o `Bestiário`**, que está no fim da fila com uma linha só: *"sai da matemática de inimigo que o manual já tem"*. ***Ele é peça, e não meia versão.***
+
+
+
 ### Medido depois
 
 | | v0.158 | v0.159 |
@@ -117,7 +138,7 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 | checagens do `conferir-bloquear.py` | 7 | **8** |
 | manual do Fundamento | v7.14 | **v7.15** |
 | páginas do `.pdf` do manual | 49 | **49** |
-| linhas da ficha de inimigo sem dono | **2** | **0** |
+| coisas que o inimigo tem e ninguém mandava anotar | **2** | **0** |
 | lugares do manual ensinando a Integridade antiga | **2** | **0** |
 | contagens publicadas divergindo do código | **5, e 3 invisíveis** | **0** |
 | afirmações de contagem que a checagem 9 alcança | 30 | **31** |
@@ -126,7 +147,7 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 | palavras do livro | 71.167 | **71.167** |
 | coluna única · duas colunas | 243 · 141 | **243 · 141** |
 
-*Os 24 validadores verdes com `PULADA = 0`, o `conferir-repositorio.py` e os dois de `manual/matematica/`.* **O livro não foi tocado nesta versão** — a ficha de inimigo é material de mestre, e o `REMOCOES-material-de-mestre.md` é quem manda ela para fora do livro do jogador. *Então não há `guard_numeros.py` aqui, e os quatro builds não precisam rodar: a checagem 7.5 continua verde com os artefatos da v0.158.*
+*Os 24 validadores verdes com `PULADA = 0`, o `conferir-repositorio.py` e os dois de `manual/matematica/`.* **O livro não foi tocado nesta versão** — montar inimigo é material de mestre, e o `REMOCOES-material-de-mestre.md` é quem manda isso para fora do livro do jogador. *Então não há `guard_numeros.py` aqui, e os quatro builds não precisam rodar: a checagem 7.5 continua verde com os artefatos da v0.158.*
 
 > **O manual foi regerado, e o controle rodou antes de o build valer.** *Reconstruindo a v7.14 a partir da fonte de antes das edições, o `word/document.xml` sai **idêntico** ao `.docx` que está na entrega — `1.064.765` bytes, mesmo md5.* **Então o `node make.js` e o `soffice` desta máquina reproduzem o que o Mizuki commitou.**
 

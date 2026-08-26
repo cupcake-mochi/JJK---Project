@@ -4,9 +4,11 @@ Atualizado em 25/08/2026, na v0.159 (última peça fechada: **Dano de alma e Int
 
 **Versão v0.159.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e quatro peças escritas** e **vinte e quatro validadores**.
 
-***A v0.159 fechou as duas linhas que faltavam na ficha de inimigo, e elas eram o mesmo trabalho.*** **A peça 24 §8 pedia a Integridade dele desde a v0.145 e a peça 23 §9 pedia a Reação desde a v0.143** — *as duas apontando para a mesma seção do manual, e nenhuma sabendo da outra.*
+***A v0.159 fechou as duas linhas que faltavam no inimigo, e elas eram o mesmo trabalho.*** **A peça 24 §8 pedia a Integridade dele desde a v0.145 e a peça 23 §9 pedia a Reação desde a v0.143** — *as duas apontando para a mesma seção do manual, e nenhuma sabendo da outra.*
 
 > **As duas pendências descreviam o conserto errado, e do mesmo jeito:** *"valor sugerido por nível na tabela"*, que é o molde do ambiente propício. **Nenhuma das duas tem valor por nível.** *A Integridade do inimigo é a vida máxima dele, e a tabela já publica a vida; a Reação é o mesmo slot que a peça 3 §3 dá a qualquer ficha.* ***O que faltava não era um segundo valor: era um segundo lugar de marcar*** — a Integridade só se separa da vida quando o dano que atravessa o corpo entra, e a `Brecha` só existe se o mestre souber que a Reação do inimigo está na mão dele.
+>
+> **⚠⚠ E NÃO existe ficha de inimigo, apesar de três documentos falarem dela.** *Achado dele lendo o fecho, e a redação da versão foi corrigida por causa disso.* **O manual não tem bloco de inimigo: a seção `Inimigos` é uma tabela de nível → vida e dano, mais prosa**, e o apêndice tem `Ficha de feitiço` e nada do outro lado. *Montar um inimigo pede **nove** números com **quatro** donos — o manual, a peça 19, a peça 1 e este arquivo, que declara na seção do clash que o inimigo carrega refino e aptidões "na ficha dele".* **Juntar os nove é o `Bestiário`, e ele é peça.**
 >
 > **⚠⚠ E indo escrever apareceu que o manual publicava a Integridade errada há treze versões.** *A caixa da seção `Integridade` dizia `Integridade = vida máxima` sem dizer para quem, e a linha do apêndice repetia.* **Desde a v0.145 essa linha é falsa para personagem jogador** — quem manda nele é a fórmula do §2 daquela peça. *O conserto foi apontar e não copiar: o manual diz que personagem tem fórmula própria, e a checagem 12 falha se a fórmula da peça 24 aparecer dentro dele.* **Manual na v7.15, com a paginação parada em 49.**
 >
