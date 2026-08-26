@@ -1,4 +1,4 @@
-# Retomada — v0.158, e o que sobrou é preço, playtest e dois rascunhos
+# Retomada — v0.159, e o que sobrou é um validador, playtest e dois rascunhos
 
 Pasta: `/media/mizuki/HD Externo II/Claude/Claude 2/`
 ⚠ Trabalhe na pasta PRINCIPAL, não em worktree. **Você não commita** — deixa a mensagem em
@@ -7,66 +7,83 @@ Pasta: `/media/mizuki/HD Externo II/Claude/Claude 2/`
 Leia primeiro, nesta ordem: `README.md` (a seção *"Nove lições que custaram erro"*),
 `sistema/ESTADO-ATUAL.md` **inteiro**, e o `logs/CHANGELOG.md` de cima até a v0.145.
 
-**Projeto na v0.158.** 24 peças · 24 validadores · **259 checagens**. Livro em 17 capítulos,
+**Projeto na v0.159.** 24 peças · 24 validadores · **261 checagens**. Livro em 17 capítulos,
 **71.167 palavras**, **243** páginas em coluna única e **141** em duas. Manual do Fundamento na
-**v7.14**. `conferir-voz --estrito` em 0 achados, 0 termos sem destino, 11 triagens, **7 marcas
-de "isto ainda não existe" e 0 rótulos longos demais em 52 entradas de catálogo**.
+**v7.15**. `conferir-voz --estrito` em 0 achados, 0 termos sem destino, **10 triagens**, **7
+marcas de "isto ainda não existe" e 0 rótulos longos demais em 52 entradas de catálogo**.
 
-> **⚠⚠ A entrega está DUAS versões atrás, e a ordem inverte.** *O último commit de
-> `finalizado/` é da v0.156; o projeto está na v0.158, e a checagem 7.4 reprova com dois de
-> distância.* **Rode o `./subir.sh` PRIMEIRO** — o passo 0 sincroniza e suja a árvore da
-> entrega —, **ele para na 7.4, você commita a entrega com `recorte da v0.158`, e roda o
-> `subir.sh` de novo.**
+> **A entrega está UMA versão atrás, que é o normal — a ordem não inverte.** *O último commit
+> de `finalizado/` é `recorte da v0.158`, e a checagem 7.4 aceita uma de distância.* **Rode o
+> `./subir.sh` normalmente e commite a entrega depois**, com `recorte da v0.159`.
 
 ---
 
-## O que a v0.158 fechou
+## O que a v0.159 fechou
 
-**O dano na arma ganhou peça, conta e validador**, e ele estava sem os três desde a v0.147 —
-era o único dado do sistema nessa situação. *A peça 11 contradizia o livro em três frases, e
-o livro contradizia a si mesmo dentro do mesmo capítulo.* **A trava de dano da §2 ganhou o
-motivo que ela nunca teve**, e o refino `10` passou a dar `4d6`.
+**A ficha de inimigo ganhou as duas linhas que faltavam nela**, e elas eram o mesmo trabalho:
+*a peça 24 §8 pedia a Integridade dele desde a v0.145 e a peça 23 §9 pedia a Reação desde a
+v0.143, as duas apontando para a mesma seção do manual.* **Nenhum número do sistema se moveu.**
 
-*Antes dela:* **a v0.157** pôs a lição do rótulo da entrega no `README`; **a v0.156** deu dono
-à coluna `trava` das Manhas; **a v0.155** fechou o vão do nível 7; **a v0.154** mexeu em cinco
-Manhas por leitura dele.
+*E de passagem:* **o manual publicava a Integridade errada há treze versões**, a contagem de
+checagens escapava por **três** portas e não pela que a v0.158 anotou, e o `11 triagens` era
+`10` desde a v0.150.
+
+*Antes dela:* **a v0.158** deu peça, conta e validador ao dano na arma; **a v0.157** pôs a lição
+do rótulo da entrega no `README`; **a v0.156** deu dono à coluna `trava` das Manhas; **a v0.155**
+fechou o vão do nível 7.
 
 ---
 
-## ⚠⚠ A lição que a v0.158 acrescentou, e ela é sobre CONTAGEM outra vez
+## ⚠⚠ A lição que a v0.159 acrescentou, e ela é sobre MAPA DERIVADO
 
-**Um bloco de checagem com o rótulo em minúscula é invisível para a contagem, e ele não abre
-buraco nenhum.** *A checagem 6 do `conferir-manual.py`, escrita na v0.155, nasceu como
-`print('  6. os cinco degraus…')` — o extrator da checagem 9 exige maiúscula depois do número.*
-**O projeto publicava `258` e o código tinha `257`, por três versões.**
+**Um mapa derivado que ninguém imprime é um mapa que ninguém confere.** *O
+`conferir-repositorio.py` deriva o validador dono de cada peça do nome do arquivo — e
+`24-dano-de-alma.md` começa com `dano`, então a peça 24 caía no `conferir-dano.py`, que é da peça
+19.* **O `conferir-alma.py` ficava sem peça nenhuma desde a v0.145.**
 
-> **É o irmão do defeito da v0.118, e as duas guardas daquela versão não pegam este caso.**
-> *Elas procuram **buraco** e **repetição** na sequência de números.* **Um bloco invisível não
-> abre buraco: o `6` some, e o `5` vira o último.**
+> **Ele passou despercebido por coincidência aritmética: os dois tinham ONZE checagens.** *A linha
+> do `ESTADO-ATUAL` que publica a contagem da peça 24 estava sendo conferida contra o validador
+> errado, e batia.*
 >
-> *Fica anotado como conserto barato para quem passar por ali:* **a guarda que falta é o
-> extrator aceitar minúscula, ou o `conferir-repositorio.py` acusar `print('N. ` fora do
-> `bloco()`.**
+> **Consertado sem tabela escrita** — *peça que cai num validador já tomado tenta um candidato
+> livre do próprio slug* —, **e a checagem 9 passou a imprimir o mapa**: quantas peças ela mapeou
+> e quais validadores ficam sem peça de propósito.
 
 ---
 
 ## A fila, e nenhuma trava a mesa
 
-### 1 · NENHUMA dívida de preço aberta — as três que sobravam viraram decisão declarada
+### 1 · NENHUMA dívida de preço aberta
 
-> **⚠⚠ Este arquivo carregou uma dívida MORTA por três versões, e quem achou foi o Mizuki lendo a fila.** *O **vão do nível 7** fechou na v0.155 — o `CHANGELOG` e o `ESTADO-ATUAL` dizem isso com todas as letras desde então —, e este prompt continuou publicando o texto da v0.154, com o bloco de aviso e a escolha entre A e C.*
->
-> **Ele foi copiado de novo na v0.158, para dentro de uma versão que rodou os 24 validadores.** *Nenhum deles alcança este arquivo.* **Lição nº 9 no documento que existe para dizer onde o trabalho parou:** *dívida fechada precisa ser desregistrada, e a linha `→ Continua em` do topo do `CHANGELOG` é quem manda.*
+*As três que existiam viraram decisão declarada, e a última — o dano na arma — virou a §6.9 da
+peça 11 na v0.158.* **Fica só a das sete travas das Manhas, medida na v0.156 e declarada NÃO
+aplicada:** *`Espeto`, `Laço` e `Prego` não têm o TR no preço; o `60%` do `Abalo` e o `28%` do
+`Tranco` não vêm de portão nenhum; e o `75%` do `Talho` e do `Encaixe` é do acerto velho.*
+**Refazer põe a banda em `6,2×`, e a decisão dele foi não mexer.**
 
-| dívida | desde | o que é |
-|---|---|---|
-| ~~**as Manhas supõem DOIS ataques**~~ | v0.154 | ***MEDIDA na v0.158, e declarada não aplicada.*** *A descrição estava errada em quatro pontos:* **quem cai pela metade é `Raspão`, `Zunido` e `Gancho`; o `Encaixe` cai um terço pelo portão; o `Talho` SOBE; o `Racho` não se move.** *Banda `0,53`–`1,06` e dominância `2,00×` do nível 2 ao 6 — **a dominância melhora**. O que cai é a média, de `0,94` para `0,80`.* **Sub-checagem `13.1` do `conferir-catalogo.py` em cima** |
-| **a 7.4 mede o rótulo, não o conteúdo** | v0.156 | ela lê a **mensagem** do último commit da entrega e tira o `vN.NN` dali. *Uma entrega sincronizada lê como "duas versões atrás" se a mensagem for copiada da vez passada.* **O conserto é ela ler a linha `Recorte da vX.Y` do `README` da entrega no último commit.** *Não é dívida de preço — é de validador* |
-| **as sete travas que não derivam** | v0.147 | `Espeto`, `Laço` e `Prego` não têm o TR no preço; o `60%` do `Abalo` e o `28%` do `Tranco` não vêm de portão nenhum; e o `75%` do `Talho` e do `Encaixe` é do acerto velho. **Medida e declarada NÃO aplicada na v0.156** — refazer põe a banda em `6,2×`. *Decisão dele, não trabalho pendente* |
-| ~~**o vão do nível 7**~~ | v0.147 | ***FECHADA na v0.155.*** *O nível 7 ganhou uma segunda metade que não anda no ataque —* **`Ainda de Pé` no Bastião e `Não Pega` na Vanguarda**, *totais `1,93` e `2,10` contra `2,36`, com a diferença declarada e a checagem 6 do `conferir-manual.py` em cima* |
-| ~~**o dano na arma**~~ | v0.148 | ***FECHADA na v0.158.*** **Peça 11 §6.9**, com a escada, o argumento do incentivo, o invariante medido nos 29 níveis e a checagem 10 do `conferir-aptidoes.py` |
+### 2 · O CONSERTO DA CHECAGEM 7.4 — o mais barato da fila, e sem decisão dele
 
-### 2 · As sete marcas de "isto ainda não existe" — cinco assuntos
+**Ela lê a MENSAGEM do último commit da entrega — `git log -1 --pretty=%s` — e tira o `vN.NN`
+dali, em vez de ler a linha `Recorte da vX.Y` do `README` da entrega dentro daquele commit.**
+*Uma entrega perfeitamente sincronizada é lida como "duas versões atrás" se alguém copiar a
+mensagem da vez passada.* **Já travou o `subir.sh` duas vezes.**
+
+> **⚠ O arnês desse conserto precisa de um clone descartável em `/tmp`**, com commits rotulados
+> errado de propósito — *não dá para fabricar isso na entrega de verdade.* **E o git da entrega
+> É legível do sandbox: medido na v0.159**, a própria 7.4 rodou `git -C finalizado` e leu o
+> último commit sem deixar lock. *Quem não é legível é o git da RAIZ, e nele não se toca.*
+
+### 3 · Uma coisa pequena que a v0.159 achou e NÃO consertou
+
+**O passo 0 do `subir.sh` acerta a versão do RECORTE no `README` da entrega e não acerta a
+versão do MANUAL.** *A checagem 7.3 confere as duas, então ela pega — mas o conserto é à mão, a
+cada vez que o manual muda de versão.* **Foi à mão nesta versão, nas quatro ocorrências.**
+
+> *Não virou `sed` no `subir.sh` de propósito:* **as quatro ocorrências estão em negrito e há um
+> `` `v7.9` `` histórico entre crases na mesma página.** *Um `sed` cego que acerte as quatro hoje
+> apaga história amanhã, e a 7.3 já grita alto.* **Decisão registrada, não dívida.**
+
+### 4 · As sete marcas de "isto ainda não existe" — cinco assuntos
 
 *O `conferir-voz.py` conta e falha nas duas direções. Dois são grandes:*
 
@@ -82,12 +99,7 @@ não obedece**, e as **duas de Invocações** que esperam outra peça.
 > olhar** — nem na peça, nem no livro, nem na seção *Em aberto* do capítulo 15. *E o
 > `ESTADO-ATUAL` declara que ela e a "vida cheia" **travam as Trilhas do Evocador**.*
 
-### 3 · Meia versão que fecha duas coisas de uma vez
-
-**O inimigo não tem linha de Integridade na tabela do manual** (peça 24 §9) e **não tem Reação
-na ficha** (peça 23 §9). *São o mesmo trabalho: imprimir a coluna.* **As duas fecham juntas.**
-
-### 4 · Os dois rascunhos
+### 5 · Os dois rascunhos
 
 | rascunho | estado |
 |---|---|
@@ -121,23 +133,24 @@ escolhe o Leque.* **Elas esperam mesa, não conserto.**
 - **Confira `PULADA = 0`.** *Sem `python-docx` cinco validadores pulam em vez de falhar.*
 - **Todo número novo ganha validador com teste negativo**, em cópia isolada: confira que a
   base passa antes **e leia o ESTADO dela**, que o `diff` entrou, e ponha **contra-teste**.
-  ***E confira que cada checagem tem pelo menos uma perturbação que a acende*** — a que
-  nenhuma alcança é a que não pode falhar. *Aconteceu de novo na v0.158, com a sub-checagem do
-  incentivo lendo uma terceira cópia da curva.*
+  ***E confira que cada checagem tem pelo menos uma perturbação que a acende.***
 - ***E confira a PERTURBAÇÃO também.*** *A v0.153 escreveu duas que pareciam certas lendo e não
   reproduziam o defeito.*
-- **Uma checagem que só sabe ler a decisão de hoje mede a decisão, não a relação.** *A v0.158:
-  a primeira versão da checagem 10 lia a exceção do refino 10 pelo literal `e entra um dado a
-  mais`, então o contra-teste coerente reprovava em vez de sair verde.*
-- **Todo número publicado leva a FRONTEIRA escrita ao lado.** *Sem ela, a contagem seguinte
-  mede outra coisa.*
-- **Contra-teste coerente mexe em TUDO que a mudança implica.**
+- **Uma checagem que só sabe ler a decisão de hoje mede a decisão, não a relação.** *O
+  contra-teste que prova o contrário reverte a decisão de forma COERENTE em todos os lugares e
+  sai verde.*
+- **Contra-teste coerente mexe em TUDO que a mudança implica.** *A v0.159 escreveu um que mexia
+  em dois donos quando a mudança implicava quatro, e ele acendeu com razão.*
+- **Todo número publicado leva a FRONTEIRA escrita ao lado.**
 - **Nada de valor fica escrito dentro do validador.** Leia do documento dono.
 - **Cada peça tem um validador dono.** Checagem nova vai no validador da peça que ela confere.
 - **Antes de batizar qualquer coisa:** `python3 conferir-nomes.py --candidatos Nome Outro`.
   *Ela pega substring e não pega colisão de sentido — essa é sua.*
 - **Se mexer no livro:** `guard_numeros.py antes.md depois.md` a cada arquivo, com **cada**
   diferença lida contra a linha que a carregava. E os **quatro** builds.
+- **Se mexer no manual:** `node make.js`, `soffice --headless --convert-to pdf`, e **rode o
+  controle antes de o build valer** — reconstrua a versão anterior a partir da fonte e compare
+  o XML do documento contra o `.docx` que está na entrega. *Na v0.159 ele saiu idêntico.*
 - **Escolha de sabor é dele**, em rodadas curtas, com o número e o trade-off já calculados.
   **Mas não pergunte o que a conta responde.**
 - **Documento não pode ter cara de saída de IA.** Português informal, nunca de Portugal.
@@ -148,23 +161,26 @@ escolhe o Leque.* **Elas esperam mesa, não conserto.**
 > `conferir-voz --estrito` em `0` achados, os 24 validadores verdes e as 251 checagens
 > fechando — e a leitura achou **dezoito** coisas.*
 >
+> **⚠⚠ A pendência muitas vezes descreve o conserto ERRADO, e as duas da v0.159 descreviam o
+> mesmo errado.** *As duas pediam "valor sugerido por nível na tabela", e nenhuma das duas tem
+> valor por nível.* **Leia o que a dívida pede, depois meça se aquilo existe.**
+>
 > **⚠⚠ Decisão escrita SÓ NO LIVRO não chega a peça nenhuma, e ela contradiz a peça em
-> silêncio.** *É a v0.158: o dano na arma entrou no capítulo na v0.147 e a peça 11 continuou
-> publicando "o refino não a escala" em duas cópias, por onze versões.* **A checagem 10 do
-> `conferir-aptidoes.py` compara os dois lados agora; nada comparava antes.**
+> silêncio.** *E a irmã dela:* **decisão escrita SÓ NA PEÇA não chega ao manual.** *A v0.145
+> recolheu a máquina de alma e deixou o manual ensinando a Integridade antiga por treze versões.*
 >
 > **⚠⚠ Uma checagem pode se medir contra si mesma sem ninguém ver, por DEZENAS de versões.**
 >
 > **⚠⚠ Um reconhecedor que fica cego passa verde para sempre.**
 >
-> **⚠⚠ E uma checagem pode ficar invisível para a CONTAGEM sem ficar cega.** *v0.158: rótulo em
-> minúscula, e as guardas de buraco e repetição não alcançam.*
+> **⚠⚠ E uma checagem pode ficar invisível para a CONTAGEM sem ficar cega.** *Três portas, e a
+> v0.159 fechou as três: rótulo em minúscula, mapa peça→validador errado, e uma exceção de regex
+> que lia a linha inteira em vez da janela em volta do número.*
 >
 > **⚠ Frase morta não volta entre aspas — e frase morta EXIGIDA por um validador não sai
 > nunca.**
 >
-> **⚠ Ponteiro em tempo presente vira mentira no ato.** *A v0.158 tirou cinco `hoje` de uma
-> seção recém-escrita, porque no commit seguinte "hoje" já é a outra coluna.*
+> **⚠ Ponteiro em tempo presente vira mentira no ato.**
 >
 > **⚠⚠ Recorte de seção fecha em QUALQUER cabeçalho de nível igual ou menor.**
 >
@@ -182,17 +198,19 @@ escolhe o Leque.* **Elas esperam mesa, não conserto.**
 | os builds | `sistema/05-material/livro/build/` |
 | a régua de escrita | `sistema/05-material/livro/REGRA-DE-VOZ.md`, e o `METODO-passada-de-texto.md` ao lado |
 | a última passada de texto | `sistema/05-material/livro/PENTE-FINO-v0.147.md`, com os dezoito achados |
+| o gerador do manual | `manual/gerador/`, e o `COMO-USAR.txt` é o dono da versão dele |
 | a entrega | `finalizado/`, git próprio. **O `subir.sh` copia; o commit é à mão** |
 
 **Os dois repositórios:** `JJK---Project` (raiz) e `JJK---PDF---RPG` (`finalizado/`).
 *Se o repositório for lido por um Project do Claude, **sincronize depois do push**.*
 
-⚠ **Não rode git do sandbox.** Para ver onde o repositório está, leia `.git/refs/heads/main` e
-`.git/refs/remotes/origin/main` — ou `.git/packed-refs`, se os dois não existirem como arquivo.
+⚠ **Não rode git do sandbox.** Para ver onde a entrega está sem rodar git, leia
+`finalizado/.git/logs/HEAD` como arquivo — é texto puro e não cria lock.
 
 > **Uma sujeira que não é do projeto:**
 > `sistema/05-material/livro/.claude/worktrees/magical-shtern-619941/` é uma **cópia inteira do
 > repositório na v0.138**, 11 MB, abandonada. *Ela está no `.gitignore` e o `conferir-repositorio.py`
-> já a exclui.* **Todo `grep -rn` cai nela e devolve resultado em dobro — mas foi ela que provou
-> que a dívida de texto não tinha sido consertada de passagem**, porque é o único lugar do disco
-> com o livro de antes da v0.141. *Apagar continua sendo decisão do Mizuki.*
+> já a exclui.* **Todo `grep -rn` cai nela e devolve resultado em dobro — e ela é o único lugar do
+> disco com o livro de antes da v0.141**, o que já serviu duas vezes: provou que a dívida de texto
+> não tinha sido consertada de passagem (v0.153) e datou a queda do `11 triagens` (v0.159).
+> *Apagar continua sendo decisão do Mizuki.*

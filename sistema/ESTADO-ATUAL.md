@@ -1,8 +1,30 @@
 # Estado atual do projeto
 
-Atualizado em 25/08/2026, na v0.158 (última peça fechada: **Dano de alma e Integridade**, a peça 24, na v0.145, com o `conferir-alma.py` e onze checagens; antes dela, **Bloquear, na v0.143**; antes dela, o **Objeto amaldiçoado, na v0.132**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 25/08/2026, na v0.159 (última peça fechada: **Dano de alma e Integridade**, a peça 24, na v0.145, com o `conferir-alma.py` e doze checagens; antes dela, **Bloquear, na v0.143**; antes dela, o **Objeto amaldiçoado, na v0.132**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.158.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e quatro peças escritas** e **vinte e quatro validadores**.
+**Versão v0.159.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e quatro peças escritas** e **vinte e quatro validadores**.
+
+***A v0.159 fechou as duas linhas que faltavam na ficha de inimigo, e elas eram o mesmo trabalho.*** **A peça 24 §8 pedia a Integridade dele desde a v0.145 e a peça 23 §9 pedia a Reação desde a v0.143** — *as duas apontando para a mesma seção do manual, e nenhuma sabendo da outra.*
+
+> **As duas pendências descreviam o conserto errado, e do mesmo jeito:** *"valor sugerido por nível na tabela"*, que é o molde do ambiente propício. **Nenhuma das duas tem valor por nível.** *A Integridade do inimigo é a vida máxima dele, e a tabela já publica a vida; a Reação é o mesmo slot que a peça 3 §3 dá a qualquer ficha.* ***O que faltava não era um segundo valor: era um segundo lugar de marcar*** — a Integridade só se separa da vida quando o dano que atravessa o corpo entra, e a `Brecha` só existe se o mestre souber que a Reação do inimigo está na mão dele.
+>
+> **⚠⚠ E indo escrever apareceu que o manual publicava a Integridade errada há treze versões.** *A caixa da seção `Integridade` dizia `Integridade = vida máxima` sem dizer para quem, e a linha do apêndice repetia.* **Desde a v0.145 essa linha é falsa para personagem jogador** — quem manda nele é a fórmula do §2 daquela peça. *O conserto foi apontar e não copiar: o manual diz que personagem tem fórmula própria, e a checagem 12 falha se a fórmula da peça 24 aparecer dentro dele.* **Manual na v7.15, com a paginação parada em 49.**
+>
+> ***Decisão medida: o chefe NÃO ganha uma segunda Reação por ter três ações.*** *O ataque dela sairia por cima dos `72` de dano por rodada que a tabela de inimigo publica — e o dono daquela tabela é o playtest —, e o único gatilho com taxa medida é a `Brecha`:* **`1,00%` por rolagem × `16` rolagens por combate = `0,16` disparo por combate.** *Uma Reação por rodada nunca acaba contra isso.*
+>
+> **A checagem 8 do `conferir-bloquear.py` não guarda o `1`:** *ela lê a quantidade da peça 3 e a do manual e compara, então trocar as duas para `duas` de forma coerente sai **verde** de propósito.* **Vinte e uma perturbações nas duas checagens: quinze acendendo e seis contra-testes.**
+
+***E a contagem de checagens escapava por TRÊS portas, não pela que a v0.158 anotou.*** **Cinco contagens publicadas estavam erradas no fim da versão, e o código antigo pegava duas.**
+
+> **1 · O rótulo em minúscula**, que a v0.158 deixou apontado. *Entrou a guarda `0.1`, com zero falso positivo medido nos 25 validadores.*
+>
+> **2 · ⚠⚠ O mapa peça → validador mandava a peça 24 para o `conferir-dano.py`.** *Ele é derivado do nome do arquivo, e `24-dano-de-alma.md` começa com `dano`* — **então o `conferir-alma.py` ficava sem peça nenhuma, e a linha que publica a contagem da peça 24 era conferida contra o validador errado.** *Passou despercebido por coincidência: os dois tinham onze checagens.* **O conserto continua derivado — peça que cai num validador já tomado tenta um candidato livre do próprio slug —, e só a 24 se moveu.**
+>
+> **3 · A palavra `nova` em qualquer ponto da linha desligava a conferência dela.** *A exceção existe para não confundir "duas checagens novas" com um total, e ela lia a linha inteira: a linha 3 deste arquivo escapava pela palavra **"conversa nova"**, a trezentos caracteres da contagem.* **Hoje ela lê uma janela de `40` caracteres.**
+>
+> *A que já estava errada antes desta versão era a peça 14 §9, dizendo `onze` blocos contra os `doze` do `conferir-equipamento.py`.* **Ela não foi corrigida para `doze`: deixou de carregar numeral.** *Contagem de bloco é do código, e a checagem 9 já publica.*
+
+***E o `11 triagens` era `10` desde a v0.150.*** *O número era `11` de verdade da v0.145 até a v0.149; depois da queda, seis entradas do `CHANGELOG` e o prompt de retomada continuaram publicando `11`.* **O décimo primeiro era o exemplo do `Desgaste` no capítulo 16, que saiu quando a ferramenta deixou de descer de grau** — *o reconhecedor casava `o que importa` dentro de `missão que importava`.* **A entrada do `PENTE-FINO-v0.147.md` continua dizendo `11`, e fica: naquela versão eram onze mesmo.**
 
 ***A v0.158 deu peça, conta e validador ao dano na arma, e ele estava sem os três desde a v0.147.*** **Era o único dado do sistema nessa situação:** *ele morava só no livro, em dois capítulos, e nenhum `conferir-*.py` alcançava.*
 
@@ -666,15 +688,15 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/conferir-pactos.py` | as **catorze** checagens da peça 22, e a segunda é o par declarado: o teto por pacto não está escrito nela, é `camada ÷ (teto de atributo ÷ 2)` — ela mede relação e não constante |
 | `03-mecanica/23-bloquear.md` | **rolar para se defender**: o `2d10 + (Defesa − 11)`, por que o dado não é o d20, o `Aparar` e a `Brecha`, o invariante do modificador único, e a única condição que desliga |
 | `03-mecanica/24-dano-de-alma.md` | **a máquina de alma inteira**: a Integridade com Essência dentro, os quatro estágios, o acoplamento com a vida, a exceção que atravessa o corpo, e o Teste de Resistência de Espírito que a v0.7 decidiu e ninguém aplicou |
-| `03-mecanica/conferir-alma.py` | as **onze** checagens da peça 24. *A 1 reconstrói a curva a partir de **três** donos independentes — a peça 24, o teto de atributo da peça 2 e a curva original lida do manual — e a 4 é a única do projeto que mede **consequência**: se o estágio 4 sumir da campanha, nenhuma outra checagem acusaria* |
-| `03-mecanica/conferir-bloquear.py` | as **sete** checagens da peça 23. **A checagem 1 é a única do projeto que existe para sustentar um número de OUTRA peça:** ela recalcula a neutralidade por enumeração das `2.000` combinações, e é dela que o preço do `Incapacitado` na peça 19 depende — `4,95` desde a v0.151 |
+| `03-mecanica/conferir-alma.py` | as **doze** checagens da peça 24. *A 12 entrou na v0.159 e lê o manual: a caixa de `Integridade` tem de nomear os dois lados, e a seção `Inimigos` tem de mandar anotar a barra.* *A 1 reconstrói a curva a partir de **três** donos independentes — a peça 24, o teto de atributo da peça 2 e a curva original lida do manual — e a 4 é a única do projeto que mede **consequência**: se o estágio 4 sumir da campanha, nenhuma outra checagem acusaria* |
+| `03-mecanica/conferir-bloquear.py` | as **oito** checagens da peça 23. *A 8 entrou na v0.159 e mede a Reação do inimigo como **relação** contra a peça 3 §3, com o `0,16` disparo por combate recalculado da enumeração.* **A checagem 1 é a única do projeto que existe para sustentar um número de OUTRA peça:** ela recalcula a neutralidade por enumeração das `2.000` combinações, e é dela que o preço do `Incapacitado` na peça 19 depende — `4,95` desde a v0.151 |
 | `05-material/gerador-ficha/` | o gerador da ficha (Node: `node make.js`), e os dois `.docx` que ele produz |
 | `conferir-repositorio.py` | a árvore, as referências mortas, os números que moram em mais de um documento, os **ponteiros de seção** — todo `peça N §M` citado tem de apontar para seção que existe, desde a v0.54 —, o **mapa** desta tabela contra a pasta, a **entrega** contra a fonte, a **pendência morta** desde a v0.100 — nenhum item de "Em aberto" pode pedir coisa que já existe —, e, **desde a v0.102**, a **contagem de checagens de cada validador, lida do código** |
 | `99-arquivo/` | material morto, com LEIA-ME próprio. Não leia de lá para escrever peça nova |
 
 **Duas peças foram parcialmente substituídas e trazem o aviso no topo:** as seções 3 e 4 da peça 4 saíram para a peça 7, e a seção 3 e o quadro de Caminhos da peça 5 saíram para a peça 6.
 
-O manual do Fundamento **v7.14** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 366 parágrafos e 90 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na v7.14, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 49 páginas.
+O manual do Fundamento **v7.15** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 366 parágrafos e 90 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na v7.15, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 49 páginas.
 
 **Quem é dono da versão do manual:** a primeira linha de `manual/gerador/COMO-USAR.txt`. Toda outra cópia — a capa em `partA.js`, este arquivo, o `README.md`, o `LEIA-ME.md` e o `arquitetura.md` — é cópia, e o `conferir-repositorio.py` falha se alguma divergir. *Ele nasceu na v0.33, depois de a capa do manual passar três versões dizendo 7.5.*
 
@@ -1153,7 +1175,7 @@ Ele saiu por **regressão contra as seis classes publicadas**, e cinco fecham ex
 
 ### ~~Bloquear — a regra opcional que a v0.43 escreveu~~ **FECHOU na v0.143, e é a peça 23**
 
-***Decisão do Mizuki:*** *"Bloqueio pode ligar, é uma mecânica que o jogador pode TOMAR, na hora que for receber um ataque, é uma mecânica real, não uma opcional."* **O rascunho foi para `99-arquivo/` e virou `03-mecanica/23-bloquear.md`, com o `conferir-bloquear.py` e sete checagens.** *O desenho não mudou uma linha — o que mudou foi o estatuto.*
+***Decisão do Mizuki:*** *"Bloqueio pode ligar, é uma mecânica que o jogador pode TOMAR, na hora que for receber um ataque, é uma mecânica real, não uma opcional."* **O rascunho foi para `99-arquivo/` e virou `03-mecanica/23-bloquear.md`, com o `conferir-bloquear.py` — **oito checagens** hoje.** *O desenho não mudou uma linha — o que mudou foi o estatuto.*
 
 > **⚠⚠ E o parágrafo que fechava esta seção dizia o CONTRÁRIO, com todas as letras:** *"o validador dela não pode ser arquivo novo… um `conferir-*.py` novo quebraria a contagem de treze por treze, e Bloquear não é peça."* **Ele foi escrito quando existiam treze peças, e a decisão do Mizuki o revoga.** *Fica registrado porque quem retomasse a tarefa sem ler até aqui seria contradito pelo próprio documento de retomada.*
 
@@ -1171,7 +1193,7 @@ Ele saiu por **regressão contra as seis classes publicadas**, e cinco fecham ex
 
 *A Defesa continua sendo `10 + Destreza + proteção`, e a peça 1 continua dona dela.* **A regra é publicada no capítulo 1 do livro, colada na Defesa** — decisão do Mizuki, e o apêndice que era o capítulo 18 deixou de existir.
 
-**O que continua em aberto, e são três coisas:** *a Reação na ficha de inimigo, sem a qual a `Brecha` não vale contra inimigo; o gatilho de playtest que libera subir o `+3` se a decisão do nível 22 nunca aparecer na mesa; e quanto tempo de mesa a rolagem a mais custa de verdade.* **A linha `Defesa 17 · Bloquear 2d10+6` saiu de "em aberto": ela é obrigação da ficha, e o `conferir-ficha.py` é quem confere.**
+**O que continua em aberto são duas coisas, e as duas são de mesa:** *o gatilho de playtest que libera subir o `+3` se a decisão do nível 22 nunca aparecer na mesa, e quanto tempo de mesa a rolagem a mais custa de verdade.* **A Reação na ficha de inimigo FECHOU na v0.159**, na seção `Inimigos` do manual — *e a `Brecha` passou a valer contra inimigo.* **A linha `Defesa 17 · Bloquear 2d10+6` saiu de "em aberto": ela é obrigação da ficha, e o `conferir-ficha.py` é quem confere.**
 
 ### Decidido — o Caminho continua sem dar dados de dano
 

@@ -1,4 +1,4 @@
-GERADOR DO MANUAL — Fundamento v7.14
+GERADOR DO MANUAL — Fundamento v7.15
 
 Recria o .docx do zero. Precisa de Node.js.
 
@@ -31,6 +31,36 @@ ORDEM DAS SEÇÕES (v7)
   4 Restrições → 5 Fora de combate → 6 Liberação Máxima → 7 Técnica Máxima →
   8 Regras de ouro → 9 Progressão → 10 Feitiços prontos → 11 Para o mestre →
   Apêndice
+
+O QUE MUDOU NA v7.15
+
+  A ficha de inimigo ganhou as duas linhas que faltavam nela, e as duas moram na
+  secao 11 (Para o mestre). Nenhum numero se moveu.
+
+  1) A caixa de Integridade dizia "Integridade = vida maxima" sem dizer para
+     quem. Desde a v0.145 do projeto essa linha e' FALSA para personagem
+     jogador — quem manda nele e' a formula da peca 24, que poe a Essencia
+     dentro —, e ela ficou treze versoes assim, junto com a linha igual do
+     apendice. As duas passam a nomear os dois lados.
+
+     O manual NAO carrega a formula do projeto: ele aponta para fora. Duas
+     copias do mesmo numero em dois documentos e' a licao no 9, e a checagem 12
+     do conferir-alma.py falha se ela aparecer aqui.
+
+  2) A secao Inimigos ganhou as duas linhas que o mestre marca na ficha:
+
+       Integridade — a do inimigo e' a vida maxima dele, entao a coluna de vida
+       da tabela serve para as duas barras. Anote as duas assim mesmo, porque
+       existe dano que tira alma sem tirar vida.
+
+       Reacao — uma por rodada, como qualquer personagem, e ela volta no comeco
+       do turno dele. Sem ela impressa, a Brecha do Bloquear nao valia contra
+       inimigo.
+
+     NAO entrou coluna nova, e isso foi decisao medida: uma coluna de
+     Integridade ao lado da coluna de vida seria a mesma linha escrita duas
+     vezes dentro da mesma tabela, e a Reacao seria uma coluna com `1` repetido
+     seis vezes. O que faltava nao era valor: era lugar de marcar.
 
 O QUE MUDOU NA v7.14
 

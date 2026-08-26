@@ -125,9 +125,19 @@
 
 ***E isto não é número novo: é a linha que o manual sempre teve*** — *"Integridade = vida máxima"*. **A peça 1 substituiu ela para o personagem, e o motivo está escrito lá: com Caminho e Constituição na vida, um corpo duro ganharia de graça uma alma dura.** *Um inimigo não tem Caminho e não tem Constituição — a vida dele é uma linha da tabela do manual. Então o motivo da substituição não o alcança, e a regra original continua valendo para ele.*
 
-**Sem esta linha, o `Cisão` fica sem alvo contra inimigo**, que é a mesma forma do item aberto da peça 23 §9 sobre a Reação na ficha de inimigo. *Com ela, o `Cisão` contra o chefe do nível 30 é exatamente `1,0×` a velocidade de bater normal — ele não é atalho de dano.*
+**Sem esta linha, o `Cisão` fica sem alvo contra inimigo**, que era a mesma forma do item que a peça 23 §9 carregava sobre a Reação na ficha de inimigo — **e os dois fecharam juntos na v0.159**, no §3.3.1 daqui e no §3.4 de lá. *Com ela, o `Cisão` contra o chefe do nível 30 é exatamente `1,0×` a velocidade de bater normal — ele não é atalho de dano.*
 
 > **O que ele ganha contra inimigo são as outras duas coisas, e as duas são canon:** *ele atravessa redução e resistência, e ele empurra o chefe pelos quatro estágios.* **O estágio 3 dá desvantagem nos ataques do chefe**, e isso vale muito mais numa luta de `3,7` rodadas do que os `12` de dano do golpe.
+
+### 3.3.1 E o manual passou a imprimir isso onde o mestre monta inimigo
+
+**A caixa da seção `Integridade` do manual publicava `Integridade = vida máxima` sem dizer para quem.** *Desde a v0.145 aquela linha é falsa para personagem jogador — quem manda nele é a fórmula do §2 —, e ela continuou lá por treze versões, junto com a linha igual do apêndice.* **Ela nomeia os dois lados agora**, e não repete a fórmula do §2: o manual diz que personagem tem fórmula própria e aponta para fora.
+
+**E a seção `Inimigos` do manual ganhou a linha que faltava:** *a Integridade do inimigo é a vida máxima dele, então a coluna de vida da tabela serve para as duas barras — e o mestre anota as duas assim mesmo,* **porque a exceção do §3.2 tira alma sem tirar vida, e é ali que os dois números se separam.**
+
+> ***Não entrou coluna nova, e isso é decisão medida.*** *Uma coluna de Integridade ao lado da coluna de vida seria a mesma linha da tabela escrita duas vezes* — **lição nº 9 dentro de uma tabela só.** *O que o mestre precisa não é de um segundo valor: é de um segundo lugar para marcar o desgaste dele.*
+>
+> **A checagem 12 lê a fonte do manual e falha se qualquer uma das duas linhas sumir**, com guarda na tabela de inimigo para o ponteiro não ficar pendurado.
 
 ---
 
@@ -212,6 +222,7 @@
 | **9** | quem não tem Caminho usa `Integridade = vida máxima`, e a linha existe escrita | esta peça §3.3 |
 | **10** | a Integridade da ficha de exemplo da peça 8 é a fórmula aplicada à Essência **daquela ficha** | peça 8 |
 | **11** | a recuperação daqui e a da peça 10 §2 dizem a mesma coisa | peça 10 |
+| **12** | o manual imprime as duas linhas do §3.3.1 — a caixa de `Integridade` diz para quem a regra plana vale, e a seção `Inimigos` manda anotar a barra —, com guarda na tabela de inimigo para o ponteiro não ficar pendurado | **o manual**, a fonte das seções `Integridade` e `Inimigos`, e esta peça §3.3 |
 
 > **A checagem 4 é a que esta peça existe para ter.** *Ela é a única que mede a consequência da mudança em vez de conferir uma cópia* — se alguém mexer no `5` ou no `3`, a fórmula continua bem-formada e o estágio 4 some da campanha sem nenhuma outra checagem acusar.
 
@@ -219,11 +230,12 @@
 
 ## 8. Em aberto
 
-**Três coisas, e nenhuma trava o playtest.**
+**Duas coisas, e nenhuma trava o playtest.**
 
-1. **O inimigo não tem linha de Integridade na tabela do manual.** *O §3.3 resolve por derivação — é a vida máxima dele —, então nada fica indefinido.* **O que falta é a tabela imprimir a coluna**, no mesmo padrão do ambiente propício: valor sugerido por nível, palavra final do mestre. *Mesma forma do item aberto da peça 23 §9.*
-2. **A Essência passa a fazer cinco trabalhos.** *Integridade, TR Espírito, sete perícias, Pactos, e é candidata a atributo da técnica.* **A Constituição faz dois.** *O `ESTADO-ATUAL` já marcava esse desequilíbrio para o playtest antes desta peça; ela põe o quinto, e o registro tem de dizer isso em vez de deixar a conta parecer neutra.*
-3. **Quanto o estágio 3 vale contra um chefe.** *Desvantagem nos ataques dele numa luta de `3,7` rodadas é grande, e ninguém mediu.* **É o que decide se o `Cisão` está barato**, e ele encosta na dívida de preço dos onze `Estigma`.
+> ~~**O inimigo não tem linha de Integridade na tabela do manual.**~~ ***FECHADO na v0.159, e não como coluna.*** *O §3.3.1 conta o porquê:* **o valor já era derivado — é a vida máxima dele —, e o que faltava era o lugar de marcar.** *Fechou junto com a Reação da peça 23 §9, que era o mesmo trabalho na mesma seção do manual.*
+
+1. **A Essência passa a fazer cinco trabalhos.** *Integridade, TR Espírito, sete perícias, Pactos, e é candidata a atributo da técnica.* **A Constituição faz dois.** *O `ESTADO-ATUAL` já marcava esse desequilíbrio para o playtest antes desta peça; ela põe o quinto, e o registro tem de dizer isso em vez de deixar a conta parecer neutra.*
+2. **Quanto o estágio 3 vale contra um chefe.** *Desvantagem nos ataques dele numa luta de `3,7` rodadas é grande, e ninguém mediu.* **É o que decide se o `Cisão` está barato.** *A dívida em que este item se apoiava — os `Estigma` preçados uns contra os outros — **fechou na v0.152**, quando o corte passou a ser dentro da Classe e o catálogo foi para dez; o que sobrou aqui é medida de mesa.*
 
 ---
 

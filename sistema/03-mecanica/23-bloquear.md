@@ -147,6 +147,22 @@ E a regra declara a própria neutralidade, o que resolve o *"nem pode parecer va
 >
 > **E a mudança de `0,154` para `0,159` é a correção das duas chances acima:** *aquele número supunha `1%` dos dois lados, e o Aparar é `0,95%`.* **A direção não muda, o tamanho não muda de ordem, e o teto de `1%` continua com folga.**
 
+### 3.4 A Reação do inimigo é a mesma de todo mundo, e agora ela está impressa
+
+**A `Brecha` só existe se o inimigo tiver uma Reação e se ela for gasta de verdade.** *A regra sempre deu uma a ele — a peça 3 §3 escreve `uma, e ela volta no começo do seu turno` para o slot inteiro, e o §3 desta peça diz que Bloquear `é de todo mundo`.* **O que faltava não era o número: era o lugar de marcar.** *Fechado na v0.159, na seção `Inimigos` do manual, que é onde o mestre monta inimigo.*
+
+> **Não é valor por nível, e isso não é escolha.** *A quantidade é a mesma do nível 2 ao 30 porque o slot é o mesmo* — **uma linha por nível repetindo `1` seis vezes seria coluna sem conteúdo.**
+
+***E o chefe não ganha uma segunda por ter três ações.*** *A tentação existe: a peça 19 §2.1 modela o chefe em `3` ações por rodada, e pelo formato ele pareceria ter direito a três Reações.*
+
+**Ela custaria caro:** *o ataque dela sai por cima dos `72` de dano por rodada que a tabela de inimigo do manual publica*, **e o dono daquela tabela é o playtest.**
+
+**E ela compraria quase nada.** *O único gatilho com taxa medida é a `Brecha` — `1,00%` por rolagem de Bloquear, e o §9 prevê `16` rolagens por combate.* **Dá `0,16` disparo por combate.**
+
+**Uma Reação por rodada nunca acaba contra `0,16` disparo por combate.** *A segunda compraria um caso que quase não acontece e pagaria com o número que preça as treze condições da peça 19.* **Então é uma, e ela é a mesma que a peça 3 dá a qualquer ficha.**
+
+> *A checagem 8 mede isso como **relação**, e não como o `1`:* **ela lê a quantidade da peça 3 §3 e a do manual e falha se as duas divergirem.** *Trocar as duas juntas sai verde de propósito — é o contra-teste que prova que ela não está medindo a decisão de hoje.*
+
 ## 4. O invariante que segura tudo: o modificador é UM só
 
 > **Bloquear usa exatamente o mesmo modificador da Defesa passiva. Nada pode aumentar um sem aumentar o outro.**
@@ -244,6 +260,7 @@ Ninguém pede isso e ninguém espera isso, e é de lá que sai o *"na verdade eu
 | **5** | **nenhuma outra das treze condições cita `Bloquear`** — só o `Incapacitado`. *Ela lê a peça 19 §3, e não uma lista escrita aqui* | peça 19 §3 |
 | **6** | **a `Talha` continua sendo a única propriedade de arma que encosta no Bloquear**, e ela é do atacante. *Falha se alguma propriedade nova mexer no modificador do defensor.* **Junto vão quatro sub-checagens que a v0.143 precisou:** *a `Talha` continua dizendo o que faz; nenhuma frase de opcionalidade sobreviveu na peça 14; a **contagem** de armas escrita lá bate com o catálogo; e a **lista nominal** delas também* | peça 14 §5.2 |
 | **7** | **os `2d10` são o único dado não-`d20` do sistema.** *Varre as peças procurando notação de dado numa rolagem disputada e falha se aparecer uma segunda família* | as peças |
+| **8** | **a Reação do inimigo é a mesma que a peça 3 dá a todo mundo, e o manual a imprime.** *Ela não guarda o `1`: lê a quantidade dos dois lados e compara.* **Junto vai a guarda de que a seção `Inimigos` do manual continua existindo** — sem ela, renomear a seção faz a checagem achar zero linha e passar verde para sempre | peça 3 §3 · **o manual**, a fonte da seção `Inimigos` |
 
 > **A checagem 1 é a que a peça 19 consome.** *Ela publica o `Incapacitado` em `4,95` porque o Bloquear é neutro — se a neutralidade quebrar, o preço daquela condição fica errado e ninguém mais estaria olhando.* **É a única checagem deste projeto que existe para sustentar um número de outra peça.**
 
@@ -251,9 +268,10 @@ Ninguém pede isso e ninguém espera isso, e é de lá que sai o *"na verdade eu
 
 ## 9. Em aberto
 
-1. **O inimigo precisa de Reação na ficha dele.** *A Brecha só funciona se o mestre souber que o inimigo tem uma e se ela for gasta de verdade.* **É contabilidade nova na ficha de inimigo**, e ela segue o padrão do ambiente propício: valor na tabela por nível, palavra final do mestre. *Enquanto não fechar, a Brecha vale contra jogador e não contra inimigo — e isso é assimetria conhecida, não descuido.*
-2. **Se o playtest disser que a decisão do nível 22 nunca aparece na mesa**, o `+3` do Aparar pode subir sem custo, porque era ela que segurava o teto. *Decisão com gatilho, no molde da camada 3 da peça 14 §8.*
-3. **Quanto tempo de mesa a rolagem a mais custa de verdade.** *A conta prevê `16` rolagens por combate; ninguém mediu.* **É a primeira pergunta da lista de playtest desta peça**, e ela é de cronômetro, não de planilha.
+> ~~**O inimigo precisa de Reação na ficha dele.**~~ ***FECHADO na v0.159***, e não como valor por nível: *o §3.4 conta o porquê.* **A `Brecha` vale contra inimigo agora, e a assimetria que este item registrava acabou.**
+
+1. **Se o playtest disser que a decisão do nível 22 nunca aparece na mesa**, o `+3` do Aparar pode subir sem custo, porque era ela que segurava o teto. *Decisão com gatilho, no molde da camada 3 da peça 14 §8.*
+2. **Quanto tempo de mesa a rolagem a mais custa de verdade.** *A conta prevê `16` rolagens por combate; ninguém mediu.* **É a primeira pergunta da lista de playtest desta peça**, e ela é de cronômetro, não de planilha.
 
 ## 10. Levantamento externo
 

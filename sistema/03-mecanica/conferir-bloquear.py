@@ -20,6 +20,8 @@ NENHUM VALOR FICA ESCRITO AQUI DENTRO:
   o teto do liquido ............ peca 23, a secao 3.3
   as treze condicoes ........... peca 19, a secao 3
   a propriedade `Talha` ........ peca 14, a secao 5.2
+  a quantidade de Reacao ....... peca 3, a secao 3
+  a ficha de inimigo ........... manual/gerador/partF.js
 
 A CHECAGEM 1 E' A UNICA DESTE PROJETO QUE EXISTE PARA SUSTENTAR UM NUMERO DE
 OUTRA PECA. A peca 19 publica o `Incapacitado` em 11,00 porque a metade
@@ -43,6 +45,9 @@ P01 = '01-atributos-acerto-defesa.md'
 P14 = '14-equipamento.md'
 P19 = '19-dano-e-condicoes.md'
 P23 = '23-bloquear.md'
+P03 = '03-economia-de-acao-e-iniciativa.md'
+RAIZ = os.path.dirname(os.path.dirname(MEC))
+PARTF = os.path.join(RAIZ, 'manual', 'gerador', 'partF.js')
 
 
 def erro(n, msg):
@@ -76,6 +81,9 @@ T23 = ler(P23)
 T19 = ler(P19)
 T14 = ler(P14)
 T01 = ler(P01)
+T03 = ler(P03)
+with open(PARTF, encoding='utf-8') as _fh:
+    MANUAL = _fh.read()
 
 
 # ==========================================================================
@@ -558,6 +566,102 @@ else:
 
 
 # ==========================================================================
+bloco('8. A REACAO DO INIMIGO — a mesma que a peca 3 da a todo mundo')
+# ==========================================================================
+# A `Brecha` so existe se o inimigo tiver Reacao e se ela for gasta de verdade.
+# A regra sempre deu uma a ele; o que faltava era o LUGAR DE MARCAR, e ele e a
+# secao `Inimigos` do manual — escrita na v0.159, junto com a Integridade que a
+# peca 24 SS8 pedia na mesma tabela.
+#
+# ESTA CHECAGEM NAO GUARDA O `1`. Ela le a quantidade dos DOIS donos e compara,
+# entao trocar os dois de forma coerente sai VERDE de proposito — e e isso que
+# prova que ela mede a RELACAO e nao a decisao de hoje (licao no 8).
+#
+# O partF.js e' texto puro: ela nao abre o .docx e nao tem como PULAR.
+_NUM = {'um': 1, 'uma': 1, 'dois': 2, 'duas': 2, 'tres': 3, 'três': 3,
+        'quatro': 4, 'cinco': 5}
+
+
+def _qtd(palavra):
+    p = palavra.strip().lower()
+    return _NUM.get(p, int(p) if p.isdigit() else None)
+
+
+# o recorte da secao `Inimigos` do manual. GUARDA: se ele vier vazio, alguem
+# renomeou a secao e a checagem ficaria cega, passando verde para sempre.
+_ini = re.search(r"H2\('Inimigos'\)(.*?)(?=\n\s*H2\()", MANUAL, re.S)
+if not _ini:
+    erro(8, 'nao achei a secao `Inimigos` no partF.js do manual — sem ela esta '
+            'checagem nao tem onde procurar, e ficar cega e passar verde para '
+            'sempre')
+    SECAO_INI = None
+else:
+    SECAO_INI = _ini.group(1)
+    print('  a secao `Inimigos` do manual tem '
+          f'{len(SECAO_INI.splitlines())} linhas')
+
+# dono 1: a peca 3, que da o slot a QUALQUER ficha
+_m3 = re.search(r'\|\s*\*\*Reação\*\*\s*\|\s*([A-Za-zÀ-ú]+)\s*,', T03)
+# dono 2: o manual, na ficha de inimigo
+_mi = re.search(r'\*\*Reação\.\*\*\s*([A-Za-zÀ-ú]+)\s+por rodada',
+                SECAO_INI or '')
+if not _m3:
+    erro(8, 'nao achei a linha da Reacao na tabela do turno da peca 3 — ela e o '
+            'dono da quantidade, e sem ela nao ha o que comparar')
+elif not _mi:
+    erro(8, 'a secao `Inimigos` do manual nao imprime a Reacao do inimigo — sem '
+            'ela o mestre nao tem onde marcar, e a `Brecha` nao vale contra '
+            'inimigo (peca 23 SS3.4)')
+else:
+    _q3, _qi = _qtd(_m3.group(1)), _qtd(_mi.group(1))
+    print(f'  peca 3 SS3 -> o slot Reacao da `{_m3.group(1)}` a qualquer ficha')
+    print(f'  manual     -> a ficha de inimigo diz `{_mi.group(1)}` por rodada')
+    if None in (_q3, _qi):
+        erro(8, f'nao consegui ler as duas quantidades como numero '
+                f'({_m3.group(1)!r} e {_mi.group(1)!r})')
+    elif _q3 != _qi:
+        erro(8, f'a peca 3 da {_q3} Reacao por rodada e o manual da {_qi} ao '
+                f'inimigo — Bloquear e' + ' de todo mundo (SS3), entao os dois '
+                'lados usam o mesmo slot')
+    else:
+        print(f'  [x] os dois lados dizem {_q3}, e o numero nao esta escrito aqui '
+              f'dentro')
+
+# 8a — o gatilho que a Reacao do inimigo paga e RARO, e e por isso que uma basta.
+# A `Brecha` e o unico dos gatilhos com taxa medida: ela sai da enumeracao do
+# bloco 1, e as rolagens por combate saem do SS9. O produto tem de reproduzir o
+# numero publicado no SS3.4 — que e o argumento de nao dar uma segunda ao chefe.
+_mp = re.search(r'`([\d,]+)%` por rolagem de Bloquear', T23)
+_mr = re.search(r'`(\d+)` rolagens por combate', T23)
+# o disparo por combate NAO se le por uma forma fixa de citar: uma lista de
+# formas e' uma lista fechada, e o texto sempre acha a forma que falta (v0.151).
+# Aqui o filtro e' o proprio numero — decimal com virgula, que as `16` rolagens
+# nao sao — e a guarda cobra que todas as citacoes digam o mesmo valor.
+_disp = {m.group(1) for m in re.finditer(r'`(\d+,\d+)`[^`\n]{0,24}por combate', T23)}
+_md = re.match(r'(.+)', sorted(_disp)[0]) if len(_disp) == 1 else None
+if len(_disp) > 1:
+    erro('8a', f'o SS3.4 publica {sorted(_disp)} para o disparo por combate — '
+               f'duas cifras para o mesmo numero, e a licao no 9 nao aceita duas')
+if not (_mp and _mr and _md):
+    erro('8a', 'o SS3.4 precisa publicar os tres: a taxa da `Brecha`, as rolagens '
+               'por combate e o disparo por combate — sem os tres o argumento de '
+               'nao dar uma segunda Reacao ao chefe nao tem conta em cima')
+else:
+    _taxa, _rol, _disp = num(_mp.group(1)) / 100, int(_mr.group(1)), num(_md.group(1))
+    if abs(_taxa - P_BRECHA) > 0.0002:
+        erro('8a', f'o SS3.4 publica {_taxa * 100:.2f}% de `Brecha` e a enumeracao '
+                   f'do bloco 1 da {P_BRECHA * 100:.2f}%')
+    elif abs(_taxa * _rol - _disp) > 0.005:
+        erro('8a', f'{_taxa * 100:.2f}% x {_rol} rolagens da {_taxa * _rol:.2f} '
+                   f'disparo(s) por combate, e o SS3.4 publica {_disp:.2f}')
+    else:
+        print(f'  [x] a `Brecha` dispara {_taxa * _rol:.2f} vez(es) por combate '
+              f'({_taxa * 100:.2f}% x {_rol}), recontado da enumeracao e do SS9 —')
+        print('      uma Reacao por rodada nunca acaba contra isso, e e esse o '
+              'argumento')
+
+
+# ==========================================================================
 print()
 print('=' * 88)
 if FALHAS:
@@ -568,4 +672,5 @@ if FALHAS:
 print('>>> TUDO OK — a neutralidade e exata e recalculada, o modificador e a mesma')
 print('    expressao dos dois lados, o liquido dos extremos sai dos donos e cabe no')
 print('    teto, o `+3` e o maior que cabe, so o `Incapacitado` desliga, e a `Talha`')
-print('    e do atacante.')
+print('    e do atacante. E a Reacao do inimigo e a mesma que a peca 3 da a')
+print('    todo mundo, impressa na ficha de inimigo do manual.')

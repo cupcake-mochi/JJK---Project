@@ -1217,12 +1217,41 @@ def _contar_blocos(caminho, repetidos=None):
     return nums
 
 
-_VAL9, _REPETIDOS = {}, []
+# v0.159: o irmao do defeito da v0.118, e as guardas de la nao pegam ele.
+# O extrator acima exige LETRA MAIUSCULA depois do numero, entao um bloco escrito
+# `print('  6. os cinco degraus...')` fica INVISIVEL para a contagem — e ele nao
+# abre buraco nenhum, porque o 6 simplesmente some e o 5 vira o ultimo. Foi assim
+# que o projeto publicou 258 checagens tendo 257, por tres versoes.
+#
+# A guarda procura a MESMA forma com inicial minuscula e acusa quando o numero
+# dela ainda nao e' bloco conhecido. Enumeracao dentro do corpo de um bloco reusa
+# numero que ja existe e por isso nao acende: medido em zero falso positivo nos
+# 25 validadores no dia em que ela entrou.
+_RX_BLOCO_MINUSC = re.compile(
+    r"""(?:^|\\n|['"])\s*(?:=|\s)*(\d+)[.)]\s+[a-záâãàéêíóôõúç]""")
+
+
+def _blocos_minusculos(caminho, nums):
+    fora = []
+    for _i, _l in enumerate(open(caminho, encoding='utf-8'), 1):
+        if not re.match(r"^\s*(bloco|print)\(", _l):
+            continue
+        for _m in _RX_BLOCO_MINUSC.finditer(_l):
+            if int(_m.group(1)) not in nums:
+                fora.append((os.path.basename(caminho), _i, int(_m.group(1))))
+    return fora
+
+
+_VAL9, _REPETIDOS, _MINUSC = {}, [], []
 for _f9 in sorted(os.listdir(MEC)):
     if re.match(r'^conferir-.*\.py$', _f9):
-        _VAL9[_f9] = _contar_blocos(os.path.join(MEC, _f9), _REPETIDOS)
+        _p9 = os.path.join(MEC, _f9)
+        _VAL9[_f9] = _contar_blocos(_p9, _REPETIDOS)
+        _MINUSC += _blocos_minusculos(_p9, _VAL9[_f9])
 _VAL9['conferir-repositorio.py'] = _contar_blocos(
     os.path.join(RAIZ, 'conferir-repositorio.py'), _REPETIDOS)
+_MINUSC += _blocos_minusculos(os.path.join(RAIZ, 'conferir-repositorio.py'),
+                              _VAL9['conferir-repositorio.py'])
 
 # guarda 0: numero de bloco REPETIDO. Ele nao abre buraco, entao a guarda 2 nao o
 # pega — e ele faz a contagem MENTIR PARA BAIXO, escondendo a checagem mais nova.
@@ -1231,6 +1260,16 @@ if _REPETIDOS:
         f'{_v} (o {_n} duas vezes)' for _v, _n in _REPETIDOS)
         + ' — o `set()` da contagem come o segundo, entao a checagem mais nova '
           'fica invisivel no total. Renumere.')
+
+# guarda 0.1: bloco numerado com o rotulo em MINUSCULA. Ele nao abre buraco e nao
+# repete numero, entao nem a guarda 0 nem a guarda 2 o alcancam — ele simplesmente
+# nao existe para a contagem, e a contagem mente PARA BAIXO em silencio.
+if _MINUSC:
+    erro('9: bloco numerado com rotulo em minuscula em ' + ', '.join(
+        f'{_v}:{_i} (o {_n})' for _v, _i, _n in _MINUSC)
+        + ' — o extrator da contagem exige maiuscula depois do numero, entao esse '
+          'bloco fica invisivel no total sem abrir buraco na sequencia. Ponha o '
+          'rotulo em maiuscula, no molde dos vizinhos.')
 
 # guarda 1: validador sem bloco numerado e' extrator quebrado, nao validador vazio
 _mudos = sorted(v for v, n in _VAL9.items() if not n)
@@ -1253,21 +1292,54 @@ if _furados:
 _PECAS9 = sorted(f for f in os.listdir(MEC) if re.match(r'^\d\d-.*\.md$', f))
 
 
-def _dono9(nome):
-    """o validador dono de uma peca, DERIVADO do slug — sem tabela escrita"""
+def _cands9(nome):
+    """todo validador que o slug de uma peca alcanca, do mais especifico ao menos.
+
+    DERIVADO do nome do arquivo — nao existe tabela escrita em lugar nenhum.
+    """
     partes = nome[3:-3].split('-')
+    saida = []
     for _i in range(len(partes), 0, -1):
         _c = 'conferir-' + '-'.join(partes[:_i]) + '.py'
-        if _c in _VAL9:
-            return _c
+        if _c in _VAL9 and _c not in saida:
+            saida.append(_c)
     for _p in partes:
         _c = f'conferir-{_p}.py'
-        if _c in _VAL9:
-            return _c
-    return None
+        if _c in _VAL9 and _c not in saida:
+            saida.append(_c)
+    return saida
 
 
-_DONO_PECA9 = {int(p[:2]): _dono9(p) for p in _PECAS9}
+# rodada 1: cada peca fica com o candidato mais especifico dela
+_DONO_PECA9 = {}
+for _p9 in _PECAS9:
+    _c9 = _cands9(_p9)
+    _DONO_PECA9[int(_p9[:2])] = _c9[0] if _c9 else None
+
+# rodada 2: peca que caiu num validador JA TOMADO tenta um livre dela mesma.
+#
+# v0.159, e o defeito era real: `24-dano-de-alma.md` comeca com `dano`, entao ela
+# caia no conferir-dano.py — que e' da peca 19 — e o conferir-alma.py ficava sem
+# peca nenhuma. Isso passou despercebido porque os dois tinham ONZE checagens no
+# dia em que o conferir-alma.py entrou: a linha do ESTADO-ATUAL que publica a
+# contagem da peca 24 estava sendo conferida contra o validador errado, e batia
+# por coincidencia. Peca que divide validador de verdade — a 1 com a 2, a 4 com a
+# 7, a 12 com a 18 — nao tem candidato livre, entao ela nao se move aqui.
+_TOMADOS9 = {}
+for _n9, _d9 in _DONO_PECA9.items():
+    if _d9:
+        _TOMADOS9.setdefault(_d9, []).append(_n9)
+for _p9 in _PECAS9:
+    _n9 = int(_p9[:2])
+    _d9 = _DONO_PECA9[_n9]
+    if not _d9 or len(_TOMADOS9.get(_d9, [])) < 2:
+        continue
+    for _alt9 in _cands9(_p9):
+        if _alt9 not in _TOMADOS9:
+            _DONO_PECA9[_n9] = _alt9
+            _TOMADOS9[_alt9] = [_n9]
+            _TOMADOS9[_d9].remove(_n9)
+            break
 
 _NUM9 = {'uma': 1, 'um': 1, 'duas': 2, 'dois': 2, 'tres': 3, 'quatro': 4, 'cinco': 5,
          'seis': 6, 'sete': 7, 'oito': 8, 'nove': 9, 'dez': 10, 'onze': 11, 'doze': 12,
@@ -1280,7 +1352,11 @@ _RX_QTD = re.compile(rf'(\*{{0,2}}(?:\d+|{_PAL9})\*{{0,2}})\s*\*{{0,2}}\s*'
 _RX_NAO9 = re.compile(r'\bnovas?\b|\ba mais\b|precisa ter|que ele precisa|'
                       r'que esta regua pede|nasceu a checagem|ganhou a checagem|'
                       r'checagens do §|checagens do rascunho')
-_RX_VAL9 = re.compile(r'`(conferir-[a-z]+\.py)`')
+# v0.159: o `(?:[\w/-]*/)?` entrou porque a tabela "Onde cada coisa esta" do
+# ESTADO-ATUAL escreve `03-mecanica/conferir-alma.py`, com o caminho na frente —
+# e sem ele aquelas linhas dependiam do mapa da peca, que era justamente onde o
+# outro defeito estava.
+_RX_VAL9 = re.compile(r'`(?:[\w/-]*/)?(conferir-[a-z]+\.py)`')
 _RX_PECA9 = re.compile(r'(?:checagens?|blocos? de checagem)\s+d[ao]\s+pe[cç]a\s+(\d{1,2})', re.I)
 
 _ALVOS9 = ['README.md', 'sistema/ESTADO-ATUAL.md', 'sistema/LEIA-ME.md'] + \
@@ -1298,10 +1374,17 @@ for _rel9 in _ALVOS9:
         if _l9.lstrip().startswith('>'):
             continue
         _sl9 = _l9.lower()
-        if _RX_NAO9.search(re.sub(r'[áàâãéêíóôõúç]', lambda m: 'aaaaeeiooouc'[
-                'áàâãéêíóôõúç'.index(m.group(0))], _sl9)):
-            continue
+        _de9 = re.sub(r'[áàâãéêíóôõúç]', lambda m: 'aaaaeeiooouc'[
+            'áàâãéêíóôõúç'.index(m.group(0))], _sl9)
         for _m9 in _RX_QTD.finditer(_l9):
+            # v0.159: a excecao le a JANELA em volta da contagem, e nao a linha
+            # inteira. Ate aqui um `nova` em qualquer ponto da linha desligava a
+            # conferencia dela — e foi assim que a linha 3 do ESTADO-ATUAL, que
+            # publica a contagem do conferir-alma.py, escapou pela palavra
+            # "conversa nova", a trezentos caracteres de distancia.
+            _jan9 = _de9[max(0, _m9.start() - 40):_m9.end() + 40]
+            if _RX_NAO9.search(_jan9):
+                continue
             _t9 = _m9.group(1).replace('*', '').strip().lower()
             _q9 = int(_t9) if _t9.isdigit() else _NUM9.get(
                 re.sub(r'[áàâãéêíóôõúç]', lambda m: 'aaaaeeiooouc'[
@@ -1334,6 +1417,10 @@ if _afirm < _PISO9:
          f'forma como os documentos escrevem isso mudou, e esta checagem parou de conferir')
 
 print(f'  {len(_VAL9)} validadores, {sum(len(n) for n in _VAL9.values())} checagens no total.')
+_SEM_PECA9 = sorted(v for v in _VAL9 if v not in set(filter(None, _DONO_PECA9.values())))
+print(f'  {len(_PECAS9)} pecas mapeadas; {len(_SEM_PECA9)} validador(es) sem peca dona '
+      f'(sao de assunto, e nao de peca): ' + ', '.join(
+          v.replace('conferir-', '').replace('.py', '') for v in _SEM_PECA9))
 if not _mudos and not _furados:
     print('  [x] todo validador tem bloco numerado, e nenhuma numeracao tem buraco')
 if not _ruins9:

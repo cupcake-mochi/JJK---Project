@@ -25,6 +25,7 @@ NENHUM VALOR FICA ESCRITO AQUI DENTRO:
   a vida por Caminho ............. peca 1, a secao 5.1
   a forma da formula de vida ..... peca 1, a secao 5 (o bloco de formulas)
   os quatro estagios ............. manual/gerador/partF.js
+  a ficha de inimigo ............. manual/gerador/partF.js
   os quatro Testes de Resistencia  peca 1, a secao 4
   a excecao que atravessa ........ peca 16, a secao 4
   a ficha de exemplo ............. peca 8
@@ -492,6 +493,85 @@ else:
                  'perdeu — e a metade da regra que a peca 10 NAO carrega')
     else:
         print('  [x] e a peca 24 carrega a metade que a peca 10 nao tem: cura nao devolve')
+
+
+# ==========================================================================
+bloco('12. O MANUAL IMPRIME AS DUAS LINHAS DO INIMIGO')
+# ==========================================================================
+# v0.159. Duas coisas nasceram juntas porque sao a mesma:
+#
+#   1) a caixa `Integridade` do manual publicava `= vida maxima` sem dizer para
+#      quem. Desde a v0.145 aquela linha e' FALSA para personagem jogador — quem
+#      manda nele e' a formula do SS2 desta peca — e ela ficou treze versoes assim.
+#   2) a secao `Inimigos` nao dizia que o inimigo tem a barra. Sem isso o `Cisao`
+#      fica sem alvo contra inimigo, que era o item 1 do SS8.
+#
+# NAO ENTROU COLUNA. Uma coluna de Integridade ao lado da coluna de vida seria a
+# mesma linha escrita duas vezes dentro da mesma tabela — licao no 9. O que o
+# mestre precisa e' de um lugar para marcar o desgaste, e nao de um segundo valor.
+#
+# E o manual continua SEM a formula do SS2: ele aponta para fora em vez de copiar.
+_int = re.search(r"H2\('Integridade'\)(.*?)(?=\n\s*H2\()", MANUAL, re.S)
+_ini = re.search(r"H2\('Inimigos'\)(.*?)(?=\n\s*H2\()", MANUAL, re.S)
+
+# GUARDA: recorte vazio quer dizer secao renomeada, e uma checagem cega passa
+# verde para sempre. As duas guardas vem antes de qualquer comparacao.
+if not _int:
+    erro(12, 'nao achei a secao `Integridade` no partF.js do manual')
+if not _ini:
+    erro(12, 'nao achei a secao `Inimigos` no partF.js do manual — e e la que a '
+             'ficha de inimigo mora')
+
+if _int and _ini:
+    S_INT, S_INI = _int.group(1), _ini.group(1)
+
+    # 12a — a caixa nomeia OS DOIS LADOS
+    _tem_inimigo = re.search(r'inimigo|não seja personagem jogador', S_INT, re.I)
+    _tem_pj = re.search(r'personagem[^.]{0,60}f[óo]rmula própria', S_INT, re.I)
+    if not _tem_inimigo:
+        erro('12a', 'a caixa `Integridade` do manual nao diz para QUEM a regra '
+                    'plana `= vida maxima` vale — e ela vale para inimigo, nao '
+                    'para personagem jogador (peca 24 SS3.3)')
+    elif not _tem_pj:
+        erro('12a', 'a caixa `Integridade` do manual nao diz que personagem tem '
+                    'formula propria — quem le so ela da ao personagem a '
+                    'Integridade errada, que foi o que aconteceu da v0.145 ate a '
+                    'v0.158')
+    else:
+        print('  [x] a caixa `Integridade` do manual nomeia os dois lados: a regra '
+              'plana e do')
+        print('      inimigo, e personagem tem formula propria')
+
+    # 12b — e o manual NAO republica a formula. Ela e' montada dos numeros lidos
+    # da peca no bloco 1, e nao escrita aqui: se a peca mudar, a busca muda junto.
+    if None not in (BASE, POR_NIVEL):
+        _assin = f'(Essência + {POR_NIVEL})'
+        if _assin in MANUAL or f'{BASE} + (Essência' in MANUAL:
+            erro('12b', f'o manual passou a carregar a formula da peca 24 '
+                        f'(`{_assin}`) — duas copias do mesmo numero em dois '
+                        f'documentos, que e a licao no 9. Ele aponta, nao copia')
+        else:
+            print(f'  [x] o manual nao carrega a formula da peca 24 (`{_assin}`): '
+                  f'ele aponta')
+
+    # 12c — a secao `Inimigos` manda anotar a barra, e o ponteiro tem alvo
+    _linha = re.search(r'Integridade[^\n]*vida máxima', S_INI)
+    # a coluna sai do CABECALHO da tabela, e nao de qualquer texto com `vida`
+    # dentro: a propria linha da Integridade tem a palavra, e ler ela faria a
+    # guarda apontar para si mesma.
+    _cab = re.search(r'TBL\(\[([^\]]*)\]', S_INI)
+    _col = _cab and re.search(r'vida', _cab.group(1), re.I)
+    if not _linha:
+        erro('12c', 'a secao `Inimigos` do manual nao diz que a Integridade do '
+                    'inimigo e a vida maxima dele — sem essa linha o `Cisao` fica '
+                    'sem alvo contra inimigo (peca 24 SS3.3)')
+    elif not _col:
+        erro('12c', 'a linha da Integridade aponta para a coluna de vida da tabela '
+                    'de inimigo, e a tabela nao tem mais coluna de vida — ponteiro '
+                    'pendurado')
+    else:
+        print('  [x] a secao `Inimigos` manda anotar a barra, e a coluna de vida '
+              'que ela cita existe')
 
 
 # ==========================================================================

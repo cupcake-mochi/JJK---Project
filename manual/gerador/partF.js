@@ -131,7 +131,10 @@ const mestre = [
   P('A linha do meio é o maior dano que **um alvo** leva numa rodada. Antes do nível 10 não existe Liberação Máxima, então esse pico é o de um feitiço comum: os pontos da Classe. Do 10 em diante o pico é a Liberação — e ela é um recurso contado: no nível 20 são duas escritas na ficha.'),
 
   H2('Integridade'),
-  BOX(null, ['**Integridade = vida máxima.** É a vida da alma.']),
+  BOX(null, [
+    '**Integridade = vida máxima.** É a vida da alma.',
+    'Isso vale para inimigo e para tudo que não seja personagem jogador. **Personagem tem fórmula própria**, com um atributo dentro, e quem é dono dela é o sistema em volta — é o que impede corpo duro de vir com alma dura de graça.',
+  ]),
   GAP(100),
   BUL('Cada ponto de dano na alma tira 1 de vida, 1 de Integridade e derruba a sua vida máxima em 1, até o próximo descanso longo. Cura não devolve o que a alma perdeu: só descanso longo, ou a Melhoria **Remenda**.'),
   BUL('Dano na alma entra cheio, sem redução pela metade. Ao receber, faça um **Teste de Resistência de Espírito** contra a CD do atacante: no fracasso, você também avança um estágio na hora, mesmo que a fração ainda não tenha fechado.'),
@@ -163,6 +166,10 @@ const mestre = [
   GAP(100),
   P('A conta supõe quatro personagens: um focado em bater, dois medianos, um de apoio.'),
   P('Chefe sozinho precisa de três a quatro vezes o dano de rodada do grupo, porque ele perde a ação três vezes por rodada. Se não quiser inflar o número, use capangas ou uma barreira que absorva antes da vida.'),
+  GAP(100),
+  P('E a ficha dele carrega mais duas coisas, que são de marcar e não de calcular:'),
+  BUL('**Integridade.** A do inimigo é a que a seção acima escreve: a vida máxima dele, então a coluna de vida serve para as duas barras. Anote as duas assim mesmo — o sistema em volta tem efeito que tira alma sem tirar vida, e é aí que os dois números se separam.'),
+  BUL('**Reação.** Uma por rodada, como qualquer personagem, e ela volta no começo do turno dele. Ela paga o ataque de oportunidade, e o sistema em volta pendura outras coisas nela. Marque quando for gasta: guardar ou não é decisão do inimigo do mesmo jeito que é da mesa.'),
 
   H2('PvP'),
   BOX(null, ['Em duelo entre personagens, o dano de feitiço cai **um terço**.']),
@@ -216,7 +223,7 @@ const apendice = [
       ['Passiva', 'Efeito que fica ligado sozinho. Tem Classe de Livre a 3 e custa espaço de feitiço.'],
       ['Uso Livre', 'O que a sua técnica faz de graça fora de combate.'],
       ['Técnica Máxima', 'O golpe de dano fixo do nível 17 em diante. Volta depois do fim do seu terceiro turno seguinte.'],
-      ['Integridade', 'A vida da alma. Igual à vida máxima. Só volta com descanso longo ou com a Melhoria Remenda.'],
+      ['Integridade', 'A vida da alma. Igual à vida máxima em inimigo; personagem tem fórmula própria, e o dono dela é o sistema em volta. Só volta com descanso longo ou com a Melhoria Remenda.'],
       ['Dano na alma', 'Tira vida, Integridade e vida máxima no mesmo tanto. Entra cheio, e o Teste de Resistência decide o estágio, não o número.'],
     ],
     [20, 80], { boldCols: [0] }

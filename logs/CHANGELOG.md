@@ -8,6 +8,132 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.159] — 25/08/2026
+
+**A ficha de inimigo ganhou as duas linhas que faltavam nela, e elas eram o mesmo trabalho.** *A peça 24 §8 pedia a Integridade do inimigo desde a v0.145 e a peça 23 §9 pedia a Reação dele desde a v0.143 — as duas apontando para a mesma seção do manual, e nenhuma das duas sabendo da outra.* **Fecharam juntas, e nenhum número do sistema se moveu.**
+
+### As duas pendências descreviam o conserto errado, e as duas do mesmo jeito
+
+**As duas diziam *"valor sugerido por nível na tabela, palavra final do mestre"*, que é o molde do ambiente propício.** *Medido, nenhuma das duas tem valor por nível:*
+
+| a linha | o valor | por que não é coluna |
+|---|---|---|
+| **Integridade** | a vida máxima dele, pela peça 24 §3.3 | **a tabela já publica a vida.** Uma coluna ao lado seria a mesma linha escrita duas vezes dentro da mesma tabela — lição nº 9 sem sair do lugar |
+| **Reação** | uma por rodada, pela peça 3 §3 | **é o mesmo slot de todo mundo.** Uma coluna com `1` repetido seis vezes é coluna sem conteúdo |
+
+***O que faltava não era um segundo valor: era um segundo lugar de marcar.*** **A Integridade só se separa da vida quando a exceção do §3.2 entra** — dano que atravessa o corpo tira alma e mais nada —, *e a `Brecha` só existe se o mestre souber que a Reação do inimigo está na mão dele.*
+
+### ⚠⚠ E indo escrever apareceu que o manual publicava a Integridade errada há treze versões
+
+**A caixa da seção `Integridade` dizia `Integridade = vida máxima` sem dizer para quem.** *Desde a v0.145 essa linha é falsa para personagem jogador — quem manda nele é a fórmula da peça 24, com a Essência dentro —, e a linha do apêndice repetia a mesma coisa.*
+
+> **A v0.145 recolheu a máquina de alma e não voltou no manual.** *Ela consertou o Teste de Resistência de lá, levou o manual para a v7.13, e deixou de pé a caixa que ensina a Integridade do jeito antigo.* **Quem lesse só o manual daria ao personagem a Integridade errada.**
+>
+> ***O conserto foi apontar, e não copiar:*** *o manual passou a dizer que personagem tem fórmula própria e que o dono dela é o sistema em volta.* **A checagem 12 falha se a fórmula da peça 24 aparecer dentro do manual** — a segunda cópia é o que a lição nº 9 existe para não deixar nascer.
+
+### ***Decisão medida: o chefe NÃO ganha uma segunda Reação por ter três ações***
+
+*A tentação existe, porque a peça 19 §2.1 modela o chefe em `3` ações por rodada.*
+
+**A segunda custaria o número que não é nosso:** *o ataque dela sai por cima dos `72` de dano por rodada da tabela de inimigo do manual*, **e o dono daquela tabela é o playtest.** *E ela compraria quase nada — o único gatilho com taxa medida é a `Brecha`, `1,00%` por rolagem de Bloquear × `16` rolagens por combate:* **`0,16` disparo por combate.**
+
+**Uma Reação por rodada nunca acaba contra `0,16` disparo por combate.** *Escrito na peça 23 §3.4, e a sub-checagem `8a` recalcula o `0,16` da enumeração das `2.000` combinações e do `16` do §9 — nenhum dos dois mora dentro do validador.*
+
+### As duas checagens, e as duas medem relação
+
+**A `12` do `conferir-alma.py`** lê a fonte do manual: *a caixa nomeia os dois lados, o manual não carrega a fórmula da peça, e a seção `Inimigos` manda anotar a barra* — com guarda de que as duas seções existem e de que a coluna de vida que a linha cita ainda está na tabela. *Sem a guarda, renomear uma seção faz o recorte vir vazio e a checagem passa verde para sempre.*
+
+**A `8` do `conferir-bloquear.py`** não guarda o `1`: *ela lê a quantidade da peça 3 §3 e a do manual e compara.* **Trocar as duas para `duas`, de forma coerente, sai VERDE de propósito** — é o contra-teste que prova que ela mede a relação e não a decisão de hoje.
+
+*Arnês em cópia isolada, refeita do zero a cada caso, base conferida verde **e lida** antes de perturbar, e o `diff` conferido — a função de troca falha se o alvo não existir ou se o arquivo não mudar.* **Vinte e um casos: quinze acendendo e seis contra-testes verdes.**
+
+> **⚠ E a `8a` nasceu lendo uma FORMA FIXA de citar o número.** *Ela casava `` **`0,16` por combate** `` — com o negrito dentro do padrão —, e reescrever aquela frase para tirar uma tabela forçada fez a checagem acusar que o número tinha sumido.* **Hoje o filtro é o próprio número — decimal com vírgula, que as `16` rolagens não são — e uma guarda cobra que todas as citações digam o mesmo valor.** *Lista de formas de citar é lista fechada, e o texto sempre acha a que falta: é a lição da v0.151, na mesma peça.*
+>
+> **⚠ E um contra-teste meu estava incoerente.** *Mudar a fórmula da peça 24 e a curva do manual juntas ainda acendia — a checagem 10, porque a ficha de exemplo da peça 8 continuava publicando o número velho.* **Contra-teste coerente mexe em TUDO que a mudança implica**, e ali eram quatro lugares e não dois.
+
+---
+
+## ⚠⚠ E a contagem de checagens escapava por TRÊS portas, não uma
+
+*A v0.158 deixou uma anotada — o rótulo em minúscula — e ela era a menor das três.* **Fechando esta versão, cinco contagens publicadas estavam erradas, e o código antigo pegava duas.**
+
+### 1 · O rótulo em minúscula, que a v0.158 apontou
+
+**O extrator da checagem 9 exige letra maiúscula depois do número do bloco.** *Um `print('  6. os cinco degraus…')` fica invisível para a contagem, e ele não abre buraco: o `6` some e o `5` vira o último.* **Entrou a guarda `0.1`**, que procura a mesma forma com inicial minúscula e acusa quando o número dela ainda não é bloco conhecido.
+
+> **Zero falso positivo nos 25 validadores**, medido antes de ela entrar. *Enumeração dentro do corpo de um bloco reusa número que já existe, e por isso não acende.*
+
+### 2 · ⚠⚠ O mapa peça → validador mandava a peça 24 para o `conferir-dano.py`
+
+***Este é o grande, e ele estava lá desde a v0.145.*** *O mapa é derivado do nome do arquivo, e `24-dano-de-alma.md` começa com `dano`* — **então a peça 24 caía no validador da peça 19, e o `conferir-alma.py` ficava sem peça nenhuma.**
+
+> **Ele passou despercebido por coincidência aritmética: os dois tinham ONZE checagens.** *A linha do `ESTADO-ATUAL` que publica a contagem da peça 24 estava sendo conferida contra o validador errado, e batia.* **Ela só apareceu porque esta versão levou o `conferir-alma.py` a doze.**
+>
+> *O conserto continua derivado, sem tabela escrita:* **peça que cai num validador já tomado tenta um candidato livre do próprio slug.** *Peça que divide validador de verdade — a 1 com a 2, a 4 com a 7, a 12 com a 18 — não tem candidato livre, e não se move.* **Só a 24 mudou de dono.**
+>
+> **E a checagem 9 passou a imprimir o mapa:** *quantas peças ela mapeou e quais validadores ficam sem peça de propósito.* Um mapa derivado que ninguém vê é um mapa que ninguém confere.
+
+### 3 · A palavra `nova` em qualquer ponto da linha desligava a conferência dela
+
+**A exceção existe para não confundir *"duas checagens novas"* com um total** — e ela procurava no arquivo inteiro da linha. *A linha 3 do `ESTADO-ATUAL`, que publica a contagem do `conferir-alma.py`, escapava pela palavra **"conversa nova"**, a trezentos caracteres de distância.* **Hoje a exceção lê uma janela de `40` caracteres em volta da contagem.**
+
+*E o `_RX_VAL9` passou a aceitar o caminho na frente:* **a tabela *"Onde cada coisa está"* escreve `03-mecanica/conferir-alma.py`**, e sem isso aquelas linhas dependiam do mapa da peça — que era justamente onde o defeito nº 2 morava.
+
+### As cinco contagens erradas, e o que cada uma escondia
+
+| onde | dizia | é | escapava por |
+|---|---|---|---|
+| peça 14 §9 | `onze` blocos do `conferir-equipamento.py` | **doze** | a janela — a linha tem `precisa ter` cento e quarenta caracteres adiante |
+| `ESTADO-ATUAL`:3 | `onze` do `conferir-alma.py` | **doze** | a janela, pela palavra `nova` |
+| `ESTADO-ATUAL`:669 | `onze` da peça 24 | **doze** | o mapa **e** o caminho na frente do nome |
+| `ESTADO-ATUAL`:670 | `sete` da peça 23 | **oito** | *— o código antigo pegava* |
+| `ESTADO-ATUAL`:1156 | `sete` do `conferir-bloquear.py` | **oito** | *— o código antigo pegava* |
+
+> ***A da peça 14 já estava errada antes desta versão***, e ninguém tinha visto. **As outras quatro nasceram hoje, com as duas checagens novas — e duas delas teriam entrado no commit.**
+>
+> *A linha da peça 14 não foi corrigida para `doze`: ela deixou de carregar numeral.* **Contagem de bloco é do código, e quem publica é a checagem 9** — uma cópia a menos é melhor que uma cópia certa.
+
+*Arnês próprio, num clone do repositório com a entrega sincronizada a mão para a base ficar verde:* **nove casos, quatro acendendo e cinco contra-testes verdes.**
+
+---
+
+## ⚠ E o `11 triagens` era `10` desde a v0.150
+
+**O `conferir-voz --estrito` imprime `10 trecho(s) para triar à mão`, e o número caiu na v0.150.** *Ele era `11` de verdade da v0.145 até a v0.149.* *Rastreado até a versão exata, medindo o mesmo filtro contra a cópia abandonada da v0.138 e contra o livro de hoje.*
+
+> **O décimo primeiro era o exemplo do `Desgaste` no capítulo 16**, e ele saiu na v0.150, quando a ferramenta deixou de descer de grau: *"Se ele tivesse guardado o `Anátema` para a missão **que importava**…"* — **e o reconhecedor casava `o que importa` DENTRO de `missão que importava`.**
+>
+> *A v0.150 não publicou linha de `conferir-voz` na tabela dela, e a v0.151 copiou o `11` da v0.149.* **Seis entradas do `CHANGELOG` publicaram `11` depois da queda — a v0.151, a v0.152, a v0.153, a v0.154, a v0.155 e a v0.158 —, mais o prompt de retomada.** *Contagem copiada no commit exato em que ela mudou de valor.*
+>
+> *A entrada do `PENTE-FINO-v0.147.md` diz `11` e **fica**: naquela versão eram onze mesmo.* **Retrato datado não é cópia divergente.**
+
+### Medido depois
+
+| | v0.158 | v0.159 |
+|---|---|---|
+| peças de regra · validadores | 24 · 24 | iguais |
+| checagens no total | 259 | **261** |
+| checagens do `conferir-alma.py` | 11 | **12** |
+| checagens do `conferir-bloquear.py` | 7 | **8** |
+| manual do Fundamento | v7.14 | **v7.15** |
+| páginas do `.pdf` do manual | 49 | **49** |
+| linhas da ficha de inimigo sem dono | **2** | **0** |
+| lugares do manual ensinando a Integridade antiga | **2** | **0** |
+| contagens publicadas divergindo do código | **5, e 3 invisíveis** | **0** |
+| afirmações de contagem que a checagem 9 alcança | 30 | **31** |
+| peças mapeadas para o validador errado | **1** — a 24 | **0** |
+| `conferir-voz --estrito` | 0 achados · **11 triagens, e eram 10** | **0 achados · 10 triagens** |
+| palavras do livro | 71.167 | **71.167** |
+| coluna única · duas colunas | 243 · 141 | **243 · 141** |
+
+*Os 24 validadores verdes com `PULADA = 0`, o `conferir-repositorio.py` e os dois de `manual/matematica/`.* **O livro não foi tocado nesta versão** — a ficha de inimigo é material de mestre, e o `REMOCOES-material-de-mestre.md` é quem manda ela para fora do livro do jogador. *Então não há `guard_numeros.py` aqui, e os quatro builds não precisam rodar: a checagem 7.5 continua verde com os artefatos da v0.158.*
+
+> **O manual foi regerado, e o controle rodou antes de o build valer.** *Reconstruindo a v7.14 a partir da fonte de antes das edições, o `word/document.xml` sai **idêntico** ao `.docx` que está na entrega — `1.064.765` bytes, mesmo md5.* **Então o `node make.js` e o `soffice` desta máquina reproduzem o que o Mizuki commitou.**
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **A fila de preço continua vazia**, e o que está no topo é o conserto da checagem 7.4, que lê o rótulo do commit da entrega em vez do `README` dentro dele.
+
+---
+
 ## [0.158] — 25/08/2026
 
 **O dano na arma ganhou peça, conta e validador, e ele estava sem os três desde a v0.147.** *Era o único dado do sistema nessa situação: ele morava só no livro, em dois capítulos, e nenhum `conferir-*.py` alcançava.* **Onze versões.**
