@@ -1462,6 +1462,113 @@ if PERDA_POR_PONTO and BANDA_TRILHA:
 # VEREDITO
 # =============================================================================
 print('\n' + '=' * 88)
+# --------------------------------------------------------------------------
+bloco('31. QUEDA-DO-DONO — o dono cai, e o que a invocacao pode fazer')
+# --------------------------------------------------------------------------
+# v0.163. A pergunta nao estava escrita em lugar nenhum — nem na peca, nem no
+# capitulo 60, nem na secao `Em aberto` dele —, entao nem a contagem de marcas
+# do conferir-voz.py a enxergava.
+#
+# ⚠ Esta checagem nao guarda a decisao: ela guarda a RELACAO. Os dois nomes dos
+# estados saem da peca 1 §5.5, que e a dona deles; a refutacao de "age sozinha"
+# se ancora no teto que a peca 6 §4 publica e que a §1 desta peca cita; e a vida
+# cheia se mede contra a decisao da peca 10 §3, e nao contra a palavra
+# "descanso longo". Reverter qualquer um dos donos de forma coerente sai verde.
+_P01 = ler('01-atributos-acerto-defesa.md')
+_P10 = ler('10-descanso-e-recuperacao.md')
+_LIV = os.path.join(AQUI, '..', '05-material', 'livro', 'manual', '60-invocacoes.md')
+_T60 = open(_LIV, encoding='utf-8').read() if os.path.exists(_LIV) else ''
+
+# -- os dois estados, lidos do dono
+_ESTADOS = re.findall(r'\*\*(Aguentar|Insistir)\*\*\s*—', _P01)
+if len(set(_ESTADOS)) != 2:
+    erro('QUEDA-DO-DONO', 'peca 1 §5.5: nao achei os DOIS estados de 0 de vida '
+         f'(achei {sorted(set(_ESTADOS))}) — eles sao a dona desta checagem, e sem '
+         'os dois ela nao tem contra o que conferir')
+else:
+    _i = PECA.find('### O dono cai, e a invocação não vai junto')
+    _j = PECA.find('\n## ', _i + 1) if _i >= 0 else -1
+    _SEC = PECA[_i:_j] if _i >= 0 and _j > _i else ''
+    if not _SEC:
+        erro('QUEDA-DO-DONO', 'nao achei a secao "O dono cai" no §3.5 da peca — ou ela '
+             'mudou de titulo, ou a regra sumiu, e nos dois casos esta checagem parou '
+             'de conferir')
+    else:
+        # guarda de reconhecedor: os DOIS estados tem de aparecer na secao, cada um
+        # com o seu desfecho. Sem isso, meia regra passa verde.
+        _faltam = [e for e in set(_ESTADOS) if f'`{e}`' not in _SEC]
+        if _faltam:
+            erro('QUEDA-DO-DONO', f'a secao nao diz o que acontece com {_faltam} — a peca 1 '
+                 '§5.5 da DUAS saidas a 0 de vida, e a invocacao cai diferente em cada uma')
+        # o Insistir nao muda nada; o Aguentar tira o Comando. A ancora e a ACAO,
+        # que e de onde a regra sai: comandar custa a Acao Padrao (SS3.4).
+        if not re.search(r'`Aguentar`[^|]*\|[^|]*n[ãa]o pode ser comandada', _SEC):
+            erro('QUEDA-DO-DONO', 'a tabela da secao nao diz que no `Aguentar` a invocacao '
+                 'NAO pode ser comandada — que e a consequencia de comandar custar a Acao '
+                 'Padrao, e e o unico jeito de o teto da peca 6 §4 continuar de pe')
+        if not re.search(r'`Insistir`[^|]*\|[^|]*nada muda', _SEC, re.I):
+            erro('QUEDA-DO-DONO', 'a tabela da secao nao diz que no `Insistir` nada muda — '
+                 'quem fica de pe tem Acao Padrao, e a regra ja respondia isso')
+
+        # -- a refutacao de "age sozinha" se ancora no teto, e nao numa frase minha
+        _m_dobra = re.search(r'invocação que age sozinha \*\*dobra\*\* o dano por rodada', PECA)
+        if not _m_dobra:
+            erro('QUEDA-DO-DONO', 'a §1 da peca nao publica mais que "invocacao que age '
+                 'sozinha DOBRA o dano por rodada" — e essa medida e a unica coisa que '
+                 'recusa a terceira saida; sem ela a recusa vira gosto')
+        elif 'dobra' not in sem_acento(_SEC).lower() and 'DOBRA' not in _SEC:
+            erro('QUEDA-DO-DONO', 'a secao recusa a invocacao agir sozinha e nao cita a '
+                 'medida que a recusa — a refutacao tem de carregar o numero ao lado')
+
+# -- a vida cheia: DERIVADA da escada da peca 10 §3, e nao escrita aqui.
+# Qual degrau devolve vida sai da linha `Vida` das duas tabelas daquela secao.
+# Virar isso de forma coerente na peca 10 faz esta checagem seguir junto, que e
+# a diferenca entre medir a relacao e medir a palavra "descanso longo".
+_deg = {}
+for _nome in ('curto', 'longo'):
+    _i10 = _P10.find(f'### Descanso {_nome}')
+    _j10 = _P10.find('\n### ', _i10 + 1) if _i10 >= 0 else -1
+    _bl = _P10[_i10:_j10] if _i10 >= 0 and _j10 > _i10 else ''
+    _mv = re.search(r'\|\s*\*\*Vida\*\*\s*\|\s*([^|]+)\|', _bl)
+    _deg[_nome] = _mv.group(1).strip() if _mv else None
+_devolve = [n for n, v in _deg.items() if v and 'nada' not in v.lower()]
+if len(_deg) != 2 or None in _deg.values():
+    erro('QUEDA-DO-DONO', f'peca 10 §3: li a linha Vida como {_deg} e esperava as duas '
+         'tabelas — a secao mudou de forma, e a derivacao abaixo passaria sem conferir')
+elif len(_devolve) != 1:
+    erro('QUEDA-DO-DONO', f'peca 10 §3 diz que {len(_devolve)} degrau(s) devolvem vida '
+         f'({_devolve}) — a vida cheia da invocacao herda o degrau, e com zero ou dois '
+         'candidatos ela deixa de ser derivavel e vira decisao a tomar de novo')
+elif not re.search(rf'volta no DESCANSO {_devolve[0].upper()}', PECA):
+    erro('QUEDA-DO-DONO', f'a peca 10 §3 devolve vida no descanso {_devolve[0]}, e a peca 15 '
+         'nao declara a vida cheia da invocacao nesse mesmo degrau — respiro que devolve '
+         'vida para um tipo de corpo so e a segunda escada que o filtro multi-mestre recusa')
+elif not re.search(rf'volta no descanso {_devolve[0]}', _T60):
+    erro('QUEDA-DO-DONO', f'o capitulo 60 do livro nao publica o descanso {_devolve[0]} como '
+         'o degrau em que a vida cheia volta — decisao escrita so na peca nao chega ao jogador')
+else:
+    print('  os dois estados de 0 de vida saem da peca 1 §5.5, e a secao responde os dois.')
+    print('  a recusa de "age sozinha" se ancora no teto da peca 6 §4, publicado na §1.')
+    print('  a vida cheia segue a escada da peca 10 §3: respiro nao devolve vida.')
+
+# -- o LIVRO publica a mesma regra. Copia sem comparacao diverge (licao no 9).
+if not _T60:
+    erro('QUEDA-DO-DONO', 'nao achei o capitulo 60 do livro — a copia de mesa desta regra '
+         'nao foi conferida')
+else:
+    _falta_liv = []
+    if not re.search(r'###\s+Queda do dono', _T60):
+        _falta_liv.append('a secao `Queda do dono`')
+    if not re.search(r'n[ãa]o faz nada|ningu[ée]m pode comand', _T60):
+        _falta_liv.append('a linha de que ninguem pode comanda-la')
+    if not re.search(r'[Nn]ão age sozinha', _T60):
+        _falta_liv.append('a recusa de ela agir sozinha')
+    if _falta_liv:
+        erro('QUEDA-DO-DONO', 'o capitulo 60 do livro nao publica: ' + '; '.join(_falta_liv)
+             + ' — decisao escrita SO NA PECA nao chega ao jogador')
+    else:
+        print('  o capitulo 60 publica as quatro linhas, e o jogador le a mesma regra.')
+
 for a in AVISOS:
     print(f'  aviso: {a}')
 if AVISOS:
@@ -1473,6 +1580,6 @@ if ERROS:
     print('=' * 88)
     sys.exit(1)
 print('>>> TUDO OK — o teto somado e a cota saem da peca 6, o orcamento sai dos marcos')
-print('    da peca 2, a amarra sai da peca 3, a vida sai do molde da peca 1, e as 30')
+print('    da peca 2, a amarra sai da peca 3, a vida sai do molde da peca 1, e as 31')
 print('    checagens do SS5 fecham sem nenhum valor escrito dentro deste arquivo.')
 print('=' * 88)

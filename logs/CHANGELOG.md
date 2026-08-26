@@ -8,6 +8,74 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.163] — 26/08/2026
+
+**As duas pendências de Invocações que travavam as três Trilhas do Evocador fecharam**, e nenhuma das duas era a decisão que parecia ser. *A primeira estava respondida em três quartos antes de qualquer escolha; a segunda não era sabor — já estava decidida em outra peça.*
+
+### A que a contagem não enxergava
+
+***"O que acontece com a invocação quando o dono cai"* não estava escrito em lugar nenhum** — *nem na peça 15, nem no capítulo 60 do livro, nem na seção `Em aberto` dele, que lista só `invocação que não obedece` e `selar com talismã`.* **Por isso nem a contagem de marcas do `conferir-voz.py` a via.**
+
+**E o dono cai de DUAS formas, que não são o mesmo caso:**
+
+| ele escolhe, na peça 1 §5.5 | a invocação | quem decidiu |
+|---|---|---|
+| **`Insistir`** — fica de pé e age normalmente | **nada muda** | **a regra**, sozinha: ele tem Ação Padrão, então comanda |
+| **`Aguentar`** — apaga, janela de `3` rodadas | **fica no tabuleiro e não pode ser comandada** | **decisão do Mizuki** |
+| *ela AGIR sozinha nessas rodadas* | **recusado** | **a conta** |
+
+> ***A recusa da terceira saída é medida, e não gosto.*** *A trava da peça 6 §4 — `você e todas as suas invocações somados entregam uma Rotina` — nunca precisou ser policiada: ela se sustenta porque o `Comando` come a Ação Padrão, o que torna o dono e a invocação **mutuamente exclusivos** na rodada.* **Dono inconsciente não tem Ação Padrão**, então uma invocação agindo ali estaria agindo **de graça** — e a §1 da peça já media esse caso exato: **invocação que age sozinha DOBRA o dano por rodada.**
+>
+> ***E a v0.162 deixou pronto, sem saber, o que faz a escolha do Mizuki valer a pena:*** *a peça 19 §5 lista **`uma criatura no caminho`** como exemplo de cobertura `Parcial`.* **Uma invocação de pé em cima do dono caído dá a ele `+2` de Defesa e `+2` no TR Físico pela janela inteira, sem uma linha de regra nova** — e o inimigo ganha uma decisão de verdade: gastar ação derrubando o corpo, ou passar por ele.
+
+### A que não era sabor
+
+**A peça 15 registrava *"quando a vida cheia volta"* como decisão de sabor não tomada, com o descanso longo de candidato.** *Só que a peça 10 §3 já tinha decidido isso para vida em geral:* **`O descanso curto não devolve vida, e isso é decisão`** — *porque em Jujutsu Kaisen quem conserta gente é a Energia Reversa e a Shoko.*
+
+> **A meia vida da invocação é vida.** *Pôr ela no respiro criaria uma segunda escada de recuperação, para um tipo de corpo só — e o filtro multi-mestre reprova isso antes de qualquer conta.* **Fica o descanso longo, e a decisão sai derivada em vez de escolhida.**
+
+### A checagem 31, e ela DERIVA o degrau em vez de guardar a palavra
+
+**Entrou a checagem 31 do `conferir-invocacoes.py`**, e a peça 15 §5 — que é a especificação delas — subiu junto. *Ela não guarda decisão nenhuma:* **os dois nomes dos estados saem da peça 1 §5.5; a recusa de agir sozinha se ancora no teto que a peça 6 §4 publica; e o degrau da vida cheia é LIDO da linha `Vida` das duas tabelas da peça 10 §3** — *não da palavra "descanso longo".*
+
+> **Onze perturbações: dez acendendo e um contra-teste**, e o contra-teste é o que fecha o argumento: **virar a escada de descanso ao contrário nos TRÊS donos — peça 10, peça 15 e livro — sai VERDE.** *Se ela medisse a palavra, acenderia.*
+
+### ⚠⚠ E o `conferir-repositorio.py` tinha DOIS leitores de numeral
+
+**A checagem 9 tinha o próprio mapa de número por extenso, idêntico ao `NUMERO` do topo do arquivo — e sem os compostos.** *O `por_extenso` aprendeu `"vinte e uma"` na **v0.132**, e o motivo está escrito lá: um mapa que para no vinte faz a checagem morrer do jeito mais silencioso, reprovando por não ter achado o que medir.* **A cópia da checagem 9 ficou parada no mesmo lugar.**
+
+> **Ela apareceu porque o `conferir-invocacoes.py` chegou a `31`:** *a frase `"trinta e uma checagens"` era lida como `uma`, ou seja **1**.* **Falhou alto, e não em silêncio — mas só porque ninguém tinha passado do vinte antes.**
+>
+> **Os dois leitores viraram um.** *Conferido nos cinco casos: `"trinta e uma"` e `"31"` passam; `"trinta e duas"`, `"vinte e uma"` e o `"trinta"` velho acendem, cada um com o número que leram.*
+
+### As três coisas que os guardas do livro pegaram em mim
+
+> **⚠⚠ Eu copiei o `+2` da cobertura e o `três rodadas` da janela para dentro do capítulo 60** — *uma versão depois de escrever a checagem que proíbe exatamente isso no manual.* **O `guard_numeros.py` acusou as duas**, e elas viraram ponteiro: *"o capítulo 4, Dano, Condições e Cobertura, diz quanto ela vale"* e *"enquanto a sua janela corre"*. *A janela é a que a Sequela encurta — escrever `3` ali envelhece na primeira queda.*
+>
+> **⚠ E o `capítulo 3` que eu tinha escrito era o `4`.** *O `conferir-repositorio.py` teria pego pela conferência das 98 referências cruzadas.*
+>
+> **⚠ O título `### Quando quem cai é você` reprovou no `conferir-voz.py`**, porque `Quando` abre pergunta e título-pergunta é proibido. *Virou `Queda do dono`.*
+
+### O que se moveu
+
+| | v0.162 | v0.163 |
+|---|---|---|
+| peças de regra · validadores | 24 · 25 | iguais |
+| checagens | 263 | **264** — e a do `conferir-invocacoes.py` foi de `30` a `31` |
+| marcas de "isto ainda não existe" no livro | **7** | **6** |
+| leitores de numeral no `conferir-repositorio.py` | **2** | **1** |
+| pendências de Invocações abertas | **4** | **2** |
+| palavras do livro | 71.179 | **71.429** |
+| páginas do livro | 243 · 141 | iguais |
+
+*Os 24 validadores de `03-mecanica` verdes com `PULADA = 0`, o `conferir-repositorio.py`, os quatro de `manual/matematica/` e o `conferir-voz --estrito` em 0 achados.* **O manual não foi tocado** — continua na v7.16, e os builds dele não rodaram. *O livro rodou os quatro.*
+
+> **O `conferir-voz.py` acusou a queda de `7` para `6` no mesmo commit em que ela aconteceu**, com as duas leituras na mesma frase: *"ou entrou marca nova, ou uma foi fechada e o número não desceu junto"*. **É para isso que a v0.144 escreveu ele.**
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **As duas pendências que o `ESTADO-ATUAL` declarava como trava das Trilhas do Evocador fecharam** — *sobram as três Trilhas em si, que são doze entregas preçadas com o `RASCUNHO-trilhas.md` de régua.*
+
+---
+
 ## [0.162] — 26/08/2026  ·  manual v7.16
 
 **Duas entradas PREÇADAS do manual compravam furar cobertura contra graus que este sistema não tem.** *A Melhoria `Sem Cobertura` (`Leve`) dizia "cobertura leve e meia cobertura"; a Passiva `Afinidade` (Classe 3) dizia "cobertura leve".* **A escada daqui é `Parcial` · `Boa` · `Total`, na peça 19 §5, e nenhum dos dois termos está nela.** *É a lição nº 6 inteira — antes de aceitar um preço, veja se o termo que ele usa existe.*

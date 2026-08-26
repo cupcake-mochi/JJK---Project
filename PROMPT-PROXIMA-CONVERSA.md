@@ -1,4 +1,4 @@
-# Retomada — v0.162, e o que sobrou é o Bestiário, playtest e dois rascunhos
+# Retomada — v0.163, e o que sobrou é o Bestiário, playtest e dois rascunhos
 
 Pasta: `/media/mizuki/HD Externo II/Claude/Claude 2/`
 ⚠ Trabalhe na pasta PRINCIPAL, não em worktree. **Você não commita** — deixa a mensagem em
@@ -7,19 +7,46 @@ Pasta: `/media/mizuki/HD Externo II/Claude/Claude 2/`
 Leia primeiro, nesta ordem: `README.md` (a seção *"Nove lições que custaram erro"*),
 `sistema/ESTADO-ATUAL.md` **inteiro**, e o `logs/CHANGELOG.md` de cima até a v0.145.
 
-**Projeto na v0.162.** 24 peças · 24 validadores · **263 checagens**. Livro em 17 capítulos,
-**71.179 palavras**, **243** páginas em coluna única e **141** em duas. Manual do Fundamento na
-**v7.16**. `conferir-voz --estrito` em 0 achados, 0 termos sem destino, **10 triagens**, **7
+**Projeto na v0.163.** 24 peças · 24 validadores · **264 checagens**. Livro em 17 capítulos,
+**71.429 palavras**, **243** páginas em coluna única e **141** em duas. Manual do Fundamento na
+**v7.16**. `conferir-voz --estrito` em 0 achados, 0 termos sem destino, **10 triagens**, **6
 marcas de "isto ainda não existe" e 0 rótulos longos demais em 52 entradas de catálogo**.
 
 > **A entrega está UMA versão atrás, que é o normal — a ordem não inverte.** *O último commit
-> de `finalizado/` é `recorte da v0.161`, e a checagem 7.4 aceita uma de distância.* **Rode o
-> `./subir.sh` normalmente e commite a entrega depois**, com `recorte da v0.162`.
+> de `finalizado/` é `recorte da v0.162`, e a checagem 7.4 aceita uma de distância.* **Rode o
+> `./subir.sh` normalmente e commite a entrega depois**, com `recorte da v0.163`.
 >
 > *E desde a v0.160 ela mede o **conteúdo** do commit, não o rótulo* — **copiar a mensagem da
 > vez passada virou aviso, e não mais reprovação.**
 
 ---
+
+## O que a v0.163 fechou
+
+**As duas pendências de Invocações que travavam as três Trilhas do Evocador**, e nenhuma das
+duas era a decisão que parecia ser.
+
+> ***"O que acontece com a invocação quando o dono cai"* não estava escrito em lugar nenhum**,
+> nem na peça, nem no livro, nem na seção `Em aberto` dele — por isso a contagem de marcas não a
+> via. *Três quartos da pergunta já estavam respondidos:* **`Insistir` a regra resolve sozinha**
+> (quem fica de pé tem Ação Padrão, então comanda), e **a invocação AGIR sozinha é recusada pela
+> conta** — sem a Ação Padrão do dono ela agiria de graça, e a §1 da peça mede isso: *dobra o
+> dano por rodada*. **Sobrou o `Aguentar`, e a decisão dele foi: ela fica parada.**
+>
+> *E a v0.162 deixou pronto o que faz isso valer:* **um corpo de pé em cima do dono caído é
+> `uma criatura no caminho`, logo cobertura `Parcial`** — `+2` de Defesa pela janela inteira,
+> sem regra nova.
+>
+> **A vida cheia volta no descanso longo, e isso não era sabor:** *a peça 10 §3 já decidiu que
+> respiro não devolve vida, e a meia vida da invocação é vida.*
+>
+> **Entrou a checagem 31**, que LÊ o degrau da linha `Vida` das tabelas da peça 10 em vez de
+> guardar a palavra. *Onze perturbações, dez acendendo, e o contra-teste vira a escada nos três
+> donos e sai verde.*
+>
+> **⚠⚠ E o `conferir-repositorio.py` tinha DOIS leitores de numeral** — a checagem 9 tinha o
+> próprio mapa, sem compostos, o mesmo defeito que a v0.132 consertou no outro. *`"trinta e uma
+> checagens"` era lida como `1`.* **Viraram um.**
 
 ## O que a v0.162 fechou
 
@@ -171,13 +198,13 @@ cada vez que o manual muda de versão.* **Foi à mão nesta versão, nas quatro 
 - **`Sem Técnica`** — precisa de `Estilo da Sombra` **ou** `Aptidão como rota`, e as duas são
   peça própria. **É a nona rota, a única que não fecha ficha.**
 
-E três médios: o **objeto de apoio** (falta a lista do que conta e o preço), a **invocação que
-não obedece**, e as **duas de Invocações** que esperam outra peça.
+E dois médios: o **objeto de apoio** (falta a lista do que conta e o preço) e a **invocação que
+não obedece**. *A de `selar com talismã` espera a peça de ferramenta, e não é escolha em aberto.*
 
-> **⚠⚠ Existe uma sexta pendência de Invocações que a contagem NÃO enxerga:** *"o que acontece
-> com a invocação quando o DONO cai".* **Ela não está escrita em lugar nenhum que alguém vá
-> olhar** — nem na peça, nem no livro, nem na seção *Em aberto* do capítulo 15. *E o
-> `ESTADO-ATUAL` declara que ela e a "vida cheia" **travam as Trilhas do Evocador**.*
+> **✔ As duas que o `ESTADO-ATUAL` declarava como trava das Trilhas do Evocador FECHARAM na
+> v0.163** — *a vida cheia (descanso longo, derivado da peça 10 §3) e a queda do dono.* **A
+> segunda era a que a contagem de marcas não enxergava**, porque não estava escrita em lugar
+> nenhum. *Com as duas fechadas, nada de Invocações trava mais as três Trilhas.*
 
 ### 5 · Os dois rascunhos
 

@@ -112,7 +112,9 @@ palavras.* **As catorze condições deste livro foram reescritas nessa forma na 
 
 *Escrito na v0.144, e ele nasceu de uma contagem que deu errado cinco vezes seguidas.* **O prompt de retomada dizia quatro, o CHANGELOG da v0.136 dizia cinco, a varredura à mão de uma versão disse oito, e o regex acha sete.** *Toda contagem desta família até hoje deu um número diferente, e nenhuma delas tinha validador.*
 
-> **O livro carrega `7` marcas de regra que ainda não existe.** *Esse número é o dono, e o `conferir-voz.py` recontá e falha se ele subir.*
+> **O livro carrega `6` marcas de regra que ainda não existe.** *Esse número é o dono, e o `conferir-voz.py` recontá e falha se ele subir.*
+
+> **Era `7` até a v0.163**, quando a marca do capítulo 15 fechou — *"quando a vida cheia volta ainda está sendo decidido"*. **O validador acusou a queda no mesmo commit em que ela aconteceu**, com as duas leituras na mesma frase: *"ou entrou marca nova, ou uma foi fechada e o número não desceu junto"*. *Ele falha nas duas direções de propósito, e é por isso que fechar uma marca custa uma linha aqui.*
 
 **O que conta como marca, e são três formas:**
 

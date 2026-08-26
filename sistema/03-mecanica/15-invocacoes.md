@@ -1,6 +1,6 @@
 # 15 — Invocações
 
-**Fase 4, décima quinta peça.** O sistema de criação de invocação: iniciativa, o modelo da Matilha, a ficha, o custo, a morte, o retorno e o catálogo. O validador dono é o `conferir-invocacoes.py`, com as trinta checagens do §5.
+**Fase 4, décima quinta peça.** O sistema de criação de invocação: iniciativa, o modelo da Matilha, a ficha, o custo, a morte, o retorno e o catálogo. O validador dono é o `conferir-invocacoes.py`, com as **trinta e uma** checagens do §5.
 Versão v0.58 — 14/08/2026
 
 > **O nome é decisão escrita, e não descuido.** `Invocação` sai **OCUPADO** na triagem: é **Tema** do manual, no grupo *Criação* do catálogo do apêndice. Tema não carrega mecânica — o próprio manual diz isso na abertura da Descrição —, então o choque é de vocabulário e não de regra. **O Tema e esta peça são coisas diferentes:** um é rótulo de sabor pendurado numa técnica, a outra é a máquina que põe um corpo no campo. O §4 tem a triagem inteira, com os dois nomes que saíram livres.
@@ -569,7 +569,36 @@ Com a vida em pool (Q2) e `h` em meia Rotina (Q3), **um efeito de área que caus
 
 *E ela é a peça que faltava no argumento da Q4.* A conta da "primeira grátis" mostrou que o mestre que foca a invocação cobra **420%** do preço nominal, e o conserto foi não ter isenção. **A meia vida cobra o mestre que foca de novo, na direção certa:** ele derruba, o jogador reinvoca por PE e ação, e o corpo que volta cai na metade do tempo. *O preço agora é cobrado no recurso e na durabilidade, e não só no recurso.*
 
-> **Quando a vida cheia volta continua sem dono declarado**, e é a única coisa que sobra desta pergunta. O candidato natural é o **descanso longo** — *"a missão acaba"*, o degrau mais lento da escada da peça 10 —, mas isso é decisão de sabor e não está tomada.
+> ~~**Quando a vida cheia volta continua sem dono declarado.**~~ ***FECHADO na v0.163: ela volta no DESCANSO LONGO***, e a decisão não era de sabor — ela já estava tomada em outro lugar.
+
+**A peça 10 §3 decidiu que o descanso curto NÃO devolve vida**, com o motivo escrito: *em Jujutsu Kaisen quem conserta gente é a Energia Reversa e a Shoko, e se um respiro devolvesse vida a cura deixava de ser assunto.* **A meia vida da invocação é vida.**
+
+> **Pôr ela no respiro criaria uma segunda escada de recuperação de vida, para um tipo de corpo só** — *e o filtro multi-mestre reprova isso antes de qualquer conta: dois mestres passariam a carregar duas escadas na cabeça, uma para gente e outra para invocação.*
+>
+> **E o custo continua caindo onde a Q5 mediu.** *A meia vida foi desenhada como custo de **luta**, não de campanha.* **Com o descanso longo ele atravessa a missão inteira — que é o degrau em que *"a missão acaba"* já significa alguma coisa — e não vira penalidade permanente**, que era a terceira saída e a que este mesmo §3.5 já tinha recusado por medir o tipo de custo errado.
+
+### O dono cai, e a invocação não vai junto
+
+*Fechado na v0.163.* **A pergunta não estava escrita em lugar nenhum** — *nem aqui, nem no capítulo 60 do livro, nem na seção `Em aberto` dele* —, então nem a contagem de marcas do `conferir-voz.py` a enxergava.
+
+**O dono chega a 0 de vida e escolhe uma das duas da peça 1 §5.5, e as duas caem diferente:**
+
+| ele escolhe | a invocação |
+|---|---|
+| **`Insistir`** — fica de pé e age normalmente | **nada muda.** Ele tem Ação Padrão, então comanda como sempre |
+| **`Aguentar`** — apaga, janela de `3` rodadas | **fica no tabuleiro, e não pode ser comandada** |
+
+> **A invocação parada continua sendo um corpo.** *O `Traço` é o que ela **é**, e ele não depende de ninguém gastar ação: ela continua voando, continua ocupando o corredor, continua podendo ser atacada, com a vida que tinha.* **O que para é o `Comando` — o que ela **faz** —, e ele custa a Ação Padrão do dono, que um inconsciente não tem.**
+>
+> ***E isso entrega de graça uma coisa que já estava escrita em outra peça:*** *a peça 19 §5 lista **`uma criatura no caminho`** como exemplo de cobertura `Parcial`.* **Uma invocação de pé em cima do dono caído dá a ele `+2` de Defesa e `+2` no Teste de Resistência Físico pelas três rodadas da janela** — *sem uma linha de regra nova.* **E o inimigo ganha uma decisão de verdade: gastar ação matando o corpo, ou passar por ele e ir no dono.**
+
+***A terceira saída — a invocação AGIR sozinha enquanto o dono está apagado — foi recusada pela conta, e não por gosto.***
+
+**A trava da peça 6 §4 é `você e todas as suas invocações somados entregam uma Rotina`, e ela nunca precisou ser policiada:** *ela se sustenta sozinha porque o `Comando` come a Ação Padrão, o que torna o dono e a invocação **mutuamente exclusivos** na rodada.* **Está escrito no §3.4 desta peça:** *"o teto da peça 6 §4 deixou de precisar de policiamento"*.
+
+> **Dono inconsciente não tem Ação Padrão para gastar.** *Uma invocação que agisse nessas três rodadas estaria agindo **de graça** — e a §1 desta peça já mediu esse caso exato:* **invocação que age sozinha DOBRA o dano por rodada.**
+>
+> **Então a exclusão mútua não é consequência da regra: é a regra.** *Se ela vale com o dono de pé, ela vale mais ainda quando ele não está* — **é o único momento da luta em que pôr a invocação para agir não custaria nada a ninguém.**
 
 ## 3.6 Os números da Q3 — `Traço`, `Comando`, e o orçamento
 
@@ -923,17 +952,18 @@ Rodada a triagem antes de escrever qualquer coisa:
 
 ## 5. O que o validador confere
 
-**São trinta checagens, e elas moram no `conferir-invocacoes.py`.** A lista abaixo é a especificação delas: cada item diz o que se confere, de qual documento o número é lido, e — onde faz sentido — qual perturbação tem de acender aquela checagem e só ela.
+**São trinta e uma checagens, e elas moram no `conferir-invocacoes.py`.** A lista abaixo é a especificação delas: cada item diz o que se confere, de qual documento o número é lido, e — onde faz sentido — qual perturbação tem de acender aquela checagem e só ela.
 
 *Ela foi escrita antes do validador, e é por isso que ele coube numa versão só.* A peça 14 gastou três versões com uma frase dizendo que o validador dela não podia ser escrito, e a premissa daquela frase tinha morrido três versões antes.
 
-> **O arnês de perturbação obedece às três regras:** cópia isolada, base conferida verde **antes** de perturbar, e `diff` provando que a perturbação bateu antes de alguém ler o resultado. **As trinta acendem a checagem certa**, e três delas acendem um par ou um trio declarado — que é o que acontece quando duas checagens leem o **mesmo dono** e é mais honesto declarar do que fingir isolamento. Mais dois contra-testes que não podem acender nada, e não acendem.
+> **O arnês de perturbação obedece às três regras:** cópia isolada, base conferida verde **antes** de perturbar, e `diff` provando que a perturbação bateu antes de alguém ler o resultado. **As trinta e uma acendem a checagem certa**, e três delas acendem um par ou um trio declarado — que é o que acontece quando duas checagens leem o **mesmo dono** e é mais honesto declarar do que fingir isolamento. Mais dois contra-testes que não podem acender nada, e não acendem.
 
 - **O teto da Rotina somada**, derivado da peça 6 §4 e nunca lido de constante — a lição nº 8 na forma que já apareceu três vezes.
 - **Dominância entre as três Trilhas**, com a matriz rodando por quantidade de corpos.
 - **O somatório**, contra o `conferir-orcamento.py`: invocar não pode caber junto com conjurar e levar dano de alma se o bolso não fechar.
 - **Tempo de mesa**, se a Q2 fechar em cinco fichas — e essa não é checagem de código, é pergunta de playtest com número esperado escrito antes da sessão.
 - **Triagem de todo nome** que a peça criar.
+- **A queda do dono** *(a 31, da v0.163)*: os dois estados de 0 de vida saem da peça 1 §5.5 e a seção tem de responder os dois; a recusa de a invocação agir sozinha se ancora no teto que a peça 6 §4 publica, e não numa frase escrita aqui; a vida cheia se mede contra a decisão da peça 10 §3 — *respiro não devolve vida* —, e não contra a palavra "descanso longo"; e o capítulo 60 do livro tem de publicar as quatro linhas, porque decisão escrita só na peça não chega ao jogador.
 - **Toda entrada do catálogo cai no degrau que a régua da criação manda** — `Traço` de 1 ponto só mexe na própria invocação, `Traço` de 2 encosta em outra criatura ou no tabuleiro; `Comando` de 1 age sobre um alvo, `Comando` de 2 protege ou nega. **Entrada publicada que desobedece à própria régua ensina a mesa a ignorá-la.**
 - **Nenhuma entrada, publicada ou criada, com dado de dano, com refino dentro, ou com deslocamento positivo.** As três são ilegais e não têm preço.
 - **Nenhum deslocamento positivo em linha nenhuma da ficha** — a invocação nunca passa do número do dono. Perturbar para `+1` tem de acender.

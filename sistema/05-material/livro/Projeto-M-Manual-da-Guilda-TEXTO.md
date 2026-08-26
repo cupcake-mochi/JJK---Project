@@ -6115,9 +6115,24 @@ Nenhum golpe de rotina dispara isso. Derrubar a barra é comum; matar de vez exi
 
 Você paga os PE de novo, paga a Ação Padrão de novo, e o corpo que volta cai na metade do tempo do primeiro. Numa luta longa isso vira decisão de verdade: gastar a rodada trazendo um corpo frágil de volta, ou aceitar terminar a cena sozinho.
 
-> **Quando a vida cheia volta ainda está sendo decidido.** O candidato óbvio é o descanso longo. Combine com o seu mestre até isso fechar.
+> **A vida cheia volta no descanso longo.** Enquanto a missão não acaba, o corpo que você trouxe de volta continua com metade — respiro não devolve vida para ninguém, nem para você nem para ela.
 
 > **Exemplo.** O Kaito, nível 10, tem uma invocação de `técnica` com Constituição `1`, então a vida máxima dela é `2 + (2 + 1) × 10 = 32`. Ela está com `4` de vida e leva um golpe de `18`. O excedente é `14`, que não passa de `16`, que é metade de `32`; e `18` não é `32`. Ela some, mas não morreu de vez: no turno seguinte ele gasta `3` PE e a Ação Padrão, e ela volta com `16`.
+
+### Queda do dono
+
+Você chega a 0 e escolhe `Insistir` ou `Aguentar`, como sempre. **A invocação não some nas duas.**
+
+> **Se você `Insistir`**, nada muda: você continua com a sua Ação Padrão, então continua comandando.
+> **Se você `Aguentar`** e apagar, ela **fica onde está e ninguém pode comandá-la.** Comandar custa a sua Ação Padrão, e quem está apagado não tem uma.
+
+O `Traço` continua valendo — ela continua voando, continua ocupando a passagem, continua podendo levar dano com a vida que tem. O que para é o `Comando`.
+
+> **E um corpo de pé em cima de você é uma criatura no caminho**, então ele te dá cobertura `Parcial` enquanto a sua janela corre — o capítulo 4, *Dano, Condições e Cobertura*, diz quanto ela vale. Quem quiser te acertar decide se gasta ação derrubando ela antes.
+
+> **Ela não age sozinha.** Nem para te defender, nem para continuar a luta. Você e as suas invocações somados entregam o dano de uma pessoa, e é a sua ação que reparte isso — sem ela, não há o que repartir.
+
+> **Exemplo.** A Kaori apaga com a invocação dela de pé ao lado. Enquanto a janela dela corre a invocação não faz nada, mas o capanga que quer terminar o serviço ataca a Kaori com a cobertura em cima — ou gasta a rodada dele derrubando o corpo primeiro, e aí não ataca a Kaori naquela rodada.
 
 ## Em aberto
 
@@ -6525,4 +6540,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: 361d0d737b2bd68ec3bc135b1e8d24b4fc00b208 -->
+<!-- fonte: b4677b3fbf4f766b8e2c34c000187795a9acc32d -->

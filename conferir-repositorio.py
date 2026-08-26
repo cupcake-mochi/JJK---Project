@@ -1402,13 +1402,15 @@ for _p9 in _PECAS9:
             _TOMADOS9[_d9].remove(_n9)
             break
 
-_NUM9 = {'uma': 1, 'um': 1, 'duas': 2, 'dois': 2, 'tres': 3, 'quatro': 4, 'cinco': 5,
-         'seis': 6, 'sete': 7, 'oito': 8, 'nove': 9, 'dez': 10, 'onze': 11, 'doze': 12,
-         'treze': 13, 'catorze': 14, 'quatorze': 14, 'quinze': 15, 'dezesseis': 16,
-         'dezessete': 17, 'dezoito': 18, 'dezenove': 19, 'vinte': 20, 'trinta': 30}
-_PAL9 = '|'.join(_NUM9)
-_RX_QTD = re.compile(rf'(\*{{0,2}}(?:\d+|{_PAL9})\*{{0,2}})\s*\*{{0,2}}\s*'
-                     r'(?:checagens?|blocos? de checagem)', re.I)
+# v0.163: este bloco tinha o PROPRIO mapa de numeral, identico ao NUMERO la de
+# cima e sem os compostos. O `por_extenso` aprendeu "vinte e uma" na v0.132,
+# justamente porque um mapa que para no vinte faz a checagem morrer do jeito
+# mais silencioso — e a copia daqui ficou parada no mesmo lugar. Ela apareceu
+# quando o conferir-invocacoes.py chegou a 31: "trinta e uma checagens" era
+# lida como `uma`, ou seja, 1. Um leitor, um dono.
+_PAL9 = '|'.join(sorted(NUMERO, key=len, reverse=True))
+_RX_QTD = re.compile(rf'(\*{{0,2}}(?:\d+|(?:{_PAL9})(?:\s+e\s+(?:{_PAL9}))?)\*{{0,2}})'
+                     r'\s*\*{0,2}\s*(?:checagens?|blocos? de checagem)', re.I)
 # afirmacao de INCREMENTO ou de ESPECIFICACAO nao e' contagem total
 _RX_NAO9 = re.compile(r'\bnovas?\b|\ba mais\b|precisa ter|que ele precisa|'
                       r'que esta regua pede|nasceu a checagem|ganhou a checagem|'
@@ -1447,9 +1449,7 @@ for _rel9 in _ALVOS9:
             if _RX_NAO9.search(_jan9):
                 continue
             _t9 = _m9.group(1).replace('*', '').strip().lower()
-            _q9 = int(_t9) if _t9.isdigit() else _NUM9.get(
-                re.sub(r'[áàâãéêíóôõúç]', lambda m: 'aaaaeeiooouc'[
-                    'áàâãéêíóôõúç'.index(m.group(0))], _t9))
+            _q9 = int(_t9) if _t9.isdigit() else por_extenso(_t9)
             if _q9 is None:
                 continue
             _alvo9 = None

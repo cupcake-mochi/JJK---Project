@@ -1,8 +1,24 @@
 # Estado atual do projeto
 
-Atualizado em 26/08/2026, na v0.162 (última peça fechada: **Dano de alma e Integridade**, a peça 24, na v0.145, com o `conferir-alma.py` e doze checagens; antes dela, **Bloquear, na v0.143**; antes dela, o **Objeto amaldiçoado, na v0.132**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 26/08/2026, na v0.163 (última peça fechada: **Dano de alma e Integridade**, a peça 24, na v0.145, com o `conferir-alma.py` e doze checagens; antes dela, **Bloquear, na v0.143**; antes dela, o **Objeto amaldiçoado, na v0.132**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.162.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e quatro peças escritas** e **vinte e quatro validadores**.
+**Versão v0.163.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e quatro peças escritas** e **vinte e quatro validadores**.
+
+***A v0.163 fechou as duas pendências de Invocações que este arquivo declarava como trava das três Trilhas do Evocador, e nenhuma das duas era a decisão que parecia ser.***
+
+> ***"O que acontece com a invocação quando o dono cai" não estava escrito em lugar nenhum*** — *nem na peça 15, nem no capítulo 60 do livro, nem na seção `Em aberto` dele.* **Por isso nem a contagem de marcas do `conferir-voz.py` a enxergava.**
+>
+> **Três quartos dela já estavam respondidos, e por dois donos diferentes:** *no `Insistir` a regra resolve sozinha — quem fica de pé tem Ação Padrão, então comanda como sempre —, e a invocação **agir** sozinha é recusada pela CONTA.* **A trava da peça 6 §4 se sustenta porque o `Comando` come a Ação Padrão; dono inconsciente não tem uma, então ela agiria de graça, e a §1 da peça 15 mede esse caso: `invocação que age sozinha DOBRA o dano por rodada`.**
+>
+> ***Sobrou o `Aguentar`, e a decisão do Mizuki foi: ela fica parada.*** *E a v0.162 tinha deixado pronto, sem saber, o que faz isso valer a pena:* **um corpo de pé em cima do dono caído é `uma criatura no caminho`, logo cobertura `Parcial`** — `+2` de Defesa e `+2` no TR Físico pela janela inteira, sem uma linha de regra nova.
+>
+> **A vida cheia volta no DESCANSO LONGO, e isso não era sabor:** *a peça 10 §3 já decidiu que o respiro não devolve vida — em JJK quem conserta gente é a Energia Reversa e a Shoko —, e a meia vida da invocação é vida.* **Pôr ela no curto criaria uma segunda escada de recuperação para um tipo de corpo só.**
+>
+> **Entrou a checagem 31 do `conferir-invocacoes.py`**, e ela **LÊ** o degrau da linha `Vida` das duas tabelas da peça 10 §3 em vez de guardar a palavra. *Onze perturbações: dez acendendo, e o contra-teste vira a escada de descanso nos três donos e sai **verde**.*
+>
+> **⚠⚠ E o `conferir-repositorio.py` tinha DOIS leitores de numeral.** *A checagem 9 tinha o próprio mapa, idêntico ao `NUMERO` do topo do arquivo e **sem os compostos** — o mesmo defeito que a v0.132 consertou no outro leitor.* **Apareceu porque o `conferir-invocacoes.py` chegou a `31`: `"trinta e uma checagens"` era lida como `1`.** *Os dois viraram um.*
+>
+> **⚠ E os guardas do livro me pegaram três vezes:** *eu copiei o `+2` da cobertura e o `três rodadas` da janela para dentro do capítulo 60 — uma versão depois de escrever a checagem que proíbe isso no manual —, escrevi `capítulo 3` onde é o `4`, e um título que abria com `Quando`, que o `conferir-voz.py` lê como pergunta.*
 
 ***A v0.162 tirou do manual dois graus de cobertura que este sistema não tem, e as duas entradas que os citavam são PREÇADAS.*** **A Melhoria `Sem Cobertura` (`Leve`) dizia *"cobertura leve e meia cobertura"* e a Passiva `Afinidade` (Classe 3) dizia *"cobertura leve"*** — *e a escada daqui é `Parcial` · `Boa` · `Total`, na peça 19 §5.*
 
@@ -709,7 +725,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/conferir-xp.py` | a curva, o abismo que fecha, e se a regra ainda entrega o tempo que a Guilda pediu |
 | `03-mecanica/conferir-criacao.py` | **a instância, não a regra**: a ficha de exemplo da peça 8 contra as fórmulas, a proteção da aptidão gratuita, a Trilha na criação e se o catálogo citado existe |
 | `03-mecanica/conferir-ficha.py` | **o material contra a regra**: as 23 perícias, os 11 ofícios, os 5 Caminhos, as 15 Trilhas e as constantes do nível 2 que a ficha imprime, contra as peças donas |
-| `03-mecanica/conferir-invocacoes.py` | as **trinta** checagens da peça 15, sem um número guardado dentro dele — e a busca exaustiva das 21.502 montagens que gastam o orçamento cheio no nível 30 |
+| `03-mecanica/conferir-invocacoes.py` | as **trinta e uma** checagens da peça 15, sem um número guardado dentro dele — e a busca exaustiva das 21.502 montagens que gastam o orçamento cheio no nível 30 |
 | `03-mecanica/17-catalogo-de-entregas.md` | **o índice das 90 entradas** — 56 entregas de Trilha, 20 degraus de Caminho e as 14 Manhas —, com a regra de contagem e o ponteiro de onde o texto de cada uma mora |
 | `03-mecanica/conferir-catalogo.py` | as **catorze** checagens da peça 17, e **o primeiro validador que sai da pasta**: ele lê os três `DESENHO-*.md` da raiz |
 | `03-mecanica/18-progressao.md` | **a tabela de progressão** — o que se ganha em cada nível, do 1 ao 30, numa tabela só. Nove das dez colunas são cópia com dono declarado; a décima, o tamanho da lista de feitiços, nasce aqui |
@@ -1123,7 +1139,7 @@ Quatro peças, e a ordem é de **dependência**, não de tamanho. A ordem que el
 |---|---|---|---|
 | ~~1~~ | ~~**Legados** — a régua de magnitude, e ~5 por Origem~~ | **fechada na v0.39** (peça 13): régua, catálogo de **81 entradas** e o `conferir-legados.py` | — |
 | ~~2~~ | ~~**Equipamento** — armas, escudos, uniformes~~ | **fechada na v0.48** (peça 14): as 52 armas com orçamento fechado, proteção, escudo, treino e requisito de Força, mais o `conferir-equipamento.py` com doze checagens | — |
-| ~~3~~ | ~~**Invocações** — o sistema de criação~~ | **fechada na v0.58** (peça 15), com o `conferir-invocacoes.py` e trinta checagens | — |
+| ~~3~~ | ~~**Invocações** — o sistema de criação~~ | **fechada na v0.58** (peça 15), com o `conferir-invocacoes.py` e trinta e uma checagens | — |
 | 4 | **Caminho, Trilhas e subtrilhas** — a árvore de cada um | o resto | **2 e 3** |
 
 ### A fila foi reordenada na v0.50, e as duas peças novas ganharam posição
@@ -1132,7 +1148,7 @@ Quatro peças, e a ordem é de **dependência**, não de tamanho. A ordem que el
 
 | # | peça | por que aqui | move o contador? |
 |---|---|---|---|
-| ~~1~~ | ~~**Invocações**~~ | **fechada na v0.58** (peça 15), com o `conferir-invocacoes.py` e trinta checagens | rotas 6/9 → 6/9 · vagas 0 de 7 |
+| ~~1~~ | ~~**Invocações**~~ | **fechada na v0.58** (peça 15), com o `conferir-invocacoes.py` e trinta e uma checagens | rotas 6/9 → 6/9 · vagas 0 de 7 |
 | ~~2~~ | ~~**Ferramenta amaldiçoada**~~ | **fechada na v0.59** (peça 16): a máquina e o catálogo saíram na v0.55 e na v0.56, e o `conferir-ferramenta.py` tem **dezenove** checagens | **rotas 6/9 → 8/9** · vagas 3 de 7 |
 | 1 | **Trilhas** | fecha com as quinze de uma vez, e agora nada mais a trava | toca **100% das fichas** |
 | ~~2~~ | ~~**Objeto amaldiçoado**~~ | **fechada na v0.132** (peça 21), com o `conferir-objeto.py` e doze checagens | rotas 8/9 → 8/9 · **fechou a vaga de `Desliga` do Reencarnado** |
@@ -1155,9 +1171,9 @@ Quatro peças, e a ordem é de **dependência**, não de tamanho. A ordem que el
 - **Ferramenta antes de Técnica Marcial** está escrito na peça 5 §3: a Maki *"só compete porque a ferramenta amaldiçoada carrega a energia por ela"*. Técnica Marcial escrita antes produz rota que não fere maldição.
 - **Objeto amaldiçoado por último**, e é o contrário do que a v0.49 fazia parecer. Ele foi o achado daquela versão, mas **Receptáculo e Reencarnado já rodam hoje** — os dois vão para o Fundamento. Ele fecha **1 vaga de Desliga e mais nada.** *Buraco de vocabulário real não é o mesmo que buraco que trava alguém.*
 
-**Invocações fechou na v0.58 e é a peça 15**, em `03-mecanica/15-invocacoes.md`, com o `conferir-invocacoes.py` em cima dela. O §5 daquela peça é a especificação das trinta checagens, e ele foi escrito **antes** do validador — que é por que ele coube numa versão só, contra as seis que a peça 14 gastou.
+**Invocações fechou na v0.58 e é a peça 15**, em `03-mecanica/15-invocacoes.md`, com o `conferir-invocacoes.py` em cima dela. O §5 daquela peça é a especificação das trinta e uma checagens, e ele foi escrito **antes** do validador — que é por que ele coube numa versão só, contra as seis que a peça 14 gastou.
 
-> **A peça fechou na v0.58, e o argumento inteiro mora nela — não aqui.** A Q1 (iniciativa) no §3.1, a Q2 (cinco fichas ou uma) no §3.2, a Q3 (a ficha) no §3.3 e no §3.6, a Q4 (o custo) no §3.4, a Q5 (a morte e o retorno) no §3.5, o catálogo e a régua de criação no §3.7, e a especificação das trinta checagens no §5. *Este ponteiro existe para quem retomar não recomeçar: as decisões têm um dono só, e é lá.*
+> **A peça fechou na v0.58, e o argumento inteiro mora nela — não aqui.** A Q1 (iniciativa) no §3.1, a Q2 (cinco fichas ou uma) no §3.2, a Q3 (a ficha) no §3.3 e no §3.6, a Q4 (o custo) no §3.4, a Q5 (a morte e o retorno) no §3.5, o catálogo e a régua de criação no §3.7, e a especificação das trinta e uma checagens no §5. *Este ponteiro existe para quem retomar não recomeçar: as decisões têm um dono só, e é lá.*
 >
 > **A máquina, em seis linhas:** a invocação age **na casa do dono**; a Matilha é **uma ficha com cinco corpos**, pool com cascata, rodada resolvida **em pool**; a ficha é **derivada do dono mais um deslocamento que só desce**, com `Traço` e `Comando` comprados num orçamento de **2 a 9** pontos; invocar custa **`1 × maior Classe` e a ação padrão**, e **comandar custa a ação padrão**; ela **some no zero**, é **vulnerável a área** e **morre em definitivo** se o excedente passar de metade da vida máxima ou um golpe causar a vida máxima inteira — e quem só chegou a zero volta com **metade da vida**; e **a amarra são 18 metros**, lidos do alcance base de Projétil.
 >
@@ -1165,7 +1181,7 @@ Quatro peças, e a ordem é de **dependência**, não de tamanho. A ordem que el
 >
 > **A vida não entra por dominância, e por isso ela tem checagem própria.** Só o orçamento já zera a matriz; tirar o `5h` sairia **verde** e desfaria em silêncio a metade da pergunta que a matriz não mede — a de *"perder o corpo acaba o kit"*. *É a lição nº 8 por outra porta: uma checagem que se mede pelo eixo errado sai verde na perturbação que importa.*
 >
-> **O que a peça ainda deixa pendurado são duas regras, e as duas apareceram na v0.67 por tropeço:** **quando a vida cheia da invocação reinvocada volta** — o candidato natural é o descanso longo, e é sabor — e **o que acontece com a invocação quando o DONO cai**, que a peça nunca escreveu. *Enquanto as duas não fecharem, nenhuma entrega de Trilha que mexa nelas tem contra o que ser medida.*
+> ~~**O que a peça ainda deixa pendurado são duas regras, e as duas apareceram na v0.67 por tropeço.**~~ ***AS DUAS FECHARAM na v0.163***, e nenhuma era a decisão que parecia ser: **a vida cheia volta no descanso longo, DERIVADO da peça 10 §3** — respiro não devolve vida —, e **a queda do dono estava respondida em três quartos**, com o `Insistir` caindo da regra e a invocação agir sozinha caindo da conta. *Com elas, as entregas de Trilha do Evocador voltam a ter contra o que ser medidas.*
 >
 > **E a v0.68 achou que a escala da v0.67 não tinha chegado inteira.** A venda de deslocamento ficou devolvendo `1` enquanto catálogo e orçamento iam para `×4`, **e a tabela do orçamento do `Servo` estava com o cabeçalho numa escala e as colunas na outra.** Ao todo foram seis linhas. **A devolução virou `4`**, a tabela do `Servo` passou a ser derivada, e as checagens 8, 9 e 10 ganharam a metade que faltava — o tamanho da devolução, o resumo do topo contra a tabela dona, a tabela do `Servo` contra os marcos, e a razão entre as duas moedas recalculada em vez de aceita.
 >
