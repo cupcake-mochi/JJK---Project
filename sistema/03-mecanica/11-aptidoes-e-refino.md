@@ -7,7 +7,7 @@ O `arquitetura.md` chama esta camada de *"o risco maior da estrutura inteira"*, 
 
 Esta peça existe para dar teto a essa economia. Validador: `conferir-aptidoes.py`.
 
-> **Quatro entradas do catálogo ainda não estão aqui**, e a seção 7 explica por quê. As quatro anti-domínio saíram na v0.29, depois que a Expansão de Domínio ganhou regra no manual v7.7 — antes disso, precificá-las seria mirar num alvo que não existia.
+> **Quatro entradas do catálogo ainda não estão aqui**, e a seção 7 explica por quê. **Elas saíram na v0.29**, depois que a Expansão de Domínio ganhou regra no manual v7.7 — antes disso, precificá-las seria mirar num alvo que não existia. *Eram as "quatro anti-domínio" até a v0.165, quando a `Extensão de Domínio` saiu da categoria: as entradas continuam quatro, e a categoria passou a ser três.*
 
 ---
 
@@ -408,13 +408,20 @@ E "mais fácil depois do primeiro" sem teto é a espiral da exaustão com o sina
 
 **O refino não escala esta aptidão, e o teto é a `maior Classe`.** *Pôr refino no tamanho da cura a faria derivar contra a vida do inimigo, que é o que a seção 2 proíbe.* A Classe já cresce com o nível, já é o eixo certo, e já é a variável que o manual usa para tudo que escala com tamanho de feitiço.
 
-## 6.5. As quatro anti-domínio
+## 6.5. As três anti-domínio, e a `Extensão de Domínio` ao lado delas
 
-*Escritas na v0.29, depois que a Expansão ganhou regra no manual v7.7.*
+*Escritas na v0.29, depois que a Expansão ganhou regra no manual v7.7.* **Eram quatro até a v0.165.**
+
+> ***A `Extensão de Domínio` saiu da categoria, e o motivo é de leitura e não de número.*** *Levantado por um colega do Mizuki:* **ela não É uma anti-domínio — ela SERVE como uma.** *As três abaixo existem para uma coisa só: anular o Acerto garantido. A `Extensão de Domínio` é uma camada de domínio próprio que faz várias coisas, e anular o Acerto é uma delas.*
+>
+> **Nada de mecânico se moveu com isso, e é por isso que a troca é barata:** *ela continua anulando o Acerto de uma Expansão completa, continua sendo Classe Passiva 3 com gate de refino 7 e nível 13, e continua custando `1,5 × maior Classe` de PE por rodada.* **O que muda é a etiqueta e a contagem.**
+>
+> ***E a etiqueta importa por um motivo que a §7 já escrevia:*** *"os anti-domínio serem aptidões baratas é o que torna o acerto garantido sobrevivível".* **A `Extensão de Domínio` nunca foi a barata** — ela é a única Classe Passiva 3 das quatro, e a resposta que chega cedo é a `Cesta Oca de Vime`, de Classe Passiva 1 e sem gate. *Contá-la junto inflava a lista com a entrada que menos responde à pergunta que a lista existe para responder.*
 
 ### A regra que vale para as quatro, e que precisa estar escrita
 
 > **Elas anulam o Acerto de uma Expansão. Nenhuma delas serve contra a Expansão incompleta.**
+> *Vale igual para a `Extensão de Domínio`, que anula o mesmo Acerto sem ser da categoria.*
 
 Não é escolha nossa: é como a obra funciona, e tem cena provando. O Reggie ativou Cesta Oca de Vime dentro do Jardim de Sombras Quimérico do Megumi — que é incompleto — e não adiantou nada. Os shikigami tomaram forma e bateram nele como qualquer coisa bate em qualquer um.
 
@@ -423,6 +430,8 @@ Não é escolha nossa: é como a obra funciona, e tem cena provando. O Reggie at
 E é por isso que o terceiro espaço da Expansão compra alguma coisa de verdade: ele troca um Acerto que dá para bloquear com Defesa por um que só estas quatro alcançam.
 
 ### O que cada uma custa por fora, e por que elas são diferentes
+
+*As quatro linhas ficam juntas nas duas tabelas abaixo porque é assim que se compara — a `Extensão de Domínio` está marcada.*
 
 O eixo que separa as quatro não é força — é **quanta liberdade você tem enquanto está protegido**. Os quatro preços vêm da obra:
 
@@ -441,6 +450,8 @@ O eixo que separa as quatro não é força — é **quanta liberdade você tem e
 | **Domínio Simples** | 2 · refino 4, nível 7 | nv 10 · 10 · 14 | o raio: `1,5 m + refino ÷ 2` | `1 × maior Classe` |
 | **Pétala** | 2 · refino 4, nível 7 | nv 10 · 10 · 14 | quantos Acertos devolve: `refino ÷ 2` | `1 × maior Classe` |
 | **Extensão de Domínio** | 3 · refino 7, nível 13 | nv 14 · 18 · 26 | a duração: `refino` rodadas | `1,5 × maior Classe` |
+
+> ***A `Extensão de Domínio` está nas duas tabelas e NÃO é da categoria*** — *ela serve como uma, e fica aqui porque é assim que se compara.* **A linha dela não leva marca de propósito:** *o `conferir-ferramenta.py` lê o gate do grau mais alto desta tabela, e marca dentro da célula quebra o extrator dele.*
 
 **Todas custam um marco, como qualquer aptidão. Nenhuma custa espaço de feitiço.**
 
@@ -497,7 +508,20 @@ Sempre sobra um. Se ela devolvesse tudo, o terceiro espaço que a Expansão comp
 
 ### Extensão de Domínio · Classe Passiva 3, refino 7 e nível 13
 
-> **Você se envolve numa camada fina de domínio sem técnica dentro. Ela anula o Acerto de uma Expansão, anula qualquer técnica que encostar nela, e faz o seu ataque acertar independentemente da técnica do alvo. Dura `refino` rodadas, custa `1,5 × a sua maior Classe` de PE por rodada — e enquanto ela estiver de pé, você não usa a sua técnica.**
+> **Você se envolve numa camada fina de domínio sem técnica dentro. Ela anula o Acerto de uma Expansão, e faz o seu ataque acertar independentemente da técnica do alvo. Dura `refino` rodadas, custa `1,5 × a sua maior Classe` de PE por rodada — e enquanto ela estiver de pé, você não usa a sua técnica.**
+> **E o que encostar nela é anulado até `1/3 do refino + 1`:** *uma `Classe Passiva`, uma `Regra Própria` ou um feitiço de `Classe` até esse número. Acima dele, passa.*
+
+> ***A segunda linha era "anula qualquer técnica que encostar nela", sem teto, e ela caiu na v0.165.*** *Levantado por um colega do Mizuki, e a decisão é dele:* **"anular qualquer feitiço era bem negativo — anula Classe Passiva, regra e Classe, contanto que seja `1/3` do refino, mas não tudo."**
+>
+> **O número dele reconstrói de fórmula que já tem dono, e não foi ajustado:** *`1/3 do refino + 1` é literalmente a proteção de `cobrir-se` do §6 desta peça.* **No gate — refino `7` — ela para em `3`, e no refino `10` ela chega em `4`.**
+>
+> | o que encosta | a escala dele | o teto alcança |
+> |---|---|---|
+> | `Classe Passiva` | `1` a `3` | **tudo**, já no gate |
+> | `Regra Própria` | `1` a `3` | **tudo**, já no gate |
+> | feitiço de `Classe` | `0` a `7` | `3` no gate, `4` no teto de refino — **metade da escada** |
+>
+> ***O "mas não tudo" tem dono, e é o feitiço:*** *as duas coisas de escala `1`–`3` sempre couberam inteiras, e nunca foi delas que a frase falava.* **O invariante que fica escrito: o teto NUNCA alcança a maior Classe.** *Com refino `10` ele para em `4` contra uma escada que vai a `7`.*
 
 É a única das quatro que também é ataque, e a única Classe Passiva 3. É o que o Jogo e o Hanami usaram contra o Ilimitado do Gojo.
 
@@ -684,6 +708,11 @@ As outras duas quebram nas pontas: com `2 ×` você se defende uma vez e acabou 
 **A primeira gratuita é `cobrir-se`, portada sem inventar número.** *A fórmula já existe, peça 11 §6: `1/3 do refino + 1`. Aqui o divisor é o mesmo e o que muda é só o nome do recurso:*
 
 > **`1/3 da Lapidação + 1`, grátis na Lapidação `1`.** *Mesma curva de `1` a `4`, mesmas regras de interação — Traje e Revestimento desligam, escudo soma.*
+> **E como Reação, Redução de Dano de `1,5 × Lapidação` num golpe, por `2` PE** — e você fica sem proteção até o fim do seu próximo turno.
+
+> ***A Reação ficou de fora até a v0.165, e a pergunta era de regra e não de sabor.*** *A `cobrir-se` do feiticeiro tem duas metades — a proteção passiva e a Reação —, e a v0.118 portou só a primeira sem dizer nada da segunda.* **Decisão do Mizuki: ela vem junto.**
+
+> **Ela não inventa número nenhum:** *é a mesma substituição da linha de cima, refino por Lapidação, com o mesmo `1,5 ×` e o mesmo custo de `2` PE.* **E a rota tem com o que pagar desde a v0.120**, quando `PE` passou a ler `Pontos de Esforço` além de `Pontos de Energia` — *era esse o lado que estava fechado quando a v0.118 escreveu a Bênção.*
 
 **Isso não move o teto de Defesa da peça 14 §3.** *O teto é derivado de `10 + teto de atributo + cobrir(teto de refino)`, e esta Bênção usa a MESMA função com a MESMA faixa `1`–`10` — ela não é um recurso novo, é o recurso de sempre com outro nome.* **A rota deixa de ter proteção zero e passa a ter a curva que todo mundo já tem**, o que fecha o buraco que a peça 14 §9 registrava desde a v0.48 (*"sem energia nenhuma... não tem cobrir-se para desligar"*) — aquela frase estava certa e vira falsa aqui.
 

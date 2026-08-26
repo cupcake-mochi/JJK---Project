@@ -141,7 +141,7 @@ Ele anula o excedente e deixa o aliado com `1` de vida. **O que ele compra não 
 
 ---
 
-## Emanador — mais feitiço, mais aptidão
+## Emanador — mais feitiço, e o que ele custa
 
 *A troca do fixo do acerto por atributo **saiu daqui e vai para uma Trilha**, por decisão sua. O Caminho passa a ser uma progressão de três perguntas: **como você lança · o que você tem · quanto custa.***
 

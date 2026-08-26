@@ -81,7 +81,7 @@ Que lugar você ocupa numa equipe. Um Caminho por personagem, escolhido agora e 
 | **Bastião** | o corpo como resposta: aguentar, encarar, prender | Força, Constituição |
 | **Vanguarda** | a arma como resposta: alcançar, cortar, acabar | Destreza, Força |
 | **Guia** | o outro como resposta: estender, recuperar, reposicionar | Essência |
-| **Emanador** | a técnica como resposta: mais feitiço, mais aptidão | Inteligência, Essência |
+| **Emanador** | a técnica como resposta: mais feitiço, e mais barato | Inteligência, Essência |
 | **Evocador** | o que você trouxe como resposta: invocações | Inteligência, Essência |
 
 O Caminho mexe em posicionamento, alvo, duração e recuperação. Ele nunca mexe em dados de dano, Classe de feitiço, Melhoria de graça ou cura.

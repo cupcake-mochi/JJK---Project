@@ -461,7 +461,7 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 13, 
 
 ## Emanador
 
-*A técnica é a resposta: mais feitiço, mais aptidão.*
+*A técnica é a resposta: mais feitiço, e um jeito mais barato de pagar por ele.*
 
 ### Características do Emanador
 

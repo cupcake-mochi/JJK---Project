@@ -1735,6 +1735,90 @@ else:
                       f'({_apt} aptidoes,')
                 print('      refino ' + str(_ref) + ') sao a MESMA rota — um nome, uma leitura.')
 
+# ==========================================================================
+# 12. O TETO DO QUE A `Extensao de Dominio` ANULA — v0.165
+#
+# A linha era "anula qualquer tecnica que encostar nela", sem teto. Decisao do
+# Mizuki, levantada por um colega dele: ela passa a anular Classe Passiva, Regra
+# Propria e feitico de Classe ate `1/3 do refino + 1` — "mas nao tudo".
+#
+# NENHUM VALOR MORA AQUI. A formula sai da secao da propria aptidao, o gate sai
+# do titulo dela, o teto de refino e o mesmo que a peca 2 fixa, e a maior Classe
+# sai da tabela importada do manual. O que se confere e a RELACAO que a frase
+# "mas nao tudo" afirma: o teto nunca alcanca a maior Classe.
+#
+# E ela confere os dois lados: se o teto passar a alcancar tudo, o "mas nao
+# tudo" virou mentira; se ele parar de crescer com refino, a aptidao deixou de
+# usar a metrica das aptidoes, que e o que a §2 desta peca proibe.
+print()
+print('=' * 90)
+print('12. O TETO DO QUE A `Extensao de Dominio` ANULA')
+print('=' * 90)
+
+_sec_ext = ''
+if '### Extensão de Domínio' in _t11:
+    _sec_ext = _t11.split('### Extensão de Domínio')[1].split('\n### ')[0]
+
+# A formula sai da LINHA DE REGRA e nao da secao: a secao tem prosa que cita a
+# mesma formula para explicar de onde ela vem, e ler a secao inteira faz apagar
+# a REGRA sair verde por causa do COMENTARIO. Achado no arnes, e e a mesma
+# familia do recorte de linha de regra que a v0.151 consertou no conferir-atributos.
+_m_regra = re.search(r'^>\s*\*\*E o que encostar nela .*$', _sec_ext, re.M)
+_linha_regra = _m_regra.group(0) if _m_regra else ''
+_m_cap = re.search(r'`1/(\d+)\s+do refino\s*\+\s*(\d+)`', _linha_regra)
+_m_gate = re.search(r'refino\s+(\d+)\s+e n[ií]vel\s+\d+', _sec_ext)
+
+if not _sec_ext:
+    erro('nao achei a secao da `Extensao de Dominio` na peca 11 — a checagem 12 '
+         'passaria a conferir o vazio em vez de acusar')
+elif not _m_cap:
+    erro('a `Extensao de Dominio` nao declara mais o teto do que ela anula — sem '
+         'ele a linha volta a ser "anula qualquer coisa", que foi o que a v0.165 '
+         'saiu para tirar')
+elif not _m_gate:
+    erro('nao consegui ler o gate de refino da `Extensao de Dominio` no titulo dela')
+else:
+    _div, _mais = int(_m_cap.group(1)), int(_m_cap.group(2))
+    _gate = int(_m_gate.group(1))
+    _cap = lambda r: r // _div + _mais
+    _maior_classe = max(CLASSE_NO_NIVEL.values())
+    print(f'  teto declarado: 1/{_div} do refino + {_mais}')
+    print(f'  no gate (refino {_gate}) ele para em {_cap(_gate)}; '
+          f'no teto de refino ({TETO_REFINO}) ele chega em {_cap(TETO_REFINO)}')
+    print(f'  a maior Classe do sistema e {_maior_classe}')
+
+    # 12.1 — o "mas nao tudo": o teto NUNCA alcanca a maior Classe
+    if _cap(TETO_REFINO) >= _maior_classe:
+        erro(f'no refino {TETO_REFINO} a `Extensao de Dominio` anula ate Classe '
+             f'{_cap(TETO_REFINO)}, e a maior Classe e {_maior_classe} — o teto '
+             'alcancou tudo, e a linha voltou a ser "anula qualquer coisa" com '
+             'uma formula na frente')
+    else:
+        print(f'  [x] 12.1 o teto para em {_cap(TETO_REFINO)} de {_maior_classe}: '
+              'ha Classe que passa por ela em todo refino.')
+
+    # 12.2 — ela tem de CRESCER com refino, senao nao e metrica de aptidao (§2)
+    if _cap(TETO_REFINO) <= _cap(_gate):
+        erro(f'o teto da `Extensao de Dominio` vale {_cap(_gate)} no gate e '
+             f'{_cap(TETO_REFINO)} no teto de refino — ele nao cresce, e a §2 '
+             'desta peca diz que o refino e a metrica das aptidoes')
+    else:
+        print(f'  [x] 12.2 o teto cresce de {_cap(_gate)} para {_cap(TETO_REFINO)} '
+              'com o refino, que e a metrica das aptidoes.')
+
+    # 12.3 — GUARDA: sem ela, apagar a frase do "mas nao tudo" sairia verde.
+    # A afirmacao e do texto, e a checagem cobra que ela continue escrita.
+    # A afirmacao mora na PROSA da §6.5 e nao numa celula: marca dentro da celula
+    # quebra o extrator de gate do conferir-ferramenta.py, medido no arnes.
+    if not re.search('n[ãa]o [ÉE] uma anti-dom[íi]nio', _t11):
+        erro('a `Extensao de Dominio` voltou a ser contada como anti-dominio na '
+             'peca 11 — ela serve como uma e nao e uma, e a §6.5 tem de dizer isso')
+    elif not re.search('nunca alcan.a a maior Classe', _t11, re.I):
+        erro('a peca 11 nao escreve mais o invariante do teto — a checagem 12 '
+             'conferiria um numero que o documento nao afirma mais')
+    else:
+        print('  [x] 12.3 a peca declara o invariante e diz que ela nao e da categoria.')
+
 # --------------------------------------------------------------------------
 print()
 print('=' * 90)

@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 26/08/2026, na v0.164 (última peça fechada: **Dano de alma e Integridade**, a peça 24, na v0.145, com o `conferir-alma.py` e doze checagens; antes dela, **Bloquear, na v0.143**; antes dela, o **Objeto amaldiçoado, na v0.132**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 26/08/2026, na v0.165 (última peça fechada: **Dano de alma e Integridade**, a peça 24, na v0.145, com o `conferir-alma.py` e doze checagens; antes dela, **Bloquear, na v0.143**; antes dela, o **Objeto amaldiçoado, na v0.132**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.164.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e quatro peças escritas** e **vinte e quatro validadores**.
+**Versão v0.165.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e quatro peças escritas** e **vinte e quatro validadores**.
 
 ***A v0.164 fechou as doze entregas do Evocador, e com elas as quinze Trilhas.*** *`Servo`, `Matilha` e `Coro` estavam paradas desde a v0.82 — trinta e duas versões — e o que travava não era o que o cabeçalho de parada dizia.*
 
@@ -318,7 +318,9 @@ Atualizado em 26/08/2026, na v0.164 (última peça fechada: **Dano de alma e Int
 >
 > **⚠ E três perturbações saíram VERDES na primeira rodada, pelo mesmo defeito: elas eram menores do que o conjunto que a checagem mede.** *Trocar uma ocorrência de `Lapidação` num livro que tem `43`; renomear um capítulo quando o piso conta `69` referências.* **É a família do achado da v0.122 — `diff` que pergunta "mudou?" em vez de "a minha mudança entrou?".**
 
-> **⚠ Fica uma pergunta aberta na peça 11, e ela é de regra e não de sabor: a `cobrir-se` portada das Bênçãos não herda a Reação.** *A do feiticeiro tem duas metades — proteção passiva, e a Reação de `1,5 × refino` de Redução de Dano por `2` PE. A §6.8 porta só a primeira, e não diz nada da segunda.* **O livro foi escrito fiel à fonte; inventar a Reação lá seria pôr no livro um número que peça nenhuma é dona.** *A rota tem `PE` para gastar desde a v0.120, então a porta está aberta pelo lado da economia.*
+> ~~**⚠ Fica uma pergunta aberta na peça 11: a `cobrir-se` portada das Bênçãos não herda a Reação.**~~ ***FECHADA na v0.165: ela herda.*** *Decisão do Mizuki, e ela não inventa número — é a mesma substituição da proteção, refino por Lapidação, com o mesmo `1,5 ×` e o mesmo custo de `2` PE.* **O que segurava a pergunta era o lado da economia, e ele abriu na v0.120**, quando `PE` passou a ler `Pontos de Esforço`. *O texto de antes fica abaixo:*
+>
+> **A pergunta era de regra e não de sabor: a `cobrir-se` portada das Bênçãos não herdava a Reação.** *A do feiticeiro tem duas metades — proteção passiva, e a Reação de `1,5 × refino` de Redução de Dano por `2` PE. A §6.8 porta só a primeira, e não diz nada da segunda.* **O livro foi escrito fiel à fonte; inventar a Reação lá seria pôr no livro um número que peça nenhuma é dona.** *A rota tem `PE` para gastar desde a v0.120, então a porta está aberta pelo lado da economia.*
 
 ***A TÉCNICA MARCIAL FECHOU na v0.122, e é a peça 20.*** **As rotas de Origem foram de `6/9` para `8/9`** — Corpo Amaldiçoado e Restrição Celestial pelo ramo sem energia. *A nona é `Sem Técnica`, e **decisão do Mizuki: ela tem criação própria e vem depois**.*
 
@@ -739,7 +741,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/conferir-equipamento.py` | o fundo de cada arma, a dominância **uma vez por rota de proteção — e são três**, e o teto de Defesa derivado dos três donos |
 | `03-mecanica/conferir-nomes.py` | o vocabulário do manual, extraído do `.docx`, contra todo nome que o projeto batizou |
 | `03-mecanica/conferir-manual.py` | a direção contrária: o manual contra o vocabulário e os números do projeto |
-| `03-mecanica/conferir-aptidoes.py` | as **onze** checagens da peça 11: a trava do refino, as três rotas do marco, o teto de Passivas, o kokusen, o **dano na arma** e as **contagens de aptidão**. *A 10 entrou na v0.158 e lê a exceção do teto como **relação** — em que refino ela dispara, quais faces, e se ela acrescenta um dado —, para que reverter o valor de forma coerente saia verde. A 11 é da v0.161: ela reconstrói quantas aptidões cada rota leva e compara com os **nove** lugares que publicam o número, e amarra as **três** cópias do `meio a meio`* |
+| `03-mecanica/conferir-aptidoes.py` | as **doze** checagens da peça 11: a trava do refino, as três rotas do marco, o teto de Passivas, o kokusen, o **dano na arma** e as **contagens de aptidão**. *A 10 entrou na v0.158 e lê a exceção do teto como **relação** — em que refino ela dispara, quais faces, e se ela acrescenta um dado —, para que reverter o valor de forma coerente saia verde. A 11 é da v0.161: ela reconstrói quantas aptidões cada rota leva e compara com os **nove** lugares que publicam o número, e amarra as **três** cópias do `meio a meio`* |
 | `03-mecanica/conferir-expansao.py` | os dois gates da Expansão, a ordem entre os degraus, o preço em espaços e a fragilidade da curva |
 | `03-mecanica/conferir-orcamento.py` | o somatório: todos os drenos de PE ao mesmo tempo, e se todo preço tem número |
 | `03-mecanica/conferir-xp.py` | a curva, o abismo que fecha, e se a regra ainda entrega o tempo que a Guilda pediu |
@@ -926,7 +928,9 @@ O d10 fica grande de propósito: a ameaça é calibrada contra o nível do grupo
 | Mahito | ninguém desvia do toque | alcança todos no ambiente |
 | Dagon | os shikigami acertam | amplifica a técnica |
 
-**E isso fecha um laço que ninguém tinha visto:** se a expansão completa sempre acerta, os **quatro anti-domínio serem aptidões baratas é o que a torna sobrevivível**. Se fossem raros, o acerto garantido seria opressivo. A decisão de pôr os quatro no catálogo por marco foi tomada antes de a expansão ter forma, e é a peça que faz as duas funcionarem juntas.
+**E isso fecha um laço que ninguém tinha visto:** se a expansão completa sempre acerta, os **anti-domínio serem aptidões baratas é o que a torna sobrevivível**. Se fossem raros, o acerto garantido seria opressivo. A decisão de pôr todos no catálogo por marco foi tomada antes de a expansão ter forma, e é a peça que faz as duas funcionarem juntas.
+
+> **⚠ São TRÊS desde a v0.165, e o argumento acima ficou mais forte e não mais fraco.** *A `Extensão de Domínio` saiu da categoria — ela não é uma anti-domínio, ela serve como uma — e era justamente a única Classe Passiva 3 das quatro.* **A resposta barata que sustenta este laço é a `Cesta Oca de Vime`, de Classe Passiva 1 e sem gate, e ela não se moveu.**
 
 **As Bênçãos de Corpo, para quem não tem energia.** A Restrição Celestial pelo ramo da Maki não tem energia amaldiçoada — sem PE, sem feitiço de Toque, sem Sentir Energia — então não tem aptidão nem refino. Ela ganha **a mesma máquina com outra métrica**: as aptidões se chamam **Bênçãos** e o refino se chama **Lapidação**.
 
@@ -963,7 +967,7 @@ Isso é a camada de aptidão da **Técnica Marcial**, que o material já descrev
 
 **1 · As Bênçãos — não espelham, e não é escolha.** *A pergunta era se o catálogo das Bênçãos copia o das aptidões entrada por entrada ou tem lista própria.* **Das catorze aptidões, treze são construídas em cima da energia amaldiçoada e a décima quarta é formato e não conteúdo** — só a `Aptidão Própria` atravessa. *A contagem está na **peça 11 §6.8**, com o kokusen e a `Pétala` conferidos na fonte.* **Lista própria, doze entradas, todas custando um marco**, e o tamanho é derivado: a rota pura de Lapidação precisa de dez, igual à de Refino.
 
-> **E metade do buraco já estava tapada, em duas peças que ninguém tinha somado.** *`canalizar energia` — ferir maldição — é a **ferramenta amaldiçoada** da peça 16; `cobrir-se de energia` é o **uniforme** da peça 14, que já roda a dominância por uma rota chamada literalmente `sem energia nenhuma`; e as quatro anti-domínio são o `Anátema` e o `Quebranto`, também da peça 16.* **Três peças responderam pedaços desta pergunta em versões diferentes sem saber.**
+> **E metade do buraco já estava tapada, em duas peças que ninguém tinha somado.** *`canalizar energia` — ferir maldição — é a **ferramenta amaldiçoada** da peça 16; `cobrir-se de energia` é o **uniforme** da peça 14, que já roda a dominância por uma rota chamada literalmente `sem energia nenhuma`; e as anti-domínio são o `Anátema` e o `Quebranto`, também da peça 16.* **Três peças responderam pedaços desta pergunta em versões diferentes sem saber.**
 
 > **⚠ E a decisão da v0.38 nunca tinha sido aplicada.** *Este documento dizia "aplicado na peça 9 na v0.39"; o que a v0.39 aplicou foi a outra metade, a do Corpo Amaldiçoado.* **As palavras `Bênção` e `Lapidação` não existiam em peça nenhuma.** *Agora existem, na peça 9 §5, com a escada de Lapidação `1` a `10` e os degraus herdados da peça 11 §5.*
 

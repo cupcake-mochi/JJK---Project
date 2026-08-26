@@ -219,7 +219,7 @@ O `+2` acumulado é a memória do personagem. Quem passou a noite inteira quase 
 | 5 | 10% | 19,0% | 15,0% | 27,8% |
 | 10 | 20% | **36,0%** | 30,0% | **51,0%** |
 
-## Aptidões anti-domínio
+## Aptidões anti-domínio, e a `Extensão de Domínio`
 
 Uma Expansão de Domínio completa não erra. O Acerto dela simplesmente acontece com quem está lá dentro, sem rolagem e sem Teste de Resistência, e nenhuma defesa da ficha encosta nele.
 
@@ -235,7 +235,7 @@ Uma Expansão de Domínio completa não erra. O Acerto dela simplesmente acontec
 | **Cesta Oca de Vime** | só você, dentro de uma esfera | você segura o símbolo e não faz mais nada | nenhum |
 | **Domínio Simples** | um raio em volta de você | os pés não saem do chão | `1 × maior Classe` |
 | **Pétala** | o seu corpo, e devolve o golpe | concentração, e não vale contra ataque físico | `1 × maior Classe` |
-| **Extensão de Domínio** | o seu corpo, e faz o seu ataque acertar | nenhum feitiço enquanto ela estiver de pé | `1,5 × maior Classe` |
+| **Extensão de Domínio** *(não é anti-domínio: ela serve como uma)* | o seu corpo, e faz o seu ataque acertar | nenhum feitiço enquanto ela estiver de pé | `1,5 × maior Classe` |
 
 ### Cesta Oca de Vime
 
@@ -284,7 +284,10 @@ O raio nunca passa de um movimento:
 
 ### Extensão de Domínio
 
-> **Extensão de Domínio** — você se envolve numa camada fina de domínio sem técnica dentro. Ela anula o Acerto de uma Expansão, anula qualquer técnica que encostar nela, e faz o seu ataque acertar independentemente da técnica do alvo. Dura `refino` rodadas e custa `1,5 × a sua maior Classe` de PE por rodada. Enquanto ela estiver de pé, você não usa a sua técnica.
+> **Extensão de Domínio** — você se envolve numa camada fina de domínio sem técnica dentro. Ela anula o Acerto de uma Expansão, e faz o seu ataque acertar independentemente da técnica do alvo. Dura `refino` rodadas e custa `1,5 × a sua maior Classe` de PE por rodada. Enquanto ela estiver de pé, você não usa a sua técnica.
+> **E o que encostar nela é anulado até `1/3 do refino + 1`:** uma Classe Passiva, uma Regra Própria, ou um feitiço de Classe até esse número. Acima dele, passa.
+
+*Ela não é uma aptidão anti-domínio — ela serve como uma. As três de cima existem só para anular o Acerto garantido; esta é uma camada de domínio seu, e anular o Acerto é uma das coisas que ela faz.*
 >
 > Requisito: refino 7 e nível 13. Classe Passiva 3. O refino escala a duração.
 
@@ -396,4 +399,4 @@ As Passivas pedem nível: Classe Passiva 1 no nível 1, Classe Passiva 2 no 7, C
 
 ## Expansão de Domínio
 
-A regra da Expansão está no capítulo 9, *Fundamento*, e é lá que ela é montada e paga. Ela gasta espaço de feitiço, como Passiva, e o Acerto dela é o que as quatro aptidões anti-domínio anulam, contanto que a Expansão seja a completa.
+A regra da Expansão está no capítulo 9, *Fundamento*, e é lá que ela é montada e paga. Ela gasta espaço de feitiço, como Passiva, e o Acerto dela é o que as três aptidões anti-domínio anulam — mais a `Extensão de Domínio`, que não é da categoria e anula o mesmo —, contanto que a Expansão seja a completa.

@@ -1,4 +1,4 @@
-# Retomada — v0.163, e o que sobrou é o Bestiário, playtest e dois rascunhos
+# Retomada — v0.165, e a tarefa é a criação de `Sem Técnica`
 
 Pasta: `/media/mizuki/HD Externo II/Claude/Claude 2/`
 ⚠ Trabalhe na pasta PRINCIPAL, não em worktree. **Você não commita** — deixa a mensagem em
@@ -7,17 +7,115 @@ Pasta: `/media/mizuki/HD Externo II/Claude/Claude 2/`
 Leia primeiro, nesta ordem: `README.md` (a seção *"Nove lições que custaram erro"*),
 `sistema/ESTADO-ATUAL.md` **inteiro**, e o `logs/CHANGELOG.md` de cima até a v0.145.
 
-**Projeto na v0.163.** 24 peças · 24 validadores · **264 checagens**. Livro em 17 capítulos,
-**71.429 palavras**, **243** páginas em coluna única e **141** em duas. Manual do Fundamento na
-**v7.16**. `conferir-voz --estrito` em 0 achados, 0 termos sem destino, **10 triagens**, **6
-marcas de "isto ainda não existe" e 0 rótulos longos demais em 52 entradas de catálogo**.
+**Projeto na v0.165.** 24 peças · 24 validadores · **266 checagens**. Livro em 17 capítulos,
+**72.171 palavras**, **245** páginas em coluna única e **142** em duas. Manual do Fundamento na
+**v7.16**. `conferir-voz --estrito` em 0 achados, 0 termos sem destino, **4 marcas de "isto
+ainda não existe" e 0 rótulos longos demais em 52 entradas de catálogo**.
 
-> **A entrega está UMA versão atrás, que é o normal — a ordem não inverte.** *O último commit
-> de `finalizado/` é `recorte da v0.162`, e a checagem 7.4 aceita uma de distância.* **Rode o
-> `./subir.sh` normalmente e commite a entrega depois**, com `recorte da v0.163`.
+> ***A fila da mecânica ficou SEM ITEM na v0.164***, quando as quinze Trilhas fecharam. **O que
+> sobra são duas peças, e a de baixo é a que fecha uma rota de ficha:** o `Bestiário` e a
+> criação de `Sem Técnica`. *A segunda é a tarefa desta conversa.*
+
+---
+
+## A TAREFA — a máquina de criação de `Sem Técnica`
+
+**Ela é a NONA rota de Origem, e a única que não fecha ficha hoje.** *As outras oito rodam
+desde a v0.122.* **Decisão do Mizuki, daquela versão: ela tem criação própria e vem depois** —
+e "depois" chegou.
+
+**Leia, além da ordem acima:** a seção *"Sem Técnica precisa de máquina de criação própria, e
+ela é menor do que o esqueleto supôs"* do `ESTADO-ATUAL`, a **peça 9** (`09-origens.md`) e a
+**peça 20** (`20-tecnica-marcial.md`).
+
+### O que já está pronto, e é a razão de começar por aqui
+
+- **O `arquitetura.md` diz que ela precisa de "um sistema próprio, paralelo ao Fundamento".**
+  *A v0.38 mediu e discordou:* **pelo material ela precisa de MENOS do que isso, e por outro
+  motivo, de mais.**
+- **As duas rotas do material são `Aptidão` e `Estilo da Sombra`, e as duas já têm peça atrás.**
+  *As anti-domínio entraram na v0.29 — hoje são **três**, e a `Extensão de Domínio` está ao
+  lado delas sem ser da categoria, desde a v0.165.* **A `Energia Reversa` fechou na v0.78**, na
+  peça 11 §6, com gate e teto.
+- **A peça 11 §6.5 já trata o `Domínio Simples` como aptidão pura, sem lâmina.**
+- **A peça 22 §3.5 escreve um CONTRATO em vez de um número** para os estilos do `Estilo da
+  Sombra`, porque a peça deles não existe. *Ele é o que a sua peça precisa obedecer, no molde
+  do teto de Defesa da peça 14 §3.*
+
+### A trava que decide a peça, e ela já está escrita
+
+> *"A rota não pode ser 'os outros menos o Fundamento'. Se for só subtração, ela fica atrás de
+> todo mundo e ninguém escolhe por vontade — escolhe por castigo. Ela precisa de uma máquina de
+> construção com a mesma dignidade que o Fundamento tem: quantas aptidões, com que orçamento, e
+> o que se paga por elas."*
+
+**E o precedente mais próximo é a peça 20, a Técnica Marcial.** *Ela é o Fundamento com o corpo
+no lugar da energia, e **não tem número novo nenhum** — pontos são `3 × Classe`, o PE é o mesmo
+número, o que sobra de ponto vira `1d8`. O que muda é a criação.* **Vale medir se `Sem Técnica`
+cabe no mesmo molde antes de inventar máquina.**
+
+### Duas coisas presas nisto
+
+**A prosa da peça 9 chama o `Estilo da Sombra` de "técnica de espada e corpo"**, e isso ficou
+mais estreito que a própria mecânica do projeto — *a técnica central foi aprendida em um mês
+por quem não usa espada.* **Corrigir quando a peça sair.**
+
+**Quando ela entrar, as rotas de Origem vão de `8/9` para `9/9`**, e essa contagem é publicada
+no `README` e no `ESTADO-ATUAL`. *E uma das quatro marcas do livro fecha* — a do capítulo 25,
+`25-origens.md:408`, que diz *"Sem Técnica não fecha ficha hoje, e ela está sendo escrita"*.
+**O dono da contagem é o `REGRA-DE-VOZ.md`, e o `conferir-voz.py` falha nas duas direções**,
+então o número desce no mesmo commit.
+
+---
+
+## O que a v0.165 fechou
+
+**Cinco correções pequenas, e três vieram de colegas do Mizuki lendo o material.**
+
+- **A `cobrir-se` das Bênçãos herda a Reação** — pergunta aberta desde a v0.124, e ela não
+  inventa número: mesma substituição da proteção, refino por Lapidação.
+- **A `Extensão de Domínio` saiu da categoria anti-domínio.** *Ela não **é** uma; ela **serve**
+  como uma.* **Nada de mecânico se moveu**, e o argumento de que os anti-domínio serem baratos
+  é o que segura o acerto garantido ficou **mais forte** — ela era a única Classe Passiva 3 das
+  quatro.
+- **E o "anula qualquer técnica" dela ganhou teto:** `1/3 do refino + 1`, que é `3` no gate e
+  `4` no teto de refino, contra uma escada de Classe que vai a `7`. *O número reconstrói da
+  proteção de `cobrir-se`.* **Checagem 12 do `conferir-aptidoes.py`, sete perturbações.**
+- **O Emanador não mexe com aptidão**, e três lugares diziam que sim.
+- **O `README` publicava três rascunhos e são dois**, desde a v0.143.
+
+> **⚠⚠ E o arnês da v0.165 pegou dois defeitos antes do commit, os dois de método.** *A base
+> falhou na cópia isolada e a checagem nova nem rodou — **todas** as perturbações saíram
+> "verdes".* **Verde de checagem que não rodou não prova nada.** *E o conserto destampou o
+> segundo: o extrator lia a fórmula da **seção** inteira, e a seção tem prosa citando a mesma
+> fórmula para explicar de onde ela vem — apagar a **regra** e deixar o **comentário** saía
+> verde.* **Hoje ele lê a linha de regra**, e é a mesma família do recorte que a v0.151
+> consertou.
 >
-> *E desde a v0.160 ela mede o **conteúdo** do commit, não o rótulo* — **copiar a mensagem da
-> vez passada virou aviso, e não mais reprovação.**
+> **⚠ E marca dentro de célula de tabela quebra extrator de OUTRO validador.** *Um `— não é da
+> categoria` na célula fez o `conferir-ferramenta.py` parar de achar o gate na peça 11.*
+> **Marca vai embaixo da tabela.**
+
+## O que a v0.164 fechou
+
+**As doze entregas do Evocador, e com elas as quinze Trilhas.** *`Servo` `7,32` · `Matilha`
+`5,05` · `Coro` `7,67`, de `5,00`, com os três estouros declarados.*
+
+> **⚠⚠ O `Servo` que o rascunho publicava como "montado" estava numa escala morta há nove
+> versões**, e a `LISTA-gatilhos` já tinha achado isso na v0.77 sem que o achado voltasse para
+> o rascunho. **E o segundo defeito não era de escala:** *o `Servo` e a `Matilha` **comandam e
+> não atacam**, então as quatro maiores linhas da régua dependem de uma Ação Padrão que duas
+> das três Trilhas gastam na porta de entrada.*
+>
+> **A `Matilha` não lidera coluna nenhuma, e isso é declarado.** *Duas Trilhas monocromáticas
+> na mesma coluna sempre dominam uma à outra, e mexer no número só troca quem domina.* **A
+> checagem 15 do `conferir-catalogo.py` reconta a matriz das linhas de preço e cobra que a
+> declaração nomeie o eixo que resolve o par fora dela.**
+>
+> **E a triagem era cega para o catálogo de Bênçãos inteiro** — foi assim que `Casco` acabou
+> batizado duas vezes. *Consertado; o nome duplicado fica como achado.*
+
+---
 
 ---
 
@@ -129,6 +227,9 @@ fechou o vão do nível 7.
 ---
 
 ## A fila, e nenhuma trava a mesa
+
+> ***A posição das Trilhas saiu na v0.164***, e a de `Sem Técnica` virou a TAREFA desta
+> conversa — ela está lá em cima. **O que sobra abaixo é o resto da fila.**
 
 ### 1 · NENHUMA dívida de preço aberta
 

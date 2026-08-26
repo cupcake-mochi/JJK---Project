@@ -253,7 +253,7 @@ A troca é sempre desproporcional para os dois lados: você perde muito e ganha 
 
 **A `Liberação Máxima` e a `Técnica Máxima` ganharam substituto na peça 20 — `Ruptura` e `Ōgi`.** *A Expansão não ganhou, e não é renome: ela não existe aqui.*
 
-> *Por que as quatro anti-domínio da peça 11 §6.5 não entram no catálogo dela: as quatro existem para anular Acerto garantido, e ela já não é alcançada por ele.* **A peça 16 §6 ainda dá o `Anátema` e o `Quebranto` por outro caminho, para quem quiser.**
+> *Por que as anti-domínio da peça 11 §6.5 não entram no catálogo dela: elas existem para anular Acerto garantido, e ela já não é alcançada por ele.* **A peça 16 §6 ainda dá o `Anátema` e o `Quebranto` por outro caminho, para quem quiser.**
 
 ### O que o Caminho entrega a quem não tem PE: o contrato de moeda
 

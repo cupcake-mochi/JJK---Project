@@ -8,6 +8,66 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.165] — 26/08/2026
+
+**Cinco correções pequenas, e três delas vieram de colegas do Mizuki lendo o material.** *Nenhuma é de conta nova; quatro são de texto e uma tem número dentro.*
+
+### A `cobrir-se` das Bênçãos herda a Reação
+
+**A pergunta estava aberta desde a v0.124 e era de regra, não de sabor.** *A `cobrir-se` do feiticeiro tem duas metades — a proteção passiva e a Reação de `1,5 × refino` de Redução de Dano por `2` PE —, e a v0.118 portou só a primeira sem dizer nada da segunda.* ***Decisão do Mizuki: ela vem junto.***
+
+> **Ela não inventa número:** *é a mesma substituição da proteção, refino por Lapidação, com o mesmo `1,5 ×` e o mesmo custo de `2` PE.* **E a rota tem com o que pagar desde a v0.120**, quando `PE` passou a ler `Pontos de Esforço` além de `Pontos de Energia` — *era esse o lado que estava fechado quando a v0.118 escreveu a Bênção, e é por isso que a pergunta ficou de pé quarenta versões.*
+
+### A `Extensão de Domínio` sai da categoria anti-domínio, e o teto dela deixa de ser "tudo"
+
+***Levantado por um colega do Mizuki:*** *ela não **é** uma anti-domínio — ela **serve** como uma.* **As três que ficam existem para uma coisa só: anular o Acerto garantido.** *A `Extensão de Domínio` é uma camada de domínio próprio que faz várias coisas, e anular o Acerto é uma delas.*
+
+> **Nada de mecânico se moveu na troca de etiqueta**, e é por isso que ela é barata: mesma Classe Passiva 3, mesmo gate de refino `7` e nível `13`, mesmo `1,5 × maior Classe` de PE por rodada, e ela continua anulando o mesmo Acerto.
+>
+> ***E a etiqueta importa por um motivo que o `ESTADO-ATUAL` já escrevia:*** *"os anti-domínio serem aptidões baratas é o que torna o acerto garantido sobrevivível".* **A `Extensão de Domínio` nunca foi a barata** — é a única Classe Passiva 3 das quatro, e a resposta que chega cedo é a `Cesta Oca de Vime`, de Classe Passiva 1 e sem gate. *Contá-la junto inflava a lista com a entrada que menos responde à pergunta que a lista existe para responder.* **O argumento ficou mais forte, e não mais fraco.**
+
+***E a segunda metade tem número.*** *A linha era "anula qualquer técnica que encostar nela", sem teto.* **Decisão do Mizuki, com as palavras dele:** *"anular qualquer feitiço era bem negativo — anula Classe Passiva, regra e Classe, contanto que seja `1/3` do refino, mas não tudo."*
+
+> **O número dele reconstrói de fórmula que já tem dono, e não foi ajustado para fechar:** *`1/3 do refino + 1` é literalmente a proteção de `cobrir-se` do §6 daquela peça.* **No gate ele para em `3`, e no refino `10` chega em `4`.**
+>
+> | o que encosta | a escala dele | o teto alcança |
+> |---|---|---|
+> | `Classe Passiva` | `1` a `3` | **tudo**, já no gate |
+> | `Regra Própria` | `1` a `3` | **tudo**, já no gate |
+> | feitiço de `Classe` | `0` a `7` | `3` no gate, `4` no teto — **metade da escada** |
+>
+> ***O "mas não tudo" tem dono, e é o feitiço:*** *as duas coisas de escala `1`–`3` sempre couberam inteiras.* **O invariante que ficou escrito: o teto NUNCA alcança a maior Classe.**
+
+**Entrou a checagem 12 do `conferir-aptidoes.py`, e ela não guarda o `4`.** *A fórmula sai da linha de regra da própria aptidão, o gate sai do título dela, o teto de refino é o da peça 2, e a maior Classe sai da tabela importada do manual.* **O que ela confere é a relação que a frase afirma**, nos dois lados: se o teto alcançar tudo, o *"mas não tudo"* virou mentira; se ele parar de crescer com refino, a aptidão deixou de usar a métrica das aptidões.
+
+> **Sete perturbações: seis acendendo e o contra-teste verde.** *O contra-teste troca o divisor para `1/4` — outro número, mesmo invariante — e sai **verde**, que é a prova de que a checagem mede a relação e não a decisão.*
+>
+> **⚠⚠ E o arnês pegou DOIS defeitos meus antes do commit.** *O primeiro foi a base falhar na cópia isolada e a checagem 12 nem rodar — todas as perturbações saíram "verdes", e verde de checagem que não rodou não é prova de nada.* **O segundo é o que aquele conserto destampou: o extrator lia a fórmula da SEÇÃO inteira, e a seção tem prosa citando a mesma fórmula para explicar de onde ela vem.** *Apagar a regra e deixar o comentário saía verde.* **Hoje ele lê a LINHA DE REGRA** — mesma família do recorte que a v0.151 consertou no `conferir-atributos.py`.
+>
+> **⚠ E marcar a linha dela na tabela quebrou OUTRO validador.** *Pôr `— não é da categoria` dentro da célula fez o `conferir-ferramenta.py` parar de achar o gate de Classe Passiva 3 na peça 11, e os graus 1 e especial reprovaram.* **A marca desceu para baixo da tabela, e o motivo ficou escrito ao lado dela.**
+
+### O Emanador não mexe com aptidão, e três lugares diziam que sim
+
+***Levantado por um colega do Mizuki.*** *O Caminho dele é `Sangria`, `Resquício`/`Modelagem`, `Segunda Leitura` e `Fonte` — nenhum toca em aptidão.* **A linha *"mais feitiço, mais aptidão"* saiu do `DESENHO-caminhos.md` e de dois lugares do livro.** *O próprio subtítulo daquela seção já dizia o que ele é: como você lança · o que você tem · quanto custa.*
+
+### ⚠ E o README publicava três rascunhos quando são dois
+
+**O `RASCUNHO-bloqueio.md` saiu na v0.143**, quando o `Bloquear` virou a peça 23 — e o parágrafo continuou dizendo três por **vinte e uma versões**. *A checagem 9 do `conferir-repositorio.py` confere contagem de arquivo e não contagem escrita em frase, então nada alcançava.* **Mesma família do `catorze` que a v0.139 achou em treze lugares.**
+
+### Alterado
+
+- A `cobrir-se` das Bênçãos ganhou a Reação, na peça 11 §6.8.
+- A §6.5 da peça 11 virou *"as três anti-domínio, e a `Extensão de Domínio` ao lado delas"*, e as citações vivas do número desceram. *As históricas ficam: em v0.29 eram quatro mesmo.*
+- O livro foi de `72.070` para `72.171` palavras. **A paginação não se moveu** — `245` e `142`.
+
+### Adicionado
+
+- **A checagem 12 do `conferir-aptidoes.py`.** *De `265` para `266` checagens.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, na seção *"Onde estamos, e o que falta"*. **A fila da mecânica continua sem item**, e as duas peças que sobram são o `Bestiário` e a criação de `Sem Técnica`.
+
+---
+
 ## [0.164] — 26/08/2026
 
 **As doze entregas do Evocador entraram, e as quinze Trilhas fecharam.** *`Servo`, `Matilha` e `Coro` estavam paradas desde a v0.82 — trinta e duas versões.* **E o que travava não era o que o cabeçalho de parada dizia: o `Servo` que ele publicava como "montado" estava numa escala que morreu nove versões ANTES de ele ser escrito.**
