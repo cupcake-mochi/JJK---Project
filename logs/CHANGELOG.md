@@ -8,6 +8,39 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.157] — 25/08/2026
+
+**A lição do rótulo da entrega entrou no `README`, onde o comando mora.** *Ela custou três rodadas na v0.156 e não estava escrita em lugar nenhum.*
+
+### ⚠⚠ A checagem 7.4 mede o RÓTULO, não o conteúdo
+
+**Ela lê a mensagem do último commit da entrega — `git log -1 --pretty=%s` — e tira o `vN.NN` dali.** *Então uma entrega perfeitamente sincronizada é lida como "duas versões para trás" se alguém copiar a mensagem da vez passada, e o `subir.sh` do projeto se recusa a rodar.*
+
+**Foi o que aconteceu:** *o commit `cfcc885` de `finalizado/` levava conteúdo da **v0.155** com a mensagem `recorte da v0.154`.* **O `README` dentro dele estava certo; só o rótulo estava velho** — *conferido lendo o objeto do git direto do disco, sem rodar `git`.*
+
+> **É a lição nº 9 num lugar que ninguém tinha olhado:** *o número existe no conteúdo e no rótulo, e nada compara os dois.* **O conserto de verdade fica anotado na fila:** *a 7.4 lendo a linha `Recorte da vX.Y` do `README` da entrega **no último commit**, em vez da mensagem.*
+
+**E dois modos de falha vizinhos entraram junto:**
+
+- ***O `&&` do fim do comando.*** *Se o commit reclama de `nothing to commit`, ele sai com erro e o `cd ..` não roda* — **você fica dentro de `finalizado/` sem perceber, e o `./subir.sh` seguinte dá "Arquivo ou diretório inexistente"** porque a entrega não tem script próprio. *O comando publicado passou a usar `;`.*
+- ***A ordem, quando a entrega ficou duas atrás:*** **o `./subir.sh` vem PRIMEIRO.** *O passo 0 sincroniza e suja a árvore da entrega; sem ele não há o que commitar.* **Ele para na 7.4, você commita com a mensagem certa, e roda de novo.**
+
+*E o exemplo do comando deixou de carregar uma versão fixa — ele dizia `recorte da v0.148` desde aquela versão, que é o convite exato para copiar o número errado.*
+
+### Medido depois
+
+| | v0.156 | v0.157 |
+|---|---|---|
+| peças · validadores · checagens | 24 · 24 · 258 | iguais |
+| versões fixas no exemplo do comando da entrega | **1** | **0** |
+| palavras do livro | 71.086 | iguais |
+
+*Os 24 validadores verdes com `PULADA = 0`, o `conferir-repositorio.py` e os dois de `manual/matematica/`.* **Nada de regra mudou, e o livro não foi tocado** — os quatro builds não precisam rodar.
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **Duas dívidas de preço** — *as Manhas supondo dois ataques e o dano na arma* — **mais o conserto da 7.4**, que entrou na fila nesta versão.
+
+---
+
 ## [0.156] — 25/08/2026
 
 **A coluna `trava` do catálogo de Manhas ganhou dono, e nenhum preço se moveu.** *Ela teve quatro fontes diferentes por quatro versões e nenhuma escrita — e foi assim que o Teste de Resistência de três entradas ficou fora do preço sem ninguém ver.*

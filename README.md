@@ -2,7 +2,7 @@
 
 **O sistema se chama `Projeto - M`**, batizado na v0.94 — era a pendência mais velha que existia aqui, aberta na v0.1. Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.156** · manual do Fundamento na **v7.14** · **vinte e quatro peças de regra** e **vinte e quatro validadores passando** · o Manual da Guilda em **17 capítulos**.
+**Versão v0.157** · manual do Fundamento na **v7.14** · **vinte e quatro peças de regra** e **vinte e quatro validadores passando** · o Manual da Guilda em **17 capítulos**.
 
 ---
 
@@ -189,8 +189,16 @@ está num `trap`, então ele aparece **também quando o script sai cedo**, que �
 esquecer.
 
 ```bash
-cd finalizado && git add -A && git commit -m "recorte da v0.148" && git push && cd ..
+cd finalizado && git add -A && git commit -m "recorte da vX.Y" && git push; cd ..
 ```
+
+> **⚠⚠ A mensagem TEM de carregar a versão DESTA entrega, e não a da anterior.** *A checagem 7.4 lê a **mensagem do último commit** — `git log -1 --pretty=%s` — e tira o `vN.NN` dela.* **Ela não olha o conteúdo.** *Então uma entrega perfeitamente sincronizada é lida como "duas versões para trás" se alguém copiar a mensagem da vez passada, e o `subir.sh` do projeto passa a se recusar a rodar.*
+>
+> **Aconteceu na v0.156, e custou três rodadas para achar:** *o commit `cfcc885` levava conteúdo da v0.155 com a mensagem `recorte da v0.154`.* **O `README` dentro dele estava certo; só o rótulo estava velho.** *É a lição nº 9 num lugar que ninguém tinha olhado — o número existe no conteúdo e no rótulo, e nada compara os dois.*
+>
+> **O `;` no lugar do último `&&` é de propósito:** *se o commit reclamar de `nothing to commit`, o `&& cd ..` não roda e você fica dentro de `finalizado/` sem perceber* — e aí o `./subir.sh` seguinte dá *"Arquivo ou diretório inexistente"*, porque a entrega não tem script próprio.
+>
+> **E a ordem, quando a entrega ficou para trás: rode o `./subir.sh` PRIMEIRO.** *O passo 0 sincroniza e suja a árvore da entrega; sem ele não há o que commitar.* **Ele para na 7.4, você commita a entrega com a mensagem certa, e roda o `subir.sh` de novo.**
 
 > **A lista de arquivos não mora no `subir.sh`.** *Ela sai de `conferir-repositorio.py
 > --recorte`, que é o mesmo lugar de onde a checagem 7.1 lê* — **uma lista, um dono**. E a
