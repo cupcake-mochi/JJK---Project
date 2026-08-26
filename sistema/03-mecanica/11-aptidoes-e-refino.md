@@ -36,9 +36,24 @@ O refino sobe +1 por marco no passivo e +1 a mais quando você escolhe esse lado
 
 > **O refino não pode aparecer de um lado de uma rolagem em que o outro lado não cresce no ritmo dele.**
 
-Isso elimina de saída **acerto, CD, defesa, Teste de Resistência e dano** — os cinco têm do outro lado alguém que cresce +3. É o erro que a v0.9 achou na maestria a cada quatro níveis, com o dobro do tamanho: um valor que sobe +9 contra um que sobe +3 leva o acerto de 50% a 5% no meio da campanha.
+Isso elimina de saída **acerto, CD, defesa e Teste de Resistência** — os quatro têm do outro lado alguém que cresce +3. É o erro que a v0.9 achou na maestria a cada quatro níveis, com o dobro do tamanho: um valor que sobe +9 contra um que sobe +3 leva o acerto de 50% a 5% no meio da campanha.
 
 **E ela permite refino contra refino**, que é simétrico. É por isso que o clash de expansões pode ser decidido por ele: os dois lados crescem igual, e a chance não deriva.
+
+### ⚠⚠ Dano era o quinto item desta lista, e ele nunca coube nela — v0.158
+
+**A frase acima dizia "acerto, CD, defesa, Teste de Resistência e dano", e os cinco eram justificados pelo mesmo motivo.** *Ele não alcança o quinto.* **Dano não é rolagem disputada: não existe ninguém do outro lado dele rolando um dado que cresce `+3`.** *O que está do outro lado do dano é a vida do inimigo, e ela é uma tabela do manual — ela não rola, e a régua dela é o playtest.*
+
+> **Dano fica travado por outro motivo, e é um motivo de ORÇAMENTO.** O pico da rodada é o feitiço, e o Fundamento é dono do orçamento dele: um dado que o refino escala não pode entrar na rodada de feitiço, senão ele soma por fora de uma conta que já fecha.
+
+**Então a trava sobre dano tem duas condições, e as duas são medíveis:**
+
+> **1. O dano de refino não sobe o PICO da rodada.** Ele só existe na rodada em que não há feitiço — e a rodada de feitiço fica exatamente do tamanho que o Fundamento fechou.
+> **2. A rodada em que ele cai fica abaixo da Rotina do nível**, que é a régua com que a peça 6 §3 aprovou o ataque extra.
+
+**Duas entradas do catálogo usam esta exceção, e as duas são gratuitas:** *`projetar energia`, que é o que sobra quando o PE acaba, e o **dano na arma** do `canalizar energia` e do `Estímulo Muscular`.* **As duas são medidas contra as duas condições na §6.9**, que é a dona.
+
+*E a cerca da peça 5 §4 continua inteira do jeito que está escrita:* **ela proíbe um CAMINHO de conceder refino dentro de uma rolagem, e o dano na arma não vem de Caminho — vem de aptidão gratuita.** *Nenhum dos cinco Caminhos entrega um ponto de refino a ninguém.*
 
 O que sobra para o refino escalar:
 
@@ -285,7 +300,16 @@ Positiva do começo ao fim, e o saldo **encolhe** em vez de virar — forte quan
 
 Já está escrita na peça 5: *"um feitiço de Toque é um feitiço de Forma Toque, sem Melhoria e sem Restrição. Mesma Classe, mesmo orçamento de pontos, mesmo custo em PE."*
 
-**O refino não a escala**, e é o exemplo mais limpo do teto por aptidão: ela vive inteira dentro do orçamento do Fundamento, e pôr refino nela seria dar poder de graça numa conta que já fecha.
+**O refino não escala o feitiço de Toque**, e essa metade continua sendo o exemplo mais limpo do teto por aptidão: ele vive inteiro dentro do orçamento do Fundamento, e pôr refino ali seria dar poder de graça numa conta que já fecha.
+
+**A outra metade é o dano na arma, e ela escala com o refino de propósito.**
+
+> **Os seus ataques com arma causam `1d4` de dano a mais a cada `3` pontos de refino.** No refino `10` os dados viram `d6` **e entra um dado a mais**.
+> **Só arma:** ele não entra em feitiço nem em Kata, e não se soma por cima de um ataque que já esteja carregando um feitiço de dano de `Classe 0` ou mais.
+
+**A regra, a escada, a conta e o argumento de desenho moram na §6.9**, porque a mesma regra é metade do `Estímulo Muscular` da §6.8 e escrever duas vezes criaria as duas cópias que a lição nº 9 existe para não deixar existir.
+
+> **⚠⚠ Este parágrafo dizia *"o refino não a escala"* da v0.27 até a v0.158, e ele virou falso na v0.147**, quando o dano na arma entrou no livro. *Ele sobreviveu onze versões em duas cópias — aqui e no §10 — porque aquela versão escreveu a mecânica só no livro, e nenhum validador comparava a peça com o capítulo.* **A `⚠` seguinte, do `projetar energia`, caiu no mesmo commit e pelo mesmo motivo.**
 
 ### Projetar energia
 
@@ -293,7 +317,9 @@ Já está escrita na peça 5: *"um feitiço de Toque é um feitiço de Forma Toq
 
 É o que sobra quando o combustível acaba, e o `arquitetura.md` já dizia o que ela não pode ser: *"o dano dela é fixo e baixo, e existe para quem ficou sem PE, não para competir com feitiço"*.
 
-Com `dano = refino` ela fica entre **8% e 12% da coluna Rotina** do nível 2 ao 30 — sempre acima do Classe 0 depois do nível 10, e nunca perto de competir. **É o único lugar do catálogo onde o refino toca dano**, e ele deriva para **baixo**, porque a vida do inimigo cresce mais rápido que o refino. Errar para baixo é o lado seguro.
+Com `dano = refino` ela fica entre **8% e 12% da coluna Rotina** do nível 2 ao 30 — sempre acima do Classe 0 depois do nível 10, e nunca perto de competir. Ela deriva para **baixo**, porque a vida do inimigo cresce mais rápido que o refino. Errar para baixo é o lado seguro.
+
+> **⚠ Esta linha dizia *"é o único lugar do catálogo onde o refino toca dano"* até a v0.158, e são dois desde a v0.147.** *O outro é o dano na arma, e ele é o caso oposto deste: **ele deriva para cima**, e o que segura ele não é a curva — é a rodada em que ele mora.* **A §6.9 mede os dois contra as duas condições da §2.**
 
 ### Kokusen
 
@@ -665,6 +691,9 @@ As outras duas quebram nas pontas: com `2 ×` você se defende uma vez e acabou 
 
 > **`Estímulo Muscular` · grátis na Lapidação `1`.** Escolha **uma perícia** e **um Teste de Resistência** na criação, e eles não mudam.
 > **`1×` por cena, e `2×` se a sua Lapidação for `10`.** Cada uso dá **vantagem** numa rolagem de um dos dois.
+> **E ela carrega o dano na arma**, com a Lapidação no lugar do refino: `1d4` a cada `3` pontos, e no `10` os dados viram `d6` com um dado a mais. **A régua é a §6.9**, e os números são os mesmos.
+
+> **⚠ A segunda metade entrou na v0.158, e ela é conserto de um lugar em que a contraparte tinha ficado para trás.** *A v0.147 escreveu o dano na arma nos dois lados do livro e em peça nenhuma; esta seção continuou publicando só o relógio.* **Ela não é entrega nova: é a mesma que a rota já joga desde aquela versão, chegando à peça que devia ser dona dela.**
 
 **Os três números saem de regra que já existe, e nenhum deles é escolha nova:**
 
@@ -852,6 +881,136 @@ As outras duas quebram nas pontas: com `2 ×` você se defende uma vez e acabou 
 
 *O que NÃO espera mais:* **se espelha** (o conteúdo não, a forma sim), **quantas são** (catorze: duas grátis e doze pagas, mais a `Bênção Própria`), **as duas gratuitas** (`Defesa sem Armadura` portada e o `Estímulo Muscular`, as duas escritas acima com número), **o que as escala** (a Lapidação, `1` a `10`, mesmos degraus do §5), **como as doze se separam** (gate de atributo, o sexto formato), **e o que não precisa entrar** (ferir maldição e anti-domínio, que já têm dono na peça 16).
 
+## 6.9. O dano na arma — a exceção da §2, com o incentivo escrito
+
+*Escrito na v0.158. Ele entrou no livro na v0.147 e passou onze versões **sem peça, sem validador e sem conta** — o único dado do sistema nessa situação. Este é o dono.*
+
+**Duas entradas gratuitas carregam ele, uma de cada lado da máquina:** o `canalizar energia` do feiticeiro, na §6, e o `Estímulo Muscular` da rota sem energia, na §6.8. *A regra é a mesma nas duas; o que muda é o nome do recurso — refino de um lado, Lapidação do outro.*
+
+> **Os seus ataques com arma causam `1d4` de dano a mais a cada `3` pontos de refino.**
+> **No refino `10` os dados viram `d6` e entra um dado a mais.**
+> **Só arma.** Ele não entra em feitiço nem em Kata. E se o mesmo ataque já estiver carregando um feitiço de dano de `Classe 0` ou mais — como no nível 27 da `Brasa` —, este dano **não** se soma por cima.
+
+### A escada, e o último degrau vale `2,6×` cada um dos outros
+
+| refino | dados | dano a mais | o degrau |
+|---|---|---|---|
+| `1` · `2` | — | `0,0` | — |
+| **`3`** | `1d4` | `2,5` | **`+2,5`** |
+| `4` · `5` | `1d4` | `2,5` | — |
+| **`6`** | `2d4` | `5,0` | **`+2,5`** |
+| `7` · `8` | `2d4` | `5,0` | — |
+| **`9`** | `3d4` | `7,5` | **`+2,5`** |
+| **`10`** | **`4d6`** | **`14,0`** | **`+6,5`** |
+
+***Decisão do Mizuki na v0.157: o refino `10` passa a dar um dado a mais.*** *Até ali ele dava `3d6` = `10,5`, e o degrau era `+3,0`.* **Só o `10` se moveu** — e é isso que faz as contas da v0.155 continuarem valendo inteiras, porque o degrau do nível 7 dos cinco Caminhos foi todo medido no **refino passivo `8`**, que não mudou.
+
+### ⚠⚠ O argumento é de DESENHO, e ele é o motivo da entrada existir assim
+
+***Palavras dele:*** *"isso incentiva a galera a querer pegar refino, e isso é bom, dá peso para as outras opções."*
+
+**A escolha de marco compara `Corpo` contra `Refino` contra `Leque`, e o `Refino` era o eixo mais difícil de sentir na mesa** — as aptidões que ele compra são condicionais, reativas ou de informação, e o número do refino em si aparece dentro de fórmula alheia. **O dano na arma é a única coisa que um ponto de refino entrega e a ficha sente em toda rodada de ataque** — e o único ponto que a escolha é dona sozinha é o `10`.
+
+> **E ele é o único degrau da campanha que a linha de graça NÃO alcança.**
+
+| rota | onde ela chega | quando ela pega o `4d6` |
+|---|---|---|
+| **especialista** — sempre Refino | refino `10` no nível 22 | **nível 22** |
+| **meio a meio** | refino `10` no nível 26 | nível 26 |
+| **generalista** — nunca Refino | refino `8`, e para ali | **nunca** |
+
+**A linha passiva do marco entrega `8` dos `10` sozinha (§3), e é por isso que os degraus `3`, `6` e `9` chegam para todo mundo mais cedo ou mais tarde.** *O `10` é o único que exige ter escolhido Refino, e ele é o maior:* **quatro níveis de vantagem para o especialista sobre o meio a meio, e uma porta fechada para quem nunca escolheu.**
+
+### O que ele vale, medido no nível 30
+
+*Base: o **golpe simples com o soco** — `d10` pela maestria (peça 14 §5.0.6) mais Força `6` (peça 2), que dá `11,50`, o número que a peça 5 §4 publica.* **A Ação de Atacar são dois golpes, pelo ataque extra do nível 7 (peça 6 §3.1).** *O `Classe 0` grátis vale `27` no nível 30, lido da tabela do manual.*
+
+| a rodada sem PE, no nível 30 | Ação de Atacar | contra o `Classe 0` grátis |
+|---|---|---|
+| sem dado nenhum — refino `1` ou `2` | `23,00` | **`0,85×`** — o botão grátis ganha |
+| refino `8`, quem nunca escolhe | `33,00` | `1,22×` |
+| refino `10` com `3d6`, até a v0.157 | `44,00` | `1,63×` |
+| **refino `10`, com o `4d6`** | **`51,00`** | **`1,89×`** |
+
+> **Com arma de duas mãos (`d12`, golpe `12,50`) as duas últimas viram `46,00` e `53,00`** — `1,70×` e `1,96×`. *A arma muda o valor absoluto e não muda o dano na arma: os dados extras não dependem dela.*
+
+**E a linha de cima é o que a entrada existe para consertar.** *Sem o dano na arma, a Ação de Atacar de um físico de nível 30 rende `23` contra os `27` do botão que toda ficha tem de graça — ela é estritamente pior, e o ataque extra do nível 7 vira letra morta.* **É a medida que a v0.82 usou para recusar prender o ataque extra à Ação de Atacar, e que a v0.147 aceitou de propósito.** *O dano na arma é o que devolve sentido àquela rodada.*
+
+**No dia inteiro, com as `10,5` rodadas de luta do bloco 1 do `conferir-orcamento.py`:**
+
+| Bastião no nível 30 — conjura `48%` das rodadas | média do dia | da Rotina |
+|---|---|---|
+| refino `8` | `62,3` | `57,7%` |
+| refino `10` com `3d6` | `68,0` | `63,0%` |
+| **refino `10` com o `4d6`** | **`71,6`** | **`66,3%`** |
+
+*A rodada de feitiço não se move em nenhuma das três — ela vale `94` nas três, porque o dano na arma não entra em feitiço.* **O que sobe é o piso, e é só ele.**
+
+### O invariante que a §2 cobra, e o `4d6` não o toca
+
+**A segunda condição da §2 é que a rodada em que o dano na arma cai fique abaixo da Rotina do nível.** *Medida nos vinte e nove níveis, na rota que mais recebe — o golpe simples reconstruído do soco da peça 14 §5.0.6 mais a Força da peça 2 §3, que vai de `3` a `6` no ritmo da maestria:*
+
+> **O pior nível é o `7`, com a Ação de Atacar em `51,6%` da Rotina** — e o `4d6` **não move esse número**, porque no nível 7 o refino é `3`. *No nível 30 ela fica em `47,2%`.*
+
+*O pior nível é o 7 pelo motivo que a peça 6 §3.1 já mede:* **o ataque extra dobra a rodada de golpe de uma vez, e o golpe simples encolhe contra o feitiço a campanha inteira.** *O dano na arma segura essa queda sem inverter ela.*
+
+> **E o refino `10` só existe do nível 22 em diante**, então o `4d6` não encosta em nenhum nível abaixo dele: *o pior caso da rodada de golpe continua sendo exatamente o que a v0.147 já tinha.*
+
+**A primeira condição é a trava `Só arma`**, e ela é o que impede o dado de entrar na rodada de feitiço. *A segunda metade dela — não somar por cima de um `Classe 0` que viajou junto do ataque — é o que impede a `Fornalha` de empilhar as duas coisas.* **No nível 30 a rodada de feitiço vale `94` e a Ação de Atacar cheia vale `51`, que são `54%` dela:** *o pico não se move, e o piso não alcança o pico.*
+
+### Dominância dentro do mesmo Caminho
+
+**No nível 30 nenhuma ficha existe sem dano na arma**: a linha de graça do marco entrega refino `8` sem escolha nenhuma, e a Bênção faz o mesmo com a Lapidação. *Então a comparação que vale é entre a pior e a melhor rota que existem naquele nível.*
+
+| | pior rota (`2d4`) | melhor rota | espalhamento |
+|---|---|---|---|
+| com `3d6` | `33,00` | `44,00` | `1,33×` |
+| **com o `4d6`** | `33,00` | `51,00` | **`1,55×`** |
+
+**O filtro do projeto reprova a partir de `3,00×`, e as duas passam com folga.**
+
+> **⚠ Isso não é o mesmo número que a peça 6 §3.1 publica como dispersão do ataque extra.** *Lá a comparação é contra uma **ficha nua**, e ficha nua é uma ficha do nível 2 ao 9 — ninguém chega ao 30 com refino `2`.* **A dispersão de `3,7×` daquela seção mede a entrega ao longo da campanha; esta mede duas fichas do mesmo nível, que é o que o filtro de dominância pergunta.**
+
+### O que o `4d6` custa, e o Mizuki aceitou os três
+
+| | com `3d6` | com o `4d6` |
+|---|---|---|
+| Ação de Atacar contra o `Classe 0` grátis, nível 30 | `1,63×` | **`1,89×`** |
+| o ataque extra do nível 7, no teto (peça 6 §3.1) | `1,68` fatia | **`1,95` fatia** |
+| dispersão do ataque extra ao longo da campanha | `3,2×` | **`3,7×`** |
+
+*As duas últimas saem por razão e não por reconta:* **o ataque extra é um golpe, e um golpe vale `golpe + dados extras`** — então `(11,50 + 14,00) ÷ (11,50 + 10,50)` = `1,159`, e `1,68 × 1,159` dá `1,95`. *Contra a linha nua de `0,53` daquela tabela, isso é `3,67×`.*
+
+### ⚠⚠ E o `4d6` é o que faz a exclusão do crítico virar carga
+
+**A peça 1 §5.2 diz que o crítico *"dobra só os dados do que rolou o acerto"*, e a lista de exclusão nomeia *"dados que vieram de aptidão ou Bênção"*.** *O dano na arma é exatamente isso, e ele não dobra.*
+
+**O que aconteceria se dobrasse, contra o teto de `15,43` da banda `Leve` da peça 19:**
+
+| o que o crítico dobraria | ganho | do teto da `Leve` |
+|---|---|---|
+| só o dado da arma — soco `d10` | `4,95` | `32%` |
+| \+ o dano na arma do refino `10`, com `3d6` | `14,40` | `93%` |
+| **\+ o dano na arma do refino `10`, com o `4d6`** | **`17,55`** | **`114%`** |
+| o mesmo, com arma `d12` | `18,45` | `120%` |
+
+**Na v0.151 essa linha era folga — a condição ficava *"a um `d12` de estourar a própria banda"*.** *Com o `4d6` ela deixa de ser folga:* **o soco sozinho já põe o `Incapacitado` fora da `Leve`, e é a exclusão que o segura.** *A peça 19 §2.4 tem a tabela inteira, e as três âncoras `critico_*` do `conferir-dano.py` guardam a linha no dono.*
+
+### A fronteira desta conta
+
+*Sem ela a próxima contagem mede outra coisa, que é o que aconteceu com o par da v0.141.*
+
+| entra | não entra |
+|---|---|
+| os dados extras do refino, `1d4` a cada `3`, com a exceção do `10` | crítico — o dado de aptidão não dobra (peça 1 §5.2) |
+| dois golpes por rodada do nível 7 em diante, um antes (peça 6 §3.1) | Manha — ela é da Vanguarda, e o `DESENHO-manhas.md` é o dono |
+| o golpe simples com o **soco**, `d10` + Força `6` no nível 30 | a rodada de feitiço — o dano na arma não entra nela |
+| acerto de `55%` (peça 1 §6) **só na conversão em fatia** — as tabelas de rodada são cruas, no molde da peça 6 §3 | arma de dado maior: ela sobe o golpe, não o dano na arma |
+
+> **A conclusão não depende da dívida de acerto da peça 19 §2.5.** *A `55%` o `4d6` vale `15,40` de dano por rodada, que são `3,03` fatias; a `50%`, `14,00` e `2,76`.* **As duas condições da §2 passam nos dois, e o espalhamento não se move — ele é razão entre duas rodadas medidas do mesmo jeito.**
+
+**E o que fica declarado e NÃO medido:** *quanto o dano na arma vale numa ficha que empilhou Manha em cima dele.* **A Manha e o dano na arma se multiplicam no segundo golpe, e o catálogo de Manhas tem duas dívidas de preço abertas** — as sete travas que não derivam, e as quatro que supõem dois ataques. *Somar as duas contas antes de as dívidas fecharem produziria um número que ninguém consegue refazer depois.*
+
 ## 7. O que faltava, e por que já não falta
 
 
@@ -930,9 +1089,11 @@ O `arquitetura.md` propôs *"aptidão não produz dano e não escala com nível"
 > **O refino cresce +7 a +9 numa campanha; atributo e maestria crescem +3.**
 > **Então refino não pode aparecer de um lado de uma rolagem em que o outro lado não cresce no ritmo dele.**
 
-Isso proíbe refino somando em acerto, CD, defesa, Teste de Resistência ou dano — os quatro têm do outro lado alguém que cresce +3. E **permite refino contra refino**, que é simétrico: o clash de expansões é exatamente esse caso, e ele passa.
+Isso proíbe refino somando em acerto, CD, defesa e Teste de Resistência — os quatro têm do outro lado alguém que cresce +3. E **permite refino contra refino**, que é simétrico: o clash de expansões é exatamente esse caso, e ele passa.
 
 O que sobra para o refino escalar: **custo em PE, frequência, alcance, duração, quantos alvos** — e disputa contra outro refino.
+
+> **⚠ Este parágrafo listava `dano` junto dos quatro e dizia *"os quatro"* na mesma frase, contando cinco.** *A §2 desfez o nó na v0.158:* **dano não é rolagem disputada, e a justificativa dos quatro nunca alcançou ele.** *A trava sobre dano é de orçamento, tem duas condições escritas, e a §6.9 mede as duas entradas que a usam.*
 
 ### As duas gratuitas — o registro, e uma duplicata que estava velha
 
@@ -950,7 +1111,9 @@ Sobraram dois pedaços que a seção 6.1 não tinha, e só eles ficam:
 
 > *A frase seguinte era "um uniforme precisa valer mais que proteção 4, senão ninguém veste", e a peça de equipamento a tratou como orientação e não como invariante — tratá-la como invariante travava a peça inteira.* **O uniforme não precisa ganhar de cobrir-se; precisa alcançar e ter chance de passar.** E **o escudo saiu desta lista na v0.42**: ele soma com cobrir-se em vez de desligar, porque desligando ele virava prejuízo já no primeiro marco.
 
-**Canalizar energia** já está escrita na peça 5: *"um feitiço de Forma Toque, sem Melhoria e sem Restrição"*. **O refino não a escala** — ela vive no orçamento do Fundamento, e é o exemplo de aptidão que não usa o valor cheio.
+**Canalizar energia** já está escrita na peça 5: *"um feitiço de Forma Toque, sem Melhoria e sem Restrição"*. **O refino não escala o feitiço de Toque** — ele vive no orçamento do Fundamento, e é o exemplo de aptidão que não usa o valor cheio na metade que o Fundamento é dono.
+
+> **⚠ Esta linha dizia *"o refino não a escala"*, e ela era a segunda cópia da frase que a §6 publicava.** *As duas viraram falsas na v0.147, quando o dano na arma entrou no livro sem chegar a peça nenhuma.* **A metade que o refino escala é o dano na arma, e a dona dela é a §6.9.**
 
 ### As três aptidões de kokusen
 

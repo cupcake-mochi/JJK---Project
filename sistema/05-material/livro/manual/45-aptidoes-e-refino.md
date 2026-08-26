@@ -36,7 +36,7 @@ Na ficha, o refino é um número de 1 a 10. Toda ficha começa em 1, e ele sobe 
 
 ### Efeito do refino
 
-> **O refino nunca entra num número disputado contra alguém que cresce mais devagar que ele.** Ele fica fora de acerto, CD, defesa, Teste de Resistência e dano.
+> **O refino nunca entra num número disputado contra alguém que cresce mais devagar que ele.** Ele fica fora de acerto, CD, defesa e Teste de Resistência.
 
 **Efeito do refino**
 {: .tab-titulo }
@@ -46,10 +46,12 @@ Na ficha, o refino é um número de 1 a 10. Toda ficha começa em 1, e ele sobe 
 | acerto | custo: quanto PE a aptidão cobra |
 | CD | frequência: quantas vezes por cena, por descanso, por dia |
 | defesa | escopo: alcance, duração, quantos alvos |
-| Teste de Resistência | magnitude fora de disputa: Redução de Dano, proteção |
-| dano | disputa contra outro refino, como o clash de expansões |
+| Teste de Resistência | magnitude fora de disputa: Redução de Dano e proteção |
+| dano de feitiço | dano fora da rodada de feitiço, e disputa contra outro refino |
 
-**Só a `Projetar energia` põe refino em dano.** A proteção de `Cobrir-se de energia` entra na sua Defesa, e usa `1/3 do refino`.
+**Duas entradas põem refino em dano, e as duas só valem na rodada em que você não conjura:** `Projetar energia` e o dano na arma do `Canalizar energia`. **Feitiço nunca cresce com refino** — ele tem orçamento próprio, no capítulo 9, *Fundamento*.
+
+A proteção de `Cobrir-se de energia` entra na sua Defesa, e usa `1/3 do refino`.
 
 > **Arredondamento.** Toda divisão de refino arredonda para baixo: refino 5 dividido por 2 dá 2.
 
@@ -148,7 +150,7 @@ Fora de combate ela decide as cenas em que ninguém está brigando: a queda de t
 
 > **Canalizar energia** — você conjura feitiço de Toque. Um feitiço de Toque é um feitiço de Forma Toque, sem Melhoria e sem Restrição: mesma Classe, mesmo orçamento de pontos, mesmo custo em PE.
 >
-> **Dano na arma.** Os seus ataques **com arma** causam `1d4` de dano a mais a cada `3` pontos de refino — `1d4` no refino `3`, `2d4` no `6`, `3d4` no `9`. **No refino `10` os dados viram `d6`.**
+> **Dano na arma.** Os seus ataques **com arma** causam `1d4` de dano a mais a cada `3` pontos de refino — `1d4` no refino `3`, `2d4` no `6`, `3d4` no `9`. **No refino `10` os dados viram `d6` e entra um dado a mais: `4d6`.**
 >
 > **Só arma.** Ele não entra em feitiço nem em Kata. E se o mesmo ataque já estiver carregando um feitiço de dano de `Classe 0` ou mais — como no nível 27 da `Brasa`, em que cada ataque leva um junto —, este dano **não** se soma por cima.
 >

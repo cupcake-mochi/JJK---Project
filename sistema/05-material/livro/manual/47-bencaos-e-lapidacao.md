@@ -12,9 +12,9 @@ A Lapidação mede quanto da folga do corpo o seu personagem já gastou treinand
 >
 > **São os mesmos degraus do refino, casa por casa** — a tabela `Refino por marco` do capítulo 11 vale para ela, trocando o nome.
 
-> **A Lapidação nunca entra num número disputado contra alguém que cresce mais devagar que ela.** Ela fica fora de acerto, CD, defesa, Teste de Resistência e dano.
+> **A Lapidação nunca entra num número disputado contra alguém que cresce mais devagar que ela.** Ela fica fora de acerto, CD, defesa e Teste de Resistência.
 
-Onde ela entra é em custo, em quantas vezes por cena, em alcance e duração, e em magnitude fora de disputa — a proteção de `Defesa sem Armadura` e o piso do `Esteio`.
+Onde ela entra é em custo, em quantas vezes por cena, em alcance e duração, e em magnitude fora de disputa — a proteção de `Defesa sem Armadura`, o piso do `Esteio` e o dano na arma do `Estímulo Muscular`, que só vale na rodada em que você ataca. **Kata nunca cresce com Lapidação:** ela tem orçamento próprio, no capítulo 10, *Técnica Marcial*.
 
 > **Arredondamento.** Toda divisão de Lapidação arredonda para baixo: Lapidação 5 dividido por 2 dá 2.
 
@@ -114,7 +114,7 @@ A Passiva `Bocado`, no capítulo 10, *Técnica Marcial*, guarda o item dentro do
 >
 > **Usos.** `1×` por cena, e `2×` se a sua Lapidação for `10`. Cada uso dá **vantagem** numa rolagem de um dos dois.
 >
-> **Dano na arma.** Os seus ataques **com arma** causam `1d4` de dano a mais a cada `3` pontos de Lapidação — `1d4` na Lapidação `3`, `2d4` na `6`, `3d4` na `9`. **Na Lapidação `10` os dados viram `d6`.**
+> **Dano na arma.** Os seus ataques **com arma** causam `1d4` de dano a mais a cada `3` pontos de Lapidação — `1d4` na Lapidação `3`, `2d4` na `6`, `3d4` na `9`. **Na Lapidação `10` os dados viram `d6` e entra um dado a mais: `4d6`.**
 >
 > **Só arma.** Ele não entra em Kata nenhuma. E se o mesmo ataque já estiver carregando uma Kata de dano de `Classe 0` ou mais, este dano **não** se soma por cima — **é o caso do nível 27 da `Brasa`, em que cada ataque leva uma junto.** *Nesta rota o degrau de Trilha entrega Kata e não feitiço, e o capítulo 8, *Caminhos e Trilhas*, diz isso na abertura.*
 >

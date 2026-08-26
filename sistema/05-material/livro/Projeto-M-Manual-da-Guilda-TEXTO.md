@@ -4646,7 +4646,7 @@ Na ficha, o refino é um número de 1 a 10. Toda ficha começa em 1, e ele sobe 
 
 ### Efeito do refino
 
-> **O refino nunca entra num número disputado contra alguém que cresce mais devagar que ele.** Ele fica fora de acerto, CD, defesa, Teste de Resistência e dano.
+> **O refino nunca entra num número disputado contra alguém que cresce mais devagar que ele.** Ele fica fora de acerto, CD, defesa e Teste de Resistência.
 
 **Efeito do refino**
 | onde o refino não entra | onde ele entra |
@@ -4654,10 +4654,12 @@ Na ficha, o refino é um número de 1 a 10. Toda ficha começa em 1, e ele sobe 
 | acerto | custo: quanto PE a aptidão cobra |
 | CD | frequência: quantas vezes por cena, por descanso, por dia |
 | defesa | escopo: alcance, duração, quantos alvos |
-| Teste de Resistência | magnitude fora de disputa: Redução de Dano, proteção |
-| dano | disputa contra outro refino, como o clash de expansões |
+| Teste de Resistência | magnitude fora de disputa: Redução de Dano e proteção |
+| dano de feitiço | dano fora da rodada de feitiço, e disputa contra outro refino |
 
-**Só a `Projetar energia` põe refino em dano.** A proteção de `Cobrir-se de energia` entra na sua Defesa, e usa `1/3 do refino`.
+**Duas entradas põem refino em dano, e as duas só valem na rodada em que você não conjura:** `Projetar energia` e o dano na arma do `Canalizar energia`. **Feitiço nunca cresce com refino** — ele tem orçamento próprio, no capítulo 9, *Fundamento*.
+
+A proteção de `Cobrir-se de energia` entra na sua Defesa, e usa `1/3 do refino`.
 
 > **Arredondamento.** Toda divisão de refino arredonda para baixo: refino 5 dividido por 2 dá 2.
 
@@ -4752,7 +4754,7 @@ Fora de combate ela decide as cenas em que ninguém está brigando: a queda de t
 
 > **Canalizar energia** — você conjura feitiço de Toque. Um feitiço de Toque é um feitiço de Forma Toque, sem Melhoria e sem Restrição: mesma Classe, mesmo orçamento de pontos, mesmo custo em PE.
 >
-> **Dano na arma.** Os seus ataques **com arma** causam `1d4` de dano a mais a cada `3` pontos de refino — `1d4` no refino `3`, `2d4` no `6`, `3d4` no `9`. **No refino `10` os dados viram `d6`.**
+> **Dano na arma.** Os seus ataques **com arma** causam `1d4` de dano a mais a cada `3` pontos de refino — `1d4` no refino `3`, `2d4` no `6`, `3d4` no `9`. **No refino `10` os dados viram `d6` e entra um dado a mais: `4d6`.**
 >
 > **Só arma.** Ele não entra em feitiço nem em Kata. E se o mesmo ataque já estiver carregando um feitiço de dano de `Classe 0` ou mais — como no nível 27 da `Brasa`, em que cada ataque leva um junto —, este dano **não** se soma por cima.
 >
@@ -5005,9 +5007,9 @@ A Lapidação mede quanto da folga do corpo o seu personagem já gastou treinand
 >
 > **São os mesmos degraus do refino, casa por casa** — a tabela `Refino por marco` do capítulo 11 vale para ela, trocando o nome.
 
-> **A Lapidação nunca entra num número disputado contra alguém que cresce mais devagar que ela.** Ela fica fora de acerto, CD, defesa, Teste de Resistência e dano.
+> **A Lapidação nunca entra num número disputado contra alguém que cresce mais devagar que ela.** Ela fica fora de acerto, CD, defesa e Teste de Resistência.
 
-Onde ela entra é em custo, em quantas vezes por cena, em alcance e duração, e em magnitude fora de disputa — a proteção de `Defesa sem Armadura` e o piso do `Esteio`.
+Onde ela entra é em custo, em quantas vezes por cena, em alcance e duração, e em magnitude fora de disputa — a proteção de `Defesa sem Armadura`, o piso do `Esteio` e o dano na arma do `Estímulo Muscular`, que só vale na rodada em que você ataca. **Kata nunca cresce com Lapidação:** ela tem orçamento próprio, no capítulo 10, *Técnica Marcial*.
 
 > **Arredondamento.** Toda divisão de Lapidação arredonda para baixo: Lapidação 5 dividido por 2 dá 2.
 
@@ -5101,7 +5103,7 @@ A Passiva `Bocado`, no capítulo 10, *Técnica Marcial*, guarda o item dentro do
 >
 > **Usos.** `1×` por cena, e `2×` se a sua Lapidação for `10`. Cada uso dá **vantagem** numa rolagem de um dos dois.
 >
-> **Dano na arma.** Os seus ataques **com arma** causam `1d4` de dano a mais a cada `3` pontos de Lapidação — `1d4` na Lapidação `3`, `2d4` na `6`, `3d4` na `9`. **Na Lapidação `10` os dados viram `d6`.**
+> **Dano na arma.** Os seus ataques **com arma** causam `1d4` de dano a mais a cada `3` pontos de Lapidação — `1d4` na Lapidação `3`, `2d4` na `6`, `3d4` na `9`. **Na Lapidação `10` os dados viram `d6` e entra um dado a mais: `4d6`.**
 >
 > **Só arma.** Ele não entra em Kata nenhuma. E se o mesmo ataque já estiver carregando uma Kata de dano de `Classe 0` ou mais, este dano **não** se soma por cima — **é o caso do nível 27 da `Brasa`, em que cada ataque leva uma junto.** *Nesta rota o degrau de Trilha entrega Kata e não feitiço, e o capítulo 8, *Caminhos e Trilhas*, diz isso na abertura.*
 >
@@ -6523,4 +6525,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: ba4bf5c7a921dc95cbe1b5979f168810a3aff0f8 -->
+<!-- fonte: b35c2708d0672487de20c3d5e20bb77bc71d33c1 -->

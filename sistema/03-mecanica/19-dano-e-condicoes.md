@@ -140,11 +140,13 @@
 > |---|---|---|
 > | só o dado impresso da arma — soco `d10` | **`4,95`** | **`32%`** |
 > | só o dado impresso da arma — arma `d12` | `5,85` | `38%` |
-> | \+ o dano na arma do refino `10` (`3d6`) | `14,40` | **`93%`** |
-> | o mesmo, com arma `d12` | `15,30` | **`99%`** |
+> | \+ o dano na arma do refino `10` (`4d6`) | `17,55` | **`114%`** |
+> | o mesmo, com arma `d12` | `18,45` | **`120%`** |
 > | \+ um `Classe 0` junto do ataque (a `Fornalha`) | `29,25` | `190%` — vira `Média` |
 >
-> **Sem a trava de escopo, uma condição `Leve` fica a um `d12` de estourar a própria banda, e um degrau de Trilha a joga para `Média` sozinho.** *A peça 1 §5.2 passou a dizer "dobra só os dados do que rolou o acerto", e a lista de exclusão virou exemplo em vez de ser a regra.* ***Palavras do Mizuki:*** *"dobrar dado de dano é mt coisa".*
+> **Sem a trava de escopo, uma condição `Leve` estoura a própria banda com o soco, e um degrau de Trilha a joga para `Média` sozinho.** *A peça 1 §5.2 passou a dizer "dobra só os dados do que rolou o acerto", e a lista de exclusão virou exemplo em vez de ser a regra.* ***Palavras do Mizuki:*** *"dobrar dado de dano é mt coisa".*
+>
+> **⚠⚠ As duas linhas do meio eram `14,40` e `15,30` — `93%` e `99%` — até a v0.158, com `3d6`.** *O refino `10` passou a dar `4d6` naquela versão (peça 11 §6.9), e com isso **a trava de escopo deixou de ser folga**: antes o `Incapacitado` só estourava a `Leve` com arma de duas mãos, agora o soco basta.* **A última linha não se move**, porque a trava `Só arma` do dano na arma já proíbe ele de somar por cima de um `Classe 0` que viajou junto do ataque — os dois nunca aparecem na mesma rolagem.
 >
 > *A conclusão não depende da dívida de acerto do §2.5:* **a `55%` o número vira `5,50` e a banda não se move.**
 

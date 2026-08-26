@@ -253,9 +253,13 @@ Com um golpe na Ação Bônus, o conjurador de perto cai exatamente na linha do 
 > |---|---|---|
 > | ataque extra, ficha nua | `0,53` | só arma, Força e crítico |
 > | ataque extra, refino `8` + Manha | `0,92` | o `2º` golpe dobra a Manha e o dano na arma |
-> | ataque extra, refino `10` + Manha | `1,68` | `3d6` de dano na arma em cada golpe |
+> | ataque extra, refino `10` + Manha | `1,95` | `4d6` de dano na arma em cada golpe |
 >
-> **A dispersão é `3,2×` dentro do mesmo Caminho, e ela não é da v0.147:** *o golpe sempre carregou o que estava empilhado nele.* **O que a v0.147 fez foi tirar o golpe da rodada de feitiço — e com isso encolher o degrau e INVERTER a forma dele**, que publicado crescia com o nível e derivado encolhe.
+> **A dispersão é `3,7×` dentro do mesmo Caminho, e ela não é da v0.147:** *o golpe sempre carregou o que estava empilhado nele.* **O que a v0.147 fez foi tirar o golpe da rodada de feitiço — e com isso encolher o degrau e INVERTER a forma dele**, que publicado crescia com o nível e derivado encolhe.
+>
+> > **⚠ A última linha era `1,68` e `3d6` até a v0.158, e a dispersão era `3,2×`.** *O que a moveu foi o refino `10` passar a dar um dado a mais — peça 11 §6.9, que é a dona do dano na arma desde aquela versão.* **O número anda por razão e não por reconta:** *o ataque extra é um golpe, e um golpe vale `golpe + dados extras`, então `(11,50 + 14,00) ÷ (11,50 + 10,50)` = `1,159`, e `1,68 × 1,159` dá `1,95`.*
+> >
+> > **As duas primeiras linhas NÃO se movem, e é isso que salva a tabela do degrau abaixo:** *o refino `8` não mudou, e é nele que o `1,93` do Bastião e o `2,10` da Vanguarda foram medidos.* **A dispersão daqui mede a entrega ao longo da campanha, contra uma ficha nua que só existe do nível 2 ao 9** — *a dominância entre duas fichas do MESMO nível 30 é `1,55×`, e ela está na peça 11 §6.9.*
 >
 > #### A taxa, e ela é derivada e não perguntada
 >

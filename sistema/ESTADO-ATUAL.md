@@ -1,8 +1,26 @@
 # Estado atual do projeto
 
-Atualizado em 25/08/2026, na v0.157 (última peça fechada: **Dano de alma e Integridade**, a peça 24, na v0.145, com o `conferir-alma.py` e onze checagens; antes dela, **Bloquear, na v0.143**; antes dela, o **Objeto amaldiçoado, na v0.132**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 25/08/2026, na v0.158 (última peça fechada: **Dano de alma e Integridade**, a peça 24, na v0.145, com o `conferir-alma.py` e onze checagens; antes dela, **Bloquear, na v0.143**; antes dela, o **Objeto amaldiçoado, na v0.132**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.157.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e quatro peças escritas** e **vinte e quatro validadores**.
+**Versão v0.158.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e quatro peças escritas** e **vinte e quatro validadores**.
+
+***A v0.158 deu peça, conta e validador ao dano na arma, e ele estava sem os três desde a v0.147.*** **Era o único dado do sistema nessa situação:** *ele morava só no livro, em dois capítulos, e nenhum `conferir-*.py` alcançava.*
+
+> **A peça 11 contradizia o livro em três lugares, e as três frases eram de v0.27.** *"O refino não a escala" sobre o `canalizar energia`, em **duas** cópias — a §6 e o §10 —, e "é o único lugar do catálogo onde o refino toca dano" sobre o `projetar energia`.* **E dentro do próprio livro:** *a seção `Efeito do refino` diz que ele fica fora de dano, e cem linhas abaixo o `Canalizar energia` dá dano que escala com refino.* **Nenhuma marca, regex ou checagem pegava — as duas estão gramaticalmente perfeitas.**
+>
+> **⚠⚠ E a trava da §2 nomeava `dano` com uma justificativa que nunca alcançou ele.** *"Os cinco têm do outro lado alguém que cresce `+3`" — dano não tem: o que está do outro lado dele é a vida do inimigo, que é tabela do manual e não rola.* ***A saída não foi tirar dano da trava: foi escrever de que a trava dele é feita.*** **Ela é de ORÇAMENTO, e tem duas condições medíveis:** *o dano de refino não sobe o PICO da rodada — ele só existe na rodada em que não há feitiço —, e a rodada em que ele cai fica abaixo da Rotina do nível.* **Duas entradas usam a exceção, e a §6.9 é a dona das duas medidas.**
+>
+> ***Decisão do Mizuki na v0.157, escrita agora: o refino `10` passa a dar `4d6` em vez de `3d6`.*** *O argumento é de desenho, e são palavras dele:* **"isso incentiva a galera a querer pegar refino, e isso é bom, dá peso para as outras opções."** *A linha de graça do marco entrega `8` dos `10`, então os degraus `3`, `6` e `9` chegam para todo mundo — **o `10` é o único que exige ter escolhido Refino, e ele passou a ser o maior**: `+6,5` contra `+2,5` dos outros três.*
+>
+> **⚠ Só o `10` se move, e é isso que salva a v0.155 inteira.** *O degrau do nível 7 dos cinco Caminhos foi todo medido em **refino passivo `8`**, e a checagem 6 do `conferir-manual.py` continua verde sem uma linha mexida.*
+>
+> **A conta, no nível 30:** *a Ação de Atacar vale `23,00` sem dado nenhum — `0,85×` o `Classe 0` grátis, ou seja, **dominada pelo botão que toda ficha tem** —, `33,00` no refino `8`, e `51,00` no refino `10` com `4d6`, que é `1,89×`.* **O pior nível é o `7`, com a Ação de Atacar em `51,6%` da Rotina, e o `4d6` não move esse número** — no nível 7 o refino é `3`. *Dominância entre a pior e a melhor rota do nível 30: `1,55×` contra um filtro de `3,00×`.*
+>
+> **⚠⚠ E o `4d6` faz a exclusão do crítico virar CARGA.** *A peça 1 §5.2 exclui dado de aptidão do crítico; se ele dobrasse, o `Incapacitado` iria a `17,55`, que é `114%` do teto da `Leve` — com o soco, sem precisar de arma `d12`.* **Na v0.151 aquela linha era folga; hoje ela é o que segura a condição dentro da banda.** *Os números foram atualizados nos dois donos.*
+>
+> **A checagem 10 do `conferir-aptidoes.py` não guarda valor nenhum**, e ela lê a exceção do teto como RELAÇÃO — *o refino em que ela dispara, as faces novas, e se ela acrescenta um dado*. **Vinte e uma perturbações: dezoito acendendo e três contra-testes verdes**, e o que importa é o que reverte para `3d6` de forma coerente em todos os lugares e sai **verde**. *A primeira versão dela reprovava esse contra-teste, porque lia a exceção pelo literal.*
+>
+> **⚠⚠ E fechando a versão apareceu que a contagem de checagens mentia para baixo, por um rótulo em minúscula.** *A checagem 6 do `conferir-manual.py`, da v0.155, nasceu como `print('  6. os cinco degraus…')` — e o extrator da checagem 9 exige maiúscula depois do número.* **Ela nunca existiu para a contagem: o projeto publicava `258` e o código tinha `257`.** *É o irmão do defeito da v0.118, e as duas guardas daquela versão não pegam este caso — elas procuram buraco e repetição, e um bloco invisível não abre buraco.*
 
 ***A v0.155 fechou a dívida do vão do nível 7, aberta desde a v0.147 — e o diagnóstico não era o que a dívida dizia.*** **O ataque extra não virou letra morta: o VÃO é que deixou de ser um número.**
 
@@ -602,7 +620,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/08-criacao-de-personagem.md` | **os oito passos, e uma ficha inteira de exemplo** |
 | `03-mecanica/09-origens.md` | as cinco Origens, a sub-origem e as duas especiais |
 | `03-mecanica/10-descanso-e-recuperacao.md` | os dois descansos, ambiente propício, exaustão e os quatro relógios |
-| `03-mecanica/11-aptidoes-e-refino.md` | o eixo do controle: o refino, o terceiro eixo do marco, o catálogo e o Limiar |
+| `03-mecanica/11-aptidoes-e-refino.md` | o eixo do controle: o refino, o terceiro eixo do marco, o catálogo, o Limiar e — **desde a v0.158, na §6.9** — o **dano na arma**, com a exceção de dano da §2 escrita e as duas condições dela |
 | `03-mecanica/12-experiencia-e-progressao.md` | a curva de XP em degraus, o teto de um nível por missão, o retorno decrescente e o limiar do nível 20 |
 | `03-mecanica/13-legados.md` | **a régua de magnitude e o catálogo de 81 entradas**, nos três formatos (Destranca · Ajusta · Desliga), com a cota de Desliga e as vagas declaradas |
 | `03-mecanica/14-equipamento.md` | proteção, escudo, **as 52 armas** com fundo `3/5`, treino, requisito de Força e a divisão simples/marcial |
@@ -617,7 +635,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/conferir-equipamento.py` | o fundo de cada arma, a dominância **uma vez por rota de proteção — e são três**, e o teto de Defesa derivado dos três donos |
 | `03-mecanica/conferir-nomes.py` | o vocabulário do manual, extraído do `.docx`, contra todo nome que o projeto batizou |
 | `03-mecanica/conferir-manual.py` | a direção contrária: o manual contra o vocabulário e os números do projeto |
-| `03-mecanica/conferir-aptidoes.py` | a trava do refino, as três rotas do marco, o teto de Passivas e o kokusen |
+| `03-mecanica/conferir-aptidoes.py` | as **dez** checagens da peça 11: a trava do refino, as três rotas do marco, o teto de Passivas, o kokusen e o **dano na arma**. *A 10 entrou na v0.158 e lê a exceção do teto como **relação** — em que refino ela dispara, quais faces, e se ela acrescenta um dado —, para que reverter o valor de forma coerente saia verde* |
 | `03-mecanica/conferir-expansao.py` | os dois gates da Expansão, a ordem entre os degraus, o preço em espaços e a fragilidade da curva |
 | `03-mecanica/conferir-orcamento.py` | o somatório: todos os drenos de PE ao mesmo tempo, e se todo preço tem número |
 | `03-mecanica/conferir-xp.py` | a curva, o abismo que fecha, e se a regra ainda entrega o tempo que a Guilda pediu |

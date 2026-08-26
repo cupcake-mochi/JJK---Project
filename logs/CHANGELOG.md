@@ -8,6 +8,162 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.158] — 25/08/2026
+
+**O dano na arma ganhou peça, conta e validador, e ele estava sem os três desde a v0.147.** *Era o único dado do sistema nessa situação: ele morava só no livro, em dois capítulos, e nenhum `conferir-*.py` alcançava.* **Onze versões.**
+
+### ⚠⚠ A peça 11 contradizia o livro em três lugares, e as três frases eram de v0.27
+
+**A v0.147 escreveu a mecânica no capítulo e não levou ela a peça nenhuma.** *Com isso a peça 11 continuou publicando:*
+
+- ***"o refino não a escala"*** *sobre o `canalizar energia`, na §6 **e** no §10* — **duas cópias da mesma frase falsa**;
+- ***"é o único lugar do catálogo onde o refino toca dano"*** *sobre o `projetar energia`* — **são dois desde a v0.147**;
+- **e o `Estímulo Muscular` da §6.8 publicava só o relógio**, sem a metade que a rota já jogava.
+
+**No livro a contradição estava dentro do mesmo capítulo.** *A seção `Efeito do refino` diz que ele fica fora de dano, e cem linhas abaixo o `Canalizar energia` dá dano que escala com refino.* **O capítulo 12 tinha a mesma coisa, com a Lapidação.** *Nenhuma marca, regex ou checagem pegava: as duas frases estão gramaticalmente perfeitas e falavam de um estado que era verdade quando foram escritas.*
+
+### ⚠⚠ A trava da §2 nomeava `dano` e a justificativa dela nunca alcançou ele
+
+**A peça 11 §2 dizia:** *"isso elimina de saída acerto, CD, defesa, Teste de Resistência e dano — os cinco têm do outro lado alguém que cresce `+3`"*. **Dano não tem.** *Não existe ninguém do outro lado do dano rolando um dado: o que está lá é a vida do inimigo, que é uma tabela do manual.*
+
+> *O §10 da mesma peça repetia a lista e dizia **"os quatro"** na mesma frase, contando cinco.*
+
+***A saída não foi tirar dano da trava: foi escrever de que a trava dele é feita.*** **Ela é de ORÇAMENTO:** *o pico da rodada é o feitiço, e o Fundamento é dono do orçamento dele.*
+
+> **1. O dano de refino não sobe o PICO da rodada** — ele só existe na rodada em que não há feitiço.
+> **2. A rodada em que ele cai fica abaixo da Rotina do nível**, que é a régua com que a peça 6 §3 aprovou o ataque extra.
+
+**Duas entradas usam a exceção, e as duas são gratuitas:** *`projetar energia`, que já usava sem estar declarada, e o dano na arma.* **A §6.9, nova, é a dona das duas medidas.**
+
+*E a cerca da peça 5 §4 continua inteira sem uma palavra mexida:* **ela proíbe um CAMINHO de conceder refino dentro de uma rolagem, e nenhum dos cinco Caminhos entrega refino a ninguém.**
+
+### O refino `10` passa a dar `4d6`, e o argumento é de desenho
+
+***Decisão do Mizuki na v0.157, escrita agora:*** *"isso incentiva a galera a querer pegar refino, e isso é bom, dá peso para as outras opções."*
+
+| refino | dados | dano a mais | o degrau |
+|---|---|---|---|
+| `3` · `6` · `9` | `1d4` · `2d4` · `3d4` | `2,5` · `5,0` · `7,5` | `+2,5` cada |
+| **`10`** | `3d6` → **`4d6`** | `10,5` → **`14,0`** | `+3,0` → **`+6,5`** |
+
+> **⚠ Só o `10` se move, e é isso que salva a v0.155 inteira.** *O degrau do nível 7 dos cinco Caminhos — `Ainda de Pé` em `1,93` e `Não Pega` em `2,10` — foi todo medido em **refino passivo `8`**.* **A checagem 6 do `conferir-manual.py` continua verde sem uma linha mexida.**
+
+**E o degrau do teto é o único que a linha de graça não alcança.** *A linha passiva do marco entrega `8` dos `10` sozinha, então `3`, `6` e `9` chegam para todo mundo mais cedo ou mais tarde.* **O `10` chega no nível 22 para quem sempre escolhe Refino, no 26 para o meio a meio, e nunca para quem nunca escolhe.**
+
+### A conta, no nível 30
+
+*Base: o golpe simples com o soco — `d10` pela maestria mais Força `6` —, que dá `11,50`, o número que a peça 5 §4 publica. Dois golpes, pelo ataque extra do nível 7.*
+
+| a rodada sem PE | Ação de Atacar | contra o `Classe 0` grátis |
+|---|---|---|
+| sem dado nenhum | `23,00` | **`0,85×`** — o botão grátis ganha |
+| refino `8` | `33,00` | `1,22×` |
+| refino `10` com `3d6` | `44,00` | `1,63×` |
+| **refino `10` com `4d6`** | **`51,00`** | **`1,89×`** |
+
+**A primeira linha é o que a entrada existe para consertar:** *sem o dano na arma, a Ação de Atacar rende `23` contra os `27` do botão que toda ficha tem de graça, e o ataque extra do nível 7 vira letra morta.* **É a mesma medida que a v0.82 usou para recusar prender o ataque extra à Ação de Atacar, e que a v0.147 aceitou de propósito.**
+
+**No dia inteiro, com as `10,5` rodadas do bloco 1 do `conferir-orcamento.py`:** *o Bastião sai de `57,7%` da Rotina com refino `8` para `63,0%` com `3d6` e `66,3%` com `4d6`.* **A rodada de feitiço vale `94` nas três — o dano na arma não entra em feitiço, então o que sobe é o piso.**
+
+### O invariante, medido nos vinte e nove níveis
+
+> **O pior nível é o `7`, com a Ação de Atacar em `51,6%` da Rotina — e o `4d6` não move esse número**, porque no nível 7 o refino é `3`. *No nível 30 ela fica em `47,2%`, e a rodada de feitiço em `94` contra os `51` dela.*
+
+**Dominância dentro do mesmo Caminho, no nível 30: `1,33×` → `1,55×`, contra um filtro que reprova em `3,00×`.** *A comparação é entre a pior e a melhor rota que existem naquele nível — **nenhuma ficha chega ao 30 sem dano na arma**, porque a linha de graça entrega refino `8` sem escolha nenhuma.*
+
+> *Isso não é o `3,7×` que a peça 6 §3.1 publica:* **lá a comparação é contra uma ficha nua, e ficha nua é uma ficha do nível 2 ao 9.** *Uma mede a entrega ao longo da campanha; a outra mede duas fichas do mesmo nível, que é o que o filtro pergunta.*
+
+### O que o `4d6` custa, e os três já estavam aceitos
+
+| | com `3d6` | com `4d6` |
+|---|---|---|
+| Ação de Atacar contra o `Classe 0` grátis, nv30 | `1,63×` | **`1,89×`** |
+| o ataque extra do nível 7 no teto, peça 6 §3.1 | `1,68` fatia | **`1,95` fatia** |
+| dispersão do ataque extra ao longo da campanha | `3,2×` | **`3,7×`** |
+
+*As duas últimas andam por razão e não por reconta:* **um golpe vale `golpe + dados extras`, então `(11,50 + 14,00) ÷ (11,50 + 10,50)` = `1,159`, e `1,68 × 1,159` dá `1,95`.**
+
+### ⚠⚠ E o `4d6` faz a exclusão do crítico virar CARGA
+
+**A peça 1 §5.2 exclui *"dados que vieram de aptidão ou Bênção"* do crítico, e o dano na arma é exatamente isso.** *A v0.151 mediu o que aconteceria se dobrasse:*
+
+| se o dado de aptidão dobrasse | ganho | do teto da `Leve` |
+|---|---|---|
+| com `3d6`, soco `d10` | `14,40` | `93%` |
+| com `3d6`, arma `d12` | `15,30` | `99%` |
+| **com `4d6`, soco `d10`** | **`17,55`** | **`114%`** |
+| com `4d6`, arma `d12` | `18,45` | `120%` |
+
+**Naquela versão a exclusão era folga — o `Incapacitado` ficava *"a um `d12` de estourar a própria banda"*.** *Hoje o soco sozinho basta.* **A linha da regra não mudou uma palavra; o que mudou foi quanto ela está segurando.** *Atualizada nos dois donos: a peça 1 §5.2 e a tabela da peça 19 §2.4.*
+
+> **A linha da `Fornalha` não se move**, e o motivo é a própria trava `Só arma`: *o dano na arma não soma por cima de um `Classe 0` que viajou junto do ataque, então os dois nunca aparecem na mesma rolagem.*
+
+### ⚠ E a peça 1 nomeava a aptidão ERRADA
+
+*Ela dizia "o dano na arma do `cobrir-se`", e a **v0.148** moveu ele para o `canalizar energia`, por achado do Mizuki lendo o PDF.* **A v0.151 escreveu a linha por cima sem cruzar o nome.**
+
+### A checagem 10, e ela mede relação e não o `4d6`
+
+**Entrou no `conferir-aptidoes.py`, que é o validador dono da peça 11.** *Nenhum valor de regra mora dentro dele:* **o passo e o dado saem da linha de regra da §6.9; a exceção do teto é lida como relação — o refino em que ela dispara, as faces novas, e se ela acrescenta um dado; o dado do soco sai da peça 14 §5.0.6; a Força sai da peça 2 §3; o nível do ataque extra sai da peça 6 §3.1; a Rotina e o `Classe 0` saem do manual.**
+
+**Seis coisas conferidas:** *os dez degraus da escada reconstroem da regra; o pior nível e a fração publicados reconstroem dos donos; a razão de dominância reconstrói e cabe no filtro; a §2 tirou `dano` da lista dos quatro e escreve as duas condições em linha de regra; a rota que nunca escolhe Refino não alcança o teto; e as duas cópias do livro publicam a mesma escada que a peça.*
+
+> **O filtro de `3,00×` é lido do texto e comparado DEPOIS da reconstrução**, de propósito. *Uma checagem que se mede contra a própria constante sai verde quando alguém perturba a constante — é a lição nº 8, e o contra-teste prova que aqui ela não acontece.*
+>
+> **E a guarda de reconhecedor está lá:** *a escada tem de cobrir o refino `1` ao `10` sem buraco.* **Sem ela, renomear a tabela faz a checagem achar zero linha, logo zero divergência, e ela passa verde para sempre.**
+
+### O arnês
+
+*Cópia isolada refeita do zero a cada caso, base conferida verde **e lida** antes de cada perturbação, e o `diff` conferido — a função de troca falha se o alvo não existir ou se o arquivo não mudar.* **Vinte e um casos: dezoito acendendo e três contra-testes verdes.**
+
+*Acendem:* a escada perdendo um degrau; a linha de regra trocando o passo; a exceção apontando para um refino que ninguém alcança; a exceção perdendo o dado a mais com a tabela em `4d6`; o reconhecedor ficando cego; o pior nível publicado divergindo; a Ação de Atacar passando da Rotina; a dominância publicada divergindo; o filtro apertando abaixo da razão; `dano` voltando para a lista dos quatro; a §2 perdendo cada uma das duas condições; a §2 deixando de apontar para a §6.9; a linha de graça passando a alcançar o teto; o nível do teto divergindo da curva; o livro voltando ao `3d6` em cada um dos dois capítulos; e a §6.9 sumindo.
+*Ficam verdes:* **reverter para `3d6` de forma coerente em todos os lugares** — que é o que prova que a checagem mede relação e não a constante —, o filtro afrouxando, e prosa mudando sem mexer em número.
+
+> **⚠ E a primeira versão da checagem reprovava esse contra-teste.** *Ela lia a exceção pelo literal `e entra um dado a mais`, então voltar ao `3d6` fazia ela dizer "a §6.9 não publica mais a regra" em vez de sair verde.* **Uma checagem que só sabe ler a decisão de hoje não mede relação — mede a decisão.**
+>
+> **⚠ E a sub-checagem do incentivo nasceu SEM PERTURBAÇÃO QUE A ACENDESSE.** *Ela lia a curva do `CURVA` escrito no topo do validador — uma terceira cópia —, então perturbar a tabela da peça acendia a checagem 8 e não ela.* **Hoje ela lê a tabela da §3, que é a mesma que a checagem 8 reconstrói da regra.**
+
+### ⚠⚠ E a contagem de checagens estava mentindo PARA BAIXO de novo, por um rótulo em minúscula
+
+**Fechando a versão, o `conferir-repositorio.py` disse `258` com a checagem nova dentro — e ela devia dizer `259`.** *O projeto publicava `258` e o código tinha `257`, desde a v0.155.*
+
+> **A causa é o extrator da checagem 9, e ele exige LETRA MAIÚSCULA depois do número do bloco.** *A checagem 6 do `conferir-manual.py` — os cinco degraus do nível 7, escrita naquela versão — nasceu como `print('  6. os cinco degraus…')`, em minúscula e fora do `bloco()`.* **Ela nunca existiu para a contagem.**
+>
+> **É o irmão do defeito que a v0.118 achou, e as duas guardas daquela versão não pegam nenhum dos dois casos:** *ela procura **buraco** e **repetição** na sequência de números, e um bloco invisível não abre buraco nenhum — o `6` some e o `5` é o último.*
+>
+> *Consertado com o rótulo em maiúscula, no mesmo molde dos outros cinco daquele arquivo.* **A contagem verdadeira da v0.157 era `257`.**
+
+### Alterado
+
+- **O livro, nos dois capítulos**: o `4d6` no `Canalizar energia` e no `Estímulo Muscular`, e a seção `Efeito do refino` — que dizia que ele fica fora de dano — passou a nomear as duas entradas e a dizer que as duas só valem na rodada em que você não conjura. *A mesma coisa no capítulo 12, com a Lapidação e a Kata.*
+- **O `ESCALA` do bloco 1 do `conferir-aptidoes.py`** deixou de ter uma linha só para o `canalizar energia`: *o feitiço de Toque continua com teto zero, e o dano na arma entra como `magnitude fora de disputa`.*
+- **O rótulo da checagem 6 do `conferir-manual.py`**, que estava invisível para a contagem.
+
+### Medido depois
+
+| | v0.157 | v0.158 |
+|---|---|---|
+| peças de regra · validadores | 24 · 24 | iguais |
+| checagens no total | **257**, publicadas como `258` | **259** |
+| checagens do `conferir-aptidoes.py` | 9 | **10** |
+| checagens invisíveis para a contagem | **1** | **0** |
+| dados do sistema sem peça, sem validador e sem conta | **1** | **0** |
+| frases da peça 11 contradizendo o livro | **3** | **0** |
+| dívidas de preço abertas | 4 | **3** |
+| palavras do livro | 71.086 | **71.167** |
+| coluna única · duas colunas | 243 · 141 | **243 · 141** |
+| `conferir-voz --estrito` | 0 achados · 11 triagens | **0 achados · 11 triagens** |
+
+*Os 24 validadores verdes com `PULADA = 0`, o `conferir-repositorio.py`, os dois de `manual/matematica/` e os quatro builds.* **O manual do Fundamento não foi tocado: o dano na arma é da peça 11 e do livro.**
+
+> **Os quatro builds rodaram AQUI, e o controle foi rodado antes de eles valerem.** *Reconstruindo a partir da fonte de antes das edições, a coluna única saiu com `243` páginas e `3.036.222` bytes contra os `3.036.229` do build do Mizuki* — **sete bytes, e eles são o carimbo de data do PDF.** *As quatro fontes do projeto e o WeasyPrint 69 estão nesta máquina.*
+
+*`guard_numeros.py` nos dois capítulos mexidos.* **Sete diferenças, as sete explicadas:** *os dois `4d6` são o valor novo; os dois `um` são "entra um dado a mais"; o `9` e o `10` são os ponteiros de capítulo das frases novas — `capítulo 9, Fundamento` e `capítulo 10, Técnica Marcial` —; e as duas `duas` são a frase "duas entradas põem refino em dano, e as duas só valem…".*
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **Sobram três dívidas de preço** — *o vão do nível 7 esperando a escolha entre A e C, as Manhas supondo dois ataques, e o conserto da checagem 7.4* — **e as sete travas medidas e declaradas não aplicadas.**
+
+---
+
 ## [0.157] — 25/08/2026
 
 **A lição do rótulo da entrega entrou no `README`, onde o comando mora.** *Ela custou três rodadas na v0.156 e não estava escrita em lugar nenhum.*

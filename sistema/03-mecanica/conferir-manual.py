@@ -1059,8 +1059,13 @@ else:
 #
 # Nenhum numero mora aqui: os tres saem da tabela da peca, e o teto da diferenca
 # sai da frase que o declara.
-print()
-print('  6. os cinco degraus de nivel 7, e a diferenca declarada')
+# v0.158: este rotulo era `print('  6. os cinco degraus ...')`, em minuscula e
+# fora do `bloco()`. O extrator da checagem 9 do conferir-repositorio.py exige
+# LETRA MAIUSCULA depois do numero, entao ele nao via este bloco: a contagem do
+# projeto publicava 258 e o codigo tinha 257, desde a v0.155. A guarda daquela
+# checagem procura BURACO e REPETICAO, e nenhuma das duas abre aqui — o bloco
+# simplesmente nao existia para ela.
+bloco('6. OS CINCO DEGRAUS DE NIVEL 7 — a diferenca declarada')
 
 _t6 = open(_p6, encoding='utf-8').read() if os.path.exists(_p6) else ''
 _tot = {}

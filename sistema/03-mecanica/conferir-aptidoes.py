@@ -149,7 +149,7 @@ EIXOS = {
     'custo em PE':                (True,  'nao ha outro lado; e economia'),
     'frequencia':                 (True,  'nao ha outro lado; e relogio'),
     'escopo (alcance, duracao)':  (True,  'nao ha outro lado; e alcance'),
-    'magnitude fora de disputa':  (True,  'RD e protecao nao sao rolagem'),
+    'magnitude fora de disputa':  (True,  'RD, protecao e dano que nao compete com feitico'),
     'disputa contra outro refino': (True, 'simetrico — os dois lados crescem +9'),
     'rolagem de acerto':          (False, 'do outro lado, a Defesa cresce +3'),
     'CD de feitico':              (False, 'do outro lado, o atributo do TR cresce +3'),
@@ -158,10 +158,17 @@ EIXOS = {
     'dano que compete com feitico': (False, 'do outro lado, a vida de inimigo cresce'),
 }
 # o que cada aptidao escrita declara escalar
+# v0.158: o `canalizar energia` deixou de ter uma linha so. O feitico de Toque
+# continua com teto ZERO — ele vive dentro do orcamento do Fundamento —, e a outra
+# metade dele, o DANO NA ARMA, escala com o refino de proposito. Ele entrou no
+# livro na v0.147 e so ganhou peca na v0.158, na SS6.9; a checagem 10 mede ele
+# contra as duas condicoes que a SS2 escreve para o eixo de dano.
 ESCALA = {
     'cobrir-se, protecao':     'magnitude fora de disputa',
     'cobrir-se, RD da Reacao': 'magnitude fora de disputa',
-    'canalizar energia':       None,
+    'canalizar, Toque':        None,
+    'canalizar, dano na arma': 'magnitude fora de disputa',
+    'estimulo, dano na arma':  'magnitude fora de disputa',
     'projetar energia':        'magnitude fora de disputa',
     'kokusen, a chance':       'frequencia',
     'kokusen melhorado':       'frequencia',
@@ -1217,6 +1224,315 @@ else:
                           f'{"":<4}{g2} e {g3}{"":<7}ok')
         print('  Nenhum destes valores esta escrito dentro deste validador: os do')
         print('  refino sao derivados da CURVA e os da Lapidacao sao lidos do texto.')
+
+# --------------------------------------------------------------------------
+bloco('10. O DANO NA ARMA — a excecao da SS2, medida contra as duas condicoes')
+# v0.158. O dano na arma entrou no LIVRO na v0.147 e passou onze versoes sem peca,
+# sem validador e sem conta — o unico dado do sistema nessa situacao. A SS6.9 da
+# peca 11 e o dono dele, e este bloco confere o que ela publica.
+#
+# Nada de valor de regra mora aqui dentro:
+#   o passo e o dado ............. a linha de regra da SS6.9
+#   a excecao do teto ............ a mesma linha
+#   o teto de refino ............. TETO_REFINO, derivado da CURVA (SS3)
+#   o dado do soco por nivel ..... peca 14 SS5.0.6
+#   a Forca investida ............ peca 2 SS3 (3 na criacao, 6 no teto)
+#   o nivel do ataque extra ...... peca 6 SS3.1
+#   a Rotina e o Classe 0 ........ o manual, pelas tabelas importadas no topo
+#   o filtro de dominancia ....... lido do texto, e A PARTE da regra aplicada
+#
+# A separacao do filtro e' de proposito e e' a licao no 8: uma checagem que se
+# mede contra a propria constante sai VERDE quando alguem perturba a constante.
+# Aqui a razao e RECONSTRUIDA da escada e comparada com a publicada; so depois
+# ela e' comparada com o limite de design.
+SEC69 = ''
+_m69 = re.search(r'^## 6\.9\..*?(?=^## 7\.)', PECA11, re.S | re.M)
+if _m69:
+    SEC69 = _m69.group(0)
+
+_reg69 = re.search(r'`1d(\d+)` de dano a mais a cada `(\d+)` pontos de refino', SEC69)
+# A excecao e' lida como RELACAO: o refino em que ela dispara, as faces novas, e
+# se ela acrescenta um dado. Ela nao guarda o `4d6`: o total sai de refino//passo
+# mais o acrescimo. Assim o contra-teste coerente — voltar ao `3d6` mexendo em
+# tudo que isso implica — sai verde, que e' o que prova que a checagem mede a
+# relacao e nao a constante.
+_exc69 = re.search(r'No refino `(\d+)` os dados viram `d(\d+)`'
+                   r'(?: e entra (um) dado a mais)?', SEC69)
+
+if not SEC69:
+    erro('10: nao achei a secao 6.9 da peca 11 — o dano na arma perdeu o dono, e '
+         'este bloco parou de conferir em vez de acusar')
+elif not _reg69 or not _exc69:
+    erro('10: a SS6.9 nao publica mais a regra do dano na arma em linha de regra — '
+         'sem ela a escada nao tem de onde ser reconstruida')
+else:
+    FACE_BASE, PASSO_DANO = int(_reg69.group(1)), int(_reg69.group(2))
+    TETO_TXT, FACE_TETO = int(_exc69.group(1)), int(_exc69.group(2))
+    EXTRA_TETO = 1 if _exc69.group(3) else 0
+
+    def escada(r):
+        """(quantos dados, faces) no refino r — reconstruido da linha de regra."""
+        n = r // PASSO_DANO
+        if r >= TETO_TXT:
+            return n + EXTRA_TETO, FACE_TETO
+        return n, FACE_BASE
+
+    def media_dados(n, f):
+        return n * (f + 1) / 2.0
+
+    def dano_na_arma(r):
+        return media_dados(*escada(r))
+
+    if TETO_TXT != TETO_REFINO:
+        erro(f'10: a excecao da SS6.9 fala do refino {TETO_TXT} e o teto do refino e '
+             f'{TETO_REFINO}, derivado da curva da SS3 — ou ela aponta para um refino '
+             'que ninguem alcanca, ou o teto mudou e ela ficou para tras')
+
+    # ---- a escada publicada, lida da tabela da SS6.9
+    PUB = {}
+    for _l in SEC69.splitlines():
+        _mt = re.match(r'\|\s*\*{0,2}`(\d+)`\*{0,2}(?:\s*·\s*\*{0,2}`(\d+)`\*{0,2})?\s*\|'
+                       r'\s*(?:—|\*{0,2}`(\d+)d(\d+)`\*{0,2})\s*\|'
+                       r'\s*\*{0,2}`([\d,]+)`\*{0,2}\s*\|', _l)
+        if not _mt:
+            continue
+        _v = float(_mt.group(5).replace(',', '.'))
+        _n = int(_mt.group(3)) if _mt.group(3) else 0
+        _f = int(_mt.group(4)) if _mt.group(4) else 0
+        for _r in [int(_mt.group(1))] + ([int(_mt.group(2))] if _mt.group(2) else []):
+            PUB[_r] = (_n, _f, _v)
+
+    # guarda de reconhecedor: sem ela, renomear a tabela faz a checagem achar zero
+    # linha, logo zero divergencia, e ela passa verde para sempre sem ter conferido
+    # nada. E' a licao no 8 aplicada ao reconhecedor em vez de ao valor.
+    if sorted(PUB) != list(range(1, TETO_REFINO + 1)):
+        erro(f'10: a escada da SS6.9 cobre {sorted(PUB)} e o refino vai de 1 a '
+             f'{TETO_REFINO} — a tabela mudou de forma, e a comparacao abaixo passaria '
+             'verde sem conferir nada')
+    else:
+        print(f"  {'refino':<9}{'a peca publica':<18}{'a regra reconstroi':<22}")
+        _mau = 0
+        for _r in range(1, TETO_REFINO + 1):
+            _n, _f, _v = PUB[_r]
+            _en, _ef = escada(_r)
+            _ev = media_dados(_en, _ef)
+            _rot = f'{_en}d{_ef}' if _en else '—'
+            _bate = (_n, _f) == ((_en, _ef) if _en else (0, 0)) and abs(_v - _ev) <= 0.01
+            print(f'  {_r:<9}{(f"{_n}d{_f}" if _n else "—") + " = " + f"{_v:.1f}":<18}'
+                  f'{_rot + " = " + f"{_ev:.1f}":<22}{"ok" if _bate else "<<< DIVERGIU"}')
+            if not _bate:
+                _mau += 1
+        if _mau:
+            erro(f'10: {_mau} degrau(s) da escada da SS6.9 nao reconstroem da propria '
+                 f'linha de regra — `1d{FACE_BASE}` a cada {PASSO_DANO}, com o refino '
+                 f'{TETO_TXT} virando d{FACE_TETO} com um dado a mais')
+        else:
+            print('  [x] os dez degraus reconstroem da linha de regra, e nenhum deles')
+            print('      esta escrito dentro deste validador.')
+
+    # ---- o golpe simples, dos donos
+    with open(os.path.join(AQUI, '14-equipamento.md'), encoding='utf-8') as _f14:
+        PECA14 = _f14.read()
+    SOCO = []
+    for _l in PECA14.splitlines():
+        _ms = re.match(r'>?\s*\|\s*(\d)\s*\|\s*(\d+) a (\d+)\s*\|\s*\*\*d(\d+)\*\*\s*\|', _l)
+        if _ms:
+            SOCO.append((int(_ms.group(2)), int(_ms.group(3)), int(_ms.group(4))))
+    with open(os.path.join(AQUI, '02-economia-de-atributos.md'), encoding='utf-8') as _f02:
+        PECA02 = _f02.read()
+    _matr = re.search(r'Atributo investido: \*\*(\d+) na criação, (\d+) no teto', PECA02)
+    with open(os.path.join(AQUI, '06-caminhos-e-trilhas.md'), encoding='utf-8') as _f06:
+        PECA06 = _f06.read()
+    _mex = re.search(r'ganham ataque extra no nível (\d+)', PECA06)
+
+    if len(SOCO) != 4 or not _matr or not _mex:
+        erro('10: nao consegui ler o golpe simples dos donos — a escada do soco da '
+             f'peca 14 SS5.0.6 devolveu {len(SOCO)} faixa(s), a Forca da peca 2 SS3 '
+             f'{"veio" if _matr else "NAO veio"} e o nivel do ataque extra da peca 6 '
+             f'SS3.1 {"veio" if _mex else "NAO veio"}')
+    else:
+        ATR_INI, ATR_TETO = int(_matr.group(1)), int(_matr.group(2))
+        NV_EXTRA = int(_mex.group(1))
+
+        def faixa_do_soco(nv):
+            for _i, (_a, _b, _d) in enumerate(SOCO):
+                if _a <= nv <= _b:
+                    return _i, _d
+            return None, None
+
+        def golpe_simples(nv):
+            """dado do soco (peca 14) + Forca investida (peca 2).
+
+            A Forca sobe um por faixa do soco: as faixas da peca 14 SAO o ritmo da
+            maestria, entao o `8` nao precisa estar escrito aqui.
+            """
+            _i, _d = faixa_do_soco(nv)
+            return (_d + 1) / 2.0 + min(ATR_TETO, ATR_INI + _i)
+
+        def classe_do_nivel(nv):
+            _c = 1
+            for _k in sorted(CLASSE_NO_NIVEL):
+                if nv >= _k:
+                    _c = CLASSE_NO_NIVEL[_k]
+            return _c
+
+        # ---- condicao 2 da SS2: a rodada em que o dano na arma cai fica ABAIXO da
+        # Rotina do nivel. Medida nos 29 niveis, na rota que mais recebe.
+        _pior_nv, _pior = None, -1.0
+        _no30 = None
+        for _nv in range(2, 31):
+            _r = refino_em('especialista', _nv)
+            _atk = (2 if _nv >= NV_EXTRA else 1) * (golpe_simples(_nv) + dano_na_arma(_r))
+            _frac = 100.0 * _atk / ROTINA[classe_do_nivel(_nv)]
+            if _frac > _pior:
+                _pior_nv, _pior = _nv, _frac
+            if _nv == 30:
+                _no30 = _frac
+        print(f'\n  A Acao de Atacar com o dano na arma inteiro, contra a Rotina:')
+        print(f'  pior nivel {_pior_nv} com {_pior:.1f}% · nivel 30 com {_no30:.1f}%')
+        if _pior >= 100.0:
+            erro(f'10: no nivel {_pior_nv} a Acao de Atacar com o dano na arma chega a '
+                 f'{_pior:.1f}% da Rotina — a segunda condicao da SS2 exige que ela '
+                 'fique ABAIXO da regua, e o dano de refino deixou de caber')
+        _mp = re.search(r'O pior nível é o `(\d+)`, com a Ação de Atacar em '
+                        r'`([\d,]+)%` da Rotina', SEC69)
+        _m30 = re.search(r'No nível 30 ela fica em `([\d,]+)%`', SEC69)
+        if not _mp or not _m30:
+            erro('10: a SS6.9 nao publica mais o pior nivel e a fracao dele — o '
+                 'invariante da SS2 virou afirmacao sem numero ao lado')
+        else:
+            _pnv = int(_mp.group(1))
+            _pfr = float(_mp.group(2).replace(',', '.'))
+            _f30 = float(_m30.group(1).replace(',', '.'))
+            if _pnv != _pior_nv or abs(_pfr - _pior) > 0.1 or abs(_f30 - _no30) > 0.1:
+                erro(f'10: a SS6.9 publica o pior nivel em {_pnv} com {_pfr:.1f}% e o '
+                     f'nivel 30 com {_f30:.1f}%, e a conta reconstroi nivel {_pior_nv} '
+                     f'com {_pior:.1f}% e {_no30:.1f}%')
+            else:
+                print('  [x] o pior nivel e a fracao publicados reconstroem dos donos.')
+
+        # ---- a dominancia dentro do Caminho, no nivel 30. A REGRA APLICADA e a
+        # razao reconstruida; o LIMITE DE DESIGN e o filtro, lido a parte.
+        _r_pior = refino_em('generalista', 30)
+        _pior30 = 2 * (golpe_simples(30) + dano_na_arma(_r_pior))
+        _melhor30 = 2 * (golpe_simples(30) + dano_na_arma(TETO_REFINO))
+        _razao = _melhor30 / _pior30
+        _md = re.search(r'\|\s*\*{0,2}com o `4d6`\*{0,2}\s*\|\s*`([\d,]+)`\s*\|'
+                        r'\s*`([\d,]+)`\s*\|\s*\*{0,2}`([\d,]+)×`\*{0,2}\s*\|', SEC69)
+        _mf = re.search(r'filtro do projeto reprova a partir de `([\d,]+)×`', SEC69)
+        print(f'\n  Nivel 30: pior rota {_pior30:.2f} · melhor rota {_melhor30:.2f} · '
+              f'razao {_razao:.2f}x')
+        if not _md or not _mf:
+            erro('10: a SS6.9 nao publica mais a linha da dominancia no nivel 30 ou o '
+                 'filtro — sem os dois nada compara a razao com o limite de design')
+        else:
+            _p_pior = float(_md.group(1).replace(',', '.'))
+            _p_melhor = float(_md.group(2).replace(',', '.'))
+            _p_razao = float(_md.group(3).replace(',', '.'))
+            _filtro = float(_mf.group(1).replace(',', '.'))
+            if (abs(_p_pior - _pior30) > 0.01 or abs(_p_melhor - _melhor30) > 0.01
+                    or abs(_p_razao - _razao) > 0.01):
+                erro(f'10: a SS6.9 publica {_p_pior:.2f} / {_p_melhor:.2f} / '
+                     f'{_p_razao:.2f}x no nivel 30, e a conta reconstroi '
+                     f'{_pior30:.2f} / {_melhor30:.2f} / {_razao:.2f}x')
+            elif _razao >= _filtro:
+                erro(f'10: a razao entre a pior e a melhor rota no nivel 30 e '
+                     f'{_razao:.2f}x, e o filtro declarado reprova a partir de '
+                     f'{_filtro:.2f}x')
+            else:
+                print(f'  [x] a razao reconstroi, e ela cabe no filtro de {_filtro:.2f}x')
+
+    # ---- a excecao declarada na SS2, e ela e' o que autoriza tudo acima
+    SEC2 = ''
+    _m2 = re.search(r'^## 2\. A trava.*?(?=^## 3\.)', PECA11, re.S | re.M)
+    if _m2:
+        SEC2 = _m2.group(0)
+    _lista = re.search(r'Isso elimina de saída \*\*([^*]+)\*\*', SEC2)
+    _cond = [_l for _l in SEC2.splitlines()
+             if _l.lstrip().startswith('>') and 'PICO da rodada' in _l]
+    _cond2 = [_l for _l in SEC2.splitlines()
+              if _l.lstrip().startswith('>') and 'abaixo da Rotina do nível' in _l]
+    if not SEC2 or not _lista:
+        erro('10: nao achei a lista da trava na SS2 — sem ela nada diz o que o refino '
+             'nao pode escalar, e a excecao do dano fica sem contra o que ser excecao')
+    elif 'dano' in sem_acento(_lista.group(1)).lower():
+        erro('10: a lista da trava da SS2 voltou a nomear `dano` junto dos quatro que '
+             'tem rolagem disputada — a justificativa dela ("o outro lado cresce +3") '
+             'nao alcanca dano, e a SS2 declara a excecao com o motivo desde a v0.158')
+    elif not _cond or not _cond2:
+        erro('10: a SS2 parou de escrever as DUAS condicoes da excecao de dano em '
+             'linha de regra — sem elas a excecao vira permissao aberta')
+    elif '§6.9' not in SEC2:
+        erro('10: a SS2 declara a excecao de dano e nao aponta para a SS6.9, que e '
+             'quem mede as duas condicoes')
+    else:
+        print('\n  [x] a SS2 tira `dano` da lista dos quatro, escreve as duas condicoes')
+        print('      em linha de regra, e aponta para a SS6.9.')
+
+    # ---- o incentivo: o degrau do teto e o unico que a linha de graca nao alcanca
+    _sc = PECA11[PECA11.find('### A curva das três rotas, marco a marco'):]
+    _sc = _sc[:_sc.find('\n### ')] if '\n### ' in _sc else _sc
+    _pubc = {}
+    for _l in _sc.split('\n'):
+        _mc = re.match(r'^\|\s*\*\*(\w[\w ]*?)\*\*[^|]*\|(.+)\|\s*$', _l)
+        if _mc:
+            _vs = re.findall(r'`?(\d+)`?', _mc.group(2))
+            if len(_vs) == len(MARCOS):
+                _pubc[_mc.group(1).strip().lower()] = [int(x) for x in _vs]
+    _alcanca = {}
+    for _rota, _vals in _pubc.items():
+        _nv = None
+        for _i, _m in enumerate(MARCOS):
+            if _vals[_i] >= TETO_REFINO:
+                _nv = _m
+                break
+        _alcanca[_rota] = _nv
+    if len(_pubc) != 3:
+        erro(f'10: li {len(_pubc)} rota(s) na curva da SS3 e esperava 3 — sem ela nada '
+             'diz quem alcanca o teto do refino, e o argumento do incentivo fica sem '
+             'chao')
+        _alcanca = {'generalista': None, 'especialista': -1, 'meio a meio': -1}
+    _me = re.search(r'\*\*especialista\*\* — sempre Refino \|[^|]*\|\s*\*\*nível (\d+)\*\*', SEC69)
+    _mm = re.search(r'\*\*meio a meio\*\* \|[^|]*\|\s*nível (\d+)', SEC69)
+    _mg = re.search(r'\*\*generalista\*\* — nunca Refino \|[^|]*\|\s*\*\*nunca\*\*', SEC69)
+    if not _me or not _mm or not _mg:
+        erro('10: a SS6.9 parou de publicar em que nivel cada rota alcanca o teto do '
+             'refino — e e nisso que o argumento do incentivo se apoia')
+    elif _alcanca['generalista'] is not None:
+        erro(f'10: a rota que nunca escolhe Refino passou a alcancar o teto no nivel '
+             f'{_alcanca["generalista"]} — o degrau do teto deixou de ser exclusivo de '
+             'quem escolhe, e o argumento de incentivo da SS6.9 cai junto')
+    elif (int(_me.group(1)) != _alcanca['especialista']
+          or int(_mm.group(1)) != _alcanca['meio a meio']):
+        erro(f'10: a SS6.9 publica o teto chegando no nivel {_me.group(1)} para o '
+             f'especialista e {_mm.group(1)} para o meio a meio, e a curva da SS3 da '
+             f'{_alcanca["especialista"]} e {_alcanca["meio a meio"]}')
+    else:
+        print(f'  [x] o teto do refino chega no nivel {_alcanca["especialista"]} '
+              f'(especialista) e {_alcanca["meio a meio"]} (meio a meio), e a rota que')
+        print('      nunca escolhe Refino nao alcanca ele — o degrau e do eixo, nao da graca.')
+
+    # ---- as duas copias no LIVRO. Copia sem comparacao diverge (licao no 9), e foi
+    # exatamente isso que deixou o dano na arma onze versoes so no capitulo.
+    _LIV = os.path.join(AQUI, '..', '05-material', 'livro', 'manual')
+    _NT, _FT = escada(TETO_REFINO)
+    for _arq, _metrica in (('45-aptidoes-e-refino.md', 'refino'),
+                           ('47-bencaos-e-lapidacao.md', 'Lapidação')):
+        _cam = os.path.join(_LIV, _arq)
+        if not os.path.exists(_cam):
+            aviso(f'10: nao achei {_arq} — a copia do livro nao foi conferida')
+            continue
+        _txt = open(_cam, encoding='utf-8').read()
+        _ok_regra = re.search(rf'`1d{FACE_BASE}` de dano a mais a cada `{PASSO_DANO}` '
+                              rf'pontos de {_metrica}', _txt)
+        _ok_teto = re.search(rf'(?:refino|Lapidação) `{TETO_TXT}`[^\n]*`d{FACE_TETO}`'
+                             rf'[^\n]*`{_NT}d{_FT}`', _txt)
+        if not _ok_regra or not _ok_teto:
+            erro(f'10: o livro, em {_arq}, nao publica o dano na arma como a SS6.9 '
+                 f'escreve — `1d{FACE_BASE}` a cada `{PASSO_DANO}` de {_metrica}, e no '
+                 f'`{TETO_TXT}` virando `{_NT}d{_FT}`')
+        else:
+            print(f'  [x] {_arq} publica a mesma escada que a SS6.9')
 
 # --------------------------------------------------------------------------
 print()
