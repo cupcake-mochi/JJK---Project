@@ -570,23 +570,21 @@ Toda entrega é fração de alguma coisa. **Se essa coisa não crescer no ritmo 
 - **Triagem de todo nome** que as quinze criarem — e é onde mais nome novo vai nascer no projeto inteiro.
 - **A cota de ataque extra da peça 6 §3.1** conferida contra o catálogo: só `Arremate` e `Coro` o dão por Trilha, e **o Guia por nenhuma rota**.
 
-> ## ⏸ PARADO na v0.82 — o Evocador sai da fila, e NÃO por ter morrido
+> ## ✔ FECHADO na v0.164 — as doze entregas do Evocador, e as quinze Trilhas com elas
 >
-> ***Decisão do Mizuki:*** *"evocador deixa realmente para outro dia, ninguém vai usar essa classe por enquanto."* **A primeira mesa de teste não vai ter Evocador**, então as três Trilhas dele deixam de travar o material de mesa.
+> ***A decisão que segurava isto era da v0.82:*** *"evocador deixa realmente para outro dia, ninguém vai usar essa classe por enquanto."* **A premissa dela era a primeira mesa de teste não ter Evocador — e ela NÃO mudou.** *Decisão do Mizuki na v0.164: reabrir mesmo assim.* **A decisão da v0.82 fica registrada como superada por escolha, e não por fato.**
 >
-> **Isto NÃO vai para `99-arquivo/`, e a diferença importa.** Aquela pasta é de material morto, com o motivo da morte escrito. **Nada aqui morreu:** a régua da camada de vínculo fechou, o catálogo do degrau 1 fechou, e o `Servo` está montado e fecha em `5,07` contra um orçamento de `5,07`.
+> **O que destravou de verdade foi a v0.163**, que fechou as duas regras que a peça 15 devia: *quando a vida cheia da invocação reinvocada volta* — descanso longo, derivado da peça 10 §3 — e *o que acontece com a invocação quando o dono cai* — ela fica parada e não pode ser comandada. **Enquanto as duas estavam abertas, nenhuma entrega que mexesse nelas tinha contra o que ser medida.**
 >
-> **O que falta para as três, quando voltarem:**
+> **As três estão no `DESENHO-trilhas.md`**, na seção *"O Evocador mecânico"*, com preço, texto de mesa e matriz. *`Servo` `7,32` · `Matilha` `5,05` · `Coro` `7,67`, de `5,00`, com os três estouros declarados.*
 >
-> | | estado |
-> |---|---|
-> | `Servo` | montado no §6.10. **Falta uma coisa só: o gatilho do nível 27**, que é o que fixa os `15%` |
-> | `Matilha` | nenhuma das quatro entregas escrita. **Não pode receber ação nem orçamento**, pela matriz |
-> | `Coro` | nenhuma das quatro escrita. **Limpo nos cinco eixos** — é o que tem mais espaço |
+> ### ⚠⚠ E o que este cabeçalho publicou por trinta e duas versões estava numa escala morta
 >
-> **E duas regras que a peça 15 deve continuam devendo:** quando a vida cheia da invocação reinvocada volta, e o que acontece com a invocação quando o DONO cai. *Enquanto as duas não fecharem, nenhuma entrega que mexa nelas tem contra o que ser medida.*
+> **Ele dizia que o `Servo` "fecha em `5,07` contra um orçamento de `5,07`".** *Aquele `5,07` é `4 × 1,27`, e a fatia é `5,08` desde a **v0.73** — nove versões ANTES de este cabeçalho ser escrito.* **Na escala de hoje aquela montagem entregava `1,00` fatia de `5,00`: 20% do orçamento.**
 >
-> **A `LISTA-gatilhos-trilhas` tem uma dívida presa nisto:** as 17 entregas possíveis e as 50 montagens do Evocador são da escala velha e nunca foram recontadas.
+> *A `LISTA-gatilhos-trilhas` já tinha achado isso na v0.77 e escrito, com todas as letras, que "o `Servo` publicado precisa ser **refeito** e não reajustado".* **O achado nunca voltou para cá nem para o §6.10.** *Um número, dois documentos, duas respostas — e quem estava certo era o que ninguém abre primeiro.*
+>
+> **E o segundo defeito não era de escala, e ninguém tinha visto:** *a peça 15 §3.4 escreve que o `Servo` e a `Matilha` **comandam e não atacam**.* **Então o nível 27 daquela montagem — "o SEU golpe simples pega 2 alvos" — só pagava na rodada em que o jogador abrisse mão da rodada inteira da invocação.** *E isso não é uma entrega: as quatro maiores linhas da régua de `DESENHO-trilhas.md` dependem de uma Ação Padrão que duas das três Trilhas gastam no `Comando`.*
 
 
 ## 6. O primeiro bloco da Q5 — o Evocador, e o que ele já achou na régua
@@ -908,7 +906,13 @@ Rodado contra a dívida da peça 14 §4, que é o alvo em todo nível:
 
 **E o achado que fecha esta seção: os exemplos da escada de Classe Passiva nunca tinham sido preçados.** Ela foi escrita como **forma** — o que separa permanente de reativo de condicional — e as células viraram exemplo sem ninguém converter em fatia. **Dois dos sete não sobrevivem ao contato:** *"+3 m sempre"* está `1,42×` grande e *"+1 rodada sempre"* está `11×`.
 
-### 6.10 O `Servo`, montado — a prova de que o método novo constrói — v0.68
+### 6.10 ~~O `Servo`, montado~~ — **VENCIDO. Refeito na v0.164** — v0.68
+
+> ## ⚠⚠ TUDO ABAIXO ESTÁ NA ESCALA DE `1,27` POR FATIA, E ELA MORREU NA v0.73
+>
+> **Esta montagem entrega `1,00` fatia de `5,00` na escala de hoje** — 20% do orçamento —, e o nível 27 dela está pendurado num golpe que o dono do `Servo` não dá. *O `Servo` de verdade está no `DESENHO-trilhas.md`, na seção "O Evocador mecânico".*
+>
+> **A seção fica, e fica inteira, porque o MÉTODO dela sobreviveu**: a camada de vínculo, a taxa declarada por entrada, e a leitura de que o preço mora na Trilha. *O que morreu foram os quatro números.* **Número errado apagado é número que alguém redescobre** — mesmo molde das colunas velhas da `LISTA-gatilhos`.
 
 *As quatro entregas somam `5,07` de dano por rodada, que é o orçamento de quatro fatias.*
 
@@ -925,7 +929,7 @@ Rodado contra a dívida da peça 14 §4, que é o alvo em todo nível:
 
 **E o `+3 m` estar 42% acima de uma fatia é a direção que ajuda:** o §3.3 mediu que a Trilha inteira roda de 14% a 34% **abaixo** do alvo da peça 14 no miolo da campanha.
 
-**O que falta escrever nesta Trilha:** o gatilho do nível 27, que é o que fixa os `15%` — e ele **não pode supor corpo a corpo** pela trava do §6.4, nem dar ação pela trava da matriz.
+~~**O que falta escrever nesta Trilha:** o gatilho do nível 27, que é o que fixa os `15%`.~~ **Não existe gatilho que produza `15%`, e a `LISTA-gatilhos` provou isso por subtração na v0.77:** *`5,07 − 1,56 − 1,80 = 1,71`, e `1,71 ÷ 11,50 = 14,9%`.* **A taxa saiu do que sobrou nas outras três, e não de gatilho nenhum.** *Com a lista de gatilhos fechada não existe mais `15%`: existem `100%`, `50%` e `30%`.*
 
 ## 7. O que esta peça destrava, e o que ela fecha
 

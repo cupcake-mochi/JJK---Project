@@ -1,8 +1,28 @@
 # Estado atual do projeto
 
-Atualizado em 26/08/2026, na v0.163 (última peça fechada: **Dano de alma e Integridade**, a peça 24, na v0.145, com o `conferir-alma.py` e doze checagens; antes dela, **Bloquear, na v0.143**; antes dela, o **Objeto amaldiçoado, na v0.132**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 26/08/2026, na v0.164 (última peça fechada: **Dano de alma e Integridade**, a peça 24, na v0.145, com o `conferir-alma.py` e doze checagens; antes dela, **Bloquear, na v0.143**; antes dela, o **Objeto amaldiçoado, na v0.132**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.163.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e quatro peças escritas** e **vinte e quatro validadores**.
+**Versão v0.164.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e quatro peças escritas** e **vinte e quatro validadores**.
+
+***A v0.164 fechou as doze entregas do Evocador, e com elas as quinze Trilhas.*** *`Servo`, `Matilha` e `Coro` estavam paradas desde a v0.82 — trinta e duas versões — e o que travava não era o que o cabeçalho de parada dizia.*
+
+> ***A decisão que as segurava foi superada por ESCOLHA e não por fato.*** *"Evocador deixa realmente para outro dia, ninguém vai usar essa classe por enquanto" — a premissa era a primeira mesa de teste não ter Evocador, e ela não mudou.* **Decisão do Mizuki: reabrir mesmo assim.** *O que destravou de verdade foi a v0.163: enquanto o relógio da meia vida e a queda do dono estavam abertos, nenhuma entrega que mexesse neles tinha contra o que ser medida.*
+>
+> **⚠⚠ O `Servo` que o rascunho publicava como "montado" estava em `1,27` por fatia, e a fatia é `5,08` desde a v0.73** — *nove versões ANTES de o cabeçalho de parada ser escrito.* **Na escala de hoje aquela montagem entregava `1,00` fatia de `5,00`.** *A `LISTA-gatilhos-trilhas` já tinha achado isso na v0.77 e escrito que ele "precisa ser **refeito** e não reajustado"; o achado nunca voltou para o rascunho.*
+>
+> **E o segundo defeito não era de escala.** *A peça 15 §3.4 escreve que o `Servo` e a `Matilha` **comandam e não atacam** — a Ação Padrão vai no `Comando`, toda rodada.* **As quatro maiores linhas da régua de `DESENHO-trilhas.md` dependem de uma Ação Padrão que duas das três Trilhas gastam na porta de entrada**, e o nível 27 daquela montagem era uma delas. *O `Coro` é o único dos três que paga por essas moedas.*
+>
+> | | total | lidera | estouro |
+> |---|---|---|---|
+> | **`Servo`** | `7,32` | defesa e recuperação | `+46%` |
+> | **`Matilha`** | `5,05` | — | `+1%` |
+> | **`Coro`** | `7,67` | ação/alvo | `+53%` |
+>
+> ***A `Matilha` ganhou um dial que só ela pode ter, e ele é ideia do Mizuki.*** *Com cinco corpos em pool a `50%`, "quantos acertam" é `96,9 · 81,3 · 50,0 · 18,8 · 3,1%` — e o degrau de três cai em `50,0%` **exatos**, a mesma taxa da lista fechada.* **A Trilha inteira é esse dial andando, e o nível 27 desce ele de três para dois.**
+>
+> **⚠⚠ E duas Trilhas monocromáticas na mesma coluna sempre dominam uma à outra.** *Aconteceu dentro da passada: com o `Coro` em `4,96` a `Matilha` dominava, e com ele em `7,67` a dominância inverteu sem ninguém encostar nela.* ***Decisão do Mizuki: declarar*** — **o eixo que separa as duas mora na outra matriz**, cinco corpos contra atacar-e-comandar. *Entrou a **checagem 15** do `conferir-catalogo.py`, que reconta a matriz das linhas de preço e falha nas duas direções, com a guarda de que declaração só vale se nomear o eixo de fora.* **Sete perturbações: seis acendendo, e o contra-teste — que move a coluna, a matriz e a declaração juntas — sai verde.**
+>
+> **⚠⚠ E a triagem era cega para o catálogo de Bênçãos inteiro.** *`Casco`, `Ímpeto` e `Presilha` saíam `LIVRE`.* **Já tinha custado um nome: `Casco` está batizado duas vezes**, como Bênção e como rota da `Sintonia` do Evocador — e os dois são sobre ganhar vida. *Consertado no validador; o nome duplicado fica como achado.*
 
 ***A v0.163 fechou as duas pendências de Invocações que este arquivo declarava como trava das três Trilhas do Evocador, e nenhuma das duas era a decisão que parecia ser.***
 
@@ -570,7 +590,7 @@ python3 conferir-ficha.py        # a ficha de 05-material contra os catálogos d
 python3 conferir-legados.py      # os três formatos, a cota de Desliga, as vagas e os totais
 python3 conferir-invocacoes.py   # o teto somado, o catálogo, a régua, a morte e o orçamento
 python3 conferir-ferramenta.py   # o fundo, o gate herdado, a escada de grau, o teto na ficha
-python3 conferir-catalogo.py     # o índice das 90 entradas contra os três DESENHO da raiz
+python3 conferir-catalogo.py     # o índice das 102 entradas contra os três DESENHO da raiz
 python3 conferir-progressao.py   # as nove colunas da tabela de progressão contra os donos
 python3 conferir-dano.py         # a régua de condição, as treze, os tipos de dano e a cobertura
 python3 conferir-alma.py         # a Integridade com Essência, os quatro estágios, o TR e a exceção
@@ -726,8 +746,8 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/conferir-criacao.py` | **a instância, não a regra**: a ficha de exemplo da peça 8 contra as fórmulas, a proteção da aptidão gratuita, a Trilha na criação e se o catálogo citado existe |
 | `03-mecanica/conferir-ficha.py` | **o material contra a regra**: as 23 perícias, os 11 ofícios, os 5 Caminhos, as 15 Trilhas e as constantes do nível 2 que a ficha imprime, contra as peças donas |
 | `03-mecanica/conferir-invocacoes.py` | as **trinta e uma** checagens da peça 15, sem um número guardado dentro dele — e a busca exaustiva das 21.502 montagens que gastam o orçamento cheio no nível 30 |
-| `03-mecanica/17-catalogo-de-entregas.md` | **o índice das 90 entradas** — 56 entregas de Trilha, 20 degraus de Caminho e as 14 Manhas —, com a regra de contagem e o ponteiro de onde o texto de cada uma mora |
-| `03-mecanica/conferir-catalogo.py` | as **catorze** checagens da peça 17, e **o primeiro validador que sai da pasta**: ele lê os três `DESENHO-*.md` da raiz |
+| `03-mecanica/17-catalogo-de-entregas.md` | **o índice das 102 entradas** — 68 entregas de Trilha, 20 degraus de Caminho e as 14 Manhas —, com a regra de contagem e o ponteiro de onde o texto de cada uma mora |
+| `03-mecanica/conferir-catalogo.py` | as **quinze** checagens da peça 17, e **o primeiro validador que sai da pasta**: ele lê os três `DESENHO-*.md` da raiz |
 | `03-mecanica/18-progressao.md` | **a tabela de progressão** — o que se ganha em cada nível, do 1 ao 30, numa tabela só. Nove das dez colunas são cópia com dono declarado; a décima, o tamanho da lista de feitiços, nasce aqui |
 | `03-mecanica/conferir-progressao.py` | as **oito** checagens da peça 18: cada coluna reconstruída a partir do dono, a fórmula dos espaços contra a tabela da peça 11, e a cópia de três fichas da peça 2 |
 | `03-mecanica/19-dano-e-condicoes.md` | **a régua de condição** — quanto vale cada uma das treze, em dano por rodada e em nível —, mais as treze condições, os catorze tipos de dano e a cobertura, que vieram da peça 1 |
@@ -1075,7 +1095,7 @@ Vale ter isso à mão, porque o material é grande e engana. *Medido na v0.33, e
 |---|---|
 | ~~Tabela de proteção~~ | **fechada na v0.48**, na peça 14: Traje e Revestimento com três degraus cada, e escudo com três |
 | ~~Regra de Pactos~~ | **fechada na v0.134**, na peça 22: quatro formas, e só o permanente tem teto. *Ela continua sendo opcional na criação — a ficha nasce sem pacto nenhum —, e as outras três formas de troca continuam com o dono que já tinham, no manual e na peça 13* |
-| Trilhas com número | a Trilha é escolhida no nível 2, mas o que ela entrega chega depois |
+| ~~Trilhas com número~~ | **fechada na v0.164**: as quinze têm as quatro entregas escritas, com preço e texto de mesa |
 | ~~Aptidões e degraus de refino~~ | **fechada na v0.27**, na peça 11 — e as quatro anti-domínio na v0.29. *Continuam valendo só do nível 6 em diante* |
 
 **O que não existe, e faz falta para alguém jogar:**
@@ -1120,7 +1140,7 @@ O que falta agora, na ordem em que travam umas às outras:
 | ~~1~~ | ~~Descanso e recuperação~~ | **fechada na v0.23** (peça 10) |
 | ~~2~~ | ~~Aptidões e degraus de refino~~ | **fechada na v0.27** (peça 11), e as quatro anti-domínio na v0.29 |
 | ~~3~~ | ~~Tabela de XP~~ | **fechada na v0.31 e v0.32** (peça 12) — era a trava nº 1 de mundo compartilhado |
-| 4 | **Trilhas com número** | **depois do nível 2.** O Caminho para de significar alguma coisa. Resolve também a dúvida aberta do Guia contra a Vanguarda |
+| ~~4~~ | ~~**Trilhas com número**~~ | **fechada na v0.164** — as três do Evocador foram as últimas. *A dúvida do Guia contra a Vanguarda já tinha fechado na v0.61* |
 | ~~5~~ | ~~**Equipamento**~~ | **fechada na v0.48** (peça 14) — a proteção ganhou número, e o teto de Defesa ganhou dono derivado |
 
 > **Mas a fila mudou de natureza na v0.32, e vale ler isto antes de pegar a próxima peça.**
@@ -1150,12 +1170,14 @@ Quatro peças, e a ordem é de **dependência**, não de tamanho. A ordem que el
 |---|---|---|---|
 | ~~1~~ | ~~**Invocações**~~ | **fechada na v0.58** (peça 15), com o `conferir-invocacoes.py` e trinta e uma checagens | rotas 6/9 → 6/9 · vagas 0 de 7 |
 | ~~2~~ | ~~**Ferramenta amaldiçoada**~~ | **fechada na v0.59** (peça 16): a máquina e o catálogo saíram na v0.55 e na v0.56, e o `conferir-ferramenta.py` tem **dezenove** checagens | **rotas 6/9 → 8/9** · vagas 3 de 7 |
-| 1 | **Trilhas** | fecha com as quinze de uma vez, e agora nada mais a trava | toca **100% das fichas** |
+| ~~1~~ | ~~**Trilhas**~~ | **fechadas na v0.164**, com as três do Evocador | tocou **100% das fichas** |
 | ~~2~~ | ~~**Objeto amaldiçoado**~~ | **fechada na v0.132** (peça 21), com o `conferir-objeto.py` e doze checagens | rotas 8/9 → 8/9 · **fechou a vaga de `Desliga` do Reencarnado** |
 
 > **✔ A DUAS RESPOSTAS ACABOU NA v0.103.** *Esta fila dizia `Trilhas`; a peça 16 §9 dizia que a `Técnica Marcial` **é a peça seguinte**.* ***Decisão do Mizuki: são as três Trilhas do Evocador** — `Servo`, `Matilha` e `Coro`.* **A peça 16 foi corrigida junto**, e ela deixou de nomear a Técnica Marcial como a seguinte.
 >
-> *As três estão paradas desde a v0.82, e ele mesmo tinha decidido que ficariam por último. Elas fecham as quinze Trilhas e tiram o Evocador de ser o único Caminho sem Trilha com número.* **Quando entrarem, o total de 90 entradas da peça 17 muda e a checagem 1 do `conferir-catalogo.py` acusa.**
+> ***As três entraram na v0.164***, depois de trinta e duas versões paradas. *Elas fecham as quinze Trilhas e tiram o Evocador de ser o único Caminho sem Trilha com número.* **O total da peça 17 foi de `90` para `102`, e a checagem 1 do `conferir-catalogo.py` acusou no mesmo commit — que é para o que ela existe.**
+>
+> **A fila da mecânica ficou SEM ITEM.** *O que sobra são as duas peças que este arquivo já nomeia em outras seções: o `Bestiário` — os nove números com quatro donos que montar um inimigo pede — e a criação própria de `Sem Técnica`, a nona rota de Origem.*
 
 > **As posições 2 e 3 ganharam rascunho na v0.54**, e os dois têm o mesmo formato do de Invocações — perguntas em ordem de dependência, com o que a conta já fecha separado do que é sabor.
 >

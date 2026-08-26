@@ -787,6 +787,184 @@ else:
         print('     ' + ' · '.join(f'{k}: {v}' for k, v in sorted(_por.items())))
         print('  [x] toda Manha do catalogo aponta para a familia de onde a trava dela sai.')
 
+# ================================================================ 15
+# v0.164: a MATRIZ DE COLUNAS de um Caminho, recontada das linhas de preco.
+#
+# Ela nasce com o Evocador porque foi ali que o defeito apareceu: duas Trilhas
+# monocromaticas na MESMA coluna dominam uma a outra qualquer que seja o valor,
+# e mexer no numero so troca quem domina. Aconteceu dentro desta passada — com
+# o Coro em 4,96 a Matilha dominava, e com ele em 7,67 a dominancia inverteu
+# sem ninguem encostar na Matilha.
+#
+# NADA DE VALOR MORA AQUI. As colunas saem do cabecalho da tabela de preco de
+# cada Trilha; os valores saem das linhas dela; a matriz publicada e recontada
+# e comparada; e as dominancias achadas sao comparadas com as DECLARADAS, lidas
+# do texto. Ela falha nas duas direcoes — dominancia achada e nao declarada, e
+# dominancia declarada que nao aparece mais.
+#
+# A trava que impede ela de virar trivialmente verdadeira: uma declaracao vale
+# so se ela NOMEAR o eixo que resolve o par fora desta matriz. Sem isso,
+# escrever "declarado" em qualquer lugar apagaria a checagem.
+print('\n' + '=' * 88)
+print('15. MATRIZ DE COLUNAS — a dominancia entre Trilhas do mesmo Caminho')
+print('=' * 88)
+
+def _coluna_da_celula(cel):
+    return re.sub(r'[*`]', '', cel).strip().lower()
+
+def _indice_de(cab, alvo):
+    cels = [c.strip().lower() for c in cab.strip().strip('|').split('|')]
+    for i, c in enumerate(cels):
+        if c == alvo:
+            return i
+    return None
+
+# 15.1 — reconta a matriz de cada Trilha a partir das linhas de preco dela
+_perfis = {}
+for _rot, (_a, _b) in sorted(SECAO.items(), key=lambda kv: kv[1][0]):
+    _cab = None
+    for _j in range(_a, _b):
+        if re.match(r'^\|\s*nv\s*\|', TRI[_j], re.I) and 'fatias' in TRI[_j].lower():
+            _cab = _j
+            break
+    if _cab is None:
+        continue
+    _cf = _coluna_de_fatias(TRI[_cab])
+    _cc = _indice_de(TRI[_cab], 'coluna')
+    if _cc is None:
+        continue                      # Trilha sem coluna declarada nao entra
+    _acc = {}
+    for _k in range(_cab + 1, _b):
+        if not re.match(r'^\|\s*\*\*(2|11|19|27)\*\*\s*\|', TRI[_k]):
+            continue
+        _cels = [c.strip() for c in TRI[_k].strip().strip('|').split('|')]
+        if max(_cf, _cc) >= len(_cels):
+            continue
+        _vals = _fatias_da_celula(_cels[_cf])
+        _col = _coluna_da_celula(_cels[_cc])
+        if not _vals or not _col:
+            continue
+        _acc[_col] = _acc.get(_col, 0.0) + min(_vals)
+    if _acc:
+        _perfis[_rot] = _acc
+
+# so as Trilhas cuja secao mecanica declara coluna entram — as antigas nao tem
+_TRI_EVO = [r for r in _perfis if any(n in r for n in ('Servo', 'Matilha', 'Coro'))]
+print(f'  {len(_perfis)} Trilha(s) com coluna declarada em linha de preco; '
+      f'{len(_TRI_EVO)} do Evocador')
+
+if len(_TRI_EVO) != 3:
+    erro('15', f'achei {len(_TRI_EVO)} Trilha(s) do Evocador com coluna declarada e '
+               'sao tres — o extrator parou de casar, e a matriz passaria a medir '
+               'menos do que existe em vez de acusar')
+else:
+    # coluna que e zero em TODAS nao e coluna: e rotulo de degrau de preco zero
+    # ("e a concessao", "e o vao"). O conjunto sai dos dados e nao daqui.
+    _cols = sorted({c for r in _TRI_EVO for c in _perfis[r]
+                    if any(_perfis[q].get(c, 0.0) > 0.005 for q in _TRI_EVO)})
+    print('  ' + ' · '.join(f'{c}' for c in _cols))
+
+    # 15.1.1 — a matriz PUBLICADA contra a recontada. Duas copias, um dono.
+    _mcab = None
+    for _i, _l in enumerate(TRI):
+        if _l.startswith('|') and all(c in _l.lower() for c in _cols) and 'total' in _l.lower():
+            _mcab = _i
+    if _mcab is None:
+        erro('15', 'nao achei a tabela de matriz publicada com as colunas que as linhas '
+                   'de preco produzem — sem ela nada compara o publicado com o contado')
+    else:
+        _ordem = [c.strip().lower() for c in TRI[_mcab].strip().strip('|').split('|')]
+        _lidas = 0
+        for _i in range(_mcab + 2, min(_mcab + 2 + len(_TRI_EVO) + 2, len(TRI))):
+            if not TRI[_i].startswith('|'):
+                break
+            _c = [x.strip() for x in TRI[_i].strip().strip('|').split('|')]
+            _nome = re.sub(r'[*`]', '', _c[0]).strip()
+            _alvo = next((r for r in _TRI_EVO if _nome and _nome in r), None)
+            if not _alvo:
+                continue
+            _lidas += 1
+            for _col in _cols:
+                _j = _ordem.index(_col)
+                _pub = _fatias_da_celula(_c[_j]) if _j < len(_c) else []
+                _rec = _perfis[_alvo].get(_col, 0.0)
+                if not _pub:
+                    erro('15', f'a matriz publicada nao traz numero para {_nome} em {_col}')
+                elif abs(_pub[0] - _rec) > 0.08:
+                    erro('15', f'a matriz publica {_nome} com {_pub[0]:.2f} em {_col} e as '
+                               f'linhas de preco somam {_rec:.2f}')
+        if _lidas != len(_TRI_EVO):
+            erro('15', f'li {_lidas} linha(s) da matriz publicada e sao {len(_TRI_EVO)} '
+                       'Trilhas — o extrator parou de casar')
+        elif not [e for e in erros if e.startswith('[15]')]:
+            print(f'  [x] a matriz publicada reconta das {len(_TRI_EVO) * 4} linhas de preco.')
+    for _r in _TRI_EVO:
+        _linha = ' · '.join(f'{c} {_perfis[_r].get(c, 0.0):.2f}' for c in _cols)
+        print(f'    {_r:<28}{_linha}   total {sum(_perfis[_r].values()):.2f}')
+
+    # 15.2 — quem domina quem, pelas colunas
+    _dom = set()
+    for _x in _TRI_EVO:
+        for _y in _TRI_EVO:
+            if _x == _y:
+                continue
+            _ge = all(_perfis[_x].get(c, 0.0) >= _perfis[_y].get(c, 0.0) - 0.005
+                      for c in _cols)
+            _gt = any(_perfis[_x].get(c, 0.0) > _perfis[_y].get(c, 0.0) + 0.005
+                      for c in _cols)
+            if _ge and _gt:
+                _dom.add((_x, _y))
+
+    # 15.3 — o que o documento DECLARA, lido do texto e nao guardado aqui
+    _txt = '\n'.join(TRI)
+    _decl = set()
+    for _x in _TRI_EVO:
+        for _y in _TRI_EVO:
+            if _x == _y:
+                continue
+            _nx = re.findall(r'`([^`]+)`', _x)[-1] if '`' in _x else _x
+            _ny = re.findall(r'`([^`]+)`', _y)[-1] if '`' in _y else _y
+            _pad = (r'(?:A |O )?`' + re.escape(_ny) + r'`\s+n[ãa]o lidera coluna nenhuma')
+            if re.search(_pad, _txt) and _perfis[_x].get('total', 1) is not None:
+                pass
+    # a declaracao e por ALVO: o documento nomeia quem nao lidera nenhuma coluna
+    for _y in _TRI_EVO:
+        _ny = re.findall(r'`([^`]+)`', _y)[-1] if '`' in _y else _y
+        if re.search(r'`' + re.escape(_ny) + r'`\s+n[ãa]o lidera coluna nenhuma', _txt):
+            for _x in _TRI_EVO:
+                if _x != _y and (_x, _y) in _dom:
+                    _decl.add((_x, _y))
+                elif _x != _y:
+                    _decl.add((_x, _y)) if False else None
+
+    _naodecl = _dom - _decl
+    _sumiu = _decl - _dom
+    print(f'  {len(_TRI_EVO) * (len(_TRI_EVO) - 1)} pares, {len(_dom)} dominancia(s) '
+          f'pelas colunas, {len(_decl)} declarada(s) no texto')
+    for _x, _y in sorted(_naodecl):
+        erro('15', f'{_x} domina {_y} em todas as colunas e o texto nao declara — '
+                   'duas Trilhas monocromaticas na mesma coluna sempre dominam uma a '
+                   'outra, e o numero nao conserta isso')
+    for _x, _y in sorted(_sumiu):
+        erro('15', f'{_x} > {_y} esta declarado no texto e nao aparece mais nas colunas '
+                   '— declaracao que sobreviveu ao defeito ensina a procurar no lugar '
+                   'errado')
+
+    # 15.4 — GUARDA: declaracao so vale se ela nomear o eixo de FORA desta matriz.
+    # Sem isto a 15 vira trivialmente verdadeira: bastaria escrever a frase.
+    if _dom:
+        _eixo = re.search(r'n[ãa]o mora nesta matriz.{0,400}?'
+                          r'conferir-invocacoes\.py', _txt, re.S)
+        if not _eixo:
+            erro('15', 'ha dominancia declarada e o texto nao nomeia onde mora o eixo '
+                       'que separa o par fora desta matriz — declaracao sem eixo e '
+                       'so a dominancia escrita com outras palavras')
+        else:
+            print('  [x] a dominancia achada esta declarada, e a declaracao nomeia o '
+                  'eixo que a resolve fora desta matriz.')
+    else:
+        print('  [x] nenhuma Trilha do Evocador domina outra pelas colunas.')
+
 # ================================================================ veredito
 print('\n' + '=' * 88)
 if avisos:

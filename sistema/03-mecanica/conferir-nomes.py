@@ -263,11 +263,42 @@ TODOS = ([('Caminho', c) for c in CAMINHOS]
          + [('entrega de catalogo', e) for e in ENTREGAS]
          + [('nome sem catalogo', n) for n in NOMES_SEM_CATALOGO])
 
+# ⚠ v0.164: a triagem era CEGA para o catalogo de Bencaos inteiro.
+# `Casco`, `Impeto` e `Presilha` saiam LIVRE, enquanto `Alicerce` e `Fagulha`
+# — que sao entregas de Trilha — saiam OCUPADO na hora. E ja tinha custado um
+# nome: `Casco` esta batizado DUAS vezes, como Bencao (+1 de vida a cada dois
+# niveis) e como a segunda rota da `Sintonia` do Evocador ("as suas invocacoes
+# tem mais vida"). Os dois sao sobre ganhar vida.
+#
+# Mesmo defeito que a v0.122 consertou para os Legados, na peca vizinha, e o
+# conserto e o mesmo: LER DO DONO em vez de guardar lista. A tabela e a das
+# doze pagas da peca 11 §6.8, mais as duas gratuitas da Lapidacao 1.
+BENCAOS = []
+try:
+    with _io.open(os.path.join(AQUI, '11-aptidoes-e-refino.md'),
+                  encoding='utf-8') as _f11:
+        _p11 = _f11.read()
+    # a linha e `| N | **`Nome`** | ... | Classe | gate |`, com o nome na 2a celula
+    BENCAOS = sorted({m.group(1) for m in re.finditer(
+        r'^\|\s*\d+\s*\|\s*\*\*`([^`]+)`\*\*\s*\|', _p11, re.M)})
+except Exception as _e:                                    # pragma: no cover
+    erro(f'nao consegui ler o catalogo de Bencaos da peca 11: {_e}')
+
+# guarda de contagem, no molde da que o catalogo de Legados ja tem: se o
+# extrator parar de casar, a triagem volta a ficar cega em silencio.
+if not BENCAOS:
+    erro('nao li nenhuma Bencao do catalogo da peca 11 — a triagem volta a ficar '
+         'cega para elas, que foi como `Casco` foi batizado duas vezes')
+elif len(BENCAOS) < 10:
+    erro(f'li so {len(BENCAOS)} Bencao(oes) no catalogo da peca 11 e as pagas sao '
+         f'doze — o extrator parou de casar')
+
 # Usada so para triar nome candidato (--candidatos), nao nas cinco checagens:
 # pericia e oficio ja tem dono no conferir-pericias.py.
 UNIVERSO = (TODOS + [('pericia', p) for p in PERICIAS]
             + [('oficio', o) for o in OFICIOS]
             + [('Legado do catalogo', l) for l in LEGADOS_CATALOGO]
+            + [('Bencao do catalogo', b) for b in BENCAOS]
             + [('arma do catalogo', a) for a in ARMAS])
 
 # --------------------------------------------------------------------------

@@ -587,9 +587,7 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 13, 
 
 ### Trilhas do Evocador
 
-> **As três Trilhas do Evocador concedem o corpo da invocação, e mais nada.** As entregas de nível — as dos níveis 2, 11, 19 e 27 que as outras doze Trilhas têm — não existem nelas.
->
-> **Um Evocador joga hoje com os quatro degraus de Caminho e com o corpo que a Trilha dá.** Se for a sua escolha, combine com o mestre o que ocupa essas quatro casas.
+**Cada Trilha concede um corpo, e mais quatro entregas de nível** — nos mesmos `2 · 11 · 19 · 27` das outras doze.
 
 **O que cada Trilha concede** é o corpo que você põe em campo. O resto da ficha da invocação você monta com o orçamento do capítulo 15, *Invocações*, por cima do que está na tabela.
 
@@ -617,3 +615,49 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 13, 
 *Você e a invocação lutam juntos.* No `Coro` você entra na luta junto com o corpo, e os dois se cobrem. Ele **ataca e comanda na mesma rodada**, e abre exceção na economia de ação. O golpe é uma **Ação Bônus**, e ele só existe se a Ação Padrão daquele turno **comandou, e a invocação atacou**. O corpo dele é o mais frágil dos três, e é o único cuja queda deixa o kit funcionando: você continua batendo.
 
 > **A saída é uma só.** Você e todas as suas invocações somados entregam a mesma saída de dano que você entregaria sozinho. Com uma invocação, cada um entrega metade. Com três, cada um entrega um quarto. **A máquina completa (orçamento por nível, `Traço`, `Comando`, a amarra, morte e retorno) está no capítulo 15, *Invocações*.**
+
+**Uma coisa muda o turno inteiro.** Comandar custa a sua Ação Padrão, toda rodada. **No `Servo` e na `Matilha` isso quer dizer que você comanda e não bate** — sobram o seu movimento, a sua Ação Bônus e a sua Reação. **O `Coro` é a exceção:** ele ataca e comanda no mesmo turno, e por isso a Ação Bônus dele já está ocupada pelo golpe.
+
+### Trilha: Servo
+
+*Um corpo só, e você o segura de pé. O que ele sabe, você sabe; enquanto ele está entre você e o mundo, o mundo te alcança menos.*
+
+> **Nível 2: `Preito`.** As perícias e os Testes de Resistência da sua invocação somam **`metade da sua maestria`, mínimo `1`**.
+> **E escolha uma, ao pegar a Trilha:** `metade da sua maestria` **no acerto** dela · `metade da sua maestria` **na CD** dela · **`a sua maestria` na Defesa** dela.
+>
+> **Nível 11: `Escolta`.** Escolha **dois** Testes de Resistência ao pegar a Trilha. **Enquanto a sua invocação está de pé, você soma `metade da sua maestria` na sua Defesa e nesses dois.**
+>
+> **Nível 19: `Sustento`.** *Ação Bônus.* A sua invocação ganha **`1d6 + metade do seu nível`** de PV temporário. Ela carrega um bloco desses por vez.
+>
+> **Nível 27: `Chamado`.** Invocar custa **metade** do PE, arredondando para cima.
+
+*O `Preito` é onde a Trilha te pergunta o que você quer do seu corpo: mais acerto, mais CD, ou mais Defesa nele. As perícias vêm nas três, e é com elas que a invocação vira a que entra no duto e a que fica de vigia. O `Chamado` casa com o `Segundo Corpo` do nível 30: uma vez por descanso curto ela volta sem custar a sua Ação Padrão e por metade do PE.*
+
+### Trilha: Matilha
+
+*Uma invocação sozinha não assusta ninguém. Três chegando na mesma coisa, sim.*
+
+> **Nível 2: `Alarido`.** *Ação Bônus.* Aponte um inimigo que você enxerga. **Se três ou mais invocações acertarem ele, ele leva `-1` no acerto contra tudo que não seja uma invocação sua.** Cada membro de uma `Matilha` conta como uma invocação para o resultado.
+> A penalidade dura até o fim do próximo turno dele.
+>
+> **Nível 11: `Batida`.** Enquanto um alvo está sob o `Alarido`, **os seus aliados atacam ele com vantagem.** *Você não: a sua Ação Padrão está no `Comando`.*
+>
+> **Nível 19: `Dentada`.** Enquanto um alvo está sob o `Alarido`, as suas invocações acertam **crítico nele com `18`, `19` ou `20`**. *Isso soma com a `Presa`: quem escolheu ela acerta crítico com `17` ou mais.*
+>
+> **Nível 27: `Traquejo`.** O `Alarido` passa a disparar com **duas** invocações acertando, e não três.
+
+*A Trilha inteira é o mesmo botão andando. No nível 2 você precisa de três corpos conectando; no 27, de dois. Como a rodada da `Matilha` se resolve em pool, você sabe se acendeu na hora em que conta os acertos, sem rolagem a mais.*
+
+### Trilha: Coro
+
+*O seu golpe e o dela se encadeiam. Quem acertar abre o próximo.*
+
+> **Nível 2: `Dueto`.** Quando você gasta a Ação Padrão comandando uma invocação para **atacar**, você ganha um **golpe simples na Ação Bônus**, em sincronia com ela.
+>
+> **Nível 11: `Contracanto`.** *Reação*, `1×` por rodada. Quando um inimigo acerta você ou uma invocação sua, **uma invocação sua ataca ele**.
+>
+> **Nível 19: `Uníssono`.** Quando um ataque do dueto **acerta**, o **próximo ataque do outro** vem com **vantagem**. *Se a invocação acertou, o seu golpe tem vantagem; se você acertou, o próximo ataque dela tem.* **A vantagem dura até o fim do próximo turno e se perde se não for usada.**
+>
+> **Nível 27: `Acorde`.** Um feitiço de Classe que custaria a Ação Padrão e **não causa dano** pode ser lançado como **Ação Bônus**.
+
+*O `Acorde` é o que devolve a conjuração para um Caminho que gasta a Ação Padrão comandando. Ele não serve para o feitiço que machuca: serve para o que prende, o que move e o que abre a cena, na rodada em que as suas invocações continuam batendo.*

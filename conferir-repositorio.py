@@ -786,7 +786,13 @@ else:
     # deixou de ser um teto escrito a mao e passou a ser a CONTAGEM DESTA VERSAO
     # mais a folga declarada, com aviso quando a contagem passa da base. Assim a
     # linha fala na primeira citacao nova, e nao na sexta.
-    BRANCAS_AQUI, FOLGA = 141, 5
+    #
+    # v0.163: 142. A UNICA nova sai da secao `O dono cai` da peca 15, que cita o
+    # conferir-voz.py para dizer quem NAO enxergava aquela pendencia. Conferida
+    # pelo diff antes/depois: e "nome de validador", a primeira das duas familias
+    # declaradas. *E o aviso desta linha disparou na PRIMEIRA citacao nova, que e
+    # exatamente o que a v0.162 escreveu ele para fazer.*
+    BRANCAS_AQUI, FOLGA = 142, 5
     PISO_CITACOES, TETO_BRANCOS = 120, BRANCAS_AQUI + FOLGA
     if vistos_e < PISO_CITACOES:
         erro(f'7.2: achei so {vistos_e} citacoes na entrega, e o piso e {PISO_CITACOES} — '

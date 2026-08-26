@@ -207,7 +207,14 @@ Sobram `1,71` de dano por rodada, que são `1,35` fatias:
 >
 > **O que sobrevive, e não é pouco:** a **camada de vínculo** do §6.7 continua sendo a categoria certa para o Evocador, porque ela responde *"o que VOCÊ ganha por ela estar de pé"* — e isso é ficção, não preço. **Ela deixou de ser a única saída e passou a ser a saída escolhida.** *Continua sem catálogo.*
 >
-> *E as `17` entregas possíveis e as `50` montagens contadas acima são do mesmo cálculo velho. **Não recontei** — o Evocador é a última das três que faltam, e recontar agora seria número velho outra vez quando a vez dele chegar.*
+> *E as `17` entregas possíveis e as `50` montagens contadas acima eram do mesmo cálculo velho.* **RECONTADAS na v0.164**, lendo os botões e as taxas deste próprio arquivo:
+>
+> | | escala velha | **hoje** |
+> |---|---|---|
+> | entregas possíveis — família × taxa que cabem numa Trilha | 17 | **24** |
+> | montagens de **três** que fecham dentro de 5% do orçamento | 50 | **101** |
+>
+> *O recorte de três é o mesmo do número velho, e ele existe porque o nível 2 do Evocador era utilidade sem preço em dano.* **Com o nível 2 preçado, são `741` montagens de quatro.**
 
 *E a forma do `Servo` já estava solta de qualquer jeito: a variância refeita derrubou o §6.4, porque o `Coro` a `90%` cai para `2,13` contra os `2,09` do `Servo`. As três formas precisam ser reescolhidas junto.*
 
@@ -222,6 +229,16 @@ Sobram `1,71` de dano por rodada, que são `1,35` fatias:
 > **E o `3,3` tem uma segunda origem, que explica melhor por que ele parecia certo.** A tabela de inimigo do manual põe o chefe do nível 30 em `1050 a 1260` de vida contra `~315` de dano do grupo por rodada — e `1050 ÷ 315 = 3,33`. **O `3,3` é o PISO daquela faixa**, lido como se fosse o valor típico. *É piso-lido-como-outra-coisa pela terceira vez na mesma linhagem, e as três vezes o número parecia razoável.*
 
 **Nada quebra, e é bom saber de quanto:** com `3,7`, o `1×` por descanso curto vale `27%` em vez de `30%` — continua acima do piso de `20%`, e o `1×` por dia continua reprovando. **Toda entrada preçada a `30%` está `11%` generosa**, e isso vale para o `Servo` publicado.
+
+## Dois defeitos internos, achados na v0.164
+
+**1 — `exceção de ação` não cabe com gatilho nenhum desta lista.** *A tabela acima aprova ela em `85%` do orçamento, e esse número sai de multiplicar `108,00` por **`20%`**.* **Mas `20%` é o PISO DE REPROVAÇÃO e não uma taxa disponível:** as quatro famílias só produzem `100%`, `50%` e `30%`. *Com o gatilho mais barato que existe aqui, uma Ação Padrão a mais vale `6,38` fatias — `128%` da Trilha.*
+
+> **Isso devolve de graça o que a conversão tinha tirado.** *Esta seção registrou que "a trava do Evocador não cai junto, só que ela volta a ser regra da matriz, escrita à mão, e para de cair da conta de preço — o que a conta dava de graça, agora alguém precisa segurar".* **A conta volta a dar de graça.**
+>
+> *A coluna `mínimo que ela custa` continua valendo pelo que ela é — um **piso de custo** dado o piso de taxa —, e não como preço alcançável. **Oito das nove famílias cabem a `30%` de qualquer jeito**, então a distinção só morde nesta.*
+
+**2 — o `golpe simples para um ALIADO` tem DOIS botões neste mesmo arquivo.** *A tabela de reprovação diz `11,50`; a seção própria dele e a tabela das permanentes dizem `5,75`.* **O `5,75` é o certo, e o motivo está escrito na seção dele:** o golpe só sai se o aliado acertar, então o botão já entra descontado — e é assim que o `DESENHO-caminhos.md` preçou. *Dobro de diferença numa família inteira, dentro de um arquivo de 230 linhas.*
 
 ## O que ainda falta na lista
 

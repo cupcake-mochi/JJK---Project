@@ -8,6 +8,107 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.164] — 26/08/2026
+
+**As doze entregas do Evocador entraram, e as quinze Trilhas fecharam.** *`Servo`, `Matilha` e `Coro` estavam paradas desde a v0.82 — trinta e duas versões.* **E o que travava não era o que o cabeçalho de parada dizia: o `Servo` que ele publicava como "montado" estava numa escala que morreu nove versões ANTES de ele ser escrito.**
+
+### A decisão da v0.82 foi superada por ESCOLHA, e não por fato
+
+***A frase que segurava isto era dele:*** *"evocador deixa realmente para outro dia, ninguém vai usar essa classe por enquanto"*. **A premissa era a primeira mesa de teste não ter Evocador — e ela não mudou.** *Decisão do Mizuki nesta versão: reabrir mesmo assim.*
+
+**O que destravou de verdade foi a v0.163.** *Enquanto o relógio da meia vida e o que acontece com a invocação quando o dono cai estavam em aberto, nenhuma entrega que mexesse neles tinha contra o que ser medida.* **Agora tem, e o nível 27 do `Servo` usa os dois.**
+
+### ⚠⚠ O `Servo` do §6.10 estava em `1,27` por fatia, e a fatia é `5,08` desde a v0.73
+
+**O rascunho publicava *"as quatro entregas somam `5,07` contra um orçamento de `5,07`"*, e o cabeçalho de parada da v0.82 repetia.** *`5,07` é `4 × 1,27`.* **Na escala de hoje aquela montagem entregava `1,00` fatia de `5,00` — 20% do orçamento**, e o fator para refazer era `5,02×`.
+
+> ***A `LISTA-gatilhos-trilhas` já tinha achado isso na v0.77*** *e escrito, com todas as letras, que "o `Servo` publicado precisa ser **refeito** e não reajustado".* **O achado nunca voltou para o rascunho nem para o cabeçalho.** *Um número, dois documentos, duas respostas — e quem estava certo era o arquivo que ninguém abre primeiro.*
+
+***E o segundo defeito não era de escala, e nenhum documento tinha visto.*** **A peça 15 §3.4 escreve que o `Servo` e a `Matilha` *comandam e não atacam*** — a Ação Padrão do dono vai no `Comando`, toda rodada. *Então o nível 27 daquela montagem, "o **seu** golpe simples pega 2 alvos", só pagava na rodada em que o jogador abrisse mão da rodada inteira da invocação.*
+
+> **Isso não é uma entrega: é uma família inteira da régua.** *As quatro maiores linhas de `Os números que decidiram` — o soco, o soco com gatilho de acerto, a vantagem no `Classe 0` e o `Classe 2` no bônus — dependem de uma Ação Padrão que duas das três Trilhas gastam na porta de entrada.* **O `Coro` é o único dos três que paga por elas, e é isso que o separa sem precisar de trava escrita.**
+
+### As três, e o que decidiu cada uma
+
+| | total | lidera | estouro |
+|---|---|---|---|
+| **`Servo`** | `7,32` | defesa e recuperação | `+46%` |
+| **`Matilha`** | `5,05` | — | `+1%` |
+| **`Coro`** | `7,67` | ação/alvo | `+53%` |
+
+**Os três estouros são decisão do Mizuki**, no precedente da `Torrente` (`+50%`) e da `Brasa` (`+41%` a `+88%`). *Palavras dele: "vai estourar um pouco, mas não tem problema, vou testar assim — só avisa que estourou."*
+
+***A `Matilha` ganhou um dial que só ela pode ter.*** *Ideia do Mizuki, e ela cai direto do d20:* **com cinco corpos rolando em pool a `50%`, "quantos acertam" é `96,9 · 81,3 · 50,0 · 18,8 · 3,1%`** — e o degrau de três cai em `50,0%` **exatos**, que é a mesma taxa da família *"quando você acerta um ataque"* da lista fechada. *Não foi escolhido para bater: é a mediana binomial em `p = 0,5`.* **A Trilha inteira é esse dial andando, e o nível 27 desce ele de três para dois.**
+
+> **⚠ O dial é COMPARTILHADO, e isso é a pergunta "esse número já inclui o que eu estou somando nele?" na escala da Trilha inteira.** *O preço se mede no nível 30, já com o nível 27 dentro — então o `Traquejo` carrega a diferença dos três degraus de cima, e é por isso que ele é o mais caro dos quatro.*
+
+***A ideia original do nível 19 dele era margem crítica por `Matilha` a mais no grupo, e ela reprovou por dois eixos.*** *`18,7%` de chance de disparar num grupo de quatro — abaixo do piso de `20%` — e spread de `0,00` contra `1,06` fatia, que é razão infinita contra um filtro de `3,0×`.* **E o defeito maior não é o número: seria a primeira entrega do sistema cujo valor depende da ficha de outro jogador**, num server com personagem persistente entre mesas. *O miolo dela sobreviveu com o referente dentro da ficha: `+2` de margem quando três das cinco acertam.*
+
+***No `Servo`, o menu do nível 2 é dele e as três portas quase não coubidas.*** *Em `metade da maestria` elas dão `3,18×` de espalhamento — acerto `2,13` contra Defesa `0,67`.* **É o mesmo `3,2×` que tirou a Defesa do menu do `Elo`.** *A saída foi a porta da Defesa levar a **maestria inteira**: as três ficam em `2,01×`, que é exatamente a distância que o `Elo` deixou entre as duas dele, de propósito.*
+
+> **⚠ E `metade da maestria` vale ZERO do nível 2 ao 9** — a maestria é `1` até lá e o arredondamento desce ganho. *É o defeito que a rota `Voz` deste mesmo Caminho já levou, e o conserto é o mesmo: piso de `1`.*
+
+***O nível 27 do `Servo` era "reinvocar pela metade quando ela cai", e o gatilho reprovou:*** *`0,27` fatia com o mestre que espalha o dano e `1,42` com o que foca nela — spread de `5,2×`, pela peça 15 §3.4.* **A intuição dele de combinar com o Caminho foi o conserto: o `Segundo Corpo` é ancorado no RELÓGIO e não na queda**, e o desconto passou a valer sempre, sem gatilho. *Ele economiza `43%` do custo e não `50%`, porque o arredondamento da peça 1 §5.4 sobe custo.*
+
+***No `Coro`, duas das quatro custam `0,00` e as duas são publicadas.*** *O golpe em sincronia é a concessão que a peça 15 §3.7 lista para a Trilha, e a peça 6 §3.1 escreve que ele custa `0%` em dano.* **Dois ataques no nível 27 foram RECUSADOS por ele — *"senão o invocador acaba batendo muito"* —, e a conta não o teria pegado:** aquela mesma seção preça o segundo golpe em `0%`, porque o teto de uma Rotina somada segura a saída. *O que ele recusou é o que aquele teto declaradamente não mede: "uma rolagem a mais é alcance, tipo de dano e alvo".*
+
+> **⚠ O `Uníssono` se auto-alimenta, e é isso que faz ele custar `4,30` — 86% da Trilha.** *Com vantagem o acerto vai de `50%` para `75%`, e acertar passa vantagem adiante: no estado estacionário `66,7%` dos ataques saem com vantagem, pela recorrência `p = 0,50 + 0,25p`.* **E os dois sentidos não valem o mesmo, por `4,7×`:** o seu golpe carrega `11,50` e o ataque da invocação carrega meia Rotina, `54,00`.
+
+### A checagem 15, e ela nasce do defeito que apareceu escrevendo
+
+**Duas Trilhas monocromáticas na MESMA coluna dominam uma à outra qualquer que seja o valor — e mexer no número só troca quem domina.** *Aconteceu dentro desta passada: com o `Coro` em `4,96` a `Matilha` dominava; com ele em `7,67` a dominância inverteu sem ninguém encostar na `Matilha`.*
+
+***Decisão do Mizuki: declarar.*** **A `Matilha` não lidera coluna nenhuma, e o eixo que a separa do `Coro` não mora nesta matriz** — são os cinco corpos contra o atacar-e-comandar, e os dois são medidos pela matriz do `conferir-invocacoes.py`. *Terceira vez que este projeto declara dominância por falta de coluna: o nível 2 da `Estocada`, a `Arma de Fogo` do `Batedor`, e esta.*
+
+**A checagem 15 do `conferir-catalogo.py` não guarda valor nenhum.** *As colunas saem do cabeçalho da tabela de preço de cada Trilha; os valores saem das linhas dela; a matriz publicada é recontada e comparada; e as dominâncias achadas são comparadas com as **declaradas no texto**.* **Ela falha nas duas direções**, e a guarda que impede ela de virar trivialmente verdadeira é que **a declaração só vale se nomear o eixo que resolve o par fora desta matriz**.
+
+> **Sete perturbações em cópia isolada, com a base conferida antes e o `diff` conferido em cada uma: seis acendendo, e o contra-teste sai VERDE.** *O que importa é o contra-teste: ele dá à `Matilha` uma segunda coluna e move a coluna do degrau, a matriz publicada **e** a declaração juntas — reverte a decisão de forma coerente em todos os donos, e a checagem aprova.*
+
+### ⚠⚠ E a triagem era cega para o catálogo de Bênçãos inteiro
+
+**`Casco`, `Ímpeto` e `Presilha` saíam `LIVRE`**, enquanto `Alicerce` e `Fagulha` — que são entregas de Trilha — saíam `OCUPADO` na hora. *Mesmo defeito que a v0.122 consertou para os Legados, na peça vizinha, e o conserto é o mesmo: **ler do dono** em vez de guardar lista, com guarda de contagem em cima.*
+
+> **E já tinha custado um nome: `Casco` está batizado DUAS vezes.** *É Bênção — `+1` de vida a cada dois níveis e `+1` no TR de Vigor — e é a segunda rota da `Sintonia` do Evocador, "as suas invocações têm mais vida".* **Os dois são sobre ganhar vida.** *Fica como achado; consertar não é desta versão.*
+>
+> *De quebra: as três rotas da `Sintonia` têm problema de nome. `Presa` sai `fraco`, a uma letra de `Pressa`, que é Melhoria; `Voz` sai `OCUPADO`, é Tema no manual.*
+
+### A dívida da `LISTA-gatilhos` foi recontada, e ela achou dois defeitos internos
+
+**As `17` entregas possíveis e as `50` montagens eram da escala velha.** *Recontadas lendo os botões e as taxas do próprio arquivo:* **`24` entregas e `101` montagens de três** dentro de `5%` do orçamento.
+
+**1 — `exceção de ação` não cabe com gatilho nenhum da lista.** *Ela era aprovada em `85%` do orçamento, e esse número sai de multiplicar `108,00` por `20%` — que é o **piso de reprovação** e não uma taxa disponível.* **As quatro famílias só produzem `100%`, `50%` e `30%`, e a `30%` põe uma Ação Padrão a mais em `128%` da Trilha.** *Isso devolve de graça a trava do Evocador que a conversão da v0.77 tinha passado para a mão de alguém.*
+
+**2 — o `golpe simples para um ALIADO` tem dois botões no mesmo arquivo:** `11,50` numa tabela e `5,75` em duas outras. *O `5,75` é o certo — o golpe só sai se o aliado acertar.*
+
+### Adicionado
+
+- **As doze entregas do Evocador**, no `DESENHO-trilhas.md`: preço, texto de mesa, de onde sai cada número, e a matriz das três.
+- **A checagem 15 do `conferir-catalogo.py`** — a matriz de colunas recontada das linhas de preço, com a dominância declarada conferida nas duas direções. *De `264` para `265` checagens.*
+- **As três Trilhas no capítulo 8 do livro**, com as quatro entregas de cada uma em texto de mesa.
+
+### Alterado
+
+- **A peça 17 foi de `90` para `102` entradas** — `68` de Trilha, `20` de Caminho e as `14` Manhas. *As quatro cópias do total subiram junto.*
+- **O `conferir-nomes.py` lê o catálogo de Bênçãos da peça 11** em vez de ser cego para ele.
+- **O `§6.10` do rascunho está marcado como VENCIDO**, com os dois defeitos e o número de hoje ao lado. *A seção fica inteira, porque o método dela sobreviveu — número errado apagado é número que alguém redescobre.*
+- **O cabeçalho de parada da v0.82 virou o fecho da v0.164.**
+- **O livro foi de `71.429` para `72.070` palavras**, de `243` para `245` páginas em coluna única e de `141` para `142` em duas.
+
+### Removido
+
+- **As duas marcas de "isto ainda não existe" do Evocador** — a do capítulo 20 e a do capítulo 35, as duas mandando combinar com o mestre o que ocupava as casas de nível. **A contagem da `REGRA-DE-VOZ.md` foi de `6` para `4`.**
+
+### Decidido
+
+- **Reabrir o Evocador com a premissa da v0.82 intacta.** *A mesa não mudou; a decisão foi superada por escolha.*
+- **Os três estouros ficam**, para serem testados na mesa.
+- **A dominância `Coro > Matilha` é real e fica declarada**, com o eixo que a resolve nomeado fora da matriz.
+- **A vantagem do `Uníssono` vale nos dois sentidos**, e o `Acorde` é feitiço sem dano em vez de um segundo ataque.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, na seção *"Onde estamos, e o que falta"*. **A fila da mecânica ficou sem item: as quinze Trilhas fecharam, e o que sobra são as duas peças que a fila já nomeia — o `Bestiário` e a criação de `Sem Técnica`.**
+
+---
+
 ## [0.163] — 26/08/2026
 
 **As duas pendências de Invocações que travavam as três Trilhas do Evocador fecharam**, e nenhuma das duas era a decisão que parecia ser. *A primeira estava respondida em três quartos antes de qualquer escolha; a segunda não era sabor — já estava decidida em outra peça.*

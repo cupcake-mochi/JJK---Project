@@ -1581,3 +1581,173 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 - ~~O `Repertório` compra a metade que a peça 11 já mediu como a que paga.~~ **Caiu junto com a Trilha, na v0.81.**
 - **O `Arremate` herda uma coisa que já tem dono:** ele é uma das duas Trilhas com ataque extra, e o slot e o gate estão escritos na peça 6. *A Trilha não escolhe isso — ela recebe.*
 - ~~Faltam nomes para as doze entregas.~~ **Fechados entre a v0.81 e a v0.84.** *`Torrente` e `Arremate` passaram na triagem já na v0.24; o `Explosivo` passou na v0.81, e o `Repertório` que estava nessa linha morreu na mesma versão.*
+
+---
+
+---
+
+# O Evocador mecânico — as três, fechadas na v0.164
+
+> **`Servo` `7,32` · `Matilha` `5,05` · `Coro` `7,67`, de `5,00`.** Espalhamento de `1,52×` entre as três, contra um filtro que reprova em `3,00×`. **Os três estouros são decisão do Mizuki**, e os dois precedentes publicados são a `Torrente` em `+50%` e a `Brasa` entre `+41%` e `+88%`.
+>
+> *Elas ficaram paradas da v0.82 à v0.163 — "ninguém vai usar essa classe por enquanto" —, e o que as destravou não foi a mesa mudar: foi a v0.163 fechar as duas regras que a peça 15 devia. Enquanto o relógio da meia vida e o dono caído estavam em aberto, nenhuma entrega que mexesse neles tinha contra o que ser medida.*
+
+## O que o §6.10 do rascunho tinha estava numa escala morta, e ela morreu NOVE versões antes de ele ser marcado como pronto
+
+**O `Servo` publicado somava `5,07` de dano por rodada contra um orçamento de `5,07`.** Aquele `5,07` é `4 × 1,27`, e a fatia é `5,08` desde a v0.73. *O cabeçalho de parada é da v0.82 e repete o número sem converter; o CHANGELOG daquela versão repete de novo.*
+
+| nv | a entrega publicada | sai em | fatias de `1,27` | **fatias de hoje** |
+|---|---|---|---|---|
+| 2 | treino | — | utilidade | — |
+| 11 | `+1` PE, `1×` por descanso curto | `1,54` | 1,22 | **0,30** |
+| 19 | `+3 m` permanente | `1,80` | 1,42 | **0,35** |
+| 27 | o golpe pega 2 alvos | `1,72` | 1,36 | **0,34** |
+| | | `5,06` | **4,00** | **1,00** |
+
+**Ele entregava uma fatia de cinco — 20% do orçamento.** *A `LISTA-gatilhos-trilhas` já tinha achado isso na v0.77 e escrito que "o `Servo` publicado precisa ser refeito e não reajustado". O achado nunca voltou para o rascunho.*
+
+> **E o segundo defeito é independente da escala, e nenhum documento o tinha visto.** *A peça 15 §3.4 escreve que o `Servo` e a `Matilha` **comandam e não atacam** — a Ação Padrão do dono vai no `Comando`, toda rodada.* **Então o nível 27 daquela montagem, *"o SEU golpe simples pega 2 alvos"*, só paga na rodada em que o jogador abre mão da rodada inteira da invocação** — que é a rodada que o Caminho existe para não precisar.
+>
+> **Isso não é uma entrega: é uma família inteira da régua.** *As quatro maiores linhas da tabela `Os números que decidiram` — o soco, o soco com gatilho de acerto, a vantagem no Classe 0 e o Classe 2 no bônus — todas dependem de uma Ação Padrão que duas das três Trilhas gastaram na porta de entrada.* **O `Coro` é o único dos três que paga por elas, e é isso que o separa dos outros dois sem precisar de trava escrita.**
+
+## `Matilha` — 5,05 de 5,00
+
+> **A ideia é do Mizuki, e ela virou o dial que só esta Trilha tem.** *Com cinco corpos rolando em pool a `50%` de acerto, **quantos acertam** é uma escada de taxa que cai direto do d20 — ninguém arbitra, e nenhuma outra Trilha do sistema tem esse botão.*
+
+| pelo menos | taxa |
+|---|---|
+| **1** dos 5 | `96,9%` |
+| **2** dos 5 | **`81,3%`** |
+| **3** dos 5 | **`50,0%`** |
+| 4 dos 5 | `18,8%` |
+| os 5 | `3,1%` |
+
+**O degrau de três cai em `50,0%` exatos**, que é a mesma taxa da família *"quando você acerta um ataque"* da lista fechada. *Não foi escolhido para bater: é a mediana binomial em `p = 0,5`.*
+
+| nv | nome | a entrega | fatias | coluna |
+|---|---|---|---|---|
+| **2** | **`Alarido`** | Ação Bônus: aponte um alvo. Se **três ou mais invocações** acertarem ele, ele leva `-1` no acerto contra tudo que não seja uma invocação sua | 0,34 | ação/alvo |
+| **11** | **`Batida`** | enquanto ele está sob o `Alarido`, **os seus aliados atacam ele com vantagem** | **1,70** | ação/alvo |
+| **19** | **`Dentada`** | enquanto ele está sob o `Alarido`, as suas invocações acertam **crítico nele com `18`, `19` ou `20`** | 1,06 | ação/alvo |
+| **27** | **`Traquejo`** | o `Alarido` passa a disparar com **duas** invocações, e não três | **1,94** | ação/alvo |
+
+### As quatro, em texto de mesa
+
+> **Nível 2 — `Alarido`.** **Ação Bônus.** Aponte um inimigo que você enxerga. **Se três ou mais invocações acertarem ele, ele leva `-1` no acerto contra tudo que não seja uma invocação sua.** *Cada membro de uma `Matilha` conta como uma invocação para o resultado.*
+> A penalidade dura até o fim do próximo turno dele.
+
+> **Nível 11 — `Batida`.** Enquanto um alvo está sob o `Alarido`, **os seus aliados atacam ele com vantagem.** *Você não — a sua Ação Padrão está no `Comando`.*
+
+> **Nível 19 — `Dentada`.** Enquanto um alvo está sob o `Alarido`, as suas invocações acertam **crítico nele com `18`, `19` ou `20`**. *Soma com a `Presa` do Caminho: quem escolheu ela acerta crítico com `17` ou mais.*
+
+> **Nível 27 — `Traquejo`.** O `Alarido` passa a disparar com **duas** invocações acertando, e não três.
+
+### De onde sai cada número
+
+- **A penalidade fixa foi preçada por dois caminhos que não se falam, e eles batem em `6%`.** *Pelo chefe: `1` ponto percentual na rolagem dele vale `0,240`, `-1` são `5` pontos, e ele tem `3` ações — `3,60` de dano evitado. Pela linha de resistência a um tipo: ela implica `33,90` de dano tomado por rodada, e `-1` tira `10%` dele — `3,39`.* **Uso `3,50`, que é `0,69` fatia.**
+- **A `Batida` conta TRÊS aliados**, pela convenção da peça 19: *benefício que qualquer atacante colhe conta três*. `25` pontos percentuais a `0,230` cada, vezes três.
+- **A `Dentada` é a régua do `Presa`** — dobrar a margem crítica entrega `5,0%` da Rotina, e é fração, então não deriva.
+- **O `Traquejo` não é uma entrega nova: é o dial descendo**, e ele repreça os três de cima. *Por isso ele é o degrau mais caro dos quatro, que é o que um capstone deveria ser.*
+
+> **⚠ O dial é COMPARTILHADO, e isso é a pergunta "esse número já inclui o que eu estou somando nele?" aparecendo na Trilha inteira.** *O preço se mede no nível 30, ou seja, já com o `Traquejo` dentro — então as quatro linhas são o que a montagem vale **depois** do nível 27, e o `Traquejo` carrega a diferença das três.*
+
+> **O 11, o 19 e o 27 penduram no 2, e é de propósito** — no molde do `Perímetro`. *A troca de Trilha é total, então quem entra na `Matilha` no nível 27 entra com as quatro.*
+
+> **A `Batida` vale para os aliados e não para as invocações.** *Dar vantagem aos cinco corpos seria dano que ninguém preçou, e o teto de uma Rotina somada não mede vantagem — ele mede saída.*
+
+## `Servo` — 7,32 de 5,00
+
+> **Desenho do Mizuki, e a frase dele é a trava:** *"o `Servo` depende completamente do que o jogador vai querer com ele, então ele tem que fazer pelo menos um pouco de tudo — mas o que mais tranca é ser uma única invocação em campo: se ela sair, acabou o kit."*
+
+**Espalhar é o que salva a matriz.** *A `Matilha` e o `Coro` são monocromáticos em ação/alvo; um `Servo` também monocromático seria a v0.63 de novo. Espalhado, ele lidera defesa e recuperação, e nenhuma das três domina as outras duas por magnitude.*
+
+> **⚠ E a fragilidade do corpo único NÃO vira mecânica, porque ela já foi resolvida uma vez.** *O `5h` existe exatamente para isso — o corpo do `Servo` carrega o pool inteiro da `Matilha`, e os dois saem da luta pelo mesmo golpe.* **Pagar de novo por ela esbarra na medida do §6.5 do rascunho: qualquer coisa presa em *"quando ela cai"* tem spread de `5,2×` conforme quem mestra**, porque a peça 15 §3.4 mede de `0,8` a `4,2` reinvocações por dia. *O filtro reprova em `3,0×`.*
+
+| nv | nome | a entrega | fatias | coluna |
+|---|---|---|---|---|
+| **2** | **`Preito`** | as perícias e os TRs dela somam `metade da sua maestria`; e **escolha uma**: `metade da maestria` no acerto dela, `metade da maestria` na CD dela, ou **`a sua maestria` na Defesa** dela | **2,13** | ação/alvo |
+| **11** | **`Escolta`** | enquanto ela está de pé, você soma `metade da sua maestria` na **Defesa** e em **dois Testes de Resistência** à escolha | 0,74 | defesa |
+| **19** | **`Sustento`** | Ação Bônus: ela ganha **`1d6 + metade do seu nível`** de PV temporário | **3,64** | defesa |
+| **27** | **`Chamado`** | invocar custa **metade** do PE | 0,82 | recuperação |
+
+### As quatro, em texto de mesa
+
+> **Nível 2 — `Preito`.** As perícias e os Testes de Resistência da sua invocação somam **`metade da sua maestria`, mínimo `1`**.
+> **E escolha uma, ao pegar a Trilha:** `metade da sua maestria` **no acerto** dela · `metade da sua maestria` **na CD** dela · **`a sua maestria` na Defesa** dela.
+
+> **Nível 11 — `Escolta`.** Escolha **dois** Testes de Resistência ao pegar a Trilha. **Enquanto a sua invocação está de pé, você soma `metade da sua maestria` na sua Defesa e nesses dois.**
+
+> **Nível 19 — `Sustento`.** **Ação Bônus.** A sua invocação ganha **`1d6 + metade do seu nível`** de PV temporário. *Ela carrega um bloco desses por vez.*
+
+> **Nível 27 — `Chamado`.** Invocar custa **metade** do PE, arredondando para cima. *Com o `Segundo Corpo` do Caminho, uma vez por descanso curto ela volta sem custar a sua Ação Padrão **e** por metade do PE.*
+
+### De onde sai cada número
+
+- **O menu do nível 2 se preça pela porta mais cara, que é o acerto** — `metade da maestria` chega a `+2`, e `+1` no acerto vale `10%` do que as invocações fazem.
+- **⚠ As três portas em `metade da maestria` davam `3,18×` de espalhamento e REPROVAVAM.** *Acerto `2,13` contra Defesa `0,67`.* **É o mesmo `3,2×` que tirou a Defesa do menu do `Elo`.** *A saída foi a Defesa levar a maestria inteira: as três ficam em `2,01×`, que é exatamente a distância que o `Elo` deixou entre as duas portas dele, de propósito.*
+- **⚠ E `metade da maestria` vale ZERO do nível 2 ao 9**, porque a maestria é `1` até lá e o arredondamento do projeto desce ganho. *É o defeito que a rota `Voz` deste mesmo Caminho já levou, e o conserto é o mesmo: piso de `1`.*
+- **O `Escolta` ficou MENOR que a resistência que ele substituiu** — `0,74` contra `1,33` de dois tipos. *Defesa é cara e Teste de Resistência é barato: só `40%` do que vem em você resolve por TR, pela tabela das Formas do manual, e passar poupa metade.*
+- **O `Sustento` é `3,64` — metade da Trilha —, e quase não deriva:** cresce `1,48×` do nível 19 ao 30 contra `1,42×` da Rotina. *O tamanho vem de ser Ação Bônus sem relógio, e a Ação Bônus do `Servo` está vaga toda rodada porque a Padrão dele é o `Comando`.*
+- **O `Chamado` economiza `43%` do custo e não `50%`**, porque o arredondamento da peça 1 §5.4 sobe custo: metade de `1..7` arredondando para cima poupa `12` dos `28` pontos da escada inteira.
+
+> **O `Sustento` alimenta a invocação em vez de dar alguma coisa a você, então ele SAI da camada de vínculo que o §6.7 do rascunho escolheu.** *Isso é legal — a v0.77 já registrou que aquela camada "deixou de ser a única saída e passou a ser a saída escolhida", quando o orçamento dobrou.* **E no `Servo` ela é a ficção: um corpo só, e você o segura de pé.**
+
+> **⚠ Defesa, acerto e vida da invocação são a MOEDA DO ORÇAMENTO**, e a peça 15 §5 tem invariante contra uma entrada do catálogo vendê-los de novo. *Uma entrega de Trilha é outro bolso, então não é o preço duplo que aquela peça proíbe — mas é segunda fonte, e fica declarado.* **Pelo mesmo mapa, a porta suja do menu é o acerto e não a Defesa:** *o `Coleira` do Caminho já dá `+1` no acerto a **todo** Evocador, e o orçamento dá mais.*
+
+## `Coro` — 7,67 de 5,00
+
+> **Desenho do Mizuki.** *As duas pontas custam `0,00`, e as duas são publicadas: o golpe em sincronia é a concessão que a peça 15 §3.7 lista para esta Trilha, e a peça 6 §3.1 escreve que ele custa `0%` em dano — "o teto de uma Rotina somada já segura a saída; as ações se redistribuem, o dano não sobe".*
+
+**O turno dele é o oposto dos outros dois.** *A Ação Padrão comanda, a **Ação Bônus está tomada pelo golpe** — pelo gate da peça 6, ele só existe se a Padrão comandou e a invocação atacou —, e sobram a Reação e o movimento.* **O `Servo` e a `Matilha` têm a Bônus livre; ele não.**
+
+| nv | nome | a entrega | fatias | coluna |
+|---|---|---|---|---|
+| **2** | **`Dueto`** | ao comandar uma invocação para atacar com a Ação Padrão, você ganha um **golpe simples na Ação Bônus**, em sincronia com ela | **0,00** | *é a concessão* |
+| **11** | **`Contracanto`** | *Reação:* `1×` por rodada, quando um inimigo acerta um de vocês, **uma invocação sua ataca ele** | 1,70 | ação/alvo |
+| **19** | **`Uníssono`** | quando um ataque do dueto **acerta**, o próximo do outro vem com **vantagem** | **4,30** | ação/alvo |
+| **27** | **`Acorde`** | um feitiço de Classe que **não causa dano** pode ser lançado como **Ação Bônus** | **1,67** | ação/alvo |
+
+### As quatro, em texto de mesa
+
+> **Nível 2 — `Dueto`.** Quando você gasta a Ação Padrão comandando uma invocação para **atacar**, você ganha um **golpe simples na Ação Bônus**, em sincronia com ela.
+
+> **Nível 11 — `Contracanto`.** **Reação**, `1×` por rodada. Quando um inimigo acerta você ou uma invocação sua, **uma invocação sua ataca ele**.
+
+> **Nível 19 — `Uníssono`.** Quando um ataque do dueto **acerta**, o **próximo ataque do outro** vem com **vantagem**. *Se a invocação acertou, o seu golpe tem vantagem; se você acertou, o próximo ataque dela tem.* **A vantagem dura até o fim do próximo turno e se perde se não for usada.**
+
+> **Nível 27 — `Acorde`.** Um feitiço de Classe que custaria a Ação Padrão e **não causa dano** pode ser lançado como **Ação Bônus**.
+
+### De onde sai cada número
+
+- **⚠ O `Uníssono` se auto-alimenta, e é isso que faz ele custar `4,30`.** *Com vantagem o acerto vai de `50%` para `75%`, e acertar passa vantagem adiante:* **no estado estacionário `66,7%` dos ataques saem com vantagem**, e não `50%`. *A recorrência é `p = 0,50 + 0,25p`.*
+- **E os dois sentidos não valem a mesma coisa, por `4,7×`.** *O seu golpe carrega `11,50` e o ataque da invocação carrega meia Rotina, `54,00`; vantagem vale metade a mais em cada um.* **`0,57` fatia num sentido, `2,66` no outro.**
+- **O `Acorde` é medido pelo que ele DESTRAVA e não pelo feitiço.** *Sem ele, conjurar custa a Ação Padrão, ninguém comanda, e a invocação perde a rodada dela — meia Rotina, `54,00`. Com ele, você conjura na Bônus e abre mão do golpe, `11,50`.* **Delta `42,50`.** *A taxa — quantas rodadas um `Coro` conjura sem dano — **não tem dono**, então ela entra no piso de `20%` da lista fechada e vai **marcada como previsão**, no molde dos `5%` de posicionamento que a v0.68 aceitou assim.*
+- **O termo `feitiço que não causa dano` existe e tem regra pendurada** — é o gatilho do `Resquício`, o degrau de nível 7 do Emanador, e o manual tem a Forma `Efeito`, que *"não causa dano e não rola dado"*.
+
+> **⚠ Dois ataques no lugar do `Acorde` foram RECUSADOS, e a recusa é do Mizuki:** *"não dá para ser dois ataques, porque senão o invocador acaba batendo muito."* **A conta não o teria pegado:** *a peça 6 §3.1 preça o segundo golpe do `Coro` em `0%` de dano, porque o teto de uma Rotina somada já segura a saída.* **O que ele recusou é o que aquele teto declaradamente não mede — "o que ela compra é uma rolagem a mais, e rolagem a mais é alcance, tipo de dano e alvo".**
+
+## A matriz do Evocador — a dominância é REAL, e está declarada
+
+| | ação/alvo | defesa | posicionamento | recuperação | total |
+|---|---|---|---|---|---|
+| `Servo` | 2,13 | **4,38** | 0,00 | **0,82** | **7,32** |
+| `Matilha` | 5,05 | 0,00 | 0,00 | 0,00 | **5,05** |
+| `Coro` | **7,67** | 0,00 | 0,00 | 0,00 | **7,67** |
+
+**Espalhamento de `1,52×` entre as três, contra um filtro que reprova em `3,00×`.** *O `Servo` lidera defesa e recuperação; o `Coro` lidera ação/alvo.*
+
+> ***A `Matilha` não lidera coluna nenhuma, e isso é decisão declarada do Mizuki e não descuido.*** **Duas Trilhas monocromáticas na mesma coluna sempre dominam uma à outra**, qualquer que seja o valor — não é problema de número, e mexer no número só troca quem domina. *Foi o que aconteceu no meio desta passada: com o `Coro` em `4,96` a `Matilha` dominava, e com ele em `7,67` a dominância inverteu sem ninguém mexer na `Matilha`.*
+>
+> **O eixo que separa as duas de verdade não mora nesta matriz.** *São os **cinco corpos** da `Matilha` contra o **atacar e comandar** do `Coro`, e os dois são medidos pela matriz do `conferir-invocacoes.py`.* **A dominância do Evocador só é limpa lendo as duas juntas**, e é isso que o validador passou a fazer.
+>
+> *É a terceira vez que este projeto declara dominância porque falta coluna e não número: o nível 2 da `Estocada`, a `Arma de Fogo` do `Batedor`, e agora esta. **Nas três o diagnóstico foi o mesmo da v0.63 — a dominância era real na matriz, e o que faltava era eixo.***
+
+> **E o `Coro` tem dois degraus valendo `0,00` que são conteúdo real.** *O golpe em sincronia e o feitiço sem dano existem na mesa e pesam zero nesta tabela, porque o teto de uma Rotina somada os preça em dano e eles não são dano.* **Uma matriz de fatias não vê degrau de fatia zero** — que é o mesmo buraco que o nível 2 da `Estocada` já declarava.
+
+## O que este bloco deixa em aberto
+
+- **Os três estouros são declarados**: `Servo` `+46%`, `Coro` `+53%`, `Matilha` `+1%`. *Precedente: `Torrente` `+50%` e `Brasa` `+41%` a `+88%`.* **Decisão do Mizuki: "vai estourar um pouco, mas não tem problema, vou testar assim."**
+- **A taxa do `Acorde` é previsão** — `20%`, o piso da lista fechada. *Quantas rodadas um `Coro` conjura um feitiço sem dano é pergunta de mesa, e ela decide `1,67` fatia.*
+- **⚠ `Casco` está batizado DUAS vezes**, e a triagem não pega: é Bênção — `+1` de vida a cada dois níveis e `+1` no TR de Vigor — e é a segunda rota da `Sintonia` do Evocador, *"as suas invocações têm mais vida"*. **Os dois são sobre ganhar vida.** *Achado ao conferir se o Caminho já dava Defesa; não é desta passada consertar.*
+- ***E as três rotas da `Sintonia` têm problema de nome:*** *`Presa` sai `fraco`, a uma letra de `Pressa`, que é Melhoria; `Voz` sai `OCUPADO`, é Tema no manual; e o `Casco` é o de cima.*
+- **O `Escolta` põe `metade da maestria` na Defesa DO DONO**, e o teto de Defesa da peça 14 §3 é derivado de três donos. *Ele é invariante de **equipamento** e uma entrega de Trilha não o fura — mas buff plano na Defesa é calibragem de quanto um acerto vale, e o `DESENHO-caminhos.md` já mediu que `+4` por cima não deriva.* **Fica declarado para o playtest.**

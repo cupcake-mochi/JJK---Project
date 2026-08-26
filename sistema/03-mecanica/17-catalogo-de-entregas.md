@@ -32,9 +32,9 @@ Ela não estava escrita em lugar nenhum, e é por isso que a contagem publicada 
 
 *Sem essa regra a contagem não fecha duas vezes seguidas do mesmo jeito, e foi o que aconteceu: a v0.84 publicou `48` entregas com a divisão `Estocada 4 · Batedor 8 · o resto 5`, e recontando dos arquivos sai outra divisão com o mesmo total. **Total que fecha por caminhos diferentes é total que ninguém está conferindo.***
 
-## 3. As 56 entregas de Trilha
+## 3. As 68 entregas de Trilha
 
-Doze Trilhas escritas, e o `Batedor` entra com as três rotas abertas. **As três do Evocador — `Servo`, `Matilha` e `Coro` — não entram**, porque estão paradas desde a v0.82 e não têm entrega escrita; quando voltarem, entram aqui.
+Quinze Trilhas escritas, e o `Batedor` entra com as três rotas abertas. **As três do Evocador entraram na v0.164**, depois de trinta e duas versões paradas — e o que as destravou não foi a mesa mudar, foi a v0.163 fechar as duas regras que a peça 15 devia.
 
 Todas moram em **`DESENHO-trilhas.md`**, na seção mecânica da Trilha.
 
@@ -80,6 +80,19 @@ Todas moram em **`DESENHO-trilhas.md`**, na seção mecânica da Trilha.
 
 > **A vaga do `Arremate` é a única do sistema, e ela é deliberada.** *Sobram `1,26` fatia ali.* **Nomear degrau vazio seria escrever entrada para fechar contagem, que é exatamente o defeito que a régua da peça 13 §5 nasceu para achar.** *Ela conta como entrada e não conta como nome — as duas coisas ao mesmo tempo, e é por isso que o total tem três colunas em vez de duas.*
 
+### Evocador — 12 com nome, 0 sem
+
+| Trilha | 2 | 11 | 19 | 27 |
+|---|---|---|---|---|
+| **`Servo`** | `Preito` | `Escolta` | `Sustento` | `Chamado` |
+| **`Matilha`** | `Alarido` | `Batida` | `Dentada` | `Traquejo` |
+| **`Coro`** | `Dueto` | `Contracanto` | `Uníssono` | `Acorde` |
+
+> **Duas das doze valem `0,00` fatia, e as duas são do `Coro`.** *O `Dueto` é a concessão que a peça 15
+> §3.7 lista para a Trilha, e o `Acorde` sai da permissão da peça 6 §3.1.* **Preço zero não é ausência
+> de entrada** — a regra de contagem da seção 2 conta o que o jogador ganha num nível, e ele ganha os
+> dois. *É a mesma leitura que já põe o nível 2 do `Arremate` e o da `Estocada` na conta com `0,00`.*
+
 ## 4. Os 20 degraus de Caminho
 
 Cinco Caminhos, quatro degraus cada, em `2 · 7 · 15 · 30`. Todos com nome. Moram em **`DESENHO-caminhos.md`**.
@@ -112,10 +125,10 @@ Treze são uma por categoria de arma; a décima quarta se leva **no lugar** da s
 
 | família | entradas | com nome | sem nome | vaga |
 |---|---|---|---|---|
-| entregas de Trilha | **56** | 55 | **0** | 1 |
+| entregas de Trilha | **68** | 67 | **0** | 1 |
 | degraus de Caminho | **20** | 20 | 0 | 0 |
 | Manhas | **14** | 14 | 0 | 0 |
-| **total** | **90** | **89** | **0** | **1** |
+| **total** | **102** | **101** | **0** | **1** |
 
 **Nenhum nome falta.** *As 21 vagas que existiam na v0.86 fecharam na v0.87 — o Bastião inteiro, a `Estocada`, a `Torrente` e o `Batedor`.* **A única casa sem nome do sistema é a vaga do `Arremate`, e ela é de propósito.**
 
@@ -125,7 +138,7 @@ Treze são uma por categoria de arma; a décima quarta se leva **no lugar** da s
 
 ## 7. O que o `conferir-catalogo.py` confere
 
-Catorze checagens. **Nenhuma guarda valor:** os nomes saem das tabelas desta peça e os textos saem dos `DESENHO-*.md`.
+Quinze checagens. **Nenhuma guarda valor:** os nomes saem das tabelas desta peça e os textos saem dos `DESENHO-*.md`.
 
 | # | a checagem | o que ela pega |
 |---|---|---|

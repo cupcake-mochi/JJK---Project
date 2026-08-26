@@ -107,7 +107,7 @@ A Trilha é escolhida agora, junto do Caminho, e nasce com o personagem. São tr
 
 > **A Trilha já entrega no nível 2**, junto do primeiro degrau do Caminho, e volta a entregar nos níveis 11, 19 e 27. O texto de cada uma está no capítulo 8, *Caminhos e Trilhas*.
 >
-> **As três do Evocador são a exceção:** `Servo`, `Matilha` e `Coro` concedem o corpo da invocação, e as entregas de nível delas ainda não existem. Se for a sua escolha, combine com o mestre o que ocupa essas casas.
+> **As três do Evocador concedem uma coisa a mais:** `Servo`, `Matilha` e `Coro` entregam **o corpo da invocação** junto com o degrau do nível 2. O corpo está no capítulo 8, na tabela das Trilhas do Evocador; a ficha dele você monta no capítulo 15, *Invocações*.
 
 ## Passo 4 · Atributos
 
