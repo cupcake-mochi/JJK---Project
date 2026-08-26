@@ -11,7 +11,7 @@ Este documento não tem número nenhum de propósito. Ele responde *que peças o
 
 ## 1. O que o Fundamento já resolve
 
-O manual v7.16 é um subsistema fechado e validado. Ele cobre:
+O manual v7.17 é um subsistema fechado e validado. Ele cobre:
 
 | Área | O que o Fundamento entrega |
 |---|---|

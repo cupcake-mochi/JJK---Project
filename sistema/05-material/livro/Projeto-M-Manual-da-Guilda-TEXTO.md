@@ -3371,6 +3371,8 @@ Feitiços de Classe 0 não gastam PE, não ocupam espaço na lista e não se mon
 
 Cabe uma Melhoria `Leve` numa Classe 0, tirando um dado para pagar. A base de alcance da Classe 0 fica um degrau abaixo da normal, e o valor está em *Criando feitiços*.
 
+**Classe 0 não cura.** As Formas `Cura` e `Onda` ficam de fora dela. A tabela `Cura`, em *Criando feitiços*, começa na Classe 1, e é ela que diz o que uma cura vale — quem quer curar paga uma Classe.
+
 ### Dado
 
 Monte sempre em d8: pontos, Melhorias e Restrições só existem em d8. Se a sua mesa rola outro dado, converta o total final na hora de rolar.
@@ -3711,7 +3713,8 @@ Se uma Melhoria subir mais degraus do que a escada tem, ela para no último degr
 | `Explosão` | raio 3 m, a 9 m | raio 3 m, a 18 m | raio 4,5 m, a 36 m |
 | `Cone` | 3 m | 4,5 m | 9 m |
 | `Linha` | 9 × 1,5 m | 18 × 1,5 m | 30 × 1,5 m |
-| `Cura`, `Apoio` e `Onda` | 4,5 m | 9 m | 18 m |
+| `Apoio` | 4,5 m | 9 m | 18 m |
+| `Cura` e `Onda` | — | 9 m | 18 m |
 
 `Toque` fica em 1,5 m em qualquer Classe.
 
@@ -6587,4 +6590,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: e4979123285e51694941c05717a0d27bcc1e15cd -->
+<!-- fonte: 777c37bbb12568819e0c19248e4ff467f5f03fc3 -->

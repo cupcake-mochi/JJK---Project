@@ -85,7 +85,8 @@ const montar = [
       ['Explosão', 'raio 3 m, a 9 m', 'raio 3 m, a 18 m', 'raio 4,5 m, a 36 m'],
       ['Cone', '3 m', '4,5 m', '9 m'],
       ['Linha', '9 × 1,5 m', '18 × 1,5 m', '30 × 1,5 m'],
-      ['Cura, Apoio e Onda', '4,5 m', '9 m', '18 m'],
+      ['Apoio', '4,5 m', '9 m', '18 m'],
+      ['Cura e Onda', '—', '9 m', '18 m'],
     ],
     [24, 22, 27, 27], { boldCols: [0], centerCols: [1,2,3] }
   ),

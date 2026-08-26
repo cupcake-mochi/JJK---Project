@@ -1,4 +1,4 @@
-GERADOR DO MANUAL — Fundamento v7.16
+GERADOR DO MANUAL — Fundamento v7.17
 
 Recria o .docx do zero. Precisa de Node.js.
 
@@ -31,6 +31,39 @@ ORDEM DAS SEÇÕES (v7)
   4 Restrições → 5 Fora de combate → 6 Liberação Máxima → 7 Técnica Máxima →
   8 Regras de ouro → 9 Progressão → 10 Feitiços prontos → 11 Para o mestre →
   Apêndice
+
+O QUE MUDOU NA v7.17
+
+  Classe 0 nao cura, e isso nao foi mudanca de regra: foi contradicao dentro
+  do proprio manual, achada pelo Mizuki.
+
+  A regra da Classe 0 diz "nao se montam: escolha uma Forma e pronto", e Cura
+  E uma Forma. A coluna `Custa` da tabela de Formas (Cura = Media, Onda =
+  Pesada) nunca era aplicada, porque uma Classe 0 nao tem orcamento de onde
+  pagar. Entao um Classe 0 com Forma Cura entregava 6d8 = 27 de cura por
+  rodada, de graca, EM ALIADO, no nivel 30 — e curar terceiro e o degrau que
+  a Trilha Sutura paga uma Trilha inteira por, no nivel 11 dela.
+
+  A tabela de cura DESTE manual sempre comecou na Classe 1. Quem abria o
+  buraco era a `Base por Classe`, que juntava "Cura, Apoio e Onda" numa linha
+  so e dava a ela uma coluna Classe 0 — o Apoio custa "—" e pertence ali, as
+  outras duas nao.
+
+  1) A linha "Cura, Apoio e Onda" da `Base por Classe` virou duas: "Apoio"
+     fica com 4,5 m na Classe 0, e "Cura e Onda" ficam com "—".
+
+  2) A secao Classe 0 ganhou a linha que diz isso em voz alta, apontando para
+     a tabela de cura da secao 2 como dona.
+
+  A checagem 8 do conferir-manual.py le da tabela de cura DESTE manual quais
+  Classes curam e cobra que a `Base por Classe` concorde. Ela falha nas duas
+  direcoes, e mudar as duas de forma coerente sai VERDE de proposito.
+  Arnes: 10 perturbacoes, 8 acendendo e 2 contra-testes verdes.
+
+  ⚠ A v7.16 nao tem secao aqui, e ela existiu: foi a v0.162 do projeto, que
+  tirou `cobertura leve` e `meia cobertura` de duas entradas precadas. Este
+  arquivo pulou ela. Fica registrado em vez de reescrito de memoria — o
+  CHANGELOG daquela versao e o dono.
 
 O QUE MUDOU NA v7.15
 

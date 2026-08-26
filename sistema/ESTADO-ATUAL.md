@@ -1,8 +1,24 @@
 # Estado atual do projeto
 
-Atualizado em 26/08/2026, na v0.165 (última peça fechada: **Dano de alma e Integridade**, a peça 24, na v0.145, com o `conferir-alma.py` e doze checagens; antes dela, **Bloquear, na v0.143**; antes dela, o **Objeto amaldiçoado, na v0.132**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 26/08/2026, na v0.166 (última peça fechada: **Dano de alma e Integridade**, a peça 24, na v0.145, com o `conferir-alma.py` e doze checagens; antes dela, **Bloquear, na v0.143**; antes dela, o **Objeto amaldiçoado, na v0.132**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.165.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e quatro peças escritas** e **vinte e quatro validadores**.
+**Versão v0.166.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e quatro peças escritas** e **vinte e quatro validadores**.
+
+***A v0.166 tirou a cura do `Classe 0`, e o achado é do Mizuki indo escrever `Sem Técnica`.*** **Não era mudança de regra: era contradição dentro do próprio manual.**
+
+> **A regra da Classe 0 diz *"não se montam: escolha uma Forma e pronto"*, e `Cura` É uma Forma.** *A coluna `Custa` da tabela de Formas — `Cura` é `Média`, `Onda` é `Pesada` — nunca era aplicada, porque uma Classe 0 não tem orçamento de onde pagar.* **No nível 30 isso entregava `27` de cura por rodada, de graça, EM ALIADO** — `5,31` fatias, ou `1,06` Trilha inteira.
+>
+> ***E o eixo que dói mais não é o tamanho:*** *a peça 11 §6 escreve que curar terceiro é o degrau raro do material e põe ele na Trilha `Sutura`, **no nível 11 dela**.* **O `Classe 0` entregava no nível 1.** *O levantamento é mais estreito que a peça: só Shoko, Yuta e Sukuna fazem output para curar os outros na obra inteira, e o Gojo não consegue.*
+>
+> **⚠⚠ O manual já se contradizia, e é isso que faz o conserto ser barato:** *a tabela `Cura cheia` dele começa na **Classe 1**.* **Quem abria o buraco era a `Base por Classe`, que juntava `Cura, Apoio e Onda` numa linha só e dava a ela uma coluna `Classe 0`** — o `Apoio` custa `—` e pertence ali, as outras duas não. *A linha virou duas.*
+>
+> ***✔ E a área foi conferida antes de virar alarme falso:*** **`Explosão`, `Cone` e `Linha` têm coluna `Classe 0` na mesma tabela e nada as contradiz.** *Área em Classe 0 é intencional e ficou de fora.*
+>
+> **Entrou a checagem 8 do `conferir-manual.py`, e ela não guarda a decisão:** *lê da tabela de cura do próprio manual quais Classes curam, tira dos rótulos dela quais Formas ela governa, e cobra que a `Base por Classe` concorde.* **Dez perturbações: oito acendendo e dois contra-testes verdes** — e o que fecha é dar `Classe 0` aos dois lugares ao mesmo tempo e sair **verde**.
+>
+> **⚠ O arnês pegou um defeito meu, e é o da v0.161 de novo:** *o localizador da tabela de cura **estourava** numa tabela com linha vazia em vez de falhar limpo.* **Guarda que acusa e morre antes de dizer o que viu não é guarda.**
+>
+> **Manual na v7.17**, com o build de controle reconstruindo a v7.16 **idêntica** antes de o novo valer. *Delta de seis linhas no manual inteiro; o livro ganhou 50 palavras e nenhum número de regra — o `guard_numeros.py` prova, e as cinco diferenças dele são o parágrafo novo e a célula duplicada.*
 
 ***A v0.164 fechou as doze entregas do Evocador, e com elas as quinze Trilhas.*** *`Servo`, `Matilha` e `Coro` estavam paradas desde a v0.82 — trinta e duas versões — e o que travava não era o que o cabeçalho de parada dizia.*
 
@@ -770,7 +786,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 
 **Duas peças foram parcialmente substituídas e trazem o aviso no topo:** as seções 3 e 4 da peça 4 saíram para a peça 7, e a seção 3 e o quadro de Caminhos da peça 5 saíram para a peça 6.
 
-O manual do Fundamento **v7.16** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 366 parágrafos e 90 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na v7.15, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 49 páginas.
+O manual do Fundamento **v7.17** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 366 parágrafos e 90 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na mesma versão do `.docx`, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 49 páginas.
 
 **Quem é dono da versão do manual:** a primeira linha de `manual/gerador/COMO-USAR.txt`. Toda outra cópia — a capa em `partA.js`, este arquivo, o `README.md`, o `LEIA-ME.md` e o `arquitetura.md` — é cópia, e o `conferir-repositorio.py` falha se alguma divergir. *Ele nasceu na v0.33, depois de a capa do manual passar três versões dizendo 7.5.*
 

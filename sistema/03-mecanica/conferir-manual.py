@@ -12,7 +12,8 @@ sao vocabulario de outro sistema vivo dentro do manual, e nenhum dos cinco
 validadores olhava para la: o pac7.py e o v7.py conferem NUMERO, e o conferir-nomes
 confere a outra direcao.
 
-Quatro checagens:
+Oito checagens (as quatro primeiras sao as originais; 5 a 8 vieram
+depois, e cada uma tem o motivo escrito no bloco dela):
   1. VOCABULARIO ORFAO — palavra de outro sistema que este aqui nao tem. Sabedoria
      e Carisma fundiram em Essencia; o nosso bonus de treino se chama Maestria;
      "Habilidade" aqui e atributo; "Grau" e patente e nao tamanho de feitico.
@@ -31,7 +32,7 @@ Quatro checagens:
      errou. Por isso cada numero carrega um dono declarado logo abaixo.
 
 Roda sem argumento. Sai com codigo 1 se algo quebrar.
-Sem python-docx, as quatro checagens sao PULADAS com aviso, em vez de falhar.
+Sem python-docx, as oito checagens sao PULADAS com aviso, em vez de falhar.
 """
 
 import os
@@ -67,12 +68,12 @@ DOCX = os.path.join(RAIZ, 'manual', 'Fundamento-MANUAL-v7.docx')
 try:
     import docx  # noqa: F401
 except ImportError:
-    print('~~ python-docx nao instalado. As quatro checagens foram PULADAS.')
+    print('~~ python-docx nao instalado. As oito checagens foram PULADAS.')
     print('   pip install python-docx --break-system-packages')
     sys.exit(0)
 
 if not os.path.exists(DOCX):
-    print(f'~~ manual nao encontrado em {DOCX}. As quatro checagens foram PULADAS.')
+    print(f'~~ manual nao encontrado em {DOCX}. As oito checagens foram PULADAS.')
     sys.exit(0)
 
 import docx as _docx
@@ -1184,6 +1185,129 @@ else:
                   f'so os graus da peca,')
             print(f'      e nenhuma repete os bonus ({" · ".join("+" + b for b in dict.fromkeys(_BONUS))}) '
                   'que sao dela.')
+
+# --------------------------------------------------------------------------
+bloco('8. A CURA COMECA NA CLASSE 1 — e a Classe 0 nao pode ter uma')
+# --------------------------------------------------------------------------
+# v0.166. Achado do Mizuki: a regra da Classe 0 diz "nao se montam: escolha uma
+# Forma e pronto", e `Cura` E uma Forma. A coluna `Custa` da tabela de Formas
+# (`Cura` = Media, `Onda` = Pesada) nunca era aplicada, porque uma Classe 0 nao
+# tem orcamento de onde pagar. Entao um Classe 0 com Forma `Cura` entregava
+# 6d8 = 27 de cura POR RODADA, de graca, EM ALIADO, no nivel 30 — 5,31 fatias,
+# que e 1,06 Trilha inteira. E a peca 11 §6 escreve que curar terceiro e o degrau
+# RARO do material, pago pela Trilha `Sutura` no nivel 11 dela.
+#
+# ⚠ Nao era mudanca de regra: era CONTRADICAO DENTRO DO MANUAL. A tabela de cura
+# dele comeca na Classe 1 — nunca houve cura de Classe 0 precada. Quem abria o
+# buraco era a tabela `Base por Classe`, que juntava `Cura, Apoio e Onda` numa
+# linha so e dava a ela uma coluna `Classe 0`; o `Apoio` custa `—` e pertence
+# ali, as outras duas nao.
+#
+# NADA DA DECISAO MORA AQUI. Esta checagem le da tabela de cura DO PROPRIO MANUAL
+# quais Classes curam, e cobra que a `Base por Classe` concorde. Ela falha nas
+# DUAS direcoes: coluna `Classe 0` viva numa Forma de cura acende, e cura de
+# Classe 0 precada sem a coluna correspondente tambem. Mudar os dois de forma
+# coerente sai VERDE de proposito — e' esse o contra-teste.
+#
+# E o que ela NAO cobra, declarado: a FRASE do texto. Apagar o paragrafo
+# "Classe 0 nao cura" sai verde, e e de proposito — exigir frase literal e' a
+# armadilha da "frase morta EXIGIDA por um validador", que nunca mais sai.
+# Quem manda aqui e a TABELA; o paragrafo e placa, e placa nao e dono.
+# Arnes da v0.166: 10 perturbacoes, 8 acendendo e 2 contra-testes verdes.
+def _tabela_com_rotulo(rotulo):
+    # ⚠ o `if not r.cells` nao e paranoia: sem ele esta funcao ESTOURA numa tabela
+    # com linha vazia, e o arnes pegou isso. Guarda que acusa e estoura logo
+    # depois e' o defeito da v0.161 — a checagem morre antes de dizer o que viu.
+    for t in _D.tables:
+        for r in t.rows[1:]:
+            if not r.cells:
+                continue
+            if r.cells[0].text.strip().startswith(rotulo):
+                return t
+    return None
+
+
+_tc = _tabela_com_rotulo('Cura cheia')
+_tb = _tabela_com(['Forma', 'Classe 0'])
+if _tc is None or _tb is None:
+    erro('8: nao achei a tabela de cura ("Cura cheia") ou a "Base por Classe" no '
+         'manual — sem as duas esta checagem nao tem o que comparar, e passaria '
+         'verde sem conferir nada')
+else:
+    # 8a. quais Classes o manual preca cura, lido do cabecalho da tabela de cura
+    _CL_CURA = []
+    for _c in _tc.rows[0].cells[1:]:
+        _m = re.fullmatch(r'\s*(\d+)\s*', _c.text)
+        if _m:
+            _CL_CURA.append(int(_m.group(1)))
+    # as Formas que aquela tabela governa saem dos ROTULOS dela, e nao de lista minha
+    _FORMAS_CURA = []
+    for _r in _tc.rows[1:]:
+        _rot = _r.cells[0].text.strip()
+        _m = re.match(r'([A-Za-zÀ-ÿ]+)', _rot)
+        if _m and 'Dano' not in _rot:
+            _FORMAS_CURA.append(_m.group(1))
+    # guarda de reconhecedor
+    if not _CL_CURA or len(_FORMAS_CURA) < 2:
+        erro(f'8: li {len(_CL_CURA)} Classe(s) e {len(_FORMAS_CURA)} Forma(s) na tabela '
+             'de cura do manual, e esperava pelo menos uma Classe e duas Formas — '
+             'a tabela mudou de forma, e a comparacao abaixo nao provaria nada')
+    else:
+        _CURA_NA_0 = 0 in _CL_CURA
+        print(f'  a tabela de cura do manual preca as Classes: '
+              f'{" · ".join(str(c) for c in _CL_CURA)}')
+        print(f'  e as Formas que ela governa, lidas dos rotulos dela: '
+              f'{" · ".join(_FORMAS_CURA)}')
+        print(f'  => cura de Classe 0 e {"PRECADA" if _CURA_NA_0 else "inexistente"} '
+              'no manual')
+        # 8b. a `Base por Classe` tem de concordar com isso
+        _hdr = [c.text.strip() for c in _tb.rows[0].cells]
+        try:
+            _col0 = next(i for i, h in enumerate(_hdr) if re.fullmatch(r'Classe\s*0', h))
+        except StopIteration:
+            _col0 = None
+        if _col0 is None:
+            erro('8: a tabela "Base por Classe" perdeu a coluna `Classe 0` — sem ela '
+                 'nao da para conferir se uma Forma de cura tem alcance ali')
+        else:
+            _vazio = re.compile(r'^\s*(—|-|–|n/?a|\.)?\s*$', re.I)
+            _acusa, _conferidas = [], 0
+            for _r in _tb.rows[1:]:
+                _rot = _r.cells[0].text.strip()
+                _quais = [f for f in _FORMAS_CURA
+                          if re.search(rf'\b{re.escape(f)}\b', _rot)]
+                if not _quais:
+                    continue
+                _conferidas += 1
+                _cel = _r.cells[_col0].text.strip()
+                _tem = not _vazio.match(_cel)
+                if _tem != _CURA_NA_0:
+                    _acusa.append((_rot, _quais, _cel or '(vazio)'))
+            if _conferidas == 0:
+                erro('8: nenhuma linha da "Base por Classe" nomeia uma Forma de cura. '
+                     'Ou a tabela foi renomeada, ou esta checagem parou de achar o '
+                     'que ela confere — nos dois casos ela passaria verde a toa')
+            elif _acusa:
+                for _rot, _quais, _cel in _acusa:
+                    print(f'     linha "{_rot}" ({" · ".join(_quais)}): '
+                          f'Classe 0 = {_cel}')
+                if _CURA_NA_0:
+                    erro(f'8: o manual preca cura de Classe 0 na tabela de cura, e a '
+                         f'"Base por Classe" nao da alcance de Classe 0 para '
+                         f'{len(_acusa)} Forma(s) de cura. As duas tem de dizer a '
+                         'mesma coisa')
+                else:
+                    erro(f'8: a tabela de cura do manual comeca na Classe '
+                         f'{min(_CL_CURA)}, mas a "Base por Classe" da alcance de '
+                         f'Classe 0 para {len(_acusa)} Forma(s) de cura. Um Classe 0 '
+                         'com Forma de cura sai de graca e toda rodada, EM ALIADO — '
+                         'e curar terceiro e o degrau que a Trilha `Sutura` paga uma '
+                         'Trilha inteira por, no nivel 11 dela (peca 11 §6)')
+            else:
+                print(f'  [x] as {_conferidas} linha(s) da "Base por Classe" que nomeiam '
+                      f'Forma de cura concordam')
+                print(f'      com a tabela de cura: alcance de Classe 0 '
+                      f'{"existe" if _CURA_NA_0 else "nao existe"} nos dois lugares.')
 
 # --------------------------------------------------------------------------
 print()

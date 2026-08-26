@@ -8,6 +8,73 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.166] — 26/08/2026  ·  manual v7.17
+
+**Um `Classe 0` com Forma `Cura` entregava `27` de cura por rodada, de graça, num aliado, para sempre.** *Achado do Mizuki, indo escrever a peça de `Sem Técnica`.* **E não era mudança de regra: era contradição dentro do próprio manual.**
+
+### A regra da Classe 0 diz "escolha uma Forma e pronto", e `Cura` é uma Forma
+
+**A tabela de Formas tem coluna `Custa` — `Cura` custa `Média`, `Onda` custa `Pesada` —, e nada aplicava ela numa Classe 0.** *A única cerca escrita fala de **Melhoria**: "cabe uma Melhoria `Leve` numa Classe 0, tirando um dado para pagar".* **Forma não é Melhoria, e uma Classe 0 não tem orçamento de onde pagar coisa nenhuma.**
+
+| | quanto | quando | em quem |
+|---|---|---|---|
+| **`Classe 0` com `Cura`, nível 30** | **`27,0`** | **toda rodada, de graça** | **aliado** |
+| `Energia Reversa` (Classe Passiva 3, gate refino 7 e nível 13) | `31,5` | Ação padrão + `7` PE | só você |
+| Passiva `Recomposição` | `35,0` | `1×` por descanso curto | só você |
+
+> **`27` de cura por rodada são `5,31` fatias — `1,06` Trilha inteira.** *E o eixo que dói mais não é o tamanho:* **a peça 11 §6 escreve que curar terceiro é o degrau raro do material, e põe ele na Trilha `Sutura`, no nível 11 dela.** *Um `Classe 0` com `Cura` entregava isso no nível 1.*
+>
+> **O levantamento confirma a peça e é mais estreito que ela:** *só três pessoas na obra inteira fazem output para curar os outros — Shoko, Yuta e Sukuna.* **O Gojo não consegue.**
+
+### ⚠⚠ O conserto não é regra nova: o manual já se contradizia
+
+**A tabela `Cura cheia` deste manual começa na `Classe 1`** — as colunas dela são `1 · 2 · 3 · 4 · 5`. *Nunca existiu cura de Classe 0 preçada.*
+
+**Quem abria o buraco era a `Base por Classe`**, que juntava `Cura, Apoio e Onda` numa linha só e dava a ela uma coluna `Classe 0` de `4,5 m`. *O `Apoio` custa `—` e pertence ali; as outras duas não.* **A linha virou duas, e a de cura ficou com `—`.**
+
+> **Pagar em dado não consertaria:** *`Média` custaria `2` dados, o que ainda deixa `4d8` = `18` de cura grátis por rodada no nível 30.* **O defeito não é o tamanho, é *grátis + ilimitado + em terceiro*** — então a regra é chapada.
+
+### ✔ E a área foi conferida antes de virar alarme falso
+
+**`Explosão`, `Cone` e `Linha` têm coluna `Classe 0` na mesma tabela e nada as contradiz.** *Área em Classe 0 é intencional, e ficou fora deste conserto.* **A diferença é que a `Cura` quebrava uma regra escrita e a área não quebra nenhuma.**
+
+### A checagem 8, e ela lê a relação em vez de guardar a decisão
+
+**Entrou a checagem 8 do `conferir-manual.py`.** *Nada da decisão mora dentro dela:* **ela lê da tabela de cura DO PRÓPRIO MANUAL quais Classes curam, tira dos rótulos daquela tabela quais Formas ela governa, e cobra que a `Base por Classe` concorde.** *Falha nas duas direções — coluna `Classe 0` viva numa Forma de cura acende, e cura de Classe 0 preçada sem a coluna correspondente também.*
+
+> **Dez perturbações: oito acendendo e dois contra-testes verdes.** *O que fecha o argumento é o nº 8:* **dar `Classe 0` à tabela de cura E à `Base por Classe` ao mesmo tempo sai VERDE**, de propósito. *Se ela medisse a decisão de hoje, acenderia.*
+>
+> **⚠ E o arnês pegou um defeito meu antes do commit, do mesmo jeito que na v0.161:** *o localizador da tabela de cura **estourava** numa tabela com linha vazia, em vez de falhar limpo.* **Guarda que acusa e morre antes de dizer o que viu não é guarda.** *Ganhou o `if not r.cells`.*
+>
+> **E o que ela NÃO cobra, declarado: a FRASE.** *Apagar o parágrafo "Classe 0 não cura" sai verde, e é de propósito — exigir frase literal é a armadilha da "frase morta EXIGIDA por um validador", que nunca mais sai.* **Quem manda é a tabela; o parágrafo é placa.**
+
+### O ciclo do manual, e o controle passou
+
+**A fonte revertida para a v7.16 e reconstruída do zero deu um `document.xml` IDÊNTICO ao `.docx` publicado.** *Então o gerador é determinístico e a mudança é o único delta* — e o delta, medido no texto extraído, é de **seis linhas** no manual inteiro: a versão da capa, o parágrafo novo e a linha da tabela virando duas.
+
+### Adicionado
+
+- **A regra `Classe 0 não cura`** no manual (`partA.js`, seção `Classe 0`) e no livro (capítulo 40, `Fundamento`).
+- **A checagem 8 do `conferir-manual.py`**, com guarda de reconhecedor nos dois lados. *De `266` para `267` checagens.*
+- **A seção `O QUE MUDOU NA v7.17`** no `COMO-USAR.txt` do gerador.
+
+### Alterado
+
+- **A linha `Cura, Apoio e Onda` da tabela `Base por Classe` virou duas**, nos dois documentos: `Apoio` fica com `4,5 m` na Classe 0, e `Cura e Onda` ficam com `—`.
+- **O `conferir-manual.py` dizia "Quatro checagens" no cabeçalho e nas duas mensagens de PULADA.** *São oito desde a checagem 7, da v0.162.*
+- **Manual do Fundamento na `v7.17`**, com o `.pdf` regerado e a paginação parada em `49`.
+- **O livro foi de `72.171` para `72.221` palavras.** *Páginas paradas em `245` e `142`.* **O `guard_numeros.py` acusou cinco diferenças, e as cinco são o parágrafo novo e a célula duplicada** — nenhum número de regra se moveu.
+
+### Decidido
+
+- **`Classe 0` nunca cura, e a regra é chapada.** *Decisão do Mizuki, com o motivo dele: "se não é cura sem gasto de energia amaldiçoada".*
+- **A área em `Classe 0` fica como está** — ela não contradiz nada escrito.
+- **O conserto vem ANTES da peça de `Sem Técnica`**, em versão própria. *Decisão do Mizuki:* **aquela peça vai dar `Classe 0` a `7` em forma de estilos, e ela precisa nascer em cima de um `Classe 0` que já não cura.**
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **A tarefa é a máquina de criação de `Sem Técnica`, a nona rota de Origem** — e a régua dela já foi medida nesta conversa: molde da peça 20, semente de aptidão em `Classe Passiva 2` ou `3`, e o vão do dia em `4,06` a `6,43` fatias.
+
+---
+
 ## [0.165] — 26/08/2026
 
 **Cinco correções pequenas, e três delas vieram de colegas do Mizuki lendo o material.** *Nenhuma é de conta nova; quatro são de texto e uma tem número dentro.*

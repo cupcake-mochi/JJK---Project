@@ -14,7 +14,7 @@ const cover = [
     children: [new TextRun({ text: 'manual do jogador e do mestre', size: 24, italics: true, color: C.grey })] }),
   new Paragraph({ alignment: AlignmentType.CENTER,
     border: { top: { style: BorderStyle.SINGLE, size: 8, color: C.crimson, space: 14 } },
-    children: [new TextRun({ text: 'Níveis 1–20  ·  Faixa lendária 21–30  ·  Versão 7.16', size: 20, color: C.grey })] }),
+    children: [new TextRun({ text: 'Níveis 1–20  ·  Faixa lendária 21–30  ·  Versão 7.17', size: 20, color: C.grey })] }),
   new Paragraph({ children: [new PageBreak()] }),
 ];
 
@@ -166,6 +166,7 @@ const numeros = [
   ),
   GAP(100),
   P('Cabe uma Melhoria Leve numa Classe 0, tirando um dado pra pagar. A base de alcance da Classe 0 fica um degrau abaixo da normal; a tabela está na seção 2.'),
+  P('**Classe 0 não cura.** As Formas Cura e Onda ficam de fora dela. A tabela de cura da seção 2 começa na Classe 1, e é ela que diz o que uma cura vale — quem quer curar paga uma Classe.'),
 
   H2('O dado'),
   P('Monte sempre em d8: pontos, Melhorias e Restrições só existem em d8. Se a sua mesa rola outro dado, converta o total final na hora de rolar.'),
