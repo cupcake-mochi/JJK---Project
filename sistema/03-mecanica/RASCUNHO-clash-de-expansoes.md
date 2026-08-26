@@ -18,7 +18,7 @@ O que sustenta essa regra, e que qualquer substituta precisa preservar:
 
 - **Ela é simétrica.** O refino cresce +7 a +9 numa campanha, contra os +3 de atributo e maestria — então ele só pode aparecer numa disputa em que o outro lado também é refino. É a única exceção que a trava da peça 11 permite, e o clash é exatamente ela.
 - **Do nível 26 em diante o refino para de decidir.** Especialista e meio a meio estão os dois no teto 10, e entre eles cai sempre no d10. Não é defeito; é o que a regra faz, e o texto tem que dizer.
-- **Sete aptidões de vantagem ainda perdem 12% das vezes.** O d10 é grande de propósito: a ameaça é calibrada contra o nível do grupo, então os dois lados chegam empatados.
+- **Sete aptidões de vantagem ainda perdem `3%` das vezes, e empatam outros `3%`.** O d10 é grande de propósito: a ameaça é calibrada contra o nível do grupo, então os dois lados chegam empatados. *Este número dizia `12%` até a v0.161, e ele não sai de vantagem nenhuma — a lista das possíveis é `45 · 36 · 28 · 21 · 15 · 10 · 6 · 3 · 1%`.*
 - **O inimigo carrega refino e aptidões na ficha dele**, no padrão do ambiente propício — valor sugerido pelo nível na tabela, palavra final do mestre em cima.
 
 ## 2. O modelo proposto — push gradual

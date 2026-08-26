@@ -34,6 +34,7 @@ import os
 import re
 import math
 import sys
+import itertools
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
 
@@ -408,7 +409,12 @@ ROTAS = {
     'sempre Corpo':  [0] * 7,
     'sempre Refino': [1] * 7,
     'sempre Leque':  [2] * 7,
-    'meio a meio':   [0, 1, 2, 0, 1, 2, 0],
+    # Corpo=0, Refino=1, Leque=2. A colocacao NAO e livre: ela tem que
+    # reproduzir a curva que a peca 11 §3 publica para o meio a meio, e a
+    # checagem 11 falha se deixar de reproduzir. Ate a v0.160 esta linha
+    # tinha 2 escolhas de Refino e a curva publicada tem 3 — o mesmo nome
+    # descrevendo duas rotas, em tres documentos.
+    'meio a meio':   [1, 0, 1, 2, 1, 0, 2],
 }
 # quanto cada escolha de Leque devolve em espaco de feitico. Se este numero mudar,
 # a checagem abaixo tem que acender — foi por ela NAO olhar o eixo dos feiticos que
@@ -446,7 +452,10 @@ def simular(esc):
         # elas vivem na mesma escada — e essa e a afirmacao que faz as tres se
         # equilibrarem. Separadas, a dominancia nunca aparece.
         ganho_ref = min(TETO_REFINO, ref + 1) - ref
-        n_apt = APT_NO_TETO if ganho_ref == 0 else 1
+        # se a regra nao foi lida, o erro ja esta registrado la em cima. Aqui
+        # a simulacao segue com 0 em vez de estourar: um guarda que acusa e
+        # depois quebra esconde TODAS as outras acusacoes da mesma rodada.
+        n_apt = (APT_NO_TETO or 0) if ganho_ref == 0 else 1
         por_marco.append({
             'Corpo':  (1, 0, 0, 0),
             'Refino': (0, ganho_ref, n_apt, 0),
@@ -1533,6 +1542,198 @@ else:
                  f'`{TETO_TXT}` virando `{_NT}d{_FT}`')
         else:
             print(f'  [x] {_arq} publica a mesma escada que a SS6.9')
+
+# --------------------------------------------------------------------------
+bloco('11. AS CONTAGENS DE APTIDAO — a rota pura publica o que a regra produz')
+# --------------------------------------------------------------------------
+# A v0.89 trocou a MOEDA da escolha de Refino quando o refino ja esta no teto:
+# ela passa a levar DUAS aptidoes em vez de uma. A regra mora na peca 11 §3 e os
+# dois numeros dela sao LIDOS de la — nada de valor fica escrito aqui.
+#
+# O que faltava era comparacao. A curva de REFINO ja era reconstruida da regra
+# (checagem 6), mas a contagem de APTIDAO nao era conferida em lugar nenhum, e o
+# `7` de antes da v0.89 sobreviveu da v0.89 a v0.160 em quatro documentos — dois
+# deles a poucas linhas da tabela que ja publicava o numero certo.
+_A11 = os.path.join(AQUI, '11-aptidoes-e-refino.md')
+_A02 = os.path.join(AQUI, '02-economia-de-atributos.md')
+_AEST = os.path.join(AQUI, '..', 'ESTADO-ATUAL.md')
+_ALIV = os.path.join(AQUI, '..', '05-material', 'livro', 'manual',
+                     '45-aptidoes-e-refino.md')
+_T11 = open(_A11, encoding='utf-8').read()
+_T02 = open(_A02, encoding='utf-8').read()
+_TEST = open(_AEST, encoding='utf-8').read()
+_TLIV = open(_ALIV, encoding='utf-8').read() if os.path.exists(_ALIV) else ''
+
+_NUM = {'zero': 0, 'uma': 1, 'duas': 2, 'três': 3, 'quatro': 4, 'cinco': 5,
+        'seis': 6, 'sete': 7, 'oito': 8, 'nove': 9, 'dez': 10}
+
+
+def _n(txt):
+    """aceita algarismo ou numeral por extenso, que e como as pecas escrevem."""
+    return int(txt) if txt.isdigit() else _NUM.get(txt.lower())
+
+
+# ---- os dois valores da regra, lidos da peca 11 §3
+_m_base = re.search(r'\*\*Refino\*\* — mais um de refino, e uma aptidão', _T11)
+# o valor do teto ja foi lido da peca 11 la na checagem 5 (APT_NO_TETO). Ler de
+# novo aqui criaria um segundo leitor do mesmo numero, que e a licao no 9 na
+# forma de codigo.
+_m_teto = APT_NO_TETO
+if not _m_base or _m_teto is None:
+    erro('11: nao achei a linha de regra da escolha de Refino na peca 11 §3 — a '
+         'base ("mais um de refino, e uma aptidão") e a troca de moeda no teto '
+         '("você leva `N` aptidões no lugar") sao de onde esta checagem tira os '
+         'dois numeros, e sem elas ela conferiria contra valor escrito aqui')
+else:
+    APT_BASE, APT_TETO = 1, APT_NO_TETO
+
+    def _sim(escolhas):
+        """os sete marcos, na regra: passivo +1 de refino, e a escolha em cima.
+
+        Devolve a curva de refino e as aptidoes acumuladas, marco a marco.
+        """
+        r, apt, cur, ac = 1, 0, [], []
+        for e in escolhas:
+            r = min(TETO_REFINO, r + 1)          # a linha de graca do marco
+            if e:
+                if r >= TETO_REFINO:
+                    apt += APT_TETO              # a moeda trocada, v0.89
+                else:
+                    r += 1
+                    apt += APT_BASE
+            cur.append(r)
+            ac.append(apt)
+        return cur, ac
+
+    # contra-prova de que este simulador e a MESMA regra da checagem 6: as duas
+    # rotas puras tem de devolver a curva que o _curva() daquela reconstroi.
+    _cur_esp, _apt_esp = _sim([True] * len(MARCOS))
+    _cur_gen, _apt_gen = _sim([False] * len(MARCOS))
+    if _cur_esp != _curva(True) or _cur_gen != _curva(False):
+        erro(f'11: o simulador deste bloco devolve {_cur_esp} e {_cur_gen} para as '
+             f'rotas puras, e o da checagem 6 devolve {_curva(True)} e '
+             f'{_curva(False)} — as duas leem a mesma regra e discordam')
+    else:
+        PURA = _apt_esp[-1]
+        print(f'  a regra: +{APT_BASE} aptidao por escolha de Refino, e +{APT_TETO} '
+              f'quando o refino ja esta no teto')
+        print(f'  aptidoes da rota pura, marco a marco: {_apt_esp}')
+        print(f'  a rota que nunca escolhe Refino: {_apt_gen[-1]}')
+
+        # ---- todo lugar que publica a contagem da rota pura.
+        # Cada entrada e' (rotulo, texto, regex). O grupo 1 e' o numero.
+        _PUBS = [
+            ('peca 11 §3, a tabela das tres rotas puras', _T11,
+             r'\|\s*sempre Refino\s*\|\s*\*{0,2}\d+\*{0,2}\s*\|'
+             r'\s*\*{0,2}\d+\*{0,2}\s*\|\s*\*{0,2}(\d+)\*{0,2}\s*\|'),
+            ('peca 11, o cardapio contra a rota pura', _T11,
+             r'A rota pura passa a precisar de (\d+) aptidões'),
+            ('peca 11, o argumento das tres nao se substituirem', _T11,
+             r'Quem escolhe refino tem (\w+) aptidões'),
+            ('peca 11, a troca escrita na cara do jogador', _T11,
+             r'e (\w+) aptidões contra nenhuma'),
+            ('peca 11, o preco da Vantagem no d100', _T11,
+             r'numa campanha com no máximo (\w+) aptidões'),
+            ('peca 2 §3, a tabela das tres fichas', _T02,
+             r'\*\*sempre refino\*\*.*?\*{0,2}(\d+) apt\*{0,2}\s*\|\s*$'),
+            ('peca 2 §3, a leitura embaixo da tabela', _T02,
+             r'refino no teto e (\w+) aptidões'),
+            ('o ESTADO-ATUAL, a tabela das quatro rotas', _TEST,
+             r'\|\s*sempre refino\s*\|\s*\*{0,2}\d+\*{0,2}\s*\|'
+             r'\s*\*{0,2}\d+\*{0,2}\s*\|\s*\*{0,2}(\d+)\*{0,2}\s*\|'),
+            ('o LIVRO, capitulo 45', _TLIV,
+             r'troca (\w+) aptidões por sete pontos de atributo'),
+        ]
+        _cegos = [r for r, t, x in _PUBS if not re.search(x, t, re.M | re.S)]
+        # guarda de reconhecedor: sem ela, uma frase reescrita faz a checagem
+        # achar zero publicacao, logo zero divergencia, e ela passa verde para
+        # sempre sem ter conferido nada. E' a licao no 8 no reconhecedor.
+        if _cegos:
+            erro(f'11: {len(_cegos)} publicacao(oes) da contagem da rota pura '
+                 f'sumiram do reconhecedor: {"; ".join(_cegos)} — ou o texto mudou '
+                 'de forma, ou o numero deixou de ser publicado ali, e nos dois '
+                 'casos esta checagem parou de conferir aquele lugar')
+        else:
+            _mau = []
+            print(f'\n  {"onde":<48}{"publica":<10}{"a regra"}')
+            for _rot, _txt, _rx in _PUBS:
+                _v = _n(re.search(_rx, _txt, re.M | re.S).group(1))
+                _ok = _v == PURA
+                print(f'  {_rot:<48}{str(_v):<10}{PURA}  {"ok" if _ok else "<<< DIVERGIU"}')
+                if not _ok:
+                    _mau.append(f'{_rot} diz {_v}')
+            if _mau:
+                erro(f'11: a rota pura leva {PURA} aptidoes pela regra da peca 11 §3, '
+                     f'e {len(_mau)} lugar(es) publicam outro numero: '
+                     + '; '.join(_mau))
+            else:
+                print(f'  [x] as {len(_PUBS)} publicacoes dizem {PURA}, e o numero nao')
+                print('      esta escrito dentro deste validador.')
+
+        # ---- a linha `meio a meio` do ESTADO-ATUAL: ela e' a unica que nao esta
+        # na peca 11, e ate a v0.160 ela descrevia uma rota DIFERENTE com o mesmo
+        # nome — 2 escolhas de Refino contra as 3 da curva da peca. O chefe herda
+        # essa curva (o conferir-atributos.py deriva a Defesa do alvo dificil
+        # dela), entao duas leituras do mesmo nome sao divergencia esperando data.
+        _mmc = re.search(r'\|\s*\*\*meio a meio\*\*\s*\|((?:[^|]*\|){' +
+                         str(len(MARCOS)) + r'})', _T11)
+        _mme = re.search(r'\|\s*meio a meio\s*\|\s*\*{0,2}(\d+)\*{0,2}\s*\|'
+                         r'\s*\*{0,2}(\d+)\*{0,2}\s*\|\s*\*{0,2}(\d+)\*{0,2}\s*\|'
+                         r'\s*\*{0,2}(\d+)\*{0,2}\s*\|\s*\*{0,2}(\d+)\*{0,2}\s*\|',
+                         _TEST)
+        if not _mmc or not _mme:
+            erro('11: nao achei a curva do "meio a meio" na peca 11 §3 ou a linha '
+                 'dele na tabela do ESTADO-ATUAL — sem as duas nao da para provar '
+                 'que o nome descreve uma rota so')
+        else:
+            _curva_mm = [int(x) for x in re.findall(r'`?(\d+)`?', _mmc.group(1))]
+            _atr, _ref, _apt, _pas, _fei = (int(_mme.group(i)) for i in range(1, 6))
+            # o orcamento de escolhas: o passivo da +1 atributo em cada marco, e o
+            # que sobra no atributo foi comprado. Passiva paga e' o teto de sempre.
+            _n_corpo = _atr - len(MARCOS)
+            _n_leque = _fei
+            _n_refino = len(MARCOS) - _n_corpo - _n_leque
+            _cands = [c for c in itertools.combinations(range(len(MARCOS)), _n_refino)
+                      if _sim([i in c for i in range(len(MARCOS))])[0] == _curva_mm] \
+                if 0 <= _n_refino <= len(MARCOS) else []
+            _apts = {_sim([i in c for i in range(len(MARCOS))])[1][-1] for c in _cands}
+            print(f'\n  meio a meio: {_n_corpo} Corpo · {_n_refino} Refino · '
+                  f'{_n_leque} Leque = {_n_corpo + _n_refino + _n_leque} escolhas, '
+                  f'de {len(MARCOS)} marcos')
+            if _n_corpo < 0 or _n_leque < 0 or _n_refino < 0:
+                erro(f'11: a linha "meio a meio" do ESTADO-ATUAL pede {_n_corpo} '
+                     f'Corpo, {_n_refino} Refino e {_n_leque} Leque, e escolha '
+                     'negativa nao existe')
+            elif not _cands:
+                erro(f'11: nenhuma colocacao de {_n_refino} escolha(s) de Refino nos '
+                     f'{len(MARCOS)} marcos reproduz a curva {_curva_mm} que a peca 11 '
+                     f'§3 publica para o "meio a meio" — a tabela do ESTADO-ATUAL '
+                     'descreve uma rota DIFERENTE com o mesmo nome')
+            elif len(_apts) != 1:
+                erro(f'11: as colocacoes que reproduzem a curva do "meio a meio" dao '
+                     f'{sorted(_apts)} aptidoes, entao a contagem nao e derivavel da '
+                     'curva e a linha precisa dizer qual delas e')
+            elif _apt != _apts.pop():
+                _e = _sim([i in _cands[0] for i in range(len(MARCOS))])[1][-1]
+                erro(f'11: o "meio a meio" do ESTADO-ATUAL publica {_apt} aptidoes e '
+                     f'a curva da peca 11 §3 ({_curva_mm}) produz {_e}')
+            elif _ref != _curva_mm[-1]:
+                erro(f'11: o "meio a meio" do ESTADO-ATUAL publica refino {_ref} no '
+                     f'nivel 30 e a curva da peca 11 §3 termina em {_curva_mm[-1]}')
+            elif tuple(i for i, v in enumerate(ROTAS['meio a meio'])
+                       if v == 1) not in _cands:
+                # a TERCEIRA copia do mesmo nome, e ela mora neste arquivo: a
+                # colocacao da tabela ROTAS. Ela so aparece na saida da checagem
+                # 5, e display que mente ensina numero errado igual a checagem
+                # que mente.
+                erro(f'11: a colocacao do "meio a meio" na tabela ROTAS deste '
+                     f'validador ({ROTAS["meio a meio"]}) nao reproduz a curva '
+                     f'{_curva_mm} que a peca 11 §3 publica — a checagem 5 estaria '
+                     'imprimindo os totais de uma rota diferente com o mesmo nome')
+            else:
+                print(f'  [x] a curva {_curva_mm} da peca 11 e a linha do ESTADO-ATUAL '
+                      f'({_apt} aptidoes,')
+                print('      refino ' + str(_ref) + ') sao a MESMA rota — um nome, uma leitura.')
 
 # --------------------------------------------------------------------------
 print()

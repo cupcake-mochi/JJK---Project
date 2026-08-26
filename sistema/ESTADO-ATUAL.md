@@ -1,8 +1,20 @@
 # Estado atual do projeto
 
-Atualizado em 26/08/2026, na v0.160 (última peça fechada: **Dano de alma e Integridade**, a peça 24, na v0.145, com o `conferir-alma.py` e doze checagens; antes dela, **Bloquear, na v0.143**; antes dela, o **Objeto amaldiçoado, na v0.132**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 26/08/2026, na v0.161 (última peça fechada: **Dano de alma e Integridade**, a peça 24, na v0.145, com o `conferir-alma.py` e doze checagens; antes dela, **Bloquear, na v0.143**; antes dela, o **Objeto amaldiçoado, na v0.132**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.160.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e quatro peças escritas** e **vinte e quatro validadores**.
+**Versão v0.161.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e quatro peças escritas** e **vinte e quatro validadores**.
+
+***A v0.161 matou o `sete`, e ele tinha sobrevivido setenta e duas versões à decisão que o aposentou.*** **A v0.89 pôs a rota pura de Refino em `10` aptidões, e quatro lugares continuaram publicando `7`** — *a tabela das quatro rotas aqui, duas frases da peça 11 e uma da peça 2.*
+
+> **As duas peças se contradiziam por dentro.** *A peça 11 dizia `10` na tabela e na §3, e `sete` sete linhas acima da própria tabela; a peça 2 dizia `10 apt` na tabela e `sete aptidões` dois parágrafos abaixo.* **O LIVRO publica `dez`** — e já publicava na cópia abandonada da v0.138, onde a peça 11 já carregava as duas ocorrências de `sete`. *Nada comparava a contagem com coisa nenhuma, e é por isso que ela atravessou setenta e duas versões com todos os validadores verdes.*
+>
+> **⚠⚠ E `meio a meio` nomeava TRÊS rotas.** *A curva da peça 11 §3 é de `3` escolhas de Refino; a tabela daqui era de `2`; e a linha `ROTAS` do `conferir-aptidoes.py` era de `2` — essa terceira só aparecia na saída impressa da checagem 5, que exibia os totais de outra rota.* **A curva da peça manda, porque o `conferir-atributos.py` deriva dela a Defesa do alvo difícil**, e a linha daqui foi alinhada para `2` Corpo · `3` Refino · `2` Leque.
+>
+> ***E isso importa para o `Bestiário`:*** *este arquivo é o dono declarado do refino e das aptidões do inimigo, o chefe herda a curva do `meio a meio`, e a rolagem de clash é `1d10 + aptidões + metade do nível`.* **A contagem de aptidão é modificador de rolagem viva, e não enfeite de tabela.**
+>
+> **Duas frases do clash caíram junto.** *O `+3, que é 72%` está certo para `+3` — só que `+3` é a distância no marco **22**, e no 22 o refino ainda decide sozinho.* **E o `perdem 12% das vezes` não sai de vantagem nenhuma:** as derrotas possíveis nessa rolagem são `45 · 36 · 28 · 21 · 15 · 10 · 6 · 3 · 1%`.
+>
+> **Entrou a checagem 11 do `conferir-aptidoes.py`** — *ela lê os dois números da regra, simula os sete marcos, e compara com os **nove** lugares que publicam a contagem, com guarda de reconhecedor em cima.* **Dezenove perturbações: dezessete acendendo e dois contra-testes**, e o que importa é o que reverte a v0.89 de forma coerente e sai **verde**.
 
 ***A v0.160 tirou a checagem 7.4 do rótulo e pôs ela no conteúdo.*** **Ela lia a mensagem do último commit da entrega e tirava o `vN.NN` dali** — *e o número da entrega mora em dois lugares, o `README` dentro do commit e a mensagem dele, com nada comparando os dois.*
 
@@ -677,7 +689,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/conferir-equipamento.py` | o fundo de cada arma, a dominância **uma vez por rota de proteção — e são três**, e o teto de Defesa derivado dos três donos |
 | `03-mecanica/conferir-nomes.py` | o vocabulário do manual, extraído do `.docx`, contra todo nome que o projeto batizou |
 | `03-mecanica/conferir-manual.py` | a direção contrária: o manual contra o vocabulário e os números do projeto |
-| `03-mecanica/conferir-aptidoes.py` | as **dez** checagens da peça 11: a trava do refino, as três rotas do marco, o teto de Passivas, o kokusen e o **dano na arma**. *A 10 entrou na v0.158 e lê a exceção do teto como **relação** — em que refino ela dispara, quais faces, e se ela acrescenta um dado —, para que reverter o valor de forma coerente saia verde* |
+| `03-mecanica/conferir-aptidoes.py` | as **onze** checagens da peça 11: a trava do refino, as três rotas do marco, o teto de Passivas, o kokusen, o **dano na arma** e as **contagens de aptidão**. *A 10 entrou na v0.158 e lê a exceção do teto como **relação** — em que refino ela dispara, quais faces, e se ela acrescenta um dado —, para que reverter o valor de forma coerente saia verde. A 11 é da v0.161: ela reconstrói quantas aptidões cada rota leva e compara com os **nove** lugares que publicam o número, e amarra as **três** cópias do `meio a meio`* |
 | `03-mecanica/conferir-expansao.py` | os dois gates da Expansão, a ordem entre os degraus, o preço em espaços e a fragilidade da curva |
 | `03-mecanica/conferir-orcamento.py` | o somatório: todos os drenos de PE ao mesmo tempo, e se todo preço tem número |
 | `03-mecanica/conferir-xp.py` | a curva, o abismo que fecha, e se a regra ainda entrega o tempo que a Guilda pediu |
@@ -807,11 +819,17 @@ E o que essa ficha paga por isso, no nível 30:
 | rota | atributo | refino | aptidões | Passivas | feitiços a mais |
 |---|---|---|---|---|---|
 | sempre atributo | **14** | 8 | 0 | 5 | 0 |
-| sempre refino | 7 | **10** | **7** | 5 | 0 |
+| sempre refino | 7 | **10** | **10** | 5 | 0 |
 | sempre Leque | 7 | 8 | 0 | **12** | **7** |
-| meio a meio | 10 | 10 | 2 | 7 | 2 |
+| meio a meio | 9 | 10 | 3 | 7 | 2 |
 
 Doze Passivas e sete feitiços é o que a rota **compra** — zero aptidões, refino parado no 8 e metade dos pontos de atributo de quem foca corpo. Não é bônus por cima.
+
+> **⚠ As três primeiras linhas são cópia da tabela da peça 11 §3, e o dono é ela.** *A quarta é só daqui: as três puras não descrevem ninguém, e a mistura é quem a mesa joga.* **A checagem 11 do `conferir-aptidoes.py` compara as duas contra a regra**, que é o que faltava — foi por isso que a célula de aptidões da rota pura passou da v0.89 à v0.160 dizendo `7`.
+>
+> ***De onde sai o `10`:*** *a decisão da v0.89 é "no teto, a escolha de Refino leva DUAS aptidões".* **A linha de graça põe o refino em `10` no marco 22, então os marcos 22, 26 e 30 pagam em aptidão** — `1·2·3·4` nos quatro primeiros e `+2` em cada um dos três últimos. *O `7` era a contagem de antes, uma por marco.*
+>
+> ***E o `meio a meio` foi alinhado à curva da peça 11***, que é `3` escolhas de Refino e não `2`. *Ele publicava `10` de atributo e `2` aptidões, que é uma rota diferente com o mesmo nome — e o `conferir-atributos.py` deriva a Defesa do alvo difícil da curva da peça.* **Duas rotas com um nome só é o que a lição nº 9 chama de divergência antes de ela acontecer.**
 
 ## Expansão de Domínio, clash e três decisões soltas
 
@@ -823,9 +841,20 @@ Doze Passivas e sete feitiços é o que a rota **compra** — zero aptidões, re
 
 **O refino resolve o clash onde domínio ainda não existe, e para de resolver onde ele acontece** — do nível 26 em diante o especialista e o meio a meio estão os dois no teto 10, e entre eles cai sempre no d10. Não é erro; é o que a regra faz, e o texto tem que dizer.
 
-O d10 fica grande de propósito: a ameaça é calibrada contra o nível do grupo, então os dois lados chegam empatados e a diferença vem de foco e perda de foco. **Sete aptidões de vantagem ainda perdem 12% das vezes**, e dez níveis de distância valem meio dado.
+O d10 fica grande de propósito: a ameaça é calibrada contra o nível do grupo, então os dois lados chegam empatados e a diferença vem de foco e perda de foco. **Sete aptidões de vantagem — que é a distância do nível 30 — ainda perdem `3%` das vezes e empatam outros `3%`**, e dez níveis de distância valem meio dado.
 
-**O inimigo carrega refino e aptidões na ficha dele**, como vida e dano. É onde a divergência entre mestres nasce, então a implementação deve seguir o padrão do ambiente propício: **valor sugerido pelo nível na tabela, e a palavra final do mestre em cima dele** — para ninguém preencher do zero. Com o chefe herdando a curva do meio a meio, o refino decide sozinho do nível 14 ao 22, e do 26 em diante o jogador especialista leva +3, que é 72%.
+> **⚠ Este número dizia `12%` da v0.27 à v0.160, e ele não sai de modificador nenhum.** *Nesta rolagem as derrotas possíveis são `45 · 36 · 28 · 21 · 15 · 10 · 6 · 3 · 1%`, conforme a vantagem vai de `+0` a `+8`* — **`12` não está na lista, nem somando o empate.** *O que ficou de pé foi o "sete de vantagem": com as contagens certas, `10 − 3` é exatamente sete.*
+
+**O inimigo carrega refino e aptidões na ficha dele**, como vida e dano. É onde a divergência entre mestres nasce, então a implementação deve seguir o padrão do ambiente propício: **valor sugerido pelo nível na tabela, e a palavra final do mestre em cima dele** — para ninguém preencher do zero. Com o chefe herdando a curva do meio a meio, o refino decide sozinho **do marco 10 ao 22** — `5·7·9·10` do especialista contra `4·6·7·9` do chefe —, e onde ele empata a distância é de aptidão:
+
+| marco | refino | quem decide | vantagem do especialista |
+|---|---|---|---|
+| 6 | `3` contra `3` | empate, vai ao d10 | `+0` — os dois têm uma aptidão |
+| 10 · 14 · 18 · 22 | `5·7·9·10` contra `4·6·7·9` | **o refino, sozinho** | — |
+| 26 | `10` contra `10` | empate, vai ao d10 | **`+5`** — `8` contra `3`, e ele ganha `85%` |
+| 30 | `10` contra `10` | empate, vai ao d10 | **`+7`** — `10` contra `3`, e ele ganha `94%` |
+
+> **⚠ Esta linha dizia *"do nível 14 ao 22, e do 26 em diante o especialista leva +3, que é 72%"*.** *O `72%` está certo para `+3` — só que `+3` é a distância de aptidão no marco **22**, e no 22 o refino ainda decide sozinho, então ela nunca é rolada.* **Duas bordas erradas de uma vez: o refino começa a decidir no marco 10 e não no 14, e a distância que sobra do 26 em diante é `+5` e `+7`.**
 
 ### Três decisões que saíram junto, e que não são da peça de aptidões
 

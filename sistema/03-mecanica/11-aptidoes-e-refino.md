@@ -142,7 +142,7 @@ A linha passiva do marco sozinha conserta isso:
 
 `+1 feitiço e uma Passiva` empata com `+1 refino e uma aptidão` porque **Passiva e aptidão vivem na mesma escada de Classe Passiva** — as duas são efeito pequeno, reativo ou permanente, nas mesmas três alturas. O que sobra dos dois lados é `+1 feitiço` contra `+1 refino`.
 
-E aí a conta fecha sozinha: **refino não vale nada para quem não tem aptidão.** Quem escolhe Leque sete vezes tem zero aptidões, então o refino dele é um número morto. Quem escolhe refino tem sete aptidões e nenhuma Passiva a mais para querer. Nenhuma das três precisa de trava porque nenhuma compra o que a outra compra.
+E aí a conta fecha sozinha: **refino não vale nada para quem não tem aptidão.** Quem escolhe Leque sete vezes tem zero aptidões, então o refino dele é um número morto. Quem escolhe refino tem dez aptidões e nenhuma Passiva a mais para querer. Nenhuma das três precisa de trava porque nenhuma compra o que a outra compra.
 
 No nível 30, as três rotas puras:
 
@@ -354,7 +354,7 @@ A vantagem ganha do `3 × refino` em **todo refino**, e a distância cresce: 36%
 
 O gate duplo tem folga do lado certo. Refino 5 cai no nível 10 para quem sempre escolhe refino, então **o nível 14 é a trava que morde**, e ela faz o especialista e o meio a meio convergirem no mesmo marco.
 
-**O preço é ruim de propósito.** A ~2% de dano por rodada, ele vale um quinto do que um ponto de atributo compra, numa campanha com no máximo sete aptidões. Quem olha o número não escolhe; quem escolhe, escolhe pelo grito.
+**O preço é ruim de propósito.** A ~2% de dano por rodada, ele vale um quinto do que um ponto de atributo compra, numa campanha com no máximo dez aptidões. Quem olha o número não escolhe; quem escolhe, escolhe pelo grito.
 
 ### Kokusen Constante · refino 5
 

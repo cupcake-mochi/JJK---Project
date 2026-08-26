@@ -8,6 +8,72 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.161] — 26/08/2026
+
+**O `sete` sobreviveu à própria decisão que o matou, e ficou vivo por setenta e duas versões.** *A v0.89 decidiu que **no teto a escolha de Refino leva DUAS aptidões**, o que põe a rota pura em `10` — e o número velho continuou publicado em **quatro lugares**, dois deles a menos de vinte linhas da tabela que já dizia `dez`.* **Achado indo levantar o terreno do `Bestiário`, e não por validador: nada no projeto comparava essa contagem com coisa nenhuma.**
+
+### As duas peças se contradiziam por dentro
+
+**A peça 11 é a dona da regra, e ela publicava o número certo em três lugares e o errado em dois.** *A §3 diz `A rota pura passa a precisar de 10 aptidões`, a tabela das três rotas puras diz `10` e a linha da troca diz `dez aptidões contra nenhuma`* — **e sete linhas acima da tabela ela dizia `quem escolhe refino tem sete aptidões`**, mais o preço da Vantagem no d100 falando em *"campanha com no máximo sete aptidões"*.
+
+> **A peça 2 tem o mesmo defeito, e mais curto:** *a tabela das três fichas diz `10 apt`, e o parágrafo **dois abaixo** dela dizia `refino no teto e sete aptidões`.*
+>
+> **O `ESTADO-ATUAL` publicava `7` na célula da tabela das quatro rotas** — *a mesma tabela da peça 11, com uma linha a mais.* **E o LIVRO publica `dez`:** o capítulo 45 diz *"troca dez aptidões por sete pontos de atributo"*. *Ele já dizia isso na cópia abandonada da v0.138, que é o único lugar do disco com o livro antigo — e naquela mesma cópia a peça 11 já carregava as duas ocorrências de `sete`.*
+
+**A conta que fecha o `10`:** *a linha de graça do marco põe o refino em `10` no marco 22, então os marcos 22, 26 e 30 já encontram o teto e pagam na moeda trocada.* **`1·2·3·4` nos quatro primeiros e `+2` em cada um dos três últimos.** *O `7` era a contagem de antes — uma por marco, sete marcos.*
+
+### ⚠⚠ E `meio a meio` nomeava TRÊS rotas diferentes
+
+**O mesmo nome, três definições, e nenhuma comparada com as outras.**
+
+| onde | escolhas de Refino | refino no 30 | aptidões |
+|---|---|---|---|
+| a curva publicada na peça 11 §3 | **`3`** | `10`, já no marco 26 | `3` |
+| a tabela do `ESTADO-ATUAL` | `2` | `10`, no marco 30 | `2` |
+| a linha `ROTAS` do `conferir-aptidoes.py` | `2` | `10` | `2` |
+
+> **A curva da peça é a que manda, e ela não é decoração:** *o `conferir-atributos.py` deriva dela a **Defesa do alvo difícil**, que é um dos nove números que o `Bestiário` vai juntar, e o `ESTADO-ATUAL` é quem declara que o chefe herda essa curva.* **Peça de regra vence documento de projeto, e a linha do `ESTADO-ATUAL` foi alinhada:** `2` Corpo · `3` Refino · `2` Leque, que dá atributo `9` e `3` aptidões.
+>
+> **A terceira cópia morava dentro do validador e só aparecia na SAÍDA dele.** *A checagem 5 imprimia os totais do `meio a meio` a partir daquela linha, e imprimia os de outra rota.* **Display que mente ensina número errado igual a checagem que mente** — *é a mesma frase que já estava escrita naquele arquivo, sobre o `CLASSE_0 = 4.5` que a v0.89 matou.*
+
+### As duas frases do clash que saíam daquele número
+
+**`"do 26 em diante o especialista leva +3, que é 72%"`.** *O `72%` está **aritmeticamente certo** para `+3` — e `+3` é a distância de aptidão no marco **22**, onde o refino ainda decide sozinho e a rolagem nunca acontece.* **Duas bordas erradas de uma vez:** o refino começa a decidir no marco `10` e não no `14`, e a distância que sobra do 26 em diante é `+5` (`85%`) e `+7` (`94%`).
+
+> **⚠ `"sete aptidões de vantagem ainda perdem 12% das vezes"` não reconstrói de vantagem nenhuma.** *Nesta rolagem as derrotas possíveis são `45 · 36 · 28 · 21 · 15 · 10 · 6 · 3 · 1%`, conforme a vantagem vai de `+0` a `+8`* — **`12` não está na lista, e não sai nem somando o empate.** *Virou `3%` de derrota e `3%` de empate.* **O que sobreviveu foi o "sete de vantagem": com as contagens certas, `10 − 3` é exatamente sete.**
+
+### A checagem 11, e o que o arnês achou nela
+
+**Entrou a checagem 11 do `conferir-aptidoes.py`**, e ela não guarda valor: *lê os dois números da regra da peça 11 §3, simula os sete marcos, e compara o total com os **nove** lugares que publicam ele.* **Mais a amarração das três cópias do `meio a meio`** — a colocação da `ROTAS` tem de reproduzir a curva publicada, e a linha do `ESTADO-ATUAL` tem de sair dessa curva.
+
+> **Guarda de reconhecedor junto:** *se qualquer uma das nove frases for reescrita e o regex parar de casar, a checagem **falha** em vez de achar zero divergência.* **Sem ela, reescrever uma frase faz a checagem passar verde para sempre sem ter conferido nada** — a lição nº 8 aplicada ao reconhecedor.
+
+**Dezenove perturbações: dezessete acendendo e dois contra-testes.** *O contra-teste que importa é reverter a v0.89 de forma **coerente** — regra em `1` e as nove publicações em `7` — e ele sai **verde**, que é a prova de que a checagem mede a relação e não a constante `10`.*
+
+> **⚠⚠ E o arnês achou dois defeitos, um meu e um de antes.**
+>
+> **O de antes:** *o leitor daquela regra já existia na checagem 5, e quando a linha some ele acusa e **estoura** — `TypeError` no `apt += None`.* **Nunca foi verde falso, porque o código de saída continuava `1`** — mas o traceback engolia a acusação e todas as outras da mesma rodada. *Um guarda que acusa e depois quebra esconde o resto da saída.*
+>
+> **O meu:** *o primeiro contra-teste do `meio a meio` mexia em **dois** donos quando a mudança implica **três** — ele trocava a curva e a tabela e deixava a `ROTAS` para trás.* **Ele acendeu com razão**, e é o mesmo erro que a v0.159 registrou com essas palavras: ***contra-teste coerente mexe em TUDO que a mudança implica.***
+
+### O que se moveu
+
+| | v0.160 | v0.161 |
+|---|---|---|
+| peças de regra · validadores | 24 · 25 | iguais |
+| checagens | 261 | **262** |
+| a contagem de aptidão da rota pura | `7` em 4 lugares, `10` em 5 | **`10` nos 9** |
+| definições vivas de `meio a meio` | **3** | **1** |
+| lugares que comparavam essa contagem | **0** | **1** — a checagem 11 |
+
+*Os 25 validadores verdes com `PULADA = 0`, o `conferir-repositorio.py` e os quatro de `manual/matematica/`.* **Nenhum número de MESA se moveu** — o que mudou foi o que os documentos dizem sobre um número que a regra já produzia. *O livro não foi tocado, e o manual também não: os quatro builds não precisam rodar.*
+
+> **⚠ A dívida que fica declarada, e ela não é deste escopo:** *a tabela da peça 2 §3 usa uma **colocação** diferente das escolhas do `meio a meio` — refino `5` no nível 14 contra os `6` da peça 11.* **As duas terminam no mesmo lugar no nível 30, e a peça 2 já se declara cópia com o dono apontado.** *Alinhar a colocação mexeria nos atributos, que são o conteúdo daquela peça, e isso é versão própria.*
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **O `Bestiário` continua no topo da fila**, e a decisão do Mizuki nesta versão é que ele sai como **máquina mais maldições prontas** — *e não como recolhimento puro.*
+
+---
+
 ## [0.160] — 26/08/2026
 
 **A checagem 7.4 parou de medir o RÓTULO e passou a medir o CONTEÚDO.** *Ela lia a mensagem do último commit da entrega — `git log -1 --pretty=%s` — e tirava o `vN.NN` dali.* **O caso documentado é um — a v0.156, que custou três rodadas —, e o buraco era dos dois lados.** *O prompt de retomada dizia "já travou o `subir.sh` duas vezes"; o CHANGELOG só registra um, e o outro travamento da entrega, na v0.146, foi entrega genuinamente duas atrás e não rótulo velho.*

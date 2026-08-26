@@ -1,4 +1,4 @@
-# Retomada — v0.160, e o que sobrou é o Bestiário, playtest e dois rascunhos
+# Retomada — v0.161, e o que sobrou é o Bestiário, playtest e dois rascunhos
 
 Pasta: `/media/mizuki/HD Externo II/Claude/Claude 2/`
 ⚠ Trabalhe na pasta PRINCIPAL, não em worktree. **Você não commita** — deixa a mensagem em
@@ -7,19 +7,39 @@ Pasta: `/media/mizuki/HD Externo II/Claude/Claude 2/`
 Leia primeiro, nesta ordem: `README.md` (a seção *"Nove lições que custaram erro"*),
 `sistema/ESTADO-ATUAL.md` **inteiro**, e o `logs/CHANGELOG.md` de cima até a v0.145.
 
-**Projeto na v0.160.** 24 peças · 24 validadores · **261 checagens**. Livro em 17 capítulos,
+**Projeto na v0.161.** 24 peças · 24 validadores · **262 checagens**. Livro em 17 capítulos,
 **71.167 palavras**, **243** páginas em coluna única e **141** em duas. Manual do Fundamento na
 **v7.15**. `conferir-voz --estrito` em 0 achados, 0 termos sem destino, **10 triagens**, **7
 marcas de "isto ainda não existe" e 0 rótulos longos demais em 52 entradas de catálogo**.
 
 > **A entrega está UMA versão atrás, que é o normal — a ordem não inverte.** *O último commit
-> de `finalizado/` é `recorte da v0.159`, e a checagem 7.4 aceita uma de distância.* **Rode o
-> `./subir.sh` normalmente e commite a entrega depois**, com `recorte da v0.160`.
+> de `finalizado/` é `recorte da v0.160`, e a checagem 7.4 aceita uma de distância.* **Rode o
+> `./subir.sh` normalmente e commite a entrega depois**, com `recorte da v0.161`.
 >
 > *E desde a v0.160 ela mede o **conteúdo** do commit, não o rótulo* — **copiar a mensagem da
 > vez passada virou aviso, e não mais reprovação.**
 
 ---
+
+## O que a v0.161 fechou
+
+**O `sete` sobreviveu setenta e duas versões à decisão que o aposentou.** *A v0.89 pôs a rota
+pura de Refino em `10` aptidões; quatro lugares continuaram publicando `7`, e as duas peças
+envolvidas se contradiziam por dentro — tabela contra prosa a poucas linhas de distância.*
+**Nada no projeto comparava essa contagem com coisa nenhuma.**
+
+> **⚠⚠ E `meio a meio` nomeava TRÊS rotas** — a curva da peça 11 §3 (`3` escolhas de Refino), a
+> tabela do `ESTADO-ATUAL` (`2`) e a linha `ROTAS` do próprio `conferir-aptidoes.py` (`2`). *A
+> terceira só aparecia na SAÍDA da checagem 5, imprimindo os totais de outra rota.* **Todas as
+> três foram alinhadas à curva da peça, que é de onde o `conferir-atributos.py` deriva a Defesa
+> do alvo difícil.**
+>
+> *Duas frases do clash caíram junto:* **o `+3, que é 72%` mede o marco 22 e não o 26**, e o
+> `perdem 12%` **não sai de vantagem nenhuma** — a lista possível é `45·36·28·21·15·10·6·3·1%`.
+>
+> **Entrou a checagem 11**, com guarda de reconhecedor e 19 perturbações (17 acendendo, 2
+> contra-testes). *O arnês achou dois defeitos: um guarda antigo que acusava e **estourava**
+> logo depois, e um contra-teste meu que mexia em dois donos quando a mudança implica três.*
 
 ## O que a v0.160 fechou
 
@@ -88,9 +108,29 @@ vida e dano, mais prosa; o apêndice tem `Ficha de feitiço` e nada equivalente 
 | refino e aptidões | **o `ESTADO-ATUAL`**, na seção do clash |
 
 > **Nenhum documento junta os nove**, e um dos donos é o `ESTADO-ATUAL` — o padrão de
-> *"vocabulário que ainda não tem peça"* de novo. **Ela recolhe em vez de inventar, no molde da
-> peça 24**, e o `ESTADO-ATUAL` já diz de onde ela sai: *"da matemática de inimigo que o manual
-> já tem"*.
+> *"vocabulário que ainda não tem peça"* de novo.
+>
+> ***Decisão do Mizuki na v0.161: ela é MÁQUINA MAIS MALDIÇÕES PRONTAS***, e não recolhimento
+> puro. *A máquina junta os nove números com os donos que eles já têm; o catálogo é material
+> escrito em cima dela.* **Cada bicho escrito tem de reconstruir da tabela do manual**, então o
+> validador cresce por entrada e não só por campo — e material sem playtest é previsão em cima
+> de previsão. *Com catálogo, o nome `Bestiário` deixa de prometer o que não entrega; ele saiu
+> `LIVRE` na triagem.*
+
+> **⚠ A v0.161 acertou dois dos nove antes de a peça começar.** *O refino e as aptidões do
+> chefe saem da curva do `meio a meio`, e aquela curva tinha três leituras — a tabela do
+> `ESTADO-ATUAL` dava `2` aptidões no nível 30 e a curva da peça 11 dá `3`.* **Na grade da
+> tabela de inimigo do manual, que anda de 5 em 5, o chefe fica assim:**
+>
+> | nível | 5 | 10 | 15 | 20 | 25 | 30 |
+> |---|---|---|---|---|---|---|
+> | refino | `1` | `4` | `6` | `7` | `9` | `10` |
+> | aptidões | `0` | `1` | `2` | `2` | `3` | `3` |
+>
+> **As duas grades não batem** — a do manual anda de `5` em `5` e os marcos de refino caem em
+> `6·10·14·18·22·26·30`. *O `1 / 0` do nível 5 é feio e inofensivo: a Expansão mais cedo que
+> existe é nível 10, então aquela linha nunca vê um clash.* **Decidir se a coluna entra nessa
+> grade torta ou ganha grade própria é da peça.**
 
 ### 3 · Uma coisa pequena que a v0.159 achou e NÃO consertou
 

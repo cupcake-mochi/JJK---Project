@@ -60,7 +60,7 @@ Partindo de 3/2/2/1/1:
 | **meio a meio** | 6·4·2·1·1 · ref 5 · 1 apt | 6·6·3·1·1 · ref 8 · 2 apt | 6·6·6·1·1 · ref 10 · 3 apt |
 | **sempre refino** | 6·2·2·1·1 · ref 7 · 3 apt | 6·4·2·1·1 · ref 10 · **6 apt** | 6·6·2·1·1 · ref 10 · **10 apt** |
 
-Repare que **os três chegam ao mesmo lugar no atributo principal** — 6 — e divergem em tudo o mais. Quem foca atributo termina largo: três ou quatro atributos altos. Quem foca refino termina estreito e fundo: dois atributos altos, refino no teto e sete aptidões.
+Repare que **os três chegam ao mesmo lugar no atributo principal** — 6 — e divergem em tudo o mais. Quem foca atributo termina largo: três ou quatro atributos altos. Quem foca refino termina estreito e fundo: dois atributos altos, refino no teto e dez aptidões.
 
 ### A curva se auto-equilibra
 
