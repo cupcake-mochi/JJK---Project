@@ -86,7 +86,29 @@ lição nº 8 aplicada ao reconhecedor em vez de ao valor.
 | **as Manhas supõem DOIS ataques** | v0.154 | o `Raspão` publica `6,00`, e `6,00` só fecha com dois (`2 × 50% × 6`). **Do nível 2 ao 6 a Vanguarda tem um**, então `Talho`, `Raspão`, `Racho` e `Zunido` entregam metade por cinco níveis. *Consertar mexe no orçamento da Vanguarda inteira* |
 | **a 7.4 mede o rótulo, não o conteúdo** | v0.156 | ela lê a **mensagem** do último commit da entrega e tira o `vN.NN` dali. *Uma entrega sincronizada lê como "duas versões atrás" se a mensagem for copiada da vez passada — aconteceu, e travou o `subir.sh`.* **O conserto é ela ler a linha `Recorte da vX.Y` do `README` da entrega no último commit** |
 | **as sete travas que não derivam** | v0.147 | `Espeto`, `Laço` e `Prego` não têm o TR no preço; o `60%` do `Abalo` e o `28%` do `Tranco` não vêm de portão nenhum; e o `75%` do `Talho` e do `Encaixe` é do acerto velho. **Medida e declarada NÃO aplicada na v0.156** — refazer põe a banda em `6,2×` |
-| **o dano na arma** | v0.148 | **não tem peça, não tem validador e não tem conta.** Mora só no livro, em `Canalizar energia` e `Estímulo Muscular`. É o único dado do sistema nessa situação |
+| **o dano na arma** | v0.148 | **não tem peça, não tem validador e não tem conta.** Mora só no livro, em `Canalizar energia` e `Estímulo Muscular`. É o único dado do sistema nessa situação. ***Levantado na v0.157, e é o próximo item*** — leia o bloco abaixo antes |
+
+> ### ⚠⚠ O dano na arma é o próximo item, e ele já tem DECISÃO tomada e NÃO ESCRITA
+>
+> **A v0.157 levantou ele e o Mizuki decidiu duas coisas. Nenhuma das duas está em arquivo nenhum — elas só existem no chat que fechou aquela versão.**
+>
+> ***1. Ele continua escalando com REFINO, de propósito.*** *"Isso incentiva a galera a querer pegar refino, e isso é bom, dá peso para as outras opções."* **O argumento é de desenho e tem de ser escrito assim na peça** — não como efeito colateral.
+>
+> ***2. O refino `10` passa a dar `+1` dado.*** *A regra fica: `1d4` a cada `3` de refino; no refino `10` os dados viram `d6` **e** entra um dado a mais.* **Hoje o refino `10` dá `3d6` = `10,5`; passa a dar `4d6` = `14,0`.**
+>
+> | refino | hoje | decidido |
+> |---|---|---|
+> | 3 · 6 · 9 | `1d4` · `2d4` · `3d4` | **iguais** |
+> | **8** *(passivo)* | `2d4` = 5,0 | **igual** |
+> | **10** | `3d6` = 10,5 | **`4d6` = 14,0** |
+>
+> **⚠ Só o refino `10` se move, e isso é o que salva a v0.155:** *o degrau do nível 7 — `Ainda de Pé` em `1,93` e `Não Pega` em `2,10` — foi todo medido em **refino passivo 8**.* **Como o `8` não muda, aquelas contas continuam valendo inteiras.**
+>
+> **O que o `4d6` custa, medido e aceito por ele:** *a Ação de Atacar do especialista vai de `1,67×` para `2,0×` o Classe 0 grátis; o ataque extra dele vai de `1,68` para `~1,95` fatia; e o espalhamento dentro do mesmo Caminho abre de `3,2×` para `3,7×`.*
+>
+> **⚠ E fica um ponto de regra por resolver:** *a peça 11 publica que "refino não pode aparecer de um lado de uma rolagem em que o outro lado não cresce no ritmo dele", e ela **nomeia dano** na lista.* **Mas dano não é rolagem disputada — não tem ninguém do outro lado crescendo `+3`**, então a justificativa da trava não alcança ele do mesmo jeito que alcança acerto, CD, defesa e Teste de Resistência. *Ou a peça 11 declara dano fixo como exceção, com o motivo, ou a trava fica larga demais e mente.*
+>
+> **O trabalho, na ordem:** *(1)* a conta completa, nível a nível, nas duas rotas de refino; *(2)* a peça que esse dado nunca teve, com o argumento do incentivo escrito; *(3)* a linha da peça 11; *(4)* o validador, com a curva reconstruída dos donos e guarda de que ela não vire rolagem disputada.
 
 ### 2 · As sete marcas de "isto ainda não existe" — cinco assuntos
 
