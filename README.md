@@ -2,7 +2,7 @@
 
 **O sistema se chama `Projeto - M`**, batizado na v0.94 — era a pendência mais velha que existia aqui, aberta na v0.1. Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.159** · manual do Fundamento na **v7.15** · **vinte e quatro peças de regra** e **vinte e quatro validadores passando** · o Manual da Guilda em **17 capítulos**.
+**Versão v0.160** · manual do Fundamento na **v7.15** · **vinte e quatro peças de regra** e **vinte e quatro validadores passando** · o Manual da Guilda em **17 capítulos**.
 
 ---
 
@@ -192,13 +192,15 @@ esquecer.
 cd finalizado && git add -A && git commit -m "recorte da vX.Y" && git push; cd ..
 ```
 
-> **⚠⚠ A mensagem TEM de carregar a versão DESTA entrega, e não a da anterior.** *A checagem 7.4 lê a **mensagem do último commit** — `git log -1 --pretty=%s` — e tira o `vN.NN` dela.* **Ela não olha o conteúdo.** *Então uma entrega perfeitamente sincronizada é lida como "duas versões para trás" se alguém copiar a mensagem da vez passada, e o `subir.sh` do projeto passa a se recusar a rodar.*
+> **A versão da entrega sai do CONTEÚDO do último commit, e não do rótulo dele.** *Desde a v0.160 a checagem 7.4 lê a linha `**Recorte da vN.NN.**` do `README` da entrega **dentro daquele commit** — `git show HEAD:README.md` —, que é a mesma linha que o passo 0 mantém em dia.* **A mensagem continua sendo lida, e serve só para comparar: se ela discordar do conteúdo, sai um AVISO com os dois números.**
 >
-> **Aconteceu na v0.156, e custou três rodadas para achar:** *o commit `cfcc885` levava conteúdo da v0.155 com a mensagem `recorte da v0.154`.* **O `README` dentro dele estava certo; só o rótulo estava velho.** *É a lição nº 9 num lugar que ninguém tinha olhado — o número existe no conteúdo e no rótulo, e nada compara os dois.*
+> **⚠⚠ Até a v0.159 ela lia a mensagem, e o buraco era dos dois lados.** *Uma entrega perfeitamente sincronizada reprovava se alguém copiasse a mensagem da vez passada — foi a v0.156, e custou três rodadas: o commit `cfcc885` levava conteúdo da v0.155 com a mensagem `recorte da v0.154`.* **E o lado pior nunca tinha aparecido: uma entrega DUAS versões atrasada passava batido se alguém escrevesse a mensagem certa por cima dela.** *Lição nº 9 na forma mais crua — o número existe no conteúdo e no rótulo, e nada comparava os dois.*
+>
+> ***O aviso não trava o commit, e isso é decisão.*** *Mensagem de commit já feito não se conserta sem reescrever história, e travar por causa dela seria travar contra o passado.* **Quem decide é o conteúdo; o rótulo só precisa parar de mentir na próxima vez.**
 >
 > **O `;` no lugar do último `&&` é de propósito:** *se o commit reclamar de `nothing to commit`, o `&& cd ..` não roda e você fica dentro de `finalizado/` sem perceber* — e aí o `./subir.sh` seguinte dá *"Arquivo ou diretório inexistente"*, porque a entrega não tem script próprio.
 >
-> **E a ordem, quando a entrega ficou para trás: rode o `./subir.sh` PRIMEIRO.** *O passo 0 sincroniza e suja a árvore da entrega; sem ele não há o que commitar.* **Ele para na 7.4, você commita a entrega com a mensagem certa, e roda o `subir.sh` de novo.**
+> **E a ordem, quando a entrega ficou para trás: rode o `./subir.sh` PRIMEIRO.** *O passo 0 sincroniza e suja a árvore da entrega; sem ele não há o que commitar.* **Ele para na 7.4, você commita a entrega, e roda o `subir.sh` de novo.**
 
 > **A lista de arquivos não mora no `subir.sh`.** *Ela sai de `conferir-repositorio.py
 > --recorte`, que é o mesmo lugar de onde a checagem 7.1 lê* — **uma lista, um dono**. E a

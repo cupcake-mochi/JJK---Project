@@ -1,4 +1,4 @@
-# Retomada — v0.159, e o que sobrou é um validador, playtest e dois rascunhos
+# Retomada — v0.160, e o que sobrou é o Bestiário, playtest e dois rascunhos
 
 Pasta: `/media/mizuki/HD Externo II/Claude/Claude 2/`
 ⚠ Trabalhe na pasta PRINCIPAL, não em worktree. **Você não commita** — deixa a mensagem em
@@ -7,16 +7,25 @@ Pasta: `/media/mizuki/HD Externo II/Claude/Claude 2/`
 Leia primeiro, nesta ordem: `README.md` (a seção *"Nove lições que custaram erro"*),
 `sistema/ESTADO-ATUAL.md` **inteiro**, e o `logs/CHANGELOG.md` de cima até a v0.145.
 
-**Projeto na v0.159.** 24 peças · 24 validadores · **261 checagens**. Livro em 17 capítulos,
+**Projeto na v0.160.** 24 peças · 24 validadores · **261 checagens**. Livro em 17 capítulos,
 **71.167 palavras**, **243** páginas em coluna única e **141** em duas. Manual do Fundamento na
 **v7.15**. `conferir-voz --estrito` em 0 achados, 0 termos sem destino, **10 triagens**, **7
 marcas de "isto ainda não existe" e 0 rótulos longos demais em 52 entradas de catálogo**.
 
 > **A entrega está UMA versão atrás, que é o normal — a ordem não inverte.** *O último commit
-> de `finalizado/` é `recorte da v0.158`, e a checagem 7.4 aceita uma de distância.* **Rode o
-> `./subir.sh` normalmente e commite a entrega depois**, com `recorte da v0.159`.
+> de `finalizado/` é `recorte da v0.159`, e a checagem 7.4 aceita uma de distância.* **Rode o
+> `./subir.sh` normalmente e commite a entrega depois**, com `recorte da v0.160`.
+>
+> *E desde a v0.160 ela mede o **conteúdo** do commit, não o rótulo* — **copiar a mensagem da
+> vez passada virou aviso, e não mais reprovação.**
 
 ---
+
+## O que a v0.160 fechou
+
+**A checagem 7.4 parou de medir o rótulo do commit da entrega e passou a medir o conteúdo dele.**
+*O buraco era dos dois lados: entrega em dia reprovava com mensagem copiada — foi a v0.156, três
+rodadas para achar —, e entrega duas versões atrasada passava com mensagem certa por cima.*
 
 ## O que a v0.159 fechou
 
@@ -61,17 +70,27 @@ aplicada:** *`Espeto`, `Laço` e `Prego` não têm o TR no preço; o `60%` do `A
 `Tranco` não vêm de portão nenhum; e o `75%` do `Talho` e do `Encaixe` é do acerto velho.*
 **Refazer põe a banda em `6,2×`, e a decisão dele foi não mexer.**
 
-### 2 · O CONSERTO DA CHECAGEM 7.4 — o mais barato da fila, e sem decisão dele
+### 2 · O `BESTIÁRIO`, e ele deixou de ser uma linha no fim da fila
 
-**Ela lê a MENSAGEM do último commit da entrega — `git log -1 --pretty=%s` — e tira o `vN.NN`
-dali, em vez de ler a linha `Recorte da vX.Y` do `README` da entrega dentro daquele commit.**
-*Uma entrega perfeitamente sincronizada é lida como "duas versões atrás" se alguém copiar a
-mensagem da vez passada.* **Já travou o `subir.sh` duas vezes.**
+***NÃO existe ficha de inimigo, e três documentos falam dela.*** *Achado do Mizuki lendo o fecho
+da v0.159.* **O manual não tem bloco de inimigo:** a seção `Inimigos` é uma tabela de nível →
+vida e dano, mais prosa; o apêndice tem `Ficha de feitiço` e nada equivalente do outro lado.
 
-> **⚠ O arnês desse conserto precisa de um clone descartável em `/tmp`**, com commits rotulados
-> errado de propósito — *não dá para fabricar isso na entrega de verdade.* **E o git da entrega
-> É legível do sandbox: medido na v0.159**, a própria 7.4 rodou `git -C finalizado` e leu o
-> último commit sem deixar lock. *Quem não é legível é o git da RAIZ, e nele não se toca.*
+**Montar um inimigo pede NOVE números, e eles têm QUATRO donos:**
+
+| o número | dono |
+|---|---|
+| vida e dano por nível, chefe e capanga | **o manual**, a tabela |
+| Integridade e Reação | **o manual**, desde a v0.159 |
+| as `3` ações do chefe por rodada | peça 19 §2.1 |
+| a falha de Teste de Resistência, `35%` contra o alvo treinado | peça 19 §2.5 |
+| a Defesa do alvo difícil | peça 1 §6 — *e ela é régua de medida, não número de mesa* |
+| refino e aptidões | **o `ESTADO-ATUAL`**, na seção do clash |
+
+> **Nenhum documento junta os nove**, e um dos donos é o `ESTADO-ATUAL` — o padrão de
+> *"vocabulário que ainda não tem peça"* de novo. **Ela recolhe em vez de inventar, no molde da
+> peça 24**, e o `ESTADO-ATUAL` já diz de onde ela sai: *"da matemática de inimigo que o manual
+> já tem"*.
 
 ### 3 · Uma coisa pequena que a v0.159 achou e NÃO consertou
 
@@ -83,13 +102,7 @@ cada vez que o manual muda de versão.* **Foi à mão nesta versão, nas quatro 
 > `` `v7.9` `` histórico entre crases na mesma página.** *Um `sed` cego que acerte as quatro hoje
 > apaga história amanhã, e a 7.3 já grita alto.* **Decisão registrada, não dívida.**
 
-### 4 · ⚠ NÃO existe ficha de inimigo, e três documentos falam dela
-
-**O manual não tem bloco de inimigo.** *A seção `Inimigos` é uma tabela de nível → vida e dano mais prosa; o apêndice tem `Ficha de feitiço` e nada equivalente.* **Montar um inimigo pede NOVE números com QUATRO donos** — o manual (vida, dano, e a Integridade e a Reação desde a v0.159), a peça 19 (as `3` ações do chefe e a falha de TR de `35%`), a peça 1 (a Defesa do alvo difícil, que é régua de medida), e o `ESTADO-ATUAL`, que declara na seção do clash que o inimigo carrega refino e aptidões.
-
-> **Juntar os nove é o `Bestiário`**, que está no fim da fila com uma linha só. *Ele é peça, e não meia versão* — e a linha do clash é dono provisório dentro de um documento de retomada, que é o padrão de "vocabulário que ainda não tem peça".
-
-### 5 · As sete marcas de "isto ainda não existe" — cinco assuntos
+### 4 · As sete marcas de "isto ainda não existe" — cinco assuntos
 
 *O `conferir-voz.py` conta e falha nas duas direções. Dois são grandes:*
 
@@ -105,7 +118,7 @@ não obedece**, e as **duas de Invocações** que esperam outra peça.
 > olhar** — nem na peça, nem no livro, nem na seção *Em aberto* do capítulo 15. *E o
 > `ESTADO-ATUAL` declara que ela e a "vida cheia" **travam as Trilhas do Evocador**.*
 
-### 6 · Os dois rascunhos
+### 5 · Os dois rascunhos
 
 | rascunho | estado |
 |---|---|
@@ -142,6 +155,9 @@ escolhe o Leque.* **Elas esperam mesa, não conserto.**
   ***E confira que cada checagem tem pelo menos uma perturbação que a acende.***
 - ***E confira a PERTURBAÇÃO também.*** *A v0.153 escreveu duas que pareciam certas lendo e não
   reproduziam o defeito.*
+- **A BASE do arnês também pula.** *A v0.155 montou uma cópia sem o `.docx` e a v0.160 montou uma
+  sem o `.git` da entrega — nas duas o validador saiu `0` tendo pulado a checagem que o arnês
+  existia para medir.* **Confira que a checagem RODOU, e não só que a base saiu verde.**
 - **Uma checagem que só sabe ler a decisão de hoje mede a decisão, não a relação.** *O
   contra-teste que prova o contrário reverte a decisão de forma COERENTE em todos os lugares e
   sai verde.*

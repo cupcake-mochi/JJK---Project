@@ -8,6 +8,71 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.160] — 26/08/2026
+
+**A checagem 7.4 parou de medir o RÓTULO e passou a medir o CONTEÚDO.** *Ela lia a mensagem do último commit da entrega — `git log -1 --pretty=%s` — e tirava o `vN.NN` dali.* **O caso documentado é um — a v0.156, que custou três rodadas —, e o buraco era dos dois lados.** *O prompt de retomada dizia "já travou o `subir.sh` duas vezes"; o CHANGELOG só registra um, e o outro travamento da entrega, na v0.146, foi entrega genuinamente duas atrás e não rótulo velho.*
+
+### O defeito é a lição nº 9 na forma mais crua
+
+**O número da entrega existe em dois lugares: o `README` dentro do commit e a mensagem do commit.** *Nada comparava os dois.*
+
+| o que acontecia | com o quê |
+|---|---|
+| **entrega em dia REPROVAVA** | mensagem copiada da vez passada. *Foi a v0.156, e custou três rodadas: o commit `cfcc885` levava conteúdo da v0.155 com a mensagem `recorte da v0.154`, e o `README` dentro dele estava certo* |
+| **entrega ATRASADA passava** | mensagem escrita certa por cima de conteúdo velho. **Este lado nunca tinha aparecido**, e ele é pior: a checagem existe justamente para achar entrega atrasada |
+
+### O conserto, e o rótulo não sai de cena
+
+> **A versão sai da linha `**Recorte da vN.NN.**` do `README` da entrega DENTRO do último commit** — `git show HEAD:README.md`.
+
+*É a mesma linha que o passo 0 do `subir.sh` mantém em dia na árvore de trabalho, e ler `HEAD:README.md` em vez do arquivo do disco é o ponto:* **a pergunta é "o que foi COMMITADO", e o disco já está sincronizado quando a checagem roda.**
+
+**A mensagem continua sendo lida, e ela virou a segunda metade da comparação.** *Se o rótulo discordar do conteúdo, sai um aviso com os dois números.*
+
+> ***O aviso não trava o commit, e isso é decisão medida.*** *Mensagem de commit já feito não se conserta sem reescrever história.* **Travar por causa dela seria travar contra o passado** — e foi exatamente isso que a v0.156 sofreu. *Quem decide é o conteúdo; o rótulo só precisa parar de mentir na próxima vez.*
+
+**E dois casos que antes nem existiam passaram a acender:** *o `README` dentro do commit sem a linha do recorte, e o commit sem `README.md` nenhum.* **Sem eles a checagem ficaria cega em silêncio** — é a guarda de reconhecedor, no mesmo molde da v0.153.
+
+### O arnês, e ele fabrica commits
+
+**A entrega é um repositório git, então o arnês precisa de commits com rótulo e conteúdo escolhidos** — e isso não dá para fazer na entrega de verdade. *Cada caso monta um `finalizado/` novo dentro da cópia isolada, com `git init`, o `README` na versão que o caso pede, e a mensagem que o caso pede; depois a árvore volta para a versão de hoje, que é o que o passo 0 faz.*
+
+***E o contra-teste que fecha é o validador ANTIGO rodando nos mesmos commits***, reconstruído por patch reverso e posto no lugar do novo — *com o mesmo nome, senão a checagem da árvore acusaria o arquivo a mais.* **Se ele respondesse igual em todos, o conserto não teria servido.**
+
+| o caso | o novo | o antigo |
+|---|---|---|
+| em dia dos dois lados | verde | verde |
+| uma atrás, rótulo igual — o normal | verde | verde |
+| **rótulo copiado da vez passada, conteúdo em dia** | **verde**, com aviso | **reprovava** |
+| **a mensagem sem versão nenhuma** | **verde**, com aviso | **reprovava** |
+| conteúdo duas atrás, rótulo honesto | acende | acende |
+| **conteúdo duas atrás, rótulo mentindo** | **acende** | **passava** |
+| **o `README` do commit sem a linha** | **acende** | **passava** |
+| **o commit sem `README.md`** | **acende** | **passava** |
+
+**Oito casos, e o novo responde diferente do antigo em cinco** — *dois em que ele deixou de reprovar quem estava certo, e três em que ele passou a pegar quem estava errado.*
+
+> **⚠ E a base do arnês nasceu PULANDO a checagem que ela existe para medir.** *A cópia isolada exclui `.git`, então a entrega dela não era repositório e a 7.4 saía como `PULADA` com código `0`.* **Verde falso, no mesmo molde da v0.155.** *A base passou a montar o git também, e o arnês para se ela pular.*
+
+### Medido depois
+
+| | v0.159 | v0.160 |
+|---|---|---|
+| peças de regra · validadores · checagens | 24 · 24 · 261 | iguais |
+| o que a 7.4 mede | **o rótulo do commit** | **o conteúdo dele** |
+| casos em que a 7.4 mentia | **2 famílias, uma para cada lado** | **0** |
+| casos do arnês em que o antigo respondia diferente | — | **5 de 8** |
+| manual do Fundamento | v7.15 | iguais |
+| palavras do livro | 71.167 | iguais |
+
+*Os 24 validadores verdes com `PULADA = 0`, o `conferir-repositorio.py` e os dois de `manual/matematica/`.* **Nada de regra mudou, e nem o livro nem o manual foram tocados** — os quatro builds não precisam rodar.
+
+> **A contagem não se moveu, e é de propósito: a 7.4 é sub-bloco da checagem 7.** *Sub-bloco conta para o bloco pai, e é a mesma convenção que a `1.1` do `conferir-bloquear.py` e a `13.1` do `conferir-catalogo.py` já seguem.*
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **A fila de preço continua vazia**, e o que está no topo é o `Bestiário` — *que é peça, e nasceu de uma pergunta do Mizuki na v0.159.*
+
+---
+
 ## [0.159] — 25/08/2026
 
 **O inimigo ganhou as duas linhas que faltavam nele, e elas eram o mesmo trabalho.** *A peça 24 §8 pedia a Integridade do inimigo desde a v0.145 e a peça 23 §9 pedia a Reação dele desde a v0.143 — as duas apontando para a mesma seção do manual, e nenhuma das duas sabendo da outra.* **Fecharam juntas, e nenhum número do sistema se moveu.**

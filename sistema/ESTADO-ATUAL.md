@@ -1,8 +1,16 @@
 # Estado atual do projeto
 
-Atualizado em 25/08/2026, na v0.159 (última peça fechada: **Dano de alma e Integridade**, a peça 24, na v0.145, com o `conferir-alma.py` e doze checagens; antes dela, **Bloquear, na v0.143**; antes dela, o **Objeto amaldiçoado, na v0.132**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 26/08/2026, na v0.160 (última peça fechada: **Dano de alma e Integridade**, a peça 24, na v0.145, com o `conferir-alma.py` e doze checagens; antes dela, **Bloquear, na v0.143**; antes dela, o **Objeto amaldiçoado, na v0.132**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.159.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e quatro peças escritas** e **vinte e quatro validadores**.
+**Versão v0.160.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e quatro peças escritas** e **vinte e quatro validadores**.
+
+***A v0.160 tirou a checagem 7.4 do rótulo e pôs ela no conteúdo.*** **Ela lia a mensagem do último commit da entrega e tirava o `vN.NN` dali** — *e o número da entrega mora em dois lugares, o `README` dentro do commit e a mensagem dele, com nada comparando os dois.*
+
+> **O buraco era dos dois lados.** *Entrega em dia REPROVAVA se alguém copiasse a mensagem da vez passada — foi a v0.156, três rodadas para achar.* **E entrega DUAS versões atrasada PASSAVA se alguém escrevesse a mensagem certa por cima dela**, que é pior: a checagem existe justamente para achar isso.
+>
+> **A versão passou a sair da linha `Recorte da vN.NN` do `README` da entrega dentro do commit**, lida com `git show HEAD:README.md` — a mesma linha que o passo 0 do `subir.sh` mantém em dia. *A mensagem continua sendo lida e virou a segunda metade da comparação:* **rótulo que discorda do conteúdo sai como AVISO, e não como erro.** *Mensagem de commit já feito não se conserta sem reescrever história, e travar por causa dela seria travar contra o passado.*
+>
+> **⚠ E a base do arnês nasceu PULANDO a checagem que ela existia para medir** — a cópia isolada exclui `.git`, então a entrega dela não era repositório e a 7.4 saía `PULADA` com código `0`. *Verde falso, no molde da v0.155.* **Oito casos, e o validador antigo responde diferente em cinco deles.**
 
 ***A v0.159 fechou as duas linhas que faltavam no inimigo, e elas eram o mesmo trabalho.*** **A peça 24 §8 pedia a Integridade dele desde a v0.145 e a peça 23 §9 pedia a Reação desde a v0.143** — *as duas apontando para a mesma seção do manual, e nenhuma sabendo da outra.*
 

@@ -869,6 +869,11 @@ else:
 
         _sujo = _git('status', '--porcelain')
         _ultimo = _git('log', '-1', '--pretty=%s')
+        # v0.160: a versao passou a sair do CONTEUDO do ultimo commit, e nao do
+        # rotulo dele. O `--pretty=%s` continua sendo lido, mas so' para comparar
+        # os dois — ver o bloco da versao mais abaixo.
+        _tem_rme = _git('cat-file', '-e', 'HEAD:README.md')
+        _rme_commit = _git('show', 'HEAD:README.md')
         if _sujo is None or _ultimo is None:
             PULADAS.append('7.4 — nao consegui ler o git de finalizado/')
             print('    ~~ PULADA. o git de finalizado/ nao respondeu.')
@@ -881,16 +886,49 @@ else:
             else:
                 print('    [x] a entrega nao tem mudanca pendente')
 
-            # a versao do ultimo commit contra o dono, que e o topo do CHANGELOG
-            _m_ent = re.search(r'v(\d+\.\d+)', _ultimo or '')
+            # A VERSAO SAI DO CONTEUDO DO ULTIMO COMMIT, e nao do rotulo dele.
+            #
+            # Ate a v0.159 esta checagem lia `git log -1 --pretty=%s` e tirava o
+            # `vN.NN` da mensagem. O defeito e' a licao no 9 na forma mais crua: o
+            # numero existe no CONTEUDO e no ROTULO, e nada comparava os dois.
+            # Custou tres rodadas na v0.156, quando o commit cfcc885 levava conteudo
+            # da v0.155 com a mensagem `recorte da v0.154` — o README dentro dele
+            # estava certo, e so' o rotulo estava velho. E o buraco pelo outro lado
+            # era pior: uma entrega DUAS versoes atrasada passava batido se alguem
+            # escrevesse a mensagem certa por cima dela.
+            #
+            # O dono e' a linha `**Recorte da vN.NN.**` do README da entrega DENTRO
+            # daquele commit — a mesma linha que o passo 0 do subir.sh acerta na
+            # arvore de trabalho. Ler `HEAD:README.md` e nao o arquivo do disco e'
+            # o ponto: a pergunta e' "o que foi COMMITADO", e o disco ja esta
+            # sincronizado quando esta checagem roda.
             _m_don = re.search(r'^## \[(\d+\.\d+)\]', ler('logs/CHANGELOG.md'), re.M)
+            _m_ent = re.search(r'\*\*Recorte da v(\d+\.\d+)\.\*\*', _rme_commit or '')
+            _m_rot = re.search(r'v(\d+\.\d+)', _ultimo or '')
             if not _m_don:
                 erro('7.4: nao achei a versao no topo do CHANGELOG')
+            elif _tem_rme is None:
+                erro('7.4: o ultimo commit da entrega nao tem README.md dentro dele — '
+                     'e e o README que carrega a versao do recorte desde a v0.160')
             elif not _m_ent:
-                erro(f'7.4: o ultimo commit da entrega nao diz versao nenhuma '
-                     f'({_ultimo!r}) — a mensagem precisa carregar `vN.NN` para esta '
-                     'checagem saber se ela ficou para tras')
+                erro('7.4: o README dentro do ultimo commit da entrega nao tem a linha '
+                     '`**Recorte da vN.NN.**` — ela e a dona da versao do recorte, e o '
+                     'passo 0 do subir.sh e quem a mantem em dia')
             else:
+                # o ROTULO nao decide nada, e por isso a divergencia dele e AVISO e
+                # nao erro: mensagem de commit ja feito nao se conserta sem reescrever
+                # historia, e travar o subir.sh por causa dela seria travar contra o
+                # passado. Mas ela fica na tela, porque foi ela que custou tres rodadas.
+                if _m_rot and _m_rot.group(1) != _m_ent.group(1):
+                    aviso(f'7.4: o ultimo commit da entrega diz `v{_m_rot.group(1)}` no '
+                          f'rotulo e leva conteudo da v{_m_ent.group(1)} — o conteudo '
+                          f'manda, e o rotulo esta velho. Na proxima vez: '
+                          f'`recorte da v<a versao deste commit>`')
+                elif not _m_rot:
+                    aviso(f'7.4: a mensagem do ultimo commit da entrega nao carrega '
+                          f'versao nenhuma ({_ultimo!r}) — o conteudo diz '
+                          f'v{_m_ent.group(1)}, e quem le o log nao ve isso')
+            if _m_don and _m_ent:
                 def _chave(v):
                     a, b = v.split('.')
                     return (int(a), int(b))
@@ -902,16 +940,19 @@ else:
                 # mesmo, e foi o defeito que a v0.121 introduziu e consertou na hora.
                 _atras = (_don_k[0] - _ent_k[0]) * 1000 + (_don_k[1] - _ent_k[1])
                 if _atras >= 2:
-                    erro(f'7.4: o ultimo commit da entrega e da v{_m_ent.group(1)} e o '
-                         f'CHANGELOG esta na v{_m_don.group(1)} — o recorte no GitHub '
-                         'do PDF ficou DUAS ou mais versoes para tras')
+                    erro(f'7.4: o CONTEUDO do ultimo commit da entrega e da '
+                         f'v{_m_ent.group(1)} e o CHANGELOG esta na v{_m_don.group(1)} — '
+                         'o recorte no GitHub do PDF ficou DUAS ou mais versoes para '
+                         'tras')
                 elif _atras == 1:
-                    print(f'    [x] a entrega esta na v{_m_ent.group(1)} e o CHANGELOG '
-                          f'na v{_m_don.group(1)} — uma atras, que e o normal antes de '
+                    print(f'    [x] o conteudo commitado da entrega e da '
+                          f'v{_m_ent.group(1)} e o CHANGELOG esta na '
+                          f'v{_m_don.group(1)} — uma atras, que e o normal antes de '
                           'ela ser commitada')
                 else:
-                    print(f'    [x] o ultimo commit da entrega e da v{_m_ent.group(1)}, '
-                          f'e o CHANGELOG esta na v{_m_don.group(1)}')
+                    print(f'    [x] o conteudo commitado da entrega e da '
+                          f'v{_m_ent.group(1)}, e o CHANGELOG esta na '
+                          f'v{_m_don.group(1)}')
 
     # -- 7.5: o livro CONSTRUIDO e o livro da FONTE? ------------------------
     #
