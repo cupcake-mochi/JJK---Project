@@ -1,4 +1,4 @@
-GERADOR DO MANUAL — Fundamento v7.15
+GERADOR DO MANUAL — Fundamento v7.16
 
 Recria o .docx do zero. Precisa de Node.js.
 

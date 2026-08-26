@@ -393,6 +393,31 @@
 
 > **A `Total` não tem número de propósito.** *Ela é a única das três que não é um bônus: é a ausência de alvo legal.* **Um efeito que pega área continua alcançando quem está atrás dela, se o efeito não precisar de linha de efeito** — e essa parte é do manual, não daqui.
 
+### 5.1 Quem cita esta escala, e o que ele não pode fazer
+
+**O manual usa esta tabela e não a copia.** *Duas entradas dele compram furar cobertura: a Melhoria `Sem Cobertura` (`Leve`) e a Passiva `Afinidade` (Classe 3), e as duas nomeiam a `Parcial`.* **A checagem 7 do `conferir-manual.py` falha nas duas direções** — se o manual nomear um grau que não está aqui, e se ele repetir os bônus, que são desta seção.
+
+> **⚠ Até a v0.161 as duas citavam graus que este sistema não tem.** *A Melhoria dizia `cobertura leve e meia cobertura` e a Passiva dizia `cobertura leve`.* **Rastreados nos PDFs de referência:** *`cobertura leve` é do **GURPS 4e**, onde nem grau é — lá é um `−2` de tiro —, e `meia cobertura` é o **half cover** do D&D 2014.* **Os dois apontam para obstrução parcial, que aqui é a `Parcial`, e nenhum dos dois é o degrau de `+5`.**
+
+### 5.2 Comprimir a escada foi medido na v0.162, e a conta reprova
+
+***Levantado pelo Mizuki:*** *"como no nosso sistema a rolagem é menor em 1, recomendo as coberturas darem `+1` e `+4` no lugar de `+2` e `+5`, ou `+2` e `+4`."*
+
+**A premissa está certa, e foi conferida.** *No topo, o acerto daqui é `atributo 6 + maestria 4 = +10`; o do d20 é `proficiência +6 + atributo +5 = +11`.* **Um a menos — e por isso o acerto base é `55%` contra `60%`, e a cobertura morde um pouco mais forte aqui.**
+
+**Só que descontar um ponto inteiro passa do alvo.** *Cada ponto de Defesa vale `5` pontos percentuais, e o vão a corrigir é menor que isso:*
+
+| escala | mordida no degrau baixo | no degrau alto | distância somada do d20 |
+|---|---|---|---|
+| **o d20**, a referência | `−16,7%` | `−41,7%` | — |
+| **daqui, hoje `+2 / +5`** | `−18,2%` | `−45,5%` | **`5,3` pp** |
+| `+2 / +4` | `−18,2%` | `−36,4%` | `6,8` pp |
+| `+1 / +4` | `−9,1%` | `−36,4%` | `12,9` pp |
+
+> **A escala de hoje é a mais próxima das três**, e as duas propostas erram para o outro lado por mais do que ela erra para este. *Não existe conserto inteiro melhor que não mexer: o desvio a corrigir é de `1,5` a `3,8` pontos percentuais, e o menor ajuste possível vale `5`.*
+>
+> **E o motivo da v0.94 continua de pé, e ele nunca foi matemático:** *o número não sai de conta daqui — ele só precisa ser o mesmo em sete mesas, e uma tabela que todo mundo já conhece resolve isso de graça.* **Comprimir a escada compra pontos percentuais de precisão e vende o reconhecimento, que era o único produto dela.**
+
 ---
 
 ## 6. A penalidade de arma — sem treino e sem o requisito

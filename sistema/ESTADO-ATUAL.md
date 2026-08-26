@@ -1,8 +1,22 @@
 # Estado atual do projeto
 
-Atualizado em 26/08/2026, na v0.161 (última peça fechada: **Dano de alma e Integridade**, a peça 24, na v0.145, com o `conferir-alma.py` e doze checagens; antes dela, **Bloquear, na v0.143**; antes dela, o **Objeto amaldiçoado, na v0.132**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 26/08/2026, na v0.162 (última peça fechada: **Dano de alma e Integridade**, a peça 24, na v0.145, com o `conferir-alma.py` e doze checagens; antes dela, **Bloquear, na v0.143**; antes dela, o **Objeto amaldiçoado, na v0.132**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.161.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e quatro peças escritas** e **vinte e quatro validadores**.
+**Versão v0.162.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e quatro peças escritas** e **vinte e quatro validadores**.
+
+***A v0.162 tirou do manual dois graus de cobertura que este sistema não tem, e as duas entradas que os citavam são PREÇADAS.*** **A Melhoria `Sem Cobertura` (`Leve`) dizia *"cobertura leve e meia cobertura"* e a Passiva `Afinidade` (Classe 3) dizia *"cobertura leve"*** — *e a escada daqui é `Parcial` · `Boa` · `Total`, na peça 19 §5.*
+
+> **Rastreados nos PDFs de referência, e são de sistemas diferentes:** *`cobertura leve` é do **GURPS 4e**, onde nem grau é — lá é um `−2` de tiro —, e `meia cobertura` é o *half cover* do **D&D 2014**.* **Os dois apontam para obstrução parcial, que aqui é a `Parcial`**, e é por isso que a tradução fiel **não move preço**. *Ler como dois degraus entregaria `4,75×` — `+22,2%` furando a `Parcial` contra `+83,3%` furando a `Boa` —, e isso não é reescrita de texto: é outra entrada.*
+>
+> **⚠⚠ E o `INDEFINIDOS_ACEITOS` do `conferir-manual.py` não isentava nada.** *O único lugar que consulta a lista é um `elif` dentro do laço do `EXIGEM_DEFINICAO`, e as duas não tinham um termo em comum — o ramo era inalcançável.* **O motivo declarado do `cobertura leve` também estava errado nas duas metades:** *"mora na peça de equipamento, que ainda não existe"* — **ela saiu na v0.48**, e cobertura mora na peça 19 §5 desde a v0.94. *`cobertura leve` saiu da lista; `inimigo fraco` entrou no `EXIGEM_DEFINICAO`, e a isenção dele virou caminho vivo.*
+>
+> ***A escada NÃO foi comprimida, e a medida foi a pedido dele.*** *A premissa está certa — o acerto daqui topa em `+10` contra o `+11` do d20, então a cobertura morde mais forte aqui.* **Mas `+2/+5` é a mais próxima das três:** `5,3` pontos percentuais da mordida do d20, contra `6,8` do `+2/+4` e `12,9` do `+1/+4`. *O desvio a corrigir é menor que um ponto de cobertura, e o motivo da v0.94 nunca foi matemático.* **Virou a §5.2 da peça 19.**
+>
+> **Entrou a checagem 7 do `conferir-manual.py`**, que lê a escada da peça e falha nas duas direções — *grau que a peça não tem, e cópia dos bônus que são dela.* **Onze perturbações: oito acendendo e três contra-testes**, e o que fecha é o que muda os bônus da peça e não encosta no manual. *O arnês pegou duas perturbações minhas que saíam verdes pelo motivo errado.*
+>
+> **⚠⚠ E a folga da checagem 7.2 já tinha acabado, em silêncio.** *Ela mede a árvore DA ENTREGA, então só falhou depois de o `subir.sh` copiar — nenhuma rodada de validador antes disso podia acusá-la.* **O contador estava em `140`, exatamente o teto:** o comentário promete folga de cinco e a reescreve a cada versão que empurra o número, e entre a v0.145 e a v0.161 ele comeu as cinco sem ninguém ver. *Teto sem folga fica calado até a próxima citação e aí reprova.* **Virou `contagem desta versão + folga declarada`, com AVISO quando a contagem passa da base e erro só quando a folga acaba** — `142` e `146` avisam, `147` reprova.
+>
+> **Manual na v7.16**, com o build de controle reconstruindo a v7.15 **idêntica** antes de o novo valer. *Delta de três trechos de texto no manual inteiro; o livro ganhou 12 palavras e nenhum número — o `guard_numeros.py` prova.*
 
 ***A v0.161 matou o `sete`, e ele tinha sobrevivido setenta e duas versões à decisão que o aposentou.*** **A v0.89 pôs a rota pura de Refino em `10` aptidões, e quatro lugares continuaram publicando `7`** — *a tabela das quatro rotas aqui, duas frases da peça 11 e uma da peça 2.*
 
@@ -718,7 +732,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 
 **Duas peças foram parcialmente substituídas e trazem o aviso no topo:** as seções 3 e 4 da peça 4 saíram para a peça 7, e a seção 3 e o quadro de Caminhos da peça 5 saíram para a peça 6.
 
-O manual do Fundamento **v7.15** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 366 parágrafos e 90 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na v7.15, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 49 páginas.
+O manual do Fundamento **v7.16** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 366 parágrafos e 90 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na v7.15, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 49 páginas.
 
 **Quem é dono da versão do manual:** a primeira linha de `manual/gerador/COMO-USAR.txt`. Toda outra cópia — a capa em `partA.js`, este arquivo, o `README.md`, o `LEIA-ME.md` e o `arquitetura.md` — é cópia, e o `conferir-repositorio.py` falha se alguma divergir. *Ele nasceu na v0.33, depois de a capa do manual passar três versões dizendo 7.5.*
 

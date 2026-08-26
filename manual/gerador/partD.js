@@ -39,7 +39,7 @@ const melhorias = [
     ['Inescapável', 'Média', 'Sem acerto e sem Teste de Resistência: o dano é automático. Este feitiço não pode ter mais nenhuma peça, nem Melhoria nem Restrição, e não pode ser uma Liberação Máxima.'],
     ['Fura', 'Média', 'Ignora até 3 × Classe de Redução de Dano. O que passar disso continua valendo.'],
     ['Corrói', 'Pesada', 'Resistência ao seu tipo de dano deixa de valer neste feitiço. Só pode ser comprada se Mira for uma das suas Famílias Livres.'],
-    ['Sem Cobertura', 'Leve', 'Cobertura leve e meia cobertura não atrapalham.'],
+    ['Sem Cobertura', 'Leve', 'Cobertura Parcial não atrapalha. A Total não se fura: ela não é bônus, é a ausência de alvo legal.'],
     ['De Novo', 'Média', 'Se você errar, rola de novo. Uma vez por cena.'],
     ['Toca a Alma', 'Leve', 'Só da Classe 3 em diante, e só pra Fundamento cuja Regra encosta em alma, mente ou conceito. Os dados de dano deste feitiço viram dano na alma, e você fica com metade deles, arredondando pra baixo. Não entra numa Liberação Máxima. A régua do dano na alma está na seção 11.'],
   ]),

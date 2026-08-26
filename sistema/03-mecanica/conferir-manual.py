@@ -178,10 +178,6 @@ bloco('3. TERMO MECANICO USADO E NUNCA DEFINIDO')
 
 # termo -> (regex, motivo pelo qual ele esta declarado aqui em vez de falhar)
 INDEFINIDOS_ACEITOS = {
-    'cobertura leve': (
-        r'cobertura leve',
-        'a Passiva Afinidade fura cobertura leve. Cobertura e conceito de tabuleiro '
-        'e mora na peca de equipamento, que ainda nao existe. Reavaliar quando ela sair.'),
     'inimigo fraco': (
         r'[Ii]nimigos? fracos?',
         'a Passiva Peso da Presenca so pega inimigo fraco. Depende do bestiario, '
@@ -212,6 +208,12 @@ IMPORTADOS_DO_PROJETO = {
 EXIGEM_DEFINICAO = {
     'dano fisico':  r'dano f[ií]sico',
     'resistencia':  r'resist[êe]ncia (ao|a) (seu )?tipo de dano|sem resist[êe]ncia',
+    # entra aqui para que a isencao dele em INDEFINIDOS_ACEITOS seja um caminho
+    # VIVO. Ate a v0.161 as duas listas nao tinham um termo em comum, entao o
+    # `elif nome in INDEFINIDOS_ACEITOS` nunca era alcancado — a lista parecia
+    # excecao de checagem e nao isentava nada. Quando o Bestiario definir o
+    # termo, a isencao sai e esta linha passa a cobrar de verdade.
+    'inimigo fraco': r'[Ii]nimigos? fracos?',
 }
 
 DEFINE = r'\b[ée]\b|significa|quer dizer|considera-se|chamamos|:\s*metade|metade do dano'
@@ -1100,6 +1102,88 @@ else:
     else:
         print('     [x] os totais batem com a diferenca declarada, e ela cabe no teto.')
 
+
+# --------------------------------------------------------------------------
+bloco('7. A COBERTURA — o manual cita o grau, e a escala e da peca 19 §5')
+# --------------------------------------------------------------------------
+# v0.162. Duas entradas PRECADAS do manual compravam "furar cobertura" contra
+# graus que este sistema nao tem: a Melhoria `Sem Cobertura` (`Leve`) dizia
+# "cobertura leve e meia cobertura", e a Passiva `Afinidade` (Classe 3) dizia
+# "cobertura leve". Rastreados nos PDFs de referencia: `cobertura leve` e' do
+# GURPS 4e, onde nem grau e' — la e' um -2 de tiro —, e `meia cobertura` e' o
+# half cover do D&D 2014. A escala DESTE sistema e a do D&D 2024, renomeada:
+# `Parcial` . `Boa` . `Total`, na peca 19 §5.
+#
+# ⚠ A escala NAO esta escrita aqui: ela e lida da peca. O que este bloco proibe
+# e' o manual nomear um grau que a peca nao tem — e proibe tambem o contrario,
+# o manual COPIAR os bonus. Copia sem comparacao diverge (licao no 9), e o
+# molde de "apontar e nao copiar" e o da v0.159 com a Integridade.
+_p19 = os.path.join(AQUI, '19-dano-e-condicoes.md')
+if not os.path.exists(_p19):
+    erro('7: nao achei a peca 19 — a escala de cobertura ficou sem dono e esta '
+         'checagem nao tem contra o que comparar')
+else:
+    _t19 = open(_p19, encoding='utf-8').read()
+    _sec = _t19[_t19.find('\n## 5. Cobertura'):]
+    _sec = _sec[:_sec.find('\n## ', 1)] if '\n## ' in _sec[1:] else _sec
+    _GRAUS, _BONUS = [], []
+    for _l in _sec.splitlines():
+        _m = re.match(r'\|\s*\*\*([A-Za-zÀ-ÿ]+)\*\*\s*\|\s*\*\*(.+?)\*\*\s*\|', _l)
+        if _m:
+            _GRAUS.append(_m.group(1))
+            _BONUS += re.findall(r'\+(\d+)', _m.group(2))
+    # guarda de reconhecedor: sem ela, renomear a secao faz esta checagem achar
+    # zero grau, logo zero divergencia, e ela passa verde para sempre.
+    if len(_GRAUS) < 3 or not _BONUS:
+        erro(f'7: li {len(_GRAUS)} grau(s) e {len(set(_BONUS))} bonus na §5 da peca 19 '
+             'e esperava tres graus com bonus — a tabela mudou de forma, e a '
+             'comparacao abaixo passaria verde sem conferir nada')
+    else:
+        print(f'  a escala, lida da peca 19 §5: {" · ".join(_GRAUS)}')
+        # palavras que podem encostar em "cobertura" sem serem grau
+        _LIGACAO = {
+            'e', 'ou', 'de', 'do', 'da', 'em', 'no', 'na', 'que', 'se', 'a', 'o',
+            'as', 'os', 'ao', 'à', 'nao', 'não', 'nem', 'para', 'por', 'com',
+            'contra', 'alem', 'além', 'sem', 'um', 'uma', 'ignora', 'ignoram',
+            'fura', 'furam', 'atrapalha', 'atrapalham', 'continua', 'tem', 'ha',
+            'há', 'sua', 'seu', 'esta', 'está', 'dele', 'dela', 'mais', 'toda',
+        }
+        _norm = {g.lower() for g in _GRAUS}
+        _maus, _copias, _vistos = [], [], 0
+        for _onde, _txt in LINHAS:
+            if not re.search(r'[Cc]obertura', _txt):
+                continue
+            _vistos += 1
+            _viz = (re.findall(r'[Cc]obertura\s+([A-Za-zÀ-ÿ]+)', _txt)
+                    + re.findall(r'([A-Za-zÀ-ÿ]+)\s+[Cc]obertura', _txt))
+            for _w in _viz:
+                if _w.lower() in _LIGACAO or _w.lower() in _norm:
+                    continue
+                _maus.append((_onde, _w, _txt.strip()[:110]))
+            for _b in set(_BONUS):
+                if re.search(rf'\+{_b}\s+(de\s+)?(Defesa|CA)', _txt):
+                    _copias.append((_onde, _b, _txt.strip()[:110]))
+        if _vistos == 0:
+            erro('7: a palavra "cobertura" sumiu do manual inteiro — ou o texto '
+                 'mudou, ou esta checagem parou de achar o que confere')
+        elif _maus:
+            for _onde, _w, _txt in _maus:
+                print(f'     {_onde}: grau "{_w}" — {_txt}')
+            erro(f'7: o manual nomeia {len(_maus)} grau(s) de cobertura que a peca 19 '
+                 f'§5 nao tem. A escala e {" · ".join(_GRAUS)}, e dois mestres nao '
+                 'chegam ao mesmo lugar lendo um grau que a regra nao define — '
+                 'as duas entradas que fazem isso sao PRECADAS')
+        elif _copias:
+            for _onde, _b, _txt in _copias:
+                print(f'     {_onde}: copia o +{_b} — {_txt}')
+            erro(f'7: o manual COPIA {len(_copias)} bonus de cobertura que a peca 19 §5 '
+                 'e dona. Ele deve apontar o grau pelo nome e nao repetir o numero, '
+                 'no molde da Integridade na v0.159 — copia sem comparacao diverge')
+        else:
+            print(f'  [x] as {_vistos} linhas do manual que falam de cobertura citam '
+                  f'so os graus da peca,')
+            print(f'      e nenhuma repete os bonus ({" · ".join("+" + b for b in dict.fromkeys(_BONUS))}) '
+                  'que sao dela.')
 
 # --------------------------------------------------------------------------
 print()

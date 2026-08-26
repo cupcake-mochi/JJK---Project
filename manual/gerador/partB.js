@@ -133,7 +133,7 @@ const passivas = [
       ['Contramedida', '2', 'Como Reação, quando alguém conjura a até 9 m, gasta PE e sobe em 2 a CD daquele feitiço.'],
       ['Peso da Presença', '2', 'Inimigos fracos que começam o turno a até 6 m fazem TR ou ficam Amedrontados por uma rodada.'],
       ['Escama', '3', 'Escolha um tipo de dano que a sua Regra justifique. Você tem resistência a ele: todo dano daquele tipo cai pela metade.'],
-      ['Afinidade', '3', 'Escolha um tema da sua Regra. Feitiços daquele tema ignoram cobertura leve e resistência ao seu tipo de dano.'],
+      ['Afinidade', '3', 'Escolha um tema da sua Regra. Feitiços daquele tema ignoram cobertura Parcial e resistência ao seu tipo de dano.'],
       ['Reserva Profunda', '3', 'Seu PE máximo sobe em 3 × a sua maior Classe.'],
       ['Regra Própria', '1 a 3', 'Sua técnica impõe uma regra em vez de produzir efeito. Ver abaixo.'],
       ['Passiva Própria', '1 a 3', 'Qualquer outra coisa, montada com o mestre na escala da tabela acima.'],

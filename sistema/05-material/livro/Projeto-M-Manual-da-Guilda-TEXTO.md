@@ -3490,7 +3490,7 @@ A Livre entrega o dado cru: você vê o medo na cor de alguém, e descobrir o mo
 | `Contramedida` | 2 | Como Reação, quando alguém conjura a até 9 m, gasta PE e sobe em 2 a CD daquele feitiço. |
 | `Peso da Presença` | 2 | Inimigos fracos que começam o turno a até 6 m fazem Teste de Resistência ou ficam `Amedrontados` por uma rodada. |
 | `Escama` | 3 | Escolha um tipo de dano que a sua Regra justifique. Você tem resistência a ele: todo dano daquele tipo cai pela metade. |
-| `Afinidade` | 3 | Escolha um tema da sua Regra. Feitiços daquele tema ignoram cobertura leve e resistência ao seu tipo de dano. |
+| `Afinidade` | 3 | Escolha um tema da sua Regra. Feitiços daquele tema ignoram cobertura `Parcial` e resistência ao seu tipo de dano. |
 | `Reserva Profunda` | 3 | Seu PE máximo sobe em 3 × a sua maior Classe. |
 | `Regra Própria` | 1 a 3 | Sua técnica impõe uma regra ao mundo. Ver abaixo. |
 | `Passiva Própria` | 1 a 3 | Qualquer outra coisa, montada com o mestre na escala das outras entradas desta tabela. |
@@ -3771,7 +3771,7 @@ Garantem o acerto: menos chance de errar, mais chance de atravessar a defesa do 
 | `Inescapável` | `Média` | Sem acerto e sem Teste de Resistência: o dano é automático. Este feitiço não pode ter mais nenhuma peça, nem Melhoria nem Restrição, e não pode ser uma Liberação Máxima. |
 | `Fura` | `Média` | Ignora até 3 × Classe de Redução de Dano. O que passar disso continua valendo. |
 | `Corrói` | `Pesada` | Resistência ao seu tipo de dano deixa de valer neste feitiço. Só pode ser comprada se Mira for uma das suas Famílias Livres. |
-| `Sem Cobertura` | `Leve` | Cobertura leve e meia cobertura não atrapalham. |
+| `Sem Cobertura` | `Leve` | Cobertura `Parcial` não atrapalha. A `Total` não se fura: ela não é bônus, é a ausência de alvo legal. |
 | `De Novo` | `Média` | Se você errar, rola de novo. Uma vez por cena. |
 | `Toca a Alma` | `Leve` | Só da Classe 3 em diante, e só para Fundamento cuja Regra encosta em alma, mente ou conceito. Os dados de dano deste feitiço viram dano na alma, e você fica com metade deles, arredondando para baixo. Não entra numa Liberação Máxima. A régua do dano na alma está no capítulo 4, *Dano, Condições e Cobertura*. |
 
@@ -6525,4 +6525,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: b35c2708d0672487de20c3d5e20bb77bc71d33c1 -->
+<!-- fonte: 361d0d737b2bd68ec3bc135b1e8d24b4fc00b208 -->

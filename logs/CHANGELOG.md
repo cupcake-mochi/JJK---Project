@@ -8,6 +8,91 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.162] — 26/08/2026  ·  manual v7.16
+
+**Duas entradas PREÇADAS do manual compravam furar cobertura contra graus que este sistema não tem.** *A Melhoria `Sem Cobertura` (`Leve`) dizia "cobertura leve e meia cobertura"; a Passiva `Afinidade` (Classe 3) dizia "cobertura leve".* **A escada daqui é `Parcial` · `Boa` · `Total`, na peça 19 §5, e nenhum dos dois termos está nela.** *É a lição nº 6 inteira — antes de aceitar um preço, veja se o termo que ele usa existe.*
+
+### Os dois termos são de sistemas diferentes, e a origem desmancha a ambiguidade
+
+**Rastreados nos cinco PDFs de referência, não de memória:**
+
+| termo | onde ele existe | o que é lá |
+|---|---|---|
+| `cobertura leve` | **GURPS 4e** — única ocorrência nos cinco | *"Disparo através de cobertura leve: `−2`"*. **Nem grau é**: GURPS não tem escada, tem um modificador de tiro |
+| `meia cobertura` | **Caldeirão de Tasha** (5e 2014), 4 ocorrências | *half cover*, `+2` de CA — o degrau de baixo da escada de 2014 |
+| `Parcial` · `Boa` · `Total` | **este projeto**, peça 19 §5 | `+2` · `+5` · sem alvo legal — a escada do **D&D 2024**, com o do meio rebatizado |
+
+> ***E isso mudou o diagnóstico no meio do caminho.*** *Eu ia ler "cobertura leve e meia cobertura" como **dois degraus**, e o mapeamento natural de dois degraus seria `Parcial` + `Boa`.* **O primeiro nunca foi degrau.** *GURPS chama de "cobertura leve" a mesma obstrução parcial que o D&D chama de meia cobertura — os dois apontam para o mesmo lugar, e esse lugar é a `Parcial`.*
+>
+> **A tradução fiel não move preço, e isso é derivado e não suposto.** *Ler como `Parcial` + `Boa` entregaria `4,75×` — `+22,2%` de dano furando a `Parcial` contra `+83,3%` furando a `Boa`, e a razão não depende da frequência de cobertura na mesa, que é terreno e não tem dono aqui.* **`4,75×` não é reescrita de texto: é outra entrada, e ela estouraria o teto de `Leve`.**
+>
+> *O molde da versão forte existe e é citável:* **o D&D 2024 tem `"Ignorar Cobertura: jogadas de ataque com magias ignoram Cobertura Parcial e Cobertura de Três Quartos"`** — *mas lá aquilo é **talento**, e não uma opção `Leve` de feitiço.*
+
+### ⚠⚠ A lista de exceções do validador não isentava nada
+
+**O `INDEFINIDOS_ACEITOS` do `conferir-manual.py` tem cara de exceção de checagem e é comentário.** *A única coisa que consulta a lista é um `elif nome in INDEFINIDOS_ACEITOS` dentro do laço que percorre o `EXIGEM_DEFINICAO` — e as duas listas não tinham **um único termo em comum**.* **O ramo era inalcançável.**
+
+> **E o motivo declarado do `cobertura leve` estava errado nas duas metades:** *"mora na peca de equipamento, **que ainda nao existe**. Reavaliar quando ela sair."* **A peça 14 saiu na v0.48**, 114 versões atrás — *e cobertura não foi parar nela: mora na peça 19 §5, desde a v0.94.* **Aviso que parou de reproduzir é dívida, e este ensinava a procurar o defeito em duas pastas erradas.**
+>
+> **`cobertura leve` saiu da lista**, porque o termo deixou de existir. **E `inimigo fraco` entrou no `EXIGEM_DEFINICAO`**, o que torna a isenção dele um **caminho vivo** — ele agora imprime `1 uso(s), indefinido — ACEITO` em vez de nunca ser consultado. *No dia em que o `Bestiário` definir o termo, a isenção sai e a linha passa a cobrar.*
+
+### A escada NÃO foi comprimida, e isso foi medido a pedido dele
+
+***Palavras dele:*** *"como no nosso sistema a rolagem é menor em 1, recomendo as coberturas darem `+1` e `+4` no lugar de `+2` e `+5`, ou `+2` e `+4`."*
+
+**A premissa está certa:** *o acerto daqui topa em `+10` — atributo `6` mais maestria `4` — contra o `+11` do d20, e o acerto base é `55%` contra `60%`.* **A cobertura morde mesmo um pouco mais forte aqui.**
+
+> **Mas descontar um ponto inteiro passa do alvo.** *A escala de hoje fica a `5,3` pontos percentuais da mordida do d20; `+2/+4` fica a `6,8` e `+1/+4` a `12,9`.* **As duas propostas erram para o outro lado por mais do que a atual erra para este** — *o desvio a corrigir é de `1,5` a `3,8` pp, e o menor ajuste possível vale `5`.*
+>
+> **E o motivo da v0.94 nunca foi matemático:** *"o número não sai de conta daqui — ele só precisa ser o mesmo em sete mesas, e uma tabela que todo mundo já conhece resolve isso de graça."* **Comprimir compra precisão e vende reconhecimento.** *A medida virou a §5.2 da peça 19, para a pergunta não voltar sem a conta junto.*
+
+### A checagem 7, e as duas perturbações minhas que não reproduziam nada
+
+**Entrou a checagem 7 do `conferir-manual.py`**, e ela não guarda a escala: *lê os graus e os bônus da peça 19 §5 e falha nas **duas** direções* — **se o manual nomear um grau que a peça não tem, e se ele COPIAR os bônus.** *A segunda metade é o molde de "apontar e não copiar" da v0.159 com a Integridade.*
+
+**Onze perturbações: oito acendendo e três contra-testes.** *O que fecha o argumento é o contra-teste que **muda os bônus da peça 19 e não encosta no manual** — ele sai verde, e é a prova de que a separação está de pé.* **E o outro renomeia os graus nos dois lados e também sai verde**, provando que a checagem mede a relação e não a palavra `Parcial`.
+
+> **⚠⚠ Duas perturbações minhas saíram verdes pelo motivo errado, e as duas pareciam certas lendo.**
+>
+> *A do título trocava `## 5. Cobertura` por `## 5. Cobertura e obstrucao`* — **e o âncora casa por PREFIXO**, então a seção continuava sendo achada. *Virou `## 5. Obstrução`, e ganhou um contra-teste que prova que o título só GANHAR palavra depois do âncora continua verde de propósito.*
+>
+> *A de "a palavra cobertura some do manual" apagava as três descrições e deixava o **nome** da Melhoria — `Sem Cobertura` — de pé sozinho, mantendo a linha viva.* **Perturbação que não reproduz o defeito não prova nada**, e é a segunda rodada seguida em que o arnês pega isso em mim.
+
+### ⚠⚠ E a folga da checagem 7.2 já tinha acabado, em silêncio
+
+**A 7.2 só falhou depois de o `subir.sh` copiar a entrega** — ela mede a árvore de lá, então nenhuma rodada anterior de validador podia acusá-la. *A acusação foi `141 citações na lista branca, e o teto é 140`.*
+
+> **Conferida pelo diff da lista branca antes e depois, que é o que aquele comentário exige:** *a nova é **uma**, e é a peça 19 §5.1 citando o `conferir-manual.py` para dizer quem vigia a escala do lado do manual.* **Família "nome de validador", a primeira das duas declaradas — nenhuma família nova, e não é material de mesa.**
+>
+> ***Só que isso quer dizer que o contador estava em `140`, exatamente no teto.*** *O comentário promete folga de cinco desde a v0.098 e a reescreve a cada versão que empurra o número — e entre a v0.145 e a v0.161 ele comeu as cinco sem ninguém ver.* **Um teto sem folga não avisa: ele fica calado até a próxima citação e aí reprova.**
+>
+> **O número deixou de ser teto escrito à mão e virou `contagem desta versão + folga declarada`**, com **aviso** quando a contagem passa da base e **erro** só quando a folga acaba. *Assim a linha fala na primeira citação nova, e não na sexta.*
+>
+> **Arnês: `142` avisa e não reprova, `146` idem, `147` reprova.** *E a primeira montagem da base estava errada de duas formas — faltou `logs/` e o `.gitignore` na cópia, e a perturbação mexia só na cópia da entrega, o que fazia a **7.1** acusar e o `rc=1` parecer do aviso.* **Terceira perturbação incoerente desta leva.**
+
+### O ciclo do manual, e o controle passou
+
+**O build de CONTROLE foi rodado antes de o novo valer:** *a fonte revertida para a v7.15 e reconstruída do zero deu um `document.xml` **idêntico** ao `.docx` publicado.* **Então o gerador é determinístico e a mudança é o único delta** — e o delta é de **três** trechos de texto no manual inteiro: a versão na capa e as duas entradas.
+
+### O que se moveu
+
+| | v0.161 | v0.162 |
+|---|---|---|
+| peças de regra · validadores | 24 · 25 | iguais |
+| checagens | 262 | **263** |
+| graus de cobertura citados pelo manual e inexistentes | **2** | **0** |
+| vocabulários de cobertura vivos no sistema | **3** | **1** |
+| entradas do `INDEFINIDOS_ACEITOS` que a checagem alcança | **0** | **1** |
+| manual do Fundamento | v7.15 | **v7.16** |
+| palavras do livro | 71.167 | **71.179** |
+| páginas do livro | 243 · 141 | iguais |
+
+*Os 24 validadores de `03-mecanica` verdes com `PULADA = 0`, o `conferir-repositorio.py`, os quatro de `manual/matematica/` e o `conferir-voz --estrito` em 0 achados.* **`guard_numeros.py` no arquivo do livro: nenhum número mudou** — era conserto de vocabulário, e ele prova isso.
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **O `Bestiário` continua no topo da fila**, e ele ganhou um segundo dono nesta versão: *`inimigo fraco`, o gatilho da Passiva `Peso da Presença`, que é Classe 2 e está preçada sem o termo existir.*
+
+---
+
 ## [0.161] — 26/08/2026
 
 **O `sete` sobreviveu à própria decisão que o matou, e ficou vivo por setenta e duas versões.** *A v0.89 decidiu que **no teto a escolha de Refino leva DUAS aptidões**, o que põe a rota pura em `10` — e o número velho continuou publicado em **quatro lugares**, dois deles a menos de vinte linhas da tabela que já dizia `dez`.* **Achado indo levantar o terreno do `Bestiário`, e não por validador: nada no projeto comparava essa contagem com coisa nenhuma.**

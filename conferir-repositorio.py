@@ -772,13 +772,33 @@ else:
     # conferir-atributos.py e o conferir-manual.py uma vez cada. Conferidas uma a
     # uma: as seis sao "nome de validador", a primeira das duas familias declaradas
     # la em cima. O teto vai a 140, mesma folga de cinco sobre as 135 de hoje.
-    PISO_CITACOES, TETO_BRANCOS = 120, 140
+    #
+    # v0.162: 141 brancas. A UNICA nova sai da peca 19 SS5.1, que passou a citar o
+    # conferir-manual.py para dizer quem vigia a escala de cobertura do lado do
+    # manual. Conferida pelo diff da lista branca antes e depois, no molde que
+    # este comentario pede: e "nome de validador", a primeira das duas familias
+    # declaradas la em cima — nenhuma familia nova, e nao e material de mesa.
+    #
+    # ⚠⚠ E indo subir o teto apareceu que a FOLGA JA TINHA ACABADO. O contador
+    # estava em 140 -- exatamente o teto --, entao entre a v0.145 e a v0.161 ele
+    # comeu as cinco de folga e ninguem viu: o guarda so falava quando ESTOURAVA,
+    # e teto sem folga nao avisa, ele so reprova na proxima citacao. O numero
+    # deixou de ser um teto escrito a mao e passou a ser a CONTAGEM DESTA VERSAO
+    # mais a folga declarada, com aviso quando a contagem passa da base. Assim a
+    # linha fala na primeira citacao nova, e nao na sexta.
+    BRANCAS_AQUI, FOLGA = 141, 5
+    PISO_CITACOES, TETO_BRANCOS = 120, BRANCAS_AQUI + FOLGA
     if vistos_e < PISO_CITACOES:
         erro(f'7.2: achei so {vistos_e} citacoes na entrega, e o piso e {PISO_CITACOES} — '
              f'o extrator mudou de forma e esta checagem parou de conferir')
     if brancos > TETO_BRANCOS:
         erro(f'7.2: {brancos} citacoes cairam na lista branca, e o teto e {TETO_BRANCOS} — '
              f'alguem alargou a lista; confira o que entrou nela')
+    elif brancos > BRANCAS_AQUI:
+        aviso(f'7.2: a lista branca subiu de {BRANCAS_AQUI} para {brancos}, e a folga '
+              f'declarada e de {FOLGA}. Confira o que entrou pelo diff antes/depois e '
+              f'reescreva a base junto com o motivo — sem isso a folga acaba em '
+              f'silencio, que foi o que aconteceu entre a v0.145 e a v0.161')
     for arq, alvo in pendurados:
         erro(f'7.2: {arq} manda abrir `{alvo}`, e ele nao existe na entrega')
     if not pendurados:

@@ -1,4 +1,4 @@
-# Retomada — v0.161, e o que sobrou é o Bestiário, playtest e dois rascunhos
+# Retomada — v0.162, e o que sobrou é o Bestiário, playtest e dois rascunhos
 
 Pasta: `/media/mizuki/HD Externo II/Claude/Claude 2/`
 ⚠ Trabalhe na pasta PRINCIPAL, não em worktree. **Você não commita** — deixa a mensagem em
@@ -7,19 +7,40 @@ Pasta: `/media/mizuki/HD Externo II/Claude/Claude 2/`
 Leia primeiro, nesta ordem: `README.md` (a seção *"Nove lições que custaram erro"*),
 `sistema/ESTADO-ATUAL.md` **inteiro**, e o `logs/CHANGELOG.md` de cima até a v0.145.
 
-**Projeto na v0.161.** 24 peças · 24 validadores · **262 checagens**. Livro em 17 capítulos,
-**71.167 palavras**, **243** páginas em coluna única e **141** em duas. Manual do Fundamento na
-**v7.15**. `conferir-voz --estrito` em 0 achados, 0 termos sem destino, **10 triagens**, **7
+**Projeto na v0.162.** 24 peças · 24 validadores · **263 checagens**. Livro em 17 capítulos,
+**71.179 palavras**, **243** páginas em coluna única e **141** em duas. Manual do Fundamento na
+**v7.16**. `conferir-voz --estrito` em 0 achados, 0 termos sem destino, **10 triagens**, **7
 marcas de "isto ainda não existe" e 0 rótulos longos demais em 52 entradas de catálogo**.
 
 > **A entrega está UMA versão atrás, que é o normal — a ordem não inverte.** *O último commit
-> de `finalizado/` é `recorte da v0.160`, e a checagem 7.4 aceita uma de distância.* **Rode o
-> `./subir.sh` normalmente e commite a entrega depois**, com `recorte da v0.161`.
+> de `finalizado/` é `recorte da v0.161`, e a checagem 7.4 aceita uma de distância.* **Rode o
+> `./subir.sh` normalmente e commite a entrega depois**, com `recorte da v0.162`.
 >
 > *E desde a v0.160 ela mede o **conteúdo** do commit, não o rótulo* — **copiar a mensagem da
 > vez passada virou aviso, e não mais reprovação.**
 
 ---
+
+## O que a v0.162 fechou
+
+**Duas entradas PREÇADAS do manual compravam furar cobertura contra graus que este sistema não
+tem** — `cobertura leve` (que é do **GURPS**, e nem grau é: lá é um `−2` de tiro) e `meia
+cobertura` (o *half cover* do **D&D 2014**). *A escada daqui é `Parcial` · `Boa` · `Total`.*
+**As duas passaram a citar a `Parcial`, e nenhum preço se moveu — isso é derivado:** ler como
+dois degraus entregaria `4,75×`, que não é reescrita de texto, é outra entrada.
+
+> **⚠⚠ E o `INDEFINIDOS_ACEITOS` do `conferir-manual.py` não isentava nada.** *O único ponto que
+> consulta a lista é um `elif` dentro do laço do `EXIGEM_DEFINICAO`, e as duas não tinham um
+> termo em comum — ramo inalcançável.* **`cobertura leve` saiu, e `inimigo fraco` entrou no
+> `EXIGEM_DEFINICAO` para a isenção virar caminho vivo.**
+>
+> *A escada NÃO foi comprimida, e isso foi medido a pedido dele:* **a premissa está certa — o
+> acerto daqui topa em `+10` contra o `+11` do d20 —, mas `+2/+5` é a mais próxima das três**
+> (`5,3` pp contra `6,8` do `+2/+4` e `12,9` do `+1/+4`). *A medida virou a §5.2 da peça 19.*
+>
+> **Entrou a checagem 7**, que falha nas duas direções — grau inexistente e cópia de bônus.
+> *Onze perturbações, oito acendendo e três contra-testes. O arnês pegou **duas** perturbações
+> minhas que saíam verdes pelo motivo errado.*
 
 ## O que a v0.161 fechou
 
