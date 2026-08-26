@@ -131,7 +131,7 @@ O que `0,50` fatia é, nas moedas em que alguém pergunta:
 
 *Decisão do Mizuki, e ela tem número por trás: `+1` no acerto vale `10,80` de dano por rodada, que é `2,13` fatias — mais de quatro vezes o teto de um pacto inteiro.* **Não é proibição de gosto; é que não cabe.**
 
-**A Defesa cai junto pela mesma porta.** *É por isso que o estilo `Defesa` do `Executor`, que dá `+1` de Defesa, ficaria de fora mesmo se o preço dele coubesse.*
+**A Defesa cai junto pela mesma porta.** *É por isso que o estilo `Couraça` do `Executor`, que dá `+1` de Defesa, ficaria de fora mesmo se o preço dele coubesse.*
 
 **O que o pacto pode tocar é dano**, e aí o teto do §3.2 faz esse toque ser uma escolha ruim de propósito.
 

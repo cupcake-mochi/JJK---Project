@@ -42,7 +42,7 @@ A pasta `skills/` guarda o `SKILL.md` de cada uma mais os arquivos de apoio. ~~*
 
 ## Versão atual
 
-**v0.166.** Fases 0 a 3 fechadas; a Fase 4 (mecânica) está em andamento com **vinte e quatro peças escritas e vinte e quatro validadores passando**. O manual do Fundamento está na **v7.17**, e ele é um subsistema fechado — a técnica e o feitiço já funcionam. O `.pdf` **está na mesma versão do `.docx`** desde a v0.93 — ele deixou de ser exportado a mão.
+**v0.167.** Fases 0 a 3 fechadas; a Fase 4 (mecânica) está em andamento com **vinte e quatro peças escritas e vinte e quatro validadores passando**. O manual do Fundamento está na **v7.17**, e ele é um subsistema fechado — a técnica e o feitiço já funcionam. O `.pdf` **está na mesma versão do `.docx`** desde a v0.93 — ele deixou de ser exportado a mão.
 
 **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas**, por seis das nove rotas de Origem. Desde a v0.32 não sobrou peça de regra travando ninguém nessa faixa: das dezessete coisas que uma ficha de nível 2 precisa, **treze existem, e as quatro que faltam não mordem nessa faixa**. O que falta para as outras três rotas, e a ordem do resto, está no `ESTADO-ATUAL.md`.
 

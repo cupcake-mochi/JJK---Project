@@ -293,13 +293,78 @@ elif len(BENCAOS) < 10:
     erro(f'li so {len(BENCAOS)} Bencao(oes) no catalogo da peca 11 e as pagas sao '
          f'doze — o extrator parou de casar')
 
+# ⚠⚠ v0.167: a triagem era CEGA para duas coisas, e as duas ja tinham custado nome.
+#
+#   1. AS TREZE CATEGORIAS DE ARMA. A v0.122 ensinou ela a ler as 52 ARMAS da
+#      peca 14 — os nomes das armas. As CATEGORIAS nunca entraram, e `Arremesso`
+#      e categoria (`Lamina Curta` . `Porrete` . `Ceifa` . `Arremesso` . ...) E
+#      era estilo da `Pegada` do Executor. Saia LIVRE.
+#   2. O VOCABULARIO DECLARADO DO SISTEMA. A lista SISTEMA acima e' hand-list e
+#      cresceu ad hoc: ela tem `Maestria` e `Refino` e nao tem `Defesa`,
+#      `Iniciativa`, `Acerto`, `Aptidao`, `Fatia`, `Rotina` nem `Bloquear` — que
+#      e uma PECA INTEIRA, a 23. `Defesa` saia LIVRE sendo a coluna da ficha, e
+#      era estilo da `Pegada` pelo mesmo motivo que `Arremesso`.
+#
+# O conserto nao e crescer a hand-list: e LER DO DONO, que e o mesmo molde da
+# v0.164 com as Bencaos e da v0.122 com os Legados. O dono do vocabulario
+# declarado e o GLOSSARIO DO LIVRO — "O vocabulario do sistema" —, que existe
+# justamente para dizer o que cada termo batizado quer dizer.
+#
+# As duas entram so no UNIVERSO, que e' o que `--candidatos` consulta. Elas NAO
+# entram nas cinco checagens: acusar retroativamente todo nome batizado contra o
+# glossario e outra pergunta, e ela nao e desta versao.
+CATEGORIAS_ARMA = []
+try:
+    CATEGORIAS_ARMA = sorted({a['categoria'] for a in (_a or [])
+                         if isinstance(a, dict) and a.get('categoria')})
+except Exception as _e:                                    # pragma: no cover
+    erro(f'nao consegui derivar as categorias de arma do catalogo da peca 14: {_e}')
+
+# GUARDA: a peca 14 §5.1.2 declara TREZE categorias. O numero nao esta aqui como
+# constante solta — ele e o que aquela secao publica, e o conferir-equipamento.py
+# ja falha se o catalogo dele mudar de tamanho. Se este extrator devolver outra
+# coisa, ele parou de casar e a triagem volta a ficar cega em silencio.
+if not CATEGORIAS_ARMA:
+    erro('nao derivei categoria de arma nenhuma do catalogo da peca 14 — a triagem '
+         'volta a ficar cega para elas, que foi como `Arremesso` foi batizado duas vezes')
+elif len(CATEGORIAS_ARMA) != 13:
+    erro(f'derivei {len(CATEGORIAS_ARMA)} categoria(s) de arma e a peca 14 §5.1.2 declara '
+         'treze — o extrator parou de casar ou o catalogo mudou de tamanho')
+
+GLOSSARIO = []
+# ⚠ o RAIZ deste validador e a pasta `sistema/`, e nao a raiz do repositorio.
+_pglo = os.path.join(RAIZ, '05-material', 'livro', 'manual', '07-glossario.md')
+try:
+    with _io.open(_pglo, encoding='utf-8') as _fg:
+        _tglo = _fg.read()
+    # a linha e `| **Termo** | o que e | cap |`, com o termo em negrito na 1a
+    # celula. Alguns vem com crase por dentro — `| **`Bloquear`** | ... |.
+    for _m in re.finditer(r'^\|\s*\*\*`?([^*`|]+?)`?\*\*\s*\|', _tglo, re.M):
+        _t = _m.group(1).strip()
+        if _t and _t.lower() not in ('termo',):
+            GLOSSARIO.append(_t)
+    GLOSSARIO = sorted(set(GLOSSARIO))
+except Exception as _e:                                    # pragma: no cover
+    erro(f'nao consegui ler o glossario do livro em {_pglo}: {_e}')
+
+# GUARDA de contagem, no molde da das Bencaos. O glossario tem mais de cem
+# entradas; um extrator que devolve punhado parou de casar.
+if not GLOSSARIO:
+    erro('nao li termo nenhum do glossario do livro — a triagem volta a ficar cega '
+         'para o vocabulario declarado, que foi como `Defesa` foi batizado duas vezes')
+elif len(GLOSSARIO) < 80:
+    erro(f'li so {len(GLOSSARIO)} termo(s) no glossario do livro e ele tem mais de '
+         'cem linhas de tabela — o extrator parou de casar')
+
 # Usada so para triar nome candidato (--candidatos), nao nas cinco checagens:
 # pericia e oficio ja tem dono no conferir-pericias.py.
 UNIVERSO = (TODOS + [('pericia', p) for p in PERICIAS]
             + [('oficio', o) for o in OFICIOS]
             + [('Legado do catalogo', l) for l in LEGADOS_CATALOGO]
             + [('Bencao do catalogo', b) for b in BENCAOS]
-            + [('arma do catalogo', a) for a in ARMAS])
+            + [('arma do catalogo', a) for a in ARMAS]
+            + [('categoria de arma', c) for c in CATEGORIAS_ARMA]
+            + [('vocabulario do glossario', g) for g in GLOSSARIO])
 
 # --------------------------------------------------------------------------
 # COLISOES CONHECIDAS E ACEITAS DE PROPOSITO
@@ -688,7 +753,18 @@ candidatos = sys.argv[2:] if len(sys.argv) > 1 and sys.argv[1] == '--candidatos'
 if not candidatos:
     print('  (nenhum. Uso: python3 conferir-nomes.py --candidatos Vulto Matilha ...)')
 else:
-    ocupados = {norma(n): cat for cat, n in UNIVERSO}
+    # ⚠⚠ v0.167: isto era dict comprehension, e dict comprehension faz a ULTIMA
+    # fonte vencer. Quando o glossario do livro entrou no UNIVERSO — por ultimo —
+    # ele passou a reivindicar `Kata`, `Ruptura` e `Ogi`, que sao `termo de
+    # sistema`, e a checagem 12 do conferir-marcial.py acusou: ela afirma o
+    # MOTIVO do OCUPADO, e nao so o fato. Acrescentar fonte mudava em silencio a
+    # razao publicada de todo nome que duas fontes reivindicam.
+    # Agora a PRIMEIRA vence, e a ordem do UNIVERSO passa a ser a ordem de
+    # autoridade: o vocabulario batizado do projeto (TODOS) antes dos indices
+    # que so repetem ele.
+    ocupados = {}
+    for cat, n in UNIVERSO:
+        ocupados.setdefault(norma(n), cat)
     for cand in candidatos:
         k = norma(cand)
         # DUROS: o nome inteiro ja e um termo definido. Mata o candidato.

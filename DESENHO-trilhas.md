@@ -342,12 +342,16 @@ E o **Yuji** com o Punho Divergente é a mesma ideia num golpe só: o soco acert
 | estilo | pede | o que dá | fatias |
 |---|---|---|---|
 | **`Duelista`** | uma arma numa mão, a outra vazia | `+2` de dano em todo golpe | **0,79** |
-| **`Arremesso`** | arma arremessada | `+2` de dano em todo golpe | **0,79** |
-| **`Desarmado`** | punho vazio | `+metade da maestria` de dano no soco | **0,79** |
-| **`Defesa`** | vestindo `Traje` ou `Revestimento` | `+1` de Defesa | 0,67 |
+| **`Volteio`** | arma arremessada | `+2` de dano em todo golpe | **0,79** |
+| **`Mão Nua`** | punho vazio | `+metade da maestria` de dano no soco | **0,79** |
+| **`Couraça`** | vestindo `Traje` ou `Revestimento` | `+1` de Defesa | 0,67 |
 | **`Arma Grande`** | arma de duas mãos | rerrolar `1` e `2` no dado de dano | 0,33 |
 
-> **A regra que cai da conta: todo estilo TEM de pedir alguma coisa.** Um estilo sem porta está disponível para toda ficha, e aí ele domina qualquer estilo mais barato — o jogador simplesmente pega o de cima. *Foi por isso que a `Defesa` ganhou o uniforme como porta; sem ele, ela dominava a `Arma Grande` por `2,0×` e ninguém nunca escolheria a segunda.*
+> **A regra que cai da conta: todo estilo TEM de pedir alguma coisa.** Um estilo sem porta está disponível para toda ficha, e aí ele domina qualquer estilo mais barato — o jogador simplesmente pega o de cima. *Foi por isso que a `Couraça` ganhou o uniforme como porta; sem ele, ela dominava a `Arma Grande` por `2,0×` e ninguém nunca escolheria a segunda.*
+
+> **⚠⚠ Três das cinco foram renomeadas na v0.167, e nenhuma por gosto: as três colidiam.** *`Arremesso` é **categoria de arma** da peça 14 §5.1.2; `Defesa` é a **coluna da ficha**; `Desarmado` é **Condição** do manual.* **A triagem só pegava a terceira** — ela lia as 52 armas e não as treze categorias, e a lista de vocabulário dela não tinha `Defesa`. *Consertada na mesma versão: ela passa a derivar as categorias do catálogo e a ler o glossário do livro.*
+>
+> **Nenhum preço se moveu.** *`Volteio` vale os mesmos `0,79`, `Couraça` os mesmos `0,67`, `Mão Nua` os mesmos `0,79`, e o `Executor` continua em `4,68` de `5,00`.* **Renome não é repreço.**
 
 **O catálogo não está fechado**, e os dois de baixo têm folga até o teto. *Ele é do mesmo tamanho de problema das treze `Manhas` de arma que o Caminho da Vanguarda também deve.*
 

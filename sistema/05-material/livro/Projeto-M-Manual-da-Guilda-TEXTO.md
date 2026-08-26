@@ -2900,9 +2900,9 @@ Pólvora, ruído e uma profissão que finge não usar isso. É a rota que funcio
 | Estilo | Pede | O que dá |
 |---|---|---|
 | `Duelista` | uma arma numa mão, a outra vazia | `+2` de dano em todo golpe |
-| `Arremesso` | arma arremessada | `+2` de dano em todo golpe |
-| `Desarmado` | punho vazio | `+metade da maestria` de dano no soco |
-| `Defesa` | vestindo `Traje` ou `Revestimento` | `+1` de Defesa |
+| `Volteio` | arma arremessada | `+2` de dano em todo golpe |
+| `Mão Nua` | punho vazio | `+metade da maestria` de dano no soco |
+| `Couraça` | vestindo `Traje` ou `Revestimento` | `+1` de Defesa |
 | `Arma Grande` | arma de duas mãos | rerrolar `1` e `2` no dado de dano |
 
 > **Todo estilo pede alguma coisa, e o pedido é regra.**
@@ -6590,4 +6590,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: 777c37bbb12568819e0c19248e4ff467f5f03fc3 -->
+<!-- fonte: e88fd5e42fd0ba852a7d75726d6543f68b410767 -->

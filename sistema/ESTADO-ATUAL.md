@@ -1,8 +1,22 @@
 # Estado atual do projeto
 
-Atualizado em 26/08/2026, na v0.166 (última peça fechada: **Dano de alma e Integridade**, a peça 24, na v0.145, com o `conferir-alma.py` e doze checagens; antes dela, **Bloquear, na v0.143**; antes dela, o **Objeto amaldiçoado, na v0.132**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 26/08/2026, na v0.167 (última peça fechada: **Dano de alma e Integridade**, a peça 24, na v0.145, com o `conferir-alma.py` e doze checagens; antes dela, **Bloquear, na v0.143**; antes dela, o **Objeto amaldiçoado, na v0.132**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.166.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e quatro peças escritas** e **vinte e quatro validadores**.
+**Versão v0.167.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e quatro peças escritas** e **vinte e quatro validadores**.
+
+***A v0.167 tirou duas cegueiras da triagem de nomes, e as duas já tinham custado nome.*** *Apareceu indo batizar a entrada da lista de `Sem Técnica`: a ferramenta que existe para isso estava mentindo.*
+
+> **Ela lia as 52 armas da peça 14 e não as TREZE CATEGORIAS**, e a lista `SISTEMA` dela era hand-list crescida ad hoc — tinha `Maestria` e `Refino` e **não tinha `Defesa`, `Aptidão`, `Rotina`, `Sequela`, `Cicatriz` nem `Bloquear`**, *que é uma peça inteira.* **Todos saíam `LIVRE`.**
+>
+> **O conserto é LER DO DONO, no molde da v0.164 com as Bênçãos:** *as categorias saem derivadas do próprio catálogo, com guarda em `13`; o vocabulário sai do **glossário do livro**, com `136` termos e guarda de piso.* **As duas entram só no `--candidatos`** — acusar retroativamente todo nome batizado contra o glossário é outra pergunta.
+>
+> **⚠⚠ E a checagem 12 do `conferir-marcial.py` pegou uma consequência que eu não tinha previsto.** *O `ocupados` era dict comprehension, e ela faz a **última** fonte vencer — então o glossário passou a reivindicar `Kata`, `Ruptura` e `Ōgi`, que são `termo de sistema`, e aquela checagem afirma o **motivo** do `OCUPADO` e não só o fato.* **Acrescentar fonte mudava em silêncio a razão publicada de todo nome que duas fontes reivindicam.** *Hoje a primeira vence, e a ordem do `UNIVERSO` é ordem de autoridade.*
+>
+> ***Três dos cinco `Estilos da Pegada` estavam batizados duas vezes:*** **`Arremesso` → `Volteio`** (categoria de arma), **`Defesa` → `Couraça`** (a coluna da ficha) e **`Desarmado` → `Mão Nua`** (Condição do manual, a única que a triagem já acusava). *Nenhum preço se moveu — o `Executor` continua em `4,68` de `5,00`, e o `guard_numeros.py` diz `Nenhum número mudou`.*
+>
+> **Arnês: dez casos, zero divergências**, e o contra-teste é o que fecha — *renomear `Bloquear` dentro do glossário faz ele voltar a sair `LIVRE`.* **Ela lê o documento, e não uma lista minha.**
+>
+> ***E os nomes de `Sem Técnica` saíram triados com a ferramenta já honesta:*** **a entrada da lista é o `Manejo`** e **a Técnica Máxima é o `Auge`**. *A `Liberação Máxima` não renomeia: o motivo da peça 20 era "esta rota não tem técnica inata", e `Sem Técnica` escreve Fundamento.*
 
 ***A v0.166 tirou a cura do `Classe 0`, e o achado é do Mizuki indo escrever `Sem Técnica`.*** **Não era mudança de regra: era contradição dentro do próprio manual.**
 

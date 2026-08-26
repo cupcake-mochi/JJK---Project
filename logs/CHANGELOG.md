@@ -8,6 +8,71 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.167] — 26/08/2026
+
+**A triagem de nomes era cega para duas coisas, e as duas já tinham custado nome.** *Apareceu indo batizar a entrada da lista de `Sem Técnica`: eu ia usar `Estilo`, fui conferir, e a ferramenta que existe para isso estava mentindo.*
+
+### O que ela não via
+
+| o que a triagem não lia | o que ela lia | o que já custou |
+|---|---|---|
+| **as treze categorias de arma** da peça 14 §5.1.2 | as **52 armas**, desde a v0.122 — os nomes, não as categorias | `Arremesso` é categoria **e** era estilo da `Pegada` |
+| **o vocabulário declarado do sistema** | a lista `SISTEMA`, escrita à mão e crescida ad hoc | `Defesa` é a coluna da ficha **e** era estilo da `Pegada` |
+
+> **A `SISTEMA` tinha `Maestria` e `Refino` e não tinha `Defesa`, `Aptidão`, `Rotina`, `Sequela`, `Cicatriz` nem `Bloquear`** — *que é uma peça inteira, a 23, fechada na v0.143.* **Todos saíam `LIVRE`.**
+
+**O conserto não foi crescer a lista à mão: foi LER DO DONO**, que é o molde da v0.164 com as Bênçãos e da v0.122 com os Legados.
+
+- **As categorias saem derivadas do próprio catálogo** — `{a['categoria'] for a in ARMAS}` —, com guarda de contagem em `13`, que é o que a peça 14 §5.1.2 declara.
+- **O vocabulário sai do glossário do livro**, *"O vocabulário do sistema"*, que existe justamente para dizer o que cada termo batizado quer dizer. **São `136` termos**, com guarda de piso.
+
+*As duas entram só no `UNIVERSO`, que é o que `--candidatos` consulta.* **Elas não entram nas cinco checagens** — acusar retroativamente todo nome batizado contra o glossário é outra pergunta, e ela não é desta versão.
+
+### ⚠⚠ E a checagem 12 do `conferir-marcial.py` pegou uma consequência que eu não tinha previsto
+
+**O `ocupados` era dict comprehension, e dict comprehension faz a ÚLTIMA fonte vencer.** *Com o glossário entrando por último, ele passou a reivindicar `Kata`, `Ruptura` e `Ōgi`, que são `termo de sistema`* — e aquela checagem **afirma o MOTIVO do `OCUPADO`, e não só o fato**.
+
+> **Acrescentar fonte mudava em silêncio a razão publicada de todo nome que duas fontes reivindicam.** *Agora a **primeira** vence, e a ordem do `UNIVERSO` virou ordem de autoridade: o vocabulário batizado do projeto antes dos índices que só repetem ele.*
+
+### As três entradas da `Pegada` que colidiam
+
+**Três dos cinco `Estilos da Pegada` do `Executor` estavam batizados duas vezes, e a triagem só pegava um.**
+
+| era | virou | colidia com |
+|---|---|---|
+| `Arremesso` | **`Volteio`** | **categoria de arma**, peça 14 §5.1.2 |
+| `Defesa` | **`Couraça`** | **a coluna da ficha**, peça 1 |
+| `Desarmado` | **`Mão Nua`** | **Condição** do manual, peça 19 — *a única que a triagem já acusava* |
+
+> **Nenhum preço se moveu.** *`Volteio` vale os mesmos `0,79`, `Couraça` os mesmos `0,67`, `Mão Nua` os mesmos `0,79`, e o `Executor` continua em `4,68` de `5,00`.* **O `guard_numeros.py` diz `Nenhum número mudou` no capítulo inteiro.** *Renome não é repreço.*
+
+### O arnês
+
+**Dez casos, zero divergências.** *Quatro guardas — categoria sumindo, duas categorias virando uma (`12` contra `13`), glossário mudando de caminho, e o reconhecedor dele parando de casar. Três leituras — `Arremesso` e `Defesa` saindo `OCUPADO`, e `Manejo` e `Auge` saindo `LIVRE`.*
+
+> **E o contra-teste é o que fecha:** *renomear `Bloquear` para `Aparar` dentro do glossário faz `Bloquear` voltar a sair `LIVRE`.* **Ela lê o documento, e não uma lista minha.**
+
+### Adicionado
+
+- **Duas leituras derivadas no `conferir-nomes.py`** — as treze categorias de arma e os `136` termos do glossário do livro —, as duas com guarda de contagem.
+- **A nota no `DESENHO-trilhas.md`** dizendo por que as três foram renomeadas e que nenhum preço se moveu.
+
+### Alterado
+
+- **`Arremesso` → `Volteio`, `Defesa` → `Couraça`, `Desarmado` → `Mão Nua`**, nos três lugares que os publicam: `DESENHO-trilhas.md`, o capítulo 8 do livro e a peça 22 §3.4.
+- **A ordem do `UNIVERSO` virou ordem de autoridade**, e o `--candidatos` passa a reportar a categoria mais específica.
+- **O livro foi de `72.221` para `72.222` palavras** — *`Mão Nua` é duas palavras e `Desarmado` era uma.* **Páginas paradas em `245` e `142`.**
+
+### Decidido
+
+- **`Estilo` fica com a `Pegada`, e quem troca é `Sem Técnica`.** *Decisão do Mizuki, revendo a primeira: a Trilha é texto publicado e a peça ainda não existe.*
+- **A entrada da lista de `Sem Técnica` se chama `Manejo`**, e a Técnica Máxima dela se chama **`Auge`**. *Os dois saem `LIVRE` na triagem já consertada, e conferidos à mão contra as duas listas que ela não via.*
+- **A `Liberação Máxima` NÃO renomeia.** *O motivo da peça 20 para renomear as três era "elas carregam a sua técnica no nome, e esta rota não tem técnica inata" — e `Sem Técnica` escreve Fundamento, então o motivo não alcança ela.*
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **A v0.168 é a peça de `Sem Técnica`**, a nona rota de Origem — a régua dela está medida e os nomes estão triados.
+
+---
+
 ## [0.166] — 26/08/2026  ·  manual v7.17
 
 **Um `Classe 0` com Forma `Cura` entregava `27` de cura por rodada, de graça, num aliado, para sempre.** *Achado do Mizuki, indo escrever a peça de `Sem Técnica`.* **E não era mudança de regra: era contradição dentro do próprio manual.**
