@@ -144,17 +144,17 @@ O poder vem de dois lugares:
 
 **Aptidão.** Você foi fundo no que todo feiticeiro pode fazer, em vez de ter uma coisa que só você faz. É a **Shoko Ieiri**, cuja Energia Reversa vale mais do que a maior parte das técnicas.
 
-**Estilo da Sombra.** Você aprendeu a matar maldição com técnica de espada e corpo, sem precisar de técnica amaldiçoada. É a **Miwa** e o **Kusakabe**.
+**Estilo da Sombra.** Você aprendeu a matar maldição com técnica de corpo e de arma, sem precisar de técnica amaldiçoada. É a **Miwa** e o **Kusakabe**.
 
 | | |
 |---|---|
-| **O que muda** | você não escreve Fundamento. Não tem Regra, não tem Famílias, não tem Selo, não tem feitiço |
+| **O que muda** | a sua técnica não veio com você: ela nasce de uma **semente**, que é uma aptidão aberta na criação. Regra, Famílias, Selo e Passivas continuam existindo, e a Expansão de Domínio não |
 | **O que ganha** | a Origem principal continua dando tudo o que dá. **Sem Técnica não amplia a conta de Legados** — ela é uma entrada de `Destranca` e ocupa uma das duas vagas, como qualquer outra |
-| **Criação** | **Aptidão** ou **Estilo da Sombra** — *nenhuma das duas existe ainda* |
+| **Criação** | **a peça 25**, e ela é o Fundamento com a semente por baixo |
 
-> **Não é jogável hoje**, e o que falta é a **máquina de criação**. As duas rotas precisam de uma construção com a mesma dignidade que o Fundamento tem — quantas aptidões, com que orçamento, e o que se paga por elas. **Sem isso a rota vira "os outros menos o Fundamento", e ninguém escolhe por vontade: escolhe por castigo.**
+> **A máquina é a peça 25, fechada na v0.168**, e ela não inventa número: é o Fundamento inteiro, com dois renomes — o `feitiço` é o **`Manejo`** e a Técnica Máxima é o **`Auge`**. *As três portas da semente são `Domínio Simples`, `Energia Reversa` e uma `Aptidão Própria`.*
 >
-> *O que ela não precisa é de uma economia inteiramente nova.* **Energia Reversa não é técnica inata** — é manipulação de energia amaldiçoada, e é por isso que quem não tem técnica consegue usar. E o **Estilo da Sombra é anti-domínio**, com a espada sendo o jeito mais comum e não o requisito: **a seção 6.5 da peça 11 já trata o Domínio Simples como aptidão pura**, sem uma palavra sobre lâmina.
+> *A rota nunca precisou de uma economia inteiramente nova.* **Energia Reversa não é técnica inata** — é manipulação de energia amaldiçoada, e é por isso que quem não tem técnica consegue usar. E o **Estilo da Sombra é anti-domínio**, com a arma sendo o jeito mais comum e não o requisito: **a seção 6.5 da peça 11 já trata o Domínio Simples como aptidão pura**, sem uma palavra sobre lâmina.
 
 ## 5. As duas Origens especiais
 
@@ -282,16 +282,18 @@ A troca é sempre desproporcional para os dois lados: você perde muito e ganha 
 | Descendente | Fundamento | **sim** |
 | Reencarnado | Fundamento | **sim** |
 | Feto | Fundamento | **sim** |
-| *qualquer uma* **+ Sem Técnica** | Aptidão ou Estilo da Sombra | não — falta a peça |
+| *qualquer uma* **+ Sem Técnica** | a semente, e o Fundamento em cima | **sim** — peça 25, na v0.168 |
 | Corpo Amaldiçoado | Técnica Marcial | **sim** — peça 20, na v0.122 |
 | Restrição Celestial · corpo pela técnica | Fundamento | **sim** |
 | Restrição Celestial · sem energia | Técnica Marcial | **sim** — peça 20, na v0.122 |
 
-**Oito das nove rotas já rodam.** *Seis pelo Fundamento, que existe e está validado desde sempre, e duas pela Técnica Marcial, que fechou na v0.122.*
+**As nove rotas rodam.** *Seis pelo Fundamento, que existe e está validado desde sempre, duas pela Técnica Marcial, que fechou na v0.122, e a nona pela peça 25, na v0.168.*
 
-**A que falta é `Sem Técnica`**, e ela não espera a peça 20: ***decisão do Mizuki — aquela rota tem criação própria, e vem depois.*** *O que ela espera continua sendo Aptidão ou Estilo da Sombra.*
+> **A nona demorou porque ela não esperava a peça 20:** ***decisão do Mizuki — aquela rota tem criação própria, e vem depois.*** *"Depois" chegou quando as quinze Trilhas fecharam na v0.164 e a fila da mecânica ficou sem item.* **E a criação própria dela acabou não sendo própria coisa nenhuma:** a peça 25 §7 mede o vão e chega no Fundamento, do mesmo jeito que a peça 20 tinha chegado para a rota do corpo.
 
-**A Origem não fecha Caminho nenhum, e isso é decisão medida — o §8 tem a conta.** *O que existe é uma combinação que rende menos do que parece, e ela fica escrita aqui em vez de barrada:* **Sem Técnica com o Emanador.** *A Origem mantém PE e aptidões, então o bolso continua sendo gasto; o que não chega é o kit do Caminho — `Sangria`, `Resquício`, `Modelagem`, `Fonte`, `Acelerar`, `Vazão`, `Cheia` e `Transbordo` são todos construídos em cima de feitiço, e Sem Técnica não escreve Fundamento.* **É escolha cara, não regra quebrada, e quem escolhe merece saber antes e não no nível 11.**
+**A Origem não fecha Caminho nenhum, e isso é decisão medida — o §8 tem a conta.**
+
+> **⚠ E o aviso que morava aqui caiu na v0.168.** *Da v0.116 até a v0.167 esta seção marcava **Sem Técnica com o Emanador** como combinação que rende menos do que parece: o kit daquele Caminho — `Sangria`, `Resquício`, `Modelagem`, `Fonte`, `Acelerar`, `Vazão`, `Cheia` e `Transbordo` — é todo construído em cima de feitiço, e a rota não escrevia Fundamento.* **Ela escreve.** *O `Manejo` da peça 25 é o feitiço com outro nome — mesma Classe, mesmos pontos, mesmo custo —, então os oito alcançam ela como alcançam qualquer um.* **O aviso não foi corrigido: ele deixou de ter assunto.**
 
 ## 7. O que esta peça muda em três documentos
 
@@ -309,11 +311,11 @@ O caso do Yuta continua existindo **na ficção** — a instituição pode class
 
 ## 8. Em aberto
 
-- ~~**Técnica Marcial e Estilo da Sombra.** Três das nove rotas dependem deles.~~ **A Técnica Marcial fechou na v0.122, e é a peça 20.** *Ela destravou duas das três — Corpo Amaldiçoado e o ramo sem energia da Restrição Celestial —, e as rotas foram de `6/9` para `8/9`.* **A que sobra é `Sem Técnica`, e ela espera Aptidão ou Estilo da Sombra**, que continuam sem peça.
-- **A Aptidão como rota de criação.** A Shoko existe na obra e não existe na regra. *Os degraus de refino **estão escritos desde a v0.27**, na peça 11, e a `Energia Reversa` desde a v0.78 — o que falta é a máquina de construção da rota, e ela não pode ser "os outros menos o Fundamento".*
+- ~~**Técnica Marcial e Estilo da Sombra.** Três das nove rotas dependem deles.~~ **As três fecharam.** *A Técnica Marcial é a peça 20, na v0.122, e ela destravou duas — Corpo Amaldiçoado e o ramo sem energia da Restrição Celestial —, levando as rotas de `6/9` para `8/9`.* **A terceira fechou na v0.168, e é a peça 25: `9/9`.** *O `Estilo da Sombra` não virou peça própria — ele virou a semente `Domínio Simples`, que a peça 11 §6.5 já publicava desde a v0.29.*
+- ~~**A Aptidão como rota de criação.** A Shoko existe na obra e não existe na regra.~~ **Fechada na v0.168, na peça 25.** *Os degraus de refino estavam escritos desde a v0.27 e a `Energia Reversa` desde a v0.78; o que faltava era a máquina, e ela não virou "os outros menos o Fundamento" — virou o Fundamento com uma aptidão aberta por baixo.* **A rota da Shoko é uma das três portas da semente, e ela soma `1/3 do refino` em toda rolagem de cura sua.**
 - ~~**Se um Legado por ficha é pouco.**~~ **Respondido na v0.38, e nas duas direções.** A peça 13 deu **mais opções por Origem** — de dois para uma média de doze — *e* subiu a ficha para **dois Legados**, contra o que esta linha dizia. O motivo de reabrir está lá: opção de ficção que disputa vaga com opção mecânica fica em branco, e os Traços do D&D 5e são o exemplar documentado. **O teto de poder continua em um**, porque o segundo é obrigatoriamente `Destranca` e Destranca é zero no dado.
 - ~~**Se a perícia livre da Origem devia ser da lista também.**~~ **Fechado na v0.104, e não pelo lado que a pergunta esperava.** *A saída não foi prender ela na lista da Origem — foi tirar a aprovação e pôr no lugar uma trava contável:* **ela continua livre, e só não pode ser uma das seis que o seu Caminho já te deu.** *A história continua justificando, e o mestre continua lendo — o que ele não faz mais é decidir um número.* **E a trava não é nova: a peça 7 §6 já publicava `8 de 23` perícias treinadas por ficha, e esse total só fecha se as duas da Origem não repetirem as seis do Caminho.** *O número supunha a regra; agora ela está escrita.*
-- **Se Corpo Amaldiçoado e Restrição Celestial deviam poder ser Sem Técnica.** O Kokichi tem técnica; a Maki não. Hoje elas já resolvem isso por dentro, com os dois ramos.
+- ~~**Se Corpo Amaldiçoado e Restrição Celestial deviam poder ser Sem Técnica.** O Kokichi tem técnica; a Maki não. Hoje elas já resolvem isso por dentro, com os dois ramos.~~ **Continua não, e agora com a peça 25 no disco a resposta é mais forte do que "elas resolvem por dentro".** *As duas especiais já trocam a técnica por outra coisa na própria Origem — o corpo fabricado e a Restrição —, e a rota da peça 25 troca a técnica **inata** por uma semente.* **Empilhar as duas trocas é cobrar uma vez e pagar duas**, e o §5 continua sendo o dono da exclusão.
 - ~~**⚠ Nada impede uma Origem sem PE de escolher um Caminho construído em cima de PE.**~~ **FECHADO na v0.116, e não por gate — a pergunta tinha a forma errada.** *Ela foi levantada na v0.115 assim: "o gate é veto ou desaconselhado, e espera a Técnica Marcial ou fecha antes". A medição desmontou as duas metades.* **A regra está no §5, em *O contrato de moeda*; o argumento está logo abaixo.**
 
 ### Por que o gate não era gate — v0.116

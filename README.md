@@ -2,7 +2,7 @@
 
 **O sistema se chama `Projeto - M`**, batizado na v0.94 — era a pendência mais velha que existia aqui, aberta na v0.1. Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.167** · manual do Fundamento na **v7.17** · **vinte e quatro peças de regra** e **vinte e quatro validadores passando** · o Manual da Guilda em **17 capítulos**.
+**Versão v0.168** · manual do Fundamento na **v7.17** · **vinte e cinco peças de regra** e **vinte e cinco validadores passando** · o Manual da Guilda em **17 capítulos**.
 
 ---
 
@@ -61,7 +61,7 @@ Depois disso, a ordem de leitura é a da próxima seção, e os validadores são
     ├── 00-fundacao/                     os três pilares e as restrições do projeto
     ├── 01-pesquisa/                     dossiê de metodologia — a seção 8 lista as dez travas
     ├── 02-esqueleto/                    arquitetura: subsistemas e como se encaixam
-    ├── 03-mecanica/                     as vinte e quatro peças de regra e os vinte e quatro validadores
+    ├── 03-mecanica/                     as vinte e cinco peças de regra e os vinte e cinco validadores
     ├── 04-playtest/                     vazia. Zero sessões desde a v0.1
     ├── 05-material/                     a ficha (e o gerador dela) e o livro/, o Manual da Guilda completo
     ├── 99-arquivo/                      material morto, com LEIA-ME próprio
@@ -294,7 +294,9 @@ Isto não é preferência de estilo: é o que evitou os erros que estão registr
 
 ## O que existe, e o que não existe
 
-**Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas**, por **oito das nove rotas de Origem** — e sem nenhum buraco de regra que morda nessa faixa. *Eram seis até a v0.122, quando a peça 20 destravou o Corpo Amaldiçoado e o ramo sem energia da Restrição Celestial.* **A nona é `Sem Técnica`, e ela tem criação própria — decisão do Mizuki.**
+**Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas, pelas nove rotas de Origem** — e sem nenhum buraco de regra que morda nessa faixa.
+
+> *Eram seis até a v0.122, quando a peça 20 destravou o Corpo Amaldiçoado e o ramo sem energia da Restrição Celestial, e oito de lá até a v0.168.* **A nona tinha criação própria por decisão do Mizuki, e ela é a peça 25** — a rota de quem tem energia amaldiçoada e não tem técnica inata.
 
 **O que não existe, e faz falta: o playtest.** `04-playtest/` continua vazia — **zero sessões desde a v0.1, e todo número do sistema é previsão.**
 

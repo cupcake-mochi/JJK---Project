@@ -304,6 +304,17 @@ RX_SEM_NUMERO = re.compile(r'(gastando|gasta|custa|custam)\s+PE\b(?![^.]{0,40}\d
                            re.IGNORECASE)
 # negacao nao e preco: "ela NAO gasta PE" esta dizendo que e de graca
 RX_NEGADO = re.compile(r'\b(nao|não|sem)\b[^.]{0,25}$', re.IGNORECASE)
+# CARACTERIZACAO nao e preco, e este e o terceiro falso positivo desta checagem
+# — os dois primeiros estao logo abaixo. Uma frase da forma "uma acao QUE gasta
+# PE ... E' o Fundamento" nao cobra de coisa nenhuma: o sujeito e' indefinido, e
+# o que a frase afirma nao e' o custo, e' a identidade que vem depois. Preco de
+# verdade se pendura em coisa NOMEADA — "a `Redoma` gasta PE" ainda acende.
+# A peca 25 §7 usa essa forma para DERIVAR que a maquina tem de gastar PE, e
+# esta checagem estava lendo o argumento como se fosse a linha de regra: e' a
+# mesma familia da licao no 1 da v0.168, extrator lendo prosa onde ha regra.
+RX_CARACTERIZA = re.compile(
+    r'\b(uma?|toda?s?|todos?|qualquer)\b[^.]{0,80}\bque\b[^.]{0,80}$', re.IGNORECASE)
+RX_IDENTIDADE = re.compile(r'\b[Éé]\b')
 
 # entradas ainda nao escritas declaram o que VAO cobrar, e isso e legitimo.
 # Elas saem da checagem enquanto estiverem na lista das que faltam.
@@ -322,6 +333,16 @@ for f in sorted(os.listdir(AQUI)):
         # escrever como ele era. Se o trecho esta entre aspas, ele esta sendo
         # mencionado e nao aplicado. Foi o segundo falso positivo desta checagem.
         if txt[max(0, m.start() - 1):m.start()] == '"' and txt[m.end():m.end() + 1] == '"':
+            continue
+        # a frase em volta do match, cortada no ponto e na quebra de linha
+        frase_ini = max(txt.rfind('.', 0, m.start()), txt.rfind('\n', 0, m.start())) + 1
+        # o predicado tem de ser o IMEDIATO — corta na virgula tambem. Sem isso
+        # qualquer "..., e e' por isso que..." adiante na frase satisfazia a
+        # guarda, e ai ela nao separava nada: `e'` esta em toda frase daqui.
+        resto = txt[m.end():]
+        _fim = re.search(r'[.,\n]', resto)
+        if RX_CARACTERIZA.search(txt[frase_ini:m.start()]) and \
+                RX_IDENTIDADE.search(resto[:_fim.start()] if _fim else resto):
             continue
         linha_ini = txt.rfind('\n', 0, m.start()) + 1
         linha = txt[linha_ini:txt.find('\n', m.end())]

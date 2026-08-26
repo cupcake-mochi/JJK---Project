@@ -1,8 +1,30 @@
 # Estado atual do projeto
 
-Atualizado em 26/08/2026, na v0.167 (última peça fechada: **Dano de alma e Integridade**, a peça 24, na v0.145, com o `conferir-alma.py` e doze checagens; antes dela, **Bloquear, na v0.143**; antes dela, o **Objeto amaldiçoado, na v0.132**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 26/08/2026, na v0.168 (última peça fechada: **Sem Técnica**, a peça 25, na v0.168, com o `conferir-sem-tecnica.py` e doze checagens; antes dela, **Dano de alma e Integridade, na v0.145**; antes dela, o **Bloquear, na v0.143**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.167.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e quatro peças escritas** e **vinte e quatro validadores**.
+**Versão v0.168.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e cinco peças escritas** e **vinte e cinco validadores**.
+
+***A v0.168 fechou `Sem Técnica`, e com ela a nona rota de Origem.*** *A peça 25 estava na fila desde a v0.122 — quarenta e seis versões —, e o que ela precisava não era um sistema paralelo: era o Fundamento com uma aptidão aberta por baixo.*
+
+> **A máquina é o Fundamento inteiro, no molde da peça 20, e ela não inventa um número.** *Dois renomes — o `feitiço` é o **`Manejo`**, a Técnica Máxima é o **`Auge`** — e uma subtração: **a Expansão de Domínio não existe nesta rota**.* **A `Liberação Máxima` fica**, porque o argumento da peça 20 era *"esta rota não tem técnica inata"* e esta escreve Fundamento: ela tem técnica, só não tem técnica **inata**.
+>
+> **A semente é o coração da peça: toda ficha começa com uma aptidão aberta, sem gate, sem gastar marco, e ela é o assunto do seu Fundamento.** *Três portas — `Domínio Simples` (a Nova Sombra), `Energia Reversa` (a rota da Shoko) e uma `Aptidão Própria`.*
+>
+> **⚠ E a banda `Classe Passiva 2 e 3` é DERIVADA, e não teto escolhido.** *A escada de gate da peça 11 §5 produz sozinha quanto cada altura antecipa: `4,0` níveis na `CP 1`, `9,3` na `2`, `17,3` na `3`.* **`CP 2` e `3` dão espalhamento `1,86×` e passam; com a `CP 1` junto dá `4,33×` e reprova**, contra o filtro de `3,00×`. *A escada de gate **é** a escada de Classe Passiva, então o corte cai de graça.*
+>
+> **O §7 é o que prova que a máquina não podia ser outra coisa.** *Sem máquina a rota vive entre `17,7%` e `51,6%` da Rotina, e o vão do dia é `4,06` fatia no Bastião, `5,67` na Vanguarda e `6,43` no Emanador.* **O vão cresce com o PE do Caminho — logo, derivado: ela TEM de gastar PE, senão não é neutra entre os cinco.**
+>
+> **Quem tem a semente `Energia Reversa` soma `1/3 do refino` na cura.** *`0,30` fatia, que é `0,50×` o `Pulso`; o `+ refino` cheio foi medido e recusado em `0,98`, `1,67×`.* **Curar OS OUTROS continua fora da criação**, na Trilha `Sutura`, no nível 11 dela.
+>
+> ***⚠⚠ E três coisas mudaram de RESPOSTA, não de redação.*** **O `Inédito` parou de quebrar** — a peça 13 marcava desde a v0.39 que ele pressupõe técnica própria e precisava de uma linha fechando ele para esta rota; como a rota escreve Fundamento, ele funciona nela, e funciona melhor do que em quase todo mundo. **O aviso de `Sem Técnica com o Emanador` perdeu o assunto**, porque `Manejo` é feitiço e os oito degraus daquele Caminho alcançam ela. **E o ponteiro do `Inédito` nunca pousou:** a checagem 8 do `conferir-legados.py` confere as cinco Origens elegíveis, e nunca existiu checagem em cima daquela entrada — a frase que prometia uma atravessou cento e vinte e nove versões.
+>
+> **O primeiro contrato do projeto venceu, e a resposta foi não.** *A peça 22 §3.5 escreveu na v0.134 que "quando o `Estilo da Sombra` for escrito, um estilo dele cabe no teto de um pacto".* **Trinta e quatro versões depois: o menor `Manejo` vale `2,56` fatias contra um teto de `0,50` — `5,1×`, e `37,0×` no Classe 7.** *Pela cláusula de escape do próprio contrato, **pacto não concede `Manejo`** — e a linha `um estilo` do §3.3 dissolveu dentro da linha `um espaço de feitiço`, que já tinha resposta.*
+>
+> **⚠⚠ E DOIS validadores estavam lendo prosa como se fosse regra, os dois pela quarta vez desta família.** *A checagem 8 do `conferir-repositorio.py` joga fora as palavras vazias ao montar o slug, e `sem` é uma delas — o slug de `25-sem-tecnica.md` desabava para `{tecnica}`, então a peça 1, cujo item discute a Constituição, saía acusada de esperar a peça 25.* **A 10.6, no mesmo arquivo, já declarava esse defeito para título de uma palavra só** — lá a saída foi descartar o título curto, aqui foi parar de encurtar o nome. *E a segunda acusação era a peça 25 se acusando: a tabela de uma seção `destrava` é registro de entrega, e a peça 20 e a 16 escapavam só porque escrevem `Origem` no singular.*
+>
+> **A checagem 5 do `conferir-orcamento.py` lia caracterização como preço** — *"uma ação que **gasta PE** na taxa cheia É o Fundamento"* não cobra de coisa nenhuma. **É o terceiro falso positivo documentado dela, e os três são o mesmo defeito de recorte.** *A guarda nasceu frouxa e o arnês pegou: ela procurava o verbo de identidade em qualquer ponto da frase, e `é` está em toda frase daqui.*
+>
+> **Arnês: nove casos na checagem 8 e seis na 5, zero divergências, com contra-teste verde nas duas.** *O que fecha a 8 é tirar a peça 25 da pasta e as três linhas voltarem a ser pendência legítima; o que fecha a 5 é a mesma forma de frase em outra peça sair calada.*
 
 ***A v0.167 tirou duas cegueiras da triagem de nomes, e as duas já tinham custado nome.*** *Apareceu indo batizar a entrada da lista de `Sem Técnica`: a ferramenta que existe para isso estava mentindo.*
 
@@ -794,6 +816,8 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/24-dano-de-alma.md` | **a máquina de alma inteira**: a Integridade com Essência dentro, os quatro estágios, o acoplamento com a vida, a exceção que atravessa o corpo, e o Teste de Resistência de Espírito que a v0.7 decidiu e ninguém aplicou |
 | `03-mecanica/conferir-alma.py` | as **doze** checagens da peça 24. *A 12 entrou na v0.159 e lê o manual: a caixa de `Integridade` tem de nomear os dois lados, e a seção `Inimigos` tem de mandar anotar a barra.* *A 1 reconstrói a curva a partir de **três** donos independentes — a peça 24, o teto de atributo da peça 2 e a curva original lida do manual — e a 4 é a única do projeto que mede **consequência**: se o estágio 4 sumir da campanha, nenhuma outra checagem acusaria* |
 | `03-mecanica/conferir-bloquear.py` | as **oito** checagens da peça 23. *A 8 entrou na v0.159 e mede a Reação do inimigo como **relação** contra a peça 3 §3, com o `0,16` disparo por combate recalculado da enumeração.* **A checagem 1 é a única do projeto que existe para sustentar um número de OUTRA peça:** ela recalcula a neutralidade por enumeração das `2.000` combinações, e é dela que o preço do `Incapacitado` na peça 19 depende — `4,95` desde a v0.151 |
+| `03-mecanica/25-sem-tecnica.md` | **a rota de criação de quem tem energia e não tem técnica inata**: a semente — uma aptidão aberta na criação, em `Classe Passiva 2` ou `3` —, as três portas, os renomes `Manejo` e `Auge`, o buff de `1/3 do refino` na cura da rota da Shoko, e por que a Expansão de Domínio não existe aqui |
+| `03-mecanica/conferir-sem-tecnica.py` | as **doze** checagens da peça 25, e nenhum valor de regra mora dentro dela. *A 5 é a que decide a peça: ela não guarda os `9,3` nem os `17,3` — lê a escada de gate da peça 11 §5, simula as três rotas de marco e recalcula a antecipação de cada altura, então mexer na escada de forma coerente move a banda junto e sai verde de propósito* |
 | `05-material/gerador-ficha/` | o gerador da ficha (Node: `node make.js`), e os dois `.docx` que ele produz |
 | `conferir-repositorio.py` | a árvore, as referências mortas, os números que moram em mais de um documento, os **ponteiros de seção** — todo `peça N §M` citado tem de apontar para seção que existe, desde a v0.54 —, o **mapa** desta tabela contra a pasta, a **entrega** contra a fonte, a **pendência morta** desde a v0.100 — nenhum item de "Em aberto" pode pedir coisa que já existe —, e, **desde a v0.102**, a **contagem de checagens de cada validador, lida do código** |
 | `99-arquivo/` | material morto, com LEIA-ME próprio. Não leia de lá para escrever peça nova |
@@ -970,24 +994,26 @@ O d10 fica grande de propósito: a ameaça é calibrada contra o nível do grupo
 >
 > *Decidido com o Mizuki na v0.38 e **aplicado na peça 9 na v0.39**, junto com as outras mudanças que a peça 13 devia àquela peça.* A entrada de Corpo Amaldiçoado hoje diz *"você tem energia amaldiçoada: cadáver de mutação abrupta produz a própria, uns três meses depois de acordar"*, com PE, aptidões e refino normais e Técnica Marcial no lugar do Fundamento. Andar em parede e em água, deslocar-se no ar, *fast steps* — o físico no lugar do energético. Os dois nomes passaram pela triagem e estão livres nas duas direções.
 
-Isso é a camada de aptidão da **Técnica Marcial**, que o material já descreve como *"paga com o corpo e com ferramenta amaldiçoada"* — e é o que destrava duas das três rotas de Origem que não rodam hoje.
+Isso é a camada de aptidão da **Técnica Marcial**, que o material já descreve como *"paga com o corpo e com ferramenta amaldiçoada"* — e foi o que destravou duas das três rotas de Origem que não rodavam até a v0.122. *A terceira era `Sem Técnica`, e ela fechou na v0.168.*
 
-### Sem Técnica precisa de máquina de criação própria, e ela é menor do que o esqueleto supôs
+### Sem Técnica precisava de máquina de criação própria — e a máquina acabou não sendo própria
 
-*Decidido na v0.38, e os dois lados vieram de levantamento.*
+*Decidido na v0.38, e os dois lados vieram de levantamento. **Fechado na v0.168, na peça 25.***
 
-**O `arquitetura.md` diz que Sem Técnica precisa de "um sistema próprio, paralelo ao Fundamento". Pelo material, precisa de menos do que isso — e por outro motivo, de mais.**
+**O `arquitetura.md` diz que Sem Técnica precisa de "um sistema próprio, paralelo ao Fundamento". Pelo material, precisava de menos do que isso — e por outro motivo, de mais.**
 
-| rota | o que ela é, no material |
+| rota, na leitura da v0.38 | o que ela virou na v0.168 |
 |---|---|
-| **Aptidão** | **Energia Reversa não é técnica inata** — é manipulação de energia amaldiçoada, e é por isso que quem não tem técnica consegue usar. O raro nela é curar **os outros** |
-| **Estilo da Sombra** | **anti-domínio**, e a espada é o jeito mais comum, não o requisito. A técnica central foi aprendida em um mês por quem não usa espada, e o líder atual da escola derrubou as restrições dela |
+| **Aptidão** | **Energia Reversa não é técnica inata** — é manipulação de energia amaldiçoada, e é por isso que quem não tem técnica consegue usar. *Virou a semente `Energia Reversa`; o raro nela — curar **os outros** — ficou fora da criação, na Trilha `Sutura`* |
+| **Estilo da Sombra** | **anti-domínio**, e a arma é o jeito mais comum, não o requisito. A técnica central foi aprendida em um mês por quem não usa espada, e o líder atual da escola derrubou as restrições dela. *Virou a semente `Domínio Simples`* |
 
-**Metade já existe:** as quatro anti-domínio entraram na v0.29 e a **seção 6.5 da peça 11** já trata o Domínio Simples como aptidão pura, sem lâmina. **E a `Energia Reversa` saiu da lista de pendentes na v0.78** — ela está escrita na seção 6 daquela peça, com gate e teto.
+**Metade já existia:** as quatro anti-domínio entraram na v0.29 e a **seção 6.5 da peça 11** já trata o Domínio Simples como aptidão pura, sem lâmina. **E a `Energia Reversa` saiu da lista de pendentes na v0.78** — ela está escrita na seção 6 daquela peça, com gate e teto.
 
-> **Mas a rota não pode ser "os outros menos o Fundamento".** Se for só subtração, ela fica atrás de todo mundo e ninguém escolhe por vontade — escolhe por castigo. **Ela precisa de uma máquina de construção com a mesma dignidade que o Fundamento tem:** quantas aptidões, com que orçamento, e o que se paga por elas.
+> **A rota não podia ser "os outros menos o Fundamento".** Se fosse só subtração, ela ficaria atrás de todo mundo e ninguém escolheria por vontade — escolheria por castigo. **Ela precisava de uma máquina de construção com a mesma dignidade que o Fundamento tem.**
+>
+> ***E a saída foi que a dignidade não precisava ser imitada: ela podia ser a mesma.*** *O §7 da peça 25 mede o vão da rota sem máquina — `4,06` a `6,43` fatias, conforme o PE do Caminho — e mostra que fechar aquilo pede uma ação que escala com a Classe e cobra a taxa cheia de PE.* **Isso já tem nome, e é o Fundamento.** *O que sobra de trabalho novo é uma aptidão aberta na criação, e ela não custa número: custa a Expansão de Domínio.*
 
-*A prosa da peça 9 chama o Estilo da Sombra de "técnica de espada e corpo", e isso ficou mais estreito que a própria mecânica do projeto. Corrigir quando a peça sair.*
+~~*A prosa da peça 9 chama o Estilo da Sombra de "técnica de espada e corpo", e isso ficou mais estreito que a própria mecânica do projeto. Corrigir quando a peça sair.*~~ **Corrigido na v0.168, nos quatro lugares** — a peça 9, a peça 13 e o capítulo 25 do livro em dois pontos.
 
 ### A Expansão de Domínio, escrita — manual v7.7
 
@@ -1211,7 +1237,7 @@ Quatro peças, e a ordem é de **dependência**, não de tamanho. A ordem que el
 >
 > ***As três entraram na v0.164***, depois de trinta e duas versões paradas. *Elas fecham as quinze Trilhas e tiram o Evocador de ser o único Caminho sem Trilha com número.* **O total da peça 17 foi de `90` para `102`, e a checagem 1 do `conferir-catalogo.py` acusou no mesmo commit — que é para o que ela existe.**
 >
-> **A fila da mecânica ficou SEM ITEM.** *O que sobra são as duas peças que este arquivo já nomeia em outras seções: o `Bestiário` — os nove números com quatro donos que montar um inimigo pede — e a criação própria de `Sem Técnica`, a nona rota de Origem.*
+> **A fila da mecânica ficou SEM ITEM.** *O que sobrava eram duas peças que este arquivo já nomeava em outras seções: a criação própria de `Sem Técnica` e o `Bestiário`.* **A primeira fechou na v0.168 e é a peça 25.** *Sobra o `Bestiário` — os nove números com quatro donos que montar um inimigo pede —, e a decisão da v0.161 sobre ele continua de pé: é máquina mais maldições prontas, e não recolhimento puro.*
 
 > **As posições 2 e 3 ganharam rascunho na v0.54**, e os dois têm o mesmo formato do de Invocações — perguntas em ordem de dependência, com o que a conta já fecha separado do que é sabor.
 >

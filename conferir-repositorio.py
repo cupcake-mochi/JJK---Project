@@ -1055,6 +1055,7 @@ else:
 #   - linha comecando com `>`   : a v0.81 declarou `>` como historia
 #   - linha que diz "fechad/fechou/resolvid" e nao diz "falta": ela se declara
 #   - dentro de secao de FILA   : so linha de tabela; o resto e' argumento
+#   - dentro de secao de DESTRAVA: so linha de lista; a tabela ali e' entrega
 print()
 bloco('8. PENDENCIA MORTA — item de "Em aberto" apontando para coisa que existe')
 
@@ -1075,9 +1076,35 @@ def _pal(t):
     return {w for w in t.split() if w and w not in _STOP and len(w) > 1}
 
 
+def _pal_nome(t):
+    """As palavras de um NOME PROPRIO — e para nome a lista de vazias nao vale.
+
+    `sem-tecnica` passava por _pal e saia {tecnica}: a metade que IDENTIFICA a
+    peca e' justamente o `sem`, e a lista de vazias joga ele fora. Um slug de
+    uma palavra so', e ainda por cima uma das mais comuns do projeto, casa com
+    qualquer linha de pendencia que fale de tecnica — foi assim que a peca 1,
+    cujo item discute a Constituicao, saiu acusada de esperar a peca 25.
+
+    E' o mesmo defeito que a 10.6 ja declara com todas as letras para titulo de
+    uma palavra so'. La a saida foi descartar o titulo curto; aqui nao da,
+    porque descartar apagaria a deteccao de sete pecas de nome curto. A saida e'
+    parar de encurtar o nome: os dois lados da comparacao guardam as vazias, e
+    `sem tecnica` volta a exigir as duas palavras.
+    """
+    t = re.sub(r'[^a-z0-9 ]', ' ', re.sub(r'[`*_~\[\]()#|>]', ' ', _sa(t)))
+    return {w for w in t.split() if w and len(w) > 1}
+
+
 _CAB_PEND = re.compile(r'em aberto|o que fica para|destrava|o que nao existe|'
                        r'a fila|o que falta\b')
 _SO_TABELA = re.compile(r'a fila')
+# O espelho do _SO_TABELA. Uma secao "o que ela destrava" e' REGISTRO DE
+# ENTREGA: a tabela dela diz o que a peca ja abriu, e o que continua faltando
+# vem depois dela, na lista de "Em aberto:". Ler aquela tabela como pendencia
+# fazia a peca 25 acusar a si mesma, pela linha que anuncia as cinco Origens —
+# e a peca 20 e a 16, que tem a MESMA seccao, escapavam so' porque escrevem
+# `Origem` no singular. Sorte de grafia nao e' escopo.
+_SO_ITEM = re.compile(r'destrava')
 _ITEM = re.compile(r'^\s{0,3}(?:[-*]|\d+\.)\s+\S')
 _FECHADO = re.compile(r'fechad|fechou|fecharam|resolvid|respondid|escrito na v|corrigid')
 _FALTA = re.compile(r'\bfalta\b|nao existe|precisa ter|precisa de|que sai junto|'
@@ -1100,7 +1127,7 @@ def _secoes_pendencia(txt):
     return out
 
 
-def _linhas_vivas(linhas, solto, so_tabela):
+def _linhas_vivas(linhas, solto, so_tabela, so_item=False):
     morto, saida = False, []
     for l in linhas:
         if _ITEM.match(l):
@@ -1119,6 +1146,8 @@ def _linhas_vivas(linhas, solto, so_tabela):
         if tab and _FECHADO.search(_sl) and not _FALTA.search(_sl):
             continue
         if so_tabela and not tab:
+            continue
+        if so_item and tab:
             continue
         if solto:
             if l.strip() and not l.startswith('#'):
@@ -1144,7 +1173,7 @@ def _assunto(l, solto=False):
 _MEC8 = os.path.join(RAIZ, 'sistema', '03-mecanica')
 _P8 = sorted(f for f in os.listdir(_MEC8) if re.match(r'^\d\d-.*\.md$', f))
 _V8 = sorted(f for f in os.listdir(_MEC8) if re.match(r'^conferir-.*\.py$', f))
-_SLUG8 = {f: _pal(f[3:-3].replace('-', ' ')) for f in _P8}
+_SLUG8 = {f: _pal_nome(f[3:-3].replace('-', ' ')) for f in _P8}
 _TOPICO8 = {v: _sa(v[len('conferir-'):-3]) for v in _V8}
 
 
@@ -1179,11 +1208,13 @@ for _rel8, _peca8 in _ALVOS8:
     for _tit8, _lins8 in _secs8:
         _n_sec += 1
         _solto8 = 'o que nao existe' in _sa(_tit8)
-        for _l8 in _linhas_vivas(_lins8, _solto8, bool(_SO_TABELA.search(_sa(_tit8)))):
+        for _l8 in _linhas_vivas(_lins8, _solto8,
+                                 bool(_SO_TABELA.search(_sa(_tit8))),
+                                 bool(_SO_ITEM.search(_sa(_tit8)))):
             _n_vivas += 1
             _sl8 = _sa(_l8)
             _suj8 = _assunto(_l8, _solto8)
-            _w8 = _pal(_suj8)
+            _w8 = _pal_nome(_suj8)
             _corte = _l8.strip()[:70]
             # 8a — o item pede validador, e o validador existe
             if 'validador' in _sl8 and _FALTA.search(_sl8):
@@ -1207,7 +1238,7 @@ for _rel8, _peca8 in _ALVOS8:
                     break
             # 8d — o item espera uma peca que ja existe
             for _esp8 in re.findall(r'espera[m]?\s+([^,;.|)]+)', _sl8):
-                _we8 = _pal(_esp8)
+                _we8 = _pal_nome(_esp8)
                 for _pf8, _pw8 in _SLUG8.items():
                     if _pf8 != _peca8 and _pw8 and _pw8 <= _we8:
                         _mortas.append((_rel8, '8d', f'a {_pf8} existe', _corte))

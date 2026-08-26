@@ -9,7 +9,7 @@ Sistema de RPG de mesa em desenvolvimento, ambientado no universo de Jujutsu Kai
 | `00-fundacao/` | Pitch de design e decisões que valem para o projeto inteiro |
 | `01-pesquisa/` | Dossiê de metodologia, referências e análise do espaço de design |
 | `02-esqueleto/` | Arquitetura do sistema: subsistemas, como se conectam, o que cada um resolve |
-| `03-mecanica/` | As peças de regra, numeradas na ordem em que foram escritas, e os vinte e quatro validadores |
+| `03-mecanica/` | As peças de regra, numeradas na ordem em que foram escritas, e os vinte e cinco validadores |
 | `04-playtest/` | Roteiro de teste, formulários e retorno organizado por tema |
 | `05-material/` | A **ficha de personagem** (e o gerador dela) e o **livro/**, o Manual da Guilda completo |
 | `99-arquivo/` | **Material morto.** Nada aqui é regra corrente — ver o `LEIA-ME.md` de lá |
@@ -42,9 +42,9 @@ A pasta `skills/` guarda o `SKILL.md` de cada uma mais os arquivos de apoio. ~~*
 
 ## Versão atual
 
-**v0.167.** Fases 0 a 3 fechadas; a Fase 4 (mecânica) está em andamento com **vinte e quatro peças escritas e vinte e quatro validadores passando**. O manual do Fundamento está na **v7.17**, e ele é um subsistema fechado — a técnica e o feitiço já funcionam. O `.pdf` **está na mesma versão do `.docx`** desde a v0.93 — ele deixou de ser exportado a mão.
+**v0.168.** Fases 0 a 3 fechadas; a Fase 4 (mecânica) está em andamento com **vinte e cinco peças escritas e vinte e cinco validadores passando**. O manual do Fundamento está na **v7.17**, e ele é um subsistema fechado — a técnica e o feitiço já funcionam. O `.pdf` **está na mesma versão do `.docx`** desde a v0.93 — ele deixou de ser exportado a mão.
 
-**Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas**, por seis das nove rotas de Origem. Desde a v0.32 não sobrou peça de regra travando ninguém nessa faixa: das dezessete coisas que uma ficha de nível 2 precisa, **treze existem, e as quatro que faltam não mordem nessa faixa**. O que falta para as outras três rotas, e a ordem do resto, está no `ESTADO-ATUAL.md`.
+**Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas, pelas nove rotas de Origem.** *Eram seis até a v0.122, oito de lá até a v0.168, e a nona é a peça 25.* Desde a v0.32 não sobrou peça de regra travando ninguém nessa faixa: das dezessete coisas que uma ficha de nível 2 precisa, **treze existem, e as quatro que faltam não mordem nessa faixa**. A ordem do resto está no `ESTADO-ATUAL.md`.
 
 O que falta hoje não é regra, é **material**. A **ficha de personagem** saiu na v0.35 e está em `05-material/`, com o gerador dela. **O quick-start foi abandonado na v0.102**, por decisão do Mizuki — o texto de mesa iria direto para o PDF — **e o PDF saiu na v0.106**: `05-material/livro/`, 230 páginas, quick-start escrito direto nele. E `04-playtest/` continua vazia — **zero sessões desde a v0.1**.
 

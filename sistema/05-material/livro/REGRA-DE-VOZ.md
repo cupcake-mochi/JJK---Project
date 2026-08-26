@@ -112,7 +112,9 @@ palavras.* **As catorze condições deste livro foram reescritas nessa forma na 
 
 *Escrito na v0.144, e ele nasceu de uma contagem que deu errado cinco vezes seguidas.* **O prompt de retomada dizia quatro, o CHANGELOG da v0.136 dizia cinco, a varredura à mão de uma versão disse oito, e o regex acha sete.** *Toda contagem desta família até hoje deu um número diferente, e nenhuma delas tinha validador.*
 
-> **O livro carrega `4` marcas de regra que ainda não existe.** *Esse número é o dono, e o `conferir-voz.py` recontá e falha se ele subir.*
+> **O livro carrega `3` marcas de regra que ainda não existe.** *Esse número é o dono, e o `conferir-voz.py` recontá e falha se ele subir.*
+
+> **Eram `4` até a v0.168**, quando a marca do capítulo 25 fechou — *"Sem Técnica não fecha ficha hoje, e ela está sendo escrita"*. **Ela era a mais velha das quatro e a única que anunciava uma rota de Origem inteira parada:** *a peça 25 fechou naquela versão, e o capítulo passou a publicar a semente e a máquina no lugar do aviso.* *O capítulo de mesa que a rota merece continua vindo depois — o que saiu daqui foi a marca, não a dívida de texto.*
 
 > **Eram `6` até a v0.164**, quando as duas do Evocador fecharam de uma vez — *a do capítulo 20, na criação, e a do capítulo 35, nas Trilhas.* **As duas mandavam combinar com o mestre o que ocupava as casas de nível das três Trilhas dele, e as doze entregas foram escritas.**
 

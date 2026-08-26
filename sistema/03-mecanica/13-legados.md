@@ -1026,13 +1026,23 @@ O que sobrou dele virou duas coisas que **não** são técnica: o `Nunca Estive 
 
 **Dominância: nenhuma, dentro de cada ramo.** E **entre ramos ela não se aplica** — ninguém escolhe entre os dois lados, o ramo já veio da criação.
 
-### Sem Técnica — a sub-origem, e a única entrada que mora fora de uma lista
+### Sem Técnica — a sub-origem, e a única entrada que abre uma rota inteira
 
-**Sem Técnica não é Legado de catálogo, e não pode ser.** Ela tem construção própria em cima — rota de criação, economia de poder, duas peças que ainda não existem —, e enfiar isso numa linha de lista seria fingir que cabe. **Mas ela também não pode ficar invisível na camada onde o jogador escolhe quem é.**
+**Sem Técnica não é Legado de catálogo, e não pode ser.** Ela tem construção própria em cima — quantas aptidões, com que orçamento, e o que se paga por elas —, e enfiar isso numa linha de lista seria fingir que cabe. **Mas ela também não pode ficar invisível na camada onde o jogador escolhe quem é.**
 
-> **Então ela entra como uma entrada de Destranca que aponta para fora:** ela está disponível nas cinco Origens que aceitam a sub-origem, e o corpo dela é um ponteiro.
+> **Da v0.39 à v0.167 o corpo dela era um ponteiro, e ele apontava para fora porque não havia para onde apontar.** *A peça 25 fechou na v0.168.* **Hoje o corpo dela é a escolha da semente**, e o ponteiro vira o que ele sempre deveria ter sido: a máquina mora lá, a escolha mora aqui.
 
-> **Sem Técnica** — você tem energia amaldiçoada e **a técnica não veio junto**. Não é defeito e não é falta: é outro caminho, e ele tem seção própria. **Escolhendo esta linha, o seu poder não sai do Fundamento** — sai de aptidão ou de escola de espada, e é lá que você monta o personagem.
+**A semente — escolha uma destas, obrigatoriamente, e escolher esta linha é escolher ela junto.** *As três são **de identidade**, no molde das quatro configurações do Corpo Amaldiçoado: elas dizem de que matéria a sua técnica é feita, e param aí. Nenhuma tem relógio, e nenhuma pede tarefa.*
+
+| a semente | Classe Passiva | o que ela desenha |
+|---|---|---|
+| **`Domínio Simples`** | 2 | a Nova Sombra — você fecha um pedaço de chão, e o que entra ali é problema seu |
+| **`Energia Reversa`** | 3 | a rota da Shoko — você reverte o que já quebrou, e não conserta o que está inteiro |
+| **`Aptidão Própria`** | 1 ou 2 | a que você escreve, e quem trava a altura dela é a peça 11 §6.7 |
+
+> **Sem Técnica** — você tem energia amaldiçoada e **a técnica não veio junto**. Não é defeito e não é falta: você montou a sua em cima de uma coisa que qualquer feiticeiro pode aprender, e levou mais longe do que ninguém levou. **A semente vem aberta, sem os gates de nível e de refino**, e ela é o assunto do seu Fundamento. *Não gasta marco, conta como a primeira da sua lista de aptidões, e é escolhida uma vez só — como o Caminho e a Trilha.*
+
+**A máquina é a peça 25, e ela não inventa número: é o Fundamento inteiro.** *Mesma Classe, mesmos pontos, mesmo custo em PE.* **O que troca de nome é o `feitiço`, que aqui é `Manejo`, e a `Técnica Máxima`, que é o `Auge`** — a `Liberação Máxima` fica, e o §3.1 de lá escreve por quê. *A Expansão de Domínio não existe nesta rota, e é a semente vir aberta que paga por ela.*
 
 **Escrita uma vez, e as cinco listas apontam para cá.** Cinco cópias do mesmo texto em cinco Origens é a lição nº 9 acontecendo dentro de um catálogo — e é o defeito que este projeto mais paga para evitar. **Um texto, um dono.**
 
@@ -1042,36 +1052,38 @@ O que sobrou dele virou duas coisas que **não** são técnica: o `Nunca Estive 
 
 #### O que a pesquisa mudou sobre o tamanho desta rota
 
-*O `arquitetura.md` avisa que Sem Técnica precisa de "um sistema próprio, paralelo ao Fundamento". Pelo material, precisa de menos.*
+*O `arquitetura.md` avisa que Sem Técnica precisa de "um sistema próprio, paralelo ao Fundamento". Pelo material, precisa de menos — e a peça 25 provou que precisa de **nada**: a máquina dela é o Fundamento sem uma linha nova.*
 
-| rota | o que ela é, de verdade |
+| rota, na leitura da v0.39 | o que ela virou na v0.168 |
 |---|---|
-| **Aptidão** | **Energia Reversa não é técnica inata** — é manipulação de energia amaldiçoada, e é exatamente por isso que alguém sem técnica consegue usar. O que é raro nela é curar **os outros** |
-| **Estilo da Sombra** | **anti-domínio**, e a espada é o jeito mais comum de usar — não o requisito |
+| **Aptidão** | **Energia Reversa não é técnica inata** — é manipulação de energia amaldiçoada, e é exatamente por isso que alguém sem técnica consegue usar. *Virou a semente `Energia Reversa`, e o que é raro nela — curar **os outros** — ficou de fora da criação, na Trilha `Sutura`* |
+| **Estilo da Sombra** | **anti-domínio**, e a arma é o jeito mais comum de usar — não o requisito. *Virou a semente `Domínio Simples`, e a peça 25 §4.2 chama ela pelo nome da escola: a Nova Sombra* |
 
-**As duas caem na camada de aptidão e ferramenta, e metade já está construída:** as quatro anti-domínio entraram na v0.29, e a `Energia Reversa` fechou na v0.78, na peça 11 §6. **O que falta de verdade é ferramenta amaldiçoada, que é a peça 2 da fila.**
+**As duas já estavam construídas na camada de aptidão:** as quatro anti-domínio entraram na v0.29, e a `Energia Reversa` fechou na v0.78, na peça 11 §6. *O que faltava era a criação, e é ela que a peça 25 é.*
 
-> **A espada não é obrigatória, e o projeto já sabia disso antes de a prosa saber.** A peça 9 descreve o Estilo da Sombra como *"técnica de espada e corpo"*, e no material a técnica central dele **foi aprendida em um mês por alguém que não usa espada**. Mais: o exemplar canônico de grau 1 virou líder da escola e **derrubou as restrições dela**. A **seção 6.5 da peça 11 já trata o Domínio Simples como aptidão pura** — raio em volta de você, com os pés no chão, sem uma palavra sobre lâmina. *A mecânica estava certa e a prosa da peça 9 estava mais estreita que ela.*
+> **A arma não é obrigatória, e o projeto já sabia disso antes de a prosa saber.** A peça 9 descrevia o Estilo da Sombra como *"técnica de espada e corpo"*, e no material a técnica central dele **foi aprendida em um mês por alguém que não usa espada**. Mais: o exemplar canônico de grau 1 virou líder da escola e **derrubou as restrições dela**. A **seção 6.5 da peça 11 já trata o Domínio Simples como aptidão pura** — raio em volta de você, com os pés no chão, sem uma palavra sobre lâmina. *A mecânica estava certa e a prosa estava mais estreita que ela; a v0.168 tirou a espada dos quatro lugares que ainda a escreviam.*
 
-#### E a rota precisa de sistema de criação próprio
+#### E a rota precisou de sistema de criação próprio — ela tem um
 
-*Decidido com o Mizuki na v0.38.* **Sem Técnica não pode ser "os outros menos o Fundamento".** Se a rota for só subtração, ela fica atrás de todo mundo e ninguém escolhe por vontade — escolhe por castigo.
+*Decidido com o Mizuki na v0.38, e pago na v0.168.* **Sem Técnica não podia ser "os outros menos o Fundamento".** Se a rota fosse só subtração, ela ficaria atrás de todo mundo e ninguém escolheria por vontade — escolheria por castigo.
 
-> **O poder dela vem da manipulação criativa da energia amaldiçoada, montada em aptidões — e isso precisa de uma máquina de construção com a mesma dignidade que o Fundamento tem.**
+> **O poder dela vem da manipulação criativa da energia amaldiçoada, montada em aptidões — e isso precisava de uma máquina de construção com a mesma dignidade que o Fundamento tem.**
 
-Duas rotas dentro dela, e **as duas são de aptidão**: uma que vai fundo no que qualquer feiticeiro pode fazer com energia, e outra que vai fundo em anti-domínio e corpo. A peça de aptidões já carrega metade do vocabulário; o que falta é a **criação** — quantas, com que orçamento, e com o que se paga.
+**A saída foi que a dignidade não precisava ser imitada: ela podia ser a mesma.** *A peça 25 §7 mede o vão que a rota tem sem máquina — de `4,06` a `6,43` fatias, conforme o PE do Caminho — e mostra que só uma forma de ação fecha aquilo sem inventar moeda.* **Ela já tem nome, e é o Fundamento.**
 
 *Não é peça 13. Fica registrado aqui porque foi esta lista que fez a pergunta aparecer.*
 
-#### Uma entrada do catálogo quebra, e é uma só
+#### A entrada que quebrava parou de quebrar, e não foi ela que mudou
 
-De oitenta entradas, **exatamente uma** pressupõe que você tem técnica:
+*Da v0.39 até a v0.167, uma entrada do catálogo pressupunha que você tem técnica:*
 
 > **Inédito** *(Latente, Desliga)* — *"a **sua técnica** não está em registro nenhum"*.
 
-Quem não tem técnica não tem o que esconder. **Todo o resto funciona**, porque Sem Técnica tem energia amaldiçoada e tem Sentir Energia — o que falta é a técnica inata. Faro, Antena, Máscara e os outros continuam de pé.
+**A leitura antiga era que quem não tem técnica não tem o que esconder**, e o conserto marcado era uma linha no `Inédito` fechando ele para esta rota. ***A peça 25 §3.1 desmontou a premissa:*** *"aqui a rota TEM técnica — ela escreve Fundamento. O que ela não tem é técnica **inata**."*
 
-**O conserto é uma linha no Inédito** dizendo que ele não está disponível para quem é Sem Técnica, e a checagem 8 do validador confere isso.
+> **Então o `Inédito` funciona, e funciona melhor nela do que em quase todo mundo.** *Uma técnica montada em cima de uma aptidão que qualquer feiticeiro pode aprender é, por construção, uma que catálogo nenhum registrou.* **A linha que fecharia ele não vai ser escrita, e o resto do catálogo continua de pé** — Sem Técnica tem energia amaldiçoada e tem Sentir Energia, então Faro, Antena, Máscara e os outros nunca dependeram disso.
+
+> **⚠ E o ponteiro desta seção estava errado desde a v0.39.** *Ela dizia que "a checagem 8 do validador confere isso".* **A checagem 8 do `conferir-legados.py` confere outra coisa:** as cinco Origens elegíveis e a exclusão das duas especiais. *Nunca existiu checagem em cima do `Inédito`, e a frase que prometia uma atravessou cento e vinte e nove versões.*
 
 #### Duas coisas da peça 9 que precisam mudar junto
 
@@ -1142,7 +1154,7 @@ O catálogo, e as decisões de sabor que vêm com ele:
 - **Sobrou UMA vaga de Desliga.** *Eram sete.* **Ela é a do Corpo Amaldiçoado, e o que falta nela é escrita e não peça** — *a que ela aguardava fechou na v0.122 e é a peça 20.* **Alvo de `Desliga` é escopo daqui**, e a peça 20 §11 registra a vaga em vez de tentar preencher de fora. **A do Reencarnado fechou na v0.132**, com o `Conhecido`, quando objeto amaldiçoado virou a peça 21 e nomeou a atração. **As cinco destravadas foram escritas na v0.104** — três que esperavam a peça 19 e duas que esperavam a peça 16 —, e todas as cinco só couberam porque a trava do `Desliga` foi relaxada na mesma versão: *ele passou a poder apagar condição uma vez, com o relógio saindo do nível dela.* *Reclassificadas na v0.49: as quatro que diziam "equipamento" nomeavam a peça errada, e nenhuma delas abriu quando aquela peça fechou.*
 
   > **⚠ E as outras DUAS já destravaram, e ninguém voltou.** *Elas esperavam `ferramenta amaldiçoada`, que virou a peça 16 na v0.59 — a `Armaria` do Descendente e a Restrição Celestial.* **A peça 16 §9 registra que destrava as duas; esta peça continuava dizendo que elas esperam.** *Achado na v0.100, e a linha da tabela de cada uma continua dizendo `espera a peça de ferramenta amaldiçoada` — escrever as duas é trabalho, não conserto de texto.*
-- **O `Inédito` precisa da linha que o fecha para Sem Técnica** — é a única das 81 entradas que pressupõe técnica própria.
+- ~~**O `Inédito` precisa da linha que o fecha para Sem Técnica** — é a única das 81 entradas que pressupõe técnica própria.~~ **Fechado na v0.168, e pelo lado contrário.** *A peça 25 §3.1 diz que aquela rota escreve Fundamento: ela tem técnica, só não tem técnica **inata**.* **O `Inédito` funciona nela, e a linha que o fecharia não existe mais como dívida.** *O ponteiro para "a checagem 8 do validador" também caiu — ela sempre conferiu outra coisa.*
 - ~~**A peça 9 precisa de três consertos que esta peça gerou:** a frase *"Sem Técnica não dá um segundo Legado"*, o §5 que ainda diz que Corpo Amaldiçoado não tem energia, e o `Alcance Impossível`, que é técnica e sai do catálogo.~~ **Os três foram aplicados na v0.39.** *Lá a Origem Sem Técnica diz hoje que ela **não amplia a conta de Legados** — é uma entrada de `Destranca` e ocupa uma das duas vagas —, o Corpo Amaldiçoado diz que **tem energia amaldiçoada**, e o `Alcance Impossível` não aparece em nenhuma lista daquela peça.*
 - ~~**Não Sou Gente sai do dano**~~ — **resolvido na v0.38: o nome inteiro foi para a Passiva, e o Legado deixou de existir.** A seção 9.9 tem o porquê.
 - ~~**O piso do Irmãos**~~ — **resolvido na lista do Feto.** O gatilho virou *o jogador apontar alguém e dizer que é irmão*, que é o que a irmandade faz no material: ela é definida por **quem te fez**, e alcança gente que não é da mesma fabricação.

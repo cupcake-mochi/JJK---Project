@@ -8,6 +8,96 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.168] — 26/08/2026
+
+**`Sem Técnica` virou a peça 25, e a nona rota de Origem fechou.** *Ela estava na fila desde a v0.122, quando a Técnica Marcial destravou as outras duas e ficou decidido que esta tem criação própria e vem depois. "Depois" chegou quando as quinze Trilhas fecharam na v0.164 e a fila da mecânica ficou sem item.*
+
+### A máquina é o Fundamento, e ela não inventa número
+
+**Molde da peça 20.** *Pontos `3 × Classe`, o custo em PE é o mesmo número, o que sobra vira `1d8`, espaços `2 + (nível ÷ 2)` mais um por marco.* **Dois renomes e uma subtração:** o `feitiço` é o **`Manejo`**, a Técnica Máxima é o **`Auge`**, e a **Expansão de Domínio não existe nesta rota**.
+
+> **A `Liberação Máxima` NÃO renomeia, e a diferença para a peça 20 tem motivo.** *Lá o argumento era "as duas carregam **a sua técnica** no nome, e esta rota não tem técnica inata".* **Aqui a rota TEM técnica — ela escreve Fundamento. O que ela não tem é técnica *inata*** —, então "a sua técnica" é verdade e o motivo não alcança ela.
+
+**O §7 é o que prova que não podia ser outra coisa.** *Sem máquina nenhuma a rota vive entre `17,7%` e `51,6%` da Rotina, e o vão do DIA contra o feiticeiro é `4,06` fatia no Bastião, `5,67` na Vanguarda e `6,43` no Emanador.* **O vão cresce com o PE do Caminho — o que quer dizer, derivado e não escolhido: a máquina TEM de gastar PE, senão ela não é neutra entre os cinco.** *Uma ação que escala com a Classe e cobra a taxa cheia já tem nome.*
+
+### A semente, e a banda dela é DERIVADA
+
+**Toda ficha `Sem Técnica` começa com uma aptidão aberta, sem os gates.** *Ela não gasta marco e conta como a primeira.* **Três portas:** `Domínio Simples` (a Nova Sombra) · `Energia Reversa` (a rota da Shoko) · `Aptidão Própria`, que a peça 11 §6.7 já trava em `CP 1 ou 2`.
+
+| Classe Passiva | gate padrão | quantos níveis a semente adianta |
+|---|---|---|
+| 1 | sem gate | `4,0` |
+| **2** | refino 4 · nível 7 | **`9,3`** |
+| **3** | refino 7 · nível 13 | **`17,3`** |
+
+> **Banda `CP 2` e `3`: espalhamento `1,86×` — passa. Com a `CP 1` junto: `4,33×` — reprova**, contra o filtro de `3,00×`. ***A escada de gate É a escada de Classe Passiva***, então o corte é derivado e não escolhido: `"só CP 2 e 3"` é o que a escada produz quando se pergunta quais sementes passam.
+
+**Quem tem a semente `Energia Reversa` soma `1/3 do refino` em toda rolagem de cura sua** — `0,30` fatia no refino 10, que é `0,50×` o `Pulso`. *O `+ refino` cheio foi medido e recusado: `0,98` fatia, `1,67×` o `Pulso`, de graça.* **Curar OS OUTROS fica fora da criação**, na Trilha `Sutura`, nível 11 dela.
+
+### ⚠⚠ Três coisas mudaram de resposta, e nenhuma delas era "corrigir"
+
+**1 · O `Inédito` parou de quebrar, e não foi ele que mudou.** *Desde a v0.39 a peça 13 marcava que aquela entrada pressupõe técnica própria e precisava de uma linha fechando ela para esta rota.* **A rota escreve Fundamento: ela tem técnica.** *O `Inédito` funciona nela — e funciona melhor do que em quase todo mundo, porque uma técnica montada em cima de aptidão comum é, por construção, uma que catálogo nenhum registrou.* **A linha não vai ser escrita.**
+
+**2 · O aviso do Emanador perdeu o assunto.** *A peça 9 §6 marcava `Sem Técnica com o Emanador` como combinação que rende menos do que parece: os oito degraus daquele Caminho são construídos em cima de feitiço.* **`Manejo` é feitiço com outro nome, então os oito alcançam ela.**
+
+**3 · ⚠ E o ponteiro do `Inédito` nunca pousou.** *A peça 13 dizia que "a checagem 8 do validador confere isso".* **A checagem 8 do `conferir-legados.py` confere as cinco Origens elegíveis e a exclusão das duas especiais** — nunca existiu checagem em cima do `Inédito`, e a frase que prometia uma atravessou cento e vinte e nove versões.
+
+### O primeiro contrato do projeto venceu, e a resposta foi não
+
+**A peça 22 §3.5 escreveu na v0.134 um contrato em vez de um número:** *"quando o `Estilo da Sombra` for escrito, um estilo dele cabe no teto de um pacto — `0,50` fatia. Se ele custar mais, ou o estilo cobra dois pactos, ou pacto não o concede."*
+
+> **Trinta e quatro versões depois, a peça que chegou obedeceu — e derrubou as duas primeiras saídas.** *O menor `Manejo` que existe vale `2,56` fatias contra o teto de `0,50`: `5,1×`, e no Classe 7 são `37,0×`.* **E "cobra dois pactos" reprova pior:** *dois valem `1,00` e os três do teto da escala valem `1,50`, que é a camada permanente inteira.* ***Decisão: pacto não concede `Manejo`.***
+
+**E a linha `um estilo` da tabela do §3.3 DISSOLVEU** — *ela foi escrita supondo que a rota não escreveria Fundamento; escrevendo, ela cai na linha `um espaço de feitiço` logo acima, que já tinha resposta.* **Não é linha corrigida: é linha que perdeu assunto próprio.**
+
+### ⚠⚠ Dois validadores estavam lendo prosa como se fosse regra
+
+**A checagem 8 do `conferir-repositorio.py` acusava duas pendências mortas que não eram.** *O `_pal()` dela joga fora as palavras vazias, e `sem` é uma delas — então o slug de `25-sem-tecnica.md` desabava para `{tecnica}`, uma das palavras mais comuns do projeto.* **A peça 1, cujo item discute a Constituição, saiu acusada de esperar a peça 25.**
+
+> **A 10.6, no mesmo arquivo, já declara exatamente esse defeito** — *"título de uma palavra só é genérico demais: `ORIGENS` casaria com qualquer frase que fale de Origem numa linha de pendência legítima"*. **Lá a saída foi descartar o título curto; aqui não dava, porque descartar apagaria a detecção de sete peças de nome curto.** *A saída foi parar de encurtar o nome: os dois lados guardam as vazias, e `sem tecnica` volta a exigir as duas palavras.*
+
+**E a segunda acusação era a própria peça 25 se acusando.** *O cabeçalho `destrava` entra na lista de seções de pendência, e a tabela de uma seção `destrava` é REGISTRO DE ENTREGA — o que continua faltando vem depois dela, na lista de `Em aberto:`.* **A peça 20 e a 16 têm a MESMA seção e escapavam só porque escrevem `Origem` no singular.** *Sorte de grafia não é escopo.* **Hoje a tabela de `destrava` não conta, e a lista continua contando.**
+
+**A checagem 5 do `conferir-orcamento.py` lia caracterização como preço.** *Ela acusava o §7 da peça 25 — "uma ação que escala com a Classe e gasta PE na taxa cheia É o Fundamento" — como custo sem quantidade.* **Aquilo não cobra de coisa nenhuma: o sujeito é indefinido, e o que a frase afirma é a identidade que vem depois.** *É o terceiro falso positivo documentado dela, e os três são o mesmo defeito de recorte.*
+
+> **⚠ A guarda nasceu frouxa e o arnês pegou.** *Ela procurava o verbo de identidade em qualquer ponto da frase — e `é` está em toda frase daqui, inclusive num `", e é por isso que..."` adiante.* **Hoje o predicado tem de ser o IMEDIATO, cortado na vírgula.** *Com a versão frouxa, a perturbação que tirava a identidade saía verde pelo motivo errado.*
+
+### Adicionado
+
+- **`sistema/03-mecanica/25-sem-tecnica.md`** — onze seções, e dois Fundamentos de exemplo: a `Redoma` pela Nova Sombra e a `Sutura Fria` pela rota da Shoko.
+- **`sistema/03-mecanica/conferir-sem-tecnica.py`** — **doze checagens**, e nenhum valor de regra escrito dentro. *A 5 é a que decide a peça: ela não guarda os `9,3` nem os `17,3` — lê a escada de gate da peça 11 §5, simula as três rotas de marco e recalcula a antecipação de cada altura.*
+- **A tabela `Sementes` no capítulo 25 do livro**, e a seção `Criação` daquele capítulo passou a ter regra em vez de aviso.
+
+### Alterado
+
+- **As contagens vão de `vinte e quatro` para `vinte e cinco`** peças e validadores, no `README.md` (duas linhas), no `ESTADO-ATUAL.md` e no `LEIA-ME.md`, e o `PECAS_ESPERADAS` do `conferir-catalogo.py` — *que é limite de design e por isso mora no código, pela lição nº 8.*
+- **A peça 9** — o §4 ganhou a semente, a tabela do §6 foi de `8/9` para **`9/9`**, e as duas pendências do §8 fecharam.
+- **A peça 13** — a entrada `Sem Técnica` deixou de ser ponteiro e virou a escolha da semente, no formato `Destranca` **de identidade**, que é o das quatro configurações do Corpo Amaldiçoado.
+- **A dívida do `espada` saiu dos quatro lugares que ainda a escreviam** — `09-origens.md`, `13-legados.md` e o capítulo 25 do livro em dois pontos. *A escola é "estilos de luta mais técnicas anti-domínio", a técnica central dela foi aprendida em um mês por quem não usa espada, e o líder atual derrubou as restrições dela.*
+- **O livro foi de `72.222` para `72.353` palavras.** *Páginas paradas em `245` e `142`; o `guard_numeros.py` acusa `NOTAÇÃO E NÚMERO: idêntico` e as cinco diferenças de numeral por extenso são artigo, pronome e a contagem dos dois renomes.*
+- **A `REGRA-DE-VOZ.md` foi de `4` para `3` marcas**, com a do capítulo 25 fechando. *Era a mais velha das quatro e a única que anunciava uma rota de Origem inteira parada.*
+
+### Removido
+
+- **A marca `"Sem Técnica não fecha ficha hoje, e ela está sendo escrita"`** do capítulo 25.
+- **A linha `um estilo`** da tabela da peça 22 §3.3.
+
+### Decidido
+
+- **`Sem Técnica` não tem Expansão de Domínio, e a troca é declarada e não preçada.** *Uma Expansão feita de `Domínio Simples` é um domínio maior, que é a coisa que o `Domínio Simples` existe para **não** ser.* **O que ela recebe em troca é a semente vir aberta.**
+- **A `Pétala` cabe na banda e fica declarada como quarta porta não escrita.** *É sabor, e ficou para depois.* **A `Extensão de Domínio` foi recusada**, e ela caberia.
+- **`Energia Reversa` contra maldição fica para averiguar depois.** *Na obra, energia positiva fere maldição; aqui ela só cura.*
+- **As duas Origens especiais continuam não aceitando a sub-origem.** *As duas já trocam a técnica por outra coisa na própria Origem, e a rota da peça 25 troca a técnica **inata** por uma semente — empilhar as duas trocas é cobrar uma vez e pagar duas.*
+
+### Arnês
+
+- **A checagem 8: nove casos, zero divergências.** *O contra-teste tira a peça 25 da pasta e as três linhas que falam dela voltam a ser pendência legítima — a checagem sai sem achado nenhum, de propósito.* **E dois casos medem a relação nos dois sentidos:** tirar a palavra `Sem` de uma linha real apaga o achado dela, e pôr `Sem Técnica` no item da peça 1 acende ele.
+- **A checagem 5: seis casos, zero divergências.** *Um deles põe a mesma forma de frase em OUTRA peça e ela fica calada — é a forma que decide, não o arquivo.*
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **A v0.169 é o capítulo de mesa de `Sem Técnica`**, que esta versão deixou com a regra escrita e sem o texto longo que a rota merece.
+
+---
+
 ## [0.167] — 26/08/2026
 
 **A triagem de nomes era cega para duas coisas, e as duas já tinham custado nome.** *Apareceu indo batizar a entrada da lista de `Sem Técnica`: eu ia usar `Estilo`, fui conferir, e a ferramenta que existe para isso estava mentindo.*

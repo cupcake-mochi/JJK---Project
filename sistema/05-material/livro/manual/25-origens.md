@@ -389,29 +389,44 @@ Fundamento, do jeito padrão.
 
 **Sem Técnica se soma a uma das cinco Origens principais.** Você continua sendo Latente, Receptáculo, Descendente, Reencarnado ou Feto, com a marca de que a técnica não veio junto.
 
+A sua técnica existe. Ela só não nasceu com você: você montou ela em cima de uma coisa que qualquer feiticeiro pode aprender, e foi mais fundo nela do que ninguém tinha ido.
+
 O poder vem de dois lugares.
 
 **Aptidão.** Você foi fundo no que todo feiticeiro pode fazer.
 
-**Estilo da Sombra.** Você mata maldição com técnica de espada e de corpo, sem técnica amaldiçoada.
+**Estilo da Sombra.** Você mata maldição com técnica de corpo e de arma, sem técnica amaldiçoada.
 
 **Na obra:** a Miwa e o Kusakabe, pelo Estilo da Sombra; a Shoko Ieiri, pela Aptidão.
 
 ### Efeito na ficha
 
-Você não escreve Fundamento. Não tem Regra, não tem Famílias, não tem Selo, não tem feitiço. A Origem principal continua dando tudo o que dá.
+Você escreve Fundamento como qualquer conjurador: tem Regra, tem Famílias, tem Selo e tem Passivas. Duas peças mudam de nome — o feitiço é o `Manejo`, e a Técnica Máxima é o `Auge`. E uma não existe nesta rota: a Expansão de Domínio.
+
+A Origem principal continua dando tudo o que dá.
 
 #### Criação
 
-Aptidão ou Estilo da Sombra.
+Você escolhe uma **semente**: uma aptidão que vem aberta, sem os gates de nível e de refino que ela pede de todo mundo. Ela é o assunto do seu Fundamento — a Regra que você escreve fala de como você usa ela.
 
-> **Sem Técnica não fecha ficha hoje, e ela está sendo escrita.** O que já dá para fazer é a ficção inteira: você escreve quem o personagem é e escolhe os dois Legados normalmente. O que falta é a montagem do poder — nem a Aptidão nem o Estilo da Sombra têm regra de construção escrita ainda, e sem ela a ficha para no meio.
+A semente não gasta marco e conta como a primeira aptidão da sua lista. A escolha é de uma vez só, como o Caminho e a Trilha.
+
+**Sementes**
+{: .tab-titulo }
+
+| semente | o que ela desenha |
+|---|---|
+| `Domínio Simples` | você fecha um pedaço de chão em volta de você, e o que entrar ali é problema seu |
+| `Energia Reversa` | você reverte o que já quebrou, e não conserta o que está inteiro |
+| aptidão própria | a que você escreve, com o mestre |
+
+Curar os outros não entra na criação. Quem quiser isso escolhe o Guia e paga uma Trilha inteira, como qualquer um.
 
 ### Legado de Sem Técnica
 
 Sem Técnica não amplia a conta de Legados: ela é uma entrada de `Destranca` e ocupa uma das duas vagas, como qualquer outra. Cinco Origens alcançam ela — Latente, Receptáculo, Descendente, Reencarnado e Feto.
 
-> **Sem Técnica** — **você tem energia amaldiçoada e a técnica não veio junto. O seu poder não sai do Fundamento: sai de aptidão ou de escola de espada, e é lá que você monta o personagem.**
+> **Sem Técnica** — **você tem energia amaldiçoada e a técnica não veio junto. Escolha a sua semente: é dela que o seu Fundamento nasce.**
 
 Corpo Amaldiçoado e Restrição Celestial não aceitam Sem Técnica. As duas já vêm com uma troca própria no lugar da técnica.
 

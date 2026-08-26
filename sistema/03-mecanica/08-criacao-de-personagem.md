@@ -60,7 +60,7 @@ Ela dá seis coisas:
 
 **A patente não vem da Origem.** Todo personagem começa **Grau 4**, venha de onde vier — a patente é eixo social e sobe por feito. Quem entra no topo sabendo pouco existe na ficção, e a instituição pode classificar quem ela quiser; o que não existe é a Origem que começa na frente.
 
-> **Três das nove rotas ainda não são jogáveis.** Sem Técnica, Corpo Amaldiçoado e Restrição Celestial pelo ramo da Maki dependem de um sistema de criação paralelo ao Fundamento — Técnica Marcial e Estilo da Sombra —, que é a peça seguinte. As outras seis rodam hoje.
+> **As nove rotas rodam, e as três últimas fecharam em duas versões.** *Corpo Amaldiçoado e Restrição Celestial pelo ramo da Maki entraram na v0.122, com a Técnica Marcial — a peça 20; `Sem Técnica` entrou na v0.168, com a peça 25.* **E nenhuma das duas virou o "sistema paralelo ao Fundamento" que esta linha esperava:** as duas herdam a máquina do Fundamento e trocam o que entra nela — a peça 20 troca o dom por treino de corpo, a peça 25 troca ele por uma aptidão aberta.
 
 ## Passo 2 · A Regra da técnica, em uma frase
 

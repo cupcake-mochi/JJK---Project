@@ -110,14 +110,15 @@ O que `0,50` fatia é, nas moedas em que alguém pergunta:
 
 ### 3.3 O que ele pode entregar, e o que tem preço
 
-***Decisão do Mizuki: PE, aptidões, feitiços e estilos.*** **Quatro coisas, e elas não se medem do mesmo jeito** — duas têm preço em fatia e duas não têm, e isso muda quem segura cada uma.
+***Decisão do Mizuki: PE, aptidões e feitiços.*** **Três coisas, e elas não se medem do mesmo jeito** — uma tem preço em fatia e duas não têm, e isso muda quem segura cada uma.
 
 | o que o pacto dá | quem alcança | tem preço em fatia? | quem segura |
 |---|---|---|---|
 | **PE** | qualquer ficha | **sim** — `1` PE por rodada vale `1,01` fatia (peça 5 §4) | **o teto**: `0,50` fatia é meio PE por rodada |
 | **uma aptidão** | quem tem aptidão | **não, e não pode ter** | o mestre, e o teto de quantidade |
-| **um espaço de feitiço** | quem escreve Fundamento | **não tem**, pelo mesmo motivo | o mestre, e o teto de quantidade |
-| **um estilo** | **só `Sem Técnica`** | a peça não existe ainda | um contrato, no §3.5 |
+| **um espaço de feitiço** | quem escreve Fundamento, e isso inclui `Sem Técnica` | **não tem**, pelo mesmo motivo | o mestre, e o teto de quantidade |
+
+> **⚠ Eram quatro linhas até a v0.167, e a quarta DISSOLVEU dentro da terceira.** *Ela dizia `um estilo · só Sem Técnica · a peça não existe ainda`, e foi escrita na v0.134 supondo que aquela rota **não** escreveria Fundamento.* **A peça 25 fechou na v0.168 e ela escreve** — então o que um pacto daria a ela é espaço de `Manejo`, que é o espaço de feitiço da linha de cima, com a resposta que aquela linha já tinha. *Não é linha corrigida: é linha que perdeu assunto próprio.*
 
 > **⚠ A régua de *"uma aptidão a mais"* não existe, e não é descuido — ela não pode existir.** *Ela matou uma Trilha inteira: o `Repertório` do Emanador foi abandonado na v0.81 exatamente por depender dela.* **O motivo está escrito lá: uma aptidão a mais vale a Trilha inteira para quem nunca escolhe Refino, e um sétimo para quem sempre escolhe.** *O valor depende de quantas você já tem, então não existe número.*
 >
@@ -135,15 +136,23 @@ O que `0,50` fatia é, nas moedas em que alguém pergunta:
 
 **O que o pacto pode tocar é dano**, e aí o teto do §3.2 faz esse toque ser uma escolha ruim de propósito.
 
-### 3.5 O estilo é um contrato sobre uma peça que não existe
+### 3.5 O contrato do estilo venceu, e a resposta foi não
 
 ***Correção do Mizuki na v0.134, e ela mudou a conta:*** *os estilos que um pacto pode conceder **não** são os estilos de luta do `Executor`.* **São os do `Estilo da Sombra`, e só uma ficha `Sem Técnica` alcança eles.**
 
-**O `Estilo da Sombra` não tem peça.** Ele é uma das duas rotas que a peça 9 §4 manda a sub-origem `Sem Técnica` procurar, e as duas continuam sem regra de construção — é a nona rota de Origem, a única que não roda.
+**Aquela peça não existia, então esta seção escreveu um contrato em vez de um número:**
 
-> **O contrato: quando o `Estilo da Sombra` for escrito, um estilo dele cabe no teto de um pacto — `0,50` fatia.** *Se ele custar mais, ou o estilo cobra dois pactos, ou pacto não o concede.* **Ninguém escreve o número aqui, e a peça que chegar depois obedece.**
+> ~~**Quando o `Estilo da Sombra` for escrito, um estilo dele cabe no teto de um pacto — `0,50` fatia.** *Se ele custar mais, ou o estilo cobra dois pactos, ou pacto não o concede.*~~
 
-*É o molde do teto de Defesa da peça 14 §3, em que Equipamento é dona do invariante e o número é derivado dos donos.* **Contrato sobre peça futura é barato de escrever e caro de esquecer**, e esta peça é a segunda a usar essa forma de propósito.
+**Ele foi escrito na v0.168, e é a peça 25.** *O `Estilo da Sombra` não virou peça própria: virou a semente `Domínio Simples`, e o que aquela rota monta em cima da semente é `Manejo`, que é o feitiço com outro nome.* **Então o que um pacto concederia a ela passou a ter preço — e quem mediu foi a peça 25 §8.1, que é a dona da medida.**
+
+***A cláusula de escape tinha três saídas, e a conta de lá derruba duas:*** **nenhuma Classe de `Manejo` cabe no teto de um pacto**, e a distância cresce com a Classe.
+
+> ***Decisão, e ela é desta peça: pacto não concede `Manejo`.***
+
+**A saída do meio — "o estilo cobra dois pactos" — reprova mais forte ainda, e essa conta é daqui.** *Dois pactos valem `1,00` fatia; os três que o §3.1 permite no teto da escala valem `1,50`, que é a camada permanente inteira de onde o §3.2 deriva o `0,50`.* **Nem gastando a camada toda o personagem alcança o menor `Manejo` que existe.** *Preço que exige mais do que o teto de quantidade permite não é preço caro: é impossibilidade, e ela reprova antes de virar escolha de mesa.*
+
+*É o molde do teto de Defesa da peça 14 §3, em que Equipamento é dona do invariante e o número é derivado dos donos.* **Contrato sobre peça futura é barato de escrever e caro de esquecer** — e este foi o primeiro do projeto a vencer, trinta e quatro versões depois. *A peça que chegou depois obedeceu, e a resposta dela foi a que o contrato menos esperava.*
 
 ## 4. O pacto temporário
 
