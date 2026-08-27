@@ -42,7 +42,7 @@ Ferramenta é a que é arma. Objeto é a que não é arma.
 |---|---|---|
 | ferramenta amaldiçoada | foi forjada para canalizar energia. Você empunha, e ela fere maldição | este capítulo |
 | objeto amaldiçoado | é a maldição presa numa forma de objeto. Você carrega, e o que está dentro dele age | este capítulo, *Objeto amaldiçoado* |
-| cadáver amaldiçoado | coisa sem vida que ganhou movimento próprio, com um núcleo no lugar do coração | capítulo 15, *Invocações* |
+| cadáver amaldiçoado | coisa sem vida que ganhou movimento próprio, com um núcleo no lugar do coração | capítulo 16, *Invocações* |
 | maldição solta | a maldição sem forma de coisa nenhuma. É o que se exorciza | capítulo 4, *Dano, Condições e Cobertura* |
 
 Ferramenta e objeto são ranqueados pela mesma escada, pela força da energia que carregam: grau 4 a grau 1, mais o especial.
@@ -111,7 +111,7 @@ O que o grau escolhe é o **formato** do `Estigma`.
 | **1** | Classe 3: permanente, muda como você joga | 13 | as forjadas de topo |
 | **especial** | Classe 3, e ela é única no mundo | 13 | Nuvem Divertida · Lança Invertida do Céu · Corrente de Mil Milhas |
 
-As Classes são as mesmas do capítulo 11, *Aptidões e Refino*, e o nível mínimo é o de lá: uma aptidão de Classe 2 pede nível 7, uma de Classe 3 pede nível 13, e Classe 1 não pede nada.
+As Classes são as mesmas do capítulo 12, *Aptidões e Refino*, e o nível mínimo é o de lá: uma aptidão de Classe 2 pede nível 7, uma de Classe 3 pede nível 13, e Classe 1 não pede nada.
 
 ### Grau e refino
 
@@ -210,7 +210,7 @@ Cada entrada abre com o nome e diz **quando o `Estigma` age**: sempre ligado, na
 >
 > **`Cisão`** — o golpe dela atravessa o corpo: tira Integridade, e não tira vida nem vida máxima. É *dano direto na alma*, do capítulo 4, *Dano, Condições e Cobertura*. Contra alvo de alma dura, você vai sentir falta do dano normal.
 >
-> **`Insondável`** — enquanto a ponta dela estiver escondida, o alcance dela é **na cena**. As três faixas de alcance estão no capítulo 15, *Invocações*.
+> **`Insondável`** — enquanto a ponta dela estiver escondida, o alcance dela é **na cena**. As três faixas de alcance estão no capítulo 16, *Invocações*.
 >
 > **`Contrapeso`** — ela ignora o requisito de Força da arma.
 

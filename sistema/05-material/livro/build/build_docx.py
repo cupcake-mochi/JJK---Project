@@ -32,6 +32,7 @@ CHAPTERS = [
     ("35-caminhos-e-trilhas.md", "Caminhos e Trilhas"),
     ("40-fundamento.md", "Fundamento"),
     ("42-tecnica-marcial.md", "Técnica Marcial"),
+    ("43-sem-tecnica.md", "Sem Técnica"),
     ("45-aptidoes-e-refino.md", "Aptidões e Refino"),
     ("47-bencaos-e-lapidacao.md", "Bênçãos e Lapidação"),
     ("50-equipamento.md", "Equipamento"),

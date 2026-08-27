@@ -444,7 +444,7 @@ Com o Fundamento escrito, os feitiços saem dele. Montar um feitiço é uma cont
 
 ### Teto de feitiços
 
-Antes de montar o primeiro, veja quantos você tem direito de escrever. A conta é do capítulo 17, *Experiência e Progressão*.
+Antes de montar o primeiro, veja quantos você tem direito de escrever. A conta é do capítulo 18, *Experiência e Progressão*.
 
 > **Espaços de feitiço conhecido = `2 + (nível ÷ 2)`, arredondando para baixo. Mais um por marco já alcançado.**
 > Os marcos são os níveis **6, 10, 14, 18, 22, 26 e 30**.
@@ -1038,7 +1038,7 @@ Estender a sua técnica sobre o terreno: por alguns instantes, o lugar em volta 
 Ela é **comprada**, com espaços de feitiço conhecido, e só abre quando o seu nível e o seu **refino** alcançam os dois mínimos.
 
 > **Refino, em uma linha.**
-> O refino é o eixo de controle da sua ficha: quanto da sua energia você não desperdiça. Ele é do capítulo 11, *Aptidões e Refino*, sobe com os seus marcos e vai de 1 a 10.
+> O refino é o eixo de controle da sua ficha: quanto da sua energia você não desperdiça. Ele é do capítulo 12, *Aptidões e Refino*, sobe com os seus marcos e vai de 1 a 10.
 > Aqui ele é lido em três lugares e nada mais: **o requisito**, **o desconto lá dentro** e **quanto tempo o domínio fica de pé.**
 
 ### Degraus
@@ -1161,7 +1161,7 @@ Duas notas acompanham as oito: Restrição que o seu Selo já obriga não devolv
 | **26** | Classe 7. |
 | **30** | A terceira Liberação Máxima. |
 
-O Fundamento manda na Classe, na Liberação Máxima e em quando cada Classe Passiva abre. Quantos feitiços você conhece é conta de *Experiência e Progressão*: a fórmula está resumida em *Criando feitiços*, e a progressão nível a nível mora no capítulo 17, *Experiência e Progressão*.
+O Fundamento manda na Classe, na Liberação Máxima e em quando cada Classe Passiva abre. Quantos feitiços você conhece é conta de *Experiência e Progressão*: a fórmula está resumida em *Criando feitiços*, e a progressão nível a nível mora no capítulo 18, *Experiência e Progressão*.
 
 O que continua valendo aqui: **Passiva é paga com espaços dessa lista**, a **Expansão de Domínio** também, e as **Liberações Máximas ficam de fora**, porque elas não ocupam espaço.
 

@@ -1,6 +1,6 @@
 # Bênçãos e Lapidação
 
-Bênção e Lapidação valem para **uma** rota de criação: a Restrição Celestial pelo ramo **sem energia**, no capítulo 7, *Origens e Legados*. Uma ficha com energia amaldiçoada — inclusive o Corpo Amaldiçoado, que produz a própria — usa refino e aptidões, no capítulo 11, *Aptidões e Refino*.
+Bênção e Lapidação valem para **uma** rota de criação: a Restrição Celestial pelo ramo **sem energia**, no capítulo 7, *Origens e Legados*. Uma ficha com energia amaldiçoada — inclusive o Corpo Amaldiçoado, que produz a própria — usa refino e aptidões, no capítulo 12, *Aptidões e Refino*.
 
 > **Sem energia amaldiçoada não existe refino nem aptidão.** No lugar dos dois vêm a **Lapidação** e as **Bênçãos**, e a máquina é a mesma casa por casa. O que muda é o conteúdo do catálogo.
 
@@ -10,7 +10,7 @@ A Lapidação mede quanto da folga do corpo o seu personagem já gastou treinand
 
 > **A Lapidação vai de `1` a `10`.** Toda ficha começa em 1, e ela sobe nos marcos: **`+1` de graça em cada um, e mais `+1` se você escolher Lapidação no marco**.
 >
-> **São os mesmos degraus do refino, casa por casa** — a tabela `Refino por marco` do capítulo 11 vale para ela, trocando o nome.
+> **São os mesmos degraus do refino, casa por casa** — a tabela `Refino por marco` do capítulo 12 vale para ela, trocando o nome.
 
 > **A Lapidação nunca entra num número disputado contra alguém que cresce mais devagar que ela.** Ela fica fora de acerto, CD, defesa e Teste de Resistência.
 
@@ -232,7 +232,7 @@ A vaga em branco do catálogo: a coisa que o seu personagem descobriu que o corp
 >
 > Requisito: uma vez na ficha inteira. Classe Passiva 1 ou 2.
 
-A régua é a mesma da `Aptidão Própria`, no capítulo 11, e vale inteira: uma frase, verificável, sem dado de dano, com limite por cena se for Classe Passiva 2, e não pode repetir uma das doze do catálogo com outro nome nem entregar uma que o seu requisito não alcança.
+A régua é a mesma da `Aptidão Própria`, no capítulo 12, e vale inteira: uma frase, verificável, sem dado de dano, com limite por cena se for Classe Passiva 2, e não pode repetir uma das doze do catálogo com outro nome nem entregar uma que o seu requisito não alcança.
 
 > **Na dúvida, Pesada.** Pesada é Classe Passiva 3, e a Classe Passiva 3 está fora do que a `Bênção Própria` alcança. Então dúvida reprova a proposta.
 

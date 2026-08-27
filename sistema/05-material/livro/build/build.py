@@ -45,6 +45,7 @@ CHAPTERS = [
     ("35-caminhos-e-trilhas.md",     "Caminhos e Trilhas",      "道", None),
     ("40-fundamento.md",             "Fundamento",              "術", None),
     ("42-tecnica-marcial.md",        "Técnica Marcial",         "型", None),
+    ("43-sem-tecnica.md",            "Sem Técnica",             "種", None),
     ("45-aptidoes-e-refino.md",      "Aptidões e Refino",       "練", None),
     ("47-bencaos-e-lapidacao.md",    "Bênçãos e Lapidação",     "恵", None),
     ("50-equipamento.md",            "Equipamento",             "具", None),

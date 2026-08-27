@@ -126,7 +126,7 @@ Fundamento, do jeito padrão.
 
 #### Desliga
 
-> **Inédito** — **a sua técnica não está em registro nenhum: ninguém a reconhece pelo catálogo, e quem quiser se preparar contra ela precisa ter te visto usar.** Em troca, ninguém sabe te ajudar com ela. *Não vale para quem escolheu Sem Técnica: sem técnica própria, não há o que ficar de fora do catálogo.*
+> **Inédito** — **a sua técnica não está em registro nenhum: ninguém a reconhece pelo catálogo, e quem quiser se preparar contra ela precisa ter te visto usar.** Em troca, ninguém sabe te ajudar com ela. *Vale também para quem escolheu Sem Técnica — uma técnica montada em cima de uma aptidão comum é, por construção, uma que catálogo nenhum registrou.*
 > *Na mesa:* serve no reencontro com o mesmo inimigo. *Exemplo: ele volta preparado para o que te viu fazer na primeira luta, e para nada além disso.*
 
 > **Chão Duro** — **para você, qualquer lugar conta como ambiente propício**, no capítulo 5, *Descanso e Recuperação*. Em troca, você não percebe quando os outros não estão aguentando.
@@ -407,20 +407,9 @@ A Origem principal continua dando tudo o que dá.
 
 #### Criação
 
-Você escolhe uma **semente**: uma aptidão que vem aberta, sem os gates de nível e de refino que ela pede de todo mundo. Ela é o assunto do seu Fundamento — a Regra que você escreve fala de como você usa ela.
+Na criação você escolhe uma **semente**: uma aptidão que vem aberta, sem os gates de nível e de refino que ela pede de todo mundo. Ela é o assunto do seu Fundamento.
 
-A semente não gasta marco e conta como a primeira aptidão da sua lista. A escolha é de uma vez só, como o Caminho e a Trilha.
-
-**Sementes**
-{: .tab-titulo }
-
-| semente | o que ela desenha |
-|---|---|
-| `Domínio Simples` | você fecha um pedaço de chão em volta de você, e o que entrar ali é problema seu |
-| `Energia Reversa` | você reverte o que já quebrou, e não conserta o que está inteiro |
-| aptidão própria | a que você escreve, com o mestre |
-
-Curar os outros não entra na criação. Quem quiser isso escolhe o Guia e paga uma Trilha inteira, como qualquer um.
+**A máquina inteira está no capítulo 11, *Sem Técnica*** — as três sementes, a Regra que sai delas, a cura da `Energia Reversa` e dois Fundamentos prontos.
 
 ### Legado de Sem Técnica
 
@@ -545,7 +534,7 @@ Você tem energia amaldiçoada, então tem PE, aptidões e refino como qualquer 
 | Ramo | O que muda | Criação |
 |---|---|---|
 | **Corpo pela técnica** | Fundamento normal, corpo com limitação escrita na ficha | Fundamento, no capítulo 9 |
-| **Sem energia** | sem Fundamento, sem feitiço de Toque, sem Sentir Energia, sem aptidão e sem refino. No lugar deles, **Bênçãos e Lapidação**, e acesso a ferramenta amaldiçoada como eixo de poder | Técnica Marcial, no capítulo 10, com o capítulo 12 no lugar do 11 |
+| **Sem energia** | sem Fundamento, sem feitiço de Toque, sem Sentir Energia, sem aptidão e sem refino. No lugar deles, **Bênçãos e Lapidação**, e acesso a ferramenta amaldiçoada como eixo de poder | Técnica Marcial, no capítulo 10, com o capítulo 13 no lugar do 11 |
 
 O `PE` do seu Caminho continua chegando. Nesta rota ele se lê **Pontos de Esforço** em vez de Pontos de Energia: é a mesma sigla, o mesmo número e a mesma coluna, e nenhuma regra do livro pergunta qual das duas você tem.
 

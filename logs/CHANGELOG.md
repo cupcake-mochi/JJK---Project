@@ -8,6 +8,101 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.170] — 26/08/2026
+
+**`Sem Técnica` virou capítulo do livro, e o Manual da Guilda foi de `17` para `18`.** *A peça 25 fechou na v0.168 com a regra escrita e sem o texto longo que a rota merece; a v0.169 limpou o caminho; esta paga o texto.*
+
+### O capítulo, e ele é o `43-sem-tecnica.md`
+
+***Decisão do Mizuki: arquivo próprio, no molde do `42-tecnica-marcial.md`.*** *As duas são rota de criação que herda a máquina do Fundamento, e a peça 20 é o precedente direto.*
+
+**Ele entra como o capítulo 11**, logo depois da Técnica Marcial, com as mesmas seções do irmão: `Máquina herdada` — `Manejo`, `Auge`, a Liberação Máxima que **não** renomeia e a Expansão que não existe —, `Semente` com as três portas, `Regra`, `Cura`, `Marco`, `Passivas` e dois Fundamentos prontos, a `Redoma` e a `Sutura Fria`.
+
+**E a seção `Sem Técnica` do capítulo de Origens virou ponteiro.** *Ela ficou com o que é da Origem — o que a sub-origem é, a quem ela se soma, o Legado e a exclusão das duas especiais — e mandou a máquina para o capítulo novo.*
+
+### ⚠⚠ Capítulo no meio desloca todo mundo, e são 38 referências
+
+**O livro aponta capítulo por NÚMERO.** *Entrar como o 11 empurra os capítulos `11` a `17` para `12` a `18`, e cada ponteiro cruzado do livro inteiro tem de andar junto.*
+
+> **A checagem 10.3 só confere metade delas.** *Ela lê `capítulo N, *Título*` — com o título junto, dá para bater as duas metades uma contra a outra.* **As `44` que dizem só `capítulo N` não têm como ser conferidas, e são elas que passariam batido.**
+
+**Deslocadas de uma vez, com relatório por arquivo, e conferidas pelo `guard_numeros.py`:** *treze arquivos mexidos, `38` referências, e cada diferença de notação que o guarda acusou bate exatamente com o que o relatório do deslocamento diz.* **Nenhum número de regra se moveu em arquivo nenhum.**
+
+*As quatro diferenças de numeral por extenso do `25-origens.md` foram lidas uma a uma:* **as duas que entraram são a contagem do conteúdo do capítulo novo — `três` sementes e `dois` Fundamentos prontos —, e as que saíram migraram inteiras para lá.**
+
+### Duas pendências mortas que nenhuma checagem alcançava
+
+**A peça 25 pedia o texto de mesa, e ele é esta versão.** *Riscada.*
+
+> **⚠⚠ E a peça 20 pedia o mesmo, desde a v0.122 — quarenta e oito versões.** *O capítulo dela saiu na v0.124, e o item continuou vivo.* **A metade substantiva dele já estava paga:** o aviso *"ela cobra tarde"* está no capítulo 10, na seção em que o objeto declara se o golpe simples atravessa — que é exatamente onde o jogador escolhe, e era o que o item exigia.
+>
+> ***As duas escapavam da checagem 8 pelo mesmo motivo:*** *o assunto delas é "o texto de mesa", e a 8c casa por nome de PEÇA.* **Pendência cujo assunto não é uma peça não tem quem a alcance.**
+
+### ⚠ E a v0.168 tinha deixado o livro contradizendo a peça 13
+
+**O `Inédito` do capítulo de Origens ainda dizia *"não vale para quem escolheu Sem Técnica: sem técnica própria, não há o que ficar de fora do catálogo"*.** *A v0.168 reverteu exatamente isso — a rota escreve Fundamento, logo ela tem técnica, e o `Inédito` funciona nela.* **Aquela versão corrigiu a peça 13 e não desceu ao livro.**
+
+*Hoje a linha diz o contrário, e com o argumento:* **uma técnica montada em cima de uma aptidão comum é, por construção, uma que catálogo nenhum registrou.**
+
+### E a revisão cética pegou o `ESTADO-ATUAL` virando um segundo CHANGELOG
+
+**Pedido do Mizuki: revisar o que entrou ontem e hoje.** *A janela é a v0.158 até esta — treze versões, `32.092` palavras.* **O achado não é uma frase: é uma tendência, e ela tem número.**
+
+| o que foi medido | CHANGELOG | blocos do `ESTADO-ATUAL` |
+|---|---|---|
+| **marca `⚠` por mil palavras** | `1,1` a `5,9` | `4,2` a **`15,2`** |
+| **trecho de 7 palavras que já está no CHANGELOG** | — | `25%` na v0.158, **`45%`** na v0.169 |
+
+> **Os blocos por versão do `ESTADO-ATUAL` estavam virando uma segunda cópia do CHANGELOG, e a sobreposição CRESCIA.** *Os dois documentos têm trabalhos diferentes: o CHANGELOG guarda o argumento para sempre, e o `ESTADO-ATUAL` existe para alguém retomar sem reler tudo.* **Um bloco que reconta a derivação faz o trabalho do outro, e pior.**
+>
+> ***E o pior bloco da janela inteira era o desta versão*** — `15,2` avisos por mil palavras, contra uma média de `4,1`. *Quando tudo é ⚠, nada é.*
+
+**Antes de cortar, uma guarda: o que existe SÓ no `ESTADO-ATUAL` morreria.** *Medido termo a termo nas nove versões com bloco — `1` item na v0.158 e `1` na v0.162, e os dois estão no CHANGELOG em outra notação.* **Nada se perdeu.**
+
+*Os blocos foram de `6.415` para `1.756` palavras, com as marcas `⚠` de `15,2` para `4,0` por mil, as `21` frases em `***…***` para `4`, e os CAPS de ênfase de `16` para `4`.* **O que ficou é o que ainda vale: regra, número com dono e decisão que ainda amarra.**
+
+> **⚠ Duas coisas foram olhadas e MANTIDAS.** *As cinco tabelas de duas linhas da janela são comparação de dois itens, e não enfeite.* **E o CHANGELOG não foi mexido:** *ele é o único documento do projeto que não dá para reconstruir lendo o resto, e a densidade dele já estava dentro da faixa.*
+
+### E a revisão de fila achou três pendências mortas que a checagem 8 não alcança
+
+**Pedido do Mizuki: "além do Bestiário, o que mais falta?"** *A resposta não estava toda no `PROMPT-PROXIMA-CONVERSA.md` — três itens de "Em aberto" já tinham resposta e continuavam vivos, nas peças 14, 17 e 22.*
+
+> **A checagem 8 do `conferir-repositorio.py` casa o assunto de uma pendência com o NOME de uma peça.** *As três escapavam porque não citam a peça pelo nome: uma diz "quando aquela peça existir", outra "quando voltarem", a terceira "escrita na v0.103, e este item continua aberto lá dentro" — apontando para um capítulo em vez de repetir o número.* **Nenhum regex de nome pega pronome.**
+
+- **A peça 22 §9 — `O Estilo da Sombra`.** *Pedia para medir um estilo dele contra o teto de um pacto "quando aquela peça existir".* **A peça 25 mediu na v0.168:** nenhuma Classe cabe, pacto não concede `Manejo`. *A resposta já estava escrita duas seções acima, na mesma peça — só o item da lista não sabia.*
+- **A peça 14, item 15 — a penalidade de arma sem requisito ou sem treino.** *Dizia "este item continua aberto" dentro da peça 19.* **A peça 19 §6 fechou isso na v0.104 e na v0.117**, com nome de seção e tudo: `−3 m` de deslocamento sem requisito, sem maestria e desvantagem sem treino — `55,80` de dano por rodada de penalidade contra os `1,65` que a arma inteira entrega.
+- **A peça 17, item — as três Trilhas do Evocador "enquanto estiverem paradas".** *Prometia que o total sairia de `89` quando elas voltassem.* **Voltaram na v0.164, o total é `102` desde então, e a checagem 1 acusou no mesmo commit — exatamente como o item previa.**
+
+**As três checam verde depois de riscadas: nenhum validador tinha o número errado, só o texto da fila continuava chamando de aberto o que já tinha fechado.**
+
+### O que a revisão olhou e não é bug
+
+- **`RASCUNHO-trilhas.md` continua fora de `99-arquivo/`, e isso é certo.** *Diferente de Invocações, Ferramenta e Pactos — rascunhos que viraram peça numerada —, o assunto de Trilhas vive em `DESENHO-trilhas.md`, e o rascunho é registro do processo de decisão (as cinco perguntas, Q1 a Q5), não segunda cópia da regra. Seis peças vivas ainda citam ele como fonte.*
+- **A peça 18 — "quando o PDF sair, a tabela vai aparecer lá".** *O PDF existe desde a v0.106, mas a tabela consolidada de progressão de nove colunas não está publicada nele.* **Continua genuinamente aberto — não é pendência morta.**
+- **A contagem de `34.200` palavras do `ESTADO-ATUAL`, de v0.33.** *A própria linha se declara retrato e manda recontar antes de citar.* **Não é bug: é snapshot que envelheceu do jeito que foi desenhado para envelhecer.**
+
+### Adicionado
+
+- **`sistema/05-material/livro/manual/43-sem-tecnica.md`** — o capítulo 11, com `種` no cabeçalho.
+- **A entrada dele nas três listas de capítulo** — `build.py`, `build_docx.py` e `conferir-voz.py` —, que a checagem 10.1 compara entre si.
+
+### Alterado
+
+- **`38` referências cruzadas do livro**, dos capítulos `11`–`17` para `12`–`18`, em treze arquivos.
+- **A seção `Sem Técnica` do capítulo de Origens** virou ponteiro para o capítulo novo.
+- **O `Inédito` passou a valer para quem escolheu `Sem Técnica`**, alinhando o livro com a peça 13.
+- **A contagem de capítulos foi de `17` para `18`** no `README.md` e nas duas cópias do README da entrega. *Ela ganhou dono e checagem na v0.169, e a checagem acusou as duas cópias no mesmo commit — que é para o que ela existe.*
+- **O livro foi de `72.353` para `73.862` palavras**, e de `245` para **`251`** páginas em coluna única, `142` para **`145`** em duas colunas.
+
+### Decidido
+
+- **A `Liberação Máxima` não renomeia, e o capítulo escreve por quê** — *o nome fala da sua técnica, e a sua técnica é sua: ela não veio com você, mas você a escreveu.*
+- **A Expansão de Domínio não existe nesta rota, e o capítulo dá o motivo em vez de só proibir** — *um `Domínio Simples` estendido é um domínio grande, que é a coisa contra a qual ele foi inventado.* **A troca é a semente vir aberta.**
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **O `BESTIÁRIO` é o único item da fila da mecânica**, e ele é os nove números com quatro donos que montar um inimigo pede.
+
+---
+
 ## [0.169] — 26/08/2026
 
 **Duas coisas que a v0.168 deixou de pé, e a primeira ia derrubar a próxima versão.** *Nenhuma das duas reprovava hoje — e é exatamente por isso que elas atravessaram tantas versões.*

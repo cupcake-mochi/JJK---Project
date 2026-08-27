@@ -281,4 +281,4 @@ O `conferir-sem-tecnica.py` roda **doze checagens**, e nenhum valor de regra fic
 - **A `Pétala` como quarta porta.** *Ela cabe na banda e o eixo que a separa do `Domínio Simples` já está escrito. É sabor, e ficou para depois.*
 - **`Energia Reversa` contra maldição.** *Na obra, energia positiva fere maldição — o Yuta e o Sukuna usam.* **Aqui ela só cura, e a decisão do Mizuki foi averiguar depois.**
 - **Nenhum `Manejo` publicado.** *Esta peça entrega a máquina e dois Fundamentos de exemplo; ela não abre catálogo de `Manejo` pronto, do mesmo jeito que o manual entrega três Fundamentos prontos e não uma lista fechada de feitiços.*
-- **O texto de mesa.** *Como toda peça de `03-mecanica/`, esta é nota de design.* **O capítulo do livro sai dela.**
+- ~~**O texto de mesa.** *Como toda peça de `03-mecanica/`, esta é nota de design.* **O capítulo do livro sai dela.**~~ **Fechado na v0.170:** é o capítulo 11 do livro, logo depois da Técnica Marcial. *O livro foi de `17` para `18` capítulos, e a seção `Sem Técnica` do capítulo de Origens virou ponteiro.*

@@ -1,192 +1,70 @@
 # Estado atual do projeto
 
-Atualizado em 26/08/2026, na v0.169 (última peça fechada: **Sem Técnica**, a peça 25, na v0.168, com o `conferir-sem-tecnica.py` e doze checagens; antes dela, **Dano de alma e Integridade, na v0.145**; antes dela, o **Bloquear, na v0.143**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 26/08/2026, na v0.170 (última peça fechada: **Sem Técnica**, a peça 25, na v0.168, com o `conferir-sem-tecnica.py` e doze checagens; antes dela, **Dano de alma e Integridade, na v0.145**; antes dela, o **Bloquear, na v0.143**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.169.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e cinco peças escritas** e **vinte e cinco validadores**.
+**Versão v0.170.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e cinco peças escritas** e **vinte e cinco validadores**.
 
-***A v0.169 é limpeza, e as duas coisas que ela pegou não reprovavam — é por isso que elas atravessaram tantas versões.***
+**A v0.170 pôs `Sem Técnica` no livro.** O capítulo é o `43-sem-tecnica.md`, o **11**, logo depois da Técnica Marcial e no molde dela — decisão do Mizuki. A seção daquela rota no capítulo de Origens virou ponteiro, e o Manual da Guilda foi para **18 capítulos**, `251` páginas em coluna única e `145` em duas.
 
-> **⚠⚠ O aviso da checagem 7.2 funcionou, e ninguém atendeu ele por seis versões.** *A v0.162 trocou o teto escrito à mão por `contagem desta versão + folga declarada`, justamente para a linha falar na primeira citação nova em vez de na sexta.* **Ela falou, e a base ficou em `142` da v0.163 até agora:** a v0.168 abriu já em `144` — duas entraram entre a v0.164 e a v0.167 sem ninguém itemizar — e somou mais duas. *`146` contra um teto de `147`.* **A próxima citação branca reprovava, e capítulo de livro é feito de citação.** ***Aviso que ninguém atende é teto sem folga com um passo a mais.***
->
-> *As duas da v0.168 saem pelo diff contra a árvore da entrega da v0.167 reconstruída — a peça 13 citando o `conferir-legados.py` e a peça 25 citando o `conferir-sem-tecnica.py`, as duas "nome de validador".* **As duas órfãs do meio não dava para itemizar sem a árvore daquelas versões, então a base foi refeita pelo outro lado:** as `146` foram **reclassificadas uma a uma** — `119` nome de validador, `13` caminho da árvore de trabalho e `14` arquivo cortado do recorte por decisão. *Nenhuma família nova.* **Base `146`, folga `5`, teto `151`**, com arnês de três degraus.
->
-> **E o README da entrega publicava a contagem de capítulos DUAS vezes, discordando de si mesmo** — `17` na linha do recorte e `18` na tabela de pastas —, mais **três** contagens de página (`245`, `238` e `230`) e uma linha de índice duplicada: o capítulo 4 aparecia em dois lugares desde a v0.145, e o índice lia `1, 4, 2, 3, 4, 5`. *Lição nº 9 sem precisar de dois documentos.*
->
-> **A contagem de capítulos ganhou dono e checagem na 7.3** — o `README.md` do projeto, que é onde ela já morava. **A paginação NÃO ganhou, e isso é decisão:** *ela não tem dono em documento nenhum do projeto, e inventar um seria escrever número para fechar checagem.* **O conserto dela foi o outro: ela passou a aparecer uma vez só.** *Seis perturbações na checagem nova, e o contra-teste move o dono e as duas cópias juntos e sai **verde**.*
+> **⚠ Acrescentar capítulo no meio custa mais do que parece, e o custo não é o texto: são as referências cruzadas.** *`38` delas, em treze arquivos — os capítulos `11` a `17` viraram `12` a `18`.* **E a checagem 10.3 só alcança as que carregam o título junto; as `44` que dizem só `capítulo N` ficam por conta de quem escreve.** *O argumento inteiro está no CHANGELOG da versão.*
 
-***A v0.168 fechou `Sem Técnica`, e com ela a nona rota de Origem.*** *A peça 25 estava na fila desde a v0.122 — quarenta e seis versões —, e o que ela precisava não era um sistema paralelo: era o Fundamento com uma aptidão aberta por baixo.*
+**A v0.169 é limpeza, e o que ela deixa em pé são dois números com dono.** A lista branca da checagem 7.2 tem **base `146`, folga `5`, teto `151`**, com as `146` classificadas por família. E a contagem de capítulos do livro ganhou dono — o `README.md` do projeto — e checagem na 7.3, contra as duas cópias do README da entrega.
 
-> **A máquina é o Fundamento inteiro, no molde da peça 20, e ela não inventa um número.** *Dois renomes — o `feitiço` é o **`Manejo`**, a Técnica Máxima é o **`Auge`** — e uma subtração: **a Expansão de Domínio não existe nesta rota**.* **A `Liberação Máxima` fica**, porque o argumento da peça 20 era *"esta rota não tem técnica inata"* e esta escreve Fundamento: ela tem técnica, só não tem técnica **inata**.
->
-> **A semente é o coração da peça: toda ficha começa com uma aptidão aberta, sem gate, sem gastar marco, e ela é o assunto do seu Fundamento.** *Três portas — `Domínio Simples` (a Nova Sombra), `Energia Reversa` (a rota da Shoko) e uma `Aptidão Própria`.*
->
-> **⚠ E a banda `Classe Passiva 2 e 3` é DERIVADA, e não teto escolhido.** *A escada de gate da peça 11 §5 produz sozinha quanto cada altura antecipa: `4,0` níveis na `CP 1`, `9,3` na `2`, `17,3` na `3`.* **`CP 2` e `3` dão espalhamento `1,86×` e passam; com a `CP 1` junto dá `4,33×` e reprova**, contra o filtro de `3,00×`. *A escada de gate **é** a escada de Classe Passiva, então o corte cai de graça.*
->
-> **O §7 é o que prova que a máquina não podia ser outra coisa.** *Sem máquina a rota vive entre `17,7%` e `51,6%` da Rotina, e o vão do dia é `4,06` fatia no Bastião, `5,67` na Vanguarda e `6,43` no Emanador.* **O vão cresce com o PE do Caminho — logo, derivado: ela TEM de gastar PE, senão não é neutra entre os cinco.**
->
-> **Quem tem a semente `Energia Reversa` soma `1/3 do refino` na cura.** *`0,30` fatia, que é `0,50×` o `Pulso`; o `+ refino` cheio foi medido e recusado em `0,98`, `1,67×`.* **Curar OS OUTROS continua fora da criação**, na Trilha `Sutura`, no nível 11 dela.
->
-> ***⚠⚠ E três coisas mudaram de RESPOSTA, não de redação.*** **O `Inédito` parou de quebrar** — a peça 13 marcava desde a v0.39 que ele pressupõe técnica própria e precisava de uma linha fechando ele para esta rota; como a rota escreve Fundamento, ele funciona nela, e funciona melhor do que em quase todo mundo. **O aviso de `Sem Técnica com o Emanador` perdeu o assunto**, porque `Manejo` é feitiço e os oito degraus daquele Caminho alcançam ela. **E o ponteiro do `Inédito` nunca pousou:** a checagem 8 do `conferir-legados.py` confere as cinco Origens elegíveis, e nunca existiu checagem em cima daquela entrada — a frase que prometia uma atravessou cento e vinte e nove versões.
->
-> **O primeiro contrato do projeto venceu, e a resposta foi não.** *A peça 22 §3.5 escreveu na v0.134 que "quando o `Estilo da Sombra` for escrito, um estilo dele cabe no teto de um pacto".* **Trinta e quatro versões depois: o menor `Manejo` vale `2,56` fatias contra um teto de `0,50` — `5,1×`, e `37,0×` no Classe 7.** *Pela cláusula de escape do próprio contrato, **pacto não concede `Manejo`** — e a linha `um estilo` do §3.3 dissolveu dentro da linha `um espaço de feitiço`, que já tinha resposta.*
->
-> **⚠⚠ E DOIS validadores estavam lendo prosa como se fosse regra, os dois pela quarta vez desta família.** *A checagem 8 do `conferir-repositorio.py` joga fora as palavras vazias ao montar o slug, e `sem` é uma delas — o slug de `25-sem-tecnica.md` desabava para `{tecnica}`, então a peça 1, cujo item discute a Constituição, saía acusada de esperar a peça 25.* **A 10.6, no mesmo arquivo, já declarava esse defeito para título de uma palavra só** — lá a saída foi descartar o título curto, aqui foi parar de encurtar o nome. *E a segunda acusação era a peça 25 se acusando: a tabela de uma seção `destrava` é registro de entrega, e a peça 20 e a 16 escapavam só porque escrevem `Origem` no singular.*
->
-> **A checagem 5 do `conferir-orcamento.py` lia caracterização como preço** — *"uma ação que **gasta PE** na taxa cheia É o Fundamento"* não cobra de coisa nenhuma. **É o terceiro falso positivo documentado dela, e os três são o mesmo defeito de recorte.** *A guarda nasceu frouxa e o arnês pegou: ela procurava o verbo de identidade em qualquer ponto da frase, e `é` está em toda frase daqui.*
->
-> **Arnês: nove casos na checagem 8 e seis na 5, zero divergências, com contra-teste verde nas duas.** *O que fecha a 8 é tirar a peça 25 da pasta e as três linhas voltarem a ser pendência legítima; o que fecha a 5 é a mesma forma de frase em outra peça sair calada.*
+> **A paginação do livro continua sem dono, e isso é decisão.** *Ela não é propriedade de documento nenhum: é do artefato construído.* **O conserto foi tirar as cópias, e não inventar um dono para elas** — hoje ela aparece uma vez só, na linha do recorte da entrega.
 
-***A v0.167 tirou duas cegueiras da triagem de nomes, e as duas já tinham custado nome.*** *Apareceu indo batizar a entrada da lista de `Sem Técnica`: a ferramenta que existe para isso estava mentindo.*
+**A v0.168 fechou `Sem Técnica`, a nona rota de Origem, e ela é a peça 25.** Estava na fila desde a v0.122.
 
-> **Ela lia as 52 armas da peça 14 e não as TREZE CATEGORIAS**, e a lista `SISTEMA` dela era hand-list crescida ad hoc — tinha `Maestria` e `Refino` e **não tinha `Defesa`, `Aptidão`, `Rotina`, `Sequela`, `Cicatriz` nem `Bloquear`**, *que é uma peça inteira.* **Todos saíam `LIVRE`.**
+> **A máquina é o Fundamento inteiro**, no molde da peça 20 e sem número novo. *Dois renomes — o `feitiço` é o `Manejo`, a Técnica Máxima é o `Auge` — e uma subtração: a Expansão de Domínio não existe nesta rota.* **A `Liberação Máxima` fica:** o argumento da peça 20 era *"esta rota não tem técnica inata"*, e esta escreve Fundamento — ela tem técnica, só não tem técnica **inata**.
 >
-> **O conserto é LER DO DONO, no molde da v0.164 com as Bênçãos:** *as categorias saem derivadas do próprio catálogo, com guarda em `13`; o vocabulário sai do **glossário do livro**, com `136` termos e guarda de piso.* **As duas entram só no `--candidatos`** — acusar retroativamente todo nome batizado contra o glossário é outra pergunta.
+> **Toda ficha começa com uma aptidão aberta — a semente —, sem gate e sem gastar marco, e ela é o assunto do seu Fundamento.** *Três portas: `Domínio Simples`, `Energia Reversa` e uma `Aptidão Própria`.* **Quem tem a semente `Energia Reversa` soma `1/3 do refino` em toda rolagem de cura sua**, e curar os outros continua fora da criação, na Trilha `Sutura`.
 >
-> **⚠⚠ E a checagem 12 do `conferir-marcial.py` pegou uma consequência que eu não tinha previsto.** *O `ocupados` era dict comprehension, e ela faz a **última** fonte vencer — então o glossário passou a reivindicar `Kata`, `Ruptura` e `Ōgi`, que são `termo de sistema`, e aquela checagem afirma o **motivo** do `OCUPADO` e não só o fato.* **Acrescentar fonte mudava em silêncio a razão publicada de todo nome que duas fontes reivindicam.** *Hoje a primeira vence, e a ordem do `UNIVERSO` é ordem de autoridade.*
+> **⚠ A banda da semente é `Classe Passiva 2` e `3`, e ela é DERIVADA.** *A escada de gate da peça 11 §5 produz sozinha quanto cada altura antecipa — `4,0` níveis na `CP 1`, `9,3` na `2`, `17,3` na `3` —, e só `CP 2` e `3` passam no filtro de `3,00×`: `1,86×` contra `4,33×`.* **A escada de gate é a escada de Classe Passiva, então o corte não foi escolhido.**
 >
-> ***Três dos cinco `Estilos da Pegada` estavam batizados duas vezes:*** **`Arremesso` → `Volteio`** (categoria de arma), **`Defesa` → `Couraça`** (a coluna da ficha) e **`Desarmado` → `Mão Nua`** (Condição do manual, a única que a triagem já acusava). *Nenhum preço se moveu — o `Executor` continua em `4,68` de `5,00`, e o `guard_numeros.py` diz `Nenhum número mudou`.*
->
-> **Arnês: dez casos, zero divergências**, e o contra-teste é o que fecha — *renomear `Bloquear` dentro do glossário faz ele voltar a sair `LIVRE`.* **Ela lê o documento, e não uma lista minha.**
->
-> ***E os nomes de `Sem Técnica` saíram triados com a ferramenta já honesta:*** **a entrada da lista é o `Manejo`** e **a Técnica Máxima é o `Auge`**. *A `Liberação Máxima` não renomeia: o motivo da peça 20 era "esta rota não tem técnica inata", e `Sem Técnica` escreve Fundamento.*
+> *E o §7 daquela peça é onde a forma da máquina se decide: sem ela a rota vive entre `17,7%` e `51,6%` da Rotina, e o vão do dia vai de `4,06` a `6,43` fatias conforme o PE do Caminho.* **Vão que cresce com o PE quer dizer que a máquina tem de gastar PE**, senão ela não é neutra entre os cinco Caminhos.
 
-***A v0.166 tirou a cura do `Classe 0`, e o achado é do Mizuki indo escrever `Sem Técnica`.*** **Não era mudança de regra: era contradição dentro do próprio manual.**
+**A v0.167 tirou duas cegueiras da triagem de nomes**, e as duas já tinham custado nome. Ela lia as 52 armas e **não as treze categorias**, e a lista de vocabulário dela não tinha `Defesa`, `Aptidão`, `Rotina`, `Sequela`, `Cicatriz` nem `Bloquear`. Hoje ela deriva as categorias do catálogo e lê o glossário do livro — `136` termos —, as duas com guarda de contagem.
 
-> **A regra da Classe 0 diz *"não se montam: escolha uma Forma e pronto"*, e `Cura` É uma Forma.** *A coluna `Custa` da tabela de Formas — `Cura` é `Média`, `Onda` é `Pesada` — nunca era aplicada, porque uma Classe 0 não tem orçamento de onde pagar.* **No nível 30 isso entregava `27` de cura por rodada, de graça, EM ALIADO** — `5,31` fatias, ou `1,06` Trilha inteira.
->
-> ***E o eixo que dói mais não é o tamanho:*** *a peça 11 §6 escreve que curar terceiro é o degrau raro do material e põe ele na Trilha `Sutura`, **no nível 11 dela**.* **O `Classe 0` entregava no nível 1.** *O levantamento é mais estreito que a peça: só Shoko, Yuta e Sukuna fazem output para curar os outros na obra inteira, e o Gojo não consegue.*
->
-> **⚠⚠ O manual já se contradizia, e é isso que faz o conserto ser barato:** *a tabela `Cura cheia` dele começa na **Classe 1**.* **Quem abria o buraco era a `Base por Classe`, que juntava `Cura, Apoio e Onda` numa linha só e dava a ela uma coluna `Classe 0`** — o `Apoio` custa `—` e pertence ali, as outras duas não. *A linha virou duas.*
->
-> ***✔ E a área foi conferida antes de virar alarme falso:*** **`Explosão`, `Cone` e `Linha` têm coluna `Classe 0` na mesma tabela e nada as contradiz.** *Área em Classe 0 é intencional e ficou de fora.*
->
-> **Entrou a checagem 8 do `conferir-manual.py`, e ela não guarda a decisão:** *lê da tabela de cura do próprio manual quais Classes curam, tira dos rótulos dela quais Formas ela governa, e cobra que a `Base por Classe` concorde.* **Dez perturbações: oito acendendo e dois contra-testes verdes** — e o que fecha é dar `Classe 0` aos dois lugares ao mesmo tempo e sair **verde**.
->
-> **⚠ O arnês pegou um defeito meu, e é o da v0.161 de novo:** *o localizador da tabela de cura **estourava** numa tabela com linha vazia em vez de falhar limpo.* **Guarda que acusa e morre antes de dizer o que viu não é guarda.**
->
-> **Manual na v7.17**, com o build de controle reconstruindo a v7.16 **idêntica** antes de o novo valer. *Delta de seis linhas no manual inteiro; o livro ganhou 50 palavras e nenhum número de regra — o `guard_numeros.py` prova, e as cinco diferenças dele são o parágrafo novo e a célula duplicada.*
+> **Três dos cinco `Estilos da Pegada` estavam batizados duas vezes**, e viraram `Volteio` · `Couraça` · `Mão Nua`. *Nenhum preço se moveu.* **E a ordem do `UNIVERSO` virou ordem de autoridade:** quando duas fontes reivindicam o mesmo nome, a primeira vence — antes era a última, e acrescentar fonte mudava em silêncio a razão publicada.
 
-***A v0.164 fechou as doze entregas do Evocador, e com elas as quinze Trilhas.*** *`Servo`, `Matilha` e `Coro` estavam paradas desde a v0.82 — trinta e duas versões — e o que travava não era o que o cabeçalho de parada dizia.*
+**A v0.166 tirou a cura do `Classe 0`.** Não era mudança de regra: a tabela `Cura` do manual sempre começou na Classe 1, e quem abria o buraco era a `Base por Classe`, que juntava `Cura, Apoio e Onda` numa linha só. *Um `Classe 0` com Forma `Cura` entregava `27` de cura por rodada, de graça, em aliado — `1,06` Trilha.* **Manual na v7.17.**
 
-> ***A decisão que as segurava foi superada por ESCOLHA e não por fato.*** *"Evocador deixa realmente para outro dia, ninguém vai usar essa classe por enquanto" — a premissa era a primeira mesa de teste não ter Evocador, e ela não mudou.* **Decisão do Mizuki: reabrir mesmo assim.** *O que destravou de verdade foi a v0.163: enquanto o relógio da meia vida e a queda do dono estavam abertos, nenhuma entrega que mexesse neles tinha contra o que ser medida.*
->
-> **⚠⚠ O `Servo` que o rascunho publicava como "montado" estava em `1,27` por fatia, e a fatia é `5,08` desde a v0.73** — *nove versões ANTES de o cabeçalho de parada ser escrito.* **Na escala de hoje aquela montagem entregava `1,00` fatia de `5,00`.** *A `LISTA-gatilhos-trilhas` já tinha achado isso na v0.77 e escrito que ele "precisa ser **refeito** e não reajustado"; o achado nunca voltou para o rascunho.*
->
-> **E o segundo defeito não era de escala.** *A peça 15 §3.4 escreve que o `Servo` e a `Matilha` **comandam e não atacam** — a Ação Padrão vai no `Comando`, toda rodada.* **As quatro maiores linhas da régua de `DESENHO-trilhas.md` dependem de uma Ação Padrão que duas das três Trilhas gastam na porta de entrada**, e o nível 27 daquela montagem era uma delas. *O `Coro` é o único dos três que paga por essas moedas.*
->
-> | | total | lidera | estouro |
-> |---|---|---|---|
-> | **`Servo`** | `7,32` | defesa e recuperação | `+46%` |
-> | **`Matilha`** | `5,05` | — | `+1%` |
-> | **`Coro`** | `7,67` | ação/alvo | `+53%` |
->
-> ***A `Matilha` ganhou um dial que só ela pode ter, e ele é ideia do Mizuki.*** *Com cinco corpos em pool a `50%`, "quantos acertam" é `96,9 · 81,3 · 50,0 · 18,8 · 3,1%` — e o degrau de três cai em `50,0%` **exatos**, a mesma taxa da lista fechada.* **A Trilha inteira é esse dial andando, e o nível 27 desce ele de três para dois.**
->
-> **⚠⚠ E duas Trilhas monocromáticas na mesma coluna sempre dominam uma à outra.** *Aconteceu dentro da passada: com o `Coro` em `4,96` a `Matilha` dominava, e com ele em `7,67` a dominância inverteu sem ninguém encostar nela.* ***Decisão do Mizuki: declarar*** — **o eixo que separa as duas mora na outra matriz**, cinco corpos contra atacar-e-comandar. *Entrou a **checagem 15** do `conferir-catalogo.py`, que reconta a matriz das linhas de preço e falha nas duas direções, com a guarda de que declaração só vale se nomear o eixo de fora.* **Sete perturbações: seis acendendo, e o contra-teste — que move a coluna, a matriz e a declaração juntas — sai verde.**
->
-> **⚠⚠ E a triagem era cega para o catálogo de Bênçãos inteiro.** *`Casco`, `Ímpeto` e `Presilha` saíam `LIVRE`.* **Já tinha custado um nome: `Casco` está batizado duas vezes**, como Bênção e como rota da `Sintonia` do Evocador — e os dois são sobre ganhar vida. *Consertado no validador; o nome duplicado fica como achado.*
+> *Curar terceiro é o degrau raro do material, e a peça 11 §6 põe ele na Trilha `Sutura`, no nível 11 dela.* **Área em `Classe 0` é intencional e ficou de fora** — `Explosão`, `Cone` e `Linha` têm coluna `Classe 0` na mesma tabela, e nada as contradiz.
 
-***A v0.163 fechou as duas pendências de Invocações que este arquivo declarava como trava das três Trilhas do Evocador, e nenhuma das duas era a decisão que parecia ser.***
+**A v0.164 fechou as doze entregas do Evocador, e com elas as quinze Trilhas.** `Servo`, `Matilha` e `Coro` estavam paradas desde a v0.82.
 
-> ***"O que acontece com a invocação quando o dono cai" não estava escrito em lugar nenhum*** — *nem na peça 15, nem no capítulo 60 do livro, nem na seção `Em aberto` dele.* **Por isso nem a contagem de marcas do `conferir-voz.py` a enxergava.**
+> **A `Matilha` ganhou um dial que só ela pode ter, ideia do Mizuki.** *Com cinco corpos em pool a `50%`, "quantos acertam" é `96,9 · 81,3 · 50,0 · 18,8 · 3,1%` — o degrau de três cai em `50,0%` exatos.* **A Trilha inteira é esse dial andando.**
 >
-> **Três quartos dela já estavam respondidos, e por dois donos diferentes:** *no `Insistir` a regra resolve sozinha — quem fica de pé tem Ação Padrão, então comanda como sempre —, e a invocação **agir** sozinha é recusada pela CONTA.* **A trava da peça 6 §4 se sustenta porque o `Comando` come a Ação Padrão; dono inconsciente não tem uma, então ela agiria de graça, e a §1 da peça 15 mede esse caso: `invocação que age sozinha DOBRA o dano por rodada`.**
+> **Duas Trilhas monocromáticas na mesma coluna sempre dominam uma à outra**, e a dominância entre `Matilha` e `Coro` ficou **declarada**: o eixo que separa as duas mora na outra matriz, cinco corpos contra atacar-e-comandar. *A checagem 15 do `conferir-catalogo.py` reconta a matriz e só aceita declaração que nomeie o eixo de fora.*
 >
-> ***Sobrou o `Aguentar`, e a decisão do Mizuki foi: ela fica parada.*** *E a v0.162 tinha deixado pronto, sem saber, o que faz isso valer a pena:* **um corpo de pé em cima do dono caído é `uma criatura no caminho`, logo cobertura `Parcial`** — `+2` de Defesa e `+2` no TR Físico pela janela inteira, sem uma linha de regra nova.
->
-> **A vida cheia volta no DESCANSO LONGO, e isso não era sabor:** *a peça 10 §3 já decidiu que o respiro não devolve vida — em JJK quem conserta gente é a Energia Reversa e a Shoko —, e a meia vida da invocação é vida.* **Pôr ela no curto criaria uma segunda escada de recuperação para um tipo de corpo só.**
->
-> **Entrou a checagem 31 do `conferir-invocacoes.py`**, e ela **LÊ** o degrau da linha `Vida` das duas tabelas da peça 10 §3 em vez de guardar a palavra. *Onze perturbações: dez acendendo, e o contra-teste vira a escada de descanso nos três donos e sai **verde**.*
->
-> **⚠⚠ E o `conferir-repositorio.py` tinha DOIS leitores de numeral.** *A checagem 9 tinha o próprio mapa, idêntico ao `NUMERO` do topo do arquivo e **sem os compostos** — o mesmo defeito que a v0.132 consertou no outro leitor.* **Apareceu porque o `conferir-invocacoes.py` chegou a `31`: `"trinta e uma checagens"` era lida como `1`.** *Os dois viraram um.*
->
-> **⚠ E os guardas do livro me pegaram três vezes:** *eu copiei o `+2` da cobertura e o `três rodadas` da janela para dentro do capítulo 60 — uma versão depois de escrever a checagem que proíbe isso no manual —, escrevi `capítulo 3` onde é o `4`, e um título que abria com `Quando`, que o `conferir-voz.py` lê como pergunta.*
+> **⚠ E um nome ficou batizado duas vezes:** *`Casco` é Bênção e é rota da `Sintonia` do Evocador, e os dois são sobre ganhar vida.* **Fica como achado aberto.**
 
-***A v0.162 tirou do manual dois graus de cobertura que este sistema não tem, e as duas entradas que os citavam são PREÇADAS.*** **A Melhoria `Sem Cobertura` (`Leve`) dizia *"cobertura leve e meia cobertura"* e a Passiva `Afinidade` (Classe 3) dizia *"cobertura leve"*** — *e a escada daqui é `Parcial` · `Boa` · `Total`, na peça 19 §5.*
+**A v0.163 fechou as duas pendências de Invocações.** *Com o dono caído, quem fica de pé tem Ação Padrão e comanda como sempre; a invocação agir sozinha é recusada pela conta, porque ela dobraria o dano por rodada.* **A vida cheia da invocação volta no descanso longo**, derivado da peça 10 §3 — o respiro não devolve vida.
 
-> **Rastreados nos PDFs de referência, e são de sistemas diferentes:** *`cobertura leve` é do **GURPS 4e**, onde nem grau é — lá é um `−2` de tiro —, e `meia cobertura` é o *half cover* do **D&D 2014**.* **Os dois apontam para obstrução parcial, que aqui é a `Parcial`**, e é por isso que a tradução fiel **não move preço**. *Ler como dois degraus entregaria `4,75×` — `+22,2%` furando a `Parcial` contra `+83,3%` furando a `Boa` —, e isso não é reescrita de texto: é outra entrada.*
->
-> **⚠⚠ E o `INDEFINIDOS_ACEITOS` do `conferir-manual.py` não isentava nada.** *O único lugar que consulta a lista é um `elif` dentro do laço do `EXIGEM_DEFINICAO`, e as duas não tinham um termo em comum — o ramo era inalcançável.* **O motivo declarado do `cobertura leve` também estava errado nas duas metades:** *"mora na peça de equipamento, que ainda não existe"* — **ela saiu na v0.48**, e cobertura mora na peça 19 §5 desde a v0.94. *`cobertura leve` saiu da lista; `inimigo fraco` entrou no `EXIGEM_DEFINICAO`, e a isenção dele virou caminho vivo.*
->
-> ***A escada NÃO foi comprimida, e a medida foi a pedido dele.*** *A premissa está certa — o acerto daqui topa em `+10` contra o `+11` do d20, então a cobertura morde mais forte aqui.* **Mas `+2/+5` é a mais próxima das três:** `5,3` pontos percentuais da mordida do d20, contra `6,8` do `+2/+4` e `12,9` do `+1/+4`. *O desvio a corrigir é menor que um ponto de cobertura, e o motivo da v0.94 nunca foi matemático.* **Virou a §5.2 da peça 19.**
->
-> **Entrou a checagem 7 do `conferir-manual.py`**, que lê a escada da peça e falha nas duas direções — *grau que a peça não tem, e cópia dos bônus que são dela.* **Onze perturbações: oito acendendo e três contra-testes**, e o que fecha é o que muda os bônus da peça e não encosta no manual. *O arnês pegou duas perturbações minhas que saíam verdes pelo motivo errado.*
->
-> **⚠⚠ E a folga da checagem 7.2 já tinha acabado, em silêncio.** *Ela mede a árvore DA ENTREGA, então só falhou depois de o `subir.sh` copiar — nenhuma rodada de validador antes disso podia acusá-la.* **O contador estava em `140`, exatamente o teto:** o comentário promete folga de cinco e a reescreve a cada versão que empurra o número, e entre a v0.145 e a v0.161 ele comeu as cinco sem ninguém ver. *Teto sem folga fica calado até a próxima citação e aí reprova.* **Virou `contagem desta versão + folga declarada`, com AVISO quando a contagem passa da base e erro só quando a folga acaba** — `142` e `146` avisam, `147` reprova.
->
-> **Manual na v7.16**, com o build de controle reconstruindo a v7.15 **idêntica** antes de o novo valer. *Delta de três trechos de texto no manual inteiro; o livro ganhou 12 palavras e nenhum número — o `guard_numeros.py` prova.*
+**A v0.162 tirou do manual dois graus de cobertura que este sistema não tem.** *`cobertura leve` é do GURPS 4e e `meia cobertura` é o half cover do D&D 2014; os dois apontam para obstrução parcial, que aqui é a `Parcial`.* **A escada daqui é `Parcial` `+2` · `Boa` `+5` · `Total`, na peça 19 §5**, e a tradução fiel não move preço.
 
-***A v0.161 matou o `sete`, e ele tinha sobrevivido setenta e duas versões à decisão que o aposentou.*** **A v0.89 pôs a rota pura de Refino em `10` aptidões, e quatro lugares continuaram publicando `7`** — *a tabela das quatro rotas aqui, duas frases da peça 11 e uma da peça 2.*
+> ***A escada NÃO foi comprimida, e a medida foi a pedido dele.*** *O acerto daqui topa em `+10` contra o `+11` do d20, então a cobertura morde mais forte.* **Mas `+2/+5` é a mais próxima das três:** `5,3` pontos percentuais da mordida do d20, contra `6,8` do `+2/+4` e `12,9` do `+1/+4`. **Manual na v7.16.**
 
-> **As duas peças se contradiziam por dentro.** *A peça 11 dizia `10` na tabela e na §3, e `sete` sete linhas acima da própria tabela; a peça 2 dizia `10 apt` na tabela e `sete aptidões` dois parágrafos abaixo.* **O LIVRO publica `dez`** — e já publicava na cópia abandonada da v0.138, onde a peça 11 já carregava as duas ocorrências de `sete`. *Nada comparava a contagem com coisa nenhuma, e é por isso que ela atravessou setenta e duas versões com todos os validadores verdes.*
->
-> **⚠⚠ E `meio a meio` nomeava TRÊS rotas.** *A curva da peça 11 §3 é de `3` escolhas de Refino; a tabela daqui era de `2`; e a linha `ROTAS` do `conferir-aptidoes.py` era de `2` — essa terceira só aparecia na saída impressa da checagem 5, que exibia os totais de outra rota.* **A curva da peça manda, porque o `conferir-atributos.py` deriva dela a Defesa do alvo difícil**, e a linha daqui foi alinhada para `2` Corpo · `3` Refino · `2` Leque.
->
-> ***E isso importa para o `Bestiário`:*** *este arquivo é o dono declarado do refino e das aptidões do inimigo, o chefe herda a curva do `meio a meio`, e a rolagem de clash é `1d10 + aptidões + metade do nível`.* **A contagem de aptidão é modificador de rolagem viva, e não enfeite de tabela.**
->
-> **Duas frases do clash caíram junto.** *O `+3, que é 72%` está certo para `+3` — só que `+3` é a distância no marco **22**, e no 22 o refino ainda decide sozinho.* **E o `perdem 12% das vezes` não sai de vantagem nenhuma:** as derrotas possíveis nessa rolagem são `45 · 36 · 28 · 21 · 15 · 10 · 6 · 3 · 1%`.
->
-> **Entrou a checagem 11 do `conferir-aptidoes.py`** — *ela lê os dois números da regra, simula os sete marcos, e compara com os **nove** lugares que publicam a contagem, com guarda de reconhecedor em cima.* **Dezenove perturbações: dezessete acendendo e dois contra-testes**, e o que importa é o que reverte a v0.89 de forma coerente e sai **verde**.
+**A v0.161 matou o `sete`, e ele tinha sobrevivido setenta e duas versões à decisão que o aposentou.** *A v0.89 pôs a rota pura de Refino em `10` aptidões, e quatro lugares continuaram publicando `7`.* **E `meio a meio` nomeava três rotas diferentes** — a linha daqui foi alinhada com a curva da peça 11 §3: `2` Corpo · `3` Refino · `2` Leque.
 
-***A v0.160 tirou a checagem 7.4 do rótulo e pôs ela no conteúdo.*** **Ela lia a mensagem do último commit da entrega e tirava o `vN.NN` dali** — *e o número da entrega mora em dois lugares, o `README` dentro do commit e a mensagem dele, com nada comparando os dois.*
+> **⚠ E isto importa para o `BESTIÁRIO`, que é a próxima peça.** *Este arquivo é o dono declarado do refino e das aptidões do inimigo; o chefe herda a curva do `meio a meio`, e a rolagem de clash é `1d10 + aptidões + metade do nível`.* **Contagem de aptidão é modificador de rolagem viva, e não enfeite de tabela.**
 
-> **O buraco era dos dois lados.** *Entrega em dia REPROVAVA se alguém copiasse a mensagem da vez passada — foi a v0.156, três rodadas para achar.* **E entrega DUAS versões atrasada PASSAVA se alguém escrevesse a mensagem certa por cima dela**, que é pior: a checagem existe justamente para achar isso.
->
-> **A versão passou a sair da linha `Recorte da vN.NN` do `README` da entrega dentro do commit**, lida com `git show HEAD:README.md` — a mesma linha que o passo 0 do `subir.sh` mantém em dia. *A mensagem continua sendo lida e virou a segunda metade da comparação:* **rótulo que discorda do conteúdo sai como AVISO, e não como erro.** *Mensagem de commit já feito não se conserta sem reescrever história, e travar por causa dela seria travar contra o passado.*
->
-> **⚠ E a base do arnês nasceu PULANDO a checagem que ela existia para medir** — a cópia isolada exclui `.git`, então a entrega dela não era repositório e a 7.4 saía `PULADA` com código `0`. *Verde falso, no molde da v0.155.* **Oito casos, e o validador antigo responde diferente em cinco deles.**
+**A v0.160 tirou a checagem 7.4 do rótulo e pôs ela no conteúdo.** *A versão da entrega passou a sair da linha `Recorte da vN.NN` do `README` dela dentro do commit, e não da mensagem.* **A mensagem continua sendo lida e virou a segunda metade da comparação:** rótulo que discorda do conteúdo sai como aviso, e não como erro — mensagem de commit já feito não se conserta sem reescrever história.
 
-***A v0.159 fechou as duas linhas que faltavam no inimigo, e elas eram o mesmo trabalho.*** **A peça 24 §8 pedia a Integridade dele desde a v0.145 e a peça 23 §9 pedia a Reação desde a v0.143** — *as duas apontando para a mesma seção do manual, e nenhuma sabendo da outra.*
+**A v0.159 fechou as duas linhas que faltavam no inimigo, e elas eram o mesmo trabalho.** *As duas pendências pediam "valor sugerido por nível", e nenhuma das duas tem valor por nível:* **a Integridade do inimigo é a vida máxima dele, e a Reação é o mesmo slot que a peça 3 §3 dá a qualquer ficha.** O que faltava não era um segundo valor — era um segundo lugar de marcar.
 
-> **As duas pendências descreviam o conserto errado, e do mesmo jeito:** *"valor sugerido por nível na tabela"*, que é o molde do ambiente propício. **Nenhuma das duas tem valor por nível.** *A Integridade do inimigo é a vida máxima dele, e a tabela já publica a vida; a Reação é o mesmo slot que a peça 3 §3 dá a qualquer ficha.* ***O que faltava não era um segundo valor: era um segundo lugar de marcar*** — a Integridade só se separa da vida quando o dano que atravessa o corpo entra, e a `Brecha` só existe se o mestre souber que a Reação do inimigo está na mão dele.
+> **⚠⚠ E NÃO existe ficha de inimigo, apesar de três documentos falarem dela.** *O manual não tem bloco de inimigo: a seção `Inimigos` é uma tabela de nível → vida e dano, mais prosa.* **Montar um inimigo pede nove números com quatro donos** — o manual, a peça 19, a peça 1 e este arquivo. ***Juntar os nove é o `BESTIÁRIO`, e ele é peça.***
 >
-> **⚠⚠ E NÃO existe ficha de inimigo, apesar de três documentos falarem dela.** *Achado dele lendo o fecho, e a redação da versão foi corrigida por causa disso.* **O manual não tem bloco de inimigo: a seção `Inimigos` é uma tabela de nível → vida e dano, mais prosa**, e o apêndice tem `Ficha de feitiço` e nada do outro lado. *Montar um inimigo pede **nove** números com **quatro** donos — o manual, a peça 19, a peça 1 e este arquivo, que declara na seção do clash que o inimigo carrega refino e aptidões "na ficha dele".* **Juntar os nove é o `Bestiário`, e ele é peça.**
->
-> **⚠⚠ E indo escrever apareceu que o manual publicava a Integridade errada há treze versões.** *A caixa da seção `Integridade` dizia `Integridade = vida máxima` sem dizer para quem, e a linha do apêndice repetia.* **Desde a v0.145 essa linha é falsa para personagem jogador** — quem manda nele é a fórmula do §2 daquela peça. *O conserto foi apontar e não copiar: o manual diz que personagem tem fórmula própria, e a checagem 12 falha se a fórmula da peça 24 aparecer dentro dele.* **Manual na v7.15, com a paginação parada em 49.**
->
-> ***Decisão medida: o chefe NÃO ganha uma segunda Reação por ter três ações.*** *O ataque dela sairia por cima dos `72` de dano por rodada que a tabela de inimigo publica — e o dono daquela tabela é o playtest —, e o único gatilho com taxa medida é a `Brecha`:* **`1,00%` por rolagem × `16` rolagens por combate = `0,16` disparo por combate.** *Uma Reação por rodada nunca acaba contra isso.*
->
-> **A checagem 8 do `conferir-bloquear.py` não guarda o `1`:** *ela lê a quantidade da peça 3 e a do manual e compara, então trocar as duas para `duas` de forma coerente sai **verde** de propósito.* **Vinte e uma perturbações nas duas checagens: quinze acendendo e seis contra-testes.**
+> *Decisão medida: o chefe não ganha uma segunda Reação por ter três ações.* **A `Brecha` dispara `0,16` vez por combate**, e uma Reação por rodada nunca acaba contra isso. **Manual na v7.15.**
 
-***E a contagem de checagens escapava por TRÊS portas, não pela que a v0.158 anotou.*** **Cinco contagens publicadas estavam erradas no fim da versão, e o código antigo pegava duas.**
+**A v0.158 deu peça, conta e validador ao dano na arma**, e ele estava sem os três desde a v0.147 — morava só no livro, em dois capítulos, e nenhum validador alcançava.
 
-> **1 · O rótulo em minúscula**, que a v0.158 deixou apontado. *Entrou a guarda `0.1`, com zero falso positivo medido nos 25 validadores.*
+> ***Decisão do Mizuki: o refino `10` passa a dar `4d6` em vez de `3d6`.*** *Palavras dele: "isso incentiva a galera a querer pegar refino, e isso é bom, dá peso para as outras opções."* **A linha de graça do marco entrega `8` dos `10`, então o `10` é o único degrau que exige ter escolhido Refino — e ele passou a ser o maior**, `+6,5` contra `+2,5` dos outros três. *Só o `10` se move, e é isso que salva o degrau do nível 7 dos cinco Caminhos, medido em refino passivo `8`.*
 >
-> **2 · ⚠⚠ O mapa peça → validador mandava a peça 24 para o `conferir-dano.py`.** *Ele é derivado do nome do arquivo, e `24-dano-de-alma.md` começa com `dano`* — **então o `conferir-alma.py` ficava sem peça nenhuma, e a linha que publica a contagem da peça 24 era conferida contra o validador errado.** *Passou despercebido por coincidência: os dois tinham onze checagens.* **O conserto continua derivado — peça que cai num validador já tomado tenta um candidato livre do próprio slug —, e só a 24 se moveu.**
+> **⚠ E o `4d6` faz a exclusão do crítico virar carga.** *A peça 1 §5.2 exclui dado de aptidão do crítico; se ele dobrasse, o `Incapacitado` iria a `114%` do teto da `Leve` — com o soco, sem precisar de arma `d12`.* **Na v0.151 aquela linha era folga; hoje ela é o que segura a condição dentro da banda.**
 >
-> **3 · A palavra `nova` em qualquer ponto da linha desligava a conferência dela.** *A exceção existe para não confundir "duas checagens novas" com um total, e ela lia a linha inteira: a linha 3 deste arquivo escapava pela palavra **"conversa nova"**, a trezentos caracteres da contagem.* **Hoje ela lê uma janela de `40` caracteres.**
+> **A trava da §2 da peça 11 passou a dizer de que ela é feita.** *Ela é de orçamento, com duas condições medíveis: o dano de refino não sobe o pico da rodada, e a rodada em que ele cai fica abaixo da Rotina do nível.* **A §6.9 é a dona das duas medidas.**
 >
-> *A que já estava errada antes desta versão era a peça 14 §9, dizendo `onze` blocos contra os `doze` do `conferir-equipamento.py`.* **Ela não foi corrigida para `doze`: deixou de carregar numeral.** *Contagem de bloco é do código, e a checagem 9 já publica.*
-
-***E o `11 triagens` era `10` desde a v0.150.*** *O número era `11` de verdade da v0.145 até a v0.149; depois da queda, seis entradas do `CHANGELOG` e o prompt de retomada continuaram publicando `11`.* **O décimo primeiro era o exemplo do `Desgaste` no capítulo 16, que saiu quando a ferramenta deixou de descer de grau** — *o reconhecedor casava `o que importa` dentro de `missão que importava`.* **A entrada do `PENTE-FINO-v0.147.md` continua dizendo `11`, e fica: naquela versão eram onze mesmo.**
-
-***A v0.158 deu peça, conta e validador ao dano na arma, e ele estava sem os três desde a v0.147.*** **Era o único dado do sistema nessa situação:** *ele morava só no livro, em dois capítulos, e nenhum `conferir-*.py` alcançava.*
-
-> **A peça 11 contradizia o livro em três lugares, e as três frases eram de v0.27.** *"O refino não a escala" sobre o `canalizar energia`, em **duas** cópias — a §6 e o §10 —, e "é o único lugar do catálogo onde o refino toca dano" sobre o `projetar energia`.* **E dentro do próprio livro:** *a seção `Efeito do refino` diz que ele fica fora de dano, e cem linhas abaixo o `Canalizar energia` dá dano que escala com refino.* **Nenhuma marca, regex ou checagem pegava — as duas estão gramaticalmente perfeitas.**
->
-> **⚠⚠ E a trava da §2 nomeava `dano` com uma justificativa que nunca alcançou ele.** *"Os cinco têm do outro lado alguém que cresce `+3`" — dano não tem: o que está do outro lado dele é a vida do inimigo, que é tabela do manual e não rola.* ***A saída não foi tirar dano da trava: foi escrever de que a trava dele é feita.*** **Ela é de ORÇAMENTO, e tem duas condições medíveis:** *o dano de refino não sobe o PICO da rodada — ele só existe na rodada em que não há feitiço —, e a rodada em que ele cai fica abaixo da Rotina do nível.* **Duas entradas usam a exceção, e a §6.9 é a dona das duas medidas.**
->
-> ***Decisão do Mizuki na v0.157, escrita agora: o refino `10` passa a dar `4d6` em vez de `3d6`.*** *O argumento é de desenho, e são palavras dele:* **"isso incentiva a galera a querer pegar refino, e isso é bom, dá peso para as outras opções."** *A linha de graça do marco entrega `8` dos `10`, então os degraus `3`, `6` e `9` chegam para todo mundo — **o `10` é o único que exige ter escolhido Refino, e ele passou a ser o maior**: `+6,5` contra `+2,5` dos outros três.*
->
-> **⚠ Só o `10` se move, e é isso que salva a v0.155 inteira.** *O degrau do nível 7 dos cinco Caminhos foi todo medido em **refino passivo `8`**, e a checagem 6 do `conferir-manual.py` continua verde sem uma linha mexida.*
->
-> **A conta, no nível 30:** *a Ação de Atacar vale `23,00` sem dado nenhum — `0,85×` o `Classe 0` grátis, ou seja, **dominada pelo botão que toda ficha tem** —, `33,00` no refino `8`, e `51,00` no refino `10` com `4d6`, que é `1,89×`.* **O pior nível é o `7`, com a Ação de Atacar em `51,6%` da Rotina, e o `4d6` não move esse número** — no nível 7 o refino é `3`. *Dominância entre a pior e a melhor rota do nível 30: `1,55×` contra um filtro de `3,00×`.*
->
-> **⚠⚠ E o `4d6` faz a exclusão do crítico virar CARGA.** *A peça 1 §5.2 exclui dado de aptidão do crítico; se ele dobrasse, o `Incapacitado` iria a `17,55`, que é `114%` do teto da `Leve` — com o soco, sem precisar de arma `d12`.* **Na v0.151 aquela linha era folga; hoje ela é o que segura a condição dentro da banda.** *Os números foram atualizados nos dois donos.*
->
-> **A checagem 10 do `conferir-aptidoes.py` não guarda valor nenhum**, e ela lê a exceção do teto como RELAÇÃO — *o refino em que ela dispara, as faces novas, e se ela acrescenta um dado*. **Vinte e uma perturbações: dezoito acendendo e três contra-testes verdes**, e o que importa é o que reverte para `3d6` de forma coerente em todos os lugares e sai **verde**. *A primeira versão dela reprovava esse contra-teste, porque lia a exceção pelo literal.*
->
-> ***E a mesma versão mediu a dívida das Manhas com UM ataque, e a descrição dela estava errada em quatro pontos.*** *A v0.154 nomeou `Talho`, `Raspão`, `Racho` e `Zunido` de cabeça.* **Reconstruídas das bases e conferidas contra o catálogo — as treze reproduzem —, quem cai pela metade é `Raspão`, `Zunido` e `Gancho`; o `Encaixe` cai um terço pelo PORTÃO; o `Talho` SOBE `33%`; e o `Racho` não se move.**
->
-> > **O catálogo não quebra com um ataque: ele encolhe.** *Banda `0,53`–`1,06` e dominância `2,00×` do nível 2 ao 6, contra `0,53`–`1,18` e `2,22×` do 7 ao 30 — **a dominância melhora**, e o filtro reprova em `3,00×`.* **O que cai é a média, de `0,94` para `0,80`: o degrau do nível 2 da Vanguarda entrega `80%` de uma fatia por cinco níveis, e cresce `18%` sozinho no nível 7.**
-> >
-> > ***Decisão do Mizuki: declarar e não mexer***, no molde da v0.119 e da v0.156. *Repreçar contra o nível 2 põe a dominância em `3,76×` e reprova; tirar o número de golpes da fórmula passa, e custa a Manha parar de ficar melhor quando o ataque extra chega.*
-> >
-> > **⚠⚠ E a média publicada não reconstruía, em DOIS documentos.** *O `DESENHO-manhas.md` dizia `0,97` e as treze somadas dão `0,94`; e a tabela da peça 20 §4.1 era inteira de antes da v0.154 — quatro versões.* **O `conferir-marcial.py` calculava o número certo o tempo todo, porque lê do dono, e nada comparava o que ele calcula com o que a peça publica.**
-> >
-> > *Entraram duas sub-checagens — a `13.1` do `conferir-catalogo.py`, que reconta a banda do mundo de um golpe a partir de uma tabela nova no desenho, e a `3.1` do `conferir-marcial.py`.* **As duas contam para o bloco pai, então a contagem não se moveu.**
->
-> **⚠⚠ E fechando a versão apareceu que a contagem de checagens mentia para baixo, por um rótulo em minúscula.** *A checagem 6 do `conferir-manual.py`, da v0.155, nasceu como `print('  6. os cinco degraus…')` — e o extrator da checagem 9 exige maiúscula depois do número.* **Ela nunca existiu para a contagem: o projeto publicava `258` e o código tinha `257`.** *É o irmão do defeito da v0.118, e as duas guardas daquela versão não pegam este caso — elas procuram buraco e repetição, e um bloco invisível não abre buraco.*
+> **E as treze Manhas foram remedidas com UM ataque por rodada**, que é o mundo do nível 2 ao 6: *banda `0,53`–`1,06`, dominância `2,00×`, média `0,80`.* ***Decisão do Mizuki: declarar e não mexer*** — repreçar contra o nível 2 põe a dominância em `3,76×` e reprova.
 
 ***A v0.155 fechou a dívida do vão do nível 7, aberta desde a v0.147 — e o diagnóstico não era o que a dívida dizia.*** **O ataque extra não virou letra morta: o VÃO é que deixou de ser um número.**
 

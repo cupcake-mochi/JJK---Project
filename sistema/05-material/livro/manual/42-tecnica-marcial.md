@@ -34,7 +34,7 @@ Três coisas mudam de nome e duas somem.
 >
 > **Você não tem Expansão de Domínio.** Nem incompleta, nem completa, tenha a sua ficha energia amaldiçoada ou não. Uma Expansão estende a técnica inata sobre o território em volta, e esta rota não tem técnica inata para estender.
 
-**E quem não tem energia amaldiçoada troca refino e aptidões por Lapidação e Bênçãos**, no capítulo 12.
+**E quem não tem energia amaldiçoada troca refino e aptidões por Lapidação e Bênçãos**, no capítulo 13.
 
 ## Rotas
 
@@ -42,8 +42,8 @@ Na criação, depois da Descrição e da Regra, você escolhe uma das duas. **A 
 
 ### Rota de arma
 
-> **Escolha três das treze categorias de arma, diferentes entre si.** As treze estão no capítulo 13, *Equipamento*.
-> **Você recebe uma arma de cada uma, de grau 4.** Grau 4 fere maldição e não dá `Estigma` nenhum — capítulo 14, *Ferramenta Amaldiçoada*.
+> **Escolha três das treze categorias de arma, diferentes entre si.** As treze estão no capítulo 14, *Equipamento*.
+> **Você recebe uma arma de cada uma, de grau 4.** Grau 4 fere maldição e não dá `Estigma` nenhum — capítulo 15, *Ferramenta Amaldiçoada*.
 > **Você é treinado nas três**, seja qual for a lista de treino do seu Caminho.
 > **As suas Katas valem com qualquer arma amaldiçoada desses três grupos.**
 
@@ -53,7 +53,7 @@ Se a sua lâmina quebrou no meio da missão, qualquer outra arma amaldiçoada do
 
 **Os três grupos entregam arma, treino e o Selo. Manha nenhuma.** Uma Vanguarda desta rota continua escolhendo **uma** categoria na `Escola de Arma`, e pode escolher uma que não seja das três.
 
-**As três armas começam em grau 4, e param aí.** Subir de grau é assunto do capítulo 14, pelo mesmo ritmo que vale para todo mundo.
+**As três armas começam em grau 4, e param aí.** Subir de grau é assunto do capítulo 15, pelo mesmo ritmo que vale para todo mundo.
 
 **Três armas na mochila não são três `Estigma`.** O teto conta pelo que está na mão, e não pelo que está guardado.
 
@@ -79,7 +79,7 @@ A `Lâmina Longa` está nas duas porque a Rapieira e a Katana carregam `Fineza`.
 
 ### Rota de ferramenta
 
-> **Escolha uma ferramenta amaldiçoada sob medida, de grau 4, na forma de objeto de apoio** — a categoria que o capítulo 14 abre ao lado do catálogo de armas.
+> **Escolha uma ferramenta amaldiçoada sob medida, de grau 4, na forma de objeto de apoio** — a categoria que o capítulo 15 abre ao lado do catálogo de armas.
 > **Ela não tem dado de arma**, e não precisa ter: as suas Katas nunca somaram o dado do equipamento.
 > **Ela declara na criação se o seu golpe simples atravessa por ela.**
 > **As suas Katas valem só com ela.**
@@ -87,7 +87,7 @@ A `Lâmina Longa` está nas duas porque a Rapieira e a Katana carregam `Fineza`.
 
 Uma armadura construída por engenharia, uma câmera amaldiçoada, uma maleta, um instrumento. Uma armadura de engenharia acerta por Inteligência; um instrumento que se toca acerta por Essência.
 
-> **Se a ficção for armadura, ela É o seu uniforme.** Não some com o `Traje` nem com o `Revestimento` do capítulo 13 — ela é um dos dois, e usa os números de lá.
+> **Se a ficção for armadura, ela É o seu uniforme.** Não some com o `Traje` nem com o `Revestimento` do capítulo 14 — ela é um dos dois, e usa os números de lá.
 
 ## Selo
 
@@ -142,7 +142,7 @@ Sacar a segunda é o primeiro saque do seu turno, então sai de graça — capí
 
 **O seu marco tem os três eixos**, iguais aos de todo mundo: `Corpo`, o eixo de controle, e `Leque`. Você tem lista de Katas, tem Passivas e tem espaços, então o `Leque` compra o que ele sempre comprou.
 
-O eixo de controle muda de nome com a Origem: quem tem energia amaldiçoada leva `Refino` e aptidões, no capítulo 11; quem não tem leva `Lapidação` e Bênçãos, no capítulo 12.
+O eixo de controle muda de nome com a Origem: quem tem energia amaldiçoada leva `Refino` e aptidões, no capítulo 12; quem não tem leva `Lapidação` e Bênçãos, no capítulo 13.
 
 ## Passivas
 
@@ -259,4 +259,4 @@ Duas, uma de cada rota. As duas param onde a criação de personagem para: Descr
 | **Fechadas** | Área · Marca · Castigo |
 | **Passiva** | `Leitura` (Classe Passiva 1): você identifica a Classe e a Forma de qualquer feitiço conjurado a até 18 m |
 
-A armadura da Bancada é o `Revestimento` do capítulo 13, com os números publicados lá. E `Amparo` é Livre porque a ficção aguenta: uma arma que cura é difícil de justificar, e uma bancada de engenharia não é.
+A armadura da Bancada é o `Revestimento` do capítulo 14, com os números publicados lá. E `Amparo` é Livre porque a ficção aguenta: uma arma que cura é difícil de justificar, e uma bancada de engenharia não é.

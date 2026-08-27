@@ -99,7 +99,7 @@ Existe um dano na alma que não leva o corpo junto: ele tira Integridade e **só
 
 > **Dano na alma que atravessa não tira vida e não derruba a vida máxima.** Ele desconta da Integridade, e os estágios valem igual.
 
-Isso não é o padrão — é exceção, e ela precisa estar escrita no efeito. **Hoje existe uma:** o `Cisão`, no capítulo 14, *Ferramenta Amaldiçoada*.
+Isso não é o padrão — é exceção, e ela precisa estar escrita no efeito. **Hoje existe uma:** o `Cisão`, no capítulo 15, *Ferramenta Amaldiçoada*.
 
 **Contra quem não é personagem jogador, a Integridade é a vida máxima dele.** Um inimigo não tem Caminho nem Constituição, então não tem por onde a fórmula acima passar — a alma dele é do tamanho do corpo. *Na prática: atravessar não é atalho de dano contra um chefe. O que ele ganha é passar por resistência e redução, e empurrar o alvo pelos quatro estágios.*
 

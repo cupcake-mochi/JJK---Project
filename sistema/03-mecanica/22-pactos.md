@@ -273,7 +273,7 @@ O `conferir-pactos.py` roda **catorze checagens**, e **nenhum valor fica escrito
 
 ## 9. Em aberto
 
-- **O `Estilo da Sombra`.** *O §3.5 escreve o contrato e não o número.* **Quando aquela peça existir, o primeiro trabalho é medir um estilo dela contra `0,50` fatia** — e é a última coisa que separa a nona rota de Origem de rodar.
+- ~~**O `Estilo da Sombra`.** *O §3.5 escreve o contrato e não o número.* **Quando aquela peça existir, o primeiro trabalho é medir um estilo dela contra `0,50` fatia.**~~ **Fechado na v0.168, quando a peça 25 mediu.** *O menor `Manejo` que existe vale `2,56` fatias contra o teto de `0,50` — `5,1×`, e `37,0×` no Classe 7.* **Nenhuma Classe cabe: pacto não concede `Manejo`.** *A linha `um estilo` do §3.3 dissolveu na linha `um espaço de feitiço`, que já tinha resposta.*
 - **Quanto pacto uma mesa fecha de verdade.** *O teto de quantidade supõe que a ficha comum tem Essência `4` ou `5` e leva dois.* **`04-playtest/` está vazia, e esse perfil é previsão.**
 - **Se a Essência passou do ponto.** *Ela já carrega a perícia mais rolada da mesa, o Teste de Resistência de Espírito, e agora o teto de Pactos.* **A pergunta está na seção *Marcado para o playtest* do `ESTADO-ATUAL` desde a v0.16, e a camada que ela previa existe agora.** *Se Essência estiver carregando demais, dói aqui primeiro.*
 - **As oito ideias de restrição viram regra?** *Hoje elas são exemplo.* **Cada uma que virar entrega escrita passa pelo validador da peça dona** — e duas delas, `Fragmentação` e `Catatau`, mexem em coisa que já tem validador em cima.

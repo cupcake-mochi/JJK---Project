@@ -172,6 +172,6 @@ Quinze checagens. **Nenhuma guarda valor:** os nomes saem das tabelas desta peç
 - ~~**Faltam nomes de entrega.**~~ **As 21 vagas fecharam na v0.87.** *A única casa sem nome é a vaga do `Arremate`, e ela é de propósito.*
 - ~~**`Quick Draw` é o único nome em inglês do sistema.**~~ **Traduzido na v0.88: virou `Descarga`.** *Decisão do Mizuki entre quatro candidatos que passaram na triagem. **O sistema não tem mais nenhum nome em inglês.***
 - ~~**Duas entregas têm nome em minúscula.**~~ **Consertadas na v0.93.** *O `Acelerar` da `Torrente` só precisou da maiúscula. O do `Yumi` precisou de nome novo: `Carregar` sai **OCUPADO** na triagem — é Restrição no manual —, e por isso ele nasceu minúsculo. Virou `Disparo Carregado`.* **Nenhuma das 89 entradas tem mais nome em minúscula.**
-- **As três do Evocador ficam de fora enquanto estiverem paradas.** Quando voltarem, o total sai de `89` e a checagem 1 acusa até esta peça subir junto.
+- ~~**As três do Evocador ficam de fora enquanto estiverem paradas.** Quando voltarem, o total sai de `89` e a checagem 1 acusa até esta peça subir junto.~~ **Voltaram na v0.164 — `Servo`, `Matilha` e `Coro` —, e a checagem 1 acusou no mesmo commit, exatamente como prometido.** *O total é `102` desde então.*
 - **A checagem 6 não alcança as Manhas**, porque elas não têm bloco separado. *Se elas ganharem texto de mesa próprio um dia, ela passa a valer lá também.*
 - **Esta peça não preça nada.** Se uma entrega estiver com o preço errado, quem acha é a matriz de dominância do desenho — não o índice.

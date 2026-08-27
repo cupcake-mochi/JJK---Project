@@ -1,4 +1,4 @@
-# Retomada — a v0.169 fechou, e a v0.170 é o capítulo de mesa de `Sem Técnica`
+# Retomada — a v0.170 fechou, e o `BESTIÁRIO` é o único item da fila
 
 Pasta: `/media/mizuki/HD Externo II/Claude/Claude 2/`
 ⚠ Trabalhe na pasta PRINCIPAL, não em worktree. **Você não commita** — deixa a mensagem em
@@ -6,121 +6,101 @@ Pasta: `/media/mizuki/HD Externo II/Claude/Claude 2/`
 
 > ## Estado no disco
 >
-> **A v0.169 está fechada e validada, e a `mensagem-de-commit.txt` da raiz é a dela.**
-> *Ela é uma versão de limpeza: a base da lista branca da 7.2 (que estava a UMA citação de
-> reprovar) e o `README.md` da entrega, que publicava a contagem de capítulos duas vezes
-> discordando de si mesma.*
+> **A v0.170 está fechada e validada, e a `mensagem-de-commit.txt` da raiz é a dela.**
 > *Os 25 validadores de `03-mecanica/`, os quatro de `manual/matematica/` e o `conferir-voz.py
-> --estrito` saem `0` com `PULADA = 0`.* **O `conferir-repositorio.py` sai `1` por três coisas, e
-> as três são da ENTREGA** — o passo 0 do `./subir.sh` resolve as três antes de rodar validador.
+> --estrito` saem `0` com `PULADA = 0`.* **O `conferir-repositorio.py` sai `1` só pela ENTREGA**,
+> e o passo 0 do `./subir.sh` resolve isso antes de rodar validador.
 
 Leia primeiro, nesta ordem: `README.md` (a seção *"Nove lições que custaram erro"*),
-`sistema/ESTADO-ATUAL.md` **inteiro**, o `logs/CHANGELOG.md` de cima até a v0.160, e então a
-**peça 25** (`25-sem-tecnica.md`) e o **capítulo 25 do livro**, o `25-origens.md` da fonte.
+`sistema/ESTADO-ATUAL.md` **inteiro**, e o `logs/CHANGELOG.md` de cima até a v0.160.
 
 ---
 
-## A v0.170 — o capítulo de mesa de `Sem Técnica`, em ARQUIVO PRÓPRIO
+## A v0.171 — o `BESTIÁRIO`, e ele é a última peça da fila
 
-**A regra existe e está escrita; o que falta é o texto longo.** *A v0.168 pôs no capítulo 25 o
-mínimo para o livro parar de contradizer a peça: a seção `Criação` ganhou a semente e a tabela
-`Sementes`, o `Efeito na ficha` passou a dizer que ela escreve Fundamento, e a marca de
-pendência saiu.* **O que ela NÃO tem é o capítulo com a dignidade dos outros** — a peça 20 ganhou
-o `42-tecnica-marcial.md` inteiro, e esta rota tem quatro parágrafos dentro do capítulo de Origens.
+**Montar um inimigo pede NOVE números com QUATRO donos**, e o levantamento é da v0.159:
+*o manual, a peça 19, a peça 1 e o `ESTADO-ATUAL`, que declara na seção do clash que o inimigo
+carrega refino e aptidões "na ficha dele".* **Juntar os nove é a peça, e ela é peça e não
+recolhimento.**
 
-***Decisão do Mizuki: capítulo próprio, no molde do `42-tecnica-marcial.md`.*** *As duas são rota
-de criação que herda a máquina do Fundamento, e a peça 20 é o precedente direto.*
+> ***Decisão da v0.161, e ela vale:*** **é máquina MAIS maldições prontas**, e não recolhimento
+> puro. *O molde é o da peça 15, que é máquina de construção com catálogo em cima.*
 
-| a decidir | o que já está resolvido |
-|---|---|
-| **onde ele entra na ordem** | a peça 20 virou o `42-`, logo depois do `40-fundamento.md` |
-| **o que entra do §5** — a Regra sair da semente | a peça 25 §5 tem os dois exemplos de frase |
-| **os dois Fundamentos de exemplo** | `Redoma` e `Sutura Fria`, prontos no §9 da peça |
+**⚠⚠ E NÃO existe ficha de inimigo hoje, apesar de três documentos falarem dela.** *O manual não
+tem bloco de inimigo: a seção `Inimigos` é uma tabela de nível → vida e dano, mais prosa, e o
+apêndice tem `Ficha de feitiço` e nada do outro lado.*
 
-> **⚠ O que capítulo novo custa, e é tudo mecânico:** ele entra na lista de capítulos dos **três**
-> arquivos que a checagem 10.1 do `conferir-repositorio.py` compara, **a contagem do livro sobe de
-> `17` para `18`** — e ela tem dono e checagem desde a v0.169, o `README.md` do projeto, com a
-> cópia na entrega —, e a seção `Sem Técnica` do capítulo 25 vira ponteiro curto.
->
-> **E o `conferir-voz.py` cobra `{: .tab-titulo }` em toda tabela.** *O `guard_numeros.py antes.md
-> depois.md` roda a cada arquivo, com CADA diferença lida contra a linha que a carregava, mais os
-> **quatro** builds.*
+**O que a v0.159 já deixou pronto para ela:** *a Integridade do inimigo é a vida máxima dele —
+não tem valor por nível, e a tabela já publica a vida —, e a Reação dele é o mesmo slot que a
+peça 3 §3 dá a qualquer ficha.* **O que faltava não era um segundo valor: era um segundo lugar
+de marcar.**
 
 ## Depois dela
 
-1. **O `BESTIÁRIO`** — os nove números com quatro donos que montar um inimigo pede.
-   *Decisão da v0.161: é **máquina mais maldições prontas**, e não recolhimento puro.*
-   **É o único item da fila da mecânica.**
-2. **Duas dívidas que a v0.168 herdou e não pagou:**
+1. **Duas dívidas de argumento, as duas velhas:**
    - **⚠⚠ `08-criacao-de-personagem.md` Passo 1 dá os ofícios ao dono errado.** *Ele diz que a
      **Origem** entrega "dois ofícios livres", e a peça 7 §6 é dona: o **Caminho** dá dois, a
      Origem dá um ou uma perícia. O total `8+3`/`9+2` só fecha pela leitura da 7.*
    - **⚠ A peça 11 §6 justifica *"o refino não escala a `Energia Reversa`"* citando uma §2 que a
-     v0.158 substituiu.** *A decisão pode ficar; o argumento caiu há dez versões.* **A peça 25 §6
+     v0.158 substituiu.** *A decisão pode ficar; o argumento caiu há doze versões.* **A peça 25 §6
      já registra isso por escrito, então quem for pagar tem o diagnóstico pronto.**
-3. ~~**Uma dívida de contagem no `sistema/LEIA-ME.md`** — ele publicava o livro em `230`
-   páginas.~~ **Paga na v0.169**, e pelo mesmo lado da entrega: *a paginação não tem dono em
-   documento nenhum do projeto, então ela saiu da linha em vez de ser atualizada.* **As outras
-   três cópias de `230` ficam — as três dizem "na v0.106" com todas as letras, e naquela versão
-   eram `230` mesmo.**
+2. **O texto de mesa das peças que ainda não têm capítulo próprio.** *Hoje o livro cobre bem, e o
+   que a v0.170 mostrou é que "o texto de mesa" como item de pendência **não tem quem o alcance**
+   — a checagem 8 casa por nome de peça, e aquele assunto não é uma peça.*
 
 > **`04-playtest/` continua vazia. Zero sessões desde a v0.1, e todo número do sistema é
-> previsão.** *É o maior item aberto do projeto.*
+> previsão.** *É o maior item aberto do projeto, e ele não é de regra.*
 
 ---
 
-## O que a v0.168 fechou, e vale saber
+## O que as três últimas versões fecharam
 
-**`Sem Técnica` é a peça 25, e a nona rota de Origem roda.** *A máquina é o Fundamento inteiro,
-no molde da peça 20 — dois renomes (`Manejo` e `Auge`) e uma subtração (sem Expansão de Domínio).*
-**A semente é uma aptidão que vem aberta na criação, sem gate e sem gastar marco**, com três
-portas: `Domínio Simples`, `Energia Reversa` e uma `Aptidão Própria`.
+**v0.170 — `Sem Técnica` virou o capítulo 11 do livro**, o `43-sem-tecnica.md`, no molde do
+`42-tecnica-marcial.md`. *O Manual da Guilda foi de `17` para `18` capítulos, e a seção daquela
+rota no capítulo de Origens virou ponteiro.*
 
-> **A banda `Classe Passiva 2 e 3` é DERIVADA e não escolhida.** *A escada de gate da peça 11 §5
-> produz sozinha quanto cada altura antecipa — `4,0` / `9,3` / `17,3` níveis —, e só `CP 2` e `3`
-> passam: `1,86×` contra `4,33×` da banda com a `CP 1`, num filtro de `3,00×`.*
-
-**⚠⚠ Três coisas mudaram de RESPOSTA, e nenhuma delas era "corrigir".** *O `Inédito` parou de
-quebrar — a peça 13 marcava desde a v0.39 que ele pressupõe técnica própria, e como a rota
-escreve Fundamento ele funciona nela.* **O aviso de `Sem Técnica com o Emanador` perdeu o
-assunto**, porque `Manejo` é feitiço. *E o ponteiro do `Inédito` nunca pousou: a checagem 8 do
-`conferir-legados.py` confere as cinco Origens elegíveis, e a frase que prometia uma checagem em
-cima daquela entrada atravessou cento e vinte e nove versões.*
-
-**O primeiro contrato do projeto venceu, e a resposta foi não.** *A peça 22 §3.5 escreveu na
-v0.134 que "quando o `Estilo da Sombra` for escrito, um estilo dele cabe no teto de um pacto".*
-**Trinta e quatro versões depois: o menor `Manejo` vale `2,56` fatias contra `0,50` — `5,1×`, e
-`37,0×` no Classe 7.** *Pacto não concede `Manejo`, e a linha `um estilo` do §3.3 dissolveu.*
-
-> **⚠⚠ E DOIS validadores liam prosa como se fosse regra.** *A checagem 8 do
-> `conferir-repositorio.py` joga fora as palavras vazias ao montar o slug, e `sem` é uma delas —
-> o slug de `25-sem-tecnica.md` desabava para `{tecnica}`, e a peça 1, cujo item discute a
-> Constituição, saía acusada de esperar a peça 25.* **A 10.6, no MESMO arquivo, já declarava esse
-> defeito para título de uma palavra só.** *E a tabela de uma seção `destrava` é registro de
-> entrega: a peça 25 se acusava, e a 20 e a 16 escapavam só porque escrevem `Origem` no singular.*
+> **⚠⚠ Capítulo no meio desloca todo mundo: `38` referências, em treze arquivos** — os capítulos
+> `11` a `17` viraram `12` a `18`. **E a checagem 10.3 só confere metade delas:** *ela lê
+> `capítulo N, *Título*`, e as `44` que dizem só `capítulo N` não têm como ser conferidas.*
 >
-> **A checagem 5 do `conferir-orcamento.py` lia caracterização como preço** — *"uma ação que
-> **gasta PE** na taxa cheia É o Fundamento" não cobra de coisa nenhuma.* **É o terceiro falso
-> positivo documentado dela, e os três são o mesmo defeito de recorte.**
+> **⚠⚠ Duas pendências mortas que nenhuma checagem alcançava, e uma tinha quarenta e oito
+> versões.** *A peça 20 pedia o texto de mesa desde a v0.122, com o capítulo dela pronto desde a
+> v0.124.* ***As duas escapavam pelo mesmo motivo: o assunto delas é "o texto de mesa", e a 8c
+> casa por nome de PEÇA.***
+>
+> **⚠ E a v0.168 tinha deixado o livro contradizendo a peça 13** — o `Inédito` ainda excluía
+> `Sem Técnica`, e aquela versão reverteu exatamente isso. *Corrigiu a peça e não desceu ao livro.*
+
+**v0.169 — limpeza.** *A base da lista branca da 7.2 estava a UMA citação de reprovar: o aviso da
+v0.162 funcionou e ninguém atendeu ele por seis versões.* **Base `146`, folga `5`, teto `151`**,
+com as `146` reclassificadas por família. *E o `README.md` da entrega publicava a contagem de
+capítulos duas vezes discordando de si mesma, mais três contagens de página e uma linha de índice
+duplicada — a de capítulos ganhou dono e checagem, a de páginas passou a aparecer uma vez só.*
+
+**v0.168 — `Sem Técnica` virou a peça 25**, e a nona rota de Origem fechou. *A máquina é o
+Fundamento inteiro; a semente é uma aptidão aberta na criação, em `Classe Passiva 2` ou `3`, e a
+banda é DERIVADA da escada de gate da peça 11 §5.*
 
 ---
 
-## ⚠⚠ Quatro lições que as duas últimas versões pagaram
+## ⚠⚠ Cinco lições que as três últimas versões pagaram
 
-> **1 · Prosa SOBRE a regra não é a regra.** *A v0.168 pegou isso TRÊS vezes dentro do
-> `conferir-sem-tecnica.py` e mais DUAS em validadores velhos lendo a peça nova.* **É a mesma
-> família da v0.151 e da v0.165, e ela reaparece toda vez que um extrator lê SEÇÃO onde devia ler
-> LINHA DE REGRA.**
+> **1 · Prosa SOBRE a regra não é a regra.** *A v0.168 pegou isso três vezes dentro do validador
+> novo e mais duas em validadores velhos lendo a peça nova.* **Reaparece toda vez que um extrator
+> lê SEÇÃO onde devia ler LINHA DE REGRA.**
 >
 > **2 · Slug de uma palavra casa com o projeto inteiro.** *A `10.6` já sabia disso e escreveu; a
 > `8`, no mesmo arquivo, não sabia.* **Guarda que existe num lugar não protege o vizinho.**
 >
-> **3 · Guarda que aceita o sinal em QUALQUER ponto da frase não separa nada.** *A primeira
-> versão da guarda da checagem 5 procurava o verbo `é` na frase toda, e `é` está em toda frase
-> daqui.* **O arnês pegou: a perturbação que tirava a identidade saía verde pelo motivo errado.**
+> **3 · Guarda que aceita o sinal em QUALQUER ponto da frase não separa nada.** *O arnês pegou: a
+> perturbação que tirava a identidade saía verde pelo motivo errado.*
 >
-> **4 · A triagem de nomes leva ~21 s e mata o seu exemplo.** *Rode
-> `python3 conferir-nomes.py --candidatos Nome Outro` ANTES de batizar.*
+> **4 · Aviso que ninguém atende é teto sem folga com um passo a mais.** *A v0.162 escreveu o
+> aviso justamente para falar na primeira citação nova; ele falou seis versões e a base ficou
+> parada até a folga acabar.*
+>
+> **5 · Pendência cujo assunto não é uma peça não tem quem a alcance.** *A checagem 8 casa por
+> nome de peça — "o texto de mesa" atravessou quarenta e oito versões viva.*
 
 ## Método, e ele não é negociável
 
@@ -133,15 +113,20 @@ v0.134 que "quando o `Estilo da Sombra` for escrito, um estilo dele cabe no teto
 - **Uma checagem que só sabe ler a decisão de hoje mede a decisão, não a relação.** *O
   contra-teste que vale reverte a decisão de forma COERENTE em TODOS os donos e sai verde.*
 - **Nada de valor fica escrito dentro do validador.** Leia do documento dono. *A exceção é
-  `limite de design`, que existe para ser comparado com a regra aplicada — é a lição nº 8, e o
+  `limite de design`, que existe para ser comparado com a regra aplicada — lição nº 8, e o
   `PECAS_ESPERADAS` do `conferir-catalogo.py` é o exemplar.*
 - **⚠ Marca dentro de célula de tabela quebra extrator de OUTRO validador.** Marca vai embaixo.
 - **⚠ Tabela dentro de bloco de citação também quebra.** *Molde da casa: texto de abertura,
   tabela solta, e o corpo do Legado no `>` depois dela.*
+- **Antes de batizar:** `python3 conferir-nomes.py --candidatos Nome Outro`. *Ela leva ~21 s.*
 - **Pesquise antes de inventar.** Os PDFs estão em `PDFs - Sistemas Extras/PDF_Sistemas/`.
 - **Se mexer no livro:** `guard_numeros.py antes.md depois.md` a cada arquivo, com CADA
   diferença lida contra a linha que a carregava, e os **quatro** builds. *Mande o PDF de duas
   colunas antes de ele commitar.*
+- **⚠⚠ Se ACRESCENTAR capítulo:** ele entra nas **três** listas que a 10.1 compara (`build.py`,
+  `build_docx.py`, `conferir-voz.py`), **todas as referências cruzadas acima dele deslocam**, e a
+  contagem de capítulos sobe nos **três** lugares que a publicam — o `README.md` do projeto, que é
+  o dono, e as duas cópias do README da entrega.
 - **Se mexer no manual:** `node make.js`, `soffice --headless --convert-to pdf`, e **rode o
   controle antes de o build valer.**
 - **Escolha de sabor é dele**, em rodadas curtas, com o número e o trade-off já calculados.
@@ -152,9 +137,9 @@ v0.134 que "quando o `Estilo da Sombra` for escrito, um estilo dele cabe no teto
 
 | | |
 |---|---|
-| as peças de regra | `sistema/03-mecanica/` — **25 peças e 25 validadores**, e os documentos dizem 25 |
+| as peças de regra | `sistema/03-mecanica/` — **25 peças e 25 validadores** |
 | o catálogo de entregas | peça 17; os três `DESENHO-*.md` da raiz são os donos do preço |
-| a fonte do livro | `sistema/05-material/livro/manual/`, 20 arquivos |
+| a fonte do livro | `sistema/05-material/livro/manual/`, **21 arquivos** — 18 capítulos e 3 de frente |
 | a régua de escrita | `sistema/05-material/livro/REGRA-DE-VOZ.md` — **`3` marcas de pendência** |
 | a lista branca da 7.2 | base `146`, folga `5`, **teto `151`** — o comentário dela no `conferir-repositorio.py` é o dono |
 | o gerador do manual | `manual/gerador/`, e o `COMO-USAR.txt` é o dono da versão dele |

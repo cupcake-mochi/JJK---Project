@@ -58,7 +58,7 @@ O que você entrega é da ficção, e o mestre cobra pelo câmbio. O que você r
 | Concede | Quem alcança |
 |---|---|
 | pontos de energia | qualquer ficha |
-| uma aptidão | quem tem aptidão — capítulo 11, *Aptidões e Refino* |
+| uma aptidão | quem tem aptidão — capítulo 12, *Aptidões e Refino* |
 | um espaço de feitiço | quem escreve Fundamento — capítulo 9, *Fundamento* |
 | um estilo | só a sub-origem Sem Técnica, no capítulo 7, *Origens e Legados* |
 
@@ -84,7 +84,7 @@ Não existe teto aqui. Quem segura é o mestre, pelo câmbio.
 
 As duas partes não precisam ser dois personagens de jogador, nem dois feiticeiros. Uma delas pode ser a Guilda.
 
-> **Invocação não fecha `Promessa`** — ela não é uma segunda vontade, e a ficha dela sai da sua, no capítulo 15, *Invocações*. **Uma invocação senciente fecha**, e aí ela é uma das duas partes como qualquer outra.
+> **Invocação não fecha `Promessa`** — ela não é uma segunda vontade, e a ficha dela sai da sua, no capítulo 16, *Invocações*. **Uma invocação senciente fecha**, e aí ela é uma das duas partes como qualquer outra.
 
 ### Termos de uma Promessa
 
