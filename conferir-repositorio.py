@@ -1711,6 +1711,48 @@ else:
         print(f'  [x] as {_refs10} referencias `capitulo N, Titulo` apontam para o '
               'capitulo certo')
 
+    # -- 10.7: a QUARTA copia da lista de capitulos, e ninguem a comparava. --
+    # A 10.1 bate build.py, build_docx.py e conferir-voz.py. A tabela de roteiro
+    # da introducao e' uma quarta lista, escrita a mao, e ela ficou na numeracao
+    # anterior a v0.170 — sem `Sem Tecnica`, e com os oito capitulos seguintes
+    # um numero atras. A 10.3 nao alcanca porque a celula traz o numero e o
+    # titulo em COLUNAS separadas, e nao na forma `capitulo N, *Titulo*`.
+    _RX_ROT = re.compile(
+        r'^\|\s*\*\*(\d+)\*\*(?:\s*a\s*\*\*(\d+)\*\*)?\s*\|\s*([^|]+?)\s*\|')
+    _rot, _rot_ruins = {}, []
+    for _l10 in _TXT_LIVRO.get('05-introducao.md', '').split('\n'):
+        _m10 = _RX_ROT.match(_l10)
+        if not _m10:
+            continue
+        _de = int(_m10.group(1))
+        _ate = int(_m10.group(2)) if _m10.group(2) else _de
+        _titulos = [t.strip() for t in _m10.group(3).split('·')]
+        if len(_titulos) != _ate - _de + 1:
+            _rot_ruins.append(f'a linha "{_de} a {_ate}" lista {len(_titulos)} '
+                              f'titulo(s) para {_ate - _de + 1} capitulo(s)')
+            continue
+        for _off, _t in enumerate(_titulos):
+            _rot[_de + _off] = _t
+    if len(_rot) < 10:
+        erro(f'10.7: so li {len(_rot)} capitulo(s) na tabela de roteiro da introducao '
+             f'— o extrator parou de achar, e a comparacao passaria trivialmente')
+    else:
+        for _n10, _t10 in sorted(_rot.items()):
+            _certo = _NUM_CAP.get(_sa(_t10))
+            if _certo is None:
+                _rot_ruins.append(f'"{_t10}" nao e titulo de capitulo nenhum')
+            elif _certo != _n10:
+                _rot_ruins.append(f'"{_t10}" esta como {_n10} e e o {_certo}')
+        _faltam = sorted(set(range(1, len(_CHAPTERS) + 1)) - set(_rot))
+        if _faltam:
+            _rot_ruins.append(f'capitulo(s) que a tabela nao lista: {_faltam}')
+        if _rot_ruins:
+            for _r in _rot_ruins:
+                erro(f'10.7: a tabela de roteiro da introducao {_r}')
+        else:
+            print(f'  [x] a tabela de roteiro da introducao cobre os '
+                  f'{len(_CHAPTERS)} capitulos, na numeracao do build.py')
+
     # -- 10.4: vocabulario batizado que o livro nao publica. ----------------
     # A lista sai do SISTEMA do conferir-nomes.py, que e' quem protege nome
     # batizado de ser rebatizado. Um termo que so' aparece em linha de citacao

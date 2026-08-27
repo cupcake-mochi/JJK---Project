@@ -171,7 +171,7 @@ Os dois primeiros batem quase exato. **Sem o retorno decrescente, quem joga quat
 
 **A recompensa existe e ela é grande** — ela só mora no eixo social, que é onde o `arquitetura.md` já pôs o reconhecimento. Um mestre ativo constrói patente e rede, e as duas coisas abrem porta que nível nenhum abre.
 
-*Fica em aberto, e é decisão de mesa:* **uma conversão pontual depois de muitas mesas mestradas** — um bônus por marca, não por sessão. A forma disso não está escrita, e ela não pode virar pagamento por mesa disfarçado.
+*E existe uma conversão pontual depois de muitas mesas mestradas* — **um bônus por marca, não por sessão.** A forma dela ficou em aberto da v0.32 à v0.171, com a trava escrita antes da regra: ela não pode virar pagamento por mesa disfarçado. **Hoje ela é o §6.2.**
 
 ## 6.1 O salário — a quarta moeda, e a única com número
 
@@ -199,6 +199,40 @@ Os dois primeiros batem quase exato. **Sem o retorno decrescente, quem joga quat
 
 > **A folga é de propósito, e é grande.** *O loadout mundano mais caro que existe — `Revestimento` no topo, arma de assinatura de duas mãos, arma de uma mão e escudo `Torre` — custa `¥1,6 milhão`.* **A renda de uma campanha inteira, subindo de Grau no ritmo normal, é da ordem de `¥10,5 milhões`:** o mundano inteiro cabe em `15%` dela. *Os outros `85%` existem para o que ainda não foi escrito — ferramenta amaldiçoada comprada em vez de recebida, e fabricação.*
 
+## 6.2 A conversão de mestragem — o único lugar em que mestrar vira número
+
+*Escrita na v0.172, e o §6 a deixou em aberto na v0.32.* **A forma estava por escrever; a trava já estava pronta: um bônus por marca, não por sessão, e ela não pode virar pagamento por mesa disfarçado.**
+
+> **A cada vinte mesas mestradas você recebe uma mensalidade extra do seu Grau.** *A marca fecha sozinha na vigésima, e paga na patente que você tinha naquele dia.*
+
+**Nenhum dos dois números foi escolhido.** *O valor é a linha do §6.1 — a mesma mensalidade, sem moeda nova e sem tabela nova.* **E o `20` é uma divisão com dois donos:** o levantamento mede o mestre ativo em **duas a três mesas por mês**, e o §6.1 mede o catálogo mundano inteiro em **`15%`** da renda de uma campanha. **`3 ÷ 0,15 = 20`.**
+
+**O que a divisão compra é a trava do §6, e ela sai exata:** *no ritmo mais pesado que a Guilda já relatou, a mestragem acrescenta `15%` à renda — a mesma fatia que o loadout mundano mais caro ocupa.* **Mestrar a campanha inteira paga um loadout completo, e nem um iene a mais.**
+
+### 6.2.1 Por que ela não vira pagamento por mesa, e isso é aritmética
+
+**A fração não depende do tamanho da campanha.** *Ganho e folha correm no mesmo relógio — a mestragem entrega `taxa ÷ 20` da folha, e só isso.* **Mestrar mais não descola a mestragem do salário: ela anda amarrada nele, em qualquer campanha e em qualquer patente.**
+
+| quem mestra | mesas por mês | fecha uma marca em | acrescenta à renda |
+|---|---|---|---|
+| **pesado** — o teto relatado | `3` | `6,7` meses | **`15%`** |
+| **ativo** — a fala do levantamento | `2` | `10` meses | `10%` |
+| **ocasional** | `1` | `20` meses | `5%` |
+
+*A coluna da direita é `taxa ÷ 20`, e é ela que responde à trava: a folha continua sendo a renda, e a marca é o bônus em cima.*
+
+> **A marca é rara de propósito, e a régua de raro é a do próprio sistema.** *O §5 mede o perfil mediano em `9,7` meses até o nível 20; nessa janela um mestre pesado fecha `1,5` marca, contra os **quatro** marcos que a ficha atravessa nos níveis 6, 10, 14 e 18.* **Menos frequente que o marco, que é a coisa mais rara que uma ficha tem.**
+
+**Quem mestra pouco não fecha marca nenhuma, e isso não é buraco.** *O §6 já diz onde mora a recompensa de mestrar — patente, contato, favor e acesso —, e nenhuma das quatro tem relógio.* **A marca é a conversão pontual que o §6 prometeu *"depois de muitas mesas mestradas"*, e vinte é muitas.**
+
+### 6.2.2 Contar mesa mestrada não é o relógio que a peça 13 reprovou
+
+**A peça 13 §7 recusou `uma vez por sessão` no catálogo de Legados, e citou justamente esta seção para recusar.** *O argumento continua de pé e não alcança a regra acima.*
+
+**Lá o defeito é que *"uma sessão"* é leitura:** *três mestres leem a mesma palavra de três jeitos, e o spread entre a leitura mais generosa e a mais dura é `3,0×` na mesma ficha.* **Aqui não há o que ler.** *Uma mesa mestrada é uma missão postada e resolvida, e quem postou está no quadro — a contagem sai do registro da Guilda, e não da memória de ninguém.*
+
+> **⚠ E não existe guardar marca.** *Ela fecha na vigésima mesa, no dia em que a vigésima acontece.* **Segurar mesa para fechar a marca depois de subir de patente não funciona, porque não existe o ato de fechar.** *O livro já escreve o mesmo cuidado do outro lado, em "guardar marco não guarda refino".*
+
 ## 7. O limiar do nível 20
 
 > **Você chega ao nível 20 por XP. Você passa dele por feito.**
@@ -213,7 +247,42 @@ E ele encaixa numa coisa que o sistema já tinha: **a patente sobe por feito.** 
 
 **A trava que ele precisa.** *"O mestre decide o que é um feito"* não atravessa sete mesas. A lista precisa ser fechada, no molde do ambiente propício: **entradas escritas, e a palavra final do mestre em cima delas** — nunca do zero.
 
-> **A lista de feitos está em aberto.** Ela é escolha de sabor e de mundo, e vai para a próxima rodada de decisão.
+### 7.1 As oito, e a lista é fechada
+
+*Escrita na v0.172.* **O mestre da mesa tem a palavra final sobre se uma delas aconteceu — e não sobre quais são.**
+
+| | o feito | o que um segundo mestre lê para conferir |
+|---|---|---|
+| **1** | derrubar um `Chefe` de nível acima do seu | o manual traz `Chefe` e o nível do grupo na tabela de inimigo; o seu nível está na ficha |
+| **2** | sair de pé de uma Expansão de Domínio completa | a completa resolve por acerto garantido, pela peça 11; *de pé* é não ter chegado a `0` |
+| **3** | fechar um `final de arco` | o tamanho é declarado **antes** da mesa, pela seção 4 desta peça |
+| **4** | pôr de pé alguém que estava a `0` de vida | `Aguentar` e `Insistir` são estados escritos, na peça 1 §5.5 |
+| **5** | voltar do estágio 4 de dano de alma | os quatro estágios são tabela, na peça 24 §4 |
+| **6** | cumprir uma `Promessa` até o fim, pagando a sua metade | os três termos ficam escritos quando ela fecha, na peça 22 §5.1 |
+| **7** | trazer para a Guilda uma ferramenta de grau 1 ou especial | a escada de grau da ferramenta é a peça 16 §3, e a ficha registra qual |
+| **8** | terminar a missão depois de outro personagem jogador chegar ao estágio 4 | o mesmo estágio da peça 24 §4, lido na ficha do outro e não na sua |
+
+**Um feito basta, e ele destranca uma vez.** *Quem acumulou XP parado no 20 sobe de uma vez até o acumulado acabar, pela regra do §3.1 — o feito abre a porta, e não paga XP.*
+
+### 7.2 O filtro que escolheu as oito já estava escrito, e é da peça 10
+
+**Aquela peça separou lista fechada de lista de exemplo, e o critério dela serve inteiro aqui:** *o `ambiente propício` tem lista fechada porque **"esse lugar tem kit e comida?" é pergunta sobre o mundo** — a mesma resposta serve para qualquer mesa; e `isso foi uma luta?` fica aberto porque **é pergunta sobre a cena que aquele mestre acabou de dirigir**, e ninguém está em melhor posição de responder do que ele.*
+
+**Toda entrada acima é do primeiro tipo.** *Cada uma cita um estado que a ficha ou o registro da missão carrega depois que a mesa acabou* — um nível, um `0` de vida, um estágio, um tamanho declarado antes, um grau escrito na ferramenta. **Nenhuma delas pergunta como a cena foi.**
+
+> **É por isso que *"o mestre decide o que é um feito"* não atravessa sete mesas e esta lista atravessa.** *Sete mestres discordam sobre o que foi impressionante; nenhum deles discorda se o `Chefe` era de nível acima.*
+
+### 7.3 Três das oito trocaram de forma, e vale dizer por quê
+
+**As três reprovavam no filtro do §7.2 do jeito que foram propostas, e as três tinham conserto.**
+
+- **`fechar um incidente que teria vazado` virou `fechar um final de arco`.** *O original é contrafactual — *teria* vazado —, e o sistema não tem Véu: `vazar` não aparece em peça nenhuma nem no livro.* **O tamanho da missão é o gancho mais duro que esta peça tem**, porque a seção 4 obriga a declaração *antes*, exatamente para o tamanho não ser decidido depois em função de como a mesa correu.
+- **`escrever um Fundamento inédito` virou `voltar do estágio 4 de dano de alma`.** *Escrever Fundamento é decisão de criação e não feito de mesa — sai do Passo da peça 8, e não da missão.* **E `Inédito` já é o nome de um Legado do Latente**, na peça 13: a entrada colidiria com um termo em uso.
+- **`a instituição te dever um favor` virou `trazer para a Guilda uma ferramenta de grau 1 ou especial`.** *`Favor da instituição` é uma das quatro moedas com que o §6 paga a mestragem* — usá-lo como feito fecharia laço entre as duas seções desta peça. **E o favor é estado narrado pelo mestre, sem nada na ficha para um segundo conferir.**
+
+> **⚠ E a primeira entrada trocou `grau` por `nível`, porque não existe grau de maldição hoje.** *A escada `grau 4 a grau 1, mais o especial` existe para **ferramenta e objeto**, na peça 16 §3, e para **patente**, no §6.1 desta.* **Inimigo não tem grau em documento nenhum:** *a tabela do manual é `nível do grupo → vida e dano`, com as colunas `Chefe` e `Capanga`.* **Se o BESTIÁRIO der grau ao inimigo, esta entrada volta para a forma original, e o feito 1 é a linha que o obriga a decidir.**
+
+> **⚠ O feito 7 é o mais frouxo dos oito, e o registro fica.** *Uma ferramenta especial aparecer é decisão do mestre — a peça 16 §3.2 escreve que ela `aparece uma vez por arco, e não duas na mesma mesa`.* **O que a lista exige é que o FATO seja conferível depois, e o grau fica escrito na ficha;** *mas ele é o único dos oito em que a porta é aberta por quem dirige, e não alcançada por quem joga.*
 
 ## 8. Falhar
 
@@ -239,8 +308,8 @@ Uma faixa e não um número, porque as duas pontas existem: uma missão perdida 
 
 ## 10. Em aberto
 
-- **A lista de feitos do limiar do nível 20.**
-- **A forma da conversão de mestragem** — um bônus por marca, sem virar pagamento por mesa.
+- ~~**A lista de feitos do limiar do nível 20.**~~ **Fechada na v0.172: são as oito do §7.1**, e o filtro que as escolheu é o da peça 10.
+- ~~**A forma da conversão de mestragem** — um bônus por marca, sem virar pagamento por mesa.~~ **Fechada na v0.172: é o §6.2**, uma mensalidade do seu Grau a cada vinte mesas mestradas.
 - **Se dois mestres pagam parecido pela mesma falha.** Marcado para o playtest.
 - **Se a semana é o relógio certo** para o retorno decrescente, ou se ele devia acompanhar o descanso longo, como o resto do sistema.
 - **Se o "joga muito" um mês e pouco na frente incomoda na prática.** Registrado, não consertado.

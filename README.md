@@ -2,7 +2,7 @@
 
 **O sistema se chama `Projeto - M`**, batizado na v0.94 — era a pendência mais velha que existia aqui, aberta na v0.1. Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.171** · manual do Fundamento na **v7.17** · **vinte e cinco peças de regra** e **vinte e cinco validadores passando** · o Manual da Guilda em **18 capítulos**.
+**Versão v0.172** · manual do Fundamento na **v7.17** · **vinte e cinco peças de regra** e **vinte e cinco validadores passando** · o Manual da Guilda em **18 capítulos**.
 
 ---
 
@@ -28,13 +28,14 @@ E o registro do **porquê** de cada decisão é tão importante quanto a regra: 
 **Primeiro, confirme que você abriu a pasta certa — leva dez segundos e já custou meia hora uma vez.** Existe outro clone desta mesma coisa parado na **v0.27** numa pasta `JJK---Project` dentro da home, e ele tem a cara do projeto inteiro: validadores, peças, changelog. Uma conversa já se perdeu lendo o clone velho e rodando sete validadores que passaram sem provar nada.
 
 ```bash
-grep -c "Nove lições" README.md        # tem que dar 1 ou mais
-grep -c "Seis lições"  README.md       # tem que dar 0
+grep -c "^## Nove lições" README.md
 ```
 
-Se aparecer *"Seis lições que custaram erro"* ou *"Versão v0.27"*, **é a pasta errada. Pare.**
+**Tem que dar `1`.** Se der `0`, **é a pasta errada. Pare** — o clone velho tem *"Seis lições que custaram erro"* no lugar, e a `Versão v0.27` no topo.
 
 > *Esta checagem já foi `head -6 README.md # tem que dizer Versão v0.57 ou maior`, e ela envelheceu sete versões seguidas — um teste escrito contra um número que sobe toda semana começa a mentir na semana seguinte.* **O que não envelhece é a lista de lições**, porque o clone velho parou nas seis e nunca vai ganhar a sétima.
+>
+> **⚠ E ela ficou INVERTIDA até a v0.172, achada na v0.171 e não consertada porque era o guarda da retomada.** *A segunda linha mandava conferir `grep -c "Seis lições"` **contra zero**, e as palavras `Seis lições` apareciam duas vezes no texto da própria checagem* — dava `2` aqui e `1` no clone velho. **A âncora `^##` conserta as duas pontas de uma vez:** *só o título de seção casa, e o clone velho não tem esse título.*
 
 Depois disso, a ordem de leitura é a da próxima seção, e os validadores são os da seção *"Rodar os validadores"*. **Não rode git daqui** — o porquê está em *"Commitar"*.
 

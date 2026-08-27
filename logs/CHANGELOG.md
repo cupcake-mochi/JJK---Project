@@ -8,6 +8,92 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.172] — 27/08/2026
+
+**A pergunta em que a v0.171 parou foi respondida, e as duas metades dela fecharam.** *O Mizuki escolheu **oito entradas** para a lista de feitos e **pagamento em iene numa marca** para a conversão de mestragem — as duas recomendadas, com o trade-off medido antes.* **E indo escrever a lista, o filtro que ela precisava já estava escrito em outra peça desde a v0.26 — cento e quarenta e seis versões.**
+
+### 1 · A conversão de mestragem, e nenhum dos dois números foi escolhido
+
+**O §6 escreveu a trava em v0.32 e deixou a forma em aberto por cento e quarenta versões:** *"um bônus por marca, não por sessão (…) e ela não pode virar pagamento por mesa disfarçado."*
+
+> **A cada vinte mesas mestradas você recebe uma mensalidade extra do seu Grau.** *A marca fecha sozinha na vigésima, e paga na patente que você tinha naquele dia.*
+
+**O valor é a linha do §6.1** — a mesma mensalidade, sem moeda nova e sem tabela nova. **E o `20` é uma divisão com dois donos:** *o levantamento mede o mestre ativo em `2` a `3` mesas por mês, na fala do Mega; o §6.1 mede o catálogo mundano inteiro em `15%` da renda de uma campanha.* **`3 ÷ 0,15 = 20`.**
+
+***O que a divisão compra é a trava, e ela sai exata:*** **no ritmo mais pesado que a Guilda já relatou, a mestragem acrescenta `15%` à renda — a mesma fatia que o loadout mundano mais caro ocupa.** *Mestrar a campanha inteira paga um loadout completo, e nem um iene a mais.*
+
+> **⚠⚠ E a propriedade que responde à trava é que a fração NÃO depende do tamanho da campanha.** *Ganho e folha crescem no mesmo relógio: o ganho é `T × taxa ÷ 20` mensalidades e a folha é `T`, então a razão é `taxa ÷ 20` e o `T` cai fora.* **Mestrar mais não descola a mestragem do salário — ela anda amarrada nele em qualquer campanha e em qualquer patente**, e é isso que faz dela bônus e não segundo salário.
+
+**A raridade também foi medida contra a régua do próprio sistema.** *Na janela do §5 — `9,7` meses até o nível 20 no perfil mediano —, um mestre pesado fecha `1,5` marca contra os **quatro** marcos que a ficha atravessa nos níveis 6, 10, 14 e 18.* **Menos frequente que o marco, que é a coisa mais rara que uma ficha tem.**
+
+> **A peça 13 §7 tinha citado esta seção para recusar `uma vez por sessão`, e a recusa não alcança a regra nova.** *Lá o defeito é que "uma sessão" é **leitura** — o spread entre a leitura mais generosa e a mais dura é `3,0×` na mesma ficha.* **Aqui não há o que ler:** *uma mesa mestrada é uma missão postada e resolvida, e quem postou está no quadro.*
+
+### 2 · A lista de feitos, e o filtro dela é da peça 10
+
+**As oito entradas propostas na v0.171 não passavam todas, e o que reprova três delas é uma frase que a peça 10 escreveu na v0.26:**
+
+> *O `ambiente propício` tem lista fechada porque **"esse lugar tem kit e comida?" é pergunta sobre o mundo** — a mesma resposta serve para qualquer mesa. E `isso foi uma luta?` fica aberto porque **é pergunta sobre a cena que aquele mestre acabou de dirigir**, e ninguém está em melhor posição de responder do que ele.*
+
+***É o filtro multi-mestre inteiro, e ele nunca tinha sido usado fora da peça que o escreveu.*** **Três entradas eram do segundo tipo, e as três tinham conserto:**
+
+| a proposta | o que a reprova | o que entrou |
+|---|---|---|
+| fechar um incidente que **teria vazado** | é contrafactual, e não existe Véu: `vazar` não aparece em peça nenhuma nem no livro | **fechar um `final de arco`** — a seção 4 obriga o tamanho a ser declarado **antes** |
+| escrever um **Fundamento inédito** | é decisão de criação e não feito de mesa; e `Inédito` já é nome de um Legado do Latente | **voltar do estágio 4 de dano de alma** — tabela da peça 24 §4 |
+| a instituição te **dever um favor** | `favor da instituição` é uma das quatro moedas com que o §6 paga a mestragem — fecharia laço dentro da mesma peça | **trazer uma ferramenta de grau 1 ou especial** — escada da peça 16 §3 |
+
+**E a primeira entrada trocou `grau` por `nível`, porque não existe grau de maldição.** *A escada `grau 4 a grau 1, mais o especial` existe para **ferramenta** e para **patente**, e não para inimigo:* **a tabela do manual é `nível do grupo → vida e dano`, com as colunas `Chefe` e `Capanga`.** *Se o BESTIÁRIO der grau ao inimigo, a entrada volta à forma original — e o feito 1 é a linha que o obriga a decidir.*
+
+> **⚠ O feito 7 é o mais frouxo dos oito, e fica registrado como tal.** *Uma ferramenta especial aparecer é decisão do mestre, pela peça 16 §3.2.* **Ele é o único dos oito em que a porta é aberta por quem dirige, e não alcançada por quem joga.**
+
+### 3 · O validador, e ele leu documento pela primeira vez
+
+**O `conferir-xp.py` carregava a regra inteira no código desde a v0.32.** *Os blocos `6` e `7` são os primeiros dele que abrem arquivo* — e nenhum valor mora dentro deles.
+
+*A checagem `6` recalcula o `20` dos dois donos, reconta as três linhas da tabela de ritmo a partir do `N` publicado, confere que a taxa que a tabela chama de teto é a do levantamento, e mede a raridade contra os marcos da peça 2.* **A `7` reconta as oito entradas contra o numeral do título, exige que cada uma cite o documento onde o fato mora, e confere que toda peça citada existe.**
+
+**Quinze perturbações acendendo e um contra-teste coerente verde** — a fatia vira `10%`, o `N` vira `30` em todo dono, e a checagem sai verde, que é o certo: ela mede a relação e não a decisão.
+
+> **⚠ E o arnês pegou dois defeitos meus antes do commit.** *A entrada 8 dizia `o mesmo estado do feito 5, do outro lado da mesa` — ela **delegava** o dono em vez de nomear, e a checagem 7 acusou.* **E a guarda de perturbação inválida recusou o contra-teste na primeira rodada**, porque a minha string literal não existia no arquivo: *perturbação que não muda o arquivo não prova nada.*
+
+### 4 · E a tabela de roteiro da introdução estava na numeração pré-v0.170
+
+**Achado indo escrever no livro.** *A v0.170 pôs `Sem Técnica` como o capítulo 11 e deslocou `38` referências em treze arquivos.* **A tabela de roteiro da introdução — a primeira coisa que um leitor vê — ficou para trás inteira:** *sem `Sem Técnica`, e com os oito capítulos seguintes um número atrás.* **Ela mandava o leitor para `17` atrás de `Experiência e Progressão`, que é o `18`.**
+
+> **A checagem 10.3 não alcança, e o motivo é a forma.** *Ela lê `capítulo N, *Título*`; naquela tabela o número e o título moram em **colunas separadas**.* **E a 10.1 compara três cópias da lista de capítulos — `build.py`, `build_docx.py` e `conferir-voz.py` — e esta era a QUARTA**, escrita à mão e sem ninguém comparando. *Lição nº 9 pelo eixo que ninguém estava medindo, de novo.*
+
+**Entrou a checagem 10.7**, que lê a tabela, resolve as linhas de faixa (`14` a `16`) contra os três títulos da célula, e bate cada capítulo contra a ordem do `build.py`. *Perturbada com a tabela velha, ela nomeia os sete capítulos deslocados e o `18` que faltava.*
+
+### Adicionado
+
+- **`sistema/03-mecanica/12-experiencia-e-progressao.md` §6.2** — a conversão de mestragem, com a derivação, a tabela de ritmo e o argumento contra o relógio da peça 13.
+- **O §7.1 da mesma peça** — as oito entradas do limiar, cada uma com a coluna do que se lê para conferir; mais o §7.2, que escreve o filtro, e o §7.3, que registra as três trocas.
+- **As checagens `6` e `7` do `conferir-xp.py`** e a **10.7** do `conferir-repositorio.py`.
+- **Duas seções no livro**, no capítulo 18, *Experiência e Progressão*: a marca em `XP de quem mestra` e a tabela `Feitos do limiar`.
+
+### Alterado
+
+- **A peça 12** — o §6 aponta para o §6.2 em vez de dizer que a forma está por escrever, e os dois primeiros itens de `Em aberto` estão riscados.
+- **A tabela de roteiro do capítulo de abertura do livro**, para a numeração de 18 capítulos.
+- **O livro foi de `75.054` para `75.326` palavras.** *Páginas não se moveram: `256` em coluna única e `147` em duas.* **O `guard_numeros.py` rodou nos dois arquivos mexidos.** *No capítulo 18 as `16` diferenças são todas acréscimo, e fecham exatas — os oito números de linha da tabela, mais `grau 1`, dois `estágio 4` e um `0 de vida`.* **Na introdução `15` SUMIU, e isso está explicado:** *ele era o fim da faixa `13 a 15`, que virou `14 a 16` — nenhum número de regra se moveu.*
+
+### Decidido
+
+- **A lista de feitos do limiar é fechada, com oito entradas**, e a palavra final do mestre é sobre **se** um feito aconteceu, nunca sobre **quais** são.
+- **A conversão de mestragem é uma mensalidade do seu Grau a cada vinte mesas mestradas**, e os dois números são derivados.
+- **O filtro da peça 10 — pergunta sobre o mundo, e não sobre a cena — é o critério de toda lista fechada do projeto**, e não só da daquela peça.
+
+### Onde a sessão parou
+
+**A fila que a v0.171 deixou perdeu o primeiro item, e os dois que sobram são os que já estavam escritos.**
+
+- **`RASCUNHO-clash-de-expansoes.md`** — engatilhado, ninguém tocou. *O modelo cogitado pede seis números novos e mexe numa regra já marcada como fechada.*
+- **`BESTIÁRIO`** — a única peça nova da fila, e a v0.172 acrescentou uma linha ao que ela tem de decidir: **se o inimigo ganha `grau`**, o feito 1 do §7.1 volta à forma original.
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`.
+
+---
+
 ## [0.171] — 27/08/2026
 
 **Quatro itens da fila pequena fecharam, e o quarto mudou de tamanho no meio.** *A ordem foi a que o Mizuki pediu — limpar o pequeno antes de abrir a peça grande —, e a sessão parou numa pergunta do quinto.*

@@ -99,6 +99,10 @@ Uma missão perdida por azar de dado pesa diferente de uma abandonada na metade,
 
 Um mestre ativo constrói patente e rede, e as duas abrem porta que nível nenhum abre.
 
+> **A cada vinte mesas mestradas você recebe uma mensalidade extra do seu Grau.** A marca fecha sozinha na vigésima e paga na patente que você tinha naquele dia.
+
+Não dá para segurar mesa e fechar a marca depois de subir de patente: a vigésima fecha sozinha, e não existe o ato de fechar. Quem mestra três vezes por mês chega a uma marca a cada seis ou sete meses, e quem mestra uma vez por mês leva vinte. É um bônus em cima da folha, e nunca um segundo salário.
+
 ## Salário
 
 > **Feiticeiro recebe salário mensal da instituição, e o valor sai da patente.** Não é pagamento por missão: é folha.
@@ -124,7 +128,23 @@ O dinheiro compra equipamento, e os `Preços` estão no capítulo 14, *Equipamen
 
 Aos 6.300 de XP acumulado o personagem para no nível 20 até a mesa reconhecer alguma coisa que ele fez. O XP continua acumulando e nada se perde: quando o feito acontece, o que estava guardado destrava de uma vez.
 
-O que conta como feito é conversa de mesa, e a mesa fecha a lista antes de alguém chegar lá.
+**A lista é fechada.** O mestre da mesa tem a palavra final sobre se um feito aconteceu — e não sobre quais são.
+
+**Feitos do limiar**
+{: .tab-titulo }
+
+| | o feito |
+|---|---|
+| **1** | derrubar um chefe de nível acima do seu |
+| **2** | sair de pé de uma Expansão de Domínio completa |
+| **3** | fechar uma missão de final de arco |
+| **4** | pôr de pé alguém que estava a 0 de vida |
+| **5** | voltar do estágio 4 de dano de alma |
+| **6** | cumprir uma `Promessa` até o fim, pagando a sua metade |
+| **7** | trazer para a Guilda uma ferramenta de grau 1 ou especial |
+| **8** | terminar a missão depois de outro personagem jogador chegar ao estágio 4 |
+
+Um feito basta, e ele destranca uma vez só. Toda entrada da tabela `Feitos do limiar` cita uma coisa que fica escrita na ficha ou no registro da missão depois que a mesa acabou — é isso que faz sete mestres diferentes lerem a lista do mesmo jeito.
 
 ## Operação na mesa
 

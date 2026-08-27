@@ -22,9 +22,22 @@ CONTRATO DE INVARIANTES:
      zero — foi por isso que ele e decrescente em vez de teto duro.
   5. A FAIXA LENDARIA E MAIS CURTA EM TEMPO, apesar de custar mais XP. Foi o unico
      ponto em que as catorze opinioes concordaram.
+  6. A CONVERSAO DE MESTRAGEM RECONSTROI DOS DOIS DONOS. O `20` do SS6.2 nao esta
+     escrito em lugar nenhum como escolha: ele e a taxa mais pesada do levantamento
+     dividida pela fatia do mundano do SS6.1. A tabela de ritmo e recontada dele, e
+     a marca tem de continuar mais rara que o marco da peca 2.
+  7. A LISTA DE FEITOS DO LIMIAR E FECHADA E ANCORADA. Oito entradas, a contagem
+     batida contra o titulo, toda entrada citando o documento em que o fato mora, e
+     toda peca citada existindo. E' o que separa lista fechada de lista de exemplo:
+     a peca 10 exige fato do mundo, e fato do mundo tem dono.
+
+  Os blocos 6 e 7 sao os unicos que LEEM documento — o resto deste validador
+  carrega a regra no codigo, do jeito que a v0.32 escreveu.
 
 Roda de sistema/03-mecanica/, sem argumento. Sai com codigo 1 se algo quebrar.
 """
+import os
+import re
 import sys
 
 ERROS = []
@@ -360,6 +373,214 @@ else:
         aviso(f'a razao {missoes_30 / missoes_20:.2f} saiu da faixa que o levantamento '
               'produziu (0,45 a 0,61, com folga ate 0,35 e 0,75)')
 
+
+# --------------------------------------------------------------------------
+# v0.172. Daqui para baixo NADA esta escrito no codigo: os dois numeros novos
+# saem do documento dono. O `20` da conversao e' uma divisao de dois donos —
+# a taxa mais pesada do levantamento e a fatia do mundano do SS6.1 — e a lista
+# de feitos e' recontada da tabela do SS7.1.
+AQUI = os.path.dirname(os.path.abspath(__file__))
+
+
+def _ler(nome, subdir='.'):
+    try:
+        with open(os.path.join(AQUI, subdir, nome), encoding='utf-8') as fh:
+            return fh.read()
+    except OSError:
+        return ''
+
+
+def _sec(texto, abre, fecha):
+    """Recorta de um titulo ate o proximo. Fecha em `##` E em `###` — a v0.153
+    pagou por fechar so na `###` e deixar o corpo vazar tres secoes adiante."""
+    i = texto.find(abre)
+    if i < 0:
+        return ''
+    j = texto.find(fecha, i + len(abre))
+    return texto[i:j if j > 0 else len(texto)]
+
+
+def _num(s):
+    return float(s.replace('.', '').replace(',', '.'))
+
+
+PALAVRA = {'dez': 10, 'doze': 12, 'quinze': 15, 'dezoito': 18, 'vinte': 20,
+           'vinte e cinco': 25, 'trinta': 30, 'quarenta': 40, 'cinquenta': 50,
+           'quatro': 4, 'cinco': 5, 'seis': 6, 'sete': 7, 'oito': 8, 'nove': 9}
+
+P12 = _ler('12-experiencia-e-progressao.md')
+P02 = _ler('02-economia-de-atributos.md')
+LEV = _ler('levantamento-ritmo-de-progressao.md', '../01-pesquisa')
+
+bloco('6. A CONVERSAO DE MESTRAGEM RECONSTROI? (peca 12 SS6.2)')
+
+# --- o `20` da LINHA DE REGRA, e nao da secao -----------------------------
+# Licao no 1: prosa SOBRE a regra nao e' a regra. Licao no 2: janela de N
+# caracteres morre num ponto final — por isso o recorte sai da LINHA do bloco
+# `>` que carrega a regra, e nao de uma janela em volta da palavra.
+_s62 = _sec(P12, '## 6.2 ', '## 7.')
+if not _s62:
+    erro('6: nao achei o SS6.2 da peca 12 — a secao da conversao de mestragem '
+         'sumiu, e esta checagem sairia verde sem ter lido regra nenhuma')
+else:
+    _regra = [l for l in _s62.splitlines()
+              if l.startswith('>') and 'mesas mestradas' in l]
+    if len(_regra) != 1:
+        erro(f'6: achei {len(_regra)} linha(s) de regra com "mesas mestradas" no '
+             f'bloco > do SS6.2, e tem de ser uma — tirar a regra do bloco de '
+             f'citacao ou duplica-la faz esta checagem medir a coisa errada')
+    else:
+        _l = _regra[0]
+        _p = re.search(r'A cada (\w+) mesas mestradas', _l)
+        N_PUB = PALAVRA.get(_p.group(1)) if _p else None
+        if N_PUB is None:
+            erro(f'6: a linha de regra do SS6.2 nao diz "A cada <numero> mesas '
+                 f'mestradas", ou o numeral nao esta no dicionario: {_l[:90]}')
+        if 'mensalidade' not in _l or 'seu Grau' not in _l:
+            erro('6: a linha de regra do SS6.2 parou de pagar "uma mensalidade do '
+                 'seu Grau" — se o valor virar numero proprio, ele deixa de ser a '
+                 'linha da peca 12 SS6.1 e vira a segunda copia dela (licao no 9)')
+
+        # --- os dois donos da divisao -------------------------------------
+        _f = re.search(r'o mundano inteiro cabe em `(\d+)%`', P12)
+        FATIA = int(_f.group(1)) / 100 if _f else None
+        if FATIA is None:
+            erro('6: nao achei a fatia do mundano no SS6.1 da peca 12 ("o mundano '
+                 'inteiro cabe em `N%` dela") — ela e um dos dois donos do 20')
+        _t = re.search(r'mestra (\d+)-(\d+) mesas por m[êe]s', LEV)
+        TAXA_MAX = int(_t.group(2)) if _t else None
+        if TAXA_MAX is None:
+            erro('6: nao achei "mestra N-M mesas por mes" no levantamento — ele e '
+                 'o outro dono do 20, e sem ele a divisao nao reproduz')
+
+        if None not in (N_PUB, FATIA, TAXA_MAX):
+            N_DER = TAXA_MAX / FATIA
+            print(f'  regra publica: uma marca a cada {N_PUB} mesas mestradas')
+            print(f'  derivado: {TAXA_MAX} mesas/mes (levantamento) / {FATIA:.0%} '
+                  f'(SS6.1) = {N_DER:.1f}')
+            if abs(N_PUB - N_DER) > 0.5:
+                erro(f'6: a regra publica {N_PUB} mesas por marca e a divisao dos '
+                     f'dois donos da {N_DER:.1f}. O SS6.2 afirma que nenhum dos '
+                     f'dois numeros foi escolhido — se o 20 deixa de reproduzir, '
+                     f'a afirmacao e' + chr(39) + ' falsa')
+            else:
+                print('  [x] o 20 nao foi escolhido: ele e a divisao dos dois donos.')
+
+            # --- a tabela do SS6.2.1 e RECONTADA -------------------------
+            _linhas = []
+            for _l in _s62.splitlines():
+                m = re.match(r'\|\s*\*\*(\w+)\*\*[^|]*\|\s*`(\d+)`\s*\|\s*`([\d,]+)`'
+                             r'\s*meses\s*\|\s*\**`([\d,]+)%`\**\s*\|', _l)
+                if m:
+                    _linhas.append((m.group(1), int(m.group(2)),
+                                    _num(m.group(3)), _num(m.group(4))))
+            if len(_linhas) != 3:
+                erro(f'6: a tabela de ritmo do SS6.2.1 rendeu {len(_linhas)} linha(s) '
+                     f'e sao tres — extrator que para de achar recontaria nada e '
+                     f'sairia verde calado')
+            else:
+                _ruins = []
+                for _nome, _taxa, _meses, _pct in _linhas:
+                    _m_esp = round(N_PUB / _taxa, 1)
+                    _p_esp = round(_taxa / N_PUB * 100, 1)
+                    if abs(_meses - _m_esp) > 0.15:
+                        _ruins.append(f'"{_nome}" publica {_meses} meses e '
+                                      f'{N_PUB}/{_taxa} da {_m_esp}')
+                    if abs(_pct - _p_esp) > 0.6:
+                        _ruins.append(f'"{_nome}" publica {_pct}% e {_taxa}/{N_PUB} '
+                                      f'da {_p_esp}%')
+                for _r in _ruins:
+                    erro(f'6: a tabela do SS6.2.1 nao reconta: {_r}')
+                if not _ruins:
+                    print(f'  [x] as tres linhas da tabela reconstroem de N={N_PUB}.')
+                _tx = [t for _, t, _, _ in _linhas]
+                if max(_tx) != TAXA_MAX:
+                    erro(f'6: a tabela do SS6.2.1 chama {max(_tx)} de teto relatado e '
+                         f'o levantamento diz {TAXA_MAX} — a linha de cima da tabela '
+                         f'e a que ancora a trava, e ela virou copia divergente')
+
+            # --- a marca e' mais rara que o marco ------------------------
+            # Nao e' auto-referencia: os marcos vem da peca 2 e o 9,7 do SS5.
+            _mm = re.search(r'\|\s*mediano\s*\|[^|]*\|[^|]*\|\s*\*\*([\d,]+) meses',
+                            P12)
+            _mc = re.search(r'n[íi]veis \*\*([\d, e]+)\*\*, sete marcos', P02)
+            if not _mm or not _mc:
+                erro('6: nao achei o perfil mediano do SS5 ou os sete marcos da peca 2 '
+                     '— sem os dois a comparacao de raridade nao tem contra o que medir')
+            else:
+                _meses20 = _num(_mm.group(1))
+                _marcos = [int(x) for x in re.findall(r'\d+', _mc.group(1))]
+                _ate20 = len([m for m in _marcos if m <= NIVEL_LIMIAR])
+                _marcas = _meses20 * TAXA_MAX / N_PUB
+                print(f'  ate o nivel 20 ({_meses20} meses do mediano): '
+                      f'{_marcas:.1f} marca(s) contra {_ate20} marcos')
+                if _marcas >= _ate20:
+                    erro(f'6: o mestre mais pesado fecha {_marcas:.1f} marcas ate o '
+                         f'nivel 20 e a ficha atravessa {_ate20} marcos — o SS6.2.1 '
+                         f'afirma que a marca e MENOS frequente que o marco, e ela '
+                         f'deixou de ser')
+                else:
+                    print('  [x] a marca e mais rara que o marco, como o SS6.2.1 diz.')
+
+bloco('7. A LISTA DE FEITOS E FECHADA E ANCORADA? (peca 12 SS7.1)')
+
+_s71 = _sec(P12, '### 7.1 ', '### 7.2')
+if not _s71:
+    erro('7: nao achei o SS7.1 da peca 12 — a lista de feitos do limiar sumiu')
+else:
+    _feitos = []
+    for _l in _s71.splitlines():
+        m = re.match(r'\|\s*\*\*(\d+)\*\*\s*\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|', _l)
+        if m:
+            _feitos.append((int(m.group(1)), m.group(2), m.group(3)))
+    _p = re.search(r'### 7\.1 As (\w+)', _s71)
+    N_PROSA = PALAVRA.get(_p.group(1)) if _p else None
+    print(f'  {len(_feitos)} entrada(s) na tabela; o titulo do SS7.1 diz {N_PROSA}')
+    if N_PROSA is None:
+        erro('7: o titulo do SS7.1 nao diz "As <numero>" — sem ele a contagem da '
+             'tabela nao tem segunda copia para bater, e a licao no 9 fica sem guarda')
+    elif len(_feitos) != N_PROSA:
+        erro(f'7: a tabela do SS7.1 tem {len(_feitos)} entradas e o titulo diz '
+             f'{N_PROSA} — um numero, dois donos, e eles divergiram')
+    elif len(_feitos) < 4:
+        erro(f'7: so {len(_feitos)} entrada(s) legiveis — o extrator parou de achar '
+             f'e as checagens abaixo passariam trivialmente')
+    else:
+        if [n for n, _, _ in _feitos] != list(range(1, len(_feitos) + 1)):
+            erro(f'7: a numeracao das entradas do SS7.1 tem buraco: '
+                 f'{[n for n, _, _ in _feitos]}')
+
+        # --- toda entrada aponta para onde o fato mora --------------------
+        # E' o que separa lista FECHADA de lista de exemplo: a peca 10 exige que
+        # a entrada cite fato do mundo, e fato do mundo tem documento dono.
+        _sem = []
+        for _n, _feito, _confere in _feitos:
+            if not re.search(r'pe[çc]a \d+|manual|se[çc][ãa]o \d+', _confere):
+                _sem.append(f'{_n} ("{_feito[:40]}")')
+        if _sem:
+            for _s in _sem:
+                erro(f'7: a entrada {_s} nao diz em que documento o fato mora — '
+                     f'sem dono, conferir vira julgamento e a lista deixa de '
+                     f'atravessar sete mesas')
+        else:
+            print('  [x] as oito entradas apontam para o documento que carrega o fato.')
+
+        # --- e a peca citada existe --------------------------------------
+        _arquivos = {int(f[:2]): f for f in os.listdir(AQUI)
+                     if re.match(r'\d\d-.*\.md$', f)}
+        _mortas = sorted({int(p) for _, _, c in _feitos
+                          for p in re.findall(r'pe[çc]a (\d+)', c)}
+                         - set(_arquivos))
+        if _mortas:
+            erro(f'7: a lista aponta para peca(s) que nao existem: {_mortas}')
+        else:
+            print(f'  [x] toda peca citada nas entradas existe em 03-mecanica/.')
+
+        # --- a lista continua FECHADA ------------------------------------
+        if 'palavra final' not in _s71:
+            erro('7: o SS7.1 parou de dizer que a palavra final do mestre e sobre SE '
+                 'o feito aconteceu, e nao sobre QUAIS sao — e essa frase e a '
+                 'diferenca inteira entre lista fechada e lista de exemplo')
 
 # --------------------------------------------------------------------------
 print()

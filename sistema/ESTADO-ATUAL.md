@@ -1,8 +1,20 @@
 # Estado atual do projeto
 
-Atualizado em 27/08/2026, na v0.171 (última peça fechada: **Sem Técnica**, a peça 25, na v0.168, com o `conferir-sem-tecnica.py` e doze checagens; antes dela, **Dano de alma e Integridade, na v0.145**; antes dela, o **Bloquear, na v0.143**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 27/08/2026, na v0.172 (última peça fechada: **Sem Técnica**, a peça 25, na v0.168, com o `conferir-sem-tecnica.py` e doze checagens; antes dela, **Dano de alma e Integridade, na v0.145**; antes dela, o **Bloquear, na v0.143**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.171.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e cinco peças escritas** e **vinte e cinco validadores**.
+**Versão v0.172.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e cinco peças escritas** e **vinte e cinco validadores**.
+
+**A v0.172 fechou as duas perguntas em aberto da peça 12, e com isso a peça 12 não tem mais item de decisão — só os dois marcados para o playtest.**
+
+> **A conversão de mestragem é o §6.2:** *uma mensalidade do seu Grau a cada **vinte** mesas mestradas, fechando sozinha na vigésima.* **Os dois números são derivados** — o valor é a linha do §6.1, e o `20` é `3 ÷ 0,15`: a taxa mais pesada do levantamento sobre a fatia que o §6.1 dá ao catálogo mundano.
+>
+> **A propriedade que sustenta a trava é que a fração não depende do tamanho da campanha.** *Ganho e folha crescem no mesmo relógio, então a mestragem entrega `taxa ÷ 20` da folha e o tempo cai fora da conta.* **`15%` a três mesas por mês, `10%` a duas, `5%` a uma.**
+>
+> **A lista de feitos do limiar é o §7.1, com oito entradas fechadas.** *A palavra final do mestre é sobre **se** um feito aconteceu, nunca sobre **quais** são.* **Cada entrada cita um estado que a ficha ou o registro da missão carrega depois da mesa** — nível, `0` de vida, estágio de alma, tamanho declarado antes, grau escrito na ferramenta.
+>
+> **⚠ O filtro que escolheu as oito é da peça 10, e ele vale para toda lista fechada do projeto:** *entrada de lista fechada é **pergunta sobre o mundo** — a mesma resposta serve para qualquer mesa; **pergunta sobre a cena que aquele mestre dirigiu** fica de fora.* **Três das oito propostas reprovavam nele e foram trocadas.**
+>
+> **⚠ E não existe grau de maldição.** *A escada `grau 4 a grau 1, mais o especial` é de **ferramenta** (peça 16 §3) e de **patente** (peça 12 §6.1); a tabela de inimigo do manual é `nível do grupo → vida e dano`.* **É decisão que o BESTIÁRIO herda:** se o inimigo ganhar grau, o feito 1 do §7.1 volta à forma original.
 
 **A v0.171 fechou quatro itens da fila pequena, e o quarto virou uma peça de economia.**
 
@@ -14,7 +26,7 @@ Atualizado em 27/08/2026, na v0.171 (última peça fechada: **Sem Técnica**, a 
 >
 > **Dois donos que não existiam ganharam casa.** *`Vantagem não empilha` estava publicada no livro e em peça nenhuma — a peça 14 apontava para a peça 4 §5, onde só morava o caso de dois ajudantes; hoje ela é regra daquele §5.* **E o `33,9` da peça 11 §6 era número órfão desde a v0.78:** *ele não reconstruía de nada, e virou `36,0`, derivado do golpe de chefe do manual vezes o acerto da peça 1 §6.*
 >
-> ***Parou numa pergunta, e ela é a primeira coisa a retomar:*** **o formato da lista de feitos do limiar do nível 20, e a forma da conversão de mestragem.** *As três opções de cada uma estão no CHANGELOG desta versão.*
+> *Ela parou numa pergunta de duas metades — o formato da lista de feitos e a forma da conversão de mestragem.* **As duas foram respondidas na v0.172.**
 
 **A v0.170 pôs `Sem Técnica` no livro**, como o capítulo **11**, e o Manual da Guilda foi para **18 capítulos**.
 

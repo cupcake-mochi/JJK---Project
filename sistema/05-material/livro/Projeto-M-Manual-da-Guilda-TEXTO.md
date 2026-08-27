@@ -44,12 +44,13 @@ Nem todo capítulo é para ler do começo ao fim. Metade dos capítulos é catá
 | **8** | Caminhos e Trilhas | *consulta* · o seu lugar numa equipe |
 | **9** | Fundamento | *ler uma vez, depois consultar* · a sua técnica, e como se monta feitiço com ela |
 | **10** | Técnica Marcial | *consulta* · a mesma máquina do Fundamento, com o corpo e o equipamento no lugar da energia |
-| **11** | Aptidões e Refino | *consulta* · o que qualquer feiticeiro pode aprender, técnica à parte |
-| **12** | Bênçãos e Lapidação | *consulta* · o que entra no lugar dos dois para quem não tem energia amaldiçoada |
-| **13** a **15** | Equipamento · Ferramenta Amaldiçoada · Invocações | *consulta* · o que você carrega e o que você põe em campo |
-| **16** | Pactos | *consulta* · o que você troca com a sua própria energia, e o que ela cobra |
+| **11** | Sem Técnica | *consulta* · a mesma máquina, para quem nasceu sem técnica inata |
+| **12** | Aptidões e Refino | *consulta* · o que qualquer feiticeiro pode aprender, técnica à parte |
+| **13** | Bênçãos e Lapidação | *consulta* · o que entra no lugar dos dois para quem não tem energia amaldiçoada |
+| **14** a **16** | Equipamento · Ferramenta Amaldiçoada · Invocações | *consulta* · o que você carrega e o que você põe em campo |
+| **17** | Pactos | *consulta* · o que você troca com a sua própria energia, e o que ela cobra |
 | | **A CAMPANHA** | |
-| **17** | Experiência e Progressão | *consulta* · o que cada nível entrega, do 1 ao 30 |
+| **18** | Experiência e Progressão | *consulta* · o que cada nível entrega, do 1 ao 30 |
 | | **Índice remissivo** | no fim: termo, e em que página ele aparece |
 
 **Grupo novo, sem ninguém ter lido nada?** Vá direto para *Antes da primeira sessão*. É uma cena pronta, com ficha e tudo, para jogar antes de estudar o resto.
@@ -6686,6 +6687,10 @@ Uma missão perdida por azar de dado pesa diferente de uma abandonada na metade,
 
 Um mestre ativo constrói patente e rede, e as duas abrem porta que nível nenhum abre.
 
+> **A cada vinte mesas mestradas você recebe uma mensalidade extra do seu Grau.** A marca fecha sozinha na vigésima e paga na patente que você tinha naquele dia.
+
+Não dá para segurar mesa e fechar a marca depois de subir de patente: a vigésima fecha sozinha, e não existe o ato de fechar. Quem mestra três vezes por mês chega a uma marca a cada seis ou sete meses, e quem mestra uma vez por mês leva vinte. É um bônus em cima da folha, e nunca um segundo salário.
+
 ## Salário
 
 > **Feiticeiro recebe salário mensal da instituição, e o valor sai da patente.** Não é pagamento por missão: é folha.
@@ -6709,7 +6714,21 @@ O dinheiro compra equipamento, e os `Preços` estão no capítulo 14, *Equipamen
 
 Aos 6.300 de XP acumulado o personagem para no nível 20 até a mesa reconhecer alguma coisa que ele fez. O XP continua acumulando e nada se perde: quando o feito acontece, o que estava guardado destrava de uma vez.
 
-O que conta como feito é conversa de mesa, e a mesa fecha a lista antes de alguém chegar lá.
+**A lista é fechada.** O mestre da mesa tem a palavra final sobre se um feito aconteceu — e não sobre quais são.
+
+**Feitos do limiar**
+| | o feito |
+|---|---|
+| **1** | derrubar um chefe de nível acima do seu |
+| **2** | sair de pé de uma Expansão de Domínio completa |
+| **3** | fechar uma missão de final de arco |
+| **4** | pôr de pé alguém que estava a 0 de vida |
+| **5** | voltar do estágio 4 de dano de alma |
+| **6** | cumprir uma `Promessa` até o fim, pagando a sua metade |
+| **7** | trazer para a Guilda uma ferramenta de grau 1 ou especial |
+| **8** | terminar a missão depois de outro personagem jogador chegar ao estágio 4 |
+
+Um feito basta, e ele destranca uma vez só. Toda entrada da tabela `Feitos do limiar` cita uma coisa que fica escrita na ficha ou no registro da missão depois que a mesa acabou — é isso que faz sete mestres diferentes lerem a lista do mesmo jeito.
 
 ## Operação na mesa
 
@@ -6853,4 +6872,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: 47c2138873daaa1a4ffe19a756a33ebd1806daba -->
+<!-- fonte: f20e78608be8f724094e6a380da0c5cca79d7ac4 -->
