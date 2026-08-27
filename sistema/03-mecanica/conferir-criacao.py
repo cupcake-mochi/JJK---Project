@@ -34,6 +34,10 @@ Sete checagens
   5. FEITICOS — a contagem do nivel 2 bate com a formula da v0.27.
   6. AS ESCOLHAS FECHAM — pericias, oficios e Testes de Resistencia somam o que
      a peca promete, pelas duas rotas do extra.
+     6.1 QUEM DA OFICIO — e a quem, contra a peca 7 §6. O total fecha mesmo com
+         a atribuicao trocada, e foi por ai que a peca 8 passou da v0.105 a
+         v0.170 dando dois oficios do Caminho a Origem e chamando um deles de
+         fixo, em quatro lugares, com este validador verde.
   7. O CATALOGO EXISTE — Caminho, Trilha e Origem citados na criacao existem
      mesmo nas pecas 6 e 9.
 
@@ -469,6 +473,156 @@ if not re.search(r'\*\*São dois Testes de Resistência treinados\*\*', P8):
     erro('a peca 8 nao confere mais os dois Testes de Resistencia treinados')
 else:
     print('  [x] dois Testes de Resistencia treinados, um da Origem e um do Caminho')
+
+
+# ==========================================================================
+bloco('6.1 QUEM DA OFICIO — a atribuicao da peca 8 contra a peca 7 §6')
+# A checagem 6 acima le so os TOTAIS das duas rotas (8 de 23 e 3 de 11), e o
+# total fecha mesmo com a atribuicao trocada. Foi por ai que a peca 8 atravessou
+# da v0.105 a v0.170 dizendo, em quatro lugares, que a Origem entrega DOIS
+# oficios livres (sao do Caminho) e que um dos dois do Caminho e' FIXO (a v0.105
+# tirou o oficio fixo). Total certo, dono errado — a licao no 9 pelo eixo que
+# ninguem media. O conferir-ficha.py registra o buraco no proprio comentario:
+# "a coluna de oficio fixo saiu da peca, e com ela saiu o que havia para
+# comparar aqui". Saiu a coluna, e nao entrou nada no lugar.
+#
+# Nada aqui e' escrito: quem da quanto sai da peca 7 §6, que e' a dona.
+
+_PALNUM = {'um': 1, 'uma': 1, 'dois': 2, 'duas': 2, 'tres': 3, 'três': 3,
+           'quatro': 4, 'cinco': 5, 'seis': 6, 'sete': 7, 'oito': 8}
+
+
+def _palnum(p):
+    return _PALNUM.get(p.strip().lower())
+
+
+def _secao(texto, titulo):
+    m = re.search(r'\n## ' + re.escape(titulo) + r'(.*?)(?=\n## |\Z)', texto, re.S)
+    return m.group(1) if m else None
+
+
+_s7 = _secao(P7, '6. De onde vem o treino')
+_p1 = _secao(P8, 'Passo 1 · Origem')
+_p3 = _secao(P8, 'Passo 3 · Caminho')
+_p6 = _secao(P8, 'Passo 6 · Perícias, ofícios e Testes de Resistência')
+
+if not _s7:
+    erro('nao achei o §6 da peca 7 — a atribuicao de oficio ficou sem dono e '
+         'esta checagem sairia verde sem ter lido nada')
+elif not (_p1 and _p3 and _p6):
+    _faltam = [n for n, s in (('Passo 1', _p1), ('Passo 3', _p3), ('Passo 6', _p6))
+               if not s]
+    erro(f'nao achei na peca 8: {", ".join(_faltam)} — sem a secao nao ha o que comparar')
+else:
+    # --- o que a peca 7 §6 concede, e a quem -------------------------------
+    # E' o TOTAL do Caminho: se um dia um deles voltar a ser fixo, ele conta
+    # DENTRO deste numero e nao por cima dele.
+    _m = re.search(r'Mais (\w+) ofícios?\b', _s7)
+    _cam_livre = _palnum(_m.group(1)) if _m else None
+    _m = re.search(r'um extra que você escolhe: (\w+) ofício livre', _s7)
+    _ori_extra = _palnum(_m.group(1)) if _m else None
+    # A negacao e' LIDA, e nao suposta: se um dia o Caminho voltar a travar um
+    # oficio, esta checagem vira do avesso junto com a peca em vez de reprovar
+    # a decisao nova. E' o contra-teste coerente que o metodo pede.
+    _m = re.search(r'\*\*O Caminho (não trava|trava) ofício', _s7)
+    _cam_trava = (_m.group(1) == 'trava') if _m else None
+
+    if _cam_livre is None or _ori_extra is None or _cam_trava is None:
+        erro('nao consegui ler da peca 7 §6 quantos oficios o Caminho da, quanto '
+             'vale o extra da Origem, ou se o Caminho trava algum — o extrator '
+             'parou de achar e a comparacao passaria trivialmente')
+    else:
+        print(f'  peca 7 §6: o Caminho da {_cam_livre} oficio(s), e '
+              f'{"trava um deles" if _cam_trava else "nao trava nenhum"}; '
+              f'o extra da Origem vale {_ori_extra}')
+
+        # --- a tabela do Passo 6, fonte por fonte -------------------------
+        _tab = {}
+        for linha in _p6.splitlines():
+            m = re.match(r'\|\s*\*\*([^*]+)\*\*\s*\|([^|]*)\|([^|]*)\|([^|]*)\|', linha)
+            if m:
+                cel = m.group(3)
+                _tab[m.group(1).strip()] = dict(
+                    total=sum(int(x) for x in re.findall(r'(\d+)', cel)),
+                    fixos=sum(int(x) for x in re.findall(r'(\d+)\s*fixo', cel)))
+        _esperado = {'Caminho': _cam_livre, 'Origem': 0, 'Origem, o extra': _ori_extra}
+        if set(_tab) != set(_esperado):
+            erro(f'a tabela de treino do Passo 6 tem as fontes {sorted(_tab)} e a '
+                 f'peca 7 §6 fala de {sorted(_esperado)}')
+        else:
+            for fonte, quanto in _esperado.items():
+                v = _tab[fonte]
+                ok = v['total'] == quanto
+                print(f'  {"[x]" if ok else "[ ]"} Passo 6 · {fonte:<16} -> '
+                      f'{v["total"]} oficio(s), {v["fixos"]} fixo(s)   '
+                      f'(a peca 7 §6 da {quanto})')
+                if not ok:
+                    erro(f'o Passo 6 da a "{fonte}" {v["total"]} oficio(s) e a peca 7 '
+                         f'§6 da {quanto}')
+            _fixos = _tab['Caminho']['fixos']
+            if _cam_trava and _fixos < 1:
+                erro('a peca 7 §6 diz que o Caminho TRAVA oficio e o Passo 6 nao '
+                     'entrega nenhum fixo')
+            elif not _cam_trava and _fixos:
+                erro(f'o Passo 6 da {_fixos} oficio FIXO ao Caminho, e a peca 7 §6 '
+                     'diz que o Caminho nao trava nenhum')
+
+        # --- as duas cabeceiras: Passo 1 e Passo 3 ------------------------
+        _n1 = 0
+        _achou1 = False
+        for linha in _p1.splitlines():
+            m = re.match(r'\|\s*\*\*(\w+) ofícios?[^*]*\*\*\s*\|', linha)
+            if m:
+                _achou1 = True
+                _n1 += _palnum(m.group(1)) or 0
+        if not _achou1:
+            erro('o Passo 1 nao diz mais quantos oficios a Origem entrega — a linha '
+                 'sumiu, e sem ela o dono da atribuicao volta a ser ninguem')
+        elif _n1 != _ori_extra:
+            erro(f'o Passo 1 da {_n1} oficio(s) a Origem, e a peca 7 §6 da '
+                 f'{_ori_extra} — os outros sao do Caminho')
+        else:
+            print(f'  [x] Passo 1 · a Origem entrega {_n1} oficio(s), como o extra da peca 7')
+
+        # Lido pelo TOTAL, e nao pela palavra "livres": o contra-teste coerente
+        # reescreve a frase para "dois oficios, um fixo e um livre" e a checagem
+        # tem de continuar entendendo dois. Ler "N oficios livres" era medir a
+        # decisao de hoje em vez da relacao — o arnes pegou isto.
+        m = re.search(r'\*\*(\w+) ofícios?\b', _p3)
+        if not m:
+            erro('o Passo 3 nao diz mais quantos oficios o Caminho entrega')
+        elif _palnum(m.group(1)) != _cam_livre:
+            erro(f'o Passo 3 da {_palnum(m.group(1))} oficios ao Caminho, e a '
+                 f'peca 7 §6 da {_cam_livre}')
+        else:
+            print(f'  [x] Passo 3 · o Caminho entrega {_cam_livre} oficios')
+
+        # --- e a prosa nao pode reatribuir o que a tabela ja resolveu -----
+        # A ficha de exemplo e o checklist do mestre carregavam "(fixo do
+        # Caminho)" e "o oficio fixo do Caminho" — texto corrido, longe de
+        # qualquer tabela, e por isso fora do alcance de todo extrator.
+        _frases = [f for f in ('ofício fixo', 'ofícios fixos', 'fixo do Caminho',
+                               'fixos do Caminho') if f in P8]
+        if _cam_trava and not _frases:
+            aviso('a peca 7 §6 diz que o Caminho trava oficio e a peca 8 nao escreve '
+                  'isso em lugar nenhum fora da tabela')
+        elif not _cam_trava and _frases:
+            erro(f'a peca 8 ainda escreve {_frases} na prosa, e a peca 7 §6 tirou o '
+                 'oficio fixo do Caminho na v0.105')
+        else:
+            print('  [x] a prosa da peca 8 nao reatribui oficio por fora da tabela')
+
+_contadas = re.search(r'Ela dá (\w+) coisas', _p1 or '')
+if not _contadas:
+    erro('o Passo 1 parou de declarar quantas coisas a Origem da')
+else:
+    _linhas = [l for l in _p1.splitlines()
+               if l.startswith('|') and not re.match(r'\|[\s|:-]+\|$', l)]
+    _dito, _contado = _palnum(_contadas.group(1)), len(_linhas)
+    if _dito != _contado:
+        erro(f'o Passo 1 diz que a Origem da {_dito} coisas e a tabela tem {_contado} linhas')
+    else:
+        print(f'  [x] o Passo 1 diz {_dito} coisas e a tabela tem {_contado} linhas')
 
 
 # ==========================================================================

@@ -1,7 +1,7 @@
 # CRIAÇÃO DE PERSONAGEM
 
 **Fase 4, oitava peça.** A soma de tudo, na ordem em que você preenche a ficha.
-Versão v0.21, atualizada na v0.22 e na v0.24, com o recorte de Pactos na v0.116 — 08/08/2026
+Versão v0.21, atualizada na v0.22 e na v0.24, com o recorte de Pactos na v0.116 e a atribuição dos ofícios acertada na v0.171 — 08/08/2026
 
 Esta peça não inventa regra nova. Ela junta as sete anteriores e o manual do Fundamento na ordem em que a pessoa senta e preenche.
 
@@ -53,7 +53,7 @@ Ela dá seis coisas:
 |---|---|
 | **Uma perícia** | escolhida da lista de quatro da sua Origem |
 | **Uma perícia livre** | que a sua história justifique, e de fora das seis do seu Caminho |
-| **Dois ofícios livres** | o Caminho não trava nenhum dos dois |
+| **Um ofício livre** | ou, se você não quiser ofício, mais uma perícia no lugar dele. **Os dois ofícios livres são do Caminho**, no Passo 3 |
 | **Um Teste de Resistência treinado** | qualquer um dos quatro. O outro vem do Caminho |
 | **Um traço não numérico** | um acesso, uma obrigação, um contato, uma marca no corpo, alguém atrás de você |
 | **Dois Legados** | os dois na criação, e o sistema nunca concede outro. Um é **Destranca** obrigatório — zero no dado, e é quem o personagem é; o outro sai de qualquer lista da Origem. **Peça 13** |
@@ -100,6 +100,10 @@ O que ele te dá agora:
 
 Mais **quatro perícias à sua escolha**, de qualquer lugar do quadro, **dois ofícios livres** e **um Teste de Resistência treinado**.
 
+> **E o equipamento, que entrou na v0.171.** *Até ali a criação dava acesso e não dava objeto: o Caminho treina uma categoria de arma, e a ficha saía de casa sem nada na mão.* **Você começa com o `Traje` degrau 1 da instituição, de graça, e `¥75.000` para comprar o resto** — a tabela é a peça 14 §6.5, e os `¥75.000` são meia mensalidade de um `Grau 4`, da peça 12 §6.1.
+>
+> *O uniforme de graça custa zero:* **o `Traje` 1 dá proteção `1` e desliga o `cobrir-se`, que no refino `1` também dá `1`** — a Defesa do nível 2 é a mesma com ele e sem ele.
+
 **E a Trilha, que você escolhe agora junto do Caminho.** São três por Caminho, e a lista está na peça 6 — Muro · Punho · Brasa no Bastião, Estocada · Batedor · Executor na Vanguarda, e assim por diante. *Decidido na v0.27 e aplicado na v0.34:* a Trilha é **identidade, como o Caminho, e nasce com o personagem** — três lugares do material diziam que ela só chegava na primeira subida, e a confusão era a mesma dos feitiços, de contar a partir do nível 1 numa ficha que nasce no 2.
 
 > **O que a sua Trilha entrega ainda não tem número.** Hoje ela é o nome e a frase de uma linha: você a escolhe, ela diz quem o seu personagem é dentro do Caminho, e a peça de Trilhas fecha o que ela dá. Escolher agora não custa nada e não tranca nada.
@@ -143,7 +147,7 @@ Você já tem a Regra. Falta:
 
 | de onde vem | perícias | ofícios | Teste de Resistência |
 |---|---|---|---|
-| **Caminho** | 2 fixas + 4 à sua escolha | 1 fixo + 1 à sua escolha | 1 |
+| **Caminho** | 2 fixas + 4 à sua escolha | 2 à sua escolha | 1 |
 | **Origem** | 1 da lista dela + 1 livre | — | 1 |
 | **Origem, o extra** | *ou* mais 1 perícia | *ou* 1 ofício livre | — |
 
@@ -161,6 +165,8 @@ Você é bom em pouco mais de um terço do que existe — os buracos são de pro
 > **Perícia sem treino você tenta; ofício sem treino, não.** Qualquer um escala e falha. Ninguém forja uma lâmina por tentativa.
 
 O quadro completo das vinte e três perícias e dos onze ofícios está na peça 7.
+
+> **⚠ A atribuição dos ofícios estava trocada em quatro lugares desta peça, da v0.105 à v0.170.** *O Passo 1 dava à Origem os **dois** ofícios livres, que são do Caminho; o Passo 6, a ficha de exemplo e o checklist do mestre continuavam chamando um deles de **fixo**, que a v0.105 tirou.* **Os totais publicados — `8 e 3`, ou `9 e 2` — estavam certos o tempo todo, e é por isso que ninguém viu:** *a checagem 6 do `conferir-criacao.py` lia a soma das duas rotas, e soma fecha com o dono trocado.* **Hoje a 6.1 confere fonte por fonte, contra a peça 7 §6.**
 
 ## Passo 7 · Os números que caem sozinhos
 
@@ -261,7 +267,7 @@ Pacto é o que você trocou por poder.
 
 **Perícias — oito.** Do Caminho, fixas: Atletismo e Intimidação. Do Caminho, livres: Sentir Energia, Percepção, Sobrevivência e Intuição. Da Origem: Hierarquia e História.
 
-**Ofícios — três.** Forja (fixo do Caminho), Caligrafia (livre do Caminho) e Herbalismo (da Origem).
+**Ofícios — três.** Forja e Caligrafia, os dois livres do Caminho, e Herbalismo, o extra da Origem.
 
 **Os números:**
 
@@ -287,7 +293,7 @@ Sete perguntas, e todas têm resposta objetiva:
 
 1. **Os atributos somam nove, e nenhum passa de 3?**
 2. **O Teste de Resistência Físico está travado** em Força ou Destreza?
-3. **São oito perícias e três ofícios — ou nove e dois?** As duas rotas são legais; o que não pode é somar as duas. E as duas perícias fixas e o ofício fixo do Caminho precisam estar entre eles.
+3. **São oito perícias e três ofícios — ou nove e dois?** As duas rotas são legais; o que não pode é somar as duas. E as duas perícias fixas do Caminho precisam estar entre elas.
 4. **São dois Testes de Resistência treinados**, um da Origem e um do Caminho?
 5. **A Regra da técnica cabe em uma frase**, é verificável pela mesa e não tem número? **E o atributo da técnica está declarado na ficha?**
 6. **Alguém que não seja o dono leu a técnica?**

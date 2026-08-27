@@ -939,14 +939,99 @@ else:
                  f'Passiva `Recomposição` — a aptidao APRENDIDA passou a inata, e a '
                  f'secao 7 mandava medir uma contra a outra')
 
-    # 4. o refino nao escala a cura. LIÇÃO Nº 1: refino cresce +7 a +9 e vida de
-    #    inimigo cresce mais rapido; se ele entrar aqui, a cura deriva.
-    _formula = [l for l in _s6.split('\n') if 'de vida por PE' in l or 'cura por PE' in l]
-    if _formula and 'refino' in sem_acento(' '.join(_formula)).lower():
-        erro('a formula de cura da `Energia Reversa` menciona refino — a secao 2 proibe, '
-             'e o teto dela e `maior Classe`')
+    # 4. o teto e' a `maior Classe` e nao o refino — MEDIDO, e nao procurado.
+    #
+    #    Ate a v0.170 esta sub-checagem so perguntava se a palavra `refino`
+    #    aparecia na formula, e a mensagem de erro dizia "a secao 2 proibe".
+    #    Duas coisas erradas na mesma linha: ela media o MARCADOR em vez do
+    #    fenomeno, e o motivo que ela citava tinha morrido na v0.158, quando
+    #    dano saiu da lista da §2. Cura e' `magnitude fora de disputa` — a §2
+    #    nao proibe. Quem decide e' o EMPATE, e ele nunca tinha sido medido.
+    #
+    #    A regua: a rodada gasta curando cancela a rodada de apanhar. Cura sai
+    #    do teto declarado no texto; o que voce toma sai do golpe de chefe da
+    #    tabela de inimigo vezes o acerto da peca 1 §6. Nenhum dos dois esta
+    #    escrito aqui.
+    #
+    #    BANDA_EMPATE e' LIMITE DE DESIGN, e por isso mora no codigo — a
+    #    excecao que a licao no 8 abre. Ela existe para ser comparada com a
+    #    regra aplicada, que e lida do texto.
+    BANDA_EMPATE = (0.80, 1.10)
+    NIVEIS_ER = (14, 18, 22, 26, 30)   # do gate (refino 7) ao teto de nivel
+
+    _mregra = re.search(r'Gaste até `([^`]+)` de PE e recupere `1d(\d+)', _s6)
+    if not _mregra:
+        erro('nao consegui ler a LINHA DE REGRA da `Energia Reversa` — sem o teto e o '
+             'dado, a banda do empate abaixo nao teria com que ser calculada, e esta '
+             'sub-checagem sairia verde sem ter medido nada')
     else:
-        print('  [x] o refino nao entra na formula de cura.')
+        _teto_txt, _face_er = _mregra.group(1), int(_mregra.group(2))
+        _por_pe = (_face_er + 1) / 2
+
+        def _teto_em(nv):
+            t = sem_acento(_teto_txt).lower()
+            if 'maior classe' in t:
+                return CLASSE_NO_NIVEL[nv], 'maior Classe'
+            if 'refino' in t:
+                return refino_em('especialista', nv), 'refino'
+            return None, _teto_txt
+
+        _fora = []
+        print(f"\n  {'nv':<5}{'teto':<7}{'cura':<9}{'a rodada tira':<16}{'cobre':<8}")
+        for _nv in NIVEIS_ER:
+            _t, _nome = _teto_em(_nv)
+            if _t is None:
+                erro(f'o teto da `Energia Reversa` virou "{_teto_txt}", e esta checagem '
+                     f'so sabe medir `maior Classe` e `refino` — ensine o eixo novo a '
+                     f'ela antes de publicar, senao ela para de medir em silencio')
+                break
+            _cura = _t * _por_pe
+            _tira = dano_chefe(_nv) * ACERTO_DIFICIL
+            _cob = _cura / _tira
+            print(f'  {_nv:<5}{_t:<7}{_cura:<9.1f}{_tira:<16.1f}{_cob:<8.0%}')
+            if not BANDA_EMPATE[0] <= _cob <= BANDA_EMPATE[1]:
+                _fora.append((_nv, _cob))
+        else:
+            if _fora:
+                erro(f'com o teto em `{_nome}` a cura sai da banda do empate '
+                     f'{BANDA_EMPATE[0]:.0%}-{BANDA_EMPATE[1]:.0%} em '
+                     + ', '.join(f'nv{n} ({c:.0%})' for n, c in _fora)
+                     + ' — a rodada de cura deixa de ser uma rodada COMPRADA e vira '
+                       'uma rodada ganha')
+            else:
+                print(f'  [x] o teto em `{_nome}` empata a faixa inteira, dentro de '
+                      f'{BANDA_EMPATE[0]:.0%}-{BANDA_EMPATE[1]:.0%}.')
+
+        # 4.1 e a tabela publicada na peca e' recontada, celula a celula
+        _pub = {}
+        for _l in _s6.split('\n'):
+            _m = re.match(r'\|\s*(\d+)\s*\|(.+)\|\s*$', _l)
+            if not _m or int(_m.group(1)) not in NIVEIS_ER:
+                continue
+            _vals = re.findall(r'`([\d,]+)%?`', _m.group(2))
+            if len(_vals) == 7:
+                _pub[int(_m.group(1))] = [float(v.replace(',', '.')) for v in _vals]
+        if len(_pub) != len(NIVEIS_ER):
+            erro(f'a tabela do empate da `Energia Reversa` tem {len(_pub)} das '
+                 f'{len(NIVEIS_ER)} linhas legiveis — extrator que para de achar '
+                 f'sai verde calado')
+        else:
+            _ruins = []
+            for _nv, _lido in _pub.items():
+                _tira = dano_chefe(_nv) * ACERTO_DIFICIL
+                _cl, _rf = CLASSE_NO_NIVEL[_nv], refino_em('especialista', _nv)
+                _alvo = [_tira,
+                         _cl, _cl * _por_pe, round(_cl * _por_pe / _tira * 100),
+                         _rf, _rf * _por_pe, round(_rf * _por_pe / _tira * 100)]
+                if any(abs(a - b) > 0.06 for a, b in zip(_alvo, _lido)):
+                    _ruins.append((_nv, _lido, [round(x, 1) for x in _alvo]))
+            if _ruins:
+                for _nv, _l, _a in _ruins:
+                    erro(f'a linha do nivel {_nv} da tabela do empate publica {_l} e a '
+                         f'conta da {_a}')
+            else:
+                print(f'  [x] as {len(_pub)} linhas publicadas da tabela do empate '
+                      f'reconstroem da tabela de inimigo e da escada de Classe.')
 
     # 5. LIÇÃO Nº 9, GENERALIZADA na v0.90: o gate de cada aptidao mora no titulo
     #    da secao 6 ou 6.5 E na tabela do catalogo da secao 10. Dois donos para o

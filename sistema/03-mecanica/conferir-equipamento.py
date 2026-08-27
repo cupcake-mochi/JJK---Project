@@ -533,6 +533,158 @@ if _s8:
     else:
         aviso('nao achei o capitulo 8 do livro — a copia dele nao foi conferida')
 
+
+# --------------------------------------------------------------- 13. O DINHEIRO
+bloco('13. O DINHEIRO — o preco e a terceira trava, e ele so sabe atrasar')
+# v0.171. Nada aqui esta escrito: a escada de salario vem da peca 12 SS6.1, os
+# precos vem do SS6.5 desta peca, e a unica constante e a ANCORA EXTERNA — o
+# salario de um ministro do gabinete japones, que e limite de design vindo de
+# fora do projeto e por isso mora no codigo (excecao da licao no 8).
+MINISTRO_ANO = 29_610_000
+
+_P12 = ler('12-experiencia-e-progressao.md') if 'ler' in dir() else None
+if _P12 is None:
+    try:
+        _P12 = open(os.path.join(AQUI, '12-experiencia-e-progressao.md'),
+                    encoding='utf-8').read()
+    except OSError:
+        _P12 = ''
+        erro('13: nao consegui abrir a peca 12 para ler a escada de salario')
+
+def _iene(s):
+    m = re.search(r'([\d.]+)', s.replace('\u00a5', ''))
+    return int(m.group(1).replace('.', '')) if m else None
+
+# --- a escada, lida da peca 12 --------------------------------------------
+SAL = {}
+for _l in _P12.splitlines():
+    m = re.match(r'\|\s*\*\*(Grau \d|Especial)\*\*\s*\|\s*`¥([\d.]+)`\s*\|', _l)
+    if m:
+        SAL[m.group(1)] = int(m.group(2).replace('.', ''))
+if len(SAL) != 5:
+    erro(f'13: a escada de salario da peca 12 SS6.1 rendeu {len(SAL)} degraus e sao '
+         f'cinco — extrator que para de achar sai verde calado')
+else:
+    _ordem = ['Grau 4', 'Grau 3', 'Grau 2', 'Grau 1', 'Especial']
+    _v = [SAL[k] for k in _ordem]
+    _razoes = {round(b / a, 3) for a, b in zip(_v, _v[1:])}
+    print(f"  escada: " + " -> ".join(f'{x:,}' for x in _v))
+    if _razoes != {2.0}:
+        erro(f'13: a escada de salario nao dobra a cada Grau — as razoes sao '
+             f'{sorted(_razoes)}. A peca 12 SS6.1 deriva a base de 29,61M / 12 / 2^4, '
+             f'e sem o 2 constante a derivacao nao reproduz')
+    _derivada = MINISTRO_ANO / 12 / 2 ** 4
+    _erro_pct = abs(_v[0] - _derivada) / _derivada
+    print(f'  base derivada do canon: {_derivada:,.0f}/mes; publicada: {_v[0]:,} '
+          f'({_erro_pct:.1%} de arredondamento)')
+    if _erro_pct > 0.05:
+        erro(f'13: a base da escada esta {_erro_pct:.1%} longe do que a ancora do '
+             f'canon produz ({_derivada:,.0f}) — o arredondamento declarado e de 2,7%')
+
+# --- os precos, lidos do SS6.5 desta peca ----------------------------------
+_s65 = EQ[EQ.index('## 6.5'):EQ.index('## 7.')] if '## 6.5' in EQ else ''
+if not _s65:
+    erro('13: nao achei o SS6.5 desta peca — a tabela de precos sumiu e esta '
+         'checagem sairia verde sem ter lido preco nenhum')
+else:
+    PRECO = {}
+    # faixas de arma: | **faixa** | `8.000` | Nome . Nome . Nome |
+    for _l in _s65.splitlines():
+        m = re.match(r'\|\s*\*\*[^|*]+\*\*\s*\|\s*`([\d.]+)`\s*\|\s*([^|]+)\|', _l)
+        if m:
+            for _n in m.group(2).split('·'):
+                _n = _n.strip().strip('*` ')
+                if _n:
+                    PRECO[_n] = int(m.group(1).replace('.', ''))
+    # linhas simples: | Nome | `40.000` |  e  | Nome · Nome | `250.000` |
+    for _l in _s65.splitlines():
+        m = re.match(r'\|\s*([^|*`][^|]*?)\s*\|\s*`([\d.]+)`[^|]*\|\s*$', _l)
+        if m and 'meses' not in m.group(1):
+            for _n in m.group(1).split('·'):
+                _n = _n.strip().strip('*` ')
+                if _n and not _n[0].isdigit():
+                    PRECO.setdefault(_n, int(m.group(2).replace('.', '')))
+    print(f'  {len(PRECO)} entradas com preco no SS6.5')
+
+    # --- toda arma do catalogo tem preco, e todo preco e de arma que existe --
+    _armas = set()
+    _sec53 = EQ[EQ.index('## 5.3'):EQ.index('## 5.4')]
+    for _l in _sec53.splitlines():
+        # duas formas de linha, e o extrator tem de ler as duas: o corpo a corpo
+        # e' | nome | mao | **dado** | e o de tiro e' | nome | categoria | mao |
+        # **dado** |. A primeira versao usava `\w+` para a categoria e perdia as
+        # SETE de `Arma de Fogo`, que tem espaco no nome — 45 de 52, e a guarda
+        # de contagem foi quem acusou.
+        m = re.match(r'\|\s*([^|]+?)\s*\|(?:\s*[^|]+?\s*\|)?\s*[12]\s*\|\s*\*\*\d*d\d+\*\*', _l)
+        if m:
+            _armas.add(m.group(1).strip())
+    if len(_armas) != 52:
+        erro(f'13: o extrator achou {len(_armas)} armas no SS5.3 e o catalogo tem 52 — '
+             f'sem as 52 a comparacao contra a tabela de precos passa trivialmente')
+    else:
+        _sem = sorted(a for a in _armas if a not in PRECO)
+        if _sem:
+            erro(f'13: {len(_sem)} arma(s) do catalogo sem preco no SS6.5: {_sem[:6]}')
+        else:
+            print(f'  [x] as {len(_armas)} armas do catalogo tem preco.')
+        _sobra = sorted(n for n in PRECO
+                        if n not in _armas
+                        and not re.match(r'(Traje|Revestimento) [123]$', n)
+                        and n not in ('Broquel', 'Médio', 'Torre')
+                        and 'corda' not in n)
+        if _sobra:
+            erro(f'13: a tabela de precos cobra por coisa que o catalogo nao tem: {_sobra}')
+
+    # --- a escada de protecao nao ganha degrau novo pela porta do preco -----
+    _prot = [n for n in PRECO if re.match(r'(Traje|Revestimento) [0-9]+$', n)]
+    if sorted(_prot) != sorted(f'{k} {i}' for k in ('Traje', 'Revestimento')
+                               for i in (1, 2, 3)):
+        erro(f'13: a tabela de precos publica os degraus de protecao {sorted(_prot)}, e '
+             f'o SS3 tem tres de cada — preco nao pode inventar degrau, senao a busca '
+             f'exaustiva do bloco 5 deixa de cobrir o catalogo')
+    else:
+        print('  [x] preco nenhum inventa degrau de protecao: a busca do bloco 5 '
+              'continua cobrindo tudo.')
+
+    # --- o dinheiro inicial e DERIVADO da meia mensalidade do Grau 4 --------
+    m = re.search(r'`¥([\d.]+)` — meia mensalidade', _s65)
+    _ini = int(m.group(1).replace('.', '')) if m else None
+    if _ini is None:
+        erro('13: nao achei o dinheiro inicial da criacao no SS6.5')
+    elif SAL and _ini != SAL.get('Grau 4', 0) // 2:
+        erro(f'13: a criacao entrega {_ini:,} e meia mensalidade de Grau 4 e '
+             f'{SAL.get("Grau 4", 0)//2:,} — o valor se declara derivado e nao e')
+    else:
+        print(f'  [x] dinheiro inicial {_ini:,} = metade da linha Grau 4 da peca 12.')
+
+    # --- os kits de referencia sao RECONTADOS da tabela ---------------------
+    _nomes = sorted(PRECO, key=len, reverse=True)
+    _linhas, _ruins = 0, []
+    for _l in _s65.splitlines():
+        m = re.match(r'\|\s*([^|]+?)\s*\|\s*`([\d.]+)`\s*\|\s*(sim|não)\s*\|', _l)
+        if not m:
+            continue
+        _linhas += 1
+        _rot, _pub, _cabe = m.group(1), int(m.group(2).replace('.', '')), m.group(3)
+        _resto, _soma = _rot, 0
+        for _n in _nomes:
+            if _n in _resto:
+                _soma += PRECO[_n]
+                _resto = _resto.replace(_n, '#')
+        if _soma != _pub:
+            _ruins.append(f'"{_rot}" publica {_pub:,} e a tabela soma {_soma:,}')
+        elif _ini is not None and ((_pub <= _ini) != (_cabe == 'sim')):
+            _ruins.append(f'"{_rot}" custa {_pub:,} contra {_ini:,} e diz "{_cabe}"')
+    if _linhas < 5:
+        erro(f'13: so {_linhas} kit(s) de referencia legiveis — o extrator parou de '
+             f'achar e a recontagem passaria trivialmente')
+    elif _ruins:
+        for _r in _ruins:
+            erro(f'13: kit de referencia {_r}')
+    else:
+        print(f'  [x] os {_linhas} kits de referencia reconstroem da tabela, e o '
+              f'cabe/nao cabe bate com os {_ini:,}.')
+
 # ------------------------------------------------------------------- VEREDITO
 print('\n' + '=' * 88)
 for a in AVISOS: print(f'  aviso: {a}')

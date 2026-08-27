@@ -628,6 +628,106 @@ if achado:
 else:
     print('  a Sequela so encurta a janela: espiral de letalidade, nunca de competencia.')
 
+# --- 9.7 a Cicatriz: o unico eixo que sobrou, e ele nao pode entrar no laco --
+#
+# v0.171. A Cicatriz ficou sem mecanica da v0.37 a v0.170 e agora tem uma que
+# ENCOSTA em rolagem — o que a 9.5 proibe para a Sequela. As duas convivem
+# porque medem coisas diferentes: a Sequela mora dentro do laco da queda (cair
+# -> levantar -> cair), e a Cicatriz mora fora dele. Uma penalidade em Persuasao
+# nao muda nenhuma vez em que voce cai.
+#
+# Entao esta checagem confere tres coisas, e nenhuma delas esta escrita aqui:
+#   a) o par de pericias sai do texto e existe na peca 7;
+#   b) as duas moram no MESMO atributo — e' o que sustenta "troca dentro de um
+#      poco so, sem preco em fatia";
+#   c) a Cicatriz nao nomeia nenhuma rolagem do laco da queda.
+_P7C = ''
+try:
+    _P7C = open(os.path.join(AQUI, '07-pericias-e-oficios.md'), encoding='utf-8').read()
+except OSError:
+    erro('nao consegui abrir a peca 7 para conferir o par de pericias da Cicatriz')
+
+# Tudo aqui sai da LINHA DE REGRA — as linhas do bloco `>` da secao 5.5 que
+# falam da Cicatriz —, e nao da secao. Duas razoes, e as duas custaram uma
+# rodada de arnes:
+#   - a secao DISCUTE quatro formas reprovadas, e uma delas e' "penalidade em
+#     rolagem de combate". Procurar as palavras na secao acusaria o texto que
+#     explica por que a forma foi recusada;
+#   - a primeira versao usava `Cicatriz[^.]{0,120}?rola ...` e nao casava,
+#     porque a frase da regra tem um ponto no meio ("o mundo le. Voce rola").
+#     Janela que morre num ponto final e' extrator fragil disfarcado de ancora.
+# E ler so o bloco `>` faz a regra ter de continuar sendo REGRA: tirar a linha
+# do bloco e deixar ela como prosa acende, que e' a licao no 1 do metodo.
+_regra_cic = '\n'.join(_l for _l in sec.splitlines()
+                       if 'Cicatriz' in _l and _l.lstrip().startswith('>'))
+_RX_CIC = _re.compile(r'rola `(\w+)` com (vantagem|desvantagem) e '
+                      r'`(\w+)` com (vantagem|desvantagem)')
+_mcic = _RX_CIC.search(_regra_cic)
+if not _mcic:
+    erro('nao achei a linha de regra da Cicatriz na secao 5.5 — ela fechou na v0.171 '
+         'e sem a linha esta checagem sairia verde sem ter lido o par')
+elif not _P7C:
+    pass
+else:
+    _pa, _da, _pb, _db = _mcic.groups()
+    # o quadro da peca 7 §2: | **Atributo** | Pericia · Pericia | N |
+    _quadro = {}
+    for _l in _P7C.splitlines():
+        _mq = _re.match(r'\|\s*\*\*(Força|Destreza|Inteligência|Essência|Constituição)\*\*'
+                        r'\s*\|([^|]+)\|\s*\d+\s*\|', _l)
+        if _mq:
+            for _p in _mq.group(2).split('·'):
+                _quadro[_p.strip().strip('*').strip()] = _mq.group(1)
+    if len(_quadro) < 20:
+        erro(f'o quadro de pericias da peca 7 rendeu {len(_quadro)} nomes — o extrator '
+             f'parou de achar, e a checagem do par da Cicatriz passaria trivialmente')
+    else:
+        _fa, _fb = _quadro.get(_pa), _quadro.get(_pb)
+        if _fa is None or _fb is None:
+            erro(f'a Cicatriz mexe em {[p for p, f in ((_pa, _fa), (_pb, _fb)) if f is None]}'
+                 f', e a peca 7 nao tem essa pericia')
+        elif _fa != _fb:
+            erro(f'a Cicatriz da {_da} em {_pa} ({_fa}) e {_db} em {_pb} ({_fb}) — atributos '
+                 f'DIFERENTES. A peca 1 declara a troca "dentro de um poco so" e e' " isso "
+                 f'que a deixa sem preco em fatia; entre dois pocos ela move peso e precisa '
+                 f'de conta')
+        elif _da == _db:
+            erro(f'a Cicatriz da {_da} nas duas pericias — isso nao e troca, e uma troca de '
+                 f'um lado so nao passa no filtro de dominancia')
+        else:
+            print(f'  Cicatriz: {_da} em {_pa} e {_db} em {_pb}, as duas em {_fa} — '
+                  f'troca dentro de um poco so.')
+
+    # (c) nada do laco da queda. A lista e a das rolagens que decidem se voce cai.
+    _DO_LACO = ('acerto', 'Defesa', 'Teste de Resistência', 'iniciativa', 'dano')
+    _tocou = [p for p in _DO_LACO if _re.search(_re.escape(p), _regra_cic, _re.I)]
+    if _tocou:
+        erro(f'a Cicatriz encostou em {_tocou} — isso entra no laco da queda, e ai ela vira '
+             f'espiral de COMPETENCIA igual a Sequela da 9.5. Ela so pode mexer em pericia')
+    else:
+        print('  a Cicatriz nao nomeia nenhuma rolagem do laco da queda.')
+
+    # (d) o teto de 1 e' DERIVADO, e o dono e' a peca 4 §5.
+    #
+    #     ⚠ Esta sub-checagem ja rendeu, e antes de ser commitada: ela apontava
+    #     para a peca 14 e acusou. Indo conferir, a regra geral "vantagem nao
+    #     empilha" estava publicada no LIVRO e em peca nenhuma — e a peca 14 §2
+    #     dizia "nao empilha pela peca 4 §5", onde so morava o caso de dois
+    #     ajudantes. Um caso particular nao e' a regra geral. A v0.171 escreveu
+    #     ela no §5 da peca 4, que e' o dono agora.
+    try:
+        _P4C = open(os.path.join(AQUI, '04-pericias-e-testes.md'), encoding='utf-8').read()
+    except OSError:
+        _P4C = ''
+    if not _re.search(r'[Vv]antagem não empilha', _P4C):
+        erro('a peca 4 §5 parou de publicar que vantagem nao empilha, e o teto de 1 da '
+             'Cicatriz deriva dali — sem o dono, ele vira numero escrito na mao')
+    elif 'não empilha' not in sec and 'nao empilha' not in sec:
+        erro('a secao 5.5 afirma o teto da Cicatriz sem citar de onde ele vem — o teto e '
+             'DERIVADO de vantagem nao empilhar, e derivacao sem ponteiro envelhece')
+    else:
+        print('  o teto de 1 Cicatriz deriva da peca 4 §5: vantagem nao empilha.')
+
 # --- 9.6 Aguentar e Insistir nao se dominam (teste de conjunto da peca 3) ---
 AGUENTAR = ({'janela de 3 rodadas', 'acorda com 1 de cura'},
             {'fora da luta desde ja', 'uma Sequela'})

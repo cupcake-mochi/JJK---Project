@@ -1446,6 +1446,134 @@ O modelo de slot só funciona se o espaço for escasso, e hoje não há o que ca
 
 Isso é diferente de deixar em aberto — é decisão com condição de disparo, no mesmo molde do *"três lutas de graça"* da peça 10.
 
+> ***E a camada 2 foi DESLIGADA na v0.171, por decisão do Mizuki:*** *"melhor não ter item consumível"*. **Ela fica ao lado da camada 3, com o mesmo tratamento — decisão escrita, e não item aberto.** *A régua dela continua medida e fica registrada acima: se um dia alguém quiser consumível, o teto de `1` a `2` por missão já está calculado e não precisa ser refeito.*
+>
+> **O que sobra da seção é a camada 1, e ela não vira lista separada:** *item de permissão — o pé de cabra, a lanterna, a corda — passa a ser linha barata da tabela de preços do §6.5, junto do resto.* **Uma tabela, um dono.**
+
+## 6.5 Como se consegue — dinheiro compra, Grau libera
+
+*Escrita na v0.171. Ela fecha os itens 10 e 11 do §8, e o §3 desta peça já tinha marcado o lugar dela: **"orçamento de como conseguir o item entra depois, não como trava de nível."***
+
+> **A moeda é o iene, e o salário mensal por patente é da peça 12 §6.1.**
+> **Dinheiro compra o que está à venda. O Grau libera o que não está.**
+
+**As duas travas que já existiam ficam na frente do preço, e é isso que faz o dinheiro ser seguro.** *Toda entrada deste catálogo já passa por **atributo** — o requisito de Força do §5.5 — e por **treino** — a categoria que o Caminho concede, no §5.4.* **Preço é uma terceira trava, e é a única das três que só sabe atrasar:** *nenhuma compra torna legal uma montagem que já não fosse legal, então a busca exaustiva do §3 contra o teto de Defesa sai exatamente igual com preço e sem preço.*
+
+> **É por isso que esta seção não reabre número nenhum.** *Ela não muda o que uma peça de equipamento faz; muda **quando** ela chega à mão.* **O que estava sem dono era o quando, e ele era a única parte desta peça em que dois mestres davam duas respostas.**
+
+### O que o Grau libera, e por que só isso
+
+**Duas famílias não estão à venda, e as duas por motivo de mundo e não de poder:**
+
+| família | por que o Grau, e não o preço |
+|---|---|
+| **`Arma de Fogo`** | arma de fogo para civil é quase inalcançável no Japão. *Quem porta é quem a instituição autoriza* — **Grau 2** |
+| **`Revestimento` degraus 2 e 3** | é blindagem de padrão militar, e ela não tem prateleira. **Grau 3** para o degrau 2, **Grau 2** para o 3 |
+
+**E o Grau também dá de graça, que é a outra metade do que a peça 12 §6 chama de `favor da instituição`:** *todo feiticeiro registrado recebe o uniforme.* **O `Traje` degrau 1 vem com a matrícula, e ninguém paga por ele.**
+
+> **⚠ Isso NÃO se estende à ferramenta amaldiçoada, e a fronteira precisa estar escrita.** *A peça 16 §2.2 recusa "patente decide que ferramenta você porta" com argumento inteiro, e a recusa continua de pé:* **o gate de USO daquela peça é de nível — `7` e `13`, lidos da peça 11 —, e a patente não encosta nele.** *O que a v0.171 acrescenta é o eixo de AQUISIÇÃO, que aquela seção não media.* **A espiral que ela teme não fecha porque o teto de poder continua sendo o nível:** *subir de Grau pode adiantar a compra de uma ferramenta, e não pode fazer o `Estigma` dela funcionar antes da hora.*
+
+### A tabela
+
+*Os preços seguem a ficção — uma katana forjada custa mais que um facão —, e a faixa é estreita de propósito.* **Como todas as armas de uma mão gastam o mesmo `3/3` e todas as de duas gastam `5/5`, pagar mais nunca compra número: compra só o que a arma é.** *É a propriedade anti-`Christmas tree` mais forte que este catálogo podia ter, e ela cai de graça da régua do §5.3.*
+
+**Armas de uma mão** — quatro faixas, `6×` da ponta à ponta.
+
+| faixa | `¥` | armas |
+|---|---|---|
+| **produzido em massa** | `8.000` | Soqueira · Tekko · Cassetete · Canivete · Manriki · Shuriken · Tessen · Chakram · Kunai |
+| **utilitário** | `16.000` | Faca · Machete · Machadinha · Bastão · Taco · Tonfa · Nunchaku · Kama · Lança · Chicote · Punhal · Sai |
+| **forjado** | `32.000` | Tanto · Maça · Machado · Rapieira · Wakizashi |
+| **de assinatura** | `48.000` | Katana · Espada Longa |
+
+**Armas de duas mãos** — quatro faixas, `4,5×`.
+
+| faixa | `¥` | armas |
+|---|---|---|
+| **haste e corrente** | `20.000` | Bō · Corrente · Kusarigama |
+| **massa e agrícola** | `36.000` | Marreta · Kanabō · Maul · Foice · Naginata · Yari |
+| **lâmina grande** | `60.000` | Espadão · Machado de Guerra · Nodachi |
+| **de assinatura** | `90.000` | Odachi |
+
+**Arco e balestra** — esporte e caça, e no Japão real elas se compram.
+
+| arma | `¥` |
+|---|---|
+| Hankyū | `40.000` |
+| Daikyū | `60.000` |
+| Besta de Uma Mão | `50.000` |
+| Besta | `80.000` |
+
+**`Arma de Fogo`** — **exige Grau 2**, e o preço é o do mercado que a instituição alcança.
+
+| arma | `¥` |
+|---|---|
+| Pistola · Revólver | `250.000` |
+| Espingarda | `300.000` |
+| Rifle | `350.000` |
+| Submetralhadora | `400.000` |
+| Rifle de Precisão | `600.000` |
+| Metralhadora Pesada | `900.000` |
+
+**Proteção** — cada degrau custa `3×` o anterior, nas três escadas.
+
+| uniforme | `¥` |
+|---|---|
+| Traje 1 | `30.000`, e o seu vem de graça |
+| Traje 2 | `90.000` |
+| Traje 3 | `270.000` |
+| Revestimento 1 | `150.000` |
+| Revestimento 2 | `450.000`, com Grau 3 |
+| Revestimento 3 | `1.350.000`, com Grau 2 |
+
+| escudo | `¥` |
+|---|---|
+| Broquel | `12.000` |
+| Médio | `36.000` |
+| Torre | `108.000` |
+
+**Item de permissão** — a camada 1 do §6, e ela é a parte barata da tabela.
+
+| | `¥` |
+|---|---|
+| corda, lanterna, algema, pé de cabra, gazua, kit de escalada | `3.000` cada |
+
+### O ritmo cai da tabela, e ninguém o escreveu
+
+**Quantos meses de salário cada degrau de proteção custa:**
+
+| degrau | `¥` | meses de `Grau 4` | de `Grau 3` | de `Grau 2` |
+|---|---|---|---|---|
+| `Traje` 2 | `90.000` | `0,6` | `0,3` | `0,1` |
+| `Traje` 3 | `270.000` | `1,8` | `0,9` | `0,5` |
+| `Revestimento` 1 | `150.000` | `1,0` | `0,5` | `0,2` |
+| `Revestimento` 2 | `450.000` | `3,0` | `1,5` | `0,8` |
+| `Revestimento` 3 | `1.350.000` | `9,0` | `4,5` | `2,2` |
+
+**Isso encaixa no que o §3 já tinha medido, sem ninguém combinar.** *Lá, o topo do `Traje` abre no nível 6 pelo requisito de Força e o topo do `Revestimento` no 10.* **Aqui o topo do `Traje` custa menos de dois meses de um `Grau 4`, e o topo do `Revestimento` custa nove — mas quem chega nele já subiu de patente, e lá ele custa dois.** *As duas escadas chegam juntas, e nenhuma delas foi calibrada contra a outra.*
+
+### O kit da criação
+
+> **Você começa `Grau 4`, com o `Traje` degrau 1 da instituição e `¥75.000` — meia mensalidade — para montar o resto.**
+
+*O valor é derivado e não escolhido: é metade da linha `Grau 4` da peça 12 §6.1.* **E o uniforme de graça custa exatamente zero em número:** *o `Traje` 1 dá proteção `1` e **desliga** o `cobrir-se`, que no refino `1` também dá `1`.* **A Defesa do nível 2 não se move um ponto**, e do nível 6 em diante o `cobrir-se` passa na frente e o jogador tira o traje sem ninguém mandar.
+
+**Com `¥75.000` a escolha é real, e nenhuma rota fica trancada.** *Cinco kits de referência cabem e três não:*
+
+| kit | `¥` | cabe? |
+|---|---|---|
+| Katana + Broquel | `60.000` | sim |
+| Espadão | `60.000` | sim |
+| Wakizashi + Tanto, para o `Par` | `64.000` | sim |
+| Machete + escudo Médio | `52.000` | sim |
+| Bō + Machadinha de reserva | `36.000` | sim |
+| Katana + escudo Médio | `84.000` | não |
+| Odachi | `90.000` | não |
+| Faca + escudo Torre | `124.000` | não |
+
+> **O que a `Técnica Marcial` recebe continua sendo dela, e não vira exceção.** *A peça 20 entrega três armas de grau 4 na criação porque elas **são** o Selo — a máquina da rota, e não um presente.* **Quem não é daquela rota compra com os `¥75.000`, e é por isso que esta seção existe:** *até a v0.170 a peça 20 era a única das nove rotas que saía de casa com alguma coisa na mão.*
+
 ## 7. A dívida que esta peça deve à peça 11
 
 **O preço da Reação de cobrir-se tem de virar agnóstico de fonte.** Hoje ela cobra *"você fica sem **a proteção passiva**"* — e quem está de Revestimento não paga isso, porque não tira o colete no meio do golpe.
@@ -1590,8 +1718,10 @@ A peça 11 escolheu o `1,5 ×` com critério escrito: *"o saldo **encolhe** em v
     >
     > **Até lá o validador acusa**, que é a metade de graça: as quatro que carregam `Versátil` hoje entram como lista `ACEITA` e **uma quinta falha**, no mesmo molde que `Alcance` e `Distância` já usam.
 
-10. **A lista de itens comuns.** A régua das três camadas fechou; os itens não. Quantos, quais e como se chamam é escolha de sabor, e cada um precisa passar pelo filtro *"não produz número"* e pela triagem.
-11. **A moeda.** Adiada de propósito na v0.40 — *"provavelmente vai ser com preço e fornecimento"*. A única moeda que o projeto declara hoje é **patente, contato, favor, acesso** (peça 12 §6), e ela é discricionária: dois mestres liberam coisas diferentes pelo mesmo favor. Se ela virar a moeda de item, precisa de tabela, no molde do ambiente propício.
+10. ~~**A lista de itens comuns.**~~ ***FECHADA na v0.171, e ela encolheu antes de ser paga.*** ***Decisão do Mizuki: a camada 2 sai*** — *"melhor não ter item consumível"*. **Com o consumível fora, o que restava era a camada 1, e ela não precisava de lista própria:** *item de permissão virou linha barata da tabela de preços do §6.5, `¥3.000` cada, junto do resto do catálogo.* **Uma tabela, um dono** — e o filtro *"não produz número"* continua valendo, porque permissão move alguém de *não rola* para *rola sem maestria* e não imprime nada na ficha.
+11. ~~**A moeda.**~~ ***FECHADA na v0.171, e ela é o iene.*** *Adiada de propósito na v0.40 — "provavelmente vai ser com preço e fornecimento" —, e as duas metades daquela frase entraram: preço no §6.5 desta peça, fornecimento na peça 12 §6.1.* **Ela não substitui as quatro do §6 daquela peça: ela é a quarta, e a única com tabela.** *O `favor da instituição` continua discricionário de propósito, e é ele que entrega o uniforme.*
+
+    > **A trava que este item pedia — *"precisa de tabela, no molde do ambiente propício"* — foi paga com uma prova em vez de com uma promessa.** *O preço é a terceira trava de cada entrada, atrás do atributo e do treino, e é a única que só sabe atrasar.* **Nenhuma montagem passa a ser legal por causa de dinheiro**, e a checagem 13 do `conferir-equipamento.py` roda a busca exaustiva do §3 duas vezes — com preço e sem — para provar que a resposta não se move.
 
 ## 9. O que já foi conferido, e como
 

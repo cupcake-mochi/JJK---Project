@@ -121,6 +121,10 @@ A ideia óbvia — *"feiticeiro de Grau 2 porta ferramenta de grau 2"* — bate 
 
 O nome `Grau` fica. No material os dois **são** a mesma escada de propósito — a fonte diz que ferramenta e objeto amaldiçoado *"são ranqueados de forma idêntica, pela força da energia"* —, e trocar por outra palavra criaria um segundo vocabulário para uma coisa que a obra tem uma só.
 
+> **⚠ A v0.171 encostou nesta seção sem revertê-la, então a fronteira fica escrita.** *Aquela versão deu moeda ao equipamento e pôs o `Grau` gateando o que a instituição controla — arma de fogo e `Revestimento` militar, na peça 14 §6.5.* **Esta seção mede o eixo de USO e continua inteira: o gate que decide se um `Estigma` funciona é de NÍVEL — `7` e `13`, lidos da peça 11 §6 —, e a patente não encosta nele.**
+>
+> **A espiral que o argumento acima teme é `patente → poder`, e ela não fecha pelo eixo de aquisição.** *Subir de Grau pode adiantar **quando** uma ferramenta chega à sua mão; ele não faz o `Estigma` dela funcionar um nível antes.* **O teto de poder continua sendo o nível, que é o que esta seção existe para garantir** — e o §7 abaixo já dizia o mesmo por outra porta: *"o único gate desta peça é o do §3.1, lido da peça 11."*
+
 ## 3. A escada de grau, e o que cada degrau dá
 
 **O grau não decide o tamanho do `Estigma`. Decide o formato dele.**

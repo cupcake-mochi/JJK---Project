@@ -430,3 +430,92 @@ Ele soma Força, como todo corpo a corpo. E vale como arma para todo efeito de r
 O requisito de Força não pega o soco. Ele existe para arma que você levanta, e não tem como alguém não alcançar o próprio punho.
 
 O soco não tem propriedade nenhuma, então ele abre mão de alcance, de `Par`, de `Oculta` e de todo o resto. Em troca, ninguém desarma um punho e ninguém confisca um punho na portaria: a condição `Desarmado` não alcança quem bate com a mão.
+
+## Dinheiro e acesso
+
+> **A moeda é o iene. Você recebe um salário mensal da instituição, e o valor sai da sua patente** — a tabela **Salário por patente** está no capítulo 18, *Experiência e Progressão*.
+>
+> **Dinheiro compra o que está à venda. O seu Grau libera o que não está.**
+
+Duas famílias não têm prateleira. **`Arma de Fogo` exige Grau 2**, porque arma de fogo para civil é quase inalcançável no Japão e quem porta é quem a instituição autoriza. E o **`Revestimento` exige Grau 3 no degrau 2 e Grau 2 no degrau 3** — é blindagem de padrão militar, e ela não se compra numa loja.
+
+O Grau também dá. Todo feiticeiro registrado **recebe o uniforme**: o `Traje` degrau 1 vem com a matrícula, e ninguém paga por ele.
+
+> **O seu Grau não decide que ferramenta amaldiçoada você pode usar.** Aquela escada é de nível, e está no capítulo 15. Patente adianta quando uma ferramenta chega à sua mão; ela não faz o `Estigma` dela funcionar antes da hora.
+
+### Preços
+
+Todas as armas de uma mão gastam o mesmo orçamento, e todas as de duas mãos também. **Pagar mais nunca compra número — compra o que a arma é.** Uma Katana e um Machete acertam e ferem igual; a diferença entre as duas é forja, história e quem olha.
+
+**Armas de uma mão**
+{: .tab-titulo }
+
+| faixa | ¥ | armas |
+|---|---|---|
+| produzido em massa | 8.000 | Soqueira · Tekko · Cassetete · Canivete · Manriki · Shuriken · Tessen · Chakram · Kunai |
+| utilitário | 16.000 | Faca · Machete · Machadinha · Bastão · Taco · Tonfa · Nunchaku · Kama · Lança · Chicote · Punhal · Sai |
+| forjado | 32.000 | Tanto · Maça · Machado · Rapieira · Wakizashi |
+| de assinatura | 48.000 | Katana · Espada Longa |
+
+**Armas de duas mãos**
+{: .tab-titulo }
+
+| faixa | ¥ | armas |
+|---|---|---|
+| haste e corrente | 20.000 | Bō · Corrente · Kusarigama |
+| massa e agrícola | 36.000 | Marreta · Kanabō · Maul · Foice · Naginata · Yari |
+| lâmina grande | 60.000 | Espadão · Machado de Guerra · Nodachi |
+| de assinatura | 90.000 | Odachi |
+
+**Arco, balestra e arma de fogo**
+{: .tab-titulo }
+
+| arma | ¥ | |
+|---|---|---|
+| Hankyū | 40.000 | |
+| Daikyū | 60.000 | |
+| Besta de Uma Mão | 50.000 | |
+| Besta | 80.000 | |
+| Pistola · Revólver | 250.000 | Grau 2 |
+| Espingarda | 300.000 | Grau 2 |
+| Rifle | 350.000 | Grau 2 |
+| Submetralhadora | 400.000 | Grau 2 |
+| Rifle de Precisão | 600.000 | Grau 2 |
+| Metralhadora Pesada | 900.000 | Grau 2 |
+
+**Proteção e apoio**
+{: .tab-titulo }
+
+| item | ¥ | |
+|---|---|---|
+| Traje 1 | 30.000 | o seu vem de graça |
+| Traje 2 | 90.000 | |
+| Traje 3 | 270.000 | |
+| Revestimento 1 | 150.000 | |
+| Revestimento 2 | 450.000 | Grau 3 |
+| Revestimento 3 | 1.350.000 | Grau 2 |
+| Broquel | 12.000 | |
+| Médio | 36.000 | |
+| Torre | 108.000 | |
+| corda, lanterna, algema, pé de cabra, gazua, kit de escalada | 3.000 | cada |
+
+### Kit inicial
+
+> **Você começa Grau 4, com o `Traje` degrau 1 da instituição e ¥75.000 para montar o resto.**
+
+O uniforme de graça não muda a sua Defesa: o `Traje` 1 dá proteção 1 e desliga o `cobrir-se`, que no refino 1 também dá 1. Lá pelo nível 6 o `cobrir-se` passa na frente, e aí você tira o traje.
+
+Com ¥75.000 dá para montar coisas bem diferentes, e nenhuma delas é melhor que a outra na regra:
+
+**Kits que cabem**
+{: .tab-titulo }
+
+| kit | ¥ |
+|---|---|
+| Katana + Broquel | 60.000 |
+| Espadão | 60.000 |
+| Wakizashi + Tanto, para o `Par` | 64.000 |
+| Machete + escudo Médio | 52.000 |
+| Bō + Machadinha de reserva | 36.000 |
+
+E três que não cabem, para dar a régua: Katana + escudo Médio sai por 84.000, um Odachi sozinho por 90.000, e Faca + escudo Torre por 124.000.

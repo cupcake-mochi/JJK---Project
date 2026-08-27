@@ -8,6 +8,153 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.171] — 27/08/2026
+
+**Quatro itens da fila pequena fecharam, e o quarto mudou de tamanho no meio.** *A ordem foi a que o Mizuki pediu — limpar o pequeno antes de abrir a peça grande —, e a sessão parou numa pergunta do quinto.*
+
+### 1 · Os ofícios do Passo 1 iam ao dono errado, e eram QUATRO lugares
+
+**A fila dizia um: o Passo 1 da peça 8 dando à Origem "dois ofícios livres", que são do Caminho.** *Indo consertar, apareceram mais três, e as três da mesma versão — a v0.105, que tirou o ofício fixo do Caminho:* **a tabela do Passo 6 ainda dava `1 fixo + 1 à sua escolha`, a ficha da Kaori dizia `Forja (fixo do Caminho)`, e o checklist do mestre cobrava `o ofício fixo do Caminho`.**
+
+> **Os TOTAIS publicados estavam certos o tempo todo — `8 e 3`, ou `9 e 2` —, e é por isso que ninguém viu.** *A checagem 6 do `conferir-criacao.py` lia a soma das duas rotas, e soma fecha com o dono trocado.* **Total certo, dono errado: a lição nº 9 pelo eixo que ninguém estava medindo.**
+>
+> *E o `conferir-ficha.py` registrava o buraco no próprio comentário desde a v0.105 —* **"a coluna de oficio fixo saiu da peca, e com ela saiu o que havia para comparar aqui"**. *Saiu a coluna, e não entrou nada no lugar.*
+
+**Entrou a checagem 6.1**, que confere a atribuição fonte por fonte contra a peça 7 §6, em três lugares da peça 8 — o Passo 1, o Passo 3 e a tabela do Passo 6 — mais a prosa. *Onze perturbações acendendo e dois contra-testes coerentes verdes.* **E o `conferir-pericias.py` parou de guardar `CAM_OF_FIXO, CAM_OF_LIVRE = 0, 2` escrito à mão:** *era a quarta cópia do número, sem ninguém comparando.*
+
+> **⚠ O contra-teste coerente pegou um defeito meu.** *Eu somava o ofício fixo POR CIMA do total; revertendo a v0.105 de forma coerente, a conta dava três ofícios onde a peça dá dois.* **O fixo está DENTRO do total, e a leitura passou a ser do total.**
+
+### 2 · O argumento da peça 11 §6 tinha caído na v0.158, e ficou doze versões de pé sem ele
+
+**A seção justificava *"o refino não escala a `Energia Reversa`"* dizendo que isso *"a faria derivar contra a vida do inimigo, que é o que a seção 2 proíbe"*.** *A v0.158 tirou dano daquela lista com todas as letras — dano não é rolagem disputada, e a vida do inimigo não rola.* **Pela §2 de hoje, cura é `magnitude fora de disputa` e a §2 não proíbe.**
+
+***A decisão fica; o que entrou no lugar é o empate, medido na faixa inteira da aptidão.***
+
+| nível | a rodada te tira | teto `maior Classe` | cobre | teto se fosse `refino` | cobriria |
+|---|---|---|---|---|---|
+| 14 | `17,8` | `4` → `18,0` | **`101%`** | `7` → `31,5` | `177%` |
+| 22 | `26,9` | `6` → `27,0` | **`100%`** | `10` → `45,0` | `167%` |
+| 30 | `36,0` | `7` → `31,5` | **`88%`** | `10` → `45,0` | `125%` |
+
+**A rodada de cura cancela a rodada de apanhar e para de cancelar no fim** — ela é uma rodada comprada, não uma ganha. *Com o refino, quebra no nível em que o gate abre: `1,8×` na estreia, e nunca volta a empatar.* **E o eixo está errado pela lição nº 1 também:** *do 14 ao 30 o golpe de chefe cresce `2,02×`, a `maior Classe` `1,75×`, e o refino `1,43×` — e ele para no marco 22.*
+
+> **⚠⚠ E o `33,9` daquela seção era número ÓRFÃO desde a v0.78.** *Ele não reconstruía de nada, nenhum documento registrava a derivação e nenhum validador o alcançava.* **Hoje é `36,0`, derivado:** o golpe de chefe do nível 30 é `72` na tabela de inimigo do manual, vezes os `50%` de acerto da peça 1 §6. ***Lição nº 9 sem precisar de uma segunda cópia para divergir.***
+
+**A sub-checagem do refino do `conferir-aptidoes.py` deixou de medir MARCADOR.** *Ela perguntava se a palavra `refino` aparecia na fórmula, e a mensagem de erro citava o motivo que tinha morrido na v0.158.* **Hoje ela LÊ o teto da linha de regra, recalcula a cobertura nos cinco níveis e falha se sair da banda declarada — mais uma sub-checagem que reconta a tabela publicada.** *Oito perturbações, e um contra-teste coerente que troca o dado e a tabela juntos: a recontagem fica verde e só a banda acende, que é o certo.*
+
+### 3 · A `Cicatriz` ganhou mecânica, cento e trinta e quatro versões depois
+
+**Aberta na v0.37. Ela esperou a peça 19, que chegou na v0.103 e não a fechou, e a peça 24, que na v0.145 mediu o recorte e devolveu ela para a peça 1.** *As três apontavam uma para a outra.*
+
+***Quatro formas foram medidas, e as quatro reprovam em régua que este projeto já tinha escrito:***
+
+| a forma | o que a reprova |
+|---|---|
+| penalidade em rolagem de combate | é **espiral de competência**, e a peça 1 §5.5 a proíbe com todas as letras |
+| encurtar a janela para sempre | a janela é `3`: três Cicatrizes zeram ela. *O frágil chega lá em `9,5` missões e o Bastião em `58,6`, numa campanha de `93`* |
+| `−1` na vida máxima | **compõe** — menos vida, mais quedas, mais Cicatrizes — e vale `24%` da barra do frágil contra `1%` da do Bastião |
+| `−1` na Integridade máxima | a alma é a barra menor em `33,3%` das fichas: `0,00` para dois terços delas, para sempre. *É a família que reprovou o `recuperar Integridade` da peça 5* |
+
+***Decisão do Mizuki: a troca social, no molde do `Cicatriz Horrenda` do Guia do Mestre.*** **Vantagem em `Intimidação`, desvantagem em `Persuasão`.** *É o único eixo que não entra no laço da queda — nem competência, nem letalidade.* **As duas perícias são `Essência`, então a troca acontece dentro de um poço só, e ela fica declarada sem moeda**, ao lado do `Contrapeso` e do `Insondável`.
+
+> **O teto de `1` é DERIVADO:** *vantagem não empilha, duas fontes valem uma.* **Ninguém junta marca para virar mais assustador.**
+
+***E como ela se evita é decisão do Mizuki, com uma consequência que ninguém desenhou:***
+
+> **A Cicatriz não vem se quem fechou o ferimento foi a sua própria `Energia Reversa`. Cura de qualquer outra fonte deixa a marca, e o que já cicatrizou não se reescreve.**
+
+**Na prática isso passa por uma porta só, e ela já existia: o `Insistir`.** *Quem escolheu `Aguentar` está apagado e não age — só outra pessoa alcança ele.* **Então o `Insistir` passou a comprar uma terceira coisa, e ela não é número.**
+
+> **⚠ E a perícia que ela derruba é fixa do Guia.** *`Persuasão` é uma das duas assinaturas dele, então ele é o Caminho que mais perde com a marca — e é o único que a evita de graça, porque a Trilha `Sutura` entrega a `Energia Reversa` no nível 2 sem gate.* **Quem mais teria a perder é quem mais pode não levar.** *Não foi desenhado; é o que as duas regras já escritas produzem quando encostam.*
+
+**A segunda pergunta da §5.5 fechou junto, e não era decisão nova: a `Energia Reversa` NÃO limpa Sequela.** *Aquela seção já a tinha tomado — ela existe para "fazer a **queda** custar alguma coisa que a cura não devolve", e a `Energia Reversa` é cura.*
+
+**Levantamento externo, e ele rendeu:** *o Guia do Mestre do 5e dispara `Ferimentos Persistentes` pelo MESMO gatilho — "quando cair a 0 pontos de vida, mas não morrer de imediato" —, e a maior faixa da tabela dele, `17–20`, é literalmente `Cicatriz Menor — nenhum efeito adverso`.* **O GURPS 4e resolve por perda permanente de HT num teste, e o Call of Cthulhu por teto de Sanidade que cai** — os três estavam na mesa quando a decisão foi tomada.
+
+**Entrou a checagem 9.7 do `conferir-atributos.py`**, e ela lê o par de perícias da LINHA DE REGRA, confere que as duas existem na peça 7, que moram no mesmo atributo, que os sentidos são opostos, que a regra não nomeia nada do laço da queda, e que o teto de `1` tem dono. *Oito perturbações acendendo e um contra-teste coerente verde.*
+
+> **⚠⚠ E o arnês pegou dois defeitos meus, os dois na mesma família.** *A primeira versão usava janela de `N` caracteres — `Cicatriz[^.]{0,160}...` — e `[^.]` morre num ponto final: a frase da regra tem um ponto no meio, então a perturbação que enfiava `tira 1 do seu acerto` na própria linha de regra saía **VERDE**.* **Hoje tudo sai das linhas do bloco `>` que falam da Cicatriz** — e com isso tirar a regra do bloco e deixá-la como prosa também acende.
+
+### 4 · O dinheiro entrou, e o item mudou de forma na mão do Mizuki
+
+**A fila pedia "itens comuns e a moeda". Ele reordenou:** *"acho ideal a gente ir para questão dos custos de cada item primeiro. Pq aí a gente validaria quanto cada personagem começaria de dinheiro e ele escolheria o Kit."* **E cortou uma metade:** ***"esquece, melhor n ter item consumível"***.
+
+**A moeda é o iene, e a escada de salário sai do CANON.** *O Akutami respondeu, em entrevista, que o salário do Gojo é o de um ministro do gabinete japonês — e que feiticeiro recebe salário **mensal**, e não por missão.* **`¥29,61 milhões` por ano, dividido por `12` e por `2⁴`, dá `¥154.219`; arredondado, `¥150.000`.**
+
+| patente | por mês | por ano |
+|---|---|---|
+| **Grau 4** | `¥150.000` | `¥1,8 milhão` |
+| **Grau 3** | `¥300.000` | `¥3,6 milhões` |
+| **Grau 2** | `¥600.000` | `¥7,2 milhões` |
+| **Grau 1** | `¥1.200.000` | `¥14,4 milhões` |
+| **Especial** | `¥2.400.000` | `¥28,8 milhões` |
+
+*A única escolha da tabela é o arredondamento, e ele custa `−2,7%` no topo.* **E ela cruza com o Japão real sem conserto:** um recém-formado começa em `¥200.000` a `¥250.000`, e um `Grau 4` fica pouco abaixo — que é o que ele é.
+
+> **⚠ O lastro é levantamento SECUNDÁRIO, e está declarado como tal na peça.** *A fala chega por reportagem sobre uma entrevista, não por fonte primária lida.*
+
+***A prova que faz o dinheiro ser seguro é de uma linha:*** **toda entrada de equipamento já é travada por atributo — o requisito de Força — e por treino — a categoria do Caminho.** *Preço é a terceira trava, e a única das três que só sabe atrasar:* **nenhuma compra torna legal uma montagem que já não fosse, então a busca exaustiva contra o teto de Defesa sai igual com preço e sem.**
+
+**E os preços de arma não podem comprar número, por construção:** *todas as de uma mão gastam `3/3` e todas as de duas gastam `5/5`.* **Uma Katana e um Machete acertam e ferem igual — pagar mais compra o que a arma é.** *É a propriedade anti-`Christmas tree` mais forte que este catálogo podia ter, e ela cai de graça da régua do §5.3.*
+
+***Decisão do Mizuki sobre o `Grau`: ele gateia o institucional e os itens de grau; ferramenta comum e uniforme ficam com o dinheiro.*** **`Arma de Fogo` exige `Grau 2`** — arma de fogo para civil é quase inalcançável no Japão — **e o `Revestimento` exige `Grau 3` no degrau 2 e `Grau 2` no 3**, porque blindagem militar não tem prateleira. *E o Grau também dá: o `Traje` degrau 1 vem com a matrícula.*
+
+> **⚠⚠ Isso colidia com a peça 16 §2.2, e a colisão foi levada ao Mizuki antes de qualquer preço.** *Aquela seção recusa "patente decide que ferramenta você porta" com o mesmo argumento que a peça 12 §2 usou para recusar "Grau dá XP" — espiral fechada.* **Ela não foi revertida: ela mede o eixo de USO, e o gate de `Estigma` continua sendo de nível.** *O que a v0.171 acrescenta é o eixo de AQUISIÇÃO, que ela não media, e a espiral não fecha porque o teto de poder continua no nível.* **A fronteira ficou escrita nas duas peças.**
+
+**A criação ganhou passo de equipamento**, e até aqui a `Técnica Marcial` era a única das nove rotas que saía de casa com alguma coisa na mão. ***`Traje` 1 de graça e `¥75.000`*** — meia mensalidade de um `Grau 4`, derivada e não escolhida.
+
+> **O uniforme de graça custa exatamente ZERO:** *o `Traje` 1 dá proteção `1` e desliga o `cobrir-se`, que no refino `1` também dá `1`.* **A Defesa do nível 2 não se move um ponto, e do nível 6 em diante o jogador tira o traje sozinho.**
+
+*Cinco kits de referência cabem nos `¥75.000` e três não* — Katana + Broquel por `60.000`, Espadão por `60.000`, Wakizashi + Tanto por `64.000`, contra Odachi por `90.000` e Faca + escudo Torre por `124.000`.
+
+**E a folga é grande de propósito, porque o Mizuki pediu:** *"tem q tomar cuidado com o crescimento, já que esse dinheiro VAI ter uso em outras coisas futuramente, como fabricar itens de grau".* **O loadout mundano mais caro que existe custa `¥1,6 milhão` contra uma renda de campanha da ordem de `¥10,5 milhões`: `15%`.** *Os outros `85%` ficam para o que ainda não foi escrito.*
+
+**Entrou a checagem 13 do `conferir-equipamento.py`**, e nenhum valor mora dentro dela: a escada vem da peça 12, os preços do §6.5, e a única constante é a âncora externa. *Ela confere que a escada dobra, que a base reproduz o canon, que as **52** armas têm preço, que preço nenhum inventa degrau de proteção, que o dinheiro inicial é derivado, e **reconta os oito kits de referência** contra a tabela.* **Nove perturbações acendendo e um contra-teste coerente verde.**
+
+> **⚠ E a guarda de contagem pegou o extrator na primeira rodada:** *ele lia `\\w+` na coluna de categoria e perdia as **sete** de `Arma de Fogo`, que têm espaço no nome.* **45 de 52, e sem a guarda a comparação teria passado trivialmente.**
+
+### E duas regras que não tinham dono em peça nenhuma
+
+- **`Vantagem não empilha, duas fontes valem uma`** estava publicada **no livro** e em peça nenhuma. *A peça 14 §2 preçava o Traje dizendo "não empilha **pela peça 4 §5**", e o que o §5 escrevia era só o caso de dois ajudantes.* **De um caso particular ninguém deriva a regra geral.** *Achada pelo próprio validador, indo procurar o dono do teto da `Cicatriz` e não encontrando nenhum.* **Hoje ela é regra do §5 da peça 4.**
+- **O livro ainda dizia que `Sem Técnica` não fecha ficha**, no capítulo 6. *A v0.170 tirou a marca do capítulo 25 e esta sobreviveu, no arquivo vizinho.* **Sétima pendência morta da mesma família:** *o assunto dela não é o nome de uma peça, então a checagem 8 não alcança.*
+
+### Adicionado
+
+- **`sistema/03-mecanica/12-experiencia-e-progressao.md` §6.1** — a escada de salário, ancorada no canon.
+- **`sistema/03-mecanica/14-equipamento.md` §6.5** — a regra de aquisição, a tabela de preços das 52 armas mais proteção e permissão, o ritmo do uniforme e o kit da criação.
+- **A checagem 6.1 do `conferir-criacao.py`**, a **9.7** do `conferir-atributos.py` e a **13** do `conferir-equipamento.py`.
+- **A regra geral de vantagem** na peça 4 §5.
+- **Três seções no livro** — `Dinheiro e acesso` no capítulo 14, `Salário` no capítulo 18 e `Equipamento` no capítulo 6 —, mais a `Cicatriz` no capítulo 1 e no glossário.
+
+### Alterado
+
+- **A peça 8** — quatro lugares com a atribuição de ofício acertada, e o Passo 3 com o kit inicial.
+- **A peça 11 §6** — o argumento do refino trocado, e o `33,9` virou `36,0` com derivação escrita.
+- **A peça 1 §5.5** — a `Cicatriz` com regra, e os dois itens de "Em aberto" riscados.
+- **As peças 19 §8 e 24 §6.3** — o item da `Cicatriz` riscado nas duas, apontando para a peça 1.
+- **A peça 16 §2.2** — a fronteira entre o eixo de uso e o de aquisição.
+- **A peça 14 §8** — os itens **10** e **11** riscados, e a camada 2 do §6 desligada por decisão.
+- **O `conferir-pericias.py`** parou de guardar a contagem de ofícios do Caminho escrita à mão.
+- **O livro foi de `73.862` para `75.054` palavras**, e de `251` para **`256`** páginas em coluna única, `145` para **`147`** em duas. *O `guard_numeros.py` rodou nos cinco arquivos mexidos, e **nenhum número desapareceu em nenhum deles** — cada diferença é número novo, lida contra a linha que a carregava.*
+
+### Decidido
+
+- **A `Cicatriz` é troca social, com teto `1`, e a sua própria `Energia Reversa` impede que ela venha.**
+- **A `Energia Reversa` não limpa Sequela** — e isso a peça 1 §5.5 já tinha decidido sem ninguém ler assim.
+- **Não existe item consumível**, e a camada 2 do §6 da peça 14 fica desligada ao lado da camada 3.
+- **A moeda é o iene, e o `Grau` gateia o institucional e os itens de grau.**
+
+### Onde a sessão parou
+
+***Na primeira pergunta do item 5, e ela não foi respondida.*** **Duas coisas da peça 12 esperam decisão:**
+
+- **O formato da lista de feitos do limiar do nível 20.** *Três opções na mesa:* **oito entradas** (maldição de grau acima · sair de pé de uma Expansão completa · fechar um incidente que teria vazado · trazer de volta quem estava a zero · escrever um Fundamento inédito · honrar um Pacto caro · a instituição te dever um favor · perder alguém e continuar); **cinco entradas**, cortando as que se sobrepõem; ou **quatro eixos** — combate, mundo, instituição, pessoa — com dois a três exemplos embaixo de cada.
+- **A forma da conversão de mestragem.** *Três opções:* **um feito do limiar a cada N mesas** — que é literalmente *"por marca, não por sessão"* e reusa a lista acima; **um degrau de patente com teto**, que ficou mais caro agora que o salário sai do Grau; ou **um pagamento em iene numa marca**, que é a única recompensa do sistema que esta versão PROVOU não comprar poder.
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **Retome pela pergunta acima**, e depois seguem o `RASCUNHO-clash-de-expansoes.md` e o `BESTIÁRIO`.
+
+---
+
 ## [0.170] — 26/08/2026
 
 **`Sem Técnica` virou capítulo do livro, e o Manual da Guilda foi de `17` para `18`.** *A peça 25 fechou na v0.168 com a regra escrita e sem o texto longo que a rota merece; a v0.169 limpou o caminho; esta paga o texto.*

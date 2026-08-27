@@ -1,10 +1,22 @@
 # Estado atual do projeto
 
-Atualizado em 26/08/2026, na v0.170 (última peça fechada: **Sem Técnica**, a peça 25, na v0.168, com o `conferir-sem-tecnica.py` e doze checagens; antes dela, **Dano de alma e Integridade, na v0.145**; antes dela, o **Bloquear, na v0.143**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 27/08/2026, na v0.171 (última peça fechada: **Sem Técnica**, a peça 25, na v0.168, com o `conferir-sem-tecnica.py` e doze checagens; antes dela, **Dano de alma e Integridade, na v0.145**; antes dela, o **Bloquear, na v0.143**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.170.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e cinco peças escritas** e **vinte e cinco validadores**.
+**Versão v0.171.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e cinco peças escritas** e **vinte e cinco validadores**.
 
-**A v0.170 pôs `Sem Técnica` no livro.** O capítulo é o `43-sem-tecnica.md`, o **11**, logo depois da Técnica Marcial e no molde dela — decisão do Mizuki. A seção daquela rota no capítulo de Origens virou ponteiro, e o Manual da Guilda foi para **18 capítulos**, `251` páginas em coluna única e `145` em duas.
+**A v0.171 fechou quatro itens da fila pequena, e o quarto virou uma peça de economia.**
+
+> **A `Cicatriz` ganhou mecânica depois de cento e trinta e quatro versões:** *vantagem em `Intimidação`, desvantagem em `Persuasão`, as duas `Essência`.* **Teto `1`, porque vantagem não empilha**, e ela **não vem** se quem fechou o ferimento foi a sua própria `Energia Reversa` — o que na prática só acontece pelo `Insistir`. *Quatro formas numéricas foram medidas e as quatro reprovam, cada uma numa régua que o projeto já tinha.*
+>
+> **O dinheiro entrou, e é o iene.** *A escada de salário por patente é da peça 12 §6.1 e sai do canon — o salário do Gojo é o de um ministro, `¥29,61M`/ano, dividido por `12` e por `2⁴`.* **A tabela de preços é da peça 14 §6.5, e ela vem com uma prova:** *toda entrada de equipamento já é travada por atributo e por treino, então o preço é a terceira trava e a única que só sabe atrasar.* **A criação passou a ter passo de equipamento** — `Traje` 1 da instituição, de graça, e `¥75.000`.
+>
+> **⚠ E o `Grau` passou a gatear o que a instituição controla, sem reverter a peça 16 §2.2:** *aquela seção mede o eixo de USO, e o gate de `Estigma` continua sendo de nível.* **O que entrou é o eixo de AQUISIÇÃO, e a espiral não fecha porque o teto de poder continua no nível.**
+>
+> **Dois donos que não existiam ganharam casa.** *`Vantagem não empilha` estava publicada no livro e em peça nenhuma — a peça 14 apontava para a peça 4 §5, onde só morava o caso de dois ajudantes; hoje ela é regra daquele §5.* **E o `33,9` da peça 11 §6 era número órfão desde a v0.78:** *ele não reconstruía de nada, e virou `36,0`, derivado do golpe de chefe do manual vezes o acerto da peça 1 §6.*
+>
+> ***Parou numa pergunta, e ela é a primeira coisa a retomar:*** **o formato da lista de feitos do limiar do nível 20, e a forma da conversão de mestragem.** *As três opções de cada uma estão no CHANGELOG desta versão.*
+
+**A v0.170 pôs `Sem Técnica` no livro**, como o capítulo **11**, e o Manual da Guilda foi para **18 capítulos**.
 
 > **⚠ Acrescentar capítulo no meio custa mais do que parece, e o custo não é o texto: são as referências cruzadas.** *`38` delas, em treze arquivos — os capítulos `11` a `17` viraram `12` a `18`.* **E a checagem 10.3 só alcança as que carregam o título junto; as `44` que dizem só `capítulo N` ficam por conta de quem escreve.** *O argumento inteiro está no CHANGELOG da versão.*
 
@@ -1106,7 +1118,7 @@ Quatro peças, e a ordem é de **dependência**, não de tamanho. A ordem que el
 | # | peça | destrava | depende de |
 |---|---|---|---|
 | ~~1~~ | ~~**Legados** — a régua de magnitude, e ~5 por Origem~~ | **fechada na v0.39** (peça 13): régua, catálogo de **81 entradas** e o `conferir-legados.py` | — |
-| ~~2~~ | ~~**Equipamento** — armas, escudos, uniformes~~ | **fechada na v0.48** (peça 14): as 52 armas com orçamento fechado, proteção, escudo, treino e requisito de Força, mais o `conferir-equipamento.py` com doze checagens | — |
+| ~~2~~ | ~~**Equipamento** — armas, escudos, uniformes~~ | **fechada na v0.48** (peça 14): as 52 armas com orçamento fechado, proteção, escudo, treino e requisito de Força, mais o `conferir-equipamento.py` com treze checagens | — |
 | ~~3~~ | ~~**Invocações** — o sistema de criação~~ | **fechada na v0.58** (peça 15), com o `conferir-invocacoes.py` e trinta e uma checagens | — |
 | 4 | **Caminho, Trilhas e subtrilhas** — a árvore de cada um | o resto | **2 e 3** |
 

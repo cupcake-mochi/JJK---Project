@@ -99,6 +99,25 @@ Uma missão perdida por azar de dado pesa diferente de uma abandonada na metade,
 
 Um mestre ativo constrói patente e rede, e as duas abrem porta que nível nenhum abre.
 
+## Salário
+
+> **Feiticeiro recebe salário mensal da instituição, e o valor sai da patente.** Não é pagamento por missão: é folha.
+
+**Salário por patente**
+{: .tab-titulo }
+
+| patente | por mês | por ano |
+|---|---|---|
+| Grau 4 | ¥150.000 | ¥1,8 milhão |
+| Grau 3 | ¥300.000 | ¥3,6 milhões |
+| Grau 2 | ¥600.000 | ¥7,2 milhões |
+| Grau 1 | ¥1.200.000 | ¥14,4 milhões |
+| Especial | ¥2.400.000 | ¥28,8 milhões |
+
+Um Grau 4 ganha pouco menos que um recém-formado de empresa, e mora onde a escola manda. Um Grau 1 ganha o que ganha um executivo. Um especial ganha o que ganha um ministro.
+
+O dinheiro compra equipamento, e os `Preços` estão no capítulo 14, *Equipamento*. Ele não compra nível, não compra marco e não compra aptidão.
+
 ## Limiar do nível 20
 
 > **Você chega ao nível 20 por XP. Você passa dele por feito.**

@@ -319,8 +319,18 @@ O custo do Insistir usa o arredondamento de sempre: ele é uma coisa que você p
 > **Na segunda queda você também ganha uma Cicatriz**, que é permanente e não sai no descanso.
 >
 > Sequela some no descanso longo. Vida máxima e Integridade voltam junto, como sempre.
+>
+> **A Cicatriz é uma marca que o mundo lê.** Você rola `Intimidação` com vantagem e `Persuasão` com desvantagem, e ela não muda mais nada.
+>
+> **Ela não vem se quem fechou o ferimento foi a sua própria `Energia Reversa`.** Cura de qualquer outra fonte deixa a marca, inclusive a `Energia Reversa` de outra pessoa. E o que já cicatrizou não se reescreve: nenhuma cura apaga uma Cicatriz depois de ela existir.
+>
+> **Duas Cicatrizes valem uma**, porque vantagem não empilha. Da segunda em diante elas são só história.
 
 Sequela deixa as suas rolagens exatamente como estavam. O que encurta é a próxima queda: onde antes havia três rodadas de janela, agora há duas.
+
+A Cicatriz é o contrário: ela não mexe em nada dentro da luta. O que ela muda é depois — quem viu você levantar duas vezes na mesma missão acredita rápido quando você ameaça, e devagar quando você pede.
+
+**Fechar o próprio ferimento é a única forma de não levar a marca, e ela passa por uma porta só.** Quem escolheu Aguentar está apagado e não age: só outra pessoa alcança ele, e outra pessoa deixa a marca. Quem ficou de pé pelo Insistir ainda tem a Ação Padrão na mão, e a `Energia Reversa` é uma Ação Padrão.
 
 ### Inconsciente
 

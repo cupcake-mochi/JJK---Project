@@ -106,7 +106,7 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **`Pesada`** [Nível] | O maior. Como preço, custa Classe e meia; como condição, sai por `3` pontos de energia. Dá Teste de Resistência no fim de cada turno do alvo | 4 |
 | **Exaustão** | Relógio de descanso, em três degraus. **Não é condição neste sistema** | 5 |
 | **Sequela** | O que você ganha ao levantar de uma queda. Encurta em uma rodada a janela da queda seguinte | 1 |
-| **Cicatriz** | Permanente, ganha na segunda queda. Não sai no descanso | 1 |
+| **Cicatriz** | Permanente, ganha na segunda queda. Vantagem em `Intimidação`, desvantagem em `Persuasão`. Não sai no descanso, e a sua própria `Energia Reversa` impede que ela venha | 1 |
 
 ## Personagem
 
@@ -721,8 +721,18 @@ O custo do Insistir usa o arredondamento de sempre: ele é uma coisa que você p
 > **Na segunda queda você também ganha uma Cicatriz**, que é permanente e não sai no descanso.
 >
 > Sequela some no descanso longo. Vida máxima e Integridade voltam junto, como sempre.
+>
+> **A Cicatriz é uma marca que o mundo lê.** Você rola `Intimidação` com vantagem e `Persuasão` com desvantagem, e ela não muda mais nada.
+>
+> **Ela não vem se quem fechou o ferimento foi a sua própria `Energia Reversa`.** Cura de qualquer outra fonte deixa a marca, inclusive a `Energia Reversa` de outra pessoa. E o que já cicatrizou não se reescreve: nenhuma cura apaga uma Cicatriz depois de ela existir.
+>
+> **Duas Cicatrizes valem uma**, porque vantagem não empilha. Da segunda em diante elas são só história.
 
 Sequela deixa as suas rolagens exatamente como estavam. O que encurta é a próxima queda: onde antes havia três rodadas de janela, agora há duas.
+
+A Cicatriz é o contrário: ela não mexe em nada dentro da luta. O que ela muda é depois — quem viu você levantar duas vezes na mesma missão acredita rápido quando você ameaça, e devagar quando você pede.
+
+**Fechar o próprio ferimento é a única forma de não levar a marca, e ela passa por uma porta só.** Quem escolheu Aguentar está apagado e não age: só outra pessoa alcança ele, e outra pessoa deixa a marca. Quem ficou de pé pelo Insistir ainda tem a Ação Padrão na mão, e a `Energia Reversa` é uma Ação Padrão.
 
 ### Inconsciente
 
@@ -1689,7 +1699,7 @@ As listas de perícia, os traços e as rotas estão no capítulo 7, *Origens e L
 
 A Origem não dá ponto de atributo nenhum, e não decide a sua patente: todo personagem começa **Grau 4**, venha de onde vier.
 
-> **A Sem Técnica não fecha ficha hoje.** Ela é a única assim, e a tabela `Rotas de criação`, no fim do capítulo 7, *Origens e Legados*, diz por qual rota cada uma das outras monta o poder.
+> **A tabela `Rotas de criação`, no fim do capítulo 7, *Origens e Legados*, diz por qual rota cada Origem monta o poder.** Se a sua for a sub-origem Sem Técnica, a máquina inteira está no capítulo 11, *Sem Técnica* — e o Passo 2 e o Passo 3 valem igual.
 
 > **Duas rotas montam poder pela Técnica Marcial, no capítulo 10:** o Corpo Amaldiçoado e a Restrição Celestial pelo ramo sem energia. Se for o seu caso, o Passo 2 e o Passo 3 valem igual — o que muda é o capítulo que você abre para montar.
 
@@ -1734,6 +1744,14 @@ O Caminho mexe em posicionamento, alvo, duração e recuperação. Ele nunca mex
 | **Emanador** | 6 (d6) | 4 | 6 | Ocultismo · Investigação |
 
 Mais **quatro perícias à sua escolha**, de qualquer lugar do quadro, **dois ofícios à sua escolha** e **um Teste de Resistência treinado**.
+
+### Equipamento
+
+> **Você sai de casa com o `Traje` degrau 1 da instituição e ¥75.000 para montar o resto.**
+
+O Caminho te treina numa lista de armas; ele não te dá a arma. Isso você compra, e as tabelas de `Preços` estão no capítulo 14, *Equipamento*. Os ¥75.000 são meia mensalidade de um Grau 4, que é o que você é.
+
+O uniforme não muda a sua Defesa no nível 2 — ele dá proteção 1 e desliga o `cobrir-se`, que no refino 1 também dá 1. Ele é roupa, e serve para você não andar de blusa de moletom numa missão.
 
 ### Trilha
 
@@ -5838,6 +5856,85 @@ O requisito de Força não pega o soco. Ele existe para arma que você levanta, 
 
 O soco não tem propriedade nenhuma, então ele abre mão de alcance, de `Par`, de `Oculta` e de todo o resto. Em troca, ninguém desarma um punho e ninguém confisca um punho na portaria: a condição `Desarmado` não alcança quem bate com a mão.
 
+## Dinheiro e acesso
+
+> **A moeda é o iene. Você recebe um salário mensal da instituição, e o valor sai da sua patente** — a tabela **Salário por patente** está no capítulo 18, *Experiência e Progressão*.
+>
+> **Dinheiro compra o que está à venda. O seu Grau libera o que não está.**
+
+Duas famílias não têm prateleira. **`Arma de Fogo` exige Grau 2**, porque arma de fogo para civil é quase inalcançável no Japão e quem porta é quem a instituição autoriza. E o **`Revestimento` exige Grau 3 no degrau 2 e Grau 2 no degrau 3** — é blindagem de padrão militar, e ela não se compra numa loja.
+
+O Grau também dá. Todo feiticeiro registrado **recebe o uniforme**: o `Traje` degrau 1 vem com a matrícula, e ninguém paga por ele.
+
+> **O seu Grau não decide que ferramenta amaldiçoada você pode usar.** Aquela escada é de nível, e está no capítulo 15. Patente adianta quando uma ferramenta chega à sua mão; ela não faz o `Estigma` dela funcionar antes da hora.
+
+### Preços
+
+Todas as armas de uma mão gastam o mesmo orçamento, e todas as de duas mãos também. **Pagar mais nunca compra número — compra o que a arma é.** Uma Katana e um Machete acertam e ferem igual; a diferença entre as duas é forja, história e quem olha.
+
+**Armas de uma mão**
+| faixa | ¥ | armas |
+|---|---|---|
+| produzido em massa | 8.000 | Soqueira · Tekko · Cassetete · Canivete · Manriki · Shuriken · Tessen · Chakram · Kunai |
+| utilitário | 16.000 | Faca · Machete · Machadinha · Bastão · Taco · Tonfa · Nunchaku · Kama · Lança · Chicote · Punhal · Sai |
+| forjado | 32.000 | Tanto · Maça · Machado · Rapieira · Wakizashi |
+| de assinatura | 48.000 | Katana · Espada Longa |
+
+**Armas de duas mãos**
+| faixa | ¥ | armas |
+|---|---|---|
+| haste e corrente | 20.000 | Bō · Corrente · Kusarigama |
+| massa e agrícola | 36.000 | Marreta · Kanabō · Maul · Foice · Naginata · Yari |
+| lâmina grande | 60.000 | Espadão · Machado de Guerra · Nodachi |
+| de assinatura | 90.000 | Odachi |
+
+**Arco, balestra e arma de fogo**
+| arma | ¥ | |
+|---|---|---|
+| Hankyū | 40.000 | |
+| Daikyū | 60.000 | |
+| Besta de Uma Mão | 50.000 | |
+| Besta | 80.000 | |
+| Pistola · Revólver | 250.000 | Grau 2 |
+| Espingarda | 300.000 | Grau 2 |
+| Rifle | 350.000 | Grau 2 |
+| Submetralhadora | 400.000 | Grau 2 |
+| Rifle de Precisão | 600.000 | Grau 2 |
+| Metralhadora Pesada | 900.000 | Grau 2 |
+
+**Proteção e apoio**
+| item | ¥ | |
+|---|---|---|
+| Traje 1 | 30.000 | o seu vem de graça |
+| Traje 2 | 90.000 | |
+| Traje 3 | 270.000 | |
+| Revestimento 1 | 150.000 | |
+| Revestimento 2 | 450.000 | Grau 3 |
+| Revestimento 3 | 1.350.000 | Grau 2 |
+| Broquel | 12.000 | |
+| Médio | 36.000 | |
+| Torre | 108.000 | |
+| corda, lanterna, algema, pé de cabra, gazua, kit de escalada | 3.000 | cada |
+
+### Kit inicial
+
+> **Você começa Grau 4, com o `Traje` degrau 1 da instituição e ¥75.000 para montar o resto.**
+
+O uniforme de graça não muda a sua Defesa: o `Traje` 1 dá proteção 1 e desliga o `cobrir-se`, que no refino 1 também dá 1. Lá pelo nível 6 o `cobrir-se` passa na frente, e aí você tira o traje.
+
+Com ¥75.000 dá para montar coisas bem diferentes, e nenhuma delas é melhor que a outra na regra:
+
+**Kits que cabem**
+| kit | ¥ |
+|---|---|
+| Katana + Broquel | 60.000 |
+| Espadão | 60.000 |
+| Wakizashi + Tanto, para o `Par` | 64.000 |
+| Machete + escudo Médio | 52.000 |
+| Bō + Machadinha de reserva | 36.000 |
+
+E três que não cabem, para dar a régua: Katana + escudo Médio sai por 84.000, um Odachi sozinho por 90.000, e Faca + escudo Torre por 124.000.
+
 ---
 
 
@@ -6589,6 +6686,23 @@ Uma missão perdida por azar de dado pesa diferente de uma abandonada na metade,
 
 Um mestre ativo constrói patente e rede, e as duas abrem porta que nível nenhum abre.
 
+## Salário
+
+> **Feiticeiro recebe salário mensal da instituição, e o valor sai da patente.** Não é pagamento por missão: é folha.
+
+**Salário por patente**
+| patente | por mês | por ano |
+|---|---|---|
+| Grau 4 | ¥150.000 | ¥1,8 milhão |
+| Grau 3 | ¥300.000 | ¥3,6 milhões |
+| Grau 2 | ¥600.000 | ¥7,2 milhões |
+| Grau 1 | ¥1.200.000 | ¥14,4 milhões |
+| Especial | ¥2.400.000 | ¥28,8 milhões |
+
+Um Grau 4 ganha pouco menos que um recém-formado de empresa, e mora onde a escola manda. Um Grau 1 ganha o que ganha um executivo. Um especial ganha o que ganha um ministro.
+
+O dinheiro compra equipamento, e os `Preços` estão no capítulo 14, *Equipamento*. Ele não compra nível, não compra marco e não compra aptidão.
+
 ## Limiar do nível 20
 
 > **Você chega ao nível 20 por XP. Você passa dele por feito.**
@@ -6739,4 +6853,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: defc5dfac1f1894df796d647d175eb6985161efb -->
+<!-- fonte: 47c2138873daaa1a4ffe19a756a33ebd1806daba -->

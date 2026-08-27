@@ -441,6 +441,12 @@ O próprio esqueleto justifica a trava 6 dizendo que *"o filtro existe para impe
 > **Toda vez que você levanta de uma queda, ganha uma Sequela.** Cada Sequela tira uma rodada da janela da próxima queda. **Na segunda queda você também ganha uma Cicatriz**, que é permanente e não sai no descanso.
 >
 > **Sequela some no descanso longo. Vida máxima e Integridade voltam junto, como sempre.**
+>
+> **A Cicatriz é uma marca que o mundo lê. Você rola `Intimidação` com vantagem e `Persuasão` com desvantagem, e ela não muda mais nada.**
+>
+> **Ela não vem se quem fechou o ferimento foi a sua própria `Energia Reversa`.** Cura de qualquer outra fonte deixa a marca — inclusive a `Energia Reversa` de outra pessoa. **E o que já cicatrizou não se reescreve:** nenhuma cura apaga uma Cicatriz depois de ela existir, nem a sua.
+>
+> **Duas Cicatrizes valem uma.** Vantagem não empilha, então da segunda em diante elas são ficção e nada mais.
 
 ### Por que três rodadas, e não outro número
 
@@ -513,10 +519,43 @@ Porque na quarta ela nunca aconteceria. Com a vida **não voltando no descanso c
 
 **A primeira queda é o azar normal de uma missão ruim. A segunda é a missão que deu errado de verdade.** Uma regra cujos dentes só aparecem na quarta queda não morde nunca.
 
+### O que uma Cicatriz faz — e por que ela é a única coisa aqui que encosta numa rolagem
+
+*Aberta desde a v0.37, e ela atravessou a peça 19 e a peça 24 sem fechar em nenhuma das duas.* **Quatro formas foram medidas e as quatro reprovam, cada uma numa régua que este projeto já tinha escrito.**
+
+| a forma | o que a reprova |
+|---|---|
+| penalidade em rolagem de combate | é **espiral de competência**, e a seção acima a proíbe com todas as letras |
+| encurtar a janela para sempre | a janela é `3`: com três Cicatrizes ela zera. *O perfil frágil chega lá em `9,5` missões e o Bastião em `58,6`, numa campanha de `93`* |
+| `−1` na vida máxima, permanente | **compõe** — menos vida, mais quedas, mais Cicatrizes — e no fim da campanha vale `24%` da barra do frágil contra `1%` da do Bastião |
+| `−1` na Integridade máxima, permanente | a alma é a barra menor em `33,3%` das fichas: para dois terços delas o custo é `0,00` **para sempre**. *É a família que reprovou o `recuperar Integridade` da peça 5* |
+
+**O que sobra é o único eixo que não entra no laço da queda: como o mundo te lê.**
+
+> **Vantagem em `Intimidação`, desvantagem em `Persuasão`.**
+
+**Não é espiral de competência nem de letalidade — é uma terceira coisa, e ela cabe porque não toca em nada que decide se você cai.** *As suas rolagens de combate ficam exatamente como estavam, e a próxima queda continua na mesma distância do fim.*
+
+**As duas perícias são `Essência`, e a troca acontece dentro de um poço só.** *Das sete de `Essência`, a Cicatriz mexe em duas e em sentidos opostos — nenhum atributo ganha ou perde peso, e é por isso que ela não tem preço em fatia.* **Fica declarada sem moeda**, ao lado do `Contrapeso` e do `Insondável`.
+
+**O teto é `1`, e ele é derivado.** *A peça 4 §5 publica que vantagem não empilha — duas fontes valem uma.* **Então a terceira Cicatriz não é mais barata que a segunda: ela é grátis, e é ficção.** *Ninguém junta marca para virar mais assustador.*
+
+> **⚠ E essa regra não existia em peça nenhuma até esta versão.** *Ela estava publicada no livro e em mais lugar nenhum, e a peça 14 §2 apontava para a peça 4 §5 como se estivesse lá — o que o §5 escrevia era só o caso de dois ajudantes.* **Quem achou foi o validador**, indo procurar o dono do teto e não encontrando nenhum. *Está escrita agora, na peça 4 §5.*
+
+#### Como ela se evita, e isso é decisão do Mizuki
+
+> **A Cicatriz não vem se quem fechou o ferimento foi a sua própria `Energia Reversa`. Qualquer outra cura deixa a marca, e o que já cicatrizou não se reescreve.**
+
+**Na prática isso passa por uma porta só, e ela já existia: o `Insistir`.** *Quem escolheu `Aguentar` está apagado e não age — só outra pessoa alcança ele, e outra pessoa deixa a marca.* **Quem ficou de pé a `0` de vida tem a Ação Padrão na mão, e a `Energia Reversa` é uma Ação Padrão.**
+
+*Com isso o `Insistir` passou a comprar uma terceira coisa, e ela não é número:* **quem cura a si mesmo não leva a marca.** *A tabela de "as duas escolhas não se dominam" acima continua valendo — o que entrou não foi vantagem, foi uma linha de ficção que só um dos dois ramos alcança.*
+
+**⚠ E a perícia que ela derruba é fixa do Guia.** *`Persuasão` é uma das duas assinaturas dele, então ele é o Caminho que mais perde com a marca — e é o único que a evita de graça, porque a Trilha `Sutura` entrega a `Energia Reversa` no nível 2 sem gate nenhum.* **Quem mais teria a perder é quem mais pode não levar.** *Não foi desenhado assim; é o que as duas regras já escritas produzem quando encostam.*
+
 ### Em aberto nesta seção
 
-- **O que uma Cicatriz é, mecanicamente.** Hoje ela é o registro de que aconteceu. *O conteúdo dela é da peça 19, que existe desde a v0.103 — e o escopo daquela versão foi a régua de condição e as três seções que mudaram de casa, então a Cicatriz continua aberta lá.*
-- **Se a Energia Reversa limpa Sequela antes do descanso longo.** *A aptidão **está escrita desde a v0.78**, na peça 11 §6 — com gate e teto.* **O que continua sem dono é se ela limpa Sequela**, e isso é da peça 19, como a Cicatriz acima.
+- ~~**O que uma Cicatriz é, mecanicamente.**~~ ***FECHADA na v0.171, e a seção acima é a dona.*** *Aberta desde a v0.37 — ela esperou a peça 19, que chegou na v0.103 e não a fechou, e a peça 24, que na v0.145 mediu o recorte e devolveu ela para cá.* **Vantagem em `Intimidação`, desvantagem em `Persuasão`, teto `1`, e a sua própria `Energia Reversa` impede que ela venha.**
+- ~~**Se a Energia Reversa limpa Sequela antes do descanso longo.**~~ ***FECHADA na v0.171: não limpa.*** *Não é decisão nova — esta seção já a tinha tomado, e ninguém tinha lido assim.* **O parágrafo do vaivém escreve que o alvo era "fazer a **queda** custar alguma coisa que a cura não devolve"**, e a `Energia Reversa` é cura. *Se ela limpasse Sequela, a Sequela viraria exatamente aquilo que a cura devolve, e a única coisa que a seção existe para segurar cairia junto.*
 - **`Incapacitado` é condição nomeada no manual**, e o Legado *Corpo Emprestado* a nega com a qualificação *"só por estar ferido"*. Com esta seção escrita, a leitura fica decidida: **`Inconsciente` não é a condição `Incapacitado`**, e o Legado não alcança o `Inconsciente`.
 - **E `Inconsciente` também não é `Derrubado`.** *`Derrubado` é condição de nível `Leve` no manual: quem está `Derrubado` está no chão e continua com vida.* **Quem está `Inconsciente` chegou a zero.** *A Manha `Abalo` aplica o `Derrubado`, e nunca este estado.*
 

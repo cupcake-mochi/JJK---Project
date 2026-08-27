@@ -199,9 +199,11 @@
 >
 > **O `Cisão` continua em `0,00` na tabela de preços daquela peça, e o zero é incondicional:** *a v0.145 mediu que ele é `1,0×` a velocidade de bater normal em qualquer ficha.* **É o único zero do catálogo que sobreviveu à revisão** — o do `Contrapeso` saiu, por ser condicional à Força da ficha.
 
-### 6.3 A Cicatriz continua sem mecânica
+### 6.3 ~~A Cicatriz continua sem mecânica~~ — **fechou na v0.171, e o recorte medido aqui é que apontou o caminho**
 
-*A peça 1 §5.5 registra a dívida desde a v0.37, e ela esperava a peça de dano e condições — que chegou na v0.103 e não a fechou.* **Esta peça também não fecha, e o motivo é de recorte:** *a Cicatriz é consequência de cair a `0` de vida, e não de dano de alma.* **Ela é da peça 1, e o que faltava nunca foi a régua da alma.**
+*A peça 1 §5.5 registrava a dívida desde a v0.37, e ela esperava a peça de dano e condições — que chegou na v0.103 e não a fechou.* **Esta peça também não fechou, e o motivo era de recorte:** *a Cicatriz é consequência de cair a `0` de vida, e não de dano de alma.* **Ela é da peça 1, e o que faltava nunca foi a régua da alma.**
+
+> **A v0.171 escreveu ela lá, e a medida desta seção foi o que fechou o escopo.** *Vantagem em `Intimidação` e desvantagem em `Persuasão` — o único eixo que não entra no laço da queda.* **E o `−1` na Integridade máxima foi uma das quatro formas medidas e recusadas**, pelo mesmo motivo que o §6.1 recusa o `recuperar Integridade`: *a alma é a barra menor em `33,3%` das fichas, então para dois terços delas o custo seria `0,00` para sempre.*
 
 ---
 

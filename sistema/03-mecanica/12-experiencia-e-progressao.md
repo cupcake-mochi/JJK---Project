@@ -173,6 +173,32 @@ Os dois primeiros batem quase exato. **Sem o retorno decrescente, quem joga quat
 
 *Fica em aberto, e é decisão de mesa:* **uma conversão pontual depois de muitas mesas mestradas** — um bônus por marca, não por sessão. A forma disso não está escrita, e ela não pode virar pagamento por mesa disfarçado.
 
+## 6.1 O salário — a quarta moeda, e a única com número
+
+*Escrita na v0.171, quando a peça 14 §8 item 11 finalmente pediu ela.* **Das quatro que o §6 lista — patente, contato, favor, acesso —, três continuam discricionárias de propósito. Esta tem tabela.**
+
+> **Feiticeiro recebe salário mensal da instituição, e o valor sai da patente.** *Não é pagamento por missão: é folha.*
+
+| patente | por mês | por ano |
+|---|---|---|
+| **Grau 4** | `¥150.000` | `¥1,8 milhão` |
+| **Grau 3** | `¥300.000` | `¥3,6 milhões` |
+| **Grau 2** | `¥600.000` | `¥7,2 milhões` |
+| **Grau 1** | `¥1.200.000` | `¥14,4 milhões` |
+| **Especial** | `¥2.400.000` | `¥28,8 milhões` |
+
+**O topo é canon e o resto é derivado.** *O Akutami respondeu, em entrevista, que o salário do Gojo é o de um ministro do gabinete japonês — e que feiticeiro recebe **salário mensal**, e não por missão.* **Um ministro ganha `¥29,61 milhões` por ano**, e a escada inteira sai daí: `29,61M ÷ 12 ÷ 2⁴` dá `¥154.219`, arredondado para `¥150.000`. *A única escolha desta tabela é esse arredondamento, e ele custa `−2,7%` no topo.*
+
+> **⚠ O lastro é levantamento secundário, e fica declarado como tal.** *A fala do Akutami chega por reportagem sobre uma entrevista, e não por fonte primária lida.* **Se um dia aparecer o número direto da fonte, é a linha do topo que se move, e a base se recalcula sozinha.**
+
+**E ela cruza com o Japão real sem precisar de conserto.** *Um recém-formado começa entre `¥200.000` e `¥250.000` por mês; um `Grau 4` fica pouco abaixo disso, que é o que ele é — estudante, com moradia da escola.* **Um `Grau 1` em `¥14,4 milhões` por ano é salário de executivo sênior**, e é a faixa que explica a Mei Mei ser rica trabalhando por dinheiro.
+
+### O que ele NÃO é
+
+**Ele não é o quarto eixo de progressão, e a trava é a mesma do §2.** *Se o salário comprasse poder, o Grau viraria nível com outro nome pela porta dos fundos.* **O que o dinheiro compra está na peça 14, e lá ele passa por uma prova: nenhuma compra torna legal uma montagem que já não fosse** — toda entrada de equipamento é travada por atributo e por treino antes de ter preço, e o preço só decide **quando** você a alcança, nunca **se**.
+
+> **A folga é de propósito, e é grande.** *O loadout mundano mais caro que existe — `Revestimento` no topo, arma de assinatura de duas mãos, arma de uma mão e escudo `Torre` — custa `¥1,6 milhão`.* **A renda de uma campanha inteira, subindo de Grau no ritmo normal, é da ordem de `¥10,5 milhões`:** o mundano inteiro cabe em `15%` dela. *Os outros `85%` existem para o que ainda não foi escrito — ferramenta amaldiçoada comprada em vez de recebida, e fabricação.*
+
 ## 7. O limiar do nível 20
 
 > **Você chega ao nível 20 por XP. Você passa dele por feito.**

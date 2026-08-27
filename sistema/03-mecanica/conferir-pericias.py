@@ -84,9 +84,27 @@ CAMINHOS = {
 # para todos, ela vira decisao — e o feiticeiro ruim de sentir energia passa a caber.
 
 CAM_FIXAS, CAM_LIVRES = 2, 4       # pericias que o Caminho entrega
-CAM_OF_FIXO, CAM_OF_LIVRE = 0, 2   # oficios que o Caminho entrega: os dois livres
 ORI_PERICIAS = 2                   # uma da lista da Origem + uma livre
-ORI_EXTRA = 1                      # mais um OFICIO livre, ou outra PERICIA no lugar
+
+# Quantos oficios cada fonte entrega vem LIDO do §6 da peca 7, e nao escrito
+# aqui. Ate a v0.171 estes dois eram literais — a quarta copia do numero, sem
+# ninguem comparando —, e a peca 8 passou sessenta e cinco versoes com a
+# atribuicao trocada sem que nada acusasse. Mesmo defeito que o comentario da
+# v0.42 la em cima descreve para a LISTA de oficios, aplicado a CONTAGEM.
+#
+# CAM_OF e' o TOTAL que o Caminho entrega, e o fixo (se houver) esta DENTRO
+# dele. Somar fixo + livre foi um defeito meu, pego pelo contra-teste: com o
+# Caminho voltando a travar um, a conta dava tres oficios onde a peca da dois.
+_S6 = re.search(r'\n## 6\. De onde vem o treino(.*?)(?=\n## )', _P7, re.S)
+_PN = {'um': 1, 'uma': 1, 'dois': 2, 'duas': 2, 'três': 3, 'quatro': 4}
+_mL = re.search(r'Mais (\w+) ofícios?\b', _S6.group(1)) if _S6 else None
+_mE = re.search(r'um extra que você escolhe: (\w+) ofício livre',
+                _S6.group(1)) if _S6 else None
+CAM_OF = _PN.get(_mL.group(1).lower()) if _mL else None
+ORI_EXTRA = _PN.get(_mE.group(1).lower()) if _mE else None
+# O Caminho nao trava oficio desde a v0.105, e a peca 7 §6 e' quem diz isso.
+CAM_OF_FIXO = 1 if (_S6 and re.search(r'\*\*O Caminho trava ofício',
+                                      _S6.group(1))) else 0
 FAIXA_TREINADA = (0.30, 0.42)
 
 TODAS = [p for grupo in PERICIAS.values() for p in grupo]
@@ -262,8 +280,15 @@ else:
 # --------------------------------------------------------------------------
 bloco('5. FRACAO TREINADA')
 
+if CAM_OF is None or ORI_EXTRA is None:
+    erro('nao consegui ler do §6 da peca 07 quantos oficios o Caminho entrega ou '
+         'quanto vale o extra da Origem — extrator que para de achar sai verde '
+         'calado, e a fracao de oficio abaixo nao teria com que ser calculada')
+    CAM_OF = CAM_OF or 0
+    ORI_EXTRA = ORI_EXTRA or 0
+
 base_p = CAM_FIXAS + CAM_LIVRES + ORI_PERICIAS
-base_o = CAM_OF_FIXO + CAM_OF_LIVRE
+base_o = CAM_OF
 # a Origem entrega UM extra, e o jogador escolhe se ele e oficio ou pericia
 rotas = {'Origem pega o OFICIO':  (base_p, base_o + ORI_EXTRA),
          'Origem pega a PERICIA': (base_p + ORI_EXTRA, base_o)}

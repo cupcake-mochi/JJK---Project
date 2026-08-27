@@ -51,7 +51,7 @@ As listas de perícia, os traços e as rotas estão no capítulo 7, *Origens e L
 
 A Origem não dá ponto de atributo nenhum, e não decide a sua patente: todo personagem começa **Grau 4**, venha de onde vier.
 
-> **A Sem Técnica não fecha ficha hoje.** Ela é a única assim, e a tabela `Rotas de criação`, no fim do capítulo 7, *Origens e Legados*, diz por qual rota cada uma das outras monta o poder.
+> **A tabela `Rotas de criação`, no fim do capítulo 7, *Origens e Legados*, diz por qual rota cada Origem monta o poder.** Se a sua for a sub-origem Sem Técnica, a máquina inteira está no capítulo 11, *Sem Técnica* — e o Passo 2 e o Passo 3 valem igual.
 
 > **Duas rotas montam poder pela Técnica Marcial, no capítulo 10:** o Corpo Amaldiçoado e a Restrição Celestial pelo ramo sem energia. Se for o seu caso, o Passo 2 e o Passo 3 valem igual — o que muda é o capítulo que você abre para montar.
 
@@ -100,6 +100,14 @@ O Caminho mexe em posicionamento, alvo, duração e recuperação. Ele nunca mex
 | **Emanador** | 6 (d6) | 4 | 6 | Ocultismo · Investigação |
 
 Mais **quatro perícias à sua escolha**, de qualquer lugar do quadro, **dois ofícios à sua escolha** e **um Teste de Resistência treinado**.
+
+### Equipamento
+
+> **Você sai de casa com o `Traje` degrau 1 da instituição e ¥75.000 para montar o resto.**
+
+O Caminho te treina numa lista de armas; ele não te dá a arma. Isso você compra, e as tabelas de `Preços` estão no capítulo 14, *Equipamento*. Os ¥75.000 são meia mensalidade de um Grau 4, que é o que você é.
+
+O uniforme não muda a sua Defesa no nível 2 — ele dá proteção 1 e desliga o `cobrir-se`, que no refino 1 também dá 1. Ele é roupa, e serve para você não andar de blusa de moletom numa missão.
 
 ### Trilha
 

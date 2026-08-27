@@ -153,9 +153,11 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 
 > **⚠⚠ E a `Liberação` — curar OS OUTROS — fica de fora da criação.** *A peça 11 §6 escreve que curar terceiro é o degrau raro do material e põe ele na Trilha `Sutura`, **no nível 11 dela**, ao preço de uma Trilha inteira.* **O levantamento é mais estreito que a peça: só três pessoas na obra inteira fazem isso — Shoko, Yuta e Sukuna —, e o Gojo não consegue.** *Quem quiser curar os outros escolhe o Guia e paga como todo mundo.*
 
-### ⚠ Uma frase da peça 11 §6 ficou velha, e ela não é desta peça
+### ~~⚠ Uma frase da peça 11 §6 ficou velha, e ela não é desta peça~~ — **paga na v0.171**
 
-**Aquela seção justifica *"o refino não escala a `Energia Reversa`"* dizendo que isso *"a faria derivar contra a vida do inimigo, **que é o que a seção 2 proíbe**"*.** *A v0.158 tirou dano daquela lista com todas as letras, e pôs uma trava de orçamento no lugar.* **O argumento caiu; a decisão dela pode continuar de pé.**
+**Aquela seção justificava *"o refino não escala a `Energia Reversa`"* dizendo que isso *"a faria derivar contra a vida do inimigo, **que é o que a seção 2 proíbe**"*.** *A v0.158 tirou dano daquela lista com todas as letras, e pôs uma trava de orçamento no lugar.* **O argumento caiu, e a decisão continuou de pé sem ele por doze versões.**
+
+> **O que a v0.171 pôs no lugar é o empate, medido na faixa inteira da aptidão.** *Com o teto na `maior Classe`, a cura cobre de `101%` a `88%` do que uma rodada tira de você, do nível 14 ao 30; com o teto no refino, ela sai em `177%` no nível em que o gate abre e nunca volta a empatar.* **A `maior Classe` cresce `1,75×` contra os `2,02×` do golpe de chefe, e o refino cresce `1,43×` e para no marco 22** — a Classe é o único dos dois que acompanha o nível.
 
 *E medido, o `+1/3 do refino` não deriva para cima:* **contra o golpe do chefe ele vai de `20,0%` no nível 10 para `13,9%` no 30.** *É o lado seguro, o mesmo do `projetar energia`.*
 

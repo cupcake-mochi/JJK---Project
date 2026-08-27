@@ -400,13 +400,33 @@ E "mais fácil depois do primeiro" sem teto é a espiral da exaustão com o sina
 | a Passiva `Recomposição`, uma vez por descanso curto | `35` |
 | **`Energia Reversa` no teto — `7d8`** | **`31,5`** |
 
-**Mesma altura, e a diferença mora em outro eixo:** a Passiva é de graça e acontece uma vez; esta cobra PE e se repete. *E ela gasta a ação padrão — curar `31,5` numa rodada em que você tomaria `33,9` é empatar, e o empate é a intenção.*
+**Mesma altura, e a diferença mora em outro eixo:** a Passiva é de graça e acontece uma vez; esta cobra PE e se repete. *E ela gasta a ação padrão — curar `31,5` numa rodada em que você tomaria `36,0` é empatar, e o empate é a intenção.*
+
+> **⚠ Este número era `33,9` da v0.78 à v0.170, e ele não reconstruía de nada.** *Nenhum documento registrava a derivação dele, e nenhum validador o alcançava — número órfão, que é a lição nº 9 sem precisar de uma segunda cópia para divergir.* **O `36,0` é derivado:** *o golpe de chefe do nível 30 é `72` na tabela de inimigo do manual, e o acerto contra alvo que investiu em defesa é `50%`, da peça 1 §6.*
 
 **O gate não foi escolhido por simetria com a `Extensão de Domínio`, mesmo sendo o mesmo.** No material, energia reversa é gerada no **cérebro** e não no intestino como a comum, e o que a torna rara é sustentar **dois fluxos de energia ao mesmo tempo**. É a coisa que quase ninguém alcança — e a Classe Passiva 3 com refino 7 é exatamente a altura que a seção 5 reserva para isso: **o generalista só chega no nível 26.**
 
 > **Ela cura VOCÊ, e isso não é economia de texto.** *Curar terceiro é o degrau raro do material*: o Gojo cura a si mesmo e não cura os outros, e a Shoko é nomeada como uma das poucas que conseguem. **Quem cura os outros é a Trilha `Sutura`**, e é ela que paga por isso — no nível 11 dela, e não no 2.
 
-**O refino não escala esta aptidão, e o teto é a `maior Classe`.** *Pôr refino no tamanho da cura a faria derivar contra a vida do inimigo, que é o que a seção 2 proíbe.* A Classe já cresce com o nível, já é o eixo certo, e já é a variável que o manual usa para tudo que escala com tamanho de feitiço.
+### O refino não escala esta aptidão, e o teto é a `maior Classe`
+
+> **⚠ O argumento desta linha caiu na v0.158, e ela ficou de pé doze versões sem ele.** *Ela dizia que pôr refino no tamanho da cura "a faria derivar contra a vida do inimigo, **que é o que a seção 2 proíbe**".* **A v0.158 tirou dano daquela lista com todas as letras:** *dano não é rolagem disputada, e a vida do inimigo não rola.* **Pela §2 de hoje, cura é `magnitude fora de disputa`** — a mesma caixa da Redução de Dano e da proteção —, **e a §2 não proíbe.** *A decisão continua de pé; quem a sustenta é a conta abaixo, e ela nunca tinha sido escrita.*
+
+**O que segura o teto é o empate, e ele vale a faixa inteira da aptidão.** *A régua é a da tabela acima — cura contra o que uma rodada te tira: o golpe de chefe da tabela de inimigo do manual, vezes os `50%` de acerto da peça 1 §6.* **A aptidão nasce no nível 14**, que é onde o especialista alcança o refino `7`.
+
+| nível | a rodada te tira | teto `maior Classe` | cobre | teto se fosse `refino` | cobriria |
+|---|---|---|---|---|---|
+| 14 | `17,8` | `4` → `18,0` | **`101%`** | `7` → `31,5` | `177%` |
+| 18 | `22,3` | `5` → `22,5` | **`101%`** | `9` → `40,5` | `182%` |
+| 22 | `26,9` | `6` → `27,0` | **`100%`** | `10` → `45,0` | `167%` |
+| 26 | `31,6` | `7` → `31,5` | **`100%`** | `10` → `45,0` | `142%` |
+| 30 | `36,0` | `7` → `31,5` | **`88%`** | `10` → `45,0` | `125%` |
+
+**Com a `maior Classe`, a rodada de cura cancela a rodada de apanhar e para de cancelar no fim.** *Ela não é uma rodada ganha: é uma rodada comprada, e no nível 30 ela já não paga o preço cheio.*
+
+**Com o refino, isso quebra no nível em que o gate abre** — e a estreia é o pior ponto, não o teto: quem acaba de comprar a aptidão cura `1,8×` o que o chefe tira dele, e ela nunca volta a empatar.
+
+**E o eixo está errado por um segundo motivo, que é a lição nº 1.** *Do nível 14 ao 30 o golpe de chefe cresce `2,02×`.* **A `maior Classe` cresce `1,75×` — quase junto, e é essa folga que faz o empate escorrer para `88%` no fim, de propósito.** *O refino cresce `1,43×` e para: ele bate no teto `10` no marco 22 e fica lá por oito níveis, enquanto o inimigo continua subindo.* **A Classe é o único dos dois que acompanha o nível**, e é a variável que o manual já usa para tudo que escala com tamanho de feitiço.
 
 ## 6.5. As três anti-domínio, e a `Extensão de Domínio` ao lado delas
 

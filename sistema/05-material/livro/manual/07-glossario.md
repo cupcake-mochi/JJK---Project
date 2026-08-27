@@ -45,7 +45,7 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **`Pesada`** [Nível] | O maior. Como preço, custa Classe e meia; como condição, sai por `3` pontos de energia. Dá Teste de Resistência no fim de cada turno do alvo | 4 |
 | **Exaustão** | Relógio de descanso, em três degraus. **Não é condição neste sistema** | 5 |
 | **Sequela** | O que você ganha ao levantar de uma queda. Encurta em uma rodada a janela da queda seguinte | 1 |
-| **Cicatriz** | Permanente, ganha na segunda queda. Não sai no descanso | 1 |
+| **Cicatriz** | Permanente, ganha na segunda queda. Vantagem em `Intimidação`, desvantagem em `Persuasão`. Não sai no descanso, e a sua própria `Energia Reversa` impede que ela venha | 1 |
 
 ## Personagem
 

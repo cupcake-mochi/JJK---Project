@@ -83,7 +83,11 @@ E o corolário: **se você não consegue nomear o custo antes de pedir a rolagem
 
 ## 5. Ajudar e rolar em grupo
 
-**Ajudar:** um personagem que possa contribuir de verdade dá vantagem ao teste de outro. Um por teste — dois ajudantes não dão vantagem duas vezes, e a mesa não precisa de regra nova para isso. **Custa a Ação Padrão** — o slot está na peça 3 §3.1, e esta seção passou sete versões escrevendo a regra sem nunca dizer em que ação ela acontece. *O `Mão na Roda` do Guia, no nível 7, é a exceção: para aquele Caminho o `Ajudar` vira Ação Bônus.*
+> **Vantagem não empilha: duas fontes valem uma.** *Desvantagem também não, e uma vantagem com uma desvantagem se cancelam — você rola um d20 e pronto.*
+
+**⚠ Esta linha estava publicada no livro e em peça nenhuma, e duas peças apontavam para cá como se ela estivesse escrita.** *A peça 14 §2 preça o Traje dizendo que vantagem "**não empilha** pela peça 4 §5", e o que o §5 escrevia era só o caso do `Ajudar` — dois ajudantes.* **De um caso particular ninguém deriva a regra geral**, e a v0.171 precisou dela para o teto da `Cicatriz`, na peça 1 §5.5. *Achada pelo próprio validador, indo procurar o dono e não achando nenhum.*
+
+**Ajudar:** um personagem que possa contribuir de verdade dá vantagem ao teste de outro. Um por teste — dois ajudantes não dão vantagem duas vezes, que é a regra acima aplicada ao caso mais comum da mesa. **Custa a Ação Padrão** — o slot está na peça 3 §3.1, e esta seção passou sete versões escrevendo a regra sem nunca dizer em que ação ela acontece. *O `Mão na Roda` do Guia, no nível 7, é a exceção: para aquele Caminho o `Ajudar` vira Ação Bônus.*
 
 **Teste de grupo:** quando o grupo inteiro precisa passar por algo — atravessar sem ser notado, aguentar o frio —, metade do grupo passando resolve. Isso impede que o personagem de Destreza 1 arruine sozinho a furtividade de quatro pessoas, sem precisar que ele finja ser bom nisso.
 
