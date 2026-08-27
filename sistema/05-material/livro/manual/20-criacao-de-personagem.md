@@ -103,9 +103,11 @@ Mais **quatro perícias à sua escolha**, de qualquer lugar do quadro, **dois of
 
 ### Equipamento
 
-> **Você sai de casa com o `Traje` degrau 1 da instituição e ¥75.000 para montar o resto.**
+> **Você sai de casa com o `Traje` degrau 1 da instituição e ¥150.000 para montar o resto.**
 
-O Caminho te treina numa lista de armas; ele não te dá a arma. Isso você compra, e as tabelas de `Preços` estão no capítulo 14, *Equipamento*. Os ¥75.000 são meia mensalidade de um Grau 4, que é o que você é.
+O Caminho te treina numa lista de armas; ele não te dá a arma. Isso você compra, e as tabelas de `Preços` estão no capítulo 14, *Equipamento*. Os ¥150.000 são uma mensalidade de um Grau 4, que é o que você é.
+
+O dinheiro dá para mais que a arma, e é aí que duas fichas do mesmo Caminho começam diferentes: dá para sair de espada e escudo, de uniforme reforçado, ou de `Revestimento` e punho fechado. As contas de cada uma estão no capítulo 14.
 
 O uniforme não muda a sua Defesa no nível 2 — ele dá proteção 1 e desliga o `cobrir-se`, que no refino 1 também dá 1. Ele é roupa, e serve para você não andar de blusa de moletom numa missão.
 

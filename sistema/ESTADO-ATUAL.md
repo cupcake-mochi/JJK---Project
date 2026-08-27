@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 27/08/2026, na v0.172 (última peça fechada: **Sem Técnica**, a peça 25, na v0.168, com o `conferir-sem-tecnica.py` e doze checagens; antes dela, **Dano de alma e Integridade, na v0.145**; antes dela, o **Bloquear, na v0.143**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 27/08/2026, na v0.175 (última peça fechada: **Sem Técnica**, a peça 25, na v0.168, com o `conferir-sem-tecnica.py` e doze checagens; antes dela, **Dano de alma e Integridade, na v0.145**; antes dela, o **Bloquear, na v0.143**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.172.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e cinco peças escritas** e **vinte e cinco validadores**.
+**Versão v0.175.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e cinco peças escritas** e **vinte e cinco validadores**.
 
 **A v0.172 fechou as duas perguntas em aberto da peça 12, e com isso a peça 12 não tem mais item de decisão — só os dois marcados para o playtest.**
 
@@ -20,7 +20,7 @@ Atualizado em 27/08/2026, na v0.172 (última peça fechada: **Sem Técnica**, a 
 
 > **A `Cicatriz` ganhou mecânica depois de cento e trinta e quatro versões:** *vantagem em `Intimidação`, desvantagem em `Persuasão`, as duas `Essência`.* **Teto `1`, porque vantagem não empilha**, e ela **não vem** se quem fechou o ferimento foi a sua própria `Energia Reversa` — o que na prática só acontece pelo `Insistir`. *Quatro formas numéricas foram medidas e as quatro reprovam, cada uma numa régua que o projeto já tinha.*
 >
-> **O dinheiro entrou, e é o iene.** *A escada de salário por patente é da peça 12 §6.1 e sai do canon — o salário do Gojo é o de um ministro, `¥29,61M`/ano, dividido por `12` e por `2⁴`.* **A tabela de preços é da peça 14 §6.5, e ela vem com uma prova:** *toda entrada de equipamento já é travada por atributo e por treino, então o preço é a terceira trava e a única que só sabe atrasar.* **A criação passou a ter passo de equipamento** — `Traje` 1 da instituição, de graça, e `¥75.000`.
+> **O dinheiro entrou, e é o iene.** *A escada de salário por patente é da peça 12 §6.1 e sai do canon — o salário do Gojo é o de um ministro, `¥29,61M`/ano, dividido por `12` e por `2⁴`.* **A tabela de preços é da peça 14 §6.5, e ela vem com uma prova:** *toda entrada de equipamento já é travada por atributo e por treino, então o preço é a terceira trava e a única que só sabe atrasar.* **A criação passou a ter passo de equipamento** — `Traje` 1 da instituição, de graça, e dinheiro para o resto. *Eram `¥75.000`, e a v0.175 dobrou para `¥150.000` — uma mensalidade cheia.*
 >
 > **⚠ E o `Grau` passou a gatear o que a instituição controla, sem reverter a peça 16 §2.2:** *aquela seção mede o eixo de USO, e o gate de `Estigma` continua sendo de nível.* **O que entrou é o eixo de AQUISIÇÃO, e a espiral não fecha porque o teto de poder continua no nível.**
 >
@@ -50,7 +50,7 @@ Atualizado em 27/08/2026, na v0.172 (última peça fechada: **Sem Técnica**, a 
 
 > **Três dos cinco `Estilos da Pegada` estavam batizados duas vezes**, e viraram `Volteio` · `Couraça` · `Mão Nua`. *Nenhum preço se moveu.* **E a ordem do `UNIVERSO` virou ordem de autoridade:** quando duas fontes reivindicam o mesmo nome, a primeira vence — antes era a última, e acrescentar fonte mudava em silêncio a razão publicada.
 
-**A v0.166 tirou a cura do `Classe 0`.** Não era mudança de regra: a tabela `Cura` do manual sempre começou na Classe 1, e quem abria o buraco era a `Base por Classe`, que juntava `Cura, Apoio e Onda` numa linha só. *Um `Classe 0` com Forma `Cura` entregava `27` de cura por rodada, de graça, em aliado — `1,06` Trilha.* **Manual na v7.17.**
+**A v0.166 tirou a cura do `Classe 0`.** Não era mudança de regra: a tabela `Cura` do manual sempre começou na Classe 1, e quem abria o buraco era a `Base por Classe`, que juntava `Cura, Apoio e Onda` numa linha só. *Um `Classe 0` com Forma `Cura` entregava `27` de cura por rodada, de graça, em aliado — `1,06` Trilha.* **Manual na v7.19.**
 
 > *Curar terceiro é o degrau raro do material, e a peça 11 §6 põe ele na Trilha `Sutura`, no nível 11 dela.* **Área em `Classe 0` é intencional e ficou de fora** — `Explosão`, `Cone` e `Linha` têm coluna `Classe 0` na mesma tabela, e nada as contradiz.
 
@@ -70,7 +70,7 @@ Atualizado em 27/08/2026, na v0.172 (última peça fechada: **Sem Técnica**, a 
 
 **A v0.161 matou o `sete`, e ele tinha sobrevivido setenta e duas versões à decisão que o aposentou.** *A v0.89 pôs a rota pura de Refino em `10` aptidões, e quatro lugares continuaram publicando `7`.* **E `meio a meio` nomeava três rotas diferentes** — a linha daqui foi alinhada com a curva da peça 11 §3: `2` Corpo · `3` Refino · `2` Leque.
 
-> **⚠ E isto importa para o `BESTIÁRIO`, que é a próxima peça.** *Este arquivo é o dono declarado do refino e das aptidões do inimigo; o chefe herda a curva do `meio a meio`, e a rolagem de clash é `1d10 + aptidões + metade do nível`.* **Contagem de aptidão é modificador de rolagem viva, e não enfeite de tabela.**
+> **⚠ E isto importa para o `BESTIÁRIO`, que é a próxima peça.** *Este arquivo é o dono declarado do refino do inimigo, e o chefe herda a curva do `meio a meio`.* **O refino dele entra vivo na cascata do clash do manual v7.19, e não é enfeite de tabela.** *A contagem de aptidões saiu da conta na v0.173, junto com a rolagem.*
 
 **A v0.160 tirou a checagem 7.4 do rótulo e pôs ela no conteúdo.** *A versão da entrega passou a sair da linha `Recorte da vN.NN` do `README` dela dentro do commit, e não da mensagem.* **A mensagem continua sendo lida e virou a segunda metade da comparação:** rótulo que discorda do conteúdo sai como aviso, e não como erro — mensagem de commit já feito não se conserta sem reescrever história.
 
@@ -736,7 +736,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 
 **Duas peças foram parcialmente substituídas e trazem o aviso no topo:** as seções 3 e 4 da peça 4 saíram para a peça 7, e a seção 3 e o quadro de Caminhos da peça 5 saíram para a peça 6.
 
-O manual do Fundamento **v7.17** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 366 parágrafos e 90 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na mesma versão do `.docx`, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 49 páginas.
+O manual do Fundamento **v7.19** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 366 parágrafos e 90 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na mesma versão do `.docx`, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 50 páginas.
 
 **Quem é dono da versão do manual:** a primeira linha de `manual/gerador/COMO-USAR.txt`. Toda outra cópia — a capa em `partA.js`, este arquivo, o `README.md`, o `LEIA-ME.md` e o `arquitetura.md` — é cópia, e o `conferir-repositorio.py` falha se alguma divergir. *Ele nasceu na v0.33, depois de a capa do manual passar três versões dizendo 7.5.*
 
@@ -853,26 +853,21 @@ Doze Passivas e sete feitiços é o que a rota **compra** — zero aptidões, re
 
 > **O argumento de projeto das aptidões e do refino saiu daqui nesta versão** e está na **seção 10 da peça 11**, inteiro. Ele descrevia uma peça que fechou na v0.27, e este documento é lido no começo de toda conversa — 24 KB de argumento de peça pronta faziam ele não caber numa leitura só. O que sobrou abaixo é o que **não** é da peça 11: a Expansão, que mora no manual, e três decisões que atravessam outras peças.
 
-### O clash de expansões, fechado
+### O clash de expansões — publicado na v0.173, e ele saiu da rolagem
 
-> **Refino contra refino. Empatou, os dois rolam `1d10 + quantidade de aptidões + metade do nível`.**
+***O dono é o manual, na v7.19, seção 7.*** *Da v0.27 à v0.172 a regra existia só aqui e no rascunho, e os dois afirmavam que a v7.7 do manual a citava — ela não citava, e nenhuma peça, nem o livro, tinha ela.*
 
-**O refino resolve o clash onde domínio ainda não existe, e para de resolver onde ele acontece** — do nível 26 em diante o especialista e o meio a meio estão os dois no teto 10, e entre eles cai sempre no d10. Não é erro; é o que a regra faz, e o texto tem que dizer.
+> **Enquanto dois domínios sobrepostos estão de pé, nenhum dos dois acerta garantido. Quem conquista sai de três perguntas: mais refino · Acerto que não causa dano · a corrida.**
 
-O d10 fica grande de propósito: a ameaça é calibrada contra o nível do grupo, então os dois lados chegam empatados e a diferença vem de foco e perda de foco. **Sete aptidões de vantagem — que é a distância do nível 30 — ainda perdem `3%` das vezes e empatam outros `3%`**, e dez níveis de distância valem meio dado.
+**A cascata é derivada, e nenhum número novo entrou.** *A corrida é o desempate: os dois seguem de pé, e o primeiro que perder o domínio — barreira derrubada por fora, ou duração vencida — ou chegar a `0` de vida recebe o Acerto do outro.* **Quem perde escolhe entre ficar e receber, ou gastar a queda do próprio domínio para abrir buraco e sair.**
 
-> **⚠ Este número dizia `12%` da v0.27 à v0.160, e ele não sai de modificador nenhum.** *Nesta rolagem as derrotas possíveis são `45 · 36 · 28 · 21 · 15 · 10 · 6 · 3 · 1%`, conforme a vantagem vai de `+0` a `+8`* — **`12` não está na lista, nem somando o empate.** *O que ficou de pé foi o "sete de vantagem": com as contagens certas, `10 − 3` é exatamente sete.*
+> **⚠ A rolagem `1d10 + quantidade de aptidões + metade do nível` FOI REVERTIDA**, e com ela as taxas de vitória que este documento publicava. *O levantamento externo da v0.173 achou que a obra resolve o empate por corrida e não por rolagem, e a corrida amarra em três estados que já tinham dono — vida da barreira, duração e `0` de vida.* **O argumento da reversão está no CHANGELOG da v0.173.**
 
-**O inimigo carrega refino e aptidões na ficha dele**, como vida e dano. É onde a divergência entre mestres nasce, então a implementação deve seguir o padrão do ambiente propício: **valor sugerido pelo nível na tabela, e a palavra final do mestre em cima dele** — para ninguém preencher do zero. Com o chefe herdando a curva do meio a meio, o refino decide sozinho **do marco 10 ao 22** — `5·7·9·10` do especialista contra `4·6·7·9` do chefe —, e onde ele empata a distância é de aptidão:
+**O refino decide sozinho do marco 10 ao 22** — `5·7·9·10` do especialista contra `4·6·7·9` do chefe, que herda a curva do meio a meio. *Do marco 26 em diante os dois estão no teto `10` e o refino para de separar:* **é aí que a segunda e a terceira pergunta passam a valer, e elas cobrem `59%` dos pareamentos capazes de clash.**
 
-| marco | refino | quem decide | vantagem do especialista |
-|---|---|---|---|
-| 6 | `3` contra `3` | empate, vai ao d10 | `+0` — os dois têm uma aptidão |
-| 10 · 14 · 18 · 22 | `5·7·9·10` contra `4·6·7·9` | **o refino, sozinho** | — |
-| 26 | `10` contra `10` | empate, vai ao d10 | **`+5`** — `8` contra `3`, e ele ganha `85%` |
-| 30 | `10` contra `10` | empate, vai ao d10 | **`+7`** — `10` contra `3`, e ele ganha `94%` |
+**O inimigo carrega refino na ficha dele**, como vida e dano, no padrão do ambiente propício: **valor sugerido pelo nível na tabela, e a palavra final do mestre em cima dele.**
 
-> **⚠ Esta linha dizia *"do nível 14 ao 22, e do 26 em diante o especialista leva +3, que é 72%"*.** *O `72%` está certo para `+3` — só que `+3` é a distância de aptidão no marco **22**, e no 22 o refino ainda decide sozinho, então ela nunca é rolada.* **Duas bordas erradas de uma vez: o refino começa a decidir no marco 10 e não no 14, e a distância que sobra do 26 em diante é `+5` e `+7`.**
+> **⚠ E isto ficou MAIS BARATO para o `BESTIÁRIO` na v0.173.** *Enquanto a rolagem existia, a contagem de aptidões do inimigo era modificador de rolagem viva e tinha de ser preenchida para todo inimigo com domínio.* **Hoje a cascata lê refino e o tipo do Acerto, e nenhum dos dois é contagem** — o BESTIÁRIO perdeu um número da lista dele.
 
 ### Três decisões que saíram junto, e que não são da peça de aptidões
 
@@ -982,19 +977,21 @@ Quem pega a incompleta mais duas Passivas de Classe 2 gasta **dois terços da li
 
 **E nenhuma das quatro serve contra a Expansão incompleta.** Ela não tem acerto garantido — o Acerto dela rola —, então você se defende dela com Defesa e Teste de Resistência como de tudo o mais. É canon: o Reggie usou Cesta Oca dentro do domínio incompleto do Megumi e levou porrada dos shikigami do mesmo jeito.
 
-**O que custa para usar, fixado na v0.28:**
+**O que custa para usar, fixado na v0.28 e com o custo de abrir revisado na v0.174:**
 
 | | incompleta | completa |
 |---|---|---|
-| abrir | `6 × maior Classe` de PE | `8 × maior Classe` |
+| abrir | `6 × maior Classe` de PE | `6 × maior Classe` |
 | desconto nos feitiços lá dentro | `1/3 do refino` | `metade do refino` |
 | ação | a rodada inteira, nas duas | |
 | duração | `metade do refino` em rodadas, mínimo 1 | |
 | barreira | não tem | `50 × metade do refino`, só por fora |
 
-**A escada de custo fecha:** feitiço do topo `3×` < Técnica Máxima `5×` < incompleta `6×` < completa `8×`. E a incompleta passar da Máxima é de propósito — a Máxima é **dada** no nível 17 para toda ficha, e a incompleta é **comprada** sete níveis antes, por dois espaços de lista e um gate que barra uma rota.
+**A escada de custo fecha:** feitiço do topo `3×` < Técnica Máxima `5×` < as duas Expansões, em `6×`. E a incompleta passar da Máxima é de propósito — a Máxima é **dada** no nível 17 para toda ficha, e a incompleta é **comprada** sete níveis antes, por dois espaços de lista e um gate que barra uma rota.
 
-**O desconto quase virou lucro.** Duração é também quantos feitiços saem lá dentro, então desconto × duração compete com o custo de abrir. Com `6 × Classe` e desconto de refino cheio, o saldo fica **negativo do nível 20 em diante** — você abre o domínio e termina com mais PE. As combinações escolhidas ficam entre +18 e +31 em todo nível, e a margem não encolhe. **E o desconto precisa de piso:** sem *"nenhum feitiço custa menos de 1 PE"*, o refino alto zera as Classes baixas e o PE deixa de existir dentro do domínio.
+> **⚠ A completa desceu de `8×` para `6×` na v0.174, por retorno de mesa** — *"acharam muito caro o custo da Expansão"*, e a conta concordou: abrir a completa comia **`55%` do PE do dia de um Bastião**, e hoje come `41%`. **As duas passaram a abrir pelo mesmo PE, e isso é decisão e não descuido:** *o manual já escrevia que a completa "paga só a diferença — um espaço a mais, no molde da Regra Própria", e cobrar `+2×` de PE por cima era uma segunda cobrança que a régua invocada não previa.* **O degrau de cima continua se pagando em espaço — `+1`, de dois para três — e em gate: nível 14 e refino 5, contra 10 e 4.**
+
+**O desconto quase virou lucro.** Duração é também quantos feitiços saem lá dentro, então desconto × duração compete com o custo de abrir. Com `6 × Classe` e desconto de refino cheio, o saldo fica **negativo do nível 20 em diante** — você abre o domínio e termina com mais PE. As combinações escolhidas ficam entre +11 e +27 em todo nível, e a margem não encolhe. **E o desconto precisa de piso:** sem *"nenhum feitiço custa menos de 1 PE"*, o refino alto zera as Classes baixas e o PE deixa de existir dentro do domínio.
 
 **O Acerto acontece quando você abre, e de novo no começo de cada turno seu.** Um relógio só, o do portador — as alternativas punham o proc no turno dos alvos, e *"começo da rodada dos alvos"* não é momento definido num sistema de iniciativa individual. **E se algum dia o custo cair para Ação Bônus, a regra de ouro nº 6 já resolve sozinha:** *feitiço em Ação Bônus ou Reação só permite mais um de Classe 0 no turno*.
 
@@ -1002,7 +999,7 @@ Quem pega a incompleta mais duas Passivas de Classe 2 gasta **dois terços da li
 
 **A barreira cai em ~2,4 rodadas** de saída cheia contra uma duração de 3 a 5 — dá para derrubar de fora dentro do próprio tempo, que é o que faz a decisão de atacar ou esperar existir. Por dentro não quebra. O mestre pode declarar exceção.
 
-**O clash ficou de fora, e está engatilhado** em `03-mecanica/RASCUNHO-clash-de-expansoes.md`: o modelo de push gradual pede seis números novos e substitui uma regra marcada como fechada. A v7.7 cita a regra decidida.
+**O clash fechou na v0.173, e o dono é o manual v7.19.** *O modelo de push gradual do rascunho reprovou como mecanismo de resolução — a velocidade dele é a diferença de refino, e ela é zero em `59%` dos pareamentos capazes de clash. O rascunho foi para `99-arquivo/`, e **nenhum dos seis números dele foi escrito**.*
 
 **E há uma consequência de vocabulário:** se a Expansão entra no manual, **o manual passa a usar "refino"**, que é termo do projeto. É a direção contrária do problema que a v0.26 consertou, e é de propósito — mas o `conferir-manual.py` precisa saber, senão a próxima varredura vai tratar refino como palavra estranha.
 

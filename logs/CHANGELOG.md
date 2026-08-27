@@ -8,6 +8,248 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.175] — 27/08/2026
+
+**O kit da criação dobrou, de meia mensalidade para uma — `¥75.000` para `¥150.000`.** ***Pedido do Mizuki:*** *"eu estava querendo fazer com que todo jogador tivesse uma quantidade de dinheiro inicial, e com esse dinheiro o jogador decidiria os itens iniciais, que aí daria variações de build"* — **"vai ter gente que não vai querer um traje, mas sim um revestimento; vai ter gente que vai querer começar com escudo"**.
+
+### 1 · A busca exaustiva diz que a variação existe, e que o corte dela é a Destreza
+
+**Toda montagem legal na criação foi medida contra a Defesa do nível 2**, com os `9` pontos e o teto de criação `3` da peça 2:
+
+| montagem | Destreza `0` | `1` | `2` | `3` | `¥` com arma |
+|---|---|---|---|---|---|
+| nada, só o `cobrir-se` | `11` | `12` | `13` | `14` | `8.000` |
+| `Traje` 1 | `11` | `12` | `13` | `14` | `38.000` |
+| `Traje` 2 | `12` | `13` | `14` | `15` | `98.000` |
+| `Revestimento` 1 | `14` | `14` | `14` | `14` | `158.000` |
+| `Revestimento` 1 + escudo Médio | `16` | `16` | `16` | `16` | `194.000` |
+
+**O `Revestimento` põe teto de Destreza `0`, então ele é exatamente a ficha que não vai ter Destreza** — quem põe os nove pontos em Força, Constituição e Essência. *Contra ela vale `+3`; contra quem maximiza Destreza empata em `14` e custa `¥150.000` para empatar.* **A variação que o pedido queria já estava no catálogo, e nenhuma regra nova foi escrita para produzi-la.**
+
+### 2 · E a busca achou que o `Traje` 1 é DOMINADO por não vestir nada
+
+> **As duas linhas são idênticas em toda Destreza — `11 · 12 · 13 · 14`.** *O degrau 1 dá proteção `1` e desliga um `cobrir-se` que no refino `1` também dá `1`.*
+
+**Isso já estava escrito desde a v0.171** — *"o uniforme de graça custa exatamente zero"* — **mas só vira problema quando ele deixa de ser de graça.** *A pergunta "e se o Traje virar compra?" estava na mesa, e a conta a respondeu:* **cobrar `¥30.000` por ele criaria a única entrada do catálogo que existe para nunca ser escolhida.**
+
+***Decisão do Mizuki: ele continua vindo com a matrícula.*** **O primeiro degrau de uniforme que faz alguma coisa é o `Traje` 2.**
+
+### 3 · O teto do orçamento é o `Traje` 3, e é ele que fechou a faixa
+
+**Ele cabe na criação por requisito — `Força 3` é o teto da criação —, custa `¥270.000` e levaria a Defesa do nível 2 a `18`, contra um piso de `14`.** *Uma mensalidade para bem antes dele: o mais caro que entra é o `Revestimento` 1, e ele topa em `16`, que é onde o kit de hoje já topava.*
+
+**Três valores foram medidos, e a escolha foi do Mizuki:**
+
+| valor | montagens que abrem | Defesa máxima no nv 2 | o `Revestimento` entra? |
+|---|---|---|---|
+| `¥75.000`, o de antes | `6` | `16` | não |
+| **`¥150.000`, uma mensalidade** | `9` | `17` | **com o orçamento inteiro** |
+| `¥225.000` | `12` | `17` | sim, com escudo junto |
+| `¥300.000` | `12` | **`18`** ⚠ | sim, e o `Traje` 3 também |
+
+> ***O custo da escolha fica escrito, e ele foi levado antes:*** **o `Revestimento` 1 custa exatamente `¥150.000`, então quem o escolhe consome o orçamento inteiro e começa de punho.** *O `soco` do §5.0.6 é grátis e é **arma para todo efeito de regra**, então a ficha é jogável no dia um.* **E o salário é mensal, pela peça 12 §6.1:** *a arma chega na primeira folha, sem depender de missão nenhuma.*
+
+### 4 · E o livro estava usando um exemplo de preço que não é de preço
+
+**O capítulo 14 dava `Faca + escudo Torre` por `¥124.000` como exemplo do que não cabe.** *O escudo `Torre` não entra na criação **por dois gates que não são dinheiro**: ele exige `Força 5` contra o teto de criação `3`, e custa `2` pontos de marco.* **Com qualquer orçamento ele continua fora, então ele nunca foi exemplo de preço.** *Saiu, e a linha passou a dizer o motivo verdadeiro.*
+
+### Alterado
+
+- **A peça 14 §6.5** — o valor, a tabela de kits de referência refeita, e a subseção nova que registra a busca exaustiva, a dominância do `Traje` 1 e o teto do `Traje` 3.
+- **A peça 8, Passo 3** — o valor e a derivação.
+- **O livro, capítulos 6 e 14** — as duas linhas de regra, a tabela de kits, e duas linhas novas: o que o `Revestimento` é, e por que a `Torre` não entra.
+- **A checagem 13 do `conferir-equipamento.py`** — ela lia `meia mensalidade` escrito no regex. *Hoje ela lê a **fração publicada** e recalcula com ela*, então trocar a fração e o número juntos sai verde e mexer só no número acende.
+- **O `subir.sh` e o `conferir-repositorio.py`** — a flag `--versao-manual` e o ajuste da segunda versão no `README` da entrega.
+- **O livro foi de `75.338` para `75.504` palavras**, e as páginas não se moveram — `256` e `147`. *O `guard_numeros.py` rodou nos dois arquivos: `5` diferenças no capítulo 6 e `17` no 14, todas lidas.* **Quatro números sumiram, e os quatro são linhas de kit que eu troquei de propósito** — inclusive o `124.000` da `Torre`.
+
+### 5 · E o `subir.sh` derrubou o commit, num defeito que ele tinha desde sempre
+
+**O passo 0 dele ajusta a versão do RECORTE no `README` da entrega — e não a do MANUAL.** *A 7.3 cobra as duas.* **Então ele copiou os quatro arquivos, corrigiu `v0.175`, e reprovou na 7.3 por causa da versão do manual** — que a v0.173 e a v0.174 tinham subido de `7.17` para `7.19`. *O pior momento possível: depois de a entrega já ter sido mexida.*
+
+**O defeito estava lá desde que o passo 0 existe.** *Ele nunca tinha aparecido porque o manual e o projeto raramente subiam na mesma leva* — e nesta subiram duas vezes.
+
+**Entrou a flag `--versao-manual` no `conferir-repositorio.py`**, no molde da `--versao-recorte` que já existia, lendo o mesmo dono que a checagem 4 usa. *E o passo 0 do `subir.sh` passou a ajustar as duas.*
+
+> **⚠ E o conserto nasceu errado, e o teste pegou.** *A primeira versão trocava todo `v7.NN` do `README` da entrega.* **São cinco menções e uma delas é HISTÓRICA** — *"o rascunho transcreveu o manual na `v7.9`"* —, e o `sed` cru a reescreveria para `v7.19`, virando a frase do avesso. **O padrão que separa as duas já estava no arquivo:** *a versão corrente vem sempre em `**negrito**` e a histórica em crases, e é a mesma forma que a 7.3 lê.* **Hoje o `sed` só alcança as em negrito** — testado numa cópia: `4` corrigidas, a histórica intacta, e a segunda passada não mexe em nada.
+
+### Decidido
+
+- **O dinheiro inicial é `¥150.000` — uma mensalidade cheia de um `Grau 4`.**
+- **O `Traje` 1 continua vindo com a matrícula e não vira linha de compra**, porque a conta mostra que ele é dominado por não vestir nada.
+- **O `subir.sh` é dono de ajustar as DUAS versões do `README` da entrega**, e não só a do recorte.
+
+---
+
+## [0.174] — 27/08/2026
+
+**Abrir a Expansão completa desceu de `8 ×` para `6 ×` a maior Classe, por retorno de mesa.** ***Pedido do Mizuki:*** *"pessoal achou muito caro o custo da expansão atualmente"* — **e a conta concordou com a mesa antes de qualquer coisa mudar.**
+
+### 1 · A mesa estava certa, e o número diz quanto
+
+**Abrir a completa comia mais da metade do PE do dia inteiro de um Bastião**, que é o Caminho de menor PE e paga o mesmo que todo mundo:
+
+| nível | Classe | PE do dia de um Bastião | abrir a `8 ×` | do dia | abrir a `6 ×` | do dia |
+|---|---|---|---|---|---|---|
+| 14 | 4 | `56` | `32` | **`57%`** | `24` | `43%` |
+| 18 | 5 | `72` | `40` | `56%` | `30` | `42%` |
+| 22 | 6 | `88` | `48` | `55%` | `36` | `41%` |
+| 26 | 7 | `104` | `56` | `54%` | `42` | `40%` |
+| 30 | 7 | `120` | `56` | `47%` | `42` | `35%` |
+
+*O Emanador e o Evocador, com `6` de PE por nível, pagavam de `31%` a `38%` — mas o preço é o mesmo para todos, e é o Bastião que decide se ele cabe.*
+
+### 2 · O pedido original era `5 × / 6 ×`, e a metade da incompleta não passou
+
+**O invariante que barra está escrito no `conferir-expansao.py` desde a v0.28:** *abrir a Expansão tem de custar **mais** que a **Técnica Máxima**, que custa `5 ×` e sai **de graça** no nível 17.* **Com `5 ×` elas empatam, então `6 ×` já é o piso da incompleta enquanto esse invariante valer.**
+
+***Decisão do Mizuki com o número na frente:*** *"reduz a completa pra 6, n altera a da incompleta"*. **As duas passaram a abrir pelo mesmo PE.**
+
+### 3 · E indo mexer apareceu que o manual se contradizia numa linha
+
+> **O manual escreve que a completa *"paga só a diferença — um espaço a mais, no molde da Regra Própria"*.** *E aí cobrava `+2 ×` de PE por cima.* **A régua invocada não prevê segunda cobrança.**
+
+**Com `6 ×` nos dois degraus a linha passa a ser verdade:** *o degrau de cima se paga em **espaço** — `+1`, de dois para três — e em **gate** — nível 14 e refino 5, contra 10 e 4.* **E não de novo no PE.**
+
+*O invariante da escada passou de `completa > incompleta` para `completa >= incompleta`, com esse argumento escrito no código.* **O bloco 7 continua sendo o que ele sempre foi** — *"se desconto × duração alcançar o custo de abrir, abrir o domínio fica de graça, e um preço que se paga sozinho não é preço"* —, **e a completa fica com saldo entre `+11` e `+17`, com margem mínima de `31%` no nível 22** contra um limiar de aviso de `25%`.
+
+### 4 · O número tinha CINCO cópias, e as cinco foram mexidas
+
+| onde | o que era |
+|---|---|
+| **o gerador do manual** | a linha de regra de `Abrir o Domínio` |
+| **o livro**, capítulo 9 | a mesma linha, descida |
+| **o `ESTADO-ATUAL`** | a tabela de custo de uso e a escada |
+| **a peça 15 §** | a tabela de orçamento de PE, onde a Expansão tinha **duas linhas** e virou uma |
+| **o `conferir-expansao.py`** | a constante `PE_ABRIR` |
+
+*A da peça 15 é a que teria divergido calada: ela publica `% do dia do Bastião` e comparava invocação contra `60%` e `47%`.* **Recontada, a linha da completa virou `45%` e `35%` — idêntica à da incompleta —, e as duas viraram uma só.**
+
+### Alterado
+
+- **`manual/gerador/partE.js`** — a linha de custo de abrir, e o manual foi para a **v7.19**.
+- **O livro, capítulo 9, *Fundamento*** — a mesma linha. *O `guard_numeros.py` acusou `3` diferenças e as três fecham: o `8` que **sumiu** é exatamente o número que saiu, e `dois` e `duas` entraram em "nos **dois** gates" e "as **duas** cobram".* **Livro de `75.326` para `75.338` palavras, e as páginas não se moveram.**
+- **A peça 15** — as duas linhas da Expansão viraram uma.
+- **O `ESTADO-ATUAL`** — a tabela, a escada de custo, e o intervalo de saldo de `+18 e +31` para `+11 e +27`.
+- **O `conferir-expansao.py`** — `PE_ABRIR`, o invariante da escada e o texto do bloco 7.
+
+### Decidido
+
+- **As duas Expansões abrem pelo mesmo PE: `6 × maior Classe`.**
+- **O degrau da completa se paga em espaço e em gate, e não em PE** — que é o que o molde da `Regra Própria`, invocado pelo próprio manual, sempre disse.
+
+---
+
+## [0.173] — 27/08/2026
+
+**O clash de expansões fechou, e o achado que abriu a versão é que ele nunca esteve publicado.** *Estava marcado como `fechado` no `ESTADO-ATUAL` desde a v0.27, e tanto aquele documento quanto o rascunho afirmavam que **"a v7.7 do manual cita a regra decidida"**.* **O PDF do manual foi extraído e lido: a seção `Expansão de Domínio` não tem clash.** *Nenhuma peça tinha, o livro não tinha, o manual não tinha.* **A regra vivia em exatamente dois lugares, e os dois são documento de estado ou rascunho — nenhum é documento de regra.**
+
+### 1 · O push gradual reprovou, e a reprovação é medida
+
+**O rascunho pedia seis números e dizia que o número 1 — a velocidade do push — decidia se o modelo cabia.** *Ele cabe pior do que ele imaginava: a velocidade é a **diferença de refino**, e essa diferença é **zero em `59%`** dos pareamentos capazes de clash.*
+
+| marco | refino dos que abrem completa | pares de vão zero |
+|---|---|---|
+| 14 | `7` · `6` | 2 de 3 |
+| 18 | `9` · `7` · `5` | 3 de 6 |
+| 22 | `10` · `9` · `6` | 3 de 6 |
+| 26 | `10` · `10` · `7` | 4 de 6 |
+| 30 | `10` · `10` · `8` | 4 de 6 |
+
+**E a concentração é no topo, que é onde o clash acontece:** *do marco 26 em diante o especialista e o meio a meio estão os dois no teto `10`, então **todo** pareamento entre eles tem vão zero.* **Nenhum limiar conserta uma velocidade que é zero — o melhor caso resolve `41%` dos pares**, e o desfecho previsto para o resto era o número 4, que o próprio rascunho marcava como reprovado no filtro multi-mestre.
+
+> **⚠ E a duração já apertava sozinha.** *Ela é `metade do refino` em rodadas — `2` a `5` — contra uma luta de `3,3`.* **Um push de três rodadas come a luta inteira**, e o domínio deixa de fazer qualquer outra coisa enquanto ele roda.
+
+### 2 · O levantamento externo confirmou os sete comportamentos, e derrubou os seis números
+
+***Pedido do Mizuki, com todas as letras:*** *"Ao criar as regras e afins, não chute ou adivinhe nada, busque em fóruns e na obra o como realmente ocorre."* **Ele estava certo e o resultado inverteu meia recomendação minha.**
+
+| o que o rascunho pedia | o que a obra diz | virou |
+|---|---|---|
+| **#1** velocidade do push | o mais refinado conquista, e o tempo varia com a diferença — Gojo sobre Jogo imediato, Dagon sobre Megumi demorado | **morto pela conta acima** |
+| **#2** vantagem do efeito inofensivo | canon declarado: Acerto não-letal gasta menos energia e por isso é mais forte no clash. O de Hakari troca força de Acerto por *"ativação mais rápida e força num clash de domínios"* | **pergunta binária**, sem número |
+| **#3** vantagem da barreira aberta | não foi achada fonte | **caiu** |
+| **#4** o que é "dano pesado" | regra literal: com domínios equivalentes, *"no momento em que um dos dois leva dano pesado ou tem o domínio colapsado, o acerto garantido do outro atinge imediatamente"* | **a corrida**, sobre estado publicado |
+| **#5** chance de virar buraco | o clash pode abrir buraco para fugir em vez de conquistar | **escolha de quem perde**, e não chance |
+| **#6** curva inversa da barreira | é **voto vinculante binário** — dura por dentro, mole por fora | **já estava implementado** no manual |
+
+**O número 6 é o achado mais barato da versão: ele nunca precisou ser escrito.** *O manual publica `por dentro ela não quebra` e `50 × metade do refino` de vida por fora desde sempre* — **que é exatamente o voto vinculante da obra, na forma binária que ela tem.** *O rascunho o descrevia como gradiente, e gradiente é que teria pedido número.*
+
+> **⚠ E o número 4 era o oposto do que o rascunho pensava.** *Ele o classificava como "julgamento puro, não passa no filtro multi-mestre".* **É a regra da obra, literal — e amarrada nos estados que este sistema já publica ela passa no filtro folgado:** *vida da barreira, duração e `0` de vida têm dono e são conferíveis por um segundo mestre.*
+
+### 3 · A regra, e ela é toda derivada
+
+***Decisão do Mizuki: ela mora no manual, encostada na Expansão que governa.*** *Eu tinha recomendado a peça 11; ele escolheu o manual, e a escolha custou uma linha que eu levei junto.*
+
+> **Enquanto dois domínios sobrepostos estão de pé, nenhum dos dois acerta garantido.**
+> **Quem conquista sai de três perguntas: mais refino · Acerto que não causa dano · a corrida.**
+
+**A corrida:** os dois seguem de pé, e o **primeiro que perder o domínio — barreira derrubada por fora, ou duração vencida — ou chegar a `0` de vida recebe o Acerto do outro.** *Quem perde escolhe entre ficar e receber, ou gastar a queda do próprio domínio para abrir buraco e sair da área.*
+
+**O incompleto entra e não pode vencer:** *ele não fecha barreira, então não tem barreira para conquistar nem para perder.* **O que ele faz é desligar o Acerto do completo e abrir a fuga** — e o Acerto dele, que rola, continua rolando.
+
+**E três ou mais domínios derrubam todas as barreiras.** *É o capítulo 179: as condições que cada barreira exige por dentro e por fora não fecham juntas.* **Isso tirou uma linha da lista de exceção declarada do mestre** — *"três domínios se atravessando"* estava lá como julgamento, e virou regra.
+
+> **⚠⚠ A escolha do Mizuki cobrou uma correção no próprio manual, e ela foi feita junto.** *A caixa `REFINO, EM UMA LINHA` declarava que ali o refino é lido em **três** lugares **"e nada mais"** — requisito, desconto e duração.* **O clash é o quarto.** *Sem a correção o manual passaria a se contradizer dentro da própria caixa, na página da regra nova.*
+
+### 4 · A rolagem foi revertida, e ela era a regra de v0.27
+
+**`1d10 + quantidade de aptidões + metade do nível` saiu**, e com ela as taxas de vitória que o `ESTADO-ATUAL` publicava. *A obra resolve o empate por corrida, não por rolagem, e a corrida é mais barata em todo eixo:* **zero números novos, e três estados que já tinham dono contra um dado e dois modificadores.**
+
+> **E isso ficou MAIS BARATO para o `BESTIÁRIO`.** *Enquanto a rolagem existia, a contagem de aptidões do inimigo era modificador de rolagem viva, e teria de ser preenchida para todo inimigo com domínio.* **A cascata de hoje lê refino e o tipo do Acerto, e nenhum dos dois é contagem** — a peça nova perdeu um número da lista dela.
+
+### 5 · O rascunho foi para o arquivo, e ele é o primeiro que vai sem virar peça
+
+*O §5 dele mandava: **"decidir qual modelo vale, e mandar o outro para `99-arquivo/` com o motivo escrito"**.* **Os §1 e §2 dele viraram a segunda fonte da regra publicada no minuto em que ela foi publicada** — e o README já escrevia o critério: *"rascunho que virou peça e continua vivo ao lado dela é a segunda fonte da regra"*. **A diferença é que este não virou peça: o dono dele acabou sendo o manual.**
+
+### 6 · O validador
+
+**Entrou a checagem 11 do `conferir-expansao.py`, e ela lê o `partE.js` do gerador — não o `.docx`.** *O `.docx` é saída: conferir a saída faria a checagem depender de alguém ter rodado o `make.js`.* **E ler o gerador dispensa o `python-docx`, que é o que faz cinco validadores pularem calados.**
+
+*Ela bate a contagem declarada da caixa contra o que a caixa lista, confere que toda leitura declarada tem regra na seção **e que toda regra está declarada** — nas duas direções —, reconta a cascata e falha se a numeração tiver buraco, e recusa dado, porcentagem e prazo dentro da seção do clash.* **Oito perturbações acendendo e um contra-teste coerente verde.**
+
+> **⚠ O contra-teste da primeira rodada era INCOERENTE, e o arnês mostrou isso em vez de passar.** *Eu renomeei o título da seção e deixei a tabela da cascata no arquivo* — **a regra continuava lá, e a checagem acusou com razão.** *O contra-teste que vale reverte uma leitura nos **três** donos: a regra sai da seção, o item sai da lista da caixa, e a contagem desce.* **Aí ela sai verde, porque o que a checagem mede é a relação e não a decisão.**
+
+### As fontes
+
+- [Domain Expansion — Jujutsu Kaisen Wiki](https://jujutsu-kaisen.fandom.com/wiki/Domain_Expansion)
+- [Domain Expansion JJK: Sure-Hit Effects & Barrier Rules — Aniviewer](https://aniviewer.com/domain-expansion-jjk-mechanics-explained/)
+- [Jujutsu Kaisen Shows What Happens When Three Domain Expansions Overlap — CBR](https://www.cbr.com/jujutsu-kaisen-chapter-179-spoilers-three-domain-expansions/)
+- [Jujutsu Kaisen Trolls Fans Expecting Ultimate Domain Expansion Battle — ScreenRant](https://screenrant.com/jujutsu-kaisen-chapter-179-domain-expansion/)
+- [What are anti-domain techniques in Jujutsu Kaisen? — Sportskeeda](https://sportskeeda.com/anime/what-anti-domain-techniques-jujutsu-kaisen)
+
+> **⚠ O lastro é secundário, e fica declarado como tal**, no mesmo molde do salário do ministro da v0.171: *são wikis e portais descrevendo a obra, e não painel lido em capítulo.* **As afirmações que sustentam a regra aparecem em três fontes independentes** — a corrida do empate, a anulação mútua e a troca do Acerto não-letal.
+
+### Adicionado
+
+- **A seção `Dois domínios abertos ao mesmo tempo`** na seção 7 do manual — `manual/gerador/partE.js`, manual **v7.18**.
+- **A checagem 11 do `conferir-expansao.py`**.
+
+### Alterado
+
+- **A caixa `REFINO, EM UMA LINHA`** foi de três leituras para quatro.
+- **A linha da barreira** perdeu *"três domínios se atravessando"* da lista de exceção declarada do mestre — virou regra.
+- **O `ESTADO-ATUAL`** — a seção do clash reescrita com o dono novo, e o item do `BESTIÁRIO` perdeu a contagem de aptidões.
+- **O manual foi de `49` para `50` páginas**, e o `.pdf` saiu junto do `.docx` pelo `soffice --headless`, como desde a v0.93.
+
+### Removido
+
+- **`sistema/03-mecanica/RASCUNHO-clash-de-expansoes.md`** → `sistema/99-arquivo/`, com o cabeçalho de sempre. **Sobra um rascunho em `03-mecanica/`.**
+
+### Decidido
+
+- **O clash mora no manual**, e não numa peça.
+- **O empate de refino se resolve por corrida, e não por rolagem** — a `1d10 + aptidões + metade do nível` está revertida.
+- **Acerto que não causa dano vence o empate**, como binário e sem número.
+- **Nenhum dos seis números do rascunho foi escrito.**
+
+### Onde a sessão parou
+
+**Sobra um item na fila, e é a única peça nova: o `BESTIÁRIO`.**
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`.
+
+---
+
 ## [0.172] — 27/08/2026
 
 **A pergunta em que a v0.171 parou foi respondida, e as duas metades dela fecharam.** *O Mizuki escolheu **oito entradas** para a lista de feitos e **pagamento em iene numa marca** para a conversão de mestragem — as duas recomendadas, com o trade-off medido antes.* **E indo escrever a lista, o filtro que ela precisava já estava escrito em outra peça desde a v0.26 — cento e quarenta e seis versões.**

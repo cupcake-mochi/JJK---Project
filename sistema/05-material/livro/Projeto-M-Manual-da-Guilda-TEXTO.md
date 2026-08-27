@@ -1748,9 +1748,11 @@ Mais **quatro perícias à sua escolha**, de qualquer lugar do quadro, **dois of
 
 ### Equipamento
 
-> **Você sai de casa com o `Traje` degrau 1 da instituição e ¥75.000 para montar o resto.**
+> **Você sai de casa com o `Traje` degrau 1 da instituição e ¥150.000 para montar o resto.**
 
-O Caminho te treina numa lista de armas; ele não te dá a arma. Isso você compra, e as tabelas de `Preços` estão no capítulo 14, *Equipamento*. Os ¥75.000 são meia mensalidade de um Grau 4, que é o que você é.
+O Caminho te treina numa lista de armas; ele não te dá a arma. Isso você compra, e as tabelas de `Preços` estão no capítulo 14, *Equipamento*. Os ¥150.000 são uma mensalidade de um Grau 4, que é o que você é.
+
+O dinheiro dá para mais que a arma, e é aí que duas fichas do mesmo Caminho começam diferentes: dá para sair de espada e escudo, de uniforme reforçado, ou de `Revestimento` e punho fechado. As contas de cada uma estão no capítulo 14.
 
 O uniforme não muda a sua Defesa no nível 2 — ele dá proteção 1 e desliga o `cobrir-se`, que no refino 1 também dá 1. Ele é roupa, e serve para você não andar de blusa de moletom numa missão.
 
@@ -4205,7 +4207,7 @@ Um domínio tem duas peças, e elas fazem coisas diferentes. Escreva as duas com
 > **Se o seu Acerto é uma regra sobre o ambiente**, a régua são os requisitos da `Regra Própria`: uma frase, verificável, sem número solto. O mestre aponta o momento em que ela vale, e ela vale igual para todo mundo lá dentro, inclusive para você.
 ### Abrir o Domínio
 
-**Custa a rodada inteira.** A incompleta cobra **6 × a sua maior Classe** de PE; a completa, **8 ×**.
+**Custa a rodada inteira**, e as duas cobram **6 × a sua maior Classe** de PE. O degrau de cima já se pagou no espaço a mais e nos dois gates.
 
 **O Acerto acontece no momento em que você abre**, e de novo no começo de cada turno seu. O relógio é o seu, e não o de quem está lá dentro.
 
@@ -5919,22 +5921,27 @@ Todas as armas de uma mão gastam o mesmo orçamento, e todas as de duas mãos t
 
 ### Kit inicial
 
-> **Você começa Grau 4, com o `Traje` degrau 1 da instituição e ¥75.000 para montar o resto.**
+> **Você começa Grau 4, com o `Traje` degrau 1 da instituição e ¥150.000 para montar o resto.** São uma mensalidade de um Grau 4, que é o que você é.
 
 O uniforme de graça não muda a sua Defesa: o `Traje` 1 dá proteção 1 e desliga o `cobrir-se`, que no refino 1 também dá 1. Lá pelo nível 6 o `cobrir-se` passa na frente, e aí você tira o traje.
 
-Com ¥75.000 dá para montar coisas bem diferentes, e nenhuma delas é melhor que a outra na regra:
+Com ¥150.000 dá para montar coisas bem diferentes, e nenhuma delas é melhor que a outra na regra:
 
 **Kits que cabem**
 | kit | ¥ |
 |---|---|
 | Katana + Broquel | 60.000 |
-| Espadão | 60.000 |
 | Wakizashi + Tanto, para o `Par` | 64.000 |
-| Machete + escudo Médio | 52.000 |
-| Bō + Machadinha de reserva | 36.000 |
+| Katana + escudo Médio | 84.000 |
+| Odachi | 90.000 |
+| `Traje` 2 + Katana | 138.000 |
+| `Revestimento` 1, e o soco | 150.000 |
 
-E três que não cabem, para dar a régua: Katana + escudo Médio sai por 84.000, um Odachi sozinho por 90.000, e Faca + escudo Torre por 124.000.
+E dois que não cabem, para dar a régua: `Revestimento` 1 mais uma Soqueira sai por 158.000, e `Traje` 3 mais uma Katana por 318.000.
+
+**O `Revestimento` é a escolha de quem não vai ter Destreza.** Ele dá proteção 4 e põe o seu teto de Destreza em zero: para uma ficha de Destreza 3 ele empata com não usar nada, e para uma de Destreza 0 ele vale três pontos de Defesa. Quem escolhe ele gasta o orçamento inteiro e começa no soco, que é arma para todo efeito de regra — e o salário é mensal, então a arma chega na primeira folha.
+
+**O escudo `Torre` não entra na criação, e não é por preço:** ele pede Força 5, e o seu teto na criação é 3.
 
 ---
 
@@ -6872,4 +6879,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: f20e78608be8f724094e6a380da0c5cca79d7ac4 -->
+<!-- fonte: 301a97f0b67cba42accec65a175d41ca35bf3ad2 -->

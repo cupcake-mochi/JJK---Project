@@ -646,16 +646,26 @@ else:
         print('  [x] preco nenhum inventa degrau de protecao: a busca do bloco 5 '
               'continua cobrindo tudo.')
 
-    # --- o dinheiro inicial e DERIVADO da meia mensalidade do Grau 4 --------
-    m = re.search(r'`¥([\d.]+)` — meia mensalidade', _s65)
+    # --- o dinheiro inicial e DERIVADO da mensalidade do Grau 4 -------------
+    # v0.175: era MEIA mensalidade da v0.171 a v0.174, e dobrou por pedido do
+    # Mizuki — o kit inicial virou orcamento em vez de presente. O extrator le a
+    # FRACAO escrita na linha e recalcula com ela, entao trocar "meia" por "uma"
+    # junto com o numero sai verde, e mexer so no numero acende.
+    FRACAO = {'meia': 0.5, 'uma': 1.0, 'duas': 2.0}
+    m = re.search(r'`¥([\d.]+)` — (meia|uma|duas) mensalidade', _s65)
     _ini = int(m.group(1).replace('.', '')) if m else None
     if _ini is None:
-        erro('13: nao achei o dinheiro inicial da criacao no SS6.5')
-    elif SAL and _ini != SAL.get('Grau 4', 0) // 2:
-        erro(f'13: a criacao entrega {_ini:,} e meia mensalidade de Grau 4 e '
-             f'{SAL.get("Grau 4", 0)//2:,} — o valor se declara derivado e nao e')
+        erro('13: nao achei o dinheiro inicial da criacao no SS6.5 na forma '
+             '"`¥N` — <fracao> mensalidade" — sem a fracao escrita nao ha contra '
+             'o que conferir a derivacao, e esta checagem passaria trivialmente')
     else:
-        print(f'  [x] dinheiro inicial {_ini:,} = metade da linha Grau 4 da peca 12.')
+        _esp = int(SAL.get('Grau 4', 0) * FRACAO[m.group(2)])
+        if SAL and _ini != _esp:
+            erro(f'13: a criacao entrega {_ini:,} e {m.group(2)} mensalidade de '
+                 f'Grau 4 e {_esp:,} — o valor se declara derivado e nao e')
+        else:
+            print(f'  [x] dinheiro inicial {_ini:,} = {m.group(2)} mensalidade da '
+                  f'linha Grau 4 da peca 12.')
 
     # --- os kits de referencia sao RECONTADOS da tabela ---------------------
     _nomes = sorted(PRECO, key=len, reverse=True)

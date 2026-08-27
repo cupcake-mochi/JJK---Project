@@ -124,7 +124,7 @@ const maxima = [
   P('Estender a sua técnica sobre o terreno: por alguns instantes, o lugar em volta deixa de obedecer ao mundo e passa a obedecer a você. É o topo do que um feiticeiro faz, e quase nenhum chega lá.'),
   P('Ela **não é montada com pontos** como um feitiço, e **não é dada pelo nível** como a Técnica Máxima. Ela é **comprada**, com espaços de feitiço conhecido, e só abre quando o seu nível e o seu **refino** alcançam os dois mínimos.'),
   BOX('REFINO, EM UMA LINHA', [
-    'O **refino** é o eixo de controle da sua ficha — quanto da sua energia você não desperdiça. Ele não é do Fundamento: ele mora no sistema em volta, sobe com os seus marcos e vai de 1 a 10. Aqui ele é lido em três lugares e nada mais: **o requisito**, **o desconto lá dentro** e **quanto tempo o domínio fica de pé.**',
+    'O **refino** é o eixo de controle da sua ficha — quanto da sua energia você não desperdiça. Ele não é do Fundamento: ele mora no sistema em volta, sobe com os seus marcos e vai de 1 a 10. Aqui ele é lido em quatro lugares e nada mais: **o requisito**, **o desconto lá dentro**, **quanto tempo o domínio fica de pé** e **quem conquista quando dois domínios se sobrepõem.**',
   ]),
   GAP(100),
 
@@ -162,7 +162,7 @@ const maxima = [
   GAP(100),
 
   H3('Abrir, e o que muda lá dentro'),
-  BUL('**Custa a rodada inteira.** A incompleta cobra **6 × a sua maior Classe** de PE; a completa, **8 ×**.'),
+  BUL('**Custa a rodada inteira**, e as duas cobram **6 × a sua maior Classe** de PE. O degrau de cima já se pagou no espaço a mais e nos dois gates.'),
   BUL('**O Acerto acontece no momento em que você abre**, e de novo no começo de cada turno seu. O relógio é o seu, e não o de quem está lá dentro.'),
   BUL('**Lá dentro os seus feitiços ficam mais baratos:** −⅓ do refino de PE na incompleta, **−metade do refino** na completa. **Nenhum feitiço custa menos de 1 PE.**'),
   BUL('**Você pode arrastar o domínio.** Se estiver com os pés no chão, gaste o seu deslocamento e a expansão inteira vai junto — e quem está lá dentro não percebe que se mexeu.'),
@@ -175,7 +175,7 @@ const maxima = [
 
   H3('A barreira, e o Rescaldo'),
   P('Só a completa levanta barreira. Por dentro ela **não quebra** — quem está lá dentro está lá dentro. Por fora ela tem `50 × metade do refino` de vida, e cair antes da hora é o único jeito de alguém encurtar o seu domínio.'),
-  P('*O mestre pode declarar que uma barreira cede fora dessa conta* — três domínios se atravessando, uma fraqueza que a ficção já estabeleceu, uma cena que pede. É exceção declarada, e não a régua.'),
+  P('*O mestre pode declarar que uma barreira cede fora dessa conta* — uma fraqueza que a ficção já estabeleceu, uma cena que pede. É exceção declarada, e não a régua.'),
   GAP(80),
   BOX('RESCALDO', [
     '**Quando o domínio acaba — de qualquer jeito — a sua técnica queima.** Você desfez por vontade, o tempo correu, ou estilhaçaram a barreira: dá no mesmo. Pelo resto da cena a sua técnica não responde, e você fica com o Classe 0, com o corpo e com o que não for técnica.',
@@ -202,6 +202,37 @@ const maxima = [
   GAP(100),
   P('**Repare no que a tabela mostra sobre os dois degraus.** O Megumi é o único incompleto da lista, e o Acerto dele *reforça* em vez de *atingir* — é o que dá para fazer quando o Acerto ainda rola. Os oito completos entregam coisas que não falham, e é isso que o terceiro espaço compra.'),
   P('E repare também que **Efeito quase nunca é dano**. Alcance, repertório, amplificação, uma mecânica nova, controle sobre quem o Acerto pega. O dano, quando existe, mora no Acerto.'),
+  GAP(100),
+
+  H3('Dois domínios abertos ao mesmo tempo'),
+  P('Só acontece quando as **áreas se sobrepõem**: você está dentro do domínio dele, ou ele abriu dentro do raio do seu. Abrir domínio longe de um que já está de pé não encosta nele.'),
+  P('**Enquanto os dois estiverem de pé, nenhum dos dois acerta garantido.** Os dois Acertos ficam desligados, e lá dentro sobra o que não dependia deles: feitiço, corpo, e o Efeito de cada um.'),
+  GAP(80),
+  P('**Quem conquista sai de três perguntas, nesta ordem.** A primeira que separar decide, e as de baixo nem chegam a ser feitas.'),
+  TBL(['', 'A pergunta', 'Quem leva'],
+    [
+      ['1', 'Quem tem mais **refino**?', 'o mais refinado conquista, e o domínio do outro cai na hora'],
+      ['2', 'Refino igual — o Acerto de um dos dois **não causa dano**?', 'esse conquista: um Acerto que não fere se estabelece antes'],
+      ['3', 'Iguais nas duas', '**ninguém conquista ainda**, e vale a corrida abaixo'],
+    ],
+    [7, 45, 48], { centerCols: [0], boldCols: [0] }
+  ),
+  GAP(120),
+  BUL('**A corrida.** Os dois domínios seguem de pé, os dois Acertos seguem desligados, e a luta corre normal. **O primeiro dos dois que perder o domínio — barreira derrubada por fora, ou o tempo acabou — ou chegar a 0 de vida recebe o Acerto do outro na hora.**'),
+  BUL('**Quem perde escolhe**, e as duas saídas custam o domínio: **ficar** e receber o Acerto do vencedor, ou **gastar a queda do próprio domínio para abrir um buraco na barreira** e sair da área. Quem sai não recebe o Acerto, e pagou a expansão inteira por isso.'),
+  BUL('**Nas duas saídas o Rescaldo dispara**, dos dois lados. O domínio acabou, e ele acaba de qualquer jeito.'),
+  GAP(100),
+  P('**Um domínio incompleto entra na disputa e não pode vencer.** Ele não fecha barreira, então não tem barreira para conquistar nem para perder. O que ele faz é o que a sobreposição já faz: **desliga o Acerto do completo e abre a brecha de fuga** — e o Acerto dele, que rola, continua rolando. É a resposta mais cara que existe a um domínio, e a única que também é um domínio.'),
+  GAP(80),
+  BOX('A SEGUNDA PERGUNTA É UMA TROCA, E ELA NÃO PAGA ESCREVER ACERTO INÚTIL', [
+    'Um Acerto que causa dano rende em **todo** uso do seu domínio — na abertura e no começo de cada turno seu. O desempate da pergunta 2 só rende contra **outro domínio, de refino igual ao seu**.',
+    'Quem escreve um Acerto que não fere está comprando o desempate com o que a Melhoria **Inescapável** cobraria, e não ganhando de graça. É a mesma troca que o Hakari e o Higuruma fizeram na tabela acima.',
+  ]),
+  GAP(100),
+  BOX('TRÊS OU MAIS DOMÍNIOS: CAEM TODOS', [
+    'Dois domínios se empurram. **Três ou mais não se acomodam:** as condições que cada barreira exige por dentro e por fora não fecham juntas, e **todas as barreiras caem**.',
+    'Ninguém conquista, ninguém recebe Acerto, e o Rescaldo pega todo mundo que abriu.',
+  ]),
 ];
 
 const ouro = [

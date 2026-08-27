@@ -1,3 +1,27 @@
+> # ARQUIVADO na v0.173
+>
+> **De onde saiu:** `sistema/03-mecanica/RASCUNHO-clash-de-expansoes.md`, aberto na v0.28.
+>
+> **O que o substituiu:** a seção **`Dois domínios abertos ao mesmo tempo`** da seção 7 do manual do Fundamento, na **v7.18** — `manual/gerador/partE.js`. *Decisão do Mizuki na v0.173: o clash mora encostado na Expansão que ele governa, e não numa peça.*
+>
+> **Por que morreu:** ele era levantamento engatilhado, e o §5 dele mandava *"decidir qual modelo vale, e mandar o outro para `99-arquivo/` com o motivo escrito"*. **A decisão foi tomada.** *Mantido vivo ao lado da regra publicada, o §1 e o §2 dele viravam a segunda fonte do clash* — que é a lição nº 9, e é a mesma razão pela qual o rascunho de Pactos saiu na v0.134.
+>
+> **O modelo de push gradual reprovou como mecanismo de resolução, e a reprovação é medida.** *A velocidade dele é a diferença de refino, e essa diferença é **zero em 59%** dos pareamentos capazes de clash* — concentrada no topo, porque do nível 26 em diante o especialista e o meio a meio estão os dois no teto `10`. **Nenhum limiar conserta uma velocidade que é zero: o melhor caso resolve `41%`**, e o desfecho previsto para o vão zero era o número 4 abaixo, que este mesmo documento marcava como reprovado no filtro multi-mestre.
+>
+> **O que dele sobreviveu, e onde está agora** — tudo no manual v7.18, e **nenhum dos seis números foi escrito**:
+>
+> - o **gatilho** (só quando as áreas se sobrepõem) e a **anulação mútua do acerto garantido** → a abertura da seção
+> - o **número 4**, *"dano pesado"*, que ele achava ser julgamento puro → virou **a corrida**, amarrada em estado publicado: barreira derrubada, duração vencida ou `0` de vida
+> - o **número 2**, a vantagem do Acerto inofensivo → virou **pergunta binária** na cascata, sem número
+> - o **número 5**, o buraco na barreira → virou **escolha de quem perde**, e não chance
+> - o **número 6**, a curva inversa da barreira → **já estava implementado** no manual desde sempre, como voto vinculante binário: `por dentro não quebra`, `50 × metade do refino` por fora
+> - o **número 3**, a vantagem da barreira aberta → **caiu**: não foi achada fonte na obra
+> - o **número 1**, a velocidade do push → **morto pela conta acima**
+>
+> **O levantamento externo da v0.173 confirmou os sete comportamentos deste documento contra a obra**, e é por isso que ele estava certo sobre o mundo e errado sobre o mecanismo. *As fontes e o quadro estão no CHANGELOG da v0.173.*
+>
+> ---
+
 # CLASH DE EXPANSÕES — rascunho engatilhado
 
 **Não é peça.** É o levantamento do que foi discutido na v0.28, guardado com os números que faltam já identificados, para a peça 12 começar daqui em vez de do zero.

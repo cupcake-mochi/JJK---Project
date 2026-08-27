@@ -413,10 +413,11 @@ E onde ele cai, ao lado do que já existe (% do dia do Bastião):
 | **invocar `1 ×`, três lutas** | **22%** | **18%** |
 | um feitiço do topo, `3 ×` | 22% | 18% |
 | Técnica Máxima, `5 ×`, uma vez | 38% | 29% |
-| abrir Expansão incompleta, `6 ×`, uma vez | 45% | 35% |
-| abrir Expansão completa, `8 ×`, uma vez | 60% | 47% |
+| abrir Expansão, `6 ×`, uma vez | 45% | 35% |
 
-**Invocar três vezes no dia custa o mesmo que um feitiço do topo, e menos que abrir a Expansão completa uma vez.**
+*Esta linha era duas até a v0.174, quando a completa desceu de `8 ×` para `6 ×` e as duas passaram a abrir pelo mesmo PE.* **A completa custava `60%` e `47%` naquela tabela, e o retorno de mesa foi que ela estava cara demais.**
+
+**Invocar três vezes no dia custa o mesmo que um feitiço do topo, e metade de abrir a Expansão uma vez.**
 
 ### A ação sozinha não segurava, e a conta confirma o argumento do Mizuki
 

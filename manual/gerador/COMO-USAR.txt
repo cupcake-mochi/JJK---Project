@@ -1,4 +1,4 @@
-GERADOR DO MANUAL — Fundamento v7.17
+GERADOR DO MANUAL — Fundamento v7.19
 
 Recria o .docx do zero. Precisa de Node.js.
 
@@ -31,6 +31,88 @@ ORDEM DAS SEÇÕES (v7)
   4 Restrições → 5 Fora de combate → 6 Liberação Máxima → 7 Técnica Máxima →
   8 Regras de ouro → 9 Progressão → 10 Feitiços prontos → 11 Para o mestre →
   Apêndice
+
+O QUE MUDOU NA v7.19
+
+  Abrir a Expansao COMPLETA desceu de 8x para 6x a maior Classe. Pedido do
+  Mizuki na v0.174, por retorno de mesa: "acharam muito caro o custo da
+  Expansao atualmente".
+
+  A conta concordou com a mesa. Abrir a completa comia 55% do PE do dia
+  inteiro de um Bastiao (o Caminho de menor PE) nos niveis 14 a 26, e 47% no
+  30. Hoje come 41% e 35%.
+
+  AS DUAS PASSARAM A ABRIR PELO MESMO PE, e isso e' decisao e nao descuido.
+  O pedido original era 5x para a incompleta e 6x para a completa, e a metade
+  da incompleta nao passou: o invariante do conferir-expansao.py exige que
+  abrir a Expansao custe MAIS que a Tecnica Maxima, que custa 5x e sai DE
+  GRACA no nivel 17. Com 5x elas empatam, entao 6x ja e' o piso da incompleta.
+  Decisao do Mizuki com o numero na frente: "reduz a completa pra 6, n altera
+  a da incompleta".
+
+  ⚠ E indo mexer apareceu que ESTE manual se contradizia numa linha. Ele
+  escreve que a completa "paga so a diferenca — um espaco a mais, no molde da
+  Regra Propria", e depois cobrava +2x de PE por cima. A regua invocada nao
+  preve segunda cobranca. Com 6x nos dois degraus a linha passa a ser verdade:
+  o degrau de cima se paga em ESPACO (+1, de 2 para 3) e em GATE (nivel 14 e
+  refino 5, contra 10 e 4), e nao de novo no PE.
+
+  O bloco 7 do conferir-expansao.py continua verde — ele existe para pegar
+  "desconto x duracao alcanca o custo de abrir", e o saldo da completa ficou
+  entre +11 e +17, com margem minima de 31% no nivel 22 (o limiar de aviso e
+  25%). O invariante da escada passou de `completa > incompleta` para
+  `completa >= incompleta`, com o argumento acima escrito no codigo.
+
+  O numero tinha CINCO copias, e as cinco foram mexidas: este gerador, o livro
+  (capitulo 9), o ESTADO-ATUAL, a tabela de orcamento de PE da peca 15 — onde
+  as duas linhas da Expansao viraram uma — e a constante do validador.
+
+O QUE MUDOU NA v7.18
+
+  O clash de dominios entrou, e ele nao tinha casa. A regra estava marcada
+  como "fechada" no ESTADO-ATUAL desde a v0.27 e o proprio ESTADO-ATUAL dizia
+  que "a v7.7 do manual cita a regra decidida" — nao citava. Ela nao existia
+  em peca, nem no livro, nem aqui. Decisao do Mizuki na v0.173: mora aqui,
+  encostada na Expansao que ela governa.
+
+  A secao "Dois dominios abertos ao mesmo tempo" entra na secao 7, depois da
+  tabela dos nove dominios da obra. Ela e' toda derivada — zero numero novo:
+
+  1) Gatilho: so' quando as areas se sobrepoem.
+
+  2) Enquanto os dois estao de pe, nenhum dos dois acerta garantido.
+
+  3) Quem conquista sai de tres perguntas em cascata: mais refino; empatado,
+     quem tem Acerto que nao causa dano; empatado nas duas, a corrida — o
+     primeiro que perder o dominio ou chegar a 0 de vida recebe o Acerto do
+     outro. Quem perde escolhe entre ficar e receber, ou gastar a queda do
+     proprio dominio para abrir buraco e sair.
+
+  4) Incompleto entra e nao pode vencer: ele desliga o Acerto do completo e
+     abre a fuga, e o Acerto dele continua rolando.
+
+  5) Tres ou mais dominios: caem todas as barreiras.
+
+  ⚠ A caixa REFINO, EM UMA LINHA passou de TRES leituras para QUATRO. Ela
+  declarava "aqui ele e' lido em tres lugares e nada mais", e o clash e' o
+  quarto — sem isso o manual passava a se contradizer na propria caixa.
+
+  ⚠ E a linha da barreira perdeu "tres dominios se atravessando" da lista de
+  excecao declarada do mestre, porque isso virou regra na secao nova. Julgamento
+  que vira regra sai da lista de julgamento.
+
+  O modelo de push gradual do RASCUNHO-clash-de-expansoes.md foi MEDIDO e
+  reprovado como mecanismo de resolucao: a velocidade dele e' a diferenca de
+  refino, e essa diferenca e' ZERO em 59% dos pareamentos capazes de clash —
+  concentrada no topo, porque do nivel 26 em diante especialista e meio a meio
+  estao os dois no teto 10. Nenhum limiar conserta: o melhor caso resolve 41%.
+  O que sobreviveu dele foi o que a obra descreve e que nao pede numero.
+
+  Levantamento externo: os sete comportamentos do rascunho batem com a obra.
+  A corrida do empate e' literal — "no momento em que um dos dois leva dano
+  pesado ou tem o dominio colapsado, o acerto garantido do outro atinge
+  imediatamente" —, e a vantagem do Acerto nao-letal e' declarada, com o
+  dominio do Hakari trocando forca de Acerto por forca no clash.
 
 O QUE MUDOU NA v7.17
 

@@ -2,7 +2,7 @@
 
 **O sistema se chama `Projeto - M`**, batizado na v0.94 — era a pendência mais velha que existia aqui, aberta na v0.1. Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.172** · manual do Fundamento na **v7.17** · **vinte e cinco peças de regra** e **vinte e cinco validadores passando** · o Manual da Guilda em **18 capítulos**.
+**Versão v0.175** · manual do Fundamento na **v7.19** · **vinte e cinco peças de regra** e **vinte e cinco validadores passando** · o Manual da Guilda em **18 capítulos**.
 
 ---
 
@@ -52,8 +52,8 @@ Depois disso, a ordem de leitura é a da próxima seção, e os validadores são
 │   ├── CHANGELOG.md                     o porquê de cada decisão, da v0.1 até a versão atual
 │   └── CHANGELOG-manual-v6-para-v7.md   o changelog do manual, antes de ele entrar aqui
 ├── manual/
-│   ├── Fundamento-MANUAL-v7.docx        v7.15 — o manual gerado
-│   ├── Fundamento-MANUAL-v7.pdf         v7.15 — o mesmo do .docx desde a v0.93
+│   ├── Fundamento-MANUAL-v7.docx        v7.19 — o manual gerado
+│   ├── Fundamento-MANUAL-v7.pdf         v7.19 — o mesmo do .docx desde a v0.93
 │   ├── gerador/                         Node + docx. `node make.js` recria o .docx do zero
 │   └── matematica/                      pac7.py e v7.py, os validadores do manual
 └── sistema/
@@ -69,7 +69,7 @@ Depois disso, a ordem de leitura é a da próxima seção, e os validadores são
     └── skills/                          cópia de trabalho das sete skills de apoio
 ```
 
-Um arquivo `RASCUNHO-*.md` em `03-mecanica/` é levantamento engatilhado, não peça — ele não leva número justamente por isso, e o `conferir-repositorio.py` falha se algum tomar. **Hoje são dois:** `RASCUNHO-clash-de-expansoes.md` e o `RASCUNHO-trilhas.md`, que a **v0.54** abriu e cujo assunto fechou na **v0.164**, com as quinze Trilhas. *O `RASCUNHO-bloqueio.md` saiu na v0.143, quando o `Bloquear` virou a peça 23 — e este parágrafo continuou dizendo três por vinte e uma versões, porque a checagem 9 confere contagem de arquivo e não contagem escrita em frase.* *Eram cinco até a v0.58, quando o de Invocações virou a peça 15, e quatro até a v0.59, quando o de ferramenta amaldiçoada virou a peça 16 — que é o caminho que um rascunho existe para fazer, duas versões seguidas.* **O de Pactos fez o mesmo caminho na v0.134**, e foi para o `99-arquivo/` com o cabeçalho de sempre: **rascunho que virou peça e continua vivo ao lado dela é a segunda fonte da regra.**
+Um arquivo `RASCUNHO-*.md` em `03-mecanica/` é levantamento engatilhado, não peça — ele não leva número justamente por isso, e o `conferir-repositorio.py` falha se algum tomar. **Hoje é um:** o `RASCUNHO-trilhas.md`, que a **v0.54** abriu e cujo assunto fechou na **v0.164**, com as quinze Trilhas. *O `RASCUNHO-clash-de-expansoes.md` saiu na v0.173, quando o clash foi publicado no manual v7.19 — e ele é o primeiro a ir para o `99-arquivo/` sem ter virado peça, porque o dono dele acabou sendo o manual.* *O `RASCUNHO-bloqueio.md` saiu na v0.143, quando o `Bloquear` virou a peça 23 — e este parágrafo continuou dizendo três por vinte e uma versões, porque a checagem 9 confere contagem de arquivo e não contagem escrita em frase.* *Eram cinco até a v0.58, quando o de Invocações virou a peça 15, e quatro até a v0.59, quando o de ferramenta amaldiçoada virou a peça 16 — que é o caminho que um rascunho existe para fazer, duas versões seguidas.* **O de Pactos fez o mesmo caminho na v0.134**, e foi para o `99-arquivo/` com o cabeçalho de sempre: **rascunho que virou peça e continua vivo ao lado dela é a segunda fonte da regra.**
 
 **`_backup/` não entra no repositório** — ele guarda o estado da pasta antes da reorganização, e o `.gitignore` o segura.
 

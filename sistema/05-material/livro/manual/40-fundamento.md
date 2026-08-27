@@ -1076,7 +1076,7 @@ Um domínio tem duas peças, e elas fazem coisas diferentes. Escreva as duas com
 > **Se o seu Acerto é uma regra sobre o ambiente**, a régua são os requisitos da `Regra Própria`: uma frase, verificável, sem número solto. O mestre aponta o momento em que ela vale, e ela vale igual para todo mundo lá dentro, inclusive para você.
 ### Abrir o Domínio
 
-**Custa a rodada inteira.** A incompleta cobra **6 × a sua maior Classe** de PE; a completa, **8 ×**.
+**Custa a rodada inteira**, e as duas cobram **6 × a sua maior Classe** de PE. O degrau de cima já se pagou no espaço a mais e nos dois gates.
 
 **O Acerto acontece no momento em que você abre**, e de novo no começo de cada turno seu. O relógio é o seu, e não o de quem está lá dentro.
 

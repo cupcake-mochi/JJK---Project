@@ -501,11 +501,11 @@ Todas as armas de uma mão gastam o mesmo orçamento, e todas as de duas mãos t
 
 ### Kit inicial
 
-> **Você começa Grau 4, com o `Traje` degrau 1 da instituição e ¥75.000 para montar o resto.**
+> **Você começa Grau 4, com o `Traje` degrau 1 da instituição e ¥150.000 para montar o resto.** São uma mensalidade de um Grau 4, que é o que você é.
 
 O uniforme de graça não muda a sua Defesa: o `Traje` 1 dá proteção 1 e desliga o `cobrir-se`, que no refino 1 também dá 1. Lá pelo nível 6 o `cobrir-se` passa na frente, e aí você tira o traje.
 
-Com ¥75.000 dá para montar coisas bem diferentes, e nenhuma delas é melhor que a outra na regra:
+Com ¥150.000 dá para montar coisas bem diferentes, e nenhuma delas é melhor que a outra na regra:
 
 **Kits que cabem**
 {: .tab-titulo }
@@ -513,9 +513,14 @@ Com ¥75.000 dá para montar coisas bem diferentes, e nenhuma delas é melhor qu
 | kit | ¥ |
 |---|---|
 | Katana + Broquel | 60.000 |
-| Espadão | 60.000 |
 | Wakizashi + Tanto, para o `Par` | 64.000 |
-| Machete + escudo Médio | 52.000 |
-| Bō + Machadinha de reserva | 36.000 |
+| Katana + escudo Médio | 84.000 |
+| Odachi | 90.000 |
+| `Traje` 2 + Katana | 138.000 |
+| `Revestimento` 1, e o soco | 150.000 |
 
-E três que não cabem, para dar a régua: Katana + escudo Médio sai por 84.000, um Odachi sozinho por 90.000, e Faca + escudo Torre por 124.000.
+E dois que não cabem, para dar a régua: `Revestimento` 1 mais uma Soqueira sai por 158.000, e `Traje` 3 mais uma Katana por 318.000.
+
+**O `Revestimento` é a escolha de quem não vai ter Destreza.** Ele dá proteção 4 e põe o seu teto de Destreza em zero: para uma ficha de Destreza 3 ele empata com não usar nada, e para uma de Destreza 0 ele vale três pontos de Defesa. Quem escolhe ele gasta o orçamento inteiro e começa no soco, que é arma para todo efeito de regra — e o salário é mensal, então a arma chega na primeira folha.
+
+**O escudo `Torre` não entra na criação, e não é por preço:** ele pede Força 5, e o seu teto na criação é 3.

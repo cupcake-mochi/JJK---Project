@@ -1555,24 +1555,50 @@ Isso é diferente de deixar em aberto — é decisão com condição de disparo,
 
 ### O kit da criação
 
-> **Você começa `Grau 4`, com o `Traje` degrau 1 da instituição e `¥75.000` — meia mensalidade — para montar o resto.**
+> **Você começa `Grau 4`, com o `Traje` degrau 1 da instituição e `¥150.000` — uma mensalidade — para montar o resto.**
 
-*O valor é derivado e não escolhido: é metade da linha `Grau 4` da peça 12 §6.1.* **E o uniforme de graça custa exatamente zero em número:** *o `Traje` 1 dá proteção `1` e **desliga** o `cobrir-se`, que no refino `1` também dá `1`.* **A Defesa do nível 2 não se move um ponto**, e do nível 6 em diante o `cobrir-se` passa na frente e o jogador tira o traje sem ninguém mandar.
+*O valor é derivado e não escolhido: é a linha `Grau 4` da peça 12 §6.1, inteira.* **E o uniforme de graça custa exatamente zero em número:** *o `Traje` 1 dá proteção `1` e **desliga** o `cobrir-se`, que no refino `1` também dá `1`.* **A Defesa do nível 2 não se move um ponto**, e do nível 6 em diante o `cobrir-se` passa na frente e o jogador tira o traje sem ninguém mandar.
 
-**Com `¥75.000` a escolha é real, e nenhuma rota fica trancada.** *Cinco kits de referência cabem e três não:*
+**Com `¥150.000` a escolha é real, e nenhuma rota fica trancada.** *Seis kits de referência cabem e dois não:*
 
 | kit | `¥` | cabe? |
 |---|---|---|
-| Katana + Broquel | `60.000` | sim |
-| Espadão | `60.000` | sim |
 | Wakizashi + Tanto, para o `Par` | `64.000` | sim |
-| Machete + escudo Médio | `52.000` | sim |
-| Bō + Machadinha de reserva | `36.000` | sim |
-| Katana + escudo Médio | `84.000` | não |
-| Odachi | `90.000` | não |
-| Faca + escudo Torre | `124.000` | não |
+| Katana + Broquel | `60.000` | sim |
+| Katana + escudo Médio | `84.000` | sim |
+| Odachi | `90.000` | sim |
+| `Traje 2` + Katana | `138.000` | sim |
+| `Revestimento 1`, e o soco | `150.000` | sim |
+| `Revestimento 1` + Soqueira | `158.000` | não |
+| `Traje 3` + Katana | `318.000` | não |
 
-> **O que a `Técnica Marcial` recebe continua sendo dela, e não vira exceção.** *A peça 20 entrega três armas de grau 4 na criação porque elas **são** o Selo — a máquina da rota, e não um presente.* **Quem não é daquela rota compra com os `¥75.000`, e é por isso que esta seção existe:** *até a v0.170 a peça 20 era a única das nove rotas que saía de casa com alguma coisa na mão.*
+*A tabela é de referência e não de catálogo: ela mostra onde o orçamento morde, e não restringe o que se monta.*
+
+> **O que a `Técnica Marcial` recebe continua sendo dela, e não vira exceção.** *A peça 20 entrega três armas de grau 4 na criação porque elas **são** o Selo — a máquina da rota, e não um presente.* **Quem não é daquela rota compra com o orçamento, e é por isso que esta seção existe:** *até a v0.170 a peça 20 era a única das nove rotas que saía de casa com alguma coisa na mão.*
+
+### O orçamento dobrou na v0.175, e o que ele compra é variação de build
+
+*Era meia mensalidade da v0.171 à v0.174.* ***Pedido do Mizuki:*** **"eu estava querendo fazer com que todo jogador tivesse uma quantidade de dinheiro inicial, e com esse dinheiro o jogador decidiria os itens iniciais, que aí daria variações de build"** — *"vai ter gente que não vai querer um traje, mas sim um revestimento; vai ter gente que vai querer começar com escudo"*.
+
+**A busca exaustiva das montagens legais na criação diz que a variação existe, e que o corte dela é a Destreza.** *Cada uma foi medida contra a Defesa do nível 2, com os `9` pontos e o teto de criação `3` da peça 2:*
+
+| montagem | Destreza `0` | `1` | `2` | `3` |
+|---|---|---|---|---|
+| nada, só o `cobrir-se` | `11` | `12` | `13` | `14` |
+| `Traje` 1 | `11` | `12` | `13` | `14` |
+| `Traje` 2 | `12` | `13` | `14` | `15` |
+| `Revestimento` 1 | `14` | `14` | `14` | `14` |
+| `Revestimento` 1 + escudo Médio | `16` | `16` | `16` | `16` |
+
+**O `Revestimento` põe teto de Destreza `0`, então ele é exatamente a ficha que não vai ter Destreza** — quem põe os nove pontos em Força, Constituição e Essência. *Contra ela ele vale `+3`; contra quem maximiza Destreza ele empata, e custa `¥150.000` para empatar.* **A variação que o pedido queria já estava no catálogo, e ela se paga sozinha: nenhuma regra nova foi escrita para produzi-la.**
+
+> **⚠ E a busca achou que o `Traje` 1 é dominado por não vestir nada, em toda Destreza.** *As duas linhas são idênticas, e o motivo está duas seções acima: o degrau 1 dá proteção `1` e desliga um `cobrir-se` que no refino `1` também dá `1`.* **É por isso que ele continua sendo o uniforme que vem com a matrícula, e não uma linha de compra:** *cobrar `¥30.000` por ele criaria a única entrada do catálogo que existe para nunca ser escolhida.* **O primeiro degrau de uniforme que faz alguma coisa é o `Traje` 2.**
+
+**O teto do orçamento é o `Traje` 3, e é ele que fecha a faixa.** *Ele cabe na criação por requisito — `Força 3` é o teto da criação —, custa `¥270.000` e levaria a Defesa do nível 2 a `18`, contra um piso de `14`.* **Uma mensalidade para bem antes dele:** *o mais caro que entra é o `Revestimento` 1, e ele topa em `16`.*
+
+> ***Decisão do Mizuki com o número na frente, e o custo dela fica escrito:*** **o `Revestimento` 1 consome o orçamento inteiro, e quem o escolhe começa de punho.** *O `soco` do §5.0.6 é grátis e é arma para todo efeito de regra, então a ficha é jogável no dia um.* **E o salário é mensal, pela peça 12 §6.1:** *quem gastou tudo na blindagem compra a arma na primeira folha, e não espera missão nenhuma para isso.*
+
+> **⚠ O escudo `Torre` não entra na criação, e o dinheiro não muda isso.** *Ele exige `Força 5` contra o teto de criação `3`, e custa `2` pontos de marco* — **dois gates independentes, nenhum dos dois de preço.** *`Broquel` e `Médio` são os que cabem, e os dois são baratos.*
 
 ## 7. A dívida que esta peça deve à peça 11
 

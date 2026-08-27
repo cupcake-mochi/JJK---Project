@@ -111,12 +111,29 @@ def versao_do_recorte():
     return m.group(1) if m else ''
 
 
+def versao_do_manual():
+    """A versao do manual do Fundamento. O dono e' a 1a linha do COMO-USAR.txt
+    do gerador — a mesma que a checagem 4 usa. Existe desde a v0.175 porque o
+    `subir.sh` so' sabia ajustar a versao do RECORTE no README da entrega, e a do
+    MANUAL ficava para tras calada ate a 7.3 derrubar o commit."""
+    try:
+        primeira = open(os.path.join(RAIZ, 'manual', 'gerador', 'COMO-USAR.txt'),
+                        encoding='utf-8').readline()
+    except OSError:
+        return ''
+    m = re.search(r'GERADOR DO MANUAL — Fundamento v(\d+\.\d+)', primeira)
+    return m.group(1) if m else ''
+
+
 if '--recorte' in sys.argv:
     for _o, _d in recorte_da_entrega():
         print(f'{_o}\t{_d}')
     raise SystemExit(0)
 if '--versao-recorte' in sys.argv:
     print(versao_do_recorte())
+    raise SystemExit(0)
+if '--versao-manual' in sys.argv:
+    print(versao_do_manual())
     raise SystemExit(0)
 
 

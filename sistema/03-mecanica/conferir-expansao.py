@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """Confere a Expansao de Dominio: gates, ordem, preco em espacos e fragilidade.
 
-A Expansao NAO e aptidao e nao mora na peca 11. Ela mora no manual (v7.7), no
+A Expansao NAO e aptidao e nao mora na peca 11. Ela mora no manual (v7.18), no
 molde de uma Passiva, comprada trocando espacos de feitico conhecido, com gate
 duplo de nivel e refino, em dois degraus. Este validador existe porque os dois
 gates caem em cima da curva de refino do arquitetura.md 4.3 — a mesma que o
@@ -31,11 +31,18 @@ CONTRATO DE INVARIANTES:
      existir; o custo por rodada cabe no orcamento de lutas do dia sem evaporar; a
      Petala nunca anula o Acerto inteiro; e o raio do Dominio Simples nunca passa
      de um movimento, senao a defesa vira cerca.
+  8. O CLASH NAO TEM NUMERO, E A CAIXA DO REFINO CONCORDA COM A SECAO. Ele entrou
+     na v0.173 e e' todo derivado: cascata de refino, tipo de Acerto, e corrida
+     sobre estado que ja tinha dono. A caixa REFINO, EM UMA LINHA declara em
+     quantos lugares o refino e' lido ali, e essa contagem e' a segunda copia da
+     secao — o bloco 11 le do GERADOR, que e' o dono, e nao do .docx, que e'
+     gerado a partir dele.
 
 Roda sem argumento. Sai com codigo 1 se algo quebrar.
 """
 import os
 import math
+import re
 import sys
 
 ERROS = []
@@ -85,7 +92,44 @@ PRECO = {'incompleta': 2, 'completa': 3}
 # custo de ABRIR, em multiplos da maior Classe. A regua e a Tecnica Maxima, que
 # custa 5 x maior Classe: a Expansao tem que passar dela, porque ela custou espaco
 # de lista e dois gates para existir, e a Maxima e dada de graca no nivel 17.
-PE_ABRIR = {'incompleta': 6, 'completa': 8}
+#
+# v0.174: a completa desceu de 8 para 6, por retorno de mesa — "acharam muito caro".
+# As duas passaram a abrir pelo MESMO PE, e isso e' decisao e nao descuido: o manual
+# ja escrevia que a completa "paga so a diferenca — um espaco a mais, no molde da
+# Regra Propria", e cobrar +2x de PE por cima era uma segunda cobranca que a regua
+# invocada nao previa. O degrau de cima continua se pagando em ESPACO (+1) e em
+# GATE (nivel 14 e refino 5, contra 10 e 4).
+#
+# E o valor deixou de morar aqui na mesma versao: ele e' LIDO do gerador do manual,
+# que e' o dono. Ele era a quinta copia do mesmo numero, e a lição no 9 nao abre
+# excecao para constante de validador.
+_GER_E = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                      '..', '..', 'manual', 'gerador', 'partE.js')
+try:
+    _TXT_E = open(_GER_E, encoding='utf-8').read()
+except OSError:
+    _TXT_E = ''
+
+PE_ABRIR = None
+if _TXT_E:
+    # duas formas legitimas da linha: os dois degraus com o mesmo numero, ou cada
+    # um com o seu. O extrator le as duas, e a guarda embaixo recusa nao achar.
+    _m = re.search(r'as duas cobram \*\*(\d+) × a sua maior Classe\*\* de PE', _TXT_E)
+    if _m:
+        PE_ABRIR = {'incompleta': int(_m.group(1)), 'completa': int(_m.group(1))}
+    else:
+        _m = re.search(r'A incompleta cobra \*\*(\d+) ×[^*]*\*\* de PE; a completa, '
+                       r'\*\*(\d+) ×\*\*', _TXT_E)
+        if _m:
+            PE_ABRIR = {'incompleta': int(_m.group(1)), 'completa': int(_m.group(2))}
+
+if PE_ABRIR is None:
+    erro('nao consegui ler o custo de abrir a Expansao no gerador do manual — sem '
+         'ele o bloco 7 mediria contra um numero inventado aqui dentro, que e '
+         'exatamente o que a v0.174 tirou. Formas aceitas: "as duas cobram N x a '
+         'sua maior Classe de PE" ou "A incompleta cobra N x ...; a completa, M x"')
+    PE_ABRIR = {'incompleta': 6, 'completa': 6}   # so para o resto do arquivo rodar
+
 PE_TECNICA_MAXIMA = 5
 
 # desconto de PE nos feiticos lancados LA DENTRO, como divisor do refino.
@@ -427,17 +471,26 @@ for degrau in DEGRAUS:
                   'desconto — o custo esta perto de evaporar')
     print()
 
-if PE_ABRIR['completa'] <= PE_ABRIR['incompleta']:
-    erro('a completa nao custa mais que a incompleta para abrir — o degrau de cima '
-         'ficou mais barato que o de baixo')
+if PE_ABRIR['completa'] < PE_ABRIR['incompleta']:
+    erro(f'a completa abre por {PE_ABRIR["completa"]} x Classe e a incompleta por '
+         f'{PE_ABRIR["incompleta"]} x — o degrau de CIMA ficou mais barato que o de '
+         'baixo, e aí a incompleta deixa de ter para que existir')
+elif PE_ABRIR['completa'] == PE_ABRIR['incompleta']:
+    print(f'  As duas abrem pelo mesmo PE ({PE_ABRIR["completa"]}x), e isso e '
+          'decisao da v0.174 e nao descuido.')
+    print('  O degrau de cima se paga em ESPACO (+1, de 2 para 3) e em GATE (nivel')
+    print('  14 e refino 5, contra 10 e 4). O manual ja escrevia que a completa')
+    print('  "paga so a diferenca — um espaco a mais, no molde da Regra Propria";')
+    print('  cobrar PE por cima era a segunda cobranca pelo mesmo degrau.')
 if PE_ABRIR['incompleta'] <= PE_TECNICA_MAXIMA:
     erro(f'abrir a incompleta custa {PE_ABRIR["incompleta"]} x Classe e a Tecnica '
          f'Maxima custa {PE_TECNICA_MAXIMA} x — a Expansao ficou mais barata que o '
          'golpe que o nivel da de graca, e ela cobrou espaco de lista para existir')
 else:
+    _lig = '<' if PE_ABRIR['completa'] > PE_ABRIR['incompleta'] else '='
     print(f'  A escada de custo fecha: feitico do topo 3x < Tecnica Maxima '
           f'{PE_TECNICA_MAXIMA}x < incompleta {PE_ABRIR["incompleta"]}x '
-          f'< completa {PE_ABRIR["completa"]}x.')
+          f'{_lig} completa {PE_ABRIR["completa"]}x.')
 
 
 # --------------------------------------------------------------------------
@@ -593,6 +646,116 @@ else:
     print('\n  O custo por rodada nao decresce com a Classe: 0 · 1 · 1 · 1,5.')
     print('  A Cesta Oca e a unica de graca em PE, e e a unica que cobra o TURNO')
     print('  inteiro — cobrar as duas seria cobrar duas vezes pela mesma escolha.')
+
+
+# --------------------------------------------------------------------------
+bloco('11. O CLASH — a caixa do refino bate com a secao, e nada ali tem numero')
+
+# v0.173. O dono e' o GERADOR e nao o .docx: o .docx e' saida, e conferir a saida
+# faria esta checagem depender de alguem ter rodado o make.js. Ler o gerador tambem
+# dispensa o python-docx, que e' o que faz cinco validadores pularem calados.
+_GER = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                    '..', '..', 'manual', 'gerador', 'partE.js')
+try:
+    _PE = open(_GER, encoding='utf-8').read()
+except OSError:
+    _PE = ''
+    erro('11: nao consegui abrir manual/gerador/partE.js — a secao da Expansao e a '
+         'caixa do refino nao foram conferidas, e este bloco sairia verde calado')
+
+PALAVRA_N = {'um': 1, 'dois': 2, 'tres': 3, 'três': 3, 'quatro': 4, 'cinco': 5,
+             'seis': 6, 'sete': 7}
+
+if _PE:
+    # --- a caixa REFINO, EM UMA LINHA: o numero escrito contra o que ela lista --
+    _cx = re.search(r"BOX\('REFINO, EM UMA LINHA',\s*\[\s*'(.*?)',\s*\]\s*\)",
+                    _PE, re.S)
+    if not _cx:
+        erro('11: nao achei a caixa REFINO, EM UMA LINHA no partE.js — ela e a '
+             'segunda copia da contagem de leituras, e sem ela nao ha o que comparar')
+    else:
+        _txt = _cx.group(1)
+        _m = re.search(r'lido em (\w+) lugares e nada mais:\s*(.+?)\.\*\*', _txt)
+        if not _m:
+            erro('11: a caixa do refino parou de dizer "lido em <numero> lugares e '
+                 f'nada mais: <lista>" — sem essa forma a contagem nao tem par: {_txt[:80]}')
+        else:
+            _declara = PALAVRA_N.get(_m.group(1))
+            _itens = [i for i in re.split(r'\*\*,\s*\*\*|\s+e\s+\*\*', _m.group(2))
+                      if i.strip(' *')]
+            _lista = [i.strip(' *') for i in _itens]
+            print(f'  a caixa declara {_declara} leitura(s) e lista {len(_lista)}: '
+                  + ' · '.join(_lista))
+            if _declara is None:
+                erro(f'11: o numeral "{_m.group(1)}" da caixa do refino nao esta no '
+                     f'dicionario — a contagem nao pode ser comparada')
+            elif _declara != len(_lista):
+                erro(f'11: a caixa do refino diz {_declara} leitura(s) e enumera '
+                     f'{len(_lista)} — um numero, dois donos, dentro da mesma caixa')
+            elif _declara < 3:
+                erro(f'11: a caixa do refino enumera so {_declara} leitura(s) — o '
+                     f'extrator quebrou, e a comparacao passaria trivialmente')
+            else:
+                print('  [x] a caixa conta o mesmo que ela lista.')
+
+            # --- e cada leitura declarada tem regra na secao ------------------
+            ANCORA = {
+                'requisito': r'refino 4',
+                'desconto': r'refino de PE na incompleta',
+                'tempo': r'\*\*Dura metade do refino em rodadas\*\*',
+                'conquista': r'Quem tem mais \*\*refino',
+            }
+            _faltam = []
+            for _chave, _rx in ANCORA.items():
+                _citada = any(_chave in i for i in _lista)
+                _tem_regra = re.search(_rx, _PE) is not None
+                if _citada and not _tem_regra:
+                    _faltam.append(f'"{_chave}" e declarada na caixa e nao tem regra')
+                if _tem_regra and not _citada:
+                    _faltam.append(f'"{_chave}" tem regra na secao e a caixa nao a lista')
+            for _f in _faltam:
+                erro(f'11: {_f} — a caixa diz "e nada mais", entao ela mente')
+            if not _faltam:
+                print('  [x] toda leitura declarada tem regra, e toda regra esta '
+                      'declarada.')
+
+    # --- a cascata do clash: contagem e numeracao ---------------------------
+    _sec = _PE[_PE.index("H3('Dois domínios"):] if "H3('Dois domínios" in _PE else ''
+    if not _sec:
+        erro('11: nao achei a secao "Dois dominios abertos ao mesmo tempo" no '
+             'partE.js — o clash saiu do manual')
+    else:
+        _sec = _sec[:_sec.index('];')] if '];' in _sec else _sec
+        _linhas = re.findall(r"\[\'(\d)\', \'([^\']+)\', \'([^\']+)\'\]", _sec)
+        print(f'  a cascata do clash tem {len(_linhas)} pergunta(s)')
+        if len(_linhas) < 3:
+            erro(f'11: a cascata do clash rendeu {len(_linhas)} pergunta(s) e sao '
+                 f'tres — extrator que para de achar nao confere nada')
+        elif [n for n, _, _ in _linhas] != [str(i) for i in
+                                            range(1, len(_linhas) + 1)]:
+            erro(f'11: a numeracao da cascata tem buraco: '
+                 f'{[n for n, _, _ in _linhas]}')
+        else:
+            print('  [x] a cascata esta numerada sem buraco, e a ultima e a corrida.')
+
+        # --- e nada nela tem numero -----------------------------------------
+        # A decisao da v0.173 e' "zero numero novo". Um numero novo aqui teria uma
+        # de tres formas, e nenhuma delas pode aparecer.
+        FORMAS = [(r'\d+\s*d\s*\d+', 'notacao de dado'),
+                  (r'\d+\s*%', 'porcentagem'),
+                  (r'\d+\s*(?:rodadas?|PE|metros?)\b', 'custo ou prazo')]
+        _achados = []
+        for _rx, _nome in FORMAS:
+            for _m2 in re.finditer(_rx, _sec):
+                _achados.append(f'{_nome}: "{_m2.group(0)}"')
+        if _achados:
+            for _a in _achados:
+                erro(f'11: a secao do clash escreveu numero novo — {_a}. A v0.173 '
+                     f'fechou ela como toda derivada: cascata de refino, tipo de '
+                     f'Acerto e corrida sobre estado ja publicado')
+        else:
+            print('  [x] a secao do clash nao escreve dado, porcentagem nem prazo: '
+                  'ela continua sem numero proprio.')
 
 
 # --------------------------------------------------------------------------

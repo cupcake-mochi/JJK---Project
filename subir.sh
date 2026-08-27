@@ -101,13 +101,32 @@ else
         fi
     done < <(python3 conferir-repositorio.py --recorte 2>/dev/null)
 
-    # A versao do recorte no README da entrega — o unico arquivo escrito a mao la.
+    # As DUAS versoes do README da entrega — o unico arquivo escrito a mao la.
+    # A 7.3 cobra as duas: a do RECORTE e a do MANUAL. Ate a v0.175 este bloco so'
+    # ajustava a primeira, e a do manual ficava para tras calada — ela derrubava o
+    # commit na 7.3 depois de o passo 0 ja ter copiado tudo, que e' o pior momento.
     RME_ENT="$ENT/README.md"
     VER_ENT="$(python3 conferir-repositorio.py --versao-recorte 2>/dev/null)"
     if [ -f "$RME_ENT" ] && [ -n "$VER_ENT" ]; then
         if ! grep -q "\*\*Recorte da v$VER_ENT\.\*\*" "$RME_ENT"; then
             sed -i -E "s/\*\*Recorte da v[0-9]+\.[0-9]+\.\*\*/**Recorte da v$VER_ENT.**/g" "$RME_ENT"
             printf '  ajustado finalizado/README.md — recorte agora diz v%s\n' "$VER_ENT"
+            copiados=$((copiados + 1))
+        fi
+    fi
+
+    VER_MAN="$(python3 conferir-repositorio.py --versao-manual 2>/dev/null)"
+    if [ -f "$RME_ENT" ] && [ -n "$VER_MAN" ]; then
+        # ⚠ So' as mencoes em **negrito**, e a distincao NAO e' cosmetica: naquele
+        # README a versao CORRENTE vem sempre em `**v7.NN**` e a HISTORICA em
+        # crases — "o rascunho transcreveu o manual na `v7.9`". Um sed no `v7.NN`
+        # cru reescreveria a historica junto e viraria a frase do avesso. A 7.3 le
+        # a mesma forma em negrito, entao as duas concordam sobre o que e' a versao.
+        ATRASADAS=$(grep -oE '\*\*v7\.[0-9]+\*\*' "$RME_ENT" | grep -cv "^\*\*v$VER_MAN\*\*$" || true)
+        if [ "${ATRASADAS:-0}" -gt 0 ]; then
+            sed -i -E "s/\*\*v7\.[0-9]+\*\*/**v$VER_MAN**/g" "$RME_ENT"
+            printf '  ajustado finalizado/README.md — %s mencao(oes) do manual agora dizem v%s\n' \
+                "$ATRASADAS" "$VER_MAN"
             copiados=$((copiados + 1))
         fi
     fi
