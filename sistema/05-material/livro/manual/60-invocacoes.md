@@ -59,6 +59,32 @@ Toda invocação é de um dos quatro tipos, e o tipo é o que decide a base da v
 
 *As colunas de nível mostram a conta com a Constituição dela em `0`. Cada ponto de Constituição soma o seu nível inteiro à vida.*
 
+> **A Trilha multiplica isso, e é aqui que as três se separam.** O `Servo` e a `Matilha` põem em campo um **corpo forte**, e o `Coro` põe o corpo cru da tabela `Tipos e vida`.
+
+> **`vida do corpo forte = 2,5 × (base do tipo + 2 × o seu nível) + a Constituição dela × o seu nível`**, arredondando para baixo
+
+**A vida que cada Trilha põe em campo**
+{: .tab-titulo }
+
+| Trilha | corpos | vida | no nível 10, Constituição `0`, `técnica` |
+|---|---|---|---|
+| `Servo` | 1 | um corpo forte | **55** num corpo só |
+| `Matilha` | 5 | um corpo forte, numa barra só | **55** repartidos, com cascata |
+| `Coro` | 1 | o corpo cru de `Tipos e vida` | **22** |
+
+**Corpo forte, com Constituição `0`**
+{: .tab-titulo }
+
+| tipo | nível 2 | nível 10 | nível 18 | nível 30 |
+|---|---|---|---|---|
+| `talismã` · `corpo amaldiçoado` | 12 | 52 | 92 | 152 |
+| `técnica` | 15 | 55 | 95 | 155 |
+| `maldição domada` | 17 | 57 | 97 | 157 |
+
+*Cada ponto de Constituição soma o seu nível, igual a uma ficha de personagem.*
+
+O `Coro` tem o corpo mais frágil das três de propósito: ele é o único que **ataca e comanda na mesma rodada**, e é o único cujo corpo cair não acaba o seu kit — você continua batendo.
+
 
 O tipo também decide o que a mesa vê antes de a invocação chegar. Um `talismã` é papel que se desdobra e traz a invocação. Um `corpo amaldiçoado` é um objeto criado. Uma invocação de `técnica` é feita da sua própria energia. Uma `maldição domada` é uma coisa que quis te matar antes de aceitar andar do seu lado.
 
@@ -79,6 +105,8 @@ O orçamento é o que você gasta comprando `Traço` e `Comando`. Ele cresce nos
 | 18 | 4 | 24 | três |
 | 26 | 6 | 32 | quatro |
 | 30 | 7 | **36** | quatro e folga |
+
+> **O `Servo` monta com o orçamento da ficha mais metade**, porque ele é um corpo só e não cinco. São `12` no nível 2, `24` no 10, `36` no 18 e `54` no 30. *Todo orçamento é múltiplo de `4`, então "mais metade" sempre fecha em número redondo.*
 
 ### Limites do orçamento
 
@@ -146,6 +174,29 @@ Uma invocação com `Vigia` transforma toda cena de vigilância: o grupo fica no
 | **8** | `Interpor` | se põe entre você e o golpe. O corpo dela recebe o que ia em você |
 | **8** | `Chamariz` | o alvo tem de vir para cima dela. Você escolhe em quem a coisa está prestando atenção |
 
+#### `Investir`
+
+O dano dela sai do seu. **O que você e todas as suas invocações causam numa rodada, somado, é o dano de uma rodada sua sozinho** — quem tem uma invocação divide em dois, quem tem cinco divide em cinco.
+
+**Dano do `Investir`**
+{: .tab-titulo }
+
+| nível | uma invocação | cada corpo da `Matilha` |
+|---|---|---|
+| 2–4 | `1d6` | `2` |
+| 5–8 | `4d6` | `1d6` |
+| 9–12 | `6d6` | `2d6` |
+| 13–16 | `8d6` | `3d6` |
+| 17–20 | `10d6` | `4d6` |
+| 21–25 | `13d6` | `5d6` |
+| 26–30 | **`15d6`** | **`6d6`** |
+
+*"Uma invocação" é o `Servo` e o `Coro`, que põem um corpo em campo.* **A coluna da `Matilha` é por corpo**, então os cinco juntos rolam cinco vezes ela. *Nos níveis `2` a `4` o corpo da `Matilha` não rola: ele causa `2`, porque `2` é menos que a média de qualquer dado.*
+
+É por isso que o catálogo não vende dado de dano: a saída da invocação já está fechada aqui, e comprar dano seria furar esse teto por outro caminho.
+
+> **A invocação entrega um pouco menos do que a conta manda, e isso é o arredondamento.** *O número de dados sempre desce, porque a soma nunca pode passar do que você faria sozinho.* **É `1,9` de dano por rodada a menos numa invocação e `1,4` num corpo da `Matilha`, na média.**
+
 ### Traço e Comando próprios
 
 Você pode escrever `Traço` e `Comando` fora dos dois catálogos, e as réguas servem de medida para isso. Escreva o efeito, ache na régua do que você está escrevendo — a de `Traço` ou a de `Comando` — o degrau em que ele cai, e leve para o mestre. A palavra final é dele, sempre em cima de uma entrada escrita, nunca do zero.
@@ -210,22 +261,25 @@ Os 18 metros são o alcance base de Projétil, a referência de distância do si
 
 > **Ela some no zero, sem estado intermediário.** Nada de `Inconsciente`, nada de Sequela, nada de Cicatriz.
 > **Área causa o dano uma vez, na barra dela**, e não uma vez por corpo.
-> **E a invocação como `Matilha` é vulnerável a área: o dano dobra.**
+> **E a invocação como `Matilha` é vulnerável a área: ela leva `×1,5` do dano**, metade a mais.
 
 
-> **Ela morre em definitivo se o excedente passar de metade da vida máxima, ou se um único golpe causar a vida máxima inteira.**
+> **A régua da morte é `5 ×` a vida que a fórmula do tipo dá**, e ela é a mesma para toda invocação — um corpo só, os cinco da `Matilha`, ou o corpo grande do `Servo`.
+> **Ela morre em definitivo se o excedente passar de metade da régua, ou se um único golpe causar a régua inteira.**
 > O talismã se desfaz, o corpo se perde, a invocação de técnica ou a maldição domada é exorcizada.
+
+A régua não é a vida daquele corpo, e isso é de propósito: se ela fosse, um corpo pequeno seria destruído de vez por um golpe comum, e um corpo grande sobreviveria ao mesmo golpe. **Morrer de vez precisa de área grande ou de Expansão de Domínio**, para qualquer invocação.
 
 ### Voltar
 
 > **Se ela morreu em definitivo, acabou.** Não se reconsegue.
-> **Se ela só chegou a zero**, sem excedente acima de metade da vida máxima e sem um golpe que causasse a vida máxima inteira, **ela volta pelo preço normal de invocar, mas com metade da vida máxima.**
+> **Se ela só chegou a zero**, sem excedente acima de metade da régua e sem um golpe que causasse a régua inteira, **ela volta pelo preço normal de invocar, mas com metade da vida máxima.**
 
 Você paga os PE de novo e paga a Ação Padrão de novo.
 
 > **A vida cheia volta no descanso longo.** Enquanto a missão não acaba, o corpo que você trouxe de volta continua com metade.
 
-> **Exemplo.** O Kaito, nível 10, tem uma invocação de `técnica` com Constituição `1`, então a vida máxima dela é `2 + (2 + 1) × 10 = 32`. Ela está com `4` de vida e leva um golpe de `18`. O excedente é `14`, que não passa de `16`, que é metade de `32`; e `18` não é `32`. Ela some, mas não morreu de vez: no turno seguinte ele gasta `3` PE e a Ação Padrão, e ela volta com `16`.
+> **Exemplo.** O Kaito, nível 10, tem uma invocação de `técnica` com Constituição `1`, então a vida máxima dela é `2 + (2 + 1) × 10 = 32` e a régua da morte é `5 × 32 = 160`. Ela está com `4` de vida e leva um golpe de `18`. O excedente é `14`, que não passa de `80`, que é metade da régua; e `18` não chega a `160`. Ela some, mas não morreu de vez: no turno seguinte ele gasta `3` PE e a Ação Padrão, e ela volta com `16`, que é metade da vida máxima dela.
 
 ### Queda do dono
 

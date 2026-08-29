@@ -49,7 +49,7 @@ Trinta checagens, na ordem do SS5 da peca:
 Roda de sistema/03-mecanica/. NAO le o .docx e NAO precisa de python-docx —
 entao nao existe caminho por onde ele saia verde tendo pulado checagem.
 """
-import os, re, sys, unicodedata
+import math, os, re, sys, unicodedata
 from itertools import combinations
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
@@ -394,8 +394,11 @@ for c in linhas_de_tabela(trecho(S37, '| Trilha | o que ela concede |',
         continue
     _o = sem_acento(c[2])
     _v = sem_acento(c[3])
+    # v0.178: o multiplicador desceu de 5 para 3 quando a Constituicao saiu de
+    # dentro dele, entao o parser le o NUMERO em vez de procurar o digito 5.
+    _mv = re.search(r'(\d+(?:[.,]\d+)?)\s*(?:x|×)', _v)
     CONCEDE[nome] = dict(orc=2 if 'mais metade' in _o else 1,
-                         vida=5 if '5' in _v.replace('x', ' ') else 1)
+                         vida=float(_mv.group(1).replace(',', '.')) if _mv else 1.0)
 if set(CONCEDE) != set(TRILHAS):
     erro('DOMINANCIA', 'SS3.7: a tabela "O que cada Trilha concede" nao lista as tres '
                        f'({sorted(CONCEDE)}) — sem ela os dois eixos que a Q6 abriu '
@@ -440,7 +443,11 @@ if not achadas and not DOMINANCIA_PENDENTE_Q6:
 # aqui e desfaria em silencio a metade da Q6 que a matriz nao mede — a de "perder
 # o corpo acaba o kit". A regra do SS3.5 le a VIDA MAXIMA para decidir morte em
 # definitivo, e com h o gatilho do Servo era 1/5 do da Matilha para a MESMA Rotina
-# entregue. O invariante e esse, e nao o numero 5.
+# entregue. Desde a v0.178 a regua da morte saiu da vida do corpo, entao a
+# assimetria deixou de ser de morte em definitivo e passou a ser de CAIR: o
+# Servo e a Trilha de um corpo so, e com h ele iria a zero levando 1/5 do dano
+# que derruba a Matilha, entregando a mesma Rotina. O invariante e esse, e nao
+# o numero 5.
 if set(CONCEDE) == set(TRILHAS):
     _vs, _vm = CONCEDE['Servo']['vida'], CONCEDE['Matilha']['vida']
     if _vs < _vm:
@@ -452,6 +459,64 @@ if set(CONCEDE) == set(TRILHAS):
     else:
         print(f'  [x] o corpo do Servo ({_vs}h) nao sai da luta por golpe menor que o '
               f'da Matilha ({_vm}h) — as duas entregam a mesma Rotina.')
+# A TABELA DE VIDA DO CORPO FORTE, recalculada do multiplicador que a coluna de
+# vida do SS3.7 declara. Sem isto, perturbar o `3 x` para `5 x` sai VERDE e as
+# duas publicacoes (a peca e o capitulo 16) continuam com os numeros velhos —
+# achado no arnes da v0.178.
+_MULT = CONCEDE.get('Servo', {}).get('vida')
+_MULT_M = CONCEDE.get('Matilha', {}).get('vida')
+if _MULT and _MULT_M and _MULT != _MULT_M:
+    erro('DOMINANCIA', f'SS3.7: o Servo leva {_MULT}x a formula e a Matilha {_MULT_M}x, e '
+                       'as duas entregam a mesma Rotina — o corpo forte e o mesmo nos dois')
+elif _MULT:
+    _BASES = {'talism': 1, 'tecnica': 2, 'maldicao': 3}
+    def _forte(base, nv):
+        # arredonda para baixo: a peca 1 SS5.4 manda o que se GANHA descer, e com
+        # multiplicador quebrado as bases impares caem em meio ponto.
+        return math.floor(_MULT * (base + 2 * nv))
+    _erra = []
+    # O capitulo 16 e' lido AQUI e nao reaproveitado: o _T60 da checagem 31 so
+    # nasce 700 linhas abaixo, entao 'if _T60 in dir()' pulava o livro em silencio
+    # e o rodape ainda dizia "nas duas publicacoes". Achado no arnes da v0.178.
+    _c16 = os.path.join(AQUI, '..', '05-material', 'livro', 'manual', '60-invocacoes.md')
+    _liv = open(_c16, encoding='utf-8').read() if os.path.isfile(_c16) else ''
+    if not _liv:
+        erro('DOMINANCIA', 'nao achei o capitulo 16 do livro — a vida do corpo forte tem '
+                           'duas publicacoes e so uma seria conferida')
+    for _txt, _onde in ((S37, 'a peca 15 SS3.7'), (_liv, 'o capitulo 16 do livro')):
+        if not _txt:
+            continue
+        # A busca e' ANCORADA na frase "corpo forte": os dois documentos tambem
+        # publicam a tabela `Tipos e vida`, com as mesmas linhas de tipo e uma
+        # coluna a mais, e sem a ancora a checagem lia a tabela errada e acusava
+        # a diferenca entre as duas como se fosse erro. Achado no arnes da v0.178.
+        _achou = 0
+        _ls = _txt.split('\n')
+        _janela = set()
+        for _k, _ln in enumerate(_ls):
+            if 'corpo forte' in sem_acento(_ln):
+                _janela.update(range(_k, min(_k + 16, len(_ls))))
+        for _k in sorted(_janela):
+            _c = [x.strip().strip('*` ') for x in _ls[_k].strip().strip('|').split('|')]
+            if len(_c) < 5:
+                continue
+            _b = next((v for k, v in _BASES.items() if k in sem_acento(_c[0])), None)
+            _ns = [x for x in _c[1:] if x.isdigit()]
+            if _b is None or len(_ns) != 4:
+                continue
+            _achou += 1
+            for _nv, _lido in zip((2, 10, 18, 30), (int(x) for x in _ns[-4:])):
+                if _forte(_b, _nv) != _lido:
+                    _erra.append(f'{_onde}, {_c[0][:26]} nv{_nv}: escreve {_lido} e '
+                                 f'{_MULT} x (base {_b} + 2 x {_nv}) da {_forte(_b, _nv)}')
+        if _achou == 0:
+            _erra.append(f'{_onde} nao publica a tabela de vida do corpo forte')
+    for _m in _erra[:4]:
+        erro('DOMINANCIA', _m)
+    if not _erra:
+        print(f'  [x] a vida do corpo forte ({_MULT}x a formula) confere nas duas '
+              f'publicacoes, nos tres tipos e nos quatro niveis.')
+
 alvos = {b for _, b in achadas & DOMINANCIA_PENDENTE_Q6}
 if len(alvos) == 1:
     print(f'  as {len(achadas & DOMINANCIA_PENDENTE_Q6)} pendentes apontam todas para o '
@@ -810,8 +875,9 @@ else:
 # 11. AREA
 # =============================================================================
 bloco('11. AREA — o multiplicador sai do documento, e o pool nao se apaga')
-m = re.search(r'\*\*×(\d+) — vulnerável\*\*', S35) or re.search(r'×(\d+) — vulnerável', S35)
-MULT_AREA = int(m.group(1)) if m else None
+m = (re.search(r'\*\*×(\d+(?:[.,]\d+)?) — vulnerável\*\*', S35)
+     or re.search(r'×(\d+(?:[.,]\d+)?) — vulnerável', S35))
+MULT_AREA = float(m.group(1).replace(',', '.')) if m else None
 if MULT_AREA is None:
     erro('AREA', 'SS3.5: nao achei o multiplicador da area')
 CORPOS_MATILHA = int(COTA['Matilha']['corpos'])
@@ -820,8 +886,18 @@ tab_area = [c for c in linhas_de_tabela(trecho(S35, '| como a área entra', '**C
 if not tab_area:
     erro('AREA', 'SS3.5: nao achei a tabela de como a area entra')
 AREA_ROTINA = 1.0 / COTA['Servo']['divisor']      # "area de rotina" = meia Rotina por alvo
-POOL_R = CORPOS_MATILHA * AREA_ROTINA             # o pool em Rotinas: 5 x meia Rotina
-print(f'  pool da Matilha = {CORPOS_MATILHA} x {AREA_ROTINA:g} = {POOL_R:g} Rotina(s); '
+# v0.178: o pool NAO e' mais 'corpos x meia Rotina'. A vida do corpo forte
+# desceu de 5x para 3x a formula quando a Constituicao saiu de dentro do
+# multiplicador, e o numero de corpos nao mudou — entao ler por corpo daria
+# 2,50 R para um pool que vale 1,50 R. O dono e' a coluna de vida do SS3.7.
+POOL_R = CONCEDE['Matilha']['vida'] * AREA_ROTINA  # o pool em Rotinas
+# v0.178: um corpo da Matilha vale POOL/corpos, e nao meia Rotina. Enquanto a
+# vida do corpo forte era 5x a formula os dois coincidiam; com 3x eles se
+# separaram, e ler 'quantos corpos caem' pela meia Rotina passou a dar 2,0
+# onde a conta certa da 3,3 — o mesmo eixo errado da licao no 8.
+CORPO_R = POOL_R / CORPOS_MATILHA
+print(f'  pool da Matilha = {POOL_R:g} Rotina(s), {CORPOS_MATILHA} corpos de '
+      f'{CORPO_R:g} R cada; '
       f'area de rotina = {AREA_ROTINA:g} Rotina por alvo')
 print(f"  {'como entra':<24}{'no pool':<10}{'% do pool':<12}{'corpos':<9}{'doc':<18}")
 for c in tab_area:
@@ -838,7 +914,8 @@ for c in tab_area:
         continue
     calc = AREA_ROTINA * mult
     pct = calc / POOL_R
-    corpos = calc / AREA_ROTINA
+    # nao caem mais corpos do que existem: acima do pool a linha satura
+    corpos = min(calc / CORPO_R, CORPOS_MATILHA)
     print(f'  {rotulo[:22]:<24}{calc:<10.2f}{pct:<12.0%}{corpos:<9.1f}'
           f'{rot_doc:g} R · {pct_doc:g}% · {corp_doc:g}')
     if abs(calc - rot_doc) > 0.01 or abs(pct * 100 - pct_doc) > 0.6 or abs(corpos - corp_doc) > 0.05:
@@ -846,7 +923,43 @@ for c in tab_area:
                      f'{corpos:.1f} corpos e o doc escreve {rot_doc:g} / {pct_doc:g}% / {corp_doc:g}')
 if MULT_AREA:
     dano_escolhido = AREA_ROTINA * MULT_AREA
-    caem = dano_escolhido / AREA_ROTINA
+    caem = dano_escolhido / CORPO_R
+    # Duas divergencias que o arnes da v0.178 achou passando em silencio: a
+    # PROSA logo abaixo da tabela repete o multiplicador e a contagem de corpos,
+    # e o capitulo 16 do livro publica a vulnerabilidade para o jogador. Nenhuma
+    # das duas era comparada com a linha marcada da tabela — licao no 9, nas duas.
+    _mp = re.search(r'\*\*O `×(\d+(?:[.,]\d+)?)` tira `(\d+(?:[.,]\d+)?)` dos cinco corpos',
+                    S35)
+    if not _mp:
+        erro('AREA', 'SS3.5: a frase que repete o multiplicador escolhido e a contagem de '
+                     'corpos sumiu — sem ela a tabela pode mudar e o argumento fica velho')
+    else:
+        _pm = float(_mp.group(1).replace(',', '.'))
+        _pc = float(_mp.group(2).replace(',', '.'))
+        _cc = AREA_ROTINA * MULT_AREA / (POOL_R / CORPOS_MATILHA)
+        if abs(_pm - MULT_AREA) > 1e-9:
+            erro('AREA', f'a tabela marca x{MULT_AREA:g} como vulneravel e a frase abaixo '
+                         f'dela diz x{_pm:g}')
+        elif abs(_pc - _cc) > 0.05:
+            erro('AREA', f'a frase diz que o x{_pm:g} tira {_pc:g} dos cinco corpos e a '
+                         f'conta da {_cc:.1f}')
+        else:
+            print(f'  [x] a frase do SS3.5 repete o x{_pm:g} e os {_pc:g} corpos, e as '
+                  'duas batem com a tabela.')
+    _c16 = os.path.join(AQUI, '..', '05-material', 'livro', 'manual', '60-invocacoes.md')
+    _lv = open(_c16, encoding='utf-8').read() if os.path.isfile(_c16) else ''
+    _ml = re.search(r'vulnerável a área: ela leva `×(\d+(?:[.,]\d+)?)` do dano', _lv)
+    if not _lv:
+        erro('AREA', 'nao achei o capitulo 16 do livro — a vulnerabilidade tem duas '
+                     'publicacoes e so uma seria conferida')
+    elif not _ml:
+        erro('AREA', 'o capitulo 16 do livro nao publica a vulnerabilidade como numero — '
+                     'sem o numero escrito, a peca pode mudar e a mesa joga a regra velha')
+    elif abs(float(_ml.group(1).replace(',', '.')) - MULT_AREA) > 1e-9:
+        erro('AREA', f'a peca 15 escolhe x{MULT_AREA:g} de vulnerabilidade e o capitulo 16 '
+                     f'do livro publica x{_ml.group(1)}')
+    else:
+        print(f'  [x] o capitulo 16 do livro publica a mesma vulnerabilidade (x{MULT_AREA:g}).')
     print(f'  com o x{MULT_AREA} escolhido, um feitico de area de rotina tira '
           f'{caem:.0f} dos {CORPOS_MATILHA} corpos.')
     if dano_escolhido >= POOL_R - 1e-9:
@@ -855,19 +968,67 @@ if MULT_AREA:
                      'certa vira jogada automatica')
 
 # =============================================================================
-# 12. MORTE — os dois gatilhos
+# 12. MORTE — a regua, e ela NAO pode encolher junto com o corpo
 # =============================================================================
-bloco('12. MORTE — os dois gatilhos, e nenhum golpe de rotina dispara')
-m = re.search(r'se o excedente passar de \*?\*?(metade|um terço|um quarto) da vida máxima, ou '
-              r'se um único golpe causar a vida máxima inteira', S35)
+# Ate a v0.178 os dois gatilhos liam "a vida maxima" — a DAQUELE corpo. Como o
+# corpo do Coro vale h e o golpe de rotina vale h, o gatilho B disparava em cheio
+# em todo golpe comum, e o Coro perdia a Trilha em definitivo no primeiro acerto.
+# Esta checagem media contra POOL_R escrito na mao, entao ela nunca via o corpo
+# pequeno: e o primo da licao no 8 — a checagem se media pelo EIXO errado e saia
+# verde exatamente na perturbacao que importa.
+bloco('12. MORTE — a regua e a mesma para qualquer corpo, e nenhum golpe de rotina dispara')
+m = re.search(r'se o excedente passar de \*?\*?(metade|um terço|um quarto) da régua, ou '
+              r'se um único golpe causar a régua inteira', S35)
 FRACAO = {'metade': 2, 'um terço': 3, 'um quarto': 4}[m.group(1)] if m else None
+mr = re.search(r'A régua da morte é `(\d+) ×` a vida que a fórmula do tipo dá', S35)
+REGUA_H = int(mr.group(1)) if mr else None
 if FRACAO is None:
     erro('MORTE', 'SS3.5: nao achei a regra dos dois gatilhos de morte em definitivo')
+elif REGUA_H is None:
+    erro('MORTE', 'SS3.5: nao achei a definicao da regua em multiplo de h — sem ela cada '
+                  'corpo volta a ser medido pela propria vida maxima, e o corpo pequeno '
+                  'volta a morrer em definitivo por golpe de rotina')
+elif not re.search(r'vale igual para qualquer corpo', S35):
+    erro('MORTE', 'SS3.5 nao declara que a regua vale igual para qualquer corpo — sem a '
+                  'frase escrita a leitura velha volta na proxima edicao sem ninguem ver, '
+                  'que e a licao no 8 aplicada ao reconhecedor')
 else:
-    GAT_A = POOL_R / FRACAO
-    GAT_B = POOL_R
-    print(f'  vida maxima do pool = {POOL_R:g} R · gatilho A (excedente) > {GAT_A:g} R · '
+    REGUA_R = REGUA_H * AREA_ROTINA
+    GAT_A = REGUA_R / FRACAO
+    GAT_B = REGUA_R
+    print(f'  regua = {REGUA_H} x h = {REGUA_R:g} R · gatilho A (excedente) > {GAT_A:g} R · '
           f'gatilho B (golpe unico) >= {GAT_B:g} R')
+    # A regua e' escala FIXA e nao a vida de ninguem — desde a v0.178 ela nem
+    # coincide mais com o pool, que desceu de 2,50 para 1,50 R. O invariante que
+    # sobra e' de JANELA, e ele sai da propria tabela publicada: a regua tem de
+    # ficar acima do maior golpe de rotina e nao passar do menor que mata.
+    _tab_pre = [c for c in linhas_de_tabela(trecho(S35, '| de onde vem o golpe',
+                                                   '### Reconseguir'))
+                if len(c) >= 4 and num(c[1]) is not None]
+    _rot = [num(c[1]) for c in _tab_pre if 'sim' not in sem_acento(c[2])
+            and 'sim' not in sem_acento(c[3])]
+    _mata = [num(c[1]) for c in _tab_pre if 'sim' in sem_acento(c[2])
+             or 'sim' in sem_acento(c[3])]
+    if not _rot or not _mata:
+        erro('MORTE', 'SS3.5: a tabela nao tem os dois lados (o que volta e o que mata), '
+                      'entao a janela da regua nao da para derivar')
+    else:
+        # A janela sai dos DOIS gatilhos, e a primeira versao desta checagem so
+        # olhava o B — ela reprovou a regua certa quando a vulnerabilidade da area
+        # caiu para x1,5 e quem passou a matar a area grande foi o A. Os limites:
+        #   piso  = 2x o maior golpe de rotina — abaixo dele o gatilho A dispara
+        #           num golpe que a tabela manda devolver
+        #   teto  = 2x o menor golpe que tem de matar — a partir dele nem o A pega
+        _piso, _teto = 2 * max(_rot), 2 * min(_mata)
+        if not (_piso <= REGUA_R < _teto):
+            erro('MORTE', f'a regua vale {REGUA_R:g} R e a janela que a tabela exige e '
+                          f'[{_piso:g} , {_teto:g}) — abaixo do piso um golpe de rotina '
+                          'mata em definitivo, e no teto o menor golpe que deveria matar '
+                          'deixa de disparar os dois gatilhos')
+        else:
+            print(f'  [x] a regua ({REGUA_R:g} R) cai na janela [{_piso:g} , {_teto:g}) '
+                  f'que a tabela exige; o pool vale {POOL_R:g} R e ela NAO precisa '
+                  'coincidir com ele.')
     tab_morte = [c for c in linhas_de_tabela(trecho(S35, '| de onde vem o golpe', '### Reconseguir'))
                  if len(c) >= 4 and num(c[1]) is not None]
     if not tab_morte:
@@ -893,6 +1054,71 @@ else:
                           'Expansao sao as duas coisas que na obra destroem shikigami de vez')
     if rotina_limpa:
         print('  Nenhum golpe de rotina dispara nenhum dos dois gatilhos.')
+
+    # 12b. A regua faz trabalho? Contra-teste embutido: se NENHUM corpo publicado
+    # mudasse de veredito entre a regua e a propria vida maxima, tirar a regua
+    # sairia verde — e a checagem seria trivialmente verdadeira.
+    if set(CONCEDE) == set(TRILHAS) and tab_morte:
+        danos = [num(c[1]) for c in tab_morte]
+        pela_regua = [(d > GAT_A + 1e-9) or (d >= GAT_B - 1e-9) for d in danos]
+        divergem = []
+        for t in sorted(CONCEDE):
+            vm = CONCEDE[t]['vida'] * AREA_ROTINA
+            pelo_corpo = [((d - vm) > vm / FRACAO + 1e-9) or (d >= vm - 1e-9) for d in danos]
+            n = sum(1 for a, b in zip(pela_regua, pelo_corpo) if a != b)
+            print(f'  {t:<9} corpo de {vm:g} R — lido pela propria vida maxima, {n} de '
+                  f'{len(danos)} linha(s) mudariam de veredito')
+            if n:
+                divergem.append((t, n))
+        if not divergem:
+            erro('MORTE', 'nenhum corpo publicado muda de veredito entre a regua e a vida '
+                          'maxima dele — a regua nao esta fazendo trabalho nenhum, e esta '
+                          'checagem passaria verde com a leitura velha de volta')
+        else:
+            print('  [x] a regua faz trabalho: '
+                  + ', '.join(f'{t} em {n} linha(s)' for t, n in divergem)
+                  + ' — sem ela esses corpos morriam em definitivo por golpe de rotina.')
+
+    # 12c. O LIVRO publica a mesma regua, e o exemplo dele fecha na aritmetica.
+    # Achado no arnes da v0.178: perturbar SO o livro para a redacao velha saia
+    # VERDE — a peca e a copia de mesa podiam divergir na regra que decide perda
+    # permanente, e e' a copia de mesa que o jogador le (licao no 9).
+    _cap60 = os.path.join(AQUI, '..', '05-material', 'livro', 'manual', '60-invocacoes.md')
+    if not os.path.isfile(_cap60):
+        erro('MORTE', 'nao achei o capitulo 60 do livro — a regua da morte tem duas '
+                      'publicacoes e so uma foi conferida')
+    else:
+        LIV = open(_cap60, encoding='utf-8').read()
+        ml = re.search(r'A régua da morte é `(\d+) ×` a vida que a fórmula do tipo dá', LIV)
+        if not ml:
+            erro('MORTE', 'o capitulo 60 do livro nao publica a definicao da regua — o '
+                          'jogador fica lendo a leitura velha enquanto a peca mudou')
+        elif int(ml.group(1)) != REGUA_H:
+            erro('MORTE', f'a regua e {REGUA_H}x na peca 15 e {ml.group(1)}x no capitulo 60 '
+                          'do livro — um numero, um dono')
+        if not re.search(r'passar de metade da régua, ou se um único golpe causar a régua '
+                         r'inteira', LIV):
+            erro('MORTE', 'o capitulo 60 do livro nao escreve os dois gatilhos contra a '
+                          'REGUA — se ele ainda diz "vida maxima", a mesa joga a regra velha')
+        me = re.search(r'a régua da morte é `(\d+) × (\d+) = (\d+)`', LIV)
+        mh = re.search(r'não passa de `(\d+)`, que é metade da régua', LIV)
+        mi = re.search(r'não chega a `(\d+)`', LIV)
+        if not (me and mh and mi):
+            erro('MORTE', 'o exemplo do capitulo 60 nao traz mais as tres contas da regua '
+                          '(o produto, a metade e o golpe) — sem elas ele envelhece calado')
+        else:
+            _mult, _vida, _reg = (int(x) for x in me.groups())
+            _met, _int = int(mh.group(1)), int(mi.group(1))
+            contas = [(_mult == REGUA_H, f'o exemplo multiplica por {_mult} e a regua e {REGUA_H}x'),
+                      (_reg == _mult * _vida, f'{_mult} x {_vida} nao da {_reg}'),
+                      (abs(_met - _reg / FRACAO) < 1e-9, f'{_met} nao e a metade de {_reg}'),
+                      (_int == _reg, f'o exemplo compara o golpe contra {_int} e a regua e {_reg}')]
+            for ok, msg in contas:
+                if not ok:
+                    erro('MORTE', f'o exemplo do capitulo 60 nao fecha: {msg}')
+            if all(ok for ok, _ in contas):
+                print(f'  [x] o capitulo 60 publica a mesma regua ({REGUA_H}x) e o exemplo '
+                      f'fecha: {_mult} x {_vida} = {_reg}, metade {_met}.')
 
 # =============================================================================
 # 13. PRECO — contra o bolso do PISO
@@ -1569,6 +1795,155 @@ else:
     else:
         print('  o capitulo 60 publica as quatro linhas, e o jogador le a mesma regra.')
 
+# =============================================================================
+# 32. INVESTIR — o dano do ataque, recomputado dos quatro donos
+# =============================================================================
+# A cota estava decidida desde a v0.51 e o NUMERO nunca tinha sido escrito: a
+# peca dizia "entrega a cota da Rotina" e o capitulo 16 do livro dizia so "o
+# ataque", entao `a minha invocacao ataca` nao resolvia na mesa. Nada aqui e'
+# valor: a Classe sai da peca 18, a Rotina da peca 6 SS3, a cota da peca 6 SS4 e
+# o arredondamento da peca 1 SS5.4. A media do dado e' DERIVADA da propria
+# ancora publicada, para nao virar 4.5 escrito na mao.
+bloco('32. INVESTIR — o dano da invocacao, derivado e conferido nas duas publicacoes')
+_P18 = ler('18-progressao.md')
+_CLASSE = {}
+for _ln in _P18.split('\n'):
+    _c = [x.strip().strip('*` ') for x in _ln.strip().strip('|').split('|')]
+    if len(_c) >= 6 and _c[0].isdigit() and _c[5].isdigit():
+        _CLASSE[int(_c[0])] = int(_c[5])
+_mf = re.search(r'a Rotina é `?floor\((\d+[,.]\d+) × Classe\)`?', P6)
+_FATOR = float(_mf.group(1).replace(',', '.')) if _mf else None
+if len(_CLASSE) < 30 or _FATOR is None:
+    erro('INVESTIR', f'setup: li {len(_CLASSE)} niveis de Classe na peca 18 e fator '
+                     f'{_FATOR} na peca 6 SS3 — sem os dois a tabela nao reconstroi')
+elif not ROTINA_NV:
+    erro('INVESTIR', 'peca 6 SS3: sem a Rotina publicada nao ha ancora para derivar o dado')
+else:
+    _nv_anc = max(ROTINA_NV)
+    _dados_anc = math.floor(_FATOR * _CLASSE[_nv_anc])
+    _MEDIA = ROTINA_NV[_nv_anc] / _dados_anc
+    print(f'  media do dado derivada da ancora nv{_nv_anc}: {ROTINA_NV[_nv_anc]} / '
+          f'{_dados_anc} dados = {_MEDIA:g}')
+
+    def _rot(nv):
+        return math.floor(math.floor(_FATOR * _CLASSE[nv]) * _MEDIA)
+
+    _erra = [(nv, _rot(nv), v) for nv, v in sorted(ROTINA_NV.items()) if _rot(nv) != v]
+    if _erra:
+        erro('INVESTIR', 'a reconstrucao da Rotina nao bate com a peca 6 SS3 em: '
+             + '; '.join(f'nv{n} calculei {c} e ela publica {p}' for n, c, p in _erra))
+    else:
+        print(f'  [x] a reconstrucao bate nos {len(ROTINA_NV)} pontos que a peca 6 SS3 '
+              'publica — a tabela abaixo nao tem parametro livre.')
+        _um = COTA['Servo']['divisor']
+        _mat = COTA['Matilha']['divisor']
+        _esperado = {}
+        for nv in range(2, 31):
+            _esperado[nv] = (_rot(nv) // _um, _rot(nv) // _mat)
+
+        # v0.178: as duas tabelas passaram a publicar DADO alem da cota. O que
+        # esta checagem prova e' que o dado nunca entrega mais que a cota — se
+        # entregasse, a soma furaria o teto de uma Rotina da peca 6 SS4, e foi
+        # exatamente isso que o arredondamento para o mais perto fez em 3 das 7
+        # faixas quando o d6 foi medido.
+        def _dado(cel):
+            """'`4d6`' -> (4,6) ; qualquer outra coisa -> None."""
+            m = re.match(r'^(\d+)d(\d+)$', cel.strip().strip('*` '))
+            return (int(m.group(1)), int(m.group(2))) if m else None
+
+        def _cels(ln):
+            return [x.strip().strip('*` ') for x in ln.strip().strip('|').split('|')]
+
+        # A coluna e' achada pelo CABECALHO e nao pela posicao: as duas tabelas
+        # tem formatos diferentes (a peca publica cota E dado, o livro so o dado),
+        # e contar coluna quebraria na primeira que ganhasse uma.
+        def _confere(txt, onde):
+            _ruins, _lidas = [], 0
+            _ls = txt.split('\n')
+            for _i, _ln in enumerate(_ls):
+                if not re.match(r'^\|\s*:?-{2,}', _ln.strip()) or _i == 0:
+                    continue
+                _cab = _cels(_ls[_i - 1])
+                # A peca publica cota E dado; o livro publica so o dado. Achar a
+                # coluna por 'invoca' sozinho pegava a coluna de COTA na peca, e
+                # a checagem passava lendo o numero que ela ja sabia — verde pelo
+                # motivo errado. Achado no arnes da v0.178, perturbando 6d6 -> 7d6.
+                def _col(chave):
+                    _c = [k for k, c in enumerate(_cab)
+                          if chave in sem_acento(c) and 'dado' in sem_acento(c)]
+                    if _c:
+                        return _c[-1]
+                    _c = [k for k, c in enumerate(_cab)
+                          if chave in sem_acento(c) and 'cota' not in sem_acento(c)]
+                    return _c[-1] if _c else None
+                _iu, _im = _col('invoca'), _col('matilha')
+                if _iu is None or _im is None:
+                    continue
+                for _r in _ls[_i + 1:]:
+                    if not _r.strip().startswith('|'):
+                        break
+                    _c = _cels(_r)
+                    _mb = re.match(r'^(\d+)[–-](\d+)$', _c[0]) if _c else None
+                    if not _mb or max(_iu, _im) >= len(_c):
+                        continue
+                    _a = int(_mb.group(1))
+                    if _a not in _esperado:
+                        continue
+                    _lidas += 1
+                    for _idx, _alvo, _nome in ((_iu, _esperado[_a][0], 'uma invocação'),
+                                               (_im, _esperado[_a][1], 'corpo da Matilha')):
+                        _d = _dado(_c[_idx])
+                        if _d is None:
+                            _fix = _c[_idx].strip('*` ')
+                            if not _fix.isdigit():
+                                _ruins.append(f'nv{_a}: {onde}, {_nome}: nao entendi '
+                                              f'"{_c[_idx]}" como dado nem como numero')
+                            elif int(_fix) != _alvo:
+                                _ruins.append(f'nv{_a}: {onde}, {_nome} fixo em {_fix} e a '
+                                              f'cota e {_alvo}')
+                            continue
+                        _n, _l = _d
+                        _med = _n * (1 + _l) / 2
+                        if _med > _alvo + 1e-9:
+                            _ruins.append(f'nv{_a}: {onde}, {_nome} rola {_n}d{_l} (media '
+                                          f'{_med:g}) e a cota e {_alvo} — dado acima da '
+                                          'cota fura o teto de uma Rotina da peca 6 SS4')
+                        elif _med + (1 + _l) / 2 <= _alvo + 1e-9:
+                            _ruins.append(f'nv{_a}: {onde}, {_nome} rola {_n}d{_l} (media '
+                                          f'{_med:g}) e a cota e {_alvo} — cabe mais um '
+                                          'dado, e arredondar para baixo nao explica a folga')
+            return _lidas, _ruins
+
+        for _txt, _onde in ((S37, 'a peca 15 SS3.7'), (_T60, 'o capitulo 16 do livro')):
+            _n, _r = _confere(_txt, _onde)
+            if _n == 0:
+                erro('INVESTIR', f'{_onde} nao publica a tabela de dano do `Investir` — sem '
+                                 'ela o jogador acerta o ataque e nao tem o que rolar')
+            elif _r:
+                for _m in _r[:4]:
+                    erro('INVESTIR', _m)
+            else:
+                print(f'  [x] {_onde}: {_n} faixa(s), todo dado com media dentro da cota '
+                      'e sem folga para mais um.')
+
+        _s_um = _esperado[30][0] * _um
+        _s_mat = _esperado[30][1] * _mat
+        _teto = _rot(30)
+        if _s_um > _teto or _s_mat > _teto:
+            erro('INVESTIR', f'no nv30 a soma passa do teto de uma Rotina ({_teto}): '
+                             f'uma invocacao {_s_um}, Matilha {_s_mat} — a peca 6 SS4 diz '
+                             'que esse teto nao tem conserto por preco')
+        else:
+            print(f'  [x] no nv30 a soma fica no teto: uma invocacao {_s_um}, Matilha '
+                  f'{_s_mat}, de uma Rotina de {_teto}.')
+        _pior = min(_esperado[nv][1] * _mat / _rot(nv) for nv in range(2, 31))
+        if not re.search(r'aceitar e declarar', sem_acento(S37)):
+            erro('INVESTIR', f'a Matilha entrega {_pior:.0%} da Rotina no pior nivel e a '
+                             'peca 15 SS3.7 nao declara isso — perda de arredondamento sem '
+                             'decisao escrita vira defeito silencioso na proxima leitura')
+        else:
+            print(f'  [x] o pior caso da Matilha e {_pior:.0%} da Rotina, e a peca declara.')
+
 for a in AVISOS:
     print(f'  aviso: {a}')
 if AVISOS:
@@ -1580,6 +1955,6 @@ if ERROS:
     print('=' * 88)
     sys.exit(1)
 print('>>> TUDO OK — o teto somado e a cota saem da peca 6, o orcamento sai dos marcos')
-print('    da peca 2, a amarra sai da peca 3, a vida sai do molde da peca 1, e as 31')
+print('    da peca 2, a amarra sai da peca 3, a vida sai do molde da peca 1, e as 32')
 print('    checagens do SS5 fecham sem nenhum valor escrito dentro deste arquivo.')
 print('=' * 88)

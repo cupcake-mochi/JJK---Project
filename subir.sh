@@ -143,7 +143,12 @@ lembrete_entrega() {
     [ "${copiados:-0}" -gt 0 ] || return 0
     echo
     amarelo "A entrega mudou (${copiados} arquivo(s)) e ela commita A MAO — nao tem script:"
-    echo "  cd finalizado && git add -A && git commit -m \"recorte da v${VER_ENT:-}\" && git push && cd .."
+    # O `;` antes do `cd ..` e' de proposito, e o README explica: se o commit
+    # reclamar de "nothing to commit", o `&& cd ..` nao roda e voce fica dentro de
+    # finalizado/ sem perceber — e ai o ./subir.sh seguinte da "arquivo inexistente",
+    # porque a entrega nao tem script proprio. Este lembrete imprimia `&&` ate a
+    # v0.178, contra o proprio README, que carrega o paragrafo do motivo.
+    echo "  cd finalizado && git add -A && git commit -m \"recorte da v${VER_ENT:-}\" && git push; cd .."
 }
 trap lembrete_entrega EXIT
 

@@ -8,6 +8,120 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.178] — 29/08/2026
+
+**A invocação parou de morrer para sempre com um golpe comum, e o livro passou a publicar os três números sem os quais ela não jogava.** ***Achado do Mizuki:*** *"a vida das invocações, n tá muito baixo? uma invocação com 0 de CON no nv10 fica 32 de vida, isso é NADA."*
+
+### 1 · A medida deu razão a ele num lugar mais estreito e mais grave
+
+**A razão corpo/personagem não era o problema:** com a mesma Constituição dos dois lados o corpo valia `52%` de um Emanador, reto do nível 2 ao 30, e a fórmula caía em cima do alvo de desenho dela — `38` de vida contra uma meia Rotina de `38,0` no nível 18.
+
+**O problema era um só, e era do `Coro`.** *Das três Trilhas do Evocador, `Servo` e `Matilha` levam o corpo forte e só o `Coro` fica com a fórmula crua.* **A régua de morte se media contra a vida máxima daquele corpo, então ela encolhia junto com ele:**
+
+| nível | corpo do `Coro`, Con `0` | golpe de rotina | morria de vez? |
+|---|---|---|---|
+| 2 | 6 | 6,5 | **sim** |
+| 10 | 22 | 22,5 | **sim** |
+| 18 | 38 | 38,0 | **sim** |
+
+**Um Evocador de `Coro` com Constituição `0` perdia a Trilha no primeiro acerto de inimigo comum, e não recuperava nunca** — *"se ela morreu em definitivo, acabou; não se reconsegue"*. **A peça publicava, com todas as letras, que *"nenhum golpe de rotina mata em definitivo"* — verdade para `2,50` R e falsa para `0,50` R.**
+
+> **É o achado da v0.63 outra vez, na Trilha que ficou de fora dele.** *Lá o `Servo` subiu de `h` para `5h` porque "pela regra de morte ele sai da luta por um golpe"; o `Coro` ficou em `h` e ninguém releu a tabela contra ele.* **E o validador não alcançava: a checagem 12 escrevia o pool na mão como vida máxima, então o corpo pequeno nunca passava por ela.** *É o primo da lição nº 8 — a checagem media pelo EIXO errado e saía verde exatamente na perturbação que importa.*
+
+### 2 · O conserto tira a régua de dentro do corpo, e não sobe vida
+
+***Decisão do Mizuki:*** *medir a morte contra `5 ×` a fórmula, para qualquer corpo.* **O `Coro` não ganhou um ponto de vida** — continua caindo com um golpe, continua custando PE e ação para voltar, continua voltando com metade. *O que ele parou de fazer é sumir para sempre.*
+
+**A régua deixou de ser a vida de alguém e virou escala fixa**, e o invariante que sobrou é de janela: ela tem de ficar em `[2 × o maior golpe de rotina , 2 × o menor golpe que mata)`. *Hoje isso é `[2,00 , 3,76)` e a régua vale `2,50` R.*
+
+### 3 · Perguntando o que o livro publicava, três buracos apareceram
+
+***Perguntas dele:*** *"no livro foi feito o como se monta a matilha? qual limite de invocações dá pra se ter no campo?"* **Nenhuma das duas tinha resposta no livro, e atrás delas estavam três números que a mesa precisa:**
+
+| o que faltava | o livro fazia o leitor achar | o número |
+|---|---|---|
+| dano do `Investir` | nada — a linha dizia só *"o ataque"* | você e elas somados dão **uma Rotina** |
+| vida do `Servo` e da `Matilha` | `32` no nível 15 | **cinco vezes isso** |
+| orçamento do `Servo` | `8` no nível 2 | **`12`** — o da ficha mais metade |
+
+**A segunda é a reclamação dele inteira:** *ele leu a única coluna que o livro publicava, e ela é a do `Coro`.* **O dano do `Investir` nunca tinha sido multiplicado em lugar nenhum** — a peça dizia *"entrega a cota da Rotina"* e parava ali, então `a minha invocação ataca` não resolvia. *Não era número novo: ele tem quatro donos — a Classe da peça 18, a Rotina da peça 6 §3, a cota da peça 6 §4 e o arredondamento da peça 1 §5.4 — e faltava a multiplicação.*
+
+### 4 · O dano virou dado, e o arredondamento é para baixo por obrigação
+
+***Pedido dele:*** *"sobre os danos, n usa fixo, tenta usar dados tbm."* **Arredondar para o mais perto fura o teto de uma Rotina em três das sete faixas** — a `Matilha` chegava a `135%` no nível 2 —, *e a peça 6 §4 diz que esse teto não tem conserto por preço.*
+
+| nível | uma invocação | cada corpo da `Matilha` |
+|---|---|---|
+| 2–4 | `1d6` | `2` |
+| 9–12 | `6d6` | `2d6` |
+| 17–20 | `10d6` | `4d6` |
+| 26–30 | **`15d6`** | **`6d6`** |
+
+**O corpo da `Matilha` não rola dado até o nível 4**, e o motivo é aritmético: a cota dele ali é `2` de dano, e `2` é menor que a média de qualquer dado. *O `d3` cabia e foi recusado — ele não é dado de verdade.*
+
+### 5 · A Constituição valia cinco vezes mais na invocação, e ninguém tinha precificado
+
+***Achado dele:*** *"se for com con 0, ele tá passando do bastião; eu diria que a vida deveria seguir algo semelhante a vanguarda."* **Ele estava certo e era pior do que ele viu:** *a Constituição entrava na fórmula e o multiplicador da Trilha multiplicava ela junto*, então um ponto valia **`5 × o nível`** num corpo e `1 × o nível` numa ficha de personagem.
+
+| Constituição | corpo no nv10, antes | Bastião | razão |
+|---|---|---|---|
+| 0 | 110 | 75 | 147% |
+| 3 | 260 | 105 | **248%** |
+| 6 | 410 | 135 | **304%** |
+
+**O §3.3 já tinha visto isso e parado numa bifurcação nunca fechada:** *"de `1,4×` a `4,9×` um ponto de Defesa — **ou ela entra com preço próprio, ou a base por nível é grande o bastante para ela não dominar**."* **Tirar a Constituição de dentro do multiplicador fecha o segundo ramo:** ela caiu para `1,0×` a `1,5×` um ponto de Defesa, e plana.
+
+> **⚠ E o §3.3 se contradiz com o limite do orçamento, e isso fica aberto.** *Ele diz que o jogador compra Constituição com pontos; o limite publicado diz que nada do catálogo pode dar vida direto.* **Comprar Constituição é comprar vida direto, e não existe preço para ela em lugar nenhum** — nem na tabela de venda, nem nas 19 entradas, nem nas seis montagens publicadas.
+
+### 6 · A vida caiu para `2,5 ×` e a área da `Matilha` desceu junto, e é um par
+
+**Baixar a vida encarece a área contra a `Matilha`, porque o pool encolhe.** *Medido: no `2,5 ×` com a vulnerabilidade de `×2`, um feitiço de área comum derrubava `4,0` dos cinco corpos, e o §3.5 diz que o `×2` existe para separar contra-jogo de contra-jogo **automático**.*
+
+***Saída do Mizuki:*** *"que tal deixar 2,5x e mudar a questão da matilha ter vulnerabilidade e passar a ser um aumento de 50% ao invés de 100%?"* **O par fechou melhor que qualquer um dos dois sozinho:**
+
+| | um feitiço de área comum derruba | apagar os cinco exige |
+|---|---|---|
+| antes desta versão | 2,0 de 5 | 1,25 R |
+| `3 ×` com `×2` | 3,3 de 5 | 0,75 R |
+| **`2,5 ×` com `×1,5`** | **3,0 de 5** | **0,83 R** |
+
+**E o corpo forte caiu na banda que ele pediu** — *"entre o Evocador e a Vanguarda"*. *Com a mesma Constituição dos dois lados ele fica em `101%` da Vanguarda em Con `0`, `3` e `6`, sem derivar.* **A régua da morte não se moveu:** com `×1,5` quem mata a área grande passa a ser o gatilho do excedente e não o do golpe cheio, e a tabela fecha igual.
+
+### 7 · O arnês achou cinco defeitos meus, e três eram checagem verde pelo motivo errado
+
+*Doze perturbações no fim, todas acendendo. No caminho:*
+
+- **uma checagem lia a coluna de cota em vez da coluna de dado** — trocar `6d6` por `7d6` passava, porque ela conferia o número que já sabia
+- **uma dizia *"confere nas duas publicações"* e pulava o livro em silêncio**, porque a variável do capítulo só nasce setecentas linhas abaixo
+- **uma casava com a tabela errada** — as duas tabelas de vida do livro têm as mesmas linhas de tipo
+- **a prosa que repete o multiplicador da área não era comparada com a tabela**, e a **vulnerabilidade publicada no livro não era comparada com a da peça**
+
+### Adicionado
+
+- **A checagem 32 do `conferir-invocacoes.py`**, dona do dano do `Investir`: ela recompõe a tabela dos quatro donos, deriva a média do dado da própria âncora que a peça 6 publica, e confere as duas publicações. *A contagem de checagens daquele validador foi de 31 para 32 em sete documentos, e a checagem 9 do `conferir-repositorio.py` foi quem acusou.*
+- **A tabela de dano do `Investir` e a tabela de vida do corpo forte**, na peça 15 §3.7 e no capítulo 16 do livro.
+- **O orçamento do `Servo` publicado no livro** — o da ficha mais metade.
+
+### Alterado
+
+- **A régua da morte da invocação**, que passou a ser `5 ×` a fórmula do tipo para qualquer corpo, em vez da vida máxima daquele corpo.
+- **A vida do corpo forte**, de `5 ×` a fórmula com a Constituição dentro para `2,5 × (base + 2 × nível) + Constituição × nível`.
+- **A vulnerabilidade da `Matilha` a área**, de `×2` para `×1,5`.
+- **O lembrete da entrega no `subir.sh`**, que imprimia `&& cd ..` contra o próprio README. *O `;` é de propósito e o motivo está escrito lá desde a v0.148: se o commit reclamar de `nothing to commit`, o `&&` não roda e você fica dentro de `finalizado/` sem perceber.* **Um comando copiado em dois lugares divergiu, e quem publicava a versão errada era o script que a pessoa lê na tela.**
+- **`REGRA-DE-VOZ.md`**, com a contagem de marcas de `3` para `2`: a terceira fechou no corte da v0.176 e o número não desceu junto. *Ninguém viu porque o `subir.sh` não roda o `conferir-voz.py`.*
+
+### Decidido
+
+- **Nenhum golpe de rotina mata invocação em definitivo, em corpo de qualquer tamanho** — a régua é escala fixa e não a vida de ninguém.
+- **O dano da invocação é dado, `d6`, arredondando o número de dados para baixo**, porque para o mais perto ele fura o teto de uma Rotina.
+- **A Constituição fica fora do multiplicador da Trilha**, e um ponto dela vale o mesmo numa invocação e numa ficha de personagem.
+- **O corpo forte mira a curva da Vanguarda**, e a ficha de Constituição `5` ou `6` passa da banda — declarado, não consertado.
+- **Não existe teto de quantas invocações cabem no campo, e ele não vira regra agora.** *O que segura são a Ação Padrão do comando, a divisão da cota, e nenhuma Trilha entregar uma segunda.*
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **A objeção do Mizuki à Q3 da peça 15 ficou registrada e é o trabalho da próxima versão:** *"não faz sentido utilizar acerto, defesa e atributos do invocador — o invocador vai querer invocações que fazem o que ele não faça."* **Junto com ela, a Constituição da invocação sem preço e sem dono.** *E seguem as duas da v0.176: o formato do `Conhecimento Antigo` e a atração sem Legado que a desligue.*
+
+---
+
 ## [0.177] — 29/08/2026
 
 **A arma de fogo ganhou uma segunda coluna de preço, e ela abre a rota de `Arma de Fogo` do `Batedor` no nível 2.** ***Achado do Mizuki:*** *"com esses custos ninguém consegue começar com uma arma de fogo, aí como fica a trilha de arma de fogo? Começa o jogo e não tem nenhuma arma de fogo é complexo."*

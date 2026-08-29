@@ -112,7 +112,11 @@ palavras.* **As catorze condições deste livro foram reescritas nessa forma na 
 
 *Escrito na v0.144, e ele nasceu de uma contagem que deu errado cinco vezes seguidas.* **O prompt de retomada dizia quatro, o CHANGELOG da v0.136 dizia cinco, a varredura à mão de uma versão disse oito, e o regex acha sete.** *Toda contagem desta família até hoje deu um número diferente, e nenhuma delas tinha validador.*
 
-> **O livro carrega `3` marcas de regra que ainda não existe.** *Esse número é o dono, e o `conferir-voz.py` recontá e falha se ele subir.*
+> **O livro carrega `2` marcas de regra que ainda não existe.** *Esse número é o dono, e o `conferir-voz.py` recontá e falha se ele subir.*
+
+> **Eram `3` até a v0.178**, quando a marca do capítulo 15 fechou por corte e não por decisão — a revisão da v0.176 tirou do `Objeto de apoio` a frase *"a lista do que conta como apoio e o preço dele estão sendo escritos; o teto de dois já vale desde agora"*. **A regra que ela carregava ficou de pé:** *o teto de dois continua escrito duas linhas abaixo, e é dele que o teto de `Estigma` da peça 16 é feito.* **O preço nunca ia existir**, porque ferramenta amaldiçoada é entregue pelo mestre no ritmo da peça 16 §7 e não comprada (a peça 14, dona dos preços, não usa a palavra `apoio` uma vez sequer). *Fica aberta a lista do que conta como apoio, e ela é assunto da peça 16, não do livro.*
+
+> **O número passou duas versões errado, e o motivo é estrutural: o `subir.sh` não roda o `conferir-voz.py`.** *A queda aconteceu na v0.176 e a v0.177 fechou por cima dela, com os 25 validadores de `03-mecanica/` e o `conferir-repositorio.py` verdes nas duas.* **Quem confere a voz é quem roda à mão**, então marca fechada num corte de revisão não acende sozinha no commit — ao contrário da v0.163, em que o validador acusou a queda no mesmo commit porque alguém rodou ele.
 
 > **Eram `4` até a v0.168**, quando a marca do capítulo 25 fechou — *"Sem Técnica não fecha ficha hoje, e ela está sendo escrita"*. **Ela era a mais velha das quatro e a única que anunciava uma rota de Origem inteira parada:** *a peça 25 fechou naquela versão, e o capítulo passou a publicar a semente e a máquina no lugar do aviso.* *O capítulo de mesa que a rota merece continua vindo depois — o que saiu daqui foi a marca, não a dívida de texto.*
 

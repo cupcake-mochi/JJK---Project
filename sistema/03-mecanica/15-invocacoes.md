@@ -1,6 +1,6 @@
 # 15 — Invocações
 
-**Fase 4, décima quinta peça.** O sistema de criação de invocação: iniciativa, o modelo da Matilha, a ficha, o custo, a morte, o retorno e o catálogo. O validador dono é o `conferir-invocacoes.py`, com as **trinta e uma** checagens do §5.
+**Fase 4, décima quinta peça.** O sistema de criação de invocação: iniciativa, o modelo da Matilha, a ficha, o custo, a morte, o retorno e o catálogo. O validador dono é o `conferir-invocacoes.py`, com as **trinta e duas** checagens do §5.
 Versão v0.58 — 14/08/2026
 
 > **O nome é decisão escrita, e não descuido.** `Invocação` sai **OCUPADO** na triagem: é **Tema** do manual, no grupo *Criação* do catálogo do apêndice. Tema não carrega mecânica — o próprio manual diz isso na abertura da Descrição —, então o choque é de vocabulário e não de regra. **O Tema e esta peça são coisas diferentes:** um é rótulo de sabor pendurado numa técnica, a outra é a máquina que põe um corpo no campo. O §4 tem a triagem inteira, com os dois nomes que saíram livres.
@@ -105,7 +105,7 @@ O argumento está no §3.4. **E o teto da peça 6 §4 deixou de precisar de poli
 
 > **A invocação some no zero, sem estado intermediário.** Sem `Inconsciente`, sem Sequela, sem Cicatriz — ela não é personagem.
 > **Área causa o dano uma vez no pool, e a invocação é vulnerável a ela: dobro.** Não é dano por corpo.
-> **Ela morre em definitivo** — o talismã se desfaz, o corpo se perde, a invocação de técnica ou a maldição domada é exorcizada — **se o excedente passar de metade da vida máxima, ou se um único golpe causar a vida máxima inteira.**
+> **Ela morre em definitivo** — o talismã se desfaz, o corpo se perde, a invocação de técnica ou a maldição domada é exorcizada — **se o excedente passar de metade da régua, ou se um único golpe causar a régua inteira. A régua é `5 ×` a vida que a fórmula do tipo dá, e ela é a mesma para qualquer corpo.**
 
 O argumento está no §3.5. *E o dilema que esta pergunta carregava desde a v0.50 dissolveu na Q4, sem ninguém precisar decidir nada.*
 
@@ -113,7 +113,7 @@ O argumento está no §3.5. *E o dilema que esta pergunta carregava desde a v0.5
 
 > **O que a Trilha concede não sai do orçamento da ficha.** `Servo` dá um corpo forte, `Matilha` dá os cinco, `Coro` dá a exceção de economia de ação — atacar e comandar na mesma rodada. **O orçamento compra `Traço` e `Comando` por cima.**
 
-**E o número de cada concessão está na tabela do §3.7**, no fim daquela seção: o `Servo` leva **o orçamento da ficha mais metade** e **`5 × h` de vida** — o pool inteiro da `Matilha` num corpo só —, e as outras duas ficam como estavam. *O que destravou não foi um número: foi descobrir que o `Servo` estava dominado **por falta de eixo**, e que o conserto era uma coluna nova na matriz.*
+**E o número de cada concessão está na tabela do §3.7**, no fim daquela seção: o `Servo` leva **o orçamento da ficha mais metade** e o **corpo forte** — o pool inteiro da `Matilha` num corpo só —, e as outras duas ficam como estavam. *O que destravou não foi um número: foi descobrir que o `Servo` estava dominado **por falta de eixo**, e que o conserto era uma coluna nova na matriz.*
 
 ## 3.1 A Q1, e por que ela fechou na casa do dono
 
@@ -494,6 +494,10 @@ E onde ele cai, ao lado do que já existe (% do dia do Bastião):
 
 *E há um caso que o material impõe e a regra ainda não tem:* **Rika e Mahoraga agem fora do controle do portador.** Toda esta seção supõe que a invocação obedece; as duas são a exceção escrita na obra, e ela precisa de tratamento antes de a peça fechar.
 
+> **⚠ Achado aberto na v0.178, e ele é do Mizuki lendo o livro: não existe teto escrito de quantas invocações cabem no campo.** *Nem aqui, nem no capítulo 16, nem em documento nenhum do projeto.* **O que segura hoje são duas coisas, e nenhuma delas é um número:** comandar custa a Ação Padrão, então você só comanda uma por rodada; e a cota da peça 6 §4 divide a saída por corpo, então cada corpo a mais encolhe todos os outros. *Quem entrega corpo é a Trilha — `Servo` um, `Matilha` cinco, `Coro` um —, e nenhuma delas entrega uma segunda.*
+>
+> ***Decisão do Mizuki na v0.178: fica registrado e não vira regra agora.*** **A pergunta que ele faz é a certa e ela precisa de conta antes de resposta:** *se um dia alguma coisa conceder uma invocação além da Trilha, o teto passa a fazer falta — e aí ele é preço, não texto.*
+
 ## 3.5 A Q5, que encolheu sozinha e sobrou com um problema de verdade
 
 ### O dilema do rascunho dissolveu, e o registro fica porque o motivo é útil
@@ -523,50 +527,58 @@ Com a vida em pool (Q2) e `h` em meia Rotina (Q3), **um efeito de área que caus
 
 | como a área entra | no pool | % do pool | corpos que caem |
 |---|---|---|---|
-| por corpo — como era | 2,50 R | **100%** | **5,0** |
-| ×3 | 1,50 R | 60% | 3,0 |
-| **×2 — vulnerável** | **1,00 R** | **40%** | **2,0** |
-| ×1,5 | 0,75 R | 30% | 1,5 |
-| uma vez, sem bônus | 0,50 R | 20% | 1,0 |
+| por corpo — como era | 2,50 R | **200%** | **5,0 — apaga** |
+| ×3 | 1,50 R | 120% | 5,0 — apaga |
+| ×2 | 1,00 R | 80% | 4,0 |
+| **×1,5 — vulnerável** | **0,75 R** | **60%** | **3,0** |
+| uma vez, sem bônus | 0,50 R | 40% | 2,0 |
 
-**O `×2` tira dois dos cinco corpos com um feitiço de área de rotina.** Continua sendo a jogada certa contra a Matilha — contra golpe único o mesmo feitiço tiraria um corpo, então a área vale exatamente o dobro, **que é o que "vulnerável" quer dizer** e não precisa de palavra nova.
+**O `×1,5` tira `3,0` dos cinco corpos com um feitiço de área de rotina.** Continua sendo a jogada certa contra a Matilha — contra golpe único o mesmo feitiço tiraria dois corpos, então a área vale metade a mais. ***Escolha do Mizuki na v0.178:*** *"que tal mudar a questão da Matilha ter vulnerabilidade e passar a ser um aumento de 50% em vez de 100%?"*
+
+> **⚠ Eram `2,0` corpos até a v0.178, e o número subiu porque o pool desceu.** *A vida do corpo forte foi de `5 ×` para `3 ×` a fórmula para tirar a Constituição de dentro do multiplicador, e o pool caiu de `2,50` para `1,50` Rotina junto.* **O `×2` foi remedido contra os três degraus e continua sendo o escolhido**, mas a margem encolheu: o `×3` agora apaga a Matilha inteira, e antes ele deixava dois corpos de pé. *O `2,5 ×` chegou a ser recusado numa rodada anterior desta mesma versão, quando a vulnerabilidade ainda era `×2` e ele derrubava `4,0` dos cinco; **baixar a vulnerabilidade para `×1,5` na mesma leva devolveu a margem**, e o par acabou melhor que o `3 ×` com `×2` nas duas colunas.*
 
 **Contra-teste — a área grande ainda resolve?**
 
-| área por alvo | ×2 no pool | corpos que caem |
+| área por alvo | ×1,5 no pool | corpos que caem |
 |---|---|---|
-| 0,50 Rotina | 1,00 R | 2,0 |
-| 0,75 | 1,50 | 3,0 |
-| 1,00 | 2,00 | 4,0 |
-| **1,25** | **2,50** | **5,0 — apaga** |
+| 0,50 Rotina | 0,75 R | 3,0 |
+| 0,75 | 1,12 | 4,5 |
+| **0,83** | **1,25** | **5,0 — apaga** |
 
-**Apagar a Matilha passa a exigir `1,25` Rotina de área por alvo** — dois feitiços e meio de rotina, ou um feitiço grande de verdade. *A jogada continua existindo; ela custa caro. É o que separa contra-jogo de contra-jogo automático.*
+**Apagar a Matilha passa a exigir `0,83` Rotina de área por alvo** — um feitiço e dois terços de rotina, ou um feitiço grande de verdade. *A jogada continua existindo; ela custa caro. É o que separa contra-jogo de contra-jogo automático.*
 
 ### A morte em definitivo, e ela dispara onde a ficção dispara
 
 *Decisão do Mizuki, e o argumento é canon:* na obra, shikigami destruído **não volta**.
 
 > **Some no zero, sem estado intermediário.** Nada de `Inconsciente`, Sequela ou Cicatriz — a máquina da peça 1 §5.5 é de personagem, e a Q2 gastou a passagem inteira comprando que a invocação **não** fosse um.
-> **Mas ela morre de vez se o excedente passar de metade da vida máxima, ou se um único golpe causar a vida máxima inteira.** O talismã se desfaz, o corpo se perde, a invocação de técnica ou a maldição domada é exorcizada.
+> **A régua da morte é `5 ×` a vida que a fórmula do tipo dá**, e ela vale igual para qualquer corpo, seja ele um, cinco ou o do `Servo`.
+> **Ela morre de vez se o excedente passar de metade da régua, ou se um único golpe causar a régua inteira.** O talismã se desfaz, o corpo se perde, a invocação de técnica ou a maldição domada é exorcizada.
 
-| de onde vem o golpe | dano | passa de metade em negativo? | causa a vida máxima? |
+| de onde vem o golpe | dano | passa de metade em negativo? | causa a régua inteira? |
 |---|---|---|---|
 | golpe único de inimigo (~meia Rotina) | 0,50 R | não | não |
 | dois golpes na mesma rodada | 1,00 R | não | não |
-| área de rotina, com ×2 | 1,00 R | não | não |
-| **área grande, com ×2** | 2,50 R | **sim** | **sim** |
+| área de rotina, com ×1,5 | 0,75 R | não | não |
+| **área grande, com ×1,5** | 1,88 R | **sim** | não |
 | **Expansão de Domínio, acerto garantido** | 3,00 R | **sim** | **sim** |
 
 **Nenhum golpe de rotina mata em definitivo.** Precisa de área grande ou de Expansão — *que são exatamente as coisas que na obra destroem shikigami de vez.* **A régua dispara onde a ficção dispara, e ninguém escreveu isso à mão: caiu dos dois números.**
+
+> **⚠ A régua era a vida máxima DAQUELE corpo até a v0.178, e por isso ela encolhia junto com o corpo.** *Quando ela entrou, o `Servo` e a `Matilha` não sentiram: a vida máxima deles era exatamente `5 ×` a fórmula, que é a escala em que esta tabela sempre foi medida. **Na mesma versão o corpo forte desceu para `3 ×`, e aí a régua deixou de ser a vida máxima de alguém** — ela virou uma escala fixa, que é o que ela precisava ser desde sempre.* **Quem estava quebrado era o `Coro`:** o corpo dele vale `h`, então a régua dele valia `0,50 R` — e o golpe único de inimigo, que vale `0,50 R`, causava a vida máxima inteira. *As três primeiras linhas desta tabela matavam o corpo do `Coro` em definitivo, e a frase logo acima era verdadeira para `2,50 R` e falsa para `0,50 R`.*
+>
+> **É o achado da v0.63 de novo, na Trilha que ficou de fora dele.** *Lá o argumento foi escrito assim: "com `h` a vida máxima do `Servo` era um quinto da da `Matilha`, para a mesma Rotina entregue — pela regra de morte do §3.5 o `Servo` sai da luta por um golpe."* **O conserto de lá foi subir o corpo, e o de cá foi tirar a régua do corpo**, porque o `h` do `Coro` é a troca dele — ele é o único que ataca e comanda — e subir a vida apagaria a troca junto.
+>
+> **A conta de quanto isso pesava: `Con 1` já escapava em todo nível**, então o buraco caía inteiro na ficha de Constituição `0` — que é justamente o Evocador que põe corpo na frente em vez de aguentar golpe. *Achado do Mizuki lendo o livro, e a medida saiu pior que o palpite dele: não era vida baixa, era perda permanente da Trilha no primeiro acerto.*
 
 ### Reconseguir, fechado na v0.57 — e a resposta é que quase sempre não dá
 
 *Decisão do Mizuki, e ela é mais dura do que o rascunho supunha.*
 
 > **Se ela morreu em definitivo, acabou. Não se reconsegue.**
-> **Se ela só chegou a zero** — sem excedente acima de metade da vida máxima e sem um golpe que causasse a vida máxima inteira —, **ela volta normalmente pelo preço da Q4, mas com metade da vida máxima.**
+> **Se ela só chegou a zero** — sem excedente acima de metade da régua e sem um golpe que causasse a régua inteira —, **ela volta normalmente pelo preço da Q4, mas com metade da vida máxima.**
 
-**A meia vida é o que faz a segunda invocação da luta doer sem desligar o Caminho de ninguém**, e ela cai numa conta que a Q5 já tinha rodado: o corpo vale **meia Rotina**, então o corpo que volta vale **um quarto**. Contra o pool da Matilha, reinvocar depois de cair devolve `2,5 → 1,25` Rotinas de presença.
+**A meia vida é o que faz a segunda invocação da luta doer sem desligar o Caminho de ninguém**, e ela cai numa conta que a Q5 já tinha rodado: o corpo vale **meia Rotina**, então o corpo que volta vale **um quarto**. Contra o pool da Matilha, reinvocar depois de cair devolve `1,25 → 0,62` Rotina de presença.
 
 *E ela é a peça que faltava no argumento da Q4.* A conta da "primeira grátis" mostrou que o mestre que foca a invocação cobra **420%** do preço nominal, e o conserto foi não ter isenção. **A meia vida cobra o mestre que foca de novo, na direção certa:** ele derruba, o jogador reinvoca por PE e ação, e o corpo que volta cai na metade do tempo. *O preço agora é cobrado no recurso e na durabilidade, e não só no recurso.*
 
@@ -800,6 +812,35 @@ E a cadência já existe: **os sete marcos**, que governam atributo, refino e fe
 
 *`Golpe` não pôde ser usado por estar dentro de `Feitiço de Toque`; `Investir` saiu LIVRE. O `Cavar` não é o `Emboscada`: um faz buraco no chão, o outro é ela **saindo** dele, e os dois funcionam sozinhos.*
 
+#### O `Investir` em número, e ele nunca tinha sido multiplicado
+
+***Achado do Mizuki na v0.178, perguntando o que o livro publicava:*** *a linha acima diz "a cota da Rotina" e o capítulo 16 do livro dizia só "o ataque".* **A fração estava decidida desde a v0.51 e o número nunca foi escrito em lugar nenhum** — nem aqui, nem no livro —, então `a minha invocação ataca` não resolvia na mesa. *Não é número novo: ele tem quatro donos e faltava a multiplicação.*
+
+| de onde sai | dono |
+|---|---|
+| a Classe de cada nível | peça 18 §2 |
+| a Rotina, `floor(3,5 × Classe)` dados de `d8` | peça 6 §3, lida do manual |
+| a cota — dono e invocações somados entregam **uma** Rotina | peça 6 §4 |
+| o arredondamento — o que se ganha desce | peça 1 §5.4 |
+
+| nível | Classe | Rotina | uma invocação: cota | uma invocação: dado | corpo da `Matilha`: cota | corpo da `Matilha`: dado |
+|---|---|---|---|---|---|---|
+| 2–4 | 1 | 13 | 6 | `1d6` | 2 | `2` |
+| 5–8 | 2 | 31 | 15 | `4d6` | 6 | `1d6` |
+| 9–12 | 3 | 45 | 22 | `6d6` | 9 | `2d6` |
+| 13–16 | 4 | 63 | 31 | `8d6` | 12 | `3d6` |
+| 17–20 | 5 | 76 | 38 | `10d6` | 15 | `4d6` |
+| 21–25 | 6 | 94 | 47 | `13d6` | 18 | `5d6` |
+| 26–30 | 7 | **108** | 54 | **`15d6`** | 21 | **`6d6`** |
+
+**A reconstrução foi conferida contra os quatro pontos que a peça 6 §3 publica** — `13`, `45`, `76` e `108` — e bate nos quatro. *`Uma invocação` cobre o `Servo` e o `Coro`; o `Coro` divide igual porque o que ele compra é economia de ação e não saída.*
+
+> **O dado é `d6` e ele arredonda para BAIXO, e as duas metades dessa frase foram pagas.** ***Pedido do Mizuki:*** *"sobre os danos, não usa fixo, tenta usar dados também."* **Arredondar para o mais perto fura o teto de uma Rotina em três das sete faixas** — a `Matilha` chegava a `135%` no nível 2 —, *e o teto da peça 6 §4 é justamente o que não tem conserto por preço.* **Para baixo nada estoura**, e o preço é `1,9` de dano por rodada a menos numa invocação e `1,4` num corpo da `Matilha`, na média das sete faixas.
+
+> **O corpo da `Matilha` não rola dado nos níveis `2` a `4`, e o motivo é aritmético:** *a cota dele ali é `2` de dano, e `2` é menor que a média de qualquer dado — o `d6` dá `3,5`, o `d4` dá `2,5`, e só o `d3` caberia.* **Abaixo do nível 5 ele causa `2` fixo**, e do 5 em diante rola. *O `d3` foi medido e recusado: ele cabe em tudo e erra menos, e não é dado de verdade — rola-se um `d6` e divide.*
+
+> **⚠ Nos níveis `2` a `4` a `Matilha` entrega `77%` da Rotina e o `Servo` entrega `92%`, e isso fica.** *Um quinto de `13` é `2,6` e desce para `2`; cinco corpos somam `10`.* ***Decisão do Mizuki: aceitar e declarar*** — **o arredondamento é a regra da peça 1 e ela vale igual para todo mundo, e a `Matilha` compensa em corpos na faixa em que perde em dano.** *O vão fecha no nível 5 e não volta: da Classe 2 em diante as duas ficam entre `95%` e `100%`.* **Arredondar para cima ali estouraria o teto de uma Rotina em `115%`**, e a peça 6 §4 diz que esse teto não tem conserto por preço.
+
 > **O `Chamariz` é a única entrada que existe porque um shikigami do material não fechava sem ela.** A peça 6 §4 descreve o produto do invocador como *"corpos que absorvem ataque, flanqueiam e bloqueiam caminho"* — e o Coelho de Fuga é *"muitos corpos que **distraem** para o dono fugir"*. Absorver e bloquear já tinham entrada; **distrair não tinha nenhuma.** Ele é **negar a ação de outro**, que é o degrau de 2 escrito.
 >
 > *E ele não pôde se chamar `Provocar`: o nome sai LIVRE na triagem e **colide em sentido** — `Provocar` é perícia de Essência (peça 7), e um `Comando` com o nome de uma perícia faz a mesa procurar uma rolagem que não existe. É o tipo de colisão que o `conferir-nomes.py` não pega.*
@@ -909,19 +950,35 @@ E uma que eu quase escrevi: um `Traço` de corpo duro, tipo *"ela aguenta mais p
 
 | Trilha | o que ela concede | orçamento do corpo | vida do corpo |
 |---|---|---|---|
-| **`Servo`** | um corpo forte | **o da ficha mais metade**, arredondando para baixo | **`5 × h`** |
-| **`Matilha`** | os cinco corpos | o da ficha | `5 × h`, em pool com cascata |
-| **`Coro`** | atacar e comandar na mesma rodada | o da ficha | `h` |
+| **`Servo`** | um corpo forte | **o da ficha mais metade**, arredondando para baixo | **`2,5 ×` o corpo forte** |
+| **`Matilha`** | os cinco corpos | o da ficha | `2,5 ×` o corpo forte, em pool com cascata |
+| **`Coro`** | atacar e comandar na mesma rodada | o da ficha | `h`, a fórmula crua |
 
-**A vida do `Servo` é o pool inteiro da `Matilha`, e o motivo é a regra de morte do §3.5.** Ela diz que a invocação morre de vez se um único golpe causar a vida máxima inteira — e com `h` a vida máxima do `Servo` era **um quinto** da da `Matilha`, para a mesma Rotina entregue:
+> **`vida do corpo forte = 2,5 × (base do tipo + 2 × nível) + Constituição × nível`**, arredondando para baixo
 
-| nv | vida do corpo (`h`) | pool da `Matilha` (`5h`) | rodadas de chefe concentrando |
+**A Constituição fica FORA do multiplicador, e isso é o conserto da v0.178.** *Enquanto ela morava dentro, um ponto de Constituição valia `5 × o nível` num corpo de invocação e `1 × o nível` numa ficha de personagem — **cinco vezes mais**, em todo nível, e nenhum documento tinha precificado isso.* ***Achado do Mizuki:*** *"se for com con 0, ele tá passando do bastião; eu diria que a vida deveria seguir algo semelhante a vanguarda."* **Com a Constituição fora, a razão para de crescer**, e o `2,5 ×` foi escolhido contra uma banda que o Mizuki descreveu: *"vida entre o Evocador e a Vanguarda — com Constituição alta alcançar uma Vanguarda de Con `3` a `4`, com Constituição baixa ficar perto de um Emanador de `0` a `2`."* **No nível 30 isso é um piso de `122` a `182` e um teto de `243` a `273`, e o corpo cai dentro dos dois:** `155` com Con `0` e `245` com Con `3`.
+
+| tipo | nv2 | nv10 | nv18 | nv30 |
+|---|---|---|---|---|
+| `talismã` · `corpo amaldiçoado` | 12 | 52 | 92 | 152 |
+| `técnica` | 15 | 55 | 95 | 155 |
+| `maldição domada` | 17 | 57 | 97 | 157 |
+| *Vanguarda, para comparar* | *13* | *53* | *93* | *153* |
+| *Bastião, para comparar* | *19* | *75* | *131* | *215* |
+
+*As colunas são com Constituição `0` nos dois lados, e as duas bases ímpares descem meio ponto pelo arredondamento da peça 1 §5.4.* **A Constituição sozinha não cabe na banda em nenhuma base:** *ela vale `30` por ponto no nível 30 e a banda tem `150` de largura, então seis pontos andam `180` e estouram o teto de qualquer jeito.* **Fica declarado: a ficha de Constituição `5` ou `6` leva uma invocação acima da banda**, e o conserto disso seria um teto de atributo que esta peça não tem.
+
+**A vida do `Servo` é o pool inteiro da `Matilha`, e o motivo era a regra de morte do §3.5.** *Até a v0.178 ela dizia que a invocação morre de vez se um único golpe causar a vida máxima **dela** — e com `h` a vida máxima do `Servo` era **um quinto** da da `Matilha`, para a mesma Rotina entregue:*
+
+| nv | corpo do `Coro` (`h`) | corpo forte, `Servo` e `Matilha` | rodadas de chefe concentrando |
 |---|---|---|---|
-| 2 | 6 | 30 | `Servo` 0,8 · `Matilha` 4,0 |
-| 10 | 22 | 110 | 1,7 · 8,5 |
-| 30 | 62 | 310 | 1,7 · 8,6 |
+| 2 | 6 | 18 | `Coro` 0,8 · corpo forte 2,4 |
+| 10 | 22 | 66 | 0,8 · 2,5 |
+| 30 | 62 | 186 | 0,9 · 2,6 |
 
-*Decisão do Mizuki, e o argumento é dele:* ***"normalmente é a única invocação da pessoa, então ela tem de ser o equivalente de todas as outras, mas não passar muito delas — e ao perder a invocação principal, acabou o kit."*** **Com `5h` os dois saem da luta pelo mesmo golpe**, e apagar o `Servo` passa a custar as mesmas `1,25` Rotina de área por alvo que o §3.5 já mede para apagar a `Matilha`. *Nenhuma exceção nova: a regra de morte continua valendo palavra por palavra, e o que mudou foi o número que ela lê.*
+*Decisão do Mizuki, e o argumento é dele:* ***"normalmente é a única invocação da pessoa, então ela tem de ser o equivalente de todas as outras, mas não passar muito delas — e ao perder a invocação principal, acabou o kit."*** **Com o mesmo corpo forte nos dois, eles saem da luta pelo mesmo golpe**, e apagar o `Servo` custa a mesma área por alvo que o §3.5 mede para apagar a `Matilha` — `0,83` Rotina desde a v0.178, e `1,25` antes dela. *Nenhuma exceção nova: a regra de morte continuou valendo palavra por palavra, e o que mudou foi o número que ela lê.*
+
+> **⚠ A v0.178 tirou a régua da morte de dentro do corpo, então este argumento parou de sustentar o `5h` sozinho — e o `5h` fica.** *O que ele sustenta hoje é a outra metade, que a matriz de dominância não mede: o `Servo` é a Trilha de **um corpo só**, e com `h` ele iria a zero levando um quinto do dano que derruba a `Matilha`, entregando a mesma Rotina.* **Cair não é morrer, e mesmo assim custa a Trilha inteira por uma rodada, mais PE, mais o corpo voltando com metade da vida.** *A coluna de rodadas de chefe acima continua sendo a medida certa disso; o que mudou é o nome do que ela mede.*
 
 **E o orçamento é onde o `Servo` fica na frente**, que é o eixo que mata as duas dominâncias:
 
@@ -953,11 +1010,11 @@ Rodada a triagem antes de escrever qualquer coisa:
 
 ## 5. O que o validador confere
 
-**São trinta e uma checagens, e elas moram no `conferir-invocacoes.py`.** A lista abaixo é a especificação delas: cada item diz o que se confere, de qual documento o número é lido, e — onde faz sentido — qual perturbação tem de acender aquela checagem e só ela.
+**São trinta e duas checagens, e elas moram no `conferir-invocacoes.py`.** A lista abaixo é a especificação delas: cada item diz o que se confere, de qual documento o número é lido, e — onde faz sentido — qual perturbação tem de acender aquela checagem e só ela.
 
 *Ela foi escrita antes do validador, e é por isso que ele coube numa versão só.* A peça 14 gastou três versões com uma frase dizendo que o validador dela não podia ser escrito, e a premissa daquela frase tinha morrido três versões antes.
 
-> **O arnês de perturbação obedece às três regras:** cópia isolada, base conferida verde **antes** de perturbar, e `diff` provando que a perturbação bateu antes de alguém ler o resultado. **As trinta e uma acendem a checagem certa**, e três delas acendem um par ou um trio declarado — que é o que acontece quando duas checagens leem o **mesmo dono** e é mais honesto declarar do que fingir isolamento. Mais dois contra-testes que não podem acender nada, e não acendem.
+> **O arnês de perturbação obedece às três regras:** cópia isolada, base conferida verde **antes** de perturbar, e `diff` provando que a perturbação bateu antes de alguém ler o resultado. **As trinta e duas acendem a checagem certa**, e três delas acendem um par ou um trio declarado — que é o que acontece quando duas checagens leem o **mesmo dono** e é mais honesto declarar do que fingir isolamento. Mais dois contra-testes que não podem acender nada, e não acendem.
 
 - **O teto da Rotina somada**, derivado da peça 6 §4 e nunca lido de constante — a lição nº 8 na forma que já apareceu três vezes.
 - **Dominância entre as três Trilhas**, com a matriz rodando por quantidade de corpos.
@@ -995,6 +1052,7 @@ Rodada a triagem antes de escrever qualquer coisa:
 
 > **A queda de `21.502` para `5.429` é da escala, e ela tem nome: paridade.** Com preços de `1` e `2`, quase todo subconjunto fechava o orçamento exato. Com `2 · 3 · 4 · 5 · 7 · 8` num orçamento par, **um número ímpar de itens de preço ímpar nunca fecha** — e por isso três em cada quatro montagens deixam troco. *O que a busca conta é gasto exato; o conjunto de montagens **legais** não caiu na mesma proporção.* **Isso é propriedade da moeda quebrada e não descuido** — e é o preço que a v0.67 aceitou para o degrau de 1 ponto ter granularidade. Se alguma entrada nova puxar esse consumo para cima outra vez, é sinal de que ela não acrescentou eixo, só volume.
 - **Vender deslocamento não tem piso, e isso é decisão e não esquecimento.** Medido: mesmo vendendo **−5 de Defesa**, o pool da Matilha ainda põe **1,56 Rotina** de presença em campo, contra os **6% a 9%** da Rotina que a peça 14 §4 diz que uma Trilha inteira vale — **17×**. **Ela se limita sozinha no valor.** A checagem afirma isso em vez de supor: perturbar o câmbio do §3.3 tem de fazer o piso passar a ser necessário e acender.
+- **O dano do `Investir` recomputado dos quatro donos, e conferido nas DUAS publicações** — a tabela do §3.7 e a do capítulo 16 do livro. *A média do dado não fica escrita: ela é derivada da própria âncora do nível 30 que a peça 6 §3 publica*, e a reconstrução tem de reproduzir os quatro pontos daquela peça antes de a tabela valer alguma coisa. **Perturbar a Classe na peça 18, o fator da Rotina na peça 6, a cota, uma célula de qualquer das duas tabelas, ou apagar uma delas, tem de acender.** *E ela confere duas coisas que nenhuma outra confere: que a soma de volta não passa do teto de uma Rotina, e que a perda de arredondamento da `Matilha` nos níveis 2 a 4 está **declarada** em vez de esquecida.*
 
 ## 6. O que esta peça destrava
 
