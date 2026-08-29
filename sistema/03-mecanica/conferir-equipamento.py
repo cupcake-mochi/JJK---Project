@@ -779,6 +779,35 @@ else:
     else:
         print(f'  [x] 14.3 {len(_cabem)} entram e {len(_fora)} ficam fora: a criacao escolhe.')
 
+    # 14.5 — o fundo escala por patente, e a peca PUBLICA em qual degrau a
+    # coluna abre. A conta e refeita aqui contra a escada de salario da peca 12,
+    # e o que a peca escreve tem de bater com o que ela produz.
+    _RX_ABRE = re.compile(
+        r'No `Grau 4` cabem (\w+) das sete; no `Grau 3`, (\w+); e no `Grau 2` a tabela fecha')
+    _EXT = {'uma': 1, 'duas': 2, 'tres': 3, 'três': 3, 'quatro': 4,
+            'cinco': 5, 'seis': 6}
+    m5 = _RX_ABRE.search(EQ)
+    if not m5:
+        erro('14.5: a peca nao publica mais em que patente a coluna de criacao '
+             'abre, na forma "No `Grau 4` cabem N das sete; no `Grau 3`, N; e no '
+             '`Grau 2` a tabela fecha" — sem a frase nao ha o que conferir')
+    else:
+        _dito = {'Grau 4': _EXT.get(m5.group(1).lower()),
+                 'Grau 3': _EXT.get(m5.group(2).lower()),
+                 'Grau 2': len(PRECO_CRIACAO)}
+        _real = {g: sum(1 for v in PRECO_CRIACAO.values() if v <= SAL.get(g, 0))
+                 for g in ('Grau 4', 'Grau 3', 'Grau 2')}
+        print(f'  a peca diz que abrem   : {_dito}')
+        print(f'  a conta contra a peca 12: {_real}')
+        if _dito != _real:
+            erro(f'14.5: a peca diz que abrem {_dito} e a escada de salario da '
+                 f'peca 12 produz {_real} — o fundo por patente e derivado, e a '
+                 'frase publicada divergiu dele')
+        elif _real['Grau 2'] != len(PRECO_CRIACAO):
+            erro('14.5: a peca diz que o `Grau 2` fecha a tabela e ele nao fecha')
+        else:
+            print('  [x] 14.5 o degrau em que cada arma abre bate com a peca 12.')
+
     # 14.4 — duas armas de fogo nunca cabem juntas
     _duplas = [(a, b) for a in PRECO_CRIACAO for b in PRECO_CRIACAO
                if a <= b and PRECO_CRIACAO[a] + PRECO_CRIACAO[b] <= DINHEIRO_INICIAL]

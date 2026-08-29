@@ -1561,7 +1561,11 @@ Isso é diferente de deixar em aberto — é decisão com condição de disparo,
 
 > **Você começa `Grau 4`, com o `Traje` degrau 1 da instituição e `¥150.000` — uma mensalidade — para montar o resto.**
 
-*O valor é derivado e não escolhido: é a linha `Grau 4` da peça 12 §6.1, inteira.* **E o uniforme de graça custa exatamente zero em número:** *o `Traje` 1 dá proteção `1` e **desliga** o `cobrir-se`, que no refino `1` também dá `1`.* **A Defesa do nível 2 não se move um ponto**, e do nível 6 em diante o `cobrir-se` passa na frente e o jogador tira o traje sem ninguém mandar.
+*O valor é derivado e não escolhido: é a linha `Grau 4` da peça 12 §6.1, inteira.*
+
+> **O que é derivado é a REGRA, e não o `¥150.000`: o fundo é uma mensalidade da patente em que o personagem começa.** *Quase toda ficha começa `Grau 4`, e é por isso que o número publicado é esse.* **Numa campanha que abre acima do nível 2, ou quando o mestre decide que o grupo já é gente da casa, a patente inicial sobe e o fundo sobe junto pela mesma linha da peça 12 §6.1** — nenhum número novo entra por causa disso.
+>
+> **É essa regra que mantém a coluna de criação da arma de fogo viva inteira.** *No `Grau 4` cabem três das sete; no `Grau 3`, seis; e no `Grau 2` a tabela fecha.* **E o `Grau 2` é a mesma patente em que a `Arma de Fogo` deixa de precisar de autorização**, então as duas travas abrem no mesmo degrau sem ninguém ter combinado. **E o uniforme de graça custa exatamente zero em número:** *o `Traje` 1 dá proteção `1` e **desliga** o `cobrir-se`, que no refino `1` também dá `1`.* **A Defesa do nível 2 não se move um ponto**, e do nível 6 em diante o `cobrir-se` passa na frente e o jogador tira o traje sem ninguém mandar.
 
 **Com `¥150.000` a escolha é real, e nenhuma rota fica trancada.** *Seis kits de referência cabem e dois não:*
 

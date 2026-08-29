@@ -59,9 +59,44 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 **Mas metade em tudo seria dizer `¥300.000` sem dizer, e isso reverteria a decisão da v0.175**, que fixou a mensalidade cheia por busca exaustiva. *A coluna de criação existe só onde o preço codifica escassez institucional, e não capacidade: a `Arma de Fogo` é a única família do capítulo sem prateleira.*
 
+### 6 · A vitrine, e o que ela virou
+
+***Achado do Mizuki, na mesma conversa:*** *"por que tem os custos de rifle e os outros acima de 150 mil como criação se não dá pra pegar? É tipo ter na vitrine, mas sem poder comprar."* **Quatro das sete linhas da coluna eram inalcançáveis para sempre**, e ele tinha razão: o próprio livro acabara de perder sete tabelas por *"só apresentavam resultados"*.
+
+***Decisão dele:*** *"dá pra deixar e colocar avisado que em níveis acima do 2 ou a decisão do mestre, os fundos iniciais serem maiores."*
+
+**O que passou a ser derivado é a REGRA, e não o `¥150.000`: o fundo é uma mensalidade da patente em que o personagem começa.** *Nenhum número novo entrou — a escada já é a da peça 12 §6.1.* **E ela acende a coluna inteira:**
+
+| patente inicial | fundo | armas de fogo que abrem |
+|---|---|---|
+| `Grau 4` | `¥150.000` | `3` de `7` |
+| `Grau 3` | `¥300.000` | `6` de `7` |
+| `Grau 2` | `¥600.000` | **as `7`** |
+
+**O `Grau 2` é a mesma patente em que a `Arma de Fogo` deixa de precisar de autorização**, então as duas travas abrem no mesmo degrau sem ninguém ter combinado.
+
+### 7 · E a Submetralhadora ficou como está, por conta rodada
+
+***Pergunta do Mizuki:*** *"e por que a submetralhadora custa mais que o rifle?"* **A primeira resposta foi que a escada estava invertida, e a conta derrubou ela.**
+
+*Medidas as sete com o `Par` valendo — rolar os dados de dano duas vezes e ficar com o melhor:*
+
+| arma | dado | média | `¥` |
+|---|---|---|---|
+| Espingarda | `2d8` | `9,0` | `300.000` |
+| Rifle | `2d8` | `9,0` | `350.000` |
+| **Submetralhadora** | `2d6` + `Par` | **`8,4`** | `400.000` |
+| Rifle de Precisão | `2d10` | `11,0` | `600.000` |
+
+**Trocar o preço dela com o do Rifle não conserta: move a inversão de `Rifle→SMG` para `Espingarda→SMG`**, porque a Espingarda é o piso das de duas mãos e a SMG fica abaixo dela de qualquer jeito.
+
+**E o eixo estava errado desde o começo.** *O capítulo declara que "pagar mais nunca compra número — compra o que a arma é", e a tabela de arma branca é assim: Katana `¥48.000` e Machete `¥16.000` com o mesmo `d8`.* **A escada de fogo mede ACESSO**, e lida assim ela fecha: pistola, espingarda, rifle, **automática**, precisão, montada — que é a ordem de restrição do mundo real.
+
+***Decisão do Mizuki: não mexer.*** *A SMG é a arma fácil de usar — a única de fogo sem requisito de Força —, fraca por acerto, escondível de duas mãos, e a mais controlada. O pacote é coerente.*
+
 ### Adicionado
 
-- **A checagem 14 do `conferir-equipamento.py`**, dona da coluna nova, com quatro sub-checagens: a razão é uma só e sai da tabela; nenhuma arma de fogo desce abaixo de arma branca ou escudo; a criação escolhe, em vez de liberar tudo ou nada; e duas armas de fogo nunca cabem juntas. *As quatro têm teste negativo rodado.*
+- **A checagem 14 do `conferir-equipamento.py`**, dona da coluna nova, com cinco sub-checagens: a razão é uma só e sai da tabela; nenhuma arma de fogo desce abaixo de arma branca ou escudo; a criação escolhe, em vez de liberar tudo ou nada; duas armas de fogo nunca cabem juntas; e o degrau de patente em que cada arma abre bate com a escada de salário da peça 12. *As cinco têm teste negativo rodado.*
 
 ### Alterado
 
@@ -73,6 +108,8 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 - **Arma de fogo custa metade na criação e cheio depois**, porque na criação quem arma o feiticeiro é a instituição.
 - **A coluna de criação vale uma vez só, na montagem da ficha.** Perder a arma, querer uma segunda ou subir de calibre é preço de mercado.
 - **O desconto não se estende à tabela inteira**, porque isso seria reverter o orçamento da v0.175 por outro nome.
+- **O fundo da criação é uma mensalidade da patente inicial**, e não o `¥150.000` fixo — é o que tira as quatro linhas de cima da vitrine.
+- **A Submetralhadora fica onde está.** O preço dela mede acesso, e não dano, que é a régua que o capítulo declara para o catálogo inteiro.
 
 → **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **O Mizuki tem mais dois apontamentos do documento**, e as duas anotadas da v0.176 seguem abertas: o formato do `Conhecimento Antigo` e a atração sem Legado que a desligue.
 

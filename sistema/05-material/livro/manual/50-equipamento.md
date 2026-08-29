@@ -441,6 +441,8 @@ Nos ¥150.000 da criação cabem a Pistola, o Revólver e a Espingarda, e nada a
 
 Depois da criação a coluna da esquerda não existe mais. Se você perder a arma, quiser uma segunda ou quiser subir de calibre, é o preço de mercado que vale, e ele é o mesmo para todo mundo.
 
+As linhas de baixo não são enfeite: o fundo da criação é uma mensalidade da patente em que você começa, então numa campanha que abre acima do nível 2 elas entram. O `Kit inicial`, no fim deste capítulo, diz em que patente cada uma abre.
+
 **Proteção e apoio**
 {: .tab-titulo }
 
@@ -460,3 +462,7 @@ Depois da criação a coluna da esquerda não existe mais. Se você perder a arm
 ### Kit inicial
 
 > **Você começa Grau 4, com o `Traje` degrau 1 da instituição e ¥150.000 para comprar o resto.** São uma mensalidade de um Grau 4, que é o que você é.
+
+**O fundo é sempre uma mensalidade da patente em que o personagem começa**, e não um valor fixo. Quase toda ficha começa Grau 4 e por isso o número é ¥150.000, mas numa campanha que abre acima do nível 2, ou quando o mestre decide que o grupo já é gente da casa, a patente inicial sobe e o fundo sobe junto — é a tabela `Salário por patente`, no capítulo 18, que diz quanto.
+
+É isso que mantém a coluna de criação da arma de fogo viva inteira. **No Grau 4 cabem três das sete — a Pistola, o Revólver e a Espingarda; no Grau 3 entram o Rifle, a Submetralhadora e o Rifle de Precisão; e no Grau 2 a tabela `Arma de fogo` fecha, com a Metralhadora Pesada.** Não por acaso: o Grau 2 é a patente em que a arma de fogo deixa de precisar de autorização.
