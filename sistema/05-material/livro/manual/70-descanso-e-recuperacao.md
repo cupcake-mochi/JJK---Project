@@ -1,6 +1,6 @@
 # Descanso e Recuperação
 
-O combustível volta em dois momentos, e os dois são de ficção.
+O combustível volta em dois momentos.
 
 > **Descanso curto: você parou entre uma luta e outra.** Ninguém está te caçando agora.
 >
@@ -49,7 +49,7 @@ Os pontos de energia amaldiçoada que você gasta para conjurar.
 
 Os 25% valem em qualquer lugar. O que o ambiente propício faz é **proteger esse número da exaustão**: fora dele, cada degrau de exaustão corta um pedaço, até sobrar nada.
 
-Vida não volta sozinha no respiro entre lutas, porque quem conserta gente neste mundo é a Energia Reversa. O que já cura no descanso curto continua valendo o que vale.
+Vida não volta sozinha no respiro entre lutas, porque quem cura pessoas neste mundo é a Energia Reversa.
 
 ### Descanso longo
 
@@ -65,17 +65,15 @@ Vida não volta sozinha no respiro entre lutas, porque quem conserta gente neste
 
 A metade é sempre metade do **máximo**, nunca metade do que sobrou. Um Emanador de nível 10 com pool 60 que dorme no campo acorda com 30. No quarto dia de campo ele continua acordando com 30.
 
-A Integridade volta inteira em qualquer lugar. É a única coisa que o ambiente não toca: não precisa de enfermaria quem precisa é do músculo.
+A Integridade volta inteira em qualquer lugar. É a única coisa que o ambiente não toca: não precisa de enfermaria quem precisa é do corpo.
 
 > **Frações.** Arredonde para baixo, e o que você recupera nunca fica abaixo de 1.
 
-O piso de 1 não desfaz um zero escrito. Quando a tabela `Degraus de Exaustão` diz que no degrau 3 você recupera **nada**, ela diz nada: o piso existe para a conta que deu 0,4.
+Quando a tabela `Degraus de Exaustão` diz que no degrau 3 você recupera **nada**, ela diz nada.
 
 ## Exaustão
 
 > **Da quarta luta do dia em diante, cada luta dá um degrau de exaustão. Máximo de três.**
-
-As três primeiras lutas do dia são de graça.
 
 ### Contagem de luta
 
@@ -100,14 +98,12 @@ Costumam não contar: a maldição de nível baixo que morre no primeiro golpe, 
 |---|---|---|
 | **0** | — | 25% |
 | **1** | desvantagem em perícia e ofício | 15% |
-| **2** | deslocamento cai para 6 m | 5% |
+| **2** | deslocamento cai para 4,5 m | 5% |
 | **3** | desvantagem em ataque e em Teste de Resistência | nada |
 
 Desvantagem é rolar dois d20 e ficar com o menor.
 
 **Em ambiente propício o descanso curto devolve 25% em qualquer degrau.** A exaustão só corta o combustível de quem está longe de casa.
-
-**O degrau 1 não é o leve** — ele tira o mesmo que o 3, em cima de outra coisa.
 
 ### Exaustão e Integridade ao mesmo tempo
 
@@ -119,7 +115,7 @@ As duas escadas se parecem muito, e é comum estar nas duas.
 | | exaustão | Integridade |
 |---|---|---|
 | **degrau 1** | desvantagem em perícia e ofício | desvantagem em testes de perícia |
-| **degrau 2** | deslocamento cai para 6 m | deslocamento pela metade, e +1 PE por Classe |
+| **degrau 2** | deslocamento cai para 4,5 m | deslocamento pela metade, e +1 PE por Classe |
 | **degrau 3** | desvantagem em ataque e em Teste de Resistência | desvantagem em ataque e em Teste de Resistência, e teto de Classe |
 
 > **Quem está nas duas pega o pior, não soma.**

@@ -8,6 +8,98 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.176] — 29/08/2026
+
+**O Mizuki leu o Manual da Guilda inteiro no Word e devolveu 205 edições, em 21 arquivos.** Esta versão traz elas de volta para o markdown. *É a primeira vez que uma revisão feita fora do repositório volta para dentro dele, e o método disso virou documento: `METODO-volta-do-docx.md`.*
+
+### 1 · A revisão mexeu em REGRA, e não só em texto
+
+**A passada de texto da v0.136 tinha uma trava: número de regra nunca muda.** *Esta não é passada de texto* — o Mizuki editou como autor, e catorze regras mudaram de número. As que mexem em conta de mesa:
+
+| o que | antes | agora |
+|---|---|---|
+| `Aguentar`, para levantar | cura de `1` | cura de **`25%`** da vida máxima |
+| `Fura` | `3 × Classe` de RD | **`2 × Classe`** |
+| `Sobrecarga` | `Leve` | **`Pesada`** |
+| `Canalizar energia` e `Estímulo Muscular` | `1d4` no refino `3` | **`1d4` já no `1`**, `4d4` no `9` |
+| exaustão, degrau 2 | `6 m` | **`4,5 m`** |
+| `Cortina` | `20 × refino` de vida | **`40 × refino`** |
+| `Extensão de Domínio` | nível `13` | **nível `18`** |
+| Espingarda e Rifle | `Força 3` | **sem requisito** |
+
+***Razão do Mizuki para o `Fura`:*** *"quase não tem nenhuma habilidade que dá redução e os valores não são altos mesmo"*.
+
+**E três regras novas entraram:** o tiro contra quem está agarrando (`1d10`, `6+` acerta o alvo), a conversão de ação, e o `Trindade` no nível 27 do `Arremate`, que era vaga declarada.
+
+### 2 · A vida máxima saiu do dano de alma, e a conta explica por quê
+
+**Até aqui, cada ponto de dano na alma tirava `1` de vida, `1` de Integridade e `1` de vida MÁXIMA.** ***O Mizuki tirou a terceira:*** *"ficava estranho quando o personagem chegasse a 0 de vida máxima, ele caía inconsciente, mas e aí? não tem como levantar até o próximo descanso longo?"*
+
+**A conta diz que o buraco não é borda, é maioria.** *Comparando `vida máxima` com `Integridade` nas `7.105` fichas possíveis — cinco Caminhos × Constituição `0` a `6` × Essência `0` a `6` × níveis `2` a `30`:*
+
+| ficha | vida máxima | Integridade | quem zera antes |
+|---|---|---|---|
+| Bastião nv `2`, Con `3`, Ess `0` | `25` | `25` | empate |
+| Emanador nv `10`, Con `0`, Ess `5` | `42` | `110` | **vida máxima** |
+| Evocador nv `30`, Con `0`, Ess `6` | `122` | `339` | **vida máxima** |
+
+**Em `4.367` das `7.105` — `61%` — a vida máxima chega a `0` antes de a Integridade acabar**, ou seja, antes do estágio `4`, que era o único lugar onde o sistema tinha resposta. *No pior caso são `217` pontos de dano de alma em que a pessoa fica deitada sem forma de levantar, e o estágio `4` nunca chega.*
+
+> **Qualquer contorno seria um piso** — *"a vida máxima nunca desce abaixo de `1/4`"* —, ou seja, **um quarto número numa regra que já tinha três.** *A remoção apaga um número em vez de somar um, e os quatro estágios já carregam a escalada que a vida máxima repetia.*
+
+### 3 · Três Legados saíram, e um trocou de assunto
+
+**O `Sem Patente` e o `Nunca Estive Lá` saíram do catálogo**, e o `Conhecido` virou `Conhecimento Antigo`. ***Razão do Mizuki:*** *"alguns não faziam sentido existir e eu mudei outros"*. **A peça 13 foi atrás do livro na mesma versão**, e a conta dela caiu de `86` para `84` entradas escritas.
+
+> **A troca deixa uma pergunta de formato anotada na peça.** *O `Desliga` apaga **o que chega em você** — a atração do `Conhecido` chegava. O `Conhecimento Antigo` apaga **uma rolagem que você faria**, e isso é mais perto do `Ajusta`.* **O que segura ele no `Desliga` é a simetria:** automático de um lado, falha automática do outro, sem relógio.
+
+**E ela derrubou uma checagem, que é o interessante.** *A peça 21 existia, entre outras coisas, para destravar a vaga de `Desliga` do Reencarnado: ela nomeou a **atração**, e o `Conhecido` fechou a vaga em cima dela na v0.132.* **O `Conhecimento Antigo` tomou a mesma casa com outro alvo** — e o `conferir-objeto.py` §9 tinha `exatamente um Desliga` escrito como premissa, então ele acendeu.
+
+***Decisão do Mizuki: a vaga reabriu, e o repositório assume isso.*** **A casa continua cheia** — a cota é de dois `Desliga` por Origem e o Reencarnado tem os dois escritos —, **e o que ficou livre foi o alvo:** a atração continua nomeada na peça 21 §4 e nenhum Legado a apaga.
+
+> **A checagem §9 passou a aceitar zero `Desliga`, mas só quando a peça DECLARA a reabertura com todas as letras.** *Sem essa exigência ela viraria "aceita qualquer coisa" — apagar o Legado do §6 sem escrever nada sairia verde por acidente, que é a lição nº 8 aplicada ao reconhecedor.* **Os dois testes negativos foram rodados:** apagar o texto da reabertura acende, e declarar dois `Desliga` acende.
+
+### 4 · O que saiu, e o que isso custou a um validador
+
+**Saíram as notas de design em itálico dos degraus de Caminho e Trilha, e sete tabelas que só publicavam resultado** — `Rotina`, `Teto de Estigma`, `Kits que cabem`, `Índice por propriedade`, `Requisito de Força`, `Rotas do marco` e `Refino por rota`. ***Razão do Mizuki:*** *"não fazia sentido manter textos e tabelas que só apresentavam resultados, é excesso"*.
+
+**Uma frase cortada era publicação de número conferido:** *"troca dez aptidões por sete pontos de atributo"* era um dos nove lugares que o `conferir-aptidoes.py` §11 comparava entre si. **O livro saiu da lista do reconhecedor, com o motivo escrito no código**, e as outras oito continuam sendo comparadas. *O teste negativo foi rodado: perturbar a peça 11 de `10` para `9` acende a checagem.*
+
+### 5 · A lição nº 9 apareceu inteira, e de um jeito novo
+
+**Quem edita num `.docx` não vê as outras cópias do número que acabou de mudar.** *O `Fura` foi trocado em três lugares e existia em sete* — glossário, exemplo da `Lança Negra`, montagem da Técnica Máxima, `Julgamento Vertical` e a linha do `Ponto Final`. **As quatro que sobraram eram aritmética da mesma regra, e foram propagadas com a confirmação do Mizuki.**
+
+> **A regra que o método fixou:** *o documento é a fala final sobre a **decisão**, e não sobre a **cobertura** dela.* **Se a pessoa mudou um número em três lugares e recalculou um exemplo com ele, a decisão está tomada** — as cópias restantes são derivadas, e não uma segunda opinião.
+
+### Alterado
+
+- **Os 21 arquivos de `05-material/livro/manual/`**, com as 205 edições aplicadas e a guarda de número rodada arquivo a arquivo.
+- **A peça 13**, atrás do livro: dois Legados a menos e um trocado, com os totais recontados de `86` para `84`.
+- **A peça 21 §6**, que registrou a reabertura, e o `conferir-objeto.py` §7/§8/§9, que passaram a aceitá-la quando declarada.
+- **O `conferir-aptidoes.py` §11**, que deixou de esperar a contagem da rota pura no livro.
+- **`6.523` palavras a menos.** O PDF de coluna única vai de `251` para `239` páginas, e o de duas colunas de `143` para `138`.
+
+### Adicionado
+
+- **`METODO-volta-do-docx.md`**, o par do `METODO-passada-de-texto.md`: seis passos, a regra para quando o documento se contradiz, e as três armadilhas de extração que esta versão pagou.
+
+### Removido
+
+- **Os Legados `Sem Patente` e `Nunca Estive Lá`**, do livro e da peça 13.
+- **Sete tabelas derivadas e as notas de design dos degraus**, no livro.
+
+### Decidido
+
+- **A vida máxima não é mais reduzida por dano de alma** — a conta mostra que `61%` das fichas travariam antes do estágio `4`.
+- **O `Fura` ignora `2 × Classe` de Redução de Dano**, e a redução do sistema é rara e baixa o bastante para isso.
+- **A conversão de ação existe e é só da maior para a menor**: Padrão vira Bônus, Bônus vira Movimento, nunca o contrário.
+- **A vaga de `Desliga` do Reencarnado reabriu**, e a atração fica sem Legado que a apague até alguém escrever um.
+- **Uma revisão feita fora do repositório volta por método escrito**, e não a olho.
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **Ficam duas anotadas:** o formato do `Conhecimento Antigo` — `Desliga` ou `Ajusta` —, na seção do Reencarnado da peça 13, e **a atração sem Legado que a desligue**, na peça 21 §6.
+
+---
+
 ## [0.175] — 27/08/2026
 
 **O kit da criação dobrou, de meia mensalidade para uma — `¥75.000` para `¥150.000`.** ***Pedido do Mizuki:*** *"eu estava querendo fazer com que todo jogador tivesse uma quantidade de dinheiro inicial, e com esse dinheiro o jogador decidiria os itens iniciais, que aí daria variações de build"* — **"vai ter gente que não vai querer um traje, mas sim um revestimento; vai ter gente que vai querer começar com escudo"**.

@@ -2,7 +2,7 @@
 
 Aptidão é o que qualquer feiticeiro pode aprender, venha a energia de onde vier: cobrir-se de energia, levantar uma barreira, ficar de pé dentro de uma Expansão de Domínio. Ela não depende da sua técnica.
 
-Aptidão se ensina. Ela passa de mestre para aluno, de escola de espada para escola de espada, e dois feiticeiros de técnicas opostas sabem exatamente as mesmas quatro coisas contra um domínio. É o repertório comum da profissão.
+Aptidão se ensina ou se aprende. Ela passa de mestre para aluno, de escola de espada para escola de espada, e dois feiticeiros de técnicas opostas sabem exatamente as mesmas quatro coisas contra um domínio. É o repertório comum da profissão.
 
 Quem compra aptidão é o **refino**, o eixo de controle da sua ficha. Poder é quanto você tem. Refino é quanto você não desperdiça.
 
@@ -12,7 +12,7 @@ Quem compra aptidão é o **refino**, o eixo de controle da sua ficha. Poder é 
 
 Energia amaldiçoada vaza. Ela escapa do corpo de quem produz, o tempo todo, e é por isso que um feiticeiro fareja outro a um quarteirão de distância. O refino mede quanto da sua você segura.
 
-Um feiticeiro de refino 1 gasta muito para fazer pouco. A camada em volta do corpo dele sai fina, o domo que ele levanta desmancha no primeiro empurrão, e o que sobra dele no ar avisa qualquer maldição de que ele está chegando. Um feiticeiro de refino 10 entrega a energia inteira onde mandou: a mesma quantidade rende o dobro, a camada aguenta a luta toda, o domo aguenta o cerco, e o que ele solta no ar é só o que ele decidiu soltar.
+A camada em volta do corpo de um feiticeiro de refino 1 sai fina, o domo que ele levanta desmancha no primeiro empurrão, e o que sobra dele no ar avisa qualquer maldição de que ele está chegando. Um feiticeiro de refino 10 entrega a energia inteira onde deseja: a mesma quantidade rende o dobro, a camada aguenta a luta toda, o domo aguenta o cerco, e o que ele solta no ar é só o que ele decidiu soltar.
 
 É por isso que o refino é a moeda que compra aptidão. Aptidão se aprende manejando energia, com a técnica fora da conta, e quem maneja melhor aprende mais coisas.
 
@@ -36,7 +36,7 @@ Na ficha, o refino é um número de 1 a 10. Toda ficha começa em 1, e ele sobe 
 
 ### Efeito do refino
 
-> **O refino nunca entra num número disputado contra alguém que cresce mais devagar que ele.** Ele fica fora de acerto, CD, defesa e Teste de Resistência.
+> Ele fica fora de acerto, CD, defesa e Teste de Resistência.
 
 **Efeito do refino**
 {: .tab-titulo }
@@ -69,9 +69,9 @@ A cada marco a ficha ganha três coisas de graça e escolhe uma quarta.
 >
 > **Leque** — mais um feitiço, que só pode ser feitiço, e uma Passiva.
 
-Quem escolhe Refino em todo marco bate no teto no nível 22. Dali em diante a metade "mais um de refino" não tem onde cair, e a escolha entrega a segunda aptidão no lugar dela.
+Quem escolhe Refino em todo marco bate no teto no nível 22. Dali em diante escolher a rota entrega uma segunda aptidão no lugar do refino extra.
 
-> **Quem nunca escolhe Refino termina a campanha com zero aptidões.** A rota existe e é legítima: ela troca dez aptidões por sete pontos de atributo a mais.
+> **Quem nunca escolhe Refino termina a campanha com zero aptidões.** A rota existe e é jogável.
 {: .aviso }
 
 Mesmo essa ficha não fica sem nada. `Cobrir-se de energia` e `Canalizar energia` vêm de graça no refino 1, e a primeira continua crescendo com o refino passivo até 8. O que ela nunca vai ter é `Energia Reversa` nem `Barreira Simples`.
@@ -88,11 +88,11 @@ Um marco de Refino compra **uma aptidão**, de qualquer altura que o seu refino 
 
 ### Classe Passiva
 
-**A Classe Passiva é o tamanho da aptidão**, e diz o quanto aquela entrada pode entregar. As aptidões usam a mesma escada das Passivas: a escada e o que cabe em cada altura estão no capítulo 9, *Fundamento*, na seção `Passivas`.
+**A Classe Passiva é o tamanho da aptidão**, e diz o quanto aquela entrada pode entregar. As aptidões usam a mesma escala das Passivas: a escala, e o que cabe em cada nível de Classe, estão no capítulo 9, *Fundamento*, na seção `Passivas`.
 
-Aqui ela não cobra nada: o marco compra uma aptidão de qualquer altura, e o preço é o mesmo. Quem separa as alturas é o requisito.
+O marco compra uma aptidão de qualquer escala, e o preço é o mesmo. Quem separa e limita as escalas são só os requisitos.
 
-**E se você for escrever uma `Aptidão Própria`, a escada do capítulo 9 é a base:** escolha a altura que a sua ideia alcança, e escreva dentro do que aquela linha permite.
+**E se você for escrever uma `Aptidão Própria`, a escada do capítulo 9 é a base:** escolha a escala que a sua ideia alcança, e escreva dentro do que aquela linha permite.
 
 ### Requisito
 
@@ -102,11 +102,11 @@ Cada aptidão declara o próprio requisito, e ele está na linha dela no catálo
 
 ## Catálogo
 
-### Como ler uma aptidão
+### Como uma aptidão funciona
 
 Cada entrada aparece duas vezes. Primeiro nesta tabela, com quatro campos: **nome**, **requisito**, **Classe Passiva** e **o que o refino escala**. Depois na seção dela, na caixa de regra.
 
-Traço na coluna de Classe Passiva quer dizer que a entrada não declara uma. Traço na última coluna quer dizer que o refino não mexe naquela aptidão.
+Traço na coluna de Classe Passiva quer dizer que a entrada não tem uma. Traço na última coluna quer dizer que o refino não mexe naquela aptidão.
 
 **Como ler uma aptidão**
 {: .tab-titulo }
@@ -142,29 +142,25 @@ Estas duas chegam com a ficha, no refino 1, sem custar marco nenhum. Elas são o
 
 > **Exemplo.** Com refino 6 a sua proteção passiva é 3, e a Reação desconta 9 de um golpe por 2 PE.
 
-A proteção é um piso. Ela sustenta o feiticeiro que não investiu em corpo nenhum, e sai de cena assim que Traje ou Revestimento entram na conta.
-
-Fora de combate ela decide as cenas em que ninguém está brigando: a queda de três andares, o teto que cede, o carro. Um feiticeiro atravessa isso e levanta.
-
 ### Canalizar energia
 
-> **Canalizar energia** — você conjura feitiço de Toque. Um feitiço de Toque é um feitiço de Forma Toque, sem Melhoria e sem Restrição: mesma Classe, mesmo orçamento de pontos, mesmo custo em PE.
+> **Canalizar energia** — você ataca com uma arma ou com o soco, e o ataque vem imbuído de energia amaldiçoada, o que permite a um item mundano matar maldição.
 >
-> **Dano na arma.** Os seus ataques **com arma** causam `1d4` de dano a mais a cada `3` pontos de refino — `1d4` no refino `3`, `2d4` no `6`, `3d4` no `9`. **No refino `10` os dados viram `d6` e entra um dado a mais: `4d6`.**
+> **Dano na arma.** Os seus ataques **com arma** causam `1d4` de dano a mais a cada `3` pontos de refino — `1d4` no refino `1`, `2d4` no `3`, `3d4` no `6`, `4d4` no `9`. **No refino `10` os dados viram `d6`: `4d6`.**
 >
 > **Só arma.** Ele não entra em feitiço nem em Kata. E se o mesmo ataque já estiver carregando um feitiço de dano de `Classe 0` ou mais — como no nível 27 da `Brasa`, em que cada ataque leva um junto —, este dano **não** se soma por cima.
 >
 > Requisito: grátis no refino 1. O refino escala o dano na arma.
 
-Ela é a porta de toda técnica de contato, e é ela que põe energia no que a sua mão carrega.
+Ela é a porta de toda arma de contato, e é ela que põe energia no que a sua mão carrega.
 
-> **Exemplo.** Com refino 6, o soco e a lâmina levam `2d4` de dano a mais.
+> **Exemplo.** Com refino 6, o soco e a lâmina levam `3d4` de dano a mais.
 
 ## Energia crua
 
 ### Projetar energia
 
-> **Projetar energia** — você dispara energia crua. O dano é `refino`, e ela não gasta PE.
+> **Projetar energia** — você dispara energia crua. O dano é `Xd6`, e ela gasta PE num valor menor ou igual ao seu refino: cada `1` PE aumenta o `X` em `1`. O alcance segue o da sua maior Classe disponível.
 >
 > Requisito: nenhum. O refino escala o dano.
 
@@ -182,48 +178,37 @@ Ela muda a forma das lutas longas e muda o que acontece entre elas: um personage
 
 ## Aptidões de kokusen
 
-Ninguém acerta um kokusen de propósito: você percebe pelo barulho e pela cara de quem apanhou.
-
 ### Kokusen
 
-> **Kokusen** — em crítico no corpo a corpo, role d100. `2 × refino` ou menos é kokusen: o dano leva +50% depois de todos os valores resolvidos.
+> **Kokusen** — em crítico no corpo a corpo ou em feitiço de Toque, role d100. `2 × refino` ou menos é kokusen: o dano leva +50% depois de todos os valores resolvidos.
 >
-> Cada d100 falhado empurra o próximo em **+2**, e o acumulado zera no descanso longo.
+> Cada d100 falhado empurra o próximo em **+2**, e o acumulado zera no fim da cena.
 >
 > Requisito: nenhum. O refino escala a chance no d100.
 
 O +50% entra em cima do crítico que já dobrou os dados. Um crítico entrega dois punhados de dado; um kokusen entrega três. Por exemplo, com refino 6 o kokusen sai em 12 ou menos no d100 — 12% dos seus críticos corpo a corpo.
 
-O `+2` acumulado é a memória do personagem. Quem passou a noite inteira quase acertando está mais perto do que estava quando a briga começou.
+O Kokusen em si não é uma aptidão: é uma mecânica, e todo feiticeiro que tem energia consegue usar. Abaixo estão as aptidões que melhoram essa fonte.
 
 ### Kokusen Melhorado
 
 > **Kokusen Melhorado** — mesma regra do `Kokusen`, exceto que você rola dois d100 e fica com o melhor.
 >
-> Requisito: refino 5 e nível 14. O refino escala a vantagem no d100.
+> Requisito: refino 5, nível 14 e ter tirado um `Kokusen`. O refino escala a vantagem no d100.
 
 ### Kokusen Constante
 
 > **Kokusen Constante** — mesma regra do `Kokusen`, exceto que a base sobe para `3 × refino`.
 >
-> Requisito: refino 5. O refino escala a chance no d100.
-
-> **As três empilham.** Nesta ordem: a base é `3 × refino`, e a vantagem da `Kokusen Melhorado` rola em cima dela. Com as três na ficha, o d100 sai em 51% no refino 10. Nenhuma delas exige a outra.
-
-**Kokusen Constante**
-{: .tab-titulo }
-
-| refino | só a `Kokusen` | só com a `Melhorado` | só com a `Constante` | com as duas |
-|---|---|---|---|---|
-| 1 | 2% | 4,0% | 3,0% | 5,9% |
-| 5 | 10% | 19,0% | 15,0% | 27,8% |
-| 10 | 20% | **36,0%** | 30,0% | **51,0%** |
+> Requisito: refino 5 e ter tirado um `Kokusen`. O refino escala a chance no d100.
 
 ## Aptidões anti-domínio, e a `Extensão de Domínio`
 
 Uma Expansão de Domínio completa não erra. O Acerto dela simplesmente acontece com quem está lá dentro, sem rolagem e sem Teste de Resistência, e nenhuma defesa da ficha encosta nele.
 
-> **As quatro anulam o Acerto de uma Expansão de Domínio. Nenhuma delas serve contra a Expansão incompleta.**
+> **As quatro anulam o Acerto de uma Expansão de Domínio. Algumas delas servem contra a Expansão incompleta.**
+>
+> Todas exigem **concentração**, com exceção da `Extensão de Domínio`.
 >
 > A incompleta não tem acerto garantido: o Acerto dela rola. Contra ela você se defende com Defesa e com Teste de Resistência, como se defende de tudo o mais no jogo.
 
@@ -239,61 +224,30 @@ Uma Expansão de Domínio completa não erra. O Acerto dela simplesmente acontec
 
 ### Cesta Oca de Vime
 
-> **Cesta Oca de Vime** — você faz o símbolo e uma esfera se fecha em volta de você. Enquanto você o segurar, o Acerto de uma Expansão não te alcança, e você não faz mais nada. Ela não tem duração, não pede teste e não custa PE: enquanto o símbolo estiver de pé, ela está de pé.
+> **Cesta Oca de Vime** — você faz o símbolo e uma esfera se fecha em volta de você. Enquanto você o segurar, o Acerto de uma Expansão não te alcança, e você não consegue soltar as duas mãos. Ela não tem duração, não pede teste e não custa PE: enquanto o símbolo estiver de pé, ela está de pé.
 >
-> Requisito: nenhum. Classe Passiva 1.
+> Requisito: ser Reencarnado, ou ser treinado em `História`. Classe Passiva 1.
 
 A `Cesta Oca de Vime` anula o Acerto e mais nada: o Efeito da Expansão continua acontecendo em cima de você. Em troca ela não quebra, e é a única das quatro assim.
 
-Ela é a resposta de quem não tinha nada preparado. Chega já no primeiro marco de Refino de qualquer ficha, e é o que salva o feiticeiro de apoio, o estudante e a pessoa que estava passando na rua quando o domínio abriu.
-
 ### Domínio Simples
 
-> **Domínio Simples** — um domínio pequeno em volta de você, de raio `1,5 m + refino ÷ 2`. Dentro dele o Acerto de uma Expansão não acontece, e ele cobre quem estiver no raio. Custa `1 × a sua maior Classe` de PE por rodada, e ela quebra se os seus pés saírem do chão.
+> **Domínio Simples** — um domínio pequeno em volta de você, de raio `1,5 m + refino ÷ 2`. Dentro dele o Acerto de uma Expansão não acontece, os efeitos da Expansão são anulados lá dentro, e ele cobre quem estiver no raio. Custa `1 × a sua maior Classe` de PE por rodada, e ela quebra se os seus pés saírem do chão.
 >
-> Requisito: refino 4 e nível 7. Classe Passiva 2. O refino escala o raio.
-
-É o único dos quatro que protege o grupo, e isso muda a cena inteira: uma pessoa da mesa vira o abrigo, e o resto decide se vale a pena sair dele. Em compensação, quem segura o círculo vira um poste no meio da luta.
-
-O raio nunca passa de um movimento:
-
-**Domínio Simples**
-{: .tab-titulo }
-
-| refino | 1 | 2 | 4 | 6 | 8 | 10 |
-|---|---|---|---|---|---|---|
-| raio | 1,5 m | 2,5 m | 3,5 m | 4,5 m | 5,5 m | **6,5 m** |
+> Requisito: ter visto um sendo usado, ou ter aprendido com alguém; refino 3 e nível 10. Classe Passiva 2. O refino escala o raio.
 
 ### Pétala
 
-> **Pétala** — a energia cobre o seu corpo e devolve o golpe. Quando o Acerto de uma Expansão te alcança, ele é anulado no ponto de contato, `refino ÷ 2` vezes por cena. Custa `1 × a sua maior Classe` de PE por rodada, e ela cai se você perder a concentração.
+> **Pétala** — a energia cobre o seu corpo e devolve o golpe. Quando o Acerto de uma Expansão te alcança, ele é anulado no ponto de contato, `refino ÷ 2` vezes por cena. Custa `1 × a sua maior Classe` de PE por rodada.
 >
-> Requisito: refino 4 e nível 7. Classe Passiva 2. O refino escala quantos Acertos ela devolve.
-
-É a resposta de quem se recusa a parar de lutar dentro de um domínio. Ela nunca cobre a Expansão inteira: a completa dispara o Acerto ao abrir e no começo de cada turno de quem a levantou, e sempre sobra um.
-
-**Pétala**
-{: .tab-titulo }
-
-| refino | Acertos que a Expansão solta | a Pétala devolve |
-|---|---|---|
-| 4 | 3 | 2 |
-| 6 | 4 | 3 |
-| 8 | 5 | 4 |
-| 10 | **6** | **5** |
+> Requisito: ser Descendente, ou ter aprendido com alguém de algum clã; refino 2 e nível 10. Classe Passiva 2. O refino escala quantos Acertos ela devolve.
 
 ### Extensão de Domínio
 
-> **Extensão de Domínio** — você se envolve numa camada fina de domínio sem técnica dentro. Ela anula o Acerto de uma Expansão, e faz o seu ataque acertar independentemente da técnica do alvo. Dura `refino` rodadas e custa `1,5 × a sua maior Classe` de PE por rodada. Enquanto ela estiver de pé, você não usa a sua técnica.
-> **E o que encostar nela é anulado até `1/3 do refino + 1`:** uma Classe Passiva, uma Regra Própria, ou um feitiço de Classe até esse número. Acima dele, passa.
-
-*Ela não é uma aptidão anti-domínio — ela serve como uma. As três de cima existem só para anular o Acerto garantido; esta é uma camada de domínio seu, e anular o Acerto é uma das coisas que ela faz.*
+> **Extensão de Domínio** — você se envolve numa camada fina de domínio sem técnica dentro. Ela anula o Acerto de uma Expansão, anula os efeitos dela, e neutraliza técnicas ao toque. Dura `refino` rodadas e custa `1,5 × a sua maior Classe` de PE por rodada. Enquanto ela estiver de pé, você não pode usar a sua técnica amaldiçoada.
+> **E qualquer técnica que encostar nela é anulada até `1/3 do refino + 1`:** uma Classe Passiva, uma Regra Própria, ou um feitiço de Classe até esse número. Acima dele, passa.
 >
-> Requisito: refino 7 e nível 13. Classe Passiva 3. O refino escala a duração.
-
-Contra um inimigo que depende inteiro da técnica dele, você desliga o que ele sabe fazer e resolve no braço.
-
-A duração é um teto. Segurar as dez rodadas no refino 10 custa 110 de PE, e quem tem pouco PE fica seco antes do fim.
+> Requisito: refino 7 e nível 18. Classe Passiva 3. O refino escala a duração.
 
 ## Aptidões de barreira
 
@@ -307,19 +261,11 @@ A duração é um teto. Segurar as dez rodadas no refino 10 custa 110 de PE, e q
 
 O domo fica onde foi erguido. Você não leva ele junto, e é por isso que ele serve para fechar um cômodo, uma porta, uma escada.
 
-Fora de combate ela é uma porta que você fabrica: prende uma maldição num quarto até o grupo se organizar, corta o corredor por onde o reforço viria, isola a coisa que a investigação achou para ela continuar lá quando vocês voltarem. Numa cena de perseguição, ela é o jeito de decidir por onde o alvo vai ter que passar.
-
 ### Cortina
 
-> **Cortina** — mesma preparação de um minuto da `Barreira Simples`, exceto que ela cobre um lugar inteiro: um prédio, uma escola, um quarteirão. Ela esconde o que está dentro de quem não é feiticeiro, e você pendura uma condição sobre quem atravessa. Ela tem `20 × refino` de pontos de vida, e cai quando você fica `Inconsciente`.
+> **Cortina** — mesma preparação de um minuto da `Barreira Simples`, exceto que ela cobre um lugar inteiro: um prédio, uma escola, um quarteirão. Ela esconde o que está dentro de quem não é feiticeiro, e você pendura uma condição sobre quem atravessa. Ela tem `40 × refino` de pontos de vida, e cai quando você fica `Inconsciente`.
 >
 > Requisito: exige a `Barreira Simples`. O refino escala a vida dela.
-
-A `Cortina` custa dois marcos, porque você precisa da `Barreira Simples` antes. Quem não escolhe Refino pelo menos duas vezes não levanta cortina nenhuma.
-
-Quase todo o valor dela está fora de combate. Com uma cortina, a mesa luta no meio da rua às três da tarde, fecha uma escola sem evacuar ninguém, prende uma pessoa específica dentro de um quarteirão até resolver o que fazer com ela. E ela funciona na direção contrária também: achar uma cortina já levantada é descobrir que alguém preparou aquilo com antecedência.
-
-A condição da `Cortina` fala de quem atravessa, e de mais nada.
 
 **Cortina**
 {: .tab-titulo }
@@ -381,22 +327,6 @@ A trava é de forma e não de tamanho: `+3 m` é pouca coisa, e mesmo assim est�
 
 > Quem quiser a mesma ficção com Classe Passiva 3 tem a `Passiva Própria`, do lado do Fundamento, pagando em espaço de feitiço.
 
-## Passivas
-
-As Passivas são do capítulo 9, *Fundamento*.
-
-> **Passiva custa espaço de feitiço conhecido, e a Expansão de Domínio também.** Quanto mais alta a Classe Passiva, mais espaço a Passiva cobra. Aptidão não entra nessa conta.
-
-Os feitiços que você conhece:
-
-> **`2 + (nível ÷ 2)`, arredondando para baixo, mais um por marco.**
-
-São três no nível 2 e doze no nível 20. Cada Passiva e cada pedaço de Expansão que você comprar sai desse mesmo bolo — e o espaço que todo marco solta de graça entra nele também.
-
-As Passivas pedem nível: Classe Passiva 1 no nível 1, Classe Passiva 2 no 7, Classe Passiva 3 no 13. **A lista de quais Passivas existem em cada altura é uma só, e está no capítulo 9, *Fundamento*.**
-
-> **Você paga no máximo cinco Passivas.** Cada escolha de Leque no marco sobe o teto em uma vaga, e a Passiva que o Leque concede ocupa a vaga nova. As pagas continuam sendo cinco.
-
 ## Expansão de Domínio
 
-A regra da Expansão está no capítulo 9, *Fundamento*, e é lá que ela é montada e paga. Ela gasta espaço de feitiço, como Passiva, e o Acerto dela é o que as três aptidões anti-domínio anulam — mais a `Extensão de Domínio`, que não é da categoria e anula o mesmo —, contanto que a Expansão seja a completa.
+A regra da Expansão está no capítulo 9, *Fundamento*, e é lá que ela é montada. Ela gasta espaço de feitiço, como Passiva, e o Acerto dela é o que as três aptidões anti-domínio anulam — mais a `Extensão de Domínio`, que não é da categoria e anula o mesmo.

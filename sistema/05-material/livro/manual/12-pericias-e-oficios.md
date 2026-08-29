@@ -86,8 +86,6 @@ Qualquer um pode tentar escalar e falhar. Ninguém forja uma lâmina por tentati
 | Instrumento | ofício | o que a situação pedir | não rola |
 | Jogatina | ofício | o que a situação pedir | não rola |
 
-Inteligência leva 11 das 23 perícias, Essência 7, Destreza 4 e Força 1. **Nenhuma perícia mora em Constituição** — ela governa os pontos de vida e o Teste de Resistência de Vigor.
-
 > **`Sentir Energia` não existe para a Restrição Celestial pelo ramo sem energia.** Aquele ramo não tem energia amaldiçoada nenhuma, e não é caso de rolar sem treino: a perícia não entra na ficha. Está no capítulo 7, *Origens e Legados*.
 {: .aviso }
 
@@ -161,8 +159,6 @@ Não existe perícia para isso. São duas perguntas diferentes, e cada uma já t
 | *"Isso é uma técnica de troca, e troca sempre tem um custo."* | *"Ela gasta muito no começo de cada golpe. Se eu forçar três seguidos, ela seca."* |
 | Você conhece o catálogo | Você não precisa saber o nome do que está acontecendo |
 
-O Nanami trabalha pelo `Ocultismo`. O Todo, pelo `Sentir Energia`.
-
 ## Ofícios
 
 Ofício é o que o personagem sabe fazer porque alguém sentou com ele e ensinou.
@@ -189,15 +185,13 @@ Ofício é o que o personagem sabe fazer porque alguém sentou com ele e ensinou
 
 **Jogatina** — carta, dado, aposta, e ler a mesa enquanto joga. A porta social: a sala de mahjong nos fundos.
 
-> **Não existe Primeiros Socorros, e `Herbalismo` não cobre o mesmo.** Estancar sangue no meio da missão vira cena em vez de rolagem: ou alguém tem cura de verdade, ou a consequência acontece.
-
 ## Treino
 
 > **O Caminho dá duas perícias fixas e mais quatro à sua escolha, de qualquer lugar do quadro.**
 > **Mais dois ofícios à sua escolha.**
 > **A Origem dá mais duas perícias.**
 
-As duas fixas são a assinatura do Caminho, o que qualquer um daquele Caminho sabe fazer. As quatro livres são suas.
+As duas fixas são a assinatura do Caminho, o que qualquer um daquele Caminho sabe fazer. As quatro livres são a sua escolha.
 
 **Perícias fixas por Caminho**
 {: .tab-titulo }
@@ -210,9 +204,7 @@ As duas fixas são a assinatura do Caminho, o que qualquer um daquele Caminho sa
 | **Emanador** | Ocultismo · Investigação |
 | **Evocador** | Religião · Lidar com Animais |
 
-Ofício o Caminho não trava. Os dois que ele dá são livres, e você escolhe os dois.
-
-`Sentir Energia` fica fora das fixas de todos os cinco Caminhos. Qualquer um pode treinar, e ninguém ganha de graça.
+Ofício o Caminho deixa escolher livremente. Os dois que ele dá são livres, e você escolhe os dois.
 
 ### Perícias da Origem
 

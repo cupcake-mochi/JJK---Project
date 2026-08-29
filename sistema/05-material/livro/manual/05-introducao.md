@@ -2,12 +2,12 @@
 
 Você vai criar um feiticeiro. Alguém que nasceu com energia amaldiçoada, ou que aprendeu a lidar com quem tem, e que agora anda entre o mundo comum e o mundo jujutsu: o das maldições, dos clãs, da instituição que treina quem sobrevive aos dois.
 
-Este é um sistema de mesa feito para um servidor de guilda. Várias pessoas mestrando, e personagem que atravessa mesas diferentes com o mesmo dono. A ficha que você monta aqui pode sentar em mais de uma mesa, com mestres diferentes, e continuar sendo a mesma pessoa.
+Este é um sistema de mesa feito para um servidor de guilda. Várias pessoas mestrando, e personagem que atravessa mesas diferentes. A ficha que você monta aqui pode sentar em mais de uma mesa, com mestres diferentes, e continuar sendo a mesma ficha.
 
 ## Material da mesa
 
 - **Um mestre.** Quem prepara a cena, interpreta todo mundo que não é personagem de jogador, e decide o que as regras não cobrem.
-- **Um grupo.** De cinco a sete jogadores é o tamanho que este sistema pressupõe, mas qualquer grupo funciona.
+- **Um grupo.** De cinco a sete jogadores, com dois a três mestres é o tamanho que este sistema pressupõe, mas qualquer grupo funciona.
 - **Dados.** Um d20 e um punhado de d8 resolvem quase tudo. Aparecem também d4, d6, d10 e d12, quase sempre como dado de dano de arma.
 - **Uma ficha.** Papel, planilha ou o que a sua mesa usar.
 
@@ -45,6 +45,6 @@ Nem todo capítulo é para ler do começo ao fim. Metade dos capítulos é catá
 
 **Grupo novo, sem ninguém ter lido nada?** Vá direto para *Antes da primeira sessão*. É uma cena pronta, com ficha e tudo, para jogar antes de estudar o resto.
 
-**Leia Como Jogar antes de qualquer outra coisa.** É o capítulo dono do vocabulário que todos os outros usam sem parar para explicar de novo. Depois dele, pular direto para o que te interessa funciona.
+**Leia Como Jogar antes de qualquer outra coisa.** É o capítulo dono do vocabulário que todos os outros usam. Depois dele, pular direto para o que te interessa.
 
 **E se esbarrar num nome que ninguém te apresentou**, ele está no vocabulário do sistema, com o número do capítulo que trata dele por extenso.

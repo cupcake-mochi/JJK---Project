@@ -45,7 +45,7 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **`Pesada`** [Nível] | O maior. Como preço, custa Classe e meia; como condição, sai por `3` pontos de energia. Dá Teste de Resistência no fim de cada turno do alvo | 4 |
 | **Exaustão** | Relógio de descanso, em três degraus. **Não é condição neste sistema** | 5 |
 | **Sequela** | O que você ganha ao levantar de uma queda. Encurta em uma rodada a janela da queda seguinte | 1 |
-| **Cicatriz** | Permanente, ganha na segunda queda. Vantagem em `Intimidação`, desvantagem em `Persuasão`. Não sai no descanso, e a sua própria `Energia Reversa` impede que ela venha | 1 |
+| **Cicatriz** | Permanente, ganha na segunda queda. Vantagem em `Intimidação`, desvantagem em `Persuasão`. Não sai no descanso, sendo permanente a não ser que você se cure com `Energia Reversa`; ser curado por outros não tira a cicatriz, e nem quando ela já está formada no seu corpo | 1 |
 
 ## Personagem
 
@@ -63,7 +63,7 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **`Promessa`** | O pacto entre duas partes, com as duas aceitando. Tem três termos: o que eu dou, o que eu recebo, e a cláusula que eu acrescento | 16 |
 | **Patente** | O seu reconhecimento na instituição, de Grau 4 a Grau 1. Todo personagem começa **Grau 4** | 7 |
 
-> **Cuidado com a palavra `Grau`.** Ela nomeia duas escadas de cinco casas que não se encostam: a **patente** de um feiticeiro e o **grau** de uma ferramenta amaldiçoada. Patente é reconhecimento; grau de ferramenta é a energia que a peça carrega. O capítulo 15 abre a diferença.
+> **Cuidado com a palavra `Grau`.** Ela nomeia duas escadas de cinco casas que não se encostam: a **patente** de um feiticeiro e o **grau** de uma ferramenta amaldiçoada. Patente é reconhecimento; grau de ferramenta é a energia que a ferramenta carrega. O capítulo 15 abre a diferença.
 {: .aviso }
 
 ## Técnica
@@ -84,7 +84,7 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **Restrição** | O que você vende para recuperar ponto. Paga Melhoria, **nunca vira dano** | 9 |
 | **Família** | Um dos nove grupos de Melhoria. Na criação você fecha duas como Livres e três como Fechadas | 9 |
 | **Selo** | O que você sempre faz para conjurar. Não custa nem devolve ponto | 9 |
-| **Classe 0** | O feitiço grátis: não gasta PE, não ocupa espaço na lista e não se monta | 9 |
+| **Classe 0** | O feitiço grátis: não gasta PE e não ocupa espaço na lista | 9 |
 | **Passiva** | Efeito que fica ligado sozinho. Custa espaço de feitiço | 9 |
 | **Classe Passiva** | A altura de uma Passiva, de Livre a 3. Diz quantos espaços ela cobra e em que nível abre | 9 |
 | **Espaço de feitiço** | `2 + (nível ÷ 2)`, arredondando para baixo, mais um por marco. É a moeda que Passiva e Expansão de Domínio também gastam | 17 |
@@ -93,7 +93,7 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **Técnica Máxima** | O golpe de dano fixo que carrega o nome da técnica. Do nível 17 em diante | 9 |
 | **Uso Livre** | O que a sua técnica faz de graça fora de combate, sem rolagem e sem montagem | 9 |
 | **Expansão de Domínio** | O espaço fechado onde a sua técnica manda. Custa espaço de feitiço | 9 |
-| **Dano na alma** | Tira vida, Integridade e vida máxima no mesmo tanto. Entra cheio, e tem quatro estágios | 4 |
+| **Dano na alma** | Tira vida e Integridade no mesmo tanto. Entra cheio, e tem quatro estágios | 4 |
 
 ## Técnica Marcial
 
@@ -163,7 +163,7 @@ Melhoria — são escadas diferentes que usam as mesmas três palavras. O capít
 
 | Termo | O que é | Cap. |
 |---|---|---|
-| **`Agarrado`** | Seu deslocamento é `0`. Acaba se quem agarrou ficar `Incapacitado`, ou se algo tirar você do alcance dele | 4 |
+| **`Agarrado`** | Seu deslocamento é `0`. Acaba se quem agarrou ficar `Incapacitado`, ou se algo tirar você do alcance dele. Ataque à distância tem 50% de chance de acertar quem está agarrando: role `1d10`, e em 6 ou mais você acerta o alvo desejado; em 5 ou menos, acerta quem está agarrando | 4 |
 | **`Amedrontado`** | Desvantagem em ataque e em teste enquanto você enxergar a fonte do medo, e você não se aproxima dela de vontade própria | 4 |
 | **`Atordoado`** | Você perde a Ação Padrão e não usa reação | 4 |
 | **`Calado`** | Você não conjura. Nada que precise de voz, gesto ou Selo sai | 4 |
@@ -226,7 +226,7 @@ Melhoria — são escadas diferentes que usam as mesmas três palavras. O capít
 | **`Gesto`** | Restrição: precisa das duas mãos livres e de falar em voz audível | 9 |
 | **`Parado`** | Restrição: você não se move no turno em que conjura | 9 |
 | **`Uma Vez`** | Restrição: uma vez por cena | 9 |
-| **`Fura`** | Melhoria: ignora até `3 × Classe` de Redução de Dano | 9 |
+| **`Fura`** | Melhoria: ignora até `2 × Classe` de Redução de Dano | 9 |
 | **`Longe`** | Melhoria: sobe um degrau na escada de alcance. Pode comprar duas vezes | 9 |
 | **`Maior`** | Melhoria: sobe um degrau de tamanho de área. Pode comprar duas vezes | 9 |
 | **`Precisão`** | Melhoria: `+2` na rolagem de acerto, ou `+2` na CD do Teste de Resistência | 9 |
@@ -251,7 +251,7 @@ Melhoria — são escadas diferentes que usam as mesmas três palavras. O capít
 **Palavras com sentido próprio**
 {: .tab-titulo }
 
-| Palavra | Aqui ela quer dizer | E **não** quer dizer |
+| Palavra | Aqui ela quer dizer | E não quer dizer |
 |---|---|---|
 | **Classe** | o tamanho de um feitiço | a profissão do personagem |
 | **Grau** | patente na instituição, **ou** a força de uma ferramenta | nada além disso |
@@ -261,6 +261,3 @@ Melhoria — são escadas diferentes que usam as mesmas três palavras. O capít
 | **Exaustão** | relógio de descanso | condição — não é, e não se compra com a Melhoria `Condição` |
 | **Essência** | perceber energia, trato social, hierarquia | força de vontade sozinha |
 | **Refino** | quanto da sua energia não se perde | melhorar um item |
-
-> **`Paralisado` não existe neste sistema.** O que outros jogos chamam assim se chama `Atordoado` aqui.
-{: .aviso }

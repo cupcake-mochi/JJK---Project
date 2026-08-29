@@ -47,8 +47,6 @@ Na criação, depois da Descrição e da Regra, você escolhe uma das duas. **A 
 > **Você é treinado nas três**, seja qual for a lista de treino do seu Caminho.
 > **As suas Katas valem com qualquer arma amaldiçoada desses três grupos.**
 
-Se a sua lâmina quebrou no meio da missão, qualquer outra arma amaldiçoada dos seus três grupos serve, e as suas Katas continuam.
-
 #### Limites
 
 **Os três grupos entregam arma, treino e o Selo. Manha nenhuma.** Uma Vanguarda desta rota continua escolhendo **uma** categoria na `Escola de Arma`, e pode escolher uma que não seja das três.
@@ -59,11 +57,9 @@ Se a sua lâmina quebrou no meio da missão, qualquer outra arma amaldiçoada do
 
 #### Atributo
 
-A sua técnica declara um atributo na criação, como toda técnica declara — capítulo 9, *Fundamento*, na seção *Atributo da técnica*.
+A sua técnica não declara um atributo na criação, diferente do que uma técnica amaldiçoada declara — capítulo 9, *Fundamento*, na seção *Atributo da técnica*.
 
-> **Acerto dos três grupos.** Eles têm de acertar pelo atributo que você declarou.
-
-O catálogo de armas só tem duas respostas para *"que atributo acerta com essa arma?"*, então sobra escolha:
+> **Atributo de arma.** A CD das suas Katas, as rolagens de acerto e o resto exigem uma rolagem de conjuração usando o atributo principal da arma usada na Kata.
 
 **Grupos por atributo de acerto**
 {: .tab-titulo }
@@ -75,19 +71,19 @@ O catálogo de armas só tem duas respostas para *"que atributo acerta com essa 
 
 A `Lâmina Longa` está nas duas porque a Rapieira e a Katana carregam `Fineza`.
 
-> **Só Força e Destreza.** Nenhum grupo de arma acerta por Inteligência, Essência ou Constituição. Se a sua ficha é a pessoa que resolve com a cabeça, a rota é a de ferramenta.
-
 ### Rota de ferramenta
 
 > **Escolha uma ferramenta amaldiçoada sob medida, de grau 4, na forma de objeto de apoio** — a categoria que o capítulo 15 abre ao lado do catálogo de armas.
 > **Ela não tem dado de arma**, e não precisa ter: as suas Katas nunca somaram o dado do equipamento.
-> **Ela declara na criação se o seu golpe simples atravessa por ela.**
+> **Ela declara na criação se o seu golpe simples usa ela.**
 > **As suas Katas valem só com ela.**
-> **Ela declara qualquer um dos cinco atributos**, e quem justifica é a ficção do objeto.
+> **Ela declara qualquer um dos cinco atributos**, e quem justifica é a narrativa da ferramenta.
 
-Uma armadura construída por engenharia, uma câmera amaldiçoada, uma maleta, um instrumento. Uma armadura de engenharia acerta por Inteligência; um instrumento que se toca acerta por Essência.
+Uma armadura construída por engenharia, uma câmera amaldiçoada, uma maleta, um instrumento. Uma armadura de engenharia usaria Inteligência; um instrumento com senciência usa Essência.
 
-> **Se a ficção for armadura, ela É o seu uniforme.** Não some com o `Traje` nem com o `Revestimento` do capítulo 14 — ela é um dos dois, e usa os números de lá.
+> **Se a narrativa for armadura, ela É o seu uniforme.** Não some com o `Traje` nem com o `Revestimento` do capítulo 14 — ela é um dos dois, e usa os números de lá.
+>
+> **Se a narrativa for a sua arma, ela É a sua arma.** Não some a ferramenta junto da arma em ataque simples, nem nas suas Katas — Katas já não somam dano de arma.
 
 ## Selo
 
@@ -101,7 +97,7 @@ Ele funciona como qualquer outro Selo: não custa ponto, não devolve ponto e n�
 | A Restrição | O que acontece |
 |---|---|
 | qualquer uma que peça *"estar com a minha arma"* | **não devolve ponto.** O Selo já obriga isso |
-| `Gesto`, que pede as duas mãos livres | quase invendável nesta rota, e impossível numa arma de duas mãos |
+| `Gesto`, que pede as duas mãos livres | quase impossível de vender nesta rota, e impossível numa arma de duas mãos |
 
 ## Ferir maldição
 
@@ -109,60 +105,40 @@ Uma arma comum não fere maldição. Quem tem energia resolve isso com `Canaliza
 
 > **Toda Kata passa pelo equipamento, e o equipamento é ferramenta amaldiçoada de grau 4.** Então toda Kata fere maldição, nas duas rotas.
 
-Sobra o golpe simples, que não é Kata e sai de graça em todo turno.
-
 **Golpe simples e maldição**
 {: .tab-titulo }
 
 | Rota | O golpe simples |
 |---|---|
-| **arma** | sai por uma das três, que são grau 4. **Fere maldição** |
+| **arma** | sai por uma das três ferramentas ganhas, que são grau 4. **Fere maldição** |
 | **ferramenta** | é o soco, e soco não fere maldição. **Depende do objeto** |
 
 Na rota de ferramenta, o objeto declara qual dos dois é na criação — uma linha da ficha, junto da Descrição, no mesmo lugar em que o Fundamento anota o tipo de dano.
 
-> **Coisa que o golpe atravessa** — armadura, manopla, máscara, coturno. O seu golpe simples fere maldição.
-> **Coisa que você só carrega** — câmera, lanterna, maleta, instrumento. O seu golpe simples não fere maldição, e as suas Katas continuam ferindo.
+> **Coisa que dá para usar para atacar** — armadura, manopla, máscara, coturno. O seu golpe simples fere maldição.
+> **Coisa que você só carrega** — câmera, lanterna, maleta, instrumento. O seu golpe simples não fere maldição, e você depende das suas Katas para isso.
 
-> **⚠ Na Restrição Celestial pelo ramo sem energia, escolha com cuidado — ela cobra tarde.** O ataque extra que Bastião e Vanguarda ganham no nível 7 é um golpe simples, e ele sai na Ação de Atacar. Se o seu objeto é do tipo que você só carrega, esses dois Caminhos passam a valer bem menos na sua ficha.
-{: .aviso }
-
-> **O Corpo Amaldiçoado fere maldição com o golpe simples, seja qual for o objeto.** Ele tem energia amaldiçoada, então tem aptidões e refino normais — e com eles o `Canalizar energia` de graça no refino 1. **O equipamento continua obrigatório**, porque ele é o Selo, e sem Selo não sai Kata.
-
-## `Desarmado`
-
-Pôr o Selo num objeto põe a sua ficha atrás de uma condição — `Desarmado`, no capítulo 4, quando alguém tira a sua arma da sua mão.
-
-> **Rota de arma:** a Kata vale com arma de qualquer um dos três grupos. Tiraram uma, sobram duas.
-> **Rota de ferramenta:** objeto de apoio não ocupa a mão de arma, e o `Desarmado` não alcança ele.
-
-Sacar a segunda é o primeiro saque do seu turno, então sai de graça — capítulo 2, *O Turno*, na seção *Sacar e guardar*.
-
-## Marco
-
-**O seu marco tem os três eixos**, iguais aos de todo mundo: `Corpo`, o eixo de controle, e `Leque`. Você tem lista de Katas, tem Passivas e tem espaços, então o `Leque` compra o que ele sempre comprou.
-
-O eixo de controle muda de nome com a Origem: quem tem energia amaldiçoada leva `Refino` e aptidões, no capítulo 12; quem não tem leva `Lapidação` e Bênçãos, no capítulo 13.
+> **O Corpo Amaldiçoado fere maldição com o golpe simples, seja qual for o objeto.** Ele tem energia amaldiçoada, então tem aptidões e refino normais — e com eles o `Canalizar energia` de graça no refino 1. **Mas o equipamento continua obrigatório**, porque ele é o Selo, e sem Selo não dá para usar Kata.
 
 ## Passivas
 
-Passiva é o que a sua técnica faz sem você mandar, e aqui ela funciona igual ao capítulo 9, *Fundamento*: a Livre é de graça, e as pagas custam espaços de Kata pela Classe Passiva.
+Passiva é o que a sua técnica faz sem você exigir, e aqui ela funciona igual ao capítulo 9, *Fundamento*: a Livre é de graça, e as pagas custam espaços de Kata pela Classe Passiva.
 
-Onde o capítulo 9 escreve energia, aqui se escreve corpo, treino e ferramenta.
+Onde o capítulo 9 escreve energia, aqui se escreve físico, treino e ferramenta.
 
-Nenhuma delas é catálogo e nenhuma tem requisito. Passiva se escreve na hora, com o mestre, e as de baixo são exemplo do que cada Classe Passiva compra.
+Passiva se escreve na hora, com o mestre, e as de baixo são exemplo do que cada Classe Passiva pode comprar.
 
 ### `Calo`
 
 > **`Calo`** — vale sobre qualquer arma que você já empunhou uma vez.
 >
-> **O que você reconhece.** A sua mão identifica a arma pelo peso, sem olhar.
+> **O que você reconhece.** Só de segurar uma arma você sabe qual é, sem precisar ver: basta sentir o peso.
 >
 > Classe Passiva Livre. Como toda Livre, ela não rola dado, não muda número e não faz ninguém rolar.
 
-### `Bocado`
+### `Maldição do Inventário`
 
-> **`Bocado`** — vale sobre o que você carrega, o tempo todo.
+> **`Maldição do Inventário`** — vale sobre o que você carrega, o tempo todo.
 >
 > **Saque.** Você saca ou guarda **dois** itens de graça por turno, em vez de um.
 >
@@ -172,18 +148,8 @@ Nenhuma delas é catálogo e nenhuma tem requisito. Passiva se escreve na hora, 
 >
 > Classe Passiva 1.
 
-> **Contra Expansão de Domínio o `Bocado` não muda nada.** O Acerto garantido lê alvo, e item nunca foi alvo — o que você carrega atravessa domínio de qualquer jeito.
+> **Contra Expansão de Domínio a `Maldição do Inventário` não muda nada.** O Acerto garantido lê alvo, e item nunca foi alvo — o que você carrega atravessa domínio de qualquer jeito.
 {: .aviso }
-
-### `Raiz`
-
-> **`Raiz`** — vale contra qualquer coisa que tente tirar você do lugar.
->
-> **Movimento forçado.** Você não é movido à força.
->
-> **`Derrubado`.** Você não fica `Derrubado` contra a sua vontade.
->
-> Classe Passiva 1.
 
 ### `Leitura`
 
@@ -215,7 +181,7 @@ Nenhuma delas é catálogo e nenhuma tem requisito. Passiva se escreve na hora, 
 
 ### `Aliança`
 
-> **`Aliança`** — vale sobre a sua arma, o tempo todo.
+> **`Aliança`** — vale sobre a sua arma (uma arma), o tempo todo.
 >
 > **Desarmar.** A sua arma nunca é desarmada.
 >
@@ -224,8 +190,6 @@ Nenhuma delas é catálogo e nenhuma tem requisito. Passiva se escreve na hora, 
 > Classe Passiva 3.
 
 ## Técnicas Marciais prontas
-
-Duas, uma de cada rota. As duas param onde a criação de personagem para: Descrição, Regra, atributo, rota, Famílias e a Passiva.
 
 ### Fisga
 
@@ -240,7 +204,6 @@ Duas, uma de cada rota. As duas param onde a criação de personagem para: Descr
 | **Grupos** | Armas Longas · Ceifa · Flexível |
 | **Livres** | Alcance · Controle |
 | **Fechadas** | Amparo · Auxiliares · Área |
-| **Passiva** | `Raiz` (Classe Passiva 1): você não é movido à força nem derrubado contra a sua vontade |
 
 `Amparo` está Fechada porque nenhuma das três cura ninguém.
 
@@ -251,12 +214,12 @@ Duas, uma de cada rota. As duas param onde a criação de personagem para: Descr
 
 | | |
 |---|---|
-| **Descrição** | Ele nasceu sem nada e leu tudo. A armadura é dele: fez, refez, e conhece cada solda. Ela não tem energia amaldiçoada nenhuma dentro — o que ela tem é a maldição que ele prendeu no chassi e um sistema que ele entende melhor que o fabricante entenderia. Tipo de dano: impacto. |
+| **Descrição** | Ele nasceu sem nada e teve de ler tudo para chegar aonde chegou. A armadura é dele: fez, refez, e conhece cada solda. Ela não tem energia amaldiçoada nenhuma dentro — o que ela tem é a maldição que ele prendeu no chassi e um sistema que ele entende melhor que o fabricante entenderia. Tipo de dano: impacto. |
 | **Regra** | *"Resolver o problema com a peça certa."* |
 | **Atributo** | Inteligência |
-| **Ferramenta** | uma armadura de corpo inteiro. **Coisa que o golpe atravessa** — os punhos dela são dele |
+| **Ferramenta** | uma armadura de corpo inteiro. **Coisa que dá para usar para atacar** — os punhos dela são dele |
 | **Livres** | Auxiliares · Amparo |
 | **Fechadas** | Área · Marca · Castigo |
 | **Passiva** | `Leitura` (Classe Passiva 1): você identifica a Classe e a Forma de qualquer feitiço conjurado a até 18 m |
 
-A armadura da Bancada é o `Revestimento` do capítulo 14, com os números publicados lá. E `Amparo` é Livre porque a ficção aguenta: uma arma que cura é difícil de justificar, e uma bancada de engenharia não é.
+A armadura da Bancada é o `Revestimento` do capítulo 14, com os números publicados lá. E `Amparo` é Livre porque a narrativa aguenta: uma arma que cura é difícil de justificar, e uma bancada de engenharia não é.

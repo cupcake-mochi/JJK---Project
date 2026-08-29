@@ -171,9 +171,9 @@ Na mesa você lê *"role 2d10+6"*.
 >
 > **Duplo 1, `Brecha`.** O ataque acerta. O agressor pode gastar a Reação dele para atacar você de novo na hora, sem bônus nenhum.
 
-**O `Aparar` não anula um 20 natural.** Quem ataca continua rolando d20, e crítico fura guarda.
+**O `Aparar` não anula um 20 natural.** Quem ataca continua rolando d20, e crítico fura o `Aparar`.
 
-> **Exemplo.** A Rina está com Defesa 17, então a linha dela é `Bloquear 2d10+6`. Uma maldição ataca e tira **18**: com a Defesa parada, isso acerta. Ela bloqueia, tira `7` e `4`, e com o `+6` dá **17** — o ataque acerta do mesmo jeito.
+> **Exemplo.** A Rina está com Defesa 17, então a linha dela é `Bloquear 2d10+6`. Uma maldição ataca e tira **18**: com a Defesa parada, isso acerta. Ela tenta bloquear, tira `7` e `4`, e com o `+6` dá **17** — o ataque acerta do mesmo jeito.
 >
 > Na rodada seguinte a mesma maldição tira **19**. A Rina bloqueia e sai `10` e `10`: `Aparar`. O ataque não acerta, e ela ainda tem a Reação na mão. Aí vem a decisão — gastar a Reação para bater de volta com `+3` de dano, ou guardar ela para o capanga que ainda não agiu neste turno.
 
@@ -183,13 +183,7 @@ Na mesa você lê *"role 2d10+6"*.
 >
 > **`Bloquear` usa exatamente o mesmo modificador da sua Defesa parada.** Nada pode aumentar um sem aumentar o outro — se um escudo, uma aptidão, um Legado ou uma ferramenta subir um lado só, a regra quebra.
 
-Quem está `Incapacitado` não pode `Bloquear`. É a única condição que desliga a rolagem, e ela está no capítulo 4, *Dano, Condições e Cobertura*.
-
-### Custo
-
-> **O que você paga é variação, e não média.** Um em cada doze golpes vai passar porque você rolou, quando a sua Defesa parada teria segurado — e um em cada doze vai ser segurado quando ela teria deixado passar. **É a mesma taxa dos dois lados**, e é ela que faz a troca fechar em zero.
->
-> **O que você compra são os dois extremos.** O `Aparar` e a `Brecha` saem em cerca de 1% das rolagens cada um.
+Quem está `Incapacitado` não pode `Bloquear`. É a única condição que impede a rolagem, e ela está no capítulo 4, *Dano, Condições e Cobertura*.
 
 ## Testes de Resistência
 
@@ -218,7 +212,7 @@ Você é treinado em **dois dos quatro**: a sua Origem treina um, o seu Caminho 
 
 ## Vida, energia e alma
 
-Vida é o corpo, energia é o combustível, Integridade é a alma. O **Caminho** define os números abaixo, e você escolhe ele na criação; o capítulo 6, *Criação de Personagem*, explica o que cada Caminho é.
+Vida é o **corpo**, energia é o **combustível**, Integridade é a **alma**. O **Caminho** define os números abaixo, e você escolhe ele na criação; o capítulo 6, *Criação de Personagem*, explica o que cada Caminho é.
 
 ### Pontos de vida
 
@@ -249,7 +243,7 @@ Algumas coisas dão **vida temporária**: a Forma `Apoio`, a Passiva `Fluxo`, e 
 
 Por exemplo, com 40 de vida máxima o seu teto é 20: um efeito que daria 27 te deixa em 20, e um segundo efeito que daria 12 não soma nada, porque 20 é maior.
 
-**O mestre pode deixar ela atravessar para a cena seguinte** quando a preparação foi deliberada — quem se cobre antes de entrar no prédio não perde o que gastou porque a cena mudou de nome.
+**O mestre pode deixar ela atravessar para a cena seguinte** quando a preparação foi deliberada — quem se cobre antes de entrar no prédio não perde o que gastou porque a cena mudou.
 
 Ela não sobe a sua vida máxima, não conta para `Insistir`, e não é cura: quem está a `0` de vida e recebe vida temporária continua a `0`.
 
@@ -267,9 +261,9 @@ Sem atributo e sem valor inicial: no nível 1 você tem o PE de um nível.
 
 > **Integridade = 20 + (Essência + 5) × (nível − 1).**
 
-Integridade é a sua alma. Nem o Caminho nem a Constituição mexem nela — dano de alma passa por cima de corpo duro. Quem manda no tamanho dela é a **Essência**, e é por isso que ela é a única reserva em que um corpo duro pode ser frágil.
+Integridade é a sua alma. Nem o Caminho nem a Constituição mexem nela — dano de alma passa por cima do corpo físico. Quem manda no tamanho dela é a **Essência**, e é por isso que ela é a única reserva em que um corpo resistente pode ser frágil.
 
-Toda ficha começa com os mesmos 20: você nasce com a alma que nasceu, e o que a Essência muda é o quanto ela cresce daí em diante.
+Toda ficha começa com os mesmos 20: você nasce com essa alma, e o que a Essência muda é o quanto ela cresce daí em diante.
 
 > **Exemplo.** Kaori tem Essência 1. No nível 2 a Integridade dela é `20 + 6 = 26`; no nível 10, `20 + 6 × 9 = 74`. Um Emanador de Essência 5 no nível 10 teria `110`.
 
@@ -284,31 +278,21 @@ Boa parte das contas do sistema cai em fração.
 
 > **Exemplo.** Você recupera 2,5 de PE num descanso curto: recupera 2. Um efeito te cobra 2,5 de PE: você paga 3.
 
-A regra vale para a conta que cai na sua mão na mesa. Número que já está impresso numa tabela você copia e segue: a vida por nível do Caminho, por exemplo, já vem arredondada na tabela `Vida e PE por Caminho`.
-
-O piso de 1 é sobre arredondamento. Quando uma regra diz que você recupera **nada**, ela diz nada, e o piso não desfaz um zero escrito.
+Número que já está impresso numa tabela você copia e segue: a vida por nível do Caminho, por exemplo, já vem arredondada na tabela `Vida e PE por Caminho`.
 
 ## Vida a 0
 
-O personagem levou o golpe que zerou a barra, a mesa para, e quem escolhe o que acontece é você.
+O personagem levou o golpe que zerou a barra, a mesa para, e quem escolhe o que acontece é o jogador.
 
 > **Você chega a 0 de vida. Escolha uma das duas, na hora:**
 >
-> **Aguentar** — você apaga. Tem uma janela de **3 rodadas**. Qualquer cura de 1 ou mais te põe de pé. Se a janela acabar sem socorro, você chega ao **estágio 4 de dano de alma**.
+> **Aguentar** — você apaga. Tem uma janela de **3 rodadas**. Qualquer cura de **25%** ou mais da sua vida **máxima** te põe de pé. Se a janela acabar sem socorro, você chega ao **estágio 4 de dano de alma**.
 >
 > **Insistir** — você fica de pé a 0 de vida e age normalmente. Cada rodada custa um pedaço da sua **vida máxima**, e ele dobra: **1/8, depois 1/4, depois 1/2**. Na quarta rodada você desaba.
 
 Quem desaba pelo Insistir não levanta com um ponto de cura. Só acorda com uma cura de **metade da sua vida máxima original, de uma vez só**.
 
-**Aguentar e Insistir**
-{: .tab-titulo }
-
-| | ganha | custa |
-|---|---|---|
-| **Aguentar** | janela de 3 rodadas, e acorda com 1 de cura | fora da luta desde já, 1 Sequela |
-| **Insistir** | 3 rodadas agindo | 7/8 da vida máxima, 1 Sequela, e só acorda com metade da máxima original |
-
-O custo do Insistir usa o arredondamento de sempre: ele é uma coisa que você paga, então ele sobe.
+O custo do Insistir usa o arredondamento de sempre.
 
 > **Exemplo.** Kaito tem 80 de vida máxima e chega a 0 com o chefe quase morto. Ele escolhe Insistir. Na primeira rodada paga 10 (1/8 de 80), na segunda 20, na terceira 40. Se o chefe não cair até lá, Kaito desaba na quarta.
 
@@ -320,17 +304,17 @@ O custo do Insistir usa o arredondamento de sempre: ele é uma coisa que você p
 >
 > Sequela some no descanso longo. Vida máxima e Integridade voltam junto, como sempre.
 >
-> **A Cicatriz é uma marca que o mundo lê.** Você rola `Intimidação` com vantagem e `Persuasão` com desvantagem, e ela não muda mais nada.
+> **A Cicatriz é uma marca visível.** Você passa a rolar `Intimidação` com vantagem e `Persuasão` com desvantagem.
 >
-> **Ela não vem se quem fechou o ferimento foi a sua própria `Energia Reversa`.** Cura de qualquer outra fonte deixa a marca, inclusive a `Energia Reversa` de outra pessoa. E o que já cicatrizou não se reescreve: nenhuma cura apaga uma Cicatriz depois de ela existir.
+> Cura de qualquer outra fonte deixa a marca, inclusive a `Energia Reversa` de outra pessoa. E nenhuma cura apaga uma Cicatriz depois de ela existir.
 >
-> **Duas Cicatrizes valem uma**, porque vantagem não empilha. Da segunda em diante elas são só história.
+> **Duas Cicatrizes não acumulam**, porque vantagem não empilha. Da segunda em diante elas são só mais histórias.
 
 Sequela deixa as suas rolagens exatamente como estavam. O que encurta é a próxima queda: onde antes havia três rodadas de janela, agora há duas.
 
-A Cicatriz é o contrário: ela não mexe em nada dentro da luta. O que ela muda é depois — quem viu você levantar duas vezes na mesma missão acredita rápido quando você ameaça, e devagar quando você pede.
+A Cicatriz é o contrário: ela não mexe em nada dentro da luta. O que ela muda é depois.
 
-**Fechar o próprio ferimento é a única forma de não levar a marca, e ela passa por uma porta só.** Quem escolheu Aguentar está apagado e não age: só outra pessoa alcança ele, e outra pessoa deixa a marca. Quem ficou de pé pelo Insistir ainda tem a Ação Padrão na mão, e a `Energia Reversa` é uma Ação Padrão.
+**Fechar o próprio ferimento é a única forma de não levar a marca.** Quem escolheu Aguentar está apagado e não age: só outra pessoa alcança ele. Quem ficou de pé pelo Insistir ainda tem a Ação Padrão, e a `Energia Reversa` é uma Ação Padrão.
 
 ### Inconsciente
 

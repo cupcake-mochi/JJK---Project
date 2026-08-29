@@ -21,18 +21,20 @@ A ordem sai uma vez e vale enquanto a cena durar. Ninguém rola de novo a cada r
 
 | Recurso | Quanto | O que faz |
 |---|---|---|
-| Ação de Movimento | uma | compra até 9 metros de deslocamento, e o segundo saque do turno |
+| Ação de Movimento | uma | até 9 metros de deslocamento, e o segundo saque do turno |
 | Ação Padrão | uma | atacar, conjurar, a maior parte das coisas |
 | Ação Bônus | uma | só o que a regra disser, com todas as letras, que é Ação Bônus |
 | Reação | uma | responde a um gatilho, vale fora do seu turno, e volta no começo do seu turno |
 
-Os quatro são independentes. Você tem os quatro em todo turno seu, e gastar um não mexe nos outros. Também não dá para trocar: abrir mão da Ação Padrão não compra movimento nem uma segunda Ação Bônus.
+Os quatro são independentes. Você tem os quatro em todo turno seu, e gastar um não mexe nos outros.
 
-O slot de Ação Bônus fica vazio na maioria dos turnos da maioria das fichas. Ele só acende quando alguma coisa escrita na sua ficha diz **Ação Bônus** com todas as letras.
+**Dá para converter**, quando você quer tomar mais de uma ação menor no mesmo turno. Uma **Ação Padrão** vira uma **Ação Bônus**, e uma **Ação Bônus** vira uma **Ação de Movimento**. **Sempre da maior para a menor, nunca o contrário:** abrir mão do movimento não compra Ação Bônus, e abrir mão da Ação Bônus não compra Ação Padrão.
+
+É normal ter o slot de Ação Bônus sem nada no que usar na maioria dos turnos. Ele só acende quando alguma coisa escrita na sua ficha diz **Ação Bônus** — então não se preocupe com isso caso ocorra com a sua ficha: existem ações que o próprio sistema traz para você nesses casos.
 
 ### Deslocamento
 
-**Ação de Movimento** é o slot do turno; **deslocamento** é a distância que ele compra. Onde a sua ficha disser `+3 m`, `metade do deslocamento` ou `perde o deslocamento do próximo turno`, está falando de metros.
+**Ação de Movimento** é o slot do turno; **deslocamento** é a distância que ele oferece. Onde a sua ficha disser `+3 m`, `metade do deslocamento` ou `perde o deslocamento do próximo turno`, está falando de metros.
 
 O seu deslocamento base é 9 metros, e você corta esse total em quantos pedaços quiser dentro do turno. Dá para andar 3 metros, atacar, e andar os 6 que sobraram. É assim que alguém sai de trás de uma coluna, dá o golpe e volta para trás dela no mesmo turno.
 
@@ -77,7 +79,7 @@ Doze ações têm regra escrita, e você continua podendo tentar o que não est�
 
 ### Agarrar e Derrubar
 
-As duas são opções do `Atacar`, e cada uma ocupa um dos seus ataques. Quem tem ataque extra agarra com um golpe e bate com o outro, no mesmo turno. Cada uma aplica a condição de mesmo nome, e o efeito delas está no capítulo 4, *Dano, Condições e Cobertura*.
+Quem tem ataque extra pode agarrar com um golpe e bater com o outro, no mesmo turno. Cada uma aplica a condição de mesmo nome, e o efeito delas está no capítulo 4, *Dano, Condições e Cobertura*.
 
 ### Ajudar
 
@@ -87,21 +89,21 @@ Um ajudante por teste. Dois aliados ajudando não dão vantagem duas vezes, e o 
 
 O teste é de Essência, e a perícia depende do jeito que você escolher: `Persuasão`, `Enganação`, `Intimidação` ou `Atuação`. Serve tanto para o negociador do outro lado da barreira quanto para a maldição que ainda tem alguma coisa de gente dentro. O que muda é a CD que o mestre põe.
 
+Nem sempre é possível influenciar alguém: depende completamente da decisão do seu mestre.
+
 ### Preparar
 
-`Preparar` cobra duas coisas por uma. Você gasta a Ação Padrão agora, e a Reação depois, quando o gatilho acontecer. Se o gatilho não acontecer até o começo do seu próximo turno, a ação se perde e você não recebe nada de volta.
+Você gasta a Ação Padrão para preparar, e a Reação depois, quando o gatilho acontecer. Se o gatilho não acontecer até o começo do seu próximo turno, a ação se perde.
 
 > **A Reação não fica reservada.** Até o gatilho acontecer, ela continua sua para qualquer outro uso — e gastar ela em outra coisa faz a ação preparada se perder. Usar a ação preparada gasta a Reação.
 
-O gatilho precisa ser visível e verificável pela mesa: *"quando ela sair da fumaça"*, *"quando ele encostar na porta"*. Um gatilho que só o jogador consegue julgar trava a cena.
-
-Preparar uma conjuração continua exigindo a Melhoria `Reação`. O slot não muda o que a Reação permite.
+O gatilho precisa ser visível e verificável pela mesa: *"quando ela sair da fumaça"*, *"quando ele encostar na porta"*. Um gatilho que só o jogador consegue julgar, ou que é aberto, trava a cena.
 
 > **Exemplo.** O Kaito prepara: *"se aquela coisa passar da linha das prateleiras, eu ataco."* Gastou a Ação Padrão dele agora. A maldição passa da linha ainda na rodada, e ele gasta a Reação para dar o golpe. Se ela tivesse ficado parada até a vez dele de novo, ele teria perdido o turno inteiro esperando.
 
 ### Vasculhar e Estudar
 
-As duas gastam a Ação Padrão para trocar informação por tempo, e a diferença é a distância. `Vasculhar` é mão no objeto: revistar o corpo, abrir a gaveta, apalpar a parede atrás de um vão. `Estudar` é olhar com atenção de longe: ler a energia de uma maldição, reconhecer o formato de um selo, avaliar quanto sangue aquele ferido ainda aguenta perder.
+As duas gastam a Ação Padrão para trocar informação por tempo, e a diferença é a distância. `Vasculhar` é mão no objeto: revistar o corpo, abrir a gaveta, apalpar a parede atrás de um vão (`Investigação`). `Estudar` é olhar com atenção de longe: ler a energia de uma maldição, reconhecer o formato de um selo, avaliar quanto sangue aquele ferido ainda aguenta perder (`Percepção`). Os dois contra uma dificuldade que o mestre estipular.
 
 ## Ações de Ação Bônus
 
@@ -119,11 +121,11 @@ As duas gastam a Ação Padrão para trocar informação por tempo, e a diferen�
 
 > **Quando alguém sai do seu alcance de corpo a corpo sem tomar cuidado, você pode gastar a sua Reação para atacar essa pessoa.**
 
-É o que impede um inimigo de passar correndo pelo meio do grupo como se ninguém estivesse ali. É um ataque físico, rolado como qualquer outro ataque, com soco ou com arma. Conjurador faz um normalmente. Conjurar na Reação, em vez de socar, exige a Melhoria `Reação`.
+É o que impede um inimigo de passar correndo pelo meio do grupo como se ninguém estivesse ali. É um ataque físico, rolado como qualquer outro ataque, com soco ou com arma. Feitiços não entram como opção.
 
 Duas coisas passam livre: quem usou `Desengajar` naquele turno, e qualquer movimento cujo texto diga **sem provocar**.
 
-> **Exemplo.** A maldição está encostada na Rina e resolve correr atrás do Kaito. Ela não usou `Desengajar`, então a Rina gasta a Reação dela e ataca a maldição saindo. A Reação da Rina só volta no começo do próximo turno dela, e até lá ela não tem com o que responder a mais nada.
+> **Exemplo.** A maldição está encostada na Rina e resolve correr atrás do Kaito. Ela não usou `Desengajar`, então a Rina gasta a Reação dela e ataca a maldição saindo. A Reação da Rina só volta no começo do próximo turno dela.
 
 ## Concentração
 
@@ -149,10 +151,8 @@ Quem usa a Restrição `Carregar` mantém o movimento e a Ação Bônus no turno
 
 ## Limites
 
-> **Feitiço em Ação Bônus ou Reação só permite mais um de Classe 0 no turno.**
+> **Feitiço de Classe só permite mais um de Classe 0 no seu turno.**
 
-Por exemplo, se você conjurou um feitiço de Classe 3 na Ação Bônus, o que ainda cabe na Ação Padrão é um Classe 0, e nada maior.
+Por exemplo, se você conjurou um feitiço de Classe 3 na Ação Bônus (ou Padrão), então ainda cabe na Ação Padrão (ou Bônus) um Classe 0.
 
 Uma Trilha sobe esse teto, e é a única do sistema: a `Torrente`, do Emanador. Do nível 11 em diante ela troca o Classe 0 por metade da sua maior Classe.
-
-Você tem **uma Reação só**, e três coisas disputam ela: ataque de oportunidade, a ação `Preparar` e conjurar pela Melhoria `Reação`. Gastar a Reação com uma delas é abrir mão das outras até o seu próximo turno começar.

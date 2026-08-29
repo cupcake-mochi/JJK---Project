@@ -19,7 +19,7 @@ Cada Caminho entrega quatro degraus, e eles chegam sempre nos mesmos níveis. A 
 | 27 | entrega de Trilha, e aqui você pode trocar de Trilha |
 | 30 | degrau de Caminho |
 
-> **Você é sempre exatamente uma Trilha, do nível 2 ao 30.** Nos níveis 11, 19 e 27 você pode trocar a sua por outra do mesmo Caminho, e a troca é total: tudo o que você tinha vira o equivalente da Trilha nova. Não existe acumular duas, e não existe pegar o degrau avançado de uma Trilha sem ter tido a base dela.
+> **Você só possui uma Trilha, do nível 2 ao 30.** Nos níveis 11, 19 e 27 você pode trocar a sua por outra do mesmo Caminho, e a troca é total: tudo o que você tinha vira o equivalente da Trilha nova. Não existe acumular duas, e não existe pegar o degrau avançado de uma Trilha sem ter tido a base dela.
 
 **Sem multiclasse.** Um Caminho por personagem.
 
@@ -39,13 +39,12 @@ Cada Caminho tem o próprio número de vida por nível e o próprio número de P
 
 ### Termos dos degraus
 
-**PE** são pontos de energia, o combustível que paga feitiço. **Maestria** é o número que cresce com o seu nível: `1` no nível 2 e `4` no 30. **Classe** é o tamanho de um feitiço, de `Classe 0` até `Classe 7`. **Vantagem** é jogar dois dados e ficar com o melhor.
+**PE** são pontos de energia ou de esforço, o combustível que paga as suas habilidades. **Maestria** é o número que cresce com o seu nível: `1` no nível 2 e `4` no 30. **Classe** é o tamanho de um feitiço, de `Classe 0` até `Classe 7`. **Vantagem** é jogar dois dados e ficar com o melhor.
 
 E duas coisas que quase todo degrau daqui menciona:
 
 > **Feitiço de Toque** — os dados da Classe, e nada mais. Arma e atributo ficam de fora da conta.
-> **Golpe simples** — arma mais Força. É o que você faz quando não canaliza.
-> **Um feitiço de Toque por turno.** Ataque extra é sempre golpe simples.
+> **Golpe simples** — ataque de arma padrão. É o que você faz quando não conjura.
 
 > **Se a sua ficha monta o poder na Técnica Marcial, onde um degrau daqui diz *feitiço* ou *conjurar*, leia `Kata`.** Mesma Classe, mesmo custo em PE, mesmo degrau. **São as duas rotas do capítulo 10, *Técnica Marcial***, e elas escolhem Caminho e Trilha como todo mundo.
 
@@ -59,7 +58,7 @@ E duas coisas que quase todo degrau daqui menciona:
 
 **Para um conjurador empunhar o resto, a porta é a Trilha.** É o que faz a `Empunhadura` do `Arremate`, no nível 2: ela concede um grupo de arma à sua escolha e ainda troca Força por Inteligência ou Essência naquele grupo. Um Emanador de espadão existe, e paga por isso com a escolha de Trilha.
 
-> **Sem treino, você tem desvantagem na rolagem de ataque com aquela arma**, e sem o requisito de Força dela o seu deslocamento cai 3 metros enquanto você a estiver empunhando. O capítulo 14, *Equipamento*, tem as duas.
+> **Sem treino, você tem desvantagem na rolagem de ataque com aquela arma**, e sem o requisito de Força dela o seu deslocamento cai pela metade enquanto você a estiver empunhando, além de você também atacar com desvantagem. O capítulo 14, *Equipamento*, tem as duas.
 
 ### Limites
 
@@ -112,20 +111,18 @@ E duas coisas que quase todo degrau daqui menciona:
 
 ### Degraus do Bastião
 
-> **Nível 2: `Corpo Duro`.** *Reação.* Ao ser atingido, você reduz o dano em **o seu nível + 1d6**. Isso é o `Absorver`.
+> **Nível 2: `Corpo Duro`.** *Reação.* Ao ser atingido, você reduz o dano em **o seu nível + 1d6**. Isso é o `Corpo Duro`.
 > **Você tem usos iguais à sua Constituição, e eles voltam no descanso longo.**
 >
 > **Nível 7: Ataque extra.** Você ganha **um golpe simples por rodada**. Ele exige a Ação de Atacar: acontece junto do que a sua Ação Padrão fez naquele turno, e só nesse caso — a não ser que uma habilidade diga o contrário.
-> **E `Não Pega`.** *Reação.* Quando você faz um Teste de Resistência **Físico** contra um efeito que causa metade do dano no sucesso: passando, você não sofre nada; falhando, você sofre metade. **Você não usa a `Não Pega` enquanto estiver `Incapacitado`.**
+> **E `Não Pega`.** *Reação.* Quando você faz um Teste de Resistência **Físico** contra um efeito que causa metade do dano no sucesso: passando, você não sofre nada; falhando, você ainda sofre metade. **Você não pode usar a `Não Pega` enquanto estiver `Incapacitado`.**
 > **E `Ainda de Pé`.** *Uma vez por cena.* Quando você é reduzido a **metade da sua vida ou menos**, você recupera `1d8 + metade do seu nível`. **Não custa ação nenhuma.**
 >
-> **Nível 15: `Puxar Para Si`.** *Reação.* Quando um inimigo a até 1,5 m ataca **outra pessoa**, o ataque passa a ter **você** como alvo.
-> **Gastando `2` PE, você aplica o `Absorver` no mesmo golpe**, sem gastar um uso dele.
+> **Nível 15: `Puxar Para Si`.** *Reação.* Quando um inimigo a até 1,5 m ataca **outra pessoa**, o ataque passa a ter **você** como alvo. Essa reação tem de ser usada antes da rolagem.
+> **Gastando `2` PE, você aplica o `Corpo Duro` no mesmo golpe**, sem gastar um uso dele.
 >
-> **Nível 30: `Segurar`.** *Reação.* Quando alguém ao seu alcance **se move, conjura ou ataca**, você pode tentar `Agarrar` ou `Derrubar` essa pessoa. **A ação dela acontece de qualquer jeito.**
-> **Enquanto você tiver alguém agarrado, você se move junto com ela, e o deslocamento dela cai pela metade.**
-
-*O `Corpo Duro` faz o time aceitar que você entre primeiro: a sua Constituição vira quantas vezes por dia o grupo pode errar de leve. O `Puxar Para Si`, no 15, muda o planejamento inteiro da mesa, porque a partir dali os outros podem se expor de propósito sabendo que existe alguém para desmanchar o erro. E o `Segurar` resolve a cena de fuga: informante correndo, maldição tentando trocar de prédio, alvo que ia sumir no meio da multidão.*
+> **Nível 30: `Segurar`.** *Reação.* Quando alguém ao seu alcance de toque **se move, conjura ou ataca**, você pode tentar `Agarrar` ou `Derrubar` essa pessoa. **A ação dela acontece de qualquer jeito.**
+> **Enquanto você tiver alguém agarrado, você se move junto com ela, e o deslocamento dela cai pela metade em vez de ir a `0`. Ele fica `0` no começo do próximo turno dela.**
 
 ### Trilha: Muro
 
@@ -134,15 +131,11 @@ E duas coisas que quase todo degrau daqui menciona:
 > **Nível 2: `Alicerce`.** *Ação bônus.* Você se firma no lugar. **Enquanto o `Alicerce` estiver de pé, o dano de dois tipos à sua escolha cai pela metade contra você, e o seu deslocamento é metade do normal.**
 > **Sair dele não custa nada**, e **os tipos se escolhem no fim de cada descanso longo**.
 >
-> **Nível 11: `Aterro`.** *Sempre ligado, e não depende do `Alicerce`.* O chão a **4,5 m** em volta de você é terreno difícil para inimigos, cada metro custa dois. **E todo deslocamento forçado contra você, seja empurrão, puxão ou arremesso, tem metade da distância.**
+> **Nível 11: `Aterro`.** *Sempre ligado, e não depende do `Alicerce`.* O chão a **4,5 m** em volta de você é terreno difícil para inimigos. **E todo deslocamento forçado contra você, seja empurrão, puxão ou arremesso, tem metade da distância.**
 >
-> **Nível 19: `Escora`.** O `Absorver` do seu Caminho ganha **mais usos, iguais a metade da sua Constituição**, e **qualquer um deles pode ser gasto num aliado que você enxergue a até 9 m.** Continua custando a sua Reação.
+> **Nível 19: `Escora`.** O `Corpo Duro` do seu Caminho ganha **mais usos, iguais a metade da sua Constituição**, e **qualquer um deles pode ser gasto num aliado que você enxergue a até 9 m.** Continua custando a sua Reação.
 >
 > **Nível 27: `Cúpula`.** O `Alicerce` passa a segurar **quatro tipos** ao mesmo tempo, você troca os tipos a cada **descanso curto**, e **todo aliado dentro do seu espaço divide um deles com você.** O espaço continua de pé enquanto você estiver caído, agarrado ou apagado.
-
-*Escolher os tipos do `Alicerce` no descanso longo é uma decisão de preparo de missão: se o briefing diz que a maldição queima, você chega com Fogo marcado. A `Cúpula`, no 27, transforma isso em cobertura de grupo, e é o que permite ao time atravessar uma sala que sozinho ninguém atravessaria.*
-
-*Os tipos de dano do `Alicerce` são os do sistema: `Cortante`, `Fogo`, `Psíquico` e assim por diante. A lista completa é do capítulo 4, __Dano, Condições e Cobertura__.*
 
 ### Trilha: Punho
 
@@ -156,8 +149,6 @@ E duas coisas que quase todo degrau daqui menciona:
 >
 > **Nível 27: `Arranco`.** Ao usar o `Engate`, você dá um **segundo soco** num alvo adjacente a você ou ao primeiro, **com rolagem própria**. **E se os dois ataques da sua ação de atacar acertaram, o `Engate` é rolado com vantagem.**
 
-*O `Encontrão` e o `Tropel` são a resposta para multidão sem matar ninguém: guarda em fila num corredor, gente empilhada numa saída, humano possuído que o grupo precisa tirar do caminho inteiro. Empurrar alguém para fora de uma sacada, para dentro de água, ou de volta para o lado seguro de uma barreira resolve cena que rolagem de dano nenhuma resolveria.*
-
 ### Trilha: Brasa
 
 *O feitiço entra no meio dos socos.*
@@ -166,10 +157,10 @@ E duas coisas que quase todo degrau daqui menciona:
 >
 > **Nível 11: `Braseiro`.** Quando o seu Classe 0 acerta, você ganha **`2` de energia temporária.** Ela nunca passa de `2` acumulados e some no fim da cena. *Energia temporária gasta como PE, e gasta primeiro.*
 >
-> **Nível 19: `Labareda`.** O feitiço que você lança na ação bônus **pode ser de Classe 3 em vez de Classe 0**, e **de Classe 4 a partir do nível 21**, quando a `Classe 6` libera. A Classe dos seus feitiços continua a mesma, e a sua Classe máxima também; o que muda é qual feitiço cabe na ação bônus.
-> **Duas condições, e as duas valem em todo turno:** você **abre mão do ataque extra** naquela ação de atacar, e **pelo menos um dos seus socos daquela ação tem de ter acertado.** *Se nenhum acertou, você não lança nada na ação bônus naquele turno, nem o feitiço maior, nem o Classe 0 do nível 2.*
+> **Nível 19: `Labareda`.** O feitiço que você lança na ação bônus **pode ser de Classe 3 em vez de Classe 0**, e **de Classe 4 a partir do nível 21**, quando a `Classe 6` libera.
+> **Em troca, em todo turno:** você **abre mão do ataque extra** naquela ação de atacar, e **pelo menos um dos seus socos daquela ação tem de ter acertado.** *Se nenhum acertou, você não pode lançar o feitiço de Classe 3 ou 4 na ação bônus, só o Classe 0.*
 >
-> **Nível 27: `Fornalha`.** *Ação bônus para entrar. Dura até o fim da cena.* **Cada ataque seu carrega um feitiço de Classe 0 junto, e cada ataque tem de ser num alvo diferente.** E a sua **ação bônus deixa de lançar feitiço e vira um soco a mais**, num terceiro alvo. **São três socos, três alvos, três Classe 0.**
+> **Nível 27: `Fornalha`.** *Ação bônus para entrar. Dura até o fim da cena.* **Cada ataque seu carrega um feitiço de Classe 0 junto, e cada ataque tem de ser num alvo diferente.** E a sua **ação bônus deixa de ser só conjurar feitiço e vira um soco a mais**, num terceiro alvo. **São três socos, três alvos e três Classe 0.**
 
 ## Vanguarda
 
@@ -197,24 +188,18 @@ E duas coisas que quase todo degrau daqui menciona:
 
 > **Nível 2: `Escola de Arma`.** **Escolha uma das treze categorias de arma.** Com armas daquela categoria você usa a **Manha** dela. *As treze estão na seção seguinte, e a `Versado` também — ela se leva no lugar da Manha da sua categoria.*
 >
-> **Nível 7: Ataque extra.** Você ganha **um golpe simples por rodada**. Ele exige a Ação de Atacar: acontece junto do que a sua Ação Padrão fez naquele turno, e só nesse caso — a não ser que uma habilidade diga o contrário.
+> **Nível 7: Ataque extra.** Você ganha **um golpe simples por rodada**. Ele exige a Ação de Atacar — a não ser que uma habilidade diga o contrário.
 >
 > **Nível 15: `Não Cede`.** **Quando você falha num Teste de Resistência, role de novo e use o segundo resultado.**
 > **`Maestria` vezes por descanso curto (`1` no nível 2, `4` no 30) e no máximo uma por rodada.**
 >
-> **Nível 30: `Não Acabou`.** **Quando você reduz um alvo a 0 de vida, você recupera a sua Reação e o seu movimento, e pode fazer um golpe simples.** **Até `metade da sua maestria` vezes por rodada.**
-
-*O `Não Cede` vale tanto quanto vale fora de combate: veneno, ilusão, maldição que tenta te dobrar pela cabeça, tudo isso resolve em Teste de Resistência, e a Vanguarda é o Caminho que sempre tem uma segunda chance no bolso.*
-
-*O `Não Acabou` vive contra turba: um capanga de nível alto não cai num golpe simples, e um de nível baixo cai. É a regra de abrir caminho no meio de muita gente.*
+> **Nível 30: `Não Acabou`.** **Quando você reduz um alvo a 0 de vida, você recupera a sua Reação e a sua Ação de Movimento, e pode fazer um golpe simples.** **Até `metade da sua maestria` vezes por rodada.**
 
 ### Manhas
 
 Ter escola de arma quer dizer que alguém te ensinou aquela categoria de verdade, do jeito antigo: repetição, forma, um professor corrigindo o seu pulso até a coisa virar reflexo. Duas pessoas com a mesma espada na mão fazem coisas diferentes com ela, e a diferença é a escola.
 
 A Manha entrega o que a sua categoria sabe fazer além de causar dano. Você usa a da categoria que escolheu na `Escola de Arma`, e ela vale com qualquer arma daquela categoria: a escola é do tipo de arma, e a peça específica é descartável. Se a sua lâmina quebrou no meio da missão e você pegou outra do chão, a Manha continua.
-
-A Manha dá identidade à sua ficha. Você vira a pessoa do machado, a pessoa da corrente, a pessoa do fuzil, e o grupo aprende a jogar em volta do que a sua arma faz com a posição do inimigo.
 
 **Manhas**
 {: .tab-titulo }
@@ -259,7 +244,7 @@ Quem troca de arma no meio da luta pode levar esta **no lugar da Manha da sua ca
 >
 > **O gesto.** Guardar uma arma e sacar outra passa a ser **um gesto só**, e não dois.
 >
-> **A mira.** Até o começo do seu próximo turno, você tem **`+1` no acerto** com a arma que acabou de sacar.
+> **A mira.** Até o começo do seu próximo turno, você tem **`+1` no acerto** com a arma que acabou de trocar por outra.
 >
 > **Relógio.** Uma vez por rodada.
 >
@@ -271,18 +256,14 @@ Quem troca de arma no meio da luta pode levar esta **no lugar da Manha da sua ca
 
 *A arma faz o que a luta pedir, e o que ela pede muda toda rodada.*
 
-> **Nível 2: `Compasso`.** Você usa a ação **Conjurar** na ação padrão e dá um **golpe com arma do grupo escolhido** como ação bônus.
-> **E naquele grupo de armas, o acerto e o dano usam Essência ou Inteligência** no lugar de Força ou Destreza. **O requisito de Força para empunhar continua valendo.**
+> **Nível 2: `Compasso`.** Você usa a ação **Conjurar** na ação padrão e dá um **golpe com arma de um grupo escolhido** como ação bônus. *Se você pegou a `Versado`, escolhe uma quantidade de grupos igual à maestria.*
+> **E naquele grupo de armas, o acerto e o dano podem usar Essência ou Inteligência** no lugar de Força ou Destreza. **O requisito de Força para empunhar continua valendo.**
 >
-> **Nível 11: `Traçado`.** Quando o feitiço que você conjurou **acerta**, o golpe da ação bônus **pega um segundo alvo adjacente ao primeiro**.
+> **Nível 11: `Traçado`.** Quando o feitiço que você conjurou **acerta**, o golpe da ação bônus **pega um segundo alvo adjacente ao primeiro**. Se a arma já tem uma propriedade que faz isso, o segundo alvo tem de ser diferente do que a propriedade alcança.
 >
 > **Nível 19: `Bote`.** Quando o feitiço que você conjura na ação padrão é **de condição e não de dano**, você pode usar o seu **ataque extra** na ação bônus.
 >
-> **Nível 27: `Ferrão`.** Se o feitiço que você conjurou na Ação Padrão **acertou**, o **primeiro** golpe da sua ação bônus carrega um **feitiço de Classe 0** junto. *O Classe 0 acompanha o golpe: se o golpe erra, ele não sai.*
-
-*O `Compasso` também muda a sua ficha fora da luta, porque a partir dele a arma bate com o mesmo atributo que a sua técnica usa. Uma Vanguarda de `Estocada` pode montar personagem com Força baixa e ainda ser perigosa de arma na mão, e isso abre espaço para uma pessoa muito mais interessante socialmente do que o brutamontes de sempre.*
-
-*O que a Trilha compra é o que a Vanguarda perdia: conjurar gasta a ação padrão, então usar a sua técnica custava todos os ataques da rodada. Aqui não custa mais.*
+> **Nível 27: `Ferrão`.** Se o feitiço que você conjurou na Ação Padrão **acertou**, o **primeiro** golpe da sua ação bônus carrega um **feitiço de Classe 0** junto. *O Classe 0 acompanha o golpe: se o golpe erra, ele não sai.* **`Bote` e `Ferrão` não podem ser usados juntos.**
 
 ### Trilha: Batedor
 
@@ -300,24 +281,22 @@ As três concedem a mesma ação no nível 11 e estendem ela no 27:
 
 Arco longo, treino de clã, silêncio. A rota do `Yumi` troca cadência por precisão e por altura: um tiro bem colocado, de um lugar em que ninguém contava que houvesse alguém. É a mais móvel das três em terreno vertical, e a que mais gosta de crítico.
 
-> **Nível 2: `Disparo Carregado`.** Você **não sofre desvantagem na faixa longa** de arma de projétil. O seu deslocamento sobe **`+3 m`** e conta como **deslocamento de escalada**, árvore, parede, o que a ficção permitir.
-> **O `Disparo Carregado`:** *ação bônus.* O seu próximo ataque com arco tem a **margem crítica reduzida em 1** (crítico em `19` ou `20`). *E você pode abdicar do seu ataque extra para somar o dado da arma ao ataque carregado, **sem o atributo**, perde dano e ganha chance de crítico.*
+> **Nível 2: `Disparo Carregado`.** Você **não sofre desvantagem na faixa longa** de arma de projétil. O seu deslocamento sobe **`+3 m`** e conta como **deslocamento de escalada**, árvore, parede, o que você conseguir agarrar.
+> **O `Disparo Carregado`:** *ação bônus.* O seu próximo ataque com arco tem a **margem crítica reduzida em 1** (crítico em `19` ou `20`). *E você pode abdicar do seu ataque extra para somar o dado da arma ao ataque carregado, sem o atributo, perde dano e ganha chance de crítico.*
 >
-> **Nível 11: `Mirar`.** Você ganha a ação **`Mirar`**. **Uma mesma Ação Bônus sua faz o `Mirar` e o `Disparo Carregado` juntos**, os dois custam aquele slot, e só o `Yumi` pode empilhar os dois. E os seus ataques com arma de longo alcance somam **`+2` no acerto**.
+> **Nível 11: `Mirar`.** Você ganha a ação **`Mirar`**. **Uma mesma Ação Bônus pode `Mirar` e carregar o `Disparo Carregado` juntos**, os dois custam aquela ação, e só o `Yumi` pode empilhar os dois. Os seus ataques com arma de longo alcance somam **`+2` no acerto** ao `Mirar`.
 >
 > **Nível 19: `Pique`.** O `Disparo Carregado` passa a reduzir a margem em **2**, crítico em `18` a `20`.
 >
 > **Nível 27: `Dobro`.** O `Mirar` passa a valer para o **ataque básico e o extra**, e o `Disparo Carregado` reduz a margem em **3**, crítico em `17` a `20`.
 
-*O deslocamento de escalada do nível 2 é metade do valor dessa rota fora de combate: telhado, andaime, encosta, janela de terceiro andar. Você chega em lugar que o resto do time precisa de corda para alcançar.*
-
 #### Rota: Besta
 
 A besta é ferramenta de quem trabalha sozinho e não tem tempo de recarregar. Essa rota resolve a manivela de uma vez e usa o impacto do virote para tirar o inimigo do lugar, o que faz dela a única das três que também administra posicionamento.
 
-> **Nível 2: `Manivela`.** As suas bestas **deixam de carregar `Munição`** — a propriedade de arma do capítulo 14, *Equipamento* —, você nunca recarrega.
+> **Nível 2: `Manivela`.** As suas bestas **deixam de sofrer a penalidade de recarregar** — a propriedade `Munição` do capítulo 14, *Equipamento* —, você nunca recarrega.
 >
-> **Nível 11: `Mirar`.** Você ganha a ação **`Mirar`**, e os seus ataques com arma de longo alcance somam **`+2` no acerto**.
+> **Nível 11: `Mirar`.** Você ganha a ação **`Mirar`**, e os seus ataques ao `Mirar` com arma de longo alcance somam **`+2` no acerto**.
 >
 > **Nível 19: `Repuxo`.** Ao disparar, **uma vez por rodada**, o alvo faz um Teste de Resistência de Vigor; numa falha, é empurrado **`1,5 m × maestria`** na direção oposta.
 > **E você deixa de sofrer desvantagem por estar colado**, o tempo todo.
@@ -329,15 +308,13 @@ A besta é ferramenta de quem trabalha sozinho e não tem tempo de recarregar. E
 Pólvora, ruído e uma profissão que finge não usar isso. É a rota que funciona no aperto: corredor estreito, sala pequena, inimigo colado em você. Quem escolhe `Arma de Fogo` aceita chamar atenção de todo mundo num raio de quarteirão, e o resto do time precisa contar com isso no plano.
 
 > **Nível 2: `Ferrolho`.** A sua arma de fogo só força recarga no **`1` natural**, e não no `1` ou `2`.
-> **E você deixa de sofrer desvantagem por estar colado**, o tempo todo.
+> **E você deixa de sofrer desvantagem por estar colado** contra um inimigo.
 >
 > **Nível 11: `Mirar`.** Você ganha a ação **`Mirar`**, e os seus ataques com arma de longo alcance somam **`+2` no acerto**.
 >
-> **Nível 19: `Descarga`.** No começo de um combate, você pode gastar a sua **Reação** para atacar **um alvo por bala que a arma carrega**, com uma rolagem separada em cada um. **Os disparos contam para a munição**, você vai recarregar no primeiro turno.
+> **Nível 19: `Descarga`.** No começo de um combate, você pode gastar a sua **Reação** para atacar **um alvo por bala que a arma carrega**, com uma rolagem separada em cada um. **Os disparos contam para a munição.**
 >
 > **Nível 27: `Dobro`.** O `Mirar` passa a valer para o **ataque básico e o extra**.
-
-*A `Descarga` abre a luta com um tiro por bala carregada, cada um num alvo. Se o grupo abre a porta e encontra a sala cheia, ela é a diferença entre começar a luta atrás e começar com metade da sala já ferida.*
 
 ### Trilha: Executor
 
@@ -351,8 +328,6 @@ Pólvora, ruído e uma profissão que finge não usar isso. É a rota que funcio
 >
 > **Nível 27: `Retomada`.** Quando você **erra uma rolagem de ataque**, role de novo e use o segundo resultado. **`Maestria` vezes por dia.**
 
-*O `Aprumo` repõe casca sozinho, sem gastar PE e sem depender de ninguém do time. Numa campanha em que a cura é escassa, isso é o que permite encadear duas ou três lutas no mesmo dia.*
-
 #### Estilos da `Pegada`
 
 **Estilos da `Pegada`**
@@ -362,11 +337,9 @@ Pólvora, ruído e uma profissão que finge não usar isso. É a rota que funcio
 |---|---|---|
 | `Duelista` | uma arma numa mão, a outra vazia | `+2` de dano em todo golpe |
 | `Volteio` | arma arremessada | `+2` de dano em todo golpe |
-| `Mão Nua` | punho vazio | `+metade da maestria` de dano no soco |
+| `Mão Nua` | punho vazio | `+maestria` de dano no soco |
 | `Couraça` | vestindo `Traje` ou `Revestimento` | `+1` de Defesa |
 | `Arma Grande` | arma de duas mãos | rerrolar `1` e `2` no dado de dano |
-
-> **Todo estilo pede alguma coisa, e o pedido é regra.**
 
 O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 14, *Equipamento*.
 
@@ -396,18 +369,14 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 14, 
 
 ### Degraus do Guia
 
-> **Nível 2: `Guiar`.** Quando um aliado que você enxerga falha num teste, some **`metade da sua Essência`** ao resultado dele. **Ação livre, uma vez por rodada.** *Você aplica depois da rolagem, então nenhum ponto se perde.*
+> **Nível 2: `Guiar`.** Quando um aliado que você enxerga falha num teste, some **`metade da sua Essência`** ao resultado dele, transformando aquilo num sucesso possível. **Ação livre, uma vez por rodada.**
 >
 > **Nível 7: `Mão na Roda`.** A ação **`Ajudar` passa a ser ação bônus para você.**
-> **E quando você usa o `Guiar` num aliado, ele pode acrescentar um golpe simples ao turno dele.** Uma vez por rodada.
+> **E quando você usa o `Guiar` num aliado, ele pode, como uma reação, dar um golpe simples ou um feitiço de Classe 0 no uso.** Uma vez por rodada.
 >
-> **Nível 15: `Puxar a Linha`.** *Ação bônus.* Um aliado que você enxerga a até 9 m **se move até o deslocamento inteiro dele, sem provocar ataque de oportunidade.** Ele não pode recusar.
+> **Nível 15: `Puxar a Linha`.** *Ação bônus.* Um aliado que você enxerga a até 9 m **se move até o deslocamento inteiro dele, sem provocar ataque de oportunidade.**
 >
 > **Nível 30: `Ninguém Cai`.** *Reação.* Quando um aliado que você enxerga chegaria a 0 de vida, **ele fica com `1`** e **o dano excedente é anulado.**
-
-*O `Guiar` rende mais fora de combate do que dentro: a negociação que o grupo não podia perder, a fechadura, o teste de perícia que decidia a missão. Metade da sua Essência somada depois da rolagem cabe em qualquer cena em que alguém do time abre a boca ou põe a mão em alguma coisa.*
-
-*O `Puxar a Linha` resolve o aliado inconsciente, o aliado agarrado por decisão ruim e o aliado que entrou num lugar de onde não ia sair. A parte de ele não poder recusar é o que faz a entrega funcionar sob fogo.*
 
 ### Trilha: Elo
 
@@ -416,30 +385,28 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 14, 
 > **Nível 2: `Nó`.** **Ação Bônus.** Escolha um aliado **que você enxerga**: vocês dois formam um **elo**. Ao formar, escolha **ataques de arma** ou **ataques de feitiço**, enquanto o elo durar, **os dois membros ganham `+1` de acerto** naquele tipo de ataque.
 > **O elo dura até você formar outro**, e **não se quebra por distância**.
 >
-> **Nível 11: `Repasse`.** **Reação.** Quando um membro do elo falha num Teste de Resistência, ele **rerrola** e fica com o segundo resultado.
-> **Na mesma Reação você pode gastar `3` PE para passar o elo** para alguém que não esteja nele, e o rerrolar vai junto, para quem acabou de entrar.
+> **Nível 11: `Repasse`.** **Reação.** Quando um membro do elo — ou um aliado, veja a seguir — falha num Teste de Resistência, ele **rerrola** e fica com o segundo resultado.
+> **Na mesma Reação você pode gastar `3` PE para passar o elo** para alguém que não esteja nele, dando o rerrolar a quem acabou de entrar, em vez de ao alvo antigo.
 >
 > **Nível 19: `Partilha`.** Quando um membro do elo recebe cura, **você reparte o total entre os membros como quiser.** *O total continua o mesmo. O que você escolhe é o destino dele.*
 >
 > **Nível 27: `Trança`.** O elo passa a aceitar um **terceiro membro**.
-> **E `1×` por descanso curto** você passa até **`4` PE seus** para alguém do elo.
-
-*O elo não se quebrar por distância é o que faz essa Trilha render em cena dividida: o grupo se separa no prédio, você fica com o time da entrada, e o `+1` continua valendo para quem subiu. A `Trança`, no 27, é a resposta para o conjurador do grupo que ficou sem PE no meio da missão.*
+> **E `1×` por cena** você pode passar até a sua **Essência em PE** para alguém do elo, consumindo o seu próprio PE.
 
 ### Trilha: Sutura
 
 *O dano que já aconteceu não é definitivo enquanto você estiver na sala.*
 
-> **Nível 2: `Agulha`.** Você ganha a aptidão **`Energia Reversa`** **sem os requisitos de nível e de refino**. *Por uso, você não pode gastar mais que **`metade da sua maestria`** em PE.*
+> **Nível 2: `Agulha`.** Você ganha a aptidão **`Energia Reversa`** **sem os requisitos de nível e de refino**. *Por uso, você não pode gastar mais que metade da sua **Essência** ou **Inteligência** em PE — é a aptidão que faz você deixar de sofrer essa metade.*
+> Se você é um **Sem Técnica** e já ganhou a aptidão, você passa a poder gastar **`1` PE** a mais para ganhar **um dado a mais** de cura.
 >
 > **Nível 11: `Enxerto`.** A sua `Energia Reversa` passa a **curar os outros**, e o teto por uso sobe para **`a sua maestria`** em PE.
-> **E o mesmo uso pode tirar uma condição:** gaste **`1` PE por nível da condição**, e ele sai do mesmo teto da cura. *Condição sem nível declarado conta como **nível 1**.*
+> **E o mesmo uso pode tirar uma condição:** gaste **`1` PE por nível da condição**, e ele sai do mesmo teto da cura. *Condição sem nível declarado conta como nível 1.*
+> Se você destravar a aptidão `Energia Reversa`, você perde o malefício e passa a seguir as regras da aptidão.
 >
 > **Nível 19: `Pulso`.** Some o seu **modificador de Essência** em toda rolagem de cura sua. *Vale também para cura que venha da sua técnica, e não só da `Energia Reversa`.*
 >
 > **Nível 27: `Cerzido`.** O teto por uso vai a **`a sua maior Classe`** em PE, e você **rerrola `1` e `2`** em todos os seus dados de cura, ficando com o segundo resultado.
-
-*O `Enxerto` limpa veneno, paralisia, maldição pequena grudada em alguém, e condição que o grupo não tinha como tirar de outro jeito. Ele faz isso com o mesmo uso da cura, então a decisão vira quanto do teto você gasta consertando o corpo e quanto gasta tirando a coisa de cima dele.*
 
 > **`Energia Reversa` não cura dano de alma.** Nenhum degrau desta Trilha alcança isso.
 
@@ -448,16 +415,14 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 14, 
 *Você escolhe onde todo mundo está.*
 
 > **Nível 2: `Chão`.** Você tem uma área de **`9 m` a partir de você**, e ela anda com você.
-> **`1×` por rodada**, um inimigo dentro dela **rerrola um Teste de Resistência e fica com o pior**. *Você declara **antes** de o resultado ser lido.*
+> **`1×` por rodada**, você pode forçar um inimigo dentro dela a **rerrolar um Teste de Resistência e ficar com o pior resultado**. *Você declara antes de o resultado ser dito.*
 >
-> **Nível 11: `Sentinela`.** **Reação.** Quando um inimigo dentro do `Chão` **erra** um ataque, um aliado que você enxerga dá **um golpe simples com vantagem** nele.
+> **Nível 11: `Sentinela`.** **Reação.** Quando um inimigo dentro do `Chão` **erra** um ataque, um aliado que você enxerga dá **um golpe simples com vantagem** nele, como **Ação Livre**.
 >
-> **Nível 19: `Encalço`.** **Ação Bônus.** Ponha um alvo do `Chão` **no encalço**. **`1×` por rodada**, ele leva **`−1d6`** numa perícia ou num Teste de Resistência.
+> **Nível 19: `Encalço`.** **Ação Bônus.** Escolha um alvo do `Chão` para receber o efeito de **encalço**. **`1×` por rodada**, ele leva **`−1d6`** numa perícia ou num Teste de Resistência.
 > **Ele dura até o fim da cena**, e você só tem **um alvo no encalço de cada vez**: pôr outro tira o primeiro.
 >
 > **Nível 27: `Portão`.** A `Sentinela` passa a disparar **quando o ataque do inimigo acerta também**, e **quando um alvo sai do `Chão` por movimento voluntário**.
-
-*O `Encalço` atravessa a cena inteira, dentro e fora de combate: ele dura até o fim, ele pega perícia, e um alvo marcado erra a fuga, erra a mentira e erra a escalada. Numa perseguição pela cidade, é ele que decide.*
 
 ## Emanador
 
@@ -483,7 +448,7 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 14, 
 
 ### Degraus do Emanador
 
-> **Nível 2: `Sangria`.** *Ação bônus.* Gaste **`1/8` da sua vida MÁXIMA** e ganhe PE na razão de **`3` de vida por `1` PE**. A vida máxima só volta no **descanso longo**; metade dela volta no **descanso curto**.
+> **Nível 2: `Sangria`.** *Ação bônus.* Gaste **`1/8` da sua vida MÁXIMA** e ganhe PE a cada **`3` de vida perdida**, dando **`1` PE**. A vida máxima só volta no **descanso longo**; metade dela volta no **descanso curto**.
 >
 > **Nível 7: `Resquício`.** Ao conjurar na Ação Padrão um feitiço **que não causa dano**, você pode lançar um **feitiço de Classe 0 na Ação Bônus**.
 >
@@ -496,26 +461,18 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 14, 
 > **Nível 30: `Fonte`.** Feitiços de **Classe 3 ou menos custam metade do PE**.
 > **E um feitiço de Classe 2 à sua escolha, de dano ou de condição, passa a custar `0`.**
 
-*A `Modelagem` deixa o Emanador improvisar sem ter previsto: você chegou com o feitiço montado para uma coisa e o alvo é outra, e a peça se remonta na hora. A `Segunda Leitura` faz o mesmo em escala de missão, e muda o preparo do grupo: com um briefing decente, você dorme e acorda com a ficha desenhada para aquele alvo específico.*
-
-*O `1/8` cabe exatamente quatro vezes antes de você ter perdido metade da vida.*
-
 ### Trilha: Torrente
 
 *Você lança até a energia acabar, e ela acaba.*
 
-> **Nível 2: `Acelerar`.** *`2×` por cena.* Você conjura um feitiço da sua **ação padrão como ação bônus**, pagando **`Classe e meia` de PE a mais**, arredondando para cima. *Num Classe 7 são `11` de PE.*
+> **Nível 2: `Acelerar`.** *Uma quantidade de vezes igual a metade da sua **Essência** ou **Inteligência** por cena.* Você conjura um feitiço da sua **ação padrão como ação bônus**, pagando **`Classe e meia` de PE a mais**, arredondando para cima. *Num Classe 7 são `11` de PE.*
 > Naquele turno, o outro feitiço que você lançar **não passa de `Classe 0`**.
 >
-> **Nível 11: `Vazão`.** Aquele teto passa a ser **metade da sua maior Classe**, arredondando para baixo — e nunca menos que `Classe 0`.
+> **Nível 11: `Vazão`.** O teto para o segundo feitiço da rodada passa a ser **metade da sua maior Classe**, arredondando para baixo — e nunca menos que `Classe 0`.
 >
 > **Nível 19: `Cheia`.** Quando o feitiço que você conjura é **o único feitiço daquele turno**, **rerrole todo dado de dano dele que cair em `1`, `2` ou `3`.** Você fica com o segundo resultado.
 >
 > **Nível 27: `Transbordo`.** Aquela metade passa a **arredondar para cima.** *Com Classe 7 o teto vai de `Classe 3` para `Classe 4`.*
-
-*A `Cheia` premia a rodada calma, e é ela que segura a Trilha nas cenas longas: nos turnos em que você não abre a torneira, o feitiço único sai mais consistente. As duas metades da `Torrente` se revezam ao longo da luta.*
-
-> **Só o `Transbordo` arredonda para cima**; a regra global sempre desce. Ela vale aqui e em lugar nenhum mais.
 
 ### Trilha: Explosivo
 
@@ -529,8 +486,6 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 14, 
 >
 > **Nível 27: `Ápice`.** `1×` por cena, um feitiço seu soma **`metade da Classe` em dados de dano**, e você paga **`1` PE por dado extra**. *Num Classe 7 são `+3d8` por `3` PE.*
 
-*O `Rompante` compra vantagem na rolagem em que errar custaria a rodada inteira e o PE junto — que é a de chefe, quase sempre.*
-
 ### Trilha: Arremate
 
 *O feitiço chega junto com você.*
@@ -542,11 +497,7 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 14, 
 >
 > **Nível 19: `Crosta`.** Quando você conjura estando **adjacente a um inimigo**, você ganha **`maior Classe` de `vida temporária`**.
 >
-> **Nível 27: *vaga*.** *A casa existe e está vazia. A ficção dela é o capstone do molde: deixar de precisar encostar.*
-
-*A `Crosta` sustenta o `Arremate` a partir do 19: a mesma decisão que te põe em perigo, que é conjurar colado, passa a ser a que te dá casca. Antes disso, a sua sobrevivência depende do time.*
-
-> **O `Arremate` ganha ataque extra pela Trilha, e não pelo Caminho.** A outra assim é o `Coro`. **O golpe é uma Ação Bônus, e ele só existe se a Ação Padrão daquele turno conjurou ou atacou com a arma do grupo escolhido.** A trava que continua valendo é a de sempre: um feitiço de Toque por turno, e ataque extra é sempre golpe simples.
+> **Nível 27: `Trindade`.** Ao acertar os dois ataques da sua **Ação Padrão**, você passa a receber **vantagem** no ataque do feitiço conjurado na **Ação Bônus**, além de receber **`2` PE** como **energia temporária**.
 
 ## Evocador
 
@@ -574,7 +525,7 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 14, 
 
 > **Nível 2: `Sintonia`.** **Escolha uma:**
 > **`Presa`** — as suas invocações acertam crítico com **19 ou 20**.
-> **`Casco`** — as suas invocações têm mais vida.
+> **`Casco`** — as suas invocações têm mais vida, equivalente a **`5 ×` a sua maestria**.
 > **`Voz`** — a CD dos efeitos das suas invocações sobe em **`1`**, e vira **`metade da sua maestria`** a partir do nível 7.
 >
 > **Nível 7: `Coleira`.** As suas invocações são **treinadas nas perícias e Testes de Resistência que a ficha delas tiver**, e somam **`+1` no acerto**.
@@ -583,40 +534,17 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 14, 
 >
 > **Nível 30: `Segundo Corpo`.** **Uma vez por descanso curto, invocar não custa a ação padrão**, só o PE.
 
-*A `Coleira` faz a invocação servir fora de combate: treinada nas perícias da ficha dela, ela vira o que entra no duto, o que fareja, o que fica de vigia enquanto o grupo dorme. E o `Escudo de Osso` é o que compra a rodada em que você ia cair, o que importa muito numa ficha de 4 de vida por nível.*
-
-### Trilhas do Evocador
-
-**Cada Trilha concede um corpo, e mais quatro entregas de nível** — nos mesmos `2 · 11 · 19 · 27` das outras doze.
-
-**O que cada Trilha concede** é o corpo que você põe em campo. O resto da ficha da invocação você monta com o orçamento do capítulo 16, *Invocações*, por cima do que está na tabela.
-
-**Trilhas do Evocador**
-{: .tab-titulo }
-
-| Trilha | Orçamento do corpo | Vida do corpo |
-|---|---|---|
-| `Servo` | **o da ficha mais metade**, arredondando para baixo | **`5 × h`** |
-| `Matilha` | o da ficha | `5 × h`, em pool com cascata |
-| `Coro` | o da ficha | `h` |
-
-*`h` é a vida de uma invocação pela fórmula do capítulo 16, __Invocações__, que já conta o tipo dela e o seu nível.*
-
 #### Servo
 
-*Uma invocação, forte.* O `Servo` põe em campo um corpo só, com nome, que anda com você a campanha inteira. Ele carrega a vida do bando inteiro da `Matilha` num corpo, e o orçamento dele é o da ficha mais metade. Perder esse corpo tira o kit da mesa de uma vez.
+*Uma invocação, forte.* O `Servo` põe em campo um corpo só, com nome, que anda com você a campanha inteira.
 
 #### Matilha
 
-*Muitos corpos fracos.* A `Matilha` põe cinco corpos em campo, e a sua vantagem é estar em cinco lugares ao mesmo tempo. Ela conta como **uma ficha com cinco corpos**: uma barra de vida só, e o dano que passa de um corpo cascateia para o seguinte. Os cinco continuam no campo, cada um com a sua posição. **A rodada dela se resolve em pool**, os cinco d20 saem de uma vez, conta-se os acertos, e o dano dos que acertaram se soma. Cada corpo declara o próprio alvo **antes** da rolagem.
+*Muitos corpos fracos.* A `Matilha` põe cinco corpos em campo, e a sua vantagem é estar em cinco lugares ao mesmo tempo. Ela conta como **uma ficha com cinco corpos**: uma barra de vida só, e o dano que passa de um corpo cascateia para o seguinte. Os cinco continuam no campo, cada um com a sua posição.
 
 #### Coro
 
-*Você e a invocação lutam juntos.* No `Coro` você entra na luta junto com o corpo, e os dois se cobrem. Ele **ataca e comanda na mesma rodada**, e abre exceção na economia de ação. O golpe é uma **Ação Bônus**, e ele só existe se a Ação Padrão daquele turno **comandou, e a invocação atacou**. O corpo dele é o mais frágil dos três, e é o único cuja queda deixa o kit funcionando: você continua batendo.
-
-> **A saída é uma só.** Você e todas as suas invocações somados entregam a mesma saída de dano que você entregaria sozinho. Com uma invocação, cada um entrega metade. Com três, cada um entrega um quarto. **A máquina completa (orçamento por nível, `Traço`, `Comando`, a amarra, morte e retorno) está no capítulo 16, *Invocações*.**
-
-**Uma coisa muda o turno inteiro.** Comandar custa a sua Ação Padrão, toda rodada. **No `Servo` e na `Matilha` isso quer dizer que você comanda e não bate** — sobram o seu movimento, a sua Ação Bônus e a sua Reação. **O `Coro` é a exceção:** ele ataca e comanda no mesmo turno, e por isso a Ação Bônus dele já está ocupada pelo golpe.
+*Você e a invocação lutam juntos.* No `Coro` você entra na luta junto com o corpo, e os dois se cobrem. Ele **ataca e comanda na mesma rodada**, e abre exceção na economia de ação.
 
 ### Trilha: Servo
 
@@ -625,13 +553,11 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 14, 
 > **Nível 2: `Preito`.** As perícias e os Testes de Resistência da sua invocação somam **`metade da sua maestria`, mínimo `1`**.
 > **E escolha uma, ao pegar a Trilha:** `metade da sua maestria` **no acerto** dela · `metade da sua maestria` **na CD** dela · **`a sua maestria` na Defesa** dela.
 >
-> **Nível 11: `Escolta`.** Escolha **dois** Testes de Resistência ao pegar a Trilha. **Enquanto a sua invocação está de pé, você soma `metade da sua maestria` na sua Defesa e nesses dois.**
+> **Nível 11: `Escolta`.** Escolha **dois** Testes de Resistência. **Enquanto a sua invocação está de pé, você soma `metade da sua maestria` na sua Defesa e nesses dois.**
 >
 > **Nível 19: `Sustento`.** *Ação Bônus.* A sua invocação ganha **`1d6 + metade do seu nível`** de PV temporário. Ela carrega um bloco desses por vez.
 >
-> **Nível 27: `Chamado`.** Invocar custa **metade** do PE, arredondando para cima.
-
-*O `Preito` é onde a Trilha te pergunta o que você quer do seu corpo: mais acerto, mais CD, ou mais Defesa nele. As perícias vêm nas três, e é com elas que a invocação vira a que entra no duto e a que fica de vigia. O `Chamado` casa com o `Segundo Corpo` do nível 30: uma vez por descanso curto ela volta sem custar a sua Ação Padrão e por metade do PE.*
+> **Nível 27: `Chamado`.** Invocar o seu servo custa **metade** do PE, arredondando para cima.
 
 ### Trilha: Matilha
 
@@ -646,8 +572,6 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 14, 
 >
 > **Nível 27: `Traquejo`.** O `Alarido` passa a disparar com **duas** invocações acertando, e não três.
 
-*A Trilha inteira é o mesmo botão andando. No nível 2 você precisa de três corpos conectando; no 27, de dois. Como a rodada da `Matilha` se resolve em pool, você sabe se acendeu na hora em que conta os acertos, sem rolagem a mais.*
-
 ### Trilha: Coro
 
 *O seu golpe e o dela se encadeiam. Quem acertar abre o próximo.*
@@ -659,5 +583,3 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 14, 
 > **Nível 19: `Uníssono`.** Quando um ataque do dueto **acerta**, o **próximo ataque do outro** vem com **vantagem**. *Se a invocação acertou, o seu golpe tem vantagem; se você acertou, o próximo ataque dela tem.* **A vantagem dura até o fim do próximo turno e se perde se não for usada.**
 >
 > **Nível 27: `Acorde`.** Um feitiço de Classe que custaria a Ação Padrão e **não causa dano** pode ser lançado como **Ação Bônus**.
-
-*O `Acorde` é o que devolve a conjuração para um Caminho que gasta a Ação Padrão comandando. Ele não serve para o feitiço que machuca: serve para o que prende, o que move e o que abre a cena, na rodada em que as suas invocações continuam batendo.*

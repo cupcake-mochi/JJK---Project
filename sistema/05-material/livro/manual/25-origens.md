@@ -43,10 +43,10 @@ Por último vêm os **Legados** da Origem, nos três formatos.
 
 ## Legados
 
-Legado é um benefício pequeno e específico que você trouxe de antes de a história começar. Você recebe dois na criação e mais nenhum, nunca: não sobe com o nível, não aparece em marco, não se compra. Legado nenhum produz dano ou escala com nível.
+Legado é um benefício pequeno e específico que você trouxe de antes de a história começar. Legado nenhum produz dano ou escala com nível.
 
 > **Um deles é obrigatoriamente um `Destranca`, e `Destranca` é zero no dado.**
-> O outro sai de qualquer lista da sua Origem, em qualquer um dos três formatos.
+> O outro sai de qualquer lista da sua Origem, dentre `Ajusta` e `Desliga`.
 
 Cada um dos três formatos se lê de um jeito.
 
@@ -105,9 +105,6 @@ Fundamento, do jeito padrão.
 > **A Testemunha** — **escreva na ficha alguém sem energia amaldiçoada que sabe o que você é e nunca contou.** Essa pessoa continua na vida dela, e continua sabendo.
 > *Na mesa:* serve quando o grupo precisa de um endereço fora do meio jujutsu. *Exemplo: vocês precisam sumir por uma noite, e existe uma casa que não está em registro nenhum.*
 
-> **Sem Patente** — **você nunca entrou na instituição, e ela sabe disso. Patente não te obriga a nada: ordem de superior é conselho.** Você não deve nada à hierarquia, e ela não te deve nada.
-> *Na mesa:* serve quando a ordem que chega é ruim. *Exemplo: o supervisor manda o grupo entrar sem reforço, e você recusa em voz alta sem levar advertência.*
-
 > **Sem Técnica** — você tem energia amaldiçoada e a técnica não veio junto. O texto está adiante, em *Legado de Sem Técnica*.
 
 #### Ajusta
@@ -127,7 +124,7 @@ Fundamento, do jeito padrão.
 #### Desliga
 
 > **Inédito** — **a sua técnica não está em registro nenhum: ninguém a reconhece pelo catálogo, e quem quiser se preparar contra ela precisa ter te visto usar.** Em troca, ninguém sabe te ajudar com ela. *Vale também para quem escolheu Sem Técnica — uma técnica montada em cima de uma aptidão comum é, por construção, uma que catálogo nenhum registrou.*
-> *Na mesa:* serve no reencontro com o mesmo inimigo. *Exemplo: ele volta preparado para o que te viu fazer na primeira luta, e para nada além disso.*
+> *Na mesa:* serve no reencontro com o mesmo inimigo. *Exemplo: ele volta sabendo o que te viu fazer na primeira luta, e nada além disso.*
 
 > **Chão Duro** — **para você, qualquer lugar conta como ambiente propício**, no capítulo 5, *Descanso e Recuperação*. Em troca, você não percebe quando os outros não estão aguentando.
 > *Na mesa:* serve em missão longe da escola. *Exemplo: o grupo dorme no mato e acorda com metade do PE; você acorda cheio.*
@@ -159,7 +156,7 @@ Fundamento, do jeito padrão. O passageiro mora na ficção da mesa, e a montage
 *Escolha um destes, obrigatoriamente.*
 
 > **A Voz de Dentro** — **uma vez por dia, pergunte ao mestre uma coisa sobre uma maldição ou técnica presente na cena. Ele responde com a verdade.**
-> *Na mesa:* serve na criatura que ninguém identificou. *Exemplo: você pergunta do que aquilo se alimenta, e o grupo para de tentar resolver no braço.*
+> *Na mesa:* serve na criatura que ninguém identificou. *Exemplo: você pergunta do que aquilo se alimenta, e o grupo para de tentar resolver na marra.*
 
 > **De Antes de Você** — **escreva na ficha uma pessoa, um lugar ou um clã que conheceu o que te habita, de quando ele andava sozinho. Eles existem e sabem o que você carrega.** O que fazem com isso é com eles.
 > *Na mesa:* serve quando a missão encosta em história antiga. *Exemplo: o clã que o grupo foi investigar já lidou com o que está dentro de você.*
@@ -183,15 +180,15 @@ Fundamento, do jeito padrão. O passageiro mora na ficção da mesa, e a montage
 > **Tranco** — **uma vez por cena, refaça um Teste de Resistência Físico que você falhou.**
 > *Na mesa:* serve contra veneno, queda e agarrão. *Exemplo: você falha em não cair do andaime, e tenta de novo.*
 
-> **Passagem** — **uma vez por dia, você deixa ele assumir e refaz qualquer rolagem. Quando você volta, o mestre diz uma coisa que ele fez enquanto estava no comando.**
+> **Passagem** — **uma vez por dia, você deixa ele assumir e refaz qualquer rolagem. Quando você volta, o mestre diz uma coisa que ele fez enquanto estava no comando.** O tempo é decidido pelo mestre, ou por uma negociação usando a **Promessa**.
 
 #### Desliga
 
 > **Máscara** — **quem sente a sua energia amaldiçoada sente a dele: você não aparece como o que é.** Em troca, o que essas pessoas concluem sobre você costuma ser pior do que a verdade.
 > *Na mesa:* serve em infiltração e contra barreira de detecção. *Exemplo: você atravessa a `Cortina` sem acender nada, e quem está do outro lado lê outra coisa.*
 
-> **Revezamento** — **uma vez por descanso longo, você não fica `Impedido`.** Em troca, quem estava olhando viu que naquele momento não era você que se mexia.
-> *Na mesa:* serve quando prender você era o plano. *Exemplo: a técnica fecha o chão em volta dos seus pés e você sai mesmo assim, na frente de todo mundo.*
+> **Revezamento** — **uma vez por descanso longo, você não fica `Incapacitado`.** Em troca, quem estava olhando viu que naquele momento não era você que se mexia.
+> *Na mesa:* serve quando você não pode abrir uma brecha. *Exemplo: uma técnica acaba de te deixar com a guarda aberta, mas os seus olhos se mantêm fixos no alvo, reagindo no último momento.*
 
 ## Descendente
 
@@ -234,17 +231,17 @@ Fundamento, do jeito padrão.
 > **Treino de Berço** — **escreva na ficha uma coisa que só o seu clã ensina.** Quem quiser aprender aquilo passa pela sua família, ou por você.
 > *Na mesa:* põe você na rota de quem precisa daquilo. *Exemplo: um feiticeiro de outro clã procura o grupo porque precisa do selo que só a sua casa ensina.*
 
-> **Sem Técnica** — você tem energia amaldiçoada e a técnica não veio junto. O texto está adiante, em *Legado de Sem Técnica*. Um Descendente Sem Técnica é alguém com nome de peso e nenhuma técnica de clã.
+> **Sem Técnica** — você tem energia amaldiçoada e a técnica não veio junto. O texto está adiante, em *Legado de Sem Técnica*.
 
 #### Ajusta
 
-> **Conversa de Jantar** — **uma vez por cena, role com vantagem o Teste de Resistência contra uma técnica de clã.**
+> **Conversa de Jantar** — **uma vez por cena, role com vantagem o Teste de Resistência contra uma técnica conhecida no mundo jujutsu.**
 > *Na mesa:* serve quando o antagonista é do meio. *Exemplo: o feiticeiro do outro lado usa a técnica da casa dele, e você já ouviu falar dos defeitos dela.*
 
 > **Etiqueta** — **uma vez por cena, refaça um teste social que você falhou diante de alguém de patente ou clã superior ao seu.**
 > *Na mesa:* serve em audiência, tribunal interno e reunião de clã. *Exemplo: você erra o tom com o chefe da casa e conserta antes de a porta fechar.*
 
-> **Repetição** — **escolha um Teste de Resistência na criação. Uma vez por cena, role-o com vantagem.**
+> **Repetição** — **escolha um Teste de Resistência na criação. Uma vez por descanso curto, role-o com vantagem.**
 
 > **Biblioteca** — **uma vez por cena, refaça um teste de `História` ou `Ocultismo` que você falhou.**
 > *Na mesa:* serve na cena de pesquisa. *Exemplo: o grupo trava no arquivo por causa de um dado ruim, e você tenta de novo.*
@@ -304,7 +301,7 @@ Fundamento, do jeito padrão.
 > **Corpo Emprestado** — **uma vez por cena, role com vantagem o Teste de Resistência contra ficar `Incapacitado`.** O corpo avisa os outros e não avisa você.
 > *Na mesa:* serve na cena em que você devia cair. *Exemplo: o golpe abre a sua guarda e você continua de pé, e só vê o estrago depois.*
 
-> **Espasmo** — **uma vez por cena, refaça um Teste de Resistência Físico ou de Vigor que você falhou.**
+> **Espasmo** — **uma vez por descanso curto, refaça um Teste de Resistência Físico ou de Vigor que você falhou.**
 > *Na mesa:* serve quando o corpo tinha que ter respondido. *Exemplo: você não sai da frente do desabamento, e sai.*
 
 > **Já Morri** — **uma vez por cena, role com vantagem o Teste de Resistência contra ficar `Amedrontado`.**
@@ -315,11 +312,11 @@ Fundamento, do jeito padrão.
 
 #### Desliga
 
-> **Conhecido** — **maldição que um objeto amaldiçoado puxou não vem atrás de você.** Em troca, a atração também não te avisa: o aperto que faz o resto do grupo olhar em volta não chega em você.
-> *Na mesa:* serve quando o grupo carrega um objeto sem selo. *Exemplo: eles passam a noite sendo procurados e você dorme — e entra primeiro na sala errada, sem sentir nada.*
+> **Conhecimento Antigo** — **você reconhece de imediato técnicas da sua Era, sem precisar de teste.** Em troca, você não conhece nenhuma das modernas, e falha ao tentar entendê-las.
+> *Na mesa:* serve quando enfrentar outro Reencarnado da sua Era, ou uma técnica antiga conhecida. *Exemplo: vocês encontram uma maldição de lendas muito antigas, e você sabe do que ela é capaz.*
 
 > **Usado** — **uma vez por cena, você não fica `Derrubado`.** Em troca, o mestre diz uma coisa pequena que o seu corpo passa a fazer errado até o fim da cena.
-> *Na mesa:* serve quando cair custava a rodada. *Exemplo: a onda te joga no chão e você não vai — e a sua mão esquerda para de fechar direito até a cena acabar.*
+> *Na mesa:* serve quando cair custava a rodada. *Exemplo: a onda te joga no chão e você não vai — e a sua mão esquerda para de fechar direito até a cena acabar. É a idade.*
 
 ## Feto
 
@@ -367,7 +364,7 @@ Fundamento, do jeito padrão.
 > *Na mesa:* serve no lugar contaminado. *Exemplo: o porão está cheio de gás e é você que desce.*
 
 > **Como Se Monta** — **uma vez por cena, refaça um teste de `Medicina` que você falhou.**
-> *Na mesa:* serve para estabilizar caído e ler cadáver. *Exemplo: você falha em segurar o companheiro a 0 de vida, e tenta de novo.*
+> *Na mesa:* serve para ler cadáver e tentar fechar ferimento simples. *Exemplo: você falha em estancar o sangramento de um aliado, e tenta de novo.*
 
 > **Faro** — **uma vez por cena, quando o que você procura é maldição, role `Sentir Energia` no lugar de `Investigação`.**
 > *Na mesa:* corta a busca por prédio ou por escombro. *Exemplo: o grupo ia vasculhar três andares, e você aponta o certo.*
@@ -389,7 +386,7 @@ Fundamento, do jeito padrão.
 
 **Sem Técnica se soma a uma das cinco Origens principais.** Você continua sendo Latente, Receptáculo, Descendente, Reencarnado ou Feto, com a marca de que a técnica não veio junto.
 
-A sua técnica existe. Ela só não nasceu com você: você montou ela em cima de uma coisa que qualquer feiticeiro pode aprender, e foi mais fundo nela do que ninguém tinha ido.
+Você monta o seu estilo em cima de uma coisa que qualquer feiticeiro pode aprender, e foi mais fundo nela do que ninguém tinha ido.
 
 O poder vem de dois lugares.
 
@@ -481,7 +478,7 @@ Você tem energia amaldiçoada, então tem PE, aptidões e refino como qualquer 
 > **Cabeça Trocada** — **escolha uma perícia e um atributo na criação. Uma vez por cena, role essa perícia com esse atributo em vez do que ela pede.**
 > *Na mesa:* serve quando o jeito de sempre não serve. *Exemplo: você rola `Persuasão` com Inteligência, porque a outra convence por argumento e não por presença.*
 
-> **Nunca os Dois** — **uma vez por cena, refaça um Teste de Resistência de Intelecto que você falhou.**
+> **Nunca os Dois** — **uma vez por descanso curto, refaça um Teste de Resistência de Intelecto que você falhou.**
 > *Na mesa:* serve contra ilusão e leitura de mente. *Exemplo: a maldição te convence de que a saída é para o outro lado, e não cola.*
 
 > **Palpite** — **uma vez por dia, role com vantagem um teste de perícia em que você não é treinado.**
@@ -489,7 +486,7 @@ Você tem energia amaldiçoada, então tem PE, aptidões e refino como qualquer 
 
 ##### Inteiro
 
-> **Feito de Uma Peça** — **uma vez por cena, refaça um Teste de Resistência de Vigor que você falhou.**
+> **Feito de Uma Peça** — **uma vez por descanso curto, refaça um Teste de Resistência de Vigor que você falhou.**
 > *Na mesa:* serve em desgaste longo, fogo e frio. *Exemplo: você falha em aguentar a fumaça e tenta de novo.*
 
 > **Teimosia** — **uma vez por cena, refaça um teste para continuar fazendo uma coisa que você já começou** — segurar, agarrar, sustentar, não largar.
@@ -511,12 +508,12 @@ Você tem energia amaldiçoada, então tem PE, aptidões e refino como qualquer 
 
 #### Desliga
 
-> **Ferro Velho** — **os degraus de exaustão não te alcançam.** Em troca, você não sente quando está perto de quebrar: o seu corpo para de uma vez, sem aviso.
+> **Ferro Velho** — **os degraus de exaustão não te alcançam.** Em troca, você não sente quando está perto de quebrar: você não sabe quantos pontos de vida tem, é difícil discernir.
 > *Na mesa:* serve em missão longa. *Exemplo: o grupo pega três degraus de exaustão na semana e você nenhum.*
 
 ## Restrição Celestial
 
-*Você trocou uma coisa por outra antes de nascer, e não foi você que assinou.*
+*Você trocou uma coisa por outra antes de nascer.*
 
 **São dois ramos opostos, e você escolhe um na criação.**
 
@@ -536,11 +533,9 @@ Você tem energia amaldiçoada, então tem PE, aptidões e refino como qualquer 
 | **Corpo pela técnica** | Fundamento normal, corpo com limitação escrita na ficha | Fundamento, no capítulo 9 |
 | **Sem energia** | sem Fundamento, sem feitiço de Toque, sem Sentir Energia, sem aptidão e sem refino. No lugar deles, **Bênçãos e Lapidação**, e acesso a ferramenta amaldiçoada como eixo de poder | Técnica Marcial, no capítulo 10, com o capítulo 13 no lugar do 11 |
 
-O `PE` do seu Caminho continua chegando. Nesta rota ele se lê **Pontos de Esforço** em vez de Pontos de Energia: é a mesma sigla, o mesmo número e a mesma coluna, e nenhuma regra do livro pergunta qual das duas você tem.
+O `PE` do seu Caminho continua chegando. Nesta rota ele se lê **Pontos de Esforço** em vez de Pontos de Energia: é a mesma sigla, o mesmo número e a mesma coluna.
 
 #### Perícias
-
-A lista sai por ramo, e é a única Origem assim.
 
 **Perícias por ramo**
 {: .tab-titulo }
@@ -550,7 +545,7 @@ A lista sai por ramo, e é a única Origem assim.
 | **Corpo pela técnica** | Sentir Energia · Tecnologia · Ocultismo · Percepção |
 | **Sem energia** | Atletismo · Acrobacia · Furtividade · Pontaria |
 
-Quem é do ramo sem energia não alcança `Sentir Energia` por lugar nenhum: ela é perícia de Essência, e essa é a percepção que a Origem não tem.
+Quem é do ramo sem energia não pode ter `Sentir Energia` de nenhuma forma.
 
 #### Destrancas
 
@@ -572,9 +567,6 @@ Você começa toda a ficha com um `Destranca` e um `Ajusta` ou `Desliga`.
 
 > **A Oferta** — **escreva na ficha o que você daria por um corpo que funcione. Existe gente que vende esse tipo de coisa, e uma delas sabe que você existe.**
 > *Na mesa:* serve quando o preço fica fácil de pagar. *Exemplo: no meio do arco a proposta volta, e agora ela custa menos do que custava.*
-
-> **Nunca Estive Lá** — **escreva na ficha um lugar que você conhece de cor e onde o seu corpo nunca pisou, e o que você viu acontecer lá.**
-> *Na mesa:* você é a planta baixa da equipe. *Exemplo: o grupo vai entrar num prédio que você já vigiou de dentro sem estar lá.*
 
 #### Ajusta
 
@@ -615,7 +607,7 @@ Você começa toda a ficha com um `Destranca` e um `Ajusta` ou `Desliga`.
 > **Sentido Treinado** — **uma vez por cena, role `Percepção` no lugar de `Sentir Energia`.**
 > *Na mesa:* é como você entra na cena de detecção sem ter o sentido. *Exemplo: você não sente a maldição, e nota a poeira que ela move.*
 
-> **Couro** — **uma vez por cena, refaça um Teste de Resistência Físico que você falhou.**
+> **Couro** — **uma vez por descanso curto, refaça um Teste de Resistência Físico que você falhou.**
 > *Na mesa:* você atravessa o que devia parar a equipe. *Exemplo: a queda de dois andares não te tira da luta.*
 
 > **Ninguém Viu** — **uma vez por cena, refaça um teste de `Furtividade` que você falhou.**
@@ -647,3 +639,5 @@ Use as publicadas como molde. **A forma de cada grupo está em *Como ler um Dest
 - **dar técnica.** Técnica vem da Origem e do Fundamento, e Legado nenhum concede uma.
 - **decidir o que um personagem do mestre faz.** Você diz o que existe no mundo por sua causa; o que a pessoa faz com isso continua sendo dela.
 - **entregar acerto, Defesa ou vida direto.** Esses três são a moeda do resto do sistema.
+
+Lembre-se de que os Legados são, no fundo, o que forma a sua história inicial. As opções dadas não são obrigatórias: são bases para ajudar a criar ideias para o seu personagem. Um personagem pode ter vários `Destranca` em um só, desde que isso não afete mecanicamente nada — é a base da história dele.

@@ -6,7 +6,7 @@ Uma rota de criação monta o poder aqui em vez de montar no Fundamento: a sub-o
 >
 > **A sua técnica existe. Ela só não nasceu com você:** você montou ela em cima de uma coisa que qualquer feiticeiro pode aprender, e foi mais fundo nela do que ninguém tinha ido.
 
-Não é a rota do personagem fraco. O feiticeiro de grau 1 sem técnica inata existe na obra, e a escola dele foi montada para que os fracos revidassem contra os fortes.
+Não é a rota do personagem fraco. O feiticeiro de grau 1 sem técnica inata existe na obra, e o que ele aprendeu foi montado para que os fracos revidassem contra os fortes.
 
 ## Máquina herdada
 
@@ -36,7 +36,7 @@ O nome não é enfeite. A categoria inteira de técnicas que não nascem com a p
 
 > **Você não tem Expansão de Domínio.** Nem incompleta, nem completa.
 
-Uma Expansão é a mesma técnica estendida sobre o território em volta. A sua nasce de uma aptidão que qualquer feiticeiro alcança, e uma aptidão esticada até virar território deixa de ser o que ela era — um `Domínio Simples` estendido é um domínio grande, que é exatamente a coisa contra a qual o Domínio Simples foi inventado.
+Uma Expansão é a mesma técnica estendida sobre o território em volta. A sua nasce de uma aptidão que qualquer feiticeiro alcança.
 
 **Em troca, a sua semente vem aberta.** É a seção seguinte, e ela chega no nível 2 com o que a maior parte das fichas só alcança lá na frente.
 
@@ -45,7 +45,7 @@ Uma Expansão é a mesma técnica estendida sobre o território em volta. A sua 
 Na criação, antes da Descrição e da Regra, você escolhe uma **semente**: uma aptidão que vem aberta, sem os gates de nível e de refino que ela pede de todo mundo. **Ela é o assunto do seu Fundamento.**
 
 > **A semente não gasta marco**, e o primeiro marco continua sendo o do nível 6, comprando o que sempre comprou.
-> **Ela conta como a primeira aptidão da sua lista.** Não é uma vaga a mais.
+> **Ela conta como uma aptidão a mais para a lista.**
 > **A escolha é de uma vez e não muda**, como o Caminho e a Trilha.
 
 As aptidões e os gates delas estão no capítulo 12, *Aptidões e Refino*.
@@ -57,13 +57,13 @@ As aptidões e os gates delas estão no capítulo 12, *Aptidões e Refino*.
 |---|---|
 | **`Domínio Simples`** | você fecha um pedaço de chão em volta de você, e o que entrar ali é problema seu |
 | **`Energia Reversa`** | você reverte o que já quebrou, e não conserta o que está inteiro |
-| **aptidão própria** | a que você escreve, com o mestre |
+| **aptidão própria** | a que você escreve, com o mestre, consumindo o slot de aptidão única que a ficha pode ter |
 
 ### `Domínio Simples`
 
-A rota da escola que ensina gente sem técnica a matar maldição. **Ela é anti-domínio**, e a arma é o jeito mais comum de usar — não o requisito: a técnica central da escola foi aprendida em um mês por alguém que não empunha espada.
+A rota da escola que ensina gente sem técnica a matar maldição. **Ela é anti-domínio**, e a arma é o jeito mais comum de usar — não o requisito.
 
-Quem quer uma ficha de barreiras entra por aqui. A semente é o **motor**, e não o assunto: o que você escreve em cima dela é seu.
+A semente é o **motor**, e não o assunto: o que você escreve em cima dela é seu.
 
 ### `Energia Reversa`
 
@@ -75,7 +75,7 @@ A rota de quem aprendeu a desfazer estrago. **Ela cura você**, pelas regras do 
 
 Você escreve a sua, com o mestre, em cima do que o sistema já tem — a Classe, a arma, a proteção, o que for. **Ela obedece a mesma trava de qualquer aptidão escrita na mesa**, no capítulo 12: ela cabe em `Classe Passiva 1` ou `2`, e nunca em `3`.
 
-**E ela não repete uma das aptidões do catálogo com outro nome.** Se o que você escreveu faz o que uma delas já faz, escolha aquela.
+**E ela não repete uma das aptidões do catálogo com outro nome.** Se o que você escreveu faz o que uma delas já faz, troque.
 
 ## Regra
 
@@ -92,13 +92,9 @@ Isso aperta menos do que parece. A semente diz **de que matéria** a técnica é
 
 > **Quem tem a semente `Energia Reversa` soma `1/3 do refino` em toda rolagem de cura sua.**
 
-Arredondando para baixo, como todo arredondamento do sistema. No refino 10 são `+3`.
+Arredondando para baixo, como todo arredondamento do sistema. **No refino 10 são `+4`, e não `+3`** — o teto ganha um degrau a mais, do mesmo jeito que o `Canalizar energia` troca o `d4` por `d6` ali.
 
-Vale sobre a cura da própria `Energia Reversa` e sobre qualquer outra que role dado e cure você. **Não vale sobre cura em terceiro**, porque esta rota não cura terceiro.
-
-## Marco
-
-**O seu marco tem os três eixos**, iguais aos de todo mundo: `Corpo`, `Refino` e `Leque`. Você tem lista de `Manejos`, tem Passivas e tem espaços, então o `Leque` compra o que ele sempre comprou. E a semente não gastou nenhum deles.
+Vale sobre a cura da própria `Energia Reversa` e sobre qualquer outra que role dado e cure você. **Não vale sobre cura em terceiro**, porque esta rota não cura terceiros até você adquirir a aptidão `Liberação de Energia Reversa`.
 
 ## Passivas
 
@@ -122,7 +118,6 @@ Dois, um de cada semente nomeada. Os dois param onde a criação de personagem p
 | **Regra** | *"O meu domínio não me protege: ele prende quem entrou junto."* |
 | **Livres** | Controle · Auxiliares |
 | **Fechadas** | Área · Alcance · Amparo |
-| **Passiva** | `Raiz` (Classe Passiva 1): você não é movido à força nem derrubado contra a sua vontade |
 
 As duas Livres caem da Regra: `Controle` é prender, e `Auxiliares` é o que ela faz com quem está preso. As três Fechadas caem da semente — um domínio de raio pequeno em volta de você não tem alcance nem área para comprar, e ele prende em vez de socorrer.
 
@@ -138,7 +133,7 @@ As duas Livres caem da Regra: `Controle` é prender, e `Auxiliares` é o que ela
 | **Regra** | *"Eu reverto energia no que já está quebrado, e não no que está inteiro."* |
 | **Livres** | Amparo · Auxiliares |
 | **Fechadas** | Área · Castigo · Marca |
-| **Passiva** | `Recomposição` (Classe Passiva 2), do capítulo 9 |
+| **Passiva** | `Recomposição`: uma vez por descanso curto, gasta a ação e recupera 5 × a sua maior Classe em vida |
 
 > **Um Fundamento pode não causar dano nenhum, e este é o exemplo.** A Forma `Apoio` não causa, a Forma `Efeito` também não, e nada obriga a sua técnica a machucar alguém.
 

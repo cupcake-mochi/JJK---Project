@@ -64,19 +64,17 @@ O que você entrega é da ficção, e o mestre cobra pelo câmbio. O que você r
 
 ### Limites
 
-> **Pacto não mexe em número de rolagem.** Nem no seu acerto, nem na sua Defesa, nem em perícia nenhuma. Um pacto que promete qualquer um dos três está fora, e não é questão de tamanho.
+> **Pacto não mexe em número de rolagem.** Nem no seu acerto, nem na sua Defesa, nem em perícia nenhuma. Um pacto que promete qualquer um dos três está fora.
 
-E se você pedir dano, o mestre te dá pouco. Pacto compra acesso, permissão, e coisa que o resto da ficha não sabe fazer.
+E se você pedir dano, o mestre te dá pouco. Pacto compra acesso, permissão, e coisa que o resto da ficha não consegue fazer.
 
 ## Pacto temporário
 
-> **Como Ação Bônus, no seu turno, você fecha um pacto na hora.** Diga o que perde e o que ganha; o mestre aprova ou recusa na mesma frase.
+> **Como Ação Bônus ou Reação, no seu turno, você fecha um pacto na hora.** Diga o que perde e o que ganha; o mestre aprova ou recusa na mesma frase.
 >
-> **A perda é física ou energética, e ela é de verdade.**
+> **A perda é física ou energética, e ela tem de ter valor para você.**
 
 O ganho morre na cena. A perda, não. Um braço que você entregou no meio da luta não volta porque a luta acabou.
-
-Não existe teto aqui. Quem segura é o mestre, pelo câmbio.
 
 ## Promessa
 
@@ -99,15 +97,15 @@ As duas partes não precisam ser dois personagens de jogador, nem dois feiticeir
 
 ### Quebrar uma Promessa
 
-> **Quebrar custa a sua energia amaldiçoada, e pode custar a sua vida.** Quanto exatamente é o mestre quem diz.
+> **Quebrar custa a sua energia amaldiçoada, e pode custar a sua vida.** Quanto exatamente é o mestre, ou o contrato, quem diz.
 
-Isso vale para quem quebra, e vale sozinho — ninguém precisa descobrir, ninguém precisa cobrar, e não existe recurso.
+Isso vale para quem quebra — ninguém precisa descobrir, ninguém precisa cobrar.
 
 ## Pacto de restrição
 
-É o pacto que **não concede nada**. Ele escreve o preço de uma coisa que a sua ficha já tem: a Origem que já custou, o corpo que já veio limitado, o Legado que você já escolheu.
+Ele escreve o preço de uma coisa que a sua ficha já tem: a Origem que já custou, o corpo que já veio limitado, o Legado que você já escolheu.
 
-Ninguém é obrigado a ter um. Quem escreve um está dando forma de regra a uma limitação que até então era só ficção.
+Ninguém é obrigado a ter um. Quem escreve um está dando forma de regra a uma limitação que até então era só narrativa.
 
 > **Um pacto de restrição não compra poder.** A limitação que devolve pontos é a `Restrição` de feitiço, no capítulo 9, *Fundamento*.
 
@@ -133,26 +131,26 @@ A tabela `Ideias de restrição` mostra o que um preço pesado parece, e serve t
 
 ### Ideias de restrição
 
-Nenhuma delas mexe em acerto, Defesa ou perícia.
-
 **Ideias de restrição**
 {: .tab-titulo }
 
 | Ideia | O que ela faz |
 |---|---|
-| `Fragmentação` | a sua Integridade deixa de ser uma barra só e vira **cinco**, cada uma com um quinto do total. Todo dano na alma cai numa delas, e **quem está causando escolhe qual**. Você aguenta o mesmo total e desmonta por partes, em vez de por igual |
-| `Liberação irregular` | a sua energia não sai no ritmo que você manda. **No começo de cada turno seu, role o teto de PE daquele turno** — é só isso que você gasta nele, com o poço cheio ou não. Nos turnos ruins o feitiço grande não sai |
-| `50/50` | a sua energia pisca. **Ela alterna: ligada num turno, desligada no seguinte**, e você sabe em qual está. No turno desligado você não conjura, **e todo dano que te acerta vem dobrado** |
-| `Pacifismo impraticável` | você jurou não fazer alguma coisa que o trabalho exige — não matar, não sacar primeiro, não usar a técnica contra gente. **O relógio dela corre em dias, e não em cenas:** quebrar não custa a rodada, custa o prazo inteiro que vem depois |
-| `Direcional` | você só anda em linha reta, e só para no fim. **Escolha uma direção no começo da Ação de Movimento e vá até gastar os metros ou bater em alguma coisa** — sem diagonal, sem curva, sem parar no meio |
+| `Fragmentação` | a sua Integridade deixa de ser uma barra só e vira **cinco**, cada uma com um quinto do total. Todo dano na alma cai numa delas, e **quem está causando escolhe qual**. As penalidades continuam funcionando para cada barra individualmente |
+| `Liberação irregular` | a sua energia não sai no ritmo que você manda. **No começo de cada turno seu, role o teto de PE daquele turno** — é só isso que você gasta nele, com o poço cheio ou não |
+| `50/50` | a sua energia pisca. **Ela alterna: ligada num turno, desligada no seguinte**, e você sabe em qual está. No turno desligado você não consegue usá-la, **e todo dano que te acerta vem dobrado** |
+| `Pacifismo impraticável` | o seu corpo exige que você mate um ser vivo a cada X dias, mas você tem um voto que proíbe você de fazer isso. Você tem de procurar sempre um jeito de gerar mortes de forma acidental ou indireta; senão, você morre |
+| `Direcional` | você só anda em linha reta, e só para no fim. **Escolha uma direção no começo da Ação de Movimento e vá até gastar todo o seu movimento ou bater em alguma coisa** — sem diagonal, sem curva, sem parar no meio |
 | `Magnetismo energético` | energia amaldiçoada em movimento é puxada para você. **Ataque que viaja em linha até outro alvo muda de rota e vem em você** — projétil, feixe, o que atravessa o espaço. Área e toque não, porque não viajam |
-| `Aquecendo` | o seu corpo demora a acordar. **Você entra em toda luta com a vida máxima em `1`, e ela sobe a cada turno seu até a sua vida máxima de sempre — e para ali.** Ela nunca passa dela. O perigo são os primeiros turnos, em que qualquer golpe te derruba |
-| `Catatau` | a sua vida e a sua energia são a mesma coisa, e a conversão é `1` para `1`: **cada `1` de dano que você leva tira `1` de PE, e cada `1` de PE que você gasta tira `1` de vida.** Conjurar te machuca, e apanhar te desarma |
+| `Aquecendo` | o seu corpo demora a acordar. **Você entra em toda luta com a vida máxima em `1`, e ela sobe a cada turno seu até a sua vida máxima de sempre — e para ali.** Ela nunca passa dela |
+| `Catatau` *(Boo.zip names)* | a sua vida e a sua energia são a mesma coisa, e a conversão é `1` para `1`: **cada `1` de dano que você leva tira `1` de PE, e cada `1` de PE que você gasta tira `1` de vida.** Conjurar te machuca, e apanhar te desarma |
+
+Essas penalidades foram escritas com base nas ideias do canada.zip, um amigo meu. Usem como ideia para as suas restrições de nascença, envolvendo tanto o corpo quanto a técnica. A ideia dos pactos nunca é trazer valor numérico, e sim mecânica única para a sua ficha ou para a situação, sempre decidida com o mestre. Todos os casos de pacto acima podem conceder um benefício à parte, tão único quanto a penalidade — mas a fala do mestre é final sobre o quanto esses pactos concedem, contanto que nunca seja numérico.
 
 ## Pactos na criação
 
 Pacto permanente, temporário e `Promessa` nascem em jogo, e nenhum dos três entra na criação de personagem, no capítulo 6, *Criação de Personagem*.
 
-O pacto de restrição é o único que a criação alcança, e ele se escreve junto da Origem ou da técnica.
+O pacto de restrição é o único que a criação alcança, e ele se escreve junto da Origem ou da técnica. Com permissão do mestre, você pode ter um pacto de restrição sem ter a Essência mínima para o primeiro pacto — mas essa decisão é inteira do mestre, e é recomendada só nos casos em que o narrativo do pacto agrega mais que o mecânico.
 
 Quem quiser começar com uma troca já feita tem duas portas que não são Pactos: a `Regra Própria` da sua técnica, no capítulo 9, *Fundamento*, e o Legado da sua Origem, no capítulo 7, *Origens e Legados*.

@@ -1,7 +1,5 @@
 # Criação de Personagem
 
-Uma ficha de feiticeiro cabe numa página e leva de vinte a quarenta minutos para montar. A parte longa é uma só: escrever a técnica.
-
 ## Peças da ficha
 
 - **Uma técnica** que só você tem, escrita por você
@@ -10,7 +8,7 @@ Uma ficha de feiticeiro cabe numa página e leva de vinte a quarenta minutos par
 - **Uma Origem**, que diz de onde veio o seu poder
 - **Oito perícias e três ofícios** treinados, ou nove e dois, você escolhe
 - **Dois Testes de Resistência** treinados, de quatro
-- **Dois Legados**, das listas da sua Origem
+- **Dois Legados**, das listas da sua Origem. Um `Destranca` e um `Desliga` ou `Ajusta`
 - **Cinco feitiços**: dois pequenos e grátis, três de verdade
 - **Os números que caem sozinhos**: vida, energia, Defesa, iniciativa
 
@@ -18,7 +16,7 @@ Uma ficha de feiticeiro cabe numa página e leva de vinte a quarenta minutos par
 
 > **Personagem novo começa no nível 2.** Não existe ficha de nível 1 padrão.
 
-O nível 1 é o personagem antes de virar feiticeiro: a pessoa que ainda não conjura, o Itadori antes do dedo. Ele fica como opção de campanha para quem quiser jogar essa parte.
+O nível 1 é o personagem antes de virar feiticeiro: a pessoa que ainda não é feiticeira de verdade, o Itadori antes do dedo. Ele fica como opção de campanha para quem quiser jogar essa parte.
 
 No nível 2 você já tem técnica, já tem feitiço e já dá para encarar uma missão. As contas do passo 7 presumem o nível 2.
 
@@ -84,7 +82,7 @@ Que lugar você ocupa numa equipe. Um Caminho por personagem, escolhido agora e 
 | **Emanador** | a técnica como resposta: mais feitiço, e mais barato | Inteligência, Essência |
 | **Evocador** | o que você trouxe como resposta: invocações | Inteligência, Essência |
 
-O Caminho mexe em posicionamento, alvo, duração e recuperação. Ele nunca mexe em dados de dano, Classe de feitiço, Melhoria de graça ou cura.
+O Caminho mexe em posicionamento, alvo, duração e recuperação. Ele nunca mexe em dados de dano e Classe de feitiço.
 
 ### Características do Caminho
 
@@ -105,7 +103,7 @@ Mais **quatro perícias à sua escolha**, de qualquer lugar do quadro, **dois of
 
 > **Você sai de casa com o `Traje` degrau 1 da instituição e ¥150.000 para montar o resto.**
 
-O Caminho te treina numa lista de armas; ele não te dá a arma. Isso você compra, e as tabelas de `Preços` estão no capítulo 14, *Equipamento*. Os ¥150.000 são uma mensalidade de um Grau 4, que é o que você é.
+O Caminho te treina numa lista de armas; ele não te dá a arma. Isso você compra, e as tabelas de `Preços` estão no capítulo 14, *Equipamento*. Os ¥150.000 são uma mensalidade de um Grau 4, que é o que você é no começo.
 
 O dinheiro dá para mais que a arma, e é aí que duas fichas do mesmo Caminho começam diferentes: dá para sair de espada e escudo, de uniforme reforçado, ou de `Revestimento` e punho fechado. As contas de cada uma estão no capítulo 14.
 
@@ -198,7 +196,7 @@ Nada aqui é escolha. Você copia da tabela e faz a conta.
 
 No refino 1 você já tem duas aptidões, de graça: `Cobrir-se de energia`, que dá proteção sem equipamento, e `Canalizar energia`, que permite ferir uma maldição com o corpo ou com a arma. São básicas de qualquer feiticeiro.
 
-> **Toda ficha de nível 2 nasce com proteção 1.** É o `+1` que entra na Defesa acima. Sem Traje e sem Revestimento, a sua proteção é `1/3 do refino + 1`, que no refino 1 dá 1. Escudo soma com ela; Traje e Revestimento desligam.
+> **Toda ficha de nível 2 nasce com proteção 1.** É o `+1` que entra na Defesa acima. Sem Traje e sem Revestimento, a sua proteção é `1/3 do refino + 1`, que no refino 1 dá 1. Escudo soma com ela; Traje e Revestimento não.
 
 ## Passo 8 · Pactos
 

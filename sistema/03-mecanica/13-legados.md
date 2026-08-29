@@ -183,9 +183,9 @@ O teto aqui já é zero, porque nada nele encosta em número. **O que falta nest
 | tipo | o gatilho é | exemplos |
 |---|---|---|
 | **Destranca de ação** | uma coisa que o jogador **faz**, quando ele quer | O Sobrenome · A Voz de Dentro · O Que Ele Quer · O Jeito Errado |
-| **Destranca de identidade** | **a própria escolha**, feita uma vez na criação | Sem Patente · De Antes de Você · as quatro configurações do Corpo Amaldiçoado |
+| **Destranca de identidade** | **a própria escolha**, feita uma vez na criação | De Antes de Você · as quatro configurações do Corpo Amaldiçoado |
 
-**O `Sem Patente` do Latente é de identidade e passou na régua sem ninguém reparar** — *"você nunca entrou na instituição, e ela sabe disso"* não tem gatilho nenhum, e nunca precisou de um. A cláusula estava escrita para o primeiro tipo e aplicada aos dois.
+**O `Sem Patente` do Latente era de identidade e passou na régua sem ninguém reparar** — *"você nunca entrou na instituição, e ela sabe disso"* não tinha gatilho nenhum, e nunca precisou de um. A cláusula estava escrita para o primeiro tipo e aplicada aos dois. *Ele saiu do catálogo na v0.176, por decisão do Mizuki. O que ele ensinou sobre o segundo tipo sobreviveu, e é o que esta seção guarda: o `De Antes de Você` e as quatro configurações do Corpo Amaldiçoado são de identidade pelo mesmo motivo.*
 
 **O que segura o segundo tipo é o teste dos 90%, e ele segura sozinho:** ninguém deixa em branco a linha que diz **o que ele é**. Um Destranca de identidade não corre o risco que a cláusula 1 existe para evitar — o do **Irmãos**, que é uma coisa que *acontece com você* e que você não alcança.
 
@@ -373,15 +373,12 @@ Cada entrada declara **formato**, **largura** e **relógio**. As colunas não s�
 | **O Jeito Errado** | por dia |
 | **O Professor Que Você Não Teve** | sem relógio |
 | **A Testemunha** | sem relógio |
-| **Sem Patente** | sem relógio |
 
 > **O Jeito Errado** — escreva na ficha **o que você aprendeu errado antes de aprender certo**. Uma vez por dia, aponte alguém que esteja fazendo a mesma coisa errada e o mestre diz o que aquilo custa a essa pessoa.
 >
 > **O Professor Que Você Não Teve** — existe um feiticeiro que **podia** ter te ensinado e não ensinou. Escreva quem é e por que não. Essa pessoa está viva, sabe que você existe, e a escolha dela ainda está de pé.
 >
 > **A Testemunha** — alguém sem energia amaldiçoada **sabe o que você é**, e nunca contou pra ninguém. Escreva quem é e o que essa pessoa viu. Ela continua na vida dela, e continua sabendo.
->
-> **Sem Patente** — você nunca entrou na instituição, e ela sabe disso. Patente não te obriga a nada: ordem de superior é conselho, e a hierarquia te trata como o que você é — alguém que não deve nada e a quem não se deve nada.
 
 **Ajusta**
 
@@ -685,10 +682,10 @@ As duas dão **vantagem em Teste de Resistência**, e é o mesmo número. A dife
 
 | Legado | apaga | relógio |
 |---|---|---|
-| **Conhecido** | ser puxado pela atração de um objeto amaldiçoado | sempre |
+| **Conhecimento Antigo** | o teste para reconhecer técnica da sua Era | sempre |
 | **Usado** | ficar `Derrubado` | por cena |
 
-> **Conhecido** — maldição que um objeto amaldiçoado puxou **não vem atrás de você**. Você já foi um: para ela, você é parte do lugar, e não o que ela veio buscar. *Em troca, a atração também não te avisa — o aperto que faz todo mundo do grupo olhar em volta quando tem objeto sem selo por perto não chega em você, e você entra sem perceber.*
+> **Conhecimento Antigo** — você **reconhece de imediato técnica da sua Era, sem teste nenhum**. Você estava lá quando ela era nova. *Em troca, você não conhece nenhuma das modernas: onde outro rolaria para entender, você falha.*
 >
 > **Usado** — este corpo já esteve em estado muito pior que este, e levantou: uma vez por cena, você **não fica `Derrubado`**. *Em troca, ele cobra depois — o mestre diz uma coisa pequena que o seu corpo passa a fazer errado até o fim da cena, e ela é sua e não dele.*
 
@@ -704,9 +701,11 @@ Sobrou **um** alvo legal no sistema inteiro pela enumeração da seção 8 — *
 
 > **Esta vaga dizia "espera a peça de equipamento", e o *Enterrado* foi a pista falsa.** *Corrigido na v0.49.* Aquele Destranca diz *"você guardou uma coisa antes de morrer"* — e **a coisa não é necessariamente uma arma**, então ele nunca dependeu de equipamento. O que ele pedia era objeto com regra, e **objeto amaldiçoado virou a peça 21 na v0.132.**
 
-**`Conhecido` apaga uma coisa nomeada, e ela é da peça 21 §4: a atração.** *A regra dela mora lá e não é repetida aqui.* **O que interessa a esta peça é que ninguém compra a atração** — ela não sai de tabela de preço nenhuma, é o que o mundo faz com quem carrega um objeto —, e por isso ela passa na trava do `Desliga`. *A troca está no próprio texto, como o formato exige, e ela é o espelho do benefício:* quem a atração não alcança também não é avisado por ela.
+**O `Conhecido` ocupava esta casa até a v0.176, e ele apagava a atração da peça 21 §4.** *O Mizuki trocou ele pelo `Conhecimento Antigo` na revisão do livro, e a troca muda o que a casa desliga.*
 
-> **O par que quase colide, e fica anotado.** *A `Máscara` do Receptáculo mexe em **ser sentido pelo que você é**; a `Coleira` do Descendente, em **ser localizado por técnica**.* **A atração não é nenhuma das duas** — ela não lê ninguém, não procura ninguém e não é técnica. *Se alguma das três for reescrita, é este o trio a reconferir.*
+**⚠ E ela deixa uma pergunta de formato aberta, anotada aqui em vez de resolvida sozinha.** *O `Desliga` desta peça apaga **o que chega em você** — a atração chegava. O `Conhecimento Antigo` apaga **uma rolagem que você faria**, e isso é mais perto do que o `Ajusta` faz.* **O que segura ele no `Desliga` é a simetria:** ele não dá vantagem nem rerrolagem, ele liga e desliga por recorte — automático de um lado, falha automática do outro —, e não tem relógio. *Se a régua do `Desliga` for reapertada, é esta entrada que muda de seção primeiro.*
+
+> **A atração ficou sem Legado que a desligue, e isso é decisão e não esquecimento.** *Ela continua sendo o que o mundo faz com quem carrega objeto sem selo, na peça 21 §4, e agora ninguém escapa dela por Legado.* **O par que sobra continua anotado:** a `Máscara` do Receptáculo mexe em *ser sentido pelo que você é*, e a `Coleira` do Descendente, em *ser localizado por técnica*. *Se alguma das duas for reescrita, é este o par a reconferir.*
 
 **A lista fecha em dez escritos: quatro Destranca · quatro Ajusta · dois Desliga.** Dominância dentro da lista: nenhuma — os quatro Destranca compram um segredo de antes, um credor, uma pessoa enganada e um objeto parado, e nenhum contém outro.
 
@@ -933,15 +932,12 @@ E a assimetria some junto: *você* reconhece, *você* sabe quando um morre. Não
 | **Nasci Assim** | o que o seu corpo não faz, e o que isso cobra todo dia |
 | **O Substituto** | as pessoas conhecem uma coisa que não é você |
 | **A Oferta** | você já pensou no preço de um corpo que funcione |
-| **Nunca Estive Lá** | você conhece lugares onde o seu corpo nunca esteve |
 
 > **Nasci Assim** — escreva **o que o seu corpo não faz e o que isso te cobra todo dia**: o que dói, o que falta, o que você não pode encarar. Não é segredo e não tem conserto conhecido.
 >
 > **O Substituto** — o meio jujutsu conhece você por **uma coisa que não é o seu corpo** — um nome, uma voz, uma casca. Escreva o que é. Quase ninguém sabe que existe outra pessoa do outro lado, e quem sabe conta nos dedos.
 >
 > **A Oferta** — você já pensou no que daria por um corpo que funcione, e **já chegou a um número**. Escreva qual é. Existe gente que vende esse tipo de coisa, e uma delas sabe que você existe.
->
-> **Nunca Estive Lá** — a sua energia vai a lugares que você não vai. Escreva **um lugar que você conhece de cor e onde o seu corpo nunca pisou**, e o que você viu acontecer lá.
 
 **Corpo pela técnica — Ajusta**
 
@@ -1018,7 +1014,7 @@ O segundo: **a restrição pode vir partida.** No material, dois nascidos juntos
 
 **E o `Alcance Impossível` morreu.** *"Aja de um lugar em que o seu corpo não está"* é **técnica** — operar à distância é exatamente o que a técnica do exemplar canônico faz —, e a peça 9 proíbe Origem de conceder técnica. É o mesmo diagnóstico do `Núcleos` e do `Não Sou Gente`: **não é Legado, é kit de poder, e o dono aqui é o Fundamento.** O ramo do corpo fraco conjura normalmente, então alcance absurdo é Melhoria de feitiço.
 
-O que sobrou dele virou duas coisas que **não** são técnica: o `Nunca Estive Lá`, que é o conhecimento sem o poder, e o `Do Meu Canto`, que é a vantagem de quem nunca precisou chegar perto.
+O que sobrou dele virou duas coisas que **não** são técnica: o `Nunca Estive Lá`, que era o conhecimento sem o poder, e o `Do Meu Canto`, que é a vantagem de quem nunca precisou chegar perto. *O primeiro saiu do catálogo na v0.176, por decisão do Mizuki; o `Do Meu Canto` continua sendo o que sobrou do `Alcance Impossível`.*
 
 **O `Peso Real` passou a valer nos dois ramos**, e ganhou a cláusula de troca que a régua exige e que ele não tinha: *o aviso vem sem nome*. Você sabe que tem coisa ali; não sabe o quê.
 
@@ -1113,18 +1109,20 @@ O que sobrou dele virou duas coisas que **não** são técnica: o `Nunca Estive 
 
 | Origem | Destranca | Ajusta | Desliga escrito | Desliga reservado | escritos |
 |---|---|---|---|---|---|
-| Latente | 4 | 4 | 2 | — | **10** |
+| Latente | 3 | 4 | 2 | — | **9** |
 | Receptáculo | 4 | 4 | 2 | — | **10** |
 | Descendente | 5 | 4 | 2 | — | **11** |
 | Reencarnado | 4 | 4 | **2** | — | **10** |
 | Corpo Amaldiçoado | 4 | **12** | 1 | 1 | **17** |
 | Feto | 4 | 4 | 2 | — | **10** |
-| Restrição Celestial | **8** | **8** | 2 | — | **18** |
-| | **33** | **40** | **13** | **1** | **86** |
+| Restrição Celestial | **7** | **8** | 2 | — | **17** |
+| | **31** | **40** | **13** | **1** | **84** |
 
-**Mais o `Sem Técnica`** — uma entrada só, escrita fora das listas e compartilhada pelas cinco Origens que o aceitam. **Oitenta e sete no total.**
+**Mais o `Sem Técnica`** — uma entrada só, escrita fora das listas e compartilhada pelas cinco Origens que o aceitam. **Oitenta e cinco no total.**
 
-**Oitenta e seis entradas escritas, e uma vaga de Desliga declarada.** *Eram sete vagas até a v0.104, duas até a v0.131 e uma agora.* **A que sobra é a do Corpo Amaldiçoado, e ela não espera peça nenhuma: a Técnica Marcial fechou na v0.122 e o que falta ali é escrita.** *A do Reencarnado fechou na v0.132, com o `Conhecido`, quando objeto amaldiçoado virou a peça 21.* As duas Origens com sub-escolha — Corpo Amaldiçoado e Restrição Celestial — respondem por **35 delas**, e nas duas o jogador alcança bem menos do que o catálogo tem.
+**Oitenta e quatro entradas escritas, e uma vaga de Desliga declarada.** *Eram oitenta e seis até a v0.176, quando o `Sem Patente` e o `Nunca Estive Lá` saíram do catálogo por decisão do Mizuki, na revisão do livro.* *Eram sete vagas até a v0.104, duas até a v0.131 e uma agora.* **A que sobra é a do Corpo Amaldiçoado, e ela não espera peça nenhuma: a Técnica Marcial fechou na v0.122 e o que falta ali é escrita.**
+
+> **⚠ O Reencarnado tem as duas casas de `Desliga` cheias, e mesmo assim uma coisa ficou órfã na v0.176.** *O `Conhecido` fechou a vaga na v0.132 desligando a **atração** da peça 21; o `Conhecimento Antigo` tomou a casa dele e desliga outra coisa — uma rolagem.* **A casa está ocupada e o alvo está livre:** a atração continua nomeada, e nenhum Legado a apaga. *Isso não abre vaga — a cota é de dois por Origem e os dois estão escritos —, mas tira da peça 21 o que ela destravava. O §6 dela registra isso do lado de lá.* As duas Origens com sub-escolha — Corpo Amaldiçoado e Restrição Celestial — respondem por **34 delas**, e nas duas o jogador alcança bem menos do que o catálogo tem.
 
 | | o jogador escolhe o segundo Legado entre |
 |---|---|
@@ -1136,7 +1134,7 @@ O que sobrou dele virou duas coisas que **não** são técnica: o `Nunca Estive 
 
 **As sete listas estão escritas.** O que falta para a metade 2 fechar: o **Não Sou Gente** virar Passiva, e **uma** vaga de Desliga, a do Corpo Amaldiçoado — e ela não depende de peça nenhuma, porque a Técnica Marcial fechou na v0.122. *O validador dos Legados existe desde a v0.39; cinco vagas fecharam na v0.104 e a sexta na v0.132.*
 
-**O alvo livre acabou.** O *Ferro Velho* gastou os degraus de exaustão, que era o último da enumeração da seção 8 — **daqui para a frente, todo Desliga novo depende de peça nova criar coisa nomeada.** *E foi exatamente assim que a vaga do Reencarnado fechou: a peça 21 nomeou a **atração**, e o `Conhecido` desliga ela.*
+**O alvo livre acabou.** O *Ferro Velho* gastou os degraus de exaustão, que era o último da enumeração da seção 8 — **daqui para a frente, todo Desliga novo depende de peça nova criar coisa nomeada.** *E foi exatamente assim que a vaga do Reencarnado fechou: a peça 21 nomeou a **atração**, e o `Conhecido` desligava ela. **O `Conhecimento Antigo`, que tomou a casa na v0.176, não desliga coisa de peça nenhuma — ele desliga uma rolagem**, e é por isso que a pergunta de formato ficou anotada.*
 
 **Seis das sete Origens fecham a cota de dois hoje.** A que falta é o Corpo Amaldiçoado, e o que segura a vaga dele não é peça: é a decisão de qual coisa nomeada da Técnica Marcial vale a pena desligar. **A dívida de alvo é a conta desta régua, e ela é visível de propósito.**
 
@@ -1151,7 +1149,7 @@ O catálogo, e as decisões de sabor que vêm com ele:
 - ~~**As três listas que faltam**~~ — **as sete fecharam na v0.38**, 81 entradas escritas.
 - ~~**Os três relógios fora da escada**~~ — **descidos**: *Aprendi Apanhando* e *A Voz de Dentro* para por dia, *O Que Ninguém Lembra* para por descanso longo.
 - ~~**O piso do Irmãos**~~ — **resolvido na lista do Feto**, pelo canon: a irmandade é definida por quem te fez, e o gatilho virou o jogador apontar alguém e dizer que é irmão.
-- **Sobrou UMA vaga de Desliga.** *Eram sete.* **Ela é a do Corpo Amaldiçoado, e o que falta nela é escrita e não peça** — *a que ela aguardava fechou na v0.122 e é a peça 20.* **Alvo de `Desliga` é escopo daqui**, e a peça 20 §11 registra a vaga em vez de tentar preencher de fora. **A do Reencarnado fechou na v0.132**, com o `Conhecido`, quando objeto amaldiçoado virou a peça 21 e nomeou a atração. **As cinco destravadas foram escritas na v0.104** — três que esperavam a peça 19 e duas que esperavam a peça 16 —, e todas as cinco só couberam porque a trava do `Desliga` foi relaxada na mesma versão: *ele passou a poder apagar condição uma vez, com o relógio saindo do nível dela.* *Reclassificadas na v0.49: as quatro que diziam "equipamento" nomeavam a peça errada, e nenhuma delas abriu quando aquela peça fechou.*
+- **Sobrou UMA vaga de Desliga.** *Eram sete.* **Ela é a do Corpo Amaldiçoado, e o que falta nela é escrita e não peça** — *a que ela aguardava fechou na v0.122 e é a peça 20.* **Alvo de `Desliga` é escopo daqui**, e a peça 20 §11 registra a vaga em vez de tentar preencher de fora. **A do Reencarnado fechou na v0.132**, com o `Conhecido`, quando objeto amaldiçoado virou a peça 21 e nomeou a atração — **e na v0.176 o `Conhecimento Antigo` tomou a casa dele com outro alvo.** *A casa continua cheia; o que ficou livre foi a atração.* **As cinco destravadas foram escritas na v0.104** — três que esperavam a peça 19 e duas que esperavam a peça 16 —, e todas as cinco só couberam porque a trava do `Desliga` foi relaxada na mesma versão: *ele passou a poder apagar condição uma vez, com o relógio saindo do nível dela.* *Reclassificadas na v0.49: as quatro que diziam "equipamento" nomeavam a peça errada, e nenhuma delas abriu quando aquela peça fechou.*
 
   > **⚠ E as outras DUAS já destravaram, e ninguém voltou.** *Elas esperavam `ferramenta amaldiçoada`, que virou a peça 16 na v0.59 — a `Armaria` do Descendente e a Restrição Celestial.* **A peça 16 §9 registra que destrava as duas; esta peça continuava dizendo que elas esperam.** *Achado na v0.100, e a linha da tabela de cada uma continua dizendo `espera a peça de ferramenta amaldiçoada` — escrever as duas é trabalho, não conserto de texto.*
 - ~~**O `Inédito` precisa da linha que o fecha para Sem Técnica** — é a única das 81 entradas que pressupõe técnica própria.~~ **Fechado na v0.168, e pelo lado contrário.** *A peça 25 §3.1 diz que aquela rota escreve Fundamento: ela tem técnica, só não tem técnica **inata**.* **O `Inédito` funciona nela, e a linha que o fecharia não existe mais como dívida.** *O ponteiro para "a checagem 8 do validador" também caiu — ela sempre conferiu outra coisa.*

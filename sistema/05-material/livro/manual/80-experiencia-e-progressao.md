@@ -1,6 +1,6 @@
 # Experiência e Progressão
 
-Você sobe de nível gastando XP, e o XP vem de missão.
+Você sobe de nível gastando XP, e o XP vem de missões e mesas.
 
 > **Cada nível custa um número inteiro de missões, e esse número sobe uma missão a cada três níveis.**
 >
@@ -10,7 +10,7 @@ Você sobe de nível gastando XP, e o XP vem de missão.
 >
 > **Na sua semana, as duas primeiras missões pagam cheio. Da terceira em diante o valor cai pela metade a cada uma.**
 >
-> **Do nível 20 para o 21, além do XP é preciso um feito.**
+> **Do nível 20 para o 21, além do XP é preciso um feito.** *Normalmente isso também sobe o seu Grau.*
 
 O XP não muda com o seu nível nem com o Grau de quem está na mesa. Um nível 8 e um nível 14 na mesma missão levam os mesmos 100, e quem está atrás sobe mais rápido sozinho, porque cada nível custa mais que o anterior.
 
@@ -52,7 +52,7 @@ Chegar ao nível 20 custa **6.300 XP** no total. Do 20 ao 30 são **8.200**.
 
 > **Quem declara o tamanho é quem posta a missão, e declara antes de ela acontecer.**
 
-Missão de roleplay que qualquer Grau pode entrar é missão curta, e ela paga.
+Missão de roleplay que qualquer Grau pode entrar é missão curta, e ela paga — mas toda missão pode variar por mais do que o tempo: importância e periculosidade também mexem nesses valores. Um final de arco pode ser uma mesa só de roleplay, por exemplo.
 
 ## Ritmo de subida
 
@@ -95,17 +95,17 @@ Uma missão perdida por azar de dado pesa diferente de uma abandonada na metade,
 
 ## XP de quem mestra
 
-> **Mestrar paga na moeda que o sistema já tem separada: patente, contato, favor da instituição, acesso.**
+> **Mestrar paga numa moeda diferente, com base no servidor onde ele foi estabelecido.** Algumas guildas concedem XP por missão mestrada, mas não aconselhamos isso. O recomendado é uma "moeda" recebida no fim da missão mestrada, trocável por vários recursos dentro do próprio servidor.
 
-Um mestre ativo constrói patente e rede, e as duas abrem porta que nível nenhum abre.
+Um mestre ativo constrói patente e rede, e as duas podem abrir portas que nível nenhum abre.
 
-> **A cada vinte mesas mestradas você recebe uma mensalidade extra do seu Grau.** A marca fecha sozinha na vigésima e paga na patente que você tinha naquele dia.
+> **Exemplo: a cada `X` mesas mestradas você recebe uma mensalidade extra do seu Grau.** A marca fecha sozinha no `X` e paga na patente que você tinha naquele dia.
 
-Não dá para segurar mesa e fechar a marca depois de subir de patente: a vigésima fecha sozinha, e não existe o ato de fechar. Quem mestra três vezes por mês chega a uma marca a cada seis ou sete meses, e quem mestra uma vez por mês leva vinte. É um bônus em cima da folha, e nunca um segundo salário.
+Não daria para segurar mesa e fechar a marca depois de subir de patente: o `X` fecha sozinho. Quem mestra `Y` vezes por mês chega a uma marca a cada `X` meses, e quem mestra uma vez por mês leva o tempo maior. É um bônus em cima da folha, e nunca um segundo salário.
 
 ## Salário
 
-> **Feiticeiro recebe salário mensal da instituição, e o valor sai da patente.** Não é pagamento por missão: é folha.
+> **Feiticeiro recebe salário mensal da instituição, e o valor sai da patente.** Ele depende da sua patente e das missões de que você participou.
 
 **Salário por patente**
 {: .tab-titulo }
@@ -122,15 +122,17 @@ Um Grau 4 ganha pouco menos que um recém-formado de empresa, e mora onde a esco
 
 O dinheiro compra equipamento, e os `Preços` estão no capítulo 14, *Equipamento*. Ele não compra nível, não compra marco e não compra aptidão.
 
+> **Salário mínimo.** Se um feiticeiro não participar de missões, o salário que ele recebe é `1/4` do padrão do Grau dele. Cada missão jogada preenche esse requisito: para receber o salário completo, é preciso participar de pelo menos **3** missões ou mesas no mês, e cada uma completa `1/4` do salário depois do mínimo. Missão longa vale por **2**, e final de arco vale por **3**. Missão pode conceder dinheiro extra, mas isso é decisão de cada servidor.
+
 ## Limiar do nível 20
 
 > **Você chega ao nível 20 por XP. Você passa dele por feito.**
 
-Aos 6.300 de XP acumulado o personagem para no nível 20 até a mesa reconhecer alguma coisa que ele fez. O XP continua acumulando e nada se perde: quando o feito acontece, o que estava guardado destrava de uma vez.
+Aos 6.300 de XP acumulado o personagem para no nível 20 até a mesa reconhecer alguma coisa que ele fez. O XP continua acumulando e nada se perde: quando o feito acontece, o que estava guardado destrava de uma vez, concedendo nível após nível pela métrica de sempre.
 
-**A lista é fechada.** O mestre da mesa tem a palavra final sobre se um feito aconteceu — e não sobre quais são.
+**A lista é fechada.** O mestre ou o servidor da mesa tem a palavra final sobre se um feito aconteceu — e não sobre quais são.
 
-**Feitos do limiar**
+**Feitos do limiar — exemplos**
 {: .tab-titulo }
 
 | | o feito |
@@ -144,7 +146,9 @@ Aos 6.300 de XP acumulado o personagem para no nível 20 até a mesa reconhecer 
 | **7** | trazer para a Guilda uma ferramenta de grau 1 ou especial |
 | **8** | terminar a missão depois de outro personagem jogador chegar ao estágio 4 |
 
-Um feito basta, e ele destranca uma vez só. Toda entrada da tabela `Feitos do limiar` cita uma coisa que fica escrita na ficha ou no registro da missão depois que a mesa acabou — é isso que faz sete mestres diferentes lerem a lista do mesmo jeito.
+Um feito basta, e ele destranca uma vez só. Toda entrada da tabela `Feitos do limiar` cita uma coisa que fica escrita na ficha ou no registro da missão depois que a mesa acabou — é isso que faz sete mestres diferentes lerem a lista do mesmo jeito. Esses feitos podem acontecer antes do limiar, contanto que tenha sido entre os níveis **15 e 20**.
+
+A tabela `Feitos do limiar` traz exemplos, e não regra.
 
 ## Operação na mesa
 
@@ -198,7 +202,7 @@ Ache a sua linha e leia ela inteira.
 
 Nível em negrito é nível que entrega decisão nova: uma Classe, um marco, um degrau de Caminho, uma entrega de Trilha. Os espaços de feitiço correm no ritmo próprio deles e por isso aparecem também em linha sem negrito. Nos níveis que ficaram de fora, o personagem cresce só em número.
 
-### Como ler cada coluna
+### Colunas de progressão
 
 - **XP** é o que custa **sair** daquele nível, e ele é o mesmo dentro de cada faixa de três níveis. Uma missão padrão paga 100. O nível 30 é o topo e não tem custo.
 - **maestria** é o bônus que entra no seu ataque de conjuração, na CD dos seus feitiços e nas perícias em que você é treinado.
@@ -211,8 +215,6 @@ Nível em negrito é nível que entrega decisão nova: uma Classe, um marco, um 
 ### Feitiços por nível
 
 > **Espaços de feitiço conhecido = `2 + (nível ÷ 2)`, arredondando para baixo. Mais um por marco já alcançado.**
-
-São **3 no nível 2**, **16 no nível 20** e **24 no nível 30**, e a coluna *espaços de feitiço* da tabela `Progressão por nível` já traz a conta pronta em cada linha.
 
 A parte de baixo da conta dá um feitiço novo **a cada nível par**. A parte de cima é o espaço que cada **marco** solta de graça, então nos níveis 6, 10, 14, 18, 22, 26 e 30 entram dois de uma vez.
 
@@ -238,46 +240,13 @@ Marco é o nível em que a ficha muda de forma. Nos outros níveis a subida acon
 >
 > **Corpo** — mais um ponto de atributo.
 >
-> **Refino** — mais um de refino, e uma aptidão. **Se o seu refino já estiver no teto, você leva duas aptidões no lugar.**
+> **Refino** — mais um de refino, e uma aptidão. **Se o seu refino já estiver no teto, você leva duas aptidões no lugar, ao escolher a rota.**
 >
 > **Leque** — mais um feitiço, que só pode ser feitiço, e uma Passiva.
 
 **Teto de atributo: 6. Teto de refino: 10.**
 
 A escolha é do momento: você decide no marco, e nada obriga você a repetir a escolha anterior.
-
-### Rotas do marco
-
-**Rotas do marco**
-{: .tab-titulo }
-
-| escolha | o que entra na ficha | quando ela é boa |
-|---|---|---|
-| **Corpo** | +1 num atributo | cedo, enquanto o seu atributo principal ainda não bateu no 6 |
-| **Refino** | +1 de refino e uma aptidão | quando você quer fazer coisa que a sua técnica não faz |
-| **Leque** | +1 feitiço e uma Passiva | quando a sua lista está apertada de Passiva e de Expansão |
-
-Você começa a campanha com nove pontos de atributo distribuídos na criação. A linha de graça dos sete marcos leva isso a dezesseis, e quem escolhe **Corpo** nos sete chega a vinte e três, espalhados por até cinco atributos com teto de 6 em cada.
-
-> **Quem nunca escolhe Refino termina a campanha com zero aptidões.** A rota é legítima. Mesmo essa ficha não fica sem nada: `Cobrir-se de energia` e `Canalizar energia` vêm de graça no refino 1, e a primeira continua crescendo com o refino da linha passiva até 8. O que ela nunca vai ter é `Energia Reversa` nem `Barreira Simples`.
-{: .aviso }
-
-### Refino por rota
-
-O refino começa em `1`, sobe `+1` de graça em cada um dos sete marcos, e a escolha do marco pode somar mais `+1` até o teto de `10`. Três rotas, e a sua provavelmente fica entre elas:
-
-**Refino por rota**
-{: .tab-titulo }
-
-| rota | nv 6 | nv 10 | nv 14 | nv 18 | nv 22 | nv 26 | nv 30 |
-|---|---|---|---|---|---|---|---|
-| **especialista**, sempre Refino | `3` | `5` | `7` | `9` | **`10`** | `10` | `10` |
-| **meio a meio** | `3` | `4` | `6` | `7` | `9` | `10` | `10` |
-| **generalista**, nunca Refino | `2` | `3` | `4` | `5` | `6` | `7` | **`8`** |
-
-O especialista bate no teto no **nível 22**, e é aí que a escolha de Refino troca de moeda: dali em diante ela entrega duas aptidões no lugar do degrau que não teria mais onde cair.
-
-> **Guardar marco não guarda refino.** A linha de graça sobe sozinha, e ela não espera você decidir. Quem deixa para investir tarde chega aos níveis altos com o refino da linha de baixo e ainda precisa de mais um marco para alcançar o degrau que queria. Requisito de refino se paga com tempo, e o tempo não volta.
 
 ### Maestria
 

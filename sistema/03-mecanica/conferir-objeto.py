@@ -326,7 +326,13 @@ def formatos_na_peca13(legado):
 
 bloco('7. LIGACOES — todo Legado citado no §6 bate de formato e de Origem')
 
-_PISO7 = 2
+# O piso era 2 fixo, e ele supunha as duas ligacoes de 2016 a v0.176: o
+# `Guardado` do Feto e o `Conhecido` do Reencarnado. Na v0.176 o `Conhecido`
+# saiu do catalogo e a vaga de Desliga reabriu, entao a tabela ficou com uma
+# linha so' e o piso passou a reprovar o estado correto. Hoje o piso e 1: uma
+# tabela vazia continua sendo extrator quebrado, e o numero de ligacoes acima
+# disso e' assunto do §6, nao deste piso.
+_PISO7 = 1
 print(f'  ligacoes declaradas      : {len(LIGACOES)}  (piso {_PISO7})')
 if len(LIGACOES) < _PISO7:
     erro('7', f'a tabela de ligacoes tem {len(LIGACOES)} linha(s) e o piso e '
@@ -360,8 +366,9 @@ _donas8 = [p for p in PECAS if _RX_DECL.search(ler(p))]
 
 print(f'  pecas que declaram       : {_donas8 or "nenhuma"}')
 if not _donas8:
-    erro('8', 'nenhuma peca declara a atracao — ela e a UNICA coisa nomeada que '
-              'a peca 21 cria, e o `Conhecido` da peca 13 desliga ela')
+    erro('8', 'nenhuma peca declara a atracao — ela e a UNICA coisa nomeada '
+              'que a peca 21 cria, e a vaga de Desliga do Reencarnado existe '
+              'para ser fechada em cima dela')
 elif _donas8 != [ALVO]:
     erro('8', f'a atracao esta declarada em {len(_donas8)} pecas: {_donas8} — '
               'uma coisa nomeada tem uma dona so')
@@ -369,12 +376,31 @@ else:
     print('  [x] a atracao tem uma dona so, e ela e a peca 21.')
 
 
-bloco('9. A VAGA FECHADA — o Desliga do §6 aponta para a atracao nas duas pecas')
+bloco('9. A VAGA — fechada em cima da atracao, ou declarada reaberta')
+
+# Ate a v0.176 esta checagem exigia EXATAMENTE um Desliga no §6: a peca fechava
+# a vaga do Reencarnado com o `Conhecido`, e zero era erro. Na v0.176 o Mizuki
+# trocou o `Conhecido` pelo `Conhecimento Antigo`, que desliga uma rolagem e nao
+# a atracao — a vaga reabriu, e zero passou a ser o estado certo.
+#
+# Zero so' passa quando a PECA DECLARA a reabertura, com todas as letras. Sem
+# essa exigencia a checagem viraria "aceita qualquer coisa", que e' a licao no 8:
+# apagar o Legado do §6 sem escrever nada sairia verde por acidente.
+_RX_REABERTA = re.compile(r'vaga.{0,40}reabriu|reabriu.{0,40}vaga|'
+                          r'ficou sem Legado que a apague', re.I | re.S)
+_declara_reabertura = bool(_RX_REABERTA.search(ler(ALVO)))
 
 _desligas = [l for l in LIGACOES if l['formato'] == 'Desliga']
-if len(_desligas) != 1:
+if len(_desligas) == 0 and _declara_reabertura:
+    print('  o §6 nao declara Desliga nenhum, e a peca DIZ que a vaga reabriu.')
+    print('  [x] a vaga esta reaberta, e declarada no texto — nao e omissao.')
+elif len(_desligas) == 0:
+    erro('9', 'o §6 nao declara Desliga nenhum e a peca NAO diz que a vaga '
+              'reabriu — ou o Legado sumiu sem registro, ou o texto da '
+              'reabertura nao foi escrito')
+elif len(_desligas) != 1:
     erro('9', f'o §6 declara {len(_desligas)} Legado(s) de formato Desliga, e a '
-              'peca fecha UMA vaga — nem zero, nem duas')
+              'peca fecha no maximo UMA vaga')
 else:
     _lg = _desligas[0]
     _ach = formatos_na_peca13(_lg['legado'])

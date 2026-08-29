@@ -120,20 +120,21 @@ E os três já são Origem neste sistema, escritos anos antes de esta peça exis
 
 | destrava | como |
 |---|---|
-| **1 vaga de `Desliga`** | a do Reencarnado, na peça 13 §8 — a última das sete |
+| **1 vaga de `Desliga`** | a do Reencarnado, na peça 13 §8 — a última das sete. *Ela fechou aqui em v0.132; na v0.176 a casa foi reaproveitada para outro alvo, e a atração ficou sem Legado* |
 | **rota de Origem** | **nenhuma.** As três já rodam pelo Fundamento |
 | **peça de regra** | **nenhuma.** Ele não é economia nova |
 
-**A vaga fecha porque a atração é coisa nomeada, e a régua do `Desliga` da peça 13 §5 exige exatamente isso:** um `Desliga` apaga o que ninguém comprou. **Ninguém compra a atração** — ela é o que o mundo faz com quem carrega um objeto, e não sai de tabela de preço nenhuma.
+**A vaga fechou porque a atração é coisa nomeada, e a régua do `Desliga` da peça 13 §5 exige exatamente isso:** um `Desliga` apaga o que ninguém comprou. **Ninguém compra a atração** — ela é o que o mundo faz com quem carrega um objeto, e não sai de tabela de preço nenhuma.
 
-O Legado mora na peça 13, que é a dona do catálogo. O texto dele está lá; aqui fica só qual é ele e o que ele desliga.
+> **⚠ E o Legado que fechava a vaga saiu na v0.176.** *O `Conhecido` desligava a atração desde a v0.132; na revisão do livro o Mizuki trocou ele pelo `Conhecimento Antigo`, que desliga outra coisa.* **A atração ficou sem Legado que a apague, e isso é decisão e não esquecimento:** ela continua sendo o que o §4 descreve, e agora ninguém escapa dela por Legado.
+
+O Legado que sobra aqui mora na peça 13, que é a dona do catálogo. O texto dele está lá; aqui fica só qual é ele e o que ele faz com o assunto desta peça.
 
 | Legado | formato | Origem | desliga |
 |---|---|---|---|
-| `Conhecido` | `Desliga` | Reencarnado | a atração |
 | `Guardado` | `Destranca` | Feto | — *ele não desliga nada; está aqui porque é a entrada que já dizia o que esta peça explica* |
 
-> **E ele não colide com os dois vizinhos que encostam.** *A `Máscara` do Receptáculo mexe em **ser sentido pelo que você é**, e a `Coleira` do Descendente em **ser localizado por técnica**.* **A atração não é nenhuma das duas:** ela não lê você, não te procura e não é técnica — ela junta maldição em volta de um objeto, e o `Conhecido` diz que você não é o que elas vêm buscar.
+> **O par que encostava na atração continua anotado.** *A `Máscara` do Receptáculo mexe em **ser sentido pelo que você é**, e a `Coleira` do Descendente em **ser localizado por técnica**.* **A atração não é nenhuma das duas:** ela não lê você, não te procura e não é técnica — ela junta maldição em volta de um objeto. *Se alguma das duas for reescrita, é este o par a reconferir.*
 
 ## 7. O que o validador confere
 

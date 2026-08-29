@@ -1726,9 +1726,12 @@ else:
             ('o ESTADO-ATUAL, a tabela das quatro rotas', _TEST,
              r'\|\s*sempre refino\s*\|\s*\*{0,2}\d+\*{0,2}\s*\|'
              r'\s*\*{0,2}\d+\*{0,2}\s*\|\s*\*{0,2}(\d+)\*{0,2}\s*\|'),
-            ('o LIVRO, capitulo 45', _TLIV,
-             r'troca (\w+) aptidões por sete pontos de atributo'),
         ]
+        # O LIVRO saiu desta lista na v0.176. A frase que publicava a contagem
+        # ali -- "troca dez aptidoes por sete pontos de atributo" -- foi cortada
+        # na revisao do .docx, junto com as outras tabelas e frases que so
+        # repetiam resultado. O livro deixou de ser publicacao desta conta de
+        # proposito; as outras oito continuam sendo comparadas entre si.
         _cegos = [r for r, t, x in _PUBS if not re.search(x, t, re.M | re.S)]
         # guarda de reconhecedor: sem ela, uma frase reescrita faz a checagem
         # achar zero publicacao, logo zero divergencia, e ela passa verde para

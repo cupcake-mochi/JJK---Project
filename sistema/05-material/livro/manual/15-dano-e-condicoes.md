@@ -4,8 +4,6 @@
 
 Todo dano deste sistema tem um tipo, e os catorze tipos se dividem em três grupos. O grupo importa porque várias habilidades resistem a um grupo inteiro em vez de a um tipo só.
 
-> **Catorze tipos, em três grupos.**
->
 > | grupo | tipos |
 > |---|---|
 > | **Físicos** | `Cortante` · `Perfurante` · `Concussão` |
@@ -20,37 +18,37 @@ O número do dano vem da arma ou do feitiço. O tipo diz quem resiste a ele e co
 
 #### Físicos
 
-**`Cortante`** — lâmina, fio, borda. Abre o corpo e sangra. É o dano que deixa o rastro mais visível numa cena: chão molhado, uniforme rasgado, alguém segurando o braço.
+**`Cortante`** — causado por lâminas, fios e superfícies afiadas. Rasga tecidos e carne, deixando ferimentos abertos e sangramento visível.
 
-**`Perfurante`** — ponta, agulha, projétil. Entra fundo num ponto pequeno. Machuca por dentro sem estragar muito por fora, e é o tipo que atravessa uma guarda que estava bem fechada contra um golpe largo.
+**`Perfurante`** — causado por pontas, agulhas e projéteis. Concentra toda a força em um único ponto, perfurando defesas para atingir órgãos e estruturas internas.
 
-**`Concussão`** — soco, queda, coisa pesada. Quebra osso e sacode o que está dentro da caixa. Quem toma sai do lugar, perde o ar e demora um segundo a mais para reagir.
+**`Concussão`** — causado por socos, impactos com objetos pesados e quedas. Transmite força bruta para fraturar ossos, desorientar e mover o alvo do lugar.
 
 #### Elementais
 
-**`Fogo`** — queima, cozinha, pega no que estiver por perto. A cena continua queimando depois do golpe.
+**`Fogo`** — causado por chamas e calor extremo. Incendeia alvos, consome o ambiente e continua queimando após o impacto.
 
-**`Frio`** — tira o calor e trava a articulação. O corpo endurece antes de doer, e a mão demora a fechar de novo.
+**`Frio`** — causado por temperaturas congelantes. Drena o calor do corpo, travando articulações e enrijecendo os músculos.
 
-**`Elétrico`** — passa pelo corpo e faz o músculo obedecer a outra pessoa. Contrai tudo de uma vez, arremessa, e cheira a queimado no ponto de entrada.
+**`Elétrico`** — causado por descargas e correntes elétricas. Percorre o organismo provocando espasmos violentos e eletrificando condutores.
 
-**`Ácido`** — come. Continua comendo o que encostou, e estraga equipamento junto com pele.
+**`Ácido`** — causado por compostos químicos corrosivos. Corrói a matéria continuamente, degradando equipamentos e pele ao mesmo tempo.
 
-**`Trovejante`** — pressão e som. Bate no ar antes de bater na pessoa: empurra, estoura ouvido, quebra vidro na sala inteira.
+**`Trovejante`** — causado por ondas de choque sonoras e deslocamento de ar. Empurra estruturas, estoura tímpanos e estilhaça o ambiente.
 
-**`Veneno`** — entra e trabalha por dentro. É o dano que dá tempo de alguém perceber que está mal antes de cair.
+**`Veneno`** — causado por toxinas e substâncias nocivas. Age de forma insidiosa dentro do organismo, enfraquecendo a vítima antes da queda.
 
 #### Especiais
 
-**`Radiante`** — luz que queima de dentro para fora. Cega antes de ferir, e costuma vir de coisa que se considera com algum direito de julgar.
+**`Radiante`** — causado por luz abrasadora ou julgamento espiritual. Queima o alvo de dentro para fora, e pode cegar antes de causar o dano físico.
 
-**`Necrótico`** — apodrece o vivo. O ferimento não fecha direito e a pele em volta escurece.
+**`Necrótico`** — causado por forças de decomposição e podridão. Atrofia a carne viva, escurece a pele e dificulta a regeneração dos ferimentos.
 
-**`Psíquico`** — não encosta no corpo. Bate direto na cabeça: a dor vem sem ferimento, e a pessoa continua inteira por fora enquanto sangra pelo nariz.
+**`Psíquico`** — causado por trauma mental puro e colapso da consciência. Bate diretamente na mente, causando dor agonizante sem deixar marcas externas no corpo.
 
-**`Energia Reversa`** — a energia que conserta gente, usada para o contrário. Num corpo comum ela é ferimento em cima do que já existe; é o dano que mais desmonta quem confiava na própria recuperação.
+**`Energia Reversa`** — causado pela inversão da energia em maldições. Desmonta a biologia da maldição, desestruturando tecidos.
 
-**`Alma`** — passa por couro, armadura e barreira, e bate na coisa que você é. Ele gasta Integridade em vez de vida, tem quatro estágios próprios, e não se resiste com músculo. Quem toma dano de `Alma` continua de pé e volta menos do que era. Os quatro estágios estão na tabela `Estágios de dano na alma`.
+**`Alma`** — causado por ataques diretos à essência espiritual. Ele gasta Integridade em vez de vida, e tem quatro estágios próprios. Os quatro estágios estão na tabela `Estágios de dano na alma`.
 
 ### Nomes repetidos
 
@@ -71,13 +69,17 @@ Um não puxa o outro. Um feitiço com o Tema `Fogo` só causa dano do tipo `Fogo
 
 ### Dano na alma
 
-**Integridade é a vida da alma**, e a fórmula dela é `20 + (Essência + 5) × (nível − 1)`, do capítulo 1, *Como Jogar*. Por exemplo, 6 de dano na alma tiram 6 de vida, 6 de Integridade, e derrubam a sua vida máxima em 6 até o próximo descanso longo.
+**Integridade é a vida da alma**, e a fórmula dela é `20 + (Essência + 5) × (nível − 1)`, do capítulo 1, *Como Jogar*. Por exemplo, 6 de dano na alma tiram 6 de vida e 6 de Integridade.
 
-> **Cada ponto de dano na alma tira 1 de vida, 1 de Integridade, e derruba a sua vida máxima em 1** até o próximo descanso longo.
+> **Cada ponto de dano na alma tira 1 de vida e 1 de Integridade.**
+>
+> Caso você chegue a `0` de vida antes da sua Integridade, você fica `Inconsciente`.
 >
 > **Dano na alma entra cheio**, sem redução pela metade.
 >
 > Ao receber, faça um **Teste de Resistência de Espírito** contra a CD do atacante. Numa falha, você também avança um estágio na hora, mesmo que a fração ainda não tenha fechado.
+>
+> Esse teste só pode ser feito uma vez por rodada.
 
 **Estágios de dano na alma**
 {: .tab-titulo }
@@ -89,7 +91,7 @@ Um não puxa o outro. Um feitiço com o Tema `Fogo` só causa dano do tipo `Fogo
 | 3/4 | **3** | Desvantagem em ataques e Testes de Resistência. Você não conjura acima de metade da sua Classe máxima. |
 | Toda | **4** | Você não é mais você. O que sobra é decisão do mestre. |
 
-**Cura comum não devolve o que a alma perdeu.** Só descanso longo, ou a Melhoria `Remenda`, no capítulo 9, *Fundamento*. O descanso longo devolve toda a Integridade e a vida máxima, e limpa os estágios.
+**Cura comum não devolve o que a alma perdeu.** Só descanso longo, ou a Melhoria `Remenda`, no capítulo 9, *Fundamento*. O descanso longo devolve toda a Integridade e limpa os estágios.
 
 **Nenhum feitiço passa de 2 × Classe em dados na alma.**
 
@@ -97,11 +99,9 @@ Um não puxa o outro. Um feitiço com o Tema `Fogo` só causa dano do tipo `Fogo
 
 Existe um dano na alma que não leva o corpo junto: ele tira Integridade e **só** Integridade.
 
-> **Dano na alma que atravessa não tira vida e não derruba a vida máxima.** Ele desconta da Integridade, e os estágios valem igual.
+> **Dano na alma que atravessa não tira vida.** Ele desconta da Integridade, e os estágios valem igual.
 
 Isso não é o padrão — é exceção, e ela precisa estar escrita no efeito. **Hoje existe uma:** o `Cisão`, no capítulo 15, *Ferramenta Amaldiçoada*.
-
-**Contra quem não é personagem jogador, a Integridade é a vida máxima dele.** Um inimigo não tem Caminho nem Constituição, então não tem por onde a fórmula acima passar — a alma dele é do tamanho do corpo. *Na prática: atravessar não é atalho de dano contra um chefe. O que ele ganha é passar por resistência e redução, e empurrar o alvo pelos quatro estágios.*
 
 ## Condições
 
@@ -129,7 +129,7 @@ Enquanto está `Lento`, você sofre os seguintes efeitos.
 
 **Deslocamento.** Cai pela metade.
 
-**Ação.** Você não usa Ação Bônus.
+**Ação.** Você não pode usar Ação Bônus.
 
 #### `Incapacitado`
 
@@ -145,7 +145,7 @@ Enquanto está `Incapacitado`, você sofre os seguintes efeitos.
 
 Você está no chão. Enquanto está `Derrubado`, você sofre os seguintes efeitos.
 
-**Deslocamento.** Só se move rastejando.
+**Deslocamento.** Só se move rastejando, com metade do deslocamento. Levantar custa a sua Ação de Movimento, quando não for efeito de duração.
 
 **Seus ataques.** Desvantagem.
 
@@ -156,6 +156,8 @@ Você está no chão. Enquanto está `Derrubado`, você sofre os seguintes efeit
 Enquanto está `Agarrado`, você sofre os seguintes efeitos.
 
 **Deslocamento.** É `0`.
+
+**Ataque à distância.** Quem atira contra alguém que está agarrando outra pessoa tem 50% de chance de errar o alvo pretendido: role `1d10`, e em 6 ou mais você acerta o alvo desejado; em 5 ou menos, acerta quem está agarrando.
 
 **Sai quando.** Quem agarrou ficar `Incapacitado`, ou alguma coisa tirar você do alcance dele.
 
@@ -180,7 +182,7 @@ Você não ouve. Enquanto está `Surdo`, você sofre os seguintes efeitos.
 
 Enquanto está `Calado`, você sofre o seguinte efeito.
 
-**Conjuração.** Você não conjura. Nada que precise de voz, gesto ou Selo sai.
+**Conjuração.** Você não conjura. Nada que precise de voz, gesto ou Selo que exija falar sai.
 
 #### `Enfeitiçado`
 
@@ -189,6 +191,8 @@ Enquanto está `Enfeitiçado`, você sofre os seguintes efeitos.
 **Seus ataques.** Você não ataca quem enfeitiçou, nem mira efeito nocivo nele.
 
 **Contra você.** Ele tem vantagem em teste social contra você.
+
+**Sai quando.** O alvo enfeitiçado recebe um ataque ou um efeito ofensivo.
 
 ### Nível `Pesada`
 
@@ -225,7 +229,7 @@ Enquanto está `Amedrontado`, você sofre os seguintes efeitos.
 
 **Testes.** Desvantagem, enquanto você enxergar a fonte do medo.
 
-**Deslocamento.** Você não se aproxima dela de vontade própria.
+**Deslocamento.** Você não se aproxima da fonte do medo por vontade própria.
 
 #### `Envenenado`
 
@@ -240,7 +244,7 @@ Enquanto está `Envenenado`, você sofre os seguintes efeitos.
 Enquanto está `Atordoado`, você sofre os seguintes efeitos.
 
 **Ação.** Você perde a Ação Padrão e não usa reação. Quem tem mais de uma Ação Padrão no
-turno — um chefe, um capanga grande — perde **uma**, e não todas.
+turno — um chefe, um capanga grande — perde **uma** das suas ações, e não todas.
 
 > **Exemplo.** A Rina fica `Atordoada`. Ela perde a Ação Padrão daquele turno e não usa reação, então ninguém leva ataque de oportunidade dela. A Defesa continua a mesma: `Atordoado` não abre a guarda de ninguém. No fim do turno dela, como é uma condição `Pesada`, ela faz o Teste de Resistência e pode sair sozinha.
 
@@ -267,23 +271,6 @@ Para consulta na mesa. O efeito inteiro de cada uma está na entrada dela.
 | `Envenenado` | `Pesada` | desvantagem nos ataques e em todo teste de perícia |
 | `Atordoado` | `Pesada` | perde a Ação Padrão e a reação |
 
-### `Atordoado` e `Incapacitado`
-
-Nenhuma das duas contém a outra. Escolher uma para aplicar é escolher o que você quer tirar do alvo:
-
-**`Atordoado` e `Incapacitado`**
-{: .tab-titulo }
-
-| | o eixo que ela ataca |
-|---|---|
-| `Atordoado` | tira **parte do turno**: uma Ação Padrão e a reação. Você continua se defendendo |
-| `Incapacitado` | tira a **defesa**: você age e não se protege |
-
-`Paralisado` não existe neste sistema. O que outros jogos chamam assim se chama `Atordoado` aqui, e não há um terceiro degrau que some os dois.
-
-> **O `Incapacitado` é a única condição que desliga o `Bloquear`.** A rolagem está no capítulo 1, *Como Jogar*, e nenhuma outra condição desta lista encosta nela.
-{: .aviso }
-
 ### `Inconsciente`, `Exaustão` e `Invisível`
 
 Estas três não são condição.
@@ -297,11 +284,9 @@ Estas três não são condição.
 | `Exaustão` | é relógio de descanso, e mora no capítulo 5, *Descanso e Recuperação* |
 | `Invisível` | é benefício, e as condições são compradas para aplicar num alvo |
 
-A `Exaustão` engana: em outros jogos ela é condição, aqui não. Quem for escrever feitiço que canse alguém não alcança a exaustão pela Melhoria `Condição`.
-
 ### Comprar uma condição
 
-> **Existe uma Melhoria `Condição`, uma só, e o preço dela é o nível da condição que você escolheu.**
+> **Existe uma Melhoria `Condição`, e o preço dela é o nível da condição que você escolheu.**
 > Escolher `Derrubado` custa `Leve`. Escolher `Atordoado` custa `Pesada`.
 
 Você aponta a condição na tabela `Condições em uma linha`, lê o nível dela, e esse é o preço. Não existe pacote nem grupo de compra.
@@ -314,7 +299,7 @@ Você aponta a condição na tabela `Condições em uma linha`, lê o nível del
 
 Você só faz isso se tiver uma habilidade que tire condição, e cada habilidade dessas tem um teto de quanta energia ela gasta por uso. O teto é que decide o que você alcança: com teto `2` você limpa `Leve` e `Média`, e a `Pesada` fica fora até o teto subir.
 
-> **Exemplo.** A Mei tem uma habilidade de tirar condição com teto de `2` pontos de energia por uso. O aliado dela está `Calado`, que é `Média`: ela gasta `2` e limpa. No turno seguinte o mesmo aliado fica `Cego`, que é `Pesada`: ela precisaria de `3`, e não consegue até a habilidade dela crescer.
+> **Exemplo.** A Mei tem uma habilidade de tirar **uma** condição com teto de `2` pontos de energia por uso. O aliado dela está `Calado`, que é `Média`: ela gasta `2` e limpa. No turno seguinte o mesmo aliado fica `Cego`, que é `Pesada`: ela precisaria de `3`, e não consegue até a habilidade dela crescer.
 
 ## Cobertura
 
@@ -325,15 +310,13 @@ Cobertura é o que está entre você e quem está atirando. São três degraus, 
 
 | cobertura | o que ela dá | exemplo |
 |---|---|---|
-| **Parcial** | **`+2` de Defesa e `+2` no Teste de Resistência Físico** | mureta, tronco, uma criatura no caminho |
-| **Boa** | **`+5` de Defesa e `+5` no Teste de Resistência Físico** | seteira, olhando por cima de uma parede, metade do corpo atrás de um canto |
+| **Parcial** (`1/4`) | **`+2` de Defesa e `+2` no Teste de Resistência Físico** | mureta, tronco, uma criatura no caminho |
+| **Boa** (`1/2`) | **`+5` de Defesa e `+5` no Teste de Resistência Físico** | seteira, olhando por cima de uma parede, metade do corpo atrás de um canto |
 | **Total** | **você não pode ser escolhido como alvo** | parede inteira, do outro lado da porta |
 
-> **Vale contra o que vem do outro lado da cobertura, e só.** Quem está atrás de uma mureta não ganha nada contra quem já está do lado de cá dela.
+> **Vale contra o que vem do outro lado da cobertura, e só.** Quem está atrás de uma mureta não ganha nada contra quem já está do outro lado dela.
 >
 > **Só a maior conta.** Duas coberturas parciais não viram uma boa.
-
-O Teste de Resistência que a cobertura ajuda é o **Físico**, seja qual for o atributo em que você o travou na criação. Quem travou em Força também se abaixa atrás de uma mureta.
 
 A **Total** tira você da lista de alvos possíveis, e não dá número nenhum. Um efeito que pega área continua alcançando quem está atrás dela, se o efeito não precisar de linha até o alvo.
 

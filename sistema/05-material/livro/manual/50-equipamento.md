@@ -1,6 +1,6 @@
 # Equipamento
 
-Equipamento mexe em três coisas: a sua Defesa, o dado que você rola quando bate, e o que dá para fazer com a coisa que está na sua mão. Nenhum item deste capítulo concede técnica.
+Equipamento mexe em três coisas: a sua Defesa, o dado que você rola quando bate, e o que dá para fazer com a coisa que está na sua mão.
 
 ## Proteção
 
@@ -20,7 +20,7 @@ Se você estiver usando duas coisas com teto de Destreza diferente, vale o menor
 
 ### Traje
 
-A classe leve. Nenhum degrau trava a sua Destreza, e só o de cima pede Força.
+A classe leve. Nenhum degrau trava a sua Destreza, e só o último degrau pede Força.
 
 **Traje**
 {: .tab-titulo }
@@ -35,7 +35,7 @@ Quem fabrica é o ofício **Alfaiate**. Quem não tem o ofício encomenda de que
 
 #### Situação do Traje
 
-> **Todo Traje carrega uma situação, e é uma só.** Escolha na criação, escreva na ficha como o seu traje é, e quando a cena estiver naquela condição você rola com **vantagem**: joga dois d20 e fica com o melhor. Vantagem não empilha, duas fontes valem uma.
+> **Todo Traje carrega uma situação.** Escolha na criação, escreva na ficha como o seu traje é, e quando a cena estiver naquela condição você rola com **vantagem** todos os seus testes de perícia e Testes de Resistência, à escolha na criação: joga dois d20 e fica com o melhor. Vantagem não empilha, duas fontes valem uma.
 
 A lista é fechada e vale igual em toda mesa:
 
@@ -53,7 +53,7 @@ A lista é fechada e vale igual em toda mesa:
 | terreno instável |
 | calor e fogo |
 
-E existe uma vaga aberta: você pode inventar a sua, desde que ela passe nos três itens abaixo. Quem confere é o mestre, e um segundo mestre tem que chegar na mesma resposta.
+E existe uma vaga aberta: você pode inventar a sua, desde que ela passe nos três itens abaixo. Quem confere é o mestre, e um segundo mestre tem que chegar na mesma resposta. Toda situação se resume em uma ou duas palavras, no máximo.
 
 > 1. É **condição física que o mestre já descreveu na cena**.
 > 2. **Não decide o que uma das quatro perícias de Destreza já decide.** Senão vira vantagem em Furtividade pela porta dos fundos.
@@ -82,7 +82,7 @@ A Reação de cobrir-se continua disponível de uniforme. Ela é a aptidão `Cob
 
 ## Escudo
 
-Três degraus. O escudo ocupa uma mão, soma com a sua proteção venha ela de onde vier, e cobra teto de Destreza.
+Três degraus. O escudo ocupa uma mão, soma com a sua proteção venha ela de onde vier, e ainda permite somar Destreza — se você não estiver de `Revestimento` —, com um teto para o quanto ela pode entrar.
 
 **Escudo**
 {: .tab-titulo }
@@ -93,19 +93,6 @@ Três degraus. O escudo ocupa uma mão, soma com a sua proteção venha ela de o
 | 2 | **Médio** | 2 | 3 | 3 |
 | 3 | **Torre** | 3 | 1 | 5 |
 
-### Escolha do degrau
-
-**Escolha do degrau**
-{: .tab-titulo }
-
-| a sua Destreza | o degrau que rende mais |
-|---|---|
-| 0 a 1 | Torre |
-| 2 a 3 | Médio |
-| 4 a 6 | Broquel |
-
-De Revestimento a sua Destreza já não conta na Defesa, então o teto do escudo não te cobra nada: a Torre é a resposta. Na rota sem uniforme, contando com a proteção de energia, o Broquel é o que menos atrapalha.
-
 > **Aviso para quem tem `Selo` = `Gesto`.** Pegar um escudo ocupa a mão e desliga a sua técnica inteira. É o Selo funcionando: se o gesto é obrigatório para conjurar, sem a mão você não conjura. Para essa gente, escudo nunca esteve no menu.
 {: .aviso }
 
@@ -113,7 +100,7 @@ De Revestimento a sua Destreza já não conta na Defesa, então o teto do escudo
 
 São 52, divididas em treze categorias. A categoria diz o que a coisa é, de onde vem o dano dela e em qual lista de treino ela cai.
 
-Nenhuma arma deste catálogo fere maldição sozinha. Contra maldição, o que resolve é energia amaldiçoada no golpe ou uma ferramenta amaldiçoada na mão, que é uma arma daqui mais um `Estigma`, no capítulo 15, *Ferramenta Amaldiçoada*. O catálogo de armas continua valendo inteiro contra gente, contra bicho e contra parede.
+Nenhuma arma deste catálogo fere maldição sozinha. Contra maldição, o que a elimina é energia amaldiçoada no golpe ou uma ferramenta amaldiçoada na mão, que é o que o `Estigma` explica no capítulo 15, *Ferramenta Amaldiçoada*. O catálogo de armas continua valendo inteiro contra pessoas, contra animais e contra objetos.
 
 ### Como ler uma arma
 
@@ -123,14 +110,12 @@ O `Catálogo de armas` tem seis colunas, nesta ordem:
 
 - **arma** — o nome. Nome japonês vem com a tradução entre parênteses.
 - **categoria** — a família dela, e é onde o treino mora: treinar uma categoria libera todas as armas dela.
-- **mão** — `1` ou `2`. Arma de duas mãos não deixa espaço para escudo.
+- **mão** — `1` ou `2`. Arma de duas mãos não deixa espaço para escudo nem para outros itens.
 - **dado** — o dado de dano que você rola quando acerta.
 - **propriedades** — o que a arma faz de diferente das outras. As restrições aparecem nessa mesma lista.
-- **requer Força** — a Força mínima para empunhar. `—` quer dizer que não pede nada.
+- **requer Força** — a Força mínima para empunhar. Um `—` quer dizer que não pede nada.
 
 ### Propriedades
-
-São doze. Propriedade é o que a arma é: ela já está impressa na linha do catálogo, e você nunca escolhe uma na hora de atacar.
 
 **Propriedades**
 {: .tab-titulo }
@@ -142,17 +127,13 @@ São doze. Propriedade é o que a arma é: ela já está impressa na linha do ca
 | `Duas mãos` | Ocupa as duas mãos, então não sobra mão para escudo. No catálogo ela aparece como o `2` da coluna **mão** |
 | `Fineza` | No corpo a corpo, troca Força por Destreza no acerto **e** no dano |
 | `Par` | Role dois dados de dano e fique com o melhor |
-| `Oculta` | Não muda o seu ataque — é propriedade de fora de combate. **Você esconde a arma no corpo:** um teste de `Prestidigitação`, e ela passa por revista e por detector |
+| `Oculta` | **Você esconde a arma no corpo:** arma com esta propriedade se esconde nas vestes ou no corpo sem precisar de teste, diferente das outras |
 | `Versátil` | Nas duas mãos, o dado sobe um passo: `d6`→`d8`, `d8`→`d10`, `d10`→`d12` |
 | `Munição` | Recarregar custa Ação Bônus. Ver *Munição* |
 | `Rompe` | Vantagem contra objeto e estrutura |
 | `Emaranha` | Você pode `Agarrar` sem largar a arma |
 | `Vestida` | Não ocupa a mão |
-| `Talha` | A arma é ruim de aparar: **−1** no `Bloquear` de quem se defende |
-
-> **`Talha` é a única das doze ligada ao `Bloquear`**, a rolagem de `2d10` que substitui a Defesa parada — ela está no capítulo 1, *Como Jogar*. O `−1` vale contra quem se defende de você, e não muda nada no seu próprio `Bloquear`.
-
-`Oculta` é a que deixa você entrar armado numa reunião, num velório ou numa portaria com detector. `Rompe` é a que abre cadeado, grade, alçapão e tampa de bueiro sem esperar ninguém. `Vestida` é a que responde quando alguém manda você largar tudo o que está na mão.
+| `Talha` | A arma é ruim de aparar: **−1** no `Bloquear` de quem se defende dela |
 
 ### Restrições
 
@@ -167,7 +148,7 @@ Restrição é defeito de verdade. Ela aparece na mesma coluna das propriedades.
 | `Embainhada` | Não se saca sozinha: precisa de tempo, ou de outra pessoa |
 | `Comprida` | Perde no corpo a corpo colado |
 
-Nenhuma das 52 usa a `Comprida` hoje.
+Obs.: a `Comprida` ainda está sendo testada em armas novas. Por enquanto nenhuma arma tem `Comprida`.
 
 ### Alcance no corpo a corpo
 
@@ -179,11 +160,11 @@ O padrão de qualquer arma de mão é **1,5 m**. As Armas Longas chegam a **3 m*
 >
 > **Faixa normal** — até o `Longo Alcance` da arma. Ataque normal.
 > **Faixa longa** — até o segundo número da tabela. Você rola com **desvantagem**: joga dois d20 e fica com o pior.
-> **Além da faixa longa, você não alcança.**
+> **Além da faixa longa, você não consegue atingir um alvo.**
 >
-> **E tem uma terceira, do outro lado: `colado`.** Atacar com arma de projétil estando adjacente a um inimigo (qualquer inimigo, não só o seu alvo) também é desvantagem.
+> **`Colado`:** atacar com arma de projétil estando adjacente a um inimigo (qualquer inimigo, não só o seu alvo) também é desvantagem.
 
-> **Exemplo.** Você está com a Pistola e o alvo está a 20 metros. A faixa normal dela é 9 m e a longa vai até 27 m: você alcança, e rola com desvantagem. Se um inimigo estiver colado em você na hora do tiro, a desvantagem vale do mesmo jeito, mesmo que o alvo esteja a 5 metros.
+> **Exemplo.** Você está com a Pistola e o alvo está a 21 metros. A faixa normal dela é 9 m e a longa vai até 27 m: você alcança, e rola com desvantagem. Se um inimigo estiver colado em você na hora do tiro, a desvantagem vale do mesmo jeito, mesmo que o alvo esteja a 5 metros.
 
 **Armas de tiro**
 {: .tab-titulo }
@@ -220,9 +201,10 @@ O padrão de qualquer arma de mão é **1,5 m**. As Armas Longas chegam a **3 m*
 |---|---|
 | 4 | Metralhadora Pesada |
 | 3 | Rifle · Submetralhadora |
-| 2 | Pistola · Revólver · Espingarda · Rifle de Precisão · Besta · Besta de Uma Mão |
+| 2 | Pistola · Revólver · Espingarda · Rifle de Precisão |
+| 1 | Besta · Besta de Uma Mão |
 
-O `Yumi` não carrega `Munição`. Flecha existe na ficção, e uma flecha se encaixa como parte do disparo: não há ciclo de recarga para modelar. Uma besta se arma e um pente se troca, e é disso que a propriedade trata.
+O `Yumi` não carrega `Munição`. Uma flecha se encaixa como parte do disparo: não há ciclo de recarga para modelar. Uma besta se arma e um pente se troca, e é disso que a propriedade trata.
 
 > **Exemplo.** Você está com o Rifle, que tem X = 3. Você atira duas vezes sem problema. No terceiro tiro sai um `2` natural no dado de ataque: recarga na sua Ação Bônus, e o tiro seguinte já está pronto.
 
@@ -241,29 +223,17 @@ O `Yumi` não carrega `Munição`. Flecha existe na ficção, e uma flecha se en
 
 > **Bastião e Vanguarda treinam as treze categorias.** Qualquer arma deste catálogo é deles.
 >
-> **Guia, Emanador e Evocador treinam Arma de Fogo e Balestra**, as duas que se aponta e dispara sem anos de forma.
+> **Guia, Emanador e Evocador treinam Arma de Fogo e Balestra**, as duas que se aponta e dispara sem precisar de anos de treinamento.
 
 Um Caminho conjurador não pega espadão de graça: ele precisa da Trilha que concede o grupo, como a `Empunhadura` do `Arremate`. O quadro de cada Caminho está no capítulo 8, *Caminhos e Trilhas*.
 
 > **Sem treino, você tem desvantagem na rolagem de ataque com aquela arma.**
 >
-> **Sem o requisito de Força dela, o seu deslocamento cai 3 metros enquanto você a estiver empunhando.**
+> **Sem o requisito de Força dela, o seu deslocamento cai pela metade enquanto você a estiver empunhando, e você não soma a sua Destreza na Defesa.**
 
-As duas se somam: quem pega uma arma que não é sua rola pior e anda menos.
-
-## Requisito de Força
-
-> **Força 3 nos dois degraus de cima de cada escada de dado.** No corpo a corpo, `d10` e `d12`. No tiro, `2d8` e `2d10`. São 16 armas das 52.
-
-- **O requisito lê o dado impresso na linha da arma.** O passo do `Versátil` não conta. Katana, Espada Longa e Taco chegam a `d10` nas duas mãos sem pedir Força nenhuma.
-- **O `Yumi` não é com requisito.** As duas ficam no fundo da escada do tiro, e o arco paga em Destreza.
-- **Nenhuma arma pede mais que Força 3**, que é o teto da criação. O requisito resolve acesso: quem investiu Força não paga nada a mais por arma nenhuma. O único item deste capítulo que pede acima disso é o escudo **Torre**, com Força 5.
-
-O requisito e o treino são requisitos diferentes e não se substituem. Um olha o seu corpo, o outro olha o que você aprendeu. Um Emanador com Força 6 passa no primeiro e para no segundo.
+As duas se somam.
 
 ## Catálogo
-
-O `Catálogo de armas` traz as 52 armas com tudo que decide o golpe, em três blocos, um por lista de treino. O `Índice por propriedade` serve para quando você sabe o que quer que a arma faça e não qual é o nome dela.
 
 ### Armas por treino
 
@@ -320,45 +290,23 @@ O `Catálogo de armas` traz as 52 armas com tudo que decide o golpe, em três bl
 | Wakizashi | Lâmina Longa | 1 | **d8** | `Oculta` | — |
 | Yari | Armas Longas | 2 | **d10** | `Alcance` · `Talha` | 3 |
 | **Treino de fogo** | | | | | |
-| Espingarda | Arma de Fogo | 2 | **2d8** | `Longo Alcance` · `Munição` · `Rompe` | 3 |
+| Espingarda | Arma de Fogo | 2 | **2d8** | `Longo Alcance` · `Munição` · `Rompe` | 1 |
 | Metralhadora Pesada | Arma de Fogo | 2 | **2d10** | `Longo Alcance` · `Munição` · `Rompe` · `Volumosa` | 3 |
 | Pistola | Arma de Fogo | 1 | **1d10** | `Longo Alcance` · `Munição` · `Oculta` | — |
 | Revólver | Arma de Fogo | 1 | **1d10** | `Longo Alcance` · `Munição` · `Oculta` | — |
-| Rifle | Arma de Fogo | 2 | **2d8** | `Longo Alcance` · `Munição` · `Talha` | 3 |
+| Rifle | Arma de Fogo | 2 | **2d8** | `Longo Alcance` · `Munição` · `Talha` | 1 |
 | Rifle de Precisão | Arma de Fogo | 2 | **2d10** | `Longo Alcance` · `Munição` | 3 |
 | Submetralhadora | Arma de Fogo | 2 | **2d6** | `Longo Alcance` · `Munição` · `Par` · `Oculta` | — |
 
-### Índice por propriedade
-
-**Índice por propriedade**
-{: .tab-titulo }
-
-| propriedade | armas |
-|---|---|
-| `Alcance` | Espadão · Odachi · Nodachi · Bastão · Bō · Kusarigama · Naginata · Yari · Lança · Corrente · Chicote |
-| `Longo Alcance` | Punhal · Machadinha · Lança · Kunai · Shuriken · Tessen · Chakram · Kusarigama · e as onze de tiro |
-| `Fineza` | Tanto · Punhal · Canivete · Faca · Sai · Rapieira · Katana · Chakram |
-| `Par` | Sai · Tonfa · Nunchaku · Soqueira · Tekko · Kama · Shuriken · Submetralhadora |
-| `Oculta` | Tanto · Canivete · Wakizashi · Taco · Cassetete · Soqueira · Tekko · Chicote · Manriki · Kunai · Shuriken · Tessen · Chakram · Hankyū · Besta de Uma Mão · Pistola · Revólver · Submetralhadora |
-| `Versátil` | Katana · Espada Longa · Taco · Bastão |
-| `Munição` | Besta · Besta de Uma Mão · Pistola · Revólver · Submetralhadora · Espingarda · Rifle · Rifle de Precisão · Metralhadora Pesada |
-| `Rompe` | Canivete · Faca · Machete · Espada Longa · Nodachi · Marreta · Maul · Bastão · Machado · Machado de Guerra · Machadinha · Kama · Naginata · Corrente · Besta · Espingarda · Metralhadora Pesada |
-| `Emaranha` | Bō · Nunchaku · Foice · Kusarigama · Corrente · Chicote · Manriki |
-| `Vestida` | Cassetete · Tonfa · Soqueira · Tekko · Tessen |
-| `Talha` | Rapieira · Odachi · Maça · Marreta · Kanabō · Machado de Guerra · Foice · Yari · Rifle |
-| `Volumosa` | Nodachi · Machado de Guerra · Metralhadora Pesada |
-| `Embainhada` | Odachi |
-| `Comprida` | nenhuma |
-
 ### Lâmina Curta
 
-Treino simples. Todas carregam `Fineza`, então o dano delas sai de Destreza.
+Treino simples. Todas carregam `Fineza`, então o dano delas usa Destreza.
 
 ### Lâmina Longa
 
-Treino marcial. O dano sai de Força, ou de Destreza nas duas que carregam `Fineza`.
+Treino marcial. O dano usa Força, ou Destreza nas duas que carregam `Fineza`.
 
-Odachi e Nodachi são a mesma lâmina longa demais para o cinto, com a mesma mão e o mesmo dado. A diferença está em como cada uma resolve o tamanho: o Odachi se carrega nas costas e precisa de tempo ou de ajuda para sacar, o Nodachi você saca sozinho e carrega à mostra. Se a sua mesa costuma começar cena já em briga, o Odachi vai chegar atrasado em algumas delas.
+Odachi e Nodachi são a mesma lâmina, com a mesma mão e o mesmo dado. A diferença está em como cada uma resolve o tamanho: o Odachi se carrega nas costas e precisa de tempo ou de ajuda para sacar, o Nodachi você saca sozinho e carrega à mostra.
 
 ### Massa
 
@@ -378,7 +326,7 @@ O Tekko e a Soqueira têm a mesma linha, o mesmo gasto e a mesma regra. O que mu
 
 Treino marcial. O dano sai de Força.
 
-O Machado tem a mesma linha do Machete, lá na Lâmina Longa: `d8`, uma mão, `Rompe`. A escolha entre os dois é de sabor, e as duas categorias caem no mesmo balde de treino.
+O Machado tem a mesma linha do Machete, lá na Lâmina Longa: `d8`, uma mão, `Rompe`. A escolha entre os dois é narrativa, e as duas categorias caem no mesmo balde de treino.
 
 ### Ceifa
 
@@ -386,7 +334,7 @@ Treino simples. O dano sai de Força.
 
 ### Armas Longas
 
-Treino marcial. O dano sai de Força. É a única categoria em que o `Alcance` chega a 3 m.
+Treino marcial. O dano usa Força. É a única categoria em que o `Alcance` chega a 3 m.
 
 ### Flexível
 
@@ -394,11 +342,11 @@ Treino marcial. O dano sai de Força.
 
 ### Arremesso
 
-Treino simples. O dano sai de Força: o arremesso sai do corpo.
+Treino simples. O dano usa Força: o arremesso sai do corpo.
 
 ### Yumi
 
-Treino marcial. O dano sai de Destreza: o arco se puxa, e puxar é coisa do corpo. As duas rolam um dado só e nenhuma delas carrega `Munição`.
+Treino marcial. O dano usa Destreza: o arco se puxa, e puxar é coisa do corpo. As duas rolam um dado só e nenhuma delas carrega `Munição`.
 
 O daikyū passa de dois metros e se carrega nas costas. O hankyū fica entre 45 e 160 cm: é o arco de espaço apertado e de montaria, e é por isso que ele esconde e o outro não. O Daikyū tem o dado maior; o Hankyū tem a propriedade a mais.
 
@@ -414,7 +362,7 @@ Pistola e Revólver têm a mesma linha de regra. A diferença entre os dois est�
 
 ## Soco
 
-O punho vazio não é uma das 52. Ele não entra no catálogo, não tem categoria e não entra na divisão simples/marcial.
+O punho vazio não é uma das armas. Ele não entra no catálogo, não tem categoria e não entra na divisão simples/marcial: todo mundo é treinado em dar soco.
 
 > **O soco não tem propriedade nenhuma. O dado dele sobe com a maestria.**
 >
@@ -425,11 +373,9 @@ O punho vazio não é uma das 52. Ele não entra no catálogo, não tem categori
 > | 3 | 18 a 25 | **d8** |
 > | 4 | 26 a 30 | **d10** |
 
-Ele soma Força, como todo corpo a corpo. E vale como arma para todo efeito de regra: crítico, ataque extra, requisito de treino.
+Ele soma Força, como todo corpo a corpo. E vale como arma para todo efeito de regra: crítico e ataque extra.
 
-O requisito de Força não pega o soco. Ele existe para arma que você levanta, e não tem como alguém não alcançar o próprio punho.
-
-O soco não tem propriedade nenhuma, então ele abre mão de alcance, de `Par`, de `Oculta` e de todo o resto. Em troca, ninguém desarma um punho e ninguém confisca um punho na portaria: a condição `Desarmado` não alcança quem bate com a mão.
+O soco não tem propriedade nenhuma, então ele abre mão de alcance, de `Par`, de `Oculta` e de todo o resto. Em troca, ninguém desarma um punho e ninguém confisca um punho na portaria: a condição `Desarmado` não existe para quem bate com a mão.
 
 ## Dinheiro e acesso
 
@@ -437,11 +383,11 @@ O soco não tem propriedade nenhuma, então ele abre mão de alcance, de `Par`, 
 >
 > **Dinheiro compra o que está à venda. O seu Grau libera o que não está.**
 
-Duas famílias não têm prateleira. **`Arma de Fogo` exige Grau 2**, porque arma de fogo para civil é quase inalcançável no Japão e quem porta é quem a instituição autoriza. E o **`Revestimento` exige Grau 3 no degrau 2 e Grau 2 no degrau 3** — é blindagem de padrão militar, e ela não se compra numa loja.
+Duas famílias não têm prateleira. **`Arma de Fogo` exige Grau 2** ou **autorização prévia** — alguns membros recebem justificativa narrativa para isso, como uma Vanguarda com a rota de `Arma de Fogo` —, porque arma de fogo para civil é quase inalcançável no Japão e quem porta é quem a instituição autoriza. E o **`Revestimento` exige Grau 3 no degrau 2 e Grau 2 no degrau 3** — é blindagem de padrão militar, e ela não se compra numa loja.
 
-O Grau também dá. Todo feiticeiro registrado **recebe o uniforme**: o `Traje` degrau 1 vem com a matrícula, e ninguém paga por ele.
+O Grau também dá. Todo feiticeiro registrado **recebe o uniforme**: o `Traje` degrau 1 vem com a matrícula, e não precisa ser pago.
 
-> **O seu Grau não decide que ferramenta amaldiçoada você pode usar.** Aquela escada é de nível, e está no capítulo 15. Patente adianta quando uma ferramenta chega à sua mão; ela não faz o `Estigma` dela funcionar antes da hora.
+> **O seu Grau não decide que ferramenta amaldiçoada você pode usar.** Aquela escada é de nível, e está no capítulo 15. Patente adianta apenas quando uma ferramenta chega à sua mão.
 
 ### Preços
 
@@ -501,26 +447,4 @@ Todas as armas de uma mão gastam o mesmo orçamento, e todas as de duas mãos t
 
 ### Kit inicial
 
-> **Você começa Grau 4, com o `Traje` degrau 1 da instituição e ¥150.000 para montar o resto.** São uma mensalidade de um Grau 4, que é o que você é.
-
-O uniforme de graça não muda a sua Defesa: o `Traje` 1 dá proteção 1 e desliga o `cobrir-se`, que no refino 1 também dá 1. Lá pelo nível 6 o `cobrir-se` passa na frente, e aí você tira o traje.
-
-Com ¥150.000 dá para montar coisas bem diferentes, e nenhuma delas é melhor que a outra na regra:
-
-**Kits que cabem**
-{: .tab-titulo }
-
-| kit | ¥ |
-|---|---|
-| Katana + Broquel | 60.000 |
-| Wakizashi + Tanto, para o `Par` | 64.000 |
-| Katana + escudo Médio | 84.000 |
-| Odachi | 90.000 |
-| `Traje` 2 + Katana | 138.000 |
-| `Revestimento` 1, e o soco | 150.000 |
-
-E dois que não cabem, para dar a régua: `Revestimento` 1 mais uma Soqueira sai por 158.000, e `Traje` 3 mais uma Katana por 318.000.
-
-**O `Revestimento` é a escolha de quem não vai ter Destreza.** Ele dá proteção 4 e põe o seu teto de Destreza em zero: para uma ficha de Destreza 3 ele empata com não usar nada, e para uma de Destreza 0 ele vale três pontos de Defesa. Quem escolhe ele gasta o orçamento inteiro e começa no soco, que é arma para todo efeito de regra — e o salário é mensal, então a arma chega na primeira folha.
-
-**O escudo `Torre` não entra na criação, e não é por preço:** ele pede Força 5, e o seu teto na criação é 3.
+> **Você começa Grau 4, com o `Traje` degrau 1 da instituição e ¥150.000 para comprar o resto.** São uma mensalidade de um Grau 4, que é o que você é.
