@@ -597,6 +597,30 @@ else:
                 if _n:
                     PRECO[_n] = int(m.group(1).replace('.', ''))
     # linhas simples: | Nome | `40.000` |  e  | Nome · Nome | `250.000` |
+    #
+    # ⚠ E, desde a v0.177, a arma de fogo tem DUAS colunas de preco:
+    # | Nome | `criacao` | `mercado` |. O canonico — o que todo o resto deste
+    # validador usa — e' o de MERCADO, o ultimo. A primeira versao deste regex
+    # exigia `$` logo depois do primeiro preco, entao a linha de duas colunas
+    # nao casava e as SETE armas de fogo sumiam da tabela caladas: a checagem
+    # de "toda arma tem preco" acusou, e foi ela que pegou.
+    # DOIS precos na mesma linha: | Nome | `criacao` | `mercado` |. O padrao e'
+    # estrito de proposito — as DUAS celulas tem de ser preco em crase, e a
+    # linha acaba ali. Sem isso ele engole `| Katana + Broquel | `60.000` | sim |`
+    # da tabela de kits, e o validador passa a cobrar preco de kit como se fosse
+    # arma. Foi o que aconteceu na primeira tentativa, e a checagem acusou.
+    PRECO_CRIACAO = {}
+    _RX2 = re.compile(r'\|\s*([^|*`][^|]*?)\s*\|\s*`([\d.]+)`\s*\|\s*`([\d.]+)`\s*\|\s*$')
+    for _l in _s65.splitlines():
+        m = _RX2.match(_l)
+        if m and 'meses' not in m.group(1):
+            for _n in m.group(1).split('·'):
+                _n = _n.strip().strip('*` ')
+                if _n and not _n[0].isdigit():
+                    PRECO.setdefault(_n, int(m.group(3).replace('.', '')))
+                    PRECO_CRIACAO.setdefault(_n, int(m.group(2).replace('.', '')))
+
+    # e o padrao de UMA coluna, que e' o original e nao mudou
     for _l in _s65.splitlines():
         m = re.match(r'\|\s*([^|*`][^|]*?)\s*\|\s*`([\d.]+)`[^|]*\|\s*$', _l)
         if m and 'meses' not in m.group(1):
@@ -666,6 +690,9 @@ else:
         else:
             print(f'  [x] dinheiro inicial {_ini:,} = {m.group(2)} mensalidade da '
                   f'linha Grau 4 da peca 12.')
+    # a checagem 14 usa o MESMO valor, lido aqui uma vez. Reler seria a licao no 9
+    # dentro do proprio validador.
+    DINHEIRO_INICIAL = _ini
 
     # --- os kits de referencia sao RECONTADOS da tabela ---------------------
     _nomes = sorted(PRECO, key=len, reverse=True)
@@ -699,6 +726,69 @@ else:
 print('\n' + '=' * 88)
 for a in AVISOS: print(f'  aviso: {a}')
 if AVISOS: print(f'  {len(AVISOS)} aviso(s), que nao falham o validador.\n')
+
+bloco('14. A COLUNA DE CRIACAO — a metade que abre a rota de Arma de Fogo')
+
+# A v0.177 deu DOIS precos a arma de fogo: um de criacao e um de mercado. Esta
+# checagem e' a dona da coluna nova, e ela nao guarda numero nenhum: a razao sai
+# da propria tabela, e o orcamento sai da peca 12 pela mesma porta do bloco 13.
+if 'DINHEIRO_INICIAL' not in dir() or DINHEIRO_INICIAL is None:
+    erro('14: o bloco 13 nao conseguiu ler o dinheiro inicial, entao esta '
+         'checagem nao tem contra o que medir a coluna de criacao')
+elif not PRECO_CRIACAO:
+    erro('14: nenhuma arma tem preco de criacao — ou a coluna sumiu da tabela, '
+         'ou o extrator parou de le-la, e nos dois casos esta checagem esta cega')
+else:
+    print(f'  armas com preco de criacao: {len(PRECO_CRIACAO)}')
+
+    # 14.1 — a razao e a MESMA para todas, e ela sai da tabela, nao daqui
+    _razoes = {PRECO[n] / PRECO_CRIACAO[n] for n in PRECO_CRIACAO}
+    if len(_razoes) != 1:
+        erro('14.1: a coluna de criacao usa razoes diferentes entre as armas: '
+             f'{sorted(round(r, 3) for r in _razoes)} — uma coluna derivada tem '
+             'uma razao so, senao ela e' + chr(39) + ' seis numeros digitados a mao')
+    else:
+        _r = _razoes.pop()
+        print(f'  razao criacao/mercado     : 1/{_r:.0f} para todas as {len(PRECO_CRIACAO)}')
+        print(f'  [x] 14.1 a coluna e derivada: uma razao so, lida da tabela.')
+
+    # 14.2 — a criacao nunca fica mais barata que arma branca ou escudo
+    _NAO_FOGO = {n: v for n, v in PRECO.items() if n not in PRECO_CRIACAO}
+    _piso = max((v for n, v in _NAO_FOGO.items()
+                 if not n.startswith(('Traje', 'Revestimento'))), default=0)
+    _abaixo = sorted(n for n, v in PRECO_CRIACAO.items() if v <= _piso)
+    print(f'  piso de arma branca/escudo: {_piso:,}')
+    if _abaixo:
+        erro(f'14.2: {len(_abaixo)} arma(s) de fogo custam na criacao menos que o '
+             f'item mais caro que nao e uniforme ({_piso:,}): {_abaixo} — a ordem '
+             'da tabela quebra, e um revolver passa a ser mais barato que um escudo')
+    else:
+        print('  [x] 14.2 nenhuma arma de fogo desce abaixo de arma branca ou escudo.')
+
+    # 14.3 — o corte cai onde ele foi desenhado para cair
+    _cabem = sorted(n for n, v in PRECO_CRIACAO.items() if v <= DINHEIRO_INICIAL)
+    _fora  = sorted(n for n, v in PRECO_CRIACAO.items() if v > DINHEIRO_INICIAL)
+    print(f'  cabem em {DINHEIRO_INICIAL:,} na criacao: {_cabem}')
+    if not _cabem:
+        erro('14.3: nenhuma arma de fogo cabe no dinheiro inicial, e a coluna de '
+             'criacao existe exatamente para que a rota de Arma de Fogo do Batedor '
+             'comece com a arma que ela pressupoe')
+    elif not _fora:
+        erro('14.3: TODAS as armas de fogo cabem no dinheiro inicial — a criacao '
+             'deixou de escolher, e a Metralhadora Pesada entra no nivel 2')
+    else:
+        print(f'  [x] 14.3 {len(_cabem)} entram e {len(_fora)} ficam fora: a criacao escolhe.')
+
+    # 14.4 — duas armas de fogo nunca cabem juntas
+    _duplas = [(a, b) for a in PRECO_CRIACAO for b in PRECO_CRIACAO
+               if a <= b and PRECO_CRIACAO[a] + PRECO_CRIACAO[b] <= DINHEIRO_INICIAL]
+    if _duplas:
+        erro(f'14.4: {len(_duplas)} par(es) de arma de fogo cabem juntos na criacao: '
+             f'{_duplas[:3]} — o desconto virou arsenal')
+    else:
+        print('  [x] 14.4 duas armas de fogo nunca cabem juntas no dinheiro inicial.')
+
+
 if ERROS:
     print(f'>>> {len(ERROS)} PROBLEMA(S):')
     for e in ERROS: print(f'    - {e}')

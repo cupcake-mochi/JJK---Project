@@ -1505,16 +1505,20 @@ Isso é diferente de deixar em aberto — é decisão com condição de disparo,
 | Besta de Uma Mão | `50.000` |
 | Besta | `80.000` |
 
-**`Arma de Fogo`** — **exige Grau 2**, e o preço é o do mercado que a instituição alcança.
+**`Arma de Fogo`** — **exige Grau 2**, e ela tem **dois preços**. *Na criação quem arma o feiticeiro é a instituição, e ela cobra o que pagou; depois disso você compra no mercado que ela alcança, e aí o preço é o cheio.* **O de criação é sempre metade do de mercado**, e ele vale uma vez só, na montagem da ficha.
 
-| arma | `¥` |
-|---|---|
-| Pistola · Revólver | `250.000` |
-| Espingarda | `300.000` |
-| Rifle | `350.000` |
-| Submetralhadora | `400.000` |
-| Rifle de Precisão | `600.000` |
-| Metralhadora Pesada | `900.000` |
+| arma | `¥` na criação | `¥` no mercado |
+|---|---|---|
+| Pistola · Revólver | `125.000` | `250.000` |
+| Espingarda | `150.000` | `300.000` |
+| Rifle | `175.000` | `350.000` |
+| Submetralhadora | `200.000` | `400.000` |
+| Rifle de Precisão | `300.000` | `600.000` |
+| Metralhadora Pesada | `450.000` | `900.000` |
+
+**O corte cai onde ele foi medido para cair: só a Pistola, o Revólver e a Espingarda cabem nos `¥150.000` da criação.** *Do Rifle para cima nenhuma entra, e duas armas de fogo não entram em combinação nenhuma — a mais barata em dobro já dá `¥250.000`.* **É o que abre a rota de `Arma de Fogo` do `Batedor` no nível 2**, que era a única das três rotas daquela Trilha que começava sem a arma que ela pressupõe.
+
+> **A metade não cruza a ordem da tabela.** *O piso do que ela poderia cruzar é o escudo `Torre`, a `¥108.000`, e a arma de fogo mais barata na criação custa `¥125.000`.* **Nenhuma arma de fogo fica mais barata que arma branca ou escudo em coluna nenhuma** — os cinco cruzamentos que a metade cria são todos contra uniforme, e um revólver custar menos que blindagem de padrão militar é o que a ficção já dizia.
 
 **Proteção** — cada degrau custa `3×` o anterior, nas três escadas.
 

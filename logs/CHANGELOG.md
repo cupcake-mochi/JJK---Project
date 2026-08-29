@@ -8,6 +8,76 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.177] — 29/08/2026
+
+**A arma de fogo ganhou uma segunda coluna de preço, e ela abre a rota de `Arma de Fogo` do `Batedor` no nível 2.** ***Achado do Mizuki:*** *"com esses custos ninguém consegue começar com uma arma de fogo, aí como fica a trilha de arma de fogo? Começa o jogo e não tem nenhuma arma de fogo é complexo."*
+
+### 1 · A medida: uma das três rotas da mesma Trilha não existia no nível 2
+
+| rota do `Batedor` | arma mais barata | cabe nos `¥150.000`? | sobra |
+|---|---|---|---|
+| `Yumi` | Hankyū `¥40.000` | sim | `¥110.000` |
+| `Besta` | Besta de Uma Mão `¥50.000` | sim | `¥100.000` |
+| **`Arma de Fogo`** | Pistola `¥250.000` | **não** | **faltam `¥100.000`** |
+
+**Nenhuma das seis armas de fogo cabia**, e a mais barata custava `1,67×` o orçamento inteiro. *O `Ferrolho` do nível 2 — "a sua arma de fogo só força recarga no `1` natural" — era uma habilidade que não ligava.* **Guardando todo o salário de um `Grau 4`, a primeira pistola levava `1,7` mês.**
+
+### 2 · O que outros sistemas fazem, antes de inventar
+
+*Levantado antes de propor, e os dois mudam o PORTÃO na criação em vez de mexerem no preço depois:*
+
+- **Shadowrun 5e** tranca por **disponibilidade** na criação — teto de `12` —, e libera o resto depois.
+- **Cyberpunk RED** dá **`800eb` de equipamento fora do bolso** na criação, separado dos `2.550eb` de compra.
+- **D&D e os OSR** oferecem **pacote de equipamento** desenhado em cima das opções caras, contra ouro rolado.
+
+**Nenhum dos três dá dois preços ao mesmo item**, e a literatura de preço explica por quê: é o *ladder problem*, em que o preço com desconto cruza a ordem da tabela.
+
+### 3 · A escolha do Mizuki, e o número que a validação achou
+
+***Decisão dele:*** *"vamo pela C"* — duas colunas na tabela de preços, **preço de criação e preço de mercado**. A razão saiu da conta e não do gosto: **metade**.
+
+| arma | `¥` na criação | `¥` no mercado | cabe na criação? |
+|---|---|---|---|
+| Pistola · Revólver | `125.000` | `250.000` | **sim**, e sobram `¥25.000` |
+| Espingarda | `150.000` | `300.000` | **sim**, e o dinheiro acaba ali |
+| Rifle | `175.000` | `350.000` | não |
+| Submetralhadora | `200.000` | `400.000` | não |
+| Rifle de Precisão | `300.000` | `600.000` | não |
+| Metralhadora Pesada | `450.000` | `900.000` | não |
+
+**A metade cai exatamente onde o pedido dizia:** *"conseguir comprar pelo menos a primeira ou até a segunda seria bom"* — e são exatamente as duas primeiras da escada que entram. **Duas armas de fogo não cabem em combinação nenhuma:** a mais barata em dobro já dá `¥250.000`.
+
+### 4 · O ladder problem foi medido, e é ele que define o piso
+
+**O desconto não pode descer a ponto de uma arma de fogo ficar mais barata que arma branca ou escudo.** *O piso é o escudo `Torre`, a `¥108.000`, e a arma de fogo mais barata na criação custa `¥125.000`.* **Os cinco cruzamentos que a metade cria são todos contra uniforme** — um revólver custar menos que blindagem de padrão militar é o que a ficção já dizia.
+
+> **A um quinto, o corte quebraria:** cinco das seis passariam por baixo do `Torre`, e catorze pares de arma de fogo caberiam juntos. *Foi rodado, e é o teste negativo da 14.2 e da 14.4.*
+
+### 5 · E o desconto NÃO podia valer para a tabela inteira
+
+**O teto de Defesa do nível 2 é `17`, e ele não sobe com dinheiro** — quem trava é `Força 3` e o teto de Destreza dos escudos. *`Traje 2` + escudo `Médio` custa `¥126.000` e dá `17`; dobrar o orçamento não move um ponto.*
+
+**Mas metade em tudo seria dizer `¥300.000` sem dizer, e isso reverteria a decisão da v0.175**, que fixou a mensalidade cheia por busca exaustiva. *A coluna de criação existe só onde o preço codifica escassez institucional, e não capacidade: a `Arma de Fogo` é a única família do capítulo sem prateleira.*
+
+### Adicionado
+
+- **A checagem 14 do `conferir-equipamento.py`**, dona da coluna nova, com quatro sub-checagens: a razão é uma só e sai da tabela; nenhuma arma de fogo desce abaixo de arma branca ou escudo; a criação escolhe, em vez de liberar tudo ou nada; e duas armas de fogo nunca cabem juntas. *As quatro têm teste negativo rodado.*
+
+### Alterado
+
+- **A tabela de preço da `Arma de Fogo`**, na peça 14 §6.5 e no capítulo 14 do livro, agora com duas colunas.
+- **O extrator de preço do `conferir-equipamento.py`**, que passou a ler linha de duas colunas. *A primeira versão do padrão engolia a tabela de kits junto, e a própria checagem acusou.*
+
+### Decidido
+
+- **Arma de fogo custa metade na criação e cheio depois**, porque na criação quem arma o feiticeiro é a instituição.
+- **A coluna de criação vale uma vez só, na montagem da ficha.** Perder a arma, querer uma segunda ou subir de calibre é preço de mercado.
+- **O desconto não se estende à tabela inteira**, porque isso seria reverter o orçamento da v0.175 por outro nome.
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **O Mizuki tem mais dois apontamentos do documento**, e as duas anotadas da v0.176 seguem abertas: o formato do `Conhecimento Antigo` e a atração sem Legado que a desligue.
+
+---
+
 ## [0.176] — 29/08/2026
 
 **O Mizuki leu o Manual da Guilda inteiro no Word e devolveu 205 edições, em 21 arquivos.** Esta versão traz elas de volta para o markdown. *É a primeira vez que uma revisão feita fora do repositório volta para dentro dele, e o método disso virou documento: `METODO-volta-do-docx.md`.*

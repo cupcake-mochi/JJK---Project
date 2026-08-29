@@ -32,7 +32,7 @@ PDF"*. É esse PDF, escrito direto a partir desta pasta.
 |---|---|---|
 | `-A-atual` | 256 | o que estava publicado antes desta leva. Snapshot, não se regera |
 | *(sem sufixo)* | 239 | a mesma coisa, com as quebras de página consertadas e o sumário em duas colunas |
-| `-C-duas-colunas` | 138 | corpo em duas colunas a 9,4pt com entrelinha 1,45, e grade de 5+ colunas em largura inteira |
+| `-C-duas-colunas` | 139 | corpo em duas colunas a 9,4pt com entrelinha 1,45, e grade de 5+ colunas em largura inteira |
 
 **A geometria da C não é gosto: ela foi medida em três manuais do hobby.** *Guia do Mestre 5e em A4, Caldeirão de Tasha e PHB 2024* — 83%, 92% e 92% das páginas em duas colunas, com corpo entre 9,1 e 9,3pt. **A mancha copiada é a do Guia do Mestre**, que é o único dos três em A4.
 

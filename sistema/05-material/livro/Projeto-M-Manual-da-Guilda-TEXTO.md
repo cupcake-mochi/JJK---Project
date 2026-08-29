@@ -5515,7 +5515,7 @@ O soco não tem propriedade nenhuma, então ele abre mão de alcance, de `Par`, 
 >
 > **Dinheiro compra o que está à venda. O seu Grau libera o que não está.**
 
-Duas famílias não têm prateleira. **`Arma de Fogo` exige Grau 2** ou **autorização prévia** — alguns membros recebem justificativa narrativa para isso, como uma Vanguarda com a rota de `Arma de Fogo` —, porque arma de fogo para civil é quase inalcançável no Japão e quem porta é quem a instituição autoriza. E o **`Revestimento` exige Grau 3 no degrau 2 e Grau 2 no degrau 3** — é blindagem de padrão militar, e ela não se compra numa loja.
+Duas famílias não têm prateleira. **`Arma de Fogo` exige Grau 2** ou **autorização prévia** — alguns membros recebem justificativa narrativa para isso, como uma Vanguarda com a rota de `Arma de Fogo` —, porque arma de fogo para civil é quase inalcançável no Japão e quem porta é quem a instituição autoriza. *É por não ter prateleira que ela é a única do capítulo com dois preços, e a tabela `Arma de fogo` traz os dois.* E o **`Revestimento` exige Grau 3 no degrau 2 e Grau 2 no degrau 3** — é blindagem de padrão militar, e ela não se compra numa loja.
 
 O Grau também dá. Todo feiticeiro registrado **recebe o uniforme**: o `Traje` degrau 1 vem com a matrícula, e não precisa ser pago.
 
@@ -5541,19 +5541,29 @@ Todas as armas de uma mão gastam o mesmo orçamento, e todas as de duas mãos t
 | lâmina grande | 60.000 | Espadão · Machado de Guerra · Nodachi |
 | de assinatura | 90.000 | Odachi |
 
-**Arco, balestra e arma de fogo**
-| arma | ¥ | |
-|---|---|---|
-| Hankyū | 40.000 | |
-| Daikyū | 60.000 | |
-| Besta de Uma Mão | 50.000 | |
-| Besta | 80.000 | |
-| Pistola · Revólver | 250.000 | Grau 2 |
-| Espingarda | 300.000 | Grau 2 |
-| Rifle | 350.000 | Grau 2 |
-| Submetralhadora | 400.000 | Grau 2 |
-| Rifle de Precisão | 600.000 | Grau 2 |
-| Metralhadora Pesada | 900.000 | Grau 2 |
+**Arco e balestra**
+| arma | ¥ |
+|---|---|
+| Hankyū | 40.000 |
+| Daikyū | 60.000 |
+| Besta de Uma Mão | 50.000 |
+| Besta | 80.000 |
+
+**Arma de fogo tem dois preços, e o que muda é quem está vendendo.** Na criação quem te arma é a instituição, e ela cobra o que pagou; depois dela você compra pelo mercado que ela alcança, e aí o preço é o cheio. **O da criação é sempre metade do de mercado**, e ele vale uma vez só, na montagem da ficha.
+
+**Arma de fogo**
+| arma | ¥ na criação | ¥ no mercado | |
+|---|---|---|---|
+| Pistola · Revólver | 125.000 | 250.000 | Grau 2 |
+| Espingarda | 150.000 | 300.000 | Grau 2 |
+| Rifle | 175.000 | 350.000 | Grau 2 |
+| Submetralhadora | 200.000 | 400.000 | Grau 2 |
+| Rifle de Precisão | 300.000 | 600.000 | Grau 2 |
+| Metralhadora Pesada | 450.000 | 900.000 | Grau 2 |
+
+Nos ¥150.000 da criação cabem a Pistola, o Revólver e a Espingarda, e nada além delas — então dá para começar com a arma que a sua rota pressupõe, e não dá para começar com um Rifle de Precisão. Duas armas de fogo não cabem juntas em combinação nenhuma. Com a Pistola ou o Revólver ainda sobram ¥25.000, que compram um escudo `Broquel` e uma arma de uma mão da faixa de baixo; com a Espingarda o dinheiro acaba ali.
+
+Depois da criação a coluna da esquerda não existe mais. Se você perder a arma, quiser uma segunda ou quiser subir de calibre, é o preço de mercado que vale, e ele é o mesmo para todo mundo.
 
 **Proteção e apoio**
 | item | ¥ | |
@@ -6382,4 +6392,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: 3868869c57d570d71b72932e5c5258af2b8ad9a1 -->
+<!-- fonte: a3e2843dbc39008aea2fc790eaae56b9a2af3952 -->
