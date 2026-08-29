@@ -1,8 +1,16 @@
 # Estado atual do projeto
 
-Atualizado em 29/08/2026, na v0.178 (última peça fechada: **Sem Técnica**, a peça 25, na v0.168, com o `conferir-sem-tecnica.py` e doze checagens; antes dela, **Dano de alma e Integridade, na v0.145**; antes dela, o **Bloquear, na v0.143**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 29/08/2026, na v0.179 (última peça fechada: **Sem Técnica**, a peça 25, na v0.168, com o `conferir-sem-tecnica.py` e doze checagens; antes dela, **Dano de alma e Integridade, na v0.145**; antes dela, o **Bloquear, na v0.143**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.178.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e cinco peças escritas** e **vinte e cinco validadores**.
+**Versão v0.179.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e cinco peças escritas** e **vinte e cinco validadores**.
+
+**A v0.179 fechou as duas pendências que a v0.176 deixou anotadas, e nenhuma era o que a anotação dizia.**
+
+> **O `Conhecimento Antigo` fica em `Desliga`.** *A anotação queria mover ele para `Ajusta` porque "o `Desliga` apaga o que chega em você".* **Essa frase já descrevia um catálogo mais estreito que o real:** o `Ferro Velho` apaga cansaço e diz no próprio texto que *"cansaço não é uma coisa que acontece com você"*, e o `Sangue que Não é Sangue` apaga precisar comer e dormir. *E `Ajusta` era impossível: ele exige relógio, e este Legado é `sempre`.* **A glosa foi alargada na peça 13 §5 e no capítulo 7 do livro, que publicava a mesma frase estreita para o jogador.**
+>
+> **A atração de objeto amaldiçoado não tem Legado que a desligue, e não vai ter.** *A vaga livre do catálogo é do Corpo Amaldiçoado, e gastá-la com um alvo emprestado deixaria aquela Origem sem alvo próprio para sempre.*
+>
+> **⚠ E um cabeçalho mentia dentro do próprio arquivo:** *o `conferir-legados.py` dizia "Nove checagens" e tinha dez no código.* **A checagem 9 do `conferir-repositorio.py` lê do código e compara com DOCUMENTO — e o cabeçalho de um validador não é documento**, então ela nunca alcançou este. *Ele só apareceu porque a checagem nova nasceu com número repetido.*
 
 **A v0.178 tirou a régua da morte de dentro do corpo da invocação, e o livro passou a publicar os três números que faltavam para ela jogar.**
 

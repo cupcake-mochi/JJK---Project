@@ -66,7 +66,7 @@ Ele carrega relógio sempre, e quanto mais largo o que ele alcança, mais raro o
 
 ### Como ler um Desliga
 
-Um Desliga apaga uma coisa que aconteceria com você, sempre que a situação aparecer, sem rolagem nenhuma. Não existe "tentar" um Desliga; ou a situação bateu e ele age, ou não bateu. **Ele nunca desliga a ficha de outra pessoa:** o que ele apaga é o que chega em você.
+Um Desliga apaga uma coisa que aconteceria com você, sempre que a situação aparecer, sem rolagem nenhuma. Não existe "tentar" um Desliga; ou a situação bateu e ele age, ou não bateu. **Ele nunca desliga a ficha de outra pessoa** — o que ele apaga é o que o mundo cobra de você, e isso vem de dois jeitos: uma coisa que **chega** em você, como ficar `Agarrado`, ou uma coisa que você **teria de fazer**, como precisar dormir ou rolar para reconhecer uma técnica.
 
 A maioria vale sempre, sem contagem. E cada entrada diz o que você paga em troca: nenhum Desliga é só ganho.
 

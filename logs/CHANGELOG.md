@@ -8,6 +8,73 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.179] — 29/08/2026
+
+**As duas pendências que a v0.176 deixou anotadas fecharam, e nenhuma das duas era o que a anotação dizia.** *A primeira se respondeu contando o catálogo; a segunda já estava decidida e o que faltava era tirar a meia-frase que a fazia parecer fila.*
+
+### 1 · O `Conhecimento Antigo` fica em `Desliga`, e o defeito era a glosa
+
+**A anotação dizia que ele deveria mudar de formato:** *"o `Desliga` apaga o que CHEGA em você, e ele apaga uma ROLAGEM que você faria, o que é mais perto do `Ajusta`."* **Duas medidas derrubam isso, e as duas são contagem e não gosto.**
+
+**A frase que ela usava como régua já descrevia um catálogo mais estreito que o real, e antes desta entrada existir.** *Dos onze `Desliga` escritos:*
+
+| Legado | apaga | é "o que chega em você"? |
+|---|---|---|
+| `Ferro Velho` | os degraus de exaustão | **não** — e o texto dele diz isso: *"cansaço não é uma coisa que acontece com você"* |
+| `Sangue que Não é Sangue` | comer, dormir, respirar | **não** — apaga uma necessidade, não uma chegada |
+
+**A régua operante do §5 sempre foi *"apaga o que ninguém comprou"***, e o `Conhecimento Antigo` passa nela limpo: *ninguém compra o teste de reconhecer técnica.* **A frase *"o que o mundo faz com você"* é glosa, e o validador nunca a cobrou.**
+
+**E `Ajusta` era impossível, não indesejável.** *O `Ajusta` é definido por carregar relógio — a largura do gatilho escolhe o degrau na escada da peça 10 —, e este Legado é `sempre`.* **Movê-lo exigiria inventar um relógio, e isso mudaria o que ele faz:** hoje ele é automático dos dois lados, acerto na sua Era e falha nas modernas.
+
+> **A glosa foi alargada nos DOIS lugares, e o segundo é o que importa.** *Ela mora na peça 13 §5 e no capítulo 7 do livro, que publicava a mesma frase estreita para o jogador.* **Hoje as duas dizem que o `Desliga` alcança o que chega em você E o que você teria de fazer**, com um exemplar vivo de cada lado.
+
+### 2 · A atração fica sem Legado, e isso deixou de parecer fila
+
+***Decisão do Mizuki, confirmando a da v0.176:*** **ninguém escapa da atração por Legado.** *A v0.176 já tinha decidido, mas escreveu "até alguém escrever um" — e essa meia-frase era o que a mantinha em três listas de pendência.*
+
+**Existe uma vaga de `Desliga` livre no catálogo inteiro, e ela NÃO vai para a atração.** *A vaga é do Corpo Amaldiçoado, e a peça 13 declara que ela é da Origem que tem direito a um alvo próprio pela ficção.* **Gastar a última vaga do catálogo com um alvo emprestado de outra Origem deixaria o Corpo Amaldiçoado sem alvo para sempre**, e uma regra sem exceção é mais limpa que uma exceção.
+
+### 3 · A checagem nova, e os dois defeitos dela que o arnês pegou
+
+**A glosa mora em dois documentos e nada comparava os dois** — é a lição nº 9 na forma que não tem número: prosa. *Ela divergiu por três versões sem ninguém ver, e foi essa divergência que fez a pergunta de formato nascer.*
+
+**Duas perturbações passaram verdes antes de a checagem ficar de pé, e as duas eram do mesmo defeito — recorte largo demais:**
+
+- **ela lia o documento inteiro**, então apagar a direção da glosa saía verde por causa de uma frase vizinha
+- **a alternativa `precisar` do reconhecedor casava com o EXEMPLO** do `Sangue que Não é Sangue`, que mora dentro do próprio recorte
+
+*Com o recorte na seção e o reconhecedor exigindo as palavras da própria frase, as cinco perturbações acendem.*
+
+### 4 · E um cabeçalho mentia dentro do próprio arquivo
+
+**O `conferir-legados.py` dizia *"Nove checagens"* no cabeçalho e tinha DEZ no código**, desde que o bloco da tabela dos três formatos entrou. *A checagem 9 do `conferir-repositorio.py` lê do CÓDIGO e compara com os documentos — e o cabeçalho de um validador não é documento, então ela nunca alcançou este.* **Ele só apareceu porque a checagem nova nasceu com o número `10` também, e a guarda de bloco repetido acusou.**
+
+### Adicionado
+
+- **A checagem 11 do `conferir-legados.py`**, que compara a glosa do `Desliga` entre a peça 13 §5 e o capítulo 7 do livro, e confere que o `Ferro Velho` continua sendo o contra-exemplo escrito dentro do próprio catálogo. *Cinco perturbações rodadas.*
+
+### Alterado
+
+- **A glosa do `Desliga`**, na peça 13 §5 e no capítulo 7 do livro: ela passou a nomear as duas direções que o catálogo já usava.
+- **O cabeçalho do `conferir-legados.py`**, de nove para onze checagens, com o motivo do erro escrito.
+- **A contagem de páginas no `README` do livro**, de `240` para `241` na coluna única. *O aviso que a v0.178 pôs ao lado dela — "estas contagens envelhecem toda vez que o livro muda e não têm validador" — disparou na versão seguinte.*
+
+### Removido
+
+- **A pergunta de formato do `Conhecimento Antigo`**, da seção do Reencarnado da peça 13 — respondida, não apagada: o argumento inteiro ficou no lugar dela.
+- **O *"até alguém escrever um"*** da decisão da atração, na peça 21 §6.
+
+### Decidido
+
+- **O `Conhecimento Antigo` é `Desliga`**, e o que estava errado era a frase que descrevia o formato.
+- **Um `Desliga` alcança o que chega em você e o que você teria de fazer.** *A trava proíbe apagar coisa com **preço**, e não coisa com direção.*
+- **A atração de objeto amaldiçoado não tem Legado que a desligue, e não vai ter.**
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **O trabalho da próxima versão é a Q3 da peça 15**, com a objeção do Mizuki escrita: *"não faz sentido utilizar acerto, defesa e atributos do invocador — o invocador vai querer invocações que fazem o que ele não faça."* **Junto com ela vai a Constituição da invocação sem preço e sem dono**, que é a contradição entre o §3.3 e o limite do orçamento.
+
+---
+
 ## [0.178] — 29/08/2026
 
 **A invocação parou de morrer para sempre com um golpe comum, e o livro passou a publicar os três números sem os quais ela não jogava.** ***Achado do Mizuki:*** *"a vida das invocações, n tá muito baixo? uma invocação com 0 de CON no nv10 fica 32 de vida, isso é NADA."*

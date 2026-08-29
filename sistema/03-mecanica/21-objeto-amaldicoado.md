@@ -120,13 +120,15 @@ E os três já são Origem neste sistema, escritos anos antes de esta peça exis
 
 | destrava | como |
 |---|---|
-| **1 vaga de `Desliga`** | a do Reencarnado, na peça 13 §8 — a última das sete. *Ela fechou aqui em v0.132; na v0.176 a casa foi reaproveitada para outro alvo, e a atração ficou sem Legado* |
+| **1 vaga de `Desliga`** | a do Reencarnado, na peça 13 §8 — a última das sete. *Ela fechou aqui em v0.132; na v0.176 a casa foi reaproveitada para outro alvo, e a atração ficou sem Legado — **e na v0.179 isso virou decisão fechada**, não fila* |
 | **rota de Origem** | **nenhuma.** As três já rodam pelo Fundamento |
 | **peça de regra** | **nenhuma.** Ele não é economia nova |
 
 **A vaga fechou porque a atração é coisa nomeada, e a régua do `Desliga` da peça 13 §5 exige exatamente isso:** um `Desliga` apaga o que ninguém comprou. **Ninguém compra a atração** — ela é o que o mundo faz com quem carrega um objeto, e não sai de tabela de preço nenhuma.
 
 > **⚠ E o Legado que fechava a vaga saiu na v0.176.** *O `Conhecido` desligava a atração desde a v0.132; na revisão do livro o Mizuki trocou ele pelo `Conhecimento Antigo`, que desliga outra coisa.* **A atração ficou sem Legado que a apague, e isso é decisão e não esquecimento:** ela continua sendo o que o §4 descreve, e agora ninguém escapa dela por Legado.
+>
+> ***A v0.179 fechou isto de vez, e a pergunta não volta.*** *Ela ficou três versões escrita como "até alguém escrever um", e essa meia-frase era o que a fazia parecer fila em vez de decisão.* **Existe uma vaga de `Desliga` livre no catálogo inteiro — a do Corpo Amaldiçoado — e ela NÃO vai para a atração:** *aquela vaga é da Origem que tem direito a um alvo próprio pela ficção, e gastar a última do catálogo com um alvo emprestado de outra Origem deixaria o Corpo Amaldiçoado sem alvo para sempre.* ***Decisão do Mizuki:*** **ninguém escapa da atração por Legado, e uma regra sem exceção é mais limpa que uma exceção.**
 
 O Legado que sobra aqui mora na peça 13, que é a dona do catálogo. O texto dele está lá; aqui fica só qual é ele e o que ele faz com o assunto desta peça.
 

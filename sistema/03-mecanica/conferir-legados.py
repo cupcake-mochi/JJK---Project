@@ -10,7 +10,7 @@ com valor na mao e o LIMITES DE DESIGN abaixo, declarado a parte da regra
 aplicada — que e a licao no 8: uma checagem nao pode se medir contra a propria
 constante.
 
-Nove checagens:
+Onze checagens:
   1. FORMATO      — todo Legado esta sob um dos tres formatos.
   2. RELOGIO      — todo relogio e degrau da escada da peca 10.
   3. LARGURA      — categoria inteira nao fica em degrau rapido.
@@ -21,6 +21,15 @@ Nove checagens:
   7. ORIGENS      — as Origens do catalogo existem na peca 9, e nenhuma falta.
   8. SEM TECNICA  — aparece uma vez, e nao esta nas duas Origens especiais.
   9. CONTA        — a tabela de totais bate com o que a pasta tem de verdade.
+ 10. TRES FORMATOS— os doze exemplos da tabela do SS4 existem no catalogo.
+ 11. GLOSA        — a peca e o livro descrevem o Desliga pelas MESMAS duas
+                   direcoes. A glosa estreita fez a v0.176 abrir uma pergunta
+                   de formato que nao existia, e ela mora em dois lugares.
+
+*Este cabecalho dizia NOVE ate a v0.179, e o codigo tinha DEZ desde que o bloco
+da tabela dos tres formatos entrou. Contagem escrita a mao dentro do proprio
+arquivo envelhece igual a de qualquer documento — a checagem 9 do
+conferir-repositorio.py le do CODIGO, e por isso ela nunca acusou este.*
 
 Roda de sistema/03-mecanica/. NAO le o .docx e NAO precisa de python-docx —
 entao nao existe caminho por onde ele saia verde tendo pulado checagem.
@@ -386,6 +395,64 @@ else:
                    + '; '.join(_maus))
     elif _n_ex == 12:
         print('  [x] os 12 exemplos do §4 existem no catalogo e estao no formato certo')
+
+# ------------------------------------------------- 11. GLOSA DO DESLIGA, NO LIVRO
+# A regua do SS5 e' "apaga o que ninguem comprou", e ela nunca teve problema. O que
+# tinha era a GLOSA ao lado dela — "o que o mundo faz com voce" —, que descrevia um
+# catalogo mais estreito que o real: o `Ferro Velho` e o `Sangue que Nao e Sangue`
+# apagam coisa que o mundo COBRA e nao coisa que chega, e o segundo diz isso no
+# proprio texto. A glosa estreita fez a v0.176 abrir uma pergunta de formato sobre
+# o `Conhecimento Antigo` que nao existia. Ela mora em DOIS lugares — esta peca e o
+# capitulo 7 do livro — e ninguem comparava os dois, que e a licao no 9 em prosa.
+print('\n' + '=' * 88)
+print('11. GLOSA DO DESLIGA — a peca e o livro contam a mesma historia?')
+print('=' * 88)
+_CAP = os.path.join(AQUI, '..', '05-material', 'livro', 'manual', '25-origens.md')
+if not os.path.isfile(_CAP):
+    erro('GLOSA', 'nao achei o capitulo de Origens do livro — a glosa do Desliga tem duas '
+                  'publicacoes e so uma seria conferida')
+else:
+    # RECORTE, e ele e' o que faz a checagem valer: lendo o documento inteiro ela
+    # passava por causa de uma frase VIZINHA — apagar a direcao da glosa do §5 saia
+    # verde porque o exemplo do `Sangue que Nao e Sangue`, tres linhas abaixo, tem a
+    # palavra "precisar". Achado no arnes da v0.179.
+    def _bloco(txt, ini, fim):
+        i = txt.find(ini)
+        if i < 0:
+            return ''
+        j = txt.find(fim, i + len(ini))
+        return txt[i:j if j > 0 else len(txt)]
+
+    _liv = _bloco(open(_CAP, encoding='utf-8').read(), '### Como ler um Desliga', '\n### ')
+    _pec = _bloco(ler('13-legados.md'), '### Desliga —', '\n### ')
+    if not _liv or not _pec:
+        erro('GLOSA', 'nao achei a secao que explica o Desliga num dos dois documentos — '
+                      'sem o recorte a checagem le o arquivo inteiro e passa por vizinhanca')
+    # as duas direcoes que o catalogo realmente usa, cada uma com um exemplar vivo
+    # A alternativa `precisar ` era frouxa: ela casava com o EXEMPLO do `Sangue que
+    # Nao e Sangue`, que mora dentro do mesmo recorte, entao apagar a direcao da
+    # glosa saia verde por vizinhanca de novo. A frase tem de dizer as duas com as
+    # palavras dela, e nao por acidente de exemplo.
+    _dirs = (('chega em você', r'chega em voc[êe]'), ('teria de fazer', r'teria de fazer'))
+    # o negrito parte a frase no meio ("uma coisa que **chega** em voce"), entao a
+    # comparacao normaliza os `*` antes de casar — senao a checagem acusa formatacao
+    # em vez de conteudo, que e o pior tipo de falso positivo.
+    for _onde, _txt in (('a peca 13 §5', _pec), ('o capitulo 7 do livro', _liv)):
+        _n = _txt.replace('*', '')
+        _falta = [n for n, rx in _dirs if not re.search(rx, _n, re.I)]
+        if _falta:
+            erro('GLOSA', f'{_onde} descreve o Desliga so por uma direcao — falta "{_falta[0]}". '
+                          'O catalogo tem exemplar vivo das DUAS, e uma glosa que nomeia so '
+                          'uma faz a proxima entrada ser medida contra a regua errada')
+        else:
+            print(f'  [x] {_onde}: nomeia as duas direcoes do Desliga.')
+    # e o exemplar que prova que a direcao larga nao e teorica
+    if 'não é uma coisa que acontece com você' not in ler('13-legados.md'):
+        erro('GLOSA', 'o `Ferro Velho` deixou de dizer que "cansaco nao e uma coisa que '
+                      'acontece com voce" — era ele que provava, dentro do proprio catalogo, '
+                      'que a glosa estreita estava errada')
+    else:
+        print('  [x] o `Ferro Velho` continua sendo o contra-exemplo escrito da glosa estreita.')
 
 # ---------------------------------------------------------------- veredito
 print('\n' + '=' * 88)
