@@ -81,12 +81,12 @@ O argumento está no §3.2.
 
 **Q3 — FECHADA.**
 
-> **Linha que encara dado** = a parte que **cresce**, vinda do dono, **mais um deslocamento fixo** vindo da ficha da invocação.
-> **Linha fora de dado** = fórmula própria no molde da do Caminho, **com o atributo dela dentro**.
+> **O ritmo é do dono e o valor é dela.** A maestria dele entra em toda rolagem dela; os atributos que fazem a conta são os dela, com o orçamento da peça 2.
+> **Vida e deslocamento** = fórmula própria — a vida no molde da do Caminho, o deslocamento fixo em `9` metros.
 > **Vida** = `base do tipo + (por nível do tipo + a Constituição dela) × nível do dono`.
 > **A forma é orçamento de pontos**, no molde do Fundamento, **com três montagens prontas junto** — uma por Trilha.
 > **A ficha tem duas camadas:** `Traço`, que é o que a invocação **é** — voa, carrega, rastreia —, e `Comando`, que é o que ela **faz** quando o dono gasta a ação padrão nela.
-> **Ela começa no número do dono e só pode descer.** Deslocamento positivo é proibido; descer devolve ponto.
+> **Ela tem os cinco atributos, e eles são dela** — nove pontos na criação com teto `3`, e `+1` por marco, como qualquer ficha. **O ritmo é do dono:** a maestria dele entra em toda rolagem dela.
 > **O orçamento é `8` no nível 2 e sobe `+4` por marco, até `36` no 30.**
 > **A amarra são 18 metros.** Além disso a invocação não pode ser comandada — e não some.
 > **O catálogo tem 19 entradas compráveis**, mais o `Investir`, que custa 0 e toda invocação tem.
@@ -362,7 +362,9 @@ De **1,4× a 4,9×** um ponto de Defesa. **Ou ela entra com preço próprio, ou 
 
 ### A forma: orçamento de pontos, com três montagens prontas
 
-*Decisão do Mizuki.* O jogador constrói a invocação gastando pontos — deslocamento de acerto, de Defesa, Constituição, movimento —, **e a peça publica três invocações já montadas, uma por Trilha**, que servem de exemplo e de atalho.
+*Decisão do Mizuki.* O jogador constrói a invocação em **duas moedas separadas** — o arranjo de atributo da peça 2 e o orçamento de `Traço` e `Comando` desta peça —, **e a peça publica invocações já montadas**, que servem de exemplo e de atalho.
+
+> **⚠ Esta frase listava `deslocamento de acerto, de Defesa, Constituição, movimento` até a v0.181, e as quatro morreram na v0.180.** *Ela sobreviveu à reescrita da Q3 porque estava numa seção de argumento e não numa de regra — que é exatamente onde uma frase velha passa despercebida.* **O validador não alcançava:** *ele confere as montagens contra o catálogo, e esta linha não é montagem nem catálogo.*
 
 **A fila do `ESTADO-ATUAL` já pedia isso e ninguém tinha lido em voz alta:** ela não chama a peça de *"Invocações"*, chama de ***"Invocações — o sistema de criação"***. A peça estava escrita como máquina de construção desde a v0.36.
 
@@ -642,7 +644,7 @@ Com a vida em pool (Q2) e `h` em meia Rotina (Q3), **um efeito de área que caus
 
 ### "Invocações raramente passam de força de seus portadores" vira regra
 
-*Frase do Mizuki, e ela põe um teto no deslocamento fixo que a Q3 tinha deixado aberto para os dois lados. O teto natural é zero:*
+*Frase do Mizuki, e ela pôs um teto no deslocamento fixo que a Q3 tinha deixado aberto para os dois lados. O teto natural era zero — **e o mecanismo inteiro morreu na v0.180**, quando a ficha deixou de derivar; o que segue é o registro de por que ele existiu:*
 
 > **A invocação tem os cinco atributos, e eles são dela.**
 
@@ -662,7 +664,7 @@ Com a vida em pool (Q2) e `h` em meia Rotina (Q3), **um efeito de área que caus
 
 > **A devolução é `4` porque `4` é o que um ponto da escala velha virou** — o mesmo motivo pelo qual cada marco passou a dar `4`. *Ela ficou em `1` da v0.67 até a v0.68, e isso não foi decisão: a escala multiplicou o catálogo e o orçamento e passou por cima da venda.* **Com `1`, vender um ponto de acerto não comprava nem a entrada mais barata do catálogo** — a venda tinha perdido três quartos do poder de compra sem ninguém escolher isso.
 
-**Isso fecha três coisas de uma vez.** A frase do material vira regra em vez de orientação; **some a categoria de deslocamento positivo**, que era a mais difícil de precificar porque é a que empurra o acerto acima dos 50%; e o orçamento passa a comprar **só capacidade**, com a moeda extra vindo de abrir mão de número — que é a decisão que vale a pena existir.
+**Aquilo fechava três coisas de uma vez.** A frase do material virava regra em vez de orientação; **sumia a categoria de deslocamento positivo**, que era a mais difícil de precificar porque é a que empurra o acerto acima dos 50%; e o orçamento passa a comprar **só capacidade**, com a moeda extra vindo de abrir mão de número — que é a decisão que vale a pena existir.
 
 ### A amarra são 18 metros, e o número não é novo
 
@@ -768,7 +770,7 @@ E a cadência já existe: **os sete marcos**, que governam atributo, refino e fe
 | **maldição domada** | **3** | 7 | 23 | 39 | 63 |
 | *alvo — meia Rotina* | | *6,5* | *22,5* | *38,0* | *54,0* |
 
-**Só a base varia, e o por-nível é igual nos quatro. Isso é a mesma decisão do §3.3 sobre o acerto:** base diferente é **deslocamento fixo**, e deslocamento fixo não deriva. Por-nível diferente faria os quatro tipos **derivarem um do outro** ao longo da campanha, que é a coisa que a trava proíbe.
+**Só a base varia, e o por-nível é igual nos quatro. É a mesma forma que o §3.3 usa no acerto:** base diferente é **linha de partida**, e linha de partida não deriva. Por-nível diferente faria os quatro tipos **derivarem um do outro** ao longo da campanha, que é a coisa que a trava proíbe.
 
 **E o pool da Matilha continua na faixa que a Q4 mediu**, lido na mesma base do §3.4 e não numa base nova:
 
@@ -894,7 +896,7 @@ E a cadência já existe: **os sete marcos**, que governam atributo, refino e fe
 |---|---|---|
 | **dado de dano** | o teto de uma Rotina já governa a saída. Um `Traço` que dá `+1d6` não custa 3 pontos: ele não existe | peça 6 §4 |
 | **qualquer coisa que cresça com refino** | refino cresce `+7` a `+9` contra `+3`, e isso é 70% de acerto no nível 30 | peça 11 §2 |
-| **deslocamento positivo** | a invocação não passa do portador | §3.6 |
+| **atributo** | os cinco já saem do arranjo dela, e comprar de novo é pagar duas vezes | §3.6 |
 
 ### Os outros três tipos, e o que eles pediram de verdade
 
@@ -940,14 +942,35 @@ E uma que eu quase escrevi: um `Traço` de corpo duro, tipo *"ela aguenta mais p
 
 ### E montar os shikigami do material achou o buraco
 
-| shikigami | montagem | pontos | cabe no nível |
-|---|---|---|---|
-| Cão Divino | `Faro` | 5 | **2** |
-| **Nue** | `Voo` | 8 | **2** |
-| Elefante Máximo | `Jorro` | 8 | **2** |
-| Serpente | `Emboscada` + `Agarrar` | 12 | 6 |
-| Sapo | `Fisgada` + `Agarrar` | 12 | 6 |
-| Nue completo | `Voo` + `Montaria` | 16 | 10 |
+| shikigami | montagem | pontos | cabe no nível | arranjo `For · Des · Con · Int · Ess` |
+|---|---|---|---|---|
+| Cão Divino | `Faro` | 5 | **2** | `1 · 3 · 2 · 0 · 3` |
+| **Nue** | `Voo` | 8 | **2** | `1 · 3 · 2 · 1 · 2` |
+| Elefante Máximo | `Jorro` | 8 | **2** | `3 · 2 · 3 · 1 · 0` |
+| Serpente | `Emboscada` + `Agarrar` | 12 | 6 | `3 · 3 · 2 · 1 · 0` |
+| Sapo | `Fisgada` + `Agarrar` | 12 | 6 | `2 · 3 · 3 · 0 · 1` |
+| Nue completo | `Voo` + `Montaria` | 16 | 10 | `3 · 3 · 2 · 0 · 1` |
+
+**A coluna do arranjo entrou na v0.181, e o atributo principal de cada um sai da entrada que ele compra** — não de gosto. **Qual atributo cada entrada pede sai do §4 da peça 1**, e o mapa é este:
+
+| entrada | atributo que ela pede | por quê, na peça 1 §4 |
+|---|---|---|
+| `Faro` | **Essência** | ela rastreia por cheiro **e por energia**, e perceber energia é Essência |
+| `Voo` · `Emboscada` · `Fisgada` | **Destreza** | voar, sair de onde não se via e acertar à distância |
+| `Jorro` · `Agarrar` · `Montaria` | **Força** | empurrar, prender e carregar são os três verbos de Força |
+
+**O resto de cada linha é a ficção do bicho**, e é a parte que o Mizuki manda:
+
+| shikigami | por que o resto caiu assim |
+|---|---|
+| Cão Divino | cão de caça: sente e corre, e não segura nada. Força `1` |
+| Nue | criatura de vento, equilibrada — ela não é boa em nada além de estar no ar |
+| Elefante Máximo | massa. Força e Constituição no topo, e o `Jorro` empurra pelo tamanho |
+| Serpente | vem de baixo e prende: Força para segurar, Destreza para a emboscada |
+| Sapo | fica parado e alcança. Destreza na língua, Constituição para aguentar parado |
+| Nue completo | o mesmo Nue carregando gente — a Força sobe porque a `Montaria` cobra |
+
+*Os seis somam `9` e nenhum passa de `3`, e os seis são arranjos distintos: com seis montagens e seis arranjos legais, dois iguais seriam desperdício de exemplo.*
 
 **Três dos seis cabem no nível 2 e os outros chegam nos marcos** — que é a leitura certa do material, onde os shikigami aparecem ao longo da história em vez de todos de uma vez.
 
@@ -1040,8 +1063,8 @@ Rodada a triagem antes de escrever qualquer coisa:
 - **Triagem de todo nome** que a peça criar.
 - **A queda do dono** *(a 31, da v0.163)*: os dois estados de 0 de vida saem da peça 1 §5.5 e a seção tem de responder os dois; a recusa de a invocação agir sozinha se ancora no teto que a peça 6 §4 publica, e não numa frase escrita aqui; a vida cheia se mede contra a decisão da peça 10 §3 — *respiro não devolve vida* —, e não contra a palavra "descanso longo"; e o capítulo 60 do livro tem de publicar as quatro linhas, porque decisão escrita só na peça não chega ao jogador.
 - **Toda entrada do catálogo cai no degrau que a régua da criação manda** — `Traço` de 1 ponto só mexe na própria invocação, `Traço` de 2 encosta em outra criatura ou no tabuleiro; `Comando` de 1 age sobre um alvo, `Comando` de 2 protege ou nega. **Entrada publicada que desobedece à própria régua ensina a mesa a ignorá-la.**
-- **Nenhuma entrada, publicada ou criada, com dado de dano, com refino dentro, ou com deslocamento positivo.** As três são ilegais e não têm preço.
-- **Nenhum deslocamento positivo em linha nenhuma da ficha** — a invocação nunca passa do número do dono. Perturbar para `+1` tem de acender.
+- **Nenhuma entrada, publicada ou criada, com dado de dano, com refino dentro, ou vendendo atributo.** As três são ilegais e não têm preço.
+- **O arranjo de atributo lido da peça 2, e o teto de criação conferido contra o ritmo da maestria.** *Perturbar os nove pontos, o teto `3` ou o teto `6` — na peça 15 ou na peça 2 — tem de acender, e o contra-teste é o número de arranjos legais: com três atributos ele cai para um, e um arranjo não é escolha.*
 - **E o TAMANHO da devolução, que é a metade que a forma não mede.** *Acrescentada na v0.68, depois de a v0.67 multiplicar catálogo e orçamento por quatro e deixar a devolução em `1`, verde.* São duas afirmações separadas: **a regra aplicada** — a devolução tem de comprar pelo menos a entrada mais barata do catálogo, senão descer é castigo e não escolha — e **o limite de design** — ela bate com o passo do marco, porque as duas são *um ponto da escala velha*. **Perturbar só a segunda tem de acender só ela**, senão a checagem está medindo um eixo com o nome de dois.
 - **O orçamento por nível derivado dos marcos da peça 2, nunca lido de constante**, e a busca exaustiva sobre todas as montagens legais em cada degrau.
 - **E o resumo do topo desta peça é cópia do orçamento, então ele é comparado com a tabela dona** — base, passo e teto. *Acrescentado na v0.68: ele passou a v0.67 inteira publicando a escala velha e ninguém comparava as duas.* **Apagar a linha também tem de acender**, senão o conserto barato para uma divergência vira sumir com a cópia.

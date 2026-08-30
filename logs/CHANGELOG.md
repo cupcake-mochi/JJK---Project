@@ -8,6 +8,76 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.181] — 29/08/2026
+
+**A v0.180 acertou a regra e deixou o argumento inteiro falando do mecanismo que ela matou.** *Sete lugares vivos, num documento que o validador varre inteiro toda vez.*
+
+### 1 · O deslocamento sobreviveu em prosa, e o motivo é estrutural
+
+**Varredura nos três documentos vivos atrás do mecanismo morto: nove ocorrências, duas legítimas** — as citações históricas que a própria v0.180 escreveu para registrar a troca. **As outras sete estavam vivas:**
+
+| onde | o que ainda dizia |
+|---|---|
+| §1, o resumo do que está decidido | *"a parte que cresce, vinda do dono, mais um deslocamento fixo"* |
+| §3.3, a forma | *"o jogador constrói gastando pontos — deslocamento de acerto, de Defesa, Constituição, movimento"* |
+| §3.6, duas linhas de argumento | o teto do deslocamento e a categoria que sumia |
+| §3.6, tabela de ilegais | `deslocamento positivo · a invocação não passa do portador` |
+| §3.7 | *"base diferente é deslocamento fixo"* |
+| §5, dois itens da especificação | a perturbação `+1` que teria de acender |
+
+**E a checagem 7 exigia que a peça declarasse *"deslocamento positivo"* como ilegal** — ela cobrava a declaração de uma regra que não existe mais, e por isso o conserto do texto a fez falhar.
+
+> ***O padrão vale para além desta versão:*** *o validador confere **regra e tabela**, e o mecanismo morto sobreviveu exatamente onde ele não olha — resumo e argumento.* **Sete lugares, todos em prosa.** *A varredura que achou isso foi por expressão do mecanismo e não por seção, e ela é o que faltava depois de uma troca grande.*
+
+### 2 · As montagens publicadas estavam pela metade
+
+**Os seis shikigami traziam só compra de catálogo.** *Eles foram escritos quando a ficha era derivada e não havia arranjo nenhum a publicar.* **Com a ficha própria, uma montagem sem arranjo é meia montagem** — e a checagem 17 as conferia contra o orçamento sem notar que faltava metade.
+
+| shikigami | `For · Des · Con · Int · Ess` | de onde sai o principal |
+|---|---|---|
+| Cão Divino | `1 · 3 · 2 · 0 · 3` | `Faro` rastreia **por energia**, e isso é Essência |
+| Nue | `1 · 3 · 2 · 1 · 2` | `Voo` |
+| Elefante Máximo | `3 · 2 · 3 · 1 · 0` | `Jorro` empurra |
+| Serpente | `3 · 3 · 2 · 1 · 0` | `Agarrar` |
+| Sapo | `2 · 3 · 3 · 0 · 1` | `Fisgada` |
+| Nue completo | `3 · 3 · 2 · 0 · 1` | `Montaria` |
+
+**O atributo principal de cada um sai da entrada que ele compra; o resto é a ficção do bicho.** *Os seis somam `9`, nenhum passa de `3`, e os seis são arranjos distintos — com seis montagens e seis arranjos legais, repetir seria desperdiçar exemplo.*
+
+### 3 · O mapa entrada → atributo saiu de dentro do validador, e por um erro
+
+***O primeiro rascunho tinha esse mapa escrito no código, e ele estava errado:*** *eu classifiquei o `Jorro` como Destreza.* **A checagem acusou que o arranjo do Elefante Máximo não batia com ele — e o defeito era o mapa, não o arranjo:** *um jato de água que **empurra** é Força, que é onde a peça 1 §4 põe empurrar, prender e carregar.*
+
+**O mapa virou tabela na peça e o validador passou a lê-lo de lá.** *Valor dentro do validador é a coisa que este projeto proíbe desde a v0.33, e desta vez ele nem chegou a envelhecer: nasceu errado e a própria checagem o pegou na primeira rodada.*
+
+### 4 · E a dívida das três montagens por Trilha ganhou idade
+
+**A peça promete três invocações já montadas, uma por Trilha, desde a v0.53.** *A Q6 que as bloqueava fechou na v0.63.* **São 118 versões de promessa aberta, registradas como `aviso` que não falha o validador.**
+
+***Continua aviso, e por decisão:*** *escrever as três é escolha de sabor do Mizuki, não conserto.* **O que mudou é que o aviso passou a dizer há quanto tempo** — um aviso sem idade não cobra nada de ninguém.
+
+### Adicionado
+
+- **A coluna de arranjo nas seis montagens publicadas**, na peça 15 §3.7 e no capítulo 16 do livro.
+- **A tabela `entrada → atributo`** na peça, que o validador lê para conferir que o principal de cada montagem sai do que ela compra.
+- **Quatro sub-checagens na 17**: a soma, o teto, o principal, e os seis arranjos distintos. *Mais a comparação contra o livro.*
+
+### Alterado
+
+- **Sete trechos de argumento e resumo da peça 15**, que ainda descreviam o deslocamento.
+- **A checagem 7**, que cobrava a declaração de `deslocamento positivo` e passou a cobrar a de `atributo`, com o dono novo.
+- **O aviso da checagem 17**, que passou a datar a dívida.
+
+### Decidido
+
+- **Montagem publicada sem arranjo é meia montagem**, e a checagem 17 falha nela.
+- **O atributo principal de uma montagem sai da entrada que ela compra**, e o resto é ficção.
+- **As três montagens por Trilha continuam sendo promessa em aberto**, e o aviso agora diz desde quando.
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **A revisão textual da peça 15 fica para depois, pelo `METODO-passada-de-texto.md`** — decisão do Mizuki nesta versão: *"por enquanto foca nos ajustes, futuramente a gente faz a revisão textual seguindo a metodologia"*. *E seguem abertas as três montagens por Trilha e o `Casco` batizado duas vezes, da v0.164.*
+
+---
+
 ## [0.180] — 29/08/2026
 
 **A ficha da invocação deixou de copiar a do invocador.** ***Objeção do Mizuki, e ela reabriu a Q3 da peça 15:*** *"não faz sentido utilizar acerto, defesa e atributos do invocador — nada disso realmente é bom para a invocação, porque o invocador vai querer invocações que fazem o que ele não faça, e mesmo que façam, elas não vão ser iguais."*

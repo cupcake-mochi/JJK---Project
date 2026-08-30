@@ -233,14 +233,16 @@ Seis invocações conhecidas, montadas com os catálogos `Traço` e `Comando`.
 **Montagens de exemplo**
 {: .tab-titulo }
 
-| invocação | montagem | pontos | cabe no nível |
-|---|---|---|---|
-| *Cão Divino* | `Faro` | 5 | **2** |
-| *Nue* | `Voo` | 8 | **2** |
-| *Elefante Máximo* | `Jorro` | 8 | **2** |
-| *Serpente* | `Emboscada` + `Agarrar` | 12 | 6 |
-| *Sapo* | `Fisgada` + `Agarrar` | 12 | 6 |
-| *Nue* completo | `Voo` + `Montaria` | 16 | 10 |
+| invocação | montagem | pontos | cabe no nível | `For · Des · Con · Int · Ess` |
+|---|---|---|---|---|
+| *Cão Divino* | `Faro` | 5 | **2** | `1 · 3 · 2 · 0 · 3` |
+| *Nue* | `Voo` | 8 | **2** | `1 · 3 · 2 · 1 · 2` |
+| *Elefante Máximo* | `Jorro` | 8 | **2** | `3 · 2 · 3 · 1 · 0` |
+| *Serpente* | `Emboscada` + `Agarrar` | 12 | 6 | `3 · 3 · 2 · 1 · 0` |
+| *Sapo* | `Fisgada` + `Agarrar` | 12 | 6 | `2 · 3 · 3 · 0 · 1` |
+| *Nue* completo | `Voo` + `Montaria` | 16 | 10 | `3 · 3 · 2 · 0 · 1` |
+
+A última coluna é o arranjo de atributo de cada um, na ordem da sua própria ficha. **Você pode copiar como está ou trocar** — são os seus nove pontos, e o bicho é seu.
 
 > **Exemplo com a Trilha por cima.** A Mei escolhe a Trilha `Matilha` no nível 2, e é a Trilha que dá os cinco corpos dela: isso não custa nenhum ponto do orçamento. Com os `8` pontos que ela tem, ela compra `Miúdo` por `7`, e os cinco corpos passam por vãos que ninguém mais passa. Sobra `1` ponto, que não compra nada ainda e fica guardado até o nível 6.
 

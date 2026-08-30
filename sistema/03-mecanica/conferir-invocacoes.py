@@ -145,9 +145,14 @@ CORPOS_ESPERADOS = {'Servo': 1, 'Coro': 1, 'Matilha': 5}   # peca 6 SS4, so o fo
 OCUPADO_NA_TRIAGEM = {'Passiva', 'Natureza', 'Forma', 'Molde', 'Instinto',
                       'Enxame', 'Sombra', 'Provocar', 'Vinculo', 'Invocacao'}
 # As tres coisas que a criacao nao compra a preco nenhum (SS3.7), com o dono de cada.
+# v0.181: a terceira ilegalidade era 'deslocamento positivo', e ela morreu com o
+# deslocamento na v0.180. O que ficou no lugar e a mesma proibicao com o dono novo:
+# os cinco atributos saem do orcamento da peca 2, entao o catalogo desta peca nao
+# pode vende-los de novo. A forma do erro nao mudou — pagar duas vezes pela mesma
+# coisa —, so o nome de quem e' o dono do numero.
 ILEGAL_DONO = {'dado de dano': 'peca 6 SS4',
                'refino': 'peca 11 SS2',
-               'deslocamento positivo': 'SS3.6'}
+               'atributo': 'SS3.6'}
 CON_DA_TABELA = 0        # a tabela de vida do SS3.6 e impressa com Constituicao 0
 # A Q6 FECHOU NA v0.63, e por isso este conjunto esta VAZIO.
 # Ate a v0.62 ele carregava ('Matilha','Servo') e ('Coro','Servo') — as duas
@@ -640,7 +645,7 @@ for (camada, pts), d in sorted(REGUA.items()):
 # =============================================================================
 # 7. ILEGAIS
 # =============================================================================
-bloco('7. ILEGAIS — dado de dano, refino e deslocamento positivo nao tem preco')
+bloco('7. ILEGAIS — dado de dano, refino e venda de atributo nao tem preco')
 S_ILEGAL = trecho(S37, '### E três coisas que a criação', '### Os outros três tipos')
 for chave, dono in ILEGAL_DONO.items():
     if sem_acento(chave) not in sem_acento(S_ILEGAL):
@@ -659,13 +664,13 @@ for e in CATALOGO:
                         f'e {ILEGAL_DONO["refino"]} proibe')
         sujo += 1
     if re.search(r'\+\s*\d', texto):
-        erro('ILEGAIS', f'"{e["nome"]}" concede um valor positivo no texto — deslocamento '
-                        f'positivo e proibido por {ILEGAL_DONO["deslocamento positivo"]}')
+        erro('ILEGAIS', f'"{e["nome"]}" concede um valor positivo no texto — o catalogo '
+                        f'nao vende numero que ja tem dono ({ILEGAL_DONO["atributo"]})')
         sujo += 1
 print(f'  {len(CATALOGO)} entradas varridas, {sujo} com dado, refino ou valor positivo.')
 
 # =============================================================================
-# 8. DESLOCAMENTO — nada sobe acima do numero do dono
+# 8. ARRANJO — os atributos sao dela, no orcamento e no teto da peca 2
 # =============================================================================
 bloco('8. ARRANJO — os atributos sao dela, no orcamento e no teto da peca 2')
 # v0.180: esta checagem era a DESLOCAMENTO — "a invocacao comeca no numero do dono
@@ -1341,9 +1346,92 @@ for c in tab_inst:
     if cabe != nv_doc:
         erro('INSTANCIAS', f'{nome}: {pts} pontos cabem primeiro no nivel {cabe} pelo '
                            f'orcamento, e a tabela escreve {nv_doc:g}')
+# v0.181: as montagens ganharam ARRANJO de atributo, e ele e' instancia como o
+# resto — envelhece toda vez que a peca 2 mexe no orcamento. A tabela tem cinco
+# numeros por linha e a checagem confere os tres invariantes: a soma, o teto, e o
+# atributo principal batendo com a entrada que a montagem compra.
+# o mapa entrada->atributo NAO mora aqui: ele e' uma tabela da propria peca, logo
+# abaixo das montagens. Escrito no validador ele foi fonte de um erro na v0.181 —
+# eu mapeei `Jorro` como Destreza, e um jato que EMPURRA e' Forca; a checagem pegou
+# a divergencia e o defeito estava no mapa, nao no arranjo.
+_ORDEM_ATR = ['Força', 'Destreza', 'Constituição', 'Inteligência', 'Essência']
+_ATR_DA_ENTRADA = {}
+for _c in linhas_de_tabela(trecho(S37, '| entrada | atributo que ela pede |',
+                                  '**O resto de cada linha')):
+    if len(_c) < 2:
+        continue
+    _alvo = next((i for i, a in enumerate(_ORDEM_ATR)
+                  if sem_acento(a) in sem_acento(_c[1])), None)
+    if _alvo is None:
+        continue
+    for _e in re.findall(r'`([^`]+)`', _c[0]):
+        _ATR_DA_ENTRADA[limpo(_e)] = _alvo
+if not _ATR_DA_ENTRADA:
+    erro('INSTANCIAS', 'SS3.7: nao achei o mapa entrada->atributo — sem ele o "principal sai '
+                       'da entrada" vira afirmacao sem conferencia')
+_arr_ok = 0
+for c in tab_inst:
+    nome = limpo(c[0])
+    if len(c) < 5:
+        erro('INSTANCIAS', f'{nome}: a linha nao traz o arranjo de atributo — desde a '
+                           'v0.180 a ficha dela e propria, e uma montagem sem arranjo esta '
+                           'pela metade')
+        continue
+    _ns = [int(x) for x in re.findall(r'\d+', c[4])]
+    if len(_ns) != 5:
+        erro('INSTANCIAS', f'{nome}: li {len(_ns)} numeros no arranjo e esperava 5')
+        continue
+    if sum(_ns) != PONTOS_PJ:
+        erro('INSTANCIAS', f'{nome}: o arranjo soma {sum(_ns)} e a peca 2 da {PONTOS_PJ}')
+        continue
+    if max(_ns) > TETO_CRIACAO:
+        erro('INSTANCIAS', f'{nome}: o arranjo tem {max(_ns)} e o teto de criacao e '
+                           f'{TETO_CRIACAO}')
+        continue
+    partes = [limpo(x) for x in re.findall(r'`([^`]+)`', c[1])]
+    _idx = [_ATR_DA_ENTRADA[x] for x in partes if x in _ATR_DA_ENTRADA]
+    if _idx and max(_ns) != max(_ns[i] for i in _idx):
+        erro('INSTANCIAS', f'{nome}: o atributo mais alto do arranjo nao e nenhum dos que '
+                           'as entradas compradas pedem — o principal sai da entrada, e o '
+                           'resto e ficcao')
+        continue
+    _arr_ok += 1
+_vetores = [tuple(int(x) for x in re.findall(r'\d+', c[4])) for c in tab_inst if len(c) >= 5]
+if len(_vetores) != len(set(_vetores)):
+    erro('INSTANCIAS', 'duas montagens publicadas tem o mesmo arranjo — com seis exemplos e '
+                       'seis arranjos legais, repetir e desperdicar exemplo')
+if _arr_ok:
+    print(f'  [x] {_arr_ok} arranjo(s) conferido(s): somam {PONTOS_PJ}, teto {TETO_CRIACAO}, '
+          'principal saindo da entrada comprada, e todos distintos.')
+# e o LIVRO publica os mesmos arranjos — copia sem comparacao diverge (licao no 9)
+_c16i = os.path.join(AQUI, '..', '05-material', 'livro', 'manual', '60-invocacoes.md')
+_lvi = open(_c16i, encoding='utf-8').read() if os.path.isfile(_c16i) else ''
+if not _lvi:
+    erro('INSTANCIAS', 'nao achei o capitulo 16 do livro — as montagens tem duas '
+                       'publicacoes e so uma seria conferida')
+else:
+    _falta_arr = []
+    for c in tab_inst:
+        if len(c) < 5:
+            continue
+        _v = ' · '.join(re.findall(r'\d+', c[4]))
+        if _v.replace(' ', '') not in _lvi.replace(' ', ''):
+            _falta_arr.append(f'{limpo(c[0])} ({_v})')
+    if _falta_arr:
+        erro('INSTANCIAS', 'o capitulo 16 do livro nao publica o arranjo de: '
+                           + '; '.join(_falta_arr[:3]))
+    else:
+        print(f'  [x] o capitulo 16 publica os mesmos {len(tab_inst)} arranjos.')
+
+# A DIVIDA das tres montagens por Trilha: ela e' de v0.53, a Q6 que a bloqueava
+# fechou na v0.63, e ela ficou 118 versoes como aviso que nao falha. Continua
+# aviso por decisao — escrever tres montagens e' escolha de sabor do Mizuki, nao
+# conserto — mas o aviso passou a dizer HA QUANTO TEMPO, que e' o que faltava.
 if not re.search(r'três montagens prontas|três invocações já montadas', PECA):
-    aviso('a peca nao publica as tres montagens prontas por Trilha — elas dependem da Q6, '
-          'que e da peca de Trilhas. Quando entrarem, esta checagem passa a confere-las.')
+    aviso('a peca promete tres montagens prontas por Trilha desde a v0.53 e nao publica '
+          'nenhuma. A Q6 que as bloqueava fechou na v0.63 — sao 118 versoes de promessa '
+          'aberta, e este aviso nao falha o validador de proposito: escrever as tres e '
+          'escolha de sabor, e nao conserto.')
 
 # =============================================================================
 # 18. RITMO — nada cresce fora do +3
