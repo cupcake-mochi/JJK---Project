@@ -8,6 +8,76 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.183] — 30/08/2026
+
+**A v0.178 baixou a vida do corpo forte de `5 ×` para `2,5 ×` a fórmula, e a mudança chegou na regra e parou lá.** *O argumento da peça 15 seguiu publicando outros dois valores — o `3 ×`, que foi um degrau no meio daquela mesma versão e nunca foi decisão, e o `5h`, que era o de antes.* **A regra sempre esteve certa, e o livro também: nada na mesa de jogador estava errado.**
+
+### 1 · Três multiplicadores, no mesmo documento
+
+**A fórmula, a tabela de concessão e a tabela de vida publicada dizem `2,5 ×` e batem** — `15` no nível 2, `55` no 10, `155` no 30, com o validador calculando o pool em `1,25` Rotina. *Ao lado delas:*
+
+| onde | o que estava escrito | o que é |
+|---|---|---|
+| a tabela de rodadas de chefe | `18` · `66` · `186`, que é `3 × h` | `15` · `55` · `155` |
+| o ⚠ da área | corpo forte *"de `5 ×` para `3 ×`"*, pool `1,50` R | `2,5 ×`, pool `1,25` R |
+| o ⚠ da régua de morte | *"o corpo forte desceu para `3 ×`"* | `2,5 ×` |
+| o ⚠ do `Servo` | *"o `5h` fica"*, e *"um quinto"* da `Matilha` | o corpo forte, e **dois quintos** |
+| o fecho do `Coro` | *"a assimetria que o `5h` fecha"* | que o corpo forte fecha |
+
+*E o mesmo ⚠ da área dizia que o `×2` "continua sendo o escolhido" três linhas antes de contar que o escolhido foi o `×1,5`.* **Ele narrava os degraus da própria versão e abria com um deles como se fosse o resultado.**
+
+### 2 · A tabela de durabilidade estava pior que o multiplicador: ela misturava dois modelos
+
+**A linha do nível 2 dividia por `chefe × 0,5` e as outras duas por `chefe` cru.** *Nenhum leitor teria como saber, e nenhuma das duas metades reconstruía a outra.*
+
+**O modelo tem dono e está escrito na peça 14:** `vida ÷ (dano_chefe × 0,5)`, o chefe concentrando num alvo, com o número saindo da tabela de inimigo do manual pelo `conferir-atributos.py`. *Recomputada por ele, a tabela fica:*
+
+| nv | corpo cru | corpo forte | rodadas: cru · forte |
+|---|---|---|---|
+| 2 | 6 | **15** | 2,0 · 5,0 |
+| 10 | 22 | **55** | 1,7 · 4,2 |
+| 30 | 62 | **155** | 1,7 · 4,3 |
+
+**O argumento que ela sustenta não mudou** — o corpo forte dura `2,5 ×` o que o corpo cru dura, que é exatamente o multiplicador.
+
+### 3 · E a tabela de concessão dizia `2,5 ×` do próprio resultado
+
+**A célula escrevia *"`2,5 ×` o corpo forte"* quatro linhas acima da definição *"vida do corpo forte = `2,5 × (…)`"*.** *Lido ao pé da letra dá `6,25 h`.* **O número nunca esteve errado — o validador lê o dígito antes do `×` —, mas a palavra *corpo forte* fazia dois trabalhos em quatro linhas**, que é a lição nº 6 na forma de vocabulário. *A célula passou a dizer `2,5 ×` **a fórmula do tipo**.*
+
+### 4 · A checagem que faltava, e o contra-teste que consertou a primeira versão dela
+
+**A tabela de durabilidade é o único lugar da peça que mede quanto tempo um corpo fica de pé, e nada a conferia.** *Ela ficou três versões com as duas metades erradas porque o validador olhava fórmula e tabela de regra, e ela não é nem uma nem outra.*
+
+**A sub-checagem nova recomputa as três colunas de dono externo**, sem ler nada da própria tabela. *Seis perturbações acendem — cada célula, e o multiplicador da concessão.*
+
+> ***E o contra-teste derrubou a primeira versão dela.*** *Eu tinha fechado o recorte da tabela na frase `"*Decisão do Mizuki, e o argumento é dele"`, e trocar uma palavra daquela frase derrubava a checagem.* **Âncora de regra não pode morar em prosa** — o recorte passou a terminar onde as linhas de `|` terminam.
+
+### 5 · E o rodapé da dominância imprimia `5h` com o multiplicador em `2,5`
+
+***O rótulo estava escrito na mão dentro do `print`.*** *Ele dizia `5h` para qualquer multiplicador maior que `1` desde antes da v0.178 — então ele continuou dizendo `5h` durante as cinco versões em que o número era outro.* **Agora ele imprime o valor lido.**
+
+### Adicionado
+
+- **A sub-checagem `2.1`**, que recomputa a tabela de rodadas de chefe célula por célula. *Sub-bloco conta para o bloco pai, então continuam sendo trinta e duas checagens.*
+- **O leitor da tabela `CHEFE` do `conferir-atributos.py`**, no molde do que a peça já fazia com o `conferir-orcamento.py` — o número tem um dono e ele não é este arquivo.
+- **O item do §5 que especifica a sub-checagem nova.**
+
+### Alterado
+
+- **Cinco trechos de argumento da peça 15**, que publicavam `3 ×` ou `5h`.
+- **A célula da tabela de concessão**, que se media contra o próprio resultado.
+- **Sete trechos do `RASCUNHO-trilhas.md`**: a trava, a tabela, a concessão, o eixo de vida, e as duas menções soltas ao `5h`. *Ele ainda dizia que a régua de morte lê a vida máxima do corpo, que a v0.178 trocou por escala fixa.*
+- **O rótulo `5h` escrito na mão no rodapé da dominância.**
+
+### Decidido
+
+- **A tabela de rodadas de chefe é derivada, nunca publicada.** *As três colunas saem do §3.6, da tabela de concessão e do `conferir-atributos.py`.*
+- **Âncora de checagem não mora em prosa.** *Recorte de tabela termina onde a tabela termina.*
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **Seguem abertas as três montagens por Trilha**, o `Casco` batizado duas vezes desde a v0.164, e a vaga de `Desliga` do Corpo Amaldiçoado. *E o `±10%` do ponto de ficha continua sem checagem — ele é lido, impresso, e nunca comparado com nada.*
+
+---
+
 ## [0.182] — 30/08/2026
 
 **A peça 15 levou duas reescritas estruturais seguidas e ficou em camadas, e a passada de texto achou que o problema não era tamanho.** *Ela saiu de `18.998` para `18.407` palavras — `591` a menos, `3,1%`.* **O que estava errado não era o volume: eram doze lugares desatualizados** — *dez descrevendo o mecanismo que morreu na v0.180, um carregando um número de antes da v0.67, e um cobrando uma dívida que a v0.181 já tinha pago.*

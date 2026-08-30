@@ -132,6 +132,7 @@ P6 = ler('06-caminhos-e-trilhas.md')
 P11 = ler('11-aptidoes-e-refino.md')
 P14 = ler('14-equipamento.md')
 ORC = ler('conferir-orcamento.py')
+ATR = ler('conferir-atributos.py')
 
 # ---------------------------------------------------------------- LIMITES DE DESIGN
 # Declarados aqui, a parte da regra aplicada. Sao DECISOES REGISTRADAS, cada uma
@@ -277,6 +278,32 @@ MULT_FEITICO = int(m.group(1)) if m else None
 if not ESCADA_CLASSE or MULT_FEITICO is None:
     erro('SETUP', 'conferir-orcamento.py: nao achei a escada de Classe ou o custo do feitico')
 
+# --- conferir-atributos.py: o dano de chefe por rodada -----------------------
+# v0.183: a tabela de rodadas do SS3.7 compara durabilidade e NADA a conferia.
+# Ela passou tres versoes com a vida do corpo forte na escala velha (3x a formula,
+# um degrau do meio da v0.178 que nunca foi decisao) e, pior, com DOIS divisores
+# diferentes entre as linhas: a do nv2 dividia por `chefe x 0,5` e as outras duas
+# por `chefe` cru. O MODELO tem dono na peca 14 SS4 — "vida / (dano_chefe * 0,5)",
+# o chefe concentrando num alvo — e o NUMERO tem dono no conferir-atributos.py,
+# que o le da tabela de inimigo do manual. Nenhum dos dois mora aqui.
+_mc = re.search(r'^CHEFE = \{([^}]*)\}', ATR, re.M)
+CHEFE = ({int(a): int(b) for a, b in re.findall(r'(\d+):\s*(\d+)', _mc.group(1))}
+         if _mc else {})
+if len(CHEFE) < 5:
+    erro('SETUP', 'conferir-atributos.py: nao achei a tabela CHEFE de dano por rodada — '
+                  'sem ela a coluna de rodadas do SS3.7 nao tem contra o que ser medida')
+
+
+def dano_chefe(nv):
+    """Dano de chefe por rodada, interpolado. Espelha o conferir-atributos.py."""
+    ks = sorted(CHEFE)
+    if nv <= ks[0]:
+        return CHEFE[ks[0]] * nv / ks[0]
+    for a, b in zip(ks, ks[1:]):
+        if a <= nv <= b:
+            return CHEFE[a] + (CHEFE[b] - CHEFE[a]) * (nv - a) / (b - a)
+    return CHEFE[ks[-1]]
+
 
 def maior_classe(nv):
     for c, n in ESCADA_CLASSE:
@@ -421,7 +448,7 @@ for t in TRILHAS:
     print(f'  {t:<9} saida {perfil[t]["saida"]} Rotina · {perfil[t]["corpos"]} corpo(s) '
           f'· {"ataca e comanda" if perfil[t]["acao"] else "comanda, nao ataca"} '
           f'· orcamento {"x1,5" if perfil[t]["orc"] > 1 else "da ficha"} '
-          f'· vida {"5h" if perfil[t]["vida"] > 1 else "h"}')
+          f'· vida {perfil[t]["vida"]:g}h')
 EIXOS = ('saida', 'corpos', 'acao', 'orc', 'vida')
 achadas = set()
 for a in TRILHAS:
@@ -445,7 +472,7 @@ if not achadas and not DOMINANCIA_PENDENTE_Q6:
           'os dois pares que apontavam para o Servo.')
 
 # A VIDA NAO E EIXO DE DOMINANCIA, e por isso ela precisa de checagem propria.
-# Medido: so o orcamento ja zera a matriz, entao tirar o 5h do Servo sairia VERDE
+# Medido: so o orcamento ja zera a matriz, entao tirar o corpo forte do Servo sairia VERDE
 # aqui e desfaria em silencio a metade da Q6 que a matriz nao mede — a de "perder
 # o corpo acaba o kit". A regra do SS3.5 le a VIDA MAXIMA para decidir morte em
 # definitivo, e com h o gatilho do Servo era 1/5 do da Matilha para a MESMA Rotina
@@ -522,6 +549,61 @@ elif _MULT:
     if not _erra:
         print(f'  [x] a vida do corpo forte ({_MULT}x a formula) confere nas duas '
               f'publicacoes, nos tres tipos e nos quatro niveis.')
+
+    # -- 2.1: a tabela de RODADAS DE CHEFE do SS3.7, recomputada -------------
+    # Ela existe para mostrar que o corpo forte dura mais que o cru, e e' o unico
+    # lugar da peca que mede DURABILIDADE. Nada a conferia ate a v0.183, e ela
+    # tinha as duas metades erradas: a vida na escala velha e dois divisores
+    # diferentes entre as linhas. Aqui as tres colunas saem de dono externo — a
+    # base do tipo do SS3.6, o multiplicador da tabela de concessao, e o dano de
+    # chefe do conferir-atributos.py. Nenhuma e' lida da propria tabela.
+    # A tabela termina onde as linhas de `|` terminam, e NAO numa frase de prosa.
+    # A primeira versao desta checagem fechava o recorte em "*Decisao do Mizuki, e
+    # o argumento e dele" — e o contra-teste do arnes pegou: trocar uma palavra
+    # daquela frase derrubava a checagem. Ancora de regra nao pode morar em prosa.
+    _rl, _ini = S37.split('\n'), None
+    for _k, _ln in enumerate(_rl):
+        if _ln.startswith('| nv | corpo do `Coro`'):
+            _ini = _k
+            break
+    _rod = []
+    if _ini is not None:
+        for _ln in _rl[_ini + 1:]:
+            if not _ln.lstrip().startswith('|'):
+                break
+            _c = [x.strip() for x in _ln.strip().strip('|').split('|')]
+            if len(_c) >= 4 and re.fullmatch(r'\d+', limpo(_c[0])):
+                _rod.append(_c)
+    if not _rod:
+        erro('DOMINANCIA', 'SS3.7: nao achei a tabela de rodadas de chefe — ela e o unico '
+                           'lugar da peca que mede durabilidade do corpo forte')
+    elif CHEFE:
+        _rerra = []
+        for _c in _rod:
+            _nv = int(limpo(_c[0]))
+            _hl, _fl = num(_c[1]), num(_c[2])
+            _rs = [float(x.replace(',', '.')) for x in re.findall(r'\d+,\d+', _c[3])]
+            _b = _BASES['tecnica']
+            if _hl is None or _fl is None or len(_rs) != 2:
+                _rerra.append(f'nv{_nv}: nao consegui ler a linha inteira')
+                continue
+            _h, _d = _b + 2 * _nv, dano_chefe(_nv) * 0.5
+            if _hl != _h:
+                _rerra.append(f'nv{_nv}: a coluna do corpo cru escreve {_hl:g} e a formula '
+                              f'do SS3.6 da {_h}')
+            if _fl != _forte(_b, _nv):
+                _rerra.append(f'nv{_nv}: o corpo forte escreve {_fl:g} e {_MULT}x a formula '
+                              f'da {_forte(_b, _nv)}')
+            for _rot, _vida, _lido in (('cru', _h, _rs[0]), ('forte', _forte(_b, _nv), _rs[1])):
+                if abs(_vida / _d - _lido) > 0.05:
+                    _rerra.append(f'nv{_nv}, corpo {_rot}: escreve {_lido:g} rodada(s) e '
+                                  f'{_vida} / ({dano_chefe(_nv):g} x 0,5) da {_vida / _d:.1f} '
+                                  '— o modelo e o da peca 14 SS4')
+        for _m in _rerra[:4]:
+            erro('DOMINANCIA', _m)
+        if not _rerra:
+            print(f'  [x] as {len(_rod)} linhas de rodadas-de-chefe recomputam: vida do SS3.6, '
+                  f'{_MULT}x da concessao, e o chefe do conferir-atributos.py.')
 
 alvos = {b for _, b in achadas & DOMINANCIA_PENDENTE_Q6}
 if len(alvos) == 1:

@@ -537,7 +537,7 @@ Com a vida em pool (Q2) e `h` em meia Rotina (Q3), **um efeito de área que caus
 
 **O `×1,5` tira `3,0` dos cinco corpos com um feitiço de área de rotina.** Continua sendo a jogada certa contra a Matilha — contra golpe único o mesmo feitiço tiraria dois corpos, então a área vale metade a mais. ***Escolha do Mizuki na v0.178:*** *"que tal mudar a questão da Matilha ter vulnerabilidade e passar a ser um aumento de 50% em vez de 100%?"*
 
-> **⚠ Eram `2,0` corpos até a v0.178, e o número subiu porque o pool desceu.** *A vida do corpo forte foi de `5 ×` para `3 ×` a fórmula para tirar a Constituição de dentro do multiplicador, e o pool caiu de `2,50` para `1,50` Rotina junto.* **O `×2` foi remedido contra os três degraus e continua sendo o escolhido**, mas a margem encolheu: o `×3` agora apaga a Matilha inteira, e antes ele deixava dois corpos de pé. *O `2,5 ×` chegou a ser recusado numa rodada anterior desta mesma versão, quando a vulnerabilidade ainda era `×2` e ele derrubava `4,0` dos cinco; **baixar a vulnerabilidade para `×1,5` na mesma leva devolveu a margem**, e o par acabou melhor que o `3 ×` com `×2` nas duas colunas.*
+> **⚠ Eram `2,0` corpos até a v0.178, e o número subiu porque o pool desceu.** *A vida do corpo forte foi de `5 ×` para `2,5 ×` a fórmula, para tirar a Constituição de dentro do multiplicador, e o pool caiu de `2,50` para `1,25` Rotina junto.* **O `×1,5` é o escolhido, e ele foi remedido contra os três degraus com o pool novo**, mas a margem encolheu: o `×3` agora apaga a Matilha inteira, e antes ele deixava dois corpos de pé. *O `2,5 ×` chegou a ser recusado numa rodada anterior desta mesma versão, quando a vulnerabilidade ainda era `×2` e ele derrubava `4,0` dos cinco; **baixar a vulnerabilidade para `×1,5` na mesma leva devolveu a margem**, e o par acabou melhor que o `3 ×` com `×2` nas duas colunas.*
 
 **Contra-teste — a área grande ainda resolve?**
 
@@ -567,7 +567,7 @@ Com a vida em pool (Q2) e `h` em meia Rotina (Q3), **um efeito de área que caus
 
 **Nenhum golpe de rotina mata em definitivo.** Precisa de área grande ou de Expansão — *que são exatamente as coisas que na obra destroem shikigami de vez.* **A régua dispara onde a ficção dispara, e ninguém escreveu isso à mão: caiu dos dois números.**
 
-> **⚠ A régua era a vida máxima DAQUELE corpo até a v0.178, e por isso ela encolhia junto com o corpo.** *Quando ela entrou, o `Servo` e a `Matilha` não sentiram: a vida máxima deles era exatamente `5 ×` a fórmula, que é a escala em que esta tabela sempre foi medida. **Na mesma versão o corpo forte desceu para `3 ×`, e aí a régua deixou de ser a vida máxima de alguém** — ela virou uma escala fixa, que é o que ela precisava ser desde sempre.* **Quem estava quebrado era o `Coro`:** o corpo dele vale `h`, então a régua dele valia `0,50 R` — e o golpe único de inimigo, que vale `0,50 R`, causava a vida máxima inteira. *As três primeiras linhas desta tabela matavam o corpo do `Coro` em definitivo, e a frase logo acima era verdadeira para `2,50 R` e falsa para `0,50 R`.*
+> **⚠ A régua era a vida máxima DAQUELE corpo até a v0.178, e por isso ela encolhia junto com o corpo.** *Quando ela entrou, o `Servo` e a `Matilha` não sentiram: a vida máxima deles era exatamente `5 ×` a fórmula, que é a escala em que esta tabela sempre foi medida. **Na mesma versão o corpo forte desceu para `2,5 ×`, e aí a régua deixou de ser a vida máxima de alguém** — ela virou uma escala fixa, que é o que ela precisava ser desde sempre.* **Quem estava quebrado era o `Coro`:** o corpo dele vale `h`, então a régua dele valia `0,50 R` — e o golpe único de inimigo, que vale `0,50 R`, causava a vida máxima inteira. *As três primeiras linhas desta tabela matavam o corpo do `Coro` em definitivo, e a frase logo acima era verdadeira para `2,50 R` e falsa para `0,50 R`.*
 >
 > **É o achado da v0.63 de novo, na Trilha que ficou de fora dele.** *Lá o argumento foi escrito assim: "com `h` a vida máxima do `Servo` era um quinto da da `Matilha`, para a mesma Rotina entregue — pela regra de morte do §3.5 o `Servo` sai da luta por um golpe."* **O conserto de lá foi subir o corpo, e o de cá foi tirar a régua do corpo**, porque o `h` do `Coro` é a troca dele — ele é o único que ataca e comanda — e subir a vida apagaria a troca junto.
 >
@@ -739,7 +739,7 @@ E a cadência já existe: **os sete marcos**, que governam atributo, refino e fe
 
 *Fechada na v0.57, e o termo estava vazio desde que a Q3 fechou — uma fórmula com termo vazio parece pronta e não é.*
 
-**O alvo não era livre:** a Q2 fixou um corpo em **meia Rotina** e a Q5 fixou o pool da Matilha em `5h`. Resolvendo os dois pontos ancorados — `h(2) = 6,5` e `h(30) = 54` — sai `por nível ≈ 1,7` e `base ≈ 3,1`. **Arredondando para número de mesa: base 2, por nível 2.**
+**O alvo não era livre:** a Q2 fixou um corpo em **meia Rotina**, e a Q5 fixava então o pool da Matilha em `5h` — hoje ele é `2,5h`, e a mudança não move esta derivação, que sai da meia Rotina. Resolvendo os dois pontos ancorados — `h(2) = 6,5` e `h(30) = 54` — sai `por nível ≈ 1,7` e `base ≈ 3,1`. **Arredondando para número de mesa: base 2, por nível 2.**
 
 > **O `h(30)` desta linha era `63` até a v0.60, e o número vinha de a peça 6 §3 estar lendo a coluna errada do manual.** Com a coluna `Rotina` de verdade, o alvo do nível 30 é `54`. **A fórmula não se moveu, e o motivo é a forma do alvo:** a Rotina é **escada por Classe**, não reta, e uma reta ajustada a uma escada passa por baixo no pé de cada degrau e por cima no topo. O `+15%` do nível 30 é o topo do degrau `26–30`, que é o **mais largo da tabela** — e ele é menor que o `+16%` do nível 8 e do nível 12, que esta peça já aceitava calada. *O ajuste sempre foi contra uma escada; o que estava errado era o último degrau dela.*
 
@@ -974,8 +974,8 @@ E uma que eu quase escrevi: um `Traço` de corpo duro, tipo *"ela aguenta mais p
 
 | Trilha | o que ela concede | orçamento do corpo | vida do corpo |
 |---|---|---|---|
-| **`Servo`** | um corpo forte | **o da ficha mais metade**, arredondando para baixo | **`2,5 ×` o corpo forte** |
-| **`Matilha`** | os cinco corpos | o da ficha | `2,5 ×` o corpo forte, em pool com cascata |
+| **`Servo`** | um corpo forte | **o da ficha mais metade**, arredondando para baixo | **`2,5 ×` a fórmula do tipo** |
+| **`Matilha`** | os cinco corpos | o da ficha | `2,5 ×` a fórmula do tipo, em pool com cascata |
 | **`Coro`** | atacar e comandar na mesma rodada | o da ficha | `h`, a fórmula crua |
 
 > **`vida do corpo forte = 2,5 × (base do tipo + 2 × nível) + Constituição × nível`**, arredondando para baixo
@@ -996,13 +996,13 @@ E uma que eu quase escrevi: um `Traço` de corpo duro, tipo *"ela aguenta mais p
 
 | nv | corpo do `Coro` (`h`) | corpo forte, `Servo` e `Matilha` | rodadas de chefe concentrando |
 |---|---|---|---|
-| 2 | 6 | 18 | `Coro` 0,8 · corpo forte 2,4 |
-| 10 | 22 | 66 | 0,8 · 2,5 |
-| 30 | 62 | 186 | 0,9 · 2,6 |
+| 2 | 6 | 15 | `Coro` 2,0 · corpo forte 5,0 |
+| 10 | 22 | 55 | 1,7 · 4,2 |
+| 30 | 62 | 155 | 1,7 · 4,3 |
 
 *Decisão do Mizuki, e o argumento é dele:* ***"normalmente é a única invocação da pessoa, então ela tem de ser o equivalente de todas as outras, mas não passar muito delas — e ao perder a invocação principal, acabou o kit."*** **Com o mesmo corpo forte nos dois, eles saem da luta pelo mesmo golpe**, e apagar o `Servo` custa a mesma área por alvo que o §3.5 mede para apagar a `Matilha` — `0,83` Rotina desde a v0.178, e `1,25` antes dela. *Nenhuma exceção nova: a regra de morte continuou valendo palavra por palavra, e o que mudou foi o número que ela lê.*
 
-> **⚠ A v0.178 tirou a régua da morte de dentro do corpo, então este argumento parou de sustentar o `5h` sozinho — e o `5h` fica.** *O que ele sustenta hoje é a outra metade, que a matriz de dominância não mede: o `Servo` é a Trilha de **um corpo só**, e com `h` ele iria a zero levando um quinto do dano que derruba a `Matilha`, entregando a mesma Rotina.* **Cair não é morrer, e mesmo assim custa a Trilha inteira por uma rodada, mais PE, mais o corpo voltando com metade da vida.** *A coluna de rodadas de chefe acima continua sendo a medida certa disso; o que mudou é o nome do que ela mede.*
+> **⚠ A v0.178 tirou a régua da morte de dentro do corpo, então este argumento parou de sustentar o corpo forte sozinho — e o corpo forte fica.** *O que ele sustenta hoje é a outra metade, que a matriz de dominância não mede: o `Servo` é a Trilha de **um corpo só**, e com `h` ele iria a zero levando dois quintos do dano que derruba a `Matilha`, entregando a mesma Rotina.* **Cair não é morrer, e mesmo assim custa a Trilha inteira por uma rodada, mais PE, mais o corpo voltando com metade da vida.** *A coluna de rodadas de chefe acima continua sendo a medida certa disso; o que mudou é o nome do que ela mede.*
 
 **E o orçamento é onde o `Servo` fica na frente**, que é o eixo que mata as duas dominâncias:
 
@@ -1017,7 +1017,7 @@ E uma que eu quase escrevi: um `Traço` de corpo duro, tipo *"ela aguenta mais p
 
 > **O arredondamento continua sendo o da peça 1 §5.4 — ganho desce —, e na escala nova ele não tem o que raspar.** Todo orçamento é múltiplo de `4`, então `mais metade` sempre fecha redondo. *Na escala velha ele mordia nos níveis 6, 14, 22 e 30, e ali o `Servo` levava meio ponto a menos; com a moeda quebrada em quatro esse meio ponto passou a caber, e no nível 30 ele vale `2` pontos.* **É a mesma paridade que a v0.67 registrou na busca exaustiva, aparecendo do outro lado:** a moeda fina fecha conta que a grossa arredondava. *A regra não mudou; o que mudou foi ela deixar de morder aqui.*
 
-> **O `Coro` fica com `h`, e isso é a troca dele escrita.** Ele é o único dos três que **ataca e comanda**, e é o único cujo corpo cair não acaba o kit — o dono continua batendo. *Perder o corpo do `Coro` custa metade da Rotina; perder o do `Servo` custava a Trilha inteira, e é essa assimetria que o `5h` fecha.*
+> **O `Coro` fica com `h`, e isso é a troca dele escrita.** Ele é o único dos três que **ataca e comanda**, e é o único cujo corpo cair não acaba o kit — o dono continua batendo. *Perder o corpo do `Coro` custa metade da Rotina; perder o do `Servo` custava a Trilha inteira, e é essa assimetria que o corpo forte fecha.*
 
 ## 4. O nome da peça precisa de triagem, e o óbvio está ocupado
 
@@ -1042,6 +1042,7 @@ Rodada a triagem antes de escrever qualquer coisa:
 
 - **O teto da Rotina somada**, derivado da peça 6 §4 e nunca lido de constante — a lição nº 8 na forma que já apareceu três vezes.
 - **Dominância entre as três Trilhas**, com a matriz rodando por quantidade de corpos.
+- **E a tabela de rodadas de chefe recomputada, célula por célula**, porque ela é o único lugar da peça que mede **durabilidade** e ela não tinha ninguém em cima. *As três colunas saem de dono externo: a base do tipo do §3.6, o multiplicador da tabela de concessão, e o dano de chefe do `conferir-atributos.py`, com o modelo da peça 14 — `vida ÷ (dano_chefe × 0,5)`.* **Perturbar qualquer célula, ou o multiplicador, tem de acender** — e o contra-teste é reescrever a prosa em volta sem a checagem se mexer, porque âncora de regra não pode morar em frase.
 - **O somatório**, contra o `conferir-orcamento.py`: invocar não pode caber junto com conjurar e levar dano de alma se o bolso não fechar.
 - **Tempo de mesa**, se a Q2 fechar em cinco fichas — e essa não é checagem de código, é pergunta de playtest com número esperado escrito antes da sessão.
 - **Triagem de todo nome** que a peça criar.

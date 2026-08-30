@@ -632,28 +632,28 @@ A fatia da Q3 é `1,27` **ponto de dano por rodada**. O ponto de orçamento de i
 
 > *"Normalmente é a única invocação da pessoa, então ela tem de ser o equivalente de todas as outras, **mas não passar muito delas**. Por ser o mais simples, ela não pode dar um ganho maior que os outros — um exige capturar muitas invocações para valer a pena e o outro exige ir para o combate corporal. Mas ao mesmo tempo ele não pode ser muito abaixo, **já que ao perder a invocação principal, acabou o kit da pessoa**."*
 
-**A trava do fim tem tamanho, e ele é `5×`.** A regra de morte da peça 15 §3.5 lê a **vida máxima** para decidir morte em definitivo — e com `h` a do `Servo` era um quinto da da `Matilha`, para a **mesma Rotina entregue**:
+**A trava do fim tem tamanho, e ele é `2,5×`.** *Até a v0.178 a regra de morte da peça 15 §3.5 lia a **vida máxima** para decidir morte em definitivo, e era ela que dava tamanho à trava; hoje a régua é escala fixa, e o que sustenta o corpo forte é durabilidade* — com `h` o `Servo` iria a zero levando **dois quintos** do dano que derruba a `Matilha`, para a **mesma Rotina entregue**:
 
-| nv | vida do corpo (`h`) | pool da `Matilha` (`5h`) | rodadas de chefe concentrando |
+| nv | vida do corpo (`h`) | corpo forte, `Servo` e `Matilha` | rodadas de chefe concentrando |
 |---|---|---|---|
-| 2 | 6 | 30 | `Servo` **0,8** · `Matilha` 4,0 |
-| 10 | 22 | 110 | 1,7 · 8,5 |
-| 30 | 62 | 310 | 1,7 · 8,6 |
+| 2 | 6 | 15 | corpo cru **2,0** · corpo forte 5,0 |
+| 10 | 22 | 55 | 1,7 · 4,2 |
+| 30 | 62 | 155 | 1,7 · 4,3 |
 
-> **A concessão, fechada:** o corpo do `Servo` tem **`5 × h`** — o pool inteiro da `Matilha` num corpo só — e **o orçamento da ficha mais metade**, arredondando para baixo.
+> **A concessão, fechada:** o corpo do `Servo` tem **`2,5 × h`** — o pool inteiro da `Matilha` num corpo só — e **o orçamento da ficha mais metade**, arredondando para baixo.
 
 **A vida iguala e o orçamento diferencia**, e os dois papéis são diferentes de propósito:
 
 | | por que este eixo |
 |---|---|
-| **vida `5h`** | fecha a trava do *"acabou o kit"*. Os dois passam a sair da luta pelo mesmo golpe, e apagar o `Servo` custa as mesmas `1,25` Rotina de área por alvo que apagar a `Matilha`. **Nenhuma exceção nova** — a regra do §3.5 continua valendo palavra por palavra |
+| **vida `2,5h`** | fecha a trava do *"acabou o kit"*. Os dois passam a sair da luta pelo mesmo golpe, e apagar o `Servo` custa as mesmas `0,83` Rotina de área por alvo que apagar a `Matilha`. **Nenhuma exceção nova** — a regra do §3.5 continua valendo palavra por palavra |
 | **orçamento `×1,5`** | é onde o `Servo` fica **na frente**, e é o eixo que mata as duas dominâncias. `8→12` no nv2, `36→54` no nv30 — 48% do que compraria o catálogo inteiro. *Os números são da escala da v0.67; eram `2→3` e `9→13` quando esta seção foi escrita* |
 
 **E o *"não passar muito delas"* está medido:** a `Matilha` compra `9` no nv30 e **aplica os nove cinco vezes**, um por corpo. Em largura de utilidade ela continua na frente; o que o `Servo` compra é profundidade num corpo só.
 
 *O `Coro` fica com `h`, e isso é a troca dele escrita:* ele é o único que **ataca e comanda**, e o único cujo corpo cair não acaba o kit — o dono continua batendo.
 
-> **E a vida não entra por dominância, o que é o motivo de ela ter checagem própria.** Medido: **só o orçamento já zera a matriz.** Tirar o `5h` sairia **verde** na matriz e desfaria em silêncio a metade da Q6 que a matriz não mede. O `conferir-invocacoes.py` passou a conferir os dois separados, e o `DOMINANCIA_PENDENTE_Q6` foi a **conjunto vazio**.
+> **E a vida não entra por dominância, o que é o motivo de ela ter checagem própria.** Medido: **só o orçamento já zera a matriz.** Tirar o corpo forte sairia **verde** na matriz e desfaria em silêncio a metade da Q6 que a matriz não mede. O `conferir-invocacoes.py` passou a conferir os dois separados, e o `DOMINANCIA_PENDENTE_Q6` foi a **conjunto vazio**.
 
 ### 6.4 O formato das doze entradas, e as travas que a matriz achou — v0.66
 
@@ -667,7 +667,7 @@ A fatia da Q3 é `1,27` **ponto de dano por rodada**. O ponto de orçamento de i
 
 **Um permanente sozinho já zera a rodada morta**, e é essa a fronteira que separa as três de qualquer coisa pior: a pior sequência legal, `1 · 1 · 1 · 2`, deixa a Trilha sem fazer nada em **37% das rodadas**.
 
-**O `Servo` é sempre-ligado porque a Q6 já tinha decidido isso com outro nome.** A vida de `5h` existe para o corpo não cair; pôr variância de formato em cima de um corpo só recria pelo formato o *"acabou o kit"* que aquela decisão saiu para fechar.
+**O `Servo` é sempre-ligado porque a Q6 já tinha decidido isso com outro nome.** A vida do corpo forte existe para o corpo não cair; pôr variância de formato em cima de um corpo só recria pelo formato o *"acabou o kit"* que aquela decisão saiu para fechar.
 
 **A `Matilha` fica no meio porque a variância dela já mora nos cinco corpos.** Ela aplica o orçamento cinco vezes e escolhe qual corpo faz o quê. Empilhar variância de formato em cima disso conta a mesma coisa duas vezes — lição nº 2, no lugar em que ela mais reincide.
 
