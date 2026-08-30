@@ -125,6 +125,7 @@ def trecho(txt, ini, fim=None, nome=''):
 
 PECA = ler('15-invocacoes.md')
 P1 = ler('01-atributos-acerto-defesa.md')
+_POREXTENSO = {6: 'Seis', 7: 'Sete', 8: 'Oito', 9: 'Nove', 10: 'Dez'}
 P2 = ler('02-economia-de-atributos.md')
 P3 = ler('03-economia-de-acao-e-iniciativa.md')
 P6 = ler('06-caminhos-e-trilhas.md')
@@ -666,72 +667,108 @@ print(f'  {len(CATALOGO)} entradas varridas, {sujo} com dado, refino ou valor po
 # =============================================================================
 # 8. DESLOCAMENTO — nada sobe acima do numero do dono
 # =============================================================================
-bloco('8. DESLOCAMENTO — a invocacao comeca no numero do dono e so pode descer')
-S_DESL = trecho(S36, '### "Invocações raramente passam', '### A amarra')
-tab = [c for c in linhas_de_tabela(S_DESL) if len(c) >= 3]
-achou_proibido, subiu = False, []
-for c in tab:
-    faz, custa = limpo(c[0]), limpo(c[1])
-    if re.search(r'^\+\s*\d', faz.replace('**', '')):
-        achou_proibido = True
-        if 'proibido' not in sem_acento(custa):
-            erro('DESLOCAMENTO', f'a linha "{faz}" nao esta marcada como proibida — '
-                                 'a invocacao passaria do portador')
-    if re.match(r'^-|^−', faz) and 'devolve' not in sem_acento(custa):
-        subiu.append(faz)
-if not achou_proibido:
-    erro('DESLOCAMENTO', 'SS3.6: a tabela nao tem a linha do deslocamento POSITIVO marcada '
-                         'como proibida — sem ela a regra vira orientacao')
-for f in subiu:
-    erro('DESLOCAMENTO', f'a linha "{f}" desce e nao devolve ponto — descer sem devolver '
-                         'nao e escolha, e castigo')
-m = re.search(r'\*\*A invocação começa no número do dono e só pode descer\.\*\*', S36)
-if not m:
-    erro('DESLOCAMENTO', 'SS3.6: a regra "comeca no numero do dono e so pode descer" nao '
-                         'esta escrita como regra')
-# --- o TAMANHO da devolucao, que ate a v0.68 ninguem media -------------------
-# A checagem acima confere a FORMA da venda (descer devolve, subir e proibido).
-# Ela sai verde com qualquer numero, e foi por isso que a v0.67 multiplicou o
-# catalogo e o orcamento por quatro e deixou a devolucao em 1 sem ninguem ver.
-dev = None
-for c in tab:
-    m_d = re.search(r'devolve\s*(\d+)', limpo(c[1]))
-    if not m_d:
-        continue
-    v = int(m_d.group(1))
-    if dev is None:
-        dev = v
-    elif dev != v:
-        erro('DESLOCAMENTO', f'as linhas de venda devolvem valores diferentes ({dev} e '
-                             f'{v}) — acerto e Defesa se vendem pelo mesmo preco')
-if dev is None:
-    erro('DESLOCAMENTO', 'SS3.6: nao achei quanto a venda devolve — sem isso o tamanho '
-                         'dela nao tem contra o que ser medido')
+bloco('8. ARRANJO — os atributos sao dela, no orcamento e no teto da peca 2')
+# v0.180: esta checagem era a DESLOCAMENTO — "a invocacao comeca no numero do dono
+# e so pode descer" — e ela policiava a venda de acerto e Defesa por 4 pontos. O
+# mecanismo inteiro morreu quando a ficha deixou de derivar: vender o numero do
+# dono nao faz sentido quando o numero nao e' dele. O que ficou no lugar e' a
+# mesma pergunta com outro alvo: o orcamento de atributo dela sai da PECA 2, e o
+# teto de criacao e' o que impede o acerto dela de derivar.
+P2 = ler('02-economia-de-atributos.md')
+m_pts = re.search(r'\*\*(\w+) pontos entre os cinco atributos\. Nenhum acima de (\d+)\.\*\*', P2)
+_ESC = {'Nove': 9, 'Oito': 8, 'Dez': 10, 'Seis': 6, 'Sete': 7}
+PONTOS_PJ = _ESC.get(m_pts.group(1)) if m_pts else None
+TETO_CRIACAO = int(m_pts.group(2)) if m_pts else None
+m_teto = re.search(r'\*\*Teto do atributo: (\d+)\.\*\*', P2)
+TETO_ATR = int(m_teto.group(1)) if m_teto else None
+if not (PONTOS_PJ and TETO_CRIACAO and TETO_ATR):
+    erro('ARRANJO', f'peca 2: nao li o orcamento de atributo ({PONTOS_PJ} pontos, teto de '
+                    f'criacao {TETO_CRIACAO}, teto {TETO_ATR}) — sem eles o arranjo da '
+                    'invocacao nao tem contra o que ser conferido')
 else:
-    # A REGRA APLICADA: vender tem de comprar alguma coisa.
-    barato = min(e['pts'] for e in COMPRAVEIS)
-    if dev < barato:
-        erro('DESLOCAMENTO', f'a venda devolve {dev} e a entrada mais barata do catalogo '
-                             f'custa {barato} — sozinha ela nao compra nada. Descer sem '
-                             'poder comprar e castigo, nao escolha')
-    # O LIMITE DE DESIGN, separado da regra e lido do dono: a devolucao e um ponto
-    # da escala velha, que e a mesma coisa que o marco passou a dar.
-    m_p = re.search(r'\*\*Cada marco dá `(\d+)` pontos', S36)
-    if not m_p:
-        erro('DESLOCAMENTO', 'SS3.6: nao achei quanto cada marco da, e sem isso a '
-                             'devolucao viraria constante escrita neste arquivo')
-    elif dev != int(m_p.group(1)):
-        erro('DESLOCAMENTO', f'a venda devolve {dev} e cada marco da {m_p.group(1)} — os '
-                             'dois SAO um ponto da escala velha e andam juntos. Separar '
-                             'os dois e decisao a escrever, nao numero a ajustar')
+    print(f'  peca 2 e dona: {PONTOS_PJ} pontos, teto {TETO_CRIACAO} na criacao, '
+          f'teto {TETO_ATR} no total.')
+    m_inv = re.search(r'\*\*(\d+) pontos na criação\*\*, teto `(\d+)`', S36)
+    m_mar = re.search(r'\*\*`\+(\d+)` por marco\*\*, teto `(\d+)`', S36)
+    if not m_inv or not m_mar:
+        erro('ARRANJO', 'SS3.6: nao achei o orcamento de atributo da invocacao escrito '
+                        'como regra (pontos na criacao e ganho por marco)')
     else:
-        print(f'  a venda devolve {dev}: compra a entrada mais barata ({barato}) e bate '
-              f'com o passo do marco.')
-print(f'  {len(tab)} linha(s) de deslocamento, com a positiva declarada proibida.')
+        p_inv, t_inv = int(m_inv.group(1)), int(m_inv.group(2))
+        t_max = int(m_mar.group(2))
+        for nome, dela, dono in (('os pontos da criacao', p_inv, PONTOS_PJ),
+                                 ('o teto da criacao', t_inv, TETO_CRIACAO),
+                                 ('o teto do atributo', t_max, TETO_ATR)):
+            if dela != dono:
+                erro('ARRANJO', f'{nome}: a invocacao diz {dela} e a peca 2 diz {dono} — '
+                                'a regra dela e a mesma do personagem, e um numero em dois '
+                                'donos diverge')
+        if p_inv == PONTOS_PJ and t_inv == TETO_CRIACAO and t_max == TETO_ATR:
+            print(f'  [x] o arranjo dela le a peca 2 nos tres numeros, sem copia.')
+        # A REGRA APLICADA, e ela e a que mata a derivacao: o teto de criacao tem de
+        # deixar o atributo crescer o MESMO que a maestria cresce, senao a taxa de
+        # acerto dela deriva ao longo da campanha. Medido na v0.180: teto 4 perde 5
+        # pontos percentuais e teto 5 perde 10.
+        cresce_atr = TETO_ATR - TETO_CRIACAO
+        # o +3 da maestria nao fica escrito aqui: a peca 2 SS2 publica a frase que
+        # amarra os dois — "o teto de 3 faz o atributo crescer EXATAMENTE +3, o mesmo
+        # ritmo da maestria". Se ela mudar, esta checagem tem de mudar junto.
+        m_mae = re.search(r'crescer \*\*exatamente \+(\d+)\*\*.{0,60}?ritmo da maestria',
+                          P2, re.S | re.I)
+        cresce_mae = int(m_mae.group(1)) if m_mae else None
+        if cresce_mae is None:
+            erro('ARRANJO', 'peca 2 SS2: sumiu a frase que amarra o teto de criacao ao '
+                            'ritmo da maestria — ela e o dono do +3 desta checagem')
+            cresce_mae = cresce_atr
+        if cresce_atr != cresce_mae:
+            erro('ARRANJO', f'o atributo cresce +{cresce_atr} do teto de criacao ao teto, e '
+                            f'a maestria cresce +{cresce_mae} — com ritmos diferentes a taxa '
+                            'de acerto da invocacao deriva na campanha')
+        else:
+            print(f'  [x] atributo cresce +{cresce_atr} e maestria +{cresce_mae} — a taxa '
+                  'dela fica reta, que e a licao no 1 aplicada a ficha da invocacao.')
+        # e o numero de ARRANJOS legais tem de bater com o do personagem, senao o
+        # arranjo deixa de ser escolha — foi o que 9 pontos em TRES atributos fazia.
+        from itertools import product
+        def _arr(pts, n):
+            return len({tuple(sorted(c, reverse=True))
+                        for c in product(range(t_inv + 1), repeat=n) if sum(c) == pts})
+        n_pj, n_inv = _arr(PONTOS_PJ, 5), _arr(p_inv, 5)
+        if n_inv != n_pj or n_inv < 2:
+            erro('ARRANJO', f'a invocacao tem {n_inv} arranjo(s) legal(is) na criacao e o '
+                            f'personagem tem {n_pj} — um arranjo unico nao e escolha')
+        else:
+            print(f'  [x] {n_inv} arranjos legais na criacao, os mesmos do personagem.')
+        # o LIVRO publica a mesma ficha, e ele e a copia que o jogador le. Sem esta
+        # comparacao a peca e o capitulo 16 divergem calados — foi assim que a ficha
+        # derivada sobreviveu no livro depois de a peca 15 ja ter medido contra ela.
+        _c16 = os.path.join(AQUI, '..', '05-material', 'livro', 'manual', '60-invocacoes.md')
+        _lv = open(_c16, encoding='utf-8').read() if os.path.isfile(_c16) else ''
+        if not _lv:
+            erro('ARRANJO', 'nao achei o capitulo 16 do livro — a ficha da invocacao tem '
+                            'duas publicacoes e so uma seria conferida')
+        else:
+            _quer = [
+                # a peca 2 e o livro escrevem o numero por extenso; o reconhecedor
+                # aceita as duas formas para nao acusar ortografia em vez de regra
+                (rf'\*\*({PONTOS_PJ}|{_POREXTENSO.get(PONTOS_PJ, "")}) pontos entre os cinco '
+                 rf'atributos, nenhum acima de `{TETO_CRIACAO}`',
+                 f'o orcamento de {PONTOS_PJ} pontos com teto {TETO_CRIACAO}'),
+                (rf'\+1` ponto de atributo.{{0,40}}\*\*Teto `{TETO_ATR}`',
+                 f'o +1 por marco e o teto {TETO_ATR}'),
+                (r'`o atributo dela \+ a sua maestria`', 'a formula do acerto'),
+                (r'`10 \+ a Destreza dela \+ metade da sua Essência`', 'a formula da Defesa'),
+                (r'treina um Teste de Resistência', 'o TR unico treinado'),
+                (r'\*\*deslocamento\*\* \| `9` metros', 'o deslocamento fixo'),
+            ]
+            _falta = [nome for rx, nome in _quer if not re.search(rx, _lv, re.S)]
+            if _falta:
+                erro('ARRANJO', 'o capitulo 16 do livro nao publica: ' + '; '.join(_falta)
+                                + ' — decisao escrita SO NA PECA nao chega ao jogador')
+            else:
+                print(f'  [x] o capitulo 16 publica as {len(_quer)} linhas da ficha, e o '
+                      'jogador le a mesma regra.')
 
-# =============================================================================
-# 9. ORCAMENTO — derivado dos marcos da peca 2
-# =============================================================================
 bloco('9. ORCAMENTO — derivado dos marcos da peca 2, nunca lido de constante')
 if 2 not in ORCAMENTO:
     erro('ORCAMENTO', 'SS3.6: a tabela do orcamento nao tem a linha do nivel 2')
@@ -848,27 +885,26 @@ else:
     # A razao entre as duas moedas, RECALCULADA dos donos. Ate a v0.68 a peca
     # publicava "o ponto de arma e cerca de quatro vezes menor", sem nada guardando
     # — e a v0.67 dividiu o lado da ficha por quatro sem que a frase se mexesse.
-    m_raz = re.search(r'o ponto de ficha vale \*\*([\d,]+)× o de arma no nível 2 e '
-                      r'([\d,]+)× no nível 30\*\*', S36)
-    if not m_raz:
-        erro('DUAS-MOEDAS', 'SS3.6: nao achei a razao publicada entre as duas moedas')
-    elif dev is None:
-        erro('DUAS-MOEDAS', 'sem a devolucao lida na checagem 8 a razao nao tem como ser '
-                            'recalculada')
-    else:
-        # 1 ponto de acerto vale PONTO_DE_FICHA% do que a invocacao entrega, e ela
-        # entrega AREA por alvo; vender 1 ponto devolve `dev` pontos de orcamento.
-        AREA = 1.0 / COTA['Servo']['divisor']
-        for nv, publicado in ((2, num(m_raz.group(1))), (30, num(m_raz.group(2)))):
-            if nv not in ROTINA_NV:
-                erro('DUAS-MOEDAS', f'peca 6 SS3: sem a Rotina do nv{nv} a razao nao fecha')
-                continue
-            calc = (PONTO_DE_FICHA / 100.0 * AREA * ROTINA_NV[nv] / dev) / PONTO_DE_ARMA
-            print(f'  nv{nv}: 1 ponto de ficha = {calc:.2f}x o ponto de arma '
-                  f'(publicado: {publicado:g}x)')
-            if abs(calc - publicado) > 0.05:
-                erro('DUAS-MOEDAS', f'nv{nv}: a peca publica {publicado:g}x e os donos dao '
-                                    f'{calc:.2f}x — a razao entre as duas moedas envelheceu')
+    # v0.180: a metade QUANTITATIVA desta checagem morreu com a venda de
+    # deslocamento. Ela recalculava a razao publicada entre as duas moedas usando
+    # a devolucao da venda como ponte — e a venda era a UNICA operacao que ligava
+    # as duas. Sem ponte nao ha razao a conferir, e a ausencia de operacao e prova
+    # mais forte que uma razao medida: uma diz que a conversao foi calculada, a
+    # outra diz que ela nao pode acontecer. O que sobra e a metade qualitativa,
+    # que e a que sempre pegou coisa de verdade.
+    # o reconhecedor exigia digito ANTES de "ponto de ficha" e por isso nao pegava
+    # "o ponto de ficha vale 4,1x o ponto de arma", que e como a frase estava escrita
+    # de verdade. Achado no arnes da v0.180 — a perturbacao que devolvia a razao
+    # passava verde. O que importa e o NUMERO no meio, e nao o que vem antes.
+    if re.search(r'ponto de ficha\s*(?:vale|=|é)\s*\*{0,2}[\d,]+\s*[×x]?\s*.{0,16}'
+                 r'ponto de arma', PECA, re.I):
+        erro('DUAS-MOEDAS', 'a peca voltou a publicar uma razao entre as duas moedas — sem '
+                            'a venda de deslocamento nao existe operacao que as ligue, '
+                            'entao uma razao publicada nao reconstroi de nada')
+    if not re.search(r'não têm mais como se encontrar|ausência de operação', PECA):
+        erro('DUAS-MOEDAS', 'SS3.6 nao declara que a ponte entre as duas moedas deixou de '
+                            'existir — sem a declaracao, esta checagem vira "aceita '
+                            'qualquer coisa", que e a licao no 8 aplicada ao reconhecedor')
     print('  Nenhuma taxa de conversao escrita, e nenhuma entrada precada em moeda de arma.')
 
 # =============================================================================
@@ -1331,16 +1367,31 @@ def acerto_dono(nv):
 nvs = sorted(ORCAMENTO)
 lo, hi = min(nvs), max(nvs)
 base_cresce = acerto_dono(hi) - acerto_dono(lo)
-print(f"  {'linha':<28}{'nv' + str(lo):<8}{'nv' + str(hi):<8}{'cresce':<9}")
-print(f'  {"acerto derivado do dono":<28}{acerto_dono(lo):<8}{acerto_dono(hi):<8}'
+# v0.180: as linhas comparadas eram "o acerto do dono, com deslocamento +0/-1/-2".
+# Com a ficha propria o deslocamento morreu, e o que ocupa o lugar dele sao os
+# ARRANJOS legais da criacao: cada um poe o atributo de ataque dela num valor
+# diferente, e todos tem de crescer no mesmo passo. E' a mesma pergunta com o
+# assunto certo — antes ela media um offset, agora ela mede o ponto de partida.
+print(f"  {'linha':<30}{'nv' + str(lo):<8}{'nv' + str(hi):<8}{'cresce':<9}")
+print(f'  {"acerto do dono":<30}{acerto_dono(lo):<8}{acerto_dono(hi):<8}'
       f'+{base_cresce:<9}')
-for desl in (0, -1, -2):
-    c = (acerto_dono(hi) + desl) - (acerto_dono(lo) + desl)
-    print(f'  {"...com deslocamento " + f"{desl:+d}":<28}{acerto_dono(lo) + desl:<8}'
-          f'{acerto_dono(hi) + desl:<8}+{c:<9}')
-    if c != base_cresce:
-        erro('RITMO', f'o deslocamento {desl:+d} muda o RITMO da linha ({c} contra '
-                      f'{base_cresce}) — deslocamento fixo nao pode derivar')
+
+
+def acerto_invocacao(nv, atr_inicial):
+    """o atributo DELA sobe no mesmo passo, ate o mesmo teto."""
+    return min(6, atr_inicial + (nv - 1) // MAESTRIA_PASSO) + maestria(nv)
+
+
+for atr in (3, 2, 1):
+    c = acerto_invocacao(hi, atr) - acerto_invocacao(lo, atr)
+    print(f'  {"invocacao, atributo " + str(atr):<30}{acerto_invocacao(lo, atr):<8}'
+          f'{acerto_invocacao(hi, atr):<8}+{c:<9}')
+    if atr == 3 and c != base_cresce:
+        erro('RITMO', f'a invocacao com o atributo no teto da criacao cresce +{c} e o dono '
+                      f'+{base_cresce} — com ritmos diferentes a taxa dela deriva')
+    if c > base_cresce:
+        erro('RITMO', f'a invocacao com atributo {atr} cresce +{c}, acima dos +{base_cresce} '
+                      'do dono — nenhum arranjo pode crescer mais rapido que ele')
 # O ALVO do acerto e a DEFESA, e ela tambem tem dois termos que crescem: a Destreza
 # do alvo (teto da peca 2) e a protecao de cobrir-se (peca 11 SS6, `1/3 do refino + 1`,
 # com o refino topando em 10 pela peca 11 SS3). Ate a v0.116 esta checagem comparava o
@@ -1585,7 +1636,11 @@ elif not re.search(r'quarto formato', PECA):
 # =============================================================================
 # 27. NAO-COMPRA — nenhuma entrada compra linha que ja e deslocamento
 # =============================================================================
-bloco('27. NAO-COMPRA — nenhuma entrada compra linha que ja e deslocamento')
+# v0.180: o nome era 'linha que ja e deslocamento'. O deslocamento morreu com a
+# ficha propria, e a proibicao NAO morreu junto — ela so trocou de dono: acerto,
+# Defesa e vida agora saem do orcamento de atributo da peca 2, e vende-las de novo
+# dentro do catalogo continua sendo pagar duas vezes pela mesma coisa.
+bloco('27. NAO-COMPRA — nenhuma entrada vende linha que ja tem outro dono')
 MOEDA_DO_DESLOCAMENTO = ('defesa', 'acerto', 'vida', 'constituicao')
 sujas = []
 for e in CATALOGO:
@@ -1656,39 +1711,55 @@ else:
 # =============================================================================
 # 30. PISO-DA-VENDA
 # =============================================================================
-bloco('30. PISO-DA-VENDA — vender deslocamento nao precisa de piso, e isso e medido')
-m = re.search(r'\|\s*−1 na Defesa\s*\|[^|]*\|\s*−(\d+)% de vida efetiva\s*\|', S33)
-PERDA_POR_PONTO = int(m.group(1)) / 100.0 if m else None
-if PERDA_POR_PONTO is None:
-    erro('PISO-DA-VENDA', 'SS3.3: nao achei o cambio de −1 de Defesa em vida efetiva')
-m = re.search(r'\*\*De (\d+)% a (\d+)% da Rotina', P14)
-BANDA_TRILHA = (int(m.group(1)) / 100.0, int(m.group(2)) / 100.0) if m else None
-if BANDA_TRILHA is None:
-    erro('PISO-DA-VENDA', 'peca 14 SS4: nao achei a banda do que uma Trilha inteira vale')
-if PERDA_POR_PONTO and BANDA_TRILHA:
-    presenca = POOL_R * (1 - PERDA_POR_PONTO) ** VENDA_MEDIDA
-    print(f'  pool cheio: {POOL_R:g} Rotina(s) de presenca em campo.')
-    print(f'  vendendo −{VENDA_MEDIDA} de Defesa, a {PERDA_POR_PONTO:.0%} de vida efetiva por '
-          f'ponto: {presenca:.2f} Rotina(s).')
-    print(f'  uma Trilha inteira vale {BANDA_TRILHA[0]:.0%} a {BANDA_TRILHA[1]:.0%} da Rotina '
-          f'(peca 14 SS4) = {BANDA_TRILHA[0]:.2f} a {BANDA_TRILHA[1]:.2f}.')
-    print(f'  a venda no fundo do poco ainda entrega {presenca / BANDA_TRILHA[1]:.0f}x o que '
-          'uma Trilha inteira vale.')
-    if presenca <= BANDA_TRILHA[1]:
-        erro('PISO-DA-VENDA', f'vendendo −{VENDA_MEDIDA} de Defesa a presenca cai para '
-                              f'{presenca:.2f} Rotina, que e menos que a banda de uma Trilha '
-                              f'({BANDA_TRILHA[1]:.2f}) — a venda deixou de se limitar sozinha '
-                              'no valor, e agora ela PRECISA de piso. Isso e decisao a tomar, '
-                              'nao numero a ajustar')
+# v0.180: esta checagem era a PISO-DA-VENDA — ela media que vender deslocamento nao
+# precisava de piso, porque mesmo no fundo do poco a Matilha ainda entregava presenca.
+# A venda morreu com a ficha propria e a checagem ficou sem assunto. O lugar dela vai
+# para o mecanismo que NASCEU na mesma versao e nao tinha ninguem em cima: a Defesa da
+# invocacao, que trocou a protecao que ela quase nunca tem por metade da Essencia do dono.
+bloco('30. DEFESA — a metade do atributo escolhido segura o passo da Defesa do alvo')
+# v0.180: a Defesa aceita DOIS atributos, escolhidos na montagem. O reconhecedor
+# le os dois e a checagem de passo usa o mesmo numero para os dois — eles tem o
+# mesmo teto e o mesmo ritmo pela peca 2, entao qual deles o jogador escolhe nao
+# muda o passo, so a linha de base da ficha que investiu num lado so.
+m_def = re.search(r'\*\*Defesa\*\* = `10 \+ Destreza dela \+ metade da (\w+) ou da (\w+) '
+                  r'do dono`', S33)
+if not m_def:
+    erro('DEFESA', 'SS3.3: nao achei a formula da Defesa da invocacao escrita como regra — '
+                   'sem ela a invocacao volta a 10 + Destreza, que deriva')
+else:
+    _ATR_DEF = f'{m_def.group(1)} ou {m_def.group(2)}'
+    print(f'  Defesa da invocacao = 10 + Destreza dela + metade da {_ATR_DEF} do dono')
+    # o teto do atributo e o passo da maestria saem da peca 2 e da peca 18, nunca daqui
+    _t = re.search(r'\*\*Teto do atributo: (\d+)\.\*\*', ler('02-economia-de-atributos.md'))
+    _teto = int(_t.group(1)) if _t else None
+    if _teto is None:
+        erro('DEFESA', 'peca 2: sem o teto de atributo a Defesa dela nao tem contra o que '
+                       'ser medida')
     else:
-        print('  Ela se limita sozinha no valor: nenhum piso e necessario, e isso e medido '
-              'em vez de suposto.')
+        # a Defesa do ALVO cresce +6 na campanha (Destreza +3 e protecao +3), e a
+        # checagem 18 ja leu esse numero dos donos. A dela tem de crescer o mesmo.
+        _lo, _hi = min(sorted(ORCAMENTO)), max(sorted(ORCAMENTO))
+        def _def_inv(nv):
+            atr = min(_teto, 3 + (nv - 1) // MAESTRIA_PASSO)
+            return 10 + atr + atr // 2
+        _cresce = _def_inv(_hi) - _def_inv(_lo)
+        print(f'  nv{_lo}: {_def_inv(_lo)} · nv{_hi}: {_def_inv(_hi)} · cresce +{_cresce}')
+        if _cresce < base_cresce - 1:
+            erro('DEFESA', f'a Defesa da invocacao cresce +{_cresce} e a do alvo +{base_cresce} '
+                           '— com passo menor ela e acertada cada vez mais facil, e a '
+                           'invocacao vira alvo gratis no fim da campanha')
+        else:
+            print(f'  [x] cresce +{_cresce} contra os +{base_cresce} da Defesa do alvo — '
+                  'a invocacao nao vira alvo gratis.')
+        # CONTRA-TESTE: sem a metade da Essencia ela derivaria, e o quanto e' medido
+        _sem = (10 + min(_teto, 3 + (_hi - 1) // MAESTRIA_PASSO)) - (10 + 3)
+        if _sem >= _cresce:
+            erro('DEFESA', 'tirar a metade da Essencia nao muda o passo da Defesa dela — '
+                           'entao ela nao esta fazendo trabalho nenhum, e esta checagem '
+                           'passaria verde sem o mecanismo que ela existe para conferir')
+        else:
+            print(f'  [x] contra-teste: sem ela o passo cairia de +{_cresce} para +{_sem}.')
 
-# =============================================================================
-# VEREDITO
-# =============================================================================
-print('\n' + '=' * 88)
-# --------------------------------------------------------------------------
 bloco('31. QUEDA-DO-DONO — o dono cai, e o que a invocacao pode fazer')
 # --------------------------------------------------------------------------
 # v0.163. A pergunta nao estava escrita em lugar nenhum — nem na peca, nem no

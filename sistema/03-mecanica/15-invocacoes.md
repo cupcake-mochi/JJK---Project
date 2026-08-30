@@ -303,18 +303,28 @@ Foi a pergunta do Mizuki que abriu isto: *"tem que ter algo que a ficha da invoc
 
 | | nv2 | nv30 | cresce | acerto |
 |---|---|---|---|---|
-| acerto derivado do dono | 3 | 6 | **+3** | 50% |
-| ...com deslocamento **+1** | 4 | 7 | **+3** | 55% |
-| ...com deslocamento **−2** | 1 | 4 | **+3** | 40% |
+| atributo dela **3** — o teto da criação | 3 | 6 | **+3** | 55% |
+| atributo dela **2** | 2 | 5 | **+3** | 50% |
+| atributo dela **1** | 1 | 4 | **+3** | 45% |
 
-**Os três crescem `+3`.** Um deslocamento fixo **não deriva** — ele muda a linha de base e fica na mesma distância do alvo a campanha inteira. **Só ritmo diferente deriva**, e é por isso que refino está proibido ali (`+7` a `+9`, o que é 70% a 80% de acerto no nv30) e um deslocamento não está.
+**Os três crescem `+3`, e é o mesmo `+3` do atributo de um personagem.** *A peça 2 §2 escreve por que: o teto de `3` na criação existe para o atributo investido subir exatamente `+3` na campanha, no passo da maestria.* **Só ritmo diferente deriva**, e é por isso que refino está proibido ali — `+7` a `+9` põe o acerto em 70% a 80% no nível 30 — e um atributo com teto `3` na criação não está.
 
-> **O princípio, e ele parte por linha em vez de por documento:**
+> **⚠ O teto de criação é `3` e não é escolha: `4` e `5` derivam.** *Medido — um atributo que começa em `4` só cresce `+2` até o teto de `6`, e a taxa dela cai de `60%` para `55%` na campanha; começando em `5` ela cai de `65%` para `55%`.* **Só o `3` fecha em zero**, e é o mesmo motivo pelo qual ele é o teto do personagem.
+
+> **O princípio, e ele parte o que CRESCE do que VALE:**
 >
-> **Linha que encara dado** — acerto, Defesa, TR — = a parte que **cresce**, vinda do dono, **mais um deslocamento fixo** da ficha dela.
-> **Linha fora de dado** — vida, movimento — = fórmula própria no molde da do Caminho, **com o atributo dela dentro**.
+> **O ritmo é do dono.** A maestria dele entra em toda rolagem dela, e é a única coisa que cresce sozinha.
+> **O valor é dela.** Os cinco atributos são próprios, com o mesmo orçamento e o mesmo teto que a peça 2 dá a um personagem.
 >
-> A Constituição dela vale porque vida está fora de dado. Força e Destreza valem como deslocamento. **Nenhuma das três pode virar escada.**
+> **acerto** = `atributo dela + maestria do dono` · **Defesa** = `10 + Destreza dela + metade da Essência ou da Inteligência do dono`, escolhida na montagem · **Teste de Resistência** = `d20 + atributo dela + maestria do dono`, com **um** treinado.
+
+> **⚠ Isto substituiu o deslocamento na v0.180, e a versão anterior está registrada porque o argumento dela continua valendo — só que aplicado a outro termo.** *Ela dizia:*
+>
+> > *"Linha que encara dado — acerto, Defesa, TR — = a parte que **cresce**, vinda do dono, **mais um deslocamento fixo** da ficha dela. Linha fora de dado — vida, movimento — = fórmula própria com o atributo dela dentro."*
+>
+> ***Achado do Mizuki:*** *"não faz sentido utilizar acerto, defesa e atributos do invocador — nada disso realmente é bom para a invocação, porque o invocador vai querer invocações que fazem o que ele não faça, e mesmo que façam, elas não vão ser iguais."* **Ele está certo, e a conta explica por que a saída velha parecia fechada:** *ela media o **ritmo** e concluiu, corretamente, que um deslocamento fixo não deriva.* **O que ela não mediu é que um deslocamento fixo NEGATIVO também não dá identidade** — ele só faz a invocação ser uma cópia pior do dono, na mesma direção que ele.
+>
+> **A fórmula da peça 1 já separava as duas coisas, e ninguém tinha lido assim:** *`Ataque = d20 + atributo + maestria`.* **A maestria é o ritmo; o atributo é o valor.** *Trocar "o atributo do dono" por "o atributo dela" dá ficha própria sem tocar em uma vírgula do ritmo — que é a única coisa que a lição nº 1 proíbe.*
 
 ### O que morreu, e morreu num número do projeto
 
@@ -634,16 +644,21 @@ Com a vida em pool (Q2) e `h` em meia Rotina (Q3), **um efeito de área que caus
 
 *Frase do Mizuki, e ela põe um teto no deslocamento fixo que a Q3 tinha deixado aberto para os dois lados. O teto natural é zero:*
 
-> **A invocação começa no número do dono e só pode descer.**
+> **A invocação tem os cinco atributos, e eles são dela.**
 
 **Descer devolve ponto, e o que é emprestado de Equipamento é o formato e não o número:** lá o §5.0.4 devolve 1 ponto de arma por restrição, e aqui a devolução é medida na moeda desta peça. *A distância entre as duas moedas encolheu quatro vezes na v0.67, e é justamente por isso que o número tem de estar escrito na escala daqui em vez de emprestado de lá.*
 
-| a ficha faz | custa ou devolve | resultado |
+| a ficha dela | igual ao personagem? | dono do número |
 |---|---|---|
-| fica no número do dono | 0 | 100% |
-| −1 de acerto | **devolve 4** | 90% do que ela entrega |
-| −1 de Defesa | **devolve 4** | −9% de vida efetiva |
-| **+1 de acerto** | **proibido** | passaria do portador |
+| **9 pontos na criação**, teto `3` | **sim**, palavra por palavra | peça 2 §2 |
+| **`+1` por marco**, teto `6` | **sim** | peça 2 §3 |
+| **cinco atributos** | **sim** | peça 1 §4 |
+| **um Teste de Resistência treinado** | não — o personagem treina **dois** | peça 8 |
+| **deslocamento `9` metros, fixo** | é o base de qualquer ficha | peça 3 §2 |
+
+**São seis arranjos legais na criação, exatamente os mesmos seis do personagem** — de `3·3·3·0·0` a `2·2·2·2·1`. *Com três atributos em vez de cinco o número cairia para **um**, `3·3·3`, e o arranjo deixaria de ser escolha; foi essa conta que trouxe Inteligência e Essência para a ficha dela.*
+
+> **As duas que faltavam ganharam função com o Teste de Resistência próprio.** *Enquanto o TR era o número do dono, Inteligência e Essência não tinham onde entrar — e por isso a peça só usava três atributos.* **A peça 1 §4 escreve `TR = d20 + atributo do TR + maestria`**, então as cinco entram pela mesma porta.
 
 > **A devolução é `4` porque `4` é o que um ponto da escala velha virou** — o mesmo motivo pelo qual cada marco passou a dar `4`. *Ela ficou em `1` da v0.67 até a v0.68, e isso não foi decisão: a escala multiplicou o catálogo e o orçamento e passou por cima da venda.* **Com `1`, vender um ponto de acerto não comprava nem a entrada mais barata do catálogo** — a venda tinha perdido três quartos do poder de compra sem ninguém escolher isso.
 
@@ -705,7 +720,9 @@ E a cadência já existe: **os sete marcos**, que governam atributo, refino e fe
 | Equipamento §5 — 1 ponto de arma | `0,33` de dano por rodada |
 | esta ficha — 1 ponto de deslocamento | **±10% do que a invocação entrega** |
 
-**Os dois pontos não valem a mesma coisa, e a distância entre eles depende do nível.** Medido contra os donos — o ponto de arma da peça 14 §5 e a `Rotina` da peça 6 §3 —, o ponto de ficha vale **0,5× o de arma no nível 2 e 4,1× no nível 30**. *Os dois saem de conta e não de estimativa, e o validador os recalcula dos donos — a razão anterior era quatro vezes maior em todo nível, e envelheceu calada quando a v0.67 quebrou este lado em quatro.*
+**Os dois pontos não valem a mesma coisa, e desde a v0.180 eles não têm mais como se encontrar.** *Até ali existia uma razão publicada — `0,5×` no nível 2 e `4,1×` no nível 30 — e ela era medida **através da venda**: descer um ponto de acerto devolvia orçamento, e essa devolução era a ponte entre as duas moedas.* **Com a ficha própria a venda deixou de existir**, e com ela a ponte: o orçamento compra `Traço` e `Comando`, os atributos saem do orçamento da peça 2, e não há operação que troque um pelo outro.
+
+> **Isso é mais forte que a razão que existia, e não mais fraco.** *Uma razão publicada prova que a conversão foi medida; a ausência de operação prova que ela não pode acontecer.* **O que o validador confere hoje é a ausência**: nenhuma taxa escrita, nenhuma entrada do catálogo preçada em moeda de arma, e a peça declarando que as duas não caem no mesmo saco.
 
 **Então a separação não se sustenta mais em "são orçamentos de tamanhos diferentes"** — no pé da campanha o ponto de arma é o maior dos dois. Ela se sustenta em **o que cada um compra**: o de arma compra dado de dano, e o desta ficha é proibido de tocar em dado de dano. **O que não pode acontecer é as duas moedas caírem no mesmo saco**, e o validador guarda isso pelo que se compra, não pelo tamanho.
 
@@ -1029,7 +1046,7 @@ Rodada a triagem antes de escrever qualquer coisa:
 - **O orçamento por nível derivado dos marcos da peça 2, nunca lido de constante**, e a busca exaustiva sobre todas as montagens legais em cada degrau.
 - **E o resumo do topo desta peça é cópia do orçamento, então ele é comparado com a tabela dona** — base, passo e teto. *Acrescentado na v0.68: ele passou a v0.67 inteira publicando a escala velha e ninguém comparava as duas.* **Apagar a linha também tem de acender**, senão o conserto barato para uma divergência vira sumir com a cópia.
 - **E a tabela do orçamento do `Servo` é DERIVADA, nunca publicada:** a ficha sai dos marcos, o `Servo` sai de `×1,5` com o arredondamento da peça 1 §5.4, e **a porcentagem é recontada contra o catálogo somado** em vez de lida. *Acrescentada na v0.68, quando aquela tabela apareceu com o cabeçalho numa escala e as duas colunas na outra.*
-- **As duas moedas separadas:** ponto de arma (`0,33` de dano por rodada) e ponto de ficha (`±10%` do que a invocação entrega) não podem se converter uma na outra em lugar nenhum.
+- **As duas moedas separadas:** ponto de arma (`0,33` de dano por rodada) e ponto de ficha (`±10%` do que a invocação entrega) não podem se converter uma na outra em lugar nenhum. *Desde a v0.180 a checagem confere a **ausência de operação** em vez de recalcular uma razão: a venda de deslocamento era a única ponte entre as duas, e ela morreu com a ficha própria.*
 - **O multiplicador de área lido do documento dono, nunca de constante**, e o teste negativo: perturbar o `×2` para `×5` tem de fazer a checagem acusar que um feitiço de rotina apaga a Matilha.
 - **Os dois gatilhos de morte em definitivo, com o contra-teste que importa:** nenhum golpe de rotina pode disparar nenhum dos dois. Perturbar o dano de um golpe comum para cima tem de acender.
 - **O preço de invocar contra o bolso do BASTIÃO, nunca do Evocador** — e o `conferir-orcamento.py` é quem já sabe medir isso. Perturbar o `1 ×` para `1,5 ×` tem de acender no nível 2, que é onde ele morde.

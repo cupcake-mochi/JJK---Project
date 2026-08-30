@@ -5785,26 +5785,31 @@ Fora de combate a conta some e a invocação vira apoio. Ela entra no duto na fr
 
 ## Ficha da invocação
 
-A ficha dela é derivada da sua: cada linha ou copia um número seu, ou sai de uma fórmula. Você não rola atributo nem escolhe Caminho para ela.
+A invocação tem os cinco atributos, e eles são dela. Você monta o arranjo dela do mesmo jeito que montou o seu, com o mesmo orçamento e o mesmo teto — ela não copia os seus números.
 
-### Metades da ficha
+### Atributos
 
-> **Dados** — acerto, Defesa, Teste de Resistência **= o seu número**, com um deslocamento fixo por cima.
-> **Atributos** — vida e movimento **= fórmula própria, com o atributo dela dentro.**
+> **Nove pontos entre os cinco atributos, nenhum acima de `3`.** É a mesma regra da sua ficha, no capítulo 6.
+> **A cada marco ela ganha `+1` ponto de atributo**, como você. **Teto `6`.**
 
-A invocação tem atributos: a Constituição dela entra na vida, e a Força e a Destreza dela entram como deslocamento.
+O que ela não tem é Caminho e é técnica. O resto da ficha sai destes cinco números e do seu nível.
 
-### Deslocamento
-
-**Deslocamento**
-| a ficha faz | custa ou devolve |
+**A ficha dela**
+| linha | como sai |
 |---|---|
-| fica no valor base | `0` |
-| `−1` de acerto | **devolve `4` pontos** |
-| `−1` de Defesa | **devolve `4` pontos** |
-| `+1` em qualquer dado ou atributo | **proibido** |
+| **acerto** | `o atributo dela + a sua maestria` |
+| **Defesa** | `10 + a Destreza dela + metade da sua Essência` **ou** `da sua Inteligência` |
+| **Teste de Resistência** | `d20 + o atributo dela + a sua maestria` |
+| **vida** | a fórmula de `Tipos e vida`, adiante neste capítulo |
+| **deslocamento** | `9` metros |
 
-Vender número é a única moeda extra que existe: fora do orçamento, não há outro jeito de comprar capacidade.
+**Ela treina um Teste de Resistência**, escolhido quando você a monta. Nos outros três a sua maestria não entra, igual a qualquer ficha.
+
+> **A sua maestria entra em tudo que ela rola, e é ela que faz a invocação acompanhar a campanha.** Os números são dela; o ritmo é seu.
+
+> **A metade do seu atributo é a proteção que ela quase nunca tem.** *Uma invocação não veste uniforme nem se cobre de energia, então a Defesa dela ficaria parada enquanto a de todo mundo sobe.* **Se ela tiver proteção de verdade — um `Estigma`, uma peça que você deu a ela —, a proteção soma normalmente por cima.**
+
+> **Escolha Essência ou Inteligência quando montar a invocação, e a escolha não muda depois.** *As duas contam a mesma ficção por caminhos diferentes: pela Essência ela é dura porque a sua energia a reveste; pela Inteligência, porque você leu a luta e a posicionou.* **Na maioria das fichas as duas dão o mesmo número** — a escolha existe para quem investiu num lado e não no outro.
 
 ### Tipos e vida
 
@@ -5871,9 +5876,9 @@ O orçamento é o que você gasta comprando `Traço` e `Comando`. Ele cresce nos
 |---|---|
 | **dado de dano** | um `Traço` que dê `+1d6` não existe a preço nenhum |
 | **qualquer coisa que cresça com refino** | refino cresce muito mais rápido que a ficha dela, e ela passaria de você |
-| **deslocamento positivo** | a invocação não passa de quem a carrega |
+| **atributo** | os cinco já saem do arranjo dela, e comprar de novo é pagar duas vezes |
 
-E nada do catálogo pode dar Defesa, acerto ou vida direto. Esses três já são a moeda do deslocamento, e comprá-los de novo por ponto seria pagar duas vezes pela mesma coisa.
+E nada do catálogo pode dar Defesa, acerto ou vida direto. Os três saem dos atributos dela, e o orçamento existe para comprar **o que ela faz** — não para comprar número que já tem outro dono.
 
 ## Catálogo
 
@@ -6446,4 +6451,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: bfe093901357783a85fb9eb43eef96711a4ad517 -->
+<!-- fonte: fd312865cd69f1ce5b8d320972e669e86bb91969 -->

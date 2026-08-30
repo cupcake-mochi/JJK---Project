@@ -8,6 +8,104 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.180] — 29/08/2026
+
+**A ficha da invocação deixou de copiar a do invocador.** ***Objeção do Mizuki, e ela reabriu a Q3 da peça 15:*** *"não faz sentido utilizar acerto, defesa e atributos do invocador — nada disso realmente é bom para a invocação, porque o invocador vai querer invocações que fazem o que ele não faça, e mesmo que façam, elas não vão ser iguais."*
+
+### 1 · A saída velha media o ritmo e esqueceu a identidade
+
+**O §3.3 fechou em 2024 com um argumento correto:** *um deslocamento fixo sobre o número do dono não deriva — as três linhas medidas cresciam `+3` igual.* **O que ele não mediu é que um deslocamento fixo NEGATIVO também não dá identidade.** *Ele só faz a invocação ser uma cópia pior do dono, na mesma direção que ele.*
+
+**A fórmula da peça 1 já separava as duas coisas, e ninguém tinha lido assim:** `Ataque = d20 + atributo + maestria`. *A maestria é o ritmo; o atributo é o valor.* **Trocar "o atributo do dono" por "o atributo dela" dá ficha própria sem tocar em uma vírgula do ritmo** — que é a única coisa que a lição nº 1 proíbe.
+
+### 2 · Três saídas foram medidas antes da escolha, e duas morreram na conta
+
+| saída | o que a conta deu |
+|---|---|
+| ficha própria **sem** progressão | a taxa dela cai de `50%` para **`20%`** no nível 30 — vira enfeite |
+| ficha própria **com progressão própria** | só o ritmo `+3` fecha; qualquer outro deriva, e duas curvas em passo é a lição nº 9 |
+| **atributo dela + maestria do dono** | ritmo do dono, valor dela — e é a que ficou |
+
+### 3 · O teto de criação é `3`, e ele não era escolha
+
+***Duas saídas que eu mesmo ofereci estavam erradas.*** *Para caber seis arranjos legais em três atributos eu propus teto `4` e teto `5`, e as duas derivam:*
+
+| teto na criação | cresce até `6` | nv2 | nv30 | deriva |
+|---|---|---|---|---|
+| **3** | `+3` | 55% | 55% | **`0`** |
+| 4 | `+2` | 60% | 55% | `−5` pp |
+| 5 | `+1` | 65% | 55% | `−10` pp |
+
+**A peça 2 §2 já escrevia por quê:** *"o teto de 3 na criação não é arbitrário — ele é o que faz o atributo investido crescer exatamente `+3`, o mesmo ritmo da maestria."* **A trava vale para a invocação pelo mesmo motivo.**
+
+### 4 · Então o que estava errado era o número de atributos, e não o teto
+
+**`9` pontos em TRÊS atributos com teto `3` produz um arranjo só — `3·3·3`.** *O personagem tem seis com os mesmos nove pontos, porque espalha em cinco.* **Um arranjo único não é escolha.**
+
+**A invocação passou a usar os cinco**, e ela só usava três porque as outras duas não tinham onde entrar com a ficha derivada. *Com Teste de Resistência próprio elas entram pela porta que a peça 1 §4 já abria:* `TR = d20 + atributo do TR + maestria`.
+
+### 5 · A Defesa, e a emenda que fechou exata
+
+***Achado do Mizuki:*** *"raramente a invocação tem proteção. Que tal dar a possibilidade de ter, mas por base ela usar metade da Essência do invocador? Já daria um bônus parelho com refino."* **Ele acertou o número no palpite:**
+
+| nível | Defesa dela | alvo difícil do personagem |
+|---|---|---|
+| 2 | 14 | 14 |
+| 10 | 16 | 16 |
+| 18 | 17 | 17 |
+| 26 | 19 | 19 |
+| 30 | 19 | 20 |
+
+**Sem ela a invocação derivava feio:** *o inimigo acertaria `60%` no nível 2 e **`75%`** no 30, contra `55%` num personagem.* **E é parelha com o refino como ele disse:** `1/3 do refino + 1` sobe `1 → 3` e a metade do atributo sobe `1 → 3`.
+
+***Segunda emenda dele: a escolha entre Essência e Inteligência, na montagem.*** *Medido sobre as 135 distribuições possíveis: ela vale `+0,28` de Defesa na média e não muda nada em `72%` das fichas.* **O que ela faz é resgatar quem investiu num lado e zerou o outro** — sem ela, a ficha de Inteligência alta pagava um imposto que ninguém tinha escolhido cobrar.
+
+### 6 · O que morreu, e o que o validador ganhou no lugar
+
+**O deslocamento morreu inteiro** — vender `−1` de acerto ou de Defesa por `4` pontos não faz sentido quando o número não é do dono. *Com ele morreu a única ponte entre as duas moedas do subsistema, e a checagem que media a razão entre elas passou a conferir a **ausência de operação**: uma razão publicada prova que a conversão foi calculada; a ausência prova que ela não pode acontecer.*
+
+| checagem | era | virou |
+|---|---|---|
+| **8** | DESLOCAMENTO | **ARRANJO** — lê os três números da peça 2 e prova que o teto de criação mantém o ritmo |
+| **10** | razão entre as moedas | ausência de ponte |
+| **18** | RITMO dos deslocamentos | RITMO dos arranjos legais |
+| **30** | PISO-DA-VENDA | **DEFESA** — a metade do atributo, com contra-teste |
+
+*A `27` sobreviveu com o motivo trocado: o catálogo continua não podendo vender acerto, Defesa e vida, agora porque eles têm outro dono.*
+
+### 7 · O arnês pegou dois defeitos meus, e o primeiro é o pior tipo
+
+**A checagem 10 travava com `NameError` e eu li isso como "passou".** *O traceback vai para o stderr, e o meu filtro lia só a lista de erros do rodapé — que nunca foi impressa, porque o script morreu antes.* **Verde por ausência de saída é pior que vermelho.**
+
+**E o reconhecedor da razão exigia dígito antes de `ponto de ficha`**, então a frase real — *"o ponto de ficha vale `4,1×`…"* — passava batido. *Onze perturbações no fim, todas acendendo.*
+
+### Adicionado
+
+- **A comparação da ficha da invocação entre a peça 15 e o capítulo 16 do livro**, dentro da checagem 8: seis linhas conferidas uma a uma. *Era exatamente assim que a ficha derivada ia sobreviver no livro depois de a peça mudar.*
+
+### Alterado
+
+- **A Q3 da peça 15 inteira**, e o capítulo 16 do livro atrás dela.
+- **As checagens 8, 10, 18, 27 e 30 do `conferir-invocacoes.py`**, todas com o motivo da troca escrito no código.
+- **A contagem de páginas no `README` do livro**, de `241` para `242`. *É a terceira versão seguida corrigindo ela à mão, e o aviso ao lado passou a dizer que a quarta vira decisão de tirar a coluna.*
+
+### Removido
+
+- **O deslocamento** — a venda de acerto e de Defesa por `4` pontos, e a proibição de deslocamento positivo.
+- **A razão publicada entre ponto de ficha e ponto de arma**, que era medida através da venda.
+
+### Decidido
+
+- **A invocação tem os cinco atributos, e eles são dela**, com o orçamento e o teto da peça 2 — `9` pontos, teto `3` na criação, `+1` por marco, teto `6`.
+- **O ritmo é do dono e o valor é dela:** a maestria dele entra em toda rolagem dela.
+- **A Defesa dela é `10 + Destreza dela + metade da Essência ou da Inteligência do dono`**, escolhida na montagem, e proteção de verdade soma por cima.
+- **Ela treina um Teste de Resistência**, contra os dois de um personagem.
+- **O deslocamento dela é `9` metros, fixo.**
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **A Constituição sem preço fechou junto**, porque ela virou parte do arranjo. *Fica em aberto o que a peça 15 §3.7 promete e não entrega: as três montagens publicadas dos shikigami foram escritas contra a ficha derivada e precisam ser refeitas contra a própria.*
+
+---
+
 ## [0.179] — 29/08/2026
 
 **As duas pendências que a v0.176 deixou anotadas fecharam, e nenhuma das duas era o que a anotação dizia.** *A primeira se respondeu contando o catálogo; a segunda já estava decidida e o que faltava era tirar a meia-frase que a fazia parecer fila.*

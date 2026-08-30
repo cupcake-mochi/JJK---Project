@@ -1,8 +1,18 @@
 # Estado atual do projeto
 
-Atualizado em 29/08/2026, na v0.179 (última peça fechada: **Sem Técnica**, a peça 25, na v0.168, com o `conferir-sem-tecnica.py` e doze checagens; antes dela, **Dano de alma e Integridade, na v0.145**; antes dela, o **Bloquear, na v0.143**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 29/08/2026, na v0.180 (última peça fechada: **Sem Técnica**, a peça 25, na v0.168, com o `conferir-sem-tecnica.py` e doze checagens; antes dela, **Dano de alma e Integridade, na v0.145**; antes dela, o **Bloquear, na v0.143**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.179.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e cinco peças escritas** e **vinte e cinco validadores**.
+**Versão v0.180.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e cinco peças escritas** e **vinte e cinco validadores**.
+
+**A v0.180 tirou a ficha da invocação de cima da ficha do invocador.** ***Objeção do Mizuki:*** *"não faz sentido utilizar acerto, defesa e atributos do invocador — o invocador vai querer invocações que fazem o que ele não faça."*
+
+> **A fórmula da peça 1 já separava ritmo de valor, e ninguém tinha lido assim:** `Ataque = d20 + atributo + maestria`. **A maestria é o ritmo, o atributo é o valor** — trocar o atributo do dono pelo dela dá ficha própria sem tocar no ritmo, que é a única coisa que a lição nº 1 proíbe.
+>
+> **A invocação passou a ter os cinco atributos, com o orçamento da peça 2:** nove pontos, teto `3` na criação, `+1` por marco, teto `6`. *Ela só usava três porque as outras duas não tinham onde entrar com a ficha derivada; com Teste de Resistência próprio, entram.* **Com três atributos existiria um arranjo só — `3·3·3` —, e um arranjo único não é escolha.**
+>
+> **A Defesa dela é `10 + Destreza dela + metade da Essência ou da Inteligência do dono`**, escolhida na montagem. *Ideia do Mizuki, e o número dele fechou exato: a Defesa dela bate com o alvo difícil do personagem em quatro dos cinco níveis medidos.* **Sem ela o inimigo acertaria `75%` no nível 30, contra `55%` num personagem.**
+>
+> **⚠ O deslocamento morreu inteiro, e com ele a única ponte entre as duas moedas do subsistema.** *Quatro checagens trocaram de assunto — a 8, a 10, a 18 e a 30 —, todas com o motivo escrito no código.* **Fica em aberto o que a peça 15 §3.7 ainda promete: as três montagens publicadas dos shikigami foram escritas contra a ficha derivada e precisam ser refeitas.**
 
 **A v0.179 fechou as duas pendências que a v0.176 deixou anotadas, e nenhuma era o que a anotação dizia.**
 
