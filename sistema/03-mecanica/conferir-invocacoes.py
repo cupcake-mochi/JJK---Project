@@ -1566,15 +1566,71 @@ else:
     else:
         print(f'  [x] o capitulo 16 publica os mesmos {len(tab_inst)} arranjos.')
 
-# A DIVIDA das tres montagens por Trilha: ela e' de v0.53, a Q6 que a bloqueava
-# fechou na v0.63, e ela ficou 118 versoes como aviso que nao falha. Continua
-# aviso por decisao — escrever tres montagens e' escolha de sabor do Mizuki, nao
-# conserto — mas o aviso passou a dizer HA QUANTO TEMPO, que e' o que faltava.
-if not re.search(r'três montagens prontas|três invocações já montadas', PECA):
-    aviso('a peca promete tres montagens prontas por Trilha desde a v0.53 e nao publica '
-          'nenhuma. A Q6 que as bloqueava fechou na v0.63 — sao 118 versoes de promessa '
-          'aberta, e este aviso nao falha o validador de proposito: escrever as tres e '
-          'escolha de sabor, e nao conserto.')
+# -- 17.1: as TRES montagens por Trilha ---------------------------------------
+# A divida era de v0.53, a Q6 que a bloqueava fechou na v0.63, e ela passou 123
+# versoes como aviso que nao falhava — de proposito, porque escrever as tres era
+# escolha de sabor do Mizuki e nao conserto. Escritas na v0.186, o aviso virou
+# conferencia: elas sao INSTANCIA como as seis do material, e envelhecem toda vez
+# que a maquina mexer num preco ou no orcamento.
+_tri = [c for c in tabela_apos(S37, '| montagem por Trilha | entradas |') if len(c) >= 5]
+if not _tri:
+    erro('INSTANCIAS', 'SS3.7: nao achei a tabela das tres montagens por Trilha — a peca '
+                       'promete uma por Trilha desde a v0.53')
+else:
+    _vist, _terra = set(), []
+    for _c in _tri:
+        _nome = limpo(_c[0])
+        if _nome not in TRILHAS:
+            _terra.append(f'"{_nome}" nao e uma das tres Trilhas')
+            continue
+        _vist.add(_nome)
+        _ps = [limpo(x) for x in re.findall(r'`([^`]+)`', _c[1])]
+        _falta = [p for p in _ps if p not in preco]
+        if _falta:
+            _terra.append(f'{_nome}: usa {_falta}, que nao esta(o) no catalogo')
+            continue
+        _soma, _pdoc, _odoc = sum(preco[p] for p in _ps), num(_c[2]), num(_c[3])
+        # o orcamento do nv2 e' DERIVADO: a ficha sai dos marcos, e o Servo leva
+        # `mais metade` pela concessao da tabela do fim do SS3.7. Nada escrito aqui.
+        _nv2 = min(ORCAMENTO)
+        _orc = ORCAMENTO[_nv2]['pts'] * (1.5 if CONCEDE[_nome]['orc'] > 1 else 1)
+        _orc = math.floor(_orc)
+        if _soma != _pdoc:
+            _terra.append(f'{_nome}: as entradas somam {_soma} e a tabela escreve {_pdoc:g}')
+        if _odoc != _orc:
+            _terra.append(f'{_nome}: a tabela escreve orcamento {_odoc:g} no nv{_nv2} e a '
+                          f'concessao dela da {_orc}')
+        elif _soma != _orc:
+            _terra.append(f'{_nome}: gasta {_soma} de um orcamento de {_orc} — a peca diz '
+                          'que as tres gastam o orcamento inteiro do nivel 2')
+        _ns = [int(x) for x in re.findall(r'\d+', _c[4])]
+        if len(_ns) != 5 or sum(_ns) != PONTOS_PJ or max(_ns) > TETO_CRIACAO:
+            _terra.append(f'{_nome}: o arranjo nao fecha os {PONTOS_PJ} pontos com teto '
+                          f'{TETO_CRIACAO} — li {_ns}')
+            continue
+        _idx = [_ATR_DA_ENTRADA[x] for x in _ps if x in _ATR_DA_ENTRADA]
+        if not _idx:
+            _terra.append(f'{_nome}: nenhuma entrada dela esta no mapa entrada->atributo, '
+                          'entao o principal nao tem contra o que ser conferido')
+        elif max(_ns) != max(_ns[i] for i in _idx):
+            _terra.append(f'{_nome}: o atributo mais alto do arranjo nao e nenhum dos que '
+                          'as entradas compradas pedem')
+    if set(TRILHAS) - _vist:
+        _terra.append(f'faltam as Trilhas {sorted(set(TRILHAS) - _vist)} na tabela')
+    _vt = [tuple(int(x) for x in re.findall(r'\d+', c[4])) for c in _tri]
+    if len(_vt) != len(set(_vt)):
+        _terra.append('duas das tres tem o mesmo arranjo — com tres exemplos, repetir e '
+                      'desperdicar exemplo')
+    # e o LIVRO publica as mesmas tres: copia sem comparacao diverge (licao no 9)
+    for _c in _tri:
+        _v = ' · '.join(re.findall(r'\d+', _c[4]))
+        if _lvi and _v.replace(' ', '') not in _lvi.replace(' ', ''):
+            _terra.append(f'o capitulo 16 nao publica o arranjo de {limpo(_c[0])} ({_v})')
+    for _m in _terra[:4]:
+        erro('INSTANCIAS', _m)
+    if not _terra:
+        print(f'  [x] as {len(_tri)} montagens por Trilha gastam o orcamento do nv2, o '
+              'principal sai da entrada, e o capitulo 16 publica os mesmos arranjos.')
 
 # =============================================================================
 # 18. RITMO — nada cresce fora do +3

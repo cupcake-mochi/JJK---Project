@@ -8,6 +8,59 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.186] — 30/08/2026
+
+**As três montagens por Trilha foram escritas, e a peça 15 as devia desde a v0.53.** *A Q6 que as bloqueava fechou na v0.63, e elas ficaram **123 versões** como aviso que não falhava o validador — de propósito, porque escrever as três era escolha de sabor do Mizuki e não conserto.*
+
+### 1 · O espaço legal é grande, e a escolha não foi por caber
+
+**No nível 2 o `Servo` tem `12` pontos e as outras duas têm `8`.** *Enumerado: são `63` montagens de gasto exato para o `Servo` e `21` para cada uma das outras.* **Filtrando pelas que têm o atributo principal conferível — só sete das vinte entradas estão no mapa `entrada → atributo` — sobram `23` e `7`.**
+
+***Escolha do Mizuki, entre as que mostram a concessão da Trilha e não só o orçamento:***
+
+| Trilha | montagem | pts | principal | o que ela mostra |
+|---|---|---|---|---|
+| **`Servo`** | `Agarrar` + `Interpor` | 12 | Força | `Interpor` só faz sentido num corpo que aguenta o golpe |
+| **`Matilha`** | `Agarrar` + `Arrastar` | 8 | Força | cinco corpos agarrando e arrastando — *"o que assusta é o número"* |
+| **`Coro`** | `Fisgada` | 8 | Destreza | prende à distância e o golpe do dono entra atrás |
+
+**O `Servo` gasta `12` porque o bolso dele é maior, e não porque a montagem seja mais cara** — a concessão dele é o orçamento da ficha mais metade.
+
+### 2 · Elas moram em tabela própria, e a separação é o que elas ensinam
+
+***Decisão do Mizuki:*** **as seis do material continuam sendo o catálogo de referência, e as três por Trilha entram ao lado.** *Aquelas são shikigami do material montados com o catálogo; estas são a montagem que a Trilha pede, no nível em que ela é escolhida.* **Misturar as nove numa tabela só apagaria essa diferença**, que é a única coisa que as três novas existem para ensinar.
+
+### 3 · O aviso de 123 versões virou conferência
+
+**A checagem 17 ganhou a metade que faltava.** *As três são **instância** como as seis, e envelhecem toda vez que a máquina mexer num preço ou no orçamento.*
+
+- **Os pontos** saem do catálogo somado, nunca da tabela.
+- **O orçamento do nível 2** é derivado dos marcos, e o do `Servo` sai da concessão dela — `×1,5` com o arredondamento da peça 1 — em vez de escrito.
+- **As três gastam o orçamento inteiro**, e a checagem cobra isso porque a peça afirma.
+- **O arranjo** soma nove, topa em `3`, tem o principal saindo da entrada comprada, e é distinto dentro da tabela.
+- **E o capítulo 16 publica os mesmos três arranjos**, comparados um a um.
+
+> **Uma das perturbações é a que mais interessa:** *trocar a `Fisgada` do `Coro` por uma entrada que não está no mapa `entrada → atributo` **acende**.* **Uma montagem publicada cujo principal ninguém consegue conferir é meia montagem** — é a mesma régua que a v0.181 escreveu quando as seis do material ganharam arranjo.
+
+### Adicionado
+
+- **A tabela das três montagens por Trilha**, na peça 15 §3.7 e no capítulo 16 do livro.
+- **A sub-checagem `17.1`**, com as cinco conferências acima. *Sub-bloco, então a contagem não se move.*
+
+### Alterado
+
+- **O item do §5** que descrevia as montagens publicadas, que agora diz que são duas tabelas e que elas se conferem diferente.
+- **O aviso da checagem 17**, que era `aviso` e virou erro.
+
+### Decidido
+
+- **As três montagens por Trilha ficam em tabela própria**, separadas das seis do material.
+- **Uma montagem publicada tem de comprar pelo menos uma entrada do mapa `entrada → atributo`**, senão o principal dela não tem contra o que ser conferido.
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **Segue aberta a vaga de `Desliga` do Corpo Amaldiçoado**, que é a última da fila e é escrita nova, não conserto.
+
+---
+
 ## [0.185] — 30/08/2026
 
 **Os dois números que a v0.184 deixou anotados como "sem checagem" ganharam checagem, e o segundo não era o que a anotação dizia.** *O `±10%` do ponto de ficha só precisava de dono — ele já existia numa tabela do lado. **O `5 × a sua maestria` do `Parrudo` não tinha dono nenhum:** ele existia num lugar só do projeto inteiro, o capítulo 35 do livro.*

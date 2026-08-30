@@ -359,6 +359,8 @@ De **1,4× a 4,9×** um ponto de Defesa. **Ou ela entra com preço próprio, ou 
 **A fila do `ESTADO-ATUAL` já pedia isso e ninguém tinha lido em voz alta:** ela não chama a peça de *"Invocações"*, chama de ***"Invocações — o sistema de criação"***. A peça estava escrita como máquina de construção desde a v0.36.
 
 > **As três montagens prontas trazem uma dívida conhecida, e ela tem nome.** A peça 8 publica uma ficha de exemplo e **passou sete versões com a Defesa errada e a Trilha faltando** — foi por isso que o `conferir-criacao.py` nasceu na v0.34, para conferir **instância** e não regra. **Três montagens publicadas são três instâncias**, e elas envelhecem toda vez que a máquina mexer num preço. O validador desta peça tem de conferir as três contra o orçamento, não só o orçamento contra si mesmo.
+>
+> ***Escritas na v0.186, e a checagem entrou junto.*** *A promessa era da v0.53 e ficou 123 versões como aviso que não falhava — de propósito, porque escrever as três era escolha de sabor e não conserto.*
 
 ## 3.4 A Q4, e as duas réguas que eu tinha errado antes de a conta valer
 
@@ -966,6 +968,22 @@ E uma que eu quase escrevi: um `Traço` de corpo duro, tipo *"ela aguenta mais p
 >
 > *Isso resolve o nível 2 e, de quebra, dá à Q6 a única coisa que ela ainda não tinha: **o que cada Trilha concede que o orçamento não pode comprar.** A pergunta que estava esperando a peça de Trilhas ganhou metade da resposta aqui.*
 
+### E as três montagens por Trilha, que a peça devia desde a v0.53
+
+*A promessa é da v0.53, a Q6 que a bloqueava fechou na v0.63, e ela ficou aberta como aviso até a v0.186.* **Elas são outra coisa das seis acima:** *aquelas são shikigami do material montados com o catálogo; estas são a montagem que a Trilha pede, no nível em que ela é escolhida.*
+
+| montagem por Trilha | entradas | pontos | orçamento no nv2 | `For · Des · Con · Int · Ess` |
+|---|---|---|---|---|
+| **`Servo`** | `Agarrar` + `Interpor` | 12 | 12 | `3 · 1 · 3 · 1 · 1` |
+| **`Matilha`** | `Agarrar` + `Arrastar` | 8 | 8 | `3 · 2 · 1 · 1 · 2` |
+| **`Coro`** | `Fisgada` | 8 | 8 | `1 · 3 · 1 · 2 · 2` |
+
+**As três gastam o orçamento inteiro do nível 2**, e o do `Servo` é o da ficha mais metade pela concessão dele — não é montagem mais cara, é bolso maior.
+
+**Cada uma mostra a concessão da Trilha, e não só o orçamento.** *O `Interpor` do `Servo` só faz sentido num corpo que aguenta o golpe, e é justamente o que aquela Trilha entrega; a `Matilha` agarra e arrasta com cinco de uma vez, que é o **"o que assusta é o número"** da peça 6 §4; e a `Fisgada` do `Coro` prende à distância para o golpe do dono entrar atrás — o encadeamento que ele compra com a exceção de economia de ação.*
+
+*O arranjo segue a régua das seis: o principal sai da entrada comprada — `Agarrar` pede Força e `Fisgada` pede Destreza —, e o resto é a ficção do bicho.*
+
 ### O que cada Trilha concede — a Q6 fechou na v0.63
 
 *Ela era a única pergunta que esta peça deixou aberta, e ela nunca foi desta peça: `Servo`, `Matilha` e `Coro` são Trilhas.* **Fechou pela régua da Q3 de Trilhas**, e o achado que a destravou é de forma e não de número: o `Servo` estava dominado **por falta de eixo**. Ele empatava em saída — o teto de uma Rotina é igual para as três — e perdia ou empatava em corpos e em ação, então não existia número que o consertasse dentro dos três eixos. *Subir a saída fura a peça 6 §4; dar corpo o transforma na `Matilha`; dar ação o transforma no `Coro`.*
@@ -1061,7 +1079,7 @@ Rodada a triagem antes de escrever qualquer coisa:
 - **O teto de uma Rotina conferido pela economia de ação, e não pela divisão escrita** — se algum dia comandar deixar de custar a ação padrão, o teto volta a precisar de decreto e a checagem tem de acusar.
 - **A exceção do Coro medida somada**: atacar e comandar na mesma rodada não pode passar de uma Rotina.
 - **A busca exaustiva sobre todas as montagens legais do orçamento**, no molde do que o `conferir-equipamento.py` faz com as 196 montagens de proteção — dominância entre montagens, e nenhuma gastando menos que o orçamento cheio.
-- **As três montagens publicadas conferidas contra a máquina**, e não só a máquina contra si mesma. *A peça 8 é o precedente e ele custou sete versões.*
+- **As montagens publicadas conferidas contra a máquina**, e não só a máquina contra si mesma. *A peça 8 é o precedente e ele custou sete versões.* **São duas tabelas e elas se conferem diferente:** as seis do material contra o catálogo e o nível em que cabem; **as três por Trilha contra o orçamento do nível 2**, com o do `Servo` derivado da concessão dela e nunca lido. *Nas duas, o arranjo soma nove, topa em `3`, tem o principal saindo da entrada comprada, e é distinto dentro da própria tabela — e o capítulo 16 publica os mesmos.*
 - **Nenhuma linha da ficha pode crescer em ritmo diferente de `+3`.** Perturbar o ritmo de qualquer linha derivada tem de acender — e o contra-teste é perturbar a **maestria na peça 1** e ver o acerto da invocação andar junto, provando que a checagem não se mede contra a própria constante.
 - **A fórmula de vida lida da peça 1, nunca de constante.**
 - **A invariante da Q2: nenhuma regra pode dar corpo com barra de vida própria.** A Matilha é um pool; uma Trilha ou aptidão que devolva barras separadas desfaz a conta do limiar `D = h` do §3.2.

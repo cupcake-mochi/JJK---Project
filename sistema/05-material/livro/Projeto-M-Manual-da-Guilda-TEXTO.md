@@ -5986,6 +5986,19 @@ Seis invocações conhecidas, montadas com os catálogos `Traço` e `Comando`.
 
 A última coluna é o arranjo de atributo de cada um, na ordem da sua própria ficha. **Você pode copiar como está ou trocar** — são os seus nove pontos, e o bicho é seu.
 
+E se você quiser só começar a jogar, tem uma montagem pronta para cada Trilha, no nível em que você escolhe ela.
+
+**Uma montagem pronta por Trilha**
+| a sua Trilha | montagem | pontos | `For · Des · Con · Int · Ess` |
+|---|---|---|---|
+| `Servo` | `Agarrar` + `Interpor` | 12 | `3 · 1 · 3 · 1 · 1` |
+| `Matilha` | `Agarrar` + `Arrastar` | 8 | `3 · 2 · 1 · 1 · 2` |
+| `Coro` | `Fisgada` | 8 | `1 · 3 · 1 · 2 · 2` |
+
+As três gastam o orçamento inteiro do nível 2. O `Servo` gasta `12` porque o orçamento dele é o da ficha mais metade, e não porque a montagem dele seja mais cara.
+
+Cada uma usa o que a sua Trilha entrega. O `Servo` põe o corpo entre você e o golpe, e só um corpo que aguenta faz isso valer a pena. A `Matilha` agarra e arrasta com cinco de uma vez. E o `Coro` prende um alvo à distância para o seu golpe entrar atrás, que é o que aquela Trilha existe para fazer.
+
 > **Exemplo com a Trilha por cima.** A Mei escolhe a Trilha `Matilha` no nível 2, e é a Trilha que dá os cinco corpos dela: isso não custa nenhum ponto do orçamento. Com os `8` pontos que ela tem, ela compra `Miúdo` por `7`, e os cinco corpos passam por vãos que ninguém mais passa. Sobra `1` ponto, que não compra nada ainda e fica guardado até o nível 6.
 
 ## Amarra e alcance
@@ -6453,4 +6466,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: f5f5e9597164374b584a0e7816490dc1fca2225a -->
+<!-- fonte: 8c7ff8c31ede452310f7b057ecf02af24d33e765 -->

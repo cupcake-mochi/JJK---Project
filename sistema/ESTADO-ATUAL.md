@@ -1,8 +1,16 @@
 # Estado atual do projeto
 
-Atualizado em 30/08/2026, na v0.185 (última peça fechada: **Sem Técnica**, a peça 25, na v0.168, com o `conferir-sem-tecnica.py` e doze checagens; antes dela, **Dano de alma e Integridade, na v0.145**; antes dela, o **Bloquear, na v0.143**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 30/08/2026, na v0.186 (última peça fechada: **Sem Técnica**, a peça 25, na v0.168, com o `conferir-sem-tecnica.py` e doze checagens; antes dela, **Dano de alma e Integridade, na v0.145**; antes dela, o **Bloquear, na v0.143**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.185.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e cinco peças escritas** e **vinte e cinco validadores**.
+**Versão v0.186.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e cinco peças escritas** e **vinte e cinco validadores**.
+
+**A v0.186 escreveu as três montagens por Trilha, que a peça 15 devia desde a v0.53.** *A Q6 que as bloqueava fechou na v0.63, e elas ficaram **123 versões** como aviso que não falhava o validador — de propósito, porque escrever as três era escolha de sabor do Mizuki e não conserto.*
+
+> **`Servo` = `Agarrar` + `Interpor` · `Matilha` = `Agarrar` + `Arrastar` · `Coro` = `Fisgada`.** *As três gastam o orçamento inteiro do nível 2, e o do `Servo` é `12` porque a concessão dele é o da ficha mais metade — não é montagem mais cara, é bolso maior.*
+>
+> **Cada uma mostra a concessão da Trilha, e não só o orçamento.** *O `Interpor` só faz sentido num corpo que aguenta o golpe; a `Matilha` agarra e arrasta com cinco de uma vez; e a `Fisgada` do `Coro` prende à distância para o golpe do dono entrar atrás.* **Elas moram em tabela própria**, separadas das seis do material — *aquelas são shikigami montados com o catálogo, estas são a montagem que a Trilha pede.*
+>
+> **O aviso virou conferência.** *A checagem 17 confere as três contra o orçamento do nível 2, com o do `Servo` derivado da concessão e nunca lido, e compara os arranjos com o capítulo 16.* **Nove perturbações acendem.**
 
 **A v0.182 passou a peça 15 pela passada de texto, e o que ela achou não era tamanho.** *A peça tinha ficado em quatro camadas depois de duas reescritas seguidas — o princípio novo, um ⚠ citando o velho, um argumento marcado como história, e as tabelas da v0.181 —, e quem abrisse ela em conversa nova lia as quatro como se fossem uma.*
 
@@ -22,7 +30,7 @@ Atualizado em 30/08/2026, na v0.185 (última peça fechada: **Sem Técnica**, a 
 >
 > **A Defesa dela é `10 + Destreza dela + metade da Essência ou da Inteligência do dono`**, escolhida na montagem. *Ideia do Mizuki, e o número dele fechou exato: a Defesa dela bate com o alvo difícil do personagem em quatro dos cinco níveis medidos.* **Sem ela o inimigo acertaria `75%` no nível 30, contra `55%` num personagem.**
 >
-> **⚠ O deslocamento morreu inteiro, e com ele a única ponte entre as duas moedas do subsistema.** *Quatro checagens trocaram de assunto — a 8, a 10, a 18 e a 30 —, todas com o motivo escrito no código.* **As seis montagens de shikigami foram refeitas na v0.181**, com arranjo de atributo cada uma, e a checagem 17 confere a soma, o teto e o atributo principal. *Segue aberta só a promessa antiga: três invocações já montadas, uma por Trilha, prometidas desde a v0.53.*
+> **⚠ O deslocamento morreu inteiro, e com ele a única ponte entre as duas moedas do subsistema.** *Quatro checagens trocaram de assunto — a 8, a 10, a 18 e a 30 —, todas com o motivo escrito no código.* **As seis montagens de shikigami foram refeitas na v0.181**, com arranjo de atributo cada uma, e a checagem 17 confere a soma, o teto e o atributo principal. ~~*Segue aberta só a promessa antiga: três invocações já montadas, uma por Trilha, prometidas desde a v0.53.*~~ ***FECHADA na v0.186***, com tabela própria no §3.7 e no capítulo 16.
 
 **A v0.179 fechou as duas pendências que a v0.176 deixou anotadas, e nenhuma era o que a anotação dizia.**
 
