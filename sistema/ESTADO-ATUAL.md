@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 30/08/2026, na v0.183 (última peça fechada: **Sem Técnica**, a peça 25, na v0.168, com o `conferir-sem-tecnica.py` e doze checagens; antes dela, **Dano de alma e Integridade, na v0.145**; antes dela, o **Bloquear, na v0.143**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 30/08/2026, na v0.184 (última peça fechada: **Sem Técnica**, a peça 25, na v0.168, com o `conferir-sem-tecnica.py` e doze checagens; antes dela, **Dano de alma e Integridade, na v0.145**; antes dela, o **Bloquear, na v0.143**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.183.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e cinco peças escritas** e **vinte e cinco validadores**.
+**Versão v0.184.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e cinco peças escritas** e **vinte e cinco validadores**.
 
 **A v0.182 passou a peça 15 pela passada de texto, e o que ela achou não era tamanho.** *A peça tinha ficado em quatro camadas depois de duas reescritas seguidas — o princípio novo, um ⚠ citando o velho, um argumento marcado como história, e as tabelas da v0.181 —, e quem abrisse ela em conversa nova lia as quatro como se fossem uma.*
 
@@ -98,7 +98,7 @@ Atualizado em 30/08/2026, na v0.183 (última peça fechada: **Sem Técnica**, a 
 >
 > **Duas Trilhas monocromáticas na mesma coluna sempre dominam uma à outra**, e a dominância entre `Matilha` e `Coro` ficou **declarada**: o eixo que separa as duas mora na outra matriz, cinco corpos contra atacar-e-comandar. *A checagem 15 do `conferir-catalogo.py` reconta a matriz e só aceita declaração que nomeie o eixo de fora.*
 >
-> **⚠ E um nome ficou batizado duas vezes:** *`Casco` é Bênção e é rota da `Sintonia` do Evocador, e os dois são sobre ganhar vida.* **Fica como achado aberto.**
+> ~~**⚠ E um nome ficou batizado duas vezes:** *`Casco` é Bênção e é rota da `Sintonia` do Evocador.*~~ ***FECHADO na v0.184:*** **a rota da `Sintonia` virou `Parrudo`**, e o `Casco` fica com a Bênção. *Renomear a rota custava três lugares e a Bênção custava oito — e o sentido de `Casco`, `"o golpe entra e não derruba"`, descreve a Bênção e não invocação com mais vida.*
 
 **A v0.163 fechou as duas pendências de Invocações.** *Com o dono caído, quem fica de pé tem Ação Padrão e comanda como sempre; a invocação agir sozinha é recusada pela conta, porque ela dobraria o dano por rodada.* **A vida cheia da invocação volta no descanso longo**, derivado da peça 10 §3 — o respiro não devolve vida.
 

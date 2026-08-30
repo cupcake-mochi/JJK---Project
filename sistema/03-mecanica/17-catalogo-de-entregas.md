@@ -27,7 +27,7 @@ Ela não estava escrita em lugar nenhum, e é por isso que a contagem publicada 
 |---|---|---|
 | as três rotas do `Batedor` | **12** — três rotas × quatro níveis | a rota se escolhe no nível 2 e vale a campanha. **A matriz da Vanguarda já entra com cinco linhas e não três** justamente porque as três são fichas diferentes |
 | a `Pegada` do `Executor` | **4** | a lista de estilos é menu de um degrau. Quem escolhe estilo continua sendo um `Executor` |
-| a `Sintonia` do Evocador | **4** | mesma forma da `Pegada` — `Presa`, `Casco` e `Voz` são três linhas de um degrau, não três Trilhas |
+| a `Sintonia` do Evocador | **4** | mesma forma da `Pegada` — `Presa`, `Parrudo` e `Voz` são três linhas de um degrau, não três Trilhas |
 | a `Escola de Arma` da Vanguarda | **1 degrau + 14 Manhas** | o degrau é um; as Manhas são catálogo próprio, e por isso elas têm seção separada aqui |
 
 *Sem essa regra a contagem não fecha duas vezes seguidas do mesmo jeito, e foi o que aconteceu: a v0.84 publicou `48` entregas com a divisão `Estocada 4 · Batedor 8 · o resto 5`, e recontando dos arquivos sai outra divisão com o mesmo total. **Total que fecha por caminhos diferentes é total que ninguém está conferindo.***

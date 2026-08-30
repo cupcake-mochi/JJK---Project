@@ -525,7 +525,7 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 14, 
 
 > **Nível 2: `Sintonia`.** **Escolha uma:**
 > **`Presa`** — as suas invocações acertam crítico com **19 ou 20**.
-> **`Casco`** — as suas invocações têm mais vida, equivalente a **`5 ×` a sua maestria**.
+> **`Parrudo`** — as suas invocações têm mais vida, equivalente a **`5 ×` a sua maestria**.
 > **`Voz`** — a CD dos efeitos das suas invocações sobe em **`1`**, e vira **`metade da sua maestria`** a partir do nível 7.
 >
 > **Nível 7: `Coleira`.** As suas invocações são **treinadas nas perícias e Testes de Resistência que a ficha delas tiver**, e somam **`+1` no acerto**.

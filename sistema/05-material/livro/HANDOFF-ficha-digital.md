@@ -153,7 +153,7 @@ Independente da plataforma, esta ordem evita retrabalho:
 Não invente regra para nenhuma delas. Deixe o campo aberto, ou marque como pendente.
 
 - **O nível 27 da Trilha `Arremate`**: casa vaga de propósito.
-- **`Casco`**, a segunda opção da `Sintonia` do Evocador: diz "mais vida" sem número.
+- **`Parrudo`**, a segunda opção da `Sintonia` do Evocador: diz "mais vida" sem número.
 
 > **Esta lista tinha cinco itens e três fecharam, em versões diferentes.** *As três Trilhas do Evocador — `Servo`, `Matilha` e `Coro` — fecharam na **v0.164**, e com elas as quinze Trilhas. **Pactos** fechou na **v0.134**, e é a peça 22. E a última das nove rotas de Origem fechou na **v0.168**: a `Técnica Marcial` é a peça 20, desde a v0.122, e `Sem Técnica` é a peça 25.*
 >

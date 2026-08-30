@@ -8,6 +8,40 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.184] — 30/08/2026
+
+**O `Casco` estava batizado duas vezes desde a v0.164, e a colisão não era só o nome repetido.** *Ele era Bênção — **você** ganha `+1` de vida a cada dois níveis — e era rota da `Sintonia` do Evocador — as suas **invocações** têm mais vida.* **Dois donos diferentes, a mesma promessa, a mesma palavra.**
+
+### 1 · Qual lado renomear saiu da contagem, não do gosto
+
+| renomear | custa | e o sentido de `Casco`? |
+|---|---|---|
+| a **Bênção** | **8 lugares** — peça 11, capítulo 47 e o `ESTADO-ATUAL` | *"o golpe entra e não derruba"* — **é ela** |
+| a **rota da `Sintonia`** | **3 lugares** — capítulo 35, peça 17 e o handoff da ficha | invocação com mais vida não é casco de ninguém |
+
+**As duas metades apontam para o mesmo lado**, e é raro elas concordarem: o lado barato é também o lado em que o nome fazia menos sentido.
+
+*E os irmãos do trio estão limpos:* `Presa` e `Voz` não colidem com nada, e a `Presa` ainda amarra com a `Dentada` do nível 19.
+
+### 2 · O nome, e o precedente que ele precisava ter
+
+***Escolha do Mizuki: `Parrudo`.*** **Ele sai `LIVRE` na triagem**, e a única ocorrência da palavra no projeto é minúscula, em prosa da peça 14, no sentido comum — não é termo.
+
+**Ele é adjetivo, e o projeto já batiza com adjetivo:** *o `Miúdo` e o `Graúdo` da peça 15 são exatamente isso.* **A trava de categoria da triagem é contra `<substantivo> <adjetivo>` em duas palavras**, e não contra o adjetivo sozinho.
+
+### Alterado
+
+- **A segunda rota da `Sintonia` do Evocador**, de `Casco` para `Parrudo`, nos três lugares: o capítulo 35 do livro, a peça 17 e o `HANDOFF-ficha-digital.md`.
+- **O ⚠ do `ESTADO-ATUAL`**, que carregava o achado desde a v0.164 e agora diz por que o `Casco` ficou com a Bênção.
+
+### Decidido
+
+- **O `Casco` fica com a Bênção**, porque o sentido dele descreve ela.
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **Seguem abertas as três montagens por Trilha** e a vaga de `Desliga` do Corpo Amaldiçoado. *E dois números seguem sem checagem: o `±10%` do ponto de ficha, e o `5 × a sua maestria` do próprio `Parrudo` — nenhum validador lê a linha daquela rota, e foi por isso que a colisão de nome durou vinte versões.*
+
+---
+
 ## [0.183] — 30/08/2026
 
 **A v0.178 baixou a vida do corpo forte de `5 ×` para `2,5 ×` a fórmula, e a mudança chegou na regra e parou lá.** *O argumento da peça 15 seguiu publicando outros dois valores — o `3 ×`, que foi um degrau no meio daquela mesma versão e nunca foi decisão, e o `5h`, que era o de antes.* **A regra sempre esteve certa, e o livro também: nada na mesa de jogador estava errado.**
