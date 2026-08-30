@@ -8,6 +8,82 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.182] — 30/08/2026
+
+**A peça 15 levou duas reescritas estruturais seguidas e ficou em camadas, e a passada de texto achou que o problema não era tamanho.** *Ela saiu de `18.998` para `18.407` palavras — `591` a menos, `3,1%`.* **O que estava errado não era o volume: eram doze lugares desatualizados** — *dez descrevendo o mecanismo que morreu na v0.180, um carregando um número de antes da v0.67, e um cobrando uma dívida que a v0.181 já tinha pago.*
+
+### 1 · Quatro camadas do mesmo princípio, lidas como se fossem uma
+
+**A regra da ficha própria estava escrita três vezes dentro do mesmo documento** — na resposta da Q3, no princípio do §3.3, e outra vez num bloco do §3.6 —, *e ao lado dela um ⚠ citava o princípio velho por extenso, repetindo um argumento que a entrada da v0.180 já carrega inteiro.*
+
+***Decisão do Mizuki: apagar, e não encolher.*** *"Por que alguém leria algo que não existe? Antes até tinha no documento alguns apontamentos sem sentido de coisas que foram removidas."*
+
+**O bloco velho não era dono único de nada, e isso foi conferido antes de ele sair:** *a metade dele que ainda trabalha — por que o teto de `3` na criação é obrigatório — já estava escrita separada, com os números, seis linhas acima.* **A peça é dona da decisão; o CHANGELOG é dono do porquê.**
+
+### 2 · Cinco frases descreviam o mecanismo morto em tempo PRESENTE
+
+| onde | o que ela dizia |
+|---|---|
+| §3.6, o argumento | *"**Descer devolve ponto**"* |
+| §3.6, logo abaixo | *"**A devolução é `4`**"* |
+| §3.6, o fecho | *"a moeda extra vindo de **abrir mão de número**"* |
+| §3.6, a tabela das duas moedas | o rótulo `1 ponto de deslocamento` |
+| §3.7, o `Traço` de corpo duro recusado | *"Defesa já é **a moeda do deslocamento**"* |
+
+> **A varredura da v0.181 achou sete lugares e parou, e estas cinco estavam ali o tempo todo.** ***As três primeiras moravam numa seção cujo título já anunciava que o mecanismo tinha morrido:*** *o rótulo cobria o bloco, e o corpo dele seguia em tempo presente.* **Ler o rótulo e pular o corpo é exatamente o modo de falha que a varredura por expressão existe para pegar** — e desta vez ele pegou a própria varredura. *As outras duas moravam em seções que não anunciavam nada, e por isso ninguém foi olhar.*
+
+### 3 · E o §5 tinha divergido do código, que é o pior lugar para isso acontecer
+
+**O §5 é a especificação das trinta e duas checagens.** *Ele descrevia duas que não existem mais e **não descrevia a que nasceu no lugar de uma delas**.*
+
+| checagem | o §5 dizia | o código faz |
+|---|---|---|
+| **8** | o TAMANHO da devolução | `ARRANJO`, desde a v0.180 |
+| **27** | *"linha que já é deslocamento"* | a proibição trocou de dono, e o comentário do código já dizia isso |
+| **30** | `PISO-DA-VENDA` | **`DEFESA`** — e ela estava sem uma linha de especificação |
+
+**A checagem da Defesa da invocação nasceu na v0.180 e passou duas versões sem espec.** *Ela é a que prova que a Defesa dela cresce no mesmo passo da Defesa do alvo, com contra-teste — e ela é o único lugar em que o mecanismo novo daquela versão é conferido.*
+
+### 4 · E o `ESTADO-ATUAL` carregava um número de antes da v0.67
+
+**O resumo da máquina dizia que o orçamento da invocação é de `2 a 9` pontos.** *O dono diz `8 a 36` desde a v0.67, quando a moeda foi quebrada em quatro.* **São cento e catorze versões de cópia divergindo do dono, e nenhum validador olha para aquela linha** — é a lição nº 9 na forma que não tem número: prosa.
+
+*Na mesma varredura saíram mais duas daquele arquivo:* **o índice de peças ainda chamava a ficha de derivada**, e **o aviso de que as montagens dos shikigami *"precisam ser refeitas"* já tinha sido pago pela v0.181.**
+
+### 5 · O arnês, e o controle que separou o meu erro de um defeito antigo
+
+**Cinco perturbações acendem a checagem certa, e o contra-teste fica verde.** *E uma passou verde sem eu esperar: perturbar o `±10%` do ponto de ficha de `10` para `40` não acende nada.*
+
+**O controle mostrou que a cegueira é anterior a mim** — *com o rótulo velho ou com o novo, o resultado é idêntico.* **A checagem lê aquele número, imprime, e nunca compara com nada:** é o que sobrou quando a metade quantitativa dela morreu junto com a venda. *Fica anotado e não virou checagem aqui — escrever ela é decidir contra o que o `±10%` se mede, e isso é design e não passada de texto.*
+
+### Adicionado
+
+- **O item do §5 que especifica a checagem `30`**, a Defesa da invocação, com o contra-teste que ela roda.
+
+### Alterado
+
+- **O rótulo da linha das duas moedas**, de `1 ponto de deslocamento` para `1 ponto de atributo dela`. *A checagem 10 continua lendo a linha; o que mudou foi ela parar de nomear um mecanismo morto.*
+- **O item do §5 da checagem `27`**, com o dono novo: acerto, Defesa e vida saem do arranjo de atributo da peça 2.
+- **A recusa do `Traço` de corpo duro no §3.7**, pelo mesmo motivo.
+- **O nome da variável e a mensagem de erro da checagem `27`** no `conferir-invocacoes.py`, que ainda diziam *deslocamento*.
+- **Três linhas do `ESTADO-ATUAL`**: o orçamento, a ficha no índice de peças, e o aviso das montagens.
+
+### Removido
+
+- **O ⚠ que citava o princípio do deslocamento por extenso**, no §3.3 da peça 15.
+- **O ⚠ que registrava qual frase a v0.181 tinha consertado**, na mesma seção — contabilidade do projeto vazando para dentro da peça.
+- **A seção do §3.6 que anunciava uma regra morta no próprio título**, com o bloco de regra repetido e os dois parágrafos da devolução. *O que sobrou dela — a tabela da ficha — ganhou título que diz o que ela é.*
+- **Os dois itens do §5 que especificavam checagens que não existem**: o tamanho da devolução e o piso da venda.
+
+### Decidido
+
+- **Argumento de mecanismo morto sai da peça e fica só no CHANGELOG.**
+- **Rótulo de seção não cobre o corpo dela.** *Um bloco que anuncia "isto morreu" e segue em tempo presente lê como regra viva, e foi assim que cinco frases atravessaram a varredura da versão anterior.*
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **Seguem abertas as três montagens por Trilha**, prometidas desde a v0.53, o `Casco` batizado duas vezes desde a v0.164, e a vaga de `Desliga` do Corpo Amaldiçoado. *E ficam anotados dois achados desta passada que não viraram trabalho: o `±10%` do ponto de ficha não tem checagem, e o `RASCUNHO-trilhas.md` ainda descreve a régua de morte da peça 15 como se ela lesse a vida máxima do corpo, que a v0.178 trocou por escala fixa.*
+
+---
+
 ## [0.181] — 29/08/2026
 
 **A v0.180 acertou a regra e deixou o argumento inteiro falando do mecanismo que ela matou.** *Sete lugares vivos, num documento que o validador varre inteiro toda vez.*

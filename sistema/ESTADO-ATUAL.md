@@ -1,8 +1,18 @@
 # Estado atual do projeto
 
-Atualizado em 29/08/2026, na v0.181 (última peça fechada: **Sem Técnica**, a peça 25, na v0.168, com o `conferir-sem-tecnica.py` e doze checagens; antes dela, **Dano de alma e Integridade, na v0.145**; antes dela, o **Bloquear, na v0.143**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 30/08/2026, na v0.182 (última peça fechada: **Sem Técnica**, a peça 25, na v0.168, com o `conferir-sem-tecnica.py` e doze checagens; antes dela, **Dano de alma e Integridade, na v0.145**; antes dela, o **Bloquear, na v0.143**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.181.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e cinco peças escritas** e **vinte e cinco validadores**.
+**Versão v0.182.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e cinco peças escritas** e **vinte e cinco validadores**.
+
+**A v0.182 passou a peça 15 pela passada de texto, e o que ela achou não era tamanho.** *A peça tinha ficado em quatro camadas depois de duas reescritas seguidas — o princípio novo, um ⚠ citando o velho, um argumento marcado como história, e as tabelas da v0.181 —, e quem abrisse ela em conversa nova lia as quatro como se fossem uma.*
+
+> **Doze lugares estavam desatualizados** — *dez descrevendo o mecanismo que morreu na v0.180, um com um número de antes da v0.67, e um cobrando dívida que a v0.181 já tinha pago.* ***Três das frases em tempo presente moravam numa seção cujo título já dizia que o mecanismo tinha morrido:*** **o rótulo cobria o bloco, e o corpo dele seguia em tempo presente.** *Foi assim que elas atravessaram a varredura da v0.181, que existiu só para isso.*
+>
+> **E o §5 tinha divergido do código.** *Ele especificava duas checagens que não existem — o tamanho da devolução e o piso da venda — e **não especificava a `30`, a Defesa da invocação**, que nasceu na v0.180 e passou duas versões sem espec.*
+>
+> ***Decisão do Mizuki: apagar, e não encolher.*** *"Por que alguém leria algo que não existe?"* **A peça é dona da decisão; o CHANGELOG é dono do porquê.** *Ela saiu de `18.998` para `18.407` palavras, e nenhum número de regra se moveu — as 26 diferenças do `guard_numeros.py` foram lidas uma a uma contra a linha que as carregava.*
+>
+> **⚠ Dois achados desta passada ficaram anotados e não viraram trabalho.** *O `±10%` do ponto de ficha é lido pela checagem 10, impresso, e nunca comparado com nada — cegueira anterior a esta versão, medida com controle. E o `RASCUNHO-trilhas.md` ainda descreve a régua de morte da peça 15 como se ela lesse a **vida máxima** do corpo, que a v0.178 trocou por escala fixa.*
 
 **A v0.180 tirou a ficha da invocação de cima da ficha do invocador.** ***Objeção do Mizuki:*** *"não faz sentido utilizar acerto, defesa e atributos do invocador — o invocador vai querer invocações que fazem o que ele não faça."*
 
@@ -12,7 +22,7 @@ Atualizado em 29/08/2026, na v0.181 (última peça fechada: **Sem Técnica**, a 
 >
 > **A Defesa dela é `10 + Destreza dela + metade da Essência ou da Inteligência do dono`**, escolhida na montagem. *Ideia do Mizuki, e o número dele fechou exato: a Defesa dela bate com o alvo difícil do personagem em quatro dos cinco níveis medidos.* **Sem ela o inimigo acertaria `75%` no nível 30, contra `55%` num personagem.**
 >
-> **⚠ O deslocamento morreu inteiro, e com ele a única ponte entre as duas moedas do subsistema.** *Quatro checagens trocaram de assunto — a 8, a 10, a 18 e a 30 —, todas com o motivo escrito no código.* **Fica em aberto o que a peça 15 §3.7 ainda promete: as três montagens publicadas dos shikigami foram escritas contra a ficha derivada e precisam ser refeitas.**
+> **⚠ O deslocamento morreu inteiro, e com ele a única ponte entre as duas moedas do subsistema.** *Quatro checagens trocaram de assunto — a 8, a 10, a 18 e a 30 —, todas com o motivo escrito no código.* **As seis montagens de shikigami foram refeitas na v0.181**, com arranjo de atributo cada uma, e a checagem 17 confere a soma, o teto e o atributo principal. *Segue aberta só a promessa antiga: três invocações já montadas, uma por Trilha, prometidas desde a v0.53.*
 
 **A v0.179 fechou as duas pendências que a v0.176 deixou anotadas, e nenhuma era o que a anotação dizia.**
 
@@ -724,7 +734,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/14-equipamento.md` | proteção, escudo, **as 52 armas** com fundo `3/5`, treino, requisito de Força e a divisão simples/marcial |
 | `03-mecanica/16-ferramenta-amaldicoada.md` | **a camada por cima da arma**: a escada de grau, o `Estigma`, o gate herdado da peça 11, o `Desgaste`, o teto na ficha e as onze entradas |
 | `03-mecanica/conferir-ferramenta.py` | as **dezenove** checagens da peça 16, e o par declarado entre a 3 e a 9. *A 19 entrou na v0.152: ela mede dominância **dentro** da Classe, que é o único corte que a peça 11 §4 autoriza, e lê os preços de uma tabela com dono só.* *A 17 entrou na v0.144: ela lê a promessa de limite de uso do próprio título da Classe 2 e cobra ela de cada entrada, com o teto de Reações por luta lido da peça 1* |
-| `03-mecanica/15-invocacoes.md` | **o sistema de criação de invocação**: a casa de iniciativa, o pool da Matilha, a ficha derivada, o custo, a morte, o retorno e o catálogo de 19 entradas |
+| `03-mecanica/15-invocacoes.md` | **o sistema de criação de invocação**: a casa de iniciativa, o pool da Matilha, a ficha própria dela, o custo, a morte, o retorno e o catálogo de 19 entradas |
 | `03-mecanica/conferir-atributos.py` | acerto, defesa, TR, perícia, vida, PE máximo e a deriva contra o nível |
 | `03-mecanica/conferir-acao.py` | a régua das Restrições, a dominância entre elas e o `Adianta` |
 | `03-mecanica/conferir-pericias.py` | o quadro de perícias, as listas de Caminho e de Origem, e a colisão |
@@ -1194,7 +1204,7 @@ Quatro peças, e a ordem é de **dependência**, não de tamanho. A ordem que el
 
 > **A peça fechou na v0.58, e o argumento inteiro mora nela — não aqui.** A Q1 (iniciativa) no §3.1, a Q2 (cinco fichas ou uma) no §3.2, a Q3 (a ficha) no §3.3 e no §3.6, a Q4 (o custo) no §3.4, a Q5 (a morte e o retorno) no §3.5, o catálogo e a régua de criação no §3.7, e a especificação das trinta e duas checagens no §5. *Este ponteiro existe para quem retomar não recomeçar: as decisões têm um dono só, e é lá.*
 >
-> **A máquina, em seis linhas:** a invocação age **na casa do dono**; a Matilha é **uma ficha com cinco corpos**, pool com cascata, rodada resolvida **em pool**; a ficha é **derivada do dono mais um deslocamento que só desce**, com `Traço` e `Comando` comprados num orçamento de **2 a 9** pontos; invocar custa **`1 × maior Classe` e a ação padrão**, e **comandar custa a ação padrão**; ela **some no zero**, é **vulnerável a área** e **morre em definitivo** se o excedente passar de metade da régua ou um golpe causar a régua inteira, sendo a régua `5 ×` a vida da fórmula para qualquer corpo — e quem só chegou a zero volta com **metade da vida**; e **a amarra são 18 metros**, lidos do alcance base de Projétil.
+> **A máquina, em seis linhas:** a invocação age **na casa do dono**; a Matilha é **uma ficha com cinco corpos**, pool com cascata, rodada resolvida **em pool**; a ficha é **dela** — os cinco atributos no orçamento da peça 2, e a maestria do dono em toda rolagem —, com `Traço` e `Comando` comprados num orçamento de **8 a 36** pontos; invocar custa **`1 × maior Classe` e a ação padrão**, e **comandar custa a ação padrão**; ela **some no zero**, é **vulnerável a área** e **morre em definitivo** se o excedente passar de metade da régua ou um golpe causar a régua inteira, sendo a régua `5 ×` a vida da fórmula para qualquer corpo — e quem só chegou a zero volta com **metade da vida**; e **a amarra são 18 metros**, lidos do alcance base de Projétil.
 >
 > **A Q6 fechou na v0.63**, e ela nunca foi desta peça: `Servo`, `Matilha` e `Coro` são Trilhas. **O `Servo` estava dominado por falta de eixo** — empatava em saída e perdia ou empatava em corpos e ação —, então não existia número que o consertasse dentro dos três. *O conserto era uma coluna nova na matriz.* **A concessão: o corpo do `Servo` leva `5 × h` de vida — o pool inteiro da `Matilha` num corpo só — e o orçamento da ficha mais metade.** A tabela está no fim do §3.7 daquela peça, e o `DOMINANCIA_PENDENTE_Q6` do validador foi a **conjunto vazio**.
 >

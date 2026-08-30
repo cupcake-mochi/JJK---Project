@@ -1722,25 +1722,25 @@ elif not re.search(r'quarto formato', PECA):
                  'peca 11 SS5, e a peca nao o declara como tal')
 
 # =============================================================================
-# 27. NAO-COMPRA — nenhuma entrada compra linha que ja e deslocamento
+# 27. NAO-COMPRA — nenhuma entrada vende linha que ja tem outro dono
 # =============================================================================
 # v0.180: o nome era 'linha que ja e deslocamento'. O deslocamento morreu com a
 # ficha propria, e a proibicao NAO morreu junto — ela so trocou de dono: acerto,
 # Defesa e vida agora saem do orcamento de atributo da peca 2, e vende-las de novo
 # dentro do catalogo continua sendo pagar duas vezes pela mesma coisa.
 bloco('27. NAO-COMPRA — nenhuma entrada vende linha que ja tem outro dono')
-MOEDA_DO_DESLOCAMENTO = ('defesa', 'acerto', 'vida', 'constituicao')
+LINHAS_COM_OUTRO_DONO = ('defesa', 'acerto', 'vida', 'constituicao')
 sujas = []
 for e in CATALOGO:
     t = sem_acento(e['efeito'])
-    for palavra in MOEDA_DO_DESLOCAMENTO:
+    for palavra in LINHAS_COM_OUTRO_DONO:
         if re.search(rf'\b{palavra}\b', t):
             sujas.append((e['nome'], palavra))
 for nome_, palavra in sujas:
-    erro('NAO-COMPRA', f'"{nome_}" encosta em {palavra}, que ja e a moeda do deslocamento do '
-                       'SS3.6 — dois precos pela mesma coisa e a licao no 2 na forma em que '
+    erro('NAO-COMPRA', f'"{nome_}" encosta em {palavra}, que sai do arranjo de atributo da '
+                       'peca 2 — dois precos pela mesma coisa e a licao no 2 na forma em que '
                        'ela reincide aqui')
-print(f'  {len(CATALOGO)} entradas varridas contra {MOEDA_DO_DESLOCAMENTO}: '
+print(f'  {len(CATALOGO)} entradas varridas contra {LINHAS_COM_OUTRO_DONO}: '
       f'{len(sujas)} encostando.')
 
 # =============================================================================

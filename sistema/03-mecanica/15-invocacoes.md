@@ -318,14 +318,6 @@ Foi a pergunta do Mizuki que abriu isto: *"tem que ter algo que a ficha da invoc
 >
 > **acerto** = `atributo dela + maestria do dono` · **Defesa** = `10 + Destreza dela + metade da Essência ou da Inteligência do dono`, escolhida na montagem · **Teste de Resistência** = `d20 + atributo dela + maestria do dono`, com **um** treinado.
 
-> **⚠ Isto substituiu o deslocamento na v0.180, e a versão anterior está registrada porque o argumento dela continua valendo — só que aplicado a outro termo.** *Ela dizia:*
->
-> > *"Linha que encara dado — acerto, Defesa, TR — = a parte que **cresce**, vinda do dono, **mais um deslocamento fixo** da ficha dela. Linha fora de dado — vida, movimento — = fórmula própria com o atributo dela dentro."*
->
-> ***Achado do Mizuki:*** *"não faz sentido utilizar acerto, defesa e atributos do invocador — nada disso realmente é bom para a invocação, porque o invocador vai querer invocações que fazem o que ele não faça, e mesmo que façam, elas não vão ser iguais."* **Ele está certo, e a conta explica por que a saída velha parecia fechada:** *ela media o **ritmo** e concluiu, corretamente, que um deslocamento fixo não deriva.* **O que ela não mediu é que um deslocamento fixo NEGATIVO também não dá identidade** — ele só faz a invocação ser uma cópia pior do dono, na mesma direção que ele.
->
-> **A fórmula da peça 1 já separava as duas coisas, e ninguém tinha lido assim:** *`Ataque = d20 + atributo + maestria`.* **A maestria é o ritmo; o atributo é o valor.** *Trocar "o atributo do dono" por "o atributo dela" dá ficha própria sem tocar em uma vírgula do ritmo — que é a única coisa que a lição nº 1 proíbe.*
-
 ### O que morreu, e morreu num número do projeto
 
 **Vida compartilhada com o dono** — a saída do Summoner do PF2e, *"you both share a single pool of Hit Points"* — **não cabe aqui**:
@@ -363,8 +355,6 @@ De **1,4× a 4,9×** um ponto de Defesa. **Ou ela entra com preço próprio, ou 
 ### A forma: orçamento de pontos, com três montagens prontas
 
 *Decisão do Mizuki.* O jogador constrói a invocação em **duas moedas separadas** — o arranjo de atributo da peça 2 e o orçamento de `Traço` e `Comando` desta peça —, **e a peça publica invocações já montadas**, que servem de exemplo e de atalho.
-
-> **⚠ Esta frase listava `deslocamento de acerto, de Defesa, Constituição, movimento` até a v0.181, e as quatro morreram na v0.180.** *Ela sobreviveu à reescrita da Q3 porque estava numa seção de argumento e não numa de regra — que é exatamente onde uma frase velha passa despercebida.* **O validador não alcançava:** *ele confere as montagens contra o catálogo, e esta linha não é montagem nem catálogo.*
 
 **A fila do `ESTADO-ATUAL` já pedia isso e ninguém tinha lido em voz alta:** ela não chama a peça de *"Invocações"*, chama de ***"Invocações — o sistema de criação"***. A peça estava escrita como máquina de construção desde a v0.36.
 
@@ -642,13 +632,9 @@ Com a vida em pool (Q2) e `h` em meia Rotina (Q3), **um efeito de área que caus
 
 *E `Comando` é a mesma palavra da regra da Q4 — o dono gasta a ação padrão para **comandar**. O nome e a mecânica são a mesma coisa, o que é o oposto do problema que a lição nº 6 descreve.*
 
-### "Invocações raramente passam de força de seus portadores" vira regra
+### A ficha dela, e o que ela tem igual ao personagem
 
-*Frase do Mizuki, e ela pôs um teto no deslocamento fixo que a Q3 tinha deixado aberto para os dois lados. O teto natural era zero — **e o mecanismo inteiro morreu na v0.180**, quando a ficha deixou de derivar; o que segue é o registro de por que ele existiu:*
-
-> **A invocação tem os cinco atributos, e eles são dela.**
-
-**Descer devolve ponto, e o que é emprestado de Equipamento é o formato e não o número:** lá o §5.0.4 devolve 1 ponto de arma por restrição, e aqui a devolução é medida na moeda desta peça. *A distância entre as duas moedas encolheu quatro vezes na v0.67, e é justamente por isso que o número tem de estar escrito na escala daqui em vez de emprestado de lá.*
+*Frase do Mizuki que ancorou o desenho:* **"invocações raramente passam de força de seus portadores"**. *Ela não virou número — virou o lugar de onde os números saem: a invocação usa o orçamento de atributo do personagem, sem nada por cima.*
 
 | a ficha dela | igual ao personagem? | dono do número |
 |---|---|---|
@@ -662,9 +648,7 @@ Com a vida em pool (Q2) e `h` em meia Rotina (Q3), **um efeito de área que caus
 
 > **As duas que faltavam ganharam função com o Teste de Resistência próprio.** *Enquanto o TR era o número do dono, Inteligência e Essência não tinham onde entrar — e por isso a peça só usava três atributos.* **A peça 1 §4 escreve `TR = d20 + atributo do TR + maestria`**, então as cinco entram pela mesma porta.
 
-> **A devolução é `4` porque `4` é o que um ponto da escala velha virou** — o mesmo motivo pelo qual cada marco passou a dar `4`. *Ela ficou em `1` da v0.67 até a v0.68, e isso não foi decisão: a escala multiplicou o catálogo e o orçamento e passou por cima da venda.* **Com `1`, vender um ponto de acerto não comprava nem a entrada mais barata do catálogo** — a venda tinha perdido três quartos do poder de compra sem ninguém escolher isso.
-
-**Aquilo fechava três coisas de uma vez.** A frase do material virava regra em vez de orientação; **sumia a categoria de deslocamento positivo**, que era a mais difícil de precificar porque é a que empurra o acerto acima dos 50%; e o orçamento passa a comprar **só capacidade**, com a moeda extra vindo de abrir mão de número — que é a decisão que vale a pena existir.
+**E o orçamento desta peça compra só capacidade.** Ele não encosta em acerto, Defesa nem vida — esses três já têm dono, e é o arranjo de atributo da peça 2. *Não existe operação que troque um pelo outro, e é isso que mantém as duas moedas separadas.*
 
 ### A amarra são 18 metros, e o número não é novo
 
@@ -720,7 +704,7 @@ E a cadência já existe: **os sete marcos**, que governam atributo, refino e fe
 | âncora | 1 ponto vale |
 |---|---|
 | Equipamento §5 — 1 ponto de arma | `0,33` de dano por rodada |
-| esta ficha — 1 ponto de deslocamento | **±10% do que a invocação entrega** |
+| esta ficha — 1 ponto de atributo dela | **±10% do que a invocação entrega** |
 
 **Os dois pontos não valem a mesma coisa, e desde a v0.180 eles não têm mais como se encontrar.** *Até ali existia uma razão publicada — `0,5×` no nível 2 e `4,1×` no nível 30 — e ela era medida **através da venda**: descer um ponto de acerto devolvia orçamento, e essa devolução era a ponte entre as duas moedas.* **Com a ficha própria a venda deixou de existir**, e com ela a ponte: o orçamento compra `Traço` e `Comando`, os atributos saem do orçamento da peça 2, e não há operação que troque um pelo outro.
 
@@ -927,7 +911,7 @@ O que sobra do talismã é o eixo dos shikigami que **não** são do Megumi — 
 
 > **Por que o núcleo do Panda ficou de fora, escrito para não voltar.** Trocar de configuração no meio da luta não cabe nos degraus que existem, porque ele não compra capacidade: **ele dobra a montagem inteira.** As saídas medidas eram um degrau de 12 pontos — que nasceria inalcançável até o nível 6, porque o orçamento do nível 2 é 8, e é degrau com um morador só — ou concessão de Trilha, que empurraria a decisão para uma peça que ainda não existe. **Corpo amaldiçoado fica sendo fórmula de vida própria e sabor, como os outros três.**
 
-E uma que eu quase escrevi: um `Traço` de corpo duro, tipo *"ela aguenta mais porque é objeto e não carne"*. **Ele compra Defesa com ponto, e Defesa já é a moeda do deslocamento** — dois preços para a mesma coisa, que é a lição nº 2 na forma exata em que ela costuma aparecer aqui.
+E uma que eu quase escrevi: um `Traço` de corpo duro, tipo *"ela aguenta mais porque é objeto e não carne"*. **Ele compra Defesa com ponto, e a Defesa dela já sai do arranjo de atributo da peça 2** — dois preços para a mesma coisa, que é a lição nº 2 na forma exata em que ela costuma aparecer aqui.
 
 ### Quanto isso custa no filtro multi-mestre, medido
 
@@ -1065,7 +1049,6 @@ Rodada a triagem antes de escrever qualquer coisa:
 - **Toda entrada do catálogo cai no degrau que a régua da criação manda** — `Traço` de 1 ponto só mexe na própria invocação, `Traço` de 2 encosta em outra criatura ou no tabuleiro; `Comando` de 1 age sobre um alvo, `Comando` de 2 protege ou nega. **Entrada publicada que desobedece à própria régua ensina a mesa a ignorá-la.**
 - **Nenhuma entrada, publicada ou criada, com dado de dano, com refino dentro, ou vendendo atributo.** As três são ilegais e não têm preço.
 - **O arranjo de atributo lido da peça 2, e o teto de criação conferido contra o ritmo da maestria.** *Perturbar os nove pontos, o teto `3` ou o teto `6` — na peça 15 ou na peça 2 — tem de acender, e o contra-teste é o número de arranjos legais: com três atributos ele cai para um, e um arranjo não é escolha.*
-- **E o TAMANHO da devolução, que é a metade que a forma não mede.** *Acrescentada na v0.68, depois de a v0.67 multiplicar catálogo e orçamento por quatro e deixar a devolução em `1`, verde.* São duas afirmações separadas: **a regra aplicada** — a devolução tem de comprar pelo menos a entrada mais barata do catálogo, senão descer é castigo e não escolha — e **o limite de design** — ela bate com o passo do marco, porque as duas são *um ponto da escala velha*. **Perturbar só a segunda tem de acender só ela**, senão a checagem está medindo um eixo com o nome de dois.
 - **O orçamento por nível derivado dos marcos da peça 2, nunca lido de constante**, e a busca exaustiva sobre todas as montagens legais em cada degrau.
 - **E o resumo do topo desta peça é cópia do orçamento, então ele é comparado com a tabela dona** — base, passo e teto. *Acrescentado na v0.68: ele passou a v0.67 inteira publicando a escala velha e ninguém comparava as duas.* **Apagar a linha também tem de acender**, senão o conserto barato para uma divergência vira sumir com a cópia.
 - **E a tabela do orçamento do `Servo` é DERIVADA, nunca publicada:** a ficha sai dos marcos, o `Servo` sai de `×1,5` com o arredondamento da peça 1 §5.4, e **a porcentagem é recontada contra o catálogo somado** em vez de lida. *Acrescentada na v0.68, quando aquela tabela apareceu com o cabeçalho numa escala e as duas colunas na outra.*
@@ -1086,12 +1069,12 @@ Rodada a triagem antes de escrever qualquer coisa:
 - **A amarra lida do dono do número, nunca de constante.** Os 18 m são o alcance base de Projétil, do manual; o `conferir-manual.py` já sabe cruzar número do manual com o projeto. **Perturbar o alcance de Projétil tem de fazer a amarra andar junto** — a lição nº 8, no eixo em que ela mais reincidiu aqui.
 - **As duas faixas acima do combate não podem ganhar metro em lugar nenhum.** *"Na cena"* e *"fora da cena"* são gatilho de ficção, no molde do relógio da peça 10; a metragem entre parênteses é referência. **Perturbar uma delas para um número tem de acender**, porque um número ali vira teste de fita métrica na mesa.
 - **O gate de Origem do `Remoto`, e ele é o único do catálogo.** A checagem confere que **nenhuma outra entrada tem requisito** — se uma segunda aparecer, a régua de degrau do §3.7 deixou de precificar sozinha e isso tem de ser decisão e não descuido.
-- **Nenhuma entrada do catálogo pode comprar linha que já é deslocamento.** Defesa, acerto e vida são a moeda do §3.6; um `Traço` que dê qualquer um dos três é preço duplo pela mesma coisa. **Perturbar uma entrada para dar `+1` de Defesa tem de acender.**
+- **Nenhuma entrada do catálogo pode vender linha que já tem outro dono.** Acerto, Defesa e vida saem do arranjo de atributo da peça 2, e um `Traço` que dê qualquer um dos três cobra duas vezes pela mesma coisa. **Perturbar uma entrada para dar `+1` de Defesa tem de acender.**
 - **A contagem do catálogo, conferida contra o que o documento afirma.** Hoje são **19 compráveis** mais o `Investir` a 0 — 13 `Traço` e 6 `Comando`. *A peça 13 já pagou por isso: as contas do rascunho dela envelheceram duas vezes dentro do próprio arquivo antes de o validador existir.* A checagem recalcula e falha se o escrito não bater com o contado.
 - **A busca exaustiva rodada por degrau de orçamento, e o número esperado escrito antes.** No nv30, com orçamento 36 e gasto exato, o catálogo entrega **5.429 montagens cheias**, todas com assinatura distinta, **zero dominadas**, e a maior delas usa **9 das 19 entradas — 47%**. *Antes da passada dos três tipos eram **1.126** montagens em 13 entradas, e a maior consumia **62%** do catálogo; e antes da escala da v0.67 eram **21.502**.*
 
 > **A queda de `21.502` para `5.429` é da escala, e ela tem nome: paridade.** Com preços de `1` e `2`, quase todo subconjunto fechava o orçamento exato. Com `2 · 3 · 4 · 5 · 7 · 8` num orçamento par, **um número ímpar de itens de preço ímpar nunca fecha** — e por isso três em cada quatro montagens deixam troco. *O que a busca conta é gasto exato; o conjunto de montagens **legais** não caiu na mesma proporção.* **Isso é propriedade da moeda quebrada e não descuido** — e é o preço que a v0.67 aceitou para o degrau de 1 ponto ter granularidade. Se alguma entrada nova puxar esse consumo para cima outra vez, é sinal de que ela não acrescentou eixo, só volume.
-- **Vender deslocamento não tem piso, e isso é decisão e não esquecimento.** Medido: mesmo vendendo **−5 de Defesa**, o pool da Matilha ainda põe **1,56 Rotina** de presença em campo, contra os **6% a 9%** da Rotina que a peça 14 §4 diz que uma Trilha inteira vale — **17×**. **Ela se limita sozinha no valor.** A checagem afirma isso em vez de supor: perturbar o câmbio do §3.3 tem de fazer o piso passar a ser necessário e acender.
+- **A Defesa da invocação lida do §3.3, e o passo dela medido contra o da Defesa do alvo.** A metade da Essência ou da Inteligência do dono é o que faz as duas crescerem no mesmo ritmo; sem ela a invocação vira alvo grátis no fim da campanha. **O teto do atributo sai da peça 2 e nunca daqui**, e o contra-teste é tirar a metade e ver o passo cair — se ele não cair, a checagem estaria passando verde sem o mecanismo que ela existe para conferir.
 - **O dano do `Investir` recomputado dos quatro donos, e conferido nas DUAS publicações** — a tabela do §3.7 e a do capítulo 16 do livro. *A média do dado não fica escrita: ela é derivada da própria âncora do nível 30 que a peça 6 §3 publica*, e a reconstrução tem de reproduzir os quatro pontos daquela peça antes de a tabela valer alguma coisa. **Perturbar a Classe na peça 18, o fator da Rotina na peça 6, a cota, uma célula de qualquer das duas tabelas, ou apagar uma delas, tem de acender.** *E ela confere duas coisas que nenhuma outra confere: que a soma de volta não passa do teto de uma Rotina, e que a perda de arredondamento da `Matilha` nos níveis 2 a 4 está **declarada** em vez de esquecida.*
 
 ## 6. O que esta peça destrava
