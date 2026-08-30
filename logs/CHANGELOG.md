@@ -8,6 +8,72 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.185] — 30/08/2026
+
+**Os dois números que a v0.184 deixou anotados como "sem checagem" ganharam checagem, e o segundo não era o que a anotação dizia.** *O `±10%` do ponto de ficha só precisava de dono — ele já existia numa tabela do lado. **O `5 × a sua maestria` do `Parrudo` não tinha dono nenhum:** ele existia num lugar só do projeto inteiro, o capítulo 35 do livro.*
+
+### 1 · O `±10%` reconstrói do d20, e não precisava de constante nenhuma
+
+**A taxa de câmbio do §3.3 se confere sozinha:** *ela publica o **par** de porcentagens e o efeito, e o efeito é aritmética em cima do par.*
+
+| a linha diz | recomputado |
+|---|---|
+| `+1 no acerto` · 50% → 55% · **+10%** de dano saído | `55/50 − 1` = **+10,0%** |
+| `+1 na Defesa` · inimigo 50% → 45% · **+11%** de vida | `50/45 − 1` = **+11,1%** |
+| `−1 na Defesa` · inimigo 50% → 55% · **−9%** de vida | `50/55 − 1` = **−9,1%** |
+
+**Um ponto move cinco pontos percentuais porque a face do dado vale `5%`** — nada disso é escolha de desenho, e por isso a checagem não guarda um número sequer. *O `±10%` do §3.6 passou a ser comparado com a linha do acerto, que é o dono dele.*
+
+### 2 · O `Parrudo` estava publicado sem passar pelo dono
+
+**O `DESENHO-caminhos.md` é o dono das três rotas da `Sintonia`, e ele preça as outras duas contra uma régua só — `5,0%` da Rotina, plana.** *A `Presa` fecha em `5,0%` no nível 2 e no 30; a `Voz` leva `+1` fixo no nível 2 justamente para não morrer ali.* **O `Parrudo` dizia só *"as suas invocações têm mais vida"*, sem número.**
+
+**E o número existia — no capítulo 35, e em nenhum outro lugar do projeto.** *Nenhuma entrada de CHANGELOG registrava ele; o dono não tinha; nenhum validador lia.*
+
+| nv | `5 × maestria` | no corpo cru | no corpo forte |
+|---|---|---|---|
+| **2** | `5` | **`+83%`** de vida | `+33%` |
+| 10 | `15` | `+68%` | `+27%` |
+| **30** | `40` | **`+65%`** | `+26%` |
+
+***Decisão do Mizuki: levar o número para o dono e travar, sem mexer no valor.*** **Ele deriva `1,27 ×` do nível 2 ao 30** — contra o `4 ×` do `+atributo num corpo` que aquele documento recusou, e o `1,0 ×` da margem crítica da `Presa`. *Ele não é plano como ela, e o motivo é de unidade: vida não é fração da Rotina.* **A deriva ficou escrita ao lado do número, em vez de o número ficar publicado sem dono.**
+
+> **E é essa cegueira que explica os vinte anos de colisão do `Casco`.** *Ninguém lia aquela linha, então nada podia acusar que o nome estava batizado duas vezes.* **A checagem nova lê os dois lados e compara** — se o dono mudar o valor, o livro tem de mudar junto.
+
+### 3 · E a v0.184 afirmou uma coisa errada, que este arquivo registra
+
+***Eu escrevi que `Presa` e `Voz` estavam limpas na triagem. Elas não estão.*** **`Voz` sai `OCUPADO` — é Tema do manual — e `Presa` sai `fraco`, a uma letra de `Pressa`, que é Melhoria.**
+
+**A conferência que eu rodei foi um `grep` nos `.md` do projeto, e grep não enxerga a lista de termos do manual** — é exatamente para isso que o `conferir-nomes.py` existe, e eu o rodei nos candidatos e não nos irmãos. *O `DESENHO-trilhas.md` já registrava as duas colisões desde a v0.164: a afirmação errada contradisse um documento que estava certo.*
+
+***Decisão do Mizuki: declarar, como a peça 15 fez com o próprio nome dela.*** **Tema não carrega mecânica**, então o choque é de vocabulário e não de regra. *A nota está no dono, e a `Presa` ainda amarra com a `Dentada` do nível 19 — trocá-la levaria as duas.*
+
+### 4 · E a v0.184 tinha deixado três `Casco` para trás
+
+**A varredura daquela versão foi por expressão, e o escopo dela foi `sistema/`.** *Os `DESENHO-*.md` moram na raiz.* **Sobraram três**: o registro do achado no `DESENHO-trilhas.md`, a nota dos três nomes, e — a que importa — **a própria entrada da rota no `DESENHO-caminhos.md`, que é o dono.**
+
+### Adicionado
+
+- **A sub-checagem `10.1` do `conferir-invocacoes.py`**, que recomputa a taxa de câmbio do §3.3 do d20 e compara o `±10%` do §3.6 com a linha do acerto.
+- **A sub-checagem `10.1` do `conferir-catalogo.py`**, que compara o número do `Parrudo` entre o `DESENHO-caminhos.md` e o capítulo 35. *Sub-blocos nos dois, então as contagens não se movem.*
+- **O `tabela_apos()` no `conferir-invocacoes.py`**, que recorta tabela até onde as linhas de `|` terminam. *A checagem das rodadas de chefe passou a usar ele.*
+- **O número do `Parrudo` e a medida de deriva dele** no `DESENHO-caminhos.md`, e a declaração dos nomes de `Presa` e `Voz`.
+- **O item do §5 da peça 15** para a sub-checagem do `±10%`.
+
+### Alterado
+
+- **Três `Casco` que a v0.184 não alcançou**, nos dois `DESENHO-*.md` da raiz.
+- **O item do `Parrudo` no `HANDOFF-ficha-digital.md`**, que ainda o listava como regra não fechada.
+
+### Decidido
+
+- **O valor do `Parrudo` não muda: ele ganha dono.** *O que estava publicado para o jogador é o que vale.*
+- **`Presa` e `Voz` ficam, declaradas.** *Tema não carrega mecânica, no mesmo molde do nome da peça 15.*
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **Seguem abertas as três montagens por Trilha** e a vaga de `Desliga` do Corpo Amaldiçoado — *as duas são escolha de sabor, não conserto.*
+
+---
+
 ## [0.184] — 30/08/2026
 
 **O `Casco` estava batizado duas vezes desde a v0.164, e a colisão não era só o nome repetido.** *Ele era Bênção — **você** ganha `+1` de vida a cada dois níveis — e era rota da `Sintonia` do Evocador — as suas **invocações** têm mais vida.* **Dois donos diferentes, a mesma promessa, a mesma palavra.**

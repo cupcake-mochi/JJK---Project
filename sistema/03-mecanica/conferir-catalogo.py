@@ -478,6 +478,32 @@ if copias < COPIAS_ESPERADAS:
 if not [e for e in erros if e.startswith('[10]')]:
     print('  [x] toda copia viva bate com o dono, e o calendario aposentado nao sobrou.')
 
+# -- 10.1: o numero do `Parrudo`, que era publicado sem dono -------------------
+# v0.185: o `5 x a sua maestria` da segunda rota da Sintonia existia em UM lugar,
+# o capitulo 35 do livro. O DESENHO-caminhos.md — que e o dono das rotas — dizia
+# so "mais vida", sem numero; nenhuma entrada de CHANGELOG registrava ele; e
+# nenhum validador o lia. Foi por essa cegueira que a colisao de nome do `Casco`
+# durou vinte versoes: ninguem olhava para aquela linha.
+#
+# A checagem nao guarda o numero: ela le os DOIS lados e compara. Se o dono mudar
+# o valor, o livro tem de mudar junto — licao no 9, na forma em que ela morde.
+_RX_PARRUDO = re.compile(r'\*\*`?Parrudo`?\*\*[^\n]*?`(\d+(?:[.,]\d+)?)\s*×`\s*a sua maestria')
+_LIV35 = os.path.join(RAIZ, 'sistema', '05-material', 'livro', 'manual',
+                      '35-caminhos-e-trilhas.md')
+_m_dono = _RX_PARRUDO.search(CAM)
+_m_livro = _RX_PARRUDO.search(ler(_LIV35)) if os.path.isfile(_LIV35) else None
+if not _m_dono:
+    erro('10', 'DESENHO-caminhos.md: o `Parrudo` esta sem numero — ele foi publicado no '
+               'capitulo 35 sem passar pelo dono uma vez, e nao pode voltar a ficar assim')
+elif not _m_livro:
+    erro('10', 'o capitulo 35 nao publica o numero do `Parrudo` — o dono diz '
+               f'`{_m_dono.group(1)} x` a maestria e o jogador nao le nada')
+elif _m_dono.group(1) != _m_livro.group(1):
+    erro('10', f'o `Parrudo`: o dono diz `{_m_dono.group(1)} ×` a maestria e o capitulo 35 '
+               f'diz `{_m_livro.group(1)} ×` — uma copia e o dono divergindo')
+else:
+    print(f'  [x] o `Parrudo` diz `{_m_dono.group(1)} ×` a maestria no dono e no capitulo 35.')
+
 
 # ================================================================ 11. CAPITALIZACAO
 print('\n' + '=' * 88)

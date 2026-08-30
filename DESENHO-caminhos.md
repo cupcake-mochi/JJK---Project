@@ -274,7 +274,7 @@ Ela dizia *"o seu Classe 0 passa a causar o mesmo que um golpe simples"*, e ela 
 ### nível 2 · Sintonia, em três rotas — *chamava-se `Vínculo`, que é Tema no manual. A sua margem crítica resolveu o problema*
 > **Escolha uma:**
 > **Presa** — as suas invocações acertam crítico com **19 ou 20**.
-> **Casco** — as suas invocações têm mais vida.
+> **Parrudo** — as suas invocações têm mais vida, equivalente a **`5 ×` a sua maestria**.
 > **Voz** — a CD dos efeitos das suas invocações sobe em **`1`**, e vira **`metade da sua maestria`** a partir do nível 7.
 
 > **A margem crítica é a saída, e ela fecha por construção.** O crítico vale `10%` do dano por rodada (peça 1), então dobrar a margem entrega **`5,0%` da Rotina no nível 2 e `5,0%` no nível 30** — *idêntico, porque é fração e não valor absoluto.* **É a única das quatro versões que não deriva.**
@@ -286,6 +286,20 @@ Ela dizia *"o seu Classe 0 passa a causar o mesmo que um golpe simples"*, e ela 
 | `+metade da maestria` na CD | **`0%`** | `5,0%` | **morre no nível 2** |
 
 *A `Voz` leva `+1` fixo no nível 2 justamente por isso — metade da maestria é zero no nível em que a escolha acontece. **Ela vira `metade da maestria` no nível 7, pela `Coleira`**, e aí as duas se encaixam.*
+
+> **⚠ O `Parrudo` estava sem número aqui e publicado com um no livro, e isso fechou na v0.185.** *O `5 ×` a maestria é o que o capítulo 35 entrega ao jogador desde antes desta linha existir — ele ganhou dono em vez de mudar de valor.* **Nenhuma entrada de CHANGELOG registrava ele, e nenhum validador o lia.**
+
+| nv | `5 × maestria` | no corpo cru (`h`) | no corpo forte |
+|---|---|---|---|
+| **2** | `5` | **`+83%`** de vida | `+33%` |
+| 10 | `15` | `+68%` | `+27%` |
+| **30** | `40` | **`+65%`** | `+26%` |
+
+**Ele deriva `1,27 ×` do nível 2 ao 30** — contra o `4 ×` do `+atributo num corpo` que esta seção recusou, e o `1,0 ×` da margem crítica da `Presa`. *Ele não é plano como ela, e o motivo é de unidade: vida não é fração da Rotina, então a régua de `5,0%` não o alcança sem alguém decidir a conversão.* **Fica declarado com a deriva escrita, que é melhor que publicado sem número.**
+
+> **E os nomes das outras duas rotas são decisão escrita, e não descuido.** *`Voz` sai **OCUPADO** na triagem — é **Tema** do manual — e `Presa` sai **fraco**, a uma letra de `Pressa`, que é Melhoria.* **Tema não carrega mecânica**, e o próprio manual diz isso na abertura da Descrição: o choque é de vocabulário e não de regra, no mesmo molde em que a peça 15 se chama `Invocações` sabendo que `Invocação` é Tema. *E a `Presa` amarra com a `Dentada` do nível 19 — quem escolheu ela acerta crítico com `17` ou mais —, então trocá-la levaria as duas.*
+>
+> ***⚠ A v0.184 afirmou que as duas estavam limpas, e estava errada.*** *A conferência foi um `grep` nos `.md` do projeto, que não enxerga a lista de termos do manual.* **É exatamente para isso que o `conferir-nomes.py` existe**, e o `DESENHO-trilhas.md` já registrava as duas colisões desde a v0.164 — a afirmação errada contradisse um documento que estava certo.
 
 > **⚠ A sua trava conserta metade do problema, e a outra metade é deriva.**
 >

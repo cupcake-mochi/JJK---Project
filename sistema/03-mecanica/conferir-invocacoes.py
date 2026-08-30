@@ -108,6 +108,29 @@ def linhas_de_tabela(txt):
     return out
 
 
+def tabela_apos(txt, cabecalho):
+    """As linhas de dados da tabela que comeca na linha `cabecalho`.
+
+    O recorte termina onde as linhas de `|` terminam — nunca numa frase. Ancora de
+    regra em prosa quebra quando alguem reescreve a prosa, e o contra-teste do
+    arnes da v0.183 pegou exatamente isso: a primeira versao da checagem das
+    rodadas de chefe fechava numa frase e caia ao trocar uma palavra dela.
+    """
+    linhas = txt.split('\n')
+    ini = next((k for k, l in enumerate(linhas) if l.startswith(cabecalho)), None)
+    if ini is None:
+        return []
+    out = []
+    for l in linhas[ini + 1:]:
+        if not l.lstrip().startswith('|'):
+            break
+        c = [x.strip().strip('*').strip() for x in l.strip().strip('|').split('|')]
+        if c and set(''.join(c)) <= set('-: '):
+            continue
+        out.append(c)
+    return out
+
+
 def trecho(txt, ini, fim=None, nome=''):
     try:
         a = txt.index(ini)
@@ -557,23 +580,12 @@ elif _MULT:
     # diferentes entre as linhas. Aqui as tres colunas saem de dono externo — a
     # base do tipo do SS3.6, o multiplicador da tabela de concessao, e o dano de
     # chefe do conferir-atributos.py. Nenhuma e' lida da propria tabela.
-    # A tabela termina onde as linhas de `|` terminam, e NAO numa frase de prosa.
-    # A primeira versao desta checagem fechava o recorte em "*Decisao do Mizuki, e
-    # o argumento e dele" — e o contra-teste do arnes pegou: trocar uma palavra
-    # daquela frase derrubava a checagem. Ancora de regra nao pode morar em prosa.
-    _rl, _ini = S37.split('\n'), None
-    for _k, _ln in enumerate(_rl):
-        if _ln.startswith('| nv | corpo do `Coro`'):
-            _ini = _k
-            break
-    _rod = []
-    if _ini is not None:
-        for _ln in _rl[_ini + 1:]:
-            if not _ln.lstrip().startswith('|'):
-                break
-            _c = [x.strip() for x in _ln.strip().strip('|').split('|')]
-            if len(_c) >= 4 and re.fullmatch(r'\d+', limpo(_c[0])):
-                _rod.append(_c)
+    # O recorte e' do tabela_apos(): termina onde as linhas de `|` terminam, e NAO
+    # numa frase. A primeira versao desta checagem fechava em "*Decisao do Mizuki,
+    # e o argumento e dele" e o contra-teste do arnes derrubou ela trocando uma
+    # palavra daquela frase — ancora de regra nao pode morar em prosa.
+    _rod = [c for c in tabela_apos(S37, '| nv | corpo do `Coro`')
+            if len(c) >= 4 and re.fullmatch(r'\d+', limpo(c[0]))]
     if not _rod:
         erro('DOMINANCIA', 'SS3.7: nao achei a tabela de rodadas de chefe — ela e o unico '
                            'lugar da peca que mede durabilidade do corpo forte')
@@ -993,6 +1005,55 @@ else:
                             'existir — sem a declaracao, esta checagem vira "aceita '
                             'qualquer coisa", que e a licao no 8 aplicada ao reconhecedor')
     print('  Nenhuma taxa de conversao escrita, e nenhuma entrada precada em moeda de arma.')
+
+    # -- 10.1: o ponto de ficha recomputado da taxa de cambio do SS3.3 --------
+    # v0.185: o +-10% era lido acima, impresso, e nunca comparado com NADA. A
+    # metade quantitativa desta checagem morreu com a venda de deslocamento na
+    # v0.180 e nada ocupou o lugar — perturbar o numero saia verde, e o arnes da
+    # v0.182 pegou isso com um controle: com o rotulo velho ou com o novo, igual.
+    #
+    # A taxa de cambio do SS3.3 se confere sozinha e nao precisa de constante
+    # nenhuma aqui: ela publica o PAR de porcentagens e o efeito, e o efeito e'
+    # aritmetica do d20 em cima do par. Um ponto move 5 pontos percentuais porque
+    # a face do dado vale 5% — nada disso e' escolha de desenho.
+    _cam = tabela_apos(S33, '| o ponto compra | efeito | em número |')
+    _cerra, _pct_acerto = [], None
+    for _c in _cam:
+        if len(_c) < 3:
+            continue
+        _ps = [float(x) for x in re.findall(r'(\d+)\s*%', _c[1])]
+        _ef = re.search(r'([+−-]?)\s*(\d+)\s*%', _c[2])
+        if len(_ps) != 2 or not _ef:
+            continue
+        _antes, _depois = _ps
+        _rot = sem_acento(_c[0])
+        if 'acerto' in _rot:
+            # sai mais dano: a taxa de acerto e' o proprio multiplicador da saida
+            _calc = (_depois / _antes - 1) * 100
+            _pct_acerto = _calc
+        else:
+            # aguenta mais golpe: vida efetiva e' o INVERSO da taxa do inimigo
+            _calc = (_antes / _depois - 1) * 100
+        _escrito = float(_ef.group(2)) * (-1 if _ef.group(1) in ('-', '−') else 1)
+        if abs(_calc - _escrito) > 0.6:
+            _cerra.append(f'SS3.3, "{_c[0][:22]}": a tabela escreve {_escrito:+.0f}% e '
+                          f'{_antes:.0f}% -> {_depois:.0f}% no d20 da {_calc:+.1f}%')
+    if len(_cam) < 3:
+        erro('DUAS-MOEDAS', 'SS3.3: nao achei a tabela da taxa de cambio — ela e o dono do '
+                            'que um ponto da ficha vale, e sem ela o +-10% do SS3.6 nao tem '
+                            'contra o que ser medido')
+    for _m in _cerra:
+        erro('DUAS-MOEDAS', _m)
+    if _pct_acerto is None:
+        erro('DUAS-MOEDAS', 'SS3.3: a taxa de cambio nao tem a linha do acerto, que e a que '
+                            'o SS3.6 copia como ponto de ficha')
+    elif abs(PONTO_DE_FICHA - _pct_acerto) > 0.6:
+        erro('DUAS-MOEDAS', f'o SS3.6 publica o ponto de ficha em +-{PONTO_DE_FICHA}% e a '
+                            f'taxa de cambio do SS3.3 da {_pct_acerto:.0f}% — uma copia e o '
+                            'dono divergindo, que e a licao no 9')
+    elif not _cerra:
+        print(f'  [x] as {len(_cam)} linhas da taxa de cambio recomputam do d20, e o '
+              f'+-{PONTO_DE_FICHA}% do SS3.6 bate com a linha do acerto.')
 
 # =============================================================================
 # 11. AREA
