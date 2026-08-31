@@ -887,6 +887,42 @@ else:
     print('      foi precado contra a ficha SEM arma reserva.')
 
 
+# --- 11.2: vaga de Desliga que esperava esta peca ----------------------------
+# v0.191. O §7 desta peca dizia "tres vagas de `Desliga` da peca 13 esperam esta
+# peca... vale reler as tres com isso na mao". As tres fecharam na v0.104 — sao o
+# `Revezamento`, o `Usado` e o `Talhe` —, e a regua da secao 2 e' justamente
+# quem as destravou. OITENTA E SEIS versoes mandando reler vaga que nao existe.
+#
+# A peca 13 e' a dona da contagem de vagas, e ela declara cada uma numa linha de
+# tabela `— vaga reservada —` que a checagem 6 do conferir-legados.py ja le. A
+# 11.2 le a MESMA tabela do lado de ca: se nenhuma vaga de la disser que espera
+# esta peca, nenhuma linha daqui pode dizer que elas esperam.
+#
+# Nada e' escrito aqui dentro: a contagem sai da peca 13, e a frase sai desta.
+# Citacao entre aspas e trecho riscado saem antes de medir, pelo mesmo motivo da
+# 6.1 do conferir-legados — nota que registra o conserto nao e promessa.
+_P13 = os.path.join(AQUI, '13-legados.md')
+_ESPERA_19 = re.compile(r'—\s*vaga reservada\s*—[^\n]*(?:dano e condi|pe[cç]a 19)', re.I)
+_AFIRMA_19 = re.compile(r'vagas? de `Desliga`[^.\n]{0,40}esperam? esta pe[cç]a', re.I)
+if not os.path.isfile(_P13):
+    erro('11.2: nao achei a peca 13 — e ela e a dona da contagem de vagas de `Desliga`')
+else:
+    _t13 = open(_P13, encoding='utf-8').read()
+    _vagas_19 = len(_ESPERA_19.findall(_t13))
+    _diz = [l for l in TXT.split('\n')
+            if _AFIRMA_19.search(re.sub(r'~~.*?~~|"[^"]*"|“[^”]*”', ' ', l))]
+    if _diz and not _vagas_19:
+        erro('11.2: esta peca diz que vaga(s) de `Desliga` da peca 13 esperam ela, e a peca 13 '
+             'nao tem nenhuma vaga esperando esta peca — as tres fecharam na v0.104. '
+             'Primeira: "' + _diz[0].strip()[:80] + '"')
+    elif _vagas_19 and not _diz:
+        erro(f'11.2: a peca 13 tem {_vagas_19} vaga(s) de `Desliga` esperando esta peca, e '
+             f'nenhuma linha daqui registra isso — divida que so um dos dois lados enxerga')
+    else:
+        print(f'  [x] a peca 13 tem {_vagas_19} vaga(s) de `Desliga` esperando esta peca, e '
+              f'esta peca diz o mesmo.')
+
+
 # --------------------------------------------------------------------------
 print()
 print('=' * 88)

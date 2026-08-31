@@ -124,12 +124,7 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 
 ***Palavras do Mizuki, e elas são a especificação:*** **energia positiva fere maldição, causando `50%` de dano extra**, e ela *"tem de seguir os feitiços de cura mesmo — então os dados são reduzidos"*.
 
-**E ferir com a APTIDÃO — sem `Manejo` e sem estilo — pede uma das duas:**
-
-| porta | o que ela é |
-|---|---|
-| a aptidão de **liberação** da `Energia Reversa` | soltar a energia do corpo, e não só se curar |
-| uma entrega que **cure outros alvos além de você** | é o que a Trilha `Sutura` faz, no nível 11 dela |
+**E ferir com a APTIDÃO — sem `Manejo` e sem estilo — pede uma de duas coisas: a aptidão de liberação da `Energia Reversa`, ou uma entrega que cure outros alvos além de você**, que é o que a Trilha `Sutura` faz no nível 11 dela.
 
 **O motivo é o mesmo nos dois: para usar `Energia Reversa` em outra coisa, você precisa conseguir liberar ela do corpo.** *Curar a si mesmo não prova isso — a semente entrega a cura própria, e a cura de terceiro sempre morou fora da criação.*
 

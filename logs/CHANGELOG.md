@@ -8,6 +8,56 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.191] — 30/08/2026
+
+**A varredura das seções "Em aberto" das vinte e cinco peças achou mais uma dívida paga que ninguém desregistrou, e a passada de voz desmentiu uma medida minha.**
+
+### 1 · A peça 19 mandava reler três vagas que não existem há oitenta e seis versões
+
+**O §7 dela dizia:** *"Três vagas de `Desliga` da peça 13 esperam esta peça… vale reler as três com isso na mão."*
+
+**As três fecharam na v0.104, e a régua da seção 2 desta peça é justamente quem as destravou** — *o nível de uma condição é número, e o `Desliga` passou a poder apagar condição uma vez com o relógio saindo do nível dela.* **Elas são o `Revezamento` (`Impedido`), o `Usado` (`Derrubado`) e o `Talhe` (`Agarrado`)**, e as três estão escritas nas tabelas da peça 13.
+
+> **A peça 13 registrou o fecho no §10 dela.** *A peça 19 nunca soube — mesma família das cinco que a v0.188 achou, e o mesmo motivo: a pendência mora em prosa de "Em aberto", que nenhum validador lia.*
+
+### 2 · A sub-checagem `11.2` lê a contagem do outro lado
+
+**Ela não guarda quantas vagas existem: ela lê a tabela da peça 13 e compara com o que esta peça afirma.** *A peça 13 já declara cada vaga numa linha `— vaga reservada —` que a checagem 6 do `conferir-legados.py` lê; a `11.2` lê a mesma linha do lado de cá.*
+
+**E ela acende nas duas direções**, que é o que faz dela relação e não cópia:
+
+| perturbação | o que acende |
+|---|---|
+| a peça 19 volta a dizer que vagas esperam ela | *esta peça diz, e a peça 13 não tem nenhuma* |
+| a peça 13 ganha uma vaga esperando a 19, e a 19 cala | *dívida que só um dos dois lados enxerga* |
+
+**Contra-teste verde:** *a peça 13 ganha a vaga **e** a peça 19 registra.* *Sub-bloco, então a contagem não se move.*
+
+### 3 · A passada de antítese, e a medida que eu mesmo tinha dado estava errada
+
+***Eu reportei que o texto das últimas versões usava a antítese `, e não` a `286` por mil frases, contra `55` da casa.*** **Aquilo saiu de uma amostra de sete frases e não sobrevive à contagem: são QUATRO ocorrências no total, e uma delas nem é minha.**
+
+**As três que são passam no filtro da própria régua de voz, que diz que essa marca *"quase sempre é regra"*:** *uma nomeia qual seção é a dona, uma é o escopo declarado da régua de condições, e uma é o achado inteiro do `Não Sou Gente`.* **Nenhuma é enfeite, e nenhuma foi cortada.**
+
+> **O que a passada cortou foi outra coisa da mesma nota: uma tabela de duas linhas no §4.4 da peça 25**, que dizia em duas células o que cabia numa frase. *`Tabela inútil` é a metade da régua que a contagem de antítese não alcança.*
+
+### Adicionado
+
+- **A sub-checagem `11.2` do `conferir-dano.py`**, com as duas direções e o contra-teste. *Sub-bloco, então a contagem não se move.*
+
+### Alterado
+
+- **O item do §7 da peça 19** que mandava reler três vagas fechadas.
+- **O §4.4 da peça 25**, que perdeu uma tabela de duas linhas para uma frase.
+
+### Decidido
+
+- **A divergência de `9,4 ×` entre as duas réguas de rolagem NÃO é conserto, e fica parada com o tamanho certo escrito.** *O `10,80` de `+1` no acerto é viga-mestra em cinco documentos — ele é o `21,60` que reprovou a `Precisão`, o estilo de luta do 5e e a `Modelagem` como presente, três vezes a mesma parede.* **Mexer nele reabre as três.**
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **Sobrou a escrita das duas decisões da v0.190** — a porta da `Pétala` e os três números da `Energia Reversa` que fere —, **a divergência das réguas**, que agora tem o tamanho medido, e o `04-playtest/`.
+
+---
+
 ## [0.190] — 30/08/2026
 
 **Duas escolhas de sabor da peça 25 foram tomadas, e as duas ficam ANOTADAS e não escritas.** *Elas estavam abertas desde a v0.168, e o que faltava nas duas era você dizer sim.*
