@@ -8,6 +8,30 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.197] — 31/08/2026
+
+**Varrendo a fila a pedido do Mizuki, um item aparecia como pendência e já tinha sido feito.** *A peça 25 listava `Energia Reversa contra maldição — DECIDIDA na v0.190, e por escrever`, e a v0.194 escreveu: a regra mora no manual v7.20, na Forma `Cura`.* **O §4.4 da própria peça já dizia `fechado na v0.194`** — a seção e a lista dela discordavam havia três versões.
+
+### 1 · É a lição nº 9 na direção que quase nunca se olha
+
+**O projeto tem procedimento contra decisão registrada e não aplicada.** *A lista de `Em aberto` existe para isso.* **O que não tinha guarda é o inverso: decisão aplicada e não riscada** — e ela é mais silenciosa, porque nada quebra. *Um item assim faz a fila parecer maior do que é, e manda a próxima conversa trabalhar no que já está pronto.*
+
+**Varri as 25 peças atrás de mais um.** *Cinquenta itens em aberto: `20` são pergunta de playtest, `9` são escopo declarado — catálogo de Kata, de `Manejo`, de ferramenta e de objeto com nome próprio, todos "a peça entrega a máquina e não a lista" —, e `21` são decisão de verdade.* **Só o da peça 25 estava obsoleto.**
+
+> **O padrão que a varredura mostrou, e ele não estava escrito em lugar nenhum:** *`Força precisa de um segundo trabalho` é a mesma pergunta em **três** peças — a 1, a 2 e a 4.* **É a única pendência do projeto que aparece três vezes**, e ela tem uma perícia só desde sempre.
+
+### 2 · E a fila de mecânica continua com um item
+
+**O `Bestiário`, com a decisão da v0.161 de pé:** *máquina mais maldições prontas, e não recolhimento puro.* **Fora dele, o que falta não é regra — é o `04-playtest/`**, vazio desde a v0.1.
+
+### Alterado
+
+- **O item obsoleto da peça 25**, riscado com o destino dos três números que ele pedia.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **A fila da mecânica tem o `Bestiário` e mais nada**, e as vinte perguntas de playtest continuam esperando a primeira sessão.
+
+---
+
 ## [0.196] — 31/08/2026
 
 **A curva de XP foi represada, e o repreço saiu maior do que o rascunho tinha medido.** *Cada nível custava uma missão; passou a custar três, com passo de `+2` a cada três níveis e teto em dezessete.* **O nível 20 sai de `63` missões para `143`, e o 30 de `145` para `307`.**
