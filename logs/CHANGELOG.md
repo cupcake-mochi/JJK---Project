@@ -8,6 +8,57 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.187] — 30/08/2026
+
+**A vaga de `Desliga` do Corpo Amaldiçoado era a última da fila, e ela não é o que a fila dizia.** *Ela estava descrita há versões como *"só falta sentar e escrever"*.* **O que falta nela é ALVO.**
+
+### 1 · A peça 13 dizia as duas coisas, na mesma seção
+
+| onde | o que ela diz |
+|---|---|
+| no meio da seção | *"ela não espera peça nenhuma… e o que falta ali é escrita"* |
+| no fim da mesma seção | *"**o alvo livre acabou** — daqui para a frente, todo `Desliga` novo depende de peça nova criar coisa nomeada"* |
+
+**As duas não podem ser verdade juntas.** *A cota é de dois `Desliga` por Origem; o Corpo Amaldiçoado tem o `Ferro Velho` escrito e uma reservada, e o validador conta isso.* **A Origem destravou na v0.122, com a Técnica Marcial. O alvo não:** *a enumeração da seção 8 ficou com zero livre quando o próprio `Ferro Velho` gastou os degraus de exaustão.*
+
+**A fila herdou a frase errada**, e ela viajou para fora da peça: o §11 da peça 20 e a tabela de rotas do `ESTADO-ATUAL` diziam o mesmo.
+
+### 2 · Os dois alvos que dava para emprestar, e o problema de cada um
+
+***Levantados antes de propor, e nenhum dos dois foi proposto:***
+
+- **O `Desarmado`.** *Desde a v0.104 um `Desliga` pode apagar condição uma vez.* **Mas o §7 inteiro da peça 20 existe para manter o `Desarmado` em `0,68` fatia** — a regra dos três grupos de arma é só isso, e sem ela a condição vale `19,4 ×` o preço publicado. *Apagar ele por Legado desfaz aquele argumento, na Origem que mais depende da arma.*
+- **Sacar arma.** *Está sem preço com todas as letras, e a peça 20 marca como buraco das peças 3 e 19.* **Apagar coisa que ninguém mediu é apagar um valor desconhecido** — e o `Bocado` já dá o saque dobrado por Classe Passiva `1`.
+
+***Decisão do Mizuki: consertar a contabilidade e deixar a vaga esperando.*** **Ela continua reservada, e passou a dizer a verdade sobre o que a bloqueia.**
+
+### 3 · A checagem guarda a relação, e não a decisão
+
+**Enquanto a enumeração estiver declarada esgotada, nenhuma linha pode prometer que a vaga só espera escrita.** *Duas formas da promessa acendem.*
+
+> **E ela não passa por ausência.** *Se a declaração da enumeração sumir, isso também acende* — senão apagar a frase viraria o conserto barato para a divergência, que é o mesmo defeito que a checagem existe para pegar.
+
+*O arnês pegou um erro meu no meio: a primeira perturbação que tentou apagar a declaração passou **verde**, e a checagem estava certa — sobrara uma terceira forma da frase noutro parágrafo. **A perturbação estava incompleta, não a checagem.***
+
+> ***E a nota de correção que eu escrevi acendeu a própria checagem***, porque ela citava a frase morta entre aspas. **Reescrevi a nota em vez de abrir exceção no reconhecedor:** *exceção é mais frágil que não plantar o fantasma, e a v0.50 já gastou uma versão arrancando um desses.*
+
+### Adicionado
+
+- **A sub-checagem `6.1` do `conferir-legados.py`**: destravada de Origem não é destravada de alvo. *Sub-bloco, então a contagem não se move.*
+
+### Alterado
+
+- **Três linhas da peça 13**, que davam a vaga como pronta para escrever.
+- **O §11 da peça 20** e **a tabela de rotas do `ESTADO-ATUAL`**, que repetiam a mesma coisa.
+
+### Decidido
+
+- **A vaga fica reservada e espera peça nova nomear coisa.** *Nenhum dos dois alvos emprestáveis cabe sem reabrir uma decisão já paga.*
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **A fila que esta conversa recebeu fechou inteira.** *Fora dela seguem os pendurados antigos do projeto — o `Não Sou Gente` virar Passiva, e o custo de sacar arma, que é buraco das peças 3 e 19 e uniforme para todo mundo.*
+
+---
+
 ## [0.186] — 30/08/2026
 
 **As três montagens por Trilha foram escritas, e a peça 15 as devia desde a v0.53.** *A Q6 que as bloqueava fechou na v0.63, e elas ficaram **123 versões** como aviso que não falhava o validador — de propósito, porque escrever as três era escolha de sabor do Mizuki e não conserto.*

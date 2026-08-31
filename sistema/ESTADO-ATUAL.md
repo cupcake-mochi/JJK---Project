@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 30/08/2026, na v0.186 (última peça fechada: **Sem Técnica**, a peça 25, na v0.168, com o `conferir-sem-tecnica.py` e doze checagens; antes dela, **Dano de alma e Integridade, na v0.145**; antes dela, o **Bloquear, na v0.143**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 30/08/2026, na v0.187 (última peça fechada: **Sem Técnica**, a peça 25, na v0.168, com o `conferir-sem-tecnica.py` e doze checagens; antes dela, **Dano de alma e Integridade, na v0.145**; antes dela, o **Bloquear, na v0.143**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.186.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e cinco peças escritas** e **vinte e cinco validadores**.
+**Versão v0.187.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e cinco peças escritas** e **vinte e cinco validadores**.
 
 **A v0.186 escreveu as três montagens por Trilha, que a peça 15 devia desde a v0.53.** *A Q6 que as bloqueava fechou na v0.63, e elas ficaram **123 versões** como aviso que não falhava o validador — de propósito, porque escrever as três era escolha de sabor do Mizuki e não conserto.*
 
@@ -1349,7 +1349,7 @@ O motivo é o pilar 1, e está escrito na peça 5: *"se o Caminho desse dano, do
 
 | peça | por que só depois |
 |---|---|
-| ~~**Técnica Marcial**~~ | **FECHADA na v0.122, e é a peça 20.** *Destravada na v0.48 por Equipamento, e liberada de vez na v0.59, quando a ferramenta amaldiçoada virou a peça 16.* **Ela destravou a vaga de `Desliga` do Corpo Amaldiçoado, e escrever a vaga é escopo da peça 13** |
+| ~~**Técnica Marcial**~~ | **FECHADA na v0.122, e é a peça 20.** *Destravada na v0.48 por Equipamento, e liberada de vez na v0.59, quando a ferramenta amaldiçoada virou a peça 16.* **Ela destravou a ORIGEM da vaga de `Desliga` do Corpo Amaldiçoado, e não o alvo dela** — *a enumeração da peça 13 §8 está com zero livre desde que o `Ferro Velho` gastou os degraus de exaustão, e todo `Desliga` novo depende de peça nova nomear coisa* |
 | **Estilo da Sombra** | está **bloqueado pelas aptidões** — a rota da Shoko é literalmente "o poder vem de aptidão" |
 
 As duas são economias de poder novas, e construir a quarta e a quinta antes de a segunda ter teto escrito é o erro que o esqueleto já avisou.

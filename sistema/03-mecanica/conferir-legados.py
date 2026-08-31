@@ -309,6 +309,36 @@ else:
         erro('6', f'{quem2["?"]} vaga(s) dizem "destravada" sem nomear a peca que '
                   f'destravou — vaga que nao nomeia e cheque em branco do mesmo jeito')
 
+# -- 6.1: destravada de ORIGEM nao e destravada de ALVO -----------------------
+# v0.187: a peca dizia as DUAS coisas sobre a mesma vaga, na mesma secao. Num
+# lugar: "ela nao espera peca nenhuma, e o que falta ali e escrita". No fim da
+# mesma secao: "o alvo livre acabou — daqui para a frente todo Desliga novo
+# depende de peca nova criar coisa nomeada". As duas nao podem ser verdade
+# juntas, e a fila herdou a primeira: o item passou versoes descrito como se
+# bastasse sentar e escrever, quando o que falta e ALVO.
+#
+# A checagem guarda a RELACAO e nao a decisao. Enquanto a enumeracao estiver
+# esgotada, nenhuma linha pode prometer que so falta escrita. E ela NAO passa
+# por ausencia: se a declaracao da enumeracao sumir, isso tambem acende — senao
+# apagar a frase viraria o conserto barato para a divergencia.
+_ESGOTADA = re.compile(r'alvo livre acabou|zero alvo livre|zero livres|'
+                       r'depende de peça nova (?:nomear|criar) coisa', re.I)
+_SO_ESCRITA = re.compile(r'não espera peça nenhuma|o que falta ali é escrita|'
+                         r'falta nela é escrita e não peça|não depende de peça nenhuma', re.I)
+if not _ESGOTADA.search(PECA):
+    erro('6', 'a peca parou de declarar o estado da enumeracao de alvos da secao 8 — sem '
+              'essa declaracao, uma vaga pode voltar a prometer que so falta escrita e '
+              'nada contradiz')
+else:
+    _contra = [l for l in PECA.split('\n') if _SO_ESCRITA.search(l)]
+    if _contra:
+        erro('6', f'{len(_contra)} linha(s) dizem que a vaga so espera escrita, e a peca '
+                  'declara que a enumeracao de alvos esta esgotada — destravada de ORIGEM '
+                  'nao e destravada de ALVO. Primeira: "' + _contra[0].strip()[:90] + '"')
+    else:
+        print('  [x] a enumeracao esta declarada esgotada, e nenhuma linha promete que a '
+              'vaga so espera escrita.')
+
 # ---------------------------------------------------------------- 7. ORIGENS
 print('\n' + '=' * 88 + '\n7. ORIGENS — as do catalogo existem na peca 9, e nenhuma falta\n' + '=' * 88)
 faltando = [o for o in ORIGENS_P9 if o not in origens_cat]
