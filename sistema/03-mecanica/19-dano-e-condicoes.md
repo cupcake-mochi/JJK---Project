@@ -554,10 +554,23 @@
   > **⚠ Esta linha ficou oitenta e seis versões mandando reler três vagas que não existem mais.** *Achada na v0.191, varrendo as seções "Em aberto" das vinte e cinco peças.* **A peça 13 fechou as cinco destravadas na v0.104 e registrou isso lá; esta peça nunca soube.** *A sub-checagem `11.2` passou a ler a contagem de vagas do lado de lá em vez de confiar nesta frase.*
 - **⚠ As duas réguas de rolagem divergem por `9,4` vezes, e não por `4,7` — e o `4,7` publicado media outra coisa.** *A v0.103 escreveu que `+1` no seu acerto vale `10,80` (que são `10%` da Rotina de `108`), que `1` ponto percentual na rolagem de um aliado vale `0,230` (que é `1%` da ação de atacar de `23,00`), e que **"a diferença é de `4,7` vezes"**.* **O `4,7` é `108 ÷ 23,00`: a razão entre as duas BASES.** *Isso é verdade e responde outra pergunta — quanto o seu escopo é maior que o do aliado.* **Lidas por ponto percentual, que é a única forma de compará-las, elas dão `2,16` contra `0,230`, e a razão é `9,39`.**
 
-  *A causa do fator `2` que separa os dois números é uma escolha de conversão que nunca foi declarada:* **a sua régua é RELATIVA** — a peça 15 §3.3 escreve *"`+1` no acerto = `50%` → `55%` = `+10%` de dano saído"*, então `5` pontos percentuais sobre um acerto de `50%` viram `+10%` do que sai — **e a do aliado é ABSOLUTA**, com `X` pontos percentuais virando `X%` da base. *Pela conversão relativa, `1` pp num aliado valeria `0,460` e não `0,230`.* **`9,4` = `4,7` de escopo × `2` de conversão.**
+  ***⚠⚠ E o diagnóstico que estava escrito aqui era errado, refeito na v0.192.*** *Ele dizia que a sua régua é relativa e a do aliado é absoluta, e que consertar isso repreçaria o `Guiar`, o `Estampido` e o `Ajudar`.* **A conta desmente: existe uma régua só, e ela é relativa nos dois lados.**
 
-  > **O contra-teste fecha com o mesmo número, e ele já está publicado noutro documento.** *Lido pela sua régua, o `Ajudar` — que são `25` pontos percentuais — valeria `54,00` de dano por rodada em vez dos `5,75` que o `DESENHO-caminhos` publica.* **`54,00 ÷ 5,75` = `9,4`**, e o `54,00` é exatamente o que o `DESENHO-manhas` já escreve para vantagem. *Mais que uma Trilha inteira, que são `25,40`.*
+  **O que estava errado era a BASE do aliado, e não a conversão dele.** *A entrega mexe em UM golpe simples — `11,50` —, e a conta velha usava a **ação inteira**, que são dois golpes.* **Os dois erros se cancelavam exato**, porque `23,00` é `2 × 11,50` e o fator relativo é `1 ÷ 0,50`, que também é `2`. *Foi por isso que o `0,230` sempre foi o número certo com a explicação errada pendurada nele.*
 
-  **Continua marcado e não consertado, e agora com o tamanho certo:** mexer nisso repreçaria o `Guiar`, o `Estampido` e o `Ajudar` de uma vez.
+  **Reconstruídas pela relativa em um golpe, as três batem na casa decimal:**
+
+  | entrada | pontos percentuais | conta | publicado |
+  |---|---|---|---|
+  | `Ajudar` | `25` | `0,50 × 11,50` | **`5,75`** |
+  | `Guiar` | `15` | `0,30 × 11,50` | **`3,45`** |
+  | `Estampido` | `5`, e conta três aliados | `0,10 × 11,50 × 3` | **`3,45`** |
+  | `Vex`, na sua rodada | `25` | `0,50 × 108` | **`54,00`** |
+
+  **E o `9,4` não é defeito nenhum: ele é ESCOPO puro** — a sua rodada de `108` contra um golpe do aliado de `11,50`. *O `4,7` que três documentos publicavam é o mesmo escopo com a base errada do outro lado, `108 ÷ 23,00`.*
+
+  > **O que parecia contra-teste era a mesma troca de base, por outra porta.** *A frase que morava aqui dizia: lido pela sua régua, o `Ajudar` valeria `54,00` em vez de `5,75`, e `54,00 ÷ 5,75` dá `9,4`.* **Aquilo é verdade e não prova nada** — o `54,00` é vantagem medida **na sua rodada inteira**, e o `Ajudar` é a mesma vantagem medida **num golpe do aliado**. *A razão entre os dois é o escopo, que é justamente o `9,4` de que se está falando.*
+
+  ***FECHADO na v0.192, e nenhum número se moveu.*** **O que estava errado era a explicação, e ela ficou setenta e oito versões pendurada num número certo.** *A checagem 2 do `conferir-dano.py` passou a exigir que a razão entre as duas réguas seja **só** o escopo — se um dos dois lados deixar de ser relativo, ela acende.*
 - **O valor de uma condição depende de em quem ela cai.** *Contra um capanga de `38` de dano por rodada, em vez de um chefe de `72`, seis das treze mudam de nível.* **A tabela publicada é a do chefe, porque é contra ele que as entregas de Trilha foram preçadas** — e o validador confere as duas colunas.
 - **O `Impedido` é a maior da lista desde a v0.139, quando o `Petrificado` saiu.** *Ele é o `Cego` inteiro mais deslocamento `0`, e a diferença entre os dois é `1,10×` — dominância que o filtro aceita.*

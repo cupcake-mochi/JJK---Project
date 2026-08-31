@@ -8,6 +8,58 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.192] — 30/08/2026
+
+**A divergência das duas réguas de rolagem fechou, e o diagnóstico que estava escrito era errado.** *Ele dizia que consertar repreçaria o `Guiar`, o `Estampido` e o `Ajudar`.* **Nenhum número se moveu: o que estava errado era a explicação, e ela ficou setenta e oito versões pendurada num número certo.**
+
+### 1 · Existe uma régua só, e ela é relativa nos dois lados
+
+**A v0.104 leu a régua do aliado como ABSOLUTA — `X` pontos percentuais virando `X%` da base — e concluiu que o fator `2` que separa as duas era uma conversão nunca declarada.** *A conta desmente.*
+
+**O que estava errado era a BASE do aliado, e não a conversão dele.** *A entrega mexe em **um** golpe simples, que vale `11,50`; a conta velha usava a **ação inteira**, que são dois.* **Os dois erros se cancelavam exato** — `23,00` é `2 × 11,50`, e o fator relativo é `1 ÷ 0,50`, que também é `2`.
+
+**Reconstruídas pela relativa em um golpe, as quatro batem na casa decimal:**
+
+| entrada | pp | conta | publicado |
+|---|---|---|---|
+| `Ajudar` | `25` | `0,50 × 11,50` | **`5,75`** |
+| `Guiar` | `15` | `0,30 × 11,50` | **`3,45`** |
+| `Estampido` | `5`, três aliados | `0,10 × 11,50 × 3` | **`3,45`** |
+| `Vex`, na sua rodada | `25` | `0,50 × 108` | **`54,00`** |
+
+**E o `9,4` não é defeito: é ESCOPO puro** — *a sua rodada de `108` contra um golpe do aliado de `11,50`.* **O `4,7` que três documentos publicavam é o mesmo escopo com a base errada do outro lado**, `108 ÷ 23,00`.
+
+> **O que parecia contra-teste era a mesma troca de base por outra porta.** *A frase dizia: pela sua régua o `Ajudar` valeria `54,00` em vez de `5,75`, e a razão é `9,4`.* **Aquilo é verdade e não prova nada** — o `54,00` é a mesma vantagem medida na rodada inteira, e a razão entre os dois É o escopo de que se falava.
+
+### 2 · Duas âncoras carregavam o próprio valor, e o arquivo avisa contra isso doze linhas acima
+
+**O `conferir-dano.py` lia `'aliado': (DCAM, r'0,230')` e `'acao_aliado': (DCAM, r'23,00')`.** *Padrão que contém o valor some exatamente quando o valor muda* — e aí quem acende é a checagem 1, que pergunta se a âncora existe, em vez da checagem que mede a relação.
+
+***A nota que descreve esse defeito está no mesmo dicionário, duas entradas abaixo, escrita na v0.151 para o `dado_do_soco`.*** **As duas do aliado passaram por baixo dela.** *Hoje as duas casam a FORMA, e o valor é lido.*
+
+### 3 · E o arnês pegou a minha própria tautologia
+
+***A primeira versão da checagem refeita comparava `_razao` com `_escopo`, e as duas eram a mesma álgebra*** — `ROTINA ÷ GOLPE` dos dois lados. **Ela era verde para qualquer número**, que é a lição nº 8 na forma mais crua: uma checagem que se mede contra ela mesma.
+
+**O conserto foi ler as duas metades do dono em vez de derivar uma da outra.** *Agora a razão usa o `pp` **publicado** e o escopo usa a **ação publicada**, e elas só coincidem se aquele lado for mesmo relativo.*
+
+> **Quatro perturbações acendem a checagem 2** — o `pp` do aliado dobrando, caindo pela metade, a ação virando um golpe só, e a peça publicando `4,7`. **E o contra-teste fica verde:** *a ação e o `pp` dobrando juntos é escopo novo com a mesma régua, e passa de propósito.*
+
+### Alterado
+
+- **A checagem 2 do `conferir-dano.py`**, que guardava o diagnóstico errado e uma comparação trivialmente verdadeira.
+- **Os padrões das âncoras `aliado` e `acao_aliado`**, que carregavam o valor.
+- **O ⚠ das duas réguas na peça 19** e **a nota de derivação do `DESENHO-caminhos.md`**.
+
+### Decidido
+
+- **A régua de rolagem é uma só, relativa, medida em dois escopos.** *A sua rodada, e um golpe do aliado.*
+- **Nada foi repreçado, e nada precisava.**
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **Sobrou a escrita das duas decisões da v0.190** — a porta da `Pétala` e os três números da `Energia Reversa` que fere — **e o `04-playtest/`.**
+
+---
+
 ## [0.191] — 30/08/2026
 
 **A varredura das seções "Em aberto" das vinte e cinco peças achou mais uma dívida paga que ninguém desregistrou, e a passada de voz desmentiu uma medida minha.**

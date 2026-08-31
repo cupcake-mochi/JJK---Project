@@ -78,8 +78,14 @@ ANCORAS = {
     'fatia': (DTRI, r'A fatia é `[\d,]+`'),
     'rotina30': (P01, None),          # a Rotina vem do manual, conferida na 4
     'vantagem': (P11, r'25\b'),
-    'aliado': (DCAM, r'0,230'),
-    'acao_aliado': (DCAM, r'23,00'),
+    # ⚠ as duas abaixo carregavam o VALOR no padrao — `0,230` e `23,00` — que e'
+    # o defeito que a nota do `dado_do_soco`, doze linhas abaixo, existe para
+    # avisar: ancora que carrega o valor some justamente quando o valor muda, e
+    # ai quem acende e a checagem 1 em vez da checagem que mede a relacao.
+    # Achado na v0.192, pelo arnes da regua de rolagem. Hoje as duas casam a
+    # FORMA e o valor e lido.
+    'aliado': (DCAM, r'`1` pp vale `\d,\d+`'),
+    'acao_aliado': (DCAM, r'aquela ação vale `\d+,\d+`'),
     'metro': (P05, r'0,90'),
     'ponto_arma': (P14, r'0,33'),
     'fundo': (P14, r'fundo\D{0,30}\b5\b|\b5\b\D{0,20}em duas'),
@@ -268,34 +274,72 @@ else:
         print(f'  [x] as 13 conversoes em fatia batem com a fatia lida do dono')
 
 
-# v0.104: AS DUAS REGUAS DE ROLAGEM, e o quanto elas divergem. A v0.103
-# publicava "4,7 vezes" em tres documentos, e o 4,7 e' 108 ÷ 23,00 — a razao das
-# BASES, nao das reguas. Lidas por ponto percentual elas dao 9,4, e o fator 2 que
-# separa os dois numeros e' a conversao: a sua regua e RELATIVA (peca 15 §3.3,
-# "+1 no acerto = 50% -> 55% = +10% de dano saido") e a do aliado e ABSOLUTA.
-# Nada disto esta guardado aqui: os quatro numeros vem dos donos.
+# AS DUAS REGUAS DE ROLAGEM — refeita na v0.192, e o diagnostico anterior estava
+# errado.
+#
+# A v0.104 escreveu que a sua regua e RELATIVA e a do aliado e ABSOLUTA, e que
+# consertar isso repreçaria o Guiar, o Estampido e o Ajudar. A conta desmente:
+# EXISTE UMA REGUA SO', e ela e relativa nos dois lados. O que a v0.104 leu como
+# "conversao absoluta" era a BASE errada — ela usou a acao inteira do aliado
+# (23,00, dois golpes) onde a entrega mexe em UM golpe (11,50).
+#
+# Os dois erros se cancelavam exato, porque 23,00 = 2 x 11,50 e o fator relativo
+# e' 1/0,50 = 2. Por isso o 0,230 publicado sempre foi o numero certo, com a
+# explicacao errada pendurada nele — e por isso nada precisou ser repreçado.
+#
+# Reconstruidas pela relativa em UM golpe, as tres batem na casa decimal:
+#   Ajudar     25 pp x1 = 5,75      Guiar    15 pp x1 = 3,45
+#   Estampido   5 pp x3 = 3,45      Vex      25 pp na sua rodada = 54,00
+#
+# E o 9,4 nao e defeito nenhum: e ESCOPO puro, a sua rodada (108) contra um golpe
+# do aliado (11,50). O 4,7 que tres documentos publicavam era o mesmo escopo com
+# a base errada do aliado, 108 ÷ 23,00.
+#
+# Nada esta guardado aqui: o golpe simples e o acerto vem dos donos.
 _PP_POR_PONTO = 5.0          # +1 no d20 sao 5 pontos percentuais
-_seu_pp = (ROTINA_30 * (_PP_POR_PONTO / (ACERTO * 100))) / _PP_POR_PONTO
-_razao = _seu_pp / PP_ALIADO
-_escopo = ROTINA_30 / ACAO_DE_ALIADO
+# as duas metades sao LIDAS do dono, e nao derivadas uma da outra — senao a
+# comparacao abaixo se mede contra ela mesma, que e a licao no 8.
+_m = re.search(r'`1` pp vale `(\d,\d+)`', ler(DCAM))
+if _m:
+    PP_ALIADO = num(_m.group(1))
+_m = re.search(r'aquela ação vale `(\d+,\d+)`', ler(DCAM))
+if _m:
+    ACAO_DE_ALIADO = num(_m.group(1))
+_GOLPE = ACAO_DE_ALIADO / GOLPES_POR_RODADA      # UM golpe simples do aliado
+def _rel(pp, base): return (pp / 100.0) / ACERTO * base
+_seu_pp = _rel(1.0, ROTINA_30)
+_derivado = _rel(1.0, _GOLPE)                    # o que a relativa produz num golpe
+_razao = _seu_pp / PP_ALIADO                     # com o pp PUBLICADO, nao com o derivado
+_escopo = ROTINA_30 / _GOLPE
+# 1. o pp publicado tem de sair da regua relativa aplicada a UM golpe
+if abs(_derivado - PP_ALIADO) > 0.005:
+    erro(f'2: o `{PP_ALIADO:.3f}` por ponto percentual de aliado, publicado no '
+         f'DESENHO-caminhos, nao reconstroi da regua relativa em um golpe simples '
+         f'de {_GOLPE:.2f} — ela da {_derivado:.3f}. Ou o numero mudou, ou aquele '
+         f'lado deixou de ser relativo')
+# 2. e com ele a razao entre as duas reguas tem de ser SO' o escopo
+elif abs(_razao - _escopo) > 0.01:
+    erro(f'2: a razao entre as duas reguas ({_razao:.2f}) deixou de ser o escopo '
+         f'({_escopo:.2f}) — se elas divergirem por outra coisa, uma das duas parou '
+         f'de ser relativa e o catalogo passa a ter dois modelos dentro')
 _m = re.search(r'divergem por `(\d+,\d+)` vezes', TXT)
 if not _m:
     erro('2: a peca nao publica mais por quanto as duas reguas de rolagem divergem '
          '— a frase mudou e esta checagem parou de conferir')
 else:
     _pub_r = num(_m.group(1))
-    print(f'  as duas reguas por ponto percentual: sua {_seu_pp:.3f} · '
-          f'do aliado {PP_ALIADO:.3f}')
+    print(f'  uma regua so, relativa, em dois escopos: a sua rodada {ROTINA_30:.0f} · '
+          f'um golpe do aliado {_GOLPE:.2f}')
+    print(f'  por ponto percentual: sua {_seu_pp:.3f} · do aliado {PP_ALIADO:.3f} '
+          f'(a relativa num golpe da {_derivado:.3f})')
     if abs(_razao - _pub_r) > 0.05:
         erro(f'2: a peca publica {_pub_r:.2f} vezes de divergencia entre as duas '
              f'reguas e a conta reconstroi {_razao:.2f}')
-    elif abs(_razao / _escopo - 2.0) > 0.01:
-        erro(f'2: a razao das reguas ({_razao:.2f}) deveria ser exatamente o dobro '
-             f'da razao das bases ({_escopo:.2f}) — o fator 2 e a conversao '
-             'relativa contra absoluta, e ele parou de fechar')
     else:
-        print(f'  [x] as duas reguas divergem {_razao:.2f}x = {_escopo:.2f} de escopo '
-              f'x 2 de conversao, e a peca publica {_pub_r:.2f}')
+        print(f'  [x] as duas divergem {_razao:.2f}x, e isso e ESCOPO puro — a mesma '
+              f'regua relativa')
+        print(f'      medida na sua rodada e num golpe do aliado. A peca publica '
+              f'{_pub_r:.2f}.')
 
 
 # --- 2.1 (v0.151): QUAL ROLAGEM o Incapacitado alcanca. -----------------------

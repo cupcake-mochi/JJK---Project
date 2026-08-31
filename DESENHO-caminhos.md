@@ -157,6 +157,12 @@
 
 > **E ela fecha sozinha, o que é o motivo de eu confiar nela.** Se `25%` de uma ação de atacar de aliado valem `5,75`, aquela ação vale `23,00` — que é **exatamente dois golpes simples de `11,50`**. No nível 30 o aliado tem ataque extra, então são dois golpes. *A conta reproduz uma coisa que não foi posta nela.*
 
+> ***⚠⚠ E a leitura desta linha estava trocada, refeita na v0.192.*** *Ela lia o `0,230` como `1%` da **ação inteira**, e a partir disso a peça 19 concluiu que a régua do aliado era absoluta enquanto a sua é relativa — e que consertar isso repreçaria três entradas.* **A régua é uma só, e ela é relativa dos dois lados: o que o `Ajudar` mexe é UM golpe, e `25` pontos percentuais sobre um acerto de `50%` sobem aquele golpe em `50%`.** *`0,50 × 11,50` = `5,75`, o mesmo número.*
+>
+> **Os dois erros se cancelavam exato**, porque `23,00` é `2 × 11,50` e o fator relativo é `1 ÷ 0,50`, que também é `2`. *Por isso o `0,230` sempre esteve certo e nada precisou ser repreçado — o `Guiar` reconstrói em `0,30 × 11,50` = `3,45`, e o `Estampido` em `0,10 × 11,50 × 3` = `3,45`.*
+>
+> **E o `9,4` entre as duas réguas é escopo, e não conversão:** *a sua rodada de `108` contra um golpe do aliado de `11,50`.* **A checagem 2 do `conferir-dano.py` deriva o `0,230` do golpe simples e exige que a razão seja só o escopo.**
+
 **O `Guiar` converte `15` pontos percentuais** — é o que este documento já escrevia: *"com Essência 6 ele converte falhas de margem 3, 15% das rolagens"*. **O `Puxar a Linha` dá o deslocamento inteiro, que são `9 m`** — três degraus da linha de posicionamento. *A isenção de ataque de oportunidade entra a zero: não tem linha, e ela é o que separa "reposicionar" de "empurrar", não uma segunda entrega.*
 
 #### O `Ninguém Cai` não tem preço, e não é por falta de tentar
