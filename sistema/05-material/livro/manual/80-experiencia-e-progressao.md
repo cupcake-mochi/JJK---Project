@@ -122,7 +122,9 @@ Um Grau 4 ganha pouco menos que um recém-formado de empresa, e mora onde a esco
 
 O dinheiro compra equipamento, e os `Preços` estão no capítulo 14, *Equipamento*. Ele não compra nível, não compra marco e não compra aptidão.
 
-> **Salário mínimo.** Se um feiticeiro não participar de missões, o salário que ele recebe é `1/4` do padrão do Grau dele. Cada missão jogada preenche esse requisito: para receber o salário completo, é preciso participar de pelo menos **3** missões ou mesas no mês, e cada uma completa `1/4` do salário depois do mínimo. Missão longa vale por **2**, e final de arco vale por **3**. Missão pode conceder dinheiro extra, mas isso é decisão de cada servidor.
+> **Salário mínimo.** Se um feiticeiro não participar de missões, o salário que ele recebe é `1/4` do padrão do Grau dele. Cada missão jogada preenche esse requisito: para receber o salário completo, é preciso participar de pelo menos `X` missões ou mesas no mês, e cada uma completa uma fatia do salário depois do mínimo. Missão longa vale por **2**, e final de arco vale por **3**. Missão pode conceder dinheiro extra, mas isso é decisão de cada servidor.
+
+Quanto vale o `X`, e se o salário existe, é decisão de cada servidor — um deles pode escolher não pagar em dinheiro nenhum, e trocar a folha por acesso, ferramenta ou favor. O recomendado é `3` missões: com ele, quem joga uma vez por semana recebe cheio e quem some por um mês inteiro ainda recebe o mínimo.
 
 ## Limiar do nível 20
 

@@ -163,6 +163,38 @@ anunciava sozinho.*
 
 ---
 
+## O livro recomenda o que é de cada servidor, e não decide por ele
+
+*Escrita na v0.195, e a fonte é o Mizuki reescrevendo o XP de quem mestra com as próprias
+mãos.* **Palavras dele:** *"o guia não é para dizer o que o mestre ganha, é mais para dar
+ideia e recomendação"*.
+
+O teste é uma pergunta só:
+
+> **Duas guildas podem responder isso diferente e as duas estarem certas?**
+> **Se podem, o livro recomenda. Se não podem, o livro decide.**
+
+O que muda quando a resposta é "podem":
+
+| o que era | o que vira |
+|---|---|
+| o número | `X` ou `Y` — a **forma** fica escrita, o valor não |
+| a tabela | ela diz que traz **exemplos, e não regra** |
+| a opinião do livro | vira conselho: *"não aconselhamos isso"*, *"o recomendado é"* |
+
+**A regra do sistema continua fechada.** *Quanto uma condição custa, quanto um feitiço
+causa, o que a maestria soma — nada disso é de servidor, e nada disso vira `X`.* **O que
+vira é a economia da guilda:** *quanto se paga por mesa mestrada, quantas missões o salário
+exige, o que a instituição concede por fora.*
+
+> **⚠ E isso tem um custo que precisa de dono.** *Quando o livro troca um número por `X`,
+> a peça de `03-mecanica/` continua sendo dona da derivação — ela guarda de onde o número
+> saiu, e o livro guarda a forma.* **As duas não podem divergir em silêncio**, e é isso que
+> aconteceu na primeira aplicação: o livro passou a dizer `X` e a peça 12 §6.2 continuou
+> dizendo `vinte`.
+
+---
+
 ## O livro não fala de si mesmo
 
 O teste é a pergunta que a frase responde:

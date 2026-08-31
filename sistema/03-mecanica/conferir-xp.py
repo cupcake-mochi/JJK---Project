@@ -466,6 +466,51 @@ else:
             else:
                 print('  [x] o 20 nao foi escolhido: ele e a divisao dos dois donos.')
 
+            # --- 6.1: o livro publica a FORMA, e a peca publica o VALOR ----
+            # v0.195. A regra de voz do livro ganhou uma linha nova: o livro
+            # recomenda o que e de cada servidor e nao decide por ele — quanto se
+            # paga por mesa mestrada e decisao de guilda, e um servidor pode
+            # escolher nao pagar em dinheiro nenhum. O livro trocou o numero por
+            # `X`; a peca ficou dona da derivacao.
+            #
+            # E na primeira aplicacao os dois divergiram em silencio: o livro
+            # passou a dizer `X` e esta peca continuou publicando "vinte" como
+            # REGRA, sem dizer que tinha deixado de ser. Nenhum validador olhava
+            # os dois lados.
+            #
+            # A checagem guarda a RELACAO, nos dois sentidos: enquanto o livro
+            # publicar a forma, a peca tem de declarar que aquilo virou
+            # recomendacao; se o livro voltar a publicar um numero, a declaracao
+            # perde o objeto e isso acende.
+            _CAP = os.path.join(AQUI, '..', '05-material', 'livro', 'manual',
+                                '80-experiencia-e-progressao.md')
+            _FORMA = re.compile(r'a cada `X` mesas mestradas', re.I)
+            _NUM_LIV = re.compile(r'a cada (?:`)?(\d+|vinte|dez|quinze)(?:`)? mesas mestradas', re.I)
+            _DECLARA = re.compile(r'DEIXOU DE SER REGRA', re.I)
+            if not os.path.isfile(_CAP):
+                erro('6.1: nao achei o capitulo de XP do livro — e ele e o outro lado '
+                     'da relacao que esta checagem guarda')
+            else:
+                _liv = open(_CAP, encoding='utf-8').read()
+                _tem_forma = bool(_FORMA.search(_liv))
+                _tem_num = bool(_NUM_LIV.search(_liv))
+                _declara = bool(_DECLARA.search(_s62))
+                if _tem_forma and not _declara:
+                    erro('6.1: o livro publica a FORMA ("a cada `X` mesas mestradas") e o '
+                         'SS6.2 desta peca nao declara que o numero deixou de ser regra — '
+                         'a peca continua lendo como lei o que o livro entrega ao servidor')
+                elif _tem_num and _declara:
+                    erro('6.1: o livro voltou a publicar um NUMERO de mesas mestradas, e o '
+                         'SS6.2 continua declarando que aquilo virou recomendacao — as duas '
+                         'nao podem ser verdade juntas')
+                elif not _tem_forma and not _tem_num:
+                    erro('6.1: o capitulo de XP do livro nao publica nem a forma nem o '
+                         'numero da conversao de mestragem — a regra sumiu de la, e esta '
+                         'checagem sairia verde sem ter comparado nada')
+                else:
+                    print('  [x] o livro publica a forma, e a peca declara que o numero '
+                          'virou recomendacao.')
+
             # --- a tabela do SS6.2.1 e RECONTADA -------------------------
             _linhas = []
             for _l in _s62.splitlines():

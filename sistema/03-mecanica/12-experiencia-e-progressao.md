@@ -205,7 +205,11 @@ Os dois primeiros batem quase exato. **Sem o retorno decrescente, quem joga quat
 
 > **A cada vinte mesas mestradas você recebe uma mensalidade extra do seu Grau.** *A marca fecha sozinha na vigésima, e paga na patente que você tinha naquele dia.*
 
-**Nenhum dos dois números foi escolhido.** *O valor é a linha do §6.1 — a mesma mensalidade, sem moeda nova e sem tabela nova.* **E o `20` é uma divisão com dois donos:** o levantamento mede o mestre ativo em **duas a três mesas por mês**, e o §6.1 mede o catálogo mundano inteiro em **`15%`** da renda de uma campanha. **`3 ÷ 0,15 = 20`.**
+***⚠ ISTO DEIXOU DE SER REGRA na v0.195, por decisão do Mizuki.*** **O livro publica a FORMA e não o valor** — *"a cada `X` mesas mestradas"* —, porque quanto se paga por mesa mestrada é decisão de cada servidor, *e um servidor pode escolher não pagar em dinheiro nenhum.* **Esta linha continua sendo a recomendação do projeto, e ela vale como exemplo trabalhado: é o `X` que a conta abaixo produz.**
+
+**Nenhum dos dois números foi escolhido, e é por isso que a recomendação vale alguma coisa.** *O valor é a linha do §6.1 — a mesma mensalidade, sem moeda nova e sem tabela nova.* **E o `20` é uma divisão com dois donos:** o levantamento mede o mestre ativo em **duas a três mesas por mês**, e o §6.1 mede o catálogo mundano inteiro em **`15%`** da renda de uma campanha. **`3 ÷ 0,15 = 20`.**
+
+> **Quem trocar o `X` fica com a conta na mão.** *Um servidor que ache `20` demorado baixa a marca e sabe o que está comprando: com `10`, o bônus dobra de frequência e o mestre ativo passa a tirar `30%` da renda mundana em vez de `15%`.* **A derivação é o que a peça entrega; o número é do servidor.**
 
 **O que a divisão compra é a trava do §6, e ela sai exata:** *no ritmo mais pesado que a Guilda já relatou, a mestragem acrescenta `15%` à renda — a mesma fatia que o loadout mundano mais caro ocupa.* **Mestrar a campanha inteira paga um loadout completo, e nem um iene a mais.**
 

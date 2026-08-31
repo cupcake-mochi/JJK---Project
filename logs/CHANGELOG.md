@@ -8,6 +8,61 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.195] — 31/08/2026
+
+**O livro ganhou uma regra de voz que ele não tinha, e ela veio da mão do Mizuki.** *Ele reescreveu o XP de quem mestra sozinho, trocando o número por `X` e a ordem por conselho.* **A régua não tinha isso escrito, e sem dono a mudança morreria na versão seguinte.**
+
+### 1 · A regra, e o teste dela cabe numa pergunta
+
+***Palavras dele:*** *"o guia não é para dizer o que o mestre ganha, é mais para dar ideia e recomendação"*.
+
+> **Duas guildas podem responder isso diferente e as duas estarem certas?**
+> **Se podem, o livro recomenda. Se não podem, o livro decide.**
+
+**O número vira `X`, a tabela diz que traz exemplos, e a opinião do livro vira conselho.** *E a fronteira ficou escrita junto, senão a regra come o que não devia:* **quanto uma condição custa e o que a maestria soma não são de servidor.** *O que é de servidor é a economia da guilda.*
+
+### 2 · Duas aplicações, e a segunda achou uma divergência em silêncio
+
+**O salário mínimo do capítulo 80 virou `X` missões**, com a nota de que um servidor pode escolher não pagar em dinheiro nenhum.
+
+**E o `20 mesas mestradas` da peça 12 §6.2 deixou de ser regra.** *O livro publica a forma; a peça continua dona da derivação — `3 ÷ 0,15`, com os dois donos escritos.*
+
+> **⚠ Na primeira aplicação os dois lados divergiram sem ninguém ver.** *O livro passou a dizer `X` e a peça continuou publicando `vinte` como lei.* **A sub-checagem `6.1` do `conferir-xp.py` guarda essa relação nos dois sentidos**, e três perturbações acendem: a peça calando, o livro voltando ao número, e a regra sumindo do livro.
+
+### 3 · E a biblioteca de pesquisa ganhou o irmão que faltava
+
+**`01-pesquisa/levantamento-ritmo-fora-do-projeto.md`.** *O irmão dele traz catorze opiniões da própria Guilda; este traz quatro comunidades que resolveram o mesmo problema noutro lugar, com o que cada uma decidiu e **o que cada uma não responde**.*
+
+**A conclusão dele é que não existe padrão de mercado:** *duas fontes tratam o vão de cadência como defeito, uma trata como propriedade a explorar, e uma não trata.* **E ele valida a forma que este projeto já usa** — o guia do westmarches.games recomenda XP em vez de marco com todas as letras.
+
+> **⚠ Limite registrado no próprio arquivo: o Reddit está bloqueado por política do ambiente, nos dois caminhos**, e é lá que mora a maior parte da discussão de opinião. *O que deu para alcançar com discussão votada foi o RPG StackExchange, e ele rendeu o achado que separou os dois eixos:* **o alcance automático da peça 12 conserta diferença de NÍVEL, e não de PRESENÇA.**
+
+### 4 · E o repreço do XP ficou em rascunho, medido e não aplicado
+
+**`03-mecanica/RASCUNHO-ritmo-de-xp.md`.** *A curva de hoje foi calibrada para uma mesa por semana e a Guilda joga duas — daí o nível 20 chegar em `6,9` meses em vez dos `10,25` que o levantamento pede.*
+
+***Decisões do Mizuki, tomadas e medidas nesta versão, e por escrever:*** **a curva nova é `3` mesas no primeiro nível subindo uma a cada dois, com o nível 2 protegido em `2`** — `125` mesas até o nível 20, que dá `13,6` meses a duas por semana. **E o vão entre cadências fica sem regra:** *o livro mede, mostra e sugere.*
+
+### Adicionado
+
+- **A seção `O livro recomenda o que é de cada servidor` na `REGRA-DE-VOZ.md`.**
+- **A sub-checagem `6.1` do `conferir-xp.py`.**
+- **`01-pesquisa/levantamento-ritmo-fora-do-projeto.md`** e **`03-mecanica/RASCUNHO-ritmo-de-xp.md`.**
+
+### Alterado
+
+- **O salário mínimo do capítulo 80**, que virou `X` com a decisão declarada do lado.
+- **O §6.2 da peça 12**, que deixou de publicar o `20` como regra.
+
+### Decidido
+
+- **O livro recomenda o que é de cada servidor, e não decide por ele.**
+- **A curva de XP estica**, e o vão entre cadências fica fora da regra.
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **O trabalho da próxima é aplicar o `RASCUNHO-ritmo-de-xp.md`** — peça 12, capítulo 80, `conferir-xp.py` e os quatro builds. *As quatro checagens penduradas na curva velha têm de ser refeitas junto.*
+
+---
+
 ## [0.194] — 30/08/2026 · manual na v7.20
 
 **A `Energia Reversa` fere maldição, e a regra ficou no manual em vez de virar aptidão nova.** *A primeira proposta criava uma Passiva — a `Soltura` — só para destravar o alcance ofensivo.* **O Mizuki matou ela com o argumento do próprio projeto: o alcance já tem dono, e inventar entrada para tapar buraco que já tem dono é o defeito que a régua do `Desliga` reprovou quatro vezes.**
