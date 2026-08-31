@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 30/08/2026, na v0.193 (última peça fechada: **Sem Técnica**, a peça 25, na v0.168, com o `conferir-sem-tecnica.py` e doze checagens; antes dela, **Dano de alma e Integridade, na v0.145**; antes dela, o **Bloquear, na v0.143**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 30/08/2026, na v0.194 (última peça fechada: **Sem Técnica**, a peça 25, na v0.168, com o `conferir-sem-tecnica.py` e doze checagens; antes dela, **Dano de alma e Integridade, na v0.145**; antes dela, o **Bloquear, na v0.143**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.193.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e cinco peças escritas** e **vinte e cinco validadores**.
+**Versão v0.194.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e cinco peças escritas** e **vinte e cinco validadores**.
 
 **A v0.189 fechou três itens da fila, e nenhum fechou do jeito que a fila dizia.** *Uma pergunta estava mal feita, uma decisão citava uma regra que diz o contrário dela, e uma dívida estimou o próprio tamanho sem conferir.*
 
@@ -802,7 +802,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 
 **Duas peças foram parcialmente substituídas e trazem o aviso no topo:** as seções 3 e 4 da peça 4 saíram para a peça 7, e a seção 3 e o quadro de Caminhos da peça 5 saíram para a peça 6.
 
-O manual do Fundamento **v7.19** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 366 parágrafos e 90 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na mesma versão do `.docx`, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 50 páginas.
+O manual do Fundamento **v7.20** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 366 parágrafos e 90 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na mesma versão do `.docx`, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 50 páginas.
 
 **Quem é dono da versão do manual:** a primeira linha de `manual/gerador/COMO-USAR.txt`. Toda outra cópia — a capa em `partA.js`, este arquivo, o `README.md`, o `LEIA-ME.md` e o `arquitetura.md` — é cópia, e o `conferir-repositorio.py` falha se alguma divergir. *Ele nasceu na v0.33, depois de a capa do manual passar três versões dizendo 7.5.*
 

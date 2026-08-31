@@ -53,7 +53,7 @@ const montar = [
       ['Aura', 'Leve', 'Esfera de raio 3 m centrada em você. Explosão com Corpo a Corpo embutida (devolve Média).', 'Teste de Resistência, metade no sucesso'],
       ['Cone', 'Leve', '4,5 m saindo de você', 'Teste de Resistência, metade no sucesso'],
       ['Linha', 'Leve', '18 m por 1,5 m', 'Teste de Resistência, metade no sucesso'],
-      ['Cura', 'Média', 'Um aliado a até 9 m. Os dados viram cura.', 'Automático'],
+      ['Cura', 'Média', 'Um aliado a até 9 m. Os dados viram cura. Pode escolher alvo hostil.', 'Automático no aliado, acerto no hostil'],
       ['Apoio', '—', 'Um aliado a até 9 m. Sem dano. Cada ponto que sobra vira 3 de vida temporária.', 'Automático'],
       ['Onda', 'Pesada', 'Esfera de raio 3 m centrada em você. A cura ou o apoio pega todos os aliados dentro, sem dividir.', 'Automático'],
       ['Efeito', '—', 'Fora de combate. Sem dano. Ver seção 5.', 'Automático'],
@@ -109,6 +109,8 @@ const montar = [
   H2('Cura'),
   P('A Forma Cura custa Média e transforma em cura os dados que sobrarem, aplicados automaticamente num aliado a até 9 m. Não existe Liberação Máxima de cura: a linha de baixo é o teto por Classe.'),
   P('Pra pegar mais gente: **Junto** (Amparo) soma um aliado dividindo o efeito, e a Forma **Onda** cura em área sem dividir.'),
+  P('A Forma Cura pode escolher um alvo hostil em vez de um aliado. Nesse alvo ela deixa de ser automática e pede rolagem de acerto, como qualquer feitiço de dano. Contra uma maldição os dados viram dano, com 50% a mais; contra qualquer outra coisa ela não faz nada. É energia positiva machucando maldição, e ela precisa da aptidão Energia Reversa para funcionar — sem ela, apontar este feitiço num inimigo não produz nada.'),
+  P('Os 50% não são bônus. A cura já rende dois terços do dano da mesma Classe, e somar metade em cima devolve exatamente a linha cheia: um Classe 5 assim causa 67, que é o dano daquela Classe. E esta rota nunca é a melhor escolha, porque ela custa a Média da Forma e um Projétil custa nada e fere qualquer coisa.'),
   TBL(['Classe', '1', '2', '3', '4', '5'],
     [
       ['Cura cheia', '2d8 = 9', '4d8 = 18', '6d8 = 27', '8d8 = 36', '10d8 = 45'],

@@ -390,8 +390,21 @@ E "mais fácil depois do primeiro" sem teto é a espiral da exaustão com o sina
 ### Energia Reversa · Classe Passiva 3 · refino 7 e nível 13
 
 > **Ação padrão. Gaste até `maior Classe` de PE e recupere `1d8` de vida por PE gasto, em você.**
+> **E ela é o requisito de todo uso ofensivo de energia reversa** — a Forma `Cura` do manual só fere maldição na mão de quem tem esta aptidão, e sem ela apontar aquele feitiço num inimigo não produz nada.
 
 *Ela estava na lista das que faltavam desde a v0.27 e fechou na v0.77, quando a Trilha `Sutura` do Guia precisou dela para existir.*
+
+#### Ferir maldição — escrito na v0.194, e o número não é desta peça
+
+**Energia positiva machuca maldição, e o manual v7.20 é o dono da regra:** *a Forma `Cura` pode escolher um alvo hostil, e ali ela pede rolagem de acerto em vez de ser automática; contra maldição os dados viram dano com `50%` a mais.*
+
+> **Os `50%` não são bônus, e é por isso que eles não precisaram ser escolhidos.** *A cura já rende **dois terços** do dano da mesma Classe, nas sete — e `2/3 × 1,5 = 1`.* **Somar metade em cima devolve exatamente a linha de dano daquela Classe**, e nenhum número novo entra no sistema.
+
+**A rota nunca é a melhor escolha, e isso é o que a segura.** *Ela custa a `Média` da Forma, e um `Projétil` custa zero e fere qualquer coisa.* **Ela existe para o feitiço de cura não ser inútil contra maldição — não para ser arma.**
+
+***Decisão do Mizuki na v0.194: esta aptidão é o requisito.*** **Sem ela, uma técnica focada em cura já feriria maldição sem nunca passar por aqui** — e aí a aptidão viraria enfeite para quem cura. *Com ela como porta, os dois usos ficam pendurados na mesma compra.*
+
+> **E ferir com a APTIDÃO, fora do feitiço, pede que ela já alcance os outros** — hoje isso é o `Enxerto` da Trilha `Sutura`, no nível 11 dela, e nada mais precisa existir. *A energia tem de sair do corpo antes de tocar em alguém, e curar a si mesmo não prova isso.*
 
 **Nenhum número aqui é escolha minha, e vale mostrar de onde cada um sai.** A seção 7 já mandava medir esta aptidão contra a Passiva **`Recomposição`**, que é a cura inata: `5 × maior Classe`, uma vez por descanso curto — **`35` de cura no nível 30**. O projeto tem câmbio de PE, porque `+1` PE por rodada vale `5,14` de dano por rodada; e cura é **dano evitado**, que a régua converte `1` pra `1`. **Então um PE vale cerca de cinco de cura.** E o manual já cura em dado: *"cada ponto que sobra vira `1d8`"*, que é `4,5`.
 

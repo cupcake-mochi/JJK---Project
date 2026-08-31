@@ -8,6 +8,70 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.194] — 30/08/2026 · manual na v7.20
+
+**A `Energia Reversa` fere maldição, e a regra ficou no manual em vez de virar aptidão nova.** *A primeira proposta criava uma Passiva — a `Soltura` — só para destravar o alcance ofensivo.* **O Mizuki matou ela com o argumento do próprio projeto: o alcance já tem dono, e inventar entrada para tapar buraco que já tem dono é o defeito que a régua do `Desliga` reprovou quatro vezes.**
+
+### 1 · A regra, e ela cabe em duas linhas do manual
+
+**A Forma `Cura` passa a poder escolher um alvo hostil.** *Ali ela deixa de ser automática e pede rolagem de acerto, como qualquer feitiço de dano.* **Contra maldição os dados viram dano, com `50%` a mais; contra qualquer outra coisa ela não faz nada.**
+
+***Requisito: a aptidão `Energia Reversa`.*** **Sem ela, apontar aquele feitiço num inimigo não produz nada.**
+
+> ***Decisão do Mizuki, e ela conserta o que a versão anterior quebrava:*** *sem esse requisito, uma técnica focada em cura já feriria maldição sem nunca passar pela aptidão — e a aptidão viraria enfeite para quem cura.* **Com ela como porta, os dois usos ficam pendurados na mesma compra.**
+
+### 2 · O `50%` não foi escolhido, e ele se prova sozinho
+
+**A cura rende dois terços do dano da mesma Classe, nas sete.** *E `2/3 × 1,5 = 1`.*
+
+| Classe | cura | com o `+50%` | dano da Classe |
+|---|---|---|---|
+| 2 | 18 | **27,0** | 27 |
+| 5 | 45 | **67,5** | 67 |
+| 7 | 63 | **94,5** | 94 |
+
+**O `50%` é o que desfaz o desconto da cura, e nenhum número novo entra no sistema.**
+
+> **E a rota nunca é a melhor escolha, que é o que a segura.** *Ela custa a `Média` da Forma, e um `Projétil` custa zero e fere qualquer coisa.* **Ela existe para o feitiço de cura não ser inútil contra maldição, e não para ser arma.**
+
+### 3 · E a prosa do projeto trancava uma coisa que a regra nunca trancou
+
+***Achado indo escrever, e ele é maior que a regra nova.*** **Três lugares diziam que curar os outros fica fora da criação, na Trilha `Sutura`.** *Não fica.*
+
+**A Forma `Cura` do manual cura um aliado a até 9 m, e ela é livre para quem não fechou a Família `Amparo`.** *O que a `Sutura` vende, no `Enxerto` do nível 11, é curar os outros **sem gastar espaço de `Manejo`** — que é outra coisa.*
+
+> ***O pior dos três contradizia a ficha impressa quatro linhas acima dele.*** *O exemplo `Sutura Fria` da peça 25 tem `Amparo` entre as Famílias Livres, e o parágrafo debaixo dele mandava aquele personagem pegar o Guia e a `Sutura` para curar terceiro.* **Ele já curava.**
+>
+> **Era isso que fazia a decisão parecer difícil.** *As duas preocupações do Mizuki — o curandeiro forçado a pegar a aptidão, e o `Sem Técnica` que não cura ninguém — nasciam das frases, e não das regras.*
+
+### 4 · O que a passada de voz do livro pegou, e as duas eram minhas
+
+**O `####` que eu abri quebrou o reconhecedor de entradas de catálogo — de `52` para `51`.** *A guarda de contagem do `ROTULO-LONGO` existe desde a v0.153 exatamente para isso, e foi ela que falou.* **Título novo dentro daquela seção corta a camada que o reconhecedor usa.**
+
+**E a minha frase abria com efeito antes da regra** — *"energia positiva machuca maldição, e a Forma `Cura` pode…"* —, que é a primeira das três famílias que a v0.129 cortou do livro inteiro. *Reescrita com a regra na frente e o sabor no fim.*
+
+### Adicionado
+
+- **A regra da `Cura` que fere**, no manual v7.20 e no capítulo 9 do livro.
+- **O bloco `Ferir maldição`** na peça 11 §6, com a derivação do `50%` e o requisito.
+
+### Alterado
+
+- **A linha da Forma `Cura`** na tabela de Formas, nos dois documentos.
+- **O §4.4 da peça 25**, que virou regra fechada em vez de decisão anotada.
+- **Três trechos da peça 25** que trancavam curar os outros, e um deles contradizia o exemplo dela.
+- **Cinco cópias da versão do manual**, de `v7.19` para `v7.20`.
+
+### Decidido
+
+- **A aptidão `Energia Reversa` é o requisito de todo uso ofensivo de energia reversa.**
+- **Nenhuma aptidão nova foi criada**, e a `Soltura` não existe.
+- **Curar os outros pelo feitiço sempre foi livre.** *O que a `Sutura` vende é curar sem gastar espaço.*
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **Fora o `04-playtest/`, a fila da mecânica ficou sem item.**
+
+---
+
 ## [0.193] — 30/08/2026
 
 **A porta da `Pétala` saiu do estado de decisão e virou texto**, e escrever ela destampou que a triagem de nomes da peça 25 era uma lista escrita à mão dentro do validador.

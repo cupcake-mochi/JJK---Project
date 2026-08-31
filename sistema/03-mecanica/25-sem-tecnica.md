@@ -130,15 +130,19 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 
 ***Decisão do Mizuki na v0.190: ela vira porta***, e o exemplo dela é o `Espinho`, no §9.
 
-### 4.4 A `Energia Reversa` fere maldição — decidido na v0.190, e por escrever
+### 4.4 A `Energia Reversa` fere maldição — fechado na v0.194, e o dono é o manual
 
-***Palavras do Mizuki, e elas são a especificação:*** **energia positiva fere maldição, causando `50%` de dano extra**, e ela *"tem de seguir os feitiços de cura mesmo — então os dados são reduzidos"*.
+***Decisão do Mizuki:*** **energia positiva machuca maldição.** *A regra mora no manual v7.20, na Forma `Cura`, e esta peça só aponta: a Forma pode escolher um alvo hostil, ali ela pede rolagem de acerto em vez de ser automática, e contra maldição os dados viram dano com `50%` a mais.*
 
-**E ferir com a APTIDÃO — sem `Manejo` e sem estilo — pede uma de duas coisas: a aptidão de liberação da `Energia Reversa`, ou uma entrega que cure outros alvos além de você**, que é o que a Trilha `Sutura` faz no nível 11 dela.
+**O `50%` não foi escolhido — ele é o que desfaz o desconto da cura.** *A cura rende **dois terços** do dano da mesma Classe nas sete, e `2/3 × 1,5 = 1`.* **Somar metade em cima devolve a linha cheia daquela Classe, e nenhum número novo entra no sistema.**
 
-**O motivo é o mesmo nos dois: para usar `Energia Reversa` em outra coisa, você precisa conseguir liberar ela do corpo.** *Curar a si mesmo não prova isso — a semente entrega a cura própria, e a cura de terceiro sempre morou fora da criação.*
+***E o requisito é a aptidão `Energia Reversa`.*** **Sem ela, uma técnica focada em cura já feriria maldição sem nunca passar pela aptidão** — *e aí ela viraria enfeite para quem cura.* **Com ela como porta, os dois usos ficam pendurados na mesma compra.**
 
-> **⚠ Isto é a decisão, e não a regra escrita.** *Falta o número de verdade — `50%` de quê, sobre qual base, e com que dado depois da redução —, falta o nome da aptidão de liberação, que ainda não passou pela triagem, e falta o preço contra a régua.* **Nada disso foi medido nesta versão, e a peça não publica nenhum dos três.** *Registrado aqui porque decisão registrada não é decisão aplicada, e este projeto já pagou cento e quarenta e nove versões por confundir as duas.*
+> **A rota nunca é a melhor escolha, e é isso que a segura.** *Ela custa a `Média` da Forma, e um `Projétil` custa zero e fere qualquer coisa.* **Ela existe para o `Manejo` de cura não ser inútil contra maldição, e não para ser arma.**
+>
+> **E ferir com a APTIDÃO, fora do `Manejo`, pede que ela já alcance os outros** — hoje isso é o `Enxerto` da Trilha `Sutura`, no nível 11 dela. *A energia tem de sair do corpo antes de tocar em alguém, e curar a si mesmo não prova isso.*
+>
+> ***⚠ Nenhuma aptidão nova foi criada para isso, e a versão anterior desta seção previa uma.*** *A `Soltura` existiria só para destravar o alcance ofensivo — e o alcance já tem dono na `Sutura`.* **Inventar entrada para tapar buraco que já tem dono é o defeito que a régua do `Desliga` reprovou quatro vezes neste projeto.** *Achado do Mizuki lendo a proposta.*
 
 **A `Extensão de Domínio` foi recusada por decisão do Mizuki**, e ela caberia na banda. *Ela é `Classe Passiva 3` como a `Energia Reversa`.*
 
@@ -174,7 +178,9 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 
 > **E ela mora AQUI e não na `Sutura`, e isso é a peça 9 §1 decidindo.** *Aquela seção diz, sobre por que a Origem não dá atributo: "amarrar número à origem criaria **a origem certa para cada montagem**".* **Pendurar o buff na Trilha do Guia faria `Sem Técnica` virar a Origem certa para todo `Sutura`.** *Na máquina da rota, ele vale para quem tem a semente, tenha pegado `Sutura` ou não — e quem pegar as duas empilha, como qualquer um empilha Trilha.*
 
-> **⚠⚠ E a `Liberação` — curar OS OUTROS — fica de fora da criação.** *A peça 11 §6 escreve que curar terceiro é o degrau raro do material e põe ele na Trilha `Sutura`, **no nível 11 dela**, ao preço de uma Trilha inteira.* **O levantamento é mais estreito que a peça: só três pessoas na obra inteira fazem isso — Shoko, Yuta e Sukuna —, e o Gojo não consegue.** *Quem quiser curar os outros escolhe o Guia e paga como todo mundo.*
+> **⚠⚠ O que fica de fora da criação é curar os outros PELA APTIDÃO, e não curar os outros.** *Corrigido na v0.194, e a distinção estava perdida em três lugares desta peça.* **Pelo FEITIÇO qualquer um cura um aliado a até 9 m** — é a Forma `Cura` do manual, e ela é livre para quem não fechou a Família `Amparo`. *O que a Trilha `Sutura` vende, no `Enxerto` do nível 11, é curar os outros **sem gastar espaço de feitiço**.*
+>
+> **A aptidão nunca foi a porta da cura de terceiro: ela é a cura que não custa lista.** *O levantamento explica por que a rota da aptidão é cara — só três pessoas na obra inteira curam os outros com energia reversa, e o Gojo não consegue —, e isso vale para aquela rota, não para o `Manejo`.*
 
 ### ~~⚠ Uma frase da peça 11 §6 ficou velha, e ela não é desta peça~~ — **paga na v0.171**
 
@@ -269,7 +275,9 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 
 > **⚠ Este exemplo carrega uma decisão, e ela vale estar escrita: um Fundamento pode não causar dano nenhum.** *O manual já permite — a Forma `Apoio` não causa, e a `Efeito` também não — mas nenhum dos três Fundamentos prontos dele mostra isso.* **Uma rota cuja porta mais famosa é uma médica precisava do exemplar.**
 
-*E a cura dele soma `1/3 do refino`, pelo §6.* **Curar os outros ele não faz** — para isso ele precisaria do Guia e da `Sutura`, como qualquer um.
+*E a cura dele soma `1/3 do refino`, pelo §6.* **Curar os outros ele FAZ, e a ficha acima já mostra como:** *`Amparo` está entre as Livres dele, então ele monta um `Manejo` com a Forma `Cura` e alcança um aliado a até 9 m, como qualquer um que não fechou aquela Família.*
+
+> ***⚠ Esta linha dizia o contrário, e ela contradizia a própria ficha quatro linhas acima.*** *Ela mandava o `Sutura Fria` pegar o Guia e a `Sutura` para curar terceiro.* **O que a `Sutura` vende é curar os outros PELA APTIDÃO, sem gastar espaço de `Manejo`** — e a semente dele cura só ele mesmo, que é outra coisa. *Corrigido na v0.194.*
 
 ### Espinho — a `Pétala`
 
@@ -301,7 +309,7 @@ O `conferir-sem-tecnica.py` roda **doze checagens**, e nenhum valor de regra fic
 | 7 | a `Aptidão Própria` continua travada em `CP 1 ou 2` | peça 11 §6.7 | soltar a trava acende |
 | 8 | a semente não gasta marco, e a contagem de aptidões da rota pura não se move | peça 11 §3 | cobrar marco acende a queda de `10` para `9` |
 | 9 | o buff de cura é `1/3 do refino` e reconstrói do divisor da `cobrir-se` | peça 11 §6 · `DESENHO-trilhas.md` | outro divisor acende contra o `Pulso` |
-| 10 | curar os outros continua sendo da `Sutura`, no nível 11 dela | `DESENHO-trilhas.md` | a `Liberação` na criação acende |
+| 10 | curar os outros **pela aptidão** continua sendo da `Sutura`, no nível 11 dela | `DESENHO-trilhas.md` | a semente curando terceiro na criação acende |
 | 11 | a Expansão não é alcançável por esta rota | peça 9 §5 · peça 11 | um caminho de compra acende |
 | 12 | triagem de todo nome que a peça cria | o manual, o glossário e as categorias | nome colidindo acende |
 
