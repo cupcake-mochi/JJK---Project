@@ -657,6 +657,8 @@ Aquele `11,50` é a linha de comparação do §2 da **peça 5**, e ela usa `1d10
 >
 > **Nível 27 — `Cúpula`.** O `Alicerce` passa a segurar **quatro tipos** ao mesmo tempo, você troca os tipos a cada **descanso curto**, e **todo aliado dentro do seu espaço divide um deles com você.** *De graça: o espaço continua de pé enquanto você estiver caído, agarrado ou apagado.*
 
+> **⚠ O `Escora` tem um efeito de segunda ordem, declarado na v0.188, e o dono da conta é o `DESENHO-caminhos.md`.** *Os usos que ele acrescenta gastam a Reação, e a Reação é uma por rodada.* **Com ele, o `Absorver` passa a ocupar quase todo o dia de luta desta ficha, e a Reação de cobrir-se — que é a única Redução de Dano do sistema — vira quase letra morta nesta Trilha.** ***Decisão do Mizuki: declarar e não mexer*** — *o preço desta entrega já compra essas rodadas, e o número mora no dono.*
+
 ### O `Absorver` mudou de contador, e a mudança é no CAMINHO
 
 *Decisão do Mizuki: o `Corpo Duro` deixa de dar `1×` por descanso curto e passa a dar **usos iguais à Constituição, recarregando no descanso longo**.* Ele custa **`1,60` fatia das `3,00`** do Caminho, e **o Caminho fica em `3`** — decisão dele, *"são features bem básicas e simples"*.

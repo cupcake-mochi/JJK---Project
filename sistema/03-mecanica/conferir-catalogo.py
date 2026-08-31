@@ -505,6 +505,59 @@ else:
     print(f'  [x] o `Parrudo` diz `{_m_dono.group(1)} ×` a maestria no dono e no capitulo 35.')
 
 
+# -- 10.2: a ORDEM da rampa do Absorver contra a Reacao de cobrir-se -----------
+# v0.188. A v0.36 mandou medir as duas juntas — "ou uma delas domina a outra, ou
+# sao a mesma peca com dois nomes" — e a medida diz que nenhuma das duas: elas
+# dividem a mesma Reacao e o que as separa e o RELOGIO. O Absorver e contador de
+# dia e de graca; a Reacao de cobrir-se e dreno de PE e nao acaba. A grande e
+# limitada primeiro, a pequena e continua depois.
+#
+# O que a checagem guarda e a ORDEM, e nao o tamanho: enquanto o Absorver for
+# maior, a rampa desce e o desenho e o que o DESENHO-caminhos.md declara. Se
+# alguem baixar um lado ou subir o outro ate inverter, a coisa DE GRACA vira a
+# menor e o Bastiao passa a pagar PE pela defesa maior — que e outro desenho,
+# tomado sem ninguem decidir.
+#
+# Nenhum valor mora aqui. O Absorver sai do DESENHO-caminhos.md, o multiplicador
+# da Reacao sai da peca 11 §6, e o refino passivo de cada nivel sai da tabela da
+# peca 18. Mudar os dois lados de forma coerente fica VERDE de proposito.
+_m_ab = re.search(r'`Absorver`:\*\* ao ser atingido, reduza o dano em '
+                  r'\*\*`o seu nível \+ (\d+)d(\d+)`\*\*', CAM)
+_P11 = ler(os.path.join(RAIZ, 'sistema', '03-mecanica', '11-aptidoes-e-refino.md'))
+_P18 = ler(os.path.join(RAIZ, 'sistema', '03-mecanica', '18-progressao.md'))
+_m_rd = re.search(r'Redução de Dano de `([\d,]+) × refino`', _P11)
+_REF = {}
+for _l in _P18.split('\n'):
+    _c = [_x.strip().strip('*') for _x in _l.split('|')]
+    if len(_c) > 6 and re.fullmatch(r'\d+', _c[1]) and re.fullmatch(r'\d+', _c[5]):
+        _REF[int(_c[1])] = int(_c[5])
+if not _m_ab:
+    erro('10', 'nao achei a regra do `Absorver` no DESENHO-caminhos.md — se ela mudou de '
+               'forma, a 10.2 parou de conferir a rampa e precisa ser reescrita')
+elif not _m_rd:
+    erro('10', 'nao achei a Reducao de Dano da Reacao de cobrir-se na peca 11 §6 — mesma '
+               'coisa: a 10.2 parou de conferir')
+elif len(_REF) != 30:
+    erro('10', f'a coluna de refino da peca 18 deu {len(_REF)} niveis e nao 30 — sem ela a '
+               '10.2 mediria a rampa em cima de meia tabela')
+else:
+    _n, _f = int(_m_ab.group(1)), int(_m_ab.group(2))
+    _mult = float(_m_rd.group(1).replace(',', '.'))
+    _med = _n * (_f + 1) / 2
+    _inv = [nv for nv in range(2, 31) if (nv + _med) <= _mult * _REF[nv]]
+    if _inv:
+        erro('10', f'a rampa do Bastiao INVERTE em {len(_inv)} nivel(is) — primeiro o {_inv[0]}: '
+                   f'o `Absorver` evita {_inv[0] + _med:.1f} e a Reacao de cobrir-se evita '
+                   f'{_mult * _REF[_inv[0]]:.1f}. A coisa de graca virou a menor, e ai o '
+                   f'Bastiao paga PE pela defesa maior — o DESENHO-caminhos.md declara o '
+                   f'contrario')
+    else:
+        _pior = min((nv + _med) / (_mult * _REF[nv]) for nv in range(2, 31))
+        print(f'  [x] a rampa desce nos 29 niveis: o `Absorver` (nivel + {_n}d{_f}) e no minimo '
+              f'{_pior:.2f}x')
+        print(f'      a Reacao de cobrir-se ({_m_rd.group(1)} x refino), e ele e de graca.')
+
+
 # ================================================================ 11. CAPITALIZACAO
 print('\n' + '=' * 88)
 print('11. CAPITALIZACAO — todo nome batizado do indice comeca com maiuscula')

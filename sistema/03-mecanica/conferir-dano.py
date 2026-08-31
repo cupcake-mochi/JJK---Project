@@ -843,6 +843,50 @@ else:
         print(f'  [x] os 3 m sao os {_pes:.0f} pes que o d20 de 2024 cobra')
 
 
+# --- 11.1: contra QUEM o Desarmado foi precado -------------------------------
+# v0.188. A peca 3 §3.2 da o primeiro saque do turno de graca, entao quem carrega
+# arma reserva saca outra sem pagar nada e o `Desarmado` vale ZERO para ele — as
+# duas metades do 3,45 zeram junto, as rodadas socando e a caminhada de 3 m.
+#
+# A divida ficou 66 versoes escrita como se consertar fosse caro: "repreçar uma
+# condicao mexe na regua das treze e no catalogo de Melhorias do manual". E' o
+# tipo de frase que a licao no 5 descreve — tensao de preco que e' lacuna de
+# texto disfarcada. A Melhoria `Condicao` cobra pelo NIVEL, o nivel sai da BANDA,
+# e o Desarmado ocupa 22% do teto da Leve: qualquer valor ate aquele teto
+# continua Leve, e nada no manual se move.
+#
+# Decisao do Mizuki na v0.188: o numero fica, e a regua declara o que ela mede —
+# o que a condicao TIRA, e nao o que o alvo faz a respeito.
+#
+# A checagem guarda a RELACAO entre as duas pecas, e nao a decisao. Enquanto a
+# peca 3 der o primeiro saque de graca, a peca 19 tem de declarar contra quem o
+# preco foi feito. Se a peca 3 passar a cobrar o primeiro saque, a declaracao
+# perde o objeto e isso acende — e ai o preco volta a valer para todo mundo.
+_P03 = os.path.join(AQUI, '03-economia-de-acao-e-iniciativa.md')
+_SAQUE_GRATIS = re.compile(r'[Ss]acar ou guardar UM item[^.\n]*não custa nada')
+_DECLARA = re.compile(r'preço do `Desarmado` descreve a ficha SEM arma reserva', re.I)
+if not os.path.isfile(_P03):
+    erro('11.1: nao achei a peca 3 — e ela e quem decide se o primeiro saque do turno '
+         'sai de graca, que e a metade da relacao que esta checagem guarda')
+elif not _SAQUE_GRATIS.search(open(_P03, encoding='utf-8').read()):
+    if _DECLARA.search(TXT):
+        erro('11.1: a peca 3 §3.2 parou de dar o primeiro saque do turno de graca, e esta '
+             'peca continua declarando que o preco do `Desarmado` descreve so a ficha sem '
+             'reserva — sem o saque de graca a reserva deixa de ser resposta, e o preco '
+             'volta a valer para todo mundo')
+    else:
+        print('  [x] a peca 3 nao da mais o saque de graca, e esta peca nao declara excecao.')
+elif not _DECLARA.search(TXT):
+    erro('11.1: a peca 3 §3.2 da o primeiro saque do turno de graca — entao quem carrega '
+         'arma reserva paga ZERO pelo `Desarmado` —, e esta peca nao declara contra quem o '
+         'preco dele foi feito. Preco publicado sem dizer quem ele descreve volta a ser lido '
+         'como valendo para todo mundo')
+else:
+    print('  [x] a peca 3 da o primeiro saque de graca, e esta peca declara que o '
+          '`Desarmado`')
+    print('      foi precado contra a ficha SEM arma reserva.')
+
+
 # --------------------------------------------------------------------------
 print()
 print('=' * 88)

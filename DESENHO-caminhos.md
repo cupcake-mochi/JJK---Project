@@ -23,6 +23,36 @@
 
 **O dado é tempero e a conta confirma que ele não vira poder:** ele soma `20%` de corte no nível 6 e **`6%` no nível 30**. *Ou seja, ele dá a sensação de rolar sem mover a régua onde a régua importa.* **`d8` faz quase a mesma coisa** — `62%` contra `56%` no nível 6, `48%` contra `47%` no 30. **A escolha entre os dois é sabor puro.**
 
+#### O `Absorver` contra a Reação de cobrir-se — medido na v0.188, e a pergunta estava mal feita
+
+**A v0.36 mandou medir as duas juntas:** *"ou uma delas domina a outra, ou são a mesma peça com dois nomes"*. **Nenhuma das duas coisas, e a medida diz por quê.**
+
+| nível | o `Absorver` evita | a Reação de cobrir-se evita |
+|---|---|---|
+| **2** | **`5,5`** | `1,5` |
+| 14 | `17,5` | `6,0` |
+| **30** | **`33,5`** | `12,0` |
+
+**O `Absorver` é de `2,79 ×` a `3,79 ×` a Reação, em todo nível, e ele é de graça** — a Reação custa `2` PE e te deixa sem a proteção passiva até o fim do seu próximo turno. *Dentro da rodada não existe nível em que a escolha seja apertada.*
+
+> **E mesmo assim não é dominância, porque o filtro de `3,00 ×` mede coisa que o jogador escolhe entre** — Trilha contra Trilha, entrada contra irmã da mesma Classe. **Aqui ninguém escolhe:** *o `Absorver` vem do Caminho e todo Bastião tem; a Reação é grátis no refino 1 e todo mundo tem.*
+>
+> **E também não são a mesma peça com dois nomes.** *Elas dividem a mesma Reação, que é uma por rodada, e o que as separa é o relógio:* **o `Absorver` é contador de dia que recarrega no descanso longo, e a Reação é dreno de PE que não acaba.** *A grande e limitada primeiro, a pequena e contínua depois.*
+
+**O que a medida achou, e não era o que ela procurava: quantas rodadas do dia o `Absorver` come.** *O dia tem `10,5` rodadas de luta, e a Reação é uma por rodada.*
+
+| nível | rodadas de `Absorver` | do dia |
+|---|---|---|
+| 2 | `3` | `29%` |
+| 14 em diante | `6` | `57%` |
+| **19 em diante, com o `Escora` do `Muro`** | **`9`** | **`86%`** |
+
+***Decisão do Mizuki na v0.188: declarar e não mexer.*** **Para um `Muro` do nível 19 em diante sobra `1,5` rodada de dia para a Reação de cobrir-se**, e ela é a única Redução de Dano do sistema — *o argumento da peça 14 §4, que explica por que o escudo não empilha RD, vale menos naquela ficha.*
+
+> **Três coisas seguram a decisão, e nenhuma é preço novo.** *O `Escora` custa `1,33` fatia e uma das coisas que ele compra é exatamente essas rodadas; a rampa é a forma que se quer, e não um acidente; e o Bastião tem o menor bolso do sistema, com `4` PE por nível, então a Reação paga nunca ia ser o botão principal dele.*
+>
+> **O que não dá é mexer num lado só.** *Baixar o `Absorver` mexe no Caminho inteiro, e subir a Reação mexe em todo mundo que não é Bastião.* **A sub-checagem `10.2` do `conferir-catalogo.py` guarda a ORDEM da rampa, e não o tamanho dela** — *se alguém inverter os dois, a coisa de graça vira a menor e o desenho vira outro sem ninguém decidir.*
+
 ### nível 7 · Ataque extra *(já decidido)*
 
 ### nível 15 · Puxar Para Si

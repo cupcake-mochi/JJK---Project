@@ -14,7 +14,7 @@ O validador desta peça é o **`conferir-legados.py`**, e ele lê tudo que confe
 
 *Registrado na v0.24, e ele não é quantidade.*
 
-Hoje são catorze Legados, dois por Origem, e a faixa entre eles vai de **Irmãos** — você sente quando outro Feto está por perto, zero em rolagem — a **Não Sou Gente**, que era imunidade a veneno, a doença e ao que ataca corpo humano. *O `Não Sou Gente` saiu do catálogo nesta mesma peça: ele virou Passiva paga com espaço de feitiço.*
+Hoje são catorze Legados, dois por Origem, e a faixa entre eles vai de **Irmãos** — você sente quando outro Feto está por perto, zero em rolagem — a **Não Sou Gente**, que era imunidade a veneno, a doença e ao que ataca corpo humano. *O `Não Sou Gente` saiu do catálogo nesta mesma peça, e a seção 9.9 tem o porquê: **ele morreu inteiro**, porque a lista `Limites` do manual proíbe Passiva paga de dar imunidade completa.*
 
 A trava escrita na peça 9 é *"não produz dano e não escala com nível"*. **Ela não pega imunidade**, e vale entender por quê, porque o motivo decide o formato da régua.
 
@@ -65,7 +65,7 @@ Todo Legado declara qual é. **Não são "grande" e "pequeno": são coisas difer
 | **Desliga** | uma coisa deixa de te acontecer | Máscara · Peso Real · Sangue que Não é Sangue · Ferro Velho |
 | **Destranca** | nada muda de número, nada é desligado — abre acesso ou informação | O Sobrenome · A Voz de Dentro · O Que Ninguém Lembra · Irmãos |
 
-> **⚠⚠ Esta tabela estava errada em três das doze entradas, e ficou assim da v0.39 até a v0.104.** *Ela citava `Treino de Berço` como `Ajusta` — ele virou `Destranca` na própria v0.39, para não colidir com o `Costume Antigo`. Citava `Corpo Emprestado` como `Desliga` — ele virou `Ajusta` na mesma versão, quando a trava do formato o reprovou. E citava `Não Sou Gente`, que **saiu do catálogo** e virou Passiva paga com espaço de feitiço.*
+> **⚠⚠ Esta tabela estava errada em três das doze entradas, e ficou assim da v0.39 até a v0.104.** *Ela citava `Treino de Berço` como `Ajusta` — ele virou `Destranca` na própria v0.39, para não colidir com o `Costume Antigo`. Citava `Corpo Emprestado` como `Desliga` — ele virou `Ajusta` na mesma versão, quando a trava do formato o reprovou. E citava `Não Sou Gente`, que **saiu do catálogo** e não virou nada — a seção 9.9 tem o porquê.*
 >
 > **A causa é de método e vale mais que o conserto:** *a v0.39 escreveu a régua, converteu os Legados que ela reprovava, e não voltou nas tabelas em prosa que citavam aqueles Legados **como exemplo**.* **Nenhum validador alcançava esta tabela**, porque ela é ilustração e não regra — e ilustração errada na porta de entrada de uma peça é o que a mesa lê primeiro. *Desde a v0.104 o `conferir-legados.py` lê os doze nomes daqui e cobra cada um contra o formato que o catálogo dá a ele.*
 
@@ -1101,7 +1101,18 @@ O que sobrou dele virou duas coisas que **não** são técnica: o `Nunca Estive 
 
 > ~~**Não Sou Gente** — veneno, doença e o que ataca corpo humano não te pegam. Cura que funciona em humano também não.~~
 
-**A metade que é dano vira Passiva de Regra Própria, e leva o nome.** É o que o manual manda com todas as letras: *"nenhuma Melhoria fura imunidade; quem quiser isso monta uma Passiva de Regra Própria com o mestre, com limite de uma vez por cena"*. Passiva custa **espaço de feitiço conhecido**, que é a moeda certa — e a cláusula de cura que não funciona já era o preço embutido, agora pago no lugar certo.
+**A metade que é dano não vira Passiva nenhuma, e a v0.188 mediu por quê.** *Da v0.39 até lá esta seção prometia uma `Passiva de Regra Própria` com o nome dele, pagando espaço de feitiço.* **A regra que a promessa citava é sobre atacar, e a regra que decide é outra.**
+
+| onde | o que ela diz | de que lado ela é |
+|---|---|---|
+| a caixa `IMUNIDADE` do manual | *"nenhuma Melhoria fura imunidade — quem quiser isso monta uma Passiva de Regra Própria, com limite de uma vez por cena"* | **ataque.** `Melhoria` é peça de feitiço, e *furar* é atravessar a imunidade de outro |
+| a lista `Limites` do manual e do capítulo 9 do livro | *"imunidade completa a um tipo de dano ou condição"* — **o que nenhuma Passiva paga pode fazer** | **defesa, e é o teto que vale aqui** |
+
+**O *"isso"* da caixa é *furar*, e não *ter*.** *Lido como a v0.39 leu, o manual passa a contradizer a própria lista de `Limites` três seções antes; lido como ataque, ele fecha consigo mesmo.* **E o `Não Sou Gente` era imunidade a três coisas de uma vez** — veneno, doença e o que ataca corpo humano.
+
+***Decisão do Mizuki na v0.188: a decisão da v0.39 cai, e nada é escrito no lugar dela.*** **Quem quiser isso monta uma `Passiva Própria` com o mestre, e o `Limites` é o teto** — que é o que o manual já respondia antes de alguém prometer a entrada. *A cláusula de cura que não funciona ia junto como preço embutido, e ela sai junto.*
+
+> **⚠ Ela ficou cento e quarenta e nove versões como decisão tomada e não aplicada, e ela nunca podia ser aplicada.** *A régua que reprovava o Legado — "nenhum `Desliga` encosta em dano" — tem uma irmã do outro lado da parede, e ninguém leu as duas juntas.* **É a lição nº 6:** *antes de aceitar um destino, vá ler a regra pendurada nele.* **A sub-checagem `6.2` guarda essa relação agora.**
 
 **E a outra metade não virou Legado nenhum, porque ela já existe.** *"Você não é uma pessoa"* é **a primeira linha da Origem** na peça 9:
 
@@ -1109,7 +1120,7 @@ O que sobrou dele virou duas coisas que **não** são técnica: o `Nunca Estive 
 
 **Um Legado que afirma o que a Origem que o contém já afirma é a lição nº 9 em escala pequena** — duas cópias da mesma frase, e uma delas vai divergir. O Corpo Amaldiçoado inteiro é o Legado que essa metade seria.
 
-*Isso fecha os quatro do catálogo antigo que a régua tinha marcado:* o **Não Sou Gente** muda de camada, o **Irmãos** ganhou gatilho do jogador, o **Instinto Bruto** perdeu a metade morta, e o **Alcance Impossível** saiu por ser técnica. **Nenhum dos quatro sobreviveu como estava, e nenhum foi apagado sem destino.**
+*Isso fecha os quatro do catálogo antigo que a régua tinha marcado:* o **Não Sou Gente** morre inteiro, o **Irmãos** ganhou gatilho do jogador, o **Instinto Bruto** perdeu a metade morta, e o **Alcance Impossível** saiu por ser técnica. **Nenhum dos quatro sobreviveu como estava, e três dos quatro foram apagados com destino** — *o quarto foi apagado com uma promessa, e a promessa reprovou na v0.188.*
 
 ---
 
@@ -1140,7 +1151,9 @@ O que sobrou dele virou duas coisas que **não** são técnica: o `Nunca Estive 
 
 *O Corpo Amaldiçoado fechou com **doze** Ajusta — três por configuração —, e o jogador alcança três. É a única Origem com Ajusta gatilhado, e a única que passa de dez entradas: dezessete escritas para quatro alcançáveis como segundo Legado.*
 
-**As sete listas estão escritas.** O que falta para a metade 2 fechar: o **Não Sou Gente** virar Passiva, e **uma** vaga de Desliga, a do Corpo Amaldiçoado — e ela depende de peça nova nomear coisa, porque a Origem destravou na v0.122 e o alvo não. *O validador dos Legados existe desde a v0.39; cinco vagas fecharam na v0.104 e a sexta na v0.132.*
+**As sete listas estão escritas, e o que falta para a metade 2 fechar é UMA coisa:** a vaga de Desliga do Corpo Amaldiçoado, que depende de peça nova nomear coisa — a Origem destravou na v0.122 e o alvo não. *O validador dos Legados existe desde a v0.39; cinco vagas fecharam na v0.104 e a sexta na v0.132.*
+
+> **Eram duas até a v0.188.** *A outra era o destino que a v0.39 tinha dado ao `Não Sou Gente`, e ela saiu da lista por reprovação e não por escrita:* **a lista `Limites` do manual não deixa Passiva paga dar imunidade completa**, e a caixa que a decisão citava fala de furar imunidade e não de tê-la. *A seção 9.9 tem a medida.*
 
 **O alvo livre acabou.** O *Ferro Velho* gastou os degraus de exaustão, que era o último da enumeração da seção 8 — **daqui para a frente, todo Desliga novo depende de peça nova criar coisa nomeada.** *E foi exatamente assim que a vaga do Reencarnado fechou: a peça 21 nomeou a **atração**, e o `Conhecido` desligava ela. **O `Conhecimento Antigo`, que tomou a casa na v0.176, não desliga coisa de peça nenhuma — ele desliga uma rolagem**, e é por isso que a pergunta de formato ficou anotada.*
 
@@ -1162,7 +1175,7 @@ O catálogo, e as decisões de sabor que vêm com ele:
   > **⚠ E as outras DUAS foram escritas na v0.104, quatro versões depois de alguém achar que elas esperavam.** *Elas esperavam `ferramenta amaldiçoada`, que virou a peça 16 na v0.59 — a do Descendente virou o `Cabo` e a da Restrição Celestial virou o `Assinado`.* **A peça 16 §9 registrava que destravava as duas, e o achado é da v0.100.** *A prosa embaixo de cada tabela continuou anunciando a espera até a v0.188 — as tabelas estavam certas desde a v0.104, e a checagem 6 lê a tabela.*
 - ~~**O `Inédito` precisa da linha que o fecha para Sem Técnica** — é a única das 81 entradas que pressupõe técnica própria.~~ **Fechado na v0.168, e pelo lado contrário.** *A peça 25 §3.1 diz que aquela rota escreve Fundamento: ela tem técnica, só não tem técnica **inata**.* **O `Inédito` funciona nela, e a linha que o fecharia não existe mais como dívida.** *O ponteiro para "a checagem 8 do validador" também caiu — ela sempre conferiu outra coisa.*
 - ~~**A peça 9 precisa de três consertos que esta peça gerou:** a frase *"Sem Técnica não dá um segundo Legado"*, o §5 que ainda diz que Corpo Amaldiçoado não tem energia, e o `Alcance Impossível`, que é técnica e sai do catálogo.~~ **Os três foram aplicados na v0.39.** *Lá a Origem Sem Técnica diz hoje que ela **não amplia a conta de Legados** — é uma entrada de `Destranca` e ocupa uma das duas vagas —, o Corpo Amaldiçoado diz que **tem energia amaldiçoada**, e o `Alcance Impossível` não aparece em nenhuma lista daquela peça.*
-- ~~**Não Sou Gente sai do dano**~~ — **resolvido na v0.38: o nome inteiro foi para a Passiva, e o Legado deixou de existir.** A seção 9.9 tem o porquê.
+- ~~**Não Sou Gente sai do dano**~~ — **resolvido na v0.38: o Legado deixou de existir.** *A v0.39 mandou o nome para uma Passiva paga, e a v0.188 reprovou aquele destino — o `Limites` do manual não deixa Passiva paga dar imunidade completa.* **A seção 9.9 tem o porquê.**
 - ~~**O piso do Irmãos**~~ — **resolvido na lista do Feto.** O gatilho virou *o jogador apontar alguém e dizer que é irmão*, que é o que a irmandade faz no material: ela é definida por **quem te fez**, e alcança gente que não é da mesma fabricação.
 - ~~**Instinto Bruto está metade morto** e a régua não conserta isso: *"use Sentir Energia no lugar de Percepção"* é trocar Essência por Essência desde a v0.16.~~ **Consertado na v0.39, nesta mesma peça.** *A metade morta saiu: a seção 9 publica ele como "role Sentir Energia no lugar de **Intuição**", que é Inteligência — e aí é troca de verdade, de até +4 para quem conjura.*
 - ~~**O validador dos Legados**, que sai junto com a peça e não sete versões depois.~~ **Saiu junto: o `conferir-legados.py` entrou na v0.39, na mesma versão desta peça.** *A tabela abaixo é a especificação que ele foi escrito para cumprir, e fica como registro do que foi pedido.* As checagens que esta régua pede:

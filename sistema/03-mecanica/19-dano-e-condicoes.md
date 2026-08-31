@@ -216,7 +216,13 @@
 | **`Agarrado`** | `Leve` | seu deslocamento é `0`. Acaba se quem agarrou ficar `Incapacitado`, ou se alguma coisa tirar você do alcance dele |
 | **`Desarmado`** | `Leve` | a sua arma está no chão ou na mão de outro. Você bate desarmado até pegar de volta |
 
-> **⚠ O preço do `Desarmado` ficou devendo desde a v0.122, e o motivo é a peça 3 §3.2.** *Ela fixou que sacar ou guardar UM item não custa nada — então quem carrega arma reserva saca outra de graça, e a condição custa zero para ele.* **Os `3,45` de dano por rodada da §2.2 descrevem hoje só a ficha sem reserva.** *Não foi corrigido lá porque repreçar uma condição mexe na régua das treze e no catálogo de Melhorias do manual.*
+> **O preço do `Desarmado` descreve a ficha SEM arma reserva, e isso é decisão declarada na v0.188.** *A peça 3 §3.2 dá o primeiro saque do turno de graça, então quem carrega reserva saca outra sem pagar nada e a condição vale `0` para ele.* **As duas metades do `3,45` zeram junto:** *`1,65` são as rodadas socando e `1,80` é a caminhada de `3 m` até a arma — quem tem reserva não faz nenhuma das duas.*
+>
+> ***Decisão do Mizuki: o número fica, e a régua diz o que ela mede.*** **Ela mede o que a condição TIRA, e não o que o alvo faz a respeito** — nenhuma das treze modela preparação, e criar isso para uma só produz um catálogo com dois modelos dentro. *Carregar reserva é a resposta, e ela é barata de propósito.*
+>
+> > **⚠ E a dívida dizia que consertar era caro, e para esta condição não é.** *A frase que ela carregava — "repreçar uma condição mexe na régua das treze e no catálogo de Melhorias do manual" — é verdade em geral e falsa aqui.* **A Melhoria `Condição` cobra pelo NÍVEL, e o nível sai da banda:** *no nível 30 a `Leve` vai até `15,43` de dano por rodada, e o `Desarmado` está em `22%` disso.* **Qualquer valor entre `0` e `15,43` continua `Leve`**, então nenhum feitiço do manual e nenhum dos trinta e cinco prontos se moveria. *O `Surdo` lê `0,00` nesta mesma régua e continua comprável e `Leve`.*
+> >
+> > **O que é de verdade diferente nela, e fica escrito: ela é a única das treze que uma compra feita ANTES da campanha desliga inteira.** *Sair de um `Agarrado` custa ação dentro da luta, e a régua já cobra isso porque a condição tomou a ação; carregar reserva custa dinheiro, uma vez, e nada na luta.* **Se um dia isso pesar na mesa, o molde já existe:** *o `Surdo` lia `0,00` e ganhou `−2` na iniciativa — piso, e não repreço.*
 | **`Surdo`** | `Leve` | você não ouve. Falha automático em teste que precise de audição, e **`−2` na iniciativa** |
 
 ### 3.2 As duas de nível `Média`

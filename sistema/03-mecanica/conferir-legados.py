@@ -388,6 +388,59 @@ else:
         print('  [x] a enumeracao esta declarada esgotada, e nenhuma linha promete que a '
               'vaga so espera escrita.')
 
+# -- 6.2: destino de Legado morto nao pode ser coisa que outra regra proibe ---
+# v0.188. O `Nao Sou Gente` saiu do catalogo na v0.38 por ser imunidade a dano, e
+# a v0.39 escreveu o destino dele: "vira Passiva paga com espaco de feitico". Ela
+# citou a caixa IMUNIDADE do manual — "nenhuma Melhoria fura imunidade; quem
+# quiser isso monta uma Passiva de Regra Propria" —, e aquela caixa e do lado do
+# ATAQUE: `Melhoria` e peca de feitico, e furar e atravessar a imunidade DE
+# OUTRO. Quem decide o lado da defesa e a lista `Limites` do capitulo 9 do livro,
+# que poe "imunidade completa a um tipo de dano ou condicao" entre o que nenhuma
+# Passiva paga pode fazer.
+#
+# Resultado: a decisao ficou 149 versoes como tomada-e-nao-aplicada, e ela nunca
+# podia ser aplicada. E a licao no 6 na forma dela: antes de aceitar um destino,
+# va ler a regra pendurada nele.
+#
+# A checagem guarda a RELACAO e nao a decisao, no mesmo molde da 6.1: enquanto o
+# livro publicar a proibicao, nenhuma linha viva desta peca pode prometer a
+# Passiva. E ela aceita o estado OPOSTO — se um dia o livro deixar de proibir, a
+# peca declara isso com todas as letras e a promessa volta a ser legal. Sem esse
+# lado, a checagem so podia ser satisfeita de um jeito e o contra-teste dela nao
+# teria como existir.
+#
+# E ela NAO passa por ausencia nos dois eixos: capitulo que sumiu acende, e
+# proibicao que sumiu SEM a declaracao no lugar acende tambem — senao apagar a
+# linha do livro viraria o conserto barato para a divergencia.
+_LIM = os.path.join(AQUI, '..', '05-material', 'livro', 'manual', '40-fundamento.md')
+_PROIBE = re.compile(r'[Ii]munidade completa a um tipo de dano ou condição')
+_LIBEROU = re.compile(r'o livro deixou de proibir Passiva paga de dar imunidade', re.I)
+_PROMETE = re.compile(r'vir(?:a|ou) Passiva paga|virar Passiva|'
+                      r'vira Passiva de Regra Própria|'
+                      r'foi para a Passiva|nome inteiro foi para a Passiva')
+_prom = [l for l in PECA.split('\n')
+         if _PROMETE.search(re.sub(r'~~.*?~~|"[^"]*"|“[^”]*”', ' ', l))]
+if not os.path.isfile(_LIM):
+    erro('6', 'nao achei o capitulo do Fundamento no livro — a 6.2 le dali a lista '
+              '`Limites`, que e quem decide se um Legado morto pode virar Passiva paga')
+elif _PROIBE.search(ler(_LIM)):
+    if _prom:
+        erro('6', f'{len(_prom)} linha(s) mandam um Legado morto virar Passiva paga, e o '
+                  f'capitulo 9 do livro proibe Passiva paga de dar imunidade completa. '
+                  f'Primeira: "' + _prom[0].strip()[:90] + '"')
+    else:
+        print('  [x] o livro proibe Passiva paga de dar imunidade completa, e nenhuma '
+              'linha desta')
+        print('      peca manda um Legado morto virar Passiva paga.')
+elif not _LIBEROU.search(PECA):
+    erro('6', 'o capitulo 9 do livro parou de publicar "imunidade completa a um tipo de '
+              'dano ou condicao" entre os `Limites`, e esta peca nao declara que isso '
+              'mudou — a proibicao nao pode sumir em silencio, senao apaga-la vira o '
+              'conserto barato para a divergencia')
+else:
+    print('  [x] a peca declara que o livro deixou de proibir — a promessa de Passiva paga')
+    print('      voltou a ser legal, e a 6.2 sai de cena de proposito.')
+
 # ---------------------------------------------------------------- 7. ORIGENS
 print('\n' + '=' * 88 + '\n7. ORIGENS — as do catalogo existem na peca 9, e nenhuma falta\n' + '=' * 88)
 faltando = [o for o in ORIGENS_P9 if o not in origens_cat]

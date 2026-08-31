@@ -114,7 +114,7 @@ A Passiva **Mão Firme** cobre os dois, e o manual v7.6 diz isso com todas as le
 >
 > **✔ E esse degrau ganhou o primeiro exemplar na v0.134: o `Bocado`, na peça 20 §3.3.** *Ele guarda o que você carrega dentro do corpo, e é por isso que o segundo saque sai de graça — a mão não vai à bainha, vai a você.* **Classe Passiva 1, exatamente como esta linha previu.**
 
-### ⚠ Isso reprecifica o `Desarmado`, e o número fica devendo
+### Isso decide contra quem o `Desarmado` foi preçado — fechado na v0.188
 
 **A peça 19 preça o `Desarmado` em `3,45` de dano por rodada — `0,68` fatia — supondo que você bate desarmado até recuperar a arma.** *Com esta regra, quem carrega reserva saca outra **de graça**, porque é o primeiro saque do turno.*
 
@@ -124,7 +124,9 @@ A Passiva **Mão Firme** cobre os dois, e o manual v7.6 diz isso com todas as le
 | já sacou alguma coisa neste turno | a Ação de Movimento |
 | não tem reserva | o que a peça 19 preçou: bater desarmado até recuperar |
 
-**O preço publicado passou a descrever só a terceira linha.** *Fica registrado e não corrigido nesta versão, porque repreçar uma condição mexe na régua das treze e no catálogo de Melhorias do manual — e a régua vem antes do catálogo.*
+**O preço publicado descreve só a terceira linha, e ele fica.** ***Decisão do Mizuki na v0.188:*** *a régua da peça 19 mede o que a condição **tira**, e não o que o alvo faz a respeito — nenhuma das treze modela preparação.* **Carregar reserva é a resposta, e ela é barata de propósito.**
+
+> **⚠ Esta seção dizia que consertar era caro, e para esta condição não era.** *A frase era "repreçar uma condição mexe na régua das treze e no catálogo de Melhorias do manual".* **A Melhoria `Condição` cobra pelo nível, o nível sai da banda, e o `Desarmado` ocupa `22%` do teto da `Leve`** — *qualquer valor até aquele teto continua `Leve`, e nada no manual se moveria.* **A dívida ficou sessenta e seis versões parecendo grande.** *A peça 19 §3.1 é a dona da medida.*
 
 ### `Agarrar` e `Derrubar` são opção do ataque, e não ação
 

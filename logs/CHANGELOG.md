@@ -8,6 +8,114 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.189] — 30/08/2026
+
+**Três itens da fila fecharam, e nenhum dos três fechou do jeito que a fila dizia.** *Uma pergunta estava mal feita, uma decisão citava uma regra que diz o contrário dela, e uma dívida estimou o próprio tamanho sem conferir.* **As três descreviam errado o que elas mesmas eram**, e as três levaram menos trabalho do que a lista prometia.
+
+### 1 · O `Absorver` contra a Reação de cobrir-se — a pergunta da v0.36 estava mal feita
+
+**A v0.36 mandou medir as duas juntas:** *"ou uma delas domina a outra, ou são a mesma peça com dois nomes"*. **Nenhuma das duas coisas.**
+
+| nível | o `Absorver` evita | a Reação de cobrir-se evita |
+|---|---|---|
+| **2** | `5,5` | `1,5` |
+| 14 | `17,5` | `6,0` |
+| **30** | `33,5` | `12,0` |
+
+**Ele é de `2,79 ×` a `3,79 ×` a Reação em todo nível, e ele é de graça** — a Reação custa `2` PE e a proteção passiva por um turno. *Dentro da rodada não existe nível em que a escolha seja apertada.*
+
+> **E não é dominância, porque o filtro de `3,00 ×` mede coisa que o jogador escolhe entre.** *Aqui ninguém escolhe: o `Absorver` vem do Caminho e a Reação é grátis no refino 1.* **E não são a mesma peça com dois nomes:** *elas dividem a Reação e o que as separa é o relógio — contador de dia contra dreno de PE.*
+
+**O que a medida achou não era o que ela procurava: quantas rodadas do dia o `Absorver` come.** *O dia tem `10,5` rodadas de luta e a Reação é uma por rodada.*
+
+| nível | rodadas | do dia |
+|---|---|---|
+| 2 | `3` | `29%` |
+| 14 em diante | `6` | `57%` |
+| **19 em diante, com o `Escora` do `Muro`** | **`9`** | **`86%`** |
+
+***Decisão do Mizuki: declarar e não mexer.*** **Para um `Muro` sobra `1,5` rodada de dia para a única Redução de Dano do sistema.** *O `Escora` custa `1,33` fatia e já compra essas rodadas; a rampa é a forma que se quer; e o Bastião tem o menor bolso do sistema, então a Reação paga nunca ia ser o botão principal dele.*
+
+### 2 · O `Não Sou Gente` — a decisão da v0.39 reprovou, e ela nunca podia ser aplicada
+
+**Ela mandava o Legado morto virar Passiva paga com espaço de feitiço, e citava o manual para isso.** *A citação era a caixa `IMUNIDADE`.*
+
+| onde | o que diz | de que lado é |
+|---|---|---|
+| a caixa `IMUNIDADE` | *"nenhuma Melhoria fura imunidade — quem quiser isso monta uma Passiva de Regra Própria"* | **ataque.** `Melhoria` é peça de feitiço, e *furar* é atravessar a imunidade de outro |
+| a lista `Limites`, no manual e no capítulo 9 do livro | *"imunidade completa a um tipo de dano ou condição"* — **o que nenhuma Passiva paga pode fazer** | **defesa, e é ela que decide** |
+
+**O *"isso"* da caixa é *furar*, e não *ter*.** *Lido como a v0.39 leu, o manual contradiz a própria lista de `Limites` três seções antes; lido como ataque, ele fecha consigo mesmo.*
+
+***Decisão do Mizuki: a decisão cai, e nada é escrito no lugar dela.*** **Cento e quarenta e nove versões de decisão tomada e nunca aplicável.** *É a lição nº 6 na forma dela: antes de aceitar um destino, vá ler a regra pendurada nele.*
+
+### 3 · O `Desarmado` — a dívida dizia que consertar era caro, e não era
+
+**As duas peças carregavam a mesma frase:** *"repreçar uma condição mexe na régua das treze e no catálogo de Melhorias do manual"*. **Verdade em geral, falsa para esta condição.**
+
+**A Melhoria `Condição` cobra pelo NÍVEL, e o nível sai da banda** — `1/7` da Rotina, que no nível 30 põe o teto da `Leve` em `15,43` de dano por rodada. *O `Desarmado` está em `3,45`, que é `22%` disso:* **qualquer valor até aquele teto continua `Leve`, e nada no manual se moveria.** *O `Surdo` lê `0,00` na mesma régua e continua comprável e `Leve`.*
+
+> **As duas metades do `3,45` zeram junto para quem carrega reserva:** *`1,65` são as rodadas socando e `1,80` é a caminhada de `3 m` até a arma.*
+
+***Decisão do Mizuki: o número fica, e a régua declara o que ela mede*** — **o que a condição TIRA, e não o que o alvo faz a respeito.** *Nenhuma das treze modela preparação, e criar isso para uma só produz um catálogo com dois modelos dentro.*
+
+> **⚠ O que é de verdade diferente nela ficou escrito: ela é a única das treze que uma compra feita ANTES da campanha desliga inteira.** *Sair de um `Agarrado` custa ação dentro da luta, e a régua já cobra isso; carregar reserva custa dinheiro, uma vez.* **Se pesar na mesa, o molde já existe** — *o `Surdo` lia `0,00` e ganhou `−2` na iniciativa: piso, e não repreço.*
+
+### 4 · Três checagens, e as três guardam relação entre dois donos
+
+| # | validador | o que ela guarda | contra-teste |
+|---|---|---|---|
+| **`10.2`** | `conferir-catalogo` | a **ordem** da rampa, e não o tamanho: o `Absorver` maior que a Reação nos 29 níveis | subir os dois lados juntos fica verde |
+| **`6.2`** | `conferir-legados` | enquanto o livro proibir, nenhuma linha manda Legado morto virar Passiva paga | tirar a proibição **e** declarar isso fica verde |
+| **`11.1`** | `conferir-dano` | enquanto a peça 3 der o saque de graça, a peça 19 declara contra quem o preço foi feito | a peça 3 cobrar o saque **e** a declaração sair fica verde |
+
+**Sub-blocos nos três, então a contagem não se move.** *Cinco, quatro e duas perturbações acendem a checagem dona.*
+
+> ***E as três nasceram com o mesmo defeito, que a v0.188 já tinha pago uma vez:*** **a primeira versão de cada uma só podia ser satisfeita de um jeito.** *Sem um estado oposto declarável, o contra-teste não tem como existir e a checagem fica trivialmente verdadeira.* **As três ganharam o lado oposto antes de entrar.**
+>
+> **⚠ E o arnês achou dois defeitos meus fora do código.** *Uma nota de correção que eu escrevi acendeu a própria checagem, porque ela repetia a frase proibida — reescrevi a nota, no precedente da v0.187.* **E uma cópia de arnês saiu VERMELHA porque faltava o `manual/` nela:** *base mal montada acusa tudo, e a base tem de passar antes da primeira perturbação.*
+
+### 5 · E o `subir.sh` reprovou numa checagem que eu não tinha como ver rodando daqui
+
+**A `7.2` mede a lista branca de ponteiros DA ENTREGA, e a entrega só é atualizada pelo passo 0 do próprio `subir.sh`.** *Rodando o `conferir-repositorio.py` à mão, ela media a entrega da versão anterior — então ela passou aqui e reprovou lá.*
+
+**A base dizia `146` e a contagem estava em `152`.** *Uma é desta versão: o `DESENHO-caminhos.md` passou a citar o `conferir-catalogo.py` para dizer qual checagem guarda a ordem da rampa.* **As outras cinco entraram entre a v0.170 e a v0.188, e a base ficou parada VINTE versões.**
+
+> ***É a quarta vez que esta linha envelhece do mesmo jeito, e as três anteriores estão escritas no próprio arquivo*** — v0.161, v0.169 e agora. **O aviso da v0.162 falou nas quatro; ninguém reescreveu a base em nenhuma.** *Um aviso que ninguém atende não é meio guarda: é um guarda que só reprova quando já é tarde para itemizar.*
+
+**Desta vez deu para itemizar, e o resultado é limpo.** *Reclassificadas uma a uma com a MESMA taxonomia da v0.169:*
+
+| família | v0.169 | agora |
+|---|---|---|
+| **nome de validador** | `119` | **`125`** |
+| caminho da árvore de trabalho | `13` | `13` |
+| arquivo cortado do recorte por decisão | `14` | `14` |
+
+**As duas últimas não se moveram um número sequer** — *o `RASCUNHO-trilhas.md` continua `9×`, o `ESTADO-ATUAL.md` `2×`, o `dados.js` `2×` e o `pitch-de-design.md` `1×`.* **As seis que entraram caem todas em "nome de validador", nenhuma família nova, e nenhuma delas é material de mesa** — que é a pergunta que a guarda existe para fazer.
+
+### Adicionado
+
+- **A declaração do `Absorver` contra a Reação de cobrir-se**, no `DESENHO-caminhos.md`, com as duas tabelas e a cobertura do dia.
+- **As sub-checagens `10.2`, `6.2` e `11.1`.**
+
+### Alterado
+
+- **A seção 9.9 da peça 13**, que mandava o Legado morto virar Passiva paga, e **mais cinco trechos dela** que repetiam o destino.
+- **O ⚠ do `Desarmado` na peça 19 §3.1 e o da peça 3 §3.2**, que davam a dívida como cara.
+- **Uma nota sob o `Escora`** no `DESENHO-trilhas.md`, que aponta para o dono sem repetir número.
+- **Duas linhas do `ESTADO-ATUAL`**: o problema de design nº 1 e a linha da tabela de pendurados.
+- **A base da lista branca da checagem `7.2`**, de `146` para `152`, com as três famílias recontadas.
+
+### Decidido
+
+- **O `Absorver` e a Reação de cobrir-se são rampa, e não duplicata.** *O filtro de dominância não alcança coisa que ninguém compra.*
+- **Legado morto não vira Passiva paga que dá imunidade.** *O `Limites` do capítulo 9 é o teto.*
+- **A régua de condições mede o que a condição tira, e não a preparação do alvo.**
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **Sobraram três itens, e nenhum é conserto:** *as três escolhas de sabor da peça 25 e da peça 20, a vaga de `Desliga` do Corpo Amaldiçoado — que segue travada de alvo —, e o `04-playtest/` vazio.*
+
+---
+
 ## [0.188] — 30/08/2026
 
 **A fila foi varrida contra o estado real, e o que ela escondia era maior que o que ela listava.** *Dos onze itens, **três já estavam fechados** — e só um deles a fila desconfiava.* **Fora dela apareceram mais dois fechados e quatro pontas soltas, a mais velha com cento e quarenta versões.** *E a varredura destampou o que a v0.187 tinha deixado passar: a checagem que ela escreveu para proibir a promessa falsa não acendia na frase que ela existia para pegar.*

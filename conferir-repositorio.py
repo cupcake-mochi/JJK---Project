@@ -940,7 +940,31 @@ else:
     # dados.js 2x cada, pitch-de-design.md 1x). Nenhuma familia nova, e nenhuma
     # delas e material de mesa — que e' a pergunta que esta guarda existe para
     # fazer.
-    BRANCAS_AQUI, FOLGA = 146, 5
+    #
+    # ⚠⚠⚠ v0.189: 152, e a base ficou parada VINTE versoes. E' a QUARTA vez que
+    # esta linha envelhece do mesmo jeito, e as tres anteriores estao escritas
+    # acima — v0.161, v0.169 e agora. O aviso da v0.162 falou nas quatro; ninguem
+    # reescreveu a base em nenhuma delas. *Um aviso que ninguem atende nao e
+    # metade de um guarda: e um guarda que so reprova quando ja e' tarde para
+    # itemizar.*
+    #
+    # DESTA VEZ deu para itemizar, e o resultado e limpo: reclassificadas uma a
+    # uma com a MESMA taxonomia da v0.169, as tres familias dao
+    # 125 "nome de validador" + 13 "caminho da arvore de trabalho" +
+    # 14 "arquivo cortado do recorte por decisao" = 152. As duas ultimas nao se
+    # moveram um numero sequer — o RASCUNHO-trilhas.md continua 9x, o
+    # ESTADO-ATUAL.md 2x, o dados.js 2x e o pitch-de-design.md 1x. **As SEIS que
+    # entraram desde a v0.169 caem todas em "nome de validador"**, que e a
+    # primeira das familias declaradas la em cima, e nenhuma delas e material de
+    # mesa — que e' a pergunta que esta guarda existe para fazer.
+    #
+    # A da v0.189 sai pelo diff e esta itemizada: o DESENHO-caminhos.md passou a
+    # citar o conferir-catalogo.py, na declaracao do Absorver contra a Reacao de
+    # cobrir-se, para dizer qual checagem guarda a ordem da rampa. As outras
+    # cinco entraram entre a v0.170 e a v0.188 e nao dava para itemizar sem
+    # aquelas arvores — a reclassificacao acima e o outro lado, e ele e' mais
+    # forte que a itemizacao porque nao depende de arvore nenhuma.
+    BRANCAS_AQUI, FOLGA = 152, 5
     PISO_CITACOES, TETO_BRANCOS = 120, BRANCAS_AQUI + FOLGA
     if vistos_e < PISO_CITACOES:
         erro(f'7.2: achei so {vistos_e} citacoes na entrega, e o piso e {PISO_CITACOES} — '
