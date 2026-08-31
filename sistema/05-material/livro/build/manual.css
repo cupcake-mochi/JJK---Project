@@ -111,7 +111,29 @@ code {
   background: var(--washi);
   border-bottom: .5pt solid var(--acento-claro);
   padding: .3mm .9mm;
-  white-space: nowrap;
+  /* v0.196: aqui era `white-space: nowrap`, e ele furava a mancha em dois lugares
+     do capitulo de Invocacoes — a formula de vida, com 96 e 61 caracteres, e as
+     duas celulas da tabela `A ficha dela`, que numa coluna de duas nao tem 45
+     caracteres de largura. O nowrap nao protegia nada que precisasse de protecao:
+     termo de UMA palavra nao tem onde quebrar, com ou sem ele. O que ele fazia
+     era proibir a quebra justamente das expressoes longas, que sao as unicas que
+     precisam quebrar. O `break-word` fica como rede para o caso de um dia
+     aparecer um termo unico mais largo que a coluna. */
+  overflow-wrap: break-word;
+}
+
+/* Crase DENTRO de cabecalho de tabela: o `th` pinta o texto de `--washi` e o
+   `code` pinta o FUNDO de `--washi` — os dois juntos davam texto quase branco
+   sobre fundo quase branco, e o trecho sumia. Achado na v0.196 lendo o PDF, e
+   sao 20 trechos em cinco capitulos: o pior deles e' a tabela `A vida que cada
+   Trilha poe em campo`, cujo cabecalho perdia `0` e `tecnica` de uma vez.
+   A correcao mantem a fonte mono, que e' o que a crase quer dizer, e devolve o
+   contraste do proprio cabecalho. */
+th code {
+  background: transparent;
+  color: inherit;
+  border-bottom-color: var(--selo-fraco);
+  padding: 0 .2mm;
 }
 
 hr {

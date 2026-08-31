@@ -1,3 +1,27 @@
+> # ARQUIVADO na v0.196
+>
+> **De onde saiu:** `sistema/03-mecanica/RASCUNHO-ritmo-de-xp.md`, aberto na v0.195.
+>
+> **O que o substituiu:** o **§3.0**, o **§4.1**, o **§5.1** e o **§5.2** da peça `03-mecanica/12-experiencia-e-progressao.md`, mais a seção *`Quanto tempo leva`* e a *`O vão entre quem joga muito e quem joga pouco`* do capítulo 80 do livro. *A curva, a derivação dos quatro números, as cinco cadências e a tabela do gatilho moram lá agora, e o `conferir-xp.py` reconta todas elas.*
+>
+> **Por que morreu:** ele existia para o trabalho não se perder se a conversa acabasse antes dele, e o §"O que falta fazer" dele listava as seis coisas por escrever. **As seis foram escritas.** *Mantido vivo ao lado da peça, ele viraria a segunda fonte da curva* — que é a lição nº 9, e é a mesma razão pela qual os rascunhos de Pactos, de Bloqueio e do clash de Expansões saíram.
+>
+> **O que dele sobreviveu:** *a decisão de encarecer a curva, e a forma dela* — base em mesas, degrau regular, teto no topo, e o nível 2 protegido em `2`. **As âncoras que ele publicava — `125` e `259` mesas, `13,6` e `20,0` meses, razão `0,47` — reproduzem exatas das constantes do projeto**, e a v0.196 as conferiu antes de aplicar.
+
+> ***⚠ Mas os números dele NÃO são os que foram publicados.*** *Depois de ler a tabela por cadência, o Mizuki esticou a curva de novo dentro da mesma versão:* **a peça 12 fechou em `3` mesas de base com passo de `+2` a cada três níveis e teto em `17`** — `143` mesas até o nível 20 e `307` na campanha inteira, com o nível 20 em `15,5` meses a duas mesas por semana. *E a curva crua passou a ficar FORA da faixa do levantamento de propósito, com a compensação do §5.3 trazendo ela de volta.*
+>
+> **⚠ E QUATRO COISAS DELE NÃO SOBREVIVERAM, todas achadas conferindo a conta:**
+>
+> **1 · A tabela nível a nível tinha ruído.** *Ela não reproduz de modelo nenhum: `92` das `140` células divergem do que as constantes `106,25` e `240` produzem, nenhuma por mais de `0,3` mês.* **A tabela publicada na peça é a recontada, e o validador recalcula as 174 células dela.**
+>
+> **2 · A tabela do gatilho estava medida a uma faixa só** — o erro que este mesmo arquivo avisava não cometer. *Ele publicava `3` para o fator `2×` e `5` para o `1,5×`.* **Com a troca de faixa no nível 20 e a curva final, os valores certos são `6` e `9`**, e a peça publica quatro fatores em vez de dois.
+>
+> **3 · Os `107` e `241` XP da prosa eram sintoma, e não causa.** *Eles saem de dividir `6.300` por `~59` e `8.200` por `~34` — os números **já arredondados** que a peça 12 publicava.* **As constantes de verdade são `106,25` e `240`**, e o §4.1 da peça agora deriva as duas de uma receita de missão declarada.
+>
+> **4 · A justificativa do teto de `14` também não se sustenta.** *O rascunho escrevia que "sem ele o topo ficaria mais lento do que o levantamento pede".* **Medido: sem teto a faixa lendária vai de `7,9` para `8,4` meses, e o máximo que as catorze respostas aceitam para o 20→30 é `9,5`** — ela já estava dentro. *O que o teto realmente compra é legibilidade, mais `0,03` de aproximação da razão à mediana, e o §3.0 da peça 12 escreve isso.*
+
+---
+
 # RASCUNHO — o repreço do ritmo de XP
 
 **Aberto na v0.195.** *As decisões estão tomadas e os números medidos; nada está aplicado na peça 12, no capítulo 80 nem no `conferir-xp.py`.* **Este arquivo existe para o trabalho não se perder se a conversa acabar antes dele.**

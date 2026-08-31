@@ -36,34 +36,34 @@
 | nível | XP | maestria | espaços | refino | Classe | Passiva | Classe 0 | o que acontece |
 |---|---|---|---|---|---|---|---|---|
 | **1** | — | 1 | 2 | 1 | 1 | 1 | 2 | **Fundamento**, Passiva Livre, dois feitiços de Classe 0 |
-| **2** | 100 | 1 | 3 | 1 | 1 | 1 | 2 | degrau de **Caminho** · entrega de **Trilha** |
-| 3 | 100 | 1 | 3 | 1 | 1 | 1 | 2 | — |
-| 4 | 100 | 1 | 4 | 1 | 1 | 1 | 2 | — |
-| **5** | 200 | 1 | 4 | 1 | 2 | 1 | 3 | Classe 2 · mais um Classe 0 |
-| **6** | 200 | 1 | 6 | 2 | 2 | 1 | 3 | **marco** |
-| **7** | 200 | 1 | 6 | 2 | 2 | 2 | 3 | degrau de **Caminho** · libera Passiva de Classe 2 |
-| 8 | 300 | 1 | 7 | 2 | 2 | 2 | 3 | — |
-| **9** | 300 | 1 | 7 | 2 | 3 | 2 | 3 | Classe 3 |
-| **10** | 300 | 2 | 9 | 3 | 3 | 2 | 3 | **marco** · **1ª Liberação Máxima** |
-| **11** | 400 | 2 | 9 | 3 | 3 | 2 | 4 | entrega de **Trilha** · mais um Classe 0 |
-| 12 | 400 | 2 | 10 | 3 | 3 | 2 | 4 | — |
-| **13** | 400 | 2 | 10 | 3 | 4 | 3 | 4 | Classe 4 · libera Passiva de Classe 3 |
-| **14** | 500 | 2 | 12 | 4 | 4 | 3 | 4 | **marco** |
-| **15** | 500 | 2 | 12 | 4 | 4 | 3 | 4 | degrau de **Caminho** |
-| 16 | 500 | 2 | 13 | 4 | 4 | 3 | 4 | — |
-| **17** | 600 | 2 | 13 | 4 | 5 | 3 | 5 | Classe 5 · **Técnica Máxima** · mais um Classe 0 |
-| **18** | 600 | 3 | 15 | 5 | 5 | 3 | 5 | **marco** |
-| **19** | 600 | 3 | 15 | 5 | 5 | 3 | 5 | entrega de **Trilha** |
-| **20** | 700 | 3 | 16 | 5 | 5 | 3 | 5 | **2ª Liberação Máxima** |
-| **21** | 700 | 3 | 16 | 5 | 6 | 3 | 5 | Classe 6 |
-| **22** | 700 | 3 | 18 | 6 | 6 | 3 | 5 | **marco** |
-| 23 | 800 | 3 | 18 | 6 | 6 | 3 | 5 | — |
-| 24 | 800 | 3 | 19 | 6 | 6 | 3 | 5 | — |
-| 25 | 800 | 3 | 19 | 6 | 6 | 3 | 5 | — |
-| **26** | 900 | 4 | 21 | 7 | 7 | 3 | 5 | **marco** · Classe 7 |
-| **27** | 900 | 4 | 21 | 7 | 7 | 3 | 5 | entrega de **Trilha** |
-| 28 | 900 | 4 | 22 | 7 | 7 | 3 | 5 | — |
-| 29 | 1.000 | 4 | 22 | 7 | 7 | 3 | 5 | — |
+| **2** | 200 | 1 | 3 | 1 | 1 | 1 | 2 | degrau de **Caminho** · entrega de **Trilha** |
+| 3 | 300 | 1 | 3 | 1 | 1 | 1 | 2 | — |
+| 4 | 300 | 1 | 4 | 1 | 1 | 1 | 2 | — |
+| **5** | 500 | 1 | 4 | 1 | 2 | 1 | 3 | Classe 2 · mais um Classe 0 |
+| **6** | 500 | 1 | 6 | 2 | 2 | 1 | 3 | **marco** |
+| **7** | 500 | 1 | 6 | 2 | 2 | 2 | 3 | degrau de **Caminho** · libera Passiva de Classe 2 |
+| 8 | 700 | 1 | 7 | 2 | 2 | 2 | 3 | — |
+| **9** | 700 | 1 | 7 | 2 | 3 | 2 | 3 | Classe 3 |
+| **10** | 700 | 2 | 9 | 3 | 3 | 2 | 3 | **marco** · **1ª Liberação Máxima** |
+| **11** | 900 | 2 | 9 | 3 | 3 | 2 | 4 | entrega de **Trilha** · mais um Classe 0 |
+| 12 | 900 | 2 | 10 | 3 | 3 | 2 | 4 | — |
+| **13** | 900 | 2 | 10 | 3 | 4 | 3 | 4 | Classe 4 · libera Passiva de Classe 3 |
+| **14** | 1.100 | 2 | 12 | 4 | 4 | 3 | 4 | **marco** |
+| **15** | 1.100 | 2 | 12 | 4 | 4 | 3 | 4 | degrau de **Caminho** |
+| 16 | 1.100 | 2 | 13 | 4 | 4 | 3 | 4 | — |
+| **17** | 1.300 | 2 | 13 | 4 | 5 | 3 | 5 | Classe 5 · **Técnica Máxima** · mais um Classe 0 |
+| **18** | 1.300 | 3 | 15 | 5 | 5 | 3 | 5 | **marco** |
+| **19** | 1.300 | 3 | 15 | 5 | 5 | 3 | 5 | entrega de **Trilha** |
+| **20** | 1.500 | 3 | 16 | 5 | 5 | 3 | 5 | **2ª Liberação Máxima** |
+| **21** | 1.500 | 3 | 16 | 5 | 6 | 3 | 5 | Classe 6 |
+| **22** | 1.500 | 3 | 18 | 6 | 6 | 3 | 5 | **marco** |
+| 23 | 1.700 | 3 | 18 | 6 | 6 | 3 | 5 | — |
+| 24 | 1.700 | 3 | 19 | 6 | 6 | 3 | 5 | — |
+| 25 | 1.700 | 3 | 19 | 6 | 6 | 3 | 5 | — |
+| **26** | 1.700 | 4 | 21 | 7 | 7 | 3 | 5 | **marco** · Classe 7 |
+| **27** | 1.700 | 4 | 21 | 7 | 7 | 3 | 5 | entrega de **Trilha** |
+| 28 | 1.700 | 4 | 22 | 7 | 7 | 3 | 5 | — |
+| 29 | 1.700 | 4 | 22 | 7 | 7 | 3 | 5 | — |
 | **30** | — | 4 | 24 | 8 | 7 | 3 | 5 | **marco** · degrau de **Caminho** · **3ª Liberação Máxima** |
 
 **Nível em negrito é nível que entrega alguma coisa.** *São dezenove dos trinta; os onze restantes crescem em número e não em regra, e é assim de propósito.*
@@ -72,7 +72,7 @@
 
 ## 3. Como ler cada coluna
 
-- **XP** é o que custa **sair** deste nível, e ele é o mesmo dentro de cada faixa de três níveis. *Uma missão padrão paga 100.* O nível 30 é o topo e não tem custo.
+- **XP** é o que custa **sair** deste nível, e ele é o mesmo dentro de cada faixa de dois níveis. *Uma missão padrão paga 100, e o nível 2, o 3 e a faixa do 24 ao 29 são as exceções de tamanho.* O nível 30 é o topo e não tem custo.
 - **espaços** é o tamanho da sua lista de feitiços conhecidos. **Passiva é paga com espaço, e a Expansão de Domínio também; Liberação Máxima não ocupa.**
 - **refino** é a **linha passiva** — o que todo mundo tem sem escolher nada. Quem escolhe Refino no marco tem mais que isso, e o teto é 10.
 - **Classe** é a maior Classe de feitiço que você consegue montar. **Classe 0** é quantos feitiços grátis você carrega.

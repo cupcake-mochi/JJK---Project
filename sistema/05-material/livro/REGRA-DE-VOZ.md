@@ -224,6 +224,31 @@ O `conferir-voz.py` lista os candidatos como `TRIAR` e não conta como achado. M
 que ele procura: *vale reparar*, *repare que*, *de propósito*, *e é por isso*, *na prática*,
 *isso quer dizer*, *é a aposta*, *o que importa*, *não à toa*.
 
+### E por que o NÚMERO é assim também sai
+
+*Escrita na v0.196, e a fonte é o Mizuki lendo o capítulo 80 depois de a curva de XP
+mudar.* **Palavras dele:** *"esse tipo de informação não é necessária para o player,
+não queremos dar informação à toa"*.
+
+A régua da seção acima cobre o livro falando do livro. Esta cobre o livro falando do
+**projeto**: como o número foi calibrado, contra o que ele foi medido, e o que ele
+custou para chegar ali. Isso é argumento de design, e argumento de design mora na peça
+de `03-mecanica/`.
+
+| a frase responde… | destino |
+|---|---|
+| **quanto é, e quando?** | fica — *"uma mesa de dobro por mês tira um mês e meio"* |
+| **o que acontece se eu não fizer?** | fica — *"a mesa de dobro não alcança quem joga pouco"* |
+| **por que o número é esse?** | sai — *"a curva foi calibrada devagar para o servidor ter espaço"* |
+| **contra o que ele foi conferido?** | sai — *"o levantamento pedia até 14 meses e a curva entrega 15,5"* |
+
+**A medida fica; a justificativa da medida sai.** *Uma tabela de tempo por cadência é
+consulta — o mestre planeja a temporada com ela. A distância entre essa tabela e o que
+catorze pessoas responderam num formulário não é consulta de ninguém.*
+
+> **O teste rápido:** *se a frase só faz sentido para quem está decidindo o número, e
+> não para quem está usando ele numa mesa, ela é da peça e não do livro.*
+
 ### Antes de cortar, veja se a frase é a única dona de um fato
 
 Comentário de efeito às vezes carrega uma regra que não está escrita em mais lugar nenhum.

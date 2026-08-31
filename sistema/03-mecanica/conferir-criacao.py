@@ -655,11 +655,23 @@ if g8 and g12:
 else:
     aviso('nao consegui comparar o Grau inicial entre a peca 8 e a peca 12')
 
-m = re.search(r'\|\s*\*\*2 a 4\*\*\s*\|\s*1 missão\s*\|\s*(\d+)\s*\|', P12)
-if not m:
-    erro('nao achei na peca 12 quanto custa o primeiro nivel (a faixa "2 a 4")')
+# v0.196: a ancora era a FAIXA ("2 a 4") e a contagem ("1 missao"), e as duas
+# carregavam o valor da curva velha — entao ela sumiu no dia em que a curva mudou,
+# que e' exatamente o dia em que ela precisava acender. Hoje o recorte e' pelo
+# NIVEL: qualquer faixa que cubra o nivel 2 serve, e o custo sai da linha dela.
+def _xp_do_nivel(txt, nivel):
+    for m in re.finditer(r'^\| \*\*(\d+)(?: a (\d+))?\*\* \| (\d+) miss\w+ \| ([\d.]+) \|',
+                         txt, re.M):
+        ini, fim = int(m.group(1)), int(m.group(2) or m.group(1))
+        if ini <= nivel <= fim:
+            return int(m.group(4).replace('.', '')), int(m.group(3))
+    return None, None
+
+_xp2, _miss2 = _xp_do_nivel(P12, NIVEL)
+if _xp2 is None:
+    erro(f'nao achei na peca 12 a faixa da curva que cobre o nivel {NIVEL}')
 else:
-    print(f'  [x] o nivel {NIVEL} sobe com {m.group(1)} XP — uma missao padrao')
+    print(f'  [x] o nivel {NIVEL} sobe com {_xp2} XP — {_miss2} missao(oes) padrao')
 
 
 # ==========================================================================

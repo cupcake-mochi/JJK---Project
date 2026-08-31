@@ -8,6 +8,141 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.196] — 31/08/2026
+
+**A curva de XP foi represada, e o repreço saiu maior do que o rascunho tinha medido.** *Cada nível custava uma missão; passou a custar três, com passo de `+2` a cada três níveis e teto em dezessete.* **O nível 20 sai de `63` missões para `143`, e o 30 de `145` para `307`.**
+
+### 1 · A curva, e os cinco números dela têm derivação
+
+**O §3.0 novo da peça 12 deriva cada um, e nenhum é escolha solta.** *A base `3` é o piso do relógio — base `2` põe o nível 20 em `13,7` meses a duas mesas por semana e base `4` em `17,4`. O passo de `+2` a cada `3` níveis é o que segura a razão da faixa lendária: passo de `+3` derruba ela para `0,41`, fora dos `0,45`–`0,61` que o levantamento produziu, e intervalo de dois níveis derruba para `0,39`.*
+
+**O teto `17` continua sendo o único que não sai de fórmula**, e o que ele compra ficou medido: `10` missões a menos na faixa lendária e a razão de `0,54` para `0,51`. **E o nível 2 continua custando `2` em vez de `3`** — uma missão no total, `0,11` mês.
+
+> ***O repreço foi em duas etapas, e as duas por decisão do Mizuki.*** *O `RASCUNHO-ritmo-de-xp.md` tinha fechado em `125` missões e `13,6` meses; ele leu a tabela por cadência e esticou de novo, para `143` e `15,5`.* **Palavras dele:** *"vamos chutar alto, pq assim os servidores que forem usar vão poder compensar esses fatores com outros meios."*
+
+### 2 · A curva crua sai da faixa do levantamento DE PROPÓSITO, e essa é a decisão
+
+**As catorze respostas desenham de `3` a `14` meses até o nível 20, e a curva crua entrega `15,5`.** *A mediana pedida é `10,25`, e a distância ficou registrada nas duas leituras: `+5,3` meses cru e `+3,7` com a compensação recomendada.*
+
+**O §5.3 é a outra metade da decisão.** *Uma única mesa de dobro por mês devolve o nível 20 para `13,9`, dentro da faixa; duas põem em `12,6`, mais rápido do que a curva anterior.*
+
+| mesas de dobro por mês | nível 20 a 2/sem | acrescenta |
+|---|---|---|
+| nenhuma | 15,5 meses | — |
+| **uma** — o recomendado | **13,9** | `+12%` de XP |
+| duas | 12,6 | `+23%` |
+| três | 11,5 | `+35%` |
+
+> ***⚠ E a mesa de dobro NÃO alcança quem joga pouco, que é o limite dela.*** *Ela paga na proporção do que a pessoa já joga, e não dá para dobrar mesa que não foi jogada:* **quem joga a cada 15 dias só joga `2,2` mesas por mês, e o terceiro dobro quase não move a linha dele — de `32,3` para `31,1` meses.** *É por isso que o segundo mecanismo recomendado — dobro para quem está três níveis atrás — não é redundante com o primeiro: ele é o único dos dois que mira em quem ficou para trás.*
+
+**O argumento que sustenta a direção é o mesmo das duas vezes:** *campanha lenta demais o servidor corrige na semana seguinte, declarando missão maior ou marcando um evento de dobro. Campanha rápida demais deixa fichas de nível 16 na mesa, e ninguém desce de nível.*
+
+### 3 · Conferir a conta antes de aplicar, e QUATRO coisas do rascunho não sobreviveram
+
+***O pedido era "não refaça a conta; confira ela", e a conferência rendeu.*** **As âncoras da primeira etapa passaram exatas** — `125` e `259` mesas, `13,6` e `20,0` meses, razão `0,47`. **O resto não.**
+
+**1 · A tabela nível a nível não reproduzia de modelo nenhum.** *Varridas seis médias de missão, cinco calendários e dois modelos de simulação, o melhor ajuste deixava `92` das `140` células fora, nenhuma por mais de `0,3` mês.* **A peça publica a recontada, e o validador recalcula as 174 células dela.**
+
+**2 · A tabela do gatilho estava medida a uma faixa só — o erro que o próprio rascunho mandava não cometer.** *Ele publicava `3` para o fator `2×`.* **Com a troca de faixa no nível 20 e a curva final, o `2×` para em `6` e o `2,5×` em `4`** — e depois disso ele não melhora mais, porque o limite deixa de ser o XP e passa a ser o teto do nível 30.
+
+**3 · Os `107` e `241` XP por missão eram sintoma recontado.** *Eles saem de dividir `6.300` por `~59` e `8.200` por `~34` — os números **já arredondados** que a peça publicava.* **As constantes são `106,25` e `240`.**
+
+**4 · E a justificativa do teto não se sustenta — nem a do rascunho, nem a que eu escrevi por cima dela.** *Os dois diziam que sem teto a faixa lendária ficaria lenta demais.* **Medido: sem teto ela passa de `7,9` para `8,4` meses, contra um máximo de `9,5` no levantamento — já estava dentro.** *A mesma releitura derrubou uma segunda invenção minha: o intervalo do degrau quase não mexia na razão na curva anterior.*
+
+> ***⚠ E o `106,25` não tinha dono nenhum, o que quase virou a decisão errada.*** *A peça 12 descrevia a missão mundana típica como *"padrão, com uma longa a cada quatro"*, que vale `125` XP; o validador usava `106`; e nada comparava os dois desde a v0.32.* **A bifurcação foi medida e levada ao Mizuki, e a decisão foi manter o `106,25`** — a prosa é que estava errada, porque o `~59 missões` publicado sai de `106`. *O §4.1 novo declara a receita das duas faixas, e o validador reconstrói cada uma dos quatro tamanhos de missão do §4.*
+
+### 4 · O que a curva nova quebrou, e ela quebrou três coisas
+
+**O teto de um nível por missão DEIXOU de morder.** *Na curva original a pior combinação entregava três níveis de uma vez; hoje nenhuma entrega dois.* **A regra fica, e o §3.1 passa a dizer por quê:** *a outra metade dela — o excedente que não some — continua trabalhando, e a mesa de dobro do §5.3 é exatamente o caso que a traz de volta, porque um final de arco dobrado paga `600`.*
+
+**Duas âncoras de outros validadores sumiram no dia em que o valor mudou.** *O `conferir-criacao.py` e o `conferir-ficha.py` liam o custo do primeiro nível procurando a faixa `"2 a 4"` e a palavra `"1 missão"`* — **as duas carregavam o valor da curva velha, então elas desapareceram exatamente quando precisavam acender.** *Hoje o recorte é pelo NÍVEL.*
+
+**E uma guarda de contagem envelheceu no `conferir-progressao.py`.** *Ela exigia "pelo menos 10 faixas de XP na peça 12", e a curva nova tem `9` — sem nada de errado ter acontecido.* **Contar faixa é contar a FORMA da tabela; a guarda virou cobertura:** *a extração tem de alcançar todo nível de 2 a 29, e isso não muda quando o agrupamento muda.*
+
+### 5 · O validador parou de carregar a regra e passou a ler os donos
+
+**Até a v0.195 o `conferir-xp.py` guardava a curva, os tamanhos de missão e o desconto da semana no código.** *Uma curva escrita em dois lugares diverge, e a do validador só não tinha divergido porque ninguém tinha mexido nela em 164 versões.*
+
+**Hoje ele lê os três dos documentos donos e reconstrói cada um contra a regra publicada ao lado.** *A tabela do §3 tem de sair da frase de regra do §3; a receita de missão do §4.1 tem de sair dos quatro tamanhos do §4; o equivalente semanal sai da tabela do §5.*
+
+**Onze blocos, e quatro checagens novas guardam contra-teste de verdade:**
+
+| checagem | o contra-teste que a torna não trivial |
+|---|---|
+| o abismo fecha | numa curva **plana** de mesmo custo total a dívida vale `0,91` nível do começo ao fim, e na nossa ela cai de `2,00` para `0,59` |
+| a faixa lendária é curta | se o topo rodasse missão mundana levaria `154` missões contra `135` da base — **mais**, e não metade |
+| o teto de um nível | a relação é guardada nos dois sentidos: o texto declarar que ele parou de morder e ele voltar a morder acendem igual |
+| **a compensação é suficiente** | a curva crua sai da faixa de propósito, então o que se mede é a curva **com** a recomendação do §5.3 — se ela deixar de bastar, isto acende |
+
+> **O abismo passou a ser medido em nível FRACIONADO.** *Em nível inteiro a medida tinha ruído de `±1` vindo da fronteira, e a amostra da v0.195 saía monotônica por sorte.*
+
+**Arnês de perturbação: `24` perturbações numa cópia isolada, base verde antes e depois, `diff` conferido em cada uma, e as `24` acenderam a checagem certa.**
+
+### 6 · E o PHB 2024 mediu contra, com um resultado que valia saber
+
+**No `Player's Handbook` de 2024 o nível 19 custa `83×` o nível 2; na nossa curva ele custa bem menos.** *A metade de cima do PHB pesa `3,19×` a de baixo.*
+
+**Curva íngreme alcança melhor, e dá para dizer quanto:** *a mesma dívida de dez missões perdidas encolhe `13,2×` numa campanha de PHB e `3,4×` na nossa.* **A inclinação de lá não cabe aqui** — com base de duas missões, `83×` poria o nível 29 em `166` missões, e o preço deixaria de se ler em missões, que é o que faz sete mestres pagarem igual sem combinar.
+
+### 7 · E o PDF tinha dois defeitos de diagramação, os dois achados pelo Mizuki lendo
+
+***Achado dele, no capítulo de Invocações:*** *a fórmula da vida da invocação estourava a coluna, e a tabela `A ficha dela` comia a borda direita.* **Uma causa só: `code { white-space: nowrap }` no `manual.css`.**
+
+**O `nowrap` não protegia nada que precisasse de proteção** — *termo de uma palavra não tem onde quebrar, com ou sem ele.* **O que ele fazia era proibir a quebra justamente das expressões longas, que são as únicas que precisam quebrar.** *Medido: são exatamente dois trechos em crase mais largos que a coluna no livro inteiro, os dois no capítulo 12, com `96` e `61` caracteres contra os `49` que cabem.*
+
+***E indo consertar apareceu um segundo, que ninguém tinha visto:*** **crase dentro de cabeçalho de tabela era invisível.** *O `th` pinta o texto de `--washi` e o `code` pinta o FUNDO de `--washi` — os dois juntos davam quase branco sobre quase branco.* **São `20` trechos em cinco capítulos**, e o pior é o cabeçalho da tabela `A vida que cada Trilha põe em campo`, que perdia `0` e `técnica` de uma vez.
+
+**A varredura de formatação do documento inteiro sai limpa depois dos dois consertos.** *Medida palavra a palavra pela caixa de cada uma, contra a mancha espelhada: no PDF de duas colunas sobra **uma** ocorrência em 143 páginas — uma vírgula `0,7mm` além da margem, que é pontuação pendurada.*
+
+> ***⚠ E o medidor errou antes de o documento errar.*** *A primeira varredura acusou `1.055` palavras fora da mancha em 70 páginas, e não havia nada errado:* **eu tinha suposto margem fixa, e o `@page :left` do projeto espelha ela** — `20mm` internos e `18mm` externos. *Metade das páginas "estourava" exatos `2mm`, que é a diferença entre as duas.* **Instrumento errado produz vermelho que parece prova.**
+
+### 8 · E a régua de voz do livro ganhou a linha que faltava
+
+***Achado do Mizuki lendo o capítulo 80 depois de ele ficar pronto.*** **Palavras dele:** *"esse tipo de informação não é necessária para o player, não queremos dar informação à toa"*.
+
+**A régua já dizia que o livro não fala de si mesmo. Ela não dizia que o livro também não fala do PROJETO** — como o número foi calibrado, contra o que ele foi medido, e o que ele custou para chegar ali. *Três frases minhas tinham entrado no capítulo 80 por essa brecha:* **`"a curva é lenta de propósito"`, `"a curva foi calibrada devagar para o servidor ter espaço de acelerar"` e `"sem gastar o recurso todo de uma vez"`.**
+
+**A seção `E por que o NÚMERO é assim também sai` fecha a brecha, com o teste em uma linha:** *se a frase só faz sentido para quem está decidindo o número, e não para quem está usando ele numa mesa, ela é da peça e não do livro.*
+
+> **A medida fica; a justificativa da medida sai.** *A tabela de tempo por cadência é consulta — o mestre planeja a temporada com ela. A distância entre essa tabela e o que catorze pessoas responderam num formulário não é consulta de ninguém, e ela nunca entrou no livro.*
+
+**Varri o livro inteiro atrás do mesmo defeito e ele está limpo:** *sete linhas com cara de justificativa de projeto em 21 capítulos, e cinco delas são causa dentro da ficção ou regra.* **As duas que sobram são antigas, as duas no capítulo de Invocações, e ficaram registradas em vez de mexidas.**
+
+### Adicionado
+
+- **O §3.0 da peça 12**, com a derivação dos cinco números da curva, e a comparação medida contra o PHB 2024.
+- **O §4.1 da peça 12** — a receita de missão de cada faixa, que nunca esteve derivada.
+- **O §5.1, o §5.2 e o §5.3 da peça 12** — a faixa do levantamento contra a curva, a tabela das cinco cadências, o gatilho como exemplo trabalhado, e os três mecanismos de compensação com o preço de cada um.
+- **As seções `Tempo de campanha`, `Acelerar o ritmo do seu servidor` e `Distância entre quem joga muito e quem joga pouco`** no capítulo 80 do livro.
+- **Quatro blocos novos no `conferir-xp.py`** — a tabela contra a frase de regra, as cinco cadências recontadas, o gatilho recontado e a compensação recontada.
+
+### Alterado
+
+- **A curva de XP**, na peça 12 §3, na peça 18 e no capítulo 80 — as três tabelas, mais a coluna `XP` das duas de progressão.
+- **O `conferir-xp.py` inteiro**, que passou a ler a regra dos donos em vez de carregá-la.
+- **O `conferir-criacao.py` e o `conferir-ficha.py`**, cujas âncoras carregavam o valor da curva velha.
+- **A guarda de contagem do `conferir-progressao.py`**, que virou guarda de cobertura.
+- **O `XP_PROXIMO` do gerador de ficha**, de `100` para `200`, e as duas fichas `.docx` regeradas.
+- **Três entradas que faltavam na tabela do `99-arquivo/LEIA-ME.md`.**
+- **Três trechos do capítulo 80** que explicavam ao jogador por que a curva foi calibrada assim.
+- **Duas regras do `manual.css`** — o `nowrap` da crase, que estourava a coluna, e a crase dentro de `th`, que era invisível.
+- **A seção `E por que o NÚMERO é assim também sai`** na `REGRA-DE-VOZ.md`.
+
+### Removido
+
+- **`03-mecanica/RASCUNHO-ritmo-de-xp.md`**, para o `99-arquivo/` com o cabeçalho de sempre — e o dele lista as quatro coisas que não sobreviveram à conferência.
+
+### Decidido
+
+- **A missão mundana típica vale `106,25` XP**, e não os `125` que a prosa da peça descrevia.
+- **A curva crua fica FORA da faixa que as catorze respostas desenharam**, e a compensação recomendada é o que a traz de volta. *`15,5` meses crus, `13,9` com uma mesa de dobro por mês.*
+- **O livro recomenda três mecanismos e não obriga nenhum:** *mesa de dobro, dobro para quem ficou três níveis atrás, e `+10%` por agir na motivação do personagem.*
+- **O teto de um nível por missão fica**, mesmo tendo parado de morder.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **A fila da mecânica voltou a ficar sem item fora do `04-playtest/`** — e o §10 da peça 12 abriu perguntas novas que só o playtest responde, sendo a maior delas se o vão de `13` níveis aparece de verdade.
+
+---
+
 ## [0.195] — 31/08/2026
 
 **O livro ganhou uma regra de voz que ele não tinha, e ela veio da mão do Mizuki.** *Ele reescreveu o XP de quem mestra sozinho, trocando o número por `X` e a ordem por conselho.* **A régua não tinha isso escrito, e sem dono a mudança morreria na versão seguinte.**

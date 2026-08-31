@@ -347,9 +347,21 @@ checagens.append(('INTEGRIDADE_NV', const_js('INTEGRIDADE_NV'),
                   int(m.group(1)) if m else None, 'peca 8, passo 7'))
 
 # xp do proximo nivel, da peca 12
-m = re.search(r'\|\s*\*\*2 a 4\*\*\s*\|\s*1 missão\s*\|\s*(\d+)\s*\|', P12)
+# v0.196: a ancora era a FAIXA ("2 a 4") e a contagem ("1 missao"), e as duas
+# carregavam o valor da curva velha — entao ela sumiu no dia em que a curva mudou,
+# que e' exatamente o dia em que ela precisava acender. Hoje o recorte e' pelo
+# NIVEL: qualquer faixa que cubra o nivel 2 serve, e o custo sai da linha dela.
+def _xp_do_nivel(txt, nivel):
+    for m in re.finditer(r'^\| \*\*(\d+)(?: a (\d+))?\*\* \| (\d+) miss\w+ \| ([\d.]+) \|',
+                         txt, re.M):
+        ini, fim = int(m.group(1)), int(m.group(2) or m.group(1))
+        if ini <= nivel <= fim:
+            return int(m.group(4).replace('.', '')), int(m.group(3))
+    return None, None
+
+_xp2, _miss2 = _xp_do_nivel(P12, 2)
 checagens.append(('XP_PROXIMO', const_js_simples('XP_PROXIMO'),
-                  int(m.group(1)) if m else None, 'peca 12, faixa 2 a 4'))
+                  _xp2, 'peca 12, a faixa da curva que cobre o nivel 2'))
 
 # pontos de atributo e teto, da peca 8
 m = re.search(r'\*\*(\w+) pontos entre os cinco\. Nenhum acima de (\d+)\.\*\*', P8)

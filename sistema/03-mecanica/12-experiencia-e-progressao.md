@@ -2,7 +2,7 @@
 
 **Fase 4, décima segunda peça.** Como se sobe de nível numa guilda onde sete mestres postam missão e ninguém coordena calendário.
 
-Versão v0.32 — 11/08/2026 · Validador: `conferir-xp.py`
+Versão v0.196 — 31/08/2026 · Validador: `conferir-xp.py` · *a curva foi represada na v0.196; o resto é de v0.32*
 
 Esta é a **trava nº 1 de mundo compartilhado** — *"XP tabelado, nunca marco narrativo"* —, e ela ficou aberta por trinta versões. Sem ela, cinco mestres dão progressão diferente, que é exatamente o problema que o sistema existe para resolver.
 
@@ -14,7 +14,7 @@ Ela também é a primeira peça deste projeto escrita a partir de **dado de gent
 
 ## 1. A regra, em cinco linhas
 
-> **Cada nível custa um número inteiro de missões, e ele sobe uma missão a cada três níveis.**
+> **Cada nível custa um número inteiro de missões: duas no nível 2, três nos dois seguintes, e daí duas a mais a cada três níveis, até parar em dezessete.**
 > **Uma missão padrão paga 100 XP, e paga o mesmo para todo mundo na mesa.**
 > **Nenhuma missão faz você subir mais de um nível — o que sobra fica acumulado.**
 > **Por semana, as duas primeiras missões pagam cheio; da terceira em diante o valor cai pela metade a cada uma.**
@@ -28,18 +28,22 @@ O resto desta peça é o porquê de cada uma das cinco.
 
 **Numa guilda, mesa aberta junta níveis diferentes.** Um nível 8 e um nível 14 na mesma missão não é exceção: é terça-feira. E aí a pergunta é o que acontece com quem ficou para trás.
 
-Dois personagens começam juntos. Um perde dez sessões — viagem, prova, sumiço. Depois disso jogam tudo junto:
+Dois personagens começam juntos. Um perde dez sessões — viagem, prova, sumiço. Depois disso jogam tudo junto, e o buraco fica em **1.000 XP para sempre**, porque ninguém mais perde nada.
 
-| depois de | XP fixo | XP escalado pelo nível |
+**A pergunta não é quanto XP falta, e sim quanto esses 1.000 XP VALEM.** *É uma dívida em moeda que se desvaloriza: a mesma quantia compra menos nível a cada faixa que a campanha atravessa.*
+
+| quando quem ficou tem | os 1.000 XP perdidos valem | numa curva plana valeriam |
 |---|---|---|
-| 20 sessões | distância 4 níveis | distância 4 |
-| 40 sessões | **2** | 4 |
-| 60 sessões | 2 | 4 |
-| 90 sessões | **1** | 0 |
+| 2.000 XP | **2,00 níveis** | 0,91 |
+| 5.000 XP | **1,24** | 0,91 |
+| 9.000 XP | **0,91** | 0,91 |
+| 13.000 XP | **0,77** | 0,91 |
+| 18.000 XP | **0,67** | 0,91 |
+| 23.000 XP | **0,59** | 0,91 |
 
-**Com XP fixo a distância só encolhe**, e chega a zero em 160 sessões — depois do fim de uma campanha, o que na prática quer dizer que ela termina em um nível de folga. O motivo é aritmético e não precisa de regra nenhuma: cada nível custa mais que o anterior, então a mesma missão vale uma fatia menor para quem está na frente. Quem está atrás sobe mais rápido sem receber nada de especial.
+**A coluna da direita é o contra-teste, e ela é o que prova que quem fecha o abismo é a curva subir.** *Uma curva plana de mesmo custo total deixa a dívida valendo `0,91` nível do começo ao fim* — o atrasado nunca encosta, por mais que a campanha ande. **Nenhuma regra faz esse trabalho, e nenhuma precisa: quem está atrás sobe mais rápido porque o nível dele é mais barato.**
 
-**Com XP escalado ela trava**, e só fecha porque o nível 30 é teto. Enquanto ninguém encosta no teto, o abismo não se move.
+**Com XP escalado pelo nível acontece o contrário, e o buraco CRESCE.** *Quem está atrás ganha menos por missão justamente por estar atrás, então a dívida de `1.000` XP vira `1.188` na missão 60 e `3.238` na 140.* **A distância só fecha quando alguém encosta no teto do nível 30, e até lá ela não se move sozinha.**
 
 E isso tem nome na Guilda: é o **gap** que o Kekka descreveu — *"final da mansão tiveram players literalmente bloqueados de ganhar gap de tão mutantes que eram"*. Um personagem que se descola tanto que não cabe mais em mesa nenhuma.
 
@@ -62,20 +66,45 @@ O Grau continua valendo muito. Ele só não vale **XP**.
 
 ## 3. A curva
 
-> **Um nível custa um número inteiro de missões padrão, e o número sobe uma a cada três níveis.**
+> **Um nível custa um número inteiro de missões padrão. A base é três, o número sobe duas a cada três níveis, e ele para em dezessete.**
 
 | níveis | custa | em XP |
 |---|---|---|
-| **2 a 4** | 1 missão | 100 |
-| **5 a 7** | 2 missões | 200 |
-| **8 a 10** | 3 | 300 |
-| **11 a 13** | 4 | 400 |
-| **14 a 16** | 5 | 500 |
-| **17 a 19** | 6 | 600 |
-| **20 a 22** | 7 | 700 |
-| **23 a 25** | 8 | 800 |
-| **26 a 28** | 9 | 900 |
-| **29** | 10 | 1.000 |
+| **2** | 2 missões | 200 |
+| **3 a 4** | 3 missões | 300 |
+| **5 a 7** | 5 missões | 500 |
+| **8 a 10** | 7 missões | 700 |
+| **11 a 13** | 9 missões | 900 |
+| **14 a 16** | 11 missões | 1.100 |
+| **17 a 19** | 13 missões | 1.300 |
+| **20 a 22** | 15 missões | 1.500 |
+| **23 a 29** | 17 missões | 1.700 |
+
+**Chegar ao nível 20 custa `143` missões padrão, e ir dali ao 30 custa `164`** — `14.300` e `16.400` de XP, `307` missões na campanha inteira.
+
+### 3.0 De onde sai cada número da curva
+
+*Escrita na v0.196.* **São cinco números, e cada um responde a uma coisa diferente.**
+
+**A base é `3` missões, e ela é o piso do relógio.** *Com base `2` o nível 20 chega em `13,7` meses a duas mesas por semana, e com base `4` em `17,4`.* **Com `3` ele chega em `15,5`**, que é o alvo desta versão.
+
+**O passo é `+2` missões a cada `3` níveis, e esse par é o que segura a razão da faixa lendária.** *Passo de `+1` a cada três põe o nível 20 em `10,7` meses; passo de `+3` põe em `20,1`* — **mas o de `+3` derruba a razão para `0,41`, fora dos `0,45` a `0,61` que o levantamento produziu.** *O de `+2` fica em `0,51`.*
+
+> ***⚠ E o intervalo de três níveis não é decorativo.*** *Com o mesmo passo de `+2` a cada **dois** níveis, a curva vai para `193` missões e `21,0` meses, e a razão despenca para `0,39` — fora da faixa.* **A cada quatro níveis ela cai para `12,7` meses.** *Só o intervalo de três entrega relógio e razão ao mesmo tempo.*
+
+**O teto é `17` e ele continua sendo o único número que não sai de fórmula nenhuma.** *Sem ele o nível 29 custaria `21` missões, e o número cresceria enquanto houvesse nível* — o que tira do jogador a coisa que o custo inteiro existe para dar, que é saber de cabeça quanto falta.
+
+**O que ele compra em número é pouco, e o pouco fica escrito.** *Ele tira `10` missões da faixa lendária — `164` em vez de `174` —, o que move o topo de `8,4` para `7,9` meses e a razão de `0,54` para `0,51`.* **Ele não resgata nada de fora da faixa, porque sem ele já estava dentro.**
+
+**E o nível 2 custa `2` em vez de `3`, que é concessão declarada.** *Ela tira **uma** missão do total e move o nível 20 em `0,11` mês — quase nada.* **O que ela compra é o degrau que decide se alguém fica: com `3`, uma ficha nova joga três mesas antes de a ficha mudar de forma; com `2`, ela sobe na segunda.**
+
+> ***⚠ A curva anterior morreu por medida, e não por gosto.*** *Ela custava `63` missões até o nível 20 e `145` até o 30, e a duas mesas por semana entregava o nível 20 em `6,8` meses.* **A mediana que as catorze respostas pediram é `10,25`, e a resposta mais lenta de todas foi `14`** — então a curva de hoje, sozinha, passa da faixa inteira, em `15,5`.
+>
+> *O repreço foi medido em duas etapas dentro desta mesma versão: a primeira fechou em `125` missões e `13,6` meses, e o Mizuki esticou de novo depois de ler a tabela por cadência.* **A primeira parava dentro da faixa; esta sai dela de propósito.** *O levantamento que mediu as duas está no `99-arquivo/`, com o cabeçalho de sempre.*
+>
+> ***E isso é o desenho, não um acidente.*** *Palavras dele:* *"vamos chutar alto, pq assim os servidores que forem usar vão poder compensar esses fatores com outros meios."* **A curva crua é o piso; o §5.3 mede o que cada mecanismo de compensação devolve, e uma única mesa de dobro por mês já traz o nível 20 de volta para `13,9`.**
+>
+> **O argumento que sustenta a direção é o mesmo das duas vezes:** *uma campanha lenta demais o servidor corrige na semana seguinte, declarando missão maior ou marcando um evento de dobro — as duas coisas são dele, pelo §4 e pelo §5.3. Uma campanha rápida demais deixa fichas de nível 16 na mesa, e ninguém desce de nível.*
 
 **Custo inteiro é a lição do jogo organizado, e não invenção nossa.** Os dois maiores sistemas de campanha compartilhada do mundo convergem nisso:
 
@@ -84,11 +113,21 @@ O Grau continua valendo muito. Ele só não vale **XP**.
 | **D&D Adventurers League** (~100 mil membros) | 4 checkpoints por nível até o 4, 8 dali em diante — e 1 checkpoint por hora jogada |
 | **Pathfinder Society 2e** | 12 XP por nível, cenário paga 4: **três cenários por nível**, sempre |
 
-O que os dois compram é a mesma coisa: **um jogador sabe de cabeça quanto falta.** *"Estou no nível 12, cada nível são quatro missões, joguei duas."* Sem tabela, sem conta.
+O que os dois compram é a mesma coisa: **um jogador sabe de cabeça quanto falta.** *"Estou no nível 12, cada nível são oito missões, joguei duas."* Sem tabela, sem conta.
 
 **Uma versão anterior desta peça usava uma reta** — `100 + 30 × (nível − 2)` —, e ela produzia 1,3 missão no nível 3, 1,6 no 4, 2,8 no 8. Todo nível pedia conta, e nenhum caía redondo.
 
-**Os primeiros níveis passam voando de propósito.** Do 2 ao 4 é uma missão cada — a ficha entra em jogo e ganha corpo antes de qualquer decisão pesada. Do 17 em diante são seis missões por nível, e a subida vira coisa de arco.
+**Os primeiros níveis continuam passando mais rápido, e agora por pouco.** *Do 2 ao 5 são duas, três e quatro missões; do 24 em diante são catorze.* **A ficha ganha corpo antes de qualquer decisão pesada**, e do 16 para cima cada nível vira coisa de arco.
+
+### E a nossa é MUITO mais achatada que a do D&D, de propósito
+
+**No `Player's Handbook` de 2024 o nível 19 custa `83×` o que custa o nível 2.** *Na nossa ele custa `7×`, e na curva anterior custava `10×`.* **A metade de cima do PHB pesa `3,19×` a de baixo; a nossa pesa `1,98×`.**
+
+**Uma curva íngreme alcança melhor, e a conta diz quanto:** *a mesma dívida de dez missões perdidas encolhe `13,2×` ao longo de uma campanha de PHB e `3,0×` na nossa.* **É a mesma peça que o `DMG` p.92 descreve** — *quem está em nível mais baixo recebe cota igual e sobe mais rápido* —, só que lá ela é bem mais forte.
+
+> **E não dá para copiar a inclinação de lá, porque ela briga com a coisa que esta peça existe para entregar.** *O preço aqui se lê em missões, e é isso que faz sete mestres pagarem igual sem combinar.* **A `83×` do PHB, com base de duas missões, poria o nível 29 em `166` missões** — uma temporada inteira por nível, e ninguém consegue dizer de cabeça quanto falta.
+>
+> ***O repreço quase não mexeu nisso, e vale registrar:*** *a razão entre topo e base caiu de `10×` para `7×`, e mesmo assim o alcance medido ficou parado* — `2,9×` na curva velha contra `3,0×` na nova. **Encarecer tudo não enfraqueceu o motor que fecha o abismo.**
 
 ## 3.1. Nenhuma missão dá mais de um nível
 
@@ -96,18 +135,19 @@ O que os dois compram é a mesma coisa: **um jogador sabe de cabeça quanto falt
 
 **Este é o defeito que derrubou o XP na maior campanha compartilhada do mundo.** A Adventurers League abandonou experiência na temporada 8, em 2018, e o motivo está escrito: *"uma aventura de quatro horas levava um personagem novo do nível 1 ao 3 — mais rápido do que os designers pretendiam."*
 
-Sem o teto, a nossa pior combinação entregaria **três níveis de uma vez**: um final de arco jogado por um personagem de nível 2. Não é injusto — o XP é o XP —, mas é decisão de ficha demais para uma sessão só. Ninguém digere três níveis de escolha de uma vez, e o que a pessoa monta apressada ela joga mal por semanas.
+Na curva anterior a pior combinação entregava **três níveis de uma vez**: um final de arco jogado por um personagem de nível 2. Não é injusto — o XP é o XP —, mas é decisão de ficha demais para uma sessão só, e o que a pessoa monta apressada ela joga mal por semanas.
 
 | no nível | curta | padrão | longa | final de arco |
 |---|---|---|---|---|
-| 2 | +50 | **1 nível** | 1 nível, +100 | 1 nível, +200 |
-| 5 | +50 | +100 | **1 nível** | 1 nível, +100 |
-| 8 | +50 | +100 | +200 | **1 nível** |
-| 12 e acima | +50 | +100 | +200 | +300 |
+| 2 | +50 | +100 | **1 nível** | 1 nível, +100 |
+| 3 e 4 | +50 | +100 | +200 | **1 nível** |
+| 5 e acima | +50 | +100 | +200 | +300 |
 
-**O excedente não some, e isso importa.** Quem levou um final de arco no nível 2 sobe um nível na hora e entra na missão seguinte com 200 XP no bolso — sobe de novo, e continua subindo até o acumulado acabar. O teto não tira nada: ele só espalha.
+***⚠ E na curva de hoje o teto DEIXOU DE MORDER, o que é consequência do repreço e fica registrado.*** *Nenhuma combinação de nível e tamanho entrega dois níveis:* **o melhor caso é um final de arco no nível 2, que dá um nível e deixa `100` de troco** — e o nível 3 custa `300`, que é o valor cheio de um final de arco. *Na curva anterior o mesmo caso dava três.*
 
-**E ele quase não atrasa nada.** Simulado com missão padrão, o personagem com teto e o sem teto estão no mesmo nível em 10, 20, 40, 60 e 80 missões — porque com missão padrão o teto nunca chega a morder. Ele é rede de segurança para o caso grande, não freio de mão.
+**Ele fica, e o motivo não é sentimental.** *A regra que está escrita ali é dupla: o teto de um nível, e **o excedente que não some**.* **A segunda metade continua trabalhando toda semana** — quem leva um final de arco no nível 2 entra na missão seguinte com `100` XP no bolso, e esses `100` são um terço do próximo nível.
+
+> **A primeira metade vira rede de segurança, e rede de segurança se mede pelo que ela pega quando alguém cai.** *Um servidor que resolva pagar `600` numa missão de fecho de temporada volta a ter o caso de dois níveis na hora* — e a regra já está no lugar, sem precisar de emenda no meio da campanha.
 
 ## 4. O tamanho da missão
 
@@ -124,16 +164,30 @@ Uma curva só, e quem varia é a missão.
 
 **Missão de roleplay que qualquer Grau pode entrar é missão curta**, e ela paga. Uma guilda que só dá XP para quem mata perde metade do que faz uma guilda ser guilda.
 
+### 4.1 A mistura de cada faixa, e ela é o número mais perigoso desta peça
+
+*Escrita na v0.196.* **A curva é uma só, e quem varia é a missão — então a missão típica de cada faixa é o que converte preço em relógio.** *Ela nunca esteve derivada aqui, e a §4 chegou a descrever uma mistura que não batia com a que a conta usava.*
+
+> **Missão mundana típica: a cada oito, uma curta e uma longa, e as outras seis padrão.** `(50 + 600 + 200) ÷ 8` = **`106,25` XP**.
+>
+> **Missão lendária típica: a cada cinco, três longas e dois finais de arco.** `(600 + 600) ÷ 5` = **`240` XP**.
+
+**A curta e a longa quase se anulam, e é isso que põe a mundana perto da padrão.** *Uma curta a menos e uma longa a mais valem `250` contra os `200` de duas padrão* — seis por cento acima, e nada mais.
+
+***⚠ E aqui mora a armadilha que já mordeu duas vezes.*** **A "mesa" da tabela do §3 é a missão PADRÃO, de `100` XP — a unidade de preço.** *A missão típica de `106,25` é a unidade de relógio.* **Dividir `143` mesas pela cadência dá o número errado**, porque `143` já está em moeda de `100` e o relógio corre em moeda de `106,25`.
+
 ### E é isso que faz a faixa lendária ser mais rápida em tempo
 
 Do nível 20 em diante a Guilda roda final de arco e side story — missões grandes. A curva continua subindo, mas o pagamento sobe junto:
 
-| faixa | XP total | tamanho típico | missões |
-|---|---|---|---|
-| 2 → 20 | 6.300 | padrão, com uma longa a cada quatro | ~59 |
-| 20 → 30 | **8.200** | longa e final de arco | ~34 |
+| faixa | custa | XP total | missão típica | dá em missões |
+|---|---|---|---|---|
+| 2 → 20 | 143 mesas | 14.300 | `106,25` | ~135 |
+| 20 → 30 | 164 mesas | **16.400** | `240` | ~68 |
 
-Dez níveis lendários custam **mais XP** que dezoito mundanos — 8.200 contra 6.300 — e mesmo assim levam **pouco mais da metade das missões**. Foi o que catorze pessoas pediram de jeitos diferentes, e ele sai sem nenhuma regra de exceção.
+Dez níveis lendários custam **mais missões padrão** que dezoito mundanos — 164 contra 143 — e mesmo assim levam **metade das missões de verdade**. Foi o que catorze pessoas pediram de jeitos diferentes, e ele sai sem nenhuma regra de exceção.
+
+> ***A faixa lendária não é rápida por causa da curva, e isto precisa ficar escrito.*** *Se o topo rodasse missão mundana, ele levaria `17,8` meses a duas mesas por semana em vez de `7,9`* — **`2,3×` mais devagar do que é hoje, e mais tempo do que os `15,5` da faixa de baixo inteira.** *Em missões dá `154` contra `135`.* **Quem modelar a campanha inteira a `100` XP por missão chega à conclusão contrária, e ela é falsa.**
 
 ## 5. As duas primeiras da semana pagam cheio
 
@@ -151,17 +205,118 @@ Dez níveis lendários custam **mais XP** que dezoito mundanos — 8.200 contra 
 
 **O que ele resolve.** O levantamento trouxe o sintoma pronto, do Mega: *"muita gente só mestra pelo XP e isso vira cúmulo."* Quando a terceira mesa da semana vale metade, moer mesa para de compensar sozinho — sem proibir nada e sem ninguém precisar fiscalizar.
 
-**E ele é o que faz os três perfis existirem:**
+**E ele é o que achata a ponta de cima:**
 
-| perfil | mesas/semana | equivalente | 2 → 20 | o alvo |
-|---|---|---|---|---|
-| joga pouco | 1 | 1,00 | **14,5 meses** | 14 |
-| mediano | 1,5 | 1,50 | **9,7 meses** | 9 |
-| joga muito | 4 | 2,75 | **5,3 meses** | 6,5 |
+| você joga | equivale a | chega ao 20 em | e ao 30 em |
+|---|---|---|---|
+| 1 a cada 15 dias | 0,50 | 62,2 meses | 93,7 |
+| 1 por semana | 1,00 | 31,1 | 46,9 |
+| **2 por semana** | 2,00 | **15,5** | **23,4** |
+| 3 por semana | 2,50 | 12,4 | 18,7 |
+| 4 por semana | 2,75 | 11,3 | 17,0 |
 
-Os dois primeiros batem quase exato. **Sem o retorno decrescente, quem joga quatro vezes por semana chegaria ao nível 20 em 3,4 meses** — e aí acontece o que o Zeuk temia: *"30 nego lvl 16 em 4 meses"*.
+**Sem o retorno decrescente, quem joga quatro vezes por semana chegaria ao nível 20 em `7,8` meses em vez de `11,3`** — e aí acontece o que o Zeuk temia: *"30 nego lvl 16 em 4 meses"*. **Repare que dobrar de duas para quatro por semana compra `4,2` meses, e não a metade do tempo.**
 
-**O terceiro fica um mês e pouco na frente do alvo, e isso é registrado e não consertado.** Puxar ele para trás exigiria dar cheio só na primeira missão da semana — e aí quem joga uma vez por semana perde metade do que ganha hoje, que é exatamente quem não se quer punir. Cinco meses e pouco continua dentro do que o Mahi e o Pedro pediram.
+### 5.1 O que a Guilda pediu, e onde a curva cai
+
+**As catorze respostas do levantamento desenham uma faixa, e não um ponto:** *`3` meses no mínimo, `10,25` na mediana, `14` no máximo, para ir do nível 2 ao 20.*
+
+**A cadência que essas respostas supunham está escrita lá, e é `1` a `2` mesas por semana.** *É o que o Sui chama de "constância, mas não de forma viciada", e é o que o Mahi descreve como "toda semana, uma vez ou duas".*
+
+***⚠ A curva crua fica FORA dessa faixa, e isso é decisão declarada.*** *Na ponta de cima da cadência ela entrega `15,5` meses contra o teto de `14`, e na ponta de baixo `31,1`.* **É o "chutar alto" do Mizuki**, e o §5.3 é a outra metade da decisão: *uma única mesa de dobro por mês devolve o nível 20 para `13,9`, dentro da faixa.*
+
+> **A regra do sistema é a curva crua; o ritmo que a mesa sente é a curva mais o que o servidor faz com ela.** *Os dois números ficam publicados lado a lado de propósito, porque um servidor que não use mecanismo nenhum precisa saber o que está escolhendo.*
+
+**A mediana de `10,25` fica fora nas duas leituras, e a distância está medida:** *a curva crua erra em `+5,3` meses, e com um dobro por mês em `+3,7`.* *A razão da faixa lendária, que é a única coisa em que as catorze concordaram, passa nas duas.*
+
+### 5.2 O vão entre quem joga uma e quem joga duas, e ele fica SEM regra
+
+***Decisão do Mizuki, na v0.195:*** **nenhum gatilho de recuperação entra na regra.** *Palavras dele:* *"não é ideal o livro obrigar formas de outros players receberem mais XP — apenas auxiliar e sugerir."*
+
+**É a régua de voz do livro aplicada:** *quanto se compensa quem joga menos é economia de guilda, e duas guildas podem responder isso diferente e as duas estarem certas.* **O livro mede, mostra o tamanho e sugere; o servidor decide.**
+
+**A coluna é o mês em que você CHEGA àquele nível, contando do nível 2, e a curva está crua — sem mecanismo nenhum:**
+
+| nível | mesas | 1/15 dias | 1/sem | **2/sem** | 3/sem | 4/sem |
+|---|---|---|---|---|---|---|
+| **2** | 2 | 0,0 | 0,0 | **0,0** | 0,0 | 0,0 |
+| **3** | 3 | 0,9 | 0,4 | **0,2** | 0,2 | 0,2 |
+| **4** | 3 | 2,2 | 1,1 | **0,5** | 0,4 | 0,4 |
+| **5** | 5 | 3,5 | 1,7 | **0,9** | 0,7 | 0,6 |
+| **6** | 5 | 5,7 | 2,8 | **1,4** | 1,1 | 1,0 |
+| **7** | 5 | 7,8 | 3,9 | **2,0** | 1,6 | 1,4 |
+| **8** | 7 | 10,0 | 5,0 | **2,5** | 2,0 | 1,8 |
+| **9** | 7 | 13,0 | 6,5 | **3,3** | 2,6 | 2,4 |
+| **10** | 7 | 16,1 | 8,0 | **4,0** | 3,2 | 2,9 |
+| **11** | 9 | 19,1 | 9,6 | **4,8** | 3,8 | 3,5 |
+| **12** | 9 | 23,0 | 11,5 | **5,8** | 4,6 | 4,2 |
+| **13** | 9 | 27,0 | 13,5 | **6,7** | 5,4 | 4,9 |
+| **14** | 11 | 30,9 | 15,4 | **7,7** | 6,2 | 5,6 |
+| **15** | 11 | 35,6 | 17,8 | **8,9** | 7,1 | 6,5 |
+| **16** | 11 | 40,4 | 20,2 | **10,1** | 8,1 | 7,4 |
+| **17** | 13 | 45,2 | 22,6 | **11,3** | 9,0 | 8,2 |
+| **18** | 13 | 50,9 | 25,4 | **12,7** | 10,2 | 9,2 |
+| **19** | 13 | 56,5 | 28,3 | **14,1** | 11,3 | 10,3 |
+| **20** | 15 | 62,2 | 31,1 | **15,5** | 12,4 | 11,3 |
+| **21** | 15 | 65,1 | 32,5 | **16,3** | 13,0 | 11,8 |
+| **22** | 15 | 67,9 | 34,0 | **17,0** | 13,6 | 12,4 |
+| **23** | 17 | 70,8 | 35,4 | **17,7** | 14,2 | 12,9 |
+| **24** | 17 | 74,1 | 37,0 | **18,5** | 14,8 | 13,5 |
+| **25** | 17 | 77,4 | 38,7 | **19,3** | 15,5 | 14,1 |
+| **26** | 17 | 80,6 | 40,3 | **20,2** | 16,1 | 14,7 |
+| **27** | 17 | 83,9 | 42,0 | **21,0** | 16,8 | 15,3 |
+| **28** | 17 | 87,2 | 43,6 | **21,8** | 17,4 | 15,9 |
+| **29** | 17 | 90,5 | 45,2 | **22,6** | 18,1 | 16,4 |
+| **30** | — | 93,7 | 46,9 | **23,4** | 18,7 | 17,0 |
+
+**O vão medido, sem compensação nenhuma: entre quem joga uma e quem joga duas mesas por semana ele chega a `13` níveis, por volta do mês `23`.** *Ele abre porque quem está na frente cruza o nível 20 e passa a rodar missão de `240` XP enquanto o outro ainda roda missão de `106,25`* — **a faixa lendária acelera quem já chegou nela.**
+
+> **E a curva mais lenta NÃO encolhe o vão — isso foi afirmado aqui e a conta desmentiu.** *As candidatas medidas dão praticamente o mesmo pior vão; o que a curva muda é **quando** ele acontece.* **A curva original entregava o pior por volta do mês `11`, no meio da vida útil de uma temporada; esta empurra para o mês `23`,** que é depois do fim da campanha de um ano que a Guilda planeja.
+
+**O gatilho fica como exemplo trabalhado, e a conta dele mora aqui:**
+
+| gatilho | fator | teto do vão |
+|---|---|---|
+| 3 níveis atrás | `1,5×` | 9 |
+| 3 níveis atrás | `2×` | **6** |
+| 3 níveis atrás | `2,5×` | **4** |
+| 3 níveis atrás | `3×` | 4 |
+| — | — | **`13`** |
+
+***O fator não é sabor: é ele que decide o teto.*** *Dobrar o XP de quem está três níveis atrás corta o vão de `13` para `6`, e `2,5×` chega a `4`* — depois disso ele para de melhorar, porque o limite deixa de ser o XP e passa a ser o teto do nível 30.
+
+> ***⚠ Estes números foram medidos de novo a cada troca de curva, e eles se movem.*** *A primeira conta do rascunho deu `3` para o fator `2×`* — **ela modelou a campanha inteira a uma faixa só, que é exatamente o erro que o §4.1 avisa.**
+
+### 5.3 O que o servidor pode fazer, e quanto cada coisa vale
+
+*Escrita na v0.196, e ela é a outra metade da decisão do §5.1.* **A curva crua é lenta de propósito, para o servidor ter espaço de acelerar do jeito dele em vez de ter de frear.**
+
+> **Nada aqui é regra, e nada aqui é obrigatório.** *Um servidor que não use mecanismo nenhum roda a curva crua e chega ao nível 20 em `15,5` meses a duas mesas por semana. Está certo, e é mais lento do que as catorze respostas pediram.*
+
+**O mecanismo mais forte é a mesa de dobro, e ela é fácil de operar: uma missão declarada como dobro paga duas vezes o tamanho dela.**
+
+| mesas de dobro por mês | nível 20 a 2/sem | nível 30 | o que ela acrescenta |
+|---|---|---|---|
+| nenhuma | 15,5 meses | 23,4 | — |
+| **uma** | **13,9** | **21,0** | `+12%` de XP |
+| duas | 12,6 | 19,0 | `+23%` |
+| três | 11,5 | 17,4 | `+35%` |
+
+**Uma por mês devolve o ritmo que a curva anterior tinha**, e duas deixam mais rápido do que ele. *A recomendação do projeto é **uma**, porque ela recoloca o nível 20 dentro da faixa que o levantamento desenhou sem gastar o recurso todo.*
+
+***⚠ E a mesa de dobro NÃO alcança quem joga pouco, o que é o limite dela.*** *Ela paga na proporção do que a pessoa já joga, então não dá para dobrar mesa que não foi jogada:* **quem joga a cada 15 dias só joga `2,2` mesas por mês, e o terceiro dobro do mês quase não move a linha dele — de `32,3` para `31,1` meses.** *Quem joga uma vez por semana continua em `18,4` meses até o nível 20 mesmo com três dobros.*
+
+**Por isso o segundo mecanismo não é redundante com o primeiro: ele mira em quem ficou para trás, e não no ritmo geral.**
+
+| mecanismo | o que ele faz | quanto vale |
+|---|---|---|
+| **mesa de dobro** | acelera o servidor inteiro | `+12%` de XP por mesa/mês; uma por mês vale `1,6` mês no nível 20 |
+| **volta de quem sumiu** | dobro para quem está `3` níveis atrás, até alcançar | corta o vão de `13` níveis para `6`; não muda o ritmo de ninguém que esteja em dia |
+| **bônus por motivação** | `+10%` na missão em que o personagem age na motivação dele, com aprovação da mesa | aplicado em metade das missões, vale `+5%` de XP |
+
+> **O bônus por motivação não é invenção daqui.** *Ele sai da fonte `kwilkins` catalogada em `01-pesquisa/levantamento-ritmo-fora-do-projeto.md`, que é a única das quatro que escala recompensa por conteúdo em vez de por tempo.* **É a mesma família do `curta · padrão · longa · final de arco` do §4.**
+
+**Os três somam, e o servidor não precisa dos três.** *Uma mesa de dobro por mês mais o bônus por motivação dá `+17%`, que põe o nível 20 em `13,3` meses.*
 
 ## 6. Mestrar não dá XP
 
@@ -225,7 +380,9 @@ Os dois primeiros batem quase exato. **Sem o retorno decrescente, quem joga quat
 
 *A coluna da direita é `taxa ÷ 20`, e é ela que responde à trava: a folha continua sendo a renda, e a marca é o bônus em cima.*
 
-> **A marca é rara de propósito, e a régua de raro é a do próprio sistema.** *O §5 mede o perfil mediano em `9,7` meses até o nível 20; nessa janela um mestre pesado fecha `1,5` marca, contra os **quatro** marcos que a ficha atravessa nos níveis 6, 10, 14 e 18.* **Menos frequente que o marco, que é a coisa mais rara que uma ficha tem.**
+> **A marca é rara de propósito, e a régua de raro é a do próprio sistema.** *O §5 mede a cadência real da Guilda — duas mesas por semana — em `15,5` meses até o nível 20; nessa janela um mestre pesado fecha `2,3` marcas, contra os **quatro** marcos que a ficha atravessa nos níveis 6, 10, 14 e 18.* **Menos frequente que o marco, que é a coisa mais rara que uma ficha tem.**
+>
+> *O repreço da v0.196 encostou os dois:* **na curva anterior eram `1,5` marca contra quatro marcos, e agora são `2,3`.** *A marca continua mais rara, com folga de quase dois para um.*
 
 **Quem mestra pouco não fecha marca nenhuma, e isso não é buraco.** *O §6 já diz onde mora a recompensa de mestrar — patente, contato, favor e acesso —, e nenhuma das quatro tem relógio.* **A marca é a conversão pontual que o §6 prometeu *"depois de muitas mesas mestradas"*, e vinte é muitas.**
 
@@ -241,7 +398,7 @@ Os dois primeiros batem quase exato. **Sem o retorno decrescente, quem joga quat
 
 > **Você chega ao nível 20 por XP. Você passa dele por feito.**
 
-Chegando aos 6.300 de XP acumulado, o personagem para no nível 20 até a mesa reconhecer alguma coisa que ele fez. O XP continua acumulando e nada se perde — ele destrava de uma vez quando o feito acontece.
+Chegando aos 14.300 de XP acumulado, o personagem para no nível 20 até a mesa reconhecer alguma coisa que ele fez. O XP continua acumulando e nada se perde — ele destrava de uma vez quando o feito acontece.
 
 **De onde isso veio.** Foi pedido no levantamento, e o argumento não é de balanceamento:
 
@@ -314,6 +471,9 @@ Uma faixa e não um número, porque as duas pontas existem: uma missão perdida 
 
 - ~~**A lista de feitos do limiar do nível 20.**~~ **Fechada na v0.172: são as oito do §7.1**, e o filtro que as escolheu é o da peça 10.
 - ~~**A forma da conversão de mestragem** — um bônus por marca, sem virar pagamento por mesa.~~ **Fechada na v0.172: é o §6.2**, uma mensalidade do seu Grau a cada vinte mesas mestradas.
+- ~~**A curva é rápida demais para a cadência que a Guilda joga.**~~ **Represada na v0.196: a base foi de `1` para `3` missões e o passo de `+1` a cada três para `+2`**, e o §3.0 tem a derivação dos cinco números.
 - **Se dois mestres pagam parecido pela mesma falha.** Marcado para o playtest.
 - **Se a semana é o relógio certo** para o retorno decrescente, ou se ele devia acompanhar o descanso longo, como o resto do sistema.
-- **Se o "joga muito" um mês e pouco na frente incomoda na prática.** Registrado, não consertado.
+- **Se `15,5` meses até o nível 20 incomoda na prática.** *O §5.1 mede a distância para a mediana do levantamento em `+5,3` meses crus, e `+3,7` com uma mesa de dobro por mês.* **Registrado, não consertado** — a curva é lenta de propósito, e o §5.3 é o que o servidor tem para acelerar.
+- **Se o vão de `13` níveis do §5.2 aparece de verdade.** *Ele precisa de vinte meses de campanha e de duas pessoas em cadências opostas o tempo todo.* **É a primeira coisa que o playtest pode desmentir.**
+- **Se o teto de um nível por missão volta a morder.** *Hoje ele não morde em combinação nenhuma (§3.1), e um servidor que pague mais de `500` numa missão o traz de volta* — **e a mesa de dobro do §5.3 é exatamente isso: um final de arco dobrado paga `600`.**

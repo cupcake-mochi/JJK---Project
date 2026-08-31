@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 30/08/2026, na v0.195 (última peça fechada: **Sem Técnica**, a peça 25, na v0.168, com o `conferir-sem-tecnica.py` e doze checagens; antes dela, **Dano de alma e Integridade, na v0.145**; antes dela, o **Bloquear, na v0.143**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 31/08/2026, na v0.196 (última peça fechada: **Sem Técnica**, a peça 25, na v0.168, com o `conferir-sem-tecnica.py` e doze checagens; antes dela, **Dano de alma e Integridade, na v0.145**; antes dela, o **Bloquear, na v0.143**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.195.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e cinco peças escritas** e **vinte e cinco validadores**.
+**Versão v0.196.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e cinco peças escritas** e **vinte e cinco validadores**.
 
 **A v0.189 fechou três itens da fila, e nenhum fechou do jeito que a fila dizia.** *Uma pergunta estava mal feita, uma decisão citava uma regra que diz o contrário dela, e uma dívida estimou o próprio tamanho sem conferir.*
 
@@ -70,7 +70,17 @@ Atualizado em 30/08/2026, na v0.195 (última peça fechada: **Sem Técnica**, a 
 >
 > **⚠ Duas coisas ficam abertas e são o trabalho da próxima versão.** *A objeção do Mizuki à Q3 da peça 15 — "não faz sentido utilizar acerto, defesa e atributos do invocador" —, e a **Constituição da invocação sem preço e sem dono**: o §3.3 diz que o jogador a compra com pontos, e o limite do orçamento diz que nada pode dar vida direto.*
 
-**A v0.172 fechou as duas perguntas em aberto da peça 12, e com isso a peça 12 não tem mais item de decisão — só os dois marcados para o playtest.**
+**A v0.172 fechou as duas perguntas em aberto da peça 12, e a v0.196 represou a curva dela.**
+
+> **A curva saiu de uma missão por nível para três, com passo de `+2` a cada três níveis e teto em dezessete.** *O nível 20 custa `143` missões padrão em vez de `63`, e a campanha inteira custa `307` em vez de `145`.* **A duas mesas por semana — a cadência que a Guilda declara — isso põe o nível 20 em `15,5` meses e o 30 em `23,4`**, contra os `6,8` que a curva anterior entregava.
+>
+> **O §3.0 novo deriva os cinco números**, e o §4.1 deriva a coisa que nunca tinha dono: **quanto vale a missão típica de cada faixa**, `106,25` e `240`. *A peça descrevia uma mistura que valia `125` e o validador usava `106`, e nada comparava os dois desde a v0.32.*
+>
+> ***⚠ E a curva CRUA fica fora da faixa que as catorze respostas desenharam, de propósito.*** *O teto delas é `14` meses até o nível 20 e a curva entrega `15,5`.* **O §5.3 é a outra metade da decisão: uma mesa de dobro por mês devolve o nível 20 para `13,9`.** *A checagem 3 do `conferir-xp.py` mede a curva COM a compensação recomendada — se a recomendação deixar de bastar, ela acende.*
+>
+> **⚠ Duas consequências ficam registradas.** *O teto de um nível por missão **deixou de morder** — nenhuma combinação de nível e tamanho entrega dois níveis —, e a peça 12 §3.1 declara isso em vez de argumentar como se ele mordesse.* **E o vão entre quem joga uma e quem joga duas mesas por semana chega a `13` níveis por volta do mês `23`**, medido e deixado sem regra por decisão do Mizuki: *o livro mede, mostra e sugere.*
+>
+> ***A peça 12 não tem item de decisão*** — os do §10 são todos de playtest, e o maior deles é se o vão de `13` níveis aparece de verdade.
 
 > **A conversão de mestragem é o §6.2:** *uma mensalidade do seu Grau a cada **vinte** mesas mestradas, fechando sozinha na vigésima.* **Os dois números são derivados** — o valor é a linha do §6.1, e o `20` é `3 ÷ 0,15`: a taxa mais pesada do levantamento sobre a fatia que o §6.1 dá ao catálogo mundano.
 >

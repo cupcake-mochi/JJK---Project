@@ -2,7 +2,7 @@
 
 **O sistema se chama `Projeto - M`**, batizado na v0.94 — era a pendência mais velha que existia aqui, aberta na v0.1. Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.195** · manual do Fundamento na **v7.20** · **vinte e cinco peças de regra** e **vinte e cinco validadores passando** · o Manual da Guilda em **18 capítulos**.
+**Versão v0.196** · manual do Fundamento na **v7.20** · **vinte e cinco peças de regra** e **vinte e cinco validadores passando** · o Manual da Guilda em **18 capítulos**.
 
 ---
 
@@ -69,7 +69,7 @@ Depois disso, a ordem de leitura é a da próxima seção, e os validadores são
     └── skills/                          cópia de trabalho das sete skills de apoio
 ```
 
-Um arquivo `RASCUNHO-*.md` em `03-mecanica/` é levantamento engatilhado, não peça — ele não leva número justamente por isso, e o `conferir-repositorio.py` falha se algum tomar. **Hoje é um:** o `RASCUNHO-trilhas.md`, que a **v0.54** abriu e cujo assunto fechou na **v0.164**, com as quinze Trilhas. *O `RASCUNHO-clash-de-expansoes.md` saiu na v0.173, quando o clash foi publicado no manual v7.19 — e ele é o primeiro a ir para o `99-arquivo/` sem ter virado peça, porque o dono dele acabou sendo o manual.* *O `RASCUNHO-bloqueio.md` saiu na v0.143, quando o `Bloquear` virou a peça 23 — e este parágrafo continuou dizendo três por vinte e uma versões, porque a checagem 9 confere contagem de arquivo e não contagem escrita em frase.* *Eram cinco até a v0.58, quando o de Invocações virou a peça 15, e quatro até a v0.59, quando o de ferramenta amaldiçoada virou a peça 16 — que é o caminho que um rascunho existe para fazer, duas versões seguidas.* **O de Pactos fez o mesmo caminho na v0.134**, e foi para o `99-arquivo/` com o cabeçalho de sempre: **rascunho que virou peça e continua vivo ao lado dela é a segunda fonte da regra.**
+Um arquivo `RASCUNHO-*.md` em `03-mecanica/` é levantamento engatilhado, não peça — ele não leva número justamente por isso, e o `conferir-repositorio.py` falha se algum tomar. **Hoje é um:** o `RASCUNHO-trilhas.md`, que a **v0.54** abriu e cujo assunto fechou na **v0.164**, com as quinze Trilhas. *O `RASCUNHO-clash-de-expansoes.md` saiu na v0.173, quando o clash foi publicado no manual v7.19 — e ele é o primeiro a ir para o `99-arquivo/` sem ter virado peça, porque o dono dele acabou sendo o manual.* *O `RASCUNHO-ritmo-de-xp.md` fez o mesmo caminho na **v0.196**, e ele viveu duas versões: a v0.195 mediu o repreço da curva de XP, e a v0.196 escreveu ele na peça 12 e no capítulo 80.* **Ele é o único que saiu com três números corrigidos no cabeçalho** — conferir a conta antes de aplicar achou ruído na tabela nível a nível, uma tabela de gatilho medida a uma faixa só, e dois valores de prosa que eram arredondamento recontado. *O `RASCUNHO-bloqueio.md` saiu na v0.143, quando o `Bloquear` virou a peça 23 — e este parágrafo continuou dizendo três por vinte e uma versões, porque a checagem 9 confere contagem de arquivo e não contagem escrita em frase.* *Eram cinco até a v0.58, quando o de Invocações virou a peça 15, e quatro até a v0.59, quando o de ferramenta amaldiçoada virou a peça 16 — que é o caminho que um rascunho existe para fazer, duas versões seguidas.* **O de Pactos fez o mesmo caminho na v0.134**, e foi para o `99-arquivo/` com o cabeçalho de sempre: **rascunho que virou peça e continua vivo ao lado dela é a segunda fonte da regra.**
 
 **`_backup/` não entra no repositório** — ele guarda o estado da pasta antes da reorganização, e o `.gitignore` o segura.
 
@@ -119,7 +119,7 @@ python3 conferir-manual.py        # vocabulário e números importados, manual �
 python3 conferir-aptidoes.py      # a trava do refino, as três rotas do marco, o kokusen
 python3 conferir-expansao.py      # os gates da Expansão, a ordem, o preço em espaços
 python3 conferir-orcamento.py     # o somatório: todos os drenos de PE ao mesmo tempo
-python3 conferir-xp.py           # a curva, o abismo que fecha, e os alvos da Guilda
+python3 conferir-xp.py           # a curva, o abismo que fecha, e a faixa que a Guilda pediu
 python3 conferir-equipamento.py  # o fundo de cada arma, a dominancia, o teto de Defesa
 python3 conferir-criacao.py      # a ficha de exemplo contra as fórmulas, e o que a criação cita
 python3 conferir-ficha.py        # a ficha de 05-material contra os catálogos das peças

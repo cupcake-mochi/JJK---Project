@@ -2,7 +2,7 @@
 
 Você sobe de nível gastando XP, e o XP vem de missões e mesas.
 
-> **Cada nível custa um número inteiro de missões, e esse número sobe uma missão a cada três níveis.**
+> **Cada nível custa um número inteiro de missões: duas no nível 2, três nos dois seguintes, e daí duas a mais a cada três níveis, até parar em dezessete.**
 >
 > **Uma missão padrão paga 100 XP, e paga o mesmo para todo mundo na mesa.**
 >
@@ -25,18 +25,19 @@ Grau é reconhecimento; nível é poder. O Grau abre porta, dá acesso e pesa em
 
 | você está no nível | o próximo nível custa | em XP |
 |---|---|---|
-| **2 a 4** | 1 missão | 100 |
-| **5 a 7** | 2 missões | 200 |
-| **8 a 10** | 3 | 300 |
-| **11 a 13** | 4 | 400 |
-| **14 a 16** | 5 | 500 |
-| **17 a 19** | 6 | 600 |
-| **20 a 22** | 7 | 700 |
-| **23 a 25** | 8 | 800 |
-| **26 a 28** | 9 | 900 |
-| **29** | 10 | 1.000 |
+| **2** | 2 missões | 200 |
+| **3 a 4** | 3 missões | 300 |
+| **5 a 7** | 5 | 500 |
+| **8 a 10** | 7 | 700 |
+| **11 a 13** | 9 | 900 |
+| **14 a 16** | 11 | 1.100 |
+| **17 a 19** | 13 | 1.300 |
+| **20 a 22** | 15 | 1.500 |
+| **23 a 29** | 17 | 1.700 |
 
-Chegar ao nível 20 custa **6.300 XP** no total. Do 20 ao 30 são **8.200**.
+Chegar ao nível 20 custa **14.300 XP** no total, que são 143 missões padrão. Do 20 ao 30 são **16.400**, ou mais 164 missões.
+
+O nível 2 é a única linha que foge da conta: ele custa duas missões e não três, para a sua primeira ficha mudar de forma na segunda mesa em vez da terceira.
 
 ## Tamanho da missão
 
@@ -63,12 +64,13 @@ Missão de roleplay que qualquer Grau pode entrar é missão curta, e ela paga �
 
 | no nível | curta | padrão | longa | final de arco |
 |---|---|---|---|---|
-| **2** | +50 | **1 nível** | 1 nível, +100 | 1 nível, +200 |
-| **5** | +50 | +100 | **1 nível** | 1 nível, +100 |
-| **8** | +50 | +100 | +200 | **1 nível** |
-| **12 e acima** | +50 | +100 | +200 | +300 |
+| **2** | +50 | +100 | **1 nível** | 1 nível, +100 |
+| **3 e 4** | +50 | +100 | +200 | **1 nível** |
+| **5 e acima** | +50 | +100 | +200 | +300 |
 
-Quem levou um final de arco no nível 2 sobe um nível na hora e entra na missão seguinte com 200 XP no bolso. Sobe de novo, e continua subindo até o acumulado acabar.
+Quem levou um final de arco no nível 2 sobe um nível na hora e entra na missão seguinte com 100 XP no bolso, que é um terço do nível seguinte. O acumulado nunca some: ele sai na próxima missão.
+
+Com os valores desta tabela nenhuma missão chega a dar dois níveis, então o teto não morde em lugar nenhum. Ele existe para o servidor que decidir pagar mais do que 300 numa mesa de fecho de temporada.
 
 ## Desconto da semana
 
@@ -86,6 +88,74 @@ Quem levou um final de arco no nível 2 sobe um nível na hora e entra na missã
 A contagem zera na virada da semana, e ninguém sai com zero: a sexta missão ainda paga.
 
 **O desconto é individual.** Numa missão com quatro pessoas, uma pode estar na primeira missão da semana dela e outra na quarta. Cada um aplica o seu.
+
+## Tempo de campanha
+
+A duas mesas por semana o nível 20 chega perto de um ano e três meses, e o 30 perto dos dois anos.
+
+**Tempo de campanha**
+{: .tab-titulo }
+
+| você joga | chega ao nível 20 em | e ao 30 em |
+|---|---|---|
+| 1 mesa a cada 15 dias | 62 meses | 94 |
+| 1 por semana | 31 | 47 |
+| **2 por semana** | **15,5** | **23,4** |
+| 3 por semana | 12,4 | 18,7 |
+| 4 por semana | 11,3 | 17,0 |
+
+A tabela `Tempo de campanha` supõe que do nível 20 em diante a mesa roda missão longa e final de arco. **É por isso que a faixa lendária custa mais missões que a mundana e mesmo assim leva metade do tempo** — se o seu servidor continuar rodando missão padrão lá em cima, o topo demora mais que a base inteira.
+
+Jogar quatro vezes por semana em vez de duas não corta o tempo pela metade: corta em 4,2 meses. O desconto da semana é o que faz isso.
+
+## Acelerar o ritmo do seu servidor
+
+A tabela `Tempo de campanha` é o piso. **Se o seu servidor quiser um ritmo mais rápido, acelere com evento em vez de mexer na curva** — nível não desce, então dar a mais é fácil e tirar depois não é.
+
+O mecanismo mais direto é a **mesa de dobro**: uma missão declarada antes como valendo o dobro do tamanho dela.
+
+**Mesa de dobro por mês**
+{: .tab-titulo }
+
+| mesas de dobro por mês | nível 20 a 2/sem | nível 30 |
+|---|---|---|
+| nenhuma | 15,5 meses | 23,4 |
+| **uma** | **13,9** | **21,0** |
+| duas | 12,6 | 19,0 |
+| três | 11,5 | 17,4 |
+
+**O recomendado é uma por mês.** Ela acrescenta 12% de XP e tira um mês e meio do caminho até o nível 20.
+
+Outros dois mecanismos que valem a pena, e nenhum deles é regra:
+
+> **Quem ficou fora recebe o dobro até alcançar.** Vale para quem está três níveis ou mais atrás do resto. Isso não acelera ninguém que esteja em dia — ele fecha a distância, e a tabela `Alcance` mede quanto.
+>
+> **Agir na motivação do personagem paga 10% a mais na missão**, com aprovação da mesa. Aplicado em metade das missões, rende 5% de XP no mês.
+
+**A mesa de dobro não alcança quem joga pouco.** Ela paga na proporção do que a pessoa já joga, e não dá para dobrar uma mesa que não foi jogada: quem joga a cada quinze dias só joga duas mesas por mês, então o terceiro dobro não muda quase nada para ele. Para essa pessoa o mecanismo que funciona é o segundo.
+
+## Distância entre quem joga muito e quem joga pouco
+
+Duas pessoas no mesmo servidor, uma jogando uma vez por semana e a outra duas, se separam. **A distância entre elas chega a treze níveis por volta do vigésimo terceiro mês**, e ela abre principalmente porque quem passou do nível 20 começa a rodar missão grande enquanto o outro ainda roda missão padrão.
+
+> **Não existe regra de compensação, e a ausência dela é decisão.** Quanto se paga a quem joga menos é economia de cada servidor, e dois servidores podem responder isso diferente e os dois estarem certos.
+
+O que dá para dizer é o tamanho da coisa, e quanto custa cada remédio. **Se o seu servidor quiser fechar essa distância, o desenho usual é pagar `X` vezes o XP para quem estiver `Y` níveis atrás do resto** — e o que decide o resultado é o `X`, não o `Y`.
+
+**Alcance — exemplos, e não regra**
+{: .tab-titulo }
+
+| quem está 3 níveis atrás recebe | a distância para de crescer em |
+|---|---|
+| nada | 13 níveis |
+| 1,5 vez o XP | 9 |
+| **2 vezes** | **6** |
+| 2,5 vezes | 4 |
+| 3 vezes | 4 |
+
+**Dobrar o XP não zera a distância, e passar de 2,5 vezes não compra mais nada** — daí para cima o que limita deixa de ser o XP e passa a ser o teto do nível 30. É a faixa lendária acelerando quem já chegou nela: para alcançar alguém que ganha 240 por missão, quem ganha 106 precisa de mais que o dobro.
+
+O recomendado é `2 vezes`, que corta a distância de treze para seis sem transformar a regra em elevador. Um servidor que prefira não mexer no XP de ninguém tem outras saídas, e nenhuma delas é mecânica: mesa por faixa de nível, personagem secundário para quem já está no topo, e missão curta de roleplay, que qualquer Grau pode jogar.
 
 ## Falhar
 
@@ -130,7 +200,7 @@ Quanto vale o `X`, e se o salário existe, é decisão de cada servidor — um d
 
 > **Você chega ao nível 20 por XP. Você passa dele por feito.**
 
-Aos 6.300 de XP acumulado o personagem para no nível 20 até a mesa reconhecer alguma coisa que ele fez. O XP continua acumulando e nada se perde: quando o feito acontece, o que estava guardado destrava de uma vez, concedendo nível após nível pela métrica de sempre.
+Aos 12.500 de XP acumulado o personagem para no nível 20 até a mesa reconhecer alguma coisa que ele fez. O XP continua acumulando e nada se perde: quando o feito acontece, o que estava guardado destrava de uma vez, concedendo nível após nível pela métrica de sempre.
 
 **A lista é fechada.** O mestre ou o servidor da mesa tem a palavra final sobre se um feito aconteceu — e não sobre quais são.
 
@@ -172,41 +242,41 @@ Ache a sua linha e leia ela inteira.
 | nível | XP | maestria | espaços de feitiço | refino | Classe | Passiva | Classe 0 | o que este nível entrega |
 |---|---|---|---|---|---|---|---|---|
 | **1** | — | 1 | **2** | 1 | 1 | 1 | 2 | **Fundamento**, Passiva Livre, dois feitiços de Classe 0 |
-| **2** | 100 | 1 | **3** | 1 | 1 | 1 | 2 | degrau de **Caminho** · entrega de **Trilha** · +1 espaço de feitiço |
-| 3 | 100 | 1 | **3** | 1 | 1 | 1 | 2 | — |
-| 4 | 100 | 1 | **4** | 1 | 1 | 1 | 2 | +1 espaço de feitiço |
-| **5** | 200 | 1 | **4** | 1 | 2 | 1 | 3 | Classe 2 · mais um Classe 0 |
-| **6** | 200 | 1 | **6** | 2 | 2 | 1 | 3 | **marco** · +2 espaços de feitiço |
-| **7** | 200 | 1 | **6** | 2 | 2 | 2 | 3 | degrau de **Caminho** · libera Passiva de Classe 2 |
-| 8 | 300 | 1 | **7** | 2 | 2 | 2 | 3 | +1 espaço de feitiço |
-| **9** | 300 | 1 | **7** | 2 | 3 | 2 | 3 | Classe 3 |
-| **10** | 300 | 2 | **9** | 3 | 3 | 2 | 3 | **marco** · **1ª Liberação Máxima** · +2 espaços de feitiço |
-| **11** | 400 | 2 | **9** | 3 | 3 | 2 | 4 | entrega de **Trilha** · mais um Classe 0 |
-| 12 | 400 | 2 | **10** | 3 | 3 | 2 | 4 | +1 espaço de feitiço |
-| **13** | 400 | 2 | **10** | 3 | 4 | 3 | 4 | Classe 4 · libera Passiva de Classe 3 |
-| **14** | 500 | 2 | **12** | 4 | 4 | 3 | 4 | **marco** · +2 espaços de feitiço |
-| **15** | 500 | 2 | **12** | 4 | 4 | 3 | 4 | degrau de **Caminho** |
-| 16 | 500 | 2 | **13** | 4 | 4 | 3 | 4 | +1 espaço de feitiço |
-| **17** | 600 | 2 | **13** | 4 | 5 | 3 | 5 | Classe 5 · **Técnica Máxima** · mais um Classe 0 |
-| **18** | 600 | 3 | **15** | 5 | 5 | 3 | 5 | **marco** · +2 espaços de feitiço |
-| **19** | 600 | 3 | **15** | 5 | 5 | 3 | 5 | entrega de **Trilha** |
-| **20** | 700 | 3 | **16** | 5 | 5 | 3 | 5 | **2ª Liberação Máxima** · +1 espaço de feitiço |
-| **21** | 700 | 3 | **16** | 5 | 6 | 3 | 5 | Classe 6 |
-| **22** | 700 | 3 | **18** | 6 | 6 | 3 | 5 | **marco** · +2 espaços de feitiço |
-| 23 | 800 | 3 | **18** | 6 | 6 | 3 | 5 | — |
-| 24 | 800 | 3 | **19** | 6 | 6 | 3 | 5 | +1 espaço de feitiço |
-| 25 | 800 | 3 | **19** | 6 | 6 | 3 | 5 | — |
-| **26** | 900 | 4 | **21** | 7 | 7 | 3 | 5 | **marco** · Classe 7 · +2 espaços de feitiço |
-| **27** | 900 | 4 | **21** | 7 | 7 | 3 | 5 | entrega de **Trilha** |
-| 28 | 900 | 4 | **22** | 7 | 7 | 3 | 5 | +1 espaço de feitiço |
-| 29 | 1.000 | 4 | **22** | 7 | 7 | 3 | 5 | — |
+| **2** | 200 | 1 | **3** | 1 | 1 | 1 | 2 | degrau de **Caminho** · entrega de **Trilha** · +1 espaço de feitiço |
+| 3 | 300 | 1 | **3** | 1 | 1 | 1 | 2 | — |
+| 4 | 300 | 1 | **4** | 1 | 1 | 1 | 2 | +1 espaço de feitiço |
+| **5** | 500 | 1 | **4** | 1 | 2 | 1 | 3 | Classe 2 · mais um Classe 0 |
+| **6** | 500 | 1 | **6** | 2 | 2 | 1 | 3 | **marco** · +2 espaços de feitiço |
+| **7** | 500 | 1 | **6** | 2 | 2 | 2 | 3 | degrau de **Caminho** · libera Passiva de Classe 2 |
+| 8 | 700 | 1 | **7** | 2 | 2 | 2 | 3 | +1 espaço de feitiço |
+| **9** | 700 | 1 | **7** | 2 | 3 | 2 | 3 | Classe 3 |
+| **10** | 700 | 2 | **9** | 3 | 3 | 2 | 3 | **marco** · **1ª Liberação Máxima** · +2 espaços de feitiço |
+| **11** | 900 | 2 | **9** | 3 | 3 | 2 | 4 | entrega de **Trilha** · mais um Classe 0 |
+| 12 | 900 | 2 | **10** | 3 | 3 | 2 | 4 | +1 espaço de feitiço |
+| **13** | 900 | 2 | **10** | 3 | 4 | 3 | 4 | Classe 4 · libera Passiva de Classe 3 |
+| **14** | 1.100 | 2 | **12** | 4 | 4 | 3 | 4 | **marco** · +2 espaços de feitiço |
+| **15** | 1.100 | 2 | **12** | 4 | 4 | 3 | 4 | degrau de **Caminho** |
+| 16 | 1.100 | 2 | **13** | 4 | 4 | 3 | 4 | +1 espaço de feitiço |
+| **17** | 1.300 | 2 | **13** | 4 | 5 | 3 | 5 | Classe 5 · **Técnica Máxima** · mais um Classe 0 |
+| **18** | 1.300 | 3 | **15** | 5 | 5 | 3 | 5 | **marco** · +2 espaços de feitiço |
+| **19** | 1.300 | 3 | **15** | 5 | 5 | 3 | 5 | entrega de **Trilha** |
+| **20** | 1.500 | 3 | **16** | 5 | 5 | 3 | 5 | **2ª Liberação Máxima** · +1 espaço de feitiço |
+| **21** | 1.500 | 3 | **16** | 5 | 6 | 3 | 5 | Classe 6 |
+| **22** | 1.500 | 3 | **18** | 6 | 6 | 3 | 5 | **marco** · +2 espaços de feitiço |
+| 23 | 1.700 | 3 | **18** | 6 | 6 | 3 | 5 | — |
+| 24 | 1.700 | 3 | **19** | 6 | 6 | 3 | 5 | +1 espaço de feitiço |
+| 25 | 1.700 | 3 | **19** | 6 | 6 | 3 | 5 | — |
+| **26** | 1.700 | 4 | **21** | 7 | 7 | 3 | 5 | **marco** · Classe 7 · +2 espaços de feitiço |
+| **27** | 1.700 | 4 | **21** | 7 | 7 | 3 | 5 | entrega de **Trilha** |
+| 28 | 1.700 | 4 | **22** | 7 | 7 | 3 | 5 | +1 espaço de feitiço |
+| 29 | 1.700 | 4 | **22** | 7 | 7 | 3 | 5 | — |
 | **30** | — | 4 | **24** | 8 | 7 | 3 | 5 | **marco** · degrau de **Caminho** · **3ª Liberação Máxima** · +2 espaços de feitiço |
 
 Nível em negrito é nível que entrega decisão nova: uma Classe, um marco, um degrau de Caminho, uma entrega de Trilha. Os espaços de feitiço correm no ritmo próprio deles e por isso aparecem também em linha sem negrito. Nos níveis que ficaram de fora, o personagem cresce só em número.
 
 ### Colunas de progressão
 
-- **XP** é o que custa **sair** daquele nível, e ele é o mesmo dentro de cada faixa de três níveis. Uma missão padrão paga 100. O nível 30 é o topo e não tem custo.
+- **XP** é o que custa **sair** daquele nível, e ele é o mesmo dentro de cada faixa de dois níveis. Uma missão padrão paga 100. O nível 30 é o topo e não tem custo.
 - **maestria** é o bônus que entra no seu ataque de conjuração, na CD dos seus feitiços e nas perícias em que você é treinado.
 - **espaços de feitiço** é o tamanho da sua lista de feitiços conhecidos, e é a coluna que responde "quantos feitiços eu tenho agora?". Passiva é paga com espaço, e a Expansão de Domínio também. Liberação Máxima não ocupa.
 - **refino** aqui é só a linha de graça, o que todo mundo tem sem escolher nada. Quem escolhe Refino no marco tem mais que isso, e o teto é 10.

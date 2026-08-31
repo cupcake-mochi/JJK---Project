@@ -128,9 +128,21 @@ for m in re.finditer(r'^\| \*\*(\d+)(?: a (\d+))?\*\* \| [^|]+ \| ([\d.]+) \|', 
     ini, fim, xp = int(m.group(1)), m.group(2), m.group(3).replace('.', '')
     FAIXAS.append((ini, int(fim) if fim else ini, int(xp)))
 print(f'  {len(FAIXAS)} faixas de XP lidas da peca 12.')
-if len(FAIXAS) < 10:
-    erro(f'esperava pelo menos 10 faixas de XP na peca 12 e li {len(FAIXAS)} — a tabela '
-         f'mudou de forma e esta checagem parou de conferir')
+# v0.196: a guarda era "pelo menos 10 faixas", e ela envelheceu no dia em que a
+# curva foi represada — de 13 faixas para 9, sem nada de errado ter acontecido.
+# Contar faixa e' contar a FORMA da tabela; o que esta checagem precisa garantir e'
+# que a extracao COBRE todo nivel que ela vai conferir. Cobertura nao muda quando
+# o Mizuki decide agrupar os niveis de outro jeito.
+_cobertos = {n for ini, fim, _ in FAIXAS for n in range(ini, fim + 1)}
+_faltam = sorted(set(range(2, 30)) - _cobertos)
+if _faltam:
+    erro(f'a extracao das faixas de XP da peca 12 nao cobre o(s) nivel(is) {_faltam} — '
+         f'a tabela mudou de forma e esta checagem pararia de conferir essas linhas')
+elif len(_cobertos - set(range(2, 30))) > 0:
+    erro(f'a extracao pegou nivel fora do intervalo 2-29: '
+         f'{sorted(_cobertos - set(range(2, 30)))}')
+else:
+    print(f'  [x] as faixas cobrem os niveis 2 a 29 sem buraco.')
 
 
 def xp_de(nv):

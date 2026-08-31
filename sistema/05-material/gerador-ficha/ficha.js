@@ -41,7 +41,7 @@ function pagina1(f) {
                   ['nível', V(f, 'nivel', String(X.NIVEL))],
                   ['xp', V(f, 'xp', '0')]], [24, 20, 28, 12, 16]));
   out.push(NOTA(`Toda ficha nasce no nível ${X.NIVEL} e Grau 4 — a patente é eixo social e sobe por feito, não por XP. ` +
-                `O nível ${X.NIVEL} sobe com ${X.XP_PROXIMO} XP, que é uma missão padrão.`));
+                `O nível ${X.NIVEL} sobe com ${X.XP_PROXIMO} XP, que são duas missões padrão.`));
 
   // --- atributos
   out.push(FAIXA('Atributos'));
