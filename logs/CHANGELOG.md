@@ -8,6 +8,65 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.193] — 30/08/2026
+
+**A porta da `Pétala` saiu do estado de decisão e virou texto**, e escrever ela destampou que a triagem de nomes da peça 25 era uma lista escrita à mão dentro do validador.
+
+### 1 · A porta, e o que ela cobra
+
+**A `Pétala` cobre o seu corpo de energia e devolve o golpe.** *Os três números são da peça 11 §6.5 e nenhum é desta peça: concentração, `refino ÷ 2` Acertos devolvidos, e ela **não** para ataque físico.*
+
+**Ela cabe na banda exata do `Domínio Simples`** — Classe Passiva 2, `9,3` níveis. *A escada de gate é quem decide isso; não teve escolha de número.*
+
+**O eixo que separa as duas já estava escrito, e ele é de escopo:** *uma cobre um raio de chão, a outra cobre um corpo.* **Quem entra pelo `Domínio Simples` compra espaço; quem entra pela `Pétala` compra a própria pele.**
+
+> **E ela fecha uma porta que as outras três deixam abertas: não alcança ninguém.** *A energia mora em você, e o que ela faz acontece em quem encostou.* **Um Fundamento montado nela nasce reativo.**
+>
+> **⚠ O custo dela está escrito no exemplo, e é a parte mais útil:** *contra um inimigo que bate de corpo, a semente não dispara.* **A ficha continua funcionando, porque a semente é o motor e não o assunto** — é o que o §4.2 já dizia do tema, visto pelo lado que dói.
+
+### 2 · O exemplo é o `Espinho`, e as Famílias caem da Regra
+
+***Nome escolhido e passado na triagem antes de ser escrito:*** `Espinho` sai `LIVRE`, e não colide de sentido — *a palavra não aparece em nenhum documento vivo do projeto.* **Ele é a `Pétala` com a outra metade da flor.**
+
+| | |
+|---|---|
+| **Regra** | *"O que encosta em mim volta em quem mandou, e só o que é energia."* |
+| **Livres** | `Tempo` · `Castigo` |
+| **Fechadas** | `Alcance` · `Área` · `Marca` |
+| **Passiva** | `Instinto`, Classe Passiva 1 |
+
+**As duas Livres caem da Regra** — *`Tempo` é a Família da reação, e devolver golpe é reagir; `Castigo` é fazer o dano render mais.* **E as três Fechadas caem da semente:** *a energia mora no corpo, então `Alcance` não tem para onde ir; ela cobre um corpo e não um espaço, então `Área` não pega ninguém; ela responde em vez de preparar, então `Marca` não tem próximo golpe para armar.*
+
+### 3 · E a triagem da peça 25 era uma lista escrita à mão
+
+**A checagem 12 do `conferir-sem-tecnica.py` carregava `NOMES = ['Manejo', 'Auge', 'Redoma']`.** *O `Espinho` entrou no §9 e passou por baixo dela sem que nada acusasse.*
+
+***É a lição nº 9 na forma mais barata dela:*** **lista de conteúdo escrita dentro de validador.** *Ela não envelhece devagar — ela envelhece na primeira vez que a peça ganha um nome novo, que foi hoje.*
+
+**Hoje os dois renomes saem do §3.1 e os exemplos saem dos títulos do §9.** *Nome novo entra na triagem sozinho, e o validador imprime a lista que leu.*
+
+> **Duas perturbações acendem a checagem 12** — um exemplo batizado com nome `OCUPADO` do manual, e um batizado com nome `fraco`. **E o contra-teste é o que prova a derivação: um quarto exemplo, com nome livre, entra e passa sem ninguém tocar no código.**
+>
+> **⚠ A guarda de contagem — que acusa se os títulos mudarem de forma — NÃO foi exercitada no arnês.** *A perturbação dela não bateu, e eu não repeti porque cada rodada da triagem relê o `.docx` inteiro.* **Fica registrado como não testada em vez de contada como testada.**
+
+### Adicionado
+
+- **O §4.3 da peça 25**, com o texto da porta, o eixo contra o `Domínio Simples` e o custo declarado.
+- **O exemplo `Espinho` no §9**, e o §9 virou três exemplos.
+
+### Alterado
+
+- **A checagem 12 do `conferir-sem-tecnica.py`**, que deixou de guardar a lista de nomes e passou a lê-la da peça.
+
+### Decidido
+
+- **A porta da `Pétala` é escopo de corpo, contra o escopo de chão do `Domínio Simples`.**
+- **Um Fundamento montado nela nasce reativo, e contra corpo a corpo puro a semente não dispara.** *Declarado, e não consertado.*
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **Sobraram os três números da `Energia Reversa` que fere** — a base do `50%`, o nome da aptidão de liberação e o preço contra a régua — **e o `04-playtest/`.**
+
+---
+
 ## [0.192] — 30/08/2026
 
 **A divergência das duas réguas de rolagem fechou, e o diagnóstico que estava escrito era errado.** *Ele dizia que consertar repreçaria o `Guiar`, o `Estampido` e o `Ajudar`.* **Nenhum número se moveu: o que estava errado era a explicação, e ela ficou setenta e oito versões pendurada num número certo.**

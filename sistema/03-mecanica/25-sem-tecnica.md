@@ -116,9 +116,19 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 
 > **É por ela que a mecânica de base entra.** *Quem não quer nenhuma das duas do catálogo escreve a própria em cima do que o sistema já tem — a Classe, a arma, a proteção, o que for.* **O que ela não pode é repetir uma das doze pagas com outro nome**, e essa trava também é da §6.7.
 
-### 4.3 A `Pétala` virou porta na v0.190
+### 4.3 A porta da `Pétala` — o que ela é, e o que ela não deixa você fazer
 
-**Ela cabe na banda exata do `Domínio Simples`** — Classe Passiva 2, `9,3` níveis — e o eixo que separa as duas já está escrito na peça 11 §6.5: *uma cobre um raio, a outra devolve o golpe e não para ataque físico.* **A decisão está tomada e a linha está na tabela do §4.2; o que falta é o texto da porta.**
+**A `Pétala` cobre o seu corpo de energia e devolve o golpe.** *Ela exige concentração, ela **não** para ataque físico, e ela devolve `refino ÷ 2` Acertos — os três números são da peça 11 §6.5, e nenhum deles é desta peça.*
+
+**Ela cabe na banda exata do `Domínio Simples`:** Classe Passiva 2, `9,3` níveis de antecipação. *As duas são a mesma altura, e a escada de gate é quem decide isso — não teve escolha de número aqui.*
+
+**O que separa as duas é o eixo, e ele já estava escrito:** *uma cobre um raio de chão, e a outra cobre um corpo.* **Quem entra pelo `Domínio Simples` compra espaço; quem entra pela `Pétala` compra a própria pele.**
+
+> **E a `Pétala` fecha uma porta que as outras três deixam aberta: ela não alcança ninguém.** *A energia mora em você, e o que ela faz acontece em quem encostou.* **Um Fundamento montado nela nasce reativo** — ele não escolhe o alvo, ele responde a quem escolheu.
+>
+> **⚠ Ela também não é resposta a tudo, e isso é da fonte.** *A `Pétala` não para ataque físico — o exemplar canônico apanhou de soco com ela de pé.* **Contra um corpo que bate, esta porta não entrega nada**, e quem escolhe ela está apostando que o problema da mesa é energia amaldiçoada.
+
+***Decisão do Mizuki na v0.190: ela vira porta***, e o exemplo dela é o `Espinho`, no §9.
 
 ### 4.4 A `Energia Reversa` fere maldição — decidido na v0.190, e por escrever
 
@@ -229,7 +239,7 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 >
 > **⚠ E `Ajusta` reprova, por duas travas daquela peça.** *"Todo Ajusta tem relógio; não existe Ajusta permanente"*, e uma semente é permanente. *E `Ajusta` "mexe num número de uma rolagem"*, que uma aptidão não é. **Pior: `Sem Técnica` é hoje o `Destranca` obrigatório da ficha — virando `Ajusta`, ela ocuparia a vaga livre e a ficha ainda deveria o Destranca, perdendo o Legado com número que todo mundo tem.**
 
-## 9. Dois exemplos, um de cada porta nomeada
+## 9. Três exemplos, um de cada porta nomeada
 
 **Eles param onde a criação para** — semente, Descrição, Regra, Famílias e Passiva. *O `Auge` não aparece porque ele só chega no nível 17.*
 
@@ -260,6 +270,21 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 > **⚠ Este exemplo carrega uma decisão, e ela vale estar escrita: um Fundamento pode não causar dano nenhum.** *O manual já permite — a Forma `Apoio` não causa, e a `Efeito` também não — mas nenhum dos três Fundamentos prontos dele mostra isso.* **Uma rota cuja porta mais famosa é uma médica precisava do exemplar.**
 
 *E a cura dele soma `1/3 do refino`, pelo §6.* **Curar os outros ele não faz** — para isso ele precisaria do Guia e da `Sutura`, como qualquer um.
+
+### Espinho — a `Pétala`
+
+| | |
+|---|---|
+| **Semente** | `Pétala` |
+| **Descrição** | Ela não bloqueia: ela deixa encostar. A energia fica rente à pele e devolve o que veio, e por isso ela luta parada, de olho em quem está mirando. É a técnica de quem aprendeu que o jeito mais barato de ganhar é fazer a pessoa se machucar sozinha — e que isso só funciona contra quem usa energia amaldiçoada. |
+| **Regra** | *"O que encosta em mim volta em quem mandou, e só o que é energia."* |
+| **Livres** | `Tempo` · `Castigo` |
+| **Fechadas** | `Alcance` · `Área` · `Marca` |
+| **Passiva** | `Instinto` (Classe Passiva 1): você não é pego de surpresa enquanto estiver acordado |
+
+*As duas Livres caem da Regra:* **`Tempo` é a Família da reação, e devolver golpe é reagir**; **`Castigo` é fazer o dano render mais**, que é o que a devolução faz com o golpe alheio. **E as três Fechadas caem da semente:** *a energia mora no corpo dela, então `Alcance` não tem para onde ir; ela cobre um corpo e não um espaço, então `Área` não pega ninguém; e ela responde em vez de preparar, então `Marca` não tem próximo golpe para armar.*
+
+> **⚠ Este exemplo mostra o custo da porta, e ele é a coisa mais útil dele.** *A `Pétala` não para ataque físico.* **Um `Espinho` num arco em que o inimigo é corpo a corpo puro fica com uma semente que não dispara** — e o Fundamento dele continua funcionando, porque a semente é o motor e não o assunto. *É a mesma coisa que o §4.2 diz do tema, vista pelo lado que dói.*
 
 ## 10. O que o validador confere
 

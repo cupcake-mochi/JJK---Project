@@ -330,7 +330,21 @@ else:
 
 # --------------------------------------------------------------------------
 bloco('12. TRIAGEM DE TODO NOME QUE A PECA CRIA')
-NOMES = ['Manejo', 'Auge', 'Redoma']
+# v0.193: a lista era escrita a mao aqui dentro — `Manejo`, `Auge`, `Redoma` —, e
+# ela envelheceu na primeira vez que a peca ganhou exemplo novo: o `Espinho`
+# entrou no §9 e passou por baixo da triagem. Lista a mao dentro de validador e'
+# a licao no 9 na forma mais barata dela.
+#
+# Hoje os dois renomes saem do §3.1, que os declara em bloco de citacao, e os
+# exemplos saem dos titulos do §9. Nome novo entra na triagem sozinho.
+_ren = re.findall(r'^>\s*\*\*`([A-ZÁÉÍÓÚÂÊÔÃÕÇ][\wÀ-ÿ]*)`\.\*\*', P25, re.M)
+_ex = re.findall(r'^###\s+([A-ZÁÉÍÓÚÂÊÔÃÕÇ][\wÀ-ÿ]*)\s+—\s+[ao]\s', P25, re.M)
+NOMES = sorted(set(_ren) | set(_ex))
+if len(NOMES) < 3:
+    erro(f'12: achei so {len(NOMES)} nome(s) criado(s) pela peca ({NOMES}) — os renomes do '
+         f'§3.1 ou os titulos de exemplo do §9 mudaram de forma, e a triagem parou de '
+         f'alcancar o que a peca batiza')
+print(f'  nomes que esta peca cria, lidos dela: {", ".join(NOMES)}')
 try:
     r = subprocess.run([sys.executable, 'conferir-nomes.py', '--candidatos'] + NOMES,
                        cwd=AQUI, capture_output=True, text=True, timeout=180)
