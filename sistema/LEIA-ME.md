@@ -42,7 +42,7 @@ A pasta `skills/` guarda o `SKILL.md` de cada uma mais os arquivos de apoio. ~~*
 
 ## Versão atual
 
-**v0.187.** Fases 0 a 3 fechadas; a Fase 4 (mecânica) está em andamento com **vinte e cinco peças escritas e vinte e cinco validadores passando**. O manual do Fundamento está na **v7.19**, e ele é um subsistema fechado — a técnica e o feitiço já funcionam. O `.pdf` **está na mesma versão do `.docx`** desde a v0.93 — ele deixou de ser exportado a mão.
+**v0.188.** Fases 0 a 3 fechadas; a Fase 4 (mecânica) está em andamento com **vinte e cinco peças escritas e vinte e cinco validadores passando**. O manual do Fundamento está na **v7.19**, e ele é um subsistema fechado — a técnica e o feitiço já funcionam. O `.pdf` **está na mesma versão do `.docx`** desde a v0.93 — ele deixou de ser exportado a mão.
 
 **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas, pelas nove rotas de Origem.** *Eram seis até a v0.122, oito de lá até a v0.168, e a nona é a peça 25.* Desde a v0.32 não sobrou peça de regra travando ninguém nessa faixa: das dezessete coisas que uma ficha de nível 2 precisa, **treze existem, e as quatro que faltam não mordem nessa faixa**. A ordem do resto está no `ESTADO-ATUAL.md`.
 
@@ -77,4 +77,6 @@ Os quatro últimos não leem o manual e não precisam de nada: o `conferir-criac
 
 *Equipamento fechou na v0.48 como peça 14*, com o `conferir-equipamento.py` em cima dela. Ela destravou a Vanguarda e a **Técnica Marcial**.
 
-**O que ela não destravou foram as vagas de Desliga da peça 13, e a v0.49 descobriu por quê:** as quatro nomeavam a peça errada. Duas esperavam **ferramenta amaldiçoada** (arma forjada, tópico próprio), uma esperava **objeto amaldiçoado** — que não tem peça dona em lugar nenhum — e uma esperava **Técnica Marcial**, tendo nomeado o que a bloqueava em vez do dono. *Reclassificadas; nenhuma preenchida, porque Equipamento produziu um alvo legal só e ele não vale a entrada.*
+**O que ela não destravou foram as vagas de Desliga da peça 13, e a v0.49 descobriu por quê:** as quatro nomeavam a peça errada. Duas apontavam para arma forjada em tópico próprio, uma para a maldição em forma de objeto — que naquele dia não tinha peça dona em lugar nenhum — e uma para a rota do corpo, tendo nomeado o que a bloqueava em vez do dono. *Reclassificadas na v0.49, e nenhuma preenchida ali, porque Equipamento produziu um alvo legal só e ele não valia a entrada.*
+
+> **As três peças que faltavam saíram, e seis das sete vagas fecharam.** *A 16 na v0.59, a 20 na v0.122 e a 21 na v0.132; cinco vagas foram escritas na v0.104 e a sexta na v0.132.* **Sobra uma, a do Corpo Amaldiçoado**, e ela está destravada de Origem e travada de alvo — *a enumeração da peça 13 §8 ficou com zero livre quando o `Ferro Velho` gastou os degraus de exaustão.* ***Esta linha ficou oitenta e quatro versões dizendo que nenhuma tinha sido preenchida***, e foi a checagem 5.1 do `conferir-repositorio.py` que a achou, na v0.188.

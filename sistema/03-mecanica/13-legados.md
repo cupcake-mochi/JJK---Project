@@ -348,9 +348,9 @@ A regra 1 manda a vaga nomear a peça de onde o alvo deve sair. **Ela não manda
 > | **ferramenta amaldiçoada** (呪具) | **arma forjada** para canalizar energia, com graus. Até quem não é feiticeiro usa | `Armaria` do Descendente · Restrição Celestial |
 > | **objeto amaldiçoado** (呪物) | **não é item imbuído: é a própria maldição presa em forma de objeto.** Resto de feiticeiro antigo, que encarna num receptáculo compatível | Receptáculo · Reencarnado |
 >
-> **A diferença é de intenção:** a ferramenta é feita para canalizar; o objeto **é** a coisa. *A definição de cada uma mora no `ESTADO-ATUAL`, na lista do que não existe, e vem para a peça dona quando ela for escrita — esta tabela é o argumento que reclassificou as vagas, não a definição.* *E a peça 9 já escrevia a dependência certa sem que ninguém tivesse ligado os pontos: o Kashimo "aceitou virar **objeto amaldiçoado** e encarnar num corpo que o Kenjaku preparou".*
+> **A diferença é de intenção:** a ferramenta é feita para canalizar; o objeto **é** a coisa. ***As duas ganharam peça dona depois desta tabela*** — *a ferramenta é a peça 16, na v0.59, e o objeto é a peça 21, na v0.132 —, e a definição de cada uma mora lá; esta tabela é o argumento que reclassificou as vagas, e não a definição.* *E a peça 9 já escrevia a dependência certa sem que ninguém tivesse ligado os pontos: o Kashimo "aceitou virar **objeto amaldiçoado** e encarnar num corpo que o Kenjaku preparou".*
 
-**E aí aparece o buraco que isto destampou: `objeto amaldiçoado` não tem peça dona em lugar nenhum do projeto.** Duas Origens inteiras são construídas em cima dele — Receptáculo é comer um dedo, Reencarnado é *ter virado* um — e ele não está na fila, não está no `arquitetura.md` e não tem vaga na ordem de construção. **Ele estava escondido dentro da palavra "ferramenta".**
+**E aí apareceu o buraco que isto destampou: `objeto amaldiçoado` não tinha peça dona em lugar nenhum do projeto.** Duas Origens inteiras são construídas em cima dele — Receptáculo é comer um dedo, Reencarnado é *ter virado* um — e ele não estava na fila, não estava no `arquitetura.md` e não tinha vaga na ordem de construção. **Ele estava escondido dentro da palavra "ferramenta".** ***Ele é a peça 21 desde a v0.132***, e foi ela que nomeou a atração pela qual a vaga do Reencarnado fechou.
 
 > **O conserto da regra 1, para a próxima peça que chegar:** *a vaga nomeia a peça que é **dona do alvo**, não a peça que estava na frente dela na fila.* Uma dívida que nomeia a peça errada é pior que uma dívida sem nome — a sem nome ninguém dá por fechada, e a com nome errado **fecha sozinha no dia em que a peça errada fecha.**
 
@@ -569,7 +569,9 @@ Um nomeia **quem conheceu** a coisa; o outro nomeia **como a coisa se chamava**.
 
 > **Coleira** — o seu clã te selou na infância: técnica nenhuma te localiza, te rastreia ou te encontra à distância. *Em troca, o selo é dos dois lados — a sua família sempre sabe onde você está, e nunca precisou perguntar.*
 >
-*A vaga espera **ferramenta amaldiçoada**, e é a mesma dependência que a **Armaria** já carrega: o Descendente é a Origem que guarda ferramenta — a `Armaria` diz literalmente *"o clã da ferramenta"* — e ferramenta amaldiçoada ainda não tem propriedade nomeada para desligar.*
+**A vaga que morava aqui FECHOU na v0.104, e o `Cabo` é ela.** *Ela esperava `ferramenta amaldiçoada`, que virou a peça 16 na v0.59, e a propriedade nomeada que faltava chegou junto — a cota de dois desta Origem está cheia.* *É a mesma dependência que a **Armaria** carrega: o Descendente é a Origem que guarda ferramenta, e a `Armaria` diz literalmente "o clã da ferramenta".*
+
+> **⚠ Esta linha passou oitenta e quatro versões dizendo que a vaga esperava, com a vaga já preenchida logo acima dela.** *Achado na v0.188.* **A tabela é o que o validador lê, e ela estava certa desde a v0.104; quem envelheceu foi a prosa embaixo, que nenhuma checagem alcançava.**
 
 > **Esta linha dizia "espera a peça de equipamento", e estava errada.** *Corrigido na v0.49, depois que Equipamento fechou e a vaga não abriu.* A peça 14 declinou ferramenta amaldiçoada por decisão — ela é **tópico próprio, com graus e forja** —, então esta vaga nunca esteve esperando aquela peça. **Uma dívida que nomeia a peça errada não é dívida marcada: é dívida escondida atrás de um nome plausível.**
 
@@ -595,7 +597,7 @@ O que sobra de um clã quando a técnica sai da conta é **o que a família tem,
 
 **E os canônicos são exemplo, não requisito.** Cada arquétipo diz *que tipo de clã é aquele*, e o jogador que inventou uma família escolhe o que combina — o texto é o mesmo. Um Zen'in pega **Armaria**; alguém que inventou uma casa de caçadores de ferramenta pega **Armaria** também, com a mesma frase. **Isso era o defeito que eu tinha levantado contra clãs nomeados** — *"Legado que só um Zen'in usa é opção morta pra todo mundo que não é"* — e ele desaparece quando o nome do clã vira exemplo entre parênteses.
 
-*Um aviso de dependência:* **Armaria cita ferramenta amaldiçoada, e a peça de equipamento não existe.** Como Destranca é zero no dado, ela funciona hoje como ficção e acesso — mas quando a peça 2 da fila for escrita, esta entrada é a primeira a reler.
+*Um aviso de dependência, e ele venceu:* **Armaria cita ferramenta amaldiçoada, e as duas peças que ela esperava chegaram** — equipamento é a peça 14, na v0.48, e ferramenta amaldiçoada é a peça 16, na v0.59. *Como Destranca é zero no dado, ela continua sendo ficção e acesso, e o acesso agora aponta para uma escada de grau escrita.*
 
 #### Repetição e Conversa de Jantar quase se cobrem, e não se cobrem
 
@@ -814,11 +816,13 @@ Sobrou **um** alvo legal no sistema inteiro pela enumeração da seção 8 — *
 | Legado | apaga | relógio |
 |---|---|---|
 | **Ferro Velho** | os degraus de exaustão | sempre |
-| *— vaga reservada —* | **destravada pela peça 20, e por escrever** | — |
+| *— vaga reservada —* | **destravada pela peça 20, e travada de alvo** | — |
 
 > **Ferro Velho** — cansaço não é uma coisa que acontece com você: os degraus de exaustão não te alcançam. Você não dorme porque precisa, dorme porque combinaram que era hora. *Em troca, você também não sente quando está perto de quebrar — o seu corpo não avisa antes, ele só para.*
 
-*A vaga esperava **Técnica Marcial**, e ela **fechou na v0.122: é a peça 20**. O que falta nela é escrita, e não peça — alvo de `Desliga` é escopo daqui, e a peça 20 §11 registra a vaga em vez de tentar preencher de fora.*
+*A vaga esperava **Técnica Marcial**, e ela **fechou na v0.122: é a peça 20**. O que falta nela é **alvo**, e não escrita — a enumeração da seção 8 ficou com zero livre quando o `Ferro Velho` gastou os degraus de exaustão, e alvo de `Desliga` é escopo daqui.* *A peça 20 §11 registra a vaga em vez de tentar preencher de fora.*
+
+> **⚠ E esta seção dizia o contrário do fim da peça, mesmo depois da v0.187.** *Aquela versão consertou a linha do §10 e escreveu a sub-checagem `6.1` para guardar a relação — e as duas linhas daqui atravessaram, porque a checagem procurava a frase sem a vírgula que ela tem.* **Achado na v0.188, junto com o conserto do reconhecedor.**
 
 > **⚠ Esta vaga passou dez versões dizendo que esperava, e a peça que ela esperava já existia.** *Ela dizia "espera a peça de Técnica Marcial" e citava a peça 9 dizendo **"Técnica Marcial — não existe ainda"** — frase que aquela peça não escreve mais desde a v0.122, quando as linhas 179 e 203 passaram a dizer "peça 20, fechada na v0.122".* **Duas cópias de um estado do projeto, e a de fora envelheceu.** *Consertado na v0.132, junto com as outras três pontas do mesmo assunto neste arquivo.*
 >
@@ -1006,7 +1010,7 @@ E a assimetria some junto: *você* reconhece, *você* sabe quando um morre. Não
 
 > **Peso Real** — você percebe **ferramenta amaldiçoada, barreira e véu pelo tato e pelo peso, não pela energia**. O que engana feiticeiro não engana você. *Em troca, você percebe que tem alguma coisa ali e não o que é — o aviso vem sem nome.*
 
-*A vaga espera **ferramenta amaldiçoada**, e esta é a Origem que mais depende dela: pelo ramo sem energia nenhuma, **ferramenta amaldiçoada é o único jeito de ferir maldição** — a peça 5 §3 escreve isso com todas as letras. O `Peso Real` já cita ferramenta no próprio texto.*
+**A vaga que morava aqui FECHOU na v0.104, e o `Assinado` é ela.** *Ela esperava `ferramenta amaldiçoada`, que virou a peça 16 na v0.59, e a cota de dois desta Origem está cheia.* *Esta é a Origem que mais depende daquela peça: pelo ramo sem energia nenhuma, **ferramenta amaldiçoada é o único jeito de ferir maldição** — a peça 5 §3 escreve isso com todas as letras, e o `Peso Real` já cita ferramenta no próprio texto.*
 
 #### O que o levantamento trouxe, e o que ele matou
 
@@ -1155,7 +1159,7 @@ O catálogo, e as decisões de sabor que vêm com ele:
 - ~~**O piso do Irmãos**~~ — **resolvido na lista do Feto**, pelo canon: a irmandade é definida por quem te fez, e o gatilho virou o jogador apontar alguém e dizer que é irmão.
 - **Sobrou UMA vaga de Desliga.** *Eram sete.* **Ela é a do Corpo Amaldiçoado, e o que falta nela é ALVO e não escrita** — *a peça que ela aguardava fechou na v0.122 e é a peça 20, mas a enumeração da seção 8 ficou com zero alvo livre quando o `Ferro Velho` gastou os degraus de exaustão.* ***Corrigido na v0.187:*** *esta linha invertia as duas metades — dava a vaga como pronta para escrever e contradizia o fim desta mesma seção, que declara a enumeração esgotada. A fila herdou a versão errada, e o item passou versões descrito como se bastasse sentar.* **Alvo de `Desliga` é escopo daqui**, e a peça 20 §11 registra a vaga em vez de tentar preencher de fora. **A do Reencarnado fechou na v0.132**, com o `Conhecido`, quando objeto amaldiçoado virou a peça 21 e nomeou a atração — **e na v0.176 o `Conhecimento Antigo` tomou a casa dele com outro alvo.** *A casa continua cheia; o que ficou livre foi a atração.* **As cinco destravadas foram escritas na v0.104** — três que esperavam a peça 19 e duas que esperavam a peça 16 —, e todas as cinco só couberam porque a trava do `Desliga` foi relaxada na mesma versão: *ele passou a poder apagar condição uma vez, com o relógio saindo do nível dela.* *Reclassificadas na v0.49: as quatro que diziam "equipamento" nomeavam a peça errada, e nenhuma delas abriu quando aquela peça fechou.*
 
-  > **⚠ E as outras DUAS já destravaram, e ninguém voltou.** *Elas esperavam `ferramenta amaldiçoada`, que virou a peça 16 na v0.59 — a `Armaria` do Descendente e a Restrição Celestial.* **A peça 16 §9 registra que destrava as duas; esta peça continuava dizendo que elas esperam.** *Achado na v0.100, e a linha da tabela de cada uma continua dizendo `espera a peça de ferramenta amaldiçoada` — escrever as duas é trabalho, não conserto de texto.*
+  > **⚠ E as outras DUAS foram escritas na v0.104, quatro versões depois de alguém achar que elas esperavam.** *Elas esperavam `ferramenta amaldiçoada`, que virou a peça 16 na v0.59 — a do Descendente virou o `Cabo` e a da Restrição Celestial virou o `Assinado`.* **A peça 16 §9 registrava que destravava as duas, e o achado é da v0.100.** *A prosa embaixo de cada tabela continuou anunciando a espera até a v0.188 — as tabelas estavam certas desde a v0.104, e a checagem 6 lê a tabela.*
 - ~~**O `Inédito` precisa da linha que o fecha para Sem Técnica** — é a única das 81 entradas que pressupõe técnica própria.~~ **Fechado na v0.168, e pelo lado contrário.** *A peça 25 §3.1 diz que aquela rota escreve Fundamento: ela tem técnica, só não tem técnica **inata**.* **O `Inédito` funciona nela, e a linha que o fecharia não existe mais como dívida.** *O ponteiro para "a checagem 8 do validador" também caiu — ela sempre conferiu outra coisa.*
 - ~~**A peça 9 precisa de três consertos que esta peça gerou:** a frase *"Sem Técnica não dá um segundo Legado"*, o §5 que ainda diz que Corpo Amaldiçoado não tem energia, e o `Alcance Impossível`, que é técnica e sai do catálogo.~~ **Os três foram aplicados na v0.39.** *Lá a Origem Sem Técnica diz hoje que ela **não amplia a conta de Legados** — é uma entrada de `Destranca` e ocupa uma das duas vagas —, o Corpo Amaldiçoado diz que **tem energia amaldiçoada**, e o `Alcance Impossível` não aparece em nenhuma lista daquela peça.*
 - ~~**Não Sou Gente sai do dano**~~ — **resolvido na v0.38: o nome inteiro foi para a Passiva, e o Legado deixou de existir.** A seção 9.9 tem o porquê.

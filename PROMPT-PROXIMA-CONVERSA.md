@@ -1,175 +1,157 @@
-# Retomada — o clash fechou, o custo da Expansão desceu, e a fila da mecânica tem UM item
+# Continuar o Projeto - M — varrer a fila, e resolver o que ela esconde
 
 Pasta: `/media/mizuki/HD Externo II/Claude/Claude 2/`
 ⚠ Trabalhe na pasta PRINCIPAL, não em worktree. **Você não commita** — deixa a mensagem em
-`mensagem-de-commit.txt` e avisa. *A entrega, desde a v0.149, o `subir.sh` copia sozinho.*
+`mensagem-de-commit.txt` na raiz e me avisa.
 
-> ## ⚠⚠ Estado no disco: TRÊS versões escritas e NÃO commitadas, e a ENTREGA está QUATRO atrás
->
-> **A v0.173, a v0.174 e a v0.175 estão as três no disco sem commit**, e o
-> `mensagem-de-commit.txt` cobre as três de uma vez.
->
-> **Os 25 validadores de `03-mecanica/`, os quatro de `manual/matematica/` e o
-> `conferir-voz.py --estrito` saem `0` com `PULADA = 0`.** *O `conferir-repositorio.py` sai com
-> **quatro** falhas, e as quatro são o passo 0 do `subir.sh`:* **a 7.1, a 7.3 em duas linhas
-> (versão do projeto e versão do manual) e a 7.4.**
->
-> **⚠ A 7.4 é a que importa e ela não é rotina:** *o CONTEÚDO do último commit da entrega é da
-> **v0.171**.* **A v0.172 rodou o `subir.sh` e o commit próprio da entrega nunca aconteceu** — o
-> PDF no GitHub está três versões para trás. *`./subir.sh`, e aí commite a entrega à mão e rode
-> de novo.*
->
-> **Os builds já rodaram todos:** *o manual do Fundamento em `50` páginas, e os quatro do livro —
-> `256` páginas em coluna única, `147` em duas, `75.338` palavras.*
+## Confirme a pasta antes de qualquer coisa
 
-Leia primeiro, nesta ordem: `README.md` (a seção *"Nove lições que custaram erro"*),
-`sistema/ESTADO-ATUAL.md` **inteiro**, e o `logs/CHANGELOG.md` de cima até a v0.160.
+```bash
+cd "/media/mizuki/HD Externo II/Claude/Claude 2" && grep -c "^## Nove lições" README.md
+```
 
----
+Tem que dar `1`. Se der `0`, é a pasta errada — **pare.** Existe um clone velho na v0.27
+dentro da home que tem a cara deste projeto.
 
-## A fila da mecânica tem um item, e é a única peça nova
+## Leia nesta ordem
 
-### `BESTIÁRIO`
+1. `README.md`, a seção **"Nove lições que custaram erro"**
+2. `logs/CHANGELOG.md`, as entradas **[0.187] até [0.182]** — são seis versões de uma
+   conversa só, e elas explicam o padrão que a próxima precisa atacar
+3. `sistema/ESTADO-ATUAL.md` **inteiro**, incluindo a seção final *"Onde estamos, e o que
+   falta"*
 
-**Montar um inimigo pede NOVE números com QUATRO donos**, e o levantamento é da v0.159: *o
-manual, a peça 19, a peça 1 e o `ESTADO-ATUAL`.*
+## Onde o trabalho está
 
-> ***Decisão da v0.161, e ela vale:*** **é máquina MAIS maldições prontas**, e não recolhimento
-> puro. *O molde é o da peça 15, que é máquina de construção com catálogo em cima.*
+Estado limpo na **v0.187**, commitada. **26 validadores e 286 checagens** passando, PULADA
+zero; o `conferir-repositorio.py` sai com zero problemas fora os dois do `finalizado/`,
+que o passo 0 do `subir.sh` resolve.
 
-**⚠⚠ E NÃO existe ficha de inimigo hoje, apesar de três documentos falarem dela.** *O manual não
-tem bloco de inimigo: a seção `Inimigos` é uma tabela de `nível do grupo → vida e dano`, com as
-colunas `Chefe` e `Capanga`, mais prosa.* **O que a v0.159 já deixou pronto:** *a Integridade do
-inimigo é a vida máxima dele, e a Reação dele é o mesmo slot que a peça 3 §3 dá a qualquer ficha.*
+As seis últimas versões saíram todas de uma conversa, e todas na mesma família de defeito:
 
-**Duas versões recentes encostaram nele, e uma delas DEIXOU UMA DECISÃO ESCRITA:**
+- **v0.182** — a passada de texto da peça 15, pelo `METODO-passada-de-texto.md`. Doze
+  lugares afirmando em tempo presente um mecanismo que morreu na v0.180
+- **v0.183** — o corpo forte da invocação tinha **três** multiplicadores escritos na mesma
+  peça, e a tabela de durabilidade misturava dois modelos entre as linhas
+- **v0.184** — o `Casco` batizado duas vezes; a rota da `Sintonia` virou `Parrudo`
+- **v0.185** — dois números sem checagem ganharam dono, e o do `Parrudo` não tinha dono
+  nenhum: existia só no capítulo 35 do livro
+- **v0.186** — as três montagens por Trilha, prometidas desde a v0.53
+- **v0.187** — a vaga de `Desliga` do Corpo Amaldiçoado não esperava escrita, esperava
+  **alvo**, e a peça 13 dizia as duas coisas na mesma seção
 
-> **⚠⚠ O inimigo ganha `grau`?** *Hoje não tem — a escada `grau 4 a grau 1, mais o especial` é de
-> **ferramenta** (peça 16 §3) e de **patente** (peça 12 §6.1), e nenhum documento dá grau a
-> maldição.* **O feito 1 do §7.1 da peça 12 está escrito em `nível` por causa disso**, e a nota
-> lá diz que ele volta à forma original — *"maldição de grau acima"* — se o BESTIÁRIO decidir que
-> sim. *É a linha que obriga a decisão a ser tomada em vez de ficar implícita.*
->
-> **⚠ E a v0.171:** *a escada de salário por patente e o gate de `Grau` em `Arma de Fogo` e
-> `Revestimento` valem para **feiticeiro**.* **Um inimigo humano armado passa a ter de dizer de
-> onde veio a arma dele.**
+## O que eu quero nesta conversa
 
-**⚠ A v0.173 deixou o BESTIÁRIO MAIS BARATO, e vale saber antes de começar:** *enquanto a rolagem
-de clash existia, a contagem de aptidões do inimigo era modificador de rolagem viva e teria de
-ser preenchida para todo inimigo com domínio.* **A cascata de hoje lê refino e o tipo do Acerto,
-e nenhum dos dois é contagem** — um número saiu da lista.
+**Varrer a fila contra o estado real, e só depois escolher o que fazer.**
 
----
+O motivo é medido: nesta leva, **três itens que a fila dava como abertos já estavam
+fechados** — o aviso das montagens por Trilha, o `Casco`, e o custo de sacar arma, que a
+peça 3 escreveu e a peça 20 continua listando como buraco em dois lugares.
 
-## Dois achados anotados e ainda não pagos
+O padrão é sempre o mesmo: **fechado numa peça e ainda aberto na peça vizinha.** Nenhum
+validador alcança isso, porque a pendência mora em prosa de "Em aberto" e não em tabela.
 
-- **A tabela de `quedas por missão padrão` da peça 1 §5.5 não tem validador.** *Ela publica
-  `1,14` para o perfil frágil, e o `conferir-atributos.py` recalcula `1,22` no bloco 9.4 sem
-  comparar com o escrito.* **Dois números para a mesma coisa, e ninguém compara.**
-- **A peça 18 continua genuinamente aberta** — *"quando o PDF sair, a tabela vai aparecer lá"*, e
-  a tabela consolidada de progressão de nove colunas ainda não está publicada nele.
+Então:
 
-## O que fica fora da fila, de propósito
+1. **Confira item por item da fila abaixo contra o que as peças dizem hoje.** Não confie na
+   lista; ela é justamente o que está sob suspeita.
+2. **Conserte a contabilidade do que já fechou.**
+3. **Traga o que sobrou, com o tamanho de cada um**, e eu escolho o que atacar.
 
-**As perguntas em *"Marcado para o playtest"* do `ESTADO-ATUAL`.** *O próprio projeto marca: não
-reabra sem retorno de jogador.* **E `04-playtest/` continua vazia — zero sessões desde a v0.1, e
-todo número do sistema é previsão.**
+E se der para escrever **uma checagem que impeça um item fechado de continuar aberto noutro
+documento**, ela vale mais que qualquer item da lista. A v0.187 fez isso para um caso só.
 
----
+## A fila, como ela está escrita hoje — e ela não é confiável
 
-## ⚠⚠ Oito lições que as últimas versões pagaram
+**Decisão tomada e não escrita**
+- O **`Não Sou Gente`** virar Passiva paga com espaço de feitiço. Decisão da v0.39.
 
-> **1 · Prosa SOBRE a regra não é a regra.** *Reaparece toda vez que um extrator lê SEÇÃO onde
-> devia ler LINHA DE REGRA.*
->
-> **2 · Janela de `N` caracteres morre num ponto final.** *`Cicatriz[^.]{0,160}acerto` não
-> alcança a própria linha de regra.* **Leia a linha, não a janela.**
->
-> **3 · Total certo esconde dono errado.** *A checagem 6 do `conferir-criacao.py` lia a soma das
-> duas rotas de ofício, e ela fecha com a atribuição trocada — sessenta e cinco versões.*
->
-> **4 · Guarda de contagem é o que separa "conferiu" de "não achou".** *O extrator de armas da
-> checagem 13 lia `45` de `52`, e só a guarda acusou.*
->
-> **5 · Pendência cujo assunto não é uma peça não tem quem a alcance.**
->
-> **6 · Não cite nome de arquivo cru entre crases dentro de uma peça.** *A checagem 7.2 lê toda
-> citação assim na árvore da ENTREGA e cobra que o arquivo exista lá.*
->
-> **7 · A régua que uma peça escreveu costuma valer para o projeto inteiro, e ninguém vai
-> buscar.** *A v0.172 foi escrever a lista de feitos e o filtro dela já estava pronto na peça 10
-> desde a v0.26 — **pergunta sobre o mundo fica na lista fechada; pergunta sobre a cena que
-> aquele mestre dirigiu, não**.* **Antes de inventar critério, procure se alguma peça já escreveu
-> um.**
->
-> **8 · "Está publicado" e "está decidido" são coisas diferentes, e o projeto já confundiu as
-> duas.** *O clash estava marcado como `fechado` desde a v0.27, e dois documentos afirmavam que o
-> manual o citava.* **Ele não estava em peça nenhuma, nem no livro, nem no manual —
-> **cento e quarenta e seis versões** de uma regra que ninguém podia ler.* *Quando um documento
-> disser "está em X", abra o X.*
+**Bloqueado, e dizendo por quê desde a v0.187**
+- A vaga de `Desliga` do Corpo Amaldiçoado. Espera peça nova nomear coisa.
 
-## Método, e ele não é negociável
+**Medida por rodar**
+- A **reação de RD do Bastião encosta em cobrir-se de energia**. *"Ou uma delas domina a
+  outra, ou são a mesma peça com dois nomes — medir as duas juntas."*
+- Os **pontos de feitiço do Emanador** são moeda nova ao lado do PE.
+- A **penalidade por empunhar sem treino ou sem requisito**, aberta dentro da peça 19.
 
-- **Rode os validadores ANTES de mexer em número:** os de `sistema/03-mecanica/`, o
-  `conferir-repositorio.py` da raiz, os quatro de `manual/matematica/`, e o `conferir-voz.py
-  --estrito` do livro. **Meça pelo CÓDIGO DE SAÍDA**, e confira **`PULADA = 0`**.
-- **Todo número novo ganha validador com teste negativo**, em cópia isolada. *Confira que a base
-  passa na cópia **e que a checagem nova RODOU** antes de perturbar.* **E confira que a
-  PERTURBAÇÃO mudou o arquivo.**
-  > **⚠ A cópia isolada precisa da ÁRVORE, e não só de `03-mecanica/`.** *Vários validadores leem
-  > `../ESTADO-ATUAL.md`, o livro, `../01-pesquisa/` e — desde a v0.173 — `manual/gerador/`.*
-  > **O jeito que funciona: montar a árvore com `symlink` para tudo e cópia de verdade só da
-  > pasta que vai ser perturbada.**
-- **Uma checagem que só sabe ler a decisão de hoje mede a decisão, não a relação.** *O
-  contra-teste que vale reverte a decisão de forma COERENTE em TODOS os donos e sai verde.*
-  > **⚠ E contra-teste PELA METADE não é coerente.** *Na v0.173 eu renomeei o título da seção e
-  > deixei a regra no arquivo — a checagem acusou com razão, e o defeito era do arnês.*
-- **Nada de valor fica escrito dentro do validador.** Leia do documento dono. *As exceções são
-  `limite de design` (lição nº 8) e **âncora externa** — o `¥29,61M` do ministro, na checagem 13.*
-  > **⚠ E dono do manual é o GERADOR, não o `.docx`.** *O `.docx` é saída: conferir a saída faz a
-  > checagem depender de alguém ter rodado o `make.js`, e ainda pede `python-docx`.*
-  > **⚠⚠ Constante de validador conta como cópia.** *O `PE_ABRIR` do `conferir-expansao.py` era a
-  > **quinta** cópia do custo de abrir a Expansão, e ninguém a comparava com o manual — a v0.174
-  > a trocou por leitura do gerador.* **Quando mexer num número, conte as cópias antes: o mesmo
-  > número costuma estar no gerador, no livro, no `ESTADO-ATUAL`, numa tabela de outra peça e
-  > dentro de um validador.**
-- **⚠ Marca dentro de célula de tabela quebra extrator de OUTRO validador.** Marca vai embaixo.
-- **⚠ Tabela dentro de bloco de citação também quebra.**
-- **Antes de batizar:** `python3 conferir-nomes.py --candidatos Nome Outro`. *Leva ~21 s.*
-- **Pesquise antes de inventar.** *Os PDFs estão em `PDFs - Sistemas Extras/PDF_Sistemas/`, e o
-  `pdftotext -layout` já está instalado.* **Pedido do Mizuki na v0.173, com todas as letras:**
-  *"não chute ou adivinhe nada, busque em fóruns e na obra o como realmente ocorre"* — e naquela
-  versão a busca **inverteu** metade de uma recomendação minha.
-- **Se mexer no livro:** `guard_numeros.py antes.md depois.md` a cada arquivo, com CADA diferença
-  lida contra a linha que a carregava, e os **quatro** builds. *Salve o "antes" ANTES de editar.*
-  **E confira se alguma diferença SUMIU.** *Mande o PDF de duas colunas antes de ele commitar.*
-- **Se mexer no manual do Fundamento:** *edite em `manual/gerador/`, rode `node make.js`, copie o
-  `.docx` para `manual/` e exporte o `.pdf` com `soffice --headless --convert-to pdf`.* **A
-  versão dele tem quatro cópias, e a checagem 4 confere as quatro:** o *COMO-USAR* do gerador,
-  que é o dono; a **capa**, no primeiro arquivo de partes do gerador; o *COMO-USAR* da pasta de
-  matemática; e os documentos do projeto. *Mexer na capa obriga a regerar o `.docx` de novo.*
-- **⚠ Ponteiro de capítulo do livro:** *`Experiência e Progressão` é o **18**, `Sem Técnica` é o
-  **11**, `Fundamento` é o **9**, `Criação de Personagem` é o **6**, `Equipamento` é o **14**.*
-  **A checagem 10.3 só confere os que trazem o título junto — escreva sempre `capítulo N,
-  *Título*`.** *A tabela de roteiro da introdução é a quarta cópia da lista, e a checagem 10.7 a
-  compara com o `build.py`.*
-- **Escolha de sabor é dele**, em rodadas curtas, com o número e o trade-off já calculados.
-  **Mas não pergunte o que a conta responde.**
-- **Documento não pode ter cara de saída de IA.** Português informal, nunca de Portugal.
+**Sabor, esperando eu decidir**
+- A **`Pétala`** como quarta porta.
+- **`Energia Reversa` contra maldição** — na obra ela fere, aqui só cura.
+- Catálogo de **Kata** e de **`Manejo`** — as duas peças entregam a máquina de propósito.
 
-## Onde as coisas moram
+**Registrado e adiado por decisão minha**
+- O **teto de quantas invocações cabem no campo** (peça 15, v0.178). Hoje a Trilha é a
+  única porta que entrega corpo, e nenhuma entrega a segunda. *No dia em que outra coisa
+  conceder uma invocação, o teto vira necessário — e aí ele é preço, não texto.*
 
-| | |
-|---|---|
-| as peças de regra | `sistema/03-mecanica/` — **25 peças e 25 validadores** |
-| o catálogo de entregas | peça 17; os três `DESENHO-*.md` da raiz são os donos do preço |
-| a moeda | **peça 12 §6.1** é dona do salário e o **§6.2** da mestragem; **peça 14 §6.5** é dona do preço |
-| a Expansão e o clash | **o manual**, seção 7 — `manual/gerador/partE.js`, e o `.docx` é saída |
-| a fonte do livro | `sistema/05-material/livro/manual/`, **21 arquivos** — 18 capítulos e 3 de frente |
-| a ordem dos capítulos | `build.py`, e ela é a dona — outras três cópias são conferidas contra ela |
-| a régua de escrita | `sistema/05-material/livro/REGRA-DE-VOZ.md` — **`3` marcas de pendência** |
-| a lista branca da 7.2 | base `146`, folga `5`, **teto `151`** |
-| a entrega | `finalizado/`, git próprio. **O `subir.sh` copia; o commit é à mão** |
+**Já resolvido, e a fila não sabe**
+- **Sacar arma.** A peça 3 tem a regra escrita; a peça 20 lista como aberto no §7 e no §11.
 
-⚠ **Não rode git do sandbox.** Para ver onde a entrega está, leia `finalizado/.git/logs/HEAD`
-como arquivo.
+**O maior, que não está em lista nenhuma**
+- `04-playtest/` continua vazia. **Zero sessões desde a v0.1.**
+
+## Como eu quero que você trabalhe
+
+- **Número vem de conta rodada, nunca de intuição.** Se eu disser que algo está
+  desbalanceado, meça antes de concordar. E me diga quando a conta me desmentir.
+- **Antes de propor mecânica nova, pesquise** como outro sistema resolve o mesmo problema,
+  e procure o modo de falha documentado dele. Os PDFs estão em
+  `PDFs - Sistemas Extras/PDF_Sistemas/`.
+- **Traga as opções com o número e o trade-off já calculados, e pergunte.** Escolha de
+  sabor é minha.
+- **Todo número novo ganha validador com teste negativo:** perturbe o valor e prove que a
+  checagem certa acende, restaure e confira. **E confira que a perturbação bateu** — nesta
+  leva uma passou verde porque o `sed` não pegou todas as formas da frase, e a checagem
+  estava certa.
+- **Checagem não pode passar por ausência.** Se apagar a frase faz a checagem calar, o
+  conserto barato para uma divergência vira sumir com a cópia.
+- **Âncora de regra não mora em prosa.** Recorte de tabela termina onde a tabela termina.
+  Uma checagem ancorada numa frase cai quando alguém reescreve a frase.
+- **Aplicar a edição é a parte curta.** A longa é a cascata — peça → livro → validador.
+  Pare no primeiro passo que virar design e pergunte.
+- **Escreva no meu registro:** negrito abrindo com a regra e a razão logo depois, "você"
+  falando com o leitor, frase encadeada por vírgula em vez de aforismo, parêntese para a
+  exceção curta.
+- **Fale comigo diferente de como escreve o documento.** Uma ideia por parágrafo, frase
+  curta, sem `§3.4` no meio da frase. Se eu disser que não entendi, a resposta certa é
+  MENOS detalhe, recomeçando de mais atrás.
+
+## Fechar versão, quando a leva acabar
+
+Entrada nova no topo do `logs/CHANGELOG.md`, que é o dono da versão, e subir o número no
+`README.md`, no `sistema/ESTADO-ATUAL.md` e no `sistema/LEIA-ME.md`. Os quatro dizem
+**v0.187** hoje.
+
+Depois, nesta ordem:
+- os quatro builds em `sistema/05-material/livro/build/` — `build.py`, `build.py --duas`,
+  `build_docx.py`, `build_txt.py` — rodados **DEPOIS** da última edição
+- os **25** validadores de `sistema/03-mecanica/`
+- os dois de `manual/matematica/` (`pac7.py` e `v7.py`)
+- `conferir-voz.py --estrito`, de dentro de `sistema/05-material/livro/`
+- `conferir-repositorio.py`, da raiz
+
+E deixe a `mensagem-de-commit.txt` pronta. **São TRÊS comandos do meu lado, não dois** — o
+`finalizado/` é repositório separado sem script próprio:
+
+```bash
+jjk
+./subir.sh
+cd finalizado && git add -A && git commit -m "recorte da vX.Y" && git push; cd ..
+```
+
+**E se você mexer no livro, me manda o PDF de duas colunas antes de eu commitar.**
+
+## Três coisas que vão te confundir se ninguém avisar
+
+**O `conferir-voz --estrito` fica em 2 achados de propósito.** São dois títulos de seção
+que eu renomeei — *"Como uma aptidão funciona"* e *"Como funciona uma Bênção"* — e a regra
+"título é pergunta" só libera *"Como ler …"*. **Não conserte sem me perguntar.**
+
+**O mount às vezes perde um arquivo que ele mesmo acabou de gravar.** O conserto é escrever
+com outro nome e `mv` por cima, e conferir que o `python3` lê de volta. Está no README, na
+seção *"Commitar"*. **E não rode git do sandbox.**
+
+**Grep no projeto não é triagem.** Nesta leva eu afirmei que dois nomes estavam livres
+depois de conferir por `grep` nos `.md` — e os dois colidiam com termo do manual, que só o
+`conferir-nomes.py` enxerga. **Nome se confere com a triagem, sempre.**

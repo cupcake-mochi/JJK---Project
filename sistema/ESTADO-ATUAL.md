@@ -1,8 +1,18 @@
 # Estado atual do projeto
 
-Atualizado em 30/08/2026, na v0.187 (última peça fechada: **Sem Técnica**, a peça 25, na v0.168, com o `conferir-sem-tecnica.py` e doze checagens; antes dela, **Dano de alma e Integridade, na v0.145**; antes dela, o **Bloquear, na v0.143**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 30/08/2026, na v0.188 (última peça fechada: **Sem Técnica**, a peça 25, na v0.168, com o `conferir-sem-tecnica.py` e doze checagens; antes dela, **Dano de alma e Integridade, na v0.145**; antes dela, o **Bloquear, na v0.143**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.187.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e cinco peças escritas** e **vinte e cinco validadores**.
+**Versão v0.188.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e cinco peças escritas** e **vinte e cinco validadores**.
+
+**A v0.188 varreu a fila contra o estado real, e o que ela escondia era maior que o que ela listava.** *Dos onze itens, **três já estavam fechados**, e só um deles a fila desconfiava; **fora dela apareceram mais dois fechados e quatro pontas soltas**, a mais velha com cento e quarenta versões.* **E a varredura destampou que a checagem escrita na v0.187 não acendia na frase que ela existia para pegar.**
+
+> **O reconhecedor procurava `falta nela é escrita e não peça` e a peça escreve *"O que falta nela é escrita**,** e não peça"*.** *Uma vírgula, e ela passou verde na própria linha.* **A seção 8 da peça 13 dizia o contrário do §10 dela**, num arquivo que um validador varre inteiro toda vez.
+>
+> **A âncora saiu da prosa e foi para a tabela:** *a célula da vaga passou a declarar o estado do ALVO, e a checagem `6` cobra isso.* **O reconhecedor da `6.1` virou família de promessa, e passou a aceitar as duas declarações da enumeração** — sem a oposta ela só podia ser satisfeita de um jeito, e o contra-teste dela não teria como existir.
+>
+> **Os cinco fechados:** *sacar arma (peça 3 §3.2, v0.122), os pontos de feitiço do Emanador (peça 6 §9, v0.131), a penalidade de arma sem treino (peça 19 §6, v0.104), a `Cicatriz` sem mecânica (peça 1 §5.5, v0.171) e a máquina de criação do `Sem Técnica` (peça 25, v0.168).* **⚠ O pior deles é de tabela e não de prosa:** *a tabela de rotas daqui publicava `+ Sem Técnica → não` com a peça 9 §6 publicando `sim` desde a v0.168.*
+>
+> **E entrou a checagem `5.1` do `conferir-repositorio.py`:** *alguma linha viva diz que uma peça não existe, ou que uma pendência espera por ela, quando ela está na pasta?* **A lista sai do nome do arquivo, então peça nova entra na varredura sozinha** — e o par de testes que prova isso é a mesma frase ficando verde sem o arquivo e vermelha com ele.
 
 **A v0.186 escreveu as três montagens por Trilha, que a peça 15 devia desde a v0.53.** *A Q6 que as bloqueava fechou na v0.63, e elas ficaram **123 versões** como aviso que não falhava o validador — de propósito, porque escrever as três era escolha de sabor do Mizuki e não conserto.*
 
@@ -839,11 +849,11 @@ O `conferir-manual.py` falha se os dois lados divergirem, e a mensagem dele **no
 
 *A peça 1 ganhou a **seção 5.5**, e ela fecha a pergunta nº 5 do `pitch-de-design.md` — aberta desde a v0.1.* A 0 de vida você escolhe **Aguentar** (apaga, janela de 3 rodadas, cura de 1 te levanta) ou **Insistir** (fica de pé, cada rodada custa 1/8, 1/4 e 1/2 da vida máxima). Levantar dá uma **Sequela**, que encurta a janela da próxima queda; **na segunda queda vem uma Cicatriz**. O fim da janela é o **estágio 4 de dano de alma**, que o manual já escrevia e que ninguém alcançava. Seis checagens novas no `conferir-atributos.py`, com oito perturbações conferidas.
 
-> **A dívida: uma Cicatriz não tem mecânica, só nome.** Hoje ela é o registro de que a coisa aconteceu — permanente, não sai no descanso, e nada mais. *Isso foi deliberado, porque o conteúdo dela é da **peça de dano e condições**, e ela não existia.* **Ela existe desde a v0.103 e é a peça 19 — e a Cicatriz continuou aberta**, porque o escopo daquela versão foi a régua de condição mais as três seções que mudaram de casa. *A lista fechada de condições existe agora, e com nível: o que falta é decidir o que a Cicatriz faz.*
+> ~~**A dívida: uma Cicatriz não tem mecânica, só nome.**~~ ***FECHADA na v0.171, e não na peça que a dívida esperava.*** **Ela é vantagem em `Intimidação` e desvantagem em `Persuasão`, as duas `Essência`, e mora na peça 1 §5.5.** *Teto `1`, porque vantagem não empilha, e ela **não vem** se quem fechou o ferimento foi a sua própria `Energia Reversa`.* **A `Energia Reversa` não limpa Sequela** — a segunda metade da pergunta fechou junto.
 >
-> **O que precisa ser resolvido quando aquela peça chegar:** o que uma Cicatriz faz, se ela tem teto por ficha, se some algum dia e por qual meio, e como ela conversa com a **Energia Reversa** — que é a candidata óbvia a apagá-la, e que **existe desde a v0.78**, na peça 11 §6. *A pergunta não morreu junto: a aptidão agora tem número, e quem responde se ela limpa Sequela continua sendo a peça de dano e condições.* Enquanto isso, ela é boa ficção e mecânica nenhuma, e **o texto da peça 1 diz isso com todas as letras** em vez de fingir que está fechado.
+> > **A dívida esperava a peça de dano e condições, e a resposta não veio de lá.** *A peça 24 §6.3 mediu o recorte na v0.145 e devolveu a `Cicatriz` para a peça 1: ela é consequência de cair a `0` de vida, e não de condição nem de dano de alma.* **Por isso ela não entra na régua da seção 2 da peça 19, e não é entrada de catálogo** — a troca acontece dentro de um poço só, sem preço em fatia. *O §7 daquela peça registra o fecho.*
 >
-> *Fica marcado aqui porque decisão registrada não é decisão aplicada — foi assim que a Trilha passou sete versões escrita e não corrigida em três documentos.*
+> ***E este bloco ficou dezessete versões dizendo "o que precisa ser resolvido quando aquela peça chegar", com a peça 19 no disco desde a v0.103 e a dívida paga desde a v0.171.*** *Achado na v0.188.* **O topo deste mesmo arquivo já publicava a mecânica da `Cicatriz` — duas cópias do estado do projeto, a setecentas linhas uma da outra, e a de baixo envelheceu.**
 
 *Resolvida na v0.20:* a colisão do Grau. O manual, o PDF e as fontes já usam **Classe** — 0 ocorrências de "Grau" no `.docx`, `pac7.py` e `v7.py` passando.
 
@@ -1274,7 +1284,7 @@ Ele saiu por **regressão contra as seis classes publicadas**, e cinco fecham ex
 
 **O gate no tiro fecha um buraco que o do corpo a corpo não alcança:** sem ele, um conjurador de Força 0 e Destreza 0 pega o Rifle de Precisão e faz **11,0 sem investir um ponto de atributo**, contra 6,5 do melhor corpo a corpo dele.
 
-**O que falta:** a **penalidade** por empunhar sem treino ou sem requisito, que é da peça 19 — escrita na v0.103, com este item ainda aberto lá dentro. **Os nomes dos degraus de escudo fecharam na v0.59:** `Broquel` (punho, 15–45 cm), `Médio` e `Torre` (cobre o corpo, se planta no chão). *O `Médio` carrega duas colisões aceitas e declaradas na peça 14 — uma letra de `Medo` (Tema) e o gênero do tier de Restrição `Média`.*
+~~**O que falta:** a **penalidade** por empunhar sem treino ou sem requisito, que é da peça 19.~~ ***FECHADA na v0.104 e na v0.117, na peça 19 §6:*** **sem treino, desvantagem na rolagem de ataque e a maestria fora dela; sem o requisito de Força, `−3 m` de deslocamento.** *As duas somadas custam `33,8` vezes o que a arma inteira entrega — é porta fechada, e não preço —, com a checagem 11 do `conferir-dano.py` em cima.* **Os nomes dos degraus de escudo fecharam na v0.59:** `Broquel` (punho, 15–45 cm), `Médio` e `Torre` (cobre o corpo, se planta no chão). *O `Médio` carrega duas colisões aceitas e declaradas na peça 14 — uma letra de `Medo` (Tema) e o gênero do tier de Restrição `Média`.*
 
 > **Esta lista tinha mais dois itens até a v0.59, e os dois já estavam prontos.** O **`conferir-equipamento.py`** entrou na **v0.48**, com a dominância rodando uma vez por rota de proteção — cobrir-se, uniforme e sem energia nenhuma, as três. E **os dois dados do `Yumi`** foram corrigidos na **v0.47**, na mesma versão que flagrou: `Daikyū` para `1d10`, `Hankyū` para `1d8`, fechando exatos em `4 de 4`. *Vencido em dois documentos ao mesmo tempo, porque a lista foi copiada em vez de apontada.*
 
@@ -1317,10 +1327,10 @@ O motivo é o pilar 1, e está escrito na peça 5: *"se o Caminho desse dano, do
 | **Emanador** | **metade já existe:** a peça 6 §5 concede *trocar o fixo de 2 do acerto de conjuração por Inteligência ou Essência*. Isso é acerto, e é neutro porque os dois lados crescem +3 | **somar atributo no dano do feitiço.** Ele quebra a paridade conjurador‑guerreiro, que está calibrada em `d20 + 3` nos dois desde o nível 2 |
 | **Evocador** | benefício que não seja ação nem dano | depende da peça 3. E a trava é dura: *você e todas as suas invocações somados entregam **uma** Rotina* — mais corpos agindo por rodada é o que quebra todo sistema d20 |
 
-**Duas coisas para medir antes de escrever, não depois:**
+**Duas coisas para medir antes de escrever, e as quinze Trilhas já foram escritas:**
 
-- **A reação de RD do Bastião encosta em cobrir-se de energia**, que já dá RD de `1,5 × refino` por 2 PE. Ou uma delas domina a outra, ou são a mesma peça com dois nomes. Medir as duas juntas.
-- **Os *pontos de feitiço* do Emanador são moeda nova ao lado do PE.** O `conferir-orcamento.py` existe porque o bolso já é apertado — qualquer moeda nova passa por ele antes de ter número.
+- **A reação de RD do Bastião encosta em cobrir-se de energia**, que já dá RD de `1,5 × refino` por 2 PE. *Ou uma delas domina a outra, ou são a mesma peça com dois nomes.* **A medida NÃO foi rodada, e as três Trilhas do Bastião foram escritas e preçadas sem ela** — *a matriz delas já estava fechada na v0.76.* *O `Absorver` do Caminho custa `1,60` fatia e o `Alicerce` do `Muro` custa `1,33`, os dois preçados contra a régua de Trilha e nenhum contra a Reação da aptidão.* **Ela deixou de ser "antes de escrever" e virou dívida de conta**, e o que ela pode mover é preço de Caminho, não texto de mesa.
+- ~~**Os *pontos de feitiço* do Emanador são moeda nova ao lado do PE.**~~ ***FECHADO na v0.131, e sem objeto:*** **a `Torrente` cobra em PE, no preço que o manual já dá para a Melhoria `Rápido`** — `Classe e meia`, arredondando para cima. *A pendência dizia que "uma lista de pontos à parte é o modelo mais provável", e não existe lista de pontos à parte nem moeda nova.* **A peça 6 §9 é a dona do fecho, e ela nomeia esta linha e a do `RASCUNHO-trilhas.md` §4 pelo nome.**
 
 ### A peça de Legados fechou — o que ela deixou pendurado
 
@@ -1332,10 +1342,10 @@ O motivo é o pilar 1, e está escrito na peça 5: *"se o Caminho desse dano, do
 
 | pendência | espera |
 |---|---|
-| ~~**Sete vagas de Desliga**~~ **DUAS**, declaradas na tabela em vez de preenchidas | **as cinco destravadas fecharam na v0.104** — `Cabo`, `Assinado`, `Revezamento`, `Talhe` e `Usado`, cada uma apagando uma condição nomeada uma vez, com o relógio saindo do nível dela. *Só couberam porque a trava do `Desliga` foi relaxada na mesma versão.* **As duas que sobram esperam peça que não existe:** uma espera objeto amaldiçoado e a outra espera Técnica Marcial |
-| A **Armaria** do Descendente e o **Enterrado** do Reencarnado | relidos na v0.49, e **os dois não pedem a mesma coisa**: a Armaria é `ferramenta amaldiçoada` (arma forjada, com graus) e o Enterrado é `objeto amaldiçoado` (a maldição em forma de objeto) |
-| O **Não Sou Gente** virar Passiva paga com espaço de feitiço | a decisão está tomada, a Passiva não está escrita |
-| A **máquina de criação do Sem Técnica** | Aptidão e Estilo da Sombra |
+| ~~**Sete vagas de Desliga**~~ **UMA** | **as cinco destravadas fecharam na v0.104** — `Cabo`, `Assinado`, `Revezamento`, `Talhe` e `Usado`, cada uma apagando uma condição nomeada uma vez, com o relógio saindo do nível dela. *Só couberam porque a trava do `Desliga` foi relaxada na mesma versão.* **A sexta fechou na v0.132**, com o `Conhecido`, quando objeto amaldiçoado virou a peça 21 e nomeou a atração. **A que sobra é a do Corpo Amaldiçoado, e ela está destravada de Origem e travada de ALVO** — *a peça 20 fechou na v0.122, e a enumeração da peça 13 §8 ficou com zero livre quando o `Ferro Velho` gastou os degraus de exaustão* |
+| ~~A **Armaria** do Descendente e o **Enterrado** do Reencarnado~~ | relidos na v0.49, e **os dois não pediam a mesma coisa**: a Armaria é `ferramenta amaldiçoada` e o Enterrado é `objeto amaldiçoado`. ***As duas peças existem*** — a 16 na v0.59 e a 21 na v0.132 |
+| O **Não Sou Gente** virar Passiva paga com espaço de feitiço | **a decisão está tomada desde a v0.39, a Passiva não está escrita.** *É a última pendência viva desta tabela* |
+| ~~A **máquina de criação do Sem Técnica**~~ | ***FECHADA na v0.168, e é a peça 25.*** *Ela não esperava Aptidão nem `Estilo da Sombra`: a Aptidão virou a semente `Energia Reversa` e o `Estilo da Sombra` virou a semente `Domínio Simples`, que a peça 11 §6.5 publicava desde a v0.29* |
 
 > **O alvo livre acabou, e é por isso que as vagas existem.** A enumeração de alvos legais do sistema inteiro tem sete, e o `Ferro Velho` gastou o último. Inventar oito alvos para fechar a cota seria escrever entrada para fechar contagem — que é exatamente o defeito que essa régua nasceu para achar. **Peça nova é o que cria alvo novo.**
 >
@@ -1350,9 +1360,9 @@ O motivo é o pilar 1, e está escrito na peça 5: *"se o Caminho desse dano, do
 | peça | por que só depois |
 |---|---|
 | ~~**Técnica Marcial**~~ | **FECHADA na v0.122, e é a peça 20.** *Destravada na v0.48 por Equipamento, e liberada de vez na v0.59, quando a ferramenta amaldiçoada virou a peça 16.* **Ela destravou a ORIGEM da vaga de `Desliga` do Corpo Amaldiçoado, e não o alvo dela** — *a enumeração da peça 13 §8 está com zero livre desde que o `Ferro Velho` gastou os degraus de exaustão, e todo `Desliga` novo depende de peça nova nomear coisa* |
-| **Estilo da Sombra** | está **bloqueado pelas aptidões** — a rota da Shoko é literalmente "o poder vem de aptidão" |
+| ~~**Estilo da Sombra**~~ | **NÃO virou peça, e isso é o desfecho.** *Ele estava bloqueado pelas aptidões — a rota da Shoko é literalmente "o poder vem de aptidão" —, e quando a trava caiu ele já tinha dono: **a semente `Domínio Simples`**, que a peça 11 §6.5 publica desde a v0.29.* **A peça 25 §4.2 chama ela pelo nome da escola, a Nova Sombra**, e a peça 9 §8 registra o fecho na v0.168 |
 
-As duas são economias de poder novas, e construir a quarta e a quinta antes de a segunda ter teto escrito é o erro que o esqueleto já avisou.
+As duas eram economias de poder novas, e construir a quarta e a quinta antes de a segunda ter teto escrito é o erro que o esqueleto já avisou. **Nenhuma das duas virou peça pelo caminho que esta linha previa:** *a Técnica Marcial virou o Fundamento com o corpo no lugar da energia, e o `Estilo da Sombra` dissolveu numa aptidão que já existia.*
 
 **E depois de todas essas**, na ordem em que fazem falta:
 
@@ -1370,15 +1380,17 @@ As duas são economias de poder novas, e construir a quarta e a quinta antes de 
 
 ~~E uma coisa solta que não é peça: o nome do sistema.~~ **Batizado na v0.94: `Projeto - M`.** *Era a pendência mais velha do projeto — aberta na v0.1 e fechada 93 versões depois.*
 
-**As nove rotas de Origem, e quais já rodam:**
+**As nove rotas de Origem rodam, e a dona da tabela é a peça 9 §6.**
 
 | rota | jogável hoje |
 |---|---|
 | Latente · Receptáculo · Descendente · Reencarnado · Feto | **sim** — vão para o Fundamento |
 | Restrição Celestial, ramo do Kokichi Muta | **sim** — Fundamento, com o corpo limitado na ficha |
-| qualquer uma **+ Sem Técnica** | não — falta Aptidão ou Estilo da Sombra |
+| qualquer uma **+ Sem Técnica** | **sim** — a semente, e o Fundamento em cima: a peça 25, na v0.168 |
 | Corpo Amaldiçoado | **sim** — Técnica Marcial, a peça 20, na v0.122 |
 | Restrição Celestial, ramo da Maki | **sim** — Técnica Marcial mais Bênçãos e Lapidação, na v0.122 |
+
+> **⚠ Esta linha dizia `não — falta Aptidão ou Estilo da Sombra` até a v0.188**, vinte versões depois de a peça 25 fechar a rota. *A peça 9 §6 marcava `sim` desde a v0.168, o `README` publicava as nove, e esta cópia envelheceu sozinha.* **É a lição nº 9 na forma que não tem número: uma tabela de estado, com dono declarado, copiada para o documento que se lê no começo de toda conversa.**
 
 **E três coisas que a criação ainda contorna**, cada uma com a saída escrita no ponto do texto onde ela pesa:
 

@@ -535,10 +535,10 @@ Toda entrega é fração de alguma coisa. **Se essa coisa não crescer no ritmo 
 | 5 | **Bastião** — `Muro` · `Punho` · `Brasa` | `Muro` encosta em **cobrir-se de energia** (peça 11 §6) e em escudo (peça 14 §4). *A v0.36 já mandou medir as duas juntas: "ou uma domina a outra, ou são a mesma peça com dois nomes"* |
 | 6 | **Emanador** — `Torrente` · `Explosivo` · `Arremate` | **`Torrente` é a mais perigosa das quinze** e por isso vai por último: ela é mais de uma ação por rodada, que é a coisa que quebra todo sistema d20. `Explosivo` toca a peça 11 e `Arremate` toca a economia de ação |
 
-**E duas coisas para medir antes de escrever, não depois** — as duas já estão registradas no `ESTADO-ATUAL` e nenhuma foi medida:
+**E duas coisas para medir antes de escrever, não depois** — e as quinze Trilhas fecharam na v0.164, então "antes" já passou:
 
-- **A reação de Redução de Dano do Bastião contra cobrir-se de energia**, que já dá RD de `1,5 × refino` por 2 PE.
-- **Os *pontos de feitiço* do Emanador são moeda nova ao lado do PE**, e toda moeda nova passa pelo `conferir-orcamento.py` antes de ter número.
+- **A reação de Redução de Dano do Bastião contra cobrir-se de energia**, que já dá RD de `1,5 × refino` por 2 PE. ***Continua sem medida.*** *As três Trilhas do Bastião fecharam na v0.77 sem ela, e o que a medida pode mover hoje é preço de Caminho e de Trilha, não texto de mesa.*
+- ~~**Os *pontos de feitiço* do Emanador são moeda nova ao lado do PE**, e toda moeda nova passa pelo `conferir-orcamento.py` antes de ter número.~~ ***SEM OBJETO desde a v0.131:*** **a `Torrente` cobra em PE**, no preço que o manual já dá para a Melhoria `Rápido`. *Não existe lista de pontos à parte, e a peça 6 §9 é a dona do fecho — ela nomeia esta linha.*
 
 ## 5. O que o validador vai precisar ter
 

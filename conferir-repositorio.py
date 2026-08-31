@@ -53,6 +53,7 @@ existe, e ela DIZ que pulou.
 import os
 import re
 import sys
+import unicodedata
 
 RAIZ = os.path.dirname(os.path.abspath(__file__))
 FALHAS = []
@@ -566,6 +567,115 @@ print()
 print('  A checagem 2 confere se o ARQUIVO existe; esta confere se a SECAO existe.')
 print('  Nada em logs/ e conferido: entrada de CHANGELOG e registro do que se')
 print('  pensou naquele dia, e a v0.50 decidiu nao reescrever historico.')
+
+
+# --- 5.1: PECA QUE NAO EXISTE, E EXISTE -------------------------------------
+# Nasceu na v0.188, e o motivo e a familia de defeito mais teimosa que este
+# projeto tem fora de numero: um item fecha numa peca e continua aberto na peca
+# vizinha. Nenhum validador alcancava isso porque a pendencia mora em prosa de
+# "Em aberto", e nao em tabela.
+#
+# A varredura daquela versao achou seis exemplares vivos, e o mais velho tinha
+# cento e quarenta versoes: a peca 13 dizia "a peca de equipamento nao existe"
+# com a peca 14 no disco desde a v0.48; duas vagas dela diziam "a vaga espera
+# ferramenta amaldicoada" com as duas vagas PREENCHIDAS desde a v0.104; e o
+# ESTADO-ATUAL dizia "o que precisa ser resolvido quando aquela peca chegar"
+# sobre uma divida que a v0.171 pagou.
+#
+# NADA E' ESCRITO AQUI DENTRO. A lista de pecas sai da pasta, pelo nome do
+# arquivo: `16-ferramenta-amaldicoada.md` vira a frase "ferramenta
+# amaldicoada", e a prosa que escreve "ferramenta amaldiçoada" casa com ela
+# depois de tirar acento. Peca nova entra na varredura sozinha.
+#
+# CITACAO NAO E' AFIRMACAO. Trecho entre aspas e riscado sai antes de medir —
+# senao a nota que registra o conserto acende a checagem que ela acabou de
+# pagar, que foi o que aconteceu com a 6.1 do conferir-legados na v0.187. A
+# peca 13 tem quatro notas assim, todas legitimas.
+#
+# A CRASE SO' SAI QUANDO E' FRASE, e nao quando e' termo. Este projeto poe o
+# proprio vocabulario entre crase o tempo todo — `objeto amaldicoado` tem 18
+# caracteres e e' o SUJEITO da acusacao —, mas ele tambem cita frase morta
+# entre crase, e ai ela e' longa: `um estilo · so Sem Tecnica · a peca nao
+# existe ainda` tem 51. O corte em 25 separa os dois casos, e as duas pontas
+# estao no arnes.
+#
+# E UMA LINHA QUE NEGA PECA QUE DE FATO NAO EXISTE ESTA CERTA. Quando a
+# negacao nomeia o alvo — "a peca de X nao existe" —, o X e' resolvido contra a
+# pasta primeiro: se ele nao for peca, a linha inteira passa. Sem isso, "a peca
+# de bestiario nao existe, e a 16 ja cobre metade dela" acenderia pela 16.
+#
+# O QUE ELA NAO ALCANCA, e fica escrito para nao ler como cobertura total:
+#  - ela le a LINHA, entao pendencia que nomeia a peca num paragrafo e a nega
+#    noutro passa por baixo dela;
+#  - ela le NOME DE PECA, entao "falta Aptidao ou Estilo da Sombra" — duas
+#    coisas que nunca viraram peca — nao acende;
+#  - o escopo e o material VIVO do projeto. Ficam de fora `logs/` (historico,
+#    pelo motivo da checagem 5), `finalizado/` (copia, e a checagem 7 e a dona
+#    dela), `PDFs - Sistemas Extras/` (material de outros sistemas) e as pastas
+#    de build. Quatro pastas, e a lista esta escrita aqui em vez de implicita.
+print()
+bloco('5.1 PECA QUE NAO EXISTE — e existe, na pasta, ha versoes')
+
+def _sem_acento(_s):
+    return ''.join(_c for _c in unicodedata.normalize('NFD', _s)
+                   if unicodedata.category(_c) != 'Mn')
+
+_PECAS_SLUG = {}
+for _n, (_arq, _) in sorted(_secoes.items()):
+    _slug = _sem_acento(_arq[:-3].split('-', 1)[1].replace('-', ' ')).lower()
+    _PECAS_SLUG[_slug] = _n
+if len(_PECAS_SLUG) != len(_secoes):
+    erro('5.1: duas pecas produziram o mesmo nome normalizado — a varredura '
+         'perdeu uma, e o silencio dela seria lido como verde')
+
+# a afirmacao tem de ser sobre a peca NAO existir, ou sobre esperar por ela.
+_NEGA = re.compile(
+    r'pe[cç]a que n[aã]o existe|a pe[cç]a de [^.,;]{2,40} n[aã]o existe|'
+    r'n[aã]o existe ainda|n[aã]o tem pe[cç]a dona|'
+    r'quando (?:a |aquela )?pe[cç]a[^.]{0,30}(?:chegar|for escrit|existir)|'
+    r'esperam?(?![a-z]) a pe[cç]a de|esperam?(?![a-z]) pe[cç]a|'
+    r'vaga espera(?![a-z])|vagas? esperam(?![a-z])', re.I)
+# quando a negacao NOMEIA o alvo, o alvo decide se a linha esta certa
+_NEGA_NOMEADA = re.compile(r'a pe[cç]a de ([^.,;:]{2,40}) n[aã]o existe', re.I)
+_CITACAO = re.compile(r'~~.*?~~|"[^"]*"|“[^”]*”')
+_CRASE_LONGA = re.compile(r'`([^`]{26,})`')
+
+_FORA_5_1 = ('_backup', '99-arquivo', '.git', '.claude', '_to_delete', 'node_modules',
+             '.venv', 'logs', 'finalizado', 'PDFs - Sistemas Extras', 'build')
+_negadas = 0
+_lidos = 0
+for _dir, _dirs, _files in os.walk(RAIZ):
+    _dirs[:] = [d for d in _dirs if d not in _FORA_5_1]
+    for _f in _files:
+        if not _f.endswith('.md'):
+            continue
+        _rel = os.path.relpath(os.path.join(_dir, _f), RAIZ)
+        _lidos += 1
+        for _i, _linha in enumerate(open(os.path.join(_dir, _f), encoding='utf-8'), 1):
+            _viva = _CRASE_LONGA.sub(' ', _CITACAO.sub(' ', _linha))
+            _viva = _sem_acento(_viva).lower()
+            if not _NEGA.search(_viva):
+                continue
+            # "a peca de X nao existe" com X que nao e peca: a linha esta certa
+            _alvos = [a.strip(' *`_') for a in _NEGA_NOMEADA.findall(_viva)]
+            if _alvos and not any(_s in _a for _a in _alvos for _s in _PECAS_SLUG):
+                continue
+            _achou = sorted({(_n, _s) for _s, _n in _PECAS_SLUG.items()
+                             if re.search(r'(?<![a-z])' + re.escape(_s) + r'(?![a-z])', _viva)})
+            for _n, _s in _achou:
+                _negadas += 1
+                erro(f'PECA VIVA NEGADA: {_rel}:{_i} escreve que "{_s}" nao existe ou '
+                     f'que alguem espera por ela, e ela e a peca {_n:02d} na pasta')
+
+if not _negadas:
+    print(f'  [x] as {len(_PECAS_SLUG)} pecas da pasta contra {_lidos} arquivos vivos, e nenhuma')
+    print('      linha diz que uma delas nao existe nem que uma pendencia espera por ela.')
+print()
+print('  Fechado numa peca e ainda aberto na peca vizinha e a familia de defeito que')
+print('  esta checagem existe para pegar. Ela le AFIRMACAO: aspas, crase e riscado')
+print('  saem antes, porque citar a frase morta e registro e nao promessa.')
+print('  FORA do escopo: logs/, finalizado/, PDFs - Sistemas Extras/ e as pastas de')
+print('  build. E ela le uma linha por vez — negacao espalhada em dois paragrafos passa.')
 
 
 # --- checagem 6: o mapa do ESTADO-ATUAL contra a pasta. ----------------------

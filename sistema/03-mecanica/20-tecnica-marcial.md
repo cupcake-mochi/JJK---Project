@@ -300,7 +300,9 @@ Contra uma marcial de arma única, ele apagaria a Kata junto:
 
 **Nas duas, o `Desarmado` volta a valer os `0,68` fatia que a peça 19 publica.** *A trava está no §4.1 — "três categorias, diferentes entre si" — e ela não é decorativa: com uma só, esta peça sozinha quebraria a régua de condições.*
 
-> **⚠ O que continua sem preço, e não é desta peça: quanto custa sacar a outra.** *A peça 3 §3.1 lista doze ações e nenhuma delas é sacar arma, e o próprio texto do `Desarmado` já diz "até pegar de volta" sem dizer quanto custa pegar.* **É buraco antigo e uniforme para todo mundo** — o que mudou é que agora existe uma ficha que depende dele. *Marcado no §11.*
+> **✔ E quanto custa sacar a outra tem resposta: a peça 3 §3.2, escrita na v0.122 por causa desta peça.** *Sacar ou guardar UM item não custa nada, uma vez por turno; do segundo em diante custa a Ação de Movimento inteira.* **Quem ficou `Desarmado` saca a reserva de graça** — a arma caiu, ela não foi guardada, e o saque da reserva é o primeiro do turno. *Com isso a saída desta seção funciona como escrita, e trocar de arma no meio da luta custa uma Ação de Movimento.*
+>
+> > **⚠ Esta linha dizia que aquilo continuava sem preço, e apontava para o §3.1 — que é a lista das doze ações, e não a seção dona.** *A peça 3 respondeu na §3.2, na mesma versão em que esta peça destampou o buraco, e as duas seções são vizinhas.* **Sessenta e seis versões de dívida paga e não desregistrada, em dois lugares desta peça.** *Achado na v0.188, varrendo a fila.*
 
 ## 8. O que ela devolve a três peças que a esperavam
 
@@ -402,11 +404,11 @@ O `conferir-marcial.py` roda **treze checagens**, e nenhum valor de regra fica e
 | **o texto das doze Bênçãos** | a magnitude que a peça 11 §6.8 esperava |
 | **1 vaga de `Desliga`** | a da Restrição Celestial, na peça 13 §8 |
 
-**O que ela não destrava: Sem Técnica.** *Decisão do Mizuki: aquela rota tem criação própria e vem depois.* **A peça 9 §6 continua mandando ela para Aptidão ou Estilo da Sombra.**
+**O que ela não destrava: Sem Técnica.** *Decisão do Mizuki: aquela rota tem criação própria e vem depois.* ***"Depois" chegou na v0.168, e é a peça 25:*** *a peça 9 §6 marca aquela rota como jogável desde então, e as rotas foram de `8 de 9` para `9 de 9`.* **O `Estilo da Sombra` não virou peça própria** — ele virou a semente `Domínio Simples`, que a peça 11 §6.5 já publicava.
 
 **Em aberto:**
 
-- **Quanto custa sacar uma arma.** *A peça 3 §3.1 tem doze ações e nenhuma é essa, e o `Desarmado` da peça 19 diz "até pegar de volta" sem preço.* **É buraco daquelas duas peças e não desta**, e ele é uniforme para todo mundo — o que mudou é que a rota de arma depende dele para o §7 funcionar como escrito.
+- ~~**Quanto custa sacar uma arma.** *A peça 3 §3.1 tem doze ações e nenhuma é essa, e o `Desarmado` da peça 19 diz "até pegar de volta" sem preço.*~~ ***FECHADO na v0.122, na peça 3 §3.2***, escrita na mesma versão e por causa desta peça: **o primeiro saque do turno é de graça, e do segundo em diante custa a Ação de Movimento inteira.** *O que continua devendo é outra coisa — o **preço em fatia** do `Desarmado`, que a peça 19 §2.2 mede supondo ficha sem arma reserva.* **Com a regra do saque, quem carrega reserva paga zero por ele**, e repreçar uma condição mexe na régua das treze e no catálogo de Melhorias do manual. *A peça 3 §3.2 e a peça 19 §2.2 já registram os dois lados.*
 - **A vaga de `Desliga` do Corpo Amaldiçoado.** *Ela é a única que sobrou na peça 13: a outra fechou na v0.132, com o `Conhecido`.* **A Origem dela não espera peça nenhuma desde a v0.122** — ela esperava esta aqui —, mas o **alvo** espera: *a enumeração da peça 13 §8 ficou com zero livre quando o `Ferro Velho` gastou os degraus de exaustão, e todo `Desliga` novo passou a depender de peça nova nomear coisa.* **Alvo de `Desliga` é escopo da peça 13**, e é lá que a espera está escrita.
 - **Nenhuma Kata publicada.** *Esta peça entrega a máquina e dois Fundamentos de exemplo; ela não abre catálogo de Kata pronta, do mesmo jeito que o manual entrega três Fundamentos prontos e não uma lista fechada de feitiços.*
 - ~~**O texto de mesa.** *Como toda peça de `03-mecanica/`, esta é nota de design.* **O capítulo do livro sai dela, e é lá que a armadilha do §6 precisa aparecer onde o jogador escolhe** — não numa seção de argumento.~~ **Fechado desde a v0.124, e só riscado na v0.170.** *O capítulo saiu naquela versão, e a armadilha está nele com todas as letras — o aviso `ela cobra tarde` fica na seção em que o objeto declara se o golpe simples atravessa, que é exatamente onde o jogador escolhe.* **Quarenta e seis versões de pendência morta que nenhuma checagem alcançava**, porque o assunto dela é "texto de mesa" e não uma peça.

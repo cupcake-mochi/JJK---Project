@@ -8,6 +8,93 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.188] — 30/08/2026
+
+**A fila foi varrida contra o estado real, e o que ela escondia era maior que o que ela listava.** *Dos onze itens, **três já estavam fechados** — e só um deles a fila desconfiava.* **Fora dela apareceram mais dois fechados e quatro pontas soltas, a mais velha com cento e quarenta versões.** *E a varredura destampou o que a v0.187 tinha deixado passar: a checagem que ela escreveu para proibir a promessa falsa não acendia na frase que ela existia para pegar.*
+
+| | fechados que continuavam abertos |
+|---|---|
+| **dentro da fila** | sacar arma *(a fila desconfiava)* · os pontos de feitiço do Emanador · a penalidade de arma sem treino |
+| **fora da fila** | a `Cicatriz` sem mecânica · a máquina de criação do `Sem Técnica` |
+| **contabilidade da peça 13 e do `LEIA-ME`** | duas vagas preenchidas anunciando espera · duas peças vivas negadas · a conta das sete vagas |
+
+### 1 · A checagem da v0.187 não pegava, e o motivo é uma vírgula
+
+**A sub-checagem `6.1` guarda uma relação:** *enquanto a peça 13 declarar que a enumeração de alvos está esgotada, nenhuma linha pode prometer que a vaga só espera escrita.* **O reconhecedor dela nasceu como quatro frases inteiras copiadas à mão, e uma foi copiada errada:**
+
+| o reconhecedor procurava | a peça escreve |
+|---|---|
+| `falta nela é escrita e não peça` | *"O que falta nela é escrita**,** e não peça"* |
+
+**Uma vírgula, e a checagem passou verde na própria linha.** *Ela ficou na seção 8 enquanto o §10 do mesmo arquivo dizia o contrário, com todas as letras.* **Duas afirmações opostas num arquivo que um validador varre inteiro toda vez.**
+
+> ***E as duas checagens do mesmo arquivo pediam coisas opostas.*** *A `6` aceitava — e imprimia — a célula `destravada pela peça 20, **e por escrever**`, que é exatamente a promessa que a `6.1` proíbe.* **A peça sentava no meio das duas.**
+
+### 2 · A âncora saiu da prosa e foi para a tabela
+
+**Frase inteira é âncora de prosa, e qualquer vírgula a derruba** — é a lição que a v0.183 escreveu para recorte de tabela, aplicada agora ao reconhecedor. *O conserto tem duas metades:*
+
+- **A célula da vaga passou a declarar o estado do ALVO**, e a checagem `6` cobra isso da tabela. *Destravar a Origem não destrava o alvo, e uma célula que cala sobre isso volta a ler como "só falta escrever".*
+- **O reconhecedor da `6.1` virou família de promessa**, com cada membro provado no arnês, e ele passou a aceitar as **duas** declarações da enumeração. *Sem a oposta ela só podia ser satisfeita de um jeito, que é o outro nome de checagem trivialmente verdadeira — e o contra-teste dela não teria como existir.*
+
+> **Oito perturbações acendem e o contra-teste fica verde.** *O contra-teste é o que importa: trocar a declaração para `sobrou alvo livre` **e** abrir a vaga junto passa, porque aquilo é uma peça coerente com outra decisão.*
+>
+> ***E `bastasse` ficou de fora do reconhecedor de propósito.*** *Ele acendeu na nota da própria v0.187 — "o item passou versões descrito como se **bastasse** sentar" —, e pôr o tempo passado da promessa num reconhecedor é plantar armadilha em toda nota de correção que o arquivo escrever daqui para a frente.* **O reconhecedor lê afirmação no presente.**
+
+### 3 · Cinco itens fechados que continuavam abertos noutro documento
+
+| item | fechou em | continuava aberto em |
+|---|---|---|
+| **quanto custa sacar arma** | **v0.122**, peça 3 §3.2 | peça 20, no §7 e no §11 — **66 versões** |
+| **os pontos de feitiço do Emanador** | **v0.131**, peça 6 §9 | `ESTADO-ATUAL` e `RASCUNHO-trilhas.md` §4 |
+| **a penalidade de arma sem treino** | **v0.104** e **v0.117**, peça 19 §6 | o `ESTADO-ATUAL`, como *"o que falta"* |
+| **a `Cicatriz` sem mecânica** | **v0.171**, peça 1 §5.5 | o `ESTADO-ATUAL`, em três frases |
+| **a máquina de criação do `Sem Técnica`** | **v0.168**, peça 25 | o `ESTADO-ATUAL` em três lugares, e a peça 20 §11 |
+
+**O pior dos cinco é o do `Sem Técnica`, e ele não é de prosa: é de tabela.** *A tabela de rotas do `ESTADO-ATUAL` publicava `qualquer uma + Sem Técnica → não`, com a peça 9 §6 publicando `sim` desde a v0.168 e o `README` publicando as nove.* **É a lição nº 9 no documento que se lê no começo de toda conversa.**
+
+> **E a `Cicatriz` fechou pelo lado errado da dívida, que é por isso que ninguém voltou.** *A dívida esperava a peça de dano e condições; a resposta veio da peça 1, porque a `Cicatriz` é consequência de cair a `0` de vida e não de condição.* **O bloco continuava dizendo *"o que precisa ser resolvido quando aquela peça chegar"* com a peça 19 no disco desde a v0.103** — e o topo do mesmo arquivo já publicava a mecânica dela.
+
+### 4 · E a peça 13 tinha quatro pontas soltas da mesma família
+
+**Duas vagas foram preenchidas na v0.104 e a prosa embaixo das tabelas continuou anunciando a espera** — a do Descendente virou o `Cabo`, a da Restrição Celestial virou o `Assinado`. *A checagem `6` lê a tabela, e as tabelas estavam certas; quem envelheceu foi o parágrafo de baixo, que nenhuma checagem alcançava.*
+
+**E duas linhas negavam peça que existe:** *`objeto amaldiçoado` "não tem peça dona em lugar nenhum" — ele é a peça 21 desde a v0.132 — e a `Armaria` esperava "a peça de equipamento", que é a 14 desde a **v0.48**.* **Cento e quarenta versões.** *O `sistema/LEIA-ME.md` carregava a mesma conta: "reclassificadas; **nenhuma preenchida**", com seis das sete fechadas.*
+
+### 5 · A checagem que valia mais que qualquer item da lista
+
+**A checagem `5.1` do `conferir-repositorio.py` pergunta uma coisa só: alguma linha viva diz que uma peça não existe, ou que uma pendência espera por ela, quando ela está na pasta?**
+
+**Nada é escrito dentro dela.** *A lista sai do nome do arquivo — `16-ferramenta-amaldicoada.md` vira a frase `ferramenta amaldiçoada`, e a prosa casa depois de tirar acento.* **Peça nova entra na varredura sozinha**, e o par de testes que prova isso é o mais barato do arnês: *a mesma frase fica verde quando a peça não existe e vermelha quando o arquivo está na pasta.*
+
+> **Citação não é afirmação.** *Aspas e riscado saem antes de medir — senão a nota que registra o conserto acende a checagem que ela acabou de pagar, que foi o que aconteceu na v0.187.* **A crase só sai quando é frase, e não quando é termo:** *este projeto põe o próprio vocabulário entre crase o tempo todo, e `objeto amaldiçoado` é o **sujeito** da acusação.* **O corte fica em 25 caracteres, e as duas pontas estão no arnês.**
+>
+> ***E uma linha que nega peça que de fato não existe está certa.*** *Quando a negação nomeia o alvo, o alvo é resolvido contra a pasta primeiro — sem isso, "a peça de bestiário não existe, e a 16 já cobre metade dela" acenderia pela 16.*
+>
+> **⚠ Ela não é cobertura total, e isso está escrito no código:** *lê uma linha por vez, então negação espalhada em dois parágrafos passa; lê nome de peça, então "falta Aptidão ou Estilo da Sombra" — duas coisas que nunca viraram peça — passa por baixo dela.* **Quatro pastas ficam fora do escopo, e a lista está escrita em vez de implícita.**
+
+### Adicionado
+
+- **A checagem `5.1` do `conferir-repositorio.py`** — peça viva negada, com a lista de peças saindo da pasta. *Sub-bloco, então a contagem não se move.*
+- **A cobrança do estado do ALVO na célula da vaga**, dentro da checagem `6` do `conferir-legados.py`, e o reconhecedor da declaração oposta na `6.1`.
+
+### Alterado
+
+- **Seis trechos da peça 13**: as duas linhas da vaga do Corpo Amaldiçoado, as duas notas de vaga preenchida, a negação de `objeto amaldiçoado` e a da `Armaria`.
+- **Três trechos da peça 20**: o ⚠ do §7, o item do §11 sobre sacar arma, e a linha que mandava `Sem Técnica` para a peça 9 §6.
+- **Sete trechos do `ESTADO-ATUAL`**: a `Cicatriz`, a penalidade de arma, os pontos de feitiço, a tabela de vagas, a máquina do `Sem Técnica`, o `Estilo da Sombra` e a tabela de rotas.
+- **Duas linhas do `RASCUNHO-trilhas.md`** §4, e **uma do `sistema/LEIA-ME.md`**.
+
+### Decidido
+
+- **Âncora de reconhecedor não é frase inteira.** *Quem procura uma promessa procura a família dela, e cada membro é provado no arnês.*
+- **Toda vaga destravada declara o estado do alvo na tabela**, e não em prosa ao lado.
+- **Citar a frase morta é registro, e não promessa** — aspas, riscado e crase longa saem antes de qualquer checagem de prosa medir.
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **Sobraram seis itens e nenhum é conserto:** *a Passiva do `Não Sou Gente`, a vaga de `Desliga` do Corpo Amaldiçoado, a medida do `Absorver` contra a Reação de cobrir-se, o preço em fatia do `Desarmado` com arma reserva, três escolhas de sabor da peça 25 e da peça 20, e o `04-playtest/` vazio.*
+
+---
+
 ## [0.187] — 30/08/2026
 
 **A vaga de `Desliga` do Corpo Amaldiçoado era a última da fila, e ela não é o que a fila dizia.** *Ela estava descrita há versões como *"só falta sentar e escrever"*.* **O que falta nela é ALVO.**

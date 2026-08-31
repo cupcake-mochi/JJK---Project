@@ -279,9 +279,15 @@ for org in origens_cat:
         erro('6', f'{org} soma {tot} Desliga, e a cota e {COTA_DESLIGA}')
 # Uma vaga reservada tem de dizer o que ela esta esperando, e desde a v0.103 as
 # duas respostas legais sao DIFERENTES: ou ela ainda espera uma peca que nao
-# existe, ou a peca ja saiu e a vaga esta DESTRAVADA e por escrever. Aceitar so'
-# a primeira forma obrigaria a vaga a mentir depois que a peca nascesse — foi o
-# que a peca 19 fez com tres delas nesta versao.
+# existe, ou a peca ja saiu e a vaga esta DESTRAVADA de ORIGEM. Aceitar so' a
+# primeira forma obrigaria a vaga a mentir depois que a peca nascesse — foi o
+# que a peca 19 fez com tres delas naquela versao.
+#
+# v0.188: a celula da vaga destravada dizia "e por escrever", e essa era a
+# promessa falsa que a 6.1 existe para proibir — as duas checagens do mesmo
+# arquivo pediam coisas opostas, e a peca sentava no meio. Agora a celula
+# declara o ESTADO DO ALVO, que e a segunda metade da destrava, e a ancora sai
+# da prosa e vai para a tabela.
 mudas = [v for v in vagas
          if 'espera' not in v[1].lower() and 'destravada' not in v[1].lower()]
 if mudas:
@@ -292,7 +298,7 @@ else:
     esperando = [v for v in vagas if 'destravada' not in v[1].lower()]
     destrav = [v for v in vagas if 'destravada' in v[1].lower()]
     print(f'  [x] as {len(vagas)} vagas dizem o que esperam: '
-          f'{len(esperando)} esperando peca, {len(destrav)} destravada(s) e por escrever.')
+          f'{len(esperando)} esperando peca, {len(destrav)} destravada(s) de Origem.')
     quem = collections.Counter()
     for _, txt in esperando:
         m = re.search(r'espera a pe[cç]a de ([^*|]+)', txt)
@@ -300,14 +306,25 @@ else:
     for k, v in sorted(quem.items()):
         print(f'      {v} espera(m) a peca de {k}')
     quem2 = collections.Counter()
+    _ALVO = re.compile(r'travada de alvo|sem alvo livre|com alvo livre', re.I)
+    _sem_alvo = []
     for _, txt in destrav:
         m = re.search(r'destravada pela pe[cç]a (\d+)', txt)
         quem2[m.group(1) if m else '?'] += 1
+        if not _ALVO.search(txt):
+            _sem_alvo.append(txt.strip())
     for k, v in sorted(quem2.items()):
-        print(f'      {v} destravada(s) pela peca {k}, e por escrever')
+        print(f'      {v} destravada(s) de Origem pela peca {k}')
     if '?' in quem2:
         erro('6', f'{quem2["?"]} vaga(s) dizem "destravada" sem nomear a peca que '
                   f'destravou — vaga que nao nomeia e cheque em branco do mesmo jeito')
+    if _sem_alvo:
+        erro('6', f'{len(_sem_alvo)} vaga(s) declaram destrava de ORIGEM e nao declaram o '
+                  f'estado do ALVO — destravar a Origem nao destrava o alvo, e uma celula '
+                  f'que cala sobre isso volta a ler como "so falta escrever". '
+                  f'Primeira: "{_sem_alvo[0][:70]}"')
+    else:
+        print('  [x] toda vaga destravada declara na tabela se o alvo esta livre ou travado.')
 
 # -- 6.1: destravada de ORIGEM nao e destravada de ALVO -----------------------
 # v0.187: a peca dizia as DUAS coisas sobre a mesma vaga, na mesma secao. Num
@@ -321,16 +338,48 @@ else:
 # esgotada, nenhuma linha pode prometer que so falta escrita. E ela NAO passa
 # por ausencia: se a declaracao da enumeracao sumir, isso tambem acende — senao
 # apagar a frase viraria o conserto barato para a divergencia.
+#
+# v0.188: o reconhecedor da promessa nasceu ancorado em quatro frases inteiras,
+# e uma delas foi copiada SEM a virgula que a peca tem. Com isso a 6.1 saiu
+# verde na propria linha que ela existia para pegar — "O que falta nela e
+# escrita, e nao peca" ficou de pe na secao 8 enquanto o §10 dizia o contrario.
+# Frase inteira e ancora de prosa: qualquer virgula a derruba. O reconhecedor
+# passou a ser FAMILIA de promessa, com cada membro provado no arnes, e a
+# ancora dura mudou de casa — a celula da tabela declara o estado do alvo, e a
+# checagem 6 cobra ela.
+#
+# E a checagem aceita as DUAS declaracoes, e nao so' a de esgotada. Sem a
+# oposta ela seria satisfeita de um jeito so, que e o outro nome de checagem
+# trivialmente verdadeira — e o contra-teste dela nao teria como existir:
+# trocar a declaracao para "sobrou alvo livre" E abrir a vaga junto tem de
+# ficar VERDE, porque aquilo e uma peca coerente com outra decisao.
 _ESGOTADA = re.compile(r'alvo livre acabou|zero alvo livre|zero livres|'
                        r'depende de peça nova (?:nomear|criar) coisa', re.I)
-_SO_ESCRITA = re.compile(r'não espera peça nenhuma|o que falta ali é escrita|'
-                         r'falta nela é escrita e não peça|não depende de peça nenhuma', re.I)
-if not _ESGOTADA.search(PECA):
+_TEM_ALVO = re.compile(r'sobrou alvo livre|ainda há alvo livre|'
+                       r'a enumeração da seção 8 tem alvo livre', re.I)
+_SO_ESCRITA = re.compile(r'não espera peça nenhuma|não depende de peça nenhuma|'
+                         r'falta (?:ali|nela|nele|aqui) é escrita|'
+                         r'o que falta é escrita|'
+                         r'e por escrever|'
+                         r'(?:só falta|basta) sentar', re.I)
+# `bastasse` e `bastava` ficam FORA de proposito: as duas so' aparecem em nota
+# historica contando o defeito antigo, e por em recognizer o tempo passado da
+# promessa e plantar armadilha em toda nota de correcao que este arquivo
+# escrever daqui para a frente. O reconhecedor le AFIRMACAO no presente — a
+# mesma regra que ja tira as frases entre aspas.
+if not _ESGOTADA.search(PECA) and not _TEM_ALVO.search(PECA):
     erro('6', 'a peca parou de declarar o estado da enumeracao de alvos da secao 8 — sem '
               'essa declaracao, uma vaga pode voltar a prometer que so falta escrita e '
               'nada contradiz')
+elif not _ESGOTADA.search(PECA):
+    print('  [x] a peca declara que ainda sobra alvo livre — a promessa de escrita e legitima.')
 else:
     _contra = [l for l in PECA.split('\n') if _SO_ESCRITA.search(l)]
+    # a celula da tabela entra na mesma relacao: com a enumeracao esgotada,
+    # nenhuma vaga pode declarar `com alvo livre`. Mudar as duas metades de
+    # forma coerente — tirar a declaracao de esgotada E abrir o alvo — fica
+    # verde de proposito, e e o contra-teste desta checagem.
+    _contra += [t for _, t in vagas if re.search(r'com alvo livre', t, re.I)]
     if _contra:
         erro('6', f'{len(_contra)} linha(s) dizem que a vaga so espera escrita, e a peca '
                   'declara que a enumeracao de alvos esta esgotada — destravada de ORIGEM '
