@@ -8,6 +8,49 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.190] — 30/08/2026
+
+**Duas escolhas de sabor da peça 25 foram tomadas, e as duas ficam ANOTADAS e não escritas.** *Elas estavam abertas desde a v0.168, e o que faltava nas duas era você dizer sim.*
+
+### 1 · A `Pétala` vira a quarta porta
+
+**A tabela do §4.2 passou a ter quatro linhas.** *A banda dela já estava medida — Classe Passiva 2, `9,3` níveis, a mesma do `Domínio Simples` — e o eixo que separa as duas já estava escrito: uma cobre um raio, a outra devolve o golpe e não para ataque físico.*
+
+**⚠ A decisão está na tabela; o texto da porta e o exemplo dela não estão escritos.**
+
+### 2 · A `Energia Reversa` fere maldição
+
+***Palavras do Mizuki, e elas são a especificação:*** **ela fere, com `50%` de dano extra**, e *"tem de seguir os feitiços de cura mesmo — então os dados são reduzidos"*.
+
+**E ferir pela APTIDÃO, sem `Manejo` e sem estilo, pede uma das duas:** *a aptidão de liberação da `Energia Reversa`, ou uma entrega que cure outro alvo além de você — que é o que a Trilha `Sutura` faz no nível 11 dela.*
+
+> **O motivo é o mesmo nos dois: para usar `Energia Reversa` em outra coisa, você precisa conseguir liberar ela do corpo.** *Curar a si mesmo não prova isso.*
+>
+> **⚠⚠ Isto é decisão, e não regra escrita.** *Faltam três coisas, e a peça não publica nenhuma: a base do `50%`, o nome da aptidão de liberação — que não passou pela triagem — e o preço contra a régua.* **Nada foi medido nesta versão**, e isso está escrito no §4.4 com todas as letras.
+
+### 3 · O validador pegou um erro meu na mesma frase que a decisão
+
+**Eu escrevi *"sem feitiço e sem estilo"*, e nesta rota `feitiço` se chama `Manejo`.** *A checagem 3 do `conferir-sem-tecnica.py` acendeu na hora* — ela existe exatamente para isso, e é o terceiro renome que aquela peça guarda.
+
+### Alterado
+
+- **O §4.2 da peça 25**, que virou quatro portas, e o **§4.3**, que registrava a `Pétala` como não escrita.
+- **Os dois itens do §11** que listavam as duas como abertas.
+
+### Adicionado
+
+- **O §4.4 da peça 25**, com a especificação da `Energia Reversa` que fere e os três números que faltam.
+
+### Decidido
+
+- **A `Pétala` é porta.**
+- **A `Energia Reversa` fere maldição, com `50%` de dano extra e a régua de cura por cima.**
+- **Ferir pela aptidão exige liberação, ou uma entrega que cure terceiro.**
+
+→ **Continua em** `PROMPT-PROXIMA-CONVERSA.md`. **As duas decisões desta versão precisam de escrita e de número**, e fora delas seguem o conserto das três vagas que a peça 19 diz esperarem ela, a divergência de `9,4 ×` entre as duas réguas de rolagem, e o `04-playtest/`.
+
+---
+
 ## [0.189] — 30/08/2026
 
 **Três itens da fila fecharam, e nenhum dos três fechou do jeito que a fila dizia.** *Uma pergunta estava mal feita, uma decisão citava uma regra que diz o contrário dela, e uma dívida estimou o próprio tamanho sem conferir.* **As três descreviam errado o que elas mesmas eram**, e as três levaram menos trabalho do que a lista prometia.

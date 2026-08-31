@@ -101,21 +101,39 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 
 **Não é teto que alguém escolheu: a escada de gate É a escada de Classe Passiva**, então a antecipação de uma semente é decidida pela altura dela. *`"Só Classe Passiva 2 e 3"` é o que a escada que já existe produz quando se pergunta quais sementes passam no filtro.*
 
-### 4.2 As três portas
+### 4.2 As quatro portas
 
 | a porta | a semente | Classe Passiva | adianta |
 |---|---|---|---|
 | **a Nova Sombra** | **`Domínio Simples`** | 2 | `9,3` níveis |
 | **a rota da Shoko** | **`Energia Reversa`** | 3 | `17,3` níveis |
+| **a `Pétala`** | **`Pétala`** | 2 | `9,3` níveis |
 | **a que você escreve** | **`Aptidão Própria`** | 1 ou 2 | `9,3` níveis no teto dela |
+
+> ***Decisão do Mizuki na v0.190: a `Pétala` vira porta.*** *Ela já estava medida e declarada como quarta porta não escrita desde a v0.168 — cabia na banda, e o que faltava era escolha de sabor.* **⚠ A tabela acima é a decisão; o texto da porta e o exemplo dela ainda não estão escritos**, e é isso que a §9 vai levar quando alguém sentar nela.
 
 **A terceira não é escapatória, e ela não vira a melhor.** *A peça 11 §6.7 já trava a `Aptidão Própria` em `Classe Passiva 1 ou 2, nunca 3`, e a §6.7 também escreve o desempate: **na dúvida, Pesada — e Pesada é Classe Passiva 3, que ela não alcança**, então dúvida reprova a proposta.* **Ela cai no piso da banda por regra que já existia, sem uma linha nova.**
 
 > **É por ela que a mecânica de base entra.** *Quem não quer nenhuma das duas do catálogo escreve a própria em cima do que o sistema já tem — a Classe, a arma, a proteção, o que for.* **O que ela não pode é repetir uma das doze pagas com outro nome**, e essa trava também é da §6.7.
 
-### 4.3 Duas anotadas, e elas ficam declaradas
+### 4.3 A `Pétala` virou porta na v0.190
 
-**A `Pétala` cabe na banda exata do `Domínio Simples`** — Classe Passiva 2, `9,3` níveis — e o eixo que separa as duas já está escrito na peça 11 §6.5: *uma cobre um raio, a outra devolve o golpe e não para ataque físico.* **Ela não virou porta nomeada nesta versão, e é sabor e não conta.**
+**Ela cabe na banda exata do `Domínio Simples`** — Classe Passiva 2, `9,3` níveis — e o eixo que separa as duas já está escrito na peça 11 §6.5: *uma cobre um raio, a outra devolve o golpe e não para ataque físico.* **A decisão está tomada e a linha está na tabela do §4.2; o que falta é o texto da porta.**
+
+### 4.4 A `Energia Reversa` fere maldição — decidido na v0.190, e por escrever
+
+***Palavras do Mizuki, e elas são a especificação:*** **energia positiva fere maldição, causando `50%` de dano extra**, e ela *"tem de seguir os feitiços de cura mesmo — então os dados são reduzidos"*.
+
+**E ferir com a APTIDÃO — sem `Manejo` e sem estilo — pede uma das duas:**
+
+| porta | o que ela é |
+|---|---|
+| a aptidão de **liberação** da `Energia Reversa` | soltar a energia do corpo, e não só se curar |
+| uma entrega que **cure outros alvos além de você** | é o que a Trilha `Sutura` faz, no nível 11 dela |
+
+**O motivo é o mesmo nos dois: para usar `Energia Reversa` em outra coisa, você precisa conseguir liberar ela do corpo.** *Curar a si mesmo não prova isso — a semente entrega a cura própria, e a cura de terceiro sempre morou fora da criação.*
+
+> **⚠ Isto é a decisão, e não a regra escrita.** *Falta o número de verdade — `50%` de quê, sobre qual base, e com que dado depois da redução —, falta o nome da aptidão de liberação, que ainda não passou pela triagem, e falta o preço contra a régua.* **Nada disso foi medido nesta versão, e a peça não publica nenhum dos três.** *Registrado aqui porque decisão registrada não é decisão aplicada, e este projeto já pagou cento e quarenta e nove versões por confundir as duas.*
 
 **A `Extensão de Domínio` foi recusada por decisão do Mizuki**, e ela caberia na banda. *Ela é `Classe Passiva 3` como a `Energia Reversa`.*
 
@@ -280,7 +298,7 @@ O `conferir-sem-tecnica.py` roda **doze checagens**, e nenhum valor de regra fic
 
 **Em aberto:**
 
-- **A `Pétala` como quarta porta.** *Ela cabe na banda e o eixo que a separa do `Domínio Simples` já está escrito. É sabor, e ficou para depois.*
-- **`Energia Reversa` contra maldição.** *Na obra, energia positiva fere maldição — o Yuta e o Sukuna usam.* **Aqui ela só cura, e a decisão do Mizuki foi averiguar depois.**
+- ~~**A `Pétala` como quarta porta.**~~ ***DECIDIDA na v0.190: ela vira porta***, e a linha está na tabela do §4.2. *O que falta é o texto dela e o exemplo — decisão tomada, escrita pendente.*
+- **`Energia Reversa` contra maldição — DECIDIDA na v0.190, e por escrever.** *Ela fere, com `50%` de dano extra, seguindo a régua de cura — os dados descem junto.* **Ferir pela aptidão pede a liberação, ou uma entrega que cure outro alvo além de você.** *O §4.4 tem a decisão inteira, e diz os três números que ainda faltam: a base do `50%`, o nome da aptidão de liberação e o preço contra a régua.*
 - **Nenhum `Manejo` publicado.** *Esta peça entrega a máquina e dois Fundamentos de exemplo; ela não abre catálogo de `Manejo` pronto, do mesmo jeito que o manual entrega três Fundamentos prontos e não uma lista fechada de feitiços.*
 - ~~**O texto de mesa.** *Como toda peça de `03-mecanica/`, esta é nota de design.* **O capítulo do livro sai dela.**~~ **Fechado na v0.170:** é o capítulo 11 do livro, logo depois da Técnica Marcial. *O livro foi de `17` para `18` capítulos, e a seção `Sem Técnica` do capítulo de Origens virou ponteiro.*
