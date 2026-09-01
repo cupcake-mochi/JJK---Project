@@ -275,7 +275,7 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 ## 8. Em aberto
 
-- **⚠⚠ A pressão do chefe é `3,3 ×` menor que a do d20, e isso é a v0.200.** *Medido contra a tabela `Estatísticas de Monstro por Nível de Desafio` do `Guia do Mestre` de 2014:* **lá o chefe come `24%` da vida do grupo por rodada e zera o grupo em `4,1` rodadas, que é a duração da luta; aqui ele come `7%` e levaria `14`.** *A razão é constante em todos os níveis, então não é ruído.*
+- **⚠⚠ A pressão do chefe é `3,3 ×` menor que a do d20, e isso é a v0.201.** *Medido contra a tabela `Estatísticas de Monstro por Nível de Desafio` do `Guia do Mestre` de 2014:* **lá o chefe come `24%` da vida do grupo por rodada e zera o grupo em `4,1` rodadas, que é a duração da luta; aqui ele come `7%` e levaria `14`.** *A razão é constante em todos os níveis, então não é ruído.*
 
   > **Achado pelo Mizuki, perguntando se o dano não estava baixo.** *Duas medidas minhas disseram que não, e as duas mediam a coisa errada — "quantas rodadas para derrubar o grupo" e "ele derruba alguém se concentrar".* **A segunda continua verdade e não responde a pergunta: na mesa ele não ameaça.**
   >

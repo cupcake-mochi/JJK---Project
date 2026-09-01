@@ -649,7 +649,7 @@ else:
 
 
 # --------------------------------------------------------------------------
-bloco('11. O CLASH — a caixa do refino bate com a secao, e nada ali tem numero')
+bloco('11. O CLASH — a caixa do refino bate com a secao, e o unico numero e o desempate')
 
 # v0.173. O dono e' o GERADOR e nao o .docx: o .docx e' saida, e conferir a saida
 # faria esta checagem depender de alguem ter rodado o make.js. Ler o gerador tambem
@@ -728,9 +728,9 @@ if _PE:
         _sec = _sec[:_sec.index('];')] if '];' in _sec else _sec
         _linhas = re.findall(r"\[\'(\d)\', \'([^\']+)\', \'([^\']+)\'\]", _sec)
         print(f'  a cascata do clash tem {len(_linhas)} pergunta(s)')
-        if len(_linhas) < 3:
+        if len(_linhas) < 4:
             erro(f'11: a cascata do clash rendeu {len(_linhas)} pergunta(s) e sao '
-                 f'tres — extrator que para de achar nao confere nada')
+                 f'quatro — extrator que para de achar nao confere nada')
         elif [n for n, _, _ in _linhas] != [str(i) for i in
                                             range(1, len(_linhas) + 1)]:
             erro(f'11: a numeracao da cascata tem buraco: '
@@ -738,24 +738,184 @@ if _PE:
         else:
             print('  [x] a cascata esta numerada sem buraco, e a ultima e a corrida.')
 
-        # --- e nada nela tem numero -----------------------------------------
-        # A decisao da v0.173 e' "zero numero novo". Um numero novo aqui teria uma
-        # de tres formas, e nenhuma delas pode aparecer.
+        # --- e a secao tem DOIS numeros proprios, e so eles ------------------
+        # ⚠ A v0.173 fechou esta secao como "zero numero novo", e a v0.200 abriu
+        # a excecao de proposito: o desempate por dado precisa de um dado e de uma
+        # margem. Entao a checagem trocou de pergunta — de "nao tem numero" para
+        # "tem exatamente estes dois, e nada mais".
+        #
+        # Os valores NAO estao escritos aqui: eles sao LIDOS do manual, que e' o
+        # dono. O que este bloco sabe e' a forma, e a 11.1 cobra que o livro repita
+        # os mesmos que o manual publicou.
+        _dado = re.search(r'(\d+d\d+)', _sec)
+        _marg = re.search(r'\*\*(\d+) ou mais\*\*', _sec)
+        if not _dado or not _marg:
+            erro('11: nao achei o dado do desempate e a margem dele na secao do '
+                 'clash — a pergunta 3 e o unico lugar do clash onde numero pode '
+                 'aparecer, e se ela sumiu a checagem abaixo passaria vazia')
+        else:
+            print(f'  o desempate publicado no manual: {_dado.group(1)}, '
+                  f'margem {_marg.group(1)}')
+
+        # o resto continua proibido: dado que nao seja o do desempate, porcentagem
+        # e prazo. A porcentagem da caixa do "por que" e' razao e nao regra, entao
+        # ela sai da varredura junto com a caixa.
+        _corpo = _sec.split("BOX('POR QUE")[0]
         FORMAS = [(r'\d+\s*d\s*\d+', 'notacao de dado'),
                   (r'\d+\s*%', 'porcentagem'),
                   (r'\d+\s*(?:rodadas?|PE|metros?)\b', 'custo ou prazo')]
-        _achados = []
-        for _rx, _nome in FORMAS:
-            for _m2 in re.finditer(_rx, _sec):
-                _achados.append(f'{_nome}: "{_m2.group(0)}"')
+        _permitido = {_dado.group(1) if _dado else None}
+        _achados = [f'{_nome}: "{_m2.group(0)}"'
+                    for _rx, _nome in FORMAS
+                    for _m2 in re.finditer(_rx, _corpo)
+                    if _m2.group(0).replace(' ', '') not in _permitido]
         if _achados:
             for _a in _achados:
-                erro(f'11: a secao do clash escreveu numero novo — {_a}. A v0.173 '
-                     f'fechou ela como toda derivada: cascata de refino, tipo de '
-                     f'Acerto e corrida sobre estado ja publicado')
+                erro(f'11: a secao do clash escreveu numero que nao e o desempate '
+                     f'— {_a}. Fora do dado e da margem ela continua toda derivada: '
+                     f'cascata de refino, tipo de Acerto e corrida sobre estado '
+                     f'ja publicado')
         else:
-            print('  [x] a secao do clash nao escreve dado, porcentagem nem prazo: '
-                  'ela continua sem numero proprio.')
+            print('  [x] fora do desempate a secao nao escreve dado, porcentagem '
+                  'nem prazo.')
+
+
+# --------------------------------------------------------------------------
+bloco('11.1. O CLASH MORA EM DOIS DOCUMENTOS — o livro e o manual concordam?')
+
+# v0.200: a secao entrou no livro, e com ela a licao no 9 — um numero (aqui, uma
+# ORDEM) que mora em dois documentos vai divergir. O dono continua sendo o manual;
+# o livro e' copia, e esta checagem existe para a copia nao envelhecer calada.
+#
+# O que se compara NAO e' o texto: eu reescrevi frases na passagem, e cobrar
+# byte por byte transformaria toda revisao de estilo em falha. O que nao pode
+# mudar e' a ORDEM e QUEM DECIDE cada degrau.
+_LIVRO = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..',
+                      '05-material', 'livro', 'manual', '40-fundamento.md')
+
+# o decisor de cada degrau, na ordem. Nenhum destes carrega o valor que confere:
+# sao os nomes das tres coisas, e nao os numeros delas.
+# ⚠ o ancora do degrau 1 e' `mais refino` e nao `refino` seco, e a diferenca nao
+# e' estetica: a pergunta 2 comeca com "Refino igual", entao `refino` seco casa com
+# as duas e uma troca de ordem entre elas passaria metade calada. O manual escreve
+# em negrito e o livro em texto limpo, e por isso o `\**` no meio.
+DEGRAU = [('refino',  r'mais\s+\**refino'),
+          ('o Acerto que nao fere', r'n[aã]o\s+(?:causa dano|fere)'),
+          ('o dado do desempate', r'\d+d\d+'),
+          ('a corrida', r'corrida')]
+
+def _cascata(texto, linhas):
+    """Devolve o degrau que cada linha numerada diz decidir."""
+    fora = []
+    for n, linha in linhas:
+        casou = [nome for nome, rx in DEGRAU if re.search(rx, linha, re.I)]
+        fora.append((n, casou))
+    return fora
+
+try:
+    _lv = open(_LIVRO, encoding='utf-8').read()
+except OSError:
+    _lv = ''
+    erro('11.1: nao consegui abrir o capitulo do Fundamento do livro — a copia '
+         'do clash nao foi conferida, e este bloco sairia verde calado')
+
+if _lv and _PE:
+    _i = _lv.find('### Domínios sobrepostos')
+    if _i < 0:
+        erro('11.1: o livro perdeu a secao "Dominios sobrepostos" — o clash '
+             'voltou a existir so no manual do Fundamento')
+    else:
+        _sl = _lv[_i:]
+        _fim = _sl.find('\n## ')
+        _sl = _sl[:_fim] if _fim > 0 else _sl
+        _tab = [(m.group(1), m.group(0)) for m in
+                re.finditer(r'(?m)^\|\s*(\d)\s*\|.*$', _sl)]
+        print(f'  a cascata do livro tem {len(_tab)} pergunta(s); a do manual, '
+              f'{len(_linhas)}')
+        if len(_tab) != len(_linhas):
+            erro(f'11.1: o livro escreve {len(_tab)} pergunta(s) e o manual '
+                 f'{len(_linhas)} — uma das duas copias mudou sozinha')
+        else:
+            _dl = _cascata(_sl, _tab)
+            _dm = _cascata(_sec, [(n, f'{p} {q}') for n, p, q in _linhas])
+            _ruim = []
+            for k, ((nl, cl), (nm, cm)) in enumerate(zip(_dl, _dm)):
+                esperado = DEGRAU[k][0]
+                if nl != nm:
+                    _ruim.append(f'a linha {k+1} e "{nl}" no livro e "{nm}" no manual')
+                elif esperado not in cl:
+                    _ruim.append(f'a pergunta {nl} do LIVRO nao decide por '
+                                 f'{esperado} — ela casa com {cl or "nada"}')
+                elif esperado not in cm:
+                    _ruim.append(f'a pergunta {nm} do MANUAL nao decide por '
+                                 f'{esperado} — ela casa com {cm or "nada"}')
+            for _r in _ruim:
+                erro(f'11.1: {_r}. A ordem da cascata e a regra, e as duas copias '
+                     f'tem de dizer a mesma')
+            if not _ruim:
+                print(f'  [x] os {len(DEGRAU)} degraus decidem pela mesma coisa, '
+                      f'na mesma ordem, nos dois documentos.')
+
+        # --- e a copia tem de trazer as SEIS saidas, e nao so a cascata -----
+        # ⚠ v0.200: este pedaco nasceu de uma falha real. A transposicao levou a
+        # cascata e esqueceu a caixa dos tres dominios, e o bloco 11.1 saiu VERDE
+        # porque so olhava a ordem das tres perguntas. Uma checagem que confere o
+        # meio da secao e nao as pontas dela deixa a copia encolher calada.
+        #
+        # Nenhum destes ancoras carrega valor: sao os NOMES das seis saidas.
+        SAIDAS = {
+            'a sobreposicao':        r'sobrep',
+            'os Acertos desligados': r'nenhum dos dois acerta',
+            'a corrida':             r'corrida',
+            'o perdedor recebe':     r'Acerto do vencedor',
+            'o Rescaldo dos dois':   r'Rescaldo',
+            'a incompleta que nao vence': r'n[aã]o pode vencer',
+            'tres ou mais caem':     r'tr[eê]s ou mais',
+        }
+        for _nome, _rx in SAIDAS.items():
+            _no_man = re.search(_rx, _sec, re.I) is not None
+            _no_liv = re.search(_rx, _sl, re.I) is not None
+            if _no_man and not _no_liv:
+                erro(f'11.1: o manual escreve "{_nome}" e o livro nao — a copia '
+                     f'encolheu, e o jogador fica sem uma saida que a regra tem')
+            if _no_liv and not _no_man:
+                erro(f'11.1: o livro escreve "{_nome}" e o manual nao — a copia '
+                     f'cresceu, e quem manda na regra e o manual')
+        print(f'  [x] as {len(SAIDAS)} saidas da regra estao nos dois documentos.')
+
+        # --- o desempate: o mesmo dado e a mesma margem nos dois -----------
+        # ⚠ v0.200. Este e o unico numero que a secao tem, e ele mora nos dois
+        # documentos — licao no 9 na forma mais pura. O manual e' o dono; o valor
+        # nao esta escrito aqui, ele e' lido de la e cobrado no livro.
+        _dl = re.search(r'(\d+d\d+)', _sl)
+        _ml = re.search(r'\*\*(\d+) ou mais\*\*', _sl)
+        if not _dl or not _ml:
+            erro('11.1: o livro nao publica o dado do desempate e a margem dele — '
+                 'a pergunta 3 chegou la sem numero, e ela e o unico lugar do '
+                 'clash onde numero pode aparecer')
+        elif not _dado or not _marg:
+            pass                                  # a 11 ja acusou o lado do manual
+        elif (_dl.group(1), _ml.group(1)) != (_dado.group(1), _marg.group(1)):
+            erro(f'11.1: o desempate diverge — o manual publica '
+                 f'{_dado.group(1)} margem {_marg.group(1)} e o livro '
+                 f'{_dl.group(1)} margem {_ml.group(1)}. Um numero, dois donos')
+        else:
+            print(f'  [x] o desempate e o mesmo nos dois: {_dl.group(1)}, '
+                  f'margem {_ml.group(1)}.')
+
+        # a copia do livro herda a regra de "zero numero proprio"
+        _corpo_lv = _sl.split('> **Por que')[0]
+        _ac2 = [f'{nome}: "{m.group(0)}"' for rx, nome in FORMAS
+                for m in re.finditer(rx, _corpo_lv)
+                if m.group(0).replace(' ', '') not in _permitido]
+        if _ac2:
+            for _a in _ac2:
+                erro(f'11.1: a copia do clash no LIVRO escreveu numero proprio — '
+                     f'{_a}. O manual nao tem nenhum, e a copia nao pode ter mais '
+                     f'regra que o dono')
+        else:
+            print('  [x] a copia do livro tambem nao escreve dado, porcentagem '
+                  'nem prazo.')
 
 
 # --------------------------------------------------------------------------

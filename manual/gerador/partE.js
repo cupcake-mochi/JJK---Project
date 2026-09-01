@@ -213,22 +213,30 @@ const maxima = [
     [
       ['1', 'Quem tem mais **refino**?', 'o mais refinado conquista, e o domínio do outro cai na hora'],
       ['2', 'Refino igual — o Acerto de um dos dois **não causa dano**?', 'esse conquista: um Acerto que não fere se estabelece antes'],
-      ['3', 'Iguais nas duas', '**ninguém conquista ainda**, e vale a corrida abaixo'],
+      ['3', 'Iguais nas duas — os dois rolam **1d12**', 'separaram por **4 ou mais**: o maior conquista'],
+      ['4', 'O d12 não separou', '**ninguém conquista ainda**, e vale a corrida abaixo'],
     ],
     [7, 45, 48], { centerCols: [0], boldCols: [0] }
   ),
   GAP(120),
   BUL('**A corrida.** Os dois domínios seguem de pé, os dois Acertos seguem desligados, e a luta corre normal. **O primeiro dos dois que perder o domínio — barreira derrubada por fora, ou o tempo acabou — ou chegar a 0 de vida recebe o Acerto do outro na hora.**'),
-  BUL('**Quem perde escolhe**, e as duas saídas custam o domínio: **ficar** e receber o Acerto do vencedor, ou **gastar a queda do próprio domínio para abrir um buraco na barreira** e sair da área. Quem sai não recebe o Acerto, e pagou a expansão inteira por isso.'),
+  BUL('**Quem perde recebe o Acerto do vencedor, e não tem como recusar.** O domínio dele já caiu, e quem cai não abre saída na barreira que continua de pé.'),
   BUL('**Nas duas saídas o Rescaldo dispara**, dos dois lados. O domínio acabou, e ele acaba de qualquer jeito.'),
   GAP(100),
-  P('**Um domínio incompleto entra na disputa e não pode vencer.** Ele não fecha barreira, então não tem barreira para conquistar nem para perder. O que ele faz é o que a sobreposição já faz: **desliga o Acerto do completo e abre a brecha de fuga** — e o Acerto dele, que rola, continua rolando. É a resposta mais cara que existe a um domínio, e a única que também é um domínio.'),
+  P('**Um domínio incompleto entra na disputa e não pode vencer.** Ele não fecha barreira, então não tem barreira para conquistar nem para perder. O que ele faz é o que a sobreposição já faz: **desliga o Acerto do completo, e a barreira do completo deixa de prender — quem está lá dentro pode sair** — e o Acerto dele, que rola, continua rolando. É a resposta mais cara que existe a um domínio, e a única que também é um domínio.'),
   GAP(80),
   BOX('A SEGUNDA PERGUNTA É UMA TROCA, E ELA NÃO PAGA ESCREVER ACERTO INÚTIL', [
     'Um Acerto que causa dano rende em **todo** uso do seu domínio — na abertura e no começo de cada turno seu. O desempate da pergunta 2 só rende contra **outro domínio, de refino igual ao seu**.',
     'Quem escreve um Acerto que não fere está comprando o desempate com o que a Melhoria **Inescapável** cobraria, e não ganhando de graça. É a mesma troca que o Hakari e o Higuruma fizeram na tabela acima.',
   ]),
   GAP(100),
+  BOX('POR QUE 1d12 E POR QUE 4', [
+    'O dado **não leva bônus**, e isso não é economia de regra: **não sobrou nada para somar nele.** Refino já empatou — é o que a pergunta 3 quer dizer. Maestria vem do nível, e os dois estão no mesmo. E o atributo da técnica bate no teto de 6 antes do primeiro clash da campanha, pelas três rotas.',
+    'De todas as combinações de dado e margem, **1d12 separando por 4 é a única que cai na metade exata** — 72 dos 144 resultados. Metade das vezes o choque resolve, metade continua e vale a corrida.',
+    'Você rola **uma vez**, quando as áreas se sobrepõem, e não a cada rodada. Rolar toda rodada resolveria o choque em 88% até a terceira, e aí quem está de fora batendo na barreira deixaria de decidir o combate.',
+  ]),
+  GAP(100),
+
   BOX('TRÊS OU MAIS DOMÍNIOS: CAEM TODOS', [
     'Dois domínios se empurram. **Três ou mais não se acomodam:** as condições que cada barreira exige por dentro e por fora não fecham juntas, e **todas as barreiras caem**.',
     'Ninguém conquista, ninguém recebe Acerto, e o Rescaldo pega todo mundo que abriu.',

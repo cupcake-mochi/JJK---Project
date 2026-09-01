@@ -14,10 +14,13 @@ const H = require('../gerador-ficha/helpers.js');
 // jogador recebe, usa selo #211C35 com acento #8A7444. O bloco de inimigo e
 // material de mesa como o livro, entao ele segue o livro. Os valores saem do
 // :root do livro/build/manual.css.
+// v0.200: as duas paletas do projeto viraram UMA — a Neve Saturado — entao o
+// bloco nao precisa mais de paleta propria. A chamada fica porque os helpers da
+// ficha sao os mesmos, e um dia isto pode divergir de novo.
 H.setPaleta({
-  ink: '1A1622', crimson: '8A7444', deep: '211C35', grey: '6E6878',
-  rule: 'CFC7DC', linha: 'CFC7DC', bandBg: 'E9E4F0', headBg: '211C35',
-  zebra: 'E9E4F0', boxBg: 'F6F3F9', campoBg: 'F6F3F9',
+  ink: '251727', crimson: 'BC2A6E', deep: '2B1B2E', grey: '847B86',
+  rule: 'F8C7DC', linha: '9A6F87', bandBg: 'F7E5EE', headBg: '2B1B2E',
+  zebra: 'FADDEA', boxBg: 'FDF0F6', campoBg: 'FDF0F6',
 });
 const { C, W, P, FAIXA, TBL, BLOCO, LINHA, NOTA, GAP } = H;
 const X = require('./dados.js');

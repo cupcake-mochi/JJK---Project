@@ -1,8 +1,26 @@
 # Estado atual do projeto
 
-Atualizado em 01/09/2026, na v0.199 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e oito checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 01/09/2026, na v0.200 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e oito checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.199.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
+**Versão v0.200.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
+
+**A v0.200 pôs um dado no clash de domínios, e o manual foi para a v7.22.** *Refino igual e Acerto do mesmo tipo passam a rolar `1d12` cada: separou por `4` ou mais, o maior conquista; não separou, cai na corrida como antes.*
+
+> **O dado não leva bônus porque não sobrou nada para somar nele.** *Refino já empatou — é o que a pergunta 3 quer dizer —, maestria vem do nível e o atributo da técnica bate no teto de `6` antes do primeiro clash da campanha, pelas três rotas.* **E `1d12` com margem `4` é a única combinação que cai na metade exata: `72` de `144`.**
+>
+> **A medida que abriu isso:** *a barreira cai antes do relógio em `17` dos `19` pares empatados, então onde tem grupo de fora a corrida já funciona.* **O buraco era o duelo** — sem ninguém batendo na barreira, o desempate era ordem de iniciativa, e ele agora é o dado. *Rolar uma vez e não a cada rodada é decisão do Mizuki: a cada rodada o choque resolveria em `88%` até a terceira, e o grupo de fora deixaria de decidir.*
+>
+> ***Decisão do Mizuki: o perdedor perdeu a saída de furar a barreira e sair.*** *"Não teve exemplos disso no anime e a obra não aborda assim."* **A fuga fica só onde ela já estava** — a incompleta, que ao se sobrepor faz a barreira do completo deixar de prender —, *e esse parágrafo teve de ser escrito por extenso, porque ele apontava para a saída que saiu.*
+
+**A v0.200 unificou a paleta do projeto e fechou dois buracos no livro.** *A `Neve Saturado` — escolha do Mizuki entre cinco pares de páginas de teste — entrou nos quatro geradores de uma vez, e com ela morreu a divergência de duas paletas que a v0.199 tinha descoberto e deixado de pé.*
+
+> **O nível 7 do Emanador dizia o próprio nível duas vezes**, uma em cada entrega, e lado a lado isso lia como dois níveis diferentes. *O rótulo virou cabeçalho das duas, e a `Modelagem` deixou de estar em aberto no `DESENHO-caminhos.md`.*
+>
+> **E o clash de domínios não estava no livro.** *A regra existe no manual do Fundamento desde a v7 e o capítulo parava na barreira; entrou como `Domínios sobrepostos`, com as três perguntas, a corrida e a incompleta que entra e não pode vencer.*
+>
+> **A varredura atrás de outros buracos fechou em zero:** *nenhum termo aparece três vezes ou mais no manual e nunca no livro.*
+
+> **⚠ A v0.199 tinha prometido esta versão para a pressão do chefe, e ela escorregou para a v0.201.** *O trabalho segue registrado na peça 26 §8, com a medida feita: `3,3 ×` de diferença contra a tabela do `Guia do Mestre`.*
 
 **A v0.199 deu ao Bestiário o bloco impresso, e a última pergunta do Mizuki abriu a versão seguinte.** *`05-material/bloco-de-inimigo.docx` tem a ficha em branco, um exemplo e as tabelas — e ele foi refeito três vezes, porque a primeira era planilha de construção e um bloco de monstro é lido, não montado.*
 
@@ -12,7 +30,7 @@ Atualizado em 01/09/2026, na v0.199 (última peça fechada: **Bestiário**, a pe
 >
 > **E a sub-categoria é ideia do Mizuki:** *a categoria diz o tamanho e ela diz a forma —* `sozinho` `100%` · `com um apoio` `75%` · `com dois` `50%` · `bando` `25%`, **com a fração saindo do câmbio e não de escolha.**
 >
-> **⚠⚠ E fica aberta a maior:** *a pressão do chefe é `3,3 ×` menor que a do d20 — lá ele come `24%` da vida do grupo por rodada e zera ela em `4,1` rodadas; aqui come `7%` e levaria `14`.* **É a v0.200**, e ela mexe no `72`, que é a base da régua de condição inteira.
+> **⚠⚠ E fica aberta a maior:** *a pressão do chefe é `3,3 ×` menor que a do d20 — lá ele come `24%` da vida do grupo por rodada e zera ela em `4,1` rodadas; aqui come `7%` e levaria `14`.* **É a v0.201** — a v0.200 tinha sido prometida para ela e foi para a paleta e o livro —, e ela mexe no `72`, que é a base da régua de condição inteira.
 
 **O `Bestiário` fechou na v0.198, e é a peça 26.** *Ele era o único item da fila da mecânica desde a v0.168, e estava no fim dela desde a v0.36 com uma linha só.* **A lista dos "nove números" que a v0.159 levantou estava incompleta:** *faltavam três que a mesa rola toda rodada — a Defesa do inimigo, o acerto dele e a CD dele —, e nenhum tinha dono em documento nenhum.*
 
@@ -848,7 +866,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 
 **Duas peças foram parcialmente substituídas e trazem o aviso no topo:** as seções 3 e 4 da peça 4 saíram para a peça 7, e a seção 3 e o quadro de Caminhos da peça 5 saíram para a peça 6.
 
-O manual do Fundamento **v7.21** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 366 parágrafos e 90 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na mesma versão do `.docx`, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 50 páginas.
+O manual do Fundamento **v7.22** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 366 parágrafos e 90 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na mesma versão do `.docx`, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 50 páginas.
 
 **Quem é dono da versão do manual:** a primeira linha de `manual/gerador/COMO-USAR.txt`. Toda outra cópia — a capa em `partA.js`, este arquivo, o `README.md`, o `LEIA-ME.md` e o `arquitetura.md` — é cópia, e o `conferir-repositorio.py` falha se alguma divergir. *Ele nasceu na v0.33, depois de a capa do manual passar três versões dizendo 7.5.*
 

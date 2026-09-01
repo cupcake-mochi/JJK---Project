@@ -1,4 +1,4 @@
-GERADOR DO MANUAL — Fundamento v7.21
+GERADOR DO MANUAL — Fundamento v7.22
 
 Recria o .docx do zero. Precisa de Node.js.
 
@@ -10,9 +10,10 @@ Sai um .docx com sumário, estilos e todas as tabelas formatadas.
 ONDE MEXER
   helpers.js  estilos, cores, funções de tabela e caixa. Mexa aqui pra mudar
               paleta, fonte ou espaçamento. As cores estão no objeto C, no topo.
-              Paleta: ameixa, base 741B47 (v4+). Os nomes 'crimson' e 'deep' são
-              históricos (as versões 1 a 3 usavam vinho) e foram mantidos pra
-              não quebrar as referências.
+              Paleta: Neve Saturado, base BC2A6E (v0.200 do projeto; era ameixa
+              741B47 da v4 ate la). Os nomes 'crimson' e 'deep' sao historicos
+              (as versoes 1 a 3 usavam vinho) e foram mantidos pra nao quebrar
+              as referencias — hoje 'crimson' e o ACENTO e 'deep' e o SELO.
   partA.js    capa, sumário, "Começando" (sistema numa página, números, energia,
               Classe 0, o dado)
   partB.js    seção 1 Fundamento (com Selo v7 e Passivas) e os Três Fundamentos
@@ -31,6 +32,20 @@ ORDEM DAS SEÇÕES (v7)
   4 Restrições → 5 Fora de combate → 6 Liberação Máxima → 7 Técnica Máxima →
   8 Regras de ouro → 9 Progressão → 10 Feitiços prontos → 11 Para o mestre →
   Apêndice
+
+O QUE MUDOU NA v7.22
+  O clash de dominios ganhou uma quarta pergunta, e ela e um dado. Refino igual
+  e Acerto do mesmo tipo passam a rolar 1d12 cada: separou por 4 ou mais, o maior
+  conquista; nao separou, cai na corrida como antes.
+
+  O dado nao leva bonus porque nao sobrou nada para somar — refino ja empatou,
+  maestria vem do nivel e o atributo da tecnica bate no teto de 6 antes do
+  primeiro clash. E 1d12 com margem 4 e a unica combinacao que cai na metade
+  exata: 72 de 144.
+
+  E o perdedor perdeu a saida de furar a barreira e sair. Ela nao aparece na obra,
+  e a fuga fica so onde ela ja estava: a incompleta, que ao se sobrepor faz a
+  barreira do completo deixar de prender.
 
 O QUE MUDOU NA v7.21
   A tabela `Inimigos` ganhou a linha da Classe 1 (nivel 2 ao 4), derivada das

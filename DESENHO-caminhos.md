@@ -288,7 +288,11 @@ Ela dizia *"o seu Classe 0 passa a causar o mesmo que um golpe simples"*, e ela 
 >
 > **Duas coisas ficam declaradas antes de alguém escolher isso.** Ela **custa tempo de mesa** — vira um menu em toda conjuração —, e o conserto conhecido é relógio (`1×` por rodada, ou por cena). E ela **encosta na `Segunda Leitura`** do nível 15: as duas trocam coisa sem ganhar poder, em granularidades diferentes — feitiço lá, Melhoria aqui. *Sobreposição, não duplicação — mas vale medir as duas juntas quando o nível 15 for preçado.*
 
-**A escolha continua aberta e é do Mizuki.** *O que esta seção fechou foi a checagem, não a decisão.*
+~~**A escolha continua aberta e é do Mizuki.** *O que esta seção fechou foi a checagem, não a decisão.*~~
+
+***DECIDIDA na v0.200: a `Modelagem` fica, na leitura de TROCA.*** *Ela já estava publicada no livro havia versões, e vale `0,00` fatia — o nível 7 do Emanador continua em `2,36`, empatado com os outros quatro Caminhos.* **O que mudou no livro foi só a forma: o nível era escrito duas vezes, uma para cada entrega, e passou a ser dito uma vez com as duas embaixo.** *Palavras do Mizuki: "pra n confudir a galera".*
+
+> **⚠ As duas coisas declaradas continuam de pé, e nenhuma delas foi paga.** *Ela custa tempo de mesa — vira um menu em toda conjuração, e o conserto conhecido é relógio de `1×` por rodada —, e ela encosta na `Segunda Leitura` do nível 15.* **Se o playtest disser que o menu pesa, o relógio está medido e não muda o preço:** *`0,00` continua `0,00`, porque relógio não muda o valor de uma troca que não dá nada novo.*
 
 ### nível 15 · Segunda Leitura — *reescrita, a anterior estava confusa*
 > **No fim de um descanso longo, você pode esquecer um dos seus feitiços e aprender outro no lugar.**

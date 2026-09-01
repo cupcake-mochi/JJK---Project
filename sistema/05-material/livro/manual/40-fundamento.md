@@ -1067,6 +1067,45 @@ O Acerto do Megumi *reforça* em vez de *atingir*, e é o que dá para fazer com
 
 **Efeito quase nunca é dano.** Alcance, repertório, amplificação, uma mecânica nova, controle sobre quem o Acerto pega. O dano, quando existe, mora no Acerto.
 
+### Domínios sobrepostos
+
+**Só existe disputa quando as áreas se sobrepõem:** você está dentro do domínio dele, ou ele abriu dentro do raio do seu. *Abrir domínio longe de um que já está de pé não encosta nele.*
+
+**Enquanto os dois estiverem de pé, nenhum dos dois acerta garantido.** Os dois Acertos ficam desligados, e lá dentro sobra o que não dependia deles: feitiço, corpo, e o Efeito de cada um.
+
+**São três perguntas, nesta ordem.** A primeira que separar decide, e as de baixo nem chegam a ser feitas.
+
+**Quem conquista o domínio**
+{: .tab-titulo }
+
+| | A pergunta | Quem leva |
+|---|---|---|
+| 1 | Quem tem mais refino? | o mais refinado conquista, e o domínio do outro cai na hora |
+| 2 | Refino igual — o Acerto de um dos dois **não causa dano**? | esse conquista, porque um Acerto que não fere se estabelece antes |
+| 3 | Iguais nas duas — os dois rolam **1d12** | separaram por **4 ou mais**: o maior conquista |
+| 4 | O d12 não separou | ninguém conquista ainda, e vale a corrida |
+
+**A corrida.** Os dois domínios seguem de pé, os dois Acertos seguem desligados, e a luta corre normal. **O primeiro dos dois que perder o domínio** — barreira derrubada por fora, ou o tempo acabou — **ou chegar a `0` de vida recebe o Acerto do outro na hora.**
+
+**Quem perde recebe o Acerto do vencedor, e não tem como recusar.** O domínio dele já caiu, e quem cai não abre saída na barreira que continua de pé.
+
+**O Rescaldo dispara dos dois lados**, em toda saída. O domínio acabou, e ele acaba de qualquer jeito.
+
+**Uma incompleta entra na disputa e não pode vencer.** Ela não fecha barreira, então não tem barreira para conquistar nem para perder. O que ela faz é o que a sobreposição já faz: desliga o Acerto do completo, **e a barreira do completo deixa de prender — quem está lá dentro pode sair**, e o Acerto dela, que rola, continua rolando. **Custa a sua expansão inteira**, e o que ela compra é desligar o Acerto dele.
+
+> **A segunda pergunta é uma troca, e ela não paga escrever Acerto inútil.**
+> Um Acerto que causa dano rende em todo uso do seu domínio, na abertura e no começo de cada turno seu. **O desempate da pergunta 2 só rende contra outro domínio, de refino igual ao seu.**
+> Quem escreve um Acerto que não fere está comprando o desempate com o que a Melhoria `Inescapável` cobraria, e não ganhando de graça. *É a mesma troca que o Hakari e o Higuruma fizeram.*
+
+> **Por que `1d12` e por que `4`.**
+> **O dado não leva bônus, e não é economia de regra: não sobrou nada para somar nele.** *Refino já empatou — é o que a pergunta 3 quer dizer. Maestria vem do nível, e os dois estão no mesmo. E o atributo da técnica bate no teto de `6` antes do primeiro clash da campanha, pelas três rotas.*
+> **De todas as combinações de dado e margem, `1d12` separando por `4` é a única que cai na metade exata** — `72` dos `144` resultados. *Metade das vezes o choque resolve, metade continua e vale a corrida.*
+> **Você rola uma vez**, quando as áreas se sobrepõem, e não a cada rodada. *Rolar toda rodada resolveria o choque em `88%` até a terceira, e aí quem está de fora batendo na barreira deixaria de decidir o combate.*
+
+> **Três ou mais domínios: caem todos.**
+> Dois domínios se empurram. **Três ou mais não se acomodam:** as condições que cada barreira exige por dentro e por fora não fecham juntas, e **todas as barreiras caem**.
+> Ninguém conquista, ninguém recebe Acerto, e o Rescaldo pega todo mundo que abriu.
+
 ## Regras de ouro
 
 Oito regras seguram o sistema inteiro. Se um feitiço passar pelas oito, ele é legal.

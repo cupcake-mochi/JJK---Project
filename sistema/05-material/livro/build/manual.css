@@ -5,15 +5,21 @@
    ============================================================ */
 
 :root {
-  --tinta:      #1A1622;
-  --selo:       #211C35;
-  --selo-fraco: #756588;
-  --acento:     #8A7444;
-  --acento-claro: #DFD5C2;
-  --washi:      #F6F3F9;
-  --zebra:      #E9E4F0;
-  --linha:      #CFC7DC;
-  --cinza:      #6E6878;
+  /* Neve Saturado — trocada na v0.200 por decisao do Mizuki, e ela unificou as
+     DUAS paletas que o projeto tinha: ate aqui a ficha e o manual do Fundamento
+     usavam ameixa 741B47 e o livro usava selo #211C35 com acento dourado. Os
+     quatro artefatos passaram a usar esta. As cinco de baixo saem das quatro de
+     cima por regra: a clara clareada 80%, 55% e 25% pro branco da washi, zebra e
+     linha; o cinza e a escura clareada 42%. */
+  --tinta:      #251727;
+  --selo:       #2B1B2E;
+  --selo-fraco: #9A6F87;
+  --acento:     #BC2A6E;
+  --acento-claro: #ECC3D6;
+  --washi:      #FDF0F6;
+  --zebra:      #FADDEA;
+  --linha:      #F8C7DC;
+  --cinza:      #847B86;
 }
 
 /* ---------- página ---------- */

@@ -450,9 +450,9 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 14, 
 
 > **Nível 2: `Sangria`.** *Ação bônus.* Gaste **`1/8` da sua vida MÁXIMA** e ganhe PE a cada **`3` de vida perdida**, dando **`1` PE**. A vida máxima só volta no **descanso longo**; metade dela volta no **descanso curto**.
 >
-> **Nível 7: `Resquício`.** Ao conjurar na Ação Padrão um feitiço **que não causa dano**, você pode lançar um **feitiço de Classe 0 na Ação Bônus**.
->
-> **Nível 7: `Modelagem`.** Ao conjurar um feitiço **de dano ou de condição**, você pode **trocar uma Melhoria que ele já tem por outra de custo igual ou menor**. Nada novo entra na ficha. O que muda é qual peça está montada na hora.
+> **Nível 7 — o Emanador recebe duas.**
+> **`Resquício`.** Ao conjurar na Ação Padrão um feitiço **que não causa dano**, você pode lançar um **feitiço de Classe 0 na Ação Bônus**.
+> **`Modelagem`.** Ao conjurar um feitiço **de dano ou de condição**, você pode **trocar uma Melhoria que ele já tem por outra de custo igual ou menor**. Nada novo entra na ficha. O que muda é qual peça está montada na hora.
 > **A troca não mexe na condição.** A Melhoria `Condição` não entra nem sai. **E a Melhoria que entra tem de ser legal naquele feitiço**: o requisito dela continua valendo.
 >
 > **Nível 15: `Segunda Leitura`.** No fim de um descanso longo, você pode **esquecer um dos seus feitiços e aprender outro no lugar.**

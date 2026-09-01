@@ -1,21 +1,23 @@
-// Helpers da FICHA. A paleta e a mesma do manual (ameixa, base 741B47) de
+// Helpers da FICHA. A paleta e a mesma do manual e do livro (Neve Saturado) de
 // proposito: a ficha e o manual vao estar na mesma mesa.
 const d = require('docx');
 const { Paragraph, TextRun, Table, TableRow, TableCell, WidthType, ShadingType,
         AlignmentType, BorderStyle, VerticalAlign } = d;
 
 const C = {
-  ink:    '1A1A1A',
-  crimson:'741B47',
-  deep:   '4E1230',
-  grey:   '6B6B6B',
-  rule:   'C8C8C8',
-  linha:  '9A9A9A',   // a linha em que se escreve
-  bandBg: 'F1E9EE',
-  headBg: '4E1230',
-  zebra:  'F7F4F6',
-  boxBg:  'F4F1EC',
-  campoBg:'FCFBFC',   // fundo do campo preenchivel
+  // Neve Saturado, v0.200. Os nomes `crimson` e `deep` sao historicos e ficaram
+  // para nao quebrar as referencias — hoje `crimson` e o ACENTO e `deep` e o SELO.
+  ink:    '251727',
+  crimson:'BC2A6E',
+  deep:   '2B1B2E',
+  grey:   '847B86',
+  rule:   'F8C7DC',
+  linha:  '9A6F87',   // a linha em que se escreve
+  bandBg: 'F7E5EE',
+  headBg: '2B1B2E',
+  zebra:  'FADDEA',
+  boxBg:  'FDF0F6',
+  campoBg:'FDF0F6',   // fundo do campo preenchivel
 };
 const W = 9600;
 const NIL = { style: BorderStyle.NIL };

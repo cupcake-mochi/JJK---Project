@@ -8,6 +8,100 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.200] — 01/09/2026 · manual na v7.22
+
+**A paleta do projeto virou uma só, e duas leituras do Mizuki no livro acharam um rótulo repetido e um buraco de conteúdo.** *A v0.199 tinha prometido esta versão para a pressão do chefe; ele redirecionou, e ela escorregou para a v0.201.*
+
+### 1 · Uma paleta, e não duas
+
+**A v0.199 descobriu que o projeto tinha DUAS paletas** — ameixa `741B47` na ficha e no manual do Fundamento, selo `#211C35` com acento `#8A7444` no livro — **e resolveu aquele caso mandando o bloco de inimigo seguir o livro.** *Isso consertou o bloco e deixou a divergência de pé.*
+
+> ***Escolha do Mizuki, entre cinco pares de páginas de teste:*** *a `Neve Saturado`.* **Ela entrou nos quatro lugares de uma vez** — o `:root` do `manual.css`, o objeto `C` do `helpers.js` da ficha, o do gerador do manual e o `setPaleta()` do gerador de inimigo. *Hoje o projeto inteiro sai em tinta `#251727`, acento `#BC2A6E` e washi `#FDF0F6`.*
+>
+> **Os nomes `crimson` e `deep` do `helpers.js` ficaram como estão**, e há um comentário em cima dizendo o que eles são hoje. *Renomear cruzaria os quatro geradores para ganhar nada.*
+
+### 2 · O Emanador dizia o nível duas vezes
+
+**As duas entregas de nível 7 do Emanador abriam cada uma com o próprio `Nível 7:`**, e lado a lado isso lê como duas linhas de níveis diferentes. *Palavras dele: "tira escrito os dois 7s, pra não confundir a galera".*
+
+> **O rótulo subiu uma linha e virou cabeçalho das duas:** *`Nível 7 — o Emanador recebe duas.`*, com `Resquício` e `Modelagem` abaixo dele.
+>
+> **A `Modelagem` fica.** *O `DESENHO-caminhos.md` deixava a escolha em aberto desde que ela foi escrita; ela está decidida, e as duas objeções que estavam registradas contra ela — tempo de mesa e a sobreposição com a `Segunda Leitura` — continuam custos declarados e não pagos.*
+
+### 3 · O clash de domínios não estava no livro
+
+***Pergunta dele: "expansão, colisão não foi colocado no livro? confronto e tal".*** **Não estava.** *O manual do Fundamento tem a regra inteira desde a v7; o capítulo do livro parava na barreira e no Rescaldo.*
+
+> **Entrou como `Domínios sobrepostos`, depois dos `Domínios da obra`** — nessa ordem porque a caixa da segunda pergunta se apoia no Hakari e no Higuruma da tabela de cima. *Vieram as três perguntas com a tabela, a corrida, a escolha de quem perde, o Rescaldo dos dois lados, e a incompleta que entra e não pode vencer.*
+>
+> **E a varredura por trás da pergunta dele fechou em zero.** *Comparação por título deu `25` candidatos e a leitura do conteúdo matou os `25`; a varredura por termo — o que aparece três vezes ou mais no manual e nunca no livro — devolveu **nenhum**.* **O clash era o único buraco.**
+
+### 4 · E a cópia no livro ganhou guarda, porque agora são dois documentos
+
+**O clash passou a morar no manual do Fundamento e no livro, e isso é a lição nº 9 esperando acontecer.** *A checagem `11` do `conferir-expansao.py` só olhava o `partE.js`.*
+
+> **Entrou a `11.1`, e o que ela compara não é texto — é a ORDEM e QUEM decide cada degrau.** *Cobrar byte por byte transformaria toda revisão de estilo em falha; o que não pode mudar é `mais refino` · `Acerto que não fere` · `corrida`, nessa ordem, nos dois.* **E a cópia herda a regra de zero número próprio: o manual não tem nenhum, e a cópia não pode ter mais regra que o dono.**
+>
+> **⚠ A âncora do primeiro degrau é `mais refino` e não `refino` seco**, e a diferença apareceu no teste negativo: *a pergunta 2 abre com "Refino igual", então `refino` seco casa com as duas e uma troca de ordem entre elas passava metade calada.*
+>
+> *Três perturbações acendem — trocar as perguntas 1 e 2, escrever `3 rodadas` na corrida, e o título sumir —, e o contra-teste de reescrever a frase sem mexer na ordem fica verde.*
+
+> **⚠⚠ E a `11.1` saiu verde em cima de uma cópia incompleta.** *A transposição levou a cascata e esqueceu a caixa dos `três ou mais domínios`, que é onde a regra diz que todas as barreiras caem — e o bloco passou porque só olhava a ordem das três perguntas.*
+>
+> **Uma checagem que confere o miolo da seção e não as pontas dela deixa a cópia encolher calada.** *Entrou a comparação das sete saídas — sobreposição · Acertos desligados · corrida · ficar ou sair · Rescaldo dos dois lados · a incompleta que não vence · três ou mais caem —, e ela cobra os dois sentidos: cópia que encolhe e cópia que cresce.*
+
+### 5 · O clash ganhou um dado, e ele decide o duelo
+
+***Pergunta do Mizuki:*** *"não acha que vale a pena uma rolagem? Sukuna e Gojo tiveram embate, mesmo Acerto, mesmo refino, e um clash ganhou do outro".* **Medi antes de concordar, e a medida achou um buraco mais estreito do que a pergunta.**
+
+**A corrida não estava quebrada onde tem grupo: a barreira cai antes do relógio em `17` dos `19` pares empatados.** *Ela aguenta `1,3` a `2,7` rodadas de uma Rotina, contra uma duração de `2` a `5`.* **O buraco era o duelo** — sem ninguém de fora batendo, o desempate virava ordem de iniciativa, porque refino igual dá duração igual e o relógio só separa por quem abriu primeiro.
+
+> **O `Neutralização` do Pathfinder 2e faz exatamente a forma proposta:** *compara o nível dos dois efeitos primeiro e aí rola, e o grau de sucesso decide quanta diferença de nível dá para superar.* **Os outros dois da estante resolvem diferente:** *o GURPS manda os dois rolarem e diz que empate é ninguém venceu; o 5e resolve empate de iniciativa por decisão do mestre, sem dado.*
+>
+> **⚠ E a conta fechou o dado sozinha: ele não pode ter bônus.** *Refino já empatou — é a definição da pergunta —, maestria vem do nível, e o atributo da técnica bate no teto de `6` no nível 10 ou 14 pelas três rotas.* **`CD de feitiço = 8 + 6 + maestria` dá o mesmo número dos dois lados**, então `d20 + CD` é `d20` com passo a mais.
+>
+> ***Escolha do Mizuki: `1d12`, separando por `4` ou mais, uma rolagem só.*** **Das seis combinações de dado e margem que ele pôs em cima da mesa, essa é a única que cai na metade exata — `72` de `144`.** *Rolar a cada rodada resolveria em `88%` até a terceira rodada, e aí o grupo de fora deixaria de decidir os `17` de `19`.*
+>
+> **A cascata foi de três perguntas para quatro**, e a corrida caiu de `29%` para `14%` dos clashes — ela continua existindo.
+
+### 6 · E o perdedor perdeu a saída de furar a barreira
+
+***Decisão do Mizuki:*** *"não teve exemplos disso no anime e a obra não aborda assim".* **A saída sai, e quem perde recebe o Acerto do vencedor sem escolha.**
+
+> **⚠ Ela não podia sair sozinha.** *O parágrafo da incompleta dizia que ela "abre a brecha de fuga" — um ponteiro para trás, apontando para o buraco que o perdedor abria.* **Tirar o alvo do ponteiro deixaria a incompleta apontando para nada**, então ela passou a escrever por extenso o que faz: *a barreira do completo deixa de prender, e quem está lá dentro pode sair.*
+
+### 7 · A regra de "zero número próprio" caiu, e a checagem trocou de pergunta
+
+**A v0.173 fechou a seção do clash como toda derivada, sem número seu.** *O `d12` e a margem `4` são os primeiros, e a exceção é de propósito: um desempate por dado precisa de um dado e de uma margem.*
+
+> **A checagem `11` deixou de perguntar "não tem número" e passou a perguntar "tem exatamente estes dois, e nada mais".** *Os valores não estão escritos dentro dela: ela lê do manual, que é o dono, e a `11.1` cobra que o livro repita os mesmos.*
+>
+> *Cinco perturbações acendem — o livro trocar o dado, trocar a margem, o manual perder a pergunta, o livro reprometer a saída que saiu, e número solto fora do desempate.* **E os dois contra-testes ficam verdes**, inclusive o que troca o desempate para `1d10` margem `3` **nos dois documentos ao mesmo tempo** — que é a prova de que o valor não mora no validador.
+
+> **⚠ E subir o manual para a `v7.22` destampou duas cópias da versão que ninguém lembrava.** *O `COMO-USAR.txt` da `manual/matematica/` e a abertura do `arquitetura.md` ficaram na `v7.21`.* **Quem acusou foi a checagem `VERSÃO DO MANUAL` do `conferir-repositorio.py`, no mesmo passo** — a lição nº 9 pega calada em documento que ninguém abre desde a versão passada.
+
+### Alterado
+
+- **O manual para a v7.22**, com a pergunta do dado e a saída de fuga removida.
+- **O `arquitetura.md` e o `COMO-USAR.txt` da matemática**, que tinham a versão do manual em cópia.
+- **A paleta dos quatro geradores** para a `Neve Saturado`.
+- **`40-fundamento.md`**, que ganhou a seção `Domínios sobrepostos` e a caixa dos `três ou mais domínios`.
+- **`35-caminhos-e-trilhas.md`**, onde o nível 7 do Emanador é dito uma vez só.
+- **`DESENHO-caminhos.md`**, onde a `Modelagem` deixou de estar em aberto.
+- **O `conferir-expansao.py`**, com a `11` reescrita e a sub-checagem `11.1` — *sub-bloco conta para o bloco pai, então o total do projeto segue em `300`.*
+
+### Decidido
+
+- **A `Neve Saturado` é a paleta do projeto inteiro**, e não há mais uma por material.
+- **A `Modelagem` fica no Emanador**, com os dois custos declarados e em aberto.
+- **O clash entra no livro**, porque regra de mesa que só existe no manual do Fundamento não chega ao jogador.
+- **O desempate do clash é `1d12` separando por `4`, rolado uma vez** — a única combinação que cai na metade exata, e sem bônus porque não sobrou nada para somar.
+- **Quem perde não escolhe:** a saída de furar a barreira sai, e a fuga fica só na incompleta.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **A v0.201 é a pressão do chefe**, adiada uma versão: medir quanto o grupo entrega dos dois lados, achar a pressão certa, e refazer a régua de condição junto. *Depois dela, as aptidões novas que o Mizuki pediu — e o catálogo de maldições prontas continua esperando a lista dele.*
+
+---
+
 ## [0.199] — 01/09/2026 · manual na v7.21
 
 **O Bestiário ganhou o bloco impresso, e a folha foi refeita três vezes por leitura do Mizuki.** *A primeira era uma planilha de construção, a segunda tinha a paleta errada, e a terceira misturava vida e golpe na mesma célula.* **E a última pergunta dele — *"o dano não tá muito baixo?"* — achou uma coisa que não cabe nesta versão.**
