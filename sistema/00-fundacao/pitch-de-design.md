@@ -78,7 +78,7 @@ Não porque não importa, mas porque decidir isso agora é colocar a carroça na
 - Lista de técnicas prontas, feitiços e domínios
 - Balanceamento numérico de dano, defesa e cura
 - Tabelas de progressão por rank
-- Bestiário e catálogo de maldições
+- ~~Bestiário~~ **— a máquina fechou na v0.198, e é a peça 26.** *O catálogo de maldições prontas continua fora de escopo até o Mizuki escolher quantas e quais*
 - Aventura pronta, one-shot ou material de mesa
 - Arte, identidade visual e diagramação final
 

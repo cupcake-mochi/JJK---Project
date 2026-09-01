@@ -334,7 +334,11 @@ else:
 
 # 3a — o liquido, recalculado. O chefe e o golpe saem da peca 19 SS2.1.
 _m = re.search(r'\|\s*chefe e capanga no nível 30\s*\|\s*`(\d+)` e `(\d+)`', T19)
-_m2 = re.search(r'\|\s*ações do chefe por rodada\s*\|\s*`(\d+)`', T19)
+# v0.198: as acoes do chefe sairam da CELULA da tabela de ancoras e viraram
+# regra escrita no §2.2, com a derivacao do piso ao lado. Aquela celula publicava
+# um valor cujo dono declarado era o manual, e a frase do manual diz o contrario
+# — hoje o dono e a propria peca 19, e a checagem 12 de la e' quem sustenta o 3.
+_m2 = re.search(r'O chefe age `(\d+)` vezes por rodada', T19)
 if not (_m and _m2):
     erro('3a', 'nao achei o chefe do nivel 30 nem as acoes dele na peca 19 SS2.1')
 else:

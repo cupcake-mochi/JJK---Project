@@ -60,7 +60,7 @@
 | a fatia | `5,08` de dano por rodada | `DESENHO-trilhas.md`, a linha de orçamento de Trilha |
 | a Rotina no nível 30 | `108` | manual, a tabela de Rotina |
 | chefe e capanga no nível 30 | `72` e `38` por rodada | manual, a tabela de inimigo |
-| ações do chefe por rodada | `3`, contra um grupo de quatro | manual, citado no `DESENHO-trilhas.md` |
+| ações do chefe por rodada | o piso da banda, derivado logo abaixo | **esta peça** — o manual diz o contrário |
 | vantagem e desvantagem | `25` pontos percentuais | peça 11 §8 |
 | `1` ponto percentual na rolagem de um aliado | `0,230` | `DESENHO-caminhos.md`, a régua do Guia |
 | a ação de atacar de um aliado | `23,00` — dois golpes simples | `DESENHO-caminhos.md` |
@@ -71,6 +71,20 @@
 | o `20` natural, e a chance dele | `5%` | peça 1 §5.2 |
 | **o escopo do crítico** | dobra **só os dados do que rolou o acerto** | peça 1 §5.2 |
 | o dado do soco no teto | `d10`, então `5,5` | peça 14 §5.0.6 |
+
+> **⚠ A linha das ações do chefe mudou de dono na v0.198, porque a antiga citava uma frase que diz o contrário dela.** *Ela publicava `3`, contra um grupo de quatro, com o dono no manual pelo `DESENHO-trilhas.md`.* **O manual escreve que o chefe *"perde a ação três vezes por rodada"*** — ele age uma vez enquanto o grupo de quatro age quatro, e é dessa perda que sai a exigência de `3` a `4×` a vida do grupo que a tabela de inimigo cumpre. *Contagem de ação nunca esteve ali.*
+
+**O chefe age `3` vezes por rodada, e esse número é o piso desta régua.** Quatro das treze condições cobram ação do alvo — o `Lento` cobra meia, o `Calado` e o `Enfeitiçado` uma, o `Atordoado` uma e meia —, e cada ação a menos encarece as quatro na mesma proporção:
+
+*Cada célula é quanto a condição ocupa do teto do tier que a tabela das treze, logo abaixo, publica para ela.*
+
+| ações do chefe | `Lento`, `Leve` | `Calado`, `Média` | `Enfeitiçado`, `Média` | `Atordoado`, `Pesada` |
+|---|---|---|---|---|
+| `1` | `251%` | `233%` | `233%` | `233%` |
+| `2` | `134%` | `117%` | `117%` | `117%` |
+| **`3`** | **`95%`** | **`78%`** | **`78%`** | **`78%`** |
+
+**Com `2` as quatro passam do teto do próprio tier, e passar do teto é o que tirou o `Petrificado` do sistema.** *Com `3` as quatro cabem, e o `Lento` cabe raspando.* **E ele é piso, não folga escolhida:** se alguém escrever `4`, as quatro continuam cabendo e o número deixa de sair da conta — *a checagem `12` cobra as duas direções, que `3` baste e que `2` não baste.*
 
 **E duas convenções, as duas lidas de entrega publicada:**
 
@@ -471,7 +485,7 @@
 
 ---
 
-## 7. As onze checagens do `conferir-dano.py`
+## 7. As treze checagens do `conferir-dano.py`
 
 *Escritas antes do validador, que é o método que fez a peça 15 caber numa versão só contra as seis que a peça 14 gastou.*
 
@@ -488,10 +502,12 @@
 | **9** | **as duas entregas publicadas que aplicam condição** — o `Abalo` do `DESENHO-manhas.md` e o `Encontrão` do `DESENHO-trilhas.md` — batem com a régua, com o portão que o texto de cada uma escreve |
 | **10** | **nenhum valor de regra escrito dentro do validador.** Todo número vem do documento dono, e a checagem falha se algum ficar guardado no código |
 | **11** | **a penalidade de arma da seção 6**: as duas linhas estão escritas, o `3 m` bate com o `10` pés do d20, e a desvantagem reconstrói em `54,00` a partir das âncoras — e a soma das duas contra a entrega da arma inteira |
+| **12** | **as ações do chefe são o piso da banda.** O número é lido do §2.2, as quatro condições que cobram ação são recalculadas com ele e com um a menos, e a checagem cobra as duas metades: com o publicado as quatro cabem, com um a menos alguma sai. *Assim `4` acende do mesmo jeito que `2`* |
+| **13** | **a coluna do capanga.** As treze são recalculadas contra o `38` em vez do `72`, e a peça tem de publicar quantas mudam de nível. *Ela é a prova de que a régua não depende de contra quem foi escrita* |
 
 > **A checagem 9 é a que esta peça existe para ter.** *Ela é a única que sai da pasta, junto com a do `conferir-catalogo.py` — e é ela que pegaria o `Punho` de novo se alguém reescrever o texto da entrega sem mexer no preço, ou o contrário.*
 
-### As trinta e duas perturbações, em cópia isolada
+### As quarenta e quatro perturbações, em cópia isolada
 
 > **⚠ Este título dizia `vinte e sete` e a tabela tinha vinte e oito** — contagem escrita em frase, sem dono, que é a lição nº 9 na forma mais barata que ela tem. *As quatro últimas são da v0.151; a diferença de um é anterior a ela.*
 
@@ -531,6 +547,20 @@
 | **1** | **o escopo do crítico some da peça 1** | acende | acende |
 | **1** | **o dado do soco muda na peça 14 e o valor publicado não** | acende | acende |
 | **2** | **contra-teste: os DOIS mudam juntos — `d12` e `5,85`** | fica verde | fica verde |
+| **12** | **a peça publica `2` ações no lugar de `3`** | acende | acende |
+| **12** | **a peça publica `4` — deixa de ser piso** | acende | acende |
+| **12** | **uma célula da tabela de ações vira `96%`** | acende | acende |
+| **1** | **a frase das ações some da peça** | acende | acende |
+| **13** | **a peça volta a dizer `seis`** | acende | acende |
+| **13** | **a peça para de declarar que o estouro some contra o capanga** | acende | acende |
+| **13** | **o capanga vira `50` no `DESENHO-trilhas.md`** | acende | acende |
+| **1.1** | **linha nova na tabela de âncoras da peça** | acende | acende |
+| **1.1** | **a linha `dano evitado` sai da tabela** | acende | acende |
+| **1.1** | **âncora nova no validador que nenhuma linha reivindica** | acende | acende |
+| **1.1** | **contra-teste: linha nova coerente nos três lugares** | fica verde | fica verde |
+| **12** | **contra-teste: o `Atordoado` passa a cobrar `2` ações e o piso vai a `4`** | fica verde | fica verde |
+
+> **As doze últimas são da v0.198, e a que prova a checagem `12` é o contra-teste.** *Fazer o `Atordoado` cobrar `2` ações em vez de uma e meia move o piso para `4` sozinho* — **a checagem sai verde com `4` publicado, e é assim que se sabe que ela mede a relação e não a constante `3`.**
 
 > **⚠⚠ E o par de baixo achou um defeito na âncora que a v0.151 tinha acabado de escrever.** *O padrão dela era `` teto é `d10` `` — com o valor dentro.* **Trocar o dado do soco para `d12` na peça 14 fazia a âncora "sumir" e acender a checagem 1 pelo motivo errado**, em vez de a régua reler `6,5` e a checagem 2 comparar. *Uma âncora cujo padrão carrega o valor é a lição nº 8 em miniatura: ela deixa de achar exatamente quando o dono muda, que é quando ela precisa achar.* **Hoje o padrão é `` teto é `d\d+` `` e o valor sai do grupo.**
 
@@ -572,5 +602,7 @@
   > **O que parecia contra-teste era a mesma troca de base, por outra porta.** *A frase que morava aqui dizia: lido pela sua régua, o `Ajudar` valeria `54,00` em vez de `5,75`, e `54,00 ÷ 5,75` dá `9,4`.* **Aquilo é verdade e não prova nada** — o `54,00` é vantagem medida **na sua rodada inteira**, e o `Ajudar` é a mesma vantagem medida **num golpe do aliado**. *A razão entre os dois é o escopo, que é justamente o `9,4` de que se está falando.*
 
   ***FECHADO na v0.192, e nenhum número se moveu.*** **O que estava errado era a explicação, e ela ficou setenta e oito versões pendurada num número certo.** *A checagem 2 do `conferir-dano.py` passou a exigir que a razão entre as duas réguas seja **só** o escopo — se um dos dois lados deixar de ser relativo, ela acende.*
-- **O valor de uma condição depende de em quem ela cai.** *Contra um capanga de `38` de dano por rodada, em vez de um chefe de `72`, seis das treze mudam de nível.* **A tabela publicada é a do chefe, porque é contra ele que as entregas de Trilha foram preçadas** — e o validador confere as duas colunas.
+- **O valor de uma condição depende de em quem ela cai.** *Contra um capanga de `38` de dano por rodada, em vez de um chefe de `72`, **cinco** das treze mudam de nível, e as duas que passam do teto da `Pesada` param de passar* — **o estouro do `Cego` e do `Impedido` é do tamanho do alvo, e não do desenho deles.** *A tabela publicada é a do chefe, porque é contra ele que as entregas de Trilha foram preçadas, e a checagem `13` recalcula a coluna do capanga inteira.*
+
+  > **⚠ Esta linha dizia `seis`, e dizia que o validador conferia as duas colunas.** *Nenhuma das duas era verdade: a conta dá `cinco` — `Amedrontado`, `Envenenado` e `Atordoado` descem para `Média`, `Calado` e `Enfeitiçado` descem para `Leve` — e o `38` estava escrito dentro do `conferir-dano.py` sem ser usado em lugar nenhum.* **Achado na v0.198, levantando o terreno do `Bestiário`.**
 - **O `Impedido` é a maior da lista desde a v0.139, quando o `Petrificado` saiu.** *Ele é o `Cego` inteiro mais deslocamento `0`, e a diferença entre os dois é `1,10×` — dominância que o filtro aceita.*

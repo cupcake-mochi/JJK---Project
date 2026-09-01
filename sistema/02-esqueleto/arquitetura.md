@@ -95,7 +95,7 @@ Ordenados por carga: quanto o resto do sistema depende deles. Os quatro primeiro
 
 **3.10 · Equipamento e armas amaldiçoadas.** JJK tem, e é um eixo de poder paralelo ao da técnica. Perigoso justamente por isso: entra depois, com teto declarado, ou vira a segunda economia que ninguém balanceou.
 
-**3.11 · Bestiário.** Sai da matemática de inimigo que o Fundamento já tem.
+**3.11 · Bestiário.** ~~Sai da matemática de inimigo que o Fundamento já tem.~~ **FECHADO na v0.198, e é a peça 26** — *e ele não saiu só da matemática do manual: a Defesa, o acerto e a CD do inimigo não tinham dono em documento nenhum.*
 
 ---
 

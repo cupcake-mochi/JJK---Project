@@ -1,8 +1,24 @@
 # Estado atual do projeto
 
-Atualizado em 31/08/2026, na v0.197 (última peça fechada: **Sem Técnica**, a peça 25, na v0.168, com o `conferir-sem-tecnica.py` e doze checagens; antes dela, **Dano de alma e Integridade, na v0.145**; antes dela, o **Bloquear, na v0.143**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 31/08/2026, na v0.198 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e sete checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.197.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e cinco peças escritas** e **vinte e cinco validadores**.
+**Versão v0.198.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
+
+**O `Bestiário` fechou na v0.198, e é a peça 26.** *Ele era o único item da fila da mecânica desde a v0.168, e estava no fim dela desde a v0.36 com uma linha só.* **A lista dos "nove números" que a v0.159 levantou estava incompleta:** *faltavam três que a mesa rola toda rodada — a Defesa do inimigo, o acerto dele e a CD dele —, e nenhum tinha dono em documento nenhum.*
+
+> **Os três derivam sem escolha, e é por isso que a peça 1 §6 e a peça 19 §2.5 já fechavam sem eles escritos.** *Defesa `14` a `20`, acerto `+4` a `+10`, CD `12` a `18`, nível a nível.* **Ele acerta o alvo difícil em `50%` a `55%` e o TR treinado dele falha `35%`** — os mesmos números que a peça 1 §6 publica do lado do jogador, e a checagem `2` cobra que os dois lados da mesma rolagem não discordem.
+>
+> **A categoria é ideia do Mizuki, e o eixo dela é quantos personagens o inimigo exige.** *`Ronda` `1` · `Dupla` `2` · `Alcateia` `4` · `Calamidade` `6`, com fator `personagens ÷ 4` sobre a linha do manual.* **As ações saem de `personagens − 1`, piso `1`, e a `Alcateia` cai exatamente no `3` que a régua da peça 19 exige como piso** — a checagem `4` lê aquele piso em vez de guardar cópia.
+>
+> **⚠ O grau fica como rótulo de ficção, e parear grau com grau reprova pela peça 12 §2.** *Dois feiticeiros de grau 2 podem ser nível 5 e nível 25.* **Mas o levantamento da obra devolveu a fronteira de graça:** *o que separa uma maldição de grau 2 de uma de semi-grau 1 é **saber usar técnica**, e isso a ficha já carrega.*
+>
+> **Um chefe vale quatro capangas**, medido por simulação de fogo concentrado e reconstruído pelo método dos dois eixos do `Guia do Mestre`. *A conta óbvia — vida vezes dano — dá `10`, e dez capangas no nível 30 cobram `158%` da vida do grupo.*
+
+**A v0.198 saiu com quatro consertos na vizinhança do inimigo antes da peça, e o primeiro é o que a sustenta.** *As `3` ações do chefe estavam escritas dentro do `conferir-dano.py`, com a peça 19 dizendo que o dono era o manual — e a frase do manual diz o contrário: ele **perde** a ação três vezes por rodada.*
+
+> **O número está certo por outro caminho: ele é o PISO da banda de condição.** *Com `2` o `Lento`, o `Calado`, o `Enfeitiçado` e o `Atordoado` passam do teto do próprio tier.* **A checagem `12` cobra as duas direções, e escrever `4` acende igual a escrever `2`.**
+>
+> **E a tabela de puladas estava errada em três das cinco linhas, nos dois documentos** — na coluna `de quantas`, não na `pula`. *É a mesma tabela cuja história a seção dela conta: a v0.38 escreveu lendo a saída, a v0.40 achou, e a lição foi "leia do código".* **Ela foi lida do código, e depois o código mudou** — contagem lida do dono uma vez é retrato. *Hoje a sub-checagem `9.1` relê rodando cada um com o `python-docx` bloqueado, e ela é a segunda checagem do projeto em que o dono é o código.*
 
 **A v0.189 fechou três itens da fila, e nenhum fechou do jeito que a fila dizia.** *Uma pergunta estava mal feita, uma decisão citava uma regra que diz o contrário dela, e uma dívida estimou o próprio tamanho sem conferir.*
 
@@ -90,7 +106,7 @@ Atualizado em 31/08/2026, na v0.197 (última peça fechada: **Sem Técnica**, a 
 >
 > **⚠ O filtro que escolheu as oito é da peça 10, e ele vale para toda lista fechada do projeto:** *entrada de lista fechada é **pergunta sobre o mundo** — a mesma resposta serve para qualquer mesa; **pergunta sobre a cena que aquele mestre dirigiu** fica de fora.* **Três das oito propostas reprovavam nele e foram trocadas.**
 >
-> **⚠ E não existe grau de maldição.** *A escada `grau 4 a grau 1, mais o especial` é de **ferramenta** (peça 16 §3) e de **patente** (peça 12 §6.1); a tabela de inimigo do manual é `nível do grupo → vida e dano`.* **É decisão que o BESTIÁRIO herda:** se o inimigo ganhar grau, o feito 1 do §7.1 volta à forma original.
+> **⚠ E não existe grau de maldição.** *A escada `grau 4 a grau 1, mais o especial` é de **ferramenta** (peça 16 §3) e de **patente** (peça 12 §6.1); a tabela de inimigo do manual é `nível do grupo → vida e dano`.* ~~**É decisão que o BESTIÁRIO herda:** se o inimigo ganhar grau, o feito 1 do §7.1 volta à forma original.~~ ***FECHADO na v0.198:*** **a peça 26 §2 deixa o grau como rótulo de ficção, e o feito 1 fica como está.**
 
 **A v0.171 fechou quatro itens da fila pequena, e o quarto virou uma peça de economia.**
 
@@ -146,13 +162,13 @@ Atualizado em 31/08/2026, na v0.197 (última peça fechada: **Sem Técnica**, a 
 
 **A v0.161 matou o `sete`, e ele tinha sobrevivido setenta e duas versões à decisão que o aposentou.** *A v0.89 pôs a rota pura de Refino em `10` aptidões, e quatro lugares continuaram publicando `7`.* **E `meio a meio` nomeava três rotas diferentes** — a linha daqui foi alinhada com a curva da peça 11 §3: `2` Corpo · `3` Refino · `2` Leque.
 
-> **⚠ E isto importa para o `BESTIÁRIO`, que é a próxima peça.** *Este arquivo é o dono declarado do refino do inimigo, e o chefe herda a curva do `meio a meio`.* **O refino dele entra vivo na cascata do clash do manual v7.19, e não é enfeite de tabela.** *A contagem de aptidões saiu da conta na v0.173, junto com a rolagem.*
+> **⚠ E isto importava para o `BESTIÁRIO`, que fechou na v0.198 e é a peça 26.** *Este arquivo era o dono declarado do refino do inimigo — hoje é a peça 26 §3, que lê a curva da peça 11 —, e o chefe herda a curva do `meio a meio`.* **O refino dele entra vivo na cascata do clash do manual v7.19, e não é enfeite de tabela.** *A contagem de aptidões saiu da conta na v0.173, junto com a rolagem.*
 
 **A v0.160 tirou a checagem 7.4 do rótulo e pôs ela no conteúdo.** *A versão da entrega passou a sair da linha `Recorte da vN.NN` do `README` dela dentro do commit, e não da mensagem.* **A mensagem continua sendo lida e virou a segunda metade da comparação:** rótulo que discorda do conteúdo sai como aviso, e não como erro — mensagem de commit já feito não se conserta sem reescrever história.
 
 **A v0.159 fechou as duas linhas que faltavam no inimigo, e elas eram o mesmo trabalho.** *As duas pendências pediam "valor sugerido por nível", e nenhuma das duas tem valor por nível:* **a Integridade do inimigo é a vida máxima dele, e a Reação é o mesmo slot que a peça 3 §3 dá a qualquer ficha.** O que faltava não era um segundo valor — era um segundo lugar de marcar.
 
-> **⚠⚠ E NÃO existe ficha de inimigo, apesar de três documentos falarem dela.** *O manual não tem bloco de inimigo: a seção `Inimigos` é uma tabela de nível → vida e dano, mais prosa.* **Montar um inimigo pede nove números com quatro donos** — o manual, a peça 19, a peça 1 e este arquivo. ***Juntar os nove é o `BESTIÁRIO`, e ele é peça.***
+> **⚠⚠ E NÃO existe ficha de inimigo, apesar de três documentos falarem dela.** *O manual não tem bloco de inimigo: a seção `Inimigos` é uma tabela de nível → vida e dano, mais prosa.* **Montar um inimigo pede nove números com quatro donos** — o manual, a peça 19, a peça 1 e este arquivo. ~~***Juntar os nove é o `BESTIÁRIO`, e ele é peça.***~~ ***FECHADO na v0.198, e eram DOZE e não nove:*** *a Defesa do inimigo, o acerto dele e a CD dele não estavam nesta lista, e nenhum dos três tinha dono.* **Hoje a ficha inteira é a peça 26 §3.**
 >
 > *Decisão medida: o chefe não ganha uma segunda Reação por ter três ações.* **A `Brecha` dispara `0,16` vez por combate**, e uma Reação por rodada nunca acaba contra isso. **Manual na v7.15.**
 
@@ -648,15 +664,22 @@ python3 conferir-nomes.py --candidatos Vulto Matilha Bigorna
 
 **O sexto entrou na v0.26 e olha a direção que faltava.** O `conferir-nomes` pergunta *"esse nome que eu batizei já significa alguma coisa no manual?"*; o `conferir-manual` pergunta *"o manual usa alguma palavra que este sistema não tem?"*. Foi por não existir que o `Bônus de Treinamento` e o `Habilidade/Sabedoria` sobreviveram tanto tempo. Ele também confere que a **tabela de PE, a de inimigo e a coluna Rotina** — que estão copiadas dentro das peças e dos outros validadores — continuam batendo com o `.docx`.
 
-**CINCO precisam de `python-docx`** — `conferir-dano`, `conferir-manual`, `conferir-nomes`, `conferir-pericias` e `conferir-progressao` —; sem ele eles **pulam** as checagens que leem o manual, em vez de falhar, e saem com código 0.
+**SEIS precisam de `python-docx`** — `conferir-bestiario`, `conferir-dano`, `conferir-manual`, `conferir-nomes`, `conferir-pericias` e `conferir-progressao` —; sem ele eles **pulam** as checagens que leem o manual, em vez de falhar, e saem com código 0.
 
 | validador | pula | de quantas | o rodapé avisa? |
 |---|---|---|---|
-| `conferir-dano` | 1 — as treze contra o manual | 10 | **sim** — `OK, mas 1 checagem(ns) PULARAM` |
-| `conferir-manual` | **4 — todas.** Sai no `except ImportError` antes da primeira | 4 | avisa, e sai antes do rodapé |
-| `conferir-nomes` | 3 (as checagens 1, 3 e 4) | 5 | sim, **desde a v0.101** |
+| `conferir-bestiario` | 2 — a categoria e o câmbio, as duas contra a tabela de inimigo | 7 | **sim** |
+| `conferir-dano` | 1 — as treze contra o manual | 13 | **sim** — `OK, mas 1 checagem(ns) PULARAM` |
+| `conferir-manual` | **8 — todas.** Sai no `except ImportError` antes da primeira | 8 | avisa, e sai antes do rodapé |
+| `conferir-nomes` | 3 (as checagens 1, 3 e 4) | 6 | sim, **desde a v0.101** |
 | `conferir-pericias` | 1 (a que bate contra o Fundamento) | 8 | sim, **desde a v0.101** |
 | `conferir-progressao` | 1 (a checagem 7) | 8 | **sim** |
+
+> **⚠⚠ E três das cinco linhas desta tabela estavam erradas até a v0.198, na coluna `de quantas`.** *`conferir-dano` dizia `10` e tinha `11`, `conferir-manual` dizia `4` e tinha `8`, `conferir-nomes` dizia `5` e tinha `6`.* **A coluna `pula` estava certa nas cinco; o que envelheceu foi o total, porque os validadores ganharam bloco e ninguém remediu.** *O `conferir-manual` é o caso mais claro: o rodapé dele já imprime **"As oito checagens foram PULADAS"**, então o código dizia `8` enquanto os dois documentos diziam `4`.*
+>
+> **É a mesma tabela cuja história a seção acima conta, e o defeito é o mesmo com a idade trocada:** *a v0.38 escreveu os números lendo a saída, a v0.40 achou, e a lição que ficou foi "leia do código".* **Ela foi lida do código — e depois o código mudou.** *Contagem lida do dono uma vez é retrato, e retrato envelhece: o que faltava era alguém reler.*
+>
+> **Hoje quem relê é a sub-checagem `9.1` do `conferir-repositorio.py`**, e ela mede as duas colunas rodando cada validador com o `python-docx` bloqueado, em vez de copiar o número daqui. *É a segunda checagem do projeto em que o dono é o código.*
 
 > **⚠ Eram três até a v0.96, e viraram cinco sem ninguém subir a contagem.** *O `conferir-atributos` entrou na v0.97, quando o caminho de pulada dele foi consertado, e o `conferir-progressao` entrou na v0.99 junto com a peça 18.* **Lido do código e conferido bloqueando o import.** *O `README` dizia três num parágrafo e **dois** no comentário do `pip install`, nove linhas acima — duas cópias, duas respostas, dentro do arquivo que publica a lição nº 9.*
 
@@ -793,7 +816,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/18-progressao.md` | **a tabela de progressão** — o que se ganha em cada nível, do 1 ao 30, numa tabela só. Nove das dez colunas são cópia com dono declarado; a décima, o tamanho da lista de feitiços, nasce aqui |
 | `03-mecanica/conferir-progressao.py` | as **oito** checagens da peça 18: cada coluna reconstruída a partir do dono, a fórmula dos espaços contra a tabela da peça 11, e a cópia de três fichas da peça 2 |
 | `03-mecanica/19-dano-e-condicoes.md` | **a régua de condição** — quanto vale cada uma das treze, em dano por rodada e em nível —, mais as treze condições, os catorze tipos de dano e a cobertura, que vieram da peça 1 |
-| `03-mecanica/conferir-dano.py` | as **onze** checagens da peça 19, e a nona sai da pasta: ela bate as duas entregas publicadas que aplicam condição contra a régua. *A décima primeira entrou na v0.104, com a penalidade de arma* |
+| `03-mecanica/conferir-dano.py` | as **treze** checagens da peça 19, e a nona sai da pasta: ela bate as duas entregas publicadas que aplicam condição contra a régua. *A décima primeira entrou na v0.104, com a penalidade de arma.* **A 12 e a 13 são da v0.198:** *a 12 mede as ações do chefe como **piso** — com uma a menos, quatro condições saem da banda —, e a 13 recalcula a régua inteira contra o capanga em vez do chefe. E a sub-checagem `1.1` compara a tabela de âncoras da peça com a lista do validador, que eram duas listas de catorze sem ninguém comparando* |
 | `03-mecanica/20-tecnica-marcial.md` | **a rota de criação de quem não escreve Fundamento**: a máquina herdada, as duas rotas — três grupos de arma, ou uma ferramenta sob medida —, o Selo que virou equipamento, e os três renomes `Kata`, `Ruptura` e `Ōgi` |
 | `03-mecanica/conferir-marcial.py` | as **treze** checagens da peça 20, e o par declarado entre a 3 e a 9: uma pergunta se a rota recebe demais, a outra se ela é frágil demais |
 | `03-mecanica/21-objeto-amaldicoado.md` | **a peça de vocabulário**: onde as quatro coisas que carregam energia amaldiçoada se separam, a **atração** e o selo que a inverte, o `Kiko`, e os três resultados de encarnação que já eram três Origens |
@@ -806,6 +829,8 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/conferir-bloquear.py` | as **oito** checagens da peça 23. *A 8 entrou na v0.159 e mede a Reação do inimigo como **relação** contra a peça 3 §3, com o `0,16` disparo por combate recalculado da enumeração.* **A checagem 1 é a única do projeto que existe para sustentar um número de OUTRA peça:** ela recalcula a neutralidade por enumeração das `2.000` combinações, e é dela que o preço do `Incapacitado` na peça 19 depende — `4,95` desde a v0.151 |
 | `03-mecanica/25-sem-tecnica.md` | **a rota de criação de quem tem energia e não tem técnica inata**: a semente — uma aptidão aberta na criação, em `Classe Passiva 2` ou `3` —, as três portas, os renomes `Manejo` e `Auge`, o buff de `1/3 do refino` na cura da rota da Shoko, e por que a Expansão de Domínio não existe aqui |
 | `03-mecanica/conferir-sem-tecnica.py` | as **doze** checagens da peça 25, e nenhum valor de regra mora dentro dela. *A 5 é a que decide a peça: ela não guarda os `9,3` nem os `17,3` — lê a escada de gate da peça 11 §5, simula as três rotas de marco e recalcula a antecipação de cada altura, então mexer na escada de forma coerente move a banda junto e sai verde de propósito* |
+| `03-mecanica/26-bestiario.md` | **a máquina de montar inimigo**: a ficha de treze linhas com dono declarado, as três derivadas que não tinham dono nenhum — Defesa, acerto e CD —, as quatro categorias medidas em quantos personagens o inimigo exige, o câmbio de um chefe por quatro capangas, e o grau como rótulo de ficção |
+| `03-mecanica/conferir-bestiario.py` | as **sete** checagens da peça 26, e nenhum valor de regra mora dentro dela. *A 2 é a que decide a peça: ela não guarda a Defesa nem a CD do inimigo — reconstrói as duas das fórmulas da peça 1 §5 e cobra que elas devolvam, do lado do inimigo, os mesmos `50%` a `55%` de acerto e `65%` de resistência que a peça 1 §6 publica do lado do jogador.* **A 5 não guarda o câmbio: ela roda a simulação de fogo concentrado aqui dentro**, nos seis níveis da tabela do manual |
 | `05-material/gerador-ficha/` | o gerador da ficha (Node: `node make.js`), e os dois `.docx` que ele produz |
 | `conferir-repositorio.py` | a árvore, as referências mortas, os números que moram em mais de um documento, os **ponteiros de seção** — todo `peça N §M` citado tem de apontar para seção que existe, desde a v0.54 —, o **mapa** desta tabela contra a pasta, a **entrega** contra a fonte, a **pendência morta** desde a v0.100 — nenhum item de "Em aberto" pode pedir coisa que já existe —, e, **desde a v0.102**, a **contagem de checagens de cada validador, lida do código** |
 | `99-arquivo/` | material morto, com LEIA-ME próprio. Não leia de lá para escrever peça nova |
@@ -1222,7 +1247,7 @@ Quatro peças, e a ordem é de **dependência**, não de tamanho. A ordem que el
 >
 > ***As três entraram na v0.164***, depois de trinta e duas versões paradas. *Elas fecham as quinze Trilhas e tiram o Evocador de ser o único Caminho sem Trilha com número.* **O total da peça 17 foi de `90` para `102`, e a checagem 1 do `conferir-catalogo.py` acusou no mesmo commit — que é para o que ela existe.**
 >
-> **A fila da mecânica ficou SEM ITEM.** *O que sobrava eram duas peças que este arquivo já nomeava em outras seções: a criação própria de `Sem Técnica` e o `Bestiário`.* **A primeira fechou na v0.168 e é a peça 25.** *Sobra o `Bestiário` — os nove números com quatro donos que montar um inimigo pede —, e a decisão da v0.161 sobre ele continua de pé: é máquina mais maldições prontas, e não recolhimento puro.*
+> **A fila da mecânica ficou SEM ITEM.** *O que sobrava eram duas peças que este arquivo já nomeava em outras seções: a criação própria de `Sem Técnica` e o `Bestiário`.* **A primeira fechou na v0.168 e é a peça 25, e o `Bestiário` fechou na v0.198 e é a peça 26.** *A decisão da v0.161 foi obedecida — máquina, e não recolhimento puro —, e o que sobra dela é o catálogo de maldições prontas.* **A fila da mecânica não tem mais item de regra.**
 
 > **As posições 2 e 3 ganharam rascunho na v0.54**, e os dois têm o mesmo formato do de Invocações — perguntas em ordem de dependência, com o que a conta já fecha separado do que é sabor.
 >
@@ -1396,7 +1421,7 @@ As duas eram economias de poder novas, e construir a quarta e a quinta antes de 
 | **Itens menores** | *levantado pelo Mizuki na v0.131.* **Consumível e afins** — o que se compra, se gasta e acaba: talismã pronto, remédio, corda, lanterna, o kit que o `Herbalismo` usa. **A peça 14 tem a régua de itens comuns em três camadas, com a terceira desligada** (§8), e nada disso tem preço nem lista |
 | **O que cada ofício FAZ** | *levantado pelo Mizuki na v0.139.* **Hoje os onze ofícios são só uma rolagem de análise** — o capítulo 3 diz o que cada um cobre e que o mestre escolhe o atributo na hora, e para por aí. *Falta a mecânica própria, no molde do D&D:* **o que cada um FABRICA, e o que ele faz num descanso.** *`Herbalismo` produz remédio, `Caligrafia` produz talismã, `Forja` conserta e afia — nada disso tem regra.* **Decisão dele: aqui é a versão superficial; o aprofundamento vai para o livro do mestre.** *Ela encosta em **itens menores** — ofício sem lista de item não tem o que produzir — mas é item próprio no fim da fila* |
 | ~~**As entradas fora das quatro camadas**~~ | **FECHADA na v0.153, e o número ganhou dono e validador.** *Medida na v0.141 e nunca re-medida, ela sobreviveu porque o par publicado não tinha definição escrita — e as duas versões que tentaram remedir acharam `209` e `4`.* **Reconstruída, endireitada e paga: `14` rótulos em `11` entradas, e hoje o livro carrega `0` em `52`.** *A régua declara os dois números e a fronteira; o `ROTULO-LONGO` do `conferir-voz.py` reconta e falha nos dois sentidos.* **Nenhum número de sistema se moveu** |
-| **Bestiário** | sai da matemática de inimigo que o manual já tem |
+| ~~**Bestiário**~~ | **FECHADO na v0.198, e é a peça 26.** *Ele não saiu só da matemática do manual: três dos números que a mesa rola toda rodada não tinham dono nenhum, e a peça é quem os derivou* |
 
 ~~E uma coisa solta que não é peça: o nome do sistema.~~ **Batizado na v0.94: `Projeto - M`.** *Era a pendência mais velha do projeto — aberta na v0.1 e fechada 93 versões depois.*
 

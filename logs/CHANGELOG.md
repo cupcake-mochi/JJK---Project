@@ -8,6 +8,128 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.198] — 31/08/2026
+
+**O `Bestiário` fechou, e é a peça 26.** *Ele era o único item da fila da mecânica desde a v0.168, e estava no fim dela desde a v0.36 com uma linha só.* **Mas antes dele saíram quatro consertos na vizinhança do inimigo, e o primeiro é o que sustenta a peça nova.**
+
+### 1 · As ações do chefe estavam dentro do validador, citando uma frase que diz o contrário
+
+**A peça 19 §2.2 publicava `ações do chefe por rodada | 3 | manual, citado no `DESENHO-trilhas.md``.** *O manual escreve que o chefe **"perde a ação três vezes por rodada"*** — ele age uma vez enquanto o grupo de quatro age quatro, e é dessa **perda** que sai a exigência de `3` a `4×` a vida do grupo, que a tabela dele cumpre. **Contagem de ação nunca esteve naquela frase.**
+
+*E o `DESENHO-trilhas.md`, que a peça nomeava como a citação, deriva daquela frase `1,0` a `1,5` ataque por rodada — não três.* **O `3` morava no `conferir-dano.py`, na linha `CHEFE_ACOES = 3.0`, e não era lido de lugar nenhum.**
+
+> **O número está certo, e quem o obriga é a régua de condição.** *Quatro das treze cobram ação do alvo, e cada ação a menos encarece as quatro na mesma proporção:*
+>
+> | ações | `Lento` | `Calado` | `Enfeitiçado` | `Atordoado` |
+> |---|---|---|---|---|
+> | `1` | `251%` da `Leve` | `233%` da `Média` | `233%` | `233%` da `Pesada` |
+> | `2` | `134%` | `117%` | `117%` | `117%` |
+> | **`3`** | **`95%`** | **`78%`** | **`78%`** | **`78%`** |
+>
+> **Com `2` as quatro passam do teto do próprio tier, e passar do teto é o que tirou o `Petrificado` do sistema.** *A peça 19 virou a dona, com a derivação escrita, e a checagem `12` cobra as duas direções — que `3` baste e que `2` não baste.* **Escrever `4` acende igual a escrever `2`.**
+
+### 2 · A coluna do capanga afirmava duas coisas, e nenhuma era verdade
+
+**A peça dizia *"seis das treze mudam de nível"* contra um capanga, e dizia que *"o validador confere as duas colunas"*.** *São **cinco** — `Amedrontado`, `Envenenado` e `Atordoado` descem para `Média`, `Calado` e `Enfeitiçado` para `Leve` —, e o validador não conferia:* **o `CAPANGA = 38.0` estava definido no código sem uma linha tocar nele.**
+
+> **E o `Cego` e o `Impedido` param de furar o teto da `Pesada` contra um capanga.** *O estouro dos dois é do tamanho do alvo, e não do desenho deles.* **Isso ficou escrito, e a checagem `13` recalcula a coluna inteira.**
+
+### 3 · A tabela de âncoras da peça e a do validador eram duas listas sem ninguém comparando
+
+**As duas tinham catorze entradas, por coincidência.** *Duas linhas da peça não tinham checagem nenhuma — `chefe e capanga` e `ações do chefe` — e o crítico tinha três âncoras para uma linha só.* **A sub-checagem `1.1` compara as duas nos dois sentidos, e ela nasceu do buraco que o item 1 desta versão saiu de.**
+
+### 4 · A tabela de puladas estava errada em três das cinco linhas, nos dois documentos
+
+**Não na coluna `pula` — na `de quantas`.** *`conferir-dano` dizia `10` e tinha `11`, `conferir-manual` dizia `4` e tinha `8`, `conferir-nomes` dizia `5` e tinha `6`.* **O `conferir-manual` é o caso mais claro: o rodapé dele já imprimia *"As oito checagens foram PULADAS"*, então o código dizia `8` enquanto o `ESTADO-ATUAL` e o `LEIA-ME` diziam `4`.**
+
+> **É a mesma tabela cuja história a seção acima dela conta, com a idade trocada.** *A v0.38 escreveu aqueles números lendo a **saída** do programa, a v0.40 achou, e a lição que ficou foi "leia do código".* **Ela foi lida do código — e depois o código mudou.** *Contagem lida do dono uma vez é retrato, e retrato envelhece: o que faltava não era ler direito, era **reler**.*
+>
+> **Entrou a sub-checagem `9.1` do `conferir-repositorio.py`, e ela é a segunda do projeto em que o dono é o CÓDIGO.** *Ela não copia número de documento nenhum: roda cada um dos seis com o `python-docx` bloqueado — um pacote falso no `PYTHONPATH` — e conta os blocos que imprimiram `PULADA`.* **Custo medido: `25` segundos, e `24` deles são do `conferir-nomes`.**
+>
+> **⚠ E o parser dela nasceu errado, do jeito que só rodando aparece.** *O aviso de cabeçalho do `conferir-nomes` vem **antes** do primeiro bloco, e decidir no meio da varredura fazia ele contar como "pulou todas" — `6` de `6` em vez de `3` de `6`.* **Quem pula tudo é quem não imprime bloco nenhum, e isso só dá para saber no fim.**
+
+### 5 · O Bestiário — a ficha de inimigo, e três números que não tinham dono
+
+**A lista dos "nove números" que a v0.159 levantou estava incompleta.** *Faltavam três que a mesa rola toda rodada — a **Defesa** do inimigo, o **acerto** dele e a **CD** dele —, e nenhum tinha dono em documento nenhum.*
+
+**Os três derivam sem escolha, e é por isso que a peça 1 §6 e a peça 19 §2.5 já fechavam sem eles escritos:**
+
+| nível do grupo | 5 | 10 | 15 | 20 | 25 | 30 |
+|---|---|---|---|---|---|---|
+| Defesa | `14` | `16` | `17` | `18` | `19` | `20` |
+| acerto | `+4` | `+6` | `+6` | `+8` | `+8` | `+10` |
+| CD | `12` | `14` | `14` | `16` | `16` | `18` |
+
+**Ele acerta o alvo difícil em `50%` a `55%` e o Teste de Resistência treinado dele falha `35%`** — *os mesmos números que a peça 1 §6 publica do lado do jogador.* **A checagem `2` cobra exatamente isso: se a derivação estivesse errada, os dois lados da mesma rolagem discordariam.**
+
+### 6 · A categoria — ideia do Mizuki, e o eixo dela é quantos personagens
+
+***Palavras dele:*** *"os graus para maldições categorizam o grau que um feiticeiro precisa ser para enfrentar"*. **O eixo passou, rebaseado em nível; a metade que pareava grau com grau não.**
+
+| categoria | personagens | fator | ações | nv 30 |
+|---|---|---|---|---|
+| `Ronda` | 1 | `× 0,25` | `1` | `289` vida · `18` dano |
+| `Dupla` | 2 | `× 0,50` | `1` | `578` · `36` |
+| **`Alcateia`** | **4** | **`× 1,00`** | **`3`** | **`1155` · `72`** |
+| `Calamidade` | 6 | `× 1,50` | `5` | `1732` · `108` |
+
+**A `Alcateia` é a linha do manual sem tocar em nada, e as ações saem da frase que o item 1 desta versão consertou:** *`personagens − 1`, piso `1`.* **A `Alcateia` cai exatamente no `3` que a régua da peça 19 exige como piso, e a checagem `4` da peça 26 lê aquele piso** — se um se mover, o outro acende.
+
+> **⚠ E parear grau com grau reprova pela peça 12 §2.** *"Grau é reconhecimento; nível é poder"* — **dois feiticeiros de grau 2 podem ser nível 5 e nível 25**, então o pareamento não produz número que dois mestres reproduzam. *A escada continua na ficha como rótulo de ficção.*
+>
+> **E o levantamento da obra devolveu a fronteira de graça:** *o que separa uma maldição de grau 2 de uma de semi-grau 1 é **saber usar técnica**.* **Isso a ficha já carrega, então o rótulo tem onde se apoiar sem virar conta.** *A escada da obra classifica quatro coisas — feiticeiro, maldição, objeto e ferramenta — e nasceu como regra de despacho, que é exatamente o que a intuição dele dizia.*
+
+### 7 · O câmbio, e o levantamento derrubou o meu diagnóstico antes de ele virar regra
+
+***Pedido do Mizuki: "por que não pesquisar sobre? E validar, ao invés de adivinhar".*** **Ele estava certo, e a pesquisa custou uma recomendação minha.**
+
+**Eu tinha diagnosticado que o capanga bate `1,58×` mais forte por golpe que o chefe, e proposto rebaixar o dano dele.** *O `Guia do Mestre` de 2014, no capítulo de criar monstro, diz sobre o dano por rodada:* **"Não importa como esse dano é dividido ou distribuído"**. *A divisão em ataques é livre, então eu estava medindo uma coisa que não existe como parâmetro.*
+
+**A assimetria real é outra, e o mesmo livro a nomeia:** *o valor de um monstro é a média de um eixo defensivo, dos pontos de vida, com um ofensivo, do dano por rodada.* **O capanga tem `19%` da vida do chefe e `53%` do dano — um `glass cannon`, e o método dos dois eixos existe para preçar isso.**
+
+> **A média geométrica dos dois eixos dá `1/3,15`, e a simulação de fogo concentrado dá `4`.** *Dois caminhos que não conversam, no mesmo número.* **Um chefe vale quatro capangas, e o `4` tem a propriedade de ser um corpo por personagem numa mesa de quatro.**
+>
+> **⚠⚠ E a conta que parece óbvia mata o grupo.** *Multiplicar vida por dano e dividir dá `10` capangas por chefe, e dez capangas no nível 30 cobram `158%` da vida do grupo.* **Por isso o câmbio está escrito na peça em vez de deixado para quem quiser derivar.**
+
+**As quatro fontes lidas, com o que cada uma custou:** *o 4e resolve por papel — `1 solo = 5 padrões`, `1 padrão = 4 minions` —, e o modo de falha documentado dele é negação de ação, consertada no MM3 com o `Action Recovery`;* **o projeto já tinha importado esse conserto sem saber, no `Atordoado` que tira *"uma das suas ações, e não todas"*.** *O Pathfinder 2e resolve por nível, com o chefe em `PL+4` custando `160` XP contra `40` de uma criatura do nível; o 5e de 2014 resolve por multiplicador de quantidade; e a edição de 2024 apagou o multiplicador inteiro.*
+
+> ***Decisão do Mizuki: não mexer no manual.*** **O capanga não está errado — ele é de outro tipo, e o tipo tem nome no livro mais lido do hobby.** *Nenhum número do manual se moveu nesta versão.*
+
+### 8 · O que a peça 26 carrega, e o que ela não carrega
+
+***Decisão do Mizuki:*** **a ficha de inimigo é a ficha de personagem sem o Caminho.** *Ele tem refino pela curva do `meio a meio`, Passiva e aptidão do catálogo da peça 11, e técnica quando a ficção pedir — na obra a maior parte do que se enfrenta é feiticeiro.* **O que só o inimigo tem é ser maldição, e nenhuma das nove rotas de Origem dá isso ao jogador.**
+
+**E ele não conta PE: a cota de dano por rodada é o orçamento dele.** *Tudo que ele faz sai dali.* **Contar PE de inimigo criaria uma segunda economia que só o mestre opera, e ela responderia diferente em duas mesas** — é a regra de ouro nº 6 pelo outro lado, com o teto escrito direto em vez da moeda no meio.
+
+### Adicionado
+
+- **`03-mecanica/26-bestiario.md`** — a máquina de montar inimigo: a ficha de treze linhas com dono declarado, as quatro categorias, o câmbio e o grau como rótulo.
+- **`03-mecanica/conferir-bestiario.py`** — **sete** checagens, e nenhum valor de regra mora dentro dela. *A `5` roda a simulação de fogo concentrado em vez de guardar o `4`.*
+- **As checagens `12` e `13` e a sub-checagem `1.1` do `conferir-dano.py`.**
+- **A sub-checagem `9.1` do `conferir-repositorio.py`**, que mede a tabela de puladas rodando cada validador com o `python-docx` bloqueado.
+- **O bloco de derivação do piso das ações do chefe**, na peça 19 §2.2.
+
+### Alterado
+
+- **A linha `ações do chefe por rodada` da peça 19**, que mudou de dono.
+- **A frase do capanga da peça 19**, de `seis` para `cinco`, com as duas que param de furar o teto declaradas.
+- **O `conferir-bloquear.py`**, que lia as ações do chefe da célula da tabela de âncoras e passou a ler da regra.
+- **O `PECAS_ESPERADAS` do `conferir-catalogo.py`**, de `25` para `26`.
+- **A tabela de puladas do `ESTADO-ATUAL` e os pares do `LEIA-ME`** — três linhas erradas, mais a linha nova do `conferir-bestiario`.
+- **As contagens de peça e validador**, de vinte e cinco para vinte e seis nos quatro documentos.
+
+### Decidido
+
+- **O grau do inimigo é rótulo de ficção, e a métrica é o nível mais a categoria.**
+- **A categoria mede quantos personagens o inimigo exige**, e as ações saem de `personagens − 1`.
+- **Um chefe vale quatro capangas**, medido por simulação e reconstruído pelo método dos dois eixos.
+- **O dano do capanga no manual fica como está** — ele é `glass cannon`, e isso é desenho e não defeito.
+- **O inimigo não conta PE**, e a cota de dano por rodada é o orçamento dele.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **A fila da mecânica ficou sem item de regra**, e o que sobra da peça 26 é o **catálogo de maldições prontas** — quantas, de que categorias e com que técnicas é escolha do Mizuki. *E o `04-playtest/` continua vazio desde a v0.1.*
+
+---
+
 ## [0.197] — 31/08/2026
 
 **Varrendo a fila a pedido do Mizuki, um item aparecia como pendência e já tinha sido feito.** *A peça 25 listava `Energia Reversa contra maldição — DECIDIDA na v0.190, e por escrever`, e a v0.194 escreveu: a regra mora no manual v7.20, na Forma `Cura`.* **O §4.4 da própria peça já dizia `fechado na v0.194`** — a seção e a lista dela discordavam havia três versões.

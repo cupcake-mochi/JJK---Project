@@ -77,6 +77,16 @@ ANCORAS = {
     # rotulo na tabela da peca : (arquivo dono, padrao que tem de casar la)
     'fatia': (DTRI, r'A fatia é `[\d,]+`'),
     'rotina30': (P01, None),          # a Rotina vem do manual, conferida na 4
+    # v0.198: as duas linhas de inimigo da tabela do §2.2 nao tinham ancora
+    # nenhuma. O chefe era lido por um re.search solto, fora de ANCORAS, e o
+    # capanga estava escrito aqui dentro sem ser usado em lugar nenhum — a
+    # sub-checagem 1.1 e' quem acha esse buraco hoje.
+    'chefe': (DTRI, r'chefe (?:do nível 30 )?em `?\d+`? de dano por rodada'),
+    'capanga': (DTRI, r'o capanga em `\d+`'),
+    # ⚠ o padrao NAO carrega o numero de acoes: ancora que carrega o valor some
+    # no dia em que o valor muda, que e' exatamente o dia em que ela precisa
+    # acender. Mesma nota do `dado_do_soco`, cinquenta linhas abaixo.
+    'acoes_chefe': (PECA, r'O chefe age `\d+` vezes por rodada'),
     'vantagem': (P11, r'25\b'),
     # ⚠ as duas abaixo carregavam o VALOR no padrao — `0,230` e `23,00` — que e'
     # o defeito que a nota do `dado_do_soco`, doze linhas abaixo, existe para
@@ -159,6 +169,30 @@ if _m:
 else:
     erro('1: nao achei "chefe ... em N de dano por rodada" no DESENHO-trilhas')
 
+# v0.198: o capanga tambem e' lido. Ele estava escrito como CAPANGA = 38.0 e nao
+# era usado por nenhuma linha deste arquivo, enquanto a peca afirmava que "o
+# validador confere as duas colunas". A checagem 13 e' quem passou a conferir.
+_m = re.search(r'o capanga em `(\d+)`', ler(DTRI))
+if _m:
+    CAPANGA = float(_m.group(1))
+    print(f'  [x] o capanga foi lido do dono: {CAPANGA:.0f} de dano por rodada')
+else:
+    erro('1: nao achei "o capanga em N" no DESENHO-trilhas — a checagem 13 mede a '
+         'coluna dele, e sem o numero ela rodaria com o valor de formato daqui')
+
+# v0.198: as acoes do chefe. Ate aqui o 3 estava escrito neste arquivo e a peca
+# dizia que o dono era o manual, citado no DESENHO-trilhas — e a frase do manual
+# diz o CONTRARIO: "ele perde a acao tres vezes por rodada", que e' o motivo de
+# ele precisar de 3 a 4x a vida do grupo, e nao uma contagem de acoes. O numero
+# esta certo por outro caminho, e a checagem 12 e' quem mostra qual.
+_m = re.search(r'O chefe age `(\d+)` vezes por rodada', TXT)
+if _m:
+    CHEFE_ACOES = float(_m.group(1))
+    print(f'  [x] as acoes do chefe foram lidas do dono: {CHEFE_ACOES:.0f} por rodada')
+else:
+    erro('1: nao achei "O chefe age `N` vezes por rodada" no §2.2 da peca — quatro '
+         'das treze condicoes se dividem por esse numero')
+
 # v0.151: o dado do soco no teto e' o que o critico dobra, e ele e' da peca 14
 # §5.0.6. Ate aqui o 5,5 estava escrito neste arquivo — que e' a coisa que a
 # licao no 9 proibe, no numero que carrega a condicao inteira.
@@ -170,6 +204,70 @@ if _m:
 else:
     erro('1: nao achei o teto do dado do soco na peca 14 — a regua do Incapacitado '
          'depende dele, e sem ele ela roda com o valor de formato deste arquivo')
+
+
+# --- 1.1: a tabela de ancoras da peca contra a lista deste arquivo -----------
+# v0.198. A peca publica uma tabela `ancora | valor | dono` no §2.2 e este
+# arquivo tem o dicionario ANCORAS. Eram duas listas de 14, por COINCIDENCIA, e
+# nada comparava as duas: `chefe e capanga` e `acoes do chefe` nao tinham ancora
+# nenhuma, e o critico tinha tres ancoras para uma linha so.
+#
+# A linha sem ancora e' o buraco que importa. A peca declara um dono, quem le
+# acredita que alguem confere, e ninguem confere — foi assim que o `3` das acoes
+# do chefe atravessou o projeto citando uma frase do manual que diz o contrario.
+#
+# O MAPA e' ESTRUTURA e nao valor: ele so diz que linha da peca corresponde a
+# que ancora. A guarda cobra os dois sentidos, e por isso linha nova sem ancora
+# acende igual a ancora nova que nenhuma linha reivindica.
+MAPA_ANCORA = {
+    'a fatia': ('fatia',),
+    'a Rotina no nível 30': ('rotina30',),
+    'chefe e capanga no nível 30': ('chefe', 'capanga'),
+    'ações do chefe por rodada': ('acoes_chefe',),
+    'vantagem e desvantagem': ('vantagem',),
+    '`1` ponto percentual na rolagem de um aliado': ('aliado',),
+    'a ação de atacar de um aliado': ('acao_aliado',),
+    'mover `1,5 m`': ('metro',),
+    '`1` ponto de arma': ('ponto_arma',),
+    'o fundo de uma arma de duas mãos': ('fundo',),
+    'dano evitado': ('evitado',),
+    'o `20` natural, e a chance dele': ('nat20',),
+    '**o escopo do crítico**': ('critico_escopo', 'critico_exclui_aptidao',
+                                'critico_exclui_junto'),
+    'o dado do soco no teto': ('dado_do_soco',),
+}
+
+_cab = '| âncora | valor | dono |'
+_i = TXT.find(_cab)
+_tab = TXT[_i:] if _i >= 0 else ''
+_tab = _tab[:_tab.find('\n\n')] if '\n\n' in _tab else _tab
+_rotulos = [l.split('|')[1].strip() for l in _tab.split('\n')
+            if l.startswith('|') and not l.startswith('|---') and _cab not in l]
+
+if not _rotulos:
+    erro('1.1: nao achei a tabela de ancoras do §2.2 — ela mudou de forma, e a guarda '
+         'que compara as duas listas parou de conferir')
+else:
+    _sem = [r for r in _rotulos if r not in MAPA_ANCORA]
+    _sobra = [r for r in MAPA_ANCORA if r not in _rotulos]
+    _reivindicadas = {k for v in MAPA_ANCORA.values() for k in v}
+    _orfas = sorted(set(ANCORAS) - _reivindicadas)
+    _fantasmas = sorted(_reivindicadas - set(ANCORAS))
+    if _sem:
+        erro('1.1: linha(s) da tabela do §2.2 sem ancora nenhuma neste arquivo: '
+             + ', '.join(_sem) + ' — a peca declara um dono e ninguem confere')
+    if _sobra:
+        erro('1.1: o mapa aponta para linha(s) que sairam da tabela do §2.2: '
+             + ', '.join(_sobra))
+    if _orfas:
+        erro('1.1: ancora(s) deste arquivo que nenhuma linha da peca reivindica: '
+             + ', '.join(_orfas))
+    if _fantasmas:
+        erro('1.1: o mapa reivindica ancora(s) que nao existem em ANCORAS: '
+             + ', '.join(_fantasmas))
+    if not (_sem or _sobra or _orfas or _fantasmas):
+        print(f'  [x] as {len(_rotulos)} linhas da tabela do §2.2 e as {len(ANCORAS)} '
+              f'ancoras deste arquivo se cobrem nos dois sentidos')
 
 
 # --------------------------------------------------------------------------
@@ -965,6 +1063,146 @@ else:
     else:
         print(f'  [x] a peca 13 tem {_vagas_19} vaga(s) de `Desliga` esperando esta peca, e '
               f'esta peca diz o mesmo.')
+
+
+# --------------------------------------------------------------------------
+bloco('12. AS ACOES DO CHEFE — o numero e o PISO da banda, e nao leitura do manual')
+# --------------------------------------------------------------------------
+# v0.198. A tabela do §2.2 dizia que as `3` acoes do chefe vinham do manual,
+# citado no DESENHO-trilhas. O manual escreve o CONTRARIO: "ele perde a acao
+# tres vezes por rodada" — ele age uma vez enquanto o grupo de quatro age
+# quatro, e e' dessa PERDA que sai a exigencia de 3 a 4x a vida do grupo, que a
+# tabela de inimigo cumpre. Contagem de acao nunca esteve naquela frase.
+#
+# O numero esta certo por outro caminho, e quem o obriga e' esta regua: quatro
+# das treze condicoes cobram acao do alvo, e com 2 as quatro passam do teto do
+# proprio tier. Passar do teto e' o que tirou o Petrificado do sistema.
+#
+# A checagem mede RELACAO e cobra os DOIS sentidos, e e' isso que a torna nao
+# trivial: o publicado tem de BASTAR e um a menos tem de NAO bastar. Escrever 4
+# acende igual a escrever 2 — la porque 3 ja bastava e o numero deixou de sair
+# da conta, aqui porque nem o publicado basta.
+_DEPENDEM = ('Lento', 'Calado', 'Enfeitiçado', 'Atordoado')
+_TETO = {_t: ROTINA_30 * _fr for _t, _fr in BANDAS}
+
+
+def _com_acoes(n):
+    """As treze recalculadas com n acoes no chefe, pelo MESMO modelo da regua."""
+    global CHEFE_ACOES
+    _g = CHEFE_ACOES
+    CHEFE_ACOES = float(n)
+    try:
+        return {_n: _v for _n, _tp, _v in condicoes(CHEFE)}
+    finally:
+        CHEFE_ACOES = _g
+
+
+def _fora_da_banda(vals):
+    return [_n for _n in _DEPENDEM
+            if _n in _pub and vals[_n] > _TETO[_pub[_n][2]] + 1e-9]
+
+
+if len(_pub) != 13:
+    erro('12: sem a tabela do §2.2 lida inteira nao da para medir o piso das acoes')
+else:
+    _npub = int(CHEFE_ACOES)
+    for _n in (1, 2, _npub):
+        _v = _com_acoes(_n)
+        print(f'  {_n} acao(oes): ' + '  '.join(
+            f'{_c} {_v[_c]/_TETO[_pub[_c][2]]:.0%} da {_pub[_c][2]}' for _c in _DEPENDEM))
+
+    _com = _fora_da_banda(_com_acoes(_npub))
+    _menos = _fora_da_banda(_com_acoes(_npub - 1)) if _npub > 1 else []
+    if _com:
+        erro(f'12: com as {_npub} acoes que a peca publica, {", ".join(_com)} passa(m) do '
+             'teto do proprio tier — o numero publicado nao basta')
+    elif _npub > 1 and not _menos:
+        erro(f'12: com {_npub - 1} acoes as quatro continuam cabendo, entao {_npub} nao e '
+             'piso — ele virou folga escolhida sem ninguem escrever por que')
+    elif _npub <= 1:
+        erro('12: a peca publica 1 acao ou menos, e ai nao existe "um a menos" para medir '
+             'o piso contra')
+    else:
+        print(f'  [x] com {_npub} as quatro cabem, e com {_npub - 1} '
+              f'{", ".join(_menos)} sai(em) da banda — {_npub} e o piso')
+
+    # e a tabela publicada no §2.2 e' cópia com dono: ela reconstroi daqui
+    _i12 = TXT.find('| ações do chefe |')
+    _t12 = TXT[_i12:] if _i12 >= 0 else ''
+    _t12 = _t12[:_t12.find('\n\n')] if '\n\n' in _t12 else _t12
+    _cels = [[c.replace('*', '').replace('`', '').strip() for c in l.split('|')[1:-1]]
+             for l in _t12.split('\n') if l.startswith('|') and not l.startswith('|---')]
+    _ordem = [c.split(',')[0].strip() for c in _cels[0][1:]] if _cels else []
+    _linhas12 = [(int(c[0]), [int(x.rstrip('%')) for x in c[1:]])
+                 for c in _cels[1:] if c and c[0].isdigit()]
+    if len(_ordem) != 4 or set(_ordem) != set(_DEPENDEM):
+        erro('12: o cabecalho da tabela de acoes do §2.2 nao nomeia as quatro condicoes '
+             'que cobram acao — ela mudou de forma e esta metade parou de conferir')
+    elif len(_linhas12) < 2:
+        erro('12: a tabela de acoes do §2.2 tem menos de duas linhas de numero')
+    else:
+        _mau12 = 0
+        for _n, _pcts in _linhas12:
+            _v = _com_acoes(_n)
+            for _c, _p in zip(_ordem, _pcts):
+                _esp = round(_v[_c] / _TETO[_pub[_c][2]] * 100)
+                if _esp != _p:
+                    erro(f'12: a tabela do §2.2 publica {_p}% para o {_c} com {_n} acao(oes), '
+                         f'e a regua reconstroi {_esp}%')
+                    _mau12 += 1
+        if not _mau12:
+            print(f'  [x] as {len(_linhas12)} linhas da tabela de acoes do §2.2 reconstroem '
+                  'da regua')
+
+
+# --------------------------------------------------------------------------
+bloco('13. A COLUNA DO CAPANGA — a regua nao depende de contra quem foi escrita')
+# --------------------------------------------------------------------------
+# v0.198. A peca dizia "seis das treze mudam de nivel" contra um capanga, e dizia
+# que "o validador confere as duas colunas". Nenhuma das duas era verdade: a
+# conta da CINCO, e o 38 estava escrito neste arquivo sem uma linha de codigo
+# tocar nele. Numero publicado que ninguem recalcula e' orfao — o mesmo defeito
+# do 33,9 da peca 11, achado na v0.171.
+#
+# Nada esta escrito aqui: o capanga vem da ancora, os tiers vem do §2.2 e a
+# contagem vem da frase da peca, lida por um padrao que NAO carrega o numero.
+_NUM_PT = {'nenhuma': 0, 'uma': 1, 'duas': 2, 'três': 3, 'quatro': 4, 'cinco': 5,
+           'seis': 6, 'sete': 7, 'oito': 8, 'nove': 9, 'dez': 10, 'onze': 11,
+           'doze': 12, 'treze': 13}
+
+if len(_pub) != 13:
+    erro('13: sem a tabela do §2.2 lida inteira nao da para medir a coluna do capanga')
+else:
+    _vcap = {_n: _v for _n, _tp, _v in condicoes(CAPANGA)}
+    _mudam = sorted(_n for _n, (_d, _f, _tr) in _pub.items() if tier_de(_vcap[_n]) != _tr)
+    print(f'  contra o capanga de {CAPANGA:.0f} em vez do chefe de {CHEFE:.0f}: '
+          f'{len(_mudam)} de 13 mudam de nivel')
+    print('     ' + ', '.join(f'{_n} -> {tier_de(_vcap[_n])}' for _n in _mudam))
+
+    _m13 = re.search(r'\*\*(\w+)\*\* das treze mudam de nível', TXT)
+    if not _m13:
+        erro('13: a peca nao publica quantas das treze mudam de nivel contra o capanga — '
+             'a frase mudou de forma e esta checagem ficou sem o outro lado')
+    elif _NUM_PT.get(_m13.group(1).lower()) != len(_mudam):
+        erro(f'13: a peca publica "{_m13.group(1)}" das treze mudando de nivel contra o '
+             f'capanga, e a regua conta {len(_mudam)}')
+    else:
+        print(f'  [x] a peca publica "{_m13.group(1)}", e a regua conta o mesmo')
+
+    # e as que passam do teto da Pesada contra o chefe param de passar contra ele
+    _acima_ch = sorted(_n for _n, (_d, _f, _tr) in _pub.items() if _d > _TETO['Pesada'] + 1e-9)
+    _acima_cp = sorted(_n for _n in _acima_ch if _vcap[_n] > _TETO['Pesada'] + 1e-9)
+    _declara = 'param de passar' in TXT
+    if _acima_ch and not _acima_cp and not _declara:
+        erro('13: contra o capanga o(s) estouro(s) do teto da Pesada somem — '
+             f'{", ".join(_acima_ch)} — e a peca nao declara que o estouro e do tamanho '
+             'do alvo. Sem isso ele fica lido como defeito de desenho')
+    elif _acima_cp and _declara:
+        erro('13: a peca declara que os estouros do teto da Pesada somem contra o capanga, '
+             f'e {", ".join(_acima_cp)} continua(m) passando')
+    elif _acima_ch:
+        print(f'  [x] {", ".join(_acima_ch)} passa(m) do teto da Pesada contra o chefe e '
+              'nao passa(m) contra o capanga, e a peca declara isso')
 
 
 # --------------------------------------------------------------------------
