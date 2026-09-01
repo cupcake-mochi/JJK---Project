@@ -160,5 +160,10 @@ const NOTA = (t) => new Paragraph({
 
 const GAP = (n = 120) => new Paragraph({ text: '', spacing: { after: n } });
 
+// v0.199: o bloco de inimigo reusa estes helpers com OUTRA paleta — a do livro,
+// que e a que o jogador ve. Trocar a cor por aqui evita a copia do arquivo
+// inteiro, que seria a licao no 9 num arquivo de 164 linhas.
+function setPaleta(nova) { Object.assign(C, nova); }
+
 module.exports = { d, C, W, SEM_BORDA, NIL, runs, P, FAIXA, campo, LINHA, BLOCO,
-                   cell, TBL, NOTA, GAP };
+                   cell, TBL, NOTA, GAP, setPaleta };

@@ -134,7 +134,9 @@ BASE_MANUAL = 8   # vida por nivel que o manual usa para calibrar chefe e capang
 CON_TIPICA = 3    # o que uma ficha comum carrega em Constituicao
 
 # Dano de chefe por rodada, tabela do manual (linhas 1598-1637 do .docx)
-CHEFE = {5: 15, 10: 26, 15: 38, 20: 49, 25: 61, 30: 72}
+# v0.199: entrou a linha da Classe 1 (nivel 2 ao 4), derivada das razoes que sao
+# constantes nas seis publicadas — grupo 2,90x a Rotina e vida do chefe 3,66x o grupo.
+CHEFE = {2: 6, 5: 15, 10: 26, 15: 38, 20: 49, 25: 61, 30: 72}
 
 
 def dano_chefe(nv):

@@ -154,6 +154,7 @@ const mestre = [
   H2('Inimigos'),
   TBL(['Nível do grupo', 'Dano do grupo por rodada', 'Chefe sozinho: vida', 'Chefe: dano', 'Capanga: vida', 'Capanga: dano'],
     [
+      ['2', '~38', '125 a 150', '6', '—', '—'],
       ['5', '~90', '300 a 360', '15', '40', '8'],
       ['10', '~130', '430 a 520', '26', '70', '14'],
       ['15', '~180', '600 a 720', '38', '110', '20'],
@@ -165,6 +166,8 @@ const mestre = [
   ),
   GAP(100),
   P('A conta supõe quatro personagens: um focado em bater, dois medianos, um de apoio.'),
+  P('A faixa mais baixa não tem capanga, e isso é decisão: com o corpo que a proporção daria, dois deles cairiam na primeira rodada de um grupo que causa 38 por rodada — aí ele é uma rolagem a mais e não um corpo. Do nível 2 ao 4 o encontro é um inimigo só.'),
+  P('Cada linha vale para a faixa de Classe dela, e não só para aquele nível: a do 2 cobre o nível 2 ao 4, a do 5 cobre até o 8, a do 10 até o 12, e assim por diante. Dentro da faixa o grupo ganha vida e o inimigo não, então o encontro afrouxa — se quiser manter o aperto no fim da faixa, acrescente capangas.'),
   P('Chefe sozinho precisa de três a quatro vezes o dano de rodada do grupo, porque ele perde a ação três vezes por rodada. Se não quiser inflar o número, use capangas ou uma barreira que absorva antes da vida.'),
   GAP(100),
   P('E a ficha dele carrega mais duas coisas, que são de marcar e não de calcular:'),

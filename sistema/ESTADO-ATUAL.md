@@ -1,8 +1,18 @@
 # Estado atual do projeto
 
-Atualizado em 31/08/2026, na v0.198 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e sete checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 01/09/2026, na v0.199 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e oito checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.198.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
+**Versão v0.199.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
+
+**A v0.199 deu ao Bestiário o bloco impresso, e a última pergunta do Mizuki abriu a versão seguinte.** *`05-material/bloco-de-inimigo.docx` tem a ficha em branco, um exemplo e as tabelas — e ele foi refeito três vezes, porque a primeira era planilha de construção e um bloco de monstro é lido, não montado.*
+
+> **A tabela de inimigo do manual ganhou a linha da Classe 1, e o eixo dela mudou de nome.** *As seis linhas caem em seis faixas de Classe diferentes, e a coluna do grupo é `2,90 ×` a Rotina — constante dentro da faixa.* **Então cada linha vale para a FAIXA, e os 23 níveis sem linha sempre tiveram uma.** *Manual na v7.21, e a faixa mais baixa sai sem capanga por decisão.*
+>
+> **A ficha ganhou quatro linhas — atributos, características, pacto e resistência —, e a resistência ganhou moeda:** *resistir a `Físicos` vale `1,43 ×` de vida efetiva e custa **um degrau de categoria**.*
+>
+> **E a sub-categoria é ideia do Mizuki:** *a categoria diz o tamanho e ela diz a forma —* `sozinho` `100%` · `com um apoio` `75%` · `com dois` `50%` · `bando` `25%`, **com a fração saindo do câmbio e não de escolha.**
+>
+> **⚠⚠ E fica aberta a maior:** *a pressão do chefe é `3,3 ×` menor que a do d20 — lá ele come `24%` da vida do grupo por rodada e zera ela em `4,1` rodadas; aqui come `7%` e levaria `14`.* **É a v0.200**, e ela mexe no `72`, que é a base da régua de condição inteira.
 
 **O `Bestiário` fechou na v0.198, e é a peça 26.** *Ele era o único item da fila da mecânica desde a v0.168, e estava no fim dela desde a v0.36 com uma linha só.* **A lista dos "nove números" que a v0.159 levantou estava incompleta:** *faltavam três que a mesa rola toda rodada — a Defesa do inimigo, o acerto dele e a CD dele —, e nenhum tinha dono em documento nenhum.*
 
@@ -668,7 +678,7 @@ python3 conferir-nomes.py --candidatos Vulto Matilha Bigorna
 
 | validador | pula | de quantas | o rodapé avisa? |
 |---|---|---|---|
-| `conferir-bestiario` | 2 — a categoria e o câmbio, as duas contra a tabela de inimigo | 7 | **sim** |
+| `conferir-bestiario` | 2 — a categoria e o câmbio, as duas contra a tabela de inimigo | 8 | **sim** |
 | `conferir-dano` | 1 — as treze contra o manual | 13 | **sim** — `OK, mas 1 checagem(ns) PULARAM` |
 | `conferir-manual` | **8 — todas.** Sai no `except ImportError` antes da primeira | 8 | avisa, e sai antes do rodapé |
 | `conferir-nomes` | 3 (as checagens 1, 3 e 4) | 6 | sim, **desde a v0.101** |
@@ -830,14 +840,15 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/25-sem-tecnica.md` | **a rota de criação de quem tem energia e não tem técnica inata**: a semente — uma aptidão aberta na criação, em `Classe Passiva 2` ou `3` —, as três portas, os renomes `Manejo` e `Auge`, o buff de `1/3 do refino` na cura da rota da Shoko, e por que a Expansão de Domínio não existe aqui |
 | `03-mecanica/conferir-sem-tecnica.py` | as **doze** checagens da peça 25, e nenhum valor de regra mora dentro dela. *A 5 é a que decide a peça: ela não guarda os `9,3` nem os `17,3` — lê a escada de gate da peça 11 §5, simula as três rotas de marco e recalcula a antecipação de cada altura, então mexer na escada de forma coerente move a banda junto e sai verde de propósito* |
 | `03-mecanica/26-bestiario.md` | **a máquina de montar inimigo**: a ficha de treze linhas com dono declarado, as três derivadas que não tinham dono nenhum — Defesa, acerto e CD —, as quatro categorias medidas em quantos personagens o inimigo exige, o câmbio de um chefe por quatro capangas, e o grau como rótulo de ficção |
-| `03-mecanica/conferir-bestiario.py` | as **sete** checagens da peça 26, e nenhum valor de regra mora dentro dela. *A 2 é a que decide a peça: ela não guarda a Defesa nem a CD do inimigo — reconstrói as duas das fórmulas da peça 1 §5 e cobra que elas devolvam, do lado do inimigo, os mesmos `50%` a `55%` de acerto e `65%` de resistência que a peça 1 §6 publica do lado do jogador.* **A 5 não guarda o câmbio: ela roda a simulação de fogo concentrado aqui dentro**, nos seis níveis da tabela do manual |
+| `03-mecanica/conferir-bestiario.py` | as **oito** checagens da peça 26, e nenhum valor de regra mora dentro dela. *A 2 é a que decide a peça: ela não guarda a Defesa nem a CD do inimigo — reconstrói as duas das fórmulas da peça 1 §5 e cobra que elas devolvam, do lado do inimigo, os mesmos `50%` a `55%` de acerto e `65%` de resistência que a peça 1 §6 publica do lado do jogador.* **A 5 não guarda o câmbio: ela roda a simulação de fogo concentrado aqui dentro**, nos seis níveis da tabela do manual |
 | `05-material/gerador-ficha/` | o gerador da ficha (Node: `node make.js`), e os dois `.docx` que ele produz |
+| `05-material/gerador-inimigo/` | **o gerador do bloco de inimigo** (Node: `node make.js`), e o `bloco-de-inimigo.docx` de quatro páginas que ele produz — as tabelas que o mestre copia, o bloco em branco e um exemplo preenchido. *O `dados.js` dele não é autoridade de nada: o bloco `7` do `conferir-ficha.py` compara com a peça 26* |
 | `conferir-repositorio.py` | a árvore, as referências mortas, os números que moram em mais de um documento, os **ponteiros de seção** — todo `peça N §M` citado tem de apontar para seção que existe, desde a v0.54 —, o **mapa** desta tabela contra a pasta, a **entrega** contra a fonte, a **pendência morta** desde a v0.100 — nenhum item de "Em aberto" pode pedir coisa que já existe —, e, **desde a v0.102**, a **contagem de checagens de cada validador, lida do código** |
 | `99-arquivo/` | material morto, com LEIA-ME próprio. Não leia de lá para escrever peça nova |
 
 **Duas peças foram parcialmente substituídas e trazem o aviso no topo:** as seções 3 e 4 da peça 4 saíram para a peça 7, e a seção 3 e o quadro de Caminhos da peça 5 saíram para a peça 6.
 
-O manual do Fundamento **v7.20** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 366 parágrafos e 90 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na mesma versão do `.docx`, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 50 páginas.
+O manual do Fundamento **v7.21** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 366 parágrafos e 90 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na mesma versão do `.docx`, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 50 páginas.
 
 **Quem é dono da versão do manual:** a primeira linha de `manual/gerador/COMO-USAR.txt`. Toda outra cópia — a capa em `partA.js`, este arquivo, o `README.md`, o `LEIA-ME.md` e o `arquitetura.md` — é cópia, e o `conferir-repositorio.py` falha se alguma divergir. *Ele nasceu na v0.33, depois de a capa do manual passar três versões dizendo 7.5.*
 

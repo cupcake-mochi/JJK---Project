@@ -1,0 +1,62 @@
+GERADOR DO BLOCO DE INIMIGO — Projeto - M, peca 26
+
+  node make.js
+  cp bloco-de-inimigo.docx ..
+
+Sai bloco-de-inimigo.docx, quatro paginas:
+  1. A FICHA      em branco, no formato de BLOCO DE MONSTRO — lida de cima para
+                  baixo, nao preenchida em formulario
+  2. O EXEMPLO    a mesma ficha, com uma Alcateia de nivel 10
+  3. COMO MONTAR  os cinco passos, e as tabelas de VIDA e de GOLPE
+  4. O RESTO      Defesa/acerto/CD, o capanga com o cambio, e a resistencia
+  So se volta nas tabelas para montar um inimigo novo.
+
+VIDA E GOLPE SAO TABELAS SEPARADAS, E ISSO E DECISAO
+  Estavam na mesma celula — `82 · 1d8` — e o Mizuki leu e disse que era
+  informacao jogada. Sao dois numeros de naturezas diferentes: um se ANOTA e o
+  outro se ROLA. O 5e faz igual, com a vida numa linha e o golpe la embaixo, na
+  linha de acao. Nao junte de novo.
+
+O FORMATO E DE BLOCO, E ISSO CUSTOU UMA REESCRITA
+  A primeira versao era planilha de construcao: quatro tabelas de consulta na
+  frente e um formulario atras. O Mizuki leu e disse que era confuso, e mandou
+  comparar com como outros sistemas apresentam inimigo. O molde certo estava no
+  Guia do Volo: um bloco VERTICAL, lido de cima para baixo, com tudo ja
+  calculado. Ninguem MONTA um monstro no 5e — a pessoa LE ele. A ordem daqui e
+  a de la traduzida: nome, o que ele e, defesa e vida, deslocamento, os cinco
+  atributos numa linha, o que ele resiste, e as ACOES por ultimo, que e o que se
+  usa na rodada.
+
+ONDE MEXER
+  dados.js    as sete faixas, as quatro categorias e a regua de resistencia.
+              NENHUM valor daqui e autoridade — a autoridade e a peca 26 e a
+              tabela `Inimigos` do manual, e o bloco 7 do conferir-ficha.py
+              compara os dois. Mexeu na peca? Mexa aqui e rode o validador.
+  make.js     as tres partes e a montagem. Os helpers de estilo vem do
+              ../gerador-ficha/helpers.js — a paleta e a mesma de proposito,
+              porque a ficha, o manual e o bloco vao estar na mesma mesa.
+
+DUAS ESCADAS, E ELAS NAO COINCIDEM
+  Vida, dano e acoes mudam em FAIXA DE CLASSE (2-4, 5-8, 9-12, ...).
+  Defesa, acerto, CD e refino mudam em MARCO (2-5, 6-9, 10-13, ...).
+  Sao duas tabelas na folha por isso, e nao por enfeite.
+
+O ARREDONDAMENTO E MEIO PARA BAIXO
+  Os fatores de categoria sao 0,25 · 0,50 · 1,50, entao DEZENOVE das cinquenta
+  e seis celulas caem exatamente em ,5. O Math.round do JS sobe e o round do
+  Python vai para o par — sem a regra escrita, os tres lugares que calculam
+  esta escala divergem em nove celulas. A regra esta na peca 26 §4.1, e o
+  bloco 7 do conferir-ficha.py falha se o gerador parar de segui-la.
+
+O EXEMPLO NAO TEM NOME, E ISSO E DE PROPOSITO
+  Batizar maldicao e escolha de sabor do Mizuki, e o catalogo de prontas e a
+  versao seguinte. O que o exemplo mostra e o PREENCHIMENTO — de onde cada
+  numero saiu.
+
+QUATRO PAGINAS, E A PAGINACAO E FRAGIL
+  A tabela do capanga ja partiu no meio DUAS vezes — uma linha numa pagina e
+  seis na outra — e a ficha em branco ja estourou por um fio e criou uma folha
+  vazia. Se acrescentar campo ou linha, confira:
+
+    soffice --headless --convert-to pdf bloco-de-inimigo.docx
+    pdfinfo bloco-de-inimigo.pdf | grep Pages

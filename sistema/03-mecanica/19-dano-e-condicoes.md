@@ -91,6 +91,10 @@
 > **Benefício que só o corpo a corpo colhe conta UM aliado.** *É a leitura do `Abalo`, a Manha da Massa.*
 > **Benefício que qualquer atacante colhe conta TRÊS.** *É a leitura do `Estampido`, a Manha da Arma de Fogo, que supõe mesa de quatro.*
 
+> **⚠ A régua mede a rodada em que a condição está ativa, e a condição dura UMA.** *A Melhoria `Condição` do manual escreve isso na própria célula — "Dura uma rodada" —, e nenhuma das Melhorias que mexem em tempo estende ela.* **Então um `Impedido` vale `58,65` na rodada dele e `16,0` espalhado numa luta de `3,67` rodadas**, que é `22%` do que um chefe faz.
+>
+> *Isto entrou na v0.199, e entrou porque a falta dele produziu um erro:* **a régua foi lida como se a condição durasse a luta**, e daí saiu um diagnóstico de que o chefe precisava de proteção contra condição no molde da `Resistência Lendária` do 5e. **Ele não precisa** — *o sistema já resolve pelo relógio, e a duração morava só na célula do manual.*
+
 **As treze, aplicadas num chefe, no nível 30:**
 
 | condição | dano por rodada | fatias | nível |

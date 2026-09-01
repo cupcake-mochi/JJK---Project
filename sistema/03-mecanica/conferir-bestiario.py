@@ -15,6 +15,7 @@ As checagens 3 e 5 leem o .docx do manual: sem o python-docx elas PULAM, e o
 rodape DIZ que pularam. Um verde que pulou checagem nao e' um verde.
 """
 
+import math
 import os
 import re
 import sys
@@ -52,7 +53,9 @@ P01 = 'sistema/03-mecanica/01-atributos-acerto-defesa.md'
 P03 = 'sistema/03-mecanica/03-economia-de-acao-e-iniciativa.md'
 P07 = 'sistema/03-mecanica/07-pericias-e-oficios.md'
 P11 = 'sistema/03-mecanica/11-aptidoes-e-refino.md'
+P02 = 'sistema/03-mecanica/02-economia-de-atributos.md'
 P12 = 'sistema/03-mecanica/12-experiencia-e-progressao.md'
+P22 = 'sistema/03-mecanica/22-pactos.md'
 P19 = 'sistema/03-mecanica/19-dano-e-condicoes.md'
 DOCX = os.path.join(RAIZ, 'manual', 'Fundamento-MANUAL-v7.docx')
 
@@ -64,13 +67,19 @@ def celulas(linha):
 
 
 def tabela(texto, cabecalho):
-    """As linhas de dado da primeira tabela que comeca com `cabecalho`."""
+    """As linhas de dado da primeira tabela que comeca com `cabecalho`.
+
+    ⚠ O `> ` de citacao sai antes de medir: a tabela dos tres grupos de dano da
+    peca 19 §4 mora DENTRO de um bloco de citacao, e sem tirar o prefixo esta
+    funcao nao acha ela — foi assim que a checagem 8 nasceu cega na v0.199.
+    """
     i = texto.find(cabecalho)
     if i < 0:
         return []
     t = texto[i:]
     t = t[:t.find('\n\n')] if '\n\n' in t else t
-    return [celulas(l) for l in t.split('\n')[1:]
+    linhas = [re.sub(r'^>\s*', '', l) for l in t.split('\n')[1:]]
+    return [celulas(l) for l in linhas
             if l.startswith('|') and not l.startswith('|---')]
 
 
@@ -100,6 +109,13 @@ ANCORAS = {
     'refino': (P11, r'\*\*meio a meio\*\*'),
     'tr': (P07, r'[Tt]este de Resistência'),
     'deslocamento': (P03, r'9 m'),
+    # v0.199: as quatro linhas que o Mizuki pediu. Nenhuma inventa economia —
+    # as tres primeiras apontam para peca que ja existe, e a quarta e a regua
+    # de tipo de dano da peca 19 §4 vista do lado do inimigo.
+    'atributos': (P02, r'[Nn]ove pontos em cinco atributos'),
+    'caracteristicas': (P11, r'catálogo de aptidões'),
+    'pacto': (P22, r'metade da Essência'),
+    'resistencia': (P19, r'\| \*\*Físicos\*\* \|'),
 }
 MAPA_ANCORA = {
     'nível': ('nivel',), 'categoria': ('categoria',), 'vida': ('vida',),
@@ -107,6 +123,9 @@ MAPA_ANCORA = {
     'ações por rodada': ('acoes',), 'Defesa': ('defesa',), 'acerto': ('acerto',),
     'CD': ('cd',), 'Reação': ('reacao',), 'refino': ('refino',),
     'Testes de Resistência': ('tr',), 'deslocamento': ('deslocamento',),
+    'atributos': ('atributos',), 'características': ('caracteristicas',),
+    'pacto': ('pacto',),
+    'resistência, vulnerabilidade e imunidade': ('resistencia',),
 }
 
 _achadas = 0
@@ -290,9 +309,18 @@ if docx is not None and os.path.isfile(DOCX):
             for _r in _t.rows[1:]:
                 _v = [c.text.strip() for c in _r.cells]
                 _vd = _v[2].split(' a ')
+                # ⚠ a faixa mais baixa nao tem capanga, e isso e decisao da v0.199:
+                # com o corpo que a proporcao daria, DOIS deles cairiam na primeira
+                # rodada de um grupo que causa 38 — ai ele e uma rolagem a mais e nao
+                # um corpo. A celula vem com travessao, e quem le tem de saber disso.
+                def _n(x):
+                    try:
+                        return float(x)
+                    except ValueError:
+                        return None
                 _MANUAL[int(_v[0])] = (float(_v[1].replace('~', '')),
                                        (int(_vd[0]) + int(_vd[-1])) / 2,
-                                       float(_v[3]), float(_v[4]), float(_v[5]))
+                                       float(_v[3]), _n(_v[4]), _n(_v[5]))
             break
 
 if not _MANUAL:
@@ -323,7 +351,11 @@ else:
                 erro(f'3: nao consegui ler a celula "{_cel}" do §4.1')
                 _mau3 += 1
                 continue
-            _ve, _de = round(_MANUAL[_nv][1] * _fator), round(_MANUAL[_nv][2] * _fator)
+            # ⚠ meio para BAIXO, pela regra declarada no §4.1 da peca. O round()
+            # do Python arredonda para o PAR, e 19 das celulas desta escala caem
+            # em ,5 — as duas convencoes divergem em nove delas.
+            _ve = math.ceil(_MANUAL[_nv][1] * _fator - 0.5)
+            _de = math.ceil(_MANUAL[_nv][2] * _fator - 0.5)
             if int(_nums[0]) != _ve or int(_nums[1]) != _de:
                 erro(f'3: {_c[0]} no nv{_nv}: a peca publica {_nums[0]} vida e '
                      f'{_nums[1]} dano, e a linha do manual vezes {_fator} da '
@@ -409,13 +441,27 @@ elif not _MANUAL:
     pulou('5. o cambio contra a simulacao — a tabela do manual nao foi lida')
 else:
     _pub5 = _NUM_PT.get(_m5.group(1).lower())
-    _medidos = []
+    _medidos, _sem_capanga = [], []
     for _nv, (_saida, _cv, _cd, _kv, _kd) in sorted(_MANUAL.items()):
+        if _kv is None or _kd is None:
+            _sem_capanga.append(_nv)
+            continue
         _r0, _t0 = _simula(_saida, [(_cv, _cd)])
         _melhor = min(range(1, 13),
                       key=lambda n: abs(_simula(_saida, [(_kv, _kd)] * n)[1] - _t0))
         _medidos.append((_nv, _melhor))
     print('  cambio medido por nivel: ' + ' · '.join(f'nv{n}:{m}' for n, m in _medidos))
+    # a faixa sem capanga nao entra na conta, e a peca tem de declarar o piso —
+    # senao a coluna vazia fica lida como esquecimento em vez de decisao.
+    if _sem_capanga:
+        _decl = 'não tem capanga' in TXT or 'sem capanga' in TXT
+        if not _decl:
+            erro(f'5: a tabela do manual tem {len(_sem_capanga)} faixa(s) sem capanga '
+                 f'— nivel {", ".join(str(x) for x in _sem_capanga)} — e esta peca nao '
+                 'declara o piso. Coluna vazia sem motivo escrito le-se como esquecimento')
+        else:
+            print(f'  {len(_sem_capanga)} faixa(s) sem capanga (nv '
+                  f'{", ".join(str(x) for x in _sem_capanga)}), e a peca declara o piso.')
     _valores = sorted({m for _, m in _medidos})
     if _pub5 is None:
         erro(f'5: nao entendi "{_m5.group(1)}" como numero por extenso')
@@ -475,6 +521,80 @@ if len(_MEIO) < 8:
 else:
     print('  [x] a curva do `meio a meio` foi lida da peca 11: '
           + ' '.join(str(_MEIO[k]) for k in sorted(_MEIO)))
+
+
+# --------------------------------------------------------------------------
+bloco('8. RESISTENCIA E VIDA ESCONDIDA — e o degrau de categoria e a moeda dela')
+# --------------------------------------------------------------------------
+# v0.199. A peca 19 §4 divide os catorze tipos em tres grupos com peso, e
+# resistir corta pela metade o que entra por aquele grupo. Isso sobe a VIDA
+# EFETIVA do inimigo, e a categoria nao sabia disso: um chefe de Alcateia imune
+# a Fisicos joga uma luta de 9 rodadas onde a categoria promete 3,7.
+#
+# Nada esta escrito aqui: os pesos saem da peca 19, os fatores saem do §4 desta
+# peca, e os multiplicadores sao recalculados. O mecanismo e o do Guia do Mestre
+# de 2014, que tem tabela de Pontos de Vida Efetivos fazendo o mesmo.
+_PESOS = {}
+for _l in tabela(ler(P19), '| grupo | tipos | do dano recebido |'):
+    if len(_l) >= 3 and _l[2].endswith('%'):
+        _PESOS[_l[0]] = int(_l[2].rstrip('%')) / 100.0
+
+if not _PESOS:
+    erro('8: nao achei a tabela dos tres grupos de dano na peca 19 §4 — ela e a dona '
+         'do peso, e sem ele nao da para dizer quanto uma resistencia vale')
+else:
+    print('  pesos lidos da peca 19 §4: '
+          + ' · '.join(f'{k} {v:.0%}' for k, v in _PESOS.items()))
+
+    def _efetiva(frac, modo):
+        poupa = frac * 0.5 if modo == 'resistência' else (frac if modo == 'imunidade'
+                                                          else -frac)
+        return 1.0 / (1.0 - poupa)
+
+    _T8 = tabela(TXT, '| grupo | peso | resistência | imunidade | vulnerabilidade |')
+    _mau8 = 0
+    for _l in _T8:
+        if len(_l) < 5 or not _l[1].endswith('%'):
+            continue
+        _peso = int(_l[1].rstrip('%')) / 100.0
+        if _l[0] in _PESOS and abs(_PESOS[_l[0]] - _peso) > 1e-9:
+            erro(f'8: a peca publica peso {_l[1]} para o grupo {_l[0]} e a peca 19 §4 '
+                 f'diz {_PESOS[_l[0]]:.0%}')
+            _mau8 += 1
+        for _cel, _modo in zip(_l[2:5], ('resistência', 'imunidade', 'vulnerabilidade')):
+            _m = re.match(r'([\d,]+)', _cel)
+            if not _m:
+                erro(f'8: nao consegui ler "{_cel}" na linha {_l[0]}')
+                _mau8 += 1
+                continue
+            _pub = float(_m.group(1).replace(',', '.'))
+            _esp = round(_efetiva(_peso, _modo), 2)
+            if abs(_pub - _esp) > 0.011:
+                erro(f'8: {_l[0]}, {_modo}: a peca publica {_pub:.2f}x e a conta da '
+                     f'{_esp:.2f}x')
+                _mau8 += 1
+    if not _T8:
+        erro('8: nao achei a tabela de vida efetiva do §6.3 — ela mudou de forma e '
+             'esta checagem parou de conferir')
+    elif not _mau8:
+        print(f'  [x] as {len(_T8)} linhas do §6.3 reconstroem de 1 ÷ (1 − o que se poupa)')
+
+    # e o degrau de categoria tem de ser a moeda: o maior multiplicador de
+    # resistencia tem de caber no degrau que a escada do §4 vende.
+    if _CAT and 'Físicos' in _PESOS:
+        _degraus = sorted(c[2] for c in _CAT)
+        _maior = max(_degraus[i + 1] / _degraus[i] for i in range(len(_degraus) - 1))
+        _res_fis = _efetiva(_PESOS['Físicos'], 'resistência')
+        _decl = 'custa um degrau de categoria' in TXT
+        if not _decl:
+            erro('8: a peca nao declara em que moeda a resistencia se paga — sem isso '
+                 'ela e vida de graca, e a categoria passa a mentir sobre o encontro')
+        elif _res_fis > max(_degraus) / min(d for d in _degraus if d >= 1.0) + 0.01:
+            erro(f'8: resistir aos Físicos vale {_res_fis:.2f}x de vida efetiva e o maior '
+                 f'degrau da escada do §4 vale {_maior:.2f}x — a moeda nao cobre o preco')
+        else:
+            print(f'  [x] resistir aos Físicos vale {_res_fis:.2f}x, e o degrau de '
+                  f'categoria que a peca cobra vale {_maior:.2f}x')
 
 
 # --------------------------------------------------------------------------

@@ -8,6 +8,125 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.199] — 01/09/2026 · manual na v7.21
+
+**O Bestiário ganhou o bloco impresso, e a folha foi refeita três vezes por leitura do Mizuki.** *A primeira era uma planilha de construção, a segunda tinha a paleta errada, e a terceira misturava vida e golpe na mesma célula.* **E a última pergunta dele — *"o dano não tá muito baixo?"* — achou uma coisa que não cabe nesta versão.**
+
+### 1 · A linha da Classe 1, e o eixo que ninguém tinha nomeado
+
+**A tabela de inimigo do manual começa no nível 5, e a ficha nasce no 2.** *Os níveis 2 a 4 nunca tiveram linha.*
+
+**E indo derivar ela apareceu que o eixo não é o nível — é a faixa de Classe.** *As seis linhas caem em seis faixas diferentes, uma em cada, da Classe 2 à 7, e a coluna do grupo é `2,90 ×` a Rotina, que é constante dentro da faixa.* **Então cada linha vale para a faixa inteira**, e os `23` níveis "sem linha" sempre tiveram uma — ninguém tinha escrito qual.
+
+> **Três das quatro razões da tabela são constantes:** *grupo `2,90 ×` a Rotina, vida do chefe `3,66 ×` o grupo — que é o meio exato dos "três a quatro" que a prosa escreve —, e dano do capanga `0,53 ×` o do chefe.* **A linha nova sai delas: grupo `~38`, chefe `125 a 150` de vida e `6` de dano.**
+>
+> ***Decisão do Mizuki: a faixa mais baixa sai SEM capanga.*** *Com o corpo que a proporção daria, `17` de vida, dois deles cairiam na primeira rodada de um grupo que causa `38`.* **Os quatro sistemas que o levantamento cobriu dizem o mesmo por caminhos diferentes:** *o `minion` do 4e tira a vida do corpo, o `mook` do 13th Age junta todos num poço, o `Guia do Mestre` alarga as faixas do fundo — o `ND 1/8` vai de `7` a `35` de vida — e o Pathfinder 2e põe piso em `PL−4`.* **Nenhum trata corpo pequeno como corpo grande encolhido.**
+
+### 2 · Quatro `Ronda` não valem uma `Alcateia`, e o capanga explica por quê
+
+**Elas cobram `0,62 ×` o que ela cobra, e o número é idêntico nas sete faixas.** *Eles morrem em fila e a saída deles despenca.*
+
+> **É por isso que o capanga do manual não é um chefe dividido.** *Ele carrega `19%` da vida do chefe e `53%` do dano* — **bate acima do peso justamente porque morre cedo, e é essa compensação que faz o câmbio de quatro fechar.**
+
+### 3 · A ficha ganhou quatro linhas, e a decisão sobre condição foi NÃO mexer
+
+***Pedido do Mizuki:*** *o inimigo tem que ter atributos, características, e possibilidade de técnica e pacto.* **Entraram as quatro:** *os cinco atributos no orçamento da peça 2 — o mesmo que a invocação usa desde a v0.180 —, uma linha de características, o pacto, e resistência com o custo em degrau de categoria.*
+
+**E ele pediu para evitar Resistência Lendária.** *Levantei cinco sistemas: o 5e resolve com recurso, o Pathfinder 2e com o traço `incapacitação` que sobe um grau de sucesso, o 4e com o `Action Recovery` do MM3, o MCDM cobrando vida de aliado, e o Drakkenheim com um `1d10` por turno.*
+
+> ***E a objeção dele matou as três saídas que eu tinha medido:*** *"se a gente fizer algo que nega condição não vai fazer sentido os feitiços terem condições que têm duração".* **A Melhoria `Condição` do manual já escreve *"Dura uma rodada"*, e nenhuma Melhoria estende isso.**
+>
+> **⚠⚠ Então o `81%` que eu tinha medido era o valor da condição NA RODADA DELA, apresentado como se fosse a luta.** *Espalhado numa luta de `3,67` rodadas dá `22%` — que é exatamente onde a saída do 4e queria chegar.* **Não existia problema de Resistência Lendária: o sistema já resolve pelo relógio.**
+>
+> *A duração entrou na peça 19 §2.2, porque a régua publicava `dano por rodada` e nunca dizia quantas rodadas — foi isso que me fez errar.*
+
+### 4 · Resistência é vida escondida, e o degrau de categoria é a moeda
+
+**Os pesos `60/30/10` da peça 19 §4 dizem quanto cada grupo de dano vale, e resistir corta metade do que entra por ele.** *Resistir a `Físicos` dá `1,43 ×` de vida efetiva; ser imune dá `2,50 ×`.*
+
+**Um chefe de `Alcateia` imune a `Físicos` vira uma luta de `9,17` rodadas que cobra `64%` da vida do grupo**, contra as `3,67` e `26%` que a categoria promete. *A ficha dizia uma coisa e a mesa jogava outra.*
+
+> **A escada de categoria já é a moeda:** *subir da `Alcateia` para a `Calamidade` vale `1,50 ×`, e resistir a `Físicos` vale `1,43 ×`.* **Um degrau.** *O mecanismo é o da tabela de `Pontos de Vida Efetivos` do `Guia do Mestre`.*
+
+### 5 · A sub-categoria — ideia do Mizuki, e ela sai do câmbio
+
+***Palavras dele:*** *"nem todo combate vai ter mais de um inimigo, pra isso serviria as categorias dentro de cada categoria maior"*. **A categoria diz o TAMANHO; a sub-categoria diz a FORMA.**
+
+| | o chefe fica com | capangas | cobra |
+|---|---|---|---|
+| `sozinho` | `100%` | — | `28%` |
+| `com um apoio` | `75%` | `1` | `30%` |
+| `com dois` | `50%` | `2` | `33%` |
+| `bando` | `25%` | `3` | `35%` |
+
+> **⚠ A primeira tentativa não fechou.** *Partir o orçamento pela VIDA inflava o encontro de `28%` para `50%`, porque o capanga é `glass cannon` e trocar vida por capanga acrescenta dano.* **Só o câmbio preserva** — cada capanga vale um quarto do chefe, e é daí que as frações saem.
+
+### 6 · O bloco impresso, e ele foi refeito três vezes
+
+**`05-material/bloco-de-inimigo.docx`, quatro páginas.** *A primeira versão era planilha de construção: quatro tabelas na frente e um formulário atrás.*
+
+> ***O Mizuki mandou comparar com outros sistemas, e a comparação matou o desenho.*** **Um bloco de monstro do 5e é LIDO, não montado** — coluna vertical, de cima para baixo, com tudo calculado. *Ninguém preenche formulário cruzando quatro tabelas.* **A ficha foi para a frente, as tabelas para o fim, e a ordem interna é a do Guia do Volo traduzida.**
+>
+> **⚠⚠ E a paleta estava errada porque o projeto tem DUAS.** *A ficha e o manual do Fundamento usam ameixa `741B47`; o Manual da Guilda — o PDF que o jogador recebe — usa selo `#211C35` com acento `#8A7444`.* **O bloco é material de mesa como o livro, então ele segue o livro.** *Entrou um `setPaleta()` no `helpers.js` em vez de copiar as 164 linhas.*
+>
+> **E o texto correu além das tabelas por três versões:** *a mancha tinha `786` twips a mais que elas.* **`1153` de margem não é escolha: é `(11906 − 9600) ÷ 2`.**
+
+### 7 · O dano em dado, e o piso que estava errado
+
+**A tabela do manual publica dano por RODADA; o que o mestre rola é o de uma AÇÃO.** *O golpe é `N d8 + fixo`, com metade do alvo em dado, e o precedente é o `Guia do Mestre` mandando traduzir a margem numa expressão de dado.*
+
+> **⚠ O piso do número seco estava em `3`, e com ele um alvo de `3,0` virava `1d8`** — que entrega `4,5`, cinquenta por cento a mais. **Subiu para `5`**, e a faixa mais baixa saiu toda em número seco. *Nenhuma das `28` células erra mais de `20%` do alvo.*
+>
+> **E o `×N` foi para dentro da célula.** *O golpe não cresce junto com a categoria — a `Dupla` bate `4d8 + 18` numa ação e a `Calamidade` bate `2d8 + 13` em cinco —, e sem o multiplicador colado no número isso lê como erro.*
+
+### 8 · E a última pergunta dele abriu a v0.200
+
+***"A vida dos personagens tá meio balanceada pensada em DnD, e uma Tiamat dá bem mais que isso, tá certo?"*** **Medido contra a tabela do `Guia do Mestre`: lá o chefe come `24%` da vida do grupo por rodada e zera ela em `4,1` rodadas, que é a duração da luta. Aqui ele come `7%` e levaria `14`.**
+
+> **É `3,3 ×`, e a razão é constante em todos os níveis.** *Duas medidas minhas disseram que estava certo, e as duas mediam a coisa errada.* **A segunda — "ele derruba alguém se concentrar" — continua verdade e não responde a pergunta.**
+>
+> ***Decisão do Mizuki: fechar a v0.199 e abrir isso como versão própria***, porque o `72` é a base da régua de condição inteira e levar o chefe a `114` já tira oito das treze do nível publicado. **E metade da comparação não existe em livro nenhum: o d20 não publica quanto o GRUPO entrega por rodada.**
+
+### 9 · E o commit falhou, num lugar que a checagem certa pegou
+
+**O `subir.sh` recusou a v0.199, e o motivo era o bloco de inimigo estar FORA do recorte da entrega.** *A entrega leva a ficha de personagem desde a v0.35, e o bloco é material de mesa exatamente igual — mas ele não tinha sido posto na lista.*
+
+> **Quem acusou foi a checagem `7.2`, e não a `7.1`, e a diferença importa.** *A `7.1` compara arquivo por arquivo contra a lista do recorte, então um arquivo que **não está na lista** é invisível para ela.* **A `7.2` pergunta outra coisa — se uma peça da entrega manda abrir um arquivo que não está lá —, e a citação do bloco na peça 26 §8 caiu na lista branca por casar com o padrão de caminho da fonte.**
+>
+> **Guarda que aceita demais avisa tarde.** *O conserto foi pôr o bloco no recorte, junto da ficha, e **não** alargar o padrão.*
+>
+> **E a lista branca subiu de `152` para `160`, com as oito itemizadas** — quatro da peça 26, que é arquivo novo, e quatro da peça 19, que ganhou as checagens `12` e `13`. *Todas em "nome de validador" e "caminho na árvore da fonte", que são as duas famílias declaradas.*
+
+### Adicionado
+
+- **`05-material/gerador-inimigo/`** — o gerador do bloco, com `dados.js`, `make.js` e o `COMO-USAR.txt`.
+- **`05-material/bloco-de-inimigo.docx`** — a ficha em branco, o exemplo e as tabelas.
+- **A linha da Classe 1** na tabela `Inimigos` do manual, e a nota de que cada linha vale a faixa.
+- **Os §4.3 a §4.6, o §5.1 e o §6.3 da peça 26** — a categoria não intercambiável, o dano em dado, a sub-categoria, a métrica do chefe, o piso sem capanga e a resistência.
+- **Quatro linhas na ficha** — atributos, características, pacto e resistência.
+- **A duração de uma rodada** na régua da peça 19 §2.2.
+- **O bloco `7` do `conferir-ficha.py`** e a **checagem `8` do `conferir-bestiario.py`**.
+
+### Alterado
+
+- **O manual para a v7.21**, com a linha da Classe 1 e as duas notas novas.
+- **O `conferir-atributos.py` e o `conferir-manual.py`**, que carregavam a tabela de chefe sem a faixa nova.
+- **O `helpers.js` da ficha**, que ganhou `setPaleta()`.
+- **A tabela de puladas**, que ganhou o `conferir-bestiario` e virou seis validadores.
+
+### Decidido
+
+- **Cada linha da tabela de inimigo vale para a faixa de Classe dela.**
+- **A faixa mais baixa não tem capanga.**
+- **O inimigo continua com dois Testes de Resistência treinados**, e nada nega condição — o relógio de uma rodada já resolve.
+- **Resistência custa degrau de categoria.**
+- **A sub-categoria sai do câmbio**, e não de escolha.
+- **O arredondamento da escala é meio para baixo**, e a regra é declarada porque `19` das `56` células caem em `,5`.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **A v0.200 é a pressão do chefe** — medir quanto o grupo entrega dos dois lados, achar a pressão certa, e refazer a régua de condição junto. *E o catálogo de maldições prontas continua esperando a lista do Mizuki.*
+
+---
+
 ## [0.198] — 31/08/2026
 
 **O `Bestiário` fechou, e é a peça 26.** *Ele era o único item da fila da mecânica desde a v0.168, e estava no fim dela desde a v0.36 com uma linha só.* **Mas antes dele saíram quatro consertos na vizinhança do inimigo, e o primeiro é o que sustenta a peça nova.**

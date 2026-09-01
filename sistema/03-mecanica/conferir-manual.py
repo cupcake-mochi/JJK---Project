@@ -324,7 +324,7 @@ else:
                  f'e nao mudar a peca 1. Se a decisao for a outra, mude os dois')
 
 # 4b. dano de chefe e capanga — o conferir-atributos.py tem essa tabela dentro
-CHEFE_NO_PROJETO = {5: 15, 10: 26, 15: 38, 20: 49, 25: 61, 30: 72}
+CHEFE_NO_PROJETO = {2: 6, 5: 15, 10: 26, 15: 38, 20: 49, 25: 61, 30: 72}
 t = _tabela_com(['Chefe', 'Capanga'])
 if t is None:
     erro('nao achei a tabela de inimigos no manual — o conferir-atributos.py copia '

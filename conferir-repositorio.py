@@ -92,7 +92,13 @@ def recorte_da_entrega():
                   os.path.join(ent, 'desenho', 'arquitetura.md')))
     for f in ('Fundamento-MANUAL-v7.docx', 'Fundamento-MANUAL-v7.pdf'):
         pares.append((os.path.join(RAIZ, 'manual', f), os.path.join(ent, 'manual', f)))
-    for f in ('ficha-em-branco.docx', 'ficha-exemplo-kaori.docx'):
+    # v0.199: o bloco de inimigo entra junto com a ficha, e pelo mesmo motivo —
+    # os tres sao material de MESA, e a peca 26 aponta para o bloco. Ele ficou de
+    # fora no primeiro commit da v0.199 e quem acusou foi a 7.2: a citacao dele
+    # caiu na lista branca por casar com o padrao de caminho da fonte, em vez de
+    # ser cobrada como ponteiro pendurado. Guarda que ACEITA demais avisa tarde.
+    for f in ('ficha-em-branco.docx', 'ficha-exemplo-kaori.docx',
+              'bloco-de-inimigo.docx'):
         pares.append((os.path.join(RAIZ, 'sistema', '05-material', f),
                       os.path.join(ent, 'ficha', f)))
     # A fonte do livro e' o ARTEFATO que o build gera, e nao o .md — o que a
@@ -964,7 +970,22 @@ else:
     # cinco entraram entre a v0.170 e a v0.188 e nao dava para itemizar sem
     # aquelas arvores — a reclassificacao acima e o outro lado, e ele e' mais
     # forte que a itemizacao porque nao depende de arvore nenhuma.
-    BRANCAS_AQUI, FOLGA = 152, 5
+    #
+    # v0.199: a base subiu de 152 para 160, e as OITO estao itemizadas — desta vez
+    # deu, porque todas entraram na mesma versao:
+    #   4 · a peca 26 e arquivo novo: conferir-bestiario.py, conferir-ficha.py,
+    #       dados.js e o caminho do bloco em 05-material/
+    #   4 · a peca 19 ganhou as checagens 12 e 13 e o bloco de derivacao do §2.2,
+    #       e com eles mais citacoes de conferir-dano.py
+    # As oito caem em "nome de validador" e "caminho na arvore da FONTE", que sao
+    # as duas familias declaradas la em cima. Nenhuma e material de mesa.
+    #
+    # ⚠ E a 7.2 pegou uma coisa que a 7.1 nao pegava: o bloco de inimigo estava
+    # FORA do recorte, e a citacao dele caiu na lista branca por casar com o
+    # padrao de caminho da fonte em vez de ser cobrada como ponteiro pendurado.
+    # Guarda que aceita demais avisa tarde — o conserto foi por o bloco no
+    # recorte, junto da ficha, e nao alargar o padrao.
+    BRANCAS_AQUI, FOLGA = 160, 5
     PISO_CITACOES, TETO_BRANCOS = 120, BRANCAS_AQUI + FOLGA
     if vistos_e < PISO_CITACOES:
         erro(f'7.2: achei so {vistos_e} citacoes na entrega, e o piso e {PISO_CITACOES} — '

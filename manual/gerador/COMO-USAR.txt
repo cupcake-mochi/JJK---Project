@@ -1,4 +1,4 @@
-GERADOR DO MANUAL — Fundamento v7.20
+GERADOR DO MANUAL — Fundamento v7.21
 
 Recria o .docx do zero. Precisa de Node.js.
 
@@ -31,6 +31,12 @@ ORDEM DAS SEÇÕES (v7)
   4 Restrições → 5 Fora de combate → 6 Liberação Máxima → 7 Técnica Máxima →
   8 Regras de ouro → 9 Progressão → 10 Feitiços prontos → 11 Para o mestre →
   Apêndice
+
+O QUE MUDOU NA v7.21
+  A tabela `Inimigos` ganhou a linha da Classe 1 (nivel 2 ao 4), derivada das
+  razoes constantes das seis publicadas, e sem capanga — no fundo da escala o
+  corpo pequeno cai a meia rodada e deixa de ser corpo. E ficou escrito que cada
+  linha vale para a faixa de Classe dela, e nao so para aquele nivel.
 
 O QUE MUDOU NA v7.20
 

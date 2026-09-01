@@ -448,6 +448,172 @@ for arq in ('ficha-em-branco.docx', 'ficha-exemplo-kaori.docx'):
 # ==========================================================================
 print()
 print('=' * 88)
+print('7. O BLOCO DE INIMIGO — o material contra a peca 26')
+print('=' * 88)
+# v0.199. O `gerador-inimigo/dados.js` guarda a tabela de faixas, as quatro
+# categorias e a regua de resistencia. NENHUM valor dali e autoridade — a
+# autoridade e a peca 26 e a tabela `Inimigos` do manual. Esta checagem e quem
+# compara os dois, no mesmo molde que as seis de cima fazem com a ficha.
+import math as _math
+import re as _re
+
+_GER = os.path.join(MAT, 'gerador-inimigo', 'dados.js')
+_P26 = os.path.join(AQUI, '26-bestiario.md')
+
+if not os.path.isfile(_GER):
+    erro('7: nao achei o gerador-inimigo/dados.js — o bloco de inimigo depende dele')
+elif not os.path.isfile(_P26):
+    erro('7: nao achei a peca 26, que e a dona do que o bloco imprime')
+else:
+    _js = open(_GER, encoding='utf-8').read()
+    _md = open(_P26, encoding='utf-8').read()
+
+    # 7a — as quatro categorias: nome, personagens e fator
+    _cat_js = _re.findall(r"\['(\w+)',\s*(\d+),\s*([\d.]+)\]", _js)
+    _cat_md = []
+    _i = _md.find('| categoria | personagens | fator sobre a linha do manual | ações |')
+    if _i >= 0:
+        _bloco = _md[_i:]
+        _bloco = _bloco[:_bloco.find('\n\n')] if '\n\n' in _bloco else _bloco
+        for _l in _bloco.split('\n')[2:]:
+            _c = [x.replace('*', '').replace('`', '').strip() for x in _l.split('|')[1:-1]]
+            if len(_c) == 4 and _c[1].isdigit():
+                _cat_md.append((_c[0], int(_c[1]),
+                                float(_c[2].replace('×', '').replace(',', '.').strip())))
+    if not _cat_md:
+        erro('7: nao achei a tabela de categorias na peca 26 §4')
+    elif len(_cat_js) != len(_cat_md):
+        erro(f'7: o dados.js tem {len(_cat_js)} categoria(s) e a peca 26 publica '
+             f'{len(_cat_md)}')
+    else:
+        _mau = [f'{a[0]}' for a, b in zip(_cat_js, _cat_md)
+                if a[0] != b[0] or int(a[1]) != b[1] or abs(float(a[2]) - b[2]) > 1e-9]
+        if _mau:
+            erro('7: categoria(s) do dados.js que nao batem com a peca 26 §4: '
+                 + ', '.join(_mau))
+        else:
+            print(f'  [x] as {len(_cat_md)} categorias do dados.js batem com a peca 26 §4')
+
+    # 7b — as sete faixas do dados.js contra a tabela do §4.1 da peca.
+    # ⚠ A comparacao e' contra a PECA e nao contra o .docx de proposito: quem
+    # compara a peca com o manual e' a checagem 3 do conferir-bestiario.py, e
+    # duplicar essa leitura aqui poria um segundo caminho entre o mesmo par de
+    # documentos — e faria este validador precisar do python-docx, que ele nao
+    # precisa hoje. Um elo por checagem.
+    _fx = _re.findall(r"\['(\d+ a \d+)',\s*\d+,\s*\d+,\s*\d+,\s*(\d+),\s*(\d+),"
+                      r"\s*(\d+),\s*(null|\d+),\s*(null|\d+)\]", _js)
+    if len(_fx) != 7:
+        erro(f'7: achei {len(_fx)} faixa(s) no dados.js e a tabela do manual tem sete')
+    else:
+        _por_cat = {}
+        _i = _md.find('| categoria | nv 10 | nv 20 | nv 30 |')
+        if _i >= 0:
+            _b = _md[_i:]
+            _b = _b[:_b.find('\n\n')] if '\n\n' in _b else _b
+            for _l in _b.split('\n')[2:]:
+                _c = [x.replace('*', '').replace('`', '').strip() for x in _l.split('|')[1:-1]]
+                if len(_c) == 4:
+                    _por_cat[_c[0]] = [tuple(int(x) for x in _re.findall(r'(\d+)', y))
+                                       for y in _c[1:]]
+        if not _por_cat:
+            erro('7: nao achei a tabela do §4.1 da peca 26 — ela e o outro lado desta '
+                 'comparacao')
+        else:
+            _alvo = {'2 a 4': None, '9 a 12': 0, '17 a 20': 1, '26 a 30': 2}
+            _mau = []
+            for _f in _fx:
+                _k = _alvo.get(_f[0])
+                if _k is None:
+                    continue
+                for _nome, _pes, _fat in [(c[0], int(c[1]), float(c[2])) for c in _cat_js]:
+                    if _nome not in _por_cat:
+                        _mau.append(f'{_nome} nao esta no §4.1')
+                        continue
+                    _v = _math.ceil(int(_f[2]) * _fat - 0.5)
+                    _d = _math.ceil(int(_f[3]) * _fat - 0.5)
+                    if (_v, _d) != _por_cat[_nome][_k]:
+                        _mau.append(f'{_nome} na faixa {_f[0]}: dados.js da ({_v}, {_d}) '
+                                    f'e o §4.1 publica {_por_cat[_nome][_k]}')
+            if _mau:
+                erro('7: ' + ' · '.join(_mau[:3]))
+            else:
+                print('  [x] as faixas do dados.js reproduzem a tabela do §4.1, celula '
+                      'a celula, com o arredondamento meio para baixo')
+
+    # 7c — o cambio, e a regra de arredondamento que os tres lugares seguem
+    _mc = _re.search(r'const CAMBIO = (\d+)', _js)
+    _mp = _re.search(r'vale (\w+) capangas', _md)
+    _PT = {'um': 1, 'dois': 2, 'três': 3, 'quatro': 4, 'cinco': 5, 'seis': 6}
+    if not _mc or not _mp:
+        erro('7: nao achei o cambio no dados.js ou na peca 26 §5')
+    elif int(_mc.group(1)) != _PT.get(_mp.group(1).lower()):
+        erro(f'7: o dados.js diz cambio {_mc.group(1)} e a peca 26 §5 diz '
+             f'"{_mp.group(1)}"')
+    else:
+        print(f'  [x] o cambio do dados.js e o da peca 26 §5 dizem o mesmo: '
+              f'{_mc.group(1)}')
+
+    # 7c-bis — a sub-categoria: a fracao sai do CAMBIO, e nao de escolha.
+    _sub = _re.search(r'const SUBCATEGORIAS = \[(.*?)\];', _js, _re.S)
+    _t45 = []
+    _i45 = _md.find('| sub-categoria | o chefe fica com | capangas | cobra do grupo |')
+    if _i45 >= 0:
+        _b = _md[_i45:]
+        _b = _b[:_b.find('\n\n')] if '\n\n' in _b else _b
+        for _l in _b.split('\n')[2:]:
+            _c = [x.replace('*', '').replace('`', '').strip() for x in _l.split('|')[1:-1]]
+            if len(_c) == 4:
+                _t45.append((_c[0], int(_c[1].rstrip('%')), 0 if _c[2] == '—' else int(_c[2])))
+    if not _sub or not _t45:
+        erro('7: nao achei a sub-categoria no dados.js ou a tabela do §4.5 da peca 26')
+    else:
+        _pares = _re.findall(r"\['([^']+)',\s*(\d+)\]", _sub.group(1))
+        _mau = []
+        if len(_pares) != len(_t45):
+            _mau.append(f'o dados.js tem {len(_pares)} e a peca publica {len(_t45)}')
+        for (_n1, _c1), (_n2, _frac, _c2) in zip(_pares, _t45):
+            _esp = round((1 - int(_c1) / int(_mc.group(1))) * 100)
+            if _n1 != _n2 or int(_c1) != _c2:
+                _mau.append(f'{_n1} contra {_n2}')
+            elif _esp != _frac:
+                _mau.append(f'{_n1}: a peca publica {_frac}% e o cambio da {_esp}%')
+        if _mau:
+            erro('7: a sub-categoria nao fecha com o cambio: ' + ' · '.join(_mau[:3]))
+        else:
+            print(f'  [x] as {len(_t45)} sub-categorias saem do cambio — 1 menos '
+                  'capangas sobre ele, e nao de escolha')
+
+    # 7d — a regra do dado: o gerador tem de seguir o §4.4, e a peca tem de
+    # publicar a tabela de exemplo que ela promete.
+    _mk = open(os.path.join(MAT, 'gerador-inimigo', 'make.js'), encoding='utf-8').read()
+    if 'Math.round(alvo / 9)' not in _mk:
+        erro('7: o gerador parou de montar o golpe como `N d8 + fixo` com N saindo do '
+             'alvo dividido por nove, e a peca 26 §4.4 e a dona dessa regra')
+    elif 'N d8 + fixo' not in _md:
+        erro('7: a peca 26 parou de publicar a regra do golpe em dado, e o gerador '
+             'continua imprimindo dado — a folha teria regra que peca nenhuma tem')
+    else:
+        _tab44 = [l for l in _md.split('\n') if l.startswith('| `Ronda` | `18` |')]
+        if not _tab44:
+            erro('7: a tabela de exemplo do §4.4 mudou de forma')
+        else:
+            print('  [x] o golpe em dado segue a regra do §4.4, e a peca publica ela')
+
+    if 'Math.ceil(x - 0.5)' not in open(
+            os.path.join(MAT, 'gerador-inimigo', 'make.js'), encoding='utf-8').read():
+        erro('7: o gerador do bloco parou de arredondar meio para BAIXO, e a peca 26 '
+             '§4.1 declara essa regra — dezenove das celulas caem em ,5, entao as duas '
+             'convencoes divergem em nove delas')
+    elif 'meio para BAIXO' not in _md:
+        erro('7: a peca 26 parou de declarar a regra de arredondamento, e sem ela os '
+             'tres lugares que calculam a escala divergem em silencio')
+    else:
+        print('  [x] a peca declara o arredondamento meio para baixo, e o gerador segue')
+
+
+# ==========================================================================
+print()
+print('=' * 88)
 if FALHAS:
     print(f'>>> {len(FALHAS)} PROBLEMA(S):')
     for e in FALHAS:
