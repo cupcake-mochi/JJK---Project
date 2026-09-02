@@ -8,6 +8,63 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.204] — 02/09/2026
+
+**A Expansão de Domínio de inimigo fechou, e o preço dela saiu inteiro de coisas que a peça já tinha.** *Era o penúltimo item do §8 do Bestiário, e a decisão de desenho já era do Mizuki: "expansão de inimigo é basicamente a mesma coisa da de player, mas escalonada para funcionar em grupos".*
+
+### 1 · Ela não acrescenta dano, e é isso que faz o preço aparecer
+
+**Pelo §6.1 tudo que o inimigo faz sai da cota de dano por rodada, e o Acerto de um domínio não é exceção.** *A cota é a mesma dentro e fora.* **O que muda é quanto dela CHEGA.**
+
+> **Fora, ele acerta `52%` — a banda de `50%` a `55%` do §3.1. Dentro, o Acerto acontece: sem rolagem e sem Teste de Resistência.**
+> **Então a Expansão completa multiplica a saída EFETIVA por `1 ÷ 0,52`, que é `1,92 ×`.**
+
+*E a duração cobre a luta inteira: o manual põe em metade do refino, e o refino do chefe do nível 30 é `10` — cinco rodadas contra uma luta de `3,00`.*
+
+### 2 · A moeda já existia, e ela é o degrau de categoria
+
+**Os dois degraus de baixo da escada valem `2,00 ×` exatos, e a Expansão vale `1,92 ×`** — quatro por cento de distância, a mesma folga que o §6.3 aceita para a resistência.
+
+| categoria | precisa descer para | a de baixo | erro |
+|---|---|---|---|
+| **`Dupla`** | `0,26` | **`Ronda`** `0,25` | `4%` |
+| **`Alcateia`** | `0,52` | **`Dupla`** `0,50` | `4%` |
+| `Calamidade` | `0,78` | `Alcateia` `1,00` | `28%` — não cabe |
+| `Ronda` | `0,13` | não existe | não cabe |
+
+> **Um inimigo com Expansão completa monta-se com a linha da categoria de baixo.** *No nível 30 uma `Alcateia` com domínio usa os `109` da `Dupla`, e entrega os `109` inteiros contra os `114` efetivos de uma `Alcateia` normal — `0,96 ×`.*
+>
+> **⚠ E ela não cabe nas duas pontas, pelo mesmo motivo que a imunidade a `Físicos` não cabe no topo.** *A `Calamidade` só tem o degrau de `1,50 ×` abaixo dela e a `Ronda` não tem degrau nenhum.*
+>
+> **A incompleta não custa nada nesta régua**, porque o Acerto dela resolve por rolagem — sem a garantia não existe o `1,92 ×`.
+
+**E abrir não custa rodada ao inimigo, apesar de custar ao jogador.** *O manual cobra a rodada inteira e `6 ×` a maior Classe de PE; o inimigo não conta PE, e o Acerto acontece no momento em que ele abre.* **A cota daquela rodada sai pelo Acerto em vez dos golpes, e nada se perde.**
+
+### 3 · E o arnês achou a mesma guarda frouxa DUAS vezes
+
+**A checagem `7.1` nasceu procurando `não cabe` em qualquer lugar do texto, e a perturbação de tirar a declaração da `Calamidade` saiu VERDE.** *A frase aparece em mais de uma linha.*
+
+> **Apertada para cobrar o par nome + `não cabe` na mesma linha, ela AINDA passou** — *a prosa declara a `Calamidade` e a `Ronda` na mesma linha, então apagar a de uma continuava achando a outra.*
+>
+> **A terceira forma lê a LINHA DA TABELA daquela categoria**, que é onde o mestre olha quando monta o inimigo. *Aí as duas perturbações acendem e os dois contra-testes ficam verdes — inclusive o de apagar a prosa e deixar a tabela.*
+>
+> ***"Guarda que aceita demais avisa tarde" é a lição da v0.199, e ela apareceu duas vezes seguidas na mesma checagem.*** **A primeira perturbação minha estava mal mirada, e a segunda também.**
+
+### Alterado
+
+- **`26-bestiario.md`** — o §6.4 novo, e o item da Expansão saiu do §8.
+- **`conferir-bestiario.py`** — a sub-checagem `7.1`, com o multiplicador lido de `1 ÷ acerto` e as categorias recontadas dos fatores. *Sub-bloco, então a contagem não se move.*
+
+### Decidido
+
+- **A Expansão de Domínio de inimigo custa um degrau de categoria.**
+- **Ela só cabe na `Dupla` e na `Alcateia`**, e as duas pontas ficam declaradas na tabela.
+- **A incompleta não custa nada**, porque o Acerto dela ainda rola.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **Sobrou o catálogo de maldições prontas**, que espera a lista do Mizuki, *o exemplo guiado de invocação e a coluna de capanga da Classe 1.*
+
+---
+
 ## [0.203] — 02/09/2026 · manual na v7.24
 
 **Entrou a `Circulação`, a aptidão que o Mizuki pediu, e ir medi-la destampou que a cura em combate é troca ruim neste sistema — como no d20, e por decisão.**

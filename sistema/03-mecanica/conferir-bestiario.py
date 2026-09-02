@@ -610,6 +610,85 @@ else:
 
 
 # --------------------------------------------------------------------------
+# 7.1 (v0.204): a Expansao de Dominio do inimigo. Ela nao acrescenta dano — o
+# §6.1 poe tudo na cota —, e o que ela faz e' o Acerto parar de rolar. Entao o
+# preco dela e' a razao entre acertar sempre e acertar 52%, e a moeda e' a mesma
+# do §6.3: o degrau de categoria. Nenhum numero aqui: o acerto vem do §3.1 e os
+# fatores vem da tabela do §4.
+_mexp = re.search(r'multiplica a saída efetiva dele por `1 ÷ ([\d,]+)`, que é `([\d,]+) ×`', TXT)
+if not _mexp:
+    erro('7.1: a peca nao publica o multiplicador da Expansao como "1 ÷ acerto" — sem '
+         'isso ele vira numero solto, e ele e o preco inteiro da regra')
+else:
+    _ac = float(_mexp.group(1).replace(',', '.'))
+    _mult_pub = float(_mexp.group(2).replace(',', '.'))
+    if abs(1 / _ac - _mult_pub) > 0.01:
+        erro(f'7.1: a peca publica {_mult_pub:.2f}x e 1 ÷ {_ac:.2f} da {1/_ac:.2f}')
+    # o acerto tem de sair da banda que o §3.1 publica, e nao deste arquivo
+    _mb = re.search(r'ele acerta `(\d+)%` a `(\d+)%`', TXT)
+    if not _mb:
+        erro('7.1: nao achei a banda de acerto do §3.1 — o multiplicador da Expansao se '
+             'mede contra ela')
+    elif not (int(_mb.group(1)) <= _ac * 100 <= int(_mb.group(2))):
+        erro(f'7.1: a Expansao usa acerto {_ac:.0%} e o §3.1 publica a banda '
+             f'{_mb.group(1)}% a {_mb.group(2)}%')
+    else:
+        print(f'  [x] o multiplicador da Expansao ({_mult_pub:.2f}x) e 1 ÷ o acerto do '
+              f'§3.1, e o acerto cai dentro da banda publicada')
+    # e as categorias que cabem: erro abaixo de 6% contra o degrau de baixo
+    _fat = {}
+    for _l in TXT.split('\n'):
+        _m = re.match(r'\|\s*\*\*`(\w+)`\*\*\s*\|\s*(\d+)\s*\|\s*`× ([\d,]+)`', _l)
+        if _m:
+            _fat[_m.group(1)] = float(_m.group(3).replace(',', '.'))
+    if len(_fat) != 4:
+        erro(f'7.1: li {len(_fat)} fatores de categoria e esperava 4')
+    else:
+        _ord = sorted(_fat.items(), key=lambda kv: kv[1])
+        _cabem = []
+        for _i, (_n, _f) in enumerate(_ord):
+            if _i == 0:
+                continue
+            _prec = _f / _mult_pub
+            _abaixo = _ord[_i - 1][1]
+            if abs(_abaixo - _prec) / _prec < 0.06:
+                _cabem.append(_n)
+        _decl = [_n for _n in _fat if f'na `{_n}`' in TXT or f'**`{_n}`** | `0,' in TXT]
+        print(f'  a Expansao cabe em: {", ".join(sorted(_cabem))}')
+        if sorted(_cabem) != ['Alcateia', 'Dupla']:
+            erro(f'7.1: a Expansao passou a caber em {sorted(_cabem)}, e a peca publica '
+                 'que ela so cabe na Dupla e na Alcateia')
+        else:
+            # ⚠ a primeira forma desta guarda procurava `não cabe` em QUALQUER lugar do
+            # texto, e o arnes da v0.204 mostrou que ela nao acendia: a frase aparece
+            # em mais de uma linha, entao apagar a de uma categoria passava calada.
+            # Hoje ela cobra o par NOME + `não cabe` na MESMA linha, uma por uma.
+            _naocabem = [_n for _n in _fat if _n not in _cabem and _n != _ord[0][0]]
+            _naocabem.append(_ord[0][0])      # a menor tambem nao cabe: nao ha degrau abaixo
+            # ⚠⚠ e a SEGUNDA forma tambem passava: a prosa declara as duas na mesma
+            # linha, entao apagar a declaracao de uma so' continuava achando a outra.
+            # A guarda le a LINHA DA TABELA daquela categoria, que e' onde o mestre
+            # olha quando monta o inimigo — prosa nao e' o lugar dessa informacao.
+            _sem = []
+            for _n in _naocabem:
+                _linha = [_l for _l in TXT.split('\n')
+                          if _l.startswith('|') and f'`{_n}`' in _l and '|' in _l[1:]
+                          and ('cabe' in _l or 'degrau' in _l or '%' in _l)
+                          and 'personagens' not in _l]
+                _achou = any('não cabe' in _l for _l in _linha)
+                if not _achou:
+                    _sem.append(_n)
+            if _sem:
+                erro('7.1: a peca nao declara `não cabe` na linha de: '
+                     + ', '.join(sorted(_sem))
+                     + ' — sem isso um mestre poe dominio numa Calamidade e infla o '
+                       'encontro em 28%')
+            else:
+                print('  [x] ela cabe na Dupla e na Alcateia, e a peca declara `não cabe` '
+                      'na linha de cada uma das outras duas')
+
+
+# --------------------------------------------------------------------------
 bloco('8. RESISTENCIA E VIDA ESCONDIDA — e o degrau de categoria e a moeda dela')
 # --------------------------------------------------------------------------
 # v0.199. A peca 19 §4 divide os catorze tipos em tres grupos com peso, e

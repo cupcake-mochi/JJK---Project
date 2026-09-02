@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 02/09/2026, na v0.203 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e oito checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 02/09/2026, na v0.204 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e oito checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.203.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
+**Versão v0.204.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
 
 **A v0.201 triplicou a pressão do chefe, e ela foi medida contra dois sistemas de fora antes de qualquer coisa.** *O chefe do nível 30 saiu de `72` para `219` de dano por rodada e de `1155` para `945` de vida; o manual foi para a `v7.23`.*
 

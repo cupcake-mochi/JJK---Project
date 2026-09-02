@@ -271,6 +271,36 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 > **⚠ E toda esta régua está pendurada num palpite, que a peça 19 §4 declara com todas as letras:** *o peso dos três grupos é previsão, `04-playtest/` está vazia, e ele é "o número que decide quanto vale toda resistência do sistema".* **Quando a mesa corrigir o peso, o multiplicador se refaz sozinho** — ele é conta, e não tabela.
 
+### 6.4 A Expansão de Domínio do inimigo — ela custa um degrau de categoria
+
+***Decisão do Mizuki: a Expansão do inimigo é a do jogador, escalonada para grupo.*** *A máquina inteira mora no manual, e nada dela é reescrito aqui.*
+
+**Ela não acrescenta dano nenhum, e é isso que faz o preço dela ser fácil de achar.** *Pelo §6.1 tudo que o inimigo faz sai da cota de dano por rodada, e o Acerto de um domínio não é exceção: a cota é a mesma dentro e fora.* **O que muda é quanto dela CHEGA.**
+
+> **Fora do domínio o inimigo acerta `52%` — é a banda de `50%` a `55%` que o §3.1 publica.** *Dentro, o Acerto acontece: sem rolagem e sem Teste de Resistência, como o manual escreve.*
+> **Então a Expansão completa multiplica a saída efetiva dele por `1 ÷ 0,52`, que é `1,92 ×`.**
+
+**E a duração cobre a luta inteira, então o multiplicador vale o encontro todo.** *O manual põe a duração em metade do refino, e o refino do chefe do nível 30 é `10` — cinco rodadas contra uma luta de `3,00`.*
+
+**A moeda já existe, e é a mesma do §6.3: o degrau de categoria.**
+
+| categoria | precisa descer para | a categoria abaixo | erro |
+|---|---|---|---|
+| **`Dupla`** | `0,26` | **`Ronda`**, `0,25` | `4%` |
+| **`Alcateia`** | `0,52` | **`Dupla`**, `0,50` | `4%` |
+| `Calamidade` | `0,78` | `Alcateia`, `1,00` | `28%` — não cabe |
+| `Ronda` | `0,13` | — não existe degrau abaixo | não cabe |
+
+> **Um inimigo com Expansão de Domínio completa monta-se com a linha da categoria de baixo.** *No nível 30 uma `Alcateia` com domínio usa os `109` de dano por rodada da `Dupla`, e dentro do domínio ela entrega os `109` inteiros contra os `114` efetivos que uma `Alcateia` normal entrega — `0,96 ×`.*
+
+**Os dois degraus de baixo da escada valem `2,00 ×` exatos, e a Expansão vale `1,92 ×`.** *Quatro por cento de distância, que é o mesmo tipo de folga que o §6.3 aceita para a resistência.*
+
+> **⚠ E ela não cabe nas duas pontas, pelo mesmo motivo que a imunidade a `Físicos` não cabe no topo.** *A `Calamidade` só tem o degrau de `1,50 ×` abaixo dela, e a `Ronda` não tem degrau nenhum.* **Uma `Calamidade` com domínio fica `28%` acima do tamanho que a categoria promete**, e uma `Ronda` com domínio não tem como pagar.
+>
+> **A incompleta não custa nada nesta régua.** *O manual diz que o Acerto dela "resolve por rolagem, como um feitiço"* — **sem a garantia não existe o `1,92 ×`**, e o que ela dá é o Efeito, que não é dano.
+
+**E abrir não custa rodada ao inimigo, apesar de custar ao jogador.** *O manual cobra a rodada inteira e `6 ×` a maior Classe de PE; o inimigo não conta PE pelo §6.1, e o Acerto acontece no momento em que ele abre.* **A cota daquela rodada sai pelo Acerto em vez de sair pelos golpes, e nada se perde.**
+
 ## 7. O que o `conferir-bestiario.py` confere
 
 | # | o que ela confere |
@@ -329,6 +359,6 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 - **A coluna de capanga da Classe 1, que a v0.199 deixou vazia por uma razão que morreu.** *O §5.1 registra: com a tabela nova o corpo do fundo tem `29` de vida e quatro deles duram `3,05` rodadas, igual às outras seis faixas.* **Encher a coluna é escolha do Mizuki**, e ela custa uma linha na tabela do manual mais o texto do §5.1.
 
 - **As maldições prontas.** *A decisão da v0.161 é máquina mais prontas, e esta versão entrega a máquina.* **Quantas, de que categorias e com que técnicas é escolha do Mizuki**, e o catálogo é a versão seguinte.
-- **A Expansão de Domínio de inimigo.** *A obra dá domínio a maldição de grau alto, e o manual tem a máquina inteira.* **O que falta é o preço dela contra a cota de dano do §6.1** — ela não causa dano, então ela troca cota por Acerto garantido, e ninguém mediu quanto.
+- ~~**A Expansão de Domínio de inimigo.**~~ ***FECHADA na v0.204, no §6.4:*** **ela custa um degrau de categoria**, porque o Acerto garantido multiplica a saída efetiva por `1,92 ×` e os dois degraus de baixo da escada valem `2,00 ×`. *Só cabe na `Dupla` e na `Alcateia` — a `Calamidade` não tem degrau de `2 ×` abaixo dela e a `Ronda` não tem degrau nenhum.*
 - **O inimigo com Trilha.** *Fica de fora por decisão, e o motivo está no §6* — mas um antagonista recorrente que sobe junto com o grupo é caso de mesa que vai aparecer.
 - ~~**A ficha impressa.**~~ ***FECHADA na v0.199:*** **`05-material/bloco-de-inimigo.docx`**, quatro páginas — as tabelas que o mestre copia, o bloco em branco com as dezessete linhas, e um exemplo preenchido. *O gerador é o `gerador-inimigo/`, e o bloco `7` do `conferir-ficha.py` compara o `dados.js` dele com esta peça.*
