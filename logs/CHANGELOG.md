@@ -8,6 +8,127 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.205] — 02/09/2026
+
+**O `§6.5` do Bestiário fechou, e ele não é o que a fila prometia.** *A fila pedia "o catálogo de traços do inimigo", no molde da tabela de características do `Guia do Mestre`.* ***Decisão do Mizuki, e ela apagou o trabalho que eu ia fazer:*** *"acho que dá pra deixar ser que nem do sistema pra player, mas rebalancear e talz."*
+
+### 1 · O inimigo não ganha catálogo próprio — ele ganha câmbio
+
+**O §6 já dizia, desde a v0.198, que o inimigo carrega refino, aptidão, Passiva e técnica do mesmo catálogo do jogador.** *O que ele não dizia era quanto aquilo custa na ficha dele.*
+
+| o que ele carrega | onde ela se paga |
+|---|---|
+| técnica e feitiço | o **orçamento de feitiço** de uma ação dele |
+| aptidão e Passiva com custo por rodada | a **cota de dano por rodada**, nas rodadas em que está ligada |
+| o que dá vida efetiva | um **degrau de categoria**, pelo §6.3 |
+
+**Nenhuma das três inventa moeda.** *As duas últimas já existiam na peça; a primeira é o golpe do §4.4 dito em outra unidade.*
+
+### 2 · A técnica: o golpe dele É o orçamento do feitiço
+
+***Levantado por ele:*** *"se for seguir próximo da criação de ficha normal, um feitiço em área vai ter menos dados para poder comprar condição."* **É isso, e é isso que faz a condição do inimigo não precisar de preço próprio: o Fundamento já cobra por área, por condição e por Melhoria em ponto de feitiço.**
+
+> **`orçamento = golpe ÷ 4,5`**, com o `4,5` sendo o que um ponto de feitiço vale em dano, lido da peça 19 §2.1.
+> **O piso é a `Classe 1` do manual, que custa `3` pontos** — abaixo dela o inimigo não conjura, ele bate.
+
+**A `Dupla` do nível 30 monta `24,2` pontos numa ação, contra o teto de `24` do jogador naquele nível.** *Do nível 20 para cima ela fica entre `95%` e `101%` daquele teto, e nada foi ajustado para isso.*
+
+> **⚠ E o piso do feitiço não é o mesmo do golpe em dado.** *O §4.4 põe o número seco abaixo de `5` de dano; este põe o feitiço abaixo de `13,5`.* **Existe faixa que rola dado e não conjura** — *uma `Alcateia` de nível 5 bate `13,0` num golpe.*
+
+### 3 · A aptidão: o rebalanceamento é de quatro para um
+
+**O câmbio tem dono e é antigo:** *`+1` PE por rodada vale `5,14` de dano por rodada, pela peça 5 §4.* **O inimigo não conta PE pelo §6.1, então ele paga a mesma coisa na cota.**
+
+| ligada a luta inteira, nível 30 | de uma `Ronda` | de uma `Alcateia` |
+|---|---|---|
+| `Domínio Simples` e `Pétala` | `65%` | `16%` |
+| `Extensão de Domínio` | `98%` | `25%` |
+
+**No nível 2 a `Extensão` custa `193%` da cota de uma `Ronda`**, então uma maldição daquele nível que a carregue tem de ser pelo menos uma `Dupla` — *lá ela cai para `96%`.*
+
+> **⚠ E a primeira forma da conta estava errada, porque cobrava por LUTA.** *As quatro anti-domínio são pura resposta: elas valem **zero** contra um grupo que não abre domínio.* **O jogador liga quando o domínio abre; o inimigo, cobrado por luta, pagaria pelas rodadas em que ela não fez nada.** *Ligada uma rodada de três, o `Domínio Simples` custa `12,0` de dano — `5,5%` de uma `Alcateia` contra os `16%` da tabela.*
+
+### 4 · As de graça, e elas têm número
+
+**A ação fora do turno não compra nada, e a fonte diz isso antes da conta.** *O passo 13 do `Guia do Mestre` manda contar o dano de fora do turno **dentro** do dano por rodada, junto de aura, reação e ação de covil.*
+
+> **Medida sobre `81` durações de luta, de `2,50` a `3,75` rodadas: ela entrega de `0,94 ×` a `1,07 ×` do que a mesma cota entrega no turno, média `1,01 ×`.** *Em `29` dos `81` pontos ela é **pior**.* **A trava é uma só: as ações fora do turno saem das que ele já tem, nunca por cima.**
+>
+> **A habilidade guardada fecha na aritmética:** `438 + 110 + 110 = 657`, que é o publicado. **E a área reparte a cota em vez de multiplicar**, porque a cota é o que chega ao GRUPO.
+
+### 5 · As duas trocas ruins ficam declaradas, e não proibidas
+
+***Decisão dele:*** *"não tem problema não valer a pena, às vezes o combate tem uma pessoa só."*
+
+> **O inimigo que se cura empata em `315`, um terço da vida dele** — `H` de cura vale `0,70 × H` de dano.
+> **A condição que ele põe empata quando `alvos × ações negadas = 4 × ações gastas`**, e a conta não depende do nível. *A `Pesada` precisa de `2,67` alvos, a `Média` de `4`, a `Leve` de `8`.*
+
+**As duas são o desenho do §4.7 visto do outro lado: só em área a troca vira lucro.**
+
+### 6 · O que ficou de fora, e por quê
+
+***Recusar um Teste de Resistência não entra.*** *Palavras dele: "o inimigo não vai ter Resistência Lendária, então ele não anula condições, ele precisa passar no teste."* **É a mesma decisão que a v0.199 já tinha fechado — e a pergunta que eu fiz devolveu uma decisão fechada como se fosse nova.**
+
+> **A medida ficou registrada porque a v0.201 tinha mudado o chão dela:** *uma recusa vale `1,17 ×` a `1,20 ×` de dano efetivo, contra `1,18 ×` que resistir aos `Elementais` vale.* **Meio degrau.** *E o `Guia do Mestre` dá `+30` de vida efetiva por uso diário num monstro de `318` — `9,4%`, metade do que vale aqui, porque lá ela é gasta em qualquer teste.* **O preço existia; a porta é que não.**
+
+### 7 · O atrito, medido e deixado como está
+
+**O modelo desta peça é plano: quem cai continua contando na saída do grupo.** *Com atrito e o chefe concentrando e ganhando a iniciativa, ele derruba os quatro em cinco rodadas, nos sete níveis — e o `2,70` do §4.6 é o número plano.*
+
+> ***Decisão dele: fica assim.*** *"Um inimigo focar um único player vai acabar matando mesmo, acho que todo sistema rola isso — o mestre não vai querer normalmente focar também."* **O `Guia do Mestre` tem a mesma simplificação.** *Uma linha declarada no §4.6, e nenhum item aberto.*
+
+### 8 · E a pesquisa decidiu a FORMA, não só o conteúdo
+
+***Pedido dele:*** *"valide a melhor rota então, posso ter falado baboseira, comparar com outros sistema é bom."*
+
+**Os dois sistemas fazem o mesmo corte.** *O `GURPS 4ed` monta bicho com as vantagens e desvantagens do jogador, e o bloco publica "um resumo das metacaracterísticas, vantagens e desvantagens mais importantes" — a lista cheia fica no modelo racial, e as secundárias "são derivadas dos atributos de acordo com as fórmulas normais".* **O `Guia do Mestre` põe a tabela de características no livro de design e as entradas no `Manual dos Monstros`.**
+
+> **A régua vive no livro que argumenta; a lista convertida vive no material de mesa.** *É o corte que este projeto já faz com a ficha, e é por isso que o §6.5 saiu régua e não tabelão.*
+
+### 9 · E a tabela de puladas do README estava parada em quatro colunas
+
+**A v0.199 pôs o `conferir-bestiario` na tabela de puladas e pôs em DOIS dos três lugares que a publicam.** *O `ESTADO-ATUAL` e o `LEIA-ME` diziam **seis** validadores; o `README` dizia **cinco** e listava cinco.*
+
+> **E as outras colunas envelheceram junto:** *`conferir-dano` tinha `13` checagens e o README dizia `10`, o `conferir-manual` tinha `8` e dizia `4`, o `conferir-nomes` tinha `6` e dizia `5`.* **Todas medidas rodando com o `python-docx` bloqueado.**
+>
+> **⚠ A checagem `9` do `conferir-repositorio.py` não alcança aquela tabela**, e isso é limite de desenho e não defeito: *ela confere a CONTAGEM de checagens de cada validador contra os documentos, e a coluna `pula` não é contagem de checagem.*
+
+### 10 · Um erro de voz vivo havia duas versões, escondido dentro de um código de saída que já era 1
+
+**A `Circulação` entrou no livro na v0.203 com dois rótulos de negrito longos demais, e o `ROTULO-LONGO` acusava os dois desde então.** *A `REGRA-DE-VOZ.md` declara `0` em `52` entradas, e o livro tinha `2`.*
+
+> **⚠⚠ O que o escondeu não foi falta de checagem — foi o código de saída.** *O `conferir-voz.py --estrito` sai `1` **de propósito**, por dois títulos de seção que o Mizuki renomeou a mão: `Como uma aptidão funciona` e `Como funciona uma Bênção`.* **Então um erro NOVO ali dentro não move o código de saída, e quem confere pelo código não vê.**
+>
+> **E o `subir.sh` não roda o `conferir-voz.py`** — ele roda os `26` de `03-mecanica/`, o `conferir-repositorio.py` e os dois de `manual/matematica/`. *O de voz é passo da ordem de fechar versão, e não trava commit.*
+>
+> *Os dois viraram rótulo curto com a regra atrás:* **`Levantar quem caiu.`** *e* **`Membro perdido.`** — **nenhuma palavra de regra se moveu**, e os quatro artefatos do livro foram refeitos. **Hoje a saída tem os dois achados de propósito e nenhum `!!`.**
+
+### Adicionado
+
+- **O `§6.5` da peça 26** — o câmbio do catálogo do jogador para a ficha do inimigo, com as três portas, a tabela de orçamento de feitiço, a da aptidão, as três de graça e as duas trocas ruins.
+- **A checagem `9` do `conferir-bestiario.py`**, com quatro sub-blocos: a `9.1` reconstrói as `28` células do orçamento, a `9.2` a conta da aptidão, a `9.3` os dois empates, e a `9.4` cobra que cada porta declare a moeda. *O validador foi de oito para nove checagens.*
+- **Uma linha declarada no `§4.6`** sobre o modelo sem atrito.
+
+### Alterado
+
+- **`README.md`** — a tabela de puladas, em quatro colunas, mais os dois parágrafos que diziam "cinco".
+- **`sistema/ESTADO-ATUAL.md` e `sistema/LEIA-ME.md`** — a contagem de puladas do `conferir-bestiario`, que virou `5 de 9`.
+- **O `§8` da peça 26** — o catálogo de traços e o inimigo que se cura saíram da lista.
+- **`livro/manual/45-aptidoes-e-refino.md`** — os dois rótulos longos da `Circulação`, e os quatro artefatos do livro refeitos.
+
+### Decidido
+
+- **O inimigo carrega o catálogo do jogador, e o que muda é a moeda.**
+- **A técnica dele se monta com o Fundamento, no orçamento que o golpe paga.**
+- **A aptidão se cobra por rodada ligada, e não por luta.**
+- **Recusar Teste de Resistência não existe no inimigo.**
+- **As duas trocas ruins ficam declaradas e liberadas.**
+- **O modelo sem atrito fica**, com a diferença escrita ao lado.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **A peça 26 não tem mais trabalho de régua em aberto** — *o que sobra dela é catálogo e escolha: as maldições prontas, que esperam a lista do Mizuki, e a coluna de capanga da Classe 1.* **Fora dela, o exemplo guiado de invocação continua na fila.**
+
+---
+
 ## [0.204] — 02/09/2026
 
 **A Expansão de Domínio de inimigo fechou, e a regra é de uma linha: ela DOBRA quantos personagens o inimigo exige.** *Era o penúltimo item do §8 do Bestiário, e o desenho já era decisão do Mizuki — "expansão de inimigo é basicamente a mesma coisa da de player, mas escalonada para funcionar em grupos".*

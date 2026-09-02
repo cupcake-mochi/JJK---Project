@@ -2,7 +2,7 @@
 
 **O sistema se chama `Projeto - M`**, batizado na v0.94 — era a pendência mais velha que existia aqui, aberta na v0.1. Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.204** · manual do Fundamento na **v7.24** · **vinte e seis peças de regra** e **vinte e seis validadores passando** · o Manual da Guilda em **18 capítulos**.
+**Versão v0.205** · manual do Fundamento na **v7.24** · **vinte e seis peças de regra** e **vinte e seis validadores passando** · o Manual da Guilda em **18 capítulos**.
 
 ---
 
@@ -76,31 +76,34 @@ Um arquivo `RASCUNHO-*.md` em `03-mecanica/` é levantamento engatilhado, não p
 ## Preparar a máquina
 
 ```bash
-pip install python-docx --break-system-packages    # cinco validadores leem o .docx
+pip install python-docx --break-system-packages    # seis validadores leem o .docx
 cd manual/gerador && npm install docx               # só se for regerar o manual
 ```
 
-Sem `python-docx`, **cinco validadores pulam** as checagens que leem o manual em vez de falhar — então eles saem verdes sem terem conferido nada, com código 0. Instale antes de confiar num "OK".
+Sem `python-docx`, **seis validadores pulam** as checagens que leem o manual em vez de falhar — então eles saem verdes sem terem conferido nada, com código 0. Instale antes de confiar num "OK".
 
 **Quanto cada um perde**, lido do código e conferido bloqueando o import:
 
 | validador | pula | de quantas | o rodapé avisa? |
 |---|---|---|---|
-| `conferir-dano.py` | 1 (as catorze contra o manual) | 10 | **sim** — `OK, mas 1 checagem(ns) PULARAM` |
-| `conferir-manual.py` | **4 — todas.** Ele sai no `except ImportError` antes da primeira | 4 | avisa, e sai antes do rodapé |
-| `conferir-nomes.py` | 3 (as checagens 1, 3 e 4) | 5 | sim, **desde a v0.101** |
+| `conferir-bestiario.py` | 3 (a `3`, a `5` e a `9` — esta em três sub-blocos) | 9 | **sim** |
+| `conferir-dano.py` | 1 (as treze contra o manual) | 13 | **sim** — `OK, mas 1 checagem(ns) PULARAM` |
+| `conferir-manual.py` | **8 — todas.** Ele sai no `except ImportError` antes da primeira | 8 | avisa, e sai antes do rodapé |
+| `conferir-nomes.py` | 3 (as checagens 1, 3 e 4) | 6 | sim, **desde a v0.101** |
 | `conferir-pericias.py` | 1 (a que bate contra o Fundamento) | 8 | sim, **desde a v0.101** |
 | `conferir-progressao.py` | 1 (a checagem 7) | 8 | **sim** |
 
-> **⚠ Continuam CINCO, e um deles trocou na v0.103.** *As condições saíram da peça 1 para a peça 19, e com elas saiu a única checagem do `conferir-atributos.py` que abria o `.docx`.* **Ele deixou de ler o manual e o `conferir-dano.py` entrou no lugar dele.** *A contagem não se moveu, e a lista se moveu — que é exatamente o tipo de troca que passa despercebida quando o número está certo.*
+> **⚠⚠ Esta tabela estava PARADA na v0.199, e a v0.205 achou.** *Aquela versão pôs o `conferir-bestiario` na tabela de puladas, e pôs em dois dos três lugares que a publicam — o `ESTADO-ATUAL` e o `LEIA-ME` diziam **seis** enquanto esta linha dizia **cinco**.* **E as outras três colunas envelheceram junto:** *`conferir-dano` tinha `13` checagens e aqui dizia `10`, o `conferir-manual` tinha `8` e dizia `4`, o `conferir-nomes` tinha `6` e dizia `5`.* **A lição nº 9 na forma de sempre, e a checagem `9` do `conferir-repositorio.py` não alcança esta tabela** — *ela confere a CONTAGEM de checagens contra os documentos que a publicam, e a coluna `pula` não é contagem de checagem.*
+
+> **⚠ E um deles trocou na v0.103, o que vale saber antes de mexer na lista.** *As condições saíram da peça 1 para a peça 19, e com elas saiu a única checagem do `conferir-atributos.py` que abria o `.docx`.* **Ele deixou de ler o manual e o `conferir-dano.py` entrou no lugar dele.** *A contagem não se moveu, e a lista se moveu — que é exatamente o tipo de troca que passa despercebida quando o número está certo.*
 
 > **Eram três até a v0.96.** *O `conferir-atributos` entrou na v0.97, quando o caminho de pulada dele foi consertado, e o `conferir-progressao` entrou na v0.99 junto com a peça 18.* **A contagem ficou parada em três nos dois documentos que a publicam — e este arquivo dizia "dois" no comentário do `pip` e "três" no parágrafo, com nove linhas de distância.** *Duas cópias, duas respostas, dentro do arquivo que publica a lição nº 9.*
 
-> **Os cinco avisam, e dois deles só desde a v0.101.** *O `conferir-nomes` e o `conferir-pericias` imprimiam `TUDO OK` sem terem lido o manual, e isso ficou aberto da v0.97 até lá.* **Quem registra a pulada é cada checagem no ponto em que ela desiste**, então a contagem do rodapé é derivada e não escrita. *E o `subir.sh` também acusa: um validador que pulou sai como `ok*` em amarelo, com o motivo do lado.*
+> **Os seis avisam, e dois deles só desde a v0.101.** *O `conferir-nomes` e o `conferir-pericias` imprimiam `TUDO OK` sem terem lido o manual, e isso ficou aberto da v0.97 até lá.* **Quem registra a pulada é cada checagem no ponto em que ela desiste**, então a contagem do rodapé é derivada e não escrita. *E o `subir.sh` também acusa: um validador que pulou sai como `ok*` em amarelo, com o motivo do lado.*
 
 *A v0.38 registrou **4, 2 e 1**, e os três documentos repetiram. O 4 do `conferir-nomes` era a contagem da palavra `PULADA` na saída — ele imprime um aviso de resumo e mais três marcadores —, e o 2 do `conferir-manual` não bate com nada: ele **não confere nada** sem a biblioteca.* **É o que estava documentado como o que pula menos, e é o único que fica cego por inteiro.**
 
-**Rode de `sistema/03-mecanica/`.** *E a razão mudou na v0.38, então vale saber qual é.* Até a v0.37 este arquivo dizia que rodar de outro lugar fazia os três pularem checagem em silêncio — verdade medida na v0.28, e a v0.33 chegou a contar **4, 1 e 1** puladas rodando de `/tmp`. **Hoje não reproduz mais:** os cinco validadores que abrem arquivo do manual resolvem o caminho por `os.path.dirname(os.path.abspath(__file__))`, e nenhum `conferir-*.py` tem caminho relativo cru. De `/tmp` a saída sai idêntica, byte por byte, com zero puladas.
+**Rode de `sistema/03-mecanica/`.** *E a razão mudou na v0.38, então vale saber qual é.* Até a v0.37 este arquivo dizia que rodar de outro lugar fazia os três pularem checagem em silêncio — verdade medida na v0.28, e a v0.33 chegou a contar **4, 1 e 1** puladas rodando de `/tmp`. **Hoje não reproduz mais:** os seis validadores que abrem arquivo do manual resolvem o caminho por `os.path.dirname(os.path.abspath(__file__))`, e nenhum `conferir-*.py` tem caminho relativo cru. De `/tmp` a saída sai idêntica, byte por byte, com zero puladas.
 
 O hábito continua, porque é o que o `subir.sh` faz e é o que o resto da documentação supõe. **O que não continua é a justificativa** — e um aviso que dá o motivo errado é pior que nenhum, porque ele ensina a procurar o defeito no lugar em que ele não está mais.
 

@@ -11,8 +11,9 @@ formulas vem da peca 1, a curva de refino vem da peca 11, as acoes do chefe vem
 da peca 19 e os fatores de categoria vem da propria peca 26. A checagem 7 e' quem
 guarda essa promessa.
 
-As checagens 3 e 5 leem o .docx do manual: sem o python-docx elas PULAM, e o
-rodape DIZ que pularam. Um verde que pulou checagem nao e' um verde.
+As checagens 3, 5 e 9 leem o .docx do manual: sem o python-docx elas PULAM, e o
+rodape DIZ que pularam. Um verde que pulou checagem nao e' um verde. A 9.4 nao
+depende do manual e roda de qualquer jeito — ela le so' a declaracao da peca.
 """
 
 import math
@@ -753,6 +754,243 @@ else:
             print(f'  [x] resistir aos Físicos vale {_res_fis:.2f}x, e o degrau de '
                   f'categoria que a peca cobra vale {_maior:.2f}x')
 
+
+# --------------------------------------------------------------------------
+bloco('9. O CATALOGO DO JOGADOR NA FICHA DO INIMIGO — o cambio do §6.5')
+# --------------------------------------------------------------------------
+# v0.205. A peca deixou de prometer um catalogo de tracos proprio e passou a
+# dizer o preco das entradas que o jogador ja tem — decisao do Mizuki, "da pra
+# deixar ser que nem do sistema pra player, mas rebalancear".
+#
+# Sao TRES portas e tres moedas, e esta checagem confere as tres separadas,
+# porque cada uma se mede contra um dono diferente:
+#
+#   a tecnica  -> o orcamento de feitico da acao, que sai do golpe do §4.4
+#                 dividido pelo que um ponto de feitico vale (peca 19 §2.1)
+#   a aptidao  -> a cota de dano por rodada, pelo cambio de PE da peca 5 §4
+#   vida efetiva -> um degrau de categoria, e a checagem 8 ja e' dona disso
+#
+# NENHUM valor esta escrito aqui. O ponto de feitico, o piso da Classe 1, o
+# cambio de PE, a maior Classe por nivel e o custo de cada aptidao sao todos
+# lidos do documento dono, e a tabela da peca e' recontada contra eles.
+P05 = 'sistema/03-mecanica/05-caminho-e-combate-sem-feitico.md'
+P18 = 'sistema/03-mecanica/18-progressao.md'
+_T19 = ler(P19)
+
+# quanto vale um ponto de feitico em dano — a mesma frase que a peca 19 §2.1 le
+# do manual, e a peca 26 §6.5 cita ao converter o golpe em orcamento.
+_mp = re.search(r'vira `1d8` de dano — que são `([\d,]+)`', _T19)
+# o piso: o menor feitico do manual, lido da tabela de preco do §2.1
+_ESC19 = {}
+for _l19 in tabela(_T19, '| Classe | `Leve` | `Média` | `Pesada` | Rotina |'):
+    if len(_l19) >= 5 and _l19[0].isdigit():
+        _ESC19[int(_l19[0])] = int(_l19[4])
+# a maior Classe por nivel, da tabela de progressao da peca 18
+_CL18 = {}
+for _l18 in ler(P18).split('\n'):
+    _m18 = re.match(r'\|\s*\*{0,2}(\d+)\*{0,2}\s*\|\s*[\d.—]+\s*\|\s*(\d+)\s*\|\s*(\d+)\s*\|'
+                    r'\s*(\d+)\s*\|\s*(\d+)\s*\|\s*(\d+)\s*\|\s*(\d+)\s*\|', _l18)
+    if _m18:
+        _CL18[int(_m18.group(1))] = int(_m18.group(5))
+# o cambio de PE, do DONO dele: a linha de orcamento da peca 5 §4
+_mpe = re.search(r'recuperar `\+1` PE \| permanente \| `([\d,]+)`', ler(P05))
+
+if not _mp:
+    erro('9: nao achei na peca 19 §2.1 quanto vale um ponto de feitico em dano — sem '
+         'ele o orcamento do §6.5 nao reconstroi de nada')
+elif not _ESC19:
+    erro('9: nao achei a tabela de preco por Classe na peca 19 §2.1 — ela e a dona do '
+         'piso, e sem ela nao da para dizer abaixo de que o inimigo nao conjura')
+elif not _mpe:
+    erro('9: nao achei o cambio de PE na peca 5 §4 — a linha `recuperar +1 PE` '
+         'permanente e a dona dele, e o §6.5 se apoia nela')
+elif not _CL18:
+    erro('9: nao achei a tabela de progressao da peca 18 — a maior Classe por nivel '
+         'sai dela, e sem ela a conta da aptidao nao fecha')
+else:
+    _PONTO = float(_mp.group(1).replace(',', '.'))
+    _PISO19 = _ESC19[min(_ESC19)]
+    _CAMBIO = float(_mpe.group(1).replace(',', '.'))
+    print(f'  um ponto de feitico vale {_PONTO} de dano (peca 19 §2.1); o menor feitico '
+          f'do manual custa {_PISO19} pontos.')
+    print(f'  e 1 PE por rodada vale {_CAMBIO} de dano por rodada (peca 5 §4).')
+
+    # -- 9.1: a tabela de orcamento de feitico do §6.5 -----------------------
+    # Ela e' o golpe do §4.4 em outra unidade, e o golpe entra ja arredondado
+    # pela regra do §4.1 — e' o numero que a ficha imprime. Sem isso a checagem
+    # compararia contra um produto cru que o mestre nunca ve.
+    _T91 = tabela(TXT, '| pontos por ação | `Ronda` | `Dupla` | `Alcateia` | `Calamidade` |')
+    if not _CAT or not _MANUAL:
+        pulou('9.1. o orcamento de feitico — sem a tabela do manual ou a do §4')
+    elif len(_T91) != len(_MANUAL):
+        erro(f'9.1: a tabela de orcamento do §6.5 tem {len(_T91)} linha(s) e a tabela de '
+             f'inimigo do manual tem {len(_MANUAL)} — ela parou de cobrir as faixas')
+    else:
+        _mau91 = 0
+        for _l91 in _T91:
+            _mn = re.search(r'(\d+)', _l91[0])
+            if not _mn or int(_mn.group(1)) not in _MANUAL:
+                erro(f'9.1: nao reconheci o nivel na linha "{_l91[0]}" do §6.5')
+                _mau91 += 1
+                continue
+            _nv91 = int(_mn.group(1))
+            _cd91 = _MANUAL[_nv91][2]
+            for _cel91, _c91 in zip(_l91[1:], _CAT):
+                _dano = _meio_baixo(_cd91 * _c91[2])
+                _pts = _dano / _c91[3] / _PONTO
+                _seco = _pts < _PISO19 - 1e-9
+                if _seco:
+                    if _cel91.strip().lower() != 'seco':
+                        erro(f'9.1: nv {_nv91}, {_c91[0]}: o orcamento e {_pts:.2f} pontos, '
+                             f'abaixo do piso de {_PISO19} que a Classe 1 do manual custa, '
+                             f'e a peca publica "{_cel91}" em vez de seco')
+                        _mau91 += 1
+                    continue
+                _mv = re.match(r'([\d,]+)$', _cel91.strip())
+                if not _mv:
+                    erro(f'9.1: nv {_nv91}, {_c91[0]}: a peca publica "{_cel91}" e a conta '
+                         f'da {_pts:.2f} pontos')
+                    _mau91 += 1
+                    continue
+                if abs(float(_mv.group(1).replace(',', '.')) - _pts) > 0.051:
+                    erro(f'9.1: nv {_nv91}, {_c91[0]}: a peca publica {_cel91} ponto(s) e o '
+                         f'golpe de {_dano / _c91[3]:.2f} da {_pts:.2f}')
+                    _mau91 += 1
+        if not _mau91:
+            print(f'  [x] as {len(_T91) * len(_CAT)} celulas do orcamento de feitico saem '
+                  f'do golpe ÷ {_PONTO}, e o `seco` e o piso da Classe 1 do manual')
+
+    # -- 9.2: a aptidao come a cota, e o custo sai da peca 11 ----------------
+    # O multiplicador de cada aptidao NAO e' lido daqui: ele vem da tabela das
+    # quatro anti-dominio da peca 11 §6.5, que e' a dona. Se ela repreçar, esta
+    # acende — que e' a coisa que uma copia nao faz.
+    _APT11 = {}
+    for _l11 in tabela(ler(P11), '| | Classe · gate | abre em | o refino escala | PE por rodada |'):
+        if len(_l11) >= 5:
+            _mm = re.match(r'([\d,]+) × maior Classe', _l11[4].strip())
+            if _mm:
+                _APT11[_l11[0].strip()] = float(_mm.group(1).replace(',', '.'))
+    _T92 = tabela(TXT, '| ligada a luta inteira, no nível 30 | da cota de uma `Ronda` | de uma `Alcateia` |')
+    if not _APT11:
+        erro('9.2: nao achei o custo por rodada das anti-dominio na peca 11 §6.5 — ela e '
+             'a dona, e sem ela o §6.5 daqui vira copia solta')
+    elif 30 not in _MANUAL:
+        pulou('9.2. a aptidao contra a cota — a linha do nivel 30 da tabela de inimigo '
+              'nao foi lida, e a conta se mede contra o dano dela')
+    elif not _T92:
+        erro('9.2: nao achei a tabela da aptidao no §6.5 — ela mudou de forma e esta '
+             'checagem parou de conferir')
+    else:
+        _cd92 = _MANUAL[30][2]
+        _mau92 = 0
+        for _l92 in _T92:
+            _nomes = [_n for _n in _APT11 if _n in _l92[0]]
+            if not _nomes:
+                erro(f'9.2: a linha "{_l92[0]}" do §6.5 nao nomeia nenhuma aptidao que a '
+                     'peca 11 §6.5 preca')
+                _mau92 += 1
+                continue
+            _mm92 = re.search(r'([\d,]+) ×', _l92[0])
+            _pub92 = float(_mm92.group(1).replace(',', '.')) if _mm92 else None
+            _don92 = {_APT11[_n] for _n in _nomes}
+            if len(_don92) != 1 or _pub92 is None or abs(_pub92 - _don92.pop()) > 1e-9:
+                erro(f'9.2: a linha "{_l92[0]}" publica multiplicador {_pub92} e a peca 11 '
+                     f'§6.5 da {[_APT11[_n] for _n in _nomes]}')
+                _mau92 += 1
+                continue
+            _custo = _pub92 * _CL18[30] * _CAMBIO
+            _COLS92 = [next(c for c in _CAT if c[0] == _r)
+                       for _r in ('Ronda', 'Alcateia')]
+            for _cel92, _c92 in zip(_l92[1:], _COLS92):
+                _esp92 = round(_custo / _meio_baixo(_cd92 * _c92[2]) * 100)
+                _mv92 = re.match(r'(\d+)%', _cel92.strip())
+                if not _mv92 or int(_mv92.group(1)) != _esp92:
+                    erro(f'9.2: {_nomes[0]} numa {_c92[0]}: a peca publica "{_cel92}" e a '
+                         f'conta da {_esp92}% ({_custo:.2f} de '
+                         f'{_meio_baixo(_cd92 * _c92[2])})')
+                    _mau92 += 1
+        if not _mau92:
+            print(f'  [x] as {len(_T92)} linhas da aptidao reconstroem do custo da peca 11 '
+                  f'§6.5 vezes a maior Classe da peca 18 vezes o cambio da peca 5 §4')
+
+    # -- 9.3: as duas trocas ruins, e as duas sao a mesma conta --------------
+    # A cura: H vale (dano ÷ saida) × H, entao o empate e' curar a SAIDA do
+    # grupo — que e' a vida do chefe dividida pela duracao da luta.
+    # A condicao: alvos × acoes negadas = 4 × acoes gastas, e o 4 e' o numero de
+    # personagens da Alcateia, lido do §4 e nao escrito aqui.
+    _mcura = re.search(r'empata em `(\d+)`, que é um terço da vida dele', TXT)
+    if 30 not in _MANUAL:
+        pulou('9.3. o empate da cura — a linha do nivel 30 da tabela de inimigo nao foi '
+              'lida, e o empate E a saida do grupo que sai dela')
+    elif not _mcura:
+        erro('9.3: a peca nao publica o empate da cura do inimigo na forma que esta '
+             'checagem le — sem ele a regua do §6.5 fica sem o numero que a fecha')
+    else:
+        _saida93, _cv93, _cd93 = _MANUAL[30][0], _MANUAL[30][1], _MANUAL[30][2]
+        if abs(int(_mcura.group(1)) - _saida93) > 0.51:
+            erro(f'9.3: a peca publica empate de cura em {_mcura.group(1)} e a saida do '
+                 f'grupo no nivel 30 e {_saida93:.0f} — o empate E a saida, porque o que '
+                 f'a cura compra e rodada de luta')
+        elif abs(_cv93 / 3 - _saida93) > 0.51:
+            erro(f'9.3: a vida do chefe ÷ 3 da {_cv93 / 3:.0f} e a saida do grupo e '
+                 f'{_saida93:.0f} — "um terço da vida dele" deixou de ser verdade')
+        else:
+            print(f'  [x] o empate da cura e {_saida93:.0f}, que e a saida do grupo e e '
+                  f'um terço da vida do chefe — a luta de 3 rodadas fecha os dois')
+
+    _PALAVRA = {'meia': 0.5, 'uma': 1.0, 'uma e meia': 1.5}
+    _m93 = re.search(r'(meia|uma e meia|uma) ação é `Leve`, (meia|uma e meia|uma) é '
+                     r'`Média`, (meia|uma e meia|uma) é `Pesada`', _T19)
+    _T93 = re.findall(r'a `(Leve|Média|Pesada)` precisa de `([\d,]+)` alvos', TXT)
+    # o tamanho do grupo NAO esta escrito aqui: e' a categoria cujo fator sobre a
+    # linha do manual e' exatamente 1, que e' a linha que o manual calibra.
+    _alc = [c for c in _CAT if abs(c[2] - 1.0) < 1e-9]
+    if not _m93:
+        erro('9.3: nao achei na peca 19 a escada de acoes negadas por degrau — ela e a '
+             'dona, e a conta de alvos do §6.5 se apoia nela')
+    elif not _alc:
+        erro('9.3: nao achei no §4 a categoria de fator 1,00 — ela e a linha que o '
+             'manual calibra, e o tamanho do grupo sai dela')
+    elif len(_T93) != 3:
+        erro(f'9.3: achei {len(_T93)} das 3 contas de alvo do §6.5 — a frase mudou de '
+             'forma e esta checagem parou de conferir')
+    else:
+        _ESCADA = {t: _PALAVRA[g] for t, g in zip(('Leve', 'Média', 'Pesada'),
+                                                  (_m93.group(1), _m93.group(2),
+                                                   _m93.group(3)))}
+        _GRUPO = _alc[0][1]
+        _mau93 = 0
+        for _tier, _pub93 in _T93:
+            _esp93 = _GRUPO / _ESCADA[_tier]
+            if abs(float(_pub93.replace(',', '.')) - _esp93) > 0.011:
+                erro(f'9.3: a peca diz que a `{_tier}` precisa de {_pub93} alvos e a conta '
+                     f'da {_esp93:.2f} — ela e {_GRUPO} personagens ÷ '
+                     f'{_ESCADA[_tier]:g} acao(oes) negada(s)')
+                _mau93 += 1
+        if not _mau93:
+            print(f'  [x] as tres contas de alvo saem de {_GRUPO} ÷ acoes negadas, com a '
+                  'escada lida da peca 19 e o grupo lido do §4')
+
+    # -- 9.4: cada porta declara a moeda em que se paga ----------------------
+    # E' o mesmo argumento da checagem 8: porta sem moeda declarada e' entrega de
+    # graca, e a categoria passa a mentir sobre o encontro. A guarda cobra as
+    # tres, e cobra que cada uma nomeie uma moeda que a peca ja tem.
+    _MOEDAS = ('orçamento de feitiço', 'cota de dano por rodada', 'degrau de categoria')
+    _T94 = tabela(TXT, '| o que ele carrega | onde ela se paga |')
+    if len(_T94) != len(_MOEDAS):
+        erro(f'9.4: a tabela das portas do §6.5 tem {len(_T94)} linha(s) e as moedas do '
+             f'projeto sao {len(_MOEDAS)} — ou uma porta ficou sem moeda, ou a tabela '
+             'mudou de forma e esta checagem parou de conferir')
+    else:
+        _faltam = [_m for _m in _MOEDAS
+                   if not any(_m in _l94[1] for _l94 in _T94)]
+        if _faltam:
+            erro('9.4: nenhuma porta do §6.5 se paga em ' + ' nem em '.join(_faltam)
+                 + ' — porta sem moeda declarada e entrega de graca, e a categoria '
+                   'passa a mentir sobre o encontro')
+        else:
+            print(f'  [x] as {len(_T94)} portas do §6.5 declaram a moeda, e as tres moedas '
+                  'sao as que a peca ja cobra')
 
 # --------------------------------------------------------------------------
 print()

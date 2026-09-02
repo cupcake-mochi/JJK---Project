@@ -1,16 +1,30 @@
 # Estado atual do projeto
 
-Atualizado em 02/09/2026, na v0.204 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e oito checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 02/09/2026, na v0.205 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e nove checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.204.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
+**Versão v0.205.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
+
+**A v0.205 fechou o `§6.5`, e ele não virou catálogo de traços — virou o câmbio do catálogo do JOGADOR para a ficha do inimigo.** ***Decisão do Mizuki:*** *"dá pra deixar ser que nem do sistema pra player, mas rebalancear."*
+
+> **Três portas, e nenhuma inventa moeda.** *A técnica paga no **orçamento de feitiço** de uma ação — o golpe dividido por `4,5`, com piso na `Classe 1` do manual —, a aptidão paga na **cota de dano por rodada** pelo câmbio de `1` PE por rodada = `5,14` de dano, e o que dá vida efetiva paga em **degrau de categoria**, que o §6.3 já vendia.*
+>
+> **O rebalanceamento é de quatro para um:** *a mesma aptidão come `16%` da cota de uma `Alcateia` e `65%` da de uma `Ronda`, e no nível 2 a `Extensão de Domínio` custa `193%` de uma `Ronda`* — **então uma maldição daquele nível que a carregue tem de ser pelo menos uma `Dupla`.**
+>
+> **⚠ E contar por LUTA em vez de por rodada ligada estava errado**, porque as quatro anti-domínio valem zero contra grupo que não abre domínio. *O jogador liga quando precisa; o inimigo cobrado por luta pagaria pelas rodadas em que ela não fez nada.*
+>
+> **A condição do inimigo se resolveu sem moeda nova**, e a razão é dele: *"se for seguir próximo da criação de ficha normal, um feitiço em área vai ter menos dados para poder comprar condição."* **O Fundamento já cobra por área e por condição em ponto de feitiço** — *e a `Dupla` do nível 30 monta `24,2` pontos numa ação, contra o teto de `24` do jogador naquele nível.*
+>
+> **A ação fora do turno saiu de graça com número:** *`0,94 ×` a `1,07 ×` sobre `81` durações de luta, média `1,01 ×`, e pior que ficar no turno em `29` dos `81` pontos.* **O `Guia do Mestre` manda contar o dano de fora do turno DENTRO do dano por rodada** — *a fonte diz a mesma coisa que a conta.*
+>
+> ***E recusar Teste de Resistência ficou de fora, por decisão dele:*** *"o inimigo não vai ter Resistência Lendária, ele precisa passar no teste."* **O preço existia — `1,20 ×` de dano efetivo, que é meio degrau —, e a porta é que não.**
+>
+> **⚠⚠ E um erro de voz estava vivo desde a v0.203, escondido dentro de um código de saída que já era `1`.** *A `Circulação` entrou no livro com dois rótulos de negrito longos demais, e o `conferir-voz.py --estrito` sai `1` de propósito por dois títulos que você renomeou a mão* — **então um erro novo ali dentro não move o código.** *E o `subir.sh` não roda o de voz.*
+>
+> **⚠⚠ E a tabela de puladas do `README` estava parada na v0.199, em quatro colunas.** *Ela dizia **cinco** validadores enquanto este arquivo e o `LEIA-ME` diziam seis, e as contagens de checagem do `conferir-dano`, do `conferir-manual` e do `conferir-nomes` estavam todas velhas.* **A checagem `9` do `conferir-repositorio.py` não alcança aquela tabela**, porque ela confere contagem de checagem e a coluna `pula` não é isso.
 
 **A v0.204 fechou a Expansão de Domínio de inimigo, e ela dobra quantos personagens ele exige.** *`Ronda` vira `Dupla`, `Dupla` vira `Alcateia`, e as duas de cima passam do topo da escada — uma `Calamidade` com Expansão exige **doze** feiticeiros.*
 
 > **A primeira forma da regra proibia a `Calamidade` de ter domínio, e o Mizuki achou:** *"não faz sentido um Sukuna da vida não ter expansão, ele seria Calamidade, não?"* **Ela media só para baixo e, não achando degrau abaixo, concluía que não podia.** *A conclusão não segue: o que falta ali é o número do encontro maior, e ele existe porque a categoria mede pessoas.*
-
-**⚠ E o próximo trabalho do Bestiário é o `§6.5`, o catálogo de traços, com a pesquisa já feita.** *O passo 13 do `Guia do Mestre` diz que as características do monstro "não mudam realmente as estatísticas" — elas mexem na vida efetiva, no dano efetivo ou na CA efetiva.* **A escada de categoria desta peça já É essa máquina; o que falta é o catálogo, e ele tem duas entradas.**
-
-> *Medidas ou quase: a habilidade guardada sai de graça, porque só redistribui a cota — e a recarga `5-6` do d20 não cabe, porque numa luta de três rodadas ela dispara `1,67` vezes. O inimigo que se cura empata em `315`, que é um terço da vida dele.* **Faltam a ação fora do turno, a recusa de Teste de Resistência e a técnica do inimigo.**
 
 **A v0.201 triplicou a pressão do chefe, e ela foi medida contra dois sistemas de fora antes de qualquer coisa.** *O chefe do nível 30 saiu de `72` para `219` de dano por rodada e de `1155` para `945` de vida; o manual foi para a `v7.23`.*
 
@@ -722,7 +736,7 @@ python3 conferir-nomes.py --candidatos Vulto Matilha Bigorna
 
 | validador | pula | de quantas | o rodapé avisa? |
 |---|---|---|---|
-| `conferir-bestiario` | 2 — a categoria e o câmbio, as duas contra a tabela de inimigo | 8 | **sim** |
+| `conferir-bestiario` | 3 — a categoria, o câmbio e o §6.5 (esta em três sub-blocos) | 9 | **sim** |
 | `conferir-dano` | 1 — as treze contra o manual | 13 | **sim** — `OK, mas 1 checagem(ns) PULARAM` |
 | `conferir-manual` | **8 — todas.** Sai no `except ImportError` antes da primeira | 8 | avisa, e sai antes do rodapé |
 | `conferir-nomes` | 3 (as checagens 1, 3 e 4) | 6 | sim, **desde a v0.101** |
@@ -884,7 +898,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/25-sem-tecnica.md` | **a rota de criação de quem tem energia e não tem técnica inata**: a semente — uma aptidão aberta na criação, em `Classe Passiva 2` ou `3` —, as três portas, os renomes `Manejo` e `Auge`, o buff de `1/3 do refino` na cura da rota da Shoko, e por que a Expansão de Domínio não existe aqui |
 | `03-mecanica/conferir-sem-tecnica.py` | as **doze** checagens da peça 25, e nenhum valor de regra mora dentro dela. *A 5 é a que decide a peça: ela não guarda os `9,3` nem os `17,3` — lê a escada de gate da peça 11 §5, simula as três rotas de marco e recalcula a antecipação de cada altura, então mexer na escada de forma coerente move a banda junto e sai verde de propósito* |
 | `03-mecanica/26-bestiario.md` | **a máquina de montar inimigo**: a ficha de treze linhas com dono declarado, as três derivadas que não tinham dono nenhum — Defesa, acerto e CD —, as quatro categorias medidas em quantos personagens o inimigo exige, o câmbio de um chefe por quatro capangas, e o grau como rótulo de ficção |
-| `03-mecanica/conferir-bestiario.py` | as **oito** checagens da peça 26, e nenhum valor de regra mora dentro dela. *A 2 é a que decide a peça: ela não guarda a Defesa nem a CD do inimigo — reconstrói as duas das fórmulas da peça 1 §5 e cobra que elas devolvam, do lado do inimigo, os mesmos `50%` a `55%` de acerto e `65%` de resistência que a peça 1 §6 publica do lado do jogador.* **A 5 não guarda o câmbio: ela roda a simulação de fogo concentrado aqui dentro**, nos seis níveis da tabela do manual |
+| `03-mecanica/conferir-bestiario.py` | as **nove** checagens da peça 26, e nenhum valor de regra mora dentro dela. *A 2 é a que decide a peça: ela não guarda a Defesa nem a CD do inimigo — reconstrói as duas das fórmulas da peça 1 §5 e cobra que elas devolvam, do lado do inimigo, os mesmos `50%` a `55%` de acerto e `65%` de resistência que a peça 1 §6 publica do lado do jogador.* **A 5 não guarda o câmbio: ela roda a simulação de fogo concentrado aqui dentro**, nos seis níveis da tabela do manual |
 | `05-material/gerador-ficha/` | o gerador da ficha (Node: `node make.js`), e os dois `.docx` que ele produz |
 | `05-material/gerador-inimigo/` | **o gerador do bloco de inimigo** (Node: `node make.js`), e o `bloco-de-inimigo.docx` de quatro páginas que ele produz — as tabelas que o mestre copia, o bloco em branco e um exemplo preenchido. *O `dados.js` dele não é autoridade de nada: o bloco `7` do `conferir-ficha.py` compara com a peça 26* |
 | `conferir-repositorio.py` | a árvore, as referências mortas, os números que moram em mais de um documento, os **ponteiros de seção** — todo `peça N §M` citado tem de apontar para seção que existe, desde a v0.54 —, o **mapa** desta tabela contra a pasta, a **entrega** contra a fonte, a **pendência morta** desde a v0.100 — nenhum item de "Em aberto" pode pedir coisa que já existe —, e, **desde a v0.102**, a **contagem de checagens de cada validador, lida do código** |

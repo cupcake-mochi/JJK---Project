@@ -127,6 +127,8 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 > **⚠ A métrica errada é "quantas rodadas ele leva para derrubar o GRUPO", e até a v0.200 ela dava `14`** — contra uma luta de `3,7`. *Lida assim, a tabela de inimigo parecia fraca demais, e a v0.199 respondeu que ela não estava.* **Estava.** *O que a métrica errada escondia é que ele derrubava exatamente uma pessoa por luta, no último segundo, e a v0.201 mediu isso contra dois sistemas de fora.*
 >
 > **`2,70` é o número dos dois:** *o d20 de 2014 derruba `2,56` a `2,70` numa luta de três rodadas, e o chefe solo do Pathfinder 2e derruba perto de `2,8`.* **É a métrica que decidiu a tabela nova, e não a que decidiu a antiga.**
+>
+> **⚠ E o `2,70` é do modelo sem ATRITO, que é o modelo desta peça inteira: quem cai continua contando na saída do grupo.** *Medido com atrito e com o chefe concentrando e ganhando a iniciativa, ele derruba os quatro em cinco rodadas, nos sete níveis* — **porque cada pessoa que cai tira um quarto da saída, a luta estica, e a rodada extra é dele.** ***Decisão do Mizuki na v0.205: fica assim.*** *"Um inimigo focar um único player vai acabar matando mesmo, acho que todo sistema rola isso — o mestre não vai querer normalmente focar também."* **O `Guia do Mestre` tem a mesma simplificação: a conta de nível de desafio dele também é plana.**
 
 ### 4.4 O dano se rola em dado, e não em número seco
 
@@ -311,6 +313,88 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 > **A duração cobre a luta inteira, e é por isso que o multiplicador vale o encontro todo.** *O manual põe a duração em metade do refino, e o refino do chefe do nível 30 é `10` — cinco rodadas contra uma luta de `3,00`.*
 
+### 6.5 O catálogo do jogador na ficha do inimigo
+
+***Decisão do Mizuki:*** *"dá pra deixar ser que nem do sistema pra player, mas rebalancear."* **O inimigo não ganha um catálogo de traços só dele — ele carrega as entradas que o jogador já tem, e o que muda é a moeda em que elas se pagam.**
+
+*O §6 já dizia isso em palavras: refino, aptidão, Passiva e técnica saem do mesmo catálogo.* **O que faltava era o preço, e ele é um câmbio de três portas.**
+
+| o que ele carrega | onde ela se paga |
+|---|---|
+| **técnica e feitiço** | o **orçamento de feitiço** de uma ação dele, e o Fundamento faz o resto |
+| **aptidão e Passiva com custo por rodada** | a **cota de dano por rodada**, nas rodadas em que ela está ligada |
+| **o que dá vida efetiva** | um **degrau de categoria**, pelo §6.3 |
+
+**A régua é a do `Guia do Mestre`, e o passo 13 escreve ela entre parênteses:** *as características de um monstro "não mudam realmente as estatísticas" dele — elas mexem na vida efetiva, no dano efetivo ou na CA efetiva.* **E o GURPS 4ed monta bicho assim, com as entradas do jogador:** *o bloco de lá publica "um resumo das metacaracterísticas, vantagens e desvantagens mais importantes" da criatura e deixa a lista cheia no modelo racial, com as secundárias "derivadas dos atributos de acordo com as fórmulas normais"* — **que é o que o §3.1 já faz aqui.**
+
+#### A técnica: o golpe dele é o orçamento do feitiço
+
+***Levantado pelo Mizuki:*** *"se for seguir próximo da criação de ficha normal, um feitiço em área vai ter menos dados para poder comprar condição."* **É exatamente isso, e é por isso que a técnica do inimigo não precisa de preço próprio: o Fundamento já cobra por área, por condição e por Melhoria, em ponto de feitiço.**
+
+**O que a ficha precisa dizer é quantos pontos uma ação dele paga, e isso o §4.4 já publica em dano.** *A conversão é a do manual, que o §2.1 da peça 19 lê: cada ponto que não vira Melhoria vira `1d8`, que são `4,5` de dano.*
+
+> **O orçamento de feitiço de uma ação é o golpe dela dividido por `4,5`.**
+
+| pontos por ação | `Ronda` | `Dupla` | `Alcateia` | `Calamidade` |
+|---|---|---|---|---|
+| nível 2 | seco | seco | seco | seco |
+| nível 5 | seco | `4,2` | seco | seco |
+| nível 10 | `4,2` | `8,2` | `5,6` | `5,0` |
+| nível 15 | `6,2` | `12,2` | `8,2` | `7,4` |
+| nível 20 | `8,2` | `16,2` | `10,9` | `9,8` |
+| nível 25 | `10,2` | `20,2` | `13,6` | `12,2` |
+| nível 30 | `12,2` | `24,2` | `16,2` | `14,6` |
+
+*O golpe entra aqui já arredondado pela regra do §4.1 — é o número que a ficha imprime, e não o produto cru.*
+
+**`seco` é o piso, e ele não foi escolhido: o menor feitiço do manual é a `Classe 1` e custa `3` pontos**, que são `13,5` de dano. *Abaixo disso o inimigo não monta feitiço nenhum — ele bate, e o golpe dele sai como o §4.4 manda.*
+
+> **⚠ Este piso não é o mesmo do golpe em dado, e os dois vivem lado a lado.** *O §4.4 põe o número seco abaixo de `5` de dano, porque um `d8` balançaria mais que o próprio golpe; este põe o feitiço abaixo de `13,5`, porque é o que a `Classe 1` custa.* **Existe faixa que rola dado e não conjura** — *uma `Alcateia` de nível 5 bate `13,0` num golpe, que é dado e não é feitiço.*
+
+**A `Dupla` do nível 30 monta `24,2` pontos numa ação, e o teto do jogador naquele nível é `24`.** *Ela é o inimigo que exige duas pessoas, e uma ação dela é o maior feitiço que um personagem do nível monta.* **Do nível 20 para cima ela fica entre `95%` e `101%` daquele teto** — `95%` no 20, `96%` no 25 e `101%` no 30 —, *e nada foi ajustado para isso acontecer.* **Abaixo dali ela afrouxa:** `87%` no nível 15 e `82%` no 10.
+
+> **⚠ E é aqui que a condição do inimigo se resolve, sem moeda nova.** *Comprar condição dentro de um feitiço custa ponto, e ponto gasto em condição é dado que não foi comprado.* **A régua da peça 19 §2.2 vale dos dois lados da mesa desde a v0.201, então o preço já está escrito lá.**
+
+#### A aptidão: ela come a cota, e só nas rodadas em que está ligada
+
+**O jogador paga a aptidão em PE por rodada enquanto ela está de pé. O inimigo não conta PE pelo §6.1, então ele paga a mesma coisa na cota — e paga pelas mesmas rodadas.** *O câmbio tem dono: `+1` PE por rodada vale `5,14` de dano por rodada, pela peça 5 §4.*
+
+> **`1` PE por rodada = `5,14` da cota de dano por rodada, contado só nas rodadas em que a aptidão está ligada.**
+> **O teto é a cota daquela rodada** — ninguém gasta o que não tem. *Acima dele a aptidão não cabe naquela categoria, e o mestre sobe de categoria ou tira a aptidão.*
+
+**O rebalanceamento que o Mizuki pediu está na razão entre as categorias, e ele é de quatro para um.** *A mesma aptidão pesa quatro vezes mais numa `Ronda` do que numa `Alcateia`, porque a cota da `Ronda` é um quarto.*
+
+| ligada a luta inteira, no nível 30 | da cota de uma `Ronda` | de uma `Alcateia` |
+|---|---|---|
+| `Domínio Simples` e `Pétala` · `1 ×` maior Classe | `65%` | `16%` |
+| `Extensão de Domínio` · `1,5 ×` maior Classe | `98%` | `25%` |
+
+**No nível 2 a `Extensão de Domínio` custa `193%` da cota de uma `Ronda`, e por isso uma maldição daquele nível que a carregue tem de ser pelo menos uma `Dupla`** — *lá ela cai para `96%`, e cabe.*
+
+> **⚠ E contar por luta em vez de por rodada ligada estava errado, porque as quatro anti-domínio são pura resposta.** *Elas valem **zero** contra um grupo que não abre domínio.* **O jogador liga quando o domínio abre; o inimigo, cobrado por luta, pagaria pelas rodadas em que ela não fez nada.** *`Domínio Simples` ligado uma rodada de três custa `12,0` de dano, que são `5,5%` da cota de uma `Alcateia` e `22%` da de uma `Ronda` — contra os `16%` e `65%` da tabela acima.*
+
+#### As que saem de graça, e o número que prova isso
+
+**Estas três não mudam a cota — elas mudam a FORMA em que ela chega: as duas primeiras mudam em que rodada, e a terceira muda em quem.** *É o mesmo fenômeno que o §4.4 e o §4.5 já medem.*
+
+> **Habilidade guardada, `1 ×` por luta.** *Ela entrega o dobro de uma rodada e deixa as outras menores: no nível 30 são `438` numa e `110` nas outras duas, e o total é `657` — o publicado.*
+>
+> **Ação fora do turno, no molde da ação lendária.** *O `Guia do Mestre` manda contar o dano de fora do turno **dentro** do dano por rodada, junto de aura, reação e ação de covil.* **Medida sobre `81` durações de luta, de `2,50` a `3,75` rodadas, ela entrega de `0,94 ×` a `1,07 ×` do que a mesma cota entrega no turno, com média `1,01 ×`** — *e em `29` dos `81` pontos ela é pior.* **Isso é ruído e não é preço, e a trava é uma só: as ações fora do turno saem das que ele já tem pelo §4.2, nunca por cima.**
+>
+> **Golpe ou feitiço em área.** *A cota é o que chega ao GRUPO, e não o que chega a cada um* — **área reparte a cota, e não multiplica ela.** *É a mesma leitura que o §4.6 usa para dizer que ele derruba `2,70` pessoas se concentrar.*
+
+**E uma não cabe, com a conta do porquê.** *A recarga `5-6` do d20 dispara `1,67` vezes numa luta de três rodadas, e a cota não paga a fração que sobra.* **Lá ela cabe porque a economia de rodadas é outra; o relógio que cabe aqui é `1 ×` por luta**, que é a habilidade guardada.
+
+#### As duas trocas ruins, declaradas e não proibidas
+
+***Decisão do Mizuki:*** *"não tem problema não valer a pena, às vezes o combate tem uma pessoa só."* **As duas ficam medidas e liberadas, no molde do §4.7 — a peça mede, mostra, e o mestre escolhe.**
+
+> **O inimigo que se cura empata em `315`, que é um terço da vida dele.** *Ele gasta a rodada e abre mão de `219` de dano; ganha `H` de vida, que alonga a luta em `H ÷ 315` rodadas, e cada rodada a mais entrega `219`.* **Então `H` de cura vale `0,70 × H` de dano**, e curar lasca é o mesmo erro que o grupo comete.
+>
+> **A condição que o inimigo põe num personagem empata quando `alvos × ações negadas = 4 × ações gastas`.** *A conta não depende do nível: o dano dele cai fora dos dois lados dela.* **Em alvo único nenhuma compensa** — *a `Pesada` precisa de `2,67` alvos, a `Média` precisa de `4` alvos, e a `Leve` precisa de `8` alvos, que a mesa não tem.*
+
+**As duas são a mesma conta virada: gastar a rodada em algo que não é dano rende `0,70 ×` do que aquilo vale.** *A cura não tem como multiplicar — ela cai num corpo só. A condição tem, e é por isso que só ela tem saída.*
+
 ## 7. O que o `conferir-bestiario.py` confere
 
 | # | o que ela confere |
@@ -323,9 +407,10 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 | **5.1** | **a coluna da sub-categoria reconta.** As quatro formas do §4.5 são simuladas com os capangas abatidos primeiro, e as porcentagens publicadas têm de ser o que a simulação devolve. *Ela nasceu na v0.201 porque aquela coluna nunca teve validador e tinha divergido: o publicado subia de `28%` a `35%` e a simulação não reproduzia nem a ordem* |
 | **6** | **o grau não vira número.** Nenhuma linha desta peça pode pendurar valor no grau, e o `ESTADO-ATUAL` e a peça 12 continuam dizendo que inimigo não tem grau mecânico |
 | **7** | **nenhum valor de regra guardado aqui dentro.** Todo número vem do dono, e a checagem falha se algum sobrar como constante |
-| **8** | **resistência é vida escondida.** Os pesos dos três grupos saem da peça 19 §4, os multiplicadores do §6.3 são recalculados de `1 ÷ (1 − o que se poupa)`, e a peça tem de declarar em que moeda a resistência se paga. *Sem essa declaração ela é vida de graça, e a categoria passa a mentir sobre o encontro*
+| **8** | **resistência é vida escondida.** Os pesos dos três grupos saem da peça 19 §4, os multiplicadores do §6.3 são recalculados de `1 ÷ (1 − o que se poupa)`, e a peça tem de declarar em que moeda a resistência se paga. *Sem essa declaração ela é vida de graça, e a categoria passa a mentir sobre o encontro* |
+| **9** | **o câmbio do §6.5, nas três portas.** A `9.1` reconstrói as `28` células do orçamento de feitiço do golpe dividido pelo que um ponto vale, e cobra que o `seco` seja o piso da `Classe 1` do manual; a `9.2` reconstrói a conta da aptidão do custo que a peça 11 §6.5 publica, da maior Classe da peça 18 e do câmbio de PE da peça 5 §4; a `9.3` refaz os dois empates — o da cura e o dos alvos —, com a escada de ações lida da peça 19 e o tamanho do grupo lido da categoria de fator `1,00`; e a `9.4` cobra que cada porta declare a moeda. *Nenhum dos quatro números vive aqui dentro* |
 
-### 7.1 As dezoito perturbações, em cópia isolada
+### 7.1 As trinta e quatro perturbações, em cópia isolada
 
 *Com a base conferida verde e com `PULADA` zero antes de cada uma, com o `diff` comparado antes e depois, e com o veredito lido da checagem que estava sendo testada — nunca do código de retorno.*
 
@@ -351,6 +436,22 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 | **1** | o teto de pacto some da peça 22 | acende | acende |
 | **1.1** | a linha dos atributos sai da ficha | acende | acende |
 | **8** | **contra-teste:** o peso muda na peça 19 **e** no §6.3, coerente | fica verde | fica verde |
+| **9.1** | uma célula do orçamento do §6.5 vira `99,9` | acende | acende |
+| **9.1** | a célula `seco` do nível 5 vira número | acende | acende |
+| **9.1** | o ponto de feitiço vira `6,0` na peça 19 | acende | acende |
+| **9.1** | o preço da `Classe 1` vira `8` na peça 19 | acende | acende |
+| **9.2** | o câmbio de PE vira `7,00` na peça 5 | acende | acende |
+| **9.2** | a `Extensão de Domínio` vira `2 ×` na peça 11 | acende | acende |
+| **9.2** | uma porcentagem do §6.5 vira `50%` | acende | acende |
+| **9.3** | o empate da cura vira `400` | acende | acende |
+| **9.3** | a conta de alvos da `Média` vira `6` | acende | acende |
+| **9.3** | a escada de ações negadas muda na peça 19 | acende | acende |
+| **9.4** | uma porta troca a moeda por *"o mestre decide"* | acende | acende |
+| **9.4** | a linha inteira de uma porta é apagada | acende | acende |
+| **9.1** | **contra-teste:** mexer em prosa sem mexer em número | fica verde | fica verde |
+| **9.1** | **contra-teste:** o piso cai para `2` pontos na peça 19 **e** o nível 5 enche no §6.5 | fica verde | fica verde |
+| **9.2** | **contra-teste:** a `Extensão` vai a `2 ×` na peça 11 **e** as duas porcentagens no §6.5 | fica verde | fica verde |
+| **9.3** | **contra-teste:** a `Leve` vira uma ação na peça 19 **e** os alvos dela no §6.5 | fica verde | fica verde |
 
 > **O contra-teste da `3` é o que prova a checagem.** *Trocar a `Calamidade` para oito personagens muda o fator para `2,00`, as ações para `7` e as três células de ficha — e a checagem sai verde,* **porque ela mede a derivação e não os números publicados.**
 >
@@ -368,7 +469,9 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 - **A coluna de capanga da Classe 1, que a v0.199 deixou vazia por uma razão que morreu.** *O §5.1 registra: com a tabela nova o corpo do fundo tem `29` de vida e quatro deles duram `3,05` rodadas, igual às outras seis faixas.* **Encher a coluna é escolha do Mizuki**, e ela custa uma linha na tabela do manual mais o texto do §5.1.
 
-- **⚠⚠ O CATÁLOGO DE TRAÇOS, e ele é o próximo trabalho desta peça.** ***Levantado pelo Mizuki:*** *"não é bom ele ter justamente PE para ter recursos? Mago inimigo em D&D tem spell slot, técnica máxima como possibilidade, habilidade com recarga. Usar a ficha de D&D como base é o que mais vai ajudar esse sistema de inimigos ficar legal."*
+- ~~**⚠⚠ O CATÁLOGO DE TRAÇOS, e ele é o próximo trabalho desta peça.**~~ ***FECHADO na v0.205, e não virou catálogo:*** **o §6.5 é o câmbio do catálogo do JOGADOR para a ficha do inimigo**, por decisão do Mizuki — *"dá pra deixar ser que nem do sistema pra player, mas rebalancear"*. *Três portas: a técnica paga no orçamento de feitiço da ação, a aptidão paga na cota nas rodadas em que está ligada, e o que dá vida efetiva paga em degrau.* **A ação fora do turno saiu de graça com número — `0,94 ×` a `1,07 ×` sobre `81` durações de luta —, e a condição do inimigo se resolveu sem moeda nova, porque o Fundamento já cobra por ela em ponto de feitiço.**
+
+  ***Levantado pelo Mizuki:*** *"não é bom ele ter justamente PE para ter recursos? Mago inimigo em D&D tem spell slot, técnica máxima como possibilidade, habilidade com recarga. Usar a ficha de D&D como base é o que mais vai ajudar esse sistema de inimigos ficar legal."*
 
   > **A pesquisa no `Guia do Mestre` responde os dois lados, e o §6.1 sobrevive.** *O passo 13 de "Criando o Bloco de Estatísticas" escreve, entre parênteses: **"as características não mudam realmente as estatísticas do monstro"** — elas mexem na vida efetiva, no dano efetivo ou na CA efetiva, e é assim que entram no Nível de Desafio.* **Espaço de magia num bloco de conjurador é FORMA e não orçamento: o Guia manda contar a magia pelo dano dela.**
   >
@@ -378,9 +481,9 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
   >
   > **⚠ A recarga `5-6` do d20 NÃO cabe aqui, e a conta diz por quê:** *numa luta de três rodadas ela dispara `1,67` vezes, e a cota não paga isso.* **Lá ela cabe porque a economia de rodadas é outra.** *O relógio que cabe é `1 ×` por luta, e ele fica para o §6.5 medir junto das outras.*
 
-  **As entradas que faltam medir:** *ação fora do turno, no molde da ação lendária · recusar um Teste de Resistência, no molde da Resistência Lendária — a v0.199 recusou aquilo com o chefe em `72` e a v0.201 mudou o chão dessa medida · e a técnica do inimigo, que o §6 menciona e não preça.*
+  > ***E recusar um Teste de Resistência ficou de fora, por decisão do Mizuki na v0.205:*** *"o inimigo não vai ter Resistência Lendária, então ele não anula condições, ele precisa passar no teste."* **É a mesma decisão que a v0.199 já tinha fechado, e a medida nova não a moveu:** *uma recusa vale `1,17 ×` a `1,20 ×` de dano efetivo, contra `1,18 ×` que resistir aos `Elementais` vale — meio degrau.* **O preço existia; a porta é que não.**
 
-- **⚠ O inimigo que se cura, e a conta dele já existe.** ***Pergunta do Mizuki:*** *"como fica inimigo que quer se curar? Quer usar técnica?"*
+- ~~**⚠ O inimigo que se cura, e a conta dele já existe.**~~ ***FECHADO na v0.205, no §6.5***, junto da condição que ele põe num personagem — *as duas são troca ruim, as duas ficam declaradas e liberadas, e as duas só viram lucro em área.* ***Pergunta do Mizuki:*** *"como fica inimigo que quer se curar? Quer usar técnica?"*
 
   > **É a mesma conta que a v0.203 fez do lado do grupo, virada.** *Ele gasta a rodada e abre mão de `219` de dano; ganha `H` de vida, que alonga a luta em `H ÷ 315` rodadas, e cada rodada a mais entrega `219`.* **Então `H` de cura vale `0,70 × H` de dano, e o empate está em curar `315` — um TERÇO da vida máxima dele.**
   >

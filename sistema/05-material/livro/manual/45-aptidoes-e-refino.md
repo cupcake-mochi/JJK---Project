@@ -204,11 +204,11 @@ Energia positiva reconstrói sangue, osso, carne e órgão, e quem chega aqui te
 
 Na Ação Bônus você cura e ainda ataca na mesma rodada. O dado menor é o preço disso — é a diferença entre segurar um golpe e ficar inteiro.
 
-> **Levantar quem caiu é o uso que mais rende.** Quem está em 0 volta de pé com qualquer cura, e gastar a Ação Padrão nisso é troca justa: você perde a sua rodada e devolve a dele. Na Ação Bônus você devolve a rodada dele sem perder a sua.
+> **Levantar quem caiu.** É o uso que mais rende: quem está em 0 volta de pé com qualquer cura, e gastar a Ação Padrão nisso é troca justa — você perde a sua rodada e devolve a dele. Na Ação Bônus você devolve a rodada dele sem perder a sua.
 
 Recompor membro é a mesma aptidão fazendo a coisa mais difícil que a energia positiva faz. Em combate ela custa a sua rodada e o combustível, e você continua machucado. Fora de combate é barata, e é lá que ela deve ser usada.
 
-> **Perder um membro não tem regra neste livro**, e isso é decisão. Quem tira é o mestre ou um pacto, e as penalidades são as que a mesa combinar — do mesmo jeito que o d20 faz. Esta aptidão desfaz.
+> **Membro perdido.** Não tem regra neste livro, e isso é decisão: quem tira é o mestre ou um pacto, e as penalidades são as que a mesa combinar, do mesmo jeito que o d20 faz. Esta aptidão desfaz.
 
 **Curar outra pessoa continua fora daqui.** Quem alcança os outros é a Trilha `Sutura`, no nível 11 dela. Uma ficha com as duas recompõe o membro de outra pessoa, e isso é o degrau mais raro do material.
 
