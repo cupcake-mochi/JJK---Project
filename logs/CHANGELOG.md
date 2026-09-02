@@ -8,6 +8,185 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.202] — 02/09/2026
+
+**O `Kokusen` base deixou de custar marco, e a varredura atrás disso achou o livro e a peça discordando em três eixos.** *A memória do Mizuki estava certa: "kokusen é uma regra de mundo, qualquer um pode tirar e exige mais sorte que cálculo, já que nem o Gojo conseguiu fazer diversas vezes seguidas."*
+
+### 1 · O sistema cobrava por uma coisa que a peça dava de graça
+
+**A prosa da peça 11 §6.6 sempre disse que o `Kokusen` base é de todo mundo** — *"ele existe pelo grito na mesa, não pela planilha"*, *"ninguém deve montar ficha em cima dele"* —, e ele é a única entrada de kokusen sem gate de refino e sem gate de nível.
+
+> **Mas a tabela do §7 contava ele como entrada, e o `conferir-aptidoes.py` tinha `MARCOS_DA_PILHA = 3` escrito no código**, com o comentário *"Kokusen + Constante + Melhorado, um marco cada"*. **Uma ficha pagava um marco por uma regra de mundo, e isso atravessou desde a v0.90.**
+>
+> **O catálogo foi de catorze entradas para treze, e a pilha de kokusen custa dois marcos em vez de três.** *Ela rende `0,23 ×` o que um ponto de atributo compra, por marco — continua bem abaixo do quarto que a peça usa como teto.*
+>
+> **⚠⚠ E a folga do cardápio encolheu, o que fica declarado como dívida.** *O §3 fixa que a rota pura de Refino precisa de dez aptidões, e o catálogo tinha doze pagas — duas de folga.* **Com onze, a folga é uma:** *quem não pega a `Cortina` leva o catálogo inteiro e ainda sobra um pick.* **A aptidão seguinte paga a dívida**, e ela já está pedida.
+
+### 2 · O livro estava certo, e por isso ele achou mais três
+
+**O capítulo 45 publica, com todas as letras: *"o Kokusen em si não é uma aptidão: é uma mecânica, e todo feiticeiro que tem energia consegue usar"*.** *Ele estava certo e a peça é que cobrava — e ir conferir os dois lado a lado destampou mais três divergências, nenhuma com validador.*
+
+| | a peça dizia | o livro publicava | quem estava certo |
+|---|---|---|---|
+| **o gatilho** | só o corpo a corpo | corpo a corpo **ou feitiço de Toque** | **a peça** |
+| **o relógio da proteção contra azar** | zera no descanso longo | zera **no fim da cena** | **a peça** |
+| **o requisito das duas de melhoria** | nenhuma exige a outra | *"e ter tirado um `Kokusen`"* | **a peça** |
+
+> **O gatilho é o pior, e a conta é a mesma que fechou o escopo do crítico na v0.151.** *Um feitiço de Toque `Classe 7` com kokusen entrega `283,5` de dano — `2,62 ×` a Rotina — contra `58,5` do corpo a corpo, que é `0,54 ×`.* **É `4,8 ×` mais, e sai em `20%` dos críticos no teto do refino.**
+>
+> **O relógio é o segundo pior por outro motivo: o livro publicava exatamente a forma que a peça MEDIU E RECUSOU**, com a conta escrita três parágrafos abaixo — *o acúmulo só começa no segundo crítico da mesma cena, e dois críticos no mesmo combate acontecem em `4,4%` das vezes.*
+>
+> **⚠ E a tabela de catálogo do livro listava o `Kokusen` como aptidão "sem requisito" duas telas acima da prosa que diz que ele não é aptidão.** *O mesmo documento, os dois em pé.*
+
+### 3 · A guarda
+
+**Entrou uma sub-checagem no `conferir-aptidoes.py` que compara os três eixos entre a peça e o livro**, e ela é a primeira do projeto a ler o capítulo 45. *O número de checagens não se move — ela é sub-bloco.*
+
+> *Quatro perturbações acendem — devolver o Toque ao gatilho, voltar o relógio para "por cena", devolver o requisito, e a peça parar de declarar a regra de mundo — e o contra-teste de reescrever a frase sem mexer na regra fica verde.*
+
+### Alterado
+
+- **`11-aptidoes-e-refino.md`** — o §3, o §6.6, a tabela do §7 e a tabela de resumo do §9.
+- **`05-material/livro/manual/45-aptidoes-e-refino.md`** — o gatilho, o relógio, os dois requisitos e a linha do catálogo.
+- **`conferir-aptidoes.py`** — a pilha custa dois marcos, a contagem do catálogo é lida da peça em vez de escrita no código, e entrou a comparação com o livro.
+
+### Decidido
+
+- **O `Kokusen` base é regra de mundo e não ocupa vaga de catálogo.** *As duas de melhoria continuam sendo aptidão como qualquer outra.*
+- **O gatilho é só o corpo a corpo**, e o feitiço de Toque fica de fora pela mesma conta que fechou o escopo do crítico.
+- **O relógio da proteção contra azar é o descanso longo**, que é o que a peça já tinha medido.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **A próxima é a aptidão que o Mizuki pediu — o `Fluxo Constante`**, que é `Energia Reversa` em Ação Bônus mais recuperação de membro, e ela paga a folga que esta versão gastou. *Depois dela, o catálogo de maldições prontas, o exemplo guiado de invocação e a coluna de capanga da Classe 1.*
+
+---
+
+## [0.201] — 02/09/2026 · manual na v7.23
+
+**A pressão do chefe subiu `3,04 ×`, e ela foi medida contra dois sistemas de fora antes de mexer em qualquer coisa.** *A pergunta era do Mizuki desde a v0.199 — "o dano não tá muito baixo?" —, e a v0.200 tinha escorregado dela.*
+
+### 1 · A metade que faltava, e ela não era o gargalo
+
+**O `Guia do Mestre` de 2014 não publica quanto o grupo entrega por rodada, mas publica a JANELA.** *O passo de montar monstro manda tirar a média do dano "para as três primeiras rodadas de combate", e essa é a única duração que o livro declara.* **Daí sai a saída do grupo: a vida do chefe dividida por três.**
+
+> **Conferida por um segundo caminho que não conversa com ela.** *Montei um Guerreiro e um Ladino do `Livro do Jogador` de 2024, sem magia nenhuma — os dois sozinhos já entregam `49%` a `61%` daquilo em todo nível.* **Então a janela de três rodadas é PISO, e não teto.**
+>
+> **⚠ E o lado de ataque já batia.** *A luta daqui durava `3,62` a `3,67` rodadas contra as `3` de lá.* **O vão inteiro estava na defesa**, e por isso o primeiro trabalho da versão — achar a saída do grupo do d20 — acabou não sendo o que destravou nada.
+>
+> ***⚠⚠ E o `3,3 ×` registrado na v0.199 estava alto.*** *Ele saiu de ler o TOPO da faixa de dano do d20 contra o valor único daqui; reproduzi isso e dá `3,19 ×`.* **Meio contra meio a diferença era `2,64 ×` com Constituição `+3` e `2,99 ×` com `+2`.**
+
+### 2 · Três medidas, dois sistemas, e elas convergem
+
+**A mesma régua no `Guia do Mestre` de 2014, no chefe solo do Pathfinder 2e e aqui:**
+
+| | % da vida do grupo por rodada | % de UMA pessoa | derruba por luta |
+|---|---|---|---|
+| **d20 2014**, ND igual ao nível | `21,3%` a `22,5%` | `85%` a `90%` | `2,56` a `2,70` |
+| **Pathfinder 2e**, chefe solo em `PL+4` | `22,9%` | `92%` | `~2,8` |
+| **Projeto - M**, até a v0.200 | `7,4%` a `8,7%` | `30%` a `35%` | `1,09` a `1,28` |
+
+> **O número mais direto é o do golpe, e é o menos modelado dos três:** *um golpe de chefe tira `30%` de um personagem no d20 e `33%` no Pathfinder.* **Aqui tirava `10%`.**
+>
+> *O 3D&T ficou de fora da tabela porque a resposta dele é de outra natureza — a Escala multiplica o dano por dez de um degrau para o outro, e a ideia é que um chefe não é uma pessoa maior.*
+
+### 3 · A tabela nova, e ela mexe nas duas colunas do chefe
+
+***Escolha do Mizuki entre quatro alvos: o golpe a `30%` de um personagem E a luta em três rodadas.*** **Duas regras novas, as duas com fonte de fora:**
+
+> **O chefe entrega `90%` da vida de um personagem por rodada.**
+> **A vida dele é `3 ×` o dano de rodada do grupo, o que põe a luta em três rodadas.**
+
+| nível | chefe: vida | chefe: dano | capanga: vida | capanga: dano |
+|---|---|---|---|---|
+| 2 | `105 a 125` | `17` | — | — |
+| 5 | `250 a 290` | `39` | `67` | `13` |
+| 10 | `360 a 420` | `75` | `97` | `25` |
+| 15 | `500 a 580` | `111` | `135` | `37` |
+| 20 | `600 a 720` | `147` | `165` | `49` |
+| 25 | `760 a 890` | `183` | `206` | `61` |
+| 30 | `870 a 1020` | `219` | `236` | `73` |
+
+**As sete linhas dão `22,4%` a `22,7%` da vida do grupo, `89%` a `91%` de uma pessoa e `2,68` a `2,72` derrubados** — em cima dos dois sistemas de fora, e o multiplicador do dano fica entre `2,58 ×` e `3,04 ×`.
+
+> **A vida do grupo ganhou dono, e ela não tinha.** ***Escolha do Mizuki: a ficha REAL*** — a média dos cinco Caminhos com Constituição `3`, que é a coluna em que a peça 1 §5.1 faz a própria calibragem. *A peça 26 usava **dois modelos em seções vizinhas** — `243` no §4.6 e `252` no §5 e no §6.3 — e nenhum dos dois estava declarado.*
+>
+> **⚠ E uma frase do manual mudou.** *Ele dizia "três a quatro vezes o dano de rodada do grupo", que era a descrição da faixa `3,33` a `4,00`.* **Hoje é "cerca de três vezes", e a razão passou a ser a duração da luta em vez da perda de ação.**
+
+### 4 · O capanga virou derivação, e o câmbio virou aritmética
+
+**Até a v0.200 o capanga era medido por simulação e a vida dele deslizava sem motivo escrito** — `chefe ÷ 8,25` no nível 5 e `chefe ÷ 5,25` no 30.
+
+> **Quatro capangas juntos têm a vida do chefe, e cada um bate o golpe dele.**
+
+**Com isso o câmbio deixa de sair de simulação: os dois lados entregam NOVE GOLPES.** *O chefe age três vezes numa luta de três rodadas — `3 × 3`. Os quatro capangas caem no mesmo ritmo em que ele cairia: `4 + 3 + 2`.* **No nível 30 os dois cobram `657` de dano em `3` rodadas, nas seis faixas que têm capanga.**
+
+> **A coluna da sub-categoria foi recontada e ganhou validador — ela nunca teve um.** *O publicado subia de `28%` a `35%` e a simulação não reproduzia nem a ordem.* **Hoje é `68%` sozinho e `56%` a `62%` repartido, e a peça declara a ordem de abate**, porque abater o chefe primeiro muda a coluna em até `15` pontos percentuais.
+>
+> **⚠ E a razão do §5.1 parou de reproduzir.** *A faixa mais baixa saiu sem capanga na v0.199 porque "dois deles cairiam na primeira rodada".* **Com a tabela nova o corpo tem `29` de vida e quatro deles duram `3,05` rodadas — a mesma durabilidade das outras seis faixas.** *A decisão fica de pé apoiada só no levantamento de fora, e reabrir a coluna está no §8.*
+
+### 5 · A régua de condição trocou de pergunta, e nenhum preço se moveu
+
+***Decisão do Mizuki:*** *"Não acho que precisa repreçar. Tem que considerar que o boss também vai poder aplicar condições — troca como a régua mede."*
+
+**A régua comparava o valor da condição com o preço dela e reprovava quem passasse.** *Mas o valor é uma fatia da rodada do INIMIGO e o preço é uma fatia da sua* — com o chefe em `219` contra uma Rotina de `108`, oito das treze passavam do próprio preço e a `Média` esvaziava.
+
+> **Ela passou a ter duas perguntas, e nenhuma é "cabe embaixo do preço":**
+> **1. O NÍVEL sai das AÇÕES negadas** — meia é `Leve`, uma é `Média`, uma e meia é `Pesada`, com desvantagem contando como uma e meia. *Isso não olha o alvo, e é o que faz a mesma tabela servir quando o chefe usa condição num personagem.*
+> **2. O TESTE é de dominância** — quanto ela nega dividido pelo dano que aqueles pontos dariam, contra o filtro de `3,00×` do projeto.
+
+**As treze mantêm os treze níveis publicados, e a pior fica em `2,67×`.**
+
+> ***⚠⚠ E a régua nova destampou o que a velha escondia.*** *Com o chefe de `72`, as treze ficavam entre `0,00×` e `1,18×`:* **comprar condição era o pior negócio da mesa, e o teto não tinha como mostrar isso porque ele media contra um chefe mais fraco que um personagem.**
+>
+> **⚠ Nenhuma das oito que se moveram é usada por entrega de Trilha nenhuma.** *A única condição do catálogo é o `Derrubado`, feito de vantagem e de metros — os dois absolutos.* **O `Abalo` e o `Encontrão` ficam com o preço que tinham.**
+
+### 6 · E o efeito colateral era um só, com cinco caras
+
+**Cinco lugares acenderam depois da tabela nova, e os cinco eram a mesma coisa: número defensivo fixo calibrado contra um chefe de `72` por rodada.**
+
+***Decisão do Mizuki:*** *"a cura é pra aguentar basicamente 1-2 ataques que você tomou, nunca foi feita para deixar full alguém que recebeu o dano todo da rodada — é melhor calcular em cima de 1-2 golpes."*
+
+> **E isso resolveu quatro dos cinco sem mover um preço, porque o golpe do chefe NOVO é quase exatamente a rodada do chefe VELHO** — `73` contra `72`. *A régua da `Energia Reversa`, a da Reação de cobrir-se e a da durabilidade da invocação liam a RODADA; relidas no GOLPE, elas devolvem os números que já estavam publicados.*
+>
+> | onde | lia | passou a ler | o número |
+> |---|---|---|---|
+> | `Energia Reversa`, peça 11 §6 | a rodada, `36,0` | o golpe, `36,5` | não se move |
+> | Reação de cobrir-se, peça 11 §6 | a rodada | o golpe | `1,5 × refino` fica |
+> | peça 15 §3.7, durabilidade | a rodada | a rodada | cai a um terço, e é descrição |
+> | peça 23, o líquido do `Bloquear` | `24,00` | `73,00` | `−0,159` vira `−0,649` |
+> | peça 1 §5.1, cair sob foco | `2,7` a `4,2` rodadas | `1,0` a `1,4` | é o que a versão fez |
+>
+> **⚠ O modelo antigo comparava um benefício por golpe com um custo por rodada, e isso só parecia certo porque a rodada e o golpe do chefe velho eram o mesmo número.** *A linha nova separou os dois.*
+
+### 7 · O arnês
+
+**Quinze perturbações em cópia isolada, com a base verde e `PULADA=0` antes de cada uma, e o `diff` conferido.** *Catorze acenderam onde deviam e os dois contra-testes ficaram verdes.*
+
+> **⚠ A décima quinta não acendeu no validador que eu esperava, e isso ficou registrado em vez de escondido.** *Triplicar a vida por nível do Bastião passa batido pelo `conferir-atributos.py`, porque ele tem a tabela `CAMINHO` escrita dentro dele e não lê a peça 1.* **Quem acende é o `conferir-bestiario.py`, pela checagem `5.1`**, que lê a curva da peça 1 para montar a vida do grupo. *A cópia dentro do `conferir-atributos.py` é anterior a esta versão e fica anotada.*
+
+### Alterado
+
+- **O manual para a v7.23**, com a tabela `Inimigos` inteira menos a coluna do grupo, e três parágrafos de prosa.
+- **`26-bestiario.md`** — o §4.1, o §4.3, o §4.4, o §4.5, o §4.6, o §5, o §5.1, o §6.3, o §7 e o §8.
+- **`19-dano-e-condicoes.md`** — o §2.1, o §2.2 e as checagens `3`, `12` e `13`.
+- **`11-aptidoes-e-refino.md`** — a régua do empate da `Energia Reversa`, relida no golpe.
+- **`01-atributos-acerto-defesa.md`** — as duas tabelas de rodadas sob foco.
+- **`15-invocacoes.md`** e **`23-bloquear.md`** — as colunas que se medem contra o chefe.
+- **`DESENHO-trilhas.md`**, que é o dono lido das âncoras do chefe e do capanga.
+- **`05-material/gerador-inimigo/dados.js`** e o `bloco-de-inimigo.docx`.
+- **Sete validadores** — `conferir-dano`, `conferir-bestiario`, `conferir-aptidoes`, `conferir-atributos`, `conferir-manual`, `conferir-bloquear` e `conferir-ficha`.
+
+### Decidido
+
+- **O chefe entrega `90%` da vida de um personagem por rodada, e a luta dura três rodadas.**
+- **A vida do grupo é a ficha real** — média dos cinco Caminhos com Constituição `3`.
+- **O capanga é derivado:** quatro têm a vida do chefe, e cada um bate o golpe dele.
+- **A régua de condição mede ações negadas e dominância**, e não valor contra teto.
+- **Toda régua defensiva se mede contra o GOLPE do chefe**, e não contra a rodada dele.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **A fila é a mesma da v0.200, menos a pressão do chefe:** *as aptidões novas que o Mizuki pediu, o catálogo de maldições prontas, o exemplo guiado de invocação e o `Domínio Simples` no clash.* **E entrou uma: a coluna de capanga da Classe 1, que perdeu a razão que a mantinha vazia.**
+
+---
+
 ## [0.200] — 01/09/2026 · manual na v7.22
 
 **A paleta do projeto virou uma só, e duas leituras do Mizuki no livro acharam um rótulo repetido e um buraco de conteúdo.** *A v0.199 tinha prometido esta versão para a pressão do chefe; ele redirecionou, e ela escorregou para a v0.201.*

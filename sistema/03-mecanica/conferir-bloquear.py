@@ -454,14 +454,18 @@ else:
                 f'repreco na regua das treze, e nao uma regra nova')
     else:
         print(f'  [x] das 13 condicoes, so o `Incapacitado` cita Bloquear')
-    _m = re.search(r'\|\s*\*\*`Incapacitado`\*\*\s*\|\s*`([\d,]+)`\s*\|\s*'
-                   r'`([\d,]+)`\s*\|\s*`(Leve|Média|Pesada)`', T19)
+    # v0.201: a tabela do SS2.2 trocou a coluna das fatias pela das acoes negadas,
+    # dos pontos e da razao de dominancia. O que esta checagem precisa e' o valor e
+    # o nivel, e os dois continuam nas pontas da linha.
+    _m = re.search(r'\|\s*\*\*`Incapacitado`\*\*\s*\|\s*`([\d,]+)`\s*\|'
+                   r'[^|]*\|\s*`(\d+)`\s*\|\s*`([\d,]+)×`\s*\|\s*'
+                   r'`(Leve|Média|Pesada)`', T19)
     if not _m:
         erro('5a', 'nao achei a linha do `Incapacitado` na tabela de preco do SS2.2')
     else:
         print(f'  .. e ele continua em {num(_m.group(1)):.2f} de dano por rodada, '
-              f'{num(_m.group(2)):.2f} fatias, nivel {_m.group(3)} — o preco que a '
-              f'checagem 1 sustenta')
+              f'{num(_m.group(3)):.2f}x o dano dos {_m.group(2)} pontos que ele custa, '
+              f'nivel {_m.group(4)} — o preco que a checagem 1 sustenta')
 
 
 # ==========================================================================

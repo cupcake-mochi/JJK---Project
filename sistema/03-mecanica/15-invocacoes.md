@@ -1014,9 +1014,11 @@ E uma que eu quase escrevi: um `Traço` de corpo duro, tipo *"ela aguenta mais p
 
 | nv | corpo do `Coro` (`h`) | corpo forte, `Servo` e `Matilha` | rodadas de chefe concentrando |
 |---|---|---|---|
-| 2 | 6 | 15 | `Coro` 2,0 · corpo forte 5,0 |
-| 10 | 22 | 55 | 1,7 · 4,2 |
-| 30 | 62 | 155 | 1,7 · 4,3 |
+| 2 | 6 | 15 | `Coro` 0,7 · corpo forte 1,8 |
+| 10 | 22 | 55 | 0,6 · 1,5 |
+| 30 | 62 | 155 | 0,6 · 1,4 |
+
+> **⚠ A coluna da direita caiu para um terço na v0.201, e não foi o corpo que encolheu.** *O modelo é o da peça 14 §4 — vida dividida pelo chefe concentrando —, e a tabela de inimigo do manual triplicou o dano de rodada do chefe naquela versão.* **Nenhum corpo perdeu um ponto de vida; o que mudou foi contra quem eles são medidos.** *A razão entre o corpo do `Coro` e o corpo forte não se move — ela é `2,5×` antes e depois —, e é ela que o argumento abaixo usa.*
 
 *Decisão do Mizuki, e o argumento é dele:* ***"normalmente é a única invocação da pessoa, então ela tem de ser o equivalente de todas as outras, mas não passar muito delas — e ao perder a invocação principal, acabou o kit."*** **Com o mesmo corpo forte nos dois, eles saem da luta pelo mesmo golpe**, e apagar o `Servo` custa a mesma área por alvo que o §3.5 mede para apagar a `Matilha` — `0,83` Rotina desde a v0.178, e `1,25` antes dela. *Nenhuma exceção nova: a regra de morte continuou valendo palavra por palavra, e o que mudou foi o número que ela lê.*
 

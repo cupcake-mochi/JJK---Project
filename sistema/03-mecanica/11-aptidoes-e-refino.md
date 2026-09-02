@@ -118,7 +118,9 @@ A linha passiva do marco sozinha conserta isso:
 
 > **⚠ E o que isto NÃO tem é régua, declarado.** *"Uma aptidão a mais" não converte em fatia, e foi ela que matou o `Repertório` na v0.81.* **A diferença é quem recebe:** lá a Trilha era vendida para qualquer ficha, e o número tinha de valer para quem nunca pega aptidão nenhuma. **Aqui quem leva a segunda aptidão é, por definição, quem já escolheu esse eixo cinco vezes.** *A régua continua não existindo; o que muda é que esta comparação não depende dela.*
 
-**A rota pura passa a precisar de 10 aptidões**, e o catálogo da seção 6 tem **12 que custam marco**. *Cabe, com duas de folga.* **E desde a v0.91 as doze estão escritas com número**, quando a `Barreira Simples` e a `Cortina` fecharam. **A rota pura passa a ter duas de folga, que é onde ela devia estar** — *escolher qual das doze deixar de fora é escolha, e não falta de cardápio.*
+**A rota pura passa a precisar de 10 aptidões**, e o catálogo da seção 6 tem **11 que custam marco**. *Cabe, com uma de folga.* **E desde a v0.91 elas estão escritas com número**, quando a `Barreira Simples` e a `Cortina` fecharam.
+
+> **⚠⚠ Eram DOZE pagas e duas de folga até a v0.202, e o `Kokusen` base saiu da lista naquela versão** — ele virou regra de mundo, e o §6.6 registra por quê. **Com onze pagas para dez picks a folga ficou em uma, e isso é fino demais para ser o estado final:** *quem não pega a `Cortina` leva o catálogo inteiro e ainda sobra um pick, que é a falta de cardápio que a folga existe para evitar.* **É dívida declarada, e a aptidão seguinte a paga** — o catálogo volta a doze pagas assim que uma entrada nova entrar.
 
 > **⚠ Só que a `Cortina` gasta DOIS marcos**, porque ela exige a `Barreira Simples`. *Uma rota pura que queira as duas usa `2` dos `10` picks para uma entrada só de catálogo.* **A folga de duas continua de pé, e ela some se alguém quiser as doze.**
 
@@ -321,9 +323,25 @@ Com `dano = refino` ela fica entre **8% e 12% da coluna Rotina** do nível 2 ao 
 
 > **⚠ Esta linha dizia *"é o único lugar do catálogo onde o refino toca dano"* até a v0.158, e são dois desde a v0.147.** *O outro é o dano na arma, e ele é o caso oposto deste: **ele deriva para cima**, e o que segura ele não é a curva — é a rodada em que ele mora.* **A §6.9 mede os dois contra as duas condições da §2.**
 
-### Kokusen
+### Kokusen — regra de mundo, e não entrada do catálogo
 
 > **Em crítico no corpo a corpo, role d100. `2 × refino` ou menos é kokusen: o dano leva +50% depois de todos os valores resolvidos.**
+
+***Decisão do Mizuki na v0.202: o kokusen base é de todo mundo, e não se compra.*** *Palavras dele:* **"é uma regra de mundo, qualquer um pode tirar e exige mais sorte que cálculo, já que nem o Gojo conseguiu fazer diversas vezes seguidas."** *As aptidões de kokusen são as duas de MELHORIA, e são elas que ocupam vaga de catálogo.*
+
+> **⚠⚠ E o sistema estava cobrando por ele.** *O texto desta seção sempre disse que ele "existe pelo grito na mesa, não pela planilha" e que "ninguém deve montar ficha em cima dele" — sem gate de refino e sem gate de nível, ao contrário das duas de melhoria.* **Mas a tabela do §7 o contava como entrada e o `conferir-aptidoes.py` tinha `MARCOS_DA_PILHA = 3` escrito no código, com o comentário `Kokusen + Constante + Melhorado, um marco cada`.** *Uma ficha pagava um marco por uma coisa que a peça declarava de graça, e isso atravessou desde a v0.90.*
+
+> **⚠⚠ E o livro já dizia certo, com estas palavras: *"o Kokusen em si não é uma aptidão: é uma mecânica, e todo feiticeiro que tem energia consegue usar"*.** *Ele estava correto e a peça é que cobrava — o que virou a varredura da v0.202 e destampou mais três divergências entre os dois, nenhuma com validador.*
+>
+> | | a peça dizia | o livro publicava | quem estava certo |
+> |---|---|---|---|
+> | **o gatilho** | só o corpo a corpo | corpo a corpo **ou feitiço de Toque** | **a peça** |
+> | **o relógio da proteção contra azar** | zera no descanso longo | zera **no fim da cena** | **a peça** |
+> | **o requisito das duas de melhoria** | nenhuma exige a outra | *"e ter tirado um `Kokusen`"* | **a peça** |
+>
+> **O gatilho é o pior dos três, e a conta é a mesma que fechou o escopo do crítico na v0.151.** *Um feitiço de Toque `Classe 7` com kokusen entrega `283,5` de dano — `2,62 ×` a Rotina —, contra `58,5` do corpo a corpo, que é `0,54 ×`.* **É `4,8 ×` mais, num gatilho que ninguém escolhe e que sai em `20%` dos críticos.**
+>
+> *O relógio é o segundo pior por outro motivo: o livro publicava exatamente a forma que esta seção MEDIU E RECUSOU, com a conta escrita três parágrafos abaixo.*
 
 Em cima do crítico que já dobrou os dados — um crítico entrega `2D`, um kokusen entrega `3D`.
 
@@ -413,9 +431,11 @@ E "mais fácil depois do primeiro" sem teto é a espiral da exaustão com o sina
 | a Passiva `Recomposição`, uma vez por descanso curto | `35` |
 | **`Energia Reversa` no teto — `7d8`** | **`31,5`** |
 
-**Mesma altura, e a diferença mora em outro eixo:** a Passiva é de graça e acontece uma vez; esta cobra PE e se repete. *E ela gasta a ação padrão — curar `31,5` numa rodada em que você tomaria `36,0` é empatar, e o empate é a intenção.*
+**Mesma altura, e a diferença mora em outro eixo:** a Passiva é de graça e acontece uma vez; esta cobra PE e se repete. *E ela gasta a ação padrão — curar `31,5` contra um golpe de chefe que te tira `36,5` é empatar, e o empate é a intenção.*
 
-> **⚠ Este número era `33,9` da v0.78 à v0.170, e ele não reconstruía de nada.** *Nenhum documento registrava a derivação dele, e nenhum validador o alcançava — número órfão, que é a lição nº 9 sem precisar de uma segunda cópia para divergir.* **O `36,0` é derivado:** *o golpe de chefe do nível 30 é `72` na tabela de inimigo do manual, e o acerto contra alvo que investiu em defesa é `50%`, da peça 1 §6.*
+> **⚠ Este número era `33,9` da v0.78 à v0.170, e ele não reconstruía de nada.** *Nenhum documento registrava a derivação dele, e nenhum validador o alcançava — número órfão, que é a lição nº 9 sem precisar de uma segunda cópia para divergir.* **O `36,5` é derivado:** *o golpe de chefe do nível 30 é `73` — a linha de `219` por rodada da tabela de inimigo do manual, dividida pelas `3` ações da peça 19 §2.2 —, e o acerto contra alvo que investiu em defesa é `50%`, da peça 1 §6.*
+
+> **⚠⚠ Até a v0.200 esta régua lia a RODADA do chefe, e não o golpe, e ninguém tinha como ver.** *O chefe entregava `72` por rodada em golpes de `24`, e o número que a régua usava — `36,0` — era `72 × 50%`.* **A linha nova separou os dois, e a leitura certa é a do golpe:** *a cura repõe o que um golpe tirou, e não o que a rodada inteira tirou.* ***Decisão do Mizuki na v0.201:*** *"a cura é pra aguentar basicamente 1-2 ataques que você tomou, nunca foi feita para deixar full alguém que recebeu o dano todo da rodada."* **E o número mal se moveu — `36,0` virou `36,5` —, porque o golpe do chefe de hoje é quase exatamente a rodada do chefe de ontem.**
 
 **O gate não foi escolhido por simetria com a `Extensão de Domínio`, mesmo sendo o mesmo.** No material, energia reversa é gerada no **cérebro** e não no intestino como a comum, e o que a torna rara é sustentar **dois fluxos de energia ao mesmo tempo**. É a coisa que quase ninguém alcança — e a Classe Passiva 3 com refino 7 é exatamente a altura que a seção 5 reserva para isso: **o generalista só chega no nível 26.**
 
@@ -425,21 +445,21 @@ E "mais fácil depois do primeiro" sem teto é a espiral da exaustão com o sina
 
 > **⚠ O argumento desta linha caiu na v0.158, e ela ficou de pé doze versões sem ele.** *Ela dizia que pôr refino no tamanho da cura "a faria derivar contra a vida do inimigo, **que é o que a seção 2 proíbe**".* **A v0.158 tirou dano daquela lista com todas as letras:** *dano não é rolagem disputada, e a vida do inimigo não rola.* **Pela §2 de hoje, cura é `magnitude fora de disputa`** — a mesma caixa da Redução de Dano e da proteção —, **e a §2 não proíbe.** *A decisão continua de pé; quem a sustenta é a conta abaixo, e ela nunca tinha sido escrita.*
 
-**O que segura o teto é o empate, e ele vale a faixa inteira da aptidão.** *A régua é a da tabela acima — cura contra o que uma rodada te tira: o golpe de chefe da tabela de inimigo do manual, vezes os `50%` de acerto da peça 1 §6.* **A aptidão nasce no nível 14**, que é onde o especialista alcança o refino `7`.
+**O que segura o teto é o empate, e ele vale a faixa inteira da aptidão.** *A régua é a da tabela acima — cura contra o que um GOLPE te tira: a linha de inimigo do manual dividida pelas três ações do chefe, vezes os `50%` de acerto da peça 1 §6.* **A aptidão nasce no nível 14**, que é onde o especialista alcança o refino `7`.
 
-| nível | a rodada te tira | teto `maior Classe` | cobre | teto se fosse `refino` | cobriria |
+| nível | um golpe te tira | teto `maior Classe` | cobre | teto se fosse `refino` | cobriria |
 |---|---|---|---|---|---|
-| 14 | `17,8` | `4` → `18,0` | **`101%`** | `7` → `31,5` | `177%` |
-| 18 | `22,3` | `5` → `22,5` | **`101%`** | `9` → `40,5` | `182%` |
+| 14 | `17,3` | `4` → `18,0` | **`104%`** | `7` → `31,5` | `182%` |
+| 18 | `22,1` | `5` → `22,5` | **`102%`** | `9` → `40,5` | `183%` |
 | 22 | `26,9` | `6` → `27,0` | **`100%`** | `10` → `45,0` | `167%` |
-| 26 | `31,6` | `7` → `31,5` | **`100%`** | `10` → `45,0` | `142%` |
-| 30 | `36,0` | `7` → `31,5` | **`88%`** | `10` → `45,0` | `125%` |
+| 26 | `31,7` | `7` → `31,5` | **`99%`** | `10` → `45,0` | `142%` |
+| 30 | `36,5` | `7` → `31,5` | **`86%`** | `10` → `45,0` | `123%` |
 
-**Com a `maior Classe`, a rodada de cura cancela a rodada de apanhar e para de cancelar no fim.** *Ela não é uma rodada ganha: é uma rodada comprada, e no nível 30 ela já não paga o preço cheio.*
+**Com a `maior Classe`, a rodada de cura cancela o golpe que você tomou e para de cancelar no fim.** *Ela não é uma rodada ganha: é uma rodada comprada, e no nível 30 ela já não paga o preço cheio.*
 
 **Com o refino, isso quebra no nível em que o gate abre** — e a estreia é o pior ponto, não o teto: quem acaba de comprar a aptidão cura `1,8×` o que o chefe tira dele, e ela nunca volta a empatar.
 
-**E o eixo está errado por um segundo motivo, que é a lição nº 1.** *Do nível 14 ao 30 o golpe de chefe cresce `2,02×`.* **A `maior Classe` cresce `1,75×` — quase junto, e é essa folga que faz o empate escorrer para `88%` no fim, de propósito.** *O refino cresce `1,43×` e para: ele bate no teto `10` no marco 22 e fica lá por oito níveis, enquanto o inimigo continua subindo.* **A Classe é o único dos dois que acompanha o nível**, e é a variável que o manual já usa para tudo que escala com tamanho de feitiço.
+**E o eixo está errado por um segundo motivo, que é a lição nº 1.** *Do nível 14 ao 30 o golpe de chefe cresce `2,11×`.* **A `maior Classe` cresce `1,75×` — quase junto, e é essa folga que faz o empate escorrer para `88%` no fim, de propósito.** *O refino cresce `1,43×` e para: ele bate no teto `10` no marco 22 e fica lá por oito níveis, enquanto o inimigo continua subindo.* **A Classe é o único dos dois que acompanha o nível**, e é a variável que o manual já usa para tudo que escala com tamanho de feitiço.
 
 ## 6.5. As três anti-domínio, e a `Extensão de Domínio` ao lado delas
 
@@ -713,7 +733,7 @@ As outras duas quebram nas pontas: com `2 ×` você se defende uma vez e acabou 
 
 **A Restrição Celestial pelo ramo da Maki não tem energia amaldiçoada — nenhuma, não pouca.** *Então ela não tem aptidão nem refino: tem **Bênçãos** e **Lapidação**, a mesma máquina com outra métrica.* **A regra está na peça 9 §5, onde ela devia estar desde a v0.39.**
 
-### A contagem: treze das catorze morrem, e a que sobra não tem conteúdo
+### A contagem: doze das treze morrem, e a que sobra não tem conteúdo
 
 | # | aptidão | o que ela gasta | sobrevive sem energia? |
 |---|---|---|---|
@@ -727,10 +747,10 @@ As outras duas quebram nas pontas: com `2 ×` você se defende uma vez e acabou 
 | 8 | `Barreira Simples` | barreira | **não** |
 | 9 | `Cortina` | barreira | **não** |
 | 10 | `Energia Reversa` | o nome | **não** |
-| 11–13 | `Kokusen` · `Melhorado` · `Constante` | energia aplicada no impacto | **não** |
-| 14 | `Aptidão Própria` | nada — ela é **formato**, e não conteúdo | **sim, e é a única** |
+| 11–12 | `Kokusen Melhorado` · `Kokusen Constante` | energia aplicada no impacto | **não** |
+| 13 | `Aptidão Própria` | nada — ela é **formato**, e não conteúdo | **sim, e é a única** |
 
-**Uma de catorze, e é a que não diz o que faz.** *Espelhar entrada por entrada nunca foi uma escolha pior: é impossível, e a razão é estrutural — este catálogo inteiro é construído em cima do recurso que aquela Origem não tem.* **A pergunta some, e o que fica no lugar dela é uma lista própria com tamanho derivado.**
+**Uma de treze, e é a que não diz o que faz.** *Espelhar entrada por entrada nunca foi uma escolha pior: é impossível, e a razão é estrutural — este catálogo inteiro é construído em cima do recurso que aquela Origem não tem.* **A pergunta some, e o que fica no lugar dela é uma lista própria com tamanho derivado.**
 
 *As duas conferidas na fonte, porque as duas pareciam candidatas:* **o kokusen é energia amaldiçoada aplicada no impacto dentro de um milionésimo de segundo, e a `Pétala` cobre o usuário de energia — é a energia que revida, não o corpo.** *A Maki ganha energia amaldiçoada mais tarde na obra, depois da morte da Mai; a Origem daqui modela o estado de energia zero, que é o do Toji do começo ao fim.*
 
@@ -789,7 +809,9 @@ As outras duas quebram nas pontas: com `2 ×` você se defende uma vez e acabou 
 
 **Ela não escolhe o próprio tamanho.** *O §3 desta peça fixa que a rota pura de Refino precisa de **dez** aptidões — sete marcos, com os três últimos levando duas —, e o catálogo de aptidões tem doze pagas com duas de folga, mais as duas gratuitas do refino `1`.* **A rota pura de Lapidação é a mesma rota com outro nome, e ela herda a MESMA forma: duas gratuitas na Lapidação `1`, e doze pagas com a mesma folga de duas.**
 
-> **Catorze Bênçãos: `cobrir-se` e `estímulo muscular` grátis na Lapidação `1`, doze compradas com marco.** *A forma espelha o catálogo de aptidões espaço por espaço — duas grátis, doze pagas —, mesmo o conteúdo não espelhando quase nada.* **Mais a `Bênção Própria`, que é a única entrada que espelha de verdade** — ela é formato, e formato atravessa.
+> **Catorze Bênçãos: `cobrir-se` e `estímulo muscular` grátis na Lapidação `1`, doze compradas com marco.** *A forma espelhava o catálogo de aptidões espaço por espaço, mesmo o conteúdo não espelhando quase nada.* **Mais a `Bênção Própria`, que é a única entrada que espelha de verdade** — ela é formato, e formato atravessa.
+
+> **⚠ Os dois lados deixaram de ter a mesma forma na v0.202, e por um motivo que não é defeito.** *O `Kokusen` base saiu da lista de compráveis das aptidões, e a Restrição Celestial não tem contraparte dele — kokusen é energia amaldiçoada aplicada no impacto, e essa rota não tem energia nenhuma.* **A Bênção fica com doze pagas e a aptidão com onze**, e o que continua espelhando é a derivação: *as duas listas se medem contra os mesmos dez picks da rota pura.*
 
 > **⚠⚠ Este parágrafo dizia o contrário até a v0.122, e ele era verdade quando foi escrito.** *Ele dizia: "o marco perde um dos três eixos, para as duas rotas que não escrevem Fundamento — o `Leque` compra `+1 feitiço e uma Passiva`, e as duas coisas são do Fundamento. Sobram `Corpo` e `Lapidação`, e a linha de graça perde o `+1 espaço de feitiço`, que também não tem onde cair."*
 >
@@ -1131,12 +1153,13 @@ Nada aqui foi reescrito. O que segue é o registro de projeto que sustenta os n�
 | **O que impede a Classe Passiva 3 de comer as outras** | o refino. Uma Classe Passiva 1 no refino 10 não é a mesma coisa que no refino 2 — ela cresce junto com você |
 | **O refino** | é **a métrica geral das aptidões**: requisito, tamanho e frequência. Entra no texto **como variável**, no molde do manual (*"3 × refino"*, *"refino usos por descanso"*), e **algumas aptidões declaram teto** — nem toda uma usa o valor cheio |
 | **Já vem de graça no refino 1** | cobrir-se de energia e canalizar energia. As aptidões compradas *melhoram* o que já existe |
+| **Não se compra em nível nenhum** | o `Kokusen` base, que é regra de mundo e vale para toda ficha com refino. *As duas de melhoria dele são aptidão como qualquer outra* |
 | **Kokusen Melhorado** | aptidão, refino 5 e nível 14. A escada da cascata mexe **só na chance do d100, com teto** — nunca na margem de crítico |
 | **O tamanho do catálogo** | **doze a quinze**. Dez já são obrigatórias pela obra, então são poucas inventadas |
 | **Quem nunca escolhe refino** | termina com **zero aptidões, e o texto diz isso com todas as letras** — 14 pontos de atributo contra 7, e as duas de graça crescendo com o refino passivo até 8. A rota existe e ninguém deve descobrir no nível 20 que caiu nela sem saber |
 | **Aptidão Própria** | existe, e é **uma entrada do catálogo como qualquer outra** — com uma trava: **só pode ser pega uma vez na ficha inteira**, no mesmo molde do Legado. **Classe Passiva 1 ou 2, nunca 3.** Vem com catálogo de exemplos, uma métrica para criar e aprovação do mestre. É a energia densa do Hakari e o Punho Divergente do Itadori |
 
-**As doze que a obra obriga:** cobrir-se de energia · canalizar energia · projetar energia · Barreira Simples · Cortina · Domínio Simples · Extensão de Domínio · Pétala · Cesta Oca de Vime · Energia Reversa · Kokusen · Kokusen Melhorado. As duas primeiras são as de graça do refino 1, então **dez são compráveis** antes de qualquer invenção.
+**As doze que a obra obriga:** cobrir-se de energia · canalizar energia · projetar energia · Barreira Simples · Cortina · Domínio Simples · Extensão de Domínio · Pétala · Cesta Oca de Vime · Energia Reversa · Kokusen · Kokusen Melhorado. **Três delas não se compram** — `cobrir-se` e `canalizar` vêm de graça no refino 1, e o `Kokusen` base é regra de mundo desde a v0.202 —, então **nove são compráveis** antes de qualquer invenção.
 
 **Os quatro anti-domínio ficam como quatro entradas separadas, todas aptidão, e a diferença entre elas é o requisito.** O `arquitetura.md` tinha diagnosticado que eles *"não pertencem ao mesmo degrau"* e proposto virar trilha; a decisão foi manter quatro peças e pôr a diferença no gate, que é a mesma coisa por um caminho mais barato de conferir — **uma rota só, e o validador olha um campo em vez de quatro.**
 

@@ -88,12 +88,12 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 | categoria | nv 10 | nv 20 | nv 30 |
 |---|---|---|---|
-| `Ronda` | `119` vida · `6` dano | `201` · `12` | `289` · `18` |
-| `Dupla` | `237` · `13` | `402` · `24` | `577` · `36` |
-| `Alcateia` | `475` · `26` | `805` · `49` | `1155` · `72` |
-| `Calamidade` | `712` · `39` | `1207` · `73` | `1732` · `108` |
+| `Ronda` | `97` vida · `19` dano | `165` · `37` | `236` · `55` |
+| `Dupla` | `195` · `37` | `330` · `73` | `472` · `109` |
+| `Alcateia` | `390` · `75` | `660` · `147` | `945` · `219` |
+| `Calamidade` | `585` · `112` | `990` · `220` | `1417` · `328` |
 
-> **⚠ O arredondamento é meio para BAIXO, e ele é declarado porque não é cosmético.** *Os fatores são `0,25`, `0,50` e `1,50`, então **dezenove das cinquenta e seis células** desta escala caem exatamente em `,5`.* **Três lugares calculam isto — a peça, o validador e o gerador do bloco — e cada linguagem arredonda de um jeito:** *o `Math.round` do JavaScript sobe, o `round` do Python vai para o par.* **Sem a regra escrita, os três divergem em nove células, e o mestre lê o número em voz alta na mesa.**
+> **⚠ O arredondamento é meio para BAIXO, e ele é declarado porque não é cosmético.** *Os fatores são `0,25`, `0,50` e `1,50`, então **vinte e duas das cinquenta e seis células** desta escala caem exatamente em `,5`.* **Três lugares calculam isto — a peça, o validador e o gerador do bloco — e cada linguagem arredonda de um jeito:** *o `Math.round` do JavaScript sobe, o `round` do Python vai para o par.* **Sem a regra escrita, os três divergem em nove células, e o mestre lê o número em voz alta na mesa.**
 
 ### 4.2 As ações saem da frase do manual, e não de escolha
 
@@ -107,24 +107,26 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 | sub-categoria | o chefe fica com | capangas | cobra do grupo |
 |---|---|---|---|
-| **`sozinho`** | `100%` | — | `28%` |
-| **`com um apoio`** | `75%` | `1` | `30%` |
-| **`com dois`** | `50%` | `2` | `33%` |
-| **`bando`** | `25%` | `3` | `35%` |
+| **`sozinho`** | `100%` | — | `68%` |
+| **`com um apoio`** | `75%` | `1` | `58%` |
+| **`com dois`** | `50%` | `2` | `56%` |
+| **`bando`** | `25%` | `3` | `62%` |
 
 **A fração não foi escolhida: ela sai do câmbio do §5.** *Cada capanga vale um quarto de um chefe de `Alcateia`, então tirar um quarto da vida e do dano dele e pôr um capanga no lugar preserva o tamanho do encontro.*
 
-> **⚠ E a primeira tentativa não fechou, o que vale registrar.** *Partir o orçamento pela VIDA — o chefe cede metade da vida e entram capangas até somar aquilo — inflava o encontro de `28%` para `50%`.* **O capanga é `glass cannon`: `19%` da vida do chefe e `53%` do dano dele**, então trocar vida por capanga acrescenta dano. *Só o câmbio preserva.*
+> **⚠ A coluna da direita depende de em que ordem o grupo abate, e a ordem está declarada: os capangas primeiro.** *É o que a mesa faz sozinha — cada capanga removido corta `73` de dano por `236` de vida gasta, e o chefe corta `73` por `315`.* **Abater na ordem contrária muda a coluna em até `15` pontos percentuais**, e por isso ela não vale sem a ordem escrita ao lado.
 >
-> **A subida de `28%` a `35%` é o que sobra, e é economia de ação:** mais corpos entregam mais dano antes de o primeiro cair. *Fica declarada.*
+> **⚠ E partir o encontro sai um pouco mais barato, e não mais caro.** *Do corpo único para qualquer forma repartida a conta cai de `68%` para `56%` a `62%` da vida do grupo.* **É a mesma propriedade que a v0.199 leu ao contrário:** *o dano do inimigo despenca conforme os corpos caem, e um corpo único não despenca nunca.* **Fica declarado — a sub-categoria preserva o TAMANHO, e a forma repartida cobra um pouco menos.**
+>
+> **⚠ E a primeira tentativa não fechou, o que vale registrar.** *Partir o orçamento pela VIDA — o chefe cede metade da vida e entram capangas até somar aquilo — inflava o encontro.* **O capanga é `glass cannon`: um quarto da vida do chefe e um terço do dano dele**, então trocar vida por capanga acrescenta dano. *Só o câmbio preserva.*
 
 ### 4.6 O chefe derruba alguém, e a métrica que mostra isso não é óbvia
 
-**Um chefe de `Alcateia` concentrando os três golpes derruba um personagem na rodada `3,4`.** *No nível 30 são `264` de dano na luta contra `243` do alvo mais fraco, e a razão é a mesma em todo nível.*
+**Um chefe de `Alcateia` concentrando os três golpes derruba um personagem na rodada `1,11`.** *No nível 30 ele entrega `657` de dano na luta contra `243` do alvo, e a razão é a mesma em todo nível.* **Numa luta de três rodadas ele derruba `2,70` pessoas se concentrar** — não o grupo inteiro, e mais de uma.
 
-> **⚠ A métrica errada é "quantas rodadas ele leva para derrubar o GRUPO", e ela dá `14`** — contra uma luta de `3,7`. *Lida assim, a tabela de inimigo parece fraca demais.* **Chefe nenhum derruba um grupo inteiro numa luta, em sistema nenhum** — o que se mede é se ele derruba **alguém**, e ele derruba.
+> **⚠ A métrica errada é "quantas rodadas ele leva para derrubar o GRUPO", e até a v0.200 ela dava `14`** — contra uma luta de `3,7`. *Lida assim, a tabela de inimigo parecia fraca demais, e a v0.199 respondeu que ela não estava.* **Estava.** *O que a métrica errada escondia é que ele derrubava exatamente uma pessoa por luta, no último segundo, e a v0.201 mediu isso contra dois sistemas de fora.*
 >
-> *Isto está escrito porque a medida errada foi feita na v0.199 e quase virou um repreço do manual.*
+> **`2,70` é o número dos dois:** *o d20 de 2014 derruba `2,56` a `2,70` numa luta de três rodadas, e o chefe solo do Pathfinder 2e derruba perto de `2,8`.* **É a métrica que decidiu a tabela nova, e não a que decidiu a antiga.**
 
 ### 4.4 O dano se rola em dado, e não em número seco
 
@@ -136,20 +138,22 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 | categoria, no nível 26 a 30 | por rodada | ações | o golpe |
 |---|---|---|---|
-| `Ronda` | `18` | `1` | `2d8 + 9` |
-| `Dupla` | `36` | `1` | `4d8 + 18` |
-| `Alcateia` | `72` | `3` | `3d8 + 10` |
-| `Calamidade` | `108` | `5` | `2d8 + 13` |
+| `Ronda` | `55` | `1` | `6d8 + 28` |
+| `Dupla` | `109` | `1` | `12d8 + 55` |
+| `Alcateia` | `219` | `3` | `8d8 + 37` |
+| `Calamidade` | `328` | `5` | `7d8 + 34` |
 
 > **⚠ O golpe da `Dupla` é o maior da tabela, e isso não é erro.** *Ela entrega metade do que a `Alcateia` entrega, numa ação em vez de três* — **menos ações quer dizer golpe maior, e é a mesma propriedade que faz o capanga bater acima do peso.**
+>
+> **⚠⚠ E ele custa doze dados numa rolagem só, o que é caro em tempo de mesa.** *A regra do meio em dado foi escrita quando a linha do nível 30 era `72` por rodada; com `219` ela produz punhados de `7d8` a `12d8`.* **Fica declarado como custo, e não consertado aqui:** *quem não quiser rolar doze dados usa o golpe seco — `109` na `Dupla`, `73` na `Alcateia` —, que é a mesma média sem a variação.* **É a saída que a própria regra já dá para a faixa mais baixa.**
 
 ### 4.3 ⚠ A categoria não é intercambiável consigo mesma
 
-**Quatro `Ronda` não valem uma `Alcateia`: elas cobram `0,62 ×` o que ela cobra**, e o número é idêntico nas sete faixas.
+**Quatro `Ronda` não valem uma `Alcateia`: elas cobram `0,75 ×` a `0,77 ×` o que ela cobra**, e a razão é a mesma nas sete faixas.
 
 *A causa é que eles morrem em fila e a saída deles despenca — quatro corpos de um quarto entregam tudo enquanto estão os quatro de pé, e depois entregam cada vez menos.* **Somar os fatores dá a linha inteira; jogar os quatro não dá o mesmo encontro.**
 
-> **É por isso que o capanga do manual não é um chefe dividido.** *Ele carrega `19%` da vida do chefe e `53%` do dano dele* — **bate acima do peso justamente porque morre cedo, e é essa compensação que faz o câmbio do §5 fechar.** *Um corpo proporcional não fecharia.*
+> **É por isso que o capanga do manual não é uma `Ronda`.** *A `Ronda` é um quarto do chefe nos dois eixos — um quarto da vida e um quarto do dano —, e o capanga é um quarto da vida com um TERÇO do dano.* **É essa diferença de um eixo só que faz o câmbio do §5 fechar em quatro e a `Ronda` parar em `0,76`.**
 
 ## 5. O câmbio — um corpo grande vale quatro pequenos
 
@@ -157,23 +161,36 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 > **Um chefe de `Alcateia` vale quatro capangas do mesmo nível.**
 
-**O `4` foi medido por simulação, com fogo concentrado e o excedente passando para o corpo seguinte.** *No nível 30 o chefe cobra `28%` da vida do grupo em quatro rodadas; quatro capangas cobram `33%` em três.*
+**Desde a v0.201 o capanga não é medido: ele é derivado, e as duas linhas dele saem do chefe.**
 
-**E ele reconstrói por um segundo caminho, que é o método do `Guia do Mestre` de 2014:** *lá o valor de um monstro é a média de um eixo defensivo, dos pontos de vida, com um ofensivo, do dano por rodada.* **Os dois eixos do capanga são `1/5,25` e `1/1,89` da linha do chefe, e a média deles é `1/3,15`** — o mesmo número que a simulação achou, por um caminho que não conversa com ela.
+> **Quatro capangas juntos têm a vida do chefe, e cada um bate o golpe dele.**
+> **Vida do capanga = a vida do chefe dividida por quatro. Dano do capanga = o dano do chefe dividido por três**, que é o golpe de uma ação dele.
 
-> **⚠ E o câmbio tem um trade-off declarado: o enxame é mais rápido e um pouco mais duro.** *Quatro corpos entregam tudo na primeira rodada e vão morrendo, então eles cobram mais cedo e a luta acaba antes.* **É o mesmo fenômeno que o multiplicador de encontro do 5e de 2014 existia para representar — e que a edição de 2024 apagou por imprecisão.**
+**Com isso o câmbio deixa de sair de simulação e passa a fechar na aritmética: os dois lados entregam NOVE GOLPES.** *O chefe age três vezes por rodada e a luta dura três rodadas — `3 × 3`. Os quatro capangas têm a vida dele, então caem no mesmo ritmo em que ele cairia: quatro golpes na primeira rodada, três na segunda, dois na terceira — `4 + 3 + 2`.*
+
+**No nível 30 os dois cobram `657` de dano em `3` rodadas, e `657` é `68%` da vida do grupo.** *Não é aproximação: é o mesmo número, nas seis faixas que têm capanga.*
+
+> **A simulação continua rodando no validador, e é ela que prova a igualdade.** *Ela não escolhe mais o `4` — ela confere que o `4` derivado é o que ela devolve.*
+
+> **⚠ E o trade-off que sobra não é de tamanho: é de FORMA.** *Os quatro corpos entregam quatro golpes na primeira rodada e dois na última; o chefe entrega três em todas.* **O enxame morde mais cedo e afrouxa no fim, e o corpo único não afrouxa nunca** — é o mesmo fenômeno que o multiplicador de encontro do 5e de 2014 existia para representar, e que a edição de 2024 apagou por imprecisão.
 >
+> *Até a v0.200 este parágrafo dizia que o enxame era "um pouco mais duro". Com o capanga derivado os dois cobram o mesmo `657`, e o que os separa passou a ser só a distribuição.*
+
 ### 5.1 A faixa mais baixa não tem capanga, e isso é o piso
 
 ***Decisão do Mizuki na v0.199:*** **a linha da Classe 1 — o nível 2 ao 4 — sai com a coluna de capanga vazia.**
 
-*Com o corpo que a proporção daria, `17` de vida, dois deles cairiam na primeira rodada de um grupo que causa `38` — e aí ele é uma rolagem a mais e não um corpo.* **Do nível 2 ao 4 o encontro é um inimigo só.**
+**Do nível 2 ao 4 o encontro é um inimigo só.**
+
+> **⚠⚠ E a razão aritmética que sustentava esta decisão PAROU DE REPRODUZIR na v0.201.** *Ela era: "com o corpo que a proporção daria, `17` de vida, dois deles cairiam na primeira rodada de um grupo que causa `38`".* **Com a tabela nova o corpo tem `29` de vida, e quatro deles duram `3,05` rodadas — a mesma durabilidade das outras seis faixas.** *O capanga do fundo virou um corpo viável, e a conta não pede mais que a coluna fique vazia.*
+>
+> **A decisão fica de pé, e ela agora se apoia só no levantamento de fora.** *Reabrir a coluna da Classe 1 é escolha do Mizuki, e está no §8.*
 
 > **O levantamento externo diz a mesma coisa por quatro caminhos.** *O `minion` do 4e resolve o fundo da escala tirando a vida do corpo — `1` ponto e dano fixo —, o `mook` do 13th Age junta a vida de todos num poço só, o `Guia do Mestre` de 2014 alarga as faixas do fundo (o `ND 1/8` vai de `7` a `35` de vida), e o Pathfinder 2e põe piso em `PL−4` e não usa criatura abaixo dele.* **Nenhum dos quatro trata o corpo pequeno como corpo grande encolhido.**
 >
-> **⚠ E a `Ronda` não substitui**, pelo §4.3: quatro delas cobram `0,62 ×` o que a `Alcateia` cobra.
+> **⚠ E a `Ronda` não substitui**, pelo §4.3: quatro delas cobram `0,75 ×` a `0,77 ×` o que a `Alcateia` cobra.
 
-> **⚠⚠ E a conta que parece óbvia mata o grupo.** *Multiplicar vida por dano e dividir dá `10` capangas por chefe.* **Dez capangas no nível 30 cobram `158%` da vida do grupo** — é a mesa inteira no chão. *Por isso o câmbio está escrito aqui em vez de deixado para quem quiser derivar.*
+> **⚠⚠ E a conta que parece óbvia mata o grupo.** *Multiplicar vida por dano e dividir dá `12` capangas por chefe.* **Doze capangas no nível 30 cobram `473%` da vida do grupo, em `9` rodadas** — quase cinco vezes o que a categoria promete. *Por isso o câmbio está escrito aqui em vez de deixado para quem quiser derivar.*
 
 ## 6. O que ele carrega além dos números
 
@@ -217,7 +234,7 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 | `Especiais` | `10%` | `1,05×` | `1,11×` | `0,91×` |
 | um tipo só | `20%` | `1,11×` | `1,25×` | `0,83×` |
 
-**Um chefe de `Alcateia` imune a `Físicos` vira uma luta de `9,17` rodadas que cobra `64%` da vida do grupo**, contra as `3,67` rodadas e `26%` que a categoria promete. *A ficha diz uma coisa e a mesa joga outra.*
+**Um chefe de `Alcateia` imune a `Físicos` vira uma luta de `7,50` rodadas que cobra `169%` da vida do grupo**, contra as `3,00` rodadas e `68%` que a categoria promete. *A ficha diz uma coisa e a mesa joga outra, e com a linha da v0.201 a diferença deixou de ser uma luta mais longa e passou a ser uma luta que o grupo não termina de pé.*
 
 **A escada de categoria já é a moeda disso.** *Subir da `Alcateia` para a `Calamidade` vale `1,50×`, e resistir a `Físicos` vale `1,43×`.*
 
@@ -237,7 +254,8 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 | **2** | **as três derivadas reconstroem.** A Defesa, o acerto e a CD saem das fórmulas da peça 1 §5, com a proteção andando junto do refino — e o resultado tem de bater com os `50%` a `55%` de acerto e os `35%` de falha que a peça 1 §6 publica |
 | **3** | **a categoria é cópia com dono.** Vida e dano de cada uma reconstroem da linha do manual vezes o fator, e o fator reconstrói do número de personagens |
 | **4** | **as ações saem da frase do manual**, e a `Alcateia` bate com o piso que a peça 19 §2.2 publica. *Se aquele piso mudar, esta acende* |
-| **5** | **o câmbio é medido, não guardado.** A simulação de fogo concentrado é rodada aqui dentro, e o `4` publicado tem de ser o que ela devolve |
+| **5** | **o câmbio é medido, não guardado.** A simulação de fogo concentrado é rodada aqui dentro, e o `4` publicado tem de ser o que ela devolve. *Desde a v0.201 ela confere mais duas coisas: que o capanga do manual É a vida do chefe dividida por quatro e o dano dele dividido por três, e que os dois lados cobram o mesmo dano na mesma quantidade de rodadas* |
+| **5.1** | **a coluna da sub-categoria reconta.** As quatro formas do §4.5 são simuladas com os capangas abatidos primeiro, e as porcentagens publicadas têm de ser o que a simulação devolve. *Ela nasceu na v0.201 porque aquela coluna nunca teve validador e tinha divergido: o publicado subia de `28%` a `35%` e a simulação não reproduzia nem a ordem* |
 | **6** | **o grau não vira número.** Nenhuma linha desta peça pode pendurar valor no grau, e o `ESTADO-ATUAL` e a peça 12 continuam dizendo que inimigo não tem grau mecânico |
 | **7** | **nenhum valor de regra guardado aqui dentro.** Todo número vem do dono, e a checagem falha se algum sobrar como constante |
 | **8** | **resistência é vida escondida.** Os pesos dos três grupos saem da peça 19 §4, os multiplicadores do §6.3 são recalculados de `1 ÷ (1 − o que se poupa)`, e a peça tem de declarar em que moeda a resistência se paga. *Sem essa declaração ela é vida de graça, e a categoria passa a mentir sobre o encontro*
@@ -275,13 +293,15 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 ## 8. Em aberto
 
-- **⚠⚠ A pressão do chefe é `3,3 ×` menor que a do d20, e isso é a v0.201.** *Medido contra a tabela `Estatísticas de Monstro por Nível de Desafio` do `Guia do Mestre` de 2014:* **lá o chefe come `24%` da vida do grupo por rodada e zera o grupo em `4,1` rodadas, que é a duração da luta; aqui ele come `7%` e levaria `14`.** *A razão é constante em todos os níveis, então não é ruído.*
+- ~~**⚠⚠ A pressão do chefe é `3,3 ×` menor que a do d20.**~~ ***FECHADA na v0.201***, com a tabela `Inimigos` refeita e o manual na `v7.23`. **O chefe entrega `90%` da vida de um personagem por rodada e tem `3 ×` o dano de rodada do grupo em vida** — `22,5%` do grupo por rodada, luta de `3` rodadas, e ele derruba `2,70` pessoas se concentrar.
 
-  > **Achado pelo Mizuki, perguntando se o dano não estava baixo.** *Duas medidas minhas disseram que não, e as duas mediam a coisa errada — "quantas rodadas para derrubar o grupo" e "ele derruba alguém se concentrar".* **A segunda continua verdade e não responde a pergunta: na mesa ele não ameaça.**
+  > **A metade que faltava foi achada onde o livro não diz, mas mostra.** *O `Guia do Mestre` manda tirar a média do dano de um monstro "para as três primeiras rodadas de combate", e essa é a única duração que ele declara.* **Daí sai a saída do grupo: a vida do chefe dividida por três.** *Conferida por um segundo caminho que não conversa com ela — um Guerreiro e um Ladino do Livro do Jogador de 2024, sem magia nenhuma, já entregam metade disso em todo nível.*
   >
-  > **⚠ E metade da comparação não dá para fazer daqui:** *quanto o GRUPO entrega por rodada, o d20 não publica em livro nenhum.* **Sem esse número a diferença simétrica fica sem medida**, e o primeiro trabalho da versão é achá-la.
+  > **⚠ E o `3,3 ×` estava alto.** *Ele saiu de ler o TOPO da faixa de dano do d20 contra o valor único daqui.* **Meio contra meio a diferença era `2,6 ×` a `3,0 ×`**, e a tabela nova é `3,04 ×` no nível 30.
   >
-  > **O conserto é caro e por isso ele é versão própria:** *o `72` é a base da régua de condição inteira, e levar o chefe a `114` já tira **oito das treze** do nível publicado.*
+  > **A régua de condição não foi repreçada, e isso é decisão do Mizuki:** *"tem que considerar que o boss também vai poder aplicar condições, troca como a régua mede."* **A peça 19 §2.2 passou a perguntar outra coisa, e as treze passam sem mexer em preço nenhum.**
+
+- **A coluna de capanga da Classe 1, que a v0.199 deixou vazia por uma razão que morreu.** *O §5.1 registra: com a tabela nova o corpo do fundo tem `29` de vida e quatro deles duram `3,05` rodadas, igual às outras seis faixas.* **Encher a coluna é escolha do Mizuki**, e ela custa uma linha na tabela do manual mais o texto do §5.1.
 
 - **As maldições prontas.** *A decisão da v0.161 é máquina mais prontas, e esta versão entrega a máquina.* **Quantas, de que categorias e com que técnicas é escolha do Mizuki**, e o catálogo é a versão seguinte.
 - **A Expansão de Domínio de inimigo.** *A obra dá domínio a maldição de grau alto, e o manual tem a máquina inteira.* **O que falta é o preço dela contra a cota de dano do §6.1** — ela não causa dano, então ela troca cota por Acerto garantido, e ninguém mediu quanto.

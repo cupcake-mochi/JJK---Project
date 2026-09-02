@@ -1,8 +1,26 @@
 # Estado atual do projeto
 
-Atualizado em 01/09/2026, na v0.200 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e oito checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 02/09/2026, na v0.202 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e oito checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.200.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
+**Versão v0.202.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
+
+**A v0.201 triplicou a pressão do chefe, e ela foi medida contra dois sistemas de fora antes de qualquer coisa.** *O chefe do nível 30 saiu de `72` para `219` de dano por rodada e de `1155` para `945` de vida; o manual foi para a `v7.23`.*
+
+> **A régua é a mesma nos três sistemas: quanto o chefe come do grupo por rodada, quanto come de UMA pessoa, e quantas ele derruba numa luta.** *O `Guia do Mestre` de 2014 dá `21,3%` a `22,5%` · `85%` a `90%` · `2,56` a `2,70`; o chefe solo do Pathfinder 2e dá `22,9%` · `92%` · `~2,8`.* **Aqui dava `7,4%` · `30%` · `1,09`, e hoje dá `22,5%` · `90%` · `2,70`.**
+>
+> **A metade que faltava estava onde o livro não diz, mas mostra:** *o `Guia do Mestre` manda tirar a média do dano "para as três primeiras rodadas de combate", e essa é a única duração que ele declara.* **Conferida por um segundo caminho — um Guerreiro e um Ladino do `Livro do Jogador` de 2024, sem magia, já entregam metade daquilo.**
+>
+> ***⚠ E o `3,3 ×` da v0.199 estava alto:*** *ele lia o topo da faixa do d20 contra o valor único daqui.* **Meio contra meio era `2,64 ×` a `2,99 ×`.**
+>
+> **Duas regras novas, as duas com fonte de fora:** *o chefe entrega `90%` da vida de um personagem por rodada, e a vida dele é `3 ×` o dano de rodada do grupo — o que põe a luta em três rodadas.* **E o capanga virou derivação: quatro têm a vida do chefe e cada um bate o golpe dele**, com o câmbio fechando na aritmética — os dois lados entregam nove golpes.
+>
+> ***Decisão do Mizuki: não repreçar a régua de condição, e trocar o que ela mede.*** *"Tem que considerar que o boss também vai poder aplicar condições."* **O nível de uma condição passou a sair das AÇÕES que ela nega — meia é `Leve`, uma é `Média`, uma e meia é `Pesada` —, e o teste virou o filtro de dominância de `3,00×`.** *As treze mantêm os treze níveis publicados, a pior fica em `2,67×`, e nenhum preço se moveu.*
+>
+> **⚠⚠ E a régua nova destampou o que a velha escondia:** *com o chefe de `72`, as treze ficavam entre `0,00×` e `1,18×` —* **comprar condição era o pior negócio da mesa.**
+>
+> ***Decisão do Mizuki sobre a cura:*** *"é pra aguentar 1-2 ataques, nunca foi feita para deixar full alguém que recebeu o dano todo da rodada."* **Toda régua defensiva passou a se medir contra o GOLPE do chefe e não contra a rodada**, e isso conserta quatro dos cinco efeitos colaterais sem mover um preço — *porque o golpe do chefe novo é quase exatamente a rodada do chefe velho, `73` contra `72`.*
+>
+> **A vida do grupo ganhou dono, e ela não tinha:** *a ficha real, média dos cinco Caminhos com Constituição `3`.* **A peça 26 usava dois modelos em seções vizinhas.**
 
 **A v0.200 pôs um dado no clash de domínios, e o manual foi para a v7.22.** *Refino igual e Acerto do mesmo tipo passam a rolar `1d12` cada: separou por `4` ou mais, o maior conquista; não separou, cai na corrida como antes.*
 
@@ -30,7 +48,7 @@ Atualizado em 01/09/2026, na v0.200 (última peça fechada: **Bestiário**, a pe
 >
 > **E a sub-categoria é ideia do Mizuki:** *a categoria diz o tamanho e ela diz a forma —* `sozinho` `100%` · `com um apoio` `75%` · `com dois` `50%` · `bando` `25%`, **com a fração saindo do câmbio e não de escolha.**
 >
-> **⚠⚠ E fica aberta a maior:** *a pressão do chefe é `3,3 ×` menor que a do d20 — lá ele come `24%` da vida do grupo por rodada e zera ela em `4,1` rodadas; aqui come `7%` e levaria `14`.* **É a v0.201** — a v0.200 tinha sido prometida para ela e foi para a paleta e o livro —, e ela mexe no `72`, que é a base da régua de condição inteira.
+> ~~**⚠⚠ E fica aberta a maior:** *a pressão do chefe é `3,3 ×` menor que a do d20.*~~ ***FECHADA na v0.201***, e a diferença medida meio a meio era `2,64 ×` a `2,99 ×`. **A régua de condição não foi repreçada: ela trocou de pergunta.**
 
 **O `Bestiário` fechou na v0.198, e é a peça 26.** *Ele era o único item da fila da mecânica desde a v0.168, e estava no fim dela desde a v0.36 com uma linha só.* **A lista dos "nove números" que a v0.159 levantou estava incompleta:** *faltavam três que a mesa rola toda rodada — a Defesa do inimigo, o acerto dele e a CD dele —, e nenhum tinha dono em documento nenhum.*
 
@@ -866,7 +884,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 
 **Duas peças foram parcialmente substituídas e trazem o aviso no topo:** as seções 3 e 4 da peça 4 saíram para a peça 7, e a seção 3 e o quadro de Caminhos da peça 5 saíram para a peça 6.
 
-O manual do Fundamento **v7.22** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 366 parágrafos e 90 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na mesma versão do `.docx`, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 50 páginas.
+O manual do Fundamento **v7.23** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 366 parágrafos e 90 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na mesma versão do `.docx`, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 50 páginas.
 
 **Quem é dono da versão do manual:** a primeira linha de `manual/gerador/COMO-USAR.txt`. Toda outra cópia — a capa em `partA.js`, este arquivo, o `README.md`, o `LEIA-ME.md` e o `arquitetura.md` — é cópia, e o `conferir-repositorio.py` falha se alguma divergir. *Ele nasceu na v0.33, depois de a capa do manual passar três versões dizendo 7.5.*
 

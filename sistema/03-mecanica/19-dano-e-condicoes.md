@@ -44,12 +44,22 @@
 
 > **Nas Classes pares a razão é exata: `Média` é `2/7` da Rotina e `Pesada` é `3/7`.** *Nas ímpares o arredondamento do manual oscila, e nunca mais que `1,4` ponto percentual — fora a Classe 1, que é pequena demais para arredondar bem.*
 
-**Isso dá as três bandas, e elas são o teto de cada tier:**
+**Isso dá o preço de cada tier, em dano:**
 
 > **`Leve` = `1/7` da Rotina · `Média` = `2/7` · `Pesada` = `3/7`.**
 > **No nível 30, com a Rotina em `108`: `15,43` · `30,86` · `46,29` de dano por rodada.**
 
-**O teto não é o preço.** Ele diz quanto o manual está disposto a cobrar por um tier; o que cada condição entrega é outra conta, e é a de baixo.
+**Esses três números são o PREÇO, e não o teto.** *Eles dizem o que você deixa de causar por ter gasto aqueles pontos numa condição em vez de num dado.*
+
+> ***⚠⚠ Até a v0.200 eles eram também o teste, e isso quebrou na v0.201.*** *A régua comparava o valor da condição com o preço dela e reprovava quem passasse.* **Mas o valor de uma condição é uma fatia da rodada do INIMIGO e o preço é uma fatia da sua** — os dois só empatam enquanto o inimigo e você entregarem a mesma coisa por rodada. *Com o chefe da tabela nova entregando `219` contra uma Rotina de `108`, oito das treze passavam do próprio preço e a `Média` esvaziava.*
+>
+> ***Decisão do Mizuki: não repreçar, e trocar o que a régua mede.*** *"Tem que considerar que o boss também vai poder aplicar condições."* **A régua passou a ter duas perguntas separadas, e nenhuma delas é "cabe embaixo do preço":**
+>
+> **1. O NÍVEL da condição é quantas ações da rodada do alvo ela nega** — *meia ação é `Leve`, uma é `Média`, uma e meia é `Pesada`*. **Isso não depende de contra quem ela cai, e é por isso que a mesma tabela serve quando o chefe usa condição num personagem.**
+>
+> **2. O TESTE é de dominância** — *quanto ela nega, dividido pelo dano que aqueles mesmos pontos de feitiço dariam*, contra o filtro de `3,00×` que o projeto usa em todo catálogo.
+>
+> **As duas reproduzem os treze níveis publicados sem mover um preço**, e o §2.2 traz as duas colunas.
 
 ### 2.2 O que cada condição entrega, medido
 
@@ -59,7 +69,7 @@
 |---|---|---|
 | a fatia | `5,08` de dano por rodada | `DESENHO-trilhas.md`, a linha de orçamento de Trilha |
 | a Rotina no nível 30 | `108` | manual, a tabela de Rotina |
-| chefe e capanga no nível 30 | `72` e `38` por rodada | manual, a tabela de inimigo |
+| chefe e capanga no nível 30 | `219` e `73` por rodada | manual, a tabela de inimigo |
 | ações do chefe por rodada | o piso da banda, derivado logo abaixo | **esta peça** — o manual diz o contrário |
 | vantagem e desvantagem | `25` pontos percentuais | peça 11 §8 |
 | `1` ponto percentual na rolagem de um aliado | `0,230` | `DESENHO-caminhos.md`, a régua do Guia |
@@ -80,40 +90,50 @@
 
 | ações do chefe | `Lento`, `Leve` | `Calado`, `Média` | `Enfeitiçado`, `Média` | `Atordoado`, `Pesada` |
 |---|---|---|---|---|
-| `1` | `251%` | `233%` | `233%` | `233%` |
-| `2` | `134%` | `117%` | `117%` | `117%` |
-| **`3`** | **`95%`** | **`78%`** | **`78%`** | **`78%`** |
+| `1` | `6,23×` | `6,95×` | `6,95×` | `6,64×` |
+| `2` | `3,19×` | `3,48×` | `3,48×` | `3,32×` |
+| **`3`** | **`2,18×`** | **`2,32×`** | **`2,32×`** | **`2,21×`** |
 
-**Com `2` as quatro passam do teto do próprio tier, e passar do teto é o que tirou o `Petrificado` do sistema.** *Com `3` as quatro cabem, e o `Lento` cabe raspando.* **E ele é piso, não folga escolhida:** se alguém escrever `4`, as quatro continuam cabendo e o número deixa de sair da conta — *a checagem `12` cobra as duas direções, que `3` baste e que `2` não baste.*
+**Com `2` as quatro passam do filtro de dominância de `3,00×`.** *Com `3` as quatro cabem, e o `Lento` cabe raspando.* **E ele é piso, não folga escolhida:** se alguém escrever `4`, as quatro continuam cabendo e o número deixa de sair da conta — *a checagem `12` cobra as duas direções, que `3` baste e que `2` não baste.*
+
+> *Esta tabela media `%` do teto até a v0.200 e passou a medir dominância na v0.201, junto com a régua. O piso de `3` não se moveu — o que mudou foi a coluna que o prova.*
 
 **E duas convenções, as duas lidas de entrega publicada:**
 
 > **Benefício que só o corpo a corpo colhe conta UM aliado.** *É a leitura do `Abalo`, a Manha da Massa.*
 > **Benefício que qualquer atacante colhe conta TRÊS.** *É a leitura do `Estampido`, a Manha da Arma de Fogo, que supõe mesa de quatro.*
 
-> **⚠ A régua mede a rodada em que a condição está ativa, e a condição dura UMA.** *A Melhoria `Condição` do manual escreve isso na própria célula — "Dura uma rodada" —, e nenhuma das Melhorias que mexem em tempo estende ela.* **Então um `Impedido` vale `58,65` na rodada dele e `16,0` espalhado numa luta de `3,67` rodadas**, que é `22%` do que um chefe faz.
+> **⚠ A régua mede a rodada em que a condição está ativa, e a condição dura UMA.** *A Melhoria `Condição` do manual escreve isso na própria célula — "Dura uma rodada" —, e nenhuma das Melhorias que mexem em tempo estende ela.* **Então um `Impedido` vale `132,15` na rodada dele e `44,05` espalhado numa luta de `3` rodadas**, que é `20%` do que um chefe faz.
 >
 > *Isto entrou na v0.199, e entrou porque a falta dele produziu um erro:* **a régua foi lida como se a condição durasse a luta**, e daí saiu um diagnóstico de que o chefe precisava de proteção contra condição no molde da `Resistência Lendária` do 5e. **Ele não precisa** — *o sistema já resolve pelo relógio, e a duração morava só na célula do manual.*
 
 **As treze, aplicadas num chefe, no nível 30:**
 
-| condição | dano por rodada | fatias | nível |
-|---|---|---|---|
-| **`Impedido`** | `58,65` | `11,55` | `Pesada` |
-| **`Cego`** | `53,25` | `10,48` | `Pesada` |
-| **`Amedrontado`** | `41,40` | `8,15` | `Pesada` |
-| **`Envenenado`** | `36,00` | `7,09` | `Pesada` |
-| **`Atordoado`** | `36,00` | `7,09` | `Pesada` |
-| **`Calado`** | `24,00` | `4,72` | `Média` |
-| **`Enfeitiçado`** | `24,00` | `4,72` | `Média` |
-| **`Lento`** | `14,70` | `2,89` | `Leve` |
-| **`Derrubado`** | `8,45` | `1,66` | `Leve` |
-| **`Agarrado`** | `5,40` | `1,06` | `Leve` |
-| **`Incapacitado`** | `4,95` | `0,97` | `Leve` |
-| **`Desarmado`** | `3,45` | `0,68` | `Leve` |
-| **`Surdo`** | `0,00` | `0,00` | `Leve` |
+| condição | nega por rodada | ações negadas | pontos | contra o dano deles | nível |
+|---|---|---|---|---|---|
+| **`Impedido`** | `132,15` | `1,5` + deslocamento + aliados | `11` | `2,67×` | `Pesada` |
+| **`Cego`** | `126,75` | `1,5` + aliados | `11` | `2,56×` | `Pesada` |
+| **`Amedrontado`** | `114,90` | `1,5` + deslocamento | `11` | `2,32×` | `Pesada` |
+| **`Envenenado`** | `109,50` | `1,5` | `11` | `2,21×` | `Pesada` |
+| **`Atordoado`** | `109,50` | `1,5` | `11` | `2,21×` | `Pesada` |
+| **`Calado`** | `73,00` | `1` | `7` | `2,32×` | `Média` |
+| **`Enfeitiçado`** | `73,00` | `1` | `7` | `2,32×` | `Média` |
+| **`Lento`** | `39,20` | `0,5` + deslocamento | `4` | `2,18×` | `Leve` |
+| **`Derrubado`** | `8,45` | `0` | `4` | `0,47×` | `Leve` |
+| **`Agarrado`** | `5,40` | `0` | `4` | `0,30×` | `Leve` |
+| **`Incapacitado`** | `4,95` | `0` | `4` | `0,28×` | `Leve` |
+| **`Desarmado`** | `3,45` | `0` | `4` | `0,19×` | `Leve` |
+| **`Surdo`** | `0,00` | `0` | `4` | `0,00×` | `Leve` |
 
-**Seis `Leve`, duas `Média`, cinco `Pesada`.**
+**Seis `Leve`, duas `Média`, cinco `Pesada` — os mesmos treze níveis de antes da v0.201, e nenhum preço se moveu.**
+
+> **A coluna das ações é quem decide o nível, e ela não olha o alvo.** *Desvantagem nega metade da rodada, e metade de três ações é uma e meia — é por isso que o `Envenenado` cai no mesmo degrau do `Atordoado` sem tirar ação nenhuma.*
+>
+> **A coluna da direita é o teste, e a pior das treze fica em `2,67×` contra o filtro de `3,00×`.**
+>
+> ***⚠⚠ E ela destampou o que a régua velha escondia:*** *com o chefe de `72` da v0.200, as treze ficavam entre `0,00×` e `1,18×` —* **comprar condição era o pior negócio da mesa, e o teto não tinha como mostrar isso porque ele media contra um chefe mais fraco que um personagem.** *Hoje as oito que negam ação valem mais que o dano que substituem, e nenhuma domina.*
+>
+> **⚠ Nenhuma das oito que se moveram é usada por entrega de Trilha nenhuma.** *A única condição do catálogo de entregas é o `Derrubado`, que é feito de vantagem e de metros — os dois absolutos —, e por isso ele não se move com o chefe.* **O `Abalo` e o `Encontrão` continuam com o preço que tinham.**
 
 > **O `Petrificado` saiu na v0.139, e é decisão do Mizuki:** *"ela segue um balanceamento que não planejo ter no sistema"*. **Ele era a mais cara da régua, em `19,73` fatias** — `217%` do teto da `Pesada` —, e o argumento que ele carregava passou para o `Impedido`. *A remoção foi do sistema inteiro: esta peça, o `conferir-dano.py`, o gerador do manual e os cinco lugares do livro.*
 
@@ -162,7 +182,9 @@
 > | o mesmo, com arma `d12` | `18,45` | **`120%`** |
 > | \+ um `Classe 0` junto do ataque (a `Fornalha`) | `29,25` | `190%` — vira `Média` |
 >
-> **Sem a trava de escopo, uma condição `Leve` estoura a própria banda com o soco, e um degrau de Trilha a joga para `Média` sozinho.** *A peça 1 §5.2 passou a dizer "dobra só os dados do que rolou o acerto", e a lista de exclusão virou exemplo em vez de ser a regra.* ***Palavras do Mizuki:*** *"dobrar dado de dano é mt coisa".*
+> **Sem a trava de escopo, uma condição `Leve` passa a entregar por ponto mais que uma `Média` e mais que uma `Pesada`.** *Com o feitiço de Toque `Classe 7` dentro do escopo, o `Incapacitado` vai a `2,70×` contra os `2,32×` do `Calado` e os `2,21×` do `Envenenado` — o degrau mais barato da escada entregando mais que os dois de cima.*
+>
+> *⚠ Esta tabela foi medida contra o TETO até a v0.200, quando o teto ainda era o teste, e as colunas de `%` ficam como estão: elas dizem quanto a condição devolve do que aqueles pontos custaram. **O que mudou é qual linha derruba a trava** — antes eram as duas do meio, hoje é só a última.* *A peça 1 §5.2 passou a dizer "dobra só os dados do que rolou o acerto", e a lista de exclusão virou exemplo em vez de ser a regra.* ***Palavras do Mizuki:*** *"dobrar dado de dano é mt coisa".*
 >
 > **⚠⚠ As duas linhas do meio eram `14,40` e `15,30` — `93%` e `99%` — até a v0.158, com `3d6`.** *O refino `10` passou a dar `4d6` naquela versão (peça 11 §6.9), e com isso **a trava de escopo deixou de ser folga**: antes o `Incapacitado` só estourava a `Leve` com arma de duas mãos, agora o soco basta.* **A última linha não se move**, porque a trava `Só arma` do dano na arma já proíbe ele de somar por cima de um `Classe 0` que viajou junto do ataque — os dois nunca aparecem na mesma rolagem.
 >
@@ -182,9 +204,9 @@
 
 **O `Impedido` engole o `Cego`.** *Ele tem as duas linhas do `Cego` — desvantagem nos ataques do alvo e vantagem para quem o ataca — mais deslocamento zero.* **Até a v0.103 os dois custavam `Média` no manual, e o `Impedido` era a melhor compra da tabela de Controle inteira.** *Hoje os dois custam `Pesada`, e a diferença entre eles caiu para `1,10×` — dominância que o filtro aceita.*
 
-**Duas passam do teto da `Pesada`, e o manual já diz o que fazer com isso.** *O `Cego` fica em `115%` e o `Impedido` em `127%`.* **A regra que o manual dá para a Restrição escrita à mão, virada do avesso, resolve:** *"se a dor que você escreveu parece valer mais que uma Média, ela provavelmente são duas Restrições disfarçadas de uma — separe."* **Uma condição que passa do teto da `Pesada` é mais de uma condição escrita como uma**, e o `Impedido` diz isso no próprio texto: ele é o `Cego` inteiro mais deslocamento zero, que é o que o parágrafo acima já mede em `1,10×`.
+**Duas entregam mais que as outras três `Pesada`, e o manual já diz o que fazer com isso.** *O `Cego` fica em `2,56×` e o `Impedido` em `2,67×`, contra `2,21×` das três que negam uma ação e meia e nada mais.* **A regra que o manual dá para a Restrição escrita à mão, virada do avesso, resolve:** *"se a dor que você escreveu parece valer mais que uma Média, ela provavelmente são duas Restrições disfarçadas de uma — separe."* **Uma condição que passa do teto da `Pesada` é mais de uma condição escrita como uma**, e o `Impedido` diz isso no próprio texto: ele é o `Cego` inteiro mais deslocamento zero, que é o que o parágrafo acima já mede em `1,10×`.
 
-> **Eram três até a v0.139, e a terceira era o `Petrificado`, em `217%`.** *Ele era o exemplar mais claro deste argumento — `Incapacitado`, mais deslocamento zero, mais não perceber nada, mais vantagem para quem ataca, tudo vendido como uma condição só.* **Com ele fora, quem carrega o argumento é o `Impedido`, que prova a mesma coisa com metade da força.**
+> **Eram três até a v0.139, e a terceira era o `Petrificado`, que na régua daquela versão ficava em `217%` do teto da `Pesada`.** *Ele era o exemplar mais claro deste argumento — `Incapacitado`, mais deslocamento zero, mais não perceber nada, mais vantagem para quem ataca, tudo vendido como uma condição só.* **Com ele fora, quem carrega o argumento é o `Impedido`, que prova a mesma coisa com metade da força.**
 
 ### 2.5 O que a régua reconstrói, e o que ela conserta
 
@@ -497,7 +519,7 @@
 |---|---|
 | **1** | **as âncoras existem nos donos.** Cada número que a régua usa aparece no documento que esta peça declara como dono dele. Âncora que sumiu do dono é régua sem chão |
 | **2** | **a régua reconstrói as treze.** Cada valor da tabela do §2.2 é recalculado a partir das âncoras e comparado com o publicado. *E, desde a v0.104, ela também reconstrói a razão entre as duas réguas de rolagem — e cobra que ela seja exatamente o dobro da razão das bases* |
-| **3** | **o nível de cada condição sai da banda.** O `Leve`/`Média`/`Pesada` publicado bate com `1/7`, `2/7` e `3/7` da Rotina, e as bandas saem da tabela de Classe do manual |
+| **3** | **o nível de cada condição sai das AÇÕES que ela nega**, e não do alvo: meia ação é `Leve`, uma é `Média`, uma e meia é `Pesada`, com desvantagem contando como uma e meia. *E o preço de cada tier continua sendo lido da tabela de Classe do manual, `1/7`, `2/7` e `3/7` da Rotina — ele deixou de ser o teste na v0.201 e continua sendo o preço* |
 | **4** | **as treze batem com o manual**, nas duas direções: nome e **nível**, tabela por tabela — e o manual vende **uma** Melhoria `Condição`, cobrando o nível. *Lê o `.docx`, então **pula** sem o `python-docx` — e diz que pulou* |
 | **5** | **nenhuma condição fica sem nível**, e o nível é um dos três. Guarda de contagem: são treze, seis `Leve`, duas `Média` e cinco `Pesada` |
 | **6** | **a escada de quem cura fecha.** O teto de energia por uso em cada faixa de maestria cobre exatamente os tiers que o §2.3 publica, e ela bate com a escada de exaustão da peça 10 |
@@ -506,8 +528,8 @@
 | **9** | **as duas entregas publicadas que aplicam condição** — o `Abalo` do `DESENHO-manhas.md` e o `Encontrão` do `DESENHO-trilhas.md` — batem com a régua, com o portão que o texto de cada uma escreve |
 | **10** | **nenhum valor de regra escrito dentro do validador.** Todo número vem do documento dono, e a checagem falha se algum ficar guardado no código |
 | **11** | **a penalidade de arma da seção 6**: as duas linhas estão escritas, o `3 m` bate com o `10` pés do d20, e a desvantagem reconstrói em `54,00` a partir das âncoras — e a soma das duas contra a entrega da arma inteira |
-| **12** | **as ações do chefe são o piso da banda.** O número é lido do §2.2, as quatro condições que cobram ação são recalculadas com ele e com um a menos, e a checagem cobra as duas metades: com o publicado as quatro cabem, com um a menos alguma sai. *Assim `4` acende do mesmo jeito que `2`* |
-| **13** | **a coluna do capanga.** As treze são recalculadas contra o `38` em vez do `72`, e a peça tem de publicar quantas mudam de nível. *Ela é a prova de que a régua não depende de contra quem foi escrita* |
+| **12** | **as ações do chefe são o piso da dominância.** O número é lido do §2.2, as quatro condições que cobram ação são recalculadas com ele e com um a menos, e a checagem cobra as duas metades: com o publicado as quatro cabem, com um a menos alguma sai. *Assim `4` acende do mesmo jeito que `2`* |
+| **13** | **a coluna do capanga.** As treze são recalculadas contra o capanga — `73` por rodada em `1` ação, em vez de `219` em `3` —, e a checagem cobra que **nenhum nível se mova** e que a dominância continue passando dos dois lados. *Ela é a prova de que a régua não depende de contra quem foi escrita, e desde a v0.201 essa promessa deixou de ser retórica: o nível vem das ações negadas, que não olham o alvo* |
 
 > **A checagem 9 é a que esta peça existe para ter.** *Ela é a única que sai da pasta, junto com a do `conferir-catalogo.py` — e é ela que pegaria o `Punho` de novo se alguém reescrever o texto da entrega sem mexer no preço, ou o contrário.*
 
@@ -606,7 +628,9 @@
   > **O que parecia contra-teste era a mesma troca de base, por outra porta.** *A frase que morava aqui dizia: lido pela sua régua, o `Ajudar` valeria `54,00` em vez de `5,75`, e `54,00 ÷ 5,75` dá `9,4`.* **Aquilo é verdade e não prova nada** — o `54,00` é vantagem medida **na sua rodada inteira**, e o `Ajudar` é a mesma vantagem medida **num golpe do aliado**. *A razão entre os dois é o escopo, que é justamente o `9,4` de que se está falando.*
 
   ***FECHADO na v0.192, e nenhum número se moveu.*** **O que estava errado era a explicação, e ela ficou setenta e oito versões pendurada num número certo.** *A checagem 2 do `conferir-dano.py` passou a exigir que a razão entre as duas réguas seja **só** o escopo — se um dos dois lados deixar de ser relativo, ela acende.*
-- **O valor de uma condição depende de em quem ela cai.** *Contra um capanga de `38` de dano por rodada, em vez de um chefe de `72`, **cinco** das treze mudam de nível, e as duas que passam do teto da `Pesada` param de passar* — **o estouro do `Cego` e do `Impedido` é do tamanho do alvo, e não do desenho deles.** *A tabela publicada é a do chefe, porque é contra ele que as entregas de Trilha foram preçadas, e a checagem `13` recalcula a coluna do capanga inteira.*
+- **O valor de uma condição depende de em quem ela cai, e o NÍVEL dela não.** *Contra um capanga de `73` de dano por rodada em `1` ação, em vez de um chefe de `219` em `3`, **nenhuma das treze muda de nível** — o nível sai das ações negadas, e elas não olham o alvo.* **O que muda é a entrega:** *as cinco que negam ação entregam o mesmo dos dois lados, porque a rodada inteira do capanga é o golpe de uma ação do chefe; as quatro que dão desvantagem caem para `0,74×` a `1,19×`.*
+
+  > **⚠ E a ORDEM inverte contra um alvo de uma ação só.** *No chefe o `Envenenado` (`Pesada`) entrega `2,21×` e o `Calado` (`Média`) entrega `2,32×`; no capanga o `Envenenado` cai para `0,74×` e o `Calado` fica.* **Calar quem só tem uma ação é calar a rodada dela inteira**, e é por isso que a régua não promete que o nível ordene a entrega — ela promete que o nível descreva a condição. *A checagem `13` cobra as duas metades.*
 
   > **⚠ Esta linha dizia `seis`, e dizia que o validador conferia as duas colunas.** *Nenhuma das duas era verdade: a conta dá `cinco` — `Amedrontado`, `Envenenado` e `Atordoado` descem para `Média`, `Calado` e `Enfeitiçado` descem para `Leve` — e o `38` estava escrito dentro do `conferir-dano.py` sem ser usado em lugar nenhum.* **Achado na v0.198, levantando o terreno do `Bestiário`.**
 - **O `Impedido` é a maior da lista desde a v0.139, quando o `Petrificado` saiu.** *Ele é o `Cego` inteiro mais deslocamento `0`, e a diferença entre os dois é `1,10×` — dominância que o filtro aceita.*

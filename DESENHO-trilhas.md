@@ -373,7 +373,7 @@ E o **Yuji** com o Punho Divergente é a mesma ideia num golpe só: o soco acert
 
 **As duas taxas que não são óbvias:**
 
-**O `Revide` vale `75%`, e não `100%`.** A tabela de inimigo do manual põe o chefe do nível 30 em `72` de dano por rodada e o capanga em `38`, e o próprio manual escreve que o chefe *"perde a ação três vezes por rodada"* contra um grupo de quatro. Isso dá **`1,0` a `1,5` ataque colado por rodada em você**, e **você só tem uma Reação** — a chance de pelo menos um chegar fica entre `63%` e `78%`. *`75%` é o meio da banda, e por acaso é a mesma taxa que o `Engate` do `Punho` já usa.*
+**O `Revide` vale `75%`, e não `100%`.** A tabela de inimigo do manual põe o chefe do nível 30 em `219` de dano por rodada e o capanga em `73`, e o próprio manual escreve que o chefe *"perde a ação três vezes por rodada"* contra um grupo de quatro. Isso dá **`1,0` a `1,5` ataque colado por rodada em você**, e **você só tem uma Reação** — a chance de pelo menos um chegar fica entre `63%` e `78%`. *`75%` é o meio da banda, e por acaso é a mesma taxa que o `Engate` do `Punho` já usa.*
 
 **A `Retomada` vale `31%` porque o relógio é por dia.** `Maestria` são `4` usos, o dia tem `3,5` lutas de `3,7` rodadas — `4` em `12,95` rodadas. *Por descanso curto ela valeria `0,85` fatia, porque numa luta você tem erro para rerrolar em `2,8` das `3,7` rodadas e `4` usos passam disso: **o contador não apertaria.** Foi isso que fez o relógio ser por dia.*
 

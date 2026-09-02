@@ -1,4 +1,4 @@
-GERADOR DO MANUAL — Fundamento v7.22
+GERADOR DO MANUAL — Fundamento v7.23
 
 Recria o .docx do zero. Precisa de Node.js.
 
@@ -32,6 +32,17 @@ ORDEM DAS SEÇÕES (v7)
   4 Restrições → 5 Fora de combate → 6 Liberação Máxima → 7 Técnica Máxima →
   8 Regras de ouro → 9 Progressão → 10 Feitiços prontos → 11 Para o mestre →
   Apêndice
+
+O QUE MUDOU NA v7.23
+
+  A tabela Inimigos inteira, menos a coluna do dano do grupo. O chefe passou a
+  entregar 90% da vida de um personagem por rodada (era 30%) e a ter cerca de
+  tres vezes o dano de rodada do grupo em vida (era tres e dois tercos), o que
+  poe a luta em tres rodadas. O capanga foi refeito por derivacao: quatro deles
+  tem a vida do chefe e cada um bate o golpe dele, e com isso o cambio de 1 para
+  4 continua fechando. Medido contra a tabela Estatisticas de Monstro por Nivel
+  de Desafio do Guia do Mestre de 2014 e contra o chefe solo do Pathfinder 2e.
+  A prosa da secao mudou junto, em tres paragrafos.
 
 O QUE MUDOU NA v7.22
   O clash de dominios ganhou uma quarta pergunta, e ela e um dado. Refino igual

@@ -412,6 +412,35 @@ bloco('5. O CAMBIO — medido aqui dentro, e nao guardado')
 # A peca publica "um chefe vale quatro capangas". O numero nao esta escrito neste
 # arquivo: a simulacao de fogo concentrado roda aqui, com a vida, o dano e a
 # saida do grupo lidos do manual, e o publicado tem de ser o que ela devolve.
+import math as _math
+
+
+def _meio_baixo(x):
+    """a regra do §4.1: meio para BAIXO, e so' o meio exato — o resto arredonda normal"""
+    return _math.ceil(x - 0.5) if abs(x % 1 - 0.5) < 1e-9 else round(x)
+
+
+# A vida do grupo tem dono desde a v0.201, e o dono e' a ficha REAL: a media dos
+# cinco Caminhos da peca 1 §5.1 com Constituicao 3, que e' a coluna em que aquela
+# secao faz a propria calibragem. Ate a v0.200 a peca 26 usava DOIS modelos em
+# secoes vizinhas — 243 no §4.6 e 252 no §5 e no §6.3 —, e nenhum dos dois estava
+# declarado. Nada esta escrito aqui: a curva e' lida da peca 1.
+_CAM = re.findall(r'\|\s*\*\*(\w+)\*\*\s*\|\s*d(\d+)\s*\|\s*(\d+)\s*\|\s*(\d+)\s*\|',
+                  ler(os.path.join(AQUI, '01-atributos-acerto-defesa.md')))
+if len(_CAM) != 5:
+    erro('5.1: nao achei os cinco Caminhos na tabela de vida da peca 1 §5.1 — a vida do '
+         'grupo sai dela e nao daqui')
+    _V1 = _VN = 0.0
+else:
+    _V1 = sum(int(c[2]) for c in _CAM) / 5
+    _VN = sum(int(c[3]) for c in _CAM) / 5
+_CON_TIPICA = 3
+
+
+def _VIDA_PC(nv):
+    return _V1 + _VN * (nv - 1) + _CON_TIPICA * nv
+
+
 _NUM_PT = {'um': 1, 'dois': 2, 'três': 3, 'quatro': 4, 'cinco': 5, 'seis': 6,
            'sete': 7, 'oito': 8, 'nove': 9, 'dez': 10}
 
@@ -471,6 +500,63 @@ else:
     else:
         print(f'  [x] a simulacao devolve {_pub5} em todos os niveis, e e o que a peca '
               'publica')
+
+    # v0.201: o capanga deixou de ser medido e passou a ser DERIVADO do chefe.
+    # A peca publica a derivacao em palavras, e aqui ela e' cobrada contra a
+    # tabela do manual — nos dois sentidos, porque uma derivacao que so' vale num
+    # nivel nao e' derivacao.
+    _diz_vida = 'vida do chefe dividida por quatro' in TXT
+    _diz_dano = 'dano do chefe dividido por três' in TXT
+    if not (_diz_vida and _diz_dano):
+        erro('5: a peca nao publica as duas linhas da derivacao do capanga — sem elas '
+             'a coluna volta a ser numero solto que ninguem reconstroi')
+    else:
+        _fora = []
+        for _nv, (_saida, _cv, _cd, _kv, _kd) in sorted(_MANUAL.items()):
+            if _kv is None:
+                continue
+            _evida, _edano = _meio_baixo(_cv / 4), _meio_baixo(_cd / 3)
+            if (_kv, _kd) != (_evida, _edano):
+                _fora.append(f'nv{_nv}: o manual da ({_kv}, {_kd}) e a derivacao da '
+                             f'({_evida}, {_edano})')
+        if _fora:
+            erro('5: o capanga do manual nao e o que a derivacao da peca produz — '
+                 + ' · '.join(_fora))
+        else:
+            print('  [x] o capanga do manual E a vida do chefe dividida por quatro e o '
+                  'dano dele dividido por tres, nas seis faixas que tem capanga')
+
+    # -- 5.1: a coluna da sub-categoria, recontada -----------------------------
+    # Ela nunca teve validador ate a v0.201 e tinha divergido: o publicado subia
+    # de 28% a 35% e a simulacao nao reproduzia nem a ordem. A ordem de abate
+    # MUDA a resposta em ate 15 pontos, entao a peca tem de declarar qual e'.
+    _ordem_declarada = 'os capangas primeiro' in TXT
+    _m51 = re.findall(r'\|\s*\*\*`(sozinho|com um apoio|com dois|bando)`\*\*\s*\|\s*'
+                      r'`(\d+)%`\s*\|\s*[`\d—]+\s*\|\s*`(\d+)%`\s*\|', TXT)
+    if not _ordem_declarada:
+        erro('5.1: a peca publica a coluna da sub-categoria e nao declara em que ordem o '
+             'grupo abate — a coluna muda ate 15 pontos percentuais com a ordem')
+    elif len(_m51) != 4:
+        erro(f'5.1: achei {len(_m51)} das 4 linhas da tabela de sub-categoria do §4.5 — '
+             'ela mudou de forma e esta checagem parou de conferir')
+    elif not _MANUAL or 30 not in _MANUAL:
+        pulou('5.1. a sub-categoria — a linha do nivel 30 do manual nao foi lida')
+    else:
+        _saida, _cv, _cd, _kv, _kd = _MANUAL[30]
+        _vg = 4 * _VIDA_PC(30)
+        _mau51 = 0
+        for _rot, _frac, _pct in _m51:
+            _f = int(_frac) / 100.0
+            _cap = round((1 - _f) * 4)
+            _r, _c = _simula(_saida, [(_kv, _kd)] * _cap + [(_cv * _f, _cd * _f)])
+            _esp = round(_c / _vg * 100)
+            if _esp != int(_pct):
+                erro(f'5.1: a sub-categoria `{_rot}` publica {_pct}% da vida do grupo e a '
+                     f'simulacao devolve {_esp}%')
+                _mau51 += 1
+        if not _mau51:
+            print('  [x] as quatro formas da sub-categoria reconstroem da simulacao, com '
+                  'os capangas abatidos primeiro')
 
 
 # --------------------------------------------------------------------------

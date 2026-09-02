@@ -112,10 +112,10 @@ E a regra declara a própria neutralidade, o que resolve o *"nem pode parecer va
 
 | bônus | o seu ataque de oportunidade no nível 30 | líquido do pacote | a decisão do nível 22 |
 |---|---|---|---|
-| **`+3` fixo** | `8,53` | **`0,66%`** | **sobrevive** |
-| `+25%` | `8,59` | `0,66%` | sobrevive |
-| metade do nível | `15,13` | `0,40%` | **morre** |
-| o nível inteiro | `23,38` | `0,07%` | **morre** |
+| **`+3` fixo** | `8,53` | **`0,89%`** | **sobrevive** |
+| `+25%` | `8,59` | `0,89%` | sobrevive |
+| metade do nível | `15,13` | `0,80%` | **morre** |
+| o nível inteiro | `23,38` | `0,70%` | **morre** |
 
 **Fixo e percentual empatam, e o motivo é que o golpe simples quase não cresce:** o dado é fixo e a Força trava em `6`, então o dano vai de `9,5` no nível 2 a `12,5` no nível 14 e para ali. `+25%` disso é **sempre `2,4` a `3,1`** — o `+3` é o mesmo número, sem conta de porcentagem na mesa.
 
@@ -123,7 +123,7 @@ E a regra declara a própria neutralidade, o que resolve o *"nem pode parecer va
 
 > **⚠⚠ Estes dois números estavam errados no rascunho desde a v0.43, e a checagem 4 os pegou na primeira rodada.** *Aquele texto escrevia **"a folga é `3,86`"** logo depois de dizer `9,0` contra `6,88` — e `9,00 − 6,88` dá `2,12`.* **Ele estava chamando de "folga" duas grandezas diferentes:** *a subtração, que é `2,12` de dano esperado, e o teto do bônus, que é a mesma coisa dividida pela taxa de acerto e dá `3,85` de dano cru.* **A conclusão nunca esteve errada — `+3` continua sendo o maior que cabe.** *O que estava errado era a aritmética escrita ao lado dela, e ela sobreviveu cem versões porque ninguém tinha um validador que subtraísse.*
 >
-> **A tabela expõe uma troca que vale registrar:** bônus maior deixa o **líquido** mais perto de zero — `0,66%` para `0,07%` —, porque compensa o golpe maior do inimigo, **e mata a decisão.** *As duas coisas correm em sentidos opostos, e o critério que decidiu foi o do Mizuki:* **"tem que custar Reação pra vir aquele peso de 'eu realmente bato?'"**
+> **A tabela expõe uma troca que vale registrar:** bônus maior deixa o **líquido** mais perto de zero — `0,89%` para `0,70%` —, porque compensa o golpe maior do inimigo, **e mata a decisão.** *As duas coisas correm em sentidos opostos, e o critério que decidiu foi o do Mizuki:* **"tem que custar Reação pra vir aquele peso de 'eu realmente bato?'"**
 
 **E o bônus fica só no Aparar, não nos dois lados.** Se ele valesse para o inimigo também, amplificaria a assimetria — o golpe dele é maior e levaria a mesma porcentagem, e o custo do pacote subiria de `0,43%` para `1,17%`. *A assimetria também é mais fiel à fonte: no For Honor o parry garante um golpe pesado, e a guarda aberta do oponente só dá uma abertura comum.* **Aparar é perícia recompensada; Brecha é você exposto.**
 
@@ -139,13 +139,15 @@ E a regra declara a própria neutralidade, o que resolve o *"nem pode parecer va
 | | líquido por golpe recebido, nível 30 | contra o golpe do chefe |
 |---|---|---|
 | Bloquear puro, sem os extremos | `0,000` | **`0,00%`** |
-| **com Aparar e Brecha, a `+3`** | `−0,159` | **`0,66%` do golpe do chefe** |
+| **com Aparar e Brecha, a `+3`** | `−0,649` | **`0,89%` do golpe do chefe** |
 
 **Menos de um por cento**, e ele **cresce com o nível**, porque o seu golpe simples trava em `6,9` quando a Força chega a `6` e o do chefe continua subindo. *Isso é a lição nº 1 aparecendo pequena: fica registrado para ninguém se assustar.* **A checagem 3 recalcula o líquido do nível 30 a partir dos donos e falha se ele passar de `1%` do golpe do chefe.**
 
-> **⚠ O denominador está declarado, e até a v0.142 ele não estava.** *O rascunho publicava `0,43%` "do golpe", sem dizer de que golpe — e a conta só fecha com um `36` que não aparece em documento nenhum do projeto.* **Aqui o denominador é o golpe do chefe, `24,00`, que a peça 19 §2.1 publica como `72` de dano por rodada em `3` ações.** *E a checagem 3 falha se a peça parar de declarar contra o quê a porcentagem é medida.*
+> **⚠ O denominador está declarado, e até a v0.142 ele não estava.** *O rascunho publicava `0,43%` "do golpe", sem dizer de que golpe — e a conta só fecha com um `36` que não aparece em documento nenhum do projeto.* **Aqui o denominador é o golpe do chefe, `73,00`, que a peça 19 §2.2 publica como `219` de dano por rodada em `3` ações.**
 >
-> **E a mudança de `0,154` para `0,159` é a correção das duas chances acima:** *aquele número supunha `1%` dos dois lados, e o Aparar é `0,95%`.* **A direção não muda, o tamanho não muda de ordem, e o teto de `1%` continua com folga.**
+> **⚠ Ele era `24,00` até a v0.200, e a v0.201 triplicou a linha de inimigo do manual.** *O líquido subiu junto — de `−0,159` para `−0,649` —, e o teto declarado de `1%` do golpe continua com folga: `0,89%`.* **Nenhuma peça do `Bloquear` foi repreçada; o que mudou foi o denominador.** *E a checagem 3 falha se a peça parar de declarar contra o quê a porcentagem é medida.*
+>
+> **E a mudança de `0,154` para `0,159`, na v0.142, foi a correção das duas chances acima:** *aquele número supunha `1%` dos dois lados, e o Aparar é `0,95%`.* **A direção não muda, o tamanho não muda de ordem, e o teto de `1%` continua com folga.**
 
 ### 3.4 A Reação do inimigo é a mesma de todo mundo, e agora ela está impressa
 

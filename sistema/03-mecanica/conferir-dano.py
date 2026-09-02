@@ -341,19 +341,44 @@ def condicoes(alvo):
 CALC = {n: (t, v) for n, t, v in condicoes(CHEFE)}
 
 # a tabela publicada no §2.2
+# v0.201: a tabela ganhou duas colunas e perdeu a das fatias. Ela e' agora
+# nome | nega | acoes negadas | pontos | razao contra o dano deles | nivel.
+# A coluna das acoes e' texto — `1,5` + deslocamento —, entao so' o primeiro
+# numero dela e' lido, que e' a parte que decide o nivel.
 _pub = {}
 for _l in TXT.split('\n'):
     _m = re.match(r'\|\s*\*\*`([A-Za-zçãíéÇ]+)`\*\*\s*\|\s*`([\d,]+)`\s*\|'
-                  r'\s*`([\d,]+)`\s*\|\s*`(Leve|Média|Pesada)`\s*\|', _l)
+                  r'\s*`([\d,]+)`[^|]*\|\s*`(\d+)`\s*\|\s*`([\d,]+)×`\s*\|'
+                  r'\s*`(Leve|Média|Pesada)`\s*\|', _l)
     if _m:
-        _pub[_m.group(1)] = (num(_m.group(2)), num(_m.group(3)), _m.group(4))
+        _pub[_m.group(1)] = (num(_m.group(2)), num(_m.group(3)), int(_m.group(4)),
+                             num(_m.group(5)), _m.group(6))
+
+# o que UM ponto de feitico entrega em dano, lido do §2.1 e nao guardado aqui
+_mpt = re.search(r'vira `1d8` de dano — que são `(\d+,\d+)`', TXT)
+if not _mpt:
+    erro('2: nao achei no §2.1 quanto vale um ponto de feitico em dano — a regua '
+         'inteira da v0.201 se mede contra esse numero')
+    PONTO_DE_FEITICO = 4.5
+else:
+    PONTO_DE_FEITICO = num(_mpt.group(1))
+    print(f'  [x] um ponto de feitico foi lido do §2.1: {PONTO_DE_FEITICO:.2f} de dano')
+
+# o filtro de dominancia, lido da peca 11 e nao guardado aqui
+_mdom = re.search(r'reprova a partir de `(\d+,\d+)×`', ler(P11))
+if not _mdom:
+    erro('2: nao achei o filtro de dominancia na peca 11 — ele e o teto da regua nova')
+    DOMINANCIA = 3.00
+else:
+    DOMINANCIA = num(_mdom.group(1))
+    print(f'  [x] o filtro de dominancia foi lido da peca 11: {DOMINANCIA:.2f}x')
 
 if len(_pub) != 13:
     erro(f'2: a tabela do §2.2 tem {len(_pub)} linha(s) e eu esperava 13 — ela mudou '
          'de forma e esta checagem parou de conferir')
 else:
     _mau = 0
-    for _n, (_dano, _fat, _tier) in _pub.items():
+    for _n, (_dano, _aco, _pts, _raz, _tier) in _pub.items():
         if _n not in CALC:
             erro(f'2: a peca publica "{_n}", que nao esta na lista de treze')
             _mau += 1
@@ -363,10 +388,12 @@ else:
             erro(f'2: {_n} — a peca publica {_dano:.2f} de dano por rodada e a regua '
                  f'reconstroi {_esp:.2f}')
             _mau += 1
-        elif abs(_dano / FATIA - _fat) > 0.02:
-            erro(f'2: {_n} — {_dano:.2f} de dano sao {_dano/FATIA:.2f} fatias, e a '
-                 f'peca publica {_fat:.2f}')
-            _mau += 1
+        else:
+            _r = _dano / (_pts * PONTO_DE_FEITICO)
+            if abs(_r - _raz) > 0.01:
+                erro(f'2: {_n} — {_dano:.2f} contra {_pts} pontos de feitico dao '
+                     f'{_r:.2f}x, e a peca publica {_raz:.2f}x')
+                _mau += 1
     if not _mau:
         print(f'  [x] as 13 linhas do §2.2 reconstroem a partir das ancoras')
         print(f'  [x] as 13 conversoes em fatia batem com a fatia lida do dono')
@@ -507,24 +534,78 @@ for _t, _fr in BANDAS:
     print(f'     {_t:<7} ate {ROTINA_30*_fr:6.2f} de dano por rodada '
           f'= {ROTINA_30*_fr/FATIA:5.2f} fatias')
 
+# v0.201: o NIVEL deixou de sair da banda de preco e passou a sair das ACOES
+# negadas, e essa e' a metade da regua que nao olha o alvo. A escada e' a
+# economia de acao do chefe: meia acao Leve, uma Media, uma e meia Pesada. Ela
+# nao esta escolhida — ela e' a mesma escada que o `Lento`, o `Calado` e o
+# `Atordoado` ja tinham publicada, lida ao contrario.
+#
+# O que o preco de cada tier faz agora e' ser o DENOMINADOR do teste, e o teste
+# e' o filtro de dominancia do projeto. As duas metades sao conferidas separadas
+# de proposito: uma condicao pode estar no degrau certo e mesmo assim dominar.
+
+
+def tier_por_acoes(acoes):
+    if acoes >= 1.5 - 1e-9:
+        return 'Pesada'
+    if acoes >= 1.0 - 1e-9:
+        return 'Média'
+    return 'Leve'
+
+
 _mau = 0
-for _n, (_dano, _fat, _tier) in _pub.items():
-    _esp = tier_de(_dano)
+for _n, (_dano, _aco, _pts, _raz, _tier) in _pub.items():
+    _esp = tier_por_acoes(_aco)
     if _esp != _tier:
-        erro(f'3: {_n} vale {_dano:.2f} de dano por rodada, que cai na banda {_esp}, '
+        erro(f'3: {_n} nega {_aco:.1f} acao(oes) da rodada do alvo, que e degrau {_esp}, '
              f'e a peca publica {_tier}')
         _mau += 1
 if _pub and not _mau:
-    _c = {t: sum(1 for v in _pub.values() if v[2] == t) for t, _ in BANDAS}
-    print(f'  [x] as 13 caem na banda que a conta diz: '
+    _c = {t: sum(1 for v in _pub.values() if v[4] == t) for t, _ in BANDAS}
+    print(f'  [x] as 13 caem no degrau que as acoes negadas dizem: '
           f'{_c["Leve"]} Leve · {_c["Média"]} Média · {_c["Pesada"]} Pesada')
 
-_acima = [n for n, (d, _, _) in _pub.items() if d > ROTINA_30 * 3 / 7]
-if _acima:
-    print(f'  ~  {len(_acima)} passa(m) do teto da Pesada e a peca declara isso: '
-          + ', '.join(sorted(_acima)))
-    if 'passam do teto da `Pesada`' not in TXT:
-        erro('3: alguma condicao passa do teto da Pesada e a peca nao declara isso')
+# e o teste de dominancia, que e' a outra metade
+_dom = sorted(((_r, _n) for _n, (_d, _a, _p, _r, _t) in _pub.items()), reverse=True)
+print(f'  pior razao das treze: {_dom[0][1]} em {_dom[0][0]:.2f}x '
+      f'(filtro {DOMINANCIA:.2f}x)')
+_passa = [_n for _r, _n in _dom if _r > DOMINANCIA + 1e-9]
+if _passa:
+    erro(f'3: {", ".join(_passa)} entrega(m) mais que {DOMINANCIA:.2f}x o dano que os '
+         'mesmos pontos de feitico dariam — o filtro de dominancia reprova')
+else:
+    print(f'  [x] nenhuma das treze passa do filtro de dominancia')
+
+# contra-teste: o preco de cada tier continua sendo lido do manual e nao do
+# codigo. Se ele parar de bater com 1/7, 2/7 e 3/7 da Rotina, isto acende.
+# a tabela de preco do §2.1 e' o dono dos pontos, e a linha da Classe 7 e' a que
+# a regua usa. Comparar DANO com DANO nao fecha — o manual arredonda ponto —,
+# entao a comparacao e' de ponto com ponto.
+_m21 = re.search(r'^\| 7 \| (\d+) \| (\d+) \| (\d+) \| (\d+) \|', TXT, re.M)
+if not _m21:
+    erro('3: nao achei a linha da Classe 7 na tabela de preco do §2.1 — ela e a dona '
+         'dos pontos que a coluna de dominancia usa como denominador')
+else:
+    _preco21 = dict(zip(('Leve', 'Média', 'Pesada'),
+                        (int(_m21.group(1)), int(_m21.group(2)), int(_m21.group(3)))))
+    _rot21 = int(_m21.group(4))
+    if abs(_rot21 * PONTO_DE_FEITICO - ROTINA_30) > 0.01:
+        erro(f'3: a Classe 7 do §2.1 tem {_rot21} pontos de Rotina, que sao '
+             f'{_rot21*PONTO_DE_FEITICO:.2f} de dano, e a Rotina do nivel 30 e {ROTINA_30:.2f}')
+    _mau3 = 0
+    for _t, _fr in BANDAS:
+        _pts_t = {v[2] for v in _pub.values() if v[4] == _t}
+        if len(_pts_t) != 1:
+            erro(f'3: o tier {_t} aparece com pontos diferentes {sorted(_pts_t)} — o '
+                 'preco de um tier e um so')
+            _mau3 += 1
+        elif _pts_t.pop() != _preco21[_t]:
+            erro(f'3: a tabela do §2.2 cobra pontos diferentes do que o §2.1 publica '
+                 f'para o tier {_t}')
+            _mau3 += 1
+    if not _mau3:
+        print('  [x] os pontos de cada tier na coluna de dominancia sao os que o §2.1 '
+              'publica para a Classe 7')
 
 
 # --------------------------------------------------------------------------
@@ -670,7 +751,7 @@ if len(_mesa) != 13:
     erro(f'5: as tabelas do §3.1 a §3.3 trazem {len(_mesa)} condicao(oes) com nivel '
          'e eu esperava 13 — elas mudaram de forma e esta checagem parou de conferir')
 else:
-    _div = [n for n, t in _mesa.items() if _pub.get(n, (0, 0, None))[2] != t]
+    _div = [n for n, t in _mesa.items() if _pub.get(n, (0, 0, 0, 0, None))[4] != t]
     if _div:
         erro('5: o nivel do texto de mesa nao bate com o da tabela da regua em: '
              + ', '.join(sorted(_div)))
@@ -1098,8 +1179,9 @@ def _com_acoes(n):
 
 
 def _fora_da_banda(vals):
-    return [_n for _n in _DEPENDEM
-            if _n in _pub and vals[_n] > _TETO[_pub[_n][2]] + 1e-9]
+    """v0.201: 'fora' passou a querer dizer 'passa do filtro de dominancia'."""
+    return [_n for _n in _DEPENDEM if _n in _pub
+            and vals[_n] / (_pub[_n][2] * PONTO_DE_FEITICO) > DOMINANCIA + 1e-9]
 
 
 if len(_pub) != 13:
@@ -1109,7 +1191,7 @@ else:
     for _n in (1, 2, _npub):
         _v = _com_acoes(_n)
         print(f'  {_n} acao(oes): ' + '  '.join(
-            f'{_c} {_v[_c]/_TETO[_pub[_c][2]]:.0%} da {_pub[_c][2]}' for _c in _DEPENDEM))
+            f'{_c} {_v[_c]/(_pub[_c][2]*PONTO_DE_FEITICO):.2f}x' for _c in _DEPENDEM))
 
     _com = _fora_da_banda(_com_acoes(_npub))
     _menos = _fora_da_banda(_com_acoes(_npub - 1)) if _npub > 1 else []
@@ -1133,7 +1215,7 @@ else:
     _cels = [[c.replace('*', '').replace('`', '').strip() for c in l.split('|')[1:-1]]
              for l in _t12.split('\n') if l.startswith('|') and not l.startswith('|---')]
     _ordem = [c.split(',')[0].strip() for c in _cels[0][1:]] if _cels else []
-    _linhas12 = [(int(c[0]), [int(x.rstrip('%')) for x in c[1:]])
+    _linhas12 = [(int(c[0]), [num(x.rstrip('×')) for x in c[1:]])
                  for c in _cels[1:] if c and c[0].isdigit()]
     if len(_ordem) != 4 or set(_ordem) != set(_DEPENDEM):
         erro('12: o cabecalho da tabela de acoes do §2.2 nao nomeia as quatro condicoes '
@@ -1145,10 +1227,10 @@ else:
         for _n, _pcts in _linhas12:
             _v = _com_acoes(_n)
             for _c, _p in zip(_ordem, _pcts):
-                _esp = round(_v[_c] / _TETO[_pub[_c][2]] * 100)
-                if _esp != _p:
-                    erro(f'12: a tabela do §2.2 publica {_p}% para o {_c} com {_n} acao(oes), '
-                         f'e a regua reconstroi {_esp}%')
+                _esp = _v[_c] / (_pub[_c][2] * PONTO_DE_FEITICO)
+                if abs(_esp - _p) > 0.01:
+                    erro(f'12: a tabela do §2.2 publica {_p:.2f}x para o {_c} com {_n} '
+                         f'acao(oes), e a regua reconstroi {_esp:.2f}x')
                     _mau12 += 1
         if not _mau12:
             print(f'  [x] as {len(_linhas12)} linhas da tabela de acoes do §2.2 reconstroem '
@@ -1158,51 +1240,70 @@ else:
 # --------------------------------------------------------------------------
 bloco('13. A COLUNA DO CAPANGA — a regua nao depende de contra quem foi escrita')
 # --------------------------------------------------------------------------
-# v0.198. A peca dizia "seis das treze mudam de nivel" contra um capanga, e dizia
-# que "o validador confere as duas colunas". Nenhuma das duas era verdade: a
-# conta da CINCO, e o 38 estava escrito neste arquivo sem uma linha de codigo
-# tocar nele. Numero publicado que ninguem recalcula e' orfao — o mesmo defeito
-# do 33,9 da peca 11, achado na v0.171.
+# v0.198 mediu quantas das treze MUDAVAM de nivel contra um capanga. v0.201
+# tirou o chao dessa pergunta: o nivel passou a sair das acoes negadas, e acao
+# negada nao olha o alvo. Entao a checagem mudou de pergunta junto com a regua.
 #
-# Nada esta escrito aqui: o capanga vem da ancora, os tiers vem do §2.2 e a
-# contagem vem da frase da peca, lida por um padrao que NAO carrega o numero.
-_NUM_PT = {'nenhuma': 0, 'uma': 1, 'duas': 2, 'três': 3, 'quatro': 4, 'cinco': 5,
-           'seis': 6, 'sete': 7, 'oito': 8, 'nove': 9, 'dez': 10, 'onze': 11,
-           'doze': 12, 'treze': 13}
+# Ela cobra tres coisas, e a terceira e' a que o Mizuki pediu ao recusar o
+# repreco: "o boss tambem vai poder aplicar condicoes". A mesma tabela tem de
+# servir dos dois lados da mesa, e servir quer dizer nivel igual e dominancia
+# passando — nao entrega igual.
+_ACOES_CAPANGA = None
+_mac = re.search(r'capanga — `\d+` por rodada em `(\d+)` ação', TXT)
+if not _mac:
+    erro('13: a peca nao declara em quantas acoes o capanga entrega a rodada dele — '
+         'sem isso a coluna do capanga nao tem como ser recalculada')
+else:
+    _ACOES_CAPANGA = float(_mac.group(1))
 
-if len(_pub) != 13:
+if len(_pub) != 13 or _ACOES_CAPANGA is None:
     erro('13: sem a tabela do §2.2 lida inteira nao da para medir a coluna do capanga')
 else:
-    _vcap = {_n: _v for _n, _tp, _v in condicoes(CAPANGA)}
-    _mudam = sorted(_n for _n, (_d, _f, _tr) in _pub.items() if tier_de(_vcap[_n]) != _tr)
-    print(f'  contra o capanga de {CAPANGA:.0f} em vez do chefe de {CHEFE:.0f}: '
-          f'{len(_mudam)} de 13 mudam de nivel')
-    print('     ' + ', '.join(f'{_n} -> {tier_de(_vcap[_n])}' for _n in _mudam))
+    _g = CHEFE_ACOES
+    CHEFE_ACOES = _ACOES_CAPANGA
+    try:
+        _vcap = {_n: _v for _n, _tp, _v in condicoes(CAPANGA)}
+    finally:
+        CHEFE_ACOES = _g
 
-    _m13 = re.search(r'\*\*(\w+)\*\* das treze mudam de nível', TXT)
-    if not _m13:
-        erro('13: a peca nao publica quantas das treze mudam de nivel contra o capanga — '
-             'a frase mudou de forma e esta checagem ficou sem o outro lado')
-    elif _NUM_PT.get(_m13.group(1).lower()) != len(_mudam):
-        erro(f'13: a peca publica "{_m13.group(1)}" das treze mudando de nivel contra o '
-             f'capanga, e a regua conta {len(_mudam)}')
+    print(f'  contra o capanga de {CAPANGA:.0f} em {_ACOES_CAPANGA:.0f} acao(oes), '
+          f'em vez do chefe de {CHEFE:.0f} em {CHEFE_ACOES:.0f}:')
+    for _n, (_d, _a, _p, _r, _t) in sorted(_pub.items(), key=lambda x: -x[1][0]):
+        print(f'     {_n:<14} {_d:7.2f} {_r:5.2f}x  ->  {_vcap[_n]:7.2f} '
+              f'{_vcap[_n]/(_p*PONTO_DE_FEITICO):5.2f}x   {_t}')
+
+    # 1. nenhum nivel se move — o nivel sai das acoes negadas, nao do alvo
+    _movem = [_n for _n, (_d, _a, _p, _r, _t) in _pub.items()
+              if tier_por_acoes(_a) != _t]
+    if _movem:
+        erro(f'13: {", ".join(sorted(_movem))} mudaria(m) de nivel contra o capanga — o '
+             'nivel tem de sair das acoes negadas, e acao negada nao olha o alvo')
     else:
-        print(f'  [x] a peca publica "{_m13.group(1)}", e a regua conta o mesmo')
+        print('  [x] nenhum dos treze niveis se move contra o capanga')
 
-    # e as que passam do teto da Pesada contra o chefe param de passar contra ele
-    _acima_ch = sorted(_n for _n, (_d, _f, _tr) in _pub.items() if _d > _TETO['Pesada'] + 1e-9)
-    _acima_cp = sorted(_n for _n in _acima_ch if _vcap[_n] > _TETO['Pesada'] + 1e-9)
-    _declara = 'param de passar' in TXT
-    if _acima_ch and not _acima_cp and not _declara:
-        erro('13: contra o capanga o(s) estouro(s) do teto da Pesada somem — '
-             f'{", ".join(_acima_ch)} — e a peca nao declara que o estouro e do tamanho '
-             'do alvo. Sem isso ele fica lido como defeito de desenho')
-    elif _acima_cp and _declara:
-        erro('13: a peca declara que os estouros do teto da Pesada somem contra o capanga, '
-             f'e {", ".join(_acima_cp)} continua(m) passando')
-    elif _acima_ch:
-        print(f'  [x] {", ".join(_acima_ch)} passa(m) do teto da Pesada contra o chefe e '
-              'nao passa(m) contra o capanga, e a peca declara isso')
+    # 2. a dominancia passa dos dois lados
+    _ruins = [_n for _n, (_d, _a, _p, _r, _t) in _pub.items()
+              if _vcap[_n] / (_p * PONTO_DE_FEITICO) > DOMINANCIA + 1e-9]
+    if _ruins:
+        erro(f'13: contra o capanga {", ".join(sorted(_ruins))} passa(m) do filtro de '
+             f'{DOMINANCIA:.2f}x — a regua so vale se ela valer dos dois lados')
+    else:
+        _pior = max(_vcap[_n] / (_pub[_n][2] * PONTO_DE_FEITICO) for _n in _pub)
+        print(f'  [x] contra o capanga a pior razao e {_pior:.2f}x, e o filtro passa')
+
+    # 3. a ORDEM inverte, e a peca tem de declarar isso. Sem a declaracao, um
+    #    leitor supoe que o nivel ordena a entrega — e contra um alvo de uma acao
+    #    so ele nao ordena.
+    _ord_ch = [n for _, n in sorted(((v[0], n) for n, v in _pub.items()), reverse=True)]
+    _ord_cp = [n for _, n in sorted(((_vcap[n], n) for n in _pub), reverse=True)]
+    if _ord_ch != _ord_cp:
+        if 'ORDEM inverte' not in TXT:
+            erro('13: a ordem de entrega das treze inverte contra o capanga e a peca nao '
+                 'declara isso — quem ler o nivel como ordem de tamanho erra na mesa')
+        else:
+            print('  [x] a ordem de entrega inverte contra o capanga, e a peca declara')
+    elif 'ORDEM inverte' in TXT:
+        erro('13: a peca declara que a ordem inverte contra o capanga, e ela nao inverte')
 
 
 # --------------------------------------------------------------------------

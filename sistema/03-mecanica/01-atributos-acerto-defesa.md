@@ -215,17 +215,21 @@ O 8 do manual é a vida **total** por nível, sem atributo nenhum, porque quando
 
 Uma versão anterior deste documento usava dados que somavam 8 e conferia isso contra o 8 do manual. Estava errado: com Constituição por cima, o grupo ficava com **38% de vida a mais** do que a tabela de encontro supõe, e o combate durava 4,7 rodadas onde o manual promete 3,5.
 
-**A trava certa é: média dos dados + 3 de Constituição ≈ 8.** Com ela, o grupo cai em 2,9 a 3,4 rodadas sob foco — em cima do alvo do manual, sem tocar em nenhuma tabela dele.
+**A trava certa é: média dos dados + 3 de Constituição ≈ 8.** É ela que faz a tabela de encontro do manual valer para um grupo típico, e ela não se moveu na v0.201.
 
 Por Caminho, com Constituição 3, rodadas para cair sob foco:
 
 | | nv 2 | nv 10 | nv 20 | nv 30 |
 |---|---|---|---|---|
-| Bastião | 4,2 | 4,0 | 4,2 | 4,2 |
-| Vanguarda · Guia | 3,2 | 3,2 | 3,3 | 3,4 |
-| Evocador · Emanador | 2,7 | 2,8 | 2,9 | 2,9 |
+| Bastião | 1,6 | 1,4 | 1,4 | 1,4 |
+| Vanguarda · Guia | 1,2 | 1,1 | 1,1 | 1,1 |
+| Evocador · Emanador | 1,0 | 1,0 | 1,0 | 1,0 |
 
 A curva é plana do nível 2 ao 30 em todos os cinco, que é o que se quer: o mestre nunca precisa saber o nível para estimar quanto tempo alguém aguenta.
+
+> **⚠⚠ Esta tabela dizia `2,7` a `4,2` até a v0.200, e o que mudou não foi a vida.** *A tabela de inimigo do manual triplicou o dano do chefe naquela versão, medida contra o `Guia do Mestre` de 2014 e contra o chefe solo do Pathfinder 2e — nos dois, o chefe entrega perto de `90%` da vida de um personagem por rodada.* **Nenhuma linha desta seção mudou de número: o que mudou foi contra quem elas são lidas.**
+>
+> **E é isso que a v0.201 existiu para fazer.** *Sob fogo concentrado a ficha média cai em pouco mais de uma rodada, e numa luta de três o chefe derruba `2,70` pessoas se quiser* — **contra `1,09` na linha antiga, que era o chefe derrubando exatamente uma pessoa no último segundo.**
 
 ### Vida é a única alavanca que a trava do Caminho deixa aberta
 
@@ -271,12 +275,12 @@ Traduzido em rodadas sob foco, no nível 30:
 
 | ficha | vida | rodadas |
 |---|---|---|
-| Emanador de Constituição 0 | 122 | **1,7** |
-| Emanador de Constituição 3 | 212 | 2,9 |
-| Bastião de Constituição 3 | 305 | 4,2 |
-| Bastião de Constituição 6 | 395 | **5,5** |
+| Emanador de Constituição 0 | 122 | **0,6** |
+| Emanador de Constituição 3 | 212 | 1,0 |
+| Bastião de Constituição 3 | 305 | 1,4 |
+| Bastião de Constituição 6 | 395 | **1,8** |
 
-O extremo de baixo é duro: um Emanador que zerou Constituição cai em menos de duas rodadas de foco. Isso é escolha dele, e a ficção acompanha — conjurador puro que não cuidou do corpo morre rápido em Jujutsu Kaisen. Mas é o número a acompanhar em playtest antes de qualquer outro.
+O extremo de baixo é duro: um Emanador que zerou Constituição cai em pouco mais de meia rodada de foco. Isso é escolha dele, e a ficção acompanha — conjurador puro que não cuidou do corpo morre rápido em Jujutsu Kaisen. Mas é o número a acompanhar em playtest antes de qualquer outro.
 
 ### A Integridade fica de fora das duas, e a dona dela é a peça 24
 

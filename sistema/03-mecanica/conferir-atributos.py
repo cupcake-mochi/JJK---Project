@@ -136,12 +136,12 @@ CON_TIPICA = 3    # o que uma ficha comum carrega em Constituicao
 # Dano de chefe por rodada, tabela do manual (linhas 1598-1637 do .docx)
 # v0.199: entrou a linha da Classe 1 (nivel 2 ao 4), derivada das razoes que sao
 # constantes nas seis publicadas — grupo 2,90x a Rotina e vida do chefe 3,66x o grupo.
-CHEFE = {2: 6, 5: 15, 10: 26, 15: 38, 20: 49, 25: 61, 30: 72}
+CHEFE = {2: 17, 5: 39, 10: 75, 15: 111, 20: 147, 25: 183, 30: 219}
 
 
 def dano_chefe(nv):
     if nv <= 5:
-        return 15 * nv / 5
+        return 39 * nv / 5
     ks = sorted(CHEFE)
     for a, b in zip(ks, ks[1:]):
         if a <= nv <= b:
@@ -391,15 +391,28 @@ if abs(efetiva - BASE_MANUAL) > 1.0:
 print('  NAO conferir a media dos dados sozinha contra o 8: o 8 do manual e a vida TOTAL')
 print('  por nivel, escrita antes de existir Constituicao. Foi o erro da v0.18.')
 
-print(f"\n  rodadas para cair sob foco (o manual calibra tudo em 3,5):")
+# v0.201: a tabela de inimigo passou a por o chefe em 90% da vida de UM
+# personagem por rodada, medido contra o d20 de 2014 e o chefe solo do PF2e. A
+# consequencia direta e' esta: sob fogo concentrado a ficha media cai em pouco
+# mais de uma rodada, e nao nas 3,5 que a linha antiga entregava. A banda deixou
+# de ser 2,5-4,5 e passou a sair da PROPRIA linha do manual, que e' o dono.
+_ALVO_FOCO = 1.0 / 0.90     # 90% da vida de um personagem por rodada
+print(f"\n  rodadas para cair sob foco (a linha do manual poe a media em "
+      f"{_ALVO_FOCO:.2f}):")
 print(f"  {'':<14}" + ''.join(f'nv{n}'.rjust(9) for n in [2, 5, 10, 20, 30]))
 for nome in CAMINHO:
     print(f'  {nome:<14}' + ''.join(f'{vida(n, CON_TIPICA, nome) / dano_chefe(n):>9.1f}'
                                     for n in [2, 5, 10, 20, 30]))
 med = [sum(vida(n, CON_TIPICA, c) for c in CAMINHO) / 5 / dano_chefe(n) for n in [2, 5, 10, 20, 30]]
 print(f'  {"MEDIA":<14}' + ''.join(f'{m:>9.1f}' for m in med))
-if not 2.5 <= sum(med) / len(med) <= 4.5:
-    erro(f'grupo tipico cai em {sum(med)/len(med):.1f} rodadas — longe das 3,5 do manual')
+_medio = sum(med) / len(med)
+if not _ALVO_FOCO * 0.80 <= _medio <= _ALVO_FOCO * 1.20:
+    erro(f'grupo tipico cai em {_medio:.2f} rodadas sob foco, e a linha do manual pede '
+         f'{_ALVO_FOCO:.2f} — o chefe entrega 90% da vida de um personagem por rodada, '
+         'entao a media tem de cair nessa faixa')
+else:
+    print(f'  [x] a media cai em {_medio:.2f} rodadas, dentro de 20% do {_ALVO_FOCO:.2f} '
+          'que a linha do manual pede')
 
 hi_c = max(CAMINHO, key=lambda c: CAMINHO[c][2])
 lo_c = min(CAMINHO, key=lambda c: CAMINHO[c][2])

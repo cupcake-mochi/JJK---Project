@@ -84,7 +84,28 @@ CURVA = {
 TETO_REFINO = 10
 
 # tabela de inimigo do manual — importada, e o conferir-manual.py vigia a copia
-CHEFE = {5: 15, 10: 26, 15: 38, 20: 49, 25: 61, 30: 72}
+CHEFE = {5: 39, 10: 75, 15: 111, 20: 147, 25: 183, 30: 219}
+
+# v0.201: a tabela de inimigo publica dano por RODADA, e o chefe age tres vezes.
+# Toda regua defensiva desta peca — a RD da Reacao, o empate da Energia Reversa —
+# compara com UM GOLPE, porque e' num golpe que a RD entra e e' um golpe que a
+# cura repoe. Ate a v0.200 elas liam a rodada, e isso passou despercebido porque
+# o chefe entregava 72 por rodada em golpes de 24: a rodada dele era, por
+# coincidencia, o mesmo numero que o golpe do chefe de hoje. Com a linha nova os
+# dois se separaram, e a leitura certa e' a do golpe.
+#
+# O numero de acoes NAO esta escrito aqui: ele e' lido da peca 19, que e' a dona.
+_p19 = os.path.join(AQUI, '19-dano-e-condicoes.md')
+try:
+    _t19 = open(_p19, encoding='utf-8').read()
+except OSError:
+    _t19 = ''
+_m19 = re.search(r'O chefe age `(\d+)` vezes por rodada', _t19)
+if not _m19:
+    print('  !! nao achei "O chefe age N vezes por rodada" na peca 19 — a regua '
+          'defensiva desta peca se mede contra o golpe, e o golpe sai daquele numero')
+    sys.exit(1)
+CHEFE_ACOES = int(_m19.group(1))
 ROTINA = {1: 13, 2: 31, 3: 45, 4: 63, 5: 76, 6: 94, 7: 108}
 CLASSE_NO_NIVEL = {2: 1, 6: 2, 10: 3, 14: 4, 18: 5, 22: 6, 26: 7, 30: 7}
 # Dano de um Classe 0, lido do MANUAL: a tabela "Seu nivel / Quantos voce tem /
@@ -125,6 +146,11 @@ def dano_chefe(nv):
         if a <= nv <= b:
             return CHEFE[a] + (CHEFE[b] - CHEFE[a]) * (nv - a) / (b - a)
     return CHEFE[30]
+
+
+def golpe_chefe(nv):
+    """o que UM golpe do chefe entrega — a linha do manual dividida pelas acoes"""
+    return dano_chefe(nv) / CHEFE_ACOES
 
 
 def piso(x):
@@ -227,11 +253,12 @@ for nv in (6, 10, 14, 18, 22, 26, 30):
     r = refino_em('especialista', nv)
     rd = piso(MULT_RD * r)
     d = dano_chefe(nv)
+    g = golpe_chefe(nv)
     perde = piso(r / DIVISOR) + 1
-    custo = 0.05 * perde * d          # cada ponto de Defesa vale 5 pp de acerto
+    custo = 0.05 * perde * g          # cada ponto de Defesa vale 5 pp de acerto
     saldo = rd - custo
     saldos.append(saldo)
-    print(f'  {nv:<8}{r:<9}{rd:<7}{d:<17.0f}{custo:<17.1f}{saldo:+.1f}')
+    print(f'  {nv:<8}{r:<9}{rd:<7}{g:<17.0f}{custo:<17.1f}{saldo:+.1f}')
     if saldo <= 0:
         erro(f'nv{nv}: a Reacao de cobrir-se tem saldo {saldo:+.1f} — ela vira armadilha, '
              f'e quem a usar esta pagando para tomar mais dano')
@@ -317,21 +344,74 @@ if not EMPILHAM:
          'a mesa nao sabe se a vantagem rola sobre 2x ou sobre 3x, que e o buraco do '
          '`Mirar` outra vez (entrega escrita, interacao nao)')
 
+# v0.202: o Kokusen BASE deixou de custar marco — ele e' regra de mundo, e a
+# peca declara isso. Ate aqui este bloco tinha `MARCOS_DA_PILHA = 3` escrito no
+# codigo, com o comentario "um marco cada", e era ele quem cobrava o marco que a
+# prosa da peca dizia que ninguem pagava. O numero nao mora mais aqui: ele e' a
+# contagem das aptidoes de kokusen que a peca declara como compraveis.
+_regra_de_mundo = 'regra de mundo, e não entrada do catálogo' in PECA11
+
+# --- o kokusen mora em DOIS documentos, e a v0.202 achou os tres jeitos de eles
+# divergirem. O livro publicava um gatilho mais largo, um relogio que esta peca
+# MEDIU E RECUSOU, e um requisito que esta peca nega com todas as letras. Nada
+# disso tinha validador: a lição nº 9 com o documento que chega na mão do jogador.
+_LIVRO_KOK = os.path.join(AQUI, '..', '05-material', 'livro', 'manual',
+                          '45-aptidoes-e-refino.md')
+try:
+    _tl = open(_LIVRO_KOK, encoding='utf-8').read()
+except OSError:
+    _tl = None
+    pulou_kok = True
+
+if _tl is not None:
+    # 1. o gatilho: corpo a corpo, e o feitico de Toque FICA DE FORA
+    if 'Toque' in _tl.split('### Kokusen')[1].split('###')[0]:
+        erro('o livro poe o feitico de Toque no gatilho do kokusen e a peca 11 §6.6 poe '
+             'so o corpo a corpo — um Toque Classe 7 com kokusen entrega 2,62x a Rotina '
+             'contra 0,54x do corpo a corpo, que e 4,8x mais')
+    # 2. o relogio: descanso longo, e nao "por cena"
+    _rel_peca = 'zera no descanso longo' in PECA11
+    _rel_livro = 'zera no descanso longo' in _tl
+    if not _rel_peca:
+        erro('a peca 11 parou de declarar o relogio da protecao contra azar do kokusen')
+    elif not _rel_livro:
+        erro('o livro publica um relogio diferente do da peca 11 para a protecao contra '
+             'azar do kokusen — a peca MEDIU "por cena" e recusou, porque o acumulo so '
+             'comeca no segundo critico da mesma cena e isso acontece em 4,4% das vezes')
+    # 3. nenhuma das duas de melhoria exige a outra nem o kokusen base
+    if 'ter tirado um `Kokusen`' in _tl:
+        erro('o livro poe "ter tirado um Kokusen" como requisito das de melhoria, e a '
+             'peca 11 §6.6 diz que nenhuma delas exige a outra')
+    if not (_rel_peca and 'Toque' not in _tl.split('### Kokusen')[1].split('###')[0]
+            and 'ter tirado um `Kokusen`' not in _tl):
+        pass
+    else:
+        print('  [x] o kokusen do livro bate com o da peca nos tres eixos: gatilho, '
+              'relogio e requisito')
+if not _regra_de_mundo:
+    erro('a peca 11 parou de declarar o `Kokusen` base como regra de mundo — se ele '
+         'voltar a ser entrada de catalogo, a pilha volta a custar tres marcos e esta '
+         'conta muda junto')
+
 if MULT_CONST and EMPILHAM:
-    MARCOS_DA_PILHA = 3          # Kokusen + Constante + Melhorado, um marco cada
+    # so as DUAS de melhoria custam marco
+    MARCOS_DA_PILHA = 2
     p_base = min(1.0, MULT_KOK * TETO_REFINO / 100)
     p_const = min(1.0, MULT_CONST * TETO_REFINO / 100)
     p_pilha = 1 - (1 - p_const) ** 2      # vantagem rola sobre a base ja subida
     print(f"  {'a ficha tem':<38}{'chance no d100':<17}{'dano por rodada':<18}"
           f"{'marcos':<9}{'x atributo, POR marco'}")
-    linhas = [('so o Kokusen', p_base, 1),
-              ('Kokusen + Constante', p_const, 2),
-              ('Kokusen + Melhorado', 1 - (1 - p_base) ** 2, 2),
+    linhas = [('so o Kokusen (de graca)', p_base, 0),
+              ('Kokusen + Constante', p_const, 1),
+              ('Kokusen + Melhorado', 1 - (1 - p_base) ** 2, 1),
               ('as TRES empilhadas', p_pilha, MARCOS_DA_PILHA)]
     for nome, p, marcos in linhas:
         g = dpr(p) / BASE - 1
-        print(f'  {nome:<38}{p:<17.0%}{f"+{g*100:.2f}%":<18}{marcos:<9}'
-              f'{g / marcos / VALE_ATRIBUTO:.2f}x')
+        # v0.202: a linha do Kokusen base custa ZERO marco, e "por marco" nao existe
+        # para ela. O traco e' a leitura certa: ela nao entra na comparacao de preco
+        # porque ela nao tem preco.
+        _por = f'{g / marcos / VALE_ATRIBUTO:.2f}x' if marcos else '—  (de graca)'
+        print(f'  {nome:<38}{p:<17.0%}{f"+{g*100:.2f}%":<18}{marcos:<9}{_por}')
     g_pilha = dpr(p_pilha) / BASE - 1
     por_marco = g_pilha / MARCOS_DA_PILHA
     if por_marco > VALE_ATRIBUTO / 4:
@@ -986,7 +1066,7 @@ else:
                      f'ela antes de publicar, senao ela para de medir em silencio')
                 break
             _cura = _t * _por_pe
-            _tira = dano_chefe(_nv) * ACERTO_DIFICIL
+            _tira = golpe_chefe(_nv) * ACERTO_DIFICIL
             _cob = _cura / _tira
             print(f'  {_nv:<5}{_t:<7}{_cura:<9.1f}{_tira:<16.1f}{_cob:<8.0%}')
             if not BANDA_EMPATE[0] <= _cob <= BANDA_EMPATE[1]:
@@ -1018,7 +1098,7 @@ else:
         else:
             _ruins = []
             for _nv, _lido in _pub.items():
-                _tira = dano_chefe(_nv) * ACERTO_DIFICIL
+                _tira = golpe_chefe(_nv) * ACERTO_DIFICIL
                 _cl, _rf = CLASSE_NO_NIVEL[_nv], refino_em('especialista', _nv)
                 _alvo = [_tira,
                          _cl, _cl * _por_pe, round(_cl * _por_pe / _tira * 100),
@@ -1099,10 +1179,19 @@ else:
             erro(f'`{_nome}`: o titulo da secao pede {sorted(_falta)} e a linha do '
                  f'catalogo diz "{_cel[:50]}" — as duas copias do gate divergiram')
             _divs += 1
-    if _pares < 14:
-        erro(f'so {_pares} entrada(s) do catalogo tem secao para comparar, e eram 14 — '
-             f'alguem mudou o formato do titulo e esta checagem esta conferindo menos. '
-             f'As catorze entradas do catalogo fecharam na v0.92')
+    # v0.202: o catalogo foi de catorze para treze quando o `Kokusen` base saiu da
+    # lista e virou regra de mundo. O numero nao esta escrito aqui: ele e' contado
+    # da tabela do §7 da propria peca, que e' a dona da lista. Guarda escrita a mao
+    # envelhece na versao seguinte, e esta ja envelheceu uma vez.
+    _mn = re.search(r'^\| (\d+) \| `Aptidão Própria`', PECA11, re.M)
+    _esperadas = int(_mn.group(1)) if _mn else None
+    if _esperadas is None:
+        erro('nao achei a ultima linha numerada da tabela do §7 da peca 11 — e dela que '
+             'sai quantas entradas o catalogo tem')
+    elif _pares < _esperadas:
+        erro(f'so {_pares} entrada(s) do catalogo tem secao para comparar, e a tabela do '
+             f'§7 numera {_esperadas} — alguem mudou o formato do titulo e esta checagem '
+             f'esta conferindo menos')
     elif not _divs:
         print(f'  [x] as {_pares} entradas com secao repetem o gate dela no catalogo.')
 

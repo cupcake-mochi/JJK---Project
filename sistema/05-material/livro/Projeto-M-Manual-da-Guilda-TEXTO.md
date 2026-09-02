@@ -4738,7 +4738,7 @@ O marco compra uma aptidão de qualquer escala, e o preço é o mesmo. Quem sepa
 
 Cada aptidão declara o próprio requisito, e ele está na linha dela no catálogo: nenhum, nível, refino, os dois juntos, outra aptidão, ou Origem.
 
-`Cortina` é a única que hoje exige outra aptidão: ela pede `Barreira Simples`, porque cortina é a barreira maior. As três de kokusen são alternativas entre si, e nenhuma exige a outra.
+`Cortina` é a única que hoje exige outra aptidão: ela pede `Barreira Simples`, porque cortina é a barreira maior. As duas de kokusen são alternativas entre si, e nenhuma exige a outra.
 
 ## Catálogo
 
@@ -4755,7 +4755,6 @@ Traço na coluna de Classe Passiva quer dizer que a entrada não tem uma. Traço
 | Canalizar energia | grátis no refino 1 | — | — |
 | Projetar energia | sem requisito | — | o dano |
 | Energia Reversa | refino 7 e nível 13 | 3 | — |
-| Kokusen | sem requisito | — | a chance no d100 |
 | Kokusen Melhorado | refino 5 e nível 14 | — | vantagem no d100 |
 | Kokusen Constante | refino 5 | — | a chance no d100 |
 | Cesta Oca de Vime | sem requisito | 1 | — |
@@ -4818,27 +4817,27 @@ Ela muda a forma das lutas longas e muda o que acontece entre elas: um personage
 
 ### Kokusen
 
-> **Kokusen** — em crítico no corpo a corpo ou em feitiço de Toque, role d100. `2 × refino` ou menos é kokusen: o dano leva +50% depois de todos os valores resolvidos.
+> **Kokusen** — em crítico no corpo a corpo, role d100. `2 × refino` ou menos é kokusen: o dano leva +50% depois de todos os valores resolvidos.
 >
-> Cada d100 falhado empurra o próximo em **+2**, e o acumulado zera no fim da cena.
+> Cada d100 falhado empurra o próximo em **+2**, e o acumulado zera no descanso longo.
 >
-> Requisito: nenhum. O refino escala a chance no d100.
+> Requisito: nenhum, e ele não gasta marco. O refino escala a chance no d100.
 
 O +50% entra em cima do crítico que já dobrou os dados. Um crítico entrega dois punhados de dado; um kokusen entrega três. Por exemplo, com refino 6 o kokusen sai em 12 ou menos no d100 — 12% dos seus críticos corpo a corpo.
 
-O Kokusen em si não é uma aptidão: é uma mecânica, e todo feiticeiro que tem energia consegue usar. Abaixo estão as aptidões que melhoram essa fonte.
+O Kokusen em si não é uma aptidão: é uma mecânica, e todo feiticeiro que tem energia consegue usar. Ele não ocupa vaga de catálogo e não custa marco. Abaixo estão as duas aptidões que melhoram essa fonte.
 
 ### Kokusen Melhorado
 
 > **Kokusen Melhorado** — mesma regra do `Kokusen`, exceto que você rola dois d100 e fica com o melhor.
 >
-> Requisito: refino 5, nível 14 e ter tirado um `Kokusen`. O refino escala a vantagem no d100.
+> Requisito: refino 5 e nível 14. O refino escala a vantagem no d100.
 
 ### Kokusen Constante
 
 > **Kokusen Constante** — mesma regra do `Kokusen`, exceto que a base sobe para `3 × refino`.
 >
-> Requisito: refino 5 e ter tirado um `Kokusen`. O refino escala a chance no d100.
+> Requisito: refino 5. O refino escala a chance no d100.
 
 ## Aptidões anti-domínio, e a `Extensão de Domínio`
 
@@ -6573,4 +6572,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: 0eb72753c9a9fea1a67f60ec992c7dfbe727b6e6 -->
+<!-- fonte: 2301ba82c2a6af769c5a1d0f48c53ff1ccb399b9 -->

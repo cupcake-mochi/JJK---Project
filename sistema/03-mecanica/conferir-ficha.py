@@ -593,16 +593,23 @@ else:
         erro('7: a peca 26 parou de publicar a regra do golpe em dado, e o gerador '
              'continua imprimindo dado — a folha teria regra que peca nenhuma tem')
     else:
-        _tab44 = [l for l in _md.split('\n') if l.startswith('| `Ronda` | `18` |')]
+        # v0.201: esta linha carregava o VALOR (`| `Ronda` | `18` |`) e por isso
+        # sumiu no dia em que a tabela de inimigo mudou — que e' exatamente o dia
+        # em que ela precisava acender. Hoje ela casa a FORMA da linha, e o valor
+        # e' lido dela.
+        _tab44 = re.findall(r'^\| `Ronda` \| `(\d+)` \| `(\d+)` \| `?([^|`]+)`? \|$',
+                            _md, re.M)
         if not _tab44:
             erro('7: a tabela de exemplo do §4.4 mudou de forma')
         else:
-            print('  [x] o golpe em dado segue a regra do §4.4, e a peca publica ela')
+            _r44, _a44, _g44 = _tab44[0]
+            print(f'  [x] o golpe em dado segue a regra do §4.4, e a peca publica ela '
+                  f'(`Ronda` {_r44} por rodada em {_a44} acao -> {_g44.strip()})')
 
     if 'Math.ceil(x - 0.5)' not in open(
             os.path.join(MAT, 'gerador-inimigo', 'make.js'), encoding='utf-8').read():
         erro('7: o gerador do bloco parou de arredondar meio para BAIXO, e a peca 26 '
-             '§4.1 declara essa regra — dezenove das celulas caem em ,5, entao as duas '
+             '§4.1 declara essa regra — vinte e duas das celulas caem em ,5, entao as duas '
              'convencoes divergem em nove delas')
     elif 'meio para BAIXO' not in _md:
         erro('7: a peca 26 parou de declarar a regra de arredondamento, e sem ela os '
