@@ -271,7 +271,7 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 > **⚠ E toda esta régua está pendurada num palpite, que a peça 19 §4 declara com todas as letras:** *o peso dos três grupos é previsão, `04-playtest/` está vazia, e ele é "o número que decide quanto vale toda resistência do sistema".* **Quando a mesa corrigir o peso, o multiplicador se refaz sozinho** — ele é conta, e não tabela.
 
-### 6.4 A Expansão de Domínio do inimigo — ela custa um degrau de categoria
+### 6.4 A Expansão de Domínio do inimigo — ela DOBRA a categoria
 
 ***Decisão do Mizuki: a Expansão do inimigo é a do jogador, escalonada para grupo.*** *A máquina inteira mora no manual, e nada dela é reescrito aqui.*
 
@@ -280,26 +280,36 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 > **Fora do domínio o inimigo acerta `52%` — é a banda de `50%` a `55%` que o §3.1 publica.** *Dentro, o Acerto acontece: sem rolagem e sem Teste de Resistência, como o manual escreve.*
 > **Então a Expansão completa multiplica a saída efetiva dele por `1 ÷ 0,52`, que é `1,92 ×`.**
 
-**E a duração cobre a luta inteira, então o multiplicador vale o encontro todo.** *O manual põe a duração em metade do refino, e o refino do chefe do nível 30 é `10` — cinco rodadas contra uma luta de `3,00`.*
+**E a categoria mede exatamente a coisa que esse número move.** *Ela é "quantos personagens ele exige", e o fator dela é `personagens ÷ 4`.* **Como `1,92` arredonda para `2`, a regra sai em uma linha:**
 
-**A moeda já existe, e é a mesma do §6.3: o degrau de categoria.**
+> **Uma Expansão de Domínio completa DOBRA quantos personagens o inimigo exige.**
 
-| categoria | precisa descer para | a categoria abaixo | erro |
-|---|---|---|---|
-| **`Dupla`** | `0,26` | **`Ronda`**, `0,25` | `4%` |
-| **`Alcateia`** | `0,52` | **`Dupla`**, `0,50` | `4%` |
-| `Calamidade` | `0,78` | `Alcateia`, `1,00` | `28%` — não cabe |
-| `Ronda` | `0,13` | — não existe degrau abaixo | não cabe |
+| categoria | exige | com Expansão completa |
+|---|---|---|
+| **`Ronda`** | `1` | `2` — vira uma **`Dupla`** |
+| **`Dupla`** | `2` | `4` — vira uma **`Alcateia`** |
+| **`Alcateia`** | `4` | **`8`** — acima da escada |
+| **`Calamidade`** | `6` | **`12`** — acima da escada |
 
-> **Um inimigo com Expansão de Domínio completa monta-se com a linha da categoria de baixo.** *No nível 30 uma `Alcateia` com domínio usa os `109` de dano por rodada da `Dupla`, e dentro do domínio ela entrega os `109` inteiros contra os `114` efetivos que uma `Alcateia` normal entrega — `0,96 ×`.*
+**Duas caem em degraus que a escada já tem, e duas passam do topo.** *A escada sobe `2,00 ×`, `2,00 ×` e `1,50 ×` — o último degrau é menor que a Expansão, então as duas de cima saem dela.* **Isso não é impedimento: a categoria mede pessoas, e o número existe fora da escada do mesmo jeito.**
 
-**Os dois degraus de baixo da escada valem `2,00 ×` exatos, e a Expansão vale `1,92 ×`.** *Quatro por cento de distância, que é o mesmo tipo de folga que o §6.3 aceita para a resistência.*
-
-> **⚠ E ela não cabe nas duas pontas, pelo mesmo motivo que a imunidade a `Físicos` não cabe no topo.** *A `Calamidade` só tem o degrau de `1,50 ×` abaixo dela, e a `Ronda` não tem degrau nenhum.* **Uma `Calamidade` com domínio fica `28%` acima do tamanho que a categoria promete**, e uma `Ronda` com domínio não tem como pagar.
+> **⚠⚠ E é por isso que o chefe da obra com domínio nunca é enfrentado por quatro.** *Uma `Calamidade` com Expansão exige **doze** feiticeiros.* **A régua diz, em número, a coisa que a ficção já dizia: contra isso o grupo não ganha — ele foge, ou traz gente.**
 >
-> **A incompleta não custa nada nesta régua.** *O manual diz que o Acerto dela "resolve por rolagem, como um feitiço"* — **sem a garantia não existe o `1,92 ×`**, e o que ela dá é o Efeito, que não é dano.
+> ***⚠ A primeira forma desta seção estava errada, e quem achou foi o Mizuki:*** *"não faz sentido um Sukuna da vida não ter expansão, ele seria Calamidade, não?"* **Ela media só para BAIXO — "com que linha eu monto para o encontro não crescer" — e, não achando degrau abaixo da `Calamidade`, concluía que aquela categoria não podia ter domínio.** *A conclusão não segue.* **O que falta ali não é a permissão: é o número do encontro maior**, e ele existe porque a categoria mede pessoas e não degraus.
+>
+> *Uma régua que proíbe o chefe mais famoso da obra de fazer a coisa mais famosa dele está errada antes de qualquer conta.*
+
+**O mestre usa a regra dos dois lados, e os dois são a mesma conta:**
+
+> **Quer manter o tamanho?** *Monte com a linha da categoria de baixo* — uma `Alcateia` com domínio construída com os `109` de dano por rodada da `Dupla` entrega os `109` inteiros, contra os `114` efetivos de uma `Alcateia` normal. **Só a `Dupla` e a `Alcateia` têm linha abaixo para isso.**
+>
+> **Quer o inimigo maior?** *Deixe a linha como está e leia a coluna da direita* — o encontro passou a exigir o dobro de gente, e o mestre monta a mesa sabendo disso.
+
+**A incompleta não custa nada nesta régua.** *O manual diz que o Acerto dela "resolve por rolagem, como um feitiço"* — **sem a garantia não existe o `1,92 ×`**, e o que ela dá é o Efeito, que não é dano. *Qualquer categoria pode ter uma.*
 
 **E abrir não custa rodada ao inimigo, apesar de custar ao jogador.** *O manual cobra a rodada inteira e `6 ×` a maior Classe de PE; o inimigo não conta PE pelo §6.1, e o Acerto acontece no momento em que ele abre.* **A cota daquela rodada sai pelo Acerto em vez de sair pelos golpes, e nada se perde.**
+
+> **A duração cobre a luta inteira, e é por isso que o multiplicador vale o encontro todo.** *O manual põe a duração em metade do refino, e o refino do chefe do nível 30 é `10` — cinco rodadas contra uma luta de `3,00`.*
 
 ## 7. O que o `conferir-bestiario.py` confere
 

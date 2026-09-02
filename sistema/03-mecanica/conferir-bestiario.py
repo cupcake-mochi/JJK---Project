@@ -610,11 +610,16 @@ else:
 
 
 # --------------------------------------------------------------------------
-# 7.1 (v0.204): a Expansao de Dominio do inimigo. Ela nao acrescenta dano — o
-# §6.1 poe tudo na cota —, e o que ela faz e' o Acerto parar de rolar. Entao o
-# preco dela e' a razao entre acertar sempre e acertar 52%, e a moeda e' a mesma
-# do §6.3: o degrau de categoria. Nenhum numero aqui: o acerto vem do §3.1 e os
-# fatores vem da tabela do §4.
+# 7.1 (v0.204, reescrita na v0.205): a Expansao de Dominio do inimigo. Ela nao
+# acrescenta dano — o §6.1 poe tudo na cota —, e o que ela faz e' o Acerto parar
+# de rolar. O preco e' a razao entre acertar sempre e acertar 52%, e a categoria
+# mede exatamente a coisa que essa razao move: quantos personagens ele exige.
+#
+# ⚠ A primeira forma desta checagem media so' para BAIXO e cobrava que a peca
+# declarasse em que categorias a Expansao "nao cabe". Isso vinha de um erro da
+# peca, achado pelo Mizuki: nao existir degrau abaixo da Calamidade nao proibe
+# ela de ter dominio — so' quer dizer que o encontro fica maior, e o numero
+# existe fora da escada porque a categoria mede PESSOAS.
 _mexp = re.search(r'multiplica a saída efetiva dele por `1 ÷ ([\d,]+)`, que é `([\d,]+) ×`', TXT)
 if not _mexp:
     erro('7.1: a peca nao publica o multiplicador da Expansao como "1 ÷ acerto" — sem '
@@ -624,7 +629,6 @@ else:
     _mult_pub = float(_mexp.group(2).replace(',', '.'))
     if abs(1 / _ac - _mult_pub) > 0.01:
         erro(f'7.1: a peca publica {_mult_pub:.2f}x e 1 ÷ {_ac:.2f} da {1/_ac:.2f}')
-    # o acerto tem de sair da banda que o §3.1 publica, e nao deste arquivo
     _mb = re.search(r'ele acerta `(\d+)%` a `(\d+)%`', TXT)
     if not _mb:
         erro('7.1: nao achei a banda de acerto do §3.1 — o multiplicador da Expansao se '
@@ -635,57 +639,45 @@ else:
     else:
         print(f'  [x] o multiplicador da Expansao ({_mult_pub:.2f}x) e 1 ÷ o acerto do '
               f'§3.1, e o acerto cai dentro da banda publicada')
-    # e as categorias que cabem: erro abaixo de 6% contra o degrau de baixo
-    _fat = {}
-    for _l in TXT.split('\n'):
-        _m = re.match(r'\|\s*\*\*`(\w+)`\*\*\s*\|\s*(\d+)\s*\|\s*`× ([\d,]+)`', _l)
-        if _m:
-            _fat[_m.group(1)] = float(_m.group(3).replace(',', '.'))
-    if len(_fat) != 4:
-        erro(f'7.1: li {len(_fat)} fatores de categoria e esperava 4')
+
+    # a regra publicada e "dobra quantos personagens ele exige". O `dobra` so' vale
+    # se o multiplicador arredondar para 2 — se ele sair dessa faixa, a frase da
+    # peca deixa de ser verdade e esta checagem tem de acender.
+    if not (1.75 <= _mult_pub <= 2.25):
+        erro(f'7.1: a peca publica que a Expansao DOBRA a categoria, e o multiplicador '
+             f'dela e {_mult_pub:.2f}x — fora da faixa que arredonda para dois')
+    elif 'DOBRA quantos personagens o inimigo exige' not in TXT:
+        erro('7.1: a peca parou de publicar a regra da Expansao como "dobra quantos '
+             'personagens o inimigo exige" — sem ela a tabela vira numero solto')
     else:
-        _ord = sorted(_fat.items(), key=lambda kv: kv[1])
-        _cabem = []
-        for _i, (_n, _f) in enumerate(_ord):
-            if _i == 0:
-                continue
-            _prec = _f / _mult_pub
-            _abaixo = _ord[_i - 1][1]
-            if abs(_abaixo - _prec) / _prec < 0.06:
-                _cabem.append(_n)
-        _decl = [_n for _n in _fat if f'na `{_n}`' in TXT or f'**`{_n}`** | `0,' in TXT]
-        print(f'  a Expansao cabe em: {", ".join(sorted(_cabem))}')
-        if sorted(_cabem) != ['Alcateia', 'Dupla']:
-            erro(f'7.1: a Expansao passou a caber em {sorted(_cabem)}, e a peca publica '
-                 'que ela so cabe na Dupla e na Alcateia')
+        # e a tabela tem de ser o dobro da coluna de personagens do §4, linha a linha
+        _pes = {}
+        for _l in TXT.split('\n'):
+            _m = re.match(r'\|\s*\*\*`(\w+)`\*\*\s*\|\s*(\d+)\s*\|\s*`× ([\d,]+)`', _l)
+            if _m:
+                _pes[_m.group(1)] = int(_m.group(2))
+        _dob = {}
+        for _l in TXT.split('\n'):
+            _m = re.match(r'\|\s*\*\*`(\w+)`\*\*\s*\|\s*`(\d+)`\s*\|\s*\*?\*?`?(\d+)`?', _l)
+            if _m and _m.group(1) in _pes:
+                _dob[_m.group(1)] = (int(_m.group(2)), int(_m.group(3)))
+        if len(_pes) != 4 or len(_dob) != 4:
+            erro(f'7.1: li {len(_pes)} categorias no §4 e {len(_dob)} na tabela do §6.4, '
+                 'e esperava 4 em cada — alguma mudou de forma')
         else:
-            # ⚠ a primeira forma desta guarda procurava `não cabe` em QUALQUER lugar do
-            # texto, e o arnes da v0.204 mostrou que ela nao acendia: a frase aparece
-            # em mais de uma linha, entao apagar a de uma categoria passava calada.
-            # Hoje ela cobra o par NOME + `não cabe` na MESMA linha, uma por uma.
-            _naocabem = [_n for _n in _fat if _n not in _cabem and _n != _ord[0][0]]
-            _naocabem.append(_ord[0][0])      # a menor tambem nao cabe: nao ha degrau abaixo
-            # ⚠⚠ e a SEGUNDA forma tambem passava: a prosa declara as duas na mesma
-            # linha, entao apagar a declaracao de uma so' continuava achando a outra.
-            # A guarda le a LINHA DA TABELA daquela categoria, que e' onde o mestre
-            # olha quando monta o inimigo — prosa nao e' o lugar dessa informacao.
-            _sem = []
-            for _n in _naocabem:
-                _linha = [_l for _l in TXT.split('\n')
-                          if _l.startswith('|') and f'`{_n}`' in _l and '|' in _l[1:]
-                          and ('cabe' in _l or 'degrau' in _l or '%' in _l)
-                          and 'personagens' not in _l]
-                _achou = any('não cabe' in _l for _l in _linha)
-                if not _achou:
-                    _sem.append(_n)
-            if _sem:
-                erro('7.1: a peca nao declara `não cabe` na linha de: '
-                     + ', '.join(sorted(_sem))
-                     + ' — sem isso um mestre poe dominio numa Calamidade e infla o '
-                       'encontro em 28%')
-            else:
-                print('  [x] ela cabe na Dupla e na Alcateia, e a peca declara `não cabe` '
-                      'na linha de cada uma das outras duas')
+            _mau = 0
+            for _n, (_p, _c) in _dob.items():
+                if _p != _pes[_n]:
+                    erro(f'7.1: o §6.4 diz que a `{_n}` exige {_p} personagens e o §4 diz '
+                         f'{_pes[_n]}')
+                    _mau += 1
+                elif _c != 2 * _p:
+                    erro(f'7.1: a `{_n}` exige {_p} e com Expansao o §6.4 publica {_c}, e '
+                         f'o dobro e {2 * _p}')
+                    _mau += 1
+            if not _mau:
+                print('  [x] a tabela do §6.4 e o dobro da coluna de personagens do §4, '
+                      'nas quatro categorias')
 
 
 # --------------------------------------------------------------------------

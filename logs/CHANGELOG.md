@@ -10,7 +10,7 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ## [0.204] — 02/09/2026
 
-**A Expansão de Domínio de inimigo fechou, e o preço dela saiu inteiro de coisas que a peça já tinha.** *Era o penúltimo item do §8 do Bestiário, e a decisão de desenho já era do Mizuki: "expansão de inimigo é basicamente a mesma coisa da de player, mas escalonada para funcionar em grupos".*
+**A Expansão de Domínio de inimigo fechou, e a regra é de uma linha: ela DOBRA quantos personagens o inimigo exige.** *Era o penúltimo item do §8 do Bestiário, e o desenho já era decisão do Mizuki — "expansão de inimigo é basicamente a mesma coisa da de player, mas escalonada para funcionar em grupos".*
 
 ### 1 · Ela não acrescenta dano, e é isso que faz o preço aparecer
 
@@ -21,44 +21,50 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 *E a duração cobre a luta inteira: o manual põe em metade do refino, e o refino do chefe do nível 30 é `10` — cinco rodadas contra uma luta de `3,00`.*
 
-### 2 · A moeda já existia, e ela é o degrau de categoria
+### 2 · A categoria mede exatamente a coisa que esse número move
 
-**Os dois degraus de baixo da escada valem `2,00 ×` exatos, e a Expansão vale `1,92 ×`** — quatro por cento de distância, a mesma folga que o §6.3 aceita para a resistência.
+**A categoria é "quantos personagens ele exige", e o fator dela é `personagens ÷ 4`.** *Como `1,92` arredonda para `2`, a regra sai inteira em uma frase.*
 
-| categoria | precisa descer para | a de baixo | erro |
-|---|---|---|---|
-| **`Dupla`** | `0,26` | **`Ronda`** `0,25` | `4%` |
-| **`Alcateia`** | `0,52` | **`Dupla`** `0,50` | `4%` |
-| `Calamidade` | `0,78` | `Alcateia` `1,00` | `28%` — não cabe |
-| `Ronda` | `0,13` | não existe | não cabe |
+| categoria | exige | com Expansão |
+|---|---|---|
+| `Ronda` | `1` | `2` — vira uma `Dupla` |
+| `Dupla` | `2` | `4` — vira uma `Alcateia` |
+| `Alcateia` | `4` | **`8`** — acima da escada |
+| `Calamidade` | `6` | **`12`** — acima da escada |
 
-> **Um inimigo com Expansão completa monta-se com a linha da categoria de baixo.** *No nível 30 uma `Alcateia` com domínio usa os `109` da `Dupla`, e entrega os `109` inteiros contra os `114` efetivos de uma `Alcateia` normal — `0,96 ×`.*
+> **Duas caem em degraus que a escada já tem e duas passam do topo, e isso não impede nada** — *a escada sobe `2,00 ×`, `2,00 ×` e `1,50 ×`, e o último degrau é menor que a Expansão.* **O número existe fora dela porque a categoria mede pessoas.**
 >
-> **⚠ E ela não cabe nas duas pontas, pelo mesmo motivo que a imunidade a `Físicos` não cabe no topo.** *A `Calamidade` só tem o degrau de `1,50 ×` abaixo dela e a `Ronda` não tem degrau nenhum.*
+> **⚠⚠ E é por isso que o chefe da obra com domínio nunca é enfrentado por quatro.** *Uma `Calamidade` com Expansão exige **doze** feiticeiros* — a régua diz em número a coisa que a ficção já dizia.
 >
-> **A incompleta não custa nada nesta régua**, porque o Acerto dela resolve por rolagem — sem a garantia não existe o `1,92 ×`.
+> **A incompleta não custa nada**, porque o Acerto dela ainda rola. *Qualquer categoria pode ter uma.*
 
-**E abrir não custa rodada ao inimigo, apesar de custar ao jogador.** *O manual cobra a rodada inteira e `6 ×` a maior Classe de PE; o inimigo não conta PE, e o Acerto acontece no momento em que ele abre.* **A cota daquela rodada sai pelo Acerto em vez dos golpes, e nada se perde.**
+### 3 · A primeira forma desta regra estava errada, e o Mizuki achou
 
-### 3 · E o arnês achou a mesma guarda frouxa DUAS vezes
+***Pergunta dele: "não faz sentido um Sukuna da vida não ter expansão, ele seria Calamidade, não?"***
 
-**A checagem `7.1` nasceu procurando `não cabe` em qualquer lugar do texto, e a perturbação de tirar a declaração da `Calamidade` saiu VERDE.** *A frase aparece em mais de uma linha.*
+**A primeira versão media só para BAIXO — "com que linha eu monto para o encontro não crescer" — e, não achando degrau abaixo da `Calamidade`, concluía que aquela categoria não podia ter domínio.** *A conclusão não segue: o que falta ali não é a permissão, é o número do encontro maior.*
 
-> **Apertada para cobrar o par nome + `não cabe` na mesma linha, ela AINDA passou** — *a prosa declara a `Calamidade` e a `Ronda` na mesma linha, então apagar a de uma continuava achando a outra.*
+> ***Uma régua que proíbe o chefe mais famoso da obra de fazer a coisa mais famosa dele está errada antes de qualquer conta.*** **E medindo para o outro lado o número ficou mais simples do que era**, porque `1,92` é dois e a categoria conta gente.
+
+### 4 · E o arnês achou a mesma guarda frouxa duas vezes, antes disso
+
+**A checagem nasceu procurando `não cabe` em qualquer lugar do texto, e a perturbação de tirar a declaração saiu VERDE** — a frase aparece em mais de uma linha.
+
+> **Apertada para cobrar o par nome + `não cabe` na mesma linha, ela AINDA passou:** *a prosa declarava as duas categorias na mesma linha, então apagar uma continuava achando a outra.*
 >
-> **A terceira forma lê a LINHA DA TABELA daquela categoria**, que é onde o mestre olha quando monta o inimigo. *Aí as duas perturbações acendem e os dois contra-testes ficam verdes — inclusive o de apagar a prosa e deixar a tabela.*
+> ***"Guarda que aceita demais avisa tarde" é a lição da v0.199, e ela apareceu duas vezes seguidas na mesma checagem.*** **As duas perturbações minhas estavam mal miradas.**
 >
-> ***"Guarda que aceita demais avisa tarde" é a lição da v0.199, e ela apareceu duas vezes seguidas na mesma checagem.*** **A primeira perturbação minha estava mal mirada, e a segunda também.**
+> *A guarda inteira acabou sendo jogada fora junto com a regra errada, e a checagem de hoje pergunta outra coisa: se a tabela do §6.4 é o dobro da coluna de personagens do §4, linha a linha.* **Cinco perturbações acendem nela, e o contra-teste fica verde.**
 
 ### Alterado
 
 - **`26-bestiario.md`** — o §6.4 novo, e o item da Expansão saiu do §8.
-- **`conferir-bestiario.py`** — a sub-checagem `7.1`, com o multiplicador lido de `1 ÷ acerto` e as categorias recontadas dos fatores. *Sub-bloco, então a contagem não se move.*
+- **`conferir-bestiario.py`** — a sub-checagem `7.1`, com o multiplicador lido de `1 ÷ acerto` e a tabela recontada contra a coluna de personagens. *Sub-bloco, então a contagem não se move.*
 
 ### Decidido
 
-- **A Expansão de Domínio de inimigo custa um degrau de categoria.**
-- **Ela só cabe na `Dupla` e na `Alcateia`**, e as duas pontas ficam declaradas na tabela.
+- **A Expansão de Domínio completa dobra quantos personagens o inimigo exige.**
+- **Nenhuma categoria fica proibida de ter uma.** *As duas de cima passam do topo da escada, e a peça publica o número em pessoas.*
 - **A incompleta não custa nada**, porque o Acerto dela ainda rola.
 
 → **Continua em** `sistema/ESTADO-ATUAL.md`. **Sobrou o catálogo de maldições prontas**, que espera a lista do Mizuki, *o exemplo guiado de invocação e a coluna de capanga da Classe 1.*
