@@ -368,6 +368,26 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 - **A coluna de capanga da Classe 1, que a v0.199 deixou vazia por uma razão que morreu.** *O §5.1 registra: com a tabela nova o corpo do fundo tem `29` de vida e quatro deles duram `3,05` rodadas, igual às outras seis faixas.* **Encher a coluna é escolha do Mizuki**, e ela custa uma linha na tabela do manual mais o texto do §5.1.
 
+- **⚠⚠ O CATÁLOGO DE TRAÇOS, e ele é o próximo trabalho desta peça.** ***Levantado pelo Mizuki:*** *"não é bom ele ter justamente PE para ter recursos? Mago inimigo em D&D tem spell slot, técnica máxima como possibilidade, habilidade com recarga. Usar a ficha de D&D como base é o que mais vai ajudar esse sistema de inimigos ficar legal."*
+
+  > **A pesquisa no `Guia do Mestre` responde os dois lados, e o §6.1 sobrevive.** *O passo 13 de "Criando o Bloco de Estatísticas" escreve, entre parênteses: **"as características não mudam realmente as estatísticas do monstro"** — elas mexem na vida efetiva, no dano efetivo ou na CA efetiva, e é assim que entram no Nível de Desafio.* **Espaço de magia num bloco de conjurador é FORMA e não orçamento: o Guia manda contar a magia pelo dano dela.**
+  >
+  > ***E a escada de categoria desta peça JÁ É essa máquina.*** *O §6.3 converte resistência em degrau e o §6.4 converte a Expansão em dobro de categoria — os dois são o passo 13, com outro nome.* **O que falta não é a máquina: é o CATÁLOGO, e ele tem duas entradas.**
+  >
+  > **A entrada que o Mizuki está pedindo é a habilidade que não sai toda rodada, e ela é de graça nesta régua.** *Uma habilidade guardada não muda a cota: ela muda a rodada em que o grupo apanha.* **Numa luta de três rodadas, uma habilidade que entrega o dobro de uma rodada deixa as outras duas em `110` cada, e o total continua sendo `657`.** *É o mesmo fenômeno do §4.4 e do §4.5 — mesmo tamanho, forma diferente.*
+  >
+  > **⚠ A recarga `5-6` do d20 NÃO cabe aqui, e a conta diz por quê:** *numa luta de três rodadas ela dispara `1,67` vezes, e a cota não paga isso.* **Lá ela cabe porque a economia de rodadas é outra.** *O relógio que cabe é `1 ×` por luta, e ele fica para o §6.5 medir junto das outras.*
+
+  **As entradas que faltam medir:** *ação fora do turno, no molde da ação lendária · recusar um Teste de Resistência, no molde da Resistência Lendária — a v0.199 recusou aquilo com o chefe em `72` e a v0.201 mudou o chão dessa medida · e a técnica do inimigo, que o §6 menciona e não preça.*
+
+- **⚠ O inimigo que se cura, e a conta dele já existe.** ***Pergunta do Mizuki:*** *"como fica inimigo que quer se curar? Quer usar técnica?"*
+
+  > **É a mesma conta que a v0.203 fez do lado do grupo, virada.** *Ele gasta a rodada e abre mão de `219` de dano; ganha `H` de vida, que alonga a luta em `H ÷ 315` rodadas, e cada rodada a mais entrega `219`.* **Então `H` de cura vale `0,70 × H` de dano, e o empate está em curar `315` — um TERÇO da vida máxima dele.**
+  >
+  > **Cura de lasca em inimigo é o mesmo erro que o grupo comete.** *Curar `219` — quase um quarto da vida dele — rende `152` contra os `219` que ele largou.* **Só vale se ele repuser um terço de si mesmo numa rodada**, e isso é exatamente o tamanho que a obra dá para a energia reversa de quem é bom nela.
+  >
+  > *A régua está escrita; o que falta é a entrada do catálogo dizendo em que moeda ela se paga — e isso é o §6.5.*
+
 - **As maldições prontas.** *A decisão da v0.161 é máquina mais prontas, e esta versão entrega a máquina.* **Quantas, de que categorias e com que técnicas é escolha do Mizuki**, e o catálogo é a versão seguinte.
 - ~~**A Expansão de Domínio de inimigo.**~~ ***FECHADA na v0.204, no §6.4:*** **ela custa um degrau de categoria**, porque o Acerto garantido multiplica a saída efetiva por `1,92 ×` e os dois degraus de baixo da escada valem `2,00 ×`. *Só cabe na `Dupla` e na `Alcateia` — a `Calamidade` não tem degrau de `2 ×` abaixo dela e a `Ronda` não tem degrau nenhum.*
 - **O inimigo com Trilha.** *Fica de fora por decisão, e o motivo está no §6* — mas um antagonista recorrente que sobe junto com o grupo é caso de mesa que vai aparecer.

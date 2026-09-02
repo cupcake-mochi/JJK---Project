@@ -61,13 +61,25 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 - **`26-bestiario.md`** — o §6.4 novo, e o item da Expansão saiu do §8.
 - **`conferir-bestiario.py`** — a sub-checagem `7.1`, com o multiplicador lido de `1 ÷ acerto` e a tabela recontada contra a coluna de personagens. *Sub-bloco, então a contagem não se move.*
 
+### 5 · E o §8 ganhou o próximo trabalho da peça, com a pesquisa já feita
+
+***Levantado pelo Mizuki:*** *"não é bom ele ter justamente PE para ter recursos? Mago inimigo em D&D tem spell slot, habilidade com recarga. Usar a ficha de D&D como base é o que mais vai ajudar."*
+
+**A pesquisa responde os dois lados, e o `§6.1` sobrevive.** *O passo 13 do `Guia do Mestre` escreve entre parênteses: "as características **não mudam realmente as estatísticas** do monstro" — elas mexem na vida efetiva, no dano efetivo ou na CA efetiva.* **Espaço de magia num bloco de conjurador é forma, e não orçamento.**
+
+> ***E a escada de categoria desta peça já É essa máquina.*** *O §6.3 converte resistência em degrau e o §6.4 converte a Expansão em dobro.* **O que falta é o CATÁLOGO, e ele tem duas entradas.**
+>
+> **A habilidade guardada, que é o que ele está pedindo, sai de graça na régua:** *ela não muda a cota, muda a rodada em que o grupo apanha.* **⚠ E a recarga `5-6` do d20 não cabe — numa luta de três rodadas ela dispara `1,67` vezes, e a cota não paga.**
+
+**E a segunda pergunta dele — *"como fica inimigo que quer se curar?"* — já tem conta.** *É a da v0.203 virada: `H` de cura vale `0,70 × H` de dano, e o empate é curar `315`, que é um terço da vida dele.* **Cura de lasca em inimigo é o mesmo erro que o grupo comete**, e só vale se ele repuser um terço de si mesmo numa rodada.
+
 ### Decidido
 
 - **A Expansão de Domínio completa dobra quantos personagens o inimigo exige.**
 - **Nenhuma categoria fica proibida de ter uma.** *As duas de cima passam do topo da escada, e a peça publica o número em pessoas.*
 - **A incompleta não custa nada**, porque o Acerto dela ainda rola.
 
-→ **Continua em** `sistema/ESTADO-ATUAL.md`. **Sobrou o catálogo de maldições prontas**, que espera a lista do Mizuki, *o exemplo guiado de invocação e a coluna de capanga da Classe 1.*
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **O próximo trabalho do Bestiário é o `§6.5`, o catálogo de traços**, com a pesquisa já feita e três entradas medidas ou quase — a habilidade guardada, o inimigo que se cura e as duas que já existem. *Fora dele: o catálogo de maldições prontas, que espera a lista do Mizuki, o exemplo guiado de invocação e a coluna de capanga da Classe 1.*
 
 ---
 

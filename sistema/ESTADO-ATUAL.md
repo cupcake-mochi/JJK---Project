@@ -4,6 +4,14 @@ Atualizado em 02/09/2026, na v0.204 (última peça fechada: **Bestiário**, a pe
 
 **Versão v0.204.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
 
+**A v0.204 fechou a Expansão de Domínio de inimigo, e ela dobra quantos personagens ele exige.** *`Ronda` vira `Dupla`, `Dupla` vira `Alcateia`, e as duas de cima passam do topo da escada — uma `Calamidade` com Expansão exige **doze** feiticeiros.*
+
+> **A primeira forma da regra proibia a `Calamidade` de ter domínio, e o Mizuki achou:** *"não faz sentido um Sukuna da vida não ter expansão, ele seria Calamidade, não?"* **Ela media só para baixo e, não achando degrau abaixo, concluía que não podia.** *A conclusão não segue: o que falta ali é o número do encontro maior, e ele existe porque a categoria mede pessoas.*
+
+**⚠ E o próximo trabalho do Bestiário é o `§6.5`, o catálogo de traços, com a pesquisa já feita.** *O passo 13 do `Guia do Mestre` diz que as características do monstro "não mudam realmente as estatísticas" — elas mexem na vida efetiva, no dano efetivo ou na CA efetiva.* **A escada de categoria desta peça já É essa máquina; o que falta é o catálogo, e ele tem duas entradas.**
+
+> *Medidas ou quase: a habilidade guardada sai de graça, porque só redistribui a cota — e a recarga `5-6` do d20 não cabe, porque numa luta de três rodadas ela dispara `1,67` vezes. O inimigo que se cura empata em `315`, que é um terço da vida dele.* **Faltam a ação fora do turno, a recusa de Teste de Resistência e a técnica do inimigo.**
+
 **A v0.201 triplicou a pressão do chefe, e ela foi medida contra dois sistemas de fora antes de qualquer coisa.** *O chefe do nível 30 saiu de `72` para `219` de dano por rodada e de `1155` para `945` de vida; o manual foi para a `v7.23`.*
 
 > **A régua é a mesma nos três sistemas: quanto o chefe come do grupo por rodada, quanto come de UMA pessoa, e quantas ele derruba numa luta.** *O `Guia do Mestre` de 2014 dá `21,3%` a `22,5%` · `85%` a `90%` · `2,56` a `2,70`; o chefe solo do Pathfinder 2e dá `22,9%` · `92%` · `~2,8`.* **Aqui dava `7,4%` · `30%` · `1,09`, e hoje dá `22,5%` · `90%` · `2,70`.**
