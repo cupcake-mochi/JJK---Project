@@ -118,9 +118,9 @@ A linha passiva do marco sozinha conserta isso:
 
 > **⚠ E o que isto NÃO tem é régua, declarado.** *"Uma aptidão a mais" não converte em fatia, e foi ela que matou o `Repertório` na v0.81.* **A diferença é quem recebe:** lá a Trilha era vendida para qualquer ficha, e o número tinha de valer para quem nunca pega aptidão nenhuma. **Aqui quem leva a segunda aptidão é, por definição, quem já escolheu esse eixo cinco vezes.** *A régua continua não existindo; o que muda é que esta comparação não depende dela.*
 
-**A rota pura passa a precisar de 10 aptidões**, e o catálogo da seção 6 tem **11 que custam marco**. *Cabe, com uma de folga.* **E desde a v0.91 elas estão escritas com número**, quando a `Barreira Simples` e a `Cortina` fecharam.
+**A rota pura passa a precisar de 10 aptidões**, e o catálogo da seção 6 tem **12 que custam marco**. *Cabe, com duas de folga.* **E desde a v0.91 elas estão escritas com número**, quando a `Barreira Simples` e a `Cortina` fecharam.
 
-> **⚠⚠ Eram DOZE pagas e duas de folga até a v0.202, e o `Kokusen` base saiu da lista naquela versão** — ele virou regra de mundo, e o §6.6 registra por quê. **Com onze pagas para dez picks a folga ficou em uma, e isso é fino demais para ser o estado final:** *quem não pega a `Cortina` leva o catálogo inteiro e ainda sobra um pick, que é a falta de cardápio que a folga existe para evitar.* **É dívida declarada, e a aptidão seguinte a paga** — o catálogo volta a doze pagas assim que uma entrada nova entrar.
+> **⚠ A folga já foi uma, por uma versão.** *O `Kokusen` base saiu da lista de compráveis na v0.202 — ele virou regra de mundo, e o §6.6 registra por quê —, e o catálogo caiu para onze pagas contra dez picks.* **A v0.203 pagou a dívida com a `Circulação`**, e a folga voltou a duas. *Fica escrito porque a dívida foi declarada quando ela nasceu, e uma dívida declarada e paga sem registro vira número que ninguém sabe de onde veio.*
 
 > **⚠ Só que a `Cortina` gasta DOIS marcos**, porque ela exige a `Barreira Simples`. *Uma rota pura que queira as duas usa `2` dos `10` picks para uma entrada só de catálogo.* **A folga de duas continua de pé, e ela some se alguém quiser as doze.**
 
@@ -192,7 +192,7 @@ As aptidões herdam a escada das Passivas do manual. **Ela não mede quanto — 
 
 *A terceira coluna é a prova de que a leitura não foi inventada aqui:* as seis da Classe Passiva 1 são todas *"você sabe"* ou *"você não sofre"*, e as sete da 2 **disparam quando alguma coisa acontece** — quatro delas com limite escrito (`Recomposição`, `Segunda Natureza`, `Costura` e o *"da cena"* do `Eco`), a `Contramedida` presa à reação, e `Fluxo` e `Peso da Presença` presas só ao gatilho. **A escada estava na tabela do manual; o que faltava era alguém escrever o que ela separa.**
 
-> *E duas delas não trazem relógio nenhum, o que parece frouxidão e não é:* **o `Fluxo` cobra um feitiço de Classe 3 ou mais para disparar, e o `Peso da Presença` só pega inimigo fraco e ainda passa por TR.** *O que a Classe Passiva 2 pede é **gatilho**, e não contador* — uma Passiva de Classe 1 melhorada, presa a uma condição que já custa caro, cabe nesta linha inteira. **A definição escrita na tabela do manual é que está mais estreita do que a lista que ela abriga**, e isso é pergunta para o dono da lista.
+> *E duas delas não trazem relógio nenhum, o que parece frouxidão e não é:* **a `Circulação` cobra um feitiço de Classe 3 ou mais para disparar, e o `Peso da Presença` só pega inimigo fraco e ainda passa por TR.** *O que a Classe Passiva 2 pede é **gatilho**, e não contador* — uma Passiva de Classe 1 melhorada, presa a uma condição que já custa caro, cabe nesta linha inteira. **A definição escrita na tabela do manual é que está mais estreita do que a lista que ela abriga**, e isso é pergunta para o dono da lista.
 
 Uma Classe Passiva 3 não é "uma Classe Passiva 1 maior": é uma coisa de outro formato. **Farejador** — *"você sente se alguém conjurou num lugar nas últimas 24 horas"* — não fica obsoleta porque uma permanente existe; ela faz algo que nenhuma permanente faz.
 
@@ -460,6 +460,58 @@ E "mais fácil depois do primeiro" sem teto é a espiral da exaustão com o sina
 **Com o refino, isso quebra no nível em que o gate abre** — e a estreia é o pior ponto, não o teto: quem acaba de comprar a aptidão cura `1,8×` o que o chefe tira dele, e ela nunca volta a empatar.
 
 **E o eixo está errado por um segundo motivo, que é a lição nº 1.** *Do nível 14 ao 30 o golpe de chefe cresce `2,11×`.* **A `maior Classe` cresce `1,75×` — quase junto, e é essa folga que faz o empate escorrer para `88%` no fim, de propósito.** *O refino cresce `1,43×` e para: ele bate no teto `10` no marco 22 e fica lá por oito níveis, enquanto o inimigo continua subindo.* **A Classe é o único dos dois que acompanha o nível**, e é a variável que o manual já usa para tudo que escala com tamanho de feitiço.
+
+### Circulação · Classe Passiva 3 · exige a `Energia Reversa` e refino 8
+
+> **O teto por uso da sua `Energia Reversa` sobe para `1,5 × a sua maior Classe` de PE**, arredondando para baixo.
+> **E você pode usá-la como Ação Bônus.** *Usada assim, os dados de cura são `d4` em vez de `d8`.*
+> **Recompor um membro perdido gasta o teto inteiro do uso**, e naquele uso você não cura vida nenhuma.
+
+***Pedida pelo Mizuki na v0.203.*** *O nome sai da obra: o Gojo tem energia positiva circulando o corpo o tempo todo, como segunda natureza — é o estado dele, e não uma técnica que ele ativa.*
+
+> **⚠ O nome passou na triagem e tem uma vizinhança declarada.** *`Fluxo Constante` foi o primeiro candidato e morreu no `conferir-nomes.py`: `Fluxo` já é uma Passiva do manual, a que dá vida temporária a quem conjura feitiço grande.* **`Circulação` está livre nas duas direções**, mas ela encosta em sentido na `canalizar energia`, que é uma das duas de graça do refino `1` e aparece quarenta e sete vezes no projeto. *A diferença fica escrita aqui: **canalizar** é pôr energia amaldiçoada para fora, e **circular** é a energia positiva andando dentro de você.* ***Escolha do Mizuki entre três livres.***
+
+| nível | maior Classe | teto da `Energia Reversa` | teto com a `Circulação` | Ação Padrão, `d8` | Ação Bônus, `d4` |
+|---|---|---|---|---|---|
+| 18 | 5 | `5` PE | `7` PE | `31,5` | `17,5` |
+| 22 | 6 | `6` PE | `9` PE | `40,5` | `22,5` |
+| 26 a 30 | 7 | `7` PE | `10` PE | `45,0` | `25,0` |
+
+**As duas metades têm preços bem diferentes, e vale saber qual é qual.**
+
+> **O teto maior é a metade barata.** *Ele acrescenta `9,0` a `13,5` de cura, e espalhado numa luta de três rodadas isso é `0,39×` a `0,48×` um ponto de atributo.*
+>
+> **A Ação Bônus é a metade cara, e é ela que precisava do `d4`.** *Numa ficha que não usa a Ação Bônus para nada, curar ali sai de graça — você cura e ataca na mesma rodada.* **Com `d8` isso entrega `45` por rodada, que é `4,17×` um ponto de atributo e reprova; com `d4` entrega `25`, que é `2,31×` e passa.** *O filtro do projeto reprova a partir de `3,00×`, e a razão fica plana em `2,30×` a `2,39×` nos quatro níveis.*
+>
+> ***Decisão do Mizuki: o dado cai para `d4` e ela não leva relógio.*** *O relógio já existe e é o combustível — `10` PE por uso, e curar em toda rodada do dia custa `105` PE de um poço de `120` a `180`.* **Quem cura toda rodada não conjura mais nada naquele dia.**
+
+**E a Ação Bônus é o que tira a cura de ser troca ruim, que é o defeito que a v0.203 mediu.** *Levantar alguém de `0` gastando a Ação Padrão é empate exato — você perde a sua rodada e devolve a dele.* **Na Ação Bônus o saldo vira `+51,8`**, e é por isso que ela é a metade que importa.
+
+> **O molde é o do d20, e ele foi lido antes de isto ser escrito.** *A `Palavra Curativa` do `Livro do Jogador` de 2024 é **Ação Bônus** e cura `2d4 + modificador` — pequena de propósito —, e a regra de `0` PV de lá diz que você fica Inconsciente "até recuperar **qualquer quantidade** de Pontos de Vida".* **A peça 1 §5.5 já tinha a segunda metade dessa regra; o que faltava era a primeira.**
+
+#### O gate, e por que ele é `refino 8`
+
+**A curva de refino pula de `7` para `9`, então `refino 8` e `refino 9` caem no MESMO nível para quem investe** — `18` no especialista e `22` no meio a meio. *A diferença entre os dois gates é só o generalista: no `8` ele alcança no nível 30, no `9` ele nunca alcança.*
+
+***Decisão do Mizuki: `refino 8`***, e o generalista chega no último nível da campanha.
+
+**A corrente inteira é cara em marco, e é isso que faz o "quase ninguém consegue" da obra.** *Um marco pela `Energia Reversa`, um pela `Circulação` — o gate de aptidão cobra o marco antes de a gateada abrir —, e o especialista chega ao refino `8` tendo gasto **quatro dos sete marcos** em Refino.* **Sobram dois para o resto da ficha.**
+
+> **O gate de aptidão é legal aqui pela regra do §5:** *a exigida tem de ser a mesma coisa em tamanho menor e tem de servir sozinha.* **A `Energia Reversa` serve sozinha e a `Circulação` é ela maior** — é escada, e não pedágio.
+
+#### O membro, e a regra que NÃO vai existir
+
+**Recompor gasta o teto inteiro e não cura vida naquele uso.** *No nível 30 são `10` PE.*
+
+**Em combate isso é caro do jeito certo:** a sua rodada inteira mais o combustível, e você continua machucado. *Fora de combate são `10` PE de um poço de `120` a `180`, e é lá que ele deve ser barato.*
+
+> **A obra dá o precedente de "coisa mais difícil custa mais energia reversa":** *tirar veneno exige mais que curar ferimento.* **E ela diz que energia positiva reproduz sangue, osso, carne e órgão, com membro inteiro sendo coisa de quem é proficiente.**
+
+***Decisão do Mizuki: perder membro NÃO vai ter regra, e isso segue o d20.*** *"Na dúvida segue igual D&D — D&D não tem regra pra remover, mas tem as penalidades, que aí fica mais na mão do mestre ou dos pactos dos players."* **Então esta aptidão desfaz uma coisa que o sistema não sabe causar, de propósito**, e o texto dela diz *"o que a mesa tiver tirado de você"*.
+
+> **⚠ E recompor o membro de OUTRA pessoa exige a `Sutura`.** *O `Enxerto`, no nível 11 dela, é quem faz a `Energia Reversa` alcançar os outros.* **Uma ficha com `Sutura` e `Circulação` é o degrau da Shoko — a obra trata curar os outros como raríssimo, e diz com todas as letras que o Gojo não consegue.** *O gate cai da combinação, sem número novo.*
+>
+> **E quando as duas se encontram, o teto é o maior dos dois:** *o `Cerzido` da `Sutura` põe em `maior Classe` e a `Circulação` põe em `1,5 ×`.*
 
 ## 6.5. As três anti-domínio, e a `Extensão de Domínio` ao lado delas
 
@@ -733,7 +785,7 @@ As outras duas quebram nas pontas: com `2 ×` você se defende uma vez e acabou 
 
 **A Restrição Celestial pelo ramo da Maki não tem energia amaldiçoada — nenhuma, não pouca.** *Então ela não tem aptidão nem refino: tem **Bênçãos** e **Lapidação**, a mesma máquina com outra métrica.* **A regra está na peça 9 §5, onde ela devia estar desde a v0.39.**
 
-### A contagem: doze das treze morrem, e a que sobra não tem conteúdo
+### A contagem: treze das catorze morrem, e a que sobra não tem conteúdo
 
 | # | aptidão | o que ela gasta | sobrevive sem energia? |
 |---|---|---|---|
@@ -748,9 +800,10 @@ As outras duas quebram nas pontas: com `2 ×` você se defende uma vez e acabou 
 | 9 | `Cortina` | barreira | **não** |
 | 10 | `Energia Reversa` | o nome | **não** |
 | 11–12 | `Kokusen Melhorado` · `Kokusen Constante` | energia aplicada no impacto | **não** |
-| 13 | `Aptidão Própria` | nada — ela é **formato**, e não conteúdo | **sim, e é a única** |
+| 13 | `Circulação` | a energia reversa, que é energia | **não** |
+| 14 | `Aptidão Própria` | nada — ela é **formato**, e não conteúdo | **sim, e é a única** |
 
-**Uma de treze, e é a que não diz o que faz.** *Espelhar entrada por entrada nunca foi uma escolha pior: é impossível, e a razão é estrutural — este catálogo inteiro é construído em cima do recurso que aquela Origem não tem.* **A pergunta some, e o que fica no lugar dela é uma lista própria com tamanho derivado.**
+**Uma de catorze, e é a que não diz o que faz.** *Espelhar entrada por entrada nunca foi uma escolha pior: é impossível, e a razão é estrutural — este catálogo inteiro é construído em cima do recurso que aquela Origem não tem.* **A pergunta some, e o que fica no lugar dela é uma lista própria com tamanho derivado.**
 
 *As duas conferidas na fonte, porque as duas pareciam candidatas:* **o kokusen é energia amaldiçoada aplicada no impacto dentro de um milionésimo de segundo, e a `Pétala` cobre o usuário de energia — é a energia que revida, não o corpo.** *A Maki ganha energia amaldiçoada mais tarde na obra, depois da morte da Mai; a Origem daqui modela o estado de energia zero, que é o do Toji do começo ao fim.*
 
@@ -811,7 +864,7 @@ As outras duas quebram nas pontas: com `2 ×` você se defende uma vez e acabou 
 
 > **Catorze Bênçãos: `cobrir-se` e `estímulo muscular` grátis na Lapidação `1`, doze compradas com marco.** *A forma espelhava o catálogo de aptidões espaço por espaço, mesmo o conteúdo não espelhando quase nada.* **Mais a `Bênção Própria`, que é a única entrada que espelha de verdade** — ela é formato, e formato atravessa.
 
-> **⚠ Os dois lados deixaram de ter a mesma forma na v0.202, e por um motivo que não é defeito.** *O `Kokusen` base saiu da lista de compráveis das aptidões, e a Restrição Celestial não tem contraparte dele — kokusen é energia amaldiçoada aplicada no impacto, e essa rota não tem energia nenhuma.* **A Bênção fica com doze pagas e a aptidão com onze**, e o que continua espelhando é a derivação: *as duas listas se medem contra os mesmos dez picks da rota pura.*
+> **⚠ Os dois lados ficaram desencontrados por uma versão, e vale saber por quê.** *O `Kokusen` base saiu da lista de compráveis na v0.202 e a Restrição Celestial não tem contraparte dele — kokusen é energia amaldiçoada aplicada no impacto, e aquela rota não tem energia nenhuma.* **A v0.203 fechou o vão pelo outro lado, com a `Circulação`**, e as duas voltaram a doze pagas. *O que sempre espelhou não foi a lista: foi a derivação, e as duas se medem contra os mesmos dez picks da rota pura.*
 
 > **⚠⚠ Este parágrafo dizia o contrário até a v0.122, e ele era verdade quando foi escrito.** *Ele dizia: "o marco perde um dos três eixos, para as duas rotas que não escrevem Fundamento — o `Leque` compra `+1 feitiço e uma Passiva`, e as duas coisas são do Fundamento. Sobram `Corpo` e `Lapidação`, e a linha de graça perde o `+1 espaço de feitiço`, que também não tem onde cair."*
 >
@@ -1261,10 +1314,12 @@ E os dois **correm em sentidos opostos**: a vantagem é auto-regulada e dá pouc
 | 8 | **Barreira Simples** | sem gate | a vida do domo: `5 ×` |
 | 9 | **Cortina** | exige a `Barreira Simples` | a vida dela: `20 ×` |
 | 10 | **Energia Reversa** | Classe Passiva 3 · refino 7, nível 13 | **nada** — o teto é `maior Classe`, e `1d8` de cura por PE |
-| 11 | **Kokusen** | — | a chance no d100, `2 ×` |
+| 11 | **Circulação** | Classe Passiva 3 · exige a `Energia Reversa`, refino 8 | **nada** — o teto vai a `1,5 × maior Classe` |
 | 12 | **Kokusen Melhorado** | refino 5, nível 14 | vantagem no d100 |
 | 13 | **Kokusen Constante** | refino 5 | a chance, `3 ×` |
 | 14 | **Aptidão Própria** | Classe Passiva 1 ou 2, **uma vez na ficha** | conforme o que for escrito |
+
+> **O `Kokusen` base saiu desta tabela na v0.202: ele é regra de mundo e não ocupa vaga.** *As duas de melhoria dele continuam sendo aptidão como qualquer outra, e o §6.6 registra o porquê.*
 
 **Todas custam um marco. Nenhuma custa espaço de feitiço** — essa é a moeda das Passivas e da Expansão de Domínio, que ficam do lado do manual.
 

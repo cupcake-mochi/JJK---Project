@@ -155,6 +155,31 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 > **É por isso que o capanga do manual não é uma `Ronda`.** *A `Ronda` é um quarto do chefe nos dois eixos — um quarto da vida e um quarto do dano —, e o capanga é um quarto da vida com um TERÇO do dano.* **É essa diferença de um eixo só que faz o câmbio do §5 fechar em quatro e a `Ronda` parar em `0,76`.**
 
+### 4.7 O que a CURA do grupo faz com o encontro — e ela não faz o que parece
+
+***Pedido do Mizuki na v0.203:*** *"um inimigo tem que ser calculado pra todas as situações, para fazer uma média. Vai ter grupo que vai ter 1 healer, vai ter o grupo que não vai ter healer, vai ter o grupo onde não tem healer mas cada um tem `Circulação` ou pelo menos `Energia Reversa`."*
+
+**A linha do manual foi calibrada contra um grupo que não cura.** *Medindo contra os que curam, o resultado sai ao contrário do esperado.*
+
+| composição, no nível 30 | luta | o chefe entrega | a cura repõe | líquido | do grupo |
+|---|---|---|---|---|---|
+| sem cura nenhuma | `3,00` | `657` | — | **`657`** | `68%` |
+| um suporte, área ou alvo único conforme o turno | `4,00` | `876` | `45` | `832` | `86%` |
+| um só com `Energia Reversa` segurando o grupo | `4,00` | `876` | `126` | `750` | `77%` |
+| sem suporte, os quatro se curando em rodadas alternadas | `6,00` | `1314` | `135` | **`1179`** | `121%` |
+
+**Toda composição que cura sai PIOR que a que não cura, e o motivo é economia de ação.** *Curar gasta a ação que causaria dano; menos dano faz a luta durar mais; e cada rodada a mais é mais uma rodada do chefe.* **Ele entrega `219` por rodada e nenhuma cura de alvo único do sistema repõe isso** — um atacante que para de bater abre mão de `78,75`.
+
+> **A única que ganha a troca é a cura em ÁREA**, porque ela multiplica por alvo: quatro alvos vezes `45` da `Onda` de Classe 7 passam dos `78,75`. *E ela é a que mais depende de como o chefe bate — contra um chefe que concentra, três quartos dela caem em quem está inteiro.*
+>
+> **⚠ E é por isso que a linha do manual NÃO desconta cura.** *Descontar deixaria o chefe mais fraco justamente contra os grupos que já sofrem mais.* **A calibragem fica contra o grupo que não cura, e esta tabela existe para o mestre saber o que muda quando ele cura.**
+
+**O molde disso é o do d20, e ele foi lido antes de a tabela ser escrita.** *A `Palavra Curativa` do `Livro do Jogador` de 2024 é Ação Bônus e cura pouco de propósito, e a regra de `0` PV de lá diz que o personagem fica Inconsciente "até recuperar qualquer quantidade de Pontos de Vida".* **Cura ali não existe para deixar ninguém inteiro: ela existe para levantar quem caiu, e é isso que a peça 1 §5.5 já escreve deste lado.**
+
+> ***Decisão do Mizuki:*** *"cura deve ser feita para segurar um pouco de dano, tirar o cara de morrer no próximo tapa — semelhante ao d20, onde cura não é feita pra deixar uma pessoa full."*
+>
+> **O número que fecha isso:** *levantar alguém de `0` gastando a Ação Padrão é empate exato — você perde a sua rodada e devolve a dele.* **Na Ação Bônus o saldo vira `+51,8`**, e é essa a metade que a aptidão `Circulação` da peça 11 §6 existe para dar.
+
 ## 5. O câmbio — um corpo grande vale quatro pequenos
 
 **Dentro de uma categoria o mestre troca o corpo único por vários, e a troca é `1` para `4`.** *O capanga é a coluna que a tabela do manual já publica ao lado da do chefe.*

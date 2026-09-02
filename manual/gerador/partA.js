@@ -14,7 +14,7 @@ const cover = [
     children: [new TextRun({ text: 'manual do jogador e do mestre', size: 24, italics: true, color: C.grey })] }),
   new Paragraph({ alignment: AlignmentType.CENTER,
     border: { top: { style: BorderStyle.SINGLE, size: 8, color: C.crimson, space: 14 } },
-    children: [new TextRun({ text: 'Níveis 1–20  ·  Faixa lendária 21–30  ·  Versão 7.23', size: 20, color: C.grey })] }),
+    children: [new TextRun({ text: 'Níveis 1–20  ·  Faixa lendária 21–30  ·  Versão 7.24', size: 20, color: C.grey })] }),
   new Paragraph({ children: [new PageBreak()] }),
 ];
 

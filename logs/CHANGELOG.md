@@ -8,6 +8,86 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.203] — 02/09/2026 · manual na v7.24
+
+**Entrou a `Circulação`, a aptidão que o Mizuki pediu, e ir medi-la destampou que a cura em combate é troca ruim neste sistema — como no d20, e por decisão.**
+
+### 1 · A pergunta que abriu tudo
+
+***Pergunta do Mizuki: "energia reversa não tá meio fraca em comparação a feitiço?"*** *A comparação nunca tinha sido feita: a peça 11 mede a `Energia Reversa` contra a Passiva `Recomposição`, e nunca contra um feitiço de cura.*
+
+> **Ela cura exatamente METADE de um feitiço de `Cura` da mesma Classe, em toda Classe** — `31,5` contra `63` no nível 30. **E ela rende `1,5 ×` mais por PE**: `4,50` de cura por ponto contra `3,00` do feitiço, porque o feitiço custa `3 × Classe` de PE e ela custa `1 ×`.
+>
+> **Então ela não é fraca — ela é pequena.** *A aptidão é o degrau de UM golpe de chefe e o feitiço é o de DOIS: `86%` de um contra `86%` de dois.*
+
+### 2 · A `Circulação`
+
+***Escolhas do Mizuki, todas com a conta ao lado.*** **`Classe Passiva 3`, exige a `Energia Reversa` e refino 8.**
+
+> **O teto por uso sobe para `1,5 × maior Classe` de PE**, e ela pode ser usada como **Ação Bônus** — e aí os dados de cura caem para `d4`.
+> **Recompor um membro gasta o teto inteiro do uso**, e naquele uso não cura vida nenhuma.
+
+**As duas metades têm preços muito diferentes, e o `d4` é o número que torna a segunda legal.** *Numa ficha que não usa a Ação Bônus para nada, curar ali sai de graça.* **Com `d8` isso é `4,31×` um ponto de atributo e reprova; com `d4` é `2,39×` e passa**, contra o filtro de `3,00×`.
+
+> ***E ela não leva relógio, por decisão:*** *o relógio já é o combustível.* **Curar em toda rodada do dia custa `105` PE de um poço de `120` a `180`** — quem faz isso não conjura mais nada.
+>
+> **O gate é `refino 8` e a curva explica a escolha.** *Ela pula de `7` para `9`, então `refino 8` e `refino 9` caem no MESMO nível para quem investe — `18` no especialista e `22` no meio a meio.* **A diferença é só o generalista: no `8` ele alcança no nível 30, no `9` nunca.** ***O Mizuki escolheu o `8`.***
+>
+> **⚠ O nome mudou depois de escrito, e a triagem é que pegou.** *`Fluxo Constante` era o primeiro, e `Fluxo` já é Passiva do manual.* **Rodei o `conferir-nomes.py` depois de escrever, que é a ordem errada.** *`Circulação` passou nas duas direções, e a vizinhança com `canalizar energia` ficou declarada na peça.*
+
+### 3 · A obra decidiu o gate
+
+**Levantamento na fonte, a pedido dele.** *A energia reversa nasce no cérebro — a peça já dizia —, ela reproduz sangue, osso, carne e órgão, e membro inteiro é coisa de quem é proficiente.* **Curar os outros é mais raro que curar a si mesmo: a Shoko e o Sukuna conseguem, o Gojo não.**
+
+> **E o nome sai de lá:** *o Gojo tem energia positiva circulando o corpo o tempo todo, como segunda natureza.* **É o estado dele, e não uma técnica que ele liga.**
+>
+> **A obra também dá o precedente de "coisa mais difícil custa mais energia reversa":** *tirar veneno exige mais que curar ferimento.* **É a régua que o membro precisava.**
+
+***Decisão do Mizuki: perder membro NÃO ganha regra, e isso segue o d20*** — *lá também não existe regra de remover, só penalidades, e a coisa fica com o mestre ou com os pactos.* **A aptidão desfaz algo que o sistema não sabe causar, de propósito.**
+
+### 4 · A tabela da `Cura` parava na Classe 5
+
+**A escada de Classe vai até `7` e a Forma `Cura` publicava cinco colunas.** *Achado indo responder a pergunta dele sobre cura de área.*
+
+> **As duas linhas saem de fórmula, e a fórmula reproduz as cinco publicadas:** *cura cheia é `2 × Classe` dados e a `Onda` é `1,5 × Classe`, arredondando para baixo.* **Classe 6: `12d8 = 54` e `9d8 = 40`. Classe 7: `14d8 = 63` e `10d8 = 45`.** *A razão cura/dano fica em `0,67` nas sete, sem deslizar.* **Manual na `v7.24`.**
+
+### 5 · E a cura em combate é troca ruim, medido
+
+***Pedido do Mizuki: "é bom a gente fazer os inimigos PENSANDO nessas coisas."*** **Medi o chefe do nível 30 contra as composições que ele disse que aparecem na mesa dele.**
+
+| composição | luta | entrega | cura repõe | líquido | do grupo |
+|---|---|---|---|---|---|
+| sem cura nenhuma | `3,00` | `657` | — | **`657`** | `68%` |
+| um suporte | `4,00` | `876` | `45` | `832` | `86%` |
+| um só com `Energia Reversa` | `4,00` | `876` | `126` | `750` | `77%` |
+| os quatro alternando ataque e cura | `6,00` | `1314` | `135` | **`1179`** | `121%` |
+
+**Toda composição que cura sai pior que a que não cura**, e é economia de ação: curar gasta a ação que causaria dano, a luta dura mais, e cada rodada a mais é do chefe.
+
+> **⚠ Então a linha do manual NÃO desconta cura, e isso é decisão.** *Descontar deixaria o chefe mais fraco justamente contra os grupos que já sofrem mais.* **A tabela entrou na peça 26 §4.7 como aviso ao mestre, e não como correção de número.**
+>
+> ***Decisão do Mizuki sobre o que a cura é:*** *"para segurar um pouco de dano, tirar o cara de morrer no próximo tapa — semelhante ao d20, onde cura não é feita pra deixar uma pessoa full."* **E o número fecha:** *levantar alguém de `0` na Ação Padrão é empate exato; na Ação Bônus o saldo é `+51,8`.* **É por isso que a metade cara da `Circulação` é a que importa.**
+
+### Alterado
+
+- **O manual para a `v7.24`**, com as colunas de Classe 6 e 7 da Forma `Cura`.
+- **`11-aptidoes-e-refino.md`** — a `Circulação` no §6, a tabela do §7, o catálogo fechado do §10, e a folga do §3 de volta a duas.
+- **`26-bestiario.md`** — o §4.7, a matriz de composição.
+- **`05-material/livro/manual/45-aptidoes-e-refino.md`** — a `Circulação` no catálogo e em seção própria.
+- **`conferir-aptidoes.py`** — a checagem da `Circulação`, com o teto, os dois dados e o gate lidos da peça.
+
+### Decidido
+
+- **A `Circulação` é `Classe Passiva 3`, exige a `Energia Reversa` e refino 8.**
+- **O dado cai para `d4` na Ação Bônus**, e é ele que segura a aptidão dentro do filtro.
+- **Ela não leva relógio**, porque o PE já é um.
+- **Perder membro não ganha regra**, como no d20.
+- **A linha de inimigo não desconta cura**, e a peça 26 §4.7 diz por quê.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **A fila: o catálogo de maldições prontas**, que espera a lista do Mizuki, *o exemplo guiado de invocação, a coluna de capanga da Classe 1 e a Expansão de Domínio de inimigo.*
+
+---
+
 ## [0.202] — 02/09/2026
 
 **O `Kokusen` base deixou de custar marco, e a varredura atrás disso achou o livro e a peça discordando em três eixos.** *A memória do Mizuki estava certa: "kokusen é uma regra de mundo, qualquer um pode tirar e exige mais sorte que cálculo, já que nem o Gojo conseguiu fazer diversas vezes seguidas."*

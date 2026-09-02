@@ -4755,6 +4755,7 @@ Traço na coluna de Classe Passiva quer dizer que a entrada não tem uma. Traço
 | Canalizar energia | grátis no refino 1 | — | — |
 | Projetar energia | sem requisito | — | o dano |
 | Energia Reversa | refino 7 e nível 13 | 3 | — |
+| Circulação | `Energia Reversa`, refino 8 | 3 | — |
 | Kokusen Melhorado | refino 5 e nível 14 | — | vantagem no d100 |
 | Kokusen Constante | refino 5 | — | a chance no d100 |
 | Cesta Oca de Vime | sem requisito | 1 | — |
@@ -4826,6 +4827,28 @@ Ela muda a forma das lutas longas e muda o que acontece entre elas: um personage
 O +50% entra em cima do crítico que já dobrou os dados. Um crítico entrega dois punhados de dado; um kokusen entrega três. Por exemplo, com refino 6 o kokusen sai em 12 ou menos no d100 — 12% dos seus críticos corpo a corpo.
 
 O Kokusen em si não é uma aptidão: é uma mecânica, e todo feiticeiro que tem energia consegue usar. Ele não ocupa vaga de catálogo e não custa marco. Abaixo estão as duas aptidões que melhoram essa fonte.
+
+### Circulação
+
+> **Circulação** — o teto por uso da sua `Energia Reversa` sobe para `1,5 × a sua maior Classe` de PE, arredondando para baixo.
+>
+> Você também pode usá-la como **Ação Bônus**. Usada assim, os dados de cura são `d4` em vez de `d8`.
+>
+> E você **recompõe o que foi arrancado** — braço, olho, o que a mesa tiver tirado de você. Isso gasta o teto inteiro do uso, e naquele uso você não cura vida nenhuma.
+>
+> Requisito: ter a `Energia Reversa` e refino 8.
+
+Energia positiva reconstrói sangue, osso, carne e órgão, e quem chega aqui tem ela andando pelo corpo o tempo todo em vez de ligar e desligar. É o degrau mais alto da cura, e ele é caro: você gasta um marco na `Energia Reversa`, outro nesta, e o refino 8 pede mais quatro de sete.
+
+Na Ação Bônus você cura e ainda ataca na mesma rodada. O dado menor é o preço disso — é a diferença entre segurar um golpe e ficar inteiro.
+
+> **Levantar quem caiu é o uso que mais rende.** Quem está em 0 volta de pé com qualquer cura, e gastar a Ação Padrão nisso é troca justa: você perde a sua rodada e devolve a dele. Na Ação Bônus você devolve a rodada dele sem perder a sua.
+
+Recompor membro é a mesma aptidão fazendo a coisa mais difícil que a energia positiva faz. Em combate ela custa a sua rodada e o combustível, e você continua machucado. Fora de combate é barata, e é lá que ela deve ser usada.
+
+> **Perder um membro não tem regra neste livro**, e isso é decisão. Quem tira é o mestre ou um pacto, e as penalidades são as que a mesa combinar — do mesmo jeito que o d20 faz. Esta aptidão desfaz.
+
+**Curar outra pessoa continua fora daqui.** Quem alcança os outros é a Trilha `Sutura`, no nível 11 dela. Uma ficha com as duas recompõe o membro de outra pessoa, e isso é o degrau mais raro do material.
 
 ### Kokusen Melhorado
 
@@ -6572,4 +6595,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: 2301ba82c2a6af769c5a1d0f48c53ff1ccb399b9 -->
+<!-- fonte: 100c34aaa6b444be2505bc898daabc6bac21f763 -->

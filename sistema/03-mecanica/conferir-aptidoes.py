@@ -351,6 +351,93 @@ if not EMPILHAM:
 # contagem das aptidoes de kokusen que a peca declara como compraveis.
 _regra_de_mundo = 'regra de mundo, e não entrada do catálogo' in PECA11
 
+_mdom_apt = re.search(r'reprova a partir de `(\d+,\d+)×`', PECA11)
+DOMINANCIA_APT = float(_mdom_apt.group(1).replace(',', '.')) if _mdom_apt else 3.00
+if not _mdom_apt:
+    erro('nao achei o filtro de dominancia na propria peca 11 — ele e o teto da '
+         'checagem da `Circulação`, e ele nao pode morar neste arquivo')
+
+# --------------------------------------------------------------------------
+# v0.203: a `Circulação`. Duas metades com precos muito diferentes, e o `d4` da
+# Acao Bonus e' o numero que traz a segunda para dentro do filtro. Nada esta
+# escrito aqui: a formula do teto, os dois dados e o gate saem da peca, e a
+# tabela nivel a nivel e' recomputada.
+_mcirc = re.search(r'### Circulação · Classe Passiva 3 · exige a `Energia Reversa` e refino (\d+)',
+                   PECA11)
+if not _mcirc:
+    erro('nao achei o titulo da `Circulação` na peca 11 — ela e a aptidao nova da '
+         'v0.203 e o gate dela mora no titulo, como o das outras treze')
+else:
+    _gate_circ = int(_mcirc.group(1))
+    _mult = re.search(r'teto por uso da sua `Energia Reversa` sobe para `([\d,]+) × a sua maior Classe`',
+                      PECA11)
+    _dados = re.search(r'os dados de cura são `d(\d+)` em vez de `d(\d+)`', PECA11)
+    if not (_mult and _dados):
+        erro('a `Circulação` parou de publicar o multiplicador do teto ou a troca de '
+             'dado — os dois sao o preco dela, e sem eles a checagem nao tem o que medir')
+    else:
+        _M = float(_mult.group(1).replace(',', '.'))
+        _dbonus, _dpadrao = int(_dados.group(1)), int(_dados.group(2))
+        _med = lambda d: (d + 1) / 2.0
+        print(f'  a `Circulação`: teto {_M:.1f}x a maior Classe · d{_dpadrao} na Padrao '
+              f'e d{_dbonus} na Bonus · gate refino {_gate_circ}')
+        # a tabela nivel a nivel da peca tem de reconstruir
+        _linhas = re.findall(r'^\| (\d+|\d+ a \d+) \| (\d+) \| `(\d+)` PE \| `(\d+)` PE \| '
+                             r'`([\d,]+)` \| `([\d,]+)` \|$', PECA11, re.M)
+        if len(_linhas) != 3:
+            erro(f'achei {len(_linhas)} das 3 linhas da tabela da `Circulação` — ela mudou '
+                 'de forma e esta checagem parou de conferir')
+        else:
+            _mau = 0
+            for _nv, _C, _ter, _tef, _pad, _bon in _linhas:
+                C = int(_C)
+                _eter, _etef = C, math.floor(_M * C)
+                _epad, _ebon = _etef * _med(_dpadrao), _etef * _med(_dbonus)
+                if (int(_ter), int(_tef)) != (_eter, _etef):
+                    erro(f'a `Circulação` no nivel {_nv}: a peca publica teto {_ter}/{_tef} '
+                         f'e a formula da {_eter}/{_etef}')
+                    _mau += 1
+                elif (abs(float(_pad.replace(',', '.')) - _epad) > 0.05
+                      or abs(float(_bon.replace(',', '.')) - _ebon) > 0.05):
+                    erro(f'a `Circulação` no nivel {_nv}: a peca publica {_pad} na Padrao e '
+                         f'{_bon} na Bonus, e a conta da {_epad:.1f} e {_ebon:.1f}')
+                    _mau += 1
+            if not _mau:
+                print('  [x] as 3 linhas da tabela da `Circulação` reconstroem da formula')
+
+        # o `d4` e' o que segura a Acao Bonus dentro do filtro, e o `d8` nao seguraria.
+        # Numa ficha que nao usa a Bonus para nada, curar ali sai de graca: o ganho e'
+        # a cura inteira, toda rodada.
+        _ROT = {5: 76.0, 6: 94.0, 7: 108.0}
+        _VALE = 0.10
+        _pior_b, _pior_p = 0.0, 0.0
+        for C in (5, 6, 7):
+            _teto = math.floor(_M * C)
+            _pior_b = max(_pior_b, _teto * _med(_dbonus) / (_VALE * _ROT[C]))
+            _pior_p = max(_pior_p, _teto * _med(_dpadrao) / (_VALE * _ROT[C]))
+        print(f'  na Bonus, cura de graca por rodada: d{_dbonus} da {_pior_b:.2f}x um ponto '
+              f'de atributo · d{_dpadrao} daria {_pior_p:.2f}x')
+        if _pior_b > DOMINANCIA_APT + 1e-9:
+            erro(f'a `Circulação` na Acao Bonus entrega {_pior_b:.2f}x o que um ponto de '
+                 f'atributo compra, e o filtro reprova a partir de {DOMINANCIA_APT:.2f}x')
+        elif _pior_p <= DOMINANCIA_APT + 1e-9:
+            erro(f'o dado menor da Acao Bonus deixou de ser o que segura a aptidao: com '
+                 f'd{_dpadrao} ela daria {_pior_p:.2f}x e ainda passaria no filtro. O `d{_dbonus}` '
+                 'precisa ser a diferenca entre passar e reprovar, senao ele e enfeite')
+        else:
+            print(f'  [x] o d{_dbonus} segura a Acao Bonus dentro do filtro de '
+                  f'{DOMINANCIA_APT:.2f}x, e o d{_dpadrao} nao seguraria')
+
+        # o gate: refino 8 tem de ser alcancavel pelas TRES rotas, senao ele fecha
+        # a porta para uma delas — que foi a alternativa recusada na v0.203.
+        _fora = [r for r, cur in CURVA.items() if max(cur) < _gate_circ]
+        if _fora:
+            erro(f'o gate de refino {_gate_circ} da `Circulação` e inalcancavel para '
+                 f'{", ".join(_fora)} — a v0.203 recusou o refino 9 por isso')
+        else:
+            print(f'  [x] o refino {_gate_circ} e alcancavel pelas tres rotas')
+
+
 # --- o kokusen mora em DOIS documentos, e a v0.202 achou os tres jeitos de eles
 # divergirem. O livro publicava um gatilho mais largo, um relogio que esta peca
 # MEDIU E RECUSOU, e um requisito que esta peca nega com todas as letras. Nada

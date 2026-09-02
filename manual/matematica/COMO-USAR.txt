@@ -1,4 +1,4 @@
-MATEMÁTICA — Fundamento v7.23
+MATEMÁTICA — Fundamento v7.24
 
   v7.py                  valida a economia de PE, os limites por Classe, o teto, o
                          gatilho de Controle, a Técnica Máxima recarregável e a

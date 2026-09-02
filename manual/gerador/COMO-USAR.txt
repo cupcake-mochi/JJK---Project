@@ -1,4 +1,4 @@
-GERADOR DO MANUAL — Fundamento v7.23
+GERADOR DO MANUAL — Fundamento v7.24
 
 Recria o .docx do zero. Precisa de Node.js.
 
@@ -32,6 +32,14 @@ ORDEM DAS SEÇÕES (v7)
   4 Restrições → 5 Fora de combate → 6 Liberação Máxima → 7 Técnica Máxima →
   8 Regras de ouro → 9 Progressão → 10 Feitiços prontos → 11 Para o mestre →
   Apêndice
+
+O QUE MUDOU NA v7.24
+
+  A tabela da Forma Cura ganhou as colunas de Classe 6 e 7, que faltavam — ela
+  parava na 5 e a escada de Classe vai ate 7. As duas linhas sao derivadas, nao
+  escolhidas: cura cheia e 2 x Classe dados e a Onda e 1,5 x Classe arredondando
+  para baixo, e as duas formulas reproduzem as cinco colunas que ja estavam
+  publicadas. A razao cura/dano fica em 0,67 nas sete Classes.
 
 O QUE MUDOU NA v7.23
 

@@ -109,15 +109,16 @@ const montar = [
   H2('Cura'),
   P('A Forma Cura custa Média e transforma em cura os dados que sobrarem, aplicados automaticamente num aliado a até 9 m. Não existe Liberação Máxima de cura: a linha de baixo é o teto por Classe.'),
   P('Pra pegar mais gente: **Junto** (Amparo) soma um aliado dividindo o efeito, e a Forma **Onda** cura em área sem dividir.'),
+  P('As duas linhas saem de fórmula e não de escolha: a cura cheia é **2 × Classe** dados e a Onda é **1,5 × Classe**, arredondando para baixo. A cura cheia fica sempre em dois terços do dano da mesma Classe.'),
   P('A Forma Cura pode escolher um alvo hostil em vez de um aliado. Nesse alvo ela deixa de ser automática e pede rolagem de acerto, como qualquer feitiço de dano. Contra uma maldição os dados viram dano, com 50% a mais; contra qualquer outra coisa ela não faz nada. É energia positiva machucando maldição, e ela precisa da aptidão Energia Reversa para funcionar — sem ela, apontar este feitiço num inimigo não produz nada.'),
   P('Os 50% não são bônus. A cura já rende dois terços do dano da mesma Classe, e somar metade em cima devolve exatamente a linha cheia: um Classe 5 assim causa 67, que é o dano daquela Classe. E esta rota nunca é a melhor escolha, porque ela custa a Média da Forma e um Projétil custa nada e fere qualquer coisa.'),
-  TBL(['Classe', '1', '2', '3', '4', '5'],
+  TBL(['Classe', '1', '2', '3', '4', '5', '6', '7'],
     [
-      ['Cura cheia', '2d8 = 9', '4d8 = 18', '6d8 = 27', '8d8 = 36', '10d8 = 45'],
-      ['Onda (área)', '1d8 = 4', '3d8 = 13', '4d8 = 18', '6d8 = 27', '7d8 = 31'],
-      ['Dano da mesma Classe', '13', '27', '40', '54', '67'],
+      ['Cura cheia', '2d8 = 9', '4d8 = 18', '6d8 = 27', '8d8 = 36', '10d8 = 45', '12d8 = 54', '14d8 = 63'],
+      ['Onda (área)', '1d8 = 4', '3d8 = 13', '4d8 = 18', '6d8 = 27', '7d8 = 31', '9d8 = 40', '10d8 = 45'],
+      ['Dano da mesma Classe', '13', '27', '40', '54', '67', '81', '94'],
     ],
-    [24, 15, 15, 15, 15, 16], { centerCols: [1,2,3,4,5], boldCols: [0] }
+    [22, 11, 11, 11, 11, 11, 11, 12], { centerCols: [1,2,3,4,5,6,7], boldCols: [0] }
   ),
 
   H2('Controle'),
