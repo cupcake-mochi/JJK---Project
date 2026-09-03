@@ -187,11 +187,11 @@ Ofício é o que o personagem sabe fazer porque alguém sentou com ele e ensinou
 
 ## Treino
 
-> **O Caminho dá duas perícias fixas e mais quatro à sua escolha, de qualquer lugar do quadro.**
+> **O Caminho dá duas perícias fixas e mais cinco à sua escolha, de qualquer uma da lista de perícias do sistema.**
 > **Mais dois ofícios à sua escolha.**
 > **A Origem dá mais duas perícias.**
 
-As duas fixas são a assinatura do Caminho, o que qualquer um daquele Caminho sabe fazer. As quatro livres são a sua escolha.
+As duas fixas são a assinatura do Caminho, o que qualquer um daquele Caminho sabe fazer. As cinco livres são a sua escolha.
 
 **Perícias fixas por Caminho**
 {: .tab-titulo }
@@ -210,17 +210,17 @@ Ofício o Caminho deixa escolher livremente. Os dois que ele dá são livres, e 
 
 Uma perícia da lista de quatro da sua Origem, e uma perícia livre que a sua história justifique, com aprovação do mestre. Foi filho de médico, tem `Medicina`. Batia carteira antes de saber o que era energia amaldiçoada, tem `Prestidigitação`.
 
-Além dessas duas, você escolhe um extra: um ofício livre, ou mais uma perícia no lugar dele.
+**A Origem não dá ofício.** Quem dá é o Caminho, e os dois dele se trocam por mais uma perícia.
 
-**Extra da Origem**
+**Rotas do ofício**
 {: .tab-titulo }
 
-| Se o extra for | Perícias treinadas | Ofícios treinados |
+| Se você | Perícias treinadas | Ofícios treinados |
 |---|---|---|
-| um ofício | 8 | 3 |
-| mais uma perícia | 9 | 2 |
+| ficar com os dois ofícios | 9 | 2 |
+| trocar os dois por perícia | 10 | 0 |
 
-> **Exemplo.** O Kaito é Guia. Ele já entra com as fixas `Persuasão` e `Medicina`. Nas quatro livres do Caminho ele pega `Sentir Energia`, `Ocultismo`, `Percepção` e `Atletismo`, e nos dois ofícios livres pega `Herbalismo` e `Caligrafia`. A Origem dele dá mais duas perícias. No extra ele escolhe a perícia em vez do ofício, e fecha a ficha com 9 perícias e 2 ofícios: ele lê talismã, mas não arromba uma porta.
+> **Exemplo.** O Kaito é Guia. Ele já entra com as fixas `Persuasão` e `Medicina`. Das cinco livres do Caminho ele gasta duas em treino de arma — o `Guia` não treina arma de verdade, e ele quis a Naginata —, e nas três que sobram pega `Sentir Energia`, `Ocultismo` e `Percepção`. Nos dois ofícios livres pega `Herbalismo` e `Caligrafia`. A Origem dele dá mais duas perícias, e ele fecha com 7 perícias, 2 ofícios e uma arma: ele lê talismã, alcança com a haste, e não arromba uma porta.
 
 ### Testes de Resistência
 

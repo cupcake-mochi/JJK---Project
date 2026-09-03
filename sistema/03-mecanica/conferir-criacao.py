@@ -409,15 +409,22 @@ bloco('6. AS ESCOLHAS FECHAM — pericias, oficios e Testes de Resistencia')
 
 rotas = {}
 for linha in P8.splitlines():
-    m = re.match(r'\|\s*pegando (o ofício|a perícia)\s*\|\s*(\d+) de (\d+)\s*\|\s*(\d+) de (\d+)\s*\|', linha)
+    m = re.match(r'\|\s*(ficando com os ofícios|trocando os dois)\s*\|\s*(\d+) de (\d+)\s*\|\s*(\d+) de (\d+)\s*\|', linha)
     if m:
         rotas[m.group(1)] = dict(per=int(m.group(2)), per_tot=int(m.group(3)),
                                  ofi=int(m.group(4)), ofi_tot=int(m.group(5)))
 
 if len(rotas) != 2:
-    erro(f'esperava as duas rotas do extra da Origem na peca 8 e achei {len(rotas)}')
+    erro(f'esperava as duas rotas do oficio do Caminho na peca 8 e achei {len(rotas)}')
 else:
-    base_per, base_ofi = 6 + 2, 2
+    # v0.211: o Caminho passou a dar 2 fixas + 5 a escolha, e a Origem 2 pericias
+    # e nenhum oficio. O 7 e LIDO do §6 da peca 7 e nao escrito aqui.
+    _mfx = re.search(r'duas perícias fixas e mais (\w+) à sua escolha', P7)
+    _liv = {'quatro': 4, 'cinco': 5, 'seis': 6}.get(_mfx.group(1).lower()) if _mfx else None
+    if _liv is None:
+        erro('nao consegui ler da peca 7 §6 quantas pericias a escolha o Caminho da')
+        _liv = 0
+    base_per, base_ofi = 2 + _liv + 2, 2
     # v0.104: o DENOMINADOR tambem e conferido, e ele vem contado da peca 7 — nao
     # escrito aqui. Ate a v0.103 esta checagem lia so o numerador, e o `de dez` da
     # tabela sobreviveu SETE versoes depois de o Alfaiate fazer onze oficios.
@@ -434,33 +441,50 @@ else:
                               _c[:_f] if _f >= 0 else _c, re.M))
     _per_tot = _conta('## 4. As vinte e três perícias')
     _ofi_tot = _conta('## 5. Os onze ofícios')
-    esperado = {'o ofício': (base_per, base_ofi + 1),
-                'a perícia': (base_per + 1, base_ofi)}
+    esperado = {'ficando com os ofícios': (base_per, base_ofi),
+                'trocando os dois': (base_per + 1, 0)}
     for rota, (ep, eo) in esperado.items():
         r = rotas[rota]
         ok = (r['per'], r['ofi']) == (ep, eo)
         okd = (r['per_tot'], r['ofi_tot']) == (_per_tot, _ofi_tot)
-        print(f'  {"[x]" if ok and okd else "[ ]"} pegando {rota:<10} -> '
+        print(f'  {"[x]" if ok and okd else "[ ]"} {rota:<24} -> '
               f'{r["per"]} de {r["per_tot"]} pericias e {r["ofi"]} de {r["ofi_tot"]} '
               f'oficios   (a soma da {ep} de {_per_tot} e {eo} de {_ofi_tot})')
         if not ok:
-            erro(f'a rota "pegando {rota}" publica {r["per"]} pericias e {r["ofi"]} '
+            erro(f'a rota "{rota}" publica {r["per"]} pericias e {r["ofi"]} '
                  f'oficios, e a soma dos passos da {ep} e {eo}')
         if not okd:
-            erro(f'a rota "pegando {rota}" publica um quadro de {r["per_tot"]} '
+            erro(f'a rota "{rota}" publica um quadro de {r["per_tot"]} '
                  f'pericias e {r["ofi_tot"]} oficios, e a peca 7 tem {_per_tot} e '
                  f'{_ofi_tot} — denominador guardado a mao envelhece (licao nº 1)')
-    a, b = rotas['o ofício'], rotas['a perícia']
-    if a['per'] + a['ofi'] != b['per'] + b['ofi']:
-        erro('as duas rotas do extra entregam quantidades diferentes de treino no '
-             'total — se e para serem alternativas, elas tem que somar igual')
+    # v0.211: a troca deixou de ser um-por-um. Ate ali o extra da Origem era
+    # `1 oficio` OU `1 pericia`, e a checagem cobrava que as duas rotas somassem
+    # igual. Agora sao DOIS oficios por UMA pericia, e a diferenca e o preco:
+    # a peca 7 §5 escreve que oficio sem treino nao se rola e pericia sem treino
+    # se rola, entao oficio vale mais e trocar dois por um custa um espaco.
+    #
+    # A checagem cobra as duas metades — que a troca custe exatamente um espaco,
+    # e que a peca DECLARE por que ela nao e um-por-um. Sem a segunda, uma troca
+    # desequilibrada passaria como se fosse descuido.
+    a, b = rotas['ficando com os ofícios'], rotas['trocando os dois']
+    _perde = (a['per'] + a['ofi']) - (b['per'] + b['ofi'])
+    if _perde != 1:
+        erro(f'trocar os dois oficios por uma pericia move {_perde} espaco(s) de treino, '
+             'e a peca desenha a troca como dois por um — um espaco a menos')
+    # ANCORADA na frase inteira da regra, e nao no fragmento: o `,?` solto casava
+    # com a nota historica do §7 — "perícia sem treino se rola, ofício sem treino
+    # não" — e a perturbacao que apagava a REGRA saia verde. Achado no arnes.
+    elif not re.search(r'Perícia sem treino você tenta; ofício sem treino, não', P7):
+        erro('a peca 7 nao declara mais por que oficio vale mais que pericia — sem '
+             'isso a troca de dois por um vira desequilibrio sem motivo escrito')
     else:
-        print(f'  [x] as duas rotas somam o mesmo: {a["per"] + a["ofi"]} treinos')
+        print(f'  [x] trocar os dois oficios custa 1 espaco de treino '
+              f'({a["per"] + a["ofi"]} -> {b["per"] + b["ofi"]}), e a peca 7 diz por que')
 
 # v0.104: a pericia livre da Origem perdeu a aprovacao do mestre e ganhou trava
 # contavel — de fora das seis do Caminho. Ela mora em TRES documentos, e o
 # 8 de 23 publicado so fecha se ela valer: com repeticao a ficha teria 7.
-_trava = 'de fora das seis'
+_trava = 'de fora das sete'
 _sem = [n for n, t in (('peca 7 §6', P7), ('peca 8, o Passo 6', P8),
                        ('peca 9 §2', P9)) if _trava not in t]
 if _sem:
@@ -519,8 +543,9 @@ else:
     # DENTRO deste numero e nao por cima dele.
     _m = re.search(r'Mais (\w+) ofícios?\b', _s7)
     _cam_livre = _palnum(_m.group(1)) if _m else None
-    _m = re.search(r'um extra que você escolhe: (\w+) ofício livre', _s7)
-    _ori_extra = _palnum(_m.group(1)) if _m else None
+    # A Origem parou de dar oficio na v0.211. A leitura e da DECLARACAO: um
+    # extrator que devolve zero por nao achar sai verde igual ao que leu certo.
+    _ori_extra = 0 if re.search(r'\*\*A Origem não dá ofício\.\*\*', _s7) else None
     # A negacao e' LIDA, e nao suposta: se um dia o Caminho voltar a travar um
     # oficio, esta checagem vira do avesso junto com a peca em vez de reprovar
     # a decisao nova. E' o contra-teste coerente que o metodo pede.
@@ -545,7 +570,8 @@ else:
                 _tab[m.group(1).strip()] = dict(
                     total=sum(int(x) for x in re.findall(r'(\d+)', cel)),
                     fixos=sum(int(x) for x in re.findall(r'(\d+)\s*fixo', cel)))
-        _esperado = {'Caminho': _cam_livre, 'Origem': 0, 'Origem, o extra': _ori_extra}
+        # v0.211: a fonte `Origem, o extra` morreu junto com o extra. Sao duas.
+        _esperado = {'Caminho': _cam_livre, 'Origem': 0}
         if set(_tab) != set(_esperado):
             erro(f'a tabela de treino do Passo 6 tem as fontes {sorted(_tab)} e a '
                  f'peca 7 §6 fala de {sorted(_esperado)}')
@@ -575,9 +601,16 @@ else:
             if m:
                 _achou1 = True
                 _n1 += _palnum(m.group(1)) or 0
+        # v0.211: a Origem passou a dar ZERO oficios, e zero nao tem linha de
+        # tabela. A declaracao escrita entra no lugar da linha — e ela e' LIDA,
+        # nao suposta: se um dia a Origem voltar a dar oficio, a linha volta e
+        # esta checagem volta a conta-la sem ninguem mexer aqui.
+        if not _achou1 and re.search(r'\*\*a Origem não dá ofício\*\*', _p1):
+            _achou1, _n1 = True, 0
         if not _achou1:
-            erro('o Passo 1 nao diz mais quantos oficios a Origem entrega — a linha '
-                 'sumiu, e sem ela o dono da atribuicao volta a ser ninguem')
+            erro('o Passo 1 nao diz mais quantos oficios a Origem entrega, nem declara '
+                 'que ela nao da nenhum — a linha sumiu, e sem ela o dono da '
+                 'atribuicao volta a ser ninguem')
         elif _n1 != _ori_extra:
             erro(f'o Passo 1 da {_n1} oficio(s) a Origem, e a peca 7 §6 da '
                  f'{_ori_extra} — os outros sao do Caminho')

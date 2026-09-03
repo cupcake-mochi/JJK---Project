@@ -310,7 +310,8 @@ Marco é o nível em que a ficha muda de forma. Nos outros níveis a subida acon
 >
 > **E escolha uma destas três:**
 >
-> **Corpo** — mais um ponto de atributo.
+> **Corpo** — mais um ponto de atributo, **e mais uma perícia ou um ofício treinado**.
+> *Do nível 10 em diante, no lugar da perícia ou do ofício novo, você pode **especializar** um que já treina: some **metade da maestria** de novo naquela rolagem, arredondando para baixo.*
 >
 > **Refino** — mais um de refino, e uma aptidão. **Se o seu refino já estiver no teto, você leva duas aptidões no lugar, ao escolher a rota.**
 >

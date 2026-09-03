@@ -13,7 +13,6 @@ São sete Origens. Cinco principais (Latente, Receptáculo, Descendente, Reencar
 |---|---|
 | **Uma perícia** | da lista de quatro da sua Origem |
 | **Uma perícia livre** | que a sua história justifique; o mestre aprova na leitura |
-| **Um ofício livre** | ou, se você não quiser ofício, mais uma perícia |
 | **Um Teste de Resistência treinado** | qualquer um dos quatro; o outro vem do Caminho |
 | **Um traço** | do catálogo dela, ou escrito por você |
 | **Dois Legados** | um `Destranca` obrigatório, mais um de qualquer formato |
@@ -37,7 +36,7 @@ Todo personagem começa **Grau 4**, venha de onde vier. A patente é eixo social
 
 Toda Origem abre pela frase que a resume, seguida do que é ser aquilo no mundo e de quem a carrega na obra.
 
-Depois vem **Efeito na ficha**, sempre na mesma ordem: as **Perícias**, a lista de quatro de onde você escolhe uma, mais a livre; o **Ofício e Teste de Resistência**, que são escolha sua e saem iguais em toda Origem; os **Destrancas**, que dizem quantos Legados a ficha leva; e a **Criação**, a rota por onde você monta o seu poder. As duas Origens especiais mexem nessa rota, e o texto delas diz como.
+Depois vem **Efeito na ficha**, sempre na mesma ordem: as **Perícias**, a lista de quatro de onde você escolhe uma, mais a livre; o **Teste de Resistência**, que é escolha sua e sai igual em toda Origem; os **Destrancas**, que dizem quantos Legados a ficha leva; e a **Criação**, a rota por onde você monta o seu poder. As duas Origens especiais mexem nessa rota, e o texto delas diz como.
 
 Por último vêm os **Legados** da Origem, nos três formatos.
 
@@ -84,11 +83,11 @@ Escolha uma: Sentir Energia · Sobrevivência · Furtividade · Intuição
 
 Mais uma perícia livre, que a sua história justifique.
 
-#### Ofício e Teste de Resistência
+#### Teste de Resistência
 
-**Um Teste de Resistência treinado, à sua escolha entre os quatro** — o outro vem do seu Caminho. E **um ofício livre**, ou mais uma perícia no lugar dele.
+**Um Teste de Resistência treinado, à sua escolha entre os quatro** — o outro vem do seu Caminho.
 
-*Os dois valem igual em toda Origem: o que muda de uma para a outra é só a lista de perícias.*
+*Ele vale igual em toda Origem: o que muda de uma para a outra é só a lista de perícias. **A Origem não dá ofício** — quem dá é o Caminho, e os dois dele se trocam por mais uma perícia.*
 
 #### Destrancas
 
@@ -151,11 +150,11 @@ Escolha uma: Sentir Energia · Ocultismo · Intuição · Religião
 
 Mais uma perícia livre, que a sua história justifique.
 
-#### Ofício e Teste de Resistência
+#### Teste de Resistência
 
-**Um Teste de Resistência treinado, à sua escolha entre os quatro** — o outro vem do seu Caminho. E **um ofício livre**, ou mais uma perícia no lugar dele.
+**Um Teste de Resistência treinado, à sua escolha entre os quatro** — o outro vem do seu Caminho.
 
-*Os dois valem igual em toda Origem: o que muda de uma para a outra é só a lista de perícias.*
+*Ele vale igual em toda Origem: o que muda de uma para a outra é só a lista de perícias. **A Origem não dá ofício** — quem dá é o Caminho, e os dois dele se trocam por mais uma perícia.*
 
 #### Destrancas
 
@@ -220,11 +219,11 @@ Escolha uma: Hierarquia · História · Ocultismo · Persuasão
 
 Mais uma perícia livre, que a sua história justifique.
 
-#### Ofício e Teste de Resistência
+#### Teste de Resistência
 
-**Um Teste de Resistência treinado, à sua escolha entre os quatro** — o outro vem do seu Caminho. E **um ofício livre**, ou mais uma perícia no lugar dele.
+**Um Teste de Resistência treinado, à sua escolha entre os quatro** — o outro vem do seu Caminho.
 
-*Os dois valem igual em toda Origem: o que muda de uma para a outra é só a lista de perícias.*
+*Ele vale igual em toda Origem: o que muda de uma para a outra é só a lista de perícias. **A Origem não dá ofício** — quem dá é o Caminho, e os dois dele se trocam por mais uma perícia.*
 
 #### Destrancas
 
@@ -294,11 +293,11 @@ Escolha uma: História · Ocultismo · Investigação · Intimidação
 
 Mais uma perícia livre, que a sua história justifique.
 
-#### Ofício e Teste de Resistência
+#### Teste de Resistência
 
-**Um Teste de Resistência treinado, à sua escolha entre os quatro** — o outro vem do seu Caminho. E **um ofício livre**, ou mais uma perícia no lugar dele.
+**Um Teste de Resistência treinado, à sua escolha entre os quatro** — o outro vem do seu Caminho.
 
-*Os dois valem igual em toda Origem: o que muda de uma para a outra é só a lista de perícias.*
+*Ele vale igual em toda Origem: o que muda de uma para a outra é só a lista de perícias. **A Origem não dá ofício** — quem dá é o Caminho, e os dois dele se trocam por mais uma perícia.*
 
 #### Destrancas
 
@@ -364,11 +363,11 @@ Escolha uma: Ocultismo · Medicina · Sentir Energia · Natureza
 
 Mais uma perícia livre, que a sua história justifique.
 
-#### Ofício e Teste de Resistência
+#### Teste de Resistência
 
-**Um Teste de Resistência treinado, à sua escolha entre os quatro** — o outro vem do seu Caminho. E **um ofício livre**, ou mais uma perícia no lugar dele.
+**Um Teste de Resistência treinado, à sua escolha entre os quatro** — o outro vem do seu Caminho.
 
-*Os dois valem igual em toda Origem: o que muda de uma para a outra é só a lista de perícias.*
+*Ele vale igual em toda Origem: o que muda de uma para a outra é só a lista de perícias. **A Origem não dá ofício** — quem dá é o Caminho, e os dois dele se trocam por mais uma perícia.*
 
 #### Destrancas
 
@@ -472,11 +471,11 @@ Escolha uma: Atletismo · Percepção · Ocultismo · Intimidação
 
 Mais uma perícia livre, que a sua história justifique.
 
-#### Ofício e Teste de Resistência
+#### Teste de Resistência
 
-**Um Teste de Resistência treinado, à sua escolha entre os quatro** — o outro vem do seu Caminho. E **um ofício livre**, ou mais uma perícia no lugar dele.
+**Um Teste de Resistência treinado, à sua escolha entre os quatro** — o outro vem do seu Caminho.
 
-*Os dois valem igual em toda Origem: o que muda de uma para a outra é só a lista de perícias.*
+*Ele vale igual em toda Origem: o que muda de uma para a outra é só a lista de perícias. **A Origem não dá ofício** — quem dá é o Caminho, e os dois dele se trocam por mais uma perícia.*
 
 #### Destrancas
 
@@ -597,11 +596,11 @@ Quem é do ramo sem energia não pode ter `Sentir Energia` de nenhuma forma.
 
 Mais uma perícia livre, que a sua história justifique.
 
-#### Ofício e Teste de Resistência
+#### Teste de Resistência
 
-**Um Teste de Resistência treinado, à sua escolha entre os quatro** — o outro vem do seu Caminho. E **um ofício livre**, ou mais uma perícia no lugar dele.
+**Um Teste de Resistência treinado, à sua escolha entre os quatro** — o outro vem do seu Caminho.
 
-*Os dois valem igual em toda Origem: o que muda de uma para a outra é só a lista de perícias.*
+*Ele vale igual em toda Origem: o que muda de uma para a outra é só a lista de perícias. **A Origem não dá ofício** — quem dá é o Caminho, e os dois dele se trocam por mais uma perícia.*
 
 #### Destrancas
 

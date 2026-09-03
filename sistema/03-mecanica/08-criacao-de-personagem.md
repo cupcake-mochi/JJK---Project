@@ -15,7 +15,7 @@ Uma ficha de feiticeiro de **nível 2**, pronta para jogar. Ela cabe numa págin
 - **Cinco atributos**, de 0 a 6
 - **Um Caminho e uma Trilha**, que dizem o seu lugar numa equipe e quem você é dentro dele
 - **Uma Origem**, que diz de onde veio o seu poder e o que a instituição acha de você
-- **Oito perícias e três ofícios** treinados — ou nove e dois, você escolhe
+- **Nove perícias e dois ofícios** treinados — ou dez e nenhum, você escolhe
 - **Dois Testes de Resistência** treinados, de quatro
 - **Dois Legados**, das listas da sua Origem: **um Destranca, obrigatório**, e mais um de qualquer lista. O catálogo é a peça 13
 - **Cinco feitiços**: dois pequenos e grátis, três de verdade
@@ -47,13 +47,12 @@ A Origem **não dá atributo nenhum**, e isso é decisão. Em Jujutsu Kaisen a o
 
 **O catálogo está na peça 9.** São **cinco Origens principais** — Latente, Receptáculo, Descendente, Reencarnado e Feto —, uma **sub-origem** que se soma a qualquer uma delas (Sem Técnica) e **duas Origens especiais** (Corpo Amaldiçoado e Restrição Celestial).
 
-Ela dá seis coisas:
+Ela dá cinco coisas, e **a Origem não dá ofício** — quem dá é o Caminho, no Passo 3:
 
 | | |
 |---|---|
 | **Uma perícia** | escolhida da lista de quatro da sua Origem |
-| **Uma perícia livre** | que a sua história justifique, e de fora das seis do seu Caminho |
-| **Um ofício livre** | ou, se você não quiser ofício, mais uma perícia no lugar dele. **Os dois ofícios livres são do Caminho**, no Passo 3 |
+| **Uma perícia livre** | que a sua história justifique, e de fora das sete do seu Caminho |
 | **Um Teste de Resistência treinado** | qualquer um dos quatro. O outro vem do Caminho |
 | **Um traço não numérico** | um acesso, uma obrigação, um contato, uma marca no corpo, alguém atrás de você |
 | **Dois Legados** | os dois na criação, e o sistema nunca concede outro. Um é **Destranca** obrigatório — zero no dado, e é quem o personagem é; o outro sai de qualquer lista da Origem. **Peça 13** |
@@ -98,7 +97,7 @@ O que ele te dá agora:
 | **Evocador** | 6 (d6) | 4 | 6 | Religião · Lidar com Animais |
 | **Emanador** | 6 (d6) | 4 | 6 | Ocultismo · Investigação |
 
-Mais **quatro perícias à sua escolha**, de qualquer lugar do quadro, **dois ofícios livres** e **um Teste de Resistência treinado**.
+Mais **cinco perícias à sua escolha**, de qualquer uma da lista de perícias do sistema, **dois ofícios livres** e **um Teste de Resistência treinado**.
 
 > **E o equipamento, que entrou na v0.171.** *Até ali a criação dava acesso e não dava objeto: o Caminho treina uma categoria de arma, e a ficha saía de casa sem nada na mão.* **Você começa com o `Traje` degrau 1 da instituição, de graça, e `¥75.000` para comprar o resto** — a tabela é a peça 14 §6.5, e os `¥75.000` são meia mensalidade de um `Grau 4`, da peça 12 §6.1.
 >
@@ -147,16 +146,17 @@ Você já tem a Regra. Falta:
 
 | de onde vem | perícias | ofícios | Teste de Resistência |
 |---|---|---|---|
-| **Caminho** | 2 fixas + 4 à sua escolha | 2 à sua escolha | 1 |
+| **Caminho** | 2 fixas + 5 à sua escolha | 2 à sua escolha | 1 |
 | **Origem** | 1 da lista dela + 1 livre | — | 1 |
-| **Origem, o extra** | *ou* mais 1 perícia | *ou* 1 ofício livre | — |
 
-**Você escolhe uma das duas rotas do extra**, e as duas fecham:
+**Os dois ofícios do Caminho se trocam por mais uma perícia**, e as duas rotas fecham:
 
 | | perícias | ofícios |
 |---|---|---|
-| pegando o ofício | 8 de 23 | 3 de 11 |
-| pegando a perícia | 9 de 23 | 2 de 11 |
+| ficando com os ofícios | 9 de 23 | 2 de 11 |
+| trocando os dois | 10 de 23 | 0 de 11 |
+
+**E nos três Caminhos que não treinam arma de verdade — Guia, Emanador e Evocador — duas das cinco à sua escolha se trocam por treino em UMA arma**, não a categoria e não o tipo. *Quem faz as duas trocas fica com oito perícias, nenhum ofício e uma arma.*
 
 Você é bom em pouco mais de um terço do que existe — os buracos são de propósito, e é o que faz o grupo precisar um do outro.
 
@@ -265,9 +265,9 @@ Pacto é o que você trocou por poder.
 
 **Técnica.** *Atributo da técnica:* **Força** — a Regra dela é peso, e peso é o que ela já faz com o corpo. *Famílias Livres:* Controle e Castigo. *Fechadas:* Amparo, Área, Auxiliares — ela não cura, não pega área e não dá suporte. *Selo:* as duas mãos precisam se tocar antes. *Passiva Livre:* ela sabe o peso exato de qualquer coisa que encoste nela.
 
-**Perícias — oito.** Do Caminho, fixas: Atletismo e Intimidação. Do Caminho, livres: Sentir Energia, Percepção, Sobrevivência e Intuição. Da Origem: Hierarquia e História.
+**Perícias — nove.** Do Caminho, fixas: Atletismo e Intimidação. Do Caminho, livres: Sentir Energia, Percepção, Sobrevivência, Intuição e Persuasão. Da Origem: Hierarquia e História.
 
-**Ofícios — três.** Forja e Caligrafia, os dois livres do Caminho, e Herbalismo, o extra da Origem.
+**Ofícios — dois.** Forja e Herbalismo, os dois livres do Caminho. *O `Herbalismo` da avó ficou; o `Caligrafia` saiu quando a Origem parou de dar ofício, na v0.211.*
 
 **Os números:**
 
@@ -293,7 +293,7 @@ Sete perguntas, e todas têm resposta objetiva:
 
 1. **Os atributos somam nove, e nenhum passa de 3?**
 2. **O Teste de Resistência Físico está travado** em Força ou Destreza?
-3. **São oito perícias e três ofícios — ou nove e dois?** As duas rotas são legais; o que não pode é somar as duas. E as duas perícias fixas do Caminho precisam estar entre elas.
+3. **São nove perícias e dois ofícios — ou dez e nenhum?** As duas rotas são legais; o que não pode é somar as duas. E as duas perícias fixas do Caminho precisam estar entre elas.
 4. **São dois Testes de Resistência treinados**, um da Origem e um do Caminho?
 5. **A Regra da técnica cabe em uma frase**, é verificável pela mesa e não tem número? **E o atributo da técnica está declarado na ficha?**
 6. **Alguém que não seja o dono leu a técnica?**

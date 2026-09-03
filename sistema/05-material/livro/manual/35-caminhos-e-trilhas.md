@@ -102,7 +102,7 @@ E duas coisas que quase todo degrau daqui menciona:
 | **PE por nível** | 4 |
 | **Atributos naturais** | Força · Constituição |
 | **Perícias fixas** | `Atletismo` · `Intimidação` |
-| **Perícias à sua escolha** | 4, de qualquer lugar do quadro |
+| **Perícias à sua escolha** | 5, de qualquer uma da lista de perícias do sistema |
 | **Ofícios** | 2, à sua escolha. O Caminho não trava ofício |
 | **Teste de Resistência** | 1 treinado, à sua escolha. A sua Origem treina o outro |
 | **Treino de arma** | **as treze categorias**: Simples, Marciais e Arma de Fogo |
@@ -179,7 +179,7 @@ E duas coisas que quase todo degrau daqui menciona:
 | **PE por nível** | 5 |
 | **Atributos naturais** | Destreza · Força |
 | **Perícias fixas** | `Acrobacia` · `Percepção` |
-| **Perícias à sua escolha** | 4, de qualquer lugar do quadro |
+| **Perícias à sua escolha** | 5, de qualquer uma da lista de perícias do sistema |
 | **Ofícios** | 2, à sua escolha. O Caminho não trava ofício |
 | **Teste de Resistência** | 1 treinado, à sua escolha. A sua Origem treina o outro |
 | **Treino de arma** | **as treze categorias**: Simples, Marciais e Arma de Fogo |
@@ -362,7 +362,7 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 14, 
 | **PE por nível** | 5 |
 | **Atributo natural** | Essência |
 | **Perícias fixas** | `Persuasão` · `Medicina` |
-| **Perícias à sua escolha** | 4, de qualquer lugar do quadro |
+| **Perícias à sua escolha** | 5, de qualquer uma da lista de perícias do sistema. Duas delas podem virar treino em **uma arma** da lista — não a categoria e não o tipo, uma arma |
 | **Ofícios** | 2, à sua escolha. O Caminho não trava ofício |
 | **Teste de Resistência** | 1 treinado, à sua escolha. A sua Origem treina o outro |
 | **Treino de arma** | **Arma de Fogo** e **Balestra**, as duas que não pedem treino de verdade |
@@ -445,7 +445,7 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 14, 
 | **PE por nível** | 6 |
 | **Atributos naturais** | Inteligência · Essência |
 | **Perícias fixas** | `Ocultismo` · `Investigação` |
-| **Perícias à sua escolha** | 4, de qualquer lugar do quadro |
+| **Perícias à sua escolha** | 5, de qualquer uma da lista de perícias do sistema. Duas delas podem virar treino em **uma arma** da lista — não a categoria e não o tipo, uma arma |
 | **Ofícios** | 2, à sua escolha. O Caminho não trava ofício |
 | **Teste de Resistência** | 1 treinado, à sua escolha. A sua Origem treina o outro |
 | **Treino de arma** | **Arma de Fogo** e **Balestra**, as duas que não pedem treino de verdade |
@@ -522,7 +522,7 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 14, 
 | **PE por nível** | 6 |
 | **Atributos naturais** | Inteligência · Essência |
 | **Perícias fixas** | `Religião` · `Lidar com Animais` |
-| **Perícias à sua escolha** | 4, de qualquer lugar do quadro |
+| **Perícias à sua escolha** | 5, de qualquer uma da lista de perícias do sistema. Duas delas podem virar treino em **uma arma** da lista — não a categoria e não o tipo, uma arma |
 | **Ofícios** | 2, à sua escolha. O Caminho não trava ofício |
 | **Teste de Resistência** | 1 treinado, à sua escolha. A sua Origem treina o outro |
 | **Treino de arma** | **Arma de Fogo** e **Balestra**, as duas que não pedem treino de verdade |

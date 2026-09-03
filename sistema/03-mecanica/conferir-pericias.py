@@ -83,7 +83,11 @@ CAMINHOS = {
 # e fixa-la em um Caminho daria a ele uma escolha livre a mais na pratica. Livre
 # para todos, ela vira decisao — e o feiticeiro ruim de sentir energia passa a caber.
 
-CAM_FIXAS, CAM_LIVRES = 2, 4       # pericias que o Caminho entrega
+# v0.211: as livres do Caminho passaram de 4 para 5 e a Origem parou de dar
+# oficio. As duas contagens sao LIDAS do §6 da peca 7, que e a dona.
+_mF = re.search(r'duas perícias fixas e mais (\w+) à sua escolha', _P7)
+CAM_FIXAS = 2
+CAM_LIVRES = {'quatro': 4, 'cinco': 5, 'seis': 6}.get(_mF.group(1).lower()) if _mF else None
 ORI_PERICIAS = 2                   # uma da lista da Origem + uma livre
 
 # Quantos oficios cada fonte entrega vem LIDO do §6 da peca 7, e nao escrito
@@ -98,10 +102,12 @@ ORI_PERICIAS = 2                   # uma da lista da Origem + uma livre
 _S6 = re.search(r'\n## 6\. De onde vem o treino(.*?)(?=\n## )', _P7, re.S)
 _PN = {'um': 1, 'uma': 1, 'dois': 2, 'duas': 2, 'três': 3, 'quatro': 4}
 _mL = re.search(r'Mais (\w+) ofícios?\b', _S6.group(1)) if _S6 else None
-_mE = re.search(r'um extra que você escolhe: (\w+) ofício livre',
-                _S6.group(1)) if _S6 else None
+# A Origem parou de dar oficio na v0.211, e a peca declara isso com todas as
+# letras. A leitura e da DECLARACAO e nao da ausencia: extrator que devolve
+# zero por nao achar nada sai verde igual ao que leu a regra certa.
+_mE = re.search(r'\*\*A Origem não dá ofício\.\*\*', _S6.group(1)) if _S6 else None
 CAM_OF = _PN.get(_mL.group(1).lower()) if _mL else None
-ORI_EXTRA = _PN.get(_mE.group(1).lower()) if _mE else None
+ORI_EXTRA = 0 if _mE else None
 # O Caminho nao trava oficio desde a v0.105, e a peca 7 §6 e' quem diz isso.
 CAM_OF_FIXO = 1 if (_S6 and re.search(r'\*\*O Caminho trava ofício',
                                       _S6.group(1))) else 0

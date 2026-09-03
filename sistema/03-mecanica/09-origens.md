@@ -24,8 +24,7 @@ Três coisas que ela **não** faz, e cada uma é decisão:
 | | |
 |---|---|
 | **Uma perícia** da lista de quatro da sua Origem | |
-| **Uma perícia livre**, que a sua história justifique | de fora das seis que o seu Caminho já te deu |
-| **Um ofício livre** — ou, se você não quiser ofício, **mais uma perícia** | |
+| **Uma perícia livre**, que a sua história justifique | de fora das sete que o seu Caminho já te deu |
 | **Um Teste de Resistência treinado**, qualquer um dos quatro | o outro vem do Caminho |
 | **Um traço** — do catálogo dela, ou escrito por você | |
 | **Dois Legados** | os dois na criação, e o sistema nunca concede outro. **Catálogo e régua na peça 13** |

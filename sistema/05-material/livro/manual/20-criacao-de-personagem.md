@@ -6,7 +6,7 @@
 - **Cinco atributos**, de 0 a 6
 - **Um Caminho e uma Trilha**, que dizem o seu lugar numa equipe e quem você é dentro dele
 - **Uma Origem**, que diz de onde veio o seu poder
-- **Oito perícias e três ofícios** treinados, ou nove e dois, você escolhe
+- **Nove perícias e dois ofícios** treinados, ou dez e nenhum, você escolhe
 - **Dois Testes de Resistência** treinados, de quatro
 - **Dois Legados**, das listas da sua Origem. Um `Destranca` e um `Desliga` ou `Ajusta`
 - **Cinco feitiços**: dois pequenos e grátis, três de verdade
@@ -39,7 +39,6 @@ São sete Origens, mais a sub-origem Sem Técnica. Escolha e anote na ficha:
 |---|---|
 | Uma perícia | da lista de quatro da sua Origem |
 | Uma perícia livre | que a sua história justifique, com o mestre aprovando na leitura |
-| Um ofício livre | ou, se você não quiser ofício, mais uma perícia |
 | Um Teste de Resistência treinado | qualquer um dos quatro; o outro vem do Caminho |
 | Um traço | do catálogo da sua Origem, ou escrito por você |
 | Dois Legados | um `Destranca` obrigatório, mais um de qualquer formato |
@@ -97,7 +96,7 @@ O Caminho mexe em posicionamento, alvo, duração e recuperação. Ele nunca mex
 | **Evocador** | 6 (d6) | 4 | 6 | Religião · Lidar com Animais |
 | **Emanador** | 6 (d6) | 4 | 6 | Ocultismo · Investigação |
 
-Mais **quatro perícias à sua escolha**, de qualquer lugar do quadro, **dois ofícios à sua escolha** e **um Teste de Resistência treinado**.
+Mais **cinco perícias à sua escolha**, de qualquer uma da lista de perícias do sistema, **dois ofícios à sua escolha** e **um Teste de Resistência treinado**. *Os dois ofícios se trocam por mais uma perícia, e no `Guia`, no `Emanador` e no `Evocador` duas das cinco se trocam por treino em uma arma.*
 
 ### Equipamento
 
@@ -148,19 +147,20 @@ Aqui você abre o capítulo 9, *Fundamento*. É a parte longa. Você já tem a R
 
 | De onde vem | Perícias | Ofícios | Teste de Resistência |
 |---|---|---|---|
-| **Caminho** | 2 fixas + 4 à sua escolha | 2 à sua escolha | 1 |
+| **Caminho** | 2 fixas + 5 à sua escolha | 2 à sua escolha | 1 |
 | **Origem** | 1 da lista dela + 1 livre | — | 1 |
-| **Origem, o extra** | *ou* mais 1 perícia | *ou* 1 ofício livre | — |
 
-O extra da Origem é uma escolha entre duas rotas, e as duas fecham a ficha:
+Os dois ofícios do Caminho se trocam por mais uma perícia, e as duas rotas fecham a ficha:
 
-**Rotas do extra**
+**Rotas do ofício**
 {: .tab-titulo }
 
-| Rota do extra | Perícias | Ofícios |
+| Rota | Perícias | Ofícios |
 |---|---|---|
-| pegando o ofício | 8 de 23 | 3 de 11 |
-| pegando a perícia | 9 de 23 | 2 de 11 |
+| ficando com os ofícios | 9 de 23 | 2 de 11 |
+| trocando os dois | 10 de 23 | 0 de 11 |
+
+**E nos três Caminhos que não treinam arma de verdade — `Guia`, `Emanador` e `Evocador` — duas das cinco perícias à sua escolha viram treino em uma arma da lista.** *Não a categoria e não o tipo: uma arma.*
 
 Os dois Testes de Resistência treinados saem de quatro: Físico, Vigor, Espírito e Intelecto. Um vem da Origem, o outro do Caminho.
 
@@ -226,7 +226,7 @@ Pacto é o que você trocou por poder, e as quatro formas dele têm onde morar:
 
 - *Perícia da lista* (Hierarquia · História · Ocultismo · Persuasão): **Hierarquia**
 - *Perícia livre:* **História**, porque ela cresceu ouvindo de quem o clã perdeu o nome
-- *Extra:* pegou o **ofício**, e escolheu **Herbalismo**, da avó
+- *Ofícios do Caminho:* **Forja** e **Herbalismo**, o segundo da avó
 - *Teste de Resistência:* **Vigor**
 - *Traço:* o ramo do clã que perdeu, e ela é dele
 - *Legado · `Destranca`:* **O Sobrenome**, que dá audiência em qualquer lugar do meio jujutsu. Ser bem recebida é outra história
@@ -250,9 +250,9 @@ Força 3 · Constituição 2 · Destreza 2 · Inteligência 1 · Essência 1. No
 
 ### Perícias e ofícios
 
-**Oito perícias.** Do Caminho, fixas: Atletismo e Intimidação. Do Caminho, livres: Sentir Energia, Percepção, Sobrevivência e Intuição. Da Origem: Hierarquia e História.
+**Nove perícias.** Do Caminho, fixas: Atletismo e Intimidação. Do Caminho, livres: Sentir Energia, Percepção, Sobrevivência, Intuição e Persuasão. Da Origem: Hierarquia e História.
 
-**Três ofícios.** Forja e Caligrafia, os dois livres do Caminho, e Herbalismo, o extra da Origem.
+**Dois ofícios.** Forja e Herbalismo, os dois livres do Caminho.
 
 ### Números
 
@@ -277,7 +277,7 @@ Sete perguntas, e todas têm resposta objetiva. Você mesmo passa por elas antes
 
 1. **Os atributos somam nove, e nenhum passa de 3?**
 2. **O Teste de Resistência Físico está travado** em Força ou Destreza?
-3. **São oito perícias e três ofícios, ou nove e dois?** As duas rotas são legais; o que não pode é somar as duas. E as duas perícias fixas do Caminho precisam estar entre elas.
+3. **São nove perícias e dois ofícios, ou dez e nenhum?** As duas rotas são legais; o que não pode é somar as duas. E as duas perícias fixas do Caminho precisam estar entre elas.
 4. **São dois Testes de Resistência treinados**, um da Origem e um do Caminho?
 5. **A Regra da técnica cabe em uma frase**, é verificável pela mesa e não tem número?
 6. **Alguém que não seja o dono leu a técnica?**

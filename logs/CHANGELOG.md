@@ -8,6 +8,102 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.212] — 03/09/2026
+
+**A economia de treino da criação foi repartida de novo, e a peça que puxou foi a mesa.** ***Pedido do Mizuki:*** *"alguns players querem tentar coisas novas, como a possibilidade de usar outras armas nos caminhos que não possuem treinamento em armas além das de distância."*
+
+### 1 · O que mudou, em uma tabela
+
+| | antes | agora |
+|---|---|---|
+| Caminho — perícias | `2` fixas `+ 4` à escolha | `2` fixas **`+ 5`** à escolha |
+| Caminho — ofícios | `2` à escolha | `2`, **e os dois se trocam por `+1` perícia** |
+| Origem — perícias | `1` da lista `+ 1` livre | igual |
+| Origem — o extra | `+1` perícia **ou** `+1` ofício | **acaba** |
+| marco, eixo `Corpo` | `+1` atributo | `+1` atributo **e `+1` perícia ou ofício** |
+| **total na criação** | `8` e `3`, ou `9` e `2` | **`9` e `2`**, ou `10` e `0` |
+
+> **E a troca por arma:** *nos três Caminhos que não treinam arma de verdade — `Guia`, `Emanador` e `Evocador` —* **duas das cinco perícias à escolha viram treino em UMA arma.** *Não a categoria e não o tipo: uma arma da lista.* **`Bastião` e `Vanguarda` já treinam as treze categorias e não têm o que trocar.**
+
+### 2 · A troca de ofício não é um-por-um, e isso é o preço
+
+**Dois ofícios por uma perícia custa um espaço de treino.** *Até aqui o extra da Origem era `1` ofício **ou** `1` perícia, e a checagem cobrava que as duas rotas somassem igual.*
+
+> **Elas não somam mais, e o motivo é escrito:** *a peça 7 §5 diz que* **perícia sem treino você tenta e ofício sem treino, não.** *Ofício compra o acesso inteiro a uma coisa, e por isso ele vale mais que a perícia que se troca por ele.*
+>
+> **A checagem cobra as duas metades** — *que a troca custe exatamente um espaço, e que a peça DECLARE por quê.* **Sem a segunda, uma troca desequilibrada passaria como se fosse descuido.**
+
+### 3 · O `Corpo` era o único eixo do marco com uma moeda só
+
+***Retorno de mesa dele:*** *"refino no momento está muito crucial e no caso das técnicas já vale muito, então dar esse gostinho extra no atributo vai apetecer mais ele."*
+
+| rota pura no nível 30 | o que ela junta |
+|---|---|
+| sempre `Corpo` | `14` de atributo — **e nada mais** |
+| sempre `Refino` | `10` de refino **e** `10` aptidões |
+| sempre `Leque` | `12` Passivas **e** `7` feitiços |
+
+> **Pendurar perícia ou ofício no `Corpo` não quebra a simetria: conserta.** *Os outros dois sempre tiveram duas moedas, e agora os três têm.* **A minha preocupação inicial — que o `Corpo` passasse a dominar — caiu com a conta, e fica registrado que caiu.**
+
+### 4 · E a especialização só abre no nível 10, porque metade de `1` é zero
+
+***Ideia dele:*** *no lugar da perícia ou do ofício novo, especializar um que já treina, somando* **metade da maestria** *de novo naquela rolagem.*
+
+| marco | maestria | a especialização vale |
+|---|---|---|
+| **6** | `1` | **não abre** |
+| 10 e 14 | `2` | `+1` |
+| 18 e 22 | `3` | `+1` |
+| 26 e 30 | `4` | `+2` |
+
+> **O arredondamento da peça 1 §5.4 manda o que se ganha descer, e metade de maestria `1` desce para zero.** *O primeiro marco é o nível 6: ali a opção seria uma escolha que não faz nada.* ***Decisão dele: ela só aparece do nível 10 em diante.***
+>
+> *Ela nunca passa de metade do que a perícia nova entrega — compra **altura** numa rolagem que você já faz, contra **largura** numa que você não fazia.*
+
+### 5 · O arnês achou um defeito meu, e ele é o da guarda larga
+
+**Escrevi a checagem da troca ancorada no fragmento `ofício sem treino,? não`.** *A perturbação que apagava a REGRA saía **verde**, porque o fragmento também casa com a nota histórica que eu tinha acabado de escrever no §7 — "perícia sem treino se rola, ofício sem treino não".*
+
+> **Hoje ela cobra a frase inteira da regra**, e o contra-teste que prova isso é mexer só na nota histórica e a checagem ficar verde. *É a lição da v0.199 — guarda que aceita demais avisa tarde — na terceira aparição desde a v0.204.*
+
+### 6 · A varredura, e a ficha da Kaori quebrou
+
+**Dez arquivos e quatro validadores carregavam a informação antiga**, e a passada pediu por ele achou todos. *Sobraram dois falsos positivos, os dois legítimos.*
+
+> **A ficha de exemplo da Kaori era `oito perícias e três ofícios`**, e o terceiro ofício — `Herbalismo`, da avó — vinha exatamente do extra da Origem. **Ela virou `nove` e `dois`, o `Herbalismo` da avó ficou, e o `Caligrafia` saiu no lugar.**
+>
+> *E o Kaito do capítulo 3 virou o exemplo da troca de arma: ele é `Guia`, gasta duas das cinco na Naginata, e fecha com `7` perícias, `2` ofícios e uma arma.*
+
+### 7 · E a minha primeira varredura passou por cima de três lugares
+
+**Ela procurava `de qualquer lugar do quadro`, `oito perícias` e `extra da Origem`, e não procurava `quatro livres`.** *Sobraram o título do §7 da peça 7, a pergunta de playtest dele, e uma frase do capítulo 3 do livro.* **Achados na releitura, e a varredura foi refeita com o padrão largo.**
+
+> **⚠ E a releitura custou um build.** *Os quatro artefatos tinham sido gerados ANTES desses três consertos, e a checagem `7.5` do `conferir-repositorio.py` derrubou o commit dizendo exatamente isso.* **A ordem de fechar versão manda os builds virem depois da última edição, e eu editei depois deles.**
+
+### Adicionado
+
+- **A troca de duas perícias por treino em uma arma**, nos três Caminhos sem treino de verdade, escrita na célula da própria tabela.
+- **O `+1` perícia ou ofício no eixo `Corpo`**, e a **especialização** a partir do nível 10.
+- **A checagem da troca dois-por-um** no `conferir-criacao.py`, com a exigência de a peça declarar por quê.
+- **A guarda de dois sentidos do ofício da Origem** no `conferir-legados.py` — a tabela do topo não pode voltar a oferecer, e o bloco tem de declarar que não há.
+
+### Alterado
+
+- **As peças 2, 7, 8, 9 e 11**, e os capítulos 3, 6, 7, 8, 12 e 18 do livro, mais o vocabulário.
+- **`4, de qualquer lugar do quadro` virou `5, de qualquer uma da lista de perícias do sistema`** nos cinco Caminhos. *Decisão dele: a redação nova é mais entendível.*
+- **Os extratores do `conferir-criacao.py` e do `conferir-pericias.py`**, que liam a redação velha e paravam de achar.
+- **Os quatro artefatos do livro**, refeitos.
+
+### Decidido
+
+- **A Origem não dá ofício.** *Quem dá é o Caminho, e o ofício ficou com um dono só.*
+- **Trocar os dois ofícios custa um espaço de treino**, porque ofício vale mais que perícia.
+- **O eixo `Corpo` entrega perícia ou ofício**, e a especialização só do nível 10 em diante.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **O que sobra do item 5 são os itens menores** — *consumível, talismã pronto, remédio, o kit do `Herbalismo`*. *E continuam: o catálogo de maldições prontas esperando a lista dele, a régua de diagramação sem instrumento confiável, e o `Rotina` do glossário.*
+
+---
+
 ## [0.211] — 03/09/2026
 
 **Cada Caminho passou a dizer que a arma se compra, e o item 5 encolheu para isso porque o resto já estava feito.** ***Decisão do Mizuki:*** *"só menciona no começo de cada classe o como funciona de forma superficial e indica que eles devem ir para o capítulo certo para comprar os itens."*

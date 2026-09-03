@@ -79,7 +79,7 @@ A cada quatro níveis — **6, 10, 14, 18, 22, 26 e 30**, sete marcos — o pers
 
 > **Passivo:** +1 ponto de atributo, +1 de refino e **+1 espaço de feitiço**.
 > **Escolha, uma das três:**
-> **Corpo** — mais um ponto de atributo.
+> **Corpo** — mais um ponto de atributo, **e mais uma perícia ou um ofício treinado**. *Do nível 10 em diante, no lugar da perícia ou do ofício novo, você pode **especializar** um que já treina: some **metade da maestria** de novo naquela rolagem.*
 > **Refino** — mais um de refino, e uma aptidão. **Se o seu refino já estiver no teto, você leva `2` aptidões no lugar.**
 > **Leque** — mais um feitiço, que só pode ser feitiço, e uma Passiva.
 
@@ -148,11 +148,22 @@ E aí a conta fecha sozinha: **refino não vale nada para quem não tem aptidão
 
 No nível 30, as três rotas puras:
 
-| rota | atributo | refino | aptidões | Passivas | feitiços a mais |
-|---|---|---|---|---|---|
-| sempre Corpo | **14** | 8 | 0 | 5 | 0 |
-| sempre Refino | 7 | **10** | **10** | 5 | 0 |
-| sempre Leque | 7 | 8 | 0 | **12** | **7** |
+| rota | atributo | refino | aptidões | Passivas | feitiços a mais | perícia ou ofício |
+|---|---|---|---|---|---|---|
+| sempre Corpo | **14** | 8 | 0 | 5 | 0 | **+7** |
+| sempre Refino | 7 | **10** | **10** | 5 | 0 | 0 |
+| sempre Leque | 7 | 8 | 0 | **12** | **7** | 0 |
+
+> **A coluna da direita entrou na v0.211, e ela CONSERTA a simetria em vez de quebrar.** *Até ali o `Corpo` era o único eixo com uma moeda só — os outros dois sempre tiveram duas, refino com aptidão e Passiva com feitiço.* **Agora os três têm duas**, e a razão é retorno de mesa do Mizuki: *"refino no momento está muito crucial e no caso das técnicas já vale muito, então dar esse gostinho extra no atributo vai apetecer mais ele."*
+>
+> **A especialização não é uma segunda moeda, é a mesma comprada em altura.** *Ela soma metade da maestria numa rolagem que você já treinou, contra a maestria inteira numa que você não fazia — então ela nunca passa de metade do que a perícia nova entrega.* **E ela só abre no nível 10**, porque metade de maestria `1` desce para zero pelo arredondamento da peça 1 §5.4: *no marco do nível 6 ela seria uma escolha que não faz nada.*
+>
+> | marco | maestria | a especialização vale |
+> |---|---|---|
+> | 6 | `1` | **não abre** |
+> | 10 e 14 | `2` | `+1` |
+> | 18 e 22 | `3` | `+1` |
+> | 26 e 30 | `4` | `+2` |
 
 **O teto de Passivas sobe junto, e a grátis traz a própria vaga.** Cada escolha de Leque aumenta o máximo em um, e a Passiva concedida ocupa a vaga nova — então as **pagas continuam sendo cinco**, exatamente as cinco de sempre. O teto não cresce de verdade; ele abre lugar para o que a rota concede.
 

@@ -168,13 +168,14 @@ Forjar uma lâmina é **Força**, falsificar uma assinatura é **Destreza**, e s
 
 ## 6. De onde vem o treino
 
-> **O Caminho dá duas perícias fixas e mais quatro à sua escolha, de qualquer lugar do quadro.**
-> **Mais dois ofícios à sua escolha.**
-> **A Origem dá mais duas perícias: uma da lista de quatro dela, e uma livre — de fora das seis que o Caminho te deu.**
+> **O Caminho dá duas perícias fixas e mais cinco à sua escolha, de qualquer uma da lista de perícias do sistema.**
+> **Mais dois ofícios à sua escolha, e os dois se trocam por mais uma perícia.**
+> **Nos três Caminhos que não treinam arma de verdade, duas das cinco à sua escolha se trocam por treino em UMA arma** — não a categoria, não o tipo: uma arma da lista.
+> **A Origem dá mais duas perícias: uma da lista de quatro dela, e uma livre — de fora das sete que o Caminho te deu.**
 
-**Oito perícias de vinte e três e três ofícios de onze** — ou nove e dois, se você trocar o ofício livre da Origem por mais uma perícia.
+**Nove perícias de vinte e três e dois ofícios de onze** — ou dez e nenhum, se você trocar os dois ofícios do Caminho por mais uma perícia. *E sete e dois, mais uma arma, para quem faz a troca de arma.*
 
-As duas fixas são a assinatura do Caminho — o que qualquer um daquele Caminho sabe fazer. As quatro livres são suas.
+As duas fixas são a assinatura do Caminho — o que qualquer um daquele Caminho sabe fazer. As cinco livres são suas.
 
 | Caminho | Perícias fixas |
 |---|---|
@@ -194,7 +195,7 @@ As duas fixas são a assinatura do Caminho — o que qualquer um daquele Caminho
 
 **Uma perícia da lista de quatro da sua Origem, e uma perícia livre** que a sua história justifique. Foi filho de médico, tem Medicina. Batia carteira antes de saber o que era energia amaldiçoada, tem Prestidigitação.
 
-E **um extra que você escolhe: um ofício livre, ou mais uma perícia no lugar dele.** Quem quer o ofício fica com 8 perícias e 3 ofícios; quem troca fica com 9 e 2. As duas rotas cabem na faixa.
+**A Origem não dá ofício.** *Ela deu, da v0.21 à v0.211, e o extra saiu quando o Caminho passou a dar cinco perícias à escolha e o eixo `Corpo` do marco passou a entregar perícia ou ofício.* **O ofício ficou com um dono só, que é o Caminho.**
 
 *O catálogo das Origens está na peça 9, com a lista de cada uma.*
 
@@ -202,7 +203,7 @@ E **um extra que você escolhe: um ofício livre, ou mais uma perícia no lugar 
 
 Sem mudança desde a peça 4: **a Origem treina um, o Caminho treina outro.** Dois de quatro, e treinado vale **maestria** — a mesma marca de treino da perícia e do ofício. *Isso mudou na v0.117, e o motivo está na peça 4, seção 1: a CD de um Teste de Resistência passou a crescer `+6`, então o treino tem de crescer junto. **O que fica para trás é o TR que você não treinou, e isso é o preço.***
 
-## 7. Por que vinte e três, e por que quatro livres
+## 7. Por que vinte e três, e por que cinco livres
 
 A lista antiga tinha catorze, e ela não aguentava um Caminho generoso.
 
@@ -215,9 +216,9 @@ Com 64%, o personagem sai treinado em quase tudo que existe e **"ser treinado" p
 
 Com 35%, o personagem é bom em pouco mais de um terço do quadro. Ele tem buracos, o grupo cobre os buracos um do outro, e a mesa passa a ter conversa sobre quem faz o quê.
 
-**Quatro das seis do Caminho são livres**, e é o que impede duas fichas do mesmo Caminho de serem a mesma pessoa. O Caminho ainda diz alguma coisa — as duas fixas —, mas ele não escolhe o personagem por você. Dois Bastiões dividem Atletismo e Intimidação e podem não ter mais nada em comum.
+**Cinco das sete do Caminho são livres**, e é o que impede duas fichas do mesmo Caminho de serem a mesma pessoa. O Caminho ainda diz alguma coisa — as duas fixas —, mas ele não escolhe o personagem por você. Dois Bastiões dividem Atletismo e Intimidação e podem não ter mais nada em comum.
 
-Os ofícios ficam entre **18% e 27% de propósito — dois ou três de onze**, conforme a rota do extra da Origem. Ofício é para ser raro. O grupo que precisa arrombar uma porta e não tem ninguém com Arrombamento tem um problema real, e problema real é cena.
+Os ofícios ficam entre **0% e 18% de propósito — nenhum ou dois de onze**, conforme o jogador trocar os dois do Caminho por mais uma perícia. Ofício é para ser raro. O grupo que precisa arrombar uma porta e não tem ninguém com Arrombamento tem um problema real, e problema real é cena.
 
 *Eram dois de dez, 20%, até o **Alfaiate** entrar com a peça de equipamento.* A fração caiu e isso **não é deriva**: a frase diz que ofício é para ser raro, e onze opções com duas treinadas é mais raro que dez com duas. A conta de criação não mudou — o que mudou foi o tamanho do quadro.
 
@@ -229,9 +230,9 @@ Os ofícios ficam entre **18% e 27% de propósito — dois ou três de onze**, c
 |---|---|---|
 | Perícias | 14 | 23 |
 | Ofícios | não existiam | 11 |
-| Caminho dá | 3 perícias | 2 fixas + 4 livres, mais 2 ofícios livres |
+| Caminho dá | 3 perícias | 2 fixas + 5 livres, mais 2 ofícios livres |
 | Origem dá | 2 perícias | 2 perícias |
-| Treinadas | 5 de 14 (36%) | 8 de 23 (35%) |
+| Treinadas | 5 de 14 (36%) | 9 de 23 (39%) |
 | Perceber mora em | Inteligência | **Essência** |
 | Força tem | 1 perícia | 1 perícia |
 
@@ -243,7 +244,7 @@ Três perícias antigas foram partidas em duas: **Ocultismo** perdeu o lado sagr
 
 - ~~**Se a perícia livre da Origem devia ser da lista também.**~~ **Fechado na v0.104, na peça 9 §2:** ela continua livre e perdeu a aprovação do mestre; a trava passou a ser *não pode ser uma das seis que o seu Caminho te deu*. ***O `8 de 23` do §6 já supunha isso*** — com repetição a ficha teria `7 de 23`, que são `30%` e não os `35%` em que o §7 apoia o argumento inteiro de por que são vinte e três perícias.
 - **Intuição é a única que fica em cima do muro.** "Ler a pessoa" tem cara de perceber, e ela está em Inteligência como dedução. Se em mesa as pessoas rolarem Percepção quando deviam rolar Intuição, ela muda de casa.
-- **Se quatro livres é escolha demais.** Ela deixa o Caminho quase invisível na ficha de perícia. Medir se as pessoas do mesmo Caminho ainda parecem coisas diferentes — e se parecem *demais*.
+- **Se cinco livres é escolha demais.** *Eram quatro até a v0.211, e a quinta entrou junto com a troca por treino de arma.* Ela deixa o Caminho quase invisível na ficha de perícia. Medir se as pessoas do mesmo Caminho ainda parecem coisas diferentes — e se parecem *demais*.
 - **Se Pontaria se sobrepõe à rolagem de ataque à distância.** As duas são Destreza e as duas acertam alvo. Se ninguém rolar Pontaria, ela sai.
 - **Provocar e Intimidação vão brigar?** Uma faz recuar, a outra faz avançar. A distinção é clara escrita e vaga na mesa.
-- **Se o extra da Origem é escolha de igual para igual.** A seção 6 oferece *um ofício livre* **ou** *mais uma perícia*, como se fossem equivalentes. Não são: perícia sem treino você rola, ofício sem treino não. O ofício compra o acesso inteiro a uma coluna fechada; a perícia compra +maestria — de +1 no nível 2 a +4 no 30 — num teste que você já podia tentar. Medir se alguém escolhe a perícia.
+- ~~**Se o extra da Origem é escolha de igual para igual.**~~ ***FECHADO na v0.211, e não pela resposta:*** *o extra deixou de existir.* **A Origem parou de dar ofício, o Caminho passou a dar cinco perícias à escolha em vez de quatro, e o ofício ficou com um dono só.** *A pergunta media a equivalência entre duas coisas que não são equivalentes — perícia sem treino se rola, ofício sem treino não —, e a saída foi tirar a escolha em vez de preçá-la.*

@@ -82,7 +82,7 @@ Amarrar atributo à origem cria o problema clássico de raça em d20: a escolha 
 
 O que a origem dá, então:
 
-- **Uma perícia da lista dela e uma livre**, mais um ofício livre — ou outra perícia no lugar dele.
+- **Uma perícia da lista dela e uma livre.** *A Origem parou de dar ofício na v0.211.*
 - **Um Teste de Resistência treinado.** O outro vem do Caminho.
 - **Um traço não numérico.** Acesso, obrigação, um contato, uma marca no corpo, alguém atrás de você.
 - **Um Legado**, um só na ficha inteira.

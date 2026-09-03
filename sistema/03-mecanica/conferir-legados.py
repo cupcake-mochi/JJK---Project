@@ -594,7 +594,7 @@ else:
 # o TR daquela Origem tinham faltado. Sao SETE copias do mesmo paragrafo agora, e
 # copia sem comparacao diverge (licao no 9).
 print('\n' + '=' * 88)
-print('12. OFICIO E TR NA ORIGEM — as sete copias contra a tabela que as governa')
+print('12. O TR NA ORIGEM — as sete copias, e nenhuma promete oficio')
 print('=' * 88)
 if not os.path.isfile(_CAP):
     erro('ORIGEM-EXTRA', 'nao achei o capitulo de Origens do livro')
@@ -604,7 +604,7 @@ else:
     _com_pericia = [(n, c) for n, c in _origens if '#### Perícias' in c]
     _blocos = {}
     for _n, _c in _com_pericia:
-        _m = re.search(r'#### Ofício e Teste de Resistência\n(.*?)(?=^#### |\Z)', _c, re.S | re.M)
+        _m = re.search(r'#### Teste de Resistência\n(.*?)(?=^#### |\Z)', _c, re.S | re.M)
         _blocos[_n.strip()] = _m.group(1).strip() if _m else None
     _faltam = [n for n, b in _blocos.items() if b is None]
     if not _com_pericia:
@@ -612,7 +612,7 @@ else:
                              'ou o formato do bloco `Efeito na ficha` mudou')
     elif _faltam:
         erro('ORIGEM-EXTRA', f'{len(_faltam)} Origem(ns) publicam a lista de pericias e nao '
-                             f'dizem do oficio nem do Teste de Resistencia: {sorted(_faltam)}. '
+                             f'dizem do Teste de Resistencia: {sorted(_faltam)}. '
                              'A mesa perguntou justamente por isso: sem a linha, o leitor '
                              'conclui que os dois faltaram naquela Origem')
     else:
@@ -628,9 +628,20 @@ else:
                 ('escolha entre os quatro Testes de Resistencia',
                  r'qualquer um dos quatro', r'quatro'),
                 ('o outro TR vem do Caminho', r'o outro vem do Caminho', r'Caminho'),
-                ('o oficio pode virar pericia', r'mais uma perícia', r'mais uma perícia'),
             ]
             _texto = next(iter(_uniq))
+            # v0.211: a Origem parou de dar oficio. A negacao e' cobrada nos DOIS
+            # documentos, e nos dois sentidos: a tabela do topo nao pode voltar a
+            # oferecer, e o bloco tem de dizer com todas as letras que nao ha —
+            # senao o leitor conclui de novo que o oficio daquela Origem faltou.
+            if re.search(r'ofício livre', _tab):
+                erro('ORIGEM-EXTRA', 'a tabela `Caracteristicas da Origem` voltou a '
+                                     'oferecer oficio, e desde a v0.211 quem da oficio '
+                                     'e o Caminho')
+            if not re.search(r'A Origem não dá ofício', _texto):
+                erro('ORIGEM-EXTRA', 'o bloco das sete Origens parou de declarar que a '
+                                     'Origem nao da oficio — foi essa falta que a mesa '
+                                     'perguntou, e a ausencia da linha nao se le')
             _erra = [rot for rot, na_tab, no_bloco in _quer
                      if not (re.search(na_tab, _tab) and re.search(no_bloco, _texto))]
             if not _tab:
