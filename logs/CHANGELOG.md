@@ -8,6 +8,82 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.213] — 03/09/2026
+
+**As maldições prontas saíram, e elas fecham a decisão da v0.161 — "máquina mais prontas".** *A máquina estava entregue desde a v0.198 e as prontas esperavam a escolha do Mizuki desde então.* ***Escolha dele:*** *do nível 2 ao 6, com a ficção no folclore japonês — "maldições são basicamente isso normalmente".*
+
+### 1 · O §8 tinha um item vencido, e ele errava duas vezes
+
+**A `coluna de capanga da Classe 1` estava listada como aberta, e ela fechou na v0.206.** *Pior: o texto dela previa `29` de vida para o corpo do fundo, e o que saiu foi **`28`**.*
+
+> **A conta que produziu o `29` foi feita contra a tabela da v0.199.** *A v0.201 triplicou a pressão do chefe e mudou o chão dela, e ninguém voltou ao item.* **É a lição nº 9 dentro da própria lista de pendências: o número de uma previsão não riscada envelhece igual ao de uma regra.**
+>
+> *Dos oito itens do §8, seis estão riscados. Sobram as prontas — que esta versão entrega — e o inimigo com Trilha, que está fora por decisão.*
+
+### 2 · O piso de quantas saiu de conta, e não de gosto
+
+**A faixa do nível 2 ao 6 cruza duas linhas da tabela `Inimigos` — a de `2 a 4` e a de `5 a 8` — com as quatro categorias. São oito células.**
+
+> **A `Calamidade` exige `6` feiticeiros, e um grupo dessa faixa não os tem.** *Sobram seis, e o piso defensável é uma por célula.* **Seis prontas, e nenhuma delas é escolha de quantidade.**
+
+### 3 · E a faixa inteira quase não conjura, o que decidiu o que elas SÃO
+
+**O orçamento de feitiço de uma ação é o golpe dividido por `4,5`, e o menor feitiço do manual custa `3` pontos.** *A tabela do §6.5 já publicava isso e ninguém tinha lido na direção da faixa baixa:*
+
+| faixa | células | conjuram |
+|---|---|---|
+| nível 2 | as quatro | **nenhuma** — todas `seco` |
+| nível 5 | as quatro | **uma:** a `Dupla`, com `4,2` pontos |
+
+> **Cinco das seis batem, e só a `Kitsune` conjura.** *Isso não foi escolhido — caiu da régua —, e é exatamente o que a obra mostra: maldição de grau baixo é física.* **Conjurar ainda custa a ela um pouco de saída, porque a `Classe 1` não gasta os `4,2` inteiros.**
+
+### 4 · As seis
+
+*Nomes rodados no `conferir-nomes.py` antes de escrever — os doze candidatos saíram **LIVRE**.*
+
+| maldição | categoria | faixa | vida · dano | ações | golpe |
+|---|---|---|---|---|---|
+| **Betobeto** | `Ronda` | 2 a 4 | `28` · `4` | `1` | `4`, seco |
+| **Kamaitachi** | `Dupla` | 2 a 4 | `57` · `8` | `1` | `1d8 + 4` |
+| **Tsuchigumo** | `Alcateia` | 2 a 4 | `114` · `17` | `3` | `1d8 + 2` |
+| **Hitotsume** | `Ronda` | 5 a 8 | `67` · `10` | `1` | `1d8 + 6` |
+| **Kitsune** | `Dupla` | 5 a 8 | `135` · `19` | `1` | `2d8 + 10` |
+| **Oni** | `Alcateia` | 5 a 8 | `270` · `39` | `3` | `1d8 + 9` |
+
+> **Cada uma traz a própria coluna de capanga**, derivada do câmbio do §5 — o `Oni` reparte em quatro de `67` e `13`, a `Tsuchigumo` em quatro de `28` e `6`.
+>
+> ***Decisão do Mizuki: o Bestiário não precisa entrar no livro do Projeto M.*** *O arquivo mora em `05-material/maldicoes-prontas.md`, ao lado do `bloco-de-inimigo.docx`, que é o outro artefato de mestre.*
+
+### 5 · Elas são INSTÂNCIA, e instância envelhece
+
+**A peça 8 é o precedente e custou sete versões:** *uma ficha publicada passou aquele tempo com a Defesa errada, com todos os validadores verdes.* **A sub-checagem `9.5` recomputa as seis da linha do manual vezes o fator da categoria**, com o arredondamento meio-para-baixo do §4.1.
+
+> **A âncora é o `dados.js` e não o `.docx`**, e isso é decisão: *a tabela do manual só se lê com o `python-docx`, e uma checagem de instância que **pula** é pior que nenhuma.* **O `dados.js` já é conferido contra a peça pelo bloco `7` do `conferir-ficha.py`, então a cadeia fecha** — prontas → `dados.js` → peça 26.
+>
+> **Cinco perturbações acendem e dois contra-testes ficam verdes.** *A que mais importa é a quinta: mexer na máquina sem atualizar as prontas acende.*
+>
+> **⚠ E a base da cópia isolada saiu VERMELHA na primeira montagem, de novo.** *O `cp -r` da pasta caiu dentro de um diretório que eu já tinha criado, e virou `05-material/05-material`.* **Os sete resultados daquela rodada eram lixo, e a regra 2 do arnês existe exatamente para isso.**
+>
+> **⚠ E a minha primeira forma da guarda contava a FRASE `orçamento de feitiço` no arquivo inteiro**, que aparece duas vezes — uma na prosa que explica a regra e outra na ficha da `Kitsune`. *Hoje ela conta a linha da ficha.* **Guarda que aceita demais, terceira vez desde a v0.204.**
+
+### Adicionado
+
+- **`sistema/05-material/maldicoes-prontas.md`** — as seis fichas, o piso medido e o que ficou de fora.
+- **A sub-checagem `9.5` do `conferir-bestiario.py`.** *Sub-bloco, então a contagem fica em nove.*
+
+### Alterado
+
+- **O `§8` da peça 26** — a coluna de capanga foi riscada, com o `29` que ela previa e o `28` que saiu.
+
+### Decidido
+
+- **Seis prontas, uma por célula útil da faixa** — e a `Calamidade` fica de fora porque exige seis feiticeiros.
+- **A ficção sai do folclore japonês**, e o Bestiário não entra no livro do Projeto M.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **Fica uma pergunta:** *o `maldicoes-prontas.md` entra no recorte da entrega, ou fica só no repositório de trabalho?* *E continuam: os itens menores, a régua de diagramação sem instrumento confiável, e o `Rotina` do glossário.*
+
+---
+
 ## [0.212] — 03/09/2026
 
 **A economia de treino da criação foi repartida de novo, e a peça que puxou foi a mesa.** ***Pedido do Mizuki:*** *"alguns players querem tentar coisas novas, como a possibilidade de usar outras armas nos caminhos que não possuem treinamento em armas além das de distância."*
