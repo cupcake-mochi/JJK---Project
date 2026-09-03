@@ -2040,6 +2040,61 @@ else:
             print(f'  [x] a tabela de roteiro da introducao cobre os '
                   f'{len(_CHAPTERS)} capitulos, na numeracao do build.py')
 
+    # -- 10.8: a QUINTA copia da numeracao, e ela ficou onze versoes atras. --
+    # A coluna `Cap.` do glossario aponta, termo a termo, o capitulo que explica
+    # aquilo por extenso. Ela e' irma da 10.7: as duas ficaram na numeracao
+    # anterior a v0.170, quando `Sem Tecnica` entrou como capitulo 11 e empurrou
+    # os oito seguintes. A 10.7 achou a tabela da introducao e ninguem olhou o
+    # glossario — 31 das 138 linhas mandavam o leitor para o capitulo errado, as
+    # propriedades de arma para `Bencaos e Lapidacao` e os `Traco` de invocacao
+    # para `Ferramenta Amaldicoada`. Consertadas na v0.210.
+    #
+    # A comparacao e' por SECAO e nao por termo: descobrir o dono de um termo
+    # solto nao reproduz — um `### Regra` existe no Fundamento e no Sem Tecnica,
+    # e o extrator escolhia errado. A secao do glossario que se chama igual a um
+    # capitulo e' ancora sem ambiguidade, e um deslocamento global move todas.
+    _GLO = os.path.join(RAIZ, 'sistema', '05-material', 'livro', 'manual',
+                        '07-glossario.md')
+    if not os.path.isfile(_GLO):
+        erro('10.8: nao achei o glossario do livro')
+    else:
+        _gl = open(_GLO, encoding='utf-8').read().split('\n')
+        _sec, _por_sec = None, {}
+        for _l in _gl:
+            _m = re.match(r'^## (.+)$', _l)
+            if _m:
+                _sec = _m.group(1).strip()
+                _por_sec.setdefault(_sec, [])
+                continue
+            _mm = re.match(r'^\|\s*\*\*.*\|\s*(\d{1,2})\s*\|\s*$', _l)
+            if _mm and _sec:
+                _por_sec[_sec].append(int(_mm.group(1)))
+        _ancoras = {s: v for s, v in _por_sec.items() if v and _sa(s) in _NUM_CAP}
+        _linhas_tot = sum(len(v) for v in _por_sec.values())
+        if len(_ancoras) < 3:
+            erro(f'10.8: so {len(_ancoras)} secao(oes) do glossario casam com titulo de '
+                 'capitulo — sem ancora a coluna `Cap.` nao tem contra o que ser medida, '
+                 'e um deslocamento global passaria batido')
+        elif _linhas_tot < 100:
+            erro(f'10.8: so li {_linhas_tot} linha(s) com numero de capitulo no glossario '
+                 '— o extrator parou de achar e a comparacao passaria trivialmente')
+        else:
+            _ruins = []
+            for _s, _v in sorted(_ancoras.items()):
+                _certo = _NUM_CAP[_sa(_s)]
+                _moda = max(set(_v), key=_v.count)
+                if _moda != _certo:
+                    _ruins.append(f'a secao "{_s}" aponta para o capitulo {_moda} e '
+                                  f'"{_s}" e o capitulo {_certo}')
+            if _ruins:
+                for _r in _ruins:
+                    erro(f'10.8: a coluna `Cap.` do glossario esta fora da numeracao '
+                         f'do build.py — {_r}')
+            else:
+                print(f'  [x] a coluna `Cap.` do glossario bate com o build.py nas '
+                      f'{len(_ancoras)} secoes que sao titulo de capitulo '
+                      f'({_linhas_tot} linhas no total)')
+
     # -- 10.4: vocabulario batizado que o livro nao publica. ----------------
     # A lista sai do SISTEMA do conferir-nomes.py, que e' quem protege nome
     # batizado de ser rebatizado. Um termo que so' aparece em linha de citacao

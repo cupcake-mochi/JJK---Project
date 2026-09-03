@@ -109,7 +109,7 @@ p { margin: 0 0 3.4mm 0; orphans: 3; widows: 3; }
    consertar nada. */
 .par { break-inside: avoid; }
 
-/* A linha de sabor de uma Origem, Caminho ou Trilha nao pode ser a ultima
+/* O paragrafo que abre uma secao nao pode ser a ultima
    coisa da coluna: o titulo gruda nela, e a cadeia tem de seguir para o que
    vem depois. Ver `cola_sabor` no build.py — 42 no livro. */
 p.sabor { break-after: avoid; }

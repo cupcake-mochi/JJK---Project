@@ -8,6 +8,65 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.210] — 03/09/2026
+
+**Os dois itens que a v0.208 e a v0.209 deixaram abertos, e os dois eram a mesma família: número de capítulo e quebra de página.** *Escolha do Mizuki — "vc consegue resolver o 2-3 q foram abertos aq?"*
+
+### 1 · A coluna `Cap.` do glossário era a QUINTA cópia da numeração, e ninguém a comparava
+
+**A v0.170 pôs `Sem Técnica` como capítulo 11 e empurrou os oito seguintes.** *A checagem `10.7` já existia e já tinha achado esse mesmo deslocamento na tabela de roteiro da introdução — que era a quarta cópia.* **O glossário é a quinta, e ele ficou onze versões atrás.**
+
+| a seção do glossário | dizia | o dono é |
+|---|---|---|
+| `Caminhos e Trilhas` | `8` | **8** — certa |
+| `Formas, Melhorias e Restrições do Fundamento` | `9` | **9** — certa |
+| `Técnica Marcial` | `10` | **10** — certa |
+| `Bênçãos e Lapidação` | `12` | **13** |
+| `Equipamento` | `13` | **14** |
+
+> **O corte cai exatamente entre 10 e 12, e o 11 é o capítulo inserido.** *`31` das `138` linhas mandavam o leitor para o capítulo errado: as nove propriedades de arma para `Bênçãos e Lapidação`, os `Traço` de invocação para `Ferramenta Amaldiçoada`, o `Marco` para `Pactos`.*
+
+***E a comparação é por SEÇÃO, não por termo.*** *Tentei descobrir o dono de cada termo pelo lugar onde ele é definido, e o extrator disse que `Maestria` mora em `Experiência` e que `Atributo` mora em `Técnica Marcial`* — **um `### Regra` existe no `Fundamento` e no `Sem Técnica`, e a heurística escolhia errado.** *A seção do glossário que se chama igual a um capítulo é âncora sem ambiguidade, e um deslocamento global move todas.*
+
+> **A checagem `10.8` fecha em quatro âncoras e `138` linhas.** *Quatro perturbações acendem — desfazer o deslocamento, errar uma seção só, errar outra, e tirar um capítulo do `build.py` — e dois contra-testes ficam verdes: mexer numa seção que não é título de capítulo, e reescrever a definição de um termo.*
+
+### 2 · A regra de quebra abriu de 42 para 280, e as três formas foram construídas
+
+**A v0.208 marcou a linha de sabor em itálico e zerou os títulos de Origem órfãos.** *O que sobrou é o print da página 19 do Mizuki: `Vida, energia e alma` fechando página com o parágrafo de introdução e nada mais.* **Aquilo é título seguido de prosa normal, e são `238` contra os `42` do itálico.**
+
+| forma | páginas | só o título | até 2 linhas | até 4 linhas |
+|---|---|---|---|---|
+| **só itálico**, como estava | `144` | `2` | `16` | `29` |
+| parágrafo curto ou itálico | `146` | `0` | `11` | `26` |
+| **todo primeiro parágrafo** | **`147`** | `2` | **`10`** | **`20`** |
+
+> ***A terceira ficou:*** *três páginas em 144 são `2%`, e ela é a melhor nas duas colunas largas.* **O `só o título` não se move de forma confiável** — *são dois casos, e dois casos são sensíveis a qualquer deslocamento de paginação.* *A do meio zerou aquela coluna e piorou as outras duas, que é o retrato de ruído e não de conserto.*
+
+### 3 · Uma entrada do glossário aponta para um capítulo que não explica ela, e não é de numeração
+
+**`Rotina` aparece UMA vez no livro inteiro: na própria linha do glossário.** *Nenhum capítulo usa a palavra.* **O ponteiro dela está errado em qualquer numeração**, porque não existe capítulo dono — ela é termo de peça, e o glossário é "toda palavra que **este manual** usa com significado próprio".
+
+> *Deslocada junto com as outras trinta para a coluna não ficar em duas numerações, e **fica registrada como decisão do Mizuki**: ou ela sai do glossário, ou o livro passa a usar a palavra.*
+
+### Adicionado
+
+- **A checagem `10.8` do `conferir-repositorio.py`** — a coluna `Cap.` do glossário contra a lista `CHAPTERS` do `build.py`, por seção-âncora.
+
+### Alterado
+
+- **`livro/manual/07-glossario.md`** — as `31` linhas de capítulo `11` para cima, todas `+1`.
+- **`cola_sabor` no `build.py`** — de linha de sabor em itálico para todo primeiro parágrafo de seção, com a medida das três formas na docstring.
+- **Os quatro artefatos do livro**, refeitos.
+
+### Decidido
+
+- **O glossário é numerado pelo `build.py`**, e a checagem `10.8` guarda isso.
+- **Todo primeiro parágrafo de seção segura o título junto**, ao custo de três páginas.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **O próximo é escolha do Mizuki:** *os itens iniciais por Caminho e os itens menores, alinhando o que cada Caminho leva na mão com o dinheiro, que fechou na v0.171.* *E fica a pergunta do `Rotina`: sai do glossário, ou o livro passa a usar a palavra?*
+
+---
+
 ## [0.209] — 03/09/2026
 
 **A mesa perguntava qual ofício e qual Teste de Resistência cada Origem dá, e a resposta é "nenhum fixo" — só que o capítulo não dizia isso no lugar onde a pergunta nasce.** ***Retorno de mesa do Mizuki:*** *"tem mt gente me perguntando qual é o ofício e TR que a origem dá, mas eles são livres; como não é citado antes de cada origem a galera pensa que é fixo e que não foi botado."*
