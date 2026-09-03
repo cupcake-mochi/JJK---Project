@@ -2685,6 +2685,8 @@ E duas coisas que quase todo degrau daqui menciona:
 
 *Perícia, ofício e Teste de Resistência entram na ficha uma vez, na criação. O quadro completo das vinte e três perícias e dos onze ofícios está no capítulo 3, __Perícias e Ofícios__.*
 
+*O Caminho treina você nessa lista de armas; ele não te dá a arma. O que você leva na mão você compra na criação, e as tabelas de `Preços` estão no capítulo 14, __Equipamento__.*
+
 ### Degraus do Bastião
 
 > **Nível 2: `Corpo Duro`.** *Reação.* Ao ser atingido, você reduz o dano em **o seu nível + 1d6**. Isso é o `Corpo Duro`.
@@ -2757,6 +2759,8 @@ E duas coisas que quase todo degrau daqui menciona:
 | **Treino de arma** | **as treze categorias**: Simples, Marciais e Arma de Fogo |
 
 *Perícia, ofício e Teste de Resistência entram na ficha uma vez, na criação. O quadro completo das vinte e três perícias e dos onze ofícios está no capítulo 3, __Perícias e Ofícios__.*
+
+*O Caminho treina você nessa lista de armas; ele não te dá a arma. O que você leva na mão você compra na criação, e as tabelas de `Preços` estão no capítulo 14, __Equipamento__.*
 
 ### Degraus da Vanguarda
 
@@ -2933,6 +2937,8 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 14, 
 
 *Perícia, ofício e Teste de Resistência entram na ficha uma vez, na criação. O quadro completo das vinte e três perícias e dos onze ofícios está no capítulo 3, __Perícias e Ofícios__.*
 
+*O Caminho treina você nessa lista de armas; ele não te dá a arma. O que você leva na mão você compra na criação, e as tabelas de `Preços` estão no capítulo 14, __Equipamento__.*
+
 > **Nenhuma rota dá ataque extra ao Guia.** Quem quiser lutar de Guia paga pela técnica, como todo mundo.
 
 ### Degraus do Guia
@@ -3012,6 +3018,8 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 14, 
 
 *Perícia, ofício e Teste de Resistência entram na ficha uma vez, na criação. O quadro completo das vinte e três perícias e dos onze ofícios está no capítulo 3, __Perícias e Ofícios__.*
 
+*O Caminho treina você nessa lista de armas; ele não te dá a arma. O que você leva na mão você compra na criação, e as tabelas de `Preços` estão no capítulo 14, __Equipamento__.*
+
 ### Degraus do Emanador
 
 > **Nível 2: `Sangria`.** *Ação bônus.* Gaste **`1/8` da sua vida MÁXIMA** e ganhe PE a cada **`3` de vida perdida**, dando **`1` PE**. A vida máxima só volta no **descanso longo**; metade dela volta no **descanso curto**.
@@ -3084,6 +3092,8 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 14, 
 | **Treino de arma** | **Arma de Fogo** e **Balestra**, as duas que não pedem treino de verdade |
 
 *Perícia, ofício e Teste de Resistência entram na ficha uma vez, na criação. O quadro completo das vinte e três perícias e dos onze ofícios está no capítulo 3, __Perícias e Ofícios__.*
+
+*O Caminho treina você nessa lista de armas; ele não te dá a arma. O que você leva na mão você compra na criação, e as tabelas de `Preços` estão no capítulo 14, __Equipamento__.*
 
 ### Degraus do Evocador
 
@@ -6721,4 +6731,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: 1dc76024a9ebdb3ce39fe828ee93323744404e18 -->
+<!-- fonte: cf28fce2314f751e3cde4c1ac57513ab71874770 -->

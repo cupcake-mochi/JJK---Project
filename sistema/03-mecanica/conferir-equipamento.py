@@ -535,6 +535,47 @@ if _s8:
 
 
 # --------------------------------------------------------------- 13. O DINHEIRO
+# -- 12.1: o ponteiro para o catalogo, no comeco de cada Caminho. ------------
+# A tabela `Caracteristicas de <X>` diz em que armas o Caminho treina, e nao diz
+# que a arma se COMPRA. O capitulo 6 ja escrevia a frase certa — "o Caminho te
+# treina numa lista de armas; ele nao te da a arma" — e ela morava so la, longe
+# de quem abre o livro num Caminho. Mesmo defeito da v0.209 nas Origens, mesma
+# forma de conserto: a linha entra no ponto de uso.
+#
+# O ponteiro NAO repete o fundo da criacao. O `¥150.000` ja mora no capitulo 6 e
+# no 14, e uma terceira copia seria a licao no 9 de graca — a linha aponta e o
+# numero fica com quem ja e dono dele. O numero do capitulo citado e conferido
+# pela checagem 10.3 do conferir-repositorio.py, que le a lista do build.py.
+bloco('12.1 PONTEIRO DE EQUIPAMENTO — os cinco Caminhos mandam o leitor comprar')
+if not os.path.exists(_LIVRO):
+    erro('12.1: nao achei o capitulo de Caminhos do livro')
+else:
+    _tc = open(_LIVRO, encoding='utf-8').read()
+    _caminhos = re.findall(r'^## ([^\n]+)\n(.*?)(?=^## |\Z)', _tc, re.S | re.M)
+    _com_tab = [(n, c) for n, c in _caminhos if 'Características do' in c or
+                'Características da' in c]
+    _pont = {}
+    for _n, _c in _com_tab:
+        _m = re.search(r'\*O Caminho treina você[^*]*\*', _c)
+        _pont[_n.strip()] = _m.group(0) if _m else None
+    _sem = [n for n, v in _pont.items() if v is None]
+    if len(_com_tab) < 5:
+        erro(f'12.1: achei {len(_com_tab)} Caminho(s) com tabela de caracteristicas e '
+             'esperava os cinco — o extrator parou de achar')
+    elif _sem:
+        erro(f'12.1: {len(_sem)} Caminho(s) nao mandam o leitor comprar a arma: '
+             f'{sorted(_sem)}. A tabela diz em que ele TREINA, e sem a linha o leitor '
+             'conclui que o Caminho entrega a arma')
+    elif len(set(_pont.values())) > 1:
+        erro(f'12.1: as {len(_pont)} copias do ponteiro divergiram — '
+             f'{len(set(_pont.values()))} redacoes. Nenhum Caminho muda essa regra')
+    elif re.search(r'150[.\s]?000', next(iter(set(_pont.values())))):
+        erro('12.1: o ponteiro passou a repetir o fundo da criacao. Aquele numero tem dono '
+             'no capitulo 6 e no 14, e uma terceira copia diverge (licao no 9)')
+    else:
+        print(f'  [x] os {len(_pont)} Caminhos publicam o mesmo ponteiro para o catalogo, '
+              'e nenhum repete o fundo da criacao.')
+
 bloco('13. O DINHEIRO — o preco e a terceira trava, e ele so sabe atrasar')
 # v0.171. Nada aqui esta escrito: a escada de salario vem da peca 12 SS6.1, os
 # precos vem do SS6.5 desta peca, e a unica constante e a ANCORA EXTERNA — o

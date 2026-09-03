@@ -8,6 +8,51 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.211] — 03/09/2026
+
+**Cada Caminho passou a dizer que a arma se compra, e o item 5 encolheu para isso porque o resto já estava feito.** ***Decisão do Mizuki:*** *"só menciona no começo de cada classe o como funciona de forma superficial e indica que eles devem ir para o capítulo certo para comprar os itens."*
+
+### 1 · O item da fila era menor do que o nome dele
+
+**A fila pedia "itens iniciais por Caminho", e a metade de dinheiro já tinha fechado na v0.171 e na v0.175.** *A peça 14 §6.5 publica o fundo — `Grau 4`, `Traje` degrau 1 da instituição e uma mensalidade —, com oito kits de referência medidos, seis cabendo e dois não.*
+
+> **E a pergunta que eu ia fazer não precisava ser feita.** *Eu ia trazer kit fixo contra kit recomendado por Caminho, e a decisão dele foi nenhum dos dois:* **só o ponteiro.** *Kit fixo mataria a variação de build que o orçamento livre da v0.175 existe para produzir, e ela foi medida — o corte dela é a Destreza, e o `Revestimento` 1 vale `+3` contra a ficha sem Destreza e empata contra quem a maximiza.*
+
+### 2 · A tabela dizia em que o Caminho TREINA, e não que a arma se compra
+
+**O capítulo 8 abre cada Caminho com `Características de <X>`, e a linha `Treino de arma` diz as categorias.** *Nada ali dizia que a arma não vem junto.*
+
+> **A frase certa já existia, e morava longe:** *o capítulo 6 escreve* **"o Caminho te treina numa lista de armas; ele não te dá a arma"** *desde que o dinheiro entrou.* **É o mesmo defeito da v0.209 nas Origens — a informação existe e não chega a quem abre o livro no meio — e o mesmo conserto: a linha entra no ponto de uso.**
+
+*A forma também já existia:* **depois daquela tabela há uma linha em itálico que manda o leitor ao capítulo 3 pelo quadro de perícias e ofícios.** *A nova é irmã dela, apontando para o 14.*
+
+### 3 · O ponteiro NÃO repete o fundo da criação, e isso é a checagem
+
+**O `¥150.000` já mora no capítulo 6 e no capítulo 14.** *Uma terceira cópia seria a lição nº 9 de graça, num número que muda com a patente em que a campanha abre.* **A linha aponta e o número fica com quem já é dono dele.**
+
+> **A checagem `12.1` cobra as três coisas:** *que os cinco Caminhos publiquem o ponteiro, que as cinco redações sejam a mesma, e que **nenhuma** traga o fundo escrito.* **Três perturbações acendem e dois contra-testes ficam verdes** — *mexer na tabela de características e reescrever a linha-irmã não movem nada.*
+>
+> *O número do capítulo citado não é conferido aqui: a checagem `10.3` do `conferir-repositorio.py` já lê toda referência `capítulo N, Título` contra a lista `CHAPTERS` do `build.py`.*
+
+### Adicionado
+
+- **A linha de ponteiro para o catálogo nos cinco Caminhos** do capítulo 8.
+- **A sub-checagem `12.1` do `conferir-equipamento.py`** — as cinco cópias contra si mesmas, e a guarda de que nenhuma repete o fundo da criação.
+
+### Alterado
+
+- **`livro/manual/35-caminhos-e-trilhas.md`** — cinco linhas novas, nenhuma palavra de regra movida.
+- **Os quatro artefatos do livro**, refeitos.
+
+### Decidido
+
+- **O Caminho não entrega arma, e cada um diz isso no ponto de uso.**
+- **Não existe kit por Caminho, nem fixo nem recomendado** — *o orçamento livre da v0.175 é o que produz a variação de build, e um kit a substituiria.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **O que sobra do item 5 são os itens menores** — *consumível, talismã pronto, remédio, o kit que o `Herbalismo` usa* —, e a peça 14 §8 tem a régua de três camadas com a terceira desligada. *Fora dele, o catálogo de maldições prontas espera a lista do Mizuki, a régua de diagramação continua sem instrumento confiável, e o `Rotina` do glossário espera decisão: sai, ou o livro passa a usar a palavra.*
+
+---
+
 ## [0.210] — 03/09/2026
 
 **Os dois itens que a v0.208 e a v0.209 deixaram abertos, e os dois eram a mesma família: número de capítulo e quebra de página.** *Escolha do Mizuki — "vc consegue resolver o 2-3 q foram abertos aq?"*
