@@ -237,6 +237,53 @@ const EXEMPLO = {
   notas: 'Age três vezes por rodada, e rola o dado uma vez em cada. Quatro capangas de 70 de vida valem o mesmo encontro.',
 };
 
+// ------------------------------------------------------- 3. AS SEIS PRONTAS
+// Cada numero aqui e COMPUTADO de FAIXAS e CATEGORIAS, e nenhum e lido de
+// dados.js: as prontas guardam so nome, faixa, categoria e ficcao. E' o mesmo
+// caminho das tabelas do fim da folha, e por isso mexer na maquina move as seis
+// juntas em vez de deixar elas para tras.
+function prontas() {
+  const out = [new Pg({ children: [new PageBreak()] })];
+  out.push(...titulo('Maldições prontas — do nível 2 ao 6'));
+  out.push(P('Seis fichas para abrir e usar. **Nenhum número foi escolhido:** todos saem das tabelas do fim desta folha.'));
+  out.push(P('São seis porque a faixa do nível 2 ao 6 cruza **duas linhas** da tabela de inimigo com as **quatro categorias** — oito células —, e a `Calamidade` exige seis feiticeiros, que um grupo dessa faixa não tem.'));
+  out.push(GAP(120));
+
+  const linhas = X.PRONTAS.map((m) => {
+    const f = X.FAIXAS.find((x) => x[0] === m.faixa);
+    const c = X.CATEGORIAS.find((x) => x[0] === m.categoria);
+    const [, , , , , vidaChefe, danoChefe, vidaCap, danoCap] = f;
+    const [, pes, fator] = c;
+    return [m.nome, m.categoria, m.faixa, esc(vidaChefe, fator), esc(danoChefe, fator),
+            String(acoes(pes)), golpe(danoChefe, fator, pes),
+            `${esc(vidaCap, fator)} · ${esc(danoCap, fator)}`];
+  });
+  out.push(TBL(['MALDIÇÃO', 'CATEGORIA', 'NÍVEL', 'VIDA', 'DANO', 'AÇÕES', 'GOLPE', 'CAPANGA'],
+    linhas, [17, 14, 10, 10, 9, 9, 16, 15],
+    { centerCols: [2, 3, 4, 5, 6, 7] }));
+  out.push(GAP(100));
+
+  X.PRONTAS.forEach((m) => {
+    const f = X.FAIXAS.find((x) => x[0] === m.faixa);
+    const c = X.CATEGORIAS.find((x) => x[0] === m.categoria);
+    const [, , , , , vidaChefe, danoChefe] = f;
+    const [, pes, fator] = c;
+    out.push(new Pg({ spacing: { before: 140, after: 30 },
+      children: [new TextRun({ text: m.nome.toUpperCase(), bold: true, size: 22,
+                               color: C.crimson, characterSpacing: 40 })] }));
+    out.push(NOTA(m.linha));
+    out.push(P(m.notas));
+    out.push(stat('Exige', `${pes} feiticeiro${pes > 1 ? 's' : ''} · ${m.categoria}`, false));
+    out.push(stat('Vida e dano por rodada', `${esc(vidaChefe, fator)} · ${esc(danoChefe, fator)}`, false));
+    out.push(stat('Ações e golpe', `${acoes(pes)} · ${golpe(danoChefe, fator, pes)}`, false));
+  });
+
+  out.push(GAP(140));
+  out.push(NOTA('A `Calamidade` da faixa fica de fora porque exige seis feiticeiros. A linha dela existe nas tabelas e monta na hora, se a sua mesa for grande.'));
+  out.push(NOTA('Resistência, Expansão de Domínio e aptidão não entram em nenhuma das seis: as três custam degrau de categoria ou cota de dano, e uma maldição de grau baixo não tem o que gastar.'));
+  return out;
+}
+
 const doc = new Document({
   creator: 'Projeto - M', title: 'Bloco de inimigo',
   styles: { default: { document: { run: { font: 'Calibri', size: 20, color: C.ink } } } },
@@ -249,7 +296,7 @@ const doc = new Document({
       alignment: AlignmentType.CENTER,
       children: [new TextRun({ text: 'Projeto - M · bloco de inimigo · peça 26',
                                size: 14, color: C.grey })] })] }) },
-    children: [...bloco(null, true), ...bloco(EXEMPLO), ...tabelas()],
+    children: [...bloco(null, true), ...bloco(EXEMPLO), ...prontas(), ...tabelas()],
   }],
 });
 

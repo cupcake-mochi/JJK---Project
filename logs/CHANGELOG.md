@@ -8,6 +8,62 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.214] — 03/09/2026
+
+**As seis prontas mudaram de casa, e a mudança achou quatro números errados meus.** ***Decisão do Mizuki:*** *"coloque as maldições prontas dentro do livro de criar inimigo, agora entendi o problema."*
+
+### 1 · O `.md` à parte era uma segunda fonte, e ela mentia
+
+**A v0.213 publicou as seis num arquivo próprio, com os números escritos.** *O `bloco-de-inimigo.docx` já computava vida, dano, ações e golpe das mesmas `FAIXAS` e `CATEGORIAS`* — **então existiam duas fontes para a mesma ficha, e uma delas era digitada.**
+
+| golpe | o `.md` dizia | o gerador, que é o dono |
+|---|---|---|
+| `Kamaitachi` | `1d8 + 4` | **`1d8 + 3`** |
+| `Tsuchigumo` | `1d8 + 2` | **`1d8 + 1`** |
+| `Hitotsume` | `1d8 + 6` | **`1d8 + 5`** |
+| `Oni` | `1d8 + 9` | **`1d8 + 8`** |
+
+> **Quatro dos seis, e a causa é de uma linha:** *o gerador arredonda o resto pela regra do §4.1 — meio para baixo — e a minha conta truncou o produto antes de subtrair.* **A `Betobeto` e a `Kitsune` escaparam por acidente**, uma por ser número seco e a outra por cair redonda.
+>
+> **⚠ E a checagem `9.5` da v0.213 não pegou, porque ela conferia vida, dano, ações e capanga — e não o golpe.** *Uma guarda que cobre quatro das cinco colunas sai verde na quinta.*
+
+### 2 · O conserto não é corrigir os quatro: é a cópia não existir
+
+**As `PRONTAS` moram no `dados.js` e guardam só as escolhas** — nome, faixa, categoria e ficção. *Vida, dano, ações, golpe e a coluna de capanga são computados pelo `make.js`, pelo mesmo caminho das tabelas do fim da folha.*
+
+> **Mexer na máquina passa a mover as seis junto**, em vez de deixá-las para trás. *O `.md` foi para o `_to_delete/`.*
+
+**A checagem `9.5` foi reescrita e a guarda dela é outra:** *ela cobra que as seis cubram as células úteis da faixa, que nenhuma seja `Calamidade`, e — a que importa — que as `PRONTAS` **não guardem número de ficha nenhum**.* **Escrever `vida:` ali dentro acende.**
+
+> **⚠ E a primeira forma da checagem nova cobrava dez células onde há seis.** *A regex das categorias pegava as `SUBCATEGORIAS` junto — `sozinho`, `bando` —, porque eu não a ancorei no bloco.* **Ancorada, ela fecha em seis.**
+
+### 3 · Onde as seis ficam
+
+**Dentro do `bloco-de-inimigo.docx`, que é o artefato que chega na mão do mestre** — e o `.pdf` dele saiu junto, com seis páginas. *O gerador já previa isso: o comentário do exemplo, escrito na v0.199, diz que "o catálogo de prontas é a versão seguinte".*
+
+### Adicionado
+
+- **`PRONTAS` no `dados.js`** e a seção `Maldições prontas` no `make.js`, com todos os números computados.
+- **O `bloco-de-inimigo.pdf` regenerado**, agora com seis páginas.
+
+### Alterado
+
+- **A sub-checagem `9.5`**, que passou a ler do gerador e a proibir número escrito nas prontas.
+- **O `§8` da peça 26** — as prontas foram riscadas, com o registro dos quatro golpes errados.
+
+### Removido
+
+- **`sistema/05-material/maldicoes-prontas.md`**, para o `_to_delete/`. *Ele viveu uma versão e o motivo da morte é o que ele ensinou: instância digitada ao lado de instância computada é a lição nº 9 com as duas na mesma pasta.*
+
+### Decidido
+
+- **As prontas moram no gerador do bloco de inimigo**, e não em arquivo próprio.
+- **As `PRONTAS` guardam escolha, nunca número.**
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. *Sobram os itens menores, a régua de diagramação sem instrumento confiável, o `Rotina` do glossário, e a pergunta de se o bloco de inimigo entra no recorte da entrega.*
+
+---
+
 ## [0.213] — 03/09/2026
 
 **As maldições prontas saíram, e elas fecham a decisão da v0.161 — "máquina mais prontas".** *A máquina estava entregue desde a v0.198 e as prontas esperavam a escolha do Mizuki desde então.* ***Escolha dele:*** *do nível 2 ao 6, com a ficção no folclore japonês — "maldições são basicamente isso normalmente".*

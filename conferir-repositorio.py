@@ -985,7 +985,13 @@ else:
     # padrao de caminho da fonte em vez de ser cobrada como ponteiro pendurado.
     # Guarda que aceita demais avisa tarde — o conserto foi por o bloco no
     # recorte, junto da ficha, e nao alargar o padrao.
-    BRANCAS_AQUI, FOLGA = 160, 5
+    # v0.214: a base subiu de 160 para 166. O que entrou foi o registro da
+    # v0.214 no CHANGELOG e no §8 da peca 26 — ele cita o
+    # `maldicoes-prontas.md`, que a propria versao APAGOU, mais os caminhos do
+    # gerador-inimigo. Citacao de arquivo morto num registro historico e' o que
+    # a lista branca existe para aceitar: o CHANGELOG conta o que aconteceu, e o
+    # que aconteceu foi o arquivo nascer e morrer na versao seguinte.
+    BRANCAS_AQUI, FOLGA = 166, 5
     PISO_CITACOES, TETO_BRANCOS = 120, BRANCAS_AQUI + FOLGA
     if vistos_e < PISO_CITACOES:
         erro(f'7.2: achei so {vistos_e} citacoes na entrega, e o piso e {PISO_CITACOES} — '

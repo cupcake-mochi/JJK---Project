@@ -67,10 +67,43 @@ const SUBCATEGORIAS = [
 ];
 
 // Quatro `Ronda` nao valem uma `Alcateia` — peca 26 §4.3, a banda das sete faixas.
+// As seis prontas do nivel 2 ao 6 — v0.214. Aqui moram SO as escolhas: nome,
+// faixa, categoria e ficcao. Vida, dano, acoes, golpe e a coluna de capanga sao
+// COMPUTADOS pelo make.js a partir de FAIXAS e CATEGORIAS, do mesmo jeito que as
+// tabelas do fim da folha. Escrever os numeros aqui seria a licao no 9 num
+// arquivo que ja e a fonte deles.
+//
+// Sao seis e nao outro numero: a faixa do nivel 2 ao 6 cruza DUAS linhas de
+// FAIXAS com as QUATRO categorias — oito celulas —, e a Calamidade exige seis
+// feiticeiros, que um grupo dessa faixa nao tem.
+//
+// A ficcao sai do folclore japones, escolha do Mizuki: maldicao de grau baixo e
+// yokai com outro nome, e a obra faz o mesmo.
+const PRONTAS = [
+  { nome: 'Betobeto', faixa: '2 a 4', categoria: 'Ronda',
+    linha: 'Os passos atrás de você, que param quando você para.',
+    notas: 'Não aparece. Anda no escuro do corredor, sempre um pouco atrás, e o barulho é de sandália em piso duro. Quem se vira não vê nada.' },
+  { nome: 'Kamaitachi', faixa: '2 a 4', categoria: 'Dupla',
+    linha: 'Vêm em dupla, e o corte chega antes do vento.',
+    notas: 'Duas comadres-de-foice que trabalham juntas: uma derruba, a outra corta. Ninguém vê a segunda até o sangue aparecer.' },
+  { nome: 'Tsuchigumo', faixa: '2 a 4', categoria: 'Alcateia',
+    linha: 'A aranha da terra, e o chão dela é a casa toda.',
+    notas: 'Não persegue: espera onde o teto encontra a parede, e o prédio já é dela quando o grupo entra. As três ações são ela agindo de três lugares.' },
+  { nome: 'Hitotsume', faixa: '5 a 8', categoria: 'Ronda',
+    linha: 'Um olho só, e ele já te viu.',
+    notas: 'O menino de um olho aparece na esquina, na porta do banheiro, no fim da escada. Sempre sozinho, sempre parado, sempre um pouco mais perto.' },
+  { nome: 'Kitsune', faixa: '5 a 8', categoria: 'Dupla',
+    linha: 'A única da faixa que conjura.',
+    notas: 'Não bate primeiro. Fala, e o que ela fala é verdade o bastante para o grupo se dividir — e é depois disso que a técnica sai.' },
+  { nome: 'Oni', faixa: '5 a 8', categoria: 'Alcateia',
+    linha: 'O que a ficção sempre pôs no fim do arco.',
+    notas: 'Não tem truque. É grande, é forte, e vem pela porta — e o grupo do nível 6 precisa dos quatro para segurar.' },
+];
+
 const RONDA_CONTRA_ALCATEIA = [0.75, 0.77];
 
 const CAMBIO = 4;          // um chefe de Alcateia vale N capangas — peca 26 §5
 const REACAO = 1;          // uma por rodada — manual, secao Inimigos
 
-module.exports = { FAIXAS, CATEGORIAS, DERIVADAS, RESISTENCIA, SUBCATEGORIAS,
+module.exports = { FAIXAS, CATEGORIAS, DERIVADAS, RESISTENCIA, SUBCATEGORIAS, PRONTAS,
                    RONDA_CONTRA_ALCATEIA, CAMBIO, REACAO };

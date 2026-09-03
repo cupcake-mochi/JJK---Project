@@ -1079,71 +1079,67 @@ print('=' * 88)
 # so se le com python-docx, e uma checagem de INSTANCIA que pula e' pior que
 # nenhuma. O `dados.js` ja e conferido contra a peca pelo bloco 7 do
 # conferir-ficha.py, entao a cadeia fecha — prontas -> dados.js -> peca 26.
-bloco('9.5 AS MALDICOES PRONTAS — as seis fichas de 05-material, recomputadas')
+bloco('9.5 AS MALDICOES PRONTAS — as seis do gerador de inimigo')
 
-_MP = os.path.join(AQUI, '..', '05-material', 'maldicoes-prontas.md')
 _DJ = os.path.join(AQUI, '..', '05-material', 'gerador-inimigo', 'dados.js')
-if not os.path.isfile(_MP):
-    erro('9.5: nao achei `05-material/maldicoes-prontas.md` — as seis prontas sao o que a '
-         'decisao da v0.161 pedia junto da maquina')
-elif not os.path.isfile(_DJ):
-    erro('9.5: nao achei o `dados.js` do gerador-inimigo — sem ele as prontas nao tem '
-         'contra o que ser recomputadas')
+_BL = os.path.join(AQUI, '..', '05-material', 'bloco-de-inimigo.docx')
+if not os.path.isfile(_DJ):
+    erro('9.5: nao achei o `dados.js` do gerador-inimigo')
 else:
-    _tp = open(_MP, encoding='utf-8').read()
     _dj = open(_DJ, encoding='utf-8').read()
-    _FX = {}
-    for _m in re.finditer(r"\['(\d+ a \d+)',\s*\d+,\s*\d+,\s*\d+,\s*\d+,\s*"
-                          r"(\d+),\s*(\d+),\s*(\d+),\s*(\d+)\]", _dj):
-        _FX[_m.group(1)] = tuple(int(_m.group(i)) for i in (2, 3, 4, 5))
-    def _lp(x): return x.strip().strip('*').strip('`').strip()
-    def _nu(x):
-        m = re.search(r'[\d,.]+', x.replace('`', ''))
-        return float(m.group(0).replace(',', '.')) if m else None
-    _lin = [c for c in tabela(_tp, '| maldição | categoria |') if len(c) >= 7]
+    _pb = _dj[_dj.index('const PRONTAS'):_dj.index('];', _dj.index('const PRONTAS'))] \
+        if 'const PRONTAS' in _dj else ''
+    _pr = re.findall(r"nome:\s*'([^']+)'[^}]*?faixa:\s*'([^']+)'[^}]*?categoria:\s*'([^']+)'",
+                     _pb, re.S)
+    _fx = re.findall(r"\['(\d+ a \d+)',", _dj)
+    # ANCORADO no bloco CATEGORIAS: sem a ancora a regex pegava SUBCATEGORIAS
+    # junto — `sozinho`, `bando` — e a checagem cobrava dez celulas onde ha seis.
+    _cb = _dj[_dj.index('const CATEGORIAS'):_dj.index('];', _dj.index('const CATEGORIAS'))] \
+        if 'const CATEGORIAS' in _dj else ''
+    _ct = re.findall(r"\['(\w+)',\s*(\d+),\s*([\d.]+)\]", _cb)
     _ruins = []
-    if not _FX:
-        _ruins.append('nao consegui ler as faixas do `dados.js` — o extrator parou de achar '
-                      'e a comparacao passaria trivialmente')
-    elif len(_lin) != 6:
-        _ruins.append(f'a tabela das prontas tem {len(_lin)} linha(s), e a faixa do nivel 2 '
-                      'ao 6 tem seis celulas uteis: duas linhas da tabela `Inimigos` vezes '
-                      'as quatro categorias, menos a `Calamidade`')
+    if not _pr:
+        _ruins.append('nao achei as PRONTAS no `dados.js` — a decisao da v0.161 pede '
+                      'maquina MAIS prontas, e sem elas so existe a maquina')
     else:
-        _fat = {c[0]: (c[1], c[2], c[3]) for c in _CAT}
-        for _c in _lin:
-            _nome, _cat, _fx = _lp(_c[0]), _lp(_c[1]), _lp(_c[2])
-            _v, _d, _ac = _nu(_c[3]), _nu(_c[4]), _nu(_c[5])
-            if _fx not in _FX or _cat not in _fat:
-                _ruins.append(f'{_nome}: faixa "{_fx}" ou categoria "{_cat}" nao existem na '
-                              'maquina')
-                continue
-            _bv, _bd, _cv, _cd = _FX[_fx]
-            _pes, _fa, _acoes = _fat[_cat]
-            _ev, _ed = _meio_baixo(_bv * _fa), _meio_baixo(_bd * _fa)
-            if (_v, _d, _ac) != (_ev, _ed, _acoes):
-                _ruins.append(f'{_nome} ({_cat}, nv {_fx}) publica {_v:g} de vida, {_d:g} de '
-                              f'dano e {_ac:g} acao(oes); a maquina da {_ev} · {_ed} · '
-                              f'{_acoes}')
-            _esp = f'`{_meio_baixo(_cv * _fa)}` de vida e `{_meio_baixo(_cd * _fa)}` de dano'
-            if _esp not in _tp:
-                _ruins.append(f'{_nome}: a linha de capanga nao publica {_esp}, que e o que '
-                              'o cambio do §5 da para esta categoria')
-        if any(_lp(c[1]) == 'Calamidade' for c in _lin):
-            _ruins.append('entrou uma `Calamidade` nas prontas, e ela exige seis feiticeiros '
-                          '— fora do alcance de um grupo do nivel 2 ao 6')
-        # conta a LINHA DA FICHA e nao a frase: a prosa da abertura tambem diz
-        # "orcamento de feitico" ao explicar a regra, e contar a frase dava 2.
-        _conj = len(re.findall(r'^\| \*\*orçamento de feitiço\*\* \|', _tp, re.M))
-        if _conj != 1:
-            _ruins.append(f'{_conj} das prontas declaram orcamento de feitico, e o §6.5 tem '
-                          'UMA celula nao-seca na faixa inteira — a `Dupla` do nivel 5')
+        # 1. o piso: seis celulas uteis, e a conta que produz o seis
+        _uteis = [(f, c[0]) for f in _fx[:2] for c in _ct if c[0] != 'Calamidade']
+        if len(_pr) != len(_uteis):
+            _ruins.append(f'sao {len(_pr)} pronta(s) e a faixa do nivel 2 ao 6 tem '
+                          f'{len(_uteis)} celulas uteis — duas linhas de FAIXAS vezes as '
+                          'categorias, menos a Calamidade, que exige seis feiticeiros')
+        _vistas = {(f, c) for _n, f, c in _pr}
+        _falta = set(_uteis) - _vistas
+        _sobra = _vistas - set(_uteis)
+        if _falta:
+            _ruins.append(f'celula(s) da faixa sem pronta: {sorted(_falta)}')
+        if _sobra:
+            _ruins.append(f'pronta(s) fora das duas linhas da faixa, ou Calamidade: '
+                          f'{sorted(_sobra)}')
+        if len(_vistas) != len(_pr):
+            _ruins.append('duas prontas na mesma celula — com seis exemplos e seis celulas, '
+                          'repetir e desperdicar exemplo')
+        # 2. a guarda que importa: PRONTAS nao pode guardar NUMERO de ficha.
+        # Vida, dano, acoes, golpe e capanga sao COMPUTADOS pelo make.js das
+        # mesmas FAIXAS e CATEGORIAS que as tabelas da folha. Escrever qualquer
+        # um deles aqui cria a segunda fonte — e foi exatamente isso que a v0.213
+        # fez num .md a parte, com QUATRO dos seis golpes errados por um
+        # arredondamento que o gerador faz e a copia nao fazia.
+        _proibidos = [k for k in ('vida', 'dano', 'acoes', 'golpe', 'capanga', 'defesa')
+                      if re.search(r'\b' + k + r'\s*:', _pb)]
+        if _proibidos:
+            _ruins.append(f'as PRONTAS guardam {_proibidos} — esses numeros sao computados '
+                          'de FAIXAS e CATEGORIAS pelo make.js, e escrever eles aqui e a '
+                          'segunda fonte que a v0.213 ja pagou uma vez')
+    if not os.path.isfile(_BL):
+        _ruins.append('nao achei o `bloco-de-inimigo.docx` — as prontas so chegam ao mestre '
+                      'por ele')
     for _m in _ruins[:5]:
         erro('9.5: ' + _m)
     if not _ruins:
-        print(f'  [x] as {len(_lin)} prontas recomputam da linha do manual vezes o fator da '
-              'categoria, o capanga de cada uma sai do cambio, nenhuma e Calamidade, e so '
-              'uma conjura.')
+        print(f'  [x] as {len(_pr)} prontas cobrem as celulas uteis da faixa, nenhuma e '
+              'Calamidade, e nenhuma guarda numero de ficha — todos saem da maquina.')
+
 
 if ERROS:
     print(f'>>> {len(ERROS)} PROBLEMA(S):')
