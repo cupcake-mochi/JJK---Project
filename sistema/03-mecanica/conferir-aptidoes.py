@@ -475,6 +475,46 @@ if _tl is not None:
     else:
         print('  [x] o kokusen do livro bate com o da peca nos tres eixos: gatilho, '
               'relogio e requisito')
+# --- GATE DE APTIDAO: quem exige outra aptidao mora no MESMO grupo dela no livro.
+# A peca 11 SS5 chama isso de gate de aptidao e cobra que a exigida seja "a mesma
+# coisa em tamanho menor" — entao as duas sao a mesma familia, e separar as duas em
+# grupos diferentes do livro poe o leitor procurando a escada na prateleira errada.
+# Nasceu na v0.208, quando o Mizuki achou a `Circulacao` publicada dentro de
+# `Aptidoes de kokusen`: ela e' gate da `Energia Reversa`, que mora em `Energia
+# crua`. Nenhum validador olhava agrupamento, e o proprio texto do grupo ja
+# denunciava — ele dizia "as duas aptidoes que melhoram essa fonte" com tres
+# secoes embaixo.
+if _tl is not None:
+    _pares = re.findall(r'^### ([^·\n]+?)\s*·[^\n]*?exige a `([^`]+)`', PECA11, re.M)
+    _pares += re.findall(r'^### ([^·\n]+?)\s+exige a `([^`]+)`', PECA11, re.M)
+    _grupo, _g = {}, None
+    for _l in _tl.split('\n'):
+        _m = re.match(r'^(#{2,3}) (.+)$', _l)
+        if _m and len(_m.group(1)) == 2:
+            _g = _m.group(2).strip()
+        elif _m:
+            _grupo[_m.group(2).strip('` ').strip()] = _g
+    if not _pares:
+        erro('a peca 11 nao declara nenhum gate de aptidao no formato '
+             '"### <nome> ... exige a `<outra>`" — ou o formato mudou, ou o gate de '
+             'aptidao sumiu, e nos dois casos esta checagem parou de conferir algo')
+    else:
+        _fora = []
+        for _a, _b in _pares:
+            _a, _b = _a.strip('` ').strip(), _b.strip('` ').strip()
+            _ga, _gb = _grupo.get(_a), _grupo.get(_b)
+            if _ga is None or _gb is None:
+                _fora.append(f'`{_a}` ou `{_b}` nao tem secao propria no capitulo 12 do '
+                             f'livro (achei {_ga!r} e {_gb!r})')
+            elif _ga != _gb:
+                _fora.append(f'`{_a}` exige a `{_b}` e as duas estao em grupos '
+                             f'diferentes do livro: "{_ga}" contra "{_gb}"')
+        for _m in _fora:
+            erro(_m)
+        if not _fora:
+            print(f'  [x] os {len(_pares)} gates de aptidao moram no mesmo grupo do '
+                  'livro que a aptidao que eles exigem')
+
 if not _regra_de_mundo:
     erro('a peca 11 parou de declarar o `Kokusen` base como regra de mundo — se ele '
          'voltar a ser entrada de catalogo, a pilha volta a custar tres marcos e esta '

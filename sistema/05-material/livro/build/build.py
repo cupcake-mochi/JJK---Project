@@ -389,6 +389,47 @@ def cola_chamada(soup):
     return n
 
 
+def cola_sabor(soup):
+    """A linha de sabor deixa de poder ser a ultima coisa da coluna.
+
+    O irmao do `cola_chamada`, para o par que ele nao enxerga. O `break-after:
+    avoid` do titulo amarra ele ao elemento seguinte e PARA AI — e nas Origens e
+    nos Caminhos o padrao e `## Guia` + *o outro e a resposta: estender...* + o
+    conteudo. O que sobrava no pe da pagina era o nome do Caminho, a frase de
+    efeito, e nada embaixo.
+
+    **Medido no PDF de duas colunas, com a regra desligada e religada: 9 paginas
+    de 144 terminavam no titulo com a linha de sabor embaixo e nada mais. Com a
+    marca, 0 de 145** — uma pagina de custo. *As nove: Receptaculo, Descendente,
+    Corpo Amaldicoado, Legados: Sem Energia, e as Trilhas Executor, Elo,
+    Perimetro, Torrente e Coro.*
+
+    A marca vai no PARAGRAFO e nao num `div` em volta: envelopar movia o bloco
+    seguinte para dentro da arvore, e quando esse bloco era outro titulo ele saia
+    da cadeia de irmaos e o par seguinte deixava de ser reconhecido. Marcando o
+    paragrafo, a cadeia `titulo -> sabor -> o que vier` fecha sozinha e serve
+    para caixa, prosa, tabela e titulo do mesmo jeito.
+
+    O reconhecedor e a FORMA e nao o texto: paragrafo logo depois de titulo,
+    inteiro em italico. Sao 42 no livro, 20 em Origens e 20 em Caminhos e
+    Trilhas. *`break-before: avoid` em toda caixa ja foi medido e reprovou —
+    nove paginas a mais —, e e por isso que o alvo continua sendo o par.*
+    """
+    n = 0
+    for h in soup.find_all(["h2", "h3", "h4"]):
+        p = h.find_next_sibling()
+        if p is None or p.name != "p":
+            continue
+        ems = p.find_all("em", recursive=False)
+        if len(ems) != 1 or ems[0].get_text(strip=True) != p.get_text(strip=True):
+            continue
+        if p.find_next_sibling() is None:
+            continue
+        p["class"] = p.get("class", []) + ["sabor"]
+        n += 1
+    return n
+
+
 def quebras_em_citacao(md_text):
     """Dentro de uma citação, cada linha é uma linha.
 
@@ -439,6 +480,7 @@ def md_para_html(md_text, prefixo_id, achados=None):
     trata_tabelas(soup)
     tira_rotulo_repetido(soup)
     cola_chamada(soup)
+    cola_sabor(soup)
     if VARIANTE == "duas":
         segmenta_colunas(soup)
     if achados is not None:

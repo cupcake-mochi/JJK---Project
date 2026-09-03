@@ -586,6 +586,64 @@ else:
     else:
         print('  [x] o `Ferro Velho` continua sendo o contra-exemplo escrito da glosa estreita.')
 
+# ---------------------------------------------------------------- 12
+# O que a Origem entrega em oficio e Teste de Resistencia mora em DOIS lugares do
+# capitulo 7: a tabela `Caracteristicas da Origem`, no topo, e o bloco `Efeito na
+# ficha` de cada uma. Ate a v0.209 morava so na tabela, e a mesa perguntava — o
+# leitor que abre numa Origem via so a lista de pericias e concluia que o oficio e
+# o TR daquela Origem tinham faltado. Sao SETE copias do mesmo paragrafo agora, e
+# copia sem comparacao diverge (licao no 9).
+print('\n' + '=' * 88)
+print('12. OFICIO E TR NA ORIGEM — as sete copias contra a tabela que as governa')
+print('=' * 88)
+if not os.path.isfile(_CAP):
+    erro('ORIGEM-EXTRA', 'nao achei o capitulo de Origens do livro')
+else:
+    _t = open(_CAP, encoding='utf-8').read()
+    _origens = re.findall(r'^## ([^\n]+)\n(.*?)(?=^## |\Z)', _t, re.S | re.M)
+    _com_pericia = [(n, c) for n, c in _origens if '#### Perícias' in c]
+    _blocos = {}
+    for _n, _c in _com_pericia:
+        _m = re.search(r'#### Ofício e Teste de Resistência\n(.*?)(?=^#### |\Z)', _c, re.S | re.M)
+        _blocos[_n.strip()] = _m.group(1).strip() if _m else None
+    _faltam = [n for n, b in _blocos.items() if b is None]
+    if not _com_pericia:
+        erro('ORIGEM-EXTRA', 'nao achei nenhuma Origem com `#### Perícias` no capitulo 7 — '
+                             'ou o formato do bloco `Efeito na ficha` mudou')
+    elif _faltam:
+        erro('ORIGEM-EXTRA', f'{len(_faltam)} Origem(ns) publicam a lista de pericias e nao '
+                             f'dizem do oficio nem do Teste de Resistencia: {sorted(_faltam)}. '
+                             'A mesa perguntou justamente por isso: sem a linha, o leitor '
+                             'conclui que os dois faltaram naquela Origem')
+    else:
+        _uniq = set(_blocos.values())
+        if len(_uniq) > 1:
+            erro('ORIGEM-EXTRA', f'as {len(_blocos)} copias do bloco de oficio e TR '
+                                 f'divergiram: {len(_uniq)} redacoes diferentes. Nenhuma '
+                                 'Origem muda esses dois, entao a divergencia e erro')
+        else:
+            # e a copia tem de dizer o que a tabela do topo do capitulo diz
+            _tab = _bloco(_t, '| O que você anota | Detalhe |', '\n### ')
+            _quer = [
+                ('escolha entre os quatro Testes de Resistencia',
+                 r'qualquer um dos quatro', r'quatro'),
+                ('o outro TR vem do Caminho', r'o outro vem do Caminho', r'Caminho'),
+                ('o oficio pode virar pericia', r'mais uma perícia', r'mais uma perícia'),
+            ]
+            _texto = next(iter(_uniq))
+            _erra = [rot for rot, na_tab, no_bloco in _quer
+                     if not (re.search(na_tab, _tab) and re.search(no_bloco, _texto))]
+            if not _tab:
+                erro('ORIGEM-EXTRA', 'nao achei a tabela `Caracteristicas da Origem` — ela e '
+                                     'a dona do que a Origem entrega, e sem ela as sete '
+                                     'copias nao tem contra o que ser medidas')
+            elif _erra:
+                erro('ORIGEM-EXTRA', 'o bloco publicado nas sete Origens perdeu o que a '
+                                     f'tabela do topo declara: {_erra}')
+            else:
+                print(f'  [x] as {len(_blocos)} Origens com lista de pericia publicam o mesmo '
+                      'bloco de oficio e TR, e ele bate com a tabela do topo do capitulo.')
+
 # ---------------------------------------------------------------- veredito
 print('\n' + '=' * 88)
 if avisos:

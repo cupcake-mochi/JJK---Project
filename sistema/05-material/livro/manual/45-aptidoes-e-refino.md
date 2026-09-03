@@ -176,20 +176,6 @@ Ela é a porta de toda arma de contato, e é ela que põe energia no que a sua m
 
 Ela muda a forma das lutas longas e muda o que acontece entre elas: um personagem com Energia Reversa não precisa voltar para casa depois de cada cena.
 
-## Aptidões de kokusen
-
-### Kokusen
-
-> **Kokusen** — em crítico no corpo a corpo, role d100. `2 × refino` ou menos é kokusen: o dano leva +50% depois de todos os valores resolvidos.
->
-> Cada d100 falhado empurra o próximo em **+2**, e o acumulado zera no descanso longo.
->
-> Requisito: nenhum, e ele não gasta marco. O refino escala a chance no d100.
-
-O +50% entra em cima do crítico que já dobrou os dados. Um crítico entrega dois punhados de dado; um kokusen entrega três. Por exemplo, com refino 6 o kokusen sai em 12 ou menos no d100 — 12% dos seus críticos corpo a corpo.
-
-O Kokusen em si não é uma aptidão: é uma mecânica, e todo feiticeiro que tem energia consegue usar. Ele não ocupa vaga de catálogo e não custa marco. Abaixo estão as duas aptidões que melhoram essa fonte.
-
 ### Circulação
 
 > **Circulação** — o teto por uso da sua `Energia Reversa` sobe para `1,5 × a sua maior Classe` de PE, arredondando para baixo.
@@ -211,6 +197,20 @@ Recompor membro é a mesma aptidão fazendo a coisa mais difícil que a energia 
 > **Membro perdido.** Não tem regra neste livro, e isso é decisão: quem tira é o mestre ou um pacto, e as penalidades são as que a mesa combinar, do mesmo jeito que o d20 faz. Esta aptidão desfaz.
 
 **Curar outra pessoa continua fora daqui.** Quem alcança os outros é a Trilha `Sutura`, no nível 11 dela. Uma ficha com as duas recompõe o membro de outra pessoa, e isso é o degrau mais raro do material.
+
+## Aptidões de kokusen
+
+### Kokusen
+
+> **Kokusen** — em crítico no corpo a corpo, role d100. `2 × refino` ou menos é kokusen: o dano leva +50% depois de todos os valores resolvidos.
+>
+> Cada d100 falhado empurra o próximo em **+2**, e o acumulado zera no descanso longo.
+>
+> Requisito: nenhum, e ele não gasta marco. O refino escala a chance no d100.
+
+O +50% entra em cima do crítico que já dobrou os dados. Um crítico entrega dois punhados de dado; um kokusen entrega três. Por exemplo, com refino 6 o kokusen sai em 12 ou menos no d100 — 12% dos seus críticos corpo a corpo.
+
+O Kokusen em si não é uma aptidão: é uma mecânica, e todo feiticeiro que tem energia consegue usar. Ele não ocupa vaga de catálogo e não custa marco. Abaixo estão as duas aptidões que melhoram essa fonte.
 
 ### Kokusen Melhorado
 

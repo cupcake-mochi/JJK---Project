@@ -37,7 +37,7 @@ Todo personagem começa **Grau 4**, venha de onde vier. A patente é eixo social
 
 Toda Origem abre pela frase que a resume, seguida do que é ser aquilo no mundo e de quem a carrega na obra.
 
-Depois vem **Efeito na ficha**, sempre na mesma ordem: as **Perícias**, a lista de quatro de onde você escolhe uma; os **Destrancas**, que dizem quantos Legados a ficha leva; e a **Criação**, a rota por onde você monta o seu poder. As duas Origens especiais mexem nessa rota, e o texto delas diz como.
+Depois vem **Efeito na ficha**, sempre na mesma ordem: as **Perícias**, a lista de quatro de onde você escolhe uma, mais a livre; o **Ofício e Teste de Resistência**, que são escolha sua e saem iguais em toda Origem; os **Destrancas**, que dizem quantos Legados a ficha leva; e a **Criação**, a rota por onde você monta o seu poder. As duas Origens especiais mexem nessa rota, e o texto delas diz como.
 
 Por último vêm os **Legados** da Origem, nos três formatos.
 
@@ -81,6 +81,14 @@ A maioria vale sempre, sem contagem. E cada entrada diz o que você paga em troc
 #### Perícias
 
 Escolha uma: Sentir Energia · Sobrevivência · Furtividade · Intuição
+
+Mais uma perícia livre, que a sua história justifique.
+
+#### Ofício e Teste de Resistência
+
+**Um Teste de Resistência treinado, à sua escolha entre os quatro** — o outro vem do seu Caminho. E **um ofício livre**, ou mais uma perícia no lugar dele.
+
+*Os dois valem igual em toda Origem: o que muda de uma para a outra é só a lista de perícias.*
 
 #### Destrancas
 
@@ -140,6 +148,14 @@ Fundamento, do jeito padrão.
 #### Perícias
 
 Escolha uma: Sentir Energia · Ocultismo · Intuição · Religião
+
+Mais uma perícia livre, que a sua história justifique.
+
+#### Ofício e Teste de Resistência
+
+**Um Teste de Resistência treinado, à sua escolha entre os quatro** — o outro vem do seu Caminho. E **um ofício livre**, ou mais uma perícia no lugar dele.
+
+*Os dois valem igual em toda Origem: o que muda de uma para a outra é só a lista de perícias.*
 
 #### Destrancas
 
@@ -201,6 +217,14 @@ Fundamento, do jeito padrão. O passageiro mora na ficção da mesa, e a montage
 #### Perícias
 
 Escolha uma: Hierarquia · História · Ocultismo · Persuasão
+
+Mais uma perícia livre, que a sua história justifique.
+
+#### Ofício e Teste de Resistência
+
+**Um Teste de Resistência treinado, à sua escolha entre os quatro** — o outro vem do seu Caminho. E **um ofício livre**, ou mais uma perícia no lugar dele.
+
+*Os dois valem igual em toda Origem: o que muda de uma para a outra é só a lista de perícias.*
 
 #### Destrancas
 
@@ -268,6 +292,14 @@ Fundamento, do jeito padrão.
 
 Escolha uma: História · Ocultismo · Investigação · Intimidação
 
+Mais uma perícia livre, que a sua história justifique.
+
+#### Ofício e Teste de Resistência
+
+**Um Teste de Resistência treinado, à sua escolha entre os quatro** — o outro vem do seu Caminho. E **um ofício livre**, ou mais uma perícia no lugar dele.
+
+*Os dois valem igual em toda Origem: o que muda de uma para a outra é só a lista de perícias.*
+
 #### Destrancas
 
 Você começa toda a ficha com um `Destranca` e um `Ajusta` ou `Desliga`.
@@ -329,6 +361,14 @@ Fundamento, do jeito padrão.
 #### Perícias
 
 Escolha uma: Ocultismo · Medicina · Sentir Energia · Natureza
+
+Mais uma perícia livre, que a sua história justifique.
+
+#### Ofício e Teste de Resistência
+
+**Um Teste de Resistência treinado, à sua escolha entre os quatro** — o outro vem do seu Caminho. E **um ofício livre**, ou mais uma perícia no lugar dele.
+
+*Os dois valem igual em toda Origem: o que muda de uma para a outra é só a lista de perícias.*
 
 #### Destrancas
 
@@ -429,6 +469,14 @@ Sem Fundamento, porque não existe técnica inata para escrever. Você tem energ
 #### Perícias
 
 Escolha uma: Atletismo · Percepção · Ocultismo · Intimidação
+
+Mais uma perícia livre, que a sua história justifique.
+
+#### Ofício e Teste de Resistência
+
+**Um Teste de Resistência treinado, à sua escolha entre os quatro** — o outro vem do seu Caminho. E **um ofício livre**, ou mais uma perícia no lugar dele.
+
+*Os dois valem igual em toda Origem: o que muda de uma para a outra é só a lista de perícias.*
 
 #### Destrancas
 
@@ -546,6 +594,14 @@ O `PE` do seu Caminho continua chegando. Nesta rota ele se lê **Pontos de Esfor
 | **Sem energia** | Atletismo · Acrobacia · Furtividade · Pontaria |
 
 Quem é do ramo sem energia não pode ter `Sentir Energia` de nenhuma forma.
+
+Mais uma perícia livre, que a sua história justifique.
+
+#### Ofício e Teste de Resistência
+
+**Um Teste de Resistência treinado, à sua escolha entre os quatro** — o outro vem do seu Caminho. E **um ofício livre**, ou mais uma perícia no lugar dele.
+
+*Os dois valem igual em toda Origem: o que muda de uma para a outra é só a lista de perícias.*
 
 #### Destrancas
 

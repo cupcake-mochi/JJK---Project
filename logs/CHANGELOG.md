@@ -8,6 +8,139 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.209] — 03/09/2026
+
+**A mesa perguntava qual ofício e qual Teste de Resistência cada Origem dá, e a resposta é "nenhum fixo" — só que o capítulo não dizia isso no lugar onde a pergunta nasce.** ***Retorno de mesa do Mizuki:*** *"tem mt gente me perguntando qual é o ofício e TR que a origem dá, mas eles são livres; como não é citado antes de cada origem a galera pensa que é fixo e que não foi botado."*
+
+### 1 · A informação existia, e existia no lugar errado
+
+**O capítulo 7 abre com a tabela `Características da Origem`, e ela publica as sete linhas certas** — a perícia da lista, a perícia livre, o ofício livre, o Teste de Resistência, o traço, os dois Legados e a rota de criação.
+
+> **E o `Como ler uma Origem` declarava, de propósito, que o `Efeito na ficha` traz três coisas:** *as Perícias, os Destrancas e a Criação.* **O ofício e o TR ficavam de fora porque são iguais nas sete** — *o que é uma decisão defensável e estava falhando na prática.*
+>
+> ***Pergunta de leitor é bug de régua, e não de leitor.*** *Quem abre o livro numa Origem vê uma lista de quatro perícias e mais nada, e conclui que o ofício e o TR daquela Origem faltaram.*
+
+### 2 · O pedido dele estava impreciso num ponto, e escrever ao pé da letra trocaria a confusão de lugar
+
+***Ele pediu:*** *"colocar também por escrito «Escolha um Teste de Resistência e um Ofício»."* **O Teste de Resistência é isso mesmo. O ofício não.**
+
+| o que a Origem dá | e é |
+|---|---|
+| **Teste de Resistência** | `1`, qualquer um dos quatro. **Sempre.** O outro vem do Caminho |
+| **ofício** | o **extra**, e o extra é *ou* `1` ofício livre *ou* mais `1` perícia |
+
+> **Escrito como pedido, o leitor passaria a achar que o ofício vem por cima da perícia** — a mesma confusão, na direção contrária. *A redação publicada diz a troca com todas as letras.*
+
+### 3 · E faltava uma terceira coisa que ninguém tinha perguntado
+
+**O bloco publicava `1` das `4` coisas que a Origem entrega.** *Além do ofício e do TR, a **perícia livre** também não estava lá — só a lista de quatro de onde se escolhe uma.*
+
+### 4 · Sete cópias do mesmo parágrafo, e por isso a checagem entrou junto
+
+**Nenhuma Origem muda esses dois, então as sete cópias são idênticas por construção** — *e cópia sem comparação diverge.* **A checagem `12` do `conferir-legados.py` cobra três coisas:** *que toda Origem com lista de perícia tenha o bloco, que as sete redações sejam a mesma, e que ela bata com a tabela do topo do capítulo — a escolha entre os quatro TR, o outro vindo do Caminho, e a troca do ofício por perícia.*
+
+> **Quatro perturbações acendem e um contra-teste fica verde.** *Tirar o bloco de uma Origem, fazer uma cópia divergir, apagar a troca nas sete, e mudar a regra na tabela do topo.* **Mexer na lista de perícias de uma Origem não acende**, que é o que separa a checagem de um `diff` cego.
+
+### 5 · O `conferir-voz` pegou o meu texto, e pegou pela regra certa
+
+**A primeira redação fechava com *"o que muda de uma para a outra é a lista de perícias acima"*, e o `TABELA-VAGA` acendeu sete vezes.** *A régua de voz proíbe apontar por posição — "a tabela acima" passa a mentir quando o PDF quebra a página noutro lugar.* **O `acima` saiu e o sentido não se moveu.**
+
+### 6 · A régua de diagramação NÃO foi entregue, e o registro é do que falhou
+
+***Pedido dele:*** *"eu quero que meça problema como esses, num geral."* **Duas formas foram tentadas e as duas foram descartadas por ruído.**
+
+| tentativa | o que deu |
+|---|---|
+| coluna que termina muito acima do fundo | **122 de 144 páginas** — conta fim de capítulo e página de tabela como buraco |
+| a mesma, excluindo abertura de capítulo | **igual**, porque o detector de abertura achou `0` |
+
+> **⚠ O detector falhou por um motivo que vale registrar: a palavra `Capítulo` aparece em UMA página do PDF inteiro.** *O rótulo de abertura que o `build.py` escreve não sai como texto na extração*, então não dá para achar abertura de capítulo por texto.
+>
+> **A régua achou coisa real no meio do ruído** — *a página `26` tem treze linhas no total* —, **mas um número que não separa sinal de ruído não vale ser publicado.** *É o mesmo veredito das duas réguas descartadas na v0.208, e é a terceira vez seguida: régua nova nasce mentindo, e o conserto é medir contra um caso conhecido antes de confiar nela.*
+
+### Adicionado
+
+- **O bloco `Ofício e Teste de Resistência` nas sete Origens** que publicam lista de perícia, mais a linha da perícia livre no bloco `Perícias`.
+- **A checagem `12` do `conferir-legados.py`** — as sete cópias contra si mesmas e contra a tabela `Características da Origem`.
+
+### Alterado
+
+- **`livro/manual/25-origens.md`** — os sete blocos e o `Como ler uma Origem`, que passou a listar quatro coisas.
+- **Os quatro artefatos do livro**, refeitos.
+
+### Decidido
+
+- **O ofício e o Teste de Resistência se escrevem em cada Origem**, mesmo sendo iguais nas sete, porque é onde a pergunta nasce.
+- **O ofício é publicado como troca** — ofício *ou* perícia —, e não como ganho por cima.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **A régua de diagramação continua em aberto e é o próximo pedido dele**, com o problema conhecido: *achar abertura de capítulo no PDF sem poder ler a palavra `Capítulo`.* *Fora dela, o catálogo de maldições prontas espera a lista, e a coluna `Cap.` do glossário continua errada por um desde a v0.170.*
+
+---
+
+## [0.208] — 03/09/2026
+
+**Duas coisas do livro que só aparecem no PDF, e as duas foram achadas pelo Mizuki lendo ele.** *Uma é conteúdo no grupo errado; a outra é o título de uma Origem ou de um Caminho ficando sozinho no pé da página.*
+
+### 1 · A `Circulação` estava no grupo do kokusen, e o próprio texto denunciava
+
+**Ela é uma aptidão de `Energia Reversa` e estava publicada dentro de `Aptidões de kokusen`, desde que entrou na v0.203.** *A peça 11 põe ela logo depois da `Energia Reversa`; o livro largou entre o `Kokusen` e o `Kokusen Melhorado`, que não corresponde a nada.*
+
+> **A frase que abre aquele grupo dizia a verdade o tempo todo:** *"abaixo estão as **duas** aptidões que melhoram essa fonte"* — **e embaixo tinha três seções.** *Tirando a `Circulação`, sobram o `Kokusen Melhorado` e o `Kokusen Constante`: exatamente duas.* **A contagem nunca esteve errada; a `Circulação` é que estava no lugar errado.**
+
+### 2 · Nada olhava agrupamento, e a régua para olhar já existia na peça
+
+**O `conferir-aptidoes.py` já lia o capítulo 45, mas só os três eixos do kokusen** — gatilho, relógio e requisito, escritos na v0.202. *Onde cada aptidão MORA, ninguém conferia.*
+
+> **A checagem nova sai de uma regra que a peça 11 §5 já escreve:** *o gate de aptidão exige que a aptidão exigida seja "a mesma coisa em tamanho menor" e sirva sozinha.* **Então as duas são a mesma família, e separá-las em grupos diferentes do livro manda o leitor procurar a escada na prateleira errada.**
+>
+> *Hoje são dois pares:* `Circulação` → `Energia Reversa` e `Cortina` → `Barreira Simples`. **Quatro perturbações acendem e dois contra-testes ficam verdes.**
+>
+> **⚠ E a base da cópia isolada saiu VERMELHA na primeira montagem**, porque faltavam o `ESTADO-ATUAL.md`, o `02-esqueleto/` e o `manual/` nela. *Os quatro primeiros vermelhos não provavam nada, e o arnês foi refeito do zero* — **é exatamente a regra 2 do arnês, e ela mordeu.**
+
+### 3 · O título com linha de sabor deixou de ficar sozinho no pé da página
+
+**O `cola_chamada` existe desde a v0.146 para este defeito, e ele não enxergava este par.** *O reconhecedor dele é estreito por decisão — um parágrafo que **termina em dois-pontos** e é seguido de caixa, oito no livro.* **O padrão das Origens e dos Caminhos é outro:** `## Guia` + *o outro é a resposta: estender, recuperar, reposicionar.* + o conteúdo. *A linha de sabor não termina em dois-pontos.*
+
+| | páginas | títulos órfãos |
+|---|---|---|
+| **antes** | `144` | **`9`** |
+| **depois** | `145` | **`0`** |
+
+> *As nove:* `Receptáculo` · `Descendente` · `Corpo Amaldiçoado` · `Legados: Sem Energia` · e as Trilhas `Executor`, `Elo`, `Perímetro`, `Torrente` e `Coro`. **Medido desligando e religando a regra, com dois builds.**
+>
+> **A marca vai no PARÁGRAFO e não num `div` em volta**, e a primeira forma foi trocada por causa disso: *envelopar movia o bloco seguinte para dentro da árvore, e quando esse bloco era outro título ele saía da cadeia de irmãos.* **Marcando o parágrafo, a cadeia `título → sabor → o que vier` fecha sozinha** e serve para caixa, prosa, tabela e título do mesmo jeito. *São 42 no livro, 20 em Origens e 20 em Caminhos e Trilhas.*
+>
+> **⚠ `break-before: avoid` em toda caixa continua reprovado** — a v0.146 mediu nove páginas a mais —, *e é por isso que o alvo continua sendo o par e não a caixa.*
+
+### 4 · Duas medidas minhas saíram erradas, e as duas ficam registradas
+
+**Tentei generalizar o achado da `Circulação` para "toda seção `###` fala do assunto do `##` que a contém".** *Deu **138 achados, e 137 são ruído*** — `Trilha: Muro` embaixo de `Bastião` não repete a palavra "Bastião", e nem devia. **Jogado fora.** *O que funciona é o teste do gate, que é preciso porque a relação está escrita na peça.*
+
+> **⚠⚠ E a primeira régua de órfão contava a palavra dentro de uma FRASE.** *Ela dizia `11` órfãos, e sete deles eram páginas que terminam com o nome do Caminho no meio de um parágrafo.* **Endireitada — o título tem de ser a última linha de verdade, com no máximo a linha de sabor embaixo —, ela deu `9`.**
+>
+> *E ela ainda perdeu a `Trilha: Coro` por hifenização:* **a linha de sabor quebrava em `pró‐` / `ximo` e a comparação não fechava.** *Foram três formas da mesma régua até ela parar de mentir, e a lição é a de sempre — o número que sai de uma régua não medida vale menos que nenhum.*
+>
+> ***⚠ E eu escrevi `2 de 145` na docstring antes de medir, e a medida deu outro número.*** *Corrigido para o medido.* **Fica registrado porque foi o mesmo defeito duas vezes na mesma versão.**
+
+### Adicionado
+
+- **A checagem de gate de aptidão no `conferir-aptidoes.py`** — quem exige outra aptidão mora no mesmo grupo dela no livro. *Sub-bloco, então a contagem não se move.*
+- **O `cola_sabor` no `build.py` e o `p.sabor` no `manual.css`** — a linha de sabor deixa de poder ser a última coisa da coluna.
+
+### Alterado
+
+- **`livro/manual/45-aptidoes-e-refino.md`** — a `Circulação` saiu de `Aptidões de kokusen` e foi para `Energia crua`, ao lado da `Energia Reversa`. *Nenhuma palavra de regra se moveu.*
+- **Os quatro artefatos do livro**, refeitos.
+
+### Decidido
+
+- **Aptidão com gate de aptidão mora no mesmo grupo do livro que a aptidão que ela exige.**
+- **A linha de sabor não pode fechar coluna**, e o preço de uma página está pago.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **Fica aberta uma pergunta do Mizuki:** *o título seguido de parágrafo de prosa normal — e não de linha de sabor — também fecha página em alguns lugares.* **São `238` no livro contra os `42` da linha de sabor**, então a mesma marca ali é decisão de página e não conserto óbvio. *Fora isso, o catálogo de maldições prontas continua esperando a lista dele, e a coluna `Cap.` do glossário continua errada por um desde a v0.170.*
+
+---
+
 ## [0.207] — 02/09/2026
 
 **O capítulo de Invocações ganhou o passo a passo que o Fundamento tem para feitiço.** *Ele publicava a máquina inteira e nove montagens prontas, e o leitor via o resultado sem ver a conta:* `Emboscada` + `Agarrar`, `12` pontos, cabe no nível 6 — **e de onde vem o `12`, nenhuma linha mostrava.**
