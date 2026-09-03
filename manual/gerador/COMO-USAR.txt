@@ -1,4 +1,4 @@
-GERADOR DO MANUAL — Fundamento v7.24
+GERADOR DO MANUAL — Fundamento v7.25
 
 Recria o .docx do zero. Precisa de Node.js.
 
@@ -32,6 +32,18 @@ ORDEM DAS SEÇÕES (v7)
   4 Restrições → 5 Fora de combate → 6 Liberação Máxima → 7 Técnica Máxima →
   8 Regras de ouro → 9 Progressão → 10 Feitiços prontos → 11 Para o mestre →
   Apêndice
+
+O QUE MUDOU NA v7.25
+
+  A linha do nivel 2 da tabela Inimigos, em duas coisas. A vida do chefe saiu de
+  "105 a 125" para "105 a 123": o meio da faixa era 115 e a regra que a propria
+  secao escreve pede 3 x 38 = 114. Um ponto a mais punha o chefe vivo numa quarta
+  rodada, e o encontro cobrava 89% da vida do grupo em vez dos 68% que as outras
+  seis linhas cobram. E a coluna de capanga daquela linha deixou de sair vazia:
+  28 de vida e 6 de dano, que e a mesma derivacao das outras seis — vida do chefe
+  dividida por quatro, dano dividido por tres. Quatro deles cobram 71% contra os
+  67% do chefe sozinho, e o corpo dura o mesmo que os de cima. O paragrafo que
+  declarava a faixa sem capanga saiu junto.
 
 O QUE MUDOU NA v7.24
 

@@ -1633,6 +1633,207 @@ else:
               'principal sai da entrada, e o capitulo 16 publica os mesmos arranjos.')
 
 # =============================================================================
+# 17.1 EXEMPLO GUIADO — o passo a passo do capitulo 16, recomputado dos donos
+# =============================================================================
+# Sub-bloco da 17, entao a contagem de checagens do SS5 nao se move.
+#
+# O exemplo guiado e' a unica instancia publicada que NAO tem gemea na peca 15, e
+# isso e' decisao e nao esquecimento: copiar a montagem para ca criaria a segunda
+# fonte que a licao no 9 existe para evitar. O preco da decisao e' que cada numero
+# dele nasce AQUI, de documento dono — o orcamento dos marcos da peca 2, o preco
+# das entradas do catalogo do SS3.7, a base do tipo e a formula de vida do SS3.6,
+# a regua da morte do SS3.5, a maestria da peca 1 e a base de Defesa da peca 1.
+bloco('17.1 EXEMPLO GUIADO — cada numero do passo a passo do capitulo 16')
+
+_c60g = os.path.join(AQUI, '..', '05-material', 'livro', 'manual', '60-invocacoes.md')
+_L60g = open(_c60g, encoding='utf-8').read() if os.path.isfile(_c60g) else ''
+_EX = trecho(_L60g, '### Exemplo', '### Montagens de exemplo', 'no capitulo 16') if _L60g else ''
+if not _EX.strip():
+    erro('EXEMPLO', 'nao achei o exemplo guiado no capitulo 16 do livro — ele e a unica '
+                    'instancia publicada sem gemea na peca 15, entao apagar ele nao '
+                    'acenderia mais nada em lugar nenhum')
+else:
+    _f = []
+    _fic = {}
+    for _c in tabela_apos(_EX, '| linha | valor |'):
+        if len(_c) >= 2:
+            _fic[sem_acento(limpo(_c[0])).lower()] = _c[1]
+
+    _m = re.search(r'Evocador de nível (\d+)', _EX)
+    _nvx = int(_m.group(1)) if _m else None
+    _m = re.search(r'Trilha `([^`]+)` e Essência `(\d+)`', _EX)
+    _trx, _essd = (limpo(_m.group(1)), int(_m.group(2))) if _m else (None, None)
+    _cel = _fic.get('trilha e tipo', '')
+    _tipx = next((limpo(t) for t in re.findall(r'`([^`]+)`', _cel) if limpo(t) != _trx), None)
+
+    if not (_nvx and _trx in TRILHAS and _tipx and _essd is not None):
+        erro('EXEMPLO', f'o exemplo nao declara nivel, Trilha, tipo e a Essencia do dono de '
+                        f'forma legivel (li nv={_nvx} trilha={_trx} tipo={_tipx} '
+                        f'ess={_essd}) — sem os quatro nao ha o que recomputar')
+    else:
+        # ---- a base do tipo, lida da tabela de vida do SS3.6 (o dono)
+        _basex = None
+        for _c in linhas_de_tabela(trecho(S36, '### A fórmula de vida', '## 3.7')):
+            if len(_c) >= 2 and sem_acento(_tipx) in sem_acento(_c[0]):
+                _basex = int(num(_c[1]))
+                break
+        _mp = re.search(r'vida = base do tipo \+ \((\d+) \+ a Constituição dela\)', S36)
+        _porniv = int(_mp.group(1)) if _mp else None
+        if _basex is None or _porniv is None:
+            _f.append(f'nao achei a base de `{_tipx}` nem o por-nivel na tabela de vida do '
+                      'SS3.6 — sem eles a vida e a regua do exemplo nao tem de onde nascer')
+
+        # ---- o arranjo
+        _arr = [int(x) for x in re.findall(r'`(\d+)`', _fic.get('atributos', ''))]
+        if len(_arr) != len(_ORDEM_ATR):
+            _f.append(f'a linha `atributos` traz {len(_arr)} numeros e a ficha tem '
+                      f'{len(_ORDEM_ATR)}')
+        else:
+            if sum(_arr) != PONTOS_PJ:
+                _f.append(f'o arranjo soma {sum(_arr)} e a peca 2 da {PONTOS_PJ}')
+            if max(_arr) > TETO_CRIACAO:
+                _f.append(f'o arranjo tem {max(_arr)} e o teto de criacao da peca 2 e '
+                          f'{TETO_CRIACAO}')
+
+        # ---- as compras, precadas pelo catalogo do SS3.7
+        _tok = re.findall(r'`([^`]+)`', _fic.get('compras', ''))
+        _gasto_d = int(_tok[0]) if _tok and _tok[0].isdigit() else None
+        _bolso_d = int(_tok[1]) if len(_tok) > 1 and _tok[1].isdigit() else None
+        _itens = [(limpo(_tok[i]), int(_tok[i + 1]))
+                  for i in range(2, len(_tok) - 1, 2) if _tok[i + 1].isdigit()]
+        _preco = {e['nome']: e['pts'] for e in CATALOGO}
+        _soma = 0
+        for _n, _p in _itens:
+            if _n not in _preco:
+                _f.append(f'`{_n}` nao esta no catalogo do SS3.7 — o exemplo compra coisa '
+                          'que a maquina nao vende')
+            elif _preco[_n] != _p:
+                _f.append(f'`{_n}` custa {_preco[_n]} no catalogo do SS3.7 e o exemplo '
+                          f'escreve {_p}')
+            else:
+                _soma += _p
+        if not _itens:
+            _f.append('nao li nenhuma compra na linha `compras` da ficha')
+        elif _gasto_d != _soma:
+            _f.append(f'o exemplo declara gasto {_gasto_d} e as entradas somam {_soma} '
+                      'pelo catalogo')
+
+        # ---- o bolso: a "ficha mais metade" provada contra a tabela publicada
+        _pubs = {}
+        for _c in linhas_de_tabela(trecho(S37, '| nv | orçamento da ficha | do `Servo` |',
+                                          '**A `Matilha` compra menos')):
+            if len(_c) >= 3 and limpo(_c[0]).isdigit():
+                _pubs[int(limpo(_c[0]))] = num(_c[2])
+        _tem_metade = 'mais metade' in sem_acento(S37)
+        _erra_der = [n for n, v in _pubs.items()
+                     if n in ORCAMENTO and v != ORCAMENTO[n]['pts'] + ORCAMENTO[n]['pts'] // 2]
+        if not _tem_metade or not _pubs:
+            _f.append('o SS3.7 nao declara mais o bolso do `Servo` como "a ficha mais '
+                      'metade", ou a tabela dele sumiu — sem a declaracao a derivacao do '
+                      'nivel do exemplo vira numero escrito a mao')
+        elif _erra_der:
+            _f.append(f'"a ficha mais metade" nao reproduz a tabela publicada do `Servo` '
+                      f'nos niveis {sorted(_erra_der)} — a derivacao nao pode ser aplicada '
+                      'ao nivel do exemplo antes de fechar nos niveis que tem dono')
+        elif _nvx not in ORCAMENTO:
+            _f.append(f'o nivel {_nvx} do exemplo nao esta na tabela de orcamento do SS3.6')
+        else:
+            _base_orc = ORCAMENTO[_nvx]['pts']
+            _bolso_c = (_base_orc + _base_orc // 2 if CONCEDE[_trx]['orc'] > 1
+                        else _base_orc)
+            if _bolso_d != _bolso_c:
+                _f.append(f'o exemplo publica bolso {_bolso_d} para a Trilha `{_trx}` no '
+                          f'nivel {_nvx}, e os marcos da peca 2 mais a concessao do SS3.7 '
+                          f'dao {_bolso_c}')
+
+        # ---- as linhas derivadas da ficha
+        if _basex is not None and _porniv is not None and len(_arr) == len(_ORDEM_ATR):
+            _con = _arr[_ORDEM_ATR.index('Constituição')]
+            _des = _arr[_ORDEM_ATR.index('Destreza')]
+            _crua = _basex + (_porniv + _con) * _nvx
+            _forte_x = math.floor(_MULT * (_basex + _porniv * _nvx)) + _con * _nvx
+            _vida_c = _crua if CONCEDE[_trx]['vida'] <= 1 else _forte_x
+            _reg_c = REGUA_H * _crua
+            _mst = MAESTRIA_INI + (_nvx - 1) // MAESTRIA_PASSO
+            _mdef = re.search(r'Defesa\s*=\s*(\d+)\s*\+', P1)
+            _bdef = int(_mdef.group(1)) if _mdef else None
+            _der = [('vida', _vida_c), ('regua da morte', _reg_c),
+                    ('acerto', max(_arr) + _mst)]
+            if _bdef is not None:
+                _der.append(('defesa', _bdef + _des + _essd // 2))
+            else:
+                _f.append('nao achei a base da Defesa na peca 1 — a Defesa do exemplo '
+                          'ficaria sem dono')
+            for _rot, _calc in _der:
+                _lido = _fic.get(_rot)
+                if _lido is None:
+                    _f.append(f'a ficha do exemplo nao publica a linha `{_rot}`')
+                    continue
+                _n = re.search(r'(\d+)', _lido)
+                if not _n or int(_n.group(1)) != _calc:
+                    _f.append(f'a linha `{_rot}` publica "{_lido}" e a conta dos donos da '
+                              f'{_calc}')
+            # a metade da regua, que e o que decide morte em definitivo
+            _mm = re.search(r'Metade de `(\d+)` é `([\d,]+)`', _EX)
+            if not _mm:
+                _f.append('o exemplo nao escreve mais a metade da regua — ela e o gatilho '
+                          'de morte em definitivo, e sem ela o passo a passo para de '
+                          'mostrar a conta que importa')
+            elif int(_mm.group(1)) != _reg_c or \
+                    abs(float(_mm.group(2).replace(',', '.')) - _reg_c / FRACAO) > 1e-9:
+                _f.append(f'o exemplo diz que metade de {_mm.group(1)} e {_mm.group(2)}, e '
+                          f'a regua e {_reg_c} com a fracao do SS3.5 dando '
+                          f'{_reg_c / FRACAO:g}')
+
+            # ---- a tabela de fecho: as tres Trilhas, e a regua igual nas tres
+            _tri3 = tabela_apos(_EX, '| | `Servo` | `Matilha` | `Coro` |')
+            _cols = ['Servo', 'Matilha', 'Coro']
+            if not _tri3:
+                _f.append('o exemplo nao traz mais a tabela de fecho das tres Trilhas — ela '
+                          'e o unico lugar do livro que mostra a regua da morte igual com a '
+                          'vida diferente')
+            else:
+                _viu = set()
+                for _c in _tri3:
+                    if len(_c) < 4:
+                        continue
+                    _rot = sem_acento(limpo(_c[0])).lower()
+                    for _i, _t in enumerate(_cols):
+                        _n = re.search(r'(\d+)', _c[_i + 1])
+                        if not _n:
+                            continue
+                        _v = int(_n.group(1))
+                        if _rot.startswith('regua'):
+                            _viu.add('regua')
+                            if _v != _reg_c:
+                                _f.append(f'a tabela de fecho da regua {_v} em `{_t}` e a '
+                                          f'formula do tipo da {_reg_c} — a regua vale '
+                                          'igual para qualquer corpo')
+                        elif _rot == 'vida':
+                            _viu.add('vida')
+                            _esp = _forte_x if CONCEDE[_t]['vida'] > 1 else _crua
+                            if _v != _esp:
+                                _f.append(f'a tabela de fecho da vida {_v} em `{_t}` e a '
+                                          f'concessao do SS3.7 da {_esp}')
+                        elif _rot.startswith('orcamento'):
+                            _viu.add('orcamento')
+                            _e = (_base_orc + _base_orc // 2
+                                  if CONCEDE[_t]['orc'] > 1 else _base_orc)
+                            if _v != _e:
+                                _f.append(f'a tabela de fecho da orcamento {_v} em `{_t}` '
+                                          f'e a conta dos marcos da {_e}')
+                if len(_viu) < 3:
+                    _f.append('a tabela de fecho perdeu uma das tres linhas que se '
+                              f'conferem (li {sorted(_viu)}) — sem as tres ela vira enfeite')
+
+    for _m in _f[:6]:
+        erro('EXEMPLO', _m)
+    if not _f:
+        print(f'  [x] o exemplo guiado fecha: bolso {_bolso_d} dos marcos da peca 2, gasto '
+              f'{_gasto_d} pelo catalogo, vida {_vida_c} e regua {_reg_c} da formula do '
+              f'SS3.6, e a regua igual nas tres Trilhas da tabela de fecho.')
+
+# =============================================================================
 # 18. RITMO — nada cresce fora do +3
 # =============================================================================
 bloco('18. RITMO — nenhuma linha derivada cresce fora do ritmo do dono')

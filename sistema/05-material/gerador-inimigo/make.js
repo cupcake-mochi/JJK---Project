@@ -115,7 +115,8 @@ function tabelas() {
 
   out.push(GAP(150));
   out.push(FAIXA('Capanga e câmbio'));
-  out.push(P(`Um chefe de \`Alcateia\` vale **${X.CAMBIO} capangas** do mesmo nível. Quatro \`Ronda\` **não** valem uma \`Alcateia\`: elas cobram \`0,62×\` o que ela cobra.`));
+  const [rLo, rHi] = X.RONDA_CONTRA_ALCATEIA.map(v => v.toFixed(2).replace('.', ','));
+  out.push(P(`Um chefe de \`Alcateia\` vale **${X.CAMBIO} capangas** do mesmo nível. Quatro \`Ronda\` **não** valem uma \`Alcateia\`: elas cobram de \`${rLo}×\` a \`${rHi}×\` o que ela cobra.`));
   out.push(TBL(['nível do grupo', 'capanga: vida', 'o dado dele', `${X.CAMBIO} deles somam`],
     X.FAIXAS.map(f => {
       const [rot, , , , , , , kv, kd] = f;
@@ -123,18 +124,17 @@ function tabelas() {
         ? [rot, '—', '—', 'a faixa não tem capanga']
         : [rot, String(kv), dado(kd), `${kv * X.CAMBIO} de vida somada`];
     }), [22, 20, 22, 36], { centerCols: [0,1,2], boldCols: [0] }));
-  out.push(NOTA('Do nível 2 ao 4 não existe capanga: o encontro é um inimigo só.'));
   out.push(GAP(150));
 
   out.push(FAIXA('Um corpo ou vários'));
   out.push(P('O mesmo encontro cabe num corpo só ou repartido. **Cada capanga que entra tira um quarto do chefe** — a vida e o golpe dele.'));
   out.push(TBL(['a luta é…', 'o chefe fica com', 'capangas', 'e ela cobra'],
-    X.SUBCATEGORIAS.map(([nome, n]) => {
+    X.SUBCATEGORIAS.map(([nome, n, cobra]) => {
       const frac = 1 - n / X.CAMBIO;
       return [nome, `${Math.round(frac * 100)}% da linha`, n === 0 ? '—' : String(n),
-              `${[28, 30, 33, 35][n]}% da vida do grupo`];
+              `${cobra}% da vida do grupo`];
     }), [24, 26, 16, 34], { centerCols: [1,2], boldCols: [0] }));
-  out.push(NOTA('A subida de **28%** a **35%** é economia de ação: mais corpos entregam mais dano antes de o primeiro cair.'));
+  out.push(NOTA('Repartir sai um pouco **mais barato**, e não mais caro: o dano do inimigo despenca conforme os corpos caem, e um corpo único não despenca nunca.'));
   out.push(GAP(150));
 
   out.push(FAIXA('Resistência, imunidade e vulnerabilidade'));

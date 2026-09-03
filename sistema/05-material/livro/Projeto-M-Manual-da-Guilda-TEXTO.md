@@ -5975,7 +5975,10 @@ Cada linha diz quanto ela custa do orçamento, o nome que vai na ficha, e o efei
 | **8** | `Graúdo` | ocupa espaço maior e **barra passagem** |
 | **8** | `Remoto` | funciona além dos 18 metros da amarra. Ver *A amarra, e as três faixas de alcance* |
 
-> **O `Graúdo` e o `Miúdo` são o mesmo eixo em degraus diferentes, e o que os separa é quem sofre.** O `Miúdo` passa por um vão, e isso é coisa que a invocação faz consigo mesma. O `Graúdo` barra passagem, e barrar é o inimigo perdendo movimento.
+> **`Miúdo`** — ela ocupa espaço menor e passa por um vão, e isso é coisa que a invocação faz consigo mesma.
+> **`Graúdo`** — ela ocupa espaço maior e barra passagem, e barrar é o inimigo perdendo movimento.
+>
+> **Os dois são o mesmo eixo em degraus diferentes, e o que os separa é quem sofre.**
 
 Uma invocação com `Vigia` transforma toda cena de vigilância: o grupo fica no carro e a invocação fica no telhado. Uma com `Fala` faz o interrogatório, o recado e a negociação em lugar onde nenhum de vocês podia aparecer.
 
@@ -6032,6 +6035,73 @@ Você pode escrever `Traço` e `Comando` fora dos dois catálogos, e as réguas 
 | **0** | é **o ataque**. `Investir`, que toda invocação tem |
 | **4** | **faz uma coisa com um alvo ou um objeto**. `Agarrar`, `Arrastar`, `Buscar`, `Cavar` |
 | **8** | **protege você, ou nega a ação de outro**. `Interpor`, `Chamariz` |
+
+## Montar uma invocação
+
+A montagem cabe em cinco passos.
+
+1. **A Trilha.** Ela diz quantos corpos entram em campo, que corpo é esse, e qual é o seu orçamento. Você não paga por ela: ela vem no nível 2, junto do Caminho.
+2. **Os atributos.** Nove pontos entre os cinco, nenhum acima de `3`, e eles são dela.
+3. **O tipo.** Ele decide a base da vida, e a Trilha multiplica em cima.
+4. **O orçamento.** Compre `Traço` e `Comando` no catálogo, ou escreva os seus pela régua. Sobrar ponto pode; estourar não.
+5. **A ficha.** Acerto, Defesa, Teste de Resistência, vida e deslocamento saem sozinhos dos quatro anteriores. Dê um nome e escreva.
+
+> **Os atributos e o orçamento são dois bolsos, e eles não se conversam.** Não existe troca que baixe um atributo para comprar `Traço`, nem o contrário.
+
+### Exemplo
+
+Você joga um Evocador de nível 6, com a Trilha `Servo` e Essência `3`. O que você quer é o corpo que fecha o corredor: a coisa se planta na porta, e quem quiser passar resolve ela antes.
+
+**Passo 1 — a Trilha.** O `Servo` põe **um** corpo em campo, e esse corpo é corpo forte. Ele também é o único dos três que monta com o orçamento da ficha mais metade: no nível 6 a ficha tem `12`, então você tem **`18`**.
+
+**Passo 2 — os atributos.** Força `3` para barrar, Constituição `3` porque o serviço dela é apanhar, Essência `2` pela presença, Inteligência `1` e Destreza `0`. O Teste de Resistência que ela treina é o Físico, pela Força.
+
+**Passo 3 — o tipo.** `maldição domada` — uma coisa que quis te matar antes de aceitar ficar na porta. A base dela é `3`.
+
+**Passo 4 — o orçamento.** `Graúdo` custa `8` e barra passagem, `Chamariz` custa `8` e obriga o alvo a vir para cima dela, e as duas juntas são o corredor fechado. Sobram `2`, e `Escalada` custa exatamente isso — ela chega ao lugar pela parede, sem depender do chão. **`8 + 8 + 2 = 18`, o orçamento inteiro.**
+
+**Passo 5 — a ficha.** A vida sai do corpo forte: `2,5 × (3 + 2 × 6)` dá `37`, mais `3 × 6` da Constituição dela, e fecha em `55`. O acerto é a Força `3` dela mais a sua maestria `1`. A Defesa é `10`, mais a Destreza `0` dela, mais metade da sua Essência.
+
+**Ficha da Carranca**
+| linha | valor |
+|---|---|
+| **Trilha e tipo** | `Servo` · `maldição domada` · um corpo |
+| **atributos** | For `3` · Des `0` · Con `3` · Int `1` · Ess `2` |
+| **compras** | `18` de `18` — `Graúdo` `8` · `Chamariz` `8` · `Escalada` `2` |
+| **acerto** | `+4` |
+| **Defesa** | `11` |
+| **Teste de Resistência** | Físico `+4`. Nos outros três a sua maestria não entra |
+| **vida** | `55` |
+| **régua da morte** | `165` |
+| **deslocamento** | `9` metros, e ela sobe parede |
+| **`Investir`** | `4d6` |
+| **como é** | uma cara de pedra do tamanho de uma porta. Ela desce pela parede, senta na passagem, e fica olhando para quem chegou até a coisa vir até ela |
+
+> **A régua da morte não sai da linha da vida: ela sai da fórmula do tipo.** *A fórmula dá `3 + (2 + 3) × 6 = 33`, e a régua é `5 × 33 = 165`.* **A Carranca tem `55` de vida e uma régua de `165`**, porque a régua vale igual para qualquer corpo, e é ela que decide se a invocação volta ou acaba.
+>
+> **Metade de `165` é `82,5`, e dano é número inteiro:** o excedente que mata de vez é `83` para cima.
+
+E se a mesma montagem estivesse nas outras duas Trilhas:
+
+**A Carranca em cada Trilha**
+| | `Servo` | `Matilha` | `Coro` |
+|---|---|---|---|
+| orçamento no nível 6 | **`18`** | `12` | `12` |
+| corpos em campo | 1 | **5** | 1 |
+| vida | `55` | `55` numa barra só | **`33`** |
+| `Investir` | `4d6` | `1d6` por corpo | `4d6` |
+| área | normal | **`×1,5`** | normal |
+| régua da morte | `165` | `165` | `165` |
+
+**Só o `Servo` tem bolso diferente**, e por isso a montagem da `Carranca` não caberia nas outras duas: nelas a `Escalada` fica de fora. **A régua da morte é a mesma nas três**, com a vida indo de `55` a `33`.
+
+> **Erros comuns**
+>
+> **Comprar dado de dano.** Não existe `Traço` que dê `+1d6` a preço nenhum. O que você e todas as suas invocações causam numa rodada já é o dano de uma rodada sua sozinho, e o `Investir` entrega essa cota inteira.
+>
+> **Comprar Defesa, acerto ou vida.** Os três já saem dos atributos dela, e comprar de novo é pagar duas vezes pela mesma coisa. O orçamento compra o que ela **faz**.
+>
+> **Ler a régua da morte na linha da vida.** A régua é `5 ×` a fórmula do tipo, e não `5 ×` o número escrito em `vida`. Num corpo forte os dois são diferentes.
 
 ### Montagens de exemplo
 
@@ -6595,4 +6665,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: e206c6ef5ce83637c05f5344118fe0bddba02868 -->
+<!-- fonte: e168ab7d7681b57b41d3c059e02cb228e6c95163 -->

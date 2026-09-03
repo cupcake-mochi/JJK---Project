@@ -203,19 +203,29 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 >
 > *Até a v0.200 este parágrafo dizia que o enxame era "um pouco mais duro". Com o capanga derivado os dois cobram o mesmo `657`, e o que os separa passou a ser só a distribuição.*
 
-### 5.1 A faixa mais baixa não tem capanga, e isso é o piso
+### 5.1 A faixa mais baixa passou a ter capanga, e a linha dela estava um ponto fora
 
-***Decisão do Mizuki na v0.199:*** **a linha da Classe 1 — o nível 2 ao 4 — sai com a coluna de capanga vazia.**
+***Decisão do Mizuki na v0.206: a coluna de capanga da `Classe 1` abre.*** *O corpo é `28` de vida e `6` de dano, que é a mesma derivação das outras seis — a vida do chefe dividida por quatro e o dano dele dividido por três.*
 
-**Do nível 2 ao 4 o encontro é um inimigo só.**
+**Ela abriu porque a linha foi consertada primeiro, e o conserto é de um ponto de vida.** *A seção `Inimigos` do manual escreve a própria regra: o chefe sozinho tem cerca de **três vezes** o dano de rodada do grupo em vida, "e é isso que faz a luta contra ele durar três rodadas".* **Seis das sete linhas cumprem isso exato; a do nível 2 publicava `115` contra os `114` que a regra pede.**
 
-> **⚠⚠ E a razão aritmética que sustentava esta decisão PAROU DE REPRODUZIR na v0.201.** *Ela era: "com o corpo que a proporção daria, `17` de vida, dois deles cairiam na primeira rodada de um grupo que causa `38`".* **Com a tabela nova o corpo tem `29` de vida, e quatro deles duram `3,05` rodadas — a mesma durabilidade das outras seis faixas.** *O capanga do fundo virou um corpo viável, e a conta não pede mais que a coluna fique vazia.*
+> **⚠⚠ E um ponto de vida custava uma rodada inteira do chefe.** *Com `115` a luta dura `3,03` rodadas, e rodada é inteira na mesa: o chefe age quatro vezes e o encontro cobra `89%` da vida do grupo, contra os `68%` que as outras seis cobram.* **No nível em que o personagem tem `19` de vida.**
 >
-> **A decisão fica de pé, e ela agora se apoia só no levantamento de fora.** *Reabrir a coluna da Classe 1 é escolha do Mizuki, e está no §8.*
+> *A faixa virou `105 a 123`, com o meio em `114` e o espalhamento em `±7,9%` — dentro dos `±7,4%` a `±9,1%` das outras seis.* **Manual na `v7.25`.**
 
-> **O levantamento externo diz a mesma coisa por quatro caminhos.** *O `minion` do 4e resolve o fundo da escala tirando a vida do corpo — `1` ponto e dano fixo —, o `mook` do 13th Age junta a vida de todos num poço só, o `Guia do Mestre` de 2014 alarga as faixas do fundo (o `ND 1/8` vai de `7` a `35` de vida), e o Pathfinder 2e põe piso em `PL−4` e não usa criatura abaixo dele.* **Nenhum dos quatro trata o corpo pequeno como corpo grande encolhido.**
+**Com a linha certa, o corpo do fundo se comporta como os de cima**, e é isso que abriu a coluna:
+
+| | nível 2 | nível 30 |
+|---|---|---|
+| quatro capangas cobram | `71%` da vida do grupo | `68%` |
+| o chefe sozinho cobra | `67%` | `68%` |
+| o corpo dura, sob o foco do grupo | `0,74` rodada | `0,75` |
+| golpes para derrubar um personagem | `3,2` | `3,3` |
+| as quatro sub-categorias | `67 · 58 · 57 · 64%` | `68 · 58 · 56 · 62%` |
+
+> **⚠ A razão que fechou a coluna na v0.199 media outro corpo.** *Ela era: "com o corpo que a proporção daria, `17` de vida, dois deles cairiam na primeira rodada de um grupo que causa `38`".* **Aquele corpo saiu com a tabela da v0.201, e o levantamento de fora que sustentava a decisão argumentava contra ele, não contra este** — *o `minion` do 4e, o `mook` do 13th Age, a faixa alargada do `ND 1/8` do `Guia do Mestre` e o piso de `PL−4` do Pathfinder 2e falam todos do corpo que cai antes de agir.*
 >
-> **⚠ E a `Ronda` não substitui**, pelo §4.3: quatro delas cobram `0,75 ×` a `0,77 ×` o que a `Alcateia` cobra.
+> **⚠ E a `Ronda` continua não substituindo**, pelo §4.3: quatro delas cobram `0,75 ×` a `0,77 ×` o que a `Alcateia` cobra.
 
 > **⚠⚠ E a conta que parece óbvia mata o grupo.** *Multiplicar vida por dano e dividir dá `12` capangas por chefe.* **Doze capangas no nível 30 cobram `473%` da vida do grupo, em `9` rodadas** — quase cinco vezes o que a categoria promete. *Por isso o câmbio está escrito aqui em vez de deixado para quem quiser derivar.*
 
@@ -404,13 +414,14 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 | **3** | **a categoria é cópia com dono.** Vida e dano de cada uma reconstroem da linha do manual vezes o fator, e o fator reconstrói do número de personagens |
 | **4** | **as ações saem da frase do manual**, e a `Alcateia` bate com o piso que a peça 19 §2.2 publica. *Se aquele piso mudar, esta acende* |
 | **5** | **o câmbio é medido, não guardado.** A simulação de fogo concentrado é rodada aqui dentro, e o `4` publicado tem de ser o que ela devolve. *Desde a v0.201 ela confere mais duas coisas: que o capanga do manual É a vida do chefe dividida por quatro e o dano dele dividido por três, e que os dois lados cobram o mesmo dano na mesma quantidade de rodadas* |
+| **5.2** | **a linha do manual obedece a regra que a própria seção dele escreve.** O multiplicador e a duração saem da prosa da seção `Inimigos`, por extenso — *"cerca de três vezes o dano de rodada do grupo em vida, e é isso que faz a luta contra ele durar três rodadas"* —, e cada linha tem de ter o meio da faixa naquele múltiplo **e** cair naquele número de rodadas inteiras. *Ela nasceu na v0.206, e o que ela teria pego é o que ela pegou: a linha do nível 2 publicava `115` onde a regra pede `114`, e um ponto de vida punha o chefe vivo numa quarta rodada* |
 | **5.1** | **a coluna da sub-categoria reconta.** As quatro formas do §4.5 são simuladas com os capangas abatidos primeiro, e as porcentagens publicadas têm de ser o que a simulação devolve. *Ela nasceu na v0.201 porque aquela coluna nunca teve validador e tinha divergido: o publicado subia de `28%` a `35%` e a simulação não reproduzia nem a ordem* |
 | **6** | **o grau não vira número.** Nenhuma linha desta peça pode pendurar valor no grau, e o `ESTADO-ATUAL` e a peça 12 continuam dizendo que inimigo não tem grau mecânico |
 | **7** | **nenhum valor de regra guardado aqui dentro.** Todo número vem do dono, e a checagem falha se algum sobrar como constante |
 | **8** | **resistência é vida escondida.** Os pesos dos três grupos saem da peça 19 §4, os multiplicadores do §6.3 são recalculados de `1 ÷ (1 − o que se poupa)`, e a peça tem de declarar em que moeda a resistência se paga. *Sem essa declaração ela é vida de graça, e a categoria passa a mentir sobre o encontro* |
 | **9** | **o câmbio do §6.5, nas três portas.** A `9.1` reconstrói as `28` células do orçamento de feitiço do golpe dividido pelo que um ponto vale, e cobra que o `seco` seja o piso da `Classe 1` do manual; a `9.2` reconstrói a conta da aptidão do custo que a peça 11 §6.5 publica, da maior Classe da peça 18 e do câmbio de PE da peça 5 §4; a `9.3` refaz os dois empates — o da cura e o dos alvos —, com a escada de ações lida da peça 19 e o tamanho do grupo lido da categoria de fator `1,00`; e a `9.4` cobra que cada porta declare a moeda. *Nenhum dos quatro números vive aqui dentro* |
 
-### 7.1 As trinta e quatro perturbações, em cópia isolada
+### 7.1 As quarenta e duas perturbações, em cópia isolada
 
 *Com a base conferida verde e com `PULADA` zero antes de cada uma, com o `diff` comparado antes e depois, e com o veredito lido da checagem que estava sendo testada — nunca do código de retorno.*
 
@@ -452,8 +463,20 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 | **9.1** | **contra-teste:** o piso cai para `2` pontos na peça 19 **e** o nível 5 enche no §6.5 | fica verde | fica verde |
 | **9.2** | **contra-teste:** a `Extensão` vai a `2 ×` na peça 11 **e** as duas porcentagens no §6.5 | fica verde | fica verde |
 | **9.3** | **contra-teste:** a `Leve` vira uma ação na peça 19 **e** os alvos dela no §6.5 | fica verde | fica verde |
+| **5.2** | a vida do nível 2 volta para `105 a 125` no manual | acende | acende |
+| **5.2** | a vida do nível 30 vira `870 a 1120` no manual | acende | acende |
+| **5.2** | a prosa do manual passa a dizer `quatro vezes` | acende | acende |
+| **5.2** | a prosa do manual promete `quatro rodadas` | acende | acende |
+| **5** | a peça volta a declarar em PROSA que uma faixa não tem capanga | acende | acende |
+| **5** | **contra-teste:** a mesma frase, só dentro de linha de tabela | fica verde | fica verde |
+| **5.2** | **contra-teste:** as pontas da faixa do nível 30 mudam e o meio fica `945` | fica verde | fica verde |
+| **5.2** | **contra-teste:** as pontas da faixa do nível 2 mudam e o meio fica `114` | fica verde | fica verde |
 
 > **O contra-teste da `3` é o que prova a checagem.** *Trocar a `Calamidade` para oito personagens muda o fator para `2,00`, as ações para `7` e as três células de ficha — e a checagem sai verde,* **porque ela mede a derivação e não os números publicados.**
+>
+> **⚠ E a guarda da `5` nasceu larga demais, achada pelo próprio arnês.** *Ela procurava a frase no texto inteiro, e a linha do §7.1 que **descreve** a perturbação contém a frase* — **a guarda leu a descrição como se fosse a declaração.** *Hoje ela procura fora de tabela, e o par de testes que prova isso é a mesma frase acendendo em prosa e ficando verde numa célula.*
+>
+> **⚠ E as duas últimas são as que provam a `5.2`, e a primeira tentativa delas foi mal mirada.** *Eu tinha escrito o contra-teste como "muda a prosa para `quatro vezes` E a tabela junto", e ele não fica verde:* **mexer na vida do chefe no manual acende as checagens `3`, `5`, `5.1` e `9.3` de uma vez**, porque a peça pendura doze células naquele número. *Um contra-teste coerente ali teria de mover uma dúzia de valores, e aí ele não estaria testando a `5.2`.* **O que testa é mexer nas PONTAS da faixa mantendo o meio** — a `5.2` lê o meio, então ela fica verde.
 >
 > **⚠ E a terceira perturbação achou um defeito na checagem `2` antes de ela valer.** *A tabela da peça 1 §6 amostra os níveis de marco, que são os **picos** da curva de acerto — ela publica `55%` em todas as colunas.* **Medir a banda só por ela dava um ponto só, e o inimigo, amostrado em níveis que não são marco, caía fora dela sem nada estar errado.** *O vale não está na tabela: ele está declarado ao lado, como oscilação irredutível de `5pp`.* **Hoje a checagem lê os dois — o pico da tabela e a oscilação declarada — e a banda sai `50%` a `55%`.**
 
@@ -494,4 +517,4 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 - **As maldições prontas.** *A decisão da v0.161 é máquina mais prontas, e esta versão entrega a máquina.* **Quantas, de que categorias e com que técnicas é escolha do Mizuki**, e o catálogo é a versão seguinte.
 - ~~**A Expansão de Domínio de inimigo.**~~ ***FECHADA na v0.204, no §6.4:*** **ela custa um degrau de categoria**, porque o Acerto garantido multiplica a saída efetiva por `1,92 ×` e os dois degraus de baixo da escada valem `2,00 ×`. *Só cabe na `Dupla` e na `Alcateia` — a `Calamidade` não tem degrau de `2 ×` abaixo dela e a `Ronda` não tem degrau nenhum.*
 - **O inimigo com Trilha.** *Fica de fora por decisão, e o motivo está no §6* — mas um antagonista recorrente que sobe junto com o grupo é caso de mesa que vai aparecer.
-- ~~**A ficha impressa.**~~ ***FECHADA na v0.199:*** **`05-material/bloco-de-inimigo.docx`**, quatro páginas — as tabelas que o mestre copia, o bloco em branco com as dezessete linhas, e um exemplo preenchido. *O gerador é o `gerador-inimigo/`, e o bloco `7` do `conferir-ficha.py` compara o `dados.js` dele com esta peça.*
+- ~~**A ficha impressa.**~~ ***FECHADA na v0.199, e três números dela envelheceram até a v0.206:*** *a coluna `cobra do grupo` da sub-categoria ficou nos `28/30/33/35` da v0.199 enquanto esta peça publicava `68/58/56/62` desde a v0.201, a nota ao lado dizia que repartir o encontro o encarece — a v0.201 mediu o contrário —, e a razão de quatro `Ronda` estava em `0,62 ×` contra os `0,75 ×` a `0,77 ×` do §4.3.* **Os três moravam inline no montador do `gerador-inimigo/`, que é o único lugar do subsistema que nenhuma checagem lia** — *o `dados.js` tem validador desde a v0.199 e o montador não tinha.* *Hoje a porcentagem e a razão vivem no `dados.js` e o bloco `7` do `conferir-ficha.py` compara as duas com esta peça, com uma guarda que acende se o montador voltar a guardar inline.* **`05-material/bloco-de-inimigo.docx`**, quatro páginas — as tabelas que o mestre copia, o bloco em branco com as dezessete linhas, e um exemplo preenchido. *O gerador é o `gerador-inimigo/`, e o bloco `7` do `conferir-ficha.py` compara o `dados.js` dele com esta peça.*

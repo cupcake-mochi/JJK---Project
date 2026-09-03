@@ -8,6 +8,181 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.207] — 02/09/2026
+
+**O capítulo de Invocações ganhou o passo a passo que o Fundamento tem para feitiço.** *Ele publicava a máquina inteira e nove montagens prontas, e o leitor via o resultado sem ver a conta:* `Emboscada` + `Agarrar`, `12` pontos, cabe no nível 6 — **e de onde vem o `12`, nenhuma linha mostrava.**
+
+### 1 · Um exemplo e não três, e quem decidiu foi a conta
+
+***Pergunta do Mizuki: "uma pra cada seria melhor?"*** *Rodei a mesma invocação nas três Trilhas.*
+
+| linha da ficha | `Servo` | `Matilha` | `Coro` |
+|---|---|---|---|
+| **bolso no nível 6** | **`18`** | `12` | `12` |
+| **corpos em campo** | 1 | **5** | 1 |
+| **vida** | `55` | `55` numa barra só | **`33`** |
+| **`Investir`** | `4d6` | `1d6` por corpo | `4d6` |
+| **área** | normal | **`×1,5`** | normal |
+| régua da morte · fórmula do tipo · acerto · Defesa · TR · deslocamento · amarra | \= | \= | \= |
+
+**Cinco de doze linhas mudam, e sete não** — três exemplos guiados escreveriam as sete idênticas três vezes.
+
+> **E o bolso impede que seja a mesma invocação nas três.** *O `Servo` tem `18` pontos no nível 6 contra `12` das outras duas.* **Uma montagem que gasta o bolso dele não cabe nas outras, e uma que gasta o delas deixa troco nele** — seriam três bichos, e não três ângulos do mesmo.
+>
+> *Em tamanho: um exemplo cresce o capítulo em `11%` e três em `32%`, e as montagens publicadas iriam de nove para doze — três a mais logo depois de uma tabela que se chama `Uma montagem pronta por Trilha`.*
+
+***Decisão dele: um exemplo, mais uma tabela de fecho com as cinco linhas que mudam.*** **A tabela de fecho ganhou de graça a prova do terceiro erro comum:** *a régua da morte sai `165` nas três colunas com a vida indo de `55` a `33`.*
+
+### 2 · A `Carranca`, e o `Servo` leva o exemplo porque o bolso dele é o único que ninguém publica
+
+*Nome escolhido por ele, e a triagem rodou antes: `Portão` saiu **OCUPADO** — já é entrega de catálogo — e `Lastro` saiu **fraco**, a uma letra de `Rastro`, que é Melhoria.*
+
+**`Servo` · `maldição domada` · nível 6 · `Graúdo` `8` + `Chamariz` `8` + `Escalada` `2` = `18` exato.** *Nenhuma das três entradas aparece em montagem publicada nenhuma — nove das dezenove estavam nesse caso.*
+
+> **O bolso de `18` não está escrito em lugar nenhum:** *a tabela do `Servo` publica os níveis 2, 10, 18 e 30, e o nível 6 tem de ser derivado de "a ficha mais metade".* **É a única conta do capítulo que o leitor não consegue copiar de uma célula.**
+>
+> **E a vida e a régua saem de fórmulas diferentes**, que é o que o terceiro erro comum diz: *o corpo forte é `2,5 × (3 + 2 × 6) + 3 × 6 = 55`, e a régua é `5 ×` a fórmula do tipo, `5 × 33 = 165`.*
+
+### 3 · O exemplo destampou uma pergunta que o capítulo nunca teve de responder
+
+**A régua da `Carranca` é `165`, e metade de `165` é `82,5`.** *O capítulo escreve "se o excedente passar de metade da régua" e nunca disse o que fazer quando essa metade não é inteira — o único exemplo que ele tinha cai num caso redondo, régua `160`, metade `80`.*
+
+> **Medido sobre as `812` combinações de tipo, nível e Constituição: `65%` dão régua ímpar.** *O `técnica` é o único que escapa na maioria — `21%` de ímpares contra `79%` dos outros três —, e ele é justamente o tipo do exemplo que já estava lá.*
+>
+> ***E a conta fecha a pergunta sem regra nova.*** *Dano é número inteiro, então "passar de `82,5`" e "passar de `82`" matam a partir do mesmo `83`.* **Só arredondar para cima mudaria alguma coisa, e a peça 1 §5.4 proíbe** — um corte mais alto favorece quem está sendo medido, e o que se ganha desce. *Virou uma frase dentro do exemplo, e não uma linha de regra.*
+
+### 4 · A checagem, e o exemplo é a única instância publicada sem gêmea na peça
+
+***Decisão:*** **a montagem não foi copiada para a peça 15.** *Copiar criaria a segunda fonte que a lição nº 9 existe para evitar.* **O preço é que cada número dele nasce dentro do validador, de documento dono** — o bolso dos marcos da peça 2, o gasto pelo catálogo do §3.7, a vida e a régua da fórmula do §3.6, a metade pela fração do §3.5, o acerto pela maestria da peça 1 e a Defesa pela base dela.
+
+> **A derivação do bolso do `Servo` é provada contra os quatro níveis que a tabela publica ANTES de ser aplicada ao nível 6**, que é onde ninguém publica nada. *Sem isso ela seria número escrito à mão com cara de derivação.*
+>
+> **Dez perturbações acendem e dois contra-testes de prosa ficam verdes.** *Três delas acendem par ou quarteto declarado — mexer no preço de uma entrada do catálogo move a `REGUA`, o `ORCAMENTO` e a `BUSCA-DEGRAU` junto, porque os quatro leem o mesmo dono.*
+>
+> *Sub-bloco da `17`, então a contagem de trinta e duas do §5 não se move.*
+
+### 5 · Duas coisas que o `conferir-voz` achou, e uma delas eu criei sem perceber
+
+**A linha `orçamento` da ficha da `Carranca` promoveu a seção `Orçamento` a entrada de catálogo.** *O reconhecedor define entrada como seção-folha cujo nome está publicado numa tabela do próprio capítulo — e uma célula da minha tabela publicava a palavra.* **A contagem foi de `52` para `53` e dois rótulos longos que já moravam ali apareceram junto.** *A linha virou `compras`.*
+
+> **⚠ E a outra estava lá antes de mim: `Graúdo` não tinha destino.** *As tabelas de `Traço` e `Comando` põem o nome na SEGUNDA coluna, e nenhuma das quatro formas de estreia reconhece isso* — o glossário cobre `Voo`, `Vigia` e `Remoto`, e as outras dez entradas dependem de não passar do corte de cinco usos. **`Graúdo` estava em quatro e foi para seis.** *O conserto foi dar estreia a ele e ao `Miúdo`, que está em exatos cinco e é o próximo a cair.*
+
+### 6 · E o glossário aponta para o capítulo errado desde a v0.170 — medido, e não consertado
+
+**A v0.170 pôs `Sem Técnica` como capítulo 11 e o livro foi de 17 para 18 capítulos.** *A coluna `Cap.` do glossário nunca foi bumpada, e ela é a coluna que existe para dizer onde o termo é explicado por extenso.*
+
+| o glossário diz | ele aponta para | o dono de verdade |
+|---|---|---|
+| `Fundamento`, `Regra` → **9** | Fundamento | **certo** |
+| `Kata`, `Ruptura`, `Ōgi` → **10** | Técnica Marcial | **certo** |
+| `Aptidão`, `Refino` → **11** | Sem Técnica | Aptidões e Refino, que é **12** |
+| as nove propriedades de arma → **13** | Bênçãos e Lapidação | Equipamento, que é **14** |
+| `Remoto`, `Vigia`, `Voo` → **15** | Ferramenta Amaldiçoada | Invocações, que é **16** |
+
+> **Trinta e uma linhas, todas do capítulo 11 para cima, todas erradas por exatamente um.** *Nenhuma linha aponta para `Sem Técnica`, que é o capítulo inserido — o retrato de uma lista escrita antes dele e nunca recontada.*
+>
+> **⚠ Fica registrado e não consertado nesta versão, porque o conserto não é o `sed`:** *a numeração tem dono — a lista `CHAPTERS` do `build.py` —, e nenhum validador compara a coluna do glossário com ela.* **Consertar as trinta e uma sem a checagem é repor o mesmo número à mão no mesmo lugar que já envelheceu uma vez.**
+
+### Adicionado
+
+- **A seção `Montar uma invocação` no capítulo 16**, com os cinco passos, e o `Exemplo` com a `Carranca` montada do zero, a ficha pronta, a tabela de fecho das três Trilhas e a caixa de erros comuns.
+- **A sub-checagem `17.1` do `conferir-invocacoes.py`** — cada número do exemplo guiado recomputado dos donos. *Sub-bloco, então a contagem fica em trinta e duas.*
+- **Duas linhas no mapa entrada → atributo do §3.7 da peça 15** — `Graúdo` pede Força e `Chamariz` pede Essência, com o argumento de cada uma.
+- **Estreia para o `Graúdo` e o `Miúdo`** no capítulo 16, na forma de definição que a `REGRA-DE-VOZ` declara.
+
+### Alterado
+
+- **`livro/manual/60-invocacoes.md`** — a seção nova, a estreia dos dois `Traço`, e os quatro artefatos do livro refeitos.
+- **`03-mecanica/15-invocacoes.md`** — o mapa do §3.7 e a especificação do §5.
+
+### Decidido
+
+- **Um exemplo guiado, e não um por Trilha** — sete das doze linhas da ficha são idênticas nas três, e o bolso do `Servo` impede a mesma montagem nas outras duas.
+- **O exemplo é do `Servo` no nível 6**, porque o bolso dele é a única conta do capítulo que não está publicada em célula nenhuma.
+- **A montagem não é copiada para a peça 15**, e o validador deriva cada número dela.
+- **Metade de régua ímpar não vira regra nova** — dano é inteiro, e o arredondamento da peça 1 §5.4 já decide.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **O próximo item é do Mizuki:** *o catálogo de maldições prontas espera a lista dele, e antes dela o piso de quantas e de onde tirar os exemplos, os dois medidos.* **Fora da fila, a coluna `Cap.` do glossário precisa de checagem contra a lista `CHAPTERS` do `build.py` antes das trinta e uma linhas serem mexidas.**
+
+---
+
+## [0.206] — 02/09/2026 · manual na v7.25
+
+**A coluna de capanga da `Classe 1` abriu, e para abrir foi preciso consertar a linha antes — o conserto é de UM ponto de vida.** *A seção `Inimigos` do manual escreve a própria regra: o chefe sozinho tem cerca de três vezes o dano de rodada do grupo em vida, "e é isso que faz a luta contra ele durar três rodadas".* **Seis das sete linhas cumprem isso exato. A do nível 2 publicava `115` contra os `114` que a regra pede.**
+
+### 1 · Um ponto de vida custava uma rodada inteira do chefe
+
+**Com `115` a luta dura `3,03` rodadas, e rodada é inteira na mesa.** *O chefe age quatro vezes, e o encontro cobra `89%` da vida do grupo contra os `68%` que as outras seis cobram* — **no nível em que o personagem tem `19` de vida.**
+
+| nível | saída do grupo | `3 ×` isso | o meio da faixa | luta | rodadas inteiras | cobra do grupo |
+|---|---|---|---|---|---|---|
+| **2** | `38` | `114` | **`115`** | `3,03` | **`4`** | **`89%`** |
+| 5 a 30 | — | — | igual ao `3 ×` | `3,00` | `3` | `68%` |
+
+> **A faixa virou `105 a 123`**, com o meio em `114` e o espalhamento em `±7,9%` — *dentro dos `±7,4%` a `±9,1%` das outras seis.*
+>
+> **⚠ Nenhum validador conferia a regra das três vezes**, e é por isso que ela passou. *A `5.2` entrou nesta versão e lê os DOIS números da prosa do manual, por extenso — o multiplicador e a duração.*
+
+### 2 · Com a linha certa, o corpo do fundo se comporta como os de cima
+
+***Decisão do Mizuki: a coluna abre.*** *O capanga é `28` de vida e `6` de dano, pela mesma derivação das outras seis.*
+
+| | nível 2 | nível 30 |
+|---|---|---|
+| quatro capangas cobram | `71%` da vida do grupo | `68%` |
+| o chefe sozinho cobra | `67%` | `68%` |
+| o corpo dura, sob o foco do grupo | `0,74` rodada | `0,75` |
+| golpes para derrubar um personagem | `3,2` | `3,3` |
+| as quatro sub-categorias | `67 · 58 · 57 · 64%` | `68 · 58 · 56 · 62%` |
+
+> **A razão que fechou a coluna na v0.199 media outro corpo** — *"com `17` de vida, dois deles cairiam na primeira rodada"*. **Aquele corpo saiu com a tabela da v0.201**, e o levantamento de fora que sustentava a decisão — o `minion` do 4e, o `mook` do 13th Age, a faixa alargada do `ND 1/8`, o piso de `PL−4` do Pathfinder 2e — *fala do corpo que cai antes de agir, e não deste.*
+
+### 3 · E o bloco impresso estava com TRÊS números da v0.199
+
+**É o único artefato deste subsistema que chega na mão de um mestre, e ele contradizia a peça em três lugares.**
+
+| o que o bloco imprimia | o que a peça publica desde a v0.201 |
+|---|---|
+| a sub-categoria cobra `28 · 30 · 33 · 35%` | `68 · 58 · 56 · 62%` |
+| *"a subida de 28% a 35% é economia de ação"* | repartir sai **mais barato**, e não mais caro |
+| quatro `Ronda` cobram `0,62 ×` | `0,75 ×` a `0,77 ×` |
+
+> **Os três moravam inline no `make.js`, que é o único arquivo do subsistema que nenhuma checagem lia.** *O `dados.js` tem validador desde a v0.199 e o `make.js` não tinha.* **Hoje a porcentagem e a razão vivem no `dados.js`**, o bloco `7` do `conferir-ficha.py` compara as duas com a peça, *e uma guarda acende se o `make.js` voltar a guardar inline.*
+>
+> **⚠ E o bloco `7` pulava quatro das sete faixas em SILÊNCIO.** *Ele compara o `dados.js` com o §4.1 da peça, e o §4.1 publica três níveis — as outras quatro caíam num `continue`.* **Foi assim que a linha do nível 2 do `dados.js` seguiu a do manual velho.** *Hoje ele diz quantas comparou, e uma segunda guarda alcança as sete por outro eixo: o capanga de cada linha tem de ser o chefe daquela linha dividido.*
+
+### 4 · E o arnês achou a guarda nova larga demais, escrevendo a própria tabela
+
+**A guarda que entrou nesta versão cobra os dois sentidos: se nenhuma faixa está sem capanga, a peça não pode continuar declarando que uma está.** *Ela procurava a frase no texto inteiro.*
+
+> **A linha do §7.1 que DESCREVE a perturbação contém a frase, e a guarda leu a descrição como se fosse a declaração.** *Ela acendeu no momento em que eu escrevi a linha da tabela.* **Hoje ela procura fora de tabela**, e o par que prova isso é a mesma frase acendendo em prosa e ficando verde numa célula.
+
+> **⚠ E um contra-teste meu foi mal mirado, e fica registrado.** *Eu tinha escrito o da `5.2` como "muda a prosa para `quatro vezes` E a tabela junto", e ele não fica verde:* **mexer na vida do chefe no manual acende as checagens `3`, `5`, `5.1` e `9.3` de uma vez**, porque a peça pendura doze células naquele número. *O que testa a `5.2` é mexer nas PONTAS da faixa mantendo o meio* — **e os dois assim ficam verdes.**
+
+### Adicionado
+
+- **A sub-checagem `5.2` do `conferir-bestiario.py`** — a linha do manual contra a regra que a prosa da própria seção escreve, com o multiplicador e a duração lidos por extenso. *Sub-bloco, então a contagem fica em nove.*
+- **A guarda de declaração morta na checagem `5`**, nos dois sentidos, e ela procura fora de tabela.
+- **A guarda `7b-bis` do `conferir-ficha.py`** — o capanga de cada faixa do `dados.js` deriva do chefe da mesma linha, e ela alcança as sete.
+- **A guarda de forma no `make.js`** — ele tem de ler a porcentagem do `dados.js` em vez de guardar inline.
+- **A coluna `cobra` e o `RONDA_CONTRA_ALCATEIA` no `dados.js`**, os dois com dono na peça 26.
+
+### Alterado
+
+- **O manual para a `v7.25`** — a linha do nível 2 (`105 a 123`, capanga `28` e `6`) e o parágrafo que declarava a faixa sem capanga, que saiu.
+- **O `§5.1` da peça 26**, reescrito, e o `§8` na parte da ficha impressa.
+- **`gerador-inimigo/dados.js` e `make.js`**, e o `bloco-de-inimigo.docx` regerado.
+- **A versão do manual** no `README`, no `ESTADO-ATUAL`, no `LEIA-ME` e no `arquitetura.md`.
+
+### Decidido
+
+- **A `Classe 1` tem capanga**, e ele é `28` de vida e `6` de dano.
+- **A linha do nível 2 obedece a regra das três vezes**, como as outras seis.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **O próximo é o exemplo guiado de invocação**, por escolha do Mizuki: o capítulo 60 do livro tem quatro exemplos e nove montagens prontas, e não tem o passo a passo que o Fundamento tem para feitiço. *Depois dele, o catálogo de maldições prontas, que espera a lista dele.*
+
+---
+
 ## [0.205] — 02/09/2026
 
 **O `§6.5` do Bestiário fechou, e ele não é o que a fila prometia.** *A fila pedia "o catálogo de traços do inimigo", no molde da tabela de características do `Guia do Mestre`.* ***Decisão do Mizuki, e ela apagou o trabalho que eu ia fazer:*** *"acho que dá pra deixar ser que nem do sistema pra player, mas rebalancear e talz."*

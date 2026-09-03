@@ -1,8 +1,32 @@
 # Estado atual do projeto
 
-Atualizado em 02/09/2026, na v0.205 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e nove checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 02/09/2026, na v0.207 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e nove checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.205.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
+**Versão v0.207.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
+
+**A v0.207 deu ao capítulo de Invocações o passo a passo que o Fundamento tem para feitiço.** *O capítulo publicava a máquina inteira e nove montagens prontas, e o leitor via o resultado sem ver a conta — `12` pontos, cabe no nível 6, e de onde vem o `12` nenhuma linha mostrava.*
+
+> ***Um exemplo e não três, e quem decidiu foi a conta.*** *Rodando a mesma invocação nas três Trilhas, **cinco de doze linhas da ficha mudam e sete não** — e o bolso impede que seja a mesma invocação nas três, porque o `Servo` tem `18` pontos no nível 6 contra `12` das outras duas.* **Seriam três bichos, e não três ângulos do mesmo.** *Em tamanho, um exemplo cresce o capítulo em `11%` e três em `32%`.*
+>
+> **O exemplo é a `Carranca`** — `Servo`, `maldição domada`, nível 6, `Graúdo` + `Chamariz` + `Escalada` gastando os `18` exatos. *As três entradas não apareciam em montagem publicada nenhuma, e o bolso de `18` é a única conta do capítulo que não está em célula nenhuma: a tabela do `Servo` publica os níveis 2, 10, 18 e 30.*
+>
+> **⚠ E o exemplo destampou uma pergunta que o capítulo nunca teve de responder:** *a régua da `Carranca` é `165` e metade disso é `82,5`.* **`65%` das `812` combinações de tipo, nível e Constituição dão régua ímpar**, e o único exemplo que o capítulo tinha caía num caso redondo. ***A conta fechou sem regra nova:*** *dano é inteiro, então passar de `82,5` e passar de `82` matam a partir do mesmo `83`, e arredondar para cima a peça 1 §5.4 já proíbe.*
+>
+> **A montagem NÃO foi copiada para a peça 15**, e isso é decisão — copiar criaria a segunda fonte que a lição nº 9 existe para evitar. *O preço é que cada número dela nasce dentro da sub-checagem `17.1`, de documento dono, com a derivação do bolso do `Servo` provada contra os quatro níveis publicados antes de ser aplicada ao nível 6.* **Dez perturbações acendem e dois contra-testes de prosa ficam verdes.**
+>
+> **⚠⚠ E o glossário aponta para o capítulo errado desde a v0.170.** *Aquela versão pôs `Sem Técnica` como capítulo 11 e o livro foi de 17 para 18; a coluna `Cap.` nunca foi bumpada.* **Trinta e uma linhas, todas do capítulo 11 para cima, todas erradas por exatamente um** — as propriedades de arma mandam para `Bênçãos e Lapidação` e os `Traço` de invocação mandam para `Ferramenta Amaldiçoada`. *Registrado e **não** consertado: a numeração tem dono — a lista `CHAPTERS` do `build.py` — e nenhum validador compara a coluna com ela.*
+
+**A v0.206 abriu a coluna de capanga da `Classe 1`, e para abrir foi preciso consertar a linha antes — o conserto é de UM ponto de vida.** *A seção `Inimigos` do manual escreve a própria regra: o chefe tem cerca de três vezes o dano de rodada do grupo em vida, "e é isso que faz a luta contra ele durar três rodadas".* **Seis das sete linhas cumprem isso exato; a do nível 2 publicava `115` contra os `114` que a regra pede.**
+
+> **⚠⚠ E um ponto de vida custava uma rodada inteira do chefe.** *Com `115` a luta dura `3,03` rodadas, rodada é inteira na mesa, e o chefe age quatro vezes: o encontro cobrava `89%` da vida do grupo contra os `68%` das outras seis* — **no nível em que o personagem tem `19` de vida.** *A faixa virou `105 a 123`, e o manual foi para a `v7.25`.*
+>
+> ***Decisão do Mizuki: a coluna abre***, com o capanga em `28` de vida e `6` de dano. *Quatro deles cobram `71%` contra os `67%` do chefe sozinho, o corpo dura `0,74` rodada sob o foco do grupo contra `0,75` no nível 30, e as quatro sub-categorias saem `67 · 58 · 57 · 64%` contra `68 · 58 · 56 · 62%`.* **A razão que fechou a coluna na v0.199 media um corpo de `17` de vida que saiu com a tabela da v0.201.**
+>
+> **⚠⚠ E o bloco impresso estava com TRÊS números da v0.199** — *a sub-categoria cobrando `28 · 30 · 33 · 35%` contra os `68 · 58 · 56 · 62%` da peça, uma nota dizendo que repartir o encontro o encarece quando a v0.201 mediu o contrário, e quatro `Ronda` em `0,62 ×` contra `0,75 ×` a `0,77 ×`.* **Os três moravam inline no `make.js`, o único arquivo do subsistema que nenhuma checagem lia.**
+>
+> **⚠ E o bloco `7` do `conferir-ficha.py` pulava quatro das sete faixas em silêncio**, porque o §4.1 da peça publica três níveis. *Hoje ele diz quantas comparou, e uma segunda guarda alcança as sete pela derivação do capanga.*
+>
+> **⚠ A guarda nova nasceu larga demais, e quem achou foi o próprio arnês:** *a linha do §7.1 que **descreve** a perturbação contém a frase que a guarda procura, e ela leu a descrição como declaração.* **Hoje ela procura fora de tabela.**
 
 **A v0.205 fechou o `§6.5`, e ele não virou catálogo de traços — virou o câmbio do catálogo do JOGADOR para a ficha do inimigo.** ***Decisão do Mizuki:*** *"dá pra deixar ser que nem do sistema pra player, mas rebalancear."*
 
@@ -64,7 +88,7 @@ Atualizado em 02/09/2026, na v0.205 (última peça fechada: **Bestiário**, a pe
 
 **A v0.199 deu ao Bestiário o bloco impresso, e a última pergunta do Mizuki abriu a versão seguinte.** *`05-material/bloco-de-inimigo.docx` tem a ficha em branco, um exemplo e as tabelas — e ele foi refeito três vezes, porque a primeira era planilha de construção e um bloco de monstro é lido, não montado.*
 
-> **A tabela de inimigo do manual ganhou a linha da Classe 1, e o eixo dela mudou de nome.** *As seis linhas caem em seis faixas de Classe diferentes, e a coluna do grupo é `2,90 ×` a Rotina — constante dentro da faixa.* **Então cada linha vale para a FAIXA, e os 23 níveis sem linha sempre tiveram uma.** *Manual na v7.21, e a faixa mais baixa sai sem capanga por decisão.*
+> **A tabela de inimigo do manual ganhou a linha da Classe 1, e o eixo dela mudou de nome.** *As seis linhas caem em seis faixas de Classe diferentes, e a coluna do grupo é `2,90 ×` a Rotina — constante dentro da faixa.* **Então cada linha vale para a FAIXA, e os 23 níveis sem linha sempre tiveram uma.** *Manual na v7.21, e a faixa mais baixa saía sem capanga por decisão —* ***aquilo foi revertido na v0.206***, *quando a linha do nível 2 foi consertada e o corpo do fundo passou a se comportar como os de cima.*
 >
 > **A ficha ganhou quatro linhas — atributos, características, pacto e resistência —, e a resistência ganhou moeda:** *resistir a `Físicos` vale `1,43 ×` de vida efetiva e custa **um degrau de categoria**.*
 >
@@ -906,7 +930,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 
 **Duas peças foram parcialmente substituídas e trazem o aviso no topo:** as seções 3 e 4 da peça 4 saíram para a peça 7, e a seção 3 e o quadro de Caminhos da peça 5 saíram para a peça 6.
 
-O manual do Fundamento **v7.24** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 366 parágrafos e 90 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na mesma versão do `.docx`, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 50 páginas.
+O manual do Fundamento **v7.25** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 366 parágrafos e 90 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na mesma versão do `.docx`, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 50 páginas.
 
 **Quem é dono da versão do manual:** a primeira linha de `manual/gerador/COMO-USAR.txt`. Toda outra cópia — a capa em `partA.js`, este arquivo, o `README.md`, o `LEIA-ME.md` e o `arquitetura.md` — é cópia, e o `conferir-repositorio.py` falha se alguma divergir. *Ele nasceu na v0.33, depois de a capa do manual passar três versões dizendo 7.5.*
 

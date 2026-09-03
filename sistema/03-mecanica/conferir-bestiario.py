@@ -310,10 +310,10 @@ if docx is not None and os.path.isfile(DOCX):
             for _r in _t.rows[1:]:
                 _v = [c.text.strip() for c in _r.cells]
                 _vd = _v[2].split(' a ')
-                # ⚠ a faixa mais baixa nao tem capanga, e isso e decisao da v0.199:
-                # com o corpo que a proporcao daria, DOIS deles cairiam na primeira
-                # rodada de um grupo que causa 38 — ai ele e uma rolagem a mais e nao
-                # um corpo. A celula vem com travessao, e quem le tem de saber disso.
+                # ⚠ a celula pode vir com travessao, e o leitor devolve None.
+                # Ate a v0.205 a faixa mais baixa vinha assim por decisao da v0.199;
+                # a v0.206 abriu a coluna, e o travessao continua possivel porque
+                # quem escreve a tabela pode fechar qualquer faixa de novo.
                 def _n(x):
                     try:
                         return float(x)
@@ -483,8 +483,20 @@ else:
     print('  cambio medido por nivel: ' + ' · '.join(f'nv{n}:{m}' for n, m in _medidos))
     # a faixa sem capanga nao entra na conta, e a peca tem de declarar o piso —
     # senao a coluna vazia fica lida como esquecimento em vez de decisao.
+    # ⚠ a declaracao se procura fora de TABELA, e isso nao e cosmetico: a linha
+    # do §7.1 que DESCREVE a perturbacao "a peca volta a declarar que uma faixa
+    # nao tem capanga" contem a frase, e a guarda lia a descricao como se fosse a
+    # declaracao. Foi o proprio arnes da v0.206 que acendeu ela, escrevendo a
+    # linha da tabela — extrator que le prosa e tabela igual confunde a coisa com
+    # o registro da coisa.
+    _decl = any(('não tem capanga' in _l or 'sem capanga' in _l)
+                and not _l.lstrip().startswith('|')
+                for _l in TXT.split('\n'))
+    if not _sem_capanga and _decl:
+        erro('5: todas as faixas do manual tem capanga e esta peca continua declarando '
+             'que uma nao tem — declaracao que sobreviveu a decisao que ela descrevia '
+             'le-se como regra viva')
     if _sem_capanga:
-        _decl = 'não tem capanga' in TXT or 'sem capanga' in TXT
         if not _decl:
             erro(f'5: a tabela do manual tem {len(_sem_capanga)} faixa(s) sem capanga '
                  f'— nivel {", ".join(str(x) for x in _sem_capanga)} — e esta peca nao '
@@ -524,8 +536,9 @@ else:
             erro('5: o capanga do manual nao e o que a derivacao da peca produz — '
                  + ' · '.join(_fora))
         else:
+            _com = len([1 for _v in _MANUAL.values() if _v[3] is not None])
             print('  [x] o capanga do manual E a vida do chefe dividida por quatro e o '
-                  'dano dele dividido por tres, nas seis faixas que tem capanga')
+                  f'dano dele dividido por tres, nas {_com} faixas que tem capanga')
 
     # -- 5.1: a coluna da sub-categoria, recontada -----------------------------
     # Ela nunca teve validador ate a v0.201 e tinha divergido: o publicado subia
@@ -558,6 +571,59 @@ else:
         if not _mau51:
             print('  [x] as quatro formas da sub-categoria reconstroem da simulacao, com '
                   'os capangas abatidos primeiro')
+
+    # -- 5.2: a linha do manual obedece a regra que a propria secao escreve ----
+    # v0.206, e ela nasceu porque a linha do nivel 2 estava um ponto fora e nada
+    # olhava para isso. A secao `Inimigos` do manual escreve a regra em prosa —
+    # o chefe tem "cerca de tres vezes o dano de rodada do grupo em vida, e e
+    # isso que faz a luta contra ele durar tres rodadas" — e a tabela ao lado
+    # dela publicava 115 onde a regra pede 114.
+    #
+    # UM PONTO DE VIDA custava uma rodada inteira: com 115 a luta dura 3,03
+    # rodadas, rodada e' inteira na mesa, e o chefe agia quatro vezes. O encontro
+    # cobrava 89% da vida do grupo contra os 68% das outras seis linhas.
+    #
+    # Os dois numeros — o multiplicador e a duracao — sao LIDOS da prosa do
+    # manual, por extenso. Nenhum dos dois esta escrito aqui: trocar a prosa
+    # move a checagem junto, que e' o que separa esta de uma constante.
+    _PAL = {'uma': 1, 'duas': 2, 'três': 3, 'tres': 3, 'quatro': 4, 'cinco': 5}
+    _prosa = None
+    if docx is not None and os.path.isfile(DOCX):
+        _txts = [_p.text for _p in docx.Document(DOCX).paragraphs]
+        for _t in _txts:
+            if 'vezes o dano de rodada do grupo em vida' in _t:
+                _prosa = _t
+                break
+    _mmult = re.search(r'cerca de (\w+) vezes o dano de rodada do grupo em vida',
+                       _prosa or '')
+    _mdur = re.search(r'durar (\w+) rodadas', _prosa or '')
+    if _prosa is None:
+        pulou('5.2. a linha do manual contra a regra que ela escreve — a prosa da secao '
+              '`Inimigos` nao foi lida')
+    elif not _mmult or not _mdur:
+        erro('5.2: a prosa da secao `Inimigos` do manual mudou de forma e esta checagem '
+             f'parou de achar o multiplicador e a duracao nela: "{_prosa[:90]}"')
+    elif _mmult.group(1).lower() not in _PAL or _mdur.group(1).lower() not in _PAL:
+        erro(f'5.2: nao entendi "{_mmult.group(1)}" ou "{_mdur.group(1)}" como numero por '
+             'extenso — a prosa do manual e a dona dos dois')
+    else:
+        _MULT = _PAL[_mmult.group(1).lower()]
+        _DUR = _PAL[_mdur.group(1).lower()]
+        _fora52 = []
+        for _nv, (_s, _cv, _cd, _kv, _kd) in sorted(_MANUAL.items()):
+            _esp = _MULT * _s
+            _inteiras = math.ceil(_cv / _s - 1e-9)
+            if abs(_cv - _esp) > 0.51 or _inteiras != _DUR:
+                _fora52.append(f'nv{_nv}: o meio da faixa e {_cv:.0f}, a regra pede '
+                               f'{_esp:.0f}, e a luta sai em {_inteiras} rodada(s) '
+                               f'inteira(s) contra as {_DUR} que a prosa promete')
+        if _fora52:
+            erro(f'5.2: a tabela `Inimigos` desobedece a regra que a prosa dela escreve — '
+                 + ' · '.join(_fora52))
+        else:
+            print(f'  [x] as {len(_MANUAL)} linhas do manual tem o meio da faixa em '
+                  f'{_MULT} × a saida do grupo, e as {len(_MANUAL)} lutas saem em {_DUR} '
+                  'rodadas inteiras — o numero e a duracao lidos da prosa da secao')
 
 
 # --------------------------------------------------------------------------

@@ -9,7 +9,7 @@
 // diante. A peca 26 §4 e a dona dessa leitura.
 const FAIXAS = [
   // rotulo, de, ate, Classe, grupo/rodada, chefe vida, chefe dano, capanga vida, capanga dano
-  ['2 a 4',   2,  4, 1,  38,  115, 17, null, null],
+  ['2 a 4',   2,  4, 1,  38,  114, 17, 28,   6],
   ['5 a 8',   5,  8, 2,  90,  270, 39, 67,   13],
   ['9 a 12',  9, 12, 3, 130,  390, 75, 97,   25],
   ['13 a 16',13, 16, 4, 180,  540, 111, 135, 37],
@@ -57,12 +57,20 @@ const RESISTENCIA = [
 // A sub-categoria da peca 26 §4.5: a categoria diz o tamanho e esta diz a forma.
 // A fracao sai do CAMBIO — cada capanga vale 1/N de um chefe —, entao ela nao e
 // escolha: e 1 menos capangas/N.
+// A terceira coluna e QUANTO cada forma cobra da vida do grupo, medido no §4.5
+// com os capangas abatidos primeiro. Ate a v0.205 estes quatro numeros moravam
+// dentro do make.js e nada os comparava com nada: eles ficaram nos 28/30/33/35 da
+// v0.199 enquanto a peca publicava 68/58/56/62 desde a v0.201 — e o bloco
+// impresso e o unico artefato disto que chega na mao de um mestre.
 const SUBCATEGORIAS = [
-  ['sozinho',      0], ['com um apoio', 1], ['com dois', 2], ['bando', 3],
+  ['sozinho', 0, 68], ['com um apoio', 1, 58], ['com dois', 2, 56], ['bando', 3, 62],
 ];
+
+// Quatro `Ronda` nao valem uma `Alcateia` — peca 26 §4.3, a banda das sete faixas.
+const RONDA_CONTRA_ALCATEIA = [0.75, 0.77];
 
 const CAMBIO = 4;          // um chefe de Alcateia vale N capangas — peca 26 §5
 const REACAO = 1;          // uma por rodada — manual, secao Inimigos
 
 module.exports = { FAIXAS, CATEGORIAS, DERIVADAS, RESISTENCIA, SUBCATEGORIAS,
-                   CAMBIO, REACAO };
+                   RONDA_CONTRA_ALCATEIA, CAMBIO, REACAO };

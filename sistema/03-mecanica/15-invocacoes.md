@@ -943,7 +943,10 @@ E uma que eu quase escrevi: um `Traço` de corpo duro, tipo *"ela aguenta mais p
 |---|---|---|
 | `Faro` | **Essência** | ela rastreia por cheiro **e por energia**, e perceber energia é Essência |
 | `Voo` · `Emboscada` · `Fisgada` | **Destreza** | voar, sair de onde não se via e acertar à distância |
-| `Jorro` · `Agarrar` · `Montaria` | **Força** | empurrar, prender e carregar são os três verbos de Força |
+| `Jorro` · `Agarrar` · `Montaria` · `Graúdo` | **Força** | empurrar, prender e carregar são os três verbos de Força, e barrar passagem é o corpo fazendo os três contra quem quer passar |
+| `Chamariz` | **Essência** | fazer o outro vir em você é o eixo do `Provocar`, que é perícia de Essência pela peça 7 |
+
+> **As duas últimas linhas não servem a nenhuma das seis montagens acima, e é de propósito.** *Elas existem para o exemplo guiado do capítulo 16 do livro, que compra `Graúdo` e `Chamariz` — e sem elas a checagem que confere "o principal sai da entrada comprada" não teria contra o que medir o arranjo de lá.*
 
 **O resto de cada linha é a ficção do bicho**, e é a parte que o Mizuki manda:
 
@@ -1082,6 +1085,7 @@ Rodada a triagem antes de escrever qualquer coisa:
 - **A exceção do Coro medida somada**: atacar e comandar na mesma rodada não pode passar de uma Rotina.
 - **A busca exaustiva sobre todas as montagens legais do orçamento**, no molde do que o `conferir-equipamento.py` faz com as 196 montagens de proteção — dominância entre montagens, e nenhuma gastando menos que o orçamento cheio.
 - **As montagens publicadas conferidas contra a máquina**, e não só a máquina contra si mesma. *A peça 8 é o precedente e ele custou sete versões.* **São duas tabelas e elas se conferem diferente:** as seis do material contra o catálogo e o nível em que cabem; **as três por Trilha contra o orçamento do nível 2**, com o do `Servo` derivado da concessão dela e nunca lido. *Nas duas, o arranjo soma nove, topa em `3`, tem o principal saindo da entrada comprada, e é distinto dentro da própria tabela — e o capítulo 16 publica os mesmos.*
+- **O exemplo guiado do capítulo 16, recomputado número a número** *(a `17.1`, sub-bloco da 17, então a contagem não se move)*. **Ele é a única instância publicada que não tem gêmea aqui, e isso é decisão e não esquecimento:** *copiar a montagem para dentro da peça criaria a segunda fonte que a lição nº 9 existe para evitar.* **O preço da decisão é que cada número dele nasce dentro do validador, de documento dono** — o bolso dos marcos da peça 2 com a concessão do §3.7, o gasto pelo catálogo, a vida e a régua da fórmula do §3.6, a metade da régua pela fração do §3.5, o acerto pela maestria da peça 1 e a Defesa pela base dela. *A derivação do bolso do `Servo` — "a ficha mais metade" — é provada contra os quatro níveis que a tabela dele publica **antes** de ser aplicada ao nível do exemplo, que é justamente o nível em que ninguém publica nada.* **Dez perturbações acendem e dois contra-testes de prosa ficam verdes**, que é o que separa uma checagem que lê número de uma que lê frase.
 - **Nenhuma linha da ficha pode crescer em ritmo diferente de `+3`.** Perturbar o ritmo de qualquer linha derivada tem de acender — e o contra-teste é perturbar a **maestria na peça 1** e ver o acerto da invocação andar junto, provando que a checagem não se mede contra a própria constante.
 - **A fórmula de vida lida da peça 1, nunca de constante.**
 - **A invariante da Q2: nenhuma regra pode dar corpo com barra de vida própria.** A Matilha é um pool; uma Trilha ou aptidão que devolva barras separadas desfaz a conta do limiar `D = h` do §3.2.
