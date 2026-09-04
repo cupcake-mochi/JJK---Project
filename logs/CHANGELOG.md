@@ -8,6 +8,70 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.215] — 03/09/2026
+
+**O playtest começou, e `04-playtest/` deixou de estar vazia depois de duzentas e quatorze versões.** *A Mesa 1 — três personagens de nível 2, mestrada pelo Mizuki — é a primeira sessão medida do projeto.* **Um número do sistema deixou de ser previsão.**
+
+### 1 · A taxa de acerto confere, e ela é a primeira medida do projeto
+
+| | previsão | a mesa |
+|---|---|---|
+| taxa de acerto real | `50%` | **`45%` a `50%`** |
+
+> *Palavras dele: "quem tinha defesa, ou tentou bloquear, desviou bastante, é RNG, a porcentagem tava girando em torno de 45-50%".* **Textos antigos citavam `60%` e `65%` e estavam marcados como previsão — agora existe um número medido no lugar.**
+
+### 2 · A luta durou mais, e metade do desvio não é azar
+
+**A mesa viu `4` a `5` rodadas, com três personagens contra dez inimigos pequenos.** *Ele atribuiu a erro crítico: "a galera tirou muitos erros críticos, considero bastante como azar".*
+
+> **Metade é o tamanho do grupo, e isso não é azar.** *O modelo da peça 26 supõe **quatro** personagens; com três o grupo entrega `75%` da saída, e **toda luta dura `1,33 ×` mais**.* **As `3` rodadas previstas viram `4` só por aí.**
+>
+> **E o resto depende de quais eram os dez, que ainda não está respondido:**
+>
+> | 10 inimigos contra 3 players | o modelo prevê | a pressão deles |
+> |---|---|---|
+> | capangas de `Ronda` | `2,5` rodadas | `18%` da vida do grupo por rodada |
+> | capangas de `Alcateia` | `9,8` rodadas | **`105%` — o grupo cairia na primeira rodada** |
+>
+> **Como o grupo sobreviveu, não eram os de `Alcateia`.** *Fica em aberto: anotar "durou mais que o previsto" sem saber o inimigo é anotar sintoma.*
+
+### 3 · Três perguntas fecharam, e nenhuma pela conta
+
+**`Provocar` e `Intimidação` não brigam**, e a razão é dele: *"provocar entra justamente para compensar que tem gente que quer provocar, xingando e não realmente intimidando."*
+
+**A `Intuição` encaixou** onde está, então ela não muda de atributo.
+
+**Força com uma perícia só não doeu** — *o personagem de Força foi top damage, porque as armas de Força compensam no começo.* **A dívida fica marcada para quando o peso entrar.**
+
+### 4 · E dois achados que não estavam em pergunta nenhuma
+
+**Os nomes da criação confundem.** *A criação foi rápida, então a previsão de tempo se sustenta — mas ele registrou que vai revisar os nomes.*
+
+**O `Bloquear` parou a mesa porque não estava na ficha.** *A regra existe e está certa; ela não chegou ao jogador.* **Já consertada na ficha nova.**
+
+> **Os dois são do mesmo tipo, e é o que o projeto mais paga: regra certa que não chega.** *Nenhum validador alcança essa camada — só a mesa.*
+
+### 5 · A Ação Bônus não fechou, e não ficou aberta do mesmo jeito
+
+**Só o `Guia` usou.** *A suspeita era "ninguém lembra dela"; o que a mesa viu foi "quem tinha razão para usar, usou".* **Repetir no nível 6, com feitiço de Ação Bônus escrito, é o que decide.**
+
+### Adicionado
+
+- **`sistema/04-playtest/mesa-01-grupo-01.md`** — o primeiro registro do projeto, com as treze respostas, o veredito de cada uma e o que a próxima mesa precisa medir.
+
+### Alterado
+
+- **`README.md`, `sistema/ESTADO-ATUAL.md` e `sistema/LEIA-ME.md`** — os três afirmavam *"`04-playtest/` está vazia, zero sessões desde a v0.1"*, e a frase deixou de ser verdade.
+
+### Decidido
+
+- **A taxa de acerto sai da lista de previsões.**
+- **O tamanho do grupo entra na leitura de toda medida de combate** — três personagens não são o modelo.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`. **A próxima mesa precisa de três coisas:** *quais eram os dez inimigos, a mesma missão com dois mestres — que é a pergunta mais importante do projeto —, e uma mesa de quatro para separar o efeito do tamanho do grupo.* *Fora dela, a troca do dado do golpe e as seis fichas completas no bloco continuam esperando.*
+
+---
+
 ## [0.214] — 03/09/2026
 
 **As seis prontas mudaram de casa, e a mudança achou quatro números errados meus.** ***Decisão do Mizuki:*** *"coloque as maldições prontas dentro do livro de criar inimigo, agora entendi o problema."*

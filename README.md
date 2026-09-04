@@ -2,7 +2,7 @@
 
 **O sistema se chama `Projeto - M`**, batizado na v0.94 — era a pendência mais velha que existia aqui, aberta na v0.1. Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.214** · manual do Fundamento na **v7.25** · **vinte e seis peças de regra** e **vinte e seis validadores passando** · o Manual da Guilda em **18 capítulos**.
+**Versão v0.215** · manual do Fundamento na **v7.25** · **vinte e seis peças de regra** e **vinte e seis validadores passando** · o Manual da Guilda em **18 capítulos**.
 
 ---
 
@@ -63,7 +63,7 @@ Depois disso, a ordem de leitura é a da próxima seção, e os validadores são
     ├── 01-pesquisa/                     dossiê de metodologia — a seção 8 lista as dez travas
     ├── 02-esqueleto/                    arquitetura: subsistemas e como se encaixam
     ├── 03-mecanica/                     as vinte e seis peças de regra e os vinte e seis validadores
-    ├── 04-playtest/                     vazia. Zero sessões desde a v0.1
+    ├── 04-playtest/                     a Mesa 1, medida na v0.215 — a primeira sessão
     ├── 05-material/                     a ficha (e o gerador dela) e o livro/, o Manual da Guilda completo
     ├── 99-arquivo/                      material morto, com LEIA-ME próprio
     └── skills/                          cópia de trabalho das sete skills de apoio
@@ -302,7 +302,7 @@ Isto não é preferência de estilo: é o que evitou os erros que estão registr
 
 > *Eram seis até a v0.122, quando a peça 20 destravou o Corpo Amaldiçoado e o ramo sem energia da Restrição Celestial, e oito de lá até a v0.168.* **A nona tinha criação própria por decisão do Mizuki, e ela é a peça 25** — a rota de quem tem energia amaldiçoada e não tem técnica inata.
 
-**O que não existe, e faz falta: o playtest.** `04-playtest/` continua vazia — **zero sessões desde a v0.1, e todo número do sistema é previsão.**
+**O playtest COMEÇOU, e é a v0.215.** *`04-playtest/` esteve vazia da v0.1 à v0.214, e a Mesa 1 — três personagens de nível 2, mestrada pelo Mizuki — é a primeira sessão medida.* **A taxa de acerto de `50%` deixou de ser previsão: a mesa mediu `45%` a `50%`.** *O resto dos números continua sendo previsão, e o registro está em `04-playtest/mesa-01-grupo-01.md`.*
 
 > *Esta frase tinha quatro itens e perdeu três.* **A pasta `05-material/` saiu na v0.35**, quando a ficha e o gerador dela entraram; **a tabela consolidada saiu na v0.99**, quando virou a peça 18; **e o quick-start saiu na v0.102, por decisão do Mizuki** — *"pode abandonar a ideia do quick start, eu tô fazendo o PDF direto"*.
 

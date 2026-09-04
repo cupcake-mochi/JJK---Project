@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 03/09/2026, na v0.214 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e nove checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 03/09/2026, na v0.215 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e nove checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.214.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
+**Versão v0.215.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
 
 **A v0.207 deu ao capítulo de Invocações o passo a passo que o Fundamento tem para feitiço.** *O capítulo publicava a máquina inteira e nove montagens prontas, e o leitor via o resultado sem ver a conta — `12` pontos, cabe no nível 6, e de onde vem o `12` nenhuma linha mostrava.*
 
@@ -1269,7 +1269,7 @@ Vale ter isso à mão, porque o material é grande e engana. *Medido na v0.33, e
 |---|---|
 | ~~**Tabela de progressão consolidada**~~ | **fechada na v0.99**, na peça 18: uma tabela só, trinta linhas, nove colunas. *Ela não estava espalhada por cinco documentos — eram dez números em seis lugares, e um deles não tinha dono nenhum.* **A curva de refino das três rotas continua no `arquitetura.md` §4.3**, e é a última fonte da progressão fora de uma peça |
 | ~~**Quick-start jogável**~~ | **Abandonado como arquivo separado na v0.102**, e **fechado como texto na v0.106**: `sistema/05-material/livro/` tem o Manual da Guilda completo, 230 páginas, com o quick-start (*"Antes da primeira sessão"*) escrito direto no PDF — o molde que a v0.103 previu, *"como o PDF carrega essa propriedade é trabalho dele"* |
-| **Playtest** | `04-playtest/` está vazia. Zero sessões desde a v0.1. **Todo número do sistema é previsão** |
+| **Playtest** | **COMEÇOU na v0.215.** A Mesa 1 está em `04-playtest/mesa-01-grupo-01.md` — três personagens de nível 2. *A taxa de acerto deixou de ser previsão; o resto ainda é* |
 
 *A **tabela de XP** saiu desta lista na v0.32.* Ela era a trava nº 1 de mundo compartilhado e ficou aberta trinta versões; hoje é a peça 12, com o `conferir-xp.py` em cima dela.
 
