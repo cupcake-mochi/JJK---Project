@@ -621,12 +621,32 @@ else:
     # 7d — a regra do dado: o gerador tem de seguir o §4.4, e a peca tem de
     # publicar a tabela de exemplo que ela promete.
     _mk = open(os.path.join(MAT, 'gerador-inimigo', 'make.js'), encoding='utf-8').read()
-    if 'Math.round(alvo / 9)' not in _mk:
-        erro('7: o gerador parou de montar o golpe como `N d8 + fixo` com N saindo do '
-             'alvo dividido por nove, e a peca 26 §4.4 e a dona dessa regra')
-    elif 'N d8 + fixo' not in _md:
-        erro('7: a peca 26 parou de publicar a regra do golpe em dado, e o gerador '
-             'continua imprimindo dado — a folha teria regra que peca nenhuma tem')
+    # v0.216: o dado deixou de ser sempre d8 e passou a se escolher entre d4 e
+    # d12. As duas frases literais que moravam aqui — `Math.round(alvo / 9)` e
+    # `N d8 + fixo` — eram a regra ANTIGA escrita duas vezes, e as duas quebraram
+    # juntas no dia em que ela mudou. No lugar delas a checagem compara as duas
+    # publicacoes: a LISTA de dados do gerador contra a lista que a peca escreve.
+    _dg = re.findall(r'\d+', (re.search(r'const DADOS = \[([^\]]+)\]', _mk) or
+                              type('', (), {'group': lambda s, n: ''})()).group(1))
+    _mr = re.search(r'O tamanho do dado se escolhe entre ([^*]+?)\s*—', _md)
+    _dp = re.findall(r'`d(\d+)`', _mr.group(1)) if _mr else []
+    _teto_g = re.search(r'if \(n > (\d+)\) continue', _mk)
+    _teto_p = re.search(r'no máximo \*\*(\w+)\*\* dados', _md)
+    _PALNUM = {'quatro': 4, 'cinco': 5, 'seis': 6, 'sete': 7, 'oito': 8, 'nove': 9, 'dez': 10}
+    if not _dg:
+        erro('7: o gerador parou de escolher o tamanho do dado — sem a lista `DADOS` '
+             'ele voltou a um dado fixo, e a peca 26 §4.4 publica a escolha')
+    elif not _dp:
+        erro('7: a peca 26 §4.4 parou de publicar entre que dados o golpe escolhe, e o '
+             'gerador continua escolhendo — a folha teria regra que peca nenhuma tem')
+    elif _dg != _dp:
+        erro(f'7: o gerador escolhe entre d{_dg} e a peca 26 §4.4 escreve d{_dp} — '
+             'um dado que a peca nao lista sai na folha sem dono')
+    elif not (_teto_g and _teto_p and int(_teto_g.group(1)) ==
+              _PALNUM.get(_teto_p.group(1).lower())):
+        erro('7: o teto de dados na mao nao bate entre o gerador e a peca 26 §4.4 — '
+             'sem ele o otimizador troca `5d8 + 26` por `10d4 + 24`, que fecha melhor '
+             'na conta e e pior na mesa')
     else:
         # v0.201: esta linha carregava o VALOR (`| `Ronda` | `18` |`) e por isso
         # sumiu no dia em que a tabela de inimigo mudou — que e' exatamente o dia

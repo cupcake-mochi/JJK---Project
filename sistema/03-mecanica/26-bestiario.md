@@ -134,20 +134,24 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 **O que a tabela do manual publica é o dano por RODADA, e o que o mestre rola é o de uma AÇÃO.** *Divida um pelo outro e você tem o alvo do golpe.*
 
-> **O golpe é `N d8 + fixo`, com metade do alvo em dado:** `N` é o alvo dividido por nove, arredondando, e o fixo é o que sobra. **Abaixo de `5` o golpe fica em número seco** — um `d8` balançaria mais que o próprio golpe, e no nível 2 ao 4 a linha inteira sai assim.
+> **O golpe é `N` dados mais um fixo, com metade do alvo em dado.** *O tamanho do dado se escolhe entre `d4`, `d6`, `d8`, `d10` e `d12` — o que fecha a metade mais limpo, com no máximo **oito** dados na mão.* **Abaixo de `5` o golpe fica em número seco** — um dado balançaria mais que o próprio golpe.
 
 **O precedente é o `Guia do Mestre` de 2014**, que manda traduzir a margem de dano numa expressão de dado e diz que a divisão em ataques é livre. *Aqui a divisão não é livre: ela é o número de ações da categoria.*
 
 | categoria, no nível 26 a 30 | por rodada | ações | o golpe |
 |---|---|---|---|
 | `Ronda` | `55` | `1` | `6d8 + 28` |
-| `Dupla` | `109` | `1` | `12d8 + 55` |
+| `Dupla` | `109` | `1` | `8d12 + 57` |
 | `Alcateia` | `219` | `3` | `8d8 + 37` |
-| `Calamidade` | `328` | `5` | `7d8 + 34` |
+| `Calamidade` | `328` | `5` | `6d10 + 33` |
 
 > **⚠ O golpe da `Dupla` é o maior da tabela, e isso não é erro.** *Ela entrega metade do que a `Alcateia` entrega, numa ação em vez de três* — **menos ações quer dizer golpe maior, e é a mesma propriedade que faz o capanga bater acima do peso.**
 >
-> **⚠⚠ E ele custa doze dados numa rolagem só, o que é caro em tempo de mesa.** *A regra do meio em dado foi escrita quando a linha do nível 30 era `72` por rodada; com `219` ela produz punhados de `7d8` a `12d8`.* **Fica declarado como custo, e não consertado aqui:** *quem não quiser rolar doze dados usa o golpe seco — `109` na `Dupla`, `73` na `Alcateia` —, que é a mesma média sem a variação.* **É a saída que a própria regra já dá para a faixa mais baixa.**
+> ~~**⚠⚠ E ele custa doze dados numa rolagem só, o que é caro em tempo de mesa.**~~ ***RESOLVIDO na v0.216, e não por decreto:*** **o dado deixou de ser sempre `d8`.** *Pedido do Mizuki — "não precisa sustentar pra sempre o `d8`, dá pra usar `d6`, `d4`, `d10`, `d12`, para ajudar nos cálculos".* **O maior punhado da tabela caiu de `12d8` para `8d12`**, e a `Dupla` continua sendo o maior golpe — o que mudou foi quantos dados ela custa para rolar.
+>
+> **Medido nas vinte e sete células que rolam dado:** *a metade cai **exata** em `6` delas contra `0` do `d8` fixo, e o desvio médio não se move — `26,4%` para `25,0%`.* **O balanço é o mesmo; o que melhorou foi a aritmética e a mão.**
+>
+> **⚠ O teto de oito dados não é cosmético.** *Sem ele o otimizador troca `5d8 + 26` por `10d4 + 24`: fecha melhor na conta e é pior na mesa.*
 
 ### 4.3 ⚠ A categoria não é intercambiável consigo mesma
 

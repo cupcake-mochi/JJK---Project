@@ -39,16 +39,47 @@ const esc = (v, f) => (v == null ? '—' : String(arred(v * f)));
 // traduzir a margem de dano numa expressao de dado, e a peca 26 §4.4 e a dona da
 // regra daqui — metade em d8, metade fixa. Abaixo de 3 nao vale a pena: o d8
 // balancaria mais que o proprio golpe.
+// v0.216: o dado deixou de ser sempre d8. A METADE em dado continua sendo a
+// regra do §4.4; o que mudou e' que o TAMANHO se escolhe entre d4 e d12, pelo que
+// fecha a metade mais limpo, com no maximo oito dados na mao.
+//
+// Pedido do Mizuki: "n precisa sustentar pra sempre o d8, da pra usar d6, d4,
+// d10, d12, para ajudar nos calculos". Medido nas 27 celulas que rolam dado: a
+// metade cai EXATA em 6 delas contra 0 do d8 fixo, o desvio nao se move
+// (26,4% -> 25,0%, entao o balanco continua o mesmo) e o maior punhado cai de
+// 12d8 para 8d12.
+//
+// O teto de oito dados nao e cosmetico: sem ele o otimizador troca 5d8+26 por
+// 10d4+24 — fecha melhor na aritmetica e e pior na mao.
+const DADOS = [4, 6, 8, 10, 12];
 function dado(alvo) {
-  // ⚠ o piso e 5, e nao 3. Com 3, um alvo de 3,0 virava `1d8` — que entrega 4,5,
-  // cinquenta por cento a mais — e a linha da Classe 1 saia com `1` ao lado de
-  // `1d8`, que le como defeito. Com 5 a faixa mais baixa fica toda em numero
-  // seco, e nenhuma celula da tabela erra mais de 20% do alvo.
+  // ⚠ o piso continua 5, e nao 3. Com 3, um alvo de 3,0 virava `1d8` — que
+  // entrega 4,5, cinquenta por cento a mais. Abaixo de 5 o golpe e numero seco.
   if (alvo < 5) return String(arred(alvo));
-  const n = Math.max(1, Math.round(alvo / 9));
-  const m = arred(alvo - 4.5 * n);
-  return m > 0 ? `${n}d8 + ${m}` : `${n}d8`;
+  const meta = alvo / 2;
+  let bom = null;
+  for (const d of DADOS) {
+    const med = (d + 1) / 2;
+    const n = Math.max(1, Math.round(meta / med));
+    if (n > 8) continue;
+    const fixo = alvo - n * med;
+    if (fixo < 0) continue;
+    const inteiro = Math.abs(fixo - Math.round(fixo)) < 1e-9 ? 0 : 1;
+    const erro = Math.abs(n * med - meta);
+    if (bom === null || inteiro < bom.inteiro
+        || (inteiro === bom.inteiro && erro < bom.erro - 1e-9)
+        || (inteiro === bom.inteiro && Math.abs(erro - bom.erro) < 1e-9 && n < bom.n)) {
+      bom = { inteiro, erro, n, d, fixo: Math.round(fixo) };
+    }
+  }
+  if (bom === null) {                       // nenhum dado coube no teto
+    const n = Math.max(1, Math.round(alvo / 9));
+    const m = arred(alvo - 4.5 * n);
+    return m > 0 ? `${n}d8 + ${m}` : `${n}d8`;
+  }
+  return bom.fixo > 0 ? `${bom.n}d${bom.d} + ${bom.fixo}` : `${bom.n}d${bom.d}`;
 }
+
 function golpe(danoRodada, fator, pes) {
   return dado(arred(danoRodada * fator) / acoes(pes));
 }
@@ -183,12 +214,12 @@ function nomeGrande(txt, sub) {
   ];
 }
 
-function bloco(f, primeiro) {
+function bloco(f, primeiro, rotulo) {
   const v = (k) => (f ? (f[k] ?? '') : '');
   const vazio = !f;
   const out = [];
   if (!primeiro) out.push(new Pg({ children: [new PageBreak()] }));
-  out.push(...titulo(f ? 'Ficha de inimigo — exemplo' : 'Ficha de inimigo'));
+  out.push(...titulo(rotulo || (f ? 'Ficha de inimigo — exemplo' : 'Ficha de inimigo')));
   if (vazio) out.push(P('Preencha de cima para baixo. **Defesa, vida, refino e o golpe você copia das tabelas do fim**; o resto você decide.'));
   out.push(GAP(120));
 
@@ -243,44 +274,52 @@ const EXEMPLO = {
 // caminho das tabelas do fim da folha, e por isso mexer na maquina move as seis
 // juntas em vez de deixar elas para tras.
 function prontas() {
+  const NIVEL = { '2 a 4': 2, '5 a 8': 6 };
   const out = [new Pg({ children: [new PageBreak()] })];
   out.push(...titulo('Maldições prontas — do nível 2 ao 6'));
-  out.push(P('Seis fichas para abrir e usar. **Nenhum número foi escolhido:** todos saem das tabelas do fim desta folha.'));
+  out.push(P('Seis fichas para abrir e usar. **Nenhum número foi escolhido:** todos saem das tabelas do fim desta folha, e os atributos cabem no orçamento de nove pontos com teto `3` que a peça 2 dá a qualquer ficha.'));
   out.push(P('São seis porque a faixa do nível 2 ao 6 cruza **duas linhas** da tabela de inimigo com as **quatro categorias** — oito células —, e a `Calamidade` exige seis feiticeiros, que um grupo dessa faixa não tem.'));
   out.push(GAP(120));
 
-  const linhas = X.PRONTAS.map((m) => {
+  const monta = (m) => {
     const f = X.FAIXAS.find((x) => x[0] === m.faixa);
     const c = X.CATEGORIAS.find((x) => x[0] === m.categoria);
+    const nv = NIVEL[m.faixa];
+    const dv = X.DERIVADAS.find((x) => {
+      const [de, ate] = x[0].split(' a ').map(Number);
+      return nv >= de && nv <= ate;
+    });
     const [, , , , , vidaChefe, danoChefe, vidaCap, danoCap] = f;
     const [, pes, fator] = c;
-    return [m.nome, m.categoria, m.faixa, esc(vidaChefe, fator), esc(danoChefe, fator),
-            String(acoes(pes)), golpe(danoChefe, fator, pes),
-            `${esc(vidaCap, fator)} · ${esc(danoCap, fator)}`];
-  });
+    const a = m.arranjo.split(' · ');
+    return {
+      nome: m.nome, nivel: String(nv), categoria: m.categoria, sub: 'sozinho', grau: '—',
+      forca: a[0], destreza: a[1], con: a[2], int: a[3], ess: a[4],
+      trs: m.trs,
+      resist: 'nenhuma — resistir custaria um degrau de categoria',
+      vida: esc(vidaChefe, fator), dano: golpe(danoChefe, fator, pes),
+      acoes: String(acoes(pes)),
+      defesa: String(dv[1]), acerto: `+${dv[2]}`, cd: String(dv[3]), refino: String(dv[4]),
+      caracteristicas: m.caracteristicas,
+      pacto: `nenhum — o teto do permanente é metade da Essência dela, que é ${a[4]}`,
+      notas: `${m.linha} ${m.notas} Repartida em capangas, cada um tem ${esc(vidaCap, fator)} de vida e ${esc(danoCap, fator)} de dano.`,
+    };
+  };
+
   out.push(TBL(['MALDIÇÃO', 'CATEGORIA', 'NÍVEL', 'VIDA', 'DANO', 'AÇÕES', 'GOLPE', 'CAPANGA'],
-    linhas, [17, 14, 10, 10, 9, 9, 16, 15],
-    { centerCols: [2, 3, 4, 5, 6, 7] }));
+    X.PRONTAS.map((m) => {
+      const g = monta(m);
+      const f = X.FAIXAS.find((x) => x[0] === m.faixa);
+      const c = X.CATEGORIAS.find((x) => x[0] === m.categoria);
+      return [g.nome, g.categoria, m.faixa, g.vida, esc(f[6], c[2]), g.acoes, g.dano,
+              `${esc(f[7], c[2])} · ${esc(f[8], c[2])}`];
+    }), [17, 14, 10, 10, 9, 9, 16, 15], { centerCols: [2, 3, 4, 5, 6, 7] }));
   out.push(GAP(100));
+  out.push(NOTA('A `Calamidade` da faixa fica de fora porque exige seis feiticeiros. A linha dela existe nas tabelas e monta na hora, se a sua mesa for grande.'));
 
   X.PRONTAS.forEach((m) => {
-    const f = X.FAIXAS.find((x) => x[0] === m.faixa);
-    const c = X.CATEGORIAS.find((x) => x[0] === m.categoria);
-    const [, , , , , vidaChefe, danoChefe] = f;
-    const [, pes, fator] = c;
-    out.push(new Pg({ spacing: { before: 140, after: 30 },
-      children: [new TextRun({ text: m.nome.toUpperCase(), bold: true, size: 22,
-                               color: C.crimson, characterSpacing: 40 })] }));
-    out.push(NOTA(m.linha));
-    out.push(P(m.notas));
-    out.push(stat('Exige', `${pes} feiticeiro${pes > 1 ? 's' : ''} · ${m.categoria}`, false));
-    out.push(stat('Vida e dano por rodada', `${esc(vidaChefe, fator)} · ${esc(danoChefe, fator)}`, false));
-    out.push(stat('Ações e golpe', `${acoes(pes)} · ${golpe(danoChefe, fator, pes)}`, false));
+    out.push(...bloco(monta(m), false, `${m.nome} — maldição pronta`));
   });
-
-  out.push(GAP(140));
-  out.push(NOTA('A `Calamidade` da faixa fica de fora porque exige seis feiticeiros. A linha dela existe nas tabelas e monta na hora, se a sua mesa for grande.'));
-  out.push(NOTA('Resistência, Expansão de Domínio e aptidão não entram em nenhuma das seis: as três custam degrau de categoria ou cota de dano, e uma maldição de grau baixo não tem o que gastar.'));
   return out;
 }
 
