@@ -539,27 +539,36 @@ elif not (_p1 and _p3 and _p6):
     erro(f'nao achei na peca 8: {", ".join(_faltam)} — sem a secao nao ha o que comparar')
 else:
     # --- o que a peca 7 §6 concede, e a quem -------------------------------
-    # E' o TOTAL do Caminho: se um dia um deles voltar a ser fixo, ele conta
-    # DENTRO deste numero e nao por cima dele.
+    # O oficio tem UM dono, e quem e' esse dono se LE da peca. A v0.105 tirou o
+    # oficio fixo, a v0.206 tirou o extra da Origem e deixou os dois no
+    # Caminho, e depois eles voltaram para a Origem. As tres vezes o numero foi
+    # o mesmo e so o dono mudou -- que e' exatamente o caso em que somar as
+    # rotas fecha com o dono trocado, o defeito que o aviso do topo da peca 8
+    # registra. Entao aqui se le o DONO e a CONTAGEM separados.
     _m = re.search(r'Mais (\w+) ofícios?\b', _s7)
-    _cam_livre = _palnum(_m.group(1)) if _m else None
-    # A Origem parou de dar oficio na v0.211. A leitura e da DECLARACAO: um
-    # extrator que devolve zero por nao achar sai verde igual ao que leu certo.
-    _ori_extra = 0 if re.search(r'\*\*A Origem não dá ofício\.\*\*', _s7) else None
-    # A negacao e' LIDA, e nao suposta: se um dia o Caminho voltar a travar um
-    # oficio, esta checagem vira do avesso junto com a peca em vez de reprovar
-    # a decisao nova. E' o contra-teste coerente que o metodo pede.
-    _m = re.search(r'\*\*O Caminho (não trava|trava) ofício', _s7)
-    _cam_trava = (_m.group(1) == 'trava') if _m else None
-
-    if _cam_livre is None or _ori_extra is None or _cam_trava is None:
-        erro('nao consegui ler da peca 7 §6 quantos oficios o Caminho da, quanto '
-             'vale o extra da Origem, ou se o Caminho trava algum — o extrator '
-             'parou de achar e a comparacao passaria trivialmente')
+    _quantos = _palnum(_m.group(1)) if _m else None
+    # o dono, lido da negacao escrita. Ela existe nos dois sentidos de
+    # proposito: se um dia o oficio voltar para o Caminho, esta leitura vira
+    # junto com a peca em vez de reprovar a decisao nova.
+    if re.search(r'\*\*O Caminho não dá ofício, e quem dá é a Origem\.\*\*', _s7):
+        _dono, _outro = 'Origem', 'Caminho'
+    elif re.search(r'\*\*A Origem não dá ofício\.?\*\*', _s7):
+        _dono, _outro = 'Caminho', 'Origem'
     else:
-        print(f'  peca 7 §6: o Caminho da {_cam_livre} oficio(s), e '
-              f'{"trava um deles" if _cam_trava else "nao trava nenhum"}; '
-              f'o extra da Origem vale {_ori_extra}')
+        _dono = _outro = None
+    # ninguem trava QUAL oficio desde a v0.105, e a peca tem de continuar
+    # dizendo isso em algum lugar -- senao "livre" volta a ser suposicao
+    _cam_trava = bool(re.search(r'cada Caminho fixava um ofício', _s7)) and \
+        not re.search(r'não (trava|dá) ofício', _s7)
+
+    if _quantos is None or _dono is None:
+        erro('nao consegui ler da peca 7 §6 quantos oficios existem ou de quem '
+             'eles sao — o extrator parou de achar e a comparacao passaria '
+             'trivialmente')
+    else:
+        print(f'  peca 7 §6: o oficio e da {_dono} ({_quantos} deles), '
+              f'o {_outro} nao da nenhum, e '
+              f'{"algum e fixo" if _cam_trava else "nenhum e fixo"}')
 
         # --- a tabela do Passo 6, fonte por fonte -------------------------
         _tab = {}
@@ -570,8 +579,8 @@ else:
                 _tab[m.group(1).strip()] = dict(
                     total=sum(int(x) for x in re.findall(r'(\d+)', cel)),
                     fixos=sum(int(x) for x in re.findall(r'(\d+)\s*fixo', cel)))
-        # v0.211: a fonte `Origem, o extra` morreu junto com o extra. Sao duas.
-        _esperado = {'Caminho': _cam_livre, 'Origem': 0}
+        # duas fontes, e a que nao e' dona entrega zero
+        _esperado = {_dono: _quantos, _outro: 0}
         if set(_tab) != set(_esperado):
             erro(f'a tabela de treino do Passo 6 tem as fontes {sorted(_tab)} e a '
                  f'peca 7 §6 fala de {sorted(_esperado)}')
@@ -585,13 +594,13 @@ else:
                 if not ok:
                     erro(f'o Passo 6 da a "{fonte}" {v["total"]} oficio(s) e a peca 7 '
                          f'§6 da {quanto}')
-            _fixos = _tab['Caminho']['fixos']
+            _fixos = sum(v['fixos'] for v in _tab.values())
             if _cam_trava and _fixos < 1:
-                erro('a peca 7 §6 diz que o Caminho TRAVA oficio e o Passo 6 nao '
+                erro('a peca 7 §6 diz que algum oficio e FIXO e o Passo 6 nao '
                      'entrega nenhum fixo')
             elif not _cam_trava and _fixos:
-                erro(f'o Passo 6 da {_fixos} oficio FIXO ao Caminho, e a peca 7 §6 '
-                     'diz que o Caminho nao trava nenhum')
+                erro(f'o Passo 6 da {_fixos} oficio FIXO, e a peca 7 §6 diz que '
+                     'ninguem trava qual desde a v0.105')
 
         # --- as duas cabeceiras: Passo 1 e Passo 3 ------------------------
         _n1 = 0
@@ -605,30 +614,34 @@ else:
         # tabela. A declaracao escrita entra no lugar da linha — e ela e' LIDA,
         # nao suposta: se um dia a Origem voltar a dar oficio, a linha volta e
         # esta checagem volta a conta-la sem ninguem mexer aqui.
-        if not _achou1 and re.search(r'\*\*a Origem não dá ofício\*\*', _p1):
+        if not _achou1 and re.search(r'\*\*(a Origem|o Caminho) não dá ofício\*\*', _p1):
             _achou1, _n1 = True, 0
+        _esp1 = _quantos if _dono == 'Origem' else 0
         if not _achou1:
             erro('o Passo 1 nao diz mais quantos oficios a Origem entrega, nem declara '
                  'que ela nao da nenhum — a linha sumiu, e sem ela o dono da '
                  'atribuicao volta a ser ninguem')
-        elif _n1 != _ori_extra:
-            erro(f'o Passo 1 da {_n1} oficio(s) a Origem, e a peca 7 §6 da '
-                 f'{_ori_extra} — os outros sao do Caminho')
+        elif _n1 != _esp1:
+            erro(f'o Passo 1 da {_n1} oficio(s) a Origem, e a peca 7 §6 da {_esp1}')
         else:
-            print(f'  [x] Passo 1 · a Origem entrega {_n1} oficio(s), como o extra da peca 7')
+            print(f'  [x] Passo 1 · a Origem entrega {_n1} oficio(s), como a peca 7 §6')
 
         # Lido pelo TOTAL, e nao pela palavra "livres": o contra-teste coerente
         # reescreve a frase para "dois oficios, um fixo e um livre" e a checagem
         # tem de continuar entendendo dois. Ler "N oficios livres" era medir a
         # decisao de hoje em vez da relacao — o arnes pegou isto.
+        _esp3 = _quantos if _dono == 'Caminho' else 0
         m = re.search(r'\*\*(\w+) ofícios?\b', _p3)
-        if not m:
-            erro('o Passo 3 nao diz mais quantos oficios o Caminho entrega')
-        elif _palnum(m.group(1)) != _cam_livre:
-            erro(f'o Passo 3 da {_palnum(m.group(1))} oficios ao Caminho, e a '
-                 f'peca 7 §6 da {_cam_livre}')
+        _n3 = _palnum(m.group(1)) if m else None
+        if _n3 is None and re.search(r'\*\*O Caminho não dá ofício\*\*', _p3):
+            _n3 = 0
+        if _n3 is None:
+            erro('o Passo 3 nao diz mais quantos oficios o Caminho entrega, nem '
+                 'declara que ele nao da nenhum')
+        elif _n3 != _esp3:
+            erro(f'o Passo 3 da {_n3} oficios ao Caminho, e a peca 7 §6 da {_esp3}')
         else:
-            print(f'  [x] Passo 3 · o Caminho entrega {_cam_livre} oficios')
+            print(f'  [x] Passo 3 · o Caminho entrega {_n3} oficio(s)')
 
         # --- e a prosa nao pode reatribuir o que a tabela ja resolveu -----
         # A ficha de exemplo e o checklist do mestre carregavam "(fixo do
@@ -637,7 +650,7 @@ else:
         _frases = [f for f in ('ofício fixo', 'ofícios fixos', 'fixo do Caminho',
                                'fixos do Caminho') if f in P8]
         if _cam_trava and not _frases:
-            aviso('a peca 7 §6 diz que o Caminho trava oficio e a peca 8 nao escreve '
+            aviso('a peca 7 §6 diz que algum oficio e fixo e a peca 8 nao escreve '
                   'isso em lugar nenhum fora da tabela')
         elif not _cam_trava and _frases:
             erro(f'a peca 8 ainda escreve {_frases} na prosa, e a peca 7 §6 tirou o '

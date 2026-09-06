@@ -169,11 +169,11 @@ Forjar uma lâmina é **Força**, falsificar uma assinatura é **Destreza**, e s
 ## 6. De onde vem o treino
 
 > **O Caminho dá duas perícias fixas e mais cinco à sua escolha, de qualquer uma da lista de perícias do sistema.**
-> **Mais dois ofícios à sua escolha, e os dois se trocam por mais uma perícia.**
 > **Nos três Caminhos que não treinam arma de verdade, duas das cinco à sua escolha se trocam por treino em UMA arma** — não a categoria, não o tipo: uma arma da lista.
 > **A Origem dá mais duas perícias: uma da lista de quatro dela, e uma livre — de fora das sete que o Caminho te deu.**
+> **Mais dois ofícios à sua escolha, e os dois se trocam por mais uma perícia livre.**
 
-**Nove perícias de vinte e três e dois ofícios de onze** — ou dez e nenhum, se você trocar os dois ofícios do Caminho por mais uma perícia. *E sete e dois, mais uma arma, para quem faz a troca de arma.*
+**Nove perícias de vinte e três e dois ofícios de onze** — ou dez e nenhum, se você trocar os dois ofícios da Origem por mais uma perícia. *E sete e dois, mais uma arma, para quem faz a troca de arma.*
 
 As duas fixas são a assinatura do Caminho — o que qualquer um daquele Caminho sabe fazer. As cinco livres são suas.
 
@@ -185,7 +185,11 @@ As duas fixas são a assinatura do Caminho — o que qualquer um daquele Caminho
 | **Emanador** | Ocultismo · Investigação |
 | **Evocador** | Religião · Lidar com Animais |
 
-**O Caminho não trava ofício.** Os dois que ele entrega são livres. *Mudou na v0.105: até ali cada Caminho fixava um ofício (Forja no Bastião, Arrombamento na Vanguarda, Herbalismo no Guia, Caligrafia no Emanador, Entalhador no Evocador). O que um personagem faz com as mãos fora da luta não é assinatura de Caminho, e travar isso só reduzia a variedade de duas fichas do mesmo Caminho.*
+**O Caminho não dá ofício, e quem dá é a Origem.** *Os dois ofícios moraram no Caminho da v0.105 até aqui, e antes disso cada Caminho fixava um — Forja no Bastião, Arrombamento na Vanguarda, Herbalismo no Guia, Caligrafia no Emanador, Entalhador no Evocador.*
+
+**Os dois passos foram na mesma direção, e o segundo termina o serviço do primeiro.** *A v0.105 já tinha escrito o motivo:* **o que um personagem faz com as mãos fora da luta não é assinatura de Caminho.** *Ela desamarrou qual ofício, e deixou a entrega onde estava.* **Ofício é uma prática que alguém te ensinou — e quem te ensinou é o seu passado, não a sua rota de combate.** *A Origem é o lugar do sistema onde o passado tem endereço: é ela que já entrega a perícia que a sua história justifica, o traço e os Legados.*
+
+**A escolha continua livre, e a conta não se move.** *Dois de onze antes, dois de onze agora — o que muda é de onde eles vêm.* **O que se ganha é a pergunta que a mesa passa a fazer:** *não "que ofício eu quero", e sim* **"o que na minha história me deu isso"**. *Cada Origem carrega um gancho para essa resposta, na peça 9.*
 
 **Sentir Energia não é fixa de ninguém, e isso é escolha.** Ela é a mais rolada da mesa; fixá-la num Caminho daria àquele Caminho uma escolha livre a mais disfarçada. Livre para todos, ela vira decisão de ficha — e **o feiticeiro ruim de sentir energia passa a caber**, que é o Itadori do começo e é uma coisa boa de existir.
 

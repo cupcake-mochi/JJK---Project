@@ -8,6 +8,108 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.216] — 05/09/2026
+
+**A escada de dificuldade mudou de números, e o ofício mudou de dono.** *As duas saíram de incômodo de mesa e nenhuma das duas mexe na conta do total.*
+
+### 1 · "Fácil" com 45% de falha não é fácil
+
+> *Palavras dele: "fica meio estranho o teste fácil do sistema ser 50% chance de falha".*
+
+**A escada era `10-14-18-22-26`, de quatro em quatro.** *A CD 14 chamada de fácil dava `55%` no nível 2 — cara ou coroa com nome de degrau baixo.*
+
+| CD | dificuldade | nível 2 | nível 18 | nível 30 |
+|---|---|---|---|---|
+| 10 | rotina | 75% | 95% | 100% |
+| **12** | fácil | **65%** | 85% | 95% |
+| **16** | média | **45%** | 65% | 75% |
+| **20** | difícil | **25%** | 45% | 55% |
+| 26 | quase impossível | 0% | 15% | 25% |
+
+**As pontas não andaram, e o motivo está escrito na própria peça.** *Ela promete que a CD mais baixa vira automática **no fim** da campanha e que a mais alta **nunca vira confortável**.* **Baixar tudo em `2` — a primeira ideia — quebrava as duas:** *rotina em `8` chega a `100%` já no nível 18, e quase impossível em `24` deixa de ser impossível no nível 2.* **Então quem andou foi o meio**, e o espaçamento ficou irregular de propósito: `2, 4, 4, 6`.
+
+**Média em `45%` é o que média devia ser desde sempre.** *Meio a meio no começo da campanha, e não um em três.*
+
+> **A ideia de inserir um degrau — `10-14-16-18-22-26` — foi rodada e não resolvia.** *Ela mantinha a CD 14 chamada de fácil, com os mesmos `55%`: mudava a granularidade e não a sensação.*
+
+### 2 · A escada estava republicada em cinco lugares, e nenhum era conferido
+
+**Quatro documentos publicavam a escada, e o quinto era o `conferir-pericias.py`**, que tinha os cinco degraus escritos no código e cuja seção 8 só **imprimia** uma tabela. *Ela não comparava nada.*
+
+> **Lição nº 9, na variante que este projeto já pagou três vezes:** *checagem que se mede contra a própria constante sai verde quando se perturba a constante.*
+
+**A seção 8 virou checagem.** *Ela lê a escada da peça 4 §2 — a dona —, incluindo quais níveis a tabela publica, e confere:*
+
+- **as quinze porcentagens** contra `d20 + atributo investido + maestria`
+- **as duas propriedades declaradas**, derivadas da escada lida, e que a prosa que as justifica continua na peça
+- **as três cópias** — peça 1 §Perícias, peça 11 §`Esteio` e o capítulo 10 do livro — degrau por degrau
+- **e ela grita se o formato da tabela mudar**, em vez de passar em branco: formato que não casa faz a checagem virar decoração, que é como o `de dez` sobreviveu sete versões
+
+*Oito perturbações acendem a checagem certa, e uma mexida inócua na prosa fica verde.*
+
+### 3 · A tabela do `Esteio` discordava da prosa acima dela, e nem era por causa disto
+
+**A peça 11 publicava que a média "ainda rola" com o `Esteio` no teto, e o parágrafo logo acima dizia que ele "resolve o médio e deixa o difícil de pé".** *Pelo modelo da própria peça — piso `8`, e bônus `10` no nível 26 — a antiga CD 18 pedia exatamente `8`, e piso igual ao pedido é automático.* **A prosa estava certa e a tabela não.**
+
+*Com a escada nova a média cai para `16`, que pede `6`, e a tabela e a prosa passam a dizer a mesma coisa por dois motivos ao mesmo tempo. Ela ganhou a linha do `26` também, que faltava.*
+
+### 4 · O ofício é da Origem
+
+> *Palavras dele: "a narrativa de receber um ofício faz mais sentido vir da origem do que do caminho".*
+
+**A v0.206 tirou o extra da Origem e deixou os dois ofícios no Caminho, para o ofício ter um dono só.** *A troca de agora mantém o dono único e muda qual é ele.*
+
+| | antes | agora |
+|---|---|---|
+| Caminho | 2 fixas + 5 livres, **e 2 ofícios** | 2 fixas + 5 livres |
+| Origem | 1 da lista + 1 livre | 1 da lista + 1 livre, **e 2 ofícios** |
+| totais | 9 perícias / 2 ofícios | **iguais** |
+
+**Os dois passos foram na mesma direção, e o segundo termina o serviço do primeiro.** *A v0.105 já tinha escrito o motivo ao desamarrar qual ofício:* **o que um personagem faz com as mãos fora da luta não é assinatura de Caminho.** *Ela desamarrou qual, e deixou a entrega onde estava.* **Ofício é uma prática que alguém te ensinou, e quem te ensinou é o passado do personagem — que é o que a Origem descreve.**
+
+**A escolha continua livre, e a conta não se move:** *dois de onze antes, dois de onze agora.* **O que se ganha é a pergunta que a mesa passa a fazer:** *não "que ofício eu quero", e sim* **"o que na minha história me deu isso"**.
+
+**As sete Origens ganharam um gancho para essa resposta**, na peça 9 e no capítulo 25 do livro — *o Latente aprendeu sozinho porque não teve de quem aprender; o Descendente aprendeu porque um nome não se carrega sem ofício; a Restrição Celestial aprendeu porque, sem energia, sobrou a mão.* **Era pedido de mesa:** *sem a menção antes de cada Origem, o leitor conclui que o ofício daquela Origem faltou — a mesma pergunta que a v0.209 respondeu para o Teste de Resistência.*
+
+### 5 · A guarda do ofício virou de lado, e continua de dois sentidos
+
+**O §12 do `conferir-legados.py` cobrava que a tabela do capítulo 25 NÃO oferecesse ofício e que as sete cópias declarassem que a Origem não dá.** *Agora cobra o contrário — a tabela tem de oferecer, e as sete têm de declarar que o **Caminho** não dá —, e ela reprova de propósito se a frase da v0.206 ficar para trás em alguma das sete.*
+
+**E o extrator do `conferir-criacao.py` passou a ler o DONO separado da CONTAGEM.** *Ele lia "quantos o Caminho dá" e "quanto vale o extra da Origem", que é a forma que não sobrevive a uma troca de dono.* **É o defeito que o aviso do topo da peça 8 registra:** *a atribuição ficou trocada em quatro lugares da v0.105 à v0.170 porque a checagem lia a soma das duas rotas, e soma fecha com o dono trocado.*
+
+*Sete perturbações do dono acendem a checagem certa, e uma mexida inócua num gancho fica verde.*
+
+### 6 · Seis cópias estavam atrasadas antes disto, e três de duas maneiras
+
+**Caçando as cópias da atribuição, seis publicavam a regra antiga** — e não a de v0.206, a de **antes** dela:
+
+| onde | o que publicava |
+|---|---|
+| peça 4 §3 | `quatro à escolha` e `Oito de vinte e três` |
+| peça 5 §194 | `quatro à escolha` |
+| peça 9 §7 | `um ofício livre ou mais uma perícia` **e** `um Legado` |
+| `ESTADO-ATUAL.md` | `quatro livres`, `Oito de vinte e três, 35%` |
+| livro, capítulo 10 | `quatro à sua escolha`, `Oito perícias` |
+| livro, capítulos 12 e 20 | a atribuição no Caminho |
+
+**Nenhuma acendia**, porque são prosa: as contagens que o `conferir-pericias.py` confere saem da peça 7, e a guarda do §12 lê o capítulo do livro. *A linha da peça 9 agora aponta para o §2 em vez de recopiar a lista, que é o único jeito de ela não envelhecer de novo.*
+
+### Alterado
+
+- **A escada de dificuldade: `10-12-16-20-26`.** Dona: peça 4 §2.
+- **O ofício é da Origem**, dois, livres, e os dois se trocam por mais uma perícia livre.
+- **A seção 8 do `conferir-pericias.py`** virou checagem e perdeu os degraus escritos no código.
+- **O §12 do `conferir-legados.py`** e o extrator do `conferir-criacao.py` viraram de lado.
+- **A tabela do `Esteio`**, peça 11, e as seis cópias atrasadas.
+
+### Decidido
+
+- **O nome do degrau tem de bater com o que o número faz.** *"Fácil" a `55%` era o nome mentindo, não o número.*
+- **As duas pontas da escada são invariantes.** *Elas estão declaradas na peça e agora são conferidas: mexer no meio é barato, mexer nas pontas custa reescrever a promessa.*
+- **Ofício é do passado do personagem.** *Dono único, e o dono é a Origem.*
+
+---
+
 ## [0.215] — 03/09/2026
 
 **O playtest começou, e `04-playtest/` deixou de estar vazia depois de duzentas e quatorze versões.** *A Mesa 1 — três personagens de nível 2, mestrada pelo Mizuki — é a primeira sessão medida do projeto.* **Um número do sistema deixou de ser previsão.**

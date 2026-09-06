@@ -40,12 +40,14 @@ Cinco degraus, e cada um tem nome para o mestre não precisar inventar número n
 | CD | dificuldade | nível 2 | nível 18 | nível 30 |
 |---|---|---|---|---|
 | 10 | rotina | 75% | 95% | 100% |
-| 14 | fácil | 55% | 75% | 85% |
-| 18 | média | 35% | 55% | 65% |
-| 22 | difícil | 15% | 35% | 45% |
+| 12 | fácil | 65% | 85% | 95% |
+| 16 | média | 45% | 65% | 75% |
+| 20 | difícil | 25% | 45% | 55% |
 | 26 | quase impossível | 0% | 15% | 25% |
 
 Percentuais de um personagem **treinado** que investiu no atributo. Sem treino, tire de 1 a 4 pontos do bônus.
+
+**O espaçamento não é regular, e é a escada obedecendo às duas pontas.** *Ela era `10-14-18-22-26`, de quatro em quatro, até aqui.* O problema estava no nome: **"fácil" com 55% no nível 2 é cara ou coroa**, e a palavra promete outra coisa. As pontas não podiam andar — as duas leituras abaixo dizem por quê —, então quem andou foi o meio. Fácil subiu para `12` e virou fácil de verdade; média caiu para `16` e passou a ser o que média sempre devia ter sido, meio a meio no começo da campanha.
 
 Duas leituras que importam para o mestre:
 
@@ -55,7 +57,9 @@ Duas leituras que importam para o mestre:
 
 ## 3. O quadro de perícias mora na peça 7
 
-**Vinte e três perícias e onze ofícios**, em `07-pericias-e-oficios.md`. O Caminho dá duas perícias fixas e mais quatro à escolha livre, além de dois ofícios livres; a Origem dá mais duas perícias. Oito de vinte e três.
+**Vinte e três perícias e onze ofícios**, em `07-pericias-e-oficios.md`. O Caminho dá duas perícias fixas e mais cinco à escolha livre; a Origem dá mais duas perícias e dois ofícios livres. Nove de vinte e três.
+
+*Esta linha publicava `quatro à escolha` e `Oito de vinte e três` — os números de antes da v0.206 — e nenhum validador acendia, porque ela é prosa e a contagem que o `conferir-pericias.py` confere sai da peça 7.*
 
 *A lista de catorze que ficava aqui foi para `99-arquivo/secoes-substituidas/`.*
 

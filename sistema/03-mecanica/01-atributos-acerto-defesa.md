@@ -595,9 +595,9 @@ A escada oficial está na peça 4, seção 2. Treinado e com o atributo investid
 | dificuldade | nível 2 | nível 30 |
 |---|---|---|
 | CD 10 (rotina) | 75% | 100% |
-| CD 14 (fácil) | 55% | 85% |
-| CD 18 (média) | 35% | 65% |
-| CD 22 (difícil) | 15% | 45% |
+| CD 12 (fácil) | 65% | 95% |
+| CD 16 (média) | 45% | 75% |
+| CD 20 (difícil) | 25% | 55% |
 | CD 26 (quase impossível) | 0% | 25% |
 
 Aqui a deriva é desejada. Uma fechadura comum é a mesma fechadura; um feiticeiro de nível 30 deve abri-la sem pensar. Perícia é o lugar onde o personagem sente que cresceu, justamente porque o mundo não cresce junto.

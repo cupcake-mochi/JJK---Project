@@ -47,12 +47,13 @@ A Origem **não dá atributo nenhum**, e isso é decisão. Em Jujutsu Kaisen a o
 
 **O catálogo está na peça 9.** São **cinco Origens principais** — Latente, Receptáculo, Descendente, Reencarnado e Feto —, uma **sub-origem** que se soma a qualquer uma delas (Sem Técnica) e **duas Origens especiais** (Corpo Amaldiçoado e Restrição Celestial).
 
-Ela dá cinco coisas, e **a Origem não dá ofício** — quem dá é o Caminho, no Passo 3:
+Ela dá seis coisas, e **o Caminho não dá ofício** — os dois são dela:
 
 | | |
 |---|---|
 | **Uma perícia** | escolhida da lista de quatro da sua Origem |
 | **Uma perícia livre** | que a sua história justifique, e de fora das sete do seu Caminho |
+| **Dois ofícios** | à sua escolha, do quadro da peça 7; ou mais uma perícia livre no lugar dos dois |
 | **Um Teste de Resistência treinado** | qualquer um dos quatro. O outro vem do Caminho |
 | **Um traço não numérico** | um acesso, uma obrigação, um contato, uma marca no corpo, alguém atrás de você |
 | **Dois Legados** | os dois na criação, e o sistema nunca concede outro. Um é **Destranca** obrigatório — zero no dado, e é quem o personagem é; o outro sai de qualquer lista da Origem. **Peça 13** |
@@ -77,6 +78,8 @@ Pare aqui e vá para o Caminho. O resto da técnica volta no passo 5.
 
 **Que lugar você ocupa numa equipe.** Um por personagem, escolhido agora e para sempre — não existe multiclasse.
 
+**O Caminho não dá ofício** — os dois são da Origem, no Passo 1. *Ele dá perícia, arma e Teste de Resistência.*
+
 | Caminho | O que ele é | Atributos naturais |
 |---|---|---|
 | **Bastião** | o corpo como resposta: aguentar, encarar, prender | Força, Constituição |
@@ -97,7 +100,7 @@ O que ele te dá agora:
 | **Evocador** | 6 (d6) | 4 | 6 | Religião · Lidar com Animais |
 | **Emanador** | 6 (d6) | 4 | 6 | Ocultismo · Investigação |
 
-Mais **cinco perícias à sua escolha**, de qualquer uma da lista de perícias do sistema, **dois ofícios livres** e **um Teste de Resistência treinado**.
+Mais **cinco perícias à sua escolha**, de qualquer uma da lista de perícias do sistema, e **um Teste de Resistência treinado**. *O ofício não vem daqui: quem dá os dois é a Origem, e o motivo está na peça 7 §6.*
 
 > **E o equipamento, que entrou na v0.171.** *Até ali a criação dava acesso e não dava objeto: o Caminho treina uma categoria de arma, e a ficha saía de casa sem nada na mão.* **Você começa com o `Traje` degrau 1 da instituição, de graça, e `¥75.000` para comprar o resto** — a tabela é a peça 14 §6.5, e os `¥75.000` são meia mensalidade de um `Grau 4`, da peça 12 §6.1.
 >
@@ -146,10 +149,10 @@ Você já tem a Regra. Falta:
 
 | de onde vem | perícias | ofícios | Teste de Resistência |
 |---|---|---|---|
-| **Caminho** | 2 fixas + 5 à sua escolha | 2 à sua escolha | 1 |
-| **Origem** | 1 da lista dela + 1 livre | — | 1 |
+| **Caminho** | 2 fixas + 5 à sua escolha | — | 1 |
+| **Origem** | 1 da lista dela + 1 livre | 2 à sua escolha | 1 |
 
-**Os dois ofícios do Caminho se trocam por mais uma perícia**, e as duas rotas fecham:
+**Os dois ofícios da Origem se trocam por mais uma perícia livre**, e as duas rotas fecham:
 
 | | perícias | ofícios |
 |---|---|---|
@@ -166,6 +169,8 @@ Você é bom em pouco mais de um terço do que existe — os buracos são de pro
 
 O quadro completo das vinte e três perícias e dos onze ofícios está na peça 7.
 
+> **⚠ O ofício trocou de dono outra vez, e agora é da Origem.** *A v0.206 tirou o extra da Origem e deixou os dois no Caminho, para o ofício ter um dono só; a troca de agora mantém o dono único e muda qual é ele.* **O motivo está na peça 7 §6:** *ofício é uma prática que alguém te ensinou, e quem te ensinou é o passado do personagem — que é o que a Origem descreve.* **A conta não se move:** dois de onze antes, dois de onze agora.
+>
 > **⚠ A atribuição dos ofícios estava trocada em quatro lugares desta peça, da v0.105 à v0.170.** *O Passo 1 dava à Origem os **dois** ofícios livres, que são do Caminho; o Passo 6, a ficha de exemplo e o checklist do mestre continuavam chamando um deles de **fixo**, que a v0.105 tirou.* **Os totais publicados — `8 e 3`, ou `9 e 2` — estavam certos o tempo todo, e é por isso que ninguém viu:** *a checagem 6 do `conferir-criacao.py` lia a soma das duas rotas, e soma fecha com o dono trocado.* **Hoje a 6.1 confere fonte por fonte, contra a peça 7 §6.**
 
 ## Passo 7 · Os números que caem sozinhos

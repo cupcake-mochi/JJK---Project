@@ -935,9 +935,12 @@ As outras duas quebram nas pontas: com `2 ×` você se defende uma vez e acabou 
 | o que você precisa tirar | com `Esteio` no teto |
 |---|---|
 | CD 10 — rotina | automático |
-| CD 14 — fácil | automático |
-| CD 18 — média | ainda rola |
-| CD 22 — difícil | ainda rola |
+| CD 12 — fácil | automático |
+| CD 16 — média | automático |
+| CD 20 — difícil | ainda rola |
+| CD 26 — quase impossível | ainda rola |
+
+> **A linha da média mudou de coluna, e ela estava errada antes.** *A tabela dizia que média "ainda rola" enquanto a prosa logo acima dizia que o `Esteio` "resolve o médio e deixa o difícil de pé".* **A prosa estava certa:** com o piso em `8` e o bônus em `10` no nível 26, a antiga CD 18 pedia exatamente `8` — e piso igual ao pedido é automático. *A escada nova põe média em `16`, que pede `6`, então a tabela e a prosa passam a dizer a mesma coisa por dois motivos ao mesmo tempo.*
 
 #### As que não precisam
 

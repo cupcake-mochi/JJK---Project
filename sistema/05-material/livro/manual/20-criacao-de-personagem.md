@@ -150,7 +150,7 @@ Aqui você abre o capítulo 9, *Fundamento*. É a parte longa. Você já tem a R
 | **Caminho** | 2 fixas + 5 à sua escolha | 2 à sua escolha | 1 |
 | **Origem** | 1 da lista dela + 1 livre | — | 1 |
 
-Os dois ofícios do Caminho se trocam por mais uma perícia, e as duas rotas fecham a ficha:
+Os dois ofícios da Origem se trocam por mais uma perícia livre, e as duas rotas fecham a ficha:
 
 **Rotas do ofício**
 {: .tab-titulo }

@@ -25,6 +25,7 @@ Três coisas que ela **não** faz, e cada uma é decisão:
 |---|---|
 | **Uma perícia** da lista de quatro da sua Origem | |
 | **Uma perícia livre**, que a sua história justifique | de fora das sete que o seu Caminho já te deu |
+| **Dois ofícios** à sua escolha | ou **mais uma perícia livre**, no lugar dos dois |
 | **Um Teste de Resistência treinado**, qualquer um dos quatro | o outro vem do Caminho |
 | **Um traço** — do catálogo dela, ou escrito por você | |
 | **Dois Legados** | os dois na criação, e o sistema nunca concede outro. **Catálogo e régua na peça 13** |
@@ -58,6 +59,7 @@ A técnica é sua desde sempre — e o que fez ela aparecer foi você, um susto,
 |---|---|
 | **Perícias** *(escolha uma)* | Sentir Energia · Sobrevivência · Furtividade · Intuição |
 | **Traços** | *o professor que você não teve* · *a primeira vez em que quase morreu* · *alguém comum que sabe o que você é* |
+| **Ofícios** *(escolha dois)* | *dois que você aprendeu sozinho, porque não teve de quem aprender* — livres, do quadro da peça 7 |
 | **Legados** | **as listas estão na peça 13** — um `Destranca` obrigatório e mais um de qualquer lista |
 | **Criação** | **Fundamento**, do jeito padrão |
 
@@ -75,6 +77,7 @@ Um dedo, um selo, um feiticeiro de mil anos atrás. O que te habita divide o cor
 |---|---|
 | **Perícias** *(escolha uma)* | Sentir Energia · Ocultismo · Intuição · Religião |
 | **Traços** | *o que ele quer, e não é o que você quer* · *a testemunha do dia em que aconteceu* · *a instituição sabe, e está observando* |
+| **Ofícios** *(escolha dois)* | *dois que vieram com o que você carrega, e você não sabe direito quando aprendeu* — livres, do quadro da peça 7 |
 | **Legados** | **as listas estão na peça 13** — um `Destranca` obrigatório e mais um de qualquer lista |
 | **Criação** | **Fundamento**, do jeito padrão. O passageiro é ficção, não montagem |
 
@@ -92,6 +95,7 @@ A técnica veio no sangue, com nome, com histórico e com gente que sabe usá-la
 |---|---|
 | **Perícias** *(escolha uma)* | Hierarquia · História · Ocultismo · Persuasão |
 | **Traços** | *o casamento que já decidiram por você* · *o parente que você não pode desapontar* · *o ramo do clã que perdeu, e você é dele* |
+| **Ofícios** *(escolha dois)* | *dois que o clã te fez aprender, porque um nome não se carrega sem ofício* — livres, do quadro da peça 7 |
 | **Legados** | **as listas estão na peça 13** — um `Destranca` obrigatório e mais um de qualquer lista |
 | **Criação** | **Fundamento**, do jeito padrão |
 
@@ -111,6 +115,7 @@ Alguém te selou, te guardou e te trouxe de volta — ou você aceitou ser guard
 |---|---|
 | **Perícias** *(escolha uma)* | História · Ocultismo · Investigação · Intimidação |
 | **Traços** | *o motivo pelo qual você aceitou voltar* · *alguém que te reconheceu de antes* · *a família do corpo que você está usando* |
+| **Ofícios** *(escolha dois)* | *dois que a outra pessoa sabia, e as mãos deste corpo lembram* — livres, do quadro da peça 7 |
 | **Legados** | **as listas estão na peça 13** — um `Destranca` obrigatório e mais um de qualquer lista |
 | **Criação** | **Fundamento**, do jeito padrão |
 
@@ -128,6 +133,7 @@ Meio humano, meio maldição, e as duas metades são de verdade. Nem todo Feto �
 |---|---|
 | **Perícias** *(escolha uma)* | Ocultismo · Medicina · Sentir Energia · Natureza |
 | **Traços** | *os irmãos, e o que aconteceu com eles* · *quem te fez, e onde essa pessoa está* · *o corpo que não envelhece igual* |
+| **Ofícios** *(escolha dois)* | *dois que estavam no projeto de quem te fez, e não na sua escolha* — livres, do quadro da peça 7 |
 | **Legados** | **as listas estão na peça 13** — um `Destranca` obrigatório e mais um de qualquer lista |
 | **Criação** | **Fundamento**, do jeito padrão |
 
@@ -174,6 +180,7 @@ Cadáver Amaldiçoado de Mutação Abrupta, na linguagem da instituição. Você
 | **Perícias** *(escolha uma)* | Atletismo · Percepção · Ocultismo · Intimidação |
 | **O que muda** | sem Fundamento, porque **não existe técnica inata para escrever**. Mas **você tem energia amaldiçoada**: cadáver de mutação abrupta produz a própria, uns três meses depois de acordar. Então PE, aptidões e refino normais — e **Técnica Marcial** no lugar do Fundamento |
 | **Traços** | *quem te fez, e o que essa pessoa esperava* · *o que as pessoas acham que você é* · *o núcleo que você ainda não usou na frente de ninguém* |
+| **Ofícios** *(escolha dois)* | *dois que quem te fez pôs em você, junto com o resto* — livres, do quadro da peça 7 |
 | **Legados** | **as listas estão na peça 13** — um `Destranca` obrigatório e mais um de qualquer lista |
 | **Criação** | **Técnica Marcial** — peça 20, fechada na v0.122 |
 
@@ -198,6 +205,7 @@ A troca é sempre desproporcional para os dois lados: você perde muito e ganha 
 | **Perícias** *(escolha uma)* | *corpo pela técnica:* Sentir Energia · Tecnologia · Ocultismo · Percepção<br>*sem energia:* Atletismo · Acrobacia · Furtividade · Pontaria |
 | **O que muda** | *corpo pela técnica:* Fundamento normal, corpo com limitação escrita na ficha<br>*sem energia:* sem Fundamento, sem feitiço de Toque, sem Sentir Energia, sem aptidão e sem refino — e acesso a ferramenta amaldiçoada como eixo de poder.<br>**O `PE` do Caminho vem inteiro e se lê `Pontos de Esforço`** — o contrato de moeda, logo abaixo neste §5 |
 | **Traços** | *o clã que te descartou* · *a pessoa que te olha e vê o que você perdeu* · *a ferramenta que te acompanha desde criança* |
+| **Ofícios** *(escolha dois)* | *dois que você teve de aprender, porque sem energia sobrou a mão* — livres, do quadro da peça 7 |
 | **Legados** | **as listas estão na peça 13** — um `Destranca` obrigatório e mais um de qualquer lista |
 | **Criação** | *corpo pela técnica:* **Fundamento** normal · *sem energia:* **Técnica Marcial** — peça 20, fechada na v0.122 |
 
@@ -306,7 +314,9 @@ A troca é sempre desproporcional para os dois lados: você perde muito e ganha 
 
 O caso do Yuta continua existindo **na ficção** — a instituição pode classificar quem ela quiser onde ela quiser. O que saiu é a patente inicial ser **produto da Origem na criação**, que criaria a origem que começa na frente.
 
-**O que a Origem dá mudou também.** Antes: duas perícias e um Teste de Resistência. Agora: uma perícia da lista, uma livre, um ofício livre *ou* mais uma perícia, um Teste de Resistência, um traço e um Legado.
+**O que a Origem dá mudou também.** Antes: duas perícias e um Teste de Resistência. Agora, o §2 desta peça é o dono da lista — e ela cresceu: uma perícia da lista, uma livre, **dois ofícios** (ou mais uma perícia no lugar dos dois), um Teste de Resistência, um traço, **dois** Legados e a rota de criação.
+
+> **Esta linha ficou parada duas vezes.** *Ela publicava `um ofício livre ou mais uma perícia` depois de a v0.206 tirar o ofício da Origem, e publicava `um Legado` desde que os Legados viraram dois.* **Ninguém acendia porque a guarda do §12 do `conferir-legados.py` lê o capítulo do livro, não este parágrafo.** *Agora ela aponta para o §2 em vez de recopiar a lista, que é o único jeito de não envelhecer de novo.*
 
 ## 8. Em aberto
 

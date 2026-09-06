@@ -430,12 +430,12 @@ A **CD** é o número que a tarefa pede. Quem diz qual é o mestre, e ele tira d
 | CD | dificuldade | como isso aparece na cena |
 |---|---|---|
 | 10 | rotina | pular o muro do colégio, lembrar de que família é aquele brasão |
-| 14 | fácil | passar por dois vigias distraídos, convencer um funcionário cansado |
-| 18 | média | escalar a fachada de um prédio na chuva, mentir para quem já desconfia |
-| 22 | difícil | reconhecer uma técnica que só aparece em três registros |
+| 12 | fácil | passar por dois vigias distraídos, convencer um funcionário cansado |
+| 16 | média | escalar a fachada de um prédio na chuva, mentir para quem já desconfia |
+| 20 | difícil | reconhecer uma técnica que só aparece em três registros |
 | 26 | quase impossível | sair inteiro de uma coisa que não devia deixar ninguém sair |
 
-Por exemplo, numa CD 14 você precisa tirar 14 ou mais no d20 depois de somar o bônus: com bônus 3, um 11 no dado já basta.
+Por exemplo, numa CD 12 você precisa tirar 12 ou mais no d20 depois de somar o bônus: com bônus 3, um 9 no dado já basta.
 
 O bônus muda conforme o tipo de rolagem.
 
@@ -444,9 +444,9 @@ O bônus muda conforme o tipo de rolagem.
 > **Perícia = d20 + atributo + maestria, se você for treinado.**
 > **Sem treino, é d20 + atributo.**
 
-Cada perícia tem um atributo fixo, e o quadro completo (vinte e três perícias e onze ofícios) está no capítulo 3, *Perícias e Ofícios*. Você é **treinado** naquilo que a sua Origem e o seu Caminho te deram na criação: o Caminho dá duas perícias fixas, mais quatro à sua escolha e dois ofícios livres, e a Origem dá mais duas perícias. Oito perícias de vinte e três. O resto você ainda pode tentar; só tenta sem a maestria.
+Cada perícia tem um atributo fixo, e o quadro completo (vinte e três perícias e onze ofícios) está no capítulo 3, *Perícias e Ofícios*. Você é **treinado** naquilo que a sua Origem e o seu Caminho te deram na criação: o Caminho dá duas perícias fixas e mais cinco à sua escolha, e a Origem dá mais duas perícias e dois ofícios livres. Nove perícias de vinte e três. O resto você ainda pode tentar; só tenta sem a maestria.
 
-> **Exemplo.** Rin precisa passar por um corredor com dois vigias. Dá para contornar por fora (Furtividade, CD 14) ou subir pela lateral do prédio (Atletismo, CD 18). Ela é treinada em Furtividade e não em Atletismo, e escolhe contornar. Destreza 3, maestria 1: rola 11 no d20, soma 4, dá 15. Passou.
+> **Exemplo.** Rin precisa passar por um corredor com dois vigias. Dá para contornar por fora (Furtividade, CD 12) ou subir pela lateral do prédio (Atletismo, CD 16). Ela é treinada em Furtividade e não em Atletismo, e escolhe contornar. Destreza 3, maestria 1: rola 9 no d20, soma 4, dá 13. Passou.
 
 ### Vantagem e desvantagem
 
@@ -1104,7 +1104,7 @@ Ofício o Caminho deixa escolher livremente. Os dois que ele dá são livres, e 
 
 Uma perícia da lista de quatro da sua Origem, e uma perícia livre que a sua história justifique, com aprovação do mestre. Foi filho de médico, tem `Medicina`. Batia carteira antes de saber o que era energia amaldiçoada, tem `Prestidigitação`.
 
-**A Origem não dá ofício.** Quem dá é o Caminho, e os dois dele se trocam por mais uma perícia.
+**O Caminho não dá ofício.** Quem dá é a Origem — dois, à sua escolha —, e os dois dela se trocam por mais uma perícia livre. *Ofício é uma prática que alguém te ensinou, e quem te ensinou é o seu passado.*
 
 **Rotas do ofício**
 | Se você | Perícias treinadas | Ofícios treinados |
@@ -1112,7 +1112,7 @@ Uma perícia da lista de quatro da sua Origem, e uma perícia livre que a sua hi
 | ficar com os dois ofícios | 9 | 2 |
 | trocar os dois por perícia | 10 | 0 |
 
-> **Exemplo.** O Kaito é Guia. Ele já entra com as fixas `Persuasão` e `Medicina`. Das cinco livres do Caminho ele gasta duas em treino de arma — o `Guia` não treina arma de verdade, e ele quis a Naginata —, e nas três que sobram pega `Sentir Energia`, `Ocultismo` e `Percepção`. Nos dois ofícios livres pega `Herbalismo` e `Caligrafia`. A Origem dele dá mais duas perícias, e ele fecha com 7 perícias, 2 ofícios e uma arma: ele lê talismã, alcança com a haste, e não arromba uma porta.
+> **Exemplo.** O Kaito é Guia. Ele já entra com as fixas `Persuasão` e `Medicina`. Das cinco livres do Caminho ele gasta duas em treino de arma — o `Guia` não treina arma de verdade, e ele quis a Naginata —, e nas três que sobram pega `Sentir Energia`, `Ocultismo` e `Percepção`. A Origem dele dá mais duas perícias e os dois ofícios, e nesses ele pega `Herbalismo` e `Caligrafia`. Ele fecha com 7 perícias, 2 ofícios e uma arma: ele lê talismã, alcança com a haste, e não arromba uma porta.
 
 ### Testes de Resistência
 
@@ -1751,7 +1751,7 @@ Aqui você abre o capítulo 9, *Fundamento*. É a parte longa. Você já tem a R
 | **Caminho** | 2 fixas + 5 à sua escolha | 2 à sua escolha | 1 |
 | **Origem** | 1 da lista dela + 1 livre | — | 1 |
 
-Os dois ofícios do Caminho se trocam por mais uma perícia, e as duas rotas fecham a ficha:
+Os dois ofícios da Origem se trocam por mais uma perícia livre, e as duas rotas fecham a ficha:
 
 **Rotas do ofício**
 | Rota | Perícias | Ofícios |
@@ -1896,6 +1896,7 @@ São sete Origens. Cinco principais (Latente, Receptáculo, Descendente, Reencar
 |---|---|
 | **Uma perícia** | da lista de quatro da sua Origem |
 | **Uma perícia livre** | que a sua história justifique; o mestre aprova na leitura |
+| **Dois ofícios** | à sua escolha, do quadro do capítulo 3; ou mais uma perícia livre no lugar dos dois |
 | **Um Teste de Resistência treinado** | qualquer um dos quatro; o outro vem do Caminho |
 | **Um traço** | do catálogo dela, ou escrito por você |
 | **Dois Legados** | um `Destranca` obrigatório, mais um de qualquer formato |
@@ -1966,11 +1967,13 @@ Escolha uma: Sentir Energia · Sobrevivência · Furtividade · Intuição
 
 Mais uma perícia livre, que a sua história justifique.
 
+Os dois ofícios você aprendeu sozinho, porque não teve de quem aprender. Os dois se trocam por mais uma perícia livre.
+
 #### Teste de Resistência
 
 **Um Teste de Resistência treinado, à sua escolha entre os quatro** — o outro vem do seu Caminho.
 
-*Ele vale igual em toda Origem: o que muda de uma para a outra é só a lista de perícias. **A Origem não dá ofício** — quem dá é o Caminho, e os dois dele se trocam por mais uma perícia.*
+*Ele vale igual em toda Origem, e os dois ofícios também: são livres, do quadro do capítulo 3, e os dois se trocam por mais uma perícia livre. **O Caminho não dá ofício** — quem dá é a sua Origem. O que muda de uma Origem para a outra é a lista de perícias e a razão pela qual você aprendeu o que aprendeu.*
 
 #### Destrancas
 
@@ -2033,11 +2036,13 @@ Escolha uma: Sentir Energia · Ocultismo · Intuição · Religião
 
 Mais uma perícia livre, que a sua história justifique.
 
+Os dois ofícios vieram com o que você carrega, e você não sabe direito quando aprendeu. Os dois se trocam por mais uma perícia livre.
+
 #### Teste de Resistência
 
 **Um Teste de Resistência treinado, à sua escolha entre os quatro** — o outro vem do seu Caminho.
 
-*Ele vale igual em toda Origem: o que muda de uma para a outra é só a lista de perícias. **A Origem não dá ofício** — quem dá é o Caminho, e os dois dele se trocam por mais uma perícia.*
+*Ele vale igual em toda Origem, e os dois ofícios também: são livres, do quadro do capítulo 3, e os dois se trocam por mais uma perícia livre. **O Caminho não dá ofício** — quem dá é a sua Origem. O que muda de uma Origem para a outra é a lista de perícias e a razão pela qual você aprendeu o que aprendeu.*
 
 #### Destrancas
 
@@ -2102,11 +2107,13 @@ Escolha uma: Hierarquia · História · Ocultismo · Persuasão
 
 Mais uma perícia livre, que a sua história justifique.
 
+Os dois ofícios o clã te fez aprender: um nome não se carrega sem ofício. Os dois se trocam por mais uma perícia livre.
+
 #### Teste de Resistência
 
 **Um Teste de Resistência treinado, à sua escolha entre os quatro** — o outro vem do seu Caminho.
 
-*Ele vale igual em toda Origem: o que muda de uma para a outra é só a lista de perícias. **A Origem não dá ofício** — quem dá é o Caminho, e os dois dele se trocam por mais uma perícia.*
+*Ele vale igual em toda Origem, e os dois ofícios também: são livres, do quadro do capítulo 3, e os dois se trocam por mais uma perícia livre. **O Caminho não dá ofício** — quem dá é a sua Origem. O que muda de uma Origem para a outra é a lista de perícias e a razão pela qual você aprendeu o que aprendeu.*
 
 #### Destrancas
 
@@ -2176,11 +2183,13 @@ Escolha uma: História · Ocultismo · Investigação · Intimidação
 
 Mais uma perícia livre, que a sua história justifique.
 
+Os dois ofícios a outra pessoa sabia, e as mãos deste corpo lembram. Os dois se trocam por mais uma perícia livre.
+
 #### Teste de Resistência
 
 **Um Teste de Resistência treinado, à sua escolha entre os quatro** — o outro vem do seu Caminho.
 
-*Ele vale igual em toda Origem: o que muda de uma para a outra é só a lista de perícias. **A Origem não dá ofício** — quem dá é o Caminho, e os dois dele se trocam por mais uma perícia.*
+*Ele vale igual em toda Origem, e os dois ofícios também: são livres, do quadro do capítulo 3, e os dois se trocam por mais uma perícia livre. **O Caminho não dá ofício** — quem dá é a sua Origem. O que muda de uma Origem para a outra é a lista de perícias e a razão pela qual você aprendeu o que aprendeu.*
 
 #### Destrancas
 
@@ -2246,11 +2255,13 @@ Escolha uma: Ocultismo · Medicina · Sentir Energia · Natureza
 
 Mais uma perícia livre, que a sua história justifique.
 
+Os dois ofícios estavam no projeto de quem te fez, e não na sua escolha. Os dois se trocam por mais uma perícia livre.
+
 #### Teste de Resistência
 
 **Um Teste de Resistência treinado, à sua escolha entre os quatro** — o outro vem do seu Caminho.
 
-*Ele vale igual em toda Origem: o que muda de uma para a outra é só a lista de perícias. **A Origem não dá ofício** — quem dá é o Caminho, e os dois dele se trocam por mais uma perícia.*
+*Ele vale igual em toda Origem, e os dois ofícios também: são livres, do quadro do capítulo 3, e os dois se trocam por mais uma perícia livre. **O Caminho não dá ofício** — quem dá é a sua Origem. O que muda de uma Origem para a outra é a lista de perícias e a razão pela qual você aprendeu o que aprendeu.*
 
 #### Destrancas
 
@@ -2354,11 +2365,13 @@ Escolha uma: Atletismo · Percepção · Ocultismo · Intimidação
 
 Mais uma perícia livre, que a sua história justifique.
 
+Os dois ofícios quem te fez pôs em você, junto com o resto. Os dois se trocam por mais uma perícia livre.
+
 #### Teste de Resistência
 
 **Um Teste de Resistência treinado, à sua escolha entre os quatro** — o outro vem do seu Caminho.
 
-*Ele vale igual em toda Origem: o que muda de uma para a outra é só a lista de perícias. **A Origem não dá ofício** — quem dá é o Caminho, e os dois dele se trocam por mais uma perícia.*
+*Ele vale igual em toda Origem, e os dois ofícios também: são livres, do quadro do capítulo 3, e os dois se trocam por mais uma perícia livre. **O Caminho não dá ofício** — quem dá é a sua Origem. O que muda de uma Origem para a outra é a lista de perícias e a razão pela qual você aprendeu o que aprendeu.*
 
 #### Destrancas
 
@@ -2475,11 +2488,13 @@ Quem é do ramo sem energia não pode ter `Sentir Energia` de nenhuma forma.
 
 Mais uma perícia livre, que a sua história justifique.
 
+Os dois ofícios você teve de aprender: sem energia, sobrou a mão. Os dois se trocam por mais uma perícia livre.
+
 #### Teste de Resistência
 
 **Um Teste de Resistência treinado, à sua escolha entre os quatro** — o outro vem do seu Caminho.
 
-*Ele vale igual em toda Origem: o que muda de uma para a outra é só a lista de perícias. **A Origem não dá ofício** — quem dá é o Caminho, e os dois dele se trocam por mais uma perícia.*
+*Ele vale igual em toda Origem, e os dois ofícios também: são livres, do quadro do capítulo 3, e os dois se trocam por mais uma perícia livre. **O Caminho não dá ofício** — quem dá é a sua Origem. O que muda de uma Origem para a outra é a lista de perícias e a razão pela qual você aprendeu o que aprendeu.*
 
 #### Destrancas
 
@@ -6732,4 +6747,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: 926ed4017043315dad062df320fb3f492f598856 -->
+<!-- fonte: 97c594a2755aa99339d12da4c656f71e93ec1900 -->

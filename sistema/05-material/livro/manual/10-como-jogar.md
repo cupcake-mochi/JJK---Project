@@ -14,12 +14,12 @@ A **CD** é o número que a tarefa pede. Quem diz qual é o mestre, e ele tira d
 | CD | dificuldade | como isso aparece na cena |
 |---|---|---|
 | 10 | rotina | pular o muro do colégio, lembrar de que família é aquele brasão |
-| 14 | fácil | passar por dois vigias distraídos, convencer um funcionário cansado |
-| 18 | média | escalar a fachada de um prédio na chuva, mentir para quem já desconfia |
-| 22 | difícil | reconhecer uma técnica que só aparece em três registros |
+| 12 | fácil | passar por dois vigias distraídos, convencer um funcionário cansado |
+| 16 | média | escalar a fachada de um prédio na chuva, mentir para quem já desconfia |
+| 20 | difícil | reconhecer uma técnica que só aparece em três registros |
 | 26 | quase impossível | sair inteiro de uma coisa que não devia deixar ninguém sair |
 
-Por exemplo, numa CD 14 você precisa tirar 14 ou mais no d20 depois de somar o bônus: com bônus 3, um 11 no dado já basta.
+Por exemplo, numa CD 12 você precisa tirar 12 ou mais no d20 depois de somar o bônus: com bônus 3, um 9 no dado já basta.
 
 O bônus muda conforme o tipo de rolagem.
 
@@ -28,9 +28,9 @@ O bônus muda conforme o tipo de rolagem.
 > **Perícia = d20 + atributo + maestria, se você for treinado.**
 > **Sem treino, é d20 + atributo.**
 
-Cada perícia tem um atributo fixo, e o quadro completo (vinte e três perícias e onze ofícios) está no capítulo 3, *Perícias e Ofícios*. Você é **treinado** naquilo que a sua Origem e o seu Caminho te deram na criação: o Caminho dá duas perícias fixas, mais quatro à sua escolha e dois ofícios livres, e a Origem dá mais duas perícias. Oito perícias de vinte e três. O resto você ainda pode tentar; só tenta sem a maestria.
+Cada perícia tem um atributo fixo, e o quadro completo (vinte e três perícias e onze ofícios) está no capítulo 3, *Perícias e Ofícios*. Você é **treinado** naquilo que a sua Origem e o seu Caminho te deram na criação: o Caminho dá duas perícias fixas e mais cinco à sua escolha, e a Origem dá mais duas perícias e dois ofícios livres. Nove perícias de vinte e três. O resto você ainda pode tentar; só tenta sem a maestria.
 
-> **Exemplo.** Rin precisa passar por um corredor com dois vigias. Dá para contornar por fora (Furtividade, CD 14) ou subir pela lateral do prédio (Atletismo, CD 18). Ela é treinada em Furtividade e não em Atletismo, e escolhe contornar. Destreza 3, maestria 1: rola 11 no d20, soma 4, dá 15. Passou.
+> **Exemplo.** Rin precisa passar por um corredor com dois vigias. Dá para contornar por fora (Furtividade, CD 12) ou subir pela lateral do prédio (Atletismo, CD 16). Ela é treinada em Furtividade e não em Atletismo, e escolhe contornar. Destreza 3, maestria 1: rola 9 no d20, soma 4, dá 13. Passou.
 
 ### Vantagem e desvantagem
 

@@ -210,7 +210,7 @@ Ofício o Caminho deixa escolher livremente. Os dois que ele dá são livres, e 
 
 Uma perícia da lista de quatro da sua Origem, e uma perícia livre que a sua história justifique, com aprovação do mestre. Foi filho de médico, tem `Medicina`. Batia carteira antes de saber o que era energia amaldiçoada, tem `Prestidigitação`.
 
-**A Origem não dá ofício.** Quem dá é o Caminho, e os dois dele se trocam por mais uma perícia.
+**O Caminho não dá ofício.** Quem dá é a Origem — dois, à sua escolha —, e os dois dela se trocam por mais uma perícia livre. *Ofício é uma prática que alguém te ensinou, e quem te ensinou é o seu passado.*
 
 **Rotas do ofício**
 {: .tab-titulo }
@@ -220,7 +220,7 @@ Uma perícia da lista de quatro da sua Origem, e uma perícia livre que a sua hi
 | ficar com os dois ofícios | 9 | 2 |
 | trocar os dois por perícia | 10 | 0 |
 
-> **Exemplo.** O Kaito é Guia. Ele já entra com as fixas `Persuasão` e `Medicina`. Das cinco livres do Caminho ele gasta duas em treino de arma — o `Guia` não treina arma de verdade, e ele quis a Naginata —, e nas três que sobram pega `Sentir Energia`, `Ocultismo` e `Percepção`. Nos dois ofícios livres pega `Herbalismo` e `Caligrafia`. A Origem dele dá mais duas perícias, e ele fecha com 7 perícias, 2 ofícios e uma arma: ele lê talismã, alcança com a haste, e não arromba uma porta.
+> **Exemplo.** O Kaito é Guia. Ele já entra com as fixas `Persuasão` e `Medicina`. Das cinco livres do Caminho ele gasta duas em treino de arma — o `Guia` não treina arma de verdade, e ele quis a Naginata —, e nas três que sobram pega `Sentir Energia`, `Ocultismo` e `Percepção`. A Origem dele dá mais duas perícias e os dois ofícios, e nesses ele pega `Herbalismo` e `Caligrafia`. Ele fecha com 7 perícias, 2 ofícios e uma arma: ele lê talismã, alcança com a haste, e não arromba uma porta.
 
 ### Testes de Resistência
 

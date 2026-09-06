@@ -594,7 +594,7 @@ else:
 # o TR daquela Origem tinham faltado. Sao SETE copias do mesmo paragrafo agora, e
 # copia sem comparacao diverge (licao no 9).
 print('\n' + '=' * 88)
-print('12. O TR NA ORIGEM — as sete copias, e nenhuma promete oficio')
+print('12. O OFICIO E O TR NA ORIGEM — as sete copias, e todas prometem os dois')
 print('=' * 88)
 if not os.path.isfile(_CAP):
     erro('ORIGEM-EXTRA', 'nao achei o capitulo de Origens do livro')
@@ -630,18 +630,39 @@ else:
                 ('o outro TR vem do Caminho', r'o outro vem do Caminho', r'Caminho'),
             ]
             _texto = next(iter(_uniq))
-            # v0.211: a Origem parou de dar oficio. A negacao e' cobrada nos DOIS
-            # documentos, e nos dois sentidos: a tabela do topo nao pode voltar a
-            # oferecer, e o bloco tem de dizer com todas as letras que nao ha —
-            # senao o leitor conclui de novo que o oficio daquela Origem faltou.
-            if re.search(r'ofício livre', _tab):
-                erro('ORIGEM-EXTRA', 'a tabela `Caracteristicas da Origem` voltou a '
-                                     'oferecer oficio, e desde a v0.211 quem da oficio '
-                                     'e o Caminho')
-            if not re.search(r'A Origem não dá ofício', _texto):
-                erro('ORIGEM-EXTRA', 'o bloco das sete Origens parou de declarar que a '
-                                     'Origem nao da oficio — foi essa falta que a mesa '
-                                     'perguntou, e a ausencia da linha nao se le')
+            # O oficio trocou de dono duas vezes. A v0.206 tirou ele da Origem
+            # e deixou no Caminho; agora ele voltou para a Origem, porque
+            # oficio e' uma pratica que alguem te ensinou e quem te ensinou e' o
+            # seu passado. A guarda continua de DOIS sentidos, so trocou de
+            # lado: a tabela do topo tem de OFERECER, e o bloco tem de dizer com
+            # todas as letras quem NAO da — senao o leitor conclui que o oficio
+            # daquela Origem faltou, que foi a pergunta que a mesa fez na v0.209.
+            if not re.search(r'\*\*Dois ofícios\*\*', _tab):
+                erro('ORIGEM-EXTRA', 'a tabela `Caracteristicas da Origem` parou de '
+                                     'oferecer os dois oficios, e quem da oficio e a '
+                                     'Origem')
+            if not re.search(r'O Caminho não dá ofício', _texto):
+                erro('ORIGEM-EXTRA', 'o bloco das sete Origens parou de declarar que o '
+                                     'CAMINHO nao da oficio — sem a linha o leitor '
+                                     'procura o oficio no Caminho e conclui que o da '
+                                     'Origem esta sobrando')
+            if re.search(r'A Origem não dá ofício', _texto):
+                erro('ORIGEM-EXTRA', 'o bloco das sete Origens ainda diz que a Origem '
+                                     'nao da oficio, e ela da: a frase ficou da v0.206')
+
+            # e a peca 7, que e a dona do quadro, tem de concordar com os dois
+            _P7L = os.path.join(AQUI, '07-pericias-e-oficios.md')
+            if os.path.isfile(_P7L):
+                _p7 = open(_P7L, encoding='utf-8').read()
+                if not re.search(r'O Caminho não dá ofício, e quem dá é a Origem', _p7):
+                    erro('ORIGEM-EXTRA', 'a peca 7 §6 nao declara que quem da oficio e a '
+                                         'Origem, e o capitulo do livro esta dizendo que '
+                                         'da — as duas nao podem discordar disso')
+                if re.search(r'Mais dois ofícios à sua escolha, e os dois se trocam.*\n> \*\*Nos três Caminhos', _p7):
+                    erro('ORIGEM-EXTRA', 'a peca 7 §6 ainda entrega os dois oficios no '
+                                         'bloco do Caminho')
+            else:
+                PULADAS.append('12. a peca 7 contra o capitulo 7 (arquivo nao achado)')
             _erra = [rot for rot, na_tab, no_bloco in _quer
                      if not (re.search(na_tab, _tab) and re.search(no_bloco, _texto))]
             if not _tab:

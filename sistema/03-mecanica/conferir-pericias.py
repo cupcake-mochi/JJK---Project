@@ -440,7 +440,14 @@ else:
     print('  PULADA — nenhum nome foi batido contra o manual.')
 
 # --------------------------------------------------------------------------
-bloco('8. A ESCADA DE DIFICULDADE — o que o treino compra')
+bloco('8. A ESCADA DE DIFICULDADE — a peca 4 §2 e a dona, e as copias batem')
+
+# Esta secao tinha os cinco degraus escritos aqui dentro e so IMPRIMIA uma
+# tabela: nao conferia nada. A escada esta republicada em QUATRO lugares -- a
+# peca 4, a peca 1, a peca 11 e o capitulo 10 do livro -- e o numero dentro do
+# validador era a quinta copia, sem ninguem comparando. Licao no 9, na variante
+# que este projeto ja pagou tres vezes: checagem que se mede contra a propria
+# constante sai verde quando se perturba a constante.
 
 
 def maestria(nv):
@@ -451,20 +458,128 @@ def investido(nv):
     return min(6, 3 + (nv - 2) // 8)
 
 
-NIVEIS = [2, 10, 18, 30]
-ESCADA = [(10, 'rotina'), (14, 'facil'), (18, 'media'), (22, 'dificil'), (26, 'quase impossivel')]
+def chance(cd, nv, treinado=True):
+    """o modelo do projeto: d20 + atributo investido + maestria, se treinado"""
+    alvo = cd - (investido(nv) + (maestria(nv) if treinado else 0))
+    return max(0, min(100, (21 - alvo) * 5))
 
-print(f"  {'dificuldade':<26}" + ''.join(f'nv{nv:<6}' for nv in NIVEIS) + '   sem treino no nv30')
-for cd, rot in ESCADA:
-    linha = f'  {"CD " + str(cd) + " (" + rot + ")":<26}'
-    for nv in NIVEIS:
-        alvo = cd - (investido(nv) + maestria(nv))
-        linha += f'{max(0, min(100, (21 - alvo) * 5)):>4}%   '
-    alvo_sem = cd - investido(30)
-    linha += f'{max(0, min(100, (21 - alvo_sem) * 5)):>10}%'
-    print(linha)
-print('\n  Personagem treinado que investiu no atributo. A ultima coluna mostra o mesmo')
-print('  personagem sem treino no nivel 30: a maestria e a diferenca, e ela vale 20 pp.')
+
+def _tabela(texto, titulo):
+    """as linhas de tabela que vem DEPOIS de um titulo, ate a tabela acabar"""
+    i = texto.find(titulo)
+    if i < 0:
+        return []
+    linhas, comecou = [], False
+    for lin in texto[i:].split('\n')[1:]:
+        t = lin.strip()
+        if t.startswith('|'):
+            comecou = True
+            if set(t) <= set('|-: '):          # a linha de tracos
+                continue
+            linhas.append([c.strip() for c in t.strip('|').split('|')])
+            continue
+        if comecou:                            # a tabela acabou
+            break
+    return linhas
+
+
+_AQUI = os.path.dirname(os.path.abspath(__file__))
+_P4 = open(os.path.join(_AQUI, '04-pericias-e-testes.md'), encoding='utf-8').read()
+
+# A escada sai da dona. O cabecalho dela diz QUAIS niveis ela publica, entao
+# uma coluna nova na peca entra aqui sozinha.
+_linhas = _tabela(_P4, '## 2. A escada de dificuldade')
+_cab = _linhas[0] if _linhas else []
+NIVEIS = [int(m.group(1)) for c in _cab
+          for m in [re.search(r'n[ií]vel\s+(\d+)', c)] if m]
+ESCADA = [(int(cs[0]), cs[1], [c.rstrip('%').strip() for c in cs[2:]])
+          for cs in _linhas[1:] if cs and cs[0].isdigit()]
+
+if not ESCADA or not NIVEIS:
+    erro('nao consegui ler a escada da peca 4 §2 — o formato da tabela mudou, e '
+         'formato que nao casa faz esta secao virar decoracao')
+else:
+    print(f'  a peca 4 publica {len(ESCADA)} degraus, nos niveis {NIVEIS}')
+    print(f"  {'dificuldade':<26}" + ''.join(f'nv{nv:<6}' for nv in NIVEIS)
+          + f'   sem treino no nv{NIVEIS[-1]}')
+    for cd, rot, _ in ESCADA:
+        linha = f'  {"CD " + str(cd) + " (" + rot + ")":<26}'
+        for nv in NIVEIS:
+            linha += f'{chance(cd, nv):>4}%   '
+        print(linha + f'{chance(cd, NIVEIS[-1], treinado=False):>10}%')
+
+    # 8.1 cada porcentagem publicada e a que o modelo da
+    _erradas = [f'CD {cd} no nv{nv}: a peca diz {pub}%, o modelo da {chance(cd, nv)}%'
+                for cd, _, pcts in ESCADA
+                for nv, pub in zip(NIVEIS, pcts)
+                if not pub.isdigit() or int(pub) != chance(cd, nv)]
+    for e in _erradas:
+        erro(e)
+    if not _erradas:
+        print(f'  [x] as {len(ESCADA) * len(NIVEIS)} porcentagens publicadas batem '
+              f'com d20 + atributo investido + maestria')
+
+    # 8.2 as duas propriedades que a peca declara de proposito. Elas nao estao
+    # escritas como numero aqui: saem da escada lida, e o que se confere e que
+    # a prosa que as justifica continua na peca.
+    _baixa, _alta = ESCADA[0][0], ESCADA[-1][0]
+    _cedo = [nv for nv in NIVEIS[:-1] if chance(_baixa, nv) == 100]
+    if chance(_baixa, NIVEIS[-1]) != 100:
+        erro(f'o degrau mais baixo (CD {_baixa}) nao chega a 100% no nv{NIVEIS[-1]}, '
+             f'e a peca promete que ele vira automatico no fim da campanha')
+    elif _cedo:
+        erro(f'o degrau mais baixo (CD {_baixa}) ja e 100% no nv{_cedo[0]}: a peca '
+             f'diz que isso e para acontecer no FIM da campanha, nao antes')
+    else:
+        print(f'  [x] CD {_baixa} vira automatica so no nv{NIVEIS[-1]}, como a peca promete')
+
+    if chance(_alta, NIVEIS[0]) != 0:
+        erro(f'o degrau mais alto (CD {_alta}) da {chance(_alta, NIVEIS[0])}% no '
+             f'nv{NIVEIS[0]}, e a peca reserva ele para o que "deveria ser impossivel"')
+    elif chance(_alta, NIVEIS[-1]) > 50:
+        erro(f'o degrau mais alto (CD {_alta}) chega a {chance(_alta, NIVEIS[-1])}% '
+             f'no nv{NIVEIS[-1]}, e a peca diz que ele "nunca vira confortavel"')
+    else:
+        print(f'  [x] CD {_alta} e impossivel no nv{NIVEIS[0]} e ainda incomoda no '
+              f'nv{NIVEIS[-1]} ({chance(_alta, NIVEIS[-1])}%)')
+
+    for _frase in ('vira automático no fim da campanha', 'nunca vira confortável'):
+        if _frase not in _P4:
+            erro(f'a peca 4 perdeu a frase que justifica a ponta: "{_frase}"')
+
+    # 8.3 as copias. Elas republicam a escada e nenhuma era conferida.
+    _DONA = {cd: norma(rot) for cd, rot, _ in ESCADA}
+    _SIST = os.path.dirname(_AQUI)          # .../sistema
+    _COPIAS = [
+        ('peca 1 §Pericias', os.path.join(_AQUI, '01-atributos-acerto-defesa.md'),
+         r'\|\s*CD (\d+) \(([^)]+)\)\s*\|'),
+        ('peca 11 §Esteio', os.path.join(_AQUI, '11-aptidoes-e-refino.md'),
+         r'\|\s*CD (\d+) — ([^|]+?)\s*\|'),
+        ('capitulo 10 do livro',
+         os.path.join(_SIST, '05-material', 'livro', 'manual', '10-como-jogar.md'),
+         r'^\|\s*(\d+)\s*\|\s*([^|]+?)\s*\|'),
+    ]
+    for _nome, _cam, _pad in _COPIAS:
+        if not os.path.exists(_cam):
+            PULADAS.append(f'8.3 a copia da escada em {_nome} (arquivo nao existe)')
+            print(f'  PULADA — {_nome} nao existe em {_cam}')
+            continue
+        _txt = open(_cam, encoding='utf-8').read()
+        _achado = {}
+        for _m2 in re.finditer(_pad, _txt, re.M):
+            _cd, _rot = int(_m2.group(1)), norma(_m2.group(2))
+            if _rot in _DONA.values():
+                _achado[_cd] = _rot
+        if not _achado:
+            erro(f'{_nome}: nao achei a escada republicada — o formato mudou, e um '
+                 f'formato que nao casa faz esta checagem virar decoracao')
+        elif not set(_achado.items()) <= set(_DONA.items()):
+            _fora = {k: v for k, v in _achado.items() if _DONA.get(k) != v}
+            erro(f'{_nome} discorda da peca 4: a copia publica {_fora}, e a dona '
+                 f'tem {_DONA}')
+        else:
+            _quantos = len(_achado)
+            print(f'  [x] {_nome} republica {_quantos} degrau(s), todos iguais a peca 4')
 
 # --------------------------------------------------------------------------
 print('\n' + '=' * 88)
