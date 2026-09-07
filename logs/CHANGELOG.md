@@ -8,6 +8,89 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.217] — 07/09/2026
+
+**A régua da morte voltou a ser a vida do corpo, e o conserto que ela obrigou não estava na pergunta.** *A leva começou para trocar uma regra e terminou remedindo a tabela que a conferia, que era de sessenta versões atrás.*
+
+### 1 · A régua da morte é a vida máxima daquele corpo
+
+> **A régua da morte é a vida máxima daquele corpo.**
+> **Morre de vez se um único golpe causar a régua inteira, ou se o excedente passar de metade da régua.**
+> **Área não é golpe único: ela derruba, e nunca destrói.**
+
+***Motivo do Mizuki, e ele ficou escrito junto porque a régua sem ele já foi lida ao contrário uma vez:*** *a régua mede um golpe único, então um golpe que apaga um corpo de vida cheia destruiu esse corpo. Régua maior que a vida criava golpe que mata o corpo inteiro e ainda conta como "só caiu".*
+
+**Ela já tinha sido isso até a v0.178**, virou escala fixa de `5 ×` a fórmula crua naquela versão, e volta agora. *As duas viradas têm motivo escrito no §3.5 da peça 15 — a de ida consertava o `Coro`, e a de volta devolve à régua um número que existe na ficha de alguém.*
+
+### 2 · A tabela que conferia a régua não tinha dono, e media estimativa
+
+**O §3.5 publicava cinco linhas de golpe desde a v0.58, e o §12 do `conferir-invocacoes.py` derivava delas a janela em que a régua tinha de cair.** *Remedida contra o bestiário da peça 26:*
+
+- **ela punha um `0,50 R` único** onde o golpe real vai de `0,31` a `1,42 R`, conforme categoria, nível e rolagem
+- **`área grande` (`1,88 R`) e `Expansão de Domínio` (`3,00 R`) não saíam de documento nenhum** — cada uma aparecia uma vez, dentro da própria tabela
+- **e a peça 26 §6.4 desmente a segunda:** *a Expansão **não acrescenta dano**, ela garante o acerto, o que vale `1,92 ×` de saída efetiva e vira degrau de categoria*
+
+**Eram as duas únicas linhas marcadas "mata", então o teto da janela saía inteiro de dois números escritos à mão.** *A coluna de dano agora tem dono: ela se confere contra a peça 26 e contra a própria expressão de dado — `NdX + F` tem máximo `N × X + F`.*
+
+> **⚠ E a medida certa é a da ROLAGEM, não a do alvo.** *O gatilho fala em **um golpe**, e um golpe é uma rolagem. A peça 26 §4.4 põe metade do alvo em dado, e o máximo de uma rolagem fica de `1,20 ×` a `1,45 ×` acima do alvo nas vinte e sete células que rolam dado.* **Medir pela média esconde exatamente a cauda que decide morte em definitivo** — e foi assim que a primeira leitura desta leva saiu com o sinal trocado.
+
+### 3 · O corpo do `Coro` sobe para `2 ×`, e a pergunta estava no lugar errado
+
+**A pergunta em aberto era se a Constituição `0` precisava de trava.** *A medida diz que não era isso.*
+
+| a montagem que o §3.7 publica | corpo | destruída por golpe comum |
+|---|---|---|
+| `Servo`, Con `3` | forte | **`0,0%`** |
+| `Matilha`, Con `1` | forte | **`0,0%`** |
+| **`Coro`, Con `1`** | cru (`h`) | **`63%` a `96%`** |
+
+**Não era caso de canto de Constituição `0`: era a montagem que a peça manda fazer.**
+
+**A causa é de escala e cabe numa linha.** *Todo corpo do sistema aguenta de `2,5` a `3,4` golpes de inimigo — o personagem da peça 26 §4.6 aguenta `3,3`, o corpo forte `2,5` a `3,7`. O corpo do `Coro` com `h` aguentava **`1,3`**.* **Ele era o único corpo do jogo dimensionado abaixo de um golpe e meio**, porque o `h` foi calibrado em **meia Rotina**, que é a escala do dano do **jogador** — e quem bate nele é o inimigo. *As duas escalas nunca foram a mesma, e a régua velha escondia isso por ser `5 ×` maior que o corpo.*
+
+> **`vida do corpo do Coro = 2 × (base do tipo + 2 × nível) + Constituição × nível`**
+
+**O conserto é o da v0.63 aplicado à Trilha que ficou de fora dele: sobe o corpo em vez de mexer na régua.** *Lá o `Servo` foi de `h` para `2,5 ×` pelo mesmo argumento.* **Com `2 ×` o `Coro` aguenta `1,7` a `2,9`, entra na escada e continua abaixo do corpo forte** — e a matriz de dominância segue em `0` pares.
+
+### 4 · A `Dívida` deixa de dobrar, porque dobrar zero é zero
+
+**A Restrição dizia *"o próximo feitiço que você conjurar nesta cena custa o dobro de energia"*.** *O dobro de um feitiço de Classe 0 é **zero** — e o manual, três linhas acima da tabela de custo, chama Classe 0 de "o golpe de todo turno em que o PE precisa ser poupado".*
+
+> **A Restrição se esquivava fazendo exatamente o que o manual manda fazer para poupar PE.** Ela era ou grátis, ou pesada. Não tinha meio.
+
+> **`Dívida` · `Média` · Depois de usar, o próximo feitiço que você conjurar nesta cena custa `2 ×` a Classe deste feitiço de energia a mais, mesmo que ele seja de Classe 0.**
+
+**O tamanho velho estava calibrado, e é por isso que o novo é menor.** *Um feitiço custa `3 × Classe`, então "o dobro" era `+3 × Classe` — e com isso a `Dívida` caía exatamente em cima da `Sangra`, a outra `Média` que cobra recurso, nas sete Classes: `2/4 = 3/6`, meia Classe de barra por nível nas duas.* **Fechar o buraco do Classe 0 SOBE o custo real**, então o número desce junto: *com metade dos turnos desviando, o efetivo de hoje era `1,5 × Classe`, e `+2 × Classe` fica `1,33 ×` disso.*
+
+**E a `Dívida` saiu da lista das sete Restrições sem trava.** *A checagem 5 do `conferir-acao.py` **abre o `.docx`** — o manual é o dono do texto e o `40-fundamento.md` é cópia — e confere que os dois publicam o mesmo multiplicador, que nenhum voltou a dizer "o dobro de energia", e que os dois seguem dizendo que ela vale num Classe 0.* **São `12 das 18` agora.**
+
+### 5 · O `Ferrolho` troca gatilho por escolha de slot
+
+**A entrega velha era *"a arma só força recarga no `1` natural, e não no `1` ou `2`"*, e ela quase não existia.** *A recarga tem dois gatilhos — o dado e o teto de `X` tiros — e ela só mexia no dado. Numa arma de `X = 2` o dado causa `10%` das recargas e o teto causa `90%`.* **Numa luta de `3,7` rodadas ela poupava `0,05` a `0,08` recarga: uma a cada doze a vinte brigas.**
+
+> **`Ferrolho`.** Você pode recarregar gastando a sua **Ação de Movimento**, em vez da Ação Bônus. Quem escolhe é você, na hora.
+
+**A redação precisou declarar uma exceção, e isso não é enfeite.** *O capítulo `O turno` escreve que a conversão vai "sempre da maior para a menor, nunca o contrário": Padrão → Bônus → Movimento.* **Pagar com a Ação de Movimento uma coisa que custa Ação Bônus é a conversão proibida** — sem dizer isso na própria entrada, o mestre lê contradição entre dois capítulos.
+
+> **⚠ E as fatias da rota caíram, o que precisa de olho.** *O `conferir-catalogo.py` recusou `a remedir` na coluna, com a mensagem certa: entrega sem preço não entra no total da Trilha e nada mais acusa isso.* **A entrada foi para `0,00` e a `Arma de Fogo` caiu de `4,74` para `4,20` de `5,00` — abaixo da `Besta`, que está em `4,52`.** *O `0,00` não é chute: a escolha de slot não tira nenhuma recarga, só muda de qual espaço do turno você paga, e a peça 3 mede a Ação Bônus como "o slot mais vazio do turno".* **Ela vale no dia em que o Bônus encher, e a peça 14 §5 já nomeia o dia.**
+
+### Decidido
+
+- **A régua da morte é a vida máxima do corpo**, e área nunca destrói.
+- **O corpo do `Coro` é `2 ×` a fórmula do tipo**, e não mais a fórmula crua.
+- **A `Dívida` cobra `+2 ×` a Classe do próprio feitiço**, e vale num Classe 0.
+- **O `Ferrolho` dá escolha de slot** e para de mexer no gatilho de dado.
+- **O `X + 1` do `Ferrolho` ficou guardado**, a pedido do Mizuki, e está escrito com a medida no `DESENHO-trilhas.md`. *O que segura ela é que o `X` é da peça 14: aquela peça calibrou a faixa `2 · 3 · 4` contra "nenhuma arma atravessa a briga sem recarregar" e já mediu que o `X = 4` fura o critério em `22%` dos combates.*
+
+### Achado e não consertado
+
+- **A `Sobrecarga` diverge entre o manual e o livro:** *`Leve` no `partD.js` e no `.docx`, `Pesada` no `40-fundamento.md`.* **É a lição nº 9 num preço, e ela existe desde antes desta leva** — provado no `git show`. *Qual das duas vale é decisão de regra, não de conserto.*
+- **O `→ Continua em` não tem validador.** *A v0.110 decidiu que toda entrada fecha com ele; `107` das `216` entradas têm.*
+
+→ Continua em `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
+
+---
+
 ## [0.216] — 05/09/2026
 
 **A escada de dificuldade mudou de números, e o ofício mudou de dono.** *As duas saíram de incômodo de mesa e nenhuma das duas mexe na conta do total.*

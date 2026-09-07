@@ -194,7 +194,7 @@ const restricoes = [
       ['Barulho', 'Leve', 'Todo mundo num raio de 90 m ouve, e sabe de onde veio.'],
       ['Assinatura', 'Leve', 'O feitiço deixa uma marca visível que dura 1 hora e aponta pra você.'],
       ['Aquecer', 'Leve', 'Não pode ser usado na primeira rodada do combate.'],
-      ['Dívida', 'Média', 'Depois de usar, o próximo feitiço que você conjurar nesta cena custa o dobro de energia.'],
+      ['Dívida', 'Média', 'Depois de usar, o próximo feitiço que você conjurar nesta cena custa 2 × a Classe deste feitiço de energia a mais, mesmo que ele seja de Classe 0.'],
       ['Peso Morto', 'Leve', 'Seu deslocamento cai pela metade até o fim do próximo turno.'],
       ['Sem Volta', 'Média', 'Se o feitiço não acertar ninguém, você não conjura nada no seu próximo turno.'],
     ],

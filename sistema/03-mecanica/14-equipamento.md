@@ -1760,7 +1760,8 @@ A peça 11 escolheu o `1,5 ×` com critério escrito: *"o saldo **encolhe** em v
 ## 9. O que já foi conferido, e como
 
 - **Regressão da régua das Restrições contra o manual:** 18 feitiços com Classe deduzida, **zero divergências**. `Leve = teto(Classe/2)`, `Média = Classe`.
-- **Achado de caminho:** o `conferir-acao.py` **não abre o `.docx`** — a faixa de cada Restrição está escrita à mão dentro dele, e ele cobre **11 das 18** do manual. Ficam sem conferência: `Aquecer`, `Assinatura`, `Barulho`, `Condicional`, `Dívida`, `Fraqueza`, `Uma Vez`. Hoje não há erro; o que não há é trava. É a lição nº 9, e o conserto é uma checagem no validador dono.
+- **Achado de caminho:** o `conferir-acao.py` tinha a faixa de cada Restrição escrita à mão dentro dele e cobria **11 das 18** do manual. Ficavam sem conferência: `Aquecer`, `Assinatura`, `Barulho`, `Condicional`, `Dívida`, `Fraqueza`, `Uma Vez`. *Não havia erro; o que não havia era trava. É a lição nº 9.*
+  - **A `Dívida` saiu da lista e são `12 das 18`.** *Ela entrou quando a regra mudou, e a checagem 5 daquele validador **abre o `.docx`** — o manual é o dono do texto e o `40-fundamento.md` é cópia. Ela confere que os dois publicam o mesmo multiplicador, que nenhum dos dois voltou a dizer *"o dobro de energia"*, e que os dois seguem dizendo que a Restrição vale mesmo num feitiço de Classe 0.* **Cinco perturbações acendem ela, em cópia isolada.** *Faltam seis.*
 - **A curva de refino do modelo reproduz sozinha o "refino 5, 4 e 3"** que a peça da Expansão usou no nv10 para escolher o gate — regressão contra número já publicado.
 
 ### A passada da v0.40

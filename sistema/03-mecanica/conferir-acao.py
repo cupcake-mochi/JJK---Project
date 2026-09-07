@@ -48,6 +48,12 @@ RESTRICOES = {
     # DECISAO v0.11: quem carrega mantem movimento e acao bonus no turno de carga.
     # Sem isso, Carregar = Atrasar + espera + risco, e fica dominado.
     'Carregar':      ('Media', {'acao_padrao_anterior', 'risco_perder_tudo'}, 'turno anterior'),
+    # A `Divida` era uma das SETE que este validador nao alcancava — a peca 14
+    # registra a lista. Ela entrou quando a regra mudou de "custa o dobro de
+    # energia" para um acrescimo fixo, porque a redacao velha se esquivava: o
+    # dobro de um feitico de Classe 0 e ZERO, e o manual chama Classe 0 de "o
+    # golpe de todo turno em que o PE precisa ser poupado".
+    'Divida':        ('Media', {'pe_do_proximo_feitico'},                    'condicional'),
 }
 
 print('=' * 92)
@@ -206,9 +212,78 @@ else:
 
 print()
 print('=' * 92)
+print('5. A `Divida` — o mesmo numero nas duas publicacoes, e sem o desvio do Classe 0')
+print('=' * 92)
+# ⚠ Este validador NAO abria o .docx, e a peca 14 registra isso como divida:
+# "a faixa de cada Restricao esta escrita a mao dentro dele, e ele cobre 11 das
+# 18". O dono do texto da `Divida` e o manual; o 40-fundamento.md e copia. Sem
+# comparar os dois, a regra que decide gasto de PE podia divergir calada.
+_DOCX = os.path.join(AQUI, '..', '..', 'manual', 'Fundamento-MANUAL-v7.docx')
+_MD = os.path.join(AQUI, '..', '05-material', 'livro', 'manual', '40-fundamento.md')
+try:
+    import docx as _docx
+except ImportError:
+    _docx = None
+
+if _docx is None:
+    print('  PULADA: sem python-docx nao da para ler o manual, que e o DONO do texto.')
+    print('          pip install python-docx --break-system-packages')
+elif not os.path.isfile(_DOCX):
+    erro('nao achei o manual .docx — o dono do texto da `Divida` nao foi conferido')
+else:
+    import re as _re
+    _cel = None
+    for _t in _docx.Document(_DOCX).tables:
+        for _r in _t.rows:
+            if _r.cells[0].text.strip() == 'Dívida':
+                _cel = _r.cells[2].text.strip()
+    if not _cel:
+        erro('a `Divida` sumiu da tabela de Restricoes do manual')
+    else:
+        _mdoc = _re.search(r'custa (\d+) × a Classe deste feitiço', _cel)
+        _dobro = 'o dobro de energia' in _cel
+        if _dobro:
+            erro('o manual voltou a dizer "o dobro de energia" na `Divida` — o dobro de '
+                 'um feitico de Classe 0 e ZERO, e a Restricao se esquiva com o golpe '
+                 'que o proprio manual manda usar para poupar PE')
+        elif not _mdoc:
+            erro(f'nao achei o multiplicador da `Divida` no manual: "{_cel[:70]}"')
+        else:
+            _n = int(_mdoc.group(1))
+            _md = open(_MD, encoding='utf-8').read()
+            # ⚠ a palavra `Dívida` aparece TRES vezes neste capitulo — a linha da
+            # tabela, a lista de Restricoes de frequencia e a trava de combinacao.
+            # Pegar "a primeira ocorrencia" le a lista, nao a regra. Casa a LINHA
+            # inteira da tabela, que e a unica que carrega o multiplicador.
+            _mmd = _re.search(r'^\|\s*`Dívida`\s*\|[^|]*\|([^|]*)\|\s*$', _md, _re.M)
+            _linha_md = _mmd.group(1) if _mmd else ''
+            _mmd = _re.search(r'`(\d+) ×` a Classe deste feitiço', _linha_md) if _mmd else None
+            if not _mmd:
+                erro('o 40-fundamento.md nao publica o multiplicador da `Divida` na mesma '
+                     'forma que o manual — um numero, um dono')
+            elif int(_mmd.group(1)) != _n:
+                erro(f'a `Divida` e {_n}x no manual e {_mmd.group(1)}x no 40-fundamento.md')
+            elif 'Classe 0' not in _cel or 'Classe 0' not in _linha_md:
+                erro('a `Divida` parou de dizer que vale mesmo num feitico de Classe 0 — '
+                     'sem essa frase o desvio de graca volta')
+            else:
+                # a ancora: uma `Media` devolve 1 x Classe, e o cap. 40 escreve que
+                # duas `Media` batem no teto de 2 x Classe. Cobrar MENOS do que
+                # devolve faria a Restricao pagar para ser levada.
+                if _n < 1:
+                    erro(f'a `Divida` cobra {_n}x a Classe e uma `Media` DEVOLVE 1x — '
+                         'ela passaria a dar mais do que tira')
+                else:
+                    print(f'  [x] a `Divida` cobra {_n} x a Classe do proprio feitico, o '
+                          f'manual e o 40-fundamento.md concordam, e os dois dizem que ela '
+                          f'vale mesmo num Classe 0.')
+
+print()
+print('=' * 92)
 if ERROS:
     print(f'>>> {len(ERROS)} PROBLEMA(S):')
     for e in ERROS:
         print('   -', e)
     raise SystemExit(1)
-print('>>> TUDO OK — as 11 Restricoes cabem na regua e nenhuma esta dominada.')
+print(f'>>> TUDO OK — as {len(RESTRICOES)} Restricoes cabem na regua, nenhuma esta '
+      'dominada, e a `Divida` bate nas duas publicacoes.')

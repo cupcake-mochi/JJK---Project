@@ -3922,7 +3922,7 @@ Uma Restrição devolve `Leve` ou `Média`, nunca `Pesada`. Duas `Média` já ba
 | `Barulho` | `Leve` | Todo mundo num raio de 90 m ouve, e sabe de onde veio. |
 | `Assinatura` | `Leve` | O feitiço deixa uma marca visível que dura 1 hora, deixando clara a sua posição para quem sentir energia. |
 | `Aquecer` | `Leve` | Não pode ser usado na primeira rodada do combate. |
-| `Dívida` | `Média` | Depois de usar, o próximo feitiço que você conjurar nesta cena custa o dobro de energia. |
+| `Dívida` | `Média` | Depois de usar, o próximo feitiço que você conjurar nesta cena custa **`2 ×` a Classe deste feitiço** de energia a mais — **mesmo que ele seja de Classe 0**. |
 | `Peso Morto` | `Leve` | Seu deslocamento cai pela metade até o fim do próximo turno, e você recebe `−1` no seu Teste de Resistência Físico. |
 | `Sem Volta` | `Média` | Se o feitiço não acertar ninguém, você não conjura nada no seu próximo turno. |
 
@@ -6751,4 +6751,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: bedd107de88b8f36cf1392aae4cdda5e4c7a63ab -->
+<!-- fonte: 03e6adf4bf6b703cab51437a87258561f192494d -->
