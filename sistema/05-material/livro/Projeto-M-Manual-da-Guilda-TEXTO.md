@@ -2897,7 +2897,8 @@ A besta é ferramenta de quem trabalha sozinho e não tem tempo de recarregar. E
 
 Pólvora, ruído e uma profissão que finge não usar isso. É a rota que funciona no aperto: corredor estreito, sala pequena, inimigo colado em você. Quem escolhe `Arma de Fogo` aceita chamar atenção de todo mundo num raio de quarteirão, e o resto do time precisa contar com isso no plano.
 
-> **Nível 2: `Ferrolho`.** A sua arma de fogo só força recarga no **`1` natural**, e não no `1` ou `2`.
+> **Nível 2: `Ferrolho`.** Você pode recarregar gastando a sua **Ação de Movimento**, em vez da Ação Bônus. Quem escolhe é você, na hora — e recarregar assim custa o deslocamento inteiro daquele turno.
+> **É exceção à regra de conversão do capítulo *O turno*, e por isso está escrita:** lá o turno só converte da maior para a menor, e esta é a única troca que sobe.
 > **E você deixa de sofrer desvantagem por estar colado** contra um inimigo.
 >
 > **Nível 11: `Mirar`.** Você ganha a ação **`Mirar`**, e os seus ataques com arma de longo alcance somam **`+2` no acerto**.
@@ -6750,4 +6751,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: 0a7f6194dcace22ac81e9a753abfde551ebe6bc1 -->
+<!-- fonte: bedd107de88b8f36cf1392aae4cdda5e4c7a63ab -->

@@ -272,19 +272,41 @@ E o **Yuji** com o Punho Divergente é a mesma ideia num golpe só: o soco acert
 > **Nível 19 — `Repuxo`.** Ao disparar, **uma vez por rodada**, o alvo faz um Teste de Resistência de Vigor; numa falha, é empurrado **`1,5 m × maestria`** na direção oposta. E você **deixa de sofrer desvantagem por estar colado**.
 > **Nível 27 — `Dobro`.** O `Mirar` passa a valer para o **ataque básico e o extra**.
 
-## `Arma de Fogo` — 4,74 de 5,00
+## `Arma de Fogo` — 4,20 de 5,00
 
 | nv | nome | a entrega | fatias |
 |---|---|---|---|
-| **2** | **`Ferrolho`** | recarrega só no `1` natural, e nada de desvantagem colado | 0,54 a 0,59 |
+| **2** | **`Ferrolho`** | recarregar pode ser Ação de Movimento, e nada de desvantagem colado | 0,00 |
 | **11** | **`Mirar`** | a ação `Mirar`, e `+2` no acerto | **1,95** |
 | **19** | **`Descarga`** | o disparo de abertura, um alvo por bala | 1,17 a 1,89 |
 | **27** | **`Dobro`** | o `Mirar` vale nos dois ataques | 1,08 |
 
-> **Nível 2 — `Ferrolho`.** A sua arma de fogo só força recarga no **`1` natural**, e não no `1` ou `2`. E você **deixa de sofrer desvantagem por estar colado**.
+> **Nível 2 — `Ferrolho`.** Você pode recarregar gastando a sua **Ação de Movimento** em vez da Ação Bônus, e escolhe na hora. E você **deixa de sofrer desvantagem por estar colado**.
+>
+> **⚠ As `0,54 a 0,59` fatias eram da entrega velha, e ela nunca valeu isso.** *A entrega velha era "a arma só força recarga no `1` natural, e não no `1` ou `2`", e a medida contra o `X` de cada arma (peça 14 §5) diz que ela poupava `0,05` a `0,08` recarga numa luta de `3,7` rodadas — uma a cada doze a vinte brigas.* **A recarga tem dois gatilhos e o `Ferrolho` só mexia no que quase nunca dispara:** *numa arma de `X = 2` o dado causa `10%` das recargas e o teto de balas causa `90%`.* **A entrega nova ainda não tem fatia medida, e a razão está na seção abaixo.**
 > **Nível 11.** O **`Mirar`**, e `+2` no acerto com arma de longo alcance.
 > **Nível 19 — `Descarga`.** No começo de um combate, você pode gastar a sua **Reação** para atacar **um alvo por bala que a arma carrega**, com uma rolagem separada em cada um. **Os disparos contam para a munição** — você vai recarregar no primeiro turno.
 > **Nível 27 — `Dobro`.** O `Mirar` passa a valer para o **ataque básico e o extra**.
+
+> **⚠ EM ABERTO — o `X` sobe `1`, e ela ficou guardada de propósito.**
+>
+> ***Decisão do Mizuki:*** *"só a escolha de slot, mas deixe salvo essa opção para discutir futuramente, porque eu tenho de validar o quanto isso impacta."*
+>
+> **A opção guardada:** o `Ferrolho` também soma `1` ao `X` da arma — o teto de tiros antes da recarga forçada. Ela ataca o gatilho que **manda**, e a escolha de slot não ataca gatilho nenhum: com ela o jogador recarrega o mesmo tanto de vezes, e só escolhe de qual espaço do turno paga.
+>
+> **O que ela vale, medido contra a tabela de `X` da peça 14 §5**, numa luta de `3,7` rodadas:
+>
+> | arma | `X` | recargas hoje | com `X + 1` | |
+> |---|---|---|---|---|
+> | Pistola · Revólver · Espingarda · Rifle de Precisão | `2` | `1,95` | `1,37` | **`30%` a menos** |
+> | Rifle · Submetralhadora | `3` | `1,37` | `1,08` | `21%` a menos |
+> | Metralhadora Pesada | `4` | `1,08` | `0,90` | `16%` a menos |
+>
+> **Ela entrega mais para quem tem menos**, que é o contrário da entrega velha — a arma pequena, que recarrega o tempo todo, é a que sente. *E conversa com o texto da rota: "funciona no aperto, corredor estreito, sala pequena" é pistola e espingarda, não metralhadora.*
+>
+> **Por que ela não entrou agora:** ela mexe no `X`, e o `X` é da peça 14, não desta. *Aquela peça calibrou a faixa `2 · 3 · 4` contra um critério escrito — "nenhuma arma atravessa a briga sem recarregar" — e mediu que o `X = 4` da Metralhadora já fura ele em `22%` dos combates para quem não tem ataque extra.* **Somar `1` empurra a rota inteira para dentro desse vazamento, e isso é conta da peça 14 antes de ser desta.**
+>
+> **E o que a escolha de slot vale hoje também está em aberto, na mesma direção.** *A peça 3 mede a Ação Bônus como "o slot mais vazio do turno".* **Escolher entre um slot vazio e o teu deslocamento é escolher entre grátis e caro, e ninguém escolhe o caro** — então a entrega nova é quase toda promessa até o Bônus encher. *A peça 14 §5 já registra o dia: "isso muda no dia em que o slot encher", quando o Bastião ganhar socar como Ação Bônus.*
 
 > **O `Descarga` dispara `X`, que é o número de balas da arma — e isso é aceito com o motivo.** *Decisão do Mizuki: **"não tem problema metralhadora ser 4 e as outras serem 3, tem seus altos e baixos usarem cada arma."*** A Metralhadora Pesada leva `2,34` fatias contra `1,17` do Rifle de Precisão, e o custo da recarga forçada devolve `0,45` dela — **o espalhamento fica em `1,6×`, dentro do filtro de `3,0×`.** *A arma de X alto paga em ritmo o que ganha na abertura.*
 
