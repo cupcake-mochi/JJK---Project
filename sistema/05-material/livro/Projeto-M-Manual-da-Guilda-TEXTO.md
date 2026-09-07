@@ -2899,6 +2899,7 @@ Pólvora, ruído e uma profissão que finge não usar isso. É a rota que funcio
 
 > **Nível 2: `Ferrolho`.** Você pode recarregar gastando a sua **Ação de Movimento**, em vez da Ação Bônus. Quem escolhe é você, na hora — e recarregar assim custa o deslocamento inteiro daquele turno.
 > **É exceção à regra de conversão do capítulo *O turno*, e por isso está escrita:** lá o turno só converte da maior para a menor, e esta é a única troca que sobe.
+> **Gastar a Ação de Movimento assim não é se deslocar**, então você ainda pode `Mirar` na mesma rodada.
 > **E você deixa de sofrer desvantagem por estar colado** contra um inimigo.
 >
 > **Nível 11: `Mirar`.** Você ganha a ação **`Mirar`**, e os seus ataques com arma de longo alcance somam **`+2` no acerto**.
@@ -6751,4 +6752,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: 03e6adf4bf6b703cab51437a87258561f192494d -->
+<!-- fonte: a922c334f0d2a382f98cabe56452d20fc2dee941 -->

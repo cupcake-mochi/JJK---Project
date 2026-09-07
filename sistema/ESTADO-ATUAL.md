@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 07/09/2026, na v0.217 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e nove checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 07/09/2026, na v0.219 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e nove checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.217.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
+**Versão v0.219.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
 
 **A v0.207 deu ao capítulo de Invocações o passo a passo que o Fundamento tem para feitiço.** *O capítulo publicava a máquina inteira e nove montagens prontas, e o leitor via o resultado sem ver a conta — `12` pontos, cabe no nível 6, e de onde vem o `12` nenhuma linha mostrava.*
 
@@ -904,7 +904,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/conferir-ficha.py` | **o material contra a regra**: as 23 perícias, os 11 ofícios, os 5 Caminhos, as 15 Trilhas e as constantes do nível 2 que a ficha imprime, contra as peças donas |
 | `03-mecanica/conferir-invocacoes.py` | as **trinta e duas** checagens da peça 15, sem um número guardado dentro dele — e a busca exaustiva das 21.502 montagens que gastam o orçamento cheio no nível 30 |
 | `03-mecanica/17-catalogo-de-entregas.md` | **o índice das 102 entradas** — 68 entregas de Trilha, 20 degraus de Caminho e as 14 Manhas —, com a regra de contagem e o ponteiro de onde o texto de cada uma mora |
-| `03-mecanica/conferir-catalogo.py` | as **quinze** checagens da peça 17, e **o primeiro validador que sai da pasta**: ele lê os três `DESENHO-*.md` da raiz |
+| `03-mecanica/conferir-catalogo.py` | as **dezesseis** checagens da peça 17, e **o primeiro validador que sai da pasta**: ele lê os três `DESENHO-*.md` da raiz |
 | `03-mecanica/18-progressao.md` | **a tabela de progressão** — o que se ganha em cada nível, do 1 ao 30, numa tabela só. Nove das dez colunas são cópia com dono declarado; a décima, o tamanho da lista de feitiços, nasce aqui |
 | `03-mecanica/conferir-progressao.py` | as **oito** checagens da peça 18: cada coluna reconstruída a partir do dono, a fórmula dos espaços contra a tabela da peça 11, e a cópia de três fichas da peça 2 |
 | `03-mecanica/19-dano-e-condicoes.md` | **a régua de condição** — quanto vale cada uma das treze, em dano por rodada e em nível —, mais as treze condições, os catorze tipos de dano e a cobertura, que vieram da peça 1 |
@@ -1282,6 +1282,27 @@ A skill `redacao-acessivel-rpg` existe exatamente para a travessia de "nota de d
 **E as dez pendências que só a mesa responde são todas de nível 2** — Constituição virou obrigatória, alguém usa ação bônus, Intuição contra Percepção, se quatro perícias livres é escolha demais, se alguém rola Pontaria, se o extra da Origem é escolha de igual para igual, se a criação leva mesmo vinte a quarenta minutos, se um Legado por ficha é pouco, se três lutas de graça é o número certo, e se o descanso curto devia devolver alguma vida. **Nenhuma delas precisa das aptidões.**
 
 ## Onde estamos, e o que falta
+
+### A fila de agora — v0.219
+
+**Três coisas na mesa, e a ordem é a que o Mizuki pediu.**
+
+| # | o que é | estado |
+|---|---|---|
+| 1 | **O degrau da `Sobrecarga`** — `Leve` no manual, `Pesada` no livro | **medida, esperando decisão dele.** *A conta está na entrada da v0.219 do CHANGELOG: em `Leve` ela cai dentro da banda das `Leve` publicadas, em `Pesada` seria a pior compra do catálogo* |
+| 2 | ~~**Validador para o `→ Continua em`**~~ | **fechado na v0.219** — é a checagem `11` do `conferir-repositorio.py`, e ela aceita as duas grafias |
+| 3 | **Expansão sem barreira** | **levantamento feito, proposta não.** *`RASCUNHO-expansao-sem-barreira.md`: a obra separa três eixos que o manual amarrou num interruptor só, e a regra do choque está com o sinal trocado. O Mizuki disse que explica o problema* |
+
+**E a leva abriu uma quarta, que não estava na fila:**
+
+| o que é | estado |
+|---|---|
+| **As vinte e cinco divergências entre o manual e o livro nas Melhorias** | **catalogadas e travadas contra piorar.** *Dezesseis são mecânicas, e três trocam um número — `Fura`, `Enfraquece` e `Abre Ferida`.* **A lista é a oitava passada do `sistema/05-material/livro/ESTADO-revisao.md`, e a checagem `12` a lê.** *Cada linha `aberta` é uma decisão de regra esperando o Mizuki; fechar uma é escrever `fechada na vX.YYY` na coluna, e a partir daí a checagem cobra os dois lados* |
+
+> **⚠ E duas dívidas de antes continuam abertas:** *a paginação do PDF em coluna única ficou igual à do `-A-atual`, as duas em `256`* — **vale um olho antes de mexer no livro** —, *e a `Sobrecarga` ainda escreve "o dobro de energia", que é a frase que a v0.217 tirou da `Dívida` por dobrar zero.*
+
+---
+
 
 A ordem de construção é a da seção 6 do `arquitetura.md`, e ela **acabou** — os seis passos estão fechados.
 

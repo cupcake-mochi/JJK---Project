@@ -120,7 +120,7 @@ E o **Yuji** com o Punho Divergente é a mesma ideia num golpe só: o soco acert
 
 > ## A dominância declarada INVERTEU, e ela continua ruído
 >
-> **Desde a v0.75 a rota `Arma de Fogo` domina a `Estocada` por `1,03×`**, aceita e declarada porque `0,16` fatia é um terço da largura da banda. **Com a `Estocada` em `5,02`, ela vira `Estocada` sobre `Arma de Fogo` por `1,06×`.**
+> **Desde a v0.75 a rota `Arma de Fogo` domina a `Estocada` por `1,03×`**, aceita e declarada porque `0,16` fatia é um terço da largura da banda. **Com a `Estocada` em `5,02` e a `Arma de Fogo` em `4,78`, ela vira `Estocada` sobre `Arma de Fogo` por `1,05×`.**
 >
 > **Mesmo tamanho, outro sentido**, e continua passando o filtro que reprova em `3,0×`. *A causa não mudou: as duas são `100%` ação/alvo, e o que falta é coluna e não número.*
 
@@ -166,7 +166,7 @@ E o **Yuji** com o Punho Divergente é a mesma ideia num golpe só: o soco acert
 
 # `Batedor` mecânico — fechado na v0.74
 
-> **As três rotas na banda: `4,82` · `4,52` · `4,74` de `5,00` fatias.** Espalhamento de `1,08×`, contra um filtro que reprova em `3,0×`.
+> **As três rotas na banda: `4,82` · `4,52` · `4,78 a 5,16` de `5,00` fatias.** Espalhamento de `1,14×`, contra um filtro que reprova em `3,0×`.
 
 **A rota se escolhe no nível 2 e vale a campanha inteira.** Cada uma resolve o mesmo problema — *onde a luta acontece* — por uma porta diferente:
 
@@ -209,7 +209,7 @@ E o **Yuji** com o Punho Divergente é a mesma ideia num golpe só: o soco acert
 | rota | publicado | com o `Mirar` medido |
 |---|---|---|
 | `Yumi` | 4,82 | **6,09** |
-| `Arma de Fogo` | 4,74 | **6,00** |
+| `Arma de Fogo` | 4,78 | **6,04** |
 | `Besta` | 4,52 | **5,95** |
 
 > **As três caem em `+19%` a `+22%` sobre as `5,00`.** *A `Brasa` está bem pior, entre `7,06` e `9,42`, e ficou — é o maior estouro aceito do projeto, e o precedente destas três.*
@@ -226,7 +226,7 @@ E o **Yuji** com o Punho Divergente é a mesma ideia num golpe só: o soco acert
 | `Executor` | 2,84 | **1,84** | 0,00 | 4,68 |
 | `Yumi` | 5,74 | 0,00 | 0,35 | **6,09** |
 | `Besta` | 5,24 | 0,00 | **0,71** | **5,95** |
-| `Arma de Fogo` | **6,00** | 0,00 | 0,00 | **6,00** |
+| `Arma de Fogo` | **6,04** | 0,00 | 0,00 | **6,04** |
 
 > **Ela é do mesmo tamanho da que o projeto já aceitou entre o `Explosivo` e a `Torrente`, que é `1,20×`** — e passa no filtro, que reprova em `3,00×`.
 >
@@ -272,41 +272,59 @@ E o **Yuji** com o Punho Divergente é a mesma ideia num golpe só: o soco acert
 > **Nível 19 — `Repuxo`.** Ao disparar, **uma vez por rodada**, o alvo faz um Teste de Resistência de Vigor; numa falha, é empurrado **`1,5 m × maestria`** na direção oposta. E você **deixa de sofrer desvantagem por estar colado**.
 > **Nível 27 — `Dobro`.** O `Mirar` passa a valer para o **ataque básico e o extra**.
 
-## `Arma de Fogo` — 4,20 de 5,00
+## `Arma de Fogo` — 4,78 a 5,16 de 5,00
 
 | nv | nome | a entrega | fatias |
 |---|---|---|---|
-| **2** | **`Ferrolho`** | recarregar pode ser Ação de Movimento, e nada de desvantagem colado | 0,00 |
+| **2** | **`Ferrolho`** | recarregar pode ser Ação de Movimento, e nada de desvantagem colado | 0,24 a 0,58 |
 | **11** | **`Mirar`** | a ação `Mirar`, e `+2` no acerto | **1,95** |
 | **19** | **`Descarga`** | o disparo de abertura, um alvo por bala | 1,17 a 1,89 |
 | **27** | **`Dobro`** | o `Mirar` vale nos dois ataques | 1,08 |
 
-> **Nível 2 — `Ferrolho`.** Você pode recarregar gastando a sua **Ação de Movimento** em vez da Ação Bônus, e escolhe na hora. E você **deixa de sofrer desvantagem por estar colado**.
+> **Nível 2 — `Ferrolho`.** Você pode recarregar gastando a sua **Ação de Movimento** em vez da Ação Bônus, e escolhe na hora — e recarregar assim custa o deslocamento inteiro daquele turno. E você **deixa de sofrer desvantagem por estar colado**.
 >
-> **⚠ As `0,54 a 0,59` fatias eram da entrega velha, e ela nunca valeu isso.** *A entrega velha era "a arma só força recarga no `1` natural, e não no `1` ou `2`", e a medida contra o `X` de cada arma (peça 14 §5) diz que ela poupava `0,05` a `0,08` recarga numa luta de `3,7` rodadas — uma a cada doze a vinte brigas.* **A recarga tem dois gatilhos e o `Ferrolho` só mexia no que quase nunca dispara:** *numa arma de `X = 2` o dado causa `10%` das recargas e o teto de balas causa `90%`.* **A entrega nova ainda não tem fatia medida, e a razão está na seção abaixo.**
+> **⚠ Recarregar pela Ação de Movimento NÃO conta como se deslocar, e o `Mirar` continua valendo na mesma rodada.** *Sem esta linha o preço abaixo não existe: ele é inteiro feito da rodada em que o atirador recarrega e mira.* **Dois mestres leem "gastou o movimento" de dois jeitos** — um entende que você abriu mão de andar, o outro entende que você andou —, e o `Mirar` morre no segundo. *O livro publica a mesma frase, no capítulo das Trilhas.*
 > **Nível 11.** O **`Mirar`**, e `+2` no acerto com arma de longo alcance.
 > **Nível 19 — `Descarga`.** No começo de um combate, você pode gastar a sua **Reação** para atacar **um alvo por bala que a arma carrega**, com uma rolagem separada em cada um. **Os disparos contam para a munição** — você vai recarregar no primeiro turno.
 > **Nível 27 — `Dobro`.** O `Mirar` passa a valer para o **ataque básico e o extra**.
 
-> **⚠ EM ABERTO — o `X` sobe `1`, e ela ficou guardada de propósito.**
+> **⚠ Este degrau valeu `0,00` na v0.217, e o zero saía de uma leitura errada do turno.**
 >
-> ***Decisão do Mizuki:*** *"só a escolha de slot, mas deixe salvo essa opção para discutir futuramente, porque eu tenho de validar o quanto isso impacta."*
+> *O argumento era: a escolha de slot não tira recarga nenhuma, só muda de qual espaço do turno você paga; a peça 3 mede a Ação Bônus como "o slot mais vazio do turno"; logo, trocar um slot vazio pelo teu deslocamento é trocar grátis por caro.* **A premissa é que a Ação Bônus está vazia, e nesta rota ela não está.**
 >
-> **A opção guardada:** o `Ferrolho` também soma `1` ao `X` da arma — o teto de tiros antes da recarga forçada. Ela ataca o gatilho que **manda**, e a escolha de slot não ataca gatilho nenhum: com ela o jogador recarrega o mesmo tanto de vezes, e só escolhe de qual espaço do turno paga.
+> **O `Mirar` é Ação Bônus, e ele chega no nível 11 desta mesma rota.** *Recarregar também é Ação Bônus, e você tem uma só.* **Toda rodada em que a arma força recarga é uma rodada em que o atirador não mira.**
 >
-> **O que ela vale, medido contra a tabela de `X` da peça 14 §5**, numa luta de `3,7` rodadas:
+> **E o `Batedor` é Vanguarda, que ganha ataque extra no nível 7** — peça 6 §3.1. *Dois tiros por rodada contra uma arma que segura dois tiros dá **uma recarga por rodada, todas as rodadas**.*
 >
-> | arma | `X` | recargas hoje | com `X + 1` | |
+> | a arma | `X` | o `Mirar` sai por rodada, **sem** o `Ferrolho` | **com** ele | a taxa que a rota supôs |
 > |---|---|---|---|---|
-> | Pistola · Revólver · Espingarda · Rifle de Precisão | `2` | `1,95` | `1,37` | **`30%` a menos** |
-> | Rifle · Submetralhadora | `3` | `1,37` | `1,08` | `21%` a menos |
-> | Metralhadora Pesada | `4` | `1,08` | `0,90` | `16%` a menos |
+> | Pistola · Revólver · Espingarda · Rifle de Precisão | `2` | **`0,14`** | `0,50` | `0,50` |
+> | Rifle · Submetralhadora | `3` | `0,27` | `0,50` | `0,50` |
+> | Metralhadora Pesada | `4` | `0,35` | `0,50` | `0,50` |
 >
-> **Ela entrega mais para quem tem menos**, que é o contrário da entrega velha — a arma pequena, que recarrega o tempo todo, é a que sente. *E conversa com o texto da rota: "funciona no aperto, corredor estreito, sala pequena" é pistola e espingarda, não metralhadora.*
+> **A rota inteira foi preçada supondo o atirador parado em metade das rodadas**, que é a taxa declarada na seção do `Mirar`. *Na arma que fecha o total publicado, o `Mirar` saía em um sétimo delas.* **O `Ferrolho` é o que devolve a taxa suposta**, e o degrau vale a diferença: `0,58` fatia na arma de `X = 2`, `0,37` na de `3`, `0,24` na de `4`.
 >
-> **Por que ela não entrou agora:** ela mexe no `X`, e o `X` é da peça 14, não desta. *Aquela peça calibrou a faixa `2 · 3 · 4` contra um critério escrito — "nenhuma arma atravessa a briga sem recarregar" — e mediu que o `X = 4` da Metralhadora já fura ele em `22%` dos combates para quem não tem ataque extra.* **Somar `1` empurra a rota inteira para dentro desse vazamento, e isso é conta da peça 14 antes de ser desta.**
+> **A leitura contrária fecha no mesmo lugar, e é ela que sustenta o número.** *Um jogador que se recusa a perder o `Mirar` paga a recarga com um tiro em vez de com o slot — aí o `Ferrolho` devolve tiro e não `Mirar`, e vale `0,39` · `0,25` · `0,16`, contra os `5,45` de dano bruto que o `abdicar do ataque extra` do `Yumi` mede.* **As duas leituras cercam o preço pelos dois lados, e nenhuma das duas dá zero.**
 >
-> **E o que a escolha de slot vale hoje também está em aberto, na mesma direção.** *A peça 3 mede a Ação Bônus como "o slot mais vazio do turno".* **Escolher entre um slot vazio e o teu deslocamento é escolher entre grátis e caro, e ninguém escolhe o caro** — então a entrega nova é quase toda promessa até o Bônus encher. *A peça 14 §5 já registra o dia: "isso muda no dia em que o slot encher", quando o Bastião ganhar socar como Ação Bônus.*
+> **⚠ As `0,54 a 0,59` fatias que este degrau valia antes da v0.217 batem de perto com o `0,58`, e isso é coincidência.** *Aquelas vinham da entrega velha — "a arma só força recarga no `1` natural, e não no `1` ou `2`" —, que poupava `0,05` a `0,08` recarga numa luta de `3,7` rodadas, uma a cada doze a vinte brigas.* **Mecanismo diferente, argumento diferente; só o tamanho bate.**
+
+> **✔ FECHADO — o `X` sobe `1` foi medido, e ele foi RECUSADO.**
+>
+> ***Decisão do Mizuki na v0.217:*** *"só a escolha de slot, mas deixe salvo essa opção para discutir futuramente, porque eu tenho de validar o quanto isso impacta."* **O impacto está medido, e são cinco níveis do critério da peça 14.**
+>
+> **A opção era:** o `Ferrolho` também soma `1` ao `X` da arma — o teto de tiros antes da recarga forçada.
+>
+> | arma | `X` | `X + 1` do nível 2 ao 6 | do nível 7 em diante |
+> |---|---|---|---|
+> | Pistola · Revólver · Espingarda · Rifle de Precisão | `2` | `0%` — passa | `0%` — passa |
+> | Rifle · Submetralhadora | `3` | **`22%` — fura** | `0%` — passa |
+> | Metralhadora Pesada | `4` | **`68%` — fura** | `0%` — passa |
+>
+> *A coluna é o critério escrito da peça 14 §5.2 — **nenhuma arma atravessa a briga sem recarregar** — e a simulação reproduz célula a célula a tabela que aquela peça publica: `0%` · `0%` · `22%` · `68%` · `68%`, para `X` de `2` a `6`.*
+>
+> **O ataque extra do nível 7 fecha o vazamento sozinho**, porque dois tiros por rodada estouram qualquer teto que a faixa alcança. *Sobram os níveis `2` a `6`: nesses cinco, duas das armas atravessam a briga sem recarregar, e a Metralhadora atravessa em dois terços delas.*
+>
+> **E ela deixou de ser necessária, que é a outra metade da recusa.** *Ela existia para tapar o buraco de a rota valer `4,20` — e com o `Ferrolho` preçado contra o slot que ele realmente compra, a rota já está em `4,78`.* **Somar o `X` em cima disso levaria a ponta baixa a `4,96`, encostada no teto da banda.**
 
 > **O `Descarga` dispara `X`, que é o número de balas da arma — e isso é aceito com o motivo.** *Decisão do Mizuki: **"não tem problema metralhadora ser 4 e as outras serem 3, tem seus altos e baixos usarem cada arma."*** A Metralhadora Pesada leva `2,34` fatias contra `1,17` do Rifle de Precisão, e o custo da recarga forçada devolve `0,45` dela — **o espalhamento fica em `1,6×`, dentro do filtro de `3,0×`.** *A arma de X alto paga em ritmo o que ganha na abertura.*
 
@@ -314,20 +332,26 @@ E o **Yuji** com o Punho Divergente é a mesma ideia num golpe só: o soco acert
 
 | | `Yumi` | `Besta` | `Fogo` |
 |---|---|---|---|
-| **na banda 4,50–5,00** | ✓ 4,82 | ✓ 4,52 | ✓ 4,74 |
+| **na banda 4,50–5,00** | ✓ 4,82 | ✓ 4,52 | ✓ 4,78 · a ponta alta em 5,16 |
 | **nível 2 permanente ou condicional** | ✓ | ✓ | ✓ |
 | **algo que o jogador decide usar** | ✓ o `Disparo Carregado` e o `Mirar` | ✓ o `Mirar` | ✓ o `Mirar` e o `Descarga` |
-| **as três dentro de 3,0× uma da outra** | ✓ `1,08×` | | |
+| **as três dentro de 3,0× uma da outra** | ✓ `1,14×` | | |
 
-**Uma dominância apareceu contra uma irmã, e ela fica DECLARADA:** a rota `Arma de Fogo` sai com `4,74` de ação/alvo contra os `4,58` da `Estocada`, e as duas têm zero em todas as outras colunas — então ela ganha em tudo que a matriz mede.
-
-> **Medida antes de tratada, e ela é ruído.** A diferença é **`0,16` fatia** — `0,81` de dano bruto por rodada, **0,55% do que o personagem faz no nível 30**. A razão entre as duas é `1,03×`, contra um filtro que reprova em `3,0×`, e a própria banda de escrita tem `0,50` fatia de largura. *A diferença é um terço da banda.*
+**Uma dominância aparece contra uma irmã, e ela fica DECLARADA:** a `Estocada` sai com `5,02` de ação/alvo contra os `4,78` da `Arma de Fogo`, e as duas têm zero em todas as outras colunas — então ela ganha em tudo que a matriz mede.
 >
-> **A matriz não tem piso, e é aí que está o defeito.** O teste dela é binário — *"maior ou igual em todas as colunas, e maior em uma"* —, então `0,16` dispara exatamente como `3,00` dispararia. **É defeito do teste, não da `Estocada`.**
+> **⚠ O sentido dela é o da arma, e ele vira dentro da própria rota.** *Com o Rifle de Precisão a rota fecha em `4,78` e perde por `1,05×`; com a Metralhadora Pesada ela fecha em `5,16` e ganha por `1,03×`.* **O par cabe em `1,05×` nos dois sentidos**, contra um filtro que reprova em `3,00×`.
+
+> **Medida antes de tratada, e ela é ruído.** A diferença é **`0,24` fatia** — `1,22` de dano bruto por rodada, **0,82% do que o personagem faz no nível 30**. A razão entre as duas é `1,05×`, contra um filtro que reprova em `3,0×`, e a própria banda de escrita tem `0,50` fatia de largura. *A diferença é quase meia banda.*
+>
+> **A matriz não tem piso, e é aí que está o defeito.** O teste dela é binário — *"maior ou igual em todas as colunas, e maior em uma"* —, então `0,24` dispara exatamente como `3,00` dispararia. **É defeito do teste, não da `Estocada`.**
 >
 > **E o projeto já tem o mecanismo:** o `conferir-equipamento.py` carrega um bloco de **dominâncias aceitas e declaradas** desde a v0.47 — as três da `Versátil`. Declarada, ela não falha nada; o que falha é uma que sumiu e continuou na lista.
 >
-> **O motivo, escrito:** o nível 2 da `Estocada` vale `0,00` em dano e entrega duas coisas para as quais **não existe coluna** — conjurar um feitiço de verdade e ainda bater, e trocar o atributo da arma. *É o caso do `Servo` na v0.63 outra vez: a dominância era real na matriz e o que faltava era eixo, não número.* **Decisão do Mizuki: fica como está.**
+> **O motivo, escrito — e ele TROCOU DE LADO quando o sentido inverteu.** *Enquanto a `Arma de Fogo` ganhava, o nível 2 da `Estocada` valendo `0,00` sem coluna explicava a dominância inteira: a perdedora era a que estava subcontada.* **Agora a `Estocada` é a que ganha, e a coluna que falta é dela — isso agrava em vez de desculpar.**
+>
+> **O que sobrou segurando são duas coisas, e as duas medidas.** *A primeira é o tamanho: `1,05×` no pior sentido, contra `3,00×` de filtro.* **A segunda é que a perdedora também tem entrega sem coluna** — o `Ferrolho` acaba com a desvantagem de estar colado, que é a identidade que o texto da rota promete, e a matriz não tem onde pôr isso. *A `Besta` empacota a mesma coisa dentro do `Repuxo`, e lá ela também não tem preço separado.*
+>
+> ***Decisão do Mizuki na v0.75: fica como está.*** **O que muda aqui é o argumento, não a decisão** — e ele precisava mudar, porque o de antes passou a provar o contrário do que dizia.
 
 ## O que este bloco deixa em aberto
 
@@ -498,11 +522,11 @@ Ela não fechava porque a `Estocada` e o `Batedor` foram preçados **sem declara
 | `Executor` | 2,84 | **1,84** | 0,00 | 0,00 | 4,68 |
 | `Batedor` · `Yumi` | 4,46 | 0,00 | 0,35 | 0,00 | 4,81 |
 | `Batedor` · `Besta` | 3,82 | 0,00 | **0,71** | 0,00 | 4,53 |
-| `Batedor` · `Arma de Fogo` | **4,74** | 0,00 | 0,00 | 0,00 | 4,74 |
+| `Batedor` · `Arma de Fogo` | **4,78** | 0,00 | 0,00 | 0,00 | 4,78 |
 
 **O `Batedor` entra com três linhas e não com uma, e isso não é escolha de formato.** A rota se escolhe no nível 2 e vale a campanha inteira — quem joga `Yumi` e quem joga `Besta` são duas fichas diferentes, e a dominância pergunta se **uma ficha** ganha da outra em tudo. Uma linha média não responde isso.
 
-**Rodadas as vinte comparações, uma dominância aparece:** a rota `Arma de Fogo` sobre a `Estocada`, por `0,16` fatia e razão `1,03×`. **É a mesma que a v0.75 mediu, aceitou e declarou** — as duas são cem por cento ação/alvo, e a diferença é um terço da largura da banda de escrita.
+**Rodadas as vinte comparações, uma dominância aparece:** a `Estocada` sobre a rota `Arma de Fogo`, por `0,24` fatia e razão `1,05×`. **É a mesma que a v0.75 mediu, aceitou e declarou, com o sentido invertido** — as duas são cem por cento ação/alvo, e a diferença é quase metade da largura da banda de escrita.
 
 **O `Executor` é o único da Vanguarda com coluna de defesa. A `Besta` leva posicionamento com folga de `2,0×` sobre o `Yumi`. E ninguém mais ganha de ninguém em todas as colunas.**
 
@@ -510,22 +534,27 @@ Ela não fechava porque a `Estocada` e o `Batedor` foram preçados **sem declara
 
 **O nível 2 da `Estocada` custa `0,00` e não tem coluna.** Ele é a identidade inteira da Trilha: conjurar de verdade na ação padrão e ainda bater na bônus, e trocar o atributo da arma no grupo escolhido. **A matriz não tem onde pôr nenhuma das duas**, então ela mede a `Estocada` como se aquele degrau não existisse.
 
-*É o caso do `Servo` na v0.63 pela terceira vez — a dominância era real na matriz e o que faltava era eixo, não número.* **A diferença é que agora dá para dizer quanto custa: os `0,16` fatia da dominância declarada são exatamente o preço de a coluna não existir.**
+*É o caso do `Servo` na v0.63 pela terceira vez — a dominância era real na matriz e o que faltava era eixo, não número.* **A diferença é que agora dá para dizer quanto custa: os `0,24` fatia da dominância declarada são exatamente o preço de a coluna não existir.**
 
-## Achado da revisão — o `4,74` do `Fogo` é o PISO da rota, não o valor dela
+## As duas pontas da rota `Arma de Fogo`, e elas se aproximaram sozinhas
 
-Duas das quatro entregas da `Arma de Fogo` são faixa e não número: o nível 2 vale `0,54` a `0,59`, e o `Descarga` vale `1,17` com o Rifle de Precisão e `1,89` com a Metralhadora Pesada. **O `4,74` publicado usa o fundo das duas.**
+Duas das quatro entregas são faixa e não número, e **as duas estão presas ao mesmo `X`** — o teto de balas da arma, que a peça 14 §5.2 decide. *O `Descarga` dispara um alvo por bala, então ele **cresce** com o `X`. O `Ferrolho` devolve o `Mirar` que a recarga come, e recarga é o que o `X` marca, então ele **encolhe** com o `X`.*
 
-| a arma | total da rota | contra a `Estocada` |
-|---|---|---|
-| Rifle de Precisão *(o que está publicado)* | 4,74 | `+0,16` fatia · `1,03×` |
-| **Metralhadora Pesada** | **5,51 — `10%` acima da banda** | **`+0,93` fatia · `1,20×`** |
+| a arma | `X` | `Ferrolho` | `Descarga` | total da rota | contra a `Estocada`, que está em `5,02` |
+|---|---|---|---|---|---|
+| Rifle de Precisão *(o que fecha o total publicado)* | `2` | `0,58` | `1,17` | **4,78** | perde por `0,24` fatia · `1,05×` |
+| Rifle · Submetralhadora | `3` | `0,37` | entre as duas | — | — |
+| **Metralhadora Pesada** | `4` | `0,24` | `1,89` | **5,16 — `3%` acima da banda** | ganha por `0,14` fatia · `1,03×` |
 
-> **Isso não cria dominância nova.** A Metralhadora continua sem ganhar do `Yumi`, da `Besta` e do `Executor`, porque as três têm coluna que ela zera.
+> **A largura caiu pela metade, e isso é consequência do preço novo, não decisão de ninguém.** *A rota ia de `4,74` a `5,51` — `0,77` fatia de largura, com a ponta alta `10%` fora da banda.* **Agora ela vai de `4,78` a `5,16`: `0,38` de largura, e a ponta alta a `3%`.**
 >
-> **O que ela enfraquece é o argumento de "ruído"** que sustenta a dominância declarada: `0,93` fatia são `4,72` de dano bruto por rodada, quase **seis vezes** os `0,81` que a v0.75 mediu.
+> **A causa é anticorrelação, e ela caiu de graça.** *Quem leva `X` alto ganha no `Descarga` e perde no `Ferrolho`; quem leva `X` baixo faz o contrário.* **Nenhuma das duas entregas foi desenhada para isso** — elas se penduram no mesmo número da peça 14 por motivos que não se falam, e o cancelamento apareceu quando o `Ferrolho` deixou de valer zero.
 >
-> **A decisão do Mizuki de deixar o `X` de balas variar continua de pé** — *"tem seus altos e baixos usarem cada arma"*. O que muda é que a rota de `X` alto **não cabe na banda**, e isso nunca tinha sido somado. *A v0.75 mediu o espalhamento do `Descarga` entre as armas (`1,6×`, dentro do filtro) e não o total da rota com ele dentro.*
+> **A decisão do Mizuki de deixar o `X` de balas variar continua de pé** — *"tem seus altos e baixos usarem cada arma"*. *E ela ficou mais barata: os altos e baixos encolheram.*
+>
+> **⚠ A linha do `X = 3` fica sem total de propósito.** *O `Ferrolho` dela está medido em `0,58` menos o que a recarga mais rara come, e dá `0,37`; o `Descarga` dela não tem número publicado — a peça só preçou as duas pontas.* **Inventar o do meio para fechar a tabela seria escrever número sem conta**, e o que a rota precisa provar são as pontas.
+
+> **⚠ E o que continua valendo `0,00` em coluna nenhuma é a outra metade do `Ferrolho`:** *"deixa de sofrer desvantagem por estar colado"*. **É a identidade que o texto da rota promete** — *"ela atira de dentro do aperto"* —, e a matriz não tem onde pôr. *É ela que segura, do lado da perdedora, a dominância declarada acima.* **A `Besta` empacota a mesma coisa dentro do `Repuxo`, e lá ela também não tem preço separado** — então o buraco é do formato da matriz e não desta rota.
 
 ## Duas somas de `0,01` que não fecham
 

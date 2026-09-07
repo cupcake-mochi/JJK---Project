@@ -11,6 +11,11 @@ MATEMÁTICA — Fundamento v7.25
                          d6/d12. Termina com "TUDO OK" ou a lista de erros.
   bf2.py                 busca exaustiva pura (versão v1, referência histórica)
   validador-feiticos.py  versão antiga (nomenclatura da v1), referência
+  sobrecarga.py          mede a `Sobrecarga` nos dois degraus, na régua de condição
+                         da peça 19. Escrito na v0.219, quando o manual e o livro
+                         divergiam nela — `Leve` de um lado, `Pesada` do outro. Não
+                         decide: imprime a conta. Toda âncora é lida do documento
+                         dono, e ele sai com erro se alguma sumir de lá.
 
   python3 v7.py
   python3 pac7.py

@@ -795,6 +795,14 @@ Uma mão  d8 = 2,0 de dado + 0                = 2 de 2
 
 > **Ela deixa de ser preço e vira textura, e isso muda no dia em que o slot encher.** O `ESTADO-ATUAL` já promete que a peça de Caminhos dá ao Bastião **socar como Ação Bônus**. Quando aquela peça sair, a `Munição` passa a cobrar de verdade — e o preço da arma de fogo sobe sozinho, sem ninguém mexer em número. É a mesma forma do escudo em Ação Bônus, medida no §4.
 
+> **⚠⚠ O DIA JÁ CHEGOU, e ele não veio pelo Bastião.** *A ação `Mirar`, escrita na v0.86, é **Ação Bônus** — e ela é o degrau de nível 11 das três rotas do `Batedor`, uma das quais é a `Arma de Fogo`.* **Para essa ficha o slot está cheio desde o nível 11, e recarregar passou a custar o `Mirar` daquela rodada.**
+>
+> **E o `Batedor` é Vanguarda, que ganha ataque extra no nível 7** — peça 6 §3.1. *Dois tiros por rodada contra uma arma de `X = 2` dá uma recarga por rodada, todas as rodadas: nessa montagem o `Mirar` sai em `0,14` das rodadas, e não nas `0,50` que o preço da rota supôs.*
+>
+> **O que isso custou está medido, e é `0,58` fatia** — o que o `Ferrolho` vale, e que a v0.217 tinha zerado apoiada nesta seção. *A conta mora no `DESENHO-trilhas.md`, na rota `Arma de Fogo`.*
+>
+> **A frase acima continua valendo para quem NÃO é essa ficha, e é por isso que ela fica.** *O que estava errado não era o `custa zero`: era supor que "o slot enche" é evento futuro de outra peça, quando uma entrega de Trilha já tinha enchido ele para quem carrega a arma.* **É a lição nº 9 pela porta do turno — a Ação Bônus tem dois donos, e nenhum dos dois sabia do outro.**
+
 ### O dado do tiro — 2d10 no topo, escada de dois dados
 
 *Decisão do Mizuki na v0.44. **Era `3d10` no topo**, e o orçamento do §5.0 derrubou: aquele dado gastava 9,0 num orçamento de 4.*
@@ -1761,7 +1769,7 @@ A peça 11 escolheu o `1,5 ×` com critério escrito: *"o saldo **encolhe** em v
 
 - **Regressão da régua das Restrições contra o manual:** 18 feitiços com Classe deduzida, **zero divergências**. `Leve = teto(Classe/2)`, `Média = Classe`.
 - **Achado de caminho:** o `conferir-acao.py` tinha a faixa de cada Restrição escrita à mão dentro dele e cobria **11 das 18** do manual. Ficavam sem conferência: `Aquecer`, `Assinatura`, `Barulho`, `Condicional`, `Dívida`, `Fraqueza`, `Uma Vez`. *Não havia erro; o que não havia era trava. É a lição nº 9.*
-  - **A `Dívida` saiu da lista e são `12 das 18`.** *Ela entrou quando a regra mudou, e a checagem 5 daquele validador **abre o `.docx`** — o manual é o dono do texto e o `40-fundamento.md` é cópia. Ela confere que os dois publicam o mesmo multiplicador, que nenhum dos dois voltou a dizer *"o dobro de energia"*, e que os dois seguem dizendo que a Restrição vale mesmo num feitiço de Classe 0.* **Cinco perturbações acendem ela, em cópia isolada.** *Faltam seis.*
+  - **A `Dívida` saiu da lista e são `12 das 18`.** *Ela entrou quando a regra mudou, e a checagem 5 daquele validador **abre o `.docx`** — o manual é o dono do texto e o `05-material/livro/manual/40-fundamento.md` é cópia. Ela confere que os dois publicam o mesmo multiplicador, que nenhum dos dois voltou a dizer *"o dobro de energia"*, e que os dois seguem dizendo que a Restrição vale mesmo num feitiço de Classe 0.* **Cinco perturbações acendem ela, em cópia isolada.** *Faltam seis.*
 - **A curva de refino do modelo reproduz sozinha o "refino 5, 4 e 3"** que a peça da Expansão usou no nv10 para escolher o gate — regressão contra número já publicado.
 
 ### A passada da v0.40

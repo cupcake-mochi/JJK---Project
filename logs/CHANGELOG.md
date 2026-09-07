@@ -8,6 +8,248 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.219] — 07/09/2026
+
+**A `Sobrecarga` foi medida, e a divergência dela não era uma: eram vinte e cinco.** *A leva ia responder qual degrau vale e terminou descobrindo que a tabela de Melhorias inteira tem dois donos e nenhum validador entre eles.*
+
+### 1 · A `Sobrecarga` medida — as duas metades, separadas
+
+**A entrega é *"até o fim do próximo turno do alvo, o feitiço dele custa o dobro de energia e sai com a CD 2 menor"*.** *São duas coisas, e elas se medem separado porque uma delas não tem alvo.*
+
+> **⚠⚠ A metade da energia vale `0,00` contra o bestiário inteiro.** *A peça 26 §6.1 diz, com todas as letras, que **o inimigo não conta PE**.* **Dobrar uma coisa que não é contada não faz nada** — e o catálogo de inimigos é onde essa Melhoria seria usada.
+
+**Do outro lado da mesa ela existe, e aí ela é o buraco que a v0.217 acabou de fechar na `Dívida`.** *Um feitiço custa `3 × Classe` de PE, e o manual escreve que **Classe 0 é grátis**.* **O dobro de zero é zero** — e o mesmo manual, na mesma página, escreve que um conjurador *"gasta PE em cerca de metade das rodadas de luta do dia e passa a outra metade no Classe 0"*, e chama o Classe 0 de *"o golpe de todo turno em que o PE precisa ser poupado"*.
+
+> **A esquiva não é jogada esperta: é o comportamento que o manual publica como normal em metade das rodadas.** *Se o alvo pagar, a conta dá `9,00` de dano por rodada — um Classe 7 a menos no dia, espalhado nas `10,5` rodadas de luta. Se ele conjurar um Classe 0, dá zero.*
+
+**A metade da CD tem tamanho fixo, e ele sai da própria aritmética do `d20`:**
+
+> **`−2` na CD nega SEMPRE `5%` do dano daquele feitiço**, qualquer que seja a taxa de resistência. *Dois pontos num `d20` são `10` pontos percentuais, e um Teste de Resistência bem-sucedido corta o dano pela metade — então metade da massa que se desloca troca dano cheio por meio dano.* **`10 ÷ 2 = 5`.**
+
+**Esse é o tamanho que o manual já preça DUAS vezes, e nas duas em `Leve`:** *a `Precisão` (`+2` na CD do seu feitiço) e a `Abre Ferida` (`−2` no Teste de Resistência do alvo).* **A `Sobrecarga` é o terceiro exemplar do mesmo `±2` num `d20`.**
+
+### 2 · O que ela custa nos dois degraus, e onde ela cai
+
+| | `Leve` | `Pesada` |
+|---|---|---|
+| na Classe 7 | `4` pontos | `11` pontos |
+| em dano, a `4,5` por ponto | **`18,0`** | **`49,5`** |
+| dominância, teto — as `3` ações do chefe pedem TR | `0,61×` | `0,22×` |
+| dominância, piso — `1` ação pede TR | `0,20×` | `0,07×` |
+
+**As treze condições já publicadas dão a banda:** *as `Leve` vão de `0,00×` (`Surdo`) a `2,18×` (`Lento`); as `Pesada` vão de `2,21×` a `2,67×`.*
+
+> **Em `Leve` ela cai dentro da banda**, entre o `Incapacitado` (`0,28×`) e o `Derrubado` (`0,47×`).
+> **Em `Pesada` ela seria a pior compra do catálogo inteiro** — abaixo do `Desarmado`, que é o piso comprável de hoje.
+
+**E o contra-teste diz que `Pesada` não se alcança ajustando o número.** *Para sentar no pior degrau `Pesada` que existe, ela teria de negar `109,4` de dano por rodada. Ela nega `10,95` no teto.* **A CD teria de cair `20` pontos num `d20` — que é falha automática — e ainda assim só empataria.**
+
+***A decisão de qual das duas vale continua sendo do Mizuki.*** *O que esta leva devia entregar era a medida, e ela está aqui.*
+
+> **A conta mora em `manual/matematica/sobrecarga.py`, e ela não guarda número nenhum:** *cada âncora é lida do documento dono — o chefe do `DESENHO-trilhas.md`, o ponto de feitiço e o filtro da peça 19, o câmbio de PE da peça 5, a taxa de resistência da peça 1, os degraus do `partA.js`.* **Se uma sumir do dono, o script sai com erro em vez de sair com número velho.**
+
+> **⚠ E fica registrado, porque não foi pedido e é do mesmo tipo:** *a `Sobrecarga` ainda escreve **"o dobro de energia"**, que é a frase exata que a v0.217 tirou da `Dívida` por dobrar zero.* **A checagem 5 do `conferir-acao.py` proíbe essa frase de voltar na `Dívida`, e não olha para esta.**
+
+### 3 · A divergência não era uma: são vinte e cinco
+
+**As oitenta Melhorias do manual foram comparadas uma a uma com a cópia do capítulo `40-fundamento.md`.** *Nome, degrau e texto.*
+
+> **Um degrau diverge — a `Sobrecarga`. E vinte e quatro TEXTOS.**
+
+**Dezesseis mudam o que acontece na mesa, e três trocam um número:**
+
+- o **`Fura`** ignora `3 × Classe` de Redução de Dano no manual e `2 × Classe` no livro
+- o **`Enfraquece`** derruba o dano do alvo **um quarto** no manual e **`Xd4`** no livro — nem o mesmo tamanho nem a mesma forma
+- o **`Abre Ferida`** dá `−2` em **Testes de Resistência** no manual e em **um** Teste no livro
+
+**As outras treze são de escopo, e escopo é preço:** *o livro cobra `−1` a mais no `Peso Morto`, veta uma Condicional a mais no `Remate`, declara três limites que o manual cala.* **E o livro publica o `Armado` com `(Em revisão — não usar.)` colado, enquanto o manual vende ele como Melhoria normal.**
+
+> **O `.docx` está do lado do manual nas dezesseis.** *Ele sai do `partD.js` pelo `make.js`, e a geração segura* — **a divergência é de dois lados, e não de três.**
+
+**Nenhuma foi consertada, de propósito.** *Escolher qual lado vence é decisão de regra, vinte e cinco vezes, e o pedido separou as duas coisas.* **A tabela inteira está na oitava passada do `ESTADO-revisao.md`, com a coluna que diz se a linha está aberta.**
+
+### 4 · A checagem 12, e ela foi desenhada para não travar o commit
+
+**A `Sobrecarga` sobreviveu desde antes da v0.217 porque nenhuma checagem olhava para ali.** *A `10` compara o livro com as PEÇAS; a `4` compara número que mora em dois documentos.* **A tabela de Melhorias não é nenhum dos dois casos, e ninguém a encostava na outra.**
+
+> ***É a lição nº 9 no formato mais caro dela: não um número com dois donos, uma TABELA com dois.***
+
+**A lista de divergências conhecidas é o dono, e ela não mora no código.** *Linha `aberta` passa; linha `fechada na vX.YYY` obriga os dois lados a dizerem a mesma coisa e acende se um escorregar de volta; divergência que não esteja na tabela acende sempre.* **Assim a lista encolhe sem deixar entrar nada novo pelas costas** — e nasce verde, em vez de reprovar vinte e cinco linhas até alguém tomar vinte e cinco decisões.
+
+**Oito perturbações acendem a mensagem certa em cópia isolada — sete em erro e uma em aviso —, e uma mexida de marcação fica verde.** *A guarda de extrator pegou o defeito antes de ele existir: se um dos dois regexes parar de casar, a checagem compararia dicionário vazio e ficaria verde de graça.* **E a própria checagem achou uma omissão minha na tabela — o `Parado`, que declara *"a ação bônus continua sua"* no manual e cala no livro.** *É o mesmo eixo em que o `Ferrolho` foi repreçado na v0.218.*
+
+### 5 · A checagem 11 — o `→ Continua em` ganhou validador, e ele aceita as duas grafias
+
+**A regra mora no cabeçalho do CHANGELOG desde a v0.110 e nunca teve checagem.** *Das `218` entradas anteriores a esta, `107` traziam a linha: `105` em negrito e `2` peladas.* **As duas peladas são as duas mais novas** — que é o que acontece quando a forma mora numa frase.
+
+> **As duas grafias passam.** *Uma checagem que só aceitasse a maioria nasceria reprovando as duas últimas versões; uma que só aceitasse as duas últimas nasceria reprovando cem entradas históricas.* **O negrito não muda para onde a linha aponta.**
+
+**Ela cobra a entrada do TOPO, e só ela.** *Toda versão passa pelo topo exatamente uma vez, no commit dela — então cobrar o topo cobra toda versão daqui para a frente sem tocar em nenhuma de trás.* **Três entradas posteriores à decisão não trazem a linha e ficam como estão**, pela decisão da v0.50 de não reescrever histórico: *retroativar seria inventar para onde uma versão de meses atrás continuou.*
+
+**E esta entrada volta para o negrito**, que é a grafia de `105` das `107` — a checagem aceita as duas, e a maioria é a da casa.
+
+**E o que ela cobra de verdade é o PONTEIRO.** *A linha existe para quem abre o CHANGELOG achar a retomada — uma que aponta para arquivo inexistente é pior que linha nenhuma, porque parece resposta.* **A checagem 2 não alcançava isso: ela pula a pasta `logs/` inteira, de propósito.**
+
+### 6 · Três contagens velhas, e as três foram APAGADAS em vez de corrigidas
+
+| onde | dizia | é |
+|---|---|---|
+| peça 17, a linha da checagem 7 | `20` peças e validadores | `26` e `26` |
+| `ESTADO-revisao.md`, tabela de arquivos | o livro, `230` páginas | `256` |
+| `ESTADO-revisao.md`, tabela de arquivos | a fonte, `18` arquivos | `21` |
+
+**Nas três o conserto foi tirar o número, e não atualizar.** *A linha vizinha da própria peça 17 já escrevia qual era o risco — **"esta peça virando a segunda fonte do próprio número"** — e a peça era o risco.* **Número que já tem validador não precisa de cópia em prosa; número sem dono nenhum não se atualiza, se apaga.**
+
+### 7 · A v0.218 nunca tinha sido commitada
+
+**O `subir.sh` do Mizuki reprovou na `7.2` com a mensagem que a v0.218 já tinha consertado.** *A causa não era o conserto: era onde ele estava.* **A v0.218 inteira vivia como mudança não commitada no worktree**, e o branch dela apontava para o mesmo commit da `main` — *a `main` estava na v0.217, sem o conserto, e foi ela que rodou.*
+
+**Os dezesseis arquivos foram sincronizados para o clone principal**, e a suíte inteira passa em árvore sincronizada. *A v0.218 e a v0.219 fecham no mesmo commit, e as duas entradas ficam separadas — quem é dona da versão é a entrada, e não o commit.*
+
+### Adicionado
+
+- **A checagem `11` do `conferir-repositorio.py`** — a linha de retomada do CHANGELOG, nas duas grafias.
+- **A checagem `12`** — as Melhorias do livro contra as do manual, com a lista de divergências declarada no `ESTADO-revisao.md`.
+- **A oitava passada do `ESTADO-revisao.md`**, com as vinte e cinco divergências classificadas.
+- **`RASCUNHO-expansao-sem-barreira.md`** — o levantamento da obra sobre domínio sem barreira, antes de qualquer proposta.
+
+### Alterado
+
+- **A peça 17** para de copiar a contagem de peças, e o `ESTADO-revisao.md` para de copiar a paginação e a contagem de arquivos.
+
+### Decidido
+
+- **Nada sobre a `Sobrecarga`.** *A medida está feita e a escolha do degrau é do Mizuki.*
+
+### Achado e não consertado
+
+- **As vinte e cinco divergências manual↔livro**, todas `aberta` na tabela. *Dezesseis são mecânicas.*
+- **A `Sobrecarga` ainda diz "o dobro de energia"**, que é a frase que a v0.217 tirou da `Dívida` por dobrar zero. *A checagem 5 do `conferir-acao.py` proíbe a volta dela na `Dívida` e não olha para esta.*
+- **A paginação do PDF em coluna única continua igual à do `-A-atual`**, as duas em `256`. *A v0.218 abriu isso e ele continua aberto.*
+- **⚠ O `RASCUNHO-expansao-sem-barreira.md` mostra que o manual amarrou três eixos num interruptor só** — *ter barreira, estar completo e o Acerto acontecer* — **e que a obra separa os três.** *A tabela de nove domínios do manual já afirma por dedução que o domínio do Sukuna tem barreira, e ele não tem.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
+
+---
+
+## [0.218] — 07/09/2026
+
+**A entrega que a v0.217 preçou em zero valia meia fatia, e o zero saía de uma premissa sobre o turno que era falsa desde a v0.86.** *A leva foi consertar um total de rota e achou dois PDFs publicados com a fonte errada no caminho.*
+
+### 1 · A Ação Bônus não estava vazia, e é nisso que o `0,00` se apoiava
+
+**O `Ferrolho` foi para `0,00` fatia na v0.217, com o argumento escrito:** *a escolha de slot não tira recarga nenhuma, só muda de qual espaço do turno você paga; a peça 3 mede a Ação Bônus como "o slot mais vazio do turno"; logo, trocar um slot vazio pelo deslocamento é trocar grátis por caro.*
+
+> **A premissa é que a Ação Bônus está vazia. Nesta rota ela não está.**
+
+**A ação `Mirar` é Ação Bônus, e ela é o degrau de nível 11 da própria `Arma de Fogo`.** *Recarregar também é Ação Bônus, e a ficha tem uma só.* **Toda rodada em que a arma força recarga é uma rodada em que o atirador não mira.**
+
+**E o `Batedor` é Vanguarda, que ganha ataque extra no nível 7.** *Dois tiros por rodada contra uma arma que segura dois tiros dá uma recarga por rodada, todas as rodadas.*
+
+| a arma | `X` | o `Mirar` sai por rodada, **sem** o `Ferrolho` | **com** ele | a taxa que a rota supôs |
+|---|---|---|---|---|
+| Pistola · Revólver · Espingarda · Rifle de Precisão | `2` | **`0,14`** | `0,50` | `0,50` |
+| Rifle · Submetralhadora | `3` | `0,27` | `0,50` | `0,50` |
+| Metralhadora Pesada | `4` | `0,35` | `0,50` | `0,50` |
+
+**A rota inteira foi preçada supondo o atirador parado em metade das rodadas.** *Na arma que fecha o total publicado, o `Mirar` saía em um sétimo delas.* **O `Ferrolho` vale a diferença: `0,58` · `0,37` · `0,24`, do `X` baixo para o alto.**
+
+> **A leitura contrária fecha no mesmo lugar, e é ela que sustenta o número.** *Um jogador que se recusa a perder o `Mirar` paga a recarga com um tiro; aí a entrega devolve tiro e não `Mirar`, e vale `0,39` · `0,25` · `0,16`.* **As duas cercam o preço pelos dois lados, e nenhuma dá zero.**
+
+> **⚠ A regra que o preço inteiro depende ficou escrita, no desenho e no livro:** *recarregar pela Ação de Movimento **não é se deslocar**, então o `Mirar` continua valendo na mesma rodada.* **Dois mestres leem "gastou o movimento" de dois jeitos**, e no segundo o `Ferrolho` volta a valer zero.
+
+### 2 · A rota volta para dentro da banda, e as duas pontas se aproximaram sozinhas
+
+| | v0.216 | v0.217 | agora |
+|---|---|---|---|
+| `Arma de Fogo`, ponta baixa | 4,74 | **4,20 — fora da banda** | **4,78** |
+| ponta alta | 5,51 — `10%` acima | 4,92 | **5,16 — `3%` acima** |
+| largura da rota | 0,77 | 0,72 | **0,38** |
+
+**A largura caiu pela metade, e isso é consequência do preço novo e não decisão de ninguém.** *As duas entregas de faixa da rota estão presas ao mesmo `X` de balas, e em sentidos opostos: o `Descarga` dispara um alvo por bala e **cresce** com o `X`; o `Ferrolho` devolve o `Mirar` que a recarga come e **encolhe** com ele.* **Nenhuma das duas foi desenhada para isso** — o cancelamento apareceu quando a segunda deixou de valer zero.
+
+### 3 · O `X + 1` foi medido e RECUSADO
+
+***Decisão do Mizuki na v0.217:*** *"deixe salvo essa opção para discutir futuramente, porque eu tenho de validar o quanto isso impacta."*
+
+| arma | `X` | `X + 1` do nível 2 ao 6 | do nível 7 em diante |
+|---|---|---|---|
+| Pistola · Revólver · Espingarda · Rifle de Precisão | `2` | `0%` — passa | `0%` — passa |
+| Rifle · Submetralhadora | `3` | **`22%` — fura** | `0%` — passa |
+| Metralhadora Pesada | `4` | **`68%` — fura** | `0%` — passa |
+
+*A coluna é o critério escrito da peça 14 §5.2 — **nenhuma arma atravessa a briga sem recarregar** —, e a simulação reproduz célula a célula a tabela publicada lá: `0%` · `0%` · `22%` · `68%` · `68%`.*
+
+**O ataque extra do nível 7 fecha o vazamento sozinho. Sobram os níveis 2 a 6**, cinco níveis em que duas das armas atravessam a briga sem recarregar. **E ela deixou de ser necessária:** *existia para tapar o buraco de a rota valer `4,20`, e a rota já está em `4,78`.*
+
+### 4 · A dominância declarada trocou de lado, e a desculpa dela virou o contrário
+
+**Enquanto a `Arma de Fogo` ganhava da `Estocada`, o nível 2 da `Estocada` valendo `0,00` sem coluna explicava a dominância inteira: a perdedora era a subcontada.** *A `Estocada` foi para `5,02` na v0.81 e o sentido inverteu, e o argumento continuou escrito do jeito antigo.*
+
+> **Agora a `Estocada` é a que ganha, e a coluna que falta é dela — isso agrava em vez de desculpar.**
+
+**O que segura são duas coisas medidas.** *O tamanho: `1,05×` no pior sentido, contra `3,00×` de filtro.* **E a perdedora também tem entrega sem coluna** — o `Ferrolho` acaba com a desvantagem de estar colado, que é a identidade que o texto da rota promete. *A decisão da v0.75 fica; o que mudou é o argumento, e ele precisava mudar, porque o de antes passou a provar o contrário do que dizia.*
+
+### 5 · ⚠⚠ Os dois PDFs publicados na v0.217 saíram com a fonte ERRADA
+
+**O README do livro escreve o modo de falha com todas as letras** — *"sem elas o WeasyPrint cai para uma fonte substituta e a diagramação sai errada, sem avisar"* — **e foi o que aconteceu.**
+
+| o artefato | fontes embutidas | páginas |
+|---|---|---|
+| `-A-atual`, o snapshot de 22/08 | Spectral · Barlow Condensed · IBM Plex Mono · Noto Serif CJK | 256 |
+| **os dois PDFs da v0.217** | **DejaVu · WenQuanYi** | **283 e 169** |
+| os desta versão | Spectral · Barlow Condensed · IBM Plex Mono · Noto Serif CJK | **256 e 149** |
+
+**As fontes moram em `~/.local/share/fonts/`, que é do usuário e não do repositório:** *um build que rode sem enxergar aquela pasta sai inteiro, bonito e errado.* **O sintoma visível é a paginação, e paginação não tem dono neste projeto** — então ninguém reparou.
+
+> **Provado antes de escrito:** *a fonte do clone principal, sem nenhuma mudança minha, construída nesta máquina hoje, dá `256` páginas com as fontes certas.* **A diferença não é o texto, é o build.**
+
+**Nasceu a checagem 7.6 do `conferir-repositorio.py`, e ela tem dois eixos:** *as famílias que o CSS pede estão todas embutidas, e a substituta não apareceu no corpo nem no título.* **Nenhum nome de fonte mora no código** — eles saem do CSS, que é quem as pede. *A perturbação não foi sintética: o PDF quebrado da v0.217 acende as duas metades.*
+
+> **A 7.5 pergunta se o build está ATRASADO; esta pergunta se ele está CERTO.** *São eixos diferentes: um build recém-rodado passa na 7.5 e reprova aqui.*
+
+### 6 · O `subir.sh` estava travado, e desde a v0.217
+
+**A checagem 7.2 reprovava:** *`finalizado/regra/14-equipamento.md` manda abrir `40-fundamento.md`, e ele não existe na entrega.* **Enquanto ela reprova, o `subir.sh` se recusa a commitar.**
+
+*A causa é de forma e não de conteúdo: a v0.217 citou o arquivo como **nome pelado**, e nome sem barra não é caminho — então ele caiu como ponteiro pendurado em vez de cair na família "caminho na árvore da FONTE".* **O conserto foi pôr o caminho na citação, e não alargar o padrão** — que é o que a própria v0.199 decidiu quando o mesmo tipo de coisa apareceu.
+
+**E a base da lista branca foi reescrita de `166` para `169`, com o número MEDIDO numa árvore sincronizada.** *Duas das três não são desta versão: a v0.217 subiu de `166` para `168` e não reescreveu a base — o aviso já tocava no commit dela.*
+
+### 7 · A checagem 16, e ela existe porque a 12 soma o que não se soma
+
+**A checagem 12 soma o mínimo de cada linha de preço com o mínimo de cada outra.** *Nas duas faixas desta rota isso dá `4,44` a `5,50` — um envelope que arma nenhuma ocupa.* **O `4,20` da v0.217 cabia lá dentro, e a 12 ficou verde o tempo todo.**
+
+**A 16 confere que cada total sai de UMA arma**, com o mesmo `X` nas duas faixas; que a faixa publicada é o intervalo das armas; que as pontas da linha de preço são as colunas da tabela das armas; **e que o `Ferrolho` encolhe com o `X` enquanto o `Descarga` cresce.** *Sem a última, duas faixas crescentes passariam nas outras três.*
+
+*Seis perturbações acendem a checagem certa em cópia isolada, e uma mexida inócua na prosa fica verde.* **A guarda de contagem pegou um defeito meu de montagem antes de a checagem valer alguma coisa:** *o extrator estava preso à seção da rota, e a tabela mora depois da matriz da Vanguarda.*
+
+### Alterado
+
+- **O `Ferrolho` vale `0,24` a `0,58` fatia**, e não `0,00`. Dono: `DESENHO-trilhas.md`, rota `Arma de Fogo`.
+- **A rota `Arma de Fogo` é `4,78` a `5,16`** — e os seis lugares que ainda publicavam `4,74` subiram junto.
+- **A peça 14 §5.2** registra que o dia em que o slot enche já chegou, e não veio pelo Bastião.
+- **O livro** publica que recarregar pela Ação de Movimento não é se deslocar.
+- **Os quatro builds do livro**, com as fontes certas. `256` e `149` páginas.
+- **A tabela de paginação do README do livro**, que não tem dono e envelhece à mão.
+
+### Decidido
+
+- **O `X + 1` do `Ferrolho` está RECUSADO**, com a medida escrita. *Ele fura o critério da peça 14 em cinco níveis e não é mais necessário.*
+- **Recarregar pela Ação de Movimento não conta como se deslocar.** *O preço do degrau inteiro depende disso, então ela é regra publicada e não leitura de mesa.*
+- **A dominância declarada entre a `Estocada` e a `Arma de Fogo` fica**, com o argumento reescrito no sentido certo.
+
+### Achado e não consertado
+
+- **A `Sobrecarga` continua divergindo entre o manual e o livro** — *`Leve` no `partD.js` e no `.docx`, `Pesada` no `40-fundamento.md`.* **É a próxima da fila**, e a decisão de qual das duas vale é de regra.
+- **O `→ Continua em` continua sem validador, e ele tem DUAS grafias.** *`107` das `218` entradas fecham com ele — mas `105` escrevem `→ **Continua em**`, em negrito, e `2` escrevem `→ Continua em` pelado.* **As duas peladas são a da v0.217 e a desta versão**, que é o que acontece quando a regra mora numa frase e não num validador. *Quem escrever a checagem tem de aceitar as duas, ou ela nasce reprovando `105` entradas históricas.*
+- **A checagem 7 da peça 17 diz que a pasta tem `20` peças e validadores, e ela tem `26`.** *Prosa dentro de tabela que descreve o que a checagem faz — nenhum validador alcança essa camada.*
+- **⚠ A paginação do PDF em coluna única ficou igual à do `-A-atual`, que é o snapshot de antes das quebras consertadas.** *As duas em `256`.* **Vale um olho antes de a próxima leva mexer no livro** — ou as quebras não estão sendo aplicadas, ou o snapshot já era pós-conserto e a linha do README nunca disse isso.
+
+→ Continua em `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
+
+---
+
 ## [0.217] — 07/09/2026
 
 **A régua da morte voltou a ser a vida do corpo, e o conserto que ela obrigou não estava na pergunta.** *A leva começou para trocar uma regra e terminou remedindo a tabela que a conferia, que era de sessenta versões atrás.*

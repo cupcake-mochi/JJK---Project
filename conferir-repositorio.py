@@ -991,7 +991,18 @@ else:
     # gerador-inimigo. Citacao de arquivo morto num registro historico e' o que
     # a lista branca existe para aceitar: o CHANGELOG conta o que aconteceu, e o
     # que aconteceu foi o arquivo nascer e morrer na versao seguinte.
-    BRANCAS_AQUI, FOLGA = 166, 5
+    # v0.218: 166 -> 169, e o numero e MEDIDO numa arvore sincronizada, nao somado.
+    # Sao TRES, e duas nao sao desta versao:
+    #   2 · a v0.217 subiu de 166 para 168 e nao reescreveu a base — o aviso ja
+    #       tocava no commit dela. Uma esta itemizada, o `conferir-acao.py` que a
+    #       peca 14 passou a citar; a outra nao saiu do diff daquela versao e fica
+    #       declarada como nao-itemizada, que e melhor do que inventar a causa.
+    #   1 · esta versao: a citacao do `40-fundamento.md` na peca 14 virou CAMINHO.
+    #       A v0.217 escreveu ela como nome pelado, e nome sem barra nao e caminho —
+    #       entao ela caiu como ponteiro PENDURADO e travou o subir.sh. O conserto
+    #       foi por o caminho, e nao alargar o padrao: ela e' a familia "caminho na
+    #       arvore da FONTE", arquivo que existe e nao vai para a entrega.
+    BRANCAS_AQUI, FOLGA = 169, 5
     PISO_CITACOES, TETO_BRANCOS = 120, BRANCAS_AQUI + FOLGA
     if vistos_e < PISO_CITACOES:
         erro(f'7.2: achei so {vistos_e} citacoes na entrega, e o piso e {PISO_CITACOES} — '
@@ -1232,6 +1243,100 @@ else:
             else:
                 print(f'    [x] os {len(_arqs)} arquivos-fonte batem com a impressao '
                       f'digital do ultimo build')
+
+
+    # -- 7.6: o livro construido usou as FONTES do projeto? -----------------
+    #
+    # Nasceu na v0.218, de um defeito que ja tinha ido para o commit. O README do
+    # livro escreve o modo de falha com todas as letras — "sem elas o WeasyPrint
+    # cai para uma fonte substituta e a diagramacao sai errada, SEM AVISAR" — e na
+    # v0.217 foi o que aconteceu: os dois PDFs publicados nao tem Spectral, nem
+    # Barlow Condensed, nem IBM Plex Mono. Eles tem DejaVu.
+    #
+    # As fontes moram em ~/.local/share/fonts/, que e' do usuario e nao do
+    # repositorio: um build que rode sem enxergar aquela pasta sai inteiro, bonito
+    # e errado. O sintoma visivel e' a paginacao — 283 paginas contra 256 —, e
+    # paginacao nao tem dono neste projeto, entao ninguem repara.
+    #
+    # A 7.5 pergunta se o build esta ATRASADO. Esta pergunta se ele esta CERTO.
+    # Sao eixos diferentes: um build recem-rodado passa na 7.5 e reprova aqui.
+    #
+    # Nenhum nome de fonte mora neste codigo: as familias saem do CSS, que e' quem
+    # as pede, e os PDFs conferidos sao os que o build regera.
+    print()
+    print('  7.6: o livro construido usou as fontes do projeto?')
+    _bdir = os.path.join(RAIZ, 'sistema', '05-material', 'livro')
+    _css = [os.path.join(_bdir, 'build', n) for n in ('manual.css', 'duas-colunas.css')]
+    _fam = []
+    for _c in _css:
+        if not os.path.isfile(_c):
+            continue
+        with open(_c, encoding='utf-8') as _f:
+            for _q in re.findall(r'font-family:\s*"([^"]+)"', _f.read()):
+                if _q.lower() not in _fam:
+                    _fam.append(_q.lower())
+
+    # o `-A-atual` fica de fora: e' snapshot declarado, e o README diz que ele nao
+    # se regera. Conferir artefato congelado e' cobrar do passado.
+    _pdfs = [os.path.join(_bdir, n) for n in
+             ('Projeto-M-Manual-da-Guilda.pdf',
+              'Projeto-M-Manual-da-Guilda-C-duas-colunas.pdf')]
+
+    def _norm76(s):
+        s = re.sub(r'^[A-Z]{6}\+', '', s)
+        return re.sub(r'\s+', ' ', s.replace('-', ' ').replace(',', ' ')).strip().lower()
+
+    if not _fam:
+        erro('7.6: nao li familia de fonte nenhuma do CSS do livro — o extrator '
+             'parou de casar e esta checagem passou a nao conferir nada')
+    else:
+        import shutil as _sh
+        import subprocess as _sp
+        if not _sh.which('pdffonts'):
+            aviso('7.6: `pdffonts` nao esta instalado (pacote poppler-utils), entao NAO '
+                  'foi conferido se os PDFs usam as fontes do projeto. Esta e a unica '
+                  'checagem pulada, e ela guarda um defeito que ja foi para o commit')
+        else:
+            _vistos76 = 0
+            for _p in _pdfs:
+                if not os.path.isfile(_p):
+                    erro(f'7.6: nao achei {os.path.basename(_p)}')
+                    continue
+                try:
+                    _saida = _sp.run(['pdffonts', _p], capture_output=True, text=True,
+                                     timeout=120).stdout
+                except Exception as _e:                       # noqa: BLE001
+                    erro(f'7.6: `pdffonts` falhou em {os.path.basename(_p)}: {_e}')
+                    continue
+                _nomes = [_norm76(l.split()[0]) for l in _saida.split('\n')[2:]
+                          if l.strip()]
+                if not _nomes:
+                    erro(f'7.6: {os.path.basename(_p)} nao declara fonte embutida nenhuma')
+                    continue
+                _vistos76 += 1
+
+                # 7.6a — toda familia que o CSS pede esta embutida
+                _faltam = [_f for _f in _fam
+                           if not any(_f in _n for _n in _nomes)]
+                if _faltam:
+                    erro(f'7.6: {os.path.basename(_p)} nao embute {_faltam} — o build '
+                         f'rodou sem enxergar ~/.local/share/fonts/ e caiu na fonte '
+                         f'substituta. Instale as fontes e rode os QUATRO builds')
+
+                # 7.6b — o outro eixo: a substituta apareceu no corpo ou no titulo?
+                # (so' Mono nao conta: o monoespacado cai em DejaVu por desenho)
+                _subs = sorted({_n for _n in _nomes
+                                if ('wenquanyi' in _n
+                                    or _n.startswith('dejavu serif')
+                                    or (_n.startswith('dejavu sans')
+                                        and 'mono' not in _n))})
+                if _subs:
+                    erro(f'7.6: {os.path.basename(_p)} embute a fonte substituta {_subs} '
+                         f'no corpo ou no titulo — foi assim que a v0.217 publicou dois '
+                         f'PDFs inteiros com a diagramacao errada')
+            if _vistos76 and not [_e for _e in FALHAS if _e.startswith('7.6')]:
+                print(f'    [x] os {_vistos76} PDFs regerados embutem as {len(_fam)} '
+                      f'familias que o CSS pede, e nenhuma substituta no corpo')
 
     print()
     print('  A entrega e artefato e nao tem validador proprio. Esta checagem e a unica')
@@ -2202,6 +2307,287 @@ else:
     print()
     print('  A checagem 7 pergunta se o RECORTE esta atualizado; esta pergunta se o')
     print('  CONTEUDO esta. Sao perguntas diferentes, e ate a v0.124 so uma tinha dono.')
+
+
+# --------------------------------------------------------------------------
+# 11. O `→ Continua em` — a linha de retomada do CHANGELOG.
+#
+# A regra mora na terceira linha do proprio CHANGELOG desde a v0.110: "Toda
+# entrada fecha com `→ Continua em`, uma linha dizendo onde o trabalho seguinte
+# pega". Ela nunca teve validador, e o que uma regra sem validador faz e' derivar:
+# das entradas que trazem a linha, a maioria esmagadora escreve `→ **Continua
+# em**` em NEGRITO e duas escrevem `→ Continua em` PELADO — e as duas peladas sao
+# as DUAS MAIS NOVAS. E' o retrato exato do que acontece quando a forma mora numa
+# frase de cabecalho e nao numa checagem: ela nao quebra, ela escorrega.
+#
+# Por isso a checagem aceita as DUAS grafias. Uma que so' aceitasse a maioria
+# nasceria reprovando as duas ultimas versoes; uma que so' aceitasse as duas
+# ultimas nasceria reprovando cem entradas historicas. Nenhuma das duas seria
+# defeito de verdade — o negrito nao muda para onde a linha aponta.
+#
+# ⚠ ELA NAO COBRA AS ENTRADAS HISTORICAS, E ISSO NAO E' FROUXIDAO HERDADA.
+# A v0.50 decidiu por escrito nao reescrever historico do CHANGELOG para esconder
+# erro, e a checagem 5 obedece a mesma decisao com todas as letras ("Nada em
+# logs/ e conferido"). Existem entradas posteriores a decisao da v0.110 que nao
+# trazem a linha; retroativa-las seria INVENTAR para onde uma versao de meses
+# atras continuou, que e' fabricar registro e nao consertar defeito. Elas sao
+# contadas e impressas abaixo, com o nome, e nao acendem.
+#
+# O QUE ELA COBRA E' A ENTRADA DO TOPO — a versao que esta sendo fechada agora.
+# Toda versao passa pelo topo exatamente uma vez, no commit dela, entao cobrar so'
+# o topo cobra TODA versao daqui para a frente sem tocar em nenhuma de tras.
+#
+# E o que vale mais que a presenca e' o PONTEIRO. A linha existe para quem abre o
+# CHANGELOG numa conversa nova achar o ponto de retomada sem ler o repositorio
+# inteiro — entao uma linha que aponta para arquivo inexistente e' PIOR que linha
+# nenhuma, porque ela parece resposta e custa a conversa inteira para desmentir.
+# E' a mesma familia da 7.2, que travou o subir.sh por duas versoes por causa de
+# um nome de arquivo citado sem o caminho. A checagem 2 nao alcanca isto: ela
+# pula a pasta logs/ inteira, de proposito.
+print()
+bloco('11. A LINHA DE RETOMADA — o `→ Continua em` da entrada do topo')
+
+_CHG = os.path.join(RAIZ, 'logs', 'CHANGELOG.md')
+_txt11 = open(_CHG, encoding='utf-8').read()
+_lin11 = _txt11.split('\n')
+_cab11 = [_i for _i, _l in enumerate(_lin11) if re.match(r'^## \[', _l)]
+
+# a forma da linha, com o negrito OPCIONAL — as duas grafias, um so' padrao
+_RX_CONT = re.compile(r'^→\s+(\*\*)?Continua em(\*\*)?\s')
+
+if not _cab11:
+    erro('11: nao achei nenhuma entrada `## [versao]` no CHANGELOG')
+else:
+    # a versao a partir da qual a regra vale sai do PROPRIO cabecalho do
+    # CHANGELOG, e nao daqui: o dono da decisao e' quem diz quando ela comecou.
+    _m11 = re.search(r'Decisão do Mizuki na v(\d+\.\d+):', _txt11[:_cab11[0] and
+                                                                 sum(len(x) + 1 for x in _lin11[:_cab11[0]])])
+    if not _m11:
+        erro('11: o cabecalho do CHANGELOG nao diz mais em que versao a linha '
+             '`→ Continua em` foi decidida — a checagem lia o piso de la')
+        _piso11 = None
+    else:
+        _piso11 = tuple(int(x) for x in _m11.group(1).split('.'))
+        print(f'  a regra vale da v{_m11.group(1)} para ca — lido do cabecalho do CHANGELOG.')
+
+    def _entrada11(_k):
+        _i = _cab11[_k]
+        _f = _cab11[_k + 1] if _k + 1 < len(_cab11) else len(_lin11)
+        _v = re.match(r'^## \[([^\]]+)\]', _lin11[_i]).group(1)
+        _uteis = [_l for _l in _lin11[_i:_f] if _l.strip() and _l.strip() != '---']
+        return _v, _uteis
+
+    _negrito11 = _pelado11 = 0
+    _sem11 = []
+    for _k in range(len(_cab11)):
+        _v, _uteis = _entrada11(_k)
+        _achou = [(_j, _l) for _j, _l in enumerate(_uteis) if _RX_CONT.match(_l)]
+        if not _achou:
+            if _piso11 and tuple(int(x) for x in _v.split('.')) >= _piso11:
+                _sem11.append(_v)
+            continue
+        _j, _l = _achou[-1]
+        if _l.startswith('→ **'):
+            _negrito11 += 1
+        else:
+            _pelado11 += 1
+
+    print(f'  {len(_cab11)} entradas no arquivo, {_negrito11 + _pelado11} com a linha: '
+          f'{_negrito11} em `→ **Continua em**` e {_pelado11} em `→ Continua em`.')
+    print('  As duas grafias passam. O negrito nao muda para onde a linha aponta.')
+    if _sem11:
+        print(f'  {len(_sem11)} entrada(s) posterior(es) a decisao SEM a linha, e elas ficam '
+              f'como estao: {", ".join("v" + _x for _x in _sem11)}')
+        print('  (a v0.50 decidiu nao reescrever historico do CHANGELOG; retroativar a '
+              'linha delas seria inventar para onde aquela versao continuou)')
+
+    # --- o topo, que e a versao sendo fechada agora, e essa acende -----------
+    _vtopo, _utopo = _entrada11(0)
+    _achou_topo = [(_j, _l) for _j, _l in enumerate(_utopo) if _RX_CONT.match(_l)]
+    if not _achou_topo:
+        erro(f'11: a entrada do topo (v{_vtopo}) nao fecha com a linha '
+             f'`→ Continua em` — quem abrir o CHANGELOG numa conversa nova nao '
+             f'acha o ponto de retomada')
+    else:
+        _j, _ltopo = _achou_topo[-1]
+        if _j != len(_utopo) - 1:
+            erro(f'11: na v{_vtopo} a linha `→ Continua em` nao e a ultima da '
+                 f'entrada — vem {len(_utopo) - 1 - _j} linha(s) depois dela, e a '
+                 f'regra do cabecalho diz que a entrada FECHA com ela')
+        else:
+            print(f'  [x] a v{_vtopo} fecha com a linha, e ela e a ultima da entrada')
+
+        # o ponteiro tem de resolver. A 2 pula logs/ inteiro, entao ninguem mais
+        # olha para este.
+        _alvos11 = [_c.strip() for _c in re.findall(r'`([^`\n]+)`', _ltopo)]
+        _arqs11 = [_c for _c in _alvos11 if re.search(r'\.(md|py|js|docx|pdf|sh|json|txt)$', _c)]
+        if not _arqs11:
+            erro(f'11: a linha `→ Continua em` da v{_vtopo} nao nomeia arquivo '
+                 f'nenhum entre crases — ela aponta para o documento dono da fila, '
+                 f'e sem o nome ela nao aponta para lugar nenhum')
+        for _a11 in _arqs11:
+            if os.path.basename(_a11) == 'CHANGELOG.md':
+                erro(f'11: a linha `→ Continua em` da v{_vtopo} aponta para o '
+                     f'proprio CHANGELOG — a retomada tem de sair daqui, e nao '
+                     f'voltar para ca')
+                continue
+            _tent11 = [os.path.join(RAIZ, _a11),
+                       os.path.join(RAIZ, 'sistema', _a11),
+                       os.path.join(RAIZ, 'sistema', '03-mecanica', _a11),
+                       os.path.join(RAIZ, 'logs', _a11)]
+            if any(os.path.exists(_x) for _x in _tent11) or \
+                    os.path.basename(_a11) in TODOS_OS_NOMES:
+                print(f'  [x] o ponteiro da v{_vtopo} resolve: `{_a11}`')
+            else:
+                erro(f'11: a linha `→ Continua em` da v{_vtopo} manda abrir '
+                     f'`{_a11}`, e ele nao existe em lugar nenhum — e a mesma '
+                     f'familia da 7.2, e ela parece resposta ate alguem tentar')
+
+    print()
+    print('  A checagem 2 confere caminho citado em .md e PULA a pasta logs/ inteira,')
+    print('  de proposito. Esta e a unica que olha o ponteiro do CHANGELOG, e ela olha')
+    print('  so o do topo — que e o unico que alguem vai seguir.')
+
+
+
+# --------------------------------------------------------------------------
+# 12. AS MELHORIAS DO LIVRO CONTRA AS DO MANUAL.
+#
+# A `Sobrecarga` divergia entre os dois desde antes da v0.217 — `Leve` no manual
+# e `Pesada` no livro — e sobreviveu porque NENHUMA checagem olhava para ali. A
+# 10 compara o livro com as PECAS; a 4 compara numero que mora em dois
+# documentos. A tabela de Melhorias nao e' nenhum dos dois casos: ela mora no
+# manual, e' copiada inteira no capitulo `40-fundamento.md`, e as duas copias
+# nunca tiveram quem as encostasse uma na outra.
+#
+# Quando alguem finalmente diffou as oitenta, o preco nao estava sozinho: vinte e
+# quatro TEXTOS divergiam junto, e quinze deles mudam o que acontece na mesa —
+# tres trocam um numero (`Fura`, `Enfraquece`, `Abre Ferida`). E' a licao no 9 no
+# formato mais caro dela: nao um numero com dois donos, uma TABELA com dois.
+#
+# O DONO E' O `partD.js`, e nao o `.docx`: o `make.js` regenera o `.docx` a partir
+# dele, e a conferencia da v0.219 mostrou que a geracao segura — o `.docx`
+# concordou com o `partD.js` nas quinze mecanicas. A divergencia e' de dois lados.
+#
+# ⚠ ELA NAO CONSERTA NADA, E NAO PODIA. Decidir qual dos dois lados vence e'
+# decisao de REGRA, e o Mizuki separou as duas coisas com todas as letras: "qual
+# das duas vale e decisao minha, mas eu quero a MEDIDA antes". Uma checagem que
+# nascesse exigindo os dois lados iguais reprovaria vinte e quatro linhas de uma
+# vez e travaria o commit ate alguem tomar vinte e quatro decisoes de regra — e' o
+# mesmo defeito que a checagem do `→ Continua em` teria se so' aceitasse uma
+# grafia.
+#
+# ENTAO A LISTA E' O DONO, E ELA NAO MORA AQUI. Ela e a tabela da oitava passada
+# do `ESTADO-revisao.md`, com uma coluna `estado`:
+#   `aberta`            -> a divergencia e conhecida e PASSA
+#   `fechada na vX.YYY` -> os dois lados TEM de dizer a mesma coisa, e acende se um
+#                          deles escorregar de volta
+# Divergencia que nao esteja na tabela acende sempre. E' assim que a lista encolhe
+# sem nunca deixar entrar uma nova pelas costas.
+print()
+bloco('12. AS MELHORIAS — o livro contra o manual, que e o dono')
+
+_PARTD = os.path.join(RAIZ, 'manual', 'gerador', 'partD.js')
+_FUND = os.path.join(RAIZ, 'sistema', '05-material', 'livro', 'manual', '40-fundamento.md')
+_REVI = os.path.join(RAIZ, 'sistema', '05-material', 'livro', 'ESTADO-revisao.md')
+_TIERS12 = ('Leve', 'Média', 'Pesada')
+
+
+def _norm12(_s):
+    """tira a marcacao e uniformiza traco e espaco — nunca conteudo.
+
+    O aviso vem da v0.218: uma sonda mais frouxa que a afirmacao mede outra coisa.
+    Aqui o alvo e' o TEXTO da regra, entao crase, negrito e italico saem (sao
+    formato de dois arquivos diferentes) e nada mais sai. `pra` continua diferente
+    de `para` de proposito: se a tabela chama isso de cosmetico, quem decide e a
+    tabela, e nao o normalizador.
+    """
+    _s = _s.replace('`', '').replace('**', '').replace('*', '')
+    _s = _s.replace('−', '-').replace('–', '-').replace('—', '-')
+    _s = unicodedata.normalize('NFC', _s)
+    return re.sub(r'\s+', ' ', _s).strip().rstrip('.')
+
+
+if not (os.path.exists(_PARTD) and os.path.exists(_FUND) and os.path.exists(_REVI)):
+    _falta12 = [rel(_x) for _x in (_PARTD, _FUND, _REVI) if not os.path.exists(_x)]
+    PULADAS.append('12 — nao achei ' + ', '.join(_falta12))
+    print('  ~~ PULADA: ' + ', '.join(_falta12))
+else:
+    _man12, _liv12 = {}, {}
+    for _m in re.finditer(r"\[\s*'([^']+)',\s*'([^']+)',\s*'((?:[^'\\]|\\.)*)'\s*\]",
+                          open(_PARTD, encoding='utf-8').read()):
+        if _m.group(2) in _TIERS12:
+            _man12[_m.group(1)] = (_m.group(2), _m.group(3).replace("\\'", "'"))
+    for _m in re.finditer(r'^\| `([^`]+)` \| `([^`]+)` \| ([^|]+?) \|\s*$',
+                          open(_FUND, encoding='utf-8').read(), re.M):
+        if _m.group(2) in _TIERS12:
+            _liv12[_m.group(1)] = (_m.group(2), _m.group(3).strip())
+
+    # guarda de extrator: os dois lados precisam ter achado gente. Um regex que
+    # para de casar devolve dicionario vazio e a checagem fica VERDE de graca —
+    # foi exatamente esse defeito que a guarda de contagem pegou na v0.218.
+    if len(_man12) < 50 or len(_liv12) < 50:
+        erro(f'12: o extrator achou {len(_man12)} Melhoria(s) no manual e '
+             f'{len(_liv12)} no livro, e sao oitenta — uma das duas tabelas mudou '
+             f'de forma, e a checagem ficaria verde sem comparar nada')
+    else:
+        print(f'  {len(_man12)} Melhorias no manual (`partD.js`, o dono) e '
+              f'{len(_liv12)} no livro (`40-fundamento.md`).')
+
+        # a lista declarada, lida do dono dela
+        _lista12 = {}
+        for _m in re.finditer(r'^\| `([^`]+)` \| [^|]+ \| [^|]+ \| (aberta|fechada[^|]*) \|\s*$',
+                              open(_REVI, encoding='utf-8').read(), re.M):
+            _lista12[_m.group(1)] = _m.group(2).strip()
+        if not _lista12:
+            erro('12: nao achei a tabela de divergencias declaradas no '
+                 'ESTADO-revisao.md — sem ela a checagem nao sabe o que ja e '
+                 'conhecido, e reprovaria tudo de uma vez')
+        else:
+            _abertas12 = sum(1 for _e in _lista12.values() if _e == 'aberta')
+            print(f'  {len(_lista12)} divergencia(s) declarada(s) no ESTADO-revisao.md: '
+                  f'{_abertas12} aberta(s), {len(_lista12) - _abertas12} fechada(s).')
+
+            _so_um12 = sorted(set(_man12) ^ set(_liv12))
+            for _n12 in _so_um12:
+                _onde = 'so no manual' if _n12 in _man12 else 'so no livro'
+                erro(f'12: a Melhoria `{_n12}` esta {_onde} — as duas tabelas '
+                     f'publicam o mesmo catalogo')
+
+            _novas12, _voltou12, _resolvidas12 = [], [], []
+            for _n12 in sorted(set(_man12) & set(_liv12)):
+                _tm, _xm = _man12[_n12]
+                _tl, _xl = _liv12[_n12]
+                _difere = (_tm != _tl) or (_norm12(_xm) != _norm12(_xl))
+                _estado = _lista12.get(_n12)
+                if _difere and _estado is None:
+                    _novas12.append((_n12, 'o DEGRAU' if _tm != _tl else 'o texto'))
+                elif _difere and _estado != 'aberta':
+                    _voltou12.append((_n12, _estado))
+                elif not _difere and _estado == 'aberta':
+                    _resolvidas12.append(_n12)
+
+            for _n12, _o12 in _novas12:
+                erro(f'12: `{_n12}` diverge entre o manual e o livro em {_o12}, e ela '
+                     f'NAO esta na tabela do ESTADO-revisao.md — divergencia nova entra '
+                     f'declarada ou nao entra')
+            for _n12, _e12 in _voltou12:
+                erro(f'12: `{_n12}` esta marcada "{_e12}" e os dois lados voltaram a '
+                     f'discordar — decisao fechada que nao ficou aplicada dos dois lados')
+            if _resolvidas12:
+                aviso(f'12: {len(_resolvidas12)} linha(s) marcada(s) `aberta` em que o '
+                      f'manual e o livro ja concordam: ' + ', '.join(f'`{_x}`' for _x in _resolvidas12)
+                      + ' — feche a linha no ESTADO-revisao.md, senao a checagem para de '
+                        'cobrar justamente as que ja foram decididas')
+            if not (_so_um12 or _novas12 or _voltou12):
+                print(f'  [x] as {len(set(_man12) & set(_liv12))} Melhorias comuns batem, '
+                      f'ou divergem por linha declarada `aberta`')
+
+    print()
+    print('  O dono e o `partD.js`; o `.docx` sai dele pelo `make.js` e o livro e copia.')
+    print('  Quem decide QUAL lado vence e regra, e nao validador — esta so garante que')
+    print('  nenhuma divergencia nova entre calada, e que decisao fechada fique aplicada.')
+
 
 # --------------------------------------------------------------------------
 print()

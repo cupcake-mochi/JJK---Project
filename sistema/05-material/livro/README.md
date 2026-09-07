@@ -31,8 +31,8 @@ PDF"*. É esse PDF, escrito direto a partir desta pasta.
 | | páginas | o que ela é |
 |---|---|---|
 | `-A-atual` | 256 | o que estava publicado antes desta leva. Snapshot, não se regera |
-| *(sem sufixo)* | 242 | a mesma coisa, com as quebras de página consertadas e o sumário em duas colunas |
-| `-C-duas-colunas` | 140 | corpo em duas colunas a 9,4pt com entrelinha 1,45, e grade de 5+ colunas em largura inteira |
+| *(sem sufixo)* | 256 | a mesma coisa, com as quebras de página consertadas e o sumário em duas colunas |
+| `-C-duas-colunas` | 149 | corpo em duas colunas a 9,4pt com entrelinha 1,45, e grade de 5+ colunas em largura inteira |
 
 > **⚠ Estas duas contagens envelhecem toda vez que o livro muda, e não têm validador.** *Elas diziam `239` e `139` até a v0.178, e nesse meio-tempo a v0.176 já as tinha levado para `239` e `138` sem ninguém corrigir aqui.* **O aviso provou-se em DUAS versões seguidas:** *a v0.179 acrescentou cinco linhas ao capítulo 7 e a coluna única foi de `240` para `241`; a v0.180 reescreveu a ficha da invocação e ela foi para `242`.* **Três versões, três correções à mão** — se isso acontecer uma quarta vez, a resposta deixa de ser corrigir e passa a ser tirar a coluna daqui. **A paginação não é propriedade de documento nenhum — é do artefato construído**, e a decisão da v0.169 foi tirar as cópias em vez de inventar um dono. *Esta tabela é a cópia que sobrou, e ela existe porque compara três diagramações; quem mexer no livro relê ela com `pdfinfo`.*
 

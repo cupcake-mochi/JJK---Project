@@ -1,5 +1,73 @@
 # Estado da revisão · Manual da Guilda
 
+## Oitava passada — v0.219, 07/09/2026
+
+**Esta não foi lida: foi diffada.** *A `Sobrecarga` divergia entre o manual e o livro desde antes da v0.217 — `Leve` de um lado, `Pesada` do outro —, e o pedido era medir qual das duas vale.* **Antes de medir uma, valeu a pena perguntar quantas eram.** *São vinte e cinco.*
+
+**As oitenta Melhorias do manual foram comparadas uma a uma com as setenta e nove do capítulo `40-fundamento.md`.** *Nome, degrau e texto.* **Um preço diverge, e vinte e quatro textos.**
+
+> **O `.docx` está do lado do manual nas dezesseis mecânicas.** *Ele é gerado pelo `make.js` a partir do `partD.js`, e a conferência mostra que a geração segura: a divergência é de DOIS lados, e não de três.* **Quem escorregou foi a cópia do livro.**
+
+### O que separa mecânica de cosmética aqui
+
+**Cosmética é `pra` contra `para`, vírgula contra travessão, `TR` contra `Teste de Resistência`.** *Nove das vinte e cinco são isso, e nenhuma muda o que acontece na mesa.*
+
+**Mecânica é qualquer uma em que dois mestres que nunca conversaram chegam a números diferentes.** *Dezesseis são isso, e três delas trocam um número:*
+
+- o **`Fura`** ignora `3 × Classe` de Redução de Dano no manual e `2 × Classe` no livro
+- o **`Enfraquece`** derruba o dano do alvo **um quarto** no manual e **`Xd4`** no livro, com `X` sendo metade do atributo de técnica — não é o mesmo tamanho nem a mesma forma, porque um é fração e o outro é dado
+- o **`Abre Ferida`** dá `−2` em **Testes de Resistência** no manual e em **um** Teste de Resistência no livro
+
+**As outras doze são de escopo, e escopo é preço.** *Uma Melhoria que declara um limite a mais do que a outra é uma Melhoria mais barata.*
+
+> **⚠ E uma delas não é divergência de regra, é de estado:** *o livro publica o **`Armado`** com **"(Em revisão — não usar.)"** colado no texto, e o manual publica ele como Melhoria normal.* **O jogador que abrir o livro não pode usar uma coisa que o manual vende.**
+
+### A lista, e a coluna que decide
+
+**Nenhuma linha aqui diz quem vence.** *Isso é decisão de regra, e ela é do Mizuki — foi ele que separou as duas coisas no pedido: "qual das duas vale é decisão minha, mas eu quero a MEDIDA antes".* **A coluna `estado` é `aberta` nas vinte e cinco, e é ela que a checagem 12 do `conferir-repositorio.py` lê.**
+
+> **Enquanto uma linha está `aberta`, a checagem DEIXA a divergência passar.** *Quando ela virar `fechada na vX.YYY`, a checagem passa a EXIGIR que os dois lados digam a mesma coisa — e acende se um deles voltar a escorregar.* **E qualquer divergência que apareça sem estar nesta tabela acende na hora, aberta ou fechada.**
+
+| Melhoria | o que diverge | mecânica | estado |
+|---|---|---|---|
+| `Sobrecarga` | o DEGRAU: `Leve` no manual, `Pesada` no livro. É a única de preço | **sim** | aberta |
+| `Fura` | ignora `3 × Classe` de Redução de Dano no manual, `2 × Classe` no livro | **sim** | aberta |
+| `Enfraquece` | o dano do alvo cai *um quarto* no manual e `Xd4` no livro | **sim** | aberta |
+| `Abre Ferida` | `−2` em *Testes de Resistência* no manual, em *um* Teste no livro | **sim** | aberta |
+| `Remenda` | o manual devolve junto a vida máxima derrubada e limita *uma vez por cena*; o livro não devolve a vida máxima e limita *uma vez por cena, por alvo* | **sim** | aberta |
+| `Toca a Alma` | o portão: Regra que *encosta em alma, mente ou conceito* no manual, Regra *direta sobre alma* no livro | **sim** | aberta |
+| `Peso Morto` | o livro cobra também `−1` no Teste de Resistência Físico; o manual não | **sim** | aberta |
+| `Prende` | o livro diz qual ação solta — *qualquer uma, menos livre* — e que o Teste se escolhe na criação; o manual cala | **sim** | aberta |
+| `Rasga Escudo` | o livro declara que NÃO ignora Redução de Dano; o manual cala | **sim** | aberta |
+| `Remate` | o livro veta também Condicional ligada à duração; o manual só à vida do alvo | **sim** | aberta |
+| `Anteparo` | o livro diz que o tamanho da parede depende da Forma; o manual cala | **sim** | aberta |
+| `Silencioso` | o livro declara que não ignora o seu Selo; o manual cala | **sim** | aberta |
+| `Parado` | o manual declara que *a ação bônus continua sua*; o livro cala — e é o mesmo eixo em que o `Ferrolho` foi repreçado na v0.218 | **sim** | aberta |
+| `Sem Cobertura` | o manual explica que a Total *não se fura, é a ausência de alvo legal*; o livro escreve que ela *continua fazendo efeito normalmente* | **sim** | aberta |
+| `Assinatura` | a marca *aponta pra você* no manual; no livro ela *deixa clara a sua posição para quem sentir energia* | **sim** | aberta |
+| `Armado` | o livro carrega `(Em revisão — não usar.)`; o manual publica como Melhoria normal | **sim** | aberta |
+| `Carregar` | `de Espírito`, `para`, e o livro corta o *"o feitiço ainda não saiu"* que explica por que não é concentração | não | aberta |
+| `Certeiro` | `pra` contra `para` | não | aberta |
+| `Desarma o Feitiço` | *menor que o seu* contra *menor que a sua* — concordância, e Classe é feminino | não | aberta |
+| `Dívida` | vírgula no manual, travessão no livro | não | aberta |
+| `Estilhaço` | *erra* o Teste no manual, *falha* no livro | não | aberta |
+| `Perseguir` | *antes do feitiço resolver* contra *antes de o feitiço concluir* | não | aberta |
+| `Salto` | `pro` contra `para o` | não | aberta |
+| `Sangra` | *que nada reduz* contra *que não pode ser reduzido* | não | aberta |
+| `Tudo ou Nada` | `TR` contra `Teste de Resistência` | não | aberta |
+
+### Por que isso não tinha dono
+
+**A checagem 10 do `conferir-repositorio.py` compara o livro com as PEÇAS, e a 4 compara número que mora em dois documentos.** *A tabela de Melhorias não é nenhum dos dois: ela mora no manual e é copiada no livro, e os dois são cópia de um terceiro lugar nenhum.* **Ninguém olhava.**
+
+*É a lição nº 9 no formato mais caro dela — não um número, uma tabela inteira de oitenta linhas.*
+
+### Duas contagens que envelheceram nesta mesma página
+
+**A tabela de arquivos lá embaixo dizia `230 páginas` e `18 arquivos`.** *O livro tem `256` e a pasta tem `21`.* **As duas saíram, e não foram corrigidas:** *número sem dono não se atualiza, se apaga.* **A paginação já foi diagnosticada como órfã na v0.218**, e a contagem de arquivos tem dono — é a checagem 10, que conta `21` sozinha.
+
+---
+
 ## Sétima passada — v0.148, 25/08/2026
 
 **Pedida com o livro já fechado**, e o recorte era o que o pedido dava: *"novos textos foram adicionados sem revisão"*. **336 linhas que entraram depois da v0.137**, em 19 dos 20 arquivos.
@@ -920,10 +988,10 @@ adicionada ao stage.
 
 | arquivo | o que é |
 |---|---|
-| `Projeto-M-Manual-da-Guilda.pdf` | o livro, 230 páginas |
+| `Projeto-M-Manual-da-Guilda.pdf` | o livro, em coluna única |
 | `Projeto-M-Manual-da-Guilda-REVISAO.docx` | mesmo conteúdo sem diagramação, para comentar |
 | `Projeto-M-Manual-da-Guilda-TEXTO.md` | texto corrido, para diff e Ctrl+F |
-| `manual/*.md` | a fonte, 18 arquivos. É aqui que se edita |
+| `manual/*.md` | a fonte. É aqui que se edita |
 | `manual/07-glossario.md` | o glossário |
 | `manual/08-inicio-rapido.md` | o quick-start |
 | `build/build.py` | markdown → PDF. Gera o índice remissivo |

@@ -138,7 +138,7 @@ Treze são uma por categoria de arma; a décima quarta se leva **no lugar** da s
 
 ## 7. O que o `conferir-catalogo.py` confere
 
-Quinze checagens. **Nenhuma guarda valor:** os nomes saem das tabelas desta peça e os textos saem dos `DESENHO-*.md`.
+Dezesseis checagens. **Nenhuma guarda valor:** os nomes saem das tabelas desta peça e os textos saem dos `DESENHO-*.md`.
 
 | # | a checagem | o que ela pega |
 |---|---|---|
@@ -148,9 +148,15 @@ Quinze checagens. **Nenhuma guarda valor:** os nomes saem das tabelas desta peç
 | **4** | todo nome em degrau dos `DESENHO` aparece aqui | entrada nova que ninguém indexou |
 | **5** | toda entrega de Trilha com nome tem bloco de regra escrito | preço sem texto de mesa — o furo que o Guia tinha até a v0.84 |
 | **6** | **bloco de regra não contradiz o gate da linha de preço** | **a `Estocada`**: linha de preço com gate e bloco dizendo `sempre` |
-| **7** | a contagem de peças e validadores desta pasta é `20` | peça ou validador novo entrando sem os três documentos subirem |
+| **7** | a contagem de peças e validadores desta pasta bate com a que os três documentos publicam | peça ou validador novo entrando sem os três documentos subirem |
 | **8** | todo documento vivo que cita o total concorda com o contado | **esta peça virando a segunda fonte do próprio número** |
 | **9** | toda `Classe` que a linha de preço cobra aparece no bloco de regra | **a `Brasa`**: preço de `Classe 3` com o bloco publicando `Classe 2` |
+
+**A DÉCIMA SEXTA entrou na v0.218, e ela existe porque a décima segunda soma faixa com faixa sem perguntar de quem cada uma é.** *As duas entregas de faixa da rota `Arma de Fogo` — o `Ferrolho` e o `Descarga` — estão presas ao mesmo `X` de balas da peça 14, e em sentidos opostos: quem leva `X` alto ganha no `Descarga` e perde no `Ferrolho`.* **Somando as pontas soltas, a 12 aceita `4,44` a `5,50` — e arma nenhuma ocupa esse intervalo.** *As armas de verdade fecham `4,78` a `5,16`.*
+
+> **É a checagem que teria pego a v0.217.** *Lá o `Ferrolho` foi para `0,00`, o total da rota caiu para `4,20` e saiu da banda de escrita de `4,50` a `5,00`, e nada comparou o total com a arma que o produz.* **A 12 ficou verde o tempo todo**, porque `4,20` cabia no envelope das pontas soltas.
+>
+> **Ela tem quatro metades, e a última não é enfeite:** *cada total sai das quatro entregas da própria arma; a faixa do cabeçalho é o intervalo das armas; as pontas da linha de preço são as colunas da tabela das armas;* **e o `Ferrolho` tem de encolher com o `X` enquanto o `Descarga` cresce.** *Sem a quarta, duas faixas crescentes passariam nas outras três, e o argumento de que as pontas se aproximam viraria frase sem conta atrás.*
 
 **A DÉCIMA SEGUNDA entrou na v0.131, e o buraco dela não era número divergindo de número: era número que NÃO EXISTIA.** *A linha do nível 2 da `Torrente` publicava `(a base)` na coluna de fatias — texto onde as outras 55 linhas têm número —, e com isso uma entrega de `2,87` fatias ficou cinquenta versões fora do total da Trilha dela.* **O `(a base)` aparecia UMA vez no `DESENHO-trilhas.md` inteiro.**
 

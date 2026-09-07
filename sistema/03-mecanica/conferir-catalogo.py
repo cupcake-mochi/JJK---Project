@@ -1045,6 +1045,155 @@ else:
     else:
         print('  [x] nenhuma Trilha do Evocador domina outra pelas colunas.')
 
+
+# ================================================================ 16. O EIXO DO X
+# v0.218: a checagem 12 soma o minimo de cada linha de preco com o minimo de cada
+# outra. Nas duas faixas da `Arma de Fogo` isso da um envelope que arma nenhuma
+# ocupa: o `Ferrolho` e o `Descarga` se penduram os DOIS no X de balas da peca 14,
+# e em sentidos opostos — quem leva X alto ganha no `Descarga` e perde no
+# `Ferrolho`. A 12 devolvia `4,44 a 5,50`; as armas de verdade fecham `4,78 a 5,16`.
+#
+# Esta e a checagem que teria pego a v0.217: la o `Ferrolho` foi a `0,00`, o total
+# caiu para `4,20` e nada comparou o total com a arma que o produz.
+#
+# Nenhum valor mora aqui. As fatias saem da tabela de preco, os pares (arma, X)
+# saem da tabela das duas pontas, e a faixa publicada sai do cabecalho da secao.
+print('\n' + '=' * 88)
+print('16. O EIXO DO X — as duas faixas da `Arma de Fogo` sao a MESMA variavel')
+print('=' * 88)
+print('  A 12 confere que o total cabe entre as pontas soltas. Esta confere que ele')
+print('  sai de UMA arma: mesmo X nas duas faixas, na mesma linha.')
+
+# LIMITE DE DESIGN, declarado a parte da regra aplicada (licao no 8): quatro celulas
+# arredondadas em centavo somam no maximo 0,02 longe do total escrito.
+TOL_LINHA_16 = 0.02
+
+_sec16 = [(r, ab) for r, ab in SECAO.items() if 'arma de fogo' in r.lower()]
+if len(_sec16) != 1:
+    erro('16', f'achei {len(_sec16)} secao(oes) de `Arma de Fogo` no DESENHO-trilhas.md '
+               f'e esperava uma — o extrator da 16 perdeu a rota que ela confere')
+else:
+    _r16, (_a16, _b16) = _sec16[0]
+
+    # -- as quatro linhas de preco da rota, por nivel
+    _preco16 = {}
+    for _i in range(_a16, _b16):
+        _m = re.match(r'^\|\s*\*\*(2|11|19|27)\*\*\s*\|', TRI[_i])
+        if not _m:
+            continue
+        _c = [x.strip() for x in TRI[_i].strip().strip('|').split('|')]
+        _preco16[_m.group(1)] = _fatias_da_celula(_c[-1])
+
+    # -- a tabela das duas pontas: cabecalho com arma, X, as duas faixas e o total
+    _cab16 = None
+    for _i in range(_a16, len(TRI)):
+        _l = TRI[_i].lower()
+        if (_l.startswith('|') and 'arma' in _l and 'ferrolho' in _l
+                and 'descarga' in _l and 'total' in _l):
+            _cab16 = _i
+            break
+
+    if _cab16 is None:
+        erro('16', 'nao achei a tabela que cruza arma, X e as duas faixas — sem ela o '
+                   'total da rota volta a ser a soma de pontas de armas diferentes')
+    elif sorted(_preco16) != ['11', '19', '2', '27']:
+        erro('16', f'li {sorted(_preco16)} niveis de preco na rota e esperava os quatro')
+    else:
+        _cols16 = [c.strip().lower() for c in TRI[_cab16].strip().strip('|').split('|')]
+        _iX = next((j for j, c in enumerate(_cols16) if c.strip('`* ') == 'x'), None)
+        _iF = next((j for j, c in enumerate(_cols16) if 'ferrolho' in c), None)
+        _iD = next((j for j, c in enumerate(_cols16) if 'descarga' in c), None)
+        _iT = next((j for j, c in enumerate(_cols16) if 'total' in c), None)
+
+        if None in (_iX, _iF, _iD, _iT):
+            erro('16', 'a tabela das duas pontas perdeu uma das quatro colunas '
+                       '(arma/X, `Ferrolho`, `Descarga`, total)')
+        else:
+            # a tabela das pontas mora DEPOIS da matriz da Vanguarda, fora da secao
+            # da rota — entao o passeio vai ate a tabela acabar, e nao ate `_b16`.
+            _linhas16 = []
+            for _i in range(_cab16 + 1, len(TRI)):
+                if not TRI[_i].startswith('|'):
+                    if _linhas16:
+                        break
+                    continue
+                _c = [x.strip() for x in TRI[_i].strip().strip('|').split('|')]
+                if len(_c) <= max(_iX, _iF, _iD, _iT):
+                    continue
+                _mx = re.search(r'\d+', re.sub(r'[`*]', '', _c[_iX]))
+                if not _mx:
+                    continue
+                _linhas16.append((int(_mx.group(0)),
+                                  _fatias_da_celula(_c[_iF]),
+                                  _fatias_da_celula(_c[_iD]),
+                                  _fatias_da_celula(_c[_iT]),
+                                  _c[0][:34]))
+
+            _fixo = _preco16['11'][0] + _preco16['27'][0]
+            _cheias = [t for t in _linhas16 if t[1] and t[2] and t[3]]
+
+            # guarda de extrator: sem duas linhas cheias esta checagem nao confere nada
+            if len(_cheias) < 2:
+                erro('16', f'so li {len(_cheias)} linha(s) completa(s) de {len(_linhas16)} '
+                           f'na tabela das duas pontas, e as pontas sao duas — o extrator '
+                           f'parou de casar e a checagem ficou verde de graca')
+            else:
+                # 16.1 — cada total sai da MESMA arma: X igual nas duas faixas
+                _ok16 = True
+                for _X, _f, _d, _t, _nome in _cheias:
+                    _soma = _f[0] + _fixo + _d[0]
+                    if abs(_soma - _t[0]) > TOL_LINHA_16:
+                        _ok16 = False
+                        erro('16', f'{_nome} (X={_X}): a linha publica {_t[0]:.2f} e as '
+                                   f'quatro entregas dela somam {_soma:.2f} — o total nao '
+                                   f'sai de uma arma so')
+                if _ok16:
+                    print(f'  [x] {len(_cheias)} arma(s) conferida(s): o total de cada uma '
+                          f'sai das quatro entregas DELA.')
+
+                # 16.2 — a faixa do cabecalho e o intervalo das armas, e nao das pontas
+                _tot = sorted(t[3][0] for t in _cheias)
+                _mh = re.search(r'((?:\d+,\d{2}(?:\s+a\s+)?)+)[`\s*]*de[`\s*]*\s*\d+,\d{2}',
+                                re.sub(r'[`*]', '', TRI[_a16]))
+                if not _mh:
+                    erro('16', 'o cabecalho da rota parou de publicar a faixa de fatias')
+                else:
+                    _pub16 = sorted(float(x.replace(',', '.'))
+                                    for x in re.findall(r'\d+,\d{2}', _mh.group(1)))
+                    if [round(x, 2) for x in _pub16] != [round(_tot[0], 2),
+                                                         round(_tot[-1], 2)]:
+                        erro('16', f'o cabecalho publica {_pub16} e as armas fecham '
+                                   f'[{_tot[0]:.2f}, {_tot[-1]:.2f}]')
+                    else:
+                        print(f'  [x] a faixa publicada ({_pub16[0]:.2f} a {_pub16[-1]:.2f}) '
+                              f'e o intervalo das armas, nao o das pontas soltas.')
+
+                # 16.3 — as pontas da tabela de preco sao as colunas desta tabela
+                for _nv, _idx, _nome16 in (('2', 1, '`Ferrolho`'), ('19', 2, '`Descarga`')):
+                    _col = sorted(t[_idx][0] for t in _linhas16 if t[_idx])
+                    _cel = sorted(_preco16[_nv])
+                    if [round(x, 2) for x in (_col[0], _col[-1])] != [round(_cel[0], 2),
+                                                                      round(_cel[-1], 2)]:
+                        erro('16', f'a linha de preco do nivel {_nv} publica {_cel} e a '
+                                   f'coluna {_nome16} da tabela das armas vai de '
+                                   f'{_col[0]:.2f} a {_col[-1]:.2f}')
+
+                # 16.4 — a anticorrelacao que a secao AFIRMA, conferida
+                # (contra-teste: sem ela, duas faixas crescentes passariam na 16.1 e na
+                #  16.2 e o argumento de "as pontas se aproximaram" seria falso)
+                _porX = sorted((t[0], t[1], t[2]) for t in _linhas16)
+                _fer = [t[1][0] for t in _porX if t[1]]
+                _des = [t[2][0] for t in _porX if t[2]]
+                if not all(a >= b for a, b in zip(_fer, _fer[1:])):
+                    erro('16', f'o `Ferrolho` deveria ENCOLHER com o X e a coluna vai '
+                               f'{_fer} — a rota perde a anticorrelacao que ela declara')
+                elif not all(a <= b for a, b in zip(_des, _des[1:])):
+                    erro('16', f'o `Descarga` deveria CRESCER com o X e a coluna vai '
+                               f'{_des} — a rota perde a anticorrelacao que ela declara')
+                else:
+                    print(f'  [x] `Ferrolho` {_fer} encolhe e `Descarga` {_des} cresce: as '
+                          f'duas faixas se cancelam, que e o que a secao afirma.')
+
 # ================================================================ veredito
 print('\n' + '=' * 88)
 if avisos:
