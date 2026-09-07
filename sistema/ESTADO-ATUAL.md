@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 07/09/2026, na v0.219 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e nove checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 07/09/2026, na v0.220 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e nove checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.219.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
+**Versão v0.220.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
 
 **A v0.207 deu ao capítulo de Invocações o passo a passo que o Fundamento tem para feitiço.** *O capítulo publicava a máquina inteira e nove montagens prontas, e o leitor via o resultado sem ver a conta — `12` pontos, cabe no nível 6, e de onde vem o `12` nenhuma linha mostrava.*
 
@@ -1281,27 +1281,31 @@ A skill `redacao-acessivel-rpg` existe exatamente para a travessia de "nota de d
 
 **E as dez pendências que só a mesa responde são todas de nível 2** — Constituição virou obrigatória, alguém usa ação bônus, Intuição contra Percepção, se quatro perícias livres é escolha demais, se alguém rola Pontaria, se o extra da Origem é escolha de igual para igual, se a criação leva mesmo vinte a quarenta minutos, se um Legado por ficha é pouco, se três lutas de graça é o número certo, e se o descanso curto devia devolver alguma vida. **Nenhuma delas precisa das aptidões.**
 
-## Onde estamos, e o que falta
+### A fila de agora — v0.220
 
-### A fila de agora — v0.219
+**Tudo aqui é DECISÃO TOMADA e CONSERTO NÃO FEITO.** *A v0.220 anotou e não consertou, por pedido dele.* **Quem pegar esta fila começa aplicando, e não decidindo.**
 
-**Três coisas na mesa, e a ordem é a que o Mizuki pediu.**
-
-| # | o que é | estado |
+| # | o que foi decidido | onde mexe |
 |---|---|---|
-| 1 | **O degrau da `Sobrecarga`** — `Leve` no manual, `Pesada` no livro | **medida, esperando decisão dele.** *A conta está na entrada da v0.219 do CHANGELOG: em `Leve` ela cai dentro da banda das `Leve` publicadas, em `Pesada` seria a pior compra do catálogo* |
-| 2 | ~~**Validador para o `→ Continua em`**~~ | **fechado na v0.219** — é a checagem `11` do `conferir-repositorio.py`, e ela aceita as duas grafias |
-| 3 | **Expansão sem barreira** | **levantamento feito, proposta não.** *`RASCUNHO-expansao-sem-barreira.md`: a obra separa três eixos que o manual amarrou num interruptor só, e a regra do choque está com o sinal trocado. O Mizuki disse que explica o problema* |
+| 1 | **O inimigo vai contar energia**, com poço semelhante ao do jogador | **peça 26 §6.1 cai**, e ela tem argumento escrito contra — *"criaria uma segunda economia que só o mestre opera"*. **Responder isso é parte do trabalho.** Depois: rodar de novo o `manual/matematica/sobrecarga.py` |
+| 2 | **`Fura` = `2 × Classe`, `Enfraquece` = `Xd4`, `Abre Ferida` = UM Teste** — o livro vence | `manual/gerador/partD.js` **e** o `.docx`, nos três. Depois, virar `fechada` na tabela do `ESTADO-revisao.md` |
+| 3 | **O domínio sem barreira para de perder por regra** | o capítulo da Expansão, no `partE.js` **e** no `40-fundamento.md`. *O mecanismo é o alcance, e não a inversão da regra* |
+| 4 | **O DejaVu Mono é defeito** | instalar as faces que faltam de IBM Plex Mono na pasta de fontes do usuário — só a `Regular` está lá — e rodar os **quatro** builds. *Nenhum rebuild sozinho resolve* |
+| 5 | **`B18` vai ser corrigido** | no outro repositório. *E o gerador Python é quem está atrás, não o `Ficha.gs`* |
 
-**E a leva abriu uma quarta, que não estava na fila:**
+**E uma que continua sendo pergunta, não decisão:**
 
-| o que é | estado |
+| | |
 |---|---|
-| **As vinte e cinco divergências entre o manual e o livro nas Melhorias** | **catalogadas e travadas contra piorar.** *Dezesseis são mecânicas, e três trocam um número — `Fura`, `Enfraquece` e `Abre Ferida`.* **A lista é a oitava passada do `sistema/05-material/livro/ESTADO-revisao.md`, e a checagem `12` a lê.** *Cada linha `aberta` é uma decisão de regra esperando o Mizuki; fechar uma é escrever `fechada na vX.YYY` na coluna, e a partir daí a checagem cobra os dois lados* |
+| **`B17`** | o campo `integridade_temp` existe na ficha e **nada no sistema concede integridade temporária**. *Ou alguma coisa deveria conceder, ou o campo sai da linha da Integridade.* **É desenho de sistema, e é dele** |
 
-> **⚠ E duas dívidas de antes continuam abertas:** *a paginação do PDF em coluna única ficou igual à do `-A-atual`, as duas em `256`* — **vale um olho antes de mexer no livro** —, *e a `Sobrecarga` ainda escreve "o dobro de energia", que é a frase que a v0.217 tirou da `Dívida` por dobrar zero.*
+**As outras vinte e duas divergências entre o manual e o livro continuam `aberta`.** *Dezesseis são mecânicas. A lista é a oitava passada do `sistema/05-material/livro/ESTADO-revisao.md`, e a checagem `12` a lê.*
+
+> **⚠ E duas dívidas de antes continuam abertas:** *a coincidência dos `256` entre o PDF de coluna única e o `-A-atual`* — **e agora ela tem uma variável a menos, porque os dois artefatos usam fontes diferentes** —, *e a `Sobrecarga` ainda escreve "o dobro de energia", que com o inimigo contando PE passa a ter alvo dos dois lados da mesa.*
 
 ---
+
+## Onde estamos, e o que falta
 
 
 A ordem de construção é a da seção 6 do `arquitetura.md`, e ela **acabou** — os seis passos estão fechados.

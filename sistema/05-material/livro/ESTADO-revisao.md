@@ -24,16 +24,26 @@
 
 ### A lista, e a coluna que decide
 
-**Nenhuma linha aqui diz quem vence.** *Isso é decisão de regra, e ela é do Mizuki — foi ele que separou as duas coisas no pedido: "qual das duas vale é decisão minha, mas eu quero a MEDIDA antes".* **A coluna `estado` é `aberta` nas vinte e cinco, e é ela que a checagem 12 do `conferir-repositorio.py` lê.**
+**Quem decide quem vence é o Mizuki** — foi ele que separou as duas coisas no pedido: *"qual das duas vale é decisão minha, mas eu quero a MEDIDA antes"*. **A coluna `estado` é o que a checagem 12 do `conferir-repositorio.py` lê.**
 
-> **Enquanto uma linha está `aberta`, a checagem DEIXA a divergência passar.** *Quando ela virar `fechada na vX.YYY`, a checagem passa a EXIGIR que os dois lados digam a mesma coisa — e acende se um deles voltar a escorregar.* **E qualquer divergência que apareça sem estar nesta tabela acende na hora, aberta ou fechada.**
+> **Na v0.220 ele decidiu as três que trocam número, e nas três o LIVRO vence:** *`Fura` é `2 × Classe`, `Enfraquece` é `Xd4`, `Abre Ferida` é UM Teste.* **As três estão `decidida` e não `fechada`, porque o conserto nos dois documentos ainda não foi feito.**
+
+> **A coluna tem TRÊS estados, e o caminho de uma linha é `aberta` → `decidida` → `fechada`.**
+>
+> **`aberta`** — ninguém escolheu o lado ainda. A checagem deixa passar.
+> **`decidida na vX.YYY: ...`** — *o Mizuki escolheu o lado e o conserto AINDA NÃO foi aplicado nos dois documentos.* **A checagem deixa passar e lista a linha em toda rodada**, porque ela é trabalho na fila e não estado final.
+> **`fechada na vX.YYY`** — a checagem passa a EXIGIR que os dois lados digam a mesma coisa, e acende se um deles voltar a escorregar.
+>
+> **E qualquer divergência que apareça sem estar nesta tabela acende na hora**, em qualquer estado.
+>
+> *O degrau do meio não é enfeite: sem ele, registrar uma decisão que ainda não foi aplicada TRAVA o commit, porque a checagem leria a divergência como regressão.*
 
 | Melhoria | o que diverge | mecânica | estado |
 |---|---|---|---|
 | `Sobrecarga` | o DEGRAU: `Leve` no manual, `Pesada` no livro. É a única de preço | **sim** | aberta |
-| `Fura` | ignora `3 × Classe` de Redução de Dano no manual, `2 × Classe` no livro | **sim** | aberta |
-| `Enfraquece` | o dano do alvo cai *um quarto* no manual e `Xd4` no livro | **sim** | aberta |
-| `Abre Ferida` | `−2` em *Testes de Resistência* no manual, em *um* Teste no livro | **sim** | aberta |
+| `Fura` | ignora `3 × Classe` de Redução de Dano no manual, `2 × Classe` no livro | **sim** | decidida na v0.220: o LIVRO vence — `2 × Classe` |
+| `Enfraquece` | o dano do alvo cai *um quarto* no manual e `Xd4` no livro | **sim** | decidida na v0.220: o LIVRO vence — `Xd4`, X = metade do atributo de técnica |
+| `Abre Ferida` | `−2` em *Testes de Resistência* no manual, em *um* Teste no livro | **sim** | decidida na v0.220: o LIVRO vence — UM Teste |
 | `Remenda` | o manual devolve junto a vida máxima derrubada e limita *uma vez por cena*; o livro não devolve a vida máxima e limita *uma vez por cena, por alvo* | **sim** | aberta |
 | `Toca a Alma` | o portão: Regra que *encosta em alma, mente ou conceito* no manual, Regra *direta sobre alma* no livro | **sim** | aberta |
 | `Peso Morto` | o livro cobra também `−1` no Teste de Resistência Físico; o manual não | **sim** | aberta |

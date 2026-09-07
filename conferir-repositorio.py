@@ -1324,7 +1324,30 @@ else:
                          f'substituta. Instale as fontes e rode os QUATRO builds')
 
                 # 7.6b — o outro eixo: a substituta apareceu no corpo ou no titulo?
-                # (so' Mono nao conta: o monoespacado cai em DejaVu por desenho)
+                #
+                # ⚠ O MONOESPACADO FICA DE FORA DO ERRO, E ISSO E' DIVIDA DECLARADA,
+                # NAO DESENHO. A v0.218 escreveu aqui "o monoespacado cai em DejaVu por
+                # desenho" e o Mizuki DESFEZ isso na v0.220: "o dejavumono e defeito, pq
+                # eu n quero essa fonte, o certo seria usar a que foi programado a ser
+                # usado desde sempre".
+                #
+                # A causa esta medida e nao e' o texto: ~/.local/share/fonts/manual/ tem
+                # so' a face IBMPlexMono-Regular. O CSS do livro pede
+                # `font-family: "IBM Plex Mono", monospace` no `code`, e o livro poe
+                # NEGRITO dentro de crase o tempo todo — sem a face Bold instalada, o
+                # WeasyPrint cai no `monospace` generico, que nesta maquina e' DejaVu
+                # Sans Mono. O oblique ele sintetiza da Regular; o bold ele nao.
+                #
+                # O conserto e' instalar as faces que faltam e rodar os QUATRO builds.
+                # Ate la isto e AVISO e nao erro, de proposito: reprovar travaria o
+                # commit contra uma coisa que nenhum rebuild resolve.
+                _mono_subs = sorted({_n for _n in _nomes
+                                     if _n.startswith('dejavu sans mono')})
+                if _mono_subs:
+                    aviso(f'7.6: {os.path.basename(_p)} embute {_mono_subs} no lugar do '
+                          f'IBM Plex Mono. Falta a face Bold (e a Italic) em '
+                          f'~/.local/share/fonts/manual/, e o livro usa negrito dentro '
+                          f'de crase. Decisao do Mizuki na v0.220: isto e DEFEITO')
                 _subs = sorted({_n for _n in _nomes
                                 if ('wenquanyi' in _n
                                     or _n.startswith('dejavu serif')
@@ -2479,9 +2502,17 @@ else:
 #
 # ENTAO A LISTA E' O DONO, E ELA NAO MORA AQUI. Ela e a tabela da oitava passada
 # do `ESTADO-revisao.md`, com uma coluna `estado`:
-#   `aberta`            -> a divergencia e conhecida e PASSA
-#   `fechada na vX.YYY` -> os dois lados TEM de dizer a mesma coisa, e acende se um
-#                          deles escorregar de volta
+#   `aberta`               -> a divergencia e conhecida e PASSA
+#   `decidida na vX.YYY:`  -> o lado vencedor ja foi escolhido e AINDA NAO foi
+#                             aplicado nos dois documentos. Passa igual, e aparece
+#                             listada em toda rodada, porque ela e' trabalho na fila
+#                             e nao estado final.
+#   `fechada na vX.YYY`    -> os dois lados TEM de dizer a mesma coisa, e acende se um
+#                             deles escorregar de volta
+#
+# O caminho de uma linha e' `aberta` -> `decidida` -> `fechada`, e so' o ultimo degrau
+# obriga os dois documentos. Sem o degrau do meio, registrar uma decisao que ainda nao
+# foi aplicada TRAVA o commit — a checagem leria a divergencia como regressao.
 # Divergencia que nao esteja na tabela acende sempre. E' assim que a lista encolhe
 # sem nunca deixar entrar uma nova pelas costas.
 print()
@@ -2536,8 +2567,9 @@ else:
 
         # a lista declarada, lida do dono dela
         _lista12 = {}
-        for _m in re.finditer(r'^\| `([^`]+)` \| [^|]+ \| [^|]+ \| (aberta|fechada[^|]*) \|\s*$',
-                              open(_REVI, encoding='utf-8').read(), re.M):
+        for _m in re.finditer(
+                r'^\| `([^`]+)` \| [^|]+ \| [^|]+ \| (aberta|decidida[^|]*|fechada[^|]*) \|\s*$',
+                open(_REVI, encoding='utf-8').read(), re.M):
             _lista12[_m.group(1)] = _m.group(2).strip()
         if not _lista12:
             erro('12: nao achei a tabela de divergencias declaradas no '
@@ -2545,8 +2577,14 @@ else:
                  'conhecido, e reprovaria tudo de uma vez')
         else:
             _abertas12 = sum(1 for _e in _lista12.values() if _e == 'aberta')
+            _decid12 = sorted(_k for _k, _e in _lista12.items() if _e.startswith('decidida'))
+            _fech12 = len(_lista12) - _abertas12 - len(_decid12)
             print(f'  {len(_lista12)} divergencia(s) declarada(s) no ESTADO-revisao.md: '
-                  f'{_abertas12} aberta(s), {len(_lista12) - _abertas12} fechada(s).')
+                  f'{_abertas12} aberta(s), {len(_decid12)} decidida(s) e {_fech12} fechada(s).')
+            if _decid12:
+                print('  DECIDIDA quer dizer que o lado vencedor ja foi escolhido e ainda NAO '
+                      'foi aplicado')
+                print('  nos dois documentos: ' + ', '.join(f'`{_x}`' for _x in _decid12))
 
             _so_um12 = sorted(set(_man12) ^ set(_liv12))
             for _n12 in _so_um12:
@@ -2562,10 +2600,16 @@ else:
                 _estado = _lista12.get(_n12)
                 if _difere and _estado is None:
                     _novas12.append((_n12, 'o DEGRAU' if _tm != _tl else 'o texto'))
-                elif _difere and _estado != 'aberta':
+                elif _difere and not (_estado == 'aberta'
+                                      or _estado.startswith('decidida')):
                     _voltou12.append((_n12, _estado))
-                elif not _difere and _estado == 'aberta':
-                    _resolvidas12.append(_n12)
+                elif not _difere and _estado is not None and not _estado.startswith('fechada'):
+                    # vale para `aberta` E para `decidida`: numa o conserto veio de
+                    # graca, na outra ele foi APLICADO e ninguem fechou a linha. Sem
+                    # esta metade, uma decisao aplicada fica `decidida` para sempre e a
+                    # checagem nunca passa a cobrar os dois lados dela — que e' o unico
+                    # degrau que protege contra regressao.
+                    _resolvidas12.append(f'{_n12} ({_estado.split(":")[0]})')
 
             for _n12, _o12 in _novas12:
                 erro(f'12: `{_n12}` diverge entre o manual e o livro em {_o12}, e ela '
@@ -2575,10 +2619,10 @@ else:
                 erro(f'12: `{_n12}` esta marcada "{_e12}" e os dois lados voltaram a '
                      f'discordar — decisao fechada que nao ficou aplicada dos dois lados')
             if _resolvidas12:
-                aviso(f'12: {len(_resolvidas12)} linha(s) marcada(s) `aberta` em que o '
-                      f'manual e o livro ja concordam: ' + ', '.join(f'`{_x}`' for _x in _resolvidas12)
-                      + ' — feche a linha no ESTADO-revisao.md, senao a checagem para de '
-                        'cobrar justamente as que ja foram decididas')
+                aviso(f'12: {len(_resolvidas12)} linha(s) por fechar em que o manual e o '
+                      f'livro ja concordam: ' + ', '.join(f'`{_x}`' for _x in _resolvidas12)
+                      + ' — ponha `fechada na vX.YYY` no ESTADO-revisao.md, senao a '
+                        'checagem para de cobrar justamente as que ja foram decididas')
             if not (_so_um12 or _novas12 or _voltou12):
                 print(f'  [x] as {len(set(_man12) & set(_liv12))} Melhorias comuns batem, '
                       f'ou divergem por linha declarada `aberta`')

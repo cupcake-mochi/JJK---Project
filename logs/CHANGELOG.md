@@ -8,6 +8,124 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.220] — 07/09/2026
+
+**Uma leva que decide e não conserta.** *O Mizuki leu a v0.219, decidiu quatro coisas e corrigiu uma pesquisa minha que estava errada no ponto principal.* **Pedido dele, com todas as letras: *"N precisa corrigir essas coisas, quero q vc anote elas"*.** *Então isto é registro, e o conserto de cada uma é trabalho da fila.*
+
+### 1 · A `Sobrecarga` vai ter peso, porque o inimigo VAI contar energia
+
+***Decisão do Mizuki:*** *"Sobrecarga vai ter peso pq ficha de inimigo vai ter energia, vai ser semelhante a de um player."*
+
+> **⚠⚠ Isso REVERTE o §6.1 da peça 26, que hoje diz *"o inimigo não conta PE"*.** *E aquela decisão tem argumento escrito e pesquisa por baixo — a v0.205 respondeu essa mesma pergunta com o `Guia do Mestre`: **"espaço de magia num bloco de conjurador é FORMA e não orçamento"**, e a escada de categoria da peça já faz o trabalho do passo 13.*
+
+**A pergunta que abriu isso é dele e é da v0.205:** *"não é bom ele ter justamente PE para ter recursos? Mago inimigo em D&D tem spell slot, técnica máxima como possibilidade, habilidade com recarga."* **Ele está voltando nela com a resposta invertida, e desta vez a decisão é essa.**
+
+**O que a reversão custa está escrito no próprio §6.1**, e quem for aplicar precisa responder: *"contar PE de inimigo criaria uma segunda economia que só o mestre opera, e ela responderia diferente em duas mesas"* — **que é o filtro multi-mestre, o que decide quase tudo neste projeto.**
+
+> **E a medida da `Sobrecarga` da v0.219 CADUCA junto.** *Ela mediu a metade da energia em `0,00` porque o inimigo não tem poço de PE. Com o poço, a metade passa a valer, e o `manual/matematica/sobrecarga.py` tem de rodar de novo.* **A metade da CD não se move: `−2` na CD continua negando `5%` do dano daquele feitiço.**
+
+**Nada foi remedido nesta leva**, porque a ficha de inimigo com energia ainda não existe — e medir contra uma coisa que não foi desenhada é inventar o resultado.
+
+### 2 · As três divergências que trocam número: o LIVRO vence nas três
+
+***Decisão do Mizuki:*** *"Todas as mudanças citadas, o certo é a segunda parte, fura é 2x classe, enfraquece é xd4, abre ferida é um teste."*
+
+| Melhoria | o manual diz | **o livro diz, e é o certo** |
+|---|---|---|
+| `Fura` | ignora `3 × Classe` de Redução de Dano | **`2 × Classe`** |
+| `Enfraquece` | o dano do alvo cai *um quarto* | **`Xd4`**, com `X` sendo metade do atributo de técnica |
+| `Abre Ferida` | `−2` em *Testes* de Resistência | **`−2` em UM Teste** |
+
+**Nas três o manual é o dono do texto e está ERRADO** — *é a primeira vez neste projeto que a cópia vence a fonte, e vale dizer por quê: as três correções são do livro, que passou por sete passadas de revisão, e o `partD.js` não passou por nenhuma.*
+
+> **O conserto é em DOIS arquivos por linha**, e não um: o `partD.js` e o `.docx`, porque o `make.js` regera o segundo do primeiro. *As três estão conferidas no `.docx` e ele concorda com o `partD.js`.*
+
+**As outras vinte e duas continuam `aberta`.** *Ele decidiu as três que ele citou, e não disse nada sobre o resto.*
+
+### 3 · A coluna da tabela ganhou um terceiro estado, e ele era obrigatório
+
+**Registrar uma decisão que ainda não foi aplicada TRAVA o commit**, e isso não é hipótese: *a perturbação `fechada` do arnês da v0.219 acende exatamente esse caso — linha marcada como resolvida com os dois lados ainda discordando.*
+
+> **`aberta` → `decidida na vX.YYY: ...` → `fechada na vX.YYY`.**
+> *A do meio passa igual à `aberta`, e aparece **listada em toda rodada** — porque ela é trabalho na fila e não estado final.*
+
+**A checagem 12 lê os três, e só o último obriga os dois documentos a concordarem.**
+
+### 4 · A pesquisa da Expansão estava errada no ponto principal, e ele achou
+
+***Correção do Mizuki:*** *"nenhum momento realmente é dito q o sukuna necessita de um pacto pra isso, é algo inato dele, ele fez o pacto para conseguir abrir novamente a expansão".*
+
+**Ele está certo, e o `RASCUNHO-expansao-sem-barreira.md` foi reescrito.** *A v0.219 escreveu que o Sukuna COMPRA o domínio aberto com um Pacto. A fonte não diz isso.*
+
+> **Abrir sem fechar a barreira é `神業` — proeza divina.** *A comparação da fonte é pintar uma obra-prima **no ar** em vez de na tela.* **É perícia dele.**
+>
+> **O Pacto entra DEPOIS e como consequência:** *ficar sem barreira deixa uma rota de fuga, e é essa falta que conta como restrição — o troco é o alcance de até `200 m`.* **Ele não paga para poder abrir aberto; ele abre aberto porque consegue, e o buraco disso vira crédito.**
+
+**A segunda metade da frase dele tem outro mecanismo, e a fonte é clara.** *Reabrir a Expansão não foi Pacto:* **o Gojo e o Sukuna destroem a gravação da própria técnica no cérebro com energia amaldiçoada e curam ela com energia reversa** — *e o preço é dano cerebral que fica, até não conseguirem mais expandir domínio nenhum.*
+
+**E existe um Pacto DELE sobre o domínio, mas é outro:** *na luta contra o Gojo ele desliga o acerto garantido dentro da área do `Vazio Infinito` e estreita o alcance, em troca de golpe maior contra a casca externa reforçada.*
+
+### 5 · O choque muda de mecanismo, e isso está decidido
+
+***Decisão do Mizuki:*** *"ja sim, tem de ser corrigido a questão de sem barreira perder pra com barreira".*
+
+**O manual diz que um domínio sem barreira *"entra na disputa e não pode vencer"*.** *A obra decidiu o choque mais importante do material pelo lado aberto.*
+
+> **⚠ E o conserto não é inverter a regra.** *Trocar "não pode vencer" por "vence" troca um absoluto por outro.* **O que a obra dá é um MECANISMO: o raio muito maior alcança a barreira do outro POR FORA.** *Um domínio fechado está dentro da própria casca; um aberto cobre o terreno onde a casca do outro está de pé.*
+
+**Falta o como, e ele encosta no `200 m` contra a escala da peça 5**, que preça metro em `0,60` de dano por rodada. *Isso não é ajuste, é outra ordem de grandeza.*
+
+### 6 · O DejaVu Mono nos PDFs é DEFEITO, e a causa está medida
+
+***Decisão do Mizuki, desfazendo o que a v0.218 escreveu:*** *"o dejavumono é defeito, pq eu n quero essa fonte, o certo seria usar a que foi programado a ser usado desde sempre."*
+
+**A checagem 7.6 excluía o monoespaçado do erro com a nota *"o monoespaçado cai em DejaVu por desenho"*.** *Não é desenho.*
+
+> **A causa, medida:** *`~/.local/share/fonts/manual/` tem **só a face `IBMPlexMono-Regular.ttf`**.* **O CSS do livro pede `font-family: "IBM Plex Mono", monospace` no `code`, e o livro põe NEGRITO dentro de crase o tempo todo** — *sem a face Bold instalada, o WeasyPrint cai no `monospace` genérico, que nesta máquina é DejaVu Sans Mono.* **O oblique ele sintetiza da Regular; o bold ele não.**
+
+**As outras três famílias têm as faces que precisam** — *o Spectral tem quatro, o Barlow Condensed tem três.* **O IBM Plex Mono é o único com uma só.**
+
+**O conserto é instalar as faces que faltam e rodar os quatro builds. Nenhum rebuild sozinho resolve.** *Por isso a 7.6 acusa em AVISO e não em erro — reprovar travaria o commit contra uma coisa que o build não conserta.*
+
+> **E isso responde a pendência da paginação da v0.218 pela metade.** *O `-A-atual` não tem DejaVu Mono nenhum e o de hoje tem, então os dois artefatos não são comparáveis página a página.* **A coincidência dos `256` continua sem explicação, e agora ela tem uma variável a menos.**
+
+### 7 · As duas pendências do outro repositório, registradas
+
+**Elas moram no `Ficha---RPG-JJK`, no `PENDENCIAS.md`, e ficam aqui como ponteiro porque é este repositório que se abre em conversa nova.**
+
+**`B17` — o Mizuki perguntou o que era.** *A ficha tem o campo `integridade_temp` na tela e no índice, e **nada no sistema concede integridade temporária**.* **São seis fontes de vida temporária e uma de energia; de Integridade, zero.** *O campo não faz mal vazio.* **A pergunta é: alguma coisa deveria conceder, ou o campo sai da linha da Integridade?** *É desenho de sistema, e é dele.*
+
+**`B18` — decisão do Mizuki nesta leva: *"B18 precisa ser corrigido"*.** *O `apps-script/Ficha.gs` é o transporte do gerador, e o `construir()` apaga todas as abas e monta do zero.*
+
+> **⚠ E o diagnóstico desta leva mudou o que B18 pede.** *A pendência dizia que o `Ficha.gs` só volta a ser seguro depois que o gerador Python emitir o estado atual.* **Medido, de leitura só: o gerador Python é quem está atrás.** *O `ficha/` monta **cinco** abas — `CARTEIRA`, `DADOS`, `FICHA`, `MESA`, `QUEM É` — e a planilha viva tem seis, com `INVOCAÇÃO`, `CATÁLOGO` e `DADOS_INV`. E o `aba_ficha.py` ainda escreve `=20+8*(NIV-1)` para a integridade máxima, onde a planilha viva usa `=20+(AJ17+5)*($AH$11-1)`.*
+>
+> **Então o conserto não é rodar o `emitir_gs.py`: é atualizar o gerador primeiro.** *Rodar hoje devolveria a mesma ficha antiga.*
+
+### Decidido
+
+- **O inimigo VAI contar energia**, e o §6.1 da peça 26 cai. *A medida da `Sobrecarga` roda de novo depois disso.*
+- **`Fura` é `2 × Classe`, `Enfraquece` é `Xd4`, `Abre Ferida` é UM Teste** — o livro vence nas três.
+- **O domínio sem barreira para de perder por regra**, e o mecanismo passa a ser o alcance.
+- **O DejaVu Mono é defeito**, e o certo é a fonte que o projeto sempre pediu.
+- **O `B18` vai ser corrigido.**
+
+### Alterado
+
+- **A checagem 12** aceita o estado `decidida`, que passa e fica listada.
+- **A checagem 7.6** acusa o DejaVu Mono em aviso, com a causa e o conserto na mensagem.
+- **O `RASCUNHO-expansao-sem-barreira.md`**, reescrito com a correção dele e a pesquisa nova.
+
+### Achado e não consertado
+
+- **Tudo o que está em "Decidido" acima**, porque o pedido foi anotar e não consertar.
+- **As outras vinte e duas divergências manual↔livro** continuam `aberta`.
+- **A `Sobrecarga` ainda diz "o dobro de energia"** — e com o inimigo contando PE, essa frase passa a ter alvo, e o buraco do Classe 0 passa a valer nos dois lados da mesa.
+- **A coincidência dos `256`** entre o PDF de coluna única e o `-A-atual`.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
+
+---
+
 ## [0.219] — 07/09/2026
 
 **A `Sobrecarga` foi medida, e a divergência dela não era uma: eram vinte e cinco.** *A leva ia responder qual degrau vale e terminou descobrindo que a tabela de Melhorias inteira tem dois donos e nenhum validador entre eles.*
