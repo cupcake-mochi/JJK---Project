@@ -2,7 +2,7 @@
 
 **Levantamento da obra, feito antes de qualquer proposta.** *Nada aqui é regra nem preço: é o que a fonte estabelece, o que o manual publica hoje, e os pontos em que os dois se contradizem.* **A decisão de como adaptar é do Mizuki.**
 
-*Aberto na v0.219. Corrigido na v0.220, e a correção veio dele.*
+*Aberto na v0.219. Corrigido na v0.220, e a correção veio dele. **A decisão do §3.3 foi APLICADA na v0.221** — o resto do §5 continua em aberto.*
 
 > ***A primeira versão deste arquivo errou o ponto principal, e ele achou:*** *"nenhum momento realmente é dito q o sukuna necessita de um pacto pra isso, é algo inato dele, ele fez o pacto para conseguir abrir novamente a expansão".* **A parte do pacto está corrigida abaixo, e a segunda metade da frase dele tem outro mecanismo — que também não é pacto.**
 
@@ -105,6 +105,20 @@
 
 > **A correção tem forma, e ela não é inverter a regra.** *Se o manual só trocar "não pode vencer" por "vence", ele troca um absoluto por outro.* **O que a obra dá é um mecanismo: o alcance maior alcança a barreira alheia por fora.** *Quem tem barreira e é alcançado por fora perde a barreira; quem não tem barreira não tem o que perder por fora — e paga em não poder prender ninguém.*
 
+### ✅ APLICADO na v0.221 — o que entrou, e o que ele NÃO inventou
+
+**O manual e o livro passaram a dizer isto, nos dois lugares:**
+
+> **Conquistar é alcançar a barreira do outro por fora.** *Um domínio alcança a barreira alheia quando a área dele cobre o chão em que aquela barreira está de pé.* **A escada de quatro perguntas decide entre dois que se alcançam; quando só um alcança, ele conquista e as perguntas nem chegam a ser feitas.**
+>
+> **Um domínio sem barreira não tem o que ser alcançado**, então não perde por regra — e conquista se cobrir a barreira do outro.
+>
+> **E o que ele paga é a rota de fuga:** *quem está dentro de um domínio aberto sai andando, e fora da sobreposição não existe disputa nenhuma.* **É isso que o terceiro espaço da completa compra: que o outro não vá embora.**
+
+> **⚠ O custo não foi inventado — ele é a restrição da própria fonte.** *O `縛り` do Sukuna é literalmente "dar ao oponente uma rota de fuga", e é ela que paga o alcance no §1.2.* **O que na obra é o preço do Pacto, aqui é o preço da forma** — e é ele que impede a correção de virar o absoluto contrário.
+
+**E o conserto NÃO trouxe número nenhum:** *ele é escrito na linguagem de sobreposição que o manual já usava — "você está dentro do domínio dele, ou ele abriu dentro do raio do seu".* **O `200 m` continua fora, e o §5 abaixo continua sendo a fila.**
+
 ### 3.4 O que o `Incompleta` do manual é, de verdade
 
 **Ele existe na obra, e é o do Megumi** — *o manual acertou ao apontar isso: o Acerto dele **reforça** em vez de **atingir**.* **Domínio incompleto é domínio que não terminou de se formar.**
@@ -127,11 +141,13 @@
 
 1. **`Sem barreira` vira eixo separado do degrau, ou continua colado nele?**
 2. **Se vira eixo: qual é o GATE?** *Na obra é perícia, e o eixo de perícia deste sistema é o refino. Um gate de refino é o candidato óbvio, e ele não passou por régua nenhuma ainda.*
-3. **A escada do choque troca de mecanismo** — de "quem tem barreira" para "quem alcança a barreira do outro". *Decidido que muda; falta como.*
+3. ~~**A escada do choque troca de mecanismo**~~ — ***FECHADO na v0.221***, e o "como" está no bloco acima: alcançar é a área de um cobrir o chão da barreira do outro, e o preço do lado aberto é não prender ninguém. *Nenhum número novo entrou.*
 4. **A tabela dos nove domínios precisa dizer quais são abertos.**
 5. **A porta de saída do `Rescaldo` entra ou não?** *Ela existe na obra, é cara e cobra em permanente.*
 
 > **⚠ E antes de qualquer número: o `200 m` da obra contra a escala do manual.** *A peça 5 preça metro, e mover `1 m` vale `0,60` de dano por rodada.* **Um raio de `200 m` não é ajuste, é outra ordem de grandeza** — e ele precisa ser medido antes de virar regra.
+>
+> **⚠⚠ E a v0.221 encostou nisso e desviou de propósito.** *A regra nova fala em "a área de um cobre o chão em que a barreira do outro está de pé", que é a mesma linguagem de sobreposição que o manual já usava, e não em raio contra raio.* **O manual não publica raio de Expansão nenhum**, e escrever um agora seria inventar a escala que este aviso manda medir antes. *A regra nova funciona sem ele, e passa a funcionar melhor no dia em que ele existir.*
 
 ---
 

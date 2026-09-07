@@ -99,7 +99,7 @@ const maxima = [
 
   H2('Como montar'),
   NUM('Escolha a **Forma**. Projétil e Toque são de graça; as outras custam o preço normal delas, pago do orçamento de montagem.', 3),
-  NUM('Gaste o resto do orçamento em **Melhorias**, nos preços da sua maior Classe. Melhoria que escala com Classe — como Fura, que ignora 3 × Classe de RD — também usa a sua maior Classe.', 3),
+  NUM('Gaste o resto do orçamento em **Melhorias**, nos preços da sua maior Classe. Melhoria que escala com Classe — como Fura, que ignora 2 × Classe de RD — também usa a sua maior Classe.', 3),
   NUM('Dê um nome e escreva na ficha. Como a Liberação, a Técnica Máxima não se improvisa na mesa.', 3),
   GAP(120),
   BUL('Custa **a rodada inteira** e 5 × a sua maior Classe de PE.'),
@@ -115,7 +115,7 @@ const maxima = [
     '**24d8 = 108 de dano** em tudo na linha. Rodada inteira, 25 de PE.',
     '',
     '**Ponto Final** — Projétil (grátis) + Fura (Média: 5 pontos) = 5 dos 8; os 3 que sobram se perdem.',
-    '**24d8 = 108**, ignorando 15 de Redução de Dano (3 × Classe 5). Rodada inteira, 25 de PE.',
+    '**24d8 = 108**, ignorando 10 de Redução de Dano (2 × Classe 5). Rodada inteira, 25 de PE.',
   ]),
   GAP(100),
   P('**Expansão de Domínio não é a Técnica Máxima.** As duas são coisas diferentes: a Técnica Máxima é o topo da sua técnica inata, e o domínio é a mesma técnica estendida sobre o território em volta. Uma técnica feita de domínio continua tendo Técnica Máxima como qualquer outra.'),
@@ -223,7 +223,14 @@ const maxima = [
   BUL('**Quem perde recebe o Acerto do vencedor, e não tem como recusar.** O domínio dele já caiu, e quem cai não abre saída na barreira que continua de pé.'),
   BUL('**Nas duas saídas o Rescaldo dispara**, dos dois lados. O domínio acabou, e ele acaba de qualquer jeito.'),
   GAP(100),
-  P('**Um domínio incompleto entra na disputa e não pode vencer.** Ele não fecha barreira, então não tem barreira para conquistar nem para perder. O que ele faz é o que a sobreposição já faz: **desliga o Acerto do completo, e a barreira do completo deixa de prender — quem está lá dentro pode sair** — e o Acerto dele, que rola, continua rolando. É a resposta mais cara que existe a um domínio, e a única que também é um domínio.'),
+  P('**Conquistar é alcançar a barreira do outro por fora.** Uma barreira não quebra por dentro — é o que esta seção já diz —, então quem a derruba é quem chega nela de fora. Um domínio alcança a barreira do outro quando a **área dele cobre o chão em que aquela barreira está de pé**. As quatro perguntas acima decidem entre dois que se alcançam; quando só um alcança, ele conquista e as perguntas nem chegam a ser feitas.'),
+  P('**Um domínio sem barreira não tem o que ser alcançado.** Não existe casca dele para quebrar por fora, então ele não perde a disputa — e ele conquista se a área dele cobrir a barreira do outro. Ele continua fazendo o que a sobreposição já faz: **desliga o Acerto do completo, e a barreira do completo deixa de prender — quem está lá dentro pode sair** — e o Acerto dele, que rola, continua rolando.'),
+  GAP(80),
+  BOX('O QUE UM DOMÍNIO SEM BARREIRA PAGA: ELE NÃO PRENDE NINGUÉM', [
+    '**Não poder ser conquistado não é vantagem de graça, e não é o contrário da regra antiga.** Quem está dentro de um domínio aberto pode **sair andando**, e fora da sobreposição não existe disputa nenhuma — o alvo vai embora e leva a briga junto.',
+    '**É isso que o terceiro espaço da completa compra:** que o outro não vá embora. A barreira não serve para vencer o choque; serve para o choque acontecer.',
+    'Um domínio aberto é a ferramenta de quem quer **alcance**, e um fechado é a de quem quer **que ninguém saia**. Nenhum dos dois ganha do outro por regra.',
+  ]),
   GAP(80),
   BOX('A SEGUNDA PERGUNTA É UMA TROCA, E ELA NÃO PAGA ESCREVER ACERTO INÚTIL', [
     'Um Acerto que causa dano rende em **todo** uso do seu domínio — na abertura e no começo de cada turno seu. O desempate da pergunta 2 só rende contra **outro domínio, de refino igual ao seu**.',

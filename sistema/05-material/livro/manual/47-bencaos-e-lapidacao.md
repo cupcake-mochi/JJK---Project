@@ -51,7 +51,7 @@ A Classe Passiva não cobra nada aqui: o marco compra uma de qualquer altura. Qu
 
 > **Requisito de atributo:** você precisa daquele atributo em **4** ou mais para pegar a Bênção.
 >
-> **⚠ Uma Bênção com requisito de atributo não soma aquele atributo na rolagem dela.** Ou você paga para destravar, ou usa na conta — nunca os dois.
+> **Uma Bênção com requisito de atributo não soma aquele atributo na rolagem dela.** Ou você paga para destravar, ou usa na conta — nunca os dois.
 
 ## Catálogo
 

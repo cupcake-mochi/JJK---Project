@@ -117,6 +117,10 @@ ANCORAS = {
     'caracteristicas': (P11, r'catálogo de aptidões'),
     'pacto': (P22, r'metade da Essência'),
     'resistencia': (P19, r'\| \*\*Físicos\*\* \|'),
+    # v0.221: o poco de PE. O dono e' o §6.1 desta mesma peca, entao a ancora
+    # aponta para a REGRA e nao para a tabela — se a formula sair de la, esta
+    # acende antes de a checagem 10 achar a tabela orfa.
+    'poco': (PECA, r'Poço de PE = o orçamento de feitiço de uma ação'),
 }
 MAPA_ANCORA = {
     'nível': ('nivel',), 'categoria': ('categoria',), 'vida': ('vida',),
@@ -127,6 +131,7 @@ MAPA_ANCORA = {
     'atributos': ('atributos',), 'características': ('caracteristicas',),
     'pacto': ('pacto',),
     'resistência, vulnerabilidade e imunidade': ('resistencia',),
+    'poço de PE': ('poco',),
 }
 
 _achadas = 0
@@ -1139,6 +1144,144 @@ else:
     if not _ruins:
         print(f'  [x] as {len(_pr)} prontas cobrem as celulas uteis da faixa, nenhuma e '
               'Calamidade, e nenhuma guarda numero de ficha — todos saem da maquina.')
+
+
+# --------------------------------------------------------------------------
+bloco('10. O POCO DE PE DO INIMIGO — a cota escrita na outra unidade')
+# --------------------------------------------------------------------------
+# A v0.220 decidiu que o inimigo conta energia e a v0.221 aplicou. O risco da
+# reversao nao e' o numero: e' o poco virar uma SEGUNDA economia, com tamanho
+# proprio, que so' o mestre opera. A defesa contra isso e' o poco nao ter numero
+# proprio nenhum — ele e' a cota do §4.1 dividida pelo ponto de feitico da peca
+# 19 e multiplicada pelas rodadas de luta que o MANUAL declara.
+#
+# ⚠ E O LIMITE DE DESIGN E' OUTRA CHECAGEM, de proposito (licao no 8). A 10.1
+# reconstroi a tabela — regra aplicada. A 10.2 mede a queima por pessoa contra a
+# banda do jogador — limite de design. Medir as duas contra a mesma constante
+# deixaria as duas verdes no dia em que a constante andasse.
+_PONTO10 = None
+_m10 = re.search(r'cada ponto que não vira Melhoria vira `1d8` de dano — que são `([\d,]+)`',
+                 ler(P19))
+if _m10:
+    _PONTO10 = float(_m10.group(1).replace(',', '.'))
+else:
+    erro('10: nao achei o ponto de feitico na peca 19 §2.1 — sem ele o poco nao '
+         'tem de que ser derivado')
+
+# as rodadas da luta NAO moram nesta peca: a frase e' da secao `Inimigos` do
+# manual, e o §6.1 diz isso. Ler daqui seria escrever no validador um numero de
+# regra, que e' o que o cabecalho deste arquivo promete nao fazer.
+_ROD10 = None
+_m10r = re.search(r'faz a luta contra ele durar (três|duas|quatro) rodadas',
+                  ler('manual/gerador/partF.js'))
+if _m10r:
+    _ROD10 = {'duas': 2, 'três': 3, 'quatro': 4}[_m10r.group(1)]
+else:
+    erro('10: nao achei a duracao da luta na secao `Inimigos` do manual — o §6.1 '
+         'diz que o terceiro fator do poco sai de la')
+
+_POCO10 = tabela(TXT, '| poço de PE | nv 10 | nv 20 | nv 30 |')
+if len(_POCO10) != 4:
+    erro(f'10: achei {len(_POCO10)} linha(s) na tabela do poco e a peca promete quatro — '
+         'ela mudou de forma e esta checagem parou de conferir')
+elif _PONTO10 and _ROD10 and _FICHAS:
+    _cota10 = {}
+    for _c in _FICHAS:
+        if len(_c) < 4:
+            continue
+        _vals = []
+        for _cel in _c[1:4]:
+            _nn = re.findall(r'(\d+)', _cel)
+            _vals.append(int(_nn[-1]))          # a celula do nv 10 traz vida E dano
+        _cota10[_c[0]] = _vals
+    _ruim10 = []
+    for _c in _POCO10:
+        _cat = _c[0]
+        if _cat not in _cota10:
+            _ruim10.append(f'a linha `{_cat}` do poco nao tem categoria correspondente no §4.1')
+            continue
+        for _i, _nv in enumerate((10, 20, 30)):
+            _esp = math.ceil(_cota10[_cat][_i] / _PONTO10 * _ROD10 - 0.5)
+            _pub = int(re.sub(r'\D', '', _c[1 + _i]))
+            if _esp != _pub:
+                _ruim10.append(f'`{_cat}` no nivel {_nv}: a peca publica {_pub} e a cota '
+                               f'{_cota10[_cat][_i]} ÷ {_PONTO10} × {_ROD10} da {_esp}')
+    for _m in _ruim10[:6]:
+        erro('10.1: ' + _m)
+    if not _ruim10:
+        print(f'  o ponto de feitico e {_PONTO10} (peca 19 §2.1) e a luta dura {_ROD10} '
+              f'rodadas (manual, secao `Inimigos`).')
+        print(f'  [x] as 12 celulas do poco reconstroem da cota do §4.1 — nenhum numero '
+              f'proprio, e nada para o mestre escolher')
+
+    # 10.2 — o LIMITE DE DESIGN, e ele e' a decisao do Mizuki: "semelhante a de
+    # um player". O poco do inimigo e' de UMA LUTA e o do jogador e' do DIA,
+    # entao o que se compara e' a queima por rodada dividida pelas pessoas que a
+    # categoria exige. A banda sai da peca 6, e nao daqui.
+    _pe6 = re.search(r'\| PE por nível \| (\d) \| (\d) \| (\d) \| (\d) \| (\d) \|',
+                     ler('sistema/03-mecanica/06-caminhos-e-trilhas.md'))
+    _dia6 = re.search(r'`([\d,]+)` rodadas de luta por dia',
+                      ler('sistema/03-mecanica/06-caminhos-e-trilhas.md'))
+    if not (_pe6 and _dia6):
+        erro('10.2: nao achei o PE por nivel ou as rodadas de luta por dia na peca 6 — '
+             'sem os dois a banda do jogador nao existe')
+    elif not _CAT:
+        erro('10.2: sem a tabela de categorias do §4 nao da para dividir por pessoas')
+    else:
+        _taxas = [int(x) for x in _pe6.groups()]
+        _dia = float(_dia6.group(1).replace(',', '.'))
+        _gente = {c[0]: c[1] for c in _CAT}
+        _fora10 = []
+        for _c in _POCO10:
+            for _i, _nv in enumerate((10, 20, 30)):
+                _pub = int(re.sub(r'\D', '', _c[1 + _i]))
+                _pessoa = _pub / _ROD10 / _gente.get(_c[0], 1)
+                _lo, _hi = min(_taxas) * _nv / _dia, max(_taxas) * _nv / _dia
+                if not (_lo <= _pessoa <= _hi):
+                    _fora10.append(f'`{_c[0]}` no nivel {_nv} queima {_pessoa:.1f} PE por '
+                                   f'rodada por pessoa, fora dos {_lo:.1f} a {_hi:.1f} do jogador')
+        for _m in _fora10[:6]:
+            erro('10.2: ' + _m)
+        if not _fora10:
+            print(f'  [x] as 12 celulas queimam, por pessoa, dentro da banda do jogador '
+                  f'({min(_taxas)}×nv a {max(_taxas)}×nv de PE sobre {_dia} rodadas de luta)')
+
+    # 10.3 — CONTRA-TESTE, e a primeira versao dele REPROVOU, o que foi o ponto.
+    # A afirmacao que a 10.2 quer sustentar e' "o poco e' semelhante ao do
+    # jogador". O contra-teste obvio — transplantar o poco do DIA do jogador para
+    # a ficha do inimigo — PASSA na 10.2: 180 PE num chefe nv30 dao 15,0 por
+    # pessoa por rodada, e a banda vai de 11,4 a 17,1.
+    #
+    # ⚠ ENTAO A 10.2 NAO SEPARA ISSO, E ELA NAO DEVE FINGIR QUE SEPARA. A banda e'
+    # larga (1,5x de ponta a ponta) porque o jogador tem tres taxas de Caminho.
+    # Ela reprova erro de ORDEM DE GRANDEZA, e nao afinacao. Quem impede a segunda
+    # economia e' a 10.1, que nao deixa sobrar parametro livre nenhum; a 10.2 e'
+    # sanidade em cima dela.
+    #
+    # O que este contra-teste prova, entao, e' que o FATOR DA DURACAO e' carregado:
+    # trocar as rodadas da luta pelas rodadas do dia — a leitura errada mais
+    # provavel, porque o poco do jogador e' de dia — sai da banda com folga.
+    if _PONTO10 and _ROD10 and _pe6 and _dia6 and _CAT:
+        _alc = [c for c in _POCO10 if c[0] == 'Alcateia']
+        if not _alc:
+            erro('10.3: nao achei a linha da `Alcateia` no poco — sem ela o contra-teste '
+                 'nao tem em que se apoiar')
+        else:
+            _pub30 = int(re.sub(r'\D', '', _alc[0][3]))
+            _errado = _pub30 / _ROD10 * _dia          # o poco medido pelo DIA, e nao pela luta
+            _pessoa_err = _errado / _ROD10 / _gente.get('Alcateia', 4)
+            _lo, _hi = min(_taxas) * 30 / _dia, max(_taxas) * 30 / _dia
+            if _lo <= _pessoa_err <= _hi:
+                erro('10.3: o contra-teste passou — medir o poco pelas rodadas do DIA em '
+                     'vez das da luta cairia dentro da banda, entao a 10.2 nao esta '
+                     'medindo a duracao')
+            else:
+                print(f'  [x] contra-teste: medir o poco pelo DIA ({_errado:.0f} PE em vez '
+                      f'de {_pub30}) daria {_pessoa_err:.1f} por pessoa por rodada, fora de '
+                      f'{_lo:.1f} a {_hi:.1f} — o fator da duracao e carregado')
+            print('  ~  e o que a 10.2 NAO separa, declarado: transplantar o poco do dia do')
+            print('     jogador (180 PE num chefe nv30) tambem cai na banda. Quem impede a')
+            print('     segunda economia e a 10.1, e nao esta.')
 
 
 if ERROS:

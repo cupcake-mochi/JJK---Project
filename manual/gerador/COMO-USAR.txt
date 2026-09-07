@@ -1,4 +1,4 @@
-GERADOR DO MANUAL — Fundamento v7.25
+GERADOR DO MANUAL — Fundamento v7.26
 
 Recria o .docx do zero. Precisa de Node.js.
 
@@ -32,6 +32,28 @@ ORDEM DAS SEÇÕES (v7)
   4 Restrições → 5 Fora de combate → 6 Liberação Máxima → 7 Técnica Máxima →
   8 Regras de ouro → 9 Progressão → 10 Feitiços prontos → 11 Para o mestre →
   Apêndice
+
+O QUE MUDOU NA v7.26
+
+  As tres Melhorias que o Mizuki decidiu na v0.220, e nas tres o LIVRO venceu:
+  Fura passou de 3 x Classe para 2 x Classe de Reducao de Dano, Enfraquece deixou
+  de derrubar "um quarto" e passou a Xd4 com X sendo metade do atributo de
+  tecnica, e Abre Ferida passou de "-2 em Testes de Resistencia" para "-2 em UM
+  Teste".
+
+  ⚠ O Fura nao morava numa linha so. O numero dele estava em SETE lugares deste
+  gerador — o exemplo da Lanca Negra no partA, a ficha do Corte Medido no partC,
+  a tabela no partD, a regra de escala e o Ponto Final no partE, e tres feiticos
+  prontos no partF. Os sete foram conferidos contra o livro, que ja publicava
+  todos corrigidos. Fechar so a tabela teria posto o manual a discordar de si
+  mesmo.
+
+  E o choque de dominios trocou de mecanismo, no partE. O manual dizia que um
+  dominio sem barreira "entra na disputa e nao pode vencer"; agora conquistar e
+  ALCANCAR a barreira do outro por fora, e quem nao tem barreira nao tem o que
+  ser alcancado. O preco do lado aberto e nao prender ninguem: o alvo sai
+  andando da area e leva a briga junto. Nenhum numero novo entrou, e o raio de
+  200 m da obra continua fora — ele precisa ser medido contra a peca 5 antes.
 
 O QUE MUDOU NA v7.25
 

@@ -90,7 +90,11 @@
 
 /* ---------- base ---------- */
 html {
-  font-family: "Spectral", serif;
+  /* v0.221: o `Noto Serif CJK JP` entrou na pilha DO CORPO. O CSS so pedia
+     ele no `.kanji` e na capa, e os tres kanjis do capitulo 42 — 型 e 奥義 —
+     moram em texto corrido: sem ele aqui, o WeasyPrint caia no CJK generico
+     do sistema, que e o WenQuanYi Zen Hei, e a checagem 7.6 reprova. */
+  font-family: "Spectral", "Noto Serif CJK JP", serif;
   font-size: 10.6pt;
   line-height: 1.62;
   color: var(--tinta);

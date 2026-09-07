@@ -2,7 +2,7 @@
 
 **O sistema se chama `Projeto - M`**, batizado na v0.94 — era a pendência mais velha que existia aqui, aberta na v0.1. Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.220** · manual do Fundamento na **v7.25** · **vinte e seis peças de regra** e **vinte e seis validadores passando** · o Manual da Guilda em **18 capítulos**.
+**Versão v0.221** · manual do Fundamento na **v7.26** · **vinte e seis peças de regra** e **vinte e seis validadores passando** · o Manual da Guilda em **18 capítulos**.
 
 ---
 
@@ -52,8 +52,8 @@ Depois disso, a ordem de leitura é a da próxima seção, e os validadores são
 │   ├── CHANGELOG.md                     o porquê de cada decisão, da v0.1 até a versão atual
 │   └── CHANGELOG-manual-v6-para-v7.md   o changelog do manual, antes de ele entrar aqui
 ├── manual/
-│   ├── Fundamento-MANUAL-v7.docx        v7.25 — o manual gerado
-│   ├── Fundamento-MANUAL-v7.pdf         v7.25 — o mesmo do .docx desde a v0.93
+│   ├── Fundamento-MANUAL-v7.docx        v7.26 — o manual gerado
+│   ├── Fundamento-MANUAL-v7.pdf         v7.26 — o mesmo do .docx desde a v0.93
 │   ├── gerador/                         Node + docx. `node make.js` recria o .docx do zero
 │   └── matematica/                      pac7.py e v7.py, os validadores do manual
 └── sistema/
@@ -86,7 +86,7 @@ Sem `python-docx`, **seis validadores pulam** as checagens que leem o manual em 
 
 | validador | pula | de quantas | o rodapé avisa? |
 |---|---|---|---|
-| `conferir-bestiario.py` | 3 (a `3`, a `5` e a `9` — esta em três sub-blocos) | 9 | **sim** |
+| `conferir-bestiario.py` | 3 (a `3`, a `5` e a `9` — esta em três sub-blocos) | 10 | **sim** |
 | `conferir-dano.py` | 1 (as treze contra o manual) | 13 | **sim** — `OK, mas 1 checagem(ns) PULARAM` |
 | `conferir-manual.py` | **8 — todas.** Ele sai no `except ImportError` antes da primeira | 8 | avisa, e sai antes do rodapé |
 | `conferir-nomes.py` | 3 (as checagens 1, 3 e 4) | 6 | sim, **desde a v0.101** |

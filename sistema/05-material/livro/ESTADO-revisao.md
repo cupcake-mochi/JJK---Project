@@ -26,7 +26,11 @@
 
 **Quem decide quem vence é o Mizuki** — foi ele que separou as duas coisas no pedido: *"qual das duas vale é decisão minha, mas eu quero a MEDIDA antes"*. **A coluna `estado` é o que a checagem 12 do `conferir-repositorio.py` lê.**
 
-> **Na v0.220 ele decidiu as três que trocam número, e nas três o LIVRO vence:** *`Fura` é `2 × Classe`, `Enfraquece` é `Xd4`, `Abre Ferida` é UM Teste.* **As três estão `decidida` e não `fechada`, porque o conserto nos dois documentos ainda não foi feito.**
+> **Na v0.220 ele decidiu as três que trocam número, e nas três o LIVRO vence:** *`Fura` é `2 × Classe`, `Enfraquece` é `Xd4`, `Abre Ferida` é UM Teste.* **A v0.221 aplicou as três e elas estão `fechada`** — *daqui para frente a checagem 12 exige que os dois documentos digam a mesma coisa, e acende se um deles escorregar de volta.*
+
+> **⚠ E o `Fura` não morava numa linha só.** *O número dele estava em SETE lugares do gerador, e só um deles é a tabela de Melhorias:* **o exemplo da Lança Negra no `partA.js`, a ficha do Corte Medido no `partC.js`, a regra de escala e o `Ponto Final` no `partE.js`, e três feitiços prontos no `partF.js`.** *O livro já publicava os sete corrigidos, então a conferência de cada um foi contra ele.* **É a lição nº 9 outra vez: fechar a linha da tabela e deixar os derivados para trás teria posto o manual a discordar de si mesmo.**
+
+> **E uma frase mudou de lado, de propósito.** *O manual explicava o `Fura` com um esclarecimento que o livro não tinha — **"o que passar disso continua valendo"** —, e a checagem 12 compara o TEXTO inteiro: fechar a linha exige os dois idênticos.* **Em vez de apagar o esclarecimento para caber, ele entrou no livro.** *A decisão foi sobre o número; jogar fora texto que ensina a regra não estava nela.*
 
 > **A coluna tem TRÊS estados, e o caminho de uma linha é `aberta` → `decidida` → `fechada`.**
 >
@@ -41,9 +45,9 @@
 | Melhoria | o que diverge | mecânica | estado |
 |---|---|---|---|
 | `Sobrecarga` | o DEGRAU: `Leve` no manual, `Pesada` no livro. É a única de preço | **sim** | aberta |
-| `Fura` | ignora `3 × Classe` de Redução de Dano no manual, `2 × Classe` no livro | **sim** | decidida na v0.220: o LIVRO vence — `2 × Classe` |
-| `Enfraquece` | o dano do alvo cai *um quarto* no manual e `Xd4` no livro | **sim** | decidida na v0.220: o LIVRO vence — `Xd4`, X = metade do atributo de técnica |
-| `Abre Ferida` | `−2` em *Testes de Resistência* no manual, em *um* Teste no livro | **sim** | decidida na v0.220: o LIVRO vence — UM Teste |
+| `Fura` | ignora `3 × Classe` de Redução de Dano no manual, `2 × Classe` no livro | **sim** | fechada na v0.221 |
+| `Enfraquece` | o dano do alvo cai *um quarto* no manual e `Xd4` no livro | **sim** | fechada na v0.221 |
+| `Abre Ferida` | `−2` em *Testes de Resistência* no manual, em *um* Teste no livro | **sim** | fechada na v0.221 |
 | `Remenda` | o manual devolve junto a vida máxima derrubada e limita *uma vez por cena*; o livro não devolve a vida máxima e limita *uma vez por cena, por alvo* | **sim** | aberta |
 | `Toca a Alma` | o portão: Regra que *encosta em alma, mente ou conceito* no manual, Regra *direta sobre alma* no livro | **sim** | aberta |
 | `Peso Morto` | o livro cobra também `−1` no Teste de Resistência Físico; o manual não | **sim** | aberta |

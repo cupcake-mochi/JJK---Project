@@ -8,7 +8,7 @@
 
 **Ela é máquina, e não catálogo.** *Decisão do Mizuki na v0.161: o Bestiário sai como máquina mais maldições prontas, e não como recolhimento puro.* **As prontas ficam para a versão seguinte**, e o §8 diz o que falta nelas.
 
-> **A ficha de inimigo é a ficha de personagem sem o Caminho.** *Decisão do Mizuki:* **o inimigo tem refino, tem Passiva, tem aptidão e às vezes tem técnica** — muita coisa que ele enfrenta na obra é feiticeiro, e feiticeiro se monta com as mesmas peças. *O que ele não tem é Caminho, Trilha e poço de PE, e o §6 diz por quê.*
+> **A ficha de inimigo é a ficha de personagem sem o Caminho.** *Decisão do Mizuki:* **o inimigo tem refino, tem Passiva, tem aptidão e às vezes tem técnica** — muita coisa que ele enfrenta na obra é feiticeiro, e feiticeiro se monta com as mesmas peças. *O que ele não tem é Caminho e Trilha, e o §6 diz por quê — o poço de PE ele passou a ter na v0.221.*
 
 **E a rota que só o inimigo tem é ser maldição.** *O jogador não escolhe isso, em nenhuma das nove rotas de Origem da peça 9.*
 
@@ -24,7 +24,7 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 ## 3. A ficha, e cada linha tem dono
 
-**Dezessete linhas. Nenhum número novo nasce aqui** — o que esta peça faz é dizer de onde cada um sai.
+**Dezoito linhas. Nenhum número novo nasce aqui** — o que esta peça faz é dizer de onde cada um sai.
 
 | linha | valor | dono |
 |---|---|---|
@@ -33,6 +33,7 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 | vida | a linha do manual vezes o fator da categoria | manual, a tabela `Inimigos` |
 | **Integridade** | igual à vida máxima | manual, a seção `Inimigos` |
 | dano por rodada | a linha do manual vezes o fator da categoria | manual, a tabela `Inimigos` |
+| **poço de PE** | a cota de dano por rodada `÷ 4,5 × 3` | o §6.1 |
 | ações por rodada | personagens da categoria menos um, piso `1` | o §4.2 |
 | **Defesa** | `10 + Destreza + proteção` | peça 1 §5 |
 | **acerto** | `atributo + maestria` | peça 1 §5 |
@@ -46,7 +47,7 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 | **pacto** | opcional, e o teto do permanente é da Essência dele | peça 22 §3 |
 | **resistência, vulnerabilidade e imunidade** | custam degrau de categoria, pelo §6.3 | peça 19 §4 |
 
-**As três em negrito não tinham dono em documento nenhum até esta peça**, e as três derivam sem escolha — elas não acrescentam número, elas dão nome ao que a peça 1 §6 e a peça 19 §2.5 já mediam do outro lado da mesa.
+**As três primeiras em negrito não tinham dono em documento nenhum até esta peça**, e as três derivam sem escolha — elas não acrescentam número, elas dão nome ao que a peça 1 §6 e a peça 19 §2.5 já mediam do outro lado da mesa.
 
 ### 3.1 As três derivadas, nível a nível
 
@@ -243,20 +244,71 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 | aptidões e Passivas | o catálogo da peça 11, o mesmo que o jogador usa |
 | técnica, com Fundamento | o manual, quando ele é feiticeiro ou maldição de técnica |
 | Legado, ferramenta, objeto | as peças 13, 16 e 21, quando a ficção pedir |
+| poço de PE | o §6.1, e ele é a cota escrita na outra unidade |
 
 | ele não tem | por quê |
 |---|---|
 | Caminho e Trilha | as duas entregam por marco de campanha, e o inimigo não sobe de nível |
-| poço de PE | o §6.1 |
 | Origem | a peça 9 é a máquina de criação de quem senta na mesa |
 
-### 6.1 O inimigo não conta PE, e a cota de dano é o orçamento dele
+### 6.1 O inimigo CONTA PE, e o poço é a cota escrita na outra unidade
 
-**Tudo que ele faz sai do dano por rodada da ficha.** *Uma técnica que causa dano entrega aquela cota e não mais que ela; uma que não causa dano troca parte da cota por outra coisa.*
+***Decisão do Mizuki na v0.220, aplicada aqui na v0.221:*** *"Sobrecarga vai ter peso pq ficha de inimigo vai ter energia, vai ser semelhante a de um player."* **Isto derruba a forma anterior desta seção, que dizia que ele não contava PE.**
 
-**O precedente é do `Guia do Mestre` de 2014, e ele é explícito:** *o que um monstro tem é dano por rodada, e como esse dano se divide em ataques é livre.* **Contar PE de inimigo criaria uma segunda economia que só o mestre opera**, e ela responderia diferente em duas mesas.
+> **Poço de PE = o orçamento de feitiço de uma ação (§6.5) × as ações por rodada (§4.2) × as rodadas da luta.**
 
-> **Isso é a regra de ouro nº 6 pelo outro lado.** *O personagem tem um teto de saída por rodada e paga em PE para chegar nele; o inimigo tem o mesmo teto escrito direto, sem a moeda no meio.*
+**As rodadas da luta são três, e a frase não é desta peça:** *a seção `Inimigos` do manual escreve que o chefe tem "cerca de três vezes o dano de rodada do grupo em vida, e é isso que faz a luta contra ele durar três rodadas".*
+
+**Os dois primeiros fatores multiplicados são a cota inteira**, então a forma curta é `cota de dano por rodada ÷ 4,5 × 3` — *e o `4,5` é o ponto de feitiço da peça 19 §2.1, o mesmo câmbio que o §6.5 já usa.* **Nenhum dos três números é escolha, e nenhuma célula abaixo foi ajustada.**
+
+| poço de PE | nv 10 | nv 20 | nv 30 |
+|---|---|---|---|
+| `Ronda` | `13` | `25` | `37` |
+| `Dupla` | `25` | `49` | `73` |
+| `Alcateia` | `50` | `98` | `146` |
+| `Calamidade` | `75` | `147` | `219` |
+
+*O arredondamento é o do §4.1 — meio para BAIXO —, pelo mesmo motivo de lá: três lugares calculam esta tabela e cada linguagem arredonda de um jeito.*
+
+#### "Semelhante ao do jogador" tem número, e ele não foi mirado
+
+**O poço do inimigo é de UMA LUTA e o do jogador é do DIA**, então comparar os dois de frente não diz nada. *O que compara é a queima por rodada, dividida pelas pessoas que a categoria exige.*
+
+> **A banda do jogador é o poço dele dividido pelas `10,5` rodadas de luta do dia**, da peça 6 §4 — `4 × nível` a `6 × nível` de PE sobre `10,5`.
+
+**As doze células da tabela caem dentro dessa banda, nas quatro categorias e nos três níveis.** *Uma `Alcateia` de nível 30 queima `48,7` PE por rodada, que dividido por quatro pessoas dá `12,2` — contra os `11,4` a `17,1` de um personagem daquele nível.* **Isso não foi calibrado: os dois lados saem do mesmo `4,5` por ponto e da mesma tabela do manual.**
+
+> **⚠ E esta comparação é SANIDADE, e não prova — o arnês da checagem `10` achou isso e a nota fica aqui em vez de só no validador.** *A banda do jogador é larga, `1,5 ×` de ponta a ponta, porque o jogador tem três taxas de Caminho.* **O primeiro contra-teste que eu escrevi REPROVOU: transplantar o poço do DIA do jogador para a ficha do inimigo — `180` PE num chefe de nível 30 — também cai dentro dela.**
+>
+> **Quem impede a segunda economia não é esta banda: é a fórmula não ter parâmetro livre nenhum.** *A banda reprova erro de ordem de grandeza — medir o poço pelas `10,5` rodadas do dia em vez das três da luta dá `42,6` por pessoa e sai com folga —, e não afinação.*
+
+#### O que o poço compra é FORMA, e não dano
+
+**A cota continua sendo o teto de saída dele, e ela não se move um ponto.** *O que o PE paga é o feitiço do §6.5 — a área, a condição, a Melhoria, os dados.*
+
+> **Com o poço vazio ele continua entregando a cota inteira.** *Ela sai como o golpe do §4.4: em dado, num alvo, sem condição e sem Melhoria.* **O que ele perde ao secar não é tamanho, é forma.**
+
+**E é por isso que a pesquisa da v0.205 sobrevive inteira em vez de ser revogada.** *O `Guia do Mestre` diz que espaço de magia num bloco de conjurador é **FORMA e não orçamento**, e este poço é exatamente isso.* **O que mudou de lá para cá não é a pesquisa: é que o manual vende Melhorias que taxam a energia do alvo, e sem poço nenhum elas liam `0,00` contra o bestiário inteiro** — *foi a medida da `Sobrecarga`, na v0.219, que mostrou o buraco.*
+
+#### A resposta ao filtro multi-mestre, que é o que a forma anterior protegia
+
+**A forma anterior desta seção dizia, com todas as letras:** *"contar PE de inimigo criaria uma segunda economia que só o mestre opera, e ela responderia diferente em duas mesas"*. **O medo estava certo, e é ele que decide o FORMATO do poço** — não é uma objeção que se ignora ao reverter, é a especificação.
+
+**Três coisas fecham o filtro, e as três são propriedades da fórmula:**
+
+| | |
+|---|---|
+| **o poço não se escolhe, se calcula** | *dois mestres que nunca conversaram partem da mesma cota, do mesmo `4,5` e das mesmas três rodadas.* **Não existe passo em que alguém decida o tamanho** |
+| **quem opera a economia é a mesa, e não o mestre** | *numa luta normal o poço não aperta: ele guarda exatamente a luta que a categoria promete.* **Ele só se mexe quando alguma coisa do outro lado o taxa** — a `Sobrecarga`, a `Dívida`, um dreno. *O mestre não tem como gastá-lo mais rápido: a cota já limita o que cabe numa rodada* |
+| **ela não move o tamanho do encontro** | *a cota decide o dano e a categoria decide quantas pessoas.* **Duas mesas que gastem o poço de jeitos diferentes ainda rodam o mesmo encontro** — o que muda é a forma dos turnos dele, e escolher isso já era trabalho do mestre pelo §6.5 |
+
+> **⚠ E existe uma assimetria com o lado do jogador, medida e declarada.** *Do lado dele a `Sobrecarga` se esquiva no `Classe 0`, que é grátis — o dobro de zero é zero.* **Do lado do inimigo ela não se esquiva:** *a saída grátis dele não é um feitiço barato, é o golpe do §4.4, e trocar o feitiço pelo golpe já é perder a forma que a Melhoria tirava.* **O que o jogador dribla de graça, o inimigo paga de um jeito ou de outro.**
+
+#### As duas fichas que têm poço zero, e as duas já estavam escritas
+
+**O inimigo do §6.2 não tem energia nenhuma**, e o poço dele é `0` — *a cota inteira vem do corpo, e o golpe do §4.4 é tudo que ele faz.* **A ficha não muda de tamanho por isso**, pelo mesmo motivo de lá.
+
+**E onde o §6.5 lê `seco` o poço não tem em que ser gasto:** *abaixo de `13,5` de dano por ação não existe feitiço para montar, porque a `Classe 1` custa `3` pontos.* **O poço continua existindo na ficha e continua sendo alvo de dreno — o que não existe naquela faixa é o feitiço.**
 
 ### 6.2 E existe inimigo sem energia nenhuma
 
@@ -291,7 +343,7 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 ***Decisão do Mizuki: a Expansão do inimigo é a do jogador, escalonada para grupo.*** *A máquina inteira mora no manual, e nada dela é reescrito aqui.*
 
-**Ela não acrescenta dano nenhum, e é isso que faz o preço dela ser fácil de achar.** *Pelo §6.1 tudo que o inimigo faz sai da cota de dano por rodada, e o Acerto de um domínio não é exceção: a cota é a mesma dentro e fora.* **O que muda é quanto dela CHEGA.**
+**Ela não acrescenta dano nenhum, e é isso que faz o preço dela ser fácil de achar.** *Pelo §6.1 a cota de dano por rodada continua sendo o teto de tudo que o inimigo faz, e o Acerto de um domínio não é exceção: a cota é a mesma dentro e fora.* **O que muda é quanto dela CHEGA.**
 
 > **Fora do domínio o inimigo acerta `52%` — é a banda de `50%` a `55%` que o §3.1 publica.** *Dentro, o Acerto acontece: sem rolagem e sem Teste de Resistência, como o manual escreve.*
 > **Então a Expansão completa multiplica a saída efetiva dele por `1 ÷ 0,52`, que é `1,92 ×`.**
@@ -323,7 +375,7 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 **A incompleta não custa nada nesta régua.** *O manual diz que o Acerto dela "resolve por rolagem, como um feitiço"* — **sem a garantia não existe o `1,92 ×`**, e o que ela dá é o Efeito, que não é dano. *Qualquer categoria pode ter uma.*
 
-**E abrir não custa rodada ao inimigo, apesar de custar ao jogador.** *O manual cobra a rodada inteira e `6 ×` a maior Classe de PE; o inimigo não conta PE pelo §6.1, e o Acerto acontece no momento em que ele abre.* **A cota daquela rodada sai pelo Acerto em vez de sair pelos golpes, e nada se perde.**
+**E abrir não custa rodada ao inimigo, apesar de custar ao jogador.** *O manual cobra a rodada inteira e `6 ×` a maior Classe de PE, e o inimigo paga esse PE do poço do §6.1 como qualquer outro — o Acerto acontece no momento em que ele abre.* **A cota daquela rodada sai pelo Acerto em vez de sair pelos golpes, e nada se perde: o poço é a mesma cota contada na outra unidade, então abrir não cobra duas vezes.**
 
 > **A duração cobre a luta inteira, e é por isso que o multiplicador vale o encontro todo.** *O manual põe a duração em metade do refino, e o refino do chefe do nível 30 é `10` — cinco rodadas contra uma luta de `3,00`.*
 
@@ -371,7 +423,7 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 #### A aptidão: ela come a cota, e só nas rodadas em que está ligada
 
-**O jogador paga a aptidão em PE por rodada enquanto ela está de pé. O inimigo não conta PE pelo §6.1, então ele paga a mesma coisa na cota — e paga pelas mesmas rodadas.** *O câmbio tem dono: `+1` PE por rodada vale `5,14` de dano por rodada, pela peça 5 §4.*
+**O jogador paga a aptidão em PE por rodada enquanto ela está de pé. O inimigo paga na cota — e paga pelas mesmas rodadas.** *Desde a v0.221 ele tem poço, e é por isso que a moeda aqui continua sendo a cota e não o PE: o poço do §6.1 **é** a cota em outra unidade, e cobrar nos dois seria cobrar duas vezes.* *O câmbio tem dono: `+1` PE por rodada vale `5,14` de dano por rodada, pela peça 5 §4.*
 
 > **`1` PE por rodada = `5,14` da cota de dano por rodada, contado só nas rodadas em que a aptidão está ligada.**
 > **O teto é a cota daquela rodada** — ninguém gasta o que não tem. *Acima dele a aptidão não cabe naquela categoria, e o mestre sobe de categoria ou tira a aptidão.*

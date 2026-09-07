@@ -4,7 +4,7 @@
 //
 // Sao tres partes, e a ordem importa:
 //   1. AS TABELAS   o mestre le e copia. Tudo aqui deriva; nada e escolha.
-//   2. O BLOCO      as dezessete linhas da peca 26 §3, para preencher.
+//   2. O BLOCO      as dezoito linhas da peca 26 §3, para preencher.
 //   3. O EXEMPLO    o mesmo bloco com os numeros de uma Alcateia de nivel 10.
 const d = require('docx');
 const fs = require('fs');
@@ -33,6 +33,20 @@ const acoes = (pes) => Math.max(1, pes - 1);
 // Python arredonda para o par — tres lugares com duas convencoes seria a licao
 // no 9 num numero que o mestre le em voz alta.
 const arred = (x) => Math.ceil(x - 0.5);
+// O POCO DE PE, peca 26 §6.1, escrito na v0.221. Ele nao e' numero novo: e' a
+// cota de dano por rodada dividida pelo ponto de feitico da peca 19 (4,5) e
+// multiplicada pelas rodadas da luta, que a secao `Inimigos` do manual declara
+// em tres. Fica aqui e nao no dados.js pelo mesmo motivo que a vida e o golpe
+// ficam: numero COMPUTADO nao se guarda, senao vira a segunda fonte que a
+// v0.213 ja pagou uma vez.
+const PONTO_FEITICO = 4.5;
+const RODADAS_DE_LUTA = 3;
+// ⚠ A COTA ENTRA JA ARREDONDADA, e isso nao e detalhe: e' a mesma regra que o
+// §6.5 declara para o orcamento de feitico — "o golpe entra aqui ja arredondado
+// pela regra do §4.1, e nao o produto cru". Do produto cru a `Dupla` da faixa
+// 2 a 4 sairia com 6 e a peca publica 5, e a `Ronda` do nivel 10 sairia com 12
+// contra os 13 da peca. Dois lugares, duas contas, um numero — a licao no 9.
+const poco = (dano, f) => String(arred(arred(dano * f) / PONTO_FEITICO * RODADAS_DE_LUTA));
 const esc = (v, f) => (v == null ? '—' : String(arred(v * f)));
 
 // O dano vira DADO, no molde do resto do hobby: o `Guia do Mestre` de 2014 manda
@@ -136,6 +150,14 @@ function tabelas() {
     X.FAIXAS.map(f => [f[0], ...X.CATEGORIAS.map(
       c => `${golpe(f[6], c[2], c[1])}  ×${acoes(c[1])}`)]),
     [16, 21, 21, 21, 21], { centerCols: [0,1,2,3,4], boldCols: [0] }));
+  out.push(GAP(150));
+
+  out.push(FAIXA('O poço de PE'));
+  out.push(P('É a **cota de dano por rodada em outra unidade** — ela dividida por `4,5` e multiplicada pelas três rodadas da luta. Ele **não** compra dano: a cota é o teto de saída com poço cheio ou vazio. O que o PE paga é a **forma** — a área, a condição, a Melhoria. Secou, o golpe da tabela acima continua saindo inteiro, só que sem nada em cima.'));
+  out.push(TBL(['nível do grupo', ...X.CATEGORIAS.map(c => c[0])],
+    X.FAIXAS.map(f => [f[0], ...X.CATEGORIAS.map(c => poco(f[6], c[2]))]),
+    [22, 19, 19, 20, 20], { centerCols: [0,1,2,3,4], boldCols: [0] }));
+  out.push(NOTA('Um inimigo **sem energia nenhuma** — a Restrição Celestial do lado de lá da mesa — tem poço `0`, e a ficha não muda de tamanho por isso.'));
   out.push(new Paragraph({ children: [new PageBreak()] }));
   out.push(FAIXA('Defesa, acerto e CD'));
   out.push(P('Esta escada muda em **marco**, e a de cima muda em **faixa de Classe**. Confira as duas separado.'));
@@ -228,6 +250,7 @@ function bloco(f, primeiro, rotulo) {
   out.push(stat('Defesa', v('defesa'), vazio));
   out.push(stat('Vida e Integridade', f ? `${v('vida')} · ${v('vida')}` : '', vazio));
   out.push(stat('Deslocamento', f ? '9 m' : '', vazio));
+  out.push(stat('Poço de PE', v('poco'), vazio));
   out.push(regra(C.linha));
   out.push(TBL(['FOR', 'DES', 'CON', 'INT', 'ESS'],
     [[v('forca'), v('destreza'), v('con'), v('int'), v('ess')]],
@@ -261,7 +284,7 @@ const EXEMPLO = {
   forca: '3', destreza: '3', con: '2', int: '1', ess: '0',
   trs: 'Físico e Vigor',
   resist: 'resistência a Elementais — meio degrau, cobrado',
-  vida: '475', dano: '1d8 + 4', acoes: '3',
+  vida: '475', dano: '1d8 + 4', acoes: '3', poco: '50',
   defesa: '16', acerto: '+6', cd: '14', refino: '4',
   caracteristicas: 'Escama (Passiva) · duas aptidões do catálogo da peça 11',
   pacto: 'nenhum — a Essência dele é 0, e o teto é metade dela',
@@ -298,6 +321,7 @@ function prontas() {
       trs: m.trs,
       resist: 'nenhuma — resistir custaria um degrau de categoria',
       vida: esc(vidaChefe, fator), dano: golpe(danoChefe, fator, pes),
+      poco: poco(danoChefe, fator),
       acoes: String(acoes(pes)),
       defesa: String(dv[1]), acerto: `+${dv[2]}`, cd: String(dv[3]), refino: String(dv[4]),
       caracteristicas: m.caracteristicas,

@@ -8,6 +8,151 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.221] — 07/09/2026
+
+**A leva que aplica o que a v0.220 decidiu.** *A anterior anotou cinco coisas e não consertou nenhuma, por pedido dele. Esta pega a fila de cima para baixo e aplica as cinco* — **e três delas tinham mais dentro do que a anotação dizia.**
+
+### 1 · O inimigo passou a contar PE, e o §6.1 da peça 26 caiu
+
+***Decisão do Mizuki na v0.220:*** *"Sobrecarga vai ter peso pq ficha de inimigo vai ter energia, vai ser semelhante a de um player."*
+
+> **O poço não é número novo. Ele é a cota de dano por rodada escrita na outra unidade:** `cota ÷ 4,5 × 3 rodadas`. *O `4,5` é o ponto de feitiço da peça 19 §2.1, a cota é o §4.1 da peça 26, e as três rodadas são da seção `Inimigos` do manual — **"cerca de três vezes o dano de rodada do grupo em vida, e é isso que faz a luta contra ele durar três rodadas"**.*
+
+| poço de PE | nv 10 | nv 20 | nv 30 |
+|---|---|---|---|
+| `Ronda` | `13` | `25` | `37` |
+| `Dupla` | `25` | `49` | `73` |
+| `Alcateia` | `50` | `98` | `146` |
+| `Calamidade` | `75` | `147` | `219` |
+
+**A REVERSÃO TINHA UM ARGUMENTO ESCRITO CONTRA, E ELE É QUEM DECIDIU O FORMATO.** *O §6.1 antigo dizia: "contar PE de inimigo criaria uma segunda economia que só o mestre opera, e ela responderia diferente em duas mesas".* **O medo estava certo. Ele não foi ignorado — ele virou a especificação:**
+
+| | |
+|---|---|
+| **o poço não se escolhe, se calcula** | *não existe passo em que alguém decida o tamanho.* Dois mestres partem da mesma cota, do mesmo `4,5` e das mesmas três rodadas |
+| **quem opera a economia é a mesa** | *numa luta normal o poço não aperta — ele guarda exatamente a luta que a categoria promete.* **Ele só se mexe quando alguma coisa do outro lado o taxa**, e o mestre não tem como gastá-lo mais rápido porque a cota já limita a rodada |
+| **ela não move o tamanho do encontro** | a cota decide o dano e a categoria decide quantas pessoas. **Duas mesas que gastem o poço diferente ainda rodam o mesmo encontro** |
+
+> **⚠⚠ E o que o poço compra é FORMA, não dano** — *que é a pesquisa da v0.205 APLICADA, e não revogada.* **O `Guia do Mestre` diz que espaço de magia num bloco de conjurador é "FORMA e não orçamento", e é exatamente isso que este poço é.** *Com o poço vazio o inimigo continua entregando a cota inteira: ela sai como o golpe do §4.4, em dado, num alvo, sem condição e sem Melhoria.* **O que ele perde ao secar não é tamanho, é forma.**
+>
+> **O que mudou desde a v0.205 não é a pesquisa: é que o manual vende Melhorias que taxam energia, e sem poço nenhum elas liam `0,00` contra o bestiário inteiro.**
+
+**"Semelhante a de um player" ganhou número, e ele não foi mirado.** *O poço do inimigo é de UMA LUTA e o do jogador é do DIA, então o que compara é a queima por rodada dividida pelas pessoas que a categoria exige.* **As doze células caem dentro da banda do jogador** — `4 × nível` a `6 × nível` sobre as `10,5` rodadas de luta do dia. *Uma `Alcateia` de nível 30 queima `48,7` PE por rodada, que por quatro pessoas dá `12,2`, contra os `11,4` a `17,1` de um personagem daquele nível.*
+
+### 2 · A `Sobrecarga` remedida — a metade que valia `0,00` passou a valer
+
+**Com o poço, dobrar o feitiço do inimigo custa a ele um orçamento de ação a mais** — *e como o poço guarda exatamente `pontos por ação × ações × rodadas`, isso é **uma ação a menos montada como feitiço** no resto da luta.* **Ela sai como o golpe do §4.4, sem forma.**
+
+| | a v0.219 media | a v0.221 mede |
+|---|---|---|
+| a metade da energia, contra o bestiário | `0,00` | **`24,33`** num chefe de `Alcateia` |
+| as duas metades somadas | `10,95` | **`35,28`** — `3,2 ×` |
+| no degrau `Leve` | `0,61 ×` | **`1,96 ×`** |
+
+> **⚠⚠ E a medida achou uma coisa que ninguém procurava: a `Dupla` NÃO cabe em `Leve`.** *Contra ela a soma dá `47,28`, que é `2,63 ×` — e a banda das `Leve` publicadas para em `2,18 ×`.* **Ela cai dentro da banda das `Pesada`, que é `2,21 ×` a `2,67 ×`.**
+>
+> **A causa é do §4.4 e não desta Melhoria:** *a `Dupla` entrega metade da cota de uma `Alcateia` numa ação SÓ, então o golpe dela é o maior da tabela.* **Como o que a `Sobrecarga` tira é UMA AÇÃO de forma, ela tira mais de quem concentra mais** — *qualquer Melhoria que custe uma ação do inimigo tem esse mesmo perfil.*
+>
+> **A linha `Sobrecarga` continua `aberta`, e o degrau continua sendo decisão dele.** *`Leve` no manual, `Pesada` no livro. Isto é a medida.*
+
+**E a assimetria com o lado do jogador ficou escrita:** *do lado dele a `Sobrecarga` se esquiva no `Classe 0`, que é grátis — o dobro de zero é zero.* **Do lado do inimigo ela não se esquiva: a saída grátis dele não é um feitiço barato, é o golpe do §4.4.**
+
+### 3 · As três Melhorias — e o `Fura` morava em SETE lugares, não em um
+
+**`Fura` é `2 × Classe`, `Enfraquece` é `Xd4`, `Abre Ferida` é UM Teste.** *As três estão `fechada na v0.221` no `ESTADO-revisao.md`, e daqui para frente a checagem `12` exige que os dois documentos digam a mesma coisa.*
+
+> **⚠ A anotação da v0.220 dizia "o conserto é em DOIS arquivos por linha", e nas três estava certo — menos no `Fura`.** *O número dele estava no `partA` (o exemplo da Lança Negra), no `partC` (a ficha do Corte Medido), no `partD` (a tabela), no `partE` (a regra de escala e o `Ponto Final`) e em três feitiços prontos do `partF`.* **O livro já publicava os sete corrigidos, então cada um foi conferido contra ele.** *Fechar só a linha da tabela teria posto o manual a discordar de si mesmo — a lição nº 9, na versão em que ela é fácil de não ver.*
+
+**E uma frase mudou de lado, de propósito.** *O manual explicava o `Fura` com um esclarecimento que o livro não tinha — "o que passar disso continua valendo" — e a checagem `12` compara o TEXTO inteiro: fechar a linha exige os dois idênticos.* **Em vez de apagar o esclarecimento para caber, ele entrou no livro.** *A decisão foi sobre o número; jogar fora texto que ensina a regra não estava nela.*
+
+### 4 · O domínio sem barreira parou de perder por regra, e o mecanismo é o alcance
+
+**O manual dizia que ele *"entra na disputa e não pode vencer"*. Agora:**
+
+> **Conquistar é alcançar a barreira do outro por fora.** *Um domínio alcança a barreira alheia quando **a área dele cobre o chão em que aquela barreira está de pé**.* **A escada de quatro perguntas decide entre dois que se alcançam; quando só um alcança, ele conquista e as perguntas nem chegam a ser feitas.**
+>
+> **Um domínio sem barreira não tem o que ser alcançado**, então não perde por regra — e conquista se cobrir a barreira do outro.
+
+**⚠ E o custo é o que impede isso de virar o absoluto contrário.** *A v0.220 avisou: trocar "não pode vencer" por "vence" troca um absoluto por outro.*
+
+> **O que o lado aberto paga é não prender ninguém:** *quem está dentro dele sai andando, e fora da sobreposição não existe disputa nenhuma — o alvo vai embora e leva a briga junto.* **É isso que o terceiro espaço da completa compra: que o outro não vá embora.** *A barreira não serve para vencer o choque; serve para o choque acontecer.*
+>
+> **O custo não foi inventado — ele é a restrição da própria fonte.** *O `縛り` do Sukuna é literalmente "dar ao oponente uma rota de fuga", e é ela que paga o alcance dele.* **O que na obra é o preço do Pacto, aqui é o preço da forma.**
+
+**E o conserto não trouxe número nenhum.** *Ele é escrito na linguagem de sobreposição que o manual já usava — "você está dentro do domínio dele, ou ele abriu dentro do raio do seu".* **O `200 m` continua fora**, porque o manual não publica raio de Expansão nenhum e a peça 5 preça metro em `0,60` de dano por rodada: *escrever um raio agora seria inventar a escala que o próprio rascunho manda medir antes.*
+
+### 5 · O DejaVu Mono saiu dos PDFs, e a face que faltava era a `SemiBold`
+
+**O conserto está feito e medido; o mecanismo que a v0.220 escreveu NÃO reproduz, e as duas coisas cabem juntas.**
+
+> **O que está medido:** *os PDFs commitados embutiam `DejaVu Sans Mono` em três faces — `Regular`, `Oblique` e `Bold`.* **Com as faces instaladas, os dois PDFs regerados embutem `IBM Plex Mono SemiBold` e `IBM Plex Mono SemiBold Italic`, e ZERO DejaVu.** *O jeito de conferir é listar as fontes embutidas do PDF pronto — a página não avisa.*
+
+**E a face que o livro carrega é a `SemiBold`, não a `Bold`.** *O `strong` do CSS é peso `600`; a v0.220 escreveu "Bold" e o número dela diz `600`.*
+
+> **⚠⚠ O mecanismo, porém, não se confirmou — e isso fica escrito para ninguém procurar o defeito no lugar errado.** *A v0.220 dizia: "sem a face Bold instalada, o WeasyPrint cai no `monospace` genérico".* **Testado na marra, com SÓ a `IBMPlexMono-Regular` na pasta e com DejaVu Sans Mono instalado no sistema e sendo o `monospace` genérico: o WeasyPrint 69 NÃO caiu.** *Ele sintetizou e ficou na família, e o PDF saiu com `IBM Plex Mono` + `IBM Plex Mono Oblique` — que é exatamente a lista do `-A-atual`.*
+>
+> **O defeito é real e o conserto está provado. O que não está estabelecido é POR QUE a máquina que gerou aqueles PDFs caiu e esta não cai.** *Quem for atrás comece pela versão do WeasyPrint e pelo fontconfig da máquina, e não pelo CSS.*
+
+**Os quatro builds rodaram**, e o `README.md` do livro passou a listar as faces por família.
+
+### 5.1 · E a checagem `7.6` estava frouxa em dois eixos
+
+**O monoespaçado saía em AVISO, com um motivo datado:** *"reprovar travaria o commit contra uma coisa que nenhum rebuild resolve".* **Esse motivo morreu — o rebuild resolve —, então ele virou ERRO.** *Aviso que parou de reproduzir é dívida.*
+
+**E a lista de substitutas era de nomes conhecidos, então ela não conhecia o `FreeSerif` — que estava num PDF publicado.** *Substituta que a checagem não conhece é substituta que passa.* **Ela deixou de ser lista e passou a ser o COMPLEMENTO:** *fonte embutida que não é de nenhuma das famílias que o CSS pede acende.*
+
+> **Apertada, ela pegou DUAS na hora, e as duas foram consertadas em vez de anotadas:**
+>
+> - **`WenQuanYi Zen Hei` cobria três kanjis** — `型` e `奥義`, do capítulo 42 — *porque eles moram em texto corrido, onde a família é `Spectral`, e o Spectral não tem CJK.* **O `Noto Serif CJK JP` entrou na pilha do corpo**, uma linha.
+> - **`FreeSerif Bold` cobria um `⚠`**, o do capítulo 47 — *e ele é o ÚNICO `⚠` literal do livro inteiro.* **Os outros nove capítulos marcam aviso com a classe `{: .aviso }`, que desenha o marcador sozinha:** era escapada de convenção, e não falta de fonte. *O `⚠` saiu da linha.*
+
+**E a coincidência dos `256` acabou por acidente:** *o livro em coluna única foi para `257` com as mudanças desta leva, e o `-A-atual` continua em `256`.* **A pendência morre por outro motivo, e não por ter sido respondida.**
+
+### 6 · O `B18` do outro repositório — o gerador Python era o atrasado, e ele foi consertado
+
+**O `aba_ficha.py` escrevia `=20+8*(NIV-1)`, que é a Integridade PLANA.** *Ela deixou de ser plana na v0.145 pela decisão da v0.70: hoje é `20 + (Essência + 5) × (nível − 1)`, que é exatamente o `=20+(AJ17+5)*($AH$11-1)` da planilha viva.* **O gerador passou a emitir a de hoje.**
+
+> **⚠ E das quatro linhas que o `B18` listava, só uma era conserto.** *A lista de Caminhos parar no `Emanador` **não é atraso**: é a decisão `C1` daquele repositório, que tirou o Evocador do menu de propósito — e voltar é decisão do Mizuki.* **As abas `5 × 6` vêm de outro gerador, o `ficha-invocacao/`, e juntar os dois num caderno só é desenho.** *As `94 × 135` linhas são consequência das outras duas.*
+
+**Dois vermelhos ficaram registrados lá, e nenhum foi mexido:**
+
+- **O `conferir-kaori.py` passou a reprovar em UM campo, e está certo:** *a regra pede `26` e a ficha de exemplo vendorizada imprime `28`, de antes da v0.145.* **O `8` também morava escrito na mão dentro dele; hoje ele lê a fórmula do dono**, o capítulo 15 do livro, vendorizado lá no molde dos capítulos 16 e 35.
+- **⚠⚠ Rodar o `monta.py` hoje produz uma planilha que o `conferir-ficha-xlsx.py` REPROVA**, por cor de texto fora da paleta — *o `PAINEL_ALTO`, que é cor de fundo, nos seis números de seção.* **Isolado: a falha aparece com o fonte limpo, então é anterior a esta leva.** *O `.xlsx` commitado passa e o regerado não — o artefato e o gerador que deveria produzi-lo não estão dizendo a mesma coisa.* **Por isso a leva mexeu só no fonte.**
+
+### Adicionado
+
+- **A checagem `10` do `conferir-bestiario.py`** — o poço reconstrói da cota (`10.1`), queima dentro da banda do jogador (`10.2`) e tem contra-teste da duração (`10.3`). *Sete perturbações em cópia isolada, e a base passa na cópia antes.*
+- **A linha `poço de PE` na ficha do §3** da peça 26, que passou de dezessete para dezoito, e a tabela dele no `bloco-de-inimigo.docx`.
+- **`capitulo-15-dano-e-condicoes.md`** vendorizado no `Ficha---RPG-JJK`.
+
+### Alterado
+
+- **O `§6.1` da peça 26**, reescrito inteiro; o `§3`, o `§6`, o `§6.4` e o `§6.5`, nos pontos que se penduravam nele.
+- **O `manual/matematica/sobrecarga.py`**, que lê o poço e mede as duas metades somadas.
+- **O manual foi para a `v7.26`** — as três Melhorias, os sete lugares do `Fura` e o choque de domínios.
+- **Os quatro artefatos do livro**, regerados com as faces instaladas.
+
+### Achado e não consertado
+
+- **A `Dupla` fora da banda `Leve` na `Sobrecarga`** — `2,63 ×` contra o teto de `2,18 ×`. *O degrau continua sendo decisão dele, e a linha continua `aberta`.*
+- **As outras vinte e duas divergências manual↔livro**, todas `aberta`.
+- **As duas fontes substitutas que sobraram nos PDFs**, com o conserto de cada uma escrito.
+- **O `B17`**, que continua sendo pergunta de desenho e é dele.
+- **Os dois vermelhos do `Ficha---RPG-JJK`**, e o segundo deles é novo.
+
+### ⚠ O que esta leva NÃO conseguiu fazer, e o motivo é a máquina
+
+**Os dois `.docx` do projeto pedem `Georgia` e `Consolas`**, e nenhuma das duas existe no ambiente em que esta leva rodou. *Gerar os PDFs deles aqui assaria fonte substituta dentro do artefato — que é exatamente o defeito que o item 5 mandou consertar.*
+
+> **Ficaram para a máquina do Mizuki, e os dois `.docx` estão prontos e commitados:**
+>
+> - `manual/Fundamento-MANUAL-v7.pdf` — *medido: o `.docx` da v7.25 convertido neste ambiente dá `52` páginas contra as `50` do PDF commitado, então o ambiente sozinho já move duas.* **O delta real desta leva é `+1` página.**
+> - `sistema/05-material/bloco-de-inimigo.pdf` — *a tabela do poço acrescenta uma página, e o `COMO-USAR.txt` avisa que a paginação daquela folha é frágil.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
+
+---
+
 ## [0.220] — 07/09/2026
 
 **Uma leva que decide e não conserta.** *O Mizuki leu a v0.219, decidiu quatro coisas e corrigiu uma pesquisa minha que estava errada no ponto principal.* **Pedido dele, com todas as letras: *"N precisa corrigir essas coisas, quero q vc anote elas"*.** *Então isto é registro, e o conserto de cada uma é trabalho da fila.*

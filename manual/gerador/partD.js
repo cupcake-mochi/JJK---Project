@@ -37,7 +37,7 @@ const melhorias = [
     ['Precisão', 'Leve', '+2 na rolagem de acerto, ou +2 na CD do Teste de Resistência.'],
     ['Certeiro', 'Média', 'Sem rolagem de acerto. O alvo ainda faz o Teste de Resistência pra metade.'],
     ['Inescapável', 'Média', 'Sem acerto e sem Teste de Resistência: o dano é automático. Este feitiço não pode ter mais nenhuma peça, nem Melhoria nem Restrição, e não pode ser uma Liberação Máxima.'],
-    ['Fura', 'Média', 'Ignora até 3 × Classe de Redução de Dano. O que passar disso continua valendo.'],
+    ['Fura', 'Média', 'Ignora até 2 × Classe de Redução de Dano. O que passar disso continua valendo.'],
     ['Corrói', 'Pesada', 'Resistência ao seu tipo de dano deixa de valer neste feitiço. Só pode ser comprada se Mira for uma das suas Famílias Livres.'],
     ['Sem Cobertura', 'Leve', 'Cobertura Parcial não atrapalha. A Total não se fura: ela não é bônus, é a ausência de alvo legal.'],
     ['De Novo', 'Média', 'Se você errar, rola de novo. Uma vez por cena.'],
@@ -110,12 +110,12 @@ const melhorias = [
   CAT([
     ['Impulso', 'Leve', 'O alvo tem vantagem no próximo teste dele, até o fim do próximo turno.'],
     ['Trava', 'Leve', 'O alvo tem desvantagem no próximo ataque dele.'],
-    ['Abre Ferida', 'Leve', 'O alvo fica com −2 em Testes de Resistência até o fim do próximo turno dele.'],
+    ['Abre Ferida', 'Leve', 'O alvo fica com −2 em um Teste de Resistência até o fim do próximo turno dele.'],
     ['Sobrecarga', 'Leve', 'Até o fim do próximo turno do alvo, o feitiço dele custa o dobro de energia e sai com a CD 2 menor.'],
     ['Firmeza', 'Média', 'O alvo tem vantagem no próximo Teste de Resistência dele.'],
     ['Guarda', 'Média', 'Até o fim do próximo turno, o alvo tem +2 de defesa.'],
     ['Pressa', 'Média', 'O alvo ganha +6 m de deslocamento e não provoca ataques de oportunidade até o fim do próximo turno.'],
-    ['Enfraquece', 'Média', 'O dano do alvo cai um quarto até o fim do próximo turno dele.'],
+    ['Enfraquece', 'Média', 'O dano do alvo cai Xd4 até o fim do próximo turno dele, com X sendo metade do seu atributo de técnica.'],
     ['Ecoa', 'Média', 'O próximo ataque de um aliado contra o alvo tem vantagem.'],
   ]),
 

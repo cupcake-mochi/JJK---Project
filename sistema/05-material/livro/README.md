@@ -31,7 +31,7 @@ PDF"*. É esse PDF, escrito direto a partir desta pasta.
 | | páginas | o que ela é |
 |---|---|---|
 | `-A-atual` | 256 | o que estava publicado antes desta leva. Snapshot, não se regera |
-| *(sem sufixo)* | 256 | a mesma coisa, com as quebras de página consertadas e o sumário em duas colunas |
+| *(sem sufixo)* | 257 | a mesma coisa, com as quebras de página consertadas e o sumário em duas colunas |
 | `-C-duas-colunas` | 149 | corpo em duas colunas a 9,4pt com entrelinha 1,45, e grade de 5+ colunas em largura inteira |
 
 > **⚠ Estas duas contagens envelhecem toda vez que o livro muda, e não têm validador.** *Elas diziam `239` e `139` até a v0.178, e nesse meio-tempo a v0.176 já as tinha levado para `239` e `138` sem ninguém corrigir aqui.* **O aviso provou-se em DUAS versões seguidas:** *a v0.179 acrescentou cinco linhas ao capítulo 7 e a coluna única foi de `240` para `241`; a v0.180 reescreveu a ficha da invocação e ela foi para `242`.* **Três versões, três correções à mão** — se isso acontecer uma quarta vez, a resposta deixa de ser corrigir e passa a ser tirar a coluna daqui. **A paginação não é propriedade de documento nenhum — é do artefato construído**, e a decisão da v0.169 foi tirar as cópias em vez de inventar um dono. *Esta tabela é a cópia que sobrou, e ela existe porque compara três diagramações; quem mexer no livro relê ela com `pdfinfo`.*
@@ -49,10 +49,27 @@ PDF"*. É esse PDF, escrito direto a partir desta pasta.
 ## Como regerar
 
 Precisa de `markdown`, `beautifulsoup4`, `weasyprint` e `python-docx` (`pip install` os
-quatro). E das fontes do projeto instaladas no sistema — Barlow Condensed (Regular,
-SemiBold, Bold), Spectral (Regular, Italic, SemiBold, SemiBold Italic), IBM Plex Mono
-(Regular) e Noto Serif CJK (para os kanjis de abertura de capítulo). Sem elas o WeasyPrint
-cai para uma fonte substituta e a diagramação sai errada, sem avisar.
+quatro). E das fontes do projeto instaladas no sistema:
+
+| família | as faces que o CSS pede |
+|---|---|
+| **Barlow Condensed** | Regular, SemiBold, Bold |
+| **Spectral** | Regular, Italic, SemiBold, SemiBold Italic |
+| **IBM Plex Mono** | Regular, Italic, **SemiBold**, **SemiBold Italic**, Bold, Bold Italic |
+| **Noto Serif CJK JP** | Regular (os kanjis de abertura de capítulo) |
+
+> **⚠ A linha do IBM Plex Mono dizia só `Regular` até a v0.221.** *A `code` do CSS pede IBM Plex Mono e o `strong` do mesmo CSS pede peso `600` — e o livro põe negrito dentro de crase o tempo todo.* **Então a face que o livro carrega é a `SemiBold`, e não a `Bold`:** *`600` é o número que o CSS escreve.*
+>
+> **Medido, e é o que sustenta a tabela acima:** *os PDFs que estavam commitados embutiam `DejaVu Sans Mono` em três faces; com as seis faces instaladas os dois saem com `IBM Plex Mono SemiBold` e `IBM Plex Mono SemiBold Italic` e **zero** DejaVu.*
+>
+> **⚠⚠ O que NÃO se confirmou é o mecanismo, e vale saber para ninguém procurar no lugar errado.** *A v0.220 escreveu que "sem a face Bold o WeasyPrint cai no monospace genérico".* **Testado com só a `Regular` na pasta, e com DejaVu instalado no sistema como o `monospace` genérico: o WeasyPrint 69 NÃO caiu** — *ele sintetizou e ficou na família, e o PDF saiu com `IBM Plex Mono` + `IBM Plex Mono Oblique`, que é exatamente a lista do `-A-atual`.* **O defeito é real e o conserto está provado; por que uma máquina cai e a outra não, não está.** *Quem for atrás comece pela versão do WeasyPrint e pelo fontconfig, e não pelo CSS.*
+
+**Sem uma face o WeasyPrint cai para uma fonte substituta e a diagramação sai errada, sem avisar** — e o jeito de conferir é abrir o PDF pronto e listar as fontes embutidas, não olhar a página.
+
+> **Duas substitutas ainda sobram, medidas na v0.221 e NÃO consertadas** — *o conserto das duas é de CSS e não de fonte instalada, e nenhuma foi decidida:*
+>
+> - **`WenQuanYi Zen Hei` cobre três kanjis** — `型` e `奥義`, os dois do capítulo 42 —, porque eles moram em **texto corrido**, onde a família é `Spectral`, e o Spectral não tem CJK. *O `Noto Serif CJK JP` só é pedido no `.kanji` e na capa.* **O conserto seria pôr o Noto na pilha do corpo**, e ele é uma linha.
+> - **`FreeSerif Bold` cobre um `⚠`**, o do capítulo 47, pelo mesmo motivo: `Spectral SemiBold` não tem o símbolo. *Aqui o conserto é maior — é escolher uma fonte de símbolo —, e por isso ele não foi feito.*
 
 ```bash
 cd build

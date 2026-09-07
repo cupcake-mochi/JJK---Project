@@ -62,10 +62,39 @@ RESISTE = float(pega(P01, r'\*\*treinado\*\* \| 65% \| 65% \| 65% \| 65% \| \*\*
 RESISTE_SEM = float(pega(P01, r'\*\*sem treino\*\* \| 60% \| 55% \| 50% \| 45% \| \*\*(\d+)%\*\*',
                          'o TR sem treino').group(1)) / 100.0
 CUSTO_PE = pega(PARTA, r'custa \*\*3 × Classe\*\* de PE', 'o custo em PE').group(0)
+# as rodadas da luta: a frase e' da secao `Inimigos` do manual, e o §6.1 da peca
+# 26 diz que o terceiro fator do poco sai de la.
+RODADAS = float({'duas': 2, 'três': 3, 'quatro': 4}[
+    pega('manual/gerador/partF.js', r'faz a luta contra ele durar (três|duas|quatro) rodadas',
+         'as rodadas da luta').group(1)])
 CLASSE0_GRATIS = pega(PARTA, r'Classe 0 é grátis', 'o Classe 0 gratis').group(0)
 CLASSE0_METADE = pega(PARTA, r'gasta PE em cerca de \*\*metade das rodadas de luta do dia\*\*',
                       'metade das rodadas').group(0)
-SEM_PE = pega(P26, r'O inimigo não conta PE', 'o inimigo sem PE').group(0)
+# v0.221: o inimigo passou a contar PE, e a ancora mudou de frase junto. O poco
+# nao e' numero novo — e' a cota do §4.1 dividida pelo ponto de feitico e
+# multiplicada pelas rodadas da luta, e o conferir-bestiario.py bloco 10 guarda
+# isso. Aqui a gente le a TABELA, porque e' dela que a medida precisa.
+pega(P26, r'Poço de PE = o orçamento de feitiço de uma ação', 'a regra do poco')
+def cota_e_acoes():
+    """As quatro categorias no nivel 30: cota por rodada e acoes, lidas do §4 e
+    do §4.1 da peca 26. Nada disto e' escrito aqui."""
+    txt = ler(P26)
+    acoes = {m[0]: int(m[1]) for m in re.findall(
+        r'\*\*`(Ronda|Dupla|Alcateia|Calamidade)`\*\* \| \d+ \| `× [\d,]+` \| `(\d+)` \|', txt)}
+    gente = {m[0]: int(m[1]) for m in re.findall(
+        r'\*\*`(Ronda|Dupla|Alcateia|Calamidade)`\*\* \| (\d+) \|', txt)}
+    i = txt.index('| categoria | nv 10 | nv 20 | nv 30 |')
+    bl = txt[i:txt.index('\n\n', i)]
+    cota = {}
+    for m in re.finditer(r'^\| `(Ronda|Dupla|Alcateia|Calamidade)` \|(.+)\|\s*$', bl, re.M):
+        ns = [int(x) for x in re.findall(r'`(\d+)`', m.group(2))]
+        cota[m.group(1)] = ns[-1]          # a coluna do nv 30, e a celula traz vida e dano
+    if len(acoes) != 4 or len(cota) != 4 or len(gente) != 4:
+        print('  !! nao li as quatro categorias da peca 26 — a forma mudou')
+        sys.exit(1)
+    return cota, acoes, gente
+COTA30, ACOES30, GENTE30 = cota_e_acoes()
+POCO = pega(P26, r'\| `Alcateia` \| `\d+` \| `\d+` \| `(\d+)` \|', 'o poco da Alcateia nv30').group(1)
 # a Melhoria que o manual preca em exatamente +2 de CD
 PRECISAO = pega(PARTD, r"\['Precisão', '(\w+)', '\+2 na rolagem de acerto, ou \+2 na CD",
                 'a Precisao').group(1)
@@ -85,7 +114,8 @@ print(f'  custo de um feitico        3 x Classe de PE; Classe 0 e gratis')
 print(f'  +1 PE permanente           {PE_CAMBIO:.2f} de dano por rodada')
 print(f'  `Precisao` (+2 na CD)      o manual preca em {PRECISAO}')
 print(f'  `Abre Ferida` (-2 no TR)   o manual preca em {ABREFERIDA}')
-print(f'  o inimigo                  nao conta PE (peca 26 §6.1)')
+print(f'  o inimigo                  CONTA PE desde a v0.221 (peca 26 §6.1)')
+print(f'  o poco de uma Alcateia nv30  {POCO} PE — a cota {COTA30["Alcateia"]:.0f} / {PONTO} x 3 rodadas')
 
 print()
 print('=' * 86)
@@ -115,9 +145,38 @@ print('  "Ate o fim do proximo turno do alvo, o feitico dele custa o dobro de')
 print('   energia e sai com a CD 2 menor."')
 print()
 print('  METADE 1 — o dobro de energia')
-print(f'   jogador -> inimigo   {0.0:>7.2f}   o inimigo nao conta PE (peca 26 §6.1).')
-print( '                                  Nao existe alvo no bestiario inteiro.')
 POR_ACAO = CHEFE / ACOES
+# ⚠ ESTA E A METADE QUE A v0.219 MEDIU EM 0,00 E A v0.221 REMEDIU.
+# Com o poco do §6.1, dobrar o feitico do inimigo custa a ele um orcamento de
+# acao a mais. O poco guarda exatamente `pontos por acao x acoes x rodadas`,
+# entao pagar um orcamento a mais e' UMA ACAO A MENOS montada como feiticio no
+# resto da luta — ela sai como o golpe do §4.4, sem area, sem condicao e sem
+# Melhoria. O que se perde e' a FORMA daquela acao, e a forma se preca em ponto
+# de feitico, que e' o mesmo `4,5` de sempre.
+#
+# ⚠ E o que se perde NAO e' a cota: o golpe entrega o mesmo dano. Somar dano
+# perdido aqui seria contar duas vezes — o poco E' a cota noutra unidade.
+print( '   o poco guarda pontos-por-acao x acoes x rodadas. Dobrar UM feitico gasta')
+print( '   um orcamento de acao a mais, e sobra uma acao a menos com forma na luta.')
+print()
+print(f'   {"categoria":<12}{"cota":>6}{"acoes":>7}{"golpe":>8}{"pts/acao":>10}{"poco":>7}'
+      f'{"por rodada":>12}')
+ENERGIA = {}
+for _c in ('Ronda', 'Dupla', 'Alcateia', 'Calamidade'):
+    _cota = float(COTA30[_c])
+    _ac = ACOES30[_c]
+    _golpe = _cota / _ac
+    _pts = _golpe / PONTO
+    _poco = _cota / PONTO * RODADAS
+    # a forma de uma acao, espalhada na luta
+    ENERGIA[_c] = _golpe / RODADAS
+    print(f'   {_c:<12}{_cota:>6.0f}{_ac:>7}{_golpe:>8.1f}{_pts:>10.1f}{_poco:>7.0f}'
+          f'{ENERGIA[_c]:>12.2f}')
+print()
+print(f'   jogador -> inimigo   {ENERGIA["Alcateia"]:>7.2f}   contra um chefe de `Alcateia`, que e a linha')
+print( '                                  em que a categoria e calibrada. Era 0,00 ate a v0.220.')
+print(f'   jogador -> inimigo   {ENERGIA["Dupla"]:>7.2f}   contra uma `Dupla`, que e o teto: uma acao so,')
+print( '                                  entao o golpe dela e o maior da tabela (§4.4).')
 # o outro lado: um inimigo poe Sobrecarga num jogador
 DIA = float(pega('sistema/03-mecanica/06-caminhos-e-trilhas.md',
                  r'`([\d,]+)` rodadas de luta por dia', 'as rodadas por dia').group(1).replace(',', '.'))
@@ -166,12 +225,19 @@ print()
 print('=' * 86)
 print('A DOMINANCIA — o que ela entrega dividido pelo que aqueles pontos dariam')
 print('=' * 86)
+# ⚠ AS DUAS METADES SE SOMAM, e ate a v0.219 uma delas era zero. A regra de ouro
+# desta casa e' que preco se mede SOMADO — a licao no 7 —, e com o poco do §6.1
+# a metade da energia deixou de ser zero contra o bestiario.
 print(f'  {"":<34}{"Leve":>10}{"Pesada":>10}      contra o filtro de {FILTRO:.2f}x')
-for rot, val in (('teto: as 3 acoes pedem TR', janela_alta),
-                 ('piso: 1 acao pede TR', janela_baixa),
-                 ('num capanga', cap)):
+SOMADO = {}
+for rot, val in (('so a CD, teto: as 3 acoes pedem TR', janela_alta),
+                 ('so a CD, piso: 1 acao pede TR', janela_baixa),
+                 ('so a CD, num capanga', cap),
+                 ('SOMADO num chefe de Alcateia', janela_alta + ENERGIA['Alcateia']),
+                 ('SOMADO numa Dupla (o teto)', janela_alta + ENERGIA['Dupla'])):
     dl = val / (leve(7) * PONTO)
     dp = val / (pesada(7) * PONTO)
+    SOMADO[rot] = (val, dl, dp)
     print(f'  {rot:<34}{dl:>9.2f}x{dp:>9.2f}x')
 print()
 print('  A banda em que as treze condicoes ja publicadas vivem (peca 19 §2.2):')
@@ -193,10 +259,31 @@ print(f'  As `Pesada` ja publicadas entregam de {min(alvo_pesada):.2f}x a {max(a
 print(f'  As `Leve`   ja publicadas entregam de {min(alvo_leve):.2f}x a {max(alvo_leve):.2f}x.')
 print()
 precisa = min(alvo_pesada) * pesada(7) * PONTO
+teto_som = janela_alta + ENERGIA['Dupla']
+alc_som = janela_alta + ENERGIA['Alcateia']
 print(f'  Para a `Sobrecarga` sentar no PIOR degrau `Pesada` que existe ({min(alvo_pesada):.2f}x)')
-print(f'  ela teria de negar {precisa:.1f} de dano por rodada. Ela nega {janela_alta:.2f} no teto.')
-print(f'  Falta um fator de {precisa/janela_alta:.0f}x. Isso nao se alcanca ajustando numero:')
-print(f'  seria outra Melhoria.')
+print(f'  ela teria de negar {precisa:.1f} de dano por rodada.')
+print(f'  Somadas as duas metades ela nega {alc_som:.2f} num chefe de `Alcateia` e {teto_som:.2f}')
+print(f'  no teto, que e a `Dupla`. Falta um fator de {precisa/teto_som:.1f}x ate a `Pesada`.')
 print()
-print(f'  No degrau `Leve` ela cai em {janela_baixa/(leve(7)*PONTO):.2f}x a {janela_alta/(leve(7)*PONTO):.2f}x,')
-print(f'  dentro da banda das `Leve` publicadas, entre o `Incapacitado` e o `Derrubado`.')
+print( '  ⚠ E ISSO MUDOU O TAMANHO, e nao o veredito. Ate a v0.219 a metade da energia')
+print(f'  lia 0,00 contra o bestiario e a soma era {janela_alta:.2f}; com o poco do §6.1 ela')
+print(f'  passou a {alc_som:.2f}, que e {alc_som/janela_alta:.1f}x. Continua fora da banda `Pesada`.')
+print()
+dl_alc, dl_dup = alc_som / (leve(7) * PONTO), teto_som / (leve(7) * PONTO)
+print(f'  No degrau `Leve` ela cai em {dl_alc:.2f}x contra um chefe de `Alcateia` e')
+print(f'  {dl_dup:.2f}x contra uma `Dupla`. A banda das `Leve` publicadas para em {max(alvo_leve):.2f}x.')
+print()
+print( '  ⚠⚠ E ISSO E UM ACHADO, e nao um arredondamento: a `Alcateia` cabe em `Leve`')
+print(f'  ({dl_alc:.2f}x contra o teto de {max(alvo_leve):.2f}x) e a `Dupla` NAO cabe — ela passa')
+print(f'  {dl_dup/max(alvo_leve) - 1:.0%} do teto e cai dentro da banda das `Pesada`')
+print(f'  ({min(alvo_pesada):.2f}x a {max(alvo_pesada):.2f}x).')
+print()
+print( '  A causa e o §4.4, e ela nao e desta Melhoria: a `Dupla` entrega metade da cota')
+print( '  de uma `Alcateia` numa acao SO, entao o golpe dela e o maior da tabela. Como o')
+print( '  que a Sobrecarga tira e UMA ACAO de forma, ela tira mais de quem concentra mais.')
+print( '  Qualquer Melhoria que custe uma acao do inimigo tem esse mesmo perfil.')
+print()
+print( '  ⚠ QUEM DECIDE O DEGRAU E O MIZUKI, e a linha `Sobrecarga` do ESTADO-revisao.md')
+print( '  continua `aberta`: `Leve` no manual e `Pesada` no livro. Isto e a medida, e nao')
+print( '  a decisao. O que a medida diz e que `Pesada` continua sem caber.')

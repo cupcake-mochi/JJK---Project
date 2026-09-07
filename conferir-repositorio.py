@@ -1325,34 +1325,53 @@ else:
 
                 # 7.6b — o outro eixo: a substituta apareceu no corpo ou no titulo?
                 #
-                # ⚠ O MONOESPACADO FICA DE FORA DO ERRO, E ISSO E' DIVIDA DECLARADA,
-                # NAO DESENHO. A v0.218 escreveu aqui "o monoespacado cai em DejaVu por
-                # desenho" e o Mizuki DESFEZ isso na v0.220: "o dejavumono e defeito, pq
-                # eu n quero essa fonte, o certo seria usar a que foi programado a ser
-                # usado desde sempre".
+                # ⚠ O AVISO QUE MORAVA AQUI PAROU DE REPRODUZIR NA v0.221, E POR ISSO
+                # ELE VIROU ERRO. A v0.218 escreveu "o monoespacado cai em DejaVu por
+                # desenho"; o Mizuki desfez isso na v0.220 — "o dejavumono e defeito, pq
+                # eu n quero essa fonte" — e a v0.220 deixou em AVISO com um motivo
+                # datado: "reprovar travaria o commit contra uma coisa que nenhum
+                # rebuild resolve".
                 #
-                # A causa esta medida e nao e' o texto: ~/.local/share/fonts/manual/ tem
-                # so' a face IBMPlexMono-Regular. O CSS do livro pede
-                # `font-family: "IBM Plex Mono", monospace` no `code`, e o livro poe
-                # NEGRITO dentro de crase o tempo todo — sem a face Bold instalada, o
-                # WeasyPrint cai no `monospace` generico, que nesta maquina e' DejaVu
-                # Sans Mono. O oblique ele sintetiza da Regular; o bold ele nao.
+                # ESSE MOTIVO MORREU: a v0.221 instalou as faces e os dois PDFs sairam
+                # com `IBM Plex Mono SemiBold` embutido e ZERO DejaVu, medido no PDF
+                # pronto com pdffonts. Um rebuild RESOLVE, entao travar o commit e' o
+                # certo.
                 #
-                # O conserto e' instalar as faces que faltam e rodar os QUATRO builds.
-                # Ate la isto e AVISO e nao erro, de proposito: reprovar travaria o
-                # commit contra uma coisa que nenhum rebuild resolve.
+                # ⚠ E A FACE CARREGADA E' A SemiBold, e nao a Bold: o `strong` do CSS e'
+                # peso 600. A v0.220 escreveu "Bold" e o numero dela diz 600.
+                #
+                # ⚠⚠ MAS O MECANISMO QUE A v0.220 DESCREVEU NAO REPRODUZ, e isto fica
+                # escrito para ninguem procurar o defeito no lugar errado. Ela dizia:
+                # "sem a face Bold instalada, o WeasyPrint cai no `monospace` generico".
+                # Testado na marra: com SO a IBMPlexMono-Regular na pasta, e com DejaVu
+                # Sans Mono instalado no sistema e sendo o `monospace` generico, o
+                # WeasyPrint 69 NAO caiu — ele sintetizou e ficou na familia, e o PDF
+                # saiu com `IBM Plex Mono` + `IBM Plex Mono Oblique`, que e exatamente a
+                # lista do `-A-atual`.
+                #
+                # Entao: o DEFEITO nos PDFs commitados e' real e esta medido — eles
+                # embutem DejaVu Sans Mono em tres faces —, e o CONSERTO esta provado.
+                # O que nao esta estabelecido e' POR QUE a maquina que gerou aqueles
+                # PDFs caiu e esta nao cai. Quem for atras disso comece pela versao do
+                # WeasyPrint e pelo fontconfig da maquina, e nao pelo CSS.
                 _mono_subs = sorted({_n for _n in _nomes
                                      if _n.startswith('dejavu sans mono')})
                 if _mono_subs:
-                    aviso(f'7.6: {os.path.basename(_p)} embute {_mono_subs} no lugar do '
-                          f'IBM Plex Mono. Falta a face Bold (e a Italic) em '
-                          f'~/.local/share/fonts/manual/, e o livro usa negrito dentro '
-                          f'de crase. Decisao do Mizuki na v0.220: isto e DEFEITO')
+                    erro(f'7.6: {os.path.basename(_p)} embute {_mono_subs} no lugar do '
+                         f'IBM Plex Mono. Faltam faces em ~/.local/share/fonts/manual/ — '
+                         f'a que o livro carrega e a SemiBold, porque o `strong` do CSS '
+                         f'e peso 600 e o livro poe negrito dentro de crase. Instale as '
+                         f'faces e rode os QUATRO builds')
+
+                # ⚠ E A LISTA DE SUBSTITUTAS ERA CURTA DEMAIS, achado na v0.221: ela
+                # nao conhecia o `FreeSerif`, e ele estava num PDF publicado cobrindo o
+                # unico `⚠` literal do livro. Substituta que a checagem nao conhece e'
+                # substituta que passa — entao a lista deixou de ser de nomes conhecidos
+                # e passou a ser o COMPLEMENTO: fonte embutida que nao e de nenhuma das
+                # familias que o CSS pede E nao e do proprio texto do livro acende.
                 _subs = sorted({_n for _n in _nomes
-                                if ('wenquanyi' in _n
-                                    or _n.startswith('dejavu serif')
-                                    or (_n.startswith('dejavu sans')
-                                        and 'mono' not in _n))})
+                                if 'mono' not in _n
+                                and not any(_f in _n for _f in _fam)})
                 if _subs:
                     erro(f'7.6: {os.path.basename(_p)} embute a fonte substituta {_subs} '
                          f'no corpo ou no titulo — foi assim que a v0.217 publicou dois '

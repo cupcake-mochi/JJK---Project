@@ -3763,7 +3763,7 @@ Garantem o acerto: menos chance de errar, mais chance de atravessar a defesa do 
 | `Precisão` | `Leve` | +2 na rolagem de acerto, ou +2 na CD do Teste de Resistência. |
 | `Certeiro` | `Média` | Sem rolagem de acerto. O alvo ainda faz o Teste de Resistência para metade. |
 | `Inescapável` | `Média` | Sem acerto e sem Teste de Resistência: o dano é automático. Este feitiço não pode ter mais nenhuma peça, nem Melhoria nem Restrição, e não pode ser uma Liberação Máxima. |
-| `Fura` | `Média` | Ignora até 2 × Classe de Redução de Dano. |
+| `Fura` | `Média` | Ignora até 2 × Classe de Redução de Dano. O que passar disso continua valendo. |
 | `Corrói` | `Pesada` | Resistência ao seu tipo de dano deixa de valer neste feitiço. Só pode ser comprada se Mira for uma das suas Famílias Livres. |
 | `Sem Cobertura` | `Leve` | Cobertura `Parcial` não atrapalha. A `Total` continua fazendo efeito normalmente. |
 | `De Novo` | `Média` | Se você errar, rola de novo. Uma vez por cena. |
@@ -4180,7 +4180,14 @@ O Acerto do Megumi *reforça* em vez de *atingir*, e é o que dá para fazer com
 
 **O Rescaldo dispara dos dois lados**, em toda saída. O domínio acabou, e ele acaba de qualquer jeito.
 
-**Uma incompleta entra na disputa e não pode vencer.** Ela não fecha barreira, então não tem barreira para conquistar nem para perder. O que ela faz é o que a sobreposição já faz: desliga o Acerto do completo, **e a barreira do completo deixa de prender — quem está lá dentro pode sair**, e o Acerto dela, que rola, continua rolando. **Custa a sua expansão inteira**, e o que ela compra é desligar o Acerto dele.
+**Conquistar é alcançar a barreira do outro por fora.** Uma barreira não quebra por dentro — é o que esta seção já diz —, então quem a derruba é quem chega nela de fora. Um domínio alcança a barreira do outro quando a **área dele cobre o chão em que aquela barreira está de pé**. As quatro perguntas acima decidem entre dois que se alcançam; quando só um alcança, ele conquista e as perguntas nem chegam a ser feitas.
+
+**Um domínio sem barreira não tem o que ser alcançado.** Não existe casca dele para quebrar por fora, então ele não perde a disputa — e ele conquista se a área dele cobrir a barreira do outro. Ele continua fazendo o que a sobreposição já faz: desliga o Acerto do completo, **e a barreira do completo deixa de prender — quem está lá dentro pode sair**, e o Acerto dele, que rola, continua rolando.
+
+> **O que um domínio sem barreira paga: ele não prende ninguém.**
+> Não poder ser conquistado não é vantagem de graça, e não é o contrário da regra antiga. **Quem está dentro de um domínio aberto pode sair andando**, e fora da sobreposição não existe disputa nenhuma — o alvo vai embora e leva a briga junto.
+> **É isso que o terceiro espaço da completa compra:** que o outro não vá embora. *A barreira não serve para vencer o choque; serve para o choque acontecer.*
+> Um domínio aberto é a ferramenta de quem quer **alcance**, e um fechado é a de quem quer **que ninguém saia**. *Nenhum dos dois ganha do outro por regra.*
 
 > **A segunda pergunta é uma troca, e ela não paga escrever Acerto inútil.**
 > Um Acerto que causa dano rende em todo uso do seu domínio, na abertura e no começo de cada turno seu. **O desempate da pergunta 2 só rende contra outro domínio, de refino igual ao seu.**
@@ -5122,7 +5129,7 @@ A Classe Passiva não cobra nada aqui: o marco compra uma de qualquer altura. Qu
 
 > **Requisito de atributo:** você precisa daquele atributo em **4** ou mais para pegar a Bênção.
 >
-> **⚠ Uma Bênção com requisito de atributo não soma aquele atributo na rolagem dela.** Ou você paga para destravar, ou usa na conta — nunca os dois.
+> **Uma Bênção com requisito de atributo não soma aquele atributo na rolagem dela.** Ou você paga para destravar, ou usa na conta — nunca os dois.
 
 ## Catálogo
 
@@ -6752,4 +6759,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: a922c334f0d2a382f98cabe56452d20fc2dee941 -->
+<!-- fonte: 7a85ee25f0d1c547c3682ef65a30205653f7b6b3 -->

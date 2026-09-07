@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 07/09/2026, na v0.220 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e nove checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 07/09/2026, na v0.221 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e dez checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.220.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
+**Versão v0.221.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
 
 **A v0.207 deu ao capítulo de Invocações o passo a passo que o Fundamento tem para feitiço.** *O capítulo publicava a máquina inteira e nove montagens prontas, e o leitor via o resultado sem ver a conta — `12` pontos, cabe no nível 6, e de onde vem o `12` nenhuma linha mostrava.*
 
@@ -760,7 +760,7 @@ python3 conferir-nomes.py --candidatos Vulto Matilha Bigorna
 
 | validador | pula | de quantas | o rodapé avisa? |
 |---|---|---|---|
-| `conferir-bestiario` | 3 — a categoria, o câmbio e o §6.5 (esta em três sub-blocos) | 9 | **sim** |
+| `conferir-bestiario` | 3 — a categoria, o câmbio e o §6.5 (esta em três sub-blocos) | 10 | **sim** |
 | `conferir-dano` | 1 — as treze contra o manual | 13 | **sim** — `OK, mas 1 checagem(ns) PULARAM` |
 | `conferir-manual` | **8 — todas.** Sai no `except ImportError` antes da primeira | 8 | avisa, e sai antes do rodapé |
 | `conferir-nomes` | 3 (as checagens 1, 3 e 4) | 6 | sim, **desde a v0.101** |
@@ -922,7 +922,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/25-sem-tecnica.md` | **a rota de criação de quem tem energia e não tem técnica inata**: a semente — uma aptidão aberta na criação, em `Classe Passiva 2` ou `3` —, as três portas, os renomes `Manejo` e `Auge`, o buff de `1/3 do refino` na cura da rota da Shoko, e por que a Expansão de Domínio não existe aqui |
 | `03-mecanica/conferir-sem-tecnica.py` | as **doze** checagens da peça 25, e nenhum valor de regra mora dentro dela. *A 5 é a que decide a peça: ela não guarda os `9,3` nem os `17,3` — lê a escada de gate da peça 11 §5, simula as três rotas de marco e recalcula a antecipação de cada altura, então mexer na escada de forma coerente move a banda junto e sai verde de propósito* |
 | `03-mecanica/26-bestiario.md` | **a máquina de montar inimigo**: a ficha de treze linhas com dono declarado, as três derivadas que não tinham dono nenhum — Defesa, acerto e CD —, as quatro categorias medidas em quantos personagens o inimigo exige, o câmbio de um chefe por quatro capangas, e o grau como rótulo de ficção |
-| `03-mecanica/conferir-bestiario.py` | as **nove** checagens da peça 26, e nenhum valor de regra mora dentro dela. *A 2 é a que decide a peça: ela não guarda a Defesa nem a CD do inimigo — reconstrói as duas das fórmulas da peça 1 §5 e cobra que elas devolvam, do lado do inimigo, os mesmos `50%` a `55%` de acerto e `65%` de resistência que a peça 1 §6 publica do lado do jogador.* **A 5 não guarda o câmbio: ela roda a simulação de fogo concentrado aqui dentro**, nos seis níveis da tabela do manual |
+| `03-mecanica/conferir-bestiario.py` | as **dez** checagens da peça 26, e nenhum valor de regra mora dentro dela. *A 10 entrou na v0.221 com o poço de PE do inimigo: ela reconstrói as doze células da cota do §4.1, mede a queima por pessoa contra a banda do jogador num bloco separado — regra aplicada e limite de design não se medem juntos —, e traz contra-teste do fator da duração.* *A 2 é a que decide a peça: ela não guarda a Defesa nem a CD do inimigo — reconstrói as duas das fórmulas da peça 1 §5 e cobra que elas devolvam, do lado do inimigo, os mesmos `50%` a `55%` de acerto e `65%` de resistência que a peça 1 §6 publica do lado do jogador.* **A 5 não guarda o câmbio: ela roda a simulação de fogo concentrado aqui dentro**, nos seis níveis da tabela do manual |
 | `05-material/gerador-ficha/` | o gerador da ficha (Node: `node make.js`), e os dois `.docx` que ele produz |
 | `05-material/gerador-inimigo/` | **o gerador do bloco de inimigo** (Node: `node make.js`), e o `bloco-de-inimigo.docx` de quatro páginas que ele produz — as tabelas que o mestre copia, o bloco em branco e um exemplo preenchido. *O `dados.js` dele não é autoridade de nada: o bloco `7` do `conferir-ficha.py` compara com a peça 26* |
 | `conferir-repositorio.py` | a árvore, as referências mortas, os números que moram em mais de um documento, os **ponteiros de seção** — todo `peça N §M` citado tem de apontar para seção que existe, desde a v0.54 —, o **mapa** desta tabela contra a pasta, a **entrega** contra a fonte, a **pendência morta** desde a v0.100 — nenhum item de "Em aberto" pode pedir coisa que já existe —, e, **desde a v0.102**, a **contagem de checagens de cada validador, lida do código** |
@@ -930,7 +930,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 
 **Duas peças foram parcialmente substituídas e trazem o aviso no topo:** as seções 3 e 4 da peça 4 saíram para a peça 7, e a seção 3 e o quadro de Caminhos da peça 5 saíram para a peça 6.
 
-O manual do Fundamento **v7.25** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 366 parágrafos e 90 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na mesma versão do `.docx`, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 50 páginas.
+O manual do Fundamento **v7.26** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 366 parágrafos e 90 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na mesma versão do `.docx`, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 50 páginas.
 
 **Quem é dono da versão do manual:** a primeira linha de `manual/gerador/COMO-USAR.txt`. Toda outra cópia — a capa em `partA.js`, este arquivo, o `README.md`, o `LEIA-ME.md` e o `arquitetura.md` — é cópia, e o `conferir-repositorio.py` falha se alguma divergir. *Ele nasceu na v0.33, depois de a capa do manual passar três versões dizendo 7.5.*
 
@@ -1281,27 +1281,38 @@ A skill `redacao-acessivel-rpg` existe exatamente para a travessia de "nota de d
 
 **E as dez pendências que só a mesa responde são todas de nível 2** — Constituição virou obrigatória, alguém usa ação bônus, Intuição contra Percepção, se quatro perícias livres é escolha demais, se alguém rola Pontaria, se o extra da Origem é escolha de igual para igual, se a criação leva mesmo vinte a quarenta minutos, se um Legado por ficha é pouco, se três lutas de graça é o número certo, e se o descanso curto devia devolver alguma vida. **Nenhuma delas precisa das aptidões.**
 
-### A fila de agora — v0.220
+### A fila de agora — v0.221
 
-**Tudo aqui é DECISÃO TOMADA e CONSERTO NÃO FEITO.** *A v0.220 anotou e não consertou, por pedido dele.* **Quem pegar esta fila começa aplicando, e não decidindo.**
+**A fila da v0.220 foi APLICADA inteira.** *As cinco decisões dela viraram conserto nesta leva, e três tinham mais dentro do que a anotação dizia.* **O que sobrou aqui é decisão dele e dívida declarada — não tem conserto pendente esperando alguém.**
 
-| # | o que foi decidido | onde mexe |
+| # da v0.220 | o que era | onde ficou |
 |---|---|---|
-| 1 | **O inimigo vai contar energia**, com poço semelhante ao do jogador | **peça 26 §6.1 cai**, e ela tem argumento escrito contra — *"criaria uma segunda economia que só o mestre opera"*. **Responder isso é parte do trabalho.** Depois: rodar de novo o `manual/matematica/sobrecarga.py` |
-| 2 | **`Fura` = `2 × Classe`, `Enfraquece` = `Xd4`, `Abre Ferida` = UM Teste** — o livro vence | `manual/gerador/partD.js` **e** o `.docx`, nos três. Depois, virar `fechada` na tabela do `ESTADO-revisao.md` |
-| 3 | **O domínio sem barreira para de perder por regra** | o capítulo da Expansão, no `partE.js` **e** no `40-fundamento.md`. *O mecanismo é o alcance, e não a inversão da regra* |
-| 4 | **O DejaVu Mono é defeito** | instalar as faces que faltam de IBM Plex Mono na pasta de fontes do usuário — só a `Regular` está lá — e rodar os **quatro** builds. *Nenhum rebuild sozinho resolve* |
-| 5 | **`B18` vai ser corrigido** | no outro repositório. *E o gerador Python é quem está atrás, não o `Ficha.gs`* |
+| 1 | o inimigo conta energia | **feito.** Peça 26 §6.1 reescrito, poço = `cota ÷ 4,5 × 3`, checagem `10` do `conferir-bestiario.py` com sete perturbações |
+| 2 | as três Melhorias, o livro vence | **feito**, e o `Fura` morava em SETE lugares do gerador. As três estão `fechada na v0.221` |
+| 3 | o domínio sem barreira | **feito.** Conquistar é alcançar a barreira do outro por fora; o lado aberto paga não prender ninguém |
+| 4 | o DejaVu Mono | **feito.** A face que faltava era a `SemiBold`, não a `Bold` — o `strong` do CSS é `600`. Os quatro builds rodaram |
+| 5 | o `B18` | **feito no que era conserto** — a fórmula da Integridade no gerador Python. Duas das quatro linhas dele não eram atraso |
 
-**E uma que continua sendo pergunta, não decisão:**
+**O QUE ESTÁ NA MESA AGORA, e é decisão dele:**
 
 | | |
 |---|---|
-| **`B17`** | o campo `integridade_temp` existe na ficha e **nada no sistema concede integridade temporária**. *Ou alguma coisa deveria conceder, ou o campo sai da linha da Integridade.* **É desenho de sistema, e é dele** |
+| **o degrau da `Sobrecarga`** | *`Leve` no manual, `Pesada` no livro, a linha continua `aberta`.* **A medida da v0.221 diz `1,96 ×` contra um chefe de `Alcateia` — que cabe em `Leve` — e `2,63 ×` contra uma `Dupla`, que NÃO cabe:** a banda das `Leve` para em `2,18 ×`. *A causa é o §4.4 da peça 26 e não a Melhoria: a `Dupla` concentra a cota numa ação só* |
+| **`B17`** | o campo `integridade_temp` existe na ficha e **nada no sistema concede integridade temporária**. *Ou alguma coisa deveria conceder, ou o campo sai.* **É desenho de sistema** |
+| **o Evocador no menu da ficha** | *a decisão `C1` do outro repositório tirou ele de propósito, e os três motivos dela já expiraram.* **Voltar é decisão sua** |
+| **as duas fontes substitutas que sobraram** | *`WenQuanYi` em três kanjis do capítulo 42 e `FreeSerif Bold` num `⚠` do capítulo 47.* **A primeira é uma linha de CSS — pôr o Noto na pilha do corpo. A segunda é escolher uma fonte de símbolo** |
+
+**AS DUAS COISAS QUE PRECISAM DA SUA MÁQUINA:**
+
+> **Os dois `.pdf` gerados por LibreOffice.** *Os `.docx` dos dois estão prontos e commitados, e os PDFs ficaram para trás porque a conversão pede `Georgia` e `Consolas` — que a máquina da leva não tem.* **Assar fonte substituta dentro do artefato é o defeito que esta mesma leva foi consertar no livro.**
+>
+> `soffice --headless --convert-to pdf` no `manual/Fundamento-MANUAL-v7.docx` e no `sistema/05-material/bloco-de-inimigo.docx`. *Medido: o ambiente da leva sozinho move a paginação do manual em duas páginas, então o delta real desta leva é `+1`. E a folha do bloco ganhou uma página com a tabela do poço — o `COMO-USAR.txt` dela avisa que aquela paginação é frágil.*
 
 **As outras vinte e duas divergências entre o manual e o livro continuam `aberta`.** *Dezesseis são mecânicas. A lista é a oitava passada do `sistema/05-material/livro/ESTADO-revisao.md`, e a checagem `12` a lê.*
 
-> **⚠ E duas dívidas de antes continuam abertas:** *a coincidência dos `256` entre o PDF de coluna única e o `-A-atual`* — **e agora ela tem uma variável a menos, porque os dois artefatos usam fontes diferentes** —, *e a `Sobrecarga` ainda escreve "o dobro de energia", que com o inimigo contando PE passa a ter alvo dos dois lados da mesa.*
+> **⚠ E uma dívida velha morreu por acidente:** *a coincidência dos `256` entre o PDF de coluna única e o `-A-atual` acabou porque o livro em coluna única foi para `257` nesta leva.* **A pendência fecha sem ter sido respondida.**
+
+---
 
 ---
 
