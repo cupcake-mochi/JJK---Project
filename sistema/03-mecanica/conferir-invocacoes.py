@@ -599,14 +599,19 @@ elif _MULT:
             if _hl is None or _fl is None or len(_rs) != 2:
                 _rerra.append(f'nv{_nv}: nao consegui ler a linha inteira')
                 continue
-            _h, _d = _b + 2 * _nv, dano_chefe(_nv) * 0.5
+            # o corpo do Coro deixou de ser a formula crua: ele tem multiplicador
+            # proprio no SS3.7, igual ao forte. O numero se le da concessao, nunca
+            # daqui — a Trilha e' dona dele.
+            _mc = CONCEDE.get('Coro', {}).get('vida', 1.0)
+            _h, _d = math.floor(_mc * (_b + 2 * _nv)), dano_chefe(_nv) * 0.5
             if _hl != _h:
-                _rerra.append(f'nv{_nv}: a coluna do corpo cru escreve {_hl:g} e a formula '
-                              f'do SS3.6 da {_h}')
+                _rerra.append(f'nv{_nv}: a coluna do corpo do Coro escreve {_hl:g} e '
+                              f'{_mc:g}x a formula do SS3.6 da {_h}')
             if _fl != _forte(_b, _nv):
                 _rerra.append(f'nv{_nv}: o corpo forte escreve {_fl:g} e {_MULT}x a formula '
                               f'da {_forte(_b, _nv)}')
-            for _rot, _vida, _lido in (('cru', _h, _rs[0]), ('forte', _forte(_b, _nv), _rs[1])):
+            for _rot, _vida, _lido in (('do Coro', _h, _rs[0]),
+                                       ('forte', _forte(_b, _nv), _rs[1])):
                 if abs(_vida / _d - _lido) > 0.05:
                     _rerra.append(f'nv{_nv}, corpo {_rot}: escreve {_lido:g} rodada(s) e '
                                   f'{_vida} / ({dano_chefe(_nv):g} x 0,5) da {_vida / _d:.1f} '
@@ -615,7 +620,8 @@ elif _MULT:
             erro('DOMINANCIA', _m)
         if not _rerra:
             print(f'  [x] as {len(_rod)} linhas de rodadas-de-chefe recomputam: vida do SS3.6, '
-                  f'{_MULT}x da concessao, e o chefe do conferir-atributos.py.')
+                  f'{CONCEDE.get("Coro", {}).get("vida", 1):g}x e {_MULT}x das concessoes, '
+                  'e o chefe do conferir-atributos.py.')
 
 alvos = {b for _, b in achadas & DOMINANCIA_PENDENTE_Q6}
 if len(alvos) == 1:
@@ -1152,157 +1158,198 @@ if MULT_AREA:
                      'certa vira jogada automatica')
 
 # =============================================================================
-# 12. MORTE — a regua, e ela NAO pode encolher junto com o corpo
+# 12. MORTE — a regua e a vida maxima daquele corpo
 # =============================================================================
-# Ate a v0.178 os dois gatilhos liam "a vida maxima" — a DAQUELE corpo. Como o
-# corpo do Coro vale h e o golpe de rotina vale h, o gatilho B disparava em cheio
-# em todo golpe comum, e o Coro perdia a Trilha em definitivo no primeiro acerto.
-# Esta checagem media contra POOL_R escrito na mao, entao ela nunca via o corpo
-# pequeno: e o primo da licao no 8 — a checagem se media pelo EIXO errado e saia
-# verde exatamente na perturbacao que importa.
-bloco('12. MORTE — a regua e a mesma para qualquer corpo, e nenhum golpe de rotina dispara')
-m = re.search(r'se o excedente passar de \*?\*?(metade|um terço|um quarto) da régua, ou '
-              r'se um único golpe causar a régua inteira', S35)
-FRACAO = {'metade': 2, 'um terço': 3, 'um quarto': 4}[m.group(1)] if m else None
-mr = re.search(r'A régua da morte é `(\d+) ×` a vida que a fórmula do tipo dá', S35)
-REGUA_H = int(mr.group(1)) if mr else None
-if FRACAO is None:
+# A regua ja foi a vida maxima do corpo, virou escala fixa de 5x a formula crua
+# na v0.178, e voltou a ser a vida maxima. As duas viradas tem motivo escrito no
+# SS3.5, e o que esta checagem existe para impedir e' a terceira acontecer calada.
+#
+# ⚠ A tabela que esta secao le era da v0.58 e nao tinha DONO: ela publicava um
+# "0,50 R" estimado e duas linhas — `area grande` e `Expansao` — que nao saiam de
+# documento nenhum. Agora a coluna de dano e' DERIVADA da peca 26, e a checagem
+# 12b compara as duas. Numero sem dono foi como aquela tabela envelheceu dez
+# versoes sem ninguem ver.
+bloco('12. MORTE — a regua e a vida maxima do corpo, e nenhum golpe comum destroi')
+
+_m_regua = re.search(r'A régua da morte é a vida máxima daquele corpo', S35)
+_m_gat = re.search(r'se um único golpe causar a régua inteira, ou se o excedente '
+                   r'passar de \*?\*?(metade|um terço|um quarto) da régua', S35)
+FRACAO = {'metade': 2, 'um terço': 3, 'um quarto': 4}[_m_gat.group(1)] if _m_gat else None
+_m_area = re.search(r'Área não é golpe único', S35)
+
+if not _m_regua:
+    erro('MORTE', 'SS3.5 nao declara que a regua e a vida maxima daquele corpo — sem a '
+                  'frase escrita a leitura de escala fixa volta na proxima edicao sem '
+                  'ninguem ver, que e a licao no 8 aplicada ao reconhecedor')
+elif FRACAO is None:
     erro('MORTE', 'SS3.5: nao achei a regra dos dois gatilhos de morte em definitivo')
-elif REGUA_H is None:
-    erro('MORTE', 'SS3.5: nao achei a definicao da regua em multiplo de h — sem ela cada '
-                  'corpo volta a ser medido pela propria vida maxima, e o corpo pequeno '
-                  'volta a morrer em definitivo por golpe de rotina')
-elif not re.search(r'vale igual para qualquer corpo', S35):
-    erro('MORTE', 'SS3.5 nao declara que a regua vale igual para qualquer corpo — sem a '
-                  'frase escrita a leitura velha volta na proxima edicao sem ninguem ver, '
-                  'que e a licao no 8 aplicada ao reconhecedor')
+elif not _m_area:
+    erro('MORTE', 'SS3.5 nao declara que area nao e golpe unico — sem essa frase a '
+                  'vulnerabilidade x1,5 faz a area de rotina destruir corpo cheio, que '
+                  'foi medido e recusado')
 else:
-    REGUA_R = REGUA_H * AREA_ROTINA
-    GAT_A = REGUA_R / FRACAO
-    GAT_B = REGUA_R
-    print(f'  regua = {REGUA_H} x h = {REGUA_R:g} R · gatilho A (excedente) > {GAT_A:g} R · '
-          f'gatilho B (golpe unico) >= {GAT_B:g} R')
-    # A regua e' escala FIXA e nao a vida de ninguem — desde a v0.178 ela nem
-    # coincide mais com o pool, que desceu de 2,50 para 1,50 R. O invariante que
-    # sobra e' de JANELA, e ele sai da propria tabela publicada: a regua tem de
-    # ficar acima do maior golpe de rotina e nao passar do menor que mata.
-    _tab_pre = [c for c in linhas_de_tabela(trecho(S35, '| de onde vem o golpe',
-                                                   '### Reconseguir'))
-                if len(c) >= 4 and num(c[1]) is not None]
-    _rot = [num(c[1]) for c in _tab_pre if 'sim' not in sem_acento(c[2])
-            and 'sim' not in sem_acento(c[3])]
-    _mata = [num(c[1]) for c in _tab_pre if 'sim' in sem_acento(c[2])
-             or 'sim' in sem_acento(c[3])]
-    if not _rot or not _mata:
-        erro('MORTE', 'SS3.5: a tabela nao tem os dois lados (o que volta e o que mata), '
-                      'entao a janela da regua nao da para derivar')
+    print(f'  regua = a vida maxima do corpo · gatilho A: excedente > 1/{FRACAO} da regua '
+          f'· gatilho B: um golpe >= a regua · area NAO e golpe unico')
+
+    # ---- 12a. os dois corpos, das formulas que o SS3.7 publica ---------------
+    _NV_TAB, _CON_TAB, _BASE_TAB = 30, 1, 2      # o nivel, a Con e o tipo da tabela
+    _mb = re.search(r'corpo do `Coro`, Con `(\d+)`', S35)
+    if _mb:
+        _CON_TAB = int(_mb.group(1))
+    _mn = re.search(r'o golpe, no nível (\d+)', S35)
+    if _mn:
+        _NV_TAB = int(_mn.group(1))
+
+    def _vida_corpo(mult):
+        return math.floor(mult * (_BASE_TAB + 2 * _NV_TAB)) + _CON_TAB * _NV_TAB
+
+    _V_CORO = _vida_corpo(CONCEDE['Coro']['vida'])
+    _V_FORTE = _vida_corpo(CONCEDE['Servo']['vida'])
+    print(f'  no nv{_NV_TAB}, tipo `tecnica`, Con {_CON_TAB}: corpo do Coro '
+          f'({CONCEDE["Coro"]["vida"]:g}x) = {_V_CORO} · corpo forte '
+          f'({CONCEDE["Servo"]["vida"]:g}x) = {_V_FORTE}')
+
+    # ---- 12b. a coluna de dano tem DONO: a peca 26 --------------------------
+    # O golpe de uma acao e' o dano de rodada da categoria dividido pelas acoes
+    # dela, e o dano de rodada e' a linha do manual vezes o fator. A peca 26 SS4.1
+    # publica as fichas prontas, entao a conta se confere contra ELAS.
+    _P26 = ler('26-bestiario.md')
+    _fic26 = {}
+    for _c in linhas_de_tabela(trecho(_P26, '| categoria | nv 10 | nv 20 | nv 30 |',
+                                      '### 4.2')):
+        if len(_c) < 4:
+            continue
+        _cat = limpo(_c[0]).strip('`')
+        _cel = re.findall(r'(\d+)\D+(\d+)', limpo(_c[3]))
+        if _cel:
+            _fic26[_cat] = int(_cel[0][1])          # o dano por rodada no nv30
+    _acoes26 = {}
+    for _c in linhas_de_tabela(trecho(_P26, '| categoria | personagens |', '###')):
+        if len(_c) < 4:
+            continue
+        _acoes26[limpo(_c[0]).strip('`')] = num(_c[3])
+    if not _fic26 or not _acoes26:
+        erro('MORTE', 'nao consegui ler a peca 26 (SS4.1 e SS4) — sem ela a coluna de dano '
+                      'desta tabela volta a nao ter dono, que e como a tabela da v0.58 '
+                      'envelheceu dez versoes')
     else:
-        # A janela sai dos DOIS gatilhos, e a primeira versao desta checagem so
-        # olhava o B — ela reprovou a regua certa quando a vulnerabilidade da area
-        # caiu para x1,5 e quem passou a matar a area grande foi o A. Os limites:
-        #   piso  = 2x o maior golpe de rotina — abaixo dele o gatilho A dispara
-        #           num golpe que a tabela manda devolver
-        #   teto  = 2x o menor golpe que tem de matar — a partir dele nem o A pega
-        _piso, _teto = 2 * max(_rot), 2 * min(_mata)
-        if not (_piso <= REGUA_R < _teto):
-            erro('MORTE', f'a regua vale {REGUA_R:g} R e a janela que a tabela exige e '
-                          f'[{_piso:g} , {_teto:g}) — abaixo do piso um golpe de rotina '
-                          'mata em definitivo, e no teto o menor golpe que deveria matar '
-                          'deixa de disparar os dois gatilhos')
-        else:
-            print(f'  [x] a regua ({REGUA_R:g} R) cai na janela [{_piso:g} , {_teto:g}) '
-                  f'que a tabela exige; o pool vale {POOL_R:g} R e ela NAO precisa '
-                  'coincidir com ele.')
-    tab_morte = [c for c in linhas_de_tabela(trecho(S35, '| de onde vem o golpe', '### Reconseguir'))
-                 if len(c) >= 4 and num(c[1]) is not None]
-    if not tab_morte:
-        erro('MORTE', 'SS3.5: nao achei a tabela dos gatilhos')
-    rotina_limpa = True
-    for c in tab_morte:
-        origem, dano = limpo(c[0]), num(c[1])
-        a_doc = 'sim' in sem_acento(c[2])
-        b_doc = 'sim' in sem_acento(c[3])
-        a_calc, b_calc = dano > GAT_A + 1e-9, dano >= GAT_B - 1e-9
-        marca = 'ok' if (a_calc == a_doc and b_calc == b_doc) else 'DIVERGE'
-        print(f'  {origem[:44]:<46}{dano:>5.2f} R  A={"sim" if a_calc else "nao"}/'
-              f'{"sim" if a_doc else "nao"}  B={"sim" if b_calc else "nao"}/'
-              f'{"sim" if b_doc else "nao"}  {marca}')
-        if a_calc != a_doc or b_calc != b_doc:
-            erro('MORTE', f'"{origem}": {dano:g} R da A={a_calc} B={b_calc} contra os '
-                          f'dois gatilhos, e a tabela escreve A={a_doc} B={b_doc}')
-        de_rotina = 'rotina' in sem_acento(origem) or 'golpe' in sem_acento(origem)
-        if de_rotina and 'grande' not in sem_acento(origem) and (a_calc or b_calc):
-            rotina_limpa = False
-            erro('MORTE', f'"{origem}" e golpe de rotina e dispara morte em definitivo — '
-                          'a regra tem de disparar onde a ficcao dispara, e area grande e '
-                          'Expansao sao as duas coisas que na obra destroem shikigami de vez')
-    if rotina_limpa:
-        print('  Nenhum golpe de rotina dispara nenhum dos dois gatilhos.')
+        print(f'  peca 26: {len(_fic26)} categoria(s) com dano de rodada no nv{_NV_TAB}, '
+              f'{len(_acoes26)} com acoes.')
 
-    # 12b. A regua faz trabalho? Contra-teste embutido: se NENHUM corpo publicado
-    # mudasse de veredito entre a regua e a propria vida maxima, tirar a regua
-    # sairia verde — e a checagem seria trivialmente verdadeira.
-    if set(CONCEDE) == set(TRILHAS) and tab_morte:
-        danos = [num(c[1]) for c in tab_morte]
-        pela_regua = [(d > GAT_A + 1e-9) or (d >= GAT_B - 1e-9) for d in danos]
-        divergem = []
-        for t in sorted(CONCEDE):
-            vm = CONCEDE[t]['vida'] * AREA_ROTINA
-            pelo_corpo = [((d - vm) > vm / FRACAO + 1e-9) or (d >= vm - 1e-9) for d in danos]
-            n = sum(1 for a, b in zip(pela_regua, pelo_corpo) if a != b)
-            print(f'  {t:<9} corpo de {vm:g} R — lido pela propria vida maxima, {n} de '
-                  f'{len(danos)} linha(s) mudariam de veredito')
-            if n:
-                divergem.append((t, n))
-        if not divergem:
-            erro('MORTE', 'nenhum corpo publicado muda de veredito entre a regua e a vida '
-                          'maxima dele — a regua nao esta fazendo trabalho nenhum, e esta '
-                          'checagem passaria verde com a leitura velha de volta')
-        else:
-            print('  [x] a regua faz trabalho: '
-                  + ', '.join(f'{t} em {n} linha(s)' for t, n in divergem)
-                  + ' — sem ela esses corpos morriam em definitivo por golpe de rotina.')
+    # ---- 12c. os vereditos publicados contra os dois corpos -----------------
+    _tab = [c for c in linhas_de_tabela(trecho(S35, '| o golpe, no nível',
+                                               '**Nenhum golpe comum destrói'))
+            if len(c) >= 5 and num(c[2]) is not None]
+    if not _tab:
+        erro('MORTE', 'SS3.5: nao achei a tabela dos golpes')
+    else:
+        _comuns_ok = True
+        for _c in _tab:
+            _origem, _dano = limpo(_c[0]), num(_c[2])
+            _e_crit = 'critico' in sem_acento(_origem)
+            # a coluna do meio e' o MAXIMO da rolagem, e ela se confere contra a
+            # expressao ao lado em vez de ficar solta: NdX + F tem maximo N*X + F,
+            # e no critico os dados dobram (peca 26 SS4.4). Sem isto a coluna volta
+            # a ser numero sem dono, que foi como a tabela da v0.58 envelheceu.
+            _mx = re.match(r'(\d+)d(\d+)(?:\s*\+\s*(\d+))?$', limpo(_c[1]).strip('`'))
+            if not _mx:
+                erro('MORTE', f'"{_origem}": nao consegui ler a expressao de dado '
+                              f'"{limpo(_c[1])}" — sem ela o maximo ao lado fica sem dono')
+            else:
+                _n, _d, _f = int(_mx.group(1)), int(_mx.group(2)), int(_mx.group(3) or 0)
+                if _n * _d + _f != _dano:
+                    erro('MORTE', f'"{_origem}": {_n}d{_d} + {_f} tem maximo '
+                                  f'{_n * _d + _f} e a tabela escreve {_dano:g}')
+            for _rot, _vm, _doc in (('Coro', _V_CORO, sem_acento(_c[3])),
+                                    ('forte', _V_FORTE, sem_acento(_c[4]))):
+                _calc = _dano >= _vm - 1e-9
+                _lido = 'destroi' in _doc
+                if _calc != _lido:
+                    erro('MORTE', f'"{_origem}" causa {_dano:g} contra um corpo {_rot} de '
+                                  f'{_vm} — a conta da {"destroi" if _calc else "cai"} e a '
+                                  f'tabela escreve {"destroi" if _lido else "cai"}')
+                if _calc and not _e_crit:
+                    _comuns_ok = False
+                    erro('MORTE', f'"{_origem}" e golpe COMUM e destroi o corpo {_rot} em '
+                                  'definitivo — a regra tem de disparar onde a ficcao '
+                                  'dispara, e golpe de rotina nao e onde ela dispara')
+            print(f'  {_origem[:40]:<42}{_dano:>5.0f}  Coro '
+                  f'{"destroi" if _dano >= _V_CORO else "cai":<8}forte '
+                  f'{"destroi" if _dano >= _V_FORTE else "cai"}')
+        if _comuns_ok:
+            print('  [x] nenhum golpe comum destroi nenhum dos dois corpos; so o critico.')
 
-    # 12c. O LIVRO publica a mesma regua, e o exemplo dele fecha na aritmetica.
-    # Achado no arnes da v0.178: perturbar SO o livro para a redacao velha saia
-    # VERDE — a peca e a copia de mesa podiam divergir na regra que decide perda
-    # permanente, e e' a copia de mesa que o jogador le (licao no 9).
+        # a linha do critico tem de existir, senao a tabela so prova que nada mata
+        if not any('critico' in sem_acento(limpo(c[0])) for c in _tab):
+            erro('MORTE', 'a tabela nao tem a linha do critico — sem um golpe que DESTROI '
+                          'ela fica trivialmente verdadeira, e a regra de morte deixaria '
+                          'de ser conferida contra qualquer coisa')
+
+    # ---- 12d. contra-teste: a regua faz trabalho? ---------------------------
+    # Se o corpo do Coro e o corpo forte dessem o MESMO veredito em toda linha, a
+    # regua "por corpo" nao estaria medindo nada e a escala fixa voltaria verde.
+    if _tab:
+        _dif = sum(1 for c in _tab
+                   if (num(c[1]) >= _V_CORO) != (num(c[1]) >= _V_FORTE))
+        _margem = _V_FORTE - _V_CORO
+        if _margem <= 0:
+            erro('MORTE', f'o corpo do Coro ({_V_CORO}) nao e menor que o corpo forte '
+                          f'({_V_FORTE}) — a Trilha do corpo pequeno deixou de ser a do '
+                          'corpo pequeno, e o SS3.7 promete que ela e')
+        else:
+            print(f'  [x] os dois corpos sao mesmo diferentes ({_V_CORO} contra {_V_FORTE}, '
+                  f'margem {_margem}), e a regua le cada um pelo seu — {_dif} linha(s) da '
+                  'tabela separam os dois.')
+
+    # ---- 12e. o LIVRO publica a mesma regra, e o exemplo fecha --------------
+    # Achado no arnes da v0.178: perturbar SO o livro saia VERDE — a peca e a
+    # copia de mesa podiam divergir na regra que decide perda permanente, e e' a
+    # copia de mesa que o jogador le (licao no 9).
     _cap60 = os.path.join(AQUI, '..', '05-material', 'livro', 'manual', '60-invocacoes.md')
     if not os.path.isfile(_cap60):
         erro('MORTE', 'nao achei o capitulo 60 do livro — a regua da morte tem duas '
                       'publicacoes e so uma foi conferida')
     else:
         LIV = open(_cap60, encoding='utf-8').read()
-        ml = re.search(r'A régua da morte é `(\d+) ×` a vida que a fórmula do tipo dá', LIV)
-        if not ml:
-            erro('MORTE', 'o capitulo 60 do livro nao publica a definicao da regua — o '
-                          'jogador fica lendo a leitura velha enquanto a peca mudou')
-        elif int(ml.group(1)) != REGUA_H:
-            erro('MORTE', f'a regua e {REGUA_H}x na peca 15 e {ml.group(1)}x no capitulo 60 '
-                          'do livro — um numero, um dono')
-        if not re.search(r'passar de metade da régua, ou se um único golpe causar a régua '
-                         r'inteira', LIV):
-            erro('MORTE', 'o capitulo 60 do livro nao escreve os dois gatilhos contra a '
-                          'REGUA — se ele ainda diz "vida maxima", a mesa joga a regra velha')
-        me = re.search(r'a régua da morte é `(\d+) × (\d+) = (\d+)`', LIV)
-        mh = re.search(r'não passa de `(\d+)`, que é metade da régua', LIV)
-        mi = re.search(r'não chega a `(\d+)`', LIV)
-        if not (me and mh and mi):
+        if not re.search(r'A régua da morte é a vida máxima daquele corpo', LIV):
+            erro('MORTE', 'o capitulo 60 nao publica a regua como a vida maxima do corpo — '
+                          'o jogador fica lendo a leitura velha enquanto a peca mudou')
+        if not re.search(r'se um único golpe causar a régua inteira, ou se o excedente '
+                         r'passar de metade da régua', LIV):
+            erro('MORTE', 'o capitulo 60 nao escreve os dois gatilhos na mesma ordem e '
+                          'contra a mesma regua que a peca 15')
+        if not re.search(r'Área nunca destrói', LIV):
+            erro('MORTE', 'o capitulo 60 nao diz que area nunca destroi — a mesa jogaria a '
+                          'area destruindo, que foi medido e recusado')
+        _me = re.search(r'vida máxima dela é `(\d+) × \((\d+) \+ 2 × (\d+)\) \+ '
+                        r'(\d+) × (\d+) = (\d+)`, então \*\*a régua da morte dela é '
+                        r'`(\d+)`\*\*', LIV)
+        _mh = re.search(r'não passa de `(\d+)`, que é metade da régua', LIV)
+        _mi = re.search(r'`\d+` não chega a `(\d+)`', LIV)
+        if not (_me and _mh and _mi):
             erro('MORTE', 'o exemplo do capitulo 60 nao traz mais as tres contas da regua '
-                          '(o produto, a metade e o golpe) — sem elas ele envelhece calado')
+                          '(a vida, a metade e o golpe) — sem elas ele envelhece calado')
         else:
-            _mult, _vida, _reg = (int(x) for x in me.groups())
-            _met, _int = int(mh.group(1)), int(mi.group(1))
-            contas = [(_mult == REGUA_H, f'o exemplo multiplica por {_mult} e a regua e {REGUA_H}x'),
-                      (_reg == _mult * _vida, f'{_mult} x {_vida} nao da {_reg}'),
-                      (abs(_met - _reg / FRACAO) < 1e-9, f'{_met} nao e a metade de {_reg}'),
-                      (_int == _reg, f'o exemplo compara o golpe contra {_int} e a regua e {_reg}')]
-            for ok, msg in contas:
-                if not ok:
-                    erro('MORTE', f'o exemplo do capitulo 60 nao fecha: {msg}')
-            if all(ok for ok, _ in contas):
-                print(f'  [x] o capitulo 60 publica a mesma regua ({REGUA_H}x) e o exemplo '
-                      f'fecha: {_mult} x {_vida} = {_reg}, metade {_met}.')
+            _mult, _b, _nv, _con, _nv2, _vida, _reg = (int(x) for x in _me.groups())
+            _met, _int = int(_mh.group(1)), int(_mi.group(1))
+            _contas = [
+                (_mult == CONCEDE['Coro']['vida'],
+                 f'o exemplo multiplica por {_mult} e o corpo do Coro e '
+                 f'{CONCEDE["Coro"]["vida"]:g}x no SS3.7'),
+                (_nv == _nv2, f'o exemplo usa nivel {_nv} numa metade e {_nv2} na outra'),
+                (_vida == _mult * (_b + 2 * _nv) + _con * _nv,
+                 f'{_mult} x ({_b} + 2 x {_nv}) + {_con} x {_nv} nao da {_vida}'),
+                (_reg == _vida, f'a regua do exemplo e {_reg} e a vida maxima e {_vida} — '
+                                'a regua E a vida maxima'),
+                (abs(_met - _reg / FRACAO) < 1e-9, f'{_met} nao e a metade de {_reg}'),
+                (_int == _reg, f'o exemplo compara o golpe contra {_int} e a regua e {_reg}'),
+            ]
+            for _ok, _msg in _contas:
+                if not _ok:
+                    erro('MORTE', f'o exemplo do capitulo 60 nao fecha: {_msg}')
+            if all(_ok for _ok, _ in _contas):
+                print(f'  [x] o capitulo 60 publica a mesma regua e o exemplo fecha: '
+                      f'vida {_vida}, regua {_reg}, metade {_met}.')
 
 # =============================================================================
 # 13. PRECO — contra o bolso do PISO
@@ -1752,8 +1799,14 @@ else:
             _des = _arr[_ORDEM_ATR.index('Destreza')]
             _crua = _basex + (_porniv + _con) * _nvx
             _forte_x = math.floor(_MULT * (_basex + _porniv * _nvx)) + _con * _nvx
-            _vida_c = _crua if CONCEDE[_trx]['vida'] <= 1 else _forte_x
-            _reg_c = REGUA_H * _crua
+            # a vida sai do multiplicador que a Trilha concede, e nao de um "e o
+            # forte ou e a crua": desde que o corpo do Coro subiu sao TRES
+            # multiplicadores possiveis, e escrever o teste binario aqui seria a
+            # licao no 9 num numero que o SS3.7 ja e dono.
+            _vida_c = (math.floor(CONCEDE[_trx]['vida'] * (_basex + _porniv * _nvx))
+                       + _con * _nvx)
+            # a regua E a vida maxima daquele corpo — nao ha conta a fazer.
+            _reg_c = _vida_c
             _mst = MAESTRIA_INI + (_nvx - 1) // MAESTRIA_PASSO
             _mdef = re.search(r'Defesa\s*=\s*(\d+)\s*\+', P1)
             _bdef = int(_mdef.group(1)) if _mdef else None
@@ -1785,13 +1838,21 @@ else:
                           f'a regua e {_reg_c} com a fracao do SS3.5 dando '
                           f'{_reg_c / FRACAO:g}')
 
-            # ---- a tabela de fecho: as tres Trilhas, e a regua igual nas tres
+            # ---- a tabela de fecho: as tres Trilhas, e a regua ACOMPANHANDO a vida
+            # Ela ja foi o unico lugar do livro que mostrava a regua igual com a
+            # vida diferente. Com a regua sendo a vida maxima do corpo, ela passou
+            # a ser o unico lugar que mostra as duas ANDANDO JUNTAS — e o valor de
+            # mesa e' o mesmo: e' aqui que o jogador ve a regua mudar de Trilha
+            # para Trilha sem ter conta nenhuma para fazer.
+            def _vida_da_trilha(t):
+                return (math.floor(CONCEDE[t]['vida'] * (_basex + _porniv * _nvx))
+                        + _con * _nvx)
             _tri3 = tabela_apos(_EX, '| | `Servo` | `Matilha` | `Coro` |')
             _cols = ['Servo', 'Matilha', 'Coro']
             if not _tri3:
                 _f.append('o exemplo nao traz mais a tabela de fecho das tres Trilhas — ela '
-                          'e o unico lugar do livro que mostra a regua da morte igual com a '
-                          'vida diferente')
+                          'e o unico lugar do livro que mostra a regua da morte mudando '
+                          'de Trilha para Trilha junto com a vida')
             else:
                 _viu = set()
                 for _c in _tri3:
@@ -1805,13 +1866,13 @@ else:
                         _v = int(_n.group(1))
                         if _rot.startswith('regua'):
                             _viu.add('regua')
-                            if _v != _reg_c:
+                            if _v != _vida_da_trilha(_t):
                                 _f.append(f'a tabela de fecho da regua {_v} em `{_t}` e a '
-                                          f'formula do tipo da {_reg_c} — a regua vale '
-                                          'igual para qualquer corpo')
+                                          f'vida maxima daquele corpo e {_vida_da_trilha(_t)} '
+                                          '— a regua E a vida maxima')
                         elif _rot == 'vida':
                             _viu.add('vida')
-                            _esp = _forte_x if CONCEDE[_t]['vida'] > 1 else _crua
+                            _esp = _vida_da_trilha(_t)
                             if _v != _esp:
                                 _f.append(f'a tabela de fecho da vida {_v} em `{_t}` e a '
                                           f'concessao do SS3.7 da {_esp}')
@@ -1831,7 +1892,7 @@ else:
     if not _f:
         print(f'  [x] o exemplo guiado fecha: bolso {_bolso_d} dos marcos da peca 2, gasto '
               f'{_gasto_d} pelo catalogo, vida {_vida_c} e regua {_reg_c} da formula do '
-              f'SS3.6, e a regua igual nas tres Trilhas da tabela de fecho.')
+              f'SS3.6, e a regua acompanhando a vida nas tres Trilhas da tabela de fecho.')
 
 # =============================================================================
 # 18. RITMO — nada cresce fora do +3
