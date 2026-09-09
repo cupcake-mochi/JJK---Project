@@ -1002,7 +1002,17 @@ else:
     #       entao ela caiu como ponteiro PENDURADO e travou o subir.sh. O conserto
     #       foi por o caminho, e nao alargar o padrao: ela e' a familia "caminho na
     #       arvore da FONTE", arquivo que existe e nao vai para a entrega.
-    BRANCAS_AQUI, FOLGA = 169, 5
+    # v0.222: 169 -> 171, e as DUAS estao itemizadas, com o diff na mao. Sao a
+    # mesma coisa duas vezes: a peca 10 §2 e a peca 19 §4 passaram a citar o
+    # `conferir-alma.py`, cada uma no bloco que conta que a queda da vida maxima
+    # saiu do dano de alma na v0.176 e ficou 45 versoes sem propagar. As duas
+    # caem em "nome de validador", a primeira das familias declaradas la em cima,
+    # e nenhuma e material de mesa — que e' a pergunta que esta guarda faz.
+    #   ⚠ A peca 24 tambem ganhou uma terceira citacao do mesmo validador e ela
+    #     NAO conta aqui: a 7.2 mede por par (arquivo, alvo), e aquele par ja
+    #     existia. Vale escrever porque o diff mostra TRES citacoes novas e a
+    #     base sobe DUAS — quem conferir pelo grep vai achar que falta uma.
+    BRANCAS_AQUI, FOLGA = 171, 5
     PISO_CITACOES, TETO_BRANCOS = 120, BRANCAS_AQUI + FOLGA
     if vistos_e < PISO_CITACOES:
         erro(f'7.2: achei so {vistos_e} citacoes na entrega, e o piso e {PISO_CITACOES} — '

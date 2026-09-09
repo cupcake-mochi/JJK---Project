@@ -30,6 +30,21 @@ NENHUM VALOR FICA ESCRITO AQUI DENTRO:
   a excecao que atravessa ........ peca 16, a secao 4
   a ficha de exemplo ............. peca 8
   a recuperacao .................. peca 10, a secao 2
+  a REGRA DE ALMA ................ o LIVRO, capitulo 15 (checagem 13)
+
+⚠⚠ A CHECAGEM 13 NASCEU DE UM BURACO ESTRUTURAL, E ELE CUSTOU 45 VERSOES.
+Ate a v0.222 este validador declarava sete donos e o "manual" dele era o
+`partF.js` — ele NUNCA lia o livro. Entao quando o Mizuki tirou a queda da
+vida maxima do dano de alma na v0.176 (com conta: `61%` das fichas possiveis
+travavam antes do estagio 4), a decisao entrou no livro e PAROU ALI. A peca 24,
+a peca 19, a peca 16, a peca 10, o `partF.js` e a checagem 8 daqui continuaram
+publicando a redacao velha, e o validador saia VERDE em cima da divergencia
+porque nenhuma das duas fontes que ele lia tinha mudado.
+
+O livro e o documento que vai para a mesa, e a decisao do Mizuki na v0.220 diz
+que ele VENCE quando os dois discordam. Entao a 13 le os dois e falha se eles
+divergirem — nao para escolher por ninguem, mas para que a proxima divergencia
+dure uma versao em vez de quarenta e cinco.
 
 Roda de 03-mecanica/, sem argumento. Sai com codigo 1 se algo quebrar.
 Ele NAO le o .docx e NAO precisa de python-docx: nao existe jeito de ele sair
@@ -42,6 +57,8 @@ import sys
 MEC = os.path.dirname(os.path.abspath(__file__))
 RAIZ = os.path.dirname(os.path.dirname(MEC))
 PARTF = os.path.join(RAIZ, 'manual', 'gerador', 'partF.js')
+CAP15 = os.path.join(RAIZ, 'sistema', '05-material', 'livro', 'manual',
+                     '15-dano-e-condicoes.md')
 
 FALHAS = []
 NIVEIS = range(1, 31)
@@ -76,6 +93,13 @@ P16 = ler('16-ferramenta-amaldicoada.md')
 P24 = ler('24-dano-de-alma.md')
 with open(PARTF, encoding='utf-8') as f:
     MANUAL = f.read()
+if not os.path.isfile(CAP15):
+    print(f'  !! nao achei o capitulo 15 do livro em {CAP15} — a checagem 13 e a '
+          f'unica que le o LIVRO, e sem ela uma divergencia manual-livro volta a '
+          f'poder apodrecer sem acender')
+    sys.exit(1)
+with open(CAP15, encoding='utf-8') as f:
+    LIVRO = f.read()
 
 
 # ==========================================================================
@@ -382,22 +406,49 @@ else:
     if not _linha:
         erro(8, 'o SS3.1 parou de publicar a linha "Cada ponto de dano de alma tira ..." — '
                 'e ela e a regra geral inteira')
-    ACOPLA = ('de vida', 'de Integridade', 'vida máxima')
+    # ERAM TRES ate a v0.222, e a terceira era `vida máxima`. Ela saiu do dano de
+    # alma na v0.176 e esta checagem continuou EXIGINDO ela — quer dizer, ela
+    # estava travando a peca na redacao velha em vez de conferir a viva. E o que
+    # ela protege nao depende da terceira: o preco do `Cisao` esta pago pela
+    # distincao "tira vida" x "nao tira vida", e essa continua de pe.
+    ACOPLA = ('de vida', 'de Integridade')
     faltam = [t for t in ACOPLA if t not in _linha]
     if _linha and faltam:
-        erro(8, f'o SS3.1 parou de acoplar o dano de alma a {faltam} — sem as tres, '
+        erro(8, f'o SS3.1 parou de acoplar o dano de alma a {faltam} — sem as duas, '
                 f'"atravessar" deixa de ser excecao e o preco do `Cisao` fica pago '
                 f'por uma distincao que nao existe mais')
     else:
-        print('  [x] o SS3.1 acopla as tres: vida, Integridade e vida maxima')
+        print('  [x] o SS3.1 acopla as duas: vida e Integridade')
 
-    NEGA = ('Não tira vida', 'não derruba a vida máxima')
-    faltam = [t for t in NEGA if t not in _e]
-    if faltam:
-        erro(8, f'o SS3.2 parou de negar {faltam} — a excecao tem de dizer o que ela '
-                f'NAO faz, senao ela e apenas a regra geral com outro nome')
+    # De novo a LINHA e nao a secao, pelo mesmo motivo de doze linhas acima: a
+    # prosa do SS3.2 agora conta a historia da v0.176 e fala `vida máxima` ali
+    # dentro. Medir a secao inteira faria a guarda abaixo acender em cima do
+    # texto que EXPLICA a saida — que e' exatamente o erro que o comentario do
+    # acoplamento existe para lembrar.
+    _linha_e = [l for l in _e.splitlines()
+                if 'Dano de alma que ATRAVESSA' in l]
+    _linha_e = _linha_e[0] if _linha_e else ''
+    if not _linha_e:
+        erro(8, 'o SS3.2 parou de publicar a linha "Dano de alma que ATRAVESSA ..." — '
+                'e ela e a excecao inteira')
+    elif 'Não tira vida' not in _linha_e:
+        erro(8, 'o SS3.2 parou de negar a vida — a excecao tem de dizer o que ela '
+                'NAO faz, senao ela e apenas a regra geral com outro nome')
     else:
-        print('  [x] o SS3.2 nega as duas que o SS3.1 afirma — as duas leituras se separam')
+        print('  [x] o SS3.2 nega o que o SS3.1 afirma — as duas leituras se separam')
+
+    # E o contrario tambem: a redacao VELHA nao pode voltar por descuido. Um
+    # `grep` nao distingue citacao historica de afirmacao viva — e' a convencao
+    # que a propria peca 24 §1.1 escreveu para o nome morto do TR. Por isso a
+    # guarda mede as duas LINHAS de regra, e deixa a prosa historica em paz.
+    _voltou = [n for n, l in (('§3.1', _linha), ('§3.2', _linha_e))
+               if 'vida máxima' in l]
+    if _voltou:
+        erro(8, f'a queda da vida maxima voltou para a REGRA do {" e do ".join(_voltou)} '
+                f'— ela saiu do dano de alma na v0.176, e o livro e quem manda')
+    else:
+        print('  [x] e a queda da vida maxima, que saiu na v0.176, nao voltou '
+              'para nenhuma das duas linhas de regra')
 
     # E so entao a comparacao numerica vale a pena, porque ela agora tem premissa.
     if integridade is not None and len(_tab) == 5:
@@ -575,6 +626,125 @@ if _int and _ini:
 
 
 # ==========================================================================
+bloco('13. O LIVRO E O MANUAL DIZEM A MESMA COISA SOBRE A REGRA DE ALMA')
+
+# Esta e' a checagem que faltava, e a falta dela custou 45 versoes. Ela NAO
+# guarda a regra: ela guarda o ACORDO entre os dois documentos publicados. Se
+# um mudar sozinho, ela acende e nomeia qual — e a decisao do Mizuki na v0.220
+# ja diz quem vence quando isso acontece (o livro).
+_secao_livro = LIVRO[LIVRO.find('### Dano na alma'):LIVRO.find('## Condições')]
+if not _secao_livro:
+    erro(13, 'nao consegui recortar `### Dano na alma` do capitulo 15 do livro — se '
+             'a secao mudou de titulo, esta checagem parou de conferir')
+    _secao_livro = ''
+
+# --- 13.1 o acoplamento: as MESMAS reservas dos dois lados, contadas e nao escritas
+RESERVAS = ('vida', 'Integridade', 'vida máxima')
+
+
+def _acopla(txt, marcador):
+    """quais reservas a linha do acoplamento nomeia, no documento dado."""
+    linha = [l for l in txt.splitlines() if marcador in l]
+    if not linha:
+        return None
+    l = linha[0]
+    # `vida máxima` contem `vida`, entao a maior tem de ser tirada antes
+    achadas, resto = [], l
+    for r in sorted(RESERVAS, key=len, reverse=True):
+        if r in resto:
+            achadas.append(r)
+            resto = resto.replace(r, '')
+    return set(achadas)
+
+
+_L = _acopla(_secao_livro, 'Cada ponto de dano na alma tira')
+_M = _acopla(MANUAL, 'Cada ponto de dano na alma tira')
+if _L is None or _M is None:
+    falta = 'o livro' if _L is None else 'o manual'
+    erro('13.1', f'{falta} parou de publicar a linha "Cada ponto de dano na alma '
+                 f'tira ..." — e ela e a regra geral inteira')
+elif _L != _M:
+    so_livro, so_manual = sorted(_L - _M), sorted(_M - _L)
+    erro('13.1', f'o livro e o manual DIVERGEM no acoplamento do dano de alma. '
+                 f'so no livro: {so_livro or "—"}; so no manual: {so_manual or "—"}. '
+                 f'O livro e o documento que vai para a mesa e ele VENCE '
+                 f'(decisao do Mizuki, v0.220) — leve a redacao dele para o '
+                 f'`partF.js` e para as pecas, e nao o contrario')
+else:
+    print(f'  [x] os dois acoplam as mesmas {len(_L)}: {", ".join(sorted(_L))}')
+    if 'vida máxima' in _L:
+        erro('13.1', 'os dois concordam, mas concordam na redacao VELHA: a queda da '
+                     'vida maxima saiu do dano de alma na v0.176, com conta '
+                     '(`61%` das fichas travavam antes do estagio 4)')
+    else:
+        print('      e a queda da vida maxima, que saiu na v0.176, nao esta em '
+              'nenhum dos dois')
+
+# --- 13.2 a peca 24 §3.1 acopla o MESMO que o livro
+_p = _acopla(P24[P24.find('### 3.1'):P24.find('### 3.2')],
+             'Cada ponto de dano de alma tira')
+if _p is None:
+    erro('13.2', 'a peca 24 §3.1 parou de publicar a linha do acoplamento')
+elif _L is not None and _p != _L:
+    erro('13.2', f'a peca 24 §3.1 acopla {sorted(_p)} e o livro acopla {sorted(_L)} — '
+                 f'a peca e derivada do livro, entao e ela que anda')
+else:
+    print('  [x] e a peca 24 §3.1 acopla o mesmo que o livro')
+
+# --- 13.3 a excecao: os dois tem UMA, e ela nega o que a regra geral afirma
+_exc_livro = 'Dano na alma que atravessa não tira vida' in _secao_livro
+if not _exc_livro:
+    erro('13.3', 'o livro parou de publicar a excecao que atravessa o corpo — e o '
+                 'preco `0,00` do `Cisao` esta pago por ela existir')
+else:
+    print('  [x] o livro publica a excecao que atravessa, e ela nega a vida')
+
+# --- 13.4 a recuperacao: os dois devolvem as MESMAS coisas no descanso longo
+def _devolve(txt, marcador):
+    linha = [l for l in txt.splitlines() if marcador in l]
+    if not linha:
+        return None
+    l, achadas, resto = linha[0], [], linha[0]
+    for r in sorted(('Integridade', 'vida máxima', 'estágios'), key=len, reverse=True):
+        if r in resto:
+            achadas.append(r)
+            resto = resto.replace(r, '')
+    return set(achadas)
+
+
+_RL = _devolve(_secao_livro, 'descanso longo devolve')
+_RM = _devolve(MANUAL, 'escanso longo devolve')
+if _RL is None or _RM is None:
+    falta = 'o livro' if _RL is None else 'o manual'
+    erro('13.4', f'{falta} parou de dizer o que o descanso longo devolve')
+elif _RL != _RM:
+    erro('13.4', f'o livro devolve {sorted(_RL)} no descanso longo e o manual devolve '
+                 f'{sorted(_RM)} — um dos dois promete desfazer coisa que o outro '
+                 f'nao tira. O livro vence')
+else:
+    print(f'  [x] os dois devolvem o mesmo no descanso longo: {", ".join(sorted(_RL))}')
+
+# --- 13.5 as duas regras que o livro tem e a peca precisa ter
+for tag, agulha_livro, agulha_peca, porque in (
+        ('13.5a', 'você fica `Inconsciente`', 'Inconsciente',
+         'o que acontece quando o corpo acaba antes da alma'),
+        ('13.5b', 'uma vez por rodada', 'uma vez por rodada',
+         'o limite do TR de Espirito, sem o qual um feitico de varios acertos '
+         'empilha estagios num turno so')):
+    no_livro = agulha_livro in _secao_livro
+    na_peca = agulha_peca in P24
+    if no_livro and not na_peca:
+        erro(tag, f'o livro publica uma regra que peca nenhuma conhece — {porque}. '
+                  f'A peca 24 e a dona da maquina de alma, entao ela tem de carregar '
+                  f'a regra ou dizer por que nao')
+    elif not no_livro:
+        erro(tag, f'o livro parou de publicar {porque} — se a regra saiu de verdade, '
+                  f'tire ela da peca 24 tambem, na mesma versao')
+    else:
+        print(f'  [x] {porque}: no livro e na peca 24')
+
+
+# ==========================================================================
 print()
 print('=' * 88)
 if FALHAS:
@@ -586,4 +756,5 @@ print('>>> TUDO OK — a formula reproduz a curva do manual na Essencia de refer
 print('    a referencia e derivada do teto, as duas reservas custam o mesmo por ponto,')
 print('    o estagio 4 continua disparando, os quatro estagios batem com o manual,')
 print('    o TR e um dos quatro que existem, so o `Cisao` atravessa o corpo e ele nao')
-print('    ficou mais rapido, o inimigo tem alvo, e a ficha de exemplo obedece.')
+print('    ficou mais rapido, o inimigo tem alvo, a ficha de exemplo obedece, e o')
+print('    LIVRO e o manual dizem a mesma coisa sobre a regra de alma.')

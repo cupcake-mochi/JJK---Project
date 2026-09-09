@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 07/09/2026, na v0.221 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e dez checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 09/09/2026, na v0.222 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e dez checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.221.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
+**Versão v0.222.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
 
 **A v0.207 deu ao capítulo de Invocações o passo a passo que o Fundamento tem para feitiço.** *O capítulo publicava a máquina inteira e nove montagens prontas, e o leitor via o resultado sem ver a conta — `12` pontos, cabe no nível 6, e de onde vem o `12` nenhuma linha mostrava.*
 
@@ -917,7 +917,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/conferir-pactos.py` | as **catorze** checagens da peça 22, e a segunda é o par declarado: o teto por pacto não está escrito nela, é `camada ÷ (teto de atributo ÷ 2)` — ela mede relação e não constante |
 | `03-mecanica/23-bloquear.md` | **rolar para se defender**: o `2d10 + (Defesa − 11)`, por que o dado não é o d20, o `Aparar` e a `Brecha`, o invariante do modificador único, e a única condição que desliga |
 | `03-mecanica/24-dano-de-alma.md` | **a máquina de alma inteira**: a Integridade com Essência dentro, os quatro estágios, o acoplamento com a vida, a exceção que atravessa o corpo, e o Teste de Resistência de Espírito que a v0.7 decidiu e ninguém aplicou |
-| `03-mecanica/conferir-alma.py` | as **doze** checagens da peça 24. *A 12 entrou na v0.159 e lê o manual: a caixa de `Integridade` tem de nomear os dois lados, e a seção `Inimigos` tem de mandar anotar a barra.* *A 1 reconstrói a curva a partir de **três** donos independentes — a peça 24, o teto de atributo da peça 2 e a curva original lida do manual — e a 4 é a única do projeto que mede **consequência**: se o estágio 4 sumir da campanha, nenhuma outra checagem acusaria* |
+| `03-mecanica/conferir-alma.py` | as **treze** checagens da peça 24. *A 12 entrou na v0.159 e lê o manual: a caixa de `Integridade` tem de nomear os dois lados, e a seção `Inimigos` tem de mandar anotar a barra.* *A 1 reconstrói a curva a partir de **três** donos independentes — a peça 24, o teto de atributo da peça 2 e a curva original lida do manual — e a 4 é a única do projeto que mede **consequência**: se o estágio 4 sumir da campanha, nenhuma outra checagem acusaria.* **A 13 entrou na v0.222 e é a primeira checagem deste validador que lê o LIVRO** — *ela existe porque a saída da vida máxima do dano de alma foi decidida na v0.176, entrou só no livro, e ficou quarenta e cinco versões divergindo das peças com o validador saindo verde por cima* |
 | `03-mecanica/conferir-bloquear.py` | as **oito** checagens da peça 23. *A 8 entrou na v0.159 e mede a Reação do inimigo como **relação** contra a peça 3 §3, com o `0,16` disparo por combate recalculado da enumeração.* **A checagem 1 é a única do projeto que existe para sustentar um número de OUTRA peça:** ela recalcula a neutralidade por enumeração das `2.000` combinações, e é dela que o preço do `Incapacitado` na peça 19 depende — `4,95` desde a v0.151 |
 | `03-mecanica/25-sem-tecnica.md` | **a rota de criação de quem tem energia e não tem técnica inata**: a semente — uma aptidão aberta na criação, em `Classe Passiva 2` ou `3` —, as três portas, os renomes `Manejo` e `Auge`, o buff de `1/3 do refino` na cura da rota da Shoko, e por que a Expansão de Domínio não existe aqui |
 | `03-mecanica/conferir-sem-tecnica.py` | as **doze** checagens da peça 25, e nenhum valor de regra mora dentro dela. *A 5 é a que decide a peça: ela não guarda os `9,3` nem os `17,3` — lê a escada de gate da peça 11 §5, simula as três rotas de marco e recalcula a antecipação de cada altura, então mexer na escada de forma coerente move a banda junto e sai verde de propósito* |
@@ -1298,9 +1298,29 @@ A skill `redacao-acessivel-rpg` existe exatamente para a travessia de "nota de d
 | | |
 |---|---|
 | **o degrau da `Sobrecarga`** | *`Leve` no manual, `Pesada` no livro, a linha continua `aberta`.* **A medida da v0.221 diz `1,96 ×` contra um chefe de `Alcateia` — que cabe em `Leve` — e `2,63 ×` contra uma `Dupla`, que NÃO cabe:** a banda das `Leve` para em `2,18 ×`. *A causa é o §4.4 da peça 26 e não a Melhoria: a `Dupla` concentra a cota numa ação só* |
-| **`B17`** | o campo `integridade_temp` existe na ficha e **nada no sistema concede integridade temporária**. *Ou alguma coisa deveria conceder, ou o campo sai.* **É desenho de sistema** |
+| **`B17`** | o campo `integridade_temp` existe na ficha e **nada no sistema concede integridade temporária**. *Ou alguma coisa deveria conceder, ou o campo sai.* **É desenho de sistema, e a medida está feita — ver abaixo** |
 | **o Evocador no menu da ficha** | *a decisão `C1` do outro repositório tirou ele de propósito, e os três motivos dela já expiraram.* **Voltar é decisão sua** |
 | **as duas fontes substitutas que sobraram** | *`WenQuanYi` em três kanjis do capítulo 42 e `FreeSerif Bold` num `⚠` do capítulo 47.* **A primeira é uma linha de CSS — pôr o Noto na pilha do corpo. A segunda é escolher uma fonte de símbolo** |
+
+**O `B17` está MEDIDO, e a medida derruba o precedente que estava sendo suposto.** *A peça 24 reprovou duas entregas que encostam na Integridade — o `recuperar Integridade` (§6.1) e o `−1` na Integridade máxima (§6.3) — as duas por valerem `0,00` para dois terços dos alvos.* **As duas agem no eixo da LETALIDADE, e o campo `TEMP` age no eixo do ESTÁGIO** — *e estágio dispara muito antes da alma esvaziar.*
+
+| a entrega vale `0,00` em | grade de `980` fichas |
+|---|---|
+| as duas **reprovadas** pelo §6.1 e §6.3 | **`67,8%`** |
+| o campo `TEMP` no degrau `2` — o caro, o que cobra `+1` PE por Classe | **`10,2%`** |
+
+> ***O precedente do §6.1 NÃO alcança o `B17`.*** *O que pesa contra é outro, e é maior:* **`Alma` é `1` dos `5` tipos Especiais, e os Especiais são `10%` do dano recebido — `2,0%` do que chega na ficha.** *Uma reserva dedicada a segurar `2%` dos acertos vale `0,00` em `~98%` deles.*
+>
+> **⚠ E esse `2,0%` sai do `60/30/10` da peça 19 §4, que a própria peça declara sem dono:** *"o peso dos três grupos é PREVISÃO", "palpite calibrado", "o primeiro que a mesa vai corrigir"* — **e `04-playtest/` está vazia desde a v0.1.** *Campanha de maldição de alma muda a conta.*
+>
+> *Duas outras coisas medidas junto:* **magnitude fixa evapora** — *as seis fontes de temporária entregam de `2` a `18`, e a Integridade vai de `28` no nível 2 a `252` no 30: a mesma fonte vale `129%` do degrau 2 no nível 2 e `14%` no nível 30* —, **e a defesa contra `Alma` já existe sem reserva nova:** *ele é um dos catorze tipos resistíveis, e a peça 5 §4 autoriza "resistência a um tipo".*
+
+**E o campo nasceu de um laço, não de uma decisão.** *O gerador da aba da ficha, no outro repositório, monta as três reservas num laço, e o campo `temp` está dentro dele.* **Vida ganhou `TEMP` porque tem regra, energia porque tem regra, Integridade porque estava na lista.**
+
+**Dois achados no repositório da ficha, na mesma varredura:**
+
+- **A nota da vida temporária na planilha viva (`AF23`) está incompleta.** *Ela diz três das quatro regras — não empilha, some no fim da cena, gasta antes — e **omite o teto de metade da vida máxima**, que o livro cap. 10 publica e a peça 1 §5.1.1 é dona.* **E a decisão `A2` de lá grava `teto_numerico: null`, com o texto dizendo *"nenhum teto numérico serviria"*:** *o teto não é numérico, é proporcional, e existe.*
+- **O arquivo de pendências de lá afirma uma nota que não existe.** *O `B17` dele diz que a nota do campo avisa que regra nenhuma o concede.* **As `22` notas da planilha viva foram varridas: não há nota em `AF31`.**
 
 **AS DUAS COISAS QUE PRECISAM DA SUA MÁQUINA:**
 

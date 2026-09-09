@@ -73,7 +73,9 @@ A Vanguarda e o Guia perdem meio ponto no primeiro respiro da primeira sessão. 
 
 **O piso de 1 não desfaz um zero escrito.** Quando a tabela do degrau 3 diz que você recupera **nada**, ela diz nada — o piso existe para a conta que produziu 0,4, não para transformar uma regra em outra.
 
-**A Integridade volta inteira em qualquer lugar.** É a única coisa que o ambiente não toca, e o motivo é o da **peça 24**: a alma não é o corpo. Não precisa de enfermaria quem precisa é do músculo. Isso também mantém a regra do manual intacta — ele diz *"descanso longo devolve toda a Integridade e a vida máxima, e limpa os estágios"*, e ela continua verdade.
+**A Integridade volta inteira em qualquer lugar.** É a única coisa que o ambiente não toca, e o motivo é o da **peça 24**: a alma não é o corpo. Não precisa de enfermaria quem precisa é do músculo. Isso também mantém a regra do livro intacta — ele diz *"o descanso longo devolve toda a Integridade e limpa os estágios"*, e ela continua verdade.
+
+> **⚠ A citação acima dizia *"e a vida máxima"* até a v0.222, e a vida máxima tinha saído do dano de alma na v0.176.** *Esta linha ficou quarenta e cinco versões prometendo devolver uma coisa que já não era tirada.* **E ela era citação do gerador do manual, não do livro** — *que é o documento onde a decisão da v0.176 entrou.* **Trocar a fonte é metade do conserto; a outra metade é a checagem `13` do `conferir-alma.py`, que a partir de agora lê os dois e falha se divergirem.**
 
 > **Esta linha é a única parte da máquina de alma que ficou aqui**, e ficou porque a tabela acima é uma grade só — PE, vida, exaustão e Integridade lado a lado. *A peça 24 §5 aponta para cá em vez de repetir.*
 

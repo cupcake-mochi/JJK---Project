@@ -8,6 +8,77 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.222] — 08/09/2026
+
+**Uma decisão do Mizuki entrou no livro na v0.176 e ficou quarenta e cinco versões sem sair de lá.** *Esta leva propaga ela, e conserta o motivo de ninguém ter percebido.*
+
+### 1 · A queda da vida máxima já tinha saído do dano de alma, e só o livro sabia
+
+**Fui olhar o `B17` — o campo `TEMP` da Integridade na ficha — e trouxe a medida contra a regra da peça 24 §3.1: *"cada ponto de dano de alma tira `1` de vida, `1` de Integridade e derruba a vida máxima em `1`"*.** ***O Mizuki respondeu perguntando se eu tinha certeza:*** *"vc... tem CERTEZA, q a regra atual remove vida máxima? lembro de ter removido isso"*.
+
+**Ele estava certo, e o registro existe.** *Está no método da volta do docx, na pasta do livro:*
+
+> **"a vida máxima saiu do dano de alma porque `61%` das fichas possíveis travavam antes do estágio 4"**
+
+**A decisão é da v0.176, tem conta embaixo, e entrou no livro naquela versão.** *E parou ali.* **Continuavam publicando a redação velha, quarenta e cinco versões depois:** a peça 24 em cinco lugares, a peça 19 §4, a peça 16 §4, a peça 10 §2, o gerador do manual em dois, e a **checagem 8 do `conferir-alma.py`, que EXIGIA as três** — *quer dizer, o validador estava travando a peça na redação velha em vez de conferir a viva.*
+
+### 2 · O motivo de nada ter acendido, que é o achado que fica
+
+> **O `conferir-alma.py` declarava sete donos no cabeçalho, e nenhum deles era o livro.** *O "manual" dele era o `partF.js` do gerador.* **Então quando a regra mudou no livro, nenhuma das fontes que o validador lia tinha mudado — e ele saía VERDE em cima da divergência, todas as vezes, por quarenta e cinco versões.**
+
+**A checagem `13` nasceu disso.** *Ela não guarda a regra: ela guarda o **acordo** entre os dois documentos publicados, nas cinco frentes — o acoplamento, a peça 24 contra o livro, a exceção que atravessa, o que o descanso longo devolve, e as duas regras que só o livro tinha.*
+
+**E a `13.1` tem duas metades, sendo a segunda a que importa:** *ela cobra que os dois concordem **e** que não concordem na redação velha.* **Sem a segunda, os dois podiam voltar juntos para a linha de antes e a checagem aplaudiria** — *lição nº 8 em outro lugar: uma checagem que só compara duas cópias não sabe qual das duas está certa.*
+
+*O arnês tem oito casos e todos acendem:* **o livro andando sozinho, o manual andando sozinho, os dois andando juntos para a redação velha, a peça 24 andando sem o livro, o descanso longo prometendo devolver o que já não é tirado, e cada uma das duas órfãs sumindo.** *E a base volta a passar depois de tudo restaurado.*
+
+### 3 · O livro se contradizia sozinho, no mesmo capítulo
+
+| onde | o que dizia |
+|---|---|
+| cap. 15, a lista dos catorze tipos | *"`Alma` — … Ele gasta **Integridade em vez de vida**"* |
+| cap. 15, a caixa da regra | *"Cada ponto de dano na alma tira **1 de vida e 1 de Integridade**"* |
+
+**Quatro páginas de distância, uma negando a outra** — *e é daí que vinha a outra metade da memória dele,* **"dano na alma (padrão mesmo) n reduz vida atual, só integridade"**. *Estava impresso.* **A caixa da regra vence, por decisão dele nesta versão**, e a legenda da lista passou a apontar para ela em vez de repetir a regra errada.
+
+### 4 · Duas regras vivas que peça nenhuma conhecia
+
+*Achadas na mesma varredura, e as duas são do livro:*
+
+- **"Se você chegar a `0` de vida antes da sua Integridade, você fica `Inconsciente`."** *Ela não inventa estado — aponta para o `Aguentar` da peça 1 §5.5.* **É o que substituiu a queda da vida máxima:** *o que acontece quando o corpo acaba primeiro deixou de ser um teto que desce e passou a ser a regra que o sistema já tinha.*
+- **"Esse teste só pode ser feito uma vez por rodada."** *Sem ela, um feitiço de múltiplos acertos empilha estágios num turno só — e o estágio decide de deslocamento a teto de Classe.*
+
+**As duas foram para a peça 24, e a `13.5` cobra que elas fiquem nos dois lados.**
+
+### Adicionado
+
+- **A checagem `13` do `conferir-alma.py`**, com `13.1` a `13.5b`, e o arnês de oito casos.
+- **A linha do `Inconsciente` no §3.1 da peça 24** e o limite de uma vez por rodada no §4.1.
+- **O livro como fonte declarada** no cabeçalho do `conferir-alma.py`.
+
+### Alterado
+
+- **A peça 24** em cinco lugares — §1, §1.1, §3.1, §3.2, §5 e §9 —, a peça 19 §4, a peça 16 §4 e a peça 10 §2.
+- **A checagem `8`**, que exigia as três e passou a exigir as duas, com guarda no sentido inverso — *e a guarda mede a LINHA de regra e não a seção, porque a prosa em volta agora conta a história da v0.176.*
+- **O gerador do manual**, em três linhas mais as duas órfãs.
+- **A legenda do tipo `Alma`** no capítulo 15 do livro, e a cópia vendorizada dela no `Ficha---RPG-JJK`.
+
+### Removido
+
+- **A linha *"a vida máxima derrubada · volta junto"*** da tabela do §5 da peça 24. *A queda saiu na v0.176 e a linha que a desfazia sobreviveu a ela por quarenta e cinco versões, prometendo desfazer uma coisa que já não acontecia.* **É a forma mais barata de documento envelhecer: apagam a causa e esquecem o remédio.**
+
+### Achado e não consertado
+
+- **O `B17` continua aberto**, e a medida dele está feita: *a entrega vale `0,00` em `10,2%` da grade e não nos `67,8%` que reprovaram o `recuperar Integridade` (§6.1) e o `−1` na Integridade máxima (§6.3)* — **o precedente daquelas duas NÃO alcança o campo `TEMP`**, e isso estava sendo suposto errado. *O que pesa contra é outro: `Alma` é `2,0%` do dano recebido pelos pesos da peça 19 §4, que são previsão sem dono.*
+- **A nota da vida temporária na planilha viva (`AF23`) está incompleta** — *diz três das quatro regras e omite o **teto de metade da vida máxima**, que o livro cap. 10 publica e a peça 1 §5.1.1 é dona.* **E a decisão `A2` da ficha grava `teto_numerico: null` com o texto dizendo *"nenhum teto numérico serviria"*: o teto não é numérico, é proporcional, e existe.**
+- **O `PENDENCIAS.md` do `Ficha---RPG-JJK` afirma uma nota que não existe** — *o `B17` de lá diz que a nota do campo avisa que regra nenhuma o concede.* **As 22 notas da planilha viva foram varridas: não há nota em `AF31`.**
+- **As outras vinte e duas divergências manual↔livro**, todas `aberta`. *Esta versão fecha uma que nem estava na lista, porque a lista é de Melhorias e esta era de regra.*
+- **A `Dupla` fora da banda `Leve` na `Sobrecarga`**, e o `conferir-kaori.py` vermelho na Integridade da ficha de exemplo — *`26` pela regra contra `28` impresso*. **Os dois são anteriores a esta leva, e foi conferido rodando contra o `HEAD`.**
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
+
+---
+
 ## [0.221] — 07/09/2026
 
 **A leva que aplica o que a v0.220 decidiu.** *A anterior anotou cinco coisas e não consertou nenhuma, por pedido dele. Esta pega a fila de cima para baixo e aplica as cinco* — **e três delas tinham mais dentro do que a anotação dizia.**
