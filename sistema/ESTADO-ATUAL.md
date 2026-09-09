@@ -1298,11 +1298,13 @@ A skill `redacao-acessivel-rpg` existe exatamente para a travessia de "nota de d
 | | |
 |---|---|
 | **o degrau da `Sobrecarga`** | *`Leve` no manual, `Pesada` no livro, a linha continua `aberta`.* **A medida da v0.221 diz `1,96 ×` contra um chefe de `Alcateia` — que cabe em `Leve` — e `2,63 ×` contra uma `Dupla`, que NÃO cabe:** a banda das `Leve` para em `2,18 ×`. *A causa é o §4.4 da peça 26 e não a Melhoria: a `Dupla` concentra a cota numa ação só* |
-| **`B17`** | o campo `integridade_temp` existe na ficha e **nada no sistema concede integridade temporária**. *Ou alguma coisa deveria conceder, ou o campo sai.* **É desenho de sistema, e a medida está feita — ver abaixo** |
+| ~~**`B17`**~~ | ~~o campo `integridade_temp` não tem fonte~~ **FECHADA na v0.222: o campo FICA.** *Decisão dele — "n vou remover da ficha o integridade temporaria".* **Regra nenhuma concede, e ele continua como espaço do mestre**; a medida que sustentou isso está abaixo |
 | **o Evocador no menu da ficha** | *a decisão `C1` do outro repositório tirou ele de propósito, e os três motivos dela já expiraram.* **Voltar é decisão sua** |
 | **as duas fontes substitutas que sobraram** | *`WenQuanYi` em três kanjis do capítulo 42 e `FreeSerif Bold` num `⚠` do capítulo 47.* **A primeira é uma linha de CSS — pôr o Noto na pilha do corpo. A segunda é escolher uma fonte de símbolo** |
 
-**O `B17` está MEDIDO, e a medida derruba o precedente que estava sendo suposto.** *A peça 24 reprovou duas entregas que encostam na Integridade — o `recuperar Integridade` (§6.1) e o `−1` na Integridade máxima (§6.3) — as duas por valerem `0,00` para dois terços dos alvos.* **As duas agem no eixo da LETALIDADE, e o campo `TEMP` age no eixo do ESTÁGIO** — *e estágio dispara muito antes da alma esvaziar.*
+**O `B17` FECHOU na v0.222, e o campo fica.** *Decisão do Mizuki, com todas as letras: "n vou remover da ficha o integridade temporaria".* **Regra nenhuma concede integridade temporária, e o campo continua na ficha como espaço do mestre** — *a nota dele parou de dizer "ou o campo sai".*
+
+**A medida que sustentou a decisão derruba o precedente que estava sendo suposto.** *A peça 24 reprovou duas entregas que encostam na Integridade — o `recuperar Integridade` (§6.1) e o `−1` na Integridade máxima (§6.3) — as duas por valerem `0,00` para dois terços dos alvos.* **As duas agem no eixo da LETALIDADE, e o campo `TEMP` age no eixo do ESTÁGIO** — *e estágio dispara muito antes da alma esvaziar.*
 
 | a entrega vale `0,00` em | grade de `980` fichas |
 |---|---|
