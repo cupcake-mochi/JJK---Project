@@ -1,8 +1,14 @@
 # Estado atual do projeto
 
-Atualizado em 11/09/2026, na v0.221 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e nove checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 11/09/2026, na v0.222 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e nove checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.221.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
+**Versão v0.222.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
+
+> ## 🆕 A v0.222 consertou duas coisas que a v0.221 deixou passar, e as duas são do §6.5 da peça 26
+>
+> **1 · O orçamento de uma ação sai do golpe IMPRESSO.** *A tabela e a checagem `9.1` aplicavam o `0,923` DEPOIS da média do golpe cru; o texto da própria seção sempre disse "o golpe entra aqui como a ficha imprime ele".* **`9` das `35` células andaram `0,1`, e a maior ação do sistema foi de `15,0` para `14,9` pontos.** *Os `62%` do teto do jogador não mudaram.*
+>
+> **2 · O golpe saiu do cabeçalho do bloco** — *ele mora no ataque, em `Ações`, com o alcance junto.* **E `Ações Múltiplas` passou a contar na linha de seis entradas nomeadas.** *Como se nomeia o ataque foi medido em sete sistemas: é a arma ou a parte do corpo, e **nenhum** sistema põe "Ataque de" no nome.*
 
 **A v0.221 trocou a escada de inimigo inteira, e ela veio medida de fora.** *O projeto do Bestiário, fora deste repositório, refez a máquina de montar inimigo entre 08/09 e 10/09 e mandou a conta pronta; esta versão é a execução, em oito commits.*
 

@@ -8,6 +8,50 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.222] — 11/09/2026
+
+**A v0.221 fechou a escada nova, e a passada de texto do livro do Bestiário achou duas coisas que ela deixou passar.** *As duas vieram de fora com a conta pronta, e as duas são de dono — o Mizuki bateu os martelos na mesma tarde.*
+
+### 1 · O orçamento de uma ação sai do golpe IMPRESSO, e não do cru
+
+**A tabela do §6.5 e a checagem `9.1` faziam uma conta, e o texto embaixo da tabela descrevia outra.** *A tabela aplicava o fator `0,923` DEPOIS da média do golpe cru; o texto diz "o golpe entra aqui como a ficha imprime ele — a média do dado do §4.4", que é o golpe com o fator aplicado ANTES de escolher o dado, como o `make.js` imprime.*
+
+| | conta velha | **conta nova** |
+|---|---|---|
+| bate com a tabela que estava publicada | `35` de `35` | `26` de `35` |
+| bate com o TEXTO da própria seção | não | **sim** |
+| bate com o comentário da própria checagem `9.1` | não | **sim** |
+| volta: pontos × `4,5` contra o golpe que a mesa lê | erro de até `0,60` de dano | **de até `0,20` — só o arredondamento de uma casa** |
+
+**Um mestre que aplica a regra publicada ao golpe impresso na ficha chega na conta nova.** *Era esse o desempate.*
+
+> **⚠ `9` das `35` células andaram `0,1`, e a maior ação de inimigo do sistema foi de `15,0` para `14,9` pontos** — *o `Desastre` e a `Calamidade` do nível 30.* **Os `62%` do teto do jogador não mudaram.**
+
+**Nenhum número foi digitado:** *o `rota-b-26.py` do projeto do Bestiário reabre os donos — a tabela `Inimigos` do `partF.js`, o §4 e o `0,923` da peça 26, e o `dado()` do `make.js` — e reescreve a tabela, a frase do topo e a conta da `9.1`.* **A conta que escolheu a rota está em `medir-a-rota-do-orcamento.py`, com as duas lado a lado nas `35` células.**
+
+### 2 · O golpe saiu do cabeçalho do bloco
+
+***Decisão do Mizuki:*** *"Golpe fica na parte de ações, normalmente com um nome pro golpe."* **A célula `O golpe` sumiu do cabeçalho: o dano e o alcance saem impressos dentro do ataque, em `Ações`, que é o único lugar onde a mesa lê os dois juntos.**
+
+**E `Ações Múltiplas` passou a contar como entrada nomeada** — *ela é a primeira entrada de `Ações` em quem age mais de uma vez, e ocupa uma das seis.* **As `Intervenções` continuam fora da linha.**
+
+> **Como se nomeia o ataque foi MEDIDO em sete sistemas, e nenhum põe "Ataque de" no nome:** *`0` de `423` ações de ataque do SRD 2024 e `0` de `524` do SRD 2014 trazem "Attack" no nome.* **O nome é a arma ou a parte do corpo — `Mordida`, `Garra`, `Kanabō` —, ou o golpe quando ele tem jeito próprio.** *"Ataque de X" é como as `Ações Múltiplas` chamam o ataque na frase delas, e é só ali que a palavra aparece.*
+
+### Alterado
+
+- **As `9` células do §6.5 da peça 26**, e a frase da maior ação — `15,0` → **`14,9` pontos**.
+- **A conta da checagem `9.1` do `conferir-bestiario.py`**: o fator entra no dano de RODADA, antes do dado.
+- **O `make.js`**: o cabeçalho das seis prontas perdeu a célula `O golpe`, e a ficha em branco ganhou a regra de como nomear o ataque. **O `bloco-de-inimigo.docx` e o `.pdf` foram regerados.**
+
+### Decidido
+
+- **O orçamento de feitiço de uma ação se mede contra o golpe que a ficha IMPRIME**, e não contra o produto cru. *Quando a tabela e o texto discordam, ganha quem o mestre consegue reproduzir na mesa.*
+- **O golpe não tem célula de cabeçalho**, e **`Ações Múltiplas` conta na linha de entradas nomeadas**.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
+
+---
+
 ## [0.221] — 11/09/2026
 
 **O Bestiário foi refeito fora deste repositório e entrou aqui em oito commits.** *O projeto do Bestiário mediu a máquina de montar inimigo inteira entre 08/09 e 10/09, bateu cada martelo com o Mizuki e mandou a conta pronta, com arquivo e linha de cada mexida.* **Esta versão é a execução — e a execução achou quatro buracos que a entrega não cobria.**

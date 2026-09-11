@@ -184,6 +184,9 @@ function bloco(f, primeiro, rotulo) {
   out.push(stat('Resistência · imunidade · vulnerabilidade', v('resist'), vazio));
   out.push(regra());
   out.push(secao('AÇÕES'));
+  // o molde do cap. 5: o ataque leva nome proprio, e o nome e a arma ou a parte do corpo.
+  // Medido em 7 sistemas — nenhum poe "Ataque de" no NOME (`0` de `423` no SRD 2024).
+  if (vazio) out.push(P('Cada ataque leva nome próprio, e o nome é a arma ou a parte do corpo que bate: **Mordida**, **Garra**, **Kanabō**. **Não escreva "Ataque de" no nome** — "ataque de" é como as **Ações Múltiplas** chamam o ataque na frase delas.'));
   out.push(stat('Por rodada', v('porRodada'), vazio));
   out.push(stat('Golpe', f ? `${v('acerto')} para acertar, ${v('dano')} de dano` : '', vazio));
   out.push(regra());
@@ -290,7 +293,9 @@ function blocoPronto(p) {
     out.push(stat('', `${pre}**Defesa** \`${v[0]}\` · **Acerto** \`+${v[1]}\` · **CD** \`${v[2]}\` · **Refino** \`${v[3]}\` *(proteção \`+${protecao(v[3])}\`)*`));
   }
   const mov = p.movimentos.map((mv) => ` · **${mv}** \`${X.DESLOCAMENTO}\``).join('');
-  out.push(stat('', `**Vida** \`${m.vida}\` · **Integridade** \`${m.vida}\` · **O golpe** ${fmtGolpe(m.g)} *(alcance ${m.alcance})* · **Deslocamento** \`${X.DESLOCAMENTO}\`${mov}`));
+  // o golpe saiu do cabecalho em 11/09/2026: ele mora no ataque, em `Acoes`, com o
+  // alcance junto (`Bestiario/04-fase-1/fila/DECIDIDO-as-tres-respostas-da-passada.md` §1)
+  out.push(stat('', `**Vida** \`${m.vida}\` · **Integridade** \`${m.vida}\` · **Deslocamento** \`${X.DESLOCAMENTO}\`${mov}`));
   out.push(regra(C.linha));
   const at = p.arranjo.split('·').map((s) => s.trim());
   out.push(TBL(['FOR', 'DES', 'CON', 'INT', 'ESS'], [at], [20, 20, 20, 20, 20], { centerCols: [0, 1, 2, 3, 4] }));

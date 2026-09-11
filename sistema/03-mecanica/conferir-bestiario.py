@@ -930,7 +930,11 @@ else:
     # pela regra do §4.1 — e' o numero que a ficha imprime. Sem isso a checagem
     # compararia contra um produto cru que o mestre nunca ve.
     # v0.221: o golpe entra como a ficha imprime ele — a MEDIA do dado do §4.4 — e
-    # quem carrega `Intervencao` entra com o fator dela. Nada mora aqui: a lista de
+    # quem carrega `Intervencao` entra com o fator dela.
+    # 11/09/2026: a conta era a rota A (o fator DEPOIS da media do golpe cru), e o
+    # texto da peca descrevia a rota B. Medido em `medir-a-rota-do-orcamento.py`:
+    # a rota B fecha com o texto, com o comentario daqui e com a regra do cap. 6 do
+    # livro aplicada ao golpe que a mesa le. 9 das 35 celulas andaram 0,1. Nada mora aqui: a lista de
     # dados, o teto de dados na mao e o piso do numero seco saem do §4.4; o fator e
     # quem o carrega saem do §6.5 e da coluna `Intervencao` da tabela do §4.
     _T91 = tabela(TXT, '| pontos por ação | `Capanga` | `Ameaça` | `Desastre` | `Catástrofe` | `Calamidade` |')
@@ -990,8 +994,12 @@ else:
             _nv91 = int(_mn.group(1))
             _cd91 = _MANUAL[_nv91][2]
             for _cel91, _c91 in zip(_l91[1:], _CAT):
-                _g91 = (_media_do_dado(_arr(_cd91 * _c91[2]) / _c91[3])
-                        * (_FI if _INT.get(_c91[0]) else 1.0))
+                # rota B: o fator entra no dano de RODADA, antes do dado — e' o
+                # golpe que a ficha imprime, que e' o que o texto do §6.5 descreve
+                _rod91 = _arr(_cd91 * _c91[2])
+                if _INT.get(_c91[0]):
+                    _rod91 = _arr(_rod91 * _FI)
+                _g91 = _media_do_dado(_rod91 / _c91[3])
                 _pts = _g91 / _PONTO
                 if _pts < _PISO19 - 1e-9:
                     if _cel91.strip().lower() != 'seco':

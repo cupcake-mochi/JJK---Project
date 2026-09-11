@@ -387,11 +387,11 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 |---|---|---|---|---|---|
 | nível 2 | seco | seco | seco | seco | seco |
 | nível 5 | seco | seco | seco | seco | seco |
-| nível 10 | `4,2` | `4,2` | `5,1` | `4,5` | `5,1` |
-| nível 15 | `6,2` | `6,2` | `7,6` | `6,9` | `7,6` |
-| nível 20 | `8,2` | `8,2` | `10,1` | `9,0` | `10,1` |
-| nível 25 | `10,2` | `10,2` | `12,5` | `11,2` | `12,5` |
-| nível 30 | `12,2` | `12,2` | `15,0` | `13,5` | `15,0` |
+| nível 10 | `4,2` | `4,2` | `5,1` | `4,6` | `5,1` |
+| nível 15 | `6,2` | `6,2` | `7,6` | `6,9` | `7,7` |
+| nível 20 | `8,2` | `8,2` | `10,1` | `9,1` | `10,1` |
+| nível 25 | `10,2` | `10,2` | `12,4` | `11,3` | `12,4` |
+| nível 30 | `12,2` | `12,2` | `14,9` | `13,4` | `14,9` |
 
 *O golpe entra aqui como a ficha imprime ele — a média do dado do §4.4 —, e quem carrega `Intervenção` entra já com o fator dela.*
 
@@ -399,7 +399,7 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 > **⚠ Este piso não é o mesmo do golpe em dado, e os dois vivem lado a lado.** *O §4.4 põe o número seco abaixo de `5` de dano, porque um `d8` balançaria mais que o próprio golpe; este põe o feitiço abaixo de `13,5`, porque é o que a `Classe 1` custa.* **Existe faixa que rola dado e não conjura** — *uma `Ameaça` de nível 5 bate `2d4 + 5`, dez de média, que é dado e não é feitiço.*
 
-**A maior ação de inimigo do sistema é `15,0` pontos — o `Desastre` e a `Calamidade` do nível 30 —, e o teto do jogador naquele nível é `24`.** *Uma ação de inimigo é `62%` do maior feitiço que um personagem monta no mesmo nível, e ele compensa em quantidade: age três, cinco ou seis vezes por rodada, e o jogador age uma.* **Até a v0.220 o topo era a `Dupla`, com `24,2` pontos numa ação só — o degrau que levava o dobro do orçamento pela mesma porta.**
+**A maior ação de inimigo do sistema é `14,9` pontos — o `Desastre` e `Calamidade` do nível 30 —, e o teto do jogador naquele nível é `24`.** *Uma ação de inimigo é `62%` do maior feitiço que um personagem monta no mesmo nível, e ele compensa em quantidade: age três, cinco ou seis vezes por rodada, e o jogador age uma.* **Até a v0.220 o topo era a `Dupla`, com `24,2` pontos numa ação só — o degrau que levava o dobro do orçamento pela mesma porta.**
 
 > **⚠ E é aqui que a condição do inimigo se resolve, sem moeda nova.** *Comprar condição dentro de um feitiço custa ponto, e ponto gasto em condição é dado que não foi comprado.* **A régua da peça 19 §2.2 vale dos dois lados da mesa desde a v0.201, então o preço já está escrito lá.**
 
