@@ -468,10 +468,12 @@ else:
     _js = open(_GER, encoding='utf-8').read()
     _md = open(_P26, encoding='utf-8').read()
 
-    # 7a — as quatro categorias: nome, personagens e fator
+    # 7a (v0.221) — as cinco categorias: nome, personagens, fator, acoes, Intervencao
     _bl_cat = _re.search(r'const CATEGORIAS = \[(.*?)\];', _js, _re.S)
-    _cat_js = _re.findall(r"\['(\w+)',\s*(\d+),\s*([\d.]+)\]",
-                          _bl_cat.group(1) if _bl_cat else '')
+    _cat_js = [(n, None if pp == 'null' else int(pp), float(ff), int(aa), ii == 'true')
+               for n, pp, ff, aa, ii in _re.findall(
+                   r"\['([^']+)',\s*(null|\d+),\s*([\d.]+),\s*(\d+),\s*(true|false)\]",
+                   _bl_cat.group(1) if _bl_cat else '')]
     _cat_md = []
     _i = _md.find('| categoria | personagens | fator sobre a linha do manual | ações |')
     if _i >= 0:
@@ -479,29 +481,22 @@ else:
         _bloco = _bloco[:_bloco.find('\n\n')] if '\n\n' in _bloco else _bloco
         for _l in _bloco.split('\n')[2:]:
             _c = [x.replace('*', '').replace('`', '').strip() for x in _l.split('|')[1:-1]]
-            if len(_c) == 4 and _c[1].isdigit():
-                _cat_md.append((_c[0], int(_c[1]),
-                                float(_c[2].replace('×', '').replace(',', '.').strip())))
+            if len(_c) == 5 and _c[3].isdigit():
+                _cat_md.append((_c[0], int(_c[1]) if _c[1].isdigit() else None,
+                                float(_c[2].replace('×', '').replace(',', '.').strip()),
+                                int(_c[3]), _c[4].lower() == 'sim'))
     if not _cat_md:
         erro('7: nao achei a tabela de categorias na peca 26 §4')
-    elif len(_cat_js) != len(_cat_md):
-        erro(f'7: o dados.js tem {len(_cat_js)} categoria(s) e a peca 26 publica '
-             f'{len(_cat_md)}')
+    elif _cat_js != _cat_md:
+        erro(f'7: as categorias do dados.js nao batem com a peca 26 §4 — o dados.js tem '
+             f'{_cat_js} e a peca publica {_cat_md}')
     else:
-        _mau = [f'{a[0]}' for a, b in zip(_cat_js, _cat_md)
-                if a[0] != b[0] or int(a[1]) != b[1] or abs(float(a[2]) - b[2]) > 1e-9]
-        if _mau:
-            erro('7: categoria(s) do dados.js que nao batem com a peca 26 §4: '
-                 + ', '.join(_mau))
-        else:
-            print(f'  [x] as {len(_cat_md)} categorias do dados.js batem com a peca 26 §4')
+        print(f'  [x] as {len(_cat_md)} categorias do dados.js batem com a peca 26 §4 — nome, '
+              'personagens, fator, acoes e Intervencao')
 
-    # 7b — as sete faixas do dados.js contra a tabela do §4.1 da peca.
+    # 7b — as faixas do dados.js contra o §4.1 da peca, celula a celula.
     # ⚠ A comparacao e' contra a PECA e nao contra o .docx de proposito: quem
-    # compara a peca com o manual e' a checagem 3 do conferir-bestiario.py, e
-    # duplicar essa leitura aqui poria um segundo caminho entre o mesmo par de
-    # documentos — e faria este validador precisar do python-docx, que ele nao
-    # precisa hoje. Um elo por checagem.
+    # compara a peca com o manual e' a checagem 3 do conferir-bestiario.py.
     _fx = _re.findall(r"\['(\d+ a \d+)',\s*\d+,\s*\d+,\s*\d+,\s*(\d+),\s*(\d+),"
                       r"\s*(\d+),\s*(null|\d+),\s*(null|\d+)\]", _js)
     if len(_fx) != 7:
@@ -521,17 +516,17 @@ else:
             erro('7: nao achei a tabela do §4.1 da peca 26 — ela e o outro lado desta '
                  'comparacao')
         else:
-            _alvo = {'2 a 4': None, '9 a 12': 0, '17 a 20': 1, '26 a 30': 2}
+            _alvo = {'9 a 12': 0, '17 a 20': 1, '26 a 30': 2}
             _mau = []
             for _f in _fx:
                 _k = _alvo.get(_f[0])
                 if _k is None:
                     continue
-                for _nome, _pes, _fat in [(c[0], int(c[1]), float(c[2])) for c in _cat_js]:
+                for _nome, _pes, _fat, _ac, _it in _cat_js:
                     if _nome not in _por_cat:
                         _mau.append(f'{_nome} nao esta no §4.1')
                         continue
-                    _v = _math.ceil(int(_f[2]) * _fat - 0.5)
+                    _v = int(_f[4]) if _pes is None else _math.ceil(int(_f[2]) * _fat - 0.5)
                     _d = _math.ceil(int(_f[3]) * _fat - 0.5)
                     if (_v, _d) != _por_cat[_nome][_k]:
                         _mau.append(f'{_nome} na faixa {_f[0]}: dados.js da ({_v}, {_d}) '
@@ -539,52 +534,45 @@ else:
             if _mau:
                 erro('7: ' + ' · '.join(_mau[:3]))
             else:
-                _cob = len([1 for _f in _fx if _alvo.get(_f[0]) is not None])
-                print(f'  [x] {_cob} das {len(_fx)} faixas do dados.js reproduzem a tabela '
-                      'do §4.1, celula a celula, com o arredondamento meio para baixo')
-                # ⚠ e as OUTRAS quatro nao tem com que ser comparadas aqui: o §4.1
-                # publica tres niveis. Elas ficavam pulando em silencio, e foi assim
-                # que a linha do nivel 2 do dados.js seguiu a do manual velho. A
-                # guarda abaixo cobre as sete por outro eixo — a derivacao do
-                # capanga, que e a mesma regra que a peca 26 §5 publica.
-                if _cob != len(_alvo) - 1:
-                    erro(f'7: o mapa de faixas comparaveis mudou de tamanho — {_cob} '
-                         'comparadas, e ele foi escrito para tres')
+                print(f'  [x] 3 das {len(_fx)} faixas do dados.js reproduzem a tabela do §4.1, '
+                      'celula a celula, nas cinco categorias')
 
-        # 7b-bis: o capanga de CADA faixa do dados.js deriva do chefe da mesma
-        # linha, pela regra da peca 26 §5. Isto alcanca as sete, inclusive as
-        # quatro que o §4.1 nao publica.
+        # 7b-bis (v0.221): o capanga de CADA faixa e o da escada — o dano do grupo
+        # dividido por quatro, para baixo, e o dano do chefe vezes o fator do
+        # Capanga, pela peca 26 §5. Alcanca as sete faixas, inclusive as quatro que
+        # o §4.1 nao publica. Ate a v0.220 esta guarda cobrava o capanga da
+        # Alcateia (chefe ÷ 4, ÷ 3), que morreu com a escada.
+        _fc = [c for c in _cat_js if c[1] is None]
         _mau_der = []
         for _f in _fx:
-            if _f[4] == 'null' or _f[5] == 'null':
+            if _f[4] == 'null' or _f[5] == 'null' or not _fc:
+                _mau_der.append(f'{_f[0]}: sem capanga')
                 continue
-            _ev = _math.ceil(int(_f[2]) / 4 - 0.5)
-            _ed = _math.ceil(int(_f[3]) / 3 - 0.5)
+            _ev = int(_f[1]) // 4
+            _ed = _math.ceil(int(_f[3]) * _fc[0][2] - 0.5)
             if (int(_f[4]), int(_f[5])) != (_ev, _ed):
-                _mau_der.append(f'{_f[0]}: o dados.js da ({_f[4]}, {_f[5]}) e a derivacao '
-                                f'da ({_ev}, {_ed})')
+                _mau_der.append(f'{_f[0]}: o dados.js da ({_f[4]}, {_f[5]}) e o capanga da '
+                                f'escada e ({_ev}, {_ed})')
         if _mau_der:
-            erro('7: o capanga do dados.js nao e o chefe da mesma linha dividido — '
-                 + ' · '.join(_mau_der[:3]))
+            erro('7: o capanga do dados.js nao e o da escada — ' + ' · '.join(_mau_der[:3]))
         else:
-            _cd = len([1 for _f in _fx if _f[4] != 'null'])
-            print(f'  [x] o capanga das {_cd} faixas do dados.js e a vida do chefe dela '
-                  'dividida por quatro e o dano dividido por tres')
+            print(f'  [x] o capanga das {len(_fx)} faixas do dados.js e o da escada — o dano '
+                  'do grupo ÷ 4, para baixo, e o dano do chefe vezes o fator dele')
 
-    # 7c — o cambio, e a regra de arredondamento que os tres lugares seguem
+    # 7c — o cambio
     _mc = _re.search(r'const CAMBIO = (\d+)', _js)
     _mp = _re.search(r'vale (\w+) capangas', _md)
-    _PT = {'um': 1, 'dois': 2, 'três': 3, 'quatro': 4, 'cinco': 5, 'seis': 6}
+    _PT = {'um': 1, 'dois': 2, 'três': 3, 'quatro': 4, 'cinco': 5, 'seis': 6, 'sete': 7,
+           'oito': 8, 'nove': 9, 'dez': 10}
     if not _mc or not _mp:
         erro('7: nao achei o cambio no dados.js ou na peca 26 §5')
     elif int(_mc.group(1)) != _PT.get(_mp.group(1).lower()):
-        erro(f'7: o dados.js diz cambio {_mc.group(1)} e a peca 26 §5 diz '
-             f'"{_mp.group(1)}"')
+        erro(f'7: o dados.js diz cambio {_mc.group(1)} e a peca 26 §5 diz "{_mp.group(1)}"')
     else:
-        print(f'  [x] o cambio do dados.js e o da peca 26 §5 dizem o mesmo: '
-              f'{_mc.group(1)}')
+        print(f'  [x] o cambio do dados.js e o da peca 26 §5 dizem o mesmo: {_mc.group(1)}')
 
-    # 7c-bis — a sub-categoria: a fracao sai do CAMBIO, e nao de escolha.
+    # 7c-bis (v0.221) — a sub-categoria: a fracao do chefe e MEDIDA desde a
+    # v0.221, e nao sai mais do cambio. O dados.js copia a peca, com uma casa.
     _sub = _re.search(r'const SUBCATEGORIAS = \[(.*?)\];', _js, _re.S)
     _t45 = []
     _i45 = _md.find('| sub-categoria | o chefe fica com | capangas | cobra do grupo |')
@@ -594,38 +582,99 @@ else:
         for _l in _b.split('\n')[2:]:
             _c = [x.replace('*', '').replace('`', '').strip() for x in _l.split('|')[1:-1]]
             if len(_c) == 4:
-                _t45.append((_c[0], int(_c[1].rstrip('%')),
-                             0 if _c[2] == '—' else int(_c[2]), int(_c[3].rstrip('%'))))
-    if not _sub or not _t45:
+                _t45.append((_c[0], 0 if _c[2] == '—' else int(_c[2]),
+                             float(_c[1].rstrip('%').replace(',', '.')),
+                             float(_c[3].rstrip('%').replace(',', '.'))))
+    _pares = [(n, int(k), float(fr), float(cb)) for n, k, fr, cb in _re.findall(
+        r"\['([^']+)',\s*(\d+),\s*([\d.]+),\s*([\d.]+)\]", _sub.group(1) if _sub else '')]
+    if not _pares or not _t45:
         erro('7: nao achei a sub-categoria no dados.js ou a tabela do §4.5 da peca 26')
+    elif _pares != _t45:
+        erro(f'7: a sub-categoria do dados.js {_pares} nao e a do §4.5 da peca 26 {_t45}')
     else:
-        _pares = _re.findall(r"\['([^']+)',\s*(\d+),\s*(\d+)\]", _sub.group(1))
-        _mau = []
-        if len(_pares) != len(_t45):
-            _mau.append(f'o dados.js tem {len(_pares)} e a peca publica {len(_t45)}')
-        for (_n1, _c1, _cob), (_n2, _frac, _c2, _cob2) in zip(_pares, _t45):
-            _esp = round((1 - int(_c1) / int(_mc.group(1))) * 100)
-            if _n1 != _n2 or int(_c1) != _c2:
-                _mau.append(f'{_n1} contra {_n2}')
-            elif _esp != _frac:
-                _mau.append(f'{_n1}: a peca publica {_frac}% e o cambio da {_esp}%')
-            elif int(_cob) != _cob2:
-                _mau.append(f'{_n1}: o dados.js diz que cobra {_cob}% da vida do grupo e '
-                            f'a peca 26 §4.5 publica {_cob2}%')
-        if _mau:
-            erro('7: a sub-categoria nao fecha com o cambio: ' + ' · '.join(_mau[:3]))
-        else:
-            print(f'  [x] as {len(_t45)} sub-categorias saem do cambio — 1 menos '
-                  'capangas sobre ele, e nao de escolha')
+        print(f'  [x] as {len(_t45)} sub-categorias do dados.js sao as do §4.5 — capangas, a '
+              'fracao do chefe e o que cobram')
+
+    # 7c-ter (v0.221) — os numeros que o gerador COPIA: cada um tem dono na peca 26
+    # ou no manual, e aqui se compara o dono com a copia. Nenhum valor mora neste
+    # arquivo.
+    def _n7(s):
+        return float(s.replace(',', '.'))
+    _pc = open(os.path.join(os.path.dirname(os.path.dirname(AQUI)), 'manual', 'gerador',
+                            'partC.js'), encoding='utf-8').read()
+    _pares7 = (
+        ('o fator da Intervencao', r'const FATOR_INTERVENCAO = ([\d.]+)', _js,
+         r'é multiplicado por `([\d,]+)`', _md, _n7),
+        ('quantas Intervencoes por luta', r'const INTERVENCOES = (\d+)', _js,
+         r'carrega (\w+) `Intervenções` por luta', _md,
+         lambda s: int(s) if str(s).isdigit() else _PT.get(s, s)),
+        ('o teto de empilhamento', r'const TETO_EMPILHAMENTO = (\d+)', _js,
+         r'no máximo `(\d+)` corpos do mesmo esquadrão', _md, _n7),
+        ('o deslocamento', r"const DESLOCAMENTO = '([^']+)'", _js,
+         r'\| deslocamento \| `([^`]+)` \|', _md, str),
+        ('o alcance do Projetil nas Classes 1 a 5', r"const ALCANCE_PROJETIL = '([^']+)'", _js,
+         r"\['Projétil e Toque\*', '[^']+', '([^']+)'", _pc, str),
+    )
+    _mau7 = []
+    for _rot, _rj, _tj, _rp, _tp, _cv in _pares7:
+        _a, _b7 = _re.search(_rj, _tj), _re.search(_rp, _tp)
+        if not (_a and _b7):
+            _mau7.append(f'{_rot}: nao achei no dados.js ou no dono')
+        elif _cv(_a.group(1)) != _cv(_b7.group(1)):
+            _mau7.append(f'{_rot}: o dados.js diz {_a.group(1)} e o dono diz {_b7.group(1)}')
+    _am = _re.search(r'const AMEACA_CONTRA_DESASTRE = \[([\d.]+),\s*([\d.]+)\]', _js)
+    _ap = _re.search(r'Quatro `Ameaça` não valem um `Desastre`: elas cobram `([\d,]+) ×` a '
+                     r'`([\d,]+) ×`', _md)
+    if not (_am and _ap) or (float(_am.group(1)), float(_am.group(2))) != (
+            _n7(_ap.group(1)), _n7(_ap.group(2))):
+        _mau7.append('a razao de quatro Ameaca contra um Desastre nao bate com a peca 26 §4.3')
+    # o tamanho, contra o §3.3
+    _tb = _re.search(r'const TAMANHOS = \[(.*?)\];', _js, _re.S)
+    _tam_js = {n: (int(l), v == 'true') for n, l, v in _re.findall(
+        r"\['([^']+)',\s*(\d+),\s*(true|false)\]", _tb.group(1) if _tb else '')}
+    _tam_md = {}
+    _i33 = _md.find('| tamanho | ocupa na grade | alcance | o golpe pega |')
+    if _i33 >= 0:
+        _b = _md[_i33:]
+        for _l in _b[:_b.find('\n\n')].split('\n')[2:]:
+            _c = _l.split('|')[1:-1]
+            if len(_c) == 4:
+                _lado = _re.search(r'(\d+)×', _c[1])
+                for _nm in _re.findall(r'`([^`]+)`', _c[0]):
+                    _tam_md[_nm] = (int(_lado.group(1)) if _lado else 0, 'metade' in _c[3])
+    if not _tam_js or _tam_js != _tam_md:
+        _mau7.append(f'o tamanho do dados.js {_tam_js} nao e o do §3.3 da peca 26 {_tam_md}')
+    # a area natural, contra o §6.5
+    _ab = _re.search(r'const AREA_NATURAL = \[(.*?)\n\];', _js, _re.S)
+    _area_js = [(int(a), int(b), int(q), r, c, [x.strip().strip("'") for x in rt.split(',')])
+                for a, b, q, r, c, rt in _re.findall(
+                    r"\[\s*(\d+),\s*(\d+),\s*(\d+),\s*'([^']+)',\s*'([^']+)',\s*\[([^\]]*)\]\]",
+                    _ab.group(1) if _ab else '')]
+    _area_md = []
+    _i65 = _md.find('| nível | cobre | `Esfera` | `Cone` |')
+    if _i65 >= 0:
+        _b = _md[_i65:]
+        for _l in _b[:_b.find('\n\n')].split('\n')[2:]:
+            _c = [x.replace('`', '').replace('*', '').strip() for x in _l.split('|')[1:-1]]
+            if len(_c) == 5:
+                _nv = [int(x) for x in _re.findall(r'\d+', _c[0])]
+                _area_md.append((_nv[0], _nv[-1], int(_re.match(r'(\d+)', _c[1]).group(1)),
+                                 _c[2].replace('raio ', ''), _c[3],
+                                 [x.strip() for x in _c[4].split('·')]))
+    if not _area_js or _area_js != _area_md:
+        _mau7.append(f'a area natural do dados.js nao e a do §6.5 da peca 26')
+    if _mau7:
+        erro('7: ' + ' · '.join(_mau7[:4]))
+    else:
+        print('  [x] o fator e as tres Intervencoes, o teto de empilhamento, o deslocamento, o '
+              'alcance do Projetil, a razao do §4.3, o tamanho e a area natural do dados.js '
+              'batem com os donos')
 
     # 7d — a regra do dado: o gerador tem de seguir o §4.4, e a peca tem de
     # publicar a tabela de exemplo que ela promete.
     _mk = open(os.path.join(MAT, 'gerador-inimigo', 'make.js'), encoding='utf-8').read()
-    # v0.216: o dado deixou de ser sempre d8 e passou a se escolher entre d4 e
-    # d12. As duas frases literais que moravam aqui — `Math.round(alvo / 9)` e
-    # `N d8 + fixo` — eram a regra ANTIGA escrita duas vezes, e as duas quebraram
-    # juntas no dia em que ela mudou. No lugar delas a checagem compara as duas
-    # publicacoes: a LISTA de dados do gerador contra a lista que a peca escreve.
+    # v0.216: a checagem compara as duas publicacoes — a LISTA de dados do gerador
+    # contra a lista que a peca escreve.
     _dg = re.findall(r'\d+', (re.search(r'const DADOS = \[([^\]]+)\]', _mk) or
                               type('', (), {'group': lambda s, n: ''})()).group(1))
     _mr = re.search(r'O tamanho do dado se escolhe entre ([^*]+?)\s*—', _md)
@@ -644,41 +693,36 @@ else:
              'um dado que a peca nao lista sai na folha sem dono')
     elif not (_teto_g and _teto_p and int(_teto_g.group(1)) ==
               _PALNUM.get(_teto_p.group(1).lower())):
-        erro('7: o teto de dados na mao nao bate entre o gerador e a peca 26 §4.4 — '
-             'sem ele o otimizador troca `5d8 + 26` por `10d4 + 24`, que fecha melhor '
-             'na conta e e pior na mesa')
+        erro('7: o teto de dados na mao nao bate entre o gerador e a peca 26 §4.4')
     else:
-        # v0.201: esta linha carregava o VALOR (`| `Ronda` | `18` |`) e por isso
-        # sumiu no dia em que a tabela de inimigo mudou — que e' exatamente o dia
-        # em que ela precisava acender. Hoje ela casa a FORMA da linha, e o valor
-        # e' lido dela.
-        _tab44 = re.findall(r'^\| `Ronda` \| `(\d+)` \| `(\d+)` \| `?([^|`]+)`? \|$',
+        # a linha casa a FORMA da linha, e o valor e' lido dela
+        _tab44 = re.findall(r'^\| `Ameaça` \| `(\d+)` \| `(\d+)` \| `?([^|`]+)`? \|$',
                             _md, re.M)
         if not _tab44:
             erro('7: a tabela de exemplo do §4.4 mudou de forma')
         else:
             _r44, _a44, _g44 = _tab44[0]
             print(f'  [x] o golpe em dado segue a regra do §4.4, e a peca publica ela '
-                  f'(`Ronda` {_r44} por rodada em {_a44} acao -> {_g44.strip()})')
+                  f'(`Ameaça` {_r44} por rodada em {_a44} acao -> {_g44.strip()})')
 
-    if '([nome, n, cobra])' not in _mk:
-        erro('7: o make.js parou de ler quanto cada sub-categoria cobra do dados.js — '
-             'se ele voltar a guardar o numero inline, ninguem compara com a peca de '
-             'novo, e foi assim que o bloco impresso ficou cinco versoes nos 28/30/33/35')
+    if '([nome, n, frac, cobra])' not in _mk:
+        erro('7: o make.js parou de ler a sub-categoria do dados.js — se ele voltar a guardar '
+             'o numero inline, ninguem compara com a peca de novo, e foi assim que o bloco '
+             'impresso ficou cinco versoes nos 28/30/33/35')
+    elif 'X.FATOR_INTERVENCAO' not in _mk:
+        erro('7: o make.js parou de aplicar o fator da Intervencao — o golpe de quem carrega '
+             'Intervencao sairia cru, e o livro e o bloco discordariam')
     else:
-        print('  [x] o make.js le a coluna `cobra` do dados.js em vez de guardar inline')
+        print('  [x] o make.js le a sub-categoria do dados.js e aplica o fator da Intervencao')
 
-    if 'Math.ceil(x - 0.5)' not in open(
-            os.path.join(MAT, 'gerador-inimigo', 'make.js'), encoding='utf-8').read():
+    if 'Math.ceil(x - 0.5)' not in _mk:
         erro('7: o gerador do bloco parou de arredondar meio para BAIXO, e a peca 26 '
-             '§4.1 declara essa regra — vinte e duas das celulas caem em ,5, entao as duas '
-             'convencoes divergem em nove delas')
+             '§4.1 declara essa regra')
     elif 'meio para BAIXO' not in _md:
         erro('7: a peca 26 parou de declarar a regra de arredondamento, e sem ela os '
              'tres lugares que calculam a escala divergem em silencio')
     else:
         print('  [x] a peca declara o arredondamento meio para baixo, e o gerador segue')
-
 
 # ==========================================================================
 print()

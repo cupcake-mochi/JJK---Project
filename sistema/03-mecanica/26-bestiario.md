@@ -24,7 +24,7 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 ## 3. A ficha, e cada linha tem dono
 
-**Dezessete linhas. Nenhum número novo nasce aqui** — o que esta peça faz é dizer de onde cada um sai.
+**Dezoito linhas. Nenhum número novo nasce aqui** — o que esta peça faz é dizer de onde cada um sai.
 
 | linha | valor | dono |
 |---|---|---|
@@ -41,6 +41,7 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 | refino | a curva do `meio a meio` | peça 11 §3 |
 | Testes de Resistência | dois treinados de quatro | peça 7 §6 |
 | deslocamento | `9 m` | peça 3 §3 |
+| tamanho | o alcance do golpe e onde o corpo cabe — não cobra nada | o §3.3 |
 | **atributos** | os cinco, no orçamento da peça 2 | peça 2 §3 |
 | **características** | Passivas, aptidões e técnica, pelo §6 | peça 11, o mesmo catálogo do jogador |
 | **pacto** | opcional, e o teto do permanente é da Essência dele | peça 22 §3 |
@@ -70,6 +71,21 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 **É daqui que as três derivadas do §3.1 saem.** *A Defesa lê a Destreza, o acerto e a CD leem o atributo que aquele inimigo usa para atacar, e o teto de pacto do §3 lê a Essência.* **Sem os cinco escritos, as três derivadas ficam penduradas numa curva sem ficha por baixo.**
 
 > **⚠ E não existe "atributo do Caminho" aqui.** *A ficha do jogador tem cinco atributos e um Caminho que decide vida e PE; o inimigo tem cinco atributos e a categoria, que decide vida e dano.* **Os nove pontos compram cor, e não tamanho** — um chefe de Força `6` e um de Essência `6` têm a mesma vida e o mesmo dano por rodada, e jogam diferente.
+
+### 3.3 O tamanho — o alcance, e ele não cobra nada
+
+**O tamanho diz onde o corpo cabe e até onde o golpe alcança.** *Ele não tira Defesa, não mexe na vida e não pede nada em troca:* **o tamanho não cobra nada.**
+
+| tamanho | ocupa na grade | alcance | o golpe pega |
+|---|---|---|---|
+| `Minúsculo` · `Pequeno` · **`Médio`** | `1×1` *(1,5 × 1,5 m)* | `1,5 m` | só o alvo |
+| **`Grande`** | `2×2` *(3 × 3 m)* | `3 m` | o alvo, e metade em `1` vizinho |
+| **`Imenso`** | `3×3` *(4,5 × 4,5 m)* | `4,5 m` | o alvo, e metade em `1` vizinho |
+| **`Colossal`** | `4×4` *(6 × 6 m)* | `6 m` | o alvo, e metade em `1` vizinho |
+
+**O alcance é o lado da grade vezes o quadrado, e nos alvos o tamanho é um degrau só:** *`Grande`, `Imenso` e `Colossal` pegam o mesmo vizinho a metade.*
+
+> **⚠ E ele põe perto de um quinto de encontro FORA da conta, declarado de propósito.** *Um inimigo de `Grande` para cima entrega isso a mais que um `Médio` da mesma categoria, de graça.* **Medido no projeto do Bestiário em três sistemas:** *a defesa não muda com o tamanho em nenhum deles — `1,000 ×` em `4.791` criaturas do PF2e, `1,016 ×` em `331` do D&D —, os alvos não escalam, e o alcance escala.* **O campo põe o preço do tamanho na organização e no nível; a categoria daqui não sabe do tamanho, e isto está escrito para o mestre contar com a folga.**
 
 ## 4. A categoria — quantos personagens ele exige
 
@@ -431,6 +447,25 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 *Até a v0.220 esta peça dizia que "área reparte a cota, e não multiplica ela", e que a recarga `5-6` não cabia aqui.* **As duas saíram em 10/09/2026, com a trava acima.**
 
+#### A área natural — a cobertura sai do nível
+
+**Nem todo ataque em área vem de técnica.** *O sopro, o rugido, o chão que cede — são naturais, e não passam pelo Fundamento.* **A cobertura deles sai do nível, e é uma só por faixa; a forma é o jeito de gastar ela:**
+
+| nível | cobre | `Esfera` | `Cone` | `Retângulo` — qualquer `A × B` que dê a cobertura |
+|---|---|---|---|---|
+| `2`–`8` | `13` quadrados | raio `3 m` | `7,5 m` | `4×3` · `6×2` · `7×2` · `12×1` |
+| `9`–`16` | `28` quadrados | raio `4,5 m` | `10,5 m` | `6×5` · `7×4` · `9×3` · `13×2` |
+| `17`–`24` | `50` quadrados | raio `6 m` | `15 m` | `7×7` · `8×6` · `9×5` · `10×5` |
+| `25`–`30` | `113` quadrados | raio `9 m` | `22,5 m` | `11×11` · `11×10` · `12×9` |
+
+*O quadrado é o da grade do §3.3, e o pior erro de arredondamento nas doze células é `12,5%`.*
+
+> **Ela resolve como a área do Fundamento: Teste de Resistência contra a CD dele, o golpe da ação na falha e metade no sucesso.** *O `Cone` sai sempre do corpo dele, e a largura em qualquer ponto é igual à distância até ele; a `Esfera` e o `Retângulo` saem do corpo dele ou de um ponto no alcance.*
+
+**Ela é de graça, pelo mesmo motivo do tamanho:** *o preço da área já foi fechado supondo que ela pega a mesa inteira, e a trava de uma ação em área por rodada é quem segura ela.* **E a trava conta por ESQUADRÃO:** *oito capangas fazem uma ação em área por rodada juntos, e os outros sete batem normal.*
+
+> *Os raios são os quatro primeiros degraus da escada de esfera do manual, e crescem `9,00 ×` do nível 2 ao 30 — o mesmo crescimento dos dez dragões do D&D 2024, do Jovem ao Ancião. A cobertura, as formas e a resolução por Teste de Resistência saíram do projeto do Bestiário, que mediu cada uma, e a última foi martelada pelo Mizuki em 11/09/2026.*
+
 #### As duas trocas ruins, declaradas e não proibidas
 
 ***Decisão do Mizuki:*** *"não tem problema não valer a pena, às vezes o combate tem uma pessoa só."* **As duas ficam medidas e liberadas, no molde do §4.7 — a peça mede, mostra, e o mestre escolhe.**
@@ -447,7 +482,7 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 |---|---|
 | **1** | **as âncoras existem nos donos.** Cada número que a ficha usa aparece no documento que esta peça declara como dono, e a tabela do §3 é comparada com a lista do validador nos dois sentidos |
 | **2** | **as três derivadas reconstroem.** A Defesa, o acerto e a CD saem das fórmulas da peça 1 §5, com a proteção andando junto do refino — e o resultado tem de bater com os `50%` a `55%` de acerto e os `35%` de falha que a peça 1 §6 publica |
-| **3** | **a categoria é cópia com dono.** Vida e dano de cada uma reconstroem da linha do manual vezes o fator, e o fator reconstrói do número de personagens. *Desde a v0.221 o `Capanga` entra por outra porta: a vida dele é o dano do grupo dividido por quatro, para baixo* |
+| **3** | **a categoria é cópia com dono.** Vida e dano de cada uma reconstroem da linha do manual vezes o fator, e o fator reconstrói do número de personagens. *Desde a v0.221 o `Capanga` entra por outra porta: a vida dele é o dano do grupo dividido por quatro, para baixo. E a `3.3` confere o tamanho do §3.3: o alcance é o lado da grade vezes o quadrado* |
 | **4** | **as ações são declaradas**, e a categoria de fator `1,00` bate com o piso que a peça 19 §2.2 publica. *Se aquele piso mudar, esta acende* |
 | **5** | **o câmbio é medido, não guardado.** A simulação de fogo concentrado é rodada aqui dentro, com o `Capanga` derivado do dano do grupo e do dano do chefe, e o `8` publicado tem de ser o que ela devolve. *E o capanga que a tabela `Inimigos` do manual publica tem de ser esse mesmo — desde a v0.221, quando o capanga da `Alcateia` morreu* |
 | **5.2** | **a linha do manual obedece a regra que a própria seção dele escreve.** O multiplicador e a duração saem da prosa da seção `Inimigos`, por extenso — *"cerca de três vezes o dano de rodada do grupo em vida, e é isso que faz a luta contra ele durar três rodadas"* —, e cada linha tem de ter o meio da faixa naquele múltiplo **e** cair naquele número de rodadas inteiras. *Ela nasceu na v0.206, e o que ela teria pego é o que ela pegou: a linha do nível 2 publicava `115` onde a regra pede `114`, e um ponto de vida punha o chefe vivo numa quarta rodada* |
@@ -455,7 +490,7 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 | **6** | **o grau não vira número.** Nenhuma linha desta peça pode pendurar valor no grau, e o `ESTADO-ATUAL` e a peça 12 continuam dizendo que inimigo não tem grau mecânico |
 | **7** | **nenhum valor de regra guardado aqui dentro.** Todo número vem do dono, e a checagem falha se algum sobrar como constante |
 | **8** | **resistência é vida escondida.** Os pesos dos três grupos saem da peça 19 §4, os multiplicadores do §6.3 são recalculados de `1 ÷ (1 − o que se poupa)`, e a peça tem de declarar em que moeda a resistência se paga — desde a v0.221 o multiplicador do fator, e o declarado tem de ser o calculado. *Sem essa declaração ela é vida de graça, e a categoria passa a mentir sobre o encontro* |
-| **9** | **o câmbio do §6.5, nas três portas.** A `9.1` reconstrói as `35` células do orçamento de feitiço do golpe dividido pelo que um ponto vale, com o fator de quem carrega `Intervenção`, e cobra que o `seco` seja o piso da `Classe 1` do manual; a `9.2` reconstrói a conta da aptidão do custo que a peça 11 §6.5 publica, da maior Classe da peça 18 e do câmbio de PE da peça 5 §4; a `9.3` refaz os dois empates — o da cura e o dos alvos —, com a escada de ações lida da peça 19 e o tamanho do grupo lido da categoria de fator `1,00`; e a `9.4` cobra que cada porta declare a moeda. *Nenhum dos quatro números vive aqui dentro* |
+| **9** | **o câmbio do §6.5, nas três portas.** A `9.1` reconstrói as `35` células do orçamento de feitiço do golpe dividido pelo que um ponto vale, com o fator de quem carrega `Intervenção`, e cobra que o `seco` seja o piso da `Classe 1` do manual; a `9.2` reconstrói a conta da aptidão do custo que a peça 11 §6.5 publica, da maior Classe da peça 18 e do câmbio de PE da peça 5 §4; a `9.3` refaz os dois empates — o da cura e o dos alvos —, com a escada de ações lida da peça 19 e o tamanho do grupo lido da categoria de fator `1,00`; e a `9.4` cobra que cada porta declare a moeda. *Nenhum dos quatro números vive aqui dentro.* **Desde a v0.221, a `9.5` confere as seis prontas do gerador contra a escada, e a `9.6` a área natural contra a escada de esfera do manual** |
 
 ### 7.1 As quarenta e duas perturbações, em cópia isolada
 
@@ -580,7 +615,7 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
   >
   > *A régua está escrita; o que falta é a entrada do catálogo dizendo em que moeda ela se paga — e isso é o §6.5.*
 
-- ~~**As maldições prontas.**~~ ***FECHADAS na v0.214, dentro do `bloco-de-inimigo.docx`.*** **Seis, do nível 2 ao 6, com a ficção no folclore japonês** — *escolha do Mizuki.* *O piso saiu de conta: a faixa cruza duas linhas da tabela com as quatro categorias, e a `Calamidade` exige seis feiticeiros que um grupo dessa faixa não tem — sobram seis células.* **As escolhas moram no `dados.js` e os números são computados**, do mesmo jeito que as tabelas da folha. *A v0.213 tentou publicá-las num `.md` à parte e quatro dos seis golpes saíram errados, por um arredondamento que o gerador faz e a cópia não fazia.*
+- ~~**As maldições prontas.**~~ ***FECHADAS na v0.214, e remapeadas na v0.221.*** **Seis, do nível 2 ao 12, na escada viva:** *`Betobeto`, `Kamaitachi` — duas na mesa —, `Hitotsume` e `Kitsune` são `Ameaça`; `Tsuchigumo` e `Oni` são `Desastre`, com três `Intervenções` cada.* **A coluna do `Capanga` ficou vazia, e é o preço declarado da decisão de 10/09:** *a `Kitsune` subiu de faixa para poder conjurar, e a grade de duas faixas por três categorias deixou de fechar. Fichas de esquadrão são ficção do Mizuki, e ficam para quando ele quiser.* **As escolhas moram no `dados.js` e os números são computados**, e o bloco sai no molde de bloco do 5e, igual ao do livro do Bestiário. *A v0.213 tentou publicá-las num `.md` à parte e quatro dos seis golpes saíram errados, por um arredondamento que o gerador faz e a cópia não fazia.*
 - ~~**A Expansão de Domínio de inimigo.**~~ ***FECHADA na v0.204, e refeita na v0.221:*** **ela multiplica o fator por `1,92`**, porque o Acerto garantido multiplica a saída efetiva por `1,92 ×`. *A primeira forma cobrava em degrau de categoria e só cabia em duas das quatro categorias da escada de então; a moeda passou a ser o fator, e ela cabe em qualquer uma.*
 - **O inimigo com Trilha.** *Fica de fora por decisão, e o motivo está no §6* — mas um antagonista recorrente que sobe junto com o grupo é caso de mesa que vai aparecer.
 - ~~**A ficha impressa.**~~ ***FECHADA na v0.199, e três números dela envelheceram até a v0.206:*** *a coluna `cobra do grupo` da sub-categoria ficou nos `28/30/33/35` da v0.199 enquanto esta peça publicava `68/58/56/62` desde a v0.201, a nota ao lado dizia que repartir o encontro o encarece — a v0.201 mediu o contrário —, e a razão de quatro `Ronda` estava em `0,62 ×` contra os `0,75 ×` a `0,77 ×` do §4.3.* **Os três moravam inline no montador do `gerador-inimigo/`, que é o único lugar do subsistema que nenhuma checagem lia** — *o `dados.js` tem validador desde a v0.199 e o montador não tinha.* *Hoje a porcentagem e a razão vivem no `dados.js` e o bloco `7` do `conferir-ficha.py` compara as duas com esta peça, com uma guarda que acende se o montador voltar a guardar inline.* **`05-material/bloco-de-inimigo.docx`**, quatro páginas — as tabelas que o mestre copia, o bloco em branco com as dezessete linhas, e um exemplo preenchido. *O gerador é o `gerador-inimigo/`, e o bloco `7` do `conferir-ficha.py` compara o `dados.js` dele com esta peça.*

@@ -117,6 +117,7 @@ ANCORAS = {
     'caracteristicas': (P11, r'catálogo de aptidões'),
     'pacto': (P22, r'metade da Essência'),
     'resistencia': (P19, r'\| \*\*Físicos\*\* \|'),
+    'tamanho': (PECA, r'o tamanho não cobra nada'),
 }
 MAPA_ANCORA = {
     'nível': ('nivel',), 'categoria': ('categoria',), 'vida': ('vida',),
@@ -127,6 +128,7 @@ MAPA_ANCORA = {
     'atributos': ('atributos',), 'características': ('caracteristicas',),
     'pacto': ('pacto',),
     'resistência, vulnerabilidade e imunidade': ('resistencia',),
+    'tamanho': ('tamanho',),
 }
 
 _achadas = 0
@@ -380,6 +382,43 @@ else:
         print(f'  [x] as {len(_FICHAS)} categorias do §4.1 reconstroem da tabela do '
               'manual vezes o fator, e o Capanga do dano do grupo')
         print('  [x] os fatores reconstroem de personagens/4, onde ha personagens')
+
+
+# 3.3 (v0.221): o tamanho. O alcance e' o lado da grade vezes o quadrado, e do
+# `Grande` para cima o golpe pega metade num vizinho. O quadrado sai da propria
+# tabela — a coluna da grade escreve os metros —, e nao daqui.
+_QUAD = None
+_T33 = tabela(TXT, '| tamanho | ocupa na grade | alcance | o golpe pega |')
+if len(_T33) != 4:
+    erro(f'3.3: achei {len(_T33)} das 4 linhas da tabela de tamanho do §3.3 — ela mudou de forma '
+         'e esta checagem parou de conferir')
+else:
+    _mau33 = 0
+    for _l in _T33:
+        _mg = re.match(r'(\d+)×(\d+)\s*\(([\d,]+) × ([\d,]+) m\)', _l[1])
+        _ma = re.match(r'([\d,]+) m$', _l[2].strip())
+        if not (_mg and _ma):
+            erro(f'3.3: nao li a linha "{_l[0]}" da tabela de tamanho')
+            _mau33 += 1
+            continue
+        _lado = int(_mg.group(1))
+        _q = float(_mg.group(3).replace(',', '.')) / _lado
+        _QUAD = _QUAD or _q
+        if abs(_q - _QUAD) > 1e-9 or abs(float(_ma.group(1).replace(',', '.')) - _lado * _QUAD) > 1e-9:
+            erro(f'3.3: "{_l[0]}" ocupa {_lado}×{_lado} e publica alcance {_l[2]} — o alcance e o '
+                 'lado da grade vezes o quadrado')
+            _mau33 += 1
+        if ('metade' in _l[3]) != (_lado >= 2):
+            erro(f'3.3: "{_l[0]}" ocupa {_lado}×{_lado} e a coluna dos alvos diz "{_l[3]}" — a '
+                 'metade no vizinho e de quem passa de um quadrado')
+            _mau33 += 1
+    if 'o tamanho não cobra nada' not in TXT:
+        erro('3.3: a peca parou de declarar que o tamanho nao cobra nada — sem isso ele vira '
+             'preco escondido')
+        _mau33 += 1
+    if not _mau33:
+        print('  [x] o alcance de cada tamanho e o lado da grade vezes o quadrado, e a metade no '
+              'vizinho e de quem passa de um quadrado')
 
 
 # --------------------------------------------------------------------------
@@ -1128,62 +1167,121 @@ bloco('9.5 AS MALDICOES PRONTAS — as seis do gerador de inimigo')
 
 _DJ = os.path.join(AQUI, '..', '05-material', 'gerador-inimigo', 'dados.js')
 _BL = os.path.join(AQUI, '..', '05-material', 'bloco-de-inimigo.docx')
+# v0.221: a derivacao do "seis" morreu com a escada — a Kitsune subiu de faixa
+# e a coluna do Capanga ficou vazia, e isso e o preco declarado da decisao de
+# 10/09. O que se confere agora e o que cada pronta promete: categoria viva que
+# caiba na mesa padrao, faixa que exista, Acoes Multiplas so em quem age mais de
+# uma vez, Intervencoes so em quem a categoria da — e nenhum numero guardado.
 if not os.path.isfile(_DJ):
     erro('9.5: nao achei o `dados.js` do gerador-inimigo')
 else:
     _dj = open(_DJ, encoding='utf-8').read()
-    _pb = _dj[_dj.index('const PRONTAS'):_dj.index('];', _dj.index('const PRONTAS'))] \
-        if 'const PRONTAS' in _dj else ''
-    _pr = re.findall(r"nome:\s*'([^']+)'[^}]*?faixa:\s*'([^']+)'[^}]*?categoria:\s*'([^']+)'",
-                     _pb, re.S)
-    _fx = re.findall(r"\['(\d+ a \d+)',", _dj)
-    # ANCORADO no bloco CATEGORIAS: sem a ancora a regex pegava SUBCATEGORIAS
-    # junto — `sozinho`, `bando` — e a checagem cobrava dez celulas onde ha seis.
-    _cb = _dj[_dj.index('const CATEGORIAS'):_dj.index('];', _dj.index('const CATEGORIAS'))] \
-        if 'const CATEGORIAS' in _dj else ''
-    _ct = re.findall(r"\['(\w+)',\s*(\d+),\s*([\d.]+)\]", _cb)
+    _i0 = _dj.find('const PRONTAS')
+    _pb = _dj[_i0:_dj.find('\n];', _i0)] if _i0 >= 0 else ''
+    _itens = re.split(r"\n\s*\{\s*nome:\s*'", _pb)[1:]
+    _cats95 = {c[0]: c for c in _CAT}
+    _fx95 = set(re.findall(r"\['(\d+ a \d+)',", _dj))
+    _um95 = [c for c in _CAT if c[1] is not None and abs(c[2] - 1.0) < 1e-9]
+    _MESA = _um95[0][1] if _um95 else None
+    _mn95 = re.search(r'carrega (\w+) `Intervenções` por luta', TXT)
+    _NINT = _NUM_PT.get(_mn95.group(1).lower()) if _mn95 else None
     _ruins = []
-    if not _pr:
-        _ruins.append('nao achei as PRONTAS no `dados.js` — a decisao da v0.161 pede '
-                      'maquina MAIS prontas, e sem elas so existe a maquina')
-    else:
-        # 1. o piso: seis celulas uteis, e a conta que produz o seis
-        _uteis = [(f, c[0]) for f in _fx[:2] for c in _ct if c[0] != 'Calamidade']
-        if len(_pr) != len(_uteis):
-            _ruins.append(f'sao {len(_pr)} pronta(s) e a faixa do nivel 2 ao 6 tem '
-                          f'{len(_uteis)} celulas uteis — duas linhas de FAIXAS vezes as '
-                          'categorias, menos a Calamidade, que exige seis feiticeiros')
-        _vistas = {(f, c) for _n, f, c in _pr}
-        _falta = set(_uteis) - _vistas
-        _sobra = _vistas - set(_uteis)
-        if _falta:
-            _ruins.append(f'celula(s) da faixa sem pronta: {sorted(_falta)}')
-        if _sobra:
-            _ruins.append(f'pronta(s) fora das duas linhas da faixa, ou Calamidade: '
-                          f'{sorted(_sobra)}')
-        if len(_vistas) != len(_pr):
-            _ruins.append('duas prontas na mesma celula — com seis exemplos e seis celulas, '
-                          'repetir e desperdicar exemplo')
-        # 2. a guarda que importa: PRONTAS nao pode guardar NUMERO de ficha.
-        # Vida, dano, acoes, golpe e capanga sao COMPUTADOS pelo make.js das
-        # mesmas FAIXAS e CATEGORIAS que as tabelas da folha. Escrever qualquer
-        # um deles aqui cria a segunda fonte — e foi exatamente isso que a v0.213
-        # fez num .md a parte, com QUATRO dos seis golpes errados por um
-        # arredondamento que o gerador faz e a copia nao fazia.
-        _proibidos = [k for k in ('vida', 'dano', 'acoes', 'golpe', 'capanga', 'defesa')
-                      if re.search(r'\b' + k + r'\s*:', _pb)]
-        if _proibidos:
-            _ruins.append(f'as PRONTAS guardam {_proibidos} — esses numeros sao computados '
-                          'de FAIXAS e CATEGORIAS pelo make.js, e escrever eles aqui e a '
-                          'segunda fonte que a v0.213 ja pagou uma vez')
+    if not _itens:
+        _ruins.append('nao achei as PRONTAS no `dados.js` — a decisao da v0.161 pede maquina MAIS '
+                      'prontas, e sem elas so existe a maquina')
+    if _MESA is None or _NINT is None:
+        _ruins.append('nao li na peca a mesa padrao (§4) ou quantas Intervencoes por luta (§6.5)')
+    for _it in _itens:
+        _nome = _it.split("'")[0]
+        _fa = re.search(r"faixa:\s*'([^']+)'", _it)
+        _ca = re.search(r"categoria:\s*'([^']+)'", _it)
+        if not (_fa and _ca):
+            _ruins.append(f'`{_nome}` sem faixa ou categoria')
+            continue
+        _c = _cats95.get(_ca.group(1))
+        if _c is None:
+            _ruins.append(f'`{_nome}` esta na categoria `{_ca.group(1)}`, que nao existe na escada do §4')
+            continue
+        if _fa.group(1) not in _fx95:
+            _ruins.append(f'`{_nome}` esta na faixa `{_fa.group(1)}`, que nao existe nas FAIXAS')
+        if _MESA and _c[1] is not None and _c[1] > _MESA:
+            _ruins.append(f'`{_nome}` e `{_c[0]}`, que exige {_c[1]} personagens — uma pronta tem de '
+                          f'caber na mesa padrao de {_MESA}')
+        _mm = re.search(r'acoes_multiplas:\s*(null|")', _it)
+        if not _mm or ((_mm.group(1) == 'null') != (_c[3] == 1)):
+            _ruins.append(f'`{_nome}` age {_c[3]} vez(es), e a Acoes Multiplas dela nao bate — ela so '
+                          'existe em quem age mais de uma vez')
+        _mi = re.search(r'intervencoes:\s*\[(.*?)\]\s*[,}]', _it, re.S)
+        _niv = len(re.findall(r'"nome"\s*:', _mi.group(1))) if _mi else -1
+        _esp = (_NINT or 0) if _INT.get(_c[0]) else 0
+        if _niv != _esp:
+            _ruins.append(f'`{_nome}` carrega {_niv} Intervencao(oes), e a categoria `{_c[0]}` pede {_esp}')
+    # a guarda que importa: PRONTAS nao pode guardar NUMERO de ficha. Vida, dano,
+    # acoes, golpe e capanga sao COMPUTADOS pelo make.js das FAIXAS e CATEGORIAS —
+    # escrever qualquer um deles aqui e a segunda fonte que a v0.213 ja pagou.
+    _proibidos = [k for k in ('vida', 'dano', 'acoes', 'golpe', 'capanga', 'defesa')
+                  if re.search(r'\b' + k + r'\s*:', _pb)]
+    if _proibidos:
+        _ruins.append(f'as PRONTAS guardam {_proibidos} — esses numeros sao computados de FAIXAS e '
+                      'CATEGORIAS pelo make.js, e escrever eles aqui e a segunda fonte')
     if not os.path.isfile(_BL):
-        _ruins.append('nao achei o `bloco-de-inimigo.docx` — as prontas so chegam ao mestre '
-                      'por ele')
-    for _m in _ruins[:5]:
+        _ruins.append('nao achei o `bloco-de-inimigo.docx` — as prontas so chegam ao mestre por ele')
+    for _m in _ruins[:6]:
         erro('9.5: ' + _m)
     if not _ruins:
-        print(f'  [x] as {len(_pr)} prontas cobrem as celulas uteis da faixa, nenhuma e '
-              'Calamidade, e nenhuma guarda numero de ficha — todos saem da maquina.')
+        print(f'  [x] as {len(_itens)} prontas estao em categorias vivas que cabem na mesa padrao, com '
+              'Acoes Multiplas so em quem age mais de uma vez, Intervencoes so em quem a categoria da, '
+              'e nenhuma guarda numero de ficha')
+
+
+# 9.6 (v0.221): a area natural do inimigo — a cobertura sai do nivel, e cada forma
+# gasta a mesma cobertura. Os raios tem de ser os primeiros degraus da escada de
+# esfera do MANUAL (o partC.js e o dono dela), a cobertura tem de ser o circulo
+# contado em quadrados, e o cone e cada retangulo tem de caber na tolerancia que
+# a propria peca declara. As faixas cobrem do nivel 2 ao 30 sem buraco.
+print()
+bloco('9.6 A AREA NATURAL — a cobertura sai do nivel, e a forma e o jeito de gastar ela')
+_T96 = tabela(TXT, '| nível | cobre | `Esfera` | `Cone` |')
+_esc96 = re.search(r"\['Esfera \(raio\)', '([^']+)'\]",
+                   open(os.path.join(RAIZ, 'manual', 'gerador', 'partC.js'), encoding='utf-8').read())
+_mtol = re.search(r'o pior erro de arredondamento nas doze células é `([\d,]+)%`', TXT)
+if len(_T96) != 4 or not _esc96 or not _mtol or not _QUAD:
+    erro('9.6: nao li a tabela da area natural do §6.5, a escada de esfera do manual, a tolerancia '
+         'declarada ou o quadrado do §3.3 — esta checagem parou de conferir')
+else:
+    _tol = float(_mtol.group(1).replace(',', '.')) / 100
+    _degraus = [float(x.replace(',', '.')) for x in re.findall(r'([\d,]+) m', _esc96.group(1))]
+    _mau96, _raios, _fim = 0, [], 1
+    for _l in _T96:
+        _nv = [int(x) for x in re.findall(r'\d+', _l[0])]
+        _cob = int(re.match(r'(\d+)', _l[1]).group(1))
+        _r = float(re.search(r'([\d,]+) m', _l[2]).group(1).replace(',', '.'))
+        _cone = float(re.search(r'([\d,]+) m', _l[3]).group(1).replace(',', '.')) / _QUAD
+        _rets = [(int(a), int(b)) for a, b in re.findall(r'(\d+)×(\d+)', _l[4])]
+        _raios.append(_r)
+        if _nv[0] != _fim + 1:
+            erro(f'9.6: a faixa {_l[0]} nao comeca onde a anterior terminou')
+            _mau96 += 1
+        _fim = _nv[-1]
+        if _cob != round(math.pi * (_r / _QUAD) ** 2):
+            erro(f'9.6: raio {_r} m cobre {round(math.pi * (_r / _QUAD) ** 2)} quadrados, e a tabela '
+                 f'publica {_cob}')
+            _mau96 += 1
+        for _rot, _area in [('o cone', _cone ** 2 / 2)] + [(f'o retangulo {a}×{b}', a * b) for a, b in _rets]:
+            if abs(_area - _cob) / _cob > _tol + 1e-9:
+                erro(f'9.6: na faixa {_l[0]}, {_rot} cobre {_area:g} contra {_cob} — passa dos '
+                     f'{_tol:.1%} que a peca declara')
+                _mau96 += 1
+    if _raios != _degraus[:len(_raios)]:
+        erro(f'9.6: os raios da area natural sao {_raios} e a escada de esfera do manual comeca em '
+             f'{_degraus[:len(_raios)]}')
+        _mau96 += 1
+    if _fim != max(_MANUAL) if _MANUAL else False:
+        erro(f'9.6: a area natural para no nivel {_fim}, e a tabela de inimigo vai ate o {max(_MANUAL)}')
+        _mau96 += 1
+    if not _mau96:
+        print(f'  [x] os {len(_raios)} raios sao os primeiros degraus da escada de esfera do manual, a '
+              f'cobertura e o circulo em quadrados, e o cone e os retangulos cabem nos {_tol:.1%}')
 
 
 if ERROS:
