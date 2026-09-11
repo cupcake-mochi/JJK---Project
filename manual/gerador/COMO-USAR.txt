@@ -1,4 +1,4 @@
-GERADOR DO MANUAL — Fundamento v7.25
+GERADOR DO MANUAL — Fundamento v7.26
 
 Recria o .docx do zero. Precisa de Node.js.
 
@@ -32,6 +32,21 @@ ORDEM DAS SEÇÕES (v7)
   4 Restrições → 5 Fora de combate → 6 Liberação Máxima → 7 Técnica Máxima →
   8 Regras de ouro → 9 Progressão → 10 Feitiços prontos → 11 Para o mestre →
   Apêndice
+
+O QUE MUDOU NA v7.26
+
+  A coluna de capanga da tabela Inimigos, e o paragrafo que ensina ela. O capanga
+  deixou de ser o da Alcateia — quatro corpos, a vida do chefe dividida por quatro
+  e o dano dividido por tres — e passou a ser o da escada viva do Bestiario: oito
+  corpos num pool, cada um com o dano do grupo por rodada dividido por quatro de
+  vida, arredondado para baixo, e um quarto do dano do chefe. Os oito cobram o
+  mesmo que o chefe sozinho, e no maximo tres batem no mesmo alvo por rodada. A
+  peca 26 §5 e a dona, e a checagem 5 do conferir-bestiario compara as colunas.
+
+  E quatro textos que entraram antes, na mesma leva, sem numero novo: a largura do
+  Cone, o que Maior faz quando a Linha chega ao topo da escada, as dimensoes do
+  Anteparo, e a Sobrecarga, que trocou "o dobro de energia" por "ele nao usa
+  Reacao" e ficou Leve nos dois donos.
 
 O QUE MUDOU NA v7.25
 
