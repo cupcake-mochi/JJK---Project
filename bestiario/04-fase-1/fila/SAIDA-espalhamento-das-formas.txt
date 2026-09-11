@@ -1,0 +1,83 @@
+
+================================================================================================
+0 · AS ÂNCORAS — a escada, as bases por Classe, e o teto de compra
+================================================================================================
+  escada `Cone e Linha` : 4.5 → 9 → 18 → 30 → 60 m
+  escada `Esfera (raio)`: 3 → 4.5 → 6 → 9 → 15 m
+
+  Classe 0       Esfera raio    3 m   Cone    3 m   Linha 9 × 1.5 m
+  Classes 1–5    Esfera raio    3 m   Cone  4.5 m   Linha 18 × 1.5 m
+  Classes 6–7    Esfera raio  4.5 m   Cone    9 m   Linha 30 × 1.5 m
+
+  `Maior` sobe 1 degrau, pode comprar 2× ⟹ teto +2
+  `Muito Maior` sobe 3 degraus de uma vez ⟹ teto +3
+  ⟹ o teto de subida é +3 degraus
+
+  peça 19 §3.6 · o filtro de dominância do projeto reprova a partir de 3.00×
+
+================================================================================================
+1 · ⚠ A COMPARAÇÃO CERTA — mesma Classe, mesma compra
+================================================================================================
+  ⚠ O que eu tinha feito ERRADO: comparei `Cone` e `Linha` no mesmo ÍNDICE de degrau.
+     Mas o Cone começa no degrau 1 (4.5 m) e a Linha no degrau 3 (18 m).
+     Uma compra de `Maior` NÃO põe os dois no mesmo lugar.
+
+  Classe 0
+    compra                          Esfera                  Cone                     Linha
+    base                        3 m = 13 q           4.5 m = 4 q             9×1.5 m = 6 q
+    +1 degrau                 4.5 m = 28 q            9 m = 18 q           18×1.5 m = 12 q
+    +2 degraus                  6 m = 50 q           18 m = 72 q           30×1.5 m = 20 q
+    +3 degraus                 9 m = 113 q          30 m = 200 q           60×1.5 m = 40 q
+      espalhamento na base          2.79×   (filtro 3.00×)  ✅ passa
+      espalhamento no teto (+3)     5.00×   (filtro 3.00×)  ❌ REPROVA
+
+  Classes 1–5
+    compra                          Esfera                  Cone                     Linha
+    base                        3 m = 13 q           4.5 m = 4 q           18×1.5 m = 12 q
+    +1 degrau                 4.5 m = 28 q            9 m = 18 q           30×1.5 m = 20 q
+    +2 degraus                  6 m = 50 q           18 m = 72 q           60×1.5 m = 40 q
+    +3 degraus                 9 m = 113 q          30 m = 200 q           60×1.5 m = 40 q
+      espalhamento na base          2.79×   (filtro 3.00×)  ✅ passa
+      espalhamento no teto (+3)     5.00×   (filtro 3.00×)  ❌ REPROVA
+
+  Classes 6–7
+    compra                          Esfera                  Cone                     Linha
+    base                      4.5 m = 28 q            9 m = 18 q           30×1.5 m = 20 q
+    +1 degrau                   6 m = 50 q           18 m = 72 q           60×1.5 m = 40 q
+    +2 degraus                 9 m = 113 q          30 m = 200 q           60×1.5 m = 40 q
+    +3 degraus                15 m = 314 q          60 m = 800 q           60×1.5 m = 40 q
+      espalhamento na base          1.57×   (filtro 3.00×)  ✅ passa
+      espalhamento no teto (+3)    20.00×   (filtro 3.00×)  ❌ REPROVA
+
+  ### ⟹ E ELE ESTÁ CERTO sobre o alcance — a Linha vai MAIS LONGE:
+    +0 degrau: o `Cone` alcança 4.5 m, a `Linha` alcança 18 m  — a Linha vai 4.00× mais longe
+    +3 degrau: o `Cone` alcança 30 m, a `Linha` alcança 60 m  — a Linha vai 2.00× mais longe
+
+================================================================================================
+2 · O CAMPO — quanto ELE espalha entre as formas, pelo mesmo preço?
+================================================================================================
+
+  D&D 2024 — cobertura mediana por forma, em quadrados de 1,5 m
+    cone          55 usos   mediana     19 q   (de 5 a 465)
+    emanation     34 usos   mediana     21 q   (de 3 a 32429)
+    sphere         9 usos   mediana     52 q   (de 3 a 117)
+    ⟹ espalhamento entre as formas: 2.79×   (sphere 52 q contra cone 19 q)
+
+  D&D 2014 — cobertura mediana por forma, em quadrados de 1,5 m
+    cone          50 usos   mediana     19 q   (de 1 a 167)
+    line          20 usos   mediana     12 q   (de 3 a 24)
+    ⟹ espalhamento entre as formas: 1.52×   (cone 19 q contra line 12 q)
+
+  Draw Steel — cobertura mediana por forma, em quadrados
+    burst        776 usos   mediana    121 q   (de 9 a 1681)
+    cube         375 usos   mediana      9 q   (de 1 a 100)
+    line         184 usos   mediana     10 q   (de 2 a 80)
+    ⟹ espalhamento entre as formas: 13.44×   (burst contra cube)
+
+  ### ⟹ A PERGUNTA QUE ISSO RESPONDE:
+      o campo TAMBEM deixa as formas cobrirem areas diferentes pelo mesmo preco?
+      Se sim, o nosso espalhamento so e defeito se for MAIOR que o deles.
+
+================================================================================================
+FIM
+================================================================================================

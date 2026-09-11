@@ -1,0 +1,40 @@
+fator 0.923 · 1 ponto = 4.5 de dano · piso 3 pontos · dados [4, 6, 8, 10, 12], seco abaixo de 5, teto 8
+ nv categoria   publicado  rota A  rota B  golpe cru   golpe impresso media imp.   A x 4,5  B x 4,5
+  2 Capanga          seco    seco    seco  4           4                    4.00         —        —
+  2 Ameaça           seco    seco    seco  4           4                    4.00         —        —
+  2 Desastre         seco    seco    seco  1d4 + 3     1d4 + 3              5.50         —        —
+  2 Catástrofe       seco    seco    seco  1d4 + 3     5                    5.00         —        —
+  2 Calamidade       seco    seco    seco  1d4 + 3     1d4 + 3              5.50         —        —
+  5 Capanga          seco    seco    seco  2d4 + 5     2d4 + 5             10.00         —        —
+  5 Ameaça           seco    seco    seco  2d4 + 5     2d4 + 5             10.00         —        —
+  5 Desastre         seco    seco    seco  2d6 + 6     2d4 + 7             12.00         —        —
+  5 Catástrofe       seco    seco    seco  1d10 + 6    1d10 + 5            10.50         —        —
+  5 Calamidade       seco    seco    seco  2d6 + 6     2d4 + 7             12.00         —        —
+ 10 Capanga           4,2     4,2     4,2  2d8 + 10    2d8 + 10            19.00     18.90    18.90
+ 10 Ameaça            4,2     4,2     4,2  2d8 + 10    2d8 + 10            19.00     18.90    18.90
+ 10 Desastre          5,1     5,1     5,1  2d12 + 12   2d10 + 12           23.00     22.95    22.95
+ 10 Catástrofe        4,5     4,5     4,6  2d10 + 11   3d6 + 10            20.50     20.25    20.70  <-- as rotas divergem
+ 10 Calamidade        5,1     5,1     5,1  2d12 + 12   2d10 + 12           23.00     22.95    22.95
+ 15 Capanga           6,2     6,2     6,2  4d6 + 14    4d6 + 14            28.00     27.90    27.90
+ 15 Ameaça            6,2     6,2     6,2  4d6 + 14    4d6 + 14            28.00     27.90    27.90
+ 15 Desastre          7,6     7,6     7,6  4d8 + 19    4d8 + 16            34.00     34.20    34.20
+ 15 Catástrofe        6,9     6,9     6,9  3d10 + 17   6d4 + 16            31.00     31.05    31.05
+ 15 Calamidade        7,6     7,6     7,7  4d8 + 19    5d6 + 17            34.50     34.20    34.65  <-- as rotas divergem
+ 20 Capanga           8,2     8,2     8,2  4d8 + 19    4d8 + 19            37.00     36.90    36.90
+ 20 Ameaça            8,2     8,2     8,2  4d8 + 19    4d8 + 19            37.00     36.90    36.90
+ 20 Desastre         10,1    10,1    10,1  4d12 + 23   5d8 + 23            45.50     45.45    45.45
+ 20 Catástrofe        9,0     9,0     9,1  4d10 + 22   8d4 + 21            41.00     40.50    40.95  <-- as rotas divergem
+ 20 Calamidade       10,1    10,1    10,1  4d12 + 23   5d8 + 23            45.50     45.45    45.45
+ 25 Capanga          10,2    10,2    10,2  4d10 + 24   4d10 + 24           46.00     45.90    45.90
+ 25 Ameaça           10,2    10,2    10,2  4d10 + 24   4d10 + 24           46.00     45.90    45.90
+ 25 Desastre         12,5    12,5    12,4  6d10 + 28   8d6 + 28            56.00     56.25    55.80  <-- as rotas divergem
+ 25 Catástrofe       11,2    11,2    11,3  5d10 + 27   4d12 + 25           51.00     50.40    50.85  <-- as rotas divergem
+ 25 Calamidade       12,5    12,5    12,4  6d10 + 28   8d6 + 28            56.00     56.25    55.80  <-- as rotas divergem
+ 30 Capanga          12,2    12,2    12,2  6d8 + 28    6d8 + 28            55.00     54.90    54.90
+ 30 Ameaça           12,2    12,2    12,2  6d8 + 28    6d8 + 28            55.00     54.90    54.90
+ 30 Desastre         15,0    15,0    14,9  8d8 + 37    6d10 + 34           67.00     67.50    67.05  <-- as rotas divergem
+ 30 Catástrofe       13,5    13,5    13,4  6d10 + 33   7d8 + 29            60.50     60.75    60.30  <-- as rotas divergem
+ 30 Calamidade       15,0    15,0    14,9  8d8 + 37    6d10 + 34           67.00     67.50    67.05  <-- as rotas divergem
+
+celulas em que o publicado difere: rota A 0 de 35 · rota B 9 de 35
+volta (pontos x 4,5 contra a media do golpe impresso): rota A erro max 0.60 medio 0.194 · rota B erro max 0.20 medio 0.108

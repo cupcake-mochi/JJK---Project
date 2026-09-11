@@ -1,0 +1,80 @@
+
+============================================================================================
+1. A REGRA CENTRAL — `golpe ÷ 4,5` ainda fecha?
+============================================================================================
+  [x] o §6.5 divide por 4.5 e a peça 19 diz que o ponto vale 4.5. Os dois batem.
+  >> A REGRA continua válida. O que envelheceu foram os NÚMEROS que ela produz.
+
+============================================================================================
+2. A TABELA de pontos por ação — na escada VELHA
+============================================================================================
+  o §6.5 publica as colunas: Ronda · Dupla · Alcateia · Calamidade
+  a escada de hoje é:        Ameaça · Desastre · Catástrofe · Calamidade · Capanga
+  ⚠⚠ C2 — 3 das 4 colunas do §6.5 são categorias MORTAS: Ronda, Dupla, Alcateia
+       >> JÁ CONSERTADO em `fila/A-TABELA-pontos-por-acao.md` (item 3 da fila),
+          mas o conserto vive em `Bestiario/`, e o §6.5 no repositório não sabe.
+
+============================================================================================
+3. ⚠ O ROTULO `Recarga (5-6)` — o bloco adotou o que o §6.5 REPROVOU
+============================================================================================
+  o §6.5 diz:      "E uma NÃO CABE... a recarga 5-6 dispara 1,67 vezes numa luta de três
+                    rodadas, e a cota não paga a fração que sobra. O relógio que cabe
+                    aqui é 1× por luta."
+  o bloco diz:     `Recarga (5-6)` é um dos QUATRO rótulos de frequência oficiais.
+
+  ⚠⚠ C3 — CONTRADIÇÃO DIRETA. O §6.5 mediu que a `Recarga 5-6` não cabe na cota, e o
+       `RASCUNHO-4`/`5` adotou ela como rótulo padrão, com o argumento de que
+       `67` de `83` rótulos do SRD 5.2.1 são `5-6`.
+
+       >> As duas têm razão em coisas diferentes: o §6.5 fala de ORÇAMENTO
+          (a fração de 1,67 usos não fecha na cota) e o bloco fala de VOCABULÁRIO
+          (é o rótulo que o campo usa). **Mas as duas não podem valer juntas sem
+          alguém dizer como a fração se paga.**
+
+============================================================================================
+4. ⚠ "um DEGRAU DE CATEGORIA" — na escada nova isso deixou de ter tamanho único
+============================================================================================
+  O §6.5 diz que "o que dá vida efetiva" paga "um degrau de categoria", pelo §6.3.
+  Na escada velha os degraus eram parecidos. Na nova, não são:
+
+  subir de                     fator de vida   quanto é o degrau
+  --------------------------------------------------------------
+  Capanga → Ameaça          0.25 → 0.25               1.00×
+  Ameaça → Desastre         0.25 → 1.00               4.00×
+  Desastre → Catástrofe     1.00 → 1.50               1.50×
+  Catástrofe → Calamidade   1.50 → 2.00               1.33×
+
+  ⚠⚠ C4 — o maior degrau é 4.00× e o menor é 1.00× — uma razão de 4.0 entre eles
+       >> "custa um degrau de categoria" hoje quer dizer coisas de tamanho MUITO
+          diferente dependendo de onde o inimigo está. Numa ponta é 4×, na outra 1,33×.
+       >> Isso não estava errado na escada velha; ficou errado quando a escada mudou.
+
+============================================================================================
+5. AS DUAS TROCAS RUINS — os números delas se moveram com o `0,923`
+============================================================================================
+  A CURA — o §6.5 publica: "o inimigo que se cura empata em 315".
+    a conta: ele abre mão de 219 de dano; H de cura alonga a luta em H ÷ 315
+    rodadas, e cada rodada entrega 219. Então H de cura vale 0.70 × H de dano.
+  [x] o empate publicado (315) É a saída do grupo (315). Fecha.
+
+  ⚠ MAS com o fator da `Intervenção`, o dano do `Desastre` vira 202, e a razão
+    da cura passa de 0.70× para 0.64×.
+  ⚠⚠ C5 — a frase publicada "curar vale 0,70 × H de dano" vira 0.64 × H — mudou 8%
+       >> Não muda a CONCLUSÃO (curar continua troca ruim). Muda o número impresso.
+
+============================================================================================
+O VEREDITO
+============================================================================================
+  A REGRA do §6.5 sobrevive inteira: `golpe ÷ 4,5`, e o Fundamento faz o resto.
+  O que envelheceu foram os NÚMEROS e DUAS FRASES.
+
+  acenderam 4: C2, C3, C4, C5
+
+   C2  a tabela de pontos — JÁ CONSERTADA aqui, falta trocar no repositório
+   C3  ⚠ CONTRADIÇÃO: `Recarga (5-6)` — o §6.5 reprova, o bloco adota
+   C4  ⚠ "um degrau de categoria" perdeu tamanho único na escada nova
+   C5  o número da cura mudou com o `0,923` (a conclusão não)
+
+  E fica de fora daqui, porque já estava mapeado:
+   ·  a frase "as ações fora do turno... NUNCA POR CIMA" contradiz a decisão de 10/09
+      — é o item 4 da fila.

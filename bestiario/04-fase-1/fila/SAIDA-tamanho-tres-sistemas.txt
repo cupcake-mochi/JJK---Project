@@ -1,0 +1,91 @@
+
+==================================================================================================
+AS AMOSTRAS
+==================================================================================================
+  Draw Steel        416 statblocks   (sem estatística de defesa — power roll)
+  D&D 2024 SRD      331 monstros     size · CR · AC · HP · 6 atributos
+  Pathfinder 2e    4791 criaturas    size · nível · AC · HP · 6 atributos
+
+==================================================================================================
+1. O TAMANHO MEXE NA DEFESA? — a pergunta que o nosso `tamanho` responde com `−7`
+==================================================================================================
+
+  Normalizado por coorte de desafio (CR no D&D, nível no PF2e).
+
+  tamanho     o nosso          D&D 2024: AC rel.     n     PF2e: AC rel.      n
+  --------------------------------------------------------------------------------
+  Tiny        Minúsculo                        —     0             1.000    194
+  Small       Pequeno                      1.016    84             1.000    491
+  Medium      Médio                        1.000    90             1.000   2238
+  Large       Grande                       1.000   108             1.000   1024
+  Huge        Imenso                       1.000    34             1.000    410
+  Gargantuan  Colossal                     1.000    15             1.000    434
+
+  >> D&D 2024: a AC vai de 1.000 a 1.016 — espalha 1.016 ×
+  >> PF2e:     a AC vai de 1.000 a 1.000 — espalha 1.000 ×
+  >> Draw Steel: NAO TEM defesa. Ataque e power roll contra faixa.
+
+  E o NOSSO: `Colossal` pede Defesa 7 pontos abaixo do `Médio`.
+  Num nv20 isso e 18 -> 11, uma razao de 0.611 ×.
+
+==================================================================================================
+2. E O DEX? — porque a NOSSA Defesa lê a Destreza
+==================================================================================================
+
+  tamanho          D&D: Dex rel.     n    PF2e: Dex rel.      n
+  --------------------------------------------------------------
+  Tiny                         —     0             1.000    194
+  Small                    1.074    84             1.000    491
+  Medium                   1.000    90             1.000   2238
+  Large                    1.000   108             1.000   1024
+  Huge                     1.000    34             1.000    410
+  Gargantuan               1.000    15             0.833    434
+
+  >> D&D 2024: Gargantuan 1.000 contra Medium 1.000  (n=15 — amostra pequena)
+  >> PF2e:     Gargantuan 0.833 contra Medium 1.000  (n=434)
+  >> So o PF2e mostra bicho gigante com menos Destreza, e por 16.7%. O D&D nao mostra —
+     mas o n de Gargantuan no SRD e 15, pequeno demais pra afirmar.
+  >> A pergunta que importa e se ele GANHA os pontos de volta. E a secao 3.
+
+==================================================================================================
+3. ⚠ O TAMANHO ADICIONA ORÇAMENTO DE ATRIBUTO? — a 2ª pergunta do martelo
+==================================================================================================
+
+  tamanho           D&D 2024     n        PF2e      n
+  ------------------------------------------------------
+  Tiny                     —     0       0.809    194
+  Small                1.029    84       1.000    491
+  Medium               1.034    90       1.000   2238
+  Large                1.000   108       1.000   1024
+  Huge                 0.973    34       1.000    410
+  Gargantuan           0.992    15       0.964    434
+
+  Draw Steel (Σ dos cinco, normalizado por organização + nível):
+    1T 0.500  1S 1.000  1M 1.000  1L 1.000  2 1.000  3 0.865  4 0.947  5 1.000
+
+  >> D&D 2024: Medium 1.034 → o maior 0.992   (não cresce)
+  >> PF2e: Medium 1.000 → o maior 0.964   (não cresce)
+  >> Draw Steel: de 0.500 a 1.000 — espalha 2.000 ×
+
+==================================================================================================
+4. QUANTO O TAMANHO GANHA NO CAMPO? — o número que a saída `F` precisa
+==================================================================================================
+
+  A saida `F` e "nao cobra, e encolhe o ganho ate o tamanho do campo".
+  Entao: quanto o tamanho ganha la, medido em ALVOS por acao de corpo a corpo?
+
+  size     ações   alvos esperados   vs size 1M   o nosso equivalente
+  ------------------------------------------------------------------------------
+  1T           6             1.000          nan   
+  1S          35             1.029          nan   
+  1M         125             1.280        1.000   Médio = 1.0000 ×
+  1L          40             1.275        0.996   
+  2           65             1.431        1.118   Grande = 1.2153 ×
+  3           31             1.484        1.159   Imenso = 1.4321 ×
+  4           20             1.450        1.133   Colossal = 1.6500 ×
+  5            5             1.400        1.094   
+
+  >> juntando: size 1 entrega 1.228 alvos por ação · size 2+ entrega 1.451
+  >> o ganho de tamanho no campo e 1.181 ×, do menor pro maior degrau.
+
+  ⚠ E o NOSSO topo e 1,650 × — 1.40 × o do campo.

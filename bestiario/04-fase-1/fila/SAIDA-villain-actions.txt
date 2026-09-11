@@ -1,0 +1,60 @@
+============================================================================================
+AS VILLAIN ACTIONS DO DRAW STEEL, medidas contra a acao normal do mesmo bicho
+============================================================================================
+
+  Tudo no TIER 2 — o resultado normal da rolagem.
+
+  Thorn Dragon  ·  nível 2  ·  Solo
+    a ação normal                   Virulent Breath (Signature)            9
+    villain action                  Briar Bindings                         9     100% da ação normal
+    villain action                  Thorned Armor                          0       0% da ação normal
+    villain action                  Malign Thicket                         0       0% da ação normal
+
+  Ajax the Invincible  ·  nível 11  ·  Solo
+    a ação normal                   Blade of the Gol King                 22
+    villain action                  Phoenix Wing King                     17      77% da ação normal
+    villain action                  I've Learned Their Tricks              0       0% da ação normal
+    villain action                  Awe of the Iron Crown                  0       0% da ação normal
+
+  Count Rhodar von Glauer  ·  nível 10  ·  Solo
+    a ação normal                   Spear of the Damned (Signature)       18
+    villain action                  Red Tide                              13      72% da ação normal
+    villain action                  Sanguine Mist                         13      72% da ação normal
+    villain action                  Fires of Dracul                       16      89% da ação normal
+
+  ----------------------------------------------------------------------------------------
+  9 villain actions medidas, em 3 criaturas `Solo`.
+
+  a MAIOR delas          100% da ação normal
+  a MENOR                0%
+  a MÉDIA                46%
+  a MEDIANA              72%
+  quantas fazem ZERO     4 de 9
+
+  >> ACHADO 1: NENHUMA villain action bate mais forte que uma acao normal do bicho.
+     O teto medido e 100%.
+  >> ACHADO 2: 4 das 9 nao causam dano NENHUM — elas sao controle,
+     terreno, reposicionamento ou setup pro golpe seguinte.
+  >> ACHADO 3: em 2 das 3 criaturas, as villain actions 2 e 3 sao as que nao causam dano.
+     A 1 abre com dano; as outras duas mudam o campo.
+
+============================================================================================
+O QUE ISSO FAZ COM A RECALIBRACAO DO PROJETO-M
+============================================================================================
+  o `Desastre` nv30: dano 219 em 3 ações, uma ação = 73.00,
+  luta de 3 rodadas, 3 Intervenções.
+
+  se a Intervenção valer                  ações extras na luta    fator   dano novo   o golpe   fatia
+  ------------------------------------------------------------------------------------------
+  uma AÇÃO INTEIRA (o que eu supus)                       3.00    0.750       164.2      54.8    23%
+  a MÉDIA medida do Draw Steel (46%)                      1.37    0.868       190.1      63.4    26%
+  a FORMA do campo: 1 com dano, 2 sem                     0.75    0.923       202.2      67.4    28%
+
+  ⚠ E o meu palpite era o CENARIO DE CIMA — o mais pesado dos tres, e o unico que o
+     campo NAO faz. A recalibracao que eu ia propor cortava 25% do dano de todo
+     inimigo, e a medida diz que o corte honesto e menor.
+
+  >> E o mais fiel ao campo e a linha de baixo: a `Intervenção 1` bate (um pouco menos
+     que uma acao normal), e a `2` e a `3` MUDAM O CAMPO em vez de causar dano.
+     Nessa forma o dano extra e 0.75 de uma acao na luta inteira, e o
+     fator fica em 0.923 — quase nada.

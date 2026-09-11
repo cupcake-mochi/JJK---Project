@@ -1,0 +1,94 @@
+
+============================================================================================
+AS ANCORAS — a metrica ja existe, e ela ja foi validada
+============================================================================================
+  o alvo publicado                  derruba 2.70 pessoas em 3 rodadas   peça 26 §4.6
+  a banda do campo                  d20 2014: 2.56 a 2.70 · PF2e solo: ~2.8
+  o chefe entrega em 3 rodadas      657                     peça 26 §4.7
+  dano de UM atacante por rodada    78.75                  peça 26 §4.7
+  a vida de um personagem nv30      243                    derivada de golpe ÷ fatia
+  o Desastre nv30                   vida 945, dano 219 em 3 ações (uma ação = 73.00)
+
+  [x] 219 × 3 = 657 — a tabela nova e a peça 26 §4.7 fecham.
+  [x] 78.75 × 4 atacantes × 3 rodadas = 945 — a linha de dano do grupo mata ele em 3 rodadas, exato.
+
+============================================================================================
+1. O MODELO DA PECA 26 — sem atrito, que e o modelo dela inteira
+============================================================================================
+  "quem cai continua contando na saida do grupo" — peça 26 §4.6.
+
+  cenário                             dano/rodada   na luta   pessoas derrubadas   na banda do campo?
+  ----------------------------------------------------------------------------------------------------
+  sem Intervenção                             219       657                 2.70                  sim
+  com 3 Intervenções, de graça                292       876                 3.60                  NÃO
+  com 3, trocando por uma ação                219       657                 2.70                  sim
+
+  >> O alvo publicado e 2.70, e a banda do campo e 2.56 a 2.8.
+  >> Com as Intervencoes DE GRACA ele derruba 3.60 de 4 pessoas —
+     +33% sobre o alvo, e +0.80 acima do teto do campo.
+
+============================================================================================
+2. E A PERGUNTA DO MIZUKI: vira TPK garantido na rodada 1-2?
+============================================================================================
+  Sem atrito, e com o chefe concentrando num alvo de cada vez:
+
+  sem Intervenção:
+      rodada    dano acumulado    pessoas caídas    TPK?
+           1               219              0.90     não
+           2               438              1.80     não
+           3               657              2.70     não
+           4               876              3.60     não
+           5              1095              4.50     SIM
+
+  com 3 Intervenções, de graça:
+      rodada    dano acumulado    pessoas caídas    TPK?
+           1               292              1.20     não
+           2               584              2.40     não
+           3               876              3.60     não
+           4              1095              4.50     SIM
+           5              1314              5.40     SIM
+
+  com 3, trocando por uma ação:
+      rodada    dano acumulado    pessoas caídas    TPK?
+           1               219              0.90     não
+           2               438              1.80     não
+           3               657              2.70     não
+           4               876              3.60     não
+           5              1095              4.50     SIM
+
+  >> NENHUM cenario vira TPK na rodada 1 ou 2. O pior deles derruba
+     2.40 pessoas na rodada 2.
+  >> A luta acaba na rodada 3, porque a vida do chefe (945) ÷ a linha do
+     grupo (315) da 3.0.
+
+============================================================================================
+3. O MODELO COM ATRITO — o pior caso que a peca 26 ja registra
+============================================================================================
+  A peça 26 §4.6 registra o pior caso: "com atrito e com o chefe concentrando e
+  ganhando a iniciativa, ele derruba os quatro em cinco rodadas".
+  Aqui é o mesmo modelo, com e sem as Intervenções.
+
+  sem Intervenção:
+      rodada   vivos  grupo tira  chefe tira   caídos  vida do chefe
+           1       4         315         219        0            630
+           2       3         315         219        1            315
+           3       2         236         219        2             79
+           4       1         158         219        3              0
+    >> o chefe cai na rodada 5, com 1 de 4 de pé.
+
+  com 3 Intervenções, de graça:
+      rodada   vivos  grupo tira  chefe tira   caídos  vida do chefe
+           1       3         315         292        1            630
+           2       2         236         292        2            394
+           3       1         158         292        3            236
+           4       0          79         219        4            158
+    >> TPK na rodada 4.
+
+  com 3, trocando por uma ação:
+      rodada   vivos  grupo tira  chefe tira   caídos  vida do chefe
+           1       4         315         219        0            630
+           2       3         315         219        1            315
+           3       2         236         219        2             79
+           4       1         158         219        3              0
+    >> o chefe cai na rodada 5, com 1 de 4 de pé.
+

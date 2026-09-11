@@ -1,0 +1,2485 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head><meta charset="utf-8"><title>Projeto M — Manual da Guilda</title></head>
+<body>
+
+<section class="capa">
+  <div class="capa-marca">獣</div>
+  <div class="capa-etiqueta">Bestiário</div>
+  <h1 class="capa-titulo">Projeto&nbsp;M</h1>
+  <div class="capa-sub">RPG de mesa de Jujutsu Kaisen</div>
+  <ol class="capa-lista"><li>Maldições</li>
+<li>Tipos de criatura</li>
+<li>Pessoas e maldições</li>
+<li>Lugares amaldiçoados</li>
+<li>Bloco de inimigo</li>
+<li>Criação de inimigos</li>
+<li>Área e frequência</li>
+<li>Maldições prontas</li>
+<li>Referência rápida</li></ol>
+  <div class="capa-nota">O que as maldições são, de onde elas vêm, e como montar uma para a mesa de hoje à noite.</div>
+</section>
+
+<section class="creditos">
+  <h1>Ficha técnica</h1>
+  <p><strong>Projeto M</strong> é um sistema de RPG de mesa ambientado no universo de
+  Jujutsu Kaisen, feito para um servidor de guilda com cinco a sete mestres ativos e
+  personagem persistente entre mesas. O filtro que decidiu quase toda regra deste livro
+  foi um só: dois mestres que nunca conversaram chegam ao mesmo número?</p>
+
+  <h2>Criação e regras</h2>
+  <p>Mizuki</p>
+
+  <h2>Licença e escopo</h2>
+  <p>Material de fã, gratuito e sem fins comerciais. Jujutsu Kaisen e seus personagens
+  pertencem à Shueisha, à MAPPA e a Gege Akutami. Este material não é afiliado a nenhum
+  dos três, e existe só para dar mesa a quem quer jogar no universo deles.</p>
+</section>
+<section class="sumario"><h1>Sumário</h1><div class="sum-corpo">
+<div class="sum-cap"><a href="#cap-introducao"><span class="sum-n"></span>Introdução</a></div>
+<div class="sum-sec"><a href="#cap-introducao-marcas-de-peso">Marcas de peso</a></div>
+<div class="sum-sec"><a href="#cap-introducao-fora-do-escopo">Fora do escopo</a></div>
+<div class="sum-sec"><a href="#cap-introducao-material-de-apoio">Material de apoio</a></div>
+<div class="sum-cap"><a href="#cap-vocabulario"><span class="sum-n"></span>Vocabulário</a></div>
+<div class="sum-sec"><a href="#cap-vocabulario-peso">Peso</a></div>
+<div class="sum-sec"><a href="#cap-vocabulario-categoria">Categoria</a></div>
+<div class="sum-sec"><a href="#cap-vocabulario-papel">Papel</a></div>
+<div class="sum-sec"><a href="#cap-vocabulario-tamanho">Tamanho</a></div>
+<div class="sum-sec"><a href="#cap-vocabulario-ficha">Ficha</a></div>
+<div class="sum-sec"><a href="#cap-vocabulario-area">Área</a></div>
+<div class="sum-sec"><a href="#cap-vocabulario-mundo">Mundo</a></div>
+<div class="sum-parte">Catálogo</div>
+<div class="sum-cap"><a href="#cap-maldicoes"><span class="sum-n">1</span>Maldições</a></div>
+<div class="sum-sec"><a href="#cap-maldicoes-fatores">Fatores</a></div>
+<div class="sum-sec"><a href="#cap-maldicoes-invisibilidade">Invisibilidade</a></div>
+<div class="sum-sec"><a href="#cap-maldicoes-vingativo-imaginario">Vingativo imaginário</a></div>
+<div class="sum-sec"><a href="#cap-maldicoes-utero-amaldicoado">Útero amaldiçoado</a></div>
+<div class="sum-sec"><a href="#cap-maldicoes-veu">Véu</a></div>
+<div class="sum-sec"><a href="#cap-maldicoes-estrutura-de-servico">Estrutura de serviço</a></div>
+<div class="sum-sec"><a href="#cap-maldicoes-coordenacao">Coordenação</a></div>
+<div class="sum-cap"><a href="#cap-tipos-de-criatura"><span class="sum-n">2</span>Tipos de criatura</a></div>
+<div class="sum-sec"><a href="#cap-tipos-de-criatura-feiticeiro">feiticeiro</a></div>
+<div class="sum-sec"><a href="#cap-tipos-de-criatura-maldicao">maldição</a></div>
+<div class="sum-sec"><a href="#cap-tipos-de-criatura-restringido">restringido</a></div>
+<div class="sum-sec"><a href="#cap-tipos-de-criatura-civil">civil</a></div>
+<div class="sum-sec"><a href="#cap-tipos-de-criatura-sem-tecnica">sem técnica</a></div>
+<div class="sum-sec"><a href="#cap-tipos-de-criatura-corpo-amaldicoado">corpo amaldiçoado</a></div>
+<div class="sum-sec"><a href="#cap-tipos-de-criatura-shikigami">shikigami</a></div>
+<div class="sum-cap"><a href="#cap-pessoas-e-maldicoes"><span class="sum-n">3</span>Pessoas e maldições</a></div>
+<div class="sum-sec"><a href="#cap-pessoas-e-maldicoes-alcance-da-regra">Alcance da regra</a></div>
+<div class="sum-sec"><a href="#cap-pessoas-e-maldicoes-ferramenta-amaldicoada">Ferramenta amaldiçoada</a></div>
+<div class="sum-sec"><a href="#cap-pessoas-e-maldicoes-desfecho">Desfecho</a></div>
+<div class="sum-sec"><a href="#cap-pessoas-e-maldicoes-residuo">Resíduo</a></div>
+<div class="sum-cap"><a href="#cap-lugares-amaldicoados"><span class="sum-n">4</span>Lugares amaldiçoados</a></div>
+<div class="sum-sec"><a href="#cap-lugares-amaldicoados-arquitetura">Arquitetura</a></div>
+<div class="sum-sec"><a href="#cap-lugares-amaldicoados-escola-blindada">Escola blindada</a></div>
+<div class="sum-sec"><a href="#cap-lugares-amaldicoados-acontecimentos-da-escola">Acontecimentos da escola</a></div>
+<div class="sum-sec"><a href="#cap-lugares-amaldicoados-protocolo-de-lenda">Protocolo de lenda</a></div>
+<div class="sum-sec"><a href="#cap-lugares-amaldicoados-repeticao">Repetição</a></div>
+<div class="sum-sec"><a href="#cap-lugares-amaldicoados-aviso">Aviso</a></div>
+<div class="sum-sec"><a href="#cap-lugares-amaldicoados-moradores">Moradores</a></div>
+<div class="sum-sec"><a href="#cap-lugares-amaldicoados-exorcismo-e-resolucao">Exorcismo e resolução</a></div>
+<div class="sum-sec"><a href="#cap-lugares-amaldicoados-desmonte">Desmonte</a></div>
+<div class="sum-sec"><a href="#cap-lugares-amaldicoados-isca">Isca</a></div>
+<div class="sum-parte">Montagem</div>
+<div class="sum-cap"><a href="#cap-bloco-de-inimigo"><span class="sum-n">5</span>Bloco de inimigo</a></div>
+<div class="sum-sec"><a href="#cap-bloco-de-inimigo-como-ler-o-cabecalho">Como ler o cabeçalho</a></div>
+<div class="sum-sec"><a href="#cap-bloco-de-inimigo-orcamento-apertado">Orçamento apertado</a></div>
+<div class="sum-sec"><a href="#cap-bloco-de-inimigo-vulnerabilidade">Vulnerabilidade</a></div>
+<div class="sum-sec"><a href="#cap-bloco-de-inimigo-condicao-na-celula-de-imunidade">Condição na célula de imunidade</a></div>
+<div class="sum-cap"><a href="#cap-criacao-de-inimigos"><span class="sum-n">6</span>Criação de inimigos</a></div>
+<div class="sum-sec"><a href="#cap-criacao-de-inimigos-teto-de-empilhamento">Teto de empilhamento</a></div>
+<div class="sum-sec"><a href="#cap-criacao-de-inimigos-encontro-misturado">Encontro misturado</a></div>
+<div class="sum-sec"><a href="#cap-criacao-de-inimigos-pagamento-do-emboscador">Pagamento do Emboscador</a></div>
+<div class="sum-sec"><a href="#cap-criacao-de-inimigos-papel-por-categoria">Papel por categoria</a></div>
+<div class="sum-cap"><a href="#cap-area-e-frequencia"><span class="sum-n">7</span>Área e frequência</a></div>
+<div class="sum-sec"><a href="#cap-area-e-frequencia-parenteses-de-custo-e-pre-requisito">Parênteses de custo e pré-requisito</a></div>
+<div class="sum-sec"><a href="#cap-area-e-frequencia-abertura-do-cone">Abertura do cone</a></div>
+<div class="sum-sec"><a href="#cap-area-e-frequencia-parede">Parede</a></div>
+<div class="sum-sec"><a href="#cap-area-e-frequencia-trava-no-esquadrao">Trava no esquadrão</a></div>
+<div class="sum-sec"><a href="#cap-area-e-frequencia-recarga-em-area">Recarga em área</a></div>
+<div class="sum-parte">Fichas prontas</div>
+<div class="sum-cap"><a href="#cap-maldicoes-prontas"><span class="sum-n">8</span>Maldições prontas</a></div>
+<div class="sum-sec"><a href="#cap-maldicoes-prontas-celulas-vazias">Células vazias</a></div>
+<div class="sum-sec"><a href="#cap-maldicoes-prontas-betobeto">Betobeto</a></div>
+<div class="sum-sec"><a href="#cap-maldicoes-prontas-kamaitachi">Kamaitachi</a></div>
+<div class="sum-sec"><a href="#cap-maldicoes-prontas-tsuchigumo">Tsuchigumo</a></div>
+<div class="sum-sec"><a href="#cap-maldicoes-prontas-hitotsume">Hitotsume</a></div>
+<div class="sum-sec"><a href="#cap-maldicoes-prontas-kitsune">Kitsune</a></div>
+<div class="sum-sec"><a href="#cap-maldicoes-prontas-oni">Oni</a></div>
+<div class="sum-cap"><a href="#cap-referencia-rapida"><span class="sum-n">9</span>Referência rápida</a></div>
+<div class="sum-sec"><a href="#cap-referencia-rapida-montagem">Montagem</a></div>
+<div class="sum-sec"><a href="#cap-referencia-rapida-rotulos">Rótulos</a></div>
+<div class="sum-sec"><a href="#cap-referencia-rapida-travas">Travas</a></div>
+<div class="sum-sec"><a href="#cap-referencia-rapida-preco-das-celulas">Preço das células</a></div>
+<div class="sum-sec"><a href="#cap-referencia-rapida-encontro-misturado">Encontro misturado</a></div>
+<div class="sum-sec"><a href="#cap-referencia-rapida-orcamento-de-acao">Orçamento de ação</a></div>
+<div class="sum-cap"><a href="#indice-remissivo"><span class="sum-n"></span>Índice remissivo</a></div>
+</div></section>
+<section class="capitulo">
+  <header class="abertura">
+    <span class="abertura-n"><span class="kanji">序</span></span>
+    <h1 id="cap-introducao">Introdução</h1>
+  </header>
+<div class="c2"><p>Este livro tem duas partes. O catálogo, nos capítulos 1 a 4, descreve as maldições, os tipos de
+criatura, as pessoas que viram maldição ou carregam uma, e os lugares amaldiçoados. Boa parte
+dele nunca vira rolagem de dado.</p><p>A montagem, nos capítulos 5 a 7, ensina a montar o bloco de um inimigo em três passos, sem
+inventar número: tudo sai de tabelas que cobrem do nível 2 ao 30. O capítulo 8 traz seis
+maldições prontas, com a ficha inteira preenchida, e o 9 é uma referência rápida para a mesa.</p><p>Leia na ordem, ou abra direto na tabela de que precisa.</p><h2 id="cap-introducao-marcas-de-peso">Marcas de peso</h2><p class="sabor">Cada trecho do livro leva uma marca que diz se ele obriga a mesa.</p><p><strong><code>REGRA</code></strong> — a mesa segue. É rara, e nenhuma nasce neste livro: o texto aponta para o lugar do
+sistema que é dono dela.</p><p><strong><code>PADRÃO</code></strong> — o que vale enquanto ninguém decidir outra coisa. É a maior parte do catálogo:
+descreve como o mundo costuma se comportar, e o mestre troca quando a história pede.</p><p><strong><code>FERRAMENTA</code></strong> — oferecido. Serve para improvisar, montar uma sessão ou dar sabor a uma cena.
+Ignorar não quebra nada.</p><aside class="destaque">
+<p><code>PADRÃO</code> e <code>FERRAMENTA</code> marcam o que duas mesas podem responder de formas diferentes, e as<br/>
+duas estarão certas.</p>
+</aside><h2 id="cap-introducao-fora-do-escopo">Fora do escopo</h2><p class="sabor"><span class="ix-anc" id="ix-cap-introducao-ferramenta-amaldicoada"></span>Lugar não tem grau. Na obra, grau classifica feiticeiro, maldição e ferramenta amaldiçoada, e um
+serviço herda o grau do bicho que enfrenta.</p><p>Lugar também não tem ficha nem preço de encontro. O lugar amaldiçoado é descrito em texto, no
+capítulo 4.</p><h2 id="cap-introducao-material-de-apoio">Material de apoio</h2><p>O Manual da Guilda traz as regras que este livro usa e não repete: a <code>Cortina</code><span class="ix-anc" id="ix-cap-introducao-fundamento"></span>, o Fundamento, as
+condições e os Testes de Resistência. As tabelas do capítulo 6 bastam para montar um inimigo;
+para escrever o texto de cada ação, você precisa do Fundamento, o mesmo que o jogador usa.</p></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+<section class="capitulo">
+  <header class="abertura">
+    <span class="abertura-n"><span class="kanji">語</span></span>
+    <h1 id="cap-vocabulario">Vocabulário</h1>
+  </header>
+<div class="c2"><p>Toda palavra entre crases é nome de coisa do sistema. Aqui está o sentido de cada uma, com o
+capítulo que a explica.</p><h2 id="cap-vocabulario-peso">Peso</h2><p class="tab-titulo sabor"><strong>Vocabulário de peso</strong></p><table class="tab"><colgroup><col style="width:15.28%"/><col style="width:84.72%"/></colgroup>
+<thead>
+<tr>
+<th>termo</th>
+<th>o que quer dizer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="nome"><strong><code>REGRA</code></strong></td>
+<td>a mesa segue. Nenhuma nasce neste livro: o texto aponta para o lugar do sistema que é dono dela</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>PADRÃO</code></strong></td>
+<td>o que vale enquanto ninguém decidir outra coisa</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>FERRAMENTA</code></strong></td>
+<td>oferecido. Nada quebra se você ignorar</td>
+</tr>
+</tbody>
+</table><h2 id="cap-vocabulario-categoria">Categoria</h2><p class="sabor"><em>Quantos personagens o inimigo exige. Capítulo 6, Passo 1.</em></p><p class="tab-titulo"><strong>Vocabulário de categoria</strong></p><table class="tab"><colgroup><col style="width:21.76%"/><col style="width:78.24%"/></colgroup>
+<thead>
+<tr>
+<th>termo</th>
+<th>o que quer dizer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="nome"><strong><code>Capanga</code></strong></td>
+<td>esquadrão de oito corpos em pool, com um chefe ou sozinho</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Ameaça</code></strong></td>
+<td>exige uma pessoa</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Desastre</code></strong></td>
+<td>exige quatro — a mesa padrão</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Catástrofe</code></strong></td>
+<td>exige seis — a mesa cheia</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Calamidade</code></strong></td>
+<td>exige oito, e nenhuma mesa tem oito</td>
+</tr>
+</tbody>
+</table><h2 id="cap-vocabulario-papel">Papel</h2><p class="sabor"><em>Como o inimigo luta. Ele redistribui o que a categoria deu. Capítulo 6, Passo 2.</em></p><p class="tab-titulo"><strong>Vocabulário de papel</strong></p><table class="tab"><colgroup><col style="width:25.20%"/><col style="width:74.80%"/></colgroup>
+<thead>
+<tr>
+<th>termo</th>
+<th>o que quer dizer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="nome"><strong><code>Brutamontes</code></strong></td>
+<td><span class="ix-anc" id="ix-cap-vocabulario-defesa"></span>troca Defesa por vida</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Guardião</code></strong></td>
+<td>troca vida por Defesa</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Artilheiro</code></strong></td>
+<td>troca vida por alcance</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Emboscador</code></strong></td>
+<td><span class="ix-anc" id="ix-cap-vocabulario-rodada"></span>troca vida por vantagem em um ataque por rodada</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Controlador</code></strong></td>
+<td>troca dano por uma ação negada do grupo</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Apoio</code></strong></td>
+<td>troca o dano dele por ganho em outro bloco</td>
+</tr>
+</tbody>
+</table><h2 id="cap-vocabulario-tamanho">Tamanho</h2><p class="sabor"><em>Onde o corpo cabe e até onde o golpe alcança. Não cobra nada. Capítulo 6, Passo 3.</em></p><p class="tab-titulo"><strong>Vocabulário de tamanho</strong></p><table class="tab"><colgroup><col style="width:22.51%"/><col style="width:77.49%"/></colgroup>
+<thead>
+<tr>
+<th>termo</th>
+<th>o que quer dizer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="nome"><strong><code>Médio</code></strong></td>
+<td>ocupa um quadrado, alcança <code>1,5 m</code></td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Grande</code></strong></td>
+<td>ocupa quatro quadrados, alcança <code>3 m</code></td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Imenso</code></strong></td>
+<td>ocupa nove quadrados, alcança <code>4,5 m</code></td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Colossal</code></strong></td>
+<td>ocupa dezesseis quadrados, alcança <code>6 m</code></td>
+</tr>
+</tbody>
+</table><h2 id="cap-vocabulario-ficha">Ficha</h2><p class="tab-titulo sabor"><strong>Vocabulário da ficha</strong></p><table class="tab"><colgroup><col style="width:18.79%"/><col style="width:81.21%"/></colgroup>
+<thead>
+<tr>
+<th>termo</th>
+<th>o que quer dizer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="nome"><strong><code>Ações Múltiplas</code></strong></td>
+<td>primeira entrada de <code>Ações</code> em quem age mais de uma vez por rodada. Diz quais ataques ele faz e em que combinação</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Núcleos (N)</code></strong></td>
+<td>traço que reparte a vida em <code>N</code> partes iguais</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Intervenções</code></strong></td>
+<td>as três ações extras de um <code>Desastre</code> para cima. Cada uma sai uma vez por luta, no máximo uma por rodada</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Intervenção</code></strong></td>
+<td>cada uma delas, logo depois do turno de outra criatura</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Recarga (5-6)</code></strong></td>
+<td>rótulo de frequência: volta por sorte, no início do turno dele</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Resistências</code></strong></td>
+<td>os tipos de dano que chegam pela metade</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Imunidades</code></strong></td>
+<td>os tipos de dano e as condições que não pegam</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Vulnerabilidades</code></strong></td>
+<td>os tipos de dano que dobram</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Físicos</code></strong></td>
+<td>o grupo de dano de corte, perfuração e impacto. Ser imune a ele é a célula mais cara</td>
+</tr>
+<tr>
+<td class="nome"><strong><code><span class="ix-anc" id="ix-cap-vocabulario-pacto"></span>Pacto</code></strong></td>
+<td>linha condicional, e só aparece em quem tem votos</td>
+</tr>
+</tbody>
+</table><h2 id="cap-vocabulario-area">Área</h2><p class="sabor"><em>Capítulo 7.</em></p><p class="tab-titulo"><strong>Vocabulário de área</strong></p><table class="tab"><colgroup><col style="width:18.03%"/><col style="width:81.97%"/></colgroup>
+<thead>
+<tr>
+<th>termo</th>
+<th>o que quer dizer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="nome"><strong><code>Esfera</code></strong></td>
+<td>área redonda, do corpo dele ou de um ponto</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Cone</code></strong></td>
+<td>área que abre a partir do corpo dele, sempre</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Retângulo</code></strong></td>
+<td>área de <code>A × B</code> quadrados. A linha, o quadrado e a parede são ela</td>
+</tr>
+</tbody>
+</table><h2 id="cap-vocabulario-mundo">Mundo</h2><p class="tab-titulo sabor"><strong>Vocabulário do mundo</strong></p><table class="tab"><colgroup><col style="width:24.07%"/><col style="width:75.93%"/></colgroup>
+<thead>
+<tr>
+<th>termo</th>
+<th>o que quer dizer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="nome"><strong><code>Cortina</code></strong></td>
+<td>a barreira que esconde o serviço de quem não é feiticeiro. Capítulo 1</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>feiticeiro</code></strong></td>
+<td>nasceu com energia e com uma técnica. Capítulo 2</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>maldição</code></strong></td>
+<td>corpo feito de energia amaldiçoada. Capítulo 2</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>restringido</code></strong></td>
+<td>nasceu sem energia, e o corpo recebeu a diferença. Capítulo 2</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>civil</code></strong></td>
+<td>gente comum, e a fonte das maldições. Capítulo 2</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>sem técnica</code></strong></td>
+<td>tem energia, e a técnica nasceu depois. Capítulo 2</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>corpo amaldiçoado</code></strong></td>
+<td>não tem técnica inata nem corpo humano, e tem energia. Capítulo 2</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>shikigami</code></strong></td>
+<td>invocado, e serve enquanto existe. Capítulo 2</td>
+</tr>
+</tbody>
+</table></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+<section class="capitulo cap-1">
+  <header class="abertura">
+    <span class="abertura-n"><span class="kanji">呪</span><span class="arab">Capítulo 1</span></span>
+    <h1 id="cap-maldicoes">Maldições</h1>
+  </header>
+<div class="c2"><p><span class="ix-anc" id="ix-cap-maldicoes-forma"></span>Maldição é energia amaldiçoada que tomou forma num lugar. A energia escapa de gente comum quando a
+pessoa sente coisa ruim — medo, raiva, luto, humilhação, tédio de anos — e não se dissolve
+depois: desce para um ponto e fica ali, acumulando, até ter massa suficiente para tomar forma
+sozinha. Ninguém invoca uma maldição, e o lugar não fabrica nenhuma: ele só junta a emoção de
+outras pessoas.</p><p><span class="ix-anc" id="ix-cap-maldicoes-grau"></span>As seções a seguir tratam do que faz um lugar produzir maldição, do que o grau diz sobre ela, de
+como a obra as classifica, de como a mesa chega ao serviço e do que elas fazem fora do combate.</p><h2 id="cap-maldicoes-fatores">Fatores</h2><p class="sabor"><code>PADRÃO</code></p><p>Um lugar produz maldição quando reúne quatro fatores. O que decide é a convergência.</p><p><strong>Gente.</strong> É o fator mais forte. Uma cidade grande produz mais que um vilarejo.</p><p><strong>Emoção ruim.</strong> Escola e hospital aparecem juntos em toda descrição do assunto, porque muita
+emoção negativa fica associada à memória desses lugares.</p><p><strong>Convergência.</strong> A emoção precisa ser a mesma. Mil pessoas infelizes de mil jeitos diferentes
+não juntam nada; a energia se agrupa em volta de um sentimento específico. Um prédio comercial
+cheio de gente triste por motivos distintos fica limpo por décadas. Uma escola onde todo mundo
+tem medo da mesma coisa não fica.</p><p><strong>Tempo.</strong> Conta o tempo que a pessoa guarda aquilo dentro dela, e o tempo que a energia fermenta
+depois. A idade do prédio não entra na conta: um lugar de dois anos serve, se a coisa certa
+aconteceu lá dentro.</p><aside class="destaque">
+<p>Para improvisar um lugar, pergunte: <strong>todo mundo aqui teme a mesma coisa?</strong> Se sim, o lugar é
+um foco. Se não, é só um prédio.</p>
+</aside><h2 id="cap-maldicoes-invisibilidade">Invisibilidade</h2><aside class="destaque">
+<p><code>REGRA</code></p>
+<p><strong>Quem não é feiticeiro não enxerga maldição, e é ferido por ela do mesmo jeito.</strong></p>
+<p>A regra é do pacote do tipo <code>civil</code>, no capítulo 2.</p>
+</aside><p><code>FERRAMENTA</code> — numa investigação, a testemunha não viu nada. Ela tem um sintoma e não sabe dizer
+de quê.</p><h1>Grau e inteligência</h1><p><code>PADRÃO</code></p><p>Grau mede o quanto uma maldição aguenta, e também indica como ela se comporta.</p><p><strong>Fracas.</strong> Instinto e pouco mais. Não planejam, não esperam, não recuam.</p><p><strong>Médias.</strong> Escolhem onde ficar e do que fugir.</p><p><strong>Fortes.</strong> Falam. Têm personalidade, valores próprios e afeto por outras maldições.</p><p>Trate uma maldição fraca como perigo do terreno: ela machuca quem chega perto, e a solução é
+limpar. Trate uma forte como personagem: dá para negociar, enganar, seguir e recrutar.</p><p>Isso é tendência. Um bicho fraco pode ser esperto, se a ficção explicar de onde veio a esperteza.</p><p><strong>Medo constante.</strong> Maldição nascida de coisa que a humanidade teme sem parar, como doença e
+desastre, costuma ficar inteligente cedo.</p><h1>Classificação da obra</h1><p><code>PADRÃO</code></p><p>A obra classifica maldição em cinco famílias. A lista dá vocabulário à mesa e não fecha o
+assunto: a própria obra declara pelo menos uma exceção.</p><p class="tab-titulo"><strong>Classificação de maldições</strong></p><table class="tab"><colgroup><col style="width:22.24%"/><col style="width:37.47%"/><col style="width:40.29%"/></colgroup>
+<thead>
+<tr>
+<th>categoria</th>
+<th>nasce de</th>
+<th>o que ela oferece à mesa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="nome">espírito vingativo (<code>過呪怨霊</code>)</td>
+<td>uma morte específica, amaldiçoada por alguém</td>
+<td>tem nome e história, e a investigação vira metade da aventura</td>
+</tr>
+<tr>
+<td class="nome">vingativo imaginário (<code>架想呪怨霊</code>)</td>
+<td>o medo compartilhado da massa — lenda urbana, yokai, boato</td>
+<td>não precisa de cadáver, precisa de um boato</td>
+</tr>
+<tr>
+<td class="nome">de doença</td>
+<td>as pragas que a humanidade teme</td>
+<td>não persegue ninguém: se espalha</td>
+</tr>
+<tr>
+<td class="nome">de desastre</td>
+<td>renasce do desastre que a fez</td>
+<td>matar adia, e a tensão disso é o conteúdo</td>
+</tr>
+<tr>
+<td class="nome">útero amaldiçoado</td>
+<td>forma imatura que evolui com estímulo</td>
+<td>o inimigo que a mesa deixou passar e reencontra crescido</td>
+</tr>
+</tbody>
+</table><p>O Mahito é a exceção que a obra escreve com todas as letras: ele vem do ódio dos humanos uns
+pelos outros.</p><h2 id="cap-maldicoes-vingativo-imaginario">Vingativo imaginário</h2><p class="sabor"><code>FERRAMENTA</code></p><p><span class="ix-anc" id="ix-cap-maldicoes-caminho"></span>O grau de um vingativo imaginário acompanha o quanto ele é temido. Espalhar o boato fortalece.
+Desmentir enfraquece. Achar a história original abre um caminho inteiro sem combate.</p><p>É a única categoria em que a mesa vence falando, e a mais fácil de improvisar: toda cidade real
+já tem as lendas dela prontas.</p><aside class="destaque">
+<p>Não há número para quanto medo vale quanto grau, porque a obra não responde. Trate como sabor.</p>
+</aside><h2 id="cap-maldicoes-utero-amaldicoado">Útero amaldiçoado</h2><p class="sabor"><code>FERRAMENTA</code></p><p>Um útero amaldiçoado evolui depois de estímulo traumático, e quase ser exorcizado conta como
+estímulo. O grupo que machuca um e não termina o serviço acabou de criar o chefe do próximo arco.</p><h1>Fixa e errante</h1><p><code>FERRAMENTA</code></p><p>A maioria das maldições fica onde a energia a fez. A errante vaga por uma região ampla e não tem
+endereço.</p><p class="tab-titulo"><strong>Fixas e errantes</strong></p><table class="tab"><colgroup><col style="width:13.80%"/><col style="width:42.32%"/><col style="width:43.88%"/></colgroup>
+<thead>
+<tr>
+<th></th>
+<th>onde ela está</th>
+<th>o que o serviço vira</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="nome"><strong>fixa</strong></td>
+<td>no lugar onde nasceu</td>
+<td>faxina — a mesa vai até ela</td>
+</tr>
+<tr>
+<td class="nome"><strong>errante</strong></td>
+<td>em movimento por uma região</td>
+<td>caçada — a mesa procura</td>
+</tr>
+</tbody>
+</table><p>Ser errante não muda nenhuma linha da ficha. Muda a aventura, e o perigo passa a ser o alcance
+dela.</p><p><span class="ix-anc" id="ix-cap-maldicoes-familia"></span>A distinção vale para qualquer família da obra: uma maldição de doença pode ser errante, e um
+espírito vingativo pode ser fixo.</p><p><strong>Maldição forte.</strong> Quanto mais forte, menos o endereço descreve. As maldições de topo marcaram
+data e lugar numa reunião, e estavam ali porque escolheram estar.</p><h1>Serviço</h1><h2 id="cap-maldicoes-veu">Véu</h2><p class="sabor"><code>PADRÃO</code></p><p><strong><code>Cortina</code></strong> — a barreira que um feiticeiro baixa em volta do lugar antes do serviço. De fora,
+ninguém vê nada. De dentro, o céu vira noite, e a noite faz a maldição sair do esconderijo.</p><p>A <code>Cortina</code><span class="ix-anc" id="ix-cap-maldicoes-condicao"></span> tem fala de ativação, e erguer véu é perícia: quanto mais específica a condição —
+deixar civil passar, barrar só maldição, cobrir um quarteirão inteiro —, mais difícil.</p><aside class="destaque">
+<p><code>REGRA</code></p>
+<p><strong>A <code>Cortina</code><span class="ix-anc" id="ix-cap-maldicoes-aptidao"></span> é aptidão do Manual da Guilda e cobre um prédio, uma escola ou um quarteirão.</strong></p>
+<p>Veja o capítulo de aptidões do Manual da Guilda.</p>
+</aside><h3>Véu de terceiros</h3><p class="sabor">A <code>Cortina</code> abre tarde na ficha, e duas das rotas de personagem não chegam nela em nível
+nenhum. A obra explica o motivo: cortina exige um nível de habilidade que muitos feiticeiros
+poderosos não têm, e as condições delas chegam a ser encomendadas a quem sabe fazer.</p><p><code>FERRAMENTA</code> — se o véu já estava de pé quando o grupo chegou, alguém ergueu. Essa pessoa tem
+nome, agenda e hora de ir embora. No primeiro serviço do Yuta quem baixou o véu foi o Gojo, e
+ele ficou do lado de fora.</p><p>O véu também pode vir pronto. A obra tem cortina encomendada, com a condição desenhada por
+outra pessoa e guardada num papel: quem ergue só recita. Um véu desses é item, e se gasta.</p><p><code>FERRAMENTA</code> — o véu dá três coisas de graça, se você quiser: um relógio, um custo de entrada e
+uma cena antes da principal.</p><h2 id="cap-maldicoes-estrutura-de-servico">Estrutura de serviço</h2><p class="sabor"><code>FERRAMENTA</code></p><p>Um molde pronto, se você quiser:</p><ol>
+<li>Alguém sumiu, ou o lugar ficou errado.</li>
+<li>O que o feiticeiro acha primeiro é uma história, não um bicho.</li>
+<li>O véu sobe.</li>
+<li>A maldição sai.</li>
+<li>Só aqui existe ficha de inimigo.</li>
+</ol><h1>Comportamento</h1><p><code>PADRÃO</code></p><p>O que uma maldição faz fora do combate:</p><p><strong>Querer machucar gente.</strong> É o que elas são e o motivo de existirem.</p><p><strong>Comer.</strong> A obra não diz se elas precisam. As fracas tentam comer gente; se é fome ou instinto,
+fica em aberto.</p><p><strong>Ficar.</strong> A maioria não migra. A exceção é a errante, em <em>Fixa e errante</em>.</p><p><span class="ix-anc" id="ix-cap-maldicoes-rotina"></span>A obra nunca descreve a rotina de uma maldição entre um serviço e outro. Essa parte fica com
+você.</p><h2 id="cap-maldicoes-coordenacao">Coordenação</h2><p class="sabor"><code>FERRAMENTA</code></p><p>Maldição fraca não coordena com outra. Maldição forte coordena, marca data e discute plano — a
+obra mostra quatro delas em reunião, com objetivo em comum.</p><p>Um esquadrão de oito corpos na mesma sala tem três explicações prontas. Escolha a que serve à
+cena:</p><p><strong>Alguém mandando.</strong> Uma técnica de manipulação segurando as coleiras.</p><p><strong>Uma criatura em vários corpos.</strong> O traço <code>Núcleos (N)</code> do capítulo 5 faz exatamente isso.</p><p><strong><span class="ix-anc" id="ix-cap-maldicoes-origem"></span>Mesma origem.</strong> Elas estão no mesmo lugar pela mesma razão, como o mofo que aparece ao mesmo
+tempo em todas as paredes úmidas de um prédio.</p></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+<section class="capitulo cap-2">
+  <header class="abertura">
+    <span class="abertura-n"><span class="kanji">類</span><span class="arab">Capítulo 2</span></span>
+    <h1 id="cap-tipos-de-criatura">Tipos de criatura</h1>
+  </header>
+<div class="c2"><p>O cabeçalho do bloco de inimigo traz o tipo logo depois do tamanho. Cada tipo vale por um pacote
+de regras que não cabe na ficha, e os pacotes estão aqui.</p><p>São sete tipos, e o pacote de cada um vale igual em toda ficha daquele tipo.</p><p class="tab-titulo"><strong>Resumo dos tipos</strong></p><table class="tab"><colgroup><col style="width:28.30%"/><col style="width:71.70%"/></colgroup>
+<thead>
+<tr>
+<th>tipo</th>
+<th>em uma linha</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="nome"><code>feiticeiro</code></td>
+<td>nasceu com energia e com uma técnica</td>
+</tr>
+<tr>
+<td class="nome"><code>maldição</code></td>
+<td>corpo feito de energia amaldiçoada</td>
+</tr>
+<tr>
+<td class="nome"><code>restringido</code></td>
+<td>nasceu sem energia, e o corpo recebeu a diferença</td>
+</tr>
+<tr>
+<td class="nome"><code>civil</code></td>
+<td>gente comum, e a fonte das maldições</td>
+</tr>
+<tr>
+<td class="nome"><code>sem técnica</code></td>
+<td>tem energia, e a técnica nasceu depois</td>
+</tr>
+<tr>
+<td class="nome"><code>corpo amaldiçoado</code></td>
+<td>não tem técnica inata nem corpo humano, e tem energia</td>
+</tr>
+<tr>
+<td class="nome"><code>shikigami</code></td>
+<td>invocado, e serve enquanto existe</td>
+</tr>
+</tbody>
+</table><hr/><h2 id="cap-tipos-de-criatura-feiticeiro"><code>feiticeiro</code></h2><p class="sabor"><strong><code>feiticeiro</code></strong> — gente que nasceu com energia amaldiçoada e com uma técnica. É o padrão do
+mundo e é o que a mesa joga.</p><aside class="destaque">
+<p><code>REGRA</code></p>
+<p><strong>Técnica garantida.</strong> O <code>feiticeiro</code> tem uma técnica inata, e o tipo não concede mais nada.</p>
+<p>Nenhuma imunidade, nenhuma trava, nenhum pacote.</p>
+</aside><p><code>PADRÃO</code> — feiticeiro vaza pouca energia, pouca demais para formar maldição.</p><p><code>FERRAMENTA</code> — a profissão que caça maldição é a única que não produz nenhuma; quem produz é a
+gente que ela protege. Isso rende uma conversa difícil em cena.</p><hr/><h2 id="cap-tipos-de-criatura-maldicao"><code>maldição</code></h2><p class="sabor"><strong><code>maldição</code></strong> — o bicho do capítulo 1. Corpo feito de energia amaldiçoada, decantado de um
+lugar.</p><aside class="destaque">
+<p><code>REGRA</code></p>
+<p><strong>Imune ao mundano.</strong> Ataque que não esteja imbuído em energia amaldiçoada causa zero nela,<br/>
+por mais forte que seja.</p>
+<p><strong>A <code>Energia Reversa</code> fere.</strong><span class="ix-anc" id="ix-cap-tipos-de-criatura-forma"></span> A Forma <code>Cura</code> pode mirar um alvo hostil, rola acerto, e os<br/>
+dados viram dano com metade a mais.</p>
+</aside><p>A imunidade não encarece o encontro: toda rota de personagem do sistema tem como ferir maldição
+sem pagar nada, e <code>Canalizar energia</code><span class="ix-anc" id="ix-cap-tipos-de-criatura-aptidao"></span> é aptidão de refino 1.</p><p><code>FERRAMENTA</code> — quem sente a imunidade é o mundo, e quase nada o grupo. O civil na rua não pode
+fazer nada contra uma maldição, e por isso até um bicho comum vira emergência na cidade.</p><hr/><h2 id="cap-tipos-de-criatura-restringido"><code>restringido</code></h2><p class="sabor"><strong><code>restringido</code></strong><span class="ix-anc" id="ix-cap-tipos-de-criatura-restricao"></span> — nasceu sem energia amaldiçoada, e o corpo recebeu a diferença. A obra chama
+de Restrição Celestial, e a troca é involuntária: ela acontece no nascimento.</p><aside class="destaque">
+<p><code>REGRA</code></p>
+<p><strong>Atravessa barreira.</strong> <code>Barreira Simples</code> e <code>Cortina</code> não param ele.</p>
+<p><strong>Domínio não trava nele.</strong> O acerto garantido de uma Expansão completa não alcança ele.</p>
+<p><strong>Nunca tem Expansão.</strong> A rota está fechada, em todo nível.</p>
+<p><strong>Não nasce enxergando.</strong> Como o <code>civil</code>, ele precisa de uma saída publicada para ver.</p>
+</aside><p>As quatro travas têm a mesma causa: sem energia, ele é invisível para a barreira e para o
+domínio, e impossível de rastrear por detecção de energia.</p><aside class="destaque">
+<p><code>PADRÃO</code> — a troca da obra tem dois sentidos, e este tipo cobre um.</p>
+<p>O famoso é o do Toji e da Maki: energia zerada, corpo sobre-humano.</p>
+<p>O outro é o do Kokichi: corpo frágil e quebrado, e em troca uma saída de energia que atravessa
+o Japão inteiro.</p>
+<p>O segundo não está proibido, só não é este tipo. Para um caso como o dele, resolva com ficção,
+sem tipo novo.</p>
+</aside><hr/><h2 id="cap-tipos-de-criatura-civil"><code>civil</code></h2><p class="sabor"><strong><code>civil</code></strong> — gente comum, e a fonte das maldições.</p><aside class="destaque">
+<p><code>REGRA</code></p>
+<p><strong>Não nasce enxergando.</strong> As saídas publicadas são <code>Aprendi a Ver</code> e <code>Sentido Treinado</code>.</p>
+<p><strong>Vê sob ameaça de morte.</strong> O civil prestes a morrer enxerga o que vai matá-lo.</p>
+<p><strong>É ferido mesmo sem ver.</strong> A invisibilidade não protege ninguém.</p>
+</aside><p><code>PADRÃO</code> — um civil amaldiçoado não vê nada. Ele nota sintoma que não se explica: um sonho que
+muda, um peso em cima que não sai, o mesmo cômodo que ficou insuportável sem motivo.</p><aside class="destaque">
+<p><code>FERRAMENTA</code></p>
+<p>A vítima sabe que alguma coisa está errada e não consegue dizer o quê. Isso rende uma cena de
+investigação inteira sem um único teste de percepção mágica: o grupo escuta a queixa de alguém
+que só sabe descrever mal.</p>
+<p><strong>Vê sob ameaça de morte</strong> serve de virada de cena: o civil que não via passa a ver, e a<br/>
+primeira coisa que ele vê é o que está prestes a matá-lo.</p>
+</aside><hr/><h2 id="cap-tipos-de-criatura-sem-tecnica"><code>sem técnica</code></h2><p class="sabor"><strong><code>sem técnica</code></strong> — tem energia amaldiçoada e não nasceu com técnica.</p><aside class="destaque">
+<p><code>REGRA</code></p>
+<p><strong>A técnica nasce de uma semente.</strong> Ela é aptidão, e vem depois.</p>
+<p><strong>O resto corre normal.</strong><span class="ix-anc" id="ix-cap-tipos-de-criatura-fundamento"></span> Energia, refino, aptidões e Fundamento funcionam como em qualquer<br/>
+ficha.</p>
+<p><strong>Nunca <code><span class="ix-anc" id="ix-cap-tipos-de-criatura-expansao-de-dominio"></span>Expansão de Domínio</code>.</strong></p>
+</aside><p><code>PADRÃO</code> — é a rota de quem entrou no mundo por esforço em vez de nascimento. A técnica dele tem
+data de início, e alguém viu acontecer.</p><p><code>FERRAMENTA</code> — um <code>sem técnica</code><span class="ix-anc" id="ix-cap-tipos-de-criatura-familia"></span> é o único personagem que consegue explicar de onde veio a técnica
+dele sem falar da família. É a porta de entrada para a mesa que não quer jogar política de clã.</p><hr/><h2 id="cap-tipos-de-criatura-corpo-amaldicoado"><code>corpo amaldiçoado</code></h2><p class="sabor"><strong><code>corpo amaldiçoado</code></strong> — não tem técnica inata nem corpo humano, e mesmo assim tem energia.</p><aside class="destaque">
+<p><code>REGRA</code></p>
+<p><strong>Produz a própria energia.</strong> Um corpo independente ganha essa capacidade dentro de três meses<br/>
+depois de acordar.</p>
+<p><strong><code>Técnica Marcial</code> no lugar do Fundamento.</strong></p>
+<p><strong><code>Núcleos (N)</code>.</strong> Se ele tiver mais de um núcleo, o traço entra na ficha. Veja o capítulo 5.</p>
+</aside><p><code>PADRÃO</code> — a obra mostra com detalhe como esses corpos são feitos, e a maior parte do detalhe não
+vira regra: informação de alma replicada a partir de informação física, núcleos instalados num
+corpo, e três almas compatíveis observando umas às outras o tempo todo para que ele ganhe
+consciência de si.</p><aside class="destaque">
+<p><code>FERRAMENTA</code></p>
+<p>Um corpo amaldiçoado consciente é três almas se vigiando por dentro. O que acontece quando uma
+delas para de olhar rende uma sessão inteira.</p>
+<p>Não confunda as almas com o traço <code>Núcleos (N)</code>. O traço reparte a vida; as almas da obra<br/>
+estabilizam a consciência e não têm regra. Narre as duas juntas, e na hora de aplicar use só o
+traço.</p>
+</aside><hr/><h2 id="cap-tipos-de-criatura-shikigami"><code>shikigami</code></h2><p class="sabor"><strong><code>shikigami</code></strong> — invocado, e serve enquanto existe.</p><aside class="destaque">
+<p><code>REGRA</code></p>
+<p><strong>Destruído não volta.</strong> Some no zero, sem <code>Inconsciente</code><span class="ix-anc" id="ix-cap-tipos-de-criatura-cicatriz"></span>, sem Sequela e sem Cicatriz.</p>
+<p><strong>A régua é a vida máxima daquele corpo.</strong> Ele morre de vez se um único golpe causar a régua<br/>
+inteira, ou se o excedente passar de metade dela.</p>
+<p><strong>Área derruba e nunca destrói.</strong> Área não é golpe único.</p>
+<p><strong>Uma exceção.</strong> O invocado que combina duas sombras pode ser reinvocado.</p>
+</aside><p><code>PADRÃO</code> — na obra, shikigami destruído sai da lista do invocador para sempre. Por isso mandar um
+para a frente é uma decisão séria.</p><aside class="destaque">
+<p>Existe uma leitura de comunidade segundo a qual um shikigami destruído por um terceiro poderia
+voltar num ritual novo. A obra não confirma. Use como nuance, se quiser.</p>
+</aside></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+<section class="capitulo cap-3">
+  <header class="abertura">
+    <span class="abertura-n"><span class="kanji">転</span><span class="arab">Capítulo 3</span></span>
+    <h1 id="cap-pessoas-e-maldicoes">Pessoas e maldições</h1>
+  </header>
+<div class="c2"><p>Uma pessoa se liga a uma maldição de três maneiras: carregando uma em vida, virando uma depois de
+morta, ou tendo a morte amaldiçoada por outra pessoa. Cada estado rende uma aventura diferente, e
+as seções a seguir tratam de um por vez.</p><p class="tab-titulo"><strong>Estados da pessoa</strong></p><table class="tab"><colgroup><col style="width:26.97%"/><col style="width:41.94%"/><col style="width:31.09%"/></colgroup>
+<thead>
+<tr>
+<th>estado</th>
+<th>o que aconteceu</th>
+<th>quem amaldiçoou</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="nome"><strong>amaldiçoado e vivo</strong></td>
+<td>a pessoa carrega uma maldição em cima dela</td>
+<td>não importa ainda</td>
+</tr>
+<tr>
+<td class="nome"><strong>morte sem energia amaldiçoada</strong></td>
+<td>a energia dela mesma sobrou e virou bicho</td>
+<td>ninguém</td>
+</tr>
+<tr>
+<td class="nome"><strong>morte amaldiçoada</strong></td>
+<td>vira espírito vingativo, preso a quem amaldiçoou</td>
+<td>outra pessoa, quase sempre sem saber</td>
+</tr>
+</tbody>
+</table><p>O primeiro estado é o único em que ainda dá para fazer alguma coisa pela pessoa. É o estado da
+investigação, e o que a mesa costuma encontrar primeiro. Ele está em <em>Humano amaldiçoado</em>.</p><h1>Morte sem energia amaldiçoada</h1><p><code>PADRÃO</code></p><aside class="destaque">
+<p>Para impedir que um feiticeiro vire maldição depois de morto, é preciso matá-lo com energia
+amaldiçoada.</p>
+</aside><p>A primeira impressão do volume 22 trazia "matá-lo com Jujutsu", e a errata trocou por "energia
+amaldiçoada". Vale a versão corrigida. Jujutsu é técnica, e nem todo feiticeiro tem uma; energia,
+qualquer feiticeiro tem. A frase impressa fazia quase toda morte produzir maldição, e a corrigida
+faz quase nenhuma.</p><h2 id="cap-pessoas-e-maldicoes-alcance-da-regra">Alcance da regra</h2><p class="sabor">Na obra, os feiticeiros que morreram e não voltaram como maldição foram mortos com energia
+amaldiçoada. Quase todo mundo que morre naquele mundo morre por energia amaldiçoada, porque quase
+todo mundo que mata ali é feiticeiro ou maldição.</p><p class="tab-titulo"><strong>Mortes de feiticeiro na obra</strong></p><table class="tab"><colgroup><col style="width:19.41%"/><col style="width:42.97%"/><col style="width:37.62%"/></colgroup>
+<thead>
+<tr>
+<th>quem morreu</th>
+<th>por quem</th>
+<th>usou energia amaldiçoada?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="nome">Nanami</td>
+<td>Mahito</td>
+<td>sim — maldição, com técnica</td>
+</tr>
+<tr>
+<td class="nome">Kokichi</td>
+<td>Mahito</td>
+<td>sim</td>
+</tr>
+<tr>
+<td class="nome"><strong>Naoya</strong></td>
+<td><strong>a mãe da Maki, com faca de cozinha</strong></td>
+<td><strong>não</strong></td>
+</tr>
+</tbody>
+</table><p>O Naoya é a exceção. A Maki derrubou ele e parou por aí; quem deu o golpe que matou foi a mãe
+dela, com uma faca de cozinha. Faca comum não carrega energia amaldiçoada, e ele voltou.</p><p>A regra dispara uma vez na obra inteira, e funciona como consequência narrada.</p><h2 id="cap-pessoas-e-maldicoes-ferramenta-amaldicoada"><span class="ix-anc" id="ix-cap-pessoas-e-maldicoes-ferramenta-amaldicoada"></span>Ferramenta amaldiçoada</h2><p class="sabor"><code>FERRAMENTA</code></p><p>Ferramenta amaldiçoada carrega energia amaldiçoada própria, independente de quem segura. Por isso
+um não-feiticeiro consegue exorcizar maldição com uma na mão.</p><p>Um <code>restringido</code> com ferramenta está matando com energia amaldiçoada, e ferramenta é como a Maki e
+o Toji lutam por padrão. O caso que produz maldição é o de matar sem energia amaldiçoada nenhuma
+no golpe: de mãos nuas, ou com arma comum.</p><p>A cena da obra confirma essa leitura pelos dois lados. A Maki passou a luta inteira com uma
+ferramenta amaldiçoada na mão e não matou o Naoya. Quem matou foi a mãe dela, com faca de cozinha,
+e foi essa morte que devolveu ele como maldição.</p><aside class="destaque">
+<p>A obra não trata do caso da ferramenta com todas as letras. A conclusão vem de "a ferramenta
+carrega energia própria", que é inferência forte, e continua sendo inferência.</p>
+<p>Na mesa, a decisão é do mestre. O recomendado é que a ferramenta conte como energia
+amaldiçoada.</p>
+</aside><h1>Morte amaldiçoada</h1><p>Quando alguém amaldiçoa a morte de outra pessoa, o morto vira espírito vingativo (<code>過呪怨霊</code>), a
+primeira das cinco categorias da obra, no capítulo 1.</p><p>A Rika morreu atropelada, num acidente comum, sem nada de sobrenatural na causa. O que a
+transformou foi o Yuta: criança, ele recusou a morte dela, e a recusa amaldiçoou. Ela voltou
+carregando os arrependimentos dela somados à negação dele, e ele passou anos sem saber que tinha
+feito aquilo.</p><p><code>PADRÃO</code> — quem amaldiçoa raramente é vilão. É alguém que amava demais e não conseguiu soltar.</p><p><span class="ix-anc" id="ix-cap-pessoas-e-maldicoes-grau"></span>O que ela virou foi um espírito vingativo de grau máximo, obcecado em proteger ele. Os
+superiores duvidavam que o Gojo conseguisse contê-la.</p><h2 id="cap-pessoas-e-maldicoes-desfecho">Desfecho</h2><p class="sabor">O Yuta não exorcizou a Rika. Ele aprendeu a <strong>desfazer</strong> a maldição, e ela pôde ir embora.</p><aside class="destaque">
+<p><code>FERRAMENTA</code></p>
+<p>O espírito vingativo é o único que a mesa pode resolver em vez de matar: ele está preso a uma
+pessoa viva, e não a um lugar.</p>
+<p>Achar essa pessoa é a aventura, e convencê-la a soltar é o clímax, sem nenhuma rolagem de
+ataque.</p>
+<p>Matar também encerra o serviço, e a escolha entre as duas saídas é da mesa.</p>
+</aside><h2 id="cap-pessoas-e-maldicoes-residuo">Resíduo</h2><p class="sabor">No capítulo 178 do mangá, a obra revela que a "Rika" que acompanha o Yuta depois já não é o
+espírito vingativo. A alma foi solta mesmo. O que ficou é extensão da técnica inata dele, que
+copiou a Rika e os ganhos dela e guarda energia para ele.</p><aside class="destaque">
+<p><code>FERRAMENTA</code> — desfazer um espírito vingativo não apaga necessariamente tudo que ele deixou. A<br/>
+pessoa vai embora, e o que sobrou pode virar outra coisa e seguir com o grupo.</p>
+</aside><h1>Humano amaldiçoado</h1><p><code>FERRAMENTA</code></p><p>A obra classifica separadamente quem está vivo carregando uma maldição. Entra nessa conta quem
+foi morto por uma maldição e quem está vivo sendo assombrado por uma.</p><p>O caso famoso é o próprio Yuta. Ele era registrado como humano amaldiçoado de grau especial, e
+não como feiticeiro. O que mudou o caso dele foi o Gojo ter percebido que a Rika protegia em vez
+de machucar, e ter matriculado ele na escola. O grau dele vinha da Rika, e não dele.</p><p>Humano amaldiçoado é um estado, e não um tipo: ele se soma a qualquer um dos sete tipos do
+capítulo 2. Isso abre uma rota de personagem inteira: alguém pode começar a campanha como <code>civil</code>
+amaldiçoado e virar <code>feiticeiro</code> sem trocar de ficha.</p><h1>Lacunas da obra</h1><p>A obra não dá a chance de um feiticeiro virar maldição ao morrer. Não diz se muda com o grau do
+morto, não dá porcentagem, e o único caso que ela mostra virou um útero amaldiçoado — um caso não
+é tabela. Nada disso vira número aqui.</p></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+<section class="capitulo cap-4">
+  <header class="abertura">
+    <span class="abertura-n"><span class="kanji">場</span><span class="arab">Capítulo 4</span></span>
+    <h1 id="cap-lugares-amaldicoados">Lugares amaldiçoados</h1>
+  </header>
+<div class="c2"><p>Um lugar produz maldição quando muita gente deixa a mesma emoção ruim nele por tempo suficiente; a
+conta está no capítulo 1. De onde o lugar amaldiçoado vem está em <em>Acúmulo e contaminação</em> e
+<em>Adjacência</em>; a escola e o hospital, em <em>Escola</em> e <em>Hospital</em>; o que ele faz sozinho, em
+<em><span class="ix-anc" id="ix-cap-lugares-amaldicoados-rotina"></span>Rotina do lugar</em>; e como o grupo sai dele sem lutar, em <em>Saídas</em>.</p><p>Lugar não tem ficha. Ele é descrito em texto.</p><h1>Acúmulo e contaminação</h1><p><code>FERRAMENTA</code></p><p>Um lugar amaldiçoado nasce de um de dois motores, e o motor decide que aventura você roda.</p><p class="tab-titulo"><strong>Motores do lugar amaldiçoado</strong></p><table class="tab"><colgroup><col style="width:12.44%"/><col style="width:37.19%"/><col style="width:50.37%"/></colgroup>
+<thead>
+<tr>
+<th>motor</th>
+<th>como funciona</th>
+<th>o que a aventura vira</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="nome"><strong>acúmulo</strong></td>
+<td>gente demais, medo demais, todos na mesma direção</td>
+<td>não tem culpado. A investigação é sobre o lugar: o que se repete aqui?</td>
+</tr>
+<tr>
+<td class="nome"><strong>contaminação</strong></td>
+<td>alguém trouxe uma coisa para dentro</td>
+<td>tem culpado e tem objeto para achar. A investigação é sobre gente</td>
+</tr>
+</tbody>
+</table><p>A obra afirma o acúmulo em voz de enciclopédia e conta quase toda história com contaminação. A
+prisão de menores, a ponte, a casa do garoto e a escola do primeiro capítulo são quatro lugares com
+o mesmo desenho: um dedo deixado ali, e o dedo atraindo as maldições.</p><p>A prisão de menores tinha tudo o que o acúmulo pede — gente demais, emoção ruim, tempo de sobra —, e
+mesmo assim a maldição de lá veio de sabotagem.</p><aside class="destaque">
+<p>Escolha o motor antes de desenhar o lugar.</p>
+<p>Acúmulo dá mistério sem vilão. Contaminação dá caçada com nome no fim. O mesmo prédio muda de
+aventura só com essa escolha.</p>
+</aside><h1>Adjacência</h1><p><code>FERRAMENTA</code></p><p>O único lugar nomeado em que a obra explica a causa pelo próprio lugar é um prédio abandonado. A
+explicação não é "muita gente".</p><aside class="destaque">
+<p>O cemitério do lado, somado ao prédio vazio, fez o foco.</p>
+</aside><p>O que fez o foco foi um do lado do outro, e não cada um sozinho.</p><p>Para improvisar, monte um lugar amaldiçoado somando duas coisas comuns, em vez de inventar uma
+tragédia: escola do lado do necrotério, hospital em cima de um terreno que era outra coisa, estação
+em frente ao prédio que ninguém alugou. Nenhuma das duas metades precisa assustar sozinha.</p><p>Na mesma cena, o prédio foi limpo por andar: um feiticeiro subiu do porão, o outro desceu do
+telhado, e eles se encontraram no meio.</p><aside class="destaque">
+<p><code>FERRAMENTA</code> — lugar amaldiçoado grande se joga por partes, como os andares desse prédio. Separar<br/>
+o grupo vira escolha da mesa, e deixa de ser armadilha do mestre.</p>
+</aside><h1>Escola</h1><p>A escola aparece na obra de três jeitos, e cada um joga diferente.</p><p><strong>Escola comum.</strong> Onde o objeto foi parar, e as maldições vieram atrás.</p><p><strong>Escola de onde a coisa sai.</strong> O garoto encurralado chama o nome, e a maldição sai de dentro da
+parede.</p><p><strong>Escola dos feiticeiros.</strong> A escola que caça maldição, em <em>Escola blindada</em>.</p><h2 id="cap-lugares-amaldicoados-arquitetura">Arquitetura</h2><p class="sabor"><code>FERRAMENTA</code></p><p>Mesmo quando a maldição pertence a uma pessoa e não ao lugar, a obra a desenha emergindo da
+arquitetura. Descreva o lugar como de onde a coisa vem, e não como cenário.</p><p>Aquela maldição não foi feita pela escola: ela é espírito vingativo preso a uma pessoa, o terceiro
+estado do capítulo 3.</p><h2 id="cap-lugares-amaldicoados-escola-blindada">Escola blindada</h2><p class="sabor">A obra abre dizendo que escola produz maldição, e a escola dos feiticeiros é uma escola blindada:
+escondida na montanha, cercada de árvore, disfarçada de templo, com barreira por cima e um
+armazém de objeto indestrutível embaixo.</p><p><code>FERRAMENTA</code> — o depósito é o ponto mais perigoso da escola dos feiticeiros: ele guarda o que eles
+não conseguem destruir.</p><h2 id="cap-lugares-amaldicoados-acontecimentos-da-escola">Acontecimentos da escola</h2><p class="sabor"><code>FERRAMENTA</code></p><p>O folclore japonês tem a tradição de que toda escola guarda sete acontecimentos sobrenaturais.
+São histórias contadas entre alunos, quase sempre à noite, e cada escola inventa as suas.</p><p>Cada acontecimento tem endereço, um cômodo com nome: banheiro, escada, sala de música, laboratório,
+piscina, o corredor do último andar.</p><p>A lista não é fixa em lugar nenhum. A tradição empresta o formato, e quantas você escreve é escolha
+sua; sete é o número da promessa.</p><h2 id="cap-lugares-amaldicoados-protocolo-de-lenda">Protocolo de lenda</h2><p class="sabor"><code>FERRAMENTA</code></p><p>As lendas urbanas japonesas famosas trazem três coisas na mesma história: um endereço — o box do
+banheiro, a rua, a plataforma —, um jeito certo de invocar, e um jeito de escapar.</p><p>O protocolo é a regra social do lugar: saber a pergunta certa vale mais que a ficha, e o grupo pode
+resolver o lugar sem lutar.</p><aside class="destaque">
+<p>A lenda de lugar e o <code>vingativo imaginário</code> do capítulo 1 se ligam pelo endereço: a lenda tem<br/>
+endereço, e o molde também. A obra escreve as duas metades e não escreve a junção; use como sabor.</p>
+</aside><h1>Hospital</h1><p>Escola e hospital não estão no mesmo nível na obra. A escola tem um caso atrás do outro; o hospital
+tem a frase de enciclopédia, e mais nada.</p><p>A primeira cena da obra se passa num hospital, com um avô morrendo e o neto segurando o choro, e
+dali não sai maldição nenhuma.</p><aside class="destaque">
+<p><code>FERRAMENTA</code> — hospital é espaço livre: dá para inventar ali sem contradizer a obra.</p>
+<p>A diferença de sabor está pronta: a escola é o mesmo medo repetido por muita gente ao mesmo tempo,
+e o hospital é muita gente diferente, no pior dia de cada uma.</p>
+</aside><h1>Rotina do lugar</h1><h2 id="cap-lugares-amaldicoados-repeticao">Repetição</h2><p class="sabor"><code>FERRAMENTA</code></p><p>O folclore japonês tem uma palavra para o espírito amarrado ao chão exato onde morreu, e o traço
+que ele carrega é reencenar o momento da morte, no mesmo lugar, de novo e de novo.</p><p>A mesa que assiste à repetição descobre o que aconteceu, sem rolagem de ataque.</p><aside class="destaque">
+<p>A palavra parece folclore antigo, mas foi cunhada num mangá dos anos setenta. O folclore japonês
+moderno cria vocabulário quando precisa, e você também pode.</p>
+</aside><h2 id="cap-lugares-amaldicoados-aviso">Aviso</h2><p class="sabor"><code>PADRÃO</code></p><p>O aviso vem sempre antes do efeito: a temperatura cai, o espelho mostra o reflexo errado, um som vem
+de longe demais.</p><p>A mesa que percebe o aviso não toma o golpe, e a que não percebe toma. Quanto você avisa regula a
+dificuldade do lugar.</p><h2 id="cap-lugares-amaldicoados-moradores">Moradores</h2><p class="sabor"><code>FERRAMENTA</code></p><p>Lugar assombrado também tem morador: o zelador, o sobrevivente, quem ficou porque não tinha para
+onde ir.</p><p>Num lugar onde tudo ataca, quem ainda está vivo ali sabe coisas que o grupo precisa saber.</p><h1>Saídas</h1><h2 id="cap-lugares-amaldicoados-exorcismo-e-resolucao">Exorcismo e resolução</h2><p class="sabor"><code>PADRÃO</code></p><p>Exorcizar cala o lugar. Só a pendência resolvida acaba com ele.</p><p>A obra não diz se um lugar volta a produzir depois do serviço. A escolha abaixo é extensão nossa.</p><aside class="destaque">
+<p>Se as condições que fizeram a primeira maldição continuam ali — a escola continua sendo escola
+—, nada impede a segunda. O serviço resolve o bicho e a causa fica.</p>
+</aside><p>Com isso, o serviço de uma noite vira lugar que a mesa volta a encontrar, e pode sustentar uma
+campanha.</p><p>Deixe o exorcismo dar a pista da pendência: quem escuta o que o lugar repete descobre o que falta
+resolver.</p><h2 id="cap-lugares-amaldicoados-desmonte">Desmonte</h2><p class="sabor"><code>FERRAMENTA</code></p><p>Não existe teste genérico de desarmar lugar. Escola se desmonta com coisa de escola: achar o
+registro, achar a turma, achar quem começou o boato. A saída vem da ficção, e muda de um lugar para
+outro.</p><p>Falhar pode piorar: mexer errado no lugar é uma das coisas que o ligam. O teste tem as duas pontas,
+e falhar não é o mesmo que nada acontecer.</p><h2 id="cap-lugares-amaldicoados-isca">Isca</h2><p class="sabor"><code>PADRÃO</code></p><p>Se o lugar só machuca, a mesa aprende a evitá-lo.</p><p><span class="ix-anc" id="ix-cap-lugares-amaldicoados-vantagem"></span>Dê a ele alguma coisa que valha a entrada: um atalho, uma vantagem de posição, o que só existe lá
+dentro. Aí entrar vira escolha da mesa.</p><h1>Lugar e morador</h1><p><code>FERRAMENTA</code></p><p>O lugar também defende quem já está dentro.</p><p>A mesma escola que persegue o invasor abriga o aluno. Quem conhece o lugar sabe qual degrau
+range, qual porta não abre e por onde a coisa não passa.</p><p>Vale para os dois lados: a maldição que mora ali há tempo também conhece o lugar.</p><p>Escola e hospital são lugares com moradores, e lugar sem ninguém dentro não dá informação.</p><h1>Lacunas da obra</h1><p>A obra não diz se o lugar volta a produzir depois do serviço, e a escolha de <em>Exorcismo e resolução</em><span class="ix-anc" id="ix-cap-lugares-amaldicoados-grau"></span>
+é nossa. Ela não dá número para quanto de emoção, de gente, de tempo ou de grau vira maldição.</p><p>Lugar não tem grau: na obra, grau classifica feiticeiro, maldição e ferramenta, e a missão herda o
+grau do bicho.</p><p>A <code>Cortina</code> dura "enquanto o conjurador mantém". O que acontece se o véu cair no meio do serviço
+ninguém publicou, e a sua mesa decide.</p></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+<section class="capitulo cap-5">
+  <header class="abertura">
+    <span class="abertura-n"><span class="kanji">牌</span><span class="arab">Capítulo 5</span></span>
+    <h1 id="cap-bloco-de-inimigo">Bloco de inimigo</h1>
+  </header>
+<div class="c2"><p>A ficha de um inimigo cabe em meia página. Tudo que está nela ou sai de uma tabela do capítulo
+6, ou é escolha sua de ficção. Nenhuma linha pede conta de cabeça.</p><p>O inimigo não conta energia. O que limita o que ele faz é um rótulo de frequência ao lado do
+nome da ação, e o capítulo 7 traz os quatro que existem.</p><h1>Bloco em branco</h1><aside class="destaque">
+<h3>‹ nome ›</h3>
+<p class="sabor"><em><span class="ix-anc" id="ix-cap-bloco-de-inimigo-grau"></span>‹ tamanho › ‹ tipo ›, ‹ grau, se tiver › · </em><em>‹ categoria ›</em><em> · </em><em>‹ papel ›</em><em> · nível ‹ N ›</em></p>
+<p><strong><span class="ix-anc" id="ix-cap-bloco-de-inimigo-defesa"></span>Defesa</strong> — · <strong>Acerto</strong> — · <strong><span class="ix-anc" id="ix-cap-bloco-de-inimigo-cd"></span>CD</strong> — · <strong><span class="ix-anc" id="ix-cap-bloco-de-inimigo-refino"></span>Refino</strong> — <em><span class="ix-anc" id="ix-cap-bloco-de-inimigo-protecao"></span>(proteção —)</em></p>
+<p><strong>Vida</strong> — · <strong><span class="ix-anc" id="ix-cap-bloco-de-inimigo-integridade"></span>Integridade</strong> — · <strong>Deslocamento</strong> <code>9 m</code> · ‹ voo · escalada · escavação ›</p>
+<p><strong>Força</strong> — · <strong>Destreza</strong> — <em>(Iniciativa)</em> · <strong>Constituição</strong> — · <strong>Inteligência</strong> — · <strong><span class="ix-anc" id="ix-cap-bloco-de-inimigo-essencia"></span>Essência</strong> —</p>
+<p><strong>Físico</strong> — · <strong>Vigor</strong> — · <strong>Intelecto</strong> — · <strong>Espírito</strong> —</p>
+<p><strong>Resistências</strong> — · <strong>Imunidades</strong> — · <strong>Vulnerabilidades</strong> — · <strong>Perícias</strong> —</p>
+<p><strong><span class="ix-anc" id="ix-cap-bloco-de-inimigo-pacto"></span>Pacto</strong> — ‹ só aparece em quem tem ›</p>
+<p><strong>Traços</strong></p>
+<p><strong>‹ Nome do traço. ›</strong> ‹ o que ele faz ›</p>
+<p><strong>Ações</strong></p>
+<p><strong>Ações Múltiplas.</strong> ‹ só em quem age mais de uma vez: quais ataques, e em que combinação ›</p>
+<p><strong>‹ Nome do ataque. ›</strong> <em>Ataque corpo a corpo:</em> — para acertar, alcance —, uma criatura. <em>Acerto:</em> — (—) de dano ‹ tipo ›.</p>
+<p><strong>‹ Nome da ação em área. ›</strong> <em><span class="ix-anc" id="ix-cap-bloco-de-inimigo-teste-de-resistencia"></span>Teste de Resistência ‹ qual ›:</em><span class="ix-anc" id="ix-cap-bloco-de-inimigo-forma"></span> CD —, cada criatura numa ‹ forma ›. <em>Falha:</em> — (—) de dano ‹ tipo ›. <em>Sucesso:</em> metade do dano.</p>
+<p><strong>Intervenções</strong></p>
+<p>‹ quantas por luta, quando saem › <strong>1. ‹ Nome. ›</strong> ‹ ataque › · <strong>2. ‹ Nome. ›</strong> ‹ muda o campo › · <strong>3. ‹ Nome. ›</strong> ‹ muda o campo ›</p>
+</aside><h2 id="cap-bloco-de-inimigo-como-ler-o-cabecalho">Como ler o cabeçalho</h2><p class="sabor"><strong>Tamanho.</strong> Diz onde o corpo cabe na grade e até onde o golpe alcança. Não cobra nada.</p><p><strong>Tipo.</strong> Aponta para o capítulo 2, e vale por um pacote de regras.</p><p><strong>Grau.</strong> Opcional, e só faz sentido em maldição, feiticeiro e ferramenta.</p><p><strong>Categoria.</strong> Quantos personagens este inimigo exige. É a única coisa do cabeçalho que decide
+vida e dano.</p><p><strong>Papel.</strong> Como ele luta. O papel redistribui o que a categoria deu e nunca acrescenta.</p><h1>Linhas de defesa</h1><p><strong>Defesa, Acerto, CD e Refino</strong><span class="ix-anc" id="ix-cap-bloco-de-inimigo-marco"></span> sobem em marco de nível. Vida, golpe e ações sobem em faixa de
+Classe. As duas escadas não coincidem, e o capítulo 6 traz uma tabela para cada.</p><p><strong>Vida e Integridade</strong> carregam o mesmo número.</p><p><strong>O golpe</strong> não tem célula. Ele é o dano de uma ação, e sai escrito dentro de cada ataque, em
+<code>Ações</code><span class="ix-anc" id="ix-cap-bloco-de-inimigo-rodada"></span>, junto do alcance. Multiplicar pelo número de ações dá o dano por rodada, e por isso o dano
+por rodada também não tem célula.</p><p><strong>Deslocamento</strong> é 9 m para todo mundo. Escreva o tipo de movimento ao lado quando ele voa,
+escala ou escava.</p><p><strong>Iniciativa</strong> é a Destreza. Ela já está na linha de atributos e não ganha célula.</p><h1>Atributos</h1><p>Os cinco atributos do inimigo saem do mesmo orçamento de uma ficha de jogador.</p><p class="tab-titulo"><strong><span class="ix-anc" id="ix-cap-bloco-de-inimigo-atributo"></span>Orçamento de atributo por marco</strong></p><table class="tab"><colgroup><col style="width:15.46%"/><col style="width:29.34%"/><col style="width:15.33%"/><col style="width:39.87%"/></colgroup>
+<thead>
+<tr>
+<th>nível</th>
+<th>pontos no total</th>
+<th>Defesa</th>
+<th>Destreza que ela obriga</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="nome"><strong>2–5</strong></td>
+<td><code>9</code></td>
+<td><code>14</code></td>
+<td><code>3</code></td>
+</tr>
+<tr>
+<td class="nome"><strong>6–9</strong></td>
+<td><code>10</code></td>
+<td><code>15</code></td>
+<td><code>3</code></td>
+</tr>
+<tr>
+<td class="nome"><strong>10–13</strong></td>
+<td><code>11</code></td>
+<td><code>16</code></td>
+<td><code>4</code></td>
+</tr>
+<tr>
+<td class="nome"><strong>14–17</strong></td>
+<td><code>12</code></td>
+<td><code>17</code></td>
+<td><code>4</code></td>
+</tr>
+<tr>
+<td class="nome"><strong>18–21</strong></td>
+<td><code>13</code></td>
+<td><code>18</code></td>
+<td><code>5</code></td>
+</tr>
+<tr>
+<td class="nome"><strong>22–25</strong></td>
+<td><code>14</code></td>
+<td><code>19</code></td>
+<td><code>5</code></td>
+</tr>
+<tr>
+<td class="nome"><strong>26–30</strong></td>
+<td><code>15</code></td>
+<td><code>20</code></td>
+<td><code>6</code></td>
+</tr>
+</tbody>
+</table><p><em><code>9</code><span class="ix-anc" id="ix-cap-bloco-de-inimigo-teto"></span> pontos na criação, com teto <code>3</code> em cada atributo, e <code>+1</code> a cada marco, com teto <code>6</code>. É o mesmo orçamento da ficha de jogador.</em></p><p>Os pontos compram cor, e não tamanho. Um chefe de Força <code>6</code> e um de Essência <code>6</code> têm a mesma vida e
+o mesmo dano por rodada, e jogam diferente na mesa.</p><h2 id="cap-bloco-de-inimigo-orcamento-apertado">Orçamento apertado</h2><p class="sabor">Duas das três derivadas são obrigadas. A Defesa pede Destreza, e o acerto pede o atributo com que
+aquele inimigo ataca.</p><p>Quando esses dois são atributos diferentes, eles comem dez dos treze pontos do nível 20 e os
+quatro marcos inteiros. Sobram três pontos para os outros três atributos, e nenhum marco.</p><p>O aperto é normal: um chefe é bom em duas coisas e passável no resto. No nível 30 folga um marco.</p><h3>Saídas do aperto</h3><p class="sabor"><strong>A técnica declara o atributo.</strong> Ela pode declarar qualquer um dos cinco. Se declarar a Destreza,
+as três derivadas passam a ler o mesmo atributo: o chefe gasta cinco pontos em vez de dez, e
+sobram oito pontos e dois marcos para o resto.</p><p><strong>O Teste de Resistência <code>Físico</code> aceita Força ou Destreza</strong>, declarado na criação e travado ali.
+Um chefe de Força <code>1</code> põe o <code>Físico</code> na Destreza que a Defesa já obrigou, e o Teste sai alto em
+vez de sair <code>+1</code>.</p><h3>Atributos obrigados</h3><p class="tab-titulo sabor"><strong>Carga de cada atributo</strong></p><table class="tab"><colgroup><col style="width:16.83%"/><col style="width:83.17%"/></colgroup>
+<thead>
+<tr>
+<th>atributo</th>
+<th>além da derivada, ele carrega</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="nome"><strong><code>Destreza</code></strong></td>
+<td>Defesa · Iniciativa · ataque à distância · e o Teste <code>Físico</code></td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Essência</code></strong></td>
+<td>acerto · CD · o Teste <code>Espírito</code> · e o teto de pacto</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Força</code></strong></td>
+<td>acerto, e mais nada. Ela não alimenta Teste de Resistência nenhum</td>
+</tr>
+</tbody>
+</table><p>Um chefe que conjura pela Força é o mais apertado de todos. Declarado, e não proibido.</p><aside class="destaque">
+<p>A <code>Destreza</code> sendo a saída barata não transforma todo chefe num chefe de <code>Destreza</code>. O atributo da<br/>
+técnica é a cor do bicho: se a ficção pede <code>Essência</code>, ele paga os dez pontos e fica com três de<br/>
+cor.</p>
+</aside><h1>Testes de Resistência</h1><p>O bloco traz os quatro — <code>Físico</code>, <code>Vigor</code>, <code>Intelecto</code> e <code>Espírito</code> — e <strong>dois deles são
+treinados</strong>. Escolha os dois que a ficção do bicho defende.</p><p>O <code>Físico</code> é o mais rolado da mesa, e ele lê Força ou Destreza, o que você declarar. Os outros
+três leem o atributo de sempre.</p><h1>Resistência, imunidade e vulnerabilidade</h1><p>Cada uma dessas três células multiplica o fator da categoria, e o fator diz quantos personagens
+o encontro exige.</p><p class="tab-titulo"><strong>Preço das células</strong></p><table class="tab"><colgroup><col style="width:25.82%"/><col style="width:74.18%"/></colgroup>
+<thead>
+<tr>
+<th>a célula</th>
+<th>multiplica o fator por</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="nome"><strong><code>Resistências</code></strong></td>
+<td><code>Físicos</code> <code>1,43</code> · <code>Elementais</code> <code>1,18</code> · <code>Especiais</code> <code>1,05</code> · um tipo só <code>1,11</code></td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Imunidades</code></strong> (dano)</td>
+<td><code>Físicos</code> <code>2,50</code> · <code>Elementais</code> <code>1,43</code> · <code>Especiais</code> <code>1,11</code> · um tipo só <code>1,25</code></td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Imunidades</code></strong><span class="ix-anc" id="ix-cap-bloco-de-inimigo-condicao"></span> (condição)</td>
+<td><code>1,20</code><span class="ix-anc" id="ix-cap-bloco-de-inimigo-desvantagem"></span> se ela rouba ação dele ou dá desvantagem nos ataques dele; <code>1,00</code> em qualquer outra</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Vulnerabilidades</code></strong></td>
+<td><code>1,00</code></td>
+</tr>
+</tbody>
+</table><h2 id="cap-bloco-de-inimigo-vulnerabilidade">Vulnerabilidade</h2><aside class="destaque">
+<p>O dano daquele tipo dobra contra ele.</p>
+<p>Nada mais na ficha muda: nem o fator, nem a vida, nem a categoria.</p>
+</aside><p>Escreva <code>Vulnerabilidades: Fogo</code>, e nada mais muda.</p><p>O que ela vale na mesa: se um dos quatro personagens bate naquele tipo de dano, a saída do grupo
+sobe um quarto e a luta encurta um quinto.</p><h2 id="cap-bloco-de-inimigo-condicao-na-celula-de-imunidade">Condição na célula de imunidade</h2><p class="sabor">Escreva <code>Imunidades: Veneno, Atordoado</code>. O texto se separa sozinho, porque tipo de dano é
+substantivo de dano e condição é nome de condição.</p><aside class="destaque">
+<p>Ser imune a <code>Físicos</code> é a célula mais cara que existe. Um <code>Desastre</code> imune a <code>Físicos</code> exige dez<br/>
+personagens, e não quatro.</p>
+<p>Ela continua liberada. Saiba quanto ela custa antes de dar.</p>
+</aside><p><strong>Fraqueza não é nome de célula, e a palavra fica livre.</strong> Vulnerabilidade é o dano; fraqueza é
+narrativa, e serve para a coisa que derruba o bicho sem passar por dano nenhum.</p><h1>Pacto</h1><p>Esta é a única linha condicional do bloco. Quem não tem pacto não imprime ela.</p><p>Ela lista todos os votos, inclusive os que já aparecem entre parênteses no nome de uma ação. Não
+é o mesmo texto duas vezes: a linha é a lista, e o parêntese é o aviso no ponto de uso.</p><p>Quantos pactos um inimigo aguenta é a Essência dele dividida por dois, arredondando para baixo,
+e a Essência está duas linhas acima na ficha.</p><h1>Traços</h1><p>Traço é o que está sempre ligado. É nele que a ficção explica os números da tabela.</p><p><strong><code>Núcleos (N)</code>.</strong> A vida dele é repartida em <code>N</code> núcleos iguais. Zerar um não o derruba:
+enquanto sobrar núcleo de pé, o caído volta no começo do próximo turno dele. Ele cai quando o
+último zera.</p><aside class="destaque">
+<p>Só imprima <code>Núcleos</code> se <code>N</code> for maior que 1. O padrão é um núcleo, e com um ele morre a zero<br/>
+como todo mundo.</p>
+<p>A vida total não muda e o fator não muda. A partição obriga o grupo a espalhar dano, e nada
+mais.</p>
+</aside><h1>Ações e Intervenções</h1><p><code>Ações</code> é a lista do que ele faz no turno. Cada ação vale um golpe, e quantas ações ele tem por
+rodada sai da categoria, no Passo 1 do capítulo 6.</p><p><strong>Cada ataque entra com nome próprio, e o nome é a arma ou a parte do corpo que bate:</strong> Mordida,
+Garra, Kanabō, Pisada. Quando o golpe tem jeito próprio, o nome é o golpe: Pancada no Chão,
+Varrida das Patas.</p><p>Não escreva "Ataque de" no nome. "Ataque de" é como as <code>Ações Múltiplas</code> chamam o ataque na frase
+delas — <em>três ataques de Kanabō</em> —, e é só ali que a palavra aparece.</p><p><strong><code>Ações Múltiplas</code></strong> é a primeira entrada de <code>Ações</code> em quem age mais de uma vez por rodada. Ela
+diz quais ataques ele faz e em que combinação, pelo nome, e não repete número: <em>o Oni faz três
+ataques de Kanabō, ou usa Pancada no Chão e faz dois ataques de Kanabō.</em> Quem age uma vez só não
+tem essa entrada.</p><p><code>Intervenções</code> só existem de <code>Desastre</code> para cima. São três por luta, cada uma usada uma vez só, no
+máximo uma por rodada, e elas acontecem logo depois do turno de outra criatura.</p><p>A seção abre com essa regra numa frase e lista as três, numeradas e com nome:</p><ol>
+<li>Um ataque que já está no bloco, um pouco mais fraco que numa ação normal: nas maldições prontas,
+   é o ataque sem a metade no vizinho.</li>
+<li>Uma mudança no campo.</li>
+<li>Outra mudança no campo.</li>
+</ol><p>A segunda e a terceira não somam dano. Elas mudam onde as pessoas estão, o que elas alcançam e o
+que o terreno faz.</p><h1>Linha de entradas nomeadas</h1><p class="tab-titulo"><strong>Linha recomendada</strong></p><table class="tab"><colgroup><col style="width:67.88%"/><col style="width:32.12%"/></colgroup>
+<thead>
+<tr>
+<th>bloco</th>
+<th>entradas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="nome">normal</td>
+<td><code>6</code></td>
+</tr>
+<tr>
+<td class="nome">chefe de fim de arco</td>
+<td><code>8</code></td>
+</tr>
+</tbody>
+</table><p><code>Ações Múltiplas</code> conta como entrada. As <code>Intervenções</code> não contam.</p><aside class="destaque">
+<p>O que limita o inimigo é quantas vezes ele age, e não quantas coisas estão escritas nele.</p>
+<p>Passar da linha não desequilibra nada: só deixa o bloco mais pesado de rodar na mesa, e a escolha
+é sua.</p>
+</aside><h1>Bloco seco</h1><p>Quando o golpe de uma ação dividido por <code>4,5</code> dá menos que os <code>3</code> pontos de uma <code>Classe 1</code><span class="ix-anc" id="ix-cap-bloco-de-inimigo-feitico"></span>,
+aquela ação não monta feitiço. Ela bate, e o dano sai como a <code>Vida e golpe por faixa</code> manda.</p><p>É o caso de toda <code>Ameaça</code> do nível 2 ao 8, e de todo <code>Capanga</code> até o 8.</p><aside class="destaque">
+<p>Isso não deixa o bloco vazio. Dê a ele um traço qualitativo.</p>
+<p>Um sentido, um jeito de se mover, uma aparência que engana, ou o motivo de eles andarem em
+bando. O traço não custa orçamento nenhum.</p>
+</aside><p>Um inimigo de nível baixo com uma ação e um traço passivo é a forma normal da coisa.</p></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ATRIBUTOS -->
+
+
+
+<!-- FIM ATRIBUTOS -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+<section class="capitulo cap-6">
+  <header class="abertura">
+    <span class="abertura-n"><span class="kanji">組</span><span class="arab">Capítulo 6</span></span>
+    <h1 id="cap-criacao-de-inimigos">Criação de inimigos</h1>
+  </header>
+<div class="c2"><p>A montagem tem três passos, nesta ordem, e cada um lê uma tabela.</p><p><em>Passo 1 · Categoria</em> diz quanto o inimigo aguenta, <em>Passo 2 · Papel</em> diz como ele luta, e
+<em>Passo 3 · Tamanho</em> diz onde o corpo cabe e até onde o golpe alcança. Os números de cada nível estão
+em <em>Tabelas de nível</em><span class="ix-anc" id="ix-cap-criacao-de-inimigos-fundamento"></span>, e a ação montada no Fundamento, em <em>Escrita de ação</em>.</p><h1>Passo 1 · Categoria</h1><p>A categoria responde uma pergunta só: <strong>quantos personagens este inimigo exige?</strong></p><p>O fator da categoria e o número de pessoas são a mesma coisa em duas unidades:
+<strong><code>personagens = fator × 4</code></strong>. Um bicho de fator <code>1,92</code> exige <code>7,7</code> pessoas.</p></div>
+
+
+
+
+
+<table class="tab muito-larga plena"><caption><strong>Categorias</strong></caption><colgroup><col style="width:14.58%"/><col style="width:19.76%"/><col style="width:18.98%"/><col style="width:7.48%"/><col style="width:7.23%"/><col style="width:13.31%"/><col style="width:18.66%"/></colgroup>
+<thead>
+<tr>
+<th>categoria</th>
+<th>quem ela pede</th>
+<th>vida</th>
+<th>dano</th>
+<th>ações</th>
+<th>corpos</th>
+<th>tem <code>Intervenção</code>?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="nome"><strong><code>Capanga</code></strong></td>
+<td>—</td>
+<td>dano do grupo ÷ 4</td>
+<td><code>0,25</code></td>
+<td><code>1</code></td>
+<td><code>8</code>, em pool</td>
+<td>não</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Ameaça</code></strong></td>
+<td><code>1</code></td>
+<td><code>0,25</code></td>
+<td><code>0,25</code></td>
+<td><code>1</code></td>
+<td><code>1</code></td>
+<td>não</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Desastre</code></strong></td>
+<td><code>4</code> — a mesa padrão</td>
+<td><code>1,00</code></td>
+<td><code>1,00</code></td>
+<td><code>3</code></td>
+<td><code>1</code></td>
+<td>sim</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Catástrofe</code></strong></td>
+<td><code>6</code> — a mesa cheia</td>
+<td><code>1,50</code></td>
+<td><code>1,50</code></td>
+<td><code>5</code></td>
+<td><code>1</code></td>
+<td>sim</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Calamidade</code></strong></td>
+<td><code>8</code></td>
+<td><code>2,00</code></td>
+<td><code>2,00</code></td>
+<td><code>6</code></td>
+<td><code>1</code></td>
+<td>sim</td>
+</tr>
+</tbody>
+</table>
+<div class="c2"><p>O <code>Desastre</code> é a linha da tabela de inimigo do manual sem tocar em nada. As outras saem dela.</p><aside class="destaque">
+<p>Nas colunas de quem tem <code>Intervenção</code>, a <code>Vida e golpe por faixa</code> já traz o golpe multiplicado<br/>
+por <code>0,923</code>. Use o golpe como ele está.</p>
+</aside><h2 id="cap-criacao-de-inimigos-teto-de-empilhamento"><span class="ix-anc" id="ix-cap-criacao-de-inimigos-teto"></span>Teto de empilhamento</h2><aside class="destaque">
+<p>No máximo <code>3</code><span class="ix-anc" id="ix-cap-criacao-de-inimigos-rodada"></span> corpos do mesmo esquadrão atacam o mesmo alvo por rodada, e do segundo em<br/>
+diante o golpe sai pela metade.</p>
+</aside><p>Sem a trava, oito corpos entregam mais que a vida inteira de um personagem numa rodada. Com
+ela, entregam menos da metade.</p><p>A trava não encolhe o esquadrão. Os oito continuam entregando tudo; eles só não concentram.</p><h2 id="cap-criacao-de-inimigos-encontro-misturado">Encontro misturado</h2><p class="sabor">Quando você põe capangas ao lado de um chefe inteiro, os fatores não se somam.</p><aside class="destaque">
+<p><strong>fator do encontro = fator do chefe + (capangas × <code>0,083</code>)</strong></p>
+</aside><p>A régua vale até quatro capangas somados a um chefe. Acima disso cada corpo passa a valer mais.</p><p class="tab-titulo"><strong>Chefe acompanhado</strong></p><table class="tab"><colgroup><col style="width:35.58%"/><col style="width:29.38%"/><col style="width:35.04%"/></colgroup>
+<thead>
+<tr>
+<th>o chefe vem</th>
+<th>ele fica com</th>
+<th>o encontro exige</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="nome">sozinho</td>
+<td><code>100%</code> da vida</td>
+<td><code>4,00</code> pessoas</td>
+</tr>
+<tr>
+<td class="nome">com um apoio</td>
+<td><code>91,5%</code></td>
+<td><code>4,33</code></td>
+</tr>
+<tr>
+<td class="nome">com dois</td>
+<td><code>83,0%</code></td>
+<td><code>4,67</code></td>
+</tr>
+<tr>
+<td class="nome">em bando (três)</td>
+<td><code>74,5%</code></td>
+<td><code>5,00</code></td>
+</tr>
+</tbody>
+</table><h1>Passo 2 · Papel</h1><p>O papel diz como ele luta. Ele redistribui o que a categoria deu, e nunca acrescenta.</p><p class="tab-titulo"><strong>Papéis</strong></p><table class="tab"><colgroup><col style="width:18.08%"/><col style="width:48.86%"/><col style="width:33.06%"/></colgroup>
+<thead>
+<tr>
+<th>papel</th>
+<th>o que ele ganha</th>
+<th>o que ele paga</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="nome"><strong><code>Brutamontes</code></strong></td>
+<td>vida × <code>1,20</code></td>
+<td><span class="ix-anc" id="ix-cap-criacao-de-inimigos-defesa"></span>Defesa −2</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Guardião</code></strong></td>
+<td>Defesa +2</td>
+<td>vida × <code>0,80</code></td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Artilheiro</code></strong></td>
+<td>alcance, a taxa fixa</td>
+<td>vida × <code>0,857</code></td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Emboscador</code></strong></td>
+<td><span class="ix-anc" id="ix-cap-criacao-de-inimigos-vantagem"></span>vantagem em <code>1</code> ataque por rodada, toda rodada</td>
+<td>vida × a linha da categoria</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Controlador</code></strong></td>
+<td><code>1</code> ação negada do grupo</td>
+<td>dano × <code>0,667</code></td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Apoio</code></strong></td>
+<td>o mesmo <code>1</code> para <code>1</code>, em outro bloco</td>
+<td>dano</td>
+</tr>
+</tbody>
+</table><p>O golpe não muda em nenhum papel.</p><h2 id="cap-criacao-de-inimigos-pagamento-do-emboscador">Pagamento do <code>Emboscador</code></h2><p class="sabor">O pagamento dele muda com a categoria.</p><p class="tab-titulo"><strong>Vida do <code>Emboscador</code>, por categoria</strong></p><table class="tab"><colgroup><col style="width:66.91%"/><col style="width:33.09%"/></colgroup>
+<thead>
+<tr>
+<th>categoria</th>
+<th>vida ×</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="nome"><code>Capanga</code> e <code>Ameaça</code></td>
+<td><code>0,677</code></td>
+</tr>
+<tr>
+<td class="nome"><code>Desastre</code></td>
+<td><code>0,863</code></td>
+</tr>
+<tr>
+<td class="nome"><code>Catástrofe</code></td>
+<td><code>0,913</code></td>
+</tr>
+<tr>
+<td class="nome"><code>Calamidade</code></td>
+<td><code>0,927</code></td>
+</tr>
+</tbody>
+</table><aside class="destaque">
+<p>Use a linha da categoria do bicho, e não um número só desta tabela.</p>
+</aside><h2 id="cap-criacao-de-inimigos-papel-por-categoria">Papel por categoria</h2><p class="sabor">O <code>Capanga</code> toma quatro papéis: <code>Artilheiro</code>, <code>Emboscador</code>, <code>Apoio</code> e <code>Controlador</code>. O
+<code>Controlador</code> num esquadrão conta as oito ações do esquadrão, e não a de um corpo.</p><p><code>Brutamontes</code> e <code>Guardião</code> ficam fora do <code>Capanga</code>. O <code>Brutamontes</code>, porque um <code>Capanga</code> que não cai
+num golpe é uma <code>Ameaça</code>.</p><p>O <code>Emboscador</code> não sobe de <code>Grande</code>. O <code>Guardião</code> e o <code>Apoio</code> só se pagam com mais de um inimigo
+no encontro.</p><h1>Passo 3 · Tamanho</h1><p>O tamanho diz onde o corpo cabe e até onde o golpe alcança. Ele não cobra nada.</p><p class="tab-titulo"><strong>Tamanho, grade e alcance</strong></p><table class="tab"><colgroup><col style="width:29.68%"/><col style="width:23.99%"/><col style="width:11.27%"/><col style="width:35.07%"/></colgroup>
+<thead>
+<tr>
+<th>tamanho</th>
+<th>ocupa na grade</th>
+<th>alcance</th>
+<th>o golpe pega</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="nome"><code>Minúsculo</code> · <code>Pequeno</code> · <strong><code>Médio</code></strong></td>
+<td><code>1×1</code> <em>(1,5 × 1,5 m)</em></td>
+<td><code>1,5 m</code></td>
+<td>só o alvo</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Grande</code></strong></td>
+<td><code>2×2</code> <em>(3 × 3 m)</em></td>
+<td><code>3 m</code></td>
+<td>o alvo, e metade em <code>1</code> vizinho</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Imenso</code></strong></td>
+<td><code>3×3</code> <em>(4,5 × 4,5 m)</em></td>
+<td><code>4,5 m</code></td>
+<td>o alvo, e metade em <code>1</code> vizinho</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Colossal</code></strong></td>
+<td><code>4×4</code> <em>(6 × 6 m)</em></td>
+<td><code>6 m</code></td>
+<td>o alvo, e metade em <code>1</code> vizinho</td>
+</tr>
+</tbody>
+</table><p>A escada do tamanho mora no alcance. Nos alvos ele é um degrau só: <code>Grande</code>, <code>Imenso</code> e
+<code>Colossal</code> pegam o mesmo vizinho a metade.</p><aside class="destaque">
+<p>A Defesa não muda com o tamanho, e o tamanho não pede nada em troca.</p>
+<p>Um bicho de <code>Grande</code> para cima entrega perto de um quinto a mais que um <code>Médio</code> da mesma<br/>
+categoria, de graça. Conte com essa folga.</p>
+</aside><p>A coluna da grade limita o teto de empilhamento: um esquadrão de oito <code>Capanga</code> <code>Grande</code> ocupa
+trinta e dois quadrados, e três deles não cabem em volta de uma pessoa sem que o mapa permita.</p><h1>Tabelas de nível</h1></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- TABELAS -->
+
+<table class="tab larga plena"><caption><strong>Vida e golpe por faixa</strong></caption><colgroup><col style="width:7.66%"/><col style="width:19.09%"/><col style="width:17.57%"/><col style="width:18.08%"/><col style="width:18.63%"/><col style="width:18.97%"/></colgroup>
+<thead>
+<tr>
+<th>nível</th>
+<th><code>Capanga</code> (cada um)</th>
+<th><code>Ameaça</code></th>
+<th><code>Desastre</code></th>
+<th><code>Catástrofe</code></th>
+<th><code>Calamidade</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="nome"><strong>2–4</strong></td>
+<td>9 · 4</td>
+<td>28 · 4</td>
+<td>114 · 1d4 + 3</td>
+<td>171 · 5</td>
+<td>228 · 1d4 + 3</td>
+</tr>
+<tr>
+<td class="nome"><strong>5–8</strong></td>
+<td>22 · 2d4 + 5</td>
+<td>67 · 2d4 + 5</td>
+<td>270 · 2d4 + 7</td>
+<td>405 · 1d10 + 5</td>
+<td>540 · 2d4 + 7</td>
+</tr>
+<tr>
+<td class="nome"><strong>9–12</strong></td>
+<td>32 · 2d8 + 10</td>
+<td>97 · 2d8 + 10</td>
+<td>390 · 2d10 + 12</td>
+<td>585 · 3d6 + 10</td>
+<td>780 · 2d10 + 12</td>
+</tr>
+<tr>
+<td class="nome"><strong>13–16</strong></td>
+<td>45 · 4d6 + 14</td>
+<td>135 · 4d6 + 14</td>
+<td>540 · 4d8 + 16</td>
+<td>810 · 6d4 + 16</td>
+<td>1080 · 5d6 + 17</td>
+</tr>
+<tr>
+<td class="nome"><strong>17–20</strong></td>
+<td>55 · 4d8 + 19</td>
+<td>165 · 4d8 + 19</td>
+<td>660 · 5d8 + 23</td>
+<td>990 · 8d4 + 21</td>
+<td>1320 · 5d8 + 23</td>
+</tr>
+<tr>
+<td class="nome"><strong>21–25</strong></td>
+<td>68 · 4d10 + 24</td>
+<td>206 · 4d10 + 24</td>
+<td>825 · 8d6 + 28</td>
+<td>1237 · 4d12 + 25</td>
+<td>1650 · 8d6 + 28</td>
+</tr>
+<tr>
+<td class="nome"><strong>26–30</strong></td>
+<td>78 · 6d8 + 28</td>
+<td>236 · 6d8 + 28</td>
+<td>945 · 6d10 + 34</td>
+<td>1417 · 7d8 + 29</td>
+<td>1890 · 6d10 + 34</td>
+</tr>
+</tbody>
+</table>
+<div class="c2"><p><em>Vida · golpe de uma ação. O golpe sai uma vez por ação, e o número de ações está na tabela do Passo 1. Em <code>Desastre</code>, <code>Catástrofe</code> e <code>Calamidade</code> o golpe já vem com o <code>0,923</code> da <code>Intervenção</code>.</em></p><p class="tab-titulo"><strong>Pool do esquadrão de <code>Capanga</code></strong></p><table class="tab"><colgroup><col style="width:23.89%"/><col style="width:33.97%"/><col style="width:42.14%"/></colgroup>
+<thead>
+<tr>
+<th>nível</th>
+<th>vida de um</th>
+<th>pool dos oito</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="nome"><strong>2–4</strong></td>
+<td>9</td>
+<td><strong>72</strong></td>
+</tr>
+<tr>
+<td class="nome"><strong>5–8</strong></td>
+<td>22</td>
+<td><strong>176</strong></td>
+</tr>
+<tr>
+<td class="nome"><strong>9–12</strong></td>
+<td>32</td>
+<td><strong>256</strong></td>
+</tr>
+<tr>
+<td class="nome"><strong>13–16</strong></td>
+<td>45</td>
+<td><strong>360</strong></td>
+</tr>
+<tr>
+<td class="nome"><strong>17–20</strong></td>
+<td>55</td>
+<td><strong>440</strong></td>
+</tr>
+<tr>
+<td class="nome"><strong>21–25</strong></td>
+<td>68</td>
+<td><strong>544</strong></td>
+</tr>
+<tr>
+<td class="nome"><strong>26–30</strong></td>
+<td>78</td>
+<td><strong>624</strong></td>
+</tr>
+</tbody>
+</table></div>
+
+
+
+<table class="tab larga plena"><caption><strong><span class="ix-anc" id="ix-cap-criacao-de-inimigos-cd"></span>Defesa, acerto, CD e refino por marco</strong></caption><colgroup><col style="width:17.12%"/><col style="width:16.98%"/><col style="width:17.10%"/><col style="width:11.82%"/><col style="width:16.25%"/><col style="width:20.72%"/></colgroup>
+<thead>
+<tr>
+<th>nível</th>
+<th>Defesa</th>
+<th>acerto</th>
+<th>CD</th>
+<th><span class="ix-anc" id="ix-cap-criacao-de-inimigos-refino"></span>refino</th>
+<th><span class="ix-anc" id="ix-cap-criacao-de-inimigos-protecao"></span>proteção</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="nome"><strong>2–5</strong></td>
+<td>14</td>
+<td>+4</td>
+<td>12</td>
+<td>1</td>
+<td>+1</td>
+</tr>
+<tr>
+<td class="nome"><strong>6–9</strong></td>
+<td>15</td>
+<td>+4</td>
+<td>12</td>
+<td>3</td>
+<td>+2</td>
+</tr>
+<tr>
+<td class="nome"><strong>10–13</strong></td>
+<td>16</td>
+<td>+6</td>
+<td>14</td>
+<td>4</td>
+<td>+2</td>
+</tr>
+<tr>
+<td class="nome"><strong>14–17</strong></td>
+<td>17</td>
+<td>+6</td>
+<td>14</td>
+<td>6</td>
+<td>+3</td>
+</tr>
+<tr>
+<td class="nome"><strong>18–21</strong></td>
+<td>18</td>
+<td>+8</td>
+<td>16</td>
+<td>7</td>
+<td>+3</td>
+</tr>
+<tr>
+<td class="nome"><strong>22–25</strong></td>
+<td>19</td>
+<td>+8</td>
+<td>16</td>
+<td>9</td>
+<td>+4</td>
+</tr>
+<tr>
+<td class="nome"><strong>26–30</strong></td>
+<td>20</td>
+<td>+10</td>
+<td>18</td>
+<td>10</td>
+<td>+4</td>
+</tr>
+</tbody>
+</table>
+<div class="c2"><p><em><span class="ix-anc" id="ix-cap-criacao-de-inimigos-marco"></span>Estas cinco valem para toda categoria. Elas sobem em marco de nível, e as duas escadas não coincidem.</em></p><h1>Exemplo</h1><p><strong>Ubume</strong></p><p><em>A mulher que aparece com uma criança no colo, e pede que você segure ela.</em></p><p>Um grupo de nível 10 precisa dos quatro para derrubar isto, e quem monta quer um bicho que
+aguenta apanhar. Isso são três escolhas, e cada uma tem uma linha de tabela.</p><p><strong>Passo 1 — a categoria.</strong> Quatro pessoas é <code>Desastre</code>. A linha do nível 10 dá <strong>vida <code>390</code></strong>, <strong><code>3</code> ações</strong> e golpe <strong><code>23 (2d10 + 12)</code></strong>, que já traz o <code>0,923</code> da <code>Intervenção</code>.</p><p><strong>Passo 2 — o papel.</strong> Ele apanha de frente, então <code>Brutamontes</code>: <strong>vida <code>× 1,20</code></strong> e <strong>Defesa <code>-2</code></strong>. A vida vai a <code>390 × 1,20</code> = <strong><code>468</code></strong>, e a Defesa de <code>16</code> para <strong><code>14</code></strong>.</p><p><strong>Passo 3 — o tamanho.</strong> <code>Grande</code>: ocupa <code>2×2</code> na grade, alcança <code>3 m</code>, e o golpe pega o alvo mais metade em um vizinho. Não custa nada.</p><p><strong>Os atributos.</strong> No nível 10 são <code>11</code> pontos. A Defesa da tabela pede Destreza <code>4</code>; a técnica dele declara Força, que é o que a ficção pede.</p><aside class="destaque">
+<h3>Ubume</h3>
+<p class="sabor"><em>Maldição Grande · </em><em>Desastre</em><em> · </em><em>Brutamontes</em><em> · nível 10</em></p>
+<p><strong>Defesa</strong> <code>14</code> · <strong>Acerto</strong> <code>+6</code> · <strong>CD</strong> <code>14</code> · <strong>Refino</strong> <code>4</code> <em>(proteção <code>+2</code>)</em></p>
+<p><strong>Vida</strong> <code>468</code> · <strong><span class="ix-anc" id="ix-cap-criacao-de-inimigos-integridade"></span>Integridade</strong> <code>468</code> · <strong>Deslocamento</strong> <code>9 m</code></p>
+<p><strong>Ações</strong></p>
+<p><strong>Ações Múltiplas.</strong> A Ubume faz três ataques de Garra, ou usa Choro e faz dois ataques de Garra.</p>
+<p><strong>Garra.</strong> <em>Ataque corpo a corpo:</em> <code>+6</code> para acertar, alcance <code>3 m</code>, uma criatura. <em>Acerto:</em> <code>23 (2d10 + 12)</code> de dano Cortante, e metade desse dano em um vizinho do alvo.</p>
+<p><strong>Choro.</strong> <em><span class="ix-anc" id="ix-cap-criacao-de-inimigos-teste-de-resistencia"></span>Teste de Resistência Espírito:</em> CD <code>14</code>, cada criatura numa <code>Esfera</code> de raio <code>4,5 m</code> a partir do corpo dela. <em>Falha:</em> <code>23 (2d10 + 12)</code> de dano Psíquico. <em>Sucesso:</em> metade do dano.</p>
+<p><strong>Intervenções</strong></p>
+<p>Três por luta, cada uma usada uma vez. Sai no máximo uma por rodada, logo depois do turno de outra criatura. As três seguem o molde do capítulo 5.</p>
+</aside><p>O orçamento de uma ação dele é <code>23 ÷ 4,5</code> = <strong><code>5,1</code> pontos</strong>, que bate com a linha do <code>Desastre</code> na <code>Orçamento de uma ação, por categoria</code>.</p><h1>Escrita de ação</h1><p><span class="ix-anc" id="ix-cap-criacao-de-inimigos-feitico"></span>O orçamento de feitiço de uma ação é o golpe dela dividido por <code>4,5</code>. Com esse número em mãos,
+você monta a ação no Fundamento, que é a mesma máquina que o jogador usa.</p><p><strong>Cada ação tem o orçamento dela.</strong> Duas ações do mesmo bloco são duas montagens diferentes.</p><p><strong><span class="ix-anc" id="ix-cap-criacao-de-inimigos-condicao"></span>Condição custa ponto.</strong> Ponto gasto em condição é dado que não foi comprado, e a régua vale
+dos dois lados da mesa.</p><p><strong>Área custa ponto.</strong> Um feitiço em área tem menos dados para comprar condição, porque o Fundamento
+cobra a área em ponto de feitiço.</p><p>Abaixo de <code>3</code> pontos a ação não monta feitiço. Ela bate, e o dano sai como a
+<code>Vida e golpe por faixa</code> manda. Veja <em>Bloco seco</em>, no capítulo 5.</p></div>
+<!-- FIM TABELAS -->
+
+<!-- EXEMPLO -->
+
+
+
+
+
+
+
+
+
+<!-- FIM EXEMPLO -->
+
+
+
+
+
+
+<!-- ORCAMENTO -->
+
+<table class="tab larga plena"><caption><strong>Orçamento de uma ação, por categoria</strong></caption><colgroup><col style="width:11.69%"/><col style="width:15.95%"/><col style="width:14.48%"/><col style="width:17.47%"/><col style="width:20.16%"/><col style="width:20.24%"/></colgroup>
+<thead>
+<tr>
+<th>nível</th>
+<th><code>Capanga</code></th>
+<th><code>Ameaça</code></th>
+<th><code>Desastre</code></th>
+<th><code>Catástrofe</code></th>
+<th><code>Calamidade</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="nome"><code>2</code></td>
+<td>seco</td>
+<td>seco</td>
+<td>seco</td>
+<td>seco</td>
+<td>seco</td>
+</tr>
+<tr>
+<td class="nome"><code>5</code></td>
+<td>seco</td>
+<td>seco</td>
+<td>seco</td>
+<td>seco</td>
+<td>seco</td>
+</tr>
+<tr>
+<td class="nome"><code>10</code></td>
+<td><code>4,2</code></td>
+<td><code>4,2</code></td>
+<td><code>5,1</code></td>
+<td><code>4,6</code></td>
+<td><code>5,1</code></td>
+</tr>
+<tr>
+<td class="nome"><code>15</code></td>
+<td><code>6,2</code></td>
+<td><code>6,2</code></td>
+<td><code>7,6</code></td>
+<td><code>6,9</code></td>
+<td><code>7,7</code></td>
+</tr>
+<tr>
+<td class="nome"><code>20</code></td>
+<td><code>8,2</code></td>
+<td><code>8,2</code></td>
+<td><code>10,1</code></td>
+<td><code>9,1</code></td>
+<td><code>10,1</code></td>
+</tr>
+<tr>
+<td class="nome"><code>25</code></td>
+<td><code>10,2</code></td>
+<td><code>10,2</code></td>
+<td><code>12,4</code></td>
+<td><code>11,3</code></td>
+<td><code>12,4</code></td>
+</tr>
+<tr>
+<td class="nome"><code>30</code></td>
+<td><code>12,2</code></td>
+<td><code>12,2</code></td>
+<td><code>14,9</code></td>
+<td><code>13,4</code></td>
+<td><code>14,9</code></td>
+</tr>
+</tbody>
+</table>
+<div class="c2"><p><em>As colunas de quem tem <code>Intervenção</code> já levam o <code>0,923</code>.</em></p><p>O que cabe na maior ação do sistema, a de <code>14,9</code> pontos:</p><p class="tab-titulo"><strong>Condição na maior ação</strong></p><table class="tab"><colgroup><col style="width:49.40%"/><col style="width:15.20%"/><col style="width:35.40%"/></colgroup>
+<thead>
+<tr>
+<th>se ele comprar</th>
+<th>custa</th>
+<th>sobra para dado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="nome">uma condição <code>Leve</code></td>
+<td><code>4</code></td>
+<td><code>10,9</code></td>
+</tr>
+<tr>
+<td class="nome">uma condição <code>Média</code></td>
+<td><code>7</code></td>
+<td><code>7,9</code></td>
+</tr>
+<tr>
+<td class="nome">uma condição <code>Pesada</code></td>
+<td><code>11</code></td>
+<td><code>3,9</code></td>
+</tr>
+</tbody>
+</table><p>Uma ação de inimigo aguenta uma condição <code>Pesada</code>, e nesse caso ela vira quase só condição.</p></div>
+
+
+
+<!-- FIM ORCAMENTO -->
+
+</section>
+
+<section class="capitulo cap-7">
+  <header class="abertura">
+    <span class="abertura-n"><span class="kanji">範</span><span class="arab">Capítulo 7</span></span>
+    <h1 id="cap-area-e-frequencia">Área e frequência</h1>
+  </header>
+<div class="c2"><p>O inimigo não conta energia: quantas vezes ele faz uma ação é dito por um rótulo ao lado do nome
+dela, em <em>Rótulos de frequência</em>. A área que ele usa sem técnica está em <em>Área natural</em> e
+<em>Formas de área</em>, e o limite dela, em <em>Trava de área</em>.</p><h1>Rótulos de frequência</h1><p class="tab-titulo"><strong>Frequência da ação</strong></p><table class="tab"><colgroup><col style="width:29.36%"/><col style="width:70.64%"/></colgroup>
+<thead>
+<tr>
+<th>rótulo</th>
+<th>quando usar</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="nome">‹ sem rótulo ›</td>
+<td>à vontade. É o padrão, e o silêncio já diz isso</td>
+</tr>
+<tr>
+<td class="nome"><strong><code><span class="ix-anc" id="ix-cap-area-e-frequencia-rodada"></span>1× por rodada</code></strong></td>
+<td>pode toda rodada, uma vez só</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>1× por luta</code></strong></td>
+<td>a jogada única</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Recarga (5-6)</code></strong></td>
+<td>volta por sorte, no início do turno dele</td>
+</tr>
+</tbody>
+</table><p><code>Recarga (5-6)</code> dispara pouco menos de duas vezes numa luta de três rodadas. Use quando a ação puder
+sair de novo, sem garantia.</p><h2 id="cap-area-e-frequencia-parenteses-de-custo-e-pre-requisito">Parênteses de custo e pré-requisito</h2><p class="sabor">Os parênteses ficam no mesmo lugar da linha que o rótulo, e medem outra coisa.</p><p><strong><code><span class="ix-anc" id="ix-cap-area-e-frequencia-acao-bonus"></span>(Ação Bônus)</code></strong> mede custo. Escreva <code>‹ nome › **(Ação Bônus).**</code></p><p><strong><code>(‹ pré-requisito ›)</code></strong> mede pré-requisito. Escreva <code>Chama Divina **(depois de Desmembrar e
+Clivar).**</code></p><p>O pré-requisito é curto. O que não couber num parêntese é regra, e desce para o texto da ação.</p><p><span class="ix-anc" id="ix-cap-area-e-frequencia-reacao"></span>O inimigo tem uma Ação Bônus e uma Reação por rodada, como todo mundo. As duas são constantes e
+não ganham linha no bloco.</p><h1>Área natural</h1><p><span class="ix-anc" id="ix-cap-area-e-frequencia-fundamento"></span>Nem todo ataque em área vem de técnica. O sopro, o rugido, o corpo que se abre são naturais e
+não passam pelo Fundamento. O raio deles sai do nível.</p><p class="tab-titulo"><strong>Área natural por nível</strong></p><table class="tab"><colgroup><col style="width:19.23%"/><col style="width:14.20%"/><col style="width:30.93%"/><col style="width:35.64%"/></colgroup>
+<thead>
+<tr>
+<th>nível</th>
+<th>raio</th>
+<th>cobre</th>
+<th>largura na grade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="nome"><code>2</code>–<code>8</code></td>
+<td><strong><code>3 m</code></strong></td>
+<td><code>13</code> quadrados</td>
+<td><code>4</code> quadrados</td>
+</tr>
+<tr>
+<td class="nome"><code>9</code>–<code>16</code></td>
+<td><strong><code>4,5 m</code></strong></td>
+<td><code>28</code> quadrados</td>
+<td><code>6</code> quadrados</td>
+</tr>
+<tr>
+<td class="nome"><code>17</code>–<code>24</code></td>
+<td><strong><code>6 m</code></strong></td>
+<td><code>50</code> quadrados</td>
+<td><code>8</code> quadrados</td>
+</tr>
+<tr>
+<td class="nome"><code>25</code>–<code>30</code></td>
+<td><strong><code>9 m</code></strong></td>
+<td><code>113</code> quadrados</td>
+<td><code>12</code> quadrados</td>
+</tr>
+</tbody>
+</table><p><span class="ix-anc" id="ix-cap-area-e-frequencia-cd"></span>A área natural resolve por Teste de Resistência contra a CD do inimigo: o golpe da ação na falha, e
+metade no sucesso. Ela é de graça.</p><aside class="destaque">
+<p><span class="ix-anc" id="ix-cap-area-e-frequencia-cobertura"></span>Imprima a cobertura em quadrados junto do raio, para a mesa não converter metro de cabeça.</p>
+</aside><h1>Formas de área</h1><p><span class="ix-anc" id="ix-cap-area-e-frequencia-forma"></span>A cobertura é uma por nível, e a forma é o jeito de gastar ela.</p></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table class="tab larga plena"><caption><strong>Formas, por nível</strong></caption><colgroup><col style="width:11.64%"/><col style="width:9.02%"/><col style="width:15.13%"/><col style="width:18.48%"/><col style="width:45.74%"/></colgroup>
+<thead>
+<tr>
+<th>nível</th>
+<th>cobre</th>
+<th><code>Esfera</code></th>
+<th><code>Cone</code></th>
+<th><code>Retângulo</code> — qualquer <code>A × B</code> que dê a cobertura</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="nome"><code>2</code>–<code>8</code></td>
+<td><code>13</code> q</td>
+<td>raio <code>3 m</code></td>
+<td><code>7,5 m</code> <em>(5 q)</em></td>
+<td><code>4×3</code> · <code>6×2</code> · <code>7×2</code> · <code>12×1</code></td>
+</tr>
+<tr>
+<td class="nome"><code>9</code>–<code>16</code></td>
+<td><code>28</code> q</td>
+<td>raio <code>4,5 m</code></td>
+<td><code>10,5 m</code> <em>(7 q)</em></td>
+<td><code>6×5</code> · <code>7×4</code> · <code>9×3</code> · <code>13×2</code></td>
+</tr>
+<tr>
+<td class="nome"><code>17</code>–<code>24</code></td>
+<td><code>50</code> q</td>
+<td>raio <code>6 m</code></td>
+<td><code>15 m</code> <em>(10 q)</em></td>
+<td><code>7×7</code> · <code>8×6</code> · <code>9×5</code> · <code>10×5</code></td>
+</tr>
+<tr>
+<td class="nome"><code>25</code>–<code>30</code></td>
+<td><code>113</code> q</td>
+<td>raio <code>9 m</code></td>
+<td><code>22,5 m</code> <em>(15 q)</em></td>
+<td><code>11×11</code> · <code>11×10</code> · <code>12×9</code></td>
+</tr>
+</tbody>
+</table>
+<div class="c2"><p><strong><code>q</code></strong> é o quadrado de <code>1,5 m</code>.</p><p>A <code>Linha</code> é um retângulo de <code>A × 1</code>, e o quadrado, um retângulo de <code>A × A</code>; o cubo é o quadrado
+visto de cima.</p><p class="tab-titulo"><strong><span class="ix-anc" id="ix-cap-area-e-frequencia-origem"></span>Origem de cada forma</strong></p><table class="tab"><colgroup><col style="width:22.27%"/><col style="width:77.73%"/></colgroup>
+<thead>
+<tr>
+<th>forma</th>
+<th>sai de</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="nome"><strong><code>Esfera</code></strong></td>
+<td>do corpo dele, ou de um ponto dentro do alcance</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Cone</code></strong></td>
+<td>sempre do corpo dele</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Retângulo</code></strong></td>
+<td>do corpo dele, ou de um ponto</td>
+</tr>
+</tbody>
+</table><h2 id="cap-area-e-frequencia-abertura-do-cone">Abertura do cone</h2><aside class="destaque">
+<p><strong>A largura do cone em qualquer ponto é igual à distância daquele ponto até você.</strong></p>
+</aside><p>A quatro quadrados de você, o cone tem quatro de largura.</p><h2 id="cap-area-e-frequencia-parede">Parede</h2><p class="tab-titulo sabor"><strong>Parede, por nível</strong></p><table class="tab"><colgroup><col style="width:18.26%"/><col style="width:81.74%"/></colgroup>
+<thead>
+<tr>
+<th>nível</th>
+<th>a parede</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="nome"><code>2</code>–<code>8</code></td>
+<td><code>7 × 2</code> quadrados — <code>10,5 m</code> de comprimento por <code>3 m</code> de altura</td>
+</tr>
+<tr>
+<td class="nome"><code>9</code>–<code>16</code></td>
+<td><code>15 × 2</code> — <code>22,5 × 3 m</code></td>
+</tr>
+<tr>
+<td class="nome"><code>17</code>–<code>24</code></td>
+<td><code>27 × 2</code> — <code>40,5 × 3 m</code></td>
+</tr>
+<tr>
+<td class="nome"><code>25</code>–<code>30</code></td>
+<td><code>62 × 2</code> — <code>93 × 3 m</code></td>
+</tr>
+</tbody>
+</table><p>A altura mínima é de dois quadrados. Um quadrado de altura dá um degrau, e a mesa passa por cima.</p><h1>Trava de área</h1><aside class="destaque">
+<p>Um inimigo faz no máximo <strong><code>1</code> ação em área por rodada</strong>. <code>Recarga</code> não conta na cota.</p>
+</aside><p>Com duas ações em área por rodada, a mesa cai; com uma, o grupo termina a luta com perto de metade
+da vida.</p><h2 id="cap-area-e-frequencia-trava-no-esquadrao">Trava no esquadrão</h2><aside class="destaque">
+<p>No esquadrão de <code>Capanga</code>, é <strong><code>1</code> ação em área por rodada no esquadrão inteiro</strong>. Os outros<br/>
+sete batem normal.</p>
+</aside><p>Oito corpos com ação em área entregam mais que a vida de cada personagem por rodada, e derrubam a
+mesa em menos de uma rodada. A cota é do esquadrão, e não de cada corpo.</p><h2 id="cap-area-e-frequencia-recarga-em-area"><code>Recarga</code> em área</h2><p class="sabor">Uma ação de <code>Recarga</code> que mira uma pessoa só concentra o dano e tira alguém da mesa; em área, o dano
+se espalha.</p><p>Quando você escrever uma <code>Recarga (5-6)</code>, escreva ela em área.</p></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+<section class="capitulo cap-8">
+  <header class="abertura">
+    <span class="abertura-n"><span class="kanji">鬼</span><span class="arab">Capítulo 8</span></span>
+    <h1 id="cap-maldicoes-prontas">Maldições prontas</h1>
+  </header>
+<div class="c2"><p>Seis maldições prontas, do nível 2 ao 12, tiradas do folclore japonês. Os números de cada bloco
+saem da linha da categoria e da faixa dela, nas tabelas do capítulo 6.</p><h2 id="cap-maldicoes-prontas-celulas-vazias">Células vazias</h2><p class="sabor"><strong>Papel.</strong> Nenhuma das seis tem. Para dar um papel a uma delas, use a <code>Papéis</code>, no Passo 2
+do capítulo 6, e refaça a vida.</p><p><strong>Resistências e imunidades.</strong> Todas as células saem vazias. Preencher qualquer uma multiplica o
+fator da categoria, e a <code>Preço das células</code>, no capítulo 5, diz por quanto.</p><p><strong><span class="ix-anc" id="ix-cap-maldicoes-prontas-grau"></span>Grau.</strong> Fica com você. Ele não entra em conta nenhuma.</p><p><strong><code>Intervenções</code>.</strong> A Tsuchigumo e o Oni são <code>Desastre</code> e trazem as três escritas. O golpe dos dois
+já vem com o <code>0,923</code> aplicado. As quatro <code>Ameaça</code> não têm <code>Intervenção</code>.</p><p><strong>Tamanho.</strong> Trocar o tamanho muda o espaço na grade, o alcance e o vizinho que o golpe pega.
+Nenhum outro número se move.</p><h2 id="cap-maldicoes-prontas-betobeto">Betobeto</h2><p class="sabor"><em>Maldição que segue as pessoas no escuro e só se deixa ouvir pelos passos.</em></p><p><span class="ix-anc" id="ix-cap-maldicoes-prontas-caminho"></span>No folclore japonês, o Betobeto é um som de passos que acompanha quem anda sozinho à noite, e quem sai do caminho e pede que ele passe na frente fica em paz. Como maldição, ele aparece em corredores, ruas estreitas e escadas sem luz, e ataca quem corre ou se vira para enfrentá-lo. Na luta, bate sempre em quem ele vinha seguindo.</p><aside class="destaque">
+<h3>Betobeto</h3>
+<p class="sabor"><em>Maldição Média · </em><em>Ameaça</em><em> · nível 2 a 4</em></p>
+<p><strong><span class="ix-anc" id="ix-cap-maldicoes-prontas-defesa"></span>Defesa</strong> <code>14</code> · <strong>Acerto</strong> <code>+4</code> · <strong><span class="ix-anc" id="ix-cap-maldicoes-prontas-cd"></span>CD</strong> <code>12</code> · <strong><span class="ix-anc" id="ix-cap-maldicoes-prontas-refino"></span>Refino</strong> <code>1</code> <em><span class="ix-anc" id="ix-cap-maldicoes-prontas-protecao"></span>(proteção <code>+1</code>)</em></p>
+<p><strong>Vida</strong> <code>28</code> · <strong><span class="ix-anc" id="ix-cap-maldicoes-prontas-integridade"></span>Integridade</strong> <code>28</code> · <strong>Deslocamento</strong> <code>9 m</code></p>
+<p><strong>Força</strong> <code>0</code> · <strong>Destreza</strong> <code>3</code> <em>(Iniciativa)</em> · <strong>Constituição</strong> <code>1</code> · <strong>Inteligência</strong> <code>2</code> · <strong><span class="ix-anc" id="ix-cap-maldicoes-prontas-essencia"></span>Essência</strong> <code>3</code></p>
+<p><strong>Físico</strong> treinado · <strong>Vigor</strong> — · <strong>Intelecto</strong> — · <strong>Espírito</strong> treinado</p>
+<p><strong>Resistências</strong> — · <strong>Imunidades</strong> — · <strong>Vulnerabilidades</strong> — · <strong>Perícias</strong> —</p>
+<p><strong>Traços</strong></p>
+<p><strong>Passos no Escuro.</strong> Fora da luta, o Betobeto não pode ser visto. Só se ouvem os passos dele, sempre atrás de quem ele segue, e eles param quando essa pessoa para. Ele fica visível quando a luta começa.</p>
+<p><strong>Ações</strong></p>
+<p><strong>Pisada.</strong> <em>Ataque corpo a corpo:</em> <code>+4</code> para acertar, alcance <code>1,5 m</code>, uma criatura. <em>Acerto:</em> <code>4</code> de dano de Concussão.</p>
+</aside><h2 id="cap-maldicoes-prontas-kamaitachi">Kamaitachi</h2><p class="sabor"><em><span class="ix-anc" id="ix-cap-maldicoes-prontas-forma"></span>Par de maldições em forma de doninha, com garras de foice, que chegam montadas no vento.</em></p><p>No folclore japonês, a kamaitachi é um trio de doninhas que corre dentro de um redemoinho: a primeira derruba a pessoa, a segunda corta, e a terceira passa um remédio que fecha o corte antes de doer. Como maldição, elas andam em par e sem o remédio, em campo aberto, pátio e rua onde o vento corre. Na luta, as duas atacam o mesmo alvo, e quando uma cai a outra foge.</p><aside class="destaque">
+<h3>Kamaitachi</h3>
+<p class="sabor"><em>Maldição Pequena · </em><em>Ameaça</em><em> · dois corpos · nível 2 a 4</em></p>
+<p><strong>Defesa</strong> <code>14</code> · <strong>Acerto</strong> <code>+4</code> · <strong>CD</strong> <code>12</code> · <strong>Refino</strong> <code>1</code> <em>(proteção <code>+1</code>)</em></p>
+<p><strong>Vida</strong> <code>28</code> · <strong>Integridade</strong> <code>28</code> · <strong>Deslocamento</strong> <code>9 m</code></p>
+<p><strong>Força</strong> <code>3</code> · <strong>Destreza</strong> <code>3</code> <em>(Iniciativa)</em> · <strong>Constituição</strong> <code>2</code> · <strong>Inteligência</strong> <code>1</code> · <strong>Essência</strong> <code>0</code></p>
+<p><strong>Físico</strong> treinado · <strong>Vigor</strong> treinado · <strong>Intelecto</strong> — · <strong>Espírito</strong> —</p>
+<p><strong>Resistências</strong> — · <strong>Imunidades</strong> — · <strong>Vulnerabilidades</strong> — · <strong>Perícias</strong> —</p>
+<p><strong>Traços</strong></p>
+<p><strong>Par.</strong> As Kamaitachi aparecem sempre em dupla. Ponha duas na mesa: cada uma é uma criatura com este bloco inteiro.</p>
+<p><strong>Ações</strong></p>
+<p><strong>Foice.</strong> <em>Ataque corpo a corpo:</em> <code>+4</code> para acertar, alcance <code>1,5 m</code>, uma criatura. <em>Acerto:</em> <code>4</code> de dano Cortante.</p>
+</aside><h2 id="cap-maldicoes-prontas-tsuchigumo">Tsuchigumo</h2><p class="sabor"><em><span class="ix-anc" id="ix-cap-maldicoes-prontas-teto"></span>Aranha gigante que faz ninho em prédios fechados e ataca do teto e das paredes.</em></p><p>No folclore japonês, a Tsuchigumo é a aranha gigante que o guerreiro Minamoto no Raikō matou. Como maldição, ela ocupa prédio abandonado, túnel e porão, e passa a luta presa às paredes e ao teto. Abre com Varrida das Patas quando o grupo entra junto, cobre de Teia a passagem por onde o grupo veio e usa Subir quando fica cercada.</p><aside class="destaque">
+<h3>Tsuchigumo</h3>
+<p class="sabor"><em>Maldição Grande · </em><em>Desastre</em><em> · nível 2 a 4</em></p>
+<p><strong>Defesa</strong> <code>14</code> · <strong>Acerto</strong> <code>+4</code> · <strong>CD</strong> <code>12</code> · <strong>Refino</strong> <code>1</code> <em>(proteção <code>+1</code>)</em></p>
+<p><strong>Vida</strong> <code>114</code> · <strong>Integridade</strong> <code>114</code> · <strong>Deslocamento</strong> <code>9 m</code> · <strong>Escalada</strong> <code>9 m</code></p>
+<p><strong>Força</strong> <code>3</code> · <strong>Destreza</strong> <code>2</code> <em>(Iniciativa)</em> · <strong>Constituição</strong> <code>3</code> · <strong>Inteligência</strong> <code>1</code> · <strong>Essência</strong> <code>0</code></p>
+<p><strong>Físico</strong> treinado · <strong>Vigor</strong> treinado · <strong>Intelecto</strong> — · <strong>Espírito</strong> —</p>
+<p><strong>Resistências</strong> — · <strong>Imunidades</strong> — · <strong>Vulnerabilidades</strong> — · <strong>Perícias</strong> —</p>
+<p><strong>Traços</strong></p>
+<p><strong>Escalada de Aranha.</strong> A Tsuchigumo anda por parede e teto, de cabeça para baixo inclusive, sem fazer teste.</p>
+<p><strong>Andar na Teia.</strong> A teia dela não é terreno difícil para a Tsuchigumo.</p>
+<p><strong>Ações</strong></p>
+<p><strong>Ações Múltiplas.</strong> A Tsuchigumo faz três ataques de Mordida, ou usa Varrida das Patas e faz dois ataques de Mordida.</p>
+<p><strong>Mordida.</strong> <em>Ataque corpo a corpo:</em> <code>+4</code> para acertar, alcance <code>3 m</code>, uma criatura. <em>Acerto:</em> <code>5 (1d4 + 3)</code> de dano Perfurante, e metade desse dano em um vizinho do alvo.</p>
+<p><strong>Varrida das Patas.</strong> <em><span class="ix-anc" id="ix-cap-maldicoes-prontas-teste-de-resistencia"></span>Teste de Resistência Físico:</em> CD <code>12</code>, cada criatura num <code>Cone</code> de <code>7,5 m</code> a partir dela. <em>Falha:</em> <code>5 (1d4 + 3)</code> de dano Cortante. <em>Sucesso:</em> metade do dano.</p>
+<p><strong>Intervenções</strong></p>
+<p><span class="ix-anc" id="ix-cap-maldicoes-prontas-rodada"></span>Três por luta, cada uma usada uma vez. Sai no máximo uma por rodada, logo depois do turno de outra criatura.</p>
+<p><strong>1. Mordida.</strong> A Tsuchigumo faz um ataque de Mordida. Esse ataque não pega o vizinho.</p>
+<p><strong>2. Teia.</strong> A Tsuchigumo cobre de teia um <code>Retângulo</code> de <code>4×3</code>, <code>6×2</code>, <code>7×2</code> ou <code>12×1</code> quadrados que encoste nela. A área é terreno difícil até o fim da luta.</p>
+<p><strong>3. Subir.</strong> A Tsuchigumo escala até <code>9 m</code><span class="ix-anc" id="ix-cap-maldicoes-prontas-ataque-de-oportunidade"></span> pela parede ou pelo teto. Esse movimento não provoca ataque de oportunidade.</p>
+</aside><h2 id="cap-maldicoes-prontas-hitotsume">Hitotsume</h2><p class="sabor"><em>Maldição com a forma de um menino de um olho só, que aparece parado e cada vez mais perto.</em></p><p>No folclore japonês, o hitotsume-kozō é um menino careca de um olho só que surge no caminho, mostra uma língua comprida e some. Como maldição, ele aparece em escola, hospital e casa antiga: na esquina do corredor, na porta do banheiro, no fim da escada, sempre sozinho. Na luta, ataca quem estiver mais longe do resto do grupo.</p><aside class="destaque">
+<h3>Hitotsume</h3>
+<p class="sabor"><em>Maldição Média · </em><em>Ameaça</em><em> · nível 5 a 8</em></p>
+<p><em>nível 5</em> · <strong>Defesa</strong> <code>14</code> · <strong>Acerto</strong> <code>+4</code> · <strong>CD</strong> <code>12</code> · <strong>Refino</strong> <code>1</code> <em>(proteção <code>+1</code>)</em></p>
+<p><em>nível 6 a 8</em> · <strong>Defesa</strong> <code>15</code> · <strong>Acerto</strong> <code>+4</code> · <strong>CD</strong> <code>12</code> · <strong>Refino</strong> <code>3</code> <em>(proteção <code>+2</code>)</em></p>
+<p><strong>Vida</strong> <code>67</code> · <strong>Integridade</strong> <code>67</code> · <strong>Deslocamento</strong> <code>9 m</code></p>
+<p><strong>Força</strong> <code>0</code> · <strong>Destreza</strong> <code>2</code> <em>(Iniciativa)</em> · <strong>Constituição</strong> <code>2</code> · <strong>Inteligência</strong> <code>2</code> · <strong>Essência</strong> <code>3</code></p>
+<p><strong>Físico</strong> — · <strong>Vigor</strong> — · <strong>Intelecto</strong> treinado · <strong>Espírito</strong> treinado</p>
+<p><strong>Resistências</strong> — · <strong>Imunidades</strong> — · <strong>Vulnerabilidades</strong> — · <strong>Perícias</strong> —</p>
+<p><strong>Traços</strong></p>
+<p><strong>Mais Perto.</strong> Fora da luta, o Hitotsume só se move quando ninguém está olhando para ele.</p>
+<p><strong>Ações</strong></p>
+<p><strong>Língua.</strong> <em>Ataque corpo a corpo:</em> <code>+4</code> para acertar, alcance <code>1,5 m</code>, uma criatura. <em>Acerto:</em> <code>10 (2d4 + 5)</code> de dano de Concussão.</p>
+</aside><h2 id="cap-maldicoes-prontas-kitsune">Kitsune</h2><p class="sabor"><em>Maldição em forma de raposa que toma a aparência de gente e ataca com fogo à distância.</em></p><p>No folclore japonês, a kitsune é a raposa que aprende a tomar forma humana e acende o kitsunebi, o fogo-de-raposa. Como maldição, ela vive entre pessoas, com rosto humano, em estação, hospital e rua de comércio. Fala com o grupo antes de lutar e tenta separá-lo; na luta, fica longe, usa Fogo-de-Raposa e só morde quem chega ao lado dela.</p><aside class="destaque">
+<h3>Kitsune</h3>
+<p class="sabor"><em>Maldição Média · </em><em>Ameaça</em><em> · nível 9 a 12</em></p>
+<p><em>nível 9</em> · <strong>Defesa</strong> <code>15</code> · <strong>Acerto</strong> <code>+4</code> · <strong>CD</strong> <code>12</code> · <strong>Refino</strong> <code>3</code> <em>(proteção <code>+2</code>)</em></p>
+<p><em>nível 10 a 12</em> · <strong>Defesa</strong> <code>16</code> · <strong>Acerto</strong> <code>+6</code> · <strong>CD</strong> <code>14</code> · <strong>Refino</strong> <code>4</code> <em>(proteção <code>+2</code>)</em></p>
+<p><strong>Vida</strong> <code>97</code> · <strong>Integridade</strong> <code>97</code> · <strong>Deslocamento</strong> <code>9 m</code></p>
+<p><strong>Força</strong> <code>0</code> · <strong>Destreza</strong> <code>2</code> <em>(Iniciativa)</em> · <strong>Constituição</strong> <code>1</code> · <strong>Inteligência</strong> <code>3</code> · <strong>Essência</strong> <code>3</code></p>
+<p><strong>Físico</strong> — · <strong>Vigor</strong> — · <strong>Intelecto</strong> treinado · <strong>Espírito</strong> treinado</p>
+<p><strong>Resistências</strong> — · <strong>Imunidades</strong> — · <strong>Vulnerabilidades</strong> — · <strong>Perícias</strong> —</p>
+<p><strong>Traços</strong></p>
+<p><strong>Forma Humana.</strong> Com uma ação, a Kitsune toma a aparência de uma pessoa que ela já viu, ou volta à forma de raposa. Nenhum número do bloco muda.</p>
+<p><strong>Ações</strong></p>
+<p><strong>Mordida.</strong> <em>Ataque corpo a corpo:</em> <code>+4</code> (<code>+6</code> no nível 10 a 12) para acertar, alcance <code>1,5 m</code>, uma criatura. <em>Acerto:</em> <code>19 (2d8 + 10)</code> de dano Perfurante.</p>
+<p><strong>Fogo-de-Raposa.</strong> <em>Ataque de conjuração à distância:</em> <code>+4</code> (<code>+6</code> no nível 10 a 12) para acertar, alcance <code>18 m</code>, uma criatura. <em>Acerto:</em> <code>18 (4d8)</code> de dano de Fogo.</p>
+</aside><h2 id="cap-maldicoes-prontas-oni">Oni</h2><p class="sabor"><em>Maldição de corpo enorme, com chifres e um porrete de ferro, que luta de frente.</em></p><p>No folclore japonês, o oni tem chifres, pele vermelha ou azul, e carrega um kanabō, um porrete de ferro cravejado. Como maldição, ele fica no fim do caminho: no último andar, no fundo do terreno, na sala que o grupo precisa atravessar. Avança sobre quem está mais perto, usa Pancada no Chão quando o grupo o cerca e guarda Arremesso para tirar do lugar quem cuida dos outros.</p><aside class="destaque">
+<h3>Oni</h3>
+<p class="sabor"><em>Maldição Grande · </em><em>Desastre</em><em> · nível 5 a 8</em></p>
+<p><em>nível 5</em> · <strong>Defesa</strong> <code>14</code> · <strong>Acerto</strong> <code>+4</code> · <strong>CD</strong> <code>12</code> · <strong>Refino</strong> <code>1</code> <em>(proteção <code>+1</code>)</em></p>
+<p><em>nível 6 a 8</em> · <strong>Defesa</strong> <code>15</code> · <strong>Acerto</strong> <code>+4</code> · <strong>CD</strong> <code>12</code> · <strong>Refino</strong> <code>3</code> <em>(proteção <code>+2</code>)</em></p>
+<p><strong>Vida</strong> <code>270</code> · <strong>Integridade</strong> <code>270</code> · <strong>Deslocamento</strong> <code>9 m</code></p>
+<p><strong>Força</strong> <code>3</code> · <strong>Destreza</strong> <code>1</code> <em>(Iniciativa)</em> · <strong>Constituição</strong> <code>3</code> · <strong>Inteligência</strong> <code>1</code> · <strong>Essência</strong> <code>1</code></p>
+<p><strong>Físico</strong> treinado · <strong>Vigor</strong> treinado · <strong>Intelecto</strong> — · <strong>Espírito</strong> —</p>
+<p><strong>Resistências</strong> — · <strong>Imunidades</strong> — · <strong>Vulnerabilidades</strong> — · <strong>Perícias</strong> —</p>
+<p><strong>Traços</strong></p>
+<p><strong>Faro.</strong> O Oni sente cheiro de sangue. Ele sabe onde está cada criatura que perdeu vida nesta luta, se ela estiver no mesmo cômodo que ele, mesmo sem vê-la.</p>
+<p><strong>Ações</strong></p>
+<p><strong>Ações Múltiplas.</strong> O Oni faz três ataques de Kanabō, ou usa Pancada no Chão e faz dois ataques de Kanabō.</p>
+<p><strong>Kanabō.</strong> <em>Ataque corpo a corpo:</em> <code>+4</code> para acertar, alcance <code>3 m</code>, uma criatura. <em>Acerto:</em> <code>12 (2d4 + 7)</code> de dano de Concussão, e metade desse dano em um vizinho do alvo.</p>
+<p><strong>Pancada no Chão.</strong> <em>Teste de Resistência Físico:</em> CD <code>12</code>, cada criatura numa <code>Esfera</code> de raio <code>3 m</code> a partir do corpo dele. <em>Falha:</em> <code>12 (2d4 + 7)</code> de dano de Concussão. <em>Sucesso:</em> metade do dano.</p>
+<p><strong>Intervenções</strong></p>
+<p>Três por luta, cada uma usada uma vez. Sai no máximo uma por rodada, logo depois do turno de outra criatura.</p>
+<p><strong>1. Kanabō.</strong> O Oni faz um ataque de Kanabō. Esse ataque não pega o vizinho.</p>
+<p><strong>2. Arremesso.</strong> <em>Teste de Resistência Físico:</em> CD <code>12</code>, uma criatura a até <code>3 m</code> dele. <em>Falha:</em> o alvo é jogado num espaço livre a até <code>9 m</code> do Oni e fica <code>Derrubado</code>. O arremesso não causa dano.</p>
+<p><strong>3. Parede Abaixo.</strong> O Oni derruba uma parede, pilar ou divisória a até <code>3 m</code><span class="ix-anc" id="ix-cap-maldicoes-prontas-cobertura"></span> dele. Ela para de dar cobertura, e os quadrados onde ela estava viram terreno difícil até o fim da luta.</p>
+</aside><h1>Uso na campanha</h1><p>Cada corpo de <code>Ameaça</code> exige um personagem, e cada <code>Desastre</code> exige a mesa padrão de quatro.</p><p><strong>Outra ficção.</strong> O bloco não depende do nome nem da descrição. Uma <code>Ameaça</code> do nível 2 ao 4 que
+segue alguém no escuro usa o bloco do Betobeto com outro nome.</p><p><strong>Outra faixa.</strong> Copie a vida e o golpe da faixa nova na <code>Vida e golpe por faixa</code>, e a linha da
+<code><span class="ix-anc" id="ix-cap-maldicoes-prontas-marco"></span>Defesa, acerto, CD e refino por marco</code>, no capítulo 6. Traços, ataques e <code>Intervenções</code>
+continuam os mesmos. A ação que monta técnica é refeita no orçamento da faixa nova.</p><p><strong>Com capangas.</strong> Pôr <code>Capanga</code> ao lado de uma delas segue o <code>Encontro misturado</code>, no capítulo 6.
+Uma Tsuchigumo com dois <code>Capanga</code> do mesmo nível exige perto de cinco pessoas.</p></div>
+
+
+
+
+
+
+<!-- FICHAS -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- FIM FICHAS -->
+
+
+
+
+
+</section>
+
+<section class="capitulo cap-9">
+  <header class="abertura">
+    <span class="abertura-n"><span class="kanji">早</span><span class="arab">Capítulo 9</span></span>
+    <h1 id="cap-referencia-rapida">Referência rápida</h1>
+  </header>
+<div class="c2"><p>Uma página, para ter aberta na mesa.</p><h2 id="cap-referencia-rapida-montagem">Montagem</h2><p class="tab-titulo sabor"><strong>Passos da montagem</strong></p><table class="tab"><colgroup><col style="width:7.94%"/><col style="width:51.49%"/><col style="width:40.57%"/></colgroup>
+<thead>
+<tr>
+<th>passo</th>
+<th>a pergunta</th>
+<th>onde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="nome"><strong>1</strong></td>
+<td>quantos personagens ele exige?</td>
+<td><code>Categorias</code>, capítulo 6</td>
+</tr>
+<tr>
+<td class="nome"><strong>2</strong></td>
+<td>como ele luta?</td>
+<td><code>Papéis</code>, capítulo 6</td>
+</tr>
+<tr>
+<td class="nome"><strong>3</strong></td>
+<td>que tamanho ele tem?</td>
+<td><code>Tamanho, grade e alcance</code>, capítulo 6</td>
+</tr>
+<tr>
+<td class="nome"><strong>4</strong></td>
+<td>quais os cinco atributos e os dois Testes treinados?</td>
+<td><code>Atributos</code>, capítulo 5</td>
+</tr>
+</tbody>
+</table><p>Vida, golpe e ações saem da <code>Vida e golpe por faixa</code><span class="ix-anc" id="ix-cap-referencia-rapida-cd"></span>. Defesa, acerto, CD, refino e proteção saem
+da <code><span class="ix-anc" id="ix-cap-referencia-rapida-defesa"></span>Defesa, acerto, CD e refino por marco</code>. As duas escadas não coincidem.</p><aside class="destaque">
+<p>⚠ Em <code>Desastre</code>, <code>Catástrofe</code> e <code>Calamidade</code>, a <code>Vida e golpe por faixa</code> já traz o golpe<br/>
+multiplicado por <code>0,923</code>, porque eles carregam <code>Intervenção</code>. Use o golpe como está.</p>
+</aside><h2 id="cap-referencia-rapida-rotulos">Rótulos</h2><p class="tab-titulo sabor"><strong>Rótulos de frequência</strong></p><table class="tab"><colgroup><col style="width:32.71%"/><col style="width:67.29%"/></colgroup>
+<thead>
+<tr>
+<th>rótulo</th>
+<th>quer dizer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="nome">‹ sem rótulo ›</td>
+<td>à vontade</td>
+</tr>
+<tr>
+<td class="nome"><strong><code><span class="ix-anc" id="ix-cap-referencia-rapida-rodada"></span>1× por rodada</code></strong></td>
+<td>uma vez por rodada</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>1× por luta</code></strong></td>
+<td>uma vez na luta inteira</td>
+</tr>
+<tr>
+<td class="nome"><strong><code>Recarga (5-6)</code></strong></td>
+<td>volta por sorte, no início do turno dele</td>
+</tr>
+</tbody>
+</table><p><code><span class="ix-anc" id="ix-cap-referencia-rapida-acao-bonus"></span>(Ação Bônus)</code> mede custo. <code>(‹ pré-requisito ›)</code> mede pré-requisito. Nenhum dos dois é frequência.</p><h2 id="cap-referencia-rapida-travas">Travas</h2><p class="tab-titulo sabor"><strong>Travas do inimigo</strong></p><table class="tab"><colgroup><col style="width:36.12%"/><col style="width:63.88%"/></colgroup>
+<thead>
+<tr>
+<th>a trava</th>
+<th>o valor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="nome">ações em área por rodada</td>
+<td><code>1</code> — e <code>Recarga</code> não conta na cota</td>
+</tr>
+<tr>
+<td class="nome">ações em área no esquadrão de <code>Capanga</code></td>
+<td><code>1</code> no esquadrão inteiro</td>
+</tr>
+<tr>
+<td class="nome">corpos do esquadrão no mesmo alvo</td>
+<td><code>3</code>, e do segundo em diante o golpe sai pela metade</td>
+</tr>
+<tr>
+<td class="nome"><code>Intervenções</code></td>
+<td><code>3</code> por luta, <code>1</code> por rodada, cada uma uma vez só</td>
+</tr>
+<tr>
+<td class="nome">entradas nomeadas</td>
+<td>linha de <code>6</code>; <code>8</code> num chefe de fim de arco. <code>Ações Múltiplas</code> conta; <code>Intervenções</code> não</td>
+</tr>
+</tbody>
+</table><h2 id="cap-referencia-rapida-preco-das-celulas">Preço das células</h2><p class="tab-titulo sabor"><strong>Multiplicador de cada célula</strong></p><table class="tab"><colgroup><col style="width:67.98%"/><col style="width:32.02%"/></colgroup>
+<thead>
+<tr>
+<th>a célula</th>
+<th>multiplica por</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="nome">resistir a <code>Físicos</code></td>
+<td><code>1,43</code></td>
+</tr>
+<tr>
+<td class="nome">ser imune a <code>Físicos</code></td>
+<td><code>2,50</code></td>
+</tr>
+<tr>
+<td class="nome"><span class="ix-anc" id="ix-cap-referencia-rapida-condicao"></span>imunidade a condição que rouba ação</td>
+<td><code>1,20</code></td>
+</tr>
+<tr>
+<td class="nome">vulnerabilidade</td>
+<td><code>1,00</code></td>
+</tr>
+</tbody>
+</table><p><strong><code>personagens = fator × 4</code>.</strong> Um bicho de fator <code>2,50</code> exige dez pessoas.</p><h2 id="cap-referencia-rapida-encontro-misturado">Encontro misturado</h2><p class="sabor"><strong>fator do encontro = fator do chefe + (capangas × <code>0,083</code>)</strong>, até quatro capangas.</p><h2 id="cap-referencia-rapida-orcamento-de-acao">Orçamento de ação</h2><p><strong>O orçamento de uma ação é o golpe dela dividido por <code>4,5</code>.</strong> Abaixo de <code>3</code><span class="ix-anc" id="ix-cap-referencia-rapida-feitico"></span> pontos ela não monta
+feitiço: bate, e o dano sai como a <code>Vida e golpe por faixa</code> manda.</p></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+<section class="indice"><h1 id="indice-remissivo">Índice remissivo</h1>
+<p class="ix-nota">O número é a página em que o termo aparece pela primeira vez naquele capítulo. Para o que cada um quer dizer, veja <em>O vocabulário do sistema</em>, no começo do livro.</p>
+<div class="ix-cols">
+<div class="ix-item"><span class="ix-t">Ação Bônus</span> <a class="ix-p" href="#ix-cap-area-e-frequencia-acao-bonus"></a> <a class="ix-p" href="#ix-cap-referencia-rapida-acao-bonus"></a></div>
+<div class="ix-item"><span class="ix-t">Aptidão</span> <a class="ix-p" href="#ix-cap-maldicoes-aptidao"></a> <a class="ix-p" href="#ix-cap-tipos-de-criatura-aptidao"></a></div>
+<div class="ix-item"><span class="ix-t">Ataque de oportunidade</span> <a class="ix-p" href="#ix-cap-maldicoes-prontas-ataque-de-oportunidade"></a></div>
+<div class="ix-item"><span class="ix-t">Atributo</span> <a class="ix-p" href="#ix-cap-bloco-de-inimigo-atributo"></a></div>
+<div class="ix-item"><span class="ix-t">Caminho</span> <a class="ix-p" href="#ix-cap-maldicoes-caminho"></a> <a class="ix-p" href="#ix-cap-maldicoes-prontas-caminho"></a></div>
+<div class="ix-item"><span class="ix-t">CD</span> <a class="ix-p" href="#ix-cap-bloco-de-inimigo-cd"></a> <a class="ix-p" href="#ix-cap-criacao-de-inimigos-cd"></a> <a class="ix-p" href="#ix-cap-area-e-frequencia-cd"></a> <a class="ix-p" href="#ix-cap-maldicoes-prontas-cd"></a> <a class="ix-p" href="#ix-cap-referencia-rapida-cd"></a></div>
+<div class="ix-item"><span class="ix-t">Cicatriz</span> <a class="ix-p" href="#ix-cap-tipos-de-criatura-cicatriz"></a></div>
+<div class="ix-item"><span class="ix-t">Cobertura</span> <a class="ix-p" href="#ix-cap-area-e-frequencia-cobertura"></a> <a class="ix-p" href="#ix-cap-maldicoes-prontas-cobertura"></a></div>
+<div class="ix-item"><span class="ix-t">Condição</span> <a class="ix-p" href="#ix-cap-maldicoes-condicao"></a> <a class="ix-p" href="#ix-cap-bloco-de-inimigo-condicao"></a> <a class="ix-p" href="#ix-cap-criacao-de-inimigos-condicao"></a> <a class="ix-p" href="#ix-cap-referencia-rapida-condicao"></a></div>
+<div class="ix-item"><span class="ix-t">Defesa</span> <a class="ix-p" href="#ix-cap-vocabulario-defesa"></a> <a class="ix-p" href="#ix-cap-bloco-de-inimigo-defesa"></a> <a class="ix-p" href="#ix-cap-criacao-de-inimigos-defesa"></a> <a class="ix-p" href="#ix-cap-maldicoes-prontas-defesa"></a> <a class="ix-p" href="#ix-cap-referencia-rapida-defesa"></a></div>
+<div class="ix-item"><span class="ix-t">Desvantagem</span> <a class="ix-p" href="#ix-cap-bloco-de-inimigo-desvantagem"></a></div>
+<div class="ix-item"><span class="ix-t">Essência</span> <a class="ix-p" href="#ix-cap-bloco-de-inimigo-essencia"></a> <a class="ix-p" href="#ix-cap-maldicoes-prontas-essencia"></a></div>
+<div class="ix-item"><span class="ix-t">Expansão de Domínio</span> <a class="ix-p" href="#ix-cap-tipos-de-criatura-expansao-de-dominio"></a></div>
+<div class="ix-item"><span class="ix-t">Família</span> <a class="ix-p" href="#ix-cap-maldicoes-familia"></a> <a class="ix-p" href="#ix-cap-tipos-de-criatura-familia"></a></div>
+<div class="ix-item"><span class="ix-t">Feitiço</span> <a class="ix-p" href="#ix-cap-bloco-de-inimigo-feitico"></a> <a class="ix-p" href="#ix-cap-criacao-de-inimigos-feitico"></a> <a class="ix-p" href="#ix-cap-referencia-rapida-feitico"></a></div>
+<div class="ix-item"><span class="ix-t">Ferramenta amaldiçoada</span> <a class="ix-p" href="#ix-cap-introducao-ferramenta-amaldicoada"></a> <a class="ix-p" href="#ix-cap-pessoas-e-maldicoes-ferramenta-amaldicoada"></a></div>
+<div class="ix-item"><span class="ix-t">Forma</span> <a class="ix-p" href="#ix-cap-maldicoes-forma"></a> <a class="ix-p" href="#ix-cap-tipos-de-criatura-forma"></a> <a class="ix-p" href="#ix-cap-bloco-de-inimigo-forma"></a> <a class="ix-p" href="#ix-cap-area-e-frequencia-forma"></a> <a class="ix-p" href="#ix-cap-maldicoes-prontas-forma"></a></div>
+<div class="ix-item"><span class="ix-t">Fundamento</span> <a class="ix-p" href="#ix-cap-introducao-fundamento"></a> <a class="ix-p" href="#ix-cap-tipos-de-criatura-fundamento"></a> <a class="ix-p" href="#ix-cap-criacao-de-inimigos-fundamento"></a> <a class="ix-p" href="#ix-cap-area-e-frequencia-fundamento"></a></div>
+<div class="ix-item"><span class="ix-t">Grau</span> <a class="ix-p" href="#ix-cap-maldicoes-grau"></a> <a class="ix-p" href="#ix-cap-pessoas-e-maldicoes-grau"></a> <a class="ix-p" href="#ix-cap-lugares-amaldicoados-grau"></a> <a class="ix-p" href="#ix-cap-bloco-de-inimigo-grau"></a> <a class="ix-p" href="#ix-cap-maldicoes-prontas-grau"></a></div>
+<div class="ix-item"><span class="ix-t">Integridade</span> <a class="ix-p" href="#ix-cap-bloco-de-inimigo-integridade"></a> <a class="ix-p" href="#ix-cap-criacao-de-inimigos-integridade"></a> <a class="ix-p" href="#ix-cap-maldicoes-prontas-integridade"></a></div>
+<div class="ix-item"><span class="ix-t">Marco</span> <a class="ix-p" href="#ix-cap-bloco-de-inimigo-marco"></a> <a class="ix-p" href="#ix-cap-criacao-de-inimigos-marco"></a> <a class="ix-p" href="#ix-cap-maldicoes-prontas-marco"></a></div>
+<div class="ix-item"><span class="ix-t">Origem</span> <a class="ix-p" href="#ix-cap-maldicoes-origem"></a> <a class="ix-p" href="#ix-cap-area-e-frequencia-origem"></a></div>
+<div class="ix-item"><span class="ix-t">Pacto</span> <a class="ix-p" href="#ix-cap-vocabulario-pacto"></a> <a class="ix-p" href="#ix-cap-bloco-de-inimigo-pacto"></a></div>
+<div class="ix-item"><span class="ix-t">Proteção</span> <a class="ix-p" href="#ix-cap-bloco-de-inimigo-protecao"></a> <a class="ix-p" href="#ix-cap-criacao-de-inimigos-protecao"></a> <a class="ix-p" href="#ix-cap-maldicoes-prontas-protecao"></a></div>
+<div class="ix-item"><span class="ix-t">Reação</span> <a class="ix-p" href="#ix-cap-area-e-frequencia-reacao"></a></div>
+<div class="ix-item"><span class="ix-t">Refino</span> <a class="ix-p" href="#ix-cap-bloco-de-inimigo-refino"></a> <a class="ix-p" href="#ix-cap-criacao-de-inimigos-refino"></a> <a class="ix-p" href="#ix-cap-maldicoes-prontas-refino"></a></div>
+<div class="ix-item"><span class="ix-t">Restrição</span> <a class="ix-p" href="#ix-cap-tipos-de-criatura-restricao"></a></div>
+<div class="ix-item"><span class="ix-t">Rodada</span> <a class="ix-p" href="#ix-cap-vocabulario-rodada"></a> <a class="ix-p" href="#ix-cap-bloco-de-inimigo-rodada"></a> <a class="ix-p" href="#ix-cap-criacao-de-inimigos-rodada"></a> <a class="ix-p" href="#ix-cap-area-e-frequencia-rodada"></a> <a class="ix-p" href="#ix-cap-maldicoes-prontas-rodada"></a> <a class="ix-p" href="#ix-cap-referencia-rapida-rodada"></a></div>
+<div class="ix-item"><span class="ix-t">Rotina</span> <a class="ix-p" href="#ix-cap-maldicoes-rotina"></a> <a class="ix-p" href="#ix-cap-lugares-amaldicoados-rotina"></a></div>
+<div class="ix-item"><span class="ix-t">Teste de Resistência</span> <a class="ix-p" href="#ix-cap-bloco-de-inimigo-teste-de-resistencia"></a> <a class="ix-p" href="#ix-cap-criacao-de-inimigos-teste-de-resistencia"></a> <a class="ix-p" href="#ix-cap-maldicoes-prontas-teste-de-resistencia"></a></div>
+<div class="ix-item"><span class="ix-t">Teto</span> <a class="ix-p" href="#ix-cap-bloco-de-inimigo-teto"></a> <a class="ix-p" href="#ix-cap-criacao-de-inimigos-teto"></a> <a class="ix-p" href="#ix-cap-maldicoes-prontas-teto"></a></div>
+<div class="ix-item"><span class="ix-t">Vantagem</span> <a class="ix-p" href="#ix-cap-lugares-amaldicoados-vantagem"></a> <a class="ix-p" href="#ix-cap-criacao-de-inimigos-vantagem"></a></div>
+</div></section>
+</body>
+</html>

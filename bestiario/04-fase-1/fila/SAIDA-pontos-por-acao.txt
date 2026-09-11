@@ -1,0 +1,51 @@
+============================================================================================
+AS ANCORAS
+============================================================================================
+  1 ponto de feitiço vale        4.5 de dano       peça 19 §2.1
+  a regra do §6.5                golpe ÷ 4.5
+  o piso                         3 pontos = 13.5 de dano (a `Classe 1`)
+  o fator da `Intervenção`       × 0.923, só pra quem tem     decisão de 10/09
+
+============================================================================================
+PONTOS POR ACAO — a escada nova, com o fator da `Intervenção` aplicado
+============================================================================================
+  `seco` = abaixo de 3 pontos. Ali ele NAO monta feitico: ele bate.
+
+  nível         Capanga        Ameaça      Desastre    Catástrofe    Calamidade
+  -----------------------------------------------------------------------------
+  2                seco          seco          seco          seco          seco
+  5                seco          seco          seco          seco          seco
+  10                4.2           4.2           5.1           4.5           5.1
+  15                6.2           6.2           7.6           6.9           7.6
+  20                8.2           8.2          10.1           9.0          10.1
+  25               10.2          10.2          12.5          11.2          12.5
+  30               12.2          12.2          15.0          13.5          15.0
+
+============================================================================================
+E O QUE MUDOU EM RELACAO AO §6.5 PUBLICADO
+============================================================================================
+  O §6.5 publica, na escada velha, no nivel 30:
+    Ronda 12,2 · Dupla 24,2 · Alcateia 16,2 · Calamidade 14,6
+
+  A escada nova, no nivel 30:
+    Capanga 12.2 · Ameaça 12.2 · Desastre 15.0 · Catástrofe 13.5 · Calamidade 15.0
+
+  ⚠ E a `Dupla` era o pico da escada velha — 24,2 pontos, contra o teto de 24 do jogador.
+     Ela MORREU. A escada nova nao tem nada naquele patamar, e isso e consequencia
+     direta de ter matado o degrau que levava o dobro do orcamento pela mesma porta.
+
+  E o efeito do fator da `Intervenção` no `Desastre` nv30:
+    sem o fator   golpe 73.0  ->  16.2 pontos
+    com o fator   golpe 67.4  ->  15.0 pontos
+
+============================================================================================
+O QUE ESTA TABELA RESPONDE — a pergunta do Mizuki de 10/09
+============================================================================================
+  "como o mestre cria uma ação de um `Desastre` de nível 30?"
+
+    o golpe dele e 67.4  ->  15.0 pontos de feitiço naquela ação.
+    o mestre monta com 15.0 pontos no Fundamento, igual a um feitiço de jogador.
+
+  "e se ele quiser condição?"     tira ponto dos dados. A peça 19 §2.2 ja preca.
+  "e se for em área?"             o Fundamento ja cobra por area, em ponto.
+  "e uma ação diferente da outra?" cada uma tem o golpe DELA, e o orcamento DELA.

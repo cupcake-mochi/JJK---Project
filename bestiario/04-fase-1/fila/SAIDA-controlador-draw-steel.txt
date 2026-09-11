@@ -1,0 +1,136 @@
+
+================================================================================================
+AS ANCORAS
+================================================================================================
+  os corpos do `Capanga`                  8                      a escada fechada
+  a forma B por CORPO   (`ações` = 1)     ganha 2.000× · paga vida × 0.500
+  a forma B por ESQUADRÃO (`ações` = 8)   ganha 1.125× · paga vida × 0.889
+  statblocks do Draw Steel lidos          415
+
+================================================================================================
+1. O `Controller` EXISTE em minion? E o que o livro DIZ dele?
+================================================================================================
+
+  O que o livro escreve sobre PAPEL:
+    "A creature's role appears after their level and organization in their stat block, and describes that creature's function in combat in a general sense. Roles are descriptive, and mo..."
+
+  O que ele escreve sobre o Controller:
+    "Controllers are creatures who change the battlefield, often with magic or psionics. They reposition foes and alter terrain to make it advantageous for their allies. Controllers are often on the squishier side, so they need protection!"
+
+  E sobre o Defender, que e o oposto dele:
+    "Defenders are tough creatures able to take a lot of damage, and who can force enemies to attack them instead of squishier targets. Defenders often act in squads with allies who have lower Stamina, such as controllers and hexers."
+
+  organização   quantos   tem Controller?  quantos
+  --------------------------------------------------
+  Minion            116               sim        6
+  Horde              76               sim       13
+  Platoon            68               sim        8
+  Elite              97               sim       14
+  Leader             30               NÃO        0
+  Solo               22               NÃO        0
+
+  >> `Leader` e `Solo` NAO tem papel — o livro escreve isso com todas as letras.
+     E o `Minion` TEM. E a mesma linha que a gente desenhou: papel no cabecalho,
+     de `Capanga` a `Calamidade`, menos onde a organizacao ja e o papel.
+
+================================================================================================
+2. O `Controller` PAGA em Stamina? — normalizado por nível e organização
+================================================================================================
+
+  Cada criatura vira uma razao contra a MEDIANA da coorte (mesma organizacao, mesmo
+  nivel). Assim nivel e organizacao saem da conta e sobra o papel.
+
+  papel           n    stamina rel. à mediana   mediana                   leitura
+  --------------------------------------------------------------------------------
+  Artillery      50                     0.833      0.83×                 mais mole
+  Hexer          47                     0.875      0.88×                 mais mole
+  Controller     41                     0.917      0.92×                 mais mole
+  Ambusher       36                     1.000      1.00×                na mediana
+  Leader         25                     1.000      1.00×                na mediana
+  Harrier        60                     1.000      1.00×                na mediana
+  Mount          11                     1.000      1.00×                na mediana
+  Solo           13                     1.000      1.00×                na mediana
+  Support        25                     1.000      1.00×                na mediana
+  Brute          61                     1.250      1.25×                 mais duro
+  Defender       23                     1.250      1.25×                 mais duro
+
+  >> Controller: mediana 0.917 × a coorte  (n=41)
+  >> Defender:   mediana 1.250 × a coorte  (n=23)
+  >> a distancia entre os dois e 1.364 ×.
+
+================================================================================================
+3. E SO ENTRE OS MINIONS — o caso do `Capanga`
+================================================================================================
+
+                                n   stamina mediana    EV/corpo mediano   free strike
+  ------------------------------------------------------------------------------------
+  Minion Controller             6               6.5                1.50           2.5
+  Minion — os outros          110               7.0                1.25           2.0
+
+  E os 6 `Minion Controller`, um a um, contra a coorte deles:
+
+  nome                            nv  stamina  mediana do nv    razão  EV/corpo
+  ------------------------------------------------------------------------------
+  High Elf Dawn Mage               1        3            4.0    0.750      0.75
+  Orc Glorifier                    1        3            4.0    0.750      0.75
+  Human Apprentice Mage            2        4            4.0    1.000      1.00
+  Voiceless Talker Graywarper      6        9            9.0    1.000      2.00
+  Sand Stone Giant                 8       14           13.0    1.077      2.50
+  Cyclops                         10       14           15.0    0.933      3.00
+
+  >> mediana das razoes: 0.967 ×   (media 0.918 ×)
+
+================================================================================================
+4. O PAPEL CUSTA EV? — normalizado por nível E organização, como a Stamina
+================================================================================================
+
+  ⚠ O EV cru esta confundido com o NIVEL: um `Minion Controller` nv10 tem EV/corpo 3,00
+     e um nv1 tem 0,75. E os 6 controllers de minion pendem pra nivel alto.
+     Entao aqui cada criatura vira razao contra a MEDIANA DE EV da coorte dela.
+
+  papel           n    EV rel. à coorte    stamina rel.                     leitura
+  ----------------------------------------------------------------------------------
+  Ambusher       36               1.000           1.000                    de graça
+  Artillery      48               1.000           0.833                    de graça
+  Brute          61               1.000           1.250                    de graça
+  Controller     39               1.000           0.917                    de graça
+  Defender       23               1.000           1.250                    de graça
+  Harrier        60               1.000           1.000                    de graça
+  Hexer          45               1.000           0.875                    de graça
+  Leader         25               1.000           1.000                    de graça
+  Mount          11               1.000           1.000                    de graça
+  Solo           13               1.000           1.000                    de graça
+  Support        25               1.000           1.000                    de graça
+
+  >> o EV normalizado espalha 1.00× a 1.00× — um fator de 1.00× entre o papel mais barato e o mais caro.
+
+  >> o papel do Draw Steel e de graca no EV: ele e so descritivo mesmo.
+
+  E so entre os MINIONS, que e o caso do `Capanga`:
+
+  papel           n    EV rel.   stamina rel.
+  ---------------------------------------------
+  Ambusher       12      1.000          1.000
+  Artillery      23      1.000          0.750
+  Brute          25      1.000          1.125
+  Controller      6      1.000          0.967
+  Defender        6      1.000          1.250
+  Harrier        29      1.000          1.000
+  Hexer          12      1.000          0.882
+  Support         3      1.000          1.000
+
+
+================================================================================================
+5. A METRICA QUE DA PRA ROUBAR — o teto de empilhamento
+================================================================================================
+
+  Sobre quantas ACOES um esquadrao tem:
+    "When minions act, each minion in the squad uses their main action in concert. This is because minions have squad actions (see below) that require participation from all minions, requiring all attacks by a squad to happen at the same time. Individual minions can choose to waste their main action doing nothing when the rest of their squad uses their main action in concert, or can use a maneuver only to alleviate their own circumstances (see Minion Maneuvers)."
+    "Minion turns are meant to be short. On their shared turn, each minion can take only a move action and a main action, a move action and a maneuver, or two move actions."
+
+  >> cada corpo tem a acao DELE. O esquadrao age junto, mas as acoes sao 8 e nao 1.
+
+  E o teto de empilhar num alvo so:
+    "Each target of a minion's signature ability is affected by only one instance of the ability. But when two or three (at maximum) of a squad's minions attack the same creature or object simultaneously, each additional minion causes the signature ability to deal extra damage to the target equal to the "
+
+    "Because a minion's free strike value is typically lower than the average damage of their signature ability, it's usually more effective to have each minion target a different hero."

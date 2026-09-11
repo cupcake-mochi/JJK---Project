@@ -1,0 +1,104 @@
+{
+  "Betobeto": {
+    "tamanho": "Médio",
+    "movimentos": [],
+    "linha": "Maldição que segue as pessoas no escuro e só se deixa ouvir pelos passos.",
+    "notas": "No folclore japonês, o Betobeto é um som de passos que acompanha quem anda sozinho à noite, e quem sai do caminho e pede que ele passe na frente fica em paz. Como maldição, ele aparece em corredores, ruas estreitas e escadas sem luz, e ataca quem corre ou se vira para enfrentá-lo. Na luta, bate sempre em quem ele vinha seguindo.",
+    "corpos_na_mesa": 1,
+    "tracos": [
+      {"nome": "Passos no Escuro", "texto": "Fora da luta, o Betobeto não pode ser visto. Só se ouvem os passos dele, sempre atrás de quem ele segue, e eles param quando essa pessoa para. Ele fica visível quando a luta começa."}
+    ],
+    "acoes_multiplas": null,
+    "acoes": [
+      {"nome": "Pisada", "texto": "*Ataque corpo a corpo:* {acerto} para acertar, alcance {alcance}, uma criatura. *Acerto:* {golpe} de dano de Concussão{vizinho}."}
+    ],
+    "intervencoes": []
+  },
+  "Kamaitachi": {
+    "tamanho": "Pequeno",
+    "movimentos": [],
+    "linha": "Par de maldições em forma de doninha, com garras de foice, que chegam montadas no vento.",
+    "notas": "No folclore japonês, a kamaitachi é um trio de doninhas que corre dentro de um redemoinho: a primeira derruba a pessoa, a segunda corta, e a terceira passa um remédio que fecha o corte antes de doer. Como maldição, elas andam em par e sem o remédio, em campo aberto, pátio e rua onde o vento corre. Na luta, as duas atacam o mesmo alvo, e quando uma cai a outra foge.",
+    "corpos_na_mesa": 2,
+    "tracos": [
+      {"nome": "Par", "texto": "As Kamaitachi aparecem sempre em dupla. Ponha duas na mesa: cada uma é uma criatura com este bloco inteiro."}
+    ],
+    "acoes_multiplas": null,
+    "acoes": [
+      {"nome": "Foice", "texto": "*Ataque corpo a corpo:* {acerto} para acertar, alcance {alcance}, uma criatura. *Acerto:* {golpe} de dano Cortante{vizinho}."}
+    ],
+    "intervencoes": []
+  },
+  "Tsuchigumo": {
+    "tamanho": "Grande",
+    "movimentos": ["Escalada"],
+    "linha": "Aranha gigante que faz ninho em prédios fechados e ataca do teto e das paredes.",
+    "notas": "No folclore japonês, a Tsuchigumo é a aranha gigante que o guerreiro Minamoto no Raikō matou. Como maldição, ela ocupa prédio abandonado, túnel e porão, e passa a luta presa às paredes e ao teto. Abre com Varrida das Patas quando o grupo entra junto, cobre de Teia a passagem por onde o grupo veio e usa Subir quando fica cercada.",
+    "corpos_na_mesa": 1,
+    "tracos": [
+      {"nome": "Escalada de Aranha", "texto": "A Tsuchigumo anda por parede e teto, de cabeça para baixo inclusive, sem fazer teste."},
+      {"nome": "Andar na Teia", "texto": "A teia dela não é terreno difícil para a Tsuchigumo."}
+    ],
+    "acoes_multiplas": "A Tsuchigumo faz três ataques de Mordida, ou usa Varrida das Patas e faz dois ataques de Mordida.",
+    "acoes": [
+      {"nome": "Mordida", "texto": "*Ataque corpo a corpo:* {acerto} para acertar, alcance {alcance}, uma criatura. *Acerto:* {golpe} de dano Perfurante{vizinho}."},
+      {"nome": "Varrida das Patas", "texto": "*Teste de Resistência Físico:* CD {cd}, cada criatura num `Cone` de {cone} a partir dela. *Falha:* {golpe} de dano Cortante. *Sucesso:* metade do dano."}
+    ],
+    "intervencoes": [
+      {"nome": "Mordida", "texto": "A Tsuchigumo faz um ataque de Mordida. Esse ataque não pega o vizinho."},
+      {"nome": "Teia", "texto": "A Tsuchigumo cobre de teia um `Retângulo` de {retangulo} que encoste nela. A área é terreno difícil até o fim da luta."},
+      {"nome": "Subir", "texto": "A Tsuchigumo escala até {deslocamento} pela parede ou pelo teto. Esse movimento não provoca ataque de oportunidade."}
+    ]
+  },
+  "Hitotsume": {
+    "tamanho": "Médio",
+    "movimentos": [],
+    "linha": "Maldição com a forma de um menino de um olho só, que aparece parado e cada vez mais perto.",
+    "notas": "No folclore japonês, o hitotsume-kozō é um menino careca de um olho só que surge no caminho, mostra uma língua comprida e some. Como maldição, ele aparece em escola, hospital e casa antiga: na esquina do corredor, na porta do banheiro, no fim da escada, sempre sozinho. Na luta, ataca quem estiver mais longe do resto do grupo.",
+    "corpos_na_mesa": 1,
+    "tracos": [
+      {"nome": "Mais Perto", "texto": "Fora da luta, o Hitotsume só se move quando ninguém está olhando para ele."}
+    ],
+    "acoes_multiplas": null,
+    "acoes": [
+      {"nome": "Língua", "texto": "*Ataque corpo a corpo:* {acerto} para acertar, alcance {alcance}, uma criatura. *Acerto:* {golpe} de dano de Concussão{vizinho}."}
+    ],
+    "intervencoes": []
+  },
+  "Kitsune": {
+    "tamanho": "Médio",
+    "movimentos": [],
+    "linha": "Maldição em forma de raposa que toma a aparência de gente e ataca com fogo à distância.",
+    "notas": "No folclore japonês, a kitsune é a raposa que aprende a tomar forma humana e acende o kitsunebi, o fogo-de-raposa. Como maldição, ela vive entre pessoas, com rosto humano, em estação, hospital e rua de comércio. Fala com o grupo antes de lutar e tenta separá-lo; na luta, fica longe, usa Fogo-de-Raposa e só morde quem chega ao lado dela.",
+    "corpos_na_mesa": 1,
+    "tracos": [
+      {"nome": "Forma Humana", "texto": "Com uma ação, a Kitsune toma a aparência de uma pessoa que ela já viu, ou volta à forma de raposa. Nenhum número do bloco muda."}
+    ],
+    "acoes_multiplas": null,
+    "acoes": [
+      {"nome": "Mordida", "texto": "*Ataque corpo a corpo:* {acerto} para acertar, alcance {alcance}, uma criatura. *Acerto:* {golpe} de dano Perfurante{vizinho}."},
+      {"nome": "Fogo-de-Raposa", "texto": "*Ataque de conjuração à distância:* {acerto} para acertar, alcance {tecnica_alcance}, uma criatura. *Acerto:* {tecnica_dano} de dano de Fogo."}
+    ],
+    "intervencoes": []
+  },
+  "Oni": {
+    "tamanho": "Grande",
+    "movimentos": [],
+    "linha": "Maldição de corpo enorme, com chifres e um porrete de ferro, que luta de frente.",
+    "notas": "No folclore japonês, o oni tem chifres, pele vermelha ou azul, e carrega um kanabō, um porrete de ferro cravejado. Como maldição, ele fica no fim do caminho: no último andar, no fundo do terreno, na sala que o grupo precisa atravessar. Avança sobre quem está mais perto, usa Pancada no Chão quando o grupo o cerca e guarda Arremesso para tirar do lugar quem cuida dos outros.",
+    "corpos_na_mesa": 1,
+    "tracos": [
+      {"nome": "Faro", "texto": "O Oni sente cheiro de sangue. Ele sabe onde está cada criatura que perdeu vida nesta luta, se ela estiver no mesmo cômodo que ele, mesmo sem vê-la."}
+    ],
+    "acoes_multiplas": "O Oni faz três ataques de Kanabō, ou usa Pancada no Chão e faz dois ataques de Kanabō.",
+    "acoes": [
+      {"nome": "Kanabō", "texto": "*Ataque corpo a corpo:* {acerto} para acertar, alcance {alcance}, uma criatura. *Acerto:* {golpe} de dano de Concussão{vizinho}."},
+      {"nome": "Pancada no Chão", "texto": "*Teste de Resistência Físico:* CD {cd}, cada criatura numa `Esfera` de {esfera} a partir do corpo dele. *Falha:* {golpe} de dano de Concussão. *Sucesso:* metade do dano."}
+    ],
+    "intervencoes": [
+      {"nome": "Kanabō", "texto": "O Oni faz um ataque de Kanabō. Esse ataque não pega o vizinho."},
+      {"nome": "Arremesso", "texto": "*Teste de Resistência Físico:* CD {cd}, uma criatura a até {alcance} dele. *Falha:* o alvo é jogado num espaço livre a até {deslocamento} do Oni e fica `Derrubado`. O arremesso não causa dano."},
+      {"nome": "Parede Abaixo", "texto": "O Oni derruba uma parede, pilar ou divisória a até {alcance} dele. Ela para de dar cobertura, e os quadrados onde ela estava viram terreno difícil até o fim da luta."}
+    ]
+  }
+}

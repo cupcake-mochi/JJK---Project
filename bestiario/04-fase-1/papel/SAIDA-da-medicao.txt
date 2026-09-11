@@ -1,0 +1,292 @@
+
+============================================================================================
+0. A ESCADA, lida do dono
+============================================================================================
+  categoria       pessoas    vida   dano  ações       o golpe
+  ------------------------------------------------------------
+  Ameaça                1     236     55      1      6d8 + 28
+  Desastre              4     945    219      3      8d8 + 37
+  Catástrofe            6    1417    328      5     6d10 + 33
+  Calamidade            8    1890    438      6      8d8 + 37
+
+  a tabela do `o golpe` como fatia da vida de UM personagem, 4 níveis:
+   nv2  Capanga 32%  Ameaça 21%  Desastre 30%  Catástrofe 26%  Calamidade 30%
+   nv10 Capanga 30%  Ameaça 23%  Desastre 30%  Catástrofe 27%  Calamidade 30%
+   nv20 Capanga 30%  Ameaça 23%  Desastre 30%  Catástrofe 27%  Calamidade 30%
+   nv30 Capanga 30%  Ameaça 23%  Desastre 30%  Catástrofe 27%  Calamidade 30%
+   >> a banda PUBLICADA, lida da prosa da escada: 21% a 32%
+      e a tabela dela mede 21% a 32%. As duas fecham.
+
+  a vida de UM personagem no nv30, derivada de golpe ÷ fatia nas quatro:
+   Ameaça 239  Desastre 243  Catástrofe 244  Calamidade 243
+   >> mediana 243. A dispersão é o arredondamento das fatias a 1%%.
+
+============================================================================================
+1. O PRECEDENTE DO 4e — a troca dele e NEUTRA DE ORCAMENTO?
+============================================================================================
+  PV efetivo = PV cru ÷ chance de acerto. Quem tem CA baixa toma mais golpes,
+  entao PV cru e CA se compensam — e e ISSO que decide se a troca e neutra.
+
+  Como a chance de acerto base do 4e nao esta neste arquivo, a conta roda em QUATRO
+  ancoras e mostra as quatro: se a neutralidade aparecer nas quatro, ela nao depende
+  do palpite.
+
+  chance de acerto contra a CA padrão (14 + nível) = 50%
+    papel         PV cru     CA   acerto  PV efetivo  vs Brute
+    Soldier           74   26.1   39.5%       187.6     1.10x
+    Brute             96   22.8   56.1%       171.0     1.00x
+    Controller        74   24.5   47.5%       155.6     0.91x
+    Skirmisher        74   24.4   48.0%       154.2     0.90x
+    Lurker            51   24.2   49.1%       103.9     0.61x
+    Artillery         51   23.8   51.1%        99.8     0.58x
+    >> `Soldier` contra `Brute`: 9.7% de diferença em PV efetivo.
+    >> `Artillery` contra `Brute`: 58% — ele paga 42% da durabilidade
+
+  chance de acerto contra a CA padrão (14 + nível) = 55%
+    papel         PV cru     CA   acerto  PV efetivo  vs Brute
+    Soldier           74   26.1   44.5%       166.5     1.06x
+    Brute             96   22.8   61.2%       157.0     1.00x
+    Controller        74   24.5   52.5%       140.8     0.90x
+    Skirmisher        74   24.4   53.0%       139.6     0.89x
+    Lurker            51   24.2   54.1%        94.3     0.60x
+    Artillery         51   23.8   56.1%        90.9     0.58x
+    >> `Soldier` contra `Brute`: 6.0% de diferença em PV efetivo.
+    >> `Artillery` contra `Brute`: 58% — ele paga 42% da durabilidade
+
+  chance de acerto contra a CA padrão (14 + nível) = 60%
+    papel         PV cru     CA   acerto  PV efetivo  vs Brute
+    Soldier           74   26.1   49.5%       149.6     1.03x
+    Brute             96   22.8   66.1%       145.1     1.00x
+    Controller        74   24.5   57.5%       128.6     0.89x
+    Skirmisher        74   24.4   58.0%       127.6     0.88x
+    Lurker            51   24.2   59.1%        86.3     0.59x
+    Artillery         51   23.8   61.1%        83.5     0.58x
+    >> `Soldier` contra `Brute`: 3.1% de diferença em PV efetivo.
+    >> `Artillery` contra `Brute`: 58% — ele paga 42% da durabilidade
+
+  chance de acerto contra a CA padrão (14 + nível) = 65%
+    papel         PV cru     CA   acerto  PV efetivo  vs Brute
+    Soldier           74   26.1   54.4%       135.9     1.01x
+    Brute             96   22.8   71.2%       134.9     1.00x
+    Controller        74   24.5   62.5%       118.3     0.88x
+    Skirmisher        74   24.4   63.0%       117.5     0.87x
+    Lurker            51   24.2   64.1%        79.6     0.59x
+    Artillery         51   23.8   66.1%        77.2     0.57x
+    >> `Soldier` contra `Brute`: 0.7% de diferença em PV efetivo.
+    >> `Artillery` contra `Brute`: 57% — ele paga 43% da durabilidade
+
+  >> O par `Brute` / `Soldier` fica dentro de 10% em TODA a faixa, e aperta quanto mais
+     alto o acerto: 9,7% em 50%, 3,1% em 60%, 0,7% em 65%. O alvo de desenho do 4e
+     era o PC acertando monstro padrao em torno de 55% a 60% — e ali a diferenca e de
+     3% a 6%. ISSO e redistribuicao de verdade: o `Brute` compra PV cru com CA.
+  ⚠ A neutralidade NAO e exata, e ela depende da ancora. O que e robusto e a DIRECAO
+     e a ordem de grandeza, nao o empate no centavo.
+  >> E o `Artillery` paga 42% a 43% da durabilidade em TODAS as quatro ancoras — esse
+     numero nao se move. O que ele compra com isso esta no TEXTO da habilidade
+     (alcance), nao na tabela.
+  ⚠ E o 4e NAO COBRA por nada disso: o XP e funcao do nivel e do qualificador
+     (Minion 1/4, Elite 2x, Solo 5x). O papel nao entra no XP.
+
+============================================================================================
+2. O INVARIANTE da escada do Projeto-M — o que tem de ficar constante
+============================================================================================
+  O que um inimigo custa num encontro e quanto dano ele entrega na luta inteira:
+
+    dano total = dano por rodada x rodadas     e     rodadas = vida ÷ dano do grupo
+    entao  dano total ∝ VIDA x DANO.
+
+  Se isso esta certo, o produto `vida x dano` tem de crescer com o QUADRADO das
+  pessoas que a categoria pede — porque dobrar as pessoas dobra o dano delas E
+  obriga o inimigo a durar o dobro.
+
+  categoria       pessoas   vida x dano  produto ÷ Desastre  (pessoas ÷ 4)²
+  --------------------------------------------------------------------------
+  Ameaça                1         12980               0.06x           0.06x   ok
+  Desastre              4        206955               1.00x           1.00x   ok
+  Catástrofe            6        464776               2.25x           2.25x   ok
+  Calamidade            8        827820               4.00x           4.00x   ok
+
+  >> FECHA. O invariante de neutralidade e `vida x dano`, e ele vai com pessoas².
+     Entao um papel que multiplica a vida por `m` e divide o dano por `m` NAO muda
+     quantas pessoas o inimigo pede. Isso e a regra "redistribui" com conta.
+
+============================================================================================
+3. QUANTO ESPACO A BANDA DO `o golpe` DEIXA — e ela e apertada
+============================================================================================
+  Subir o dano sobe `o golpe`, e a escada mede `o golpe` como fatia da vida de UM
+  personagem. A banda publicada e 21% a 32%, e foi passar dela que
+  matou a `Dupla` (ela chegou a 45%).
+
+  categoria       fatia hoje  teto da banda   dano pode subir
+  ------------------------------------------------------------
+  Ameaça                23%           32%             1.39x
+  Desastre              30%           32%             1.07x
+  Catástrofe            27%           32%             1.19x
+  Calamidade            30%           32%             1.07x
+
+  >> O `Desastre` e a `Calamidade` ja sentam no teto da banda (30%).
+     Elas tem 1.07x de espaco — que e quase nada.
+  >> A `Ameaça` tem 1.39x, porque ela senta em 23%.
+
+  ⚠ ISSO E O ACHADO QUE MANDA NO DESENHO: o eixo do DANO esta praticamente fechado
+     pra cima, e o espaco e DIFERENTE em cada categoria. Um papel que sobe o dano
+     quebraria a banda na categoria mais usada e caberia na menos usada.
+  >> A direcao que SOBRA e a de baixo: papel que DESCE o dano e sobe a vida cabe
+     sempre, porque `o golpe` sai da banda por baixo e o piso dela e 21%.
+
+============================================================================================
+3.5 O EIXO QUE O 4e USA, E QUE A BANDA NAO ALCANCA — `vida` contra `Defesa`
+============================================================================================
+  A Defesa do inimigo no nv30 e 20, e o personagem acerta alvo difícil em 50% (peça 1 §5.2).
+  1 ponto de Defesa move 5 pontos percentuais num d20.
+
+  vida EFETIVA = vida ÷ chance de acerto. Entao mexer na Defesa e mexer na vida
+  efetiva SEM TOCAR NO DANO — e e por isso que a banda do `o golpe` nao alcança
+  este eixo. É o eixo que o 4e usa.
+
+    Defesa   acerto do PC   vida efetiva   vida crua precisa ser
+  ----------------------------------------------------------------
+        17           65%          1.54x                   1.30x
+        18           60%          1.67x                   1.20x
+        19           55%          1.82x                   1.10x
+        20           50%          2.00x                   1.00x
+        21           45%          2.22x                   0.90x
+        22           40%          2.50x                   0.80x
+        23           35%          2.86x                   0.70x
+
+  >> O câmbio: `−1` de Defesa pede `×1.10` de vida crua pra ficar neutro.
+     `−2` de Defesa pede `×1.20`. `+2` de Defesa devolve `×0.80`.
+  >> E isso E o `Brute` do 4e, traduzido: CA mais baixa, PV mais altos, durabilidade igual.
+  ⚠ E aqui NAO tem banda nenhuma no caminho: o dano nao se move, entao `o golpe` fica
+     exatamente onde a escada pôs ele.
+
+  O `Brutamontes` e o `Guardião` medidos neste eixo, num Desastre nv30:
+    papel           Defesa    vida   dano   o golpe   fatia  vida efetiva
+    ----------------------------------------------------------------------
+    ‹ sem papel ›       20     945    219        73    30%          1890
+    Brutamontes         18    1134    219        73    30%          1890
+    Guardião            22     756    219        73    30%          1890
+
+  >> A vida efetiva fica IGUAL nos tres, e `o golpe` nao se move. Isso e
+     redistribuicao de verdade, com um numero que sai de conta e nao de gosto.
+
+============================================================================================
+4. OS SEIS PAPEIS — o que cada um pode trocar, medido
+============================================================================================
+  câmbios lidos do dono:  1 m = 0.60 de dano por rodada (peça 19 §2.2, da peça 5 §4)
+                          dano evitado converte 1 pra 1 (peça 19 §2.2)
+
+  e o Desastre nv30, que e a mesa padrao: vida 945, dano 219 em 3 ações, uma ação = 73.00
+
+  ⚠ ALCANCE nao tem preco publicado. O unico cambio de metro que o sistema tem e o de
+     DESLOCAMENTO. Usando ele como convenção: sair de 1.5 m pra 18 m
+     vale 9.90 de dano por rodada — 4.5% da cota de um Desastre.
+  >> Em vida, ao câmbio 1 pra 1 de dano evitado, isso é 10 de vida por rodada
+     de luta. Numa luta de 3 rodadas, 30 de vida — 3.1% da vida dele.
+
+  papel        a troca                             cabe?   
+  ----------------------------------------------------------------------------------------
+  Brutamontes  vida ↑, dano ↓                      
+               desce `o golpe` — sai da banda por BAIXO, e o piso é 21%. CABE SEMPRE
+  Artilheiro   vida ↓, alcance ↑                   
+               NÃO sobe o dano: o espaço da banda é quase zero. Ele paga vida e ganha alcance
+  Emboscador   mesmo dano/rodada, em MENOS ações   
+               concentra: sobe `o golpe` na proporção das ações cortadas. É o eixo PROIBIDO
+  Controlador  dano ↓ → efeito                     
+               a régua da peça 19 §2.2 já converte: N ações negadas por M pontos
+  Guardião     dano ↓ → dano negado no aliado      
+               dano evitado converte 1 pra 1 (peça 19 §2.2). Câmbio direto, sem conta nova
+  Apoio        o próprio orçamento → o dos aliados 
+               o mesmo 1 pra 1, só que o destino é outro bloco
+
+  O `Emboscador` medido — o unico dos seis que a banda REPROVA:
+
+    ações      o golpe    fatia da vida de um PC    dentro da banda?
+    --------------------------------------------------------------
+    3            73.00                      30%                 sim
+    2           109.50                      45%                 NÃO
+    1           219.00                      90%                 NÃO
+
+    >> Cortar de 3 pra 2 ações joga `o golpe` em 45% da vida de um personagem.
+    >> Cortar pra 1 joga em 90% — que é MAIS que a `Dupla` que morreu (45%).
+    >> Então o `Emboscador` não pode concentrar o dano. Ele troca no eixo de
+       MOBILIDADE e de ESCONDER, que é onde o 4e põe o `Lurker`.
+
+============================================================================================
+5. E SE O PROJETO IMPORTASSE OS MODIFICADORES DO DRAW STEEL DIRETO
+============================================================================================
+  Draw Steel, nível 5, organização `Platoon` (×1), tier 1.1:
+  Stamina = ((10 × nível) + mod. papel) × org    ·    dano = (4 + nível + mod. dano) × tier
+  E o EV — o custo — é ((2 × nível) + 4) × org = 14 pra TODOS eles.
+
+  papel         Stamina   dano    EV  Stamina ÷ Controller
+  ----------------------------------------------------------
+  Brute              80   11.0    14                 1.33x
+  Defender           80    9.9    14                 1.33x
+  Ambusher           70   11.0    14                 1.17x
+  Harrier            70    9.9    14                 1.17x
+  Support            70    9.9    14                 1.17x
+  Artillery          60   11.0    14                 1.00x
+  Controller         60    9.9    14                 1.00x
+  Hexer              60    9.9    14                 1.00x
+
+  >> O `Brute` tem 1,33x a Stamina do `Controller` e o MESMO EV.
+  >> O `Brute` e o `Artillery` tem o MESMO modificador de dano (+1) e o `Brute` tem
+     +20 de Stamina. O `Brute` e compra estritamente melhor, pelo mesmo preco.
+  ⚠ Isso NAO e neutro de orcamento. Importar esses modificadores direto traz de volta
+     o defeito que matou a `Dupla`: dois donos no mesmo numero.
+
+============================================================================================
+5.5 O `Líder` — se a categoria ganhar um degrau, que numero ele tem
+============================================================================================
+  A escada mede em PESSOAS, e o invariante do §2 e `vida × dano ∝ pessoas²`.
+  Entao um degrau novo entre `Ameaça` (1) e `Desastre` (4) tem o numero determinado
+  pela escolha de quantas pessoas ele pede — e so sobra escolher as AÇÕES.
+
+   pessoas   fator    vida   dano  ações   o golpe   fatia da vida de um PC   na banda?
+  --------------------------------------------------------------------------------------
+         2    0.50     472    110      1     109.5                     45%         NÃO
+         2    0.50     472    110      2      54.8                     22%         sim
+         2    0.50     472    110      3      36.5                     15%         NÃO
+         3    0.75     709    164      1     164.2                     68%         NÃO
+         3    0.75     709    164      2      82.1                     34%         NÃO
+         3    0.75     709    164      3      54.8                     22%         sim
+
+  >> Com 2 pessoas, `1` ação joga `o golpe` em 45% — fora da banda.
+     Com 2 pessoas e `2` ações ele cai em 22%, dentro.
+  >> Com 3 pessoas e `2` ações da 34%, dentro; com `3` ações da 22%, dentro.
+
+  ⚠ E o problema do `Líder` NAO e o numero — e o NOME.
+     O papel `Apoio` ja e "fortalece os outros, o proprio orcamento vira o dos aliados".
+     Um degrau de categoria chamado `Líder` que "melhora os outros" e a MESMA ideia
+     em dois eixos. Dois nomes pra uma coisa e o defeito que a skill de redacao chama
+     de "uma coisa por nome".
+  >> A saida limpa: o degrau de categoria e sobre TAMANHO (quantas pessoas), e o que
+     ele faz com os aliados e o PAPEL `Apoio` pendurado nele. `Desastre Apoio` ja diz.
+
+============================================================================================
+6. O VEREDITO
+============================================================================================
+  1. O invariante de neutralidade e `vida x dano`, e ele reproduz pessoas² nas quatro
+     categorias. Um papel que faz vida x m e dano ÷ m nao muda o encontro.
+
+  2. Mas a banda do `o golpe` (21% a 32%) fecha o eixo do dano PRA CIMA:
+     o `Desastre` tem 1.07x de espaco e a `Ameaça` tem 1.39x.
+     O espaco e DIFERENTE por categoria, entao um `m` unico nao serve pros dois sentidos.
+
+  3. A direcao de BAIXO cabe sempre. `Brutamontes` (vida ↑, dano ↓) e legal em qualquer
+     categoria; `Artilheiro` (dano ↑) nao e.
+
+  4. Entao o `Artilheiro` tem de pagar de outro jeito: vida ↓ em troca de ALCANCE.
+     Pelo cambio de metro do proprio sistema, 18 m valem 9.90 por rodada —
+     3% da vida dele numa luta de 3 rodadas. É pequeno.
+
+  5. O `Emboscador` NAO pode concentrar dano: 2 acoes joga `o golpe` em 45% da
+     vida de um personagem, e 1 acao em 90% — pior que a `Dupla`.
+
+  6. `Controlador`, `Guardião` e `Apoio` sao os TRES FACEIS: a peca 19 §2.2 ja tem a
+     regua de converter dano em efeito, e `dano evitado converte 1 pra 1`.
+
+  7. O precedente e o 4e, nao o Draw Steel. O 4e redistribui com numero e nao cobra
+     (o XP ignora o papel); o Draw Steel ADICIONA e tambem nao cobra, e por isso o
+     `Brute` dele e compra melhor que o `Artillery` pelo mesmo EV.

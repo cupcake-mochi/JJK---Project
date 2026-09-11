@@ -1,0 +1,127 @@
+
+================================================================================================
+0 · AS ANCORAS — lidas dos donos
+================================================================================================
+  peça 19 §4 · Físicos      peso  60%   3 tipos: Cortante, Perfurante, Concussão
+  peça 19 §4 · Elementais   peso  30%   6 tipos: Fogo, Frio, Elétrico, Ácido, Trovejante, Veneno
+  peça 19 §4 · Especiais    peso  10%   5 tipos: Radiante, Necrótico, Psíquico, Energia Reversa, Alma
+  peça 19 §4 · a peça declara "Catorze tipos" = 14; a tabela lista 14
+
+  peça 26 §6.3 — a tabela de preço:
+    grupo           peso  resistir     imune  vulnerável
+    Físicos          60%      1.43      2.50        0.62
+    Elementais       30%      1.18      1.43        0.77
+    Especiais        10%      1.05      1.11        0.91
+    um tipo só       20%      1.11      1.25        0.83
+
+  conferindo a tabela contra a fórmula que a própria §6.3 enuncia:
+    Físicos       resistir    publicado  1.43   fórmula  1.43
+    Físicos       imune       publicado  2.50   fórmula  2.50
+    Físicos       vulnerável  publicado  0.62   fórmula  0.62
+    Elementais    resistir    publicado  1.18   fórmula  1.18
+    Elementais    imune       publicado  1.43   fórmula  1.43
+    Elementais    vulnerável  publicado  0.77   fórmula  0.77
+    Especiais     resistir    publicado  1.05   fórmula  1.05
+    Especiais     imune       publicado  1.11   fórmula  1.11
+    Especiais     vulnerável  publicado  0.91   fórmula  0.91
+    um tipo só    resistir    publicado  1.11   fórmula  1.11
+    um tipo só    imune       publicado  1.25   fórmula  1.25
+    um tipo só    vulnerável  publicado  0.83   fórmula  0.83
+  ⟹ a tabela é conta, e ela fecha.
+
+  RASCUNHO-5 · a linha do bloco chama a terceira célula de "Fraquezas"
+  peça 26 §6.3 · a peça chama de "vulnerabilidade"
+  ⚠ NOMES DIFERENTES: o bloco diz "Fraquezas", a peça diz "vulnerabilidade".
+
+  peça 26 §6.3 · a frase da vulnerabilidade: "Vulnerabilidade devolve na mesma moeda." — ACHADA
+    ⚠ "a mesma moeda" é o DEGRAU, e o item 5 matou o degrau como moeda.
+    a lista de mexidas do item 5 cita vulnerabilidade? NÃO
+
+  peça 26 §6.3 · menções à escada MORTA (Ronda/Dupla/Alcateia): 2  -> Alcateia
+
+================================================================================================
+1 · QUANTOS BLOCOS DO CAMPO IMPRIMEM CADA CÉLULA
+================================================================================================
+
+  D&D 2024 — 331 blocos
+    célula                    quantos têm    mediana de entradas (nos que têm)
+    resistência                 53  16.0%   mediana  2.0   máximo   5
+    imunidade                  124  37.5%   mediana  1.0   máximo   3
+    vulnerabilidade              0   0.0%   mediana  0.0   máximo   0
+    imunidade a CONDIÇÃO        75  22.7%   mediana  2.0   máximo  11
+
+  D&D 2014 — 325 blocos
+    célula                    quantos têm    mediana de entradas (nos que têm)
+    resistência                 67  20.6%   mediana  3.0   máximo   8
+    imunidade                  125  38.5%   mediana  1.0   máximo   6
+    vulnerabilidade             15   4.6%   mediana  1.0   máximo   2
+    imunidade a CONDIÇÃO        92  28.3%   mediana  3.0   máximo   9
+
+================================================================================================
+2 · A VULNERABILIDADE É PREÇADA? — o experimento natural
+================================================================================================
+
+  O MECANISMO da §6.3 e o do `Guia do Mestre` de 2014 sao o mesmo: resistir nao
+  muda a vida IMPRESSA, muda a vida EFETIVA — e o CR e fixado pela efetiva.
+
+  Entao, para um mesmo CR:
+    resistir / ser imune  ->  a vida IMPRESSA tem de ser MENOR  (razao < 1)
+    ser vulneravel        ->  a vida IMPRESSA tem de ser MAIOR  (razao > 1)
+  Se a razao for 1,00, aquela celula e DE GRACA naquele sistema.
+
+  ⚠ E a comparacao e feita DENTRO da faixa de CR, senao ela mede so o CR.
+
+
+  D&D 2024 — 301 blocos com CR > 0
+    resistência          vida impressa de quem tem ÷ de quem não tem, dentro da faixa: 0.889   ✅ PREÇADA, e no sentido que a §6.3 prevê
+      5 faixas, 50 blocos com a célula — CR 0–1 1.29 (n=12) · CR 2–4 0.88 (n=11) · CR 5–10 0.89 (n=15) · CR 11–16 0.93 (n=7) · CR 17+ 0.78 (n=5)
+    imunidade            vida impressa de quem tem ÷ de quem não tem, dentro da faixa: 1.066   ⚠ PREÇADA AO CONTRÁRIO da §6.3
+      4 faixas, 103 blocos com a célula — CR 0–1 1.24 (n=18) · CR 2–4 0.98 (n=29) · CR 5–10 1.15 (n=34) · CR 11–16 0.81 (n=22)
+    vulnerabilidade      0 blocos no sistema inteiro — ZERO, a célula não existe aqui
+
+  D&D 2014 — 293 blocos com CR > 0
+    resistência          vida impressa de quem tem ÷ de quem não tem, dentro da faixa: 0.882   ✅ PREÇADA, e no sentido que a §6.3 prevê
+      5 faixas, 65 blocos com a célula — CR 0–1 1.22 (n=17) · CR 2–4 0.88 (n=12) · CR 5–10 0.85 (n=20) · CR 11–16 0.89 (n=11) · CR 17+ 0.68 (n=5)
+    imunidade            vida impressa de quem tem ÷ de quem não tem, dentro da faixa: 0.974   DE GRAÇA — a vida impressa não muda
+      4 faixas, 104 blocos com a célula — CR 0–1 0.95 (n=17) · CR 2–4 1.00 (n=31) · CR 5–10 1.19 (n=33) · CR 11–16 0.92 (n=23)
+    vulnerabilidade      vida impressa de quem tem ÷ de quem não tem, dentro da faixa: 1.059   ✅ PREÇADA, e no sentido que a §6.3 prevê
+      3 faixas, 12 blocos com a célula — CR 0–1 1.00 (n=6) · CR 2–4 1.13 (n=3) · CR 5–10 1.06 (n=3)
+
+================================================================================================
+3 · EM QUE TIPO O CAMPO PÕE RESISTÊNCIA — e ele bate no nosso 60/30/10?
+================================================================================================
+
+  D&D 2024
+    resistência         ( 105 entradas)  Físicos   0.0%   Elementais  77.1%   Especiais  22.9%   fora dos catorze   0.0%
+    imunidade           ( 169 entradas)  Físicos   0.0%   Elementais  88.2%   Especiais  11.8%   fora dos catorze   0.0%
+
+  D&D 2014
+    resistência         ( 242 entradas)  Físicos  64.5%   Elementais  31.8%   Especiais   3.7%   fora dos catorze   0.0%
+    imunidade           ( 215 entradas)  Físicos  26.0%   Elementais  66.0%   Especiais   7.9%   fora dos catorze   0.0%
+    vulnerabilidade     (  16 entradas)  Físicos  37.5%   Elementais  56.2%   Especiais   6.2%   fora dos catorze   0.0%
+
+  o nosso peso publicado (peça 19 §4): Físicos 60%   Elementais 30%   Especiais 10%
+  ⚠ os dois medem coisas diferentes: o nosso peso é "quanto do dano RECEBIDO vem
+    daquele grupo"; o do campo é "em que grupo o autor põe resistência".
+
+================================================================================================
+4 · O DRAW STEEL — e lá as duas são NÚMERO, não binário
+================================================================================================
+  828 statblocks com as duas células lidas
+    imprimem a célula Immunity ......... 828 de 828 (100%) — sempre, com "-" quando vazia
+    têm imunidade de fato .............  280  33.8%
+    têm fraqueza de fato ..............   88  10.6%
+
+    a imunidade deles é NÚMERO: mediana 4, de 1 a 10 — é redução fixa de dano, não "não recebe nada"
+    a fraqueza deles é NÚMERO: mediana 5, de 3 a 8 — é acréscimo fixo, não "dobra"
+
+    em que tipo eles põem imunidade: corruption 104, poison 102, psychic 74, fire 66, acid 12, cold 10, lightning 8, damage 6
+    em que tipo eles põem fraqueza:  holy 70, acid 12, fire 6
+
+  O EV (o preço de encontro deles) enxerga essas duas células?
+    imunidade     47 coortes (mesmo nível+organização) — EV de quem tem ÷ de quem não tem = 1.000  IGUAL, não é preçada
+    fraqueza      17 coortes (mesmo nível+organização) — EV de quem tem ÷ de quem não tem = 1.000  IGUAL, não é preçada
+
+================================================================================================
+FIM
+================================================================================================

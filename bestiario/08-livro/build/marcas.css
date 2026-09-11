@@ -1,0 +1,37 @@
+/* gerado por build.py — não editar à mão */
+
+@page cap1:right { @right-top { content: "1"; background: var(--selo); color: var(--washi); font-family: "Barlow Condensed", sans-serif; font-weight: 600; font-size: 11pt; text-align: center; vertical-align: middle; height: 14.0mm; width: 9mm; margin-top: 24.0mm; margin-left: 9mm; } }
+@page cap1:left  { @left-top  { content: "1"; background: var(--selo); color: var(--washi); font-family: "Barlow Condensed", sans-serif; font-weight: 600; font-size: 11pt; text-align: center; vertical-align: middle; height: 14.0mm; width: 9mm; margin-top: 24.0mm; margin-right: 9mm; } }
+.cap-1 { page: cap1; }
+
+@page cap2:right { @right-top { content: "2"; background: var(--selo); color: var(--washi); font-family: "Barlow Condensed", sans-serif; font-weight: 600; font-size: 11pt; text-align: center; vertical-align: middle; height: 14.0mm; width: 9mm; margin-top: 51.5mm; margin-left: 9mm; } }
+@page cap2:left  { @left-top  { content: "2"; background: var(--selo); color: var(--washi); font-family: "Barlow Condensed", sans-serif; font-weight: 600; font-size: 11pt; text-align: center; vertical-align: middle; height: 14.0mm; width: 9mm; margin-top: 51.5mm; margin-right: 9mm; } }
+.cap-2 { page: cap2; }
+
+@page cap3:right { @right-top { content: "3"; background: var(--selo); color: var(--washi); font-family: "Barlow Condensed", sans-serif; font-weight: 600; font-size: 11pt; text-align: center; vertical-align: middle; height: 14.0mm; width: 9mm; margin-top: 79.0mm; margin-left: 9mm; } }
+@page cap3:left  { @left-top  { content: "3"; background: var(--selo); color: var(--washi); font-family: "Barlow Condensed", sans-serif; font-weight: 600; font-size: 11pt; text-align: center; vertical-align: middle; height: 14.0mm; width: 9mm; margin-top: 79.0mm; margin-right: 9mm; } }
+.cap-3 { page: cap3; }
+
+@page cap4:right { @right-top { content: "4"; background: var(--selo); color: var(--washi); font-family: "Barlow Condensed", sans-serif; font-weight: 600; font-size: 11pt; text-align: center; vertical-align: middle; height: 14.0mm; width: 9mm; margin-top: 106.5mm; margin-left: 9mm; } }
+@page cap4:left  { @left-top  { content: "4"; background: var(--selo); color: var(--washi); font-family: "Barlow Condensed", sans-serif; font-weight: 600; font-size: 11pt; text-align: center; vertical-align: middle; height: 14.0mm; width: 9mm; margin-top: 106.5mm; margin-right: 9mm; } }
+.cap-4 { page: cap4; }
+
+@page cap5:right { @right-top { content: "5"; background: var(--selo); color: var(--washi); font-family: "Barlow Condensed", sans-serif; font-weight: 600; font-size: 11pt; text-align: center; vertical-align: middle; height: 14.0mm; width: 9mm; margin-top: 134.0mm; margin-left: 9mm; } }
+@page cap5:left  { @left-top  { content: "5"; background: var(--selo); color: var(--washi); font-family: "Barlow Condensed", sans-serif; font-weight: 600; font-size: 11pt; text-align: center; vertical-align: middle; height: 14.0mm; width: 9mm; margin-top: 134.0mm; margin-right: 9mm; } }
+.cap-5 { page: cap5; }
+
+@page cap6:right { @right-top { content: "6"; background: var(--selo); color: var(--washi); font-family: "Barlow Condensed", sans-serif; font-weight: 600; font-size: 11pt; text-align: center; vertical-align: middle; height: 14.0mm; width: 9mm; margin-top: 161.5mm; margin-left: 9mm; } }
+@page cap6:left  { @left-top  { content: "6"; background: var(--selo); color: var(--washi); font-family: "Barlow Condensed", sans-serif; font-weight: 600; font-size: 11pt; text-align: center; vertical-align: middle; height: 14.0mm; width: 9mm; margin-top: 161.5mm; margin-right: 9mm; } }
+.cap-6 { page: cap6; }
+
+@page cap7:right { @right-top { content: "7"; background: var(--selo); color: var(--washi); font-family: "Barlow Condensed", sans-serif; font-weight: 600; font-size: 11pt; text-align: center; vertical-align: middle; height: 14.0mm; width: 9mm; margin-top: 189.0mm; margin-left: 9mm; } }
+@page cap7:left  { @left-top  { content: "7"; background: var(--selo); color: var(--washi); font-family: "Barlow Condensed", sans-serif; font-weight: 600; font-size: 11pt; text-align: center; vertical-align: middle; height: 14.0mm; width: 9mm; margin-top: 189.0mm; margin-right: 9mm; } }
+.cap-7 { page: cap7; }
+
+@page cap8:right { @right-top { content: "8"; background: var(--selo); color: var(--washi); font-family: "Barlow Condensed", sans-serif; font-weight: 600; font-size: 11pt; text-align: center; vertical-align: middle; height: 14.0mm; width: 9mm; margin-top: 216.5mm; margin-left: 9mm; } }
+@page cap8:left  { @left-top  { content: "8"; background: var(--selo); color: var(--washi); font-family: "Barlow Condensed", sans-serif; font-weight: 600; font-size: 11pt; text-align: center; vertical-align: middle; height: 14.0mm; width: 9mm; margin-top: 216.5mm; margin-right: 9mm; } }
+.cap-8 { page: cap8; }
+
+@page cap9:right { @right-top { content: "9"; background: var(--selo); color: var(--washi); font-family: "Barlow Condensed", sans-serif; font-weight: 600; font-size: 11pt; text-align: center; vertical-align: middle; height: 14.0mm; width: 9mm; margin-top: 244.0mm; margin-left: 9mm; } }
+@page cap9:left  { @left-top  { content: "9"; background: var(--selo); color: var(--washi); font-family: "Barlow Condensed", sans-serif; font-weight: 600; font-size: 11pt; text-align: center; vertical-align: middle; height: 14.0mm; width: 9mm; margin-top: 244.0mm; margin-right: 9mm; } }
+.cap-9 { page: cap9; }

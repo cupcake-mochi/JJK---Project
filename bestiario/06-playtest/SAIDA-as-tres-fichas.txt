@@ -1,0 +1,89 @@
+============================================================================================
+ÂNCORAS — todas lidas do dono
+============================================================================================
+  TABELA `Ameaça`  nv7 : {'nv': '7', 'vida': '67', 'dano/rod': '10', 'ações': '1', 'o golpe': '2d4 + 5', 'Defesa': '15', 'acerto': '+4', 'CD': '12', 'refino': '3', 'proteção': '+2'}
+  TABELA `Capanga` nv7 : {'nv': '7', 'vida de um': '22', 'pool dos 8': '176', 'golpe de um': '2d4 + 5', 'Defesa': '15', 'acerto': '+4', 'CD': '12', 'refino': '3'}
+  TABELA `Desastre` nv7 dano/rod = 39  ⟹  vida de um PJ = 39 ÷ 0.90 = 43.3
+  papel: Brutamontes ganha 1.200 e Defesa -2 · Artilheiro paga 0.857 · Emboscador paga 0.863
+  banda do golpe 21%–28% · empilhamento teto 3 (extras a 50%) · área à vontade máx 1 ação
+  o Capanga toma: Apoio · Artilheiro · Controlador · Emboscador
+  maestria nv7 = 1 · marcos = 1 · orçamento de atributo = 10
+
+============================================================================================
+PASSO 1 e 2 — a categoria dá o tamanho, o papel redistribui
+============================================================================================
+  ficha            categoria  papel         vida crua     vida   Defesa   o golpe     fatia
+  Ibaraki-dōji     Ameaça     Brutamontes         67       80       13   2d4 + 5     23.1%
+  Oni-bi           Capanga    Artilheiro          22       19       15   2d4 + 5     23.1%
+  Kama-itachi      Capanga    Emboscador          22       15       15   2d4 + 5     23.1%
+
+============================================================================================
+AS CHECAGENS
+============================================================================================
+  [OK] Ibaraki-dōji · `o golpe` dentro da banda             23.1% em [21%, 28%]
+  [OK] Oni-bi · `o golpe` dentro da banda                   23.1% em [21%, 28%]
+  [OK] Kama-itachi · `o golpe` dentro da banda              23.1% em [21%, 28%]
+  [OK] o golpe NÃO se move com o papel                      os três usam `2d4 + 5`
+  [OK] Oni-bi · o papel é um dos que o `Capanga` toma       Artilheiro
+  [OK] Kama-itachi · o papel é um dos que o `Capanga` toma  Emboscador
+  [OK] Ibaraki · `Brutamontes` NÃO é papel de `Capanga` (e ela é `Ameaça`) ok — a exclusão vale só pro Capanga
+  [OK] nenhuma tem `Intervenção`                            só de `Desastre` pra cima
+  [OK] nenhuma imprime `Ações Múltiplas`                    as três têm 1 ação
+  [OK] a trava de área cabe                                 1 ação cada, e a trava é 1 — cabe
+
+============================================================================================
+O `Emboscador` POR CATEGORIA — a tabela do §6, e ela fecha em todas
+============================================================================================
+  categoria      ações      ganho   paga vida  invariante
+  Capanga            1     1.476×      0.677×      0.999×
+  Ameaça             1     1.476×      0.677×      0.999×
+  Desastre           3     1.159×      0.863×      1.000×
+  Catástrofe         5     1.095×      0.913×      1.000×
+  Calamidade         6     1.079×      0.927×      1.000×
+
+  ⚠ O resumo do §4 publica 0.863 — que é a linha do `Desastre`, e SÓ dela.
+    Aplicar ela num corpo de 1 ação daria 1.274× de invariante: FURA em 27.4%.
+    É exatamente o erro que esta máquina cometeu na primeira rodagem de 10/09.
+============================================================================================
+OS ATRIBUTOS — o orçamento do §3.2, gasto na frente de você
+============================================================================================
+  Ibaraki-dōji     Defesa 13 = 10 + Destreza 3 + proteção +2  (e o papel tira 2)
+                   acerto +4 = atributo da técnica 3 + maestria 1   ·   CD 12 = 8 + 3 + 1
+  Oni-bi           Defesa 15 = 10 + Destreza 3 + proteção +2
+                   acerto +4 = atributo da técnica 3 + maestria 1   ·   CD 12 = 8 + 3 + 1
+  Kama-itachi      Defesa 15 = 10 + Destreza 3 + proteção +2
+                   acerto +4 = atributo da técnica 3 + maestria 1   ·   CD 12 = 8 + 3 + 1
+  orçamento de atributo no nv7: 10 pontos (9 na criação + 1 marco)
+
+============================================================================================
+O ORÇAMENTO DE FEITIÇO DE CADA AÇÃO — golpe ÷ 4.5 (§6.5)
+============================================================================================
+  Ibaraki-dōji     10.0 ÷ 4.5 = 2.22 pontos ⟹ SECO — abaixo da `Classe 1` (3 pontos), ele bate e pronto
+  Oni-bi           10.0 ÷ 4.5 = 2.22 pontos ⟹ SECO — abaixo da `Classe 1` (3 pontos), ele bate e pronto
+  Kama-itachi      10.0 ÷ 4.5 = 2.22 pontos ⟹ SECO — abaixo da `Classe 1` (3 pontos), ele bate e pronto
+
+  ⚠ ATÉ QUE NÍVEL a `Ameaça` fica seca? (golpe ÷ 4.5 < 3 pontos)
+    seca do nv2 ao nv8 — 7 níveis de 29. Nesses ela SÓ TEM o golpe.
+    (e a `Ameaça` também não tem `Intervenção`, que só existe de `Desastre` pra cima)
+
+============================================================================================
+A SIMULAÇÃO — o que cada encontro faz com uma ficha nv7 sozinha
+============================================================================================
+  a saída do GRUPO sai da vida do chefe: 270 ÷ 3 = 90.0 por rodada, mesa de 4
+  a ficha nv7: vida 43  ·  entrega 22.5 de dano por rodada
+
+  1 × Ibaraki-dōji (a luta que ele vai rodar)    PJ derruba em 3.6 rod · ele derruba em 4.3 rod  ⟹ o PJ ganha
+
+  os DOIS capangas no mesmo alvo: o teto de empilhamento é 3 corpos,
+  e do SEGUNDO em diante o golpe sai pela metade. O Kama-itachi tem vantagem toda
+  rodada (1 ataque de 1), então ele vale 10.0 × 1.476 = 14.8, e bate PRIMEIRO:
+  ⟹ 14.8 + 5.0 = 19.8 por rodada
+  2 × capanga concentrando (com a trava)         PJ derruba em 1.5 rod · ele derruba em 2.2 rod  ⟹ o PJ ganha
+  2 × capanga SEM a trava (pra mostrar o que ela faz) PJ derruba em 1.5 rod · ele derruba em 1.8 rod  ⟹ o PJ ganha
+
+  ⚠ E `2` capangas é exatamente a cota de UMA pessoa: o esquadrão é de 8 corpos
+    para a mesa de 4 — 8 ÷ 4 = 2. O teste dele é o recorte certo.
+
+============================================================================================
+VEREDITO: todas as checagens passaram
+============================================================================================

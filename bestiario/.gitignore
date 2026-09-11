@@ -1,0 +1,17 @@
+# ── cache do Python
+__pycache__/
+*.pyc
+
+# ── o corpus do Draw Steel, extraído
+#
+# Ele NÃO entra porque o `ds.tar.gz` ao lado dele ESTÁ versionado, e é o mesmo
+# conteúdo: 2445 arquivos de 21 MB contra um tarball de 3,3 MB. Guardar os dois
+# seria guardar duas vezes a mesma coisa — e o tarball é o recibo, porque prova
+# que a pasta extraída não foi editada à mão.
+#
+# Pra recriar:
+#   tar xzf 04-fase-1/fila/dados-recarga-area/ds.tar.gz -C 04-fase-1/fila/dados-recarga-area/
+#
+# Seis scripts da fila leem essa pasta. Sem ela eles morrem com DONO SUMIU, que é
+# o comportamento certo — ver `dados-recarga-area/COMO-RODAR.md`.
+04-fase-1/fila/dados-recarga-area/data-md-main/

@@ -1,0 +1,253 @@
+
+================================================================================================
+AS ÂNCORAS — cada uma com o documento dono
+================================================================================================
+  1 ponto de feitiço vale              4.5 de dano        peça 19 §2.1
+  a regra do §6.5                 golpe ÷ 4.5              peça 26 §6.5
+  o piso do feitiço                      3 pontos         a `Classe 1`, peça 26 §6.5
+  o fator da `Intervenção`        × 0.923                MEDIDA-a-intervencao §12
+  a banda do `o golpe`            21% – 28%            DECIDIDO-o-capanga §1
+  1 ponto de Defesa vale                 5 pp num d20     peça 1 §5.2
+  a vida de um personagem nv20      163.3                `Desastre` nv20: golpe 49.0 ÷ 30%
+  `Calamidade` tem `Intervenção`?         sim                RASCUNHO-5, passo 1
+
+================================================================================================
+PASSO 1 — a `categoria` diz quanto ele AGUENTA   ·   `Calamidade` nível 20
+================================================================================================
+  a linha crua da TABELA          vida 1320  ·  dano/rodada 294  ·  6 ações  ·  o golpe `4d12 + 23` = 49.0
+  Defesa 18  ·  acerto +8  ·  CD 16  ·  refino 7 (proteção +3)
+
+  e o fator da `Intervenção`      dano/rodada 294 × 0.923 = 271.4  →  271
+  a `Intervenção` é extra e de graça, e o fator é o que paga por ela.
+
+================================================================================================
+PASSO 2 — o `papel` diz COMO ele luta   ·   os seis, lado a lado
+================================================================================================
+  papel             Defesa    vida  dano/rod  ações   o golpe   fatia  banda    fora  invariante
+  ----------------------------------------------------------------------------------------------------
+  — sem papel —         18    1320       271      6      45.2   27.7%    sim  1.000×      1.000×
+  Brutamontes           16    1584       271      6      45.2   27.7%    sim  1.000×      1.000×
+  Guardião              20    1056       271      6      45.2   27.7%    sim  1.000×      1.000×
+  Artilheiro            18    1131       271      6      45.2   27.7%    sim  1.167×      1.000×
+  Emboscador            18    1224       271      6      45.2   27.7%    sim  1.079×      1.000×
+  Controlador           18    1980       181      6      30.2   18.5%    NÃO  1.000×      1.000×
+  Apoio                 18    1980       181      6      30.2   18.5%    NÃO  1.000×      1.000×
+
+  ⚠ `Guardião`: só se paga com mais de um inimigo no encontro
+  ⚠ `Artilheiro`: o ganho é ALCANCE, taxa fixa — e ele não tem célula
+  ⚠ `Emboscador`: valor de `Calamidade`, não o da tabela geral · não sobe de `Grande`
+  ⚠ `Controlador`: corrigido em 10/09: corta DANO e MANTÉM as ações
+  ⚠ `Apoio`: o `1 pra 1` cai em OUTRO bloco — só se paga com mais de um inimigo
+
+  Olhe a coluna `fatia`: a banda é 21%–28%, e nenhum papel sobe o dano.
+  O `Controlador` e o `Apoio` são o piso — e foi o `Controlador` que empurrou o piso pra 21%.
+
+================================================================================================
+A VARREDURA — as CINCO categorias contra a banda, com e sem `Controlador`
+================================================================================================
+  A banda foi varrida em 29 níveis x 5 categorias — MEDIDA-o-capanga.md §6.
+  Aqui ela roda no nível 20, com o fator da `Intervenção` aplicado em quem tem.
+
+  ⚠ O `Controlador` mudou em 10/09: a forma `B` paga em VIDA, e `o golpe` NÃO se move
+    mais em papel nenhum. As duas últimas colunas mostram o que o papel VELHO fazia —
+    ele é que furava a banda, e ele não existe mais.
+
+  categoria       Interv.  golpe cru  c/ fator  ações   fatia  banda    Ctrl B: vida ×       golpe    (Ctrl VELHO)  banda
+  ----------------------------------------------------------------------------------------------------------------
+  Capanga             não       37.0      37.0      8   22.7%    sim             0.889    não move           15.1%    NÃO
+  Ameaça              não       37.0      37.0      1   22.7%    sim             0.500    não move           15.1%    NÃO
+  Desastre            sim       49.0      45.2      3   27.7%    sim             0.750    não move           18.5%    NÃO
+  Catástrofe          sim       44.0      40.6      5   24.9%    sim             0.833    não move           16.6%    NÃO
+  Calamidade          sim       49.0      45.2      6   27.7%    sim             0.857    não move           18.5%    NÃO
+
+  ✅ As CINCO caem na banda de 21%–28%, e o `Controlador` da forma `B`
+     não move nenhuma delas: ele paga em vida.
+
+  E o papel VELHO (corte de 33.3% do dano) botava 5 de 5 fora da banda:
+      `Capanga` 15.1% · `Ameaça` 15.1% · `Desastre` 18.5% · `Catástrofe` 16.6% · `Calamidade` 18.5%
+  >> era esse o achado `1` do teste de ponta a ponta, e a forma `B` fechou ele.
+
+================================================================================================
+PASSO 3 — o `tamanho` diz o alcance, e ele é DE GRAÇA   ·   `Médio`
+================================================================================================
+  tamanho        alcance   o golpe pega
+  ------------------------------------------------------------------
+  Médio            1.5 m   só o alvo ←
+  Grande           3.0 m   o alvo **+ metade em `1`**
+  Imenso           4.5 m   o alvo **+ metade em `1`**
+  Colossal         6.0 m   o alvo **+ metade em `1`**
+
+  ⚠ O `tamanho` NÃO mexe em Defesa e NÃO pede nada em troca — decisão de 10/09,
+    04-fase-1/fila/DECIDIDO-o-tamanho.md. A defesa não muda com o tamanho em
+    sistema nenhum: AC espalha 1,000x em 4.791 criaturas do PF2e.
+  ⚠ E a escada dele mora no ALCANCE. Nos ALVOS ele é um degrau só — `Grande`,
+    `Imenso` e `Colossal` pegam o mesmo 1 vizinho a metade.
+
+  A Defesa do bloco fica em 18 em qualquer tamanho.
+  E o alcance acima NÃO é o do `Artilheiro`: este é o de CORPO A CORPO.
+
+================================================================================================
+O GOLPE EM DADO — a regra do §4.4: metade do alvo em dado, no máximo 8 dados
+================================================================================================
+  o alvo do golpe                 45.23  →  arredondado 45
+  o teto de dados do §4.4         8
+  o piso do número seco           5
+
+  ⟹  `o golpe` = `4d10 + 23` = 45.0   ·   48.9% em dado
+
+  as outras montagens que fechavam, pra registro:
+    4d10 + 23       48.9% em dado   4 dado(s) na mão  ←
+    6d6 + 24        46.7% em dado   6 dado(s) na mão
+    8d4 + 25        44.4% em dado   8 dado(s) na mão
+    4d12 + 19       57.8% em dado   4 dado(s) na mão
+    4d8 + 27        40.0% em dado   4 dado(s) na mão
+    6d8 + 18        60.0% em dado   6 dado(s) na mão
+
+================================================================================================
+O ORÇAMENTO DE FEITIÇO — quanto cada ação dele monta
+================================================================================================
+  a regra:  o golpe ÷ 4.5
+  45.0 ÷ 4.5 = 10.0 pontos por ação
+
+  Acima do piso de 3. Ele monta feitiço, e o Fundamento faz o resto.
+
+  a Classe da ação            `Classe 3` = 9 pontos, e sobram 1.0
+  ⚠ o preço da Melhoria é uma FRAÇÃO DA CLASSE, não um número fixo:
+    Leve = metade da Classe · Média = a Classe · Pesada = Classe e meio, arred. pra cima
+
+  e o que cabe numa ação de 10.0 pontos (`Classe 3`):
+    o que comprar                  custa   sobra   em dado   em dano
+  ------------------------------------------------------------------
+    condição `Leve`                    2     8.0       8d8      36.0
+    condição `Média`                   3     7.0       7d8      31.5
+    condição `Pesada`                  5     5.0       5d8      22.5
+    área — Cone/Linha/Explosão         2     8.0       8d8      36.0
+    área + condição `Leve`             4     6.0       6d8      27.0
+
+  ⚠ `área` custa `Leve` e NÃO tem preço por formato — Cone, Linha e Explosão custam
+    a mesma coisa. Confirmado em três lugares: ANCORAS-do-repositorio.md §4.
+  ⚠ E só cabe UMA condição `Pesada` por feitiço (peça 19 §3.3).
+
+================================================================================================
+OS ATRIBUTOS — eles não se escolhem: as três derivadas OBRIGAM eles
+================================================================================================
+  a maestria no nv20            3        base 1 + os marcos [10, 18]
+  os marcos até o nv20          4        [6, 10, 14, 18]
+  o orçamento de atributo       13       9 na criação (teto 3 ali) + 4 marcos (teto 6)
+
+  Defesa 18 = 10 + Destreza + proteção 3   ⟹  DESTREZA OBRIGADA = 5
+  acerto +8 = atributo + maestria 3         ⟹  ATRIBUTO DA TÉCNICA = 5
+  e a CD confere:  8 + 5 + 3 = 16   contra 16 da TABELA   →  bate
+
+  o que cada obrigado custa           na criação  em marco   total
+  ----------------------------------------------------------------
+  Destreza (a Defesa manda)                    3         2       5
+  o atributo da técnica (o acerto)             3         2     5.0
+  ----------------------------------------------------------------
+                                                         4    10.0
+
+  ⟹  sobram 3.0 ponto(s) de 13 pra COR, e 0 marco(s) de 4.
+  ⚠ FECHA COM ZERO FOLGA DE MARCO. Todo marco do nv20 está conscrito pelas derivadas.
+    O §3.2 promete que "os nove pontos compram cor, e não tamanho" — no nv20 eles
+    compram 3.0 de 13. A promessa é verdadeira e pequena.
+
+================================================================================================
+A FICHA — o que vai em cada célula do bloco
+================================================================================================
+  cabeçalho     `Médio maldição, grau especial · Calamidade · Artilheiro · nível 20`
+
+  Defesa               18          18 da TABELA
+  Acerto               +8
+  CD                   16
+  Refino               7  (proteção +3)
+  Vida                 1131        1320 × 0.857 do `Artilheiro`
+  Integridade          1131        igual à vida máxima — peça 26 §3
+  O golpe              `4d10 + 23` = 45.0   ·   alcance de corpo a corpo 1.5 m
+  Deslocamento         9 m
+  Ações Múltiplas      (6)
+  Intervenções         3 por luta, 1 por rodada
+
+  dano por rodada      271   — NÃO é célula: é `o golpe` × ações, e derivável não ganha célula
+
+================================================================================================
+AS AÇÕES DELE — cada uma montada no orçamento DELA
+================================================================================================
+  o orçamento de uma ação       10.0 pontos   (`Classe 3`)
+  o turno cheio                 271   =  45 × 6 ações
+
+  a área pega                   2.70 pessoas   — peça 26 §4.6, a mesma leitura do §6.5
+
+  a ação                    o que ela compra                          pts       dado por alvo no grupo vs a cota
+  ----------------------------------------------------------------------------------------------------------------
+  Desmembrar 解              nada — o golpe cru, à distância           +10  4d10 + 23       45       45     1.00×
+  Clivar 捌                  Toque (devolve Média) · `Impedido` (Pesada)   -2        8d8       36       36     0.80×
+  Teia de Aranha 蜘蛛の糸       área (Leve) · `Derrubado` (Leve)           -4        6d8       27       73     1.62× !!
+
+
+  A RÉGUA DO CAMPO — medida em 7 sistemas, `04-fase-1/fila/FONTE-a-area-no-campo.md`:
+    o consenso de dano por alvo       0.75× o golpe de alvo único
+    o teto da área REPETÍVEL          0.80×   — `0` de `43` do Draw Steel passam, `0` de `17` do D&D 2024
+
+    `Teia de Aranha 蜘蛛の糸` entrega 0.60× por alvo
+      contra o consenso de 0.75× e o teto repetível de 0.80×  →  DENTRO
+
+  ⟹ POR ALVO a nossa área está DENTRO da banda do campo. O que está fora é a
+    frase do §6.5 — nenhum dos 7 define a cota como total do GRUPO em área.
+
+  ⚠⚠ ACHADO — o §6.5 diz "área REPARTE a cota, e não multiplica ela", e a área do
+     Fundamento é MELHORIA DE PREÇO FIXO (`Leve`, 2 pontos na `Classe 3`).
+     Preço fixo não reparte nada. Com 2.70 alvos:
+       `Teia de Aranha 蜘蛛の糸` entrega 73 ao grupo contra a cota de 45 — 1.62× a cota
+     ⟹ Pra obedecer o §6.5, a ação em área tinha de entregar 17 por alvo (3.7 pontos),
+       e o Fundamento entrega 27. A régua e a máquina discordam por 1.62×.
+     E é EXATAMENTE a pergunta que a `A-FILA.md` declarou respondida.
+
+  ⚠ E a `Recarga (5-6)` é outro bicho: ela COME as `Ações Múltiplas` do turno
+    e entrega ~1,0× o turno cheio, em ÁREA. O ganho não é tamanho, é área.
+
+  se a área pegar     cada alvo leva       em dado    fatia   × o turno
+  ------------------------------------------------------------------------
+  1 alvo(s)                      271    8d12 + 219    166%       1.00×
+  2 alvo(s)                      136     8d12 + 84     83%       1.00×
+  3 alvo(s)                       90     8d10 + 46     55%       0.99×
+  4 alvo(s)                       68     6d10 + 35     42%       1.00×
+
+  ⚠⚠ E aqui o §4.4 BATE numa parede: a metade em dado não fecha em cima de 271.
+     `8d12 + 219` = 271, e só 19% disso é dado — o teto de 8 dados não alcança
+     a metade de 136. O maior punhado possível é 8d12 = 52.
+     ⟹ A `Recarga (5-6)` SÓ fecha o §4.4 se for repartida por área. Em alvo único ela
+       vira número quase todo fixo, que é o que o §4.4 existe pra evitar.
+
+================================================================================================
+AS CONFERÊNCIAS
+================================================================================================
+  [ok]  o golpe cai na banda                        27.7%  ·  banda 21%–28%
+  [ok]  o invariante do papel fecha em 1,000        1.000×
+  [ok]  o produto do tamanho fecha                  1.000×
+  [ok]  as ações por rodada saem da categoria       6  — é a TRAVA DURA, não a linha
+  [ok]  o golpe fecha metade em dado                48.9% em dado
+  [ok]  o golpe cabe na mão                         4 dados  ·  teto 8
+  [ok]  a categoria tem `Intervenção`               `Calamidade` — de `Desastre` pra cima
+  [ok]  o orçamento passa do piso                   10.0 pontos  ·  piso 3
+  [ok]  o `Emboscador` não é o papel                ele não sobe de `Grande`
+
+  E contra a ÚNICA evidência de mesa do projeto — o Sukuna que o Mizuki rodou em 07/09:
+                              a mesa rodou    a máquina dá     razão
+  ------------------------------------------------------------------
+    vida                              1100            1131     1.03×
+    o golpe                           34.0            45.0     1.32×
+    ações por rodada                     3               6     2.00×
+    dano por rodada                  102.0           271.4     2.66×
+
+  ⚠ A VIDA bate em 1.03× e o DANO fica em 2.66×.
+    O mestre amarrou a vida na `Calamidade` e o dano num degrau abaixo:
+      `Ameaça     ` dano/rodada   37.0   ·   a mesa rodou 102   → 2.76× do que a categoria pede
+      `Desastre   ` dano/rodada  135.7   ·   a mesa rodou 102   → 0.75× do que a categoria pede
+      `Catástrofe ` dano/rodada  203.1   ·   a mesa rodou 102   → 0.50× do que a categoria pede
+      `Calamidade ` dano/rodada  271.4   ·   a mesa rodou 102   → 0.38× do que a categoria pede
+    E na máquina isso NÃO É MONTAGEM LEGAL: os dois fatores da categoria andam juntos.
+    Ele derruba 1.66 personagem por rodada, contra 0.62 que a mesa viu.
+
+================================================================================================
+  TODAS AS CONFERÊNCIAS PASSARAM
+================================================================================================

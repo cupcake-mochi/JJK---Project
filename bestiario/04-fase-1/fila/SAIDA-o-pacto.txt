@@ -1,0 +1,50 @@
+
+==========================================================================================
+1. QUANTOS PACTOS — a conta que decide se ele ganha celula
+==========================================================================================
+
+  peça 22 §3.1: "um número de pactos permanentes igual a metade da sua Essência,
+                 arredondando para baixo."
+
+  Essência  0  1  2  3  4  5  6
+  pactos    0  0  1  1  2  2  3
+
+  >> a Essência JA esta no bloco, na linha de atributos.
+  >> e o bloco ja cortou `Iniciativa` e `Reação 1 por rodada` pela mesma regra:
+     "numero derivavel nao ganha celula".
+
+==========================================================================================
+2. O CONTEÚDO — lista variável resolve "opcional"? contado nos dois sistemas
+==========================================================================================
+
+  D&D 2024 SRD — 331 monstros
+     0 traços:  127  ( 38%)
+     1 traços:  119  ( 36%)
+     2 traços:   59  ( 18%)
+     3 traços:   17  (  5%)
+     4 traços:    7  (  2%)
+     5 traços:    2  (  1%)
+    mediana 1 · média 1.0 · máx 5
+    >> 38% têm ZERO traços — a seção some quando não tem nada.
+
+  Draw Steel — 416 statblocks
+     0 traços:   21  (  5%)
+     1 traços:  226  ( 54%)
+     2 traços:  137  ( 33%)
+     3 traços:   30  (  7%)
+     4 traços:    1  (  0%)
+     5 traços:    1  (  0%)
+    >> 5% têm ZERO.
+
+  >> nenhum dos dois cria CELULA FIXA pra coisa opcional. Os dois usam lista
+     variavel, e ela some sozinha quando esta vazia.
+
+==========================================================================================
+⟹ AS DUAS PORTAS QUE JÁ EXISTEM
+==========================================================================================
+
+  o voto restringe UMA ação      -> parêntese de pré-requisito no nome dela
+                                    (item 13, fechado em 10/09)
+  o voto restringe o INIMIGO     -> um `Traço`
+
+  E o numero de pactos nao vai a lugar nenhum: ele e Essencia ÷ 2.

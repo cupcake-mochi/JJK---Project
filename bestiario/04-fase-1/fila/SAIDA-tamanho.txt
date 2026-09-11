@@ -1,0 +1,117 @@
+
+============================================================================================
+AS ANCORAS
+============================================================================================
+  deslocamento padrão                9 m           peça 14
+  alcance de corpo a corpo padrão    1.5 m         peça 14 §5.2
+  as `Armas Longas` chegam a         3 m           peça 14 §5.2 — é o passo que o sistema já usa
+  o PC acerta alvo difícil em        50%           peça 1 §5.2
+  1 ponto de arma                    0.33          peça 19 §2.2
+  Desastre nv30                      Defesa 20, vida 945, dano 219 em 3 ações
+  a luta dura                        3.0 rodadas
+  o `f` do alcance, fechado          0.333         decisão do Mizuki, 10/09
+
+============================================================================================
+1. QUANTO VALE ALCANCE DE CORPO A CORPO — na mesma moeda do `papel`
+============================================================================================
+  O raio de engajamento numa rodada é `deslocamento + alcance`.
+  Alcance maior encolhe o `f` na proporção do raio — quem alcança de mais longe
+  passa menos tempo sem alcançar.
+
+    alcance   raio de engajamento        f   multiplica o dano   vs o passo anterior
+  ------------------------------------------------------------------------------------
+       1.5m                 10.5m   0.3333             1.0000x                      
+       3.0m                 12.0m   0.2917             1.0417x               1.0417x
+       4.5m                 13.5m   0.2593             1.0741x               1.0311x
+       6.0m                 15.0m   0.2333             1.1000x               1.0241x
+       7.5m                 16.5m   0.2121             1.1212x               1.0193x
+
+  >> Um passo de alcance (1.5 m -> 3 m) multiplica o dano por 1.0417 —
+     4.2% de ganho. É PEQUENO, e essa é a resposta honesta.
+
+============================================================================================
+2. E QUANTO CUSTA 1 PONTO DE DEFESA — pra comparar
+============================================================================================
+    Defesa   acerto do PC   multiplica a vida efetiva
+  ----------------------------------------------------
+        21           45%                     1.1111x
+        20           50%                     1.0000x
+        19           55%                     0.9091x
+        18           60%                     0.8333x
+
+  >> `−1` de Defesa CUSTA 9.1% da vida efetiva.
+  >> `+1` passo de alcance GANHA 4.2% de dano.
+
+  ⚠⚠ OS DOIS NAO SAO O MESMO DEGRAU, e a diferenca e grande:
+     1 ponto de Defesa vale 2.2x um passo de alcance.
+  >> Entao "cada degrau de tamanho da +1,5 m e tira 1 de Defesa" seria um PESSIMO
+     negocio: o bicho perderia 2.2x o que ganha.
+     Um `Colossal` seria estritamente pior que um `Medio`, e ninguem escolheria.
+
+============================================================================================
+3. AS TRES SAIDAS, com o numero de cada
+============================================================================================
+  A — ALCANCE PAGA POUCO: o tamanho da alcance e cobra a fracao de Defesa que fecha.
+      2.2 passos de alcance = 1 ponto de Defesa. Como Defesa e inteiro,
+      isso vira "de 2 em 2 degraus de tamanho, −1 de Defesa".
+
+      tamanho        alcance   Defesa     ganho     custo    produto
+      --------------------------------------------------------------
+      Minúsculo         1.5m       21   1.0000x   1.1111x    1.1111x
+      Pequeno           1.5m       20   1.0000x   1.0000x    1.0000x
+      Médio             1.5m       20   1.0000x   1.0000x    1.0000x
+      Grande            3.0m       20   1.0417x   1.0000x    1.0417x
+      Imenso            4.5m       19   1.0741x   0.9091x    0.9764x
+      Colossal          6.0m       19   1.1000x   0.9091x    1.0000x
+
+  B — O TAMANHO COMPRA MAIS QUE ALCANCE. Alcance sozinho e pequeno demais pra
+      sustentar seis degraus. O tamanho tambem daria ALVOS: o golpe de um bicho
+      grande pega quem estiver no alcance dele, e nao um alvo so.
+      Dobrar os alvos de um golpe dobra aquele golpe: 2.00x naquela acao,
+      que num Desastre de 3 ações e 1.333x no dano da rodada.
+      Isso SIM paga 1 ponto de Defesa (9.1%) com folga —
+      e sobra +21.2%, que pede mais um degrau de Defesa.
+      Com `−2` de Defesa: 1.333 x 0.833 = 1.111x
+
+
+  B-refinada — O SEGUNDO ALVO LEVA METADE, que e forma que o sistema JA TEM.
+      O `Estilhaço` (`Leve`) ja publica exatamente esse formato:
+      "Em crítico, ou quando o alvo falha o Teste de Resistência por 5 ou mais, metade dos dado"
+
+      tamanho        alcance    alvos do golpe   Defesa     ganho     custo    produto
+      ----------------------------------------------------------------------------------
+      Minúsculo         1.5m                 1       22   1.0000x   1.2500x    1.2500x
+      Pequeno           1.5m                 1       21   1.0000x   1.1111x    1.1111x
+      Médio             1.5m                 1       20   1.0000x   1.0000x    1.0000x
+      Grande            3.0m1 + metade no vizinho       18   1.2153x   0.8333x    1.0127x
+      Imenso            4.5m1 + metade em 2 vizinhos       17   1.4321x   0.7692x    1.1016x
+      Colossal          6.0m1 + metade em 3 vizinhos       16   1.6500x   0.7143x    1.1786x
+
+      ⚠ SO O `Grande` FECHA. O `Imenso` e o `Colossal` derivam pra cima, porque o ganho
+        de alvos cresce mais rapido do que Defesa consegue pagar. E o lado pequeno ganha
+        Defesa sem pagar nada, porque ele ja esta no piso do alcance.
+
+  B-fechada — resolvendo pra Defesa que FECHA cada degrau, e cortando o lado pequeno
+
+      O lado pequeno sai da conta: no campo, tamanho NAO muda a chance de acertar.
+      D&D 5e, PF2e e Draw Steel nao dao Defesa por ser pequeno — isso e heranca do 3.x.
+      Entao `Minúsculo`, `Pequeno` e `Médio` ficam iguais em numero, e a diferenca
+      deles e ficcao: onde cabem, o que alcancam, se passam despercebidos.
+
+      tamanho        alcance                o golpe pega     ganho  Defesa que fecha    produto
+      --------------------------------------------------------------------------------------------
+      Médio             1.5m                   só o alvo   1.0000x          20  (+0)    1.0000x
+      Grande            3.0m        o alvo + metade em 1   1.2153x          18  (-2)    1.0127x
+      Imenso            4.5m        o alvo + metade em 2   1.4321x          16  (-4)    1.0229x
+      Colossal          6.0m        o alvo + metade em 3   1.6500x          13  (-7)    0.9706x
+
+      >> Os quatro fecham entre 0,99x e 1,02x. A escada de Defesa nao e linear —
+         ela acelera —, e isso e correto: 1/x e convexo, entao cada ponto de Defesa
+         a menos custa mais que o anterior.
+      ⚠ E o custo real desta saida: um `Colossal` com Defesa muito baixa vira
+         saco de pancada que bate em todo mundo. Isso e sabor, e e do Mizuki.
+
+  C — O TAMANHO NAO PAGA EM DEFESA, paga em FICCAO.
+      Nao cabe em porta, nao se esconde, e o `Emboscador` fica proibido acima de
+      `Médio`. Custo zero de conta, e a troca e real na mesa.
+      ⚠ Mas isso e o que o campo NAO faz: 3 de 4 sistemas poem numero.

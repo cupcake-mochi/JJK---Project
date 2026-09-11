@@ -1,0 +1,19 @@
+VILLAIN ACTIONS no Draw Steel: 156, em 52 criaturas
+nao classificadas: 0
+
+  MAIS DE UMA criatura : 119
+  EXATAMENTE UMA       : 6
+  NENHUMA (self/invoca): 31
+  soma 156 == 156
+
+>> DAS QUE MIRAM ALGUEM: 119 de 125 pegam MAIS DE UM = 95.2%
+>>                       6 de 125 pegam UM SO = 4.8%
+>> SOBRE O TOTAL de 156: alvo unico = 3.8%
+
+--- AS DE ALVO UNICO, todas ---
+  Bredbeddle                     | VA2 Challenge                    | Ranged 5     | One enemy            | dano citado: NENHUM
+  Chorogaunt                     | VA2 Bully the Weak               | Ranged 10    | One ally             | dano citado: NENHUM
+  Devil High Judge               | VA3 Deceptive Stratagem          | Ranged 12    | One creature         | dano citado: NENHUM
+  Goblin Monarch                 | VA2 Focus Fire                   | Ranged 10    | One enemy or object  | dano citado: NENHUM
+  Radenwight Maestro             | VA2 Solo Act                     | Ranged 15    | One creature         | dano citado: NENHUM
+  War Dog Ground Commander       | VA2 Make an Example of Them      | Ranged 10    | One enemy            | dano citado: NENHUM

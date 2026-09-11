@@ -1,0 +1,243 @@
+
+============================================================================================
+1. AS ANCORAS — lidas do dono, nenhuma escrita aqui
+============================================================================================
+  chefe nv30                    219 de dano por rodada, em 3 acoes
+  capanga nv30                  73 de dano por rodada
+  Rotina nv30                   108
+  1 ponto de feitico            4.5 de dano
+  filtro de dominancia          3.00x
+  1 pp na rolagem de um aliado  0.230 de dano por rodada
+  a acao de atacar de um aliado 23.00 — dois golpes de 11.50
+  atacantes que colhem          3 (convencao do §2.2)
+  TR treinado no nv30           resiste 65%
+  rodadas de luta por dia       10.5
+  preco na Classe 7, em pontos  Leve 4 · Média 7 · Pesada 11
+  degrau da `Sobrecarga` hoje   gerador diz `Leve`, livro diz `Pesada`   <- DIVERGENCIA ABERTA (v0.219)
+
+  >> UMA acao do chefe          73.00 de dano  (219 / 3)
+  >> a REACAO do inimigo        36.50 de dano
+     derivada do `Atordoado` publicado: o texto dele tira a Acao Padrao E a reacao,
+     e a tabela das treze publica 1.5 acoes negadas. 1.5 - 1.0 = 0.5 acao.
+     Confere: 1.5 x 73.00 = 109.50, e a peca publica 109.50. OK
+
+============================================================================================
+2. O QUE A METADE MORTA VALE HOJE — os dois lados da mesa
+============================================================================================
+  "o feitico dele custa o dobro de energia"
+
+  contra INIMIGO                   0.00   o inimigo nao conta PE (peca 26 §6.1).
+                                          Nao existe alvo no bestiario inteiro.
+  contra JOGADOR, se ele paga      9.00   +21 PE = um Classe 7 a menos no dia
+  contra JOGADOR, no Classe 0      0.00   o dobro de zero e zero
+  >> o ESPERADO contra jogador     4.50   o manual escreve que o conjurador passa
+                                          METADE das rodadas no Classe 0, e chama o
+                                          Classe 0 de "o golpe de todo turno em que o
+                                          PE precisa ser poupado".
+
+  >> A metade morta nao esta meio-morta contra inimigo e viva contra jogador.
+     Ela esta morta de um lado e vale 4.50 do outro — que e 6.2%
+     de UMA acao de chefe. E a frase "o dobro de energia" e a mesma que a v0.217
+     tirou da `Divida` por dobrar zero.
+
+============================================================================================
+3. A METADE QUE FICA — a CD 2 menor, remedida
+============================================================================================
+  -2 na CD nega SEMPRE 5.0% do dano daquele feitico, em qualquer taxa de TR.
+  teto (as 3 acoes pedem TR)     10.95 de dano por rodada
+  piso (1 acao pede TR)           3.65
+
+============================================================================================
+4. AS CANDIDATAS — cada uma contra algo que o inimigo TEM
+============================================================================================
+  O irmão de preço que importa: o `Trava` (`Leve`, já publicado) dá desvantagem num
+  golpe do alvo, e isso vale 36.50 — exatamente o mesmo que a Reação do chefe.
+
+  ⚠ E a conta acha uma assimetria que ninguém tinha escrito: os MESMOS 2 pontos num d20
+     valem 4x mais no ACERTO do que na CD. -2 na CD nega 5.0% daquele golpe;
+     -2 no acerto nega 20.0%. A causa: golpe que erra entrega ZERO, e
+     Teste de Resistência bem-sucedido ainda entrega METADE.
+     Em dano, na janela inteira do turno dele: a CD nega 10.95, o acerto nega 43.80.
+
+  cód  o que ela nega                                  ações  dano/rod  nível pela regra 1  
+  --------------------------------------------------------------------  --------------------
+  R    trava a Reação da próxima rodada                 0.50     36.50  Leve                
+  A1   tranca UMA ação da próxima rodada                1.00     73.00  Média               
+  A15  tranca uma ação E a Reação                       1.50    109.50  Pesada              
+  I-0  tranca a Intervenção — leitura "ela sai da cota"   0.00      0.00  ‹ abaixo de meia ›  
+  I-1  tranca a Intervenção — leitura "ela é ação extra"   1.00     73.00  Média               
+  D2   o golpe dele custa o DOBRO de ação (o câmbio do §6.1)   1.00     73.00  Média               
+  RF   refino −3 (um degrau de proteção)                0.00      3.45  ‹ abaixo de meia ›  
+  AC   −2 no ACERTO dele na mesma janela (o espelho da CD)   0.60     43.80  Leve                
+
+  R     o inimigo tem UMA Reação por rodada (peça 3). Irmão publicado: o `Trava`
+  A1    é o `Calado` e o `Enfeitiçado` com outro nome — já existem, em `Média`
+  A15   é o `Atordoado` inteiro — já existe, em `Pesada`
+  I-0   pelo §6.1 tudo sai do dano por rodada; então a Intervenção não ADICIONA nada
+  I-1   ela acontece FORA do turno, então é uma 4ª ação na rodada em que dispara
+  D2    a mesma frase pelo câmbio que o §6.1 declara: PE do jogador = cota do inimigo
+  RF    proteção é `1/3 do refino + 1`; −1 de Defesa = 5 pp pra cada atacante
+  AC    a `Precisão` vende +2 em UMA das duas rolagens por `Leve`; esta dá −2 nas DUAS
+
+============================================================================================
+5. O TESTE DE DOMINANCIA — a Sobrecarga INTEIRA, nos tres degraus
+============================================================================================
+  A Melhoria entrega as DUAS metades. Total = candidata + a CD 2 menor.
+  A CD vai no teto (10.95) e no piso (3.65); as duas colunas estao aqui.
+  O filtro e 3.00x. A banda das treze publicadas: Leve 0,00x a 2,18x,
+  Media 2,32x, Pesada 2,21x a 2,67x.
+
+  cód  nível p/ regra 1      Leve piso    Leve teto   Média piso   Média teto  Pesada piso  Pesada teto
+  ----------------------------------------------------------------------------------------
+  R    Leve                      2.23x         2.64x         1.27x         1.51x         0.81x         0.96x 
+  A1   Média                     4.26x!        4.66x!        2.43x         2.67x         1.55x         1.70x 
+  A15  Pesada                    6.29x!        6.69x!        3.59x!        3.82x!        2.29x         2.43x 
+  I-0  ‹ abaixo de meia ›        0.20x         0.61x         0.12x         0.35x         0.07x         0.22x 
+  I-1  Média                     4.26x!        4.66x!        2.43x         2.67x         1.55x         1.70x 
+  D2   Média                     4.26x!        4.66x!        2.43x         2.67x         1.55x         1.70x 
+  RF   ‹ abaixo de meia ›        0.39x         0.80x         0.23x         0.46x         0.14x         0.29x 
+  AC   Leve                      0.61x         2.43x         0.35x         1.39x         0.22x         0.88x 
+
+  `!` = passa do filtro de 3.00x, ou seja: domina o dano que aqueles pontos dariam.
+
+  ⚠ A `AC` tem piso e teto por OUTRO motivo que as demais: ela disputa a mesma rolagem
+     que a metade da CD. As duas nao se somam — um golpe ou rola acerto ou pede TR.
+     Com k das 3 acoes dele rolando acerto:
+       k=0   10.95 de dano negado   Leve  0.61x   Média  0.35x
+       k=1   21.90 de dano negado   Leve  1.22x   Média  0.70x
+       k=2   32.85 de dano negado   Leve  1.83x   Média  1.04x
+       k=3   43.80 de dano negado   Leve  2.43x   Média  1.39x
+     E o k nao e hipotese: o UNICO bloco preenchido que o projeto tem — o Sukuna do
+     `03-bloco/RASCUNHO-1-o-bloco.md` — tem `Corte` rolando acerto e `Desmantelar` e
+     `Fuga` pedindo Teste de Resistencia. ISSO E k=1, e k=1 da 1.22x em `Leve`.
+     O bloco carrega as DUAS rolagens (peca 26 §3 deriva `acerto` E `CD`), entao a
+     Melhoria pega o inimigo qualquer que seja a mistura dele — e e isso que a
+     metade da CD sozinha NAO faz.
+
+  E o COERENTE e ler a diagonal: o degrau que a regra 1 manda, com a dominancia dele.
+
+  cód  o que ela nega                                degrau   dominância piso→teto    passa?  
+  ------------------------------------------------------------------------------------------
+  R    trava a Reação da próxima rodada              Leve     2.23x → 2.64x           sim     
+  A1   tranca UMA ação da próxima rodada             Média    2.43x → 2.67x           sim     
+  A15  tranca uma ação E a Reação                    Pesada   2.29x → 2.43x           sim     
+  I-0  tranca a Intervenção — leitura "ela sai da cota"—        ‹ nega menos que meia ação ›—       
+  I-1  tranca a Intervenção — leitura "ela é ação extra"Média    2.43x → 2.67x           sim     
+  D2   o golpe dele custa o DOBRO de ação (o câmbio do §6.1)Média    2.43x → 2.67x           sim     
+  RF   refino −3 (um degrau de proteção)             —        ‹ nega menos que meia ação ›—       
+  AC   −2 no ACERTO dele na mesma janela (o espelho da CD)Leve     0.61x → 2.43x           sim     
+
+============================================================================================
+5.5 O BAIRRO — as nove `Auxiliares` publicadas, na MESMA regua
+============================================================================================
+  Auxiliar     degrau    entrega  dominância   convenção
+  ----------------------------------------------------------------------------------------
+  Impulso      Leve         5.75       0.32x   vantagem no proximo teste de um aliado = 25 pp
+  Trava        Leve        36.50       2.03x   desvantagem num golpe do alvo = metade daquele
+  Abre Ferida  Leve         3.65       0.20x   -2 em UM Teste de Resistencia = 5% daquele gol
+  Ecoa         Média        5.75       0.18x   vantagem no proximo ataque de um aliado — a me
+  Enfraquece   Média        7.50       0.24x   Xd4 com X = metade do atributo de tecnica; no 
+  Pressa       Média        3.60       0.11x   +6 m de deslocamento, ao cambio de metro da pe
+  Firmeza      Média        9.12       0.29x   vantagem num TR = 25 pp, e TR bem-sucedido cor
+  Guarda       Média       14.60       0.46x   +2 de defesa contra UMA acao do chefe (convenc
+
+  >> A banda das `Auxiliares` `Leve` publicadas:  0.20x a 2.03x
+  >> A banda das `Auxiliares` `Média` publicadas: 0.11x a 0.46x
+
+  ⚠ A familia `Auxiliar` e MUITO mais fraca que a familia `Condicao`. As treze condicoes
+     que negam acao entregam 2,18x a 2,67x; a `Media` mais forte daqui entrega
+     0.46x. O teto natural desta familia e o `Trava`, em 2.03x.
+  ⚠ E e isso que decide o degrau da candidata `R`: em `Leve` ela daria 2.23x a 2.64x,
+     que e o `Trava` MAIS o `Abre Ferida` — duas `Leve` publicadas pelo preco de uma.
+     Em `Média` ela da 1.27x a 1.51x, que e o topo natural desta familia.
+
+============================================================================================
+6. A CANDIDATA `R` CONTRA AS CINCO CATEGORIAS — o mesmo texto, cinco blocos
+============================================================================================
+  Nível 30. "ações" e a coluna da escada; a Reação e sempre UMA, pela peca 3.
+
+  categoria       dano/rod  ações    1 ação  a Reação  % da rodada
+  ------------------------------------------------------------------
+  Ameaça                55      1     55.00     27.50       50.0%
+  Desastre             219      3     73.00     36.50       16.7%
+  Catástrofe           328      5     65.60     32.80       10.0%
+  Calamidade           438      6     73.00     36.50        8.3%
+  Capanga (um)          55      1     55.00     27.50       50.0%
+                (6d8 + 28, medio)
+
+  >> A mordida RELATIVA cresce quando o inimigo tem menos acoes — e isso nao e defeito
+     desta Melhoria: e o que o §2.2 ja publica para as quatro condicoes que cobram acao
+     ("cada acao a menos encarece as quatro na mesma proporcao").
+
+============================================================================================
+7. O OUTRO LADO DA MESA — a mesma linha contra um JOGADOR
+============================================================================================
+  Um jogador tem 1 Acao Padrao, 1 Acao Bonus, 1 Reacao e movimento (peca 3).
+
+  tranca a Reação dele        11.50   um ataque de oportunidade = um golpe simples
+  tranca a Ação Padrão        23.00   se ele ia atacar (dois golpes)
+  tranca a Ação Padrão       108.00   se ele ia conjurar (a Rotina do nv30)
+
+  >> Trancar a REAÇÃO e a unica das tres que cabe no MESMO degrau nos dois lados:
+     36.50 contra chefe e 11.50 contra jogador, e os dois sao
+     "meia acao do dono" — que e `Leve` pela regra 1.
+  >> Trancar UMA AÇÃO nao cabe: contra o chefe tira 1/3 da rodada, contra o
+     jogador tira a rodada INTEIRA (108 de dano). Isso e `Atordoado`, nao `Leve`.
+
+============================================================================================
+7.2 SENSIBILIDADE — e se a Reacao do inimigo valer UMA acao, e nao meia?
+============================================================================================
+  O `o golpe` do chefe nv30 entrega 73.00 — a cota de UMA acao.
+  Se a Reacao dele e um ataque de oportunidade, ela entrega esse mesmo golpe
+  NAS VEZES EM QUE ALGUEM PROVOCA.
+
+  a convenção publicada (meia ação)      36.50   Leve  2.64x    Média  1.51x    Pesada  0.96x 
+  se provocar SEMPRE                     73.00   Leve  4.66x!   Média  2.67x    Pesada  1.70x 
+
+  >> O limite de cima ESTOURA o filtro em `Leve` e cabe em `Média`.
+  ⚠ Mas usar o limite de cima obriga a reprecar o `Atordoado` junto: ele e a MESMA
+     convencao, e a peca 19 publica ele em 109.50. Mexer num mexe no outro.
+  >> A conta desta rodada usa o numero PUBLICADO. O outro fica escrito pra quem
+     quiser abrir a convencao — e abrir ela e trabalho da peca 19, nao desta Melhoria.
+
+============================================================================================
+7.5 A TERCEIRA OPCAO — as duas finalistas JUNTAS
+============================================================================================
+  ações negadas somadas: 0.50 (a Reação) + 0.60 (o −2 no acerto) = 1.10
+  degrau pela regra 1:   Média
+
+  k        nega      Leve     Média    Pesada
+  --------------------------------------------
+  0       47.45     2.64x      1.51x      0.96x 
+  1       58.40     3.24x!     1.85x      1.18x 
+  2       69.35     3.85x!     2.20x      1.40x 
+  3       80.30     4.46x!     2.55x      1.62x 
+
+  >> Em `Média` a combinação cabe em TODO k, e o teto dela fica em
+     2.55x contra o filtro de 3.00x.
+  >> Em `Leve` ela estoura a partir de k=1.
+  ⚠ Custo da combinação: ela e `Média`, e NENHUM dos tres donos da tabela escreve
+     `Média` hoje (o gerador e o .docx dizem `Leve`, o livro diz `Pesada`).
+     A divergencia da v0.219 nao se FECHA — ela vira um terceiro valor.
+
+============================================================================================
+8. O VEREDITO DA MEDIDA
+============================================================================================
+  1. A metade morta vale 0.00 contra inimigo e 4.50 esperado contra
+     jogador. Substituir ela inteira e mais barato que pendurar uma clausula "contra
+     inimigo" — e mata a frase que a v0.217 ja tirou da `Divida`.
+
+  2. A candidata `R` (trava a Reacao) entrega 36.50 contra chefe, o que e
+     exatamente o que o `Trava` ja publicado entrega (36.50) — e o `Trava` e `Leve`.
+     Com a CD somada ela fica em 2.23x a 2.64x contra o filtro de 3.00x.
+
+  3. As candidatas `A1`, `A15` e `D2` nao sao novas: elas SAO o `Calado`, o `Atordoado`
+     e o `Atordoado` de novo. Comprar condicao ja publicada por Melhoria e duplicar.
+
+  4. A `Intervencao` tem DUAS leituras e o projeto nao decidiu qual: 0,00 se ela sai da
+     cota (§6.1) e 73.00 se ela e acao extra. ⚠ Isso e um buraco aberto no
+     bestiario, e nao uma escolha desta Melhoria.
+
+  5. O `refino` entrega 3.45 por degrau de protecao — tamanho de
+     `Desarmado`. E ele NAO e alvo reproduzivel: cada aptidao le o refino com teto
+     proprio, entao o mesmo "-3 de refino" faz coisa diferente em cada bloco.

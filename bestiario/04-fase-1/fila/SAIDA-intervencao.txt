@@ -1,0 +1,108 @@
+
+============================================================================================
+AS DUAS FRASES, lidas dos donos
+============================================================================================
+  peça 26 §6.1        "Tudo que ele faz sai do dano por rodada da ficha"
+  a-intervencao.md    "Ela acontece logo depois do turno de outra criatura"
+  e sao 3 por luta, no maximo 1 por rodada.
+
+  Desastre nv30: vida 945, dano 219 em 3 ações (uma ação = 73.00)
+  a luta dura 3.0 rodadas · a vida de um PC é 243 · a banda é 21%–32%
+
+============================================================================================
+1. O QUE CADA LEITURA ENTREGA
+============================================================================================
+  Numa luta de 3 rodadas, com no máximo 1 por rodada, ele dispara 3 Intervenções.
+
+  leitura                             dano/rodada   dano na luta   vs a tabela
+  ------------------------------------------------------------------------------
+  A — sai da cota                             219            657         1.00x
+  B — é ação extra                            292            876         1.33x
+
+  >> A leitura B entrega +33% de dano na luta inteira, por fora da escada.
+  >> Em quantas pessoas isso vira: o invariante do papel diz que o custo vai com
+     pessoas², entao 1.333x de dano pede 1.15x de pessoas — 4.6 em vez de 4.
+
+============================================================================================
+2. O QUE A LEITURA `A` FAZ COM `o golpe`
+============================================================================================
+  Se a Intervencao SAI DA COTA, a rodada em que ele intervem tem 4 fatias
+  em vez de 3, e o mesmo dano total. Entao cada golpe encolhe:
+
+  rodada                        fatias   o golpe    fatia da vida de um PC   na banda?
+  ------------------------------------------------------------------------------------
+  sem Intervenção (3 ações)          3      73.0                      30%         sim
+  com Intervenção (4 fatias)         4      54.8                      22%         sim
+
+  ⚠ E aqui esta o defeito de DRAMATURGIA da leitura A, e ele e grave:
+     na rodada em que o chefe puxa a jogada grande, TODOS os golpes dele ficam MENORES.
+     A Intervencao foi desenhada pra ser "o caba puxa um ATAQUE DO CRL" — e nesta
+     leitura ela e o contrario: ela DILUI a rodada.
+
+============================================================================================
+3. O QUE O CAMPO FAZ — e o Draw Steel COBRA pelas villain actions
+============================================================================================
+  O modificador de organizacao do Draw Steel e DUPLO, e o `Solo` e o unico que descasa:
+
+     `Solo`:  Stamina × 5   ·   EV e dano × 6   ->   razao 1.20 ×
+
+  >> Todos os outros postos tem razao 1,00. O `Solo` custa 120% do que a
+     Stamina dele sugere — e o que ele tem a mais e exatamente:
+       · 3 villain actions (a Intervencao)
+       · "Solo Turns: The creature can take two turns each round"
+
+  ⚠⚠ ENTAO O CAMPO JA RESPONDEU: a acao fora do turno E EXTRA, e ELA SE PAGA NO CUSTO.
+     O Draw Steel nao dilui a rodada do Solo — ele cobra mais caro por ele.
+
+  E a conta bate com a nossa: eles cobram 1.20x, e a leitura B daqui pede
+  1.33x. Dois sistemas, dois desenhos, o mesmo tamanho de correcao.
+
+============================================================================================
+4. AS SAIDAS DA LEITURA `B` — se a Intervencao e extra, quem paga?
+============================================================================================
+  saída                                 o que muda                              
+  ----------------------------------------------------------------------------------
+  B1 — a escada RECALIBRA o dano        o fator de dano do Desastre cai         
+                                        de 1,00 pra 0.750 — dano 164 em vez de 219
+                                        e `o golpe` vai pra 22% da vida de um PC
+
+  B2 — a categoria pede MAIS GENTE      o Desastre passa a pedir 4.6 pessoas    
+                                        e a escada inteira desloca junto        
+
+  B3 — a Intervenção não faz DANO       ela move, posiciona, aplica condição    
+                                        e aí ela adiciona 0,00 de dano — a conta fecha
+                                        sem mexer em número nenhum da escada    
+
+  ⚠ A B3 tem um problema de ficção: o `Domínio Encolhido` do Sukuna, que e a
+     Intervencao 3 dele, entrega 18 de dano sem rolagem. "O golpe final" que nao
+     causa dano nao e o golpe final.
+
+  ⚠ E a B1 tem um problema de banda: `o golpe` cairia pra 22%, e a banda
+     nova (depois do `Controlador`) e 20%–32%. CABE.
+
+============================================================================================
+5. A SAIDA QUE NINGUEM TINHA OLHADO — a Intervencao TROCA por uma acao
+============================================================================================
+  Na rodada em que ele intervem, ele age 2 vezes no turno dele em vez de 3,
+  e a acao que sobrou acontece FORA do turno — logo depois do turno de outra criatura.
+
+                                  ações no turno  + Intervenção  total da rodada   o golpe   fatia
+  ------------------------------------------------------------------------------------------------
+  rodada normal                                3              0              219      73.0    30%
+  rodada com Intervenção                       2              1              219      73.0    30%
+
+  >> O total da luta fica 657 — EXATAMENTE o da tabela. Zero de correcao.
+  >> `o golpe` fica em 73.0 (30%) em TODA rodada. A banda
+     nao se move.
+  >> E a dramaturgia INVERTE em relacao a leitura A: em vez de diluir a rodada, ele
+     GUARDA um golpe pro momento certo. "O caba puxa um ATAQUE DO CRL" — e o preco
+     e que ele bateu menos no turno dele.
+
+  ⚠ O QUE ELA CUSTA: a `Intervenção` deixa de ser DE GRAÇA, e ela foi desenhada de
+     graça, no molde da Villain Action do Draw Steel. E isso ja foi decidido uma vez —
+     a saida `B` do §8 das `decisoes-fase-1` morreu por exatamente esse motivo:
+     "a Intervenção deixa de ser gratuita, e ela foi desenhada gratuita".
+
+  >> Mas tem uma diferenca que vale olhar: la o custo era um POÇO (uma contagem nova).
+     Aqui o custo e uma acao que ele ja tinha. NAO existe contador novo, nao existe
+     linha nova no bloco — e a mesma economia de acao que ja esta escrita.

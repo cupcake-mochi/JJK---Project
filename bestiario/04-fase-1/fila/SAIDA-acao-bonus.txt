@@ -1,0 +1,78 @@
+
+============================================================================================
+1. O QUE O BLOCO DECLARA HOJE — e o que ele NAO declara
+============================================================================================
+  A peça 26 §3 lista dezessete linhas da ficha. Sobre economia de ação ela diz:
+    ações por rodada   personagens da categoria menos um, piso `1`
+    Reação             uma por rodada, volta no começo do turno dele
+
+    Ação Bônus         ⚠ NAO APARECE EM LUGAR NENHUM
+
+  E o jogador tem as quatro, pela peça 3:
+    Ação Padrão · Ação Bônus · Reação · movimento
+
+============================================================================================
+2. MAS O CATALOGO DO INIMIGO E O MESMO DO JOGADOR — e ele TEM Ação Bônus
+============================================================================================
+  peça 26 §6: "refino, aptidão, Passiva e técnica saem do mesmo catálogo"
+
+  E o catálogo tem coisa que custa Ação Bônus:
+    `Rápido`            Melhoria `Pesada`   Custa Ação Bônus em vez de Ação Padrão
+    `Ímpeto`            Classe Passiva 2    Como Ação Bônus, você se move até o seu deslocamento
+    `Campo`             Classe Passiva 1    A ação `Estudar` custa a sua Ação Bônus
+    `Energia Reversa`   aptidão             pode ser usada como Ação Bônus, com `d4` em vez de `d8`
+
+  ⚠ Então uma aptidão que custa Ação Bônus NAO TEM ONDE CABER na ficha do inimigo.
+
+============================================================================================
+3. A PROVA — o `Lento` ja preca a Acao Bonus DO INIMIGO
+============================================================================================
+  O texto do `Lento`, no manual: "Deslocamento pela metade, e sem Ação Bônus."
+
+  E a peça 19 §2.2 publica o valor dele CONTRA O CHEFE:
+    nega 39.20 de dano por rodada · 0.5 ações negadas
+
+  Reconstruindo ele das ancoras:
+    metade do deslocamento    4.5 m × 0.60 = 2.70
+    a AÇÃO BÔNUS              0.5 × 73.00 = 36.50
+                                                   —
+    total                     39.20
+
+  [x] FECHA EXATO: 39.20 = os 39.20 publicados.
+
+  >> O `Lento` tira DUAS coisas: metade do deslocamento e a Ação Bônus.
+  >> A metade do deslocamento vale 2.70. Todo o resto — 36.50 — é a AÇÃO BÔNUS.
+
+  ⚠⚠ ENTAO O SISTEMA JA DECIDIU: o inimigo TEM Ação Bônus, e ela vale
+     0.5 ação = 36.50 de dano por rodada.
+     O `Lento` cobra por tirar ela. Se o inimigo nao tivesse, o `Lento` estaria
+     sobreprecado em 93% contra inimigo — e ele e uma das treze
+     condicoes publicadas, com validador em cima.
+
+============================================================================================
+4. E E O MESMO TAMANHO DA REACAO — as duas valem meia acao
+============================================================================================
+  a `Reação`      derivada do `Atordoado`: 1.5 − 1,0 = 0.5 ação = 36.50
+  a `Ação Bônus`  derivada do `Lento`:     0.5 ação = 36.50
+
+  >> As duas valem MEIA AÇÃO, e as duas foram derivadas de condicoes publicadas
+     diferentes, sem se falarem. Duas rotas, o mesmo numero.
+
+============================================================================================
+5. O QUE FALTA FAZER — e nao e recalibrar
+============================================================================================
+  A Ação Bônus do inimigo JA ESTA no orçamento — ela foi preçada quando o `Lento`
+  foi preçado. O que falta é o bloco DIZER que ela existe.
+
+  E ela nao muda a cota de dano, pelo mesmo motivo que a Intervencao 2 e 3 nao mudam:
+  o que se faz com Acao Bonus no catalogo do jogador quase nunca e dano —
+  `Ímpeto` move, `Campo` estuda, `Energia Reversa` cura. So o `Rápido` conjura.
+
+  cenário                                        soma na cota?
+  --------------------------------------------------------------
+  Ação Bônus usada pra mover / posicionar                  não
+  Ação Bônus usada pra curar aliado                        não
+  Ação Bônus com `Rápido` — conjura                        SIM
+
+  >> Entao a linha do bloco tem de existir, e o que ela CARREGA e escolha:
+     ou "1 por rodada, e o que couber nela", ou "1 por rodada, e ela nao causa dano".

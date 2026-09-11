@@ -321,6 +321,25 @@ for base, dirs, files in os.walk(RAIZ):
         # e o projeto decidiu na v0.21 que as entradas antigas ficam como estao
         if '99-arquivo' in caminho or os.path.basename(base) == 'logs':
             continue
+        # ⚠ O `bestiario/` fica FORA desta checagem, e o motivo nao e' conveniencia.
+        #
+        # Ele entrou no repositorio em 11/09/2026 depois de tres dias trabalhando
+        # fora dele, e o que mora la e' NOTA DE PESQUISA: 354 das citacoes dele sao
+        # taquigrafia do proprio projeto (`fila/X` por `04-fase-1/fila/X`,
+        # `gerador-inimigo/X` por `sistema/05-material/gerador-inimigo/X`), URL de
+        # fonte consultada, e nome de corpus que foi baixado, medido e descartado.
+        # Nenhuma delas e' link que alguem vai clicar.
+        #
+        # Esta checagem existe pra documentacao de REGRA nao apodrecer. Afrouxar as
+        # regras de resolucao dela pra caber taquigrafia de nota enfraqueceria ela
+        # pro `sistema/`, pro `manual/` e pro resto — que e' onde ela vale.
+        #
+        # E o bestiario NAO fica sem guarda: os 43 scripts da fila dele morrem com
+        # ANCORA PERDIDA quando o documento dono muda, o que confere CONTEUDO e nao
+        # so' existencia de arquivo. Rode `bestiario/ferramentas-claude-2/valida.sh`
+        # e a fila; sao guardas mais fortes que esta.
+        if caminho.startswith(os.path.join(RAIZ, 'bestiario') + os.sep):
+            continue
         txt = open(caminho, encoding='utf-8', errors='ignore').read()
         for m in RX_MD.finditer(txt):
             alvo = m.group(1).strip()

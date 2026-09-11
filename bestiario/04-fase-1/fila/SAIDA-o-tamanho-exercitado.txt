@@ -1,0 +1,215 @@
+
+================================================================================================
+AS ANCORAS
+================================================================================================
+  a fórmula da Defesa       10 + Destreza + proteção        peça 1 §5
+  o orçamento de atributo   9 na criação, teto 3 · +1 por marco, teto 6
+  o piso do atributo        0  — os pontos se COMPRAM, não se devem
+
+  tamanho        alcance    ganho  Defesa Δ   produto   o golpe pega
+  Médio            1.5 m   1.0000        +0     1.000   só o alvo
+  Grande           3.0 m   1.2153        -2     1.013   o alvo + metade em 1
+  Imenso           4.5 m   1.4321        -4     1.023   o alvo + metade em 2
+  Colossal         6.0 m   1.6500        -7     0.971   o alvo + metade em 3
+
+  ⚠ A `MEDIDA-o-tamanho` fechou a troca com Defesa base 20,
+     que é o nível 26 a 30. **É o topo da tabela.**
+
+================================================================================================
+1. A DEFESA QUE O `tamanho` PEDE — contra o que a FÓRMULA consegue construir
+================================================================================================
+
+  Defesa mínima construível = 10 + 0 + proteção. O atributo tem piso 0: os pontos
+  se compram, e ninguém deve ponto pro sistema.
+
+    nv  prot   mín                Médio               Grande               Imenso             Colossal
+                         pede  consegue       pede  consegue       pede  consegue       pede  consegue
+  ----------------------------------------------------------------------------------------------------
+     2     1    11         14       14          12       12          10       11!          7       11!
+     3     1    11         14       14          12       12          10       11!          7       11!
+     4     1    11         14       14          12       12          10       11!          7       11!
+     5     1    11         14       14          12       12          10       11!          7       11!
+     6     2    12         15       15          13       13          11       12!          8       12!
+     7     2    12         15       15          13       13          11       12!          8       12!
+     8     2    12         15       15          13       13          11       12!          8       12!
+     9     2    12         15       15          13       13          11       12!          8       12!
+    10     2    12         16       16          14       14          12       12           9       12!
+    11     2    12         16       16          14       14          12       12           9       12!
+    12     2    12         16       16          14       14          12       12           9       12!
+    13     2    12         16       16          14       14          12       12           9       12!
+    14     3    13         17       17          15       15          13       13          10       13!
+    15     3    13         17       17          15       15          13       13          10       13!
+    16     3    13         17       17          15       15          13       13          10       13!
+    17     3    13         17       17          15       15          13       13          10       13!
+    18     3    13         18       18          16       16          14       14          11       13!
+    19     3    13         18       18          16       16          14       14          11       13!
+    20     3    13         18       18          16       16          14       14          11       13!
+    21     3    13         18       18          16       16          14       14          11       13!
+    22     4    14         19       19          17       17          15       15          12       14!
+    23     4    14         19       19          17       17          15       15          12       14!
+    24     4    14         19       19          17       17          15       15          12       14!
+    25     4    14         19       19          17       17          15       15          12       14!
+    26     4    14         20       20          18       18          16       16          13       14!
+    27     4    14         20       20          18       18          16       16          13       14!
+    28     4    14         20       20          18       18          16       16          13       14!
+    29     4    14         20       20          18       18          16       16          13       14!
+    30     4    14         20       20          18       18          16       16          13       14!
+
+  ✅ `Médio` é construível em todos os 29 níveis.
+  ✅ `Grande` é construível em todos os 29 níveis.
+  ⚠⚠ `Imenso` é INCONSTRUÍVEL em 8 de 29 níveis — nv2 a nv9.
+      O pior é o nv2: a troca pede Defesa 10 e a fórmula não desce de 11.
+  ⚠⚠ `Colossal` é INCONSTRUÍVEL em 29 de 29 níveis — nv2 a nv30.
+      O pior é o nv2: a troca pede Defesa 7 e a fórmula não desce de 11.
+
+================================================================================================
+2. QUANTOS PONTOS DE DEFESA ELE DEVE, E QUANTOS ELE PAGA — sem modelo nenhum
+================================================================================================
+
+  Esta e a conta livre de modelo: a troca DEVE tantos pontos de Defesa, e a formula
+  so deixa pagar tantos. A diferenca e ganho puro, e ela nao depende de como se preca
+  um ponto de Defesa.
+
+  tamanho        deve       nv2-9     nv10-17     nv18-25     nv26-30
+  --------------------------------------------------------------------
+  Grande            2      2 de 2      2 de 2      2 de 2      2 de 2
+  Imenso            4      3 de 4      4 de 4      4 de 4      4 de 4
+  Colossal          7      3 de 7      4 de 7      5 de 7      6 de 7
+
+  >> o `Colossal` paga 3 dos 7 que deve na faixa de baixo. Isso e menos da METADE,
+     e nenhum modelo de preco muda esse numero.
+
+================================================================================================
+2b. E QUANTO ISSO VALE — ⚠ AQUI TEM MODELO, e ele e aproximacao
+================================================================================================
+
+  ⚠ A `MEDIDA-o-tamanho` preca Defesa com custo CONVEXO ("1/x e convexo, cada ponto
+     custa mais que o anterior"). O modelo abaixo e LINEAR, entao os produtos nao
+     batem com os publicados. Use a ORDEM e o SINAL, nao o valor absoluto.
+
+  o custo de `−1` de Defesa, do câmbio que o papel construiu: 9.1%
+
+    nv                    Grande                    Imenso                  Colossal
+         Δ real  produto   folga   Δ real  produto   folga   Δ real  produto   folga
+  ----------------------------------------------------------------------------------
+     2       -2    1.004  -0.009       -3    1.076  +0.053       -3    1.239  +0.268
+     3       -2    1.004  -0.009       -3    1.076  +0.053       -3    1.239  +0.268
+     4       -2    1.004  -0.009       -3    1.076  +0.053       -3    1.239  +0.268
+     5       -2    1.004  -0.009       -3    1.076  +0.053       -3    1.239  +0.268
+     6       -2    1.004  -0.009       -3    1.076  +0.053       -3    1.239  +0.268
+     7       -2    1.004  -0.009       -3    1.076  +0.053       -3    1.239  +0.268
+     8       -2    1.004  -0.009       -3    1.076  +0.053       -3    1.239  +0.268
+     9       -2    1.004  -0.009       -3    1.076  +0.053       -3    1.239  +0.268
+    10       -2    1.004  -0.009       -4    0.978  -0.045       -4    1.127  +0.156
+    11       -2    1.004  -0.009       -4    0.978  -0.045       -4    1.127  +0.156
+    12       -2    1.004  -0.009       -4    0.978  -0.045       -4    1.127  +0.156
+    13       -2    1.004  -0.009       -4    0.978  -0.045       -4    1.127  +0.156
+    14       -2    1.004  -0.009       -4    0.978  -0.045       -4    1.127  +0.156
+    15       -2    1.004  -0.009       -4    0.978  -0.045       -4    1.127  +0.156
+    16       -2    1.004  -0.009       -4    0.978  -0.045       -4    1.127  +0.156
+    17       -2    1.004  -0.009       -4    0.978  -0.045       -4    1.127  +0.156
+    18       -2    1.004  -0.009       -4    0.978  -0.045       -5    1.024  +0.053
+    19       -2    1.004  -0.009       -4    0.978  -0.045       -5    1.024  +0.053
+    20       -2    1.004  -0.009       -4    0.978  -0.045       -5    1.024  +0.053
+    21       -2    1.004  -0.009       -4    0.978  -0.045       -5    1.024  +0.053
+    22       -2    1.004  -0.009       -4    0.978  -0.045       -5    1.024  +0.053
+    23       -2    1.004  -0.009       -4    0.978  -0.045       -5    1.024  +0.053
+    24       -2    1.004  -0.009       -4    0.978  -0.045       -5    1.024  +0.053
+    25       -2    1.004  -0.009       -4    0.978  -0.045       -5    1.024  +0.053
+    26       -2    1.004  -0.009       -4    0.978  -0.045       -6    0.931  -0.040
+    27       -2    1.004  -0.009       -4    0.978  -0.045       -6    0.931  -0.040
+    28       -2    1.004  -0.009       -4    0.978  -0.045       -6    0.931  -0.040
+    29       -2    1.004  -0.009       -4    0.978  -0.045       -6    0.931  -0.040
+    30       -2    1.004  -0.009       -4    0.978  -0.045       -6    0.931  -0.040
+
+  `Grande   ` produto de 1.004 a 1.004   (a MEDIDA publica 1.013)
+  `Imenso   ` produto de 0.978 a 1.076   (a MEDIDA publica 1.023)
+  `Colossal ` produto de 0.931 a 1.239   (a MEDIDA publica 0.971)
+
+================================================================================================
+3. E O TAMANHO DEVOLVE PONTO DE ATRIBUTO — que o produto não vê
+================================================================================================
+
+  A Defesa lê a Destreza. Se a Defesa cai, a Destreza obrigada cai junto — e os
+  pontos voltam pro orçamento.
+
+  o orçamento no nv20: 13 pontos — 9 na criação + 4 marcos.
+  ⚠ e o achado `2` do teste do Sukuna: as derivadas comem 4 de 4 marcos,
+    e sobram 3 pontos de 13 pra cor.
+
+  tamanho        Defesa   Destreza obrigada   pontos devolvidos   sobra pra cor
+  ------------------------------------------------------------------------------
+  Médio              18                   5                  +0               3
+  Grande             16                   3                  +2               5
+  Imenso             14                   1                  +4               7
+  Colossal           13                   0                  +5               8
+
+  >> o `Colossal` no nv20 devolve pontos que valem MAIS que a sobra inteira de cor.
+     E isso nao esta no produto: o produto so conta alcance, alvos e Defesa.
+
+================================================================================================
+4. AS SAIDAS, COM O NUMERO DE CADA UMA
+================================================================================================
+
+  O problema em uma linha: a Defesa tem PISO de formula e o tamanho pede abaixo dele.
+  As quatro saidas, e todas fecham o invariante — o que muda e o que se perde.
+
+  A — o `Colossal` corta 2 vizinhos em vez de 3 (a MEDIDA ja ofereceu isso no §3)
+      ele vira o ganho do `Imenso` e fecha com Defesa −4.
+      >> mas −4 so e construivel de nv10 pra cima. Sobra o buraco do nv2 ao nv9.
+      >> e o `Colossal` deixa de ter degrau proprio: ele VIRA o `Imenso`.
+
+  B — cada degrau ganha um PISO DE NIVEL, e so existe onde a Defesa fecha
+      tamanho       deve   construível a partir de   níveis perdidos
+      --------------------------------------------------------------
+      Grande           2                       nv2                 0
+      Imenso           4                      nv10                 8
+      Colossal         7                     NUNCA                29
+      >> o `Colossal` nao existe em nivel nenhum. A saida B mata ele.
+
+  C — o `tamanho` para de pagar em DEFESA e passa a pagar em VIDA, como os papeis
+      a vida e continua e nao tem piso de formula. O invariante fecha em TODO nivel.
+
+      tamanho         ganho   paga vida ×   produto
+      ----------------------------------------------
+      Médio          1.0000         1.000     1.000
+      Grande         1.2153         0.823     1.000
+      Imenso         1.4321         0.698     1.000
+      Colossal       1.6500         0.606     1.000
+      >> custa a FICCAO: um bicho de 6 m deixa de ser mais facil de acertar.
+
+  D — hibrido: a Defesa cai o que a formula DEIXAR, e o resto vira vida
+      mantem a ficcao e fecha o invariante. Custa uma coluna por faixa de nivel.
+
+      tamanho                  nv2-9           nv10-17           nv18-25           nv26-30
+                     Defesa   vida ×   Defesa   vida ×   Defesa   vida ×   Defesa   vida ×
+      ------------------------------------------------------------------------------------
+      Grande             -2    1.000       -2    1.000       -2    1.000       -2    1.000
+      Imenso             -3    0.909       -4    1.000       -4    1.000       -4    1.000
+      Colossal           -3    0.683       -4    0.751       -5    0.826       -6    0.909
+      >> onde a Defesa paga tudo, a vida fica em 1,000 e nada muda.
+      >> ⚠ os `vida ×` acima usam o cambio LINEAR — o numero final sai do convexo.
+
+  E — a Defesa cai um valor FIXO que e sempre pagavel, e o resto vira vida FIXA
+      uma tabela so, quatro linhas, construivel em TODO nivel. Sem faixa.
+
+      o maior corte de Defesa que fecha em TODOS os 29 niveis: −3
+      (o nivel que aperta e o nv2: base 14, proteção 1, piso 11)
+
+      tamanho       deve   Defesa  falta   vida × (teto)
+      ----------------------------------------------------
+      Médio            0       +0      0        1,000  —
+      Grande           2       -2      0        1,000  —
+      Imenso           4       -3      1           0.909
+      Colossal         7       -3      4           0.683
+
+      ⚠ O `vida ×` acima e TETO, nao valor final. Ele sai do cambio LINEAR, e a
+        `MEDIDA-o-tamanho` preca Defesa em cambio CONVEXO ("cada ponto custa mais que
+        o anterior"). Como os pontos que FALTAM sao os ULTIMOS — os mais caros —, o
+        convexo cobra mais que isso.
+      >> ENTAO: `Colossal` paga vida × 0,683 OU MENOS. O numero final tem de ser rodado
+         no cambio convexo da MEDIDA, que este script nao reconstroi.
+
+      >> `Imenso` e `Colossal` ficam com a MESMA Defesa (−3), e se separam
+         em vida e em alvos. A ficcao "maior e mais facil de acertar" sobrevive
+         entre `Médio` e `Grande`, e empata do `Imenso` pra cima.

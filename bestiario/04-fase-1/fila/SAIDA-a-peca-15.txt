@@ -1,0 +1,109 @@
+==============================================================================================
+§0 · AS ÂNCORAS — todas lidas do documento DONO
+==============================================================================================
+  peça 15: "A régua da morte é a vida máxima daquele corpo."
+           "…morre de vez se UM ÚNICO GOLPE causar a régua inteira."
+  peça 15: os dois corpos do nv30 valem `154` (Coro, Con 1) e `185` (forte)
+  peça 15: "Nenhum golpe comum destrói em definitivo […] Precisa do crítico
+            da MAIOR CATEGORIA da tabela."
+  peça 15: a tabela do corpo já machucado — 4 linhas
+  `TABELA.md` nv30: Capanga `6d8 + 28` · Ameaça `6d8 + 28` · Desastre `8d8 + 37` · Catástrofe `6d10 + 33` · Calamidade `8d8 + 37`
+  `DECIDIDO-as-seis-prontas.md`: a `Dupla` saiu da escada em 10/09 (noite).
+
+==============================================================================================
+§1 · O TETO DA TABELA — o que a peça 15 mediu, e o que existe hoje
+==============================================================================================
+  A tabela da peça 15, como está publicada (nv30):
+  linha                                  expressão        máximo       Coro      forte
+  Ronda                                  6d8 + 28             76        cai        cai
+  Calamidade                             6d10 + 33            93        cai        cai
+  Alcateia, que é também o capanga       8d8 + 37            101        cai        cai
+  Dupla, o maior golpe da tabela         8d12 + 57           153        cai        cai ← o TETO
+  crítico de Dupla                       16d12 + 57          249    destrói    destrói
+
+  ✓ os 5 máximos publicados batem com as expressões. A tabela é consistente por dentro.
+
+  E o teto da escada VIVA, no mesmo nível:
+    Desastre     `8d8 + 37  ` máximo 101  ← o TETO VIVO
+    Calamidade   `8d8 + 37  ` máximo 101  ← o TETO VIVO
+    Catástrofe   `6d10 + 33 ` máximo  93
+    Capanga      `6d8 + 28  ` máximo  76
+    Ameaça       `6d8 + 28  ` máximo  76
+
+  ⟹ o teto caiu de `8d12 + 57` (153) para `8d8 + 37` (101) — **1.51×** menor.
+    E a linha que a peça chama de "o maior golpe da tabela" é a `Dupla, o maior golpe da tabela`.
+
+==============================================================================================
+§2 · A TABELA DA MORTE, RECOMPUTADA NA ESCADA VIVA
+==============================================================================================
+  A régua: um golpe destrói se o MÁXIMO da rolagem alcança a vida do corpo.
+  Corpos: `Coro` Con 1 = 154 · forte = 185.
+
+  a linha viva                     expressão        máximo   Coro (154)  forte (185)
+  `Capanga`                        6d8 + 28             76          cai          cai
+  `Ameaça`                         6d8 + 28             76          cai          cai
+  `Catástrofe`                     6d10 + 33            93          cai          cai
+  `Desastre`                       8d8 + 37            101          cai          cai
+  `Calamidade`                     8d8 + 37            101          cai          cai
+  **crítico do topo (`Desastre`)** 16d8 + 37           165      DESTRÓI        ⚠ CAI
+
+  E a linha que a peça publica hoje, pra comparar:
+  crítico de `Dupla`               16d12 + 57          249      destrói      destrói
+
+==============================================================================================
+§3 · ⚠⚠ A CONCLUSÃO DA PEÇA — ela ainda vale?
+==============================================================================================
+  A peça 15 conclui, palavra por palavra:
+    "Nenhum golpe comum destrói em definitivo, e a razão vale em todo nível."
+    "Precisa do crítico da maior categoria da tabela — ou de o corpo já estar
+     quase caindo, que é o outro gatilho."
+
+  metade `1` — "nenhum golpe COMUM destrói":
+    o maior golpe comum vivo é 101; o Coro vale 154 e o forte 185.
+    ⟹ ✅ CONTINUA VALENDO, e com mais folga que antes.
+
+  metade `2` — "precisa do crítico da maior categoria":
+    o crítico do topo vivo (`16d8 + 37`) alcança 165.
+    contra o `Coro` (154): ✅ destrói
+    contra o corpo forte (185): ❌ NÃO DESTRÓI
+
+  ### ⟹ ⚠⚠ A CONCLUSÃO QUEBRA NA METADE.
+    Com a escada viva, NADA no jogo destrói um corpo forte com um golpe único —
+    nem o crítico da maior categoria. A peça 15 publica que o crítico da `Dupla`
+    destrói OS DOIS, e essa linha era a ÚNICA marcada "destrói" na tabela dela.
+
+    ⚠ O gatilho do excedente (corpo já machucado) continua existindo — o §4 mede ele.
+
+==============================================================================================
+§4 · A TABELA DO CORPO JÁ MACHUCADO, RECOMPUTADA
+==============================================================================================
+  A peça publica esta tabela pro `Coro` de Con `1` no nv30 (vida 154):
+
+  o corpo                      precisa de o `Dupla, o maior golpe da tabela` alcança?       o topo VIVO alcança?
+  cheio                               232                        não                        não
+  na metade                           155                        não                        não
+  em um quarto                        116           26% das rolagens                        não
+  a um ponto de cair                   79                     sempre           20% das rolagens
+
+  ✓ as 4 linhas publicadas reproduzem com o golpe da `Dupla, o maior golpe da tabela`.
+    ⟹ a tabela FOI calculada contra ela. Não é coincidência de leitura.
+
+  ⚠ E 2 de 4 linhas MUDAM na escada viva:
+    · `em um quarto`: publicado "26% das rolagens" ⟹ medido "não"
+    · `a um ponto de cair`: publicado "sempre" ⟹ medido "20% das rolagens"
+
+==============================================================================================
+§5 · ⚠ E A MESMA CONFUSÃO QUE EU CORRIGI HOJE, PUBLICADA NUMA PEÇA DE REGRA
+==============================================================================================
+  A peça 15 imprime, na tabela da morte:
+      "`Alcateia`, que é também o capanga"
+
+  ⚠ E a peça 26 §4.3 diz o contrário, com todas as letras:
+      "É por isso que o capanga do manual NÃO É uma `Ronda`."
+    A `Alcateia` é fator `1,00` e o capanga do manual é `chefe ÷ 4` / `chefe ÷ 3`.
+    ⟹ é a MESMA confusão que a `MEDIDA-o-remapeamento-das-seis.md` corrigiu hoje,
+      e aqui ela está numa PEÇA DE REGRA, não num arquivo de estado.
+
+==============================================================================================
+✓ todas as âncoras de pé.
+==============================================================================================

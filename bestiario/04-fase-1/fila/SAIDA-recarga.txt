@@ -1,0 +1,51 @@
+
+========================================================================================
+AS ANCORAS
+========================================================================================
+  `Desastre` nv30 · 3 ações · luta de 3 rodadas
+  o golpe normal, já com o × 0.923      67.4
+  slots de ação na luta inteira        9
+  a `Recarga (5-6)` dispara            1.67 vezes
+
+========================================================================================
+1. A CONTA — a Recarga OCUPA um slot, e os outros encolhem pra pagar
+========================================================================================
+  total da luta = usos × (k × golpe novo) + (slots − usos) × golpe novo
+  e ele tem de continuar igual a slots × golpe de hoje.
+
+  a Recarga é          golpe normal    a Recarga    quanto ela é    do golpe de hoje
+  ----------------------------------------------------------------------------------
+  1.5× uma ação                61.7         92.5           1.37×               0.92×
+  2.0× uma ação                56.8        113.7           1.69×               0.84×
+  2.5× uma ação                52.7        131.8           1.96×               0.78×
+  3.0× uma ação                49.1        147.4           2.19×               0.73×
+  4.0× uma ação                43.3        173.1           2.57×               0.64×
+
+  >> Ler a tabela: quanto MAIOR a Recarga, MENORES os golpes normais. O total nao muda.
+  >> E `o golpe` que a ficha imprime passa a ser o NORMAL — o da coluna 2.
+
+========================================================================================
+2. O CONTRA-TESTE — o Sukuna que o projeto ja tinha escrito
+========================================================================================
+  o `RASCUNHO-1` escreve, sem nenhuma conta por tras:
+    `Corte` (a ação normal)          34
+    `Fuga (recarrega no 5–6)`        92
+    >> a Recarga dele é 2.71× a ação normal.
+
+  >> Nessa razão (2.71×), o golpe normal cairia pra 51.2 (0.76× o de hoje)
+     e a Recarga bateria 138.5.
+  ⚠ Entao a intuicao dele quando escreveu o Sukuna JA ERA 2.7x — e a
+     conta so diz o preco disso: os golpes normais ficam 24% menores.
+
+========================================================================================
+3. E O QUE ISSO FAZ COM A OBJECAO DO §6.5
+========================================================================================
+  O §6.5 dizia: "a recarga 5-6 dispara 1,67 vezes... e a cota nao paga a fracao que sobra".
+
+  ⚠ Isso so e problema se a Recarga vier POR CIMA das acoes dele.
+  >> No enquadramento do Mizuki ela OCUPA uma acao. Entao nao ha fracao a pagar:
+     ha uma fracao a DIMENSIONAR, e a conta acima dimensiona.
+
+  >> E a `1× por luta` do §6.5 continua valendo — ela e o caso `usos = 1`.
+     Com `1× por luta` e a habilidade valendo 2,0× uma acao, o golpe normal fica em
+     60.6 (0.90×) — encolhe MENOS que com a Recarga, porque dispara menos.

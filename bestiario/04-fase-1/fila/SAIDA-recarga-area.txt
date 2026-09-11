@@ -1,0 +1,41 @@
+casos ambiguos resolvidos a mao, com motivo: 2
+  * Frost Giant - War Cry -> detector le 'one creature' e chuta UNICO. Mas o efeito e Temp HP + vantagem num ALIADO — nao mira inimigo. Fica SEM_ALVO (nao e golpe).
+  * Roc - Swoop -> detector nao acha frase de alvo e chuta SEM_ALVO. Mas ela solta UMA criatura agarrada — mira um inimigo so. Fica UNICO (movimento, sem rolagem de dano).
+TOTAL de rotulos de Recarga no SRD 5.2 (open5e srd-2024): 86
+DISCORDANCIA entre mao e detector: 0
+
+AREA 70 | ALVO UNICO 12 | SEM ALVO (self/buff/movimento) 4
+soma 86 == 86
+
+SO AS QUE MIRAM ALGUEM: 70 de 82 sao AREA = 85.4%
+                        12 de 82 sao ALVO UNICO = 14.6%
+  ACTION         n= 72  area  64  unico  8  sem alvo 0
+  BONUS_ACTION   n= 13  area   6  unico  3  sem alvo 4
+  REACTION       n=  1  area   0  unico  1  sem alvo 0
+
+>> SO A ACAO PRINCIPAL: 64 de 72 sao AREA = 88.9%
+
+janela: {'5-6': 67, '4-6': 5, '6-6': 14}
+
+CR medio  AREA 10.08  (mediana 8.50)
+CR medio UNICO 4.40  (mediana 3.50)
+CR maximo  AREA 30.0   CR maximo UNICO 13.0
+
+--- AS 12 DE ALVO UNICO, uma por uma ---
+CR 13.0  | Vampire                | Charm                | BONUS_ACTION | rec 5-6 | dano 0
+CR 11.0  | Roc                    | Swoop                | BONUS_ACTION | rec 5-6 | dano 0
+CR 7.0   | Stone Giant            | Deflect Missile      | REACTION     | rec 5-6 | dano 11
+CR 5.0   | Air Elemental          | Whirlwind            | ACTION       | rec 4-6 | dano 24
+CR 4.0   | Ghost                  | Possession           | ACTION       | rec 6-6 | dano 0
+CR 4.0   | Incubus                | Nightmare            | BONUS_ACTION | rec 6-6 | dano 18
+CR 3.0   | Minotaur of Baphomet   | Gore                 | ACTION       | rec 5-6 | dano 18
+CR 2.0   | Ettercap               | Web Strand           | ACTION       | rec 5-6 | dano 0
+CR 2.0   | Sea Hag                | Death Glare          | ACTION       | rec 5-6 | dano 13
+CR 1.0   | Giant Spider           | Web                  | ACTION       | rec 5-6 | dano 0
+CR 0.5   | Ape                    | Rock                 | ACTION       | rec 6-6 | dano 10
+CR 0.25  | Swarm of Ravens        | Cacophony            | ACTION       | rec 6-6 | dano 0
+
+DAS 12 DE ALVO UNICO, 6 nao rolam dano nenhum: Ettercap Web Strand, Ghost Possession, Giant Spider Web, Roc Swoop, Swarm of Ravens Cacophony, Vampire Charm
+maior dano de uma Recarga de ALVO UNICO em todo o SRD 5.2: 24
+maior dano de uma Recarga de AREA:                          91
+   (essa e Ancient Red Dragon - Fire Breath )

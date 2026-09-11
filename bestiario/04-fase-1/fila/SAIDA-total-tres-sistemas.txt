@@ -1,0 +1,12 @@
+sistema                 total   area  unico  s/alvo  % area*  precisao
+D&D 5e SRD 5.2             86     70     12       4    85.4%  exata
+Draw Steel (VA)           156    119      6      31    95.2%  exata
+Pathfinder 2e             663    595     34      34    94.6%  aproximada
+--------------------------------------------------------------------
+TOTAL                     905    784     52      69    93.8%
+
+>> Somando os tres sistemas: 784 de 836 acoes de recarga que MIRAM ALGUEM sao de AREA
+   = 93.8%.  Alvo unico: 52 de 836 = 6.2%
+   (de um universo de 905 rotulos de recarga levantados)
+
+>> 1 em cada 16 acoes de recarga e de alvo unico.

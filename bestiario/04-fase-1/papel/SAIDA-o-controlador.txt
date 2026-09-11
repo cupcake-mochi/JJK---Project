@@ -1,0 +1,147 @@
+
+==============================================================================================
+AS ÂNCORAS
+==============================================================================================
+  a banda                       21% – 28%                DECIDIDO-o-capanga §1
+  o fator da `Intervenção`      × 0.923                 MEDIDA-a-intervencao §12
+  o corte ÚNICO de hoje         × 0.667  (corta 33.3%)   DECIDIDO-o-papel §7.4
+  a vida de um PC no nv10       83.3
+  a vida de um PC no nv20       163.3
+  a vida de um PC no nv30       243.3
+
+==============================================================================================
+1 · O PROBLEMA — o corte único de 33.3% contra o piso de 21%
+==============================================================================================
+  categoria      Interv.                  nv10                  nv20                  nv30
+  ----------------------------------------------------------------------------------------
+  Ameaça             não      22.8% → 15.2% !!      22.7% → 15.1% !!      22.6% → 15.1% !!
+  Desastre           sim      27.7% → 18.5% !!      27.7% → 18.5% !!      27.7% → 18.5% !!
+  Catástrofe         sim      24.4% → 16.2% !!      24.9% → 16.6% !!      25.0% → 16.7% !!
+  Calamidade         sim      27.7% → 18.5% !!      27.7% → 18.5% !!      27.7% → 18.5% !!
+
+  !! = abaixo do piso de 21%.
+
+==============================================================================================
+2 · O TETO DE CORTE QUE A BANDA PERMITE, categoria por categoria
+==============================================================================================
+  corte_max = 1 − piso ÷ fatia_base. Acima dele o `o golpe` sai da banda.
+
+  categoria              nv10          nv20          nv30   o mais apertado
+  --------------------------------------------------------------------------
+  Ameaça                7.9%         7.3%         7.1%             7.1%
+  Desastre             24.2%        24.2%        24.2%            24.2%
+  Catástrofe           13.8%        15.5%        16.1%            13.8%
+  Calamidade           24.2%        24.2%        24.2%            24.2%
+
+==============================================================================================
+3 · A TABELA — a fração limpa que caiba no teto de cada categoria
+==============================================================================================
+  A régua: o corte tem de ser uma fração de leitura fácil (1/N), e tem de caber
+  no teto da coluna acima em TODO nível. E a vida compensa em 1 ÷ (1 − corte),
+  que é o que fecha o invariante `vida × dano` em 1,000.
+
+  categoria        teto   a fração   corta   vida ×   a fatia fica  na banda?
+  ------------------------------------------------------------------------------
+  Ameaça           7.1%   NENHUMA fração 1/N de 1/2 a 1/12 cabe
+  Desastre        24.2%        1/5   20.0%   1.250×         22.2%        sim
+  Catástrofe      13.8%        1/8   12.5%   1.143×         21.3%        sim
+  Calamidade      24.2%        1/5   20.0%   1.250×         22.2%        sim
+
+==============================================================================================
+4 · E O QUE A FRAÇÃO ESCOLHIDA SIGNIFICA EM AÇÕES NEGADAS
+==============================================================================================
+  A peça 19 §2.2 preça efeito em AÇÃO NEGADA, `1 pra 1`. Então o corte tem
+  de valer um número inteiro de ações do grupo — senão não há o que comprar.
+
+  categoria      ações   a fração   = quantas ações dele   vale quantas do grupo
+  ------------------------------------------------------------------------------
+  Desastre           3        1/5                   0.60                    0.60
+  Catástrofe         5        1/8                   0.62                    0.62
+  Calamidade         6        1/5                   1.20                    1.20
+
+  ⚠ Onde a coluna não dá inteiro, o `Controlador` compra FRAÇÃO de ação negada —
+    e a peça 19 §2.2 preça em ação inteira. É a única costura que sobra.
+
+==============================================================================================
+5 · A CONFERÊNCIA DO INVARIANTE
+==============================================================================================
+  O papel tem de fechar em 1,000: o que ele paga em dano, ele ganha em vida.
+
+  categoria       dano ×   vida ×   produto   fecha?
+  ----------------------------------------------------
+  Desastre        0.800×   1.250×    1.000×      sim
+  Catástrofe      0.875×   1.143×    1.000×      sim
+  Calamidade      0.800×   1.250×    1.000×      sim
+
+==============================================================================================
+6 · E A `Ameaça` — o caso que não tem saída boa
+==============================================================================================
+  O teto dela é 7.1%, e ela tem UMA ação.
+  Cortar 7.1% de uma ação é comprar 0.07 de ação negada.
+
+  As duas saídas, e as duas são de desenho:
+    A  ⚠ NÃO EXISTE. Com a banda em 21%–28% não há `1/N` que caiba no teto
+       de 7.1% da `Ameaça`. **A forma `A` morreu quando a banda apertou.**
+    B  o `Controlador` NÃO EXISTE em categoria de 1 ação
+       — é a pendência que a A-TABELA §5 item 4 já tinha registrado
+
+  >> B é mais honesta: 0,12 de ação negada não é jogável na mesa.
+     E ela não perde nada, porque a `Ameaça` é o inimigo de UMA ação —
+     tirar parte da única ação dele é o "inimigo de um botão só" que o campo reclama.
+
+==============================================================================================
+7 · ⚠⚠ E RODANDO ISSO APARECEU UMA FORMA MELHOR DA MESMA ESCOLHA
+==============================================================================================
+  A `A-TABELA-dos-seis-papeis` §4 já escreveu POR QUE o `Artilheiro` e o `Emboscador`
+  pagam em VIDA e não em dano, e a frase resolve o `Controlador` inteiro:
+
+    "Pagar em dano significaria subir o dano de algum outro, e a banda só dá
+     1,07× de espaço num `Desastre`. PAGAR EM VIDA NÃO ENCOSTA NA BANDA."
+
+  >> O `Controlador` fura a banda porque ele é o ÚNICO dos seis que paga em DANO.
+     Se ele pagar em vida, `o golpe` não se move e a banda nunca entra no caminho.
+
+  A conta: `1` ação negada do grupo vale `1` ação dele (peça 19 §2.2, `1 pra 1`),
+  e `1` ação dele é `dano ÷ ações`. Então o ganho multiplica a saída por (1 + 1/ações),
+  e ele paga vida × 1 ÷ (1 + 1/ações).
+
+  categoria      ações     ganha   paga vida   produto   o golpe  na banda?
+  --------------------------------------------------------------------------
+  Ameaça             1    2.000×      0.500×    1.000×    22.7%        sim
+  Desastre           3    1.333×      0.750×    1.000×    27.7%        sim
+  Catástrofe         5    1.200×      0.833×    1.000×    24.9%        sim
+  Calamidade         6    1.167×      0.857×    1.000×    27.7%        sim
+
+  E a vida que sai na ficha, no nv20:
+  categoria      vida crua   com Controlador   ações negadas
+  ------------------------------------------------------------
+  Ameaça               165                82               1
+  Desastre             660               495               1
+  Catástrofe           990               825               1
+  Calamidade          1320              1131               1
+
+  >> As quatro fecham em 1,000, `o golpe` fica onde estava, e a ação negada é
+     UMA INTEIRA em todas — inclusive na `Ameaça`, que era o caso sem saída.
+     A `Ameaça` paga metade da vida por negar uma ação, e isso é caro e é justo:
+     ela tem UMA ação, então negar uma do grupo dobra a saída dela.
+
+  ⚠ O que esta forma PEDE, e a outra não: uma frequência escrita.
+     "1 ação negada" por luta? por rodada? A conta acima é por LUTA (o 1 pra 1 da
+     peça 19 §2.2 é sobre a luta). Isso é uma linha de texto, e é decisão.
+
+==============================================================================================
+8 · ⚠ A BANDA NOVA MATOU A FORMA `A`
+==============================================================================================
+  Com a banda em 21%–28%, a forma `A` (cortar dano por categoria) nao tem
+  solucao em: `Ameaça`.
+
+  A forma `A` procura a maior fracao 1/N cujo corte ainda cabe na banda. Com o piso
+  em 21% o teto de corte da `Ameaça` cai pra 7.1%, e nao existe
+  1/N tao pequeno que ainda seja uma fracao util.
+
+  >> Isso NAO reabre nada: a forma `B` ja tinha sido escolhida em 10/09, e ela nao
+     corta dano nenhum. O que mudou e que agora a `A` e impossivel, e nao so pior.
+
+==============================================================================================
+  O INVARIANTE FECHA NAS DUAS FORMAS
+==============================================================================================

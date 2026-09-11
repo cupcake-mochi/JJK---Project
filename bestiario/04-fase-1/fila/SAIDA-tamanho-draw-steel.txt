@@ -1,0 +1,124 @@
+
+================================================================================================
+1. O QUE O LIVRO DIZ QUE `size` FAZ — Draw Steel Heroes, "Size and Space"
+================================================================================================
+
+  "A creature's size indicates how many squares they occupy during combat, which defines the creature's space. If a creature's size is 1, they occupy a space of 1 square. If a creature is larger than 1 square, their size equals the number of squares they take up in length, width, and height. For exampl"
+
+  Glossário: "An indication of a creature's space and their overall weight and height relative to other creatures."
+  E: "There is no limit to what a creature's size might be."
+
+  Linhas do livro que ligam `size` a acertar/errar mais: 15
+    "A creature who is grabbed has speed 0, can't be force moved except by a creature, object, or effect that has them grabbed, can't use the Knockback man"
+    "While you are in your rat form, your size is 1T and you can automatically climb at full speed while moving. You can use the Hide maneuver as a free ma"
+    "> **Effect:** An object you target must be your size or smaller. You gain an edge on this ability. Additionally, for each square you push the target, "
+    "> **Effect:** Until the end of the encounter, the size of your Null Field ability increases by 1. While the area of that ability is enlarged this way,"
+
+  Linhas em que ficar MAIOR dá alcance de corpo a corpo: 2
+    "While you are in your bear form, your size is 2 and you gain a +1 bonus to distance with melee weapon abilities."
+    "While you are in your hybrid form, your size is 2 and you gain a +1 bonus to distance with melee weapon abilities. At 4th level, the first time you take hybrid form in an"
+
+================================================================================================
+2. O QUE OS 415 STATBLOCKS FAZEM COM `size`
+================================================================================================
+
+  Normalizado por coorte (mesma organização, mesmo nível) — nível e organização
+  saem da conta e sobra o tamanho.
+
+  size      n   Stamina rel.    EV rel.   alcance melee   Σ atributos   stability
+  ----------------------------------------------------------------------------------
+  1T        8          0.900      1.000             1.0           2.0         0.0
+  1S       46          1.000      1.000             1.0           3.0         0.0
+  1M      222          1.000      1.000             1.0           5.0         0.0
+  1L       36          1.000      1.000             1.0           6.0         1.5
+  2        54          1.000      1.000             2.0           4.0         2.0
+  3        27          1.000      1.000             2.0           3.0         3.0
+  4        17          1.000      1.000             3.0           9.0         5.0
+  5         4          1.000      1.000             4.0          12.5         5.5
+
+  >> size 2+ (n=102): Stamina 1.000 × a coorte · EV 1.000 ×
+  >> size 1M ou menor (n=276): Stamina 1.000 × · EV 1.000 ×
+  >> a razão de Stamina entre os dois: 1.000 ×
+
+================================================================================================
+3. O TAMANHO COMPRA ALCANCE? — e ele PAGA por isso?
+================================================================================================
+
+  size    n com Melee   alcance mediano   mín   máx   Stamina rel.   EV rel.
+  ----------------------------------------------------------------------------
+  1T                6               1.0     1     2          1.000     1.000
+  1S               31               1.0     1     8          1.000     1.000
+  1M              135               1.0     1     5          1.000     1.000
+  1L               28               1.0     1     5          1.042     1.000
+  2                49               2.0     1     3          1.000     1.000
+  3                23               2.0     1     6          1.000     1.000
+  4                14               3.0     1     6          1.018     1.000
+  5                 4               4.0     1     5          1.000     1.000
+
+
+================================================================================================
+4. EXISTE ORÇAMENTO DE ATRIBUTO POR TAMANHO? — a 2ª pergunta do martelo
+================================================================================================
+
+  A nossa pergunta: o `tamanho` devolve ponto de atributo (Destreza), e isso deve
+  virar preço? No Draw Steel, a pergunta equivalente e: a SOMA dos cinco atributos
+  cresce com o tamanho, ou ela e um orcamento fixo que so muda de forma?
+
+  size      n   Σ atributos    Might  Agility   Reason  Intuition  Presence
+  --------------------------------------------------------------------------
+  1T        8           2.0     -1.0      2.0      0.0        0.0     -0.5
+  1S       46           3.0      0.0      2.0      0.0        0.0      0.0
+  1M      222           5.0      1.0      2.0      1.0        1.0      1.0
+  1L       36           6.0      2.0      2.0      0.0        1.0      0.0
+  2        54           4.0      2.5      1.0     -1.0        1.0      0.0
+  3        27           3.0      3.0      0.0     -1.0        1.0      0.0
+  4        17           9.0      4.0      2.0      0.0        2.0      1.0
+  5         4          12.5      5.0      2.0      1.0        2.5      2.5
+
+  >> a soma vai de 2.0 a 12.5 — variação de 10.5 ponto(s).
+  >> e ela cresce com o tamanho? SIM  (1T = 2.0 → 5 = 12.5)
+
+  ⚠ Mas a soma bruta confunde NIVEL com tamanho: bicho grande tende a ser de nivel
+     alto. Normalizando por coorte:
+
+  size      n   Σ atributos rel. à coorte
+  ------------------------------------------
+  1T        8                       0.500
+  1S       46                       1.000
+  1M      222                       1.000
+  1L       35                       1.000
+  2        52                       1.000
+  3        26                       0.865
+  4        15                       0.947
+  5         3                       1.000
+
+================================================================================================
+5. ⚠ A PERGUNTA QUE DECIDE — bicho grande pega MAIS GENTE no corpo a corpo?
+================================================================================================
+
+  O nosso `tamanho` da DUAS coisas: alcance E "o golpe pega vizinhos a metade".
+  A secao 3 mostrou que o alcance ele copia do campo. E os vizinhos?
+
+  size      n   alcance mediano   ALVOS mediano   alvos máx   % com 2+ alvos
+  --------------------------------------------------------------------------
+  1T        6               1.0             1.0           1              0%
+  1S       35               1.0             1.0           2              3%
+  1M      125               1.0             1.0           2             28%
+  1L       40               1.0             1.0           4             22%
+  2        65               2.0             1.0           4             40%
+  3        31               2.0             1.0           2             48%
+  4        20               3.0             1.0           2             45%
+  5         5               4.0             1.0           2             40%
+
+  Somando as AÇÕES (não a mediana das linhas):
+
+    size 1 — qualquer sub-degrau    206 ações      22% pegam 2+ alvos
+    size 2 ou maior                 122 ações      43% pegam 2+ alvos
+
+  >> bicho grande pega 2+ alvos 1.99 × mais que bicho de 1 quadrado.
+  >> E ele NAO PAGA por isso: Stamina 1,000 e EV 1,000 na secao 2.
+
+  ⟹ no Draw Steel o `size` da alcance E alvos, e o preco dele e ZERO.
+     O livro define size como ESPACO — "an indication of a creature's space" —,
+     nao existe estatistica de defesa pra baixar, e "there is no limit to what a
+     creature's size might be".

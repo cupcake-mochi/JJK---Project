@@ -1,0 +1,82 @@
+habilidades com recarga '1d4 rounds': 696 | criaturas: 581
+apos dedup por (criatura, habilidade): 663
+
+  {'UNICO_GOLPE': 18, 'AREA': 595, 'UNICO_NAO_GOLPE': 16, '???': 34}
+>> AREA 595 de 663 = 89.7%
+>> das que deu pra classificar: 595 de 629 = 94.6% AREA
+>> alvo unico total 34 = 5.4%   (GOLPE 18, nao-golpe/reacao/auto 16)
+
+--- ALVO UNICO que E GOLPE (18) ---
+  nv7   Arboreal Reaper             | Leech Moisture                | Two Actions (Void) The arboreal reaper grows still and focuses intently on a single foe within 50 feet, draining moisture from the target's body. This deals 10d
+  nv1   Camel                       | use its camel spit Strike     | Single Action
+spit +6, Damage camel spit Camel Spit To drive away enemies, the camel spits the partially digested contents of its stomach at a creature within 1
+  nv5   Hateful Hermit              | (sem nome no texto)           | Single Action (Emotion, Mental) The hateful hermit unleashes a vexing stream of profanities and threats at a single foe he can see within 30 feet. The hermit ga
+  nv6   Cleansed Cultist            | Release the Inmost Worm       | Two Actions (Mental, Necromancy, Occult) The cleansed cultist makes fists with both hands, pressing them to their temples so that their outward pointing thumbs 
+  nv12  Stoneriver                  | Measure Soul                  | Two Actions (Concentrate, Divination, Divine, Mental) Stoneriver mentally pries through the mind of a creature within 60 feet, dealing 10d8 mental damage (DC 29
+  nv20  Norn                        | Snip Thread                   | Two Actions (Death, Manipulate, Occult) Frequency three times per day; Effect The norn produces a golden thread linked to the fate of a creature within 100 feet
+  nv18  Temperbrand                 | Hurl Slag                     | Two Actions (Divine, Fire, Incapacitation, Primal) Temperbrand whips an arm at a target within 120 feet, causing her slagblade to detach and fly through the air
+  nv8   Destrachan                  | Shattering Harmonics          | Two Actions (Evocation, Occult, Sonic) The destrachan focuses its harmonics against a single item within 60 feet that is made of crystal, metal, stone, or wood.
+  nv21  Ravener                     | Breath Weapon                 | Two Actions (Arcane, Evocation, Fire) The ravener breathes a blast of flame that deals 20d6 fire damage plus 4d6 persistent negative damage (DC 44 basic Reflex 
+  nv15  Graveknight Champion        | Channel Magic                 | Two Actions The graveknight champion redirects magical energies through its armor, allowing it to deliver magic through an attack. The graveknight champion Cast
+  nv21  Ravener                     | Void Breath                   | Two Actions (Primal, void) The ravener breathes a blast of necrotic flame that deals 20d6 fire damage plus 4d6 persistent void damage (DC 44 basic Reflex save).
+  nv15  Voldrak                     | Dread Gaze                    | Single Action (Emotion, fear, incapacitation, mental, occult, visual) Voldrak fixes his gaze upon a creature he can see within 60 feet. His eyes glow with blue 
+  nv7   Tar Zombie Predator         | make a Tar-Spattered Charge   | Two Actions The tar zombie predator lurches at its foe. It Strides twice and makes a claw Strike, or strides once and makes two claw Strikes. Both Strikes count
+  nv20  Tatterthread                | Shadow Snip                   | Two Actions (Acid, Death, Manipulate, Necromancy, Occult) Frequency three times per day; Effect Tatterthread produces a scrap of shadow linked to the fate of a 
+  nv2   Lacedon                     | Paralyzing Spew               | Single Action (Incapacitation, Occult, Necromancy) The lacedon discharges a spray of carrion vomit at a creature within 20 feet, dealing 1d6 poison damage with 
+  nv17  Rift Pulper                 | Pulp Quintessence             | Two Actions (Divine, Teleportation) The rift pulper rapidly chews on reality itself, gnawing open a short-lived rift into the liminal space between planes in an
+  nv19  Splinter Officer            | Rally the Rabble              | Three Actions (Concentrate, Divine) The splinter officer mentally energizes the undead under its command. Each undead that shares the officer's splintered soul 
+  nv9   Gale Frenzy                 | Distracting Whispers          | Two Actions (Air, auditory, mental, primal) A gale frenzy can focus all of their whispered words in a cacophony of unsettling and distracting threats, lies, and
+
+--- ALVO UNICO que NAO e golpe (16) ---
+  nv23  Rune Archdragon           | use canceling rune          | Reaction (arcane) Trigger The dragon is the target of a spell that requires a saving throw; Effect The dragon 
+  nv15  Adult Vizier Dragon       | use this ability            | Reaction (auditory, fortune, linguistic, occult) Trigger An ally within 60 feet fails a saving throw; Effect T
+  nv20  Ancient Vizier Dragon     | use this ability            | Reaction (auditory, fortune, linguistic, occult) Trigger An ally within 60 feet fails a saving throw; Effect T
+  nv23  Vizier Archdragon         | use this ability            | Reaction (auditory, fortune, linguistic, occult) Trigger An ally within 60 feet fails a saving throw; Effect T
+  nv15  Lyrt Cozurn               | Inhabit an Object           | Single Action Lyrt possesses a Large or smaller object within 20 feet, making it an animated object. This anim
+  nv9   Dread Wisp                | Shadow Flitter              | Single Action (Conjuration, Occult, Teleportation) The dread wisp teleports to a square they can see within 30
+  nv14  Adult Rune Dragon         | Canceling Rune              | Reaction (arcane) Trigger The dragon is the target of a spell that requires a saving throw; Effect The dragon 
+  nv19  Ancient Rune Dragon       | Canceling Rune              | Reaction (arcane) Trigger The dragon is the target of a spell that requires a saving throw; Effect The dragon 
+  nv11  Larabay                   | (sem nome no texto)         | Two Actions (Illusion, mental, occult) The larabay Flies up to its fly Speed, creating a stunning rainbow in i
+  nv12  Worm Prophet              | do so                       | Single Action (Divine, healing) The worm prophet's constituent creatures whisper countless paeans to their god
+  nv6   Silt Frog                 | Ingest Magic                | Two Actions (Primal) A silt frog can eat spells and magical effects, removing them from a creature. The silt f
+  nv18  Jin-Hae                   | (sem nome no texto)         | Two Actions (Divine) Requirements Jin-Hae is wielding her wind and fire wheels; Effect Jin-Hae blasts off on h
+  nv22  Syndara The Sculptor      | Gateway Onslaught           | Two Actions (Conjuration, Teleportation) Requirements Syndara is in the Glass Lighthouse ; Effect Syndara fold
+  nv6   Summer Hora               | Summer's Fortune            | Reaction Trigger The summer hora or an ally within 30 feet that the summer hora can see fails a Perception che
+  nv13  Summer Hora Queen         | Summer's Fortune            | Reaction Trigger The summer hora queen or an ally within 30 feet that the summer hora queen can see fails an a
+  nv15  Peerless Healer           | Healing Echo                | Free Action (Manipulate, Vitality) Trigger The peerless healer restores Hit Points to an ally using heal ; Eff
+
+--- ??? (34) ---
+  nv17  Wyrmwraith                  | use this ability              | Single Action (Divine) A wyrmwraith can push through the ectoplasmic veil to temporarily assume a physical form made of ectoplasm. The wyrmwraith lose
+  nv23  Elder Wyrmwraith            | use this ability              | Single Action (Divine) A wyrmwraith can push through the ectoplasmic veil to temporarily assume a physical form made of ectoplasm. The wyrmwraith lose
+  nv13  Ayngavhaul                  | use this ability              | Reaction (divine, manipulate) Trigger The ayngavhaul is targeted by a spell; Effect The ayngavhaul flings a tome from its personal library at the spel
+  nv7   The Disciples               | Awful Approach                | Single Action The Disciples reshape their grotesque form to move swiftly. They Stride twice. Any living creature that can see the Disciples during thi
+  nv7   Rigg Gargadilly             | Fade from View                | Free Action Requirements The quickling used no attack, manipulate, or move actions in the previous round; Effect The quickling becomes invisible until
+  nv15  Adult Gold Dragon           | use this ability              | Reaction Trigger The gold dragon fails a saving throw. Effect The dragon improves its result by one degree of success, turning a failure into a succes
+  nv20  Ancient Gold Dragon         | use this ability              | Reaction Trigger The gold dragon fails a saving throw. Effect The dragon improves its result by one degree of success, turning a failure into a succes
+  nv5   Living Landslide            | Crumble                       | Reaction Trigger The living landslide takes damage from a hostile source while atop rock or earth. Effect The living landslide crumbles into the groun
+  nv9   Stone Mauler                | Crumble                       | Reaction Trigger The stone mauler takes damage from a hostile source while atop rock or earth. Effect The stone mauler crumbles into the ground, Burro
+  nv11  Elemental Avalanche         | Crumble                       | Reaction Trigger The elemental avalanche takes damage from a hostile source while atop rock or earth. Effect The elemental avalanche crumbles into the
+  nv10  Crystal Strider             | Release Light                 | Two Actions (Attack, Light, Primal) The strider emits the light that continually refracts within them to cast chromatic ray as an innate primal spell 
+  nv3   Zoudou the Zealous          | Regain Anonymity              | Single Action (Occult, Polymorph, Transmutation) Requirement Zoudou has a face; Effect Zoudou melts the face she's wearing and gains 3d6 temporary Hit
+  nv4   Korred                      | (sem nome no texto)           | Single Action (Incapacitation, Primal, Transmutation) The korred causes a long, tangled length of their hair to detach from their body and snake out t
+  nv3   Quickling                   | Fade from View                | Free Action Requirements The quickling used no attack, manipulate, or move actions in the previous round; Effect The quickling becomes invisible until
+  nv8   Voidglutton                 | (sem nome no texto)           | Single Action (Concentrate) Frequency once per round; Requirement An enemy is affected by a fear effect or has the frightened or dying condition, and 
+  nv15  Dybbuk                      | Inhabit an Object             | Single Action (Necromancy, Occult, Possession) The dybbuk possesses a Large or smaller unattended object within 20 feet, making it an animated object.
+  nv15  Tolokand                    | use this ability              | Single Action Requirements The tolokand hasn't cast any of its spontaneous spells this turn; Effect The tolokand casts one of its spontaneous spells, 
+  nv9   Zombie Dragon               | Breath Weapon                 | Two Actions The zombie dragon breathes a wave of fetid viscera that deals 5d6 bludgeoning and 5d6 poison damage (DC 28 basic Reflex save). A creature 
+  nv19  Canopy Elder                | Vine Splint                   | Single Action (Healing) The canopy elder grows a mesh of vines around its broken branches, repairing the damage and restoring 40 HP to itself. The can
+  nv9   Zombie Dragon               | Viscera Breath                | Two Actions (Poison) The zombie dragon breathes a wave of fetid viscera that deals 5d6 bludgeoning damage and 5d6 poison damage (DC 28 basic Reflex sa
+  nv3   Zoudou The Zealous          | Regain Anonymity              | Single Action (Occult, polymorph) Requirement Zoudou has a face; Effect Zoudou causes the face she's wearing to melt away like running wax and gains 3
+  nv3   Durtik                      | Mechanized Animus             | Two Actions (Concentrate, incapacitation, magical) The durtik channels their antipathy and disdain for others into a construct within 60 feet,seizing 
+  nv3   Path River Peeler           | Blood Run Cold                | Two Actions (Cold, concentrate, manipulate, occult) The Path River Peeler extends a bony finger at a creature it can see within 60 feet, draining heat
+  nv16  Jandelay Tolokand           | use this ability              | Single Action Requirements The tolokand hasn't cast any of its spontaneous spells this turn; Effect The tolokand casts one of its spontaneous spells, 
+  nv15  Sanzuwu                     | Scorch Earth                  | Two Actions Requirements The sanzuwu is standing on the ground; Effect The sanzuwu Strides. A 6th-level wall of fire appears in all the spaces the san
+  nv11  Planar Terra-Cotta Soldier  | Planar Step                   | Single Action (Conjuration, Teleportation) The planar terra-cotta soldier momentarily moves beneath the Material Plane, instantly transporting itself 
+  nv15  Planar Terra-Cotta Squadron | Planar Step                   | Single Action (Conjuration, Teleportation) The terra-cotta squadron momentarily moves beyond the Material Plane, instantly transporting itself to a lo
+  nv23  Mengkare                    | use this ability              | Reaction Trigger The gold dragon fails a saving throw. Effect The dragon improves its result by one degree of success, turning a failure into a succes
+  nv11  Somnalu Oculus              | Clearing Blink                | Reaction Trigger The Somnalu Oculus would be affected by a condition; Effect The Somnalu Oculus rapidly blinks, using dream wisps as an eyelid. The So
+  nv10  Sluagh Reaper               | use it                        | Single Action The sluagh reaper becomes incorporeal until the start of their next turn, and Flies up to their fly Speed. While incorporeal, they are i
+  nv18  Queen Sluagh                | use it                        | Single Action The queen sluagh becomes incorporeal until the start of their next turn, and Flies up to their fly Speed. While incorporeal, they are im
+  nv11  Unrisen                     | Awful Approach                | Single Action The unrisen reshapes its grotesque form to move swiftly. It Strides twice. Any living creature that can see the unrisen during this move
+  nv12  Avathrael Realmshaper       | Shadow Step                   | Two Actions (Arcane, Healing, Teleportation) Frequency twice per day; Effect Avathrael teleports with the effects of a 4th-rank translocate spell, but
+  nv7   Merfolk Storm Singer        | use this ability              | Reaction (auditory, occult) Trigger The merfolk or a creature under the effect of their Storm Song within 60 feet is targeted by a spell or auditory e

@@ -1,0 +1,88 @@
+
+================================================================================================
+0 · AS ÂNCORAS — todas lidas dos donos
+================================================================================================
+  peça 26 §5 · o chefe age 3× por rodada, a luta dura 3 rodadas ⟹ 9 golpes na luta
+  peça 26 §6.4 · o inimigo acerta 52% fora de domínio
+  peça 11 · vantagem/desvantagem vale ±25 pontos percentuais
+  peça 19 §2.2 · ações cobradas — Lento 0.5 · Calado 1 · Enfeitiçado 1 · Atordoado 1.5
+
+  peça 19 §3 · 13 condições lidas: Lento(L) · Incapacitado(L) · Derrubado(L) · Agarrado(L) · Desarmado(L) · Surdo(L) · Calado(M) · Enfeitiçado(M) · Impedido(P) · Cego(P) · Amedrontado(P) · Envenenado(P) · Atordoado(P)
+  partD.js · a Melhoria `Condição` dura uma rodada ⟹ DUR = 1
+  peça 19 §3.3 · e só as `Pesada` dão TR no fim de cada turno: SIM  ⟹ a `Pesada` pode acabar ANTES de 1 rodada, nunca depois
+  peça 19 §3 · dão desvantagem nos ataques DELE: Derrubado · Impedido · Cego · Amedrontado · Envenenado
+
+================================================================================================
+1 · A RÉGUA — quanto cada condição TIRA do inimigo, e quanto a imunidade vale
+================================================================================================
+
+  O inimigo entrega 9 golpes na luta (3 ações × 3 rodadas).
+  Uma condição dura 1 rodada (publicado), então ela apaga `a × 1` desses 9.
+  Ser IMUNE devolve isso ⟹ fator × 9/(9 − a×1).
+
+  Uma condição de desvantagem não tira ação: ela derruba o acerto de
+  52% para 27%, e o que sai naquela rodada vale
+  0.519× — o resto é ação perdida equivalente.
+
+    condição       nível     ações apagadas  do total  imunidade vale   como
+    Atordoado      Pesada              1.50     16.7%          × 1,20   rouba 1.5 ação × 1 rodada
+    Derrubado      Leve                1.44     16.0%          × 1,19   desvantagem × 1 rodada
+    Impedido       Pesada              1.44     16.0%          × 1,19   desvantagem × 1 rodada
+    Cego           Pesada              1.44     16.0%          × 1,19   desvantagem × 1 rodada
+    Amedrontado    Pesada              1.44     16.0%          × 1,19   desvantagem × 1 rodada
+    Envenenado     Pesada              1.44     16.0%          × 1,19   desvantagem × 1 rodada
+    Calado         Média               1.00     11.1%          × 1,12   rouba 1 ação × 1 rodada
+    Enfeitiçado    Média               1.00     11.1%          × 1,12   rouba 1 ação × 1 rodada
+    Lento          Leve                0.50      5.6%          × 1,06   rouba 0.5 ação × 1 rodada
+    Incapacitado   Leve                   —         —           1,00×   não toca ação nem acerto do inimigo
+    Agarrado       Leve                   —         —           1,00×   não toca ação nem acerto do inimigo
+    Desarmado      Leve                   —         —           1,00×   não toca ação nem acerto do inimigo
+    Surdo          Leve                   —         —           1,00×   não toca ação nem acerto do inimigo
+
+================================================================================================
+2 · AGRUPANDO POR NÍVEL — a tabela que caberia no §6.3
+================================================================================================
+    nível       condições                 a que mais tira  imunidade a ELA vale
+    Leve                6                       Derrubado                × 1,19
+    Média               2                          Calado                × 1,12
+    Pesada              5                       Atordoado                × 1,20
+
+  ⟹ A LINHA QUE FALTA no §6.3, e ela sai pronta:
+
+     "Ser imune a uma condição multiplica o fator da categoria pelo valor dela:
+      as de nível `Leve` por 1.00 a 1.19,
+      as `Média` por 1.12,
+      as `Pesada` por 1.20.
+      Imunidade a condição que não tira ação nem acerto do inimigo custa 1,00×."
+
+
+================================================================================================
+3 · CONFERINDO CONTRA O §6.3 — as duas réguas têm de ter a mesma FORMA
+================================================================================================
+  §6.3 · resistir/ser imune a DANO:   fator × 1 ÷ (1 − fatia que ele deixa de receber)
+  aqui  · ser imune a CONDIÇÃO:       fator × 1 ÷ (1 − fatia que ele deixa de perder)
+
+    Físicos      imune apaga   60% do dano recebido  ⟹  × 2.50   (1 ÷ (1 − 0.60) = 2.50)
+    Elementais   imune apaga   30% do dano recebido  ⟹  × 1.43   (1 ÷ (1 − 0.30) = 1.43)
+    Especiais    imune apaga   10% do dano recebido  ⟹  × 1.11   (1 ÷ (1 − 0.10) = 1.11)
+
+    Atordoado    imune apaga 16.7% das ações dele  ⟹  × 1.20   (1 ÷ (1 − 0.167) = 1.20)
+
+  ### ⟹ É A MESMA FÓRMULA. A régua da condição não é régua nova — é o §6.3
+      aplicado no eixo da AÇÃO em vez do eixo do DANO.
+
+  ⚠ E ela erra pro lado SEGURO, como a resistência e ao contrário da
+    vulnerabilidade: se ninguém no grupo comprou aquela condição, o inimigo
+    pagou por uma imunidade que não usou, e o encontro foi cobrado mais caro
+    do que é. A mesa ganha.
+
+  ⚠ E o que NÃO está contado aqui, de propósito:
+    · a vantagem que `Cego`/`Derrubado`/`Impedido` dão a QUEM ATACA ele
+      (isso mexe na vida efetiva, não na saída — é outro eixo, e conta duas
+       vezes se entrar aqui)
+    · o `Incapacitado`, que transforma acerto corpo a corpo em crítico
+  ⟹ Os dois deixam a régua CONSERVADORA. Declarado, não esquecido.
+
+================================================================================================
+FIM
+================================================================================================

@@ -1,0 +1,340 @@
+============================================================================================
+§0 · AS ÂNCORAS — todas lidas do documento DONO
+============================================================================================
+  escada MORTA (peça 26 §4): Ronda 1p 0.25 1a · Dupla 2p 0.50 1a · Alcateia 4p 1.00 3a · Calamidade 6p 1.50 5a
+  escada VIVA  (RASCUNHO-5 P1): Capanga — 0.25 1a 8c · Ameaça 1p 0.25 1a 1c · Desastre 4p 1.00 3a 1c · Catástrofe 6p 1.50 5a 1c · Calamidade — 2.00 6a 1c
+  §4.1 e §4.4 da peça 26 lidas — 4 + 4 linhas
+  `dados.js`: 7 faixas · 6 prontas
+  peça 26: chefe = 3× o dano do grupo em vida · entrega 90% da vida de um PJ/rodada
+  §4.3: quatro `Ronda` cobram 0.75×–0.77× uma `Alcateia`  ·  §4.5: sozinho cobra 68%
+  régua do encontro: fator do chefe + capangas × 0.083  ·  fator é CONTÍNUO (item 5)
+  `TABELA.md`: 29 níveis × 5 categorias
+
+============================================================================================
+§1 · O CRUZAMENTO — quem herda quem, por IDENTIDADE (pessoas · fator · ações)
+============================================================================================
+  MORTA           (pessoas fator ações)   HERDEIRO        (pessoas fator ações)  distância
+  Ronda                 1p   0.25    1a   ⟹ Ameaça              1p   0.25    1a  EXATO
+  Dupla                 2p   0.50    1a   ⟹ — ÓRFÃ —                             ⚠ SEM HERDEIRO
+  Alcateia              4p   1.00    3a   ⟹ Desastre            4p   1.00    3a  EXATO
+  Calamidade            6p   1.50    5a   ⟹ Catástrofe          6p   1.50    5a  EXATO
+
+  ⟹ 3 de 4 degraus da escada morta têm herdeiro EXATO nos três eixos.
+    órfã(s): `Dupla`
+
+============================================================================================
+§2 · A CONFERÊNCIA CÉLULA A CÉLULA — 29 níveis × 4 colunas, gerador contra `TABELA.md`
+============================================================================================
+  Recomputo cada degrau morto com as fórmulas do `make.js` e comparo com a coluna viva.
+
+  morta        herdeiro         vida dano/rod    ações    golpe     bate?
+  Ronda        Ameaça           29/29     29/29     29/29     29/29 ✓ IDÊNTICO
+  Dupla        — órfã —            —        —        —        —         —
+  Alcateia     Desastre         29/29     29/29     29/29     29/29 ✓ IDÊNTICO
+  Calamidade   Catástrofe       29/29     29/29     29/29     29/29 ✓ IDÊNTICO
+
+  E as duas tabelas PUBLICADAS da peça 26, conferidas contra a `TABELA.md`:
+  morta        herdeiro     §4.1 (vida · dano, nv10/20/30) §4.4 (por rodada · ações · golpe, nv30)
+  Ronda        Ameaça       ✓ bate nos três                ✓ bate                        
+  Dupla        — órfã —     195·37 / 330·73 / 472·109      109 · 1a · 8d12 + 57          
+  Alcateia     Desastre     ✓ bate nos três                ✓ bate                        
+  Calamidade   Catástrofe   ✓ bate nos três                ✓ bate                        
+
+============================================================================================
+§3 · ⚠ A LEITURA PUBLICADA `Alcateia ⟹ Capanga`, MEDIDA
+============================================================================================
+  O `ESTADO-onde-paramos.md` e a `MEDIDA-as-seis-prontas.md` §4 publicam:
+    "`Ronda` era `1` personagem ⟹ `Ameaça`; `Alcateia` era o esquadrão ⟹ `Capanga`"
+
+                                       Alcateia    Capanga   Desastre
+  fator                                    1.00       0.25       1.00
+  ações                                       3          1          3
+  corpos                                      1          8          1
+  vida no nv10                              390         32        390
+  vida no nv20                              660         55        660
+  vida no nv30                              945         78        945
+
+  ⟹ `Alcateia` ÷ `Capanga` em vida, no nv20: 12.00×.  `Alcateia` ÷ `Desastre`: 1.00×.
+  ⟹ fator: `Alcateia` 1.00 · `Capanga` 0.25 (4× de distância) · `Desastre` 1.00 (exato)
+
+  E a própria peça 26 §4.3 já separa os dois, palavra por palavra:
+    "É por isso que o capanga do manual não é uma `Ronda`."
+    ⟹ o capanga do manual era EIXO SEPARADO da escada, não um degrau dela.
+
+============================================================================================
+§4 · ⚠⚠ A ARMADILHA — o nome `Calamidade` sobrevive e o SIGNIFICADO não
+============================================================================================
+                               `Calamidade` `Calamidade`
+                                      MORTA         VIVA
+  personagens                             6          > 6
+  fator                                1.50         2.00
+  ações                                   5            6
+
+  ⟹ O MESMO NOME vale 1.33× mais na escada viva. E o herdeiro real da morta é `Catástrofe`.
+  ⚠ Renomear as seis e deixar o `Calamidade` quieto NÃO é seguro: o `make.js` imprime
+    a escada INTEIRA em duas tabelas do `.docx`, não só as seis fichas.
+    Das seis prontas, nenhuma usa `Calamidade` — mas a COLUNA dela vai pro livro do mesmo jeito.
+
+============================================================================================
+§5 · A `Dupla` — a órfã, e as saídas medidas
+============================================================================================
+  `Dupla`: 2 personagens · fator 0.50 · 1 ação.  Fichas dela: Kamaitachi, Kitsune
+  Entre `Ameaça` (0.25) e `Desastre` (1.00) a escada viva não tem degrau.
+
+  GUARDA — o modelo reproduz o que já está publicado?
+    `1 Desastre` sozinho cobra 67.5% da vida do grupo — o §4.5 publica 68%.
+    e ele exige 4.00 pessoas — a peça publica 4.
+    `4 Ronda` contra `1 Alcateia`: 0.75× — a peça 26 §4.3 publica 0.75×–0.77×.
+    ⟹ ✓ o modelo reproduz uma âncora que ele NÃO calibrou.
+
+  AS SAÍDAS, medidas nos 29 níveis. ⚠ A unidade PRINCIPAL é `cobra da mesa padrão`,
+    que é a mesma em que a peça 26 §4.3 e §4.5 publicam — e é onde o modelo validou.
+
+  a saída                                     cobra  vs `Dupla`   pessoas    fator  corpos
+  a `Dupla` de hoje (o que está no livro)      22.5%           —      2.00    0.500       1
+  ----------------------------------------------------------------------------------------
+  A · duas `Ameaça` (dois corpos)             16.9%      -25.0%      1.99    0.496       2
+  B · `Ameaça` + 3 `Capanga` (a régua)        28.2%       25.2%      2.32    0.580       4
+  C · promover a `Desastre`                   67.5%      200.0%      4.00    1.000       1
+  D · rebaixar a `Ameaça`                      5.6%      -75.0%      1.00    0.250       1
+  E · um corpo, fator `0,50`, sem degrau      22.5%        0.0%      2.00    0.500       1
+
+  ⟹ `vs Dupla` é quanto o encontro CRESCE ou ENCOLHE contra o que as duas fichas
+    publicadas cobram hoje. `0,0%` é a saída que não mexe na mesa de ninguém.
+
+  ⚠⚠ E A COLUNA `pessoas` NÃO SERVE PRA DECIDIR AQUI — ela está sentada num DEGRAU.
+    numa mesa de 1.90 pessoas: `Dupla` cobra 94.7% · duas `Ameaça` cobram 71.1%
+    numa mesa de 2.00 pessoas: `Dupla` cobra 67.5% · duas `Ameaça` cobram 56.2%
+    ⟹ de 1.90 pra 2.00 a cobrança despenca, porque a luta perde uma RODADA inteira.
+    A busca binária cai dentro desse degrau e devolve `2,00` pras duas.
+    ⚠ É o mesmo defeito que o `DECIDIDO-o-capanga-unico` §2 já registrou:
+      "o chefe a `91,5%` cobra `67,4%`; a `92%` cobra `80,3%`" — meio ponto move 13.
+    ⟹ Leia a coluna `cobra`. A coluna `pessoas` fica pra conferência, não pra decisão.
+
+  E a razão de duas `Ameaça` contra uma `Dupla` é a MESMA que o §4.3 já publicou:
+    quatro `Ronda` contra uma `Alcateia` : 0.750×  (a peça publica 0.75×–0.77×)
+    duas  `Ameaça` contra uma `Dupla`   : 0.750×  ⟹ mesma propriedade, mesmo número
+    *eles morrem em fila e a saída deles despenca* — §4.3, palavra por palavra.
+
+  E O GOLPE, que é o que muda na MÃO do mestre (nv 26–30, a faixa mais gorda):
+    `Dupla` publicada        :   109 por rodada · 1 ação · 8d12 + 57
+    `Ameaça                `:    55 por rodada · 1 ação(ões) · 6d8 + 28
+    `Desastre              `:   219 por rodada · 3 ação(ões) · 8d8 + 37
+    duas `Ameaça` juntas    :   110 por rodada · 1 ação cada · 6d8 + 28 + 6d8 + 28
+
+  E AS DUAS FICHAS, uma a uma — porque a ficção delas não é a mesma:
+    `Kamaitachi` — Vêm em dupla, e o corte chega antes do vento.
+      ⟹ a ficção descreve: DOIS corpos
+    `Kitsune` — A única da faixa que conjura.
+      ⟹ a ficção descreve: UM corpo?
+
+============================================================================================
+§6 · ⚠⚠ A BANDA DO `o golpe` — e a escada viva já escreveu que a `Dupla` era o DEFEITO
+============================================================================================
+  O `a-escada-com-numero.md` publica, sobre a escada viva, palavra por palavra:
+    · "No bestiário antigo ele saía de `personagens − 1`… **Foi isso que quebrou a `Dupla`**,
+       que levava o dobro do orçamento pela mesma porta."
+    · "A do bestiário antigo era de `23%` a `45%`… e **o topo dela era a `Dupla`**."
+    · "E `Ações` é número **DECLARADO**." ⟹ a regra `personagens − 1` está MORTA.
+
+  ⟹ A `Dupla` não ficou órfã por descuido. Ela É o defeito que a escada nova removeu.
+    A âncora da banda viva é o `DECIDIDO-o-capanga.md` §1: `21%`–`28%`.
+
+  âncoras desta varredura: fatia publicada do `Desastre` = 30% · Intervenção `0.923`
+
+                                                   nv2      nv10      nv20      nv30
+  a `Dupla` publicada — fator 0,50 · 1 ação      43.6%     44.4%     44.7%     44.8%
+  `Ameaça` (o piso da banda viva)                21.8%     22.8%     22.7%     22.6%
+  `Desastre` (a âncora, com a Intervenção)       27.7%     27.7%     27.7%     27.7%
+  ⟹ um corpo fator 0,50 com **2 ações**          21.8%     22.2%     22.3%     22.4%
+
+                                              níveis FORA           de
+  a `Dupla` publicada — fator 0,50 · 1 ação            29           29  ⚠ FURA A BANDA
+  `Ameaça` (o piso da banda viva)                       0           29  ✓ dentro
+  `Desastre` (a âncora, com a Intervenção)              0           29  ✓ dentro
+  ⟹ um corpo fator 0,50 com **2 ações**                 0           29  ✓ dentro
+
+  ⟹ A `Dupla` publicada entrega 45% da vida de um personagem NUM GOLPE SÓ,
+    contra um teto vivo de 28%. É 1.60× o topo da banda, em 29 de 29 níveis.
+    E as DUAS fichas do livro — `Kamaitachi` e `Kitsune` — carregam isso.
+
+  ⟹ E a saída sai de graça, porque `Ações` virou número DECLARADO:
+    o MESMO fator `0,50`, com `2` ações em vez de `1`, cai pra 21.8%–22.4% — DENTRO.
+    Vida e dano por rodada não se movem ⟹ o encontro é o mesmo (a saída `E` do §5, `0,0%`).
+    ⚠ O que muda na mão do mestre: o golpe do nv30 sai de `8d12 + 57` para `5d10 + 27`.
+
+============================================================================================
+§7 · ⚠⚠⚠ E A COISA QUE NENHUMA DAS SAÍDAS RESOLVE — a `Kitsune` CONJURA
+============================================================================================
+  O `RASCUNHO-5` publica o piso: golpe da ação ÷ `4.5` < `3` pontos ⟹ ela NÃO monta feitiço.
+  E o `dados.js` publica, na ficha da `Kitsune`:
+    "uma técnica de `Classe 1`, escrita pelo mestre no orçamento de `4.2` pontos da ação."
+    A linha dela é: "A única da faixa que conjura."
+
+  A `Kitsune` está na faixa `5 a 8`. Quantos pontos a ação dela tem em cada saída:
+
+  a saída                                            pontos   conjura?
+  a `Dupla` de hoje — fator 0,50 · 1 ação               4.2      ✓ sim
+  A · duas `Ameaça` (cada corpo)                        2.2     ❌ SECO
+  B · `Ameaça` + 3 `Capanga` (o corpo do chefe)         2.2     ❌ SECO
+  C · promover a `Desastre`                             2.9     ❌ SECO
+  D · rebaixar a `Ameaça`                               2.2     ❌ SECO
+  E · fator 0,50 com **2 ações** (a saída do §6)        2.1     ❌ SECO
+  o TOPO da escada viva na mesma faixa: `Calamidade`        2.9     ❌ SECO
+
+  ⟹ 0 de 6 saídas da escada VIVA deixam a `Kitsune` conjurar NESTA FAIXA.
+    ⚠ Nem o TOPO da escada viva conjura aqui — e isso não é defeito, é o piso `seco`,
+      fechado por ele no item `21` em 10/09: "`1` entrada é o que `25%` do D&D 2024 imprime".
+
+  ⟹⟹ O ACHADO: a única coisa que faz a `Kitsune` ser a `Kitsune` só existe na escada MORTA.
+     Ela conjura porque a `Dupla` concentrava `2` pessoas de orçamento numa ação só —
+     que é EXATAMENTE o defeito que a escada nova removeu de propósito.
+     Consertar a categoria dela apaga a ficha. Manter a ficha ressuscita o defeito.
+
+  ⚡ MAS EXISTE UMA SAÍDA QUE NINGUÉM TINHA OLHADO — mudar a FAIXA em vez da categoria.
+
+  a `Ameaça`, por faixa              pontos   conjura? vs os 4.2 dela
+  nv 2 a 4                              0.9     ❌ SECO       -78.8%
+  nv 5 a 8                              2.2     ❌ SECO       -47.1%
+  nv 9 a 12                             4.2      ✓ sim        +0.5%
+  nv 13 a 16                            6.2      ✓ sim       +48.1%
+  nv 17 a 20                            8.2      ✓ sim       +95.8%
+  nv 21 a 25                           10.2      ✓ sim      +143.4%
+  nv 26 a 30                           12.2      ✓ sim      +191.0%
+
+  ⟹ SAÍDA `F` · a `Kitsune` sobe de faixa: `5 a 8` ⟹ `9 a 12`, e vira `Ameaça`.
+    Ela fica com `4.2` pontos — EXATAMENTE os `4.2` que a ficha publicada já declara.
+    ⟹ a característica dela — "no orçamento de `4.2` pontos da ação" — NÃO MUDA UMA LETRA.
+    ⚠ O preço: as seis deixam de cobrir `nv 2 ao 6` e passam a cobrir `nv 2 ao 12`.
+
+  E a `Kamaitachi` NÃO tem esse problema — a característica dela é:
+    "nenhuma — as duas atacam no mesmo turno, e isso já é a categoria"
+    ⟹ a ficção dela JÁ É dois corpos. A saída `A` (duas `Ameaça`) escreve a ficção dela
+      sem mudar uma palavra.
+
+============================================================================================
+§8 · E A GRADE QUE PRODUZIU AS SEIS — ela ainda dá seis na escada VIVA?
+============================================================================================
+  O `dados.js` deriva o número seis, e não escolhe:
+    "a faixa do nível 2 ao 6 cruza DUAS linhas de FAIXAS com as QUATRO categorias —
+     oito células —, e a `Calamidade` exige seis feiticeiros, que um grupo dessa faixa não tem."
+
+  Rodando a MESMA derivação na escada viva:
+    faixas que cobrem o nv 2 ao 6 : 2  (2 a 4, 5 a 8)
+    categorias que uma mesa de 4 aguenta : 3  (Capanga —, Ameaça 1p, Desastre 4p)
+    categorias que ela NÃO tem gente pra : 2  (Catástrofe 6p, Calamidade 8p)
+
+  ⟹ 2 faixas × 3 categorias = **6 células**.
+    ⚡ A grade viva dá o MESMO número: 6. As seis continuam sendo seis.
+    O que muda é a COMPOSIÇÃO: sai `Ronda`·`Dupla`·`Alcateia`, entra
+    `Capanga`·`Ameaça`·`Desastre` — e a vaga da `Dupla` vira vaga de `Capanga`.
+
+  E o que a vaga da `Dupla` passa a custar, se ela virar `Capanga`:
+    2 `Capanga` sozinhos: cobram  11.3% da mesa padrão, contra 22.5% da `Dupla` — -49.8%.
+    3 `Capanga` sozinhos: cobram  16.9% da mesa padrão, contra 22.5% da `Dupla` — -24.8%.
+    8 `Capanga` sozinhos: cobram  67.7% da mesa padrão, contra 22.5% da `Dupla` — +201.0%.
+    ⚠ e o `Capanga` NÃO tem vida derivada do chefe: ela é `dano do grupo ÷ 4`.
+      ⟹ é o único degrau vivo cuja ficha não sai de multiplicar a linha do manual.
+
+============================================================================================
+§9 · A VARREDURA — quantos pontos do `gerador-inimigo/` falam a escada MORTA
+============================================================================================
+
+  Varridos 391 arquivos do repositório (fora de worktree, backup e cache).
+
+  arquivo                                                linhas o que é
+  finalizado/regra/26-bestiario.md                           49 ESPELHO byte a byte — checagem 7
+  sistema/03-mecanica/26-bestiario.md                        49 peça VIVA — já na MEXIDAS
+  logs/CHANGELOG.md                                          35 histórico — DEVE falar a morta
+  sistema/05-material/gerador-inimigo/dados.js               13 gerador — item 30c
+  sistema/03-mecanica/conferir-bestiario.py                  12 validador — já na MEXIDAS
+  sistema/05-material/gerador-inimigo/make.js                11 gerador — item 30c
+  finalizado/regra/15-invocacoes.md                           6 ESPELHO byte a byte — checagem 7
+  sistema/03-mecanica/15-invocacoes.md                        6 ⚠⚠ peça VIVA — FORA DE TODA LISTA
+  sistema/ESTADO-ATUAL.md                                     6 ⚠ estado do repo
+  sistema/03-mecanica/conferir-ficha.py                       3 validador — bloco 7
+  sistema/04-playtest/mesa-01-grupo-01.md                     3 ⚠ registro de mesa real
+  sistema/05-material/gerador-inimigo/COMO-USAR.txt           1 ⚠ gerador — eu tinha PULADO
+
+  ⟹ 104 linhas em 9 arquivos-FONTE que citam a escada morta.
+    (+ 90 em espelho e histórico, que não são edição a mais.)
+    ⚠ "linha que cita" NÃO é "mexida": a `MEXIDAS-no-repositorio.md` conta mudança
+      SEMÂNTICA, e uma tabela inteira trocada é uma mexida com dez linhas dentro.
+      Este número é a SUPERFÍCIE, e serve pra achar arquivo esquecido — não pra estimar.
+
+  ⚠⚠ E 4 arquivo(s) NÃO estavam em lista nenhuma — nem na `MEXIDAS`, nem no item `30`:
+    · sistema/03-mecanica/15-invocacoes.md               6 linha(s)
+    · sistema/04-playtest/mesa-01-grupo-01.md            3 linha(s)
+    · sistema/05-material/gerador-inimigo/COMO-USAR.txt  1 linha(s)
+    · sistema/ESTADO-ATUAL.md                            6 linha(s)
+
+  ⟹ a `15-invocacoes.md` é PEÇA DE REGRA VIVA, e ela calibra a morte do
+    shikigami contra o golpe da `Dupla`. Conta em `medir-a-peca-15.py` (o 28º).
+
+  E o detalhe linha a linha dos dois arquivos do gerador:
+
+  `dados.js` — 13 linha(s):
+    L24   Ronda                              ['Ronda',      1, 0.25],
+    L25   Dupla                              ['Dupla',      2, 0.50],
+    L26   Alcateia                           ['Alcateia',   4, 1.00],
+    L27   Calamidade                         ['Calamidade', 6, 1.50],
+    L69   Ronda·Alcateia                     // Quatro `Ronda` nao valem uma `Alcateia` — peca 26 §4.3, a banda das sete...
+    L77   Calamidade                         // FAIXAS com as QUATRO categorias — oito celulas —, e a Calamidade exige seis
+    L83   Ronda                              { nome: 'Betobeto', faixa: '2 a 4', categoria: 'Ronda',
+    L88   Dupla                              { nome: 'Kamaitachi', faixa: '2 a 4', categoria: 'Dupla',
+    L93   Alcateia                           { nome: 'Tsuchigumo', faixa: '2 a 4', categoria: 'Alcateia',
+    L98   Ronda                              { nome: 'Hitotsume', faixa: '5 a 8', categoria: 'Ronda',
+    L103  Dupla                              { nome: 'Kitsune', faixa: '5 a 8', categoria: 'Dupla',
+    L108  Alcateia                           { nome: 'Oni', faixa: '5 a 8', categoria: 'Alcateia',
+    L117  Alcateia                           const CAMBIO = 4;          // um chefe de Alcateia vale N capangas — peca 2...
+
+  `make.js` — 11 linha(s):
+    L8    Alcateia                           //   3. O EXEMPLO    o mesmo bloco com os numeros de uma Alcateia de nivel 10.
+    L100  Alcateia                           // tabelas por isso"), a justificativa do numero ("a Alcateia e a linha do
+    L111  Ronda·Dupla·Alcateia·Calamidade    out.push(P('**2 · Escolha a categoria.** Ela responde uma pergunta só: **qu...
+    L115  Alcateia                           out.push(NOTA('**Um exemplo.** Um grupo de nível 10 vai enfrentar uma maldi...
+    L131  Dupla·Calamidade                   out.push(P('O `×` diz quantas vezes ele rola por rodada. **Menos ações quer...
+    L133  Dupla·Calamidade                   // categoria — a `Dupla` bate mais forte que a `Calamidade` porque tem uma ...
+    L150  Ronda·Alcateia                     out.push(P(`Um chefe de \`Alcateia\` vale **${X.CAMBIO} capangas** do mesmo...
+    L176  Calamidade                         out.push(NOTA('Imunidade a `Físicos` custa **mais** de um degrau, e não exi...
+    L260  Alcateia                           grau: '—', nivel: '10', categoria: 'Alcateia', sub: 'sozinho',
+    L281  Calamidade                         out.push(P('São seis porque a faixa do nível 2 ao 6 cruza **duas linhas** d...
+    L318  Calamidade                         out.push(NOTA('A `Calamidade` da faixa fica de fora porque exige seis feiti...
+
+  ⚠ E DUAS delas repetem frases que o item `5` já matou por medição:
+    ACHADA   o item `5`
+    ACHADA   o item `9` — o câmbio é `8`
+
+  ⚠⚠ E o `make.js` L318 declara a `Calamidade` fora da faixa "porque exige SEIS feiticeiros".
+     Na escada viva quem exige seis é a `Catástrofe`; a `Calamidade` exige 8.
+     ⟹ a frase continua verdadeira e passa a apontar pro bicho ERRADO.
+
+============================================================================================
+§10 · A DECISÃO DE 10/09 (noite), conferida contra a escada viva
+============================================================================================
+  ficha        faixa      de           para          corpos    pontos     fatia na banda?
+  Betobeto     2 a 4      Ronda        Ameaça             1       0.9     21.8%         ✓
+  Kamaitachi   2 a 4      Dupla        Ameaça             2       0.9     21.8%         ✓
+  Tsuchigumo   2 a 4      Alcateia     Desastre           1       1.3     27.7%         ✓
+  Hitotsume    5 a 8      Ronda        Ameaça             1       2.2     23.1%         ✓
+  Kitsune      9 a 12     Dupla        Ameaça             1       4.2     22.8%         ✓
+  Oni          5 a 8      Alcateia     Desastre           1       2.9     27.7%         ✓
+
+  ✓ 6 de 6 fichas caem DENTRO da banda `21%`–`28%`.
+  ⚡ `Kitsune` mudou de FAIXA: `5 a 8` ⟹ `9 a 12`.
+  ⚡ `Kitsune` na faixa `9 a 12`: 4.2 pontos, contra os 4.2 que a ficha publica — +0.5%.
+     ✓ ela conjura, e a característica publicada dela não muda uma letra.
+  ⚡ `Kamaitachi` — 2 × `Ameaça`: cobra 16.9% contra 22.5% da `Dupla` que ela era (-25.0%).
+
+  E A GRADE QUE SOBRA — o preço declarado da decisão:
+  faixa      Capanga                    Ameaça                     Desastre                  
+  2 a 4      ⚠ vazio                    Betobeto · Kamaitachi ×2   Tsuchigumo                
+  5 a 8      ⚠ vazio                    Hitotsume                  Oni                       
+  9 a 12     —                          Kitsune                    —                         
+
+  ⟹ 2 célula(s) da grade do nv `2` ao `8` ficam vazias, e todas são de `Capanga`.
+    ⚠ Está DECLARADO no `DECIDIDO-as-seis-prontas.md` §5. Não é pendência, é o preço da `F`.
+
+============================================================================================
+✓ todas as âncoras de pé.
+============================================================================================

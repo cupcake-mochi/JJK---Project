@@ -1,0 +1,183 @@
+
+============================================================================================
+AS ANCORAS — e cada uma diz se e REGRA, EXTENSAO ou PARAMETRO DE MESA
+============================================================================================
+  (a) LIDAS DO DONO — regra publicada
+      deslocamento padrão                9 m                       peça 3 / 14
+      desvantagem                        −25 pp = METADE do dano     peça 14 §5.2.1
+      vantagem                           +25 pp                      peça 19 §2.2
+      projétil COLADO                    desvantagem                peça 14 §5.2.1
+      1 ponto de arma                    0.33 de dano por rodada   peça 19 §2.2
+      o inimigo acerta                   50% a 55%                 peça 26 §3.1
+      a luta do Desastre contra 4        3.0 rodadas               a escada
+      Desastre nv30                      vida 945, dano 219 em 3 ações
+
+  E a POSIÇÃO DECLARADA do sistema sobre alcance, que é melhor que "não tem preço":
+      "alcance de arma não tem preço neste sistema"
+      "...ela custa esse ponto POR EXISTIR — NÃO POR QUANTO."
+      >> Então o câmbio certo é TAXA FIXA por ter alcance, e não preço por metro.
+         Isso já é decisão tomada do projeto, e ela sobrevive a esta construção.
+
+============================================================================================
+1. O CAMBIO DE ALCANCE — construido de duas regras publicadas
+============================================================================================
+  A regra publicada preça POSIÇÃO, e ela é simétrica nos dois lados:
+
+    o de corpo a corpo FORA do alcance   ->  não alcança: entrega ZERO
+    o de projétil COLADO                 ->  desvantagem: entrega METADE
+
+  (b) A EXTENSÃO, declarada: a regra do §5.2.1 é escrita pra ARMA de projétil.
+      Estender ela pra técnica de inimigo à distância é o passo que esta construção
+      dá, e ele é explícito. Sem ele não existe câmbio nenhum.
+
+  Com isso, quem luta de longe perde METADE quando está no lugar errado, e quem luta
+  de perto perde TUDO. A diferença entre os dois é o que o alcance vale:
+
+    valor do alcance = f × (100% − 50%) × dano por rodada = f × 50%
+
+  (c) O PARÂMETRO DE MESA: `f` é a fração dos ataques dele que acontecem fora da
+      zona preferida. Isso NÃO sai de regra nenhuma — é mapa. Então vai como faixa.
+
+  f                           vale (dano/rodada)   % da cota    em vida, na luta   % da vida
+  ------------------------------------------------------------------------------------------
+  1/6 — meio turno de aproximação               18.25       8.3%                  55       5.8%
+  1/3 — UMA rodada de três                 36.50      16.7%                 110      11.6%
+  1/2 — metade da luta                     54.75      25.0%                 164      17.4%
+
+  >> O padrão defensável é `f = 1/3`, e ele sai da própria escada:
+     a luta do `Desastre` contra a mesa de quatro dura 3.0 rodadas, e a PRIMEIRA
+     é a rodada de aproximação. Uma de três.
+  >> Então ALCANCE vale 36.50 de dano por rodada num `Desastre` nv30 —
+     16.7% da cota dele, ou 110 de vida (11.6%) na luta inteira.
+
+  ⚠ E ele é TAXA FIXA, não preço por metro — que é a decisão que a peça 14 §5.2.2 já
+     tinha tomado pro jogador. Um Artilheiro de 18 m e um de 30 m pagam o mesmo.
+
+  E o contra-teste contra o campo: o `Artillery` do 4e paga 42% da durabilidade.
+  Este câmbio cobra 12%. Ainda é 3.6x mais barato que o 4e —
+  mas o câmbio de metro do deslocamento cobrava 3%, que era 14x mais barato.
+  A construção fechou 4x da distância.
+
+============================================================================================
+2. O CAMBIO DE ESCONDER — o eixo do `Emboscador`
+============================================================================================
+  O `Emboscador` não pode concentrar dano: 2 ações joga `o golpe` em 45% da vida de
+  um personagem, que é o número que matou a `Dupla`. Então o eixo dele é VANTAGEM.
+
+  o inimigo acerta 50% a 55% (peça 26 §3.1), média 52%
+  vantagem dá +25 pp (peça 19 §2.2) -> ele passa a acertar 78%
+  >> vantagem multiplica o dano daquele ataque por 1.48, ou seja +48%
+
+  o que o Emboscador ganha                  vale (dano/rodada)   % da cota     em vida
+  --------------------------------------------------------------------------------------
+  vantagem no PRIMEIRO ataque da luta                    11.59       5.3%          35
+  vantagem em TODA a primeira rodada                     34.76      15.9%         104
+  vantagem em todo ataque, a luta inteira               104.29      47.6%         313
+
+
+  ⚠⚠ MAS TODAS AS TRES DE CIMA TEM UM DEFEITO, E ELE TEM NOME PUBLICADO.
+     "The Lurker Fallacy" (alphastream.org, 2015) mede que um monstro cujo truque e
+     esconder-e-dar-o-golpao entrega MENOS dano total do que se ele so atacasse todo
+     turno: "it does more damage by not being a lurker!". Medido num Twig Blight do 4e.
+     E o conserto que o proprio 4e achou, em Monster Vault: Nentir Vale, e o `Joplin
+     the Sly`: "Attacking every round, bonuses when lurking" — ou seja, ganho TODA
+     rodada, e nao uma abertura so.
+
+  >> Entao a forma certa nao e "na primeira rodada": e UM ATAQUE POR RODADA, sempre.
+     Mesmo preco total quando acoes = rodadas, mas espalhado — e o papel para de ser
+     um bicho que fica inutil depois do turno 1.
+
+  categoria       ações   vantagem em 1 ataque/rodada   multiplica o dano
+  ------------------------------------------------------------------------
+  Ameaça              1                +48% em 1 de 1              1.476x
+  Desastre            3                +48% em 1 de 3              1.159x
+  Catástrofe          5                +48% em 1 de 5              1.095x
+  Calamidade          6                +48% em 1 de 6              1.079x
+
+  ⚠ O ganho ENCOLHE nas categorias grandes, porque 1 ataque de 6 e menos que 1 de 3.
+     Entao o PAGAMENTO encolhe junto, e a tabela do papel passa a ter uma linha por
+     categoria em vez de um numero unico. Isso e custo de bookkeeping, e e real.
+
+  >> A opção do meio — vantagem na primeira rodada inteira — vale 34.76 por rodada,
+     que é 16% da cota. Em vida: 104 (11% da vida dele).
+  >> A de cima — vantagem a luta inteira — vale 48% da cota dele, que é
+     caro demais pra um papel de graça: seria 33%
+     da vida dele, e ele só tem 100%.
+
+============================================================================================
+3. A TABELA DE CAMBIO — tudo como MULTIPLICADOR sobre o invariante
+============================================================================================
+  o invariante:  vida EFETIVA × dano,  com  vida efetiva = vida ÷ acerto do PC
+  o `Desastre` nv30: Defesa 20, o PC acerta 50%, vida efetiva 1890
+  um papel e NEUTRO quando o produto dos multiplicadores dele da 1,00.
+
+  eixo                          multiplica         em que   de onde vem
+  --------------------------------------------------------------------------------------------
+  Defesa  +1                        1.111x   vida efetiva   derivado — 5 pp num d20, peça 1 §5.2
+  Defesa  +2                        1.250x   vida efetiva   derivado — idem
+  Defesa  −1                        0.909x   vida efetiva   derivado — idem
+  Defesa  −2                        0.833x   vida efetiva   derivado — idem
+  vida crua  ×1,10                  1.100x   vida efetiva   a própria célula
+  vida crua  ×1,20                  1.200x   vida efetiva   a própria célula
+  vida crua  ×0,80                  0.800x   vida efetiva   a própria célula
+  1 ação a menos (de 3)             0.667x           dano   derivado — a escada
+  ALCANCE (taxa fixa, f=1/3)        1.167x           dano   🔨 CONSTRUÍDO — peça 14 §5.2.1 + extensão
+  vantagem na 1ª rodada             1.159x           dano   🔨 CONSTRUÍDO — peça 19 §2.2 + peça 26 §3.1
+  vantagem a luta inteira           1.476x           dano   🔨 CONSTRUÍDO — idem
+
+  ⚠ E a NAO-LINEARIDADE aparece aqui, e ela importa:
+     `Defesa +1` multiplica a vida efetiva por 1.111, e `Defesa −1` por 0.909.
+     1.111 x 0.909 = 1.010 — NAO da 1,00.
+     Entao +1 e −1 de Defesa NAO sao o mesmo degrau, e um papel que troca Defesa
+     tem de usar o multiplicador do lado em que ele esta indo.
+
+  OS SEIS PAPEIS, montados pra fechar em 1,00:
+
+  Brutamontes  Defesa −2 (0.833x)   ·   vida crua ×1,20 (1.200x)
+               produto = 1.000  ->  NEUTRO
+  Guardião     Defesa +2 (1.250x)   ·   vida crua ×0,80 (0.800x)
+               produto = 1.000  ->  NEUTRO
+  Artilheiro   alcance (f=1/3) (1.167x)   ·   vida crua ×0,857 (0.857x)
+               produto = 1.000  ->  NEUTRO
+  Emboscador   vantagem na 1ª rodada (1.159x)   ·   vida crua ×0,863 (0.863x)
+               produto = 1.000  ->  NEUTRO
+  Controlador  1 ação a menos (0.667x)   ·   vida crua ×1,50 (1.500x)
+               produto = 1.000  ->  NEUTRO
+
+  >> O `Controlador` fecha trocando 1 ação por vida — mas o que ele QUER é efeito, e a
+     peça 19 §2.2 já preça efeito em ações negadas. Então ele troca 1 ação dele por
+     1 ação negada do grupo, e isso é 1 pra 1 sem conta nova.
+  >> O `Apoio` é o mesmo 1 pra 1, com o destino em outro bloco.
+
+  ⚠ E A TRAVA QUE SOBRA: o `Artilheiro` e o `Emboscador` pagam em VIDA, nao em dano —
+     de proposito. Pagar em dano seria SUBIR o dano de outro, e a banda do `o golpe`
+     so da 1,07x de espaco num `Desastre`. Pagar em vida nao encosta na banda.
+
+============================================================================================
+4. O BLOCO PREENCHIDO — o `Desastre` nv30 com cada papel
+============================================================================================
+  A vida de um personagem no nv30, derivada de golpe ÷ fatia: 243
+
+  papel            Defesa  vida crua   dano  ações   o golpe   fatia  fora da ficha  invariante
+  -----------------------------------------------------------------------------------------------
+  ‹ sem papel ›        20        945    219      3        73    30%         1.000x      1.000x
+  Brutamontes          18       1134    219      3        73    30%         1.000x      1.000x
+  Guardião             22        756    219      3        73    30%         1.000x      1.000x
+  Artilheiro           20        810    219      3        73    30%         1.167x      1.000x
+  Emboscador           20        816    219      3        73    30%         1.159x      1.000x
+  Controlador          20       1418    146      2        73    30%         1.000x      1.000x
+
+  >> A coluna `o golpe` NAO SE MOVE: 30% em todos os seis.
+     E e isso que faz a tabela ser legal — a banda nunca entra no caminho, porque
+     NENHUM papel sobe o dano.
+  >> E o invariante fica em 1,000x nos seis: o encontro nao mudou de tamanho.
+
+  ⚠⚠ E AQUI ESTA UM ACHADO DE LEGIBILIDADE, nao de balanceamento:
+     o `Artilheiro` e o `Emboscador` tem a coluna `fora da ficha` diferente de 1,00.
+     Quer dizer que o PAGAMENTO deles aparece no bloco (vida menor) e o GANHO NAO.
+     Quem le o bloco ve um `Desastre` com 810 de vida em vez de 945 e nada explicando.
+  >> E por isso que o papel TEM de estar no cabecalho — a palavra `Artilheiro` e a
+     unica coisa no bloco que diz pra onde os 135 de vida foram. Sem ela o bloco
+     parece um `Desastre` mal montado.
+  >> O `Brutamontes`, o `Guardião` e o `Controlador` nao tem esse problema: as duas
+     metades da troca deles aparecem em celula.

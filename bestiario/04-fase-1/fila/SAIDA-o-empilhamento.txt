@@ -1,0 +1,94 @@
+
+================================================================================================
+1. A TRAVA DO DRAW STEEL, colada
+================================================================================================
+
+  "Each target of a minion's signature ability is affected by only one instance of the ability. But when two or three (at maximum) of a squad's minions attack the same creature or object simultaneously, each additional minion causes the signature ability to deal extra damage to the target equal to the minion's free strike value. Because a minion's free strike value is typically lower than the average damage of their signature ability, it's usually more effective to have each minion target a different hero."
+
+  "Because a minion's free strike value is typically lower than the average damage of their signature ability, it's usually more effective to have each minion target a different hero."
+
+  >> teto DURO: two or three corpos no mesmo alvo.
+  >> e do 2o em diante o corpo entrega FREE STRIKE, nao a assinatura.
+
+================================================================================================
+2. O DESCONTO, MEDIDO — free strike contra o dano esperado da assinatura
+================================================================================================
+
+  115 minions com assinatura parseável. Power roll = 2d10 + bônus,
+  faixas ≤11 / 12-16 / 17+, e natural 19-20 sempre dá tier 3.
+
+                           mediana     média     mín     máx
+  ----------------------------------------------------------
+  free strike                 2.00      2.48       1       5
+  assinatura esperada         4.00      4.27     1.9     8.4
+  RAZÃO fs / assinatura      0.573     0.579    0.49    1.08
+
+  >> o corpo empilhado entrega 57.3% do que ele entregaria batendo em outro alvo.
+  >> e o livro diz isso em palavras: "typically lower than the average damage".
+
+================================================================================================
+3. O QUE A TRAVA FAZ — empilhar contra espalhar, na conta deles
+================================================================================================
+
+  2 corpos no MESMO alvo:  1 assinatura + 1 free strike = 1.573 assinaturas
+  2 corpos ESPALHADOS:     2 assinaturas
+    >> empilhar entrega 78.7% do que espalhar entrega. Perde 21.3%.
+
+  3 corpos no MESMO alvo:  1 assinatura + 2 free strike = 2.146 assinaturas
+  3 corpos ESPALHADOS:     3 assinaturas
+    >> empilhar entrega 71.5% do que espalhar entrega. Perde 28.5%.
+
+  >> a trava tem DUAS partes, e as duas importam:
+     o teto DURO (3) impede a alfinetada de 8; o DESCONTO tira a vontade de usar o teto.
+
+================================================================================================
+4. O NOSSO `Capanga` — o buraco, com número
+================================================================================================
+
+  nv20: o capanga bate 37 · são 8 corpos · o personagem tem 163 de vida
+
+  quantos batem no mesmo alvo          dano   % da vida de 1 PC    mata?
+  ------------------------------------------------------------------------
+  1                                      37                23%      não
+  2                                      74                45%      não
+  3                                     111                68%      não
+  4                                     148                91%      não
+  8                                     296               181%      SIM
+
+  >> 8 corpos entregam 181% da vida de um personagem NUMA RODADA.
+  >> bastam 4.4 corpos pra derrubar alguém. Hoje nada na regra impede os 8.
+
+================================================================================================
+5. A TRAVA TRADUZIDA — o que cada forma entrega
+================================================================================================
+
+  Traduzindo a regra deles: teto DURO de N corpos, e do 2o em diante o corpo
+  entrega uma fração do golpe. A fração medida no campo e 0.573.
+
+  forma                                   máx num alvo   % da vida do PC    mata?
+  --------------------------------------------------------------------------------
+  sem trava — hoje                                 296             181%      SIM
+  teto 3, extras a 0.57 (o do campo)                79              49%      não
+  teto 3, extras a metade (o `Estilhaço`)            74              45%      não
+  teto 2, extras a metade                           56              34%      não
+  teto 3, sem desconto                             111              68%      não
+  teto 2, sem desconto                              74              45%      não
+
+  >> e o efeito no ENXAME inteiro: com teto 3 e 4 personagens, os 8 corpos ainda
+     entregam tudo — eles so nao podem CONCENTRAR. O dano total do enxame nao muda
+     enquanto houver alvo pra todo mundo.
+
+================================================================================================
+6. ⚠ E O `tamanho` PIOROU ISSO EM 10/09
+================================================================================================
+
+  A saída `F` do item 16 deu ao `Grande` "o alvo + metade em 1 vizinho", de graça.
+  | **`Grande`** | `3 m` | o alvo **+ metade em `1`** |
+
+                                      alvos atingidos   dano total   vs 1 PC
+  ----------------------------------------------------------------------------
+  8 capangas Médio, sem trava                       8          296     181%
+  8 capangas Grande, sem trava                     16          444     272%
+  8 capangas Grande, teto 3 + metade                6          130      79%
+
+  >> um `Capanga` `Grande` sem trava e o pior caso do bestiario inteiro.

@@ -1,0 +1,106 @@
+
+================================================================================================
+0 · AS ÂNCORAS — a área natural do inimigo, já fechada
+================================================================================================
+  RASCUNHO-5 · o quadrado da grade é 1.5 m
+    nv  2–8   raio    3 m   cobre  13 quadrados   largura 4 quadrados
+    nv  9–16  raio  4.5 m   cobre  28 quadrados   largura 6 quadrados
+    nv 17–24  raio    6 m   cobre  50 quadrados   largura 8 quadrados
+    nv 25–30  raio    9 m   cobre 113 quadrados   largura 12 quadrados
+
+  ✅ e ela é DE GRAÇA — "o preço da área já foi fechado supondo que ela pega a mesa inteira"
+  ⟹ o inimigo NÃO precisa de escada por forma. Ele precisa de UMA cobertura por nível.
+
+================================================================================================
+1 · A ABERTURA DO CONE — e o campo NÃO é unânime
+================================================================================================
+  as duas definições publicadas, e elas dão áreas diferentes:
+
+    D&D 2024     abertura 1.000   triângulo — área = L²/2
+                 "a largura em qualquer ponto é igual à distância até a origem"
+    PF2e         abertura 1.571   setor de 90° — área = πL²/4
+                 "um quarto de círculo na grade"
+
+  ⟹ o cone do PF2e é 1.57× o do D&D no mesmo comprimento. Não dá pra "seguir o campo":
+     tem de escolher UM, e o critério é qual dá pra DESENHAR contando quadrado.
+
+     D&D  · "a largura é igual à distância" ⟹ a 4 quadrados de você, o cone tem 4 de largura.
+            Conta-se na grade, sem transferidor e sem template.
+     PF2e · quarto de círculo ⟹ precisa do diagrama publicado do livro.
+            A regra deles remete a uma FIGURA, não a uma frase.
+
+  ### ⟹ recomendação: a do D&D (1,000). É a única que se desenha contando.
+
+================================================================================================
+2 · A TABELA DO INIMIGO — e o quadrado e a linha são A MESMA FORMA
+================================================================================================
+
+  O `Quadrado` e a `Linha` nao sao duas formas. Sao o mesmo RETANGULO com
+  proporcoes diferentes: a linha e `A x 1`, o quadrado e `A x A`, e o cubo do
+  D&D e o quadrado visto de cima. Uma regra cobre as tres.
+
+  Entao o inimigo tem TRES formas, e nao cinco:
+    Esfera     — um raio, do corpo dele ou de um ponto
+    Cone       — um comprimento, sempre do corpo dele
+    Retangulo  — `A x B` quadrados, e o quadrado e a linha sao casos dele
+
+    nível       cobre          Esfera              Cone   Retângulo — os A × B que cabem
+    nv  2–8       13q   raio    3 m         7.5 m (5q)   4×3  6×2  7×2  12×1  13×1
+    nv  9–16      28q   raio  4.5 m        10.5 m (7q)   6×5  7×4  9×3  10×3  13×2
+    nv 17–24      50q   raio    6 m          15 m (10q)   7×7  8×6  9×6  9×5  10×5
+    nv 25–30     113q   raio    9 m        22.5 m (15q)   11×11  11×10  12×10  12×9  13×9
+
+  conferindo o que cada uma cobre depois de virar quadrado inteiro
+
+    nível       alvo   Esfera     Cone   Retâng.    pior erro
+    nv  2–8       13       13       12        12         7.7%
+    nv  9–16      28       28       24        30        12.5%
+    nv 17–24      50       50       50        49         2.0%
+    nv 25–30     113      113      112       121         7.1%
+
+  ⟹ o pior erro em 12 células é 12.5%.
+     Hoje, no lado do jogador: 20× entre o `Cone` e a `Linha` NO MESMO DEGRAU.
+
+  ### ⟹ E o argumento de por que TEM de ser a mesma cobertura:
+      no inimigo a area e DE GRACA (item 15). Se formas de graca cobrissem
+      areas diferentes, o mestre escolheria sempre a maior, e a "escolha de
+      forma" seria mentira. Cobertura igual e o que faz "de graca" ser honesto.
+      *E e exatamente esse o defeito do lado do jogador: la as tres custam
+      `Leve` e o `Cone` cobre 20x a `Linha` — entao o `Cone` domina.*
+
+
+================================================================================================
+3 · A PAREDE DO INIMIGO — o `Anteparo` sem dimensão
+================================================================================================
+  partD.js · `Anteparo` custa Média — "Deixa uma parede ou escudo com 10 × Classe de pontos de vida, por 1 minuto."
+  ⟹ tem vida e duração. NÃO tem comprimento, altura, nem onde é colocada.
+
+  o campo dá os três de graça:
+    D&D 2024 · Wall of Fire ....... 18 m × 6 m × 0,3 m
+    Draw Steel · "X wall" ......... X quadrados contíguos, cada um partilhando um LADO
+
+  a saída que não inventa número: a parede é a LINHA, de pé.
+    nv  2–8   parede de 7 quadrados de comprimento (10.5 m) × 2 de altura (3 m) — 14 quadrados
+    nv  9–16  parede de 15 quadrados de comprimento (22.5 m) × 2 de altura (3 m) — 30 quadrados
+    nv 17–24  parede de 27 quadrados de comprimento (40.5 m) × 2 de altura (3 m) — 54 quadrados
+    nv 25–30  parede de 62 quadrados de comprimento (93 m) × 2 de altura (3 m) — 124 quadrados
+
+  ⟹ o `Anteparo` do inimigo não precisa de tabela própria: ele é a `Linha` da faixa,
+     colocada de pé em vez de deitada. Zero número novo.
+
+================================================================================================
+4 · O FOOTPRINT DO CORPO — e ele é execução, não decisão
+================================================================================================
+  RASCUNHO-5 · a tabela do Passo 3 ja publica o footprint, e ele CONFERE com o campo:
+
+    Médio       1×1 quadrados =  1   (1.5 m × 1.5 m)
+    Grande      2×2 quadrados =  4   (3 m × 3 m)
+    Imenso      3×3 quadrados =  9   (4.5 m × 4.5 m)
+    Colossal    4×4 quadrados = 16   (6 m × 6 m)
+
+  ✅ 4 de 4 batem. Unanime em D&D 2024, PF2e e Draw Steel.
+  ⟹ e é DE GRAÇA pelo item 16 — o `tamanho` já não cobra nada.
+
+================================================================================================
+FIM
+================================================================================================

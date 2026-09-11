@@ -1,0 +1,211 @@
+
+================================================================================================
+AS ANCORAS — todas lidas do dono
+================================================================================================
+  a banda NOVA                    21% – 28%           DECIDIDO-o-capanga §1
+  a banda VELHA da escada         21% – 32%           a-escada-com-numero
+  o fator da `Intervenção`        × 0.923            MEDIDA-a-intervencao §12
+  o fator de dano do `Capanga`    × 0.33  na tabela do TOPO da escada
+                                  × 0.25  na escada FECHADA, embaixo
+  corpos                          8
+  a trava que define ele          "cai num golpe de um jogador"
+  a razão publicada do enxame     nv2 0.94× · nv10 1.01× · nv20 1.01× · nv30 1.00×   o-capanga-contra-os-outros-sistemas
+  o `Controlador` forma B em 1 ação   ganha 2.000× · paga vida × 0.500
+
+    nv    vida de 1 PC    dano do grupo/rod   vida de 1 capanga    pool dos 8
+     2            18.3                   38                   9            72
+    10            83.3                  130                  32           256
+    20           163.3                  220                  55           440
+    30           243.3                  315                  79           632
+
+================================================================================================
+1. A FATIA DO `Capanga` — a recomputada contra a PUBLICADA
+================================================================================================
+
+  A fatia = `o golpe` de UM corpo dividido pela vida de UM personagem. E a mesma metrica
+  das outras quatro, e e a que a banda vigia.
+
+    nv   golpe de 1    fatia recomputada    fatia PUBLICADA    bate?   na banda 21%–28%
+  --------------------------------------------------------------------------------------
+     2          4.0               21.8%                32%      NAO                sim
+    10         19.0               22.8%                30%      NAO                sim
+    20         37.0               22.7%                30%      NAO                sim
+    30         55.0               22.6%                30%      NAO                sim
+
+  >> A tabela do `Capanga` e a fatia publicada dele NAO batem. A razao entre as duas
+     e 1.327 — e 0.33 / 0.25 = 1.320.
+
+  >> A fatia publicada foi calculada com o fator de dano `0.33`, que e o da
+     tabela do TOPO da escada — a que a propria escada substituiu embaixo por `0.25`.
+     A `TABELA.md` implementa o `0.25`. A linha de fatia ficou na versao morta.
+
+================================================================================================
+2. DE ONDE VEM O TOPO DA BANDA
+================================================================================================
+
+  A banda e o intervalo em que `o golpe` de todas as categorias cai. Quem esta no topo?
+
+  nv20, com o fator da `Intervenção` aplicado em quem tem:
+
+  categoria       golpe cru  tem Int?  golpe efetivo     fatia
+  ------------------------------------------------------------
+  Capanga              37.0       não           37.0     22.7%
+  Ameaça               37.0       não           37.0     22.7%
+  Desastre             49.0       sim           45.2     27.7%
+  Catástrofe           44.0       sim           40.6     24.9%
+  Calamidade           49.0       sim           45.2     27.7%
+
+  >> o TOPO real e o `Desastre`, em 27.7%. O PISO real e o `Capanga`, em 22.7%.
+  >> a banda publicada e 21%–28%. Sobra 0.3% de teto que ninguem alcanca.
+
+  E o `32%` da banda velha? nv2, com a fatia publicada de cada um:
+    Capanga 32%  Ameaça 21%  Desastre 30%  Catástrofe 26%  Calamidade 30%
+  >> o topo `32%` e o `Capanga` no nv2 — e ele foi calculado com o fator MORTO.
+     Recomputado com o `0.25` que a `TABELA.md` implementa, o `Capanga` nv2 da 21.8%.
+
+================================================================================================
+3. OS SEIS PAPEIS NO `Capanga` — contra a trava que define ele
+================================================================================================
+
+  A trava: o `Capanga` "cai num golpe de um jogador". A vida dele NAO e um fator da vida do chefe —
+  ela e `dano do grupo ÷ 4`, que e exatamente o que UM jogador entrega numa rodada.
+
+  Entao vida x m com m > 1,0 quer dizer: ele para de cair num golpe.
+
+  nv20 — a vida de um capanga e 55 e um jogador entrega 55 por rodada.
+
+  papel            vida ×  vida de 1  golpes p/ cair     a trava   o que ele paga
+  ------------------------------------------------------------------------------------------------
+  Brutamontes       1.200       66.0            1.20      QUEBRA   vida × 1,20
+  Guardião          0.800       44.0            0.80     INTEIRA   vida × 0,80
+  Artilheiro        0.857       47.1            0.86     INTEIRA   vida × 0,857
+  Emboscador        0.863       47.5            0.86     INTEIRA   vida × 0,863 (varia por categoria)
+  Controlador       0.500       27.5            0.50     INTEIRA   forma B em 1 ação: vida × 0.500
+  Apoio             1.000       55.0            1.00     INTEIRA   o mesmo 1 pra 1, em outro bloco
+
+  >> A moeda dos seis papeis e VIDA. Num corpo unico ela e continua: 20% a mais de vida e
+     20% mais de luta. No `Capanga` ela e um DEGRAU: abaixo de um golpe nao muda nada,
+     acima de um golpe DOBRA o corpo.
+
+================================================================================================
+4. A LUTA INTEIRA, COM FOGO CONCENTRADO — papel a papel
+================================================================================================
+
+  Primeiro: o modelo reproduz o numero publicado?
+
+    nv    enxame     chefe    razão   publicado   rodadas   pub   vida impressa   a fórmula
+  --------------------------------------------------------------------------------------------
+     2        48        51     0.94        0.94         2     2               9        9.50
+    10       228       225     1.01        1.01         2     2              32       32.50
+    20       444       441     1.01        1.01         2     2              55       55.00
+    30       660       657     1.00        1.00         2     2              79       78.75
+
+  >> o modelo reproduz 4 de 4 niveis, razao E rodadas.
+  >> e ele so reproduz usando a FORMULA `dano do grupo ÷ 4`. Com a vida IMPRESSA na
+     `TABELA.md` o nv30 inventa uma terceira rodada, porque `79` arredonda `78,75`
+     pra cima e sobram 2 pontos de pool que mantem um corpo vivo.
+
+  Agora os seis papeis, no nv20. O papel mexe na vida de cada corpo — e a vida de um
+  enxame E a duracao dele, e a duracao multiplica TUDO que ele entrega.
+
+  papel            vida ×   dano do enxame   razão vs chefe   rodadas    desvio
+  ------------------------------------------------------------------------------
+  — sem papel —     1.000              444             1.01         2      0.0%
+  Brutamontes       1.200              555             1.26         3     25.0%
+  Guardião          0.800              407             0.92         2     -8.3%
+  Artilheiro        0.857              444             1.01         2      0.0%
+  Emboscador        0.863              444             1.01         2      0.0%
+  Controlador       0.500              296             0.67         1    -33.3%
+  Apoio             1.000              444             1.01         2      0.0%
+
+  >> O invariante dos seis papeis e `produto 1,000` — cada um devolve em vida o que
+     leva em outro eixo. Num corpo unico isso fecha. Num enxame de 8 nao:
+     a vida entra DUAS vezes, uma no corpo e outra na duracao.
+
+================================================================================================
+5. O `Controlador` NO ESQUADRAO — `ações` de quem?
+================================================================================================
+
+  A forma B preca o `Controlador` assim: negar 1 acao do grupo vale 1 acao DELE, entao
+  ele ganha (1 + 1/ações) e paga vida x 1/(1 + 1/ações).
+
+  A escada publica `ações = 1` pro `Capanga`. Mas isso e por CORPO, e ele vem em 8.
+
+  leitura                       ações     ganha   paga vida   produto   dano do enxame    razão
+  ----------------------------------------------------------------------------------------------
+  por CORPO — `ações = 1`           1     2.000       0.500     1.000              296     0.67
+  por ESQUADRÃO — 8 corpos          8     1.125       0.889     1.000              444     1.01
+
+  >> As duas fecham em 1,000 no invariante. Mas a leitura por CORPO manda o esquadrao
+     pra 0.67 x do chefe, e a por ESQUADRAO deixa em 1.01 x.
+  >> E a conta de "quantas acoes o grupo perde" e a mesma nos dois: UMA. O que muda e
+     quanto isso vale — 1 de 1 ou 1 de 8.
+
+================================================================================================
+6. A BANDA REAL — varrida nos 29 níveis das CINCO categorias
+================================================================================================
+
+  A varredura que fechou a banda olhou 3 niveis e 4 categorias, e o `Capanga` ficou de fora.
+  Esta olha 29 x 5, com o fator da `Intervenção` aplicado em quem tem.
+
+  categoria         mínimo    onde    máximo    onde
+  ----------------------------------------------------
+  Capanga            21.8%     nv2     23.1%     nv8
+  Ameaça             21.8%     nv2     23.1%     nv8
+  Desastre           27.7%     nv2     27.7%    nv30
+  Catástrofe         22.7%     nv2     25.1%    nv16
+  Calamidade         27.7%     nv2     27.7%    nv30
+  ----------------------------------------------------
+  TODAS              21.8%     nv2     27.7%    nv30
+                  (Ameaça)        (Desastre)
+
+  >> a banda MEDIDA e 21.8% – 27.7%.
+  >> a publicada e 21% – 28%. Ela sobra 0.8% embaixo e 0.3% em cima.
+
+  E arredondando pra numero redondo, como a escada faz: **21% – 28%**.
+
+================================================================================================
+7. E SE O PAPEL PAGASSE EM CORPOS, E NAO EM VIDA?
+================================================================================================
+
+  A moeda dos seis e VIDA. Num enxame vida e duracao, e duracao multiplica tudo o que
+  ele entrega. CORPOS seria a moeda natural do enxame — e ela nao encosta no "cai num
+  golpe" que DEFINE o `Capanga`. Ela serve?
+
+    corpos   vs os 8   dano do enxame    razão   vs sem papel   rodadas
+  ----------------------------------------------------------------------
+         4    -50.0%              148     0.34         -66.7%         1
+         5    -37.5%              222     0.50         -50.0%         2
+         6    -25.0%              296     0.67         -33.3%         2
+         7    -12.5%              370     0.84         -16.7%         2
+         8      0.0%              444     1.01           0.0%         2
+         9     12.5%              555     1.26          25.0%         3
+        10     25.0%              666     1.51          50.0%         3
+        11     37.5%              777     1.76          75.0%         3
+        12     50.0%              888     2.01         100.0%         3
+
+  >> UM corpo a mais e +12.5% de corpos e +25.0% de encontro.
+     A moeda dobra no caminho, pela mesma razao que a vida dobra: mais corpo e mais
+     rodada, e mais rodada e mais tudo.
+
+  >> e os seis papeis pedem ajustes de 13.7% a 50.0%. O MENOR
+     degrau que corpos sabe fazer e 25.0%.
+  >> Entao pagar em corpos nao resolve: a moeda e grossa demais, e ela erra pro mesmo
+     lado que a vida erra.
+
+================================================================================================
+O VEREDITO
+================================================================================================
+
+  1. `o golpe` do `Capanga` esta DENTRO da banda em 4 de 4 niveis.
+     Ele nao era o problema. O problema e que a fatia PUBLICADA dele esta errada.
+
+  2. O topo `32%` da banda velha e o `Capanga` no nv2, calculado com o fator MORTO
+     de `0.33`. Com o `0.25` que a `TABELA.md` implementa, ninguem
+     encosta em 28%: o topo real e 27.7%.
+
+  3. Os papeis que pagam em VIDA nao sao neutros no `Capanga`, e o desvio esta acima.
+
+  4. E o item 17 da `A-FILA.md` cita o fator MORTO: "ele tem fator de dano proprio
+     (`0,33` contra `0,25` de vida)". A escada fechada diz `0.25`, e a
+     `TABELA.md` implementa `0.25`. O `Capanga` E uma `Ameaça` com outra vida.

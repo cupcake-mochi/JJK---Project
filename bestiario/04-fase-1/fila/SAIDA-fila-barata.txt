@@ -1,0 +1,80 @@
+
+============================================================================================
+1. O PISO DA BANDA — o `Controlador` cai pra 20% e o piso publicado e 21%
+============================================================================================
+  a banda publicada: 21% a 32%. A vida de um personagem no nv30: 243.
+
+  O que a banda EXISTE pra pegar, segundo a propria escada:
+    "A do bestiário antigo era de 23% a 45%, e O TOPO DELA ERA A `Dupla`."
+    >> A banda foi construida pra vigiar o TOPO. O piso e so onde a `Ameaça` senta.
+
+  A metrica que o piso realmente afeta e a do §4.6 — quantos golpes pra derrubar alguem:
+
+     fatia   o golpe    golpes pra derrubar 1 PC   golpes na luta (3 rod)   derruba?
+  ------------------------------------------------------------------------------------
+      30%      73.0                         3.3                        9        sim
+      22%      54.8                         4.4                        9        sim
+      20%      48.7                         5.0                        9        sim
+      15%      36.5                         6.7                        9        sim
+
+  >> Em TODAS as quatro o chefe ainda derruba alguem dentro da luta. O piso nao quebra
+     a metrica que ele poderia quebrar.
+  >> E o `Controlador` derrubar mais devagar E O PONTO DELE: ele troca dano por efeito.
+
+  As duas saidas, com o numero de cada:
+    A — a banda vira 20%–32%. O `Controlador` corta 1/3, o invariante da
+        0,667x e ele paga vida x1.50. E o piso passa a ser DELE, nao da `Ameaça`.
+    B — o `Controlador` corta 1/4 em vez de 1/3. `o golpe` fica em 22.5%, dentro
+        da banda de hoje. O invariante da 0,750x e ele paga vida x1.33.
+
+============================================================================================
+2. O TETO DE ENTRADAS NOMEADAS — contado no unico bloco preenchido que existe
+============================================================================================
+  O `Sukuna` do `RASCUNHO-1` — o unico bloco preenchido do projeto. Ele e `Calamidade`,
+  entao o teto proposto pra ele e o de CHEFE.
+
+    Traços                                      2   `Presença de Calamidade`, `Malícia`
+    Ações                                       4   `Ataque Múltiplo`, `Corte`, `Desmantelar (área)`, `Fuga (recarrega no `5–6`)`
+    ⟨ nome em aberto ⟩ — as ações fora do turno  2   `Investida`, `Domínio Encolhido`
+                                                —
+    TOTAL como ele esta escrito hoje            8
+
+  E como ele ficaria nas REGRAS DE HOJE:
+    Traços                                  2
+    o traço de ações (substitui `Ataque Múltiplo`)   1
+    Ações                                   3   `Corte`, `Desmantelar (área)`, `Fuga (recarrega no `5–6`)`
+    Intervenções (a regra são 3)            3
+                                            —
+    TOTAL                                   9
+
+  >> O teto proposto e 6 num bloco normal e 8 no chefe.
+  >> O `Sukuna` da 9. **Ele estoura o teto de chefe em 1.**
+
+  ⚠ E isso nao e um Sukuna mal montado: 2 Traços e 3 Ações e o
+     minimo pra um chefe nao virar "o inimigo de um botao so" — que e o modo de falha
+     documentado que o `ESTADO-onde-paramos.md` ja registrou.
+
+  As tres saidas:
+    A — o teto sobe pra 9 no chefe. O `Sukuna` cabe raspando.
+    B — as `Intervenções` saem da contagem. Elas sao 3 FIXAS em todo bloco,
+        entao contar elas e contar constante. Sobrariam 6 de 8.
+    C — o teto fica em 6/8 e o `Sukuna` perde uma entrada.
+
+============================================================================================
+3. O `tamanho` — vira regra ou sai
+============================================================================================
+  A medida que ja estava feita: `0` de `4` sistemas imprimem um
+  campo de tamanho que nao faz nada.
+
+    Draw Steel   usa NUMERO (`3 Size`), e ele governa quadrados e alcance
+    PF2e e D&D   usam TRAIT, e ele governa espaço ocupado, agarrar e cobertura
+    Daggerheart  NAO TEM o campo
+
+  >> Campo decorativo e o unico caso SEM PRECEDENTE nos quatro.
+
+  E o bloco ja banca UM decorativo: o `grau`. A peça 26 §2 fecha isso com todas as letras:
+    "o grau fica na ficha da maldição como rótulo, e não entra em conta nenhuma"
+
+  >> Entao a pergunta nao e "tamanho pode ser decorativo?" — e "o bloco banca DOIS
+     decorativos?". O `grau` se paga porque ele e a linguagem da obra (grau 1, especial).
+     O `tamanho` nao tem esse apoio: em JJK ninguem fala "maldicao Grande".
