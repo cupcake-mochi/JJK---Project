@@ -278,6 +278,37 @@ else:
                           f'manual e o 40-fundamento.md concordam, e os dois dizem que ela '
                           f'vale mesmo num Classe 0.')
 
+    # v0.221: a MESMA frase morava na `Sobrecarga`, e esta checagem so' olhava a
+    # `Divida`. La ela dizia "o feitico dele custa o dobro de energia" — ZERO contra
+    # inimigo, que nao conta PE (peca 26 §6.1), e o dobro de zero contra quem
+    # conjura Classe 0, que e' o buraco que a v0.217 fechou na `Divida`. A metade
+    # que entrou no lugar e' "ele nao usa Reacao". Sem esta guarda a frase voltava
+    # pela porta que ninguem olhava.
+    import re as _re
+    _cel_s = None
+    for _t in _docx.Document(_DOCX).tables:
+        for _r in _t.rows:
+            if _r.cells[0].text.strip() == 'Sobrecarga':
+                _cel_s = _r.cells[2].text.strip()
+    _mds = _re.search(r'^\|\s*`Sobrecarga`\s*\|[^|]*\|([^|]*)\|\s*$',
+                      open(_MD, encoding='utf-8').read(), _re.M)
+    if not _cel_s:
+        erro('a `Sobrecarga` sumiu da tabela de Auxiliares do manual')
+    elif not _mds:
+        erro('a `Sobrecarga` sumiu da tabela de Auxiliares do 40-fundamento.md')
+    else:
+        _volta = [_q for _q, _tx in (('o manual', _cel_s), ('o 40-fundamento.md', _mds.group(1)))
+                  if 'dobro de energia' in _tx]
+        if _volta:
+            erro(f'{" e ".join(_volta)} voltou a dizer "o dobro de energia" na `Sobrecarga` '
+                 '— contra inimigo isso vale zero, e contra Classe 0 dobra zero')
+        elif 'não usa Reação' not in _cel_s or 'não usa Reação' not in _mds.group(1):
+            erro('a `Sobrecarga` parou de dizer que o alvo nao usa Reacao em uma das duas '
+                 'publicacoes — e essa e a metade que substituiu o dobro de energia')
+        else:
+            print('  [x] a `Sobrecarga` nao cobra "o dobro de energia" em nenhuma das duas '
+                  'publicacoes, e as duas dizem que o alvo nao usa Reacao.')
+
 print()
 print('=' * 92)
 if ERROS:

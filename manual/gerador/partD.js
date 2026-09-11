@@ -111,7 +111,7 @@ const melhorias = [
     ['Impulso', 'Leve', 'O alvo tem vantagem no próximo teste dele, até o fim do próximo turno.'],
     ['Trava', 'Leve', 'O alvo tem desvantagem no próximo ataque dele.'],
     ['Abre Ferida', 'Leve', 'O alvo fica com −2 em Testes de Resistência até o fim do próximo turno dele.'],
-    ['Sobrecarga', 'Leve', 'Até o fim do próximo turno do alvo, o feitiço dele custa o dobro de energia e sai com a CD 2 menor.'],
+    ['Sobrecarga', 'Leve', 'Até o fim do próximo turno do alvo, ele não usa Reação, e o feitiço dele sai com a CD 2 menor.'],
     ['Firmeza', 'Média', 'O alvo tem vantagem no próximo Teste de Resistência dele.'],
     ['Guarda', 'Média', 'Até o fim do próximo turno, o alvo tem +2 de defesa.'],
     ['Pressa', 'Média', 'O alvo ganha +6 m de deslocamento e não provoca ataques de oportunidade até o fim do próximo turno.'],

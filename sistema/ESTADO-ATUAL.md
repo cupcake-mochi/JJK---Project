@@ -1287,7 +1287,7 @@ A skill `redacao-acessivel-rpg` existe exatamente para a travessia de "nota de d
 
 | # | o que foi decidido | onde mexe |
 |---|---|---|
-| 1 | **O inimigo vai contar energia**, com poço semelhante ao do jogador | **peça 26 §6.1 cai**, e ela tem argumento escrito contra — *"criaria uma segunda economia que só o mestre opera"*. **Responder isso é parte do trabalho.** Depois: rodar de novo o `manual/matematica/sobrecarga.py` |
+| 1 | ~~**O inimigo vai contar energia**, com poço semelhante ao do jogador~~ | ***REVERTIDA em 09/09, pelo próprio Mizuki.*** **O inimigo NÃO conta PE, e a peça 26 §6.1 fica.** *O limite dele é rótulo de frequência — `à vontade` · `1×/rodada` · `1×/luta` · `Recarga (5-6)` —, que é o que `8` de `9` sistemas medidos fazem.* **E a `Sobrecarga` que dependia disto foi reescrita na v0.221** — *"ele não usa Reação" no lugar de "o dobro de energia"*, com o `manual/matematica/sobrecarga.py` refeito contra ela |
 | 2 | **`Fura` = `2 × Classe`, `Enfraquece` = `Xd4`, `Abre Ferida` = UM Teste** — o livro vence | `manual/gerador/partD.js` **e** o `.docx`, nos três. Depois, virar `fechada` na tabela do `ESTADO-revisao.md` |
 | 3 | **O domínio sem barreira para de perder por regra** | o capítulo da Expansão, no `partE.js` **e** no `40-fundamento.md`. *O mecanismo é o alcance, e não a inversão da regra* |
 | 4 | **O DejaVu Mono é defeito** | instalar as faces que faltam de IBM Plex Mono na pasta de fontes do usuário — só a `Regular` está lá — e rodar os **quatro** builds. *Nenhum rebuild sozinho resolve* |
@@ -1301,7 +1301,7 @@ A skill `redacao-acessivel-rpg` existe exatamente para a travessia de "nota de d
 
 **As outras vinte e duas divergências entre o manual e o livro continuam `aberta`.** *Dezesseis são mecânicas. A lista é a oitava passada do `sistema/05-material/livro/ESTADO-revisao.md`, e a checagem `12` a lê.*
 
-> **⚠ E duas dívidas de antes continuam abertas:** *a coincidência dos `256` entre o PDF de coluna única e o `-A-atual`* — **e agora ela tem uma variável a menos, porque os dois artefatos usam fontes diferentes** —, *e a `Sobrecarga` ainda escreve "o dobro de energia", que com o inimigo contando PE passa a ter alvo dos dois lados da mesa.*
+> **⚠ E uma dívida de antes continua aberta:** *a coincidência dos `256` entre o PDF de coluna única e o `-A-atual`* — **e agora ela tem uma variável a menos, porque os dois artefatos usam fontes diferentes.** *A outra — a `Sobrecarga` escrevendo "o dobro de energia" — fechou na v0.221: o texto virou "ele não usa Reação", o degrau ficou `Leve` nos dois donos, e a checagem `5` do `conferir-acao.py` passou a proibir a frase nela também.*
 
 ---
 
