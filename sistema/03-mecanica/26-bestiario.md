@@ -551,7 +551,7 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 >
 > **⚠ E a terceira perturbação achou um defeito na checagem `2` antes de ela valer.** *A tabela da peça 1 §6 amostra os níveis de marco, que são os **picos** da curva de acerto — ela publica `55%` em todas as colunas.* **Medir a banda só por ela dava um ponto só, e o inimigo, amostrado em níveis que não são marco, caía fora dela sem nada estar errado.** *O vale não está na tabela: ele está declarado ao lado, como oscilação irredutível de `5pp`.* **Hoje a checagem lê os dois — o pico da tabela e a oscilação declarada — e a banda sai `50%` a `55%`.**
 
-### 7.2 As dezessete perturbações da v0.221, na escada viva
+### 7.2 As trinta e nove perturbações da v0.221, na escada viva, e as dezesseis do gerador de inimigo
 
 *Mesmo método: cópia isolada, base conferida antes — com o único vermelho declarado, a checagem `5` acusando o capanga morto na tabela do manual até o manual mudar —, o `diff` conferido, e o veredito lido da checagem que estava sendo testada.*
 
@@ -578,6 +578,60 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 > **A contra-prova da `9.2` é a que prova o fator.** *Com a cota crua, `16%` era o número certo; com a `Intervenção`, ele acende.* **Se a checagem não aplicasse o fator, a perturbação saía verde.**
 >
 > **⚠ E o último contra-teste saiu VERMELHO na primeira rodada, pelo motivo certo.** *Eu tinha montado a `Calamidade` de dez pessoas com dano `188` no nível 10 — `75 × 2,50` dá `187,5`, e o meio para baixo põe em `187` —, e tinha deixado o nível 5 em `seco`, que com fator `2,50` já monta `3,4` pontos.* **A checagem acusou as quatro células, e o erro era da perturbação.** *Refeita com cada número calculado pela regra da peça, ela fica verde.*
+
+**As vinte e duas seguintes vieram com o tamanho, a área natural e as seis prontas**, *com a base toda verde e `PULADA` zero — e cada uma que acende foi conferida pela mensagem, e não só pelo número da checagem.*
+
+| checagem | perturbação | esperado | deu |
+|---|---|---|---|
+| **3.3** | o alcance do `Grande` vira `4,5 m` | acende | acende |
+| **3.3** | o `Médio` passa a pegar metade num vizinho | acende | acende |
+| **3.3** | a peça perde a frase que declara o tamanho sem preço | acende | acende |
+| **3.3** | **contra-teste:** o `Colossal` vira `5×5`, com alcance `7,5 m` | fica verde | fica verde |
+| **9.5** | a `Kitsune` volta para a `Dupla`, que morreu | acende | acende |
+| **9.5** | o `Oni` sobe para `Catástrofe`, que exige seis pessoas | acende | acende |
+| **9.5** | o `Betobeto` ganha Ações Múltiplas agindo uma vez | acende | acende |
+| **9.5** | a `Tsuchigumo` perde a terceira `Intervenção` | acende | acende |
+| **9.5** | a `Hitotsume` vai para uma faixa que não existe, `6 a 8` | acende | acende |
+| **9.5** | uma pronta volta a guardar a vida | acende | acende |
+| **9.5** | a peça passa a dar duas `Intervenções` por luta | acende | acende |
+| **9.5** | **contra-teste:** a `Kitsune` desce para `5 a 8` | fica verde | fica verde |
+| **9.5** | **contra-teste:** o `Oni` vira `Ameaça`, sem Ações Múltiplas e sem `Intervenções` | fica verde | fica verde |
+| **9.6** | a cobertura do nível `9`–`16` vira `29` quadrados | acende | acende |
+| **9.6** | o `Cone` do nível `2`–`8` vira `9 m` | acende | acende |
+| **9.6** | um retângulo de `12` por `1` vira `16` por `1` | acende | acende |
+| **9.6** | a faixa `17`–`24` passa a começar no `18` | acende | acende |
+| **9.6** | a escada de esfera do manual troca o segundo degrau para `5 m` | acende | acende |
+| **9.6** | a tolerância declarada cai para `5,0%` | acende | acende |
+| **9.6** | a área natural para no nível `28` | acende | acende |
+| **9.6** | **contra-teste:** o retângulo de `12` por `1` vira `13` por `1`, que dá a cobertura exata | fica verde | fica verde |
+| **9.6** | **contra-teste:** mexer na prosa sem mexer em número | fica verde | fica verde |
+
+**E as dezesseis do bloco `7` do `conferir-ficha.py`, que compara o `dados.js` do gerador com esta peça e com o manual:**
+
+| guarda | perturbação | esperado | deu |
+|---|---|---|---|
+| **7a** | a `Catástrofe` do gerador age `4` vezes | acende | acende |
+| **7a** | o `Desastre` do gerador perde a `Intervenção` | acende | acende |
+| **7a** | **contra-teste:** a `Calamidade` age `7` vezes na peça **e** no gerador | fica verde | fica verde |
+| **7b-bis** | a vida do capanga da faixa `13 a 16` vira `46` — faixa que o §4.1 não publica | acende | acende |
+| **7b-bis** | o dano do capanga da faixa `21 a 25` vira `45` | acende | acende |
+| **7c-bis** | o chefe do `com dois` fica com `83,5%` no gerador | acende | acende |
+| **7c-ter** | o fator da `Intervenção` vira `0,95` no gerador | acende | acende |
+| **7c-ter** | o gerador passa a dar `2` `Intervenções` por luta | acende | acende |
+| **7c-ter** | o teto de empilhamento vira `4` no gerador | acende | acende |
+| **7c-ter** | o deslocamento vira `12 m` no gerador | acende | acende |
+| **7c-ter** | o alcance do `Projétil` vira `24 m` no gerador | acende | acende |
+| **7c-ter** | a razão do §4.3 vira `0,75 ×` a `0,80 ×` no gerador | acende | acende |
+| **7c-ter** | o `Grande` ocupa `3` quadrados de lado no gerador | acende | acende |
+| **7c-ter** | o `Cone` do nível `9` a `16` vira `12 m` no gerador | acende | acende |
+| **7c-ter** | **contra-teste:** o deslocamento vira `12 m` na peça **e** no gerador | fica verde | fica verde |
+| **7c-ter** | **contra-teste:** a peça **e** o gerador passam a dar duas `Intervenções` por luta | fica verde | fica verde |
+
+> **Os contra-testes são os que provam as três checagens novas.** *O `Colossal` de `5×5` com alcance `7,5 m` sai verde porque a `3.3` mede o lado vezes o quadrado, e não uma lista de alcances.* **E a `Kitsune` descer de faixa e o `Oni` virar `Ameaça` saem verdes porque a `9.5` cobra a regra — categoria viva que cabe na mesa, Ações Múltiplas só em quem age mais de uma vez, `Intervenções` só em quem a categoria dá —, e não um mapa guardado.** *A derivação do seis morreu com a escada, e a checagem não guarda o cadáver dela.*
+>
+> **⚠ E o arnês achou um defeito antes de ele morder, nas duas checagens que leem quantas `Intervenções` a peça dá por luta.** *A frase do §6.5 escreve o número por extenso, e os dois dicionários de número — o desta peça e o do bloco `7` — não tinham `uma` nem `duas`.* **Hoje o número é `três`, que não tem gênero, e as duas passavam; com a peça dizendo `duas`, a `9.5` respondia que não tinha lido a peça, e o bloco `7` comparava o `2` do gerador com a palavra.** *Na primeira rodada a perturbação da `9.5` acendeu pelo motivo errado e o contra-teste do bloco `7` saiu vermelho.* **Os dois dicionários ganharam as formas femininas — o do validador do repositório já tinha —, e as duas deram o esperado.**
+>
+> ***E a linha da `3.3` que tira a declaração do tamanho não cita a declaração, de propósito:*** *a checagem procura a frase no texto inteiro, e uma linha desta tabela que a contivesse deixaria a guarda verde com a declaração apagada* — **é o defeito que a guarda da `5` já pagou no §7.1.**
 
 ## 8. Em aberto
 

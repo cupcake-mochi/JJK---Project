@@ -562,8 +562,10 @@ else:
     # 7c — o cambio
     _mc = _re.search(r'const CAMBIO = (\d+)', _js)
     _mp = _re.search(r'vale (\w+) capangas', _md)
-    _PT = {'um': 1, 'dois': 2, 'três': 3, 'quatro': 4, 'cinco': 5, 'seis': 6, 'sete': 7,
-           'oito': 8, 'nove': 9, 'dez': 10}
+    # v0.221: com as formas femininas — o 7c-ter le "carrega (\w+) `Intervenções`", e o
+    # arnes achou "duas" comparado como texto contra o 2 do dados.js.
+    _PT = {'um': 1, 'uma': 1, 'dois': 2, 'duas': 2, 'três': 3, 'quatro': 4, 'cinco': 5,
+           'seis': 6, 'sete': 7, 'oito': 8, 'nove': 9, 'dez': 10}
     if not _mc or not _mp:
         erro('7: nao achei o cambio no dados.js ou na peca 26 §5')
     elif int(_mc.group(1)) != _PT.get(_mp.group(1).lower()):

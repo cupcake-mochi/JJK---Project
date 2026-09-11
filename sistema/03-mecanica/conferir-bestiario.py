@@ -491,8 +491,10 @@ def _VIDA_PC(nv):
     return _V1 + _VN * (nv - 1) + _CON_TIPICA * nv
 
 
-_NUM_PT = {'um': 1, 'dois': 2, 'três': 3, 'quatro': 4, 'cinco': 5, 'seis': 6,
-           'sete': 7, 'oito': 8, 'nove': 9, 'dez': 10}
+# v0.221: com as formas femininas. A 9.5 le "carrega (\w+) `Intervenções`", e o arnes
+# achou que "duas Intervenções" fazia a checagem dizer que nao tinha lido a peca.
+_NUM_PT = {'um': 1, 'uma': 1, 'dois': 2, 'duas': 2, 'três': 3, 'quatro': 4, 'cinco': 5,
+           'seis': 6, 'sete': 7, 'oito': 8, 'nove': 9, 'dez': 10}
 
 
 def _simula(saida, corpos):
