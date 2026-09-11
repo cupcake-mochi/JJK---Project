@@ -566,15 +566,16 @@ Com a vida em pool (Q2) e `h` em meia Rotina (Q3), **um efeito de área que caus
 
 | o golpe, no nível 30 | expressão | o máximo dele | corpo do `Coro`, Con `1` | corpo forte, Con `1` |
 |---|---|---|---|---|
-| `Ronda` | `6d8 + 28` | `76` | cai | cai |
-| `Calamidade` | `6d10 + 33` | `93` | cai | cai |
-| `Alcateia`, que é também o capanga | `8d8 + 37` | `101` | cai | cai |
-| `Dupla`, o maior golpe da tabela | `8d12 + 57` | `153` | cai | cai |
-| **crítico de `Dupla`** | `16d12 + 57` | `249` | **destrói** | **destrói** |
+| `Capanga` e `Ameaça` | `6d8 + 28` | `76` | cai | cai |
+| `Catástrofe` | `6d10 + 33` | `93` | cai | cai |
+| `Desastre` e `Calamidade`, o maior golpe da tabela | `8d8 + 37` | `101` | cai | cai |
+| **crítico de `Desastre`** | `16d8 + 37` | `165` | **destrói** | cai |
 
 *A coluna do meio é o **máximo** da rolagem, e não a média — o gatilho pergunta se **uma** rolagem alcança a régua, então é o teto dela que decide. Os corpos valem `154` e `185`.*
 
-**Nenhum golpe comum destrói em definitivo, e a razão vale em todo nível.** *Precisa do crítico da maior categoria da tabela — ou de o corpo já estar quase caindo, que é o outro gatilho.* **A régua dispara onde a ficção dispara, e ninguém escreveu isso à mão: caiu dos números do bestiário.**
+**Nenhum golpe comum destrói em definitivo, e a razão vale em todo nível.** *O crítico da maior categoria da tabela destrói o corpo do `Coro` e não destrói o corpo forte — com a escada viva da peça 26, nenhum golpe único destrói o corpo forte.* **A morte definitiva dele virou coisa quase só do gatilho do excedente, com o corpo já machucado.**
+
+> ***Registrado por decisão do Mizuki na v0.221.*** *Até a v0.220 o topo desta tabela era a `Dupla`, e o crítico dela destruía os dois corpos. A escada da peça 26 mudou, o maior golpe caiu de `153` para `101`, e a régua ficou mais frouxa sem ninguém ter decidido isso.* **Ele escolheu registrar em vez de encolher o corpo forte:** *no corpo pequeno a régua dispara no crítico, e no corpo forte ela pede o corpo já quase caindo.*
 
 > **⚠ A tabela que ficava aqui era da v0.58 e media estimativa, não bestiário.** *Ela punha um `0,50 R` único no lugar de um vão que vai de `0,31` a `1,42 R` conforme categoria, nível e rolagem — e duas das cinco linhas dela, `área grande` a `1,88 R` e `Expansão de Domínio` a `3,00 R`, **não tinham derivação em documento nenhum do projeto**: cada uma aparecia uma vez, dentro da própria tabela.* **A peça 26 §6.4 desmente a segunda com todas as letras:** *a Expansão **não acrescenta dano** — ela garante o acerto, o que vale `1,92 ×` de saída efetiva e vira degrau de categoria.* **Eram as duas únicas linhas marcadas "mata", então o teto que o §12 derivava saía inteiro de dois números escritos à mão.**
 
@@ -582,8 +583,8 @@ Com a vida em pool (Q2) e `h` em meia Rotina (Q3), **um efeito de área que caus
 
 | Constituição da invocação | corpo do `Coro` | corpo forte |
 |---|---|---|
-| `0` | `7%` dos golpes de `Dupla`, e todo crítico dela | só no crítico, `68%` |
-| `1` — *a montagem que o §3.7 publica* | só no crítico, `70%` | só no crítico, `4%` |
+| `0` | só no crítico, `5,7%` deles | só no crítico, e quase nunca — menos de `0,1%` deles |
+| `1` — *a montagem que o §3.7 publica* | só no crítico, e quase nunca — menos de `0,1%` deles | nada destrói com um golpe |
 | `3` | nada destrói com um golpe | nada destrói com um golpe |
 
 **O gatilho do excedente é o que cobra o corpo já machucado**, e é aí que ele passou a fazer trabalho. *Com a régua velha ele era código morto no corpo forte: `vida + metade da régua` dava `5 ×` a fórmula crua, que é a régua inteira, então o outro gatilho sempre chegava primeiro.*
@@ -592,8 +593,8 @@ Com a vida em pool (Q2) e `h` em meia Rotina (Q3), **um efeito de área que caus
 |---|---|---|
 | cheio | `232` | não |
 | na metade | `155` | não |
-| em um quarto | `116` | `26%` das rolagens |
-| a um ponto de cair | `79` | sempre |
+| em um quarto | `116` | não |
+| a um ponto de cair | `79` | `20%` das rolagens |
 
 > **⚠ Esta régua já foi a vida máxima do corpo até a v0.178, virou escala fixa de `5 ×` a fórmula crua naquela versão, e voltou a ser a vida máxima agora — e o motivo de ida e o de volta não são o mesmo.** *Ela saiu do corpo porque o `Coro` estava quebrado: com o corpo dele valendo `h`, um golpe comum causava a vida máxima inteira e a Trilha sumia no primeiro acerto. O conserto daquela versão foi **tirar a régua do corpo**, e ele funcionou — mas cobrou o preço de a régua deixar de ser um número que existe na ficha de alguém.* **A medida contra o bestiário mostrou o tamanho do preço:** *o `§12` conferia `2,50 R`, e a régua que a mesa usava ia de `1,94` a `11,20 R` conforme a Constituição. Era escala de design, não de mesa.*
 >
@@ -1112,7 +1113,7 @@ Rodada a triagem antes de escrever qualquer coisa:
 - **As duas moedas separadas:** ponto de arma (`0,33` de dano por rodada) e ponto de ficha (`±10%` do que a invocação entrega) não podem se converter uma na outra em lugar nenhum. *Desde a v0.180 a checagem confere a **ausência de operação** em vez de recalcular uma razão: a venda de deslocamento era a única ponte entre as duas, e ela morreu com a ficha própria.*
 - **E o `±10%` recomputado da taxa de câmbio do §3.3**, que é o dono dele. *Aquela tabela publica o par de porcentagens e o efeito, e o efeito é aritmética do d20 em cima do par — um ponto move cinco pontos percentuais porque a face do dado vale `5%`.* **As três linhas se conferem sozinhas, sem constante nenhuma no validador**, e o `±10%` do §3.6 tem de bater com a linha do acerto. *Acrescentada na v0.185: até ali o número era lido, impresso, e nunca comparado com nada — perturbá-lo saía **verde**, e foi um controle do arnês que mostrou que a cegueira era anterior à passada de texto.*
 - **O multiplicador de área lido do documento dono, nunca de constante**, e o teste negativo: perturbar o `×2` para `×5` tem de fazer a checagem acusar que um feitiço de rotina apaga a Matilha.
-- **Os dois gatilhos de morte em definitivo, com o contra-teste que importa:** nenhum golpe de rotina pode disparar nenhum dos dois. Perturbar o dano de um golpe comum para cima tem de acender.
+- **Os dois gatilhos de morte em definitivo, com o contra-teste que importa:** nenhum golpe de rotina pode disparar nenhum dos dois. Perturbar o dano de um golpe comum para cima tem de acender. **E desde a v0.221 a coluna de golpes se confere contra a peça 26 §4.4:** *cada linha comum tem de ser um golpe que aquela tabela publica, todo golpe dela tem de estar aqui, e o crítico tem de ser o do maior golpe.* **Foi a falta disso que deixou a `Dupla` morta nesta tabela, com todos os validadores verdes.**
 - **O preço de invocar contra o bolso do BASTIÃO, nunca do Evocador** — e o `conferir-orcamento.py` é quem já sabe medir isso. Perturbar o `1 ×` para `1,5 ×` tem de acender no nível 2, que é onde ele morde.
 - **O teto de uma Rotina conferido pela economia de ação, e não pela divisão escrita** — se algum dia comandar deixar de custar a ação padrão, o teto volta a precisar de decreto e a checagem tem de acusar.
 - **A exceção do Coro medida somada**: atacar e comandar na mesma rodada não pode passar de uma Rotina.

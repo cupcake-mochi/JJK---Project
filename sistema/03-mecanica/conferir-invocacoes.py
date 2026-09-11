@@ -1285,6 +1285,46 @@ else:
                           'ela fica trivialmente verdadeira, e a regra de morte deixaria '
                           'de ser conferida contra qualquer coisa')
 
+    # ---- 12f. a coluna de golpes e' COPIA da peca 26 §4.4 (v0.221) ----------
+    # Ate a v0.220 nada ligava esta tabela a' peca 26, e quando a escada mudou a
+    # `Dupla` morta ficou aqui dentro como "o maior golpe da tabela", com todos os
+    # validadores verdes. Cada linha comum tem de ser um golpe que a §4.4 publica,
+    # todo golpe da §4.4 tem de aparecer aqui, e o critico tem de ser o do MAIOR
+    # golpe, com os dados dobrados — pela mesma §4.4.
+    _g44 = {}
+    for _l in _P26.split('\n'):
+        _mg = re.match(r'^\|\s*`([^`]+)`\s*\|\s*`(\d+)`\s*\|\s*`(\d+)`\s*\|\s*`?'
+                       r'(\d+d\d+(?:\s*\+\s*\d+)?)`?\s*\|\s*$', _l)
+        if _mg:
+            _g44[_mg.group(1)] = re.sub(r'\s+', ' ', _mg.group(4))
+    if len(_g44) < 3:
+        erro('MORTE', f'nao achei a tabela de golpe da peca 26 §4.4 (li {len(_g44)} linha(s)) '
+                      '— a coluna de golpes desta tabela ficou sem dono')
+    elif _tab:
+        def _med44(e):
+            _x = re.match(r'(\d+)d(\d+)(?:\s*\+\s*(\d+))?$', e)
+            return int(_x.group(1)) * (int(_x.group(2)) + 1) / 2 + int(_x.group(3) or 0)
+        _exp = lambda c: re.sub(r'\s+', ' ', limpo(c[1]).strip('`'))
+        _comuns = [_exp(c) for c in _tab if 'critico' not in sem_acento(limpo(c[0]))]
+        _crits = [_exp(c) for c in _tab if 'critico' in sem_acento(limpo(c[0]))]
+        _fora = [e for e in _comuns if e not in _g44.values()]
+        _falta = sorted({e for e in _g44.values() if e not in _comuns})
+        _maior = max(_g44.values(), key=_med44)
+        _xm = re.match(r'(\d+)d(\d+)(?:\s*\+\s*(\d+))?$', _maior)
+        _crit_esp = f'{2 * int(_xm.group(1))}d{_xm.group(2)}' + (
+            f' + {_xm.group(3)}' if _xm.group(3) else '')
+        if _fora:
+            erro('MORTE', f'a tabela da morte publica golpe(s) que a peca 26 §4.4 nao tem: '
+                          f'{_fora} — a escada mudou e esta tabela ficou')
+        if _falta:
+            erro('MORTE', f'golpe(s) da peca 26 §4.4 que faltam na tabela da morte: {_falta}')
+        if _crits != [_crit_esp]:
+            erro('MORTE', f'o critico da tabela e {_crits}, e o do maior golpe da peca 26 §4.4 '
+                          f'({_maior}) e {_crit_esp}')
+        if not (_fora or _falta or _crits != [_crit_esp]):
+            print(f'  [x] a coluna de golpes e a da peca 26 §4.4 — {len(set(_g44.values()))} '
+                  f'golpe(s) —, e o critico e o do maior, {_crit_esp}')
+
     # ---- 12d. contra-teste: a regua faz trabalho? ---------------------------
     # Se o corpo do Coro e o corpo forte dessem o MESMO veredito em toda linha, a
     # regua "por corpo" nao estaria medindo nada e a escala fixa voltaria verde.
