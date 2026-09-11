@@ -1002,7 +1002,14 @@ else:
     #       entao ela caiu como ponteiro PENDURADO e travou o subir.sh. O conserto
     #       foi por o caminho, e nao alargar o padrao: ela e' a familia "caminho na
     #       arvore da FONTE", arquivo que existe e nao vai para a entrega.
-    BRANCAS_AQUI, FOLGA = 169, 5
+    # v0.221: 169 -> 171, MEDIDO pelo diff da lista branca entre a arvore da entrega
+    # da v0.220 (o recorte commitado, reconstruido com git archive) e a de hoje. As
+    # DUAS saem da peca 26 §7.2, na frase que abre a tabela das perturbacoes do bloco
+    # 7: ela cita o `conferir-ficha.py` (2 -> 3 na peca) e o `dados.js` (4 -> 5). As
+    # duas sao familias ja declaradas — nome de validador e arquivo de trabalho —, e
+    # nenhuma e material de mesa. As linhas daquela tabela citam "o gerador" sem o
+    # nome do arquivo de proposito: eram quinze citacoes a mais para dizer o mesmo.
+    BRANCAS_AQUI, FOLGA = 171, 5
     PISO_CITACOES, TETO_BRANCOS = 120, BRANCAS_AQUI + FOLGA
     if vistos_e < PISO_CITACOES:
         erro(f'7.2: achei so {vistos_e} citacoes na entrega, e o piso e {PISO_CITACOES} — '

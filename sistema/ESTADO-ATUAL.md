@@ -1,8 +1,18 @@
 # Estado atual do projeto
 
-Atualizado em 07/09/2026, na v0.220 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e nove checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 11/09/2026, na v0.221 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e nove checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.220.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
+**Versão v0.221.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
+
+**A v0.221 trocou a escada de inimigo inteira, e ela veio medida de fora.** *O projeto do Bestiário, fora deste repositório, refez a máquina de montar inimigo entre 08/09 e 10/09 e mandou a conta pronta; esta versão é a execução, em oito commits.*
+
+> **A escada viva é `Capanga` · `Ameaça` · `Desastre` · `Catástrofe` · `Calamidade`**, *com as ações declaradas — `1` · `1` · `3` · `5` · `6` — e o `Capanga` num esquadrão de oito, com a vida saindo do dano do grupo.* **`Ronda` virou `Ameaça` e `Alcateia` virou `Desastre`, com os mesmos números; a `Calamidade` de seis virou `Catástrofe`, a de oito entrou por cima, e a `Dupla` morreu.**
+>
+> **O degrau morreu como moeda:** *resistência, imunidade e Expansão multiplicam o fator da categoria, e o câmbio de um chefe foi de quatro capangas para oito.* **A tabela `Inimigos` do manual passou a publicar o capanga da escada.**
+>
+> **E o gerador de inimigo imprime as seis prontas no molde de bloco do 5e**, *com o tamanho e a área natural levados para a peça 26 junto com validador.* **A peça 15 passou a medir a morte do shikigami contra a escada viva**, *e o Mizuki decidiu registrar a régua frouxa: nenhum golpe único destrói o corpo forte.*
+>
+> **⚠ Os blocos das versões abaixo, da v0.198 à v0.206, falam a escada morta.** *Eles ficam como estavam, porque são o registro de cada versão; as três linhas que descreviam uma regra dela como viva estão marcadas.* **A peça 26 §4 é a dona da escada de hoje.**
 
 **A v0.207 deu ao capítulo de Invocações o passo a passo que o Fundamento tem para feitiço.** *O capítulo publicava a máquina inteira e nove montagens prontas, e o leitor via o resultado sem ver a conta — `12` pontos, cabe no nível 6, e de onde vem o `12` nenhuma linha mostrava.*
 
@@ -32,7 +42,7 @@ Atualizado em 07/09/2026, na v0.220 (última peça fechada: **Bestiário**, a pe
 
 > **Três portas, e nenhuma inventa moeda.** *A técnica paga no **orçamento de feitiço** de uma ação — o golpe dividido por `4,5`, com piso na `Classe 1` do manual —, a aptidão paga na **cota de dano por rodada** pelo câmbio de `1` PE por rodada = `5,14` de dano, e o que dá vida efetiva paga em **degrau de categoria**, que o §6.3 já vendia.*
 >
-> **O rebalanceamento é de quatro para um:** *a mesma aptidão come `16%` da cota de uma `Alcateia` e `65%` da de uma `Ronda`, e no nível 2 a `Extensão de Domínio` custa `193%` de uma `Ronda`* — **então uma maldição daquele nível que a carregue tem de ser pelo menos uma `Dupla`.**
+> **O rebalanceamento é de quatro para um:** *a mesma aptidão come `16%` da cota de uma `Alcateia` e `65%` da de uma `Ronda`, e no nível 2 a `Extensão de Domínio` custa `193%` de uma `Ronda`* — **então uma maldição daquele nível que a carregue tem de ser pelo menos uma `Dupla`.** ***⚠ Escada morta na v0.221 — a cota de hoje está na peça 26 §6.5.***
 >
 > **⚠ E contar por LUTA em vez de por rodada ligada estava errado**, porque as quatro anti-domínio valem zero contra grupo que não abre domínio. *O jogador liga quando precisa; o inimigo cobrado por luta pagaria pelas rodadas em que ela não fez nada.*
 >
@@ -46,7 +56,7 @@ Atualizado em 07/09/2026, na v0.220 (última peça fechada: **Bestiário**, a pe
 >
 > **⚠⚠ E a tabela de puladas do `README` estava parada na v0.199, em quatro colunas.** *Ela dizia **cinco** validadores enquanto este arquivo e o `LEIA-ME` diziam seis, e as contagens de checagem do `conferir-dano`, do `conferir-manual` e do `conferir-nomes` estavam todas velhas.* **A checagem `9` do `conferir-repositorio.py` não alcança aquela tabela**, porque ela confere contagem de checagem e a coluna `pula` não é isso.
 
-**A v0.204 fechou a Expansão de Domínio de inimigo, e ela dobra quantos personagens ele exige.** *`Ronda` vira `Dupla`, `Dupla` vira `Alcateia`, e as duas de cima passam do topo da escada — uma `Calamidade` com Expansão exige **doze** feiticeiros.*
+**A v0.204 fechou a Expansão de Domínio de inimigo, e ela dobra quantos personagens ele exige.** *`Ronda` vira `Dupla`, `Dupla` vira `Alcateia`, e as duas de cima passam do topo da escada — uma `Calamidade` com Expansão exige **doze** feiticeiros.* ***⚠ Escada morta na v0.221 — a Expansão hoje multiplica o fator por `1,92`, no §6.4 da peça 26.***
 
 > **A primeira forma da regra proibia a `Calamidade` de ter domínio, e o Mizuki achou:** *"não faz sentido um Sukuna da vida não ter expansão, ele seria Calamidade, não?"* **Ela media só para baixo e, não achando degrau abaixo, concluía que não podia.** *A conclusão não segue: o que falta ali é o número do encontro maior, e ele existe porque a categoria mede pessoas.*
 
@@ -100,7 +110,7 @@ Atualizado em 07/09/2026, na v0.220 (última peça fechada: **Bestiário**, a pe
 
 > **Os três derivam sem escolha, e é por isso que a peça 1 §6 e a peça 19 §2.5 já fechavam sem eles escritos.** *Defesa `14` a `20`, acerto `+4` a `+10`, CD `12` a `18`, nível a nível.* **Ele acerta o alvo difícil em `50%` a `55%` e o TR treinado dele falha `35%`** — os mesmos números que a peça 1 §6 publica do lado do jogador, e a checagem `2` cobra que os dois lados da mesma rolagem não discordem.
 >
-> **A categoria é ideia do Mizuki, e o eixo dela é quantos personagens o inimigo exige.** *`Ronda` `1` · `Dupla` `2` · `Alcateia` `4` · `Calamidade` `6`, com fator `personagens ÷ 4` sobre a linha do manual.* **As ações saem de `personagens − 1`, piso `1`, e a `Alcateia` cai exatamente no `3` que a régua da peça 19 exige como piso** — a checagem `4` lê aquele piso em vez de guardar cópia.
+> **A categoria é ideia do Mizuki, e o eixo dela é quantos personagens o inimigo exige.** *`Ronda` `1` · `Dupla` `2` · `Alcateia` `4` · `Calamidade` `6`, com fator `personagens ÷ 4` sobre a linha do manual.* **As ações saem de `personagens − 1`, piso `1`, e a `Alcateia` cai exatamente no `3` que a régua da peça 19 exige como piso** — a checagem `4` lê aquele piso em vez de guardar cópia. ***⚠ Escada morta na v0.221 — as ações hoje são declaradas pela categoria, no §4.2 da peça 26.***
 >
 > **⚠ O grau fica como rótulo de ficção, e parear grau com grau reprova pela peça 12 §2.** *Dois feiticeiros de grau 2 podem ser nível 5 e nível 25.* **Mas o levantamento da obra devolveu a fronteira de graça:** *o que separa uma maldição de grau 2 de uma de semi-grau 1 é **saber usar técnica**, e isso a ficha já carrega.*
 >

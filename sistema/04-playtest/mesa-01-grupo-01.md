@@ -41,6 +41,8 @@
 **Como o grupo sobreviveu, não eram os de `Alcateia`.** *Se eram os de `Ronda`, o modelo dizia `2,5` e a mesa viu `4` a `5` — e aí sobra desvio real depois de descontado o tamanho do grupo.*
 
 > **⚠ Fica em aberto até ele dizer quais eram.** *Anotar "durou mais que o previsto" sem saber o inimigo é anotar sintoma.*
+>
+> ***⚠ v0.221: os dois capangas desta tabela são da escada morta.*** *O de `Ronda` e o de `Alcateia` saíram com ela; o capanga de hoje, no nível 2, tem `9` de vida e `4` de dano, pela tabela `Inimigos` do manual `v7.26`.* **A tabela fica como estava, porque ela é o que o modelo previa naquela mesa** — *e o capanga de hoje não existia no dia, então ele não entra como resposta de quais eram os dez.*
 
 ## O que já dá para fechar
 

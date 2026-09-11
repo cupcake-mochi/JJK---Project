@@ -8,11 +8,112 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.221] — 11/09/2026
+
+**O Bestiário foi refeito fora deste repositório e entrou aqui em oito commits.** *O projeto do Bestiário mediu a máquina de montar inimigo inteira entre 08/09 e 10/09, bateu cada martelo com o Mizuki e mandou a conta pronta, com arquivo e linha de cada mexida.* **Esta versão é a execução — e a execução achou quatro buracos que a entrega não cobria.**
+
+### 1 · A escada da peça 26 é outra
+
+| a morta, da v0.198 à v0.220 | a viva |
+|---|---|
+| `Ronda`, `1` pessoa | **`Ameaça`**, com os mesmos números |
+| `Dupla`, `2` | **morreu** — *levava o dobro do orçamento pela mesma porta, e o golpe dela era `1,60 ×` o topo da banda* |
+| `Alcateia`, `4` | **`Desastre`**, com os mesmos números |
+| `Calamidade`, `6` | **`Catástrofe`** |
+| — | **`Calamidade`**, `8`, nova |
+| o capanga da `Alcateia` — um quarto da vida do chefe e um terço do dano | **`Capanga`** — esquadrão de oito, vida igual ao dano do grupo dividido por quatro, e um quarto do dano do chefe |
+
+**As ações passam a ser declaradas — `1` · `1` · `3` · `5` · `6` —, e não mais `personagens − 1`**, *que foi o que quebrou a `Dupla`.* **De `Desastre` para cima o inimigo carrega `Intervenção`, e o dano dele leva o fator `0,923`.**
+
+> **O degrau morreu como moeda.** *Resistir aos `Físicos` multiplica o fator da categoria por `1,43` e ser imune por `2,50`; a Expansão de Domínio multiplica por `1,92`; a vulnerabilidade não cobra nem devolve.* **Um `Desastre` vale oito capangas, e não quatro**, *e a sub-categoria passou a ser medida: o chefe fica com `100%` · `91,5%` · `83,0%` · `74,5%`.*
+>
+> **E a área e a cura trocaram de regra:** *no máximo `1` ação em área por rodada, com a `Recarga` fora da cota, e a cura do inimigo vale `0,64 ×` do dano que ela custa.*
+
+### 2 · Os quatro buracos que a entrega não cobria
+
+| # | o buraco | o conserto |
+|---|---|---|
+| `1` | **as quinze mexidas não trocavam a escada inteira** — *o §3, o §4, o §4.1, o §4.2, o §4.4, o §6.4 e o §6.5 ainda publicavam a morta* | a peça inteira passou para a escada viva no mesmo commit; sem isso o validador não fechava verde nunca |
+| `2` | **a tabela `Inimigos` do manual publicava o capanga morto**, *e a varredura procurou os nomes das categorias, que o manual não usa* | commit à parte: a coluna é a do capanga da escada — `9` de vida e `4` de dano no nível 2, `78` e `55` no 30 —, e o manual foi para a `v7.26` |
+| `3` | **o livro é o segundo dono das Melhorias**, *e a checagem `12` compara as duas tabelas* | `Cone`, `Linha`, `Anteparo` e `Sobrecarga` mudaram nos dois donos juntos, e a divergência do `Anteparo` fechou |
+| `4` | **nada ligava a peça 15 à peça 26**, *e a tabela da morte do shikigami ficou pendurada no golpe da `Dupla`* | a peça 15 passou para a escada viva, e a checagem `12f` do `conferir-invocacoes.py` liga as duas |
+
+### 3 · O gerador de inimigo imprime as seis no molde de bloco do 5e
+
+**As seis maldições prontas saíram da escada morta.** *`Betobeto`, `Kamaitachi` e `Hitotsume` viraram `Ameaça`; `Tsuchigumo` e `Oni` viraram `Desastre`, com as três `Intervenções` da categoria; e a `Kitsune` virou `Ameaça` e subiu para a faixa `9 a 12`, para poder conjurar.* **A `Kamaitachi` são duas na mesa, e a ficha dela diz isso.**
+
+> **O bloco agora é o do 5e:** *traços, `Ações Múltiplas` só em quem age mais de uma vez, ataques com nome e `Intervenções` com nome — o texto veio do livro do Bestiário, e as cinco propostas que ele pedia foram marteladas pelo Mizuki.* **E o bloco antigo imprimia a linha de defesa do nível de baixo para a faixa inteira**, *errada no `Hitotsume`, no `Oni` e na `Kitsune`.*
+
+**Duas regras que só existiam no Bestiário entraram na peça 26 com validador:** *o tamanho, no §3.3 — o alcance é o lado da grade vezes o quadrado, e do `Grande` para cima o golpe pega metade num vizinho —, e a área natural, no §6.5, com a cobertura saindo do nível.* **As duas saem de graça, e a peça declara a folga que o tamanho deixa.**
+
+> **⚠ A grade das seis ficou com a coluna do `Capanga` vazia**, *e isso é o preço declarado da decisão de 10/09, e não pendência:* **ficha de esquadrão é ficção, e é do Mizuki.**
+
+### 4 · A `Sobrecarga`, e três Formas que ganharam texto
+
+**A `Sobrecarga` troca o dobro de energia pela Reação:** *"até o fim do próximo turno do alvo, ele não usa Reação, e o feitiço dele sai com a CD `2` menor"*, **em `Leve` nos dois donos.** *O dobro de energia valia zero contra inimigo, que não conta PE.* **O `sobrecarga.py` do manual foi refeito, e a checagem `5` do `conferir-acao.py` passou a proibir a frase velha nela também.**
+
+**O `Cone` ganhou largura, a `Linha` ganhou destino para o `Maior` e o `Anteparo` ganhou tamanho** — *os três só acrescentam texto onde não havia número.* **E repreçar as três Formas foi reprovado por medição:** *o espalhamento na base é `2,79 ×`, o mesmo do D&D 2024.*
+
+### 5 · A peça 15, e a régua ficou frouxa por decisão
+
+**A morte em definitivo do shikigami é calibrada pelo máximo do golpe da peça 26, e o topo era a `Dupla`.** *Na escada viva o crítico do topo é `16d8 + 37` = `165`: destrói o corpo do `Coro`, de `154`, e não destrói o corpo forte, de `185`.*
+
+***Decisão do Mizuki: registrar.*** **Nenhum golpe único destrói o corpo forte, e a morte definitiva dele virou coisa quase só do gatilho de excedente** — *o corpo forte não encolhe.*
+
+### 6 · O arnês achou um defeito antes de ele morder
+
+**Os dicionários de número por extenso do `conferir-bestiario.py` e do `conferir-ficha.py` não tinham `uma` nem `duas`, e `Intervenção` é feminino.** *Com a peça dizendo "duas", a `9.5` respondia que não tinha lido a peça, e o bloco `7` comparava o `2` do gerador com a palavra.* **Nada estava vermelho, porque hoje o número é `três`.** *As perturbações desta versão — as trinta e nove da peça 26 e as dezesseis do gerador — estão no §7.2 da peça 26.*
+
+### Adicionado
+
+- **O §3.3 da peça 26, o tamanho**, e **a área natural no §6.5**.
+- **As checagens `3.3` e `9.6` do `conferir-bestiario.py`**, e **a `12f` do `conferir-invocacoes.py`**.
+- **As formas femininas nos dicionários de número** do `conferir-bestiario.py` e do `conferir-ficha.py`.
+- **Cinquenta e cinco perturbações em cópia isolada**, no §7.2 da peça 26.
+
+### Alterado
+
+- **A peça 26 inteira na escada viva**, com as quinze mexidas da entrega.
+- **A peça 15** — a tabela da morte, a do corpo machucado e a da Constituição — na escada viva.
+- **A tabela `Inimigos` do manual**, com o capanga da escada, e o manual na `v7.26`.
+- **A `Sobrecarga`, o `Cone`, a `Linha` e o `Anteparo`**, nos dois donos.
+- **O gerador de inimigo** — o `dados.js`, o `make.js` e o `COMO-USAR.txt` — e o bloco de inimigo, regerado.
+- **As checagens `3`, `4`, `5`, `5.1`, `7.1`, `8`, `9.1`, `9.2`, `9.4` e `9.5` do `conferir-bestiario.py`**, e o bloco `7` do `conferir-ficha.py`, na escada viva. *A `9.5` cobra a regra de cada pronta, e não mais a derivação do seis.*
+- **A checagem `5` do `conferir-acao.py`**, que proíbe o dobro de energia também na `Sobrecarga`.
+- **A base da lista branca da `7.2` do `conferir-repositorio.py`**, de `169` para `171`, itemizada pelo diff.
+
+### Removido
+
+- **`Ronda`, `Dupla` e `Alcateia`**, e a `Calamidade` de seis pessoas com esse nome.
+- **O capanga da `Alcateia`**, na peça e no manual, e a prova dos *"nove golpes"* do §5.
+- **O degrau de categoria como moeda.**
+
+### Decidido
+
+- **No projeto do Bestiário, com o Mizuki, e aplicado aqui:** *a escada viva, o capanga único, o degrau virando fator, uma ação em área por rodada e a `Sobrecarga` com a Reação.*
+- **Registrar a régua frouxa da peça 15**, e não encolher o corpo forte.
+- **O capanga morto do manual sai em commit próprio.**
+- **O gerador de inimigo vai inteiro:** *o tamanho e a área natural entram na peça 26 com validador, e as seis saem no molde de bloco do 5e.*
+- **As cinco propostas do bloco, aprovadas:** *a área natural resolve por Teste de Resistência, com no máximo uma área por turno; a primeira `Intervenção` é um ataque do bloco sem o vizinho; o `Fogo-de-Raposa` da `Kitsune` é `Projétil` de `Classe 1`, `4d8` de Fogo, `18 m`; os traços são inventados; e as outras duas `Intervenções` aplicam `Derrubado`, terreno difícil e tiram cobertura sem custo.*
+
+### Achado e não consertado
+
+- **A coluna do `Capanga` na grade das seis prontas está vazia** — *preço declarado da decisão, e não pendência.*
+- **O `Fogo-de-Raposa` sai com alcance de graça**, *e o `Artilheiro` paga vida por alcance.* **A tensão está declarada no projeto do Bestiário, e a proposta foi aprovada assim.**
+- **A fila da v0.220 continua**, nos itens `2` a `5`.
+- **A entrega está sincronizada e sem commit** — *o recorte e o push são um passo à parte, e pedem o ok do Mizuki.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
+
+---
+
 ## [0.220] — 07/09/2026
 
 **Uma leva que decide e não conserta.** *O Mizuki leu a v0.219, decidiu quatro coisas e corrigiu uma pesquisa minha que estava errada no ponto principal.* **Pedido dele, com todas as letras: *"N precisa corrigir essas coisas, quero q vc anote elas"*.** *Então isto é registro, e o conserto de cada uma é trabalho da fila.*
 
 ### 1 · A `Sobrecarga` vai ter peso, porque o inimigo VAI contar energia
+
+> ***⚠ REVERTIDA em 09/09/2026, pelo próprio Mizuki, e aplicada na v0.221.*** **O inimigo NÃO conta PE, e a peça 26 §6.1 fica.** *A `Sobrecarga` que dependia disto foi reescrita: "ele não usa Reação" no lugar de "o dobro de energia".* **O texto abaixo fica como estava, porque é o registro do que se decidiu naquele dia.**
 
 ***Decisão do Mizuki:*** *"Sobrecarga vai ter peso pq ficha de inimigo vai ter energia, vai ser semelhante a de um player."*
 
@@ -103,7 +204,7 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ### Decidido
 
-- **O inimigo VAI contar energia**, e o §6.1 da peça 26 cai. *A medida da `Sobrecarga` roda de novo depois disso.*
+- **O inimigo VAI contar energia**, e o §6.1 da peça 26 cai. *A medida da `Sobrecarga` roda de novo depois disso.* ***⚠ REVERTIDA em 09/09, e aplicada na v0.221.***
 - **`Fura` é `2 × Classe`, `Enfraquece` é `Xd4`, `Abre Ferida` é UM Teste** — o livro vence nas três.
 - **O domínio sem barreira para de perder por regra**, e o mecanismo passa a ser o alcance.
 - **O DejaVu Mono é defeito**, e o certo é a fonte que o projeto sempre pediu.
@@ -119,7 +220,7 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 - **Tudo o que está em "Decidido" acima**, porque o pedido foi anotar e não consertar.
 - **As outras vinte e duas divergências manual↔livro** continuam `aberta`.
-- **A `Sobrecarga` ainda diz "o dobro de energia"** — e com o inimigo contando PE, essa frase passa a ter alvo, e o buraco do Classe 0 passa a valer nos dois lados da mesa.
+- ***Consertada na v0.221.*** **A `Sobrecarga` ainda diz "o dobro de energia"** — e com o inimigo contando PE, essa frase passa a ter alvo, e o buraco do Classe 0 passa a valer nos dois lados da mesa.
 - **A coincidência dos `256`** entre o PDF de coluna única e o `-A-atual`.
 
 → **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
