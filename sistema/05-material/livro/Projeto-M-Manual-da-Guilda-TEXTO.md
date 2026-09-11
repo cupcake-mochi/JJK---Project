@@ -3623,8 +3623,8 @@ A Forma define quem o feitiço atinge e como ele se resolve. Escolha uma por fei
 | `Toque` | — | 1,5 m, um alvo. `Projétil` com a Restrição `Corpo a Corpo` embutida (devolve `Média`). | Rolagem de acerto |
 | `Explosão` | `Leve` | Esfera de raio 3 m, num ponto a até 18 m | Teste de Resistência, metade no sucesso |
 | `Aura` | `Leve` | Esfera de raio 3 m centrada em você. `Explosão` com `Corpo a Corpo` embutida (devolve `Média`). | Teste de Resistência, metade no sucesso |
-| `Cone` | `Leve` | 4,5 m saindo de você | Teste de Resistência, metade no sucesso |
-| `Linha` | `Leve` | 18 m por 1,5 m | Teste de Resistência, metade no sucesso |
+| `Cone` | `Leve` | 4,5 m saindo de você. A largura do cone em qualquer ponto é igual à distância daquele ponto até você. | Teste de Resistência, metade no sucesso |
+| `Linha` | `Leve` | 18 m por 1,5 m. Quando o comprimento chega ao topo da escada, `Maior` passa a subir a largura: 1,5 m → 3 m → 4,5 m. | Teste de Resistência, metade no sucesso |
 | `Cura` | `Média` | Um aliado a até 9 m. Os dados viram cura. Pode escolher alvo hostil. | Automático no aliado, acerto no hostil |
 | `Apoio` | — | Um aliado a até 9 m. Sem dano. Cada ponto que sobra vira 3 de vida temporária. | Automático |
 | `Onda` | `Pesada` | Esfera de raio 3 m centrada em você. A cura ou o apoio pega todos os aliados dentro, sem dividir. | Automático |
@@ -3778,7 +3778,7 @@ O inimigo sai da luta sem cair morto: no chão, preso, ou lutando contra o próp
 |---|---|---|
 | `Condição` | o nível dela | Aplica uma das treze condições. O preço é o nível dela (`Leve`, `Média` ou `Pesada`), e a seção *Condições* traz as três listas. Dura uma rodada. As de nível `Pesada` dão Teste de Resistência no fim de cada turno do alvo, e só pode ser colocada uma delas por feitiço. |
 | `Terreno` | `Leve` | A área vira terreno difícil, ou fica obscurecida, por uma rodada. |
-| `Anteparo` | `Média` | Deixa uma parede ou escudo com 10 × Classe de pontos de vida, por 1 minuto, com o tamanho dependendo da Forma. |
+| `Anteparo` | `Média` | Deixa uma parede ou escudo com 10 × Classe de pontos de vida, por 1 minuto. Ocupa os mesmos quadrados que a `Linha` da Classe dele, arrumados como você quiser, cada um partilhando um lado com outro. Altura mínima 2 quadrados. Colocado num ponto a até o alcance do feitiço. |
 | `Prende` | `Média` | O alvo não sai do lugar até o fim do próximo turno dele. Ele pode gastar uma ação — qualquer uma, menos livre — para tentar um Teste de Resistência e se soltar. O Teste é decidido na criação do feitiço. |
 | `Cerca` | `Leve` | O alvo não consegue se aproximar de você até o fim do próximo turno dele. Acaba assim que você causar dano a ele — inclusive o dano do próprio feitiço que comprou esta Melhoria. |
 | `Puxa` | `Média` | Todo mundo na área é puxado 6 m na direção do centro. |
@@ -6752,4 +6752,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: a922c334f0d2a382f98cabe56452d20fc2dee941 -->
+<!-- fonte: affec120d2ad489a4557bfd5ce191bd28c073ecd -->

@@ -50,7 +50,7 @@
 | `Prende` | o livro diz qual ação solta — *qualquer uma, menos livre* — e que o Teste se escolhe na criação; o manual cala | **sim** | aberta |
 | `Rasga Escudo` | o livro declara que NÃO ignora Redução de Dano; o manual cala | **sim** | aberta |
 | `Remate` | o livro veta também Condicional ligada à duração; o manual só à vida do alvo | **sim** | aberta |
-| `Anteparo` | o livro diz que o tamanho da parede depende da Forma; o manual cala | **sim** | aberta |
+| `Anteparo` | o livro diz que o tamanho da parede depende da Forma; o manual cala | **sim** | fechada na v0.221 |
 | `Silencioso` | o livro declara que não ignora o seu Selo; o manual cala | **sim** | aberta |
 | `Parado` | o manual declara que *a ação bônus continua sua*; o livro cala — e é o mesmo eixo em que o `Ferrolho` foi repreçado na v0.218 | **sim** | aberta |
 | `Sem Cobertura` | o manual explica que a Total *não se fura, é a ausência de alvo legal*; o livro escreve que ela *continua fazendo efeito normalmente* | **sim** | aberta |

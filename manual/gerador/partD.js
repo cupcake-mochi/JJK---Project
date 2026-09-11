@@ -51,7 +51,7 @@ const melhorias = [
   CAT([
     ['Condição', 'o nível dela', 'Aplica uma das treze condições. O preço é o nível dela — Leve, Média ou Pesada —, na tabela logo abaixo. Dura uma rodada. As de nível Pesada dão Teste de Resistência no fim de cada turno do alvo, e cabe só uma delas por feitiço.'],
     ['Terreno', 'Leve', 'A área vira terreno difícil, ou fica obscurecida, por uma rodada.'],
-    ['Anteparo', 'Média', 'Deixa uma parede ou escudo com 10 × Classe de pontos de vida, por 1 minuto.'],
+    ['Anteparo', 'Média', 'Deixa uma parede ou escudo com 10 × Classe de pontos de vida, por 1 minuto. Ocupa os mesmos quadrados que a Linha da Classe dele, arrumados como você quiser, cada um partilhando um lado com outro. Altura mínima 2 quadrados. Colocado num ponto a até o alcance do feitiço.'],
     ['Prende', 'Média', 'O alvo não sai do lugar até o fim do próximo turno dele. Ele pode gastar a ação pra tentar um Teste de Resistência e se soltar.'],
     ['Cerca', 'Leve', 'O alvo não consegue se aproximar de você até o fim do próximo turno dele. Acaba assim que você causar dano a ele — inclusive o dano do próprio feitiço que comprou esta Melhoria.'],
     ['Puxa', 'Média', 'Todo mundo na área é puxado 6 m na direção do centro.'],
