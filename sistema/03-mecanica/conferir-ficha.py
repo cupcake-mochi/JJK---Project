@@ -573,6 +573,103 @@ else:
     else:
         print(f'  [x] o cambio do dados.js e o da peca 26 §5 dizem o mesmo: {_mc.group(1)}')
 
+    # 7c (v0.224) — a tabela PAPEIS do dados.js contra a peca 26 §3.4.
+    # O `dados.js` guarda tres fatores fixos, o multiplicador da vantagem e o
+    # tamanho do esquadrao. NENHUM deles e autoridade: sao copias, e copia sem
+    # validador diverge — e a licao no 9 do README. Esta checagem e o outro lado.
+    _pap_js = _re.findall(
+        r"\['([^']+)',\s*(null|[\d.]+),\s*([+-]?\d+),\s*(null|'[a-z]+')\]",
+        (_re.search(r'const PAPEIS = \[(.*?)\];', _js, _re.S) or
+         _re.match('', '')).group(1) if _re.search(r'const PAPEIS = \[(.*?)\];', _js, _re.S) else '')
+    _pap_md = []
+    _i = _md.find('| papel | o que ganha | o que paga | produto |')
+    if _i >= 0:
+        _b = _md[_i:]
+        _b = _b[:_b.find('\n\n')] if '\n\n' in _b else _b
+        for _l in _b.split('\n')[2:]:
+            _c = [x.replace('*', '').replace('`', '').strip() for x in _l.split('|')[1:-1]]
+            if len(_c) == 4:
+                _pap_md.append(_c)
+
+    if not _pap_js:
+        erro('7c: nao achei o array PAPEIS no dados.js do gerador de inimigo')
+    elif not _pap_md:
+        erro('7c: nao achei a tabela dos seis papeis na peca 26 §3.4 — ela e a dona, e sem '
+             'ela esta checagem ficaria verde sem comparar nada')
+    elif len(_pap_js) != len(_pap_md):
+        erro(f'7c: o dados.js tem {len(_pap_js)} papel(eis) e a peca 26 §3.4 publica '
+             f'{len(_pap_md)}')
+    else:
+        def _dec(_s):
+            _m = _re.search(r'(\d+),(\d+)', _s)
+            return float(f'{_m.group(1)}.{_m.group(2)}') if _m else None
+
+        _mau_p = []
+        for (_nj, _vj, _dj_, _tj), _lm in zip(_pap_js, _pap_md):
+            if _nj != _lm[0]:
+                _mau_p.append(f'o dados.js diz `{_nj}` onde a peca diz `{_lm[0]}`')
+                continue
+            # o fator de vida: o que a peca publica na coluna `o que paga`, ou na
+            # `o que ganha` quando quem paga e a Defesa
+            _quer = _dec(_lm[2]) if 'vida' in _lm[2] else _dec(_lm[1])
+            if _vj == 'null':
+                if _quer is not None:
+                    _mau_p.append(f'`{_nj}` tem fator null no dados.js e a peca publica '
+                                  f'{_quer} — ou a peca fixou, ou o gerador esqueceu')
+            elif _quer is None:
+                _mau_p.append(f'`{_nj}` tem fator {_vj} no dados.js e a peca nao publica '
+                              f'numero na linha dele')
+            elif abs(float(_vj) - _quer) > 0.001:
+                _mau_p.append(f'`{_nj}`: o dados.js diz {_vj} e a peca 26 §3.4 diz {_quer}')
+            # a Defesa: a peca escreve `Defesa −2` ou `Defesa +2` na linha
+            _md_def = _re.search(r'Defesa ([−+-])\s*(\d+)', _lm[1] + ' ' + _lm[2])
+            _quer_def = 0
+            if _md_def:
+                _quer_def = int(_md_def.group(2)) * (-1 if _md_def.group(1) in '−-' else 1)
+            if int(_dj_) != _quer_def:
+                _mau_p.append(f'`{_nj}`: o dados.js move a Defesa em {_dj_} e a peca diz '
+                              f'{_quer_def:+d}')
+
+        # o multiplicador da vantagem, que a peca publica dentro da formula
+        _mv_js = _re.search(r'const MULT_VANTAGEM = ([\d.]+);', _js)
+        _mv_md = _re.search(r'\(N − 1 \+ (\d+),(\d+)\) ÷ N', _md)
+        if not _mv_js or not _mv_md:
+            _mau_p.append('nao achei o multiplicador da vantagem no dados.js ou na formula '
+                          'do §3.4 — ele e o unico numero do papel que nao esta em tabela')
+        elif abs(float(_mv_js.group(1)) - float(f'{_mv_md.group(1)}.{_mv_md.group(2)}')) > 0.001:
+            _mau_p.append(f'a vantagem: o dados.js diz {_mv_js.group(1)} e a formula do §3.4 '
+                          f'diz {_mv_md.group(1)},{_mv_md.group(2)}')
+
+        # o esquadrao, que a peca publica no §3
+        _es_js = _re.search(r'const ACOES_ESQUADRAO = (\d+);', _js)
+        _es_md = _re.search(r'esquadrão de `(\d+)` corpos', _md)
+        if not _es_js or not _es_md:
+            _mau_p.append('nao achei o tamanho do esquadrao no dados.js ou no §3 da peca')
+        elif _es_js.group(1) != _es_md.group(1):
+            _mau_p.append(f'o esquadrao: o dados.js le {_es_js.group(1)} acoes e o §3 da peca '
+                          f'publica {_es_md.group(1)} corpos')
+
+        # quem o Capanga NAO aceita, que a peca declara no §3.4
+        _fora_js = _re.findall(r"'([^']+)'",
+                               (_re.search(r'const PAPEIS_FORA_DO_CAPANGA = \[(.*?)\];', _js)
+                                or _re.match('', '')).group(1)
+                               if _re.search(r'const PAPEIS_FORA_DO_CAPANGA = \[(.*?)\];', _js)
+                               else '')
+        _mf = _re.search(r'`(\w+)` e `(\w+)` ficam fora, e o motivo está no §5', _md)
+        if not _fora_js or not _mf:
+            _mau_p.append('nao achei quem o Capanga recusa, no dados.js ou no §3.4 da peca')
+        elif sorted(_fora_js) != sorted([_mf.group(1), _mf.group(2)]):
+            _mau_p.append(f'o Capanga: o dados.js recusa {_fora_js} e a peca diz '
+                          f'{[_mf.group(1), _mf.group(2)]}')
+
+        if _mau_p:
+            erro('7c: ' + ' · '.join(_mau_p[:4]))
+        else:
+            print(f'  [x] os {len(_pap_js)} papeis do dados.js batem com a peca 26 §3.4 — os '
+                  f'fatores, a Defesa, o multiplicador da vantagem, o esquadrao e quem o '
+                  f'`Capanga` recusa')
+
+
     # 7c-bis (v0.221) — a sub-categoria: a fracao do chefe e MEDIDA desde a
     # v0.221, e nao sai mais do cambio. O dados.js copia a peca, com uma casa.
     _sub = _re.search(r'const SUBCATEGORIAS = \[(.*?)\];', _js, _re.S)

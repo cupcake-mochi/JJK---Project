@@ -35,6 +35,39 @@ const CATEGORIAS = [
   ['Calamidade',    8, 2.00, 6, true],
 ];
 
+// Os seis papeis da peca 26 §3.4. O papel e GERADOR DE BASE: o que ele ganha num
+// eixo ele paga no outro, e o produto fecha em 1,000 — ele nao muda o tamanho do
+// encontro, muda a forma dele. NENHUM valor aqui e autoridade: a peca 26 §3.4 e a
+// dona, e a checagem 7c do conferir-ficha.py compara as duas tabelas.
+//
+// Os tres primeiros tem fator fixo. Os tres ultimos saem das ACOES da categoria,
+// porque o preco deles e UMA acao — negar uma acao de quem tem uma vale o dobro de
+// negar uma de quem tem seis. O `Capanga` se le por ESQUADRAO, e nao por corpo.
+//
+// [nome, vida x (fixo, ou null), Defesa +/-, de onde sai o fator variavel]
+const PAPEIS = [
+  ['Brutamontes', 1.200, -2, null],
+  ['Baluarte',    0.800, +2, null],
+  ['Artilheiro',  0.857,  0, null],
+  ['Emboscador',   null,  0, 'vantagem'],
+  ['Controlador',  null,  0, 'acao'],
+  ['Reforço',      null,  0, 'acao'],
+];
+
+// A vantagem multiplica o dano de UM ataque por isto. Sai de duas regras com dono:
+// a peca 19 §2.2 da +25 pontos percentuais, e o inimigo acerta o meio da banda de
+// 50% a 55% que a peca 26 §3.1 publica — 77,5 / 52,5.
+const MULT_VANTAGEM = 1.476;
+
+// O `Capanga` nao age uma vez: o ESQUADRAO age oito. A peca 26 §3.4 le os papeis
+// dele por esquadrao, e o §3 publica os oito corpos.
+const ACOES_ESQUADRAO = 8;
+
+// Quantos dos seis o `Capanga` aceita: os que nao mexem na Defesa dele. A vida do
+// `Capanga` e o que um personagem derruba num golpe (peca 26 §5), e Brutamontes e
+// Baluarte quebram isso por caminhos diferentes.
+const PAPEIS_FORA_DO_CAPANGA = ['Brutamontes', 'Baluarte'];
+
 // Quem carrega Intervencao paga no dano: a Intervencao e acao EXTRA, e o fator
 // de dano dele e multiplicado por este numero. Peca 26 §6.5 e a dona.
 const FATOR_INTERVENCAO = 0.923;
@@ -112,7 +145,7 @@ const AREA_NATURAL = [
 // ficcao do Mizuki. A ficcao sai do folclore japones, escolha dele: maldicao de
 // grau baixo e yokai com outro nome.
 const PRONTAS = [
-  { nome: 'Betobeto', faixa: '2 a 4', categoria: 'Ameaça',
+  { nome: 'Betobeto', faixa: '2 a 4', categoria: 'Ameaça', papel: 'Emboscador',
     arranjo: '0 · 3 · 1 · 2 · 3', trs: 'Físico (Destreza) e Espírito',
     tamanho: "Médio", corpos_na_mesa: 1, movimentos: [],
     linha: "Maldição que segue as pessoas no escuro e só se deixa ouvir pelos passos.",
@@ -121,7 +154,7 @@ const PRONTAS = [
     acoes_multiplas: null,
     acoes_nomeadas: [{"nome": "Pisada", "texto": "*Ataque corpo a corpo:* {acerto} para acertar, alcance {alcance}, uma criatura. *Acerto:* {golpe} de dano de Concussão{vizinho}."}],
     intervencoes: [] },
-  { nome: 'Kamaitachi', faixa: '2 a 4', categoria: 'Ameaça',
+  { nome: 'Kamaitachi', faixa: '2 a 4', categoria: 'Ameaça', papel: 'Emboscador',
     arranjo: '3 · 3 · 2 · 1 · 0', trs: 'Físico (Destreza) e Vigor',
     tamanho: "Pequeno", corpos_na_mesa: 2, movimentos: [],
     linha: "Par de maldições em forma de doninha, com garras de foice, que chegam montadas no vento.",
@@ -130,7 +163,7 @@ const PRONTAS = [
     acoes_multiplas: null,
     acoes_nomeadas: [{"nome": "Foice", "texto": "*Ataque corpo a corpo:* {acerto} para acertar, alcance {alcance}, uma criatura. *Acerto:* {golpe} de dano Cortante{vizinho}."}],
     intervencoes: [] },
-  { nome: 'Tsuchigumo', faixa: '2 a 4', categoria: 'Desastre',
+  { nome: 'Tsuchigumo', faixa: '2 a 4', categoria: 'Desastre', papel: 'Controlador',
     arranjo: '3 · 2 · 3 · 1 · 0', trs: 'Físico (Força) e Vigor',
     tamanho: "Grande", corpos_na_mesa: 1, movimentos: ["Escalada"],
     linha: "Aranha gigante que faz ninho em prédios fechados e ataca do teto e das paredes.",
@@ -139,7 +172,7 @@ const PRONTAS = [
     acoes_multiplas: "A Tsuchigumo faz três ataques de Mordida, ou usa Varrida das Patas e faz dois ataques de Mordida.",
     acoes_nomeadas: [{"nome": "Mordida", "texto": "*Ataque corpo a corpo:* {acerto} para acertar, alcance {alcance}, uma criatura. *Acerto:* {golpe} de dano Perfurante{vizinho}."}, {"nome": "Varrida das Patas", "texto": "*Teste de Resistência Físico:* CD {cd}, cada criatura num `Cone` de {cone} a partir dela. *Falha:* {golpe} de dano Cortante. *Sucesso:* metade do dano."}],
     intervencoes: [{"nome": "Mordida", "texto": "A Tsuchigumo faz um ataque de Mordida. Esse ataque não pega o vizinho."}, {"nome": "Teia", "texto": "A Tsuchigumo cobre de teia um `Retângulo` de {retangulo} que encoste nela. A área é terreno difícil até o fim da luta."}, {"nome": "Subir", "texto": "A Tsuchigumo escala até {deslocamento} pela parede ou pelo teto. Esse movimento não provoca ataque de oportunidade."}] },
-  { nome: 'Hitotsume', faixa: '5 a 8', categoria: 'Ameaça',
+  { nome: 'Hitotsume', faixa: '5 a 8', categoria: 'Ameaça', papel: 'Artilheiro',
     arranjo: '0 · 2 · 2 · 2 · 3', trs: 'Espírito e Intelecto',
     tamanho: "Médio", corpos_na_mesa: 1, movimentos: [],
     linha: "Maldição com a forma de um menino de um olho só, que aparece parado e cada vez mais perto.",
@@ -148,7 +181,7 @@ const PRONTAS = [
     acoes_multiplas: null,
     acoes_nomeadas: [{"nome": "Língua", "texto": "*Ataque corpo a corpo:* {acerto} para acertar, alcance {alcance}, uma criatura. *Acerto:* {golpe} de dano de Concussão{vizinho}."}],
     intervencoes: [] },
-  { nome: 'Kitsune', faixa: '9 a 12', categoria: 'Ameaça',
+  { nome: 'Kitsune', faixa: '9 a 12', categoria: 'Ameaça', papel: 'Artilheiro',
     arranjo: '0 · 2 · 1 · 3 · 3', trs: 'Espírito e Intelecto',
     tamanho: "Médio", corpos_na_mesa: 1, movimentos: [],
     linha: "Maldição em forma de raposa que toma a aparência de gente e ataca com fogo à distância.",
@@ -157,7 +190,7 @@ const PRONTAS = [
     acoes_multiplas: null,
     acoes_nomeadas: [{"nome": "Mordida", "texto": "*Ataque corpo a corpo:* {acerto} para acertar, alcance {alcance}, uma criatura. *Acerto:* {golpe} de dano Perfurante{vizinho}."}, {"nome": "Fogo-de-Raposa", "texto": "*Ataque de conjuração à distância:* {acerto} para acertar, alcance {tecnica_alcance}, uma criatura. *Acerto:* {tecnica_dano} de dano de Fogo."}],
     intervencoes: [] },
-  { nome: 'Oni', faixa: '5 a 8', categoria: 'Desastre',
+  { nome: 'Oni', faixa: '5 a 8', categoria: 'Desastre', papel: 'Brutamontes',
     arranjo: '3 · 1 · 3 · 1 · 1', trs: 'Físico (Força) e Vigor',
     tamanho: "Grande", corpos_na_mesa: 1, movimentos: [],
     linha: "Maldição de corpo enorme, com chifres e um porrete de ferro, que luta de frente.",
@@ -177,6 +210,8 @@ const REACAO = 1;               // uma por rodada — manual, secao Inimigos
 const DESLOCAMENTO = '9 m';     // peca 3 §3, a linha da ficha da peca 26 §3
 const ALCANCE_PROJETIL = '18 m'; // o Projetil nas Classes 1 a 5 — manual, partC.js
 
-module.exports = { FAIXAS, CATEGORIAS, FATOR_INTERVENCAO, INTERVENCOES, DERIVADAS, RESISTENCIA,
+module.exports = { FAIXAS, CATEGORIAS, PAPEIS, MULT_VANTAGEM, ACOES_ESQUADRAO,
+                   PAPEIS_FORA_DO_CAPANGA,
+                   FATOR_INTERVENCAO, INTERVENCOES, DERIVADAS, RESISTENCIA,
                    SUBCATEGORIAS, TAMANHOS, AREA_NATURAL, PRONTAS, AMEACA_CONTRA_DESASTRE,
                    CAMBIO, TETO_EMPILHAMENTO, REACAO, DESLOCAMENTO, ALCANCE_PROJETIL };

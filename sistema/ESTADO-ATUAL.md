@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 11/09/2026, na v0.223 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e nove checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 11/09/2026, na v0.224 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e dez checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.223.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
+**Versão v0.224.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
 
 > ## 🆕 A v0.222 consertou duas coisas que a v0.221 deixou passar, e as duas são do §6.5 da peça 26
 >
@@ -776,7 +776,7 @@ python3 conferir-nomes.py --candidatos Vulto Matilha Bigorna
 
 | validador | pula | de quantas | o rodapé avisa? |
 |---|---|---|---|
-| `conferir-bestiario` | 3 — a categoria, o câmbio e o §6.5 (esta em três sub-blocos) | 9 | **sim** |
+| `conferir-bestiario` | 3 — a categoria, o câmbio e o §6.5 (esta em três sub-blocos) | 10 | **sim** |
 | `conferir-dano` | 1 — as treze contra o manual | 13 | **sim** — `OK, mas 1 checagem(ns) PULARAM` |
 | `conferir-manual` | **8 — todas.** Sai no `except ImportError` antes da primeira | 8 | avisa, e sai antes do rodapé |
 | `conferir-nomes` | 3 (as checagens 1, 3 e 4) | 6 | sim, **desde a v0.101** |
@@ -938,7 +938,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/25-sem-tecnica.md` | **a rota de criação de quem tem energia e não tem técnica inata**: a semente — uma aptidão aberta na criação, em `Classe Passiva 2` ou `3` —, as três portas, os renomes `Manejo` e `Auge`, o buff de `1/3 do refino` na cura da rota da Shoko, e por que a Expansão de Domínio não existe aqui |
 | `03-mecanica/conferir-sem-tecnica.py` | as **doze** checagens da peça 25, e nenhum valor de regra mora dentro dela. *A 5 é a que decide a peça: ela não guarda os `9,3` nem os `17,3` — lê a escada de gate da peça 11 §5, simula as três rotas de marco e recalcula a antecipação de cada altura, então mexer na escada de forma coerente move a banda junto e sai verde de propósito* |
 | `03-mecanica/26-bestiario.md` | **a máquina de montar inimigo**: a ficha de treze linhas com dono declarado, as três derivadas que não tinham dono nenhum — Defesa, acerto e CD —, as quatro categorias medidas em quantos personagens o inimigo exige, o câmbio de um chefe por quatro capangas, e o grau como rótulo de ficção |
-| `03-mecanica/conferir-bestiario.py` | as **nove** checagens da peça 26, e nenhum valor de regra mora dentro dela. *A 2 é a que decide a peça: ela não guarda a Defesa nem a CD do inimigo — reconstrói as duas das fórmulas da peça 1 §5 e cobra que elas devolvam, do lado do inimigo, os mesmos `50%` a `55%` de acerto e `65%` de resistência que a peça 1 §6 publica do lado do jogador.* **A 5 não guarda o câmbio: ela roda a simulação de fogo concentrado aqui dentro**, nos seis níveis da tabela do manual |
+| `03-mecanica/conferir-bestiario.py` | as **dez** checagens da peça 26, e nenhum valor de regra mora dentro dela. *A 2 é a que decide a peça: ela não guarda a Defesa nem a CD do inimigo — reconstrói as duas das fórmulas da peça 1 §5 e cobra que elas devolvam, do lado do inimigo, os mesmos `50%` a `55%` de acerto e `65%` de resistência que a peça 1 §6 publica do lado do jogador.* **A 5 não guarda o câmbio: ela roda a simulação de fogo concentrado aqui dentro**, nos seis níveis da tabela do manual |
 | `05-material/gerador-ficha/` | o gerador da ficha (Node: `node make.js`), e os dois `.docx` que ele produz |
 | `05-material/gerador-inimigo/` | **o gerador do bloco de inimigo** (Node: `node make.js`), e o `bloco-de-inimigo.docx` de quatro páginas que ele produz — as tabelas que o mestre copia, o bloco em branco e um exemplo preenchido. *O `dados.js` dele não é autoridade de nada: o bloco `7` do `conferir-ficha.py` compara com a peça 26* |
 | `conferir-repositorio.py` | a árvore, as referências mortas, os números que moram em mais de um documento, os **ponteiros de seção** — todo `peça N §M` citado tem de apontar para seção que existe, desde a v0.54 —, o **mapa** desta tabela contra a pasta, a **entrega** contra a fonte, a **pendência morta** desde a v0.100 — nenhum item de "Em aberto" pode pedir coisa que já existe —, e, **desde a v0.102**, a **contagem de checagens de cada validador, lida do código** |
@@ -1297,7 +1297,7 @@ A skill `redacao-acessivel-rpg` existe exatamente para a travessia de "nota de d
 
 **E as dez pendências que só a mesa responde são todas de nível 2** — Constituição virou obrigatória, alguém usa ação bônus, Intuição contra Percepção, se quatro perícias livres é escolha demais, se alguém rola Pontaria, se o extra da Origem é escolha de igual para igual, se a criação leva mesmo vinte a quarenta minutos, se um Legado por ficha é pouco, se três lutas de graça é o número certo, e se o descanso curto devia devolver alguma vida. **Nenhuma delas precisa das aptidões.**
 
-### A fila de agora — v0.223
+### A fila de agora — v0.224
 
 **Tudo aqui é DECISÃO TOMADA e CONSERTO NÃO FEITO.** *A v0.220 anotou e não consertou, por pedido dele.* **Quem pegar esta fila começa aplicando, e não decidindo.**
 
@@ -1317,17 +1317,15 @@ A skill `redacao-acessivel-rpg` existe exatamente para a travessia de "nota de d
 
 **As outras vinte divergências entre o manual e o livro continuam `aberta`**, e duas estão `fechada` de antes. *A lista é a oitava passada do `sistema/05-material/livro/ESTADO-revisao.md`, e a checagem `12` a lê — ela imprime a contagem dos três estados a cada rodada, então conte pela saída dela e não por esta linha.*
 
-> ## 🔴 E entrou uma que é maior que todas estas: o `papel` do inimigo nunca atravessou
+> ## ✅ O `papel` do inimigo ATRAVESSOU na v0.224
 >
-> **O Bestiário fechou os seis papéis em 10/09 — `Brutamontes`, `Artilheiro`, `Emboscador`, `Controlador`, `Guardião` e `Apoio` —, com câmbio medido contra o 4e, os seis somando `1,000`, e validação externa contra `415` statblocks do Draw Steel.** *A conta inteira está em `bestiario/04-fase-1/papel/`.*
+> **Os seis entraram no §3.4 da peça 26, com a checagem `10` em cima e vinte e uma perturbações.** *`Brutamontes` · `Baluarte` · `Artilheiro` · `Emboscador` · `Controlador` · `Reforço`.* **A regra é uma só: o que o papel paga é o inverso do que ele ganha, e o produto fecha em `1,000`.**
 >
-> **E ele não existe aqui.** *Zero ocorrências na peça 26, no `manual/`, no `gerador-inimigo/` e no livro do sistema.*
+> **Dois nomes mudaram na triagem** — *`Apoio` era Forma no manual e virou `Reforço`; `Guardião` tinha a raiz de `Guarda`, que já morrera por ser Melhoria, e virou `Baluarte`.*
 >
-> **A causa tem endereço:** *a palavra `papel` aparece zero vezes no `bestiario/PARA-O-CLAUDE-2.md`, que foi a entrega executada nas v0.221 e v0.222.* **O papel fechou antes de a entrega ser escrita, e a entrega não olhou para trás.**
+> **E as seis prontas ganharam papel com o número mudando junto**, *por martelo dele.* **Isso fechou a dívida do `Fogo-de-Raposa` que a v0.221 deixou aberta:** *a `Kitsune` passou a pagar vida pelo alcance que tinha de graça.*
 >
-> ⚠⚠ **E isso já é divergência publicada, não só falta.** *O capítulo 50 do livro do Bestiário e o `bestiario/03-bloco/RASCUNHO-5-o-bloco-em-branco.md` imprimem `‹ papel ›` no cabeçalho do bloco; o `bloco-de-inimigo.docx` daqui não tem esse campo.* **O PDF do Bestiário publica um campo de cabeçalho que o sistema não conhece — e foi ele que a entrega mandou usar como gabarito.**
->
-> **Começa por uma escolha dele:** *os seis nomes são placeholder por decisão registrada, e o `conferir-nomes.py` nunca rodou neles.*
+> ⚠ **`Baluarte` e `Reforço` estreiam sem exemplo montado**, *porque nenhuma das seis lê como defensor ou como quem ajuda outro bloco.* **É preço declarado, e não pendência.**
 
 > **⚠ E uma dívida de antes continua aberta:** *a coincidência dos `256` entre o PDF de coluna única e o `-A-atual`* — **e agora ela tem uma variável a menos, porque os dois artefatos usam fontes diferentes.** *A outra — a `Sobrecarga` escrevendo "o dobro de energia" — fechou na v0.221: o texto virou "ele não usa Reação", o degrau ficou `Leve` nos dois donos, e a checagem `5` do `conferir-acao.py` passou a proibir a frase nela também.*
 

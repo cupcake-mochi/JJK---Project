@@ -229,15 +229,33 @@ const FEM = { Minúsculo: 'Minúscula', Pequeno: 'Pequena', Médio: 'Média', Gr
 const TR_TODOS = ['Físico', 'Vigor', 'Intelecto', 'Espírito'];
 const rotNv = (a, b) => (a === b ? `nível ${a}` : `nível ${a} a ${b}`);
 
+// O papel da peca 26 §3.4. Ele REDISTRIBUI a base: o que ganha num eixo paga no
+// outro, e o produto fecha em 1,000 — o encontro nao muda de tamanho, muda de
+// forma. Os tres de fator fixo saem da tabela; os tres variaveis saem das ACOES,
+// porque o preco deles e UMA acao, e o `Capanga` se le por esquadrao.
+function fatorPapel(nome, c) {
+  if (!nome) return { vida: 1, defesa: 0 };
+  const p = X.PAPEIS.find((x) => x[0] === nome);
+  if (!p) throw new Error(`papel desconhecido: ${nome}`);
+  if (c[1] === null && X.PAPEIS_FORA_DO_CAPANGA.includes(nome)) {
+    throw new Error(`o Capanga nao aceita ${nome}: um corpo que nao cai num golpe deixa de ser Capanga`);
+  }
+  if (p[1] !== null) return { vida: p[1], defesa: p[2] };
+  const n = c[1] === null ? X.ACOES_ESQUADRAO : c[3];
+  const ganha = p[3] === 'vantagem' ? (n - 1 + X.MULT_VANTAGEM) / n : 1 + 1 / n;
+  return { vida: 1 / ganha, defesa: 0 };
+}
+
 function montaPronta(p) {
   const f = X.FAIXAS.find((x) => x[0] === p.faixa);
   if (!f) throw new Error(`a faixa "${p.faixa}" de ${p.nome} nao existe em FAIXAS`);
   const c = categoria(p.categoria);
+  const fp = fatorPapel(p.papel, c);
   const [lo, hi] = [f[1], f[2]];
   const seg = [];
   for (let nv = lo; nv <= hi; nv++) {
     const dv = derivada(nv);
-    const ch = [dv[1], dv[2], dv[3], dv[4]];
+    const ch = [dv[1] + fp.defesa, dv[2], dv[3], dv[4]];
     const u = seg[seg.length - 1];
     if (u && u[2].join('|') === ch.join('|')) u[1] = nv; else seg.push([nv, nv, ch]);
   }
@@ -276,7 +294,7 @@ function montaPronta(p) {
   if (c[4] !== (p.intervencoes.length > 0) || (c[4] && p.intervencoes.length !== X.INTERVENCOES)) {
     throw new Error(`${p.nome} (${c[0]}) com ${p.intervencoes.length} Intervencoes`);
   }
-  return { f, c, lo, hi, seg, alcance, g, enche, vida: esc(f[5], c[2]) };
+  return { f, c, lo, hi, seg, alcance, g, enche, vida: esc(f[5], c[2] * fp.vida) };
 }
 
 function blocoPronto(p) {
@@ -286,7 +304,8 @@ function blocoPronto(p) {
   out.push(P(p.notas));
   out.push(GAP(80));
   const corpos = p.corpos_na_mesa > 1 ? ` · ${NUM[p.corpos_na_mesa]} corpos` : '';
-  out.push(...nomeGrande(p.nome, `Maldição ${FEM[p.tamanho]} · ${p.categoria}${corpos} · nível ${m.lo} a ${m.hi}`));
+  const pap = p.papel ? ` · ${p.papel}` : '';
+  out.push(...nomeGrande(p.nome, `Maldição ${FEM[p.tamanho]} · ${p.categoria}${pap}${corpos} · nível ${m.lo} a ${m.hi}`));
   out.push(regra());
   for (const [a, b, v] of m.seg) {
     const pre = m.seg.length > 1 ? `*${rotNv(a, b)}* · ` : '';

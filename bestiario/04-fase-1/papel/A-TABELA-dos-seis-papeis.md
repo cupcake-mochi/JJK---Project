@@ -120,14 +120,21 @@ inimigo** à distância é o passo que esta construção dá.* **Sem ele não ex
 
 *Cada linha é o que muda no bloco. O produto dos multiplicadores é `1,000` em todas.*
 
+> ## ⚠ ATUALIZADA na v0.223/v0.224 do `Claude 2` — esta tabela estava DUAS decisões atrás
+> **Ela publicava a PRIMEIRA forma do `Controlador`**, a que cortava um terço do dano e tirava uma ação. *Aquela forma morreu porque jogava `o golpe` abaixo do piso da banda em quatro de quatro categorias; a forma `A`, que cortava por categoria, morreu porque comprava fração de ação.* **A viva é a forma `B`: ele nega uma ação inteira e paga em VIDA, e `o golpe` não se move.** *`DECIDIDO-o-controlador-por-categoria.md`.*
+>
+> **E os nomes fecharam:** *`Guardião` virou **`Baluarte`** (a raiz `Guarda` já é Melhoria no manual) e `Apoio` virou **`Reforço`** (`Apoio` é Forma no manual e entrada do glossário).*
+>
+> **A tabela viva mora agora na peça 26 §3.4**, com a checagem `10` do `conferir-bestiario.py` em cima dela. *Esta aqui é o registro de como ela foi construída.*
+
 | papel | o que ele GANHA | o que ele PAGA | produto |
 |---|---|---|---|
 | **`Brutamontes`** | `vida crua × 1,20` *(`1,200×`)* | **`Defesa −2`** *(`0,833×`)* | **`1,000`** |
-| **`Guardião`** | **`Defesa +2`** *(`1,250×`)* | `vida crua × 0,80` *(`0,800×`)* | **`1,000`** |
+| **`Baluarte`** | **`Defesa +2`** *(`1,250×`)* | `vida crua × 0,80` *(`0,800×`)* | **`1,000`** |
 | **`Artilheiro`** | **alcance**, taxa fixa *(`1,167×`)* | `vida crua × 0,857` *(`0,857×`)* | **`1,000`** |
-| **`Emboscador`** | **vantagem na 1ª rodada** *(`1,159×`)* | `vida crua × 0,863` *(`0,863×`)* | **`1,000`** |
-| **`Controlador`** | `1` ação negada do grupo | **`1` ação dele** *(`0,667×`)* | **`1,000`** — *`1 pra 1`, peça 19 §2.2* |
-| **`Apoio`** | o mesmo `1 pra 1`, **em outro bloco** | `1` ação dele, ou dano | **`1,000`** |
+| **`Emboscador`** | **vantagem em UM ataque por rodada** *(`1,159×` no `Desastre`)* | `vida crua × 0,863` *(`0,863×`)* | **`1,000`** |
+| **`Controlador`** | `1` ação negada do grupo *(`1,333×` no `Desastre`)* | **`vida crua × 0,750`** — *forma `B`* | **`1,000`** — *`1 pra 1`, peça 19 §2.2* |
+| **`Reforço`** | o mesmo `1 pra 1`, **em outro bloco** | **`vida crua`**, pelo mesmo câmbio do `Controlador` | **`1,000`** |
 
 ### O `Desastre` nv30 com cada papel, já preenchido
 
@@ -137,10 +144,10 @@ inimigo** à distância é o passo que esta construção dá.* **Sem ele não ex
 |---|---|---|---|---|---|---|---|---|
 | ‹ sem papel › | `20` | `945` | `219` | `3` | `73` | `30%` | `1,000×` | **`1,000×`** |
 | **`Brutamontes`** | **`18`** | **`1134`** | `219` | `3` | `73` | `30%` | `1,000×` | **`1,000×`** |
-| **`Guardião`** | **`22`** | **`756`** | `219` | `3` | `73` | `30%` | `1,000×` | **`1,000×`** |
+| **`Baluarte`** | **`22`** | **`756`** | `219` | `3` | `73` | `30%` | `1,000×` | **`1,000×`** |
 | **`Artilheiro`** | `20` | **`810`** | `219` | `3` | `73` | `30%` | **`1,167×`** | **`1,000×`** |
 | **`Emboscador`** | `20` | **`816`** | `219` | `3` | `73` | `30%` | **`1,159×`** | **`1,000×`** |
-| **`Controlador`** | `20` | **`1418`** | **`146`** | **`2`** | `73` | `30%` | `1,000×` | **`1,000×`** |
+| **`Controlador`** | `20` | **`709`** | `219` | `3` | `73` | `30%` | **`1,333×`** | **`1,000×`** |
 
 > ### Olhe a coluna `o golpe`: ela NÃO SE MOVE em nenhum dos seis.
 > **`30%` em todos.** *E é isso que faz a tabela ser legal: a banda de `21%`–`32%` nunca entra no

@@ -2,7 +2,7 @@
 
 **O sistema se chama `Projeto - M`**, batizado na v0.94 — era a pendência mais velha que existia aqui, aberta na v0.1. Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.223** · manual do Fundamento na **v7.27** · **vinte e seis peças de regra** e **vinte e seis validadores passando** · o Manual da Guilda em **18 capítulos**.
+**Versão v0.224** · manual do Fundamento na **v7.27** · **vinte e seis peças de regra** e **vinte e seis validadores passando** · o Manual da Guilda em **18 capítulos**.
 
 ---
 
@@ -86,7 +86,7 @@ Sem `python-docx`, **seis validadores pulam** as checagens que leem o manual em 
 
 | validador | pula | de quantas | o rodapé avisa? |
 |---|---|---|---|
-| `conferir-bestiario.py` | 3 (a `3`, a `5` e a `9` — esta em três sub-blocos) | 9 | **sim** |
+| `conferir-bestiario.py` | 3 (a `3`, a `5` e a `9` — esta em três sub-blocos) | 10 | **sim** |
 | `conferir-dano.py` | 1 (as treze contra o manual) | 13 | **sim** — `OK, mas 1 checagem(ns) PULARAM` |
 | `conferir-manual.py` | **8 — todas.** Ele sai no `except ImportError` antes da primeira | 8 | avisa, e sai antes do rodapé |
 | `conferir-nomes.py` | 3 (as checagens 1, 3 e 4) | 6 | sim, **desde a v0.101** |

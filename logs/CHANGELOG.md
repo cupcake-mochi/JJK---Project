@@ -8,6 +8,110 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.224] — 11/09/2026
+
+**O `papel` do inimigo atravessou.** *Ele fechou no projeto do Bestiário em 10/09, com câmbio medido contra o 4e e validação externa em `415` statblocks do Draw Steel, e nunca chegou aqui* — **a palavra `papel` aparece zero vezes no `PARA-O-CLAUDE-2.md`, que foi a entrega executada nas v0.221 e v0.222.** *Ele fechou antes de a entrega ser escrita, e a entrega não olhou para trás.*
+
+> **E já era divergência publicada, não só falta.** *O capítulo 50 do livro do Bestiário e o `RASCUNHO-5` imprimem `‹ papel ›` no cabeçalho do bloco.* **O PDF do Bestiário publicava um campo de cabeçalho que o sistema não conhecia — e foi ele que a entrega mandou usar como gabarito.**
+
+### 1 · Os seis, e a regra é uma só
+
+**O que o papel paga é o inverso do que ele ganha, e o produto fecha em `1,000`.** *Ele não muda o tamanho do encontro: muda a forma dele.* **É gerador de base, e não coisa que o inimigo faz na mesa** — *você escolhe a categoria, escolhe o papel, e a ficha sai preenchida.*
+
+| papel | o que ganha | o que paga |
+|---|---|---|
+| `Brutamontes` | vida crua `× 1,20` | `Defesa −2`, que vale `× 0,833` |
+| `Baluarte` | `Defesa +2`, que vale `× 1,250` | vida crua `× 0,80` |
+| `Artilheiro` | alcance no ataque, `× 1,167` | vida crua `× 0,857` |
+| `Emboscador` | vantagem em um ataque por rodada | vida crua, por categoria |
+| `Controlador` | uma ação do grupo negada | vida crua, por categoria |
+| `Reforço` | o mesmo câmbio, gasto em outro bloco | vida crua, por categoria |
+
+**Nenhum dos seis sobe o dano por rodada, e isso é o que mantém a régua funcionando.** *Papel que pagasse em dano moveria a fatia do golpe* — **foi o que derrubou a primeira forma do `Controlador`**, *que cortava um terço do dano e jogava o golpe abaixo do piso em quatro de quatro categorias.*
+
+### 2 · Dois nomes mudaram, e a triagem matou sete candidatos
+
+***Martelos do Mizuki:*** *`Apoio` virou **`Reforço`**, `Guardião` virou **`Baluarte`**, e `Controlador` fica.*
+
+| era | por que saiu |
+|---|---|
+| `Apoio` | **ocupado** — é Forma no manual *(um aliado a até `9 m`, sem dano)* e entrada do glossário. **E a colisão era de sentido também:** *a Forma mira um aliado, o papel converte o orçamento dele em benefício de outro bloco* |
+| `Guardião` | o validador passa, mas **`Guarda` já tinha morrido numa triagem anterior**, na peça 14, por ser Melhoria no manual com o nome inteiro. *Mesma raiz* |
+
+**O `Controlador` fica com uma adjacência declarada:** *`Controle` é Família de Melhoria no manual e tem regra própria.* ***Decisão dele:*** *o preço está aceito.*
+
+> **A triagem de alternativas matou sete de dezesseis:** *`Esteio` é Bênção, `Amparo` é Família no manual, `Muralha` é Feitiço pronto, `Bastião` é Caminho, e `Sentinela`, `Coleira` e `Escora` são entrega de catálogo.*
+
+### 3 · As seis prontas ganharam papel, e os números delas MUDARAM
+
+***Martelo dele, depois de eu levantar o risco:*** *aplicar de verdade.*
+
+| pronta | papel | vida antes | agora |
+|---|---|---|---|
+| `Betobeto` | `Emboscador` | `28` | **`19`** |
+| `Kamaitachi` | `Emboscador` | `28` | **`19`** |
+| `Tsuchigumo` | `Controlador` | `114` | **`85`** |
+| `Hitotsume` | `Artilheiro` | `67` | **`58`** |
+| `Kitsune` | `Artilheiro` | `97` | **`84`** |
+| `Oni` | `Brutamontes` | `270` | **`324`**, e a Defesa caiu `2` |
+
+> **⚠ O risco que eu levantei era duplo preço, e é a lição nº 2:** *as seis já tinham comprado o que fazem com o orçamento de ação, e carimbar um papel cobra de novo.* **Ele mandou aplicar mesmo assim, e isso FECHA uma dívida da v0.221** — *aquela versão registrou que "o `Fogo-de-Raposa` sai com alcance de graça, e o `Artilheiro` paga vida por alcance".* **A `Kitsune` passou a pagar pelo alcance que tinha de graça.**
+
+**`Baluarte` e `Reforço` estreiam sem exemplo montado**, *porque nenhuma das seis lê como defensor ou como quem ajuda outro bloco.* **É preço declarado da escolha, e não pendência.**
+
+### 4 · A checagem, e a metade dela que existe para não ser trivial
+
+**A `10` faz três coisas, e a do meio é a que vale:**
+
+| | |
+|---|---|
+| **`10.1`** | o invariante — ganha × paga fecha em `1,000` em toda célula que publica os dois lados |
+| **`10.2`** | **a derivação** — cada fator é reconstruído do documento DONO e comparado com o publicado |
+| **`10.3`** | as ações do §3.4 são as do §4, com a exceção declarada do `Capanga`, que ali se lê por esquadrão |
+
+> **Sem a `10.2`, o invariante passaria com dois números inventados que por acaso se multiplicam em um.** *A `10.1` não sabe se o `1,20` do `Brutamontes` é o `1,20` certo.* **É a lição nº 8 aplicada antes de ela cobrar.**
+
+**E a `7c` do `conferir-ficha.py` fechou o outro lado:** *o `dados.js` guarda os três fatores fixos, o multiplicador da vantagem e o tamanho do esquadrão, e todos são cópia.* **Agora eles são comparados com a peça.**
+
+**Vinte e uma perturbações, todas acendendo, e três contra-testes verdes.** *O que vale é o da vantagem:* **mover `+25` pontos percentuais na peça 19 e os cinco números publicados no §3.4 ao mesmo tempo continua verde** — *e é isso que prova que a checagem lê o dono em vez de guardar `1,476` escrito nela.*
+
+> ⚠ **E a regra 2 do arnês pegou cópia mal montada DUAS vezes nesta leva** — *faltava o `gerador-inimigo/` e o `05-material/`.* **Sem ela as doze primeiras teriam "acendido" pelo motivo errado, e doze vermelhos assim parecem prova.**
+
+### 5 · A tabela do Bestiário estava duas decisões atrás de si mesma
+
+**O `A-TABELA-dos-seis-papeis.md` publicava a PRIMEIRA forma do `Controlador`** — *dano `146` e `2` ações num `Desastre` de nível 30, quando a forma viva não move o dano nenhum e paga `709` de vida.* **Foram três formas:** *o corte único de um terço, o corte por categoria, e a que paga em vida.*
+
+> **A do meio morreu por um motivo que vale guardar:** *a peça 19 preça efeito em ação negada INTEIRA, e as frações por categoria compravam `0,11`, `0,75` e `1,50` de ação.* **Fração de ação não se joga.**
+
+### Adicionado
+
+- **O §3.4 da peça 26**, o papel, com as duas tabelas e a linha de onde sai cada fator. *A ficha passou de dezoito para dezenove linhas.*
+- **A checagem `10` do `conferir-bestiario.py`**, em três partes, e a **`7c` do `conferir-ficha.py`**.
+- **O §7.3 da peça 26**, com as vinte e uma perturbações e os três contra-testes.
+- **A tabela `PAPEIS` do `gerador-inimigo/dados.js`**, com o multiplicador da vantagem, o esquadrão e quem o `Capanga` recusa.
+
+### Alterado
+
+- **As seis maldições prontas**, que ganharam papel e tiveram a vida recalculada. *O `bloco-de-inimigo.docx` e o `.pdf` foram regerados.*
+- **O `make.js`**, que aplica o fator do papel na vida e na Defesa e imprime o papel no cabeçalho.
+- **O `A-TABELA-dos-seis-papeis.md` do Bestiário**, com a forma viva do `Controlador` e os dois nomes novos.
+- **A contagem de checagens do `conferir-bestiario`**, de nove para dez, nos três documentos que a publicam. *A do `LEIA-ME` foi a última a ser conferida, de novo.*
+
+### Decidido
+
+- **`Apoio` vira `Reforço` e `Guardião` vira `Baluarte`.** *O `Controlador` fica, com a adjacência ao `Controle` aceita.*
+- **As seis prontas recebem o papel que a ficção delas já dizia**, e os números mudam junto.
+
+### Achado e não consertado
+
+- **A fila da v0.220 continua nos itens `3` a `5`** — o domínio sem barreira, as faces que faltam do IBM Plex Mono, e o `B18` do outro repositório.
+- **As vinte divergências entre o manual e o livro continuam `aberta`.**
+- **A `main` continua na v0.220**, e tudo desde a v0.221 vive no ramo `bestiario-escada-viva`. *O merge é decisão dele, e ela não foi tomada.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
+
+---
+
 ## [0.223] — 11/09/2026
 
 **As três Melhorias que a v0.220 decidiu foram aplicadas, e o texto a mexer estava em mais lugar do que aquela entrada previa.** *Ela dizia que o conserto era "em DOIS arquivos por linha" — o `partD.js` e o `.docx`. São cinco arquivos e dez lugares, e só três deles têm validador em cima.*

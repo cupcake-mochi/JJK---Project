@@ -24,7 +24,7 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 ## 3. A ficha, e cada linha tem dono
 
-**Dezoito linhas. Nenhum número novo nasce aqui** — o que esta peça faz é dizer de onde cada um sai.
+**Dezenove linhas. Nenhum número novo nasce aqui** — o que esta peça faz é dizer de onde cada um sai.
 
 | linha | valor | dono |
 |---|---|---|
@@ -42,6 +42,7 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 | Testes de Resistência | dois treinados de quatro | peça 7 §6 |
 | deslocamento | `9 m` | peça 3 §3 |
 | tamanho | o alcance do golpe e onde o corpo cabe — não cobra nada | o §3.3 |
+| papel | o que ele ganha num eixo ele paga no outro, e os dois se anulam | o §3.4 |
 | **atributos** | os cinco, no orçamento da peça 2 | peça 2 §3 |
 | **características** | Passivas, aptidões e técnica, pelo §6 | peça 11, o mesmo catálogo do jogador |
 | **pacto** | opcional, e o teto do permanente é da Essência dele | peça 22 §3 |
@@ -86,6 +87,48 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 **O alcance é o lado da grade vezes o quadrado, e nos alvos o tamanho é um degrau só:** *`Grande`, `Imenso` e `Colossal` pegam o mesmo vizinho a metade.*
 
 > **⚠ E ele põe perto de um quinto de encontro FORA da conta, declarado de propósito.** *Um inimigo de `Grande` para cima entrega isso a mais que um `Médio` da mesma categoria, de graça.* **Medido no projeto do Bestiário em três sistemas:** *a defesa não muda com o tamanho em nenhum deles — `1,000 ×` em `4.791` criaturas do PF2e, `1,016 ×` em `331` do D&D —, os alvos não escalam, e o alcance escala.* **O campo põe o preço do tamanho na organização e no nível; a categoria daqui não sabe do tamanho, e isto está escrito para o mestre contar com a folga.**
+
+### 3.4 O papel — ele redistribui a base, e não acrescenta nada
+
+**O papel é um gerador de base, e não uma coisa que o inimigo faz na mesa.** *Você escolhe a categoria, escolhe o papel, e a ficha sai preenchida; as `Ações`, as `Intervenções` e os `Traços` o mestre monta depois disso.* **Por isso ele mora no cabeçalho, ao lado da categoria** — é rótulo do que gerou aquela ficha, e rótulo não gasta entrada nomeada nem pode ser desligado pelo jogador.
+
+> `‹ tamanho › ‹ tipo ›, ‹ grau › · ‹ categoria › · ‹ papel › · nível ‹ N ›`
+
+**E ele sai de graça no tamanho do encontro, porque o que ganha num eixo ele paga em outro.** *A regra é uma só e vale nos seis:* **o que ele paga é o inverso do que ele ganha**, e o produto fecha em `1,000`.
+
+| papel | o que ganha | o que paga | produto |
+|---|---|---|---|
+| `Brutamontes` | vida crua `× 1,20` | `Defesa −2`, que vale `× 0,833` | `1,000` |
+| `Baluarte` | `Defesa +2`, que vale `× 1,250` | vida crua `× 0,80` | `1,000` |
+| `Artilheiro` | alcance no ataque, `× 1,167` | vida crua `× 0,857` | `1,000` |
+| `Emboscador` | vantagem em um ataque por rodada | vida crua, pela tabela abaixo | `1,000` |
+| `Controlador` | uma ação do grupo negada | vida crua, pela tabela abaixo | `1,000` |
+| `Reforço` | o mesmo câmbio do `Controlador`, gasto em outro bloco | vida crua, pela tabela abaixo | `1,000` |
+
+**Nenhum dos seis sobe o dano por rodada, e isso não é sobra: é o que mantém a régua funcionando.** *`o golpe` — a fatia da vida de um personagem que um golpe leva — é a grandeza que o modelo do Bestiário vigia por cima, e ele vigia justamente porque ela não tem para onde subir.* **Papel que pagasse em dano moveria essa fatia** — *foi o que derrubou a primeira forma do `Controlador`, que cortava um terço do dano e jogava o golpe abaixo do piso em quatro de quatro categorias.* **Pagando em vida, a fatia não se move e a pergunta nem se abre.**
+
+**Os dois que variam com a categoria variam porque o preço deles é uma ação, e ações são declaradas pelo §4.2.** *Negar uma ação de quem tem uma vale o dobro de negar uma de quem tem seis.*
+
+| categoria | ações | `Emboscador` ganha | e paga | `Controlador` e `Reforço` ganham | e pagam |
+|---|---|---|---|---|---|
+| `Capanga` | `8` *(o esquadrão)* | `× 1,059` | `× 0,944` | `× 1,125` | `× 0,889` |
+| `Ameaça` | `1` | `× 1,476` | `× 0,677` | `× 2,000` | `× 0,500` |
+| `Desastre` | `3` | `× 1,159` | `× 0,863` | `× 1,333` | `× 0,750` |
+| `Catástrofe` | `5` | `× 1,095` | `× 0,913` | `× 1,200` | `× 0,833` |
+| `Calamidade` | `6` | `× 1,079` | `× 0,927` | `× 1,167` | `× 0,857` |
+
+**O `Capanga` toma quatro dos seis:** *`Artilheiro`, `Emboscador`, `Controlador` e `Reforço`, sempre lidos por esquadrão e não por corpo.* **`Brutamontes` e `Baluarte` ficam fora, e o motivo está no §5:** *a vida do `Capanga` é o dano do grupo dividido por quatro, que é o que um personagem derruba num golpe.* **Os dois quebram essa definição por caminhos diferentes** — *o `Brutamontes` sobe a vida, e o `Baluarte` faz o golpe errar mais vezes.* **Um corpo que não cai num golpe deixou de ser um `Capanga` e virou uma `Ameaça`.**
+
+**Nenhum fator acima foi escolhido. Cada um sai de uma regra que já tinha dono:**
+
+| o eixo | a conta | o dono |
+|---|---|---|
+| `Defesa` ↔ vida | um ponto de Defesa move `5` pontos percentuais, e o personagem acerta alvo difícil em `50%`; então `Defesa −2` deixa ele acertar `60%`, e a vida efetiva cai para `50 ÷ 60` | peça 1 §5.2 |
+| vantagem | `+25` pontos percentuais sobre o acerto, e o inimigo acerta o meio da banda que o §3.1 publica. Em um ataque de `N`, o ganho é `(N − 1 + 1,476) ÷ N` | peça 19 §2.2 |
+| ação negada | `1 pra 1` — uma ação negada do grupo vale uma ação dele, e uma ação dele é o dano por rodada dividido pelas ações. O ganho é `1 + 1 ÷ N` | peça 19 §2.2 |
+| alcance | uma rodada de três é a de aproximação, e o que o alcance poupa nela é `1/6` da saída da luta | o projeto do Bestiário, em `bestiario/04-fase-1/papel/` |
+
+> **⚠ E o `Artilheiro` e o `Emboscador` têm o ganho fora de célula nenhuma.** *O que eles pagam aparece no bloco — um `Desastre` de nível 30 sai com `810` de vida em vez de `945` —, e o que eles ganham não aparece em lugar nenhum da ficha.* **A palavra no cabeçalho é a única coisa que explica os `135` que faltam**, e é por isso que ela não pode sair de lá.
 
 ## 4. A categoria — quantos personagens ele exige
 
@@ -491,6 +534,7 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 | **7** | **nenhum valor de regra guardado aqui dentro.** Todo número vem do dono, e a checagem falha se algum sobrar como constante |
 | **8** | **resistência é vida escondida.** Os pesos dos três grupos saem da peça 19 §4, os multiplicadores do §6.3 são recalculados de `1 ÷ (1 − o que se poupa)`, e a peça tem de declarar em que moeda a resistência se paga — desde a v0.221 o multiplicador do fator, e o declarado tem de ser o calculado. *Sem essa declaração ela é vida de graça, e a categoria passa a mentir sobre o encontro* |
 | **9** | **o câmbio do §6.5, nas três portas.** A `9.1` reconstrói as `35` células do orçamento de feitiço do golpe dividido pelo que um ponto vale, com o fator de quem carrega `Intervenção`, e cobra que o `seco` seja o piso da `Classe 1` do manual; a `9.2` reconstrói a conta da aptidão do custo que a peça 11 §6.5 publica, da maior Classe da peça 18 e do câmbio de PE da peça 5 §4; a `9.3` refaz os dois empates — o da cura e o dos alvos —, com a escada de ações lida da peça 19 e o tamanho do grupo lido da categoria de fator `1,00`; e a `9.4` cobra que cada porta declare a moeda. *Nenhum dos quatro números vive aqui dentro.* **Desde a v0.221, a `9.5` confere as seis prontas do gerador contra a escada, e a `9.6` a área natural contra a escada de esfera do manual** |
+| **10** | **o papel redistribui, e não acrescenta.** A `10.1` confere que ganha × paga fecha em `1,000` em toda célula que publica os dois lados; a `10.2` **reconstrói cada fator do documento dono** — a Defesa da peça 1 §5.2, a vantagem e a ação negada da peça 19 §2.2 — e compara com o publicado; a `10.3` confere que as ações do §3.4 são as do §4, com a exceção declarada do `Capanga`, que ali se lê por esquadrão. *Sem a `10.2`, o invariante da `10.1` passaria com dois números inventados que por acaso se multiplicam em um* |
 
 ### 7.1 As quarenta e duas perturbações, em cópia isolada
 
@@ -632,6 +676,39 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 > **⚠ E o arnês achou um defeito antes de ele morder, nas duas checagens que leem quantas `Intervenções` a peça dá por luta.** *A frase do §6.5 escreve o número por extenso, e os dois dicionários de número — o desta peça e o do bloco `7` — não tinham `uma` nem `duas`.* **Hoje o número é `três`, que não tem gênero, e as duas passavam; com a peça dizendo `duas`, a `9.5` respondia que não tinha lido a peça, e o bloco `7` comparava o `2` do gerador com a palavra.** *Na primeira rodada a perturbação da `9.5` acendeu pelo motivo errado e o contra-teste do bloco `7` saiu vermelho.* **Os dois dicionários ganharam as formas femininas — o do validador do repositório já tinha —, e as duas deram o esperado.**
 >
 > ***E a linha da `3.3` que tira a declaração do tamanho não cita a declaração, de propósito:*** *a checagem procura a frase no texto inteiro, e uma linha desta tabela que a contivesse deixaria a guarda verde com a declaração apagada* — **é o defeito que a guarda da `5` já pagou no §7.1.**
+
+### 7.3 As vinte e uma perturbações da v0.224, no papel
+
+*Mesmo método das anteriores: cópia isolada, base conferida antes com `PULADA=0`, o `diff` conferido, e o vermelho lido na saída e não no código de retorno.* **A regra 2 pegou cópia mal montada duas vezes nesta leva** — *faltava o `gerador-inimigo/` e o `05-material/`, e sem ela as doze teriam "acendido" pelo motivo errado.*
+
+| checagem | perturbação | esperado | deu |
+|---|---|---|---|
+| **10.1** | o produto do `Brutamontes` vira `1,100` | acende | acende |
+| **10.1** | o `Artilheiro` ganha `1,300` e continua pagando `0,857` | acende | acende |
+| **10.1** | o `Controlador` da `Ameaça` paga `0,600` | acende | acende |
+| **10.2** | a Defesa do `Brutamontes` vira `0,900` | acende | acende |
+| **10.2** | a Defesa do `Baluarte` vira `1,190` | acende | acende |
+| **10.2** | o `Emboscador` do `Desastre` vira `1,220` | acende | acende |
+| **10.2** | o `Controlador` da `Catástrofe` vira `1,260` | acende | acende |
+| **10.2** | **o DONO:** a vantagem da peça 19 vira `30` pontos percentuais | acende | acende |
+| **10.2** | **o DONO:** o acerto do PC na peça 1 vira `55%` | acende | acende |
+| **10.3** | o `Desastre` publica `4` ações no §3.4 | acende | acende |
+| **10.3** | o esquadrão do `Capanga` vira `4` no §3.4 | acende | acende |
+| **10** | a tabela dos seis perde a linha do `Reforço` | acende | acende |
+| **10** | **contra-teste:** o `Artilheiro` muda nos dois lados e o produto fecha | fica verde | fica verde |
+| **10** | **contra-teste:** a vantagem muda NO DONO e nos cinco publicados juntos | fica verde | fica verde |
+| **7c** | o fator do `Brutamontes` no `dados.js` vira `1.300` | acende | acende |
+| **7c** | o fator do `Artilheiro` no `dados.js` vira `0.900` | acende | acende |
+| **7c** | a Defesa do `Baluarte` no `dados.js` vira `+3` | acende | acende |
+| **7c** | o `MULT_VANTAGEM` do `dados.js` vira `1.520` | acende | acende |
+| **7c** | o `ACOES_ESQUADRAO` do `dados.js` vira `6` | acende | acende |
+| **7c** | o `Capanga` passa a recusar o `Artilheiro` em vez do `Baluarte` | acende | acende |
+| **7c** | **o DONO:** o `Artilheiro` da peça vira `1,111` / `0,900` | acende | acende |
+| **7c** | **o DONO:** o esquadrão do §3 vira `6` corpos | acende | acende |
+| **7c** | a peça perde a linha do `Reforço` | acende | acende |
+| **7c** | **contra-teste:** o `Artilheiro` muda nos dois donos juntos | fica verde | fica verde |
+
+> **O contra-teste que importa é o da vantagem.** *Mover `+25` pontos percentuais na peça 19 **e** os cinco números publicados no §3.4 ao mesmo tempo continua verde* — **e é isso que prova que a `10.2` lê o dono em vez de guardar `1,476` escrito nela.** *É a lição nº 8 do `README` aplicada antes de ela cobrar.*
 
 ## 8. Em aberto
 

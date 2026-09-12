@@ -118,6 +118,7 @@ ANCORAS = {
     'pacto': (P22, r'metade da Essência'),
     'resistencia': (P19, r'\| \*\*Físicos\*\* \|'),
     'tamanho': (PECA, r'o tamanho não cobra nada'),
+    'papel': (PECA, r'o que ele paga é o inverso do que ele ganha'),
 }
 MAPA_ANCORA = {
     'nível': ('nivel',), 'categoria': ('categoria',), 'vida': ('vida',),
@@ -129,6 +130,7 @@ MAPA_ANCORA = {
     'pacto': ('pacto',),
     'resistência, vulnerabilidade e imunidade': ('resistencia',),
     'tamanho': ('tamanho',),
+    'papel': ('papel',),
 }
 
 _achadas = 0
@@ -1292,6 +1294,183 @@ else:
     if not _mau96:
         print(f'  [x] os {len(_raios)} raios sao os primeiros degraus da escada de esfera do manual, a '
               f'cobertura e o circulo em quadrados, e o cone e os retangulos cabem nos {_tol:.1%}')
+
+
+# --------------------------------------------------------------------------
+bloco('10. O PAPEL — ele redistribui a base, e os seis fecham em 1,000')
+# --------------------------------------------------------------------------
+# O §3.4 publica duas tabelas: a dos seis papeis, com o que cada um ganha e
+# paga, e a dos dois que variam com a categoria. Esta checagem faz tres coisas
+# diferentes, e a ordem importa:
+#
+#   10.1  o INVARIANTE — ganha x paga = 1,000 em toda celula publicada. E' a
+#         regra que a propria secao declara, e ela se confere sozinha.
+#   10.2  a DERIVACAO — cada fator e' reconstruido do documento DONO dele, e
+#         comparado com o publicado. Sem esta metade a 10.1 passaria com um par
+#         de numeros inventados que por acaso se multiplicam em 1: o invariante
+#         nao sabe se o 1,20 do `Brutamontes` e' o 1,20 certo.
+#   10.3  as ACOES do §3.4 batem com as do §4.2, menos o `Capanga`, que no §3.4
+#         se le por ESQUADRAO e no §4 por CORPO. A excecao e' declarada nos dois
+#         lugares, e esta guarda existe pra ela nao virar erro silencioso.
+#
+# O `Artilheiro` so entra na 10.1: o fator de alcance dele e' decisao de sabor
+# do projeto do Bestiario e nao tem dono neste repositorio. A peca diz isso na
+# coluna `o dono`, e esta checagem nao finge que deriva o que nao deriva.
+
+def _num(cel):
+    """O primeiro numero decimal da celula, em ponto. Devolve None se nao tem."""
+    m = re.search(r'(\d+),(\d+)', cel)
+    return float(f'{m.group(1)}.{m.group(2)}') if m else None
+
+
+_T34 = tabela(TXT, '| papel | o que ganha | o que paga | produto |')
+_T34C = tabela(TXT, '| categoria | ações | `Emboscador` ganha | e paga | '
+                    '`Controlador` e `Reforço` ganham | e pagam |')
+
+if len(_T34) != 6:
+    erro(f'10: achei {len(_T34)} das 6 linhas da tabela de papeis do §3.4 — ela mudou de '
+         'forma e esta checagem parou de conferir')
+elif len(_T34C) != 5:
+    erro(f'10: achei {len(_T34C)} das 5 linhas da tabela por categoria do §3.4 — ela mudou '
+         'de forma e esta checagem parou de conferir')
+else:
+    _PAPEIS = [c[0] for c in _T34]
+    print(f'  os {len(_PAPEIS)} papeis do §3.4: ' + ' · '.join(_PAPEIS))
+
+    # -- 10.1 o invariante, em toda celula que publica os dois lados ---------
+    _mau101 = 0
+    for _lin in _T34:
+        _g, _p, _prod = _num(_lin[1]), _num(_lin[2]), _num(_lin[3])
+        if _prod is None or abs(_prod - 1.0) > 0.0005:
+            erro(f'10.1: `{_lin[0]}` publica produto `{_lin[3]}`, e a secao declara que '
+                 f'os seis fecham em 1,000')
+            _mau101 += 1
+        if _g is not None and _p is not None and abs(_g * _p - 1.0) > 0.002:
+            erro(f'10.1: `{_lin[0]}` ganha {_g} e paga {_p}, e o produto sai '
+                 f'{_g * _p:.4f} em vez de 1,000')
+            _mau101 += 1
+    for _lin in _T34C:
+        for _a, _b, _quem in ((2, 3, 'Emboscador'), (4, 5, 'Controlador e Reforço')):
+            _g, _p = _num(_lin[_a]), _num(_lin[_b])
+            if _g is None or _p is None:
+                continue
+            if abs(_g * _p - 1.0) > 0.002:
+                erro(f'10.1: `{_quem}` na `{_lin[0]}` ganha {_g} e paga {_p}, e o produto '
+                     f'sai {_g * _p:.4f} em vez de 1,000')
+                _mau101 += 1
+    if not _mau101:
+        print(f'  [x] 10.1: o invariante fecha em 1,000 em toda celula que publica os dois lados')
+
+    # -- 10.2 a derivacao, cada fator contra o dono dele ---------------------
+    _PP_DADO = 1 / 20.0     # um ponto de Defesa num d20. Aritmetica do dado, nao design.
+
+    _m_ac = re.search(r'Contra o alvo difícil, em que se acerta (\d+)%', ler(P01))
+    _m_vant = re.search(r'vantagem e desvantagem \| `(\d+)` pontos percentuais', ler(P19))
+    _m_banda = re.search(r'ele acerta `(\d+)%` a `(\d+)%`', TXT)
+
+    if not (_m_ac and _m_vant and _m_banda):
+        _faltou = [_nm for _nm, _m in (('o acerto do PC na peca 1', _m_ac),
+                                       ('a vantagem em pp na peca 19', _m_vant),
+                                       ('a banda de acerto do §3.1', _m_banda)) if not _m]
+        erro('10.2: nao achei ' + ', '.join(_faltou) + ' — sem o dono esta metade nao '
+             'deriva nada, e a 10.1 sozinha passa com numero inventado')
+    else:
+        _ac_pc = int(_m_ac.group(1)) / 100.0
+        _pp_vant = int(_m_vant.group(1)) / 100.0
+        _ac_ini = (int(_m_banda.group(1)) + int(_m_banda.group(2))) / 200.0
+        _vant_mult = min(0.95, _ac_ini + _pp_vant) / _ac_ini
+        print(f'  o PC acerta alvo dificil em {_ac_pc:.0%} (peca 1), a vantagem da '
+              f'+{_pp_vant:.0%} (peca 19),')
+        print(f'  e o inimigo acerta o meio da banda do §3.1, {_ac_ini:.1%} — '
+              f'vantagem multiplica por {_vant_mult:.4f}')
+
+        _ESPERADO = {}
+        # Defesa <-> vida: o PC acerta menos contra Defesa maior, e a vida efetiva sobe
+        _ESPERADO['Brutamontes'] = _ac_pc / (_ac_pc + 2 * _PP_DADO)   # ele PAGA Defesa -2
+        _ESPERADO['Baluarte'] = _ac_pc / (_ac_pc - 2 * _PP_DADO)      # ele GANHA Defesa +2
+
+        _mau102 = 0
+        for _lin in _T34:
+            _nome = _lin[0]
+            if _nome not in _ESPERADO:
+                continue
+            _viu = _num(_lin[1]) if _nome == 'Baluarte' else _num(_lin[2])
+            _quer = _ESPERADO[_nome]
+            if _viu is None or abs(_viu - _quer) > 0.002:
+                erro(f'10.2: `{_nome}` publica `{_viu}` para o cambio de Defesa, e a peca 1 '
+                     f'dá {_quer:.3f} — 2 pontos de Defesa movem o acerto do PC de '
+                     f'{_ac_pc:.0%} para {_ac_pc + (2 * _PP_DADO if _nome == "Brutamontes" else -2 * _PP_DADO):.0%}')
+                _mau102 += 1
+
+        # os dois que variam com a categoria, derivados das acoes
+        for _lin in _T34C:
+            _cat = _lin[0]
+            _n = _num(_lin[1]) or (float(re.search(r'(\d+)', _lin[1]).group(1))
+                                   if re.search(r'(\d+)', _lin[1]) else None)
+            if not _n:
+                erro(f'10.2: nao li as acoes da `{_cat}` no §3.4')
+                _mau102 += 1
+                continue
+            _emb_viu = _num(_lin[2])
+            if _emb_viu is not None:
+                _emb_quer = (_n - 1 + _vant_mult) / _n
+                if abs(_emb_viu - _emb_quer) > 0.002:
+                    erro(f'10.2: `Emboscador` na `{_cat}` publica `{_emb_viu}`, e '
+                         f'(N-1+{_vant_mult:.3f})/N com N={_n:.0f} dá {_emb_quer:.3f}')
+                    _mau102 += 1
+            _ctl_viu = _num(_lin[4])
+            if _ctl_viu is not None:
+                _ctl_quer = 1 + 1 / _n
+                if abs(_ctl_viu - _ctl_quer) > 0.002:
+                    erro(f'10.2: `Controlador` na `{_cat}` publica `{_ctl_viu}`, e 1+1/N '
+                         f'com N={_n:.0f} dá {_ctl_quer:.3f} — a peca 19 §2.2 preca acao '
+                         f'negada 1 pra 1')
+                    _mau102 += 1
+
+        if not _mau102:
+            print('  [x] 10.2: os cinco fatores derivaveis reconstroem do dono — a Defesa '
+                  'da peca 1, a vantagem e a acao negada da peca 19')
+            print('      (o `Artilheiro` fica de fora: o alcance e decisao do projeto do '
+                  'Bestiario, e a peca declara isso)')
+
+    # -- 10.3 as acoes do §3.4 contra as do §4 ------------------------------
+    _T4 = tabela(TXT, '| categoria | personagens | fator sobre a linha do manual | '
+                      'ações | `Intervenção` |')
+    _m_esq = re.search(r'esquadrão de `(\d+)` corpos', TXT)
+    if not _T4 or not _m_esq:
+        erro('10.3: nao achei a tabela do §4 ou o tamanho do esquadrao no §3 — sem os dois '
+             'nao da para conferir se as duas leituras de acao do `Capanga` concordam')
+    else:
+        _ac4 = {}
+        for _lin in _T4:
+            _m = re.search(r'(\d+)', _lin[3])
+            if _m:
+                _ac4[_lin[0]] = int(_m.group(1))
+        _esq = int(_m_esq.group(1))
+        _mau103 = 0
+        for _lin in _T34C:
+            _cat = _lin[0]
+            _m = re.search(r'(\d+)', _lin[1])
+            if not _m:
+                continue
+            _n34 = int(_m.group(1))
+            _quer = _esq if _cat == 'Capanga' else _ac4.get(_cat)
+            if _quer is None:
+                erro(f'10.3: a `{_cat}` esta no §3.4 e nao esta na tabela do §4')
+                _mau103 += 1
+            elif _n34 != _quer:
+                _porq = (f'o `Capanga` se le por ESQUADRAO no §3.4, e o §3 diz {_esq} corpos'
+                         if _cat == 'Capanga' else f'o §4 declara {_quer}')
+                erro(f'10.3: a `{_cat}` tem {_n34} acao(oes) no §3.4 e {_porq}')
+                _mau103 += 1
+        if not _mau103:
+            print(f'  [x] 10.3: as acoes do §3.4 batem com as do §4, e o `Capanga` usa o '
+                  f'esquadrao de {_esq} corpos, que o §3 publica')
+
+    print()
+    print('  O papel nao acrescenta encontro: ele move a base de um eixo para outro.')
+    print('  Nenhum dos seis sobe o dano por rodada — e e por isso que `o golpe` fica')
+    print('  onde estava, e a banda que o modelo do Bestiario vigia nao entra no caminho.')
 
 
 if ERROS:

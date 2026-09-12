@@ -830,6 +830,7 @@ else:
         r'|dados\.js|ficha\.js|pac7\.py|v7\.py|bf2\.py|validador-feiticos\.py'
         r'|(?:sistema/)?\d\d-[a-z-]+/.*'      # caminho na arvore da FONTE
         r'|logs/.*|99-arquivo/.*|gerador-ficha/.*'
+        r'|bestiario/.*'                       # o projeto do Bestiario, que entrou no repo
         r'|RASCUNHO-trilhas\.md'              # cortado do recorte por decisao
         r')$'
     )
@@ -1028,7 +1029,15 @@ else:
     # duas sao familias ja declaradas — nome de validador e arquivo de trabalho —, e
     # nenhuma e material de mesa. As linhas daquela tabela citam "o gerador" sem o
     # nome do arquivo de proposito: eram quinze citacoes a mais para dizer o mesmo.
-    BRANCAS_AQUI, FOLGA = 171, 5
+    # v0.224: 171 -> 172, e a nova e UMA. A peca 26 ganhou o §3.4 do papel e aponta
+    # para `bestiario/04-fase-1/papel/`, que e onde a medicao dele mora. O Bestiario
+    # entrou no repositorio como pasta a parte na v0.223, e a entrega nao carrega ela —
+    # entao a citacao caiu como ponteiro PENDURADO e travou o subir.sh, do mesmo jeito
+    # que o `40-fundamento.md` da peca 14 na v0.218. E a familia ja declarada la em
+    # cima: "caminho de arquivo de trabalho", que existe na FONTE e nao vai para a
+    # entrega — o Bestiario e laudo e medicao, nunca material de mesa. O padrao ganhou
+    # `bestiario/.*` em vez de a peca esconder o ponteiro.
+    BRANCAS_AQUI, FOLGA = 172, 5
     PISO_CITACOES, TETO_BRANCOS = 120, BRANCAS_AQUI + FOLGA
     if vistos_e < PISO_CITACOES:
         erro(f'7.2: achei so {vistos_e} citacoes na entrega, e o piso e {PISO_CITACOES} — '
