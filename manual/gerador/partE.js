@@ -99,7 +99,7 @@ const maxima = [
 
   H2('Como montar'),
   NUM('Escolha a **Forma**. Projétil e Toque são de graça; as outras custam o preço normal delas, pago do orçamento de montagem.', 3),
-  NUM('Gaste o resto do orçamento em **Melhorias**, nos preços da sua maior Classe. Melhoria que escala com Classe — como Fura, que ignora 3 × Classe de RD — também usa a sua maior Classe.', 3),
+  NUM('Gaste o resto do orçamento em **Melhorias**, nos preços da sua maior Classe. Melhoria que escala com Classe — como Fura, que ignora 2 × Classe de RD — também usa a sua maior Classe.', 3),
   NUM('Dê um nome e escreva na ficha. Como a Liberação, a Técnica Máxima não se improvisa na mesa.', 3),
   GAP(120),
   BUL('Custa **a rodada inteira** e 5 × a sua maior Classe de PE.'),
@@ -115,7 +115,7 @@ const maxima = [
     '**24d8 = 108 de dano** em tudo na linha. Rodada inteira, 25 de PE.',
     '',
     '**Ponto Final** — Projétil (grátis) + Fura (Média: 5 pontos) = 5 dos 8; os 3 que sobram se perdem.',
-    '**24d8 = 108**, ignorando 15 de Redução de Dano (3 × Classe 5). Rodada inteira, 25 de PE.',
+    '**24d8 = 108**, ignorando 10 de Redução de Dano (2 × Classe 5). Rodada inteira, 25 de PE.',
   ]),
   GAP(100),
   P('**Expansão de Domínio não é a Técnica Máxima.** As duas são coisas diferentes: a Técnica Máxima é o topo da sua técnica inata, e o domínio é a mesma técnica estendida sobre o território em volta. Uma técnica feita de domínio continua tendo Técnica Máxima como qualquer outra.'),

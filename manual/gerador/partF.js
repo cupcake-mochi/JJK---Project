@@ -21,7 +21,7 @@ const pacotes = [
   H2('Classe 2 · 6 pontos · 6 PE'),
   PT([
     ['Palma Trovejante', 'Cone (−1) · Derrubado (−1) · Atrasar (+2)', '6d8 = 27 + Derrubado por uma rodada'],
-    ['Lança Negra', 'Projétil · Fura (−2) · Atrasar (+2)', '6d8 = 27, fura 6 de RD. O Atrasar pagou a Fura inteira'],
+    ['Lança Negra', 'Projétil · Fura (−2) · Atrasar (+2)', '6d8 = 27, fura 4 de RD. O Atrasar pagou a Fura inteira'],
     ['Faísca em Cadeia', 'Projétil · Salto (−2) · Gesto (+1)', '5d8 = 22 e 2d8 = 9 no segundo alvo'],
     ['Sopro', 'Cura (−2)', 'cura 4d8 = 18'],
     ['Vento a Favor', 'Apoio · Impulso (−1) · Pressa (−2)', '9 de vida temporária, vantagem no próximo teste, +6 m sem provocar ataque'],
@@ -41,7 +41,7 @@ const pacotes = [
   H2('Classe 4 · 12 pontos · 12 PE'),
   PT([
     ['Prisão de Sombras', 'Explosão (−2) · Atordoado (−6) · Escolher (−4) · Sangra (+4)', '4d8 = 18 + Atordoado durando uma rodada a mais; você toma 8'],
-    ['Julgamento Vertical', 'Linha (−2) · Fura (−4) · Precisão (−2) · Atrasar (+4)', '8d8 = 36, fura 12 de RD, +2 na CD'],
+    ['Julgamento Vertical', 'Linha (−2) · Fura (−4) · Precisão (−2) · Atrasar (+4)', '8d8 = 36, fura 8 de RD, +2 na CD'],
     ['Roubo de Fôlego', 'Projétil · Sugar (−4) · Remate (−4) · Condicional: o alvo te acertou desde o seu último turno (+4)', '8d8 = 36, cura 9, +25% em alvo abaixo de metade'],
     ['Passo do Espelho', 'Toque (Corpo a Corpo +4) · Rápido (−6) · Passo (−2) · Recuo (+4)', '12d8 = 54 como Ação Bônus, no toque'],
     ['Muralha', 'Apoio · Anteparo (−4) · Guarda (−4) · Parado (+2)', 'parede com 40 de vida, aliado com +2 de defesa e 18 de vida temporária'],
@@ -73,7 +73,7 @@ const pacotes = [
   P('Montadas com o orçamento da seção 7 — na faixa 17–20, 8 pontos nos preços da Classe 5.'),
   PT([
     ['O Fim da Linha', 'Linha (−3) · Muito Longe (−5) — 8 do orçamento', '24d8 = 108 numa linha de 60 m'],
-    ['Ponto Final', 'Projétil · Fura (−5) — 5 do orçamento, 3 se perdem', '24d8 = 108 furando 15 de RD'],
+    ['Ponto Final', 'Projétil · Fura (−5) — 5 do orçamento, 3 se perdem', '24d8 = 108 furando 10 de RD'],
   ]),
 ];
 

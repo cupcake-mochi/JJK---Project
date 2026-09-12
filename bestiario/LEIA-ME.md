@@ -96,16 +96,18 @@ E na véspera de abrir esta pasta, ele mestrou uma mesa de ND 20 **sem ficha de 
 
 ## A fila
 
+> **⚠ Três linhas desta tabela estavam marcadas como abertas depois de terem fechado, e a v0.223 do `Claude 2` corrigiu as três.** *Quando esta tabela discordar do `04-fase-1/ESTADO-onde-paramos.md` ou do `PROMPT-proximo-chat.md`, os dois vencem: eles são atualizados a cada sessão e esta lista não.*
+
 | # | item | estado |
 |---|---|---|
 | ~~1~~ | **a `Sobrecarga`** | ✅ **FECHADA em 09/09.** *"ele não usa Reação, e o feitiço dele sai com a CD `2` menor"*, degrau `Leve`. Ver `04-fase-1/sobrecarga/` |
 | ~~2~~ | **o `papel` do inimigo** | ✅ **FECHADO em 10/09.** Seis papéis no cabeçalho, tabela de câmbio pronta, os seis montam em `1,000`. Ver `04-fase-1/papel/` |
-| **1** | ⚠ **a `Intervenção`: sai da cota ou é ação extra?** | **ABERTO, achado medindo a `Sobrecarga`.** Se for "ação extra", o chefe faz `292` em vez de `219` — **`+33%` na luta** |
-| **2** | ⚠ **o piso da banda do `o golpe`** | o `Controlador` derruba pra `20%` e o piso publicado é `21%`. Falta um ponto percentual |
-| 3 | **as 4 linhas restantes da ficha** | medidas contra 4 sistemas. Duas já aplicadas no `RASCUNHO-3` |
-| 4 | **o teto de traços** | **tem número agora**: `6` entradas nomeadas, `8` no chefe. Mediana `4` do D&D 2024, média `5,4` dos `Solo` do Daggerheart |
-| 5 | **tamanho carrega regra?** | avisado, parado — mas `0` de `4` sistemas imprimem campo sem regra |
-| 6 | **o catálogo** | primeira onda, quando o bloco estiver fechado |
+| ~~3~~ | **a `Intervenção`: sai da cota ou é ação extra?** | ✅ **FECHADA, e as duas respostas valem.** *Ela é ação extra por cima das do §4.2, e se paga no dano: quem carrega `Intervenção` tem o fator multiplicado por `0,923`.* **Publicada na peça 26 §6.5, na v0.221** |
+| ~~4~~ | **o piso da banda do `o golpe`** | ✅ **FECHADA em 10/09: a banda virou `21%`–`28%`.** *O piso `20%` era do corte de dano do `Controlador`, que a forma `B` tirou, e o teto `32%` era o `Capanga` com o fator morto.* Ver `04-fase-1/fila/DECIDIDO-o-capanga.md` §1, que é a âncora |
+| ~~5~~ | **tamanho carrega regra?** | ✅ **FECHADA: saída `F`, o tamanho não cobra.** *Ele dá alcance e um degrau de vizinho, e os `≈ 18%` que isso põe fora da conta estão declarados na peça 26 §3.3* |
+| **1** | **as 4 linhas restantes da ficha** | medidas contra 4 sistemas. Duas já aplicadas no `RASCUNHO-3` |
+| **2** | **o teto de traços** | **tem número agora**: `6` entradas nomeadas, `8` no chefe. Mediana `4` do D&D 2024, média `5,4` dos `Solo` do Daggerheart |
+| **3** | **o catálogo** | primeira onda, quando o bloco estiver fechado. *Os quatro primeiros capítulos estão em `07-catalogo/`* |
 
 ## Onde está o quê
 

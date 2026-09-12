@@ -32,7 +32,7 @@ const montar = [
     ['Resolve com', 'Rolagem de acerto, com +2 da Precisão'],
     ['Melhorias', 'Fura (−1, Livre) · Precisão (−1, Livre)'],
     ['Restrições', 'Parado (+1)'],
-    ['Dano', '5d8 = 22, ignorando até 6 de Redução de Dano (3 × Classe)'],
+    ['Dano', '5d8 = 22, ignorando até 4 de Redução de Dano (2 × Classe)'],
     ['Ação', 'Padrão'],
     ['Como é', 'Ele para, aponta, diz o nome do alvo — e a distância medida abre no corpo do outro, como um corte de papel do tamanho do caminho.'],
   ], [24, 76], { boldCols: [0] }),

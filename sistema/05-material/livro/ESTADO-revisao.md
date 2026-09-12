@@ -41,9 +41,9 @@
 | Melhoria | o que diverge | mecânica | estado |
 |---|---|---|---|
 | `Sobrecarga` | o DEGRAU: `Leve` no manual, `Pesada` no livro. É a única de preço | **sim** | fechada na v0.221 |
-| `Fura` | ignora `3 × Classe` de Redução de Dano no manual, `2 × Classe` no livro | **sim** | decidida na v0.220: o LIVRO vence — `2 × Classe` |
-| `Enfraquece` | o dano do alvo cai *um quarto* no manual e `Xd4` no livro | **sim** | decidida na v0.220: o LIVRO vence — `Xd4`, X = metade do atributo de técnica |
-| `Abre Ferida` | `−2` em *Testes de Resistência* no manual, em *um* Teste no livro | **sim** | decidida na v0.220: o LIVRO vence — UM Teste |
+| `Fura` | ignora `3 × Classe` de Redução de Dano no manual, `2 × Classe` no livro | **sim** | fechada na v0.223 |
+| `Enfraquece` | o dano do alvo cai *um quarto* no manual e `Xd4` no livro | **sim** | fechada na v0.223 |
+| `Abre Ferida` | `−2` em *Testes de Resistência* no manual, em *um* Teste no livro | **sim** | fechada na v0.223 |
 | `Remenda` | o manual devolve junto a vida máxima derrubada e limita *uma vez por cena*; o livro não devolve a vida máxima e limita *uma vez por cena, por alvo* | **sim** | aberta |
 | `Toca a Alma` | o portão: Regra que *encosta em alma, mente ou conceito* no manual, Regra *direta sobre alma* no livro | **sim** | aberta |
 | `Peso Morto` | o livro cobra também `−1` no Teste de Resistência Físico; o manual não | **sim** | aberta |

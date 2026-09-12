@@ -1,4 +1,4 @@
-GERADOR DO MANUAL — Fundamento v7.26
+GERADOR DO MANUAL — Fundamento v7.27
 
 Recria o .docx do zero. Precisa de Node.js.
 
@@ -32,6 +32,20 @@ ORDEM DAS SEÇÕES (v7)
   4 Restrições → 5 Fora de combate → 6 Liberação Máxima → 7 Técnica Máxima →
   8 Regras de ouro → 9 Progressão → 10 Feitiços prontos → 11 Para o mestre →
   Apêndice
+
+O QUE MUDOU NA v7.27
+
+  As tres Melhorias em que o livro venceu o manual, decididas na v0.220 e
+  aplicadas agora. O Fura ignora 2 x Classe de Reducao de Dano e nao 3; o
+  Enfraquece derruba o dano do alvo em Xd4, com X sendo metade do atributo de
+  tecnica, e nao "um quarto" dele; e o Abre Ferida cobra -2 em UM Teste de
+  Resistencia, e nao em todos.
+
+  O Fura nao morava numa linha so. Alem da tabela de Melhorias, ele aparece no
+  primeiro exemplo do manual, na ficha do exemplo guiado, no passo 3 da Tecnica
+  Maxima e nos tres feiticos prontos que o compram: dez lugares em cinco
+  arquivos, e so a tabela tinha validador em cima. A entrada da v0.220 previa
+  "dois arquivos por linha", e a varredura achou o triplo.
 
 O QUE MUDOU NA v7.26
 

@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 11/09/2026, na v0.222 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e nove checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 11/09/2026, na v0.223 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e nove checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.222.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
+**Versão v0.223.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
 
 > ## 🆕 A v0.222 consertou duas coisas que a v0.221 deixou passar, e as duas são do §6.5 da peça 26
 >
@@ -946,7 +946,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 
 **Duas peças foram parcialmente substituídas e trazem o aviso no topo:** as seções 3 e 4 da peça 4 saíram para a peça 7, e a seção 3 e o quadro de Caminhos da peça 5 saíram para a peça 6.
 
-O manual do Fundamento **v7.26** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 366 parágrafos e 90 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na mesma versão do `.docx`, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 50 páginas.
+O manual do Fundamento **v7.27** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 366 parágrafos e 90 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na mesma versão do `.docx`, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 50 páginas.
 
 **Quem é dono da versão do manual:** a primeira linha de `manual/gerador/COMO-USAR.txt`. Toda outra cópia — a capa em `partA.js`, este arquivo, o `README.md`, o `LEIA-ME.md` e o `arquitetura.md` — é cópia, e o `conferir-repositorio.py` falha se alguma divergir. *Ele nasceu na v0.33, depois de a capa do manual passar três versões dizendo 7.5.*
 
@@ -1297,14 +1297,14 @@ A skill `redacao-acessivel-rpg` existe exatamente para a travessia de "nota de d
 
 **E as dez pendências que só a mesa responde são todas de nível 2** — Constituição virou obrigatória, alguém usa ação bônus, Intuição contra Percepção, se quatro perícias livres é escolha demais, se alguém rola Pontaria, se o extra da Origem é escolha de igual para igual, se a criação leva mesmo vinte a quarenta minutos, se um Legado por ficha é pouco, se três lutas de graça é o número certo, e se o descanso curto devia devolver alguma vida. **Nenhuma delas precisa das aptidões.**
 
-### A fila de agora — v0.220
+### A fila de agora — v0.223
 
 **Tudo aqui é DECISÃO TOMADA e CONSERTO NÃO FEITO.** *A v0.220 anotou e não consertou, por pedido dele.* **Quem pegar esta fila começa aplicando, e não decidindo.**
 
 | # | o que foi decidido | onde mexe |
 |---|---|---|
 | 1 | ~~**O inimigo vai contar energia**, com poço semelhante ao do jogador~~ | ***REVERTIDA em 09/09, pelo próprio Mizuki.*** **O inimigo NÃO conta PE, e a peça 26 §6.1 fica.** *O limite dele é rótulo de frequência — `à vontade` · `1×/rodada` · `1×/luta` · `Recarga (5-6)` —, que é o que `8` de `9` sistemas medidos fazem.* **E a `Sobrecarga` que dependia disto foi reescrita na v0.221** — *"ele não usa Reação" no lugar de "o dobro de energia"*, com o `manual/matematica/sobrecarga.py` refeito contra ela |
-| 2 | **`Fura` = `2 × Classe`, `Enfraquece` = `Xd4`, `Abre Ferida` = UM Teste** — o livro vence | `manual/gerador/partD.js` **e** o `.docx`, nos três. Depois, virar `fechada` na tabela do `ESTADO-revisao.md` |
+| 2 | ~~**`Fura` = `2 × Classe`, `Enfraquece` = `Xd4`, `Abre Ferida` = UM Teste**~~ | ✅ **APLICADA na v0.223, e foram DEZ lugares em CINCO arquivos, não um.** *O `Fura` tinha oito cópias — a tabela do `partD.js` mais sete números de exemplo no `partA`, no `partC`, no `partE` e nos três feitiços prontos do `partF`, que a checagem `12` não alcança.* **As três linhas do `ESTADO-revisao.md` estão `fechada na v0.223`, e o manual foi para a `v7.27`** |
 | 3 | **O domínio sem barreira para de perder por regra** | o capítulo da Expansão, no `partE.js` **e** no `40-fundamento.md`. *O mecanismo é o alcance, e não a inversão da regra* |
 | 4 | **O DejaVu Mono é defeito** | instalar as faces que faltam de IBM Plex Mono na pasta de fontes do usuário — só a `Regular` está lá — e rodar os **quatro** builds. *Nenhum rebuild sozinho resolve* |
 | 5 | **`B18` vai ser corrigido** | no outro repositório. *E o gerador Python é quem está atrás, não o `Ficha.gs`* |
@@ -1315,7 +1315,19 @@ A skill `redacao-acessivel-rpg` existe exatamente para a travessia de "nota de d
 |---|---|
 | **`B17`** | o campo `integridade_temp` existe na ficha e **nada no sistema concede integridade temporária**. *Ou alguma coisa deveria conceder, ou o campo sai da linha da Integridade.* **É desenho de sistema, e é dele** |
 
-**As outras vinte e duas divergências entre o manual e o livro continuam `aberta`.** *Dezesseis são mecânicas. A lista é a oitava passada do `sistema/05-material/livro/ESTADO-revisao.md`, e a checagem `12` a lê.*
+**As outras vinte divergências entre o manual e o livro continuam `aberta`**, e duas estão `fechada` de antes. *A lista é a oitava passada do `sistema/05-material/livro/ESTADO-revisao.md`, e a checagem `12` a lê — ela imprime a contagem dos três estados a cada rodada, então conte pela saída dela e não por esta linha.*
+
+> ## 🔴 E entrou uma que é maior que todas estas: o `papel` do inimigo nunca atravessou
+>
+> **O Bestiário fechou os seis papéis em 10/09 — `Brutamontes`, `Artilheiro`, `Emboscador`, `Controlador`, `Guardião` e `Apoio` —, com câmbio medido contra o 4e, os seis somando `1,000`, e validação externa contra `415` statblocks do Draw Steel.** *A conta inteira está em `bestiario/04-fase-1/papel/`.*
+>
+> **E ele não existe aqui.** *Zero ocorrências na peça 26, no `manual/`, no `gerador-inimigo/` e no livro do sistema.*
+>
+> **A causa tem endereço:** *a palavra `papel` aparece zero vezes no `bestiario/PARA-O-CLAUDE-2.md`, que foi a entrega executada nas v0.221 e v0.222.* **O papel fechou antes de a entrega ser escrita, e a entrega não olhou para trás.**
+>
+> ⚠⚠ **E isso já é divergência publicada, não só falta.** *O capítulo 50 do livro do Bestiário e o `bestiario/03-bloco/RASCUNHO-5-o-bloco-em-branco.md` imprimem `‹ papel ›` no cabeçalho do bloco; o `bloco-de-inimigo.docx` daqui não tem esse campo.* **O PDF do Bestiário publica um campo de cabeçalho que o sistema não conhece — e foi ele que a entrega mandou usar como gabarito.**
+>
+> **Começa por uma escolha dele:** *os seis nomes são placeholder por decisão registrada, e o `conferir-nomes.py` nunca rodou neles.*
 
 > **⚠ E uma dívida de antes continua aberta:** *a coincidência dos `256` entre o PDF de coluna única e o `-A-atual`* — **e agora ela tem uma variável a menos, porque os dois artefatos usam fontes diferentes.** *A outra — a `Sobrecarga` escrevendo "o dobro de energia" — fechou na v0.221: o texto virou "ele não usa Reação", o degrau ficou `Leve` nos dois donos, e a checagem `5` do `conferir-acao.py` passou a proibir a frase nela também.*
 

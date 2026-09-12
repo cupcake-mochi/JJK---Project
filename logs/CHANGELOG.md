@@ -8,6 +8,73 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.223] — 11/09/2026
+
+**As três Melhorias que a v0.220 decidiu foram aplicadas, e o texto a mexer estava em mais lugar do que aquela entrada previa.** *Ela dizia que o conserto era "em DOIS arquivos por linha" — o `partD.js` e o `.docx`. São cinco arquivos e dez lugares, e só três deles têm validador em cima.*
+
+### 1 · O `Fura` tinha oito cópias, e sete não são conferidas por ninguém
+
+| onde | o manual dizia | agora |
+|---|---|---|
+| `partD.js` · a tabela de Melhorias | `3 × Classe` de Redução de Dano | **`2 × Classe`** |
+| `partA.js` · o primeiro exemplo do manual | ignorar até `6` (numa Classe 2) | **`4`** |
+| `partC.js` · a ficha do exemplo guiado | `6` de RD (`3 × Classe`) | **`4`** (`2 × Classe`) |
+| `partE.js` · o passo 3 da Técnica Máxima | ignora `3 × Classe` de RD | **`2 × Classe`** |
+| `partE.js` · o `Ponto Final` | ignorando `15` (`3 × Classe 5`) | **`10`** |
+| `partF.js` · a `Lança Negra` | fura `6` de RD | **`4`** |
+| `partF.js` · o `Julgamento Vertical` | fura `12` de RD | **`8`** |
+| `partF.js` · o `Ponto Final` | furando `15` de RD | **`10`** |
+
+> **A checagem `12` lê a tabela de Melhorias do `partD.js` contra a do `40-fundamento.md`, e só ela.** *A prosa em volta não entra na comparação, e os sete números de exemplo nunca estiveram em tabela de divergência nenhuma — ninguém os comparava com coisa alguma.* **Os três exemplos do `partF.js` são feitiços prontos, que é o que alguém copia para a ficha.**
+
+### 2 · A frase que saiu junto, e por quê
+
+**Depois do preço do `Fura`, o manual escrevia: *"O que passar disso continua valendo."*** *O livro não tem essa frase.* **A checagem `12` compara a célula inteira, então corrigir só o número deixaria o `Fura` divergente do mesmo jeito.**
+
+> **Ela saiu, porque *"ignora ATÉ `2 × Classe`"* já carrega o que ela dizia.** *Se você quiser a frase de volta, ela entra nos dois donos ao mesmo tempo — a linha do `ESTADO-revisao.md` só fecha com os dois iguais.*
+
+### 3 · As outras duas, que eram de uma linha cada
+
+**O `Enfraquece` derruba o dano do alvo em `Xd4`, com `X` sendo metade do seu atributo de técnica** — antes ele caía *"um quarto"*, sem dado. **E o `Abre Ferida` cobra `−2` em UM Teste de Resistência**, e não em todos os Testes até o fim do turno.
+
+### 4 · A fila do Bestiário listava como aberto o que tinha fechado
+
+**Três das seis linhas da tabela `A fila` do `bestiario/LEIA-ME.md` estavam marcadas abertas depois de terem sido decididas**, e uma delas carregava um susto de `+33%` de pressão de chefe que não existe mais.
+
+| a linha | onde ela fechou |
+|---|---|
+| *"a `Intervenção`: sai da cota ou é ação extra?"* | **as duas coisas** — ela é ação extra por cima das do §4.2, e se paga no dano pelo fator `0,923`. *Peça 26 §6.5, na v0.221* |
+| *"o piso da banda do `o golpe`"* | **a banda virou `21%`–`28%`** em 10/09. *O piso `20%` era do corte de dano do `Controlador`, que a forma `B` tirou* |
+| *"tamanho carrega regra?"* | **saída `F`, o tamanho não cobra**, e os `≈ 18%` que ele põe fora da conta estão declarados na peça 26 §3.3 |
+
+> **O arquivo foi tocado em 11/09 e a tabela não**, *porque quem atualizou mexeu na caixa do topo e passou por ela.* **Entrou uma linha dizendo quem vence quando aquela tabela discordar do estado**, que é o `ESTADO-onde-paramos.md` e o `PROMPT-proximo-chat.md`.
+
+### Alterado
+
+- **Dez lugares em cinco arquivos do `manual/gerador/`**, nas três Melhorias. O manual foi para a **`v7.27`**, com o `.docx` e o `.pdf` regerados.
+- **As três linhas do `ESTADO-revisao.md`**, de `decidida na v0.220` para **`fechada na v0.223`**. *A checagem `12` passou a cobrar os dois lados delas.*
+- **A tabela `A fila` do `bestiario/LEIA-ME.md`**, com as três que já tinham fechado e a renumeração das que sobraram.
+
+### Decidido
+
+- **A frase *"O que passar disso continua valendo"* sai do `Fura`**, porque o livro vence e ele não a tem. *Ela volta nos dois donos juntos, se você quiser.*
+
+### Achado e não consertado
+
+- ### 🔴 **O `papel` do inimigo fechou no Bestiário em 10/09 e nunca atravessou para cá.**
+  *Seis papéis — `Brutamontes`, `Artilheiro`, `Emboscador`, `Controlador`, `Guardião` e `Apoio` —, com câmbio medido contra o 4e, os seis somando `1,000`, e validação externa contra `415` statblocks do Draw Steel.* **Zero ocorrências em todo o `sistema/`, no `manual/` e no `gerador-inimigo/`.**
+  > **A causa é rastreável: a palavra `papel` aparece ZERO vezes no `PARA-O-CLAUDE-2.md`**, *que foi a entrega executada nas v0.221 e v0.222.* **O papel fechou ANTES de a entrega ser escrita, e a entrega não olhou para trás.**
+  >
+  > ⚠ **E já é divergência publicada:** *o capítulo 50 do livro do Bestiário e o `RASCUNHO-5` imprimem `‹ papel ›` no cabeçalho do bloco, e o `bloco-de-inimigo.docx` daqui não tem esse campo.* **O PDF do Bestiário publica um campo de cabeçalho que o sistema não conhece.**
+  >
+  > **Os nomes dos seis são placeholder por decisão dele**, e a triagem do `conferir-nomes.py` nunca rodou neles — então trazer o papel para cá começa por uma escolha que é dele.
+- **As outras vinte divergências entre o manual e o livro continuam `aberta`**, e duas estão `fechada` de antes.
+- **A fila da v0.220 continua nos itens `3` a `5`** — o domínio sem barreira, as faces que faltam do IBM Plex Mono, e o `B18` do outro repositório.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
+
+---
+
 ## [0.222] — 11/09/2026
 
 **A v0.221 fechou a escada nova, e a passada de texto do livro do Bestiário achou duas coisas que ela deixou passar.** *As duas vieram de fora com a conta pronta, e as duas são de dono — o Mizuki bateu os martelos na mesma tarde.*
