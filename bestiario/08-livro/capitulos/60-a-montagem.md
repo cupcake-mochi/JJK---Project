@@ -200,7 +200,7 @@ aguenta apanhar. Isso são três escolhas, e cada uma tem uma linha de tabela.
 >
 > **Defesa** `14` · **Acerto** `+6` · **CD** `14` · **Refino** `4` *(proteção `+2`)*
 >
-> **Vida** `468` · **Integridade** `468` · **Deslocamento** `9 m`
+> **Vida** `468` · **Integridade** `234` · **Deslocamento** `9 m`
 >
 > **Ações**
 >

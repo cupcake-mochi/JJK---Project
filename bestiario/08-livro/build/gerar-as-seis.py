@@ -377,7 +377,7 @@ for d in MAPA:
     # o golpe saiu do cabeçalho em 11/09/2026 — ele mora no ataque, em `Ações`
     # (`fila/DECIDIDO-as-tres-respostas-da-passada.md` §1)
     out += ['> **Vida** `%s` · **Integridade** `%s` · '
-            '**Deslocamento** `%s`%s' % (r['vida'], r['vida'], DESLOC, mov), '>',
+            '**Deslocamento** `%s`%s' % (r['vida'], int(r['vida']) // 2, DESLOC, mov), '>',  # v0.228: peca 24 SS3.3
             '> %s' % atr, '>', '> %s' % trs, '>',
             '> **Resistências** — · **Imunidades** — · **Vulnerabilidades** — · **Perícias** —', '>',
             '> **Traços**', '>']

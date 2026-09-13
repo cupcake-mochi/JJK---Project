@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 13/09/2026, na v0.227 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e dez checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 13/09/2026, na v0.228 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e dez checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.227.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
+**Versão v0.228.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
 
 > ## 🆕 A v0.222 consertou duas coisas que a v0.221 deixou passar, e as duas são do §6.5 da peça 26
 >
@@ -933,7 +933,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/conferir-pactos.py` | as **catorze** checagens da peça 22, e a segunda é o par declarado: o teto por pacto não está escrito nela, é `camada ÷ (teto de atributo ÷ 2)` — ela mede relação e não constante |
 | `03-mecanica/23-bloquear.md` | **rolar para se defender**: o `2d10 + (Defesa − 11)`, por que o dado não é o d20, o `Aparar` e a `Brecha`, o invariante do modificador único, e a única condição que desliga |
 | `03-mecanica/24-dano-de-alma.md` | **a máquina de alma inteira**: a Integridade com Essência dentro, os quatro estágios, o acoplamento com a vida, a exceção que atravessa o corpo, e o Teste de Resistência de Espírito que a v0.7 decidiu e ninguém aplicou |
-| `03-mecanica/conferir-alma.py` | as **doze** checagens da peça 24. *A 12 entrou na v0.159 e lê o manual: a caixa de `Integridade` tem de nomear os dois lados, e a seção `Inimigos` tem de mandar anotar a barra.* *A 1 reconstrói a curva a partir de **três** donos independentes — a peça 24, o teto de atributo da peça 2 e a curva original lida do manual — e a 4 é a única do projeto que mede **consequência**: se o estágio 4 sumir da campanha, nenhuma outra checagem acusaria* |
+| `03-mecanica/conferir-alma.py` | as **treze** checagens da peça 24. *A 12 entrou na v0.159 e lê o manual: a caixa de `Integridade` tem de nomear os dois lados, e a seção `Inimigos` tem de mandar anotar a barra.* *A 13 entrou na v0.228: a metade do inimigo é a mesma na peça 26, no manual e no gerador, e o limite de um terço do `Cisão` sai dela.* *A 1 reconstrói a curva a partir de **três** donos independentes — a peça 24, o teto de atributo da peça 2 e a curva original lida do manual — e a 4 é a única do projeto que mede **consequência**: se o estágio 4 sumir da campanha, nenhuma outra checagem acusaria* |
 | `03-mecanica/conferir-bloquear.py` | as **oito** checagens da peça 23. *A 8 entrou na v0.159 e mede a Reação do inimigo como **relação** contra a peça 3 §3, com o `0,16` disparo por combate recalculado da enumeração.* **A checagem 1 é a única do projeto que existe para sustentar um número de OUTRA peça:** ela recalcula a neutralidade por enumeração das `2.000` combinações, e é dela que o preço do `Incapacitado` na peça 19 depende — `4,95` desde a v0.151 |
 | `03-mecanica/25-sem-tecnica.md` | **a rota de criação de quem tem energia e não tem técnica inata**: a semente — uma aptidão aberta na criação, em `Classe Passiva 2` ou `3` —, as três portas, os renomes `Manejo` e `Auge`, o buff de `1/3 do refino` na cura da rota da Shoko, e por que a Expansão de Domínio não existe aqui |
 | `03-mecanica/conferir-sem-tecnica.py` | as **doze** checagens da peça 25, e nenhum valor de regra mora dentro dela. *A 5 é a que decide a peça: ela não guarda os `9,3` nem os `17,3` — lê a escada de gate da peça 11 §5, simula as três rotas de marco e recalcula a antecipação de cada altura, então mexer na escada de forma coerente move a banda junto e sai verde de propósito* |
@@ -946,7 +946,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 
 **Duas peças foram parcialmente substituídas e trazem o aviso no topo:** as seções 3 e 4 da peça 4 saíram para a peça 7, e a seção 3 e o quadro de Caminhos da peça 5 saíram para a peça 6.
 
-O manual do Fundamento **v7.30** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 366 parágrafos e 90 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na mesma versão do `.docx`, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 50 páginas.
+O manual do Fundamento **v7.31** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 366 parágrafos e 90 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na mesma versão do `.docx`, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 50 páginas.
 
 **Quem é dono da versão do manual:** a primeira linha de `manual/gerador/COMO-USAR.txt`. Toda outra cópia — a capa em `partA.js`, este arquivo, o `README.md`, o `LEIA-ME.md` e o `arquitetura.md` — é cópia, e o `conferir-repositorio.py` falha se alguma divergir. *Ele nasceu na v0.33, depois de a capa do manual passar três versões dizendo 7.5.*
 
@@ -1297,7 +1297,7 @@ A skill `redacao-acessivel-rpg` existe exatamente para a travessia de "nota de d
 
 **E as dez pendências que só a mesa responde são todas de nível 2** — Constituição virou obrigatória, alguém usa ação bônus, Intuição contra Percepção, se quatro perícias livres é escolha demais, se alguém rola Pontaria, se o extra da Origem é escolha de igual para igual, se a criação leva mesmo vinte a quarenta minutos, se um Legado por ficha é pouco, se três lutas de graça é o número certo, e se o descanso curto devia devolver alguma vida. **Nenhuma delas precisa das aptidões.**
 
-### A fila de agora — v0.227
+### A fila de agora — v0.228
 
 **Tudo aqui é DECISÃO TOMADA e CONSERTO NÃO FEITO.** *A v0.220 anotou e não consertou, por pedido dele.* **Quem pegar esta fila começa aplicando, e não decidindo.**
 
@@ -1311,15 +1311,13 @@ A skill `redacao-acessivel-rpg` existe exatamente para a travessia de "nota de d
 | 6 | **Revisar os anti-domínios** — *decisão dele na v0.226: "vamos revisar a mecânica de como esses anti domínios funcionam"* | as quatro da peça 11, e como elas se portam contra a `Expansão sem Barreiras`. *As saídas medidas estão no rascunho, seção 8.4* |
 | 7 | **O Rescaldo e a porta de saída dele** — *adiado por ele na rodada 2* | *destruir a gravação da técnica e curar com energia reversa, com dano que acumula — obra, cap. `226`–`230`; rascunho, seção 6.8* |
 
-**E três que continuam sendo pergunta, não decisão:**
+**E uma que continua sendo pergunta, não decisão:**
 
 | | |
 |---|---|
-| **Integridade do inimigo** | **duas decisões escritas, e não achei qual substituiu qual.** *O `bestiario/04-fase-1/decisoes-fase-1.md` §3 tem a dele — "Metade da vida acho q tá bom" —, e a peça 26 §3, o manual, a peça 24 §3.3, o `conferir-bestiario.py` e o Sukuna usam "igual à vida máxima".* **Achado na v0.227** |
-| **`Armado` e `Segura`** | **o `Armado` novo faz o que a `Segura` faz, no mesmo grau `Leve`**, *e aceita qualquer gatilho até o fim da cena; o que separa as duas é a metade do PE que o `Armado` perde se não sair.* **Achado na v0.227** |
 | **`B17`** | o campo `integridade_temp` existe na ficha e **nada no sistema concede integridade temporária**. *Ou alguma coisa deveria conceder, ou o campo sai da linha da Integridade.* **É desenho de sistema, e é dele** |
 
-**✅ As vinte divergências entre o manual e o livro fecharam na v0.227**, com o `Armado` redesenhado e a vida máxima tirada do dano de alma nos lugares que a v0.176 não alcançou. *A lista é a oitava passada do `sistema/05-material/livro/ESTADO-revisao.md`, e a checagem `12` a lê — ela imprime a contagem dos três estados a cada rodada, então conte pela saída dela e não por esta linha.*
+**✅ As vinte divergências entre o manual e o livro fecharam na v0.227**, com o `Armado` redesenhado e a vida máxima tirada do dano de alma nos lugares que a v0.176 não alcançou. **As duas perguntas que ela deixou fecharam na v0.228:** *a Integridade do inimigo é metade da vida máxima, e o `Armado` não aceita gatilho no turno de quem armou.* **Para quando o Sukuna for remontado com a Expansão sem Barreiras de inimigo:** *o `montar-o-sukuna.py` não roda desde a v0.224, porque procura o `Guardião`.* *A lista é a oitava passada do `sistema/05-material/livro/ESTADO-revisao.md`, e a checagem `12` a lê — ela imprime a contagem dos três estados a cada rodada, então conte pela saída dela e não por esta linha.*
 
 > ## ✅ O `papel` do inimigo ATRAVESSOU na v0.224
 >

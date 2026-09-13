@@ -263,7 +263,7 @@ A régua é a das Classes da **peça 11 §4**, e o degrau de cada entrada foi de
 |---|---|
 | **`Classe 1`** | as quatro leem `0,00` no eixo de dano e fazem quatro coisas diferentes. *É o argumento do `Farejador` da peça 11 §4 — "não fica obsoleta porque uma permanente existe; ela faz algo que nenhuma permanente faz"* |
 | **`Classe 2`** | `Quebranto` `1,28` · `Avulsa` `0,73` — razão `1,75×`, dentro do filtro de `3,00×` |
-| **`Classe 3`** | o `Cisão` lê `0,00` e está **certo** — a v0.145 mediu que ele é `1,0×` a velocidade de bater normal, e troca de barra não é ganho. O `Insondável` mede alcance *"na cena"*, e o projeto não tem moeda para esse eixo |
+| **`Classe 3`** | o `Cisão` lê `0,00` e está **certo** — na mesa padrão ele não encurta a luta: a vida do inimigo zera antes do estágio `4` enquanto o portador fizer menos de um terço do dano do grupo, pela peça 24 §3.3. *Sozinho ele é `2,0×` bater normal desde a v0.228, quando a Integridade do inimigo virou metade da vida.* O `Insondável` mede alcance *"na cena"*, e o projeto não tem moeda para esse eixo |
 
 **E a dívida encolhida rendeu duas coisas de verdade, as duas na §6.2 e na §6.3.**
 
@@ -284,7 +284,7 @@ A régua é a das Classes da **peça 11 §4**, e o degrau de cada entrada foi de
 >
 > ***Quando o piso reprova a régua, o suspeito é o piso.*** *E a própria peça já dizia o que ele é, no §6.3: "vale `+2,0` de dano médio para quem tem Força `0` a `2`, e **zero** para quem tem Força `3`", e "encolhe com o nível, que é o oposto de derivar".* **Ele é condicional à ficha.** *O `Quebranto` e o `Anátema` não são — os dois valem o mesmo em qualquer build.*
 >
-> ***Decisão do Mizuki: o piso sai.*** **O `Contrapeso` fica declarado sem moeda, ao lado do `Insondável`** — não porque ninguém mediu, mas porque o número que existe dele descreve um subconjunto de fichas e não a entrada. *O `Cisão` fica, com `0,00`: aquele zero é incondicional, e a v0.145 mediu que ele é `1,0×` a velocidade de bater normal em qualquer ficha.*
+> ***Decisão do Mizuki: o piso sai.*** **O `Contrapeso` fica declarado sem moeda, ao lado do `Insondável`** — não porque ninguém mediu, mas porque o número que existe dele descreve um subconjunto de fichas e não a entrada. *O `Cisão` fica, com `0,00`: aquele zero é incondicional, e a v0.145 mediu que ele é `1,0×` a velocidade de bater normal em qualquer ficha.* **Na v0.228 o zero passou a depender da mesa**, *e é a mesma premissa que todo preço desta tabela usa: a luta de `3,7` rodadas da mesa padrão.*
 >
 > **A consequência é que a `Classe 3` passa a ter UMA entrada com preço, e a razão dela deixa de existir.** *Isso é honesto: as quatro entradas daquele degrau — anular técnica, cortar a alma, alcance na cena e dispensar requisito de Força — não competem no mesmo eixo.* **A checagem continua com dentes:** *ela tem guarda de contagem, então a tabela encolher acende, e no dia em que um segundo `Estigma` de `Classe 3` ganhar preço incondicional ela volta a comparar.*
 

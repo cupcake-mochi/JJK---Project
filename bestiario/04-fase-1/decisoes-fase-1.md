@@ -26,6 +26,8 @@
 
 *O bestiário velho dizia `igual à vida máxima`. Isso deixava dano de alma inútil contra chefe: uma `Calamidade` teria `1890` de Integridade.* **Com metade, ela tem `945`** — alcançável, sem virar atalho.
 
+> ✅ **Atravessou na v0.228** — *peça 24 §3.3, peça 26 §3, manual, gerador de inimigo e livro do Bestiário.* **Até lá o repositório e o próprio livro do Bestiário publicaram a barra inteira**, *e a v0.227 achou as duas decisões escritas.* **Contra a frase "sem virar atalho":** *o `Cisão` sozinho fica `2,0×` bater normal; numa mesa de quatro ele não encurta a luta — conta na peça 24 §3.3.*
+
 ## 4. Traços — sem orçamento, com TETO
 
 ***Decisão do Mizuki:*** *"concordo em n pegar orçamento, poderia ter só um máximo mesmo. Traços ser algo mais que vai ser opcional e talz, n só um 'buff passivo, vou pegar pra deixar inimigo mais forte'."*

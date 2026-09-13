@@ -31,7 +31,7 @@ No folclore japonês, o Betobeto é um som de passos que acompanha quem anda soz
 >
 > **Defesa** `14` · **Acerto** `+4` · **CD** `12` · **Refino** `1` *(proteção `+1`)*
 >
-> **Vida** `28` · **Integridade** `28` · **Deslocamento** `9 m`
+> **Vida** `28` · **Integridade** `14` · **Deslocamento** `9 m`
 >
 > **Força** `0` · **Destreza** `3` *(Iniciativa)* · **Constituição** `1` · **Inteligência** `2` · **Essência** `3`
 >
@@ -59,7 +59,7 @@ No folclore japonês, a kamaitachi é um trio de doninhas que corre dentro de um
 >
 > **Defesa** `14` · **Acerto** `+4` · **CD** `12` · **Refino** `1` *(proteção `+1`)*
 >
-> **Vida** `28` · **Integridade** `28` · **Deslocamento** `9 m`
+> **Vida** `28` · **Integridade** `14` · **Deslocamento** `9 m`
 >
 > **Força** `3` · **Destreza** `3` *(Iniciativa)* · **Constituição** `2` · **Inteligência** `1` · **Essência** `0`
 >
@@ -87,7 +87,7 @@ No folclore japonês, a Tsuchigumo é a aranha gigante que o guerreiro Minamoto 
 >
 > **Defesa** `14` · **Acerto** `+4` · **CD** `12` · **Refino** `1` *(proteção `+1`)*
 >
-> **Vida** `114` · **Integridade** `114` · **Deslocamento** `9 m` · **Escalada** `9 m`
+> **Vida** `114` · **Integridade** `57` · **Deslocamento** `9 m` · **Escalada** `9 m`
 >
 > **Força** `3` · **Destreza** `2` *(Iniciativa)* · **Constituição** `3` · **Inteligência** `1` · **Essência** `0`
 >
@@ -133,7 +133,7 @@ No folclore japonês, o hitotsume-kozō é um menino careca de um olho só que s
 >
 > *nível 6 a 8* · **Defesa** `15` · **Acerto** `+4` · **CD** `12` · **Refino** `3` *(proteção `+2`)*
 >
-> **Vida** `67` · **Integridade** `67` · **Deslocamento** `9 m`
+> **Vida** `67` · **Integridade** `33` · **Deslocamento** `9 m`
 >
 > **Força** `0` · **Destreza** `2` *(Iniciativa)* · **Constituição** `2` · **Inteligência** `2` · **Essência** `3`
 >
@@ -163,7 +163,7 @@ No folclore japonês, a kitsune é a raposa que aprende a tomar forma humana e a
 >
 > *nível 10 a 12* · **Defesa** `16` · **Acerto** `+6` · **CD** `14` · **Refino** `4` *(proteção `+2`)*
 >
-> **Vida** `97` · **Integridade** `97` · **Deslocamento** `9 m`
+> **Vida** `97` · **Integridade** `48` · **Deslocamento** `9 m`
 >
 > **Força** `0` · **Destreza** `2` *(Iniciativa)* · **Constituição** `1` · **Inteligência** `3` · **Essência** `3`
 >
@@ -195,7 +195,7 @@ No folclore japonês, o oni tem chifres, pele vermelha ou azul, e carrega um kan
 >
 > *nível 6 a 8* · **Defesa** `15` · **Acerto** `+4` · **CD** `12` · **Refino** `3` *(proteção `+2`)*
 >
-> **Vida** `270` · **Integridade** `270` · **Deslocamento** `9 m`
+> **Vida** `270` · **Integridade** `135` · **Deslocamento** `9 m`
 >
 > **Força** `3` · **Destreza** `1` *(Iniciativa)* · **Constituição** `3` · **Inteligência** `1` · **Essência** `1`
 >

@@ -31,7 +31,7 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 | nível | o nível do grupo | o mestre declara antes da mesa |
 | categoria | `Capanga` · `Ameaça` · `Desastre` · `Catástrofe` · `Calamidade` | o §4 |
 | vida | a linha do manual vezes o fator da categoria; a do `Capanga` é o dano do grupo dividido por quatro | manual, a tabela `Inimigos` |
-| **Integridade** | igual à vida máxima | manual, a seção `Inimigos` |
+| **Integridade** | metade da vida máxima, arredondando para baixo | peça 24 §3.3 |
 | dano por rodada | a linha do manual vezes o fator da categoria — e menos em quem carrega `Intervenção`, pelo §6.5 | manual, a tabela `Inimigos` |
 | ações por rodada | declaradas pela categoria | o §4.2 |
 | **Defesa** | `10 + Destreza + proteção` | peça 1 §5 |

@@ -119,13 +119,17 @@
 >
 > ***Nenhum preço publicado se move.*** **O `Classe 3` daquela entrada sempre foi escrito para esta leitura** — o *"é troca, não escada"* da peça 16 §4 só é verdade aqui. *Consertar o vocabulário não repreça: devolve o preço que já estava lá.*
 
-### 3.3 Quem não tem Caminho fica com a linha original do manual
+### 3.3 Quem não tem Caminho fica com metade da vida máxima
 
-> **Integridade de quem não é personagem jogador = a vida máxima dele.**
+> **Integridade de quem não é personagem jogador = metade da vida máxima dele, arredondando para baixo.**
 
-***E isto não é número novo: é a linha que o manual sempre teve*** — *"Integridade = vida máxima"*. **A peça 1 substituiu ela para o personagem, e o motivo está escrito lá: com Caminho e Constituição na vida, um corpo duro ganharia de graça uma alma dura.** *Um inimigo não tem Caminho e não tem Constituição — a vida dele é uma linha da tabela do manual. Então o motivo da substituição não o alcança, e a regra original continua valendo para ele.*
+**A peça 1 trocou a linha do manual, `Integridade = vida máxima`, para o personagem**, e o motivo está escrito lá: com Caminho e Constituição na vida, um corpo duro ganharia de graça uma alma dura. *Um inimigo não tem Caminho e não tem Constituição — a vida dele é uma linha da tabela do manual —, então esse motivo não o alcança.* **Da v0.159 à v0.227 valeu para ele a linha original, com a barra inteira.**
 
-**Sem esta linha, o `Cisão` fica sem alvo contra inimigo**, que era a mesma forma do item que a peça 23 §9 carregava sobre a Reação na ficha de inimigo — **e os dois fecharam juntos na v0.159**, no §3.3.1 daqui e no §3.4 de lá. *Com ela, o `Cisão` contra o chefe do nível 30 é exatamente `1,0×` a velocidade de bater normal — ele não é atalho de dano.*
+***A metade é decisão do Mizuki, tomada no Bestiário em 08/09 e aplicada aqui na v0.228:*** *"Metade da vida acho q tá bom, em um grupo é incomum ter mais de um jogador com dano na alma. Então o dano na alma vai ser mais pra afetar aqueles malefícios com base na Integridade máxima."* **O arredondamento é para baixo, como a vida do `Capanga` na peça 26.**
+
+**Sem esta linha, o `Cisão` fica sem alvo contra inimigo**, que era a mesma forma do item que a peça 23 §9 carregava sobre a Reação na ficha de inimigo — **e os dois fecharam juntos na v0.159**, no §3.3.1 daqui e no §3.4 de lá.
+
+> **⚠ A metade dobra o `Cisão` sozinho:** *contra um alvo, ele chega ao estágio `4` com metade do dano que zera a vida, e fica `2,0×` bater normal.* **Numa mesa ele não encurta a luta:** a vida zera antes do estágio `4` enquanto o portador fizer menos de **um terço** do dano do grupo, *e na mesa padrão de quatro a parte de cada um é um quarto.* **Isso vale na mesa padrão, que é a premissa de todo preço do sistema:** *numa mesa de três a vida e o estágio `4` chegam juntos, e numa de dois o `Cisão` termina a luta antes da vida.*
 
 > **O que ele ganha contra inimigo são as outras duas coisas, e as duas são canon:** *ele atravessa redução e resistência, e ele empurra o chefe pelos quatro estágios.* **O estágio 3 dá desvantagem nos ataques do chefe**, e isso vale muito mais numa luta de `3,7` rodadas do que os `12` de dano do golpe.
 
@@ -133,9 +137,9 @@
 
 **A caixa da seção `Integridade` do manual publicava `Integridade = vida máxima` sem dizer para quem.** *Desde a v0.145 aquela linha é falsa para personagem jogador — quem manda nele é a fórmula do §2 —, e ela continuou lá por treze versões, junto com a linha igual do apêndice.* **Ela nomeia os dois lados agora**, e não repete a fórmula do §2: o manual diz que personagem tem fórmula própria e aponta para fora.
 
-**E a seção `Inimigos` do manual ganhou a linha que faltava:** *a Integridade do inimigo é a vida máxima dele, então a coluna de vida da tabela serve para as duas barras — e o mestre anota as duas assim mesmo,* **porque a exceção do §3.2 tira alma sem tirar vida, e é ali que os dois números se separam.**
+**E a seção `Inimigos` do manual ganhou a linha que faltava:** *a Integridade do inimigo é metade da vida máxima dele, e ela sai da coluna de vida da tabela — o mestre anota as duas,* **porque o dano de alma desconta das duas no mesmo tanto, e a exceção do §3.2 só da alma.**
 
-> ***Não entrou coluna nova, e isso é decisão medida.*** *Uma coluna de Integridade ao lado da coluna de vida seria a mesma linha da tabela escrita duas vezes* — **lição nº 9 dentro de uma tabela só.** *O que o mestre precisa não é de um segundo valor: é de um segundo lugar para marcar o desgaste dele.*
+> ***Não entrou coluna nova, e isso é decisão medida.*** *Uma coluna de Integridade ao lado da coluna de vida seria a mesma linha dividida por dois* — **lição nº 9 dentro de uma tabela só.** *O que o mestre precisa não é de um segundo valor: é de um segundo lugar para marcar o desgaste dele.*
 >
 > **A checagem 12 lê a fonte do manual e falha se qualquer uma das duas linhas sumir**, com guarda na tabela de inimigo para o ponteiro não ficar pendurado.
 
@@ -220,9 +224,10 @@
 | **6** | o TR do dano de alma é um dos **quatro** que a peça 1 §4 declara, e `Integridade` não é nenhum deles | peça 1 §4 |
 | **7** | **exatamente uma** entrada do projeto declara a exceção que atravessa o corpo, e ela é o `Cisão` | peça 16 §4 |
 | **8** | a exceção nunca mata mais rápido que a regra geral, nos quatro arquétipos e no chefe | derivada |
-| **9** | quem não tem Caminho usa `Integridade = vida máxima`, e a linha existe escrita | esta peça §3.3 |
+| **9** | quem não tem Caminho usa `Integridade = metade da vida máxima`, e a linha existe escrita com o motivo | esta peça §3.3 |
 | **10** | a Integridade da ficha de exemplo da peça 8 é a fórmula aplicada à Essência **daquela ficha** | peça 8 |
 | **11** | a recuperação daqui e a da peça 10 §2 dizem a mesma coisa | peça 10 |
+| **13** | a fração do §3.3 é a mesma na peça 26, no manual e no gerador de inimigo, e o **um terço** do `Cisão` sai dela: a parte de cada um na mesa padrão tem de ficar abaixo dele, e o `2,0×` tem de ser o inverso da fração | esta peça §3.3 e a peça 26 §4 |
 | **12** | o manual imprime as duas linhas do §3.3.1 — a caixa de `Integridade` diz para quem a regra plana vale, e a seção `Inimigos` manda anotar a barra —, com guarda na tabela de inimigo para o ponteiro não ficar pendurado | **o manual**, a fonte das seções `Integridade` e `Inimigos`, e esta peça §3.3 |
 
 > **A checagem 4 é a que esta peça existe para ter.** *Ela é a única que mede a consequência da mudança em vez de conferir uma cópia* — se alguém mexer no `5` ou no `3`, a fórmula continua bem-formada e o estágio 4 some da campanha sem nenhuma outra checagem acusar.

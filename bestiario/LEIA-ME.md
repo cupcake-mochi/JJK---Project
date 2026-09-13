@@ -83,7 +83,7 @@ E na véspera de abrir esta pasta, ele mestrou uma mesa de ND 20 **sem ficha de 
 | **recurso do inimigo** | **ele NÃO conta PE.** O limite é rótulo de frequência: `à vontade` · `1×/rodada` · `1×/luta` · `Recarga (5-6)`. *`8` de `9` sistemas medidos fazem assim* |
 | **`Intervenção`** | a ação fora do turno. `3` por luta, cada uma uma vez, no máximo uma por rodada. Não absorve a Reação. **É o mecanismo que faz o papel do poço** |
 | **o golpe do inimigo** | é a **técnica** dele, narrada como tal, sem custo — o `Classe 0` do inimigo. *Para `civil`, `sem técnica` e `restringido` o mesmo número é um soco, uma faca ou uma ferramenta* |
-| **Integridade do inimigo** | **metade da vida** |
+| **Integridade do inimigo** | **metade da vida** ✅ *atravessou na v0.228* |
 | **Iniciativa** | é a Destreza dele — `Iniciativa = d20 + Destreza` |
 | **traços** | sem orçamento, com teto de quantidade. Não podem ser buff disfarçado |
 | **resistências** | cortam pela metade. `1–2` tipos é de graça; um grupo inteiro custa; **imunidade a grupo só com porta de saída** |

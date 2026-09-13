@@ -58,6 +58,7 @@ P02 = 'sistema/03-mecanica/02-economia-de-atributos.md'
 P12 = 'sistema/03-mecanica/12-experiencia-e-progressao.md'
 P22 = 'sistema/03-mecanica/22-pactos.md'
 P19 = 'sistema/03-mecanica/19-dano-e-condicoes.md'
+P24 = 'sistema/03-mecanica/24-dano-de-alma.md'
 DOCX = os.path.join(RAIZ, 'manual', 'Fundamento-MANUAL-v7.docx')
 
 TXT = ler(PECA)
@@ -100,7 +101,8 @@ ANCORAS = {
     'nivel': (P12, r'[Nn]ível'),
     'categoria': (PECA, r'\*\*`Desastre`\*\*'),
     'vida': (PECA, r'a linha do manual vezes o fator'),
-    'integridade': (PECA, r'igual à vida máxima'),
+    # v0.228: a linha passou a ser da peca 24 §3.3, e a fracao e conferida no conferir-alma 13
+    'integridade': (P24, r'Integridade de quem não é personagem jogador = '),
     'dano': (PECA, r'a linha do manual vezes o fator'),
     'acoes': (P19, r'O chefe age `\d+` vezes por rodada'),
     'defesa': (P01, r'10 \+ Destreza \+ prote'),

@@ -56,7 +56,7 @@ vida e dano.
 **Defesa, Acerto, CD e Refino** sobem em marco de nível. Vida, golpe e ações sobem em faixa de
 Classe. As duas escadas não coincidem, e o capítulo 6 traz uma tabela para cada.
 
-**Vida e Integridade** carregam o mesmo número.
+**Integridade** é metade da vida, arredondando para baixo.
 
 **O golpe** não tem célula. Ele é o dano de uma ação, e sai escrito dentro de cada ataque, em
 `Ações`, junto do alcance. Multiplicar pelo número de ações dá o dano por rodada, e por isso o dano

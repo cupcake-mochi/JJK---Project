@@ -1,4 +1,4 @@
-GERADOR DO MANUAL — Fundamento v7.30
+GERADOR DO MANUAL — Fundamento v7.31
 
 Recria o .docx do zero. Precisa de Node.js.
 
@@ -32,6 +32,13 @@ ORDEM DAS SEÇÕES (v7)
   4 Restrições → 5 Fora de combate → 6 Liberação Máxima → 7 Técnica Máxima →
   8 Regras de ouro → 9 Progressão → 10 Feitiços prontos → 11 Para o mestre →
   Apêndice
+
+O QUE MUDOU NA v7.31
+
+  A Integridade do inimigo passa a ser metade da vida maxima, arredondando para
+  baixo: a caixa da secao Integridade, a secao Inimigos e o glossario. O Armado
+  nao aceita gatilho no turno de quem armou, e nao entra com a Restricao
+  Carregar. A checagem 13 do conferir-alma confere a fracao nos quatro lugares.
 
 O QUE MUDOU NA v7.30
 

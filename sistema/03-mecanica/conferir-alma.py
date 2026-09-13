@@ -30,6 +30,8 @@ NENHUM VALOR FICA ESCRITO AQUI DENTRO:
   a excecao que atravessa ........ peca 16, a secao 4
   a ficha de exemplo ............. peca 8
   a recuperacao .................. peca 10, a secao 2
+  a fracao do inimigo ............ peca 24, a secao 3.3
+  a mesa padrao .................. peca 26, a secao 4
 
 Roda de 03-mecanica/, sem argumento. Sai com codigo 1 se algo quebrar.
 Ele NAO le o .docx e NAO precisa de python-docx: nao existe jeito de ele sair
@@ -447,13 +449,13 @@ else:
             print('      inteira — que e o que faz o preco publicado continuar valendo')
 
 
-bloco('9. QUEM NAO TEM CAMINHO FICA COM `Integridade = vida maxima`')
+bloco('9. QUEM NAO TEM CAMINHO TEM A LINHA DELE ESCRITA')
 
-if not re.search(r'Integridade de quem não é personagem jogador = a vida máxima', P24):
+if not re.search(r'Integridade de quem não é personagem jogador = ', P24):
     erro(9, 'a peca 24 §3.3 parou de declarar a Integridade de quem nao e personagem '
             'jogador — sem essa linha o `Cisao` fica sem alvo contra inimigo')
 else:
-    print('  [x] a peca 24 §3.3 declara a linha, e ela e a do manual sem numero novo')
+    print('  [x] a peca 24 §3.3 declara a linha do inimigo')
     if 'não tem Caminho' not in P24:
         erro(9, 'a peca 24 nao diz POR QUE a substituicao da peca 1 nao alcanca o '
                 'inimigo — sem o motivo, a linha vira excecao arbitraria')
@@ -561,7 +563,7 @@ if _int and _ini:
     _tem_pj = re.search(r'personagem[^.]{0,60}f[óo]rmula própria', S_INT, re.I)
     if not _tem_inimigo:
         erro('12a', 'a caixa `Integridade` do manual nao diz para QUEM a regra '
-                    'plana `= vida maxima` vale — e ela vale para inimigo, nao '
+                    'do inimigo vale — e ela vale para inimigo, nao '
                     'para personagem jogador (peca 24 SS3.3)')
     elif not _tem_pj:
         erro('12a', 'a caixa `Integridade` do manual nao diz que personagem tem '
@@ -570,7 +572,7 @@ if _int and _ini:
                     'v0.158')
     else:
         print('  [x] a caixa `Integridade` do manual nomeia os dois lados: a regra '
-              'plana e do')
+              'da caixa e do')
         print('      inimigo, e personagem tem formula propria')
 
     # 12b — e o manual NAO republica a formula. Ela e' montada dos numeros lidos
@@ -594,7 +596,7 @@ if _int and _ini:
     _col = _cab and re.search(r'vida', _cab.group(1), re.I)
     if not _linha:
         erro('12c', 'a secao `Inimigos` do manual nao diz que a Integridade do '
-                    'inimigo e a vida maxima dele — sem essa linha o `Cisao` fica '
+                    'inimigo sai da vida maxima dele — sem essa linha o `Cisao` fica '
                     'sem alvo contra inimigo (peca 24 SS3.3)')
     elif not _col:
         erro('12c', 'a linha da Integridade aponta para a coluna de vida da tabela '
@@ -603,6 +605,112 @@ if _int and _ini:
     else:
         print('  [x] a secao `Inimigos` manda anotar a barra, e a coluna de vida '
               'que ela cita existe')
+
+
+# ==========================================================================
+bloco('13. A FRACAO DO INIMIGO, E O TERCO DO `Cisao` QUE SAI DELA')
+# v0.228: a Integridade do inimigo virou metade da vida maxima, por decisao do
+# Mizuki no Bestiario (08/09). A decisao ficou cinco dias escrita num documento so,
+# com o repositorio e o proprio livro do Bestiario publicando a barra inteira —
+# entao esta checagem confere a MESMA fracao nos quatro lugares que publicam ela.
+#
+# E ela confere a consequencia: com Integridade = f x vida, o portador do `Cisao`
+# que faz a parte s do dano do grupo chega ao estagio 4 antes de a vida zerar se
+# f / s < 1 / (1 - s), ou seja, se s > f / (1 + f). A peca 24 publica esse limite
+# por extenso, e a peca 16 apoia o preco `0,00` nele. Se a mesa padrao da peca 26
+# encolher, ou a fracao cair, a parte de cada um passa do limite e o zero morre.
+#
+# O dicionario abaixo e VOCABULARIO, e nao valor: ele traduz a palavra que a peca
+# escreve. Nenhuma fracao nem mesa mora aqui.
+from fractions import Fraction as _Fr
+_FRACAO = {'metade': _Fr(1, 2), 'um terço': _Fr(1, 3), 'um quarto': _Fr(1, 4),
+           'um quinto': _Fr(1, 5), 'dois terços': _Fr(2, 3), 'três quartos': _Fr(3, 4)}
+_NUMERO = {'dois': 2, 'três': 3, 'quatro': 4, 'cinco': 5, 'seis': 6, 'oito': 8}
+_RAIZ13 = RAIZ
+def _ler13(rel):
+    try:
+        return open(os.path.join(_RAIZ13, rel), encoding='utf-8').read()
+    except OSError:
+        erro(13, f'nao abri {rel}')
+        return ''
+P26 = ler('26-bestiario.md')
+_GER = _ler13('sistema/05-material/gerador-inimigo/make.js')
+
+_m = re.search(r'Integridade de quem não é personagem jogador = (.+?) da vida máxima', P24)
+_f = _FRACAO.get(_m.group(1)) if _m else None
+_palavra = _m.group(1) if _m else None
+if not _m:
+    erro(13, 'a peca 24 §3.3 parou de escrever a Integridade do inimigo como fracao da vida '
+             'maxima — esta checagem nao tem de onde ler')
+elif _f is None:
+    erro(13, f'a peca 24 §3.3 escreve "{_palavra}", que nao esta no vocabulario desta checagem')
+else:
+    print(f'  a peca 24 §3.3 publica: Integridade do inimigo = {_palavra} da vida maxima ({_f})')
+    # 13a — os outros tres lugares dizem a mesma fracao
+    _l26 = re.search(r'\| \*\*Integridade\*\* \| ([^|]+) \|', P26)
+    _faltam = []
+    if not (_l26 and f'{_palavra} da vida máxima' in _l26.group(1)):
+        _faltam.append('peca 26 §3')
+    if not (S_INT and f'**Integridade = {_palavra} da vida máxima**' in S_INT):
+        _faltam.append('a caixa `Integridade` do manual')
+    if not (S_INI and re.search(r"\*\*Integridade\.\*\*[^\n]*" + re.escape(_palavra) + r' da vida máxima', S_INI)):
+        _faltam.append('a secao `Inimigos` do manual')
+    if not re.search(r"\['Integridade', 'A vida da alma\. " + re.escape(_palavra.capitalize()) + r' da vida máxima em inimigo', MANUAL):
+        _faltam.append('o glossario do manual')
+    if _faltam:
+        erro('13a', f'a fracao "{_palavra}" da peca 24 nao aparece em: ' + ', '.join(_faltam))
+    else:
+        print('  [x] a peca 26, a caixa e a secao `Inimigos` do manual e o glossario dizem a mesma fracao')
+    # 13b — o gerador de inimigo divide pelo mesmo numero, nas duas fichas que imprime
+    _div = re.findall(r'Math\.floor\(Number\(vida\) / (\d+)\)', _GER)
+    _usos = len(re.findall(r'integridadeDe\(', _GER))   # a definicao e `integridadeDe = (`, e nao casa
+    _velha = re.search(r"\*\*Integridade\*\* \\`\$\{m\.vida\}\\`|\$\{v\('vida'\)\} · \$\{v\('vida'\)\}", _GER)
+    if len(_div) != 1 or _Fr(1, int(_div[0])) != _f:
+        erro('13b', f'o gerador de inimigo divide a vida por {_div or "nada"}, e a peca 24 diz {_f}')
+    elif _usos < 2 or _velha:
+        erro('13b', f'o gerador de inimigo usa a Integridade dividida em {_usos} lugar(es), e sao '
+                    f'duas fichas (o exemplo e as prontas) — alguma voltou a imprimir a vida inteira')
+    else:
+        print(f'  [x] o gerador de inimigo divide por {_div[0]}, nas duas fichas que ele imprime')
+    # 13c — o terco do `Cisao` sai da fracao e da mesa padrao
+    _lim = _f / (1 + _f)
+    _mm = re.search(r'`personagens = fator × (\d+)`', P26)
+    _s33 = P24[P24.find('### 3.3'):P24.find('### 3.3.1')]
+    _pub = re.search(r'menos de \*\*(.+?)\*\* do dano do grupo', _s33)
+    _vel = re.search(r'fica `(\d+),(\d)×` bater normal', _s33)
+    _mesa = re.search(r'na mesa padrão de (\w+) a parte de cada um é (.+?)\.', _s33)
+    _emp = re.search(r'numa mesa de (\w+) a vida e o estágio `4` chegam juntos', _s33)
+    if not _mm:
+        erro('13c', 'nao achei a mesa padrao na peca 26 (`personagens = fator × N`)')
+    elif not (_pub and _vel and _mesa and _emp):
+        erro('13c', 'a peca 24 §3.3 parou de publicar o limite do `Cisao` por extenso — '
+                    'o limite, a velocidade, a mesa padrao e a mesa do empate')
+    else:
+        MESA = int(_mm.group(1))
+        _ruins = []
+        if _FRACAO.get(_pub.group(1)) != _lim:
+            _ruins.append(f'o limite publicado e "{_pub.group(1)}", e a conta da {_lim}')
+        if _Fr(int(_vel.group(1)) * 10 + int(_vel.group(2)), 10) != 1 / _f:
+            _ruins.append(f'a velocidade publicada e {_vel.group(1)},{_vel.group(2)}x, e a conta da {float(1 / _f):.1f}x')
+        if _NUMERO.get(_mesa.group(1)) != MESA or _FRACAO.get(_mesa.group(2)) != _Fr(1, MESA):
+            _ruins.append(f'a peca 24 diz mesa de "{_mesa.group(1)}" com parte "{_mesa.group(2)}", e a peca 26 diz {MESA}')
+        if _Fr(1, _NUMERO.get(_emp.group(1), 10**6)) != _lim:
+            _ruins.append(f'o empate publicado e na mesa de "{_emp.group(1)}", e a conta poe ele em {1 / _lim}')
+        if _Fr(1, MESA) >= _lim:
+            _ruins.append(f'na mesa padrao de {MESA} a parte de cada um ({_Fr(1, MESA)}) ja alcanca o limite '
+                          f'({_lim}) — o `Cisao` passa a encurtar a luta e o `0,00` da peca 16 morre')
+        if '`2,0×`' not in P16 and _vel and f'`{_vel.group(1)},{_vel.group(2)}×`' not in P16:
+            _ruins.append('a peca 16 nao traz a velocidade do `Cisao` que a peca 24 publica')
+        if f'menos de {_pub.group(1)} do dano do grupo' not in P16:
+            _ruins.append('a peca 16 apoia o `0,00` num limite diferente do da peca 24')
+        if _ruins:
+            for _r in _ruins:
+                erro('13c', _r)
+        else:
+            print(f'  [x] limite do `Cisao` = {_f} / (1 + {_f}) = {_lim}, publicado como "{_pub.group(1)}"')
+            print(f'  [x] velocidade sozinho = 1 / {_f} = {float(1 / _f):.1f}x, e a peca 16 traz a mesma')
+            print(f'  [x] mesa padrao {MESA} (peca 26): a parte de cada um e {_Fr(1, MESA)}, abaixo do limite;'
+                  f' o empate cai na mesa de {1 / _lim}')
 
 
 # ==========================================================================
@@ -617,4 +725,5 @@ print('>>> TUDO OK — a formula reproduz a curva do manual na Essencia de refer
 print('    a referencia e derivada do teto, as duas reservas custam o mesmo por ponto,')
 print('    o estagio 4 continua disparando, os quatro estagios batem com o manual,')
 print('    o TR e um dos quatro que existem, so o `Cisao` atravessa o corpo e ele nao')
-print('    ficou mais rapido, o inimigo tem alvo, e a ficha de exemplo obedece.')
+print('    ficou mais rapido, o inimigo tem alvo, a ficha de exemplo obedece, e a metade')
+print('    do inimigo e a mesma em todo lugar, com o terco do `Cisao` saindo dela.')

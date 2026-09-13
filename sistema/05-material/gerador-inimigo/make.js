@@ -50,6 +50,8 @@ function categoria(nome) {
 // no 9 num numero que o mestre le em voz alta.
 const arred = (x) => Math.ceil(x - 0.5);
 const esc = (v, f) => (v == null ? '—' : String(arred(v * f)));
+// v0.228: a Integridade do inimigo e metade da vida maxima, para baixo (peca 24 SS3.3).
+const integridadeDe = (vida) => (/^\d+$/.test(String(vida)) ? String(Math.floor(Number(vida) / 2)) : vida);
 
 // O dano vira DADO, no molde do resto do hobby: o `Guia do Mestre` de 2014 manda
 // traduzir a margem de dano numa expressao de dado, e a peca 26 §4.4 e a dona da
@@ -171,7 +173,7 @@ function bloco(f, primeiro, rotulo) {
   out.push(...nomeGrande(v('nome'), f ? `${v('categoria')} ${v('sub')} · nível do grupo ${v('nivel')}` : 'tamanho · categoria · sub-categoria · nível do grupo · grau'));
   out.push(regra());
   out.push(stat('Defesa', v('defesa'), vazio));
-  out.push(stat('Vida e Integridade', f ? `${v('vida')} · ${v('vida')}` : '', vazio));
+  out.push(stat('Vida e Integridade', f ? `${v('vida')} · ${integridadeDe(v('vida'))}` : '', vazio));
   out.push(stat('Deslocamento', f ? X.DESLOCAMENTO : '', vazio));
   out.push(regra(C.linha));
   out.push(TBL(['FOR', 'DES', 'CON', 'INT', 'ESS'],
@@ -314,7 +316,7 @@ function blocoPronto(p) {
   const mov = p.movimentos.map((mv) => ` · **${mv}** \`${X.DESLOCAMENTO}\``).join('');
   // o golpe saiu do cabecalho em 11/09/2026: ele mora no ataque, em `Acoes`, com o
   // alcance junto (`Bestiario/04-fase-1/fila/DECIDIDO-as-tres-respostas-da-passada.md` §1)
-  out.push(stat('', `**Vida** \`${m.vida}\` · **Integridade** \`${m.vida}\` · **Deslocamento** \`${X.DESLOCAMENTO}\`${mov}`));
+  out.push(stat('', `**Vida** \`${m.vida}\` · **Integridade** \`${integridadeDe(m.vida)}\` · **Deslocamento** \`${X.DESLOCAMENTO}\`${mov}`));
   out.push(regra(C.linha));
   const at = p.arranjo.split('·').map((s) => s.trim());
   out.push(TBL(['FOR', 'DES', 'CON', 'INT', 'ESS'], [at], [20, 20, 20, 20, 20], { centerCols: [0, 1, 2, 3, 4] }));

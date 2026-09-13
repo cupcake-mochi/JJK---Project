@@ -8,6 +8,52 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.228] — 13/09/2026
+
+**As duas perguntas que a v0.227 deixou fecharam.** *A Integridade do inimigo passa a ser metade da vida máxima; o `Armado` não aceita gatilho no turno de quem armou e não entra com `Carregar`.*
+
+### 1 · A Integridade do inimigo é metade da vida máxima
+
+***Decisão do Mizuki, que já era dele desde 08/09 no Bestiário:*** *"Metade da vida, nunca vai ter mais de um player dando dano na alma na mesa, ta tudo bem".* **A decisão da fase 1 nunca tinha passado para o repositório**, *e o próprio livro do Bestiário imprimia "Vida e Integridade carregam o mesmo número".*
+
+**A conta que ele viu antes de decidir**, *numa luta de `3,7` rodadas, mesa de quatro, um jogador de alma, olhando só os estágios que chegam pela fração:*
+
+| | igual à vida máxima | metade da vida |
+|---|---|---|
+| **`Toca a Alma`**, antes da vida zerar | nenhum estágio | estágio `1` na rodada `3,7` |
+| **`Cisão`**, antes da vida zerar | estágio `1` na `3,7` | estágio `1` na `1,85` e `2` na `3,7` |
+| **`Cisão` sozinho**, até o estágio `4` | `1,0×` bater normal | `2,0×` |
+
+**O preço `0,00` do `Cisão` na peça 16 continua de pé, e a conta diz por quê:** *com Integridade `f ×` vida, o portador que faz a parte `s` do dano do grupo só chega ao estágio `4` antes da vida se `s > f / (1 + f)`.* **Com a metade o limite é um terço, e na mesa padrão de quatro cada um faz um quarto.** *Numa mesa de três a vida e o estágio `4` chegam juntos, e numa de dois o `Cisão` termina a luta antes da vida; a peça 24 §3.3 escreve os dois casos.*
+
+### 2 · O `Armado` e a `Segura`
+
+***Rota escolhida por ele:*** **o gatilho do `Armado` não pode ser um momento do seu próprio turno.** *Um `Armado` com gatilho "no começo do meu próximo turno" fazia o que a `Segura` faz, no mesmo grau `Leve`.* **Agora a `Segura` atrasa para o seu turno, e o `Armado` responde ao que acontece fora dele.**
+
+**E o `Armado` não entra num feitiço com a Restrição `Carregar`.** *O `Carregar` devolve `Média` por atrasar o feitiço um turno, e quem compra `Armado` já queria atrasar* — **a mesma lógica do veto a `Remate` com `Aquecer`, na v0.227.**
+
+### 3 · A checagem
+
+**A `13` do `conferir-alma.py` lê a fração da peça 24 §3.3 e confere quatro coisas:** *que a peça 26, a caixa e a seção `Inimigos` do manual e o glossário dizem a mesma fração; que o gerador de inimigo divide pelo mesmo número nas duas fichas que imprime; que o "um terço", o `2,0×` e a mesa do empate saem da fração; e que a parte de cada um na mesa padrão da peça 26 fica abaixo do limite.* **Quatorze perturbações acendem, cada uma pelo motivo certo, e duas contra-provas ficam verdes** — *uma delas muda a fração, a mesa e as consequências juntas, e passa.*
+
+### Alterado
+
+- **O manual foi para a `v7.31`**, com o `.docx` e o `.pdf` regerados, e os quatro artefatos do livro refeitos.
+- **A peça 24 §3.3** ganhou a regra nova, a decisão com as palavras dele, e a borda do `Cisão`; **o §7** ganhou a checagem `13`.
+- **A peça 26 §3** aponta a Integridade para a peça 24, e a âncora do `conferir-bestiario.py` foi junto.
+- **A peça 16** apoia o `0,00` do `Cisão` no limite de um terço, e registra que o zero passou a depender da mesa.
+- **O gerador de inimigo** imprime a metade no exemplo e nas seis prontas, e o `bloco-de-inimigo` foi regerado.
+- **O livro do Bestiário:** *o capítulo 5 diz a regra, e os capítulos 6 e 8 saíram dos geradores com a Integridade nova.* **Os dois PDFs foram refeitos.**
+- **O `decisoes-fase-1.md` e o `LEIA-ME.md` do Bestiário** marcam que a decisão atravessou.
+
+### Achado e não consertado
+
+- **O `montar-o-sukuna.py` não roda desde a v0.224.** *Ele procura a linha do `Guardião`, que virou `Baluarte` na triagem de nome.* **O Sukuna do `bestiario/05-sukuna/` fica como retrato de 10/09, com a Integridade de `1131` da regra velha**, *e é remontado junto com a Expansão sem Barreiras de inimigo, que a v0.226 deixou anotada.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
+
+---
+
 ## [0.227] — 13/09/2026
 
 **As vinte divergências de Melhoria e Restrição entre o manual e o livro fecharam.** *Decididas pelo Mizuki em três rodadas; em cada linha o texto dos dois documentos ficou igual, e o `ESTADO-revisao.md` marca as vinte `fechada na v0.227`.* **No caminho apareceu uma regra de dano de alma que a v0.176 mudou só no livro.**

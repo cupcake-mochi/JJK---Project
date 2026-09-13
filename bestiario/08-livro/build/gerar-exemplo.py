@@ -183,7 +183,7 @@ out += ['', '> ### %s' % NOME, '>', '> *Maldição Grande · **%s** · **%s** ·
         '> **Defesa** `%d` · **Acerto** `%s` · **CD** `%s` · **Refino** `%s` *(proteção `%s`)*'
         % (defesa, L['acerto'], L['CD'], L['refino'], L['proteção']), '>',
         # o golpe saiu do cabeçalho em 11/09/2026 — ele mora no ataque, em `Ações`
-        '> **Vida** `%d` · **Integridade** `%d` · **Deslocamento** `9 m`' % (vida, vida), '>',
+        '> **Vida** `%d` · **Integridade** `%d` · **Deslocamento** `9 m`' % (vida, vida // 2), '>',  # v0.228: Integridade = metade da vida, peca 24 SS3.3
         '> **Ações**', '>',
         '> **Ações Múltiplas.** A %s faz %s ataques de Garra, ou usa Choro e faz %s ataques de '
         'Garra.' % (NOME, NUM[acoes], NUM[acoes - 1]), '>',

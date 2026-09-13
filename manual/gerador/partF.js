@@ -132,7 +132,7 @@ const mestre = [
 
   H2('Integridade'),
   BOX(null, [
-    '**Integridade = vida máxima.** É a vida da alma.',
+    '**Integridade = metade da vida máxima**, arredondando para baixo. É a vida da alma.',
     'Isso vale para inimigo e para tudo que não seja personagem jogador. **Personagem tem fórmula própria**, com um atributo dentro, e quem é dono dela é o sistema em volta — é o que impede corpo duro de vir com alma dura de graça.',
   ]),
   GAP(100),
@@ -172,7 +172,7 @@ const mestre = [
   P('O dano dele por rodada é 90% da vida de um personagem daquele nível — ele não derruba o grupo, mas derruba alguém, e derruba mais de um se concentrar. Ele perde a ação três vezes por rodada contra um grupo de quatro, e age três vezes enquanto eles agem quatro: o golpe é um terço da linha.'),
   GAP(100),
   P('E a ficha dele carrega mais duas coisas, que são de marcar e não de calcular:'),
-  BUL('**Integridade.** A do inimigo é a que a seção acima escreve: a vida máxima dele, então a coluna de vida serve para as duas barras. Anote as duas assim mesmo — o sistema em volta tem efeito que tira alma sem tirar vida, e é aí que os dois números se separam.'),
+  BUL('**Integridade.** A do inimigo é a que a seção acima escreve: metade da vida máxima dele, tirada da coluna de vida. Anote as duas: dano na alma desconta das duas no mesmo tanto, e o sistema em volta tem efeito que tira alma sem tirar vida.'),
   BUL('**Reação.** Uma por rodada, como qualquer personagem, e ela volta no começo do turno dele. Ela paga o ataque de oportunidade, e o sistema em volta pendura outras coisas nela. Marque quando for gasta: guardar ou não é decisão do inimigo do mesmo jeito que é da mesa.'),
 
   H2('PvP'),
@@ -227,7 +227,7 @@ const apendice = [
       ['Passiva', 'Efeito que fica ligado sozinho. Tem Classe de Livre a 3 e custa espaço de feitiço.'],
       ['Uso Livre', 'O que a sua técnica faz de graça fora de combate.'],
       ['Técnica Máxima', 'O golpe de dano fixo do nível 17 em diante. Volta depois do fim do seu terceiro turno seguinte.'],
-      ['Integridade', 'A vida da alma. Igual à vida máxima em inimigo; personagem tem fórmula própria, e o dono dela é o sistema em volta. Só volta com descanso longo ou com a Melhoria Remenda.'],
+      ['Integridade', 'A vida da alma. Metade da vida máxima em inimigo; personagem tem fórmula própria, e o dono dela é o sistema em volta. Só volta com descanso longo ou com a Melhoria Remenda.'],
       ['Dano na alma', 'Tira vida e Integridade no mesmo tanto. Entra cheio, e o Teste de Resistência decide o estágio, não o número.'],
     ],
     [20, 80], { boldCols: [0] }
