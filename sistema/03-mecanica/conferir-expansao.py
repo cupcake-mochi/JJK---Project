@@ -31,6 +31,8 @@ CONTRATO DE INVARIANTES:
      existir; o custo por rodada cabe no orcamento de lutas do dia sem evaporar; a
      Petala nunca anula o Acerto inteiro; e o raio do Dominio Simples nunca passa
      de um movimento, senao a defesa vira cerca.
+  9. O DEGRAU SEM BARREIRAS (v0.226) exclui o generalista DE PROPOSITO, e so ele;
+     o raio de todos sai de 1,5 m x refino; nada disso mora aqui dentro.
   8. O CLASH NAO TEM NUMERO, E A CAIXA DO REFINO CONCORDA COM A SECAO. Ele entrou
      na v0.173 e e' todo derivado: cascata de refino, tipo de Acerto, e corrida
      sobre estado que ja tinha dono. A caixa REFINO, EM UMA LINHA declara em
@@ -703,6 +705,7 @@ if _PE:
                 'requisito': r'refino 4',
                 'desconto': r'refino de PE na incompleta',
                 'tempo': r'\*\*Dura metade do refino em rodadas\*\*',
+                'tamanho': r'raio de [\d,]+ m × refino',
                 'conquista': r'Quem tem mais \*\*refino',
             }
             _faltam = []
@@ -1028,6 +1031,179 @@ else:
             if not _ruim:
                 print(f'  [x] a tabela do livro cobre a Essencia de 0 a {_teto.group(1)} e cada '
                       f'celula e a conta: 1/{_div}, para baixo, nunca menos de {_piso}.')
+
+# --------------------------------------------------------------------------
+bloco('12. A EXPANSAO SEM BARREIRAS — o degrau de cima, e o raio de todos')
+# --------------------------------------------------------------------------
+# v0.226. O degrau entrou no manual (dono) e no livro (copia) depois de tres
+# rodadas com o Mizuki; o rascunho e' o RASCUNHO-expansao-sem-barreira.md, e a
+# secao 9 dele e' a especificacao. Nenhum valor mora aqui: cada numero e' LIDO do
+# manual e cobrado no livro, e o que tem dono fora da Expansao (teto de refino,
+# maestria por nivel, a pericia, o Dominio Simples) e' lido do dono.
+#
+# ⚠ ESTE DEGRAU QUEBRA O INVARIANTE 3 DE PROPOSITO. O generalista termina com
+# refino 8 e nunca chega nele — "so dois conseguem, e eram outro patamar". A
+# checagem 12.2 cobra que a exclusao seja EXATAMENTE a declarada: generalista
+# fora, as outras duas rotas dentro. Se outra rota cair fora, o gate barra mais
+# do que a decisao pediu.
+_AQ12 = os.path.dirname(os.path.abspath(__file__))
+_P2_12 = open(os.path.join(_AQ12, '02-economia-de-atributos.md'), encoding='utf-8').read()
+_P7_12 = open(os.path.join(_AQ12, '07-pericias-e-oficios.md'), encoding='utf-8').read()
+_P11_12 = open(os.path.join(_AQ12, '11-aptidoes-e-refino.md'), encoding='utf-8').read()
+_P18_12 = open(os.path.join(_AQ12, '18-progressao.md'), encoding='utf-8').read()
+_GL_12 = ''
+try:
+    _GL_12 = open(os.path.join(_AQ12, '..', '05-material', 'livro', 'manual', '07-glossario.md'),
+                  encoding='utf-8').read()
+except OSError:
+    pass
+_LV12 = _lv if _lv else ''
+
+def _dec12(a, b=None):
+    return float(f'{a}.{b}') if b is not None else float(a)
+
+def _fmt_m(x):
+    return (f'{x:.1f}'.rstrip('0').rstrip('.')).replace('.', ',') + ' m'
+
+if not (_PE and _LV12):
+    erro('12: sem o manual ou o livro, o degrau sem barreiras nao foi conferido')
+else:
+    _ruim12 = []
+    # 12.1 o preco em espacos: o degrau e a copia do livro -------------------
+    _mc = re.search(r"\['Completa', '(\d+) espaços \(\+(\d+)\)'", _PE)
+    _ms = re.search(r"\['Sem Barreiras', '(\d+) espaços \(\+(\d+)\)', 'refino (\d+) e especialização em (\w+)'", _PE)
+    _ls = re.search(r"\| \*\*Sem Barreiras\*\* \| (\d+) espaços \(\+(\d+)\) \| refino (\d+) e especialização em `(\w+)` \|", _LV12)
+    if not (_mc and _ms and _ls):
+        erro('12.1: nao achei a linha da Completa e a da Sem Barreiras na tabela de degraus '
+             'do manual, ou a da Sem Barreiras no livro')
+    else:
+        tot_c, tot_s, dif_s = int(_mc.group(1)), int(_ms.group(1)), int(_ms.group(2))
+        if tot_s - tot_c != dif_s:
+            _ruim12.append(f'12.1: a Sem Barreiras custa {tot_s} espacos (+{dif_s}) e a Completa '
+                           f'{tot_c} — a diferenca escrita nao e a conta')
+        if _ms.groups() != _ls.groups():
+            _ruim12.append(f'12.1: o manual publica {_ms.groups()} e o livro {_ls.groups()} na linha do degrau')
+        print(f'  o degrau: {tot_s} espacos (+{dif_s} sobre a Completa de {tot_c}), refino '
+              f'{_ms.group(3)} e especializacao em {_ms.group(4)}')
+
+        # 12.2 o gate ---------------------------------------------------------
+        _teto = re.search(r'\*\*Teto do atributo: \d+\.\*\* Teto do refino: (\d+)\.', _P2_12)
+        _per = _ms.group(4)
+        _cobre = re.search(r'^\*\*' + re.escape(_per) + r'\*\* — [^\n]*\bbarreiras\b', _P7_12, re.M)
+        if not _teto:
+            _ruim12.append('12.2: nao li o teto de refino na peca 2')
+        elif int(_ms.group(3)) != int(_teto.group(1)):
+            _ruim12.append(f'12.2: o degrau pede refino {_ms.group(3)} e o teto da peca 2 e '
+                           f'{_teto.group(1)} — a decisao foi o refino no teto')
+        if not _cobre:
+            _ruim12.append(f'12.2: a pericia do gate e "{_per}", e a peca 7 nao diz que ela cobre '
+                           f'barreiras — o gate e pericia de barreira, como na obra')
+        if _teto:
+            _rg = int(_teto.group(1))
+            _chega = {rota: next((m for m, r in zip(MARCOS, CURVA[rota]) if r >= _rg), None)
+                      for rota in CURVA}
+            _fora = {r for r, v in _chega.items() if v is None}
+            print('  refino ' + str(_rg) + ' chega em: ' +
+                  ' · '.join(f'{r} nv{v}' if v else f'{r} NUNCA' for r, v in _chega.items()))
+            if _fora != {'generalista'}:
+                _ruim12.append(f'12.2: o gate deixa de fora {sorted(_fora) or "ninguem"}, e a exclusao '
+                               f'declarada e so o generalista')
+
+    # 12.3 o custo de abrir sem barreira, e o desconto -----------------------
+    _mca = re.search(r'\*\*Sem barreira, abrir cobra (\d+) × a sua maior Classe de PE\*\*, e lá dentro '
+                     r'\*\*cada feitiço custa maestria × (\d+) a menos\*\*', _PE)
+    _lca = re.search(r'\*\*Sem barreira, abrir cobra `(\d+) ×` a sua maior Classe de PE\*\*, e lá dentro '
+                     r'\*\*cada feitiço custa maestria `× (\d+)` a menos\*\*', _LV12)
+    _mae = {int(a): int(b) for a, b in re.findall(r'^\| \*{0,2}(\d+)\*{0,2} \| [\d.—]+ \| (\d+) \|', _P18_12, re.M)}
+    if not (_mca and _lca) or len(_mae) != 30:
+        erro('12.3: nao li o custo de abrir sem barreira e o desconto no manual e no livro, '
+             'ou a coluna de maestria da peca 18')
+    else:
+        k_abrir, k_desc = int(_mca.group(1)), int(_mca.group(2))
+        if (k_abrir, k_desc) != (int(_lca.group(1)), int(_lca.group(2))):
+            _ruim12.append(f'12.3: o manual cobra {k_abrir} x e desconta maestria x {k_desc}; '
+                           f'o livro {_lca.group(1)} x e maestria x {_lca.group(2)}')
+        if k_abrir <= PE_ABRIR['completa']:
+            _ruim12.append(f'12.3: abrir sem barreira custa {k_abrir} x e a Completa {PE_ABRIR["completa"]} x '
+                           f'— o degrau de cima ficou mais barato de abrir')
+        dur = duracao(TETO_REFINO)
+        print(f'  sem barreira: abrir {k_abrir} x a maior Classe, desconto maestria x {k_desc}, '
+              f'{dur} rodadas no refino {TETO_REFINO}')
+        for nv in (22, 26, 30):
+            abrir = k_abrir * maior_classe(nv)
+            poupa = dur * k_desc * _mae[nv]
+            print(f'    nv{nv}: abrir {abrir} · o desconto devolve no maximo {poupa} · saldo {poupa - abrir:+d}')
+            if poupa >= abrir:
+                _ruim12.append(f'12.3: no nv{nv} o desconto devolve {poupa} e abrir custa {abrir} — '
+                               f'abrir sem barreira virou lucro')
+
+    # 12.4 o raio do dominio fechado, e a tabela do livro --------------------
+    _mr = re.search(r'\*\*O domínio tem raio de (\d+),(\d+) m × refino\.\*\* A incompleta para em (\d+),(\d+) m\.', _PE)
+    _lr = re.search(r'\*\*O domínio tem raio de `(\d+),(\d+) m` × refino\.\*\* A incompleta para em `(\d+),(\d+) m`\.', _LV12)
+    if not (_mr and _lr):
+        erro('12.4: nao li o raio do dominio no manual e no livro')
+    else:
+        passo, teto_inc = _dec12(_mr.group(1), _mr.group(2)), _dec12(_mr.group(3), _mr.group(4))
+        if _mr.groups() != _lr.groups():
+            _ruim12.append(f'12.4: o raio diverge — manual {_mr.groups()}, livro {_lr.groups()}')
+        _tb = re.search(r'\*\*Raio do domínio\*\*\n\{: \.tab-titulo \}\n\n\| Refino \|(.*)\|\n\|[-| ]+\|\n'
+                        r'\| Incompleta \|(.*)\|\n\| Completa \|(.*)\|', _LV12)
+        if not _tb:
+            _ruim12.append('12.4: o livro perdeu a tabela "Raio do dominio"')
+        else:
+            refs = [int(c) for c in _tb.group(1).split('|') if c.strip()]
+            for nome, linha, cap in (('incompleta', _tb.group(2), teto_inc), ('completa', _tb.group(3), None)):
+                cel = [c.strip() for c in linha.split('|') if c.strip()]
+                for r, c in zip(refs, cel):
+                    quer = '—' if r < GATE[nome][1] else _fmt_m(min(passo * r, cap) if cap else passo * r)
+                    if c != quer:
+                        _ruim12.append(f'12.4: {nome} no refino {r}: o livro publica "{c}" e a conta da "{quer}"')
+            print(f'  o raio: {_fmt_m(passo)} x refino, a incompleta ate {_fmt_m(teto_inc)}; a tabela do livro '
+                  f'tem os refinos {refs}')
+        _ds = re.search(r'raio `(\d+),(\d+) m \+ refino ÷ (\d+)`', _P11_12)
+        if _ds:
+            maior_ds = _dec12(_ds.group(1), _ds.group(2)) + TETO_REFINO / int(_ds.group(3))
+            menor_c = passo * GATE['completa'][1]
+            if maior_ds >= menor_c:
+                aviso(f'12.4: o maior Dominio Simples ({_fmt_m(maior_ds)}) ja cobre a menor Completa '
+                      f'({_fmt_m(menor_c)}) — a revisao dos anti-dominio precisa olhar isto')
+
+    # 12.5 o raio sem barreira ------------------------------------------------
+    _ms5 = re.search(r'\*\*O raio é de (\d+) m, e o centro fica onde você abriu\.\*\*', _PE)
+    _ls5 = re.search(r'\*\*O raio é de `(\d+) m`, e o centro fica onde você abriu\.\*\*', _LV12)
+    if not (_ms5 and _ls5):
+        _ruim12.append('12.5: nao li o raio sem barreira no manual e no livro')
+    else:
+        if _ms5.group(1) != _ls5.group(1):
+            _ruim12.append(f'12.5: o raio sem barreira e {_ms5.group(1)} m no manual e {_ls5.group(1)} m no livro')
+        if _mr and int(_ms5.group(1)) <= _dec12(_mr.group(1), _mr.group(2)) * TETO_REFINO:
+            _ruim12.append('12.5: o raio sem barreira nao passa do maior dominio fechado')
+
+    # 12.6 as pecas de texto, nos dois documentos ------------------------------
+    PECAS12 = {
+        'nao prende':                 r'Ela não prende ninguém\.',
+        'nao tem borda':              r'Ela não tem borda\.',
+        'quem nao tem energia':       r'só é atingido se o seu Acerto alcança o que não tem energia',
+        'o Acerto continua fora':     r'fora dessa área o Acerto da sem barreiras continua',
+        'bate na barreira por fora':  r'bate na barreira do outro por fora',
+        'o Acerto que nao fere':      r'Acerto que não fere não encosta na barreira',
+        'a incompleta so no raio':    r'ela desliga o Acerto só dentro do próprio raio',
+        'fora dos tres ou mais':      r'A Expansão sem Barreiras aberta sem barreira não entra nessa conta',
+        'fechar e a completa':        r'fecha a barreira e ela é a completa em tudo',
+    }
+    for nome, rx in PECAS12.items():
+        if not re.search(rx, _PE.replace('**', '')):
+            _ruim12.append(f'12.6: "{nome}" nao esta no MANUAL, que e o dono')
+        if not re.search(rx, _LV12.replace('**', '')):
+            _ruim12.append(f'12.6: "{nome}" nao esta no LIVRO')
+    if not re.search(r'^\| \*\*Expansão sem Barreiras\*\* \|', _GL_12, re.M):
+        _ruim12.append('12.6: o glossario do livro nao tem a entrada "Expansao sem Barreiras"')
+
+    for r in _ruim12:
+        erro(r)
+    if not _ruim12:
+        print('  [x] o degrau, o gate, o custo, o raio dos dois lados e as pecas de texto batem '
+              'entre manual, livro e donos.')
 
 # --------------------------------------------------------------------------
 print()

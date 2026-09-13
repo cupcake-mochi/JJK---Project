@@ -986,7 +986,7 @@ Ela é **comprada**, com espaços de feitiço conhecido, e só abre quando o seu
 
 > **Refino, em uma linha.**
 > O refino é o eixo de controle da sua ficha: quanto da sua energia você não desperdiça. Ele é do capítulo 12, *Aptidões e Refino*, sobe com os seus marcos e vai de 1 a 10.
-> Aqui ele é lido em três lugares e nada mais: **o requisito**, **o desconto lá dentro** e **quanto tempo o domínio fica de pé.**
+> Aqui ele é lido em cinco lugares e nada mais: **o requisito**, **o tamanho do domínio**, **o desconto lá dentro**, **quanto tempo o domínio fica de pé** e **quem conquista quando dois domínios se sobrepõem.**
 
 ### Degraus
 
@@ -997,12 +997,15 @@ Ela é **comprada**, com espaços de feitiço conhecido, e só abre quando o seu
 |---|---|---|---|
 | **Incompleta** | 2 espaços | nível 10 e refino 4 | resolve por rolagem, como um feitiço |
 | **Completa** | 3 espaços (+1) | nível 14 e refino 5 | **acontece.** Sem rolagem e sem Teste de Resistência |
+| **Sem Barreiras** | 5 espaços (+2) | refino 10 e especialização em `Ocultismo` | **acontece**, com barreira ou sem, e você escolhe a cada abertura |
 
 **A completa exige ter a incompleta**, e paga só a diferença: um espaço a mais, no molde da `Regra Própria`.
 
-**Só a completa fecha barreira.** A incompleta é a técnica derramada no terreno, sem parede em volta.
+**A Expansão sem Barreiras exige ter a completa**, e paga só a diferença: dois espaços a mais. O requisito é o refino no teto e **especialização em `Ocultismo`**, a perícia que cobre barreira, sem nível mínimo.
 
-O teto do feitiço não muda por causa dela, e as duas ficam **fora** da conta de Liberações Máximas.
+**A completa fecha barreira, e a incompleta não:** a incompleta é a técnica derramada no terreno, sem parede em volta. **A Expansão sem Barreiras escolhe a cada abertura.**
+
+O teto do feitiço não muda por causa dela, e as três ficam **fora** da conta de Liberações Máximas.
 
 ### Acerto e Efeito
 
@@ -1033,11 +1036,21 @@ Um domínio tem duas peças, e elas fazem coisas diferentes. Escreva as duas com
 
 **Dura metade do refino em rodadas**, no mínimo uma.
 
+**O domínio tem raio de `1,5 m` × refino.** A incompleta para em `7,5 m`.
+
+**Raio do domínio**
+{: .tab-titulo }
+
+| Refino | 4 | 5 | 6 | 8 | 10 |
+|---|---|---|---|---|---|
+| Incompleta | 6 m | 7,5 m | 7,5 m | 7,5 m | 7,5 m |
+| Completa | — | 7,5 m | 9 m | 12 m | 15 m |
+
 > **A expansão conta como feitiço para a regra de ouro nº 6:** *feitiço em Ação Bônus ou Reação só permite mais um de Classe 0 no turno.*
 
 ### Barreira e Rescaldo
 
-Só a completa levanta barreira. Por dentro ela **não quebra**. *A única chance de quebrá-la é achar a borda da expansão, o que é considerado quase impossível. Se o mestre decidir que existe uma borda, a vida do interior é o dobro da do exterior, e ela tem resistência a todos os tipos de dano.* Por fora ela tem 50 × metade do refino de vida, e cair antes da hora é o único jeito de alguém encurtar o seu domínio.
+Só a completa levanta barreira, e a Expansão sem Barreiras quando você escolhe fechar. Por dentro ela **não quebra**. *A única chance de quebrá-la é achar a borda da expansão, o que é considerado quase impossível. Se o mestre decidir que existe uma borda, a vida do interior é o dobro da do exterior, e ela tem resistência a todos os tipos de dano.* Por fora ela tem 50 × metade do refino de vida, e cair antes da hora é o único jeito de alguém encurtar o seu domínio.
 
 *O mestre pode declarar que uma barreira cede fora dessa conta*: três domínios se atravessando, uma fraqueza que a ficção já estabeleceu, uma cena que pede. É exceção declarada, e não a régua.
 
@@ -1045,6 +1058,22 @@ Só a completa levanta barreira. Por dentro ela **não quebra**. *A única chanc
 > Pelo resto da cena a sua técnica não responde, e você fica com o Classe 0, com o corpo e com o que não for técnica.
 > Isso é **preço**: acontece em todo uso, e você já sabia disso quando abriu.
 > Rescaldo e a exaustão do descanso não somam: são escadas diferentes, e esta aqui tem um degrau só.
+
+### Abrir sem barreira
+
+**A Expansão sem Barreiras é pintar o domínio no ar, sem tela.** Na obra só dois fazem isso. Quem tem o degrau escolhe a cada abertura: **fecha a barreira e ela é a completa em tudo** — preço, desconto, barreira e mover —, **ou abre sem barreira.**
+
+**Sem barreira, abrir cobra `7 ×` a sua maior Classe de PE**, e lá dentro **cada feitiço custa maestria `× 2` a menos**. Nenhum feitiço custa menos de 1 PE.
+
+**O raio é de `200 m`, e o centro fica onde você abriu.** Você anda livre, e a área não vai junto.
+
+**Ela não prende ninguém.** Quem está lá dentro pode sair andando, e leva o Acerto enquanto estiver no raio.
+
+**Quem não tem energia amaldiçoada só é atingido se o seu Acerto alcança o que não tem energia**, como o corte do Sukuna, que alcança objeto.
+
+**Ela não tem borda.** Sem barreira não há casca para quebrar nem borda para apagar: ela acaba pelo tempo, pela corrida, pela concentração, ou com você em `0` de vida.
+
+> **Exemplo.** No nível 26 a sua maior Classe é 7, a maestria é 4 e o refino é 10. Abrir sem barreira custa 49 PE, e um feitiço de Classe 5, que custaria 15, sai por 7. Fechando a barreira, abrir custa 42 e o mesmo feitiço sai por 10.
 
 ### Domínios da obra
 
@@ -1054,7 +1083,7 @@ Só a completa levanta barreira. Por dentro ela **não quebra**. *A única chanc
 | Quem | Acerto | Efeito |
 |---|---|---|
 | Megumi *(incompleta)* | todas as invocações dele ganham reforço | invocar todos os shikigami de uma vez |
-| Sukuna | clivar e desmantelar acertam de forma garantida | alcança todos no ambiente |
+| Sukuna *(sem barreiras)* | clivar e desmantelar acertam de forma garantida | alcança todos no ambiente |
 | Mahito | ninguém desvia do toque dele | alcança todos no ambiente, e o toque dele passa a atravessar a expansão por completo |
 | Jogo | queima todos no ambiente | amplifica a técnica |
 | Dagon | os shikigami dele acertam | amplifica a técnica |
@@ -1108,7 +1137,9 @@ O Acerto do Megumi *reforça* em vez de *atingir*, e é o que dá para fazer com
 
 **O Rescaldo dispara dos dois lados**, em toda saída. O domínio acabou, e ele acaba de qualquer jeito.
 
-**Uma incompleta entra na disputa e não pode vencer.** Ela não fecha barreira, então não tem barreira para conquistar nem para perder. O que ela faz é o que a sobreposição já faz: desliga o Acerto do completo, **e a barreira do completo deixa de prender — quem está lá dentro pode sair**, e o Acerto dela, que rola, continua rolando. **Custa a sua expansão inteira**, e o que ela compra é desligar o Acerto dele.
+**Contra a Expansão sem Barreiras aberta sem barreira**, os dois Acertos se anulam só dentro da área do outro domínio, e **fora dessa área o Acerto da sem barreiras continua.** Se esse Acerto causa dano, ele **bate na barreira do outro por fora** cada vez que acontece. Acerto que não fere não encosta na barreira.
+
+**Uma incompleta entra na disputa e não pode vencer.** Ela não fecha barreira, então não tem barreira para conquistar nem para perder. O que ela faz é o que a sobreposição já faz: desliga o Acerto do completo, **e a barreira do completo deixa de prender — quem está lá dentro pode sair**, e o Acerto dela, que rola, continua rolando. **Custa a sua expansão inteira**, e o que ela compra é desligar o Acerto dele. **Contra a Expansão sem Barreiras aberta sem barreira, ela desliga o Acerto só dentro do próprio raio.**
 
 > **A segunda pergunta é uma troca, e ela não paga escrever Acerto inútil.**
 > Um Acerto que causa dano rende em todo uso do seu domínio, na abertura e no começo de cada turno seu. **O desempate da pergunta 2 só rende contra outro domínio, de refino igual ao seu.**
@@ -1119,9 +1150,10 @@ O Acerto do Megumi *reforça* em vez de *atingir*, e é o que dá para fazer com
 > **De todas as combinações de dado e margem, `1d12` separando por `4` é a única que cai na metade exata** — `72` dos `144` resultados. *Metade das vezes o choque resolve, metade continua e vale a corrida.*
 > **Você rola uma vez**, quando as áreas se sobrepõem, e não a cada rodada. *Rolar toda rodada resolveria o choque em `88%` até a terceira, e aí quem está de fora batendo na barreira deixaria de decidir o combate.*
 
-> **Três ou mais domínios: caem todos.**
+> **Três ou mais domínios com barreira: caem todos.**
 > Dois domínios se empurram. **Três ou mais não se acomodam:** as condições que cada barreira exige por dentro e por fora não fecham juntas, e **todas as barreiras caem**.
 > Ninguém conquista, ninguém recebe Acerto, e o Rescaldo pega todo mundo que abriu.
+> **A Expansão sem Barreiras aberta sem barreira não entra nessa conta.** Com três ou mais barreiras, as barreiras caem e a sem barreiras fica de pé. Com duas barreiras e a sem barreiras, as duas barreiras disputam como sempre, e a sem barreiras ataca as duas por fora.
 
 ## Regras de ouro
 

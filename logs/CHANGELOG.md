@@ -8,6 +8,90 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.226] — 13/09/2026
+
+**A Expansão de Domínio ganhou o terceiro degrau: a `Expansão sem Barreiras`.** *Montada em três rodadas de pesquisa na obra e cinco rodadas de decisão com o Mizuki, de 12 a 13/09; o caminho inteiro, com cada palavra dele, está no `03-mecanica/RASCUNHO-expansao-sem-barreira.md`, e a seção 9 de lá é a especificação.* **E a Expansão inteira ganhou tamanho, que ela nunca teve.**
+
+### 1 · O degrau
+
+| | |
+|---|---|
+| **custa** | `5` espaços no total, `+2` sobre a Completa, e exige ter a Completa |
+| **requisito** | **refino `10` e especialização em `Ocultismo`**, sem nível mínimo |
+| **o que dá** | a cada abertura você escolhe: **fecha a barreira e ela é a Completa em tudo**, ou **abre sem barreira** |
+| **sem barreira** | abrir custa **`7 ×` a maior Classe**; lá dentro **cada feitiço custa maestria `× 2` a menos**, nunca menos de `1` PE |
+| **o raio** | **`200 m`**, como a obra, e **o centro fica onde abriu** |
+| **não prende** | quem está dentro sai andando, e leva o Acerto enquanto estiver no raio |
+| **quem não tem energia** | só é atingido se o Acerto alcança o que não tem energia |
+| **não tem borda** | acaba pelo tempo, pela corrida, pela concentração ou com o dono em `0` de vida |
+
+**O gate é perícia de barreira porque a obra é assim:** *o Kenjaku, segundo maior mestre de barreira, abre sem barreira; o Gojo, o mais forte, não.* **E a Expansão se aprende pela técnica de barreira** — *o Yuji no cap. `264`, a Dabura Karaba no `Modulo`.*
+
+> **⚠ O degrau quebra de propósito o invariante 3 do `conferir-expansao.py`** — *"toda rota chega aos degraus antes do nível 30".* **O generalista termina com refino `8` e nunca chega nele**, *e a decisão foi essa:* ***"só temos 2 que puderam, e mesmo assim eram outro nível de patamar".*** **A checagem `12.2` cobra que a exclusão seja exatamente essa, e nenhuma outra rota.**
+
+**Quem chega:** *o especialista de refino no nível `22`, trocando um marco por `Corpo` e pagando duas aptidões; o meio a meio no `26`.* **No `22` o degrau não cabe na ficha com cinco Passivas de Classe `3` — faltam dois espaços**, *e ele decidiu sem gate de nível com isso na frente.*
+
+**O custo não vira lucro:** *com um feitiço por turno nas cinco rodadas, sobram `−12` PE no nível `22` e `−9` no `26`* — **e do `26` em diante ele sai mais barato líquido que a Completa, que fica em `−17`.**
+
+### 2 · O raio de todos os domínios
+
+***Decisão do Mizuki:*** *"1,5m vezes refino, incompleta só consegue até máximo de 7,5m (ambos de raio)".*
+
+| refino | `4` | `5` | `6` | `8` | `10` |
+|---|---|---|---|---|---|
+| **Incompleta** | `6 m` | `7,5 m` | `7,5 m` | `7,5 m` | `7,5 m` |
+| **Completa** | — | `7,5 m` | `9 m` | `12 m` | `15 m` |
+
+**A regra do choque já dependia disso** — *"só existe disputa quando as áreas se sobrepõem"* — **e nenhum documento dizia o tamanho de uma Expansão.** *A caixa "Refino, em uma linha" passou a listar o tamanho, e foi para cinco leituras nos dois documentos — o livro ainda dizia três.*
+
+### 3 · O choque
+
+- **Dentro da área do outro domínio os dois Acertos se anulam; fora dela, o Acerto da sem barreiras continua.** *Se ele causa dano, bate na barreira do outro por fora a cada vez; se não fere, não encosta* — ***"não adianta a sem barreira estar do lado de fora pra quebrar a com barreira se não tem como a expansão dar dano em barreira"***.
+- **A Incompleta desliga o Acerto da sem barreiras só dentro do próprio raio, e não vence.**
+- **A sem barreiras não conta entre "três ou mais"**: *com três ou mais barreiras, elas caem e ela fica de pé; com duas e ela, as duas disputam como sempre, e ela ataca as duas por fora.*
+- **A escada de quem conquista é a mesma** — *e como o degrau pede refino `10`, ele vence pela primeira pergunta qualquer domínio de refino menor.* **A quebra por fora só pesa contra outro domínio de refino `10`.**
+
+### 4 · O que ficou adiado, por ele
+
+- **Os anti-domínios contra a sem barreiras** — ***"vamos revisar a mecânica de como esses anti domínios funcionam"***. *Até lá as quatro valem como estão escritas; as saídas medidas estão no rascunho, seção 8.4.*
+- **O Rescaldo** — ***"a gente vai trabalhar depois"***. *Vale o de sempre.*
+
+### 5 · A checagem
+
+**A `12` do `conferir-expansao.py` confere seis coisas, e nenhum valor mora nela:** *o preço em espaços e a cópia do livro; o gate contra o teto da peça 2 e a perícia contra a peça 7, com a exclusão declarada; o custo contra a Completa e o saldo contra a maestria da peça 18; o raio e a tabela do livro célula a célula; o raio sem barreira contra o maior fechado; e nove peças de texto nos dois documentos, mais a entrada do glossário.* **Quinze perturbações acendem e três contra-testes ficam verdes** — *um deles prova que crescer o Domínio Simples só avisa, para a revisão dos anti-domínios não travar commit.*
+
+**E a caixa do refino passou a cobrar o tamanho** na checagem `11`.
+
+### 6 · Três correções minhas, na passada de revisão
+
+- **Uma âncora do validador guardava o valor `1,5`** — *trocada por forma, como manda a regra de não guardar número.*
+- **"Ela não pede nível: pede o refino no teto"** era antítese — *reescrita.*
+- **"fora dela, o Acerto dela continua"** usava "dela" para duas coisas na mesma frase — *reescrita.*
+
+### Adicionado
+
+- **O degrau `Expansão sem Barreiras`** e a seção **"Abrir sem barreira"**, no manual (`partE.js`) e no capítulo 40 do livro, com um exemplo no nível `26`.
+- **O raio dos domínios**, com a tabela **"Raio do domínio"** no livro.
+- **As regras do choque** com a sem barreiras, a Incompleta e os três ou mais.
+- **A entrada `Expansão sem Barreiras` no glossário**, e a da `Expansão de Domínio` deixou de dizer "o espaço fechado".
+- **A checagem `12`** do `conferir-expansao.py`, e o tamanho na caixa do refino da `11`.
+
+### Alterado
+
+- **O manual foi para a `v7.29`**, com o `.docx` e o `.pdf` regerados, e os quatro artefatos do livro refeitos.
+- **O Sukuna, na tabela dos domínios da obra**, ganhou a marca *(sem barreiras)*.
+- **A caixa "Três ou mais domínios"** virou *"com barreira"*.
+- **O `conferir-pericias.py` aceita `Ocultismo` no manual**, com o motivo declarado: *a checagem `7` pega termo do Fundamento que colide com nome de perícia, e aqui o manual cita a perícia como perícia, no requisito do degrau.*
+
+### Achado e não consertado
+
+- **O inimigo com Expansão sem Barreiras**: *a peça 26 §6.4 preça a Expansão de inimigo em `× 1,92` e não conhece o degrau novo* — **o Sukuna e o Kenjaku do Bestiário vão precisar dele.**
+- **O maior Domínio Simples tem `6,5 m` e a menor Completa `7,5 m`** — *a revisão dos anti-domínios precisa manter essa folga, e a `12.4` avisa se ela sumir.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
+
+---
+
 ## [0.225] — 13/09/2026
 
 **A corrida entre dois domínios ganhou uma quarta forma de cair: falhas de concentração acumuladas.** *Regra do Mizuki, montada em duas rodadas com a conta na frente, e ela vale em toda corrida — com barreira contra com barreira hoje, e na `Expansão sem Barreiras` quando ela for publicada.*

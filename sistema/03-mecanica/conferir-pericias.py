@@ -175,6 +175,9 @@ COLISOES_ACEITAS = {
                 'e a Passiva e rara. Colisao fraca, aceita.',
     'Historia': 'aparece 1x no manual em prosa solta. Pela nota de metodo da v0.6, '
                 'prosa solta nao e colisao.',
+    'Ocultismo': 'v0.226: o manual cita a PERICIA de proposito, como requisito da '
+                 'Expansao sem Barreiras (especializacao em Ocultismo). E o nome da '
+                 'pericia usado como pericia, e nao um termo do Fundamento que colide.',
 }
 
 

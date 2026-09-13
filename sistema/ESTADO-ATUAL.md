@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 13/09/2026, na v0.225 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e dez checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 13/09/2026, na v0.226 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e dez checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.225.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
+**Versão v0.226.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
 
 > ## 🆕 A v0.222 consertou duas coisas que a v0.221 deixou passar, e as duas são do §6.5 da peça 26
 >
@@ -913,7 +913,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/conferir-nomes.py` | o vocabulário do manual, extraído do `.docx`, contra todo nome que o projeto batizou |
 | `03-mecanica/conferir-manual.py` | a direção contrária: o manual contra o vocabulário e os números do projeto |
 | `03-mecanica/conferir-aptidoes.py` | as **doze** checagens da peça 11: a trava do refino, as três rotas do marco, o teto de Passivas, o kokusen, o **dano na arma** e as **contagens de aptidão**. *A 10 entrou na v0.158 e lê a exceção do teto como **relação** — em que refino ela dispara, quais faces, e se ela acrescenta um dado —, para que reverter o valor de forma coerente saia verde. A 11 é da v0.161: ela reconstrói quantas aptidões cada rota leva e compara com os **nove** lugares que publicam o número, e amarra as **três** cópias do `meio a meio`* |
-| `03-mecanica/conferir-expansao.py` | os dois gates da Expansão, a ordem entre os degraus, o preço em espaços e a fragilidade da curva |
+| `03-mecanica/conferir-expansao.py` | os gates da Expansão, a ordem entre os degraus, o preço em espaços, a fragilidade da curva, o clash, a concentração na corrida e o degrau sem barreiras |
 | `03-mecanica/conferir-orcamento.py` | o somatório: todos os drenos de PE ao mesmo tempo, e se todo preço tem número |
 | `03-mecanica/conferir-xp.py` | a curva, o abismo que fecha, e se a regra ainda entrega o tempo que a Guilda pediu |
 | `03-mecanica/conferir-criacao.py` | **a instância, não a regra**: a ficha de exemplo da peça 8 contra as fórmulas, a proteção da aptidão gratuita, a Trilha na criação e se o catálogo citado existe |
@@ -946,7 +946,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 
 **Duas peças foram parcialmente substituídas e trazem o aviso no topo:** as seções 3 e 4 da peça 4 saíram para a peça 7, e a seção 3 e o quadro de Caminhos da peça 5 saíram para a peça 6.
 
-O manual do Fundamento **v7.28** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 366 parágrafos e 90 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na mesma versão do `.docx`, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 50 páginas.
+O manual do Fundamento **v7.29** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 366 parágrafos e 90 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na mesma versão do `.docx`, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 50 páginas.
 
 **Quem é dono da versão do manual:** a primeira linha de `manual/gerador/COMO-USAR.txt`. Toda outra cópia — a capa em `partA.js`, este arquivo, o `README.md`, o `LEIA-ME.md` e o `arquitetura.md` — é cópia, e o `conferir-repositorio.py` falha se alguma divergir. *Ele nasceu na v0.33, depois de a capa do manual passar três versões dizendo 7.5.*
 
@@ -1297,7 +1297,7 @@ A skill `redacao-acessivel-rpg` existe exatamente para a travessia de "nota de d
 
 **E as dez pendências que só a mesa responde são todas de nível 2** — Constituição virou obrigatória, alguém usa ação bônus, Intuição contra Percepção, se quatro perícias livres é escolha demais, se alguém rola Pontaria, se o extra da Origem é escolha de igual para igual, se a criação leva mesmo vinte a quarenta minutos, se um Legado por ficha é pouco, se três lutas de graça é o número certo, e se o descanso curto devia devolver alguma vida. **Nenhuma delas precisa das aptidões.**
 
-### A fila de agora — v0.224
+### A fila de agora — v0.226
 
 **Tudo aqui é DECISÃO TOMADA e CONSERTO NÃO FEITO.** *A v0.220 anotou e não consertou, por pedido dele.* **Quem pegar esta fila começa aplicando, e não decidindo.**
 
@@ -1305,9 +1305,11 @@ A skill `redacao-acessivel-rpg` existe exatamente para a travessia de "nota de d
 |---|---|---|
 | 1 | ~~**O inimigo vai contar energia**, com poço semelhante ao do jogador~~ | ***REVERTIDA em 09/09, pelo próprio Mizuki.*** **O inimigo NÃO conta PE, e a peça 26 §6.1 fica.** *O limite dele é rótulo de frequência — `à vontade` · `1×/rodada` · `1×/luta` · `Recarga (5-6)` —, que é o que `8` de `9` sistemas medidos fazem.* **E a `Sobrecarga` que dependia disto foi reescrita na v0.221** — *"ele não usa Reação" no lugar de "o dobro de energia"*, com o `manual/matematica/sobrecarga.py` refeito contra ela |
 | 2 | ~~**`Fura` = `2 × Classe`, `Enfraquece` = `Xd4`, `Abre Ferida` = UM Teste**~~ | ✅ **APLICADA na v0.223, e foram DEZ lugares em CINCO arquivos, não um.** *O `Fura` tinha oito cópias — a tabela do `partD.js` mais sete números de exemplo no `partA`, no `partC`, no `partE` e nos três feitiços prontos do `partF`, que a checagem `12` não alcança.* **As três linhas do `ESTADO-revisao.md` estão `fechada na v0.223`, e o manual foi para a `v7.27`** |
-| 3 | **O domínio sem barreira para de perder por regra** | o capítulo da Expansão, no `partE.js` **e** no `40-fundamento.md`. *O mecanismo é o alcance, e não a inversão da regra.* **⏳ Em andamento desde 12/09, no `03-mecanica/RASCUNHO-expansao-sem-barreira.md`:** *a pesquisa foi refeita contra capítulo, e a rodada 1 fechou — degrau acima da Completa, gate de refino `10` e especialização em `Ocultismo`, `5` espaços, `7 ×` para abrir sem barreira.* **Falta: o nome, o raio — que a Expansão nunca teve —, o choque e o contrajogo** |
+| 3 | ~~**O domínio sem barreira para de perder por regra**~~ | ✅ **APLICADA na v0.226, como um terceiro degrau: a `Expansão sem Barreiras`.** *Refino `10` e especialização em `Ocultismo`, `5` espaços, raio de `200 m`, e a Expansão inteira ganhou raio de `1,5 m × refino`.* **Ficaram adiados por ele: os anti-domínios contra ela, e o Rescaldo** — *ver os dois itens novos abaixo.* *O caminho está no `03-mecanica/RASCUNHO-expansao-sem-barreira.md`* |
 | 4 | **O DejaVu Mono é defeito** | instalar as faces que faltam de IBM Plex Mono na pasta de fontes do usuário — só a `Regular` está lá — e rodar os **quatro** builds. *Nenhum rebuild sozinho resolve* |
 | 5 | **`B18` vai ser corrigido** | no outro repositório. *E o gerador Python é quem está atrás, não o `Ficha.gs`* |
+| 6 | **Revisar os anti-domínios** — *decisão dele na v0.226: "vamos revisar a mecânica de como esses anti domínios funcionam"* | as quatro da peça 11, e como elas se portam contra a `Expansão sem Barreiras`. *As saídas medidas estão no rascunho, seção 8.4* |
+| 7 | **O Rescaldo e a porta de saída dele** — *adiado por ele na rodada 2* | *destruir a gravação da técnica e curar com energia reversa, com dano que acumula — obra, cap. `226`–`230`; rascunho, seção 6.8* |
 
 **E uma que continua sendo pergunta, não decisão:**
 

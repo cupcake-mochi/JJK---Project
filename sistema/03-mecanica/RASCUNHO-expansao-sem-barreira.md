@@ -673,6 +673,103 @@
 - **A · a invocação conta à parte:** *ela é outro atacante, e causa o próprio teste no inimigo, no máximo um por rodada.* **Quem tem invocações faz o inimigo testar mais vezes.**
 - **B · a invocação não causa teste:** *a regra fala em "jogador que acertou ele", e invocação não é jogador.* **O dano da invocação conta para a vida do inimigo, mas não para a concentração.**
 
+## 8. Rodada 3 — o que falta para publicar, em 13/09/2026
+
+*Aberta depois da v0.225, a pedido dele: "vamos para o que tem da fila" → a Expansão sem Barreiras.* **Faltam cinco pontos, em três rodadas curtas:** *espaço (o raio do domínio fechado e mover o sem barreiras), contrajogo (o Domínio Simples, a Cesta, a Pétala e a borda), e as duas combinações (contra a Incompleta, e três ou mais).* **O Rescaldo continua adiado por ele.**
+
+### 8.1 A rota de fuga no raio de `200 m`, medida
+
+*Deslocamento `9 m` e `Correr` dobrando, pela peça 3 — `18 m` por turno —, e cinco rodadas de duração com refino `10`.*
+
+| começa a quantos metros do centro | turnos até sair | sai antes de o domínio acabar? |
+|---|---|---|
+| `1,5` a `30` | `10` a `12` | **não** |
+| `60` | `8` | **não** |
+| `100` | `6` | **não** |
+| `150` | `3` | sim |
+| `190` | `1` | sim |
+
+**Quem escapa precisa começar a menos de `90 m` da borda.** *Um combate que cabe num raio de `30 m` está inteiro a mais de `170 m` dela.* **Na mesa, a rota de fuga do sem barreiras só serve para quem está longe do centro quando ele abre** — *é o que a obra mostra: o Gojo tentou sair e o Sukuna foi atrás* (cap. `225`–`226`).
+
+### 8.2 O Domínio Simples do sistema bloqueia sem limite de tempo
+
+**A peça 11 escreve:** *"dentro dele o Acerto de uma Expansão não acontece; custa `1 ×` a sua maior Classe de PE por rodada, e ela quebra se os seus pés saírem do chão."* **Contra domínio nenhum ele cede.** *Na obra, os dois domínios sem barreira arrancam o Domínio Simples em instantes* (cap. `206`; `226`; `258`). **É a pergunta da rodada seguinte.**
+
+### 8.3 ✅ Espaço — decidido em 13/09/2026
+
+***Palavras dele:*** *"1,5m vezes refino, incompleta só consegue até máximo de 7,5m (ambos de raio)"* · *"Fica onde abriu"*.
+
+| | a regra |
+|---|---|
+| **raio do domínio fechado** | **`1,5 m × refino`** |
+| **raio da Incompleta** | **`1,5 m × refino`, até no máximo `7,5 m`** |
+| **raio da Expansão sem Barreiras** | quase `200 m`, como a obra *(decidido na 7)* |
+| **o centro da sem barreiras** | **fica onde abriu** — *o dono anda livre, e a área não vai junto* |
+
+| refino | `4` | `5` | `6` | `8` | `10` |
+|---|---|---|---|---|---|
+| **Incompleta** (abre no refino `4`) | `6 m` | `7,5 m` | `7,5 m` | `7,5 m` | `7,5 m` |
+| **Completa** (abre no refino `5`) | — | `7,5 m` | `9 m` | `12 m` | `15 m` |
+
+**O que o número conversa com o resto:** *o `Domínio Simples` chega a `6,5 m` no refino `10`, então a menor Completa já é maior que o maior Domínio Simples; e a Completa de refino `10` tem o tamanho da maior Esfera dos feitiços, `15 m`.* **Duas Completas de refino `10` só entram em disputa se os centros estiverem a até `30 m`.**
+
+### 8.4 Contrajogo — as saídas, medidas
+
+**O Domínio Simples, hoje:** *bloqueia os seis Acertos de uma Expansão de refino `10` enquanto paga PE.* **No nível `22` custa `30` PE em cinco rodadas e evita `324` de dano por pessoa no raio; no `26`, `35` PE e `378`.**
+
+| saída contra a Expansão sem Barreiras | quanto ele segura | o preço |
+|---|---|---|
+| **igual a hoje** | os seis Acertos | nenhuma regra nova; **contradiz a obra**, em que o sem barreiras arranca o Domínio Simples em instantes |
+| **um teste a cada Acerto**, contra a CD do dono da Expansão | `1,9` Acertos em média com bônus `+10`, `1,0` com `+7`, `0,2` com `+0` | **é o que a obra mostra** — *compra tempo*; e usa o mesmo formato da concentração na corrida |
+| **segura `refino ÷ 2` Acertos**, para baixo, mínimo `1` | `2` no refino `4`, `5` no refino `10` | **espelha a `Pétala`**, que devolve `refino ÷ 2` por cena e sempre deixa passar um; no refino alto ele quase não cede |
+
+**A borda** *(o Tengen apagou a do Kenjaku, cap. `206`)*: **hoje o livro deixa a borda de um domínio fechado na decisão do mestre, e o sem barreiras não tem casca nenhuma.**
+
+### 8.5 ✅ Contrajogo — decidido em 13/09/2026
+
+| | as palavras dele | o que fica |
+|---|---|---|
+| **o Domínio Simples contra a sem barreiras** | *"Deixe anotado q vamos revisar a mecanica de como esses anti dominios funcionam, tem algumas coisas q tenho de trabalhar sobre"* | ⏸ **adiado para uma revisão dos anti-domínios inteira** — *as saídas medidas da 8.4 ficam como ponto de partida* |
+| **a Cesta Oca e a Pétala** | *"Irá ser re avaliada, depois"* | ⏸ **entram na mesma revisão** |
+| **apagar a borda da sem barreiras** | *"Não"* | ✅ **não existe borda para apagar.** *Ela só cai pela corrida, pela concentração, pelo tempo ou com o dono em `0` de vida* |
+
+> **Consequência para publicar:** *enquanto a revisão dos anti-domínios não sai, as quatro aptidões valem contra a Expansão sem Barreiras do jeito que estão escritas hoje.* **O texto da sem barreiras não cria exceção para elas.**
+
+### 8.6 As duas combinações — 13/09/2026
+
+| | as palavras dele | o que fica |
+|---|---|---|
+| **a Incompleta contra a sem barreiras** | *"Desliga o Acerto só no raio dela"* | ✅ **dentro do raio da Incompleta — até `7,5 m` — o Acerto do sem barreiras não acontece; fora, continua. Ela não pode vencer**, *como contra a Completa* |
+| **três ou mais domínios, com um sem barreiras** | *"Segue as regras padrão, mas o sem barreiras ganha a possibilidade de atacar os com barreiras caso eles sigam de pé"* | ✅ **o sem barreiras não conta entre os três.** *Com dois fechados e um sem barreiras, os fechados disputam entre si como sempre, e o sem barreiras ataca a barreira deles por fora. Com três ou mais fechados, as barreiras caem pela regra de sempre, e o sem barreiras fica de pé.* — *confirmado: "Não é 'três ou mais'" · "O sem barreiras fica de pé"* |
+
+## 9. A ESPECIFICAÇÃO — o que vai para o manual e o livro, em 13/09/2026
+
+> ✅ **APLICADA na v0.226** — *no manual `v7.29`, no capítulo 40 e no glossário do livro, com a checagem `12` do `conferir-expansao.py`.* **Adiados por ele: os anti-domínios contra ela e o Rescaldo.**
+
+*Consolidado de tudo o que ele decidiu nas seções 1 a 8, antes de escrever texto de regra.* **Se esta seção discordar de uma decisão lá em cima, a decisão lá em cima vence, e esta tem de ser consertada.**
+
+| # | a regra | de onde |
+|---|---|---|
+| **1** | **degrau acima da Completa, e ele exige a Completa** | rodada 1 |
+| **2** | **custa `5` espaços no total** (`+2` sobre a Completa) | rodada 1 |
+| **3** | **requisito: refino `10` e especialização em `Ocultismo`**, sem nível | rodada 1 |
+| **4** | **a cada abertura, você escolhe fechar a barreira ou não** | rodada 1 |
+| **5** | **fechando, ela é a Completa**: `6 ×` a maior Classe, desconto de metade do refino, prende, se move | rodada 1 |
+| **6** | **sem barreira: `7 ×` a maior Classe para abrir, e lá dentro cada feitiço custa maestria `× 2` a menos**, nunca menos de `1` PE | rodada 1 |
+| **7** | **raio de `200 m`**, e **o centro fica onde abriu** | 7 · 8.3 |
+| **8** | **não prende:** quem está dentro pode sair andando | obra, 1.3 · 8.1 |
+| **9** | **duração e ritmo do Acerto: os da Expansão** — metade do refino em rodadas; ao abrir e no começo de cada turno seu | 7 |
+| **10** | **quem não tem energia só é atingido se o Acerto alcança o que não tem energia** | 7.1 |
+| **11** | **dentro da área de outro domínio os dois Acertos se anulam; fora dela o Acerto do sem barreiras continua** | 7 · 8.6 |
+| **12** | **Acerto que causa dano bate na barreira do outro por fora**, a cada Acerto; **Acerto que não fere, não** | 7 |
+| **13** | **não tem borda para apagar** | 8.5 |
+| **14** | **contra a Incompleta: o Acerto só se anula no raio dela, e ela não vence** | 8.6 |
+| **15** | **não conta entre "três ou mais"**; as barreiras que sobram de pé ele ataca por fora | 8.6 |
+| **16** | **o raio do domínio fechado: `1,5 m × refino`; o da Incompleta até `7,5 m`** — *vale para os degraus que já existem* | 8.3 |
+| **17** | **a escada de quem conquista é a mesma**, e a concentração na corrida já está publicada | v0.225 |
+| **18** | **anti-domínios e Rescaldo: como estão hoje** — *os dois têm revisão adiada por ele* | 8.5 · 7 |
+| **19** | **nome: `Expansão sem Barreiras`** | 7.3 |
+
 ---
 
 ## Fontes

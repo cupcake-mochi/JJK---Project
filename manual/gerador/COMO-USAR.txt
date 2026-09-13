@@ -1,4 +1,4 @@
-GERADOR DO MANUAL — Fundamento v7.28
+GERADOR DO MANUAL — Fundamento v7.29
 
 Recria o .docx do zero. Precisa de Node.js.
 
@@ -32,6 +32,15 @@ ORDEM DAS SEÇÕES (v7)
   4 Restrições → 5 Fora de combate → 6 Liberação Máxima → 7 Técnica Máxima →
   8 Regras de ouro → 9 Progressão → 10 Feitiços prontos → 11 Para o mestre →
   Apêndice
+
+O QUE MUDOU NA v7.29
+
+  O terceiro degrau da Expansao, a Expansao sem Barreiras: 5 espacos, refino 10 e
+  especializacao em Ocultismo. A cada abertura o dono escolhe fechar (e ela e a
+  completa) ou abrir sem barreira: 7 x a maior Classe, desconto de maestria x 2,
+  raio de 200 m, centro fixo, nao prende e nao tem borda. E todo dominio ganhou
+  raio: 1,5 m x refino, com a incompleta ate 7,5 m. A checagem 12 do
+  conferir-expansao compara o manual com o livro.
 
 O QUE MUDOU NA v7.28
 

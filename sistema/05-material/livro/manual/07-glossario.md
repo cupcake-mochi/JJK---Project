@@ -92,7 +92,8 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **Liberação Máxima** | Feitiço à parte, escrito antes da sessão, de Classe 3 ou mais. Rompe o limite de dano num alvo só. Nos níveis 10, 20 e 30 | 9 |
 | **Técnica Máxima** | O golpe de dano fixo que carrega o nome da técnica. Do nível 17 em diante | 9 |
 | **Uso Livre** | O que a sua técnica faz de graça fora de combate, sem rolagem e sem montagem | 9 |
-| **Expansão de Domínio** | O espaço fechado onde a sua técnica manda. Custa espaço de feitiço | 9 |
+| **Expansão de Domínio** | O espaço onde a sua técnica manda, com barreira ou sem. Custa espaço de feitiço | 9 |
+| **Expansão sem Barreiras** | O degrau de cima da Expansão de Domínio: pode abrir sem barreira, com raio de `200 m`, e aí não prende ninguém | 9 |
 | **Dano na alma** | Tira vida e Integridade no mesmo tanto. Entra cheio, e tem quatro estágios | 4 |
 
 ## Técnica Marcial

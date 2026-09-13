@@ -124,22 +124,24 @@ const maxima = [
   P('Estender a sua técnica sobre o terreno: por alguns instantes, o lugar em volta deixa de obedecer ao mundo e passa a obedecer a você. É o topo do que um feiticeiro faz, e quase nenhum chega lá.'),
   P('Ela **não é montada com pontos** como um feitiço, e **não é dada pelo nível** como a Técnica Máxima. Ela é **comprada**, com espaços de feitiço conhecido, e só abre quando o seu nível e o seu **refino** alcançam os dois mínimos.'),
   BOX('REFINO, EM UMA LINHA', [
-    'O **refino** é o eixo de controle da sua ficha — quanto da sua energia você não desperdiça. Ele não é do Fundamento: ele mora no sistema em volta, sobe com os seus marcos e vai de 1 a 10. Aqui ele é lido em quatro lugares e nada mais: **o requisito**, **o desconto lá dentro**, **quanto tempo o domínio fica de pé** e **quem conquista quando dois domínios se sobrepõem.**',
+    'O **refino** é o eixo de controle da sua ficha — quanto da sua energia você não desperdiça. Ele não é do Fundamento: ele mora no sistema em volta, sobe com os seus marcos e vai de 1 a 10. Aqui ele é lido em cinco lugares e nada mais: **o requisito**, **o tamanho do domínio**, **o desconto lá dentro**, **quanto tempo o domínio fica de pé** e **quem conquista quando dois domínios se sobrepõem.**',
   ]),
   GAP(100),
 
-  H3('Os dois degraus'),
+  H3('Os três degraus'),
   TBL(['Degrau', 'Custa', 'Abre em', 'O Acerto dela'],
     [
       ['Incompleta', '2 espaços', 'nível 10 e refino 4', 'resolve por rolagem, como um feitiço'],
       ['Completa', '3 espaços (+1)', 'nível 14 e refino 5', '**acontece.** Sem rolagem e sem Teste de Resistência'],
+      ['Sem Barreiras', '5 espaços (+2)', 'refino 10 e especialização em Ocultismo', '**acontece**, com barreira ou sem, e você escolhe a cada abertura'],
     ],
     [16, 16, 24, 44], { boldCols: [0] }
   ),
   GAP(120),
   BUL('**A completa exige ter a incompleta**, e paga só a diferença — um espaço a mais, no molde da Regra Própria.'),
-  BUL('**Só a completa fecha barreira.** A incompleta é a técnica derramada no terreno, sem parede em volta.'),
-  BUL('O teto do feitiço não muda por causa dela, e as duas ficam **fora** da conta de Liberações Máximas.'),
+  BUL('**A Expansão sem Barreiras exige ter a completa**, e paga só a diferença — dois espaços a mais. O requisito é o refino no teto e **especialização em Ocultismo**, a perícia que cobre barreira, sem nível mínimo.'),
+  BUL('**A completa fecha barreira, e a incompleta não:** a incompleta é a técnica derramada no terreno, sem parede em volta. **A Expansão sem Barreiras escolhe a cada abertura.**'),
+  BUL('O teto do feitiço não muda por causa dela, e as três ficam **fora** da conta de Liberações Máximas.'),
   GAP(100),
 
   H3('O que você escreve: o Acerto e o Efeito'),
@@ -167,6 +169,7 @@ const maxima = [
   BUL('**Lá dentro os seus feitiços ficam mais baratos:** −⅓ do refino de PE na incompleta, **−metade do refino** na completa. **Nenhum feitiço custa menos de 1 PE.**'),
   BUL('**Você pode arrastar o domínio.** Se estiver com os pés no chão, gaste o seu deslocamento e a expansão inteira vai junto — e quem está lá dentro não percebe que se mexeu.'),
   BUL('**Dura metade do refino em rodadas**, no mínimo uma.'),
+  BUL('**O domínio tem raio de 1,5 m × refino.** A incompleta para em 7,5 m.'),
   GAP(100),
   BOX('A EXPANSÃO CONTA COMO FEITIÇO PARA A REGRA DE OURO Nº 6', [
     'Se alguma coisa algum dia baixar o custo de abrir para **Ação Bônus**, a regra nº 6 passa a valer sozinha: *feitiço em Ação Bônus ou Reação só permite mais um de Classe 0 no turno.* Ou seja, quem abrir domínio em Ação Bônus não lança mais nada de peso naquele turno. Não é regra nova; é a que já está lá, e ela existe exatamente para este caso.',
@@ -174,7 +177,7 @@ const maxima = [
   GAP(100),
 
   H3('A barreira, e o Rescaldo'),
-  P('Só a completa levanta barreira. Por dentro ela **não quebra** — quem está lá dentro está lá dentro. Por fora ela tem `50 × metade do refino` de vida, e cair antes da hora é o único jeito de alguém encurtar o seu domínio.'),
+  P('Só a completa levanta barreira, e a Expansão sem Barreiras quando você escolhe fechar. Por dentro ela **não quebra** — quem está lá dentro está lá dentro. Por fora ela tem `50 × metade do refino` de vida, e cair antes da hora é o único jeito de alguém encurtar o seu domínio.'),
   P('*O mestre pode declarar que uma barreira cede fora dessa conta* — uma fraqueza que a ficção já estabeleceu, uma cena que pede. É exceção declarada, e não a régua.'),
   GAP(80),
   BOX('RESCALDO', [
@@ -184,11 +187,20 @@ const maxima = [
   ]),
   GAP(100),
 
+  H3('Abrir sem barreira'),
+  P('**A Expansão sem Barreiras é pintar o domínio no ar, sem tela.** Na obra só dois fazem isso. Quem tem o degrau escolhe a cada abertura: **fecha a barreira e ela é a completa em tudo** — preço, desconto, barreira e arrastar —, **ou abre sem barreira.**'),
+  BUL('**Sem barreira, abrir cobra 7 × a sua maior Classe de PE**, e lá dentro **cada feitiço custa maestria × 2 a menos**. Nenhum feitiço custa menos de 1 PE.'),
+  BUL('**O raio é de 200 m, e o centro fica onde você abriu.** Você anda livre, e a área não vai junto.'),
+  BUL('**Ela não prende ninguém.** Quem está lá dentro pode sair andando, e leva o Acerto enquanto estiver no raio.'),
+  BUL('**Quem não tem energia amaldiçoada só é atingido se o seu Acerto alcança o que não tem energia**, como o corte do Sukuna, que alcança objeto.'),
+  BUL('**Ela não tem borda.** Sem barreira não há casca para quebrar nem borda para apagar: ela acaba pelo tempo, pela corrida, pela concentração, ou com você em 0 de vida.'),
+  GAP(100),
+
   H3('Nove domínios da obra, lidos nas duas peças'),
   TBL(['Quem', 'Acerto', 'Efeito'],
     [
       ['Megumi *(incompleta)*', 'todas as invocações dele ganham reforço', 'invocar todas elas de uma vez'],
-      ['Sukuna', 'clivar e desmantelar acertam', 'alcança todos no ambiente'],
+      ['Sukuna *(sem barreiras)*', 'clivar e desmantelar acertam', 'alcança todos no ambiente'],
       ['Mahito', 'ninguém desvia do toque dele', 'alcança todos no ambiente'],
       ['Jogo', 'queima todos no ambiente', 'amplifica a técnica'],
       ['Dagon', 'os shikigami dele acertam', 'amplifica a técnica'],
@@ -225,8 +237,9 @@ const maxima = [
   BUL('**Este teste não ocupa a sua Concentração, e a Mão Firme não protege dele.** Você pode segurar o domínio na corrida e seguir concentrando num efeito, e as duas rolagens são separadas.'),
   BUL('**Quem perde recebe o Acerto do vencedor, e não tem como recusar.** O domínio dele já caiu, e quem cai não abre saída na barreira que continua de pé.'),
   BUL('**Nas duas saídas o Rescaldo dispara**, dos dois lados. O domínio acabou, e ele acaba de qualquer jeito.'),
+  BUL('**Contra a Expansão sem Barreiras aberta sem barreira**, os dois Acertos se anulam só dentro da área do outro domínio, e **fora dessa área o Acerto da sem barreiras continua.** Se esse Acerto causa dano, ele **bate na barreira do outro por fora** cada vez que acontece. Acerto que não fere não encosta na barreira.'),
   GAP(100),
-  P('**Um domínio incompleto entra na disputa e não pode vencer.** Ele não fecha barreira, então não tem barreira para conquistar nem para perder. O que ele faz é o que a sobreposição já faz: **desliga o Acerto do completo, e a barreira do completo deixa de prender — quem está lá dentro pode sair** — e o Acerto dele, que rola, continua rolando. É a resposta mais cara que existe a um domínio, e a única que também é um domínio.'),
+  P('**Um domínio incompleto entra na disputa e não pode vencer.** Ele não fecha barreira, então não tem barreira para conquistar nem para perder. O que ele faz é o que a sobreposição já faz: **desliga o Acerto do completo, e a barreira do completo deixa de prender — quem está lá dentro pode sair** — e o Acerto dele, que rola, continua rolando. É a resposta mais cara que existe a um domínio, e a única que também é um domínio. **Contra a Expansão sem Barreiras aberta sem barreira, ela desliga o Acerto só dentro do próprio raio.**'),
   GAP(80),
   BOX('A SEGUNDA PERGUNTA É UMA TROCA, E ELA NÃO PAGA ESCREVER ACERTO INÚTIL', [
     'Um Acerto que causa dano rende em **todo** uso do seu domínio — na abertura e no começo de cada turno seu. O desempate da pergunta 2 só rende contra **outro domínio, de refino igual ao seu**.',
@@ -240,9 +253,10 @@ const maxima = [
   ]),
   GAP(100),
 
-  BOX('TRÊS OU MAIS DOMÍNIOS: CAEM TODOS', [
+  BOX('TRÊS OU MAIS DOMÍNIOS COM BARREIRA: CAEM TODOS', [
     'Dois domínios se empurram. **Três ou mais não se acomodam:** as condições que cada barreira exige por dentro e por fora não fecham juntas, e **todas as barreiras caem**.',
     'Ninguém conquista, ninguém recebe Acerto, e o Rescaldo pega todo mundo que abriu.',
+    '**A Expansão sem Barreiras aberta sem barreira não entra nessa conta.** Com três ou mais barreiras, as barreiras caem e a sem barreiras fica de pé. Com duas barreiras e a sem barreiras, as duas barreiras disputam como sempre, e a sem barreiras ataca as duas por fora.',
   ]),
 ];
 
