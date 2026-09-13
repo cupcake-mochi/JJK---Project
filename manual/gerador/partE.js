@@ -219,7 +219,10 @@ const maxima = [
     [7, 45, 48], { centerCols: [0], boldCols: [0] }
   ),
   GAP(120),
-  BUL('**A corrida.** Os dois domínios seguem de pé, os dois Acertos seguem desligados, e a luta corre normal. **O primeiro dos dois que perder o domínio — barreira derrubada por fora, ou o tempo acabou — ou chegar a 0 de vida recebe o Acerto do outro na hora.**'),
+  BUL('**A corrida.** Os dois domínios seguem de pé, os dois Acertos seguem desligados, e a luta corre normal. **O primeiro dos dois que perder o domínio — barreira derrubada por fora, o tempo acabou, ou falhas de concentração demais — ou chegar a 0 de vida recebe o Acerto do outro na hora.**'),
+  BUL('**Na corrida, segurar o domínio pede concentração.** Quem mantém um domínio e toma dano faz um **Teste de Resistência de Vigor contra a CD do dono do outro domínio**. Cada falha fica marcada até a corrida acabar, e **quando as falhas chegam a metade da sua Essência — arredondando para baixo, e nunca menos de 1 —, o seu domínio cai**.'),
+  BUL('**Personagem de jogador testa a cada dano que toma, sem limite. Inimigo testa no máximo uma vez por jogador que acertou ele na rodada**, por mais golpes que esse jogador dê. **Golpe de invocação não conta:** ele tira vida do inimigo, e não faz o inimigo testar.'),
+  BUL('**Este teste não ocupa a sua Concentração, e a Mão Firme não protege dele.** Você pode segurar o domínio na corrida e seguir concentrando num efeito, e as duas rolagens são separadas.'),
   BUL('**Quem perde recebe o Acerto do vencedor, e não tem como recusar.** O domínio dele já caiu, e quem cai não abre saída na barreira que continua de pé.'),
   BUL('**Nas duas saídas o Rescaldo dispara**, dos dois lados. O domínio acabou, e ele acaba de qualquer jeito.'),
   GAP(100),

@@ -877,6 +877,8 @@ Alguns efeitos exigem que você mantenha a atenção neles enquanto duram: a bar
 
 > **Exemplo.** O Kaito está concentrando num efeito e leva 26 de dano. Metade de 26 é 13, e 13 é maior que 10: a CD é 13. Se o golpe tivesse tirado 12, a metade daria 6, e a CD seria 10 mesmo.
 
+**Na corrida entre dois domínios a rolagem é a mesma, com a CD e a contagem trocadas.** A regra está no capítulo 40, na seção *Domínios sobrepostos*.
+
 ### Concentração e Carregar
 
 As duas seguram alguma coisa contra o dano, em momentos diferentes da vida de um feitiço.
@@ -4174,7 +4176,20 @@ O Acerto do Megumi *reforça* em vez de *atingir*, e é o que dá para fazer com
 | 3 | Iguais nas duas — os dois rolam **1d12** | separaram por **4 ou mais**: o maior conquista |
 | 4 | O d12 não separou | ninguém conquista ainda, e vale a corrida |
 
-**A corrida.** Os dois domínios seguem de pé, os dois Acertos seguem desligados, e a luta corre normal. **O primeiro dos dois que perder o domínio** — barreira derrubada por fora, ou o tempo acabou — **ou chegar a `0` de vida recebe o Acerto do outro na hora.**
+**A corrida.** Os dois domínios seguem de pé, os dois Acertos seguem desligados, e a luta corre normal. **O primeiro dos dois que perder o domínio** — barreira derrubada por fora, o tempo acabou, ou falhas de concentração demais — **ou chegar a `0` de vida recebe o Acerto do outro na hora.**
+
+**Na corrida, segurar o domínio pede concentração.** Quem mantém um domínio e toma dano faz um **Teste de Resistência de Vigor contra a CD do dono do outro domínio**. Cada falha fica marcada até a corrida acabar, e **quando as falhas chegam a metade da sua Essência, o seu domínio cai**.
+
+**Personagem de jogador testa a cada dano que toma, sem limite. Inimigo testa no máximo uma vez por jogador que acertou ele na rodada**, por mais golpes que esse jogador dê.
+
+**Falhas que derrubam o domínio**
+| Essência | 0 a 3 | 4 e 5 | 6 |
+|---|---|---|---|
+| Falhas | 1 | 2 | 3 |
+
+> **Exemplo.** A sua Essência é 5, então a segunda falha derruba o seu domínio. Na corrida você toma três golpes numa rodada e falha no segundo e no terceiro: o seu domínio cai na terceira rolagem, e o Acerto do outro te pega na hora.
+>
+> *A metade arredonda para baixo e nunca fica abaixo de 1: é a regra de arredondamento, em que o que você ganha desce.* **Esta é a rolagem de Vigor da Concentração, com a CD e a contagem trocadas**, e ela só existe enquanto dura a corrida.
 
 **Quem perde recebe o Acerto do vencedor, e não tem como recusar.** O domínio dele já caiu, e quem cai não abre saída na barreira que continua de pé.
 
@@ -6752,4 +6767,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: 0f0f97ab1222c7fb5664cbf52b798707d8fe5aad -->
+<!-- fonte: df744f86ab3c17665fa2dfac356016f209afa66f -->

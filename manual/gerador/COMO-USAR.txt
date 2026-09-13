@@ -1,4 +1,4 @@
-GERADOR DO MANUAL — Fundamento v7.27
+GERADOR DO MANUAL — Fundamento v7.28
 
 Recria o .docx do zero. Precisa de Node.js.
 
@@ -32,6 +32,15 @@ ORDEM DAS SEÇÕES (v7)
   4 Restrições → 5 Fora de combate → 6 Liberação Máxima → 7 Técnica Máxima →
   8 Regras de ouro → 9 Progressão → 10 Feitiços prontos → 11 Para o mestre →
   Apêndice
+
+O QUE MUDOU NA v7.28
+
+  A corrida entre dois dominios ganhou uma quarta forma de cair. Quem mantem um
+  dominio e toma dano faz Teste de Resistencia de Vigor contra a CD do dono do
+  outro dominio; o jogador testa a cada dano, e o inimigo no maximo uma vez por
+  jogador que acertou ele na rodada. As falhas acumulam, e o dominio cai quando
+  elas chegam a metade da Essencia, arredondando para baixo e nunca menos de 1.
+  A checagem 11.2 do conferir-expansao compara o manual com o livro.
 
 O QUE MUDOU NA v7.27
 

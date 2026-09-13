@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 11/09/2026, na v0.224 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e dez checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 13/09/2026, na v0.225 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e dez checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.224.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
+**Versão v0.225.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
 
 > ## 🆕 A v0.222 consertou duas coisas que a v0.221 deixou passar, e as duas são do §6.5 da peça 26
 >
@@ -946,7 +946,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 
 **Duas peças foram parcialmente substituídas e trazem o aviso no topo:** as seções 3 e 4 da peça 4 saíram para a peça 7, e a seção 3 e o quadro de Caminhos da peça 5 saíram para a peça 6.
 
-O manual do Fundamento **v7.27** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 366 parágrafos e 90 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na mesma versão do `.docx`, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 50 páginas.
+O manual do Fundamento **v7.28** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 366 parágrafos e 90 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na mesma versão do `.docx`, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 50 páginas.
 
 **Quem é dono da versão do manual:** a primeira linha de `manual/gerador/COMO-USAR.txt`. Toda outra cópia — a capa em `partA.js`, este arquivo, o `README.md`, o `LEIA-ME.md` e o `arquitetura.md` — é cópia, e o `conferir-repositorio.py` falha se alguma divergir. *Ele nasceu na v0.33, depois de a capa do manual passar três versões dizendo 7.5.*
 
@@ -1067,9 +1067,9 @@ Doze Passivas e sete feitiços é o que a rota **compra** — zero aptidões, re
 
 ***O dono é o manual, na v7.19, seção 7.*** *Da v0.27 à v0.172 a regra existia só aqui e no rascunho, e os dois afirmavam que a v7.7 do manual a citava — ela não citava, e nenhuma peça, nem o livro, tinha ela.*
 
-> **Enquanto dois domínios sobrepostos estão de pé, nenhum dos dois acerta garantido. Quem conquista sai de três perguntas: mais refino · Acerto que não causa dano · a corrida.**
+> **Enquanto dois domínios sobrepostos estão de pé, nenhum dos dois acerta garantido. Quem conquista sai de quatro degraus: mais refino · Acerto que não causa dano · `1d12` separando por `4` · a corrida.**
 
-**A cascata é derivada, e nenhum número novo entrou.** *A corrida é o desempate: os dois seguem de pé, e o primeiro que perder o domínio — barreira derrubada por fora, ou duração vencida — ou chegar a `0` de vida recebe o Acerto do outro.* **Quem perde escolhe entre ficar e receber, ou gastar a queda do próprio domínio para abrir buraco e sair.**
+**A cascata é derivada, e nenhum número novo entrou.** *A corrida é o desempate: os dois seguem de pé, e o primeiro que perder o domínio — barreira derrubada por fora, duração vencida, ou falhas de concentração demais — ou chegar a `0` de vida recebe o Acerto do outro.* **Quem perde recebe o Acerto sem escolha** — *a saída de abrir buraco caiu na v0.200 —, **e desde a v0.225 segurar o domínio na corrida pede teste de Vigor contra a CD do rival**: *o jogador a cada dano, o inimigo uma vez por jogador por rodada, e o domínio cai quando as falhas chegam a metade da Essência.*
 
 > **⚠ A rolagem `1d10 + quantidade de aptidões + metade do nível` FOI REVERTIDA**, e com ela as taxas de vitória que este documento publicava. *O levantamento externo da v0.173 achou que a obra resolve o empate por corrida e não por rolagem, e a corrida amarra em três estados que já tinham dono — vida da barreira, duração e `0` de vida.* **O argumento da reversão está no CHANGELOG da v0.173.**
 

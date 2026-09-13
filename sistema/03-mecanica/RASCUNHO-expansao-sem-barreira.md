@@ -76,7 +76,7 @@
 | quando | o que ele fez | o que ganhou | fonte |
 |---|---|---|---|
 | 2º choque com o Gojo | tirou o Acerto de dentro da área do `Vazio Infinito` e estreitou o alcance | mais potência contra a casca reforçada | cap. `227` p. `11`–`13` |
-| contra o Yuta | encolheu o alcance para só envolver a casca do domínio do Yuta | **tirou o limite de tempo** | cap. `262` p. `5` |
+| contra o Yuta | encolheu o alcance para só envolver a casca do domínio do Yuta | **tirou o limite de 99 segundos do domínio enfraquecido** — *corrigido na seção 6.6* | cap. `262` p. `5` |
 | ferido, improvisado | alcance e potência cheios | durou `99` segundos | cap. `258` p. `12`–`13` |
 
 ### 1.7 Como se derruba um domínio aberto
@@ -378,10 +378,300 @@
 
 ## 5. Achados de passagem, que não são deste rascunho
 
-- **A premissa da v0.200 pode estar errada.** *Ela tirou a saída de furar a barreira com o argumento "a obra não aborda assim".* **O wiki cita dois capítulos em que usar Expansão contra um domínio mais refinado abre buraco para fugir** — *cap. `30` p. `14` e cap. `109` p. `13`.* **O do cap. `109` é o Megumi, incompleto, contra o Dagon, e o manual manteve esse caso na Incompleta.** *O do cap. `30` não foi identificado.* **Não foi reaberto; fica registrado para ele decidir se vale olhar.**
+- ~~**A premissa da v0.200 pode estar errada.**~~ **Alarme falso, desfeito na seção 6.10.** *Ela tirou a saída de furar a barreira com o argumento "a obra não aborda assim".* **O wiki cita dois capítulos em que usar Expansão contra um domínio mais refinado abre buraco para fugir** — *cap. `30` p. `14` e cap. `109` p. `13`.* **O do cap. `109` é o Megumi, incompleto, contra o Dagon, e o manual manteve esse caso na Incompleta.** *O do cap. `30` não foi identificado.* **Não foi reaberto; fica registrado para ele decidir se vale olhar.**
 - **O `ESTADO-ATUAL` ainda diz, na seção do clash, que "quem perde escolhe entre ficar e receber, ou gastar a queda do próprio domínio para abrir buraco e sair".** *A v0.200 tirou isso.*
 - **O `bestiario/05-sukuna/FONTE-o-sukuna-no-canon.md` atribui o "pintar no ar" ao cap. `225`**; *o wiki cita o cap. `119`.* **E o §2.3 dele escreve "a ausência de barreira é o preço de um Voto Vinculante"**, *que é a leitura corrigida na v0.220.*
 - **Nome:** *`Aberta` passa na triagem, mas o manual descreve a Incompleta como "sem parede em volta".* **Chamar o modo novo de `Aberta` confunde as duas.**
+
+---
+
+## 6. Rodada 2 em diante — o que a obra responde
+
+*Segunda passada de pesquisa, 12/09/2026, feita a pedido dele: "pesquise usando a obra, vá a fundo, não use o primeiro argumento como resposta definitiva".* **Trinta e oito páginas do wiki lidas como índice — as de técnica, as das lutas e as de capítulo —, com cada afirmação que sustenta regra cruzada entre pelo menos duas delas, e o raio conferido também em fonte japonesa e na wiki em português.** *O capítulo continua sendo imagem; o limite de fonte da seção 1 vale aqui igual.*
+
+### 6.1 O raio
+
+***Decisão do Mizuki:*** *"O raio seria de 100 metros, vulgo 200 de diâmetro."*
+
+> **⚠ A obra escreve RAIO de quase `200 m`.** *Seis fontes independentes escrevem raio:* **o wiki no cap. `119` ("maximum radius of nearly 200 meters") e no cap. `258` ("across a 200-meter radius"), o `ciatr` (`最大半径200メートル` — `半径` é raio), uma pergunta de leitor japonês no Yahoo! 知恵袋 (`半径約200m`), e a wiki em português ("raio máximo de quase 200 metros").** *O de Shibuya foi `140 m` de raio.* **O diâmetro da obra é perto de `400 m`.**
+>
+> **O número é dele, e `100 m` de raio pode ser a escolha certa para a mesa.** *O que fica registrado é que ele é metade do raio da obra.* **E falta dizer se os `100 m` valem só para o sem barreira, ou para toda Expansão.**
+
+**A obra não dá tamanho de domínio fechado em lugar nenhum.** *O que ela diz é que a barreira de domínio tem parâmetros internos e externos — "volume e velocidade de construção" — que o feiticeiro fixa quando aprende e normalmente não mexe a cada abertura* (cap. `228` p. `1`–`3`). **Por fora ele é uma esfera, de tamanho diferente do espaço de dentro** (cap. `189`; `252`). *O Gojo alargou a barreira até rivalizar com o alcance do Sukuna e depois encolheu a uma bola de basquete* (cap. `227`–`228`). **A afirmação de que o fechado só puxa quem está a poucos metros é de fã, e não achei capítulo.**
+
+### 6.2 O choque
+
+**Os choques entre aberto e fechado da obra são seis, e os seis são contra o `Vazio Infinito`:** *cinco do Gojo* (cap. `225`–`229`) *e um do Yuta no corpo do Gojo* (cap. `261`–`263`). **O Sukuna não abriu domínio contra a Yorozu** (cap. `218`–`219`) — *foi o Mahoraga quem desfez a técnica dela.*
+
+| choque | o que o fechado fez | o que o aberto fez | quem caiu |
+|---|---|---|---|
+| **1º** (`225`) | nada — a barreira do UV é a de sempre, forte por dentro e fraca por fora | o alcance passa da barreira e corta a casca por fora | **o fechado, na hora** |
+| **2º** (`226`–`227`) | **inverteu as condições da barreira**: forte por fora, fraca por dentro | **voto:** tirou o Acerto de DENTRO da área do UV e estreitou o alcance, em troca de mais saída contra a casca — *e ficou encostado no Gojo para não levar o UV* | **o fechado** |
+| **3º** (`227`–`228`) | **alargou até rivalizar com o alcance, e encolheu a uma bola de basquete** — densidade | estreitou o alcance para mais saída | **os dois, em 3 minutos:** *a casca quebrou por fora, e o Gojo feriu o Sukuna até ele não sustentar* |
+| **4º** (`229`) | igual | igual | **os dois juntos** |
+| **5º** (`229`) | abriu **menos de um centésimo antes** — o Sukuna teve de curar o corpo antes de repor a técnica | abriu atrasado, tomou o UV por um instante | **o aberto**, depois de 2 min 40 s |
+| **Yuta** (`262`–`263`) | UV com barreira pequena, treinado para aguentar 3 minutos | **encolheu o alcance até a casca do UV** | **os dois:** o `Purple` rompeu a barreira do Yuta e cortou a concentração do Sukuna |
+
+**Três regras da obra por trás da tabela:**
+
+- **Dentro da barreira do outro, os dois Acertos se cancelam** (cap. `179` p. `2`; `225`). *É o que o manual já publica.*
+- **Barreira de domínio é reforçada por dentro e fraca por fora, e quanto mais por dentro, mais fraca por fora** (vol. `13` p. `70`; cap. `228` p. `1`–`2`). *O fechado pode inverter isso, e a obra trata como perícia de barreira do Gojo.*
+- **Enquanto os dois estão de pé, "o momento em que um toma dano pesado ou perde o domínio, o Acerto do outro bate na hora"** (cap. `225` p. `14`–`15`). *É a corrida do manual.*
+
+> **O que a tabela diz para o sistema:** *o aberto ganha o choque quando a casca do fechado cai antes dele.* **No primeiro choque caiu na hora; com a casca reforçada, aguentou três minutos, e o fechado derrubou o aberto no mesmo tempo ferindo o dono.** *A obra decide pelo dano à casca contra o dano ao dono — duas corridas, uma de cada lado.*
+
+**E o Kenjaku diz, depois de derrubar a Yuki, que abrir o próprio domínio teria sido melhor que confiar no Tengen** (cap. `206`). *O Tengen tinha proibido ela de abrir, porque a casca de fora seria a dela e cairia primeiro quando ele apagasse a barreira vazia.*
+
+### 6.3 Como se derruba
+
+| o jeito | na obra | fonte |
+|---|---|---|
+| **ferir o dono até ele não sustentar** | o Gojo no 3º, 4º e 5º choque; o `Purple` do Yuta | cap. `228`–`229`; `263` |
+| **apagar a borda da área do Acerto** | o Tengen contra o Kenjaku — *ele planejava desfazer um domínio FECHADO em 10 segundos, e contra o aberto chegou tarde* | cap. `206` |
+| **impedir a abertura** | a Nobara acerta o Sukuna com Ressonância no momento em que ele ia abrir; o Yuta arranca a língua e prende as mãos para ele não fazer o selo | cap. `267`; `251` |
+| **o dano cerebral do próprio dono** | depois de tomar o UV por menos de 10 segundos, o Sukuna não consegue mais abrir naquela luta | cap. `230` |
+
+**O que NÃO derruba: quebrar a casca.** *Ele não tem* (cap. `228` p. `8`; `229`). **E o Sukuna mantém a barreira "aberta" com condições ajustáveis:** *na `Chama Divina` ele muda as condições da barreira do domínio para segurar a poeira dentro* (cap. `259`).
+
+### 6.4 O contrajogo que não derruba, mas segura
+
+| técnica | o que faz contra o aberto | fonte |
+|---|---|---|
+| **`Domínio Simples`** | anula o Acerto dentro do raio dele, e **domínio forte destrói em segundos** | cap. `206`; `266` |
+| | *contra o aberto improvisado e enfraquecido do Sukuna, aguentou os 99 segundos — o do Yuji caiu no último* | cap. `258` |
+| | *contra o Kenjaku, a barreira dele arrancou o da Yuki em instantes* | cap. `206` |
+| | *o Gojo abriu, perdeu, abriu de novo e perdeu de novo* | cap. `226` |
+| **`Cesta Oca de Vime`** | anula o Acerto, saída fraca, e o dono sustenta com as mãos | cap. `249`; `266` |
+| **Amplificação** | envolve o corpo, anula técnica no contato e **enfraquece o Acerto** de domínio | cap. `171`; `246` |
+| **`Falling Blossom Emotion`** | contra-ataca quando o Acerto encosta — *cortes mais rasos que com o Simples* | cap. `227` |
+
+### 6.5 A rota de fuga
+
+**Ela existe na prática, e o dono pode perseguir:** *"o Gojo tenta fugir do alcance do domínio, mas o Sukuna vai atrás na hora"* (cap. `225`–`226`).
+
+**O centro é o santuário:** *o Gojo descobre que "o centro do domínio é o santuário e não o próprio Sukuna"* (cap. `226`). **Então sair do alcance é andar para longe de um ponto parado, com o dono livre para vir atrás.**
+
+**E ela foi planejada como tática:** *em Shinjuku, o Todo trocaria os feiticeiros de dentro do alcance pelos corvos da Mei Mei do lado de fora* (cap. `259`).
+
+> **A borda corta:** *no cap. `119`, o Shigemo parece estar fora do alcance, sai correndo, e o corpo dele desliza em dois — tinha sido cortado também.*
+
+### 6.6 A duração
+
+**Nenhum domínio da obra tem duração fixa: ele cai quando o dono não sustenta, quando a barreira quebra, ou quando o dono desfaz.** *Os números que aparecem:*
+
+| quanto | o que era | fonte |
+|---|---|---|
+| **0,2 s** | o UV do Gojo em Shibuya, de propósito, para não deixar sequela em quem não é feiticeiro | cap. `89` |
+| **3 min** | o tempo que a barreira encolhida do UV aguenta os cortes por fora | cap. `228`; `262` |
+| **2 min 40 s** | o aberto ferido do Sukuna, antes de cair dentro do UV | cap. `229` |
+| **99 s** | o aberto improvisado do Sukuna, com alcance e saída cheios | cap. `258` |
+| **sem limite** | **o mesmo aberto, encolhido até a casca do Yuta — "eliminando o limite original de 99 segundos"**, e a janela passa a ser os 3 minutos da barreira dele | cap. `262` |
+
+> **⚠ Isto corrige a seção 1.6.** *Ela dizia que encolher "tirou o limite de tempo" como se o aberto ganhasse duração infinita.* **O que o cap. `262` escreve é que encolher tirou o limite do DOMÍNIO ENFRAQUECIDO, e que a luta passou a ter a janela da barreira do outro.** *A obra liga alcance e sustento: alcance cheio pesa mais para manter.*
+
+### 6.7 Quem não tem energia
+
+**Esta é a de base mais larga da pesquisa, e ela vale para toda Expansão, fechada ou aberta.**
+
+| a regra da obra | fonte |
+|---|---|
+| **barreira só reconhece quem tem energia, e ignora objeto e prédio** | cap. `45` p. `9`; `198` p. `10` |
+| **quem tem zero energia atravessa barreira, e o Acerto da maioria dos domínios não reconhece a presença dele** | cap. `151`; `198` |
+| **a barreira trata a Maki como um prédio: a maioria dos domínios não prende ela** — a não ser que o dono use uma estrutura de verdade como parede, ou que ela consinta —, **e ela não pode ser alvo do Acerto** | cap. `198` |
+| **o domínio do Naoya não reconheceu a Maki; ela andou livre e matou ele** | cap. `197`–`198` |
+| **o aberto do Sukuna pega a Maki: ela precisou do `Domínio Simples` da Miwa** | cap. `258` |
+
+**A leitura que as cinco sustentam:** *o fechado prende e mira por reconhecimento de energia, e erra quem não tem; o aberto corta a área inteira, objeto incluído, e acerta.* **O sistema hoje não diz nada disso**, *e a Restrição Celestial pelo ramo da Maki existe nele.*
+
+### 6.8 O Rescaldo, e a porta de saída
+
+| o que a obra mostra | fonte |
+|---|---|
+| **a técnica queimada por Expansão não volta com energia reversa normalmente** | cap. `227` p. `3` |
+| **o Gojo e o Sukuna destroem a gravação da técnica no cérebro com energia e curam com energia reversa** | cap. `226` p. `14`–`17` |
+| **e não conseguem fazer isso e curar o corpo ao mesmo tempo** — *foi o que atrasou o Sukuna em um centésimo de segundo no 5º choque, e custou a luta* | cap. `229` p. `11` |
+| **o dano no cérebro acumula até impedir a Expansão:** o Gojo parou depois de cinco vezes | cap. `230` p. `10`–`11` |
+| **o Sukuna repetiu a manobra contra o Yuji, descrita como de altíssimo risco** | cap. `266` |
+| **o jackpot do Hakari repõe energia e técnica, e deixa abrir de novo** | cap. `186`–`187` |
+| **o Kenjaku separou técnicas por técnica de barreira**, e uma sobreviveu ao Rescaldo — *teoria do Kusakabe* | cap. `269` |
+
+### 6.9 O nome
+
+**A obra não dá nome próprio ao modo.** *Ela descreve:* **`結界を閉じない`** — *"não fechar a barreira"* —, **`閉じない領域`** — *"domínio que não fecha"* —, e em inglês **"open barrier"**. *A comparação que ela usa é pintar no céu sem tela* (`空に絵を描く`). **Os termos da wiki em português são "rota de fuga", "acerto garantido", "casca externa" e "voto vinculativo".** *A escolha é dele, e passa pela triagem antes.*
+
+### 6.10 Três afirmações minhas que a segunda passada derrubou ou corrigiu
+
+- **"Encolher tirou o limite de tempo"** — *corrigida na 6.6.*
+- **"O `Domínio Simples` contra o aberto: uma fonte só"** — *são quatro casos, e a leitura é que ele compra tempo.*
+- **"A premissa da v0.200 pode estar errada"** — *não está.* **O buraco para fugir do cap. `109` é o Megumi, com domínio incompleto, contra o Dagon, e o manual manteve esse caso na Incompleta.** *No cap. `30` não há buraco: o Yuji entra por fora no domínio do Mahito, e o Sukuna desfaz o domínio ferindo o dono.* **O alarme da seção 5 foi falso.**
+
+## 7. Rodada 2 — o que o Mizuki decidiu e levantou, em 12/09/2026
+
+*Salvo antes de qualquer conta, a pedido dele: "salve todas essas questões que levantei, pq estamos chegando próximos do limite".* **Cada item traz as palavras dele, o que fica decidido, e o que ainda precisa ser validado ou resolvido.**
+
+| # | o assunto | as palavras dele | o estado |
+|---|---|---|---|
+| **1** | **o raio** | *"O raio pode mudar pra obra original"* | ✅ **decidido: raio de quase `200 m`**, como a obra — *substitui os `100 m` da seção 6.1.* ⏳ **O tamanho do domínio fechado continua sem número** |
+| **2** | **o choque** | *"isso é só no caso de expansões letais né, n adianta a sem barreira estar do lado de fora pra quebrar a com barreira se n tem como a expansão dar dano em barreira sendo não letal (vulgo n tem feitiço de ataque), n esqueça disso"* | ✅ **decidido: só um Acerto que causa dano quebra a barreira do outro por fora.** *Um sem barreira de Acerto não letal fica do lado de fora sem ter o que fazer contra a casca.* ⏳ **Falta a conta: quanto a casca aguenta e quanto o Acerto tira dela por turno** |
+| **3** | **derrubar, na corrida** ✅ *decidido em 7.2* | *"O ferir o dono é só no caso que ocorre a corrida, ent acredito que nessa hora poderia ter testes de concentração talvez, contra a CD do atacante ou do oponente da corrida"* | ⏳ **proposta dele, para resolver:** *ferir o dono só derruba o domínio durante a corrida, e ali cabe um teste de concentração.* **Falta escolher contra qual CD — a de quem bateu, ou a do dono do outro domínio — e qual teste** |
+| **4** | **a duração** | *"A duração pode manter a do sistema atual"* | ✅ **decidido: a do sistema — metade do refino em rodadas, no mínimo uma** |
+| **5** | **quem não tem energia** ✅ *decidido em 7.1* | *"O Sem barreiras n pega a maki, a maki foi acertada salve engano pq o sukuna fez o pacto pra sacrificar o acerto garantido, posso estar errado e o fato q o acerto da expansão dele vai em objetos, valide isso"* | ⏳ **pedido de validação na obra.** *A seção 6.7 leu que o aberto pega a Maki porque corta a área inteira, objeto incluído.* **Ele lê que ela foi atingida por um voto que sacrificou o Acerto garantido, e pelos cortes que caem em objeto — e que o sem barreira, por regra, não pega quem não tem energia** |
+| **6** | **o Rescaldo** | *"O rescaldo a gente vai trabalhar depois"* | ⏸ **adiado por ele** |
+| **7** | **o nome** | *"O nome pode por expansão sem barreiras"* | ✅ **decidido: `Expansão sem Barreiras`.** ⏳ **Falta a triagem do `conferir-nomes.py`** |
+
+### 7.1 A validação da Maki
+
+***O pedido:*** *"a maki foi acertada salve engano pq o sukuna fez o pacto pra sacrificar o acerto garantido, posso estar errado e o fato q o acerto da expansão dele vai em objetos, valide isso".*
+
+| a afirmação | o que a obra diz | fonte |
+|---|---|---|
+| **o voto sacrificou o Acerto para pegar a Maki** | **não se sustenta.** *O voto que tira o Acerto é o do 2º choque com o Gojo, e ele tira só de dentro da área do `Vazio Infinito`.* **No cap. `258` os votos são improvisados para manter alcance e saída cheios**, e nenhuma fonte liga eles à Maki | cap. `227` p. `11`–`13`; `258` p. `4`–`5` |
+| **o Acerto dele vai em objetos** | **sustenta, e o autor ampliou.** *Na revista, o cap. `119` dizia que o Desmantelar vai em **"objetos inanimados"** (`無生物`); **no volume o Gege reescreveu para "o que não tem energia amaldiçoada"** (`呪力のないもの`).* **É essa revisão que cobre a Maki** | wiki, página `Shrine`, nota da edição |
+| **o sem barreira não pega a Maki** | **a obra diz o contrário, e diz o motivo.** *O Sukuna manteve a barreira aberta "sem baixar a dificuldade da técnica de barreira" **para pegar a Maki**.* **A narração do `258` diz que, fechando, o Acerto passaria a valer dentro da paisagem interior materializada — e a barreira trata a Maki como construção, que o domínio fechado não puxa para dentro.** *Ela só não morreu porque a Miwa abriu o `Domínio Simples` na frente dela* | wiki, `Malevolent Shrine` (`258` p. `12`–`13`); `Kasumi Miwa`; Yahoo! 知恵袋; `miyamura-literaturediary.com` |
+
+> **O que as duas metades somam:** *o aberto pega a Maki por DOIS motivos juntos — ele está no espaço real, sem barreira que precise puxar ela para dentro, e o Acerto dele corta o que não tem energia.* **Um domínio aberto cujo Acerto só alcança quem tem energia não teria o que fazer com ela**, *e a obra não mostra esse caso.*
+>
+> **Fonte japonesa, citando a narração:** *`結界術において真希は建造物と同等の扱いになります。建造物は領域を展開しても領域内に入りません。そのため真希は通常の外郭のあるタイプの領域で捉える事ができません。258話のナレーションはそれを表しています。`* — *"na técnica de barreira a Maki é tratada como construção; construção não entra no domínio quando ele é expandido; por isso ela não é pega por domínio do tipo com casca; a narração do `258` mostra isso."*
+
+**A pergunta que isso deixa para ele:** *o `Expansão sem Barreiras` pega quem não tem energia sempre, ou só quando o Acerto escrito alcança o que não tem energia, como o do Sukuna?*
+
+> ## ✅ Decidido em 12/09/2026: só quando o Acerto atinge objetos
+> ***Decisão do Mizuki:*** *"So caso o acerto atinja objetos."*
+>
+> **O `Expansão sem Barreiras` pega quem não tem energia apenas se o Acerto escrito dele alcança o que não tem energia** — *como o corte do Sukuna, que vai no que não tem energia.* **Sem isso escrito no Acerto, quem não tem energia fica de fora dele, igual acontece no domínio fechado.**
+
+### 7.2 O teste de concentração na corrida
+
+**O sistema já tem regra de concentração**, na peça 3: *"ao tomar dano faz um Teste de Resistência Vigor contra CD 10 ou metade do dano, o que for maior. Falhou, o efeito cai."* **Ninguém tinha ligado ela ao domínio.**
+
+**E ela não serve do jeito que está, e a conta mostra por quê.** *A CD sai do dano, e o dano do nível `22` em diante é grande demais para o `d20`:*
+
+| nível | CD de feitiço (`8 + 6 + maestria`) | dano de um personagem numa rodada | CD da regra atual |
+|---|---|---|---|
+| `22` | `17` | `69` | **`34`** |
+| `26` | `18` | `79` | **`39`** |
+
+*O dano por personagem é o dano do grupo por rodada da tabela `Inimigos` dividido por quatro.*
+
+**Chance de manter o domínio a cada golpe, por ficha:**
+
+| ficha | contra a CD de feitiço, nível `22` · `26` | contra a regra atual |
+|---|---|---|
+| Constituição `6`, Vigor treinado | `65%` · `65%` | **`0%`** |
+| Constituição `3`, Vigor treinado | `50%` · `50%` | **`0%`** |
+| Constituição `3`, sem treino | `35%` · `30%` | **`0%`** |
+| Constituição `0`, sem treino | `20%` · `15%` | **`0%`** |
+
+**As três saídas:**
+
+| saída | a CD | o preço |
+|---|---|---|
+| **A** · a regra de concentração como está | `10` ou metade do dano | **nenhuma regra nova — e o domínio cai no primeiro golpe, sempre, do nível `22` em diante** |
+| **B** · a CD de quem bateu | `8 + atributo + maestria` do atacante | **muda com quem acerta:** *o aliado fraco quase não ameaça, o forte ameaça.* O grupo escolhe quem bate |
+| **C** · a CD do dono do outro domínio | `8 + atributo + maestria` do rival na corrida | **uma CD por corrida, fácil de lembrar.** *Todo golpe do grupo vira ameaça igual, e empilhar golpe é o que decide* |
+
+> ## ✅ Decidido em 12/09/2026: saída C, a CD do dono do outro domínio
+> ***Decisão do Mizuki:*** *"Do dono do outro dominio."*
+>
+> **Durante a corrida, quem mantém um domínio e toma dano faz o Teste de Resistência de concentração contra a CD do dono do outro domínio. Falhou, o domínio cai.** *O teste é o de Vigor, que é o da regra de concentração da peça 3 — só a CD troca de dono.* ⏳ **O que isso faz com a corrida está na 7.4, e o ritmo do teste ficou para ele escolher.**
+
+### 7.3 A triagem do nome
+
+**`Expansão sem Barreiras` passa na triagem**, e as variações `Expansão sem Barreira`, `sem Barreiras` e `Sem Barreiras` também. *Uma vizinhança de sentido fica anotada: o catálogo de aptidões tem a `Barreira Simples` e a `Cortina`, então a palavra `Barreira` já nomeia aptidão.* **E o plural é escolha dele:** *um domínio tem uma barreira só.*
+
+### 7.4 A conta da casca, contra a conta da concentração
+
+**Um Acerto letal usa a régua da Melhoria `Inescapável`:** *ela custa uma `Média` e proíbe o feitiço de ter outra peça, então o Acerto rende os pontos da Classe menos a `Média`, em `d8`.* **Pela tabela de Classe do manual, isso dá `2 × Classe` dados.**
+
+| Classe | o Acerto letal | média |
+|---|---|---|
+| `5` | `10d8` | `45` |
+| `6` | `12d8` | `54` |
+| `7` | `14d8` | `63` |
+
+**A casca do domínio fechado tem, por fora, `50 ×` metade do refino de vida:** `100` no refino `5`, `150` no `7`, `250` no `10`.
+
+**Quantos Acertos a casca aguenta** — *o primeiro sai quando o sem barreira abre, e os outros no começo de cada turno do dono:*
+
+| | casca de refino `5` | refino `7` | refino `10` |
+|---|---|---|---|
+| Acerto de Classe `6` | `2` | `3` | `5` |
+| Acerto de Classe `7` | `2` | `3` | `4` |
+
+**E o teste de concentração, a cada golpe no dono durante a corrida, contra a CD do rival** (`17` no nível `22`, `18` no `26`):
+
+| ficha | falha por golpe | segura uma rodada de 3 golpes | golpes até cair, em média |
+|---|---|---|---|
+| Constituição `6`, Vigor treinado | `35%` | `27%` | `2,9` |
+| Constituição `3`, Vigor treinado | `50%` | `12%` | `2,0` |
+| Constituição `0`, sem treino | `80%` a `85%` | `0%` a `1%` | `1,2` |
+
+> **⚠ O que as duas tabelas juntas mostram:** *num combate de grupo, o dono de domínio cai por concentração em um ou dois golpes, e a casca do fechado de refino `10` pede quatro Acertos.* **A corrida quase nunca chega a ser decidida pela casca** — *ela só pesa em duelo, ou quando ninguém consegue bater no dono.*
+>
+> **E a obra mostra o contrário:** *o Gojo e o Sukuna trocaram golpe por três minutos com os dois domínios de pé* (cap. `228`), **e o que derruba é "dano pesado"** (cap. `225` p. `14`–`15`).
+
+**As três saídas para o ritmo do teste, e ele escolhe:**
+
+| saída | quando testa | o que faz com a corrida |
+|---|---|---|
+| **a cada golpe** | todo dano recebido | cai em `2` golpes, em média, na ficha treinada; **a casca quase nunca decide** |
+| **uma vez por rodada** | na primeira vez que toma dano na rodada | a ficha treinada segura `50%` a `65%` das rodadas — **perto de `2` a `3` rodadas, na mesma ordem dos `4` Acertos da casca** |
+| **só com dano pesado** | quando um golpe passa de um limite | **é a palavra da obra**, e pede um número para o limite que ainda não existe |
+
+*Conta em `manual/matematica/casca-sem-barreira.py`; ela lê a tabela de Classe do manual, a `Inescapável`, a casca e o ritmo do Acerto do livro, e morre com `ANCORA PERDIDA` se algum mudar.*
+
+### 7.5 A concentração na corrida — a regra dele, em 13/09/2026
+
+> ## ✅ APLICADA na v0.225 — *no manual `v7.28`, no capítulo 40 do livro, e na checagem `11.2` do `conferir-expansao.py`.* **Vale em toda corrida, então a `Expansão sem Barreiras` já nasce com ela.**
+
+***Palavras do Mizuki:*** *"quero q vc adicione isso na corrida de barreira contra barreira e na sem barreiras também. Coloca todo dano recebido, tem um teste, mas apenas 1 por player atacando o inimigo. Enquanto o player q tiver na corrida, tem de fazer um teste pra cada dano tomado, n tem limite. Cada falha é registrada, caso vc tenha uma quantidade de falhas igual a metade de sua essência, a expansão cai."*
+
+| | a regra |
+|---|---|
+| **onde vale** | **em toda corrida** — com barreira contra com barreira, e com a Expansão sem Barreiras |
+| **o inimigo na corrida** | faz teste quando toma dano, **no máximo um por jogador que ataca ele** |
+| **o jogador na corrida** | faz **um teste para cada dano que toma, sem limite** |
+| **o teste** | Teste de Resistência de Vigor contra a CD do dono do outro domínio *(decidido em 7.2)* |
+| **a queda** | **as falhas se acumulam; quando o número de falhas chega a metade da Essência, a expansão cai** — *e a falha única não derruba mais* |
+
+**O arredondamento já tem dono, e ele fecha a pergunta de Essência baixa.** *A peça 1 §5.4 manda: "o que você ganha desce, e o que você ganha nunca fica abaixo de 1".* **O limite de falhas é ganho do dono do domínio, então:**
+
+| Essência | `0` | `1` | `2` | `3` | `4` | `5` | `6` |
+|---|---|---|---|---|---|---|---|
+| **falhas que derrubam** | `1` | `1` | `1` | `1` | `2` | `2` | `3` |
+
+**O que a regra faz com a corrida, medido** — *chefe concentrando as ações no dono, refino `10`, duração `5` rodadas, e a casca de refino `10` caindo no quarto Acerto letal:*
+
+| quem é o dono | Essência `2` | Essência `4` | Essência `6` |
+|---|---|---|---|
+| **jogador**, contra um `Desastre` (`4` danos por rodada) | cai na rodada `1` | cai na rodada `1` ou `2` | cai na rodada `1` ou `2` |
+| **inimigo**, `1` teste por jogador **por rodada** (`4` testes) | cai na rodada `1` | cai na rodada `1` ou `2` | cai na rodada `1` ou `2` |
+| **inimigo**, `1` teste por jogador **na corrida inteira** (`4` testes no total) | fica de pé em `0%` a `18%` | em `1%` a `56%` | **em `11%` a `87%`** |
+
+*As faixas vão da ficha de Constituição `0` sem treino à de Constituição `6` com Vigor treinado.*
+
+**E se o chefe não concentra tudo no dono** — *chance de o domínio do jogador estar de pé no fim da rodada `5`, com Essência `6`:* **`76%` com um dano por rodada e `26%` com dois**, *na ficha de Constituição `6` treinada.*
+
+> **⚠ O que isso diz:** *contra chefe que concentra, a corrida se decide por concentração na primeira ou na segunda rodada, e nem a casca nem a duração chegam a pesar.* **A leitura "um teste por jogador por rodada" deixa os dois lados parecidos; a leitura "um por jogador na corrida inteira" deixa o inimigo quase intocável pela concentração, e o jogador não.** *E a Essência passa a pesar no domínio: quem tem técnica de Essência cai na terceira falha, e quem tem técnica de Inteligência costuma cair na primeira.*
+
+✅ ***Decidido em 13/09/2026, pelo Mizuki: por rodada.*** **Cada jogador causa no máximo um teste por rodada no inimigo que está na corrida, mesmo que acerte várias vezes.** *Por turno e por rodada dão o mesmo, porque o jogador age uma vez por rodada — só uma Reação faria diferença.*
+
+*Conta na parte de 13/09 de `manual/matematica/casca-sem-barreira.py`.*
+
+### 7.6 As três perguntas que a v0.225 deixou — respondidas em 13/09/2026
+
+> ## ✅ APLICADAS na v0.225, no manual, no livro e na `11.2`.
+
+| a pergunta | a resposta dele | o que fica |
+|---|---|---|
+| **manter o domínio na corrida ocupa a Concentração do capítulo 11?** | *"Nao"* | ✅ **não ocupa:** *você pode seguir concentrando num efeito enquanto segura o domínio na corrida, e os dois testes são separados* |
+| **a `Mão Firme` protege desse teste?** | *"Nao"* | ✅ **não protege:** *ela vale para a Concentração do capítulo 11, e o teste da corrida é outro* |
+| **a invocação de um jogador conta como o próprio jogador, no limite de um teste por rodada?** | *"Nao"* | ✅ **leitura B, escolhida por ele depois:** *"Não causa teste"* — **o golpe da invocação tira vida e não faz o inimigo testar** |
+
+**As duas leituras do "não" da invocação:**
+
+- **A · a invocação conta à parte:** *ela é outro atacante, e causa o próprio teste no inimigo, no máximo um por rodada.* **Quem tem invocações faz o inimigo testar mais vezes.**
+- **B · a invocação não causa teste:** *a regra fala em "jogador que acertou ele", e invocação não é jogador.* **O dano da invocação conta para a vida do inimigo, mas não para a concentração.**
 
 ---
 
@@ -395,3 +685,11 @@
 - `animatetimes.com` — *o texto japonês do voto, citado na versão da v0.220*
 - [Domain Expansion (Jujutsu Kaisen Supplement) — D&D Wiki](https://www.dandwiki.com/wiki/Domain_Expansion_(Jujutsu_Kaisen_Supplement)) — *`Barrierless Domain` e o gate por decisão do mestre*
 - [Legendary Medic — Archives of Nethys](https://2e.aonprd.com/Feats.aspx?ID=5169) — *o gate de mestria no eixo específico*
+- [Satoru Gojo vs. Sukuna](https://jujutsu-kaisen.fandom.com/wiki/Satoru_Gojo_vs._Sukuna), [Jujutsu Sorcerers vs. Sukuna](https://jujutsu-kaisen.fandom.com/wiki/Jujutsu_Sorcerers_vs._Sukuna) e [Unlimited Void](https://jujutsu-kaisen.fandom.com/wiki/Unlimited_Void) — *os seis choques, a fuga, o centro no santuário, os 3 minutos e os 99 segundos*
+- páginas de capítulo do wiki — [30](https://jujutsu-kaisen.fandom.com/wiki/Chapter_30), [109](https://jujutsu-kaisen.fandom.com/wiki/Chapter_109), [119](https://jujutsu-kaisen.fandom.com/wiki/Chapter_119), [206](https://jujutsu-kaisen.fandom.com/wiki/Chapter_206), [258](https://jujutsu-kaisen.fandom.com/wiki/Chapter_258), [259](https://jujutsu-kaisen.fandom.com/wiki/Chapter_259) e [262](https://jujutsu-kaisen.fandom.com/wiki/Chapter_262)
+- [Barrier](https://jujutsu-kaisen.fandom.com/wiki/Barrier), [Heavenly Restriction](https://jujutsu-kaisen.fandom.com/wiki/Heavenly_Restriction), [Maki Zenin](https://jujutsu-kaisen.fandom.com/wiki/Maki_Zenin) e [Time Cell Moon Palace](https://jujutsu-kaisen.fandom.com/wiki/Time_Cell_Moon_Palace) — *quem não tem energia*
+- [Simple Domain](https://jujutsu-kaisen.fandom.com/wiki/Simple_Domain), [Hollow Wicker Basket](https://jujutsu-kaisen.fandom.com/wiki/Hollow_Wicker_Basket), [Domain Amplification](https://jujutsu-kaisen.fandom.com/wiki/Domain_Amplification) e [Falling Blossom Emotion](https://jujutsu-kaisen.fandom.com/wiki/Falling_Blossom_Emotion) — *o contrajogo*
+- [Reverse Cursed Technique](https://jujutsu-kaisen.fandom.com/wiki/Reverse_Cursed_Technique), [Idle Death Gamble](https://jujutsu-kaisen.fandom.com/wiki/Idle_Death_Gamble) e [Binding Vow](https://jujutsu-kaisen.fandom.com/wiki/Binding_Vow) — *o Rescaldo e os votos de barreira*
+- [Yahoo! 知恵袋, pergunta sobre o 伏魔御厨子](https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10234419810) e [Santuário Malévolo, wiki em português](https://jujutsukaisen.fandom.com/pt-br/wiki/Santu%C3%A1rio_Mal%C3%A9volo) — *o raio de 200 m escrito como raio*
+- [Kasumi Miwa](https://jujutsu-kaisen.fandom.com/wiki/Kasumi_Miwa) e [Shrine](https://jujutsu-kaisen.fandom.com/wiki/Shrine) — *a Miwa protegendo a Maki, e a revisão do Desmantelar entre revista e volume*
+- [Yahoo! 知恵袋, pergunta sobre o cap. 258](https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14301021999) e [miyamura-literaturediary.com](https://miyamura-literaturediary.com/jujutsukaisen-interestingpoint44/) — *a Maki tratada como construção, e a narração do 258*

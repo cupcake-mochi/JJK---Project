@@ -871,6 +871,7 @@ if _lv and _PE:
             'o Rescaldo dos dois':   r'Rescaldo',
             'a incompleta que nao vence': r'n[aã]o pode vencer',
             'tres ou mais caem':     r'tr[eê]s ou mais',
+            'a concentracao':        r'concentra',
         }
         for _nome, _rx in SAIDAS.items():
             _no_man = re.search(_rx, _sec, re.I) is not None
@@ -917,6 +918,116 @@ if _lv and _PE:
             print('  [x] a copia do livro tambem nao escreve dado, porcentagem '
                   'nem prazo.')
 
+
+# --------------------------------------------------------------------------
+bloco('11.2. A CONCENTRACAO NA CORRIDA — a regra nos dois documentos, e a tabela sai da conta')
+# --------------------------------------------------------------------------
+# v0.225. Decisao do Mizuki em 13/09: na corrida, quem mantem um dominio testa
+# Vigor contra a CD do dono do outro dominio; o jogador testa a cada dano, o
+# inimigo no maximo uma vez por jogador por rodada; as falhas acumulam, e o
+# dominio cai quando elas chegam a uma fracao da Essencia.
+#
+# Tres coisas separadas, porque cada uma pode quebrar sozinha:
+#   a) as cinco pecas da regra estao no manual (dono) E no livro (copia)
+#   b) a FRACAO e o ARREDONDAMENTO do manual sao os da peca 1 §5.4 — a regra
+#      aplicada contra o limite de design, e nao contra ela mesma
+#   c) a tabela do livro sai da conta, celula a celula, e cobre a escala inteira
+#      de Essencia, com o teto lido da peca 2
+# Nenhum valor esta escrito aqui: a fracao sai do texto do manual, o piso e o
+# lado do arredondamento saem da peca 1, e o teto sai da peca 2.
+_AQ = os.path.dirname(os.path.abspath(__file__))
+_P1 = open(os.path.join(_AQ, '01-atributos-acerto-defesa.md'), encoding='utf-8').read()
+_P2 = open(os.path.join(_AQ, '02-economia-de-atributos.md'), encoding='utf-8').read()
+
+_iM = _PE.find("H3('Dois domínios")
+_secM = _PE[_iM:] if _iM >= 0 else ''
+_fM = min([x for x in (_secM.find("H3(", 5), _secM.find("H2(", 5)) if x > 0] or [len(_secM)])
+_secM = _secM[:_fM]
+_iL = _lv.find('### Domínios sobrepostos') if _lv else -1
+_secL = _lv[_iL:] if _iL >= 0 else ''
+_fL = _secL.find('\n## ')
+_secL = _secL[:_fL] if _fL > 0 else _secL
+
+PECAS = {
+    'o teste':                  r'Teste de Resistência de Vigor contra a CD do dono do outro domínio',
+    'a contagem de falhas':     r'as falhas chegam a (metade|um terço|um quarto) da sua Essência',
+    'o jogador, sem limite':    r'jogador testa a cada dano que toma, sem limite',
+    'o inimigo, um por jogador': r'no máximo uma vez por jogador que acertou ele na rodada',
+    'a queda na corrida':       r'falhas de concentração demais',
+    'nao ocupa a Concentracao': r'Este teste não ocupa a sua Concentração',
+    'a Mao Firme nao protege':  r'a Mão Firme não protege dele',
+    'a invocacao nao conta':    r'Golpe de invocação não conta',
+}
+if not _secM or not _secL:
+    erro('11.2: nao achei a secao do clash no manual ou no livro — a regra da '
+         'concentracao na corrida nao foi conferida')
+else:
+    _falta = []
+    for _nome, _rx in PECAS.items():
+        _nm = re.search(_rx, _secM.replace('**', '')) is not None
+        _nl = re.search(_rx, _secL.replace('**', '')) is not None
+        if not _nm:
+            _falta.append(f'"{_nome}" nao esta no MANUAL, que e o dono')
+        if not _nl:
+            _falta.append(f'"{_nome}" nao esta no LIVRO')
+    for _f in _falta:
+        erro(f'11.2: {_f}')
+    if not _falta:
+        print(f'  [x] as {len(PECAS)} pecas da regra estao no manual e no livro.')
+
+    # b) a fracao e o arredondamento
+    FRAC = {'metade': 2, 'um terço': 3, 'um quarto': 4}
+    _fm = re.search(PECAS['a contagem de falhas'], _secM.replace('**', ''))
+    _fl = re.search(PECAS['a contagem de falhas'], _secL.replace('**', ''))
+    _regra_p1 = re.search(r'O que você \*\*ganha\*\* desce\. E o que você ganha nunca fica abaixo de (\d+)\.', _P1)
+    _arred_m = re.search(r'arredondando para baixo, e nunca menos de (\d+)', _secM)
+    _teto = re.search(r'\*\*Teto do atributo: (\d+)\.\*\*', _P2)
+    if not (_fm and _fl and _regra_p1 and _arred_m and _teto):
+        erro('11.2: nao li a fracao nos dois documentos, a regra de arredondamento '
+             'da peca 1 §5.4, o arredondamento escrito no manual, ou o teto de '
+             'atributo da peca 2 — sem os cinco a tabela nao tem contra o que conferir')
+    else:
+        _div = FRAC[_fm.group(1)]
+        _piso = int(_regra_p1.group(1))
+        if _fm.group(1) != _fl.group(1):
+            erro(f'11.2: o manual diz "{_fm.group(1)}" da Essencia e o livro diz '
+                 f'"{_fl.group(1)}" — um numero, dois donos')
+        if int(_arred_m.group(1)) != _piso:
+            erro(f'11.2: o manual escreve "nunca menos de {_arred_m.group(1)}" e a peca 1 '
+                 f'§5.4 manda o ganho nunca ficar abaixo de {_piso}')
+        print(f'  a fracao do manual: 1/{_div} da Essencia · o piso da peca 1: {_piso} '
+              f'· o teto de atributo da peca 2: {_teto.group(1)}')
+
+        # c) a tabela do livro, celula a celula
+        _mt = re.search(r'\*\*Falhas que derrubam o domínio\*\*\n\{: \.tab-titulo \}\n\n'
+                        r'\| Essência \|(.*)\|\n\|[-| ]+\|\n\| Falhas \|(.*)\|', _secL)
+        if not _mt:
+            erro('11.2: o livro perdeu a tabela "Falhas que derrubam o dominio" — o '
+                 'jogador fica sem a conta pronta')
+        else:
+            _cab = [c.strip() for c in _mt.group(1).split('|')]
+            _val = [c.strip() for c in _mt.group(2).split('|')]
+            _vistos, _ruim = [], []
+            for _c, _v in zip(_cab, _val):
+                _r = re.fullmatch(r'(\d+)(?: (?:a|e) (\d+))?', _c)
+                if not _r or not _v.isdigit():
+                    _ruim.append(f'a celula "{_c}" -> "{_v}" nao e lida como faixa de Essencia')
+                    continue
+                _a, _b = int(_r.group(1)), int(_r.group(2) or _r.group(1))
+                for _e in range(_a, _b + 1):
+                    _vistos.append(_e)
+                    _quer = max(_piso, _e // _div)
+                    if int(_v) != _quer:
+                        _ruim.append(f'Essencia {_e}: o livro publica {_v} falha(s) e a '
+                                     f'conta da {_quer}')
+            _esc = list(range(0, int(_teto.group(1)) + 1))
+            if sorted(_vistos) != _esc:
+                _ruim.append(f'a tabela cobre as Essencias {sorted(_vistos)} e a escala e {_esc}')
+            for _r in _ruim:
+                erro(f'11.2: {_r}')
+            if not _ruim:
+                print(f'  [x] a tabela do livro cobre a Essencia de 0 a {_teto.group(1)} e cada '
+                      f'celula e a conta: 1/{_div}, para baixo, nunca menos de {_piso}.')
 
 # --------------------------------------------------------------------------
 print()

@@ -8,6 +8,87 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.225] — 13/09/2026
+
+**A corrida entre dois domínios ganhou uma quarta forma de cair: falhas de concentração acumuladas.** *Regra do Mizuki, montada em duas rodadas com a conta na frente, e ela vale em toda corrida — com barreira contra com barreira hoje, e na `Expansão sem Barreiras` quando ela for publicada.*
+
+### 1 · A regra
+
+| | |
+|---|---|
+| **o teste** | quem mantém um domínio e toma dano faz **Teste de Resistência de Vigor contra a CD do dono do outro domínio** |
+| **o jogador** | testa **a cada dano que toma, sem limite** |
+| **o inimigo** | testa **no máximo uma vez por jogador que acertou ele na rodada** |
+| **a queda** | as falhas ficam marcadas até a corrida acabar, e **quando chegam a metade da Essência, o domínio cai** |
+
+***Palavras dele:*** *"Coloca todo dano recebido, tem um teste, mas apenas 1 por player atacando o inimigo. Enquanto o player q tiver na corrida, tem de fazer um teste pra cada dano tomado, n tem limite. Cada falha é registrada, caso vc tenha uma quantidade de falhas igual a metade de sua essência, a expansão cai."* **E, perguntado se o "um por jogador" contava por rodada ou pela corrida inteira: *"Por rodada"*.**
+
+> **A metade da Essência não precisou de decisão nova: a peça 1 §5.4 já responde.** *"O que você ganha desce, e o que você ganha nunca fica abaixo de 1."* **O limite de falhas é ganho do dono**, então com Essência `0` a `3` a primeira falha derruba o domínio, com `4` e `5` a segunda, e com `6` a terceira. *O livro publica isso numa tabela.*
+
+### 2 · O que a regra faz com a corrida, medido
+
+**Contra um chefe que concentra as ações no dono, a corrida se decide por concentração na primeira ou na segunda rodada**, *com qualquer Essência* — **e nem a casca, que cai no quarto Acerto letal, nem a duração de cinco rodadas chegam a pesar.**
+
+| quem é o dono | Essência `2` | Essência `6` |
+|---|---|---|
+| jogador, contra um `Desastre` (`4` danos por rodada) | cai na rodada `1` | cai na rodada `1` ou `2` |
+| inimigo, um teste por jogador por rodada (`4` testes) | cai na rodada `1` | cai na rodada `1` ou `2` |
+
+**Se o chefe espalha os ataques, o jogador aguenta bem mais:** *com Essência `6` e Constituição `6` treinada, ele está de pé no fim da quinta rodada em `76%` das vezes levando um dano por rodada, e em `26%` levando dois.*
+
+> **A leitura "por corrida inteira", que ele recusou, deixava o inimigo quase intocável:** *com quatro jogadores são quatro testes no total, e Essência `6` com Vigor treinado chegava ao fim de pé em `87%` das vezes.* **Por rodada, os dois lados ficam parecidos.**
+
+**E a Essência passou a pesar no domínio:** *quem tem técnica de Essência cai na terceira falha, e quem tem técnica de Inteligência costuma cair na primeira.*
+
+### 3 · O nome, e a colisão que ele tinha
+
+**O livro já chama de Concentração outra regra, no capítulo 11:** *CD `10` ou metade do dano, e um efeito por vez.* **O teste da corrida foi escrito como a mesma rolagem de Vigor com a CD e a contagem trocadas**, *dito com essas palavras no capítulo 40*, **e o capítulo 11 ganhou um ponteiro para lá.**
+
+### 4 · A checagem
+
+**A `11.2` do `conferir-expansao.py` confere três coisas separadas:** *as cinco peças da regra no manual e no livro; a fração e o arredondamento do manual contra a peça 1 §5.4; e a tabela do livro célula a célula, cobrindo a Essência inteira com o teto lido da peça 2.* **Nenhum valor mora nela.**
+
+**Dez perturbações acendem, e dois contra-testes ficam verdes** — *o que vale é trocar "metade" por "um terço" nos dois documentos com a tabela refeita, que continua verde e prova que a checagem lê o dono.*
+
+### 5 · E a cópia do `ESTADO-ATUAL` estava duas versões atrás
+
+**A seção do clash ainda falava em "três perguntas" e dizia que "quem perde escolhe entre ficar e receber, ou abrir buraco e sair"** — *a v0.200 foi para quatro degraus e tirou a saída.* **Corrigida junto com a corrida.**
+
+### Adicionado
+
+- **A concentração na corrida**, no manual (`partE.js`) e no capítulo 40 do livro, com a tabela `Falhas que derrubam o domínio` e um exemplo.
+- **O ponteiro no capítulo 11**, na seção `Concentração`.
+- **A checagem `11.2`** do `conferir-expansao.py`, e `a concentracao` entre as saídas que a `11.1` cobra nos dois documentos.
+- **A parte de 13/09 do `manual/matematica/casca-sem-barreira.py`**, com a medida da corrida.
+
+### Alterado
+
+- **O manual foi para a `v7.28`**, com o `.docx` e o `.pdf` regerados, e os quatro artefatos do livro refeitos.
+- **A seção do clash no `ESTADO-ATUAL`**.
+
+### Decidido
+
+- **Toda corrida tem teste de concentração**: jogador a cada dano, inimigo uma vez por jogador por rodada, contra a CD do dono do outro domínio.
+- **As falhas acumulam até metade da Essência**, para baixo e nunca menos de uma.
+
+### Decidido depois, na mesma versão
+
+***Três perguntas que a regra deixou, e as respostas dele: "Nao", "Nao", "Nao".***
+
+- **Segurar o domínio na corrida não ocupa a Concentração do capítulo 11**, e as duas rolagens são separadas.
+- **A `Mão Firme` não protege do teste da corrida.**
+- **Golpe de invocação não faz o inimigo testar.** *O "não" tinha duas leituras — a invocação causar o próprio teste, ou não causar nenhum —, e perguntado de novo ele escolheu a segunda:* **o golpe tira vida, e não conta para a concentração.**
+
+**As três entraram no manual e no livro**, e a `11.2` passou a cobrar oito peças da regra em vez de cinco.
+
+### Achado e não consertado
+
+- **O rascunho da `Expansão sem Barreiras` continua**, com o raio do domínio fechado, o contrajogo e o Rescaldo em aberto.
+
+→ **Continua em** `sistema/03-mecanica/RASCUNHO-expansao-sem-barreira.md`, seção 7.
+
+---
+
 ## [0.224] — 11/09/2026
 
 **O `papel` do inimigo atravessou.** *Ele fechou no projeto do Bestiário em 10/09, com câmbio medido contra o 4e e validação externa em `415` statblocks do Draw Steel, e nunca chegou aqui* — **a palavra `papel` aparece zero vezes no `PARA-O-CLAUDE-2.md`, que foi a entrega executada nas v0.221 e v0.222.** *Ele fechou antes de a entrega ser escrita, e a entrega não olhou para trás.*

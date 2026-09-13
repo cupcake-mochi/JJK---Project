@@ -135,6 +135,8 @@ Alguns efeitos exigem que você mantenha a atenção neles enquanto duram: a bar
 
 > **Exemplo.** O Kaito está concentrando num efeito e leva 26 de dano. Metade de 26 é 13, e 13 é maior que 10: a CD é 13. Se o golpe tivesse tirado 12, a metade daria 6, e a CD seria 10 mesmo.
 
+**Na corrida entre dois domínios a rolagem é a mesma, com a CD e a contagem trocadas.** A regra está no capítulo 40, na seção *Domínios sobrepostos*.
+
 ### Concentração e Carregar
 
 As duas seguram alguma coisa contra o dano, em momentos diferentes da vida de um feitiço.
