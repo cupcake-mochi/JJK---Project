@@ -46,9 +46,9 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ### 4 · A checagem
 
-**A `11.2` do `conferir-expansao.py` confere três coisas separadas:** *as cinco peças da regra no manual e no livro; a fração e o arredondamento do manual contra a peça 1 §5.4; e a tabela do livro célula a célula, cobrindo a Essência inteira com o teto lido da peça 2.* **Nenhum valor mora nela.**
+**A `11.2` do `conferir-expansao.py` confere três coisas separadas:** *as oito peças da regra no manual e no livro; a fração e o arredondamento do manual contra a peça 1 §5.4; e a tabela do livro célula a célula, cobrindo a Essência inteira com o teto lido da peça 2.* **Nenhum valor mora nela.**
 
-**Dez perturbações acendem, e dois contra-testes ficam verdes** — *o que vale é trocar "metade" por "um terço" nos dois documentos com a tabela refeita, que continua verde e prova que a checagem lê o dono.*
+**Treze perturbações acendem, e dois contra-testes ficam verdes** — *o que vale é trocar "metade" por "um terço" nos dois documentos com a tabela refeita, que continua verde e prova que a checagem lê o dono.*
 
 ### 5 · E a cópia do `ESTADO-ATUAL` estava duas versões atrás
 
@@ -79,7 +79,7 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 - **A `Mão Firme` não protege do teste da corrida.**
 - **Golpe de invocação não faz o inimigo testar.** *O "não" tinha duas leituras — a invocação causar o próprio teste, ou não causar nenhum —, e perguntado de novo ele escolheu a segunda:* **o golpe tira vida, e não conta para a concentração.**
 
-**As três entraram no manual e no livro**, e a `11.2` passou a cobrar oito peças da regra em vez de cinco.
+**As três entraram no manual e no livro**, e a `11.2` passou a cobrar oito peças da regra em vez de cinco, com três perturbações a mais no arnês.
 
 ### Achado e não consertado
 

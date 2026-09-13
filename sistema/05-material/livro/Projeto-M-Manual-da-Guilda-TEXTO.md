@@ -4180,7 +4180,9 @@ O Acerto do Megumi *reforça* em vez de *atingir*, e é o que dá para fazer com
 
 **Na corrida, segurar o domínio pede concentração.** Quem mantém um domínio e toma dano faz um **Teste de Resistência de Vigor contra a CD do dono do outro domínio**. Cada falha fica marcada até a corrida acabar, e **quando as falhas chegam a metade da sua Essência, o seu domínio cai**.
 
-**Personagem de jogador testa a cada dano que toma, sem limite. Inimigo testa no máximo uma vez por jogador que acertou ele na rodada**, por mais golpes que esse jogador dê.
+**Personagem de jogador testa a cada dano que toma, sem limite. Inimigo testa no máximo uma vez por jogador que acertou ele na rodada**, por mais golpes que esse jogador dê. **Golpe de invocação não conta:** ele tira vida do inimigo, e não faz o inimigo testar.
+
+**Este teste não ocupa a sua Concentração, e a Mão Firme não protege dele.** Você pode segurar o domínio na corrida e seguir concentrando num efeito, e as duas rolagens são separadas.
 
 **Falhas que derrubam o domínio**
 | Essência | 0 a 3 | 4 e 5 | 6 |
@@ -4189,7 +4191,7 @@ O Acerto do Megumi *reforça* em vez de *atingir*, e é o que dá para fazer com
 
 > **Exemplo.** A sua Essência é 5, então a segunda falha derruba o seu domínio. Na corrida você toma três golpes numa rodada e falha no segundo e no terceiro: o seu domínio cai na terceira rolagem, e o Acerto do outro te pega na hora.
 >
-> *A metade arredonda para baixo e nunca fica abaixo de 1: é a regra de arredondamento, em que o que você ganha desce.* **Esta é a rolagem de Vigor da Concentração, com a CD e a contagem trocadas**, e ela só existe enquanto dura a corrida.
+> *A metade arredonda para baixo e nunca fica abaixo de 1: é a regra de arredondamento, em que o que você ganha desce.* **É a mesma rolagem de Vigor da Concentração, com a CD e a contagem trocadas**, e ela só existe enquanto dura a corrida.
 
 **Quem perde recebe o Acerto do vencedor, e não tem como recusar.** O domínio dele já caiu, e quem cai não abre saída na barreira que continua de pé.
 
@@ -6767,4 +6769,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: df744f86ab3c17665fa2dfac356016f209afa66f -->
+<!-- fonte: d03ea2c066e26aaef0d87713304cc1b0666b7ce3 -->

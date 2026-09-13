@@ -40,7 +40,9 @@ O QUE MUDOU NA v7.28
   outro dominio; o jogador testa a cada dano, e o inimigo no maximo uma vez por
   jogador que acertou ele na rodada. As falhas acumulam, e o dominio cai quando
   elas chegam a metade da Essencia, arredondando para baixo e nunca menos de 1.
-  A checagem 11.2 do conferir-expansao compara o manual com o livro.
+  O teste nao ocupa a Concentracao, a Mao Firme nao protege dele, e golpe de
+  invocacao nao faz o inimigo testar. A checagem 11.2 do conferir-expansao
+  compara o manual com o livro.
 
 O QUE MUDOU NA v7.27
 
