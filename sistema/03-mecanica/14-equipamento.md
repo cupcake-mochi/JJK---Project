@@ -510,7 +510,7 @@ O que sobra fora da conta continua sendo o buraco registrado no §4: **6% a 9% d
 
 | | |
 |---|---|
-| **o nome está ocupado, e não é substring** | `Silencioso` é **Melhoria no manual**: *"Sem gesto, sem palavra. **Ninguém percebe que você conjurou.**"* Mesmo efeito, mesmo nome, uma camada acima |
+| **o nome está ocupado, e não é substring** | `Silencioso` é **Melhoria no manual**: *"Sem gesto, sem palavra. **Usar não revela a sua posição**"* Mesmo efeito, mesmo nome, uma camada acima |
 | **a regra da qual ela isentaria não existe** | zero ocorrências de barulho quebrando furtividade nas treze peças. **É a Passiva Casca de novo** — preço por um termo que só existe dentro dele mesmo, lição nº 6 |
 | **o eixo está errado** | o §5.0.2 diz que *"propriedade não é escolha: é o que a arma é"*. Então **toda arma sem `Silenciosa` faz barulho** — e isso põe o tantō e a soqueira fazendo mais barulho que um arco longo |
 | **e os arcos não precisavam** | o buraco era da minha proposta, não do catálogo. No fundo `2/4` os dois fecham exatos |

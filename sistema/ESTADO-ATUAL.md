@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 13/09/2026, na v0.226 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e dez checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 13/09/2026, na v0.227 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e dez checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.226.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
+**Versão v0.227.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
 
 > ## 🆕 A v0.222 consertou duas coisas que a v0.221 deixou passar, e as duas são do §6.5 da peça 26
 >
@@ -946,7 +946,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 
 **Duas peças foram parcialmente substituídas e trazem o aviso no topo:** as seções 3 e 4 da peça 4 saíram para a peça 7, e a seção 3 e o quadro de Caminhos da peça 5 saíram para a peça 6.
 
-O manual do Fundamento **v7.29** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 366 parágrafos e 90 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na mesma versão do `.docx`, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 50 páginas.
+O manual do Fundamento **v7.30** (`manual/Fundamento-MANUAL-v7.docx`) é o subsistema de técnica e feitiço, já validado — 366 parágrafos e 90 tabelas. `manual/gerador/` traz o gerador (Node: `npm install docx && node make.js`) e `manual/matematica/` os validadores `pac7.py` e `v7.py`. **O `.pdf` está na mesma versão do `.docx`, exportado junto desde a v0.93**, e ele deixou de ser exportado a mão: sai do `soffice --headless`, com a mesma paginação de 50 páginas.
 
 **Quem é dono da versão do manual:** a primeira linha de `manual/gerador/COMO-USAR.txt`. Toda outra cópia — a capa em `partA.js`, este arquivo, o `README.md`, o `LEIA-ME.md` e o `arquitetura.md` — é cópia, e o `conferir-repositorio.py` falha se alguma divergir. *Ele nasceu na v0.33, depois de a capa do manual passar três versões dizendo 7.5.*
 
@@ -1297,7 +1297,7 @@ A skill `redacao-acessivel-rpg` existe exatamente para a travessia de "nota de d
 
 **E as dez pendências que só a mesa responde são todas de nível 2** — Constituição virou obrigatória, alguém usa ação bônus, Intuição contra Percepção, se quatro perícias livres é escolha demais, se alguém rola Pontaria, se o extra da Origem é escolha de igual para igual, se a criação leva mesmo vinte a quarenta minutos, se um Legado por ficha é pouco, se três lutas de graça é o número certo, e se o descanso curto devia devolver alguma vida. **Nenhuma delas precisa das aptidões.**
 
-### A fila de agora — v0.226
+### A fila de agora — v0.227
 
 **Tudo aqui é DECISÃO TOMADA e CONSERTO NÃO FEITO.** *A v0.220 anotou e não consertou, por pedido dele.* **Quem pegar esta fila começa aplicando, e não decidindo.**
 
@@ -1311,13 +1311,15 @@ A skill `redacao-acessivel-rpg` existe exatamente para a travessia de "nota de d
 | 6 | **Revisar os anti-domínios** — *decisão dele na v0.226: "vamos revisar a mecânica de como esses anti domínios funcionam"* | as quatro da peça 11, e como elas se portam contra a `Expansão sem Barreiras`. *As saídas medidas estão no rascunho, seção 8.4* |
 | 7 | **O Rescaldo e a porta de saída dele** — *adiado por ele na rodada 2* | *destruir a gravação da técnica e curar com energia reversa, com dano que acumula — obra, cap. `226`–`230`; rascunho, seção 6.8* |
 
-**E uma que continua sendo pergunta, não decisão:**
+**E três que continuam sendo pergunta, não decisão:**
 
 | | |
 |---|---|
+| **Integridade do inimigo** | **duas decisões escritas, e não achei qual substituiu qual.** *O `bestiario/04-fase-1/decisoes-fase-1.md` §3 tem a dele — "Metade da vida acho q tá bom" —, e a peça 26 §3, o manual, a peça 24 §3.3, o `conferir-bestiario.py` e o Sukuna usam "igual à vida máxima".* **Achado na v0.227** |
+| **`Armado` e `Segura`** | **o `Armado` novo faz o que a `Segura` faz, no mesmo grau `Leve`**, *e aceita qualquer gatilho até o fim da cena; o que separa as duas é a metade do PE que o `Armado` perde se não sair.* **Achado na v0.227** |
 | **`B17`** | o campo `integridade_temp` existe na ficha e **nada no sistema concede integridade temporária**. *Ou alguma coisa deveria conceder, ou o campo sai da linha da Integridade.* **É desenho de sistema, e é dele** |
 
-**As outras vinte divergências entre o manual e o livro continuam `aberta`**, e duas estão `fechada` de antes. *A lista é a oitava passada do `sistema/05-material/livro/ESTADO-revisao.md`, e a checagem `12` a lê — ela imprime a contagem dos três estados a cada rodada, então conte pela saída dela e não por esta linha.*
+**✅ As vinte divergências entre o manual e o livro fecharam na v0.227**, com o `Armado` redesenhado e a vida máxima tirada do dano de alma nos lugares que a v0.176 não alcançou. *A lista é a oitava passada do `sistema/05-material/livro/ESTADO-revisao.md`, e a checagem `12` a lê — ela imprime a contagem dos três estados a cada rodada, então conte pela saída dela e não por esta linha.*
 
 > ## ✅ O `papel` do inimigo ATRAVESSOU na v0.224
 >

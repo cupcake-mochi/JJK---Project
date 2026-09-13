@@ -1037,7 +1037,17 @@ else:
     # cima: "caminho de arquivo de trabalho", que existe na FONTE e nao vai para a
     # entrega — o Bestiario e laudo e medicao, nunca material de mesa. O padrao ganhou
     # `bestiario/.*` em vez de a peca esconder o ponteiro.
-    BRANCAS_AQUI, FOLGA = 172, 5
+    # ⚠⚠ v0.227: 172 -> 173, e o subir.sh travou em 178 contra o teto de 177. E a
+    # QUINTA vez que esta base envelhece do mesmo jeito. MEDIDO lendo os objetos dos
+    # recortes commitados da entrega, um por um: a v0.224 fechou com 177, e nao 172.
+    # A que o comentario acima itemiza (o `bestiario/04-fase-1/papel/`) e real; as
+    # outras CINCO sao cinco linhas da tabela 7.3 da peca 26, `o fator ... no
+    # `dados.js` vira ...`, que citavam o arquivo pelo nome. A v0.225 e a v0.226
+    # commitaram com a contagem EXATAMENTE no teto, e a primeira citacao nova da
+    # v0.227 — o `conferir-alma.py` na peca 24 §3.1, "nome de validador" — estourou.
+    # O conserto foi a regra da v0.221, e nao subir o teto: as cinco linhas dizem "no
+    # gerador", como as da tabela 7.2 logo acima. Fica 172 + 1 = 173.
+    BRANCAS_AQUI, FOLGA = 173, 5
     PISO_CITACOES, TETO_BRANCOS = 120, BRANCAS_AQUI + FOLGA
     if vistos_e < PISO_CITACOES:
         erro(f'7.2: achei so {vistos_e} citacoes na entrega, e o piso e {PISO_CITACOES} — '

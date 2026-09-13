@@ -3768,9 +3768,9 @@ Garantem o acerto: menos chance de errar, mais chance de atravessar a defesa do 
 | `Inescapável` | `Média` | Sem acerto e sem Teste de Resistência: o dano é automático. Este feitiço não pode ter mais nenhuma peça, nem Melhoria nem Restrição, e não pode ser uma Liberação Máxima. |
 | `Fura` | `Média` | Ignora até 2 × Classe de Redução de Dano. |
 | `Corrói` | `Pesada` | Resistência ao seu tipo de dano deixa de valer neste feitiço. Só pode ser comprada se Mira for uma das suas Famílias Livres. |
-| `Sem Cobertura` | `Leve` | Cobertura `Parcial` não atrapalha. A `Total` continua fazendo efeito normalmente. |
+| `Sem Cobertura` | `Leve` | Cobertura `Parcial` não atrapalha. A `Total` não se fura: ela não é bônus, é a ausência de alvo legal. |
 | `De Novo` | `Média` | Se você errar, rola de novo. Uma vez por cena. |
-| `Toca a Alma` | `Leve` | Só da Classe 3 em diante, e só para Fundamento cuja Regra seja direta sobre alma. Os dados de dano deste feitiço viram dano na alma, e você fica com metade deles, arredondando para baixo. Não entra numa Liberação Máxima. A régua do dano na alma está no capítulo 4, *Dano, Condições e Cobertura*. |
+| `Toca a Alma` | `Leve` | Só da Classe 3 em diante, e só para Fundamento cuja Regra seja direta sobre alma. Os dados de dano deste feitiço viram dano na alma, e você fica com metade deles, arredondando para baixo. Não entra numa Liberação Máxima. |
 
 ### Controle
 
@@ -3844,7 +3844,7 @@ O dano que continua doendo depois do golpe: queima que volta, corte que piora co
 |---|---|---|
 | `Queima` | `Média` | Metade dos dados de novo, no começo do próximo turno do alvo. |
 | `Acúmulo` | `Média` | +1 dado por rodada seguida usando este feitiço no mesmo alvo. Para de somar em +3. |
-| `Remate` | `Média` | +25% de dano contra alvo abaixo de metade da vida. Não entra num feitiço que tenha uma `Condicional` ligada à vida do alvo ou à duração. |
+| `Remate` | `Média` | +25% de dano contra alvo abaixo de metade da vida. Não entra num feitiço que tenha uma `Condicional` ligada à vida do alvo ou à duração, nem num feitiço com a Restrição `Aquecer`. |
 | `Estilhaço` | `Leve` | Em crítico, ou quando o alvo falha o Teste de Resistência por 5 ou mais, metade dos dados respinga em quem estiver do lado. |
 | `Quebra Coisa` | `Leve` | Dano dobrado contra barreiras, objetos e estruturas. |
 | `Rasga Escudo` | `Média` | O dano ignora `vida temporária` e barreiras: bate direto na vida. Não ignora Redução de Dano. |
@@ -3858,9 +3858,9 @@ Aqui você compra o momento do feitiço: mais rápido que o normal, disparado es
 | Melhoria | Custo | O que faz |
 |---|---|---|
 | `Rápido` | `Pesada` | Custa Ação Bônus em vez de Ação Padrão. Não entra no mesmo feitiço que `Reação`. |
-| `Reação` | `Pesada` | Você conjura como Reação, a um gatilho que você declara quando monta o feitiço. Não entra no mesmo feitiço que `Rápido`. |
-| `Armado` | `Leve` | Deixa o feitiço pronto e dispara depois, na mesma cena. Disparar ainda gasta ação. *(Em revisão — não usar.)* |
-| `Silencioso` | `Leve` | Sem gesto, sem palavra. Usar não revela a sua posição e não exige nenhum sinal. Não ignora o seu Selo. |
+| `Reação` | `Pesada` | Você conjura como Reação, a um gatilho que você declara quando monta o feitiço. Não entra no mesmo feitiço que `Rápido` nem que `Armado`. |
+| `Armado` | `Leve` | Você gasta a ação e o PE do feitiço, e ele fica armado até o fim da cena. Na hora de armar, escolha um gatilho que a mesa consiga ver acontecer. Quando ele acontece, o feitiço sai sem gastar Reação, com alcance e alvo conferidos naquela hora. Um armado por vez. Se ele não sair, porque a cena acabou ou porque você armou outro, metade do PE volta. Não entra no mesmo feitiço que `Reação`. |
+| `Silencioso` | `Leve` | Sem gesto, sem palavra. Usar não revela a sua posição e não exige nenhum sinal. Dispensa Selo de gesto ou de som; Selo de condição, como enxergar o alvo, continua valendo. |
 | `Adianta` | `Média` | Se você conjurar antes de qualquer inimigo agir na rodada, +2 na CD. |
 | `Segura` | `Leve` | Você pode adiar o efeito por até uma rodada e disparar no seu próximo turno, de graça. |
 
@@ -3913,18 +3913,18 @@ Uma Restrição devolve `Leve` ou `Média`, nunca `Pesada`. Duas `Média` já ba
 |---|---|---|
 | `Corpo a Corpo` | `Média` | `Projétil` vira `Toque` (1,5 m). `Explosão` vira `Aura`, centrada em você. `Cone` e `Linha` já saem de você, então não podem pegar esta. |
 | `Atrasar` | `Média` | Custa a rodada inteira (Ação Completa): você não se move, não usa ação bônus e não faz mais nada naquele turno. |
-| `Parado` | `Leve` | Você não se move no turno em que conjura. |
+| `Parado` | `Leve` | Você não se move no turno em que conjura. A ação bônus continua sua. |
 | `Gesto` | `Leve` | Precisa das duas mãos livres e de falar em voz audível. |
 | `Sangra` | `Média` | Você toma 2 × Classe de dano que não pode ser reduzido. |
 | `Recuo` | `Leve` ou `Média` | Você fica com uma condição até o fim do seu próximo turno. Ela devolve o nível dela: uma condição `Leve` devolve `Leve`, uma `Média` devolve `Média`. Nível `Pesada` não entra, porque Restrição nunca devolve `Pesada`. |
-| `Carregar` | `Média` | Você gasta um turno carregando o feitiço antes de disparar. Se tomar dano nesse meio-tempo, faz um Teste de Resistência de Espírito (CD 10, ou metade do dano, o que for maior) para manter. Se falhar, perde o feitiço. Carregar não é concentração. |
+| `Carregar` | `Média` | Você gasta um turno carregando o feitiço antes de disparar. Se tomar dano nesse meio-tempo, faz um Teste de Resistência de Espírito (CD 10, ou metade do dano, o que for maior) para manter. Se falhar, perde o feitiço. Carregar não é concentração: o feitiço ainda não saiu. |
 | `Tudo ou Nada` | `Leve` | Quem passa no Teste de Resistência não toma nada, em vez de tomar metade. Só em feitiços de Teste de Resistência. |
 | `Uma Vez` | `Leve` | Uma vez por cena. |
 | `Condicional` | `Leve` ou `Média` | Só funciona quando uma condição de cena ou de alvo, escrita na ficha, é verdadeira: no escuro, marcado por você, abaixo de metade da vida, perto de água corrente. Falha em menos de uma cena a cada três: devolve `Leve`. Falha na maioria das cenas: devolve `Média`. |
 | `Fraqueza` | `Leve` ou `Média` | Depois de usar, você fica com desvantagem num dos quatro Testes de Resistência, escolhido na montagem, até o fim da cena. Vigor ou Intelecto: `Leve`. Físico ou Espírito: `Média`. |
 | `Frágil` | `Leve` | Se você tomar dano antes do seu próximo turno, o efeito do feitiço acaba na hora. Só serve em feitiço que deixa algo durando. |
 | `Barulho` | `Leve` | Todo mundo num raio de 90 m ouve, e sabe de onde veio. |
-| `Assinatura` | `Leve` | O feitiço deixa uma marca visível que dura 1 hora, deixando clara a sua posição para quem sentir energia. |
+| `Assinatura` | `Leve` | O feitiço deixa uma marca visível que dura 1 hora e aponta para você. |
 | `Aquecer` | `Leve` | Não pode ser usado na primeira rodada do combate. |
 | `Dívida` | `Média` | Depois de usar, o próximo feitiço que você conjurar nesta cena custa **`2 ×` a Classe deste feitiço** de energia a mais — **mesmo que ele seja de Classe 0**. |
 | `Peso Morto` | `Leve` | Seu deslocamento cai pela metade até o fim do próximo turno, e você recebe `−1` no seu Teste de Resistência Físico. |
@@ -6800,4 +6800,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: aab162e1ccd6b61c5c6125243af096ec333017a1 -->
+<!-- fonte: a202f45e2e91e56c1bc05c7dbbbfcffb0eb935be -->

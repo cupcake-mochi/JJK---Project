@@ -63,7 +63,7 @@ PONTO = num(pega(P19, r'cada ponto que não vira Melhoria vira `1d8` de dano —
 FILTRO = num(pega(P19, r'filtro de `([\d,]+)×`', 'o filtro de dominancia').group(1))
 pega(P26, r'O inimigo não conta PE', 'o inimigo sem PE')
 pega(P03, r'\*\*Reação\*\* \| uma, e ela volta no começo do seu turno', 'a Reacao, uma por rodada')
-METADE = pega(PARTD, r'O alvo ainda faz o Teste de Resistência pra metade', 'a metade').group(0)
+METADE = pega(PARTD, r'O alvo ainda faz o Teste de Resistência pa?ra metade', 'a metade').group(0)
 
 # a regra 1 do §2.2: quantas acoes negadas fazem cada degrau, lida por extenso
 _PAL = {'meia': 0.5, 'uma': 1.0, 'uma e meia': 1.5}

@@ -697,11 +697,11 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 | **10** | a tabela dos seis perde a linha do `Reforço` | acende | acende |
 | **10** | **contra-teste:** o `Artilheiro` muda nos dois lados e o produto fecha | fica verde | fica verde |
 | **10** | **contra-teste:** a vantagem muda NO DONO e nos cinco publicados juntos | fica verde | fica verde |
-| **7c** | o fator do `Brutamontes` no `dados.js` vira `1.300` | acende | acende |
-| **7c** | o fator do `Artilheiro` no `dados.js` vira `0.900` | acende | acende |
-| **7c** | a Defesa do `Baluarte` no `dados.js` vira `+3` | acende | acende |
-| **7c** | o `MULT_VANTAGEM` do `dados.js` vira `1.520` | acende | acende |
-| **7c** | o `ACOES_ESQUADRAO` do `dados.js` vira `6` | acende | acende |
+| **7c** | o fator do `Brutamontes` no gerador vira `1.300` | acende | acende |
+| **7c** | o fator do `Artilheiro` no gerador vira `0.900` | acende | acende |
+| **7c** | a Defesa do `Baluarte` no gerador vira `+3` | acende | acende |
+| **7c** | o `MULT_VANTAGEM` do gerador vira `1.520` | acende | acende |
+| **7c** | o `ACOES_ESQUADRAO` do gerador vira `6` | acende | acende |
 | **7c** | o `Capanga` passa a recusar o `Artilheiro` em vez do `Baluarte` | acende | acende |
 | **7c** | **o DONO:** o `Artilheiro` da peça vira `1,111` / `0,900` | acende | acende |
 | **7c** | **o DONO:** o esquadrão do §3 vira `6` corpos | acende | acende |

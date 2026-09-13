@@ -340,7 +340,7 @@ A régua é a das Classes da **peça 11 §4**, e o degrau de cada entrada foi de
 | `Estigma` | o que faz | de onde veio |
 |---|---|---|
 | **`Anátema`** | **o contato dela ignora e anula energia amaldiçoada.** *E como **Reação**, ela anula um feitiço que vem em você: role um **Teste de Resistência Físico contra a CD do conjurador*** | a Lança Invertida do Céu |
-| **`Cisão`** | o golpe dela **atravessa o corpo — tira Integridade, e não tira vida nem vida máxima** | a Katana de Alma Partida |
+| **`Cisão`** | o golpe dela **atravessa o corpo — tira Integridade, e não tira vida** | a Katana de Alma Partida |
 | **`Insondável`** | enquanto a ponta dela estiver escondida, o alcance dela é **na cena** | a Corrente de Mil Milhas |
 | **`Contrapeso`** | ela **ignora o requisito de Força** da arma | a Nuvem Divertida, que qualquer um empunha |
 

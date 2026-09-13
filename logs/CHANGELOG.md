@@ -8,6 +8,68 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.227] — 13/09/2026
+
+**As vinte divergências de Melhoria e Restrição entre o manual e o livro fecharam.** *Decididas pelo Mizuki em três rodadas; em cada linha o texto dos dois documentos ficou igual, e o `ESTADO-revisao.md` marca as vinte `fechada na v0.227`.* **No caminho apareceu uma regra de dano de alma que a v0.176 mudou só no livro.**
+
+### 1 · Quem venceu
+
+| venceu | Melhorias e Restrições |
+|---|---|
+| **o manual** | `Sem Cobertura` · `Parado` · `Assinatura` |
+| **o livro** | `Remenda` · `Rasga Escudo` · `Prende` · `Peso Morto` · `Remate` · `Toca a Alma` · `Certeiro` · `Desarma o Feitiço` · `Dívida` · `Estilhaço` · `Perseguir` · `Salto` · `Sangra` · `Tudo ou Nada` · `Carregar` |
+| **texto novo** | `Silencioso` · `Armado` |
+
+**Três pediram mais do que escolher um lado:**
+
+- **`Remate`** também não entra num feitiço com `Aquecer`. ***"ter o aquecer e o remate fica como uma combinação meio gratuita, n deveria poder"***.
+- **`Carregar`** fica com a redação do livro e recupera a frase do manual: *"o feitiço ainda não saiu"*.
+- **`Silencioso`** tira gesto e palavra e não revela a posição. *Dispensa Selo de gesto ou de som; Selo de condição, como enxergar o alvo, continua valendo.*
+
+### 2 · O `Armado`
+
+***Palavras dele:*** *"O armado é o mais ruinzinho KKK seria bom a gente rever ele, poderia ser uma melhoria leve, que prepara um feitiço (ainda custa a ação do feitiço, é basicamente um "preparar") e ele sai em um gatilho decidido pelo jogador, sem custar reação, mas só sai caso o gatilho seja cumprido"*.
+
+| | |
+|---|---|
+| **grau** | `Leve` |
+| **armar** | gasta a ação do feitiço e paga o PE |
+| **quanto dura** | até o fim da cena, um armado por vez |
+| **o gatilho** | escolhido na hora de armar; o feitiço sai sem gastar Reação, e só se ele acontecer |
+| **se não sair** | metade do PE volta |
+| **não combina com** | `Reação`, *e a linha da `Reação` passou a nomear o `Armado` também* |
+
+**Três detalhes são meus, de redação:** *o gatilho tem de ser uma coisa que a mesa consiga ver acontecer, que é o teste que o Selo já usa; armar outro conta como o primeiro não sair, e ele também devolve metade; alcance e alvo se conferem quando o feitiço sai.* **A marca *"Em revisão — não usar"* saiu do livro.**
+
+### 3 · A vida máxima que a v0.176 tirou só no livro
+
+**A v0.176 tirou a vida máxima do dano de alma**, *porque em `61%` das fichas ela zerava antes do estágio `4`.* **A mudança chegou ao capítulo 15 do livro e parou ali.** *A peça 24, que é a dona, continuava com a regra velha, e com ela a peça 19, a peça 10, quatro linhas do `partF.js` e a `Remenda` do manual.*
+
+**O `conferir-alma.py` protegia a regra velha:** *a checagem `8` exigia a expressão "vida máxima" na linha da regra.* **Agora ela exige vida e Integridade, falha se a vida máxima voltar, e procura a regra velha em sete documentos.** *Dez perturbações acendem, cada uma pelo motivo certo, e duas contra-provas ficam verdes: uma linha histórica que cita a v0.176, e "vida máxima" fora do dano de alma.*
+
+### Adicionado
+
+- **Na checagem `8` do `conferir-alma.py`:** a regra geral não pode derrubar a vida máxima, e os sete documentos que publicam o dano de alma não podem voltar a dizer isso.
+
+### Alterado
+
+- **O manual foi para a `v7.30`**, com o `.docx` e o `.pdf` regerados, e os quatro artefatos do livro refeitos.
+- **A peça 24:** a regra do §3.1, a exceção do §3.2, a tabela do §5 e a nota sobre a Call of Cthulhu. *O histórico da v0.176 ficou escrito ao lado da regra.*
+- **As peças 10, 14, 16 e 19:** a citação do descanso longo, a do `Silencioso`, a linha do `Cisão` e a frase do dano de alma.
+- **`Toca a Alma`** perdeu a frase que apontava para outro capítulo, nos dois documentos. *O manual apontava para a seção 11 e o livro para o capítulo 4; sem ela, as duas células ficam iguais e a regra não muda.*
+- **O `pac7.py`** imprime a `Remenda` com *"uma vez por cena, por alvo"*.
+- **A base da lista branca da checagem `7.2` do `conferir-repositorio.py` foi de `172` para `173`.** *O `subir.sh` travou em `178` contra o teto de `177`. Lendo os recortes commitados da entrega, a v0.224 já fechava com `177`: cinco linhas da tabela 7.3 da peça 26 citavam o `dados.js` pelo nome, e a v0.225 e a v0.226 commitaram com a contagem no teto.* **As cinco voltaram a dizer "no gerador", como a v0.221 decidiu para essas tabelas**, *e a única citação nova é a do `conferir-alma.py` na peça 24.*
+- **O `sobrecarga.py`** lia o `Certeiro` com *"pra metade"*, e o texto do livro diz *"para metade"*. *A âncora passou a aceitar as duas.*
+
+### Achado e não consertado
+
+- **A Integridade do inimigo tem duas decisões escritas.** *O `bestiario/04-fase-1/decisoes-fase-1.md` §3 registra a do Mizuki — "Metade da vida acho q tá bom" —, e o `bestiario/LEIA-ME.md` repete; a peça 26 §3, o manual, a peça 24 §3.3, o `conferir-bestiario.py` e o Sukuna montado usam "igual à vida máxima".* **Não achei registro de que uma substituiu a outra.** *Qual vale é decisão dele.*
+- **O `Armado` cobre o que a `Segura` faz, no mesmo grau `Leve`.** *A `Segura` adia o efeito por até uma rodada e dispara no seu próximo turno; um `Armado` com o gatilho "no começo do meu próximo turno" faz o mesmo, e aceita qualquer outro gatilho até o fim da cena.* **O que separa as duas é o risco: o `Armado` que não sai perde metade do PE.** *Se as duas ficam, ou se uma muda, é decisão dele.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
+
+---
+
 ## [0.226] — 13/09/2026
 
 **A Expansão de Domínio ganhou o terceiro degrau: a `Expansão sem Barreiras`.** *Montada em três rodadas de pesquisa na obra e cinco rodadas de decisão com o Mizuki, de 12 a 13/09; o caminho inteiro, com cada palavra dele, está no `03-mecanica/RASCUNHO-expansao-sem-barreira.md`, e a seção 9 de lá é a especificação.* **E a Expansão inteira ganhou tamanho, que ela nunca teve.**

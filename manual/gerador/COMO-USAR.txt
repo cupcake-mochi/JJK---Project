@@ -1,4 +1,4 @@
-GERADOR DO MANUAL — Fundamento v7.29
+GERADOR DO MANUAL — Fundamento v7.30
 
 Recria o .docx do zero. Precisa de Node.js.
 
@@ -32,6 +32,14 @@ ORDEM DAS SEÇÕES (v7)
   4 Restrições → 5 Fora de combate → 6 Liberação Máxima → 7 Técnica Máxima →
   8 Regras de ouro → 9 Progressão → 10 Feitiços prontos → 11 Para o mestre →
   Apêndice
+
+O QUE MUDOU NA v7.30
+
+  As vinte divergencias de Melhoria e Restricao entre o manual e o livro,
+  decididas e aplicadas: o texto dos dois ficou igual. O Armado foi redesenhado:
+  arma gastando a acao do feitico, dura ate o fim da cena, sai num gatilho sem
+  gastar Reacao e devolve metade do PE se nao sair. E o manual deixou de
+  derrubar a vida maxima com o dano de alma, que a v0.176 tinha tirado.
 
 O QUE MUDOU NA v7.29
 

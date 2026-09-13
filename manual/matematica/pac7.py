@@ -262,7 +262,7 @@ print("  Toque e Aura ja carregam Corpo a Corpo embutida (devolve Media, conta n
 print("  Condicional devolve Leve (falha rara) ou Media (falha na maioria). Remate nao aceita Condicional de vida do alvo.")
 print("  Toca a Alma: so Classe 3+, so Regra que encosta em alma/mente/conceito, e nao entra em Liberacao.")
 print("  Dados na alma = metade dos dados finais, arredondando pra baixo. Teto na alma = 2 x Classe.")
-print("  Alinhavo: alem da cura, devolve 5 x Classe = 20 de Integridade (Remenda, uma vez por cena).")
+print("  Alinhavo: alem da cura, devolve 5 x Classe = 20 de Integridade (Remenda, uma vez por cena, por alvo).")
 print("  Classe 0 nao entra: nao se monta.")
 print("  Selo v7: identidade + trava (Restricao que o Selo ja obriga nao devolve ponto). SEM bonus de ponto.")
 print("  Restricao Propria (v7.2): customizada, devolve Leve ou Media, conta no limite de 2.\n  Atrasar = Media e Aquecer = Leve desde a v7.3.")

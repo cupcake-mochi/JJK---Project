@@ -73,7 +73,7 @@ A Vanguarda e o Guia perdem meio ponto no primeiro respiro da primeira sessão. 
 
 **O piso de 1 não desfaz um zero escrito.** Quando a tabela do degrau 3 diz que você recupera **nada**, ela diz nada — o piso existe para a conta que produziu 0,4, não para transformar uma regra em outra.
 
-**A Integridade volta inteira em qualquer lugar.** É a única coisa que o ambiente não toca, e o motivo é o da **peça 24**: a alma não é o corpo. Não precisa de enfermaria quem precisa é do músculo. Isso também mantém a regra do manual intacta — ele diz *"descanso longo devolve toda a Integridade e a vida máxima, e limpa os estágios"*, e ela continua verdade.
+**A Integridade volta inteira em qualquer lugar.** É a única coisa que o ambiente não toca, e o motivo é o da **peça 24**: a alma não é o corpo. Não precisa de enfermaria quem precisa é do músculo. Isso também mantém a regra do manual intacta — ele diz *"descanso longo devolve toda a Integridade e limpa os estágios"*, e ela continua verdade.
 
 > **Esta linha é a única parte da máquina de alma que ficou aqui**, e ficou porque a tabela acima é uma grade só — PE, vida, exaustão e Integridade lado a lado. *A peça 24 §5 aponta para cá em vez de repetir.*
 

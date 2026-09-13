@@ -28,6 +28,8 @@
 
 > **Na v0.220 ele decidiu as três que trocam número, e nas três o LIVRO vence:** *`Fura` é `2 × Classe`, `Enfraquece` é `Xd4`, `Abre Ferida` é UM Teste.* **As três estão `decidida` e não `fechada`, porque o conserto nos dois documentos ainda não foi feito.**
 
+> **As três fecharam na v0.223, e as vinte que sobraram na v0.227**, *decididas por ele em três rodadas.* **A tabela não tem mais linha `aberta` nem `decidida`**, e o `Armado` saiu do *"Em revisão"* com texto novo nos dois documentos.
+
 > **A coluna tem TRÊS estados, e o caminho de uma linha é `aberta` → `decidida` → `fechada`.**
 >
 > **`aberta`** — ninguém escolheu o lado ainda. A checagem deixa passar.
@@ -44,27 +46,27 @@
 | `Fura` | ignora `3 × Classe` de Redução de Dano no manual, `2 × Classe` no livro | **sim** | fechada na v0.223 |
 | `Enfraquece` | o dano do alvo cai *um quarto* no manual e `Xd4` no livro | **sim** | fechada na v0.223 |
 | `Abre Ferida` | `−2` em *Testes de Resistência* no manual, em *um* Teste no livro | **sim** | fechada na v0.223 |
-| `Remenda` | o manual devolve junto a vida máxima derrubada e limita *uma vez por cena*; o livro não devolve a vida máxima e limita *uma vez por cena, por alvo* | **sim** | aberta |
-| `Toca a Alma` | o portão: Regra que *encosta em alma, mente ou conceito* no manual, Regra *direta sobre alma* no livro | **sim** | aberta |
-| `Peso Morto` | o livro cobra também `−1` no Teste de Resistência Físico; o manual não | **sim** | aberta |
-| `Prende` | o livro diz qual ação solta — *qualquer uma, menos livre* — e que o Teste se escolhe na criação; o manual cala | **sim** | aberta |
-| `Rasga Escudo` | o livro declara que NÃO ignora Redução de Dano; o manual cala | **sim** | aberta |
-| `Remate` | o livro veta também Condicional ligada à duração; o manual só à vida do alvo | **sim** | aberta |
+| `Remenda` | o manual devolve junto a vida máxima derrubada e limita *uma vez por cena*; o livro não devolve a vida máxima e limita *uma vez por cena, por alvo* | **sim** | fechada na v0.227: o LIVRO vence — sem vida máxima, porque a v0.176 tirou a vida máxima do dano de alma; uma vez por cena, por alvo |
+| `Toca a Alma` | o portão: Regra que *encosta em alma, mente ou conceito* no manual, Regra *direta sobre alma* no livro | **sim** | fechada na v0.227: o LIVRO vence — Regra direta sobre alma |
+| `Peso Morto` | o livro cobra também `−1` no Teste de Resistência Físico; o manual não | **sim** | fechada na v0.227: o LIVRO vence — metade do deslocamento e `−1` no TR Físico |
+| `Prende` | o livro diz qual ação solta — *qualquer uma, menos livre* — e que o Teste se escolhe na criação; o manual cala | **sim** | fechada na v0.227: o LIVRO vence — qualquer ação menos livre, e o Teste se decide na criação |
+| `Rasga Escudo` | o livro declara que NÃO ignora Redução de Dano; o manual cala | **sim** | fechada na v0.227: o LIVRO vence — não ignora Redução de Dano |
+| `Remate` | o livro veta também Condicional ligada à duração; o manual só à vida do alvo | **sim** | fechada na v0.227: o LIVRO vence, e o veto nomeia também o `Aquecer` — *"ter o aquecer e o remate fica como uma combinação meio gratuita, n deveria poder"* |
 | `Anteparo` | o livro diz que o tamanho da parede depende da Forma; o manual cala | **sim** | fechada na v0.221 |
-| `Silencioso` | o livro declara que não ignora o seu Selo; o manual cala | **sim** | aberta |
-| `Parado` | o manual declara que *a ação bônus continua sua*; o livro cala — e é o mesmo eixo em que o `Ferrolho` foi repreçado na v0.218 | **sim** | aberta |
-| `Sem Cobertura` | o manual explica que a Total *não se fura, é a ausência de alvo legal*; o livro escreve que ela *continua fazendo efeito normalmente* | **sim** | aberta |
-| `Assinatura` | a marca *aponta pra você* no manual; no livro ela *deixa clara a sua posição para quem sentir energia* | **sim** | aberta |
-| `Armado` | o livro carrega `(Em revisão — não usar.)`; o manual publica como Melhoria normal | **sim** | aberta |
-| `Carregar` | `de Espírito`, `para`, e o livro corta o *"o feitiço ainda não saiu"* que explica por que não é concentração | não | aberta |
-| `Certeiro` | `pra` contra `para` | não | aberta |
-| `Desarma o Feitiço` | *menor que o seu* contra *menor que a sua* — concordância, e Classe é feminino | não | aberta |
-| `Dívida` | vírgula no manual, travessão no livro | não | aberta |
-| `Estilhaço` | *erra* o Teste no manual, *falha* no livro | não | aberta |
-| `Perseguir` | *antes do feitiço resolver* contra *antes de o feitiço concluir* | não | aberta |
-| `Salto` | `pro` contra `para o` | não | aberta |
-| `Sangra` | *que nada reduz* contra *que não pode ser reduzido* | não | aberta |
-| `Tudo ou Nada` | `TR` contra `Teste de Resistência` | não | aberta |
+| `Silencioso` | o livro declara que não ignora o seu Selo; o manual cala | **sim** | fechada na v0.227: tira gesto e palavra e não revela a posição; o Selo de condição continua valendo, e o de gesto ou som o Silencioso cala |
+| `Parado` | o manual declara que *a ação bônus continua sua*; o livro cala — e é o mesmo eixo em que o `Ferrolho` foi repreçado na v0.218 | **sim** | fechada na v0.227: o MANUAL vence — a ação bônus continua sua, e é o que separa o `Parado` do `Atrasar` |
+| `Sem Cobertura` | o manual explica que a Total *não se fura, é a ausência de alvo legal*; o livro escreve que ela *continua fazendo efeito normalmente* | **sim** | fechada na v0.227: o MANUAL vence — a Total é a ausência de alvo legal, como a peça 19 |
+| `Assinatura` | a marca *aponta pra você* no manual; no livro ela *deixa clara a sua posição para quem sentir energia* | **sim** | fechada na v0.227: o MANUAL vence — a marca aponta para você, para qualquer um |
+| `Armado` | o livro carrega `(Em revisão — não usar.)`; o manual publica como Melhoria normal | **sim** | fechada na v0.227: REDESENHO — Melhoria Leve: conjura gastando a ação e o feitiço fica armado até o fim da cena, um por vez; o gatilho se escolhe na hora de armar; sai sem gastar Reação, só se o gatilho acontecer; o PE se paga ao armar e metade volta se ele não sair; não entra com Reação |
+| `Carregar` | `de Espírito`, `para`, e o livro corta o *"o feitiço ainda não saiu"* que explica por que não é concentração | não | fechada na v0.227: o LIVRO vence na redação, e a frase "o feitiço ainda não saiu" volta para o livro |
+| `Certeiro` | `pra` contra `para` | não | fechada na v0.227: o LIVRO vence |
+| `Desarma o Feitiço` | *menor que o seu* contra *menor que a sua* — concordância, e Classe é feminino | não | fechada na v0.227: o LIVRO vence |
+| `Dívida` | vírgula no manual, travessão no livro | não | fechada na v0.227: o LIVRO vence |
+| `Estilhaço` | *erra* o Teste no manual, *falha* no livro | não | fechada na v0.227: o LIVRO vence |
+| `Perseguir` | *antes do feitiço resolver* contra *antes de o feitiço concluir* | não | fechada na v0.227: o LIVRO vence |
+| `Salto` | `pro` contra `para o` | não | fechada na v0.227: o LIVRO vence |
+| `Sangra` | *que nada reduz* contra *que não pode ser reduzido* | não | fechada na v0.227: o LIVRO vence |
+| `Tudo ou Nada` | `TR` contra `Teste de Resistência` | não | fechada na v0.227: o LIVRO vence |
 
 ### Por que isso não tinha dono
 

@@ -382,22 +382,53 @@ else:
     if not _linha:
         erro(8, 'o SS3.1 parou de publicar a linha "Cada ponto de dano de alma tira ..." — '
                 'e ela e a regra geral inteira')
-    ACOPLA = ('de vida', 'de Integridade', 'vida máxima')
+    # v0.227: a v0.176 tirou a vida maxima do dano de alma, e esta checagem continuou
+    # EXIGINDO ela por cinquenta e uma versoes — foi o que escondeu a peca 24 e o manual
+    # atrasados. Agora ela acopla duas e BARRA a terceira.
+    ACOPLA = ('de vida', 'de Integridade')
     faltam = [t for t in ACOPLA if t not in _linha]
     if _linha and faltam:
-        erro(8, f'o SS3.1 parou de acoplar o dano de alma a {faltam} — sem as tres, '
+        erro(8, f'o SS3.1 parou de acoplar o dano de alma a {faltam} — sem as duas, '
                 f'"atravessar" deixa de ser excecao e o preco do `Cisao` fica pago '
                 f'por uma distincao que nao existe mais')
     else:
-        print('  [x] o SS3.1 acopla as tres: vida, Integridade e vida maxima')
+        print('  [x] o SS3.1 acopla as duas: vida e Integridade')
+    if _linha and 'vida máxima' in _linha:
+        erro(8, 'o SS3.1 voltou a derrubar a vida maxima com o dano de alma — a v0.176 '
+                'tirou essa perda, porque em 61% das fichas ela zerava antes do estagio 4')
 
-    NEGA = ('Não tira vida', 'não derruba a vida máxima')
+    NEGA = ('Não tira vida',)
     faltam = [t for t in NEGA if t not in _e]
     if faltam:
         erro(8, f'o SS3.2 parou de negar {faltam} — a excecao tem de dizer o que ela '
                 f'NAO faz, senao ela e apenas a regra geral com outro nome')
     else:
-        print('  [x] o SS3.2 nega as duas que o SS3.1 afirma — as duas leituras se separam')
+        print('  [x] o SS3.2 nega a vida que o SS3.1 afirma — as duas leituras se separam')
+
+    # e a mesma decisao nos outros documentos que publicam o dano de alma: nenhum pode
+    # voltar a derrubar a vida maxima. Linha que cita a v0.176 e historico, e passa.
+    _RAIZ8 = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    _DOCS8 = ['sistema/03-mecanica/24-dano-de-alma.md', 'sistema/03-mecanica/19-dano-e-condicoes.md',
+              'sistema/03-mecanica/10-descanso-e-recuperacao.md', 'manual/gerador/partD.js',
+              'manual/gerador/partF.js', 'sistema/05-material/livro/manual/15-dano-e-condicoes.md',
+              'sistema/05-material/livro/manual/40-fundamento.md']
+    _VELHA8 = re.compile(r'derruba (a (sua )?)?vida máxima|vida máxima (que tinha sido )?derrubada|'
+                         r'com a vida máxima junto|Integridade e (a )?vida máxima|Integridade, e vida máxima')
+    _achou8 = []
+    for _d in _DOCS8:
+        try:
+            _tx = open(os.path.join(_RAIZ8, _d), encoding='utf-8').read()
+        except OSError:
+            _achou8.append(f'{_d} nao abriu')
+            continue
+        for _n, _l in enumerate(_tx.splitlines(), 1):
+            if _VELHA8.search(_l) and 'v0.176' not in _l:
+                _achou8.append(f'{_d}:{_n}')
+    if _achou8:
+        erro(8, 'a vida maxima voltou a cair com o dano de alma em ' + ', '.join(_achou8[:4]) +
+                ' — a v0.176 tirou essa perda')
+    else:
+        print(f'  [x] nenhum dos {len(_DOCS8)} documentos que publicam o dano de alma derruba a vida maxima')
 
     # E so entao a comparacao numerica vale a pena, porque ela agora tem premissa.
     if integridade is not None and len(_tab) == 5:

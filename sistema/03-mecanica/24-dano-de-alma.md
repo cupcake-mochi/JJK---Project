@@ -22,7 +22,7 @@
 | o tipo de dano `Alma`, um dos catorze | peça 19 §4 |
 | a recuperação | peça 10 §2 |
 
-**Cinco donos, e o do meio é o que decide tudo** — *"cada ponto de dano na alma tira 1 de vida, 1 de Integridade e derruba a vida máxima em 1"*. **Nenhuma peça do projeto repetia essa linha, e duas peças foram escritas supondo o contrário dela.**
+**Cinco donos, e o do meio é o que decide tudo** — *"cada ponto de dano na alma tira 1 de vida, 1 de Integridade e derruba a vida máxima em 1"*, na forma que o manual tinha antes da v0.176. **Nenhuma peça do projeto repetia essa linha, e duas peças foram escritas supondo o contrário dela.**
 
 ### 1.1 Três coisas quebradas, e as três estavam publicadas
 
@@ -101,9 +101,9 @@
 
 ### 3.1 A regra geral vem da obra, e não da conta
 
-> **Cada ponto de dano de alma tira `1` de vida, `1` de Integridade e derruba a vida máxima em `1`**, até o próximo descanso longo.
+> **Cada ponto de dano de alma tira `1` de vida e `1` de Integridade.**
 
-*Esta linha é do manual e ela fica, com o dono passando para cá.* **O motivo dela é canon:** na obra a alma vem antes do corpo — é a tese do Mahito, confirmada contra o Nanami —, e remodelar a alma reconfigura o corpo pendurado nela. **Derrubar a vida máxima junto é o corpo seguindo a alma, escrito em número.**
+*Esta linha é do manual e ela fica, com o dono passando para cá.* **O motivo dela é canon:** na obra a alma vem antes do corpo — é a tese do Mahito, confirmada contra o Nanami —, e remodelar a alma reconfigura o corpo pendurado nela. **Tirar vida junto é o corpo seguindo a alma, escrito em número.** *Até a v0.176 ela derrubava também a vida máxima; saiu, por decisão do Mizuki, porque em `61%` das fichas possíveis a vida máxima zerava antes do estágio `4`, e a pessoa ficava caída sem ter como levantar até o descanso longo.* **A v0.227 achou esta peça ainda com a regra velha, e o `conferir-alma.py` exigindo ela.**
 
 > *É por isso que a régua não é "uma segunda barra de vida".* **A alma não é a reserva reserva: ela é a de cima.**
 
@@ -111,11 +111,11 @@
 
 **Existe dano de alma que ignora o corpo, e a obra é explícita sobre ele.** *A Katana de Alma Partida atravessa dureza física e reforço de energia amaldiçoada e bate direto na alma* — é o que o `Cisão` da peça 16 §4 reproduz.
 
-> **Dano de alma que ATRAVESSA tira Integridade, e mais nada.** *Não tira vida, não derruba a vida máxima.* **Só um efeito escreve isso hoje, e é o `Cisão`.** *Todo o resto é a regra geral do §3.1.*
+> **Dano de alma que ATRAVESSA tira Integridade, e mais nada.** *Não tira vida.* **Só um efeito escreve isso hoje, e é o `Cisão`.** *Todo o resto é a regra geral do §3.1.*
 
 **A distinção precisa estar escrita porque as duas se chamam a mesma coisa**, e foi por não estar que a peça 16 e o capítulo 15 do livro passaram treze versões dizendo o oposto um do outro. *O GURPS 4e escreve exatamente esta linha para os Pontos de Fadiga — alguns ataques causam dano em PF **"em vez, ou além"** de PV —, e ele escreve porque as duas leituras existem em qualquer sistema com segunda barra.*
 
-> **⚠⚠ E a exceção ENFRAQUECE o `Cisão`, o que é o que faz ela caber sem repreço.** *Pela regra geral, ele tirava a barra menor das duas mais a vida máxima; pela exceção, ele tira só a alma.* **Medido nos quatro arquétipos do §2.3 e no chefe do nível 30: a exceção nunca é mais rápida que a leitura 1:1 — ela é igual ou pior.** *Contra o Emanador de Essência 6 ela é `2,8×` pior.*
+> **⚠⚠ E a exceção ENFRAQUECE o `Cisão`, o que é o que faz ela caber sem repreço.** *Pela regra geral, ele tira a barra menor das duas; pela exceção, ele tira só a alma.* **Medido nos quatro arquétipos do §2.3 e no chefe do nível 30: a exceção nunca é mais rápida que a leitura 1:1 — ela é igual ou pior.** *Contra o Emanador de Essência 6 ela é `2,8×` pior.*
 >
 > ***Nenhum preço publicado se move.*** **O `Classe 3` daquela entrada sempre foi escrito para esta leitura** — o *"é troca, não escada"* da peça 16 §4 só é verdade aqui. *Consertar o vocabulário não repreça: devolve o preço que já estava lá.*
 
@@ -171,7 +171,6 @@
 | | descanso curto | descanso longo |
 |---|---|---|
 | **Integridade** | — | **cheia, e os estágios limpam** |
-| **a vida máxima derrubada** | — | **volta junto** |
 
 > **⚠ E esta é a única parte da máquina que NÃO muda de dono.** *A peça 10 é dona da tabela de descanso inteira — PE, vida, exaustão e Integridade na mesma grade —, e mover uma linha dela para cá criaria a segunda fonte que a lição nº 9 existe para evitar.* **A tabela acima é ponteiro, e a peça 10 §2 é quem manda.**
 
@@ -256,4 +255,4 @@
 
 **E os outros três resolveram DIFERENTE do que esta peça faz, o que é o motivo de estarem aqui.** *Nos três a segunda barra não toca o corpo em nada* — a consequência é loucura, condição ou morte, nunca dano. **Aqui ela toca, e a razão não é de sistema: é que na obra a alma vem antes do corpo.** *Copiar a forma dos três importaria um dano de alma que não é o da obra.*
 
-> **⚠ E o que a Call of Cthulhu resolve e este sistema não é o TETO que cai.** *Lá, conhecer o Mythos derruba de vez o máximo de Sanidade.* **Aqui a vida máxima cai e volta no descanso longo, e a Cicatriz — que seria a candidata a perda permanente — continua sem mecânica.** *Se um dia alguém quiser perda que não volta, o desenho está lá e é barato de ler.*
+> **⚠ E o que a Call of Cthulhu resolve e este sistema não é o TETO que cai.** *Lá, conhecer o Mythos derruba de vez o máximo de Sanidade.* **Aqui nada cai de vez: a Integridade volta no descanso longo, e a Cicatriz — que seria a candidata a perda permanente — continua sem mecânica.** *Se um dia alguém quiser perda que não volta, o desenho está lá e é barato de ler.*

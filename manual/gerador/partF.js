@@ -46,7 +46,7 @@ const pacotes = [
     ['Passo do Espelho', 'Toque (Corpo a Corpo +4) · Rápido (−6) · Passo (−2) · Recuo (+4)', '12d8 = 54 como Ação Bônus, no toque'],
     ['Muralha', 'Apoio · Anteparo (−4) · Guarda (−4) · Parado (+2)', 'parede com 40 de vida, aliado com +2 de defesa e 18 de vida temporária'],
     ['Maré Branca', 'Onda (−6)', 'cura 6d8 = 27 em todos os aliados num raio de 3 m'],
-    ['Alinhavo', 'Cura (−4) · Remenda (−6) · Gesto (+2)', 'cura 4d8 = 18 e devolve 20 de Integridade, com a vida máxima junto'],
+    ['Alinhavo', 'Cura (−4) · Remenda (−6) · Gesto (+2)', 'cura 4d8 = 18 e devolve 20 de Integridade'],
   ]),
 
   H2('Classe 5 · 15 pontos · 15 PE'),
@@ -136,10 +136,10 @@ const mestre = [
     'Isso vale para inimigo e para tudo que não seja personagem jogador. **Personagem tem fórmula própria**, com um atributo dentro, e quem é dono dela é o sistema em volta — é o que impede corpo duro de vir com alma dura de graça.',
   ]),
   GAP(100),
-  BUL('Cada ponto de dano na alma tira 1 de vida, 1 de Integridade e derruba a sua vida máxima em 1, até o próximo descanso longo. Cura não devolve o que a alma perdeu: só descanso longo, ou a Melhoria **Remenda**.'),
+  BUL('Cada ponto de dano na alma tira 1 de vida e 1 de Integridade. Cura não devolve o que a alma perdeu: só descanso longo, ou a Melhoria **Remenda**.'),
   BUL('Dano na alma entra cheio, sem redução pela metade. Ao receber, faça um **Teste de Resistência de Espírito** contra a CD do atacante: no fracasso, você também avança um estágio na hora, mesmo que a fração ainda não tenha fechado.'),
   BUL('Nenhum feitiço passa de **2 × Classe** em dados na alma.'),
-  BUL('Descanso longo devolve toda a Integridade e a vida máxima, e limpa os estágios.'),
+  BUL('Descanso longo devolve toda a Integridade e limpa os estágios.'),
   GAP(100),
   TBL(['Integridade perdida', 'Estágio', 'O que pega'],
     [
@@ -228,7 +228,7 @@ const apendice = [
       ['Uso Livre', 'O que a sua técnica faz de graça fora de combate.'],
       ['Técnica Máxima', 'O golpe de dano fixo do nível 17 em diante. Volta depois do fim do seu terceiro turno seguinte.'],
       ['Integridade', 'A vida da alma. Igual à vida máxima em inimigo; personagem tem fórmula própria, e o dono dela é o sistema em volta. Só volta com descanso longo ou com a Melhoria Remenda.'],
-      ['Dano na alma', 'Tira vida, Integridade e vida máxima no mesmo tanto. Entra cheio, e o Teste de Resistência decide o estágio, não o número.'],
+      ['Dano na alma', 'Tira vida e Integridade no mesmo tanto. Entra cheio, e o Teste de Resistência decide o estágio, não o número.'],
     ],
     [20, 80], { boldCols: [0] }
   ),
