@@ -90,7 +90,7 @@
 <div class="sum-cap"><a href="#cap-criacao-de-inimigos"><span class="sum-n">6</span>Criação de inimigos</a></div>
 <div class="sum-sec"><a href="#cap-criacao-de-inimigos-teto-de-empilhamento">Teto de empilhamento</a></div>
 <div class="sum-sec"><a href="#cap-criacao-de-inimigos-encontro-misturado">Encontro misturado</a></div>
-<div class="sum-sec"><a href="#cap-criacao-de-inimigos-pagamento-do-emboscador">Pagamento do Emboscador</a></div>
+<div class="sum-sec"><a href="#cap-criacao-de-inimigos-pagamento-por-categoria">Pagamento por categoria</a></div>
 <div class="sum-sec"><a href="#cap-criacao-de-inimigos-papel-por-categoria">Papel por categoria</a></div>
 <div class="sum-cap"><a href="#cap-area-e-frequencia"><span class="sum-n">7</span>Área e frequência</a></div>
 <div class="sum-sec"><a href="#cap-area-e-frequencia-parenteses-de-custo-e-pre-requisito">Parênteses de custo e pré-requisito</a></div>
@@ -1528,35 +1528,45 @@ ela, entregam menos da metade.</p><p>A trava não encolhe o esquadrão. Os oito 
 </tbody>
 </table><p>O golpe não muda em nenhum papel, e a Destreza também não: ela é a que a <code><span class="ix-anc" id="ix-cap-criacao-de-inimigos-atributo"></span>Orçamento de atributo
 por marco</code> pede, no capítulo 5. O <code>−2</code> do <code>Brutamontes</code> e o <code>+2</code> do <code>Baluarte</code> entram direto na
-Defesa.</p><h2 id="cap-criacao-de-inimigos-pagamento-do-emboscador">Pagamento do <code>Emboscador</code></h2><p class="sabor">O pagamento dele muda com a categoria.</p><p class="tab-titulo"><strong>Vida do <code>Emboscador</code>, por categoria</strong></p><table class="tab"><colgroup><col style="width:66.91%"/><col style="width:33.09%"/></colgroup>
+Defesa.</p><h2 id="cap-criacao-de-inimigos-pagamento-por-categoria">Pagamento por categoria</h2><p class="sabor">O <code>Emboscador</code>, o <code>Controlador</code> e o <code>Reforço</code> pagam em vida, e quanto eles pagam muda com a
+categoria.</p><p class="tab-titulo"><strong>Vida do papel, por categoria</strong></p><table class="tab"><colgroup><col style="width:28.13%"/><col style="width:27.45%"/><col style="width:44.42%"/></colgroup>
 <thead>
 <tr>
 <th>categoria</th>
-<th>vida ×</th>
+<th><code>Emboscador</code></th>
+<th><code>Controlador</code> e <code>Reforço</code></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="nome"><code>Capanga</code> e <code>Ameaça</code></td>
-<td><code>0,677</code></td>
+<td class="nome"><code>Capanga</code></td>
+<td><code>× 0,944</code></td>
+<td><code>× 0,889</code></td>
+</tr>
+<tr>
+<td class="nome"><code>Ameaça</code></td>
+<td><code>× 0,677</code></td>
+<td><code>× 0,500</code></td>
 </tr>
 <tr>
 <td class="nome"><code>Desastre</code></td>
-<td><code>0,863</code></td>
+<td><code>× 0,863</code></td>
+<td><code>× 0,750</code></td>
 </tr>
 <tr>
 <td class="nome"><code>Catástrofe</code></td>
-<td><code>0,913</code></td>
+<td><code>× 0,913</code></td>
+<td><code>× 0,833</code></td>
 </tr>
 <tr>
 <td class="nome"><code>Calamidade</code></td>
-<td><code>0,927</code></td>
+<td><code>× 0,927</code></td>
+<td><code>× 0,857</code></td>
 </tr>
 </tbody>
-</table><aside class="destaque">
+</table><p><em>A linha do <code>Capanga</code> conta as <code>8</code> ações do esquadrão, e não a de um corpo.</em></p><aside class="destaque">
 <p>Use a linha da categoria do bicho, e não um número só desta tabela.</p>
-</aside><h2 id="cap-criacao-de-inimigos-papel-por-categoria">Papel por categoria</h2><p class="sabor">O <code>Capanga</code> toma quatro papéis: <code>Artilheiro</code>, <code>Emboscador</code>, <code>Reforço</code> e <code>Controlador</code>. O
-<code>Controlador</code> num esquadrão conta as oito ações do esquadrão, e não a de um corpo.</p><p><code>Brutamontes</code> e <code>Baluarte</code> ficam fora do <code>Capanga</code>. O <code>Brutamontes</code>, porque um <code>Capanga</code> que não cai
+</aside><h2 id="cap-criacao-de-inimigos-papel-por-categoria">Papel por categoria</h2><p class="sabor">O <code>Capanga</code> toma quatro papéis: <code>Artilheiro</code>, <code>Emboscador</code>, <code>Reforço</code> e <code>Controlador</code>.</p><p><code>Brutamontes</code> e <code>Baluarte</code> ficam fora do <code>Capanga</code>. O <code>Brutamontes</code>, porque um <code>Capanga</code> que não cai
 num golpe é uma <code>Ameaça</code>.</p><p>O <code>Emboscador</code> não sobe de <code>Grande</code>. O <code>Baluarte</code> e o <code>Reforço</code> só se pagam com mais de um inimigo
 no encontro.</p><h1>Passo 3 · Tamanho</h1><p>O tamanho diz onde o corpo cabe e até onde o golpe alcança. Ele não cobra nada.</p><p class="tab-titulo"><strong>Tamanho, grade e alcance</strong></p><table class="tab"><colgroup><col style="width:29.68%"/><col style="width:23.99%"/><col style="width:11.27%"/><col style="width:35.07%"/></colgroup>
 <thead>
@@ -1618,8 +1628,11 @@ trinta e dois quadrados, e três deles não cabem em volta de uma pessoa sem que
 
 
 
+<!-- PAGAMENTO -->
 
 
+
+<!-- FIM PAGAMENTO -->
 
 
 
@@ -2227,7 +2240,7 @@ Nenhum outro número se move.</p><h2 id="cap-maldicoes-prontas-betobeto">Betobet
 <p class="sabor"><em>Maldição Média · </em><em>Ameaça</em><em> · Emboscador · nível 2 a 4</em></p>
 <p><strong>Defesa</strong> <code>14</code> · <strong>Acerto</strong> <code>+4</code> · <strong><span class="ix-anc" id="ix-cap-maldicoes-prontas-cd"></span>CD</strong> <code>12</code> · <strong><span class="ix-anc" id="ix-cap-maldicoes-prontas-refino"></span>Refino</strong> <code>1</code> <em><span class="ix-anc" id="ix-cap-maldicoes-prontas-protecao"></span>(proteção <code>+1</code>)</em></p>
 <p><strong>Vida</strong> <code>19</code> · <strong><span class="ix-anc" id="ix-cap-maldicoes-prontas-integridade"></span>Integridade</strong> <code>9</code> · <strong>Deslocamento</strong> <code>9 m</code></p>
-<p><strong>Força</strong> <code>0</code> · <strong>Destreza</strong> <code>3</code> <em>(Iniciativa)</em> · <strong>Constituição</strong> <code>1</code> · <strong>Inteligência</strong> <code>2</code> · <strong><span class="ix-anc" id="ix-cap-maldicoes-prontas-essencia"></span>Essência</strong> <code>3</code></p>
+<p><strong>Força</strong> <code>0</code> · <strong>Destreza</strong> <code>3</code> <em>(Iniciativa)</em> · <strong>Constituição</strong> <code>1</code> · <strong>Inteligência</strong> <code>2</code> · <strong><span class="ix-anc" id="ix-cap-maldicoes-prontas-essencia"></span>Essência</strong> <code>3</code> <em>(acerto e CD)</em></p>
 <p><strong>Físico</strong> treinado · <strong>Vigor</strong> — · <strong>Intelecto</strong> — · <strong>Espírito</strong> treinado</p>
 <p><strong>Resistências</strong> — · <strong>Imunidades</strong> — · <strong>Vulnerabilidades</strong> — · <strong>Perícias</strong> —</p>
 <p><strong>Traços</strong></p>
@@ -2239,7 +2252,7 @@ Nenhum outro número se move.</p><h2 id="cap-maldicoes-prontas-betobeto">Betobet
 <p class="sabor"><em>Maldição Pequena · </em><em>Ameaça</em><em> · Emboscador · dois corpos · nível 2 a 4</em></p>
 <p><strong>Defesa</strong> <code>14</code> · <strong>Acerto</strong> <code>+4</code> · <strong>CD</strong> <code>12</code> · <strong>Refino</strong> <code>1</code> <em>(proteção <code>+1</code>)</em></p>
 <p><strong>Vida</strong> <code>19</code> · <strong>Integridade</strong> <code>9</code> · <strong>Deslocamento</strong> <code>9 m</code></p>
-<p><strong>Força</strong> <code>3</code> · <strong>Destreza</strong> <code>3</code> <em>(Iniciativa)</em> · <strong>Constituição</strong> <code>2</code> · <strong>Inteligência</strong> <code>1</code> · <strong>Essência</strong> <code>0</code></p>
+<p><strong>Força</strong> <code>3</code> · <strong>Destreza</strong> <code>3</code> <em>(Iniciativa, acerto e CD)</em> · <strong>Constituição</strong> <code>2</code> · <strong>Inteligência</strong> <code>1</code> · <strong>Essência</strong> <code>0</code></p>
 <p><strong>Físico</strong> treinado · <strong>Vigor</strong> treinado · <strong>Intelecto</strong> — · <strong>Espírito</strong> —</p>
 <p><strong>Resistências</strong> — · <strong>Imunidades</strong> — · <strong>Vulnerabilidades</strong> — · <strong>Perícias</strong> —</p>
 <p><strong>Traços</strong></p>
@@ -2251,7 +2264,7 @@ Nenhum outro número se move.</p><h2 id="cap-maldicoes-prontas-betobeto">Betobet
 <p class="sabor"><em>Maldição Grande · </em><em>Desastre</em><em> · Controlador · nível 2 a 4</em></p>
 <p><strong>Defesa</strong> <code>14</code> · <strong>Acerto</strong> <code>+4</code> · <strong>CD</strong> <code>12</code> · <strong>Refino</strong> <code>1</code> <em>(proteção <code>+1</code>)</em></p>
 <p><strong>Vida</strong> <code>85</code> · <strong>Integridade</strong> <code>42</code> · <strong>Deslocamento</strong> <code>9 m</code> · <strong>Escalada</strong> <code>9 m</code></p>
-<p><strong>Força</strong> <code>3</code> · <strong>Destreza</strong> <code>3</code> <em>(Iniciativa)</em> · <strong>Constituição</strong> <code>3</code> · <strong>Inteligência</strong> <code>1</code> · <strong>Essência</strong> <code>0</code></p>
+<p><strong>Força</strong> <code>3</code> <em>(acerto e CD)</em> · <strong>Destreza</strong> <code>3</code> <em>(Iniciativa)</em> · <strong>Constituição</strong> <code>3</code> · <strong>Inteligência</strong> <code>1</code> · <strong>Essência</strong> <code>0</code></p>
 <p><strong>Físico</strong> treinado · <strong>Vigor</strong> treinado · <strong>Intelecto</strong> — · <strong>Espírito</strong> —</p>
 <p><strong>Resistências</strong> — · <strong>Imunidades</strong> — · <strong>Vulnerabilidades</strong> — · <strong>Perícias</strong> —</p>
 <p><strong>Traços</strong></p>
@@ -2268,11 +2281,11 @@ Nenhum outro número se move.</p><h2 id="cap-maldicoes-prontas-betobeto">Betobet
 <p><strong>3. Subir.</strong> A Tsuchigumo escala até <code>9 m</code><span class="ix-anc" id="ix-cap-maldicoes-prontas-ataque-de-oportunidade"></span> pela parede ou pelo teto. Esse movimento não provoca ataque de oportunidade.</p>
 </aside><h2 id="cap-maldicoes-prontas-hitotsume">Hitotsume</h2><p class="sabor"><em>Maldição com a forma de um menino de um olho só, que aparece parado e cada vez mais perto.</em></p><p>No folclore japonês, o hitotsume-kozō é um menino careca de um olho só que surge no caminho, mostra uma língua comprida e some. Como maldição, ele aparece em escola, hospital e casa antiga: na esquina do corredor, na porta do banheiro, no fim da escada, sempre sozinho. Na luta, ataca quem estiver mais longe do resto do grupo.</p><aside class="destaque">
 <h3>Hitotsume</h3>
-<p class="sabor"><em>Maldição Média · </em><em>Ameaça</em><em> · Artilheiro · nível 5 a 8</em></p>
+<p class="sabor"><em>Maldição Média · </em><em>Ameaça</em><em> · Emboscador · nível 5 a 8</em></p>
 <p><em>nível 5</em> · <strong>Defesa</strong> <code>14</code> · <strong>Acerto</strong> <code>+4</code> · <strong>CD</strong> <code>12</code> · <strong>Refino</strong> <code>1</code> <em>(proteção <code>+1</code>)</em></p>
 <p><em>nível 6 a 8</em> · <strong>Defesa</strong> <code>15</code> · <strong>Acerto</strong> <code>+4</code> · <strong>CD</strong> <code>12</code> · <strong>Refino</strong> <code>3</code> <em>(proteção <code>+2</code>)</em></p>
-<p><strong>Vida</strong> <code>58</code> · <strong>Integridade</strong> <code>29</code> · <strong>Deslocamento</strong> <code>9 m</code></p>
-<p><strong>Força</strong> <code>0</code> · <strong>Destreza</strong> <code>3</code> <em>(Iniciativa)</em> · <strong>Constituição</strong> <code>2</code> · <strong>Inteligência</strong> <code>1</code> · <strong>Essência</strong> <code>3</code></p>
+<p><strong>Vida</strong> <code>46</code> · <strong>Integridade</strong> <code>23</code> · <strong>Deslocamento</strong> <code>9 m</code></p>
+<p><strong>Força</strong> <code>0</code> · <strong>Destreza</strong> <code>3</code> <em>(Iniciativa)</em> · <strong>Constituição</strong> <code>2</code> (<code>3</code> do nível 6) · <strong>Inteligência</strong> <code>1</code> · <strong>Essência</strong> <code>3</code> <em>(acerto e CD)</em></p>
 <p><strong>Físico</strong> — · <strong>Vigor</strong> — · <strong>Intelecto</strong> treinado · <strong>Espírito</strong> treinado</p>
 <p><strong>Resistências</strong> — · <strong>Imunidades</strong> — · <strong>Vulnerabilidades</strong> — · <strong>Perícias</strong> —</p>
 <p><strong>Traços</strong></p>
@@ -2285,7 +2298,7 @@ Nenhum outro número se move.</p><h2 id="cap-maldicoes-prontas-betobeto">Betobet
 <p><em>nível 9</em> · <strong>Defesa</strong> <code>15</code> · <strong>Acerto</strong> <code>+4</code> · <strong>CD</strong> <code>12</code> · <strong>Refino</strong> <code>3</code> <em>(proteção <code>+2</code>)</em></p>
 <p><em>nível 10 a 12</em> · <strong>Defesa</strong> <code>16</code> · <strong>Acerto</strong> <code>+6</code> · <strong>CD</strong> <code>14</code> · <strong>Refino</strong> <code>4</code> <em>(proteção <code>+2</code>)</em></p>
 <p><strong>Vida</strong> <code>84</code> · <strong>Integridade</strong> <code>42</code> · <strong>Deslocamento</strong> <code>9 m</code></p>
-<p><strong>Força</strong> <code>0</code> · <strong>Destreza</strong> <code>3</code> (<code>4</code> do nível 10) <em>(Iniciativa)</em> · <strong>Constituição</strong> <code>1</code> · <strong>Inteligência</strong> <code>2</code> · <strong>Essência</strong> <code>3</code></p>
+<p><strong>Força</strong> <code>0</code> · <strong>Destreza</strong> <code>3</code> (<code>4</code> do nível 10) <em>(Iniciativa)</em> · <strong>Constituição</strong> <code>1</code> · <strong>Inteligência</strong> <code>3</code> · <strong>Essência</strong> <code>3</code> (<code>4</code> do nível 10) <em>(acerto e CD)</em></p>
 <p><strong>Físico</strong> — · <strong>Vigor</strong> — · <strong>Intelecto</strong> treinado · <strong>Espírito</strong> treinado</p>
 <p><strong>Resistências</strong> — · <strong>Imunidades</strong> — · <strong>Vulnerabilidades</strong> — · <strong>Perícias</strong> —</p>
 <p><strong>Traços</strong></p>
@@ -2297,21 +2310,21 @@ Nenhum outro número se move.</p><h2 id="cap-maldicoes-prontas-betobeto">Betobet
 <h3>Oni</h3>
 <p class="sabor"><em>Maldição Grande · </em><em>Desastre</em><em> · Brutamontes · nível 5 a 8</em></p>
 <p><em>nível 5</em> · <strong>Defesa</strong> <code>12</code> · <strong>Acerto</strong> <code>+4</code> · <strong>CD</strong> <code>12</code> · <strong>Refino</strong> <code>1</code> <em>(proteção <code>+1</code>)</em></p>
-<p><em>nível 6 a 8</em> · <strong>Defesa</strong> <code>13</code> · <strong>Acerto</strong> <code>+4</code> · <strong>CD</strong> <code>12</code> · <strong>Refino</strong> <code>3</code> <em>(proteção <code>+2</code>)</em></p>
+<p><em>nível 6 a 8</em> · <strong>Defesa</strong> <code>13</code> · <strong>Acerto</strong> <code>+5</code> · <strong>CD</strong> <code>13</code> · <strong>Refino</strong> <code>3</code> <em>(proteção <code>+2</code>)</em></p>
 <p><strong>Vida</strong> <code>324</code> · <strong>Integridade</strong> <code>162</code> · <strong>Deslocamento</strong> <code>9 m</code></p>
-<p><strong>Força</strong> <code>3</code> · <strong>Destreza</strong> <code>3</code> <em>(Iniciativa)</em> · <strong>Constituição</strong> <code>3</code> · <strong>Inteligência</strong> <code>0</code> · <strong>Essência</strong> <code>1</code></p>
+<p><strong>Força</strong> <code>3</code> (<code>4</code> do nível 6) <em>(acerto e CD)</em> · <strong>Destreza</strong> <code>3</code> <em>(Iniciativa)</em> · <strong>Constituição</strong> <code>3</code> · <strong>Inteligência</strong> <code>0</code> · <strong>Essência</strong> <code>1</code></p>
 <p><strong>Físico</strong> treinado · <strong>Vigor</strong> treinado · <strong>Intelecto</strong> — · <strong>Espírito</strong> —</p>
 <p><strong>Resistências</strong> — · <strong>Imunidades</strong> — · <strong>Vulnerabilidades</strong> — · <strong>Perícias</strong> —</p>
 <p><strong>Traços</strong></p>
 <p><strong>Faro.</strong> O Oni sente cheiro de sangue. Ele sabe onde está cada criatura que perdeu vida nesta luta, se ela estiver no mesmo cômodo que ele, mesmo sem vê-la.</p>
 <p><strong>Ações</strong></p>
 <p><strong>Ações Múltiplas.</strong> O Oni faz três ataques de Kanabō, ou usa Pancada no Chão e faz dois ataques de Kanabō.</p>
-<p><strong>Kanabō.</strong> <em>Ataque corpo a corpo:</em> <code>+4</code> para acertar, alcance <code>3 m</code>, uma criatura. <em>Acerto:</em> <code>12 (2d4 + 7)</code> de dano de Concussão, e metade desse dano em um vizinho do alvo.</p>
-<p><strong>Pancada no Chão.</strong> <em>Teste de Resistência Físico:</em> CD <code>12</code>, cada criatura numa <code>Esfera</code> de raio <code>3 m</code> a partir do corpo dele. <em>Falha:</em> <code>12 (2d4 + 7)</code> de dano de Concussão. <em>Sucesso:</em> metade do dano.</p>
+<p><strong>Kanabō.</strong> <em>Ataque corpo a corpo:</em> <code>+4</code> (<code>+5</code> no nível 6 a 8) para acertar, alcance <code>3 m</code>, uma criatura. <em>Acerto:</em> <code>12 (2d4 + 7)</code> de dano de Concussão, e metade desse dano em um vizinho do alvo.</p>
+<p><strong>Pancada no Chão.</strong> <em>Teste de Resistência Físico:</em> CD <code>12</code> (<code>13</code> no nível 6 a 8), cada criatura numa <code>Esfera</code> de raio <code>3 m</code> a partir do corpo dele. <em>Falha:</em> <code>12 (2d4 + 7)</code> de dano de Concussão. <em>Sucesso:</em> metade do dano.</p>
 <p><strong>Intervenções</strong></p>
 <p>Três por luta, cada uma usada uma vez. Sai no máximo uma por rodada, logo depois do turno de outra criatura.</p>
 <p><strong>1. Kanabō.</strong> O Oni faz um ataque de Kanabō. Esse ataque não pega o vizinho.</p>
-<p><strong>2. Arremesso.</strong> <em>Teste de Resistência Físico:</em> CD <code>12</code>, uma criatura a até <code>3 m</code> dele. <em>Falha:</em> o alvo é jogado num espaço livre a até <code>9 m</code> do Oni e fica <code>Derrubado</code>. O arremesso não causa dano.</p>
+<p><strong>2. Arremesso.</strong> <em>Teste de Resistência Físico:</em> CD <code>12</code> (<code>13</code> no nível 6 a 8), uma criatura a até <code>3 m</code> dele. <em>Falha:</em> o alvo é jogado num espaço livre a até <code>9 m</code> do Oni e fica <code>Derrubado</code>. O arremesso não causa dano.</p>
 <p><strong>3. Parede Abaixo.</strong> O Oni derruba uma parede, pilar ou divisória a até <code>3 m</code><span class="ix-anc" id="ix-cap-maldicoes-prontas-cobertura"></span> dele. Ela para de dar cobertura, e os quadrados onde ela estava viram terreno difícil até o fim da luta.</p>
 </aside><h1>Uso na campanha</h1><p>Cada corpo de <code>Ameaça</code> exige um personagem, e cada <code>Desastre</code> exige a mesa padrão de quatro.</p><p><strong>Outra ficção.</strong> O bloco não depende do nome nem da descrição. Uma <code>Ameaça</code> do nível 2 ao 4 que
 segue alguém no escuro usa o bloco do Betobeto com outro nome.</p><p><strong>Outra faixa.</strong> Copie a vida e o golpe da faixa nova na <code>Vida e golpe por faixa</code>, e a linha da

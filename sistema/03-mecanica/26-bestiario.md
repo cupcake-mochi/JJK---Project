@@ -130,6 +130,10 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 ***Decisão do Mizuki, v0.234:*** *termo à parte.* **O livro do Bestiário já lia assim:** *o exemplo da Ubume, que é `Brutamontes`, pede a Destreza da tabela.* **E a ficha pronta segue a mesma regra:** *a Destreza de cada nível é a da tabela, com os marcos que a pronta declara, e só o chefe pode ter `1` a mais, pelo §3.2.*
 
+> **A ficha pronta declara com que atributo ataca, e em que atributo entra cada ponto de marco.** *Em cada nível da faixa, a Destreza dá a Defesa da tabela do §3.1, e o atributo de ataque dá o acerto e a CD com a maestria da peça 1 §2; os pontos de marco somam o que o §3.2 dá naquele nível.* **O chefe fica no máximo um ponto acima da curva**, *na Destreza ou no atributo de ataque.*
+
+***Decisão do Mizuki, v0.235:*** *o atributo de ataque de cada pronta pela ficção, e o destino de cada ponto de marco.* **O limite de um ponto no chefe é leitura minha do §3.2:** *em todo nível o chefe tem um ponto a mais que o inimigo comum, e o `1,10` e o `1,11` registrados acima são o preço de um ponto.* *Nas seis prontas o limite não muda número: ele só pesa num chefe que ataca com a Destreza a partir do nível 10, e em qualquer chefe a partir do 14.*
+
 **Nenhum dos seis sobe o dano por rodada, e isso não é sobra: é o que mantém a régua funcionando.** *`o golpe` — a fatia da vida de um personagem que um golpe leva — é a grandeza que o modelo do Bestiário vigia por cima, e ele vigia justamente porque ela não tem para onde subir.* **Papel que pagasse em dano moveria essa fatia** — *foi o que derrubou a primeira forma do `Controlador`, que cortava um terço do dano e jogava o golpe abaixo do piso em quatro de quatro categorias.* **Pagando em vida, a fatia não se move e a pergunta nem se abre.**
 
 **Os dois que variam com a categoria variam porque o preço deles é uma ação, e ações são declaradas pelo §4.2.** *Negar uma ação de quem tem uma vale o dobro de negar uma de quem tem seis.*
@@ -614,7 +618,7 @@ o fator = [disparos × aquela razão + (luta − disparos)] ÷ luta
 | **10** | **o papel redistribui, e não acrescenta.** A `10.1` confere que ganha × paga fecha em `1,000` em toda célula que publica os dois lados; a `10.2` **reconstrói cada fator do documento dono** — a Defesa da peça 1 §5.2, a vantagem e a ação negada da peça 19 §2.2 — e compara com o publicado; a `10.3` confere que as ações do §3.4 são as do §4, com a exceção declarada do `Capanga`, que ali se lê por esquadrão. *Sem a `10.2`, o invariante da `10.1` passaria com dois números inventados que por acaso se multiplicam em um* |
 | **10.4** | **o alcance do `Artilheiro` é o dobro do deslocamento.** O metro publicado é a razão da Artilharia do Draw Steel vezes o deslocamento da peça 3, e a razão é a que a `MEDIDA` do Bestiário mede |
 | **7.1b** | **a Expansão de inimigo tem os gates do jogador, e a sem barreiras não muda o preço.** Os gates publicados são os do manual; no nível do gate a duração pela curva do `meio a meio` cobre a luta que a categoria promete, e o multiplicador abaixo dele é recalculado; a sem barreiras usa o mesmo `1,92`; a tabela do desvio de refino reconstrói da proteção da peça 11 e do §3.4; e a alavanca de manter o tamanho dividindo o dano não pode voltar |
-| **9.5** | **as prontas cabem na criação, a Destreza delas é a que a Defesa da tabela pede, e o livro é o que os scripts geram.** *Desde a v0.234.* O arranjo soma os nove pontos do §3.2, dez no chefe, com teto `3`; em cada nível da faixa a Destreza, com os marcos declarados, dá a Defesa da tabela, e só o chefe tem `1` a mais; o `±2` do papel fica por fora; e os quatro `gerar-*.py` do livro do Bestiário, rodados com `--conferir`, devolvem os capítulos publicados. *O capítulo das prontas passou da v0.224 à v0.233 sem os papéis que o gerador já punha, com todos os validadores verdes* |
+| **9.5** | **as prontas cabem na criação, a Destreza e o atributo de ataque delas são os que a tabela pede, e o livro é o que os scripts geram.** *Desde a v0.234; o ataque e os marcos, desde a v0.235.* O arranjo soma os nove pontos do §3.2, dez no chefe, com teto `3`; os pontos de marco declarados somam, em cada nível, o que o §3.2 dá, sem passar do teto de lá; em cada nível da faixa a Destreza dá a Defesa da tabela e o atributo de ataque dá o acerto com a maestria da peça 1 §2, e o chefe fica no máximo um ponto acima da curva, que é a diferença entre as duas linhas do §3.2; o `±2` do papel fica por fora; e os quatro `gerar-*.py` do livro do Bestiário, rodados com `--conferir`, devolvem os capítulos publicados. *O capítulo das prontas passou da v0.224 à v0.233 sem os papéis que o gerador já punha, com todos os validadores verdes* |
 | **9.7** | **a `Recarga` come o turno, bate `2,5` golpes em cada alvo e se paga no fator.** O multiplicador vezes a banda do golpe do Bestiário dá a faixa publicada; os disparos saem do `d6` e da luta; a tabela do fator reconstrói das pessoas e das ações do §4 com a mesa do `Guia do Mestre`; a medição de campo é a da `MEDIDA` do Bestiário; o exemplo dos dados reconstrói da regra dos dois terços em `d12`; a frase do erro de travessia não volta; e o preço da Melhoria usa a maior Classe que cabe |
 
 ### 7.1 As quarenta e duas perturbações, em cópia isolada
@@ -885,6 +889,32 @@ o fator = [disparos × aquela razão + (luta − disparos)] ÷ luta
 | a Betobeto troca de papel no gerador e o livro não é regerado | acende | acende |
 | **contra-teste:** a Hitotsume tira da Constituição em vez da Inteligência, e o livro é regerado | fica verde | fica verde |
 | **contra-teste:** o Oni tira da Essência em vez da Inteligência, e o livro é regerado | fica verde | fica verde |
+
+### 7.10 As dezesseis perturbações da v0.235, no ataque, nos marcos e no pagamento do livro
+
+| perturbação | esperado | deu |
+|---|---|---|
+| a Kitsune tira a Essência do marco 10 e põe na Inteligência | acende | acende |
+| a Kitsune perde o ponto do marco 6 | acende | acende |
+| a Hitotsume põe o marco 6 na Essência, sem ser chefe | acende | acende |
+| o Oni sobe para `13 a 16` e fica dois acima da curva no nível 14 | acende | acende |
+| a Betobeto ataca com um atributo que não existe | acende | acende |
+| a Kitsune volta ao marco no formato velho, com um atributo solto | acende | acende |
+| a Hitotsume declara o marco no nível 7 | acende | acende |
+| a maestria da peça 1 §2 sobe no nível 9 | acende | acende |
+| o §3.2 dá um ponto a menos no nível 10, nas duas linhas | acende | acende |
+| o teto do §3.2 vira `3` | acende | acende |
+| o acerto do gerador do nível 10 ao 13 vira `+7` | acende | acende |
+| o capítulo 6 do livro volta a imprimir `0,677` no `Capanga` | acende | acende |
+| a Hitotsume volta a `Artilheiro` no gerador, e o livro não é regerado | acende | acende |
+| a peça 26 muda o pagamento do `Capanga`, e o livro não é regerado | acende | acende |
+| **regressão da v0.234:** a Hitotsume volta a Destreza `2` | acende | acende |
+| **regressão da v0.234:** a Hitotsume põe o marco 6 na Destreza | acende | acende |
+| **contra-teste:** a Hitotsume põe o marco 6 na Inteligência, e o livro é regerado | fica verde | fica verde |
+| **contra-teste:** o Oni põe o marco 6 na Destreza, e o livro é regerado | fica verde | fica verde |
+| **contra-teste:** a Kamaitachi ataca com Força, e o livro é regerado | fica verde | fica verde |
+
+*O caso do Oni no nível 14 é o que separa as duas leituras da folga do chefe: contando um ponto por derivada, ele passaria.*
 
 ## 8. Em aberto
 

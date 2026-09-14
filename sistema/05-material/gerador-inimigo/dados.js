@@ -144,9 +144,12 @@ const AREA_NATURAL = [
 // vazia, e isso e o preco declarado da decisao de 10/09 — ficha de esquadrao e
 // ficcao do Mizuki. A ficcao sai do folclore japones, escolha dele: maldicao de
 // grau baixo e yokai com outro nome.
+// v0.235: `ataque` e o atributo que o acerto e a CD leem (peca 26 §3.2), e `marcos` diz, nivel a
+// nivel, para onde vai cada ponto de marco — uma lista por marco. A soma e a do §3.2, e a 9.5 do
+// conferir-bestiario.py confere.
 const PRONTAS = [
   { nome: 'Betobeto', faixa: '2 a 4', categoria: 'Ameaça', papel: 'Emboscador',
-    arranjo: '0 · 3 · 1 · 2 · 3', trs: 'Físico (Destreza) e Espírito',
+    arranjo: '0 · 3 · 1 · 2 · 3', ataque: 'Essência', trs: 'Físico (Destreza) e Espírito',
     tamanho: "Médio", corpos_na_mesa: 1, movimentos: [],
     linha: "Maldição que segue as pessoas no escuro e só se deixa ouvir pelos passos.",
     notas: "No folclore japonês, o Betobeto é um som de passos que acompanha quem anda sozinho à noite, e quem sai do caminho e pede que ele passe na frente fica em paz. Como maldição, ele aparece em corredores, ruas estreitas e escadas sem luz, e ataca quem corre ou se vira para enfrentá-lo. Na luta, bate sempre em quem ele vinha seguindo.",
@@ -155,7 +158,7 @@ const PRONTAS = [
     acoes_nomeadas: [{"nome": "Pisada", "texto": "*Ataque corpo a corpo:* {acerto} para acertar, alcance {alcance}, uma criatura. *Acerto:* {golpe} de dano de Concussão{vizinho}."}],
     intervencoes: [] },
   { nome: 'Kamaitachi', faixa: '2 a 4', categoria: 'Ameaça', papel: 'Emboscador',
-    arranjo: '3 · 3 · 2 · 1 · 0', trs: 'Físico (Destreza) e Vigor',
+    arranjo: '3 · 3 · 2 · 1 · 0', ataque: 'Destreza', trs: 'Físico (Destreza) e Vigor',
     tamanho: "Pequeno", corpos_na_mesa: 2, movimentos: [],
     linha: "Par de maldições em forma de doninha, com garras de foice, que chegam montadas no vento.",
     notas: "No folclore japonês, a kamaitachi é um trio de doninhas que corre dentro de um redemoinho: a primeira derruba a pessoa, a segunda corta, e a terceira passa um remédio que fecha o corte antes de doer. Como maldição, elas andam em par e sem o remédio, em campo aberto, pátio e rua onde o vento corre. Na luta, as duas atacam o mesmo alvo, e quando uma cai a outra foge.",
@@ -164,7 +167,7 @@ const PRONTAS = [
     acoes_nomeadas: [{"nome": "Foice", "texto": "*Ataque corpo a corpo:* {acerto} para acertar, alcance {alcance}, uma criatura. *Acerto:* {golpe} de dano Cortante{vizinho}."}],
     intervencoes: [] },
   { nome: 'Tsuchigumo', faixa: '2 a 4', categoria: 'Desastre', papel: 'Controlador',
-    arranjo: '3 · 3 · 3 · 1 · 0', trs: 'Físico (Força) e Vigor',   // v0.234: o ponto de chefe na Destreza, que a Defesa pedia
+    arranjo: '3 · 3 · 3 · 1 · 0', ataque: 'Força', trs: 'Físico (Força) e Vigor',   // v0.234: o ponto de chefe na Destreza, que a Defesa pedia
     tamanho: "Grande", corpos_na_mesa: 1, movimentos: ["Escalada"],
     linha: "Aranha gigante que faz ninho em prédios fechados e ataca do teto e das paredes.",
     notas: "No folclore japonês, a Tsuchigumo é a aranha gigante que o guerreiro Minamoto no Raikō matou. Como maldição, ela ocupa prédio abandonado, túnel e porão, e passa a luta presa às paredes e ao teto. Abre com Varrida das Patas quando o grupo entra junto, cobre de Teia a passagem por onde o grupo veio e usa Subir quando fica cercada.",
@@ -172,8 +175,8 @@ const PRONTAS = [
     acoes_multiplas: "A Tsuchigumo faz três ataques de Mordida, ou usa Varrida das Patas e faz dois ataques de Mordida.",
     acoes_nomeadas: [{"nome": "Mordida", "texto": "*Ataque corpo a corpo:* {acerto} para acertar, alcance {alcance}, uma criatura. *Acerto:* {golpe} de dano Perfurante{vizinho}."}, {"nome": "Varrida das Patas", "texto": "*Teste de Resistência Físico:* CD {cd}, cada criatura num `Cone` de {cone} a partir dela. *Falha:* {golpe} de dano Cortante. *Sucesso:* metade do dano."}],
     intervencoes: [{"nome": "Mordida", "texto": "A Tsuchigumo faz um ataque de Mordida. Esse ataque não pega o vizinho."}, {"nome": "Teia", "texto": "A Tsuchigumo cobre de teia um `Retângulo` de {retangulo} que encoste nela. A área é terreno difícil até o fim da luta."}, {"nome": "Subir", "texto": "A Tsuchigumo escala até {deslocamento} pela parede ou pelo teto. Esse movimento não provoca ataque de oportunidade."}] },
-  { nome: 'Hitotsume', faixa: '5 a 8', categoria: 'Ameaça', papel: 'Artilheiro',
-    arranjo: '0 · 3 · 2 · 1 · 3', trs: 'Espírito e Intelecto',   // v0.234: 1 da Inteligência para a Destreza que a Defesa pede
+  { nome: 'Hitotsume', faixa: '5 a 8', categoria: 'Ameaça', papel: 'Emboscador',   // v0.235: pega quem está longe do grupo, e não atira
+    arranjo: '0 · 3 · 2 · 1 · 3', ataque: 'Essência', marcos: { 6: ['Constituição'] }, trs: 'Espírito e Intelecto',   // v0.234: 1 da Inteligência para a Destreza que a Defesa pede
     tamanho: "Médio", corpos_na_mesa: 1, movimentos: [],
     linha: "Maldição com a forma de um menino de um olho só, que aparece parado e cada vez mais perto.",
     notas: "No folclore japonês, o hitotsume-kozō é um menino careca de um olho só que surge no caminho, mostra uma língua comprida e some. Como maldição, ele aparece em escola, hospital e casa antiga: na esquina do corredor, na porta do banheiro, no fim da escada, sempre sozinho. Na luta, ataca quem estiver mais longe do resto do grupo.",
@@ -182,7 +185,7 @@ const PRONTAS = [
     acoes_nomeadas: [{"nome": "Língua", "texto": "*Ataque corpo a corpo:* {acerto} para acertar, alcance {alcance}, uma criatura. *Acerto:* {golpe} de dano de Concussão{vizinho}."}],
     intervencoes: [] },
   { nome: 'Kitsune', faixa: '9 a 12', categoria: 'Ameaça', papel: 'Artilheiro',
-    arranjo: '0 · 3 · 1 · 2 · 3', marcos: { 10: 'Destreza' }, trs: 'Espírito e Intelecto',   // v0.234: idem, e o marco do 10 na Destreza
+    arranjo: '0 · 3 · 1 · 2 · 3', ataque: 'Essência', marcos: { 6: ['Inteligência'], 10: ['Destreza', 'Essência'] }, trs: 'Espírito e Intelecto',   // v0.235: o 10 obriga a Destreza e a Essência
     tamanho: "Médio", corpos_na_mesa: 1, movimentos: [],
     linha: "Maldição em forma de raposa que toma a aparência de gente e ataca com fogo à distância.",
     notas: "No folclore japonês, a kitsune é a raposa que aprende a tomar forma humana e acende o kitsunebi, o fogo-de-raposa. Como maldição, ela vive entre pessoas, com rosto humano, em estação, hospital e rua de comércio. Fala com o grupo antes de lutar e tenta separá-lo; na luta, fica longe, usa Fogo-de-Raposa e só morde quem chega ao lado dela.",
@@ -191,7 +194,7 @@ const PRONTAS = [
     acoes_nomeadas: [{"nome": "Mordida", "texto": "*Ataque corpo a corpo:* {acerto} para acertar, alcance {alcance}, uma criatura. *Acerto:* {golpe} de dano Perfurante{vizinho}."}, {"nome": "Fogo-de-Raposa", "texto": "*Ataque de conjuração à distância:* {acerto} para acertar, alcance {tecnica_alcance}, uma criatura. *Acerto:* {tecnica_dano} de dano de Fogo."}],
     intervencoes: [] },
   { nome: 'Oni', faixa: '5 a 8', categoria: 'Desastre', papel: 'Brutamontes',
-    arranjo: '3 · 3 · 3 · 0 · 1', trs: 'Físico (Força) e Vigor',   // v0.234: o −2 do Brutamontes é por fora, e a Destreza é a da tabela; o ponto sai da Inteligência
+    arranjo: '3 · 3 · 3 · 0 · 1', ataque: 'Força', marcos: { 6: ['Força'] }, trs: 'Físico (Força) e Vigor',   // v0.234: o −2 do Brutamontes é por fora, e a Destreza é a da tabela; o ponto sai da Inteligência
     tamanho: "Grande", corpos_na_mesa: 1, movimentos: [],
     linha: "Maldição de corpo enorme, com chifres e um porrete de ferro, que luta de frente.",
     notas: "No folclore japonês, o oni tem chifres, pele vermelha ou azul, e carrega um kanabō, um porrete de ferro cravejado. Como maldição, ele fica no fim do caminho: no último andar, no fundo do terreno, na sala que o grupo precisa atravessar. Avança sobre quem está mais perto, usa Pancada no Chão quando o grupo o cerca e guarda Arremesso para tirar do lugar quem cuida dos outros.",

@@ -8,6 +8,55 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.235] — 14/09/2026
+
+**Os três achados da v0.234 no Bestiário fecharam.** *O capítulo 6 do livro ganhou a coluna do `Controlador` e do `Reforço`, a Hitotsume virou `Emboscador`, e cada pronta passou a declarar com que atributo ataca e onde entra cada ponto de marco.*
+
+### 1 · O que estava errado
+
+- **A tabela de pagamento do capítulo 6 era escrita à mão, e só tinha o `Emboscador`.** *Quem lia o livro não refazia a vida `85` da Tsuchigumo, que é `114 × 0,750`.* **E a linha do `Capanga` saía junto com a da `Ameaça`, em `0,677`:** *a peça 26 §3.4 dá `0,944`, porque o esquadrão age oito vezes.*
+- **A Hitotsume pagava vida `× 0,857` pelo alcance de `18 m`**, *e o único ataque dela era a `Língua`, corpo a corpo.*
+- **Nenhuma pronta dizia com que atributo ataca, e três não diziam onde entra o ponto de marco.** *O acerto `+6` que a Kitsune imprime do nível 10 ao 12 não fechava: Essência `3` mais maestria `2` dá `+5`.*
+
+### 2 · As decisões
+
+***Pedido dele sobre a Hitotsume:*** *"Encaixa ele no que a lore mais fizer sentido".* **Ela é `Emboscador`:** *o bloco dela já dizia "ataca quem estiver mais longe do resto do grupo", e o traço é chegar perto quando ninguém olha.* **Vida `58` → `46`, Defesa `14` e `15`.** *Com ela, três das quatro `Ameaça` são `Emboscador`.*
+
+***O atributo de ataque, "pela ficção", e os pontos de marco, escolhidos por ele:***
+
+| pronta | ataca com | pontos de marco |
+|---|---|---|
+| Betobeto | Essência | — |
+| Kamaitachi | Destreza | — |
+| Tsuchigumo | Força | — |
+| Hitotsume | Essência | nível 6 na Constituição |
+| Kitsune | Essência | nível 6 na Inteligência; nível 10 na Destreza e na Essência |
+| Oni | Força | nível 6 na Força |
+
+**O que a conta obrigou:** *no nível 10 a Kitsune precisa de Destreza `4` para a Defesa `16` e de Essência `4` para o acerto `+6`, então os dois pontos dela ali já tinham dono.* **O Oni é chefe e pôs o ponto acima da curva na Força:** *acerto `+5` e CD `13` do nível 6 ao 8.*
+
+**Uma leitura minha, declarada na peça:** *o chefe fica no máximo um ponto acima da curva, somando a Destreza e o ataque.* **Nas seis prontas isso não muda número.** *Contando um ponto por derivada, um chefe já teria dois acima no nível 14, ou no 10 se atacar com a Destreza.*
+
+### Adicionado
+
+- **Na `9.5` do `conferir-bestiario.py`:** *o atributo de ataque existe e dá o acerto da tabela com a maestria da peça 1 §2; os pontos de marco somam, em cada nível, o que o §3.2 dá, sem passar do teto de lá; e a folga do chefe é a diferença entre as duas linhas do §3.2.* **Catorze perturbações, duas regressões da v0.234 e três contra-testes, no §7.10 da peça 26.**
+- **O campo `ataque` nas prontas do gerador**, *e os `marcos` viraram lista: um marco pode levar mais de um ponto.*
+- **A região `PAGAMENTO` no capítulo 6 do livro**, *que o script das tabelas enche a partir da peça 26 §3.4.*
+
+### Alterado
+
+- **A peça 26:** *o §3.4 ganhou a regra das prontas e a decisão; o §7, a linha da `9.5` e as perturbações.*
+- **O gerador de inimigo:** *o `make.js` tira o acerto e a CD do atributo de ataque, e a célula desse atributo diz que é dele que eles saem.* **O `bloco-de-inimigo.docx` e o `.pdf` foram gerados de novo**, *e o `COMO-USAR.txt` explica os dois campos.*
+- **O livro do Bestiário:** *o capítulo 6 tem a tabela nova, e o capítulo 8 saiu do script com o papel da Hitotsume, os marcos e a marca "(acerto e CD)".* **Os PDFs foram refeitos.**
+
+### Achado e não consertado
+
+- **O `LEIA-ME-o-livro.md` do Bestiário publica `53` e `30` páginas, e os PDFs têm `61` e `35`.** *Os PDFs da v0.234 já tinham `61` e `35`, então a cópia envelheceu antes desta versão.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
+
+---
+
 ## [0.234] — 14/09/2026
 
 **As prontas passam a ter a Destreza que a Defesa pede, e o `±2` de Defesa do papel entra por fora.** *Saiu do ponto de chefe que a v0.233 deixou a gastar na Tsuchigumo e no Oni.*

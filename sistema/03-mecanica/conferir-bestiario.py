@@ -1380,11 +1380,43 @@ else:
     _DBASE95 = int(_bd95.group(1)) if _bd95 else None
     _pr95 = re.search(r'a sua proteção é `1/(\d+) do refino \+ (\d+)`', ler(P11))
     _PROT95 = (int(_pr95.group(1)), int(_pr95.group(2))) if _pr95 else (3, 1)
-    _DER95 = [(int(a_), int(b_), int(d_), int(r_)) for a_, b_, d_, r_ in re.findall(r"\['(\d+) a (\d+)',\s*(\d+),\s*\d+,\s*\d+,\s*(\d+)\]", _dj)]
+    _DER95 = [(int(a_), int(b_), int(d_), int(r_), int(ac_)) for a_, b_, d_, ac_, r_ in re.findall(r"\['(\d+) a (\d+)',\s*(\d+),\s*(\d+),\s*\d+,\s*(\d+)\]", _dj)]
     _ruins = []
     if _BASE95 is None or _DBASE95 is None or not _pr95 or not _DER95:
         _ruins.append('nao li os nove pontos do §3.2, a base da Defesa do §3, a protecao da peca 11 ou as DERIVADAS do gerador')
         _BASE95, _TETO95, _DBASE95 = _BASE95 or 9, _TETO95 or 3, _DBASE95 or 10
+    # v0.235: os donos do atributo de ataque e dos pontos de marco — a maestria da peca 1 §2, o teto e
+    # o orcamento por marco do §3.2, com a linha do chefe. Nenhum deles e guardado aqui.
+    _mq95 = re.search(r'^\| nível \| ([^\n]+)\|\n\|[-| ]+\|\n\| maestria \| ([^\n]+)\|', ler(P01), re.M)
+    _MAE95 = []
+    for _fx, _v in (zip(_mq95.group(1).split('|'), _mq95.group(2).split('|')) if _mq95 else []):
+        _ab = re.match(r'\s*(\d+)[–-](\d+)\s*$', _fx)
+        if _ab and _v.strip().isdigit():
+            _MAE95.append((int(_ab.group(1)), int(_ab.group(2)), int(_v)))
+    _mt95 = re.search(r'teto `\d+` ali, e teto `(\d+)`', TXT)
+    _TETOC95 = int(_mt95.group(1)) if _mt95 else None
+    _mo95 = re.search(r'^\| marco \|([^\n]+)\|\n\|[-| ]+\|\n(?:\|[^\n]*\n)*?\| \*\*pontos de atributo\*\* \|([^\n]+)\|\n'
+                      r'\| \*\*pontos de atributo do chefe\*\* \|([^\n]+)\|', TXT, re.M)
+    _ORC95 = {}
+    if _mo95:
+        _mks = [int(x) for x in re.findall(r'nv (\d+)', _mo95.group(1))]
+        _pt = [int(x) for x in re.findall(r'`(\d+)`', _mo95.group(2))]
+        _pc = [int(x) for x in re.findall(r'`(\d+)`', _mo95.group(3))]
+        if _mks and len(_mks) == len(_pt) == len(_pc):
+            _ORC95 = {m_: (p_, c_) for m_, p_, c_ in zip(_mks, _pt, _pc)}
+    _NOMES95 = ('Força', 'Destreza', 'Constituição', 'Inteligência', 'Essência')
+    # a folga do chefe acima da curva e a diferenca entre as duas linhas do §3.2, e nao um 1 escrito aqui
+    _fg95 = {c_ - p_ for p_, c_ in _ORC95.values()}
+    _FOLGA95 = _fg95.pop() if len(_fg95) == 1 else None
+    if not _MAE95 or _TETOC95 is None or not _ORC95 or _FOLGA95 is None:
+        _ruins.append('nao li a maestria da peca 1 §2, o teto do §3.2, ou o orcamento por marco do §3.2 com a mesma folga de chefe em todo marco')
+
+    def _pontos95(nv, chefe):
+        _ms = [m_ for m_ in _ORC95 if m_ <= nv]
+        return (_BASE95 + (1 if chefe else 0)) if not _ms else _ORC95[max(_ms)][1 if chefe else 0]
+
+    def _mae95(nv):
+        return next((v_ for a_, b_, v_ in _MAE95 if a_ <= nv <= b_), None)
     if not _itens:
         _ruins.append('nao achei as PRONTAS no `dados.js` — a decisao da v0.161 pede maquina MAIS '
                       'prontas, e sem elas so existe a maquina')
@@ -1426,18 +1458,52 @@ else:
             _ruins.append(f'`{_nome}`: o arranjo {_ar.group(1)} nao e {_tot} pontos com teto {_TETO95}'
                           f'{" (chefe)" if _chefe else ""}')
             continue
+        # v0.235: o atributo de ataque, e os pontos de marco um por um, cada um com o atributo dele
+        _atq = re.search(r"ataque:\s*'([^']+)'", _it)
+        if not _atq or _atq.group(1) not in _NOMES95:
+            _ruins.append(f'`{_nome}` sem atributo de ataque, ou com um que nao e atributo — o acerto e a CD leem ele')
+            continue
+        _iat = _NOMES95.index(_atq.group(1))
         _mco = re.search(r'marcos:\s*\{([^}]*)\}', _it)
-        _mc = {int(k): v for k, v in re.findall(r"(\d+):\s*'(\w+)'", _mco.group(1))} if _mco else {}
+        _mc = []
+        if _mco:
+            if re.search(r"\d+:\s*'", _mco.group(1)):
+                _ruins.append(f'`{_nome}`: o marco guarda um atributo solto, e desde a v0.235 cada marco e uma lista')
+                continue
+            for _k, _ls in re.findall(r'(\d+):\s*\[([^\]]*)\]', _mco.group(1)):
+                _mc += [(int(_k), _a) for _a in re.findall(r"'([^']+)'", _ls)]
+        _fora = [f'{_k}: {_a}' for _k, _a in _mc if _a not in _NOMES95 or _k not in _ORC95]
+        if _fora:
+            _ruins.append(f'`{_nome}`: marco fora dos niveis do §3.2, ou atributo que nao existe ({", ".join(_fora)})')
+            continue
         _lo, _hi = map(int, _fa.group(1).split(' a '))
         for _nv in range(_lo, _hi + 1):
             _dv = next((d for d in _DER95 if d[0] <= _nv <= d[1]), None)
-            if not _dv:
-                _ruins.append(f'`{_nome}`: nenhuma linha de DERIVADAS cobre o nivel {_nv}'); break
-            _des = _arr[1] + sum(1 for m, at in _mc.items() if m <= _nv and at == 'Destreza')
+            _mae = _mae95(_nv)
+            if not _dv or _mae is None:
+                _ruins.append(f'`{_nome}`: nenhuma linha de DERIVADAS, ou da maestria, cobre o nivel {_nv}'); break
+            _at = [_arr[i] + sum(1 for m, a in _mc if m <= _nv and a == _NOMES95[i]) for i in range(5)]
+            _feitos, _devidos = sum(1 for m, _a in _mc if m <= _nv), _pontos95(_nv, _chefe) - _tot
+            if _feitos != _devidos:
+                _ruins.append(f'`{_nome}` no nivel {_nv}: {_feitos} ponto(s) de marco declarado(s), e o §3.2 da {_devidos}')
+                break
+            if max(_at) > _TETOC95:
+                _ruins.append(f'`{_nome}` no nivel {_nv}: um atributo passa do teto {_TETOC95} do §3.2')
+                break
             _obr = _dv[2] - _DBASE95 - (_dv[3] // _PROT95[0] + _PROT95[1])
-            if not (0 <= _des - _obr <= (1 if _chefe else 0)):
-                _ruins.append(f'`{_nome}` no nivel {_nv}: Destreza {_des}, e a Defesa da tabela pede {_obr}'
-                              f'{" (ou 1 a mais, de chefe)" if _chefe else ""}')
+            _obra = _dv[4] - _mae
+            _exd, _exa = _at[1] - _obr, _at[_iat] - _obra
+            if _exd < 0:
+                _ruins.append(f'`{_nome}` no nivel {_nv}: Destreza {_at[1]}, e a Defesa da tabela pede {_obr}')
+                break
+            if _exa < 0:
+                _ruins.append(f'`{_nome}` no nivel {_nv}: o atributo de ataque ({_NOMES95[_iat]}) e {_at[_iat]}, '
+                              f'e o acerto da tabela pede {_obra} com a maestria {_mae}')
+                break
+            _acima = _exd + (0 if _iat == 1 else _exa)
+            if _acima > ((_FOLGA95 or 0) if _chefe else 0):
+                _ruins.append(f'`{_nome}` no nivel {_nv}: {_acima} ponto(s) acima da curva na Destreza e no ataque, '
+                              + (f'e o chefe tem {_FOLGA95}, a diferenca das duas linhas do §3.2' if _chefe else 'e so o chefe pode ter'))
                 break
     # a guarda que importa: PRONTAS nao pode guardar NUMERO de ficha. Vida, dano,
     # acoes, golpe e capanga sao COMPUTADOS pelo make.js das FAIXAS e CATEGORIAS —
@@ -1471,6 +1537,7 @@ else:
               'e nenhuma guarda numero de ficha')
         print(f'  [x] os {len(_geradores)} geradores do livro do Bestiario devolvem os capitulos publicados ({", ".join(_geradores)})')
         print(f'  [x] os arranjos cabem na criacao ({_BASE95}, {_BASE95 + 1} no chefe, teto {_TETO95}), e a Destreza de cada nivel e a que a Defesa da tabela pede ({_DBASE95} + Destreza + protecao, o papel por fora)')
+        print(f'  [x] cada pronta declara o atributo de ataque, e ele da o acerto da tabela com a maestria da peca 1 §2; os pontos de marco somam o que o §3.2 da em cada nivel, com teto {_TETOC95}; e o chefe fica no maximo {_FOLGA95} acima da curva, a diferenca das duas linhas do §3.2')
 
 
 # 9.6 (v0.221): a area natural do inimigo — a cobertura sai do nivel, e cada forma

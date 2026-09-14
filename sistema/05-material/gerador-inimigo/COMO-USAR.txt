@@ -62,6 +62,14 @@ DUAS ESCADAS, E ELAS NAO COINCIDEM
   trecho — ate a v0.220 o bloco imprimia a linha do nivel de baixo para a faixa
   inteira, e isso estava errado no Hitotsume, no Oni e na Kitsune.
 
+A PRONTA DECLARA COM QUE ATRIBUTO ATACA, E ONDE ENTRA CADA PONTO DE MARCO
+  Desde a v0.235. `ataque` e o atributo que o acerto e a CD leem, e `marcos` e
+  uma lista por nivel de marco — { 6: ['Inteligência'], 10: ['Destreza',
+  'Essência'] }. Em cada nivel da faixa a Destreza tem de dar a Defesa da tabela
+  e o ataque tem de dar o acerto, com a maestria; so o chefe fica um ponto acima
+  da curva, e o make.js morre se nao fechar. Quantos pontos cada nivel da quem
+  confere e a 9.5 do conferir-bestiario.py, contra a peca 26 §3.2.
+
 O ARREDONDAMENTO E MEIO PARA BAIXO
   Os fatores 0,25 e 1,50 poem doze das sessenta e tres celulas desta escala
   exatamente em ,5. O Math.round do JS sobe e o round do Python vai para o par —

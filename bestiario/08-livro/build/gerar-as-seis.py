@@ -7,8 +7,8 @@ Nenhum número é digitado à mão. O script cruza os donos:
   · `04-fase-1/TABELA.md`        — vida, dano/rod, ações, golpe, Defesa, acerto, CD, refino
   · `03-bloco/RASCUNHO-5-...md`   — o `0,923`, o deslocamento, alcance e vizinho por
                                      tamanho, e a área natural por nível
-  · `gerador-inimigo/dados.js`    — o TEXTO das seis (as `PRONTAS`), o papel, os atributos, os
-                                     marcos e os dois TR treinados. Só escolha; número entra por
+  · `gerador-inimigo/dados.js`    — o TEXTO das seis (as `PRONTAS`), o papel, os atributos, o
+                                     ataque, os marcos e os dois TR treinados. Só escolha; número entra por
                                      marcador. E as FAIXAS, CATEGORIAS e PAPEIS, de onde sai a
                                      vida com o papel (Claude 2)
   · `gerador-inimigo/make.js`     — a função `dado()`, a ordem da conta do golpe, o fator do
@@ -172,11 +172,18 @@ PAPEL_MK = ('if (p[1] !== null) return { vida: p[1], defesa: p[2] };',
             "const ganha = p[3] === 'vantagem' ? (n - 1 + X.MULT_VANTAGEM) / n : 1 + 1 / n;",
             'return { vida: 1 / ganha, defesa: 0 };',
             'vida: esc(f[5], c[2] * fp.vida)',
-            'const obrig = dv[1] - 10 - protecao(dv[4]);',
-            'if (extra < 0 || extra > (c[4] ? 1 : 0)) {',
-            'const ch = [dv[1] + fp.defesa + extra, dv[2], dv[3], dv[4]];')
+            'const maestria = (nv) => Math.floor((nv - 2) / 8) + 1;',
+            'const exDes = at[1] - (dv[1] - 10 - protecao(dv[4]));',
+            'const exAtk = at[iAtk] - (dv[2] - maestria(nv));',
+            'const acima = exDes + (iAtk === 1 ? 0 : exAtk);',
+            'if (exDes < 0 || exAtk < 0 || acima > (c[4] ? 1 : 0)) {',
+            'const ch = [dv[1] + fp.defesa + exDes, dv[2] + exAtk, dv[3] + exAtk, dv[4]];')
 if not all(g in ler(MAKE) for g in PAPEL_MK):
-    morre('o fator do papel ou a Defesa pela Destreza mudaram de forma no make.js')
+    morre('o fator do papel, a Defesa pela Destreza ou o acerto pelo ataque mudaram de forma no make.js')
+
+
+def maestria(nv):                   # make.js: Math.floor((nv - 2) / 8) + 1 — a peça 1 §2 é a dona
+    return (nv - 2) // 8 + 1
 FAIXAS = {x[0]: x for x in do_dados('FAIXAS')}
 CATEGORIAS = {x[0]: x for x in do_dados('CATEGORIAS')}
 PAPEIS = {x[0]: x for x in do_dados('PAPEIS')}
@@ -353,15 +360,32 @@ for d in MAPA:
     fp = fator_papel(j.get('papel'), cc)
     vida = arred(fx[5] * cc[2] * fp['vida'])
     arr = [int(v) for v in j['arranjo'].split('·')]
-    marcos = {int(k): v for k, v in (j.get('marcos') or {}).items()}
+    # v0.235: o atributo de ataque, e os pontos de marco um por um, com o atributo de cada
+    ataque = j.get('ataque')
+    if ataque not in ATRIB:
+        morre('`%s`: o ataque `%s` não é um dos cinco atributos' % (nome, ataque))
+    marcos = []
+    for mk, ats in (j.get('marcos') or {}).items():
+        if not isinstance(ats, list) or any(a not in ATRIB for a in ats):
+            morre('`%s`: o marco %s tem de ser uma lista de atributos' % (nome, mk))
+        marcos += [(int(mk), a) for a in ats]
+
+    def at_nv(nv):
+        return [arr[i] + sum(1 for mk, a in marcos if mk <= nv and a == ATRIB[i]) for i in range(5)]
+
+    i_atk = ATRIB.index(ataque)
     niveis = []
     for nv in range(lo, hi + 1):
-        des = arr[1] + sum(1 for mk, at in marcos.items() if mk <= nv and at == 'Destreza')
-        tab = int(L[nv]['Defesa'])
-        extra = des - (tab - 10 - int(L[nv]['proteção'].lstrip('+')))
-        if not 0 <= extra <= (1 if tem_int else 0):
-            morre('`%s` no nível %d: a Destreza %d não dá a Defesa %d da tabela' % (nome, nv, des, tab))
-        niveis.append(tuple([str(tab + fp['defesa'] + extra)] + [L[nv][k] for k in DER[1:]]))
+        at = at_nv(nv)
+        tab, acerto, cd = int(L[nv]['Defesa']), int(L[nv]['acerto'].lstrip('+')), int(L[nv]['CD'])
+        ex_des = at[1] - (tab - 10 - int(L[nv]['proteção'].lstrip('+')))
+        ex_atk = at[i_atk] - (acerto - maestria(nv))
+        acima = ex_des + (0 if i_atk == 1 else ex_atk)
+        if ex_des < 0 or ex_atk < 0 or acima > (1 if tem_int else 0):
+            morre('`%s` no nível %d: a Destreza %d e o ataque %d não dão a Defesa %d e o acerto +%d da tabela'
+                  % (nome, nv, at[1], at[i_atk], tab, acerto))
+        niveis.append((str(tab + fp['defesa'] + ex_des), '+%d' % (acerto + ex_atk), str(cd + ex_atk),
+                       L[nv]['refino'], L[nv]['proteção']))
     seg = []
     for nv, chave in zip(range(lo, hi + 1), niveis):
         if seg and seg[-1][2] == chave:
@@ -412,11 +436,16 @@ for d in MAPA:
     treinados = [t for t in TR_TODOS if t in trs_txt]
     if len(vals) != 5 or len(treinados) != 2:
         morre('atributos ou TR de `%s` mudaram de forma no dados.js' % nome)
-    # o marco que muda um atributo dentro da faixa aparece junto dele, como no gerador
-    sobe = {at: mk for mk, at in marcos.items() if at in ATRIB}
-    atr = ' · '.join('**%s** `%s`%s%s' % (a, v, (' (`%d` do nível %d)' % (int(v) + 1, sobe[a])) if a in sobe else '',
-                                        ' *(Iniciativa)*' if a == 'Destreza' else '')
-                     for a, v in zip(ATRIB, vals))
+    # o atributo é o do começo da faixa, e o marco que muda ele dentro da faixa aparece junto dele,
+    # como no gerador. v0.235: o de ataque diz que é dele que saem o acerto e a CD
+
+    def celula(i):
+        sobe = ['`%d` do nível %d' % (at_nv(nv)[i], nv) for nv in range(lo + 1, hi + 1)
+                if at_nv(nv)[i] != at_nv(nv - 1)[i]]
+        marca = [x for x, ok in (('Iniciativa', i == 1), ('acerto e CD', i == i_atk)) if ok]
+        return '**%s** `%d`%s%s' % (ATRIB[i], at_nv(lo)[i], ' (%s)' % '; '.join(sobe) if sobe else '',
+                                    ' *(%s)*' % ', '.join(marca) if marca else '')
+    atr = ' · '.join(celula(i) for i in range(5))
     trs = ' · '.join('**%s** %s' % (t, 'treinado' if t in treinados else '—') for t in TR_TODOS)
     corpo = (' · %s corpos' % NUM[d['corpos']]) if d['corpos'] > 1 else ''
     pap = (' · %s' % j['papel']) if j.get('papel') else ''

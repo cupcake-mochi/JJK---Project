@@ -117,6 +117,9 @@ function derivada(nv) {
 }
 // a protecao anda junto do refino — peca 11 §6: um terco do refino, mais um
 const protecao = (refino) => Math.floor(refino / 3) + 1;
+// a maestria — peca 1 §2: 1 do nivel 2 ao 9, e +1 a cada oito niveis
+const maestria = (nv) => Math.floor((nv - 2) / 8) + 1;
+const NOMES_AT = ['Força', 'Destreza', 'Constituição', 'Inteligência', 'Essência'];
 
 function titulo(sub) {
   return [
@@ -257,21 +260,33 @@ function montaPronta(p) {
   if (arr.some((x) => x > 3) || arr.reduce((s, x) => s + x, 0) !== (c[4] ? 10 : 9)) {
     throw new Error(`${p.nome}: o arranjo ${p.arranjo} nao e ${c[4] ? 'dez' : 'nove'} pontos com teto 3`);
   }
+  // v0.235: a pronta declara o atributo de ataque, e cada ponto de marco com o atributo dele
+  const iAtk = NOMES_AT.indexOf(p.ataque);
+  if (iAtk < 0) throw new Error(`${p.nome}: o ataque "${p.ataque}" nao e um dos cinco atributos`);
+  const pontosMarco = Object.entries(p.marcos || {}).flatMap(([mk, ats]) => {
+    if (!Array.isArray(ats)) throw new Error(`${p.nome}: o marco ${mk} tem de ser uma lista de atributos`);
+    return ats.map((a) => {
+      if (!NOMES_AT.includes(a)) throw new Error(`${p.nome}: o marco ${mk} leva "${a}", que nao e atributo`);
+      return [Number(mk), a];
+    });
+  });
+  const atNv = (nv) => arr.map((v, i) => v + pontosMarco.filter(([mk, a]) => mk <= nv && a === NOMES_AT[i]).length);
   const fp = fatorPapel(p.papel, c);
   const [lo, hi] = [f[1], f[2]];
   const seg = [];
   for (let nv = lo; nv <= hi; nv++) {
     const dv = derivada(nv);
     // v0.234: a Defesa sai do arranjo — 10 + Destreza + proteção, e o papel por fora (peça 26 §3.4).
-    // A Destreza tem de ser a que a tabela pede; só o chefe pode ter 1 a mais, e aí a Defesa sobe sem preço.
-    const desNv = Number(p.arranjo.split('·')[1]) + Object.entries(p.marcos || {})
-      .filter(([m, atr]) => Number(m) <= nv && atr === 'Destreza').length;
-    const obrig = dv[1] - 10 - protecao(dv[4]);
-    const extra = desNv - obrig;
-    if (extra < 0 || extra > (c[4] ? 1 : 0)) {
-      throw new Error(`${p.nome} no nivel ${nv}: Destreza ${desNv}, e a Defesa da tabela pede ${obrig}${c[4] ? ' (ou 1 a mais, de chefe)' : ''}`);
+    // v0.235: o acerto e a CD saem do atributo de ataque, com a maestria. Os dois têm de ser os da
+    // curva; só o chefe pode ter 1 a mais, e é um ponto só, na Destreza ou no ataque.
+    const at = atNv(nv);
+    const exDes = at[1] - (dv[1] - 10 - protecao(dv[4]));
+    const exAtk = at[iAtk] - (dv[2] - maestria(nv));
+    const acima = exDes + (iAtk === 1 ? 0 : exAtk);
+    if (exDes < 0 || exAtk < 0 || acima > (c[4] ? 1 : 0)) {
+      throw new Error(`${p.nome} no nivel ${nv}: Destreza ${at[1]} e ${p.ataque} ${at[iAtk]}, e a tabela pede ${dv[1] - 10 - protecao(dv[4])} e ${dv[2] - maestria(nv)}${c[4] ? ' (ou 1 a mais num deles, de chefe)' : ''}`);
     }
-    const ch = [dv[1] + fp.defesa + extra, dv[2], dv[3], dv[4]];
+    const ch = [dv[1] + fp.defesa + exDes, dv[2] + exAtk, dv[3] + exAtk, dv[4]];
     const u = seg[seg.length - 1];
     if (u && u[2].join('|') === ch.join('|')) u[1] = nv; else seg.push([nv, nv, ch]);
   }
@@ -310,7 +325,7 @@ function montaPronta(p) {
   if (c[4] !== (p.intervencoes.length > 0) || (c[4] && p.intervencoes.length !== X.INTERVENCOES)) {
     throw new Error(`${p.nome} (${c[0]}) com ${p.intervencoes.length} Intervencoes`);
   }
-  return { f, c, lo, hi, seg, alcance, g, enche, vida: esc(f[5], c[2] * fp.vida) };
+  return { f, c, lo, hi, seg, alcance, g, enche, atNv, iAtk, vida: esc(f[5], c[2] * fp.vida) };
 }
 
 function blocoPronto(p) {
@@ -332,12 +347,14 @@ function blocoPronto(p) {
   // alcance junto (`Bestiario/04-fase-1/fila/DECIDIDO-as-tres-respostas-da-passada.md` §1)
   out.push(stat('', `**Vida** \`${m.vida}\` · **Integridade** \`${integridadeDe(m.vida)}\` · **Deslocamento** \`${X.DESLOCAMENTO}\`${mov}`));
   out.push(regra(C.linha));
-  const at = p.arranjo.split('·').map((s) => s.trim());
-  // o marco que muda um atributo dentro da faixa aparece na célula, como a Defesa por marco
-  const NOMES_AT = ['Força', 'Destreza', 'Constituição', 'Inteligência', 'Essência'];
-  Object.entries(p.marcos || {}).forEach(([m, atr]) => {
-    const i = NOMES_AT.indexOf(atr);
-    if (i >= 0) at[i] = `${at[i]} (${Number(at[i]) + 1} do nível ${m})`;
+  // o atributo é o do começo da faixa, e o marco que muda ele dentro da faixa aparece na célula, como
+  // a Defesa por marco. v0.235: o de ataque diz que é dele que saem o acerto e a CD
+  const at = m.atNv(m.lo).map((v, i) => {
+    const sobe = [];
+    for (let nv = m.lo + 1; nv <= m.hi; nv++) {
+      if (m.atNv(nv)[i] !== m.atNv(nv - 1)[i]) sobe.push(`${m.atNv(nv)[i]} do nível ${nv}`);
+    }
+    return `${v}${sobe.length ? ` (${sobe.join('; ')})` : ''}${i === m.iAtk ? ', acerto e CD' : ''}`;
   });
   out.push(TBL(['FOR', 'DES', 'CON', 'INT', 'ESS'], [at], [20, 20, 20, 20, 20], { centerCols: [0, 1, 2, 3, 4] }));
   out.push(regra(C.linha));

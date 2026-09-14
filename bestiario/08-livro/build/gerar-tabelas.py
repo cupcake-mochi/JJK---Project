@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-"""Gera as tabelas do capítulo 6 a partir da `04-fase-1/TABELA.md`.
+"""Gera as tabelas do capítulo 6 a partir da `04-fase-1/TABELA.md`, e o pagamento dos papéis
+a partir da peça 26 §3.4.
 
 Nenhum número é digitado à mão neste livro. Este script lê a escada viva no
 documento DONO, confere que ela colapsa em faixa (senão a tabela impressa seria
@@ -310,8 +311,38 @@ for nv_ in ('Leve', 'Média', 'Pesada'):
                % (nv_, CUSTO[nv_], ('%.1f' % sobra).replace('.', ',')))
 orcamento = '\n'.join(orc)
 
+# ── 5. o pagamento dos três papéis que pagam pela categoria (v0.235)
+#
+# ⚠ Até a v0.234 esta tabela era ESTÁTICA no capítulo, e só com o `Emboscador`: quem lia o livro
+#   não refazia a vida do `Controlador` e do `Reforço`, e a linha do `Capanga` saía junto com a da
+#   `Ameaça`, em `0,677` — a peça 26 §3.4 dá `0,944`, porque o esquadrão age oito vezes.
+CAB_PAG = '| categoria | ações | `Emboscador` ganha | e paga | `Controlador` e `Reforço` ganham | e pagam |'
+if CAB_PAG not in t26:
+    morre('a tabela do pagamento por categoria sumiu do §3.4 da peça 26')
+PAG = {}
+for ln in t26.split(CAB_PAG)[1].split('\n')[2:]:
+    if not ln.startswith('|'):
+        break
+    c_ = [x.strip() for x in ln.strip().strip('|').split('|')]
+    mc = re.match(r'`([^`]+)`$', c_[0]) if len(c_) == 6 else None
+    ma = re.match(r'`(\d+)`', c_[1]) if mc else None
+    me = re.match(r'`× ([\d,]+)`$', c_[3]) if mc else None
+    mr = re.match(r'`× ([\d,]+)`$', c_[5]) if mc else None
+    if not (mc and ma and me and mr):
+        morre('a linha %r do pagamento da peça 26 mudou de forma' % ln)
+    PAG[mc.group(1)] = (int(ma.group(1)), me.group(1), mr.group(1))
+if list(PAG) != list(CATS):
+    morre('o pagamento da peça 26 não traz as cinco categorias, na ordem (li %s)' % list(PAG))
+pag = ['**Vida do papel, por categoria**', '{: .tab-titulo }', '',
+       '| categoria | `Emboscador` | `Controlador` e `Reforço` |', '|---|---|---|']
+for c_ in CATS:
+    pag.append('| `%s` | `× %s` | `× %s` |' % (c_, PAG[c_][1], PAG[c_][2]))
+pag += ['', '*A linha do `Capanga` conta as `%d` ações do esquadrão, e não a de um corpo.*' % PAG['Capanga'][0]]
+pagamento = '\n'.join(pag)
+MARCA_PAG, FIM_PAG = '<!-- PAGAMENTO -->', '<!-- FIM PAGAMENTO -->'
+
 cap = ler(CAP)
-for mk in (MARCA, '<!-- FIM TABELAS -->', MARCA_ORC, '<!-- FIM ORCAMENTO -->'):
+for mk in (MARCA, '<!-- FIM TABELAS -->', MARCA_ORC, '<!-- FIM ORCAMENTO -->', MARCA_PAG, FIM_PAG):
     if mk not in cap:
         morre('a marca `%s` sumiu do capítulo 6' % mk)
 inicio = cap.index(MARCA)
@@ -320,6 +351,8 @@ novo = cap[:inicio] + MARCA + '\n\n' + tabelas + '\n\n' + cap[fim:]
 i2 = novo.index(MARCA_ORC)
 f2 = novo.index('<!-- FIM ORCAMENTO -->')
 novo = novo[:i2] + MARCA_ORC + '\n\n' + orcamento + '\n\n' + novo[f2:]
+i3, f3 = novo.index(MARCA_PAG), novo.index(FIM_PAG)
+novo = novo[:i3] + MARCA_PAG + '\n\n' + pagamento + '\n\n' + novo[f3:]
 _novo = novo
 # v0.234: `--conferir` compara sem escrever. O capítulo 8 passou dez versões atrás do gerador
 # de inimigo sem nenhum validador ver, e o conferir-bestiario.py roda os quatro assim.
@@ -335,6 +368,7 @@ print('  %d faixas de Classe  ·  %d marcos de nível  ·  %d categorias'
 print('  faixas : ' + ' · '.join(rot(a, b) for a, b in faixas))
 print('  marcos : ' + ' · '.join(rot(a, b) for a, b in marcos))
 print('✓ a escada colapsa, e as duas não coincidem.')
+print('✓ o pagamento de `Emboscador`, `Controlador` e `Reforço` saiu da peça 26 §3.4, nas %d categorias.' % len(PAG))
 print('✓ golpe de %s impresso com o fator %.3f, pela conta do make.js.'
       % (' · '.join(COM_INT), FAT_INT))
 for x in MEIO:

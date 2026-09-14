@@ -75,26 +75,33 @@ O golpe não muda em nenhum papel, e a Destreza também não: ela é a que a `Or
 por marco` pede, no capítulo 5. O `−2` do `Brutamontes` e o `+2` do `Baluarte` entram direto na
 Defesa.
 
-## Pagamento do `Emboscador`
+## Pagamento por categoria
 
-O pagamento dele muda com a categoria.
+O `Emboscador`, o `Controlador` e o `Reforço` pagam em vida, e quanto eles pagam muda com a
+categoria.
 
-**Vida do `Emboscador`, por categoria**
+<!-- PAGAMENTO -->
+
+**Vida do papel, por categoria**
 {: .tab-titulo }
 
-| categoria | vida × |
-|---|---|
-| `Capanga` e `Ameaça` | `0,677` |
-| `Desastre` | `0,863` |
-| `Catástrofe` | `0,913` |
-| `Calamidade` | `0,927` |
+| categoria | `Emboscador` | `Controlador` e `Reforço` |
+|---|---|---|
+| `Capanga` | `× 0,944` | `× 0,889` |
+| `Ameaça` | `× 0,677` | `× 0,500` |
+| `Desastre` | `× 0,863` | `× 0,750` |
+| `Catástrofe` | `× 0,913` | `× 0,833` |
+| `Calamidade` | `× 0,927` | `× 0,857` |
+
+*A linha do `Capanga` conta as `8` ações do esquadrão, e não a de um corpo.*
+
+<!-- FIM PAGAMENTO -->
 
 > Use a linha da categoria do bicho, e não um número só desta tabela.
 
 ## Papel por categoria
 
-O `Capanga` toma quatro papéis: `Artilheiro`, `Emboscador`, `Reforço` e `Controlador`. O
-`Controlador` num esquadrão conta as oito ações do esquadrão, e não a de um corpo.
+O `Capanga` toma quatro papéis: `Artilheiro`, `Emboscador`, `Reforço` e `Controlador`.
 
 `Brutamontes` e `Baluarte` ficam fora do `Capanga`. O `Brutamontes`, porque um `Capanga` que não cai
 num golpe é uma `Ameaça`.

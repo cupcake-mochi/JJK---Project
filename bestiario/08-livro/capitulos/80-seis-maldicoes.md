@@ -33,7 +33,7 @@ No folclore japonês, o Betobeto é um som de passos que acompanha quem anda soz
 >
 > **Vida** `19` · **Integridade** `9` · **Deslocamento** `9 m`
 >
-> **Força** `0` · **Destreza** `3` *(Iniciativa)* · **Constituição** `1` · **Inteligência** `2` · **Essência** `3`
+> **Força** `0` · **Destreza** `3` *(Iniciativa)* · **Constituição** `1` · **Inteligência** `2` · **Essência** `3` *(acerto e CD)*
 >
 > **Físico** treinado · **Vigor** — · **Intelecto** — · **Espírito** treinado
 >
@@ -61,7 +61,7 @@ No folclore japonês, a kamaitachi é um trio de doninhas que corre dentro de um
 >
 > **Vida** `19` · **Integridade** `9` · **Deslocamento** `9 m`
 >
-> **Força** `3` · **Destreza** `3` *(Iniciativa)* · **Constituição** `2` · **Inteligência** `1` · **Essência** `0`
+> **Força** `3` · **Destreza** `3` *(Iniciativa, acerto e CD)* · **Constituição** `2` · **Inteligência** `1` · **Essência** `0`
 >
 > **Físico** treinado · **Vigor** treinado · **Intelecto** — · **Espírito** —
 >
@@ -89,7 +89,7 @@ No folclore japonês, a Tsuchigumo é a aranha gigante que o guerreiro Minamoto 
 >
 > **Vida** `85` · **Integridade** `42` · **Deslocamento** `9 m` · **Escalada** `9 m`
 >
-> **Força** `3` · **Destreza** `3` *(Iniciativa)* · **Constituição** `3` · **Inteligência** `1` · **Essência** `0`
+> **Força** `3` *(acerto e CD)* · **Destreza** `3` *(Iniciativa)* · **Constituição** `3` · **Inteligência** `1` · **Essência** `0`
 >
 > **Físico** treinado · **Vigor** treinado · **Intelecto** — · **Espírito** —
 >
@@ -127,15 +127,15 @@ No folclore japonês, o hitotsume-kozō é um menino careca de um olho só que s
 
 > ### Hitotsume
 >
-> *Maldição Média · **Ameaça** · Artilheiro · nível 5 a 8*
+> *Maldição Média · **Ameaça** · Emboscador · nível 5 a 8*
 >
 > *nível 5* · **Defesa** `14` · **Acerto** `+4` · **CD** `12` · **Refino** `1` *(proteção `+1`)*
 >
 > *nível 6 a 8* · **Defesa** `15` · **Acerto** `+4` · **CD** `12` · **Refino** `3` *(proteção `+2`)*
 >
-> **Vida** `58` · **Integridade** `29` · **Deslocamento** `9 m`
+> **Vida** `46` · **Integridade** `23` · **Deslocamento** `9 m`
 >
-> **Força** `0` · **Destreza** `3` *(Iniciativa)* · **Constituição** `2` · **Inteligência** `1` · **Essência** `3`
+> **Força** `0` · **Destreza** `3` *(Iniciativa)* · **Constituição** `2` (`3` do nível 6) · **Inteligência** `1` · **Essência** `3` *(acerto e CD)*
 >
 > **Físico** — · **Vigor** — · **Intelecto** treinado · **Espírito** treinado
 >
@@ -165,7 +165,7 @@ No folclore japonês, a kitsune é a raposa que aprende a tomar forma humana e a
 >
 > **Vida** `84` · **Integridade** `42` · **Deslocamento** `9 m`
 >
-> **Força** `0` · **Destreza** `3` (`4` do nível 10) *(Iniciativa)* · **Constituição** `1` · **Inteligência** `2` · **Essência** `3`
+> **Força** `0` · **Destreza** `3` (`4` do nível 10) *(Iniciativa)* · **Constituição** `1` · **Inteligência** `3` · **Essência** `3` (`4` do nível 10) *(acerto e CD)*
 >
 > **Físico** — · **Vigor** — · **Intelecto** treinado · **Espírito** treinado
 >
@@ -193,11 +193,11 @@ No folclore japonês, o oni tem chifres, pele vermelha ou azul, e carrega um kan
 >
 > *nível 5* · **Defesa** `12` · **Acerto** `+4` · **CD** `12` · **Refino** `1` *(proteção `+1`)*
 >
-> *nível 6 a 8* · **Defesa** `13` · **Acerto** `+4` · **CD** `12` · **Refino** `3` *(proteção `+2`)*
+> *nível 6 a 8* · **Defesa** `13` · **Acerto** `+5` · **CD** `13` · **Refino** `3` *(proteção `+2`)*
 >
 > **Vida** `324` · **Integridade** `162` · **Deslocamento** `9 m`
 >
-> **Força** `3` · **Destreza** `3` *(Iniciativa)* · **Constituição** `3` · **Inteligência** `0` · **Essência** `1`
+> **Força** `3` (`4` do nível 6) *(acerto e CD)* · **Destreza** `3` *(Iniciativa)* · **Constituição** `3` · **Inteligência** `0` · **Essência** `1`
 >
 > **Físico** treinado · **Vigor** treinado · **Intelecto** — · **Espírito** —
 >
@@ -211,9 +211,9 @@ No folclore japonês, o oni tem chifres, pele vermelha ou azul, e carrega um kan
 >
 > **Ações Múltiplas.** O Oni faz três ataques de Kanabō, ou usa Pancada no Chão e faz dois ataques de Kanabō.
 >
-> **Kanabō.** *Ataque corpo a corpo:* `+4` para acertar, alcance `3 m`, uma criatura. *Acerto:* `12 (2d4 + 7)` de dano de Concussão, e metade desse dano em um vizinho do alvo.
+> **Kanabō.** *Ataque corpo a corpo:* `+4` (`+5` no nível 6 a 8) para acertar, alcance `3 m`, uma criatura. *Acerto:* `12 (2d4 + 7)` de dano de Concussão, e metade desse dano em um vizinho do alvo.
 >
-> **Pancada no Chão.** *Teste de Resistência Físico:* CD `12`, cada criatura numa `Esfera` de raio `3 m` a partir do corpo dele. *Falha:* `12 (2d4 + 7)` de dano de Concussão. *Sucesso:* metade do dano.
+> **Pancada no Chão.** *Teste de Resistência Físico:* CD `12` (`13` no nível 6 a 8), cada criatura numa `Esfera` de raio `3 m` a partir do corpo dele. *Falha:* `12 (2d4 + 7)` de dano de Concussão. *Sucesso:* metade do dano.
 >
 > **Intervenções**
 >
@@ -221,7 +221,7 @@ No folclore japonês, o oni tem chifres, pele vermelha ou azul, e carrega um kan
 >
 > **1. Kanabō.** O Oni faz um ataque de Kanabō. Esse ataque não pega o vizinho.
 >
-> **2. Arremesso.** *Teste de Resistência Físico:* CD `12`, uma criatura a até `3 m` dele. *Falha:* o alvo é jogado num espaço livre a até `9 m` do Oni e fica `Derrubado`. O arremesso não causa dano.
+> **2. Arremesso.** *Teste de Resistência Físico:* CD `12` (`13` no nível 6 a 8), uma criatura a até `3 m` dele. *Falha:* o alvo é jogado num espaço livre a até `9 m` do Oni e fica `Derrubado`. O arremesso não causa dano.
 >
 > **3. Parede Abaixo.** O Oni derruba uma parede, pilar ou divisória a até `3 m` dele. Ela para de dar cobertura, e os quadrados onde ela estava viram terreno difícil até o fim da luta.
 
