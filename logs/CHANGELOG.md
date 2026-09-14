@@ -8,6 +8,33 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.238] — 14/09/2026
+
+**O `B18` fechou no repositório da ficha.** *O `Ficha.gs` passou a sair da `ficha-v01`, que é a cópia da planilha viva, e os dezesseis validadores de lá passam.* **Nada deste repositório de regra mudou, fora a fila.**
+
+### 1 · O que foi feito lá, no clone `Claude 3`
+
+- **O gerador antigo da pasta `ficha/` foi aposentado.** *Ele estava dez versões atrás da planilha, e o `Ficha.gs` que ele gerava montava uma ficha antiga.*
+- **Três limpezas novas no extrator:** *os três campos de dano e o equipamento voltam vazios no molde; o Arial que sobra vira a fonte de corpo; e o carimbo de versão, que o Sheets em português leu como `104`, volta a ser `0.104`.* **O emissor passou a escrever texto com cara de número com apóstrofo**, *senão o próprio `Ficha.gs` recriava o erro.*
+- **Duas decisões da ficha foram atualizadas com ele.** *A lista de abas é a da planilha viva — sobre a `MESA` e a `QUEM É`: "Ainda vamos manter sem, por enquanto" —, e o Evocador voltou ao menu de Caminhos.*
+
+### 2 · O teste da Kaori confirmava o gerador errado
+
+**O `regressao-kaori-na-ficha.py` esperava Integridade `28` e CD `13`.** *São as fórmulas que este repositório aposentou na v0.145 e na v0.117, e o gerador antigo da ficha estava nelas também: o teste passava porque os dois tinham envelhecido juntos.* **Hoje ele lê a planilha viva e espera `26` e `12`, que é a tabela `Números da Kaori` do livro.** *É a lição nº 9 atravessando repositório.*
+
+### Alterado
+
+- **A fila do `ESTADO-ATUAL`:** *o item 5 fechado.*
+
+### Achado e não consertado
+
+- **O `Ficha.gs` novo ainda não rodou no Sheets.** *Daqui se confere a metade de dados dele; o `construir()` continua apagando todas as abas, e tem de rodar numa planilha nova.*
+- **As abas `INVOCAÇÃO` e `CATÁLOGO` passam da largura de notebook que a ficha pede.** *Elas são do gerador da invocação, e o validador da ficha só imprime a largura delas.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
+
+---
+
 ## [0.237] — 14/09/2026
 
 **O Bestiário ganhou a capa do Projeto M, e a coluna única dos dois livros parou de deixar página em branco antes de caixa longa.** *E a ficha viva chegou exportada: o `B18` andou no outro repositório.*
