@@ -47,6 +47,8 @@ TAMANHO = 'Médio'
 PAPEL_ESCOLHIDO = 'Artilheiro'
 # v0.230: os pontos livres, por decisao do Mizuki — a Forca nao faz nada para ele
 COR = {'Força': 0, 'Constituição': 2, 'Inteligência': 2}
+# v0.231: o braço empata se cair com duas rodadas de luta pela frente — decisão do Mizuki
+BRACO_RODADAS = 2
 
 _cache = {}
 
@@ -717,6 +719,34 @@ linha(f'  dentro do Santuário           cada criatura no raio de {RAIO_SEM} m')
 linha(f'  o encontro                    {PESSOAS} × {MULT_SEM:.2f} da Expansão × {FATOR_REC:.2f} da Recarga = {PESSOAS * MULT_SEM * FATOR_REC:.1f} pessoas')
 
 # ────────────────────────────────────────────────────────────────────────────
+bloco('A EXTENSÃO DE DOMÍNIO E OS QUATRO BRAÇOS — a aptidão na cota, e o braço no empate')
+# ────────────────────────────────────────────────────────────────────────────
+import math
+P11 = 'sistema/03-mecanica/11-aptidoes-e-refino.md'
+LIVRO40 = 'sistema/05-material/livro/manual/40-fundamento.md'
+MULT_EXT = n(pega(P11, r'custa `([\d,]+) × a sua maior Classe` de PE por rodada — e enquanto ela estiver de pé, você não usa a sua técnica', 'o custo da Extensão de Domínio').group(1))
+_teto = pega(P11, r'anulado até `1/(\d+) do refino \+ (\d+)`', 'o teto do que a Extensão anula')
+pega(P11, r'Dura `refino` rodadas', 'a duração da Extensão')
+CAMBIO_PE = n(pega(P26, r'`1` PE por rodada = `([\d,]+)` da cota', 'o câmbio de PE para a cota').group(1))
+_cls_nv = [(int(c), int(nv)) for c, nv in re.findall(r'^\| \*\*(\d)\*\* \| (\d+) \|', ler(LIVRO40), re.M)]
+MAIOR_CLS = max(c for c, nv in _cls_nv if nv <= NIVEL)
+PE_EXT = math.ceil(MULT_EXT * MAIOR_CLS)                       # o que se paga sobe
+CUSTO_EXT = PE_EXT * CAMBIO_PE
+TETO_EXT = base['refino'] // int(_teto.group(1)) + int(_teto.group(2))
+GOLPE_EXT = (dm - CUSTO_EXT) / ac
+_txt_ext, _med_ext, _pct_ext = em_dado(GOLPE_EXT)
+linha(f'  Extensão de Domínio           {MULT_EXT} × Classe {MAIOR_CLS} = {PE_EXT} PE por rodada ligada × {CAMBIO_PE} = {CUSTO_EXT:.1f} da cota ({CUSTO_EXT / dm:.0%})')
+linha(f'  enquanto ligada               sem técnica; o golpe cai de {med:.0f} para `{_txt_ext}` = {_med_ext:.0f}')
+linha(f'  anula o que encosta até       Classe {TETO_EXT} (Classe Passiva, Regra Própria ou feitiço) · dura até {base["refino"]} rodadas')
+ACERTO_CORPO = COR['Força'] + maestria
+linha(f'  o ataque de corpo, sem técnica  Força {COR["Força"]} + maestria {maestria:.0f} = +{ACERTO_CORPO:.0f}   — peça 1 §5: corpo a corpo lê a Força')
+linha()
+LUTA_BRACO = n(pega(P26, r'contra as `(\d+,\d+)` que a categoria promete', 'a luta que a categoria promete').group(1))
+VIDA_BRACO = round(v / LUTA_BRACO * BRACO_RODADAS / ac)
+linha(f'  Quatro Braços                 o grupo tira {v / LUTA_BRACO:.0f} por rodada; um braço tira 1 das {ac} ações')
+linha(f'  a vida de um braço            {v / LUTA_BRACO:.0f} × {BRACO_RODADAS} rodadas ÷ {ac} ações = {VIDA_BRACO}   — empata se ele cai com {BRACO_RODADAS} rodadas pela frente')
+
+# ────────────────────────────────────────────────────────────────────────────
 bloco('AS AÇÕES DELE — cada uma montada no orçamento DELA')
 # ────────────────────────────────────────────────────────────────────────────
 RECARGA_ROT = pega(BLOCO, r'\*\*`(Recarga \(\d-\d\))`\*\*', 'o rótulo de recarga', BEST).group(1)
@@ -854,6 +884,7 @@ confere('o orçamento passa do piso', pontos >= PISO_PONTOS,
 confere('os pontos livres fecham', COR_FECHA, ' · '.join(f'{k} {v_}' for k, v_ in COR.items()))
 confere('a Chama tem dois terços em dado', abs(_pct_ch - 2 / 3) < 0.05,
         f'`{_txt_ch}` = {CHAMA}  ·  {_pct_ch:.0%} em dado')
+confere('a Extensão cabe na cota', CUSTO_EXT < dm, f'{CUSTO_EXT:.1f} de {dm:.0f}  ·  golpe ligado {_med_ext:.0f}')
 confere('o Santuário cabe no gate', REFINO_SANT >= GATE_SEM,
         f'refino {REFINO_SANT}  ·  gate {GATE_SEM}' + ('' if FATOR_DESVIO == 1 else f'  ·  desvio × {FATOR_DESVIO:.2f}'))
 confere('o Santuário cobre a luta', DURACAO >= LUTA, f'{DURACAO} rodadas  ·  luta {LUTA:.2f}')

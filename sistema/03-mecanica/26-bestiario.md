@@ -105,6 +105,10 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 | `Controlador` | uma ação do grupo negada | vida crua, pela tabela abaixo | `1,000` |
 | `Reforço` | o mesmo câmbio do `Controlador`, gasto em outro bloco | vida crua, pela tabela abaixo | `1,000` |
 
+> **O ataque do `Artilheiro` alcança `18 m`, em todo nível.** *É o dobro do deslocamento da peça 3, e é o que obriga quem luta de perto a gastar uma rodada para chegar: anda `9 m` e corre mais `9 m`, sem atacar.*
+
+***Decisão do Mizuki, v0.231:*** *"Com base no nível, acho q seria o ideal. N? Se n, mantem semelhante a player, um valor fixo, mesmo".* **Por nível não fecha:** *o deslocamento não cresce com o nível, e o Projétil da Classe da ação cairia em `9 m` enquanto o inimigo não monta feitiço — ali o personagem anda e bate no mesmo turno, e o `Artilheiro` pagaria vida sem ganhar nada.* **O Draw Steel dá à Artilharia a mesma razão:** *mediana de alcance `10` contra deslocamento `5` do herói, nas `42` fichas, na `bestiario/04-fase-1/papel/MEDIDA-o-alcance-do-artilheiro.md`.*
+
 **Nenhum dos seis sobe o dano por rodada, e isso não é sobra: é o que mantém a régua funcionando.** *`o golpe` — a fatia da vida de um personagem que um golpe leva — é a grandeza que o modelo do Bestiário vigia por cima, e ele vigia justamente porque ela não tem para onde subir.* **Papel que pagasse em dano moveria essa fatia** — *foi o que derrubou a primeira forma do `Controlador`, que cortava um terço do dano e jogava o golpe abaixo do piso em quatro de quatro categorias.* **Pagando em vida, a fatia não se move e a pergunta nem se abre.**
 
 **Os dois que variam com a categoria variam porque o preço deles é uma ação, e ações são declaradas pelo §4.2.** *Negar uma ação de quem tem uma vale o dobro de negar uma de quem tem seis.*
@@ -586,6 +590,7 @@ o fator = [disparos × aquela razão + (luta − disparos)] ÷ luta
 | **8** | **resistência é vida escondida.** Os pesos dos três grupos saem da peça 19 §4, os multiplicadores do §6.3 são recalculados de `1 ÷ (1 − o que se poupa)`, e a peça tem de declarar em que moeda a resistência se paga — desde a v0.221 o multiplicador do fator, e o declarado tem de ser o calculado. *Sem essa declaração ela é vida de graça, e a categoria passa a mentir sobre o encontro* |
 | **9** | **o câmbio do §6.5, nas três portas.** A `9.1` reconstrói as `35` células do orçamento de feitiço do golpe dividido pelo que um ponto vale, com o fator de quem carrega `Intervenção`, e cobra que o `seco` seja o piso da `Classe 1` do manual; a `9.2` reconstrói a conta da aptidão do custo que a peça 11 §6.5 publica, da maior Classe da peça 18 e do câmbio de PE da peça 5 §4; a `9.3` refaz os dois empates — o da cura e o dos alvos —, com a escada de ações lida da peça 19 e o tamanho do grupo lido da categoria de fator `1,00`; e a `9.4` cobra que cada porta declare a moeda. *Nenhum dos quatro números vive aqui dentro.* **Desde a v0.221, a `9.5` confere as seis prontas do gerador contra a escada, e a `9.6` a área natural contra a escada de esfera do manual** |
 | **10** | **o papel redistribui, e não acrescenta.** A `10.1` confere que ganha × paga fecha em `1,000` em toda célula que publica os dois lados; a `10.2` **reconstrói cada fator do documento dono** — a Defesa da peça 1 §5.2, a vantagem e a ação negada da peça 19 §2.2 — e compara com o publicado; a `10.3` confere que as ações do §3.4 são as do §4, com a exceção declarada do `Capanga`, que ali se lê por esquadrão. *Sem a `10.2`, o invariante da `10.1` passaria com dois números inventados que por acaso se multiplicam em um* |
+| **10.4** | **o alcance do `Artilheiro` é o dobro do deslocamento.** O metro publicado é a razão da Artilharia do Draw Steel vezes o deslocamento da peça 3, e a razão é a que a `MEDIDA` do Bestiário mede |
 | **7.1b** | **a Expansão de inimigo tem os gates do jogador, e a sem barreiras não muda o preço.** Os gates publicados são os do manual; no nível do gate a duração pela curva do `meio a meio` cobre a luta que a categoria promete, e o multiplicador abaixo dele é recalculado; a sem barreiras usa o mesmo `1,92`; a tabela do desvio de refino reconstrói da proteção da peça 11 e do §3.4; e a alavanca de manter o tamanho dividindo o dano não pode voltar |
 | **9.7** | **a `Recarga` come o turno, bate `2,5` golpes em cada alvo e se paga no fator.** O multiplicador vezes a banda do golpe do Bestiário dá a faixa publicada; os disparos saem do `d6` e da luta; a tabela do fator reconstrói das pessoas e das ações do §4 com a mesa do `Guia do Mestre`; a medição de campo é a da `MEDIDA` do Bestiário; o exemplo dos dados reconstrói da regra dos dois terços em `d12`; a frase do erro de travessia não volta; e o preço da Melhoria usa a maior Classe que cabe |
 
@@ -807,6 +812,17 @@ o fator = [disparos × aquela razão + (luta − disparos)] ÷ luta
 | a tabela do fator perde a `Ameaça` | acende | acende |
 | **contra-teste:** frase nova na subseção | fica verde | fica verde |
 | **contra-teste:** o multiplicador vira `3,0` com a faixa, o exemplo dos dados e a tabela refeitos | fica verde | fica verde |
+
+### 7.6 As cinco perturbações da v0.231, no alcance do `Artilheiro`
+
+| perturbação | esperado | deu |
+|---|---|---|
+| o `Artilheiro` vira `27 m` sozinho | acende | acende |
+| o deslocamento da peça 3 vira `12 m` | acende | acende |
+| a `MEDIDA` muda a mediana do Draw Steel para `15` | acende | acende |
+| a peça cita outra mediana | acende | acende |
+| some a frase do alcance | acende | acende |
+| **contra-teste:** a mediana, a citação e o alcance mudam juntos | fica verde | fica verde |
 
 ## 8. Em aberto
 

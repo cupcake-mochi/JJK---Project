@@ -207,7 +207,7 @@ capítulo que a explica.</p><h2 id="cap-vocabulario-peso">Peso</h2><p class="tab
 <td>exige oito, e nenhuma mesa tem oito</td>
 </tr>
 </tbody>
-</table><h2 id="cap-vocabulario-papel">Papel</h2><p class="sabor"><em>Como o inimigo luta. Ele redistribui o que a categoria deu. Capítulo 6, Passo 2.</em></p><p class="tab-titulo"><strong>Vocabulário de papel</strong></p><table class="tab"><colgroup><col style="width:25.20%"/><col style="width:74.80%"/></colgroup>
+</table><h2 id="cap-vocabulario-papel">Papel</h2><p class="sabor"><em>Como o inimigo luta. Ele redistribui o que a categoria deu. Capítulo 6, Passo 2.</em></p><p class="tab-titulo"><strong>Vocabulário de papel</strong></p><table class="tab"><colgroup><col style="width:25.33%"/><col style="width:74.67%"/></colgroup>
 <thead>
 <tr>
 <th>termo</th>
@@ -220,12 +220,12 @@ capítulo que a explica.</p><h2 id="cap-vocabulario-peso">Peso</h2><p class="tab
 <td><span class="ix-anc" id="ix-cap-vocabulario-defesa"></span>troca Defesa por vida</td>
 </tr>
 <tr>
-<td class="nome"><strong><code>Guardião</code></strong></td>
+<td class="nome"><strong><code>Baluarte</code></strong></td>
 <td>troca vida por Defesa</td>
 </tr>
 <tr>
 <td class="nome"><strong><code>Artilheiro</code></strong></td>
-<td>troca vida por alcance</td>
+<td>troca vida por alcance de <code>18 m</code></td>
 </tr>
 <tr>
 <td class="nome"><strong><code>Emboscador</code></strong></td>
@@ -236,8 +236,8 @@ capítulo que a explica.</p><h2 id="cap-vocabulario-peso">Peso</h2><p class="tab
 <td>troca dano por uma ação negada do grupo</td>
 </tr>
 <tr>
-<td class="nome"><strong><code>Apoio</code></strong></td>
-<td>troca o dano dele por ganho em outro bloco</td>
+<td class="nome"><strong><code>Reforço</code></strong></td>
+<td>troca vida por ganho em outro bloco</td>
 </tr>
 </tbody>
 </table><h2 id="cap-vocabulario-tamanho">Tamanho</h2><p class="sabor"><em>Onde o corpo cabe e até onde o golpe alcança. Não cobra nada. Capítulo 6, Passo 3.</em></p><p class="tab-titulo"><strong>Vocabulário de tamanho</strong></p><table class="tab"><colgroup><col style="width:22.51%"/><col style="width:77.49%"/></colgroup>
@@ -1468,7 +1468,7 @@ ela, entregam menos da metade.</p><p>A trava não encolhe o esquadrão. Os oito 
 <td><code>5,00</code></td>
 </tr>
 </tbody>
-</table><h1>Passo 2 · Papel</h1><p>O papel diz como ele luta. Ele redistribui o que a categoria deu, e nunca acrescenta.</p><p class="tab-titulo"><strong>Papéis</strong></p><table class="tab"><colgroup><col style="width:18.08%"/><col style="width:48.86%"/><col style="width:33.06%"/></colgroup>
+</table><h1>Passo 2 · Papel</h1><p>O papel diz como ele luta. Ele redistribui o que a categoria deu, e nunca acrescenta.</p><p class="tab-titulo"><strong>Papéis</strong></p><table class="tab"><colgroup><col style="width:17.75%"/><col style="width:47.90%"/><col style="width:34.35%"/></colgroup>
 <thead>
 <tr>
 <th>papel</th>
@@ -1483,13 +1483,13 @@ ela, entregam menos da metade.</p><p>A trava não encolhe o esquadrão. Os oito 
 <td><span class="ix-anc" id="ix-cap-criacao-de-inimigos-defesa"></span>Defesa −2</td>
 </tr>
 <tr>
-<td class="nome"><strong><code>Guardião</code></strong></td>
+<td class="nome"><strong><code>Baluarte</code></strong></td>
 <td>Defesa +2</td>
 <td>vida × <code>0,80</code></td>
 </tr>
 <tr>
 <td class="nome"><strong><code>Artilheiro</code></strong></td>
-<td>alcance, a taxa fixa</td>
+<td>ataque com alcance de <code>18 m</code></td>
 <td>vida × <code>0,857</code></td>
 </tr>
 <tr>
@@ -1500,12 +1500,12 @@ ela, entregam menos da metade.</p><p>A trava não encolhe o esquadrão. Os oito 
 <tr>
 <td class="nome"><strong><code>Controlador</code></strong></td>
 <td><code>1</code> ação negada do grupo</td>
-<td>dano × <code>0,667</code></td>
+<td>vida × a linha da categoria</td>
 </tr>
 <tr>
-<td class="nome"><strong><code>Apoio</code></strong></td>
+<td class="nome"><strong><code>Reforço</code></strong></td>
 <td>o mesmo <code>1</code> para <code>1</code>, em outro bloco</td>
-<td>dano</td>
+<td>vida × a linha da categoria</td>
 </tr>
 </tbody>
 </table><p>O golpe não muda em nenhum papel.</p><h2 id="cap-criacao-de-inimigos-pagamento-do-emboscador">Pagamento do <code>Emboscador</code></h2><p class="sabor">O pagamento dele muda com a categoria.</p><p class="tab-titulo"><strong>Vida do <code>Emboscador</code>, por categoria</strong></p><table class="tab"><colgroup><col style="width:66.91%"/><col style="width:33.09%"/></colgroup>
@@ -1535,9 +1535,9 @@ ela, entregam menos da metade.</p><p>A trava não encolhe o esquadrão. Os oito 
 </tbody>
 </table><aside class="destaque">
 <p>Use a linha da categoria do bicho, e não um número só desta tabela.</p>
-</aside><h2 id="cap-criacao-de-inimigos-papel-por-categoria">Papel por categoria</h2><p class="sabor">O <code>Capanga</code> toma quatro papéis: <code>Artilheiro</code>, <code>Emboscador</code>, <code>Apoio</code> e <code>Controlador</code>. O
-<code>Controlador</code> num esquadrão conta as oito ações do esquadrão, e não a de um corpo.</p><p><code>Brutamontes</code> e <code>Guardião</code> ficam fora do <code>Capanga</code>. O <code>Brutamontes</code>, porque um <code>Capanga</code> que não cai
-num golpe é uma <code>Ameaça</code>.</p><p>O <code>Emboscador</code> não sobe de <code>Grande</code>. O <code>Guardião</code> e o <code>Apoio</code> só se pagam com mais de um inimigo
+</aside><h2 id="cap-criacao-de-inimigos-papel-por-categoria">Papel por categoria</h2><p class="sabor">O <code>Capanga</code> toma quatro papéis: <code>Artilheiro</code>, <code>Emboscador</code>, <code>Reforço</code> e <code>Controlador</code>. O
+<code>Controlador</code> num esquadrão conta as oito ações do esquadrão, e não a de um corpo.</p><p><code>Brutamontes</code> e <code>Baluarte</code> ficam fora do <code>Capanga</code>. O <code>Brutamontes</code>, porque um <code>Capanga</code> que não cai
+num golpe é uma <code>Ameaça</code>.</p><p>O <code>Emboscador</code> não sobe de <code>Grande</code>. O <code>Baluarte</code> e o <code>Reforço</code> só se pagam com mais de um inimigo
 no encontro.</p><h1>Passo 3 · Tamanho</h1><p>O tamanho diz onde o corpo cabe e até onde o golpe alcança. Ele não cobra nada.</p><p class="tab-titulo"><strong>Tamanho, grade e alcance</strong></p><table class="tab"><colgroup><col style="width:29.68%"/><col style="width:23.99%"/><col style="width:11.27%"/><col style="width:35.07%"/></colgroup>
 <thead>
 <tr>

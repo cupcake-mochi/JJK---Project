@@ -1,6 +1,6 @@
 # O Sukuna, remontado no nível 30
 
-*13 e 14/09/2026, v0.229 e v0.230 do repositório.* **Nenhum número nasce neste arquivo:** *todos saem de `montar-o-sukuna.py`, e a saída inteira está em `SAIDA-o-sukuna-nv30.txt`.* **O `O-SUKUNA-no-rascunho-5.md` continua como o teste de 10/09, no nível 20, e é lá que mora a comparação com a mesa de 07/09.**
+*13 e 14/09/2026, da v0.229 à v0.231 do repositório.* **Nenhum número nasce neste arquivo:** *todos saem de `montar-o-sukuna.py`, e a saída inteira está em `SAIDA-o-sukuna-nv30.txt`.* **O `O-SUKUNA-no-rascunho-5.md` continua como o teste de 10/09, no nível 20, e é lá que mora a comparação com a mesa de 07/09.**
 
 ## O que mudou desde o rascunho 5
 
@@ -12,6 +12,8 @@
 | **a Chama Divina** | a rodada inteira repartida em `3` alvos, `90` cada | **`Recarga` pela regra nova: `2,5` golpes em cada alvo, `18d12 + 50`** | peça 26 §6.5, v0.230 |
 | **o encontro** | `8` pessoas | **`21,0` pessoas** | `8 × 1,92` da Expansão `× 1,37` da `Recarga` |
 | **os papéis** | `Guardião` · `Apoio` | `Baluarte` · `Reforço` | triagem de nome da v0.224; o script parou de rodar ali |
+| **a Amplificação de Domínio** | anula toda técnica, sem custo | **a aptidão `Extensão de Domínio` da peça 11**, paga na cota | peça 26 §6.5, v0.231 |
+| **os Quatro Braços** | braço destrutível, sem vida | **`180` de vida por braço** | o empate com duas rodadas pela frente, v0.231 |
 
 ## As quatro escolhas, fechadas em 14/09
 
@@ -40,7 +42,7 @@
 >
 > **Traços**
 >
-> **Quatro Braços.** Ele conjura e ataca no mesmo turno: dois braços fazem o Selo enquanto dois lutam, e a boca do abdômen recita sem prender a respiração. Cada braço é alvo destrutível, e destruir um tira `1` das ações múltiplas dele.
+> **Quatro Braços.** Ele conjura e ataca no mesmo turno: dois braços fazem o Selo enquanto dois lutam, e a boca do abdômen recita sem prender a respiração. Cada braço é um alvo com Defesa `20` e `180` de vida, e destruir um tira `1` das ações múltiplas dele.
 >
 > **Técnica Reversa.** No lugar de uma ação, ele cura `90` em si mesmo.
 >
@@ -64,11 +66,11 @@
 >
 > **2. Santuário Malévolo.** Ele abre o domínio sem fechar barreira, num raio de `200 m`, e o centro fica onde ele está. Por `5` rodadas, `Desmembrar` e `Clivar` acertam sem rolagem e sem Teste de Resistência em quem estiver dentro, e `Clivar` dispensa o alcance. Quem sai do raio sai do Acerto. O domínio acaba pelo tempo, pela disputa com outro domínio, pela concentração ou com ele em `0` de vida.
 >
-> **3. Amplificação de Domínio.** Ele estende a própria técnica sobre a pele e apaga o efeito de toda técnica inimiga que encostar nele até o fim da próxima rodada. Enquanto isso as mãos dele estão ocupadas: ele não usa `Chama Divina` nem abre domínio.
+> **3. Extensão de Domínio.** Ele se envolve numa camada fina de domínio sem técnica dentro, por até `10` rodadas. Ela anula o Acerto de uma Expansão, o ataque dele acerta independentemente da técnica do alvo, e o que encostar nela é anulado até `Classe 4`: uma Classe Passiva, uma Regra Própria ou um feitiço de Classe até `4`. Enquanto ela estiver de pé ele não usa a técnica, e as ações dele viram golpes de corpo. *Ataque corpo a corpo:* `+4` para acertar, alcance `1,5 m`, uma criatura. *Acerto:* `58 (8d6 + 30)` de dano de Concussão.
 
 *O bloco não imprime linha de `Pacto`: o único voto que sobrou é o da `Chama Divina`, e ele mora na ação.*
 
 ## O que este bloco ainda não tem
 
-- **O `Quatro Braços` e a `Amplificação de Domínio` vieram do rascunho 5 sem passar por conta.** *O primeiro troca ação por alvo destrutível, e o segundo apaga técnica por uma rodada; nenhum dos dois tem preço na peça 26.*
-- **O `Desmembrar` herdou `18 m` do Projétil da `Classe 4`**, *e o `Artilheiro` diz que ganha alcance sem dizer quanto.*
+- **A Força `0` pesa quando a Extensão de Domínio está ligada.** *Sem técnica, o ataque dele passa a ser corpo a corpo, que lê a Força: `+4` para acertar, contra `+10` com a técnica.* **Os pontos livres foram escolhidos na v0.230 com a Força "sem fazer nada para ele", e a Extensão é o único lugar em que ela faz.**
+- **A vida de braço é do Sukuna, e não regra da peça 26.** *O empate que deu `180` serve para qualquer inimigo com parte destrutível, e ninguém escreveu isso como regra.*

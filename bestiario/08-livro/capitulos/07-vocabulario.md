@@ -37,11 +37,11 @@ capítulo que a explica.
 | termo | o que quer dizer |
 |---|---|
 | **`Brutamontes`** | troca Defesa por vida |
-| **`Guardião`** | troca vida por Defesa |
-| **`Artilheiro`** | troca vida por alcance |
+| **`Baluarte`** | troca vida por Defesa |
+| **`Artilheiro`** | troca vida por alcance de `18 m` |
 | **`Emboscador`** | troca vida por vantagem em um ataque por rodada |
 | **`Controlador`** | troca dano por uma ação negada do grupo |
-| **`Apoio`** | troca o dano dele por ganho em outro bloco |
+| **`Reforço`** | troca vida por ganho em outro bloco |
 
 ## Tamanho
 

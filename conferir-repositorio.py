@@ -1051,7 +1051,9 @@ else:
     # §6.5 cita a `bestiario/04-fase-1/fila/MEDIDA-a-recarga-contra-a-vida.md`, onde mora a
     # medicao de campo da Recarga. E a familia `bestiario/.*`, ja declarada, e nao e
     # material de mesa.
-    BRANCAS_AQUI, FOLGA = 174, 5
+    # v0.231: 174 -> 175. A nova e UMA: a peca 26 §3.4 cita a
+    # `bestiario/04-fase-1/papel/MEDIDA-o-alcance-do-artilheiro.md`, familia `bestiario/.*`.
+    BRANCAS_AQUI, FOLGA = 175, 5
     PISO_CITACOES, TETO_BRANCOS = 120, BRANCAS_AQUI + FOLGA
     if vistos_e < PISO_CITACOES:
         erro(f'7.2: achei so {vistos_e} citacoes na entrega, e o piso e {PISO_CITACOES} — '

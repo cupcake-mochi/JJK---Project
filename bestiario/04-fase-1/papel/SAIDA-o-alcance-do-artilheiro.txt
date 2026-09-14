@@ -1,0 +1,3 @@
+deslocamento de um herói: 5 quadrados
+Artilharia: n=42 · mediana 10 quadrados · quartis 10 a 15 · de 5 a 20
+razão mediana alcance ÷ deslocamento: 2.0

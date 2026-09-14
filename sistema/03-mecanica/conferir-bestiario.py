@@ -1659,6 +1659,33 @@ else:
             print('      (o `Artilheiro` fica de fora: o alcance e decisao do projeto do '
                   'Bestiario, e a peca declara isso)')
 
+
+    # -- 10.4 (v0.231) o alcance do Artilheiro e o dobro do deslocamento --------------
+    # O metro sai de duas coisas: o deslocamento da peca 3 e a razao alcance ÷ deslocamento
+    # da Artilharia do Draw Steel, medida no Bestiario. Nada de valor mora aqui.
+    _ar = re.search(r'O ataque do `Artilheiro` alcança `(\d+) m`, em todo nível', TXT)
+    _ds = re.search(r'mediana de alcance `(\d+)` contra deslocamento `(\d+)` do herói, nas `(\d+)` fichas', TXT)
+    _desl = re.search(r'Deslocamento base: (\d+) metros', ler(P03))
+    try:
+        _md = open(os.path.join(RAIZ, 'bestiario/04-fase-1/papel/MEDIDA-o-alcance-do-artilheiro.md'), encoding='utf-8').read()
+    except OSError:
+        _md = ''
+    _md_v = re.search(r'deslocamento de um herói \| `(\d+)` quadrados', _md)
+    _md_a = re.search(r'mediana das `(\d+)` fichas \| \*\*`(\d+)`\*\* quadrados', _md)
+    if not (_ar and _ds and _desl and _md_v and _md_a):
+        erro('10.4: faltou dono — o alcance do Artilheiro na peca, o deslocamento da peca 3 ou a MEDIDA do Bestiario')
+    else:
+        _ruins104 = []
+        _razao = int(_ds.group(1)) / int(_ds.group(2))
+        if int(_ar.group(1)) != _razao * int(_desl.group(1)):
+            _ruins104.append(f'o Artilheiro alcanca {_ar.group(1)} m, e {_razao:g} × o deslocamento de {_desl.group(1)} m da {_razao * int(_desl.group(1)):g}')
+        if (int(_ds.group(1)), int(_ds.group(2)), int(_ds.group(3))) != (int(_md_a.group(2)), int(_md_v.group(1)), int(_md_a.group(1))):
+            _ruins104.append('a medicao do Draw Steel que a peca cita nao e a da MEDIDA do Bestiario')
+        for _r in _ruins104:
+            erro('10.4: ' + _r)
+        if not _ruins104:
+            print(f'  [x] 10.4: o Artilheiro alcanca {_ar.group(1)} m = {_razao:g} × o deslocamento de {_desl.group(1)} m, e a razao e a da MEDIDA do Draw Steel')
+
     # -- 10.3 as acoes do §3.4 contra as do §4 ------------------------------
     _T4 = tabela(TXT, '| categoria | personagens | fator sobre a linha do manual | '
                       'ações | `Intervenção` |')

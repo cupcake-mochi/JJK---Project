@@ -65,11 +65,11 @@ O papel diz como ele luta. Ele redistribui o que a categoria deu, e nunca acresc
 | papel | o que ele ganha | o que ele paga |
 |---|---|---|
 | **`Brutamontes`** | vida × `1,20` | Defesa −2 |
-| **`Guardião`** | Defesa +2 | vida × `0,80` |
-| **`Artilheiro`** | alcance, a taxa fixa | vida × `0,857` |
+| **`Baluarte`** | Defesa +2 | vida × `0,80` |
+| **`Artilheiro`** | ataque com alcance de `18 m` | vida × `0,857` |
 | **`Emboscador`** | vantagem em `1` ataque por rodada, toda rodada | vida × a linha da categoria |
-| **`Controlador`** | `1` ação negada do grupo | dano × `0,667` |
-| **`Apoio`** | o mesmo `1` para `1`, em outro bloco | dano |
+| **`Controlador`** | `1` ação negada do grupo | vida × a linha da categoria |
+| **`Reforço`** | o mesmo `1` para `1`, em outro bloco | vida × a linha da categoria |
 
 O golpe não muda em nenhum papel.
 
@@ -91,13 +91,13 @@ O pagamento dele muda com a categoria.
 
 ## Papel por categoria
 
-O `Capanga` toma quatro papéis: `Artilheiro`, `Emboscador`, `Apoio` e `Controlador`. O
+O `Capanga` toma quatro papéis: `Artilheiro`, `Emboscador`, `Reforço` e `Controlador`. O
 `Controlador` num esquadrão conta as oito ações do esquadrão, e não a de um corpo.
 
-`Brutamontes` e `Guardião` ficam fora do `Capanga`. O `Brutamontes`, porque um `Capanga` que não cai
+`Brutamontes` e `Baluarte` ficam fora do `Capanga`. O `Brutamontes`, porque um `Capanga` que não cai
 num golpe é uma `Ameaça`.
 
-O `Emboscador` não sobe de `Grande`. O `Guardião` e o `Apoio` só se pagam com mais de um inimigo
+O `Emboscador` não sobe de `Grande`. O `Baluarte` e o `Reforço` só se pagam com mais de um inimigo
 no encontro.
 
 # Passo 3 · Tamanho

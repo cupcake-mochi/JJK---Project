@@ -8,6 +8,45 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.231] — 14/09/2026
+
+**O que o Sukuna deixou sem conta ganhou conta.** *O alcance do `Artilheiro` virou regra da peça 26, a Amplificação de Domínio é a aptidão que o sistema já tinha, e o braço do Sukuna tem vida.*
+
+### 1 · O `Artilheiro` alcança `18 m`
+
+**O papel ganhava "alcance no ataque" sem metro** — *o Bestiário tinha deixado "a construir".* **O Draw Steel dá à Artilharia o dobro do deslocamento do herói:** *mediana de alcance `10` contra deslocamento `5`, nas `42` fichas.* **Aqui o deslocamento é `9 m`, e o dobro é `18 m`, o Projétil do manual** — *e é "uma rodada de três é a de aproximação": anda `9 m`, corre mais `9 m`, e não ataca.*
+
+***Pergunta dele:*** *"Com base no nível, acho q seria o ideal. N? Se n, mantem semelhante a player, um valor fixo, mesmo".* **A conta diz que não:** *o deslocamento não cresce com o nível, e o Projétil da Classe da ação cairia em `9 m` enquanto o inimigo não monta feitiço — ali o personagem anda e bate no mesmo turno, e o papel pagaria vida sem ganhar nada.* **Fica `18 m` em todo nível.**
+
+### 2 · A Amplificação de Domínio é a `Extensão de Domínio`
+
+**Na obra ela é 領域展延, e a peça 11 já tinha a aptidão.** *O rascunho do Sukuna escrevia uma versão mais forte — anulava toda técnica, sem custo.* ***Decisão dele:*** **a aptidão da peça 11.** *No nível 30 ela anula até `Classe 4`, dura até `10` rodadas e custa `11` PE por rodada, que no inimigo saem da cota: `56` de dano por rodada, `14%` dos `404` dele.* **Enquanto ela está ligada ele não usa técnica, e ataca de corpo: `58 (8d6 + 30)`.**
+
+### 3 · O braço do Sukuna tem `180` de vida
+
+***Decisão dele:*** **"braço com vida maior", `180`.** *É a vida que empata se o braço cai com duas rodadas de luta pela frente: o grupo tira `540` por rodada, e um braço destruído tira `1` das `6` ações.* **Quebrar braço cedo compensa; tarde, não.**
+
+### Adicionado
+
+- **A checagem `10.4` do `conferir-bestiario.py`**, *com cinco perturbações e um contra-teste: o metro contra o deslocamento da peça 3 e a razão contra a medição do Draw Steel.*
+- **`bestiario/04-fase-1/papel/medir-o-alcance-do-artilheiro.py`**, com a saída e a `MEDIDA`.
+
+### Alterado
+
+- **A peça 26 §3.4** ganhou o alcance do `Artilheiro`; **o §7** ganhou a `10.4` e as perturbações.
+- **O livro do Bestiário, capítulos 6 e 7**, estava com a tabela de papéis de antes da v0.224: *`Guardião` e `Apoio` no lugar de `Baluarte` e `Reforço`, e o `Controlador` pagando em dano.* **Agora ela é a da peça 26, com os `18 m`**, *e os dois PDFs foram refeitos.*
+- **O `montar-o-sukuna.py`** calcula a Extensão na cota, o golpe ligado, o ataque de corpo e a vida do braço; **o `O-SUKUNA-no-nivel-30.md`** traz os três.
+- **A lista branca da checagem `7.2`** vai a `175`, pela citação da `MEDIDA` na peça 26.
+
+### Achado e não consertado
+
+- **A Força `0` do Sukuna pesa quando a Extensão está ligada.** *Sem técnica ele ataca de corpo, que lê a Força: `+4` para acertar, contra `+10`.* **Os pontos livres foram escolhidos na v0.230 com a Força "sem fazer nada para ele".**
+- **A vida de parte destrutível é conta do Sukuna, e não regra da peça 26.**
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
+
+---
+
 ## [0.230] — 14/09/2026
 
 **A `Recarga` de inimigo foi refeita, e o bloco do Sukuna fechou.** *As quatro escolhas que a v0.229 deixou puxaram uma quinta: a Chama Divina é `Recarga`, e a regra de `Recarga` publicada estava errada.*
