@@ -45,8 +45,8 @@ NIVEL = 30
 CATEGORIA = 'Calamidade'
 TAMANHO = 'Médio'
 PAPEL_ESCOLHIDO = 'Artilheiro'
-# v0.230: os pontos livres, por decisao do Mizuki — a Forca nao faz nada para ele
-COR = {'Força': 0, 'Constituição': 2, 'Inteligência': 2}
+# v0.232: os pontos livres, por decisao do Mizuki — oito, com o orcamento meio a meio da peca 26 §3.2
+COR = {'Força': 3, 'Constituição': 3, 'Inteligência': 2}
 # v0.231: o braço empata se cair com duas rodadas de luta pela frente — decisão do Mizuki
 BRACO_RODADAS = 2
 
@@ -553,8 +553,12 @@ MARCOS = [int(x) for x in re.findall(
 mo = pega(P02, r'Atributo investido: \*\*(\d+) na criação, (\d+) no teto',
           'a escada do atributo investido')
 CRIACAO_TETO, ATRIB_TETO = int(mo.group(1)), int(mo.group(2))
-mp = pega(P26, r'(\w+) pontos na criação, teto `(\d+)` ali, `\+1` por marco e teto `(\d+)`',
+mp = pega(P26, r'O inimigo monta os cinco com (\w+) pontos na criação, teto `(\d+)` ali, e teto `(\d+)`',
           'o orçamento de atributo do inimigo')
+# v0.232: o orçamento por marco é a tabela do §3.2 — +1 por marco e as escolhas que o meio a meio não gasta em refino
+_tab_orc = ler(P26)[ler(P26).find('| marco | nv 6 |'):]
+_nvs_orc = [int(x) for x in re.findall(r'nv (\d+)', _tab_orc.split('\n')[0])]
+_pts_orc = [int(x) for x in re.findall(r'`(\d+)`', re.search(r'\| \*\*pontos de atributo\*\* \|([^\n]*)', _tab_orc).group(1))]
 NUM_PT = {'um': 1, 'dois': 2, 'três': 3, 'quatro': 4, 'cinco': 5, 'seis': 6,
           'sete': 7, 'oito': 8, 'nove': 9, 'dez': 10}
 PONTOS_CRIACAO = NUM_PT.get(mp.group(1).lower(), None)
@@ -568,7 +572,8 @@ if int(mp.group(2)) != CRIACAO_TETO or int(mp.group(3)) != ATRIB_TETO:
 
 marcos_ate = [m for m in MARCOS if m <= NIVEL]
 maestria = MAESTRIA_BASE + len([m for m in MARCOS_MAESTRIA if m <= NIVEL])
-orcamento = PONTOS_CRIACAO + len(marcos_ate)
+orcamento = max([p for nv_, p in zip(_nvs_orc, _pts_orc) if nv_ <= NIVEL], default=PONTOS_CRIACAO)
+PONTOS_MARCO = orcamento - PONTOS_CRIACAO
 
 dex_obrigada = base['defesa'] - 10 - base['protecao']
 atrib_tecnica = base['acerto'] - maestria
@@ -578,7 +583,7 @@ linha(f'  a maestria no nv{NIVEL}            {maestria:.0f}        base {MAESTRI
       f'{[m for m in MARCOS_MAESTRIA if m <= NIVEL]}')
 linha(f'  os marcos até o nv{NIVEL}          {len(marcos_ate)}        {marcos_ate}')
 linha(f'  o orçamento de atributo       {orcamento}       {PONTOS_CRIACAO} na criação (teto {CRIACAO_TETO} ali) '
-      f'+ {len(marcos_ate)} marcos (teto {ATRIB_TETO})')
+      f'+ {PONTOS_MARCO} dos {len(marcos_ate)} marcos (teto {ATRIB_TETO}) — peça 26 §3.2')
 linha()
 linha(f'  Defesa {base["defesa"]} = 10 + Destreza + proteção {base["protecao"]}   ⟹  '
       f'DESTREZA OBRIGADA = {dex_obrigada}')
@@ -601,18 +606,18 @@ linha(f'  {"o atributo da técnica (o acerto)":<34}{min(int(atrib_tecnica), CRIA
 linha('  ' + '-' * 64)
 linha(f'  {"":<34}{"":>12}{marcos_gastos:>10}{custo_dex + custo_tec:>8}')
 linha()
-linha(f'  ⟹  sobram {livre} ponto(s) de {orcamento} pra COR, e {len(marcos_ate) - marcos_gastos} marco(s) de '
-      f'{len(marcos_ate)}.')
-if marcos_gastos > len(marcos_ate):
-    linha(f'  !! NÃO FECHA: as derivadas pedem {marcos_gastos} marcos e o nv{NIVEL} só tem {len(marcos_ate)}.')
-elif marcos_gastos == len(marcos_ate):
+linha(f'  ⟹  sobram {livre} ponto(s) de {orcamento} pra COR, e {PONTOS_MARCO - marcos_gastos} ponto(s) de marco de '
+      f'{PONTOS_MARCO}.')
+if marcos_gastos > PONTOS_MARCO:
+    linha(f'  !! NÃO FECHA: as derivadas pedem {marcos_gastos} pontos de marco e o nv{NIVEL} só tem {PONTOS_MARCO}.')
+elif marcos_gastos == PONTOS_MARCO:
     linha(f'  ⚠ FECHA COM ZERO FOLGA DE MARCO. Todo marco do nv{NIVEL} está conscrito pelas derivadas.')
     linha(f'    O §3.2 promete que "os nove pontos compram cor, e não tamanho" — no nv{NIVEL} eles')
     linha(f'    compram {livre} de {orcamento}. A promessa é verdadeira e pequena.')
 
 # os pontos livres: escolha do Mizuki, conferida contra o orçamento e os tetos da peça 2
 _criacao_livre = PONTOS_CRIACAO - min(dex_obrigada, CRIACAO_TETO) - min(int(atrib_tecnica), CRIACAO_TETO)
-_marco_livre = len(marcos_ate) - marcos_gastos
+_marco_livre = PONTOS_MARCO - marcos_gastos
 # cada atributo se parte em criação (até o teto da criação) e marco: o que passa do teto
 # tem de sair de marco, e o total tem de caber nos dois bolsos juntos
 _marco_minimo = sum(max(0, v_ - CRIACAO_TETO) for v_ in COR.values())

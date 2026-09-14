@@ -133,7 +133,7 @@ OS ATRIBUTOS — eles não se escolhem: as três derivadas OBRIGAM eles
 ================================================================================================
   a maestria no nv30            4        base 1 + os marcos [10, 18, 26]
   os marcos até o nv30          7        [6, 10, 14, 18, 22, 26, 30]
-  o orçamento de atributo       16       9 na criação (teto 3 ali) + 7 marcos (teto 6)
+  o orçamento de atributo       20       9 na criação (teto 3 ali) + 11 dos 7 marcos (teto 6) — peça 26 §3.2
 
   Defesa 20 = 10 + Destreza + proteção 4   ⟹  DESTREZA OBRIGADA = 6
   acerto +10 = atributo + maestria 4         ⟹  ATRIBUTO DA TÉCNICA = 6
@@ -146,10 +146,10 @@ OS ATRIBUTOS — eles não se escolhem: as três derivadas OBRIGAM eles
   ----------------------------------------------------------------
                                                          6    12.0
 
-  ⟹  sobram 4.0 ponto(s) de 16 pra COR, e 1 marco(s) de 7.
+  ⟹  sobram 8.0 ponto(s) de 20 pra COR, e 5 ponto(s) de marco de 11.
 
-  os livres, escolhidos:  Força 0 · Constituição 2 · Inteligência 2
-  fecham: 4 de 4 pontos — 3 na criação (sobravam 3) e 1 em marco (sobrava 1)
+  os livres, escolhidos:  Força 3 · Constituição 3 · Inteligência 2
+  fecham: 8 de 8 pontos — 3 na criação (sobravam 3) e 5 em marco (sobrava 5)
 
 ================================================================================================
 A FICHA — o que vai em cada célula do bloco
@@ -206,7 +206,7 @@ A EXTENSÃO DE DOMÍNIO E OS QUATRO BRAÇOS — a aptidão na cota, e o braço n
   Extensão de Domínio           1.5 × Classe 7 = 11 PE por rodada ligada × 5.14 = 56.5 da cota (14%)
   enquanto ligada               sem técnica; o golpe cai de 67 para `8d6 + 30` = 58
   anula o que encosta até       Classe 4 (Classe Passiva, Regra Própria ou feitiço) · dura até 10 rodadas
-  o ataque de corpo, sem técnica  Força 0 + maestria 4 = +4   — peça 1 §5: corpo a corpo lê a Força
+  o ataque de corpo, sem técnica  Força 3 + maestria 4 = +7   — peça 1 §5: corpo a corpo lê a Força
 
   Quatro Braços                 o grupo tira 540 por rodada; um braço tira 1 das 6 ações
   a vida de um braço            540 × 2 rodadas ÷ 6 ações = 180   — empata se ele cai com 2 rodadas pela frente
@@ -271,7 +271,7 @@ AS CONFERÊNCIAS
   [ok]  o golpe cabe na mão                         6 dados  ·  teto 8
   [ok]  a categoria tem `Intervenção`               `Calamidade` — de `Desastre` pra cima
   [ok]  o orçamento passa do piso                   14.9 pontos  ·  piso 3
-  [ok]  os pontos livres fecham                     Força 0 · Constituição 2 · Inteligência 2
+  [ok]  os pontos livres fecham                     Força 3 · Constituição 3 · Inteligência 2
   [ok]  a Chama tem dois terços em dado             `18d12 + 50` = 167  ·  70% em dado
   [ok]  a Extensão cabe na cota                     56.5 de 404  ·  golpe ligado 58
   [ok]  o Santuário cabe no gate                    refino 10  ·  gate 10

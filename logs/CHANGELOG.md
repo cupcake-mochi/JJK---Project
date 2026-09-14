@@ -8,6 +8,44 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.232] — 14/09/2026
+
+**O inimigo passou a ganhar atributo no ritmo do `meio a meio`, e o Sukuna refez os pontos livres.** *A pergunta dele — "os ganhos de atributo de inimigos está funcionando como? os marcos existem pra eles?" — achou uma metade faltando.*
+
+### 1 · O que estava torto
+
+**O personagem ganha duas coisas em cada marco:** *`+1` de atributo e `+1` de refino de graça, e uma escolha — mais atributo, refino com aptidão, ou feitiço com Passiva.* **O inimigo ganhava só o `+1` de atributo**, *e o refino dele seguia a curva do `meio a meio`* — **então ele já recebia a metade das escolhas que foi para refino, e não a metade que iria para atributo.** *No nível 30 ele tinha `16` pontos; um personagem `meio a meio` com o resto em atributo tem `20`.*
+
+### 2 · A regra nova
+
+***Decisão dele:*** **meio a meio, como o refino.** *Em cada marco `+1`, e mais `+1` em cada escolha que o `meio a meio` não gasta em refino.*
+
+| marco | nv 6 | nv 10 | nv 14 | nv 18 | nv 22 | nv 26 | nv 30 |
+|---|---|---|---|---|---|---|---|
+| antes | `10` | `11` | `12` | `13` | `14` | `15` | `16` |
+| **agora** | **`10`** | **`12`** | **`13`** | **`15`** | **`16`** | **`18`** | **`20`** |
+
+**Os pontos a mais não mexem em Defesa, acerto, CD, vida nem dano**, *que saem das tabelas: eles compram Força, Constituição, os Testes de Resistência sem treino e as perícias.* **A invocação da peça 15 fica com o `+1` do marco só**, *porque o ritmo dela é o do dono.*
+
+### 3 · O Sukuna
+
+**Com `8` livres em vez de `4`:** ***Força `3` · Constituição `3` · Inteligência `2`.*** *O ataque de corpo com a Extensão de Domínio ligada sobe de `+4` para `+7`, e o Santuário cai com `65%` na primeira rodada de uma disputa, contra `74%`.* **O achado da v0.231 — a Força `0` pesando na Extensão — fechou aqui.**
+
+### Adicionado
+
+- **A checagem `2.1` do `conferir-bestiario.py`**, *com seis perturbações e um contra-teste: a tabela do §3.2 reconstruída dos nove pontos da peça 2 e da curva da peça 11.*
+
+### Alterado
+
+- **A peça 26 §3.2** ganhou a regra e a tabela por marco; **o §7** ganhou a `2.1`.
+- **O livro do Bestiário:** *o capítulo 5 imprime o orçamento novo e refaz as contas do "Orçamento apertado" — no nível 20 são `15` pontos, e sobram `5` —, e o exemplo do capítulo 6 foi de `11` para `12` pontos.* **Os dois geradores passaram a ler a tabela da peça 26**, *e a faixa `26–30` do capítulo 5 virou `26–29` e `30`, porque o marco do nível 30 não aparecia.* **Os PDFs foram refeitos.**
+- **O `DECIDIDO-a-linha-do-aperto-de-atributo.md`** do Bestiário tem os números refeitos, com o aviso.
+- **O `montar-o-sukuna.py`** lê o orçamento da peça 26; **o `O-SUKUNA-no-nivel-30.md`** traz os atributos novos.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
+
+---
+
 ## [0.231] — 14/09/2026
 
 **O que o Sukuna deixou sem conta ganhou conta.** *O alcance do `Artilheiro` virou regra da peça 26, a Amplificação de Domínio é a aptidão que o sistema já tinha, e o braço do Sukuna tem vida.*

@@ -285,6 +285,48 @@ else:
 
 
 # --------------------------------------------------------------------------
+bloco('2.1 O ORCAMENTO DE ATRIBUTO — nove na criacao, e o marco no ritmo do meio a meio')
+# --------------------------------------------------------------------------
+# v0.232. Ate a v0.231 o inimigo ganhava so o +1 do marco. Decisao do Mizuki: ele ganha
+# tambem as escolhas de marco que o `meio a meio` nao gasta em refino, porque o refino
+# dele ja segue aquela curva. A tabela da peca e reconstruida aqui da peca 11 e da peca 2.
+_P02 = ler(P02); _P11 = ler(P11)
+_nove = re.search(r'([Nn]ove) pontos em cinco atributos', _P02)
+_p26 = re.search(r'O inimigo monta os cinco com (\w+) pontos na criação, teto `(\d+)` ali, e teto `(\d+)`', TXT)
+_marc = re.search(r'\| \| nv 6 \|[^\n]*', _P11)
+_mm = re.search(r'\| \*\*meio a meio\*\* \|[^\n]*', _P11)
+_tab = TXT[TXT.find('| marco | nv 6 |'):]
+_l_rf = re.search(r'\| refino do `meio a meio` \|([^\n]*)', _tab)
+_l_es = re.search(r'\| escolhas gastas em refino, acumuladas \|([^\n]*)', _tab)
+_l_pt = re.search(r'\| \*\*pontos de atributo\*\* \|([^\n]*)', _tab)
+_NUMS = {'nove': 9, 'oito': 8, 'dez': 10}
+if not (_nove and _p26 and _marc and _mm and _l_rf and _l_es and _l_pt):
+    erro('2.1: faltou dono — os nove pontos da peca 2, a regra do §3.2, a curva do meio a meio ou a tabela do orcamento')
+else:
+    _ruins21 = []
+    _base = _NUMS.get(_nove.group(1).lower())
+    if _NUMS.get(_p26.group(1).lower()) != _base:
+        _ruins21.append(f'a peca 26 diz {_p26.group(1)} pontos na criacao e a peca 2 diz {_nove.group(1)}')
+    _nvs = [int(x) for x in re.findall(r'nv (\d+)', _marc.group(0))]
+    _curva = [int(x) for x in re.findall(r'`(\d+)`', _mm.group(0))]
+    _pub = [[int(x) for x in re.findall(r'`(\d+)`', l.group(1))] for l in (_l_rf, _l_es, _l_pt)]
+    _r, _esp = 0, ([], [], [])
+    for _k, _c in enumerate(_curva, 1):
+        _r = max(_r, _c - (1 + _k))
+        _esp[0].append(_c); _esp[1].append(_r); _esp[2].append(_base + _k + (_k - _r))
+    for _rot, _p, _e in zip(('o refino', 'as escolhas gastas em refino', 'os pontos de atributo'), _pub, _esp):
+        if _p != _e:
+            _ruins21.append(f'{_rot}: a peca publica {_p}, e a conta da {_e}')
+    if len(_nvs) != len(_curva):
+        _ruins21.append('os marcos e a curva da peca 11 tem tamanhos diferentes')
+    if re.search(r'`\+1` por marco e teto `6`', TXT):
+        _ruins21.append('voltou a regra de antes da v0.232, so com o +1 do marco')
+    for _x in _ruins21:
+        erro('2.1: ' + _x)
+    if not _ruins21:
+        print(f'  [x] {_base} na criacao, e nos marcos {_nvs} o orcamento da {_esp[2]} — +1 por marco e as escolhas que o meio a meio nao gasta em refino')
+
+# --------------------------------------------------------------------------
 bloco('3. A CATEGORIA — vida e dano saem da linha do manual vezes o fator')
 # --------------------------------------------------------------------------
 # A tabela de inimigo e' do manual, e e' de la que a categoria reescala. Sem o

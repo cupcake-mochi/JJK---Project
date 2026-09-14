@@ -27,6 +27,9 @@ CAP = os.path.join(LIVRO, 'capitulos', '50-o-bloco.md')
 MARCA = '<!-- ATRIBUTOS -->'
 
 BASE_CRIACAO = 9     # peça 26 §3.2 — "nove pontos na criação"
+# v0.232: o orçamento por marco é a tabela da peça 26 §3.2 — +1 por marco e as escolhas que o
+# meio a meio não gasta em refino. Lida de lá, e não recalculada aqui.
+P26 = os.path.join(os.path.dirname(BEST), 'sistema', '03-mecanica', '26-bestiario.md')
 TETO_CRIACAO = 3
 TETO = 6
 
@@ -65,11 +68,30 @@ for i, nv in enumerate(NIVEIS):
             ini = NIVEIS[i + 1]
 if len(marcos) != 7:
     morre('a Defesa colapsou em %d marcos, e a peça publica 7' % len(marcos))
+marcos_defesa = marcos
 
-# ── §2 · o orçamento: +1 por marco vencido, a partir do primeiro
+# ── §2 · o orçamento: a tabela da peça 26 §3.2, lida por marco
+_t26 = ler(P26)
+_tab26 = _t26[_t26.find('| marco | nv 6 |'):]
+if not _tab26:
+    morre('a tabela do orçamento sumiu da peça 26 §3.2')
+NV26 = [int(x) for x in re.findall(r'nv (\d+)', _tab26.split('\n')[0])]
+_lp = re.search(r'\| \*\*pontos de atributo\*\* \|([^\n]*)', _tab26)
+if not _lp:
+    morre('a linha dos pontos de atributo sumiu da peça 26 §3.2')
+PT26 = [int(x) for x in re.findall(r'`(\d+)`', _lp.group(1))]
+
+
 def pontos(nv):
-    venceu = sum(1 for k, (a, b) in enumerate(marcos) if k > 0 and nv >= a)
-    return BASE_CRIACAO + venceu
+    return max([p for n, p in zip(NV26, PT26) if n <= nv], default=BASE_CRIACAO)
+
+
+# as faixas da tabela saem dos marcos da peça 26, e não das bordas de Defesa
+marcos = []
+_bordas = [NIVEIS[0]] + NV26
+for i, a in enumerate(_bordas):
+    b = (_bordas[i + 1] - 1) if i + 1 < len(_bordas) else NIVEIS[-1]
+    marcos.append((a, b))
 
 
 def destreza_obrigada(nv):
@@ -113,8 +135,8 @@ for a, b in marcos:
     rot = str(a) if a == b else '%d–%d' % (a, b)
     out.append('| **%s** | `%d` | `%s` | `%d` |'
                % (rot, pontos(a), linhas[a]['Defesa'], destreza_obrigada(a)))
-out += ['', '*`9` pontos na criação, com teto `3` em cada atributo, e `+1` a cada marco, com teto '
-        '`6`. É o mesmo orçamento da ficha de jogador.*']
+out += ['', '*`9` pontos na criação, com teto `3` em cada atributo. Em cada marco, `+1`, e mais `+1` '
+        'nas escolhas que o `meio a meio` não gasta em refino, com teto `6`.*']
 
 cap = ler(CAP)
 if MARCA not in cap:

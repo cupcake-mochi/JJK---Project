@@ -37,24 +37,26 @@ o acoplamento que produz o aperto.*
 
 # O TEXTO PROPOSTO — *v2, com as duas portas*
 
+> ⚠ **v0.232: os números abaixo foram refeitos.** *O inimigo passou a ganhar também as escolhas de marco que o `meio a meio` não gasta em refino — peça 26 §3.2. Antes eram `13` pontos no nível 20, com `3` livres e nenhum marco.*
+>
 > ### O orçamento de atributo do chefe, e por que ele parece pequeno
 >
-> **No nível `20` o inimigo tem `13` pontos de atributo** — `9` na criação mais `4` dos marcos. **E
+> **No nível `20` o inimigo tem `15` pontos de atributo** — `9` na criação mais `6` dos marcos. **E
 > duas das três derivadas são obrigadas:** a Defesa `18` pede Destreza `5`, e o acerto `+8` pede o
 > atributo da técnica em `5`.
 >
-> **Se esses dois forem atributos diferentes, eles comem `10` dos `13` pontos e os `4` marcos
-> inteiros.** *Sobram `3` pontos pros outros três atributos, e nenhum marco.*
+> **Se esses dois forem atributos diferentes, eles comem `10` dos `15` pontos e `4` dos `6` de
+> marco.** *Sobram `5` pontos pros outros três atributos, `2` deles de marco.*
 >
 > **Isso não é erro de conta.** *Um chefe carrega a mesma concentração de atributo que um monstro de
-> qualquer sistema de mesa: ele é bom em duas coisas e passável no resto.* **No nível `30` folga um
-> marco.**
+> qualquer sistema de mesa: ele é bom em duas coisas e passável no resto.* **No nível `30` sobram `8`,
+> `5` deles de marco.**
 >
 > #### E há DUAS portas de saída, e as duas já estão escritas em outro lugar
 >
 > **A primeira: a técnica pode declarar QUALQUER um dos cinco atributos** (peça 1 §5), **e se ela
 > declarar a Destreza, as três derivadas passam a ler o mesmo atributo.** *Aí o chefe gasta `5` pontos
-> em vez de `10`, e sobram `8` pontos e `2` marcos pro resto.*
+> em vez de `10`, e sobram `10` pontos, `4` deles de marco, pro resto.*
 >
 > **A segunda: o Teste de Resistência `Físico` usa Força OU Destreza**, declarado na criação e travado
 > (peça 1 §6). **Um chefe de Força `1` põe o `Físico` na Destreza `5` que a Defesa já obrigou** — e o

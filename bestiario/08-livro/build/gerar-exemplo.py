@@ -171,7 +171,12 @@ for ln in sec.split('\n'):
         defesas[int(c[0])] = dict(zip(cab2, c))['Defesa']
 niveis = sorted(defesas)
 bordas = [n for i, n in enumerate(niveis) if i and defesas[n] != defesas[niveis[i - 1]]]
-PTS = 9 + sum(1 for b in bordas if NIVEL >= b)
+# v0.232: o orçamento é a tabela da peça 26 §3.2
+_t26 = open(os.path.join(os.path.dirname(BEST), 'sistema', '03-mecanica', '26-bestiario.md'), encoding='utf-8').read()
+_tab26 = _t26[_t26.find('| marco | nv 6 |'):]
+_nv26 = [int(x) for x in re.findall(r'nv (\d+)', _tab26.split('\n')[0])]
+_pt26 = [int(x) for x in re.findall(r'`(\d+)`', re.search(r'\| \*\*pontos de atributo\*\* \|([^\n]*)', _tab26).group(1))]
+PTS = max([p for n, p in zip(_nv26, _pt26) if n <= NIVEL], default=9)
 DES_OBRIG = int(L['Defesa']) - 10 - int(L['proteção'].replace('+', ''))
 
 out += ['**Os atributos.** No nível %d são `%d` pontos. A Defesa da tabela pede Destreza `%d`; a '

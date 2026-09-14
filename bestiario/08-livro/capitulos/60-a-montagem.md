@@ -191,7 +191,7 @@ aguenta apanhar. Isso são três escolhas, e cada uma tem uma linha de tabela.
 
 **Passo 3 — o tamanho.** `Grande`: ocupa `2×2` na grade, alcança `3 m`, e o golpe pega o alvo mais metade em um vizinho. Não custa nada.
 
-**Os atributos.** No nível 10 são `11` pontos. A Defesa da tabela pede Destreza `4`; a técnica dele declara Força, que é o que a ficção pede.
+**Os atributos.** No nível 10 são `12` pontos. A Defesa da tabela pede Destreza `4`; a técnica dele declara Força, que é o que a ficção pede.
 
 
 > ### Ubume

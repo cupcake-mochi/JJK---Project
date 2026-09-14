@@ -67,7 +67,17 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 ### 3.2 Os cinco atributos, no orçamento que a peça 2 já dá
 
-**O inimigo monta os cinco no mesmo orçamento de uma ficha** — nove pontos na criação, teto `3` ali, `+1` por marco e teto `6`. *O precedente é da peça 15 §3.3: a invocação faz exatamente isso desde a v0.180, pelo mesmo motivo, que é ter ficha própria sem inventar economia nova.*
+**O inimigo monta os cinco com nove pontos na criação, teto `3` ali, e teto `6`.** **Em cada marco ele ganha `+1`, e mais `+1` em cada escolha de marco que o `meio a meio` não gasta em refino** — *o refino dele já segue a curva do `meio a meio`, então ele recebe as duas metades das escolhas, e não só a de refino.*
+
+***Decisão do Mizuki, v0.232:*** *meio a meio, como o refino.* **Até a v0.231 ele ganhava só o `+1` do marco, e fechava o nível `30` com `16` pontos.**
+
+| marco | nv 6 | nv 10 | nv 14 | nv 18 | nv 22 | nv 26 | nv 30 |
+|---|---|---|---|---|---|---|---|
+| refino do `meio a meio` | `3` | `4` | `6` | `7` | `9` | `10` | `10` |
+| escolhas gastas em refino, acumuladas | `1` | `1` | `2` | `2` | `3` | `3` | `3` |
+| **pontos de atributo** | **`10`** | **`12`** | **`13`** | **`15`** | **`16`** | **`18`** | **`20`** |
+
+*Antes do nível 6 são os nove da criação. As escolhas gastas em refino saem da peça 11 §3: a curva menos o refino que o marco dá de graça, e uma escolha gasta não volta quando a curva bate no teto.* **A invocação da peça 15 §3.3 continua com o `+1` do marco só, porque o ritmo dela é o do dono.**
 
 **É daqui que as três derivadas do §3.1 saem.** *A Defesa lê a Destreza, o acerto e a CD leem o atributo que aquele inimigo usa para atacar, e o teto de pacto do §3 lê a Essência.* **Sem os cinco escritos, as três derivadas ficam penduradas numa curva sem ficha por baixo.**
 
@@ -580,6 +590,7 @@ o fator = [disparos × aquela razão + (luta − disparos)] ÷ luta
 |---|---|
 | **1** | **as âncoras existem nos donos.** Cada número que a ficha usa aparece no documento que esta peça declara como dono, e a tabela do §3 é comparada com a lista do validador nos dois sentidos |
 | **2** | **as três derivadas reconstroem.** A Defesa, o acerto e a CD saem das fórmulas da peça 1 §5, com a proteção andando junto do refino — e o resultado tem de bater com os `50%` a `55%` de acerto e os `35%` de falha que a peça 1 §6 publica |
+| **2.1** | **o orçamento de atributo reconstrói.** A tabela do §3.2 sai dos nove pontos da peça 2 e da curva do `meio a meio` da peça 11 — `+1` por marco e as escolhas que a curva não gasta em refino —, e a regra de antes da v0.232 não volta |
 | **3** | **a categoria é cópia com dono.** Vida e dano de cada uma reconstroem da linha do manual vezes o fator, e o fator reconstrói do número de personagens. *Desde a v0.221 o `Capanga` entra por outra porta: a vida dele é o dano do grupo dividido por quatro, para baixo. E a `3.3` confere o tamanho do §3.3: o alcance é o lado da grade vezes o quadrado* |
 | **4** | **as ações são declaradas**, e a categoria de fator `1,00` bate com o piso que a peça 19 §2.2 publica. *Se aquele piso mudar, esta acende* |
 | **5** | **o câmbio é medido, não guardado.** A simulação de fogo concentrado é rodada aqui dentro, com o `Capanga` derivado do dano do grupo e do dano do chefe, e o `8` publicado tem de ser o que ela devolve. *E o capanga que a tabela `Inimigos` do manual publica tem de ser esse mesmo — desde a v0.221, quando o capanga da `Alcateia` morreu* |
@@ -823,6 +834,18 @@ o fator = [disparos × aquela razão + (luta − disparos)] ÷ luta
 | a peça cita outra mediana | acende | acende |
 | some a frase do alcance | acende | acende |
 | **contra-teste:** a mediana, a citação e o alcance mudam juntos | fica verde | fica verde |
+
+### 7.7 As seis perturbações da v0.232, no orçamento de atributo
+
+| perturbação | esperado | deu |
+|---|---|---|
+| o nível 30 volta a `16` pontos | acende | acende |
+| as escolhas gastas em refino do nível 22 viram `2` | acende | acende |
+| a curva do `meio a meio` da peça 11 cai no nível 14 | acende | acende |
+| a peça 2 passa a dar oito pontos | acende | acende |
+| volta a regra só com o `+1` do marco | acende | acende |
+| o refino da tabela vira `9` no nível 26 | acende | acende |
+| **contra-teste:** a curva do nível 6 e a tabela mudam juntas | fica verde | fica verde |
 
 ## 8. Em aberto
 

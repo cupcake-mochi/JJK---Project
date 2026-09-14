@@ -1,6 +1,6 @@
 # O Sukuna, remontado no nível 30
 
-*13 e 14/09/2026, da v0.229 à v0.231 do repositório.* **Nenhum número nasce neste arquivo:** *todos saem de `montar-o-sukuna.py`, e a saída inteira está em `SAIDA-o-sukuna-nv30.txt`.* **O `O-SUKUNA-no-rascunho-5.md` continua como o teste de 10/09, no nível 20, e é lá que mora a comparação com a mesa de 07/09.**
+*13 e 14/09/2026, da v0.229 à v0.232 do repositório.* **Nenhum número nasce neste arquivo:** *todos saem de `montar-o-sukuna.py`, e a saída inteira está em `SAIDA-o-sukuna-nv30.txt`.* **O `O-SUKUNA-no-rascunho-5.md` continua como o teste de 10/09, no nível 20, e é lá que mora a comparação com a mesa de 07/09.**
 
 ## O que mudou desde o rascunho 5
 
@@ -19,7 +19,7 @@
 
 | | a decisão | de onde sai o número |
 |---|---|---|
-| **os `4` pontos livres** | **Força `0` · Constituição `2` · Inteligência `2`** — *"sem Força", porque ela não faz nada para ele* | o script confere que fecham: `3` na criação e `1` em marco |
+| **os pontos livres** | **Força `3` · Constituição `3` · Inteligência `2`** — *na v0.232, com o orçamento meio a meio, são `8`; na v0.230 eram `4`, e a escolha tinha sido Força `0`* | o script confere que fecham: `3` na criação e `5` em marco |
 | **a `Técnica Reversa`** | **cura `90` no lugar de uma ação** — *"essa métrica já tinha sido calculada anteriormente, use ela de base"* | o empate da peça 26 §6.5: a vida `1620` ÷ a luta de `3` rodadas ÷ `6` ações |
 | **a `Chama Divina`** | **Explosão de `3 m` que só mira um oponente fora do Santuário, e todo mundo nos `200 m` dentro** — *"é um dano em área que só pode ser usado em um alvo"* | a Forma do manual na `Classe 4`; o dano é o da `Recarga` |
 | **o voto da barreira aberta** | **sai** | desde a v0.226 ele compraria o que o degrau já dá |
@@ -34,7 +34,7 @@
 >
 > **Vida** `1620` · **Integridade** `810` · **Deslocamento** `9 m`
 >
-> **Força** `0` · **Destreza** `6` *(Iniciativa)* · **Constituição** `2` · **Inteligência** `2` · **Essência** `6`
+> **Força** `3` · **Destreza** `6` *(Iniciativa)* · **Constituição** `3` · **Inteligência** `2` · **Essência** `6`
 >
 > **Físico** treinado · **Vigor** — · **Intelecto** — · **Espírito** treinado
 >
@@ -66,11 +66,10 @@
 >
 > **2. Santuário Malévolo.** Ele abre o domínio sem fechar barreira, num raio de `200 m`, e o centro fica onde ele está. Por `5` rodadas, `Desmembrar` e `Clivar` acertam sem rolagem e sem Teste de Resistência em quem estiver dentro, e `Clivar` dispensa o alcance. Quem sai do raio sai do Acerto. O domínio acaba pelo tempo, pela disputa com outro domínio, pela concentração ou com ele em `0` de vida.
 >
-> **3. Extensão de Domínio.** Ele se envolve numa camada fina de domínio sem técnica dentro, por até `10` rodadas. Ela anula o Acerto de uma Expansão, o ataque dele acerta independentemente da técnica do alvo, e o que encostar nela é anulado até `Classe 4`: uma Classe Passiva, uma Regra Própria ou um feitiço de Classe até `4`. Enquanto ela estiver de pé ele não usa a técnica, e as ações dele viram golpes de corpo. *Ataque corpo a corpo:* `+4` para acertar, alcance `1,5 m`, uma criatura. *Acerto:* `58 (8d6 + 30)` de dano de Concussão.
+> **3. Extensão de Domínio.** Ele se envolve numa camada fina de domínio sem técnica dentro, por até `10` rodadas. Ela anula o Acerto de uma Expansão, o ataque dele acerta independentemente da técnica do alvo, e o que encostar nela é anulado até `Classe 4`: uma Classe Passiva, uma Regra Própria ou um feitiço de Classe até `4`. Enquanto ela estiver de pé ele não usa a técnica, e as ações dele viram golpes de corpo. *Ataque corpo a corpo:* `+7` para acertar, alcance `1,5 m`, uma criatura. *Acerto:* `58 (8d6 + 30)` de dano de Concussão.
 
 *O bloco não imprime linha de `Pacto`: o único voto que sobrou é o da `Chama Divina`, e ele mora na ação.*
 
 ## O que este bloco ainda não tem
 
-- **A Força `0` pesa quando a Extensão de Domínio está ligada.** *Sem técnica, o ataque dele passa a ser corpo a corpo, que lê a Força: `+4` para acertar, contra `+10` com a técnica.* **Os pontos livres foram escolhidos na v0.230 com a Força "sem fazer nada para ele", e a Extensão é o único lugar em que ela faz.**
 - **A vida de braço é do Sukuna, e não regra da peça 26.** *O empate que deu `180` serve para qualquer inimigo com parte destrutível, e ninguém escreveu isso como regra.*

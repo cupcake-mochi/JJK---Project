@@ -80,13 +80,14 @@ Os cinco atributos do inimigo saem do mesmo orçamento de uma ficha de jogador.
 |---|---|---|---|
 | **2–5** | `9` | `14` | `3` |
 | **6–9** | `10` | `15` | `3` |
-| **10–13** | `11` | `16` | `4` |
-| **14–17** | `12` | `17` | `4` |
-| **18–21** | `13` | `18` | `5` |
-| **22–25** | `14` | `19` | `5` |
-| **26–30** | `15` | `20` | `6` |
+| **10–13** | `12` | `16` | `4` |
+| **14–17** | `13` | `17` | `4` |
+| **18–21** | `15` | `18` | `5` |
+| **22–25** | `16` | `19` | `5` |
+| **26–29** | `18` | `20` | `6` |
+| **30** | `20` | `20` | `6` |
 
-*`9` pontos na criação, com teto `3` em cada atributo, e `+1` a cada marco, com teto `6`. É o mesmo orçamento da ficha de jogador.*
+*`9` pontos na criação, com teto `3` em cada atributo. Em cada marco, `+1`, e mais `+1` nas escolhas que o `meio a meio` não gasta em refino, com teto `6`.*
 
 <!-- FIM ATRIBUTOS -->
 
@@ -98,16 +99,17 @@ o mesmo dano por rodada, e jogam diferente na mesa.
 Duas das três derivadas são obrigadas. A Defesa pede Destreza, e o acerto pede o atributo com que
 aquele inimigo ataca.
 
-Quando esses dois são atributos diferentes, eles comem dez dos treze pontos do nível 20 e os
-quatro marcos inteiros. Sobram três pontos para os outros três atributos, e nenhum marco.
+Quando esses dois são atributos diferentes, eles comem dez dos quinze pontos do nível 20 e quatro
+dos seis pontos de marco. Sobram cinco pontos para os outros três atributos, dois deles de marco.
 
-O aperto é normal: um chefe é bom em duas coisas e passável no resto. No nível 30 folga um marco.
+O aperto é normal: um chefe é bom em duas coisas e passável no resto. No nível 30 sobram oito
+pontos, cinco deles de marco.
 
 ### Saídas do aperto
 
 **A técnica declara o atributo.** Ela pode declarar qualquer um dos cinco. Se declarar a Destreza,
 as três derivadas passam a ler o mesmo atributo: o chefe gasta cinco pontos em vez de dez, e
-sobram oito pontos e dois marcos para o resto.
+sobram dez pontos, quatro deles de marco, para o resto.
 
 **O Teste de Resistência `Físico` aceita Força ou Destreza**, declarado na criação e travado ali.
 Um chefe de Força `1` põe o `Físico` na Destreza que a Defesa já obrigou, e o Teste sai alto em
