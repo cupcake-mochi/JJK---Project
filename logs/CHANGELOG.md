@@ -8,6 +8,51 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.236] — 14/09/2026
+
+**A fonte que o livro sempre pediu entrou nos PDFs, e a coincidência dos `256` fechou.** *As faces que faltavam do IBM Plex Mono foram instaladas, os quatro PDFs dos dois livros saíram sem DejaVu, e a medida por capítulo mostrou que os `256` eram soma que se compensava.*
+
+### 1 · O IBM Plex Mono
+
+***Permissão dele:*** *"Pode baixar".* **O arquivo foi o `ibm-plex-mono.zip` do release `@ibm/plex-mono@2.5.0`, com `6.940.652` bytes, do repositório oficial da IBM.** *As dezesseis faces `.ttf` foram para a pasta de fontes do usuário, sem sobrescrever a `Regular` que já estava lá.*
+
+**Os dois PDFs do Manual da Guilda e os dois do Bestiário foram refeitos.** *Nenhum embute DejaVu, e a checagem `7.6` passa sem aviso.* **A paginação não se moveu:** *`259` e `150` na Guilda, `61` e `35` no Bestiário.*
+
+### 2 · Os `256` eram soma que se compensava
+
+**A pendência era a coluna única e o `-A-atual` terem os mesmos `256` com o texto mudado entre os dois.** *Com as fontes certas nos dois, a comparação passou a valer, e ela foi feita pelos marcadores do próprio PDF, capítulo a capítulo.*
+
+**Entre os dois entraram `Sem Técnica` e `Pactos`, com `5` e `6` páginas, e saiu o `Apêndice · Bloquear`, com `3`.** *Dos vinte e três marcadores em comum, dezesseis mudaram de tamanho, de `−4` a `+4`.* **Hoje a coluna única tem `259`**, *e não existe mais igualdade para explicar.*
+
+### 3 · O título de tabela solto no pé da página não tem conserto barato
+
+**É o achado da v0.235, na página 24 do Bestiário em duas colunas.** *O `build.py` já põe o título da tabela larga dentro dela como legenda, e o WeasyPrint deixa a legenda no fim da página e manda as linhas para a seguinte.*
+
+**`break-inside: avoid` nas tabelas largas foi testado em cópia, e não foi aplicado.** *No Bestiário a paginação e a medida não mudaram; na Guilda o livro foi de `150` para `153` páginas.*
+
+### 4 · Três dívidas pagas estavam escritas como abertas
+
+**No `ESTADO-ATUAL`, riscadas com a versão que fechou cada uma:** *a coluna `Cap.` do glossário na v0.210, o `RASCUNHO-trilhas.md` na v0.183, e o `±10%` do ponto de ficha na v0.185.*
+
+### 5 · O `B18` continua parado
+
+**O conector do Drive não achou planilha nenhuma**, *nem buscando todas.* **Falta a ficha viva exportada.** *E a pendência mora no clone `Claude 3`: o clone `Ficha---RPG-JJK` da pasta `Ficha` aponta para o mesmo repositório no GitHub e está parado no B10.*
+
+### Alterado
+
+- **A fila do `ESTADO-ATUAL`:** *o item 4 aplicado, o `B18` com o que falta, e a dívida dos `256` fechada.*
+- **O `LEIA-ME-o-livro.md` do Bestiário** parou de copiar a paginação, *pelo mesmo motivo da v0.169: paginação é do PDF construído.*
+- **O `README.md` do livro da Guilda** lista as faces do IBM Plex Mono que o build precisa.
+- **Os PDFs dos dois livros**, refeitos com a fonte.
+
+### Achado e não consertado
+
+- **O título de tabela larga que fica no pé da página**, *na seção 3.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
+
+---
+
 ## [0.235] — 14/09/2026
 
 **Os três achados da v0.234 no Bestiário fecharam.** *O capítulo 6 do livro ganhou a coluna do `Controlador` e do `Reforço`, a Hitotsume virou `Emboscador`, e cada pronta passou a declarar com que atributo ataca e onde entra cada ponto de marco.*

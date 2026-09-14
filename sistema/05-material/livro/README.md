@@ -51,7 +51,9 @@ PDF"*. É esse PDF, escrito direto a partir desta pasta.
 Precisa de `markdown`, `beautifulsoup4`, `weasyprint` e `python-docx` (`pip install` os
 quatro). E das fontes do projeto instaladas no sistema — Barlow Condensed (Regular,
 SemiBold, Bold), Spectral (Regular, Italic, SemiBold, SemiBold Italic), IBM Plex Mono
-(Regular) e Noto Serif CJK (para os kanjis de abertura de capítulo). Sem elas o WeasyPrint
+(Regular, Italic, SemiBold e SemiBold Italic) e Noto Serif CJK (para os kanjis de abertura de
+capítulo). *O negrito do livro é peso `600` e cai dentro de crase o tempo todo: só com a Regular
+do IBM Plex Mono o monoespaçado sai em DejaVu, e foi assim da v0.218 à v0.235.* Sem elas o WeasyPrint
 cai para uma fonte substituta e a diagramação sai errada, sem avisar.
 
 ```bash

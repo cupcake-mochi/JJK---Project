@@ -31,10 +31,12 @@ python3 guard_numeros.py <antes> <depois> # nenhum número de regra pode mudar
 **Os dois primeiros têm de rodar antes do terceiro.** *Eles injetam conteúdo nos capítulos `6` e `8`,
 entre as marcas `<!-- TABELAS -->` e `<!-- FICHAS -->`.*
 
-| saída | páginas |
+| saída | variante |
 |---|---|
-| `Projeto-M-Bestiario.pdf` | `53` — coluna única |
-| `Projeto-M-Bestiario-duas-colunas.pdf` | `30` — duas colunas |
+| `Projeto-M-Bestiario.pdf` | coluna única |
+| `Projeto-M-Bestiario-duas-colunas.pdf` | duas colunas |
+
+*A paginação não tem cópia aqui: ela é do PDF construído. Até a v0.235 esta tabela dizia `53` e `30`, e os PDFs tinham `61` e `35`.*
 
 ---
 
