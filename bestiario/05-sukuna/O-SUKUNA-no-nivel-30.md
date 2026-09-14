@@ -1,6 +1,6 @@
 # O Sukuna, remontado no nível 30
 
-*13/09/2026, v0.229 do repositório.* **Nenhum número nasce neste arquivo:** *todos saem de `montar-o-sukuna.py`, e a saída inteira está em `SAIDA-o-sukuna-nv30.txt`.* **O `O-SUKUNA-no-rascunho-5.md` continua como o teste de 10/09, no nível 20, e é lá que mora a comparação com a mesa de 07/09.**
+*13 e 14/09/2026, v0.229 e v0.230 do repositório.* **Nenhum número nasce neste arquivo:** *todos saem de `montar-o-sukuna.py`, e a saída inteira está em `SAIDA-o-sukuna-nv30.txt`.* **O `O-SUKUNA-no-rascunho-5.md` continua como o teste de 10/09, no nível 20, e é lá que mora a comparação com a mesa de 07/09.**
 
 ## O que mudou desde o rascunho 5
 
@@ -9,10 +9,20 @@
 | **nível** | `20` | **`30`** | ***decisão do Mizuki:*** *"sobe o sukuna pra Nv30"* — no `30` o refino da curva já é o do gate |
 | **Integridade** | igual à vida | **metade da vida** | peça 24 §3.3, v0.228 |
 | **o Santuário** | Intervenção sem preço, tratado como incompleta, raio `18 m` | **Expansão sem Barreiras**: raio `200 m`, `5` rodadas, Acerto garantido | peça 26 §6.4, v0.229 |
-| **o encontro** | `8` pessoas | **`15,4` pessoas** | ***decisão do Mizuki:*** *"é esperado o encontro ficar maior nesse caso"* — nada no bloco é dividido |
+| **a Chama Divina** | a rodada inteira repartida em `3` alvos, `90` cada | **`Recarga` pela regra nova: `2,5` golpes em cada alvo, `18d12 + 50`** | peça 26 §6.5, v0.230 |
+| **o encontro** | `8` pessoas | **`21,0` pessoas** | `8 × 1,92` da Expansão `× 1,37` da `Recarga` |
 | **os papéis** | `Guardião` · `Apoio` | `Baluarte` · `Reforço` | triagem de nome da v0.224; o script parou de rodar ali |
 
-## A ficha, com o que a máquina deriva
+## As quatro escolhas, fechadas em 14/09
+
+| | a decisão | de onde sai o número |
+|---|---|---|
+| **os `4` pontos livres** | **Força `0` · Constituição `2` · Inteligência `2`** — *"sem Força", porque ela não faz nada para ele* | o script confere que fecham: `3` na criação e `1` em marco |
+| **a `Técnica Reversa`** | **cura `90` no lugar de uma ação** — *"essa métrica já tinha sido calculada anteriormente, use ela de base"* | o empate da peça 26 §6.5: a vida `1620` ÷ a luta de `3` rodadas ÷ `6` ações |
+| **a `Chama Divina`** | **Explosão de `3 m` que só mira um oponente fora do Santuário, e todo mundo nos `200 m` dentro** — *"é um dano em área que só pode ser usado em um alvo"* | a Forma do manual na `Classe 4`; o dano é o da `Recarga` |
+| **o voto da barreira aberta** | **sai** | desde a v0.226 ele compraria o que o degrau já dá |
+
+## A ficha
 
 > ### Sukuna, o Rei Amaldiçoado
 >
@@ -22,35 +32,43 @@
 >
 > **Vida** `1620` · **Integridade** `810` · **Deslocamento** `9 m`
 >
-> **Destreza** `6` *(Iniciativa)* · **Essência** `6` · ⏳ *os outros três, com `4` pontos livres*
+> **Força** `0` · **Destreza** `6` *(Iniciativa)* · **Constituição** `2` · **Inteligência** `2` · **Essência** `6`
 >
-> **Físico** treinado · **Espírito** treinado · **Vigor** — · **Intelecto** —
+> **Físico** treinado · **Vigor** — · **Intelecto** — · **Espírito** treinado
 >
-> **Perícias** `Ocultismo` · ⏳ *as outras*
+> **Resistências** — · **Imunidades** — · **Vulnerabilidades** — · **Perícias** `Ocultismo` · `Intimidação` · `Percepção`
+>
+> **Traços**
+>
+> **Quatro Braços.** Ele conjura e ataca no mesmo turno: dois braços fazem o Selo enquanto dois lutam, e a boca do abdômen recita sem prender a respiração. Cada braço é alvo destrutível, e destruir um tira `1` das ações múltiplas dele.
+>
+> **Técnica Reversa.** No lugar de uma ação, ele cura `90` em si mesmo.
 >
 > **Ações**
 >
-> **Ações Múltiplas.** Ele age `6` vezes por rodada.
+> **Ações Múltiplas.** Ele faz seis ações, escolhendo entre `Desmembrar`, `Clivar` e `Teia de Aranha`, com no máximo uma `Teia de Aranha` por rodada.
 >
-> **Desmembrar.** *Ataque de conjuração:* `+10` para acertar, um alvo. *Acerto:* `67 (6d10 + 34)` de dano cortante. Corta qualquer coisa, com ou sem energia amaldiçoada.
+> **Desmembrar.** *Ataque de conjuração:* `+10` para acertar, alcance `18 m`, um alvo. *Acerto:* `67 (6d10 + 34)` de dano Cortante. Corta qualquer coisa, com ou sem energia amaldiçoada.
 >
-> **Clivar.** *Ataque de conjuração:* `+10` para acertar, alcance `1,5 m`, um alvo com energia amaldiçoada. *Acerto:* `54 (12d8)` de dano cortante, e o alvo fica `Impedido`. Não funciona em quem não tem energia amaldiçoada.
+> **Clivar.** *Ataque de conjuração:* `+10` para acertar, alcance `1,5 m`, um alvo com energia amaldiçoada. *Acerto:* `54 (12d8)` de dano Cortante, e o alvo fica `Impedido`. Não funciona em quem não tem energia amaldiçoada.
 >
-> **Teia de Aranha.** *Teste de Resistência Físico:* CD `18`, cada criatura numa `Esfera` de raio `9 m` a partir do chão que ele toca. *Falha:* `45 (10d8)` de dano de Concussão, e `Derrubado`. *Sucesso:* metade do dano, e não cai.
+> **Teia de Aranha.** *Teste de Resistência Físico:* CD `18`, cada criatura numa `Esfera` de raio `3 m` a partir do chão que ele toca. *Falha:* `45 (10d8)` de dano de Concussão, e `Derrubado`. *Sucesso:* metade do dano, e não cai.
+>
+> **Chama Divina (Recarga 5-6) (depois de Desmembrar e Clivar).** Ela ocupa as ações múltiplas do turno. *Teste de Resistência Físico:* CD `18`. Fora do Santuário, uma `Esfera` de raio `3 m` num ponto a até `18 m`, e ele só a usa se houver um único oponente na área; dentro, cada criatura no raio do Santuário. *Falha:* `167 (18d12 + 50)` de dano de Fogo. *Sucesso:* metade do dano.
 >
 > **Intervenções**
 >
 > Três por luta, cada uma usada uma vez. Sai no máximo uma por rodada, logo depois do turno de outra criatura.
 >
-> **Santuário Malévolo.** Ele abre o domínio sem fechar barreira, num raio de `200 m`, e o centro fica onde ele está. Por `5` rodadas, `Desmembrar` e `Clivar` acertam sem rolagem e sem Teste de Resistência em quem estiver dentro, e `Clivar` dispensa o alcance. Quem sai do raio sai do Acerto. O domínio acaba pelo tempo, pela disputa com outro domínio, pela concentração ou com ele em `0` de vida.
+> **1. Desmembrar Dobrado.** Ele faz um `Desmembrar` fora do turno.
+>
+> **2. Santuário Malévolo.** Ele abre o domínio sem fechar barreira, num raio de `200 m`, e o centro fica onde ele está. Por `5` rodadas, `Desmembrar` e `Clivar` acertam sem rolagem e sem Teste de Resistência em quem estiver dentro, e `Clivar` dispensa o alcance. Quem sai do raio sai do Acerto. O domínio acaba pelo tempo, pela disputa com outro domínio, pela concentração ou com ele em `0` de vida.
+>
+> **3. Amplificação de Domínio.** Ele estende a própria técnica sobre a pele e apaga o efeito de toda técnica inimiga que encostar nele até o fim da próxima rodada. Enquanto isso as mãos dele estão ocupadas: ele não usa `Chama Divina` nem abre domínio.
 
-*A `Esfera` de `9 m` é a área natural do nível `25` a `30`, na peça 26 §6.5.* **O `Artilheiro` ganha alcance e não tem célula**, *e o alcance do `Desmembrar` fica para o bloco de livro.*
+*O bloco não imprime linha de `Pacto`: o único voto que sobrou é o da `Chama Divina`, e ele mora na ação.*
 
-## O que falta para o bloco de livro — escolha do Mizuki
+## O que este bloco ainda não tem
 
-| # | o que | o que a regra já diz |
-|---|---|---|
-| **1** | **os `4` pontos livres de atributo** | *as duas obrigadas comem `12` dos `16` pontos e `6` dos `7` marcos; no rascunho 5 os livres foram espalhados para nenhum atributo ficar em `0`* |
-| **2** | **a `Técnica Reversa`** | *no rascunho 5 era cura de `70`, e nenhuma régua escrita dá esse número; a peça 26 §6.5 mede a cura do inimigo contra a vida dele, e ela empata em um terço* |
-| **3** | **a `Chama Divina`** | *era "linha de `18 m`", e a `Linha` não existe mais entre as áreas de inimigo — são `Esfera`, `Cone` e `Retângulo`, com o `Cone` de `22,5 m` no nível `30`; repartida em `3`, ela entrega `135 (8d12 + 83)` por alvo, e só `39%` disso é dado, abaixo da metade que a peça 26 §4.4 pede* |
-| **4** | **o voto da "barreira aberta"** | *ele pagava a fuga e ganhava o raio; desde a v0.226 isso é o degrau da Expansão sem Barreiras, e o pacto passaria a comprar o que a regra já dá* |
+- **O `Quatro Braços` e a `Amplificação de Domínio` vieram do rascunho 5 sem passar por conta.** *O primeiro troca ação por alvo destrutível, e o segundo apaga técnica por uma rodada; nenhum dos dois tem preço na peça 26.*
+- **O `Desmembrar` herdou `18 m` do Projétil da `Classe 4`**, *e o `Artilheiro` diz que ganha alcance sem dizer quanto.*

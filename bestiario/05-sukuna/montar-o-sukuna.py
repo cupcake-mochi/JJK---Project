@@ -45,6 +45,8 @@ NIVEL = 30
 CATEGORIA = 'Calamidade'
 TAMANHO = 'Médio'
 PAPEL_ESCOLHIDO = 'Artilheiro'
+# v0.230: os pontos livres, por decisao do Mizuki — a Forca nao faz nada para ele
+COR = {'Força': 0, 'Constituição': 2, 'Inteligência': 2}
 
 _cache = {}
 
@@ -606,6 +608,20 @@ elif marcos_gastos == len(marcos_ate):
     linha(f'    O §3.2 promete que "os nove pontos compram cor, e não tamanho" — no nv{NIVEL} eles')
     linha(f'    compram {livre} de {orcamento}. A promessa é verdadeira e pequena.')
 
+# os pontos livres: escolha do Mizuki, conferida contra o orçamento e os tetos da peça 2
+_criacao_livre = PONTOS_CRIACAO - min(dex_obrigada, CRIACAO_TETO) - min(int(atrib_tecnica), CRIACAO_TETO)
+_marco_livre = len(marcos_ate) - marcos_gastos
+# cada atributo se parte em criação (até o teto da criação) e marco: o que passa do teto
+# tem de sair de marco, e o total tem de caber nos dois bolsos juntos
+_marco_minimo = sum(max(0, v_ - CRIACAO_TETO) for v_ in COR.values())
+_em_marco = max(_marco_minimo, sum(COR.values()) - _criacao_livre)
+_na_criacao = sum(COR.values()) - _em_marco
+linha()
+linha('  os livres, escolhidos:  ' + ' · '.join(f'{k} {v_}' for k, v_ in COR.items()))
+COR_FECHA = (sum(COR.values()) == livre and all(v_ <= ATRIB_TETO for v_ in COR.values())
+             and _na_criacao <= _criacao_livre and _em_marco <= _marco_livre)
+linha(f'  {"fecham" if COR_FECHA else "NÃO FECHAM"}: {sum(COR.values())} de {livre:.0f} pontos — {_na_criacao} na criação (sobravam {_criacao_livre}) e {_em_marco} em marco (sobrava {_marco_livre})')
+
 # ────────────────────────────────────────────────────────────────────────────
 bloco('A FICHA — o que vai em cada célula do bloco')
 # ────────────────────────────────────────────────────────────────────────────
@@ -628,6 +644,17 @@ linha(f'  Ações Múltiplas      ({ac})')
 linha(f'  Intervenções         3 por luta, 1 por rodada')
 linha()
 linha(f'  dano por rodada      {round(dm)}   — NÃO é célula: é `o golpe` × ações, e derivável não ganha célula')
+
+# ────────────────────────────────────────────────────────────────────────────
+bloco('A TÉCNICA REVERSA — a cura no lugar de uma ação, pelo empate da peça 26 §6.5')
+# ────────────────────────────────────────────────────────────────────────────
+pega(P26, r'O inimigo que se cura empata em `\d+`, que é um terço da vida dele', 'o empate da cura do inimigo')
+LUTA_REV = n(pega(P26, r'contra as `(\d+,\d+)` que a categoria promete', 'a luta que a categoria promete').group(1))
+CURA_RODADA = v / LUTA_REV
+CURA_ACAO = round(CURA_RODADA / ac)
+linha(f'  gastar a rodada inteira empata em curar a vida ÷ a luta   {round(v)} ÷ {LUTA_REV:.2f} = {CURA_RODADA:.0f}')
+linha(f'  a Técnica Reversa troca UMA das {ac} ações                   {CURA_RODADA:.0f} ÷ {ac} = {CURA_ACAO}')
+linha(f'  ⟹  ela cura {CURA_ACAO} no lugar de uma ação — o empate: não ganha nem perde')
 
 # ────────────────────────────────────────────────────────────────────────────
 bloco('O SANTUÁRIO MALÉVOLO — a Expansão sem Barreiras, pela peça 26 §6.4')
@@ -659,6 +686,35 @@ linha(f'  a `{CATEGORIA}` exige          {PESSOAS} pessoas')
 linha(f'  com o Santuário               {PESSOAS} × {MULT_SEM:.2f}' + (f' × {FATOR_DESVIO:.2f}' if FATOR_DESVIO != 1 else '') + f' = {ENCONTRO:.1f} pessoas')
 linha(f'  ⚠ A Expansão aumenta o encontro e não se compensa — decisão do Mizuki na v0.229, peça 26 §6.4.')
 linha(f'    Nada no bloco é dividido: o golpe fica na banda, e o domínio é o que faz a luta ser de {ENCONTRO:.1f}.')
+
+# ────────────────────────────────────────────────────────────────────────────
+bloco('A CHAMA DIVINA E O ALCANCE — a Recarga, pela peça 26 §6.5')
+# ────────────────────────────────────────────────────────────────────────────
+PARTC = 'manual/gerador/partC.js'
+_cab = pega(PARTC, r"TBL\(\['Forma', 'Classe (\d+)', 'Classes (\d+)–(\d+)', 'Classes (\d+)–(\d+)'\]", 'as faixas de Classe da tabela de alcance')
+_faixas_cls = [(int(_cab.group(1)), int(_cab.group(1)), 1), (int(_cab.group(2)), int(_cab.group(3)), 2), (int(_cab.group(4)), int(_cab.group(5)), 3)]
+_col = next(c for lo, hi, c in _faixas_cls if lo <= CLASSE_ACAO <= hi)
+_lin_p = pega(PARTC, r"\['Projétil e Toque\*', '([^']+)', '([^']+)', '([^']+)'\]", 'o alcance do Projétil por Classe')
+_lin_e = pega(PARTC, r"\['Explosão', '(raio [^']+)', '(raio [^']+)', '(raio [^']+)'\]", 'a Explosão na base por Classe')
+ALCANCE = _lin_p.group(_col)
+EXPLOSAO = _lin_e.group(_col)
+K_REC = n(pega(P26, r'cada alvo leva `([\d,]+) ×` o golpe na falha', 'o multiplicador da `Recarga`').group(1))
+pega(P26, r'Ela come as ações múltiplas do turno — não come a `Intervenção`, a Ação Bônus nem a Reação', 'o que a `Recarga` come')
+DADO_REC = int(pega(P26, r'Ela rola em `d(\d+)`, com dois terços do dano em dado e o resto fixo', 'os dados da `Recarga`').group(1))
+pega(P26, r'A `Recarga` não passa pelo orçamento de feitiço do §6.5', 'a forma da `Recarga` não gasta ponto')
+FATOR_REC = n(pega(P26, r'\| \*\*`%s`\*\* \| `\d+` \| `\d+` \| `[\d,]+ ×`(?: a comum)? \| `× ([\d,]+)` \|' % CATEGORIA, 'o fator da `Recarga` da categoria').group(1))
+CHAMA = int(K_REC * med)                    # o que ele tira desce, peça 1 §5.4
+# dois terços em dado, no dado da peça, com o número que chega mais perto sem fração no fixo
+_m_rec = (DADO_REC + 1) / 2
+_nd_ch = min((abs(k * _m_rec / CHAMA - 2 / 3), k) for k in range(1, 200)
+             if CHAMA - k * _m_rec >= 0 and abs((CHAMA - k * _m_rec) % 1) < 1e-9)[1]
+_txt_ch = f'{_nd_ch}d{DADO_REC} + {int(CHAMA - _nd_ch * _m_rec)}'; _pct_ch = _nd_ch * _m_rec / CHAMA
+linha(f'  o alcance da ação             {ALCANCE}            o Projétil da `Classe {CLASSE_ACAO}`, no manual')
+linha(f'  a Chama Divina                Recarga (5-6): come as {ac} ações do turno, e não a Intervenção')
+linha(f'  o dano por alvo               {K_REC} × o golpe {med:.0f} = {CHAMA}  →  `{_txt_ch}`  ({_pct_ch:.0%} em dado)')
+linha(f'  fora do Santuário             Explosão ({EXPLOSAO}), e só pode mirar um oponente — o voto da obra')
+linha(f'  dentro do Santuário           cada criatura no raio de {RAIO_SEM} m')
+linha(f'  o encontro                    {PESSOAS} × {MULT_SEM:.2f} da Expansão × {FATOR_REC:.2f} da Recarga = {PESSOAS * MULT_SEM * FATOR_REC:.1f} pessoas')
 
 # ────────────────────────────────────────────────────────────────────────────
 bloco('AS AÇÕES DELE — cada uma montada no orçamento DELA')
@@ -795,6 +851,9 @@ confere('o golpe cabe na mão', int(txt.split('d')[0]) <= TETO_DADOS,
 confere('a categoria tem `Intervenção`', TEM_INT[CATEGORIA], f'`{CATEGORIA}` — de `Desastre` pra cima')
 confere('o orçamento passa do piso', pontos >= PISO_PONTOS,
         f'{pontos:.1f} pontos  ·  piso {PISO_PONTOS:.0f}')
+confere('os pontos livres fecham', COR_FECHA, ' · '.join(f'{k} {v_}' for k, v_ in COR.items()))
+confere('a Chama tem dois terços em dado', abs(_pct_ch - 2 / 3) < 0.05,
+        f'`{_txt_ch}` = {CHAMA}  ·  {_pct_ch:.0%} em dado')
 confere('o Santuário cabe no gate', REFINO_SANT >= GATE_SEM,
         f'refino {REFINO_SANT}  ·  gate {GATE_SEM}' + ('' if FATOR_DESVIO == 1 else f'  ·  desvio × {FATOR_DESVIO:.2f}'))
 confere('o Santuário cobre a luta', DURACAO >= LUTA, f'{DURACAO} rodadas  ·  luta {LUTA:.2f}')

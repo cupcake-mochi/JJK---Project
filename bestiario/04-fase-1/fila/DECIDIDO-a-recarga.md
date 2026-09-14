@@ -133,6 +133,8 @@ TPK**, mas posso estar errado."*
 
 ---
 
+> ✅ **v0.230, 14/09/2026 — a regra publicada.** *A peça 26 dizia que a `Recarga` "ocupa uma das ações dele", e isso era erro de travessia desta decisão.* **Agora ela ocupa as ações múltiplas do turno, e cada alvo leva `2,5 ×` o golpe** — *régua de vida, medida em `MEDIDA-a-recarga-contra-a-vida.md`, e paga no fator pelo método do `Guia do Mestre` de 2014.*
+
 # ⚠ CORREÇÃO — a `Recarga` NÃO come tudo. Come grande parte.
 
 ***Ele, 10/09/2026:*** *"essas ações de recarga comem a rodada toda? tenho quase certeza que ele ainda

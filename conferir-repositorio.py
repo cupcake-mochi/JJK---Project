@@ -1047,7 +1047,11 @@ else:
     # v0.227 — o `conferir-alma.py` na peca 24 §3.1, "nome de validador" — estourou.
     # O conserto foi a regra da v0.221, e nao subir o teto: as cinco linhas dizem "no
     # gerador", como as da tabela 7.2 logo acima. Fica 172 + 1 = 173.
-    BRANCAS_AQUI, FOLGA = 173, 5
+    # v0.230: 173 -> 174, MEDIDO simulando a entrega sincronizada. A nova e UMA: a peca 26
+    # §6.5 cita a `bestiario/04-fase-1/fila/MEDIDA-a-recarga-contra-a-vida.md`, onde mora a
+    # medicao de campo da Recarga. E a familia `bestiario/.*`, ja declarada, e nao e
+    # material de mesa.
+    BRANCAS_AQUI, FOLGA = 174, 5
     PISO_CITACOES, TETO_BRANCOS = 120, BRANCAS_AQUI + FOLGA
     if vistos_e < PISO_CITACOES:
         erro(f'7.2: achei so {vistos_e} citacoes na entrega, e o piso e {PISO_CITACOES} — '

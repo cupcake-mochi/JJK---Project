@@ -52,6 +52,8 @@
 
 ## E por que a `Recarga` sai da cota
 
+> ⚠ **Superado na v0.230.** *A tabela abaixo conta a `Recarga` como uma ação, e a decisão de 10/09 era que ela come o turno.* **A regra publicada está na peça 26 §6.5**, *com `2,5 ×` o golpe em cada alvo e o preço no fator.*
+
 | categoria | em Recarga, por alvo por ação | derruba a mesa? |
 |---|---|---|
 | `Capanga` · `Ameaça` | `0,225` | **não** |

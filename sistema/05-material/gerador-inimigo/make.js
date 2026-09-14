@@ -450,7 +450,7 @@ function tabelas() {
   out.push(TBL(['nível', 'cobre', 'Esfera', 'Cone', 'Retângulo'],
     X.AREA_NATURAL.map(([a, b, q, esf, cone, ret]) => [`${a} a ${b}`, `${q} quadrados`, `raio ${esf}`, cone, ret.join(' · ')]),
     [14, 18, 16, 16, 36], { centerCols: [0, 1, 2, 3], boldCols: [0] }));
-  out.push(NOTA('No máximo uma ação em área por rodada, e a de `Recarga` não conta. O `Cone` sai sempre do corpo dele, e a largura em qualquer ponto é igual à distância até ele.'));
+  out.push(NOTA('No máximo uma ação em área por rodada, e a de `Recarga` não conta. A `Recarga` ocupa as ações múltiplas do turno, e cada alvo leva `2,5 ×` o golpe na falha, metade no sucesso. O `Cone` sai sempre do corpo dele, e a largura em qualquer ponto é igual à distância até ele.'));
   return out;
 }
 

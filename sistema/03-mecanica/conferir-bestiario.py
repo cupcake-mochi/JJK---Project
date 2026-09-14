@@ -1401,6 +1401,128 @@ else:
 
 
 # --------------------------------------------------------------------------
+bloco('9.7 A RECARGA — ela come o turno, bate 2,5 golpes em cada alvo, e se paga no fator')
+# --------------------------------------------------------------------------
+# v0.230. Ate a v0.229 a peca dizia que a Recarga "ocupa uma das acoes dele" — erro de
+# travessia da decisao de 10/09, que dizia "come o turno" no sentido do D&D. O Mizuki
+# decidiu em 14/09 que ela bate 2,5 golpes por alvo, e que se paga no fator pelo metodo
+# do Guia do Mestre de 2014 (tres rodadas, a area conta 2 alvos numa mesa de 4).
+# Nada de valor mora aqui: o multiplicador, a banda, o d6, a luta, a mesa do D&D, as
+# pessoas e as acoes de cada categoria e a medicao de campo sao lidos dos donos.
+_REC = TXT[TXT.find('#### A `Recarga` — ela come o turno'):TXT.find('#### A área natural')]
+_ruins97 = []
+if not _REC:
+    erro('9.7: nao achei a subsecao da `Recarga` no §6.5')
+else:
+    _k = re.search(r'cada alvo leva `([\d,]+) ×` o golpe na falha', _REC)
+    _come = re.search(r'Ela come as ações múltiplas do turno — não come a `Intervenção`, a Ação Bônus nem a Reação', _REC)
+    _dados = re.search(r'Ela rola em `d(\d+)`, com dois terços do dano em dado e o resto fixo, sem o teto de oito dados do golpe', _REC)
+    _ex = re.search(r'Um golpe de `(\d+)` vira `(\d+)`, que é `(\d+)d(\d+) \+ (\d+)`', _REC)
+    _banda_p = re.search(r'O golpe fica entre `(\d+)%` e `(\d+)%` da vida.*?tira de `(\d+)%` a `(\d+)%` dela', _REC, re.S)
+    _dnd = re.search(r'uma área conta como se pegasse `(\d+)` alvos numa mesa de `(\d+)`', _REC)
+    _luta = re.search(r'Com a luta de `(\d+)` rodadas e `([\d,]+)` disparos', _REC)
+    _d6 = re.search(r'volta no começo do turno dele com `(\d)` ou `(\d)` no `d6`', _REC)
+    if not (_k and _come and _dados and _ex and _banda_p and _dnd and _luta and _d6):
+        erro('9.7: a subsecao da `Recarga` perdeu uma das frases que esta checagem le — o multiplicador, '
+             'o que ela come, os dados, a banda, a mesa do D&D, a luta ou o d6')
+    else:
+        K = float(_k.group(1).replace(',', '.'))
+        # os dados: dois tercos em dN, o numero de dados que chega mais perto sem deixar fracao no fixo
+        _f = int(_dados.group(1)); _g = int(_ex.group(1)); _tot = int(K * _g)
+        _cands = [(abs(n * (_f + 1) / 2 / _tot - 2 / 3), n) for n in range(1, 200)
+                  if _tot - n * (_f + 1) / 2 >= 0 and abs((_tot - n * (_f + 1) / 2) % 1) < 1e-9]
+        if not _cands:
+            _ruins97.append(f'nenhum numero de d{_f} fecha {_tot} sem fracao no fixo')
+        else:
+            _nd = min(_cands)[1]; _fx = int(_tot - _nd * (_f + 1) / 2)
+            if (int(_ex.group(2)), int(_ex.group(3)), int(_ex.group(4)), int(_ex.group(5))) != (_tot, _nd, _f, _fx):
+                _ruins97.append(f'o exemplo diz {_ex.group(2)} = {_ex.group(3)}d{_ex.group(4)} + {_ex.group(5)}, e a regra da '
+                                f'{K} × {_g} = {_tot} = {_nd}d{_f} + {_fx}')
+        # a banda do golpe e do Bestiario (DECIDIDO-o-capanga §1)
+        try:
+            _cap = open(os.path.join(RAIZ, 'bestiario/04-fase-1/fila/DECIDIDO-o-capanga.md'), encoding='utf-8').read()
+            _bd = re.search(r'A banda do `o golpe` vira \*\*`(\d+)%`–`(\d+)%`\*\*', _cap)
+        except OSError:
+            _bd = None
+        if not _bd:
+            _ruins97.append('nao achei a banda do golpe no DECIDIDO-o-capanga do Bestiario')
+        else:
+            b0, b1 = int(_bd.group(1)), int(_bd.group(2))
+            if (int(_banda_p.group(1)), int(_banda_p.group(2))) != (b0, b1):
+                _ruins97.append(f'a peca diz a banda {_banda_p.group(1)}–{_banda_p.group(2)}% e o Bestiario diz {b0}–{b1}%')
+            # para baixo: o que o inimigo tira e o que ele ganha, pela regra de arredondamento da peca 1 §5.4
+            if (int(_banda_p.group(3)), int(_banda_p.group(4))) != (int(K * b0), int(K * b1)):
+                _ruins97.append(f'a peca diz que a Recarga tira {_banda_p.group(3)}–{_banda_p.group(4)}%, e {K} × a banda da '
+                                f'{int(K * b0)}–{int(K * b1)}%')
+        # os disparos saem do d6 e da luta
+        L = int(_luta.group(1))
+        _p = (7 - int(_d6.group(1))) / 6
+        _disp = 1 + (L - 1) * _p
+        _luta_peca = re.search(r'contra as `(\d+),(\d+)` que a categoria promete', TXT)
+        if _luta_peca and int(_luta_peca.group(1)) != L:
+            _ruins97.append(f'a Recarga usa luta de {L} rodadas e o §6.3 promete {_luta_peca.group(1)}')
+        if abs(round(_disp, 2) - float(_luta.group(2).replace(',', '.'))) > 1e-9:
+            _ruins97.append(f'a peca publica {_luta.group(2)} disparos, e 1 + ({L} − 1) × {_p:.3f} da {_disp:.2f}')
+        # a tabela do fator, contra as pessoas e as acoes do §4
+        _meia = int(_dnd.group(1)) / int(_dnd.group(2))
+        _cat = {}
+        for _l in TXT.split('\n'):
+            _m = re.match(r'^\| \*\*`(\w+)`\*\* \| (\d+) \| `× [\d,]+` \| `(\d+)` \| (?:sim|não) \|$', _l)
+            if _m: _cat[_m.group(1)] = (int(_m.group(2)), int(_m.group(3)))
+        _linhas = re.findall(r'^\| \*\*`(\w+)`\*\* \| `(\d+)` \| `(\d+)` \| `([\d,]+) ×`(?: a comum)? \| `× ([\d,]+)` \|$', _REC, re.M)
+        if len(_linhas) != len(_cat) or not _cat:
+            _ruins97.append(f'a tabela do fator tem {len(_linhas)} categorias e o §4 tem {len(_cat)} com personagens')
+        for _n, _pe, _ac, _r, _f in _linhas:
+            if _n not in _cat:
+                _ruins97.append(f'a tabela do fator tem `{_n}`, que o §4 nao tem com personagens'); continue
+            pe, ac = _cat[_n]
+            r = K * pe * _meia / ac
+            M = (_disp * r + (L - _disp)) / L
+            if (int(_pe), int(_ac)) != (pe, ac):
+                _ruins97.append(f'`{_n}`: a tabela diz {_pe} personagens e {_ac} acoes, e o §4 diz {pe} e {ac}')
+            if abs(round(r, 2) - float(_r.replace(',', '.'))) > 1e-9 or abs(round(M, 2) - float(_f.replace(',', '.'))) > 1e-9:
+                _ruins97.append(f'`{_n}`: a tabela diz rodada {_r}× e fator {_f}, e a conta da {r:.2f}× e {M:.2f}')
+        # a medicao de campo, contra a MEDIDA do Bestiario
+        try:
+            _med = open(os.path.join(RAIZ, 'bestiario/04-fase-1/fila/MEDIDA-a-recarga-contra-a-vida.md'), encoding='utf-8').read()
+        except OSError:
+            _med = ''
+        _campo_p = re.search(r'D&D 2024 no topo tira `(\d+)%`, a área limitada do Pathfinder 2e tira `(\d+)%` a `(\d+)%`, e a `Villain Action` do Draw Steel tira `(\d+)%`', _REC)
+        _campo_m = [re.search(r'\| \*\*%s\*\* \|[^\n]*\| \*\*`(\d+)%%`\*\*' % s, _med) for s in ('D&D 2024', 'Draw Steel')]
+        _pf_m = re.findall(r'\| \*\*Pathfinder 2e\*\* \|[^\n]*\| \*\*`(\d+)%`\*\*', _med)
+        if not (_campo_p and all(_campo_m) and len(_pf_m) == 2):
+            _ruins97.append('nao consegui ler a medicao de campo na peca ou na MEDIDA do Bestiario')
+        elif (int(_campo_p.group(1)), int(_campo_p.group(2)), int(_campo_p.group(3)), int(_campo_p.group(4))) != \
+                (int(_campo_m[0].group(1)), int(_pf_m[0]), int(_pf_m[1]), int(_campo_m[1].group(1))):
+            _ruins97.append('a medicao de campo que a peca cita nao e a que a MEDIDA do Bestiario publica')
+    # a guarda: o erro de travessia nao volta
+    if re.search(r'ocupa uma das ações dele — não vem por cima|Cobrar a cota em cima seria cobrar duas vezes', TXT):
+        _ruins97.append('voltou a frase de que a Recarga ocupa uma das acoes e ja se paga sozinha — saiu na v0.230')
+    # e o preco da Melhoria na tecnica: a maior Classe que cabe
+    _mc = re.search(r'o preço de cada Melhoria usa a maior Classe que cabe nesse orçamento\.\*\* \*Decisão do Mizuki, v0\.230: numa ação de `(\d+),(\d)` pontos a Classe é a `(\d+)`, e uma `Leve` custa `(\d+)`', TXT)
+    try:
+        _pf = open(os.path.join(RAIZ, 'manual/gerador/partF.js'), encoding='utf-8').read()
+        _cls = {int(x): int(y) for x, y in re.findall(r"H2\('Classe (\d+) · (\d+) pontos", _pf)}
+    except OSError:
+        _cls = {}
+    if not (_mc and _cls):
+        _ruins97.append('a peca parou de dizer que o preco da Melhoria usa a maior Classe que cabe, ou o manual perdeu a escada de Classe')
+    else:
+        _pt = float(f'{_mc.group(1)}.{_mc.group(2)}')
+        _c = max(c for c, p in _cls.items() if p <= _pt)
+        if _c != int(_mc.group(3)) or -(-_c // 2) != int(_mc.group(4)):
+            _ruins97.append(f'com {_pt} pontos a maior Classe que cabe e a {_c}, e a Leve dela custa {-(-_c // 2)}')
+    if _ruins97:
+        for _r in _ruins97:
+            erro('9.7: ' + _r)
+    else:
+        print(f'  [x] a Recarga come o turno, bate {K} golpes por alvo, e o exemplo dos dados sai da regra dos dois tercos em d12')
+        print(f'  [x] {K} × a banda do golpe do Bestiario da o que a peca publica, e a medicao de campo e a da MEDIDA')
+        print(f'  [x] {_disp:.2f} disparos saem do d6 e da luta de {L}; a tabela do fator reconstroi nas {len(_linhas)} categorias')
+        print(f'  [x] a frase do erro de travessia nao voltou, e o preco da Melhoria usa a maior Classe que cabe')
+
+
+# --------------------------------------------------------------------------
 bloco('10. O PAPEL — ele redistribui a base, e os seis fecham em 1,000')
 # --------------------------------------------------------------------------
 # O §3.4 publica duas tabelas: a dos seis papeis, com o que cada um ganha e

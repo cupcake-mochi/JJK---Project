@@ -148,6 +148,9 @@ OS ATRIBUTOS — eles não se escolhem: as três derivadas OBRIGAM eles
 
   ⟹  sobram 4.0 ponto(s) de 16 pra COR, e 1 marco(s) de 7.
 
+  os livres, escolhidos:  Força 0 · Constituição 2 · Inteligência 2
+  fecham: 4 de 4 pontos — 3 na criação (sobravam 3) e 1 em marco (sobrava 1)
+
 ================================================================================================
 A FICHA — o que vai em cada célula do bloco
 ================================================================================================
@@ -167,6 +170,13 @@ A FICHA — o que vai em cada célula do bloco
   dano por rodada      404   — NÃO é célula: é `o golpe` × ações, e derivável não ganha célula
 
 ================================================================================================
+A TÉCNICA REVERSA — a cura no lugar de uma ação, pelo empate da peça 26 §6.5
+================================================================================================
+  gastar a rodada inteira empata em curar a vida ÷ a luta   1620 ÷ 3.00 = 540
+  a Técnica Reversa troca UMA das 6 ações                   540 ÷ 6 = 90
+  ⟹  ela cura 90 no lugar de uma ação — o empate: não ganha nem perde
+
+================================================================================================
 O SANTUÁRIO MALÉVOLO — a Expansão sem Barreiras, pela peça 26 §6.4
 ================================================================================================
   o gate                        refino 10          manual, a tabela dos três degraus
@@ -179,6 +189,16 @@ O SANTUÁRIO MALÉVOLO — a Expansão sem Barreiras, pela peça 26 §6.4
   com o Santuário               8 × 1.92 = 15.4 pessoas
   ⚠ A Expansão aumenta o encontro e não se compensa — decisão do Mizuki na v0.229, peça 26 §6.4.
     Nada no bloco é dividido: o golpe fica na banda, e o domínio é o que faz a luta ser de 15.4.
+
+================================================================================================
+A CHAMA DIVINA E O ALCANCE — a Recarga, pela peça 26 §6.5
+================================================================================================
+  o alcance da ação             18 m            o Projétil da `Classe 4`, no manual
+  a Chama Divina                Recarga (5-6): come as 6 ações do turno, e não a Intervenção
+  o dano por alvo               2.5 × o golpe 67 = 167  →  `18d12 + 50`  (70% em dado)
+  fora do Santuário             Explosão (raio 3 m, a 18 m), e só pode mirar um oponente — o voto da obra
+  dentro do Santuário           cada criatura no raio de 200 m
+  o encontro                    8 × 1.92 da Expansão × 1.37 da Recarga = 21.0 pessoas
 
 ================================================================================================
 AS AÇÕES DELE — cada uma montada no orçamento DELA
@@ -240,6 +260,8 @@ AS CONFERÊNCIAS
   [ok]  o golpe cabe na mão                         6 dados  ·  teto 8
   [ok]  a categoria tem `Intervenção`               `Calamidade` — de `Desastre` pra cima
   [ok]  o orçamento passa do piso                   14.9 pontos  ·  piso 3
+  [ok]  os pontos livres fecham                     Força 0 · Constituição 2 · Inteligência 2
+  [ok]  a Chama tem dois terços em dado             `18d12 + 50` = 167  ·  70% em dado
   [ok]  o Santuário cabe no gate                    refino 10  ·  gate 10
   [ok]  o Santuário cobre a luta                    5 rodadas  ·  luta 3.00
   [ok]  o `Emboscador` não é o papel                ele não sobe de `Grande`

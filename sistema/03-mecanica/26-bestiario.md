@@ -446,6 +446,7 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 **O que a ficha precisa dizer é quantos pontos uma ação dele paga, e isso o §4.4 já publica em dano.** *A conversão é a do manual, que o §2.1 da peça 19 lê: cada ponto que não vira Melhoria vira `1d8`, que são `4,5` de dano.*
 
 > **O orçamento de feitiço de uma ação é o golpe dela dividido por `4,5`.**
+> **E o preço de cada Melhoria usa a maior Classe que cabe nesse orçamento.** *Decisão do Mizuki, v0.230: numa ação de `14,9` pontos a Classe é a `4`, e uma `Leve` custa `2`.*
 
 | pontos por ação | `Capanga` | `Ameaça` | `Desastre` | `Catástrofe` | `Calamidade` |
 |---|---|---|---|---|---|
@@ -507,9 +508,38 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 **Com `1` ação em área, todo mundo leva perto de metade da vida e a luta continua sendo uma luta; com `2`, o alvo termina a luta com `0,3%` de vida.** *E o `2,70` do §4.6 não existe em área: concentrando, a queda é uma curva; em área, é um penhasco — ou ninguém cai, ou a mesa inteira.*
 
-> **A `Recarga (5-6)` é o rótulo do d20: a ação sai uma vez e volta no começo do turno dele com `5` ou `6` no `d6`, e ela ocupa uma das ações dele — não vem por cima.** *Uma área em recarga dispara `1,67 ×` numa luta de três rodadas e vale `0,557` de uma à vontade, então ela já se paga sozinha.* **Cobrar a cota em cima seria cobrar duas vezes.**
-
 *Até a v0.220 esta peça dizia que "área reparte a cota, e não multiplica ela", e que a recarga `5-6` não cabia aqui.* **As duas saíram em 10/09/2026, com a trava acima.**
+
+#### A `Recarga` — ela come o turno, e bate `2,5` golpes em cada alvo
+
+***Decisões do Mizuki, 10/09 e 14/09/2026:*** *"ela consome multiplas ou todas as ações do turno do inimigo para fazer só aquela ação. Porque o inimigo tem sempre de decidir entre, 'fazer o multi ataque' ou 'a baforada', nunca os dois, semelhante a dnd"* · *"2,5 vez o golpe, causar +- uns 60% da vida média"* · *"mestres gostam de ter mais dados, da a sensação de RNG q é positiva"*, em `d12`.
+
+> **A `Recarga (5-6)` sai uma vez e volta no começo do turno dele com `5` ou `6` no `d6`. Ela come as ações múltiplas do turno — não come a `Intervenção`, a Ação Bônus nem a Reação.**
+> **Ela é em área, e cada alvo leva `2,5 ×` o golpe na falha do Teste de Resistência e metade no sucesso.** *Ela rola em `d12`, com dois terços do dano em dado e o resto fixo, sem o teto de oito dados do golpe: o número de dados é o que chega mais perto de dois terços sem deixar fração no fixo.* **Um golpe de `67` vira `167`, que é `18d12 + 50`.** *Quando dois `d12` já passam de dois terços, ela rola como o golpe do §4.4.*
+
+**O `2,5 ×` se mede na vida de quem leva.** *O golpe fica entre `21%` e `28%` da vida de um personagem do nível, então a `Recarga` tira de `52%` a `70%` dela.* **Medido em três sistemas, na `bestiario/04-fase-1/fila/MEDIDA-a-recarga-contra-a-vida.md`:** *a baforada do D&D 2024 no topo tira `42%`, a área limitada do Pathfinder 2e tira `29%` a `32%`, e a `Villain Action` do Draw Steel tira `15%`.* **A escolha fica acima dos três.**
+
+> *Até a v0.229 esta seção dizia que a `Recarga` "ocupa uma das ações dele".* **Era um erro de travessia:** *a decisão de 10/09 escreveu "ocupa a ação" no sentido do D&D — a ação do turno —, e a peça leu uma das ações múltiplas.* **A conta de que ela "já se paga sozinha" foi feita em cima desse erro, e saiu junto.**
+
+**E ela se paga no fator, pelo método do `Guia do Mestre` de 2014** *(capítulo 9, página 278): o dano de um monstro é a média das três primeiras rodadas, e uma área conta como se pegasse `2` alvos numa mesa de `4`.* **Aqui a mesa é a da categoria, então a área pega metade das pessoas que ela exige:**
+
+```
+a rodada de Recarga ÷ a rodada comum = 2,5 × (personagens ÷ 2) ÷ ações
+o fator = [disparos × aquela razão + (luta − disparos)] ÷ luta
+```
+
+*Com a luta de `3` rodadas e `1,67` disparos:*
+
+| categoria | personagens | ações | a rodada de `Recarga` vale | o fator multiplica por |
+|---|---|---|---|---|
+| **`Ameaça`** | `1` | `1` | `1,25 ×` a comum | `× 1,14` |
+| **`Desastre`** | `4` | `3` | `1,67 ×` | `× 1,37` |
+| **`Catástrofe`** | `6` | `5` | `1,50 ×` | `× 1,28` |
+| **`Calamidade`** | `8` | `6` | `1,67 ×` | `× 1,37` |
+
+*O `Capanga` fica de fora, como na Expansão: o preço dele é o câmbio do §5.* **Os `1,67` disparos saem do `d6`:** *ela sai na primeira rodada e volta com chance de um terço em cada começo de turno.*
+
+> **A `Recarga` não passa pelo orçamento de feitiço do §6.5.** *O dano dela sai do golpe, então a forma da área não gasta ponto: técnica usa a Forma do Fundamento, e ataque natural usa a área natural logo abaixo.*
 
 #### A área natural — a cobertura sai do nível
 
@@ -557,6 +587,7 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 | **9** | **o câmbio do §6.5, nas três portas.** A `9.1` reconstrói as `35` células do orçamento de feitiço do golpe dividido pelo que um ponto vale, com o fator de quem carrega `Intervenção`, e cobra que o `seco` seja o piso da `Classe 1` do manual; a `9.2` reconstrói a conta da aptidão do custo que a peça 11 §6.5 publica, da maior Classe da peça 18 e do câmbio de PE da peça 5 §4; a `9.3` refaz os dois empates — o da cura e o dos alvos —, com a escada de ações lida da peça 19 e o tamanho do grupo lido da categoria de fator `1,00`; e a `9.4` cobra que cada porta declare a moeda. *Nenhum dos quatro números vive aqui dentro.* **Desde a v0.221, a `9.5` confere as seis prontas do gerador contra a escada, e a `9.6` a área natural contra a escada de esfera do manual** |
 | **10** | **o papel redistribui, e não acrescenta.** A `10.1` confere que ganha × paga fecha em `1,000` em toda célula que publica os dois lados; a `10.2` **reconstrói cada fator do documento dono** — a Defesa da peça 1 §5.2, a vantagem e a ação negada da peça 19 §2.2 — e compara com o publicado; a `10.3` confere que as ações do §3.4 são as do §4, com a exceção declarada do `Capanga`, que ali se lê por esquadrão. *Sem a `10.2`, o invariante da `10.1` passaria com dois números inventados que por acaso se multiplicam em um* |
 | **7.1b** | **a Expansão de inimigo tem os gates do jogador, e a sem barreiras não muda o preço.** Os gates publicados são os do manual; no nível do gate a duração pela curva do `meio a meio` cobre a luta que a categoria promete, e o multiplicador abaixo dele é recalculado; a sem barreiras usa o mesmo `1,92`; a tabela do desvio de refino reconstrói da proteção da peça 11 e do §3.4; e a alavanca de manter o tamanho dividindo o dano não pode voltar |
+| **9.7** | **a `Recarga` come o turno, bate `2,5` golpes em cada alvo e se paga no fator.** O multiplicador vezes a banda do golpe do Bestiário dá a faixa publicada; os disparos saem do `d6` e da luta; a tabela do fator reconstrói das pessoas e das ações do §4 com a mesa do `Guia do Mestre`; a medição de campo é a da `MEDIDA` do Bestiário; o exemplo dos dados reconstrói da regra dos dois terços em `d12`; a frase do erro de travessia não volta; e o preço da Melhoria usa a maior Classe que cabe |
 
 ### 7.1 As quarenta e duas perturbações, em cópia isolada
 
@@ -753,6 +784,29 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 | a alavanca de manter o tamanho volta | acende | acende |
 | **contra-teste:** frase nova no §6.4 | fica verde | fica verde |
 | **contra-teste:** o gate da completa vai ao nível `18` no manual e na peça, e a tabela do desvio perde o `14` | fica verde | fica verde |
+
+### 7.5 As catorze perturbações da v0.230, na `Recarga`
+
+*Mesmo método, e cada vermelho lido na linha da `9.7`. A cópia leva os dois arquivos do Bestiário que ela lê.*
+
+| perturbação | esperado | deu |
+|---|---|---|
+| o multiplicador vira `3,0` sozinho | acende | acende |
+| a banda do golpe vira `20%` no Bestiário | acende | acende |
+| a recarga volta com `4`, `5` ou `6` | acende | acende |
+| a peça publica `1,50` disparos | acende | acende |
+| o fator da `Calamidade` vira `1,50` | acende | acende |
+| a mesa do `Guia do Mestre` vira `3` alvos | acende | acende |
+| a `MEDIDA` muda o D&D para `45%` | acende | acende |
+| volta a frase de que ela ocupa uma das ações | acende | acende |
+| o exemplo da Melhoria diz `Classe 5` | acende | acende |
+| a `Classe 4` do manual passa a custar `15` pontos | acende | acende |
+| some a regra dos dados | acende | acende |
+| o exemplo dos dados vira `8d12 + 115` | acende | acende |
+| a regra passa a rolar em `d10` sem mudar o exemplo | acende | acende |
+| a tabela do fator perde a `Ameaça` | acende | acende |
+| **contra-teste:** frase nova na subseção | fica verde | fica verde |
+| **contra-teste:** o multiplicador vira `3,0` com a faixa, o exemplo dos dados e a tabela refeitos | fica verde | fica verde |
 
 ## 8. Em aberto
 

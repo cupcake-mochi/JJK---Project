@@ -40,6 +40,7 @@ da `Defesa, acerto, CD e refino por marco`. As duas escadas não coincidem.
 | a trava | o valor |
 |---|---|
 | ações em área por rodada | `1` — e `Recarga` não conta na cota |
+| `Recarga (5-6)` | ocupa as ações múltiplas; `2,5 ×` o golpe em cada alvo na falha, metade no sucesso |
 | ações em área no esquadrão de `Capanga` | `1` no esquadrão inteiro |
 | corpos do esquadrão no mesmo alvo | `3`, e do segundo em diante o golpe sai pela metade |
 | `Intervenções` | `3` por luta, `1` por rodada, cada uma uma vez só |

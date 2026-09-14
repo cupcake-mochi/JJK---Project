@@ -1,0 +1,31 @@
+================================================================================================
+A RÉGUA DE CADA SISTEMA — dano por alvo na FALHA ÷ a vida média de um personagem do mesmo nível
+================================================================================================
+  vida de referência: D&D nv20 168 · PF2e nv20 255 · Draw Steel nv10 108 (9 classes, 18 kits)
+
+  D&D 2024 — áreas com Recharge
+     todos os níveis                 n=60   mediana   53%   quartis   42% a   73%
+     o topo: nível de desafio 17+    n=14   mediana   42%   quartis   39% a   46%
+  Pathfinder 2e — áreas com "1d4 rounds"
+     todos os níveis (criatura = grupo) n=437  mediana   29%   quartis   27% a   32%
+     o topo: nível 17+ (criatura = grupo) n=139  mediana   29%   quartis   27% a   30%
+     o topo, chefe 2 níveis acima    n=139  mediana   32%   quartis   30% a   33%
+  Draw Steel — Villain Actions em área, resultado 12-16
+     todos os níveis                 n=46   mediana   18%   quartis   15% a   21%
+     o topo: nível 8+                n=11   mediana   15%   quartis   12% a   15%
+
+================================================================================================
+O PROJETO-M NO NÍVEL 30 — a vida dos personagens, peça 1 §5.1
+================================================================================================
+  5 Caminhos × Constituição 0 a 6 = 35 fichas · média 243 · mediana 243 · de 122 a 395
+   Bastião    Con 0  215 · Con 3  305 · Con 6  395
+   Vanguarda  Con 0  153 · Con 3  243 · Con 6  333
+   Guia       Con 0  153 · Con 3  243 · Con 6  333
+   Evocador   Con 0  122 · Con 3  212 · Con 6  302
+   Emanador   Con 0  122 · Con 3  212 · Con 6  302
+
+  a Recarga por alvo que cada régua dá contra a vida média do nível 30:
+   D&D 2024, topo     mediana   101   quartis    95 a   112
+   PF2e, topo         mediana    70   quartis    67 a    73
+   PF2e, chefe +2     mediana    78   quartis    73 a    79
+   Draw Steel, topo   mediana    36   quartis    29 a    36

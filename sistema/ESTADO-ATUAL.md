@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 13/09/2026, na v0.229 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e dez checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 14/09/2026, na v0.230 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e dez checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.229.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
+**Versão v0.230.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
 
 > ## 🆕 A v0.222 consertou duas coisas que a v0.221 deixou passar, e as duas são do §6.5 da peça 26
 >
@@ -1297,7 +1297,7 @@ A skill `redacao-acessivel-rpg` existe exatamente para a travessia de "nota de d
 
 **E as dez pendências que só a mesa responde são todas de nível 2** — Constituição virou obrigatória, alguém usa ação bônus, Intuição contra Percepção, se quatro perícias livres é escolha demais, se alguém rola Pontaria, se o extra da Origem é escolha de igual para igual, se a criação leva mesmo vinte a quarenta minutos, se um Legado por ficha é pouco, se três lutas de graça é o número certo, e se o descanso curto devia devolver alguma vida. **Nenhuma delas precisa das aptidões.**
 
-### A fila de agora — v0.229
+### A fila de agora — v0.230
 
 **Tudo aqui é DECISÃO TOMADA e CONSERTO NÃO FEITO.** *A v0.220 anotou e não consertou, por pedido dele.* **Quem pegar esta fila começa aplicando, e não decidindo.**
 
@@ -1311,14 +1311,13 @@ A skill `redacao-acessivel-rpg` existe exatamente para a travessia de "nota de d
 | 6 | **Revisar os anti-domínios** — *decisão dele na v0.226: "vamos revisar a mecânica de como esses anti domínios funcionam"* | as quatro da peça 11, e como elas se portam contra a `Expansão sem Barreiras`. *As saídas medidas estão no rascunho, seção 8.4* |
 | 7 | **O Rescaldo e a porta de saída dele** — *adiado por ele na rodada 2* | *destruir a gravação da técnica e curar com energia reversa, com dano que acumula — obra, cap. `226`–`230`; rascunho, seção 6.8* |
 
-**E duas que continuam sendo pergunta, não decisão:**
+**E uma que continua sendo pergunta, não decisão:**
 
 | | |
 |---|---|
-| **o bloco de livro do Sukuna** | **quatro escolhas que a máquina não faz** — *os `4` pontos livres de atributo, a cura da `Técnica Reversa`, a forma de área da `Chama Divina` e o voto da "barreira aberta".* *O Sukuna foi remontado no nível 30 na v0.229, com a Expansão sem Barreiras, e a lista está no fim do `bestiario/05-sukuna/O-SUKUNA-no-nivel-30.md`* |
 | **`B17`** | o campo `integridade_temp` existe na ficha e **nada no sistema concede integridade temporária**. *Ou alguma coisa deveria conceder, ou o campo sai da linha da Integridade.* **É desenho de sistema, e é dele** |
 
-**✅ As vinte divergências entre o manual e o livro fecharam na v0.227**, com o `Armado` redesenhado e a vida máxima tirada do dano de alma nos lugares que a v0.176 não alcançou. **As duas perguntas que ela deixou fecharam na v0.228:** *a Integridade do inimigo é metade da vida máxima, e o `Armado` não aceita gatilho no turno de quem armou.* **E a v0.229 deu ao inimigo a Expansão sem Barreiras**, *com os gates do jogador e o mesmo `1,92`, e remontou o Sukuna no nível 30.* *A lista é a oitava passada do `sistema/05-material/livro/ESTADO-revisao.md`, e a checagem `12` a lê — ela imprime a contagem dos três estados a cada rodada, então conte pela saída dela e não por esta linha.*
+**✅ As vinte divergências entre o manual e o livro fecharam na v0.227**, com o `Armado` redesenhado e a vida máxima tirada do dano de alma nos lugares que a v0.176 não alcançou. **As duas perguntas que ela deixou fecharam na v0.228:** *a Integridade do inimigo é metade da vida máxima, e o `Armado` não aceita gatilho no turno de quem armou.* **E a v0.229 deu ao inimigo a Expansão sem Barreiras**, *com os gates do jogador e o mesmo `1,92`, e remontou o Sukuna no nível 30.* **A v0.230 refez a `Recarga` de inimigo** — *ela ocupa as ações múltiplas e tira `2,5` golpes de cada alvo, medido contra três sistemas —, e fechou o bloco do Sukuna, que exige `21,0` pessoas.* *A lista é a oitava passada do `sistema/05-material/livro/ESTADO-revisao.md`, e a checagem `12` a lê — ela imprime a contagem dos três estados a cada rodada, então conte pela saída dela e não por esta linha.*
 
 > ## ✅ O `papel` do inimigo ATRAVESSOU na v0.224
 >

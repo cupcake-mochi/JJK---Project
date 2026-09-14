@@ -15,7 +15,7 @@ dela, em *Rótulos de frequência*. A área que ele usa sem técnica está em *�
 | **`Recarga (5-6)`** | volta por sorte, no início do turno dele |
 
 `Recarga (5-6)` dispara pouco menos de duas vezes numa luta de três rodadas. Use quando a ação puder
-sair de novo, sem garantia.
+sair de novo, sem garantia, e leia *`Recarga` em área* antes de escrever uma.
 
 ## Parênteses de custo e pré-requisito
 
@@ -116,7 +116,23 @@ mesa em menos de uma rodada. A cota é do esquadrão, e não de cada corpo.
 
 ## `Recarga` em área
 
-Uma ação de `Recarga` que mira uma pessoa só concentra o dano e tira alguém da mesa; em área, o dano
-se espalha.
+> A `Recarga (5-6)` ocupa as ações múltiplas do turno. Ela não ocupa a `Intervenção`, a Ação Bônus nem a
+> Reação.
+>
+> Cada alvo na área leva **`2,5 ×` o golpe** na falha do Teste de Resistência, e metade no sucesso.
 
-Quando você escrever uma `Recarga (5-6)`, escreva ela em área.
+O inimigo escolhe entre as ações múltiplas e a `Recarga (5-6)`, nunca as duas no mesmo turno. O dano rola
+em `d12`, com dois terços em dado e o resto fixo, sem o teto de oito dados do golpe.
+
+Uma ação de `Recarga` que mira uma pessoa só concentra o dano e tira alguém da mesa; em área, o dano
+se espalha. Quando você escrever uma `Recarga (5-6)`, escreva ela em área.
+
+**Preço da Recarga**
+{: .tab-titulo }
+
+| categoria | multiplica o fator por |
+|---|---|
+| **`Ameaça`** | `1,14` |
+| **`Desastre`** | `1,37` |
+| **`Catástrofe`** | `1,28` |
+| **`Calamidade`** | `1,37` |

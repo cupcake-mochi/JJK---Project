@@ -8,6 +8,67 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.230] — 14/09/2026
+
+**A `Recarga` de inimigo foi refeita, e o bloco do Sukuna fechou.** *As quatro escolhas que a v0.229 deixou puxaram uma quinta: a Chama Divina é `Recarga`, e a regra de `Recarga` publicada estava errada.*
+
+### 1 · A `Recarga` estava publicada ao contrário da decisão
+
+**A peça 26 dizia que a `Recarga` "ocupa uma das ações dele".** *A decisão de 10/09, no Bestiário, era outra:* ***"ela consome multiplas ou todas as ações do turno do inimigo para fazer só aquela ação ... o inimigo tem sempre de decidir entre, 'fazer o multi ataque' ou 'a baforada', nunca os dois, semelhante a dnd".*** **A fila do Bestiário resumiu isso como "ocupa uma ação", no sentido do D&D, e a travessia leu uma das ações múltiplas.** *A conta de que ela "já se paga sozinha" tinha sido feita em cima desse erro.*
+
+### 2 · Quanto ela tira, medido
+
+***Pedido dele:*** *"pegue uma média de vida correspondente ... e balanceie esse ataque ... se drawn steel tiver resposta para isso, pathing finder, é bom tbm olhar neles".* **A medição usa os corpora que o Bestiário já tinha baixado**, *em `bestiario/04-fase-1/fila/MEDIDA-a-recarga-contra-a-vida.md`:*
+
+| sistema | dano por alvo na falha ÷ a vida de um personagem do nível |
+|---|---|
+| D&D 2024, baforadas no topo | `42%` |
+| Pathfinder 2e, área limitada no topo | `29%` a `32%` |
+| Draw Steel, `Villain Action` em área | `15%` |
+| **o Projeto-M no nível 30** | *vida média `243`, de `122` a `395`* |
+
+***Decisão dele:*** *"2,5 vez o golpe, causar +- uns 60% da vida média".* **O golpe fica entre `21%` e `28%` da vida de um personagem, então a `Recarga` tira de `52%` a `70%`.** *No meio do caminho ele tinha escolhido o turno cheio em cada alvo — `402` no Sukuna, `165%` da vida —, e a medição mostrou que isso era `4 ×` o D&D.*
+
+- **Os dados:** *"mestres gostam de ter mais dados, da a sensação de RNG q é positiva"* — **dois terços em `d12` e o resto fixo, sem o teto de oito dados do golpe.** *Ele tinha escolhido oito dados e o resto fixo, que deixava a Chama com `31%` em dado, e inverteu na mesma versão.* **A Chama fica `18d12 + 50`, e varia `8,8%` em volta da média** — *a baforada do dragão vermelho ancião do D&D, tudo em dado, varia `9,6%`.*
+- **O preço:** *"Sim, × 1,56 com os 1,67 disparos"*, **pelo método do `Guia do Mestre` de 2014** *(a média das três primeiras rodadas, com a área contando `2` alvos numa mesa de `4`)*. **Com os `2,5` golpes a conta refez o multiplicador:** *`Ameaça` `× 1,14` · `Desastre` `× 1,37` · `Catástrofe` `× 1,28` · `Calamidade` `× 1,37`.*
+
+### 3 · O preço da Melhoria na técnica de inimigo
+
+***Decisão dele:*** **"a maior classe que cabe".** *Uma ação de `14,9` pontos é `Classe 4`, e uma `Leve` custa `2`.* **A peça 26 não dizia qual Classe dava o preço; o script do Sukuna usava a `4` por conta própria.**
+
+### 4 · O Sukuna fechou
+
+| | a decisão |
+|---|---|
+| **os pontos livres** | *"sem Força"* — **Força `0` · Constituição `2` · Inteligência `2`** |
+| **a `Técnica Reversa`** | **cura `90`** — *o empate da cura do inimigo na peça 26, dividido pelas `6` ações* |
+| **a `Chama Divina`** | **`Recarga`, `167 (18d12 + 50)` por alvo**; fora do Santuário uma Explosão de `3 m` que só mira um oponente, dentro todo mundo nos `200 m` |
+| **o voto da barreira aberta** | **sai**, porque o degrau já dá o que ele comprava |
+| **o encontro** | **`21,0` pessoas** — `8 × 1,92` da Expansão `× 1,37` da `Recarga` |
+
+**Uma leitura minha, declarada na peça:** *como o dano da `Recarga` sai do golpe e não do orçamento de feitiço, a forma da área não gasta ponto.* **E uma correção de número no meio da rodada:** *eu falei `168`, com o golpe de `67,4`; o bloco usa o golpe como a ficha imprime, `67`, e dá `167`.*
+
+### Adicionado
+
+- **A checagem `9.7` do `conferir-bestiario.py`**, *com catorze perturbações e dois contra-testes: a faixa contra a banda do Bestiário, o exemplo dos dados contra a regra dos dois terços, os disparos contra o `d6`, a tabela do fator contra o §4, a medição contra a `MEDIDA`, a guarda contra o erro de travessia e o preço da Melhoria contra a escada de Classe do manual.*
+- **`bestiario/04-fase-1/fila/medir-a-recarga-contra-a-vida.py`**, com a saída e a `MEDIDA`.
+
+### Alterado
+
+- **A peça 26 §6.5** ganhou a subseção da `Recarga` e a linha do preço da Melhoria; **o §7** ganhou a `9.7` e as perturbações.
+- **O gerador de inimigo** e **os capítulos 7 e 9 do livro do Bestiário** escrevem a `Recarga` nova, com os dois PDFs refeitos. *O `conferir-voz` do livro pediu a forma `Recarga (5-6)` nas frases novas, que é a do vocabulário.*
+- **O `montar-o-sukuna.py`** ganhou os pontos livres com conferência, a `Técnica Reversa` e a `Chama Divina` pela regra nova; **o `O-SUKUNA-no-nivel-30.md`** traz a ficha inteira.
+- **O `DECIDIDO-a-recarga.md` e o `DECIDIDO-o-aperto-e-a-area.md`** marcam o que a v0.230 publicou e o que ela superou.
+
+### Achado e não consertado
+
+- **O `Quatro Braços` e a `Amplificação de Domínio` do Sukuna vieram do rascunho 5 sem conta**, *e a peça 26 não tem preço para nenhum dos dois.*
+- **O `Artilheiro` ganha alcance e não diz quanto** — *o `Desmembrar` ficou com os `18 m` do Projétil da `Classe 4`.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
+
+---
+
 ## [0.229] — 13/09/2026
 
 **O inimigo ganhou a Expansão sem Barreiras, e o Sukuna foi remontado no nível 30.** *A peça 26 §6.4 preçava a Expansão de inimigo e não conhecia o degrau que a v0.226 criou.*
