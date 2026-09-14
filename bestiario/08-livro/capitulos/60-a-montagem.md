@@ -71,7 +71,9 @@ O papel diz como ele luta. Ele redistribui o que a categoria deu, e nunca acresc
 | **`Controlador`** | `1` ação negada do grupo | vida × a linha da categoria |
 | **`Reforço`** | o mesmo `1` para `1`, em outro bloco | vida × a linha da categoria |
 
-O golpe não muda em nenhum papel.
+O golpe não muda em nenhum papel, e a Destreza também não: ela é a que a `Orçamento de atributo
+por marco` pede, no capítulo 5. O `−2` do `Brutamontes` e o `+2` do `Baluarte` entram direto na
+Defesa.
 
 ## Pagamento do `Emboscador`
 

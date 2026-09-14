@@ -34,7 +34,7 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 | **Integridade** | metade da vida máxima, arredondando para baixo | peça 24 §3.3 |
 | dano por rodada | a linha do manual vezes o fator da categoria — e menos em quem carrega `Intervenção`, pelo §6.5 | manual, a tabela `Inimigos` |
 | ações por rodada | declaradas pela categoria | o §4.2 |
-| **Defesa** | `10 + Destreza + proteção` | peça 1 §5 |
+| **Defesa** | `10 + Destreza + proteção`, e o `±2` do papel por fora | peça 1 §5 e o §3.4 |
 | **acerto** | `atributo + maestria` | peça 1 §5 |
 | **CD** | `8 + atributo + maestria` | peça 1 §5 |
 | Reação | uma por rodada, volta no começo do turno dele | manual, a seção `Inimigos` |
@@ -125,6 +125,10 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 > **O ataque do `Artilheiro` alcança `18 m`, em todo nível.** *É o dobro do deslocamento da peça 3, e é o que obriga quem luta de perto a gastar uma rodada para chegar: anda `9 m` e corre mais `9 m`, sem atacar.*
 
 ***Decisão do Mizuki, v0.231:*** *"Com base no nível, acho q seria o ideal. N? Se n, mantem semelhante a player, um valor fixo, mesmo".* **Por nível não fecha:** *o deslocamento não cresce com o nível, e o Projétil da Classe da ação cairia em `9 m` enquanto o inimigo não monta feitiço — ali o personagem anda e bate no mesmo turno, e o `Artilheiro` pagaria vida sem ganhar nada.* **O Draw Steel dá à Artilharia a mesma razão:** *mediana de alcance `10` contra deslocamento `5` do herói, nas `42` fichas, na `bestiario/04-fase-1/papel/MEDIDA-o-alcance-do-artilheiro.md`.*
+
+> **O `±2` de Defesa do papel entra por fora, e a Destreza fica a que a tabela do §3.1 pede.** *O `Brutamontes` do nível 5 tem Destreza `3` e Defesa `12`.* **Tirado da Destreza, o `Baluarte` não cabia:** *ele pediria Destreza `5` do nível 2 ao 9, onde a criação para em `3` e o marco do nível 6 leva a `4`; do nível 18 em diante pediria `7` ou `8`, acima do teto `6`. Só fechava do 10 ao 17.*
+
+***Decisão do Mizuki, v0.234:*** *termo à parte.* **O livro do Bestiário já lia assim:** *o exemplo da Ubume, que é `Brutamontes`, pede a Destreza da tabela.* **E a ficha pronta segue a mesma regra:** *a Destreza de cada nível é a da tabela, com os marcos que a pronta declara, e só o chefe pode ter `1` a mais, pelo §3.2.*
 
 **Nenhum dos seis sobe o dano por rodada, e isso não é sobra: é o que mantém a régua funcionando.** *`o golpe` — a fatia da vida de um personagem que um golpe leva — é a grandeza que o modelo do Bestiário vigia por cima, e ele vigia justamente porque ela não tem para onde subir.* **Papel que pagasse em dano moveria essa fatia** — *foi o que derrubou a primeira forma do `Controlador`, que cortava um terço do dano e jogava o golpe abaixo do piso em quatro de quatro categorias.* **Pagando em vida, a fatia não se move e a pergunta nem se abre.**
 
@@ -610,6 +614,7 @@ o fator = [disparos × aquela razão + (luta − disparos)] ÷ luta
 | **10** | **o papel redistribui, e não acrescenta.** A `10.1` confere que ganha × paga fecha em `1,000` em toda célula que publica os dois lados; a `10.2` **reconstrói cada fator do documento dono** — a Defesa da peça 1 §5.2, a vantagem e a ação negada da peça 19 §2.2 — e compara com o publicado; a `10.3` confere que as ações do §3.4 são as do §4, com a exceção declarada do `Capanga`, que ali se lê por esquadrão. *Sem a `10.2`, o invariante da `10.1` passaria com dois números inventados que por acaso se multiplicam em um* |
 | **10.4** | **o alcance do `Artilheiro` é o dobro do deslocamento.** O metro publicado é a razão da Artilharia do Draw Steel vezes o deslocamento da peça 3, e a razão é a que a `MEDIDA` do Bestiário mede |
 | **7.1b** | **a Expansão de inimigo tem os gates do jogador, e a sem barreiras não muda o preço.** Os gates publicados são os do manual; no nível do gate a duração pela curva do `meio a meio` cobre a luta que a categoria promete, e o multiplicador abaixo dele é recalculado; a sem barreiras usa o mesmo `1,92`; a tabela do desvio de refino reconstrói da proteção da peça 11 e do §3.4; e a alavanca de manter o tamanho dividindo o dano não pode voltar |
+| **9.5** | **as prontas cabem na criação, a Destreza delas é a que a Defesa da tabela pede, e o livro é o que os scripts geram.** *Desde a v0.234.* O arranjo soma os nove pontos do §3.2, dez no chefe, com teto `3`; em cada nível da faixa a Destreza, com os marcos declarados, dá a Defesa da tabela, e só o chefe tem `1` a mais; o `±2` do papel fica por fora; e os quatro `gerar-*.py` do livro do Bestiário, rodados com `--conferir`, devolvem os capítulos publicados. *O capítulo das prontas passou da v0.224 à v0.233 sem os papéis que o gerador já punha, com todos os validadores verdes* |
 | **9.7** | **a `Recarga` come o turno, bate `2,5` golpes em cada alvo e se paga no fator.** O multiplicador vezes a banda do golpe do Bestiário dá a faixa publicada; os disparos saem do `d6` e da luta; a tabela do fator reconstrói das pessoas e das ações do §4 com a mesa do `Guia do Mestre`; a medição de campo é a da `MEDIDA` do Bestiário; o exemplo dos dados reconstrói da regra dos dois terços em `d12`; a frase do erro de travessia não volta; e o preço da Melhoria usa a maior Classe que cabe |
 
 ### 7.1 As quarenta e duas perturbações, em cópia isolada
@@ -863,6 +868,23 @@ o fator = [disparos × aquela razão + (luta − disparos)] ÷ luta
 | o preço não cobrado do acerto vira `1,20` | acende | acende |
 | some a regra do chefe | acende | acende |
 | **contra-teste:** a curva do nível 6, a tabela e a linha do chefe mudam juntas | fica verde | fica verde |
+
+### 7.9 As dez perturbações da v0.234, nas prontas e no livro
+
+| perturbação | esperado | deu |
+|---|---|---|
+| a Hitotsume volta a Destreza `2` | acende | acende |
+| o Oni perde o ponto de chefe | acende | acende |
+| a Kitsune perde o marco de Destreza do nível 10 | acende | acende |
+| o Oni tira o `−2` do `Brutamontes` da Destreza, a leitura rejeitada | acende | acende |
+| a Hitotsume ganha `1` de Destreza num marco sem ser chefe | acende | acende |
+| a proteção da peça 11 vira `1/2 do refino + 1` | acende | acende |
+| a base da Defesa do §3 vira `11` | acende | acende |
+| uma pronta passa do teto `3` na criação | acende | acende |
+| o capítulo 8 do livro imprime a vida sem o papel | acende | acende |
+| a Betobeto troca de papel no gerador e o livro não é regerado | acende | acende |
+| **contra-teste:** a Hitotsume tira da Constituição em vez da Inteligência, e o livro é regerado | fica verde | fica verde |
+| **contra-teste:** o Oni tira da Essência em vez da Inteligência, e o livro é regerado | fica verde | fica verde |
 
 ## 8. Em aberto
 

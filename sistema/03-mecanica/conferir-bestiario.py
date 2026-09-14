@@ -18,6 +18,7 @@ depende do manual e roda de qualquer jeito — ela le so' a declaracao da peca.
 
 import math
 import os
+import subprocess
 import re
 import sys
 
@@ -1369,7 +1370,21 @@ else:
     _MESA = _um95[0][1] if _um95 else None
     _mn95 = re.search(r'carrega (\w+) `Intervenções` por luta', TXT)
     _NINT = _NUM_PT.get(_mn95.group(1).lower()) if _mn95 else None
+    # v0.234: os donos da conferencia do arranjo — a peca 26 (os nove, os dez do chefe, a base da
+    # Defesa), a peca 11 (a protecao) e as DERIVADAS do gerador. O papel entra na Defesa por fora
+    # (decisao do Mizuki, 14/09), entao a Destreza obrigada e a da tabela, em todo papel
+    _b95 = re.search(r'O inimigo monta os cinco com (\w+) pontos na criação, teto `(\d+)` ali', TXT)
+    _BASE95 = _NUM_PT.get(_b95.group(1).lower()) if _b95 else None
+    _TETO95 = int(_b95.group(2)) if _b95 else None
+    _bd95 = re.search(r'^\| \*\*Defesa\*\* \| `(\d+) \+ Destreza \+ proteção`', TXT, re.M)
+    _DBASE95 = int(_bd95.group(1)) if _bd95 else None
+    _pr95 = re.search(r'a sua proteção é `1/(\d+) do refino \+ (\d+)`', ler(P11))
+    _PROT95 = (int(_pr95.group(1)), int(_pr95.group(2))) if _pr95 else (3, 1)
+    _DER95 = [(int(a_), int(b_), int(d_), int(r_)) for a_, b_, d_, r_ in re.findall(r"\['(\d+) a (\d+)',\s*(\d+),\s*\d+,\s*\d+,\s*(\d+)\]", _dj)]
     _ruins = []
+    if _BASE95 is None or _DBASE95 is None or not _pr95 or not _DER95:
+        _ruins.append('nao li os nove pontos do §3.2, a base da Defesa do §3, a protecao da peca 11 ou as DERIVADAS do gerador')
+        _BASE95, _TETO95, _DBASE95 = _BASE95 or 9, _TETO95 or 3, _DBASE95 or 10
     if not _itens:
         _ruins.append('nao achei as PRONTAS no `dados.js` — a decisao da v0.161 pede maquina MAIS '
                       'prontas, e sem elas so existe a maquina')
@@ -1400,6 +1415,30 @@ else:
         _esp = (_NINT or 0) if _INT.get(_c[0]) else 0
         if _niv != _esp:
             _ruins.append(f'`{_nome}` carrega {_niv} Intervencao(oes), e a categoria `{_c[0]}` pede {_esp}')
+        # v0.234: o arranjo cabe na criacao, e a Destreza e a que a Defesa pede
+        _ar = re.search(r"arranjo:\s*'([^']+)'", _it)
+        if not _ar:
+            _ruins.append(f'`{_nome}` sem arranjo'); continue
+        _arr = [int(x) for x in _ar.group(1).split('·')]
+        _chefe = bool(_INT.get(_c[0]))
+        _tot = (_BASE95 + 1) if _chefe else _BASE95
+        if len(_arr) != 5 or max(_arr) > _TETO95 or sum(_arr) != _tot:
+            _ruins.append(f'`{_nome}`: o arranjo {_ar.group(1)} nao e {_tot} pontos com teto {_TETO95}'
+                          f'{" (chefe)" if _chefe else ""}')
+            continue
+        _mco = re.search(r'marcos:\s*\{([^}]*)\}', _it)
+        _mc = {int(k): v for k, v in re.findall(r"(\d+):\s*'(\w+)'", _mco.group(1))} if _mco else {}
+        _lo, _hi = map(int, _fa.group(1).split(' a '))
+        for _nv in range(_lo, _hi + 1):
+            _dv = next((d for d in _DER95 if d[0] <= _nv <= d[1]), None)
+            if not _dv:
+                _ruins.append(f'`{_nome}`: nenhuma linha de DERIVADAS cobre o nivel {_nv}'); break
+            _des = _arr[1] + sum(1 for m, at in _mc.items() if m <= _nv and at == 'Destreza')
+            _obr = _dv[2] - _DBASE95 - (_dv[3] // _PROT95[0] + _PROT95[1])
+            if not (0 <= _des - _obr <= (1 if _chefe else 0)):
+                _ruins.append(f'`{_nome}` no nivel {_nv}: Destreza {_des}, e a Defesa da tabela pede {_obr}'
+                              f'{" (ou 1 a mais, de chefe)" if _chefe else ""}')
+                break
     # a guarda que importa: PRONTAS nao pode guardar NUMERO de ficha. Vida, dano,
     # acoes, golpe e capanga sao COMPUTADOS pelo make.js das FAIXAS e CATEGORIAS —
     # escrever qualquer um deles aqui e a segunda fonte que a v0.213 ja pagou.
@@ -1410,12 +1449,28 @@ else:
                       'CATEGORIAS pelo make.js, e escrever eles aqui e a segunda fonte')
     if not os.path.isfile(_BL):
         _ruins.append('nao achei o `bloco-de-inimigo.docx` — as prontas so chegam ao mestre por ele')
+    # v0.234: o livro do Bestiario imprime as prontas, as tabelas, o exemplo e o orcamento de
+    # atributo por quatro scripts que leem esta peca e o gerador. O capitulo 8 passou da v0.224 a
+    # v0.233 sem os papeis que o gerador ja punha, com todos os validadores verdes: ninguem rodava
+    # o script. Aqui eles rodam com `--conferir`, que compara sem escrever.
+    _GLIV = os.path.join(RAIZ, 'bestiario', '08-livro', 'build')
+    _geradores = sorted(f for f in os.listdir(_GLIV) if f.startswith('gerar-') and f.endswith('.py')) if os.path.isdir(_GLIV) else []
+    if not _geradores:
+        _ruins.append('nao achei os `gerar-*.py` do livro do Bestiario — o capitulo das prontas fica sem guarda')
+    for _g in _geradores:
+        _r = subprocess.run([sys.executable, os.path.join(_GLIV, _g), '--conferir'], capture_output=True,
+                            text=True, timeout=300, env=dict(os.environ, JJK_REPO=RAIZ))
+        if _r.returncode != 0:
+            _ruins.append(f'o livro do Bestiario nao e o que `{_g}` gera hoje: '
+                          + ((_r.stderr.strip().splitlines() or ['sem saida'])[-1])[:160])
     for _m in _ruins[:6]:
         erro('9.5: ' + _m)
     if not _ruins:
         print(f'  [x] as {len(_itens)} prontas estao em categorias vivas que cabem na mesa padrao, com '
               'Acoes Multiplas so em quem age mais de uma vez, Intervencoes so em quem a categoria da, '
               'e nenhuma guarda numero de ficha')
+        print(f'  [x] os {len(_geradores)} geradores do livro do Bestiario devolvem os capitulos publicados ({", ".join(_geradores)})')
+        print(f'  [x] os arranjos cabem na criacao ({_BASE95}, {_BASE95 + 1} no chefe, teto {_TETO95}), e a Destreza de cada nivel e a que a Defesa da tabela pede ({_DBASE95} + Destreza + protecao, o papel por fora)')
 
 
 # 9.6 (v0.221): a area natural do inimigo — a cobertura sai do nivel, e cada forma

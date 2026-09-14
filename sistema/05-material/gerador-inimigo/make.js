@@ -252,12 +252,26 @@ function montaPronta(p) {
   const f = X.FAIXAS.find((x) => x[0] === p.faixa);
   if (!f) throw new Error(`a faixa "${p.faixa}" de ${p.nome} nao existe em FAIXAS`);
   const c = categoria(p.categoria);
+  // v0.234: o arranjo cabe na criação — nove pontos, dez para o chefe (quem carrega Intervenção), teto 3
+  const arr = p.arranjo.split('·').map(Number);
+  if (arr.some((x) => x > 3) || arr.reduce((s, x) => s + x, 0) !== (c[4] ? 10 : 9)) {
+    throw new Error(`${p.nome}: o arranjo ${p.arranjo} nao e ${c[4] ? 'dez' : 'nove'} pontos com teto 3`);
+  }
   const fp = fatorPapel(p.papel, c);
   const [lo, hi] = [f[1], f[2]];
   const seg = [];
   for (let nv = lo; nv <= hi; nv++) {
     const dv = derivada(nv);
-    const ch = [dv[1] + fp.defesa, dv[2], dv[3], dv[4]];
+    // v0.234: a Defesa sai do arranjo — 10 + Destreza + proteção, e o papel por fora (peça 26 §3.4).
+    // A Destreza tem de ser a que a tabela pede; só o chefe pode ter 1 a mais, e aí a Defesa sobe sem preço.
+    const desNv = Number(p.arranjo.split('·')[1]) + Object.entries(p.marcos || {})
+      .filter(([m, atr]) => Number(m) <= nv && atr === 'Destreza').length;
+    const obrig = dv[1] - 10 - protecao(dv[4]);
+    const extra = desNv - obrig;
+    if (extra < 0 || extra > (c[4] ? 1 : 0)) {
+      throw new Error(`${p.nome} no nivel ${nv}: Destreza ${desNv}, e a Defesa da tabela pede ${obrig}${c[4] ? ' (ou 1 a mais, de chefe)' : ''}`);
+    }
+    const ch = [dv[1] + fp.defesa + extra, dv[2], dv[3], dv[4]];
     const u = seg[seg.length - 1];
     if (u && u[2].join('|') === ch.join('|')) u[1] = nv; else seg.push([nv, nv, ch]);
   }
@@ -319,6 +333,12 @@ function blocoPronto(p) {
   out.push(stat('', `**Vida** \`${m.vida}\` · **Integridade** \`${integridadeDe(m.vida)}\` · **Deslocamento** \`${X.DESLOCAMENTO}\`${mov}`));
   out.push(regra(C.linha));
   const at = p.arranjo.split('·').map((s) => s.trim());
+  // o marco que muda um atributo dentro da faixa aparece na célula, como a Defesa por marco
+  const NOMES_AT = ['Força', 'Destreza', 'Constituição', 'Inteligência', 'Essência'];
+  Object.entries(p.marcos || {}).forEach(([m, atr]) => {
+    const i = NOMES_AT.indexOf(atr);
+    if (i >= 0) at[i] = `${at[i]} (${Number(at[i]) + 1} do nível ${m})`;
+  });
   out.push(TBL(['FOR', 'DES', 'CON', 'INT', 'ESS'], [at], [20, 20, 20, 20, 20], { centerCols: [0, 1, 2, 3, 4] }));
   out.push(regra(C.linha));
   out.push(stat('', TR_TODOS.map((t) => `**${t}** ${p.trs.includes(t) ? 'treinado' : '—'}`).join(' · ')));
@@ -346,7 +366,7 @@ function prontas() {
   const lo = Math.min(...fs6.map((m) => m.lo));
   const hi = Math.max(...fs6.map((m) => m.hi));
   out.push(...titulo(`Maldições prontas — do nível ${lo} ao ${hi}`));
-  out.push(P('Seis fichas para abrir e usar, no molde de bloco do 5e. **Nenhum número foi escolhido:** todos saem das tabelas do fim desta folha, e os atributos cabem no orçamento de nove pontos com teto `3` que a peça 2 dá a qualquer ficha.'));
+  out.push(P('Seis fichas para abrir e usar, no molde de bloco do 5e. **Nenhum número foi escolhido:** todos saem das tabelas do fim desta folha, e os atributos cabem na criação da peça 2, com nove pontos e teto `3`, e dez no chefe.'));
   out.push(P('**A coluna do `Capanga` está vazia.** As seis cobrem `Ameaça` e `Desastre`; ficha de esquadrão é o próximo passo.'));
   out.push(GAP(120));
   out.push(TBL(['MALDIÇÃO', 'CATEGORIA', 'NÍVEL', 'VIDA', 'GOLPE', 'AÇÕES'],

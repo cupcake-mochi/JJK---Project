@@ -8,6 +8,52 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.234] — 14/09/2026
+
+**As prontas passam a ter a Destreza que a Defesa pede, e o `±2` de Defesa do papel entra por fora.** *Saiu do ponto de chefe que a v0.233 deixou a gastar na Tsuchigumo e no Oni.*
+
+### 1 · O que estava errado
+
+- **Três das seis tinham Destreza abaixo da que a Defesa pede:** *a Tsuchigumo, a Hitotsume e a Kitsune.* **O gerador imprimia a Defesa da tabela sem olhar o arranjo.**
+- **O capítulo 8 do livro do Bestiário tinha parado antes da v0.224.** *Sem papel nenhum: a Betobeto com vida `28` em vez de `19`, a Tsuchigumo com `114` em vez de `85`, o Oni com `270` em vez de `324`.* **Todos os validadores estavam verdes.** *O script que gera o capítulo lia a escada e não lia o papel, e ninguém rodava ele.*
+
+### 2 · As decisões
+
+***"Termo à parte".*** **O `±2` de Defesa do papel não sai da Destreza.** *Tirado da Destreza, o `Baluarte` pediria Destreza `5` do nível 2 ao 9 e `7` ou `8` do 18 em diante, e só fechava do 10 ao 17.* **O exemplo da Ubume, no capítulo 6 do livro, já lia assim.**
+
+| pronta | Força · Destreza · Constituição · Inteligência · Essência | Defesa | de onde saiu |
+|---|---|---|---|
+| Tsuchigumo | `3 · 3 · 3 · 1 · 0` | `14` | *o ponto de chefe na Destreza, que a Defesa pedia — conta* |
+| Hitotsume | `0 · 3 · 2 · 1 · 3` | `14`, `15` do nível 6 | ***"Da Inteligência"*** |
+| Kitsune | `0 · 3 · 1 · 2 · 3`, Destreza `4` do nível 10 | `15`, `16` do nível 10 | *idem, e o marco do nível 10 na Destreza* |
+| Oni | `3 · 3 · 3 · 0 · 1` | `12`, `13` do nível 6 | ***"Da Inteligência (3·3·3·0·1)"*** |
+
+**Eu levei a primeira pergunta do Oni na leitura errada.** *Perguntei com o `−2` do `Brutamontes` saindo da Destreza, e ele respondeu "Destreza (1 → 2)".* **Só na hora de escrever a regra na peça eu fiz a conta do `Baluarte`**, *e com o termo à parte o Oni passou a pedir Destreza `3`; a pergunta foi refeita.*
+
+### Adicionado
+
+- **Na `9.5` do `conferir-bestiario.py`:** *o arranjo soma nove, dez no chefe, com teto `3`; a Destreza de cada nível, com os marcos declarados, é a que a Defesa da tabela pede, e só o chefe tem `1` a mais; e os quatro `gerar-*.py` do livro do Bestiário rodam com `--conferir`.* **Dez perturbações e dois contra-testes, no §7.9 da peça 26.**
+- **`--conferir` nos quatro `gerar-*.py` do livro**, *que compara sem escrever.* **E o caminho do repositório passou a sair da pasta do bestiário**, *e não de um caminho fixo: com o fixo, a cópia do arnês lia o original.*
+- **O campo `marcos` nas prontas do gerador**, *que aparece na célula do atributo como "3 (4 do nível 10)".*
+- **O `make.js` recusa a pronta cujo arranjo não fecha:** *soma, teto e a Destreza de cada nível.*
+
+### Alterado
+
+- **A peça 26:** *a linha da Defesa no §3 ganhou "e o `±2` do papel por fora"; o §3.4, a regra e a decisão; o §7, a linha da `9.5` e as perturbações.*
+- **O gerador de inimigo:** *quatro arranjos no `dados.js`, uma frase refeita no `make.js`, e o `bloco-de-inimigo.docx` e o `.pdf` gerados de novo.*
+- **O livro do Bestiário:** *o capítulo 8 saiu do script com papel, arranjo e marco, e o texto de "Papel" e de "Outra faixa" foi refeito; o capítulo 6 ganhou uma frase no Passo 2.* **Os PDFs foram refeitos.**
+- **O achado da v0.233 sobre a Tsuchigumo e o Oni fechou:** *os dois gastaram o ponto de chefe.*
+
+### Achado e não consertado
+
+- **O capítulo 6 do livro não traz a coluna do `Controlador` e do `Reforço`.** *A tabela dos papéis diz "vida × a linha da categoria", e só o `Emboscador` tem a linha.* **Quem lê o livro não refaz a vida `85` da Tsuchigumo**, *que é `114 × 0,750`; a peça 26 §3.4 tem a coluna.*
+- **A Hitotsume é `Artilheiro` e só tem ataque corpo a corpo.** *Ela paga vida `× 0,857` pelo alcance de `18 m` e não tem ataque que use esse alcance.*
+- **Os pontos de marco das prontas continuam sem dono.** *A Hitotsume e o Oni passam pelo marco do nível 6 dentro da faixa, e a Kitsune já chega ao nível 9 com ele; só o marco de Destreza da Kitsune está declarado.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
+
+---
+
 ## [0.233] — 14/09/2026
 
 **O chefe começa com dez pontos de atributo na criação, e não nove.** *Saiu de uma pergunta dele sobre o D&D, e da medição de três sistemas.*

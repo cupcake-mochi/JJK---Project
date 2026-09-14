@@ -1,10 +1,10 @@
 Seis maldições prontas, do nível 2 ao 12, tiradas do folclore japonês. Os números de cada bloco
-saem da linha da categoria e da faixa dela, nas tabelas do capítulo 6.
+saem da linha da categoria e da faixa dela, nas tabelas do capítulo 6, com o papel por cima.
 
 ## Células vazias
 
-**Papel.** Nenhuma das seis tem. Para dar um papel a uma delas, use a `Papéis`, no Passo 2
-do capítulo 6, e refaça a vida.
+**Papel.** Cada uma traz o seu no cabeçalho, e a vida e a Defesa do bloco já saem com ele. Para
+trocar, refaça as duas pela `Papéis`, no Passo 2 do capítulo 6. A Destreza não muda.
 
 **Resistências e imunidades.** Todas as células saem vazias. Preencher qualquer uma multiplica o
 fator da categoria, e a `Preço das células`, no capítulo 5, diz por quanto.
@@ -27,11 +27,11 @@ No folclore japonês, o Betobeto é um som de passos que acompanha quem anda soz
 
 > ### Betobeto
 >
-> *Maldição Média · **Ameaça** · nível 2 a 4*
+> *Maldição Média · **Ameaça** · Emboscador · nível 2 a 4*
 >
 > **Defesa** `14` · **Acerto** `+4` · **CD** `12` · **Refino** `1` *(proteção `+1`)*
 >
-> **Vida** `28` · **Integridade** `14` · **Deslocamento** `9 m`
+> **Vida** `19` · **Integridade** `9` · **Deslocamento** `9 m`
 >
 > **Força** `0` · **Destreza** `3` *(Iniciativa)* · **Constituição** `1` · **Inteligência** `2` · **Essência** `3`
 >
@@ -55,11 +55,11 @@ No folclore japonês, a kamaitachi é um trio de doninhas que corre dentro de um
 
 > ### Kamaitachi
 >
-> *Maldição Pequena · **Ameaça** · dois corpos · nível 2 a 4*
+> *Maldição Pequena · **Ameaça** · Emboscador · dois corpos · nível 2 a 4*
 >
 > **Defesa** `14` · **Acerto** `+4` · **CD** `12` · **Refino** `1` *(proteção `+1`)*
 >
-> **Vida** `28` · **Integridade** `14` · **Deslocamento** `9 m`
+> **Vida** `19` · **Integridade** `9` · **Deslocamento** `9 m`
 >
 > **Força** `3` · **Destreza** `3` *(Iniciativa)* · **Constituição** `2` · **Inteligência** `1` · **Essência** `0`
 >
@@ -83,13 +83,13 @@ No folclore japonês, a Tsuchigumo é a aranha gigante que o guerreiro Minamoto 
 
 > ### Tsuchigumo
 >
-> *Maldição Grande · **Desastre** · nível 2 a 4*
+> *Maldição Grande · **Desastre** · Controlador · nível 2 a 4*
 >
 > **Defesa** `14` · **Acerto** `+4` · **CD** `12` · **Refino** `1` *(proteção `+1`)*
 >
-> **Vida** `114` · **Integridade** `57` · **Deslocamento** `9 m` · **Escalada** `9 m`
+> **Vida** `85` · **Integridade** `42` · **Deslocamento** `9 m` · **Escalada** `9 m`
 >
-> **Força** `3` · **Destreza** `2` *(Iniciativa)* · **Constituição** `3` · **Inteligência** `1` · **Essência** `0`
+> **Força** `3` · **Destreza** `3` *(Iniciativa)* · **Constituição** `3` · **Inteligência** `1` · **Essência** `0`
 >
 > **Físico** treinado · **Vigor** treinado · **Intelecto** — · **Espírito** —
 >
@@ -127,15 +127,15 @@ No folclore japonês, o hitotsume-kozō é um menino careca de um olho só que s
 
 > ### Hitotsume
 >
-> *Maldição Média · **Ameaça** · nível 5 a 8*
+> *Maldição Média · **Ameaça** · Artilheiro · nível 5 a 8*
 >
 > *nível 5* · **Defesa** `14` · **Acerto** `+4` · **CD** `12` · **Refino** `1` *(proteção `+1`)*
 >
 > *nível 6 a 8* · **Defesa** `15` · **Acerto** `+4` · **CD** `12` · **Refino** `3` *(proteção `+2`)*
 >
-> **Vida** `67` · **Integridade** `33` · **Deslocamento** `9 m`
+> **Vida** `58` · **Integridade** `29` · **Deslocamento** `9 m`
 >
-> **Força** `0` · **Destreza** `2` *(Iniciativa)* · **Constituição** `2` · **Inteligência** `2` · **Essência** `3`
+> **Força** `0` · **Destreza** `3` *(Iniciativa)* · **Constituição** `2` · **Inteligência** `1` · **Essência** `3`
 >
 > **Físico** — · **Vigor** — · **Intelecto** treinado · **Espírito** treinado
 >
@@ -157,15 +157,15 @@ No folclore japonês, a kitsune é a raposa que aprende a tomar forma humana e a
 
 > ### Kitsune
 >
-> *Maldição Média · **Ameaça** · nível 9 a 12*
+> *Maldição Média · **Ameaça** · Artilheiro · nível 9 a 12*
 >
 > *nível 9* · **Defesa** `15` · **Acerto** `+4` · **CD** `12` · **Refino** `3` *(proteção `+2`)*
 >
 > *nível 10 a 12* · **Defesa** `16` · **Acerto** `+6` · **CD** `14` · **Refino** `4` *(proteção `+2`)*
 >
-> **Vida** `97` · **Integridade** `48` · **Deslocamento** `9 m`
+> **Vida** `84` · **Integridade** `42` · **Deslocamento** `9 m`
 >
-> **Força** `0` · **Destreza** `2` *(Iniciativa)* · **Constituição** `1` · **Inteligência** `3` · **Essência** `3`
+> **Força** `0` · **Destreza** `3` (`4` do nível 10) *(Iniciativa)* · **Constituição** `1` · **Inteligência** `2` · **Essência** `3`
 >
 > **Físico** — · **Vigor** — · **Intelecto** treinado · **Espírito** treinado
 >
@@ -189,15 +189,15 @@ No folclore japonês, o oni tem chifres, pele vermelha ou azul, e carrega um kan
 
 > ### Oni
 >
-> *Maldição Grande · **Desastre** · nível 5 a 8*
+> *Maldição Grande · **Desastre** · Brutamontes · nível 5 a 8*
 >
-> *nível 5* · **Defesa** `14` · **Acerto** `+4` · **CD** `12` · **Refino** `1` *(proteção `+1`)*
+> *nível 5* · **Defesa** `12` · **Acerto** `+4` · **CD** `12` · **Refino** `1` *(proteção `+1`)*
 >
-> *nível 6 a 8* · **Defesa** `15` · **Acerto** `+4` · **CD** `12` · **Refino** `3` *(proteção `+2`)*
+> *nível 6 a 8* · **Defesa** `13` · **Acerto** `+4` · **CD** `12` · **Refino** `3` *(proteção `+2`)*
 >
-> **Vida** `270` · **Integridade** `135` · **Deslocamento** `9 m`
+> **Vida** `324` · **Integridade** `162` · **Deslocamento** `9 m`
 >
-> **Força** `3` · **Destreza** `1` *(Iniciativa)* · **Constituição** `3` · **Inteligência** `1` · **Essência** `1`
+> **Força** `3` · **Destreza** `3` *(Iniciativa)* · **Constituição** `3` · **Inteligência** `0` · **Essência** `1`
 >
 > **Físico** treinado · **Vigor** treinado · **Intelecto** — · **Espírito** —
 >
@@ -235,8 +235,9 @@ Cada corpo de `Ameaça` exige um personagem, e cada `Desastre` exige a mesa padr
 segue alguém no escuro usa o bloco do Betobeto com outro nome.
 
 **Outra faixa.** Copie a vida e o golpe da faixa nova na `Vida e golpe por faixa`, e a linha da
-`Defesa, acerto, CD e refino por marco`, no capítulo 6. Traços, ataques e `Intervenções`
-continuam os mesmos. A ação que monta técnica é refeita no orçamento da faixa nova.
+`Defesa, acerto, CD e refino por marco`, no capítulo 6, e aplique o papel por cima. Os atributos
+são refeitos na `Orçamento de atributo por marco`, no capítulo 5. Traços, ataques e
+`Intervenções` continuam os mesmos. A ação que monta técnica é refeita no orçamento da faixa nova.
 
 **Com capangas.** Pôr `Capanga` ao lado de uma delas segue o `Encontro misturado`, no capítulo 6.
 Uma Tsuchigumo com dois `Capanga` do mesmo nível exige perto de cinco pessoas.

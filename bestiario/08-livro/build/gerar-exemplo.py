@@ -4,9 +4,8 @@
 O checklist de revisão pede: "Pelo menos um exemplo mostra a conta inteira, passo
 a passo" e "os exemplos têm nome próprio". O livro não tinha nenhum.
 
-O exemplo exercita de propósito as três coisas que as seis maldições prontas NÃO
-exercitam:
-  · um `papel` (as seis não têm nenhum)
+O exemplo exercita de propósito as três coisas que a conta tem de mostrar passo a passo:
+  · um `papel` (quando ele nasceu as seis prontas não tinham; desde a v0.224 têm)
   · o fator `0,923` da `Intervenção` (só de `Desastre` para cima)
   · um tamanho acima de `Médio`
 
@@ -45,7 +44,7 @@ def arred(x):
 
 # ── o dado() do make.js (Claude 2), portado; as constantes saem de lá. Quem carrega
 #    `Intervenção` tem o golpe dado(arred(dano/rod × fator) ÷ ações), igual ao make.js.
-REPO = os.environ.get('JJK_REPO', '/media/mizuki/HD Externo II/Claude/Claude 2')
+REPO = os.environ.get('JJK_REPO', os.path.dirname(BEST))
 tm = ler(os.path.join(REPO, 'sistema/05-material/gerador-inimigo/make.js'))
 _md = re.search(r'const DADOS = \[([\d,\s]+)\]', tm)
 _mp = re.search(r'if \(alvo < (\d+)\) return String\(arred\(alvo\)\)', tm)
@@ -212,7 +211,12 @@ cap = ler(CAP)
 if MARCA not in cap:
     morre('a marca `%s` sumiu do capítulo 6' % MARCA)
 i, j = cap.index(MARCA), cap.index('<!-- FIM EXEMPLO -->')
-open(CAP, 'w', encoding='utf-8').write(cap[:i] + MARCA + '\n\n' + '\n'.join(out) + '\n' + cap[j:])
+_novo = cap[:i] + MARCA + '\n\n' + '\n'.join(out) + '\n' + cap[j:]
+# v0.234: `--conferir` compara sem escrever. O capítulo 8 passou dez versões atrás do gerador
+# de inimigo sem nenhum validador ver, e o conferir-bestiario.py roda os quatro assim.
+if '--conferir' in sys.argv:
+    sys.exit(0 if _novo == cap else '✗ DESATUALIZADO: o capítulo não é o que build/gerar-exemplo.py gera hoje — rode ele')
+open(CAP, 'w', encoding='utf-8').write(_novo)
 
 print('=' * 72)
 print('O EXEMPLO MONTADO — %s, nv%d' % (NOME, NIVEL))

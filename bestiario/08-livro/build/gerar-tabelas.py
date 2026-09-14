@@ -82,7 +82,7 @@ NIVEIS = sorted(T['Desastre'])
 #    make.js: dado(arred(dano/rod × fator) ÷ ações). O fator é lido do RASCUNHO-5, e o
 #    dado() é portado do make.js com as constantes lidas de lá.
 R5 = os.path.join(BEST, '03-bloco', 'RASCUNHO-5-o-bloco-em-branco.md')
-REPO = os.environ.get('JJK_REPO', '/media/mizuki/HD Externo II/Claude/Claude 2')
+REPO = os.environ.get('JJK_REPO', os.path.dirname(BEST))
 MAKE = os.path.join(REPO, 'sistema/05-material/gerador-inimigo/make.js')
 COM_INT = ('Desastre', 'Catástrofe', 'Calamidade')
 m = re.search(r'fator de dano de quem tem `Intervenção` é multiplicado por `([\d,]+)`', ler(R5))
@@ -320,7 +320,12 @@ novo = cap[:inicio] + MARCA + '\n\n' + tabelas + '\n\n' + cap[fim:]
 i2 = novo.index(MARCA_ORC)
 f2 = novo.index('<!-- FIM ORCAMENTO -->')
 novo = novo[:i2] + MARCA_ORC + '\n\n' + orcamento + '\n\n' + novo[f2:]
-open(CAP, 'w', encoding='utf-8').write(novo)
+_novo = novo
+# v0.234: `--conferir` compara sem escrever. O capítulo 8 passou dez versões atrás do gerador
+# de inimigo sem nenhum validador ver, e o conferir-bestiario.py roda os quatro assim.
+if '--conferir' in sys.argv:
+    sys.exit(0 if _novo == cap else '✗ DESATUALIZADO: o capítulo não é o que build/gerar-tabelas.py gera hoje — rode ele')
+open(CAP, 'w', encoding='utf-8').write(_novo)
 
 print('=' * 70)
 print('TABELAS DO CAPÍTULO 6 — geradas da `04-fase-1/TABELA.md`')

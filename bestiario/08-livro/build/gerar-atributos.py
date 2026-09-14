@@ -151,7 +151,12 @@ cap = ler(CAP)
 if MARCA not in cap:
     morre('a marca `%s` sumiu do capítulo 5' % MARCA)
 i, j = cap.index(MARCA), cap.index('<!-- FIM ATRIBUTOS -->')
-open(CAP, 'w', encoding='utf-8').write(cap[:i] + MARCA + '\n\n' + '\n'.join(out) + '\n\n' + cap[j:])
+_novo = cap[:i] + MARCA + '\n\n' + '\n'.join(out) + '\n\n' + cap[j:]
+# v0.234: `--conferir` compara sem escrever. O capítulo 8 passou dez versões atrás do gerador
+# de inimigo sem nenhum validador ver, e o conferir-bestiario.py roda os quatro assim.
+if '--conferir' in sys.argv:
+    sys.exit(0 if _novo == cap else '✗ DESATUALIZADO: o capítulo não é o que build/gerar-atributos.py gera hoje — rode ele')
+open(CAP, 'w', encoding='utf-8').write(_novo)
 
 print()
 print('  %-10s %8s %8s %10s' % ('nível', 'pontos', 'Defesa', 'Destreza'))

@@ -7,10 +7,13 @@ Nenhum número é digitado à mão. O script cruza os donos:
   · `04-fase-1/TABELA.md`        — vida, dano/rod, ações, golpe, Defesa, acerto, CD, refino
   · `03-bloco/RASCUNHO-5-...md`   — o `0,923`, o deslocamento, alcance e vizinho por
                                      tamanho, e a área natural por nível
-  · `gerador-inimigo/dados.js`    — o TEXTO das seis (as `PRONTAS`), os atributos e os dois
-                                     TR treinados. Só escolha; número entra por marcador (Claude 2)
-  · `gerador-inimigo/make.js`     — a função `dado()` e a ordem da conta do golpe, portadas e
-                                     conferidas (Claude 2)
+  · `gerador-inimigo/dados.js`    — o TEXTO das seis (as `PRONTAS`), o papel, os atributos, os
+                                     marcos e os dois TR treinados. Só escolha; número entra por
+                                     marcador. E as FAIXAS, CATEGORIAS e PAPEIS, de onde sai a
+                                     vida com o papel (Claude 2)
+  · `gerador-inimigo/make.js`     — a função `dado()`, a ordem da conta do golpe, o fator do
+                                     papel e a Defesa que sai da Destreza, portados e
+                                     conferidos (Claude 2)
   · `manual/40-fundamento.md`     — o d8 e o alcance do `Projétil`         (Claude 2)
 
 ⚠ O script só LÊ o `Claude 2`. Ele nunca escreve lá.
@@ -34,7 +37,7 @@ import sys
 BASE = os.path.dirname(os.path.abspath(__file__))
 LIVRO = os.path.dirname(BASE)
 BEST = os.path.dirname(LIVRO)
-REPO = os.environ.get('JJK_REPO', '/media/mizuki/HD Externo II/Claude/Claude 2')
+REPO = os.environ.get('JJK_REPO', os.path.dirname(BEST))
 
 DEC = os.path.join(BEST, '04-fase-1', 'fila', 'DECIDIDO-as-seis-prontas.md')
 TAB = os.path.join(BEST, '04-fase-1', 'TABELA.md')
@@ -139,15 +142,19 @@ def fmt_golpe(e):
 tdec = ler(DEC)
 
 
-def prontas_do_dados():
-    """As PRONTAS do dados.js, lidas pelo próprio node — sem regex em cima de JavaScript."""
+def do_dados(chave):
+    """Uma constante do dados.js, lida pelo próprio node — sem regex em cima de JavaScript."""
     ler(DADOS)
-    r = subprocess.run(['node', '-e', 'process.stdout.write(JSON.stringify(require(process.argv[1]).PRONTAS))',
-                        DADOS], capture_output=True, text=True)
-    if r.returncode != 0:
-        morre('o node não leu as PRONTAS do dados.js (%s)' % r.stderr.strip()[:160])
+    r = subprocess.run(['node', '-e', 'process.stdout.write(JSON.stringify(require(process.argv[1])[process.argv[2]]))',
+                        DADOS, chave], capture_output=True, text=True)
+    if r.returncode != 0 or not r.stdout:
+        morre('o node não leu `%s` do dados.js (%s)' % (chave, r.stderr.strip()[:160]))
+    return json.loads(r.stdout)
+
+
+def prontas_do_dados():
     out = {}
-    for q in json.loads(r.stdout):
+    for q in do_dados('PRONTAS'):
         q = dict(q)
         if 'acoes_nomeadas' not in q:
             morre('`%s` sem `acoes_nomeadas` no dados.js' % q.get('nome'))
@@ -157,6 +164,37 @@ def prontas_do_dados():
 
 
 jsn = prontas_do_dados()
+
+# ── o papel, portado do make.js (v0.234). Até aqui o capítulo imprimia as seis sem papel, e o
+# gerador punha o papel desde a v0.224: a vida e a Defesa do livro ficaram dez versões atrás.
+PAPEL_MK = ('if (p[1] !== null) return { vida: p[1], defesa: p[2] };',
+            'const n = c[1] === null ? X.ACOES_ESQUADRAO : c[3];',
+            "const ganha = p[3] === 'vantagem' ? (n - 1 + X.MULT_VANTAGEM) / n : 1 + 1 / n;",
+            'return { vida: 1 / ganha, defesa: 0 };',
+            'vida: esc(f[5], c[2] * fp.vida)',
+            'const obrig = dv[1] - 10 - protecao(dv[4]);',
+            'if (extra < 0 || extra > (c[4] ? 1 : 0)) {',
+            'const ch = [dv[1] + fp.defesa + extra, dv[2], dv[3], dv[4]];')
+if not all(g in ler(MAKE) for g in PAPEL_MK):
+    morre('o fator do papel ou a Defesa pela Destreza mudaram de forma no make.js')
+FAIXAS = {x[0]: x for x in do_dados('FAIXAS')}
+CATEGORIAS = {x[0]: x for x in do_dados('CATEGORIAS')}
+PAPEIS = {x[0]: x for x in do_dados('PAPEIS')}
+MULT_VANT, ACOES_ESQ = do_dados('MULT_VANTAGEM'), do_dados('ACOES_ESQUADRAO')
+
+
+def fator_papel(nome, c):
+    if not nome:
+        return dict(vida=1, defesa=0)
+    if nome not in PAPEIS:
+        morre('papel `%s` não existe nos PAPEIS do dados.js' % nome)
+    p = PAPEIS[nome]
+    if p[1] is not None:
+        return dict(vida=p[1], defesa=p[2])
+    n = ACOES_ESQ if c[1] is None else c[3]
+    ganha = (n - 1 + MULT_VANT) / n if p[3] == 'vantagem' else 1 + 1 / n
+    return dict(vida=1 / ganha, defesa=0)
+
 MAPA = []
 for ln in tdec.split('\n'):
     if ln.strip().startswith('|'):
@@ -268,17 +306,6 @@ def rot_nv(a, b):
     return 'nível %d' % a if a == b else 'nível %d a %d' % (a, b)
 
 
-def segmentos(L, lo, hi, campos):
-    seg = []
-    for nv in range(lo, hi + 1):
-        chave = tuple(L[nv][k] for k in campos)
-        if seg and seg[-1][2] == chave:
-            seg[-1][1] = nv
-        else:
-            seg.append([nv, nv, chave])
-    return seg
-
-
 DER = ('Defesa', 'acerto', 'CD', 'refino', 'proteção')
 out, resumo = [], []
 for d in MAPA:
@@ -317,8 +344,32 @@ for d in MAPA:
     if tem_int != bool(j['intervencoes']) or (tem_int and len(j['intervencoes']) != 3):
         morre('`%s` (%s) com %d Intervenções' % (nome, cat, len(j['intervencoes'])))
 
+    # ── o papel na vida e na Defesa, e a Defesa pela Destreza: 10 + Destreza + proteção, e o papel
+    #    por fora (peça 26 §3.4). A Destreza é a da tabela em todo papel; o chefe pode ter 1 a mais
+    fx, cc = FAIXAS.get(d['faixa']), CATEGORIAS.get(cat)
+    if not (fx and cc) or arred(fx[5] * cc[2]) != int(r['vida']):
+        morre('`%s`: a vida da TABELA.md (%s) e a das FAIXAS × CATEGORIAS do dados.js discordam'
+              % (nome, r['vida']))
+    fp = fator_papel(j.get('papel'), cc)
+    vida = arred(fx[5] * cc[2] * fp['vida'])
+    arr = [int(v) for v in j['arranjo'].split('·')]
+    marcos = {int(k): v for k, v in (j.get('marcos') or {}).items()}
+    niveis = []
+    for nv in range(lo, hi + 1):
+        des = arr[1] + sum(1 for mk, at in marcos.items() if mk <= nv and at == 'Destreza')
+        tab = int(L[nv]['Defesa'])
+        extra = des - (tab - 10 - int(L[nv]['proteção'].lstrip('+')))
+        if not 0 <= extra <= (1 if tem_int else 0):
+            morre('`%s` no nível %d: a Destreza %d não dá a Defesa %d da tabela' % (nome, nv, des, tab))
+        niveis.append(tuple([str(tab + fp['defesa'] + extra)] + [L[nv][k] for k in DER[1:]]))
+    seg = []
+    for nv, chave in zip(range(lo, hi + 1), niveis):
+        if seg and seg[-1][2] == chave:
+            seg[-1][1] = nv
+        else:
+            seg.append([nv, nv, chave])
+
     # ── os marcadores
-    seg = segmentos(L, lo, hi, DER)
 
     def por_marco(k):
         base = '`%s`' % seg[0][2][DER.index(k)]
@@ -361,15 +412,19 @@ for d in MAPA:
     treinados = [t for t in TR_TODOS if t in trs_txt]
     if len(vals) != 5 or len(treinados) != 2:
         morre('atributos ou TR de `%s` mudaram de forma no dados.js' % nome)
-    atr = ' · '.join('**%s** `%s`%s' % (a, v, ' *(Iniciativa)*' if a == 'Destreza' else '')
+    # o marco que muda um atributo dentro da faixa aparece junto dele, como no gerador
+    sobe = {at: mk for mk, at in marcos.items() if at in ATRIB}
+    atr = ' · '.join('**%s** `%s`%s%s' % (a, v, (' (`%d` do nível %d)' % (int(v) + 1, sobe[a])) if a in sobe else '',
+                                        ' *(Iniciativa)*' if a == 'Destreza' else '')
                      for a, v in zip(ATRIB, vals))
     trs = ' · '.join('**%s** %s' % (t, 'treinado' if t in treinados else '—') for t in TR_TODOS)
     corpo = (' · %s corpos' % NUM[d['corpos']]) if d['corpos'] > 1 else ''
+    pap = (' · %s' % j['papel']) if j.get('papel') else ''
     mov = ''.join(' · **%s** `%s`' % (mv, DESLOC) for mv in j['movimentos'])
 
     out += ['## %s' % nome, '', '*%s*' % j['linha'], '', j['notas'], '',
             '> ### %s' % nome, '>',
-            '> *Maldição %s · **%s**%s · nível %d a %d*' % (FEM[tam], cat, corpo, lo, hi), '>']
+            '> *Maldição %s · **%s**%s%s · nível %d a %d*' % (FEM[tam], cat, pap, corpo, lo, hi), '>']
     for a, b, v in seg:
         pre = '*%s* · ' % rot_nv(a, b) if len(seg) > 1 else ''
         out += ['> %s**Defesa** `%s` · **Acerto** `%s` · **CD** `%s` · **Refino** `%s` '
@@ -377,7 +432,7 @@ for d in MAPA:
     # o golpe saiu do cabeçalho em 11/09/2026 — ele mora no ataque, em `Ações`
     # (`fila/DECIDIDO-as-tres-respostas-da-passada.md` §1)
     out += ['> **Vida** `%s` · **Integridade** `%s` · '
-            '**Deslocamento** `%s`%s' % (r['vida'], int(r['vida']) // 2, DESLOC, mov), '>',  # v0.228: peca 24 SS3.3
+            '**Deslocamento** `%s`%s' % (vida, vida // 2, DESLOC, mov), '>',  # v0.228: peca 24 SS3.3
             '> %s' % atr, '>', '> %s' % trs, '>',
             '> **Resistências** — · **Imunidades** — · **Vulnerabilidades** — · **Perícias** —', '>',
             '> **Traços**', '>']
@@ -396,20 +451,25 @@ for d in MAPA:
             out += ['> **%d. %s.** %s' % (k, iv['nome'], enche(iv['texto'])), '>']
     out.pop()
     out.append('')
-    resumo.append((nome, d['faixa'], cat, r['vida'], r['o golpe'], golpe, pontos))
+    resumo.append((nome, d['faixa'], cat, j.get('papel') or '—', vida, r['o golpe'], golpe, pontos))
 
 cap = ler(CAP)
 if MARCA not in cap or FIM not in cap:
     morre('as marcas das fichas sumiram do capítulo 8')
 i, k = cap.index(MARCA), cap.index(FIM)
-open(CAP, 'w', encoding='utf-8').write(cap[:i] + MARCA + '\n\n' + '\n'.join(out) + '\n' + cap[k:])
+_novo = cap[:i] + MARCA + '\n\n' + '\n'.join(out) + '\n' + cap[k:]
+# v0.234: `--conferir` compara sem escrever. O capítulo 8 passou dez versões atrás do gerador
+# de inimigo sem nenhum validador ver, e o conferir-bestiario.py roda os quatro assim.
+if '--conferir' in sys.argv:
+    sys.exit(0 if _novo == cap else '✗ DESATUALIZADO: o capítulo não é o que build/gerar-as-seis.py gera hoje — rode ele')
+open(CAP, 'w', encoding='utf-8').write(_novo)
 
 print('=' * 78)
 print('AS SEIS PRONTAS — texto das PRONTAS do dados.js, números da escada VIVA')
 print('=' * 78)
-for nome, fx, cat, vida, cru, g, pts in resumo:
-    print('  %-11s nv %-7s %-9s vida %-4s golpe cru %-10s ⟹ impresso %-14s %.2f pts'
-          % (nome, fx, cat, vida, cru, fmt_golpe(g).strip('`'), pts))
+for nome, fx, cat, pap, vida, cru, g, pts in resumo:
+    print('  %-11s nv %-7s %-9s %-12s vida %-4s golpe cru %-10s ⟹ impresso %-14s %.2f pts'
+          % (nome, fx, cat, pap, vida, cru, fmt_golpe(g).strip('`'), pts))
 print()
 print('  0,923 (RASCUNHO-5) = %.3f · deslocamento %s · Projétil %s · d8 = %.1f · %d condições'
       % (FAT_INT, DESLOC, ALC_PROJ, MED_D8, len(CONDS)))
