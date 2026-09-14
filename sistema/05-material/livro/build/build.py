@@ -471,6 +471,45 @@ def quebras_em_citacao(md_text):
     return "\n".join(linhas)
 
 
+# A caixa de regra que passa deste tamanho, em caracteres, pode quebrar entre páginas.
+LIMITE_CAIXA_LONGA = 700
+
+
+def solta_caixa_longa(soup):
+    """A caixa longa pode quebrar entre páginas; a curta continua inteira.
+
+    O `.destaque` nasceu com `break-inside: avoid`, e a caixa que não cabia no que
+    sobrava da página ia inteira para a seguinte. **Com as listas de Legados das
+    Origens e os blocos de Trilha e de degraus, isso deixava de 30% a 75% da página
+    em branco**, doze vezes na coluna única do Manual da Guilda. *Pedido do Mizuki,
+    v0.237: "Foque na diagramação do documento de uma coluna, ele é oq a galera
+    gostou mais de usar".*
+
+    A marca vai só na caixa com mais de `LIMITE_CAIXA_LONGA` caracteres, e dentro
+    dela cada parágrafo continua sem quebrar. *Medido na coluna única da Guilda:*
+
+        limite     páginas  curtas  caixas de 500 a 700 que quebram
+        nenhum         259      12  —
+        1100           255       5  —
+        700            254       3  nenhuma
+        500            253       1  quatro, e três com um parágrafo só antes da quebra
+
+    **O 700 foi o escolhido.** *Abaixo dele a caixa tem de seis a nove linhas, e
+    partir uma caixa desse tamanho deixa um parágrafo solto no pé da página.* No PDF
+    de duas colunas ele tira três páginas, de 150 para 147, e no Bestiário duas.
+
+    ⚠ Prender a tabela curta ao título dela foi medido junto e reprovou. *Até 15
+    linhas o livro foi a 263 páginas com 21 curtas; até 3 linhas ainda soltava outra
+    tabela e custava duas páginas.*
+    """
+    n = 0
+    for a in soup.find_all("aside"):
+        if "destaque" in (a.get("class") or []) and len(a.get_text()) > LIMITE_CAIXA_LONGA:
+            a["class"] = a.get("class", []) + ["longa"]
+            n += 1
+    return n
+
+
 def md_para_html(md_text, prefixo_id, achados=None):
     html = markdown.markdown(
         quebras_em_citacao(md_text),
@@ -482,6 +521,7 @@ def md_para_html(md_text, prefixo_id, achados=None):
     tira_rotulo_repetido(soup)
     cola_chamada(soup)
     cola_sabor(soup)
+    solta_caixa_longa(soup)
     if VARIANTE == "duas":
         segmenta_colunas(soup)
     if achados is not None:

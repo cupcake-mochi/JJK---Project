@@ -469,6 +469,12 @@ ol > li::before {
 .destaque > :last-child { margin-bottom: 0; }
 .destaque table { margin: 2mm 0 3mm 0; }
 
+/* A caixa longa pode quebrar entre páginas, e o parágrafo dentro dela não. Ver
+   `solta_caixa_longa` no build.py: inteira, ela deixava a página anterior até
+   três quartos em branco. */
+.destaque.longa { break-inside: auto; }
+.destaque.longa > p, .destaque.longa > ul > li, .destaque.longa > ol > li { break-inside: avoid; }
+
 /* ---------- aviso (o que saber ANTES da regra) ---------- */
 /* Segundo estilo de caixa, pedido pela passada de voz da v0.106 e escrito na
    v0.111. O `.destaque` carrega a regra; o `.aviso` carrega o que o leitor

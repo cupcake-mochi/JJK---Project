@@ -28,13 +28,13 @@ PDF"*. É esse PDF, escrito direto a partir desta pasta.
 
 *Decisão em aberto na v0.126 — o Mizuki pediu as três lado a lado.*
 
-| | páginas | o que ela é |
-|---|---|---|
-| `-A-atual` | 256 | o que estava publicado antes desta leva. Snapshot, não se regera |
-| *(sem sufixo)* | 256 | a mesma coisa, com as quebras de página consertadas e o sumário em duas colunas |
-| `-C-duas-colunas` | 149 | corpo em duas colunas a 9,4pt com entrelinha 1,45, e grade de 5+ colunas em largura inteira |
+| | o que ela é |
+|---|---|
+| `-A-atual` | o que estava publicado antes desta leva. Snapshot, não se regera |
+| *(sem sufixo)* | a mesma coisa, com as quebras de página consertadas e o sumário em duas colunas |
+| `-C-duas-colunas` | corpo em duas colunas a 9,4pt com entrelinha 1,45, e grade de 5+ colunas em largura inteira |
 
-> **⚠ Estas duas contagens envelhecem toda vez que o livro muda, e não têm validador.** *Elas diziam `239` e `139` até a v0.178, e nesse meio-tempo a v0.176 já as tinha levado para `239` e `138` sem ninguém corrigir aqui.* **O aviso provou-se em DUAS versões seguidas:** *a v0.179 acrescentou cinco linhas ao capítulo 7 e a coluna única foi de `240` para `241`; a v0.180 reescreveu a ficha da invocação e ela foi para `242`.* **Três versões, três correções à mão** — se isso acontecer uma quarta vez, a resposta deixa de ser corrigir e passa a ser tirar a coluna daqui. **A paginação não é propriedade de documento nenhum — é do artefato construído**, e a decisão da v0.169 foi tirar as cópias em vez de inventar um dono. *Esta tabela é a cópia que sobrou, e ela existe porque compara três diagramações; quem mexer no livro relê ela com `pdfinfo`.*
+> **A coluna de páginas saiu na v0.237, pela regra que este aviso escrevia.** *Ela envelheceu uma quarta vez — dizia `256` e `149` com o livro em `259` e `150` —, e a paginação é do artefato construído: quem precisar do número lê com `pdfinfo`.*
 
 **A geometria da C não é gosto: ela foi medida em três manuais do hobby.** *Guia do Mestre 5e em A4, Caldeirão de Tasha e PHB 2024* — 83%, 92% e 92% das páginas em duas colunas, com corpo entre 9,1 e 9,3pt. **A mancha copiada é a do Guia do Mestre**, que é o único dos três em A4.
 
@@ -45,6 +45,8 @@ PDF"*. É esse PDF, escrito direto a partir desta pasta.
 - **`column-fill` é `balance`, e não `auto`.** *Com `auto` a coluna da esquerda enche antes de a direita começar, e todo bloco curto sai com a direita vazia.*
 - **O corte de tabela larga é a GRADE, não o número de colunas nem a largura em caracteres.** *`ncols >= 4` marcava 40 tabelas e furava o fluxo 40 vezes; largura em caracteres marcaria 176, porque conta célula de prosa como se não quebrasse.*
 - **Entrelinha de coluna estreita é 1,45 e não 1,62.** *O que sobrava de página quase vazia eram duas a sete linhas transbordando.*
+
+**E uma que a v0.237 mediu na coluna única:** *a caixa de regra com mais de `700` caracteres pode quebrar entre páginas, e o parágrafo dentro dela não.* **Inteira, ela deixava a página anterior até três quartos em branco** — *doze páginas assim na Guilda. A medida está em `solta_caixa_longa`, no `build.py`.*
 
 ## Como regerar
 

@@ -8,6 +8,54 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.237] — 14/09/2026
+
+**O Bestiário ganhou a capa do Projeto M, e a coluna única dos dois livros parou de deixar página em branco antes de caixa longa.** *E a ficha viva chegou exportada: o `B18` andou no outro repositório.*
+
+### 1 · A capa no Bestiário
+
+***Pedido dele:*** *"coloque a capa do projeto M no bestiario tbm".* **A pasta `arte` do livro do Bestiário é um link para a do Manual da Guilda**, *e não uma cópia de `1,7 MB`: a capa tem um dono só.* **O `build.py` do Bestiário já procurava a imagem, e avisava que não achava.**
+
+### 2 · A diagramação da coluna única
+
+***Pedido dele:*** *"Foque na diagramação do documento de uma coluna, ele é oq a galera gostou mais de usar".*
+
+**As `259` páginas da Guilda foram medidas pelo próprio PDF**, *com a fonte, o tamanho e a posição de cada linha, e as páginas marcadas foram olhadas uma a uma.* **Título sozinho no pé da página quase não sobra:** *os que aparecem são título de seção com a caixa curta dele logo abaixo, que é o conteúdo da seção.*
+
+**O defeito era outro: a caixa longa ia inteira para a página seguinte.** *O `.destaque` não quebrava, e a lista de Legados das Origens e os blocos de Trilha e de degraus deixavam de `30%` a `75%` da página anterior em branco, doze vezes.*
+
+| limite, em caracteres | páginas | páginas curtas |
+|---|---|---|
+| nenhum | `259` | `12` |
+| `1100` | `255` | `5` |
+| **`700`** | **`254`** | **`3`** |
+| `500` | `253` | `1` |
+
+**O `700` foi o escolhido.** *Com `500`, quatro caixas de seis a nove linhas passam a quebrar, e três ficam com um parágrafo só antes da quebra.* **No PDF de duas colunas a Guilda vai de `150` para `147` páginas, e o Bestiário em coluna única de `62` para `60`.**
+
+**Prender a tabela curta ao título dela foi medido junto, e reprovou.** *Até `15` linhas o livro foi a `263` páginas com `21` curtas; até `3` linhas ainda soltava outra tabela e custava duas páginas.*
+
+### 3 · O `B18`, no outro repositório
+
+**A exportação de 14/09 entrou na `ficha-v01` do clone `Claude 3`**, *e o comparador dá igual célula por célula, fora as limpezas declaradas.* **As `327` células que mudaram desde a exportação de 07/09 são desenho:** *a tabela de perícias com treino, especialização e extra, uma linha a mais da 58 para baixo, o bloco do BLOQUEAR e o refino que vira Lapidação na Restrição Celestial.*
+
+**Entrou a limpeza 5 no extrator:** *os três campos de dano e o equipamento voltam vazios no molde.* **O `Codigo.gs` apaga o dano sozinho depois de aplicar, e o equipamento vazio usa a proteção da aptidão** — *é a regra das barras cheias aplicada a mais quatro células.*
+
+### Alterado
+
+- **Os dois `build.py`**, com a mesma `solta_caixa_longa`, e **os dois CSS**, com a regra da caixa longa.
+- **Os quatro PDFs dos dois livros**, refeitos.
+- **O `README.md` do livro da Guilda:** *a tabela das três diagramações parou de copiar a paginação, como o aviso dela mandava na quarta vez, e a caixa longa entrou entre as coisas medidas.*
+
+### Achado e não consertado
+
+- **Duas tabelas começam no pé da página com o título, o cabeçalho e uma linha:** *`Ritmo de subida` e `Feitos do limiar — exemplos`, na coluna única da Guilda.*
+- **O `Ficha.gs` ainda não foi regerado da `ficha-v01`.** *Três validadores do outro repositório estão presos ao gerador antigo: a lista de abas da decisão C6 ainda tem `MESA` e `QUEM É`, a regra do celular é conferida na aba `MESA`, e o teste da Kaori espera Integridade `28`, da fórmula antiga — o livro publica `26`.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
+
+---
+
 ## [0.236] — 14/09/2026
 
 **A fonte que o livro sempre pediu entrou nos PDFs, e a coincidência dos `256` fechou.** *As faces que faltavam do IBM Plex Mono foram instaladas, os quatro PDFs dos dois livros saíram sem DejaVu, e a medida por capítulo mostrou que os `256` eram soma que se compensava.*
