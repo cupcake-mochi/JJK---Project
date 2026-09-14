@@ -176,7 +176,11 @@ _t26 = open(os.path.join(os.path.dirname(BEST), 'sistema', '03-mecanica', '26-be
 _tab26 = _t26[_t26.find('| marco | nv 6 |'):]
 _nv26 = [int(x) for x in re.findall(r'nv (\d+)', _tab26.split('\n')[0])]
 _pt26 = [int(x) for x in re.findall(r'`(\d+)`', re.search(r'\| \*\*pontos de atributo\*\* \|([^\n]*)', _tab26).group(1))]
-PTS = max([p for n, p in zip(_nv26, _pt26) if n <= NIVEL], default=9)
+# o chefe — quem carrega Intervenção, pela tabela do §4 — lê a linha dele
+_chefe = re.search(r'^\| \*\*`%s`\*\* \| \d+ \| `× [\d,]+` \| `\d+` \| sim \|$' % CAT, _t26, re.M)
+if _chefe:
+    _pt26 = [int(x) for x in re.findall(r'`(\d+)`', re.search(r'\| \*\*pontos de atributo do chefe\*\* \|([^\n]*)', _tab26).group(1))]
+PTS = max([p for n, p in zip(_nv26, _pt26) if n <= NIVEL], default=10 if _chefe else 9)
 DES_OBRIG = int(L['Defesa']) - 10 - int(L['proteção'].replace('+', ''))
 
 out += ['**Os atributos.** No nível %d são `%d` pontos. A Defesa da tabela pede Destreza `%d`; a '

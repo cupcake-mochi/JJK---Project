@@ -1,6 +1,6 @@
 # O Sukuna, remontado no nível 30
 
-*13 e 14/09/2026, da v0.229 à v0.232 do repositório.* **Nenhum número nasce neste arquivo:** *todos saem de `montar-o-sukuna.py`, e a saída inteira está em `SAIDA-o-sukuna-nv30.txt`.* **O `O-SUKUNA-no-rascunho-5.md` continua como o teste de 10/09, no nível 20, e é lá que mora a comparação com a mesa de 07/09.**
+*13 e 14/09/2026, da v0.229 à v0.233 do repositório.* **Nenhum número nasce neste arquivo:** *todos saem de `montar-o-sukuna.py`, e a saída inteira está em `SAIDA-o-sukuna-nv30.txt`.* **O `O-SUKUNA-no-rascunho-5.md` continua como o teste de 10/09, no nível 20, e é lá que mora a comparação com a mesa de 07/09.**
 
 ## O que mudou desde o rascunho 5
 
@@ -19,7 +19,7 @@
 
 | | a decisão | de onde sai o número |
 |---|---|---|
-| **os pontos livres** | **Força `3` · Constituição `3` · Inteligência `2`** — *na v0.232, com o orçamento meio a meio, são `8`; na v0.230 eram `4`, e a escolha tinha sido Força `0`* | o script confere que fecham: `3` na criação e `5` em marco |
+| **os pontos livres** | **Força `3` · Constituição `4` · Inteligência `2`** — *na v0.233 são `9`: o orçamento meio a meio da v0.232 e o ponto de chefe na criação; na v0.230 eram `4`, e a escolha tinha sido Força `0`* | o script confere que fecham: `4` na criação e `5` em marco |
 | **a `Técnica Reversa`** | **cura `90` no lugar de uma ação** — *"essa métrica já tinha sido calculada anteriormente, use ela de base"* | o empate da peça 26 §6.5: a vida `1620` ÷ a luta de `3` rodadas ÷ `6` ações |
 | **a `Chama Divina`** | **Explosão de `3 m` que só mira um oponente fora do Santuário, e todo mundo nos `200 m` dentro** — *"é um dano em área que só pode ser usado em um alvo"* | a Forma do manual na `Classe 4`; o dano é o da `Recarga` |
 | **o voto da barreira aberta** | **sai** | desde a v0.226 ele compraria o que o degrau já dá |
@@ -34,7 +34,7 @@
 >
 > **Vida** `1620` · **Integridade** `810` · **Deslocamento** `9 m`
 >
-> **Força** `3` · **Destreza** `6` *(Iniciativa)* · **Constituição** `3` · **Inteligência** `2` · **Essência** `6`
+> **Força** `3` · **Destreza** `6` *(Iniciativa)* · **Constituição** `4` · **Inteligência** `2` · **Essência** `6`
 >
 > **Físico** treinado · **Vigor** — · **Intelecto** — · **Espírito** treinado
 >

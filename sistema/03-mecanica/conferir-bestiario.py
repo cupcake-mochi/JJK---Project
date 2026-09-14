@@ -319,12 +319,38 @@ else:
             _ruins21.append(f'{_rot}: a peca publica {_p}, e a conta da {_e}')
     if len(_nvs) != len(_curva):
         _ruins21.append('os marcos e a curva da peca 11 tem tamanhos diferentes')
+    # v0.233: o chefe — quem carrega Intervencao — comeca com um ponto a mais, e o ponto nao entra no fator
+    _l_ch = re.search(r'\| \*\*pontos de atributo do chefe\*\* \|([^\n]*)', _tab)
+    _dez = re.search(r'O chefe começa com (\w+) pontos na criação, e não (\w+)\.', TXT)
+    if not (_l_ch and _dez):
+        _ruins21.append('a peca parou de publicar o orcamento do chefe')
+    else:
+        _ch = [int(x) for x in re.findall(r'`(\d+)`', _l_ch.group(1))]
+        _NUMS2 = dict(_NUMS, onze=11)
+        _mais = _NUMS2.get(_dez.group(1).lower(), -1) - _NUMS2.get(_dez.group(2).lower(), -99)
+        if _NUMS2.get(_dez.group(2).lower()) != _base or _mais != 1:
+            _ruins21.append(f'o chefe comeca com {_dez.group(1)} e nao {_dez.group(2)}, e a peca 2 da {_base} — a diferenca tem de ser 1')
+        elif _ch != [p + _mais for p in _esp[2]]:
+            _ruins21.append(f'a linha do chefe publica {_ch}, e a do inimigo mais {_mais} da {[p + _mais for p in _esp[2]]}')
+    # e os dois numeros que o ponto do chefe NAO cobra saem do §3.4
+    _nc = re.search(r'`\+1` de acerto multiplica o dano entregue por `(\d),(\d+)` e `\+1` de Defesa multiplica a vida efetiva por `(\d),(\d+)`', TXT)
+    _pp = re.search(r'um ponto de Defesa move `(\d+)` pontos percentuais, e o personagem acerta alvo difícil em `(\d+)%`', TXT)
+    _banda = re.search(r'ele acerta `(\d+)%` a `(\d+)%`', TXT)
+    if not (_nc and _pp and _banda):
+        _ruins21.append('faltou o preco que o ponto do chefe nao cobra, ou os donos dele no §3.4 e no §3.1')
+    else:
+        _ppv, _pc = int(_pp.group(1)), int(_pp.group(2))
+        _meio = (int(_banda.group(1)) + int(_banda.group(2))) / 2
+        _m_ac = round((_meio + _ppv) / _meio, 2); _m_def = round(_pc / (_pc - _ppv), 2)
+        if (float(f'{_nc.group(1)}.{_nc.group(2)}'), float(f'{_nc.group(3)}.{_nc.group(4)}')) != (_m_ac, _m_def):
+            _ruins21.append(f'a peca diz que o ponto vale {_nc.group(1)},{_nc.group(2)} e {_nc.group(3)},{_nc.group(4)}, e a conta da {_m_ac} e {_m_def}')
     if re.search(r'`\+1` por marco e teto `6`', TXT):
         _ruins21.append('voltou a regra de antes da v0.232, so com o +1 do marco')
     for _x in _ruins21:
         erro('2.1: ' + _x)
     if not _ruins21:
         print(f'  [x] {_base} na criacao, e nos marcos {_nvs} o orcamento da {_esp[2]} — +1 por marco e as escolhas que o meio a meio nao gasta em refino')
+        print(f'  [x] o chefe comeca com {_base + 1}, e a linha dele e a do inimigo mais 1; o ponto nao cobrado vale x{_m_ac} no acerto e x{_m_def} na Defesa')
 
 # --------------------------------------------------------------------------
 bloco('3. A CATEGORIA — vida e dano saem da linha do manual vezes o fator')

@@ -45,8 +45,8 @@ NIVEL = 30
 CATEGORIA = 'Calamidade'
 TAMANHO = 'Médio'
 PAPEL_ESCOLHIDO = 'Artilheiro'
-# v0.232: os pontos livres, por decisao do Mizuki — oito, com o orcamento meio a meio da peca 26 §3.2
-COR = {'Força': 3, 'Constituição': 3, 'Inteligência': 2}
+# v0.233: os pontos livres, por decisao do Mizuki — nove: o orcamento meio a meio e o ponto de chefe na criacao
+COR = {'Força': 3, 'Constituição': 4, 'Inteligência': 2}
 # v0.231: o braço empata se cair com duas rodadas de luta pela frente — decisão do Mizuki
 BRACO_RODADAS = 2
 
@@ -558,7 +558,10 @@ mp = pega(P26, r'O inimigo monta os cinco com (\w+) pontos na criação, teto `(
 # v0.232: o orçamento por marco é a tabela do §3.2 — +1 por marco e as escolhas que o meio a meio não gasta em refino
 _tab_orc = ler(P26)[ler(P26).find('| marco | nv 6 |'):]
 _nvs_orc = [int(x) for x in re.findall(r'nv (\d+)', _tab_orc.split('\n')[0])]
-_pts_orc = [int(x) for x in re.findall(r'`(\d+)`', re.search(r'\| \*\*pontos de atributo\*\* \|([^\n]*)', _tab_orc).group(1))]
+# v0.233: o chefe — quem carrega Intervenção — lê a linha dele, que começa com um ponto a mais
+_rot_orc = 'pontos de atributo do chefe' if TEM_INT.get(CATEGORIA) else 'pontos de atributo'
+_pts_orc = [int(x) for x in re.findall(r'`(\d+)`', re.search(r'\| \*\*' + _rot_orc + r'\*\* \|([^\n]*)', _tab_orc).group(1))]
+_base_orc = pega(P26, r'O chefe começa com (\w+) pontos na criação', 'os pontos do chefe na criação').group(1) if TEM_INT.get(CATEGORIA) else None
 NUM_PT = {'um': 1, 'dois': 2, 'três': 3, 'quatro': 4, 'cinco': 5, 'seis': 6,
           'sete': 7, 'oito': 8, 'nove': 9, 'dez': 10}
 PONTOS_CRIACAO = NUM_PT.get(mp.group(1).lower(), None)
@@ -572,6 +575,8 @@ if int(mp.group(2)) != CRIACAO_TETO or int(mp.group(3)) != ATRIB_TETO:
 
 marcos_ate = [m for m in MARCOS if m <= NIVEL]
 maestria = MAESTRIA_BASE + len([m for m in MARCOS_MAESTRIA if m <= NIVEL])
+if _base_orc:
+    PONTOS_CRIACAO = NUM_PT[_base_orc.lower()]
 orcamento = max([p for nv_, p in zip(_nvs_orc, _pts_orc) if nv_ <= NIVEL], default=PONTOS_CRIACAO)
 PONTOS_MARCO = orcamento - PONTOS_CRIACAO
 

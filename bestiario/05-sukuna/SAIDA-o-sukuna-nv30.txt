@@ -133,7 +133,7 @@ OS ATRIBUTOS — eles não se escolhem: as três derivadas OBRIGAM eles
 ================================================================================================
   a maestria no nv30            4        base 1 + os marcos [10, 18, 26]
   os marcos até o nv30          7        [6, 10, 14, 18, 22, 26, 30]
-  o orçamento de atributo       20       9 na criação (teto 3 ali) + 11 dos 7 marcos (teto 6) — peça 26 §3.2
+  o orçamento de atributo       21       10 na criação (teto 3 ali) + 11 dos 7 marcos (teto 6) — peça 26 §3.2
 
   Defesa 20 = 10 + Destreza + proteção 4   ⟹  DESTREZA OBRIGADA = 6
   acerto +10 = atributo + maestria 4         ⟹  ATRIBUTO DA TÉCNICA = 6
@@ -146,10 +146,10 @@ OS ATRIBUTOS — eles não se escolhem: as três derivadas OBRIGAM eles
   ----------------------------------------------------------------
                                                          6    12.0
 
-  ⟹  sobram 8.0 ponto(s) de 20 pra COR, e 5 ponto(s) de marco de 11.
+  ⟹  sobram 9.0 ponto(s) de 21 pra COR, e 5 ponto(s) de marco de 11.
 
-  os livres, escolhidos:  Força 3 · Constituição 3 · Inteligência 2
-  fecham: 8 de 8 pontos — 3 na criação (sobravam 3) e 5 em marco (sobrava 5)
+  os livres, escolhidos:  Força 3 · Constituição 4 · Inteligência 2
+  fecham: 9 de 9 pontos — 4 na criação (sobravam 4) e 5 em marco (sobrava 5)
 
 ================================================================================================
 A FICHA — o que vai em cada célula do bloco
@@ -271,7 +271,7 @@ AS CONFERÊNCIAS
   [ok]  o golpe cabe na mão                         6 dados  ·  teto 8
   [ok]  a categoria tem `Intervenção`               `Calamidade` — de `Desastre` pra cima
   [ok]  o orçamento passa do piso                   14.9 pontos  ·  piso 3
-  [ok]  os pontos livres fecham                     Força 3 · Constituição 3 · Inteligência 2
+  [ok]  os pontos livres fecham                     Força 3 · Constituição 4 · Inteligência 2
   [ok]  a Chama tem dois terços em dado             `18d12 + 50` = 167  ·  70% em dado
   [ok]  a Extensão cabe na cota                     56.5 de 404  ·  golpe ligado 58
   [ok]  o Santuário cabe no gate                    refino 10  ·  gate 10

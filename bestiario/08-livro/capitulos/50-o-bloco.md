@@ -76,18 +76,18 @@ Os cinco atributos do inimigo saem do mesmo orçamento de uma ficha de jogador.
 **Orçamento de atributo por marco**
 {: .tab-titulo }
 
-| nível | pontos no total | Defesa | Destreza que ela obriga |
-|---|---|---|---|
-| **2–5** | `9` | `14` | `3` |
-| **6–9** | `10` | `15` | `3` |
-| **10–13** | `12` | `16` | `4` |
-| **14–17** | `13` | `17` | `4` |
-| **18–21** | `15` | `18` | `5` |
-| **22–25** | `16` | `19` | `5` |
-| **26–29** | `18` | `20` | `6` |
-| **30** | `20` | `20` | `6` |
+| nível | pontos no total | do chefe | Defesa | Destreza que ela obriga |
+|---|---|---|---|---|
+| **2–5** | `9` | `10` | `14` | `3` |
+| **6–9** | `10` | `11` | `15` | `3` |
+| **10–13** | `12` | `13` | `16` | `4` |
+| **14–17** | `13` | `14` | `17` | `4` |
+| **18–21** | `15` | `16` | `18` | `5` |
+| **22–25** | `16` | `17` | `19` | `5` |
+| **26–29** | `18` | `19` | `20` | `6` |
+| **30** | `20` | `21` | `20` | `6` |
 
-*`9` pontos na criação, com teto `3` em cada atributo. Em cada marco, `+1`, e mais `+1` nas escolhas que o `meio a meio` não gasta em refino, com teto `6`.*
+*`9` pontos na criação, com teto `3` em cada atributo. Em cada marco, `+1`, e mais `+1` nas escolhas que o `meio a meio` não gasta em refino, com teto `6`. O chefe, quem carrega `Intervenção`, começa com `10`.*
 
 <!-- FIM ATRIBUTOS -->
 
@@ -104,6 +104,9 @@ dos seis pontos de marco. Sobram cinco pontos para os outros três atributos, do
 
 O aperto é normal: um chefe é bom em duas coisas e passável no resto. No nível 30 sobram oito
 pontos, cinco deles de marco.
+
+O chefe, que é quem carrega `Intervenção`, começa com um ponto a mais. Ele vai para qualquer
+atributo, inclusive a Destreza ou o atributo da técnica, e aí a Defesa ou o acerto sobem `1`.
 
 ### Saídas do aperto
 

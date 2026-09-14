@@ -1103,11 +1103,32 @@ vida e dano.</p><p><strong>Papel.</strong> Como ele luta. O papel redistribui o 
 Classe. As duas escadas não coincidem, e o capítulo 6 traz uma tabela para cada.</p><p><strong>Integridade</strong> é metade da vida, arredondando para baixo.</p><p><strong>O golpe</strong> não tem célula. Ele é o dano de uma ação, e sai escrito dentro de cada ataque, em
 <code>Ações</code><span class="ix-anc" id="ix-cap-bloco-de-inimigo-rodada"></span>, junto do alcance. Multiplicar pelo número de ações dá o dano por rodada, e por isso o dano
 por rodada também não tem célula.</p><p><strong>Deslocamento</strong> é 9 m para todo mundo. Escreva o tipo de movimento ao lado quando ele voa,
-escala ou escava.</p><p><strong>Iniciativa</strong> é a Destreza. Ela já está na linha de atributos e não ganha célula.</p><h1>Atributos</h1><p>Os cinco atributos do inimigo saem do mesmo orçamento de uma ficha de jogador.</p><p class="tab-titulo"><strong><span class="ix-anc" id="ix-cap-bloco-de-inimigo-atributo"></span>Orçamento de atributo por marco</strong></p><table class="tab"><colgroup><col style="width:15.31%"/><col style="width:29.40%"/><col style="width:15.38%"/><col style="width:39.92%"/></colgroup>
+escala ou escava.</p><p><strong>Iniciativa</strong> é a Destreza. Ela já está na linha de atributos e não ganha célula.</p><h1>Atributos</h1><p>Os cinco atributos do inimigo saem do mesmo orçamento de uma ficha de jogador.</p></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ATRIBUTOS -->
+
+<table class="tab larga plena"><caption><strong><span class="ix-anc" id="ix-cap-bloco-de-inimigo-atributo"></span>Orçamento de atributo por marco</strong></caption><colgroup><col style="width:12.89%"/><col style="width:24.76%"/><col style="width:15.79%"/><col style="width:12.95%"/><col style="width:33.61%"/></colgroup>
 <thead>
 <tr>
 <th>nível</th>
 <th>pontos no total</th>
+<th>do chefe</th>
 <th>Defesa</th>
 <th>Destreza que ela obriga</th>
 </tr>
@@ -1116,57 +1137,67 @@ escala ou escava.</p><p><strong>Iniciativa</strong> é a Destreza. Ela já está
 <tr>
 <td class="nome"><strong>2–5</strong></td>
 <td><code>9</code></td>
+<td><code>10</code></td>
 <td><code>14</code></td>
 <td><code>3</code></td>
 </tr>
 <tr>
 <td class="nome"><strong>6–9</strong></td>
 <td><code>10</code></td>
+<td><code>11</code></td>
 <td><code>15</code></td>
 <td><code>3</code></td>
 </tr>
 <tr>
 <td class="nome"><strong>10–13</strong></td>
 <td><code>12</code></td>
+<td><code>13</code></td>
 <td><code>16</code></td>
 <td><code>4</code></td>
 </tr>
 <tr>
 <td class="nome"><strong>14–17</strong></td>
 <td><code>13</code></td>
+<td><code>14</code></td>
 <td><code>17</code></td>
 <td><code>4</code></td>
 </tr>
 <tr>
 <td class="nome"><strong>18–21</strong></td>
 <td><code>15</code></td>
+<td><code>16</code></td>
 <td><code>18</code></td>
 <td><code>5</code></td>
 </tr>
 <tr>
 <td class="nome"><strong>22–25</strong></td>
 <td><code>16</code></td>
+<td><code>17</code></td>
 <td><code>19</code></td>
 <td><code>5</code></td>
 </tr>
 <tr>
 <td class="nome"><strong>26–29</strong></td>
 <td><code>18</code></td>
+<td><code>19</code></td>
 <td><code>20</code></td>
 <td><code>6</code></td>
 </tr>
 <tr>
 <td class="nome"><strong>30</strong></td>
 <td><code>20</code></td>
+<td><code>21</code></td>
 <td><code>20</code></td>
 <td><code>6</code></td>
 </tr>
 </tbody>
-</table><p><em><code>9</code><span class="ix-anc" id="ix-cap-bloco-de-inimigo-teto"></span> pontos na criação, com teto <code>3</code> em cada atributo. Em cada marco, <code>+1</code>, e mais <code>+1</code> nas escolhas que o <code>meio a meio</code> não gasta em refino, com teto <code>6</code>.</em></p><p>Os pontos compram cor, e não tamanho. Um chefe de Força <code>6</code> e um de Essência <code>6</code> têm a mesma vida e
+</table>
+<div class="c2"><p><em><code>9</code><span class="ix-anc" id="ix-cap-bloco-de-inimigo-teto"></span> pontos na criação, com teto <code>3</code> em cada atributo. Em cada marco, <code>+1</code>, e mais <code>+1</code> nas escolhas que o <code>meio a meio</code> não gasta em refino, com teto <code>6</code>. O chefe, quem carrega <code>Intervenção</code>, começa com <code>10</code>.</em></p><p>Os pontos compram cor, e não tamanho. Um chefe de Força <code>6</code> e um de Essência <code>6</code> têm a mesma vida e
 o mesmo dano por rodada, e jogam diferente na mesa.</p><h2 id="cap-bloco-de-inimigo-orcamento-apertado">Orçamento apertado</h2><p class="sabor">Duas das três derivadas são obrigadas. A Defesa pede Destreza, e o acerto pede o atributo com que
 aquele inimigo ataca.</p><p>Quando esses dois são atributos diferentes, eles comem dez dos quinze pontos do nível 20 e quatro
 dos seis pontos de marco. Sobram cinco pontos para os outros três atributos, dois deles de marco.</p><p>O aperto é normal: um chefe é bom em duas coisas e passável no resto. No nível 30 sobram oito
-pontos, cinco deles de marco.</p><h3>Saídas do aperto</h3><p class="sabor"><strong>A técnica declara o atributo.</strong> Ela pode declarar qualquer um dos cinco. Se declarar a Destreza,
+pontos, cinco deles de marco.</p><p>O chefe, que é quem carrega <code>Intervenção</code>, começa com um ponto a mais. Ele vai para qualquer
+atributo, inclusive a Destreza ou o atributo da técnica, e aí a Defesa ou o acerto sobem <code>1</code>.</p><h3>Saídas do aperto</h3><p class="sabor"><strong>A técnica declara o atributo.</strong> Ela pode declarar qualquer um dos cinco. Se declarar a Destreza,
 as três derivadas passam a ler o mesmo atributo: o chefe gasta cinco pontos em vez de dez, e
 sobram dez pontos, quatro deles de marco, para o resto.</p><p><strong>O Teste de Resistência <code>Físico</code> aceita Força ou Destreza</strong>, declarado na criação e travado ali.
 Um chefe de Força <code>1</code> põe o <code>Físico</code> na Destreza que a Defesa já obrigou, e o Teste sai alto em
@@ -1283,28 +1314,8 @@ aquela ação não monta feitiço. Ela bate, e o dano sai como a <code>Vida e go
 <p>Um sentido, um jeito de se mover, uma aparência que engana, ou o motivo de eles andarem em
 bando. O traço não custa orçamento nenhum.</p>
 </aside><p>Um inimigo de nível baixo com uma ação e um traço passivo é a forma normal da coisa.</p></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- ATRIBUTOS -->
-
-
-
 <!-- FIM ATRIBUTOS -->
+
 
 
 
@@ -1812,7 +1823,7 @@ trinta e dois quadrados, e três deles não cabem em volta de uma pessoa sem que
 </tbody>
 </table>
 <div class="c2"><p><em><span class="ix-anc" id="ix-cap-criacao-de-inimigos-marco"></span>Estas cinco valem para toda categoria. Elas sobem em marco de nível, e as duas escadas não coincidem.</em></p><h1>Exemplo</h1><p><strong>Ubume</strong></p><p><em>A mulher que aparece com uma criança no colo, e pede que você segure ela.</em></p><p>Um grupo de nível 10 precisa dos quatro para derrubar isto, e quem monta quer um bicho que
-aguenta apanhar. Isso são três escolhas, e cada uma tem uma linha de tabela.</p><p><strong>Passo 1 — a categoria.</strong> Quatro pessoas é <code>Desastre</code>. A linha do nível 10 dá <strong>vida <code>390</code></strong>, <strong><code>3</code> ações</strong> e golpe <strong><code>23 (2d10 + 12)</code></strong>, que já traz o <code>0,923</code> da <code>Intervenção</code>.</p><p><strong>Passo 2 — o papel.</strong> Ele apanha de frente, então <code>Brutamontes</code>: <strong>vida <code>× 1,20</code></strong> e <strong>Defesa <code>-2</code></strong>. A vida vai a <code>390 × 1,20</code> = <strong><code>468</code></strong>, e a Defesa de <code>16</code> para <strong><code>14</code></strong>.</p><p><strong>Passo 3 — o tamanho.</strong> <code>Grande</code>: ocupa <code>2×2</code> na grade, alcança <code>3 m</code>, e o golpe pega o alvo mais metade em um vizinho. Não custa nada.</p><p><strong>Os atributos.</strong> No nível 10 são <code>12</code> pontos. A Defesa da tabela pede Destreza <code>4</code>; a técnica dele declara Força, que é o que a ficção pede.</p><aside class="destaque">
+aguenta apanhar. Isso são três escolhas, e cada uma tem uma linha de tabela.</p><p><strong>Passo 1 — a categoria.</strong> Quatro pessoas é <code>Desastre</code>. A linha do nível 10 dá <strong>vida <code>390</code></strong>, <strong><code>3</code> ações</strong> e golpe <strong><code>23 (2d10 + 12)</code></strong>, que já traz o <code>0,923</code> da <code>Intervenção</code>.</p><p><strong>Passo 2 — o papel.</strong> Ele apanha de frente, então <code>Brutamontes</code>: <strong>vida <code>× 1,20</code></strong> e <strong>Defesa <code>-2</code></strong>. A vida vai a <code>390 × 1,20</code> = <strong><code>468</code></strong>, e a Defesa de <code>16</code> para <strong><code>14</code></strong>.</p><p><strong>Passo 3 — o tamanho.</strong> <code>Grande</code>: ocupa <code>2×2</code> na grade, alcança <code>3 m</code>, e o golpe pega o alvo mais metade em um vizinho. Não custa nada.</p><p><strong>Os atributos.</strong> No nível 10 são <code>13</code> pontos. A Defesa da tabela pede Destreza <code>4</code>; a técnica dele declara Força, que é o que a ficção pede.</p><aside class="destaque">
 <h3>Ubume</h3>
 <p class="sabor"><em>Maldição Grande · </em><em>Desastre</em><em> · </em><em>Brutamontes</em><em> · nível 10</em></p>
 <p><strong>Defesa</strong> <code>14</code> · <strong>Acerto</strong> <code>+6</code> · <strong>CD</strong> <code>14</code> · <strong>Refino</strong> <code>4</code> <em>(proteção <code>+2</code>)</em></p>

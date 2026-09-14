@@ -1,0 +1,23 @@
+
+D&D 2024 — nível de desafio contra personagem do mesmo nível (o personagem que põe tudo em atributo)
+  nível      n  maior do monstro  do personagem  diferença  soma do monstro  do personagem
+   1–4     218                 3              4         -1                0              7
+   5–8      52                 4              5         -1              8.5              9
+   9–12     23                 6              5         +1               17             10
+  13–16     18                 6              5         +1               21             11
+  17–20     20                 8              5         +3               30             11
+
+Pathfinder 2e — nível da criatura contra personagem do mesmo nível (só o maior atributo)
+  nível      n  maior do monstro  do personagem  diferença
+   1–4      74                 4              4         +0
+   5–9     161                 6              4         +2
+  10–14    188                 7              5         +2
+  15–19    166                 9              5         +4
+  20–25     85                10              6         +4
+
+Draw Steel — nível do monstro contra herói do mesmo nível
+  nível      n  maior do monstro  do personagem  diferença  soma do monstro  do personagem
+   1–3      74                 2              2         +0                3              5
+   4–6      48                 3              3         +0                7              7
+   7–9      35                 4              4         +0                8             12
+  10–11     24                 5              5         +0               14             14

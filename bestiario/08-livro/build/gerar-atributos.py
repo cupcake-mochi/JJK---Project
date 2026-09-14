@@ -80,6 +80,14 @@ _lp = re.search(r'\| \*\*pontos de atributo\*\* \|([^\n]*)', _tab26)
 if not _lp:
     morre('a linha dos pontos de atributo sumiu da peça 26 §3.2')
 PT26 = [int(x) for x in re.findall(r'`(\d+)`', _lp.group(1))]
+_lc = re.search(r'\| \*\*pontos de atributo do chefe\*\* \|([^\n]*)', _tab26)
+if not _lc:
+    morre('a linha do chefe sumiu da peça 26 §3.2')
+PT26_CHEFE = [int(x) for x in re.findall(r'`(\d+)`', _lc.group(1))]
+
+
+def pontos_chefe(nv):
+    return max([p for n, p in zip(NV26, PT26_CHEFE) if n <= nv], default=BASE_CRIACAO + 1)
 
 
 def pontos(nv):
@@ -130,13 +138,14 @@ if (calc_def, calc_des) != (DEF_REF, DES_REF):
 
 # ── §4 · a tabela
 out = ['**Orçamento de atributo por marco**', '{: .tab-titulo }', '',
-       '| nível | pontos no total | Defesa | Destreza que ela obriga |', '|---|---|---|---|']
+       '| nível | pontos no total | do chefe | Defesa | Destreza que ela obriga |', '|---|---|---|---|---|']
 for a, b in marcos:
     rot = str(a) if a == b else '%d–%d' % (a, b)
-    out.append('| **%s** | `%d` | `%s` | `%d` |'
-               % (rot, pontos(a), linhas[a]['Defesa'], destreza_obrigada(a)))
+    out.append('| **%s** | `%d` | `%d` | `%s` | `%d` |'
+               % (rot, pontos(a), pontos_chefe(a), linhas[a]['Defesa'], destreza_obrigada(a)))
 out += ['', '*`9` pontos na criação, com teto `3` em cada atributo. Em cada marco, `+1`, e mais `+1` '
-        'nas escolhas que o `meio a meio` não gasta em refino, com teto `6`.*']
+        'nas escolhas que o `meio a meio` não gasta em refino, com teto `6`. O chefe, quem carrega `Intervenção`, '
+        'começa com `10`.*']
 
 cap = ler(CAP)
 if MARCA not in cap:

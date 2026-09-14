@@ -8,6 +8,56 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.233] — 14/09/2026
+
+**O chefe começa com dez pontos de atributo na criação, e não nove.** *Saiu de uma pergunta dele sobre o D&D, e da medição de três sistemas.*
+
+### 1 · A pergunta, e o que os três sistemas fazem
+
+***Pergunta dele:*** *"Inimigos em DnD normalmente tem mais atributos que player, tem alguma metrica pra isso? vale apena a gente usar? os outros sistemas fazem isso tambem?"* **A medição está em `bestiario/04-fase-1/fila/MEDIDA-o-atributo-do-monstro.md`:**
+
+| sistema | régua escrita | o maior atributo do monstro no topo, contra o personagem |
+|---|---|---|
+| D&D 2024 | não | `+3` — *e ele empata até o nível 16; a distância do topo é o item mágico do personagem* |
+| Pathfinder 2e | sim, tabela por nível no GM Core | `+4` — *lá o ataque e a CA saem de outra tabela* |
+| Draw Steel | sim, `1 +` o escalão | `+0` — *e o `Leader` e o `Solo` ganham `+1`* |
+
+**Eu errei uma vez no caminho:** *disse que no D&D o atributo do monstro era quase só roupa, e ele me corrigiu — lá a CA, o ataque e a CD saem do atributo, como aqui.* **A medição do ataque e da CD mostrou o resto:** *até o nível 16 o monstro empata com o personagem sem item, e no topo a distância de `+3` a `+4` é a arma `+3` e o foco `+3` que o personagem do D&D carrega.*
+
+### 2 · A decisão
+
+***Decisão dele:*** *"vai ser na criação da ficha ao invés de começar com 9 pontos, começa com 10. É um bônus que sim, faz diferença, mas calcular tanto encima dele é trabalho extra demais, é um ponto q pode ir em 5 atributos diferentes".*
+
+- **Chefe é quem carrega `Intervenção`** — *`Desastre`, `Catástrofe` e `Calamidade`, o equivalente do `Leader` e do `Solo` do Draw Steel, que são os monstros com `Villain Action`.*
+- **O ponto é um ponto como os outros:** *na Destreza sobe a Defesa, no atributo da técnica sobe o acerto e a CD.*
+- **Ele não entra no fator.** *A peça registra quanto ele vale e não cobra: `1,10` no acerto e `1,11` na Defesa.*
+- **No meio do caminho ele tinha escolhido `+1` no maior atributo com teto `6` e preço no fator**, *e trocou pelo ponto de criação antes de a regra ser escrita.*
+
+### 3 · O Sukuna
+
+**Ele é `Calamidade`, então é chefe: `21` pontos no nível 30, `9` livres.** ***"Constituição (3 → 4)".*** *O Santuário cai com `56%` na primeira rodada de uma disputa, contra `65%`.*
+
+### Adicionado
+
+- **Na checagem `2.1` do `conferir-bestiario.py`:** *a linha do chefe é a do inimigo mais o ponto, a peça diz dez contra nove, e o preço que o ponto não cobra reconstrói do §3.4.* **Quatro perturbações e um contra-teste.**
+- **`bestiario/04-fase-1/fila/medir-o-atributo-do-monstro.py`**, com a saída e a `MEDIDA`.
+
+### Alterado
+
+- **A peça 26 §3.2** ganhou a linha do chefe e a regra; **o §7** ganhou as perturbações.
+- **O livro do Bestiário:** *o capítulo 5 ganhou a coluna do chefe e uma frase no "Orçamento apertado"; o exemplo do capítulo 6, uma `Desastre`, foi de `12` para `13` pontos.* **Os PDFs foram refeitos.**
+- **O `montar-o-sukuna.py`** lê a linha do chefe; **o `O-SUKUNA-no-nivel-30.md`** traz a Constituição `4`.
+- **A lista branca da checagem `7.2`** vai a `176`, pela citação da `MEDIDA` na peça 26.
+
+### Achado e não consertado
+
+- **A `Tsuchigumo` e o `Oni` são chefe e continuam com o arranjo de nove pontos** *no gerador de inimigo e no capítulo 8 do livro do Bestiário.* **O ponto de chefe fica a gastar** — *e as seis prontas já não mostravam os pontos de marco.*
+- **Eu mexi sem querer na entrada da v0.232 do CHANGELOG, que já estava commitada**, *e desfiz antes de fechar esta versão; ela foi conferida contra o objeto do commit e está idêntica.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
+
+---
+
 ## [0.232] — 14/09/2026
 
 **O inimigo passou a ganhar atributo no ritmo do `meio a meio`, e o Sukuna refez os pontos livres.** *A pergunta dele — "os ganhos de atributo de inimigos está funcionando como? os marcos existem pra eles?" — achou uma metade faltando.*

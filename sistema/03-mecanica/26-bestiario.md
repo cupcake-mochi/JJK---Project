@@ -76,8 +76,15 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 | refino do `meio a meio` | `3` | `4` | `6` | `7` | `9` | `10` | `10` |
 | escolhas gastas em refino, acumuladas | `1` | `1` | `2` | `2` | `3` | `3` | `3` |
 | **pontos de atributo** | **`10`** | **`12`** | **`13`** | **`15`** | **`16`** | **`18`** | **`20`** |
+| **pontos de atributo do chefe** | **`11`** | **`13`** | **`14`** | **`16`** | **`17`** | **`19`** | **`21`** |
 
-*Antes do nível 6 são os nove da criação. As escolhas gastas em refino saem da peça 11 §3: a curva menos o refino que o marco dá de graça, e uma escolha gasta não volta quando a curva bate no teto.* **A invocação da peça 15 §3.3 continua com o `+1` do marco só, porque o ritmo dela é o do dono.**
+*Antes do nível 6 são os nove da criação, e os dez do chefe. As escolhas gastas em refino saem da peça 11 §3: a curva menos o refino que o marco dá de graça, e uma escolha gasta não volta quando a curva bate no teto.* **A invocação da peça 15 §3.3 continua com o `+1` do marco só, porque o ritmo dela é o do dono.**
+
+> **O chefe começa com dez pontos na criação, e não nove.** *Chefe é quem carrega `Intervenção` — `Desastre`, `Catástrofe` e `Calamidade`. O teto de `3` na criação e o de `6` continuam.*
+
+***Decisão do Mizuki, v0.233:*** *"vai ser na criação da ficha ao invés de começar com 9 pontos, começa com 10. É um bônus que sim, faz diferença, mas calcular tanto encima dele é trabalho extra demais, é um ponto q pode ir em 5 atributos diferentes".* **O molde é o do Draw Steel, em que o `Leader` e o `Solo` ganham `+1` no maior atributo** — *e são os monstros com `Villain Action`, que é o que a `Intervenção` é aqui* (`bestiario/04-fase-1/fila/MEDIDA-o-atributo-do-monstro.md`).
+
+> **O ponto é um ponto como os outros:** *se ele for para a Destreza, a Defesa sobe `1`; se for para o atributo da técnica, o acerto e a CD sobem `1`.* **E ele não entra no fator da categoria, por decisão.** *Medido, `+1` de acerto multiplica o dano entregue por `1,10` e `+1` de Defesa multiplica a vida efetiva por `1,11`; o sistema escolheu não cobrar, e o encontro com chefe fica um pouco mais pesado do que a categoria diz.*
 
 **É daqui que as três derivadas do §3.1 saem.** *A Defesa lê a Destreza, o acerto e a CD leem o atributo que aquele inimigo usa para atacar, e o teto de pacto do §3 lê a Essência.* **Sem os cinco escritos, as três derivadas ficam penduradas numa curva sem ficha por baixo.**
 
@@ -590,7 +597,7 @@ o fator = [disparos × aquela razão + (luta − disparos)] ÷ luta
 |---|---|
 | **1** | **as âncoras existem nos donos.** Cada número que a ficha usa aparece no documento que esta peça declara como dono, e a tabela do §3 é comparada com a lista do validador nos dois sentidos |
 | **2** | **as três derivadas reconstroem.** A Defesa, o acerto e a CD saem das fórmulas da peça 1 §5, com a proteção andando junto do refino — e o resultado tem de bater com os `50%` a `55%` de acerto e os `35%` de falha que a peça 1 §6 publica |
-| **2.1** | **o orçamento de atributo reconstrói.** A tabela do §3.2 sai dos nove pontos da peça 2 e da curva do `meio a meio` da peça 11 — `+1` por marco e as escolhas que a curva não gasta em refino —, e a regra de antes da v0.232 não volta |
+| **2.1** | **o orçamento de atributo reconstrói.** A tabela do §3.2 sai dos nove pontos da peça 2 e da curva do `meio a meio` da peça 11 — `+1` por marco e as escolhas que a curva não gasta em refino —; a linha do chefe é ela mais o ponto da criação; o preço que o ponto não cobra sai do §3.4; e a regra de antes da v0.232 não volta |
 | **3** | **a categoria é cópia com dono.** Vida e dano de cada uma reconstroem da linha do manual vezes o fator, e o fator reconstrói do número de personagens. *Desde a v0.221 o `Capanga` entra por outra porta: a vida dele é o dano do grupo dividido por quatro, para baixo. E a `3.3` confere o tamanho do §3.3: o alcance é o lado da grade vezes o quadrado* |
 | **4** | **as ações são declaradas**, e a categoria de fator `1,00` bate com o piso que a peça 19 §2.2 publica. *Se aquele piso mudar, esta acende* |
 | **5** | **o câmbio é medido, não guardado.** A simulação de fogo concentrado é rodada aqui dentro, com o `Capanga` derivado do dano do grupo e do dano do chefe, e o `8` publicado tem de ser o que ela devolve. *E o capanga que a tabela `Inimigos` do manual publica tem de ser esse mesmo — desde a v0.221, quando o capanga da `Alcateia` morreu* |
@@ -846,6 +853,16 @@ o fator = [disparos × aquela razão + (luta − disparos)] ÷ luta
 | volta a regra só com o `+1` do marco | acende | acende |
 | o refino da tabela vira `9` no nível 26 | acende | acende |
 | **contra-teste:** a curva do nível 6 e a tabela mudam juntas | fica verde | fica verde |
+
+### 7.8 As quatro perturbações da v0.233, no ponto do chefe
+
+| perturbação | esperado | deu |
+|---|---|---|
+| a linha do chefe erra o nível 30 | acende | acende |
+| o chefe passa a começar com onze | acende | acende |
+| o preço não cobrado do acerto vira `1,20` | acende | acende |
+| some a regra do chefe | acende | acende |
+| **contra-teste:** a curva do nível 6, a tabela e a linha do chefe mudam juntas | fica verde | fica verde |
 
 ## 8. Em aberto
 
